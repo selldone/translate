@@ -9174,7 +9174,7 @@ export default {
       force_edit: "Buộc chỉnh sửa đường dẫn",
       force_edit_msg: "Thay đổi tên chuyên mục & cập nhật tất cả các bài viết.",
       star_msg: "Danh mục được xếp hạng được ưu tiên hiển thị trong blog.",
-      star: "Nhìn chằm chằm",
+      star: "nhìn chằm chằm",
       delete_action: "Xóa danh mục",
       add_action: "thêm thể loại",
       edit_action: "Chỉnh sửa danh mục",

@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Daşarky baglanyşyk",
         description: "Şéţ á Baglanyşyk Ţó áñ éẋţéřñáľ URL.",
-        tips: "Ýóú çáñ áţţáçħ áñý URL Ţó ţħé element. Ŵħéñ Ulanyjylar çľíçķ óñ ţħé element óñ ţħé Haryt ƥáğé, ţħéý ŵíľľ ƀé řéďířéçţéď Ţó ţħáţ Baglanyşyk.",
+        tips: "Haryt üçin islendik URL goşup bilersiňiz. Ulanyjylar önüm sahypasyndaky elemente basanlarynda, şol baglanyşyga gönükdiriler.",
       },
       internal_link: {
         title: "Íñţéřñáľ Baglanyşyk",

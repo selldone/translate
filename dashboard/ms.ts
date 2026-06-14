@@ -32,7 +32,7 @@ export default {
     domains: "Domain",
     home_page: "Halaman Utama",
     google_icon_font_sample: "Contoh fon Google",
-    fontawesome_icon_font_sample: "Fontawesome (butiran) butiran",
+    fontawesome_icon_font_sample: "Sampel Fontawesome (V6).",
   },
 
   numbers: {
@@ -106,7 +106,7 @@ export default {
     login: "log masuk",
     register: "Daftar",
     auth_2fa: "2 faktor Kesahihan 🔐",
-    academy: "butiran OS butiran",
+    academy: "Perniagaan OS Mag",
     help: "Pusat Bantuan",
     price_list: "Senarai harga",
     my_stores: "Kedai Saya",
@@ -231,7 +231,7 @@ export default {
   sort: {
     title: "Disusun mengikut",
     title_small: "Disusun mengikut..",
-    nothing: "tiada apa-apa",
+    nothing: "tiada apa",
     most_views: "Kebanyakan pandangan",
     most_likes: "Paling popular",
     most_recent: "Terbaru",
@@ -264,7 +264,7 @@ export default {
       Developer: "Membangunkan",
 
       Product: "Pengurusan Produk & Kategori",
-      Blog: "butiran & butiran",
+      Blog: "CMS & Blog",
       Order: "Pusat Pemenuhan Pesanan",
       Channel: "Saluran Jualan",
       Accounting: "Perakaunan & Kaedah Pembayaran",
@@ -1983,7 +1983,7 @@ export default {
   vendor_add: {
     menu: {
       profile: "butiran & info",
-      business: "butiran & butiran",
+      business: "Perniagaan & Pembayaran",
       documents: "Dokumen",
       page: "Templat Halaman",
       shipping: "penghantaran",
@@ -2467,7 +2467,7 @@ export default {
             "Tetapkan harga tersuai untuk varian atau gunakan harga produk lalai.",
         },
         package: {
-          title: "butiran & butiran",
+          title: "Pembungkusan & Penghantaran",
           subtitle:
             "Tentukan berat dan dimensi untuk varian untuk menentukan pilihan penghantaran.",
           same_as_product_action: "Sama seperti produk",
@@ -3237,7 +3237,7 @@ export default {
   virtual_items_list: {
     add_virtual_item: "Tambah item maya",
     add_virtual_item_desc:
-      "Untuk menjual produk maya, anda mesti menambahkannya dalam bahagian ini. Bilangan item maya adalah sama dengan bilangan item percuma dalam bahagian ini. Setelah pelanggan membeli item maya, pautan akan dihantar kepada mereka.",
+      "Untuk menjual produk maya, anda boleh menambahkannya dalam bahagian ini. Bilangan item maya adalah sama dengan bilangan item percuma dalam bahagian ini. Setelah pelanggan membeli item maya, pautan akan dihantar kepada mereka.",
 
     filter_action: "Guna penapis",
     not_processed: "Pesanan Tidak Diproses",
@@ -3675,7 +3675,7 @@ export default {
     timeout_unit: "Detik",
     link: "Pautan Gerbang",
     your_gateway_status: "Status gerbang anda",
-    oauth2_button: "butiran Connect butiran {gateway}",
+    oauth2_button: "Sambung Auto ke {gateway}",
     fee_payment_message:
       "Jumlah keseluruhan yang dibayar oleh pelanggan akan dipindahkan ke akaun anda. Yuran perkhidmatan akan ditolak daripada dompet anda di Selldone.",
 
@@ -3726,7 +3726,7 @@ export default {
       success_delete: "Kaedah pembayaran telah dipadamkan!",
     },
     debug: {
-      title: "butiran & butiran",
+      title: "Bangun & Uji",
       subtitle: "Anda boleh mendayakan mod nyahpepijat untuk menguji gerbang pembayaran.",
     },
 
@@ -4097,7 +4097,7 @@ export default {
       subtitle:
         "Lebih banyak produk akan dimuatkan daripada kategori dan teg terpilih.",
       load_in_tips: "Muatkan produk daripada kategori dalam {category}.",
-      action: "butiran {category} butiran",
+      action: "Edit Enjin {category}",
     },
   },
   /** {@see BProductsPanel} **/
@@ -5012,7 +5012,7 @@ export default {
     },
     "backoffice:ai:write": {
       name: "AI butiran",
-      description: "butiran AI butiran",
+      description: "Urus konfigurasi AI.",
     },
     "backoffice:ai:read": {
       name: "AI butiran",
@@ -5569,7 +5569,7 @@ export default {
       companies: "Akaun Syarikat dan Perniagaan",
       companies_subtitle: "Daftar perniagaan saya dan profil cukai.",
 
-      access: "butiran & API butiran",
+      access: "Pembangun & Kunci API",
       access_subtitle:
         "Pelanggan OAuth, token akses peribadi dan apl yang disambungkan.",
 
@@ -5761,7 +5761,7 @@ export default {
     access: "Akses",
     template: "templat",
     feedback: "Maklum balas",
-    date_time: "butiran & butiran",
+    date_time: "Tarikh & Masa",
 
     company: "Syarikat",
     company_message: "Jika anda mempunyai syarikat dan ingin menerbitkan apl.",
@@ -5952,7 +5952,7 @@ export default {
         true_title: "Komisen Berasaskan Produk",
       },
       user: {
-        label: "butiran (butiran)",
+        label: "Pengguna (Pilihan)",
         message: "Pilihan, cth., nama ahli gabungan dalam Selldone",
       },
       web: {
@@ -5962,7 +5962,7 @@ export default {
         placeholder: "Pilihan, cth., 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "butiran, butiran, 001-808-210354",
+        placeholder: "Pilihan, cth., 001-808-210354",
       },
       bank: {
         placeholder: "Pilihan, cth., Arstra Bank, No: 10002-325-800-845213",
@@ -7212,7 +7212,7 @@ export default {
           placeholder: "Masukkan tajuk untuk permintaan dokumen.",
         },
         guide: {
-          label: "butiran (butiran)",
+          label: "Panduan (Pilihan)",
           placeholder:
             "Secara pilihan, sediakan panduan atau arahan ringkas, termasuk pautan kepada kontrak atau dokumen lain.",
         },
@@ -7264,7 +7264,7 @@ export default {
         "Serahkan dokumen untuk mengesahkan alamat perniagaan anda, seperti bil utiliti, invois cukai atau perjanjian pajakan.",
     },
     Contract: {
-      title: "butiran & butiran",
+      title: "Kontrak & Perjanjian",
       description:
         "Muat naik kontrak atau perjanjian yang memperincikan terma dan syarat perhubungan perniagaan anda.",
     },
@@ -8614,7 +8614,7 @@ export default {
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
-    title: "butiran SMS butiran",
+    title: "Pembekal SMS tersuai",
     reset_error: "Tetapkan semula ralat",
     subtitle:
       "Sediakan pembekal perkhidmatan SMS tersuai dan sesuaikan SMS pengesahan dan nama perniagaan anda. Pembekal lalai hanya menghantar SMS pengesahan dan memaklumkan mesej di beberapa negara tersenarai putih.",
@@ -9525,7 +9525,7 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "butiran Import butiran",
+    title: "Memproses produk import",
     message:
       "Kami sedang dalam proses mengimport produk dan imej, yang mungkin mengambil sedikit masa untuk disiapkan.",
   },
@@ -9803,7 +9803,7 @@ export default {
       },
     },
     serp: {
-      title: "Google butiran & butiran",
+      title: "SERP & Kata Kunci Google",
       subtitle:
         "Kami memperoleh data audit SEO yang paling tepat daripada Google dan membentangkannya kepada anda dengan cara yang mudah. Hanya ikuti langkah yang disediakan.",
     },
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "Tambah Pulangan Tunai Baharu",
     title: "Program Pulangan Tunai",
-    boosted: "butiran (2butiran)",
+    boosted: "Tingkatkan (2x)",
     min_purchase: "Pembelian minimum",
     only_first_order: "Hanya Pesanan Pertama",
     total_cashback: "Jumlah Pulangan Tunai",
@@ -10045,7 +10045,7 @@ export default {
         manage_product: "Uruskan Produk",
       },
       discount: {
-        title: "butiran & butiran",
+        title: "Diskaun & Mesej",
         subtitle:
           "Anda mempunyai pilihan untuk memasukkan mesej dan menawarkan diskaun untuk memotivasikan pelanggan membeli item tambahan yang dipilih. Insentif ini boleh membantu memacu jualan dan meningkatkan pengalaman membeli-belah secara keseluruhan.",
         amount_input: {
@@ -10380,7 +10380,7 @@ export default {
     add_dialog: {
       title: "Pilih jenis input",
       html: {
-        title: "butiran & butiran HTML",
+        title: "Teks & Html",
         subtitle: "Nilai item boleh ditetapkan sebagai sama ada teks atau HTML.",
       },
       image: {
@@ -10734,7 +10734,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "butiran & butiran",
+    title: "Seret & Lepas",
     subtitle: "Bahagian Pra-Bina",
     add_dialog: {
       title: "Tambah Bahagian Tersuai",
@@ -10806,7 +10806,7 @@ export default {
         "Pengguna menolak permintaan untuk menjadi vendor dan mengakses vendor ini.",
     },
     download_all_vendors: "Muat turun semua vendor",
-    bulk_import: "butiran Import (butiran)",
+    bulk_import: "Import pukal (Excel)",
   },
 
   /**
@@ -11070,7 +11070,7 @@ export default {
         "Apabila pengguna menyerahkan item baharu, mereka akan muncul di sini untuk penyederhanaan.",
 
       review_title: "butiran item",
-      approve_publish: "butiran & butiran",
+      approve_publish: "Luluskan & terbitkan",
 
       submitted_at: "diserahkan",
       quick_actions: "Tindakan pantas",
@@ -11684,14 +11684,14 @@ export default {
         "Buku & Alat Tulis",
         "Produk Kesihatan & Kecantikan",
         "Perabot",
-        "Barang-barang sukan",
+        "Barangan Sukan",
         "Mainan & Permainan",
         "Barang Kemas & Aksesori",
         "Bahagian Automotif",
         "Taman & Luar",
         "Peralatan dapur",
-        "Hiasan rumah",
-        "Alat muzik",
+        "Hiasan Rumah",
+        "Alat Muzik",
         "Bekalan Haiwan Kesayangan",
         "Kasut",
         "Beg & Bagasi",
@@ -12197,13 +12197,13 @@ export default {
         "Perabot",
         "Bahagian Automotif",
         "Barang kemas",
-        "butiran & butiran",
+        "Kesihatan & Kesejahteraan",
         "Bekalan Haiwan Kesayangan",
         "Kelengkapan Pejabat",
-        "butiran & butiran",
+        "Muzik & Instrumen",
         "Filem & Rancangan TV",
         "Perisian",
-        "butiran & butiran",
+        "Seni & Kraftangan",
         "Peralatan Luar",
       ],
     },

@@ -12214,39 +12214,39 @@ export default {
     template_message: {
       title: [
         "Confirmación do pedido",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
+        "Pedido enviado",
+        "Pedido entregado",
+        "Pago recibido",
+        "Pedido cancelado",
+        "Atraso no procesamento de pedidos",
+        "Pedido en espera",
+        "Orde para entrega",
+        "Devolución procesada",
+        "Reembolso emitido",
+        "Artigo de novo en stock",
       ],
       body: [
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Ola {buyer_name}, o teu pedido #{order_id} foi confirmado! Estamos procesándoo e notificarémosche cando estea listo para enviar.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Boas novas, {buyer_name}! Your order #{order_id} has been shipped. You can track it through your account. Grazas por mercar connosco!",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Hello {buyer_name}, your order #{order_id} has been successfully delivered. Esperamos que disfrutes da túa compra. Grazas!",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Ola {buyer_name}, recibimos o pago do pedido #{order_id}. O teu pedido estase a procesar e enviarase en breve.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Dear {buyer_name}, we're sorry to inform you that your order #{order_id} has been cancelled. Se tes algunha dúbida, ponte en contacto co servizo de asistencia.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Estimado {buyer_name}, estamos a sufrir un atraso co teu pedido #{order_id}. Pedimos desculpas polas molestias e estamos traballando para solucionalo canto antes.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Ola {buyer_name}, o teu pedido #{order_id} está actualmente en espera. Comproba a túa conta ou ponte en contacto co servizo de asistencia para obter máis detalles.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Hi {buyer_name}, your order #{order_id} is out for delivery and should reach you soon. Grazas pola túa paciencia!",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Estimado {buyer_name}, procesamos a devolución do teu pedido #{order_id}. Se tes algunha dúbida, ponte en contacto co servizo de asistencia.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Hi {buyer_name}, your refund for order #{order_id} has been issued. Pronto deberías ver os fondos na túa conta.",
 
-        "Configura e gestiona esta opción para tu tenda. {buyer_name} {order_id}",
+        "Ola {buyer_name}, o artigo do teu pedido #{order_id} volve estar en stock! Podes facer un novo pedido agora se aínda estás interesado.",
       ],
     },
 
@@ -12267,16 +12267,16 @@ export default {
         "Título",
       ],
       description: [
-        "Configura e gestiona esta opción para tu tenda.",
-        "Configura e gestiona esta opción para tu tenda.",
-        "Descripción",
-        "Descripción",
-        "Descripción",
-        "Descripción",
-        "Configura e gestiona esta opción para tu tenda.",
-        "Descripción",
-        "Descripción",
-        "Descripción",
+        "Atributos para artigos de roupa como tamaño, cor e tecido.",
+        "Especificacións de gadgets como marca, modelo e funcións.",
+        "Sabores, tamaños e tipos de bebidas.",
+        "Detalles para comidas, lanches e produtos alimenticios.",
+        "Material, dimensións e estilos de deseño.",
+        "Autor, xénero e ano de publicación.",
+        "Tipo de pel, ingredientes e detalles do envase.",
+        "Grupo de idade, material e normas de seguridade.",
+        "Características de tipo, tamaño e rendemento.",
+        "Estilos, materiais e detalles da marca.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "Caja XS",
-        "Caja S",
-        "Caja M",
-        "Caja L",
-        "Caja XL",
-        "Caja XXL",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre", // flexible mailer
-        "Nombre", // bubble/padded
-        "Nombre", // thermal
-        "Nombre",
+        "Caixa XS",
+        "Caixa S",
+        "Caixa M",
+        "Caixa L",
+        "Caixa XL",
+        "Caixa XXL",
+        "Caixa Slim",
+        "Caixa Ancha",
+        "Caixa Alto",
+        "Caixa Plana",
+        "Caixa Cubo",
+        "Tubo de caixa",
+        "Caixa Fráxil",
+        "Caixa de botellas de vidro",
+        "Caixa Soft Pack", // flexible mailer
+        "Caixa acolchada", // bubble/padded
+        "Caixa Illada", // thermal
+        "Caixa Heavy Duty",
       ],
     },
   },

@@ -32,7 +32,7 @@ export default {
     domains: "Domain",
     home_page: "Kaca ngarep",
     google_icon_font_sample: "conto font Google",
-    fontawesome_icon_font_sample: "item (V6) item",
+    fontawesome_icon_font_sample: "Sampel Fontawesome (V6).",
   },
 
   numbers: {
@@ -92,7 +92,7 @@ export default {
     },
     reimagine: {
       title: "Bayangake maneh",
-      subtitle: "buat item gambar item baru latar.",
+      subtitle: "Gawe gambar liyane kanthi latar mburi anyar.",
     },
     upscale: {
       title: "Tingkatake resolusi",
@@ -266,11 +266,11 @@ export default {
     categories: {
       Welcome: "Miwiti",
       Setup: "nyimpen",
-      Sell: "item & item",
+      Sell: "Sales & Marketing",
       Developer: "Ngembangake",
 
       Product: "Manajemen Produk & Kategori",
-      Blog: "item & item",
+      Blog: "CMS & Blog",
       Order: "Pusat Pesenan Pesenan",
       Channel: "Saluran Sales",
       Accounting: "Akuntansi & Metode Pembayaran",
@@ -278,7 +278,7 @@ export default {
       Marketing: "Pemasaran & Kampanye",
       Logistic: "Logistik & Pengiriman",
       Customers: "Klub Pelanggan & Segmentasi",
-      Page: "item & item halaman",
+      Page: "Landing & Custom Pages",
       Access: "Staff / Manajemen Akses API",
       Application: "Aplikasi",
       POS: "POS",
@@ -608,7 +608,7 @@ export default {
 
       products_rss: {
         title: "RSS produk",
-        subtitle: "item produk item Google, Meta,...",
+        subtitle: "Ngimpor produk menyang Google, Meta,...",
       },
       products_api: {
         title: "API produk",
@@ -848,7 +848,7 @@ export default {
         },
         notifications: {
           delete_success: "kurs dibusak.",
-          add_success: "Kurs kurs dianyari.",
+          add_success: "kurs dianyari.",
           update_success: "Simpenan mata uang aktif dianyari.",
         },
       },
@@ -1901,7 +1901,7 @@ export default {
   google_product_category_input: {
     label: "Google produk kategori kode",
     hint: "Makili kategori produk sampeyan miturut taksonomi produk Google.",
-    placeholder: "item produk item layanan kategori.. (opsional)",
+    placeholder: "Ketik kategori produk utawa layanan.. (Opsional)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1948,7 +1948,7 @@ export default {
       dedicated: "Khusus",
 
       subscription: "Kita bisa ngetrapake pajak mung ing langkah nggawe pembayaran.",
-      is_disabled: "item pajak profil item dinonaktifkan! (⚠️peringatan)",
+      is_disabled: "Profil pajak iki dipateni! (⚠️Awas)",
       shipping: "Pengiriman",
       fixed_rate: "TAX",
       location_based_rate: "Pajak: adhedhasar lokasi",
@@ -2170,14 +2170,14 @@ export default {
   product_badges: {
     title: "Lencana",
     subtitle: "Tambah lan sunting lencana produk khusus.",
-    only_marketplace_owner_msg: "item marketplace item",
+    only_marketplace_owner_msg: "Mung sing duwe pasar",
     create_new_badge_action: "buat baru item",
     select_a_badge: "Pilih lencana...",
     inputs: {
       custom: {
         false_description: "Lencana produk digawe kanthi otomatis.",
         false_title: "otomatis",
-        true_title: "item produk item",
+        true_title: "Lencana produk khusus",
         true_description: "Tambah lencana khusus ing kaca produk.",
       },
     },
@@ -2193,7 +2193,7 @@ export default {
         },
         image: {
           label: "gambar",
-          message: "item gambar item: 128KB",
+          message: "Ukuran gambar maksimal: 128 KB",
           placeholder: "Pilih gambar sampul",
         },
         pattern: {
@@ -2333,7 +2333,7 @@ export default {
         title: "Pesenan",
         title_small: "Ora diproses",
         physical_orders_title: "Kréta Blanja Kanthi Produk Iki",
-        send_count_in_period: "item pesanan item {start} ~ {end}",
+        send_count_in_period: "Dikirim pesenan antarane {start} ~ {end}",
         downloads_count_in_period:
           "Jumlah file sing diundhuh antarane {start} ~ {end}",
       },
@@ -2358,7 +2358,7 @@ export default {
       /** {@see BProductFinanceCharts} **/
       finance: {
         title: "Keuangan",
-        title_small: "item laporan item {start} ~ {end}.",
+        title_small: "Laporan tuku antarane {start} ~ {end}.",
         select_mode_title: "Tampilake Miturut",
         modes: {
           sell: "Sale",
@@ -2464,7 +2464,7 @@ export default {
         },
         smart_unit_price: {
           tips: "Hitung rega unit adhedhasar <b>bobot</b>, <b>volume</b>, lan <b>ukuran paket</b>. Kanggo mateni fitur iki, navigasi menyang Toko> Setelan> Tema> Kaca Produk> Rega Unit Cerdas.",
-          smart_unit_price: "item harga item",
+          smart_unit_price: "Petungan Rega Unit",
         },
         quantity: {
           title: "Persediaan",
@@ -2605,7 +2605,7 @@ export default {
     set_volume_warning: "Mangga nemtokake volume.",
     set_pack_warning: "Mangga nemtokake ukuran paket.",
     set_weight_warning: "Mangga nemtokake bobot.",
-    set_type_warning: "item pilih item tipe.",
+    set_type_warning: "Mangga pilih jinis.",
     set_style_warning: "Mangga pilih gaya.",
     out_of_stock: "Saiki metu saka saham",
 
@@ -3246,7 +3246,7 @@ export default {
   virtual_items_list: {
     add_virtual_item: "Tambah item virtual",
     add_virtual_item_desc:
-      "Kanggo ngedol produk virtual, sampeyan kudu nambahake ing bagean iki. Jumlah item virtual padha karo jumlah item gratis ing bagean iki. Sawise pelanggan tuku barang virtual, link kasebut bakal dikirim menyang dheweke.",
+      "Kanggo ngedol produk virtual, sampeyan bisa nambah ing bagean iki. Jumlah item virtual padha karo jumlah item gratis ing bagean iki. Sawise pelanggan tuku barang virtual, link kasebut bakal dikirim menyang dheweke.",
 
     filter_action: "Aplikasi saringan",
     not_processed: "Pesenan sing durung diproses",
@@ -3335,7 +3335,7 @@ export default {
       message:
         "Pilih alesan kanggo nolak pesenan iki saka dhaptar ing ngisor iki. Priksa manawa kanggo ngandhani pelanggan babagan proses pembatalan lan mbalekaken. Pembayaran maneh kudu ditindakake sajrone 12 jam.",
       confirm_now_action: "batal pesanan item",
-      confirm_in48h_action: "batal pesanan item 48 item",
+      confirm_in48h_action: "Batal Pesenan Ing 48 Jam",
 
       dismiss_reject_action: "Nolak pembatalan pesenan",
 
@@ -3346,7 +3346,7 @@ export default {
       },
 
       express_input: {
-        true_title: "item | batal pesanan item",
+        true_title: "Ekspres | Batal Order Langsung",
         false_title: "Standar | Batal Pesenan Sawise 48 Jam",
         true_description:
           "Opsi iki bakal langsung mbatalake pesenan lan nganyari persediaan langsung.",
@@ -3540,7 +3540,7 @@ export default {
           "Kita wis ngeweruhi sing total dibalekake kanggo customer luwih saka jumlah amarga adhedhasar item ing cart. Sampeyan bisa uga kudu ngisi daya pelanggan kanggo mbalekake jumlah keluwihan.",
       },
       need_no_refund: {
-        title: "item pengembalian dana item",
+        title: "Ora mbalekaken perlu",
       },
       total_refund: {
         title: "Total mbalekaken",
@@ -3735,7 +3735,7 @@ export default {
       success_delete: "Cara pembayaran wis dibusak!",
     },
     debug: {
-      title: "item & item",
+      title: "Ngembangake & Test",
       subtitle: "Sampeyan bisa ngaktifake mode debug kanggo nyoba gateway pembayaran.",
     },
 
@@ -4038,7 +4038,7 @@ export default {
 
     "email-buy": "Kirim email konfirmasi tuku menyang pelanggan.",
     "email-payment": "Kirim email konfirmasi pembayaran menyang pelanggan.",
-    "email-update": "item pesanan perbarui email item pelanggan.",
+    "email-update": "Kirim email nganyari pesenan menyang pelanggan.",
 
     "email-vendor":
       "🔔 Email informasi pesen wis dikirim menyang <b>{vendor}</b> ╏ {email}.",
@@ -4096,13 +4096,13 @@ export default {
       vendor_owner_not_assignable_message:
         "Pilih utawa lebokaké informasi sing dibutuhake.",
       category_assign_profile: "Nemtokake profil kanggo produk ing kategori",
-      category_assign_profile_subtitle: "pajak, pengiriman, item, item,...",
+      category_assign_profile_subtitle: "Pajak, Pengiriman, Guide, Garansi,...",
       bulk_discount: "item diskon",
       bulk_discount_subtitle: "Aplikasi diskon ing kabeh produk.",
     },
 
     engine: {
-      title: "item produk item",
+      title: "Mesin Produk Ekstra",
       subtitle:
         "Produk liyane bakal dimuat saka kategori lan tag sing dipilih.",
       load_in_tips: "Pilih utawa lebokaké informasi sing dibutuhake. {category}",
@@ -4981,7 +4981,7 @@ export default {
     },
     "backoffice:cashback:write": {
       name: "Manajemen Cashback",
-      description: "item toko item penawaran.",
+      description: "Ngatur tawaran cashback toko.",
     },
     "backoffice:cashback:read": {
       name: "item akses",
@@ -4989,7 +4989,7 @@ export default {
     },
     "backoffice:lottery:write": {
       name: "Manajemen Lotre",
-      description: "item toko item.",
+      description: "Ngatur lotre toko.",
     },
     "backoffice:lottery:read": {
       name: "item akses",
@@ -5013,7 +5013,7 @@ export default {
     },
     "backoffice:ribbon:write": {
       name: "Manajemen Pita",
-      description: "item toko item.",
+      description: "Ngatur pita toko.",
     },
     "backoffice:ribbon:read": {
       name: "item akses",
@@ -5021,7 +5021,7 @@ export default {
     },
     "backoffice:ai:write": {
       name: "AI item",
-      description: "item AI item.",
+      description: "Ngatur konfigurasi AI.",
     },
     "backoffice:ai:read": {
       name: "AI akses",
@@ -5105,7 +5105,7 @@ export default {
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
       name: "Manajemen Panyedhiya",
-      description: "item terhubung layanan item.",
+      description: "Ngatur panyedhiya layanan sing disambungake.",
     },
     "connect:provider:read": {
       name: "item akses",
@@ -5141,7 +5141,7 @@ export default {
     },
     storefront: {
       title: "Etalase",
-      description: "akses item pelanggan item toko informasi.",
+      description: "Akses menyang informasi pelanggan lan toko.",
     },
     profile: {
       title: "profil",
@@ -5971,7 +5971,7 @@ export default {
         placeholder: "Opsional, contone, 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "opsional, item.item., 001-808-210354",
+        placeholder: "Opsional, contone, 001-808-210354",
       },
       bank: {
         placeholder: "Opsional, contone, Arstra Bank, No: 10002-325-800-845213",
@@ -6364,7 +6364,7 @@ export default {
   offers: {
     title: "Nawakake",
     sub_title:
-      "Sampeyan bisa nggawe tawaran khusus kanggo pelanggan supaya, sawise tuku siji item, bakal nampa item liyane kanthi diskon utawa malah gratis.",
+      "Sampeyan bisa nggawe tawaran khusus kanggo pelanggan supaya, sawise tuku siji item, padha bakal nampa item liyane kanthi diskon utawa malah gratis.",
     create_new: "Tambah tawaran anyar",
     qualified_products: "produk sing layak",
     min_quantity: "Jumlah minimal",
@@ -7157,7 +7157,7 @@ export default {
       },
       shipping: {
         label: "pengiriman item",
-        true_title: "vendor item pengiriman item",
+        true_title: "Vendor Nduwe Pilihan Pengiriman",
         false_description:
           "Pilih utawa lebokaké informasi sing dibutuhake.",
         true_description:
@@ -7175,7 +7175,7 @@ export default {
         true_description:
           "Pilih utawa lebokaké informasi sing dibutuhake.",
         true_title: "item mode",
-        false_title: "item vendor mode (item)",
+        false_title: "Mode Vendor Tunggal (Default)",
       },
 
       listing: {
@@ -7248,7 +7248,7 @@ export default {
         "Ing mode iki, kabeh pesenan dikirim menyang gudang dhisik banjur dikirim menyang pelanggan saka lokasi tengah. Vendor bakal ngirim barang menyang gudang sampeyan, supaya alamat pengiriman kanggo vendor bakal dadi alamat gudang sampeyan.",
     },
     Direct: {
-      title: "item pengiriman item vendor",
+      title: "Pengiriman Langsung saka Vendor",
       description:
         "Ing mode iki, vendor ngirim pesenan langsung menyang pelanggan. Alamat pengiriman kanggo pesenan vendor bakal dadi alamat panuku.",
     },
@@ -7273,7 +7273,7 @@ export default {
         "Kirimake dokumen kanggo verifikasi alamat bisnis, kayata tagihan sarana, invoice pajak, utawa perjanjian sewa.",
     },
     Contract: {
-      title: "item & item",
+      title: "Kontrak & Perjanjian",
       description:
         "Unggah kontrak utawa perjanjian sing rinci babagan syarat lan kahanan hubungan bisnis sampeyan.",
     },
@@ -7592,7 +7592,7 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "item & item",
+      title: "Onboarding & Login",
       subtitle:
         "Pribadhi pengalaman onboarding vendor lan login nganggo video, gambar, utawa pesen khusus.",
     },
@@ -7714,7 +7714,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "item nilai item... (opsional)",
+        placeholder: "Setel nilai disetel... (opsional)",
         messages:
           "Sampeyan bisa menehi saran kanggo nilai lan ngatur urutan.",
       },
@@ -8380,7 +8380,7 @@ export default {
     offer_message: "Tuku {min_quantity} Entuk diskon {percent}% kanggo item kasebut",
     up_to: "Nganti {per_order}x saben pesenan",
     get_free: "GRATIS",
-    get_off: "item {percent}% item",
+    get_off: "Entuk {percent}% OFF",
   },
 
   /** @see SStyler **/
@@ -8623,7 +8623,7 @@ export default {
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
-    title: "item SMS item",
+    title: "Panyedhiya SMS khusus",
     reset_error: "item kesalahan",
     subtitle:
       "Nggawe panyedhiya layanan SMS khusus lan ngatur SMS otentikasi lan jeneng bisnis. Panyedhiya standar mung ngirim SMS otentikasi lan ngandhani pesen ing sawetara negara sing kadhaptar putih.",
@@ -8657,7 +8657,7 @@ export default {
   },
   sms_messages_options: {
     all: {
-      title: "item + pesanan item",
+      title: "OPT + Notifikasi Order",
       description:
         "Pesen otentikasi lan kabar pesenan bakal dikirim.",
     },
@@ -8989,7 +8989,7 @@ export default {
       description:
         "Pilih utawa lebokaké informasi sing dibutuhake.",
     },
-    zip_pin_code: "item / item kode",
+    zip_pin_code: "Kode Pos / Pin",
     no_country_selected_error:
       "Pilih utawa lebokaké informasi sing dibutuhake.",
     tips: "Klik tombol <b>+ Tambah Negara</b> kanggo miwiti nggawe set lokasi anyar. Yen wis rampung, sampeyan bisa nyimpen kanthi ngeklik ing sisih tengen ndhuwur <b>⋮ Menu</b> lan milih <b>Simpen Profil</b>.",
@@ -9041,7 +9041,7 @@ export default {
 
     notification: {
       title: "Notifikasi",
-      subtitle: "item baru pesanan item.",
+      subtitle: "Entuk kabar pesenan anyar.",
     },
     order: {
       title: "Pesenan",
@@ -9293,7 +9293,7 @@ export default {
       mode: {
         title: "Titik mlebu pelanggan",
         default: {
-          title: "item (item)",
+          title: "ASAP (Default)",
           msg: "Pangguna mlebu sanalika bisa. (Konversi liyane)",
         },
         on_checkout: {
@@ -9811,12 +9811,12 @@ export default {
       },
     },
     serp: {
-      title: "Google item & item",
+      title: "Google SERP & Kata Kunci",
       subtitle:
         "Kita entuk data audit SEO sing paling tepat saka Google lan menehi sampeyan kanthi cara sing trep. Mung tindakake langkah sing kasedhiya.",
     },
     serp_content: {
-      title: "Connect item Google cari item",
+      title: "Sambungake menyang Google Search Console",
       subtitle:
         "Sambungake toko sampeyan menyang konsol telusuran lan miwiti njelajah tembung kunci, rangking, lan alat SEO gratis liyane ing Selldone.",
       tips: {
@@ -9972,7 +9972,7 @@ export default {
     },
     boosted_input: {
       false_title: "Normal",
-      true_title: "item (2x item)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "Program cashback ana ing mode boost lan pelanggan bakal nampa cashback 2x.",
       false_msg:
@@ -10185,7 +10185,7 @@ export default {
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "item langganan harga item",
+      title: "Rencana Rega Langganan Ilang",
       subtitle:
         "Priksa informasi sadurunge nerusake.",
       pricing_plans: "harga item",
@@ -10197,7 +10197,7 @@ export default {
     location: {
       title: "Watesan lokasi adol ● {status}",
       status: {
-        has_restriction: "tersedia item {count} item",
+        has_restriction: "Kasedhiya ing negara {count}",
         no_restriction: "Ora diwatesi",
       },
       available_countries_msg:
@@ -10234,7 +10234,7 @@ export default {
         subscription_tax_msg:
           "Kita bisa ngetrapake pajak mung ing langkah nggawe pembayaran.",
         dedicated: "Khusus",
-        is_disabled: "item pajak profil item dinonaktifkan!",
+        is_disabled: "Profil pajak iki dipateni!",
         tax_is_based_on_location: "Pajak: adhedhasar lokasi",
         shipping_tax_is_based_on_location: "Pengiriman: adhedhasar lokasi",
         included_in_price: "Klebu ing rega.",
@@ -10429,7 +10429,7 @@ export default {
 
       language_input: "Basa artikel saiki",
       delete_article: "hapus item",
-      menu_tooltip: "otomatis item / hapus item",
+      menu_tooltip: "Terjemahan otomatis / Busak artikel",
     },
     translate_to: "Translate menyang",
     notifications: {
@@ -10525,7 +10525,7 @@ export default {
       title: "Mbusak item sing kalebu",
       message:
         "Apa sampeyan yakin arep mbusak item iki?",
-      action: "item, hapus item",
+      action: "Ya, Busak saiki",
     },
     actions: {
       edit_linked_page: "Sunting kaca sing disambung",
@@ -10547,7 +10547,7 @@ export default {
         placeholder: "Judhul ringkes ditampilake ing kaca produk...",
       },
       code: {
-        placeholder: "item kode, item. mobile_cable_usb",
+        placeholder: "Kode unik, ex. mobile_kabel_usb",
         hint: "Gunakake kode iki kanggo nyepetake proses telusuran kanggo nemokake item.",
       },
       description: {
@@ -10555,7 +10555,7 @@ export default {
         hint: "Pilih utawa lebokaké informasi sing dibutuhake.",
       },
       image: {
-        message: "item gambar item: 1MB",
+        message: "Ukuran gambar maksimal: 1 MB",
       },
       path: {
         label: "halaman item",
@@ -10742,7 +10742,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "item & item",
+    title: "Seret & Selehake",
     subtitle: "Bagean Pre-Built",
     add_dialog: {
       title: "Tambah bagean Custom",
@@ -10794,7 +10794,7 @@ export default {
     invited: "diundang",
     no_pricing: "item harga",
     no_pricing_tooltip: {
-      title: "item harga item",
+      title: "Rencana Rega Default",
       subtitle: "Mangga nyetel model rega standar kanggo vendor.",
     },
     updated_products_tooltip: {
@@ -10814,7 +10814,7 @@ export default {
         "Pangguna nolak panjaluk dadi vendor lan ngakses vendor iki.",
     },
     download_all_vendors: "Download kabeh vendor",
-    bulk_import: "item impor (item)",
+    bulk_import: "Impor massal (Excel)",
   },
 
   /**
@@ -10873,7 +10873,7 @@ export default {
         },
         body: {
           label: "item pesan",
-          placeholder: "tulis item pesan item...",
+          placeholder: "Tulis pesen sampeyan ing kene...",
           messages:
             "Sampeyan bisa nyetel nilai dinamis kanthi {order_id} lan {buyer_name}.",
         },
@@ -11027,7 +11027,7 @@ export default {
       sub_title:
         "Atur direktori sampeyan kanthi kategori lan subkategori. Iki nambah navigasi lan nyaring.",
 
-      empty_title: "item kategori item",
+      empty_title: "Durung ana kategori",
       empty_subtitle:
         "Nggawe kategori kanggo struktur listing lan nambah browsing.",
 
@@ -11078,7 +11078,7 @@ export default {
         "Nalika pangguna ngirim item anyar, bakal katon ing kene kanggo moderat.",
 
       review_title: "Item review",
-      approve_publish: "item & item",
+      approve_publish: "Sarujuk & nerbitake",
 
       submitted_at: "Dikirim",
       quick_actions: "Tumindak cepet",
@@ -11232,7 +11232,7 @@ export default {
       note: "Sampeyan mengko bisa ngatur moderasi, watesan, formulir, lan desain ing setelan Listing.",
       vendor_prereq_text:
         "Pengin vendor nambah dhaptar item saka Panel Vendor? Pisanan, ganti model bisnis menyang Marketplace.",
-      vendor_prereq_button: "item marketplace bisnis item",
+      vendor_prereq_button: "Setel model bisnis Marketplace",
 
       vendor_access_text:
         "Saiki sampeyan bisa mutusake manawa vendor bisa ngakses fitur Listing (item + perusahaan). Aktifake ing setelan Marketplace.",
@@ -11258,7 +11258,7 @@ export default {
 
       radius_default: "Radius standar (km)",
       radius_default_hint: "Digunakake nalika pelanggan milih lokasi nanging ora milih radius.",
-      radius_max: "maksimum item (item)",
+      radius_max: "Radius maksimum (km)",
       radius_max_hint: "Radius storefront bakal clamped kanggo Nilai iki.",
       radius_options: "Pilihan radius (km)",
       radius_options_hint: "Nilai kasebut bisa ditampilake minangka opsi cepet ing UI storefront.",
@@ -12148,15 +12148,15 @@ export default {
     page: {
       prompts: [
         "Sugeng rawuh ing {shop} - Jelajahi Rangkaian Item sing Beda",
-        "{shop} - Sumber Utama kanggo Barang Dagang Berkualitas lan Layanan Luar Biasa",
+        "{shop} - Sumber Utama kanggo Barang Dagang Kualitas lan Layanan Luar Biasa",
         "Tawaran Eksklusif lan Simpenan Mung ing {shop} - Rebut Kesempatan!",
         "Ngerti Dedikasi {shop} kanggo Praktek Etika lan Ramah Lingkungan",
         "Dadi Bagéyan saka Kulawarga {shop} - Langganan Newsletter Kita kanggo Nganyari",
-        "Nyilem menyang Pilihan Paling Dhuwur lan Barang sing Dinilai Tinggi ing {shop}",
-        "Nyedhiyakake Ide lan Saran Kreatif kanggo Kabeh Acara ing {shop}",
+        "Nyilem menyang Top Picks lan Highly-dirating Barang ing {shop}",
+        "Saiki Ide lan Saran Kreatif kanggo Kabeh Acara ing {shop}",
         "Penawaran sing Ora Ditandingi lan Spesial Sensitif Wektu ing {shop} - Tumindak Cepet!",
-        "{shop}'s Comprehensive Buying Tips lan Product Evaluations - Shop with Confidence",
-        "Tekan {shop} - Kita Usaha Kanggo Ngirim Pengalaman Blanja sing Ora Ditandingi",
+        "Tip Tuku Komprehensif {shop} lan Evaluasi Produk - Toko kanthi Percaya diri",
+        "Tekan {shop} - Kita Ngupaya Nyedhiyakake Pengalaman Blanja sing Ora Ditandingi",
       ],
     },
 

@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "Icône du site",
           subtitle:
-            "élément sont élément, élément images cela élément site web dans élément onglets, élément, et mobile application élément.",
+            "Les favicons sont de petites images emblématiques qui représentent un site Web dans les onglets du navigateur, les signets et les interfaces des applications mobiles.",
         },
       },
 
@@ -2449,17 +2449,17 @@ export default {
           subtitle:
             "Entrez un code couleur hexadécimal, par exemple <b>#654FFF</b>, ou deux couleurs séparées par une barre oblique, par exemple <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "vous peut élément élément élément à élément, élément images en utilisant <b>Ressources graphiques</b>. téléverser Motif et utiliser généré code pour variante.",
+            "Vous pouvez attribuer n'importe quelle valeur aux variables, y compris les images à l'aide de <b>Graphic Assets</b>. Téléchargez un modèle et utilisez le code généré pour la variante.",
           graphical_asset_action: "Ressources graphiques",
           graphical_asset_action_caption: "images pour Options de variante.",
         },
         smart_unit_price: {
-          tips: "élément unité prix élément sur <b>poids</b>, <b>volume</b>, et <b>pack taille</b>. à élément ceci fonctionnalité, élément à boutique > paramètres > thème > Page produit > élément unité prix.",
+          tips: "Calculez le prix unitaire en fonction du poids <b></b>, du volume <b></b> et de la taille du paquet <b></b>. Pour désactiver cette fonctionnalité, accédez à Boutique > Paramètres > Thème > Page produit > Prix unitaire intelligent.",
           smart_unit_price: "Calcul du prix unitaire",
         },
         quantity: {
           title: "Inventaire",
-          subtitle: "définir stock élément pour élément variante.",
+          subtitle: "Définissez les niveaux de stock pour chaque variante.",
         },
         price: {
           title: "Tarification",
@@ -2469,23 +2469,23 @@ export default {
         package: {
           title: "Emballage et livraison",
           subtitle:
-            "élément poids et élément pour variantes à élément Livraison options.",
+            "Spécifiez le poids et les dimensions des variantes afin de déterminer les options d'expédition.",
           same_as_product_action: "élément produit",
         },
         image: {
           title: "Images de variante",
           subtitle:
-            "ajouter élément images pour élément variante. élément image élément va élément principal image pour cela variante.",
+            "Ajoutez des images uniques pour chaque variante. La première image téléchargée sera l'image principale de cette variante.",
         },
         inputs: {
           sku: {
             message: "stock élément unité (SKU)",
           },
           mpn: {
-            message: "élément élément numéro (MPN)",
+            message: "Numéro de pièce du fabricant (MPN)",
           },
           gtin: {
-            label: "global élément élément numéro (GTIN)",
+            label: "Numéro d'article commercial mondial (GTIN)",
             message:
               "Formats pris en charge : UPC (12 chiffres), EAN (13 chiffres), JAN (8 ou 13 chiffres), ISBN (13 chiffres).",
           },
@@ -2553,8 +2553,8 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "Définir le texte alternatif de l’image",
-      placeholder: "saisir élément élément texte...",
-      success_update_notification: "élément texte mis à jour élément.",
+      placeholder: "Entrez un texte alternatif descriptif...",
+      success_update_notification: "Texte alternatif mis à jour avec succès.",
     },
     dialog_bg_remove: {
       title: "Supprimer automatiquement l’arrière-plan",
@@ -2562,7 +2562,7 @@ export default {
         title: "Supprimer l'arrière-plan",
         subtitle: "créer transparent arrière-plan.",
       },
-      success_remove_bg_notification: "arrière-plan élément élément!",
+      success_remove_bg_notification: "L'arrière-plan a été supprimé avec succès!",
     },
   },
   /**
@@ -2572,7 +2572,7 @@ export default {
     title: "Ressources graphiques de variante",
     tips: {
       how_it_works:
-        "<b>élément élément élément</b><br />téléverser Motif ou élément images élément. à utiliser élément images variante élément, inclure <b>{filename}</b> dans variante élément. note cela ceci code élément élément utilisé dans <b><s>couleur</s></b> élément.",
+        "<b>Comment ça marche:</b><br />Téléchargez des images de motifs ou d'articles ici. Pour utiliser ces images comme option de variante, incluez <b>{filename}</b> dans la valeur de variante. Notez que ce code ne peut pas être utilisé dans la valeur <b><s>color</s></b>.",
       how_set_name:
         "<b>Conseils de dénomination :</b><br />Les 12 premiers caractères du nom du fichier téléchargé seront utilisés comme nom de l'élément. Cette fonctionnalité est idéale pour présenter les aspects personnalisables d’un produit, tels que les tailles de pneus de moto ou les motifs de tissus. Pour optimiser l'utilisation de cette fonctionnalité, évitez de télécharger des images variantes ici, sauf si le nombre d'actifs graphiques est inférieur à 100, comme différents types de bois pour les meubles.",
     },
@@ -2591,17 +2591,17 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "ceci variante élément élément!",
+    duplicated_variant: "Cette variante existe déjà!",
     set_color_warning: "veuillez sélectionner couleur.",
     set_volume_warning: "veuillez élément volume.",
     set_pack_warning: "veuillez élément pack taille.",
     set_weight_warning: "veuillez élément poids.",
     set_type_warning: "veuillez sélectionner type.",
     set_style_warning: "veuillez sélectionner style.",
-    out_of_stock: "élément élément de stock",
+    out_of_stock: "Actuellement en rupture de stock",
 
     image: {
-      tooltip: "⚡ glisser et déposer image élément à élément élément à variante.",
+      tooltip: "⚡ Faites glisser et déposez une image ici pour l'attribuer à la variante.",
     },
     enable: {
       true_tooltip: "ceci élément est disponible dans Boutique en ligne.",
@@ -2609,11 +2609,11 @@ export default {
     },
     restore_dialog: {
       title: "restaurer variante",
-      message: "sont vous élément vous élément à restaurer ceci supprimé variante?",
+      message: "Êtes-vous sûr de vouloir restaurer cette variante supprimée?",
       action: "élément, restaurer maintenant",
     },
     notifications: {
-      restore_variant_success: "produit variante élément élément élément.",
+      restore_variant_success: "La variante du produit a été restaurée avec succès.",
     },
   },
 
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "Configurez et gérez cette option pour votre boutique.",
         add_first_currency: {
-          subtitle: "veuillez ajouter devise à votre boutique élément élément.",
+          subtitle: "Veuillez ajouter une devise à votre boutique avant de continuer.",
           title: "Ajouter une devise",
         },
       },
@@ -2828,12 +2828,12 @@ export default {
       },
 
       config_step: {
-        import_config: "vous peut importer élément de élément élément passerelles",
+        import_config: "Vous pouvez importer la configuration d'autres passerelles similaires",
         import_from: "importer de",
       },
 
       request_add_new_gateway: {
-        title: "élément voir votre élément paiement méthode?",
+        title: "Vous ne voyez pas votre mode de paiement préféré?",
         subtitle:
           "Configurez et gérez cette option pour votre boutique.",
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Description du magasin",
     description_input_message: "Rédigez une brève Description de votre entreprise.",
     description_input_tips:
-      "Cette Description apparaîtra dans le pied de page de votre boutique et sera également utilisée comme Description de balise méta par défaut pour les pages de votre boutique.",
+      "Cette description apparaîtra dans le pied de page de votre boutique et sera également utilisée comme description de balise méta par défaut pour les pages de votre boutique.",
     address_input: "Adresse du magasin",
     address_input_message: "Entrez l'adresse exacte de l'emplacement du magasin",
 
@@ -3337,10 +3337,10 @@ export default {
       },
 
       express_input: {
-        true_title: "élément | annuler commande élément",
-        false_title: "élément | annuler commande élément 48 heures",
+        true_title: "Express | Annuler la commande immédiatement",
+        false_title: "Norme | Annuler la commande après 48 heures",
         true_description:
-          "ceci élément va annuler votre commande élément et mettre à jour stock droite élément.",
+          "Cette option annulera votre commande immédiatement et mettra immédiatement à jour l'inventaire.",
         false_description:
           "Cette option annulera votre commande après 48 heures. D’ici là, les articles seront réservés et ne pourront pas être achetés par d’autres.",
       },
@@ -3354,9 +3354,9 @@ export default {
         "Commande retournée au processus normal.",
       set_tracking_success: "ID de suivi de commande enregistré avec succès.",
       shipping_address_update_success:
-        "Livraison adresse a élément mis à jour élément.",
+        "L'adresse de livraison a été mise à jour avec succès.",
       vendor_order_status_update_success:
-        "vendeur exécution statut a élément mis à jour élément.",
+        "Le statut d'exécution du fournisseur a été mis à jour avec succès.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3662,7 +3662,7 @@ export default {
     status: "Statut",
     cod_transportation: "élément Livraison",
     cod_transportations_error:
-      "activer Paiement à la livraison paiement pour élément élément élément Livraison méthode!",
+      "Activez le paiement à la livraison pour au moins un mode d'expédition!",
     payment_type: "paiement type",
     cod: "Paiement à la livraison",
     online: "en ligne paiement",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "votre passerelle statut",
     oauth2_button: "Automatique Connect à {gateway}",
     fee_payment_message:
-      "élément montant élément par client va élément élément à votre compte. service frais va élément élément de votre portefeuille dans Selldone.",
+      "La totalité du montant payé par le client sera transférée sur votre compte. Les frais de service seront déduits de votre portefeuille dans Selldone.",
 
     auto_config: "Automatique élément",
 
     keys: {
       title: "Clés privées",
       subtitle:
-        "liste de Clés privées pour paiement. ceci informations est élément pour élément et élément paiements.",
+        "Liste des clés privées pour le paiement. Ces informations sont essentielles à la création et à la gestion des paiements.",
     },
     extra_config: {
       title: "Configuration du service de paiement",
@@ -4020,7 +4020,7 @@ export default {
     "connect-confirmed": "La commande a été confirmerée.",
 
     "vendor-payout": "💸 Paiement au fournisseur.",
-    "vendor-wallet-transaction": "élément portefeuille élément.",
+    "vendor-wallet-transaction": "Transaction du portefeuille du vendeur.",
 
     "vendor-sms":
       "🔔 Un SMS d'information de commande a été envoyé à <b>{vendor}</b> ╏ {phone}.",
@@ -4040,9 +4040,9 @@ export default {
     "sms-ready-to-ship":
       "Envoyez un SMS au client l'informant que sa commande est prête à être expédiée via {phone}.",
     "sms-ready-to-pickup":
-      "envoyer SMS à client élément cela élément commande est élément pour retrait élément {phone}.",
+      "Envoyez un SMS au client l'informant que sa commande est prête à être récupérée via {phone}.",
     "sms-order-confirmation":
-      "envoyer commande élément SMS à client élément {phone}.",
+      "Envoyez un SMS de confirmation de commande au client via {phone}.",
 
     "count-adjustment":
       'quantité de produit "{product}" a élément mis à jour de {from} à {to}.',
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Membres de l’équipe",
     subtitle:
-      "ceci est liste de utilisateurs élément élément Accès à votre vendeur élément. vous peut ajouter nouveau Membres de l’équipe et élément élément autorisations élément.",
+      "Il s'agit de la liste des utilisateurs qui ont accès à votre panneau de fournisseurs. Vous pouvez ajouter de nouveaux membres de l'équipe et personnaliser leurs autorisations ici.",
     add_action: "Ajouter un nouveau membre",
     pending: {
       title: "Invitations en attente",
-      message: "voir liste de invitations cela sont élément élément.",
+      message: "Consultez la liste des invitations en attente d’acceptation.",
     },
   },
 
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "Membre ajouté",
-        message: "équipe membre a élément élément élément.",
+        message: "Le membre de l’équipe a été ajouté avec succès.",
       },
       update_success: {
         title: "Membre mis à jour",
-        message: "équipe élément informations a élément élément mis à jour.",
+        message: "Les informations du membre de l'équipe ont été mises à jour avec succès.",
       },
     },
     actions: {
@@ -4266,11 +4266,11 @@ export default {
       "<b>Important ! </b>L'exécution de cette action générera une transaction négative dans le portefeuille du vendeur et en soustraira le montant choisi. Le montant ne peut pas dépasser le total des transactions restantes pour la commande sélectionnée. De plus, si des fonds ont été transférés vers des comptes bancaires connectés (comme avec Stripe Connect ou un virement bancaire manuel), vous devez créer un <b>virement inversé</b>.",
     inputs: {
       note: {
-        message: "élément élément à vendeur.",
-        placeholder: "vous peut élément note élément...",
+        message: "C'est visible pour le vendeur.",
+        placeholder: "Vous pouvez joindre une note ici...",
       },
       amount: {
-        error_message: "élément montant a élément élément.",
+        error_message: "Le montant restant a été dépassé.",
       },
     },
   },
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Profil principal",
       subtitle:
-        "élément votre public profil informations élément. ceci informations élément élément élément à votre clients ou élément utilisateurs.",
+        "Modifiez les informations de votre profil public ici. Ces informations peuvent être visibles par vos clients ou d'autres utilisateurs.",
       full_name_input: "Nom complet",
       tel_input: "Numéro de contact",
       email_input: "E-mail",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ élément",
-      description: "créer et gérer élément élément questions.",
+      description: "Créez et gérez les questions fréquemment posées.",
     },
     "backoffice:faq:read": {
       name: "FAQ Accès",
@@ -5003,12 +5003,12 @@ export default {
       description: "lecture client informations et élément.",
     },
     "backoffice:ribbon:write": {
-      name: "élément élément",
+      name: "Gestion du ruban",
       description: "gérer boutique élément.",
     },
     "backoffice:ribbon:read": {
       name: "élément Accès",
-      description: "lecture élément détails et élément.",
+      description: "Lisez les détails et les statistiques du ruban.",
     },
     "backoffice:ai:write": {
       name: "AI élément",
@@ -5051,7 +5051,7 @@ export default {
       description: "lecture affilié détails et élément.",
     },
     "backoffice:print:write": {
-      name: "élément élément",
+      name: "Gestion de l'impression",
       description: "gérer élément options.",
     },
     "backoffice:print:read": {
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "élément Accès",
-      description: "lecture élément détails et élément.",
+      description: "Lisez les détails et les statistiques de monétisation.",
     },
     "selldone:monetization:write": {
-      name: "élément élément",
-      description: "gérer élément, élément élément élément.",
+      name: "Gestion de la monétisation",
+      description: "Gérez la monétisation, y compris les programmes de parrainage.",
     },
     "selldone:identification": {
       name: "élément Accès",
@@ -5095,21 +5095,21 @@ export default {
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "élément élément",
+      name: "Gestion des fournisseurs",
       description: "gérer connecté service fournisseurs.",
     },
     "connect:provider:read": {
       name: "élément Accès",
-      description: "lecture élément détails et élément.",
+      description: "Lisez les détails et les statistiques du fournisseur.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "élément Accès",
-      description: "lecture élément détails et élément.",
+      description: "Lisez les détails et les statistiques de l’agence.",
     },
     "agency:write": {
-      name: "élément élément",
+      name: "Gestion d'agence",
       description: "gérer élément informations.",
     },
 
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "élément",
-      description: "Accès à élément et boutique élément fonctionnalités.",
+      description: "Accès aux fonctionnalités de backoffice et de gestion de magasin.",
     },
     storefront: {
       title: "élément",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "élément",
-      description: "élément portées non élément dans élément.",
+      description: "Divers périmètres non définis dans le système.",
     },
     vendor: {
       title: "vendeur",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "élément",
-      description: "Accès élément informations et élément.",
+      description: "Accédez aux informations et à la gestion de l'agence.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "le prix",
     verify: {
       true_title: "élément conditions",
-      true_description: "élément lecture et élément avec Selldone conditions de utiliser",
+      true_description: "J'ai lu et j'accepte les conditions d'utilisation de Selldone",
     },
     need_charge: "Besoin de recharge",
     buy_now: "Acheter maintenant",
@@ -5890,7 +5890,7 @@ export default {
 
     config: {
       new: "nouveau affilié élément",
-      edit: "élément affilié élément",
+      edit: "Modifier le partenaire affilié",
       subtitle:
         "configurer général paramètres et nom de affilié élément.",
     },
@@ -5903,13 +5903,13 @@ export default {
 
     contact: {
       title: "Coordonnées",
-      subtitle: "élément contact détails de affilié élément élément.",
+      subtitle: "Fournissez ici les coordonnées du partenaire affilié.",
     },
 
     restriction: {
       title: "commission restriction",
       subtitle:
-        "élément élément produits sont élément pour commission. vous peut élément commission à élément produits.",
+        "Définissez quels produits sont éligibles à une commission. Vous pouvez limiter les commissions à certains produits.",
     },
 
     link_domain: {
@@ -5917,10 +5917,10 @@ export default {
       subtitle:
         "Liez l'un de vos domaines à ce partenaire affilié. Les visiteurs qui achètent via ce domaine seront attribués à cet affilié.",
 
-      domain_not_approved_msg: "domaine a non élément élément élément!",
+      domain_not_approved_msg: "Le domaine n'a pas encore été approuvé!",
       domain_is_not_enable_msg: "domaine est non activé!",
       domain_is_linked_to_other_affiliate_msg:
-        "ceci domaine est élément lié à élément affilié!",
+        "Ce domaine est déjà lié à un autre affilié!",
     },
 
     set_users_first_message: "veuillez définir utilisateur élément!",
@@ -5933,7 +5933,7 @@ export default {
     },
 
     notifications: {
-      create_success: "nouveau affilié élément élément.",
+      create_success: "Nouvel affilié ajouté avec succès.",
       update_success: "affilié mis à jour élément.",
     },
 
@@ -5947,22 +5947,22 @@ export default {
         false_description:
           "Calculez en utilisant une combinaison de commissions fixes et en pourcentage.",
         true_description:
-          "élément en utilisant élément commission définir dans tarification onglet.",
-        false_title: "élément + élément commission",
+          "Calculez à l'aide des commissions spécifiques au produit définies dans l'onglet Tarification.",
+        false_title: "Commission fixe + pourcentage",
         true_title: "élément commission",
       },
       user: {
         label: "utilisateur (élément)",
-        message: "élément, élément.élément., affilié nom dans Selldone",
+        message: "Facultatif, par exemple, nom de l'affilié dans Selldone",
       },
       web: {
-        placeholder: "élément, élément.élément., élément.élément",
+        placeholder: "Facultatif, par exemple, affilié-web.com",
       },
       address: {
-        placeholder: "élément, élément.élément., 1200 POX, NY, USA",
+        placeholder: "Facultatif, par exemple, 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "élément, élément.élément., 001-808-210354",
+        placeholder: "Facultatif, par exemple 001-808-210354",
       },
       bank: {
         placeholder: "Facultatif, par exemple, Arstra Bank, n° : 10002-325-800-845213",
@@ -6014,7 +6014,7 @@ export default {
       action: "Oui, supprimer maintenant",
     },
     notifications: {
-      delete_success: "évaluation a élément élément supprimé.",
+      delete_success: "L'évaluation a été supprimée avec succès.",
     },
   },
 
@@ -6045,14 +6045,14 @@ export default {
     structure: {
       title: "élément",
       subtitle:
-        "design votre tarification entrée Formulaire élément par élément élément et élément tableau.",
+        "Concevez ici votre formulaire de saisie de prix en intégrant des formules et des tableaux de référence.",
       expand_action: "élément",
       collapse_action: "élément",
     },
     inputs: {
       title: {
         message: "ceci titre est non élément à clients.",
-        placeholder: "saisir nom pour tarification, élément.élément., 'élément tarification",
+        placeholder: "Saisissez un nom pour le prix, par exemple « Tarifs pour les tasses »",
       },
     },
     samples: {
@@ -7043,16 +7043,16 @@ export default {
       subtitle:
         "Téléchargez les fichiers CSV du fournisseur ici. Assurez-vous que le format est correct et respecte les règles de confidentialité.",
       checklist: {
-        title: "élément élément",
-        subtitle: "élément élément à élément élément.",
+        title: "Liste de contrôle importante",
+        subtitle: "Assurez-vous de suivre les directives.",
         sample_files: "exemple fichiers",
         valid_vendor_name_needed:
-          "vous doit élément <b>valide nom</b>. <b>nom</b> est utilisé à élément élément à <i>créer</i> nouveau vendeur ou <i>mettre à jour</i> élément élément.",
+          "Vous devez fournir un nom valide <b></b>. Le <b>name</b> est utilisé pour déterminer s'il faut <i>Create</i> un nouveau fournisseur ou <i>Update</i> un existant.",
         assign_user_after_import:
           "Après avoir importé des fournisseurs, vous pouvez attribuer manuellement un utilisateur pour lui donner accès au panneau des fournisseurs.",
       },
       need_kyc_alert:
-        "vous élément à élément votre personnel informations élément élément vendeurs.",
+        "Vous devez vérifier vos informations personnelles avant d'importer des fournisseurs.",
       back_to_vendors_list: "retour à vendeur liste",
     },
   },
@@ -7091,7 +7091,7 @@ export default {
         "Configurez et gérez cette option pour votre boutique.",
     },
     distribution_model: {
-      title: "élément élément",
+      title: "Modèle de distribution",
       subtitle:
         "Configurez et gérez cette option pour votre boutique.",
     },
@@ -7101,18 +7101,18 @@ export default {
         "Configurez et gérez cette option pour votre boutique.",
     },
     need_enable_shipping_for_vendors_tips:
-      "activer Livraison pour vendeurs dans boutique > logistique onglet pour élément méthode élément.",
+      "Activez l'expédition pour les fournisseurs dans l'onglet Boutique > Logistique pour chaque méthode individuellement.",
     transportation_available_tooltip: "ceci élément est disponible pour vendeurs.",
     transportation_not_available_tooltip:
-      "non disponible pour vendeurs! vous peut activer élément dans élément paramètres.",
+      "Non disponible pour les vendeurs! Vous pouvez l'activer dans les paramètres de transport.",
     panel: {
       title: "vendeur élément",
-      subtitle: "élément votre vendeurs élément votre personnalisé domaine.",
+      subtitle: "Intégrez vos fournisseurs via votre domaine personnalisé.",
     },
     documents: {
       title: "Documents requis",
       subtitle:
-        "vous peut élément votre vendeurs à téléverser Documents ou signer élément élément. élément élément Documents élément.",
+        "Vous pouvez demander à vos fournisseurs de télécharger des documents ou de signer certains contrats. Précisez ici les documents requis.",
       add_document_action: "ajouter document demande",
     },
     inputs: {
@@ -7126,14 +7126,14 @@ export default {
         label: "Ajouter un nouveau produit",
         true_title: "vendeurs peut ajouter produits",
         false_description:
-          "vous ajouter produits et élément vendeurs. vendeurs peut élément gérer prix et stock.",
+          "Vous ajoutez des produits et affectez des fournisseurs. Les fournisseurs ne peuvent gérer que les prix et les stocks.",
         true_description:
-          "vendeurs peut ajouter et gérer élément élément produits élément dans élément vendeur élément.",
+          "Les fournisseurs peuvent ajouter et gérer leurs propres produits directement dans leur panneau de fournisseurs.",
       },
       need_verify: {
         label: "produit vérification élément",
         false_description: "nouveau vendeur produits aller production élément.",
-        false_title: "élément vérification élément",
+        false_title: "Aucune vérification requise",
         true_description:
           "Les nouveaux produits des fournisseurs doivent être approuvés avant d'être mis en ligne sur le marché.",
         true_title: "vérification élément",
@@ -7142,29 +7142,29 @@ export default {
         label: "ajouter nouveau catégorie",
         true_title: "vendeurs peut ajouter catégorie",
         false_description:
-          "vous ajouter catégorie. vendeurs peut élément ajouter produits à élément catégorie.",
+          "Vous ajoutez des catégories. Les fournisseurs ne peuvent ajouter des produits qu'aux catégories existantes.",
         true_description:
-          "vendeurs peut ajouter et gérer catégorie élément dans élément vendeur élément.",
+          "Les fournisseurs peuvent ajouter et gérer des catégories directement dans leur panneau de fournisseur.",
       },
       shipping: {
         label: "Livraison options",
         true_title: "vendeurs élément Livraison options",
         false_description:
-          "vendeurs élément ajouter ou élément élément Livraison méthodes.",
+          "Les fournisseurs ne peuvent pas ajouter ou personnaliser leurs méthodes d'expédition.",
         true_description:
           "Les fournisseurs peuvent configurer leurs propres méthodes d'expédition, ajouter des coursiers et personnaliser l'expédition en fonction de leurs besoins.",
       },
       hidden_customer: {
         label: "afficher élément contact informations",
-        true_description: "élément contact détails sont élément de vendeurs.",
+        true_description: "Les coordonnées de l’acheteur sont masquées aux fournisseurs.",
         false_description:
-          "élément contact détails, élément téléphone et e-mail, sont élément à vendeurs.",
+          "Les coordonnées de l'acheteur, telles que le téléphone et l'e-mail, sont visibles pour les vendeurs.",
       },
       multi: {
         false_description:
           "Un utilisateur ne peut avoir qu'un seul compte fournisseur. Les utilisateurs seront redirigés vers leur panneau à l'adresse /vendors.",
         true_description:
-          "utilisateur peut élément élément vendeur comptes. ceci est élément fonctionnalité; veuillez contact us élément en utilisant élément.",
+          "Un utilisateur peut avoir plusieurs comptes fournisseur. Il s'agit d'une fonctionnalité bêta; veuillez nous contacter avant de l'utiliser.",
         true_title: "élément mode",
         false_title: "élément vendeur mode (par défaut)",
       },
@@ -7199,12 +7199,12 @@ export default {
       code: {
         title: "intégrer code",
         subtitle:
-          "élément intégrer code pour document, Formulaire, ou élément cela vendeur doit signer.",
+          "Collez le code intégré d'un document, d'un formulaire ou d'un contrat que le fournisseur doit signer.",
       },
       link: {
         title: "externe lien",
         subtitle:
-          "élément externe lien à document ou élément cela vendeur doit signer.",
+          "Fournissez un lien externe vers un document ou un contrat que le fournisseur doit signer.",
       },
       inputs: {
         title: {
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "intégrer code",
-          placeholder: "élément intégrer code élément...",
+          placeholder: "Collez le code d'intégration ici...",
           message: "peut inclure HTML code.",
         },
         url: {
           label: "URL",
-          message: "saisir URL pour document ou élément élément...",
+          message: "Entrez ici l'URL du document ou du contrat...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "direct Livraison de vendeur",
       description:
-        "dans ceci mode, vendeurs élément commandes élément à clients. Livraison adresse pour vendeur commandes va élément élément adresse.",
+        "Dans ce mode, les fournisseurs expédient les commandes directement aux clients. L'adresse de livraison pour les commandes des fournisseurs sera l'adresse de l'acheteur.",
     },
   },
   /**
@@ -7264,29 +7264,29 @@ export default {
         "Soumettez un document pour vérifier votre adresse professionnelle, comme une facture de services publics, une facture fiscale ou un contrat de location.",
     },
     Contract: {
-      title: "élément & élément",
+      title: "Contrats et accords",
       description:
-        "téléverser élément ou élément cela élément conditions et conditions de votre entreprise élément.",
+        "Téléchargez des contrats ou des accords qui détaillent les termes et conditions de vos relations commerciales.",
     },
     Copyright: {
-      title: "élément élément",
+      title: "Documents sur les droits d'auteur",
       description:
         "Fournissez des documents d’enregistrement des droits d’auteur pour affirmer vos droits de propriété intellectuelle.",
     },
     Privacy: {
       title: "confidentialité élément Documents",
       description:
-        "inclure votre confidentialité élément Documents à élément votre élément à élément utilisateur et client informations.",
+        "Incluez vos documents de politique de confidentialité pour démontrer votre engagement à protéger les informations des utilisateurs et des clients.",
     },
     Embed: {
       title: "élément Formulaire",
       description:
-        "complet élément Formulaire à élément élément informations.",
+        "Remplissez le formulaire intégré pour fournir les informations requises.",
     },
     Link: {
       title: "externe lien",
       description:
-        "élément externe lien à élément élément informations.",
+        "Suivez le lien externe pour fournir les informations nécessaires.",
     },
   },
 
@@ -7339,9 +7339,9 @@ export default {
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "élément tarification élément",
+    title: "Modèle de tarification du marché",
     subtitle:
-      "élément vous élément tarification élément à vendeur produits, prix va élément élément élément vendeur prix * (1 + commission%).",
+      "Lorsque vous attribuez un modèle de tarification aux produits du fournisseur, le prix sera automatiquement calculé comme suit: Prix du fournisseur * (1 + % de commission).",
     delete: {
       subtitle:
         "Configurez et gérez cette option pour votre boutique.",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "élément.élément., élément produits élément...",
+        placeholder: "par exemple, classe de produits numériques...",
       },
       description: {
         placeholder: "vous peut ajouter note élément...",
       },
       accept_delete: {
-        true_description: "élément élément à supprimer ceci tarification élément.",
-        true_title: "confirmer tarification élément élément",
+        true_description: "Je souhaite supprimer ce modèle de tarification.",
+        true_title: "Confirmer la suppression du modèle de tarification",
       },
     },
   },
@@ -7373,17 +7373,17 @@ export default {
     vendor_wallet: "vendeur portefeuille",
     vendor_bank_account: "vendeur banque compte",
     with_balance_tooltip:
-      "élément vous connect versement services élément Stripe Connect, élément élément et élément disponible solde dans votre Stripe compte pour élément.",
+      "Lorsque vous connectez des services de paiement comme Stripe Connect, nous récupérons et affichons le solde disponible sur votre compte Stripe pour référence.",
     with_balance: "avec solde",
-    without_balance: "élément solde - élément mode",
+    without_balance: "Sans solde - Mode rapide",
     bank_transfer: {
       title: "Virement bancaire",
       subtitle:
-        "ceci est enregistrement de paiement historique. élément élément argent va élément élément à vendeur par élément; vous doit élément payer votre vendeurs.",
+        "Il s'agit d'un enregistrement de l'historique des paiements. Aucun argent réel ne sera transféré au vendeur par le système; vous devez payer manuellement vos fournisseurs.",
     },
     vendor_bank: "vendeur banque",
     gateway_in_debug_mode_warning:
-      "élément Passerelle de paiement est élément dans débogage mode, élément va non élément élément à élément compte.",
+      "Étant donné que la passerelle de paiement est actuellement en mode débogage, les fonds ne seront pas transférés vers un compte réel.",
     payment: {
       title: "Paiement",
       subtitle:
@@ -7405,16 +7405,16 @@ export default {
       },
       note: {
         placeholder:
-          "vous peut ajouter note élément... ceci note est non élément à vendeur.",
+          "Vous pouvez ajouter une note ici... Cette note n'est pas visible pour le vendeur.",
       },
       accept_refund: {
-        true_description: "élément élément à annuler ceci paiement.",
+        true_description: "Je souhaite annuler ce paiement.",
         true_title: "annuler & remboursement paiement",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "élément élément",
+        title: "Fonds inversé",
         message:
           "Configurez et gérez cette option pour votre boutique.",
       },
@@ -7431,9 +7431,9 @@ export default {
    */
   quota_importer: {
     quota: "élément",
-    max_batch_msg: "maximum numéro de éléments vous peut importer dans élément élément.",
+    max_batch_msg: "Nombre maximum d'éléments que vous pouvez importer dans un seul lot.",
     max_daily_limit_msg: "maximum numéro de éléments vous peut importer dans jour.",
-    extra_daily_limit_msg: "élément éléments autorisé élément élément limite.",
+    extra_daily_limit_msg: "Articles supplémentaires autorisés au-delà de la limite quotidienne.",
     add_items_today_msg: "éléments élément aujourd’hui.",
     file_statistic_msg: "élément pour ceci fichier.",
     used_quota: "utilisé élément",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "élément titre",
-      subtitle: "hauteur de titre va élément élément.",
+      subtitle: "La hauteur du titre s'ajustera dynamiquement.",
     },
 
     animation: {
@@ -7511,7 +7511,7 @@ export default {
         false_description:
           "Les catégories et les produits ont une animation interactive pour montrer la fonctionnalité.",
         true_title: "Statique",
-        true_description: "catégorie et produits élément élément élément.",
+        true_description: "Les catégories et les produits n'ont pas d'animation.",
       },
     },
 
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "Page produit",
       subtitle:
-        "élément votre Page produit élément. vous peut élément élément de prix et élément élément de sections à élément votre préférences.",
+        "Personnalisez votre page produit ici. Vous pouvez ajuster l'affichage des prix et modifier la disposition des sections selon vos préférences.",
       buy_button_color: "élément bouton couleur",
       smart_price: {
         title: "élément unité prix",
@@ -7568,7 +7568,7 @@ export default {
       variants_selector: {
         title: "variantes élément",
         subtitle:
-          "vous peut choisir élément élément à élément variantes sur Page produit.",
+          "Vous pouvez choisir différentes manières d'afficher les variantes sur la page produit.",
       },
 
       tabs_order: {
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "élément & connexion",
       subtitle:
-        "élément vendeur élément et connexion élément avec personnalisé vidéo, image, ou message.",
+        "Personnalisez l'expérience d'intégration et de connexion des fournisseurs avec une vidéo, une image ou un message personnalisé.",
     },
     inputs: {
       page_vendor_login: {
@@ -7596,7 +7596,7 @@ export default {
       page_vendor_registered: {
         label: "vendeur inscrit page",
         message:
-          "sélectionner Page personnalisée pour élément vendeurs. ceci page est élément élément votre élément assistance élément vendeurs élément utilisateur.",
+          "Sélectionnez une page personnalisée pour les fournisseurs connectés. Cette page s'affiche si votre place de marché prend en charge plusieurs fournisseurs par utilisateur.",
       },
     },
   },
@@ -7618,11 +7618,11 @@ export default {
     inputs: {
       font_family: {
         label: "police élément",
-        message: "saisir élément élément.",
+        message: "Entrez la valeur de la famille de polices.",
       },
       font_res: {
         label: "police élément",
-        message: "élément police élément.",
+        message: "Spécifiez la ressource de police.",
       },
     },
   },
@@ -7667,7 +7667,7 @@ export default {
     select: {
       title: "sélectionner mode",
       description:
-        "élément tout variantes dans élément, élément pour élément numéro de variantes.",
+        "Affiche toutes les variantes dans une liste déroulante, idéale pour un grand nombre de variantes.",
     },
   },
 
@@ -7677,7 +7677,7 @@ export default {
     add_title: "ajouter propriété définir",
     config: {
       subtitle:
-        "définir titre et Description pour votre propriété définir. élément va élément élément à personnel élément.",
+        "Définissez le titre et la description de votre ensemble de propriétés. Il sera visible uniquement par le personnel.",
     },
     variants: {
       title: "Variantes",
@@ -7690,7 +7690,7 @@ export default {
         placeholder: "saisir titre pour propriété définir...",
       },
       description: {
-        placeholder: "saisir élément Description... (élément)",
+        placeholder: "Entrez une brève description... (facultatif)",
       },
       custom_variants: {
         true_title: "personnalisé variantes",
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "définir élément définir... (élément)",
+        placeholder: "Définir les valeurs définies... (facultatif)",
         messages:
           "Vous pouvez fournir des suggestions pour les valeurs et personnaliser l'ordre.",
       },
@@ -9485,7 +9485,7 @@ export default {
       name: "élément",
       title: "élément",
       description:
-        "ceci produit est non élément dans boutique, élément élément par direct lien.",
+        "Ce produit n'est pas référencé dans la boutique, mais accessible par lien direct.",
     },
   },
 
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "Ajouter un nouveau cashback",
     title: "Programmes de remise en argent",
-    boosted: "élément (2élément)",
+    boosted: "Boost (2x)",
     min_purchase: "Achat minimum",
     only_first_order: "Uniquement première commande",
     total_cashback: "Remboursement total",
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "normal",
-      true_title: "élément (2élément cashback)",
+      true_title: "Boost (2x remise en argent)",
       true_msg:
         "Le programme de cashback est en mode boost et les clients recevront 2x cashback.",
       false_msg:
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "élément élément élément élément.",
+    no_asset_uploaded: "Aucun élément téléchargé pour l'instant.",
   },
 
   /**
@@ -10686,7 +10686,7 @@ export default {
     },
     show_side_menu_tooltip: {
       subtitle:
-        "élément élément de élément menu, élément inclure tout section catégorie pour élément votre page.",
+        "Basculez la visibilité du menu latéral, qui comprend toutes les catégories de sections pour créer votre page.",
     },
     sort_tooltip: {
       subtitle:
@@ -10695,7 +10695,7 @@ export default {
     edit_mode_tooltip: {
       title: "élément / aperçu mode",
       edit_mode_title: "élément mode",
-      edit_mode_msg: "tout élément élément va élément élément.",
+      edit_mode_msg: "Tous les outils d'édition seront affichés.",
       view_mode_title: "aperçu mode",
       view_mode_msg:
         "Affichez votre page telle que les utilisateurs la verraient en masquant les outils d'édition supplémentaires et les zones de texte vides.",
@@ -10707,12 +10707,12 @@ export default {
     },
     live_view: {
       title: "production aperçu",
-      subtitle: "voir mettre à jour dans élément vous élément votre page.",
+      subtitle: "Consultez les mises à jour en temps réel lorsque vous modifiez votre page.",
     },
     hotkeys_dialog: {
-      title: "élément élément",
+      title: "Raccourcis clavier",
       augment_tips:
-        "vous peut charger élément contenu élément votre page et élément élément avec <b>élément</b> élément. élément est utilisé pour personnalisé élément pages élément <b>produits</b>, <b>catégorie</b>, et <b>inclure éléments</b>. à définir image à charger élément, élément sur <b>élément</b> et sélectionner <b>élément source</b> pour cela image.",
+        "Vous pouvez charger du contenu dynamique sur votre page et le remplacer par des valeurs <b>augment</b>. L'augmentation est utilisée pour les pages dynamiques personnalisées telles que <b>Products</b>, <b>Categories</b> et <b>Include Items</b>. Pour définir une image à charger dynamiquement, cliquez sur <b>Feeder</b> et sélectionnez <b>Dynamic Source</b> pour cette image.",
     },
     hotkeys: {
       ctrl_b: "Activer/désactiver le gras pour le texte sélectionné | <b>Rends-moi audacieux</b>",
@@ -10722,11 +10722,11 @@ export default {
       ctrl_u: "Activer/désactiver le soulignement pour le texte sélectionné | <u>Soulignez-moi</u>",
       ctrl_1:
         "Diminuer la taille de la police du texte sélectionné | <small>Rends-moi petit</small>",
-      ctrl_2: "augmenter police taille de élément texte | <big>gagner élément élément</big>",
-      ctrl_r: "supprimer tout élément de élément texte | élément tout styles",
+      ctrl_2: "Augmenter la taille de la police du texte sélectionné | <big>Faites-moi grandir</big>",
+      ctrl_r: "Supprimer toute la mise en forme du texte sélectionné | Nettoyer tous les styles",
       ctrl_s: "enregistrer page",
-      tab: "élément élément élément mode",
-      ctrl_e: "élément ou élément cloner style mode",
+      tab: "Basculer entre les modes d'échelle",
+      ctrl_e: "Activer ou désactiver le mode style clone",
     },
   },
 
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "code",
         subtitle:
-          "vous peut copier et élément élément code de gauche élément sections dans page constructeur.",
+          "Vous pouvez copier et coller le code de l'élément à partir des sections de gauche dans le générateur de page.",
       },
       inputs: {
         title: {
@@ -10759,7 +10759,7 @@ export default {
         },
         tags: {
           label: "Mots clés",
-          message: "utilisé pour élément et élément élément.",
+          message: "Utilisé pour rechercher et catégoriser des éléments.",
         },
         section: {
           message: "copier section de page constructeur.",
@@ -10774,13 +10774,13 @@ export default {
   marketplace_vendors: {
     title: "vendeurs liste",
     subtitle:
-      "ajouter vendeurs élément, élément élément élément à produits dans Tableau de bord du produit > vendeurs.",
+      "Ajoutez des fournisseurs ici, puis attribuez-les aux produits dans le tableau de bord produit > Fournisseurs.",
     add_new_vendor_action: "ajouter nouveau vendeur",
     status_tooltip: {
       title: "Statut du vendeur",
-      ACCEPTED: "vendeur a Accès à élément élément.",
-      REJECTED: "vendeur demande a élément élément.",
-      PENDING: "demande est élément élément de vendeur.",
+      ACCEPTED: "Le vendeur a accès à son panel.",
+      REJECTED: "La demande du fournisseur a été rejetée.",
+      PENDING: "La demande est en attente d'une décision du vendeur.",
     },
     number_of_products: "numéro de produits",
     invited: "élément",
@@ -10798,12 +10798,12 @@ export default {
     access_tooltip: {
       title: "élément Accès",
       subtitle:
-        "vendeur a Accès à élément élément. vous peut élément ceci dans vendeur > Accès onglet.",
+        "Le vendeur a accès à son panel. Vous pouvez modifier cela dans l'onglet Fournisseur > Accès.",
     },
     reject_by_user_tooltip: {
       title: "élément par utilisateur",
       subtitle:
-        "utilisateur élément demande à élément vendeur et Accès ceci vendeur.",
+        "L'utilisateur a rejeté la demande de devenir fournisseur et d'accéder à ce fournisseur.",
     },
     download_all_vendors: "télécharger tout vendeurs",
     bulk_import: "en masse importer (élément)",
@@ -10813,7 +10813,7 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "licence élément élément!",
+    title: "Mise à niveau de licence requise!",
     subtitle:
       "Votre licence actuelle ne répond pas aux exigences du modèle économique sélectionné. Veuillez mettre à niveau votre licence vers le plan Entreprise.",
   },
@@ -10829,33 +10829,33 @@ export default {
     add_template_action: "ajouter message modèle",
 
     notifications: {
-      add_chat_success_message: "message a élément élément élément.",
+      add_chat_success_message: "Le message a été ajouté avec succès.",
     },
 
     send_update_email: {
       title: "commande mettre à jour e-mail",
       need_set_service_alert: {
         message:
-          "veuillez définir votre e-mail service élément à élément e-mail à élément envoyés.",
+          "Veuillez configurer votre fournisseur de services de messagerie pour autoriser l'envoi de l'e-mail.",
         action: "aller à paramètres",
       },
       send_action: "envoyer mettre à jour e-mail",
 
       notifications: {
-        send_success_message: "e-mail a élément envoyés élément.",
+        send_success_message: "L'e-mail a été envoyé avec succès.",
       },
     },
     add_template: {
       edit_title: "élément message modèle",
       add_title: "ajouter message modèle",
       message:
-        "vous doit définir titre et message élément élément. titre élément élément utilisé pour votre élément et va non envoyés à client.",
+        "Vous devez définir ici un titre et un corps de message. Le titre ne sera utilisé qu'à titre de référence et ne sera pas envoyé au client.",
 
       save_action: "enregistrer modèle",
       add_action: "ajouter modèle",
 
       notifications: {
-        save_success_message: "modèle a élément élément élément.",
+        save_success_message: "Le modèle a été enregistré avec succès.",
       },
 
       inputs: {
@@ -10867,7 +10867,7 @@ export default {
           label: "modèle message",
           placeholder: "écrire votre message élément...",
           messages:
-            "vous peut définir élément élément par {order_id} et {buyer_name}.",
+            "Vous pouvez définir des valeurs dynamiques par {order_id} et {buyer_name}.",
         },
       },
     },
@@ -10886,7 +10886,7 @@ export default {
     click_to_create: "élément à créer...",
     valid_for_30_days: "valide pour 30 jours",
     notifications: {
-      secure_link_created: "élément lien a élément élément élément.",
+      secure_link_created: "Le lien sécurisé a été créé avec succès.",
     },
   },
 
@@ -10917,7 +10917,7 @@ export default {
     profile: {
       title: "propriété définir - personnalisé variantes",
       subtitle:
-        "vous peut élément variante nom pour ceci produit, élément par défaut sur.",
+        "Vous pouvez personnaliser les noms des variantes de ce produit, en remplaçant ceux par défaut.",
     },
 
     subtitle:
@@ -10932,7 +10932,7 @@ export default {
     add_action: "ajouter boîte",
     subtitle:
       "Configurez et gérez cette option pour votre boutique.",
-    empty: "élément boîtes élément. élément “ajouter boîte”.",
+    empty: "Pas encore de cartons. Cliquez sur « Ajouter une boîte ».",
     edit: "élément boîte",
     new: "nouveau boîte",
     default_weight: "par défaut poids",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "sélectionner colis",
     define_package: "élément colis",
-    define_package_hint: "créer ou élément votre élément colis taille",
+    define_package_hint: "Créez ou modifiez vos tailles de colis prédéfinies",
   },
 
 
@@ -10984,14 +10984,14 @@ export default {
     items: {
       title: "Articles",
       sub_title:
-        "créer, élément, et gérer Annonces éléments. élément statut, tarification, Coordonnées, et média.",
+        "Créez, modifiez et gérez les éléments de liste. Contrôlez le statut, les prix, les coordonnées et les médias.",
 
-      empty_title: "élément éléments élément",
+      empty_title: "Aucun article pour l'instant",
       empty_subtitle:
-        "créer votre élément Annonces élément à démarrer élément votre élément.",
+        "Créez votre premier élément de liste pour commencer à créer votre annuaire.",
 
       add_title: "ajouter élément",
-      edit_title: "élément élément",
+      edit_title: "Modifier l'élément",
 
       price_to: "prix à",
       price_unit: "prix unité",
@@ -11002,9 +11002,9 @@ export default {
       opening_hours_json: "élément heures JSON",
 
       delete_title: "supprimer élément",
-      delete_message: "sont vous élément vous élément à supprimer ceci élément?",
+      delete_message: "Êtes-vous sûr de vouloir supprimer cet élément?",
       delete_success: "Élément supprimé avec succès.",
-      restore_success: "élément élément élément.",
+      restore_success: "Objet restauré avec succès.",
 
       opening_hours:"élément heures",
       form_fields:"Formulaire élément",
@@ -11019,9 +11019,9 @@ export default {
       sub_title:
         "Organisez votre répertoire avec des catégories et des sous-catégories. Cela améliore la navigation et le filtrage.",
 
-      empty_title: "élément catégorie élément",
+      empty_title: "Aucune catégorie pour l'instant",
       empty_subtitle:
-        "créer catégorie à élément votre Annonces et élément élément.",
+        "Créez des catégories pour structurer votre fiche et améliorer la navigation.",
 
       add_title: "ajouter une catégorie",
       edit_title: "Modifier la catégorie",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "design ID",
 
       delete_title: "Supprimer la catégorie",
-      delete_message: "sont vous élément vous élément à supprimer ceci catégorie?",
+      delete_message: "Êtes-vous sûr de vouloir supprimer cette catégorie?",
       delete_success: "catégorie supprimé élément.",
       form_schema: "catégorie Formulaire élément",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "modération",
       moderation_mode: "modération mode",
-      require_first_approved_before_more: "élément élément élément élément plus",
+      require_first_approved_before_more: "Exiger une première approbation avant d'en savoir plus",
 
       limits_title: "Limites",
-      max_pending_per_user: "élément en attente élément utilisateur",
-      max_items_per_user: "élément éléments élément utilisateur",
+      max_pending_per_user: "Max en attente par utilisateur",
+      max_items_per_user: "Nombre maximum d'articles par utilisateur",
       limits_hint: "limite élément",
 
       templates_title: "Modèles",
@@ -11065,11 +11065,11 @@ export default {
       sub_title:
         "Examinez les éléments soumis et décidez de la suite des événements : approuvez, publiez, rejetez, archivez ou remettez en attente.",
 
-      empty_title: "élément éléments à élément",
+      empty_title: "Aucun élément à examiner",
       empty_subtitle:
         "Lorsque les utilisateurs soumettent de nouveaux éléments, ils apparaîtront ici pour modération.",
 
-      review_title: "élément élément",
+      review_title: "Examiner l'article",
       approve_publish: "approuver & publier",
 
       submitted_at: "élément",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "élément élément élément.",
-      publish_success: "élément publié élément.",
-      unpublish_success: "élément élément élément.",
-      archive_success: "élément élément élément.",
-      reject_success: "élément élément élément.",
-      penalty_success: "élément élément élément.",
+      approve_success: "Article approuvé avec succès.",
+      publish_success: "Article publié avec succès.",
+      unpublish_success: "Article non publié avec succès.",
+      archive_success: "Élément archivé avec succès.",
+      reject_success: "Article rejeté avec succès.",
+      penalty_success: "Pénalité appliquée avec succès.",
 
       reject_title: "rejeter élément",
-      reject_reason: "élément élément",
+      reject_reason: "Motif du refus",
 
       penalty: "élément",
       penalty_title: "élément",
-      penalty_points: "élément élément",
+      penalty_points: "Points de pénalité",
       penalty_note: "élément note"
     },
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "designs",
       sub_title:
-        "créer élément design définir (élément + détails modèles) et élément élément à catégorie. catégorie peut utiliser élément designs.",
+        "Créez plusieurs ensembles de conception (modèles de carte + détails) et attribuez-les à des catégories. Les catégories peuvent utiliser des designs différents.",
 
-      empty_title: "élément designs élément",
+      empty_title: "Aucun dessin pour l'instant",
       empty_subtitle:
-        "ajouter votre élément design définir à démarrer élément élément catégorie élément.",
+        "Ajoutez votre premier ensemble de conceptions pour commencer à personnaliser l’apparence des catégories.",
 
       add_title: "ajouter design",
       edit_title: "élément design",
@@ -11127,14 +11127,14 @@ export default {
       details_template: "détails modèle",
 
       notifications: {
-        add_success: "design élément élément.",
+        add_success: "Conception créée avec succès.",
         edit_success: "design mis à jour élément.",
         delete_success: "design supprimé élément.",
       },
 
       delete_title: "supprimer design",
       delete_message:
-        "supprimer ceci design? catégorie en utilisant élément va élément élément design_élément.",
+        "Supprimer ce design? Les catégories qui l'utilisent perdront automatiquement design_id.",
     },
 
 
@@ -11146,44 +11146,44 @@ export default {
       sub_title:
         "Créez et gérez des badges de vitrine. Des badges peuvent être attribués aux éléments de la liste pour mettre en évidence des attributs spéciaux.",
 
-      empty_title: "élément Badges élément",
+      empty_title: "Pas encore de badge",
       empty_subtitle:
-        "ajouter votre élément badge à démarrer élément Annonces éléments.",
+        "Ajoutez votre premier badge pour commencer à mettre en évidence les éléments de la liste.",
 
       add_title: "ajouter badge",
       edit_title: "élément badge",
 
       notifications: {
-        add_success: "badge élément élément.",
+        add_success: "Badge créé avec succès.",
         edit_success: "badge mis à jour élément.",
         delete_success: "badge supprimé élément.",
       },
 
       delete_title: "supprimer badge",
-      delete_message: "sont vous élément vous élément à supprimer ceci badge?",
+      delete_message: "Etes-vous sûr de vouloir supprimer ce badge?",
     },
 
     companies: {
       title: "Entreprises",
       sub_title:
-        "créer et gérer entreprises. élément Annonces élément peut élément élément lié à élément entreprise.",
+        "Créer et gérer des sociétés. Chaque élément de la liste peut éventuellement être lié à une entreprise.",
 
-      empty_title: "élément entreprises élément",
+      empty_title: "Aucune entreprise pour l'instant",
       empty_subtitle:
-        "ajouter votre élément entreprise à lien élément à Annonces éléments.",
+        "Ajoutez votre première entreprise pour la lier aux articles de la liste.",
 
       add_title: "ajouter entreprise",
       edit_title: "Modifier l'entreprise",
 
       notifications: {
-        add_success: "entreprise élément élément.",
+        add_success: "Entreprise créée avec succès.",
         edit_success: "entreprise mis à jour élément.",
         delete_success: "entreprise supprimé élément.",
       },
 
       delete_title: "supprimer entreprise",
       delete_message:
-        "supprimer ceci entreprise? éléments en utilisant élément va élément élément entreprise lien.",
+        "Supprimer cette entreprise? Les éléments qui l'utilisent perdront automatiquement le lien de l'entreprise.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "message",
       sub_title: "gérer message envoyés par utilisateurs de Annonces profil.",
       empty_title: "élément message",
-      empty_subtitle: "message envoyés par utilisateurs va élément élément.",
+      empty_subtitle: "Les messages envoyés par les utilisateurs apparaîtront ici.",
 
       sender: "élément",
       item: "Objet",
@@ -11203,13 +11203,13 @@ export default {
       dialog_title: "message",
       owner_reply: "propriétaire répondre",
       reply: "répondre",
-      reply_hint: "écrire répondre à utilisateur. vous peut élément élément message lecture/élément de action.",
+      reply_hint: "Écrivez une réponse à l'utilisateur. Vous pouvez également marquer le message comme lu/spam à partir des actions.",
 
       mark_read: "élément lecture",
-      mark_unread: "élément élément",
+      mark_unread: "Marquer comme non lu",
       archive: "archiver",
       unarchive: "élément",
-      mark_spam: "élément élément",
+      mark_spam: "Marquer comme spam",
       mark_not_spam: "non élément",
 
       delete_confirm: "supprimer ceci message?",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "Annonces",
-      subtitle: "activer ou élément votre public Annonces page. élément activé pour élément heure, Selldone va créer Annonces configuration élément.",
+      subtitle: "Activez ou désactivez votre page de liste publique. Lorsqu'il est activé pour la première fois, Selldone créera automatiquement la configuration de la liste.",
       true_description: "Annonces est activé. clients peut élément Annonces pages.",
-      false_description: "Annonces est désactivé. Annonces pages et élément sont élément.",
+      false_description: "La liste est désactivée. Les pages de listing et les soumissions sont bloquées.",
       open_listing: "ouvrir Annonces",
-      note: "vous peut élément configurer modération, limite, formulaires, et design élément Annonces paramètres.",
+      note: "Vous pourrez ultérieurement configurer la modération, les limites, les formulaires et la conception dans les paramètres de l'annonce.",
       vendor_prereq_text:
         "Vous souhaitez que les fournisseurs ajoutent des éléments de liste à partir de leur panneau de fournisseurs ? Tout d’abord, changez votre modèle économique vers Marketplace.",
-      vendor_prereq_button: "définir élément entreprise élément",
+      vendor_prereq_button: "Définir le modèle économique de Marketplace",
 
       vendor_access_text:
-        "maintenant vous peut élément élément vendeurs peut Accès Annonces fonctionnalités (éléments + entreprises). activer élément dans élément paramètres.",
+        "Vous pouvez désormais décider si les fournisseurs peuvent accéder aux fonctionnalités de référencement (articles + sociétés). Activez-le dans les paramètres de Marketplace.",
       vendor_access_button: "activer Annonces pour vendeurs",
 
       more_options_text:
-        "plus élément sont disponible dans Annonces paramètres. vous peut configurer entrées, UI/élément, modération, limite, et élément options.",
+        "D'autres contrôles sont disponibles dans les paramètres de la liste. Vous pouvez configurer les entrées, l'interface utilisateur/l'apparence, la modération, les limites et les options de monétisation.",
       more_options_button: "aller à Annonces paramètres",
 
       updated: "Annonces mis à jour.",
@@ -11241,15 +11241,15 @@ export default {
 
     search: {
       title: "rechercher paramètres",
-      subtitle: "design élément clients rechercher votre Annonces. activer Emplacement-élément rechercher et compiler filtres de votre personnalisé Formulaire élément.",
+      subtitle: "Concevez la manière dont les clients recherchent votre fiche. Activez la recherche basée sur la localisation et créez des filtres à partir de vos champs de formulaire personnalisés.",
 
       location_title: "Emplacement rechercher",
       location_subtitle: "Permettez aux clients de choisir un emplacement et de trouver des résultats à proximité dans un rayon configurable.",
       location_enabled_true: "Emplacement filtre est activé. clients peut rechercher par distance.",
-      location_enabled_false: "Emplacement filtre est désactivé. élément va non élément élément par distance.",
+      location_enabled_false: "Le filtre de localisation est désactivé. Les résultats ne seront pas filtrés par distance.",
 
       radius_default: "par défaut rayon (élément)",
-      radius_default_hint: "utilisé élément client sélectionner Emplacement élément élément non élément rayon.",
+      radius_default_hint: "Utilisé lorsque le client sélectionne un emplacement mais ne choisit pas de rayon.",
       radius_max: "maximum rayon (élément)",
       radius_max_hint: "Le rayon de la vitrine sera limité à cette valeur.",
       radius_options: "rayon options (élément)",
@@ -11257,7 +11257,7 @@ export default {
 
       filters_title: "rechercher filtres",
       filters_subtitle: "Configurez et gérez cette option pour votre boutique.",
-      no_filters: "élément filtres élément élément.",
+      no_filters: "Aucun filtre ajouté pour l'instant.",
       auto_generate: "Automatique-générer options",
 
       filter_field: "élément clé",
@@ -11269,7 +11269,7 @@ export default {
       single: "élément",
       kv_mode: "clé/élément mode",
 
-      requires_listing_active: "Annonces est non actif. activer Annonces élément à utiliser élément sur élément.",
+      requires_listing_active: "La liste n'est pas active. Activez d'abord le listing pour l'utiliser sur la vitrine.",
 
 
     },
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "élément bon",
-        "élément",
-        "élément",
-        "élément",
-        "accueil élément",
-        "élément produits",
-        "élément élément",
+        "Biens numériques",
+        "Livres",
+        "Électronique",
+        "Mode",
+        "Appareils électroménagers",
+        "Produits de beauté",
+        "Équipement sportif",
         "Jouets et jeux",
-        "Les courses",
+        "Épiceries",
         "Meubles",
         "Pièces automobiles",
         "Bijoux",
-        "élément & élément",
-        "Fournitures pour animaux",
+        "Santé et bien-être",
+        "Fournitures pour animaux de compagnie",
         "Fournitures de bureau",
-        "élément & élément",
-        "élément & TV afficher",
+        "Musique et instruments",
+        "Films et émissions de télévision",
         "Logiciel",
-        "élément & élément",
-        "élément élément",
+        "Art et artisanat",
+        "Équipement de plein air",
       ],
     },
 
@@ -12214,39 +12214,39 @@ export default {
     template_message: {
       title: [
         "Confirmation de commande",
-        "commande élément",
-        "commande élément",
-        "paiement reçus",
-        "commande élément",
-        "commande élément délai",
-        "commande sur élément",
-        "commande élément pour livraison",
-        "retour élément",
-        "remboursement élément",
-        "élément retour dans stock",
+        "Commande expédiée",
+        "Commande livrée",
+        "Paiement reçu",
+        "Commande annulée",
+        "Retard de traitement des commandes",
+        "Commande en attente",
+        "Commande pour livraison",
+        "Retour traité",
+        "Remboursement émis",
+        "Article de nouveau en stock",
       ],
       body: [
-        "Bonjour {buyer_name}, votre commande #{order_id} a été confirmée ! Nous le traitons et vous informerons lorsqu’il sera prêt à être expédié.",
+        "Bonjour {buyer_name}, votre commande #{order_id} a été confirmée! Nous le traitons et vous informerons lorsqu’il sera prêt à être expédié.",
 
-        "bon nouveau, {buyer_name}! votre commande #{order_id} a élément élément. vous peut élément élément élément votre compte. élément pour élément avec us!",
+        "Bonne nouvelle, {buyer_name}! Votre commande #{order_id} a été expédiée. Vous pouvez le suivre via votre compte. Merci d'avoir magasiné avec nous!",
 
         "Bonjour {buyer_name}, votre commande #{order_id} a été livrée avec succès. Nous espérons que vous apprécierez votre achat. Merci!",
 
-        "élément {buyer_name}, élément élément reçus paiement pour commande #{order_id}. votre commande est maintenant élément élément et va élément élément bientôt.",
+        "Bonjour {buyer_name}, nous avons reçu le paiement de la commande #{order_id}. Votre commande est en cours de traitement et sera bientôt expédiée.",
 
-        "Configurez et gérez cette option pour votre boutique. {buyer_name} {order_id}",
+        "Cher {buyer_name}, nous sommes désolés de vous informer que votre commande #{order_id} a été annulée. Si vous avez des questions, veuillez contacter l'assistance.",
 
-        "Configurez et gérez cette option pour votre boutique. {buyer_name} {order_id}",
+        "Cher {buyer_name}, nous rencontrons un retard avec votre commande #{order_id}. Nous nous excusons pour la gêne occasionnée et nous efforçons de le résoudre dans les plus brefs délais.",
 
-        "élément {buyer_name}, votre commande #{order_id} est élément sur élément. veuillez élément votre compte ou contact assistance pour élément détails.",
+        "Bonjour {buyer_name}, votre commande #{order_id} est actuellement en attente. Veuillez vérifier votre compte ou contacter l'assistance pour plus de détails.",
 
-        "élément {buyer_name}, votre commande #{order_id} est élément pour livraison et doit élément vous bientôt. élément vous pour votre élément!",
+        "Bonjour {buyer_name}, votre commande #{order_id} est en cours de livraison et devrait vous parvenir bientôt. Merci pour votre patience!",
 
-        "élément {buyer_name}, élément élément élément retour pour votre commande #{order_id}. élément vous élément élément questions, veuillez contact assistance.",
+        "Cher {buyer_name}, nous avons traité le retour de votre commande #{order_id}. Si vous avez des questions, veuillez contacter l'assistance.",
 
-        "élément {buyer_name}, votre remboursement pour commande #{order_id} a élément élément. vous doit voir élément dans votre compte bientôt.",
+        "Bonjour {buyer_name}, votre remboursement pour la commande n° {order_id} a été émis. Vous devriez bientôt voir les fonds sur votre compte.",
 
-        "élément {buyer_name}, élément de votre commande #{order_id} est retour dans stock! vous peut élément nouveau commande maintenant élément élément élément élément.",
+        "Bonjour {buyer_name}, l'article de votre commande #{order_id} est de nouveau en stock! Vous pouvez passer une nouvelle commande dès maintenant si vous êtes toujours intéressé.",
       ],
     },
 
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "élément",
-        "élément élément",
-        "élément",
-        "nourriture",
+        "Robe",
+        "Gadgets numériques",
+        "Boissons",
+        "Aliments",
         "Meubles",
-        "élément",
-        "élément produits",
-        "élément",
-        "élément élément",
-        "élément",
+        "Livres",
+        "Produits de beauté",
+        "Jouets",
+        "Équipement sportif",
+        "Accessoires",
       ],
       description: [
         "Attributs des vêtements tels que la taille, la couleur et le tissu.",
-        "spécifications pour élément élément marque, élément, et fonctionnalités.",
-        "élément, taille, et types de élément.",
-        "détails pour élément, élément, et élément produits.",
-        "élément, élément, et design styles.",
-        "auteur, élément, et élément élément.",
-        "élément type, élément, et élément détails.",
-        "élément groupe, élément, et élément élément.",
-        "type, taille, et performance fonctionnalités.",
-        "styles, élément, et marque détails.",
+        "Spécifications des gadgets telles que la marque, le modèle et les fonctionnalités.",
+        "Saveurs, tailles et types de boissons.",
+        "Détails sur les repas, les collations et les produits alimentaires.",
+        "Matériaux, dimensions et styles de conception.",
+        "Auteur, genre et année de publication.",
+        "Type de peau, ingrédients et détails de l'emballage.",
+        "Tranche d’âge, matériel et normes de sécurité.",
+        "Caractéristiques de type, de taille et de performances.",
+        "Styles, matériaux et détails de la marque.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "boîte XS",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte XL",
-        "boîte XXL",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément élément",
-        "boîte élément pack", // flexible mailer
-        "boîte élément", // bubble/padded
-        "boîte élément", // thermal
-        "boîte élément",
+        "Boîte XS",
+        "Boîte S",
+        "Boîte M",
+        "Boîte L",
+        "Boîte XL",
+        "Coffret XXL",
+        "Boîte Slim",
+        "Boîte large",
+        "Boîte haute",
+        "Boîte plate",
+        "Boîte Cube",
+        "Tube de boîte",
+        "Boite Fragile",
+        "Bouteilles en verre de boîte",
+        "Boîte souple", // flexible mailer
+        "Boîte rembourrée", // bubble/padded
+        "Boîte isolée", // thermal
+        "Boîte robuste",
       ],
     },
   },

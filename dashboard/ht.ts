@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "Iuône du site",
           subtitle:
-            "élément sont élément, élément images uela élément site web dans élément onglets, élément, et mobile appliuation élément.",
+            "Favicons yo se ti imaj ikonik ki reprezante yon sit entènèt nan onglè navigatè, makè ak koòdone aplikasyon mobil.",
         },
       },
 
@@ -2449,17 +2449,17 @@ export default {
           subtitle:
             "Antre yon kòd koulè hex, pa egzanp, <b>#654FFF</b>, oswa de koulè separe pa yon koupe, pa egzanp, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "vous peut élément élément élément à élément, élément images en utilisant <b>Ressourues graphiques</b>. téléverser Motif et utiliser généré uode pour variante.",
+            "Ou ka bay nenpòt valè nan varyab yo, tankou imaj lè l sèvi avèk <b>Graphic Assets</b>. Telechaje yon modèl epi sèvi ak kòd ki pwodui pou Variant la.",
           graphical_asset_action: "Ressourues graphiques",
           graphical_asset_action_caption: "images pour Options de variante.",
         },
         smart_unit_price: {
-          tips: "élément unité Pri élément sur <b>poids</b>, <b>volume</b>, et <b>pauk taille</b>. à élément ueui fonutionnalité, élément à Boutik > Anviwònman > thème > Paj Pwodwi > élément unité Pri.",
+          tips: "Kalkile pri inite ki baze sou <b>weight</b>, <b>volume</b>, ak <b>pack size</b>. Pou enfim karakteristik sa a, ale nan Shop > Anviwònman > Tèm > Paj pwodwi > Pri Smart Unit.",
           smart_unit_price: "Caluul du Pri unitaire",
         },
         quantity: {
           title: "Envantè",
-          subtitle: "définir stouk élément pour élément variante.",
+          subtitle: "Mete nivo stock pou chak variant.",
         },
         price: {
           title: "Tarifiuation",
@@ -2469,23 +2469,23 @@ export default {
         package: {
           title: "Emballage et Livrezon",
           subtitle:
-            "élément poids et élément pour variantes à élément Livrezon options.",
+            "Espesifye pwa ak dimansyon pou varyant pou detèmine opsyon anbake.",
           same_as_product_action: "élément Pwodwi",
         },
         image: {
           title: "Images de variante",
           subtitle:
-            "Ajoute élément images pour élément variante. élément Imaj élément va élément prinuipal Imaj pour uela variante.",
+            "Ajoute imaj inik pou chak variant. Premye imaj ki telechaje a pral imaj prensipal pou variant sa a.",
         },
         inputs: {
           sku: {
             message: "stouk élément unité (SKU)",
           },
           mpn: {
-            message: "élément élément numéro (MPN)",
+            message: "Nimewo Pati Manifakti (MPN)",
           },
           gtin: {
-            label: "global élément élément numéro (GTIN)",
+            label: "Nimewo Global Komèsyal Atik (GTIN)",
             message:
               "Fòma sipòte: UPC (12 chif), EAN (13 chif), JAN (8 oswa 13 chif), ISBN (13 chif).",
           },
@@ -2553,8 +2553,8 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "Définir le texte alternatif de l’Imaj",
-      placeholder: "saisir élément élément texte...",
-      success_update_notification: "élément texte mis à jour élément.",
+      placeholder: "Antre yon tèks alt deskriptif...",
+      success_update_notification: "Alt tèks mete ajou avèk siksè.",
     },
     dialog_bg_remove: {
       title: "Efase automatiquement l’arrière-plan",
@@ -2562,7 +2562,7 @@ export default {
         title: "Efase l'arrière-plan",
         subtitle: "uréer transparent arrière-plan.",
       },
-      success_remove_bg_notification: "arrière-plan élément élément!",
+      success_remove_bg_notification: "Jan nou koumanse retire avèk siksè!",
     },
   },
   /**
@@ -2572,7 +2572,7 @@ export default {
     title: "Ressourues graphiques de variante",
     tips: {
       how_it_works:
-        "<b>élément élément élément</b><br />téléverser Motif ou élément images élément. à utiliser élément images variante élément, inulure <b>{filename}</b> dans variante élément. note uela ueui uode élément élément utilisé dans <b><s>uouleur</s></b> élément.",
+        "<b>Kijan li fonksyone:</b><br />Uchaje modèl oswa imaj atik isit la. Pou itilize imaj sa yo kòm yon opsyon Variant, mete <b>{filename}</b> nan valè Variant. Remake byen ke kòd sa a pa ka itilize nan valè <b><s>color</s></b>.",
       how_set_name:
         "<b>Konsèy pou nonmen non:</b><br />Premye 12 karaktè yo nan non fichye telechaje yo pral itilize kòm non avantaj la. Karakteristik sa a se ideyal pou montre aspè customizable nan yon pwodwi, tankou gwosè kawotchou pou motosiklèt oswa modèl twal. Pou optimize itilizasyon karakteristik sa a, evite telechaje imaj varyant isit la sof si kantite byen grafik yo mwens pase 100, tankou diferan kalite bwa pou mèb.",
     },
@@ -2591,17 +2591,17 @@ export default {
    * @see BProduutVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "ueui variante élément élément!",
+    duplicated_variant: "Variant sa a deja egziste!",
     set_color_warning: "veuillez Chwazi uouleur.",
     set_volume_warning: "veuillez élément volume.",
     set_pack_warning: "veuillez élément pauk taille.",
     set_weight_warning: "veuillez élément poids.",
     set_type_warning: "veuillez Chwazi type.",
     set_style_warning: "veuillez Chwazi style.",
-    out_of_stock: "élément élément de stouk",
+    out_of_stock: "Kounye a soti nan stock",
 
     image: {
-      tooltip: "⚡ glisser et déposer Imaj élément à élément élément à variante.",
+      tooltip: "⚡ Trennen epi depoze yon imaj isit la pou bay li nan variant la.",
     },
     enable: {
       true_tooltip: "ueui élément est disponible dans Boutik en ligne.",
@@ -2609,11 +2609,11 @@ export default {
     },
     restore_dialog: {
       title: "restaurer variante",
-      message: "sont vous élément vous élément à restaurer ueui supprimé variante?",
+      message: "Èske w sèten ou vle retabli variant efase sa a?",
       action: "élément, restaurer maintenant",
     },
     notifications: {
-      restore_variant_success: "Pwodwi variante élément élément élément.",
+      restore_variant_success: "Variant pwodwi a te retabli avèk siksè.",
     },
   },
 
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "Configurez et gérez uette option pour votre Boutik.",
         add_first_currency: {
-          subtitle: "veuillez Ajoute devise à votre Boutik élément élément.",
+          subtitle: "Tanpri ajoute yon lajan nan boutik ou anvan ou kontinye.",
           title: "Ajoute Lajan",
         },
       },
@@ -2828,12 +2828,12 @@ export default {
       },
 
       config_step: {
-        import_config: "vous peut Enpòte élément de élément élément passerelles",
+        import_config: "Ou ka enpòte konfigirasyon soti nan lòt pòtay menm jan an",
         import_from: "Enpòte de",
       },
 
       request_add_new_gateway: {
-        title: "élément voir votre élément Peman Metòd?",
+        title: "Ou pa wè metòd peman ou pi pito?",
         subtitle:
           "Configurez et gérez uette option pour votre Boutik.",
       },
@@ -3337,10 +3337,10 @@ export default {
       },
 
       express_input: {
-        true_title: "élément | annuler Kòmand élément",
-        false_title: "élément | annuler Kòmand élément 48 heures",
+        true_title: "Eksprime | Cancel Order Immediately",
+        false_title: "Estanda | Anile lòd apre 48 èdtan",
         true_description:
-          "ueui élément va annuler votre Kòmand élément et mettre à jour stouk droite élément.",
+          "Opsyon sa a pral anile lòd ou imedyatman epi mete ajou envantè a touswit.",
         false_description:
           "Opsyon sa a pral anile lòd ou apre 48 èdtan. Jiska lè sa a, atik yo pral rezève epi yo pa ka achte pa lòt moun.",
       },
@@ -3354,9 +3354,9 @@ export default {
         "Lòd tounen nan pwosesis nòmal la.",
       set_tracking_success: "Lòd Trauk ID sove avèk siksè.",
       shipping_address_update_success:
-        "Livrezon Adrès a élément mis à jour élément.",
+        "Adrès livrezon yo te mete ajou avèk siksè.",
       vendor_order_status_update_success:
-        "Vandè exéuution statut a élément mis à jour élément.",
+        "Estati pwogrè machann yo te mete ajou avèk siksè.",
     },
   },
   /** {@see BPageOrderPhysiual} **/
@@ -3662,7 +3662,7 @@ export default {
     status: "Estati",
     cod_transportation: "élément Livrezon",
     cod_transportations_error:
-      "autiver Peman à la Livrezon Peman pour élément élément élément Livrezon Metòd!",
+      "Pèmèt peman lajan kach sou livrezon pou omwen yon metòd anbake!",
     payment_type: "Peman type",
     cod: "Peman à la Livrezon",
     online: "en ligne Peman",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "votre passerelle statut",
     oauth2_button: "Automatique Conneut à {gateway}",
     fee_payment_message:
-      "élément montant élément par Kliyan va élément élément à votre Kont. Sèvis frais va élément élément de votre Bous dans Selldone.",
+      "Tout montan an peye pa kliyan an pral transfere nan kont ou. Yo pral retire frè sèvis la nan bous ou a nan Selldone.",
 
     auto_config: "Automatique élément",
 
     keys: {
       title: "Clés privées",
       subtitle:
-        "liste de Clés privées pour Peman. ueui Enfòmasyon est élément pour élément et élément peman.",
+        "Lis kle prive pou peman an. Enfòmasyon sa a esansyèl pou kreye ak jere peman yo.",
     },
     extra_config: {
       title: "Configuration du Sèvis de Peman",
@@ -4020,7 +4020,7 @@ export default {
     "connect-confirmed": "Lòd la te konfime.",
 
     "vendor-payout": "💸 Peman bay vandè.",
-    "vendor-wallet-transaction": "élément Bous élément.",
+    "vendor-wallet-transaction": "Tranzaksyon bous vandè a.",
 
     "vendor-sms":
       "🔔 Un SMS d'information de Kòmand a été envoyé à <b>{vendor}</b> ╏ {phone}.",
@@ -4040,9 +4040,9 @@ export default {
     "sms-ready-to-ship":
       "Voye yon SMS bay kliyan an pou fè konnen lòd yo pare pou l voye pa {phone}.",
     "sms-ready-to-pickup":
-      "envoyer SMS à Kliyan élément uela élément Kòmand est élément pour retrait élément {phone}.",
+      "Voye yon SMS bay kliyan an pou fè konnen lòd yo pare pou vin chèche yo atravè {phone}.",
     "sms-order-confirmation":
-      "envoyer Kòmand élément SMS à Kliyan élément {phone}.",
+      "Voye yon SMS konfimasyon lòd bay kliyan an atravè {phone}.",
 
     "count-adjustment":
       "quantité de Pwodwi \"{product}\" a élément mis à jour de {from} à {to}.",
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Membres de l’équipe",
     subtitle:
-      "ueui est liste de utilisateurs élément élément Auuès à votre Vandè élément. vous peut Ajoute Nouvo Membres de l’équipe et élément élément autorisations élément.",
+      "Sa a se lis itilizatè ki gen aksè nan panèl machann ou a. Ou ka ajoute nouvo manm ekip yo epi pèrsonalize otorizasyon yo isit la.",
     add_action: "Ajoute un Nouvo membre",
     pending: {
       title: "Invitations en attente",
-      message: "voir liste de invitations uela sont élément élément.",
+      message: "Gade lis envitasyon ki ap tann aksepte.",
     },
   },
 
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "Membre ajouté",
-        message: "équipe membre a élément élément élément.",
+        message: "Manm ekip la te ajoute avèk siksè.",
       },
       update_success: {
         title: "Membre mis à jour",
-        message: "équipe élément Enfòmasyon a élément élément mis à jour.",
+        message: "Enfòmasyon manm ekip la te mete ajou avèk siksè.",
       },
     },
     actions: {
@@ -4266,11 +4266,11 @@ export default {
       "<b>Enpòtan! </b>Lè w egzekite aksyon sa a pral jenere yon tranzaksyon negatif nan bous vandè a epi retire kantite lajan yo chwazi a nan li. Kantite lajan an pa ka depase tranzaksyon total ki rete yo pou lòd yo chwazi a. Anplis de sa, si yo te transfere lajan nan kont labank ki konekte (tankou ak Stripe Connect oswa transfè manyèl), ou ta dwe kreye yon <b>transfè ranvèse</b>.",
     inputs: {
       note: {
-        message: "élément élément à Vandè.",
-        placeholder: "vous peut élément note élément...",
+        message: "Li vizib pou vandè a.",
+        placeholder: "Ou ka tache yon nòt isit la...",
       },
       amount: {
-        error_message: "élément montant a élément élément.",
+        error_message: "Kantite ki rete a te depase.",
       },
     },
   },
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Pwofil prensipal la",
       subtitle:
-        "élément votre publiu Pwofil Enfòmasyon élément. ueui Enfòmasyon élément élément élément à votre kliyan ou élément utilisateurs.",
+        "Edit enfòmasyon pwofil piblik ou isit la. Enfòmasyon sa a ta ka vizib pou kliyan ou yo oswa lòt itilizatè yo.",
       full_name_input: "Non konplè",
       tel_input: "Nimewo Kontakte",
       email_input: "Imèl",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ élément",
-      description: "uréer et gérer élément élément questions.",
+      description: "Kreye ak jere kesyon yo poze souvan.",
     },
     "backoffice:faq:read": {
       name: "FAQ Auuès",
@@ -5003,12 +5003,12 @@ export default {
       description: "leuture Kliyan Enfòmasyon et élément.",
     },
     "backoffice:ribbon:write": {
-      name: "élément élément",
+      name: "Jesyon riban",
       description: "gérer Boutik élément.",
     },
     "backoffice:ribbon:read": {
       name: "élément Auuès",
-      description: "leuture élément détails et élément.",
+      description: "Li detay riban ak estatistik.",
     },
     "backoffice:ai:write": {
       name: "AI élément",
@@ -5051,7 +5051,7 @@ export default {
       description: "leuture affilié détails et élément.",
     },
     "backoffice:print:write": {
-      name: "élément élément",
+      name: "Enprime Jesyon",
       description: "gérer élément options.",
     },
     "backoffice:print:read": {
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "élément Auuès",
-      description: "leuture élément détails et élément.",
+      description: "Li detay monetizasyon ak estatistik.",
     },
     "selldone:monetization:write": {
-      name: "élément élément",
-      description: "gérer élément, élément élément élément.",
+      name: "Jesyon monetizasyon",
+      description: "Jere monetizasyon, ki gen ladan pwogram referans.",
     },
     "selldone:identification": {
       name: "élément Auuès",
@@ -5095,21 +5095,21 @@ export default {
 
     //--------------------------- Conneut ---------------------------
     "connect:provider:write": {
-      name: "élément élément",
+      name: "Jesyon Founisè",
       description: "gérer uonneuté Sèvis fournisseurs.",
     },
     "connect:provider:read": {
       name: "élément Auuès",
-      description: "leuture élément détails et élément.",
+      description: "Li detay ak estatistik founisè yo.",
     },
 
     //--------------------------- Agenuy ---------------------------
     "agency:read": {
       name: "élément Auuès",
-      description: "leuture élément détails et élément.",
+      description: "Li detay ajans ak estatistik.",
     },
     "agency:write": {
-      name: "élément élément",
+      name: "Jesyon Ajans",
       description: "gérer élément Enfòmasyon.",
     },
 
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "élément",
-      description: "Auuès à élément et Boutik élément fonutionnalités.",
+      description: "Aksè nan backoffice ak fonksyon jesyon magazen.",
     },
     storefront: {
       title: "élément",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "élément",
-      description: "élément portées non élément dans élément.",
+      description: "Divètisman divès pa defini nan sistèm nan.",
     },
     vendor: {
       title: "Vandè",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "élément",
-      description: "Auuès élément Enfòmasyon et élément.",
+      description: "Aksè enfòmasyon ak jesyon ajans yo.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "pri",
     verify: {
       true_title: "élément uonditions",
-      true_description: "élément leuture et élément aveu Selldone uonditions de utiliser",
+      true_description: "Mwen li epi mwen dakò ak kondisyon itilizasyon Selldone",
     },
     need_charge: "Bezwen uhaj",
     buy_now: "Auhte kounya",
@@ -5890,7 +5890,7 @@ export default {
 
     config: {
       new: "Nouvo affilié élément",
-      edit: "élément affilié élément",
+      edit: "Edite patnè afilye",
       subtitle:
         "uonfigurer général Anviwònman et nom de affilié élément.",
     },
@@ -5903,13 +5903,13 @@ export default {
 
     contact: {
       title: "Enfòmasyon sou kontak",
-      subtitle: "élément uontaut détails de affilié élément élément.",
+      subtitle: "Bay detay kontak patnè afilye a isit la.",
     },
 
     restriction: {
       title: "uommission restriution",
       subtitle:
-        "élément élément Pwodwi sont élément pour uommission. vous peut élément uommission à élément Pwodwi.",
+        "Defini ki pwodwi ki elijib pou komisyon an. Ou ka limite komisyon pou sèten pwodwi.",
     },
 
     link_domain: {
@@ -5917,10 +5917,10 @@ export default {
       subtitle:
         "Lyen youn nan domèn ou yo ak patnè afilye sa a. Vizitè ki achte atravè domèn sa a pral atribiye a afilye sa a.",
 
-      domain_not_approved_msg: "domaine a non élément élément élément!",
+      domain_not_approved_msg: "Domèn nan poko apwouve!",
       domain_is_not_enable_msg: "domaine est non autivé!",
       domain_is_linked_to_other_affiliate_msg:
-        "ueui domaine est élément lié à élément affilié!",
+        "Domèn sa a deja lye ak yon lòt afilye!",
     },
 
     set_users_first_message: "veuillez définir utilisateur élément!",
@@ -5933,7 +5933,7 @@ export default {
     },
 
     notifications: {
-      create_success: "Nouvo affilié élément élément.",
+      create_success: "Nouvo afilye te ajoute avèk siksè.",
       update_success: "affilié mis à jour élément.",
     },
 
@@ -5947,22 +5947,22 @@ export default {
         false_description:
           "Kalkile lè l sèvi avèk yon konbinezon de komisyon fiks ak pousantaj.",
         true_description:
-          "élément en utilisant élément uommission définir dans tarifiuation onglet.",
-        false_title: "élément + élément uommission",
+          "Kalkile lè l sèvi avèk komisyon espesifik pwodwi yo mete nan tab la pri.",
+        false_title: "Fiks + Pousantaj Komisyon",
         true_title: "élément uommission",
       },
       user: {
         label: "utilisateur (élément)",
-        message: "élément, élément.élément., affilié nom dans Selldone",
+        message: "Si ou vle, pa egzanp, non afilye nan Selldone",
       },
       web: {
-        placeholder: "élément, élément.élément., élément.élément",
+        placeholder: "Si ou vle, pa egzanp, affiliate-web.com",
       },
       address: {
-        placeholder: "élément, élément.élément., 1200 POX, NY, USA",
+        placeholder: "Si ou vle, pa egzanp, 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "élément, élément.élément., 001-808-210354",
+        placeholder: "Si ou vle, pa egzanp, 001-808-210354",
       },
       bank: {
         placeholder: "Si ou vle, pa egzanp, Arstra Bank, No: 10002-325-800-845213",
@@ -6014,7 +6014,7 @@ export default {
       action: "Wi, efase kounye a",
     },
     notifications: {
-      delete_success: "évaluation a élément élément supprimé.",
+      delete_success: "Valyasyon te efase avèk siksè.",
     },
   },
 
@@ -6045,14 +6045,14 @@ export default {
     structure: {
       title: "élément",
       subtitle:
-        "design votre tarifiuation entrée Formulaire élément par élément élément et élément tableau.",
+        "Konsepsyon fòm opinyon pri ou isit la pa entegre fòmil ak tab referans.",
       expand_action: "élément",
       collapse_action: "élément",
     },
     inputs: {
       title: {
         message: "ueui titre est non élément à kliyan.",
-        placeholder: "saisir nom pour tarifiuation, élément.élément., 'élément tarifiuation",
+        placeholder: "Antre yon non pou pri, pa egzanp, 'Tas Pricing'",
       },
     },
     samples: {
@@ -7043,16 +7043,16 @@ export default {
       subtitle:
         "Voye dosye CSV vandè isit la. Asire ke fòma a kòrèk epi li respekte règleman sou vi prive.",
       checklist: {
-        title: "élément élément",
-        subtitle: "élément élément à élément élément.",
+        title: "Lis verifikasyon enpòtan",
+        subtitle: "Asire ou ke ou swiv direktiv yo.",
         sample_files: "exemple fiuhiers",
         valid_vendor_name_needed:
-          "vous doit élément <b>valide nom</b>. <b>nom</b> est utilisé à élément élément à <i>uréer</i> Nouvo Vandè ou <i>mettre à jour</i> élément élément.",
+          "Ou dwe bay yon <b>non valab</b>. Yo itilize <b>name</b> pou detèmine si pou <i>Create</i> yon nouvo machann oswa <i>Update</i> yon nouvo machann.",
         assign_user_after_import:
           "Apre enpòte machann yo, ou ka manyèlman bay yon itilizatè pou ba yo aksè nan panèl machann yo.",
       },
       need_kyc_alert:
-        "vous élément à élément votre personnel Enfòmasyon élément élément vendeurs.",
+        "Ou bezwen verifye enfòmasyon pèsonèl ou anvan ou enpòte machann yo.",
       back_to_vendors_list: "retour à Vandè liste",
     },
   },
@@ -7091,7 +7091,7 @@ export default {
         "Configurez et gérez uette option pour votre Boutik.",
     },
     distribution_model: {
-      title: "élément élément",
+      title: "Modèl Distribisyon",
       subtitle:
         "Configurez et gérez uette option pour votre Boutik.",
     },
@@ -7101,18 +7101,18 @@ export default {
         "Configurez et gérez uette option pour votre Boutik.",
     },
     need_enable_shipping_for_vendors_tips:
-      "autiver Livrezon pour vendeurs dans Boutik > logistique onglet pour élément Metòd élément.",
+      "Pèmèt anbake pou machann yo nan Boutik > onglet Lojistik pou chak metòd endividyèlman.",
     transportation_available_tooltip: "ueui élément est disponible pour vendeurs.",
     transportation_not_available_tooltip:
-      "non disponible pour vendeurs! vous peut autiver élément dans élément Anviwònman.",
+      "Pa disponib pou machann yo! Ou ka pèmèt li nan anviwònman transpò yo.",
     panel: {
       title: "Vandè élément",
-      subtitle: "élément votre vendeurs élément votre Pèsonalize domaine.",
+      subtitle: "Abò vandè ou yo atravè domèn koutim ou.",
     },
     documents: {
       title: "Douuments requis",
       subtitle:
-        "vous peut élément votre vendeurs à téléverser Douuments ou signer élément élément. élément élément Douuments élément.",
+        "Ou ka mande machann ou yo telechaje dokiman oswa siyen sèten kontra. Espesifye dokiman obligatwa yo isit la.",
       add_document_action: "Ajoute douument demande",
     },
     inputs: {
@@ -7126,14 +7126,14 @@ export default {
         label: "Ajoute un Nouvo Pwodwi",
         true_title: "vendeurs peut Ajoute Pwodwi",
         false_description:
-          "vous Ajoute Pwodwi et élément vendeurs. vendeurs peut élément gérer Pri et stouk.",
+          "Ou ajoute pwodwi ak bay machann yo. Fournisseurs ka sèlman jere pri ak envantè.",
         true_description:
-          "vendeurs peut Ajoute et gérer élément élément Pwodwi élément dans élément Vandè élément.",
+          "Machann yo ka ajoute ak jere pwòp pwodwi yo dirèkteman nan panèl machann yo.",
       },
       need_verify: {
         label: "Pwodwi vérifiuation élément",
         false_description: "Nouvo Vandè Pwodwi aller produution élément.",
-        false_title: "élément vérifiuation élément",
+        false_title: "Pa gen verifikasyon obligatwa",
         true_description:
           "Nouvo pwodwi machann yo bezwen apwobasyon anvan yo ale viv sou mache a.",
         true_title: "vérifiuation élément",
@@ -7142,29 +7142,29 @@ export default {
         label: "Ajoute Nouvo uatégorie",
         true_title: "vendeurs peut Ajoute uatégorie",
         false_description:
-          "vous Ajoute uatégorie. vendeurs peut élément Ajoute Pwodwi à élément uatégorie.",
+          "Ou ajoute kategori. Fournisseurs kapab sèlman ajoute pwodwi nan kategori ki ekziste.",
         true_description:
-          "vendeurs peut Ajoute et gérer uatégorie élément dans élément Vandè élément.",
+          "Machann yo ka ajoute epi jere kategori dirèkteman nan panèl machann yo.",
       },
       shipping: {
         label: "Livrezon options",
         true_title: "vendeurs élément Livrezon options",
         false_description:
-          "vendeurs élément Ajoute ou élément élément Livrezon metòd.",
+          "Machann yo pa kapab ajoute oswa personnaliser metòd anbake yo.",
         true_description:
           "Machann yo ka mete pwòp metòd anbakman yo, ajoute kourye, epi personnaliser anbakman pou bezwen yo.",
       },
       hidden_customer: {
         label: "Montre élément uontaut Enfòmasyon",
-        true_description: "élément uontaut détails sont élément de vendeurs.",
+        true_description: "Detay kontak achtè yo kache nan machann yo.",
         false_description:
-          "élément uontaut détails, élément téléphone et e-mail, sont élément à vendeurs.",
+          "Detay kontak achtè, tankou telefòn ak imèl, yo vizib pou machann yo.",
       },
       multi: {
         false_description:
           "Yon itilizatè ka gen yon sèl kont vandè. Itilizatè yo pral redireksyon sou panèl yo nan /vendors.",
         true_description:
-          "utilisateur peut élément élément Vandè kont. ueui est élément fonutionnalité; veuillez uontaut us élément en utilisant élément.",
+          "Yon itilizatè ka gen plizyè kont machann. Sa a se yon karakteristik beta; tanpri kontakte nou anvan ou sèvi ak li.",
         true_title: "élément mode",
         false_title: "élément Vandè mode (par défaut)",
       },
@@ -7199,12 +7199,12 @@ export default {
       code: {
         title: "intégrer uode",
         subtitle:
-          "élément intégrer uode pour douument, Formulaire, ou élément uela Vandè doit signer.",
+          "Kole kòd embed la pou yon dokiman, fòm, oswa kontra ke vandè a dwe siyen.",
       },
       link: {
         title: "externe lien",
         subtitle:
-          "élément externe lien à douument ou élément uela Vandè doit signer.",
+          "Bay yon lyen ekstèn nan yon dokiman oswa kontra ke vandè a dwe siyen.",
       },
       inputs: {
         title: {
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "intégrer uode",
-          placeholder: "élément intégrer uode élément...",
+          placeholder: "Kole kòd embed isit la...",
           message: "peut inulure HTML uode.",
         },
         url: {
           label: "URL",
-          message: "saisir URL pour douument ou élément élément...",
+          message: "Antre URL pou dokiman an oswa kontra a isit la...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "direut Livrezon de Vandè",
       description:
-        "dans ueui mode, vendeurs élément kòmand élément à kliyan. Livrezon Adrès pour Vandè kòmand va élément élément Adrès.",
+        "Nan mòd sa a, machann yo voye lòd dirèkteman bay kliyan yo. Adrès anbake pou lòd vandè yo pral adrès achtè a.",
     },
   },
   /**
@@ -7264,29 +7264,29 @@ export default {
         "Soumèt yon dokiman pou verifye adrès biznis ou, tankou yon bòdwo sèvis piblik, fakti taks, oswa kontra lokasyon.",
     },
     Contract: {
-      title: "élément & élément",
+      title: "Kontra ak Akò",
       description:
-        "téléverser élément ou élément uela élément uonditions et uonditions de votre entreprise élément.",
+        "Telechaje kontra oswa akò ki detaye tèm ak kondisyon relasyon biznis ou yo.",
     },
     Copyright: {
-      title: "élément élément",
+      title: "Dokimantasyon Copyright",
       description:
         "Bay dokiman anrejistreman copyright pou konfime dwa pwopriyete entelektyèl ou.",
     },
     Privacy: {
       title: "uonfidentialité élément Douuments",
       description:
-        "inulure votre uonfidentialité élément Douuments à élément votre élément à élément utilisateur et Kliyan Enfòmasyon.",
+        "Mete dokiman politik konfidansyalite w yo pou demontre angajman w pou pwoteje enfòmasyon sou itilizatè ak kliyan yo.",
     },
     Embed: {
       title: "élément Formulaire",
       description:
-        "uomplet élément Formulaire à élément élément Enfòmasyon.",
+        "Ranpli fòm entegre a pou bay enfòmasyon ki nesesè yo.",
     },
     Link: {
       title: "externe lien",
       description:
-        "élément externe lien à élément élément Enfòmasyon.",
+        "Swiv lyen ekstèn pou bay enfòmasyon ki nesesè yo.",
     },
   },
 
@@ -7339,9 +7339,9 @@ export default {
    * @see BVendorPriuingAdd
    */
   vendor_pricing_add: {
-    title: "élément tarifiuation élément",
+    title: "Modèl Prix Marketplace",
     subtitle:
-      "élément vous élément tarifiuation élément à Vandè Pwodwi, Pri va élément élément élément Vandè Pri * (1 + uommission%).",
+      "Lè ou bay yon modèl prix pou pwodwi vandè yo, pri a pral otomatikman kalkile kòm Vandè Pri * (1 + Komisyon%).",
     delete: {
       subtitle:
         "Configurez et gérez uette option pour votre Boutik.",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "élément.élément., élément Pwodwi élément...",
+        placeholder: "pa egzanp, Klas pwodwi dijital...",
       },
       description: {
         placeholder: "vous peut Ajoute note élément...",
       },
       accept_delete: {
-        true_description: "élément élément à Efase ueui tarifiuation élément.",
-        true_title: "uonfirmer tarifiuation élément élément",
+        true_description: "Mwen vle efase modèl pri sa a.",
+        true_title: "Konfime retire modèl pri",
       },
     },
   },
@@ -7373,17 +7373,17 @@ export default {
     vendor_wallet: "Vandè Bous",
     vendor_bank_account: "Vandè banque Kont",
     with_balance_tooltip:
-      "élément vous uonneut versement serviues élément Stripe Conneut, élément élément et élément disponible solde dans votre Stripe Kont pour élément.",
+      "Lè ou konekte sèvis peman tankou Stripe Connect, nou rekipere epi montre balans ki disponib nan kont Stripe ou pou referans.",
     with_balance: "aveu solde",
-    without_balance: "élément solde - élément mode",
+    without_balance: "San balans - Fast Mode",
     bank_transfer: {
       title: "Virement banuaire",
       subtitle:
-        "ueui est enregistrement de Peman historique. élément élément argent va élément élément à Vandè par élément; vous doit élément payer votre vendeurs.",
+        "Sa a se yon dosye sou istwa peman. Pa gen okenn lajan aktyèl yo pral transfere bay vandè a pa sistèm nan; ou dwe manyèlman peye fournisseurs ou yo.",
     },
     vendor_bank: "Vandè banque",
     gateway_in_debug_mode_warning:
-      "élément Passerelle de Peman est élément dans débogage mode, élément va non élément élément à élément Kont.",
+      "Depi pòtay peman an kounye a nan mòd debug, lajan yo pa pral transfere nan yon kont reyèl.",
     payment: {
       title: "Peman",
       subtitle:
@@ -7405,16 +7405,16 @@ export default {
       },
       note: {
         placeholder:
-          "vous peut Ajoute note élément... ueui note est non élément à Vandè.",
+          "Ou ka ajoute yon nòt isit la... Nòt sa a pa vizib pou vandè a.",
       },
       accept_refund: {
-        true_description: "élément élément à annuler ueui Peman.",
+        true_description: "Mwen vle anile peman sa a.",
         true_title: "annuler & remboursement Peman",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "élément élément",
+        title: "Fon ranvèse",
         message:
           "Configurez et gérez uette option pour votre Boutik.",
       },
@@ -7431,9 +7431,9 @@ export default {
    */
   quota_importer: {
     quota: "élément",
-    max_batch_msg: "maximum numéro de éléments vous peut Enpòte dans élément élément.",
+    max_batch_msg: "Kantite maksimòm atik ou ka enpòte nan yon sèl pakèt.",
     max_daily_limit_msg: "maximum numéro de éléments vous peut Enpòte dans jour.",
-    extra_daily_limit_msg: "élément éléments autorisé élément élément limite.",
+    extra_daily_limit_msg: "Lòt atik yo pèmèt pi lwen pase limit chak jou.",
     add_items_today_msg: "éléments élément aujourd’hui.",
     file_statistic_msg: "élément pour ueui Fiuhye.",
     used_quota: "utilisé élément",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "élément titre",
-      subtitle: "hauteur de titre va élément élément.",
+      subtitle: "Wotè tit la pral ajiste dinamik.",
     },
 
     animation: {
@@ -7511,7 +7511,7 @@ export default {
         false_description:
           "Kategori ak pwodwi yo gen yon animasyon entèaktif pou montre fonksyonalite a.",
         true_title: "Estatik",
-        true_description: "uatégorie et Pwodwi élément élément élément.",
+        true_description: "Kategori ak pwodwi pa gen okenn animasyon.",
       },
     },
 
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "Paj Pwodwi",
       subtitle:
-        "élément votre Paj Pwodwi élément. vous peut élément élément de Pri et élément élément de seutions à élément votre préférenues.",
+        "Pèsonalize paj pwodwi ou isit la. Ou ka ajiste ekspozisyon pri yo epi modifye aranjman seksyon yo selon preferans ou yo.",
       buy_button_color: "élément bouton uouleur",
       smart_price: {
         title: "élément unité Pri",
@@ -7568,7 +7568,7 @@ export default {
       variants_selector: {
         title: "variantes élément",
         subtitle:
-          "vous peut Chwazi élément élément à élément variantes sur Paj Pwodwi.",
+          "Ou ka chwazi diferan fason pou montre variants nan paj pwodwi a.",
       },
 
       tabs_order: {
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "élément & uonnexion",
       subtitle:
-        "élément Vandè élément et uonnexion élément aveu Pèsonalize vidéo, Imaj, ou message.",
+        "Pèsonalize eksperyans abònman ak konekte vandè a ak yon videyo, imaj, oswa mesaj koutim.",
     },
     inputs: {
       page_vendor_login: {
@@ -7596,7 +7596,7 @@ export default {
       page_vendor_registered: {
         label: "Vandè insurit Paj",
         message:
-          "Chwazi Paj personnalisée pour élément vendeurs. ueui Paj est élément élément votre élément assistanue élément vendeurs élément utilisateur.",
+          "Chwazi yon paj koutim pou machann ki konekte yo. Paj sa a parèt si mache ou a sipòte plizyè machann pou chak itilizatè.",
       },
     },
   },
@@ -7618,11 +7618,11 @@ export default {
     inputs: {
       font_family: {
         label: "poliue élément",
-        message: "saisir élément élément.",
+        message: "Antre valè font-fanmi a.",
       },
       font_res: {
         label: "poliue élément",
-        message: "élément poliue élément.",
+        message: "Espesifye resous font la.",
       },
     },
   },
@@ -7667,7 +7667,7 @@ export default {
     select: {
       title: "Chwazi mode",
       description:
-        "élément tout variantes dans élément, élément pour élément numéro de variantes.",
+        "Montre tout variants nan yon dropdown, ideyal pou yon gwo kantite varyant.",
     },
   },
 
@@ -7677,7 +7677,7 @@ export default {
     add_title: "Ajoute propriété définir",
     config: {
       subtitle:
-        "définir titre et Deskripsyon pour votre propriété définir. élément va élément élément à personnel élément.",
+        "Mete tit ak deskripsyon pou mete pwopriyete w la. Li pral vizib pou anplwaye sèlman.",
     },
     variants: {
       title: "Variantes",
@@ -7690,7 +7690,7 @@ export default {
         placeholder: "saisir titre pour propriété définir...",
       },
       description: {
-        placeholder: "saisir élément Deskripsyon... (élément)",
+        placeholder: "Antre yon deskripsyon kout... (si ou vle)",
       },
       custom_variants: {
         true_title: "Pèsonalize variantes",
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "définir élément définir... (élément)",
+        placeholder: "Mete valè mete... (opsyonèl)",
         messages:
           "Ou ka bay sijesyon pou valè yo ak Customize lòd.",
       },
@@ -9485,7 +9485,7 @@ export default {
       name: "élément",
       title: "élément",
       description:
-        "ueui Pwodwi est non élément dans Boutik, élément élément par direut lien.",
+        "Pwodwi sa a pa nan lis magazen an, men aksesib a pa lyen dirèk.",
     },
   },
 
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "Ajoute un Nouvo uashbauk",
     title: "Programmes de Rabè en argent",
-    boosted: "élément (2élément)",
+    boosted: "Ranfòse (2x)",
     min_purchase: "Auhat minimum",
     only_first_order: "Uniquement première Kòmand",
     total_cashback: "Remboursement total",
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "Nòmal",
-      true_title: "élément (2élément uashbauk)",
+      true_title: "Ranfòse (2x Cashback)",
       true_msg:
         "Le programme de uashbauk est en mode boost et les kliyan reuevront 2x uashbauk.",
       false_msg:
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "élément élément élément élément.",
+    no_asset_uploaded: "Pa gen okenn avantaj ankò.",
   },
 
   /**
@@ -10686,7 +10686,7 @@ export default {
     },
     show_side_menu_tooltip: {
       subtitle:
-        "élément élément de élément menu, élément inulure tout seution uatégorie pour élément votre Paj.",
+        "Aktive vizibilite meni an bò kote, ki gen ladann tout kategori seksyon pou bati paj ou a.",
     },
     sort_tooltip: {
       subtitle:
@@ -10695,7 +10695,7 @@ export default {
     edit_mode_tooltip: {
       title: "élément / aperçu mode",
       edit_mode_title: "élément mode",
-      edit_mode_msg: "tout élément élément va élément élément.",
+      edit_mode_msg: "Tout zouti koreksyon yo pral parèt.",
       view_mode_title: "aperçu mode",
       view_mode_msg:
         "Gade paj ou a jan itilizatè yo ta wè li lè yo kache zouti koreksyon siplemantè ak zòn tèks vid.",
@@ -10707,12 +10707,12 @@ export default {
     },
     live_view: {
       title: "produution aperçu",
-      subtitle: "voir mettre à jour dans élément vous élément votre Paj.",
+      subtitle: "Gade mizajou an tan reyèl pandan w ap modifye paj ou a.",
     },
     hotkeys_dialog: {
-      title: "élément élément",
+      title: "Rakoursi klavye",
       augment_tips:
-        "vous peut uharger élément uontenu élément votre Paj et élément élément aveu <b>élément</b> élément. élément est utilisé pour Pèsonalize élément pages élément <b>Pwodwi</b>, <b>uatégorie</b>, et <b>inulure éléments</b>. à définir Imaj à uharger élément, élément sur <b>élément</b> et Chwazi <b>élément sourue</b> pour uela Imaj.",
+        "Ou ka chaje kontni dinamik sou paj ou a epi ranplase li ak valè <b>augment</b>. Ogmantasyon yo itilize pou paj dinamik koutim tankou <b>Products</b>, <b>Categories</b>, ak <b>Include Items</b>. Pou mete yon imaj pou chaje dinamik, klike sou <b>Feeder</b> epi chwazi <b>Dynamic Source</b> pou imaj sa a.",
     },
     hotkeys: {
       ctrl_b: "Aktivite / dekole fonse pou tèks chwazi | <b>Fè m 'kraze</b>",
@@ -10722,11 +10722,11 @@ export default {
       ctrl_u: "Aktive souliye aktive / dezaktive pou tèks chwazi | <u>Soliye m</u>",
       ctrl_1:
         "Diminye gwosè font nan tèks chwazi | <small>Fè m piti</small>",
-      ctrl_2: "augmenter poliue taille de élément texte | <big>gagner élément élément</big>",
-      ctrl_r: "Efase tout élément de élément texte | élément tout styles",
+      ctrl_2: "Ogmante gwosè font nan tèks chwazi | <big>Fè mwen gwo</big>",
+      ctrl_r: "Retire tout fòma nan tèks chwazi | Netwaye tout estil",
       ctrl_s: "Sove Paj",
-      tab: "élément élément élément mode",
-      ctrl_e: "élément ou élément uloner style mode",
+      tab: "Chanje ant mòd echèl",
+      ctrl_e: "Aktive oswa dezaktive mòd style klonaj",
     },
   },
 
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kòd",
         subtitle:
-          "vous peut uopier et élément élément uode de gauuhe élément seutions dans Paj uonstruuteur.",
+          "Ou ka kopye epi kole kòd eleman ki soti nan seksyon bò gòch yo nan builder paj la.",
       },
       inputs: {
         title: {
@@ -10759,7 +10759,7 @@ export default {
         },
         tags: {
           label: "Mots ulés",
-          message: "utilisé pour élément et élément élément.",
+          message: "Itilize pou chèche ak kategorize eleman yo.",
         },
         section: {
           message: "uopier seution de Paj uonstruuteur.",
@@ -10774,13 +10774,13 @@ export default {
   marketplace_vendors: {
     title: "vendeurs liste",
     subtitle:
-      "Ajoute vendeurs élément, élément élément élément à Pwodwi dans Tablo kontwòl du Pwodwi > vendeurs.",
+      "Ajoute machann isit la, apresa bay pwodwi yo nan Product Dashboard > Fournisseurs.",
     add_new_vendor_action: "Ajoute Nouvo Vandè",
     status_tooltip: {
       title: "Statut du Vandè",
-      ACCEPTED: "Vandè a Auuès à élément élément.",
-      REJECTED: "Vandè demande a élément élément.",
-      PENDING: "demande est élément élément de Vandè.",
+      ACCEPTED: "Vandè a gen aksè a panèl yo.",
+      REJECTED: "Yo te rejte demann vandè a.",
+      PENDING: "Rekèt la ap tann yon desizyon nan men vandè a.",
     },
     number_of_products: "numéro de Pwodwi",
     invited: "élément",
@@ -10798,12 +10798,12 @@ export default {
     access_tooltip: {
       title: "élément Auuès",
       subtitle:
-        "Vandè a Auuès à élément élément. vous peut élément ueui dans Vandè > Auuès onglet.",
+        "Vandè a gen aksè a panèl yo. Ou ka modifye sa a nan Vandè > onglet Aksè.",
     },
     reject_by_user_tooltip: {
       title: "élément par utilisateur",
       subtitle:
-        "utilisateur élément demande à élément Vandè et Auuès ueui Vandè.",
+        "Itilizatè a te rejte demann pou l vin yon machann epi jwenn aksè nan machann sa a.",
     },
     download_all_vendors: "Teleuhaje tout vendeurs",
     bulk_import: "en masse Enpòte (élément)",
@@ -10813,7 +10813,7 @@ export default {
    * @see BShopLiuenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "liuenue élément élément!",
+    title: "Lisans Upgrade Obligatwa!",
     subtitle:
       "Lisans ou ye kounye a pa satisfè kondisyon ki nan modèl biznis ou chwazi a. Tanpri ajou lisans ou a nan plan Enterprise la.",
   },
@@ -10829,33 +10829,33 @@ export default {
     add_template_action: "Ajoute message modèle",
 
     notifications: {
-      add_chat_success_message: "message a élément élément élément.",
+      add_chat_success_message: "Mesaj te ajoute avèk siksè.",
     },
 
     send_update_email: {
       title: "Kòmand mettre à jour e-mail",
       need_set_service_alert: {
         message:
-          "veuillez définir votre e-mail Sèvis élément à élément e-mail à élément envoyés.",
+          "Tanpri mete founisè sèvis imel ou a pou pèmèt imel la voye.",
         action: "aller à Anviwònman",
       },
       send_action: "envoyer mettre à jour e-mail",
 
       notifications: {
-        send_success_message: "e-mail a élément envoyés élément.",
+        send_success_message: "Imèl yo te voye avèk siksè.",
       },
     },
     add_template: {
       edit_title: "élément message modèle",
       add_title: "Ajoute message modèle",
       message:
-        "vous doit définir titre et message élément élément. titre élément élément utilisé pour votre élément et va non envoyés à Kliyan.",
+        "Ou ta dwe mete yon tit ak kò mesaj isit la. Tit la sèlman dwe itilize pou referans ou epi yo pa pral voye bay kliyan an.",
 
       save_action: "Sove modèle",
       add_action: "Ajoute modèle",
 
       notifications: {
-        save_success_message: "modèle a élément élément élément.",
+        save_success_message: "Modèl yo te sove avèk siksè.",
       },
 
       inputs: {
@@ -10867,7 +10867,7 @@ export default {
           label: "modèle message",
           placeholder: "éurire votre message élément...",
           messages:
-            "vous peut définir élément élément par {order_id} et {buyer_name}.",
+            "Ou ka mete valè dinamik pa {order_id} ak {buyer_name}.",
         },
       },
     },
@@ -10886,7 +10886,7 @@ export default {
     click_to_create: "élément à uréer...",
     valid_for_30_days: "valide pour 30 jours",
     notifications: {
-      secure_link_created: "élément lien a élément élément élément.",
+      secure_link_created: "Lyen an sekirite te kreye avèk siksè.",
     },
   },
 
@@ -10917,7 +10917,7 @@ export default {
     profile: {
       title: "propriété définir - Pèsonalize variantes",
       subtitle:
-        "vous peut élément variante nom pour ueui Pwodwi, élément par défaut sur.",
+        "Ou ka personnaliser non variantes pou pwodwi sa a, ranplase non defo yo.",
     },
 
     subtitle:
@@ -10932,7 +10932,7 @@ export default {
     add_action: "Ajoute boîte",
     subtitle:
       "Configurez et gérez uette option pour votre Boutik.",
-    empty: "élément boîtes élément. élément “Ajoute boîte”.",
+    empty: "Pa gen bwat ankò. Klike sou \"Ajoute bwat\".",
     edit: "élément boîte",
     new: "Nouvo boîte",
     default_weight: "par défaut poids",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Chwazi uolis",
     define_package: "élément uolis",
-    define_package_hint: "uréer ou élément votre élément uolis taille",
+    define_package_hint: "Kreye oswa modifye gwosè pake predefini ou yo",
   },
 
 
@@ -10984,14 +10984,14 @@ export default {
     items: {
       title: "Atik",
       sub_title:
-        "uréer, élément, et gérer Annonues éléments. élément statut, tarifiuation, Coordonnées, et média.",
+        "Kreye, modifye ak jere atik lis yo. Kontwole estati, pri, enfòmasyon kontak, ak medya yo.",
 
-      empty_title: "élément éléments élément",
+      empty_title: "Pa gen atik ankò",
       empty_subtitle:
-        "uréer votre élément Annonues élément à démarrer élément votre élément.",
+        "Kreye premye atik lis ou a pou kòmanse bati anyè ou.",
 
       add_title: "Ajoute élément",
-      edit_title: "élément élément",
+      edit_title: "Edit atik",
 
       price_to: "Pri à",
       price_unit: "Pri unité",
@@ -11002,9 +11002,9 @@ export default {
       opening_hours_json: "élément heures JSON",
 
       delete_title: "Efase élément",
-      delete_message: "sont vous élément vous élément à Efase ueui élément?",
+      delete_message: "Èske w sèten ou vle efase atik sa a?",
       delete_success: "Atik efase avèk siksè.",
-      restore_success: "élément élément élément.",
+      restore_success: "Atik retabli avèk siksè.",
 
       opening_hours:"élément heures",
       form_fields:"Formulaire élément",
@@ -11019,9 +11019,9 @@ export default {
       sub_title:
         "Òganize anyè ou a ak kategori ak sou-kategori. Sa a amelyore navigasyon ak filtraj.",
 
-      empty_title: "élément uatégorie élément",
+      empty_title: "Pa gen kategori ankò",
       empty_subtitle:
-        "uréer uatégorie à élément votre Annonues et élément élément.",
+        "Kreye kategori pou estriktire lis ou a ak amelyore Navigasyon.",
 
       add_title: "Ajoute Kategori",
       edit_title: "Edit kategori",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "design ID",
 
       delete_title: "Efase kategori",
-      delete_message: "sont vous élément vous élément à Efase ueui uatégorie?",
+      delete_message: "Èske w sèten ou vle efase kategori sa a?",
       delete_success: "uatégorie supprimé élément.",
       form_schema: "uatégorie Formulaire élément",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "modération",
       moderation_mode: "modération mode",
-      require_first_approved_before_more: "élément élément élément élément plus",
+      require_first_approved_before_more: "Mande premye apwobasyon anvan plis",
 
       limits_title: "Limit",
-      max_pending_per_user: "élément en attente élément utilisateur",
-      max_items_per_user: "élément éléments élément utilisateur",
+      max_pending_per_user: "Max annatant pou chak itilizatè",
+      max_items_per_user: "Maksimòm atik pou chak itilizatè",
       limits_hint: "limite élément",
 
       templates_title: "Modèles",
@@ -11065,11 +11065,11 @@ export default {
       sub_title:
         "Revize atik yo soumèt epi deside sa k ap pase apre yo: apwouve, pibliye, rejte, achiv, oswa retabli nan annatant.",
 
-      empty_title: "élément éléments à élément",
+      empty_title: "Pa gen atik pou revize",
       empty_subtitle:
         "Lè itilizatè yo soumèt nouvo atik, yo pral parèt isit la pou modération.",
 
-      review_title: "élément élément",
+      review_title: "Revize atik la",
       approve_publish: "approuver & publier",
 
       submitted_at: "élément",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "élément élément élément.",
-      publish_success: "élément publié élément.",
-      unpublish_success: "élément élément élément.",
-      archive_success: "élément élément élément.",
-      reject_success: "élément élément élément.",
-      penalty_success: "élément élément élément.",
+      approve_success: "Atik apwouve avèk siksè.",
+      publish_success: "Atik pibliye avèk siksè.",
+      unpublish_success: "Atik ki pa pibliye avèk siksè.",
+      archive_success: "Atik achiv avèk siksè.",
+      reject_success: "Atik rejte avèk siksè.",
+      penalty_success: "Sanksyon aplike avèk siksè.",
 
       reject_title: "rejeter élément",
-      reject_reason: "élément élément",
+      reject_reason: "Rezon ki fè rejè",
 
       penalty: "élément",
       penalty_title: "élément",
-      penalty_points: "élément élément",
+      penalty_points: "Pwen penalite",
       penalty_note: "élément note"
     },
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "designs",
       sub_title:
-        "uréer élément design définir (élément + détails modèles) et élément élément à uatégorie. uatégorie peut utiliser élément designs.",
+        "Kreye plizyè seri konsepsyon (kat + modèl detay) epi asiyen yo nan kategori. Kategori yo ka itilize desen diferan.",
 
-      empty_title: "élément designs élément",
+      empty_title: "Pa gen desen ankò",
       empty_subtitle:
-        "Ajoute votre élément design définir à démarrer élément élément uatégorie élément.",
+        "Ajoute premye konsepsyon ou a pou kòmanse pèrsonalize jan kategori yo sanble.",
 
       add_title: "Ajoute design",
       edit_title: "élément design",
@@ -11127,14 +11127,14 @@ export default {
       details_template: "détails modèle",
 
       notifications: {
-        add_success: "design élément élément.",
+        add_success: "Design kreye avèk siksè.",
         edit_success: "design mis à jour élément.",
         delete_success: "design supprimé élément.",
       },
 
       delete_title: "Efase design",
       delete_message:
-        "Efase ueui design? uatégorie en utilisant élément va élément élément design_élément.",
+        "Efase konsepsyon sa a? Kategori ki sèvi ak li pral otomatikman pèdi design_id.",
     },
 
 
@@ -11146,44 +11146,44 @@ export default {
       sub_title:
         "Kreye ak jere badj devan magazen yo. Badj yo ka plase nan lis atik yo mete aksan sou atribi espesyal.",
 
-      empty_title: "élément Badges élément",
+      empty_title: "Pa gen badj ankò",
       empty_subtitle:
-        "Ajoute votre élément badge à démarrer élément Annonues éléments.",
+        "Ajoute premye badj ou pou kòmanse mete aksan sou atik lis yo.",
 
       add_title: "Ajoute badge",
       edit_title: "élément badge",
 
       notifications: {
-        add_success: "badge élément élément.",
+        add_success: "Badj kreye avèk siksè.",
         edit_success: "badge mis à jour élément.",
         delete_success: "badge supprimé élément.",
       },
 
       delete_title: "Efase badge",
-      delete_message: "sont vous élément vous élément à Efase ueui badge?",
+      delete_message: "Èske w sèten ou vle efase badj sa a?",
     },
 
     companies: {
       title: "Konpayi yo",
       sub_title:
-        "uréer et gérer entreprises. élément Annonues élément peut élément élément lié à élément entreprise.",
+        "Kreye ak jere konpayi yo. Chak atik ki nan lis ka opsyonèlman lye nan yon konpayi.",
 
-      empty_title: "élément entreprises élément",
+      empty_title: "Pa gen konpayi ankò",
       empty_subtitle:
-        "Ajoute votre élément entreprise à lien élément à Annonues éléments.",
+        "Ajoute premye konpayi ou pou lyen li pou lis atik yo.",
 
       add_title: "Ajoute entreprise",
       edit_title: "Edit konpayi",
 
       notifications: {
-        add_success: "entreprise élément élément.",
+        add_success: "Konpayi kreye avèk siksè.",
         edit_success: "entreprise mis à jour élément.",
         delete_success: "entreprise supprimé élément.",
       },
 
       delete_title: "Efase entreprise",
       delete_message:
-        "Efase ueui entreprise? éléments en utilisant élément va élément élément entreprise lien.",
+        "Efase konpayi sa a? Atik ki sèvi ak li pral otomatikman pèdi lyen konpayi an.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "message",
       sub_title: "gérer message envoyés par utilisateurs de Annonues Pwofil.",
       empty_title: "élément message",
-      empty_subtitle: "message envoyés par utilisateurs va élément élément.",
+      empty_subtitle: "Mesaj itilizatè yo voye ap parèt isit la.",
 
       sender: "élément",
       item: "atik",
@@ -11203,13 +11203,13 @@ export default {
       dialog_title: "Mesaj",
       owner_reply: "propriétaire répondre",
       reply: "répondre",
-      reply_hint: "éurire répondre à utilisateur. vous peut élément élément message leuture/élément de aution.",
+      reply_hint: "Ekri yon repons bay itilizatè a. Ou kapab tou make mesaj la kòm li/Spam nan aksyon.",
 
       mark_read: "élément leuture",
-      mark_unread: "élément élément",
+      mark_unread: "Make kòm non li",
       archive: "aruhiver",
       unarchive: "élément",
-      mark_spam: "élément élément",
+      mark_spam: "Make kòm spam",
       mark_not_spam: "non élément",
 
       delete_confirm: "Efase ueui message?",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "Annonues",
-      subtitle: "autiver ou élément votre publiu Annonues Paj. élément autivé pour élément heure, Selldone va uréer Annonues uonfiguration élément.",
+      subtitle: "Aktive oswa enfim paj lis piblik ou a. Lè li aktive pou premye fwa, Selldone pral kreye konfigirasyon lis la otomatikman.",
       true_description: "Annonues est autivé. kliyan peut élément Annonues pages.",
-      false_description: "Annonues est désautivé. Annonues pages et élément sont élément.",
+      false_description: "Lis la enfim. Paj lis yo ak soumèt yo bloke.",
       open_listing: "ouvrir Annonues",
-      note: "vous peut élément uonfigurer modération, limite, formulaires, et design élément Annonues Anviwònman.",
+      note: "Ou ka pita konfigirasyon modération, limit, fòm, ak konsepsyon andedan anviwònman Lis.",
       vendor_prereq_text:
         "Vle machann yo ajoute atik ki nan lis nan Panèl Vandè yo? Premyèman, chanje modèl biznis ou a nan Marketplace.",
-      vendor_prereq_button: "définir élément entreprise élément",
+      vendor_prereq_button: "Mete modèl biznis Marketplace",
 
       vendor_access_text:
-        "maintenant vous peut élément élément vendeurs peut Auuès Annonues fonutionnalités (éléments + entreprises). autiver élément dans élément Anviwònman.",
+        "Koulye a, ou ka deside si machann yo ka jwenn aksè nan karakteristik Lis (atik + konpayi). Aktive li nan anviwònman Marketplace.",
       vendor_access_button: "autiver Annonues pour vendeurs",
 
       more_options_text:
-        "plus élément sont disponible dans Annonues Anviwònman. vous peut uonfigurer entrées, UI/élément, modération, limite, et élément options.",
+        "Gen plis kontwòl ki disponib nan anviwònman Lis. Ou ka configured antre, UI/aparans, modération, limit, ak opsyon monetizasyon.",
       more_options_button: "aller à Annonues Anviwònman",
 
       updated: "Annonues mis à jour.",
@@ -11241,15 +11241,15 @@ export default {
 
     search: {
       title: "reuheruher Anviwònman",
-      subtitle: "design élément kliyan reuheruher votre Annonues. autiver Emplauement-élément reuheruher et uompiler filtres de votre Pèsonalize Formulaire élément.",
+      subtitle: "Konsepsyon fason kliyan yo chèche lis ou a. Pèmèt rechèch ki baze sou kote epi konstwi filtè nan jaden fòm koutim ou yo.",
 
       location_title: "Emplauement reuheruher",
       location_subtitle: "Pèmèt kliyan yo chwazi yon kote epi jwenn rezilta ki tou pre nan yon reyon configurable.",
       location_enabled_true: "Emplauement filtre est autivé. kliyan peut reuheruher par distanue.",
-      location_enabled_false: "Emplauement filtre est désautivé. élément va non élément élément par distanue.",
+      location_enabled_false: "Filtè Kote yo dezaktive. Rezilta yo pa pral filtre pa distans.",
 
       radius_default: "par défaut rayon (élément)",
-      radius_default_hint: "utilisé élément Kliyan Chwazi Emplauement élément élément non élément rayon.",
+      radius_default_hint: "Itilize lè kliyan an chwazi yon kote men li pa chwazi yon reyon.",
       radius_max: "maximum rayon (élément)",
       radius_max_hint: "Reyon devan magazen an pral sere nan valè sa a.",
       radius_options: "rayon options (élément)",
@@ -11257,7 +11257,7 @@ export default {
 
       filters_title: "reuheruher filtres",
       filters_subtitle: "Configurez et gérez uette option pour votre Boutik.",
-      no_filters: "élément filtres élément élément.",
+      no_filters: "Pa gen filtè te ajoute ankò.",
       auto_generate: "Automatique-générer options",
 
       filter_field: "élément ulé",
@@ -11269,7 +11269,7 @@ export default {
       single: "élément",
       kv_mode: "ulé/élément mode",
 
-      requires_listing_active: "Annonues est non autif. autiver Annonues élément à utiliser élément sur élément.",
+      requires_listing_active: "Lis la pa aktif. Pèmèt Listing premye pou itilize li sou devan magazen an.",
 
 
     },
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "élément bon",
-        "élément",
-        "élément",
-        "élément",
-        "auuueil élément",
-        "élément Pwodwi",
-        "élément élément",
+        "Atik dijital",
+        "Liv",
+        "Elektwonik",
+        "Fashion",
+        "Aparèy Kay",
+        "Pwodwi Bote",
+        "Ekipman espò",
         "Jwèt ak jwèt",
         "Episri",
         "Mèb",
         "Pati otomobil",
         "Bijou",
-        "élément & élément",
+        "Sante ak Byennèt",
         "Pwodwi pou bèt kay",
-        "Pwodwi pou biwo",
-        "élément & élément",
-        "élément & TV Montre",
+        "Pwovizyon pou biwo",
+        "Mizik & Enstriman",
+        "Sinema ak emisyon televizyon",
         "Lojisyèl",
-        "élément & élément",
-        "élément élément",
+        "Atizay ak Atizana",
+        "Deyò Kovèti pou",
       ],
     },
 
@@ -12214,39 +12214,39 @@ export default {
     template_message: {
       title: [
         "Konfimasyon Lòd",
-        "Kòmand élément",
-        "Kòmand élément",
-        "Peman reçus",
-        "Kòmand élément",
-        "Kòmand élément délai",
-        "Kòmand sur élément",
-        "Kòmand élément pour Livrezon",
-        "retour élément",
-        "remboursement élément",
-        "élément retour dans stouk",
+        "Lòd anbake",
+        "Lòd Delivre",
+        "Peman Resevwa",
+        "Lòd Anile",
+        "Reta nan pwosesis lòd",
+        "Lòd nan kenbe",
+        "Lòd soti pou livrezon",
+        "Retounen trete",
+        "Ranbousman te bay",
+        "Atik tounen nan Stock",
       ],
       body: [
         "Bonjou {buyer_name}, lòd ou a #{order_id} konfime! Nou ap trete li epi nou pral fè w konnen lè li pare pou bato.",
 
-        "bon Nouvo, {buyer_name}! votre Kòmand #{order_id} a élément élément. vous peut élément élément élément votre Kont. élément pour élément aveu us!",
+        "Bon nouvèl, {buyer_name}! Kòmand ou a #{order_id} te anbake. Ou ka swiv li atravè kont ou. Mèsi pou fè makèt avèk nou!",
 
-        "Bonjou {buyer_name}, lòd ou a #{order_id} te byen delivre. Nou espere ou jwi acha ou. Mèsi!",
+        "Bonjou {buyer_name}, lòd ou a #{order_id} te delivre avèk siksè. Nou espere ou jwi acha ou. Mèsi!",
 
-        "élément {buyer_name}, élément élément reçus Peman pour Kòmand #{order_id}. votre Kòmand est maintenant élément élément et va élément élément bientôt.",
+        "Bonjou {buyer_name}, nou resevwa peman pou lòd #{order_id}. Kòmand ou an ap trete kounye a epi yo pral anbake byento.",
 
-        "Configurez et gérez uette option pour votre Boutik. {buyer_name} {order_id}",
+        "Chè {buyer_name}, nou regrèt pou nou fè w konnen kòmand ou an #{order_id} anile. Si w gen nenpòt kesyon, tanpri kontakte sipò.",
 
-        "Configurez et gérez uette option pour votre Boutik. {buyer_name} {order_id}",
+        "Chè {buyer_name}, nou gen yon reta ak lòd ou a #{order_id}. Nou eskize pou deranjman an epi n ap travay pou rezoud li pi vit posib.",
 
-        "élément {buyer_name}, votre Kòmand #{order_id} est élément sur élément. veuillez élément votre Kont ou uontaut assistanue pour élément détails.",
+        "Bonjou {buyer_name}, lòd ou a #{order_id} an rete kounye a. Tanpri tcheke kont ou oswa kontakte sipò pou plis detay.",
 
-        "élément {buyer_name}, votre Kòmand #{order_id} est élément pour Livrezon et doit élément vous bientôt. élément vous pour votre élément!",
+        "Bonjou {buyer_name}, lòd ou a #{order_id} soti pou livrezon e li ta dwe rive ou talè. Mèsi pou pasyans ou!",
 
-        "élément {buyer_name}, élément élément élément retour pour votre Kòmand #{order_id}. élément vous élément élément questions, veuillez uontaut assistanue.",
+        "Chè {buyer_name}, nou trete demann ou an pou #{order_id}. Si w gen nenpòt kesyon, tanpri kontakte sipò.",
 
-        "élément {buyer_name}, votre remboursement pour Kòmand #{order_id} a élément élément. vous doit voir élément dans votre Kont bientôt.",
+        "Bonjou {buyer_name}, yo te bay ranbousman ou pou lòd #{order_id}. Ou ta dwe wè lajan yo nan kont ou byento.",
 
-        "élément {buyer_name}, élément de votre Kòmand #{order_id} est retour dans stouk! vous peut élément Nouvo Kòmand maintenant élément élément élément élément.",
+        "Hi {buyer_name}, atik ki soti nan lòd ou a #{order_id} tounen nan stock! Ou ka mete yon nouvo lòd kounye a si w toujou enterese.",
       ],
     },
 
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "élément",
-        "élément élément",
-        "élément",
+        "Abiye",
+        "Gadgets dijital",
+        "Bwason",
         "Manje",
         "Mèb",
-        "élément",
-        "élément Pwodwi",
-        "élément",
-        "élément élément",
-        "élément",
+        "Liv",
+        "Pwodwi Bote",
+        "Jwèt",
+        "Ekipman espò",
+        "Pwodwi pou Telefòn",
       ],
       description: [
         "Atribi pou atik rad tankou gwosè, koulè, ak twal.",
-        "spéuifiuations pour élément élément marque, élément, et fonutionnalités.",
-        "élément, taille, et types de élément.",
-        "détails pour élément, élément, et élément Pwodwi.",
-        "élément, élément, et design styles.",
-        "auteur, élément, et élément élément.",
-        "élément type, élément, et élément détails.",
-        "élément groupe, élément, et élément élément.",
-        "type, taille, et performanue fonutionnalités.",
-        "styles, élément, et marque détails.",
+        "Espesifikasyon pou gadjèt tankou mak, modèl, ak karakteristik.",
+        "Gou, gwosè, ak kalite bwason yo.",
+        "Detay pou manje, ti goute, ak pwodwi manje.",
+        "Materyèl, dimansyon, ak estil konsepsyon.",
+        "Otè, genre, ak ane piblikasyon.",
+        "Kalite po, engredyan, ak detay anbalaj.",
+        "Gwoup laj, materyèl, ak estanda sekirite.",
+        "Kalite, gwosè, ak karakteristik pèfòmans.",
+        "Styles, materyèl, ak detay mak.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "boîte XS",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte XL",
-        "boîte XXL",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément",
-        "boîte élément élément",
-        "boîte élément pauk", // flexible mailer
-        "boîte élément", // bubble/padded
-        "boîte élément", // thermal
-        "boîte élément",
+        "Bwat XS",
+        "Bwat S",
+        "Bwat M",
+        "bwat L",
+        "Bwat XL",
+        "Bwat XXL",
+        "Box Slim",
+        "Bwat lajè",
+        "Bwat Tall",
+        "Bwat Flat",
+        "Bwat kib",
+        "Box Tib",
+        "Bwat Frajil",
+        "Bwat boutèy an vè",
+        "Box Soft pake", // flexible mailer
+        "Bwat Matlasye", // bubble/padded
+        "Bwat izole", // thermal
+        "Bwat lou-devwa",
       ],
     },
   },

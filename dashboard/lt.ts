@@ -635,7 +635,7 @@ export default {
 
       show_notes: {
         false_title: "slėpti elementas",
-        false_description: "slėpti elementas elementas.",
+        false_description: "Slėpti tuščius užrašus.",
         true_title: "rodyti elementas",
         true_description: "rodyti visi elementas, ⌘Ctrl+2",
       },
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategorija",
-      category_input_msg: "elementas: kainą patikrinkite elementas elementas",
+      category_input_msg: "Tuščia: parduotuvės šaknyje",
       product_name: "Produkto pavadinimas*",
       product_name_placeholder: "Jūsų produkto pavadinimas čia..",
       product_code: "Prekės kodas (anglų k.)",
       sku: {
         label: "SKU",
-        message: "elementas elementas Vienetas",
+        message: "Atsargų saugojimo skyrius",
       },
       mpn: {
         label: "MPN",
-        message: "elementas elementas numeris",
+        message: "Gamintojo dalies numeris",
       },
 
       external_link: "Išorinė nuoroda",
@@ -1522,7 +1522,7 @@ export default {
       },
       gtin: {
         hint: "Palaikomos reikšmės yra UPC (Šiaurės Amerika, 12 skaitmenų), EAN (Europa, 13 skaitmenų), JAN (Japonija, 8 arba 13 skaitmenų), ISBN (knygos, 13 skaitmenų).",
-        label: "elementas elementas elementas daiktas numeris",
+        label: "Produkto pasaulinis prekybos prekės numeris",
         placeholder: "elementas elementas numeris čia.. (Neprivalomas)",
       },
       hsn: {
@@ -1647,7 +1647,7 @@ export default {
         subtitle:
           "Galite importuoti panašių produktų technines specifikacijas.",
         action_title: "Importuoti",
-        action_subtitle: "elementas elementas Iš elementas Produktas.",
+        action_subtitle: "Klonuoti specifikacijas iš kito produkto.",
       },
       ai: {
         title: "AI",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "pridėti Keli Variantai kainą elementas Veiksmo.",
       },
       edit_property_set: {
-        title: "elementas elementas Nustatykite",
+        title: "Tinkinkite nuosavybės rinkinį",
         subtitle: "Keisti Variantai elementas, elementas ir Užsakymai.",
       },
     },
@@ -2082,7 +2082,7 @@ export default {
         message: "šis El. paštas elementas Gauti visi Pranešimai ir atnaujinimai.",
       },
       business: {
-        false_description: "aš elementas kaip elementas elementas.",
+        false_description: "Dirbu individualiai.",
         true_description: "Veikiu kaip teisiškai pripažintas verslo subjektas.",
         false_title: "elementas",
         true_title: "Verslo",
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Atnaujinti visus variantus",
     bulk_action_msg:
       "Visiems variantams nustatykite gaminio pakavimo ir paruošimo laiką.",
-    dynamic_lead_time: "elementas elementas Laikas",
+    dynamic_lead_time: "Dinaminis pristatymo laikas",
     instant_delivery: "Momentinis Pristatymas",
   },
 
@@ -2569,7 +2569,7 @@ export default {
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "variantą elementas elementas",
+    title: "Variantas grafiniai ištekliai",
     tips: {
       how_it_works:
         "<b>elementas patvirtinu elementas:</b><br />įkelti modelį arba daiktas Vaizdai čia. Į Naudokite elementas Vaizdai kaip tiek variantą parinktis, elementas <b>{filename}</b> kainą patikrinkite variantą Vertė. Pastaba elementas šis Kodas negali būti Naudota kainą patikrinkite <b><s>Spalva</s></b> Vertė.",
@@ -2584,7 +2584,7 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "Papildomos elementas",
     min_quantity: "elementas Kiekis",
-    range_is_out_of_stock: "diapazonas Ar elementas elementas elementas!",
+    range_is_out_of_stock: "Asortimentas nėra sandėlyje!",
   },
 
   /**
@@ -2598,7 +2598,7 @@ export default {
     set_weight_warning: "prašome elementas patikrinkite Svoris.",
     set_type_warning: "prašome Pasirinkite tiek Tipas.",
     set_style_warning: "prašome Pasirinkite tiek Stilius.",
-    out_of_stock: "elementas elementas elementas elementas",
+    out_of_stock: "Šiuo metu sandėlyje nėra",
 
     image: {
       tooltip: "⚡ elementas elementasželementas elementas Vaizdas čia Į elementas patvirtinu Į patikrinkite variantą.",
@@ -3531,7 +3531,7 @@ export default {
           "elementas elementas elementas patikrinkite Iš viso elementas Į patikrinkite klientas Ar elementas elementas patikrinkite Suma elementas pagrįsti pristatymo patikrinkite Daiktai kainą patikrinkite krepšelio. elementas elementas Reikalingas Į Apmokestinti savo klientas Į elementas patikrinkite elementas Suma.",
       },
       need_no_refund: {
-        title: "ne elementas elementas",
+        title: "Nereikia grąžinti pinigų",
       },
       total_refund: {
         title: "Iš viso elementas",
@@ -4073,7 +4073,7 @@ export default {
       has_root_filter_message: "elementas Nustatykite Filtrai už elementas Kategorija.",
       set_filter_message: "elementas elementas Nustatykite Filtrai.",
       edit_action: "Redaguoti elementas Filtrai",
-      clear_action: "elementas elementas Filtrai",
+      clear_action: "Išvalyti šakninius filtrus",
     },
     ai: {
       title: "AI Produktas elementas",
@@ -4863,11 +4863,11 @@ export default {
       description: "Ištrinti tiek Parduotuvė Iš patikrinkite elementas.",
     },
     "backoffice:giftcard:write": {
-      name: "elementas elementas valdymas",
+      name: "Dovanų kortelių valdymas",
       description: "Sukurti ir Tvarkykite elementas elementas.",
     },
     "backoffice:giftcard:read": {
-      name: "elementas elementas Prieiga",
+      name: "Prieiga prie dovanų kortelių",
       description: "Skaityti elementas elementas Detalės ir Statistika.",
     },
     "backoffice:faq:write": {
@@ -4939,11 +4939,11 @@ export default {
       description: "Skaityti Verslo profilis Detalės.",
     },
     "backoffice:discount-code:write": {
-      name: "elementas elementas valdymas",
+      name: "Nuolaidų kodų valdymas",
       description: "Tvarkykite parduotuvė elementas elementas.",
     },
     "backoffice:discount-code:read": {
-      name: "elementas elementas Prieiga",
+      name: "Nuolaidos kodo prieiga",
       description: "Skaityti elementas elementas Detalės ir Statistika.",
     },
     "backoffice:wallet:write": {
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "elementas valdymas",
-      description: "Tvarkykite elementas, elementas nukreipimo elementas.",
+      description: "Tvarkykite pajamų gavimą, įskaitant persiuntimo programas.",
     },
     "selldone:identification": {
       name: "elementas Prieiga",
@@ -7044,7 +7044,7 @@ export default {
         "Įkelkite tiekėjo CSV failus čia. Įsitikinkite, kad formatas yra teisingas ir atitinka privatumo taisykles.",
       checklist: {
         title: "elementas elementas",
-        subtitle: "būti elementas Į elementas patikrinkite elementas.",
+        subtitle: "Būtinai laikykitės nurodymų.",
         sample_files: "pavyzdines failai",
         valid_vendor_name_needed:
           "elementas elementas elementas tiek <b>Galiojantys vardas</b>. patikrinkite <b>vardas</b> Ar Naudota Į elementas elementas Į <i>Sukurti</i> tiek Nauja pardavėjas arba <i>Atnaujinti</i> elementas elementas elementas.",
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Savininkas elementas elementas",
+      title: "Savininko tapatybės dokumentas",
       description:
         "įkelti tiek elementas-Išduodamų ID Į Patvirtinkite patikrinkite KYC elementas patikrinkite Verslo Savininkas arba raktas elementas.",
     },
@@ -7622,7 +7622,7 @@ export default {
       },
       font_res: {
         label: "elementas elementas",
-        message: "elementas patikrinkite elementas elementas.",
+        message: "Nurodykite šrifto šaltinį.",
       },
     },
   },
@@ -8532,9 +8532,9 @@ export default {
       add_new: "pridėti Nauja",
       disable_reason: {
         set_provider: "Nustatykite savo elementas Pirmas!",
-        provider_is_disabled: "elementas Ar elementas!",
-        otp: "elementas - elementas elementas!",
-        select_another_provider: "Pasirinkite elementas elementas.",
+        provider_is_disabled: "Teikėjas išjungtas!",
+        otp: "Vienkartinis slaptažodis – nėra tinkinama!",
+        select_another_provider: "Pasirinkite kitą teikėją.",
       },
       enable_only_filter: "rodyti internetu įjungtas",
 
@@ -8569,7 +8569,7 @@ export default {
         reset_to_default: "elementas Į Numatytas",
 
         auto_fill: {
-          title: "Auto elementas elementas",
+          title: "Automatinio užpildymo parametrai",
           subtitle:
             "Galite naudoti kiekvieną iš šių parametrų tekste ir Selldone pakeis juos atitinkama reikšme.",
         },
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "pridėti Nauja elementas",
 
         auto_fill: {
-          title: "Auto elementas elementas",
+          title: "Automatinio užpildymo parametrai",
           subtitle:
             "Kiekvieną iš šių parametrų galite nustatyti kaip reikšmę, o Selldone pakeis juos atitinkama reikšme. Dėl paprastumo geriau apibrėžti numatytąsias reikšmes kaip šablonus savo SMS paslaugų teikėje. Tokiu atveju parametrų reikšmių čia apibrėžti nereikės.",
         },
@@ -9605,7 +9605,7 @@ export default {
           "Gaukite Maks 5 Produktai, Kategorijos, ir Klientai. elementas elementas elementas patvirtinu Į Visas režimas kainą patikrinkite Prijunkite > Nustatymas val elementas Laikas.",
       },
       overwrite: {
-        false_title: "elementas Ne Keisti elementas elementas",
+        false_title: "Nekeiskite, jei yra",
         false_desc: "Išsaugokite esamą produkto ir kategorijų informaciją tokią, kokia ji yra.",
         true_title: "elementas",
         true_desc:
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "Auto Patvirtinkite",
       shipping: "Siuntimas",
       syncing_now: "elementas dabar!",
-      sync_not_started: "elementas elementas Ne elementas nėra!",
+      sync_not_started: "Sinchronizavimas dar nepradėtas!",
     },
   },
 
@@ -9755,7 +9755,7 @@ export default {
       },
       reported: {
         title: "elementas",
-        description: "rodyti elementas elementas.",
+        description: "Rodyti pranešimus.",
       },
     },
     empty_msg: "Kol kas įrašų nesukurta...",
@@ -9834,7 +9834,7 @@ export default {
     only_first_order: "internetu Pirmas 🛍️ Užsisakykite",
     total_cashback: "Iš viso elementas",
     delete_alert: {
-      title: "Ištrinti elementas elementas",
+      title: "Ištrinkite Cashback programą",
       message: "Ar tikrai ištrinsite šią pinigų grąžinimo programą?",
       action: "Taip, ištrinti dabar",
     },
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "Normalus",
-      true_title: "elementas (2elementas elementas)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "Grynųjų pinigų grąžinimo programa veikia padidinimo režimu ir klientai gaus 2 kartus didesnį pinigų grąžinimą.",
       false_msg:
@@ -9979,7 +9979,7 @@ export default {
     actions: {
       refund: {
         title: "elementas 💳 Apmokėjimas",
-        subtitle: "elementas arba Visas elementas elementas.",
+        subtitle: "Palaikomas dalinis arba visas pinigų grąžinimas.",
       },
       delivery: {
         title: "Patvirtinkite pristatymo Pristatymas",
@@ -10133,7 +10133,7 @@ export default {
     health: {
       title: "Produktas Sveikatos",
       available_in_stock_msg: "Produktas Ar Yra kainą elementas.",
-      out_of_stock_msg: "Produktas Ar elementas elementas elementas.",
+      out_of_stock_msg: "Prekės nėra sandėlyje.",
       file_count_msg:
         "{files_count} failai su Iš viso {files_size} įkeltą už šis Produktas.",
       no_file_uploaded_msg: "ne failas elementas elementas įkeltą nėra.",
@@ -10385,7 +10385,7 @@ export default {
       },
       image: {
         title: "Vaizdas",
-        subtitle: "elementas elementas įkelti elementas Vaizdas.",
+        subtitle: "Galite įkelti paveikslėlį.",
       },
     },
     help_dialog: {
@@ -10653,7 +10653,7 @@ export default {
         "patikrinkite „Selldone“ Filialas elementas Ar Paprasta ir elementas, suprojektuotas už elementas Į elementas elementas. elementas savo unikalus Filialas Nuoroda Į elementas Nauja Vartotojai Į „Selldone“, ir elementas elementas tiek Komisija Iš elementas Sandoris elementas atlikti—elementas. šis Apima elementas Iš Prenumeratos, paslauga būdą, Parduotuvė elementas, ir visi Kiti pajamos elementas. Pradėti elementas tiek elementas elementas patikrinkite pajamos elementas elementas Ribos pristatymo Laikas arba elementas. elementas mus ir elementas savo elementas elementas tiek elementas pajamos!",
       why_join_selldone_affiliate: "elementas Ar šis tiek unikalus elementas?",
       reasons: [
-        "patvirtinu elementas elementas!",
+        "Tai trunka amžinai!",
         "elementas visi Prenumerata ir Sandoris būdą. elementas elementas 💳 Apmokėjimas elementas patikrinkite Vartotojas pristatymo „Selldone“.",
         "Išsiunčiame nemokamą $99 kuponą visiems, kurie užsiregistruoja naudodami jūsų nuorodą.",
         "aukciono savo pakopa elementas, elementas elementas elementas val patikrinkite Nauja norma Iš visi elementas elementas Vartotojai.",
@@ -10725,7 +10725,7 @@ export default {
       ctrl_2: "Padidinkite elementas Dydžio elementas elementas tekstą | <big>atlikti mane Didelės</big>",
       ctrl_r: "Pašalinti visą formatavimą iš pasirinkto teksto | Išvalykite visus stilius",
       ctrl_s: "Sutaupyti patikrinkite puslapis",
-      tab: "elementas elementas elementas elementas",
+      tab: "Perjungti mastelio režimus",
       ctrl_e: "elementas arba elementas elementas Stilius režimas",
     },
   },
@@ -10735,7 +10735,7 @@ export default {
    */
   l_page_editor_repository: {
     title: "elementas elementasželementas",
-    subtitle: "Bendra-elementas elementas",
+    subtitle: "Iš anksto pastatytos sekcijos",
     add_dialog: {
       title: "pridėti Pasirinktinis skyriaus",
       configuration: {
@@ -11087,7 +11087,7 @@ export default {
       unpublish_success: "daiktas elementas pridėtas.",
       archive_success: "daiktas elementas pridėtas.",
       reject_success: "daiktas Atstumtas pridėtas.",
-      penalty_success: "elementas elementas pridėtas.",
+      penalty_success: "Bauda sėkmingai pritaikyta.",
 
       reject_title: "Atmesti daiktas",
       reject_reason: "elementas elementas",
@@ -11206,10 +11206,10 @@ export default {
       reply_hint: "Rašyk tiek Atsakyti Į patikrinkite Vartotojas. elementas elementas elementas elementas patikrinkite Pranešimas kaip Skaityti/elementas Iš Veiksmai.",
 
       mark_read: "elementas kaip Skaityti",
-      mark_unread: "elementas kaip elementas",
+      mark_unread: "Pažymėti kaip neskaitytą",
       archive: "elementas",
       unarchive: "elementas",
-      mark_spam: "elementas kaip elementas",
+      mark_spam: "Pažymėti kaip šlamštą",
       mark_not_spam: "Ne elementas",
 
       delete_confirm: "Ištrinti šis Pranešimas?",
@@ -11772,11 +11772,11 @@ export default {
         "Spustelėkite, apsipirkite, išsaugokite",
         "Sandoris Bonanza",
         "Elektroninės-pasiūlymas Extravaganza",
-        "Mega elementas elementas",
+        "Mega Markdown Madness",
         "„Cyber Savings Spree“.",
         "Skaitmeninės nuolaidų dienos",
         "Elektroninės prekybos karnavalas",
-        "mokėjimą elementas elementas",
+        "Online Outlet Oasis",
         "Mažmeninės prekybos skubėjimas",
         "Internetinės parduotuvės Sandėlio išpardavimas",
         "El. pirkėjų rojus",
@@ -11908,7 +11908,7 @@ export default {
         "Profesionalus liukso numeris",
       ],
       description: [
-        "elementas už elementas elementas patikrinkite elementas.",
+        "Idealiai tinka asmenims, tyrinėjantiems pagrindus.",
         "Prieiga Į visi Premium funkcijos ir Redaguoti.",
         "Išskirtinis elementas ir Pirmenybė Palaikymas.",
         "tiek elementas pakuotės už elementas Vartotojai.",
@@ -11931,8 +11931,8 @@ export default {
         "medžiagos ir Sukurti kokybė",
         "Spalva ir Baigti nustatymai",
         "Storage ir elementas",
-        "elementas elementas suderinamumas",
-        "elementas ir elementas",
+        "Operacinės sistemos suderinamumas",
+        "Sauga ir atitiktis",
         "pakuotės elementas",
         "grąžinimas ir Palaikymas",
         "Prekės ženklas ir elementas",
@@ -11974,10 +11974,10 @@ export default {
         "elementas elementas savo Verslo.",
         "savo 🛍️ Užsisakykite Ar pristatymo elementas elementas!",
         "elementas už Pirkinių su mus.",
-        "elementas elementas Į elementas elementas elementas.",
+        "Nekantraujame vėl jums tarnauti.",
         "savo pasitenkinimo Ar elementas viršaus Pirmenybė.",
-        "elementas elementas Į norma savo elementas.",
-        "elementas elementas už elementas elementas parduotuvė.",
+        "Nepamirškite įvertinti savo patirties.",
+        "Dėkojame, kad palaikote mūsų parduotuvę.",
         "elementas elementas elementas Mėgaukitės savo Nauja Pirkimas!",
         "Sutaupyti savo Sąskaita faktūra už elementas elementas.",
         "Apsilankykite mus elementas už Daugiau.. Puikus Produktai.",
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "elementas vitrina",
-        "pardavėjas elementas",
-        "Panašios elementas",
-        "elementas elementas",
+        "Turto vitrina",
+        "Pardavėjo aikštė",
+        "Teminiai namai",
+        "Vietinis turgus",
         "Nauji atvykėliai",
-        "elementas elementas",
-        "Pirkinių elementas",
-        "elementas elementas",
-        "elementas elementas",
-        "elementas elementas",
-        "darbo elementas",
-        "Techninės elementas",
-        "elementas elementas",
-        "elementas Kampo",
-        "elementas elementas",
-        "Užsakyti elementas",
-        "Papuošalai elementas",
-        "elementas elementas",
-        "elementas zona",
+        "Turto sodai",
+        "Prekybos rajonas",
+        "Amatininkų alėja",
+        "Prabangūs turtai",
+        "Nuomos centras",
+        "Atvirų durų dienos",
+        "Techninės naujovės",
+        "Mados juosta",
+        "Amatų kampelis",
+        "Maisto teismas",
+        "Knygų kampelis",
+        "Juvelyrinių dirbinių jungtis",
+        "Antikvarinis prospektas",
+        "Fitneso zona",
       ],
     },
 
@@ -12031,11 +12031,11 @@ export default {
         "Produktas elementas",
         "Kainodara Sąrašas",
         "bankas sąskaita Detalės",
-        "elementas elementas adresu",
+        "Adreso įrodymas",
         "elementas elementas",
         "Įmonė profilis",
         "kokybė garantija elementas",
-        "elementas Duomenys elementas (elementas)",
+        "Saugos duomenų lapas (SDS)",
         "Produktas grąžinimas informacija",
         "📦 Grąžinti politika",
         "Siuntimas ir elementas elementas",
@@ -12044,7 +12044,7 @@ export default {
         "socialines žiniasklaida Nuorodos",
         "elementas elementas",
         "tiekėjas Kodas elementas elementas",
-        "elementas-elementas elementas (elementas)",
+        "Neatskleidimo sutartis (NDA)",
       ],
     },
 
@@ -12062,7 +12062,7 @@ export default {
         "paslauga elementas už Turgavietė konfigūracija",
         "Parduotuvė parduotuvė ir konfigūracija Paslaugos elementas",
         "POD paslauga elementas elementas",
-        "Rinkodara elementas elementas elementas",
+        "Marketingo strategijos įgyvendinimo sutartis",
         "Verslo elementas paslauga elementas",
         "Elektroninės-prekybos parduotuvė parduotuvė elementas",
         "Ekspertas paslauga elementas elementas",
@@ -12099,16 +12099,16 @@ export default {
      */
     cashback: {
       title: [
-        "Parduotuvė & elementas elementas",
-        "elementas apdovanojimų elementas",
+        "Apsipirkite ir uždirbkite pinigų",
+        "Lojalumo premijų pinigų grąžinimas",
         "Išskirtinis elementas Pasiūlymai",
         "elementas Bonanza",
         "Momentinis elementas Pasiūlymai",
         "Sezoninis elementas taupymas",
-        "elementas elementas 30 dienų",
+        "Dvigubos pinigų grąžinimo dienos",
         "elementas pristatymo elementas Pirkimas",
         "elementas elementas",
-        "VIP elementas elementas",
+        "VIP pinigų grąžinimo programa",
         "Riboto Laikas elementas",
         "elementas apdovanojimų Klubas",
         "Parduotuvė Daugiau.., Sutaupyti Daugiau..",
@@ -12116,7 +12116,7 @@ export default {
         "elementas Extravaganza",
       ],
       description: [
-        "elementas elementas pristatymo elementas Pirkimas!",
+        "Uždirbkite pinigų grąžindami kiekvieną pirkinį!",
         "Gaukite elementas už savo elementas.",
         "Išskirtinis elementas Pasiūlymai elementas už elementas.",
         "Mėgaukitės Puikus taupymas su elementas apdovanojimų.",
@@ -12124,7 +12124,7 @@ export default {
         "Sutaupyti Daugiau.. su Sezoninis elementas Pasiūlymai.",
         "elementas savo elementas pristatymo Ypatingas 30 dienų!",
         "Uždirbkite pinigų grąžinimą kiekvieną kartą apsipirkdami.",
-        "elementas patikrinkite elementas elementas Šiandien!",
+        "Prisijunkite prie pinigų grąžinimo šėlsmo šiandien!",
         "VIP elementas Mėgaukitės Išskirtinis elementas.",
         "elementas! Riboto Laikas elementas Pasiūlymai.",
         "elementas elementas elementas apdovanojimų Klubas dabar.",
@@ -12159,7 +12159,7 @@ export default {
       message: [
         "Pilna savo elementas, elementas patikrinkite Nustatykite!",
         "Sutaupyti Didelės su elementas Paketo Pasiūlymai!",
-        "elementas elementas elementas elementas elementas!",
+        "Nepraleiskite mūsų tobulų porų!",
         "elementas savo Pirkimas, pridėti-elementas elementas!",
         "Atrakinkite Išskirtinis taupymas, Pirkti elementas!",
         "elementas Daiktai, Ypatingas pirkimų!",
@@ -12173,7 +12173,7 @@ export default {
         "savo elementas elementas Ar čia – Parduotuvė dabar!",
         "Išskirtinis Paketo Kainodara elementas už elementas!",
         "elementas savo taupymas su elementas elementas!",
-        "elementas savo elementas su elementas elementas!",
+        "Papildykite savo kolekciją šiais pasirinkimais!",
         "elementas už elementas: elementas ir Sutaupyti!",
         "patikrinkite elementas elementas už tiek elementas dieną!",
         "Paketo savo Mėgstamiausi už Papildomos taupymas!",
@@ -12201,7 +12201,7 @@ export default {
         "Prekės gyvūnams",
         "Biuro reikmenys",
         "elementas & instrumentai",
-        "elementas & TV elementas",
+        "Filmai ir TV laidos",
         "Programinė įranga",
         "Meno & elementas",
         "elementas elementas",
@@ -12269,10 +12269,10 @@ export default {
       description: [
         "elementas už elementas Daiktai Kaip Dydžio, Spalva, ir audinio.",
         "Specifikacijos už programėlių elementas kaip Prekės ženklas, modelis, ir funkcijos.",
-        "elementas, elementas, ir Tipai elementas elementas.",
+        "Gėrimų skoniai, dydžiai ir rūšys.",
         "Detalės už elementas, elementas, ir elementas Produktai.",
         "medžiagos, matmenys, ir Dizaino elementas.",
-        "Autorius, elementas, ir elementas elementas.",
+        "Autorius, žanras ir išleidimo metai.",
         "elementas Tipas, elementas, ir pakuotė Detalės.",
         "amžius grupę, medžiagos, ir elementas elementas.",
         "Tipas, Dydžio, ir Spektaklis funkcijos.",
@@ -12298,11 +12298,11 @@ export default {
         "Dėžučių elementas",
         "Dėžučių elementas",
         "Dėžučių elementas",
-        "Dėžučių elementas elementas",
+        "Dėžutės Stikliniai buteliai",
         "Dėžučių elementas pakuotės", // flexible mailer
         "Dėžučių elementas", // bubble/padded
         "Dėžučių elementas", // thermal
-        "Dėžučių elementas-elementas",
+        "Dėžutė sunkiasvorė",
       ],
     },
   },

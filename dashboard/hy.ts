@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "Հեռավորության միավոր",
-        subtitle: "տարր տարր տարր տարր տարր.",
+        subtitle: "Հեռավորության համար օգտագործվող միավորը:",
       },
 
       menu: {
@@ -958,7 +958,7 @@ export default {
             "Ներառում է ապահովագրության ծախսերը և այլ ծառայություններ, ինչպիսիք են COD ծախսերը:",
           price_cof_input_dim: "Մեկ {dim}",
           distance_weight_cof_input: "Արժեքի բազմապատկիչ ըստ քաշի բազմապատկիչի",
-          distance_weight_cof_input_dim: "տարր տարր {weight} տարր {distance}",
+          distance_weight_cof_input_dim: "Յուրաքանչյուր {weight} մեկ {distance}-ի համար",
           free_shipping_input: "Անվճար առաքում",
           free_shipping_limit_input: "Պատվերի նվազագույն արժեքը անվճար առաքման համար",
 
@@ -1215,10 +1215,10 @@ export default {
         app_icon_input: "Հավելվածի պատկերակ",
         app_icon_input_placeholder: "Ընտրեք հավելվածի պատկերակների zip ֆայլը:",
         generate_icon_pack_action: "Կառուցեք պատկերակների փաթեթ",
-        splash_design: "տարր տարր տարր",
-        splash_logo_input: "տարր տարր տարր",
+        splash_design: "Splash Screen Desgin",
+        splash_logo_input: "Splash Screen Logo",
         splash_logo_input_placeholder: "Ընտրեք պատկեր Splash Screen-ի համար:",
-        splash_title_input: "տարր տարր վերնագիր",
+        splash_title_input: "Splash Screen Title",
         splash_title_input_placeholder: "Մուտքագրեք վերնագիր Splash Screen-ի համար",
         splash_title_input_message:
           "Այս վերնագիրը կցուցադրվի մեծ տառաչափով:",
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Կարգավիճակ",
-      category_input_msg: "տարր: տարր տարր խանութ տարր",
+      category_input_msg: "Դատարկ. Խանութի արմատում",
       product_name: "Ապրանքային անուն*",
       product_name_placeholder: "Ձեր ապրանքի անունը այստեղ..",
       product_code: "Ապրանքի կոդը (անգլերեն)",
       sku: {
         label: "SKU",
-        message: "տարր տարր տարր",
+        message: "Պահպանման միավոր",
       },
       mpn: {
         label: "MPN",
-        message: "տարր տարր տարր",
+        message: "Արտադրողի մասի համարը",
       },
 
       external_link: "Արտաքին հղում",
@@ -1507,8 +1507,8 @@ export default {
         title: "Անհատական գնման կոճակ",
         message:
           "Դուք կարող եք փոխել պատկերակը` հետևելով այս օրինակին. {icon name} վերնագիր...",
-        placeholder: "տարր տարր տարր տարր...",
-        multi_language_dialog_title: "տարր տարր տարր տարր",
+        placeholder: "Մուտքագրեք գործողությունների կոչ...",
+        multi_language_dialog_title: "Հատուկ գնման կոճակի վերնագիր",
       },
       external: {
         not_available_message:
@@ -1522,16 +1522,16 @@ export default {
       },
       gtin: {
         hint: "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-        label: "ապրանքներ տարր տարր տարր տարր",
-        placeholder: "տարր տարր տարր տարր.. (տարր)",
+        label: "Ապրանքի գլոբալ առևտրի ապրանքի համարը",
+        placeholder: "Համաշխարհային առևտրի համարն այստեղ.. (Ըստ ցանկության)",
       },
       hsn: {
         hint: "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-        placeholder: "6~16 տարր HSN տարր.. (տարր)",
+        placeholder: "6~16 նիշ HSN կոդը.. (ըստ ցանկության)",
         label: "HSN",
       },
       condition: {
-        label: "ապրանք տարր տարր տարր խանութ",
+        label: "Ապրանքի վիճակը ձեր խանութում",
         message: "Խնդրում ենք ընտրել այս ապրանքի վիճակը:",
         subtitle:
           "Տեղեկացրեք ձեր հաճախորդներին ձեր առաջարկած ապրանքի վիճակի և ապրանքանիշի մասին:",
@@ -1545,7 +1545,7 @@ export default {
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
 
         label: "Երաշխիք",
-        placeholder: "տարր 24 տարր տարր.. (տարր)",
+        placeholder: "Ոսկե 24 ամիս երաշխիք.. (ըստ ցանկության)",
       },
       status: {
         title: "Կարգավիճակ",
@@ -1558,7 +1558,7 @@ export default {
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       },
       shortcuts: {
-        title: "տարր ապրանք տարր տարր տարր",
+        title: "Ապրանքը նշանակել լրացուցիչ կատեգորիաների",
         subtitle:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       },
@@ -1647,7 +1647,7 @@ export default {
         subtitle:
           "Դուք կարող եք ներմուծել նմանատիպ ապրանքների տեխնիկական բնութագրերը:",
         action_title: "Ներմուծել",
-        action_subtitle: "տարր տարր տարր տարր ապրանք.",
+        action_subtitle: "Կլոնավորել սպեկտրը մեկ այլ արտադրանքից:",
       },
       ai: {
         title: "AI",
@@ -1687,21 +1687,21 @@ export default {
         spec_saved_success: "Ապրանքի բնութագրերը պահպանված են:",
       },
       dialog_ai: {
-        title: "տարր տարր ապրանք տարր",
+        title: "Ավտոմատ կերպով ստեղծեք արտադրանքի բնութագրերը",
         prompt: {
           title: "Ապրանքի ակնարկ",
           subtitle:
             "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
         },
         generated_spec: {
-          title: "AI-տարր տարր",
+          title: "AI-ի կողմից ստեղծված բնութագրեր",
           subtitle:
             "Այս բնութագրերը ստեղծվել են արհեստական ​​ինտելեկտի կողմից:",
         },
         inputs: {
           prompt: {
             label: "Ապրանքի մանրամասներ",
-            placeholder: "տարր տարր ապրանք տարր...",
+            placeholder: "Նկարագրեք ապրանքը այստեղ...",
           },
         },
         actions: {
@@ -1735,11 +1735,11 @@ export default {
           "Նախ, վերբեռնեք ձեր արտադրանքի տեսանյութը YouTube-ում, այնուհետև տեղադրեք տեսանյութի URL-ը այստեղ:",
       },
       change_bg_ai: {
-        title: "ստեղծել տարր տարր տարր տարր",
+        title: "Ստեղծեք պատկեր նոր ֆոնով",
         inputs: {
           prompt: {
             label: "Ֆոնի նկարագրություն",
-            placeholder: "տարր տարր տարր տարր...",
+            placeholder: "Նկարագրեք ցանկալի նախապատմությունը...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Պատկերացրեք ամբողջ պատկերը նոր ֆոնով:",
           },
           replace: {
-            subtitle: "տարր տարր տարր տարր.",
+            subtitle: "Փոխարինեք գոյություն ունեցող ֆոնը:",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "տարր տարր տարր տարր {min}",
+    title: "Լրացուցիչ գներ {min}-ից ավելի համար",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     min_quantity: "Նվազագույն քանակություն",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "Ավելացրեք մի քանի տարբերակներ մեկ գործողության մեջ:",
       },
       edit_property_set: {
-        title: "տարր տարր տարր",
+        title: "Անհատականացրեք հատկությունների հավաքածուն",
         subtitle: "Փոխեք տարբերակների անունները, պատկերակները և պատվերները:",
       },
     },
@@ -1932,7 +1932,7 @@ export default {
     title: "Թռուցիկ պատուհանների կառավարում",
     subtitle:
       "Ստեղծեք անհատականացված, խելացի և ինտերակտիվ թռուցիկ պատուհաններ:",
-    add_action: "ավելացնել տարր տարր",
+    add_action: "Ավելացնել նոր թռուցիկ",
   },
 
   /** {@see BProductProfileTax} **/
@@ -1945,8 +1945,8 @@ export default {
       is_disabled: "Այս հարկային պրոֆիլն անջատված է: (⚠️Զգուշացում)",
       shipping: "առաքում",
       fixed_rate: "TAX",
-      location_based_rate: "հարկ: տարր տարր",
-      shipping_location_based_rate: "առաքում: տարր տարր",
+      location_based_rate: "Հարկ՝ գտնվելու վայրի վրա հիմնված",
+      shipping_location_based_rate: "Առաքում: Տեղադրության վրա հիմնված",
       include_in_price: "Ներառված է գնի մեջ",
     },
     dialog: {
@@ -1994,9 +1994,9 @@ export default {
     profile: {
       title: "Վաճառողի տվյալներ",
       subtitle: "Այս տեղեկատվությունը ցուցադրվում է հաճախորդներին հրապարակայնորեն:",
-      action_sub_caption: "տարր ապրանքներ տարր տարր.",
-      action_see_listing_page: "տարր տարր տարր",
-      send_invitation_email: "տարր տարր Email",
+      action_sub_caption: "Հանրային ապրանքների ցուցակման էջ:",
+      action_see_listing_page: "Տես Ցուցակման էջը",
+      send_invitation_email: "Ուղարկել հրավերի էլ",
       invitation_link: "տարր հղում",
     },
 
@@ -2012,17 +2012,17 @@ export default {
       title: "տարր տարր",
       subtitle:
         "Սահմանեք հատուկ վայրէջք էջ վաճառողի համար՝ տրամադրելով նրանց եզակի հղում դեպի իրենց նվիրված էջի:",
-      action_set_page: "տարր տարր տարր",
-      action_sub_caption: "տարր տարր տարր.",
+      action_set_page: "Տես Հանրային էջ",
+      action_sub_caption: "Պատվերով վայրէջք էջ:",
       vendor_has_landing_msg: "Վաճառողն ունի հատուկ վայրէջք էջ:",
-      no_landing_selected_msg: "տարր տարր տարր տարր.",
-      no_landing_page: "տարր տարր տարր",
+      no_landing_selected_msg: "Ընտրված չէ վայրէջքի էջ:",
+      no_landing_page: "Վայրէջքի էջ չկա",
       we_can_create_dedicated_landing_msg:
         "Մենք կարող ենք ձեզ համար ստեղծել հատուկ վայրէջք էջ:",
     },
     contact: {
       title: "Կոնտակտային տվյալներ",
-      subtitle: "տարր տարր տարր տարր մանրամասներ.",
+      subtitle: "Խնդրում ենք տրամադրել վավեր կոնտակտային տվյալներ:",
     },
     business: {
       title: "Բիզնես տվյալներ",
@@ -2063,7 +2063,7 @@ export default {
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     only_marketplace_owner_can_edit_user:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    vendor_is_disable_msg: "վաճառող տարր տարր.",
+    vendor_is_disable_msg: "Վաճառողն անջատված է:",
     email_not_match_with_user_msg:
       "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {user_name} {user_email} {email}</b><b></b>",
 
@@ -2075,29 +2075,29 @@ export default {
     inputs: {
       slug: {
         label: "տարր",
-        placeholder: "տարր տարր տարր տարր...",
+        placeholder: "Մուտքագրեք հատուկ ուղի...",
         hint: "Փոխեք վաճառողի դինամիկ վայրէջքի էջի ուղին:",
       },
       email: {
         message: "Այս նամակը կստանա բոլոր ծանուցումները և թարմացումները:",
       },
       business: {
-        false_description: "տարր տարր տարր տարր տարր.",
+        false_description: "Ես աշխատում եմ որպես անհատ։",
         true_description: "Ես գործում եմ որպես օրինական ճանաչված տնտեսվարող սուբյեկտ:",
         false_title: "տարր",
         true_title: "բիզնես",
       },
       bank: {
         hint: "Բանկի անվանումը, որտեղ վաճառողը ունի իր հաշիվը:",
-        placeholder: "տարր տարր տարր..",
+        placeholder: "Ձեր բանկի անունը..",
       },
       account_name: {
         hint: "Սա պետք է համապատասխանի բանկային հաշվի հետ կապված անվանմանը:",
         placeholder: "տարր տարր..",
       },
       account_number: {
-        hint: "տարր վաճառողներ տարր տարր տարր.",
-        placeholder: "տարր տարր տարր տարր..",
+        hint: "Վաճառողի եզակի հաշվի համարը:",
+        placeholder: "Ձեր բանկային հաշվի համարը...",
       },
       routing_number: {
         hint: "Այս թիվը տատանվում է ըստ երկրների: Այն օգտագործվում է նույնականացնելու այն բանկի մասնաճյուղը, որն օգտագործում է վաճառողը:",
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Միջազգային բանկային հաշվի համար. Եթե վաճառողի բանկը գտնվում է Եվրոպայում կամ որոշ այլ երկրներում:",
-        placeholder: "տարր IBAN տարր.. տարր. DE89 3704 0044 0000 0000 00",
+        placeholder: "Ձեր IBAN համարը.. օրինակ. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Միջազգային բանկային հաշվի համար. Եթե վաճառողի բանկը գտնվում է Եվրոպայում կամ որոշ այլ երկրներում:",
@@ -2113,7 +2113,7 @@ export default {
       },
       branch_address: {
         hint: "Բանկի մասնաճյուղի հասցեն, որտեղ վաճառողը ունի իր հաշիվը:",
-        placeholder: "տարր տարր հասցե..",
+        placeholder: "Ձեր բանկի հասցեն...",
       },
       enable: {
         label: "վաճառող կարգավիճակ",
@@ -2122,7 +2122,7 @@ export default {
           "Նրանք կկարողանան վաճառել իրենց ապրանքները ձեր շուկայի միջոցով:",
       },
       access: {
-        label: "վաճառող տարր & տարր",
+        label: "Վաճառողի վահանակ և մուտք",
         true_description:
           "Վաճառողն ունի հատուկ վահանակ՝ քանակի և գնի թարմացման համար:",
         hint: "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
@@ -2133,7 +2133,7 @@ export default {
         label: "վաճառող տարր",
       },
       description: {
-        placeholder: "տարր տարր տարր նկարագրություն...",
+        placeholder: "Գրեք հրապարակային նկարագրություն...",
       },
     },
   },
@@ -2164,14 +2164,14 @@ export default {
   product_badges: {
     title: "Նշաններ",
     subtitle: "ավելացնել տարր խմբագրել տարր ապրանք տարր.",
-    only_marketplace_owner_msg: "տարր շուկա տարր",
+    only_marketplace_owner_msg: "Միայն շուկայի սեփականատերերը",
     create_new_badge_action: "Ստեղծել նոր նշան",
-    select_a_badge: "ընտրել տարր տարր...",
+    select_a_badge: "Ընտրեք կրծքանշան...",
     inputs: {
       custom: {
-        false_description: "ապրանքներ տարր տարր տարր տարր.",
+        false_description: "Ապրանքների կրծքանշանները ստեղծվում են ավտոմատ կերպով:",
         false_title: "ավտոմատ",
-        true_title: "տարր ապրանքներ տարր",
+        true_title: "Պատվերով ապրանքների կրծքանշաններ",
         true_description: "Ավելացրեք հատուկ կրծքանշաններ արտադրանքի էջում:",
       },
     },
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "տարր",
-          message: "տարր տարր տարր: 128KB",
-          placeholder: "ընտրել տարր տարր տարր",
+          message: "Պատկերի առավելագույն չափը՝ 128 ԿԲ",
+          placeholder: "Ընտրեք շապիկի պատկեր",
         },
         pattern: {
           label: "տարր",
@@ -2240,7 +2240,7 @@ export default {
     add_dialog: {
       select_service_msg:
         "Առաքման եղանակները սահմանվում են շուկայի կողմից, և հաճախորդները կարող են ընտրել դրանցից: Վաճառողները չեն վերահսկում այս տարբերակները, սակայն կարող են ինտեգրել իրենց վահանակը առաքման ծառայությունների հետ՝ ուղղակիորեն պիտակներ գնելու համար: Խնդրում ենք ընտրել մեթոդ ստորև ցանկից՝ հասանելի ծառայությունները դիտելու համար: Ընտրեք առաքման ծառայություն ստորև բերված ցանկից: Այստեղ ցուցադրվում են միայն այն ծառայությունները, որոնք կարող են ավելացվել ձեր խանութին:",
-      no_available_service: "տարր հասանելի տարր!",
+      no_available_service: "Հասանելի ծառայություն չկա:",
     },
   },
   /**
@@ -2277,7 +2277,7 @@ export default {
     subtitle:
       "Ներառեք ապրանքների կամ ծառայության փաթեթի հետ բերվող ապրանքների ցանկը:",
     dialog: {
-      header: "ապրանք տարր տարր",
+      header: "Ապրանքի փաթեթի իրեր",
       title: "Ներառված տարրեր",
       subtitle: "Սա ապրանքի հետ բերվող ապրանքների հավաքածու է:",
       action_manage: "Կառավարել տարրերը",
@@ -2286,7 +2286,7 @@ export default {
         "Ստեղծեք կամ ընտրեք փաթեթի բաղադրիչներ, որոնք գալիս են ապրանքի կամ ծառայության հետ: Օգտագործեք այս հատկությունը՝ ընդգծելու համար, թե ինչ կարող են ակնկալել հաճախորդները ապրանքը գնելիս: Մենք խորհուրդ ենք տալիս օգտագործել այս գործառույթը միայն այն դեպքում, երբ հաճախորդի համար կարևոր է հասկանալ ներառված բովանդակությունը, օրինակ՝ սմարթֆոն գնելիս:",
       create_item_tips:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      create_new_item_action: "ստեղծել տարր տարր տարր",
+      create_new_item_action: "Ստեղծեք նոր ներառված տարր",
     },
   },
 
@@ -2329,7 +2329,7 @@ export default {
         physical_orders_title: "Գնումների սայլակներ այս ապրանքի հետ",
         send_count_in_period: "տարր պատվերներ տարր {start} ~ {end}",
         downloads_count_in_period:
-          "տարր տարր տարր տարր {start} ~ {end}",
+          "Ներբեռնված ֆայլերի թիվը {start} ~ {end}-ի միջև է",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2338,7 +2338,7 @@ export default {
         title_small: "Պահեստ",
         total_sell: "Ընդհանուր վաճառք",
         total_sell_today: "Այսօր վաճառք",
-        total_sell_timespan: "տարր տարր տարր {start} ~ {end}",
+        total_sell_timespan: "Ընդհանուր վաճառք {start} ~ {end} միջև",
         chart: {
           labels: ["Գույքագրում", "Վաճառք"],
         },
@@ -2441,7 +2441,7 @@ export default {
           "Այս տարբերակը պահելուց հետո դուք կկարողանաք պատկեր ավելացնել այստեղ:",
 
         config: {
-          title: "ապրանք տարր տարր",
+          title: "Ապրանքի տարբերակի կարգավորում",
           subtitle: "Կառավարեք SKU, MPN և տարբերակների առկայությունը:",
         },
         variables: {
@@ -2451,11 +2451,11 @@ export default {
           graphical_asset_tips:
             "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։</b>",
           graphical_asset_action: "տարր տարր",
-          graphical_asset_action_caption: "տարր տարր տարր տարր.",
+          graphical_asset_action_caption: "Պատկերներ տարբերակների տարբերակների համար:",
         },
         smart_unit_price: {
           tips: "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։</b><b></b><b></b>",
-          smart_unit_price: "տարր գին տարր",
+          smart_unit_price: "Միավորի գնի հաշվարկ",
         },
         quantity: {
           title: "Գույքագրում",
@@ -2470,7 +2470,7 @@ export default {
           title: "տարր & առաքում",
           subtitle:
             "Նշեք տարբերակների քաշը և չափերը՝ առաքման տարբերակները որոշելու համար:",
-          same_as_product_action: "տարր տարր ապրանք",
+          same_as_product_action: "Նույնը, ինչ ապրանքը",
         },
         image: {
           title: "տարր տարր",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "տարր տարր տարր (SKU)",
+            message: "Պահպանման միավոր (SKU)",
           },
           mpn: {
-            message: "տարր տարր տարր (MPN)",
+            message: "Արտադրողի մասի համարը (MPN)",
           },
           gtin: {
-            label: "տարր տարր տարր տարր (GTIN)",
+            label: "Համաշխարհային առևտրի ապրանքի համարը (GTIN)",
             message:
               "Աջակցվող ձևաչափեր՝ UPC (12 նիշ), EAN (13 նիշ), JAN (8 կամ 13 նիշ), ISBN (13 նիշ):",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Թարմացրեք բոլոր տարբերակները",
     bulk_action_msg:
       "Սահմանեք արտադրանքի փաթեթավորման և պատրաստման ժամանակը բոլոր տարբերակների համար:",
-    dynamic_lead_time: "տարր տարր տարր",
+    dynamic_lead_time: "Դինամիկ սպասարկման ժամանակ",
     instant_delivery: "տարր տարր",
   },
 
@@ -2552,24 +2552,24 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "տարր տարր տարր տարր",
-      placeholder: "տարր տարր տարր տարր տարր...",
-      success_update_notification: "տարր տարր տարր տարր.",
+      title: "Սահմանեք պատկերի այլընտրանքային տեքստը",
+      placeholder: "Մուտքագրեք նկարագրական այլընտրանքային տեքստ...",
+      success_update_notification: "Այլընտրանքային տեքստը հաջողությամբ թարմացվեց:",
     },
     dialog_bg_remove: {
-      title: "հեռացնել տարր տարր",
+      title: "Ավտոմատ կերպով հեռացնել ֆոնը",
       action: {
         title: "Հեռացնել ֆոնը",
-        subtitle: "ստեղծել տարր տարր տարր.",
+        subtitle: "Ստեղծեք թափանցիկ ֆոն:",
       },
-      success_remove_bg_notification: "տարր տարր տարր!",
+      success_remove_bg_notification: "Ֆոնը հաջողությամբ հեռացվեց:",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "տարր տարր տարր",
+    title: "Տարբերակ գրաֆիկական ակտիվներ",
     tips: {
       how_it_works:
         "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {filename}</b><br /><b></b><b><s></s></b>",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "տարր տարր",
     min_quantity: "տարր քանակ",
-    range_is_out_of_stock: "տարր տարր տարր տարր տարր!",
+    range_is_out_of_stock: "Տեսականին սպառված է:",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "տարր տարր տարր տարր!",
-    set_color_warning: "տարր ընտրել տարր տարր.",
-    set_volume_warning: "տարր տարր տարր տարր.",
-    set_pack_warning: "տարր տարր տարր տարր տարր.",
-    set_weight_warning: "տարր տարր տարր տարր.",
+    duplicated_variant: "Այս տարբերակն արդեն գոյություն ունի:",
+    set_color_warning: "Խնդրում ենք ընտրել գույն:",
+    set_volume_warning: "Խնդրում ենք նշել ծավալը:",
+    set_pack_warning: "Խնդրում ենք նշել փաթեթի չափը:",
+    set_weight_warning: "Խնդրում եմ նշեք քաշը։",
     set_type_warning: "տարր ընտրել տարր տեսակ.",
-    set_style_warning: "տարր ընտրել տարր տարր.",
-    out_of_stock: "տարր տարր տարր տարր",
+    set_style_warning: "Խնդրում ենք ընտրել ոճ:",
+    out_of_stock: "Ներկայում առկա չէ",
 
     image: {
       tooltip: "⚡ Քաշեք և թողեք պատկերն այստեղ՝ այն տարբերակին վերագրելու համար:",
@@ -2610,7 +2610,7 @@ export default {
     restore_dialog: {
       title: "տարր տարր",
       message: "Իսկապե՞ս ուզում եք վերականգնել այս ջնջված տարբերակը:",
-      action: "տարր, տարր տարր",
+      action: "Այո, Վերականգնել հիմա",
     },
     notifications: {
       restore_variant_success: "Ապրանքի տարբերակը հաջողությամբ վերականգնվել է:",
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "խանութ տարր",
     subtitle: "Խանութում առկա բոլոր ապրանքների ցանկը:",
-    cant_set_here: "տարր տարր տարր",
+    cant_set_here: "Այստեղ հնարավոր չէ սահմանել",
 
     search_input: "Ապրանքի որոնում...",
     search_input_title: "Որոնեք խանութի ապրանքների մեջ",
@@ -2715,10 +2715,10 @@ export default {
    * @see BInventoryBulkPrice
    */
   bulk_price_dialog: {
-    title: "տարր տարր > գին",
+    title: "Զանգվածային գործողություններ > Գին",
     message:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    check: "տարր տարր գին տարր.",
+    check: "Հավանություն եմ տալիս գնային փոփոխություններին։",
     check_description:
       "Գինը կփոխվի ընտրված կատեգորիայի և բոլոր ենթակատեգորիաների համար:",
     add_percent_tab: "ավելացնել տարր",
@@ -2740,12 +2740,12 @@ export default {
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       strategy: {
         min: {
-          title: "տարր տարր գին",
+          title: "Սահմանել նվազագույն գինը",
           description:
             "Սահմանեք ապրանքի նվազագույն գինը որպես ցուցակման գին:",
         },
         max: {
-          title: "տարր տարր գին",
+          title: "Սահմանել առավելագույն գինը",
           description:
             "Սահմանեք ապրանքի առավելագույն գինը որպես ցուցակման գին:",
         },
@@ -2761,7 +2761,7 @@ export default {
       listing_price_need_update_msg:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
-    listing_products_changes: "տարր ապրանքներ տարր",
+    listing_products_changes: "Ապրանքների ցուցակման փոփոխություն",
     total_vendor_products: "տարր վաճառող ապրանքներ",
     total_products: "տարր ապրանքներ",
     total_variants: "տարր տարր",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Ավտոմատ պահպանում",
-    auto_save_input_message: "տարր տարր տարր տարր տարր.",
+    auto_save_input_message: "Փոփոխությունները կպահվեն ավտոմատ կերպով:",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2808,7 +2808,7 @@ export default {
       confirm: "Ավելացնել վճարման եղանակ",
 
       online_methods: "տարր մեթոդ",
-      cod_methods: "տարր տարր տարր",
+      cod_methods: "Կանխիկ Առաքում",
       bank_transfer: "Բանկային փոխանցում",
       cash_methods: "տարր վճարում (POS)",
 
@@ -2840,7 +2840,7 @@ export default {
 
       inputs: {
         currency: {
-          placeholder: "ընտրել տարր դարպաս տարր տարր...",
+          placeholder: "Ընտրեք դարպաս ներմուծման համար...",
         },
         manual: {
           true_title: "տարր տարր",
@@ -3325,8 +3325,8 @@ export default {
       title: "Պատվերը մերժելու պատճառ",
       message:
         "Ստորև բերված ցանկից ընտրեք այս պատվերը մերժելու պատճառը: Համոզվեք, որ հաճախորդին տեղեկացրեք չեղարկման և վերադարձման գործընթացի մասին: Գումարի վերադարձը պետք է կատարվի 12 ժամվա ընթացքում:",
-      confirm_now_action: "տարր պատվեր տարր",
-      confirm_in48h_action: "տարր պատվեր տարր 48 տարր",
+      confirm_now_action: "Չեղարկել պատվերը հիմա",
+      confirm_in48h_action: "Չեղարկել պատվերը 48 ժամում",
 
       dismiss_reject_action: "Մերժել պատվերի չեղարկումը",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "տարր | տարր պատվեր տարր",
-        false_title: "տարր | տարր պատվեր տարր 48 տարր",
+        true_title: "Էքսպրես | Անմիջապես չեղարկել պատվերը",
+        false_title: "Ստանդարտ | Չեղարկել պատվերը 48 ժամ հետո",
         true_description:
           "Այս տարբերակը անմիջապես կչեղարկի ձեր պատվերը և անմիջապես կթարմացնի գույքագրումը:",
         false_description:
@@ -3519,19 +3519,19 @@ export default {
         "Ձեր հաճախորդը շահում է այս ապրանքի 1 անգամ: Նվեր ուղարկեք այս պատվերով։",
 
       need_to_refund: {
-        title: "վերադարձ տարր տարր տարր հաճախորդ",
+        title: "Հաճախորդին պահանջվում է փոխհատուցում",
         message:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
         calculated_approximately:
           "The amount is calculated approximately. Խնդրում եմ ինքներդ հաշվարկեք ճշգրիտ գումարը։",
       },
       need_payback: {
-        title: "հաճախորդ տարր տարր",
+        title: "Պահանջվում է հաճախորդի վճար",
         message:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       },
       need_no_refund: {
-        title: "տարր վերադարձ տարր",
+        title: "Ոչ մի փոխհատուցում անհրաժեշտ չէ",
       },
       total_refund: {
         title: "տարր տարր",
@@ -3664,7 +3664,7 @@ export default {
     cod_transportations_error:
       "Միացնել կանխիկ վճարումը առաքման առնվազն մեկ եղանակի համար:",
     payment_type: "վճարում տեսակ",
-    cod: "տարր տարր տարր",
+    cod: "Կանխիկ Առաքում",
     online: "տարր վճարում",
     wage_percent: "տարր տարր",
     min_wage: "տարր տարր",
@@ -3687,7 +3687,7 @@ export default {
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
     extra_config: {
-      title: "վճարում տարր տարր",
+      title: "Վճարային ծառայության կազմաձևում",
       subtitle: "Լրացուցիչ տեղեկություններ վճարման դարպասի կազմաձևման համար:",
     },
 
@@ -3695,8 +3695,8 @@ export default {
       title: "տարր տարր",
       subtitle:
         "Այս քայլերը կատարելով՝ դուք կսկսեք իրական վճարումներ ստանալ ձեր հաճախորդներից:",
-      action_enable: "տարր տարր տարր տարր",
-      make_live_enable: "տարր տարր տարր տարր",
+      action_enable: "Սեղմեք այն միացնելու համար",
+      make_live_enable: "Սեղմեք այն ապրելու համար",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name}-ը խմբագրվել է:",
-      success_delete: "վճարում մեթոդ տարր տարր տարր!",
+      success_delete: "Վճարման եղանակը ջնջվել է:",
     },
     debug: {
       title: "տարր & տարր",
@@ -3736,19 +3736,19 @@ export default {
     },
     limit_input: {
       title: "տարր պատվեր գումար",
-      msg: "տարր տարր տարր սահմանափակում.",
+      msg: "Զրո նշանակում է սահման չկա:",
     },
     currency_input: {
       message: "Արժույթը, որն աջակցում է այս վճարային դարպասը:",
     },
     gateway_code: "դարպաս տարր",
 
-    hold_only_for: "տարր վճարում տարր հասանելի տարր",
+    hold_only_for: "Պահպանել վճարումը հասանելի է միայն",
     manual_input: {
       false_description:
         "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
       false_title: "ավտոմատ վճարում տարր",
-      true_title: "տարր վճարում տարր ձեռքով տարր",
+      true_title: "Պահպանման վճարումներ և ձեռքով հաստատում",
       true_description:
         "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
     },
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Դուք արտադրանքներ ունեք root-ում, բայց ոչ զտիչ:",
       has_root_filter_message: "Դուք զտիչներ եք սահմանել արմատային կատեգորիայի համար:",
-      set_filter_message: "տարր տարր տարր զտիչ.",
+      set_filter_message: "Դուք կարող եք սահմանել զտիչներ:",
       edit_action: "խմբագրել տարր զտիչ",
-      clear_action: "տարր տարր զտիչ",
+      clear_action: "Մաքրել արմատային ֆիլտրերը",
     },
     ai: {
       title: "AI ապրանք տարր",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "ընտրել տարր ապրանքներ",
       unselect: "տարր",
-      sort_categories: "տարր / տարր տարր",
+      sort_categories: "Դասավորել/տեսակավորել կատեգորիաները",
       subscription_vendor_not_support_message:
         "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
       vendor_owner_not_assignable_message:
@@ -4089,11 +4089,11 @@ export default {
       category_assign_profile: "Նշանակեք պրոֆիլը կատեգորիայի ապրանքներին",
       category_assign_profile_subtitle: "հարկ, առաքում, տարր, տարր,...",
       bulk_discount: "տարր զեղչ",
-      bulk_discount_subtitle: "տարր զեղչ տարր տարր ապրանքներ.",
+      bulk_discount_subtitle: "Կիրառեք զեղչ բոլոր ապրանքների վրա։",
     },
 
     engine: {
-      title: "տարր ապրանքներ տարր",
+      title: "Extra Products Engine",
       subtitle:
         "Ավելի շատ ապրանքներ կբեռնվեն ընտրված կատեգորիաներից և պիտակներից:",
       load_in_tips: "Բեռնեք ապրանքներ կատեգորիաներից {category}-ում:",
@@ -4103,9 +4103,9 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "տարր տարր / CSV տարր տարր.",
+      title: "Թողեք Excel / CSV ֆայլը այստեղ:",
       select_file: "ընտրել տարր",
-      max_file: "տարր տարր տարր: 20mb",
+      max_file: "Ֆայլի առավելագույն չափը՝ 20 Մբ",
       download_sample: "ներբեռնել տարր",
     },
     ai: {
@@ -4132,7 +4132,7 @@ export default {
 
       charge_tooltip: "տարր վաճառող դրամապանակ.",
       withdraw_tooltip: "տարր տարր վաճառող դրամապանակ.",
-      payout_tooltip: "տարր տարր տարր վաճառող.",
+      payout_tooltip: "Վճարում վաճառողին.",
     },
     order_canceled: "պատվեր տարր",
     order_rejected: "պատվեր տարր տարր վաճառող",
@@ -4146,7 +4146,7 @@ export default {
       subtitle: "շուկա տեղեկություն.",
     },
     performance: {
-      subtitle: "տարր տարր տարր.",
+      subtitle: "Իմ վաճառքի կատարողականը:",
     },
     products: {
       title: "Ապրանքներ",
@@ -4159,11 +4159,11 @@ export default {
         "Ձեզ հարկավոր չէ ձեռքով դրամապանակներ ավելացնել: Վաճառողի դրամապանակները կստեղծվեն ավտոմատ կերպով:",
     },
 
-    open_marketplace_page: "տարր շուկա տարր",
-    open_my_store_page: "տարր տարր խանութ տարր",
-    open_my_listing_page: "տարր տարր տարր տարր",
+    open_marketplace_page: "Բացեք շուկայի էջը",
+    open_my_store_page: "Բացեք իմ խանութի էջը",
+    open_my_listing_page: "Բացեք իմ ցուցակման էջը",
     add_products_permission: "ավելացնել ապրանքներ տարր",
-    add_categories_permission: "ավելացնել տարր տարր",
+    add_categories_permission: "Ավելացնել կատեգորիաների թույլտվություն",
   },
 
   /**
@@ -4193,10 +4193,10 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "խմբագրել տարր տարր",
-    title_new: "ավելացնել տարր տարր տարր",
+    title_edit: "Խմբագրել թիմի անդամը",
+    title_new: "Ավելացնել թիմի նոր անդամ",
     member: {
-      title: "տարր տարր մանրամասներ",
+      title: "Թիմի անդամի մանրամասները",
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Email հասցե",
-        placeholder: "տարր տարր տարր տարր հասցե...",
+        placeholder: "Մուտքագրեք անդամի էլ․ հասցեն...",
       },
     },
     notifications: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "տարր տարր տարր տարր վճարում?",
+          label: "Դուք հաստատե՞լ եք այս վճարումը:",
           false_description:
             "Ոչ, ես դեռ չեմ ստացել այս վճարումը իմ բանկային հաշվին:",
           true_description: "Այո, ես ստացել և հաստատել եմ այս վճարումը:",
@@ -4266,7 +4266,7 @@ export default {
       "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։</b><b></b>",
     inputs: {
       note: {
-        message: "տարր տարր տարր տարր վաճառող.",
+        message: "Այն տեսանելի է վաճառողին:",
         placeholder: "Գրառում կարող եք կցել այստեղ...",
       },
       amount: {
@@ -4776,7 +4776,7 @@ export default {
       error_message: "<strong>Սխալ.</strong> Ներեցեք, սխալ է տեղի ունեցել:",
       name_input: "Alias Ex. իմ խորհրդանշական անունը",
       name_input_message: "Սիրված նշանային անուն:",
-      scopes_list: "տարր տարր տարր",
+      scopes_list: "Token Access List",
     },
     access_token_dialog: {
       title: "Անձնական մուտքի բանալի",
@@ -4832,7 +4832,7 @@ export default {
     },
     "backoffice:notifications": {
       name: "տարր տարր",
-      description: "տարր տարր տարր տարր.",
+      description: "Ուղարկեք և ստացեք ծանուցումներ:",
     },
     "backoffice:order:write": {
       name: "պատվեր տարր",
@@ -4844,11 +4844,11 @@ export default {
     },
     "backoffice:support-tickets": {
       name: "տարր տարր",
-      description: "տարր տարր տարր.",
+      description: "Կառավարեք աջակցության տոմսերը:",
     },
     "backoffice:shop:read": {
       name: "խանութ տեղեկություն",
-      description: "տարր խանութ մանրամասներ տարր տարր.",
+      description: "Կարդացեք խանութի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:shop:write": {
       name: "խանութ տարր",
@@ -4863,11 +4863,11 @@ export default {
       description: "Ջնջել խանութը համակարգից:",
     },
     "backoffice:giftcard:write": {
-      name: "տարր տարր տարր",
-      description: "ստեղծել տարր տարր տարր տարր.",
+      name: "Նվեր քարտերի կառավարում",
+      description: "Ստեղծեք և կառավարեք նվեր քարտեր:",
     },
     "backoffice:giftcard:read": {
-      name: "տարր տարր տարր",
+      name: "Նվեր քարտի մուտք",
       description: "Կարդացեք նվեր քարտի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:faq:write": {
@@ -4876,15 +4876,15 @@ export default {
     },
     "backoffice:faq:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք ՀՏՀ մանրամասները և վիճակագրությունը:",
     },
     "backoffice:category:write": {
       name: "կատեգորիա տարր",
-      description: "ստեղծել տարր տարր ապրանք տարր.",
+      description: "Ստեղծեք և կառավարեք ապրանքների կատեգորիաները:",
     },
     "backoffice:category:read": {
       name: "կատեգորիա տարր",
-      description: "տարր կատեգորիա մանրամասներ տարր տարր.",
+      description: "Կարդացեք կատեգորիայի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:product:write": {
       name: "ապրանք տարր",
@@ -4892,18 +4892,18 @@ export default {
     },
     "backoffice:product:read": {
       name: "ապրանք տարր",
-      description: "տարր ապրանք մանրամասներ տարր տարր.",
+      description: "Կարդացեք արտադրանքի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:report:read": {
       name: "հաշվետվություն տարր",
       description: "տարր խանութ հաշվետվություն տարր տեղեկություն.",
     },
     "backoffice:finance:write": {
-      name: "տարր տարր տարր",
+      name: "Ֆինանսական հաշվի կառավարում",
       description: "Կառավարեք խանութի հետ կապված ֆինանսական հաշիվները:",
     },
     "backoffice:finance:read": {
-      name: "տարր տարր տարր",
+      name: "Ֆինանսական հաշվի մուտք",
       description: "Կարդացեք ֆինանսական հաշվի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:page:write": {
@@ -4916,19 +4916,19 @@ export default {
     },
     "backoffice:logistic:write": {
       name: "տարր տարր",
-      description: "տարր տարր տեղեկություն.",
+      description: "Կառավարեք լոգիստիկ տեղեկատվությունը:",
     },
     "backoffice:logistic:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք լոգիստիկ մանրամասները և վիճակագրությունը:",
     },
     "backoffice:staff:write": {
       name: "տարր տարր",
-      description: "խմբագրել տարր տարր տարր մանրամասներ.",
+      description: "Խմբագրել և կառավարել անձնակազմի մանրամասները:",
     },
     "backoffice:staff:read": {
       name: "տարր տարր",
-      description: "տարր տարր տեղեկություն տարր տարր.",
+      description: "Կարդացեք անձնակազմի տեղեկատվությունը և վիճակագրությունը:",
     },
     "backoffice:business-profile:write": {
       name: "բիզնես պրոֆիլ տարր",
@@ -4939,11 +4939,11 @@ export default {
       description: "տարր բիզնես պրոֆիլ մանրամասներ.",
     },
     "backoffice:discount-code:write": {
-      name: "զեղչ տարր տարր",
+      name: "Զեղչի կոդի կառավարում",
       description: "տարր խանութ զեղչ տարր.",
     },
     "backoffice:discount-code:read": {
-      name: "զեղչ տարր տարր",
+      name: "Զեղչի ծածկագրի հասանելիություն",
       description: "Կարդացեք զեղչի կոդի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:wallet:write": {
@@ -4952,7 +4952,7 @@ export default {
     },
     "backoffice:wallet:read": {
       name: "դրամապանակ տարր",
-      description: "տարր դրամապանակ տեղեկություն տարր տարր.",
+      description: "Կարդացեք դրամապանակի տեղեկատվությունը և վիճակագրությունը:",
     },
     "backoffice:coupon:write": {
       name: "կտրոն տարր",
@@ -4960,7 +4960,7 @@ export default {
     },
     "backoffice:coupon:read": {
       name: "կտրոն տարր",
-      description: "տարր կտրոն մանրամասներ տարր տարր.",
+      description: "Կարդացեք կտրոնի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:offer:write": {
       name: "առաջարկ տարր",
@@ -4968,7 +4968,7 @@ export default {
     },
     "backoffice:offer:read": {
       name: "առաջարկ տարր",
-      description: "տարր առաջարկ տեղեկություն տարր տարր.",
+      description: "Կարդացեք առաջարկի տեղեկատվությունը և վիճակագրությունը:",
     },
     "backoffice:cashback:write": {
       name: "տարր տարր",
@@ -4976,23 +4976,23 @@ export default {
     },
     "backoffice:cashback:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք cashback մանրամասները և վիճակագրությունը:",
     },
     "backoffice:lottery:write": {
       name: "տարր տարր",
-      description: "տարր խանութ տարր.",
+      description: "Կառավարեք խանութների վիճակախաղերը:",
     },
     "backoffice:lottery:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք վիճակախաղի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:community:write": {
       name: "տարր տարր",
-      description: "տարր տարր տարր.",
+      description: "Կառավարեք համայնքի գործունեությունը:",
     },
     "backoffice:community:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք համայնքի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:customer:write": {
       name: "հաճախորդ տարր",
@@ -5000,23 +5000,23 @@ export default {
     },
     "backoffice:customer:read": {
       name: "հաճախորդ տարր",
-      description: "տարր հաճախորդ տեղեկություն տարր տարր.",
+      description: "Կարդացեք հաճախորդների տեղեկատվությունը և վիճակագրությունը:",
     },
     "backoffice:ribbon:write": {
       name: "տարր տարր",
-      description: "տարր խանութ տարր.",
+      description: "Կառավարեք խանութի ժապավենները:",
     },
     "backoffice:ribbon:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք ժապավենի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:ai:write": {
       name: "AI տարր",
-      description: "տարր AI տարր.",
+      description: "Կառավարեք AI կոնֆիգուրացիաները:",
     },
     "backoffice:ai:read": {
       name: "AI տարր",
-      description: "տարր AI տարր տարր տարր.",
+      description: "Կարդացեք AI կոնֆիգուրացիաները և վիճակագրությունը:",
     },
     "backoffice:vendor-payment:write": {
       name: "վաճառող վճարում տարր",
@@ -5028,7 +5028,7 @@ export default {
     },
     "backoffice:company:read": {
       name: "ընկերություն տարր",
-      description: "տարր ընկերություն մանրամասներ տարր տարր.",
+      description: "Կարդացեք ընկերության մանրամասները և վիճակագրությունը:",
     },
     "backoffice:company:write": {
       name: "ընկերություն տարր",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "նշում տարր",
-      description: "տարր նշում տարր տարր մանրամասներ.",
+      description: "Կարդացեք նշումները և հարակից մանրամասները:",
     },
     "backoffice:note:write": {
       name: "նշում տարր",
@@ -5044,23 +5044,23 @@ export default {
     },
     "backoffice:affiliate:write": {
       name: "տարր տարր",
-      description: "տարր տարր տեղեկություն.",
+      description: "Կառավարեք փոխկապակցված տեղեկատվությունը:",
     },
     "backoffice:affiliate:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք մասնաճյուղի մանրամասները և վիճակագրությունը:",
     },
     "backoffice:print:write": {
       name: "տարր տարր",
-      description: "տարր տարր տարր.",
+      description: "Կառավարեք տպման ընտրանքները:",
     },
     "backoffice:print:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ.",
+      description: "Կարդացեք տպագրության մանրամասները:",
     },
     "selldone:token:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք նշանների մանրամասները և վիճակագրությունը:",
     },
     "selldone:token:write": {
       name: "տարր տարր",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք դրամայնացման մանրամասները և վիճակագրությունը:",
     },
     "selldone:monetization:write": {
       name: "տարր տարր",
-      description: "տարր տարր, տարր տարր տարր.",
+      description: "Կառավարեք դրամայնացումը, ներառյալ ուղղորդման ծրագրերը:",
     },
     "selldone:identification": {
       name: "տարր տարր",
@@ -5082,42 +5082,42 @@ export default {
     },
     "selldone:developer:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք մշակողի մանրամասները և վիճակագրությունը:",
     },
     "selldone:developer:write": {
       name: "տարր տարր",
-      description: "տարր տարր տեղեկություն.",
+      description: "Կառավարեք մշակողի տեղեկատվությունը:",
     },
     "selldone:security:write": {
       name: "տարր տարր",
-      description: "տարր տարր տարր.",
+      description: "Կառավարեք անվտանգության կոնֆիգուրացիաները:",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
       name: "տարր տարր",
-      description: "տարր տարր տարր տարր.",
+      description: "Կառավարեք կապակցված ծառայություններ մատուցողներին:",
     },
     "connect:provider:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք մատակարարի մանրամասները և վիճակագրությունը:",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "տարր տարր",
-      description: "տարր տարր մանրամասներ տարր տարր.",
+      description: "Կարդացեք գործակալության մանրամասները և վիճակագրությունը:",
     },
     "agency:write": {
       name: "տարր տարր",
-      description: "տարր տարր տեղեկություն.",
+      description: "Կառավարեք գործակալության տեղեկատվությունը:",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
       name: "վաճառող տարր",
-      description: "տարր վաճառող մանրամասներ տարր տարր.",
+      description: "Կարդացեք վաճառողի մանրամասները և վիճակագրությունը:",
     },
     "vendor-write": {
       name: "վաճառող տարր",
@@ -5140,7 +5140,7 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "տարր Selldone տարր տարր տարր.",
+      description: "Մուտք գործեք Seldone ծառայություններ և հնարավորություններ:",
     },
     others: {
       title: "Այլ",
@@ -5152,11 +5152,11 @@ export default {
     },
     connect: {
       title: "Connect OS",
-      description: "տարր տարր տարր տարր տարր.",
+      description: "Մուտք գործեք կապակցված ծառայություններ և մատակարարներ:",
     },
     agency: {
       title: "տարր",
-      description: "տարր տարր տեղեկություն տարր տարր.",
+      description: "Մուտք գործեք գործակալության տեղեկատվություն և կառավարում:",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "տարր տարր դրամապանակ",
+        title: "Ընտրեք դրամապանակ",
         subtitle:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Selldone — Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
-    your_license_is_not_eligible: "տարր լիցենզիա տարր տարր տարր.",
+    your_license_is_not_eligible: "Ձեր լիցենզիան իրավասու չէ:",
     sku_dialog: {
       title: "ավելացնել ապրանք տարր SKU",
       subtitle:
@@ -5889,8 +5889,8 @@ export default {
     affiliate_commission: "տարր տարր",
 
     config: {
-      new: "տարր տարր տարր",
-      edit: "խմբագրել տարր տարր",
+      new: "Նոր գործընկեր",
+      edit: "Խմբագրել փոխկապակցված գործընկերը",
       subtitle:
         "Այստեղ կազմաձևեք դուստր ձեռնարկության ընդհանուր կարգավորումները և անվանումը:",
     },
@@ -5918,12 +5918,12 @@ export default {
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
 
       domain_not_approved_msg: "Դոմենը դեռ հաստատված չէ:",
-      domain_is_not_enable_msg: "տարր տարր տարր տարր տարր!",
+      domain_is_not_enable_msg: "Դոմենը միացված չէ:",
       domain_is_linked_to_other_affiliate_msg:
         "Այս տիրույթն արդեն կապված է մեկ այլ մասնաճյուղի հետ:",
     },
 
-    set_users_first_message: "տարր տարր տարր օգտատեր տարր!",
+    set_users_first_message: "Խնդրում ենք նախ սահմանել օգտվողին:",
 
     cluster: {
       title: "տարր",
@@ -5933,13 +5933,13 @@ export default {
     },
 
     notifications: {
-      create_success: "տարր տարր տարր տարր.",
-      update_success: "տարր տարր տարր.",
+      create_success: "Հաջողությամբ ավելացվեց նոր մասնաճյուղ:",
+      update_success: "Գործընկերությունը հաջողությամբ թարմացվեց:",
     },
 
     inputs: {
       name: {
-        label: "տարր տարր տարր",
+        label: "Փոխկապակցված գործընկերոջ անունը",
         message: "օրինակ՝ Ջոն Դո, Ալեքս Քոմփանի, X Marketers և այլն:",
       },
       commission: {
@@ -5948,7 +5948,7 @@ export default {
           "Հաշվարկել՝ օգտագործելով ֆիքսված և տոկոսային միջնորդավճարների համադրություն:",
         true_description:
           "Հաշվարկեք՝ օգտագործելով գնագոյացման ներդիրում սահմանված ապրանքի հատուկ միջնորդավճարները:",
-        false_title: "տարր + տարր տարր",
+        false_title: "Ֆիքսված + տոկոսային հանձնաժողով",
         true_title: "տարր տարր",
       },
       user: {
@@ -5956,19 +5956,19 @@ export default {
         message: "Կամընտիր, օրինակ՝ մասնաճյուղի անունը Selldone-ում",
       },
       web: {
-        placeholder: "տարր, տարր.տարր., տարր.տարր",
+        placeholder: "Ընտրովի, օրինակ՝ affiliate-web.com",
       },
       address: {
         placeholder: "Ընտրովի, օրինակ, 1200 POX, NY, ԱՄՆ",
       },
       tel: {
-        placeholder: "տարր, տարր.տարր., 001-808-210354",
+        placeholder: "Ընտրովի, օրինակ՝ 001-808-210354",
       },
       bank: {
         placeholder: "Լրացուցիչ, օրինակ, Arstra Bank, No. 10002-325-800-845213",
       },
       domain: {
-        placeholder: "ընտրել տարր տարր... (տարր)",
+        placeholder: "Ընտրեք տիրույթ... (ըստ ցանկության)",
       },
       pos: {
         true_description:
@@ -5980,13 +5980,13 @@ export default {
           "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
       },
       products: {
-        label: "ապրանքներ տարր տարր տարր",
+        label: "Հանձնաժողովի համար իրավասու ապրանքներ",
         select_product: "ընտրել ապրանքներ",
       },
     },
     actions: {
       update: "թարմացնել տարր",
-      add: "ավելացնել տարր տարր",
+      add: "Ավելացնել փոխկապակցված գործընկեր",
     },
     /**
      * @see BPageAffiliateEdit
@@ -6001,7 +6001,7 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "տարր տարր տարր տարր",
+    title: "Պատվերով գներ և գնահատումներ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     add_valuation_action: "ստեղծել տարր տարր ձև",
@@ -6014,7 +6014,7 @@ export default {
       action: "Այո, ջնջել հիմա",
     },
     notifications: {
-      delete_success: "տարր տարր տարր տարր տարր.",
+      delete_success: "Գնահատումը հաջողությամբ ջնջվել է:",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "տարր & տարր տարր",
+    label: "Գնագոյացման և գնահատման մոդել",
   },
 
   /**
@@ -6035,7 +6035,7 @@ export default {
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
-    valuation_preview: "տարր տարր ձև",
+    valuation_preview: "Նախադիտման գնահատման ձևը",
     load_sample: "տարր տարր",
     conditions: {
       title: "Պայմաններ",
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      zero_message: "տարր: տարր տարր տարր սահմանափակում!",
+      zero_message: "զրո: սահման չկա:",
     },
     duration: {
       subtitle:
@@ -6334,7 +6334,7 @@ export default {
     constraints: {
       subtitle:
         "Այստեղ դուք հնարավորություն ունեք սահմանելու լրացուցիչ անհատականացված պարամետրեր կտրոնի համար:",
-      no_limit: "տարր տարր տարր",
+      no_limit: "Ոչ մի լրացուցիչ սահմանափակում",
       has_limit: "տարր տարր",
       has_code_message: "Կտրոն ավելացնելու համար օգտագործողը պետք է մուտքագրի կոդը:",
     },
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
-    empty_prize_list: "ստեղծել տարր տարր տարր տարր...",
+    empty_prize_list: "Ստեղծեք և կառավարեք մրցանակներ այստեղ...",
   },
 
   /** {@see BLotteryAdd**/
@@ -7053,7 +7053,7 @@ export default {
       },
       need_kyc_alert:
         "Դուք պետք է ստուգեք ձեր անձնական տվյալները նախքան վաճառողներին ներմուծելը:",
-      back_to_vendors_list: "տարր տարր վաճառող տարր",
+      back_to_vendors_list: "Վերադառնալ Մատակարարների ցանկ",
     },
   },
 
@@ -7076,8 +7076,8 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "տարր վաճառողներ տարր",
-    title: "վաճառող տարր տարր",
+    open_vendors_panel: "Բացեք վաճառողների վահանակը",
+    title: "Վաճառողի հարցումների ցուցակ",
     subtitle:
       "Սա այն անհատների խնդրանքների ցանկն է, ովքեր դիմել են ձեր շուկայում վաճառող դառնալու համար:",
   },
@@ -7131,9 +7131,9 @@ export default {
           "Վաճառողները կարող են ավելացնել և կառավարել իրենց սեփական արտադրանքը անմիջապես իրենց վաճառողների վահանակում:",
       },
       need_verify: {
-        label: "ապրանք տարր տարր",
+        label: "Ապրանքի ստուգման հոսք",
         false_description: "Նոր վաճառող ապրանքներն ակնթարթորեն ակտիվանում են:",
-        false_title: "տարր տարր տարր",
+        false_title: "Ստուգում չի պահանջվում",
         true_description:
           "Վաճառողների նոր ապրանքները պահանջում են հաստատում, նախքան շուկա դուրս գալը:",
         true_title: "տարր տարր",
@@ -7166,16 +7166,16 @@ export default {
         true_description:
           "Օգտագործողը կարող է ունենալ մի քանի վաճառողի հաշիվներ: Սա բետա հատկություն է. խնդրում ենք կապվել մեզ հետ այն օգտագործելուց առաջ:",
         true_title: "տարր տարր",
-        false_title: "տարր վաճառող տարր (տարր)",
+        false_title: "Մեկ մատակարարի ռեժիմ (կանխադրված)",
       },
 
       listing: {
-        label: "տարր տարր վաճառողներ",
+        label: "Ցուցակ վաճառողների համար",
         true_description: "Ցուցակումը միացված է վաճառողների համար: Վաճառողները կարող են կառավարել ցուցակման իրերը և ընկերությունները:",
         false_description: "Ցուցակումն անջատված է վաճառողների համար: Միայն խանութի սեփականատերը կարող է կառավարել ցուցակման ապրանքներն ու ընկերությունները:",
         requires_listing_active_text:
           "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
-        requires_listing_active_button: "տարր տարր տարր կարգավորումներ",
+        requires_listing_active_button: "Բացեք Ալիքների ցանկի կարգավորումները",
       },
 
 
@@ -7218,8 +7218,8 @@ export default {
         },
         code: {
           label: "տարր տարր",
-          placeholder: "տարր տարր տարր տարր տարր...",
-          message: "տարր տարր HTML տարր.",
+          placeholder: "Տեղադրեք ներկառուցված կոդը այստեղ...",
+          message: "Կարող է ներառել HTML կոդ:",
         },
         url: {
           label: "URL",
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "տարր տարր փաստաթուղթ",
+      title: "Սեփականատիրոջ անձը հաստատող փաստաթուղթ",
       description:
         "Վերբեռնեք կառավարության կողմից տրված անձը հաստատող փաստաթուղթ՝ հաստատելու բիզնեսի սեփականատիրոջ կամ հիմնական գործադիրի ինքնությունը:",
     },
@@ -7274,7 +7274,7 @@ export default {
         "Տրամադրեք հեղինակային իրավունքի գրանցման փաստաթղթեր՝ ձեր մտավոր սեփականության իրավունքները հաստատելու համար:",
     },
     Privacy: {
-      title: "տարր տարր փաստաթուղթ",
+      title: "Գաղտնիության քաղաքականության փաստաթղթեր",
       description:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
@@ -7322,7 +7322,7 @@ export default {
     title: "տարր տարր",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    top_up_vendor_action: "տարր տարր վաճառող տարր",
+    top_up_vendor_action: "Լրացրեք վաճառողի հաշիվը",
   },
 
   /**
@@ -7332,31 +7332,31 @@ export default {
     title: "տարր տարր",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    add_pricing_action: "ավելացնել տարր տարր",
+    add_pricing_action: "Ավելացնել գնագոյացման պլան",
   },
 
   /**
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "շուկա տարր տարր",
+    title: "Շուկայական գնագոյացման մոդել",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     delete: {
       subtitle:
         "Վստա՞հ եք, որ ցանկանում եք ջնջել այս տարրը։",
-      remove_pricing_action: "հեռացնել տարր տարր",
+      remove_pricing_action: "Հեռացնել գնագոյացման մոդելը",
     },
     inputs: {
       title: {
-        placeholder: "տարր.տարր., տարր ապրանքներ տարր...",
+        placeholder: "օրինակ՝ թվային արտադրանքի դաս...",
       },
       description: {
         placeholder: "Այստեղ կարող եք նշում ավելացնել...",
       },
       accept_delete: {
         true_description: "Ես ուզում եմ ջնջել այս գնային մոդելը:",
-        true_title: "տարր տարր տարր տարր",
+        true_title: "Հաստատեք գնագոյացման մոդելի հեռացումը",
       },
     },
   },
@@ -7371,11 +7371,11 @@ export default {
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
     vendor_wallet: "վաճառող դրամապանակ",
-    vendor_bank_account: "վաճառող տարր տարր",
+    vendor_bank_account: "Վաճառողի բանկային հաշիվ",
     with_balance_tooltip:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     with_balance: "տարր տարր",
-    without_balance: "տարր տարր - տարր տարր",
+    without_balance: "Առանց մնացորդի - Արագ ռեժիմ",
     bank_transfer: {
       title: "Բանկային փոխանցում",
       subtitle:
@@ -7434,8 +7434,8 @@ export default {
     max_batch_msg: "Ապրանքների առավելագույն քանակը, որոնք կարող եք ներմուծել մեկ խմբաքանակով:",
     max_daily_limit_msg: "Ապրանքների առավելագույն քանակը, որոնք կարող եք ներմուծել մեկ օրում:",
     extra_daily_limit_msg: "Լրացուցիչ ապրանքներ թույլատրվում են օրական սահմանաչափից դուրս:",
-    add_items_today_msg: "տարր տարր տարր.",
-    file_statistic_msg: "տարր տարր տարր տարր.",
+    add_items_today_msg: "Նյութերն ավելացվել են այսօր:",
+    file_statistic_msg: "Վիճակագրություն այս ֆայլի համար։",
     used_quota: "տարր տարր",
   },
 
@@ -7522,7 +7522,7 @@ export default {
           "Պարզ և նվազագույն ռեժիմ՝ առանց ապրանքի քարտերի վրա լրացուցիչ գործողությունների:",
         true_description:
           "Ցուցադրել «Արագ գնումներ» և «Ավելացնել»՝ ապրանքի քարտի սավառնող կոճակները համեմատելու համար:",
-        true_title: "ցույց տալ տարր տարր տարր",
+        true_title: "Ցույց տալ գործողությունը Հովերի վրա",
       },
     },
     filter_products: {
@@ -7540,7 +7540,7 @@ export default {
       hide_empty_folders: {
         false_description: "Ցուցադրել բոլոր կատեգորիաները խանութների ցանկում:",
         false_title: "ցույց տալ տարր տարր",
-        true_title: "թաքցնել տարր տարր",
+        true_title: "Թաքցնել դատարկ կատեգորիաները",
         true_description:
           "Ցուցադրել միայն խանութների ցանկում ապրանքներ ունեցող կատեգորիաները:",
       },
@@ -7550,14 +7550,14 @@ export default {
       title: "ապրանք տարր",
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      buy_button_color: "տարր տարր տարր",
+      buy_button_color: "Գնել կոճակի գույնը",
       smart_price: {
-        title: "տարր տարր գին",
+        title: "Խելացի միավորի գինը",
         true_description:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       },
       reverse_currency: {
-        title: "արժույթ տարր տարր",
+        title: "Արժույթի նշանի դիրքը",
         false_title: "Նորմալ ռեժիմ",
         true_title: "տարր տարր",
         false_description:
@@ -7573,7 +7573,7 @@ export default {
 
       tabs_order: {
         title: "տարր պատվեր",
-        reset_to_default: "տարր տարր տարր",
+        reset_to_default: "Վերականգնել լռելյայն",
       },
     }, // end: product_page
   },
@@ -7589,12 +7589,12 @@ export default {
     },
     inputs: {
       page_vendor_login: {
-        label: "վաճառող տարր տարր",
+        label: "Վաճառողի մուտքի էջ",
         message:
           "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
       },
       page_vendor_registered: {
-        label: "վաճառող տարր տարր",
+        label: "Վաճառողի գրանցված էջ",
         message:
           "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
       },
@@ -7612,17 +7612,17 @@ export default {
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "տարր տարր տարր",
+      title: "Հիմնական կայքի տառատեսակը",
       subtitle: "Ընտրեք ձեր նախընտրած տառատեսակը Google Fonts-ից:",
     },
     inputs: {
       font_family: {
         label: "տարր տարր",
-        message: "տարր տարր տարր արժեք.",
+        message: "Մուտքագրեք տառատեսակի ընտանեկան արժեքը:",
       },
       font_res: {
         label: "տարր տարր",
-        message: "տարր տարր տարր տարր.",
+        message: "Նշեք տառատեսակի ռեսուրսը:",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "տարր վերնագիր",
-        set_empty: "տարր տարր վերնագիր",
+        set_empty: "Սահմանել դատարկ վերնագիր",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "խմբագրել տարր տարր",
-    add_title: "ավելացնել տարր տարր",
+    edit_title: "Խմբագրել հատկությունների հավաքածուն",
+    add_title: "Ավելացնել հատկությունների հավաքածու",
     config: {
       subtitle:
         "Սահմանեք վերնագիր և նկարագրություն ձեր գույքի հավաքածուի համար: Այն տեսանելի կլինի միայն անձնակազմի համար:",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Մուտքագրեք սեփականության հավաքածուի անվանումը...",
       },
       description: {
-        placeholder: "տարր տարր տարր նկարագրություն... (տարր)",
+        placeholder: "Մուտքագրեք կարճ նկարագրություն... (ըստ ցանկության)",
       },
       custom_variants: {
         true_title: "տարր տարր",
         false_title: "տարր տարր",
-        true_description: "տարր տարր ապրանք տարր.",
-        false_description: "տարր տարր տարր տարր.",
+        true_description: "Անհատականացրեք ձեր արտադրանքի տարբերակները:",
+        false_description: "Օգտագործեք լռելյայն գլոբալ տարբերակներ:",
       },
     },
   },
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "տարր արժեք տարր... (տարր)",
+        placeholder: "Սահմանել արժեքները սահմանված են... (ըստ ցանկության)",
         messages:
           "Դուք կարող եք առաջարկներ ներկայացնել արժեքների համար և հարմարեցնել պատվերը:",
       },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Տարբերակ 3. Ակնթարթային առաքում:",
 
     verify_delivery_input: {
-      true_title: "տարր տարր տարր",
+      true_title: "Հաստատեք առաքման ավարտը",
       true_description:
         "Ես հաստատում եմ, որ պատվերը հանձնվել է հաճախորդին:",
     },
@@ -8004,12 +8004,12 @@ export default {
     title: "տարր վահանակ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    no_bank_info: "տարր տարր տարր!",
+    no_bank_info: "Բանկային տեղեկատվություն չկա:",
     actions: {
-      edit_my_bank_info: "խմբագրել տարր տարր տարր",
+      edit_my_bank_info: "Խմբագրել Իմ բանկի տվյալները",
     },
     bank_dialog: {
-      title: "տարր տարր մանրամասներ",
+      title: "Իմ բանկի տվյալները",
       info: {
         title: "Բանկ",
         subtitle:
@@ -8021,7 +8021,7 @@ export default {
           message: "Բանկի լրիվ անվանումը, որտեղ պահվում է հաշիվը.",
         },
         holder_name: {
-          label: "տարր տարր տարր",
+          label: "Հաշվի սեփականատիրոջ անունը",
           message:
             "Հաշիվը պահող անձի կամ կազմակերպության լրիվ անվանումը:",
         },
@@ -8041,7 +8041,7 @@ export default {
             "Միջազգային ծածկագիր, որն օգտագործվում է գլոբալ բանկերի նույնականացման համար, հատկապես միջազգային փոխանցումների համար:",
         },
         iban: {
-          label: "IBAN (տարր տարր տարր տարր)",
+          label: "IBAN (միջազգային բանկային հաշվի համար)",
           message:
             "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
         },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Դրամայնացնել",
-    subtitle: "տարր տարր տարր բիզնես տարր.",
+    subtitle: "Բիզնես հնարավորությունների հասանելիության տարածում:",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8531,10 +8531,10 @@ export default {
         "Անհատականացված SMS հաղորդագրություններն աշխատում են միայն այն դեպքում, եթե դուք հատուկ մատակարար եք սահմանել:",
       add_new: "ավելացնել տարր",
       disable_reason: {
-        set_provider: "տարր տարր տարր տարր!",
-        provider_is_disabled: "տարր տարր տարր!",
-        otp: "տարր - տարր տարր!",
-        select_another_provider: "ընտրել տարր տարր.",
+        set_provider: "Նախադրեք ձեր մատակարարին:",
+        provider_is_disabled: "Մատակարարն անջատված է:",
+        otp: "OTP - Ոչ կարգավորելի:",
+        select_another_provider: "Ընտրեք մեկ այլ մատակարար:",
       },
       enable_only_filter: "ցույց տալ տարր տարր",
 
@@ -8547,7 +8547,7 @@ export default {
 
       menu: {
         reset_error: "տարր սխալ",
-        send_test: "տարր տարր հաղորդագրություն",
+        send_test: "Ուղարկեք թեստային հաղորդագրություն",
       },
     },
     template_edit: {
@@ -8566,10 +8566,10 @@ export default {
         subtitle:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
         message: "Հաղորդագրություն",
-        reset_to_default: "տարր տարր տարր",
+        reset_to_default: "Վերականգնել լռելյայն",
 
         auto_fill: {
-          title: "ավտոմատ տարր տարր",
+          title: "Ավտոմատ լրացման պարամետրեր",
           subtitle:
             "Selldone — Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
         },
@@ -8582,10 +8582,10 @@ export default {
         title: "տարր տարր",
         subtitle:
           "<code>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {code}</code><code></code><code></code>",
-        add_new_parameter: "ավելացնել տարր տարր",
+        add_new_parameter: "Ավելացնել նոր պարամետր",
 
         auto_fill: {
-          title: "ավտոմատ տարր տարր",
+          title: "Ավտոմատ լրացման պարամետրեր",
           subtitle:
             "Selldone — Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
         },
@@ -8593,7 +8593,7 @@ export default {
           title: "տարր տարր",
         },
         sample: {
-          title: "տարր տարր հաղորդագրություն",
+          title: "Կաղապարի հաղորդագրության օրինակ",
           subtitle: "Դուք կարող եք պատճենել և տեղադրել այս ձևանմուշը ձեր SMS մատակարարին:",
         },
         add_message_action: "ավելացնել հաղորդագրություն տարր",
@@ -8614,7 +8614,7 @@ export default {
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
-    title: "տարր SMS տարր",
+    title: "Պատվերով SMS մատակարար",
     reset_error: "տարր սխալ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
@@ -8648,13 +8648,13 @@ export default {
   },
   sms_messages_options: {
     all: {
-      title: "տարր + պատվեր տարր",
+      title: "OPT + Պատվերի ծանուցումներ",
       description:
         "Նույնականացման հաղորդագրությունները և պատվերի ծանուցումը կուղարկվեն:",
     },
     otp: {
       title: "տարր տարր",
-      description: "տարր հաղորդագրություն տարր տարր տարր.",
+      description: "Նույնականացման հաղորդագրություններ կուղարկվեն:",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "տարր տարր տարր",
+    title: "Պատվերով փոստային սերվեր",
     subtitle:
       "Միացրեք ձեր փոստային ծառայության մատակարարին՝ ձեր հատուկ տիրույթի միջոցով էլփոստ ուղարկելու համար:",
     provider: "տարր",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "տարր տարր տարր տարր",
+      send_test_email: "Ուղարկեք փորձնական էլ",
     },
 
     messages: {
@@ -8735,7 +8735,7 @@ export default {
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
-    title: "Instagram տարր տարր",
+    title: "Instagram վաճառքի ալիք",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
   },
@@ -8954,7 +8954,7 @@ export default {
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     only_registered_shopping_msg:
       "Միայն գրանցված օգտվողները կարող են ներբեռնել նմուշային ֆայլեր:",
-    file_count_limit: "տարր տարր սահմանափակում",
+    file_count_limit: "Ֆայլերի քանակի սահմանափակում",
   },
 
   /**
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "տարր տարր",
     import: {
       title: "տարր պրոֆիլ",
-      subtitle: "ընտրել տարր տարր տարր պրոֆիլ.",
+      subtitle: "Ընտրեք պահպանված վայրերի պրոֆիլը:",
     },
     export: {
       title: "պահպանել պրոֆիլ",
-      subtitle: "խանութ տարր տարր տարր տարր.",
+      subtitle: "Պահպանման վայրերը հետագա օգտագործման համար:",
     },
     has_restriction_input: {
-      title: "տարր տարր տարր",
+      title: "Ունի տեղորոշման սահմանափակում",
       description:
         "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
     },
-    zip_pin_code: "տարր / տարր տարր",
+    zip_pin_code: "Փոստային / փին կոդեր",
     no_country_selected_error:
       "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
     tips: "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։</b><b></b><b></b>",
@@ -9002,7 +9002,7 @@ export default {
       },
     },
     load_profile_dialog: {
-      title: "տարր տարր պրոֆիլ",
+      title: "Բեռնել վայրերի պրոֆիլը",
       message:
         "Դուք կարող եք բեռնել տեղադրությունները՝ այստեղ ընտրելով նախկինում պահված տեղադրությունը:",
 
@@ -9028,11 +9028,11 @@ export default {
   selldone_applications: {
     title: "Բաց մի թողեք ձեր պատվերները!",
     msg: "Կառավարեք ձեր բիզնեսը ցանկացած վայրում և ցանկացած ժամանակ:",
-    scan_qr_code: "տարր տարր տարր տարր հեռախոս!",
+    scan_qr_code: "Սկանավորեք ինձ ձեր հեռախոսով:",
 
     notification: {
       title: "Ծանուցում",
-      subtitle: "տարր տարր պատվերներ տարր.",
+      subtitle: "Ստացեք նոր պատվերների ծանուցում:",
     },
     order: {
       title: "Պատվերներ",
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "Ապրանքներ",
-      subtitle: "տարր տարր տարր ապրանք տարր.",
+      subtitle: "Գույքագրման կառավարում և արտադրանքի պարզ:",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "ավելացնել տարր խանութ",
-    i_have_a_deal: "տարր տարր տարր տարր",
+    i_have_a_deal: "Ես գործարք ունեմ",
     access: {
       title: "տարր տարր",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "տարր տարր տարր",
+    title: "Բովանդակության թողարկման ժամանակացույց",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
   },
@@ -9493,14 +9493,14 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "տարր տարր տարր",
+    title: "Ուղարկել ուղղակի հարցում",
     message:
       "Selldone — Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    expand_action: "տարր տարր տարր...",
+    expand_action: "Գրեք հարցումը...",
     input_label: "տարր տարր",
     to: {
-      ceo: "տարր տարր տարր",
-      team: "տարր տարր տարր",
+      ceo: "Ուղարկել գլխավոր տնօրենին",
+      team: "Ուղարկել թիմին",
     },
     placeholder: {
       ceo: "Մուտքագրեք արժեքը...",
@@ -9525,7 +9525,7 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "տարր տարր ապրանքներ",
+    title: "Ներմուծվող ապրանքների վերամշակում",
     message:
       "Մենք ապրանքների և պատկերների ներմուծման գործընթացում ենք, որոնց ավարտը կարող է որոշ ժամանակ պահանջել:",
   },
@@ -9544,17 +9544,17 @@ export default {
   shop_connect: {
     test: {
       title: "խանութ",
-      subtitle: "տարր տարր հաշվետվություն",
+      subtitle: "Արտաքին ծառայության հաշվետվություն",
       action: "տարր տարր",
-      last_update: "տարր տարր տարր",
+      last_update: "Վերջին անգամ թարմացվել է",
     },
     service_status: {
       title: "տարր կարգավիճակ",
-      syncing_message: "տարր տարր տարր...",
+      syncing_message: "Համաժամացման գործընթացում...",
       action: "տարր տարր",
       connect_status: "Connect կարգավիճակ",
       service_status: "տարր կարգավիճակ",
-      auto_confirm_enable_msg: "տարր տարր պատվերներ տարր տարր.",
+      auto_confirm_enable_msg: "Պատվերների ավտոմատ հաստատումը միացված է:",
       auto_confirm_disable_msg:
         "Պատվերների ավտոմատ հաստատումը միացված չէ:",
       shipping_enable_msg:
@@ -9565,13 +9565,13 @@ export default {
       auto_confirm_order: "ավտոմատ տարր պատվերներ",
       test_mode: "տարր տարր",
       status: {
-        subtitle: "տարր տեղեկություն տարր տարր կարգավիճակ.",
+        subtitle: "Համաժամացման կարգավիճակի մասին ընդհանուր տեղեկատվություն:",
       },
       sync: {
         title: "տարր տարր",
         subtitle:
           "Ներքին համաժամացման մանրամասները: Այս տեղեկատվությունը պահվում է համաժամացման գործընթացի դարաշրջանի հաջող ավարտից հետո:",
-        no_data: "տարր տարր տեղեկություն!",
+        no_data: "Համաժամացման տեղեկատվություն չկա:",
       },
     },
 
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "<b>Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {name}</b><b></b>",
       action: "տարր ապրանքներ",
-      syncing_message: "տարր տարր տարր...",
+      syncing_message: "Համաժամացման գործընթացում...",
     },
 
     logs: {
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "տարր տարր",
         false_desc: "տարր տարր հասանելի ապրանքներ, տարր, հաճախորդներ.",
-        true_title: "տարր (տարր տարր տարր)",
+        true_title: "Սահմանափակ (Խորհուրդ է տրվում սկսնակների համար)",
         true_desc:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       },
       overwrite: {
-        false_title: "տարր տարր տարր տարր տարր",
+        false_title: "Մի փոխիր, եթե գոյություն ունի",
         false_desc: "Պահպանեք առկա ապրանքի և կատեգորիայի մանրամասները այնպես, ինչպես կան:",
         true_title: "տարր",
         true_desc:
@@ -9613,7 +9613,7 @@ export default {
       },
       migration_tips: "<b>Խորհուրդ․ </b>Եթե ցանկանում եք փորձարկել գործառույթը, ընտրեք <b>Սահմանափակ</b> տարբերակը։ «Համաժամացնել բոլորը» ընտրելու դեպքում մենք ստանում ենք բոլոր տվյալները " +
       "ձեր միացված ծառայություններից և ներբեռնում ենք կապված պատկերները, ինչը կնվազեցնի անվճար պահեստը։ Շատ ապրանքներ, կատեգորիաներ և հաճախորդներ հեռացնելը կարող է դժվար լինել։",
-      add_action: "ավտոմատ տարր տարր",
+      add_action: "Ավտոմատ միացում",
       order: {
         title: "տարր կարգավիճակ",
         subtitle:
@@ -9625,7 +9625,7 @@ export default {
       },
       confirm: {
         label: "ավտոմատ տարր պատվերներ",
-        false_desc: "տարր տարր տարր պատվեր տարր.",
+        false_desc: "Դուք պետք է ձեռքով հաստատեք պատվերը:",
         true_desc:
           "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
         tips: "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
@@ -9655,13 +9655,13 @@ export default {
       title: "Connect OS",
       subtitle:
         "Միացրեք ձեր բիզնեսի օպերացիոն համակարգը արտաքին ծառայություններին և կառավարեք բոլոր ալիքները նույն տեղում:",
-      action: "Connect տարր տարր",
+      action: "Միացրեք նոր ծառայություններ",
       empty_message:
         "Մոռացեք հավելվածներն ու հավելվածները dropshipping-ի համար: Connect-ը միջպլատֆորմային պատվերի կառավարման ապագան է:",
       auto_confirm: "ավտոմատ տարր",
       shipping: "առաքում",
       syncing_now: "տարր տարր!",
-      sync_not_started: "տարր տարր տարր տարր տարր!",
+      sync_not_started: "Համաժամացումը դեռ չի սկսվել:",
     },
   },
 
@@ -9683,7 +9683,7 @@ export default {
     },
     Accounting: {
       title: "Հաշվապահություն",
-      desc: "տարր պատվերներ տարր տարր տեղեկություն.",
+      desc: "Ուղարկեք պատվերներ և ֆինանսական տեղեկատվություն:",
     },
     Other: {
       title: "տարր",
@@ -9696,7 +9696,7 @@ export default {
    */
   shop_landings: {
     title: "Վայրէջքի էջեր",
-    add_new_action: "ավելացնել տարր տարր",
+    add_new_action: "Ավելացնել նոր էջ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     empty_message: "Նախագծեք հատուկ էջեր՝ քաշելով և թողնելով...",
@@ -9769,7 +9769,7 @@ export default {
       },
       delete: {
         title: "ջնջել տարր",
-        subtitle: "հեռացնել տարր տարր.",
+        subtitle: "Հեռացրեք այս գրառումը։",
       },
     },
   },
@@ -9783,7 +9783,7 @@ export default {
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       tag_id: {
-        label: "Google տարր տարր տարր",
+        label: "Google Tag Manger ID",
       },
     },
     shopping: {
@@ -9797,12 +9797,12 @@ export default {
       title: "որոնում տարր",
       subtitle: "Ավելացրեք մետա թեգ ձեր գլխավոր էջում՝ Google Search Console-ի ստուգման համար:",
       code: {
-        label: "տարր տարր տարր",
+        label: "Ստուգման մետա պիտակ",
         placeholder: "Google-ից, օրինակ. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google տարր & տարր",
+      title: "Google SERP և հիմնաբառեր",
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     },
@@ -9826,19 +9826,19 @@ export default {
    * {@see BPageShopIncentivesCoupon}
    */
   cashback: {
-    add_new: "ավելացնել տարր տարր",
+    add_new: "Ավելացնել նոր Cashback",
     title: "տարր տարր",
     boosted: "տարր (2x)",
     min_purchase: "տարր տարր",
-    only_first_order: "տարր տարր պատվեր",
+    only_first_order: "Միայն առաջին պատվերը",
     total_cashback: "տարր տարր",
     delete_alert: {
-      title: "ջնջել տարր տարր",
+      title: "Ջնջել Cashback ծրագիրը",
       message: "Վստա՞հ եք ջնջելու այս cashback ծրագիրը:",
       action: "Այո, ջնջել հիմա",
     },
     notifications: {
-      delete_success: "տարր տարր տարր տարր.",
+      delete_success: "Cashback ծրագիրը հաջողությամբ ջնջվեց:",
     },
   },
   /**
@@ -9900,7 +9900,7 @@ export default {
     limit_input: {
       title: "Սահման",
       hint: "Մուտքագրեք cashback-ի առավելագույն գումարը:",
-      zero_message: "տարր 0 տարր տարր տարր.",
+      zero_message: "Մուտքագրեք 0 անսահմանափակ cashback-ի համար:",
     },
     duration: {
       title: "տարր սահմանափակում",
@@ -9908,11 +9908,11 @@ export default {
     },
     start_input: {
       title: "տարր տարր",
-      placeholder: "ընտրել տարր տարր...",
+      placeholder: "Ընտրեք մեկնարկի ամսաթիվը...",
     },
     end_input: {
       title: "տարր տարր",
-      placeholder: "ընտրել տարր տարր...",
+      placeholder: "Ընտրեք ավարտի ամսաթիվը...",
     },
     design: {
       subtitle:
@@ -9935,7 +9935,7 @@ export default {
       false_desc: "Cashback ծրագիրը հասանելի կլինի բոլոր պատվերների համար։",
       true_desc:
         "Cashback ծրագիրը հասանելի կլինի հենց առաջին պատվերի դեպքում:",
-      true_title: "տարր տարր պատվեր",
+      true_title: "Միայն առաջին պատվերը",
       false_title: "տարր պատվերներ",
     },
     qualify_input: {
@@ -9953,8 +9953,8 @@ export default {
         "Կլաստերը կապելով cashback ծրագրի հետ՝ կարող եք ավելի արդյունավետ կառավարել այն:",
     },
     notifications: {
-      add: "տարր տարր տարր տարր.",
-      edit: "տարր տարր տարր տարր.",
+      add: "Cashback ծրագիրը հաջողությամբ ավելացվեց:",
+      edit: "Cashback ծրագիրը հաջողությամբ թարմացվել է:",
     },
     enable_input: {
       true_msg: "Cashback ծրագիրը ակտիվ է, և հաճախորդները կարող են օգտվել դրանից:",
@@ -9978,10 +9978,10 @@ export default {
     actions: {
       refund: {
         title: "վերադարձ վճարում",
-        subtitle: "տարր տարր տարր վերադարձ տարր.",
+        subtitle: "Աջակցվում է մասնակի կամ ամբողջական փոխհատուցում:",
       },
       delivery: {
-        title: "տարր տարր տարր",
+        title: "Հաստատեք առաքման ժամանակ",
         subtitle: "Դուք կարող եք ձեռքով հաստատել վճարման մատակարարի առաքումը:",
       },
     },
@@ -9995,7 +9995,7 @@ export default {
     message:
       "Անվտանգության նկատառումներից ելնելով, միայն վերջին 7 օրվա ընթացքում վճարված պատվերները կարող են վերադարձվել:",
     payment_amount: "Վճարի չափը",
-    total_refund_amount: "տարր տարր գումար",
+    total_refund_amount: "Ընդհանուր վերադարձված գումարը",
     can_refund: "տարր վերադարձ",
     refund_amount: "վերադարձ գումար",
     verify: {
@@ -10010,7 +10010,7 @@ export default {
    * @see BOrderPaymentActionsDeliveryDialog
    */
   payment_delivery_dialog: {
-    title: "հաճախորդ տարր տարր",
+    title: "Հաճախորդների առաքման հաստատում",
     message:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     verify: {
@@ -10031,7 +10031,7 @@ export default {
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     dialog: {
       edit_title: "խմբագրել տարր տարր ապրանք",
-      add_title: "ավելացնել տարր տարր տարր ապրանքներ",
+      add_title: "Ավելացրեք խաչաձև վաճառքի նոր ապրանքներ",
       target: {
         title: "տարր ապրանք",
         subtitle:
@@ -10073,7 +10073,7 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "ավելացնել տարր տարր տարր",
+    title: "Ավելացրեք տարբերակներ զանգվածաբար",
     variants: {
       title: "տարր տարր",
       subtitle:
@@ -10131,8 +10131,8 @@ export default {
      */
     health: {
       title: "ապրանք տարր",
-      available_in_stock_msg: "ապրանք տարր հասանելի տարր տարր.",
-      out_of_stock_msg: "ապրանք տարր տարր տարր տարր.",
+      available_in_stock_msg: "Ապրանքը առկա է պահեստում։",
+      out_of_stock_msg: "Ապրանքը սպառված է:",
       file_count_msg:
         "Այս ապրանքի համար վերբեռնված {files_count} ֆայլեր ընդհանուր {files_size}-ով:",
       no_file_uploaded_msg: "Դեռևս ոչ մի ֆայլ չի վերբեռնվել:",
@@ -10166,7 +10166,7 @@ export default {
       title: "Գնագոյացում",
       no_product_price_msg: "Արտադրանքի կանխադրված գինը դեռ սահմանված չէ:",
       listing_pricing_msg: "տարր տարր:",
-      has_valuation_msg: "ապրանք տարր տարր.",
+      has_valuation_msg: "Ապրանքը գնահատվում է.",
       subscription_pricing_msg:
         "Այս ապրանքն ունի {count} բաժանորդագրության գնային պլաններ:",
       has_no_subscription_pricing_msg:
@@ -10176,7 +10176,7 @@ export default {
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "տարր բաժանորդագրություն տարր տարր",
+      title: "Բացակայում են բաժանորդագրության գնային պլանները",
       subtitle:
         "Շարունակելուց առաջ ստուգեք տվյալները։",
       pricing_plans: "տարր տարր",
@@ -10186,7 +10186,7 @@ export default {
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "տարր տարր տարր ● {status}",
+      title: "Վաճառքի վայրի սահմանափակում ● {status}",
       status: {
         has_restriction: "հասանելի տարր {count} տարր",
         no_restriction: "տարր տարր",
@@ -10225,10 +10225,10 @@ export default {
         subscription_tax_msg:
           "Մենք կարող ենք հարկ կիրառել միայն վճարման ստեղծման քայլի վրա։",
         dedicated: "Հատուկ",
-        is_disabled: "տարր հարկ պրոֆիլ տարր տարր!",
-        tax_is_based_on_location: "հարկ: տարր տարր",
-        shipping_tax_is_based_on_location: "առաքում: տարր տարր",
-        included_in_price: "տարր տարր գին.",
+        is_disabled: "Այս հարկային պրոֆիլն անջատված է:",
+        tax_is_based_on_location: "Հարկ՝ գտնվելու վայրի վրա հիմնված",
+        shipping_tax_is_based_on_location: "Առաքում: Տեղադրության վրա հիմնված",
+        included_in_price: "Ներառված է գնի մեջ։",
       },
     },
 
@@ -10236,7 +10236,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "տարր ապրանք տարր տարր <b>{vendor}</b>.",
+      vendor_owner_msg: "Այս ապրանքը պատկանում է <b>{vendor}</b>-ին:",
       has_vendors_msg: "Այս ապրանքի համար կան {count} վաճառողներ:",
       no_vendor_msg:
         "Դուք վաճառող չեք նշանակել այս ապրանքի համար, ուստի հաճախորդները չեն կարող այն գնել:",
@@ -10248,11 +10248,11 @@ export default {
    * @see BPageProductTemplate
    */
   product_template: {
-    title: "ապրանք տարր տարր",
+    title: "Ապրանքի էջի ձևանմուշ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     edit_page: "խմբագրել տարր",
-    list_of_pages: "տարր տարր տարր",
+    list_of_pages: "Էջերի ցանկ",
   },
   /**
    * @see BPageProductEmbed
@@ -10280,10 +10280,10 @@ export default {
     title_edit: "խմբագրել տարր",
 
     staff: {
-      title: "ավելացնել տարր & տարր",
+      title: "Ավելացնել աշխատակազմ և մուտք",
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      go_to_roles: "տարր տարր տարր",
+      go_to_roles: "Գնացեք դերեր",
     },
     access: {
       customization_tips:
@@ -10303,7 +10303,7 @@ export default {
       },
       level: {
         label: "տարր տարր",
-        placeholder: "ընտրել տարր տարր...",
+        placeholder: "Ընտրեք մակարդակ...",
       },
     },
 
@@ -10317,7 +10317,7 @@ export default {
       },
       update_success: {
         title: "տարր տարր",
-        message: "տարր տարր տարր տարր տարր.",
+        message: "Թույլտվությունները հաջողությամբ թարմացվել են:",
       },
     },
   },
@@ -10326,7 +10326,7 @@ export default {
    * @see BCategoryEngineEditor
    */
   category_engine_editor: {
-    title: "տարր ապրանքներ տարր",
+    title: "Լրացուցիչ ապրանքների ցանկ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     aut_add_sub_categories_tips:
@@ -10374,8 +10374,8 @@ export default {
     title: "տարր",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    add_caption: "ավելացնել տարր տարր",
-    add_sub_caption: "ավելացնել տարր տարր տարր.",
+    add_caption: "Ավելացնել նոր տարր",
+    add_sub_caption: "Ավելացնել հատուկ բանալի-արժեք զույգ:",
     add_dialog: {
       title: "ընտրել տարր տեսակ",
       html: {
@@ -10384,11 +10384,11 @@ export default {
       },
       image: {
         title: "Պատկեր",
-        subtitle: "տարր տարր վերբեռնել տարր տարր.",
+        subtitle: "Դուք կարող եք վերբեռնել պատկեր:",
       },
     },
     help_dialog: {
-      title: "տարր տարր տարր տարր տարր",
+      title: "Ինչպես օգտագործել դինամիկ բովանդակություն",
       how_it_works_tips:
         "Վայրէջքի էջերում դուք ճկունություն ունեք՝ նշանակելու դինամիկ տեղապահեր ինչպես տեքստի, այնպես էլ պատկերների համար: Այս տեղապահները զգալի դեր են խաղում բովանդակությունն ըստ համատեքստի հարմարեցնելու գործում:   Այս տեղապահների դինամիկ բնույթը թույլ է տալիս դրանք համալրել մեծացման արժեքներով, որոնք կարող են տարբեր լինել՝ ելնելով տարբեր գործոններից: Օրինակ, ավելացման արժեքները կարող են տարբեր լինել յուրաքանչյուր ապրանքի կամ կատեգորիայի համար: Այս հատկության իրական առավելությունն ի հայտ է գալիս, երբ դուք ունեք տարբեր հատկանիշներով տարատեսակ իրեր: Դուք կարող եք արդյունավետորեն օգտագործել այս դինամիկ տեղապահները՝ անհատականացնելու և ընդլայնելու յուրաքանչյուր տարրի ցուցադրումը, դրանով իսկ ստեղծելով եզակի և ինտերակտիվ փորձ ձեր վայրէջքի էջերում:",
       assign_tips:
@@ -10410,28 +10410,28 @@ export default {
       title: "Բազմալեզու",
       subtitle:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      add_caption: "ավելացնել տարր տարր",
-      no_more_language: "տարր տարր տարր!",
+      add_caption: "Ավելացնել նոր հոդված",
+      no_more_language: "Այլևս լեզու չկա:",
     },
     content: {
       title: "տարր",
       subtitle:
         "Դուք կարող եք հարմարեցնել լոգիստիկ պրոֆիլի բովանդակությունը մի քանի լեզուներով:",
 
-      language_input: "տարր տարր տարր",
+      language_input: "Ընթացիկ հոդվածի լեզուն",
       delete_article: "ջնջել տարր",
       menu_tooltip: "ավտոմատ տարր / ջնջել տարր",
     },
     translate_to: "տարր տարր",
     notifications: {
       translate: {
-        message: "տարր տարր տարր տարր.",
+        message: "Հոդվածի թարգմանությունը հաջողությամբ ավարտվեց:",
       },
       save_article: {
-        message: "տարր տարր տարր տարր տարր.",
+        message: "Հոդվածը հաջողությամբ պահպանվել է:",
       },
       delete_article: {
-        message: "տարր տարր տարր տարր տարր.",
+        message: "Հոդվածը հաջողությամբ ջնջվել է:",
       },
     },
     delete_dialog: {
@@ -10502,24 +10502,24 @@ export default {
    * @see BPageShopLogisticIncludes
    */
   shop_logistic_includes: {
-    title: "տարր տարր տարր",
-    add_caption: "ավելացնել տարր տարր",
+    title: "Ներառված իրերի կառավարում",
+    add_caption: "Ավելացնել նոր տարր",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    empty_list_msg: "տարր տարր տարր տարր...",
+    empty_list_msg: "Ներառված ապրանքների ցանկը...",
     notifications: {
       delete: {
-        message: "տարր տարր տարր տարր տարր.",
+        message: "Տարրը ջնջվել է:",
       },
     },
     delete_dialog: {
-      title: "ջնջել տարր տարր",
+      title: "Ջնջել ներառված տարրը",
       message:
         "Վստա՞հ եք, որ ցանկանում եք ջնջել այս տարրը։",
-      action: "տարր, ջնջել տարր",
+      action: "Այո, ջնջել հիմա",
     },
     actions: {
-      edit_linked_page: "խմբագրել տարր տարր",
+      edit_linked_page: "Խմբագրել կապված էջը",
     },
   },
 
@@ -10527,8 +10527,8 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "խմբագրել տարր տարր",
-    dialog_title_add: "ստեղծել տարր տարր տարր",
+    dialog_title_edit: "Խմբագրել ներառված տարրը",
+    dialog_title_add: "Ստեղծեք նոր ներառված տարր",
 
     title: "տարր տարր",
     subtitle:
@@ -10546,7 +10546,7 @@ export default {
         hint: "Ընտրեք կամ մուտքագրեք անհրաժեշտ տվյալները։",
       },
       image: {
-        message: "տարր տարր տարր: 1MB",
+        message: "Պատկերի առավելագույն չափը՝ 1 ՄԲ",
       },
       path: {
         label: "տարր տարր",
@@ -10604,7 +10604,7 @@ export default {
     no_wallet: "տարր դրամապանակ!",
 
     withdraw_dialog: {
-      title: "տարր տարր տարր",
+      title: "Հանձնել հանձնաժողովի վճարները",
 
       need_bank_info_message: "Խնդրում ենք նախ մուտքագրել ձեր բանկի տվյալները:",
 
@@ -10629,8 +10629,8 @@ export default {
         },
       },
       actions: {
-        withdraw_to_wallet: "տարր տարր դրամապանակ",
-        withdraw_to_bank: "տարր տարր տարր",
+        withdraw_to_wallet: "Գումարը դեպի դրամապանակ",
+        withdraw_to_bank: "Կանխիկացում բանկ",
       },
     },
     notifications: {
@@ -10647,12 +10647,12 @@ export default {
       message: "Դուք կարող եք ավելացնել <b>?ref={code}</b> ցանկացած վաճառված url:",
     },
     intro: {
-      title: "տարր տարր Selldone տարր տարր",
+      title: "Միացեք Seldone Affiliate ծրագրին",
       message:
         "Selldone — Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
       why_join_selldone_affiliate: "Ինչո՞ւ է սա բացառիկ հնարավորություն:",
       reasons: [
-        "տարր տարր տարր!",
+        "Այն տևում է հավերժ:",
         "Ծածկում է բոլոր բաժանորդագրության և գործարքների վճարները: Բառացիորեն օգտագործողի յուրաքանչյուր վճարում Selldone-ում:",
         "Մենք անվճար $99 վաուչեր ենք ուղարկում բոլորին, ովքեր գրանցվում են՝ օգտագործելով ձեր հղումը:",
         "Երբ ձեր մակարդակը բարելավվի, դուք կվաստակեք նոր դրույքաչափով նախկինում նշված բոլոր օգտվողներից:",
@@ -10664,7 +10664,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "տարր տարր տարր տարր.",
+    no_asset_uploaded: "Դեռևս ոչ մի օբյեկտ չի վերբեռնվել:",
   },
 
   /**
@@ -10672,7 +10672,7 @@ export default {
    */
   l_menu_top_home: {
     hot_keys: "տարր",
-    click_to_view_all: "տարր տարր տարր տարր...",
+    click_to_view_all: "Բոլորը դիտելու համար սեղմեք...",
     clone_tooltip: {
       title: "տարր տարր",
       subtitle:
@@ -10692,7 +10692,7 @@ export default {
         "Միացրեք այս հատկությունը՝ հեշտությամբ վերադասավորելու և կազմակերպելու բաժինները՝ դրանք քաշելով:",
     },
     edit_mode_tooltip: {
-      title: "խմբագրել / տարր տարր",
+      title: "Խմբագրել / Նախադիտման ռեժիմ",
       edit_mode_title: "խմբագրել տարր",
       edit_mode_msg: "Բոլոր խմբագրման գործիքները կցուցադրվեն:",
       view_mode_title: "տարր տարր",
@@ -10723,8 +10723,8 @@ export default {
         "Նվազեցնել ընտրված տեքստի տառաչափը | <small>Ինձ փոքրացրեք</small>",
       ctrl_2: "Մեծացնել ընտրված տեքստի տառաչափը | <big>Մեծ դարձրու ինձ</big>",
       ctrl_r: "Հեռացնել բոլոր ձևաչափերը ընտրված տեքստից | Մաքրել բոլոր ոճերը",
-      ctrl_s: "պահպանել տարր տարր",
-      tab: "տարր տարր տարր տարր",
+      ctrl_s: "Պահպանեք էջը",
+      tab: "Անցում սանդղակի ռեժիմների միջև",
       ctrl_e: "Ակտիվացրեք կամ անջատեք կլոնավորման ոճի ռեժիմը",
     },
   },
@@ -10736,7 +10736,7 @@ export default {
     title: "տարր & տարր",
     subtitle: "տարր տարր",
     add_dialog: {
-      title: "ավելացնել տարր տարր",
+      title: "Ավելացնել հատուկ բաժին",
       configuration: {
         title: "Կարգավորումներ",
         subtitle:
@@ -10754,7 +10754,7 @@ export default {
       inputs: {
         title: {
           label: "Կոչում",
-          message: "տարր տարր տարր տարր վերնագիր.",
+          message: "Սա հանրային վերնագիրն է։",
         },
         tags: {
           label: "Պիտակներ",
@@ -10781,11 +10781,11 @@ export default {
       REJECTED: "Վաճառողի հարցումը մերժվել է:",
       PENDING: "Հարցումը սպասում է վաճառողի որոշմանը:",
     },
-    number_of_products: "տարր տարր ապրանքներ",
+    number_of_products: "Ապրանքների քանակը",
     invited: "տարր",
     no_pricing: "տարր տարր",
     no_pricing_tooltip: {
-      title: "տարր տարր տարր",
+      title: "Կանխադրված գնային պլան",
       subtitle: "Խնդրում ենք սահմանել գնագոյացման լռելյայն մոդել վաճառողի համար:",
     },
     updated_products_tooltip: {
@@ -10800,19 +10800,19 @@ export default {
         "Վաճառողն ունի մուտք դեպի իրենց վահանակ: Դուք կարող եք սա խմբագրել Վաճառող > Մուտք ներդիրում:",
     },
     reject_by_user_tooltip: {
-      title: "տարր տարր օգտատեր",
+      title: "Մերժվել է Օգտատիրոջ կողմից",
       subtitle:
         "Օգտատերը մերժել է վաճառող դառնալու և այս վաճառողին մուտք գործելու հարցումը:",
     },
     download_all_vendors: "ներբեռնել տարր վաճառողներ",
-    bulk_import: "տարր տարր (տարր)",
+    bulk_import: "Զանգվածային ներմուծում (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "լիցենզիա տարր տարր!",
+    title: "Պահանջվում է լիցենզիայի թարմացում:",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
   },
@@ -10828,7 +10828,7 @@ export default {
     add_template_action: "ավելացնել հաղորդագրություն տարր",
 
     notifications: {
-      add_chat_success_message: "հաղորդագրություն տարր տարր տարր տարր.",
+      add_chat_success_message: "Հաղորդագրությունը հաջողությամբ ավելացվել է:",
     },
 
     send_update_email: {
@@ -10836,12 +10836,12 @@ export default {
       need_set_service_alert: {
         message:
           "Խնդրում ենք կարգավորել ձեր էլ.",
-        action: "տարր տարր կարգավորումներ",
+        action: "Գնացեք կարգավորումներ",
       },
       send_action: "տարր թարմացնել Email",
 
       notifications: {
-        send_success_message: "Email տարր տարր տարր տարր.",
+        send_success_message: "Նամակը հաջողությամբ ուղարկվել է:",
       },
     },
     add_template: {
@@ -10854,17 +10854,17 @@ export default {
       add_action: "ավելացնել տարր",
 
       notifications: {
-        save_success_message: "տարր տարր տարր տարր տարր.",
+        save_success_message: "Կաղապարը հաջողությամբ պահպանվել է:",
       },
 
       inputs: {
         title: {
           label: "տարր վերնագիր",
-          placeholder: "տարր տարր տարր վերնագիր...",
+          placeholder: "Կարճ վերնագիր գրիր...",
         },
         body: {
           label: "տարր հաղորդագրություն",
-          placeholder: "տարր տարր հաղորդագրություն տարր...",
+          placeholder: "Գրեք ձեր հաղորդագրությունը այստեղ...",
           messages:
             "Դուք կարող եք դինամիկ արժեքներ սահմանել {order_id}-ով և {buyer_name}-ով:",
         },
@@ -10882,8 +10882,8 @@ export default {
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
     authentication: "տարր",
     guest: "տարր",
-    click_to_create: "տարր տարր ստեղծել...",
-    valid_for_30_days: "տարր տարր 30 տարր",
+    click_to_create: "Սեղմեք ստեղծելու համար...",
+    valid_for_30_days: "ուժի մեջ է 30 օր",
     notifications: {
       secure_link_created: "Անվտանգ հղումը հաջողությամբ ստեղծվել է:",
     },
@@ -10894,7 +10894,7 @@ export default {
    */
   shop_reviews: {
     title: "տարր տարր",
-    add_source_action: "ավելացնել տարր տարր",
+    add_source_action: "Ավելացնել վերանայման աղբյուր",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
   },
@@ -10903,7 +10903,7 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "ավելացնել տարր տարր տարր",
+    add_caption: "Ավելացնել նոր գույքային հավաքածու",
     title: "Հատկությունների հավաքածուներ",
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
@@ -10914,15 +10914,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "տարր տարր - տարր տարր",
+      title: "Property Set - Պատվերով տարբերակներ",
       subtitle:
         "Դուք կարող եք հարմարեցնել այս ապրանքի տարբերակների անվանումները՝ փոխարինելով լռելյայն անունները:",
     },
 
     subtitle:
       "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-    select_property_set: "ընտրել տարր տարր",
-    add_property_set: "ավելացնել տարր տարր",
+    select_property_set: "Ընտրեք Property Set",
+    add_property_set: "Ավելացնել հատկությունների հավաքածու",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10942,8 +10942,8 @@ export default {
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "ընտրել տարր տարր",
-    define_package: "տարր տարր տարր",
+    select_box: "Ընտրեք փաթեթ",
+    define_package: "Սահմանեք փաթեթ",
     define_package_hint: "Ստեղծեք կամ խմբագրեք ձեր նախապես սահմանված փաթեթի չափերը",
   },
 
@@ -10985,7 +10985,7 @@ export default {
       sub_title:
         "Ստեղծեք, խմբագրեք և կառավարեք ցանկի տարրերը: Վերահսկեք կարգավիճակը, գները, կոնտակտային տվյալները և լրատվամիջոցները:",
 
-      empty_title: "տարր տարր տարր",
+      empty_title: "Դեռևս ոչ մի նյութ",
       empty_subtitle:
         "Ստեղծեք ձեր առաջին ցուցակման տարրը՝ ձեր գրացուցակը կառուցելու համար:",
 
@@ -10998,12 +10998,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "հղում JSON",
-      opening_hours_json: "տարր տարր JSON",
+      opening_hours_json: "Բացման ժամերը JSON",
 
       delete_title: "ջնջել տարր",
       delete_message: "Իսկապե՞ս ուզում եք ջնջել այս տարրը:",
       delete_success: "Տարրը հաջողությամբ ջնջվեց:",
-      restore_success: "տարր տարր տարր.",
+      restore_success: "Տարրը հաջողությամբ վերականգնվեց:",
 
       opening_hours:"տարր տարր",
       form_fields:"ձև տարր",
@@ -11018,14 +11018,14 @@ export default {
       sub_title:
         "Կազմակերպեք ձեր գրացուցակը կատեգորիաներով և ենթակատեգորիաներով: Սա բարելավում է նավիգացիան և զտումը:",
 
-      empty_title: "տարր տարր տարր",
+      empty_title: "Կատեգորիաներ դեռ չկան",
       empty_subtitle:
         "Ստեղծեք կատեգորիաներ՝ ձեր ցուցակի կառուցվածքը և զննարկումը բարելավելու համար:",
 
       add_title: "Ավելացնել կատեգորիա",
       edit_title: "Խմբագրել կատեգորիան",
 
-      parent_filter: "զտիչ տարր տարր",
+      parent_filter: "Զտել ըստ ծնողի",
       parent: "Ծնողների կատեգորիա",
 
       price_format: "գին տարր",
@@ -11034,7 +11034,7 @@ export default {
 
       delete_title: "Ջնջել կատեգորիան",
       delete_message: "Իսկապե՞ս ուզում եք ջնջել այս կատեգորիան:",
-      delete_success: "կատեգորիա տարր տարր.",
+      delete_success: "Կատեգորիան հաջողությամբ ջնջվեց:",
       form_schema: "կատեգորիա ձև տարր",
     },
 
@@ -11044,11 +11044,11 @@ export default {
 
       moderation_title: "տարր",
       moderation_mode: "տարր տարր",
-      require_first_approved_before_more: "տարր տարր տարր տարր տարր",
+      require_first_approved_before_more: "Պահանջեք առաջին հաստատումը ավելին առաջ",
 
       limits_title: "Սահմանափակումներ",
-      max_pending_per_user: "տարր տարր տարր օգտատեր",
-      max_items_per_user: "տարր տարր տարր օգտատեր",
+      max_pending_per_user: "Յուրաքանչյուր օգտագործողի համար սպասվում է առավելագույնը",
+      max_items_per_user: "Առավելագույն ապրանքներ յուրաքանչյուր օգտագործողի համար",
       limits_hint: "սահմանափակում տարր",
 
       templates_title: "տարր",
@@ -11064,7 +11064,7 @@ export default {
       sub_title:
         "Վերանայեք ներկայացված տարրերը և որոշեք, թե ինչ կլինի հետո՝ հաստատել, հրապարակել, մերժել, արխիվացնել կամ վերակայել առկախ:",
 
-      empty_title: "տարր տարր տարր տարր",
+      empty_title: "Վերանայման ենթակա տարրեր չկան",
       empty_subtitle:
         "Երբ օգտատերերը նոր տարրեր են ներկայացնում, դրանք կհայտնվեն այստեղ՝ չափավորելու համար:",
 
@@ -11075,18 +11075,18 @@ export default {
       quick_actions: "տարր տարր",
 
       open_review: "տարր տարր",
-      reset_to_pending: "տարր տարր տարր",
+      reset_to_pending: "Վերականգնել առկախ",
       items_title: "Նյութեր",
 
     },
 
     moderation: {
-      approve_success: "տարր տարր տարր.",
-      publish_success: "տարր տարր տարր.",
-      unpublish_success: "տարր տարր տարր.",
-      archive_success: "տարր տարր տարր.",
-      reject_success: "տարր տարր տարր.",
-      penalty_success: "տարր տարր տարր.",
+      approve_success: "Տարրը հաջողությամբ հաստատվեց:",
+      publish_success: "Նյութը հաջողությամբ հրապարակվեց:",
+      unpublish_success: "Նյութը հաջողությամբ չհրապարակվեց:",
+      archive_success: "Տարրը հաջողությամբ արխիվացվեց:",
+      reject_success: "Տարրը հաջողությամբ մերժվեց:",
+      penalty_success: "Տուգանքը հաջողությամբ կիրառվեց.",
 
       reject_title: "տարր տարր",
       reject_reason: "տարր տարր",
@@ -11101,7 +11101,7 @@ export default {
       upload_images: "վերբեռնել տարր",
       url_type: "Տիպ",
       url: "URL",
-      is_main: "տարր տարր տարր"
+      is_main: "Սահմանել որպես հիմնական"
     },
 
 
@@ -11115,7 +11115,7 @@ export default {
       sub_title:
         "Ստեղծեք դիզայնի բազմաթիվ հավաքածուներ (քարտ + մանրամասների ձևանմուշներ) և դրանք վերագրեք կատեգորիաներին: Կատեգորիաները կարող են օգտագործել տարբեր ձևավորումներ:",
 
-      empty_title: "տարր տարր տարր",
+      empty_title: "Դիզայններ դեռ չկան",
       empty_subtitle:
         "Ավելացրեք ձեր առաջին դիզայնի հավաքածուն՝ սկսելու հարմարեցնել կատեգորիաների տեսքը:",
 
@@ -11126,9 +11126,9 @@ export default {
       details_template: "մանրամասներ տարր",
 
       notifications: {
-        add_success: "տարր տարր տարր.",
-        edit_success: "տարր տարր տարր.",
-        delete_success: "տարր տարր տարր.",
+        add_success: "Դիզայնը հաջողությամբ ստեղծվեց:",
+        edit_success: "Դիզայնը հաջողությամբ թարմացվեց:",
+        delete_success: "Դիզայնը հաջողությամբ ջնջվեց:",
       },
 
       delete_title: "ջնջել տարր",
@@ -11145,7 +11145,7 @@ export default {
       sub_title:
         "Ստեղծեք և կառավարեք խանութի ցուցափեղկերը: Նշանակներ կարող են նշանակվել ցուցակման տարրերին՝ հատուկ հատկանիշներ ընդգծելու համար:",
 
-      empty_title: "տարր տարր տարր",
+      empty_title: "Կրծքանշաններ դեռ չկան",
       empty_subtitle:
         "Ավելացրեք ձեր առաջին կրծքանշանը, որպեսզի սկսեք ընդգծել ցանկի տարրերը:",
 
@@ -11153,9 +11153,9 @@ export default {
       edit_title: "խմբագրել տարր",
 
       notifications: {
-        add_success: "տարր տարր տարր.",
-        edit_success: "տարր տարր տարր.",
-        delete_success: "տարր տարր տարր.",
+        add_success: "Նշանակը հաջողությամբ ստեղծվեց:",
+        edit_success: "Նշանակը հաջողությամբ թարմացվեց:",
+        delete_success: "Նշանակը հաջողությամբ ջնջվեց:",
       },
 
       delete_title: "ջնջել տարր",
@@ -11167,7 +11167,7 @@ export default {
       sub_title:
         "Ստեղծել և կառավարել ընկերություններ: Ցուցակման յուրաքանչյուր տարր ընտրովի կարող է կապված լինել մեկ ընկերության հետ:",
 
-      empty_title: "տարր տարր տարր",
+      empty_title: "Դեռևս ընկերություններ չկան",
       empty_subtitle:
         "Ավելացրեք ձեր առաջին ընկերությունը, որը կապում է այն ցուցակման կետերին:",
 
@@ -11175,9 +11175,9 @@ export default {
       edit_title: "Խմբագրել ընկերությունը",
 
       notifications: {
-        add_success: "ընկերություն տարր տարր.",
-        edit_success: "ընկերություն տարր տարր.",
-        delete_success: "ընկերություն տարր տարր.",
+        add_success: "Ընկերությունը հաջողությամբ ստեղծվեց:",
+        edit_success: "Ընկերությունը հաջողությամբ թարմացվեց:",
+        delete_success: "Ընկերությունը հաջողությամբ ջնջվեց:",
       },
 
       delete_title: "ջնջել ընկերություն",
@@ -11204,11 +11204,11 @@ export default {
       reply: "տարր",
       reply_hint: "Գրեք պատասխան օգտվողին: Կարող եք նաև նշել հաղորդագրությունը որպես գործողություններից կարդացված/սպամ:",
 
-      mark_read: "տարր տարր տարր",
-      mark_unread: "տարր տարր տարր",
+      mark_read: "Նշել որպես կարդացված",
+      mark_unread: "Նշել որպես չկարդացված",
       archive: "տարր",
       unarchive: "տարր",
-      mark_spam: "տարր տարր տարր",
+      mark_spam: "Նշել որպես սպամ",
       mark_not_spam: "տարր տարր",
 
       delete_confirm: "ջնջել տարր հաղորդագրություն?",
@@ -11227,14 +11227,14 @@ export default {
 
       vendor_access_text:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      vendor_access_button: "տարր տարր տարր վաճառողներ",
+      vendor_access_button: "Միացնել վաճառողների ցուցակը",
 
       more_options_text:
         "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      more_options_button: "տարր տարր տարր կարգավորումներ",
+      more_options_button: "Գնացեք ցանկի կարգավորումներ",
 
       updated: "տարր տարր.",
-      update_failed: "տարր տարր թարմացնել տարր.",
+      update_failed: "Չհաջողվեց թարմացնել ցուցակը:",
     },
 
 
@@ -11247,16 +11247,16 @@ export default {
       location_enabled_true: "Տեղադրության զտիչը միացված է: Հաճախորդները կարող են որոնել ըստ հեռավորության:",
       location_enabled_false: "Տեղադրության զտիչն անջատված է: Արդյունքները չեն զտվի ըստ հեռավորության:",
 
-      radius_default: "տարր տարր (տարր)",
+      radius_default: "Կանխադրված շառավիղը (կմ)",
       radius_default_hint: "Օգտագործվում է, երբ հաճախորդն ընտրում է տեղ, բայց չի ընտրում շառավիղը:",
-      radius_max: "տարր տարր (տարր)",
+      radius_max: "Առավելագույն շառավիղ (կմ)",
       radius_max_hint: "Խանութի ցուցափեղկի շառավիղը սեղմված կլինի այս արժեքով:",
-      radius_options: "տարր տարր (տարր)",
+      radius_options: "Շառավիղի ընտրանքներ (կմ)",
       radius_options_hint: "Այս արժեքները կարող են ցուցադրվել որպես արագ ընտրանքներ խանութի ցուցափեղկի միջերեսում:",
 
       filters_title: "որոնում զտիչ",
       filters_subtitle: "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։",
-      no_filters: "տարր զտիչ տարր տարր.",
+      no_filters: "Զտիչներ դեռ ավելացված չեն:",
       auto_generate: "տարր տարր",
 
       filter_field: "տարր տարր",
@@ -11266,7 +11266,7 @@ export default {
       filter_options_hint: "Ընտրված զտիչների համար ընտրանքները կարող են լինել ձեռքով կամ ստեղծվել:",
       multiple: "տարր",
       single: "տարր",
-      kv_mode: "տարր/արժեք տարր",
+      kv_mode: "Բանալին/արժեք ռեժիմ",
 
       requires_listing_active: "Ցուցակը ակտիվ չէ: Նախ միացրեք Ցուցակը՝ այն ցուցափեղկին օգտագործելու համար:",
 
@@ -11322,13 +11322,13 @@ export default {
      */
     shop_email: {
       name: [
-        "տարր տարր տարր տարր",
+        "Super Savings Weekend Blast",
         "Բացահայտվել են ինսայդերների բացառիկ գործարքներ",
         "Պրեմիում զեղչերի ձեր VIP հասանելիությունը",
         "Սեզոնային Վաճառք Extravaganza",
         "Բացեք ձեր գնումների դրախտը",
-        "տարր տարր տարր տարր",
-        "տարր տարր տարր տարր",
+        "The Grand Shopper's Carnival",
+        "Spring Fling Shopping Spree",
         "Աշնանային առաջարկներ, որոնց չես կարող դիմադրել",
         "Ձմեռային հրաշքներ. Ջերմ առաջարկներ ցուրտ օրերի համար",
         "Ամառվա վերջի մաքսազերծման հետհաշվարկ",
@@ -11771,8 +11771,8 @@ export default {
         "Կտտացրեք, գնումներ կատարեք, պահեք",
         "Բոնանսա գործարք",
         "տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Թվային զեղչերի օրեր",
         "Էլեկտրոնային առևտրի կառնավալ",
         "Առցանց Outlet Oasis",
@@ -11816,7 +11816,7 @@ export default {
       ],
       structure: {
         title: [
-          "տարր տարր տարր",
+          "T-shirt Print Design",
           "Ոսկերչական մետաղական տեսակ",
           "Կոշիկի նյութի ընտրություն",
           "Արվեստի շրջանակի չափը",
@@ -11846,24 +11846,24 @@ export default {
     lottery: {
       title: [
         "Պտտեք և շահեք մեծ մրցանակներ:",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Պտտեք՝ պարգևներ շահելու համար",
         "Հարստության անիվ",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր տարր",
+        "Lucky Lottery Extravaganza",
+        "Mega Spin Surprise",
+        "Prize Wheel Fiesta",
+        "Treasure Spin Spectacular",
+        "Spin the Wheel Magic",
         "Lucky Wheel առատ",
-        "տարր տարր",
+        "Fortune's Favor",
         "Հրաշքների անիվ",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
+        "Spin for Riches",
+        "Prize Spinner Delight",
         "Golden Spin վիճակախաղ",
-        "տարր",
+        "Spin-a-Prize",
         "Fortunes անիվ",
-        "տարր տարր տարր",
+        "Lucky Spin Showcase",
         "Spin-ի վերջնական պարգև",
       ],
       description: [
@@ -11895,25 +11895,25 @@ export default {
      */
     subscription_price: {
       title: [
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր բաժանորդագրություն",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր առաջարկ",
-        "տարր տարր",
+        "Հիմնական մուտք",
+        "Պրեմիում անդամակցություն",
+        "Ոսկե փաթեթ",
+        "Արծաթե պլան",
+        "Պլատինի բաժանորդագրություն",
+        "Ձեռնարկությունների մակարդակ",
+        "Մեկնարկային փաթեթ",
+        "Անսահմանափակ առաջարկ",
+        "Ընտանեկան փաթեթ",
         "Պրոֆեսիոնալ Սյուիտ",
       ],
       description: [
         "Իդեալական է այն անհատների համար, ովքեր ուսումնասիրում են հիմունքները:",
         "Մուտք գործեք բոլոր պրեմիում հատկանիշներին և բովանդակությանը:",
-        "տարր տարր տարր տարր տարր.",
+        "Բացառիկ առավելություններ և առաջնահերթ աջակցություն:",
         "Հավասարակշռված փաթեթ սովորական օգտագործողների համար:",
-        "տարր տարր տարր տարր տարր.",
-        "տարր տարր տարր տարր տարր.",
-        "տարր տարր տարր տարր.",
+        "Գերազանց հասանելիություն բարձրակարգ բոնուսներով:",
+        "Պատվերով լուծումներ խոշոր կազմակերպությունների համար:",
+        "Մատչելի մուտքի մակարդակի տարբերակ:",
         "Օգտագործման սահմանափակումներ չկան, հզոր օգտագործողի համար:",
         "Հատուկ պլան ընտանիքների համար՝ մինչև 4 անդամ:",
         "Նախատեսված է առաջադեմ գործիքներ փնտրող մասնագետների համար:",
@@ -11923,56 +11923,56 @@ export default {
     spec: {
       group: [
         "Տեխնիկական բնութագրեր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր տարր տարր",
-        "տարր տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "օգտատեր տարր տարր տարր",
-        "տարր տարր տարր",
+        "Ֆիզիկական չափսեր",
+        "Կատարման առանձնահատկությունները",
+        "Միացման ընտրանքներ",
+        "Էլեկտրաէներգիայի պահանջներ",
+        "Նյութի և շինարարության որակը",
+        "Գույնի և ավարտի ընտրանքներ",
+        "Պահպանում և հիշողություն",
+        "Օպերացիոն համակարգի համատեղելիություն",
+        "Անվտանգություն և համապատասխանություն",
+        "Փաթեթի բովանդակությունը",
+        "Երաշխիք և աջակցություն",
+        "Ապրանքանիշ և արտադրող",
+        "Բնապահպանական բարեկամականություն",
+        "Էներգաարդյունավետություն",
+        "Խնամք և սպասարկում",
+        "Անհատականացման ընտրանքներ",
+        "Ներառված Աքսեսուարներ",
+        "Օգտագործողների գնահատականներ և ակնարկներ",
+        "Գին և մատչելիություն",
       ],
     },
 
     avocado: {
       title: [
-        "տարր տարր",
-        "տարր տարր",
-        "պատվեր տարր",
-        "վճարում տարր",
-        "հաճախորդ տարր",
-        "գործարք տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "պատվեր տարր",
-        "տարր պատվեր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր",
-        "տարր տարր",
-        "ապրանք տարր",
-        "վճարում տարր",
+        "Գնման անդորրագիր",
+        "Վաճառքի հաստատում",
+        "Պատվերի հաշիվ-ապրանքագիր",
+        "Վճարման հաշիվ-ապրանքագիր",
+        "Հաճախորդի անդորրագիր",
+        "Գործարքի ամփոփում",
+        "Վճարման հայտարարություն",
+        "Վճարման անդորրագիր",
+        "Պատվերի ամփոփում",
+        "Գնման պատվերի հաշիվ-ապրանքագիր",
+        "Վաճառքի անդորրագիր",
+        "Մանրածախ ապրանքագիր",
+        "Էլեկտրոնային անդորրագիր",
+        "Ծառայության հաշիվ-ապրանքագիր",
+        "Ապրանքի հաշիվ-ապրանքագիր",
+        "Վճարման անդորրագիր",
         "Պատվերի հաստատում",
-        "տարր տարր",
-        "տարր տարր",
-        "հաճախորդ տարր",
+        "Վճարման հաշիվ-ապրանքագիր",
+        "Ստուգման հաշիվ-ապրանքագիր",
+        "Հաճախորդի հաշիվ-ապրանքագիր",
       ],
       message: [
-        "տարր տարր տարր տարր տարր!",
-        "տարր տարր տարր բիզնես.",
+        "Շնորհակալություն ձեր գնման համար:",
+        "Մենք գնահատում ենք ձեր բիզնեսը:",
         "Ձեր պատվերը ճանապարհին է:",
-        "տարր տարր տարր տարր տարր.",
+        "Շնորհակալություն մեզ հետ գնումներ կատարելու համար:",
         "Անհամբեր սպասում եմ ձեզ կրկին ծառայելու:",
         "Ձեր գոհունակությունը մեր առաջնահերթությունն է:",
         "Մի մոռացեք գնահատել ձեր փորձը:",
@@ -11980,14 +11980,14 @@ export default {
         "Հուսով ենք, որ դուք վայելեք ձեր նոր գնումը:",
         "Պահպանեք ձեր հաշիվ-ապրանքագիրը հետագա հղումների համար:",
         "Կրկին այցելեք մեզ ավելի լավ ապրանքների համար:",
-        "տարր տարր տարր տարր առաջարկ.",
+        "Մնացեք միացված բացառիկ առաջարկների համար:",
         "Շնորհակալություն թանկարժեք հաճախորդ լինելու համար:",
         "Մենք այստեղ ենք օգնելու, եթե օգնության կարիք ունեք:",
-        "տարր տարր տարր տարր տարր.",
+        "Ձեր կարծիքն օգնում է մեզ կատարելագործվել:",
         "Վայելեք հատուկ զեղչ ձեր հաջորդ գնումների համար:",
-        "տարր տարր տարր տարր տարր!",
+        "Դուք հիանալի ընտրություն եք կատարել:",
         "Շնորհակալություն մեզ վստահելու համար։",
-        "տարր տարր տարր տարր տարր.",
+        "Անհամբեր սպասում ենք ձեր արձագանքներին:",
         "Սրտանց շնորհակալություն մեր թիմից:",
       ],
     },
@@ -11997,25 +11997,25 @@ export default {
      */
     map_tag: {
       title: [
-        "տարր տարր",
-        "վաճառող տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "Նորեկները",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
+        "Գույքի ցուցափեղկ",
+        "Վաճառող Պլազա",
+        "Առաջարկվող տներ",
+        "Տեղական շուկա",
+        "Նոր ժամանումներ",
+        "Գույքի այգիներ",
+        "Առևտրի շրջան",
+        "Արհեստավորների ծառուղի",
+        "Luxury Estates",
+        "Վարձակալության հանգույց",
+        "Բաց տներ",
+        "Տեխնոլոգիական նորարարություններ",
+        "Fashion Lane",
+        "Արհեստների անկյուն",
+        "Սննդի դատարան",
+        "Գիրք անկյուն",
+        "Ոսկերչական հանգույց",
+        "Անտիկ պողոտա",
+        "Ֆիթնես գոտի",
       ],
     },
 
@@ -12024,26 +12024,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "բիզնես տարր տարր",
-        "հարկ տարր տարր (տարր)",
-        "վաճառող տարր ձև",
-        "ապրանք տարր",
-        "տարր տարր",
-        "տարր տարր մանրամասներ",
-        "տարր տարր հասցե",
-        "տարր տարր",
-        "ընկերություն պրոֆիլ",
-        "տարր տարր տարր",
-        "տարր տվյալներ տարր (տարր)",
-        "ապրանք տարր տեղեկություն",
+        "Բիզնեսի գրանցման վկայագիր",
+        "Հարկային նույնականացման համարը (TIN)",
+        "Վաճառողի պայմանագրի ձևը",
+        "Ապրանքի կատալոգ",
+        "Գնացուցակ",
+        "Բանկային հաշվի մանրամասները",
+        "Հասցեի ապացույց",
+        "Ապահովագրության վկայական",
+        "Ընկերության պրոֆիլը",
+        "Որակի ապահովման վկայական",
+        "Անվտանգության տվյալների թերթիկ (SDS)",
+        "Ապրանքի երաշխիքային տեղեկատվություն",
         "Վերադարձի քաղաքականություն",
-        "առաքում տարր տարր տարր",
-        "հաճախորդ տարր տարր",
-        "տարր տարր տարր տարր",
-        "տարր տարր հղում",
-        "տարր տարր",
-        "տարր տարր տարր տարր",
-        "տարր տարր (տարր)",
+        "Առաքման և բեռնաթափման ընթացակարգեր",
+        "Հաճախորդների սպասարկման քաղաքականություն",
+        "Շուկայավարման և առաջխաղացման պլաններ",
+        "Սոցիալական մեդիայի հղումներ",
+        "Առևտրի հղումներ",
+        "Մատակարարի վարքագծի կանոններ",
+        "Չբացահայտման պայմանագիր (NDA)",
       ],
     },
 
@@ -12052,26 +12052,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "շուկա տարր տարր տարր",
-        "խանութ տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր տարր",
-        "տարր տարր տարր տարր",
+        "Marketplace Setup Services պայմանագիր",
+        "Խանութի կազմաձևման պայմանագիր",
+        "Տպագիր՝ ըստ պահանջի ծառայությունների համաձայնագիր",
+        "Թվային մարքեթինգի ծառայության պայմանագիր",
+        "Էլեկտրոնային առևտրի հարթակի տեղադրման համաձայնագիր",
         "Փորձագետների խորհրդատվության պայմանագիր բիզնեսի սեփականատերերի համար",
-        "տարր տարր տարր շուկա տարր",
+        "Ծառայության պայմանագիր շուկայական կոնֆիգուրացիայի համար",
         "Խանութի տեղադրման և կազմաձևման ծառայությունների պայմանագիր",
-        "POD տարր տարր տարր",
-        "տարր տարր տարր տարր",
-        "բիզնես տարր տարր տարր",
-        "տարր խանութ տարր տարր",
-        "տարր տարր տարր տարր",
-        "բիզնես տարր տարր տարր տարր",
-        "տարր խանութ տարր տարր տարր",
-        "շուկա տարր տարր տարր",
-        "տարր տարր տարր տարր տարր",
-        "POD տարր տարր տարր",
-        "տարր տարր տարր տարր տարր",
-        "բիզնես տարր տարր տարր",
+        "POD ծառայության տրամադրման պայմանագիր",
+        "Մարքեթինգային ռազմավարության իրականացման համաձայնագիր",
+        "Բիզնեսի զարգացման ծառայության պայմանագիր",
+        "Էլեկտրոնային առևտրի խանութի տեղադրման համաձայնագիր",
+        "Փորձագիտական ​​ծառայությունների մատուցման պայմանագիր",
+        "Բիզնես լուծումներ և տեղադրման պայմանագիր",
+        "Պատվերով խանութի տեղադրման ծառայությունների համաձայնագիր",
+        "Շուկայի օպտիմալացման ծառայության պայմանագիր",
+        "Խորհրդատվության և տեղադրման ծառայությունների պայմանագիր",
+        "POD ինտեգրման ծառայությունների համաձայնագիր",
+        "Մարքեթինգի և առաջխաղացման ծառայությունների պայմանագիր",
+        "Բիզնեսի ընդլայնման ծառայության պայմանագիր",
       ],
     },
 
@@ -12080,16 +12080,16 @@ export default {
      */
     account: {
       account_name: [
-        "տարր դրամապանակ",
-        "բիզնես տարր",
-        "տարր դրամապանակ",
-        "տարր դրամապանակ",
-        "տարր տարր",
-        "տարր դրամապանակ",
-        "տարր տարր",
-        "տարր դրամապանակ",
-        "գործարք դրամապանակ",
-        "տարր տարր",
+        "Հիմնական դրամապանակ",
+        "Բիզնես հաշիվ",
+        "Անձնական դրամապանակ",
+        "Խնայողական դրամապանակ",
+        "Ծախսային հաշիվ",
+        "Հիմնական դրամապանակ",
+        "Ընդհանուր հաշիվ",
+        "Պահուստային դրամապանակ",
+        "Գործարքի դրամապանակ",
+        "Հիմնադրամի հաշիվ",
       ],
     },
 
@@ -12098,37 +12098,37 @@ export default {
      */
     cashback: {
       title: [
-        "խանութ & տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր առաջարկ",
-        "տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր տարր",
-        "տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր",
-        "խանութ տարր, պահպանել տարր",
-        "տարր տարր տարր",
-        "տարր տարր",
+        "Գնեք և ստացեք Cashback",
+        "Հավատարմության պարգևներ Cashback",
+        "Բացառիկ Cashback առաջարկներ",
+        "Cashback Bonanza",
+        "Ակնթարթային Cashback գործարքներ",
+        "Սեզոնային Cashback խնայողություններ",
+        "Կրկնակի Cashback Days",
+        "Կանխիկի վերադարձ յուրաքանչյուր գնումից",
+        "Cashback Frenzy",
+        "VIP Cashback ծրագիր",
+        "Սահմանափակ ժամանակով Cashback",
+        "Cashback Rewards Club",
+        "Գնեք ավելին, խնայեք ավելին",
+        "Վերջնական Cashback պարգևներ",
+        "Cashback Extravaganza",
       ],
       description: [
-        "տարր տարր տարր տարր տարր!",
-        "տարր տարր տարր տարր տարր.",
+        "Ստացեք cashback յուրաքանչյուր գնումից:",
+        "Պարգևատրվեք ձեր հավատարմության համար:",
         "Բացառիկ cashback առաջարկներ հենց ձեզ համար:",
         "Վայելեք մեծ խնայողություններ՝ կանխիկի վերադարձի պարգևներով:",
         "Ակնթարթային քեշբեք ձեր բոլոր սիրելի իրերի համար:",
         "Ավելի շատ խնայեք սեզոնային cashback գործարքներով:",
         "Կրկնապատկեք ձեր cashback-ը հատուկ օրերին:",
         "Ամեն անգամ գնումներ կատարելիս ստացեք cashback:",
-        "տարր տարր տարր տարր տարր!",
-        "տարր տարր տարր տարր տարր.",
-        "տարր! տարր տարր տարր առաջարկ.",
+        "Միացե՛ք cashback-ի մոլեգնությանը այսօր:",
+        "VIP անդամները վայելում են բացառիկ cashback:",
+        "Շտապե՛ք: Սահմանափակ ժամանակով cashback առաջարկներ:",
         "Միացե՛ք մեր Cashback Rewards Club-ին հիմա:",
         "Որքան շատ եք գնումներ կատարում, այնքան ավելի շատ եք խնայում:",
-        "տարր տարր տարր տարր տարր.",
+        "Բացեք կանխիկի վերադարձի վերջնական պարգևները:",
         "Փորձեք լավագույն cashback գործարքները շուրջը:",
       ],
     },
@@ -12158,16 +12158,16 @@ export default {
       message: [
         "Լրացրեք ձեր տեսքը, վերցրեք հավաքածուն:",
         "Խնայեք մեծ գումարներ մեր փաթեթային գործարքներով:",
-        "տարր տարր տարր տարր տարր!",
-        "տարր տարր տարր, տարր տարր!",
-        "տարր տարր տարր, տարր տարր!",
-        "տարր տարր, տարր զեղչ!",
+        "Բաց մի թողեք մեր կատարյալ զույգերը:",
+        "Ընդլայնեք ձեր գնումը, հավելումները սպասում են:",
+        "Բացեք բացառիկ խնայողությունները, գնեք միասին:",
+        "Լրացուցիչ ապրանքներ, հատուկ զեղչեր!",
         "Ստացեք ավելին, ծախսեք ավելի քիչ.",
         "տարր առաջարկ: տարր ապրանքներ!",
-        "տարր տարր տարր, տարր տարր!",
+        "Թարմացրեք ձեր փորձը, համակցված գործարքներ:",
         "Բացահայտեք մեր ընտրված համադրությունները, խնայեք հիմա:",
         "Զույգացրեք այն վերջնական համադրության համար:",
-        "խանութ տարր, տարր տարր պահպանել!",
+        "Խելացի գնումներ կատարեք, փաթեթավորեք և խնայեք:",
         "Կրկնապատկեք արժեքը, կրկնապատկեք զվարճանքը:",
         "Ձեր կատարյալ համընկնումն այստեղ է. գնումներ կատարեք հիմա:",
         "Բացառիկ փաթեթային գներ հենց ձեզ համար:",
@@ -12213,39 +12213,39 @@ export default {
     template_message: {
       title: [
         "Պատվերի հաստատում",
-        "պատվեր տարր",
-        "պատվեր տարր",
-        "վճարում տարր",
-        "պատվեր տարր",
-        "պատվեր տարր տարր",
-        "պատվեր տարր տարր",
-        "պատվեր տարր տարր տարր",
-        "տարր տարր",
-        "վերադարձ տարր",
-        "տարր տարր տարր տարր",
+        "Պատվերը առաքված է",
+        "Պատվերը առաքված է",
+        "Ստացված վճարում",
+        "Պատվերը չեղարկված է",
+        "Պատվերների մշակման ուշացում",
+        "Պատվիրել Սպասում",
+        "Պատվիրեք առաքման համար",
+        "Վերադարձը մշակված է",
+        "Տրված է գումարի վերադարձ",
+        "Ապրանքը կրկին պահեստում է",
       ],
       body: [
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Բարև {buyer_name}, ձեր #{order_id} պատվերը հաստատվել է: Մենք մշակում ենք այն և կտեղեկացնենք ձեզ, երբ այն պատրաստ լինի առաքման:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Լավ լուր, {buyer_name}: Ձեր #{order_id} պատվերն առաքվել է: Դուք կարող եք հետևել դրան ձեր հաշվի միջոցով: Շնորհակալություն մեզ հետ գնումներ կատարելու համար:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Բարև {buyer_name}, ձեր #{order_id} պատվերը հաջողությամբ առաքվել է: Հուսով ենք, որ դուք վայելեք ձեր գնումը: Շնորհակալություն",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Բարև {buyer_name}, մենք ստացել ենք #{order_id} պատվերի վճարումը: Ձեր պատվերն այժմ մշակվում է և շուտով կառաքվի:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Հարգելի {buyer_name}, ցավով տեղեկացնում ենք, որ Ձեր #{order_id} պատվերը չեղարկվել է։ Եթե ​​ունեք հարցեր, դիմեք աջակցության ծառայություն:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Հարգելի {buyer_name}, մենք ուշանում ենք ձեր #{order_id} պատվերի հարցում: Հայցում ենք ձեր ներողամտությունը պատճառած անհարմարության համար և աշխատում ենք այն հնարավորինս արագ լուծելու ուղղությամբ:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Ողջույն {buyer_name}, ձեր #{order_id} պատվերը ներկայումս պահվում է: Խնդրում ենք ստուգել ձեր հաշիվը կամ կապվել աջակցման ծառայության հետ լրացուցիչ մանրամասների համար:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Բարև {buyer_name}, ձեր #{order_id} պատվերը առաքվում է և շուտով կհասնի ձեզ: Շնորհակալություն ձեր համբերության համար:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Հարգելի {buyer_name}, մենք մշակել ենք ձեր #{order_id} պատվերի վերադարձը: Եթե ​​ունեք հարցեր, դիմեք աջակցության ծառայություն:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Ողջույն {buyer_name}, #{order_id} պատվերի համար ձեր գումարը վերադարձվել է: Շուտով դուք պետք է տեսնեք միջոցները ձեր հաշվում:",
 
-        "Այստեղ կարող եք կառավարել այս բաժնի տվյալներն ու կարգավորումները։ {buyer_name} {order_id}",
+        "Ողջույն {buyer_name}, ձեր #{order_id} պատվերի ապրանքը վերադարձավ պահեստում: Դուք կարող եք տեղադրել նոր պատվեր հիմա, եթե դեռ հետաքրքրված եք:",
       ],
     },
 
@@ -12254,28 +12254,28 @@ export default {
      */
     property_set: {
       title: [
-        "տարր",
-        "տարր տարր",
-        "տարր",
+        "Զգեստ",
+        "Թվային հարմարանքներ",
+        "Խմիչքներ",
         "Մթերքներ",
         "Կահույք",
-        "տարր",
-        "տարր ապրանքներ",
-        "տարր",
-        "տարր տարր",
-        "տարր",
+        "Գրքեր",
+        "Գեղեցկության արտադրանք",
+        "Խաղալիքներ",
+        "Սպորտային սարքավորումներ",
+        "Աքսեսուարներ",
       ],
       description: [
         "Հատկանիշներ հագուստի տարրերի համար, ինչպիսիք են չափը, գույնը և գործվածքը:",
         "Գաջեթների տեխնիկական բնութագրեր, ինչպիսիք են ապրանքանիշը, մոդելը և առանձնահատկությունները:",
         "Խմիչքների համը, չափերը և տեսակները:",
         "Սննդի, նախուտեստների և սննդամթերքի մանրամասները:",
-        "տարր, տարր, տարր տարր տարր.",
-        "տարր, տարր, տարր տարր տարր.",
+        "Նյութը, չափերը և դիզայնի ոճերը:",
+        "Հեղինակ, ժանր և հրատարակման տարեթիվ:",
         "Մաշկի տեսակը, բաղադրիչները և փաթեթավորման մանրամասները:",
         "Տարիքային խումբ, նյութական և անվտանգության չափանիշներ:",
-        "տեսակ, տարր, տարր տարր տարր.",
-        "տարր, տարր, տարր տարր մանրամասներ.",
+        "Տեսակը, չափը և կատարողականի առանձնահատկությունները:",
+        "Ոճեր, նյութեր և ապրանքանիշի մանրամասներ:",
       ],
     },
 
@@ -12284,24 +12284,24 @@ export default {
      */
     boxes: {
       name: [
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր",
-        "տարր տարր տարր",
-        "տարր տարր տարր", // flexible mailer
-        "տարր տարր", // bubble/padded
-        "տարր տարր", // thermal
-        "տարր տարր",
+        "Box XS",
+        "Արկղ Ս",
+        "Տուփ Մ",
+        "Տուփ L",
+        "տուփ XL",
+        "տուփ XXL",
+        "Box Slim",
+        "Տուփ լայն",
+        "Box Բարձրահասակ",
+        "Տուփ Բնակարան",
+        "Box Cube",
+        "Box Tube",
+        "Box Փխրուն",
+        "Box Ապակե Շշեր",
+        "Box Soft Pack", // flexible mailer
+        "Box padded", // bubble/padded
+        "Տուփը Մեկուսացված է", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

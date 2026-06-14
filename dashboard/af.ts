@@ -7907,7 +7907,7 @@ export default {
     info: "Inligting",
     actions: "Aksies",
     connected: "Gekoppel",
-    not_connected: "Nie gekonnekteer nie!",
+    not_connected: "Nie gekoppel nie!",
     connect_now: "Koppel nou",
     send_test: "Stuur toetsdata",
     disconnect: "Ontkoppel",
@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Eksterne skakel",
         description: "stel a skakel na an ekstern url.",
-        tips: "jy kan attakh anie URL na die item. wanneer gebruikers klik op die item op die produk bladsy, teie sal wees redirekted na tat skakel.",
+        tips: "Jy kan enige URL aan die item heg. Wanneer gebruikers op die item op die produkbladsy klik, sal hulle na daardie skakel herlei word.",
       },
       internal_link: {
         title: "internal skakel",

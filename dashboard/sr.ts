@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Напредне опције",
       menu_advanced_options_description:
-        "Connect Google лист, Уклони ставка Производи ставка Више. .",
+        "Повежите Гоогле лист, уклоните дуплиране производе и још много тога...",
 
       products_rss: {
         title: "RSS производа",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API производа",
-        subtitle: "Увези Производи ставка ставка API ставка",
+        subtitle: "Увоз производа путем јавно доступног АПИ позива.",
       },
       google_sheet: {
         action: "повезано лист",
@@ -630,12 +630,12 @@ export default {
         false_description:
           "Прегледајте производе организоване по категоријама и поткатегоријама.",
         true_title: "Режим табеле",
-        true_description: "Поглед Производи ставка ставка ",
+        true_description: "Погледајте производе у детаљном распореду табеле.",
       },
 
       show_notes: {
         false_title: "Сакриј ставка",
-        false_description: "Сакриј ставка ставка",
+        false_description: "Сакриј празне белешке.",
         true_title: "Прикажи ставка",
         true_description: "Прикажи све ставка, ⌘Ctrl+2",
       },
@@ -862,7 +862,7 @@ export default {
         no_enable_shipping_error:
           "Нико не може да купи од вас јер немате омогућен начин испоруке!",
         customer_must_select_a_shipping_msg:
-          "купац ставка Изабери ставка поштарина метод До ставка 🛍 Наручите",
+          "Купац мора изабрати начин испоруке да би наручио.",
         customer_can_order_without_shipping_method_msg:
           "Купац може да пошаље поруџбину чак и ако није подржан начин испоруке за изабрану локацију.",
         inputs: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "ставка Јединица",
-        subtitle: "ставка Јединица Користи се ставка ставка",
+        subtitle: "Јединица која се користи за растојање.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Логистика",
         profiles: "Профили",
         includes: "Укључује",
-        property_sets: "ставка ставка",
+        property_sets: "Проперти Сетс",
         boxes: "пакети",
       },
 
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Категорија",
-      category_input_msg: "ставка: ставка ставка Продавнице ставка",
+      category_input_msg: "Празно: У корену продавнице",
       product_name: "Назив производа*",
       product_name_placeholder: "Име вашег производа овде..",
       product_code: "Шифра производа (енглески)",
       sku: {
         label: "SKU",
-        message: "ставка ставка Јединица",
+        message: "Јединица за чување залиха",
       },
       mpn: {
         label: "MPN",
-        message: "ставка ставка ставка",
+        message: "Број дела произвођача",
       },
 
       external_link: "Екстерна веза",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Прво сачувајте производ, а затим можете доделити модел процене.",
         assign_valuation_message:
-          "ставка ставка До ставка Производ",
+          "Молимо да овом производу доделите модел процене.",
         edit_pricing_action: "Уредити Прицинг образац",
         add_pricing_action: "Креирај Нова Прицинг образац",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Обичај Купи ставка",
         message:
           "You can change icon by following this pattern : {icon name} caption...",
-        placeholder: "ставка ставка До ставка",
-        multi_language_dialog_title: "Обичај Купи ставка ставка",
+        placeholder: "Унесите позив на акцију...",
+        multi_language_dialog_title: "Прилагођени натпис дугмета за куповину",
       },
       external: {
         not_available_message:
           "Додатна акција доступна са лиценцама компаније и предузећа.",
         available_message: "Можете додати додатни спољни позив на акцију.",
-        input_label: "ставка ставка До ставка",
+        input_label: "Други позив на акцију",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Подржане вредности су УПЦ (Северна Америка, 12 цифара), ЕАН (Европа, 13 цифара), ЈАН (Јапан, 8 или 13 цифара), ИСБН (књиге, 13 цифара).",
-        label: "Производи ставка ставка предмет ставка",
-        placeholder: "ставка ставка (опционо)",
+        label: "Глобални број трговинске јединице производа",
+        placeholder: "Глобални трговачки број овде.. (Опционално)",
       },
       hsn: {
         hint: "ХСН, или Хармонизовани систем номенклатуре, је међународно стандардизован систем класификације за категоризацију робе и производа.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Производ ставка ставка ставка продавница",
-        message: "ставка ставка Производ",
+        label: "Стање производа у вашој продавници",
+        message: "Молимо изаберите стање овог производа.",
         subtitle:
           "Обавестите своје купце о стању и бренду производа који нудите.",
       },
@@ -1558,7 +1558,7 @@ export default {
           "Можете дефинисати гаранцију, политику враћања, испоруку и водич и доделити их овом производу. Биће приказано као нове картице на страници производа.",
       },
       shortcuts: {
-        title: "ставка Производ До ставка Категорије",
+        title: "Доделите производ додатним категоријама",
         subtitle:
           "Ова функција вам омогућава да наведете производ у више категорија уз задржавање његовог пласмана у примарној категорији постављеној под Производ > Уреди > Категорија. У суштини, функционише слично стварању 'пречица' у оперативним системима, омогућавајући производу да се појави у додатним одређеним категоријама.",
       },
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "ставка",
         subtitle:
-          "Додај Производ Спецификације ставка ставка ",
+          "Ручно додајте спецификације производа тако што ћете дефинисати групе и пар кључ/вредност.",
         add_group_action: "Додај групу",
         add_item_action: "Додај спецификација Валуе",
       },
@@ -1647,14 +1647,14 @@ export default {
         subtitle:
           "Можете увести техничке спецификације сличних производа.",
         action_title: "Увези",
-        action_subtitle: "ставка спецификација Од ставка Производ",
+        action_subtitle: "Клон спецификација из другог производа.",
       },
       ai: {
         title: "AI",
         subtitle:
           "Можете аутоматски креирати спецификације производа слањем необрађених података о производу у текстуалном облику.",
-        action_title: "аутоматски ставка ставка AI",
-        action_subtitle: "Креирај Производ Спецификације ставка ставка ставка",
+        action_title: "Ауто Генерате би АИ",
+        action_subtitle: "Креирајте спецификације производа апстрактним упитом.",
       },
 
       group_input_header: "Додај групу",
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Спецификације производа су сачуване.",
       },
       dialog_ai: {
-        title: "ставка ставка Производ Спецификације",
+        title: "Аутоматски генерише спецификације производа",
         prompt: {
           title: "Производ Преглед",
           subtitle:
@@ -1696,12 +1696,12 @@ export default {
         generated_spec: {
           title: "ставкаставка Спецификације",
           subtitle:
-            "ставка Спецификације ставка ставка ",
+            "Ове спецификације је генерисала вештачка интелигенција.",
         },
         inputs: {
           prompt: {
             label: "Производ Детаљи",
-            placeholder: "ставка ставка Производ ставка",
+            placeholder: "Опишите производ овде...",
           },
         },
         actions: {
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "позадина Опис",
-            placeholder: "ставка ставка ставка позадина",
+            placeholder: "Опишите жељену позадину...",
           },
         },
         actions: {
           reimagine: {
             title: "ставка Нова Слика",
-            subtitle: "Поново осмисли ставка ставка Слика ставка ставка Нова позадина",
+            subtitle: "Поново замислите целу слику са новом позадином.",
           },
           replace: {
-            subtitle: "ставка ставка ставка позадина",
+            subtitle: "Замените постојећу позадину.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "ставка Прицинг ставка ставка {min}",
+    title: "Extra Pricing for over {min}",
     subtitle:
       "Систем аутоматски одређује редослед и приоритет за обрачун цене. Унесите минималну количину потребну да ова цена ступи на снагу.",
     min_quantity: "Минимална количина",
@@ -1870,7 +1870,7 @@ export default {
         "Инвентар за дропсхиппинг производе постављају велетрговци и не може се мењати овде.",
       marketplace:
         "Укупна залиха производа на тржишту се утврђује збрајањем залиха свих добављача. Не можете га мењати овде.",
-      default: "ставка ставка Производи Инвентар Цоунт ставка",
+      default: "Овде наведите број залиха производа.",
     },
     menu: {
       add_bulk: {
@@ -1878,8 +1878,8 @@ export default {
         subtitle: "Додајте више варијанти у једној радњи.",
       },
       edit_property_set: {
-        title: "ставка ставка ставка",
-        subtitle: "Промена Варијанте ставка, ставка ставка Наређења",
+        title: "Прилагодите сет својстава",
+        subtitle: "Промените називе варијанти, иконе и наруџбине.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Производ Категорија Код",
     hint: "Представља категорију вашег производа према Гоогле-овој таксономији производа.",
-    placeholder: "ставка Производ ставка услуга Категорија (опционо)",
+    placeholder: "Унесите категорију производа или услуге.. (Опционално)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "ставка Управљање",
     subtitle:
-      "Креирај ставка, ставка, ставка ставка ",
+      "Креирајте персонализоване, интелигентне и интерактивне искачуће прозоре.",
     add_action: "Додај Нова Попуп",
   },
 
@@ -1942,7 +1942,7 @@ export default {
       dedicated: "ставка",
 
       subscription: "Порез можемо применити само на корак креирања плаћања.",
-      is_disabled: "ставка Порез профил ставка онемогућено! (⚠️ставка)",
+      is_disabled: "Овај порески профил је онемогућен! (⚠Упозорење)",
       shipping: "поштарина",
       fixed_rate: "TAX",
       location_based_rate: "Порез: Локација ставка",
@@ -1988,7 +1988,7 @@ export default {
       page: "страница Шаблон",
       shipping: "поштарина",
       access: "Приступ",
-      critical_zone: "ставка ставка",
+      critical_zone: "Критична зона",
     },
 
     profile: {
@@ -2014,7 +2014,7 @@ export default {
         "Подесите прилагођену одредишну страницу за добављача, пружајући им јединствену везу до њихове наменске странице.",
       action_set_page: "погледај Јавно страница",
       action_sub_caption: "Обичај Слетање страница",
-      vendor_has_landing_msg: "продавац ставка ставка Обичај Слетање страница",
+      vendor_has_landing_msg: "Продавац има прилагођену одредишну страницу.",
       no_landing_selected_msg: "не Слетање страница Изабери",
       no_landing_page: "не Слетање страница",
       we_can_create_dedicated_landing_msg:
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Контакт Инфо",
-      subtitle: "ставка ставка ставка Контакт Детаљи",
+      subtitle: "Молимо Вас да наведете важеће контакт податке.",
     },
     business: {
       title: "пословање Инфо",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "поштарина",
-      subtitle: "продавци ставка продавница ставка ставка поштарина Услуге ставка Курири",
+      subtitle: "Продавци могу да поставе сопствене услуге доставе и курире.",
       shipping_services: "поштарина Услуге",
       total_number_of_services:
         "Укупан број услуга отпреме које има продавац.",
@@ -2056,7 +2056,7 @@ export default {
       action: "Уклони продавац",
       verify_description:
         "Знам да ће сви односи са производима са добављачима бити уклоњени!",
-      verify_title: "ставка ставка До Избриши ставка продавац",
+      verify_title: "Желим да избришем овог продавца.",
     },
 
     send_invitation_tips:
@@ -2068,22 +2068,22 @@ export default {
       "Entered email does not match with user's email (<b>{user_name}:</b>{user_email}). Are you sure to send emails to<b>{email}</b>?",
 
     order_information_email_to_email:
-      "ставка ставка Пошаљи Наређења информације До <b>{email}</b>.",
+      "We will send orders information to <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Прво поставите корисника за продавца.",
 
     inputs: {
       slug: {
         label: "ставка",
-        placeholder: "ставка ставка Обичај ставка",
+        placeholder: "Унесите прилагођену путању...",
         hint: "Промените путању динамичке одредишне странице продавца.",
       },
       email: {
-        message: "ставка Емаил ставка Примите све Обавештења ставка Ажурирај",
+        message: "Ова е-порука ће примати сва обавештења и ажурирања.",
       },
       business: {
-        false_description: "ставка ставка ",
-        true_description: "ставка ставка пословање ставка",
+        false_description: "Радим као појединац.",
+        true_description: "Послујем као правно признати привредни субјект.",
         false_title: "ставка",
         true_title: "пословање",
       },
@@ -2096,8 +2096,8 @@ export default {
         placeholder: "ставка Име",
       },
       account_number: {
-        hint: "ставка продавци ставка Рачун ставка",
-        placeholder: "ставка банка Рачун ставка",
+        hint: "Јединствени број рачуна продавца.",
+        placeholder: "Број вашег банковног рачуна..",
       },
       routing_number: {
         hint: "Овај број варира у зависности од земље. Користи се за идентификацију специфичне филијале банке коју користи продавац.",
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Међународни број банковног рачуна): Ако је банка продавца у Европи или неким другим земљама.",
-        placeholder: "ставка IBAN ставка ставка DE89 3704 0044 0000 0000 00",
+        placeholder: "Ваш ИБАН број.. нпр. ДЕ89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Међународни број банковног рачуна): Ако је банка продавца у Европи или неким другим земљама.",
-        placeholder: "ставка ставка ставка",
+        placeholder: "Ваш Свифт код/БИЦ..",
       },
       branch_address: {
         hint: "Адреса филијале банке у којој продавац има свој рачун.",
@@ -2126,7 +2126,7 @@ export default {
         true_description:
           "Продавац има наменски панел за ажурирање количине и цене.",
         hint: "Можете да омогућите или онемогућите панел добављача, који омогућава продавцима да ажурирају количине и цене производа и примају делимичне поруџбине.",
-        false_description: "ставка продавац ставка не Приступ До ставка",
+        false_description: "Продавац нема приступ ничему.",
       },
 
       logo: {
@@ -2164,21 +2164,21 @@ export default {
   product_badges: {
     title: "значке",
     subtitle: "Додај ставка Уредити Обичај Производ значке",
-    only_marketplace_owner_msg: "ставка Маркетплаце ставка",
+    only_marketplace_owner_msg: "Само власници пијаце",
     create_new_badge_action: "Креирај Нова значка",
     select_a_badge: "Изабери ставка значка",
     inputs: {
       custom: {
-        false_description: "Производи значке ставка ставка ставка",
+        false_description: "Значке производа се креирају аутоматски.",
         false_title: "аутоматски",
         true_title: "Обичај Производи значке",
-        true_description: "Додај Обичај значке ставка ставка Производ страница",
+        true_description: "Додајте прилагођене значке на страницу производа.",
       },
     },
     add_custom_badge: {
       title: "Обичај значка",
       subtitle:
-        "Додај ставка Нова Обичај значка До ставка Схоп ставка значке Цоунт ставка 10. Више. . значке ставка ставка Схоп",
+        "Додај нову прилагођену значку у моју продавницу. Нека број значки буде мањи од 10. Више значки би успорило вашу радњу.",
       show_advanced_options: "Прикажи Напредно ставка",
 
       inputs: {
@@ -2188,7 +2188,7 @@ export default {
         image: {
           label: "Слика",
           message: "Макс Слика ставка: 128KB",
-          placeholder: "Изабери ставка ставка Слика",
+          placeholder: "Изаберите насловну слику",
         },
         pattern: {
           label: "ставка",
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "Значка је успешно додата!",
-        badge_updated: "ставка значка ставка ставка !",
+        badge_updated: "Значка је успешно ажурирана!",
         item_not_found_error:
           "Ставка није пронађена. Освежите страницу или контактирајте подршку.",
       },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "ставка Ознаке ставка ставка ",
+      tags_updated: "Ознаке су успешно ажуриране.",
     },
   },
 
@@ -2267,7 +2267,7 @@ export default {
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "ставка ставка",
+    header: "Мулти Лангуаге",
     auto_action: "аутоматски ставка",
     premium_user_only: "ставка Корисници",
   },
@@ -2370,7 +2370,7 @@ export default {
         title: "Оцена производа",
         title_small: "Извештај о задовољству купаца",
         total_participation: "Укупан број прилога",
-        total_participation_tooltip: "Укупно Цоунт ставка ставка Производ",
+        total_participation_tooltip: "Укупан број оцењивача за производ.",
         today_participation: "Данашње оцене",
         last7days_participation: "Доприноси последњих 7 дана",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Број доприноса",
           score: "Сцоре",
         },
-        users_not_rated_msg: "Корисници ставка ставка Производ ставка",
+        users_not_rated_msg: "Корисници још нису оценили овај производ.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,16 +2442,16 @@ export default {
 
         config: {
           title: "Производ ставка продавница",
-          subtitle: "Управљај SKU, MPN, ставка ставка ставка Варијанте",
+          subtitle: "Управљајте СКУ-ом, МПН-ом и доступношћу за варијанте.",
         },
         variables: {
-          title: "ставка ставка",
+          title: "Вариант Оптионс",
           subtitle:
             "Enter a hex color code, e.g., <b>#654FFF</b>, or two colors separated by a slash, e.g., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "You can assign any value to the variables, including images using <b>Graphic Assets</b>. Upload a pattern and use the generated code for the variant.",
-          graphical_asset_action: "ставка ставка",
-          graphical_asset_action_caption: "Слике ставка ставка ставка",
+          graphical_asset_action: "Грапхиц Ассетс",
+          graphical_asset_action_caption: "Слике за варијантне опције.",
         },
         smart_unit_price: {
           tips: "Calculate unit price based on <b>weight</b>, <b>volume</b>, and <b>pack size</b>. To disable this feature, navigate to Shop > Settings > Theme > Product Page > Smart Unit Price.",
@@ -2459,18 +2459,18 @@ export default {
         },
         quantity: {
           title: "Инвентар",
-          subtitle: "ставка ставка ",
+          subtitle: "Подесите нивое залиха за сваку варијанту.",
         },
         price: {
           title: "Прицинг",
           subtitle:
-            "ставка ставка Обичај Цена ставка ставка Уобичајено Производ Цена",
+            "Подесите прилагођену цену за варијанту или користите подразумевану цену производа.",
         },
         package: {
           title: "ставка & поштарина",
           subtitle:
             "Наведите тежину и димензије за варијанте да бисте одредили опције испоруке.",
-          same_as_product_action: "ставка ставка Производ",
+          same_as_product_action: "Исто као и производ",
         },
         image: {
           title: "ставка Слике",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "ставка ставка Јединица (SKU)",
+            message: "Јединица за чување залиха (СКУ)",
           },
           mpn: {
-            message: "ставка ставка ставка (MPN)",
+            message: "Број дела произвођача (МПН)",
           },
           gtin: {
-            label: "ставка ставка предмет ставка (GTIN)",
+            label: "Глобални број трговинске јединице (ГТИН)",
             message:
               "Подржани формати: УПЦ (12 цифара), ЕАН (13 цифара), ЈАН (8 или 13 цифара), ИСБН (13 цифара).",
           },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "поштарина Услуге На располагању ставка ставка Тежина",
+      "Доступне услуге доставе зависе од понуђене величине и тежине.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,12 +2531,12 @@ export default {
     lead_time_dimension: "сат(и)",
     bulk_action: "Булк акције",
     bulk_action_subtitle:
-      "ставка ставка информације До све Производ Варијанте",
+      "Информације о паковању можете применити на све варијанте производа.",
 
     bulk_action_input: "Ажурирајте све варијанте",
     bulk_action_msg:
       "Подесите паковање производа и време припреме за све варијанте.",
-    dynamic_lead_time: "ставка ставка време",
+    dynamic_lead_time: "Динамичко време испоруке",
     instant_delivery: "ставка Испорука",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "ставка Слика ставка ставка",
-      placeholder: "ставка ставка ",
-      success_update_notification: "ставка ставка ",
+      title: "Подесите алтернативни текст слике",
+      placeholder: "Унесите описни алтернативни текст...",
+      success_update_notification: "Алтернативни текст је успешно ажуриран.",
     },
     dialog_bg_remove: {
       title: "Уклони позадина ставка",
@@ -2562,14 +2562,14 @@ export default {
         title: "Уклони позадину",
         subtitle: "Креирај ставка провидно позадина",
       },
-      success_remove_bg_notification: "позадина ставка ставка!",
+      success_remove_bg_notification: "Позадина је успешно уклоњена!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "ставка ставка ставка",
+    title: "Варијанта графичких средстава",
     tips: {
       how_it_works:
         "<b>How It Works:</b><br />Upload pattern or item images here. To use these images as a variant option, include <b>{filename}</b> in the variant value. Note that this code cannot be used in the <b><s>color</s></b> value.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "ставка цене",
     min_quantity: "Мин Количина",
-    range_is_out_of_stock: "ставка ставка !",
+    range_is_out_of_stock: "Асортиман није на залихама!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "ставка ставка !",
-    set_color_warning: "ставка Изабери ставка Боја",
-    set_volume_warning: "ставка ставка ставка обим",
-    set_pack_warning: "ставка ставка ",
-    set_weight_warning: "ставка ставка ставка Тежина",
-    set_type_warning: "ставка Изабери ставка Тип",
-    set_style_warning: "ставка Изабери ставка Стил",
-    out_of_stock: "ставка ставка ",
+    duplicated_variant: "Ова варијанта већ постоји!",
+    set_color_warning: "Молимо изаберите боју.",
+    set_volume_warning: "Наведите јачину звука.",
+    set_pack_warning: "Наведите величину паковања.",
+    set_weight_warning: "Наведите тежину.",
+    set_type_warning: "Молимо изаберите тип.",
+    set_style_warning: "Изаберите стил.",
+    out_of_stock: "Тренутно нема на залихама",
 
     image: {
       tooltip: "⚡ Превуците и отпустите слику овде да бисте је доделили варијанти.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Овај артикал није доступан у онлине продавници.",
     },
     restore_dialog: {
-      title: "ставка ставка",
+      title: "Ресторе Вариант",
       message: "Да ли сте сигурни да желите да вратите ову избрисану варијанту?",
-      action: "да, ставка ставка",
+      action: "Да, врати одмах",
     },
     notifications: {
-      restore_variant_success: "ставка Производ ставка ставка ",
+      restore_variant_success: "Варијанта производа је успешно обновљена.",
     },
   },
 
@@ -2673,8 +2673,8 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "продавница Инвентар",
-    subtitle: "Листа ставка све Производи ставка продавница",
-    cant_set_here: "ставка ставка ставка",
+    subtitle: "Списак свих производа у продавници.",
+    cant_set_here: "Не може се поставити овде",
 
     search_input: "Претрага производа...",
     search_input_title: "Тражи међу производима продавнице",
@@ -2718,7 +2718,7 @@ export default {
     title: "ставка Акције > Цена",
     message:
       "Следећи износ ће се примењивати као проценат на цену свих производа у вашој продавници. Такође, израчунате вредности цена ће бити интелигентно конвертоване у најближи округли број на основу изабране валуте. Будите пажљиви при уносу вредности.",
-    check: "ставка ставка Цена ставка",
+    check: "Одобравам промене цена.",
     check_description:
       "Цена ће бити промењена за изабрану категорију и све подкатегорије.",
     add_percent_tab: "Додај проценат",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Аутоматско чување",
-    auto_save_input_message: "ставка ставка ",
+    auto_save_input_message: "Промене ће бити аутоматски сачуване.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Плаћање методи",
     sub_title:
-      "Листа ставка Ацтиве Плаћање методи ставка ставка ставка До Додај ставка Нова метод До ставка Схоп, ставка ставка 10 Додај Плаћање Гатеваис",
+      "Листа активних начина плаћања. Ако желите да додате нови метод у своју продавницу, притисните следеће дугме. Топло препоручујемо да не прелазите 10 додатних гејтвеја за плаћање.",
     add_gateway: "Нова Плаћање метод",
 
     add_gateway_dialog: {
       title: "Изабери Валута",
-      country_currencies: "ставка ставка",
+      country_currencies: "Локалне валуте",
       crypto_currencies: "ставка",
 
       confirm: "Додајте начин плаћања",
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "ставка погледај ставка ставка Плаћање метод?",
+        title: "Не видите жељени начин плаћања?",
         subtitle:
           "Ако ваш локални добављач плаћања није наведен, претплатите се на било који годишњи план (укључујући Стартуп ради приступачности) и затражите интеграцију. Завршићемо га у року од 48 сати ако се обезбеди пробни налог и документација.",
       },
@@ -3088,11 +3088,11 @@ export default {
         "Можете побољшати приказ странице своје категорије тако што ћете прекрити прилагођену страницу. Најбољи приступ је да направите странице са провидном позадином и дизајнирате 1 до 2 одељка специфична за сваку категорију. Затим можете повезати једну страницу са више категорија, користећи динамички садржај да бисте прилагодили сваку категорију појединачно.",
     },
     critical_zone: {
-      title: "ставка ставка",
+      title: "Критична зона",
       subtitle:
         "If you remove a category, its subcategories and products will be moved to the parent directory<b>📁 {parent}</b>. To manage categories that are not in the product list, go to the Shop > Categories tab.",
       accept_delete: {
-        true_description: "ставка ставка До Уклони ставка Категорија",
+        true_description: "Желим да уклоним ову категорију.",
         true_title: "ставка Уклони Категорија",
       },
     },
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Изаберите разлог за одбијање ове поруџбине са листе испод. Обавезно обавестите купца о процесу отказивања и повраћаја новца. Повраћај средстава мора бити извршен у року од 12 сати.",
       confirm_now_action: "Поништити, отказати 🛍 Наручите ставка",
-      confirm_in48h_action: "Поништити, отказати 🛍 Наручите ставка 48 ставка",
+      confirm_in48h_action: "Откажите поруџбину за 48 сати",
 
       dismiss_reject_action: "Одбаците отказивање поруџбине",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "ставка | Поништити, отказати 🛍 Наручите ставка",
-        false_title: "ставка | Поништити, отказати 🛍 Наручите ставка 48 ставка",
+        true_title: "Екпресс | Одмах откажите поруџбину",
+        false_title: "Стандард | Откажите поруџбину након 48 сати",
         true_description:
           "Ова опција ће одмах отказати вашу поруџбину и одмах ажурирати инвентар.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Поруџбина враћена у нормалан процес.",
       set_tracking_success: "ИД праћења поруџбине је успешно сачуван.",
       shipping_address_update_success:
-        "поштарина адреса ставка ставка ",
+        "Адреса за испоруку је успешно ажурирана.",
       vendor_order_status_update_success:
-        "продавац ставка Статус ставка ставка ",
+        "Статус испуњености добављача је успешно ажуриран.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Плаћање чека",
       processing_payment: "Обрада плаћања",
       processing_cancel: "Уплата је отказана",
-      require_capture: "ставка ставка",
+      require_capture: "Захтевај хватање",
       paid: "Плаћено",
       cod_pay_info:
         "Када примите поруџбину од купца можете потврдити уплату и завршити поруџбину.",
@@ -3519,7 +3519,7 @@ export default {
         "Ваш купац осваја 1к овог производа. Пошаљите поклон са овом наруџбом.",
 
       need_to_refund: {
-        title: "повраћај ставка До ставка купац",
+        title: "Повраћај новца је обавезан купцу",
         message:
           "Израчунавамо укупан износ повраћаја који треба да извршите ручно. Израчунава се на основу недоступних артикала и укупних рефундираних вредности.",
         calculated_approximately:
@@ -3549,7 +3549,7 @@ export default {
       weight_warning: "Прекорачује дозвољену тежину.",
       volume_warning: "Премашује дозвољену величину пакета.",
       items_weight_calculation:
-        "ставка Тежина ставка све Предмети ставка {weight} {unit}",
+        "Combined weight of all items is {weight} {unit}",
       not_available_message:
         "Није доступно када је онемогућено тражење адресе за доставу, а корисник није унео адресу након куповине!",
 
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "Инфо",
-    subtitle: "Преглед ставка Плаћање пролаз ставка ставка Статус",
+    subtitle: "Преглед конфигурације и статуса пролаза за плаћање.",
     status: "Статус",
     cod_transportation: "подршка поштарина",
     cod_transportations_error:
-      "Омогући ставка ставка Испорука Плаћање ставка ставка поштарина метод!",
+      "Омогућите плаћање поузећем за најмање један начин испоруке!",
     payment_type: "Плаћање Тип",
     cod: "Плаћање поузећем",
     online: "ставка Плаћање",
@@ -3695,8 +3695,8 @@ export default {
       title: "ставка Акције",
       subtitle:
         "Предузимајући ове кораке, почећете да примате стварне уплате од својих клијената.",
-      action_enable: "ставка До Омогући ставка",
-      make_live_enable: "ставка До Уживо ставка",
+      action_enable: "Кликните да бисте је омогућили",
+      make_live_enable: "Кликните да живите",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Гејтвеј {gateway_name} је измењен.",
-      success_delete: "Плаћање метод ставка ставка Избрисан!",
+      success_delete: "Начин плаћања је обрисан!",
     },
     debug: {
       title: "Развити & ставка",
@@ -3732,28 +3732,28 @@ export default {
 
     limit: {
       title: "🛍 Наручите Лимит",
-      subtitle: "ставка ставка минимум 🛍 Наручите Износ ставка ставка Плаћање пролаз",
+      subtitle: "Подесите минимални износ поруџбине за овај пролаз за плаћање.",
     },
     limit_input: {
       title: "минимум 🛍 Наручите Износ",
-      msg: "ставка ставка не Лимит",
+      msg: "Нула значи да нема ограничења.",
     },
     currency_input: {
-      message: "ставка Валута ставка ставка Плаћање пролаз подршка",
+      message: "Валута коју подржава овај гејтвеј за плаћање.",
     },
     gateway_code: "пролаз Код",
 
-    hold_only_for: "ставка Плаћање ставка На располагању ставка",
+    hold_only_for: "Задржавање плаћања доступно је само за",
     manual_input: {
       false_description:
         "Статус плаћања ће се аутоматски променити из чекања у потврђено у систему провајдера плаћања.",
       false_title: "аутоматски Плаћање ставка",
-      true_title: "ставка Плаћања ставка ручно ставка",
+      true_title: "Задржавање плаћања и ручна потврда",
       true_description:
         "Зауставите плаћање тако да морате да верификујете плаћања да бисте наруџбину променили из статуса на чекању у потврђен у систему добављача плаћања.",
     },
     delete_verify_input: {
-      true_title: "ставка ставка До Уклони ставка Плаћање метод",
+      true_title: "Желим да уклоним овај начин плаћања.",
       true_description:
         "Овај начин плаћања ће бити уклоњен из продавнице и неће бити доступан купцима.",
     },
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "продавци Новчаник Трансакција",
 
     "vendor-sms":
-      "🔔 🛍 Наручите ставка SMS ставка ставка Послано До <b>{vendor}</b> ╏ {phone}.",
+      "🔔 Order inform SMS has been sent to <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Имате производе у роот-у, али немате филтер.",
       has_root_filter_message: "Постављате филтере за основне категорије.",
-      set_filter_message: "ставка ставка ставка Филтери",
+      set_filter_message: "Можете подесити филтере.",
       edit_action: "Уредити ставка Филтери",
-      clear_action: "ставка ставка Филтери",
+      clear_action: "Обришите коренске филтере",
     },
     ai: {
       title: "AI Производ ставка",
@@ -4081,31 +4081,31 @@ export default {
     menu: {
       select_all_products: "Изабери све Производи",
       unselect: "ставка",
-      sort_categories: "ставка / ставка Категорије",
+      sort_categories: "Распоредите / сортирајте категорије",
       subscription_vendor_not_support_message:
         "Не може се доделити добављач за претплатничке производе! Производи на претплату увек морају имати продавца као власника!",
       vendor_owner_not_assignable_message:
         "Не може се доделити продавац за производе чији је продавац власник!",
-      category_assign_profile: "ставка профил До Производи ставка ставка Категорија",
+      category_assign_profile: "Додели профил производима у категорији",
       category_assign_profile_subtitle: "Порез, поштарина, водич, гаранција,. ..",
       bulk_discount: "ставка Попуст",
-      bulk_discount_subtitle: "ставка Попуст ставка све Производи",
+      bulk_discount_subtitle: "Примени попуст на све производе.",
     },
 
     engine: {
-      title: "ставка Производи ставка",
+      title: "Мотор Ектра Продуцтс",
       subtitle:
-        "Више. . Производи ставка ставка ставка Од Изабери Категорије ставка Ознаке",
-      load_in_tips: "ставка Производи Од Категорије ставка ставка {category}.",
+        "Више производа ће бити учитано из одабраних категорија и ознака.",
+      load_in_tips: "Load products from categories in the {category}.",
       action: "Уредити {category} ставка",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "ставка ставка / CSV датотека ставка",
+      title: "Испустите Екцел / ЦСВ датотеку овде.",
       select_file: "Изабери датотека",
-      max_file: "максимум датотека ставка: 20ставка",
+      max_file: "Максимална величина датотеке: 20 мб",
       download_sample: "Преузми ставка",
     },
     ai: {
@@ -4115,7 +4115,7 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "ставка ставка",
+    has_panel: "Има панел",
     no_panel: "не ставка",
     manual_action: {
       title: "ручно Акције",
@@ -4123,16 +4123,16 @@ export default {
       guides: [
         "Продавци са приступом панелу могу ажурирати своје испуњење (подпоруџбине) на својој наменској контролној табли.",
         "Ако продавац нема приступ панелу, статус поруџбине продавца ће се аутоматски променити променом статуса корпе.",
-        "ставка ставка ажурирање продавац Наређења ставка",
+        "Наруџбе добављача можете ажурирати ручно.",
       ],
     },
     payouts: {
       title: "ставка",
-      message: "Управљај ставка продавац ставка ставка Трансакције",
+      message: "Управљајте исплатама и трансакцијама добављача.",
 
       charge_tooltip: "Напунити продавац Новчаник",
       withdraw_tooltip: "ставка Од продавац Новчаник",
-      payout_tooltip: "ставка До ставка продавац",
+      payout_tooltip: "Исплата продавцу.",
     },
     order_canceled: "🛍 Наручите ставка",
     order_rejected: "🛍 Наручите Одбијен ставка продавац",
@@ -4160,8 +4160,8 @@ export default {
     },
 
     open_marketplace_page: "ставка Маркетплаце страница",
-    open_my_store_page: "ставка ставка продавница страница",
-    open_my_listing_page: "ставка ставка Листинг страница",
+    open_my_store_page: "Отвори страницу моје продавнице",
+    open_my_listing_page: "Отвори моју страницу са листингом",
     add_products_permission: "Додај Производи ставка",
     add_categories_permission: "Додај Категорије ставка",
   },
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Адреса Е-поште",
-        placeholder: "ставка ставка чланови Емаил адреса",
+        placeholder: "Унесите имејл адресу члана...",
       },
     },
     notifications: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "ставка ставка Потврђено ставка Плаћање?",
+          label: "Да ли сте потврдили ову уплату?",
           false_description:
             "Не, још увек нисам примио ову уплату на свој банковни рачун.",
           true_description: "Да, примио сам и верификовао ову уплату.",
@@ -4266,8 +4266,8 @@ export default {
       "<b>Important! </b>Executing this action will generate a negative transaction in the vendor's wallet and subtract the chosen amount from it. The amount cannot exceed the remaining total transactions for the selected order. Additionally, if funds have been transferred to connected bank accounts (such as with Stripe Connect or manual wire transfer), you should create a <b>reversal transfer</b>.",
     inputs: {
       note: {
-        message: "ставка ставка До ставка продавац",
-        placeholder: "ставка ставка Белешка ставка",
+        message: "То је видљиво продавцу.",
+        placeholder: "Овде можете приложити белешку...",
       },
       amount: {
         error_message: "Преостали износ је премашен.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "У овом одељку можете видети временску линију догађаја везаних за поруџбину, испуњење, плаћање и њихове одговарајуће статусе. Поред тога, можете пратити поруџбине које се шаљу и купцима и продавцима.",
-    add_note_subtitle: "писање ставка Порука ставка ставка ",
+    add_note_subtitle: "Напишите поруку и помените своје колеге.",
 
     message_input: "Напишите поруку овде...",
     pin_action: "Закачите на врх",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Додај Схоп",
-      description: "Додај ставка Нова Схоп До ставка ставка",
+      description: "Додајте нову продавницу у систем.",
     },
     "backoffice:shop:delete": {
       name: "Избриши Схоп",
-      description: "Избриши ставка Схоп Од ставка ставка",
+      description: "Избришите продавницу из система.",
     },
     "backoffice:giftcard:write": {
       name: "Поклон Цард Управљање",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "ставка Приступ",
-      description: "читање ставка Детаљи ставка Статистика",
+      description: "Прочитајте детаље и статистику траке.",
     },
     "backoffice:ai:write": {
       name: "AI Управљање",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Приступ",
-      description: "читање AI ставка ставка Статистика",
+      description: "Прочитајте АИ конфигурације и статистику.",
     },
     "backoffice:vendor-payment:write": {
       name: "продавац Плаћање Управљање",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Белешка Приступ",
-      description: "читање ставка ставка ставка Детаљи",
+      description: "Прочитајте белешке и повезане детаље.",
     },
     "backoffice:note:write": {
       name: "Белешка Управљање",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "ставка Управљање",
-      description: "Управљај ставка ставка",
+      description: "Управљајте опцијама штампања.",
     },
     "backoffice:print:read": {
       name: "ставка Приступ",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "ставка Приступ",
-      description: "читање ставка Детаљи ставка Статистика",
+      description: "Прочитајте детаље и статистику токена.",
     },
     "selldone:token:write": {
       name: "ставка Управљање",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "ставка Приступ",
-      description: "читање ставка Детаљи ставка Статистика",
+      description: "Прочитајте детаље о монетизацији и статистику.",
     },
     "selldone:monetization:write": {
       name: "ставка Управљање",
-      description: "Управљај ставка, ставка ставка ставка",
+      description: "Управљајте монетизацијом, укључујући програме препорука.",
     },
     "selldone:identification": {
       name: "ставка Приступ",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "ставка Приступ",
-      description: "читање ставка Детаљи ставка Статистика",
+      description: "Прочитајте детаље и статистику добављача.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "ставка Приступ",
-      description: "читање ставка Детаљи ставка Статистика",
+      description: "Прочитајте детаље о агенцији и статистику.",
     },
     "agency:write": {
       name: "ставка Управљање",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "ставка",
-      description: "Приступ До ставка ставка продавница Управљање ставка",
+      description: "Приступ функцијама управљања позадинским канцеларијама и продавницама.",
     },
     storefront: {
       title: "ставка",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Selldone Приступ ставка Услуге ставка ставка",
+      description: "Приступите Селлдоне услугама и функцијама.",
     },
     others: {
       title: "ставка",
-      description: "ставка Сцопес ставка ставка ",
+      description: "Разни опсеги нису дефинисани у систему.",
     },
     vendor: {
       title: "продавац",
-      description: "Приступ продавац информације ставка Управљање ставка",
+      description: "Приступите информацијама о добављачима и функцијама управљања.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "ставка",
-      description: "Приступ ставка информације ставка Управљање",
+      description: "Приступите информацијама о агенцији и управљању.",
     },
   },
 
@@ -5562,26 +5562,26 @@ export default {
       my_public_profile_subtitle: "ставка Јавно профил {name}.",
 
       personal_information: "Лични подаци и профил",
-      personal_information_subtitle: "Уредити ставка профил, адреса ставка ставка",
+      personal_information_subtitle: "Уреди мој профил, адресу и КИЦ.",
       wallet: "Новчаници и рачуни",
-      wallet_subtitle: "ставка Рачуни ставка Повезан Плаћање Картице",
+      wallet_subtitle: "Виртуелни рачуни и повезане платне картице.",
 
       companies: "Компаније и пословни рачуни",
-      companies_subtitle: "Регистровати ставка пословање ставка Порез Профили",
+      companies_subtitle: "Региструјте моје пословне и пореске профиле.",
 
       access: "Приступ мом налогу",
       access_subtitle:
-        "OAставка Клијенти, Лични Приступ ставка ставка Повезан апликације",
+        "ОАутх клијенти, лични токени за приступ и повезане апликације.",
 
       security: "Безбедност",
       security_subtitle: "Подесите два фактора и управљајте опцијама за пријаву на друштвене мреже.",
 
       preferences: "Корисничка подешавања",
       preferences_subtitle:
-        "Промена Тема, ставка, ставка ставка Уобичајено Валута",
+        "Промените тему, ниво, језик и подразумевану валуту.",
       my_subscriptions: "Моје претплате",
       my_subscriptions_subtitle:
-        "Приступ До ставка AI ставка ставка ставка",
+        "Приступ премиум АИ и функцијама прилагођавања.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "ставка ставка Новчаник",
+        title: "Изаберите новчаник",
         subtitle:
           "Изаберите виртуелни новчаник који ћете користити за своју претплату. Ако га још немате, можете га креирати у одељку Новчаник. Овај новчаник ће се користити за све трошкове.",
       },
@@ -5742,7 +5742,7 @@ export default {
           "Ваша претплата ће се аутоматски обновити ако ваш новчаник има довољно средстава или ако имате важећи ваучер.",
       },
       options: {
-        title: "ставка ставка",
+        title: "Додатне опције",
       },
       verify: {
         title: "ставка",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Лако додајте производе из ПОД или дропсхиппинг добављача уз Селлдоне Цоннецт ОС—само повежите своју продавницу и уживајте у аутоматској интеграцији производа, нису потребни додаци.",
     },
-    your_license_is_not_eligible: "ставка Лиценца ставка ставка ставка",
+    your_license_is_not_eligible: "Ваша лиценца не испуњава услове.",
     sku_dialog: {
       title: "Додај Производ ставка SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Повежите један од својих домена са овим придруженим партнером. Посетиоци који купују преко овог домена биће приписани овом придруженом предузећу.",
 
-      domain_not_approved_msg: "ставка Домаин ставка ставка !",
-      domain_is_not_enable_msg: "ставка Домаин ставка ставка омогућено!",
+      domain_not_approved_msg: "Домен још није одобрен!",
+      domain_is_not_enable_msg: "Домен није омогућен!",
       domain_is_linked_to_other_affiliate_msg:
         "Овај домен је већ повезан са другом филијалом!",
     },
 
-    set_users_first_message: "ставка ставка ставка корисник ставка!",
+    set_users_first_message: "Прво поставите корисника!",
 
     cluster: {
       title: "ставка",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Нова Аффилиате Додај ставка",
-      update_success: "Аффилиате ставка ставка",
+      update_success: "Аффилиате је успешно ажуриран.",
     },
 
     inputs: {
@@ -5945,18 +5945,18 @@ export default {
       commission: {
         label: "Комисија ставка",
         false_description:
-          "ставка ставка провизија",
+          "Израчунајте користећи комбинацију фиксних и процентуалних провизија.",
         true_description:
           "Израчунајте користећи провизије за специфичне производе постављене на картици са ценама.",
-        false_title: "ставка + ставка Комисија",
+        false_title: "Фиксна + процентуална провизија",
         true_title: "ставка Комисија",
       },
       user: {
         label: "корисник (опционо)",
-        message: "Selldone опционо, ставка, Аффилиате Име ставка ставка",
+        message: "Опционо, нпр. име подружнице у Селдоне",
       },
       web: {
-        placeholder: "опционо, ставка, ставка",
+        placeholder: "Опционо, нпр. аффилиате-веб.цом",
       },
       address: {
         placeholder: "опционо, ставка, 1200 POX, NY, USA",
@@ -5965,7 +5965,7 @@ export default {
         placeholder: "опционо, ставка, 001-808-210354",
       },
       bank: {
-        placeholder: "опционо, ставка, ставка банка, не: 10002-325-800-845213",
+        placeholder: "Опционо, нпр. Арстра банка, број: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Изабери ставка Домаин (опционо)",
@@ -5980,7 +5980,7 @@ export default {
           "Да ли је ова подружница тренутно активна? Ако је неактиван, њихов партнерски програм се неће примењивати на поруџбине направљене преко њихове везе.",
       },
       products: {
-        label: "Производи ставка ставка Комисија",
+        label: "Производи који испуњавају услове за провизију",
         select_product: "Изабери Производи",
       },
     },
@@ -6014,7 +6014,7 @@ export default {
       action: "Да, Избриши одмах",
     },
     notifications: {
-      delete_success: "ставка ставка Избрисан",
+      delete_success: "Процена је успешно обрисана.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Прицинг & ставка ставка",
+    label: "Модел цена и вредновања",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Поставите систем процене да бисте креирали флексибилне цене користећи формуле и референтне табеле за ваше производе. Почните тако што ћете овој процени дати јединствено име.",
     },
     valuation_preview: "Преглед ставка образац",
-    load_sample: "ставка ставка",
+    load_sample: "Лоад Сампле",
     conditions: {
       title: "Услови",
       subtitle:
@@ -6045,7 +6045,7 @@ export default {
     structure: {
       title: "ставка",
       subtitle:
-        "Дизајн ставка Прицинг Улазни образац ставка ставка ",
+        "Дизајнирајте свој образац за унос цена овде интегришући формуле и референтне табеле.",
       expand_action: "ставка",
       collapse_action: "ставка",
     },
@@ -6316,12 +6316,12 @@ export default {
 
     config: {
       subtitle:
-        "ставка ставка Цоупон Попуст ставка ставка: CHARGE + Макс (LIMIT, PERCENT * ставка Цена).",
+        "Формула обрачуна купонског попуста је: НАПЛАТА + мак (ЛИМИТ, ПРОЦЕНТ * цена корпе).",
     },
     limit: {
       subtitle:
         "У овом одељку можете да подесите и максималан број коришћења по купону и највећи износ попуста који сваки купон може да пружи.",
-      zero_message: "ставка: ставка ставка не Лимит!",
+      zero_message: "нула: нема границе!",
     },
     duration: {
       subtitle:
@@ -6335,8 +6335,8 @@ export default {
       subtitle:
         "Овде имате могућност да успоставите додатне персонализоване параметре за купон.",
       no_limit: "не ставка Ограничење",
-      has_limit: "ставка ставка",
-      has_code_message: "корисник ставка ставка ставка Код До Додај Цоупон",
+      has_limit: "Додатна ограничења",
+      has_code_message: "Корисник треба да унесе код за додавање купона.",
     },
     club: {
       subtitle:
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Повећајте куповину купаца помоћу гејмификованог искуства у вашој продавници. Подесите награде и добитне квоте за купце који зарађују токене куповином. Свака игра кошта 10 жетона, а можете понудити посебне награде за купце који први пут купе. Подразумевана игра је Вхеел оф Фортуне, али можете је прилагодити тако да одговара изгледу ваше продавнице.",
     },
-    empty_prize_list: "Креирај ставка Управљај ставка ставка",
+    empty_prize_list: "Креирајте и управљајте наградама овде...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6621,7 +6621,7 @@ export default {
         "Овде имате могућност да изаберете слику и боју за награду.",
     },
     constraints: {
-      subtitle: "ставка ставка ",
+      subtitle: "Наведите критеријуме и ограничења за освајање ове награде.",
     },
     prize: {
       title: "ставка",
@@ -7041,10 +7041,10 @@ export default {
     vendor: {
       title: "Увези продавци",
       subtitle:
-        "Отпреми продавац CSV датотеке ставка ставка До Приватност ставка",
+        "Отпремите ЦСВ датотеке добављача овде. Уверите се да је формат исправан и да се придржава прописа о приватности.",
       checklist: {
-        title: "ставка ставка",
-        subtitle: "ставка ставка До ставка ставка ставка",
+        title: "Важна контролна листа",
+        subtitle: "Обавезно следите упутства.",
         sample_files: "ставка датотеке",
         valid_vendor_name_needed:
           "You must provide a <b>valid name</b>. The <b>name</b> is used to determine whether to <i>Create</i> a new vendor or <i>Update</i> an existing one.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "ставка продавци ставка",
+    open_vendors_panel: "Отворите таблу добављача",
     title: "продавац ставка Листа",
     subtitle:
       "Ово је листа захтева појединаца који су се пријавили да постану продавци на вашем тржишту.",
@@ -7091,7 +7091,7 @@ export default {
         "Онемогућавање тржишта ће искључити неке функције. Ако желите да угасите цело тржиште, требало би да онемогућите своју продавницу у подешавањима.",
     },
     distribution_model: {
-      title: "ставка ставка",
+      title: "Модел дистрибуције",
       subtitle:
         "Тржишта могу функционисати под различитим моделима дистрибуције. Без обзира да ли више волите да продавци испоручују артикле директно купцима или да обједињују поруџбине у вашем складишту за испоруку, овде можете изабрати модел који најбоље одговара вашим потребама.",
     },
@@ -7113,7 +7113,7 @@ export default {
       title: "ставка",
       subtitle:
         "Од својих добављача можете захтевати да отпреме документе или потпишу одређене уговоре. Овде наведите потребне документе.",
-      add_document_action: "Додај ставка ставка",
+      add_document_action: "Додати захтев за документ",
     },
     inputs: {
       enable: {
@@ -7132,23 +7132,23 @@ export default {
       },
       need_verify: {
         label: "Производ ставка Флов",
-        false_description: "Нова продавац Производи ставка Уживо ставка",
-        false_title: "не ставка ставка",
+        false_description: "Нови производи добављача одмах постају активни.",
+        false_title: "Није потребна верификација",
         true_description:
-          "продавци Нова Производи ставка ставка Уживо ставка ставка Маркетплаце",
-        true_title: "ставка ставка",
+          "Нови производи добављача захтевају одобрење пре него што постану доступни на тржишту.",
+        true_title: "Верификација је обавезна",
       },
       category: {
         label: "Додај нову категорију",
         true_title: "продавци ставка Додај Категорије",
         false_description:
-          "ставка Додај Категорије продавци ставка ставка Додај Производи До ставка Категорије",
+          "Ви додајете категорије. Продавци могу да додају производе само у постојеће категорије.",
         true_description:
           "Продавци могу да додају категорије и управљају њима директно у панелу својих добављача.",
       },
       shipping: {
         label: "поштарина ставка",
-        true_title: "продавци ставка поштарина ставка",
+        true_title: "Продавци имају опције испоруке",
         false_description:
           "Продавци не могу да додају или прилагођавају своје методе испоруке.",
         true_description:
@@ -7156,7 +7156,7 @@ export default {
       },
       hidden_customer: {
         label: "Прикажи ставка Контакт информације",
-        true_description: "ставка Контакт Детаљи ставка ставка Од продавци",
+        true_description: "Контакт подаци о купцу су скривени од продаваца.",
         false_description:
           "Контакт подаци о купцу, као што су телефон и е-пошта, видљиви су продавцима.",
       },
@@ -7171,8 +7171,8 @@ export default {
 
       listing: {
         label: "Листинг ставка продавци",
-        true_description: "Листинг ставка омогућено ставка продавци продавци ставка Управљај Листинг Предмети ставка Компаније",
-        false_description: "Листинг ставка онемогућено ставка продавци ставка ставка Схоп Власник ставка Управљај Листинг Предмети ставка Компаније",
+        true_description: "Листинг је омогућен за продавце. Продавци могу управљати ставкама на листи и компанијама.",
+        false_description: "Листинг је онемогућен за продавце. Само власник продавнице може да управља артиклима и компанијама на листи.",
         requires_listing_active_text:
           "Да бисте дозволили продавцима да користе листинг (ставке + компаније), прво омогућите функцију листинга продавнице у Канал → Листинг. Затим се вратите овде да дозволите приступ добављачу.",
         requires_listing_active_button: "ставка Канал Листинг Подешавања",
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "продавац Подешавања ставка ставка",
+      update_success: "Подешавања добављача су успешно ажурирана.",
     },
     add_document_dialog: {
-      title: "ставка ставка",
+      title: "Захтеви за документе",
       type: {
         title: "ставка Тип",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Наслов",
-          placeholder: "ставка ставка Наслов ставка ставка ",
+          placeholder: "Унесите наслов захтева за документ.",
         },
         guide: {
           label: "водич (опционо)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Уграђивање Код",
-          placeholder: "ставка ставка Уграђивање Код ставка",
-          message: "ставка ставка HTML Код",
+          placeholder: "Налепите код за уградњу овде...",
+          message: "Може укључити ХТМЛ код.",
         },
         url: {
           label: "URL",
-          message: "ставка ставка URL ставка ставка ",
+          message: "Овде унесите УРЛ за документ или уговор...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Власник ставка ставка",
+      title: "Идентификациони документ власника",
       description:
         "Отпремите лични документ који је издао државни орган да бисте верификовали идентитет власника предузећа или кључног руководиоца.",
     },
@@ -7264,14 +7264,14 @@ export default {
         "Пошаљите документ да верификујете своју пословну адресу, као што је рачун за комуналне услуге, пореска фактура или уговор о закупу.",
     },
     Contract: {
-      title: "ставка & ставка",
+      title: "Уговори и споразуми",
       description:
         "Отпремите уговоре или споразуме који детаљно наводе одредбе и услове ваших пословних односа.",
     },
     Copyright: {
-      title: "ставка ставка",
+      title: "Ауторска документација",
       description:
-        "ставка ставка До ставка ставка ",
+        "Обезбедите документе за регистрацију ауторских права да бисте потврдили своја права интелектуалне својине.",
     },
     Privacy: {
       title: "Приватност политика ставка",
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "продавац банка",
     order_fee: "🛍 Наручите Надокнада",
     order_refund: "🛍 Наручите повраћај",
-    reverse_fund: "ставка ставка",
+    reverse_fund: "Фунд Реверсал",
     payout: "ставка",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "ставка Историја",
     subtitle:
       "Ова функција поједностављује рачуноводство за вас и ваше продавце тако што води детаљну евиденцију о свим трансакцијама. Уплате могу да се обрађују ручно путем банковних трансфера или других метода, или да их аутоматски управљају добављачи плаћања који подржавају подељена плаћања, као што је Стрипе.",
-    top_up_vendor_action: "ставка ставка продавац Рачун",
+    top_up_vendor_action: "Допуните рачун добављача",
   },
 
   /**
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "ставка, ставка Производи ставка",
+        placeholder: "нпр., класа дигиталних производа...",
       },
       description: {
         placeholder: "Овде можете додати напомену...",
       },
       accept_delete: {
         true_description: "Желим да избришем овај модел цена.",
-        true_title: "ставка Прицинг ставка ставка",
+        true_title: "Потврдите уклањање модела цена",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Када повежете услуге исплате као што је Стрипе Цоннецт, ми преузимамо и приказујемо расположиво стање на вашем Стрипе налогу за референцу.",
     with_balance: "ставка Баланс",
-    without_balance: "ставка Баланс - ставка режим",
+    without_balance: "Без равнотеже - Брзи режим",
     bank_transfer: {
       title: "банка Трансфер",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "Овде можете додати напомену... Ова напомена није видљива продавцу.",
       },
       accept_refund: {
-        true_description: "ставка ставка До Поништити, отказати ставка Плаћање",
+        true_description: "Желим да откажем ову уплату.",
         true_title: "Поништити, отказати & повраћај Плаћање",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "ставка ставка",
+        title: "Фунд Реверсед",
         message:
           "Продавачево враћање средстава је успешно завршено, са новцем пребаченим из банке у новчаник и додан на стање новчаника.",
       },
       payout_success: {
         title: "ставка",
         message:
-          "ставка продавци ставка ставка Додај",
+          "Исплата добављача је успешно обрађена и додата.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "ставка",
     max_batch_msg: "Максималан број ставки које можете да увезете у једној серији.",
     max_daily_limit_msg: "Максималан број ставки које можете да увезете у току дана.",
-    extra_daily_limit_msg: "ставка Предмети ставка ставка Лимит",
+    extra_daily_limit_msg: "Додатни артикли су дозвољени изнад дневног ограничења.",
     add_items_today_msg: "Предмети Додај Данас",
-    file_statistic_msg: "Статистика ставка ставка датотека",
+    file_statistic_msg: "Статистика за ову датотеку.",
     used_quota: "Користи се ставка",
   },
 
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "ставка",
       static: {
-        false_title: "ставка ставка",
+        false_title: "Са анимацијама",
         false_description:
           "Категорије и производи имају интерактивну анимацију која приказује функционалност.",
         true_title: "Статично",
-        true_description: "Категорије ставка Производи ставка не ставка",
+        true_description: "Категорије и производи немају анимацију.",
       },
     },
 
@@ -7522,15 +7522,15 @@ export default {
           "Једноставан и минималан режим без икаквих додатних радњи на картицама производа.",
         true_description:
           "Прикажи дугмад за брзу куповину и додавање за поређење на картици производа која лебде.",
-        true_title: "Прикажи ставка ставка ставка",
+        true_title: "Прикажи радњу при лебдењу",
       },
     },
     filter_products: {
       title: "Филтер Производи",
       only_available: {
-        false_description: "Прикажи све Производи ставка ставка Схоп Листа ставка Уобичајено",
+        false_description: "Прикажи све производе на листи продавница као подразумевано.",
         true_description:
-          "Прикажи ставка На располагању Производи ставка ставка Схоп Листа ставка Уобичајено",
+          "Подразумевано прикажи само доступне производе на листи продавница.",
         true_title: "На располагању Производи",
         false_title: "све Производи",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "Филтер Категорије",
       hide_empty_folders: {
-        false_description: "Прикажи све Категорије ставка ставка Схоп Листа",
+        false_description: "Прикажи све категорије на листи продавница.",
         false_title: "Прикажи све Категорије",
         true_title: "Сакриј ставка Категорије",
         true_description:
-          "Прикажи ставка Категорије ставка Производи ставка ставка Схоп Листа",
+          "Прикажи само категорије са производима на листи продавница.",
       },
     },
 
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "главни Веб сајт ставка",
-      subtitle: "ставка ставка Од Google ставка",
+      subtitle: "Изаберите свој омиљени фонт из Гоогле фонтова.",
     },
     inputs: {
       font_family: {
-        label: "ставка ставка",
-        message: "ставка ставка ставка Валуе",
+        label: "Фонт Фамили",
+        message: "Унесите вредност породице фонтова.",
       },
       font_res: {
-        label: "ставка ставка",
-        message: "ставка ставка ",
+        label: "Фонт Ресоурце",
+        message: "Одредите ресурс фонта.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Хеадер Наслов",
-        set_empty: "ставка ставка Наслов",
+        set_empty: "Поставите празан наслов",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Уредити ставка ставка",
-    add_title: "Додај ставка ставка",
+    edit_title: "Уреди скуп својстава",
+    add_title: "Додај скуп својстава",
     config: {
       subtitle:
         "Поставите наслов и опис за свој сет својстава. Биће видљиво само особљу.",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Унесите наслов за скуп својстава...",
       },
       description: {
-        placeholder: "ставка ставка ставка Опис (опционо)",
+        placeholder: "Унесите кратак опис... (опционално)",
       },
       custom_variants: {
         true_title: "Обичај Варијанте",
         false_title: "Уобичајено Варијанте",
-        true_description: "ставка ставка Производ Варијанте",
-        false_description: "ставка Уобичајено ставка Варијанте",
+        true_description: "Прилагодите своје варијанте производа.",
+        false_description: "Користите подразумеване глобалне варијанте.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "ставка ставка ставка (опционо)",
+        placeholder: "Подесите вредности... (опционо)",
         messages:
-          "ставка ставка 🛍 Наручите",
+          "Можете дати предлоге за вредности и прилагодити редослед.",
       },
     },
   },
@@ -7833,14 +7833,14 @@ export default {
       "Да бисте додали купца у своју продавницу, наведите или адресу е-поште или број телефона.",
     more: {
       title: "Додајте више детаља",
-      subtitle: "ставка Валута, купац Цлуб, Сегменти, адреса ставка Више. .",
+      subtitle: "Подесите валуту, клуб купаца, сегменте, адресу и још много тога.",
     },
     detail: {
       subtitle:
         "Водите евиденцију личних података о вашем клијенту. Молимо вас да поштујете приватност вашег клијента.",
     },
     preferences: {
-      subtitle: "ставка Уобичајено корисник Валута, купац Цлуб, ставка Сегменти ставка",
+      subtitle: "Овде подесите подразумевану корисничку валуту, клуб купаца и сегменте.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Кликните на следеће дугме ако желите да пошаљете овај пакет путем <b>доставне службе</b> .",
     courier_action: "Испорука ставка",
-    courier_action_subtitle: "ставка ставка ",
+    courier_action_subtitle: "Мој курир ће преузети пакет.",
 
-    pickup_ready_action: "ставка ставка",
+    pickup_ready_action: "Спреман за преузимање",
     pickup_ready_action_subtitle: "Поруџбина је спремна за преузимање.",
 
-    service_action: "ставка ставка",
+    service_action: "Потврда извршења",
 
     checklist: [
       "Проверите личну карту курира.",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Опција 3: Тренутна испорука.",
 
     verify_delivery_input: {
-      true_title: "ставка Испорука ставка",
+      true_title: "Потврдите завршетак испоруке",
       true_description:
         "Потврђујем да је поруџбина испоручена купцу.",
     },
@@ -8028,7 +8028,7 @@ export default {
         account_number: {
           label: "Број рачуна",
           message:
-            "ставка ставка банка Рачун",
+            "Јединствени број повезан са одређеним банковним рачуном.",
         },
         routing_number: {
           label: "Број рутирања (САД) или код сортирања (УК)",
@@ -8041,7 +8041,7 @@ export default {
             "Међународни код који се користи за идентификацију банака широм света, посебно за међународне трансфере.",
         },
         iban: {
-          label: "IBAN (ставка банка Рачун ставка)",
+          label: "ИБАН (међународни број банковног рачуна)",
           message:
             "Користи се првенствено у Европи, ИБАН је међународно договорени систем за идентификацију банковних рачуна преко државних граница.",
         },
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "ставка ставка",
+      title: "Тиер Бронзе",
       description:
-        "ставка ставка 2% Комисија Од ставка ставка",
+        "Ви сте у бронзаном рангу. Зарадили сте 2% провизије од ваших препорука.",
     },
     Silver: {
-      title: "ставка ставка",
+      title: "Тиер Силвер",
       description:
-        "ставка ставка 4% Комисија Од ставка ставка",
+        "Ви сте у сребрном рангу. Зарадили сте 4% провизије од ваших препорука.",
     },
     Gold: {
-      title: "ставка ставка",
+      title: "Тиер Голд",
       description:
-        "ставка ставка 6% Комисија Од ставка ставка",
+        "Ви сте у златном рангу. Зарадили сте 6% провизије од ваших препорука.",
     },
     Platinum: {
-      title: "ставка ставка",
+      title: "Тиер Платинум",
       description:
-        "ставка ставка 8% Комисија Од ставка ставка",
+        "Налазите се у платинастом нивоу. Зарадили сте 8% провизије од ваших препорука.",
     },
     Diamond: {
-      title: "ставка ставка",
+      title: "Тиер Диамонд",
       description:
-        "ставка ставка 10% Комисија Од ставка ставка",
+        "Ви сте у Дијамантском нивоу. Зарадили сте 10% провизије од ваших препорука.",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Монетизе",
-    subtitle: "ставка Приступ До пословање ставка",
+    subtitle: "Проширите приступ пословним могућностима.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8525,28 +8525,28 @@ export default {
 
     template: {
       title: "ставка",
-      valid_message: "ставка ставка Креирај Обичај SMS порука",
+      valid_message: "Можете креирати прилагођене СМС поруке.",
       provider_not_enable_message: "СМС провајдер није омогућен!",
       need_custom_provider_message:
         "Прилагођене СМС поруке раде само ако поставите прилагођеног провајдера.",
       add_new: "Додај Нова",
       disable_reason: {
-        set_provider: "ставка ставка !",
-        provider_is_disabled: "ставка ставка ставка!",
-        otp: "OTP - ставка ставка!",
-        select_another_provider: "Изабери ставка ставка",
+        set_provider: "Прво поставите свог провајдера!",
+        provider_is_disabled: "Провајдер је онемогућен!",
+        otp: "ОТП - Ништа прилагодљиво!",
+        select_another_provider: "Изаберите другог провајдера.",
       },
       enable_only_filter: "Прикажи ставка омогућено",
 
       text_template_not_supported_msg:
         "Ваш провајдер не подржава обичне текстуалне поруке.",
       structure_template_not_supported_msg:
-        "ставка ставка Подршка ставка порука",
+        "Ваш провајдер не подржава структуралне поруке.",
 
       structured_data: "ставка Подаци",
 
       menu: {
-        reset_error: "ставка ставка",
+        reset_error: "Ресетујте грешке",
         send_test: "Пошаљи ставка Порука",
       },
     },
@@ -8559,19 +8559,19 @@ export default {
           "Можете да креирате шаблон за СМС поруку на веб локацији свог СМС провајдера, а затим овде наведете њен код и структуру података. Проследићемо ове информације вашем провајдеру, где ће бити генерисана стварна СМС порука.",
         code: "Код",
         language_msg: "Оставите празно да бисте га поставили као подразумевани.",
-        enable_msg: "ставка Шаблон ставка ставка Користи се До Креирај порука",
+        enable_msg: "Овај шаблон ће се користити за креирање порука.",
       },
       text: {
-        title: "ставка ставка",
+        title: "Обичан текст",
         subtitle:
           "Овде унесите персонализовану СМС поруку. Динамичке вредности ће бити замењене њиховим стварним вредностима пре него што буду послате кориснику.",
         message: "Порука",
         reset_to_default: "ставка До Уобичајено",
 
         auto_fill: {
-          title: "аутоматски ставка ставка",
+          title: "Параметри аутоматског попуњавања",
           subtitle:
-            "Selldone ставка ставка Валуе",
+            "Можете користити сваки од ових параметара у тексту и Селлдоне ће их заменити одговарајућом вредношћу.",
         },
 
         sample: {
@@ -8585,12 +8585,12 @@ export default {
         add_new_parameter: "Додај Нова ставка",
 
         auto_fill: {
-          title: "аутоматски ставка ставка",
+          title: "Параметри аутоматског попуњавања",
           subtitle:
             "Сваки од ових параметара можете поставити као вредност, а Селлдоне ће их заменити одговарајућом вредношћу. Боље је да дефинишете подразумеване вредности као шаблоне у свом СМС провајдеру ради једноставности. У овом случају, овде неће бити потребе да дефинишете вредности параметара.",
         },
         request: {
-          title: "ставка ставка",
+          title: "Узорак носивости",
         },
         sample: {
           title: "ставка Шаблон Порука",
@@ -8603,7 +8603,7 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "ставка ставка",
+      title: "Плаин Тект",
       desc: "Порука ће бити креирана од текста са параметрима аутоматске замене и послата.",
     },
     template: {
@@ -8615,10 +8615,10 @@ export default {
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "Обичај SMS ставка",
-    reset_error: "ставка ставка",
+    reset_error: "Ресетујте грешке",
     subtitle:
       "Подесите прилагођеног добављача СМС услуга и прилагодите свој СМС за аутентификацију и назив предузећа. Подразумевани провајдер само шаље СМС за аутентификацију и поруке са информацијама у неким земљама са беле листе.",
-    plain_text: "ставка ставка",
+    plain_text: "Обичан текст",
     structural_template: "ставка Шаблон",
     errors_limit_msg:
       "Ако ваша услуга премаши 100 грешака, биће аутоматски онемогућена! Можете ресетовати грешке да бисте га поново омогућили.",
@@ -8630,7 +8630,7 @@ export default {
         "СМС поруке ће бити испоручене преко вашег провајдера услуга.",
     },
     test_input: {
-      true_title: "ставка ставка",
+      true_title: "Потврдите конфигурацију",
       true_description:
         "We will send a test message to your phone number 📞 <b>{phone}</b>, it can charge you, but you can make sure everything works well.",
     },
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "OTP ставка",
-      description: "ставка порука ставка ставка Послано",
+      description: "Поруке за потврду идентитета ће бити послате.",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Обичај ставка ставка",
+    title: "Прилагођени сервер поште",
     subtitle:
       "Повежите свог провајдера е-маил услуга да бисте слали е-пошту преко вашег прилагођеног домена.",
     provider: "ставка",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "Пошаљи ставка ставка Емаил",
+      send_test_email: "Пошаљите пробну е-пошту",
     },
 
     messages: {
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "Датотека је успешно избрисана.",
     },
-    drag_sort_msg: "ставка ставка датотеке",
-    paid_mode_msg: "Корисници ставка Преузми ставка ставка Производ",
+    drag_sort_msg: "Можете превући и сортирати датотеке.",
+    paid_mode_msg: "Корисници га могу преузети тек након куповине производа.",
     free_mode_msg:
       "Корисници га могу бесплатно преузети. Датотеке узорака морају бити мање од 50 МБ.",
     has_gust_shopping_msg:
       "Регистровани и гостујући корисници могу да преузимају датотеке пошто су куповине гостију омогућене у подешавањима продавнице > ток.",
     only_registered_shopping_msg:
-      "ставка Регистрован Корисници ставка Преузми ставка датотеке",
+      "Само регистровани корисници могу преузети узорке фајлова.",
     file_count_limit: "датотеке Цоунт Лимит",
   },
 
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "не ограничење",
     import: {
       title: "ставка профил",
-      subtitle: "Изабери ставка ставка Локације профил",
+      subtitle: "Изаберите профил сачуваних локација.",
     },
     export: {
       title: "сачувати профил",
-      subtitle: "продавница Локације ставка ставка ставка",
+      subtitle: "Локације складиштења за будућу употребу.",
     },
     has_restriction_input: {
       title: "ставка Локација ограничење",
       description:
         "Купци могу купити овај производ само у оквиру наведене земље и поштанског броја, због утврђеног ограничења локације.",
     },
-    zip_pin_code: "ставка / ставка код",
+    zip_pin_code: "Поштански/пин кодови",
     no_country_selected_error:
       "Укључите најмање једну земљу заједно са листом поштанских/пин кодова. Без тога, овај производ неће бити доступан.",
     tips: "Click on the <b>+ Add Country</b> button to start creating a new location set. Once you're done, you can save it by clicking on the top-right <b>⋮ Menu</b> and selecting <b>Save Profile</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Унесите име да бисте сачували овај скуп локација. Овај сачувани скуп локација може се применити на друге производе, омогућавајући брзо учитавање локације само једним кликом. Ако профил са наведеним именом већ постоји, биће ажуриран овим новим вредностима.",
       title_input: {
         title: "профил Наслов",
-        placeholder: "ставка Категорија Име, ставка продавница Име,. ..",
+        placeholder: "Назив категорије, или назив продавнице,...",
       },
     },
     load_profile_dialog: {
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Не пропустите своје наруџбине!",
     msg: "Управљајте својим пословањем било где и било када.",
-    scan_qr_code: "ставка ставка телефон!",
+    scan_qr_code: "Скенирај ме својим телефоном!",
 
     notification: {
       title: "Обавештење",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "Наређења",
-      subtitle: "погледај ставка Наређења ставка Управљај ставка",
+      subtitle: "Погледајте своје поруџбине и управљајте њима.",
     },
     product: {
       title: "Производи",
-      subtitle: "Инвентар Управљање ставка Производ ставка",
+      subtitle: "Управљање залихама и обичан производ.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "Додај Нова продавница",
-    i_have_a_deal: "ставка ставка ",
+    i_have_a_deal: "Имам договор",
     access: {
       title: "Приступ ставка",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "ставка ставка ставка",
+    title: "Распоред објављивања садржаја",
     subtitle:
       "Ево листе заказаних чланака за будуће објављивање. Имате могућност да закажете објаве на блоговима, па чак и описе производа у одређено време.",
   },
@@ -9493,11 +9493,11 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Пошаљи ставка ставка",
+    title: "Пошаљи директан захтев",
     message:
       "Идентификујте своје 3 највеће пословне потребе да бисте напредовали и профитирали на Селлдонеу. Ове информације ће се делити директно са оснивачима и директорима и пажљиво ће се размотрити. Такође можете ажурирати своје потребе током времена након подношења.",
-    expand_action: "писање ставка ставка",
-    input_label: "ставка ставка",
+    expand_action: "Напишите захтев...",
+    input_label: "Ваш захтев",
     to: {
       ceo: "Пошаљи До CEO",
       team: "Пошаљи До ставка",
@@ -9545,16 +9545,16 @@ export default {
     test: {
       title: "продавница",
       subtitle: "ставка услуга Извештај",
-      action: "ставка ставка",
-      last_update: "ставка ставка ставка",
+      action: "Тестирајте везу",
+      last_update: "Последњи пут ажурирао",
     },
     service_status: {
       title: "услуга Статус",
-      syncing_message: "ставка ставка ставка",
+      syncing_message: "У процесу синхронизације...",
       action: "ставка све",
       connect_status: "Connect Статус",
       service_status: "услуга Статус",
-      auto_confirm_enable_msg: "ставка ставка Наређења ставка омогућено",
+      auto_confirm_enable_msg: "Омогућена је аутоматска потврда за поруџбине.",
       auto_confirm_disable_msg:
         "Аутоматска потврда поруџбина није омогућена.",
       shipping_enable_msg:
@@ -9565,10 +9565,10 @@ export default {
       auto_confirm_order: "аутоматски ставка Наређења",
       test_mode: "ставка режим",
       status: {
-        subtitle: "ставка информације ставка ставка Статус",
+        subtitle: "Укупне информације о статусу синхронизације.",
       },
       sync: {
-        title: "ставка ставка",
+        title: "Детаљи синхронизације",
         subtitle:
           "Детаљи интерне синхронизације. Ове информације се чувају након што се епоха процеса синхронизације успешно заврши.",
         no_data: "не ставка информације!",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "List of added products from {name}. Make sure your product has a unique name and SKU. Some Connect services are used for migration, so if you have products with duplicate <b>SKUs</b> and <b>Names</b>, those products will be changed!",
       action: "ставка Производи",
-      syncing_message: "ставка ставка ставка",
+      syncing_message: "У процесу синхронизације...",
     },
 
     logs: {
@@ -9595,21 +9595,21 @@ export default {
       service: {
         title: "услуга",
         subtitle:
-          "Изабери ставка ставка, Испустити поруџбеницу ставка, ставка Маркетплаце До повежи",
+          "Изаберите циљну платформу, дропсхиппинг добављача или тржиште за повезивање.",
       },
       test: {
         false_title: "ставка све",
         false_desc: "ставка све На располагању Производи, Категорије, Купци",
-        true_title: "ставка (ставка ставка ставка)",
+        true_title: "Ограничено (препоручено за почетнике)",
         true_desc:
           "Добијте највише 5 производа, категорија и купаца. У било ком тренутку можете да га пребаците у пуни режим у оквиру Цоннецт > Сеттинг.",
       },
       overwrite: {
-        false_title: "ставка ставка Промена ставка ставка",
+        false_title: "Не мењајте ако постоје",
         false_desc: "Задржите постојеће детаље о производу и категорији онаквима какви јесу.",
         true_title: "ставка",
         true_desc:
-          "ажурирање ставка Производ, ставка, ставка Категорија информације",
+          "Ажурирајте постојеће информације о производу, варијанти и категорији.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
@@ -9626,7 +9626,7 @@ export default {
       },
       confirm: {
         label: "аутоматски ставка Наређења",
-        false_desc: "ставка ставка ставка 🛍 Наручите ставка",
+        false_desc: "Требало би да потврдите поруџбину ручно.",
         true_desc:
           "Поруџбине са плаћањем уживо биће аутоматски одобрене. Поруџбине са плаћањем за отклањање грешака неће се аутоматски одобравати.",
         tips: "Поруџбине плаћене поклон картицом или ЦОД-ом или гејтвеји за плаћање у режиму за отклањање грешака су изузеци и неће бити аутоматски потврђене.",
@@ -9644,7 +9644,7 @@ export default {
       },
 
       remove: {
-        verify: "ставка ставка До Уклони ставка ставка",
+        verify: "Потврђујем да уклоним ову везу.",
         action: "Уклони повежи",
       },
     },
@@ -9661,8 +9661,8 @@ export default {
         "Заборавите апликације и додатке за дропсхиппинг! Цоннецт је будућност управљања наруџбама на више платформи.",
       auto_confirm: "аутоматски ставка",
       shipping: "поштарина",
-      syncing_now: "ставка ставка!",
-      sync_not_started: "ставка ставка ставка почетак ставка!",
+      syncing_now: "Синхронизујем одмах!",
+      sync_not_started: "Синхронизација још није почела!",
     },
   },
 
@@ -9700,7 +9700,7 @@ export default {
     add_new_action: "Додај Нова страница",
     subtitle:
       "Креирајте препознатљиве прилагођене странице за свој бренд користећи свестрани инлине уређивач који покреће АИ и аутоматски генерише динамички садржај уносом података.",
-    empty_message: "Дизајн Обичај Пагес ставка ставка & ставка",
+    empty_message: "Дизајнирајте прилагођене странице превлачењем и испуштањем...",
   },
 
   /**
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Коментари",
     subtitle: "Ово је листа коментара заједнице.",
-    empty_msg: "не Коментари ставка ставка ",
+    empty_msg: "До сада није направљен ниједан коментар...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Категорије",
     subtitle: "Ово је листа категорија заједнице.",
     new_category_action: "Нова категорија",
-    empty_msg: "не Категорије ставка ставка ",
+    empty_msg: "До сада није направљена ниједна категорија...",
     filter: {
       delete: {
         title: "Избрисан",
@@ -9758,10 +9758,10 @@ export default {
         description: "Прикажи извештај ставка",
       },
     },
-    empty_msg: "не ставка ставка ",
+    empty_msg: "До сада није направљен ниједан пост...",
     menu: {
       open_post: {
-        title: "ставка ставка",
+        title: "Отвори пост",
         subtitle: "Погледајте и уредите пост у заједници.",
       },
       spam: {
@@ -9770,7 +9770,7 @@ export default {
       },
       delete: {
         title: "Избриши ставка",
-        subtitle: "Уклони ставка ставка",
+        subtitle: "Уклони овај пост.",
       },
     },
   },
@@ -9798,8 +9798,8 @@ export default {
       title: "претрага ставка",
       subtitle: "Додајте мета ознаку на своју почетну страницу за верификацију Гоогле Сеарцх Цонсоле-а.",
       code: {
-        label: "ставка ставка Таг",
-        placeholder: "Од ставка, ставка ставка",
+        label: "Мета ознака верификације",
+        placeholder: "Са гоогле-а, нпр. виКг9мјдБј...",
       },
     },
     serp: {
@@ -9831,7 +9831,7 @@ export default {
     title: "повраћај новца ставка",
     boosted: "ставка (2Икс)",
     min_purchase: "Минимална куповина",
-    only_first_order: "ставка ставка 🛍 Наручите",
+    only_first_order: "Само први ред",
     total_cashback: "Укупно повраћај новца",
     delete_alert: {
       title: "Избриши повраћај новца ставка",
@@ -9839,7 +9839,7 @@ export default {
       action: "Да, Избриши одмах",
     },
     notifications: {
-      delete_success: "повраћај новца ставка Избрисан ставка",
+      delete_success: "Цасхбацк програм је успешно обрисан.",
     },
   },
   /**
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "повраћај новца ставка",
-      message: "ставка ставка повраћај новца ставка Од 1% До 20%.",
+      message: "Унесите проценат поврата новца од 1% до 20%.",
     },
     currency_input: {
       message: "Програм поврата новца биће доступан само за ову валуту.",
     },
     limit_input: {
       title: "Лимит",
-      hint: "ставка ставка максимум Износ ставка повраћај новца",
-      zero_message: "ставка 0 ставка Неограничено повраћај новца",
+      hint: "Унесите максималан износ поврата новца.",
+      zero_message: "Унесите 0 за неограничен повраћај новца.",
     },
     duration: {
       title: "Трајање Лимит",
@@ -9926,17 +9926,17 @@ export default {
       title: "Опис",
     },
     constraints: {
-      subtitle: "ставка ставка повраћај новца ставка",
+      subtitle: "Поставите ограничења за програм поврата новца.",
     },
     min_purchase_input: {
-      hint: "ставка ставка минимум Куповина Износ ставка повраћај новца ставка",
+      hint: "Унесите минимални износ куповине за програм поврата новца.",
       title: "Минимална куповина",
     },
     only_first_buy_input: {
       false_desc: "Програм поврата новца ће бити доступан за све поруџбине.",
       true_desc:
         "Цасхбацк програм ће бити доступан само за прву поруџбину.",
-      true_title: "ставка ставка 🛍 Наручите",
+      true_title: "Само први ред",
       false_title: "све Наређења",
     },
     qualify_input: {
@@ -9954,8 +9954,8 @@ export default {
         "Повезивањем кластера са програмом поврата новца, можете ефикасније управљати њиме.",
     },
     notifications: {
-      add: "повраћај новца ставка Додај ставка",
-      edit: "повраћај новца ставка ставка ставка",
+      add: "Програм поврата новца је успешно додат.",
+      edit: "Цасхбацк програм је успешно ажуриран.",
     },
     enable_input: {
       true_msg: "Цасхбацк програм је активан и купци га могу користити.",
@@ -9966,9 +9966,9 @@ export default {
       false_title: "Нормално",
       true_title: "ставка (2Икс повраћај новца)",
       true_msg:
-        "ставка повраћај новца ставка ставка режим ставка Купци ставка Примите 2Икс повраћај новца",
+        "Цасхбацк програм је у режиму повећања и купци ће добити 2к повраћај новца.",
       false_msg:
-        "ставка повраћај новца ставка ставка ставка Нормално режим ставка Купци ставка Примите Нормално повраћај новца",
+        "Цасхбацк програм је у нормалном режиму и купци ће добити нормалан повраћај новца.",
     },
   },
 
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "повраћај Плаћање",
-        subtitle: "ставка ставка ставка повраћај подршка",
+        subtitle: "Подржан је делимични или потпуни повраћај средстава.",
       },
       delivery: {
-        title: "ставка ставка Испорука",
+        title: "Потврдите приликом испоруке",
         subtitle: "Можете ручно потврдити испоруку за добављача плаћања.",
       },
     },
@@ -10019,7 +10019,7 @@ export default {
       description:
         "Потврђујем да је поруџбина испоручена купцу.",
     },
-    action: "ставка ставка",
+    action: "Потврди одмах",
   },
 
   /**
@@ -10031,8 +10031,8 @@ export default {
     subtitle:
       "У овом одељку можете да додате и управљате производима за унакрсну продају за ову страницу производа. Ови производи ће бити приказани као предлози за куповину поред главне ставке. Такође можете поставити попусте да бисте подстакли и подстакли додатне куповине. Систем ће приказати највише 3 ставке које купац може размотрити.",
     dialog: {
-      edit_title: "Уредити ставка ставка Производ",
-      add_title: "Додај Нова ставка ставка Производи",
+      edit_title: "Уредите производ за унакрсну продају",
+      add_title: "Додајте нове производе за унакрсну продају",
       target: {
         title: "ставка Производ",
         subtitle:
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "ставка Производ",
-        subtitle: "ставка Производ ставка ставка ",
+        subtitle: "Овај производ је изабран за промоцију унакрсне продаје.",
         manage_product: "Управљај Производ",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Направите убедљив и примамљив наслов да бисте привукли пажњу купаца.",
           placeholder:
-            "ставка & сачувати: ставка ставка !",
+            "Пакет и уштедите: Употпуните свој изглед нашим одабраним избором!",
         },
       },
       action: {
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Додај Варијанте ставка ставка",
+    title: "Додајте варијанте на велико",
     variants: {
-      title: "ставка ставка",
+      title: "Вариант Оптионс",
       subtitle:
         "Изаберите до две опције варијанте. Након одабира, можете одабрати које ћете специфичне варијанте аутоматски креирати.",
     },
     values: {
-      title: "ставка ставка",
-      subtitle: "ставка ставка ",
+      title: "Вариант Валуес",
+      subtitle: "Овде унесите могуће вредности за сваку опцију варијанте.",
       prevent_duplicates_tips:
         "<b>Note:</b> We automatically check for existing variants to prevent duplicates.",
     },
     inventory: {
       title: "ставка Инвентар",
-      subtitle: "ставка ставка почетак Инвентар Цоунт ставка ставка Нова Варијанте",
+      subtitle: "Подесите почетни број инвентара за нове варијанте.",
     },
     add_variants_action: "Креирај Варијанте",
   },
@@ -10132,13 +10132,13 @@ export default {
      */
     health: {
       title: "Производ ставка",
-      available_in_stock_msg: "Производ ставка На располагању ставка ставка",
-      out_of_stock_msg: "Производ ставка ставка ",
+      available_in_stock_msg: "Производ је доступан на лагеру.",
+      out_of_stock_msg: "Производ није на залихама.",
       file_count_msg:
-        "{files_count} датотеке ставка Укупно {files_size} Отпреми ставка ставка Производ",
-      no_file_uploaded_msg: "не датотека ставка ставка Отпреми ставка",
+        "{files_count} files with total {files_size} uploaded for this product.",
+      no_file_uploaded_msg: "Још увек није отпремљена ниједна датотека.",
       no_image_uploaded_msg:
-        "Отпреми ставка Производ Слика До заради ставка Више. . ставка",
+        "Отпремите слику производа да бисте је учинили привлачнијом.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10167,11 +10167,11 @@ export default {
       title: "Прицинг",
       no_product_price_msg: "Подразумевана цена производа још није одређена!",
       listing_pricing_msg: "Листинг Прицинг:",
-      has_valuation_msg: "Производ ставка ставка",
+      has_valuation_msg: "Производ има вредновање.",
       subscription_pricing_msg:
-        "ставка Производ ставка {count} Претплата Прицинг Планови",
+        "This product has {count} subscription pricing plans.",
       has_no_subscription_pricing_msg:
-        "ставка Производ ставка не Претплата Прицинг Планови",
+        "Овај производ нема планове цена претплате.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "ставка Претплата Прицинг Планови",
       subtitle:
-        "ставка Производ ставка не Претплата Прицинг Планови ставка ставка До Додај ставка ставка ставка Претплата Прицинг План До заради ставка Производ На располагању ставка Претплата Куповина",
+        "Овај производ нема планове цена претплате. Морате да додате најмање један план цена претплате да би овај производ био доступан за куповину претплате.",
       pricing_plans: "Прицинг Планови",
     },
 
@@ -10189,11 +10189,11 @@ export default {
     location: {
       title: "ставка Локација ограничење ● {status}",
       status: {
-        has_restriction: "На располагању ставка {count} ставка",
-        no_restriction: "ставка ставка",
+        has_restriction: "Available in {count} countries",
+        no_restriction: "Није ограничено",
       },
       available_countries_msg:
-        "ставка ставка ставка До {count} ставка ставка {countries}.",
+        "Shopping globally restricted to {count} countries. These countries are {countries}.",
       disable_for_all_countries_msg:
         "Куповина је онемогућена за све земље у вашој радњи > подешавања локација.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10226,10 +10226,10 @@ export default {
         subscription_tax_msg:
           "Порез можемо применити само на корак креирања плаћања.",
         dedicated: "ставка",
-        is_disabled: "ставка Порез профил ставка онемогућено!",
+        is_disabled: "Овај порески профил је онемогућен!",
         tax_is_based_on_location: "Порез: Локација ставка",
         shipping_tax_is_based_on_location: "поштарина: Локација ставка",
-        included_in_price: "ставка ставка Цена",
+        included_in_price: "Укључено у цену.",
       },
     },
 
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "ставка Производ ставка До <b>{vendor}</b>.",
+      vendor_owner_msg: "This product belongs to <b>{vendor}</b>.",
       has_vendors_msg: "There is {count} vendors for this product.",
       no_vendor_msg:
         "Нисте доделили продавца овом производу, тако да купци не могу да га купе.",
@@ -10264,7 +10264,7 @@ export default {
     card: {
       title: "ставка",
       description:
-        "ставка HTML Код До Додај Производ Картице ставка ставка HTML Пагес",
+        "Генеришите ХТМЛ код да бисте додали картице производа на друге платформе и ХТМЛ странице.",
     },
     iframe: {
       title: "ставка",
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Приступ ставка",
-        placeholder: "Изабери ставка ставка",
+        placeholder: "Изаберите ниво...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "Приступ ставка",
-        message: "Нова Приступ ставка ставка ставка Додај",
+        message: "Нови приступ је успешно додат.",
       },
       update_success: {
         title: "Приступ ставка",
-        message: "Дозволе ставка ставка ",
+        message: "Дозволе су успешно ажуриране.",
       },
     },
   },
@@ -10357,12 +10357,12 @@ export default {
     search_tips: {
       title: "претрага ставка",
       normal:
-        "<b>ставка претрага: </b>претрага ставка Наслов, MPN, SKU, Марка, ставка Ознаке",
+        "<b>General Search: </b>Search by Title, MPN, SKU, Brand, or Tags.",
       product:
         "<b>Exact Product ID: </b>Use P+Product ID to find a specific product, e.g., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Exact Phrase: </b>Use quotation marks to search for an exact phrase, e.g., <b class=\"text-green\">\"</b><i class=\"text-yellow\">your text here</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>Порез профил: </b>претрага ставка Производи ставка ставка ставка Порез профил ставка \"Порез:\", ставка, <b class=\"text-green\">Порез:</b><i class=\"text-yellow\">Порез профил Име</i>.",
+      tax: "<b>Tax Profile: </b>Search for products with a specific tax profile using \"tax:\", e.g., <b class=\"text-green\">tax:</b><i class=\"text-yellow\">tax profile name</i>.",
       new_products:
         "<b>New Products: </b>Find products added within a specific date range, e.g., <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
@@ -10376,20 +10376,20 @@ export default {
     subtitle:
       "Унесите кључ који ће бити замењен његовом одговарајућом вредношћу у садржају странице. Кључеви треба да имају највише 32 знака.",
     add_caption: "Додај Нова предмет",
-    add_sub_caption: "Додај Обичај ставка ставка",
+    add_sub_caption: "Додајте прилагођени пар кључ/вредност.",
     add_dialog: {
       title: "Изабери Улазни Тип",
       html: {
-        title: "ставка & ставка",
+        title: "Текст & Хтмл",
         subtitle: "Вредност ставке може бити означена као текст или ХТМЛ.",
       },
       image: {
         title: "Слика",
-        subtitle: "ставка ставка Отпреми ставка Слика",
+        subtitle: "Можете да отпремите слику.",
       },
     },
     help_dialog: {
-      title: "ставка До ставка ставка ставка",
+      title: "Како користити динамички садржај",
       how_it_works_tips:
         "На одредишним страницама имате флексибилност да одредите динамичке чуваре места за текст и слике. Ови чувари места имају значајну улогу у прилагођавању садржаја према контексту.   Динамичка природа ових чувара места омогућава им да буду попуњени вредностима повећања, које могу да варирају у зависности од различитих фактора. На пример, вредности повећања могу да се разликују за сваки производ или категорију. Права предност ове функције долази у обзир када имате разне предмете са различитим атрибутима. Можете ефикасно да користите ове динамичке чуваре места да персонализујете и побољшате приказ сваке ставке, стварајући тако јединствено и интерактивно искуство на вашим одредишним страницама.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "За сваки производ имате могућност да доделите наменске парове кључ-вредност.",
       result_tips:
-        "ставка ставка страница, ставка ставка ",
+        "Ово је коначни резултат странице, где су чувари места замењени увећаним вредностима.",
     },
   },
 
@@ -10408,7 +10408,7 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "ставка ставка",
+      title: "Мулти Лангуаге",
       subtitle:
         "Ово је листа језика садржаја. Можете подесити различите садржаје за логистички профил на сваком језику.",
       add_caption: "Додај Нова Чланак",
@@ -10419,20 +10419,20 @@ export default {
       subtitle:
         "Можете прилагодити садржај за логистички профил на више језика.",
 
-      language_input: "ставка Чланак ставка",
+      language_input: "Тренутни језик чланка",
       delete_article: "Избриши Чланак",
       menu_tooltip: "аутоматски ставка / Избриши Чланак",
     },
     translate_to: "ставка До",
     notifications: {
       translate: {
-        message: "Чланак ставка Завршено ставка",
+        message: "Превод чланка је успешно завршен.",
       },
       save_article: {
-        message: "Чланак ставка ставка ",
+        message: "Чланак је успешно сачуван.",
       },
       delete_article: {
-        message: "Чланак ставка ставка Избрисан ставка",
+        message: "Чланак је успешно обрисан.",
       },
     },
     delete_dialog: {
@@ -10461,7 +10461,7 @@ export default {
       accept_delete: {
         true_description:
           "Ова радња ће уклонити све чланке и везе са профилима.",
-        true_title: "ставка ставка До Уклони ставка ставка",
+        true_title: "Потврђујем да уклоним ову везу.",
       },
     },
     actions: {
@@ -10507,10 +10507,10 @@ export default {
     add_caption: "Додај Нова предмет",
     subtitle:
       "Овде можете управљати ставкама укљученим у ваше производе. Да бисте обезбедили беспрекоран изглед за своју продавницу, доследно користите ставке са сличним узорцима слика, као што су жичани оквири, у свим производима.",
-    empty_list_msg: "Листа ставка ставка Предмети",
+    empty_list_msg: "Списак укључених ставки...",
     notifications: {
       delete: {
-        message: "ставка предмет ставка ставка Избрисан",
+        message: "Ставка је избрисана.",
       },
     },
     delete_dialog: {
@@ -10536,10 +10536,10 @@ export default {
       "Изаберите кратак наслов, у идеалном случају са највише 2 до 3 речи. Користите квадратне слике, јер ћемо аутоматски променити величину отпремљених слика у квадратни формат 256к256. За најбољи изглед свих шаблона, користите минималистичке слике са провидном позадином и одржавајте уједначен образац у свим својим производима.",
     inputs: {
       title: {
-        placeholder: "ставка Наслов ставка ставка Производ страница",
+        placeholder: "Кратак наслов приказан на страници производа...",
       },
       code: {
-        placeholder: "ставка Код, пример Мобилни_ставка_ставка",
+        placeholder: "Јединствени код, нпр. мобиле_цабле_усб",
         hint: "Користите овај код да поједноставите процес претраживања за лоцирање ставки.",
       },
       description: {
@@ -10574,7 +10574,7 @@ export default {
         message: "Укључена ставка је успешно додата.",
       },
       edit: {
-        message: "ставка ставка предмет ставка ставка ",
+        message: "Укључена ставка је успешно ажурирана.",
       },
     },
   },
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "не Новчаник!",
 
     withdraw_dialog: {
-      title: "ставка Комисија ставка",
+      title: "Повуците накнаде за провизију",
 
       need_bank_info_message: "Прво унесите своје банковне податке.",
 
@@ -10648,14 +10648,14 @@ export default {
       message: "You can add <b>?ref={code}</b> to any selldone url.",
     },
     intro: {
-      title: "Selldone ставка ставка ставка Аффилиате ставка",
+      title: "Придружите се Селлдоне партнерском програму",
       message:
         "Селлдоне партнерски програм је једноставан и јасан, дизајниран да зарађујете без напора. Поделите своју јединствену придружену везу да бисте позвали нове кориснике на Селлдоне и зарадићете провизију од сваке трансакције коју они направе—заувек. Ово укључује зараду од претплата, накнаде за услуге, надоградње продавница и све друге токове прихода. Почните да зарађујете део прихода без ограничења на време или зараду. Придружите нам се и претворите своју мрежу у стабилан приход!",
-      why_join_selldone_affiliate: "ставка ставка ?",
+      why_join_selldone_affiliate: "Зашто је ово јединствена прилика?",
       reasons: [
-        "ставка ставка ставка!",
+        "То траје заувек!",
         "Покрива све накнаде за претплату и трансакције. Буквално свака уплата корисника на Селдоне.",
-        "Шаљемо бесплатан __ПХ0__ ваучер свакоме ко се региструје помоћу ваше везе.",
+        "Шаљемо бесплатан ваучер од 99 долара свакоме ко се региструје користећи вашу везу.",
         "Када се ваш ниво надогради, зарадићете по новој стопи од свих претходно упућених корисника.",
       ],
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "не ставка Отпреми ставка",
+    no_asset_uploaded: "Још увек нема отпремљених средстава.",
   },
 
   /**
@@ -10690,27 +10690,27 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Омогући ставка ставка До ставка ставка ",
+        "Омогућите ову функцију да лако преуредите и организујете делове тако што ћете их превући.",
     },
     edit_mode_tooltip: {
       title: "Уредити / Преглед режим",
       edit_mode_title: "Уредити режим",
-      edit_mode_msg: "све Уреди Алати ставка ставка ставка",
+      edit_mode_msg: "Биће приказани сви алати за уређивање.",
       view_mode_title: "Преглед режим",
       view_mode_msg:
         "Погледајте своју страницу онако како би је корисници видели тако што ћете сакрити додатне алате за уређивање и празна поља за текст.",
     },
     repository_tooltip: {
-      title: "ставка ставка",
+      title: "Унапред изграђене секције",
       subtitle:
         "Укључите приказ унапред дизајнираних секција. Ови одељци су креирани коришћењем стандардних одељака доступних у левом менију, показујући флексибилност овог креатора страница.",
     },
     live_view: {
       title: "Уживо Преглед",
-      subtitle: "погледај Ажурирај ставка ставка Уредити ставка страница",
+      subtitle: "Погледајте ажурирања у реалном времену док уређујете своју страницу.",
     },
     hotkeys_dialog: {
-      title: "ставка ставка",
+      title: "Пречице на тастатури",
       augment_tips:
         "You can load dynamic content onto your page and replace it with <b>augment</b> values. Augment is used for custom dynamic pages such as <b>Products</b>, <b>Categories</b>, and <b>Include Items</b>. To set an image to load dynamically, click on <b>Feeder</b> and select <b>Dynamic Source</b> for that image.",
     },
@@ -10725,8 +10725,8 @@ export default {
       ctrl_2: "Increase font size of selected text | <big>Make me big</big>",
       ctrl_r: "Уклони сво обликовање из изабраног текста | Очистите све стилове",
       ctrl_s: "сачувати ставка страница",
-      tab: "ставка ставка ставка режим",
-      ctrl_e: "ставка ставка Стил режим",
+      tab: "Пребацивање између режима скале",
+      ctrl_e: "Активирајте или деактивирајте режим клонирања",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "ставка & ставка",
-    subtitle: "ставка ставка",
+    title: "Превуците и испустите",
+    subtitle: "Унапред изграђене секције",
     add_dialog: {
       title: "Додај Обичај ставка",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Слика",
-        subtitle: "Јавно Слика ставка ставка ставка Листа",
+        subtitle: "Јавна слика приказана на листи.",
       },
       code: {
         title: "Код",
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Наслов",
-          message: "ставка ставка ставка Јавно Наслов",
+          message: "Ово је јавни наслов.",
         },
         tags: {
           label: "Ознаке",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Захтев продавца је одбијен.",
       PENDING: "Захтев чека одлуку продавца.",
     },
-    number_of_products: "ставка ставка Производи",
+    number_of_products: "Број производа",
     invited: "ставка",
     no_pricing: "не Прицинг",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Подесите подразумевани модел цена за продавца.",
     },
     updated_products_tooltip: {
-      title: "Производи ставка ставка 24 ставка",
+      title: "Производи ажурирани у последња 24 сата",
     },
     added_products_tooltip: {
       title: "Производи додати у последња 24 сата",
@@ -10806,14 +10806,14 @@ export default {
         "Корисник је одбио захтев да постане продавац и приступи овом продавцу.",
     },
     download_all_vendors: "Преузми све продавци",
-    bulk_import: "ставка Увези (ставка)",
+    bulk_import: "Групни увоз (Екцел)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Лиценца ставка ставка!",
+    title: "Потребна је надоградња лиценце!",
     subtitle:
       "Ваша тренутна лиценца не испуњава захтеве вашег изабраног пословног модела. Надоградите своју лиценцу на Ентерприсе план.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Додај Порука Шаблон",
 
     notifications: {
-      add_chat_success_message: "Порука ставка ставка Додај ставка",
+      add_chat_success_message: "Порука је успешно додата.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Пошаљи ажурирање Емаил",
 
       notifications: {
-        send_success_message: "Емаил ставка ставка Послано ставка",
+        send_success_message: "Е-пошта је успешно послата.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Додај Шаблон",
 
       notifications: {
-        save_success_message: "Шаблон ставка ставка ",
+        save_success_message: "Шаблон је успешно сачуван.",
       },
 
       inputs: {
         title: {
           label: "Шаблон Наслов",
-          placeholder: "писање ставка ставка Наслов",
+          placeholder: "Напиши кратак наслов...",
         },
         body: {
           label: "Шаблон Порука",
-          placeholder: "писање ставка Порука ставка",
+          placeholder: "Напишите своју поруку овде...",
           messages:
-            "ставка ставка {order_id} ставка {buyer_name}.",
+            "You can set dynamic values by {order_id} and {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "ставка",
     guest: "ставка",
     click_to_create: "ставка До Креирај",
-    valid_for_30_days: "ставка ставка 30 30 дана",
+    valid_for_30_days: "важи 30 дана",
     notifications: {
-      secure_link_created: "ставка Линк ставка ставка ",
+      secure_link_created: "Безбедна веза је успешно направљена.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Додај Нова ставка ставка",
-    title: "ставка ставка",
+    add_caption: "Додајте нови скуп својстава",
+    title: "Проперти Сетс",
     subtitle:
       "Овде можете креирати скупове својстава и управљати њима. Скупови својстава се користе за дефинисање својстава производа и услуга. Можете да доделите ове скупове својстава производима на контролној табли производа > Уреди.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "ставка ставка - Обичај Варијанте",
+      title: "Сет својстава – прилагођене варијанте",
       subtitle:
         "Можете да прилагодите називе варијанти за овај производ, замењујући подразумеване.",
     },
 
     subtitle:
       "Овде можете прилагодити називе варијанти, иконе и њихов редослед. За производе са јединственим варијантама које превазилазе подразумеваних шест, можете да подесите прилагођене варијанте прилагођене сваком производу. Једноставно дефинишите скупове својстава на картици Логистиц > Проперти Сетс и доделите их било ком броју производа по потреби.",
-    select_property_set: "Изабери ставка ставка",
-    add_property_set: "Додај ставка ставка",
+    select_property_set: "Изаберите Скуп својстава",
+    add_property_set: "Додај скуп својстава",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10932,19 +10932,19 @@ export default {
     add_action: "Додај ставка",
     subtitle:
       "Направите кутије за вишекратну употребу да бисте убрзали куповину етикета и осигурали тачне цене испоруке. Када испуњавате поруџбину, изаберите сачувану кутију и њене димензије ће се аутоматски попунити.",
-    empty: "не ставка ставка ставка “Додај ставка”.",
+    empty: "Још нема кутија. Кликните на „Додај оквир“.",
     edit: "Уредити ставка",
     new: "Нова ставка",
     default_weight: "Уобичајено Тежина",
-    updated: "ставка ставка",
-    created: "ставка ставка",
+    updated: "Кутија је ажурирана.",
+    created: "Кутија је направљена.",
     deleted: "ставка Избрисан",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Изабери ставка пакет",
-    define_package: "ставка ставка пакет",
+    define_package: "Дефинишите пакет",
     define_package_hint: "Креирајте или уредите своје унапред дефинисане величине пакета",
   },
 
@@ -10984,11 +10984,11 @@ export default {
     items: {
       title: "Предмети",
       sub_title:
-        "Креирај, Уредити, ставка Управљај Листинг Предмети ставка Статус, Прицинг, Контакт Инфо, ставка ставка",
+        "Креирајте, уредите и управљајте ставкама на листи. Контролишите статус, цене, контакт информације и медије.",
 
       empty_title: "не Предмети ставка",
       empty_subtitle:
-        "Креирај ставка ставка Листинг предмет До Почетак Зграда. .. ставка ставка",
+        "Направите своју прву ставку на листи да бисте почели да правите свој именик.",
 
       add_title: "Додајте ставку",
       edit_title: "Уредити предмет",
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Линкови JSON",
-      opening_hours_json: "ставка ставка JSON",
+      opening_hours_json: "Радно време ЈСОН",
 
       delete_title: "Избриши предмет",
-      delete_message: "ставка ставка До Избриши ставка предмет?",
+      delete_message: "Да ли сте сигурни да желите да избришете ову ставку?",
       delete_success: "Ставка је успешно избрисана.",
-      restore_success: "предмет ставка ставка",
+      restore_success: "Ставка је успешно враћена.",
 
-      opening_hours:"ставка ставка",
+      opening_hours:"Радно време",
       form_fields:"образац ставка",
 
       company: "Компанија",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Додај категорију",
       edit_title: "Уреди категорију",
 
-      parent_filter: "Филтер ставка ставка",
+      parent_filter: "Филтрирајте према родитељу",
       parent: "Родитељ Категорија",
 
       price_format: "Цена ставка",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Дизајн ID",
 
       delete_title: "Избриши категорију",
-      delete_message: "ставка ставка До Избриши ставка Категорија?",
+      delete_message: "Да ли сте сигурни да желите да избришете ову категорију?",
       delete_success: "Категорија Избрисан ставка",
       form_schema: "Категорија образац ставка",
     },
@@ -11045,7 +11045,7 @@ export default {
 
       moderation_title: "ставка",
       moderation_mode: "ставка режим",
-      require_first_approved_before_more: "ставка ставка Више. .",
+      require_first_approved_before_more: "Захтевајте прво одобрење пре више",
 
       limits_title: "Ограничења",
       max_pending_per_user: "Макс нерешен ставка корисник",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "предмет ставка ставка",
+      approve_success: "Ставка је успешно одобрена.",
       publish_success: "предмет Објављено ставка",
-      unpublish_success: "предмет ставка ставка",
-      archive_success: "предмет ставка ставка",
+      unpublish_success: "Објављена ставка је опозвана.",
+      archive_success: "Ставка је успешно архивирана.",
       reject_success: "предмет Одбијен ставка",
-      penalty_success: "ставка ставка ставка",
+      penalty_success: "Казна је успешно примењена.",
 
       reject_title: "Одбити предмет",
-      reject_reason: "ставка ставка",
+      reject_reason: "Разлог одбијања",
 
       penalty: "ставка",
       penalty_title: "ставка",
-      penalty_points: "ставка ставка",
+      penalty_points: "Казнени поени",
       penalty_note: "ставка Белешка"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Отпреми Слике",
       url_type: "Тип",
       url: "URL",
-      is_main: "ставка ставка главни"
+      is_main: "Поставите као главни"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Направите више скупова дизајна (картица + шаблони детаља) и доделите их категоријама. Категорије могу користити различите дизајне.",
 
-      empty_title: "не ставка ставка",
+      empty_title: "Још нема дизајна",
       empty_subtitle:
         "Додајте свој први скуп дизајна да бисте почели да прилагођавате изглед категорија.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Детаљи Шаблон",
 
       notifications: {
-        add_success: "Дизајн ставка ставка",
-        edit_success: "Дизајн ставка ставка",
+        add_success: "Дизајн успешно направљен.",
+        edit_success: "Дизајн је успешно ажуриран.",
         delete_success: "Дизајн Избрисан ставка",
       },
 
@@ -11148,19 +11148,19 @@ export default {
 
       empty_title: "не значке ставка",
       empty_subtitle:
-        "Додај ставка ставка значка До Почетак ставка Листинг Предмети",
+        "Додајте своју прву значку да бисте почели да истичете ставке на листи.",
 
       add_title: "Додај значка",
       edit_title: "Уредити значка",
 
       notifications: {
-        add_success: "значка ставка ставка",
-        edit_success: "значка ставка ставка",
+        add_success: "Значка је направљена.",
+        edit_success: "Значка је ажурирана.",
         delete_success: "значка Избрисан ставка",
       },
 
       delete_title: "Избриши значка",
-      delete_message: "ставка ставка До Избриши ставка значка?",
+      delete_message: "Да ли стварно желите да избришете ову значку?",
     },
 
     companies: {
@@ -11170,20 +11170,20 @@ export default {
 
       empty_title: "не Компаније ставка",
       empty_subtitle:
-        "Додај ставка ставка Компанија До Линк ставка До Листинг Предмети",
+        "Додајте своју прву компанију да је повежете са ставкама на листи.",
 
       add_title: "Додај Компанија",
       edit_title: "Уреди компанију",
 
       notifications: {
-        add_success: "Компанија ставка ставка",
-        edit_success: "Компанија ставка ставка",
+        add_success: "Компанија је успешно креирана.",
+        edit_success: "Компанија је успешно ажурирана.",
         delete_success: "Компанија Избрисан ставка",
       },
 
       delete_title: "Избриши Компанија",
       delete_message:
-        "Избриши ставка Компанија? Предмети ставка ставка Компанија Линк",
+        "Избрисати ову компанију? Ставке које га користе аутоматски ће изгубити везу компаније.",
     },
 
 
@@ -11197,7 +11197,7 @@ export default {
       sender: "ставка",
       item: "предмет",
       has_reply: "ставка",
-      has_reply_yes: "ставка ставка",
+      has_reply_yes: "Има одговор",
       has_reply_no: "не ставка",
 
       dialog_title: "Порука",
@@ -11205,12 +11205,12 @@ export default {
       reply: "ставка",
       reply_hint: "Напишите одговор кориснику. Такође можете означити поруку као прочитану/непожељну пошту из радњи.",
 
-      mark_read: "ставка ставка читање",
-      mark_unread: "ставка ставка ставка",
+      mark_read: "Означи као прочитано",
+      mark_unread: "Означи као непрочитано",
       archive: "ставка",
       unarchive: "ставка",
-      mark_spam: "ставка ставка ставка",
-      mark_not_spam: "ставка ставка",
+      mark_spam: "Означи као нежељену пошту",
+      mark_not_spam: "Не спам",
 
       delete_confirm: "Избриши ставка Порука?",
     },
@@ -11218,16 +11218,16 @@ export default {
     enable: {
       title: "Листинг",
       subtitle: "Омогућите или онемогућите своју јавну страницу са листингом. Када се омогући први пут, Селлдоне ће аутоматски креирати конфигурацију листе.",
-      true_description: "Листинг ставка омогућено Купци ставка ставка Листинг Пагес",
+      true_description: "Листинг је омогућен. Купци могу да прегледају странице са листингом.",
       false_description: "Листинг је онемогућен. Странице са листингом и поднесци су блокирани.",
       open_listing: "ставка Листинг",
-      note: "ставка ставка , Ограничења, образац, ставка Дизајн ставка Листинг Подешавања",
+      note: "Касније можете да конфигуришете модерацију, ограничења, обрасце и дизајн унутар подешавања листе.",
       vendor_prereq_text:
         "Желите да продавци додају ставке на листи са свог панела добављача? Прво, пребаците свој пословни модел на Маркетплаце.",
-      vendor_prereq_button: "ставка Маркетплаце пословање ставка",
+      vendor_prereq_button: "Поставите пословни модел Маркетплаце",
 
       vendor_access_text:
-        "ставка ставка продавци ставка Приступ Листинг ставка (Предмети + Компаније). Омогући ставка ставка Маркетплаце Подешавања",
+        "Сада можете да одлучите да ли продавци могу да приступе функцијама листе (ставке + компаније). Омогућите га у подешавањима Маркетплаце-а.",
       vendor_access_button: "Омогући Листинг ставка продавци",
 
       more_options_text:
@@ -11241,26 +11241,26 @@ export default {
 
     search: {
       title: "претрага Подешавања",
-      subtitle: "Дизајн ставка Купци претрага ставка Листинг Омогући ставка претрага ставка Буилд Филтери Од ставка Обичај образац ставка",
+      subtitle: "Дизајнирајте како клијенти претражују ваш унос. Омогућите претрагу засновану на локацији и направите филтере из прилагођених поља обрасца.",
 
       location_title: "Локација претрага",
       location_subtitle: "Омогућите клијентима да изаберу локацију и пронађу резултате у близини у кругу који се може конфигурисати.",
-      location_enabled_true: "Локација Филтер ставка омогућено Купци ставка претрага ставка ставка",
+      location_enabled_true: "Филтер локације је омогућен. Купци могу претраживати по удаљености.",
       location_enabled_false: "Филтер локације је онемогућен. Резултати неће бити филтрирани према удаљености.",
 
       radius_default: "Уобичајено Радијус (ставка)",
       radius_default_hint: "Користи се када купац одабере локацију, али не изабере радијус.",
       radius_max: "максимум Радијус (ставка)",
       radius_max_hint: "Радијус излога ће бити причвршћен на ову вредност.",
-      radius_options: "Радијус ставка (ставка)",
-      radius_options_hint: "ставка ставка ставка",
+      radius_options: "Опције радијуса (км)",
+      radius_options_hint: "Ове вредности се могу приказати као брзе опције у корисничком интерфејсу излога.",
 
       filters_title: "претрага Филтери",
       filters_subtitle: "Додајте филтере који читају вредности из мета поља ставке (поља обрасца ваше листе/категорије). Користите Аутоматско генерисање да бисте прикупили стварне опције из објављених ставки.",
       no_filters: "не Филтери Додај ставка",
-      auto_generate: "ставка ставка",
+      auto_generate: "Аутоматско генерисање опција",
 
-      filter_field: "ставка ставка",
+      filter_field: "Кључ поља",
       filter_label: "Ознака",
       filter_type: "Тип",
       filter_options: "ставка",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "ставка Приступ",
-        "ставка ставка",
-        "ставка пакет",
-        "ставка План",
-        "ставка Претплата",
-        "ставка ставка",
-        "ставка ставка",
-        "Неограничено Понуда",
-        "ставка ставка",
+        "Основни приступ",
+        "Премиум чланство",
+        "Голд Пацкаге",
+        "Сребрни план",
+        "Платинум Субсцриптион",
+        "Ентерприсе Тиер",
+        "Стартер Бундле",
+        "Неограничена понуда",
+        "Породични пакет",
         "Профессионал Суите",
       ],
       description: [
-        "ставка ставка ",
-        "Приступ До све ставка ставка ",
-        "ставка ставка ставка Приоритет Подршка",
+        "Идеално за појединце који истражују основе.",
+        "Приступ свим премиум функцијама и садржају.",
+        "Ексклузивне погодности и приоритетна подршка.",
         "Избалансиран пакет за редовне кориснике.",
-        "ставка Приступ ставка ставка ставка",
-        "Обичај ставка ставка ",
-        "ставка ставка ",
+        "Коначан приступ са врхунским погодностима.",
+        "Прилагођена решења за велике организације.",
+        "Приступачна опција за почетнике.",
         "Нема ограничења у употреби, за напредне кориснике.",
         "Посебан план за породице, до 4 члана.",
-        "ставка ставка Напредно Алати",
+        "Дизајниран за професионалце који траже напредне алате.",
       ],
     },
 
     spec: {
       group: [
         "Техничке спецификације",
-        "ставка ставка",
-        "Перформансе ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "Material ставка Буилд ставка",
-        "Боја ставка Заврши ставка",
-        "ставка ставка ставка",
-        "ставка ставка ставка",
-        "ставка ставка ставка",
-        "пакет ставка",
-        "гаранција ставка Подршка",
-        "Марка ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "корисник ставка ставка Коментара",
-        "Прицинг ставка ставка",
+        "Физичке димензије",
+        "Карактеристике перформанси",
+        "Опције повезивања",
+        "Захтеви за напајање",
+        "Материјал и квалитет израде",
+        "Опције боје и завршне обраде",
+        "Складиштење и меморија",
+        "Компатибилност оперативног система",
+        "Безбедност и усклађеност",
+        "Садржај пакета",
+        "Гаранција и подршка",
+        "Бренд и произвођач",
+        "Енвиронментал Фриендлинесс",
+        "Енергетска ефикасност",
+        "Нега и одржавање",
+        "Опције прилагођавања",
+        "Укључена додатна опрема",
+        "Оцене и рецензије корисника",
+        "Цене и доступност",
       ],
     },
 
     avocado: {
       title: [
-        "Куповина Признаница",
-        "Распродаја ставка",
-        "🛍 Наручите Фактура",
-        "Плаћање Фактура",
-        "купац Признаница",
-        "Трансакција ставка",
-        "Наплате ставка",
-        "Провери Признаница",
-        "🛍 Наручите ставка",
-        "Куповина 🛍 Наручите Фактура",
-        "Продаја Признаница",
-        "ставка Фактура",
-        "ставка",
-        "услуга Фактура",
-        "Производ Фактура",
-        "Плаћање Признаница",
-        "Потврда поруџбине",
-        "Наплате Фактура",
-        "Провери Фактура",
-        "купац Фактура",
+        "Потврда о куповини",
+        "Потврда о продаји",
+        "Наручите фактуру",
+        "Рачун за плаћање",
+        "Признаница купца",
+        "Резиме трансакције",
+        "Извод наплате",
+        "Потврда о плаћању",
+        "Резиме налога",
+        "Фактура за наруџбеницу",
+        "Признаница о продаји",
+        "Малопродајна фактура",
+        "Е-признаница",
+        "Рачун за услугу",
+        "Рачун производа",
+        "Потврда о уплати",
+        "Потврда наруџбе",
+        "Рачун за обрачун",
+        "Плаћање фактура",
+        "Рачун клијента",
       ],
       message: [
-        "ставка ставка Куповина!",
-        "ставка ставка ставка пословање",
-        "ставка 🛍 Наручите ставка ставка !",
-        "ставка ставка ",
-        "ставка ставка До ставка ставка ставка",
-        "ставка ставка Приоритет",
-        "ставка ставка До ставка ставка ставка",
+        "Хвала вам на куповини!",
+        "Ценимо ваш посао.",
+        "Ваша поруџбина је на путу!",
+        "Хвала што купујете са нама.",
+        "Радујемо се што ћу вас поново послужити.",
+        "Ваше задовољство је наш главни приоритет.",
+        "Не заборавите да оцените своје искуство.",
         "Хвала вам што подржавате нашу продавницу.",
-        "ставка ставка Нова Куповина!",
+        "Надамо се да ћете уживати у новој куповини!",
         "Сачувајте своју фактуру за будућу употребу.",
         "Посетите нас поново за још сјајних производа.",
-        "ставка Повезан ставка ставка Понуде",
-        "ставка ставка купац",
-        "ставка ставка До помоћ ставка ставка ",
-        "ставка Повратна информација помоћ ставка ставка",
+        "Останите повезани за ексклузивне понуде.",
+        "Хвала вам што сте цењени купац.",
+        "Ту смо да вам помогнемо ако вам затреба помоћ.",
+        "Ваше повратне информације нам помажу да побољшамо.",
         "Уживајте у посебном попусту на следећу куповину.",
-        "ставка ставка !",
-        "ставка ставка ",
-        "ставка ставка До ставка Повратна информација",
-        "ставка ставка Од ставка ставка",
+        "Направили сте одличан избор!",
+        "Хвала вам на поверењу у нас.",
+        "Радујемо се вашим повратним информацијама.",
+        "Од срца хвала од нашег тима.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "ставка ставка",
-        "продавац ставка",
-        "ставка почетна страница",
-        "ставка ставка",
-        "Новопридошли",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "Накит ставка",
-        "ставка ставка",
-        "ставка ставка",
+        "Проперти Сховцасе",
+        "Вендор Плаза",
+        "Феатуред Хомес",
+        "Локално тржиште",
+        "Нев Арривалс",
+        "Естате Гарденс",
+        "Схоппинг Дистрицт",
+        "Артисан Аллеи",
+        "Лукури Естатес",
+        "Центар за изнајмљивање",
+        "Опен Хоусес",
+        "Тецх Инноватионс",
+        "Фасхион Лане",
+        "Црафтс Цорнер",
+        "Фоод Цоурт",
+        "Боок Ноок",
+        "Јевелри Јунцтион",
+        "Антикуе Авенуе",
+        "Фитнесс Зоне",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "пословање ставка ставка",
-        "Порез ставка ставка (TIN)",
-        "продавац ставка образац",
-        "Производ ставка",
-        "Прицинг Листа",
-        "банка Рачун Детаљи",
-        "ставка ставка адреса",
-        "ставка ставка",
-        "Компанија профил",
-        "ставка ставка ставка",
-        "ставка Подаци лист (SDS)",
-        "Производ гаранција информације",
-        "Повратак политика",
-        "поштарина ставка ставка ставка",
-        "купац услуга политика",
-        "Маркетинг ставка ставка Планови",
-        "ставка ставка Линкови",
-        "ставка ставка",
-        "ставка Код ставка ставка",
-        "ставка ставка (NDA)",
+        "Потврда о регистрацији предузећа",
+        "Порески идентификациони број (ПИБ)",
+        "Образац уговора са добављачем",
+        "Каталог производа",
+        "Ценовник",
+        "Подаци о банковном рачуну",
+        "Доказ о адреси",
+        "Потврда о осигурању",
+        "Профил компаније",
+        "Сертификат осигурања квалитета",
+        "Безбедносни лист (СДС)",
+        "Информације о гаранцији производа",
+        "Политика поврата",
+        "Процедуре отпреме и руковања",
+        "Политика корисничког сервиса",
+        "Маркетинг и планови промоције",
+        "Везе друштвених медија",
+        "Траде Референцес",
+        "Кодекс понашања добављача",
+        "Уговор о неоткривању (НДА)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Маркетплаце продавница Услуге ставка",
-        "Схоп ставка ставка",
-        "ставка Услуге ставка",
-        "ставка Маркетинг услуга ставка",
-        "ставка ставка продавница ставка",
+        "Уговор о услугама подешавања тржишта",
+        "Уговор о конфигурацији продавнице",
+        "Уговор о услугама штампања на захтев",
+        "Уговор о услугама дигиталног маркетинга",
+        "Уговор о подешавању платформе за е-трговину",
         "Уговор о стручном саветовању за власнике предузећа",
-        "услуга ставка ставка Маркетплаце ставка",
-        "Схоп продавница ставка ставка Услуге ставка",
-        "POD услуга ставка ставка",
-        "Маркетинг ставка ставка ставка",
-        "пословање ставка услуга ставка",
-        "ставка продавница продавница ставка",
-        "Експерт услуга ставка ставка",
-        "пословање ставка ставка продавница ставка",
-        "Обичај Схоп продавница Услуге ставка",
-        "Маркетплаце ставка услуга ставка",
-        "ставка ставка продавница Услуге ставка",
-        "POD ставка Услуге ставка",
-        "Маркетинг ставка ставка Услуге ставка",
-        "пословање ставка услуга ставка",
+        "Уговор о услузи за конфигурацију тржишта",
+        "Уговор о услугама подешавања и конфигурације продавнице",
+        "Уговор о пружању услуга ПОД",
+        "Уговор о имплементацији маркетиншке стратегије",
+        "Уговор о услугама развоја пословања",
+        "Уговор о подешавању продавнице е-трговине",
+        "Уговор о пружању стручних услуга",
+        "Уговор о пословном решењу и постављању",
+        "Уговор о услугама подешавања прилагођене продавнице",
+        "Уговор о услузи за оптимизацију тржишта",
+        "Уговор о услугама консалтинга и подешавања",
+        "ПОД Интегратион Сервицес Агреемент",
+        "Уговор о услугама маркетинга и промоције",
+        "Уговор о услугама проширења пословања",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "главни Новчаник",
-        "пословање Рачун",
-        "Лични Новчаник",
-        "ставка Новчаник",
-        "ставка Рачун",
-        "Примарни Новчаник",
-        "ставка Рачун",
-        "ставка Новчаник",
-        "Трансакција Новчаник",
-        "ставка Рачун",
+        "Главни новчаник",
+        "Пословни рачун",
+        "Лични новчаник",
+        "Новчаник штедње",
+        "Рачун трошкова",
+        "Примарни новчаник",
+        "Општи рачун",
+        "Резервишите новчаник",
+        "Новчаник за трансакције",
+        "Рачун фонда",
       ],
     },
 
@@ -12099,34 +12099,34 @@ export default {
      */
     cashback: {
       title: [
-        "Схоп & ставка повраћај новца",
-        "ставка ставка повраћај новца",
-        "ставка повраћај новца Понуде",
-        "повраћај новца ставка",
-        "ставка повраћај новца Деалс",
-        "ставка повраћај новца ставка",
-        "ставка повраћај новца 30 дана",
-        "повраћај новца ставка ставка Куповина",
-        "повраћај новца ставка",
-        "VIP повраћај новца ставка",
-        "ставка време повраћај новца",
-        "повраћај новца ставка Цлуб",
-        "Схоп Више. ., сачувати Више. .",
-        "ставка повраћај новца ставка",
-        "повраћај новца ставка",
+        "Купујте и зарадите поврат новца",
+        "Поврат новца за лојалност",
+        "Ексклузивне Цасхбацк понуде",
+        "Цасхбацк Бонанза",
+        "Инстант Цасхбацк понуде",
+        "Сезонска уштеда готовине",
+        "Дани двоструког поврата новца",
+        "Поврат новца за сваку куповину",
+        "Цасхбацк Френзи",
+        "ВИП Цасхбацк програм",
+        "Ограничени временски поврат новца",
+        "Цасхбацк Ревардс Цлуб",
+        "Купујте више, уштедите више",
+        "Ултимате Цасхбацк Ревардс",
+        "Цасхбацк Ектраваганза",
       ],
       description: [
-        "ставка повраћај новца ставка ставка Куповина!",
-        "ставка ставка ",
+        "Зарадите повраћај новца при свакој куповини!",
+        "Добијте награду за своју лојалност.",
         "Ексклузивне понуде за поврат новца само за вас.",
-        "ставка ставка повраћај новца ставка",
+        "Уживајте у великој уштеди уз награде за поврат новца.",
         "Тренутни повраћај новца на све ваше омиљене артикле.",
-        "сачувати Више. . ставка ставка повраћај новца Деалс",
+        "Уштедите више уз сезонске понуде за поврат новца.",
         "Удвостручите поврат новца на посебне дане!",
-        "ставка повраћај новца ставка време ставка Схоп",
-        "ставка ставка повраћај новца ставка Данас!",
-        "VIP чланови ставка ставка повраћај новца",
-        "ставка! ставка време повраћај новца Понуде",
+        "Зарадите повраћај новца сваки пут када купујете.",
+        "Придружите се лудници за поврат новца данас!",
+        "ВИП чланови уживају у ексклузивном поврату новца.",
+        "Пожури! Временски ограничене понуде за поврат новца.",
         "Придружите се нашем Цасхбацк Ревардс Цлубу сада.",
         "Што више купујете, више уштедите.",
         "Откључајте врхунске награде за поврат новца.",
@@ -12139,13 +12139,13 @@ export default {
      */
     page: {
       prompts: [
-        "ВЕЛЦОМЕ10 До {shop} - ставка ставка Предмети",
-        "{shop} - ставка ставка услуга",
+        "Welcome to {shop} - Explore Our Distinctive Range of Items",
+        "{shop} - Your Ultimate Source for Quality Merchandise and Outstanding Service",
         "Exclusive Deals and Savings Only at {shop} - Seize the Opportunity!",
         "Get to Know {shop}'s Dedication to Eco-friendliness and Ethical Practices",
         "Become a Part of the {shop} Family - Subscribe to Our Newsletter for Updates",
-        "ставка ставка {shop}",
-        "ставка ставка све Догађаји ставка {shop}",
+        "Dive into Top Picks and Highly-rated Goods at {shop}",
+        "Present Ideas and Creative Suggestions for All Events at {shop}",
         "Unrivalled Offers and Time-sensitive Specials at {shop} - Act Fast!",
         "{shop}'s Comprehensive Buying Tips and Product Evaluations - Shop with Confidence",
         "Reach Out to {shop} - We Strive to Deliver an Unmatched Shopping Experience",
@@ -12158,24 +12158,24 @@ export default {
     cross_selling: {
       message: [
         "Употпуните свој изглед, узмите сет!",
-        "сачувати ставка ставка Деалс!",
-        "ставка ставка !",
-        "ставка ставка Куповина, ставка ставка!",
-        "ставка ставка ставка, Купи ставка!",
-        "ставка Предмети, ставка попуст!",
+        "Уштедите велике уз наше пакетне понуде!",
+        "Не пропустите наше савршене парове!",
+        "Побољшајте своју куповину, додаци чекају!",
+        "Откључајте ексклузивне уштеде, купујте заједно!",
+        "Комплементарни артикли, специјални попусти!",
         "Добијте више, потрошите мање – скупите се!",
-        "ставка Понуда: ставка Производи!",
-        "ставка ставка ставка, ставка Деалс!",
-        "ставка ставка , сачувати ставка!",
-        "ставка ставка !",
-        "Схоп ставка, ставка ставка сачувати!",
+        "Временско ограничена понуда: одговарајући производи!",
+        "Надоградите своје искуство, комбиноване понуде!",
+        "Откријте наше одабране комбинације, уштедите сада!",
+        "Упарите га за врхунску комбинацију!",
+        "Купујте паметно, скупљајте и уштедите!",
         "Удвостручите вредност, удвостручите забаву!",
-        "ставка ставка – Схоп ставка!",
+        "Ваш савршени спој је овде – купујте одмах!",
         "Ексклузивне цене у пакету само за вас!",
-        "ставка ставка !",
-        "ставка ставка !",
+        "Максимизирајте своје уштеде уз наше комбинације!",
+        "Унапредите своју колекцију овим избором!",
         "Прилагођено за вас: ускладите и уштедите!",
-        "ставка ставка !",
+        "Савршен пар за савршен дан!",
         "Скупите своје фаворите за додатну уштеду!",
       ],
     },
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "ставка ставка",
-        "ставка",
-        "ставка",
-        "ставка",
-        "Кућа ставка",
-        "ставка Производи",
-        "ставка ставка",
+        "Дигитал Гоодс",
+        "Књиге",
+        "Електроника",
+        "Мода",
+        "Кућни апарати",
+        "Беаути Продуцтс",
+        "Спортска опрема",
         "Играчке и игре",
         "Намирнице",
         "Намештај",
-        "Ауто делови",
+        "Аутомотиве Партс",
         "Накит",
-        "ставка & ставка",
+        "Здравље и добробит",
         "Пет Супплиес",
         "Канцеларијски материјал",
-        "ставка & ставка",
-        "ставка & TV Прикажи",
-        "Софтвер",
-        "ставка & ставка",
-        "ставка ставка",
+        "Музика и инструменти",
+        "Филмови и ТВ емисије",
+        "софтвер",
+        "Уметност и занати",
+        "Оутдоор Геар",
       ],
     },
 
@@ -12213,17 +12213,17 @@ export default {
      */
     template_message: {
       title: [
-        "Потврда поруџбине",
-        "🛍 Наручите Испоручен",
-        "🛍 Наручите Испоручена",
-        "Плаћање Примљен",
-        "🛍 Наручите ставка",
-        "🛍 Наручите ставка ставка",
-        "🛍 Наручите ставка ставка",
-        "🛍 Наручите ставка ставка Испорука",
-        "Повратак ставка",
-        "повраћај ставка",
-        "предмет Назад ставка ставка",
+        "Потврда наруџбе",
+        "Ордер Схиппед",
+        "Ордер Деливеред",
+        "Плаћање примљено",
+        "Ордер Цанцеллед",
+        "Кашњење у обради налога",
+        "Налог на чекању",
+        "Наручите за испоруку",
+        "Поврат обрађен",
+        "Рефунд Иссуед",
+        "Ставка поново на залихама",
       ],
       body: [
         "Hi {buyer_name}, your order #{order_id} has been confirmed! We’re processing it and will notify you when it’s ready to ship.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "ставка",
-        "ставка ставка",
-        "ставка",
+        "Хаљина",
+        "Дигитал Гадгетс",
+        "Пиће",
         "Храна",
         "Намештај",
-        "ставка",
-        "ставка Производи",
-        "ставка",
-        "ставка ставка",
-        "ставка",
+        "Књиге",
+        "Беаути Продуцтс",
+        "Играчке",
+        "Спортска опрема",
+        "Прибор",
       ],
       description: [
         "Атрибути за одевне предмете као што су величина, боја и тканина.",
         "Спецификације за гаџете као што су бренд, модел и карактеристике.",
         "Укуси, величине и врсте пића.",
         "Детаљи за оброке, грицкалице и прехрамбене производе.",
-        "Material, ставка, ставка Дизајн ставка",
-        "Аутор, ставка, ставка ставка ставка",
+        "Материјал, димензије и стилови дизајна.",
+        "Аутор, жанр и година издања.",
         "Тип коже, састојци и детаљи паковања.",
         "Старосна група, материјал и безбедносни стандарди.",
-        "Тип, ставка, ставка Перформансе ставка",
-        "ставка, ставка, ставка Марка Детаљи",
+        "Тип, величина и карактеристике перформанси.",
+        "Стилови, материјали и детаљи о бренду.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "ставка XS",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка XL",
-        "ставка XXL",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка",
-        "ставка ставка ставка",
-        "ставка ставка ставка", // flexible mailer
-        "ставка ставка", // bubble/padded
-        "ставка ставка", // thermal
-        "ставка ставка",
+        "Бок КСС",
+        "Кутија С",
+        "Кутија М",
+        "Кутија Л",
+        "Бок КСЛ",
+        "Бок КСКСЛ",
+        "Бок Слим",
+        "Бок Виде",
+        "Бок Талл",
+        "Бок Флат",
+        "Бок Цубе",
+        "Бок Тубе",
+        "Бок Фрагиле",
+        "Кутија за стаклене боце",
+        "Бок Софт Пацк", // flexible mailer
+        "Бок Паддед", // bubble/padded
+        "Бок Инсулатед", // thermal
+        "Бок Хеави-Дути",
       ],
     },
   },

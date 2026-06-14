@@ -31,8 +31,8 @@ export default {
     main_domain: "اصلي ډومین",
     domains: "ډومینونه",
     home_page: "کور پاڼه",
-    google_icon_font_sample: "Google توکی توکی",
-    fontawesome_icon_font_sample: "Fontawesome (توکی) توکی",
+    google_icon_font_sample: "د ګوګل فونټ نمونه",
+    fontawesome_icon_font_sample: "Fontawesome (V6) نمونه",
   },
 
   numbers: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "توکی واحد",
-        subtitle: "توکی واحد کارول توکی توکی",
+        subtitle: "هغه واحد چې د واټن لپاره کارول کیږي.",
       },
 
       menu: {
@@ -1428,13 +1428,13 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "کټګوري",
-      category_input_msg: "توکی: توکی توکی پلورنځي توکی",
+      category_input_msg: "خالي: د پلورنځي په ریښه کې",
       product_name: "د محصول نوم*",
       product_name_placeholder: "ستاسو د محصول نوم دلته..",
       product_code: "د محصول کوډ (انګلیسي)",
       sku: {
         label: "SKU",
-        message: "توکی توکی واحد",
+        message: "د ذخیره کولو واحد",
       },
       mpn: {
         label: "MPN",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "مهرباني وکړئ لومړی محصول خوندي کړئ ، او بیا تاسو کولی شئ د ارزښت ماډل وټاکئ.",
         assign_valuation_message:
-          "توکی توکی ته توکی محصول",
+          "مهرباني وکړئ دې محصول ته د ارزونې ماډل وټاکئ.",
         edit_pricing_action: "سمون نرخونه فورمه",
         add_pricing_action: "جوړ کړئ نوی نرخونه فورمه",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "ګمرک پېرود توکی",
         message:
           "تاسو کولی شئ د دې نمونې په تعقیب سره عکس بدل کړئ: {icon name} سرلیک ...",
-        placeholder: "توکی توکی ته توکی",
+        placeholder: "عمل ته کال داخل کړئ...",
         multi_language_dialog_title: "ګمرک پېرود توکی توکی",
       },
       external: {
         not_available_message:
           "د شرکت او شرکت جوازونو سره اضافي عمل شتون لري.",
         available_message: "تاسو کولی شئ عمل ته اضافي بهرنۍ زنګ اضافه کړئ.",
-        input_label: "توکی توکی ته توکی",
+        input_label: "د عمل لپاره دوهم کال",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "ملاتړ شوي ارزښتونه دي UPC (شمالي امریکا، 12 عددونه)، EAN (اروپا، 13 عدد)، JAN (جاپان، 8 یا 13 عدد)، ISBN (کتابونه، 13 عددونه).",
-        label: "محصولات توکی توکی توکي توکی",
-        placeholder: "توکی توکی (اختیاري)",
+        label: "د محصول د نړیوال سوداګریز توکي شمیره",
+        placeholder: "دلته د نړیوال تجارت شمیره.. (اختیاري)",
       },
       hsn: {
         hint: "HSN، یا د نوم لیکلو همغږي سیسټم، د توکو او محصولاتو طبقه بندي کولو لپاره په نړیواله کچه معیاري درجه بندي سیسټم دی.",
@@ -1532,7 +1532,7 @@ export default {
       },
       condition: {
         label: "محصول توکی توکی پلورنځي",
-        message: "توکی توکی محصول",
+        message: "مهرباني وکړئ د دې محصول حالت غوره کړئ.",
         subtitle:
           "خپلو پیرودونکو ته د هغه محصول حالت او نښې په اړه خبر کړئ چې تاسو یې وړاندیز کوئ.",
       },
@@ -1696,12 +1696,12 @@ export default {
         generated_spec: {
           title: "توکیتوکی مشخصات AI",
           subtitle:
-            "توکی مشخصات توکی توکی ",
+            "دا مشخصات د مصنوعي استخباراتو لخوا رامینځته شوي.",
         },
         inputs: {
           prompt: {
             label: "محصول جزیات",
-            placeholder: "توکی توکی محصول توکی",
+            placeholder: "دلته محصول تشریح کړئ...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "شالید تفصیل",
-            placeholder: "توکی توکی شالید",
+            placeholder: "مطلوب پس منظر تشریح کړئ...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "بیا تصور کړئ توکی توکی انځور توکی توکی نوی شالید",
           },
           replace: {
-            subtitle: "توکی توکی شالید",
+            subtitle: "موجوده پس منظر بدل کړئ.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "توکی نرخونه توکی توکی {min}",
+    title: "د {min} څخه ډیر لپاره اضافي قیمت",
     subtitle:
       "سیسټم په اوتومات ډول د نرخ محاسبه لپاره ترتیب او لومړیتوب ټاکي. مهرباني وکړئ د دې قیمت پلي کولو لپاره اړین لږترلږه مقدار دننه کړئ.",
     min_quantity: "لږ تر لږه مقدار",
@@ -2075,7 +2075,7 @@ export default {
     inputs: {
       slug: {
         label: "توکی",
-        placeholder: "توکی توکی ګمرک توکی",
+        placeholder: "دودیز لاره دننه کړئ...",
         hint: "بدلون توکی توکی پلورونکي توکی لینډینګ پاڼه",
       },
       email: {
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "توکی توکی ",
-        true_description: "توکی توکی سوداګري توکی",
+        true_description: "زه د قانوني پیژندل شوي سوداګرۍ ادارې په توګه کار کوم.",
         false_title: "توکی",
         true_title: "سوداګري",
       },
@@ -2096,7 +2096,7 @@ export default {
         placeholder: "توکی نوم",
       },
       account_number: {
-        hint: "توکی پلورونکي توکی حساب توکی",
+        hint: "د پلورونکي ځانګړي حساب شمیره.",
         placeholder: "توکی بانک حساب توکی",
       },
       routing_number: {
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "د نړیوال بانک حساب شمیره: که چیرې د پلورونکي بانک په اروپا یا ځینې نورو هیوادونو کې وي.",
-        placeholder: "توکی IBAN توکی توکی 3704 0044 0000 0000 00",
+        placeholder: "ستاسو د IBAN شمیره.. د بیلګې په توګه. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "د نړیوال بانک حساب شمیره: که چیرې د پلورونکي بانک په اروپا یا ځینې نورو هیوادونو کې وي.",
@@ -2164,7 +2164,7 @@ export default {
   product_badges: {
     title: "نښانونه",
     subtitle: "زیات کړئ توکی سمون ګمرک محصول نښانونه",
-    only_marketplace_owner_msg: "توکی بازار توکی",
+    only_marketplace_owner_msg: "یوازې د بازار خاوندان",
     create_new_badge_action: "جوړ کړئ نوی نښان",
     select_a_badge: "غوره کړئ توکی نښان",
     inputs: {
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "بیج په بریالیتوب سره اضافه شوی!",
-        badge_updated: "توکی نښان توکی توکی !",
+        badge_updated: "بیج په بریالیتوب سره تازه شو!",
         item_not_found_error:
           "توکي ونه موندل شو. مهرباني وکړئ پاڼه تازه کړئ یا د ملاتړ سره اړیکه ونیسئ.",
       },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "توکی ټګونه توکی توکی ",
+      tags_updated: "ټګونه په بریالیتوب سره تازه شوي.",
     },
   },
 
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "د ونډو شمیر",
           score: "سکور",
         },
-        users_not_rated_msg: "کاروونکي توکی توکی محصول توکی",
+        users_not_rated_msg: "کاروونکو تر اوسه دا محصول نه دی درجه بندي کړی.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2451,7 +2451,7 @@ export default {
           graphical_asset_tips:
             "تاسو کولی شئ د <b>Graphic Assets</b> په کارولو سره د انځورونو په ګډون، تغیراتو ته کوم ارزښت ورکړئ. یو نمونه اپلوډ کړئ او د ډول لپاره رامینځته شوی کوډ وکاروئ.",
           graphical_asset_action: "توکی توکی",
-          graphical_asset_action_caption: "انځورونه توکی توکی ",
+          graphical_asset_action_caption: "د مختلف انتخابونو لپاره انځورونه.",
         },
         smart_unit_price: {
           tips: "د واحد قیمت د <b>weight</b>، <b>volume</b>، او <b>pack size</b> پر بنسټ محاسبه کړئ. د دې خصوصیت غیر فعالولو لپاره، پلورنځي> ترتیبات> موضوع> د محصول پاڼه> د سمارټ یونټ قیمت ته لاړ شئ.",
@@ -2470,7 +2470,7 @@ export default {
           title: "توکی & لېږدول",
           subtitle:
             "د بار وړلو اختیارونو ټاکلو لپاره د ډولونو لپاره وزن او ابعاد مشخص کړئ.",
-          same_as_product_action: "توکی توکی محصول",
+          same_as_product_action: "د محصول په څیر",
         },
         image: {
           title: "توکی انځورونه",
@@ -2482,10 +2482,10 @@ export default {
             message: "توکی توکی واحد (SKU)",
           },
           mpn: {
-            message: "توکی توکی (MPN)",
+            message: "د تولید کونکي برخې شمیره (MPN)",
           },
           gtin: {
-            label: "توکی توکی توکي توکی (GTIN)",
+            label: "د نړیوال سوداګریز توکي شمیره (GTIN)",
             message:
               "ملاتړ شوي بڼې: UPC (12 عدد)، EAN (13 عدد)، JAN (8 یا 13 عدد)، ISBN (13 عددونه).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "ټول ډولونه تازه کړئ",
     bulk_action_msg:
       "د ټولو ډولونو لپاره د محصول بسته بندي او چمتو کولو وخت تنظیم کړئ.",
-    dynamic_lead_time: "توکی توکی وخت",
+    dynamic_lead_time: "متحرک لیډ وخت",
     instant_delivery: "توکی تحویلي",
   },
 
@@ -2552,7 +2552,7 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "توکی انځور توکی توکی",
+      title: "د انځور Alt متن ترتیب کړئ",
       placeholder: "توکی توکی ",
       success_update_notification: "توکی توکی ",
     },
@@ -2562,7 +2562,7 @@ export default {
         title: "شالید لرې کړئ",
         subtitle: "جوړ کړئ توکی شفاف شالید",
       },
-      success_remove_bg_notification: "شالید توکی توکی!",
+      success_remove_bg_notification: "پس منظر په بریالیتوب سره لیرې شو!",
     },
   },
   /**
@@ -2593,9 +2593,9 @@ export default {
   product_variant_item: {
     duplicated_variant: "توکی توکی !",
     set_color_warning: "توکی غوره کړئ توکی رنګ",
-    set_volume_warning: "توکی توکی حجم",
+    set_volume_warning: "مهرباني وکړئ حجم مشخص کړئ.",
     set_pack_warning: "توکی توکی ",
-    set_weight_warning: "توکی توکی وزن",
+    set_weight_warning: "مهرباني وکړئ وزن مشخص کړئ.",
     set_type_warning: "توکی غوره کړئ توکی ډول",
     set_style_warning: "توکی غوره کړئ توکی سټایل",
     out_of_stock: "توکی توکی ",
@@ -2610,10 +2610,10 @@ export default {
     restore_dialog: {
       title: "توکی توکی",
       message: "ایا تاسو ډاډه یاست چې دا حذف شوی ډول بیرته راګرځول غواړئ؟",
-      action: "هو, توکی توکی",
+      action: "هو، اوس بحال کړئ",
     },
     notifications: {
-      restore_variant_success: "توکی محصول توکی توکی ",
+      restore_variant_success: "د محصول ډول په بریالیتوب سره بیرته راګرځیدلی.",
     },
   },
 
@@ -2718,7 +2718,7 @@ export default {
     title: "توکی کړنې > قیمت",
     message:
       "لاندې مقدار به ستاسو په پلورنځي کې د ټولو محصولاتو قیمت کې د فیصدي په توګه پلي شي. همچنان، د محاسبې قیمتونه به په هوښیارۍ سره د ټاکل شوي اسعارو پراساس ترټولو نږدې دورې شمیرې ته واړول شي. ارزښتونو ته په ننوتلو کې محتاط اوسئ.",
-    check: "توکی توکی قیمت توکی",
+    check: "زه د نرخ بدلونونه تصویبوم.",
     check_description:
       "قیمت به د ټاکل شوي کټګورۍ او ټولو فرعي کټګوریو لپاره بدل شي.",
     add_percent_tab: "زیات کړئ سلنه",
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "توکی حالت",
-          true_description: "توکی توکی دروازه توکی توکی",
+          true_description: "تاسو کولی شئ په لاسي ډول د دروازې ترتیب تنظیم کړئ.",
 
           false_title: "اتومات نښلول",
           false_description:
@@ -3356,7 +3356,7 @@ export default {
       shipping_address_update_success:
         "لېږدول پته توکی توکی ",
       vendor_order_status_update_success:
-        "پلورونکی توکی حالت توکی توکی ",
+        "د پلورونکي بشپړتیا حالت په بریالیتوب سره تازه شوی.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3519,7 +3519,7 @@ export default {
         "ستاسو پیرودونکي د دې محصول 1x وګټي. د دې امر سره ډالۍ ولېږئ.",
 
       need_to_refund: {
-        title: "توکی توکی ته توکی پېرودونکی",
+        title: "پیرودونکي ته د بیرته ستنیدو اړتیا",
         message:
           "موږ د بیرته ستنیدو ټول مقدار محاسبه کوو چې تاسو ورته اړتیا لرئ په لاسي ډول ترسره کړئ. دا د موجودو توکو او ټول بیرته راستنیدونکي ارزښتونو پراساس محاسبه کیږي.",
         calculated_approximately:
@@ -3531,7 +3531,7 @@ export default {
           "موږ ولیدل چې پیرودونکي ته ټول بیرته ورکول په کارټ کې د توکو پراساس د تادیې مقدار څخه لوړ دي. تاسو ممکن د اضافي مقدار بیرته ترلاسه کولو لپاره خپل پیرودونکي چارج کولو ته اړتیا ولرئ.",
       },
       need_no_refund: {
-        title: "نه توکی توکی",
+        title: "هیڅ بیرته ستنیدو ته اړتیا نشته",
       },
       total_refund: {
         title: "ټول توکی",
@@ -3743,12 +3743,12 @@ export default {
     },
     gateway_code: "دروازه کوډ",
 
-    hold_only_for: "توکی تادیه توکی شته توکی",
+    hold_only_for: "تادیه وساتئ یوازې د دې لپاره شتون لري",
     manual_input: {
       false_description:
         "د تادیې حالت به په اوتومات ډول د تادیې چمتو کونکي سیسټم کې له پاتې کیدو څخه تایید ته بدل شي.",
       false_title: "اتومات تادیه توکی",
-      true_title: "توکی تادیات توکی لاسي توکی",
+      true_title: "تادیات او لاسي تایید وساتئ",
       true_description:
         "په تادیه باندې بندیز ولګوئ نو تاسو اړتیا لرئ د امر لپاره تادیات تایید کړئ ترڅو د تادیې چمتو کونکي سیسټم کې د پاتې کیدو څخه تایید شوي حالت بدل کړئ.",
     },
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "تاسو په روټ کې محصولات لرئ مګر هیڅ فلټر نلري.",
       has_root_filter_message: "تاسو د روټ کټګورۍ لپاره فلټرونه تنظیم کړئ.",
-      set_filter_message: "توکی توکی فلټرونه",
+      set_filter_message: "تاسو کولی شئ فلټرونه تنظیم کړئ.",
       edit_action: "سمون توکی فلټرونه",
-      clear_action: "توکی توکی فلټرونه",
+      clear_action: "د روټ فلټرونه پاک کړئ",
     },
     ai: {
       title: "AI محصول توکی",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "غوره کړئ ټول محصولات",
       unselect: "توکی",
-      sort_categories: "توکی / توکی کټګورۍ",
+      sort_categories: "کټګورۍ ترتیب کړئ / ترتیب کړئ",
       subscription_vendor_not_support_message:
         "د ګډون محصولاتو لپاره پلورونکي نشي ټاکلی! د ګډون محصولات باید تل د خپل مالک په توګه پلورونکی ولري!",
       vendor_owner_not_assignable_message:
@@ -4093,7 +4093,7 @@ export default {
     },
 
     engine: {
-      title: "توکی محصولات توکی",
+      title: "د اضافي محصولاتو انجن",
       subtitle:
         "نور. . محصولات توکی توکی څخه غوره کړئ کټګورۍ توکی ټګونه",
       load_in_tips: "توکی محصولات څخه کټګورۍ توکی توکی {category}.",
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "توکی توکی / CSV فایل توکی",
+      title: "د Excel / CSV فایل دلته پریږدئ.",
       select_file: "غوره کړئ فایل",
       max_file: "زیات تر زیات فایل توکی: 20توکی",
       download_sample: "ډاونلوډ کړئ توکی",
@@ -4193,10 +4193,10 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "سمون توکی توکی",
+    title_edit: "د ټیم غړی ایډیټ کړئ",
     title_new: "زیات کړئ نوی توکی توکی",
     member: {
-      title: "توکی توکی جزیات",
+      title: "د ټیم غړي توضیحات",
       subtitle:
         "د ټیم نوی غړی اضافه کړئ او د دوی اجازې تنظیم کړئ. د لوستلو / لیکلو لاسرسي تنظیم کولو لپاره په هر توکي کلیک وکړئ. هر قطار د اصلي پلورنځي ډشبورډ لپاره د اجازې کچې سره مطابقت لري.",
     },
@@ -4217,7 +4217,7 @@ export default {
       },
       update_success: {
         title: "توکی توکی",
-        message: "توکی توکی معلومات توکی توکی ",
+        message: "د ټیم غړي معلومات په بریالیتوب سره تازه شوي.",
       },
     },
     actions: {
@@ -4266,11 +4266,11 @@ export default {
       "<b>مهم! </b>د دې عمل اجرا کول به د پلورونکي په بټوه کې منفي لیږد رامینځته کړي او له هغې څخه غوره شوي مقدار کم کړي. مقدار نشي کولی د ټاکل شوي امر لپاره د پاتې ټولو لیږدونو څخه ډیر شي. برسیره پردې، که چیرې پیسې وصل شوي بانکي حسابونو ته لیږدول شوي وي (لکه د سټیپ کنیکټ یا د لاسي تار لیږد سره)، تاسو باید د <b>reversal transfer</b> جوړ کړئ.",
     inputs: {
       note: {
-        message: "توکی توکی ته توکی پلورونکی",
-        placeholder: "توکی توکی نوټ توکی",
+        message: "دا د پلورونکي لیدل کیږي.",
+        placeholder: "تاسو کولی شئ دلته یو یادداشت ضمیمه کړئ...",
       },
       amount: {
-        error_message: "توکی توکی مقدار توکی توکی ",
+        error_message: "پاتې مقدار له حده تېر شو.",
       },
     },
   },
@@ -4311,12 +4311,12 @@ export default {
   order_timeline: {
     message:
       "پدې برخه کې ، تاسو کولی شئ د امر ، تکمیل ، تادیې او د دوی اړوند حالتونو پورې اړوند پیښو مهال ویش وګورئ. سربیره پردې ، تاسو کولی شئ دواړه پیرودونکو او پلورونکو ته لیږل شوي امرونه وګورئ.",
-    add_note_subtitle: "لیکل توکی پیغام توکی توکی ",
+    add_note_subtitle: "یو پیغام ولیکئ او د خپلو همکارانو یادونه وکړئ.",
 
     message_input: "دلته یو پیغام ولیکئ ...",
     pin_action: "پورته ته وخورئ",
     unpin_action: "خلاص کړئ",
-    copy_html: "توکی توکی HTML",
+    copy_html: "کاپي html",
     notifications: {
       add_note_success: "یادښت اضافه شو.",
       edit_note_success: "یادښت تدوین شوی.",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "توکی مدیریت",
-      description: "مدیریت کړئ توکی, توکی توکی ",
+      description: "د راجع کولو برنامو په شمول د پیسو مینځلو اداره کول.",
     },
     "selldone:identification": {
       name: "توکی لاسرسی",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "توکی",
-      description: "توکی سکوپونه توکی توکی ",
+      description: "متفرقه سکوپونه په سیسټم کې ندي تعریف شوي.",
     },
     vendor: {
       title: "پلورونکی",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "توکی توکی والټ",
+        title: "یو والټ غوره کړئ",
         subtitle:
           "د خپل ګډون لپاره د کارولو لپاره یو مجازی والټ غوره کړئ. که تاسو تر اوسه یو نلرئ، تاسو کولی شئ دا د والټ برخه کې جوړ کړئ. دا بټوه به د هر ډول لګښتونو لپاره وکارول شي.",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "د Selldone Connect OS سره په اسانۍ سره د POD یا ډراپشپینګ عرضه کونکو څخه محصولات اضافه کړئ — یوازې خپل پلورنځی وصل کړئ او د محصول اتومات ادغام څخه خوند واخلئ ، هیڅ پلگ ان ته اړتیا نشته.",
     },
-    your_license_is_not_eligible: "توکی جواز توکی توکی ",
+    your_license_is_not_eligible: "ستاسو جواز وړ ندی.",
     sku_dialog: {
       title: "زیات کړئ محصول توکی SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "خپل یو ډومین دې وابسته ملګري ته وصل کړئ. هغه لیدونکي چې د دې ډومین له لارې پیرود کوي به دې وابسته ته منسوب شي.",
 
-      domain_not_approved_msg: "توکی ډومین توکی توکی !",
+      domain_not_approved_msg: "ډومین لا تر اوسه ندی تصویب شوی!",
       domain_is_not_enable_msg: "توکی ډومین توکی توکی فعال شوی!",
       domain_is_linked_to_other_affiliate_msg:
         "دا ډومین لا دمخه د بل وابسته سره تړلی دی!",
     },
 
-    set_users_first_message: "توکی توکی کارن توکی!",
+    set_users_first_message: "مهرباني وکړئ لومړی کارن تنظیم کړئ!",
 
     cluster: {
       title: "توکی",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "نوی وابسته زیات کړئ توکی",
-      update_success: "وابسته توکی توکی",
+      update_success: "وابسته په بریالیتوب سره تازه شوه.",
     },
 
     inputs: {
@@ -5945,10 +5945,10 @@ export default {
       commission: {
         label: "کمیسیون توکی",
         false_description:
-          "توکی توکی کمېسیون",
+          "د ثابت او فیصدي کمیسیونونو ترکیب په کارولو سره محاسبه وکړئ.",
         true_description:
           "د نرخ په ټب کې ټاکل شوي د محصول ځانګړي کمیسیونونو په کارولو سره محاسبه وکړئ.",
-        false_title: "توکی + توکی کمیسیون",
+        false_title: "ثابت + فیصدي کمیسیون",
         true_title: "توکی کمیسیون",
       },
       user: {
@@ -5956,10 +5956,10 @@ export default {
         message: "اختیاري, توکی, وابسته نوم توکی توکی Selldone",
       },
       web: {
-        placeholder: "اختیاري, توکی, توکی",
+        placeholder: "اختیاري، د بیلګې په توګه، affiliate-web.com",
       },
       address: {
-        placeholder: "اختیاري, توکی, 1200 توکی, NY, توکی",
+        placeholder: "اختیاري، د بیلګې په توګه، 1200 POX، NY، USA",
       },
       tel: {
         placeholder: "اختیاري, توکی, 001-808-210354",
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "نرخونه & توکی توکی",
+    label: "د قیمت او ارزونې ماډل",
   },
 
   /**
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "په دې برخه کې، تاسو کولی شئ د هر کوپن د کارولو اعظمي شمیره او د هر کوپن چمتو کولو لپاره د لوړ تخفیف اندازه دواړه تنظیم کړئ.",
-      zero_message: "توکی: توکی توکی نه حد!",
+      zero_message: "صفر: هیڅ حد نشته!",
     },
     duration: {
       subtitle:
@@ -6556,7 +6556,7 @@ export default {
     manual_send_token_action: "لاسي توکی",
     lottery_enable: "آیا لاټری فعاله شوی؟",
     chip_price_input: "د چپ قیمت",
-    zero_chip_message: "توکی 1توکی توکی 🛍️ امر",
+    zero_chip_message: "په هر امر کې 1x چپ ورکړئ",
     chip_has_price_message: "د امر په هر {amount} {currency} کې 1 چپ ورکړئ.",
     chip_disabled_message: "چپ غیر فعال دی!",
     create_new: "نوې جایزه اضافه کړئ",
@@ -6898,10 +6898,10 @@ export default {
 
   /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
-    wifi_pass: "توکی توکی رمز",
+    wifi_pass: "ستاسو د Wi-Fi پټنوم",
     message: "خپل د وائی فای روټر پاسورډ دننه کړئ او د QR کوډ سکین کړئ.",
     wifi_ssid: "Wi-Fi SSID",
-    ssid_message: "توکی توکی نوم (توکی).",
+    ssid_message: "د خپل Wi-Fi شبکې نوم (SSID) دننه کړئ.",
   },
 
   /** {@see PosDeviceTypes**/
@@ -7044,7 +7044,7 @@ export default {
         "پورته کړئ پلورونکی CSV فایلونه توکی توکی ته محرمیت توکی",
       checklist: {
         title: "توکی توکی",
-        subtitle: "توکی توکی ته توکی توکی ",
+        subtitle: "ډاډ ترلاسه کړئ چې لارښوونې تعقیب کړئ.",
         sample_files: "توکی فایلونه",
         valid_vendor_name_needed:
           "تاسو باید یو <b>درست نوم</b> چمتو کړئ. <b>نوم</b> د دې لپاره کارول کیږي چې معلومه کړي <i>Create</i> یو نوی پلورونکی یا <i> تازه کول</i> یو موجود.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "توکی پلورونکي توکی",
+    open_vendors_panel: "د پلورونکو پینل خلاص کړئ",
     title: "پلورونکی توکی لیست",
     subtitle:
       "دا د هغو اشخاصو د غوښتنو لیست دی چې ستاسو په بازار کې د پلورونکي کیدو لپاره غوښتنلیک لري.",
@@ -7102,7 +7102,7 @@ export default {
     },
     need_enable_shipping_for_vendors_tips:
       "په پلورنځي > لوژستیک ټب کې د هرې میتود لپاره په انفرادي ډول د پلورونکو لپاره بار وړ کړئ.",
-    transportation_available_tooltip: "توکی توکی شته توکی پلورونکي",
+    transportation_available_tooltip: "دا اختیار د پلورونکو لپاره شتون لري.",
     transportation_not_available_tooltip:
       "د پلورونکو لپاره شتون نلري! تاسو کولی شئ دا د ترانسپورت ترتیباتو کې فعال کړئ.",
     panel: {
@@ -7133,7 +7133,7 @@ export default {
       need_verify: {
         label: "محصول توکی جریان",
         false_description: "نوی پلورونکی محصولات توکی ژوندی توکی",
-        false_title: "نه توکی توکی",
+        false_title: "هیڅ تایید ته اړتیا نشته",
         true_description:
           "پلورونکي نوی محصولات توکی توکی ژوندی توکی توکی بازار",
         true_title: "توکی توکی",
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "عنوان",
-          placeholder: "توکی توکی عنوان توکی توکی ",
+          placeholder: "د سند غوښتنې لپاره سرلیک دننه کړئ.",
         },
         guide: {
           label: "لارښود (اختیاري)",
@@ -7223,7 +7223,7 @@ export default {
         },
         url: {
           label: "URL",
-          message: "توکی توکی URL توکی توکی ",
+          message: "دلته د سند یا تړون لپاره URL دننه کړئ...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "خاوند توکی توکی",
+      title: "د مالک د پیژندنې سند",
       description:
         "د حکومت لخوا صادر شوی ID اپلوډ کړئ ترڅو د سوداګرۍ مالک یا کلیدي اجرایوي هویت تایید کړي.",
     },
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "توکی توکی",
       description:
-        "توکی توکی ته توکی توکی ",
+        "ستاسو د فکري ملکیت حقونو تایید لپاره د کاپي حق ثبتولو اسناد چمتو کړئ.",
     },
     Privacy: {
       title: "محرمیت تګلاره توکی",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "توکی, توکی محصولات توکی",
+        placeholder: "د بیلګې په توګه، د ډیجیټل محصولاتو ټولګی...",
       },
       description: {
         placeholder: "تاسو کولی شئ دلته یو یادداشت اضافه کړئ ...",
       },
       accept_delete: {
         true_description: "زه غواړم د دې قیمت ماډل حذف کړم.",
-        true_title: "توکی نرخونه توکی توکی",
+        true_title: "د قیمت کولو ماډل لرې کول تایید کړئ",
       },
     },
   },
@@ -7433,7 +7433,7 @@ export default {
     quota: "توکی",
     max_batch_msg: "د توکو اعظمي شمیر چې تاسو کولی شئ په یوه بسته کې وارد کړئ.",
     max_daily_limit_msg: "د توکو اعظمي شمیر چې تاسو کولی شئ په یوه ورځ کې وارد کړئ.",
-    extra_daily_limit_msg: "توکی توکي توکی توکی حد",
+    extra_daily_limit_msg: "اضافي توکي د ورځني حد څخه بهر اجازه لري.",
     add_items_today_msg: "توکي زیات کړئ نن",
     file_statistic_msg: "احصایې توکی توکی فایل",
     used_quota: "کارول توکی",
@@ -7522,7 +7522,7 @@ export default {
           "د محصول کارتونو کې پرته له کوم اضافي عملونو ساده او لږترلږه حالت.",
         true_description:
           "وښایئ توکی پېرود & زیات کړئ ته توکی توکی محصول کارت توکی",
-        true_title: "وښایئ توکی توکی ",
+        true_title: "په هور کې عمل وښایاست",
       },
     },
     filter_products: {
@@ -7613,12 +7613,12 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "اصلي ویب پاڼه توکی",
-      subtitle: "توکی توکی څخه Google توکی",
+      subtitle: "د ګوګل فونټ څخه خپل غوره فونټ غوره کړئ.",
     },
     inputs: {
       font_family: {
         label: "توکی توکی",
-        message: "توکی توکی ارزښت",
+        message: "د فونټ کورنۍ ارزښت دننه کړئ.",
       },
       font_res: {
         label: "توکی توکی",
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "سرلیک عنوان",
-        set_empty: "توکی توکی عنوان",
+        set_empty: "خالي سرلیک تنظیم کړئ",
       },
     },
   },
@@ -7673,7 +7673,7 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "سمون توکی توکی",
+    edit_title: "د ملکیت سیټ ترمیم کړئ",
     add_title: "زیات کړئ توکی توکی",
     config: {
       subtitle:
@@ -7687,7 +7687,7 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "توکی توکی عنوان توکی توکی ",
+        placeholder: "د ملکیت سیټ لپاره سرلیک دننه کړئ...",
       },
       description: {
         placeholder: "توکی توکی تفصیل (اختیاري)",
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "توکی توکی (اختیاري)",
+        placeholder: "د ارزښتونو ټاکل... (اختیاري)",
         messages:
-          "توکی توکی 🛍️ امر",
+          "تاسو کولی شئ د ارزښتونو لپاره وړاندیزونه چمتو کړئ او ترتیب تنظیم کړئ.",
       },
     },
   },
@@ -7917,7 +7917,7 @@ export default {
       message:
         "د تصدۍ درجې ای کامرس تجربو رامینځته کولو لپاره د خبرتیا جامع چوکاټ.",
       action: "دلته زور ورکړی!",
-      set_config: "ترتیب ترتیب کړئ",
+      set_config: "ترتیب تنظیم کړئ",
     },
   },
   notification_events: {
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "3 اختیار: فوري لیږد.",
 
     verify_delivery_input: {
-      true_title: "توکی تحویلي توکی",
+      true_title: "د سپارلو بشپړیدل تایید کړئ",
       true_description:
         "زه تایید کوم چې امر پیرودونکي ته سپارل شوی.",
     },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "توکی بانک معلومات توکی توکی ",
+        message: "ستاسو د بانک معلومات په بریالیتوب سره تازه شوي.",
       },
     },
   },
@@ -8533,7 +8533,7 @@ export default {
       disable_reason: {
         set_provider: "توکی توکی !",
         provider_is_disabled: "توکی توکی !",
-        otp: "توکی - توکی توکی!",
+        otp: "OTP - هیڅ د تخصیص وړ نه دی!",
         select_another_provider: "غوره کړئ توکی توکی",
       },
       enable_only_filter: "وښایئ توکی فعال شوی",
@@ -8541,7 +8541,7 @@ export default {
       text_template_not_supported_msg:
         "ستاسو چمتو کوونکی د ساده متن پیغامونو ملاتړ نه کوي.",
       structure_template_not_supported_msg:
-        "توکی توکی ملاتړ توکی پیغام",
+        "ستاسو چمتو کوونکی د ساختماني پیغامونو ملاتړ نه کوي.",
 
       structured_data: "توکی ډاټا",
 
@@ -8558,7 +8558,7 @@ export default {
         subtitle:
           "تاسو کولی شئ د خپل SMS چمتو کونکي ویب پا onه کې د SMS پیغام لپاره ټیمپلیټ رامینځته کړئ ، بیا د هغې کوډ او ډیټا جوړښت دلته مشخص کړئ. موږ به دا معلومات ستاسو چمتو کونکي ته واستوو، چیرته چې اصلي SMS پیغام به تولید شي.",
         code: "کوډ",
-        language_msg: "توکی توکی ته توکی توکی ډیفالټ",
+        language_msg: "دا خالي پریږدئ ترڅو دا د ډیفالټ په توګه تنظیم کړئ.",
         enable_msg: "توکی کينډۍ توکی توکی کارول ته جوړ کړئ پیغام",
       },
       text: {
@@ -8569,7 +8569,7 @@ export default {
         reset_to_default: "توکی ته ډیفالټ",
 
         auto_fill: {
-          title: "اتومات توکی توکی",
+          title: "د اتوماتیک ډکولو پیرامیټونه",
           subtitle:
             "توکی توکی ارزښت Selldone",
         },
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "زیات کړئ نوی توکی",
 
         auto_fill: {
-          title: "اتومات توکی توکی",
+          title: "د اتوماتیک ډکولو پیرامیټونه",
           subtitle:
             "تاسو کولی شئ د دې پیرامیټونو څخه هر یو د ارزښت په توګه وټاکئ، او Selldone به دوی د ورته ارزښت سره بدل کړي. دا غوره ده چې ډیفالټ ارزښتونه د سادګۍ لپاره ستاسو د SMS چمتو کونکي کې د ټیمپلیټ په توګه تعریف کړئ. په دې حالت کې، دلته د پیرامیټر ارزښتونو تعریف کولو ته اړتیا نشته.",
         },
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "ګمرک توکی توکی",
+    title: "د ګمرک میل سرور",
     subtitle:
       "خپل د میل خدمت چمتو کونکي سره وصل کړئ ترڅو د خپل دودیز ډومین له لارې بریښنالیکونه واستوي.",
     provider: "توکی",
@@ -8864,15 +8864,15 @@ export default {
     edit_avocado_action: "د معلوماتو سمون",
     submit_pricing_avocado_action: "د امر قیمت وسپارئ",
     add_avocado_action: "د رسید لینک جوړ کړئ",
-    avocados_list: "لیست توکی توکی",
+    avocados_list: "د Avocados لیست",
     not_pricing: "دا توکي بیه نه لري!",
 
     show_all: "ټول ښکاره کړه",
     show_accepted: "تایید شوي توکي وښایاست",
 
     notifications: {
-      update_success: "ایوکاډو توکی توکی",
-      add_success: "ایوکاډو توکی توکی",
+      update_success: "Avocado په بریالیتوب سره تازه شو.",
+      add_success: "Avocado په بریالیتوب سره جوړ شو.",
     },
   },
 
@@ -8946,7 +8946,7 @@ export default {
     notifications: {
       delete_success: "فایل په بریالیتوب سره ړنګ شو.",
     },
-    drag_sort_msg: "توکی توکی فایلونه",
+    drag_sort_msg: "تاسو کولی شئ فایلونه راوباسئ او ترتیب کړئ.",
     paid_mode_msg: "کاروونکي توکی ډاونلوډ کړئ توکی توکی محصول",
     free_mode_msg:
       "کاروونکي کولی شي دا وړیا ډاونلوډ کړي. د نمونې فایلونه باید د 50 MB څخه کم وي.",
@@ -8980,7 +8980,7 @@ export default {
       description:
         "پیرودونکي کولی شي دا محصول یوازې په ټاکل شوي هیواد او زپ کوډ کې پیرود کړي ، د تاسیس شوي موقعیت محدودیت له امله.",
     },
-    zip_pin_code: "توکی / توکی کوډ",
+    zip_pin_code: "زپ / پن کوډونه",
     no_country_selected_error:
       "مهرباني وکړئ د زپ/پن کوډونو لیست سره لږترلږه یو هیواد شامل کړئ. پرته له دې، دا محصول به شتون ونلري.",
     tips: "په <b>+ Add Country</b> تڼۍ باندې کلیک وکړئ ترڅو د نوي ځای سیټ جوړول پیل کړئ. یوځل چې تاسو سرته ورسیږئ ، تاسو کولی شئ دا په پورتنۍ ښیې <b>⋮ مینو</b> کې کلیک کولو سره خوندي کړئ او د <b>Save پروفایل</b> غوره کړئ.",
@@ -9493,10 +9493,10 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "لیږل توکی توکی",
+    title: "مستقیم غوښتنه واستوئ",
     message:
       "په سیلډون کې د ودې او ګټې لپاره خپل 3 غوره سوداګرۍ اړتیاوې وپیژنئ. دا معلومات به مستقیم د بنسټ ایښودونکو او رییسانو سره شریک شي او په دقت سره به په پام کې ونیول شي. تاسو کولی شئ د سپارلو وروسته د وخت په تیریدو سره خپلې اړتیاوې هم تازه کړئ.",
-    expand_action: "لیکل توکی توکی",
+    expand_action: "غوښتنه ولیکئ...",
     input_label: "توکی توکی",
     to: {
       ceo: "لیږل ته توکی",
@@ -9565,7 +9565,7 @@ export default {
       auto_confirm_order: "اتومات توکی امرونه",
       test_mode: "توکی حالت",
       status: {
-        subtitle: "توکی معلومات توکی توکی حالت",
+        subtitle: "د همغږۍ حالت په اړه ټول معلومات.",
       },
       sync: {
         title: "توکی توکی",
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "توکی ټول",
         false_desc: "توکی ټول شته محصولات, کټګورۍ, پیرودونکي",
-        true_title: "توکی (توکی توکی )",
+        true_title: "محدود (د پیل کونکو لپاره وړاندیز شوی)",
         true_desc:
           "اعظمي 5 محصولات ، کټګورۍ او پیرودونکي ترلاسه کړئ. تاسو کولی شئ دا په هر وخت کې په نښلول> ترتیب کې بشپړ حالت ته واړوئ.",
       },
       overwrite: {
-        false_title: "توکی توکی بدلون توکی توکی",
+        false_title: "که شتون ولري بدلون مه کوئ",
         false_desc: "د موجوده محصول او کټګورۍ توضیحات لکه څنګه چې دوی دي وساتئ.",
         true_title: "توکی",
         true_desc:
@@ -9622,11 +9622,11 @@ export default {
       },
       enable: {
         label: "Connect حالت",
-        true_desc: "انوینٹری توکی امرونه توکی توکی ",
+        true_desc: "لیست او امرونه به همغږي شي.",
       },
       confirm: {
         label: "اتومات توکی امرونه",
-        false_desc: "توکی توکی 🛍️ امر توکی",
+        false_desc: "تاسو باید په لاسي ډول امر تایید کړئ.",
         true_desc:
           "د ژوندی تادیې سره امرونه به په اوتومات ډول تصویب شي. د ډیبګ تادیې سره امرونه به په اوتومات ډول تصویب نشي.",
         tips: "امرونه ورکړې توکی ډالۍ کارت توکی COD توکی تادیه دروازې توکی توکی حالت توکی توکی تایید شوی توکی",
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "اتومات توکی",
       shipping: "لېږدول",
       syncing_now: "توکی توکی!",
-      sync_not_started: "توکی توکی پیل توکی!",
+      sync_not_started: "همغږي لا نه ده پیل شوې!",
     },
   },
 
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "توکی",
-    subtitle: "توکی توکی لیست توکی توکی ",
+    subtitle: "دا د ټولنې د پوستونو لیست دی.",
     filter: {
       deleted: {
         title: "ړنګ شوی",
@@ -9758,7 +9758,7 @@ export default {
         description: "وښایئ راپور توکی",
       },
     },
-    empty_msg: "نه توکی توکی ",
+    empty_msg: "تر اوسه هیڅ پوسټ نه دی جوړ شوی...",
     menu: {
       open_post: {
         title: "توکی توکی",
@@ -9799,11 +9799,11 @@ export default {
       subtitle: "د ګوګل لټون کنسول تصدیق لپاره خپل کورپاڼې ته میټا ټګ اضافه کړئ.",
       code: {
         label: "توکی توکی ټګ Meta",
-        placeholder: "څخه توکی, توکی توکی Google",
+        placeholder: "د ګوګل څخه، د مثال په توګه viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google توکی & توکی",
+      title: "د ګوګل SERP او کلیدي کلمې",
       subtitle:
         "موږ د ګوګل څخه خورا دقیق SEO پلټنې ډاټا ترلاسه کوو او تاسو ته یې په مناسب ډول وړاندې کوو. په ساده ډول ورکړل شوي ګامونه تعقیب کړئ.",
     },
@@ -9831,7 +9831,7 @@ export default {
     title: "نغدي بېرته ورکول توکی",
     boosted: "توکی (2توکی)",
     min_purchase: "لږترلږه پیرود",
-    only_first_order: "توکی توکی 🛍️ امر",
+    only_first_order: "یوازې لومړی امر",
     total_cashback: "ټول نغدي بېرته ورکول",
     delete_alert: {
       title: "ړنګول نغدي بېرته ورکول توکی",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "توکی نغدي بېرته ورکول توکی توکی شته توکی ټول امرونه",
       true_desc:
         "د کیش بیک برنامه به یوازې د لومړي امر لپاره شتون ولري.",
-      true_title: "توکی توکی 🛍️ امر",
+      true_title: "یوازې لومړی امر",
       false_title: "ټول امرونه",
     },
     qualify_input: {
@@ -9982,7 +9982,7 @@ export default {
         subtitle: "توکی توکی ",
       },
       delivery: {
-        title: "توکی توکی تحویلي",
+        title: "د سپارلو تصدیق وکړئ",
         subtitle: "تاسو کولی شئ په لاسي ډول د تادیې چمتو کونکي لپاره تحویلي تایید کړئ.",
       },
     },
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "توکی محصول",
-        subtitle: "توکی محصول توکی توکی ",
+        subtitle: "دا محصول د کراس پلورلو ترویج لپاره غوره شوی.",
         manage_product: "مدیریت کړئ محصول",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "د پیرودونکو پام راجلبولو لپاره یو زړه راښکونکی او زړه راښکونکی سرلیک جوړ کړئ.",
           placeholder:
-            "توکی & خوندي کړئ: توکی توکی !",
+            "بنډل او خوندي کړئ: زموږ په لاسي انتخاب شوي انتخاب سره خپل لید بشپړ کړئ!",
         },
       },
       action: {
@@ -10132,8 +10132,8 @@ export default {
      */
     health: {
       title: "محصول توکی",
-      available_in_stock_msg: "محصول توکی شته توکی توکی",
-      out_of_stock_msg: "محصول توکی توکی ",
+      available_in_stock_msg: "محصول په سټاک کې شتون لري.",
+      out_of_stock_msg: "محصول له ذخیره بهر دی.",
       file_count_msg:
         "{files_count} فایلونه توکی ټول {files_size} پورته کړئ توکی توکی محصول",
       no_file_uploaded_msg: "نه فایل توکی توکی پورته کړئ توکی",
@@ -10167,7 +10167,7 @@ export default {
       title: "نرخونه",
       no_product_price_msg: "توکی ډیفالټ محصول قیمت توکی توکی !",
       listing_pricing_msg: "لیست نرخونه:",
-      has_valuation_msg: "محصول توکی توکی",
+      has_valuation_msg: "محصول ارزښت لري.",
       subscription_pricing_msg:
         "توکی محصول توکی {count} ګډون نرخونه پلانونه",
       has_no_subscription_pricing_msg:
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "توکی توکی",
       },
       available_countries_msg:
-        "توکی توکی ته {count} توکی توکی {countries}.",
+        "پیرود په نړیواله کچه د {count} هیوادونو پورې محدود دی. دا هیوادونه {countries} دي.",
       disable_for_all_countries_msg:
         "پیرود ستاسو په پلورنځي > ځایونو ترتیب کې د ټولو هیوادونو لپاره غیر فعال دی.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10229,7 +10229,7 @@ export default {
         is_disabled: "توکی مالیه پروفایل توکی غیرفعال شوی!",
         tax_is_based_on_location: "مالیه: ځای توکی",
         shipping_tax_is_based_on_location: "لېږدول: ځای توکی",
-        included_in_price: "توکی توکی قیمت",
+        included_in_price: "په قیمت کې شامل دي.",
       },
     },
 
@@ -10318,7 +10318,7 @@ export default {
       },
       update_success: {
         title: "لاسرسی توکی",
-        message: "اجازه توکی توکی ",
+        message: "اجازې په بریالیتوب سره تازه شوې.",
       },
     },
   },
@@ -10380,7 +10380,7 @@ export default {
     add_dialog: {
       title: "غوره کړئ داخلول ډول",
       html: {
-        title: "توکی & توکی HTML",
+        title: "متن او html",
         subtitle: "توکی توکي ارزښت توکی توکی  HTML",
       },
       image: {
@@ -10389,17 +10389,17 @@ export default {
       },
     },
     help_dialog: {
-      title: "توکی ته توکی توکی ",
+      title: "د متحرک مینځپانګې کارولو څرنګوالی",
       how_it_works_tips:
         "د لینډینګ پا pagesو کې ، تاسو د متن او عکسونو دواړو لپاره متحرک ځای لرونکي ډیزاین کولو لپاره انعطاف لرئ. دا ځای لرونکي د شرایطو سره سم د مینځپانګې تنظیم کولو کې مهم رول لوبوي.   د دې ځای لرونکو متحرک طبیعت دوی ته اجازه ورکوي چې د لوړولو ارزښتونو لخوا آباد شي ، کوم چې د مختلف فکتورونو پراساس توپیر کولی شي. د مثال په توګه، د زیاتوالي ارزښتونه ممکن د هر محصول یا کټګورۍ لپاره توپیر ولري. د دې خصوصیت اصلي ګټه په لوبې کې راځي کله چې تاسو د مختلف ځانګړتیاو سره مختلف توکي ولرئ. تاسو کولی شئ دا متحرک ځای لرونکي په مؤثره توګه د هر توکي نندارې شخصي کولو او لوړولو لپاره وکاروئ، پدې توګه ستاسو د لینډینګ پا pagesو کې یو ځانګړی او متقابل تجربه رامینځته کړئ.",
       assign_tips:
-        "ته توکی توکی ته انځورونه, توکی توکی ",
+        "انځورونو ته د متحرک ارزښتونو د ټاکلو لپاره، د فیډر تڼۍ باندې کلیک وکړئ چې د برخې په ښي خوا کې موقعیت لري.",
       set_dynamic_image_tips:
         "تاسو اوس د دې وړتیا لرئ چې د عکس URL بدل کړئ او دا یو متحرک ارزښت وټاکئ.",
       enter_values_tips:
         "د هر محصول لپاره، تاسو د دې وړتیا لرئ چې وقف شوي کلیدي ارزښت جوړه جوړه کړئ.",
       result_tips:
-        "توکی توکی پاڼه, توکی توکی ",
+        "دا د پاڼې وروستۍ پایله ده، چیرې چې ځای لرونکي د لوړ شوي ارزښتونو سره بدل شوي.",
     },
   },
 
@@ -10419,7 +10419,7 @@ export default {
       subtitle:
         "تاسو کولی شئ د لوژستیک پروفایل لپاره مینځپانګه په څو ژبو کې تنظیم کړئ.",
 
-      language_input: "توکی مقاله توکی",
+      language_input: "د اوسنۍ مقالې ژبه",
       delete_article: "ړنګول مقاله",
       menu_tooltip: "اتومات توکی / ړنګول مقاله",
     },
@@ -10429,7 +10429,7 @@ export default {
         message: "مقاله توکی بشپړ شو توکی",
       },
       save_article: {
-        message: "مقاله توکی توکی ",
+        message: "مقاله په بریالیتوب سره خوندي شوې.",
       },
       delete_article: {
         message: "مقاله توکی توکی ړنګ شوی توکی",
@@ -10574,7 +10574,7 @@ export default {
         message: "شامل شوی توکي په بریالیتوب سره اضافه شوي.",
       },
       edit: {
-        message: "توکی توکی توکي توکی توکی ",
+        message: "شامل شوي توکي په بریالیتوب سره تازه شوي.",
       },
     },
   },
@@ -10605,9 +10605,9 @@ export default {
     no_wallet: "نه والټ!",
 
     withdraw_dialog: {
-      title: "توکی کمیسیون توکی",
+      title: "د کمیسیون فیس بیرته واخلئ",
 
-      need_bank_info_message: "توکی توکی بانک معلومات توکی",
+      need_bank_info_message: "مهرباني وکړئ لومړی د خپل بانک معلومات دننه کړئ.",
 
       to_wallet: {
         title: "ته والټ",
@@ -10648,7 +10648,7 @@ export default {
       message: "تاسو کولی شئ په هر پلورل شوي یو آر ایل کې <b>?ref={code}</b> اضافه کړئ.",
     },
     intro: {
-      title: "توکی توکی وابسته توکی Selldone",
+      title: "د سیلډون وابسته برنامې کې ګډون وکړئ",
       message:
         "د سیلډون وابسته برنامه ساده او مستقیم دی ، ستاسو لپاره ډیزاین شوی ترڅو په اسانۍ سره عاید ترلاسه کړي. خپل ځانګړی وابسته لینک شریک کړئ ترڅو نوي کاروونکو ته Selldone ته بلنه ورکړئ، او تاسو به د هرې معاملې څخه کمیشن ترلاسه کړئ - د تل لپاره. پدې کې د ګډون، خدماتو فیس، د پلورنځي اپ گریڈ، او د نورو ټولو عایداتو څخه عاید شامل دي. د وخت یا عایداتو محدودیت پرته د عاید یوه برخه ترلاسه کول پیل کړئ. زموږ سره یوځای شئ او خپله شبکه په ثابت عاید بدل کړئ!",
       why_join_selldone_affiliate: "توکی توکی ?",
@@ -10725,7 +10725,7 @@ export default {
       ctrl_2: "د ټاکل شوي متن د فونټ اندازه زیاته کړئ | <big>ما لوی کړه</big>",
       ctrl_r: "لرې کړئ ټول توکی څخه غوره کړئ توکی | توکی ټول توکی",
       ctrl_s: "خوندي کړئ توکی پاڼه",
-      tab: "توکی توکی حالت",
+      tab: "د پیمانه موډلونو ترمنځ بدل کړئ",
       ctrl_e: "توکی توکی سټایل حالت",
     },
   },
@@ -10759,7 +10759,7 @@ export default {
         },
         tags: {
           label: "ټګونه",
-          message: "کارول توکی لټون توکی توکی ",
+          message: "د عناصرو لټون او درجه بندي کولو لپاره کارول کیږي.",
         },
         section: {
           message: "د پاڼې جوړونکي څخه برخه کاپي کړئ.",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "توکی پلورونکی توکی توکی رد کړل",
       PENDING: "غوښتنه د پلورونکي څخه پریکړې ته په تمه ده.",
     },
-    number_of_products: "توکی توکی محصولات",
+    number_of_products: "د محصولاتو شمیر",
     invited: "توکی",
     no_pricing: "نه نرخونه",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "مهرباني وکړئ د پلورونکي لپاره د قیمت ډیفالټ ماډل ترتیب کړئ.",
     },
     updated_products_tooltip: {
-      title: "محصولات توکی توکی 24 توکی",
+      title: "محصولات په تیرو 24 ساعتونو کې تازه شوي",
     },
     added_products_tooltip: {
       title: "محصولات زیات کړئ توکی توکی 24 توکی",
@@ -10813,7 +10813,7 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "جواز توکی توکی!",
+    title: "د جواز لوړولو ته اړتیا ده!",
     subtitle:
       "ستاسو اوسنی جواز ستاسو د ټاکل شوي سوداګرۍ ماډل اړتیاوې نه پوره کوي. مهرباني وکړئ خپل جواز د شرکت پلان ته لوړ کړئ.",
   },
@@ -10855,7 +10855,7 @@ export default {
       add_action: "زیات کړئ کينډۍ",
 
       notifications: {
-        save_success_message: "کينډۍ توکی توکی ",
+        save_success_message: "کينډۍ په برياليتوب سره خوندي شوې.",
       },
 
       inputs: {
@@ -10884,9 +10884,9 @@ export default {
     authentication: "توکی",
     guest: "توکی",
     click_to_create: "توکی ته جوړ کړئ",
-    valid_for_30_days: "توکی توکی 30 30 ورځې",
+    valid_for_30_days: "د 30 ورځو لپاره اعتبار لري",
     notifications: {
-      secure_link_created: "توکی لینک توکی توکی ",
+      secure_link_created: "خوندي لینک په بریالیتوب سره جوړ شو.",
     },
   },
 
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "غوره کړئ توکی بسته",
-    define_package: "توکی توکی بسته",
+    define_package: "یوه بسته تعریف کړئ",
     define_package_hint: "د خپل مخکیني ټاکل شوي کڅوړې اندازې رامینځته کړئ یا ایډیټ کړئ",
   },
 
@@ -10999,12 +10999,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "لینکونه JSON",
-      opening_hours_json: "توکی توکی JSON",
+      opening_hours_json: "د پرانیستلو ساعتونه JSON",
 
       delete_title: "ړنګول توکي",
       delete_message: "توکی توکی ته ړنګول توکی توکي?",
       delete_success: "توکي په بریالیتوب سره حذف شول.",
-      restore_success: "توکي توکی توکی",
+      restore_success: "توکي په بریالیتوب سره بیرته راګرځول شوي.",
 
       opening_hours:"توکی توکی",
       form_fields:"فورمه توکی",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "کټګورۍ اضافه کړئ",
       edit_title: "کټګورۍ ترمیم کړئ",
 
-      parent_filter: "فلټر توکی توکی",
+      parent_filter: "د مور او پلار لخوا فلټر کړئ",
       parent: "د والدین کټګورۍ",
 
       price_format: "قیمت توکی",
@@ -11045,7 +11045,7 @@ export default {
 
       moderation_title: "توکی",
       moderation_mode: "توکی حالت",
-      require_first_approved_before_more: "توکی توکی نور. .",
+      require_first_approved_before_more: "د نورو څخه دمخه لومړی تصویب ته اړتیا لرئ",
 
       limits_title: "حدود",
       max_pending_per_user: "مکس پاتې توکی کارن",
@@ -11082,10 +11082,10 @@ export default {
     },
 
     moderation: {
-      approve_success: "توکي توکی توکی",
+      approve_success: "توکي په بریالیتوب سره تصویب شو.",
       publish_success: "توکي خپور شوی توکی",
-      unpublish_success: "توکي توکی توکی",
-      archive_success: "توکي توکی توکی",
+      unpublish_success: "توکي په بریالیتوب سره ناچاپ شو.",
+      archive_success: "توکي په بریالیتوب سره آرشیف شو.",
       reject_success: "توکي رد کړل توکی",
       penalty_success: "توکی توکی ",
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "پورته کړئ انځورونه",
       url_type: "ډول",
       url: "URL",
-      is_main: "توکی توکی اصلي"
+      is_main: "د اصلي په توګه تنظیم کړئ"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "ډیری ډیزاین سیټونه جوړ کړئ (کارډ + توضیحات ټیمپلیټونه) او کټګوریو ته یې وټاکئ. کټګورۍ کولی شي مختلف ډیزاینونه وکاروي.",
 
-      empty_title: "نه توکی توکی",
+      empty_title: "تراوسه هیڅ ډیزاین ندی",
       empty_subtitle:
         "خپل لومړی ډیزاین سیټ اضافه کړئ ترڅو دودیز پیل کړئ چې کټګورۍ څنګه ښکاري.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "جزیات کينډۍ",
 
       notifications: {
-        add_success: "ډیزاین توکی توکی",
-        edit_success: "ډیزاین توکی توکی",
+        add_success: "ډیزاین په بریالیتوب سره جوړ شو.",
+        edit_success: "ډیزاین په بریالیتوب سره تازه شو.",
         delete_success: "ډیزاین ړنګ شوی توکی",
       },
 
@@ -11154,8 +11154,8 @@ export default {
       edit_title: "سمون نښان",
 
       notifications: {
-        add_success: "نښان توکی توکی",
-        edit_success: "نښان توکی توکی",
+        add_success: "بیج په بریالیتوب سره جوړ شو.",
+        edit_success: "بیج په بریالیتوب سره تازه شو.",
         delete_success: "نښان ړنګ شوی توکی",
       },
 
@@ -11176,8 +11176,8 @@ export default {
       edit_title: "د شرکت ترمیم",
 
       notifications: {
-        add_success: "شرکت توکی توکی",
-        edit_success: "شرکت توکی توکی",
+        add_success: "شرکت په بریالیتوب سره جوړ شو.",
+        edit_success: "شرکت په بریالیتوب سره تازه شو.",
         delete_success: "شرکت ړنګ شوی توکی",
       },
 
@@ -11205,7 +11205,7 @@ export default {
       reply: "توکی",
       reply_hint: "کارونکي ته ځواب ولیکئ. تاسو کولی شئ پیغام د عملونو څخه د لوستلو/سپیم په توګه په نښه کړئ.",
 
-      mark_read: "توکی توکی لوستل",
+      mark_read: "د لوستلو په توګه نښه کړئ",
       mark_unread: "توکی توکی ",
       archive: "توکی",
       unarchive: "توکی",
@@ -11252,7 +11252,7 @@ export default {
       radius_default_hint: "کارول کیږي کله چې پیرودونکي یو ځای وټاکي مګر شعاع نه غوره کوي.",
       radius_max: "زیات تر زیات وړانګې (توکی)",
       radius_max_hint: "د پلورنځي فرنټ ریډیس به دې ارزښت ته کلک شي.",
-      radius_options: "وړانګې توکی (توکی)",
+      radius_options: "د وړانګو اختیارونه (کیلومتره)",
       radius_options_hint: "دا ارزښتونه د پلورنځي فرنټ UI کې د ګړندي اختیارونو په توګه ښودل کیدی شي.",
 
       filters_title: "لټون فلټرونه",
@@ -11404,7 +11404,7 @@ export default {
         "کورنۍ او ملګري: 20٪ تخفیف",
         "د دې اونۍ په پای کې لوی سپما",
         "تور جمعه: 40٪ بند",
-        "توکی توکی تخفیف: 30% توکی",
+        "Sneak Peek تخفیف: 30% تخفیف",
       ],
       description: [
         "خپل ځانګړي وړاندیز ادعا وکړئ! یوازې محدود وخت.",
@@ -11851,7 +11851,7 @@ export default {
         "بختور سپین بونانزا",
         "د انعامونو ګټلو لپاره سپن کړئ",
         "د شتمنۍ څرخ",
-        "توکی لاټری توکی",
+        "د خوشبختۍ لاټری Extravaganza",
         "د میګا سپن حیرانتیا",
         "د جایزې ویل فیسټا",
         "خزانه سپین سپېڅلی",
@@ -11896,15 +11896,15 @@ export default {
      */
     subscription_price: {
       title: [
-        "توکی لاسرسی",
-        "توکی توکی",
-        "توکی بسته",
-        "توکی پلان",
-        "توکی ګډون",
-        "توکی توکی",
-        "توکی توکی",
+        "بنسټیز لاسرسی",
+        "پریمیم غړیتوب",
+        "د سرو زرو بسته",
+        "د سلور پلان",
+        "د پلاتین ګډون",
+        "د شرکت درجه",
+        "د سټارټر بنډل",
         "لامحدود وړاندیز",
-        "توکی توکی",
+        "د کورنۍ کڅوړه",
         "مسلکي سوټ",
       ],
       description: [
@@ -11912,8 +11912,8 @@ export default {
         "لاسرسی ته ټول توکی توکی ",
         "توکی توکی لومړیتوب ملاتړ",
         "د منظم کاروونکو لپاره متوازن کڅوړه.",
-        "توکی لاسرسی توکی توکی ",
-        "ګمرک توکی توکی ",
+        "د لوړ پوړو امتیازاتو سره حتمي لاسرسی.",
+        "د لوی سازمانونو لپاره دودیز حلونه.",
         "توکی توکی ",
         "د بریښنا کارونکي لپاره د کارولو محدودیت نشته.",
         "د کورنیو لپاره ځانګړی پلان، تر 4 غړو پورې.",
@@ -11924,25 +11924,25 @@ export default {
     spec: {
       group: [
         "تخنیکي مشخصات",
-        "توکی توکی",
-        "فعالیت توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "Material توکی جوړول توکی",
-        "رنګ توکی ختم توکی",
-        "توکی توکی ",
-        "توکی توکی ",
-        "توکی توکی ",
-        "بسته توکی",
-        "تضمین توکی ملاتړ",
-        "برانډ توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی ",
-        "توکی توکی",
-        "توکی توکی",
-        "کارن توکی توکی بیاکتنې",
-        "نرخونه توکی توکی",
+        "فزیکي ابعاد",
+        "د فعالیت ځانګړتیاوې",
+        "د ارتباط اختیارونه",
+        "د بریښنا اړتیاوې",
+        "د موادو او جوړونې کیفیت",
+        "د رنګ او پای اختیارونه",
+        "ذخیره او حافظه",
+        "د عملیاتي سیسټم مطابقت",
+        "خوندیتوب او موافقت",
+        "د بسته محتويات",
+        "تضمین او ملاتړ",
+        "برانډ او جوړونکی",
+        "د چاپیریال دوستۍ",
+        "د انرژي موثریت",
+        "پاملرنه او ساتنه",
+        "د اصلاح کولو اختیارونه",
+        "لوازم شامل دي",
+        "د کارن درجه بندي او بیاکتنې",
+        "قیمت او شتون",
       ],
     },
 
@@ -11970,26 +11970,26 @@ export default {
         "پېرودونکی رسید",
       ],
       message: [
-        "توکی توکی پیرود!",
-        "توکی توکی سوداګري",
-        "توکی 🛍️ امر توکی توکی !",
-        "توکی توکی ",
-        "توکی توکی ته توکی توکی ",
-        "توکی توکی لومړیتوب",
-        "توکی توکی ته توکی توکی ",
-        "توکی توکی پلورنځي",
-        "توکی توکی نوی پیرود!",
-        "خوندي کړئ توکی رسید توکی توکی ",
-        "لیدنه توکی توکی نور. . توکی محصولات",
-        "توکی نښلول شوی توکی توکی وړاندیز کوي",
-        "توکی توکی پېرودونکی",
-        "توکی توکی ته توکی توکی ",
-        "توکی فیډبیک توکی توکی ",
+        "ستاسو د پیرودلو لپاره مننه!",
+        "موږ ستاسو د سوداګرۍ ستاینه کوو.",
+        "ستاسو امر په لاره دی!",
+        "له موږ سره د پیرودلو لپاره مننه.",
+        "یو ځل بیا ستاسو خدمت ته سترګې په لار یو.",
+        "ستاسو رضایت زموږ لومړیتوب دی.",
+        "د خپلې تجربې ارزونه مه هیروئ.",
+        "زموږ د پلورنځي ملاتړ لپاره مننه.",
+        "موږ هیله لرو چې تاسو د خپل نوي پیرود څخه خوند واخلئ!",
+        "د راتلونکي حوالې لپاره خپل رسید خوندي کړئ.",
+        "د نورو عالي محصولاتو لپاره موږ ته بیا لیدنه وکړئ.",
+        "د ځانګړي وړاندیزونو لپاره اړیکه ونیسئ.",
+        "د ارزښت وړ پیرودونکي کیدو لپاره مننه.",
+        "موږ دلته د مرستې لپاره یو که تاسو مرستې ته اړتیا لرئ.",
+        "ستاسو نظر موږ سره مرسته کوي چې ښه شي.",
         "ستاسو په راتلونکي پیرود کې د ځانګړي تخفیف څخه خوند واخلئ.",
-        "توکی توکی !",
-        "توکی توکی ",
-        "توکی توکی ته توکی فیډبیک",
-        "توکی توکی څخه توکی توکی",
+        "تاسو یو ښه انتخاب کړی دی!",
+        "په موږ باندې ستاسو د باور څخه مننه.",
+        "ستاسو د نظر په تمه.",
+        "زموږ د ټیم څخه د زړه له کومې مننه.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "توکی توکی",
-        "پلورونکی توکی",
-        "توکی کورپاڼه",
-        "توکی توکی",
+        "د ملکیت نندارې",
+        "د پلورونکي پلازا",
+        "ځانګړی کورونه",
+        "محلي بازار",
         "نوي راغلي",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "زیورات توکی",
-        "توکی توکی",
-        "توکی توکی",
+        "د املاکو باغونه",
+        "د پیرود ولسوالۍ",
+        "د هنرمندانو کوڅه",
+        "لوکس املاکو",
+        "د کرایې مرکز",
+        "خلاص کورونه",
+        "تخنیکي نوښتونه",
+        "د فیشن لین",
+        "د لاسي صنایعو کونج",
+        "د خوړو محکمه",
+        "د کتاب نوک",
+        "د ګاڼو جنکشن",
+        "لرغونی لاره",
+        "د فټنس زون",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "سوداګري توکی توکی",
-        "مالیه توکی توکی (توکی)",
+        "د سوداګرۍ د ثبت سند",
+        "د مالیې د پیژندنې شمیره (TIN)",
         "پلورونکی توکی فورمه",
         "محصول توکی",
         "نرخونه لیست",
         "بانک حساب جزیات",
-        "توکی توکی پته",
+        "د پته ثبوت",
         "توکی توکی",
         "شرکت پروفایل",
         "توکی توکی ",
         "توکی ډاټا شیټ (توکی)",
         "محصول تضمین معلومات",
         "بیرته راګرځي تګلاره",
-        "لېږدول توکی توکی ",
+        "د بار وړلو او سمبالولو پروسیجرونه",
         "پېرودونکی خدمت تګلاره",
         "بازارموندنه توکی توکی پلانونه",
-        "توکی توکی لینکونه",
+        "د ټولنیزو رسنیو لینکونه",
         "توکی توکی",
-        "توکی کوډ توکی توکی",
-        "توکی توکی (توکی)",
+        "د عرضه کوونکي د چلند قانون",
+        "د نه افشا کولو تړون (NDA)",
       ],
     },
 
@@ -12054,24 +12054,24 @@ export default {
     expert_contract: {
       title: [
         "بازار پلورنځي خدمتونه توکی",
-        "هټۍ توکی توکی",
-        "توکی خدمتونه توکی",
+        "د پلورنځي ترتیب قرارداد",
+        "د غوښتنې پر بنسټ د خدماتو تړون چاپ",
         "توکی بازارموندنه خدمت توکی",
-        "توکی توکی پلورنځي توکی",
-        "ماهر توکی توکی سوداګري توکی",
-        "خدمت توکی توکی بازار توکی",
+        "د ای کامرس پلیټ فارم تنظیم کولو تړون",
+        "د سوداګرۍ مالکینو لپاره د متخصص مشورې قرارداد",
+        "د بازار د تنظیم کولو لپاره د خدماتو تړون",
         "هټۍ پلورنځي توکی توکی خدمتونه توکی",
         "POD خدمت توکی توکی",
-        "بازارموندنه توکی توکی ",
+        "د بازار موندنې ستراتیژی پلي کولو تړون",
         "سوداګري توکی خدمت توکی",
         "توکی پلورنځي پلورنځي توکی",
         "ماهر خدمت توکی توکی",
-        "سوداګري توکی توکی پلورنځي توکی",
+        "د سوداګرۍ حل او تنظیم قرارداد",
         "ګمرک هټۍ پلورنځي خدمتونه توکی",
         "بازار توکی خدمت توکی",
-        "توکی توکی پلورنځي خدمتونه توکی",
+        "د مشورتي او تنظیم کولو خدماتو قرارداد",
         "POD توکی خدمتونه توکی",
-        "بازارموندنه توکی توکی خدمتونه توکی",
+        "د بازار موندنې او ترویج خدماتو قرارداد",
         "سوداګري توکی خدمت توکی",
       ],
     },
@@ -12144,7 +12144,7 @@ export default {
         "ځانګړې معاملې او سپما یوازې په {shop} کې - له فرصت څخه ګټه واخلئ!",
         "د چاپیریال دوستۍ او اخالقي عملونو ته د {shop} وقف په اړه پوه شئ",
         "د {shop} کورنۍ یوه برخه اوسئ - د تازه معلوماتو لپاره زموږ نیوز لیټر کې ګډون وکړئ",
-        "توکی توکی {shop}",
+        "په {shop} کې په غوره انتخابونو او لوړ رتبه شوي توکو کې ډوب کړئ",
         "توکی توکی ټول پیښې توکی {shop}",
         "په {shop} کې بې ساري وړاندیزونه او د وخت حساس ځانګړي - ګړندي عمل وکړئ!",
         "{shop} د پیرودلو هراړخیز لارښوونې او د محصول ارزونه - په باور سره پیرود وکړئ",
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "توکی توکی , توکی توکی !",
-        "خوندي کړئ توکی توکی معامله!",
-        "توکی توکی !",
-        "توکی توکی پیرود, توکی توکی!",
-        "توکی توکی , پېرود توکی!",
-        "توکی توکي, توکی توکی!",
+        "خپل نظر بشپړ کړئ، سیټ واخلئ!",
+        "زموږ د بنډل معاملو سره لوی خوندي کړئ!",
+        "زموږ کامل جوړه له لاسه مه ورکوئ!",
+        "خپل پیرود ته وده ورکړئ، اضافې په تمه دي!",
+        "ځانګړي سپما خلاص کړئ ، یوځای پیرود وکړئ!",
+        "بشپړونکي توکي، ځانګړي تخفیف!",
         "ډیر ترلاسه کړئ، لږ مصرف کړئ - بنډل پورته کړئ!",
-        "توکی وړاندیز: توکی محصولات!",
-        "توکی توکی , توکی معامله!",
-        "توکی توکی , خوندي کړئ توکی!",
-        "توکی توکی !",
-        "هټۍ توکی, توکی توکی خوندي کړئ!",
-        "توکی توکی ارزښت, توکی توکی !",
-        "توکی توکی – هټۍ توکی!",
-        "توکی توکی نرخونه توکی توکی !",
-        "توکی توکی !",
-        "توکی توکی !",
+        "د محدود وخت وړاندیز: مطابقت لرونکي محصولات!",
+        "خپله تجربه لوړه کړئ ، کومبو معاملې!",
+        "زموږ جوړ شوي کمبوس کشف کړئ ، همدا اوس خوندي کړئ!",
+        "د حتمي کمبو لپاره یې جوړه کړئ!",
+        "هوښیار پیرود وکړئ، بنډل او خوندي کړئ!",
+        "دوه چنده ارزښت، دوه چنده تفریح!",
+        "ستاسو کامل لوبه دلته ده - همدا اوس پیرود وکړئ!",
+        "د ځانګړي بنډل قیمت یوازې ستاسو لپاره!",
+        "زموږ د کمبوس سره خپل سپما اعظمي کړئ!",
+        "د دې انتخابونو سره خپل ټولګه ښه کړئ!",
         "ستاسو لپاره جوړ شوی: لوبه وکړئ او خوندي کړئ!",
-        "توکی توکی !",
-        "توکی توکی د خوښې وړ توکی توکی !",
+        "د یوې مناسبې ورځې لپاره مناسب جوړه!",
+        "د اضافي سپما لپاره خپلې خوښې بنډل کړئ!",
       ],
     },
 
@@ -12218,8 +12218,8 @@ export default {
         "🛍️ امر سپارل شوی",
         "تادیه ترلاسه کړ",
         "🛍️ امر توکی",
-        "🛍️ امر توکی توکی",
-        "🛍️ امر توکی توکی",
+        "د امر پروسس ځنډ",
+        "امر په بند کې",
         "🛍️ امر توکی توکی تحویلي",
         "بیرته راګرځي توکی",
         "توکی توکی",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "توکی",
-        "توکی توکی",
-        "توکی",
+        "جامې",
+        "ډیجیټل ګیجټونه",
+        "څښاک",
         "خواړه",
         "فرنیچر",
-        "توکی",
-        "توکی محصولات",
-        "توکی",
-        "توکی توکی",
-        "توکی",
+        "کتابونه",
+        "د ښکلا محصولات",
+        "لوبي",
+        "د سپورت وسایل",
+        "لوازم",
       ],
       description: [
         "د جامو د توکو لپاره ځانګړتیاوې لکه اندازه، رنګ، او ټوکر.",
         "د ګیجټونو لپاره مشخصات لکه برانډ، ماډل، او ځانګړتیاوې.",
         "خوندونه، اندازې او د مشروباتو ډولونه.",
         "د خواړو، ناشتو او خواړو محصولاتو لپاره توضیحات.",
-        "Material, توکی, توکی ډیزاین توکی",
-        "لیکوال, توکی, توکی توکی ",
+        "مواد، ابعاد، او ډیزاین سټایلونه.",
+        "لیکوال، ژانر، او د خپرولو کال.",
         "د پوستکي ډول، اجزاء، او د بسته بندي توضیحات.",
-        "توکی توکی, توکی, توکی توکی ",
-        "ډول, توکی, توکی فعالیت توکی",
-        "توکی, توکی, توکی برانډ جزیات",
+        "د عمر ګروپ، مواد، او د خوندیتوب معیارونه.",
+        "ډول، اندازه، او د فعالیت ځانګړتیاوې.",
+        "سټایلونه، توکي، او د نښې توضیحات.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "توکی XS",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی XL",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی",
-        "توکی توکی ",
-        "توکی توکی ", // flexible mailer
-        "توکی توکی", // bubble/padded
-        "توکی توکی", // thermal
-        "توکی توکی",
+        "بکس XS",
+        "بکس ایس",
+        "بکس ایم",
+        "بکس L",
+        "بکس XL",
+        "بکس XXL",
+        "بکس سلم",
+        "د بکس پراخه",
+        "بکس اوږد",
+        "د بکس فلیټ",
+        "د بکس مکعب",
+        "د بکس ټیوب",
+        "بکس نازک",
+        "د بکس شیشې بوتلونه",
+        "د بکس نرم بسته", // flexible mailer
+        "بکس پیډ شوی", // bubble/padded
+        "بکس موصل شوی", // thermal
+        "بکس درنه دنده",
       ],
     },
   },

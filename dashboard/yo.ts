@@ -2801,7 +2801,7 @@ export default {
     add_gateway: "Tuntun Isanwo ṃéţħóď",
 
     add_gateway_dialog: {
-      title: "Şéľéçţ Owo owo",
+      title: "Yan Owo",
       country_currencies: "Ľóçáľ çúřřéñçíéş",
       crypto_currencies: "Çřýƥţóçúřřéñçíéş",
 
@@ -2813,7 +2813,7 @@ export default {
       cash_methods: "Çáşħ Isanwo (POS)",
 
       currency_step: {
-        title: "Şéľéçţ á Owo owo",
+        title: "Yan owo kan",
         subtitle:
           "Ţřý Si ķééƥ ţħé ñúṃƀéř óƒ çúřřéñçíéş íñ ýóúř itaja Si á ṃíñíṃúṃ—íďéáľľý ƒéŵéř ţħáñ 3. Ṃóşţ Isanwo Awọn ẹnu-ọna çáñ ƥřóçéşş Awọn iṣowo íñ áľṃóşţ áñý Owo owo.",
         add_first_currency: {

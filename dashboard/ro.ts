@@ -31,8 +31,8 @@ export default {
     main_domain: "principal Domeniu",
     domains: "Domenii",
     home_page: "Acasă pagină",
-    google_icon_font_sample: "Google element element",
-    fontawesome_icon_font_sample: "Fontawesome (element) element",
+    google_icon_font_sample: "Exemplu de font Google",
+    fontawesome_icon_font_sample: "Eșantion Fontawesome (V6).",
   },
 
   numbers: {
@@ -96,7 +96,7 @@ export default {
     },
     upscale: {
       title: "mărește rezoluția",
-      subtitle: "crește element rezoluție element element Imagine",
+      subtitle: "Măriți rezoluția imaginii.",
     },
   },
 
@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Opțiuni avansate",
       menu_advanced_options_description:
-        "Connect Google foaie, Elimina element Produse element Mai mult. .",
+        "Conectați foaia Google, eliminați produsele duplicate și multe altele...",
 
       products_rss: {
         title: "RSS produse",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API produse",
-        subtitle: "Importă Produse element element API element",
+        subtitle: "Importarea produselor printr-un apel API accesibil public.",
       },
       google_sheet: {
         action: "conectat foaie",
@@ -630,12 +630,12 @@ export default {
         false_description:
           "Vizualizați produsele organizate pe categorii și subcategorii.",
         true_title: "Mod tabel",
-        true_description: "Vedere Produse element element ",
+        true_description: "Vizualizați produsele într-un tabel detaliat.",
       },
 
       show_notes: {
         false_title: "Ascunde element",
-        false_description: "Ascunde element element",
+        false_description: "Ascunde notele goale.",
         true_title: "Afișează element",
         true_description: "Afișează toate element, ⌘Ctrl+2",
       },
@@ -860,9 +860,9 @@ export default {
         subtitle:
           "Puteți implementa restricții pentru a vă asigura că numai clienții din zonele de expediere desemnate pot face achiziții de la dvs.!",
         no_enable_shipping_error:
-          "Nu element element Cumpără Din element element Nu activat livrare metodă!",
+          "Nimeni nu poate cumpăra de la tine pentru că nu ai nicio metodă de expediere activată!",
         customer_must_select_a_shipping_msg:
-          "client element Selectează element livrare metodă La element 🛍️ Comanda",
+          "Clientul trebuie să selecteze o metodă de livrare pentru a plasa comanda.",
         customer_can_order_without_shipping_method_msg:
           "Clientul poate plasa comanda chiar dacă nu este acceptată nicio metodă de livrare pentru locația selectată.",
         inputs: {
@@ -870,7 +870,7 @@ export default {
             false_description:
               "Clienții pot plasa în continuare comenzi chiar dacă nu a fost selectată nicio metodă de livrare specifică.",
             false_title: "element toate Comenzi",
-            true_title: "element element 🛍️ Comanda",
+            true_title: "Restricționat acceptarea comenzii",
             true_description:
               "Clienții trebuie să aleagă fie o opțiune de livrare, fie o opțiune de ridicare pentru a finaliza achiziția.",
           },
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "element Unitate",
-        subtitle: "element Unitate Folosit element element",
+        subtitle: "Unitatea folosită pentru distanță.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Logistică",
         profiles: "Profiluri",
         includes: "Include",
-        property_sets: "element element",
+        property_sets: "Seturi de proprietăți",
         boxes: "pachete",
       },
 
@@ -1215,7 +1215,7 @@ export default {
         app_icon_input: "Pictograma aplicației",
         app_icon_input_placeholder: "Selectați fișierul zip al pictogramelor aplicației.",
         generate_icon_pack_action: "Construi Pictogramă element",
-        splash_design: "element element ",
+        splash_design: "Splash Screen Desgin",
         splash_logo_input: "Logo Ecran de Splash",
         splash_logo_input_placeholder: "Selectați o imagine pentru ecranul Splash.",
         splash_title_input: "Titlul ecranului de deschidere",
@@ -1358,7 +1358,7 @@ export default {
 
       /** {@see ShopSocialField} **/
       social: {
-        title: "element element",
+        title: "Social Media",
         message:
           "Introduceți linkul oficial al rețelei sociale în această secțiune. Urmați instrucțiunile pentru fiecare articol pentru a confirma adresele.",
       },
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Categorie",
-      category_input_msg: "element: element element Magazine element",
+      category_input_msg: "Gol: În rădăcina magazinului",
       product_name: "Numele produsului*",
       product_name_placeholder: "Numele produsului dvs. aici..",
       product_code: "Cod produs (engleză)",
       sku: {
         label: "SKU",
-        message: "element element Unitate",
+        message: "Unitate de păstrare a stocurilor",
       },
       mpn: {
         label: "MPN",
-        message: "element element ",
+        message: "Numărul piesei producătorului",
       },
 
       external_link: "Link extern",
@@ -1490,7 +1490,7 @@ export default {
       },
       unit: {
         subtitle:
-          "element element Prețuri element element Produs pagină",
+          "Puteți personaliza afișarea elementelor de preț și de îndemn pe pagina produsului.",
       },
       custom_pricing: {
         title: "Personalizat Prețuri formular",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Salvați mai întâi produsul, apoi puteți atribui un model de evaluare.",
         assign_valuation_message:
-          "element element La element Produs",
+          "Vă rugăm să atribuiți un model de evaluare acestui produs.",
         edit_pricing_action: "Editați ╏ × Prețuri formular",
         add_pricing_action: "Crea Nou Prețuri formular",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Personalizat Cumpără element",
         message:
           "Puteți schimba pictograma urmând acest model: {icon name} legenda...",
-        placeholder: "element element La element",
-        multi_language_dialog_title: "Personalizat Cumpără element element",
+        placeholder: "Introduceți îndemnul la acțiune...",
+        multi_language_dialog_title: "Subtitrare personalizată pentru butonul de cumpărare",
       },
       external: {
         not_available_message:
           "Acțiune suplimentară disponibilă cu licențe pentru companie și întreprindere.",
         available_message: "Puteți adăuga un îndemn extern suplimentar.",
-        input_label: "element element La element",
+        input_label: "Al doilea apel la acțiune",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Valorile acceptate sunt UPC (America de Nord, 12 cifre), EAN (Europa, 13 cifre), JAN (Japonia, 8 sau 13 cifre), ISBN (cărți, 13 cifre).",
-        label: "Produse element element articol element",
-        placeholder: "element element (opțional)",
+        label: "Numărul articolului comercial global al produsului",
+        placeholder: "Numărul comercial global aici.. (Opțional)",
       },
       hsn: {
         hint: "HSN, sau Sistemul Armonizat de Nomenclatură, este un sistem de clasificare standardizat internațional pentru clasificarea mărfurilor și produselor.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Produs element element magazin",
-        message: "element element Produs",
+        label: "Starea produsului în magazinul dvs",
+        message: "Vă rugăm să alegeți starea acestui produs.",
         subtitle:
           "Informați-vă clienții despre starea și marca produsului pe care îl oferiți.",
       },
@@ -1558,7 +1558,7 @@ export default {
           "Puteți defini garanția, politica de returnare, transportul și ghidul și le puteți atribui acestui produs. Acesta va fi afișat ca file noi pe pagina produsului.",
       },
       shortcuts: {
-        title: "element Produs La element Categorii",
+        title: "Atribuiți un produs la categorii suplimentare",
         subtitle:
           "Această caracteristică vă permite să listați produsul în mai multe categorii, păstrând în același timp plasarea în categoria principală setată în Produs > Editare > Categorie. În esență, funcționează în mod similar cu crearea de „comenzi rapide” în sistemele de operare, permițând produsului să apară în categorii suplimentare specificate.",
       },
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "element",
         subtitle:
-          "Adaugă Produs Specificații element element ",
+          "Adăugați manual specificațiile produsului definind grupuri și pereche cheie-valoare.",
         add_group_action: "Adăugare grup",
         add_item_action: "Adaugă specificație Valoare",
       },
@@ -1647,14 +1647,14 @@ export default {
         subtitle:
           "Puteți importa specificații tehnice ale produselor similare.",
         action_title: "Importă",
-        action_subtitle: "element specificație Din element Produs",
+        action_subtitle: "Clonează specificațiile de la alt produs.",
       },
       ai: {
         title: "AI",
         subtitle:
           "Puteți crea automat specificațiile produsului prin trimiterea datelor brute ale produsului sub formă de text.",
-        action_title: "automat element element AI",
-        action_subtitle: "Crea Produs Specificații element element ",
+        action_title: "Generare automată prin AI",
+        action_subtitle: "Creați specificațiile produsului prin promptare abstractă.",
       },
 
       group_input_header: "Adăugare grup",
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Specificațiile produsului au fost salvate.",
       },
       dialog_ai: {
-        title: "element element Produs Specificații",
+        title: "Generați automat specificațiile produsului",
         prompt: {
           title: "Produs Prezentare generală",
           subtitle:
@@ -1696,19 +1696,19 @@ export default {
         generated_spec: {
           title: "elementelement Specificații AI",
           subtitle:
-            "element Specificații element element ",
+            "Aceste specificații au fost generate de inteligența artificială.",
         },
         inputs: {
           prompt: {
             label: "Produs Detalii",
-            placeholder: "element element Produs element",
+            placeholder: "Descrieți produsul aici...",
           },
         },
         actions: {
           run: {
             title: "element Specificații",
             subtitle:
-              "element La element Crea Produs Specificații Din element element Prezentare generală",
+              "Faceți clic pentru a crea automat specificațiile produsului din prezentarea generală furnizată.",
           },
           add_generated_spec: "Adaugă element Specificații",
         },
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "fundal Descriere",
-            placeholder: "element element fundal",
+            placeholder: "Descrieți fundalul dorit...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Reimaginați întreaga imagine cu un fundal nou.",
           },
           replace: {
-            subtitle: "element element fundal",
+            subtitle: "Înlocuiți fundalul existent.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "element Prețuri element element {min}",
+    title: "Preț suplimentar pentru peste {min}",
     subtitle:
       "Sistemul determină automat ordinea și prioritatea pentru calcularea prețului. Vă rugăm să introduceți cantitatea minimă necesară pentru ca acest preț să intre în vigoare.",
     min_quantity: "Cantitate minima",
@@ -1870,16 +1870,16 @@ export default {
         "Inventarul pentru produsele dropshipping este stabilit de angrosisti și nu poate fi modificat aici.",
       marketplace:
         "Inventarul global de produse de pe piață este determinat prin însumarea stocurilor tuturor vânzătorilor. Nu îl puteți modifica aici.",
-      default: "element element Produse Inventar Numara element",
+      default: "Specificați aici numărul de inventar al produsului.",
     },
     menu: {
       add_bulk: {
         title: "element Adaugă",
-        subtitle: "Adaugă element Variante element element ",
+        subtitle: "Adăugați mai multe variante într-o singură acțiune.",
       },
       edit_property_set: {
-        title: "element element ",
-        subtitle: "Schimbare Variante element, element element Comenzi",
+        title: "Personalizați setul de proprietăți",
+        subtitle: "Schimbați numele variantelor, pictogramele și comenzile.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Produs Categorie Cod",
     hint: "Reprezintă categoria produsului dvs. conform taxonomiei produselor Google.",
-    placeholder: "element Produs element serviciu Categorie (opțional)",
+    placeholder: "Introduceți categoria de produs sau serviciu.. (Opțional)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "element Gestionare",
     subtitle:
-      "Crea element, element, element element ",
+      "Creați ferestre pop-up personalizate, inteligente și interactive.",
     add_action: "Adaugă Nou Pop-up",
   },
 
@@ -1942,7 +1942,7 @@ export default {
       dedicated: "element",
 
       subscription: "Putem aplica taxe doar la etapa de creare a plății.",
-      is_disabled: "element Impozit profil element dezactivat! (⚠️element)",
+      is_disabled: "Acest profil fiscal este dezactivat! (⚠️Avertisment)",
       shipping: "livrare",
       fixed_rate: "Taxă",
       location_based_rate: "Impozit: Locație element",
@@ -1988,7 +1988,7 @@ export default {
       page: "pagină Șablon",
       shipping: "livrare",
       access: "Acces",
-      critical_zone: "element element",
+      critical_zone: "Zona Critică",
     },
 
     profile: {
@@ -2002,7 +2002,7 @@ export default {
 
     profiles: {
       title: "Profiluri",
-      subtitle: "element element Locație La element vânzător",
+      subtitle: "Puteți atribui locația acestui furnizor.",
     },
     map: {
       no_map_message:
@@ -2014,7 +2014,7 @@ export default {
         "Setați o pagină de destinație personalizată pentru furnizor, oferindu-i un link unic către pagina lor dedicată.",
       action_set_page: "vezi public pagină",
       action_sub_caption: "Personalizat Aterizare pagină",
-      vendor_has_landing_msg: "vânzător element element Personalizat Aterizare pagină",
+      vendor_has_landing_msg: "Furnizorul are o pagină de destinație personalizată.",
       no_landing_selected_msg: "Nu Aterizare pagină Selectează",
       no_landing_page: "Nu Aterizare pagină",
       we_can_create_dedicated_landing_msg:
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "a lua legatura element",
-      subtitle: "element element a lua legatura Detalii",
+      subtitle: "Vă rugăm să furnizați date de contact valide.",
     },
     business: {
       title: "afacere element",
@@ -2031,7 +2031,7 @@ export default {
     },
     bank: {
       title: "element informații",
-      subtitle: "Intrare element bancă Detalii element element ",
+      subtitle: "Introduceți aici detaliile dvs. bancare pentru plăți.",
     },
     default_pricing: {
       title: "Mod implicit Prețuri",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "livrare",
-      subtitle: "vânzători element magazin element element livrare Servicii element Curieri",
+      subtitle: "Furnizorii își pot configura propriile servicii de expediere și curieri.",
       shipping_services: "livrare Servicii",
       total_number_of_services:
         "Numărul total de servicii de transport pe care le are furnizorul.",
@@ -2056,7 +2056,7 @@ export default {
       action: "Elimina vânzător",
       verify_description:
         "Știu că toate relațiile cu furnizorii de produse vor fi eliminate!",
-      verify_title: "element element La Șterge element vânzător",
+      verify_title: "Vreau să șterg acest furnizor.",
     },
 
     send_invitation_tips:
@@ -2068,22 +2068,22 @@ export default {
       "E-mailul introdus nu se potrivește cu e-mailul utilizatorului (<b>{user_name}:</b>{user_email}). Sunteți sigur că veți trimite e-mailuri către<b>{email}</b>?",
 
     order_information_email_to_email:
-      "element element Trimite Comenzi informații La <b>{email}</b>.",
+      "Vom trimite informații despre comenzi către <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Setați mai întâi un utilizator pentru furnizor.",
 
     inputs: {
       slug: {
         label: "element",
-        placeholder: "element element Personalizat element",
-        hint: "Schimbare element element vânzători element Aterizare pagină",
+        placeholder: "Introduceți o cale personalizată...",
+        hint: "Schimbați calea către pagina de destinație dinamică a furnizorului.",
       },
       email: {
-        message: "element E-mail element A primi toate Notificări element Actualizează",
+        message: "Acest e-mail va primi toate notificările și actualizările.",
       },
       business: {
-        false_description: "element element ",
-        true_description: "element element afacere element",
+        false_description: "Lucrez ca individ.",
+        true_description: "Eu operez ca o entitate comercială recunoscută legal.",
         false_title: "element",
         true_title: "afacere",
       },
@@ -2096,8 +2096,8 @@ export default {
         placeholder: "element Nume",
       },
       account_number: {
-        hint: "element vânzători element Cont element",
-        placeholder: "element bancă Cont element",
+        hint: "Numărul unic de cont al furnizorului.",
+        placeholder: "Numărul contului dvs. bancar..",
       },
       routing_number: {
         hint: "Acest număr variază în funcție de țară. Este folosit pentru a identifica sucursala bancară specifică pe care o folosește furnizorul.",
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Numărul de cont bancar internațional): dacă banca vânzătorului se află în Europa sau în anumite alte țări.",
-        placeholder: "element IBAN element element DE89 3704 0044 0000 0000 00",
+        placeholder: "Numărul dvs. IBAN.. ex. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Numărul de cont bancar internațional): dacă banca vânzătorului se află în Europa sau în anumite alte țări.",
-        placeholder: "element element  BIC SWIFT",
+        placeholder: "Codul dvs. Swift/BIC..",
       },
       branch_address: {
         hint: "Adresa sucursalei băncii unde vânzătorul își are contul.",
@@ -2126,7 +2126,7 @@ export default {
         true_description:
           "Vânzătorul are un panou dedicat pentru a actualiza cantitatea și prețul.",
         hint: "Puteți activa sau dezactiva panoul de furnizori, care permite vânzătorilor să actualizeze cantitățile și prețurile produselor și să primească comenzi parțiale.",
-        false_description: "element vânzător element Nu Acces La element",
+        false_description: "Vânzătorul nu are acces la nimic.",
       },
 
       logo: {
@@ -2164,21 +2164,21 @@ export default {
   product_badges: {
     title: "insigne",
     subtitle: "Adaugă element Editați ╏ × Personalizat Produs insigne",
-    only_marketplace_owner_msg: "element Piata de desfacere element",
+    only_marketplace_owner_msg: "Doar proprietarii de piață",
     create_new_badge_action: "Crea Nou insignă",
     select_a_badge: "Selectează element insignă",
     inputs: {
       custom: {
-        false_description: "Produse insigne element element ",
+        false_description: "Insignele produselor sunt create automat.",
         false_title: "automat",
         true_title: "Personalizat Produse insigne",
-        true_description: "Adaugă Personalizat insigne element element Produs pagină",
+        true_description: "Adăugați insigne personalizate în pagina produsului.",
       },
     },
     add_custom_badge: {
       title: "Personalizat insignă",
       subtitle:
-        "Adaugă element Nou Personalizat insignă La element Magazin element insigne Numara element 10. Mai mult. . insigne element element Magazin",
+        "Adăugați o nouă insignă personalizată în magazinul meu. Păstrați numărul de insigne sub 10. Mai multe insigne ar încetini magazinul dvs.",
       show_advanced_options: "Afișează Avansat element",
 
       inputs: {
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "Imagine",
-          message: "element Imagine element: 128KB",
-          placeholder: "Selectează element element Imagine",
+          message: "Dimensiunea maximă a imaginii: 128KB",
+          placeholder: "Selectați o imagine de copertă",
         },
         pattern: {
           label: "element",
@@ -2199,9 +2199,9 @@ export default {
       },
       notifications: {
         badge_added: "Insigna a fost adăugată cu succes!",
-        badge_updated: "element insignă element element !",
+        badge_updated: "Insigna a fost actualizată cu succes!",
         item_not_found_error:
-          "element articol element element pagină element a lua legatura A sustine",
+          "Elementul nu a putut fi găsit. Vă rugăm să reîmprospătați pagina sau să contactați asistența.",
       },
     },
   },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "element Etichete element element ",
+      tags_updated: "Etichetele au fost actualizate cu succes.",
     },
   },
 
@@ -2267,7 +2267,7 @@ export default {
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "element element",
+    header: "Limbi multiple",
     auto_action: "automat element",
     premium_user_only: "element Utilizatori",
   },
@@ -2338,7 +2338,7 @@ export default {
         title_small: "Depozit",
         total_sell: "Vanzari totale",
         total_sell_today: "Azi vânzări",
-        total_sell_timespan: "element Vânzări element {start} ~ {end}",
+        total_sell_timespan: "Vânzări totale între {start} ~ {end}",
         chart: {
           labels: ["Inventar", "Vânzare"],
         },
@@ -2370,7 +2370,7 @@ export default {
         title: "Evaluare produs",
         title_small: "Raport de satisfacție a clienților",
         total_participation: "Numărul total de contribuții",
-        total_participation_tooltip: "element Numara element element Produs",
+        total_participation_tooltip: "Numărul total de evaluatori pentru produs.",
         today_participation: "Evaluările de astăzi",
         last7days_participation: "Contribuții pentru ultimele 7 zile",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Numărul de contribuții",
           score: "Scor",
         },
-        users_not_rated_msg: "Utilizatori element element Produs element",
+        users_not_rated_msg: "Utilizatorii nu au evaluat încă acest produs.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,16 +2442,16 @@ export default {
 
         config: {
           title: "Produs element magazin",
-          subtitle: "Gestionează SKU, MPN, element element Variante",
+          subtitle: "Gestionați SKU, MPN și disponibilitatea pentru variante.",
         },
         variables: {
-          title: "element element",
+          title: "Opțiuni variante",
           subtitle:
             "Introduceți un cod de culoare hexadecimal, de exemplu, <b>#654FFF</b>, sau două culori separate printr-o bară oblică, de exemplu, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "Puteți atribui orice valoare variabilelor, inclusiv imagini, utilizând <b>Active grafice</b>. Încărcați un model și utilizați codul generat pentru variantă.",
-          graphical_asset_action: "element element",
-          graphical_asset_action_caption: "Imagini element element ",
+          graphical_asset_action: "Active grafice",
+          graphical_asset_action_caption: "Imagini pentru variante de opțiuni.",
         },
         smart_unit_price: {
           tips: "Calculați prețul unitar pe baza <b>greutate</b>, <b>volum</b> și <b>dimensiunea pachetului</b>. Pentru a dezactiva această funcție, navigați la Magazin > Setări > Temă > Pagina produsului > Preț unitar inteligent.",
@@ -2459,18 +2459,18 @@ export default {
         },
         quantity: {
           title: "Inventar",
-          subtitle: "element element ",
+          subtitle: "Setați nivelurile de stoc pentru fiecare variantă.",
         },
         price: {
           title: "Prețuri",
           subtitle:
-            "element element Personalizat Preț element element Mod implicit Produs Preț",
+            "Setați un preț personalizat pentru variantă sau utilizați prețul implicit al produsului.",
         },
         package: {
           title: "element & livrare",
           subtitle:
             "Specificați greutatea și dimensiunile pentru variante pentru a determina opțiunile de livrare.",
-          same_as_product_action: "element element Produs",
+          same_as_product_action: "La fel ca produsul",
         },
         image: {
           title: "element Imagini",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "element element Unitate (SKU)",
+            message: "Unitate de stocare (SKU)",
           },
           mpn: {
-            message: "element element (MPN)",
+            message: "Numărul piesei producătorului (MPN)",
           },
           gtin: {
-            label: "element element articol element (GTIN)",
+            label: "Numărul articolului comercial global (GTIN)",
             message:
               "Formate acceptate: UPC (12 cifre), EAN (13 cifre), JAN (8 sau 13 cifre), ISBN (13 cifre).",
           },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "livrare Servicii Disponibil element element Greutate",
+      "Serviciile de livrare disponibile depind de dimensiunea și greutatea furnizate.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,12 +2531,12 @@ export default {
     lead_time_dimension: "Ore(e)",
     bulk_action: "Acțiuni în bloc",
     bulk_action_subtitle:
-      "element element informații La toate Produs Variante",
+      "Puteți aplica informațiile de ambalare tuturor variantelor de produs.",
 
     bulk_action_input: "Actualizați toate variantele",
     bulk_action_msg:
       "Setați ambalarea produsului și timpul de pregătire pentru toate variantele.",
-    dynamic_lead_time: "element element Timp",
+    dynamic_lead_time: "Timp de livrare dinamic",
     instant_delivery: "element Livrare",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "element Imagine element element",
-      placeholder: "element element ",
-      success_update_notification: "element element ",
+      title: "Setați textul alternativ al imaginii",
+      placeholder: "Introduceți un text alternativ descriptiv...",
+      success_update_notification: "Textul alternativ a fost actualizat cu succes.",
     },
     dialog_bg_remove: {
       title: "Elimina fundal element",
@@ -2562,14 +2562,14 @@ export default {
         title: "Elimină fundalul",
         subtitle: "Crea element transparent fundal",
       },
-      success_remove_bg_notification: "fundal element element!",
+      success_remove_bg_notification: "Fundalul a fost eliminat cu succes!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "element element ",
+    title: "Variante de active grafice",
     tips: {
       how_it_works:
         "<b>Cum funcționează:</b><br />Încărcați modelul sau imaginile articolului aici. Pentru a utiliza aceste imagini ca opțiune de variantă, includeți <b>{filename}</b> în valoarea variantei. Rețineți că acest cod nu poate fi utilizat în valoarea <b><s>color</s></b>.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "element stabilire prețuri",
     min_quantity: "element Cantitate",
-    range_is_out_of_stock: "element element !",
+    range_is_out_of_stock: "Gama este epuizată!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "element element !",
-    set_color_warning: "element Selectează element Culoare",
-    set_volume_warning: "element element volum",
-    set_pack_warning: "element element ",
-    set_weight_warning: "element element Greutate",
-    set_type_warning: "element Selectează element Tip",
-    set_style_warning: "element Selectează element Stil",
-    out_of_stock: "element element ",
+    duplicated_variant: "Această variantă există deja!",
+    set_color_warning: "Vă rugăm să selectați o culoare.",
+    set_volume_warning: "Vă rugăm să specificați volumul.",
+    set_pack_warning: "Vă rugăm să specificați dimensiunea pachetului.",
+    set_weight_warning: "Vă rugăm să specificați greutatea.",
+    set_type_warning: "Vă rugăm să selectați un tip.",
+    set_style_warning: "Vă rugăm să selectați un stil.",
+    out_of_stock: "Momentan epuizat",
 
     image: {
       tooltip: "⚡ Trageți și plasați o imagine aici pentru a o atribui variantei.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Acest articol nu este disponibil în magazinul online.",
     },
     restore_dialog: {
-      title: "element element",
+      title: "Restaurați varianta",
       message: "Sigur doriți să restaurați această variantă ștearsă?",
-      action: "da, element element",
+      action: "Da, restaurați acum",
     },
     notifications: {
-      restore_variant_success: "element Produs element element ",
+      restore_variant_success: "Varianta de produs a fost restaurată cu succes.",
     },
   },
 
@@ -2673,8 +2673,8 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "magazin Inventar",
-    subtitle: "Listă element toate Produse element magazin",
-    cant_set_here: "element element ",
+    subtitle: "Lista tuturor produselor din magazin.",
+    cant_set_here: "Nu se poate stabili aici",
 
     search_input: "Căutare produs...",
     search_input_title: "Căutați printre produsele din magazin",
@@ -2718,7 +2718,7 @@ export default {
     title: "element Acțiuni > Preț",
     message:
       "Următoarea sumă se va aplica ca procent la prețul tuturor produselor din magazinul dvs. De asemenea, valorile de preț calculate vor fi convertite în mod inteligent la cel mai apropiat număr rotund în funcție de moneda selectată. Fiți atenți la introducerea valorilor.",
-    check: "element element Preț element",
+    check: "Sunt de acord cu modificările de preț.",
     check_description:
       "Prețul va fi modificat pentru categoria selectată și pentru toate subcategorii.",
     add_percent_tab: "Adaugă la sută",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Salvare automata",
-    auto_save_input_message: "element element ",
+    auto_save_input_message: "Modificările vor fi salvate automat.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Plată metode",
     sub_title:
-      "Listă element Activ Plată metode element element La Adaugă element Nou metodă La element Magazin, element element 10 Adaugă Plată Gateway-uri",
+      "Lista metodelor de plată active. Dacă doriți să adăugați o nouă metodă în magazinul dvs., apăsați următorul buton. Vă recomandăm să nu depășiți 10 gateway-uri de plată adăugate.",
     add_gateway: "Nou Plată metodă",
 
     add_gateway_dialog: {
       title: "Selectează Valută",
-      country_currencies: "element element",
+      country_currencies: "Monede locale",
       crypto_currencies: "element",
 
       confirm: "Adăugați o metodă de plată",
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "element vezi element element Plată metodă?",
+        title: "Nu vedeți metoda de plată preferată?",
         subtitle:
           "Dacă furnizorul dvs. local de plăți nu este listat, abonați-vă la orice plan anual (inclusiv Startup pentru accesibilitate) și solicitați o integrare. Îl vom finaliza în 48 de ore dacă sunt furnizate un cont de testare și documentație.",
       },
@@ -3088,11 +3088,11 @@ export default {
         "Puteți îmbunătăți afișarea paginii dvs. de categorie suprapunând o pagină personalizată. Cea mai bună abordare este să creați pagini cu fundal transparent și să proiectați 1 până la 2 secțiuni specifice fiecărei categorii. Apoi puteți lega o pagină la mai multe categorii, folosind conținut dinamic pentru a personaliza fiecare categorie în mod individual.",
     },
     critical_zone: {
-      title: "element element",
+      title: "Zona Critică",
       subtitle:
         "Dacă eliminați o categorie, subcategoriile și produsele acesteia vor fi mutate în directorul părinte<b>📁 {parent}</b>. Pentru a gestiona categoriile care nu sunt în lista de produse, accesați fila Magazin > Categorii.",
       accept_delete: {
-        true_description: "element element La Elimina element Categorie",
+        true_description: "Vreau să elimin această categorie.",
         true_title: "element Elimina Categorie",
       },
     },
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Selectați motivul respingerii acestei comenzi din lista de mai jos. Asigurați-vă că informați clientul despre procesul de anulare și rambursare. Rambursările trebuie făcute în termen de 12 ore.",
       confirm_now_action: "Anulare 🛍️ Comanda element",
-      confirm_in48h_action: "Anulare 🛍️ Comanda element 48 element",
+      confirm_in48h_action: "Anulați comanda în 48 de ore",
 
       dismiss_reject_action: "Respinge anularea comenzii",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "element | Anulare 🛍️ Comanda element",
-        false_title: "element | Anulare 🛍️ Comanda element 48 element",
+        true_title: "Express | Anulați Comanda Imediat",
+        false_title: "Standard | Anulați comanda după 48 de ore",
         true_description:
           "Această opțiune vă va anula imediat comanda și va actualiza imediat inventarul.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Comanda a revenit la procesul normal.",
       set_tracking_success: "ID-ul urmăririi comenzii a fost salvat cu succes.",
       shipping_address_update_success:
-        "livrare abordare element element ",
+        "Adresa de livrare a fost actualizată cu succes.",
       vendor_order_status_update_success:
-        "vânzător element stare element element ",
+        "Starea de livrare a furnizorului a fost actualizată cu succes.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "În așteptarea plată",
       processing_payment: "Procesarea plății",
       processing_cancel: "Plata anulată",
-      require_capture: "element element",
+      require_capture: "Necesită capturare",
       paid: "Plătit",
       cod_pay_info:
         "După ce ați primit comanda de la client puteți confirma plata și finaliza comanda.",
@@ -3519,7 +3519,7 @@ export default {
         "Clientul dvs. câștigă 1x din acest produs. Trimiteți cadou cu această comandă.",
 
       need_to_refund: {
-        title: "element element La element client",
+        title: "Rambursare necesară clientului",
         message:
           "Calculăm suma totală a rambursărilor pe care trebuie să le faceți manual. S-a calculat pe baza articolelor indisponibile și a valorilor totale rambursate încă.",
         calculated_approximately:
@@ -3531,10 +3531,10 @@ export default {
           "Am observat că totalul rambursat clientului este mai mare decât suma datorată pe baza articolelor din coș. Este posibil să fie necesar să vă taxați clientul pentru a recupera suma în exces.",
       },
       need_no_refund: {
-        title: "Nu element element",
+        title: "Nu este necesară rambursarea",
       },
       total_refund: {
-        title: "element element",
+        title: "Total rambursat",
         message:
           "Este suma totală a rambursărilor efectuate automat de către poarta dvs. de plată. Doar unele servicii de plată acceptă această funcție, așa că trebuie să rambursați manual.",
       },
@@ -3549,7 +3549,7 @@ export default {
       weight_warning: "Depășește greutatea permisă.",
       volume_warning: "Depășește dimensiunea permisă a pachetului.",
       items_weight_calculation:
-        "element Greutate element toate Articole element {weight} {unit}",
+        "Greutatea combinată a tuturor articolelor este {weight} {unit}",
       not_available_message:
         "Nu este disponibil atunci când sunteți dezactivat pentru a solicita adresa de livrare și, de asemenea, utilizatorul nu a completat adresa după cumpărare!",
 
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "element",
-    subtitle: "Prezentare generală element Plată Poarta de acces element element stare",
+    subtitle: "Prezentare generală a configurației și stării gateway-ului de plată.",
     status: "stare",
     cod_transportation: "element livrare",
     cod_transportations_error:
-      "Permite element element Livrare Plată element element livrare metodă!",
+      "Activați plata ramburs la livrare pentru cel puțin o metodă de livrare!",
     payment_type: "Plată Tip",
     cod: "Plata la livrare",
     online: "element Plată",
@@ -3695,8 +3695,8 @@ export default {
       title: "element Acțiuni",
       subtitle:
         "Făcând acești pași, veți începe să primiți plăți reale de la clienții dvs.",
-      action_enable: "element La Permite element",
-      make_live_enable: "element La Trăi element",
+      action_enable: "Faceți clic pentru a-l activa",
+      make_live_enable: "Click pentru a-l trăi",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} a fost editat.",
-      success_delete: "Plată metodă element element Șters!",
+      success_delete: "Metoda de plată a fost ștearsă!",
     },
     debug: {
       title: "Dezvolta & element",
@@ -3732,34 +3732,34 @@ export default {
 
     limit: {
       title: "🛍️ Comanda Limită",
-      subtitle: "element element minim 🛍️ Comanda Cantitate element element Plată Poarta de acces",
+      subtitle: "Setați suma minimă a comenzii pentru acest gateway de plată.",
     },
     limit_input: {
       title: "minim 🛍️ Comanda Cantitate",
-      msg: "element element Nu Limită",
+      msg: "Zero înseamnă fără limită.",
     },
     currency_input: {
       message: "Moneda pe care o acceptă acest gateway de plată.",
     },
     gateway_code: "Poarta de acces Cod",
 
-    hold_only_for: "element Plată element Disponibil element",
+    hold_only_for: "Rețineți plata disponibilă numai pentru",
     manual_input: {
       false_description:
         "Starea plății va fi schimbată automat de la în așteptare la confirmată în sistemul furnizorului de plăți.",
       false_title: "automat Plată element",
-      true_title: "element Plăți element manual element",
+      true_title: "Plăți în așteptare și confirmare manuală",
       true_description:
         "Puneți o suspendare a unei plăți, așa că trebuie să verificați plățile pentru o comandă pentru a-și schimba starea de la în așteptare la confirmată în sistemul furnizorului de plăți.",
     },
     delete_verify_input: {
-      true_title: "element element La Elimina element Plată metodă",
+      true_title: "Doresc să elimin această metodă de plată.",
       true_description:
         "Această metodă de plată va fi eliminată din magazin și nu va fi disponibilă clienților.",
     },
     delete_alert: {
       title: "Șterge Plată metodă",
-      message: "element element Șterge element Plată metodă Din element Magazin?",
+      message: "Sigur ștergeți această metodă de plată din magazinul dvs.?",
       action: "Șterge Plată metodă",
     },
   },
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "vânzători Portofel Tranzacţie",
 
     "vendor-sms":
-      "🔔 🛍️ Comanda element SMS element element Trimis La <b>{vendor}</b> ╏ {phone}.",
+      "🔔 SMS de informare a comenzii a fost trimis la <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Mutați categoria <b>{category}</b> într-o altă categorie",
     move_product: "Mutați produsul <b>{product}</b> în categorie",
     load_more_products:
-      "Mai mult. . Produse element Disponibil element element Categorie element La element Mai mult. . Articole",
+      "Mai multe produse sunt disponibile în această categorie. Faceți clic pentru a încărca mai multe articole.",
     product_menu: {
       dashboard: "Tabloul de bord al produsului",
       inventory: "Inventar și variante",
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Aveți produse în root, dar fără filtru.",
       has_root_filter_message: "Setați filtre pentru categoria rădăcină.",
-      set_filter_message: "element element Filtre",
+      set_filter_message: "Puteți seta filtre.",
       edit_action: "Editați ╏ × element Filtre",
-      clear_action: "element element Filtre",
+      clear_action: "Ștergeți filtrele rădăcină",
     },
     ai: {
       title: "AI Produs element",
@@ -4081,31 +4081,31 @@ export default {
     menu: {
       select_all_products: "Selectează toate Produse",
       unselect: "element",
-      sort_categories: "element / element Categorii",
+      sort_categories: "Aranjați / Sortați categoriile",
       subscription_vendor_not_support_message:
         "Nu se poate atribui un furnizor pentru produsele cu abonament! Produsele cu abonament trebuie să aibă întotdeauna un furnizor ca proprietar!",
       vendor_owner_not_assignable_message:
         "Nu se poate atribui un furnizor pentru produse cu un furnizor ca proprietar!",
-      category_assign_profile: "element profil La Produse element element Categorie",
+      category_assign_profile: "Atribuiți profil produselor din categorie",
       category_assign_profile_subtitle: "Impozit, livrare, ghid, garanție,. ..",
       bulk_discount: "element Reducere",
-      bulk_discount_subtitle: "element Reducere element toate Produse",
+      bulk_discount_subtitle: "Aplica reducere la toate produsele.",
     },
 
     engine: {
-      title: "element Produse element",
+      title: "Motor de produse suplimentare",
       subtitle:
-        "Mai mult. . Produse element element Din Selectează Categorii element Etichete",
-      load_in_tips: "element Produse Din Categorii element element {category}.",
+        "Mai multe produse vor fi încărcate din categoriile și etichetele selectate.",
+      load_in_tips: "Încărcați produse din categorii din {category}.",
       action: "Editați ╏ × {category} element",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "element element / CSV fișier element",
+      title: "Plasați fișierul Excel / CSV aici.",
       select_file: "Selectează fișier",
-      max_file: "maxim fișier element: 20element",
+      max_file: "Dimensiunea maximă a fișierului: 20 MB",
       download_sample: "Descarcă element",
     },
     ai: {
@@ -4115,7 +4115,7 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "element element",
+    has_panel: "Are panou",
     no_panel: "Nu element",
     manual_action: {
       title: "manual Acțiuni",
@@ -4123,16 +4123,16 @@ export default {
       guides: [
         "Furnizorii cu acces la panou își pot actualiza onorarea (subcomenzile) în tabloul de bord dedicat.",
         "Dacă furnizorul nu are acces la panou, starea comenzii furnizorului va fi schimbată automat prin schimbarea stării coșului.",
-        "element element Actualizați vânzător Comenzi element",
+        "Puteți actualiza manual comenzile furnizorilor.",
       ],
     },
     payouts: {
       title: "element",
-      message: "Gestionează element vânzător element element Tranzacții",
+      message: "Gestionați plățile și tranzacțiile furnizorilor.",
 
       charge_tooltip: "Încărca vânzător Portofel",
       withdraw_tooltip: "element Din vânzător Portofel",
-      payout_tooltip: "element La element vânzător",
+      payout_tooltip: "Plată către vânzător.",
     },
     order_canceled: "🛍️ Comanda element",
     order_rejected: "🛍️ Comanda Respins element vânzător",
@@ -4160,8 +4160,8 @@ export default {
     },
 
     open_marketplace_page: "element Piata de desfacere pagină",
-    open_my_store_page: "element element magazin pagină",
-    open_my_listing_page: "element element listă pagină",
+    open_my_store_page: "Deschide pagina magazinului meu",
+    open_my_listing_page: "Deschide pagina mea de înregistrare",
     add_products_permission: "Adaugă Produse element",
     add_categories_permission: "Adaugă Categorii element",
   },
@@ -4179,7 +4179,7 @@ export default {
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "element element",
+    title: "Membrii echipei",
     subtitle:
       "Aceasta este lista utilizatorilor care au acces la panoul de furnizori. Puteți adăuga noi membri ai echipei și le puteți personaliza permisiunile aici.",
     add_action: "Adaugă Nou element",
@@ -4193,10 +4193,10 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "Editați ╏ × element element",
-    title_new: "Adaugă Nou element element",
+    title_edit: "Editați membrul echipei",
+    title_new: "Adăugați un nou membru al echipei",
     member: {
-      title: "element element Detalii",
+      title: "Detalii despre membrii echipei",
       subtitle:
         "Adăugați un nou membru al echipei și setați-i permisiunile. Faceți clic pe fiecare element pentru a ajusta accesul la citire/scriere. Fiecare rând corespunde unui nivel de permisiune pentru tabloul de bord principal al magazinului.",
     },
@@ -4207,17 +4207,17 @@ export default {
     inputs: {
       email: {
         label: "Adresa de e-mail",
-        placeholder: "element element E-mail abordare",
+        placeholder: "Introdu adresa de e-mail a membrului...",
       },
     },
     notifications: {
       add_success: {
         title: "element Adaugă",
-        message: "element element Adaugă",
+        message: "Membrul echipei a fost adăugat cu succes.",
       },
       update_success: {
-        title: "element element",
-        message: "element element informații element element ",
+        title: "Membru actualizat",
+        message: "Informațiile despre membrul echipei au fost actualizate cu succes.",
       },
     },
     actions: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "element element Confirmat element Plată?",
+          label: "Ați confirmat această plată?",
           false_description:
             "Nu, nu am primit încă această plată în contul meu bancar.",
           true_description: "Da, am primit și am verificat această plată.",
@@ -4266,11 +4266,11 @@ export default {
       "<b>Important! </b>Executarea acestei acțiuni va genera o tranzacție negativă în portofelul vânzătorului și va scădea din aceasta suma aleasă. Suma nu poate depăși totalul tranzacțiilor rămase pentru comanda selectată. În plus, dacă fondurile au fost transferate în conturi bancare conectate (cum ar fi Stripe Connect sau transferul bancar manual), ar trebui să creați un <b>transfer inversabil</b>.",
     inputs: {
       note: {
-        message: "element element La element vânzător",
-        placeholder: "element element Notă element",
+        message: "Este vizibil pentru vânzător.",
+        placeholder: "Puteți atașa o notă aici...",
       },
       amount: {
-        error_message: "element element Cantitate element element ",
+        error_message: "Suma rămasă a fost depășită.",
       },
     },
   },
@@ -4286,7 +4286,7 @@ export default {
       subtitle:
         "Aceasta este o listă de plăți automate către contul dvs. bancar conectat. Vă rugăm să rețineți că aici vor fi afișate doar plățile automate, iar plățile manuale nu vor fi afișate.",
     },
-    reversal_transfer_action: "element element",
+    reversal_transfer_action: "Transfer de inversare",
   },
 
   /** {@see BPageOrderPhysicalTrack} **/
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "În această secțiune, puteți vizualiza cronologia evenimentelor legate de comandă, onorare, plată și stările respective ale acestora. În plus, puteți observa comenzile expediate atât clienților, cât și vânzătorilor.",
-    add_note_subtitle: "scriere element Mesaj element element ",
+    add_note_subtitle: "Scrieți un mesaj și menționați-vă colegii.",
 
     message_input: "Scrie un mesaj aici...",
     pin_action: "Fixați sus",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Adaugă Magazin",
-      description: "Adaugă element Nou Magazin La element element",
+      description: "Adăugați un nou magazin în sistem.",
     },
     "backoffice:shop:delete": {
       name: "Șterge Magazin",
-      description: "Șterge element Magazin Din element element",
+      description: "Ștergeți un magazin din sistem.",
     },
     "backoffice:giftcard:write": {
       name: "Cadou card Gestionare",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Gestionare",
-      description: "Crea element Gestionează element element ",
+      description: "Creați și gestionați întrebările frecvente.",
     },
     "backoffice:faq:read": {
       name: "FAQ Acces",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "element Acces",
-      description: "citire element Detalii element Statistici",
+      description: "Citiți detaliile și statisticile panglicii.",
     },
     "backoffice:ai:write": {
       name: "AI Gestionare",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Acces",
-      description: "citire AI element element Statistici",
+      description: "Citiți configurațiile și statisticile AI.",
     },
     "backoffice:vendor-payment:write": {
       name: "vânzător Plată Gestionare",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Notă Acces",
-      description: "citire element element Detalii",
+      description: "Citiți notele și detaliile aferente.",
     },
     "backoffice:note:write": {
       name: "Notă Gestionare",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "element Gestionare",
-      description: "Gestionează element element",
+      description: "Gestionați opțiunile de imprimare.",
     },
     "backoffice:print:read": {
       name: "element Acces",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "element Acces",
-      description: "citire element Detalii element Statistici",
+      description: "Citiți detaliile și statisticile simbolului.",
     },
     "selldone:token:write": {
       name: "element Gestionare",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "element Acces",
-      description: "citire element Detalii element Statistici",
+      description: "Citiți detalii și statistici despre monetizare.",
     },
     "selldone:monetization:write": {
       name: "element Gestionare",
-      description: "Gestionează element, element element ",
+      description: "Gestionați generarea de bani, inclusiv programele de recomandare.",
     },
     "selldone:identification": {
       name: "element Acces",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "element Acces",
-      description: "citire element Detalii element Statistici",
+      description: "Citiți detaliile și statisticile furnizorului.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "element Acces",
-      description: "citire element Detalii element Statistici",
+      description: "Citiți detaliile și statisticile agenției.",
     },
     "agency:write": {
       name: "element Gestionare",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "element",
-      description: "Acces La element element magazin Gestionare element",
+      description: "Acces la funcțiile de backoffice și de gestionare a magazinului.",
     },
     storefront: {
       title: "element",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Acces Selldone Servicii element element",
+      description: "Accesați serviciile și caracteristicile Selldone.",
     },
     others: {
       title: "element",
-      description: "element Domenii de aplicare element element ",
+      description: "Domenii diverse nu sunt definite în sistem.",
     },
     vendor: {
       title: "vânzător",
-      description: "Acces vânzător informații element Gestionare element",
+      description: "Accesați informațiile despre furnizor și funcțiile de gestionare.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "element",
-      description: "Acces element informații element Gestionare",
+      description: "Accesați informațiile și managementul agenției.",
     },
   },
 
@@ -5265,7 +5265,7 @@ export default {
       description: "Răspundeți la întrebări, scrieți bloguri și proiectați pagini.",
     },
     OFFICER: {
-      text: "element element",
+      text: "Senior Manager",
       description: "Vizualizați și monitorizați activitatea angajaților.",
     },
     EMPLOYEE: {
@@ -5562,26 +5562,26 @@ export default {
       my_public_profile_subtitle: "element public profil {name}.",
 
       personal_information: "Informații personale și profil",
-      personal_information_subtitle: "Editați ╏ × element profil, abordare element KYC.",
+      personal_information_subtitle: "Editează-mi profilul, adresa și KYC.",
       wallet: "Portofele și conturi",
-      wallet_subtitle: "element Conturi element Conectat Plată Carduri",
+      wallet_subtitle: "Conturi virtuale și carduri de plată conectate.",
 
       companies: "Companii și conturi de afaceri",
-      companies_subtitle: "Inregistreaza-te element afacere element Impozit Profiluri",
+      companies_subtitle: "Înregistrați-mi profilurile de afaceri și fiscale.",
 
       access: "Acces la Contul meu API",
       access_subtitle:
-        "OAelement Clienții, element Acces element element Conectat Aplicații OAuth",
+        "Clienți OAuth, jetoane de acces personale și aplicații conectate.",
 
       security: "Securitate",
       security_subtitle: "Setați doi factori și gestionați opțiunile de conectare la rețele sociale.",
 
       preferences: "Preferintele utilizatorului",
       preferences_subtitle:
-        "Schimbare Temă, element, element element Mod implicit Valută",
+        "Schimbați tema, nivelul, limba și moneda implicită.",
       my_subscriptions: "Abonamentele mele",
       my_subscriptions_subtitle:
-        "Acces La element AI element element ",
+        "Acces la AI premium și funcții de personalizare.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "element element Portofel",
+        title: "Alegeți un portofel",
         subtitle:
           "Selectați un portofel virtual de utilizat pentru abonament. Dacă nu aveți încă unul, îl puteți crea în secțiunea portofel. Acest portofel va fi folosit pentru orice taxe.",
       },
@@ -5742,7 +5742,7 @@ export default {
           "Abonamentul se va reînnoi automat dacă portofelul tău are suficient sold sau dacă ai un voucher valid.",
       },
       options: {
-        title: "element element",
+        title: "Opțiuni suplimentare",
       },
       verify: {
         title: "element",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Adăugați cu ușurință produse de la furnizori POD sau dropshipping cu sistemul de operare Selldone Connect - doar conectați-vă magazinul și bucurați-vă de integrarea automată a produselor, fără pluginuri necesare.",
     },
-    your_license_is_not_eligible: "element Licență element element ",
+    your_license_is_not_eligible: "Licența dvs. nu este eligibilă.",
     sku_dialog: {
       title: "Adaugă Produs element SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Conectați unul dintre domeniile dvs. la acest partener afiliat. Vizitatorii care cumpără prin acest domeniu vor fi atribuiți acestui afiliat.",
 
-      domain_not_approved_msg: "element Domeniu element element !",
-      domain_is_not_enable_msg: "element Domeniu element element activat!",
+      domain_not_approved_msg: "Domeniul nu a fost încă aprobat!",
+      domain_is_not_enable_msg: "Domeniul nu este activat!",
       domain_is_linked_to_other_affiliate_msg:
         "Acest domeniu este deja legat de un alt afiliat!",
     },
 
-    set_users_first_message: "element element utilizator element!",
+    set_users_first_message: "Vă rugăm să setați mai întâi utilizatorul!",
 
     cluster: {
       title: "element",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Nou Afiliat Adaugă element",
-      update_success: "Afiliat element element",
+      update_success: "Afiliatul a fost actualizat cu succes.",
     },
 
     inputs: {
@@ -5945,27 +5945,27 @@ export default {
       commission: {
         label: "Comision element",
         false_description:
-          "element element comision",
+          "Calculați folosind o combinație de comisioane fixe și procentuale.",
         true_description:
           "Calculați folosind comisioanele specifice produsului stabilite în fila de prețuri.",
-        false_title: "element + element Comision",
+        false_title: "Comision fix + procentual",
         true_title: "element Comision",
       },
       user: {
         label: "utilizator (opțional)",
-        message: "opțional, element, Afiliat Nume element Selldone",
+        message: "Opțional, de exemplu, numele afiliatului în Selldone",
       },
       web: {
-        placeholder: "opțional, element, element",
+        placeholder: "Opțional, de exemplu, affiliate-web.com",
       },
       address: {
-        placeholder: "opțional, element, 1200 element, NY, element",
+        placeholder: "Opțional, de exemplu, 1200 POX, NY, SUA",
       },
       tel: {
         placeholder: "opțional, element, 001-808-210354",
       },
       bank: {
-        placeholder: "opțional, element, element bancă, Nu: 10002-325-800-845213",
+        placeholder: "Opțional, de exemplu, Arstra Bank, nr: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Selectează element Domeniu (opțional)",
@@ -5980,7 +5980,7 @@ export default {
           "Este acest afiliat activ în prezent? Dacă este inactiv, programul lor de afiliere nu se va aplica comenzilor efectuate prin linkul lor.",
       },
       products: {
-        label: "Produse element element Comision",
+        label: "Produse eligibile pentru comision",
         select_product: "Selectează Produse",
       },
     },
@@ -6014,7 +6014,7 @@ export default {
       action: "Da, șterge acum",
     },
     notifications: {
-      delete_success: "element element Șters",
+      delete_success: "Evaluarea a fost ștearsă cu succes.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Prețuri & element element",
+    label: "Modelul de prețuri și evaluare",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Configurați un sistem de evaluare pentru a crea prețuri flexibile folosind formule și tabele de referință pentru produsele dvs. Începeți prin a da acestei evaluări un nume unic.",
     },
     valuation_preview: "previzualizare element formular",
-    load_sample: "element element",
+    load_sample: "Încărcare Probă",
     conditions: {
       title: "Condiții",
       subtitle:
@@ -6045,13 +6045,13 @@ export default {
     structure: {
       title: "element",
       subtitle:
-        "Proiecta element Prețuri Intrare formular element element ",
+        "Proiectați-vă formularul de introducere a prețurilor aici, integrând formule și tabele de referință.",
       expand_action: "element",
       collapse_action: "element",
     },
     inputs: {
       title: {
-        message: "element Titlu element element La Clienți",
+        message: "Acest titlu nu este vizibil pentru clienți.",
         placeholder: "Introduceți un nume pentru preț, de exemplu, „Prețul cănilor”",
       },
     },
@@ -6167,7 +6167,7 @@ export default {
         edit: "Codul de reducere a fost editat cu succes.",
       },
       config: {
-        title: "element element",
+        title: "Configurare generală",
         subtitle:
           "Formula de calcul a codului de reducere este: max (LIMITĂ, PROCENT * preț coș). Nu uitați să faceți codurile relevante și ușor de reținut.",
       },
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "În această secțiune, puteți seta atât numărul maxim de utilizări per cupon, cât și cea mai mare sumă de reducere pe care o poate oferi fiecare cupon.",
-      zero_message: "element: element element Nu Limită!",
+      zero_message: "zero: nu există limită!",
     },
     duration: {
       subtitle:
@@ -6335,8 +6335,8 @@ export default {
       subtitle:
         "Aici, aveți posibilitatea de a stabili parametri personalizați suplimentari pentru cupon.",
       no_limit: "Nu element Prescripţie",
-      has_limit: "element element",
-      has_code_message: "utilizator element element Cod La Adaugă Cupon",
+      has_limit: "Constrângeri suplimentare",
+      has_code_message: "Utilizatorul trebuie să introducă codul pentru a adăuga cupon.",
     },
     club: {
       subtitle:
@@ -6451,7 +6451,7 @@ export default {
     menu: {
       banner: "element",
       reportage: "Reportaj",
-      social: "element element",
+      social: "Social Media",
       offline: "Deconectat",
     },
   },
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Sporiți achizițiile clienților cu o experiență gamificată în magazinul dvs. Configurați premii și cote de câștig pentru clienții care câștigă jetoane prin achiziții. Fiecare joc costă 10 jetoane și poți oferi premii speciale pentru cei care cumpără pentru prima dată. Jocul implicit este Wheel of Fortune, dar îl puteți personaliza pentru a se potrivi cu aspectul magazinului dvs.",
     },
-    empty_prize_list: "Crea element Gestionează element element",
+    empty_prize_list: "Creați și gestionați premiile aici...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6621,7 +6621,7 @@ export default {
         "Aici, aveți opțiunea de a alege o imagine și o culoare pentru premiu.",
     },
     constraints: {
-      subtitle: "element element ",
+      subtitle: "Specificați criteriile și limitările pentru câștigarea acestui premiu.",
     },
     prize: {
       title: "element",
@@ -7041,10 +7041,10 @@ export default {
     vendor: {
       title: "Importă vânzători",
       subtitle:
-        "Încarcă vânzător CSV fișiere element element La Confidențialitate element",
+        "Încărcați fișierele CSV ale furnizorului aici. Asigurați-vă că formatul este corect și respectă reglementările de confidențialitate.",
       checklist: {
-        title: "element element",
-        subtitle: "element element La element element ",
+        title: "Lista de verificare importantă",
+        subtitle: "Asigurați-vă că urmați instrucțiunile.",
         sample_files: "element fișiere",
         valid_vendor_name_needed:
           "Trebuie să furnizați un <b>nume valid</b>. <b>name</b> este utilizat pentru a determina dacă să <i>Creați</i> un furnizor nou sau <i>Actualizați</i> unul existent.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "element vânzători element",
+    open_vendors_panel: "Deschideți Panoul Furnizorilor",
     title: "vânzător element Listă",
     subtitle:
       "Aceasta este o listă de solicitări din partea persoanelor care au aplicat pentru a deveni furnizori pe piața dvs.",
@@ -7091,7 +7091,7 @@ export default {
         "Dezactivarea pieței va dezactiva unele funcționalități. Dacă doriți să închideți întreaga piață, ar trebui să dezactivați magazinul din setări.",
     },
     distribution_model: {
-      title: "element element",
+      title: "Model de distribuție",
       subtitle:
         "Piețele pot funcționa sub diferite modele de distribuție. Indiferent dacă preferați ca vânzătorii să trimită articole direct cumpărătorilor sau să consolideze comenzile la depozitul dumneavoastră pentru expediere, puteți alege aici modelul care se potrivește cel mai bine nevoilor dumneavoastră.",
     },
@@ -7102,7 +7102,7 @@ export default {
     },
     need_enable_shipping_for_vendors_tips:
       "Activați livrarea pentru furnizori în fila Magazin > Logistică pentru fiecare metodă în parte.",
-    transportation_available_tooltip: "element element Disponibil element vânzători",
+    transportation_available_tooltip: "Această opțiune este disponibilă pentru furnizori.",
     transportation_not_available_tooltip:
       "Nu este disponibil pentru furnizori! Îl puteți activa în setările de transport.",
     panel: {
@@ -7113,14 +7113,14 @@ export default {
       title: "element",
       subtitle:
         "Puteți solicita furnizorilor dvs. să încarce documente sau să semneze anumite contracte. Specificați aici documentele necesare.",
-      add_document_action: "Adaugă element element",
+      add_document_action: "Adăugați cerere de document",
     },
     inputs: {
       enable: {
         false_description:
           "Piața este dezactivată, dezactivând toate funcționalitățile pieței.",
         true_description:
-          "element Piata de desfacere element Activ, element toate Piata de desfacere element",
+          "Piața este activă, permițând toate funcționalitățile pieței.",
       },
       product: {
         label: "Adăugați un produs nou",
@@ -7132,31 +7132,31 @@ export default {
       },
       need_verify: {
         label: "Produs element curgere",
-        false_description: "Nou vânzător Produse element Trăi element",
-        false_title: "Nu element element",
+        false_description: "Produsele noi ale furnizorilor sunt disponibile instantaneu.",
+        false_title: "Nu este necesară verificarea",
         true_description:
-          "vânzători Nou Produse element element Trăi element element Piata de desfacere",
-        true_title: "element element",
+          "Noile produse ale vânzătorilor necesită aprobare înainte de a intra pe piață.",
+        true_title: "Verificare necesară",
       },
       category: {
         label: "Adăugați o nouă categorie",
         true_title: "vânzători element Adaugă Categorii",
         false_description:
-          "element Adaugă Categorii vânzători element element Adaugă Produse La element Categorii",
+          "Tu adaugi categorii. Furnizorii pot adăuga produse numai la categoriile existente.",
         true_description:
           "Furnizorii pot adăuga și gestiona categorii direct în panoul lor de furnizori.",
       },
       shipping: {
         label: "livrare element",
-        true_title: "vânzători element livrare element",
+        true_title: "Furnizorii au opțiuni de livrare",
         false_description:
-          "vânzători element Adaugă element element livrare metode",
+          "Furnizorii nu pot adăuga sau personaliza metodele lor de expediere.",
         true_description:
           "Furnizorii își pot configura propriile metode de expediere, pot adăuga curieri și pot personaliza expedierea pentru nevoile lor.",
       },
       hidden_customer: {
         label: "Afișează element a lua legatura informații",
-        true_description: "element a lua legatura Detalii element element Din vânzători",
+        true_description: "Datele de contact ale cumpărătorului sunt ascunse vânzătorilor.",
         false_description:
           "Detaliile de contact ale cumpărătorului, cum ar fi telefonul și e-mailul, sunt vizibile pentru vânzători.",
       },
@@ -7171,8 +7171,8 @@ export default {
 
       listing: {
         label: "listă element vânzători",
-        true_description: "listă element activat element vânzători vânzători element Gestionează listă Articole element Companii",
-        false_description: "listă element dezactivat element vânzători element element Magazin Proprietar element Gestionează listă Articole element Companii",
+        true_description: "Listarea este activată pentru furnizori. Furnizorii pot gestiona articolele listate și companiile.",
+        false_description: "Listarea este dezactivată pentru furnizori. Numai proprietarul magazinului poate gestiona articolele de listă și companiile.",
         requires_listing_active_text:
           "Pentru a permite vânzătorilor să folosească Listarea (articole + companii), activați mai întâi funcția Listare magazin în Canal → Listare. Apoi reveniți aici pentru a permite accesul furnizorului.",
         requires_listing_active_button: "element Canal listă Setări",
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "vânzător Setări element element",
+      update_success: "Setările furnizorului au fost actualizate cu succes.",
     },
     add_document_dialog: {
-      title: "element element",
+      title: "Cerințe pentru documente",
       type: {
         title: "element Tip",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Titlu",
-          placeholder: "element element Titlu element element ",
+          placeholder: "Introduceți un titlu pentru cererea de document.",
         },
         guide: {
           label: "ghid (opțional)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Încorporare Cod",
-          placeholder: "element element Încorporare Cod element",
-          message: "element element HTML Cod",
+          placeholder: "Lipiți codul de încorporare aici...",
+          message: "Poate include cod HTML.",
         },
         url: {
           label: "URL",
-          message: "element element URL element element ",
+          message: "Introdu adresa URL a documentului sau a contractului aici...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Proprietar element element",
+      title: "Act de identificare a proprietarului",
       description:
         "Încărcați un act de identitate emis de guvern pentru a verifica identitatea proprietarului companiei sau a directorului cheie.",
     },
@@ -7264,14 +7264,14 @@ export default {
         "Trimiteți un document pentru a vă verifica adresa companiei, cum ar fi o factură de utilități, o factură fiscală sau un contract de închiriere.",
     },
     Contract: {
-      title: "element & element",
+      title: "Contracte și acorduri",
       description:
         "Încărcați contracte sau acorduri care detaliază termenii și condițiile relațiilor dvs. de afaceri.",
     },
     Copyright: {
-      title: "element element",
+      title: "Documentație privind drepturile de autor",
       description:
-        "element element La element element ",
+        "Furnizați documente de înregistrare a drepturilor de autor pentru a vă confirma drepturile de proprietate intelectuală.",
     },
     Privacy: {
       title: "Confidențialitate politică element",
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "vânzător bancă",
     order_fee: "🛍️ Comanda Taxa",
     order_refund: "🛍️ Comanda element",
-    reverse_fund: "element element",
+    reverse_fund: "Inversarea fondului",
     payout: "element",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "element Istorie",
     subtitle:
       "Această caracteristică simplifică contabilitatea pentru dvs. și pentru furnizorii dvs., păstrând o evidență detaliată a tuturor tranzacțiilor. Plățile pot fi procesate manual prin transferuri bancare sau alte metode sau gestionate automat de furnizorii de plăți care acceptă plăți divizate, cum ar fi Stripe.",
-    top_up_vendor_action: "element element vânzător Cont",
+    top_up_vendor_action: "Încărcați contul de furnizor",
   },
 
   /**
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "element, element Produse element",
+        placeholder: "de exemplu, clasa de produse digitale...",
       },
       description: {
         placeholder: "Puteți adăuga o notă aici...",
       },
       accept_delete: {
         true_description: "Doresc să șterg acest model de preț.",
-        true_title: "element Prețuri element element",
+        true_title: "Confirmați eliminarea modelului de prețuri",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Când conectați servicii de plată precum Stripe Connect, recuperăm și afișăm soldul disponibil în contul dvs. Stripe pentru referință.",
     with_balance: "element Echilibru",
-    without_balance: "element Echilibru - element mod",
+    without_balance: "Fără echilibru - Mod rapid",
     bank_transfer: {
       title: "bancă element",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "Puteți adăuga o notă aici... Această notă nu este vizibilă pentru furnizor.",
       },
       accept_refund: {
-        true_description: "element element La Anulare element Plată",
+        true_description: "Doresc să anulez această plată.",
         true_title: "Anulare & element Plată",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "element element",
+        title: "Fondul inversat",
         message:
           "Schimbarea fondului vânzătorului a fost finalizată cu succes, banii transferați de la bancă în portofel și adăugați la soldul portofelului.",
       },
       payout_success: {
         title: "element",
         message:
-          "element vânzători element element Adaugă",
+          "Plata furnizorului a fost procesată și adăugată cu succes.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "element",
     max_batch_msg: "Numărul maxim de articole pe care le puteți importa într-un singur lot.",
     max_daily_limit_msg: "Numărul maxim de articole pe care le puteți importa într-o zi.",
-    extra_daily_limit_msg: "element Articole element element Limită",
+    extra_daily_limit_msg: "Articole suplimentare permise dincolo de limita zilnică.",
     add_items_today_msg: "Articole Adaugă Azi",
-    file_statistic_msg: "Statistici element element fișier",
+    file_statistic_msg: "Statistici pentru acest fișier.",
     used_quota: "Folosit element",
   },
 
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "element",
       static: {
-        false_title: "element element",
+        false_title: "Cu animații",
         false_description:
           "Categoriile și produsele au o animație interactivă pentru a arăta funcționalitatea.",
         true_title: "element",
-        true_description: "Categorii element Produse element Nu element",
+        true_description: "Categoriile și produsele nu au animație.",
       },
     },
 
@@ -7521,16 +7521,16 @@ export default {
         false_description:
           "Mod simplu și minim fără acțiuni suplimentare pe cardurile de produse.",
         true_description:
-          "Afișează element Cumpără & Adaugă La element element Produs card element",
-        true_title: "Afișează element element ",
+          "Afișați butoanele Cumpărare rapidă și Adăugați pentru a compara de pe cardul de produs care trece cu mouse-ul.",
+        true_title: "Afișați acțiunea la trecerea cu mouse-ul",
       },
     },
     filter_products: {
       title: "Filtru Produse",
       only_available: {
-        false_description: "Afișează toate Produse element element Magazin Listă element Mod implicit",
+        false_description: "Afișați toate produsele din lista magazinului ca implicite.",
         true_description:
-          "Afișează element Disponibil Produse element element Magazin Listă element Mod implicit",
+          "Afișați implicit numai produsele disponibile în lista magazinului.",
         true_title: "Disponibil Produse",
         false_title: "toate Produse",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "Filtru Categorii",
       hide_empty_folders: {
-        false_description: "Afișează toate Categorii element element Magazin Listă",
+        false_description: "Afișați toate categoriile în lista magazinului.",
         false_title: "Afișează toate Categorii",
         true_title: "Ascunde element Categorii",
         true_description:
-          "Afișează element Categorii element Produse element element Magazin Listă",
+          "Afișați numai categoriile cu produse în lista magazinului.",
       },
     },
 
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "principal Site-ul web element",
-      subtitle: "element element Din Google element",
+      subtitle: "Alegeți fontul preferat din Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "element element",
-        message: "element element Valoare",
+        label: "Familia de fonturi",
+        message: "Introduceți valoarea familiei de fonturi.",
       },
       font_res: {
-        label: "element element",
-        message: "element element ",
+        label: "Resursă de font",
+        message: "Specificați resursa fontului.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Antet Titlu",
-        set_empty: "element element Titlu",
+        set_empty: "Setează titlul gol",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Editați ╏ × element element",
-    add_title: "Adaugă element element",
+    edit_title: "Editați setul de proprietăți",
+    add_title: "Adăugați set de proprietăți",
     config: {
       subtitle:
         "Setați titlul și descrierea pentru setul dvs. de proprietăți. Acesta va fi vizibil numai pentru personal.",
@@ -7687,16 +7687,16 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "element element Titlu element element ",
+        placeholder: "Introduceți un titlu pentru setul de proprietăți...",
       },
       description: {
-        placeholder: "element element Descriere (opțional)",
+        placeholder: "Introduceți o scurtă descriere... (opțional)",
       },
       custom_variants: {
         true_title: "Personalizat Variante",
         false_title: "Mod implicit Variante",
-        true_description: "element element Produs Variante",
-        false_description: "element Mod implicit element Variante",
+        true_description: "Personalizați-vă variantele de produs.",
+        false_description: "Utilizați variante globale implicite.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "element element (opțional)",
+        placeholder: "Setare valori setate... (opțional)",
         messages:
-          "element element 🛍️ Comanda",
+          "Puteți oferi sugestii pentru valori și puteți personaliza comanda.",
       },
     },
   },
@@ -7833,14 +7833,14 @@ export default {
       "Pentru a adăuga un client în magazinul dvs., vă rugăm să furnizați fie o adresă de e-mail, fie un număr de telefon.",
     more: {
       title: "Adăugați mai multe detalii",
-      subtitle: "element Valută, client element, Segmente, abordare element Mai mult. .",
+      subtitle: "Setați moneda, clubul clienților, segmentele, adresa și multe altele.",
     },
     detail: {
       subtitle:
         "Păstrați o evidență a informațiilor personale despre clientul dvs. Vă rugăm să respectați confidențialitatea clientului dvs.",
     },
     preferences: {
-      subtitle: "element Mod implicit utilizator Valută, client element, element Segmente element",
+      subtitle: "Setați aici moneda implicită pentru utilizator, clubul clienților și segmentele.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Faceți clic pe următorul buton dacă doriți să trimiteți acest pachet printr-un <b>serviciu de livrare</b> .",
     courier_action: "Livrare element",
-    courier_action_subtitle: "element element ",
+    courier_action_subtitle: "Curierul meu va ridica coletul.",
 
-    pickup_ready_action: "element element",
+    pickup_ready_action: "Pregătit pentru ridicare",
     pickup_ready_action_subtitle: "Comanda este gata pentru ridicarea clientului.",
 
-    service_action: "element element",
+    service_action: "Confirmarea executiei",
 
     checklist: [
       "Verificați cartea de identitate a curierului.",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Opțiunea 3: Livrare instantanee.",
 
     verify_delivery_input: {
-      true_title: "element Livrare element",
+      true_title: "Confirmați finalizarea livrării",
       true_description:
         "Confirm că comanda a fost livrată clientului.",
     },
@@ -8006,7 +8006,7 @@ export default {
       "La cererea dumneavoastră, comisionul va fi plătit în contul bancar specificat de dumneavoastră. Vă rugăm să furnizați informațiile dvs. bancare aici.",
     no_bank_info: "Nu bancă element!",
     actions: {
-      edit_my_bank_info: "Editați ╏ × element bancă element",
+      edit_my_bank_info: "Editați informațiile mele bancare",
     },
     bank_dialog: {
       title: "element bancă Detalii",
@@ -8028,7 +8028,7 @@ export default {
         account_number: {
           label: "Numar de cont",
           message:
-            "element element bancă Cont",
+            "Numărul unic asociat contului bancar specific.",
         },
         routing_number: {
           label: "Număr de rutare (SUA) sau cod de sortare (Marea Britanie)",
@@ -8041,7 +8041,7 @@ export default {
             "Un cod internațional folosit pentru a identifica băncile la nivel global, în special pentru transferurile internaționale.",
         },
         iban: {
-          label: "IBAN (element bancă Cont element)",
+          label: "IBAN (număr internațional de cont bancar)",
           message:
             "Folosit în principal în Europa, IBAN este un sistem agreat la nivel internațional pentru identificarea conturilor bancare dincolo de granițele naționale.",
         },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "element bancă element element ",
+        message: "Informațiile dvs. bancare au fost actualizate cu succes.",
       },
     },
   },
@@ -8075,27 +8075,27 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "element element",
+      title: "Nivelul Bronz",
       description:
         "Ești în Nivelul Bronz. Ați câștigat comision de 2% din recomandari.",
     },
     Silver: {
-      title: "element element",
+      title: "Nivelul Argint",
       description:
         "Sunteți în Nivelul Argint. Ați câștigat comision de 4% din recomandari.",
     },
     Gold: {
-      title: "element element",
+      title: "Nivelul Aur",
       description:
         "Sunteți în Nivelul Aur. Ați câștigat comision de 6% din recomandari.",
     },
     Platinum: {
-      title: "element element",
+      title: "Nivelul de platină",
       description:
         "Sunteți în Nivelul Platină. Ați câștigat comision de 8% din recomandari.",
     },
     Diamond: {
-      title: "element element",
+      title: "Nivelul Diamond",
       description:
         "Sunteți în Nivelul Diamant. Ați câștigat comision de 10% din recomandari.",
     },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Monetizați",
-    subtitle: "element Acces La afacere element",
+    subtitle: "Răspândiți accesul la oportunități de afaceri.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8525,28 +8525,28 @@ export default {
 
     template: {
       title: "element",
-      valid_message: "element element Crea Personalizat SMS mesaj",
-      provider_not_enable_message: "element SMS element element activat!",
+      valid_message: "Puteți crea mesaje SMS personalizate.",
+      provider_not_enable_message: "Furnizorul de SMS nu este activat!",
       need_custom_provider_message:
         "Mesajele SMS personalizate funcționează numai dacă setați un furnizor personalizat.",
       add_new: "Adaugă Nou",
       disable_reason: {
-        set_provider: "element element !",
-        provider_is_disabled: "element element !",
-        otp: "element - element element!",
-        select_another_provider: "Selectează element element",
+        set_provider: "Setează-ți mai întâi furnizorul!",
+        provider_is_disabled: "Furnizorul este dezactivat!",
+        otp: "OTP - Niciunul nu poate fi personalizat!",
+        select_another_provider: "Selectați alt furnizor.",
       },
       enable_only_filter: "Afișează element activat",
 
       text_template_not_supported_msg:
         "Furnizorul dvs. nu acceptă mesaje text simplu.",
       structure_template_not_supported_msg:
-        "element element A sustine element mesaj",
+        "Furnizorul dvs. nu acceptă mesaje structurale.",
 
       structured_data: "element Date",
 
       menu: {
-        reset_error: "element element",
+        reset_error: "Resetați erorile",
         send_test: "Trimite element Mesaj",
       },
     },
@@ -8559,19 +8559,19 @@ export default {
           "Puteți crea un șablon pentru mesajul SMS pe site-ul furnizorului dvs. de SMS, apoi specificați codul și structura de date aici. Vom trimite aceste informații către furnizorul dvs., unde va fi generat mesajul SMS propriu-zis.",
         code: "Cod",
         language_msg: "Lăsați-l gol pentru a-l seta ca implicit.",
-        enable_msg: "element Șablon element element Folosit La Crea mesaj",
+        enable_msg: "Acest șablon va fi folosit pentru a crea mesaje.",
       },
       text: {
-        title: "element element",
+        title: "Text simplu",
         subtitle:
           "Introduceți un mesaj SMS personalizat aici. Valorile dinamice vor fi înlocuite cu valorile lor reale înainte de a fi trimise utilizatorului.",
         message: "Mesaj",
         reset_to_default: "element La Mod implicit",
 
         auto_fill: {
-          title: "automat element element",
+          title: "Parametrii de umplere automată",
           subtitle:
-            "element element Selldone element element Valoare",
+            "Puteți folosi fiecare dintre acești parametri în text și Selldone îi va înlocui cu valoarea corespunzătoare.",
         },
 
         sample: {
@@ -8585,12 +8585,12 @@ export default {
         add_new_parameter: "Adaugă Nou element",
 
         auto_fill: {
-          title: "automat element element",
+          title: "Parametrii de umplere automată",
           subtitle:
             "Puteți seta fiecare dintre acești parametri ca valoare, iar Selldone îi va înlocui cu valoarea corespunzătoare. Pentru simplitate, este mai bine să definiți valorile implicite ca șabloane în furnizorul dvs. de SMS. În acest caz, nu va fi nevoie să definiți aici valorile parametrilor.",
         },
         request: {
-          title: "element element",
+          title: "Eșantion de sarcină utilă",
         },
         sample: {
           title: "element Șablon Mesaj",
@@ -8603,7 +8603,7 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "element element",
+      title: "Text simplu",
       desc: "Mesajul va fi creat dintr-un text cu parametrii de înlocuire automată și trimite.",
     },
     template: {
@@ -8615,10 +8615,10 @@ export default {
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "Personalizat SMS element",
-    reset_error: "element element",
+    reset_error: "Resetați erorile",
     subtitle:
       "Configurați un furnizor de servicii SMS personalizat și personalizați SMS-ul de autentificare și numele companiei. Furnizorul implicit trimite doar SMS-uri de autentificare și mesaje de informare în unele țări aflate pe lista albă.",
-    plain_text: "element element",
+    plain_text: "Text simplu",
     structural_template: "element Șablon",
     errors_limit_msg:
       "Dacă serviciul dvs. depășește 100 de erori, acesta va fi dezactivat automat! Puteți reseta erorile pentru a-l reactiva.",
@@ -8630,7 +8630,7 @@ export default {
         "Mesajele SMS vor fi livrate folosind furnizorul dvs. de servicii.",
     },
     test_input: {
-      true_title: "element element",
+      true_title: "Validați configurația",
       true_description:
         "Vă vom trimite un mesaj de testare la numărul dvs. de telefon 📞 <b>{phone}</b>, vă poate încărca, dar vă puteți asigura că totul funcționează bine.",
     },
@@ -8653,8 +8653,8 @@ export default {
         "Vor fi trimise mesaje de autentificare și notificare de comandă.",
     },
     otp: {
-      title: "element element",
-      description: "element mesaj element element Trimis",
+      title: "Numai OTP",
+      description: "Vor fi trimise mesaje de autentificare.",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Personalizat element element",
+    title: "Server de e-mail personalizat",
     subtitle:
       "Conectați-vă furnizorul de servicii de e-mail pentru a trimite e-mailuri prin domeniul dvs. personalizat.",
     provider: "element",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "Trimite element element E-mail",
+      send_test_email: "Trimiteți un e-mail de test",
     },
 
     messages: {
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "Fișierul a fost șters cu succes.",
     },
-    drag_sort_msg: "element element fișiere",
-    paid_mode_msg: "Utilizatori element Descarcă element element Produs",
+    drag_sort_msg: "Puteți trage și sorta fișierele.",
+    paid_mode_msg: "Utilizatorii îl pot descărca numai după achiziționarea produsului.",
     free_mode_msg:
       "Utilizatorii îl pot descărca gratuit. Exemplele de fișiere trebuie să fie sub 50 MB.",
     has_gust_shopping_msg:
       "Utilizatorii înregistrați și invitați pot descărca fișiere, deoarece achizițiile oaspeților sunt activate în setările magazinului > flux.",
     only_registered_shopping_msg:
-      "element Înregistrat Utilizatori element Descarcă element fișiere",
+      "Numai utilizatorii înregistrați pot descărca fișiere de exemplu.",
     file_count_limit: "fișiere Numara Limită",
   },
 
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "Nu restricție",
     import: {
       title: "element profil",
-      subtitle: "Selectează element element Locații profil",
+      subtitle: "Selectați un profil de locații salvate.",
     },
     export: {
       title: "salva profil",
-      subtitle: "magazin Locații element element ",
+      subtitle: "Stocați locații pentru utilizare ulterioară.",
     },
     has_restriction_input: {
       title: "element Locație restricție",
       description:
         "Clienții pot achiziționa acest produs numai în țara și codul poștal specificate, datorită restricției de locație stabilite.",
     },
-    zip_pin_code: "element / element cod",
+    zip_pin_code: "Cod poștal / PIN",
     no_country_selected_error:
       "Vă rugăm să includeți cel puțin o țară împreună cu o listă de coduri poștale/pin. Fără el, acest produs nu va fi disponibil.",
     tips: "Faceți clic pe butonul <b>+ Adăugați țara</b> pentru a începe să creați un nou set de locații. După ce ați terminat, îl puteți salva făcând clic pe <b>⋮ Meniu</b> din dreapta sus și selectând <b>Salvare profil</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Introduceți un nume pentru a salva acest set de locații. Acest set de locații salvate poate fi aplicat altor produse, permițând încărcarea rapidă a locației cu un singur clic. Dacă un profil cu numele furnizat există deja, acesta va fi actualizat cu aceste noi valori.",
       title_input: {
         title: "profil Titlu",
-        placeholder: "element Categorie Nume, element magazin Nume,. ..",
+        placeholder: "Un nume de categorie sau un nume de magazin,...",
       },
     },
     load_profile_dialog: {
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Nu rata comenzile tale!",
     msg: "Gestionați-vă afacerea oriunde și oricând.",
-    scan_qr_code: "element element !",
+    scan_qr_code: "Scanează-mă cu telefonul tău!",
 
     notification: {
       title: "Notificare",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "Comenzi",
-      subtitle: "vezi element Comenzi element Gestionează element",
+      subtitle: "Vedeți comenzile și gestionați-le.",
     },
     product: {
       title: "Produse",
-      subtitle: "Inventar Gestionare element Produs element",
+      subtitle: "Gestionarea stocurilor și a produselor simple.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "Adaugă Nou magazin",
-    i_have_a_deal: "element element ",
+    i_have_a_deal: "Am o afacere",
     access: {
       title: "Acces element",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "element element ",
+    title: "Programul de lansare a conținutului",
     subtitle:
       "Iată lista articolelor programate stabilite pentru publicare viitoare. Aveți posibilitatea de a programa postări de blog și chiar descrieri de produse pentru a fi publicate la anumite momente.",
   },
@@ -9493,11 +9493,11 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Trimite element element",
+    title: "Trimiteți cererea directă",
     message:
       "Identificați primele 3 nevoi ale afacerii dvs. pentru a prospera și a profita pe Selldone. Aceste informații vor fi partajate direct cu fondatorii și directorii și vor fi analizate cu atenție. De asemenea, vă puteți actualiza nevoile în timp după trimitere.",
-    expand_action: "scriere element element",
-    input_label: "element element",
+    expand_action: "Scrie cererea...",
+    input_label: "Solicitarea dvs",
     to: {
       ceo: "Trimite La element",
       team: "Trimite La element",
@@ -9545,16 +9545,16 @@ export default {
     test: {
       title: "magazin",
       subtitle: "element serviciu Raport",
-      action: "element element",
-      last_update: "element element ",
+      action: "Testați conexiunea",
+      last_update: "Ultima actualizare de către",
     },
     service_status: {
       title: "serviciu stare",
-      syncing_message: "element element ",
+      syncing_message: "La procesul de sincronizare...",
       action: "element toate",
       connect_status: "Connect stare",
       service_status: "serviciu stare",
-      auto_confirm_enable_msg: "element element Comenzi element activat",
+      auto_confirm_enable_msg: "Confirmarea automată pentru comenzi este activată.",
       auto_confirm_disable_msg:
         "Confirmarea automată a comenzilor nu este activată.",
       shipping_enable_msg:
@@ -9565,10 +9565,10 @@ export default {
       auto_confirm_order: "automat element Comenzi",
       test_mode: "element mod",
       status: {
-        subtitle: "element informații element element stare",
+        subtitle: "Informații generale despre starea de sincronizare.",
       },
       sync: {
-        title: "element element",
+        title: "Detaliu sincronizare",
         subtitle:
           "Detalii de sincronizare internă. Aceste informații sunt salvate după încheierea cu succes a unei perioade de proces de sincronizare.",
         no_data: "Nu element informații!",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Lista de produse adăugate de la {name}. Asigurați-vă că produsul dvs. are un nume și un cod unic. Unele servicii Connect sunt folosite pentru migrare, așa că, dacă aveți produse cu <b>SKUs</b> și <b>Names</b> duplicate, acele produse vor fi modificate!",
       action: "element Produse",
-      syncing_message: "element element ",
+      syncing_message: "La procesul de sincronizare...",
     },
 
     logs: {
@@ -9600,16 +9600,16 @@ export default {
       test: {
         false_title: "element toate",
         false_desc: "element toate Disponibil Produse, Categorii, Clienți",
-        true_title: "element (element element )",
+        true_title: "Limitat (Recomandat pentru începători)",
         true_desc:
           "Obțineți maximum 5 produse, categorii și clienți. Îl puteți trece în modul complet în Conectare > Setare oricând.",
       },
       overwrite: {
-        false_title: "element element Schimbare element element",
+        false_title: "Nu schimbați dacă există",
         false_desc: "Păstrați detaliile existente despre produse și categorii așa cum sunt.",
         true_title: "element",
         true_desc:
-          "Actualizați element Produs, element, element Categorie informații",
+          "Actualizați informațiile existente despre produse, variante și categorii.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
@@ -9622,14 +9622,14 @@ export default {
       },
       enable: {
         label: "Connect stare",
-        true_desc: "Inventar element Comenzi element element ",
+        true_desc: "Inventarul și comenzile vor fi sincronizate.",
       },
       confirm: {
         label: "automat element Comenzi",
-        false_desc: "element element 🛍️ Comanda element",
+        false_desc: "Ar trebui să confirmați comanda manual.",
         true_desc:
           "Comenzile cu plată live vor fi aprobate automat. Comenzile cu plată de depanare nu vor fi aprobate automat.",
-        tips: "Comenzi Plătit element Cadou card element COD element Plată Gateway-uri element element mod element element Confirmat element",
+        tips: "Comenzile plătite prin card cadou sau COD sau gateway-uri de plată în modul depanare sunt excepții și nu vor fi confirmate automat.",
       },
 
       shipping: {
@@ -9644,7 +9644,7 @@ export default {
       },
 
       remove: {
-        verify: "element element La Elimina element element",
+        verify: "Verific pentru a elimina această conexiune.",
         action: "Elimina conectează",
       },
     },
@@ -9661,8 +9661,8 @@ export default {
         "Uitați de aplicațiile și pluginurile pentru dropshipping! Connect este viitorul managementului comenzilor pe mai multe platforme.",
       auto_confirm: "automat element",
       shipping: "livrare",
-      syncing_now: "element element!",
-      sync_not_started: "element element început element!",
+      syncing_now: "Se sincronizează acum!",
+      sync_not_started: "Sincronizarea nu a început încă!",
     },
   },
 
@@ -9700,7 +9700,7 @@ export default {
     add_new_action: "Adaugă Nou pagină",
     subtitle:
       "Creați pagini personalizate distinctive și receptive pentru marca dvs. utilizând un editor inline versatil alimentat de AI și generați automat conținut dinamic prin introducerea datelor.",
-    empty_message: "Proiecta Personalizat Pagini element element & element",
+    empty_message: "Proiectați pagini personalizate prin glisare și plasare...",
   },
 
   /**
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Comentarii",
     subtitle: "Aceasta este o listă cu comentariile comunității.",
-    empty_msg: "Nu Comentarii element element ",
+    empty_msg: "Nu au fost create comentarii până acum...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Categorii",
     subtitle: "Aceasta este o listă a categoriilor comunității.",
     new_category_action: "Categorie noua",
-    empty_msg: "Nu Categorii element element ",
+    empty_msg: "Nu au fost create categorii până acum...",
     filter: {
       delete: {
         title: "Șters",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "element",
-    subtitle: "element element Listă element element ",
+    subtitle: "Aceasta este o listă a postărilor comunității.",
     filter: {
       deleted: {
         title: "Șters",
@@ -9758,19 +9758,19 @@ export default {
         description: "Afișează raport element",
       },
     },
-    empty_msg: "Nu element element ",
+    empty_msg: "Nu au fost create postări până acum...",
     menu: {
       open_post: {
-        title: "element element",
-        subtitle: "Vedere element Editați ╏ × element element Comunitate",
+        title: "Deschide Postarea",
+        subtitle: "Vizualizați și editați postarea în comunitate.",
       },
       spam: {
         title: "Raport & Elimina element",
-        subtitle: "element Elimina element element utilizator",
+        subtitle: "Eliminați în bloc postările și interziceți utilizatorul.",
       },
       delete: {
         title: "Șterge element",
-        subtitle: "Elimina element element",
+        subtitle: "Eliminați această postare.",
       },
     },
   },
@@ -9798,12 +9798,12 @@ export default {
       title: "căutare element",
       subtitle: "Adăugați o metaetichetă pe pagina dvs. de pornire pentru verificarea Google Search Console.",
       code: {
-        label: "element element Etichetă Meta",
-        placeholder: "Din element, element element Google",
+        label: "Metaetichetă de verificare",
+        placeholder: "De pe google, de ex. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google element & element",
+      title: "SERP și cuvinte cheie Google",
       subtitle:
         "Obținem cele mai precise date de audit SEO de la Google și vi le prezentăm într-un mod convenabil. Pur și simplu urmați pașii furnizați.",
     },
@@ -9831,7 +9831,7 @@ export default {
     title: "cashback element",
     boosted: "element (2X)",
     min_purchase: "Achizitie minima",
-    only_first_order: "element element 🛍️ Comanda",
+    only_first_order: "Doar prima comandă",
     total_cashback: "element cashback",
     delete_alert: {
       title: "Șterge cashback element",
@@ -9839,7 +9839,7 @@ export default {
       action: "Da, șterge acum",
     },
     notifications: {
-      delete_success: "cashback element Șters element",
+      delete_success: "Programul de rambursare a fost șters cu succes.",
     },
   },
   /**
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "cashback element",
-      message: "element element cashback element Din 1% La 20%.",
+      message: "Introduceți procentul de rambursare de la 1% la 20%.",
     },
     currency_input: {
       message: "Programul de cashback va fi disponibil doar pentru această monedă.",
     },
     limit_input: {
       title: "Limită",
-      hint: "element element maxim Cantitate element cashback",
-      zero_message: "element 0 element Nelimitat cashback",
+      hint: "Introduceți suma maximă de cashback.",
+      zero_message: "Introduceți 0 pentru cashback nelimitat.",
     },
     duration: {
       title: "Durată Limită",
@@ -9926,7 +9926,7 @@ export default {
       title: "Descriere",
     },
     constraints: {
-      subtitle: "element element cashback element",
+      subtitle: "Setați constrângerile pentru programul de cashback.",
     },
     min_purchase_input: {
       hint: "Introduceți suma minimă de achiziție pentru programul de rambursare.",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "Programul de cashback va fi disponibil pentru toate comenzile.",
       true_desc:
         "Programul de cashback va fi disponibil doar pentru prima comandă.",
-      true_title: "element element 🛍️ Comanda",
+      true_title: "Doar prima comandă",
       false_title: "toate Comenzi",
     },
     qualify_input: {
@@ -9954,8 +9954,8 @@ export default {
         "Prin asocierea unui cluster cu programul de cashback, îl puteți gestiona mai eficient.",
     },
     notifications: {
-      add: "cashback element Adaugă element",
-      edit: "cashback element element ",
+      add: "Programul de rambursare a fost adăugat cu succes.",
+      edit: "Programul de rambursare a fost actualizat cu succes.",
     },
     enable_input: {
       true_msg: "Programul de cashback este activ și clienții îl pot folosi.",
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "element Plată",
-        subtitle: "element element ",
+        subtitle: "Rambursare parțială sau totală acceptată.",
       },
       delivery: {
-        title: "element element Livrare",
+        title: "Confirmați la livrare",
         subtitle: "Puteți confirma manual livrarea pentru furnizorul de plăți.",
       },
     },
@@ -9996,15 +9996,15 @@ export default {
     message:
       "Din motive de securitate, numai comenzile plătite în ultimele 7 zile sunt eligibile pentru rambursări.",
     payment_amount: "Suma de plată",
-    total_refund_amount: "element element Cantitate",
-    can_refund: "element element",
+    total_refund_amount: "Suma totală rambursată",
+    can_refund: "Se poate rambursa",
     refund_amount: "element Cantitate",
     verify: {
-      title: "element element",
+      title: "Verificați rambursarea",
       description:
         "Confirm că suma rambursată este corectă și vreau să continui.",
     },
-    action: "element element",
+    action: "Rambursează acum",
   },
 
   /**
@@ -10019,7 +10019,7 @@ export default {
       description:
         "Confirm că comanda a fost livrată clientului.",
     },
-    action: "element element",
+    action: "Confirmați acum",
   },
 
   /**
@@ -10031,8 +10031,8 @@ export default {
     subtitle:
       "În această secțiune, puteți adăuga și gestiona produse de vânzare încrucișată pentru această pagină de produs. Aceste produse vor fi afișate ca sugestii de cumpărare pentru clienți alături de articolul principal. De asemenea, puteți seta reduceri pentru a încuraja și a stimula achizițiile suplimentare. Sistemul va prezenta maximum 3 articole pe care clientul le va lua în considerare.",
     dialog: {
-      edit_title: "Editați ╏ × element element Produs",
-      add_title: "Adaugă Nou element element Produse",
+      edit_title: "Editați produsul de vânzare încrucișată",
+      add_title: "Adăugați noi produse de vânzare încrucișată",
       target: {
         title: "element Produs",
         subtitle:
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "element Produs",
-        subtitle: "element Produs element element ",
+        subtitle: "Acest produs a fost ales pentru promovarea cross-selling.",
         manage_product: "Gestionează Produs",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Creați un titlu convingător și atrăgător pentru a capta atenția clienților.",
           placeholder:
-            "element & salva: element element !",
+            "Pachetați și economisiți: completați-vă aspectul cu selecția noastră selectată!",
         },
       },
       action: {
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Adaugă Variante element element",
+    title: "Adăugați variante în bloc",
     variants: {
-      title: "element element",
+      title: "Opțiuni variante",
       subtitle:
         "Selectați până la două variante de opțiuni. După selecție, puteți alege ce variante specifice să creați automat.",
     },
     values: {
-      title: "element element",
-      subtitle: "element element ",
+      title: "Valori variante",
+      subtitle: "Introduceți aici valorile posibile pentru fiecare opțiune de variantă.",
       prevent_duplicates_tips:
         "<b>Notă:</b> Verificăm automat variantele existente pentru a preveni duplicarea.",
     },
     inventory: {
       title: "element Inventar",
-      subtitle: "element element început Inventar Numara element element Nou Variante",
+      subtitle: "Setați numărul de inventar inițial pentru noile variante.",
     },
     add_variants_action: "Crea Variante",
   },
@@ -10132,13 +10132,13 @@ export default {
      */
     health: {
       title: "Produs element",
-      available_in_stock_msg: "Produs element Disponibil element element",
-      out_of_stock_msg: "Produs element element ",
+      available_in_stock_msg: "Produsul este disponibil in stoc.",
+      out_of_stock_msg: "Produsul este epuizat.",
       file_count_msg:
         "{files_count} fișiere cu un total de {files_size} încărcate pentru acest produs.",
-      no_file_uploaded_msg: "Nu fișier element element Încarcă element",
+      no_file_uploaded_msg: "Niciun fișier nu a fost încărcat încă.",
       no_image_uploaded_msg:
-        "Încarcă element Produs Imagine La câștigă element Mai mult. . element",
+        "Încărcați o imagine a produsului pentru a-l face mai atractiv.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10165,13 +10165,13 @@ export default {
      */
     pricing: {
       title: "Prețuri",
-      no_product_price_msg: "element Mod implicit Produs Preț element element !",
+      no_product_price_msg: "Prețul implicit al produsului nu este încă stabilit!",
       listing_pricing_msg: "listă Prețuri:",
-      has_valuation_msg: "Produs element element",
+      has_valuation_msg: "Produsul are evaluare.",
       subscription_pricing_msg:
-        "element Produs element {count} Abonament Prețuri Planuri",
+        "Acest produs are planuri de preț pentru abonament {count}.",
       has_no_subscription_pricing_msg:
-        "element Produs element Nu Abonament Prețuri Planuri",
+        "Acest produs nu are planuri de preț pentru abonament.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "element Abonament Prețuri Planuri",
       subtitle:
-        "element Produs element Nu Abonament Prețuri Planuri element element La Adaugă element element Abonament Prețuri element La câștigă element Produs Disponibil element Abonament Cumpărare",
+        "Acest produs nu are planuri de preț pentru abonament. Trebuie să adăugați cel puțin un plan de prețuri pentru abonament pentru a face acest produs disponibil pentru achiziționarea prin abonament.",
       pricing_plans: "Prețuri Planuri",
     },
 
@@ -10189,11 +10189,11 @@ export default {
     location: {
       title: "element Locație restricție ● {status}",
       status: {
-        has_restriction: "Disponibil element {count} element",
-        no_restriction: "element element",
+        has_restriction: "Disponibil în țările {count}",
+        no_restriction: "Nerestricționat",
       },
       available_countries_msg:
-        "element element La {count} element element {countries}.",
+        "Cumpărături limitate la nivel global în țările {count}. Aceste țări sunt {countries}.",
       disable_for_all_countries_msg:
         "Cumpărăturile sunt dezactivate pentru toate țările din setarea magazinului > locații.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10226,10 +10226,10 @@ export default {
         subscription_tax_msg:
           "Putem aplica taxe doar la etapa de creare a plății.",
         dedicated: "element",
-        is_disabled: "element Impozit profil element dezactivat!",
+        is_disabled: "Acest profil fiscal este dezactivat!",
         tax_is_based_on_location: "Impozit: Locație element",
         shipping_tax_is_based_on_location: "livrare: Locație element",
-        included_in_price: "element element Preț",
+        included_in_price: "Inclus in pret.",
       },
     },
 
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "element Produs element La <b>{vendor}</b>.",
+      vendor_owner_msg: "Acest produs aparține <b>{vendor}</b>.",
       has_vendors_msg: "Există {count} furnizori pentru acest produs.",
       no_vendor_msg:
         "Nu ați desemnat un furnizor acestui produs, așa că clienții nu îl pot achiziționa.",
@@ -10264,7 +10264,7 @@ export default {
     card: {
       title: "element",
       description:
-        "element HTML Cod La Adaugă Produs Carduri element element HTML Pagini",
+        "Generați cod HTML pentru a adăuga carduri de produse în alte platforme și pagini HTML.",
     },
     iframe: {
       title: "element",
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Acces element",
-        placeholder: "Selectează element element",
+        placeholder: "Selectați un nivel...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "Acces element",
-        message: "Nou Acces element element Adaugă",
+        message: "Accesul nou a fost adăugat cu succes.",
       },
       update_success: {
         title: "Acces element",
-        message: "Permisiuni element element ",
+        message: "Permisiunile au fost actualizate cu succes.",
       },
     },
   },
@@ -10357,12 +10357,12 @@ export default {
     search_tips: {
       title: "căutare element",
       normal:
-        "<b>element căutare: </b>căutare element Titlu, MPN, SKU, Marca, element Etichete",
+        "<b>Căutare generală: </b>Căutare după titlu, MPN, SKU, marcă sau etichete.",
       product:
         "<b>ID exact de produs: </b>Folosiți P+ID de produs pentru a găsi un anumit produs, de exemplu, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Expresie exactă: </b>Folosiți ghilimele pentru a căuta o expresie exactă, de exemplu, <b class=\"text-green\">\"</b><i class=\"text-yellow\">textul dvs. aici</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>Impozit profil: </b>căutare element Produse element element Impozit profil element \"Impozit:\", element, <b class=\"text-green\">Impozit:</b><i class=\"text-yellow\">Impozit profil Nume</i>.",
+      tax: "<b>Profil fiscal: </b>Căutați produse cu un anumit profil fiscal folosind „tax:”, de ex., <b class=\"text-green\">tax:</b><i class=\"text-yellow\">nume profil fiscal</i>.",
       new_products:
         "<b>Produse noi: </b>Găsiți produse adăugate într-un anumit interval de date, de exemplu, <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>",
     },
@@ -10376,30 +10376,30 @@ export default {
     subtitle:
       "Introduceți cheia care va fi schimbată cu valoarea ei corespunzătoare în conținutul paginii. Cheile trebuie să aibă maximum 32 de caractere.",
     add_caption: "Adaugă Nou articol",
-    add_sub_caption: "Adaugă Personalizat element element",
+    add_sub_caption: "Adăugați o pereche cheie-valoare personalizată.",
     add_dialog: {
       title: "Selectează Intrare Tip",
       html: {
-        title: "element & element HTML",
-        subtitle: "element Articole Valoare element element HTML.",
+        title: "Text și HTML",
+        subtitle: "Valoarea articolului poate fi desemnată fie text, fie HTML.",
       },
       image: {
         title: "Imagine",
-        subtitle: "element element Încarcă element Imagine",
+        subtitle: "Puteți încărca o imagine.",
       },
     },
     help_dialog: {
-      title: "element La element element ",
+      title: "Cum să utilizați conținutul dinamic",
       how_it_works_tips:
         "În paginile de destinație, aveți flexibilitatea de a desemna substituenți dinamici atât pentru text, cât și pentru imagini. Acești substituenți au un rol semnificativ în personalizarea conținutului în funcție de context.   Natura dinamică a acestor substituenți le permite să fie populate cu valori de creștere, care pot varia în funcție de diferiți factori. De exemplu, valorile de mărire pot fi diferite pentru fiecare produs sau categorie. Avantajul real al acestei caracteristici intră în joc atunci când aveți o varietate de articole cu atribute diferite. Puteți utiliza în mod eficient acești substituenți dinamici pentru a personaliza și îmbunătăți afișarea fiecărui articol, creând astfel o experiență unică și interactivă pe paginile dvs. de destinație.",
       assign_tips:
-        "La element element La Imagini, element element ",
+        "Pentru a atribui valori dinamice imaginilor, faceți clic pe butonul de alimentare situat în partea stângă a secțiunii.",
       set_dynamic_image_tips:
         "Acum aveți posibilitatea de a modifica adresa URL a imaginii și de a-i atribui o valoare dinamică.",
       enter_values_tips:
         "Pentru fiecare produs, aveți posibilitatea de a atribui perechi cheie-valoare dedicate.",
       result_tips:
-        "element element pagină, element element ",
+        "Acesta este rezultatul final al paginii, unde substituenții au fost înlocuiți cu valori mărite.",
     },
   },
 
@@ -10408,7 +10408,7 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "element element",
+      title: "Limbi multiple",
       subtitle:
         "Aceasta este lista limbilor de conținut. Puteți seta conținut diferit pentru profilul logistic în fiecare limbă.",
       add_caption: "Adaugă Nou Articol",
@@ -10419,20 +10419,20 @@ export default {
       subtitle:
         "Puteți personaliza conținutul pentru profilul logistic în mai multe limbi.",
 
-      language_input: "element Articol element",
+      language_input: "Limba actuală a articolului",
       delete_article: "Șterge Articol",
       menu_tooltip: "automat element / Șterge Articol",
     },
     translate_to: "element La",
     notifications: {
       translate: {
-        message: "Articol element Efectuat element",
+        message: "Traducerea articolului a fost finalizată cu succes.",
       },
       save_article: {
-        message: "Articol element element ",
+        message: "Articolul a fost salvat cu succes.",
       },
       delete_article: {
-        message: "Articol element element Șters element",
+        message: "Articolul a fost șters cu succes.",
       },
     },
     delete_dialog: {
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Produse",
-    subtitle: "Listă element Produse element element profil",
+    subtitle: "Lista produselor asociate acestui profil.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10461,7 +10461,7 @@ export default {
       accept_delete: {
         true_description:
           "Această acțiune va elimina toate articolele și linkurile profilurilor.",
-        true_title: "element element La Elimina element element",
+        true_title: "Verific pentru a elimina această conexiune.",
       },
     },
     actions: {
@@ -10487,7 +10487,7 @@ export default {
       article: {
         title: "Articol",
         subtitle:
-          "element element Adaugă Mai mult. . element element Logistică profil",
+          "Puteți adăuga mai multe limbi după crearea acestui profil logistic.",
       },
       inputs: {
         name: {
@@ -10507,10 +10507,10 @@ export default {
     add_caption: "Adaugă Nou articol",
     subtitle:
       "Aici, puteți gestiona articolele incluse în produsele dvs. Pentru a asigura un aspect impecabil pentru magazinul dvs., utilizați în mod consecvent articole cu modele de imagine similare, cum ar fi wireframes, pentru toate produsele.",
-    empty_list_msg: "Listă element element Articole",
+    empty_list_msg: "Lista articolelor incluse...",
     notifications: {
       delete: {
-        message: "element articol element element Șters",
+        message: "Elementul a fost șters.",
       },
     },
     delete_dialog: {
@@ -10536,10 +10536,10 @@ export default {
       "Alegeți un titlu scurt, în mod ideal, cu cel mult 2 până la 3 cuvinte. Utilizați imagini pătrate, deoarece vom redimensiona automat imaginile încărcate într-un format pătrat de 256x256. Pentru cel mai bun aspect pentru toate șabloanele, utilizați imagini minimaliste cu fundaluri transparente și mențineți un model uniform în toate produsele dvs.",
     inputs: {
       title: {
-        placeholder: "element Titlu element element Produs pagină",
+        placeholder: "Titlul concis afișat pe pagina produsului...",
       },
       code: {
-        placeholder: "element Cod, ex Mobil_element_element",
+        placeholder: "Cod unic, ex. mobil_cablu_usb",
         hint: "Utilizați acest cod pentru a simplifica procesul de căutare pentru localizarea articolelor.",
       },
       description: {
@@ -10547,7 +10547,7 @@ export default {
         hint: "Descrierea va fi folosită pentru SEO și poate fi vizibilă pentru utilizatori pe unele aspecte personalizate din pagina produsului.",
       },
       image: {
-        message: "element Imagine element: 1MB",
+        message: "Dimensiunea maximă a imaginii: 1 MB",
       },
       path: {
         label: "pagină element",
@@ -10559,7 +10559,7 @@ export default {
       },
       external_link: {
         title: "Link extern",
-        description: "element element Legătură La element element  URL",
+        description: "Setați un link către o adresă URL externă.",
         tips: "Puteți atașa orice adresă URL articolului. Când utilizatorii fac clic pe articolul de pe pagina produsului, ei vor fi redirecționați către acel link.",
       },
       internal_link: {
@@ -10574,7 +10574,7 @@ export default {
         message: "Elementul inclus a fost adăugat cu succes.",
       },
       edit: {
-        message: "element element articol element element ",
+        message: "Elementul inclus a fost actualizat cu succes.",
       },
     },
   },
@@ -10605,9 +10605,9 @@ export default {
     no_wallet: "Nu Portofel!",
 
     withdraw_dialog: {
-      title: "element Comision element",
+      title: "Retragerea comisioanelor",
 
-      need_bank_info_message: "element element bancă element element",
+      need_bank_info_message: "Vă rugăm să introduceți mai întâi informațiile dvs. bancare.",
 
       to_wallet: {
         title: "La Portofel",
@@ -10648,14 +10648,14 @@ export default {
       message: "Puteți adăuga <b>?ref={code}</b> la orice adresă URL de vânzare.",
     },
     intro: {
-      title: "element element Selldone Afiliat element",
+      title: "Alăturați-vă programului de afiliere Selldone",
       message:
         "Programul de afiliere Selldone este simplu și direct, conceput pentru ca dvs. să câștigați fără efort. Distribuiți linkul dvs. unic de afiliat pentru a invita noi utilizatori la Selldone și veți câștiga un comision din fiecare tranzacție pe care o fac - pentru totdeauna. Acestea includ veniturile din abonamente, taxele de servicii, upgrade-urile magazinelor și toate celelalte fluxuri de venituri. Începeți să câștigați o parte din venit fără limite de timp sau de câștiguri. Alăturați-vă nouă și transformați-vă rețeaua într-un venit constant!",
-      why_join_selldone_affiliate: "element element ?",
+      why_join_selldone_affiliate: "De ce este aceasta o oportunitate unică?",
       reasons: [
-        "element element !",
+        "Durează pentru totdeauna!",
         "Acoperă toate taxele de abonament și tranzacție. Literal, fiecare plată a utilizatorului pe Selldone.",
-        "Trimitem un voucher $99 gratuit oricărei persoane care se înregistrează folosind link-ul tău.",
+        "Trimitem un voucher gratuit de 99 USD oricui se înregistrează folosind link-ul tău.",
         "Când se face upgrade de nivel, veți câștiga la noul tarif de la toți utilizatorii referiți anterior.",
       ],
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "Nu element Încarcă element",
+    no_asset_uploaded: "Niciun material încărcat încă.",
   },
 
   /**
@@ -10690,27 +10690,27 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Permite element element La element element ",
+        "Activați această funcție pentru a rearanja și organiza cu ușurință secțiunile trăgându-le.",
     },
     edit_mode_tooltip: {
       title: "Editați ╏ × / previzualizare mod",
       edit_mode_title: "Editați ╏ × mod",
-      edit_mode_msg: "toate Editează Instrumente element element ",
+      edit_mode_msg: "Vor fi afișate toate instrumentele de editare.",
       view_mode_title: "previzualizare mod",
       view_mode_msg:
         "Vizualizați pagina dvs. așa cum ar vedea-o utilizatorii, ascunzând instrumente suplimentare de editare și zone de text goale.",
     },
     repository_tooltip: {
-      title: "element element",
+      title: "Secțiuni prefabricate",
       subtitle:
         "Comutați afișarea secțiunilor prestabilite. Aceste secțiuni sunt create folosind secțiunile standard disponibile în meniul din stânga, arătând flexibilitatea acestui generator de pagini.",
     },
     live_view: {
       title: "Trăi previzualizare",
-      subtitle: "vezi Actualizează element element Editați ╏ × element pagină",
+      subtitle: "Vedeți actualizările în timp real pe măsură ce vă editați pagina.",
     },
     hotkeys_dialog: {
-      title: "element element",
+      title: "Comenzi rapide de la tastatură",
       augment_tips:
         "Puteți încărca conținut dinamic în pagina dvs. și îl puteți înlocui cu valori <b>augment</b>. Augmentul este utilizat pentru pagini dinamice personalizate, cum ar fi <b>Produse</b>, <b>Categorii</b> și <b>Include articole</b>. Pentru a seta o imagine să se încarce dinamic, faceți clic pe <b>Feeder</b> și selectați <b>Dynamic Source</b> pentru imaginea respectivă.",
     },
@@ -10723,10 +10723,10 @@ export default {
       ctrl_1:
         "Reduceți dimensiunea fontului textului selectat | <small>Fă-mă mic</small>",
       ctrl_2: "Măriți dimensiunea fontului textului selectat | <big>Fă-mă mare</big>",
-      ctrl_r: "Elimina toate element Din Selectează element | element toate element",
+      ctrl_r: "Eliminați toată formatarea din textul selectat | Curățați toate stilurile",
       ctrl_s: "salva element pagină",
-      tab: "element element mod",
-      ctrl_e: "element element Stil mod",
+      tab: "Comutați între modurile de scară",
+      ctrl_e: "Activați sau dezactivați modul stil clon",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "element & element",
-    subtitle: "element element",
+    title: "Trageți și plasați",
+    subtitle: "Secțiuni prefabricate",
     add_dialog: {
       title: "Adaugă Personalizat element",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Imagine",
-        subtitle: "public Imagine element element Listă",
+        subtitle: "Imagine publică afișată în listă.",
       },
       code: {
         title: "Cod",
@@ -10755,11 +10755,11 @@ export default {
       inputs: {
         title: {
           label: "Titlu",
-          message: "element element public Titlu",
+          message: "Acesta este titlul public.",
         },
         tags: {
           label: "Etichete",
-          message: "Folosit element căutare element element ",
+          message: "Folosit pentru căutarea și clasificarea elementelor.",
         },
         section: {
           message: "Copiați secțiunea din generatorul de pagini.",
@@ -10779,10 +10779,10 @@ export default {
     status_tooltip: {
       title: "vânzător stare",
       ACCEPTED: "Vânzătorul are acces la panoul său.",
-      REJECTED: "element vânzător element element Respins",
+      REJECTED: "Solicitarea furnizorului a fost respinsă.",
       PENDING: "Solicitarea așteaptă o decizie din partea vânzătorului.",
     },
-    number_of_products: "element element Produse",
+    number_of_products: "Numărul de produse",
     invited: "element",
     no_pricing: "Nu Prețuri",
     no_pricing_tooltip: {
@@ -10790,10 +10790,10 @@ export default {
       subtitle: "Vă rugăm să setați un model de preț prestabilit pentru furnizor.",
     },
     updated_products_tooltip: {
-      title: "Produse element element 24 element",
+      title: "Produse actualizate în ultimele 24 de ore",
     },
     added_products_tooltip: {
-      title: "Produse Adaugă element element 24 element",
+      title: "Produse adăugate în ultimele 24 de ore",
     },
     access_tooltip: {
       title: "element Acces",
@@ -10806,14 +10806,14 @@ export default {
         "Utilizatorul a respins solicitarea de a deveni furnizor și de a accesa acest furnizor.",
     },
     download_all_vendors: "Descarcă toate vânzători",
-    bulk_import: "element Importă (element)",
+    bulk_import: "Import în bloc (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Licență element element!",
+    title: "Este necesară actualizarea licenței!",
     subtitle:
       "Licența dvs. actuală nu îndeplinește cerințele modelului de afaceri selectat. Actualizați-vă licența la planul Enterprise.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Adaugă Mesaj Șablon",
 
     notifications: {
-      add_chat_success_message: "Mesaj element element Adaugă element",
+      add_chat_success_message: "Mesajul a fost adăugat cu succes.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Trimite Actualizați E-mail",
 
       notifications: {
-        send_success_message: "E-mail element element Trimis element",
+        send_success_message: "E-mailul a fost trimis cu succes.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Adaugă Șablon",
 
       notifications: {
-        save_success_message: "Șablon element element ",
+        save_success_message: "Șablonul a fost salvat cu succes.",
       },
 
       inputs: {
         title: {
           label: "Șablon Titlu",
-          placeholder: "scriere element element Titlu",
+          placeholder: "Scrie un titlu scurt...",
         },
         body: {
           label: "Șablon Mesaj",
-          placeholder: "scriere element Mesaj element",
+          placeholder: "Scrie mesajul tau aici...",
           messages:
-            "element element {order_id} element {buyer_name}.",
+            "Puteți seta valori dinamice prin {order_id} și {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "element",
     guest: "element",
     click_to_create: "element La Crea",
-    valid_for_30_days: "element element 30 30 de zile",
+    valid_for_30_days: "valabil 30 de zile",
     notifications: {
-      secure_link_created: "element Legătură element element ",
+      secure_link_created: "Legătura securizată a fost creată cu succes.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Adaugă Nou element element",
-    title: "element element",
+    add_caption: "Adăugați un nou set de proprietăți",
+    title: "Seturi de proprietăți",
     subtitle:
       "Puteți crea și gestiona seturi de proprietăți aici. Seturile de proprietăți sunt folosite pentru a defini proprietățile produselor și serviciilor. Puteți atribui aceste seturi de proprietăți produselor în Tabloul de bord al produselor > Editare.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "element element - Personalizat Variante",
+      title: "Set de proprietăți - Variante personalizate",
       subtitle:
         "Puteți personaliza denumirile variantelor pentru acest produs, înlocuindu-le pe cele implicite.",
     },
 
     subtitle:
       "Puteți personaliza numele variantelor, pictogramele și ordinea acestora aici. Pentru produsele cu variante unice care depășesc cele șase implicite, puteți seta variante personalizate adaptate fiecărui produs. Pur și simplu definiți seturi de proprietăți în fila Logistică > Seturi de proprietăți și atribuiți-le la orice număr de produse, după cum este necesar.",
-    select_property_set: "Selectează element element",
-    add_property_set: "Adaugă element element",
+    select_property_set: "Selectați Set de proprietăți",
+    add_property_set: "Adăugați set de proprietăți",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10932,19 +10932,19 @@ export default {
     add_action: "Adaugă element",
     subtitle:
       "Creați dimensiuni de cutie reutilizabile pentru a accelera achizițiile de etichete și pentru a asigura tarife de expediere precise. Când onorați o comandă, selectați o casetă salvată, iar dimensiunile acesteia se vor completa automat.",
-    empty: "Nu element element “Adaugă element”.",
+    empty: "Încă nu există cutii. Faceți clic pe „Adăugați caseta”.",
     edit: "Editați ╏ × element",
     new: "Nou element",
     default_weight: "Mod implicit Greutate",
-    updated: "element element",
-    created: "element element",
+    updated: "Caseta actualizată.",
+    created: "Cutie creată.",
     deleted: "element Șters",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Selectează element pachet",
-    define_package: "element element pachet",
+    define_package: "Definiți un pachet",
     define_package_hint: "Creați sau editați dimensiunile predefinite ale pachetelor",
   },
 
@@ -10984,11 +10984,11 @@ export default {
     items: {
       title: "Articole",
       sub_title:
-        "Crea, Editați ╏ ×, element Gestionează listă Articole element stare, Prețuri, a lua legatura element, element element",
+        "Creați, editați și gestionați elementele de înregistrare. Controlați starea, prețurile, informațiile de contact și media.",
 
       empty_title: "Nu Articole element",
       empty_subtitle:
-        "Crea element element listă articol La start Clădire... element element",
+        "Creați primul dvs. element de înregistrare pentru a începe să vă construiți directorul.",
 
       add_title: "Adaugare element",
       edit_title: "Editați ╏ × articol",
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Legături JSON",
-      opening_hours_json: "element element JSON",
+      opening_hours_json: "Orele de deschidere JSON",
 
       delete_title: "Șterge articol",
-      delete_message: "element element La Șterge element articol?",
+      delete_message: "Sigur doriți să ștergeți acest articol?",
       delete_success: "Elementul a fost șters cu succes.",
-      restore_success: "articol element element",
+      restore_success: "Elementul a fost restaurat cu succes.",
 
-      opening_hours:"element element",
+      opening_hours:"Orele de deschidere",
       form_fields:"formular element",
 
       company: "Companie",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Adăugați o categorie",
       edit_title: "Editați categoria",
 
-      parent_filter: "Filtru element element",
+      parent_filter: "Filtrați după părinte",
       parent: "Categoria părinte",
 
       price_format: "Preț element",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Proiecta ID",
 
       delete_title: "Șterge categoria",
-      delete_message: "element element La Șterge element Categorie?",
+      delete_message: "Sigur doriți să ștergeți această categorie?",
       delete_success: "Categorie Șters element",
       form_schema: "Categorie formular element",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "element",
       moderation_mode: "element mod",
-      require_first_approved_before_more: "element element Mai mult. .",
+      require_first_approved_before_more: "Solicitați prima aprobare înainte de mai multe",
 
       limits_title: "Limite",
-      max_pending_per_user: "element In asteptarea element utilizator",
-      max_items_per_user: "element Articole element utilizator",
+      max_pending_per_user: "Max în așteptare per utilizator",
+      max_items_per_user: "Numărul maxim de articole per utilizator",
       limits_hint: "Limite element",
 
       templates_title: "element",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "articol element element",
+      approve_success: "Articol aprobat cu succes.",
       publish_success: "articol Publicat element",
-      unpublish_success: "articol element element",
-      archive_success: "articol element element",
+      unpublish_success: "Element nepublicat cu succes.",
+      archive_success: "Element arhivat cu succes.",
       reject_success: "articol Respins element",
-      penalty_success: "element element ",
+      penalty_success: "Penalizarea aplicată cu succes.",
 
       reject_title: "Respinge articol",
-      reject_reason: "element element",
+      reject_reason: "Motivul respingerii",
 
       penalty: "element",
       penalty_title: "element",
-      penalty_points: "element element",
+      penalty_points: "Puncte de penalizare",
       penalty_note: "element Notă"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Încarcă Imagini",
       url_type: "Tip",
       url: "URL",
-      is_main: "element element principal"
+      is_main: "Setați ca principal"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Creați mai multe seturi de design (șabloane card + detalii) și atribuiți-le categoriilor. Categoriile pot folosi diferite modele.",
 
-      empty_title: "Nu element element",
+      empty_title: "Încă nu există modele",
       empty_subtitle:
         "Adăugați primul set de design pentru a începe să personalizați modul în care arată categoriile.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Detalii Șablon",
 
       notifications: {
-        add_success: "Proiecta element element",
-        edit_success: "Proiecta element element",
+        add_success: "Design creat cu succes.",
+        edit_success: "Design actualizat cu succes.",
         delete_success: "Proiecta Șters element",
       },
 
@@ -11148,42 +11148,42 @@ export default {
 
       empty_title: "Nu insigne element",
       empty_subtitle:
-        "Adaugă element element insignă La start element listă Articole",
+        "Adăugați prima insignă pentru a începe să evidențiați articolele din listă.",
 
       add_title: "Adaugă insignă",
       edit_title: "Editați ╏ × insignă",
 
       notifications: {
-        add_success: "insignă element element",
-        edit_success: "insignă element element",
+        add_success: "Insigna creată cu succes.",
+        edit_success: "Insigna a fost actualizată cu succes.",
         delete_success: "insignă Șters element",
       },
 
       delete_title: "Șterge insignă",
-      delete_message: "element element La Șterge element insignă?",
+      delete_message: "Sigur doriți să ștergeți această insignă?",
     },
 
     companies: {
       title: "Companii",
       sub_title:
-        "Crea element Gestionează Companii element listă articol element element conectat La element Companie",
+        "Creați și gestionați companii. Fiecare articol de listă poate fi, opțional, legat de o companie.",
 
       empty_title: "Nu Companii element",
       empty_subtitle:
-        "Adaugă element element Companie La Legătură element La listă Articole",
+        "Adăugați prima dvs. companie pentru a o conecta la articolele listate.",
 
       add_title: "Adaugă Companie",
       edit_title: "Editați compania",
 
       notifications: {
-        add_success: "Companie element element",
-        edit_success: "Companie element element",
+        add_success: "Companie creată cu succes.",
+        edit_success: "Compania a fost actualizată cu succes.",
         delete_success: "Companie Șters element",
       },
 
       delete_title: "Șterge Companie",
       delete_message:
-        "Șterge element Companie? Articole element element Companie Legătură",
+        "Ștergeți această companie? Articolele care îl folosesc vor pierde automat linkul companiei.",
     },
 
 
@@ -11192,12 +11192,12 @@ export default {
       title: "mesaj",
       sub_title: "Gestionează mesaj Trimis element Utilizatori Din listă Profiluri",
       empty_title: "Nu mesaj",
-      empty_subtitle: "mesaj Trimis element Utilizatori element element ",
+      empty_subtitle: "Mesajele trimise de utilizatori vor apărea aici.",
 
       sender: "element",
       item: "articol",
       has_reply: "element",
-      has_reply_yes: "element element",
+      has_reply_yes: "Are răspuns",
       has_reply_no: "Nu element",
 
       dialog_title: "Mesaj",
@@ -11205,12 +11205,12 @@ export default {
       reply: "element",
       reply_hint: "Scrieți un răspuns utilizatorului. De asemenea, puteți marca mesajul ca citit/spam din acțiuni.",
 
-      mark_read: "element element citire",
-      mark_unread: "element element ",
+      mark_read: "Marcați ca citit",
+      mark_unread: "Marcați ca necitit",
       archive: "element",
       unarchive: "element",
-      mark_spam: "element element ",
-      mark_not_spam: "element element",
+      mark_spam: "Marcați ca spam",
+      mark_not_spam: "Nu spam",
 
       delete_confirm: "Șterge element Mesaj?",
     },
@@ -11218,16 +11218,16 @@ export default {
     enable: {
       title: "listă",
       subtitle: "Activați sau dezactivați pagina dvs. publică de înregistrare. Când este activat pentru prima dată, Selldone va crea automat configurația listării.",
-      true_description: "listă element activat Clienți element element listă Pagini",
+      true_description: "Listarea este activată. Clienții pot răsfoi paginile de listări.",
       false_description: "Listarea este dezactivată. Paginile de listare și trimiterile sunt blocate.",
       open_listing: "element listă",
-      note: "element element , Limite, formular, element Proiecta element listă Setări",
+      note: "Puteți configura ulterior moderarea, limitele, formularele și designul în setările de înregistrare.",
       vendor_prereq_text:
-        "element vânzători La Adaugă listă Articole Din element vânzător element? element, element element afacere element La Piata de desfacere",
-      vendor_prereq_button: "element Piata de desfacere afacere element",
+        "Doriți ca furnizorii să adauge articole de listă din panoul lor de furnizori? Mai întâi, schimbați modelul dvs. de afaceri la Marketplace.",
+      vendor_prereq_button: "Setați modelul de afaceri Marketplace",
 
       vendor_access_text:
-        "element element vânzători element Acces listă element (Articole + Companii). Permite element element Piata de desfacere Setări",
+        "Acum puteți decide dacă furnizorii pot accesa funcțiile Listare (articole + companii). Activați-l în setările Marketplace.",
       vendor_access_button: "Permite listă element vânzători",
 
       more_options_text:
@@ -11241,26 +11241,26 @@ export default {
 
     search: {
       title: "căutare Setări",
-      subtitle: "Proiecta element Clienți căutare element listă Permite element căutare element Construi Filtre Din element Personalizat formular element",
+      subtitle: "Proiectați modul în care clienții caută în înregistrarea dvs. Activați căutarea bazată pe locație și creați filtre din câmpurile de formular personalizate.",
 
       location_title: "Locație căutare",
       location_subtitle: "Permiteți clienților să aleagă o locație și să găsească rezultate din apropiere într-o rază configurabilă.",
-      location_enabled_true: "Locație Filtru element activat Clienți element căutare element element",
+      location_enabled_true: "Filtrul de locație este activat. Clienții pot căuta după distanță.",
       location_enabled_false: "Filtrul de locație este dezactivat. Rezultatele nu vor fi filtrate în funcție de distanță.",
 
       radius_default: "Mod implicit Rază (element)",
       radius_default_hint: "Folosit atunci când clientul selectează o locație, dar nu alege o rază.",
       radius_max: "maxim Rază (element)",
       radius_max_hint: "Raza vitrinei va fi fixată la această valoare.",
-      radius_options: "Rază element (element)",
-      radius_options_hint: "element element UI.",
+      radius_options: "Opțiuni de rază (km)",
+      radius_options_hint: "Aceste valori pot fi afișate ca opțiuni rapide în interfața de utilizare a magazinului.",
 
       filters_title: "căutare Filtre",
       filters_subtitle: "Adăugați filtre care citesc valori din meta-câmpurile articolului (câmpurile de formular pentru listare/categorie). Utilizați Generarea automată pentru a colecta opțiuni reale din articolele publicate.",
       no_filters: "Nu Filtre Adaugă element",
-      auto_generate: "element element",
+      auto_generate: "Opțiuni de generare automată",
 
-      filter_field: "element element",
+      filter_field: "Cheia de câmp",
       filter_label: "Eticheta",
       filter_type: "Tip",
       filter_options: "element",
@@ -11323,7 +11323,7 @@ export default {
      */
     shop_email: {
       name: [
-        "element element ",
+        "Super Savings Weekend Blast",
         "Au fost dezvăluite oferte exclusive",
         "Accesul dvs. VIP la Reduceri Premium",
         "Extravaganza de reduceri sezoniere",
@@ -11365,26 +11365,26 @@ export default {
      */
     discount_code: {
       code: [
-        "Bine ați venit10",
-        "VARA20",
-        "element30",
-        "Ziua 15",
-        "VINEREA NEAGRA",
-        "element",
-        "TRANSPORT GRATUIT",
-        "VÂNZARE FLASH",
-        "LIMITARE",
-        "MATINALA",
-        "element10",
-        "IARNA25",
-        "PRIMAVARA15",
-        "TOAMNA20",
-        "Cel mai bine vândut10",
-        "VACANTA30",
-        "element20",
-        "ZIUA MAMEI",
-        "ZIUA TATĂLUI",
-        "SFARSITUL ANULUI",
+        "WELCOME10",
+        "SUMMER20",
+        "VIPSALE30",
+        "BDAY15",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
+        "FREESHIPPING",
+        "FLASHSALE",
+        "CLEARANCE",
+        "EARLYBIRD",
+        "STUDENT10",
+        "WINTER25",
+        "SPRING15",
+        "FALL20",
+        "BESTSELLER10",
+        "HOLIDAY30",
+        "VALENTINE20",
+        "MOTHERSDAY",
+        "FATHERSDAY",
+        "ENDOFYEAR",
       ],
       title: [
         "Reducere flash: 20% reducere!",
@@ -11660,10 +11660,10 @@ export default {
      */
     partner_plan: {
       name: [
-        "Kit de inceput",
+        "Pachet de început",
         "Plan esențial",
         "Suită profesională",
-        "element element",
+        "Enterprise Edition",
         "Nivel avansat",
         "Pachet Premium",
         "Soluția supremă",
@@ -11680,7 +11680,7 @@ export default {
       name: [
         "Alimente",
         "Dispozitive electronice",
-        "Imbracaminte si imbracaminte",
+        "Îmbrăcăminte și îmbrăcăminte",
         "Cărți și articole de papetărie",
         "Produse de sănătate și frumusețe",
         "Mobila",
@@ -11703,13 +11703,13 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "element", // Provincial Sales Tax
-        "element", // Harmonized Sales Tax
-        "element", // Quebec Sales Tax
-        "element", // Central Sales Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
         "Accize", // Excise Tax
-        "Taxa de import", // Import Duty
-        "Taxă de serviciu", // Service Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
         "Taxa de lux", // Luxury Tax
       ],
     },
@@ -11766,26 +11766,26 @@ export default {
      */
     campaign: {
       name: [
-        "Cumpără până nu mai poți",
-        "element element",
-        "element Vânzare element",
+        "Cumpără până când scapi",
+        "Cart Frenzy",
+        "Flash Sale Fiesta",
         "Faceți clic pe, Cumpărați, Salvați",
         "Bonanza de chilipiruri",
-        "element element",
+        "E-Deal Extravaganza",
         "Mega Markdown Nebunie",
         "Spree de economii cibernetice",
         "Zile de reduceri digitale",
         "Carnavalul comerțului electronic",
-        "element element ",
-        "element element",
+        "Online Outlet Oasis",
+        "Retail Rush",
         "Vanzare magazin web",
-        "element element",
-        "element element ",
+        "E-Shopper's Paradise",
+        "Virtual Voucher Venture",
         "Doorbusters digitale",
         "Valoarea coșului electronic",
         "Înfruntare de cumpărături online",
         "Vânzare cibernetică spectaculoasă",
-        "element element",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11848,21 +11848,21 @@ export default {
       title: [
         "Rotiți și câștigați premii mari!",
         "Jackpotul Roata Norocului",
-        "element element ",
+        "Lucky Spin Bonanza",
         "Rotiți pentru a câștiga recompense",
         "Roata bogăției",
         "Extravaganța Loteriei Norocoase",
         "Surpriză Mega Spin",
-        "element element ",
-        "element element ",
-        "element element ",
+        "Prize Wheel Fiesta",
+        "Treasure Spin Spectacular",
+        "Spin the Wheel Magic",
         "Roata norocoasă din belșug",
         "Favoarea Norocului",
         "Roata Minunilor",
         "Rotiți pentru bogății",
         "Premiul Spinner Delight",
         "Loteria Golden Spin",
-        "element",
+        "Spin-a-Prize",
         "Roata Norocului",
         "Vitrina Lucky Spin",
         "Ultimate Spin Recompensa",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "element Acces",
-        "element element",
-        "element pachet",
-        "element element",
-        "element Abonament",
-        "element element",
-        "element element",
-        "Nelimitat Oferi",
-        "element element",
+        "Acces de bază",
+        "Abonament Premium",
+        "Pachet Aur",
+        "Planul Argint",
+        "Abonament Platină",
+        "Nivelul Enterprise",
+        "Pachet de pornire",
+        "Oferta nelimitata",
+        "Pachet de familie",
         "Suită profesională",
       ],
       description: [
-        "element element ",
-        "Acces La toate element element ",
-        "element element Prioritate A sustine",
+        "Ideal pentru persoanele care explorează elementele de bază.",
+        "Acces la toate funcțiile și conținutul premium.",
+        "Beneficii exclusive și sprijin prioritar.",
         "Un pachet echilibrat pentru utilizatorii obișnuiți.",
-        "element Acces element element ",
-        "Personalizat element element ",
-        "element element ",
+        "Acces suprem cu avantaje de top.",
+        "Soluții personalizate pentru organizații mari.",
+        "O opțiune accesibilă la nivel de intrare.",
         "Fără limite de utilizare, pentru utilizatorul cu putere.",
-        "element element , element La 4 element",
-        "element element Avansat Instrumente",
+        "Un plan special pentru familii, până la 4 membri.",
+        "Conceput pentru profesioniștii care caută instrumente avansate.",
       ],
     },
 
     spec: {
       group: [
         "Specificatii tehnice",
-        "element element",
-        "Performanţă element",
-        "element element",
-        "element element",
-        "Material element Construi element",
-        "Culoare element finalizarea element",
-        "element element ",
-        "element element ",
-        "element element ",
-        "pachet element",
-        "garanție element A sustine",
-        "Marca element element",
-        "element element",
-        "element element",
-        "element element ",
-        "element element",
-        "element element",
-        "utilizator element element Recenzii",
-        "Prețuri element element",
+        "Dimensiuni fizice",
+        "Caracteristici de performanță",
+        "Opțiuni de conectivitate",
+        "Cerințe de putere",
+        "Material și calitate de construcție",
+        "Opțiuni de culoare și finisaj",
+        "Stocare și memorie",
+        "Compatibilitatea sistemului de operare",
+        "Siguranță și conformitate",
+        "Conținutul pachetului",
+        "Garanție și suport",
+        "Marca si Producatorul",
+        "Prietenia mediului",
+        "Eficiență energetică",
+        "Îngrijire și întreținere",
+        "Opțiuni de personalizare",
+        "Accesorii incluse",
+        "Evaluări și recenzii ale utilizatorilor",
+        "Preț și disponibilitate",
       ],
     },
 
     avocado: {
       title: [
-        "Cumpărare chitanta",
-        "Vânzare element",
-        "🛍️ Comanda Factura fiscala",
-        "Plată Factura fiscala",
-        "client chitanta",
-        "Tranzacţie element",
-        "Facturare element",
-        "Verifică chitanta",
-        "🛍️ Comanda element",
-        "Cumpărare 🛍️ Comanda Factura fiscala",
-        "Vânzări chitanta",
-        "element Factura fiscala",
-        "element",
-        "serviciu Factura fiscala",
-        "Produs Factura fiscala",
-        "Plată chitanta",
+        "Chitanța de achiziție",
+        "Confirmare de vânzare",
+        "Factura de comanda",
+        "Factură de plată",
+        "Chitanța clientului",
+        "Rezumatul tranzacției",
+        "Extras de facturare",
+        "Chitanța de plată",
+        "Rezumatul comenzii",
+        "Factura pentru comanda de achizitie",
+        "Chitanța de vânzare",
+        "Factură cu amănuntul",
+        "E-Chitanță",
+        "Factura de serviciu",
+        "Factura de produs",
+        "Chitanța de plată",
         "Confirmarea comenzii",
-        "Facturare Factura fiscala",
-        "Verifică Factura fiscala",
-        "client Factura fiscala",
+        "Factura de facturare",
+        "Factură de plată",
+        "Factură client",
       ],
       message: [
-        "element element Cumpărare!",
-        "element element afacere",
-        "element 🛍️ Comanda element element !",
-        "element element ",
-        "element element La element element ",
-        "element element Prioritate",
-        "element element La element element ",
-        "element element magazin",
-        "element element Nou Cumpărare!",
-        "salva element Factura fiscala element element ",
-        "Vizita element element Mai mult. . element Produse",
-        "element Conectat element element promoții",
-        "element element client",
-        "element element La element element ",
-        "element Părere element element ",
+        "Vă mulțumim pentru achiziție!",
+        "Apreciem afacerea dvs.",
+        "Comanda ta este pe drum!",
+        "Vă mulțumim pentru cumpărături cu noi.",
+        "Aștept cu nerăbdare să vă servesc din nou.",
+        "Satisfacția dumneavoastră este prioritatea noastră principală.",
+        "Nu uitați să vă evaluați experiența.",
+        "Vă mulțumim pentru susținerea magazinului nostru.",
+        "Sperăm să vă bucurați de noua dvs. achiziție!",
+        "Salvați factura pentru referințe ulterioare.",
+        "Vizitați-ne din nou pentru mai multe produse grozave.",
+        "Rămâneți conectat pentru oferte exclusive.",
+        "Vă mulțumim că sunteți un client valoros.",
+        "Suntem aici pentru a vă ajuta dacă aveți nevoie de ajutor.",
+        "Feedbackul dvs. ne ajută să ne îmbunătățim.",
         "Beneficiați de o reducere specială la următoarea achiziție.",
-        "element element !",
-        "element element ",
-        "element element La element Părere",
-        "element element Din element element",
+        "Ai făcut o alegere grozavă!",
+        "Vă mulțumim pentru încrederea acordată în noi.",
+        "Aștept cu nerăbdare feedback-ul dvs.",
+        "Vă mulțumim din suflet din partea echipei noastre.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "element element",
-        "vânzător element",
-        "element pagina principală",
-        "element element",
-        "Sosiri noi",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "Bijuterii element",
-        "element element",
-        "element element",
+        "Vitrina proprietății",
+        "Piața vânzătorului",
+        "Case prezentate",
+        "Piața Locală",
+        "Noi Sosiri",
+        "Grădinile Estate",
+        "Cartierul comercial",
+        "Aleea Artizanilor",
+        "Imobile de lux",
+        "Hub de închiriere",
+        "Casele Deschise",
+        "Inovații tehnice",
+        "Fashion Lane",
+        "Colțul Meșteșugurilor",
+        "Food Court",
+        "Book Nook",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Zona de fitness",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "afacere element element",
-        "Impozit element element (element)",
-        "vânzător element formular",
-        "Produs element",
-        "Prețuri Listă",
-        "bancă Cont Detalii",
-        "element element abordare",
-        "element element",
-        "Companie profil",
-        "element element ",
-        "element Date foaie (element)",
-        "Produs garanție informații",
-        "Întoarcere politică",
-        "livrare element element ",
-        "client serviciu politică",
-        "element element Planuri",
-        "element element Legături",
-        "element element",
-        "element Cod element element",
-        "element element (element)",
+        "Certificat de înregistrare a afacerii",
+        "Număr de identificare fiscală (TIN)",
+        "Formular de acord cu furnizorul",
+        "Catalog de produse",
+        "Lista de prețuri",
+        "Detaliile contului bancar",
+        "Dovada adresei",
+        "Certificat de asigurare",
+        "Profilul Companiei",
+        "Certificat de asigurare a calității",
+        "Fișă cu date de securitate (FDS)",
+        "Informații despre garanția produsului",
+        "POLITICA DE RETURNARE",
+        "Proceduri de transport și manipulare",
+        "Politica de servicii pentru clienți",
+        "Planuri de marketing și promovare",
+        "Link-uri Social Media",
+        "Referințe comerciale",
+        "Codul de conduită al furnizorului",
+        "Acord de nedivulgare (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Piata de desfacere magazin Servicii element",
-        "Magazin element element",
-        "element Servicii element",
-        "element element serviciu element",
-        "element element magazin element",
-        "element element afacere element",
-        "serviciu element element Piata de desfacere element",
-        "Magazin magazin element element Servicii element",
-        "POD serviciu element element",
-        "element element ",
-        "afacere element serviciu element",
-        "element magazin magazin element",
-        "element serviciu element element",
-        "afacere element element magazin element",
-        "Personalizat Magazin magazin Servicii element",
-        "Piata de desfacere element serviciu element",
-        "element element magazin Servicii element",
-        "POD element Servicii element",
-        "element element Servicii element",
-        "afacere element serviciu element",
+        "Acord privind serviciile de configurare a pieței",
+        "Contract de configurare magazin",
+        "Acord de servicii de imprimare la cerere",
+        "Acord de servicii de marketing digital",
+        "Acord de configurare a platformei de comerț electronic",
+        "Contract de consultanta expert pentru proprietarii de afaceri",
+        "Acord de servicii pentru configurarea pieței",
+        "Contract de servicii de configurare și configurare a magazinului",
+        "Acord de furnizare a serviciilor POD",
+        "Acord de implementare a strategiei de marketing",
+        "Contract de servicii de dezvoltare a afacerii",
+        "Acord de configurare a magazinului de comerț electronic",
+        "Acord de prestare a serviciilor de expertiză",
+        "Soluții de afaceri și contract de instalare",
+        "Acord de servicii de configurare a magazinului personalizat",
+        "Acord de servicii de optimizare a pieței",
+        "Contract de servicii de consultanta si instalare",
+        "Acord de servicii de integrare POD",
+        "Contract de servicii de marketing și promovare",
+        "Acord de servicii de extindere a afacerii",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "principal Portofel",
-        "afacere Cont",
-        "element Portofel",
-        "element Portofel",
-        "element Cont",
-        "Primar Portofel",
-        "element Cont",
-        "element Portofel",
-        "Tranzacţie Portofel",
-        "element Cont",
+        "Portofelul principal",
+        "Cont de afaceri",
+        "Portofel personal",
+        "Portofel de economii",
+        "Contul de cheltuieli",
+        "Portofel principal",
+        "Contul general",
+        "Rezervați portofel",
+        "Portofel de tranzacții",
+        "Contul de fond",
       ],
     },
 
@@ -12099,38 +12099,38 @@ export default {
      */
     cashback: {
       title: [
-        "Magazin & element cashback",
-        "element element cashback",
-        "element cashback promoții",
-        "cashback element",
-        "element cashback Oferte",
-        "element cashback element",
-        "element cashback 30 de zile",
-        "cashback element element Cumpărare",
-        "cashback element",
-        "VIP cashback element",
-        "element Timp cashback",
-        "cashback element element",
-        "Magazin Mai mult. ., salva Mai mult. .",
-        "element cashback element",
-        "cashback element",
+        "Cumpărați și câștigați cashback",
+        "Recompense de loialitate Cashback",
+        "Oferte exclusive de cashback",
+        "Bonanza cashback",
+        "Oferte Instant Cashback",
+        "Economii de cashback de sezon",
+        "Zile duble de rambursare a banilor",
+        "Rambursare la fiecare achiziție",
+        "Cashback Frenez",
+        "Programul VIP Cashback",
+        "Cashback cu durată limitată",
+        "Cashback Rewards Club",
+        "Cumpărați mai mult, economisiți mai mult",
+        "Recompensele Cashback definitive",
+        "Cashback Extravaganza",
       ],
       description: [
-        "element cashback element element Cumpărare!",
-        "element element ",
-        "element cashback promoții element element ",
-        "element element cashback element",
+        "Câștigați cashback la fiecare achiziție!",
+        "Fii recompensat pentru loialitatea ta.",
+        "Oferte exclusive de cashback doar pentru tine.",
+        "Bucurați-vă de economii mari cu recompense cashback.",
         "Rambursare instantanee pentru toate articolele tale preferate.",
-        "salva Mai mult. . element element cashback Oferte",
+        "Economisiți mai mult cu oferte sezoniere de rambursare a numerarului.",
         "Dublați-vă rambursarea în zilele speciale!",
-        "element cashback element Timp element Magazin",
-        "element element cashback element Azi!",
-        "VIP element element cashback",
-        "element! element Timp cashback promoții",
-        "element element cashback element element ",
-        "element Mai mult. . element Magazin, element Mai mult. . element salva",
-        "element element cashback element",
-        "element element cashback Oferte element",
+        "Câștigați cashback de fiecare dată când faceți cumpărături.",
+        "Alăturați-vă freneziei cashback-ului astăzi!",
+        "Membrii VIP beneficiază de cashback exclusiv.",
+        "Grabă! Oferte de rambursare pe timp limitat.",
+        "Alăturați-vă clubului nostru de recompense Cashback acum.",
+        "Cu cât faci mai multe cumpărături, cu atât economisești mai mult.",
+        "Deblocați cele mai bune recompense cashback.",
+        "Experimentați cele mai bune oferte de cashback din jur.",
       ],
     },
 
@@ -12139,14 +12139,14 @@ export default {
      */
     page: {
       prompts: [
-        "Bine ați venit10 La {shop} - element element Articole",
-        "{shop} - element element serviciu",
+        "Bine ați venit la {shop} - Explorați gama noastră distinctă de articole",
+        "{shop} - Sursa ta supremă pentru mărfuri de calitate și servicii remarcabile",
         "Oferte și economii exclusive numai la {shop} - profitați de ocazie!",
         "Faceți cunoștință cu dedicația lui {shop} pentru respectarea mediului și practicile etice",
-        "Deveniți o parte a familiei {shop} - Abonați-vă la buletinul nostru informativ pentru actualizări",
-        "element element {shop}",
-        "element element toate Evenimente element {shop}",
-        "Oferte de neegalat și oferte speciale la {shop} - Acționează rapid!",
+        "Deveniți parte a familiei {shop} - Abonați-vă la buletinul nostru informativ pentru actualizări",
+        "Pătrundeți-vă în cele mai bune alegeri și bunuri cu cote înalte la {shop}",
+        "Prezentați idei și sugestii creative pentru toate evenimentele la {shop}",
+        "Oferte de neegalat și oferte speciale la {shop} - Acționați rapid!",
         "Sfaturi cuprinzătoare de cumpărare și evaluări ale produselor de la {shop} - Cumpărați cu încredere",
         "Contactați {shop} - Ne străduim să oferim o experiență de cumpărături de neegalat",
       ],
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "element element , element element !",
-        "salva element element Oferte!",
-        "element element !",
-        "element element Cumpărare, element element!",
-        "element element , Cumpără element!",
-        "element Articole, element element!",
+        "Completează-ți look-ul, ia setul!",
+        "Economisiți mult cu ofertele noastre de pachete!",
+        "Nu rata perechile noastre perfecte!",
+        "Îmbunătățiți-vă achiziția, suplimentele vă așteaptă!",
+        "Deblocați economii exclusive, cumpărați împreună!",
+        "Articole complementare, reduceri speciale!",
         "Primiți mai mult, cheltuiți mai puțin – împachetați-vă!",
-        "element Oferi: element Produse!",
-        "element element , element Oferte!",
-        "element element , salva element!",
-        "element element !",
-        "Magazin element, element element salva!",
-        "element element Valoare, element element !",
-        "element element – Magazin element!",
-        "element element Prețuri element element !",
-        "element element !",
-        "element element !",
-        "element element : element element salva!",
-        "element element !",
-        "element element Favorite element element !",
+        "Oferta pe timp limitat: produse asortate!",
+        "Îmbunătățiți-vă experiența, oferte combinate!",
+        "Descoperiți combinațiile noastre personalizate, economisiți acum!",
+        "Îmbinați-l pentru combo suprem!",
+        "Cumpărați inteligent, grupați și economisiți!",
+        "Valoarea dublată, distracția dublă!",
+        "Perechea ta perfectă este aici – cumpără acum!",
+        "Prețuri exclusive pentru pachete doar pentru tine!",
+        "Maximizați-vă economiile cu combo-urile noastre!",
+        "Îmbunătățiți-vă colecția cu aceste alegeri!",
+        "Creat pentru tine: potriviți și salvați!",
+        "Perechea perfecta pentru o zi perfecta!",
+        "Grupați-vă favoritele pentru economii suplimentare!",
       ],
     },
 
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "element element",
-        "element",
-        "element",
-        "element",
-        "Acasă element",
-        "element Produse",
-        "element element",
+        "Bunuri digitale",
+        "Cărți",
+        "Electronice",
+        "Modă",
+        "Electrocasnice",
+        "Produse de frumusețe",
+        "Echipament sportiv",
         "Jucării și jocuri",
         "Băcănii",
-        "Mobila",
+        "Mobilier",
         "Piese auto",
         "Bijuterii",
-        "element & element",
-        "Accesorii pentru animale",
-        "Papetărie",
-        "element & element",
-        "element & TV Afișează",
-        "element",
-        "element & element",
-        "element element",
+        "Sănătate și bunăstare",
+        "Rechizite pentru animale de companie",
+        "Rechizite de birou",
+        "Muzică și instrumente",
+        "Filme și emisiuni TV",
+        "Software",
+        "Artă și meșteșuguri",
+        "Echipament pentru exterior",
       ],
     },
 
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Confirmarea comenzii",
-        "🛍️ Comanda Expediat",
-        "🛍️ Comanda Livrat",
-        "Plată Primit",
-        "🛍️ Comanda element",
-        "🛍️ Comanda element element",
-        "🛍️ Comanda element element",
-        "🛍️ Comanda element element Livrare",
-        "Întoarcere element",
-        "element element",
-        "articol Înapoi element element",
+        "Comanda expediata",
+        "Comanda Livrată",
+        "Plata Primita",
+        "Comanda Anulată",
+        "Întârziere de procesare a comenzii",
+        "Comanda în așteptare",
+        "Comandați pentru livrare",
+        "Retur procesat",
+        "Rambursare emisă",
+        "Articol din nou în stoc",
       ],
       body: [
         "Bună {buyer_name}, comanda dvs. #{order_id} a fost confirmată! Îl procesăm și vă vom anunța când este gata de expediere.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "element",
-        "element element",
-        "element",
+        "Rochie",
+        "Gadget-uri digitale",
+        "Băuturi",
         "Alimente",
-        "Mobila",
-        "element",
-        "element Produse",
-        "element",
-        "element element",
-        "element",
+        "Mobilier",
+        "Cărți",
+        "Produse de frumusețe",
+        "Jucării",
+        "Echipament sportiv",
+        "Accesorii",
       ],
       description: [
         "Atribute pentru articole vestimentare, cum ar fi mărimea, culoarea și țesătura.",
         "Specificații pentru gadgeturi precum marca, modelul și funcțiile.",
         "Arome, dimensiuni și tipuri de băuturi.",
         "Detalii pentru mese, gustări și produse alimentare.",
-        "Material, element, element Proiecta element",
-        "Autor, element, element element ",
+        "Material, dimensiuni și stiluri de design.",
+        "Autor, gen și anul de publicare.",
         "Tipul de piele, ingredientele și detaliile ambalajului.",
-        "element element, element, element element ",
-        "Tip, element, element Performanţă element",
-        "element, element, element Marca Detalii",
+        "Grupa de vârstă, material și standarde de siguranță.",
+        "Tip, dimensiune și caracteristici de performanță.",
+        "Stiluri, materiale și detalii de marcă.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "element XS",
-        "element element",
-        "element element",
-        "element element",
-        "element XL",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element ",
-        "element element ", // flexible mailer
-        "element element", // bubble/padded
-        "element element", // thermal
-        "element element",
+        "Cutia XS",
+        "Caseta S",
+        "Caseta M",
+        "Caseta L",
+        "Cutia XL",
+        "Cutia XXL",
+        "Box Slim",
+        "Box Wide",
+        "Box Tall",
+        "Box Flat",
+        "Box Cube",
+        "Tub cutie",
+        "Cutie fragilă",
+        "Cutie sticle de sticla",
+        "Box Soft Pack", // flexible mailer
+        "Cutie Captusita", // bubble/padded
+        "Cutie izolata", // thermal
+        "Cutie Heavy Duty",
       ],
     },
   },

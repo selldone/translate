@@ -1725,7 +1725,7 @@ export default {
       background_is_white_msg: "Hoton yana da farin bango??",
 
       images: {
-        title: "Hotunan Hotunan samfur",
+        title: "Hotunan Hotunan Samfura",
         sub_title:
           "Loda hotunan samfur, gama gari ga duk bambance-bambancen samfur, a cikin wannan sashe.",
       },
@@ -2337,7 +2337,7 @@ export default {
         title: "Kaya",
         title_small: "Ma’aji",
         total_sell: "Jimlar tallace-tallace",
-        total_sell_today: "Yau tallace-tallace",
+        total_sell_today: "Yau Sales",
         total_sell_timespan: "Jimla Tallace-tallace betwin {start} ~ {end}",
         chart: {
           labels: ["Kaya", "Sayarwa"],
@@ -2361,7 +2361,7 @@ export default {
         product_price: "Farashin samfur",
         currency_unit: "Ƙungiyar kuɗi",
         sell_30days: "30 days tallace-tallace",
-        sell_daily: "Kullum tallace-tallace",
+        sell_daily: "Tallace-tallacen yau da kullun",
         sell_yesterday: "Jiya tallace-tallace",
       },
 
@@ -2764,7 +2764,7 @@ export default {
     listing_products_changes: "Jeri Samfura khange",
     total_vendor_products: "Jimla Mai sayarwa Samfura",
     total_products: "Jimla Samfura",
-    total_variants: "Jimla Bambance-bambance",
+    total_variants: "Jimlar bambance-bambance",
   },
 
   /** {@see BProductSpecTable} **/
@@ -4202,7 +4202,7 @@ export default {
     },
     access: {
       view_data: "Duba Bayanai",
-      apply_changes: "Ajiye canje-canje",
+      apply_changes: "Ajiye Canje-canje",
     },
     inputs: {
       email: {
@@ -4649,7 +4649,7 @@ export default {
         title: "Kalmar wucewa",
         sub_title: "Zaɓi kalmar sirri mai ƙarfi don asusunku.",
         action_title: "kalmar sirrin shiga asusu",
-        not_exist: "Ba a Shiga ba",
+        not_exist: "Ba'a Shiga ba",
         action: "Canza kalmar shiga",
       },
       phone: {
@@ -7566,7 +7566,7 @@ export default {
           "na Kuɗi sign zai zama plaked at na Ƙare of na numbers. eks: 95$ , 30€",
       },
       variants_selector: {
-        title: "Bambance-bambance selektor",
+        title: "Mai Zaɓar Bambance-bambance",
         subtitle:
           "ku kan Zaɓi different ways zuwa display Bambance-bambance on na Samfuri Shafi.",
       },
@@ -7694,7 +7694,7 @@ export default {
       },
       custom_variants: {
         true_title: "Na musamman Bambance-bambance",
-        false_title: "Tsoho Bambance-bambance",
+        false_title: "Tsoffin Bambance-bambance",
         true_description: "kustomize naku Samfuri Bambance-bambance.",
         false_description: "yi amfani da Tsoho global Bambance-bambance.",
       },
@@ -10090,7 +10090,7 @@ export default {
       title: "initial Kaya",
       subtitle: "set na Fara Kaya Ƙirga don na Sabo Bambance-bambance.",
     },
-    add_variants_action: "Ƙirƙira Bambance-bambance",
+    add_variants_action: "Ƙirƙiri Bambance-bambance",
   },
 
   /**
@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Hanya na waje",
         description: "set a Hanya zuwa an eksternal url.",
-        tips: "ku kan attakh any URL zuwa na item. when Masu amfani klik on na item on na Samfuri Shafi, they zai zama redirekted zuwa wancan Hanya.",
+        tips: "Kuna iya haɗa kowane URL zuwa abun. Lokacin da masu amfani suka danna abu akan shafin samfurin, za a tura su zuwa wannan hanyar haɗin.",
       },
       internal_link: {
         title: "internal Hanya",
@@ -11958,7 +11958,7 @@ export default {
         "khekout Rasit",
         "Oda summary",
         "Saye Oda Daftari",
-        "Tallace-tallace Rasit",
+        "Rasidin tallace-tallace",
         "retail Daftari",
         "e-rekeipt",
         "Sabis Daftari",

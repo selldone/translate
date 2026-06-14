@@ -260,7 +260,7 @@ export default {
     categories: {
       Welcome: "Cumincià",
       Setup: "magazinu",
-      Sell: "termine & termine",
+      Sell: "Sales & Marketing",
       Developer: "Sviluppà",
 
       Product: "Gestione di prudutti è categurie",
@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Canali d’acquisizione",
         subtitle:
-          "u vostru affari hè termine. termine hè u rapportu di u vostru cliente acquisizione canali.",
+          "Your business is growing. Here is the report of your customer acquisition channels.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -621,16 +621,16 @@ export default {
       },
       show_vendors: {
         false_title: "Piattà venditori",
-        false_description: "termine mostra venditore termine.",
+        false_description: "Basta mostra u pruprietariu di u venditore.",
         true_title: "Mostra venditori",
         true_description: "mostra tuttu venditori, ⌘Ctrl+1",
       },
       table_mode: {
         false_title: "Modu trascina è lascia",
         false_description:
-          "vede prudutti termine da categorie è termine.",
+          "Vede i prudutti urganizati per categurie è sottucategorie.",
         true_title: "Modu tavula",
-        true_description: "vede prudutti in unu termine tavula termine.",
+        true_description: "View products in a detailed table layout.",
       },
 
       show_notes: {
@@ -1599,24 +1599,24 @@ export default {
         "Ben cuncepitu",
         "Prestazione affidabile",
         "Assistenza Clienti Efficace",
-        "Tempu di consegna satisfacente",
-        "Descrizzione di i partiti di u produttu",
+        "Satisfactory Delivery Time",
+        "Product Matches Description",
         "Durable è longa durata",
-        "termine",
+        "Cost-Effective",
         "Imballaggio Attraente",
         "Disegnu innovativu",
         "Amichevule à l'ambiente",
-        "Istruzioni sufficienti/manuale",
+        "Sufficient Instructions/Manual",
         "Aspettate Aspettate",
         "Interfaccia user-friendly",
         "Alta efficienza",
         "Gran serviziu dopu à a vendita",
         "Funzionalità versatile",
         "Prezzi Competitivi",
-        "Disponibilità di Spare Parts/Accessori",
+        "Availability of Spare Parts/Accessories",
         "Marca di fiducia",
-        "termine à termine",
-        "Serviziu puntuale è precisu",
+        "Safe to Use",
+        "Prompt and Accurate Service",
       ],
 
       notifications: {
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Codice di u produttu: P0000...",
         spec_view_title: "Specificazioni di u pruduttu sceltu",
         spec_view_subtitle:
-          "u termine avè statu impurtà da u termine pruduttu.",
+          "E specificazioni sò state impurtate da u pruduttu sceltu.",
         set_spec_action: "Specifiche tecniche duplicate",
       },
       notifications: {
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Specifiche di u produttu salvate.",
       },
       dialog_ai: {
-        title: "automaticamente termine pruduttu termine",
+        title: "Automatically Generate Product Specifications",
         prompt: {
           title: "pruduttu termine",
           subtitle:
@@ -1701,7 +1701,7 @@ export default {
         inputs: {
           prompt: {
             label: "pruduttu dettagli",
-            placeholder: "termine u pruduttu termine...",
+            placeholder: "Descrivite u pruduttu quì...",
           },
         },
         actions: {
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "fondu descrizzione",
-            placeholder: "termine u termine fondu...",
+            placeholder: "Descrivite u fondu desideratu...",
           },
         },
         actions: {
           reimagine: {
             title: "termine novu imagine",
-            subtitle: "termine u termine imagine cù unu novu fondu.",
+            subtitle: "Reimagine the entire image with a new background.",
           },
           replace: {
-            subtitle: "termine u termine fondu.",
+            subtitle: "Sustituisce u fondu esistenti.",
           },
         },
       },
@@ -1875,11 +1875,11 @@ export default {
     menu: {
       add_bulk: {
         title: "Aghjunghje in massa",
-        subtitle: "aghjunghje termine varianti in termine azzione.",
+        subtitle: "Add multiple variants in one action.",
       },
       edit_property_set: {
         title: "Persunalizà inseme di pruprietà",
-        subtitle: "termine varianti termine, icona è ordini.",
+        subtitle: "Cambia varianti nomi, icone è ordini.",
       },
     },
   },
@@ -2006,7 +2006,7 @@ export default {
     },
     map: {
       no_map_message:
-        "termine unu locu à u venditore s’è questu unu termine venditore.",
+        "Assign a location to the vendor if it's a location-based vendor.",
     },
     page: {
       title: "persunalizatu pagina",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "spedizione",
-      subtitle: "venditori pò termine u so termine spedizione servizii è currieri.",
+      subtitle: "Vendors can setup their own shipping services and couriers.",
       shipping_services: "spedizione servizii",
       total_number_of_services:
         "u tutale termine di spedizione servizii quellu u venditore hà.",
@@ -2075,20 +2075,20 @@ export default {
     inputs: {
       slug: {
         label: "termine",
-        placeholder: "termine unu persunalizatu termine...",
+        placeholder: "Inserite una strada persunalizata...",
         hint: "Cambia a strada di a pagina di destinazione dinamica di u venditore.",
       },
       email: {
-        message: "questu email sarà termine tuttu termine è aghjurnà.",
+        message: "This email will receive all notifications and updates.",
       },
       business: {
-        false_description: "eiu termine cum’è unu termine.",
+        false_description: "U travagliu cum'è un individuu.",
         true_description: "Operu cum'è una entità cummerciale legalmente ricunnisciuta.",
         false_title: "termine",
         true_title: "affari",
       },
       bank: {
-        hint: "u termine di u banca termine u venditore hà u so contu.",
+        hint: "The name of the bank where the vendor has their account.",
         placeholder: "u vostru banca termine..",
       },
       account_name: {
@@ -2096,7 +2096,7 @@ export default {
         placeholder: "u vostru termine..",
       },
       account_number: {
-        hint: "u venditore termine contu termine.",
+        hint: "The vendor's unique account number.",
         placeholder: "u vostru banca contu termine..",
       },
       routing_number: {
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Numero di contu bancariu internaziunale): Se u bancu di u venditore hè in Europa o in certi altri paesi.",
-        placeholder: "u vostru IBAN termine.. termine. DE89 3704 0044 0000 0000 00",
+        placeholder: "U vostru numeru IBAN.. es. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Numero di contu bancariu internaziunale): Se u bancu di u venditore hè in Europa o in certi altri paesi.",
@@ -2124,7 +2124,7 @@ export default {
       access: {
         label: "venditore termine & accessu",
         true_description:
-          "u venditore hà unu dedicatu termine à aghjurnà termine è prezzu.",
+          "The vendor has a dedicated panel to update quantity and price.",
         hint: "Pudete attivà o disattivà u pannellu di u venditore, chì permette à i venditori di aghjurnà quantità è prezzi di i prudutti è riceve ordini parziali.",
         false_description: "u venditore hà nò accessu à termine.",
       },
@@ -2212,7 +2212,7 @@ export default {
     title: "etichette",
     tips: [
       "Pudete filtrà i prudutti basati nantu à e tag in <b>pagine di destinazione</b>.",
-      "voi è u vostru clienti pò circà per termine etichette in u<b>circà</b> termine.",
+      "You and your customers can search for these tags in the<b>search</b> bar.",
       "Se si stabiliscenu tags, solu i prudutti cù <b>common tags</b> seranu affissati in a sezione <b> di i prudutti </b> in a pagina di u produttu; altrimenti, i prudutti di a listessa categuria seranu affissati.",
     ],
     inputs: {
@@ -2254,7 +2254,7 @@ export default {
   product_location_profile: {
     title: "Locu",
     empty_subtitle:
-      "termine unu locu à u pruduttu s’è questu unu termine elementu.",
+      "Assignà un locu à u pruduttu s'ellu hè un articulu basatu in locu.",
     dialog: {
       header: "selezziunà locu prufilu",
       action_new_location: "Aghjunghjite un novu locu",
@@ -2275,11 +2275,11 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "termine unu lista di elementi quellu termine cù u pruduttu o serviziu pacchettu.",
+      "Includite una lista di l'articuli chì venenu cù u pacchettu di pruduttu o serviziu.",
     dialog: {
       header: "pruduttu pacchettu elementi",
       title: "inclusu elementi",
-      subtitle: "questu hè unu termine di elementi quellu termine cù u pruduttu.",
+      subtitle: "Questa hè una compilazione di l'articuli chì venenu cù u pruduttu.",
       action_manage: "gestisce elementi",
       action_disable_msg: "mercatu termine",
       select_items_tips:
@@ -2370,7 +2370,7 @@ export default {
         title: "Valutazione di u produttu",
         title_small: "Rapportu di satisfaczione di u cliente",
         total_participation: "U numeru tutale di cuntribuzioni",
-        total_participation_tooltip: "tutale termine di termine per u pruduttu.",
+        total_participation_tooltip: "Total count of raters for the product.",
         today_participation: "Oghji valutazioni",
         last7days_participation: "Cuntribuzioni di l'ultimi 7 ghjorni",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "U numeru di cuntribuzioni",
           score: "termine",
         },
-        users_not_rated_msg: "utilizatori avè micca termine questu pruduttu termine.",
+        users_not_rated_msg: "L'utilizatori ùn anu micca ancu valutatu stu pruduttu.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2455,7 +2455,7 @@ export default {
         },
         smart_unit_price: {
           tips: "Calculate u prezzu di l'unità basatu annantu à <b>weight</b>, <b>volume</b>, è <b>dimensioni di pacchettu</b>. Per disattivà sta funzione, andate à Shop> Settings> Theme> Product Page> Smart Unit Price.",
-          smart_unit_price: "termine prezzu termine",
+          smart_unit_price: "Unit Price Calculation",
         },
         quantity: {
           title: "Invintariu",
@@ -2475,7 +2475,7 @@ export default {
         image: {
           title: "variante imaghjini",
           subtitle:
-            "aghjunghje termine imaghjini per termine variante. u primu imagine caricà sarà esse u primariu imagine per quellu variante.",
+            "Add unique images for each variant. A prima maghjina caricata serà l'imaghjina primaria per quella variante.",
         },
         inputs: {
           sku: {
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "spedizione servizii dispunibule termine nantu u termine taglia è pesu.",
+      "I servizii di spedizione dispunibili dipendenu da a dimensione è u pesu furnite.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2593,15 +2593,15 @@ export default {
   product_variant_item: {
     duplicated_variant: "Sta variante esiste digià!",
     set_color_warning: "per piacè selezziunà unu culore.",
-    set_volume_warning: "per piacè termine u termine.",
-    set_pack_warning: "per piacè termine u termine taglia.",
+    set_volume_warning: "Please specify the volume.",
+    set_pack_warning: "Please specify the pack size.",
     set_weight_warning: "per piacè termine u pesu.",
     set_type_warning: "per piacè selezziunà unu termine.",
     set_style_warning: "per piacè selezziunà unu stile.",
     out_of_stock: "Attualmente fora di stock",
 
     image: {
-      tooltip: "⚡ trascina è lascia unu imagine termine à termine questu à u variante.",
+      tooltip: "⚡ Trascinate è lasciate una maghjina quì per assignà à a variante.",
     },
     enable: {
       true_tooltip: "questu elementu hè dispunibule in u in linea buttega.",
@@ -2613,7 +2613,7 @@ export default {
       action: "iè, risturà avà",
     },
     notifications: {
-      restore_variant_success: "u pruduttu variante termine cun successu termine.",
+      restore_variant_success: "The product variant was successfully restored.",
     },
   },
 
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "buttega termine",
     subtitle: "lista di tuttu prudutti in buttega.",
-    cant_set_here: "termine imposta termine",
+    cant_set_here: "Can't set here",
 
     search_input: "Ricerca di produttu...",
     search_input_title: "Ricerca trà i prudutti di a tenda",
@@ -2718,9 +2718,9 @@ export default {
     title: "termine azzioni > prezzu",
     message:
       "A quantità seguente s'applicà in percentuale à u prezzu di tutti i prudutti in a vostra tenda. Inoltre, i valori di u prezzu calculatu seranu cunvertiti in modu intelligente à u numeru tondu più vicinu basatu nantu à a valuta scelta. Attenti à inserisce i valori.",
-    check: "eiu termine prezzu termine.",
+    check: "Aghju appruvatu i cambiamenti di prezzu.",
     check_description:
-      "u prezzu sarà esse termine per u selezziunatu categoria è tuttu termine.",
+      "U prezzu serà cambiatu per a categuria scelta è tutte e sottocategorie.",
     add_percent_tab: "aghjunghje termine",
     add_constant_tab: "aghjunghje termine",
     ending_tab: "fine termine",
@@ -2753,7 +2753,7 @@ export default {
     },
 
     category: {
-      subtitle: "limitu termine azzione à unu categoria è tuttu termine.",
+      subtitle: "Limite l'azzione di massa à una categuria è tutte e sottocategorie.",
     },
     vendor: {
       subtitle:
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Salvà automaticamente",
-    auto_save_input_message: "termine sarà esse termine automaticamente.",
+    auto_save_input_message: "I cambiamenti seranu salvati automaticamente.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "termine modu",
-          true_description: "voi pò imposta termine cunfigurazione termine.",
+          true_description: "Pudete stabilisce a cunfigurazione di u gateway manualmente.",
 
           false_title: "automaticu termine",
           false_description:
@@ -2952,7 +2952,7 @@ export default {
       links_overview: "Panoramica di i ligami di a campagna",
       orders: "Ordini",
       performance: "Prestazione di a campagna",
-      links_funnel: "termine ligame termine",
+      links_funnel: "Campaign links Performance",
       no_links:
         "Ùn ci hè micca dati dispunibili! Per piacè create un ligame per a vostra campagna.",
       social: "I media suciali guidanu",
@@ -3161,7 +3161,7 @@ export default {
         spec: {
           message:
             "Lista di e funziunalità chì vulete esse mostratu in a seccione di filtru",
-          placeholder: "selezziunà termine à mostra in termine...",
+          placeholder: "Selezziunà e specìfiche per vede in u filtru...",
         },
       },
     },
@@ -3333,11 +3333,11 @@ export default {
       options: {
         title: "opzioni",
         subtitle:
-          "s’è voi vulete à annullà u vostru ordine termine, voi pò termine questu opzione.",
+          "Se vulete annullà immediatamente u vostru ordine, pudete aduprà sta opzione.",
       },
 
       express_input: {
-        true_title: "termine | annullà ordine termine",
+        true_title: "Express | Cancella l'Ordine Immediatamente",
         false_title: "termine | annullà ordine dopu 48 ore",
         true_description:
           "Questa opzione annulerà immediatamente u vostru ordine è aghjurnà l'inventariu subitu.",
@@ -3658,7 +3658,7 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "infurmazione",
-    subtitle: "termine di pagamentu termine cunfigurazione è statu.",
+    subtitle: "Panoramica di a cunfigurazione è u statutu di a porta di pagamentu.",
     status: "statu",
     cod_transportation: "termine spedizione",
     cod_transportations_error:
@@ -3695,7 +3695,7 @@ export default {
       title: "termine azzioni",
       subtitle:
         "Facendu questi passi, avete da cumincià à riceve pagamenti reali da i vostri clienti.",
-      action_enable: "termine à termine questu",
+      action_enable: "Cliccate per attivà",
       make_live_enable: "termine à in diretta questu",
     },
   },
@@ -3708,7 +3708,7 @@ export default {
     status_title: "pagamentu serviziu statu",
     status_message:
       "Configurate u metudu di pagamentu cum'è Attivu o Inattivu. Solu i metudi stabiliti cum'è attivi seranu visualizati à i clienti.",
-    status_true_description: "u vostru clienti pò termine cù questu pagamentu termine.",
+    status_true_description: "I vostri clienti ponu pagà cù stu metudu di pagamentu.",
 
     manual_title: "manuale / automaticu termine pagamentu",
     manual_message:
@@ -3726,7 +3726,7 @@ export default {
       success_delete: "pagamentu termine hà statu sguassatu!",
     },
     debug: {
-      title: "termine & termine",
+      title: "Sviluppà è Testa",
       subtitle: "Pudete attivà u modu di debug per pruvà a porta di pagamentu.",
     },
 
@@ -3746,20 +3746,20 @@ export default {
     hold_only_for: "termine pagamentu solu dispunibule per",
     manual_input: {
       false_description:
-        "u pagamentu statu sarà esse termine automaticamente da in attesa à cunfirmà in u pagamentu fornitore termine.",
+        "U statutu di pagamentu serà cambiatu automaticamente da pendente à cunfirmatu in u sistema di fornitore di pagamentu.",
       false_title: "automaticu pagamentu termine",
-      true_title: "termine pagamenti è manuale termine",
+      true_title: "Hold payments and Manual confirmation",
       true_description:
         "Pigliate un pagamentu per avè bisognu di verificà i pagamenti per un ordine per cambià u so statutu da pendente à cunfirmatu in u sistema di fornitore di pagamentu.",
     },
     delete_verify_input: {
       true_title: "eiu vulete à caccià questu pagamentu termine.",
       true_description:
-        "questu pagamentu termine sarà esse termine da u buttega è sarà micca esse dispunibule à clienti.",
+        "Stu metudu di pagamentu serà eliminatu da a tenda è ùn serà micca dispunibule per i clienti.",
     },
     delete_alert: {
       title: "sguassà pagamentu termine",
-      message: "sò voi termine sguassà questu pagamentu termine da u vostru buttega?",
+      message: "Sò sicuru di sguassà stu metudu di pagamentu da a vostra buttrega?",
       action: "sguassà pagamentu termine",
     },
   },
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Sposta a categuria <b>{category}</b> à una altra categuria",
     move_product: "Sposta u pruduttu <b>{product}</b> à a categuria",
     load_more_products:
-      "più prudutti sò dispunibule in questu categoria. termine à termine più elementi.",
+      "More products are available in this category. Click to load more items.",
     product_menu: {
       dashboard: "pruduttu pannellu",
       inventory: "Inventariu è Varianti",
@@ -4070,7 +4070,7 @@ export default {
 
     filter_box: {
       no_root_filter_message: "Avete prudutti in root, ma senza filtru.",
-      has_root_filter_message: "voi imposta termine per termine categoria.",
+      has_root_filter_message: "Avete stabilitu filtri per a categuria di root.",
       set_filter_message: "voi pò imposta termine.",
       edit_action: "Edite i filtri Root",
       clear_action: "Clear Root Filters",
@@ -4081,13 +4081,13 @@ export default {
     menu: {
       select_all_products: "selezziunà tuttu prudutti",
       unselect: "termine",
-      sort_categories: "termine / termine categorie",
+      sort_categories: "Arrange / Sort Categories",
       subscription_vendor_not_support_message:
         "Ùn pò micca assignà u venditore per i prudutti di abbunamentu! I prudutti di abbunamentu deve sempre avè un venditore cum'è u so pruprietariu!",
       vendor_owner_not_assignable_message:
-        "pò micca termine unu venditore per prudutti cù unu venditore cum’è questu termine!",
+        "Ùn pò micca assignà un venditore per i prudutti cù un venditore cum'è u so pruprietariu!",
       category_assign_profile: "termine prufilu à prudutti in u categoria",
-      category_assign_profile_subtitle: "tassa, spedizione, termine, termine,...",
+      category_assign_profile_subtitle: "Tax, Shipping, Guide, Warranty,...",
       bulk_discount: "termine scontu",
       bulk_discount_subtitle: "applicà scontu nantu tuttu prudutti.",
     },
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "lascia termine / CSV schedariu termine.",
+      title: "Drop Excel / CSV file here.",
       select_file: "selezziunà schedariu",
       max_file: "massimu schedariu taglia: 20termine",
       download_sample: "scaricà campione",
@@ -4267,10 +4267,10 @@ export default {
     inputs: {
       note: {
         message: "questu visibile à u venditore.",
-        placeholder: "voi pò termine unu nota termine...",
+        placeholder: "Pudete aghjunghje una nota quì...",
       },
       amount: {
-        error_message: "u termine quantità hà statu termine.",
+        error_message: "A quantità restante hè stata superata.",
       },
     },
   },
@@ -4284,7 +4284,7 @@ export default {
     refund_order_action: "rimborsu ordine",
     automatic_payout_list: {
       subtitle:
-        "questu hè unu lista di automaticu pagamenti à u vostru termine banca contu. per piacè nota quellu solu automaticu pagamenti sarà esse mostratu termine, è manuale pagamenti sarà micca esse mostratu.",
+        "Questa hè una lista di pagamentu automaticu à u vostru contu bancariu cunnessu. Per piacè nutate chì solu i pagamenti automatichi seranu affissati quì, è i pagamenti manuali ùn saranu micca mostrati.",
     },
     reversal_transfer_action: "Trasferimentu inversu",
   },
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "In questa sezione, pudete vede a cronologia di l'avvenimenti ligati à l'ordine, u cumplimentu, u pagamentu è i so stati rispettivi. Inoltre, pudete osservà l'ordini spediti sia à i clienti sia à i venditori.",
-    add_note_subtitle: "scrittura unu messaghju è termine u vostru termine.",
+    add_note_subtitle: "Scrivite un missaghju è menziona i vostri culleghi.",
 
     message_input: "Scrivite un missaghju quì...",
     pin_action: "Pin in cima",
@@ -4904,7 +4904,7 @@ export default {
     },
     "backoffice:finance:read": {
       name: "termine contu accessu",
-      description: "lettura termine contu dettagli è termine.",
+      description: "Leghjite i dettagli di u contu finanziariu è e statistiche.",
     },
     "backoffice:page:write": {
       name: "pagina gestione",
@@ -4984,7 +4984,7 @@ export default {
     },
     "backoffice:lottery:read": {
       name: "termine accessu",
-      description: "lettura termine dettagli è termine.",
+      description: "Leghjite i dettagli di a lotteria è e statistiche.",
     },
     "backoffice:community:write": {
       name: "termine gestione",
@@ -4992,7 +4992,7 @@ export default {
     },
     "backoffice:community:read": {
       name: "termine accessu",
-      description: "lettura termine dettagli è termine.",
+      description: "Leghjite i dettagli di a cumunità è e statistiche.",
     },
     "backoffice:customer:write": {
       name: "cliente gestione",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "termine accessu",
-      description: "lettura termine dettagli è termine.",
+      description: "Read ribbon details and statistics.",
     },
     "backoffice:ai:write": {
       name: "AI gestione",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "termine accessu",
-      description: "lettura termine dettagli è termine.",
+      description: "Leghjite i dettagli di u token è e statistiche.",
     },
     "selldone:token:write": {
       name: "termine gestione",
@@ -5070,7 +5070,7 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "termine accessu",
-      description: "lettura termine dettagli è termine.",
+      description: "Leghjite i dettagli di monetizazione è statistiche.",
     },
     "selldone:monetization:write": {
       name: "termine gestione",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "termine",
-      description: "accessu à termine è buttega gestione termine.",
+      description: "Accessu à e funzioni di gestione di backoffice è magazzini.",
     },
     storefront: {
       title: "termine",
@@ -5826,13 +5826,13 @@ export default {
     },
     drop_shipping: {
       subtitle:
-        "termine prudutti in u termine mercatu è aghjunghje elli à u vostru buttega.",
+        "Truvate prudutti in u mercatu grossista è aghjunghje à a vostra tenda.",
     },
     by_connect: {
       subtitle:
         "Aghjunghjite facilmente i prudutti da i fornitori POD o dropshipping cù Selldone Connect OS - basta à cunnette u vostru magazinu è gode di l'integrazione automatica di i prudutti, senza bisognu di plugins.",
     },
-    your_license_is_not_eligible: "u vostru termine hè micca termine.",
+    your_license_is_not_eligible: "A vostra licenza ùn hè micca eligibile.",
     sku_dialog: {
       title: "aghjunghje pruduttu da SKU",
       subtitle:
@@ -5920,7 +5920,7 @@ export default {
       domain_not_approved_msg: "U duminiu ùn hè ancu statu appruvatu!",
       domain_is_not_enable_msg: "u duminiu hè micca attivatu!",
       domain_is_linked_to_other_affiliate_msg:
-        "questu duminiu hè termine ligame à termine affiliatu!",
+        "Stu duminiu hè digià ligatu à un altru affilatu!",
     },
 
     set_users_first_message: "per piacè imposta u utilizatore primu!",
@@ -5948,7 +5948,7 @@ export default {
           "Calculate utilizendu una cumminazione di cumissioni fissi è percentuale.",
         true_description:
           "Calculate utilizendu e cumissioni specifiche di u produttu stabilite in a tabulazione di i prezzi.",
-        false_title: "termine + termine cumissione",
+        false_title: "Cummissione fissa + percentuale",
         true_title: "termine cumissione",
       },
       user: {
@@ -5956,16 +5956,16 @@ export default {
         message: "Opzionale, per esempiu, nome di affiliazione in Selldone",
       },
       web: {
-        placeholder: "opziunale, termine.termine., affiliate-web.com",
+        placeholder: "Opcional, per esempiu, affiliate-web.com",
       },
       address: {
-        placeholder: "opziunale, termine.termine., 1200 POX, NY, USA",
+        placeholder: "Opzionale, per esempiu, 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "opziunale, termine.termine., 001-808-210354",
+        placeholder: "Opcional, per esempiu, 001-808-210354",
       },
       bank: {
-        placeholder: "opziunale, termine.termine., Arstra banca, nò: 10002-325-800-845213",
+        placeholder: "Opcional, per esempiu, Arstra Bank, No: 10002-325-800-845213",
       },
       domain: {
         placeholder: "selezziunà unu duminiu... (opziunale)",
@@ -6183,7 +6183,7 @@ export default {
       },
       design: {
         subtitle:
-          "voi pò imposta unu titulu è descrizzione per termine scontu codice. termine dettagli sarà esse mostratu à u utilizatore.",
+          "Pudete stabilisce un titulu è una descrizzione per ogni codice di sconto. These details will be displayed to the user.",
       },
       cluster: {
         subtitle:
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "In questa sezione, pudete stabilisce u numeru massimu di usi per cuponu è a quantità di scontu più altu chì ogni cuponu pò furnisce.",
-      zero_message: "termine: termine hè nò limitu!",
+      zero_message: "zero: ùn ci hè micca limite!",
     },
     duration: {
       subtitle:
@@ -6347,7 +6347,7 @@ export default {
         "Associendu stu cuponu cù un cluster, pudete facilmente gestisce cù altre risorse in un locu unicu.",
     },
     preview: {
-      subtitle: "termine u publicu termine di u cuponu.",
+      subtitle: "Eccu l'anteprima publica di u cuponu.",
     },
   },
 
@@ -6425,7 +6425,7 @@ export default {
         "Cumincià à creà un affare intelligente stabilendu u so titulu, a descrizzione è u statutu di dispunibilità publica.",
     },
     limit: {
-      subtitle: "imposta u massimu termine limitu per questu offerta in questu termine.",
+      subtitle: "Stabilite u limitu massimu di usu per questa offerta in questa sezione.",
     },
     duration: {
       subtitle:
@@ -6438,7 +6438,7 @@ export default {
     discounted_products: {
       title: "scontu prudutti",
       subtitle:
-        "voi pò termine u prudutti à termine questu offerta sarà applicà unu scontu.",
+        "Pudete specificà i prudutti à quale questa offerta applicà un scontu.",
     },
     cluster: {
       subtitle:
@@ -6618,7 +6618,7 @@ export default {
     },
     design: {
       subtitle:
-        "termine, voi avè u opzione à sceglie unu imagine è culore per u termine.",
+        "Quì, avete l'opzione di sceglie una maghjina è culore per u premiu.",
     },
     constraints: {
       subtitle: "Specificate i criteri è e limitazioni per vincite stu premiu.",
@@ -6630,7 +6630,7 @@ export default {
     },
     product_input: {
       label: "pruduttu termine",
-      message: "selezziunà unu pruduttu per termine (hè termine)",
+      message: "Sceglite un pruduttu per u premiu (hè liberu)",
     },
   },
 
@@ -7104,10 +7104,10 @@ export default {
       "Abilita u trasportu per i venditori in u Shop> Tabulazione Logistica per ogni metudu individualmente.",
     transportation_available_tooltip: "questu opzione hè dispunibule per venditori.",
     transportation_not_available_tooltip:
-      "micca dispunibule per venditori! voi pò termine questu in u termine impostazioni.",
+      "Not available for vendors! Pudete attivà in i paràmetri di trasportu.",
     panel: {
       title: "venditore termine",
-      subtitle: "termine u vostru venditori termine u vostru persunalizatu duminiu.",
+      subtitle: "Onboard your vendors through your custom domain.",
     },
     documents: {
       title: "documenti",
@@ -7120,19 +7120,19 @@ export default {
         false_description:
           "U mercatu hè disattivatu, disattivendu tutte e funziunalità di u mercatu.",
         true_description:
-          "u mercatu hè attivu, termine tuttu mercatu termine.",
+          "U mercatu hè attivu, chì permette tutte e funziunalità di u mercatu.",
       },
       product: {
         label: "aghjunghje novu pruduttu",
         true_title: "venditori pò aghjunghje prudutti",
         false_description:
-          "voi aghjunghje prudutti è termine venditori. venditori pò solu gestisce prezzu è termine.",
+          "You add products and assign vendors. Vendors can only manage price and inventory.",
         true_description:
           "I venditori ponu aghjunghje è gestisce i so prudutti direttamente in u so pannellu di venditore.",
       },
       need_verify: {
         label: "Flussu di verificazione di u produttu",
-        false_description: "novu venditore prudutti termine in diretta termine.",
+        false_description: "I novi prudutti di venditori sò in diretta istantaneamente.",
         false_title: "nò termine necessariu",
         true_description:
           "I novi prudutti di i venditori necessitanu appruvazioni prima di andà in diretta nantu à u mercatu.",
@@ -7144,7 +7144,7 @@ export default {
         false_description:
           "voi aghjunghje categorie. venditori pò solu aghjunghje prudutti à termine categorie.",
         true_description:
-          "venditori pò aghjunghje è gestisce categorie termine in u so venditore termine.",
+          "I venditori ponu aghjunghje è gestisce categurie direttamente in u so pannellu di venditore.",
       },
       shipping: {
         label: "spedizione opzioni",
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Titulu",
-          placeholder: "termine unu titulu per u documentu termine.",
+          placeholder: "Inserite un titulu per a dumanda di documentu.",
         },
         guide: {
           label: "termine (opziunale)",
@@ -7264,7 +7264,7 @@ export default {
         "Invia un documentu per verificà l'indirizzu di l'affari, cum'è una fattura di utilità, fattura fiscale, o accordu di affittu.",
     },
     Contract: {
-      title: "termine & termine",
+      title: "Cuntratti è Accordi",
       description:
         "Caricate cuntratti o accordi chì detallanu i termini è e cundizioni di e vostre relazioni cummerciale.",
     },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Quandu cunnette i servizii di pagamentu cum'è Stripe Connect, ritruvemu è mostremu u saldo dispunibule in u vostru contu Stripe per riferimentu.",
     with_balance: "cù saldo",
-    without_balance: "termine saldo - termine modu",
+    without_balance: "Senza Balance - Modu veloce",
     bank_transfer: {
       title: "banca trasferimentu",
       subtitle:
@@ -7432,7 +7432,7 @@ export default {
   quota_importer: {
     quota: "termine",
     max_batch_msg: "U numeru massimu di articuli chì pudete impurtà in un unicu batch.",
-    max_daily_limit_msg: "massimu termine di elementi voi pò impurtà in unu termine.",
+    max_daily_limit_msg: "U numeru massimu di articuli chì pudete impurtà in un ghjornu.",
     extra_daily_limit_msg: "Articuli supplementari permessi oltre u limitu di ogni ghjornu.",
     add_items_today_msg: "elementi aghjunghje oghje.",
     file_statistic_msg: "termine per questu schedariu.",
@@ -7460,7 +7460,7 @@ export default {
     marketing: "Marketing & Publicità",
     product: "Introduzione di u produttu",
     health: "Salute & Fitness",
-    food: "termine & termine",
+    food: "Food & Fruits",
     house: "Immubiliare & Casa",
     device: "Macchina è dispusitivu",
     car: "termine",
@@ -7583,7 +7583,7 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "termine & termine",
+      title: "Onboarding & Login",
       subtitle:
         "Personalizà l'imbarcu di u venditore è l'esperienza di login cù un video, una maghjina o un messagiu persunalizati.",
     },
@@ -7622,7 +7622,7 @@ export default {
       },
       font_res: {
         label: "font termine",
-        message: "termine u font termine.",
+        message: "Specificate a risorsa di font.",
       },
     },
   },
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "termine unu titulu per pruprietà imposta...",
       },
       description: {
-        placeholder: "termine unu termine descrizzione... (opziunale)",
+        placeholder: "Inserite una breve descrizione... (opzionale)",
       },
       custom_variants: {
         true_title: "persunalizatu varianti",
         false_title: "predefinitu varianti",
         true_description: "termine u vostru pruduttu varianti.",
-        false_description: "termine predefinitu termine varianti.",
+        false_description: "Aduprate varianti globale predeterminate.",
       },
     },
   },
@@ -7798,7 +7798,7 @@ export default {
   /** {@see BPageShopChannelBots**/
   shop_bots: {
     not_set: "Micca stabilitu!",
-    tokens: "termine(termine)",
+    tokens: "Token(s)",
     webhook: "Webhook",
     calls: "Chjama",
     dialog: {
@@ -7833,7 +7833,7 @@ export default {
       "Per aghjunghje un cliente à a vostra tenda, furnite un indirizzu email o un numeru di telefunu.",
     more: {
       title: "Aggiungi più dettagli",
-      subtitle: "imposta valuta, cliente termine, termine, indirizzu è più.",
+      subtitle: "Stabilite a valuta, u club di i clienti, i segmenti, l'indirizzu è più.",
     },
     detail: {
       subtitle:
@@ -8041,13 +8041,13 @@ export default {
             "Un codice internaziunale utilizatu per identificà i banche in u mondu, in particulare per i trasferimenti internaziunali.",
         },
         iban: {
-          label: "IBAN (termine banca contu termine)",
+          label: "IBAN (Numeru di contu bancariu internaziunale)",
           message:
             "Adupratu principarmenti in Europa, l'IBAN hè un sistema d'accordu internaziunale per identificà i cunti bancari attraversu e fruntiere naziunali.",
         },
         contact: {
           label: "Informazioni di cuntattu",
-          message: "telefunu termine o email indirizzu termine cù u contu.",
+          message: "Numeru di telefunu o indirizzu email assuciatu cù u contu.",
         },
         note: {
           label: "Nota",
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "termine",
-    subtitle: "termine accessu à affari termine.",
+    subtitle: "Spread access to business opportunities.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8528,7 +8528,7 @@ export default {
       valid_message: "voi pò creà persunalizatu SMS messaghju.",
       provider_not_enable_message: "u SMS fornitore hè micca attivatu!",
       need_custom_provider_message:
-        "termine SMS messaghju solu termine s’è voi imposta unu persunalizatu fornitore.",
+        "I missaghji SMS persunalizati funzionanu solu s'è avete stabilitu un fornitore persunalizatu.",
       add_new: "aghjunghje novu",
       disable_reason: {
         set_provider: "imposta u vostru fornitore primu!",
@@ -8650,7 +8650,7 @@ export default {
     all: {
       title: "OPT + ordine termine",
       description:
-        "termine messaghju è ordine termine sarà esse mandatu.",
+        "I missaghji di autentificazione è a notificazione di l'ordine seranu mandati.",
     },
     otp: {
       title: "OTP solu",
@@ -8684,8 +8684,8 @@ export default {
       "Cunnette u vostru fornitore di serviziu di mail per mandà email via u vostru duminiu persunalizatu.",
     provider: "fornitore",
     enable_input: {
-      false_description: "u vostru email sarà esse mandatu termine u vostru termine duminiu.",
-      true_description: "u vostru email sarà esse mandatu termine u vostru persunalizatu termine duminiu.",
+      false_description: "I vostri email seranu mandati via u vostru duminiu myselldone.",
+      true_description: "I vostri email seranu mandati via u vostru duminiu di mail persunalizata.",
     },
     config: {
       title: "cunfigurazione",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "termine unu termine email",
+      send_test_email: "Mandate un email di prova",
     },
 
     messages: {
@@ -8980,7 +8980,7 @@ export default {
       description:
         "I clienti ponu cumprà stu pruduttu solu in u paese specificatu è u codice postale, per via di a restrizione di locu stabilita.",
     },
-    zip_pin_code: "termine / termine codice",
+    zip_pin_code: "Codici Zip / Pin",
     no_country_selected_error:
       "Per piacè include almenu un paese cù una lista di codici zip / pin. Senza ellu, stu pruduttu ùn serà micca dispunibule.",
     tips: "Cliccate nantu à u buttone <b> + Add Country</b> per inizià a creazione di un novu locu. Una volta finitu, pudete salvà clicchendu nantu à <b>⋮ Menu</b> in cima à destra è selezziunate <b>Save Profile</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Per piacè inserisci un nome per salvà stu gruppu di locu. Stu set di locu salvate pò esse appiicatu à altri prudutti, chì permette una carica rapida di locu cun un solu clic. Se un prufilu cù u nome furnitu esiste digià, serà aghjurnatu cù questi novi valori.",
       title_input: {
         title: "prufilu titulu",
-        placeholder: "unu categoria termine, o buttega termine,...",
+        placeholder: "A category name, or store name,...",
       },
     },
     load_profile_dialog: {
@@ -9032,7 +9032,7 @@ export default {
 
     notification: {
       title: "Notificazione",
-      subtitle: "termine novu ordini termine.",
+      subtitle: "Get new orders notification.",
     },
     order: {
       title: "Ordini",
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "I prudutti",
-      subtitle: "termine gestione è pruduttu termine.",
+      subtitle: "Inventory management and product plain.",
     },
   },
 
@@ -9600,7 +9600,7 @@ export default {
       test: {
         false_title: "termine tuttu",
         false_desc: "termine tuttu dispunibule prudutti, categorie, clienti.",
-        true_title: "limitu (termine per termine)",
+        true_title: "Limited (Recommended for beginners)",
         true_desc:
           "Ottene max 5 prudutti, categurie è clienti. Pudete turnà à u modu pienu in u Connect> Setting in ogni mumentu.",
       },
@@ -9622,11 +9622,11 @@ export default {
       },
       enable: {
         label: "Connect statu",
-        true_desc: "termine è ordini sarà esse termine.",
+        true_desc: "L'inventariu è l'ordine seranu sincronizati.",
       },
       confirm: {
         label: "automaticu cunfirmà ordini",
-        false_desc: "voi termine cunfirmà ordine termine.",
+        false_desc: "You should confirm order manually.",
         true_desc:
           "Ordini cù pagamentu in diretta seranu appruvati automaticamente. Ordini cù pagamentu di debug ùn anu micca appruvatu automaticamente.",
         tips: "Ordini pagati per carta di rigalu o COD o gateway di pagamentu in u modu di debug sò eccezzioni è ùn saranu micca cunfirmati automaticamente.",
@@ -9644,7 +9644,7 @@ export default {
       },
 
       remove: {
-        verify: "eiu termine à caccià questu termine.",
+        verify: "Aghju verificatu per sguassà sta cunnessione.",
         action: "caccià termine",
       },
     },
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "automaticu cunfirmà",
       shipping: "spedizione",
       syncing_now: "termine avà!",
-      sync_not_started: "termine hà micca principiu termine!",
+      sync_not_started: "A sincronia ùn hè ancu iniziata!",
     },
   },
 
@@ -9676,7 +9676,7 @@ export default {
     },
     Dropshipping: {
       title: "termine",
-      desc: "termine prudutti, categorie, è ordini. u termine caccià prudutti dopu u utilizatore caccià u serviziu.",
+      desc: "Get products, categories, and orders. U sistema elimina i prudutti dopu chì l'utilizatori sguassate u serviziu.",
     },
     Marketplace: {
       title: "Mercatu",
@@ -9684,7 +9684,7 @@ export default {
     },
     Accounting: {
       title: "Contabilità",
-      desc: "termine ordini è termine infurmazione.",
+      desc: "Send orders and financial information.",
     },
     Other: {
       title: "termine",
@@ -9762,7 +9762,7 @@ export default {
     menu: {
       open_post: {
         title: "apre termine",
-        subtitle: "vede è mudificà termine in u termine.",
+        subtitle: "Vede è edità post in a cumunità.",
       },
       spam: {
         title: "rapportu & caccià termine",
@@ -9815,7 +9815,7 @@ export default {
         title:
           "Prima di ligà Selldone cù Google Search Console, assicuratevi di e seguenti:",
         add_in_selldone: "aghjunghje, termine, è imposta cum’è primariu u vostru persunalizatu duminiu.",
-        add_in_google: "aghjunghje è termine <b>{domain}</b> in u vostru<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google circà termine</b></a>.",
+        add_in_google: "Aghjunghjite è verificate <b>{domain}</b> in u vostru<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a>.",
       },
       action_custom_domain: "persunalizatu duminiu",
       action_connect_now: "Cunnette ora",
@@ -9829,13 +9829,13 @@ export default {
   cashback: {
     add_new: "aghjunghje novu rimborsu",
     title: "rimborsu termine",
-    boosted: "termine (2termine)",
+    boosted: "Boost (2x)",
     min_purchase: "minimu termine",
     only_first_order: "solu primu ordine",
     total_cashback: "tutale rimborsu",
     delete_alert: {
       title: "sguassà rimborsu termine",
-      message: "sò voi termine à sguassà questu rimborsu termine?",
+      message: "Sò sicuru di sguassà stu prugramma di cashback?",
       action: "Iè, Elimina avà",
     },
     notifications: {
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "rimborsu termine",
-      message: "termine u rimborsu termine da 1% à 20%.",
+      message: "Inserite u percentualità di cashback da 1% à 20%.",
     },
     currency_input: {
-      message: "u rimborsu termine sarà esse dispunibule termine per questu valuta.",
+      message: "U prugramma di cashback serà dispunibule solu per questa valuta.",
     },
     limit_input: {
       title: "Limitu",
       hint: "termine u massimu quantità di rimborsu.",
-      zero_message: "termine 0 per termine rimborsu.",
+      zero_message: "Inserite 0 per cashback illimitatu.",
     },
     duration: {
       title: "durata limitu",
@@ -9926,7 +9926,7 @@ export default {
       title: "Descrizzione",
     },
     constraints: {
-      subtitle: "imposta u termine per u rimborsu termine.",
+      subtitle: "Set the constraints for the cashback program.",
     },
     min_purchase_input: {
       hint: "Inserite a quantità minima di compra per u prugramma di cashback.",
@@ -9935,7 +9935,7 @@ export default {
     only_first_buy_input: {
       false_desc: "u rimborsu termine sarà esse dispunibule per tuttu ordini.",
       true_desc:
-        "u rimborsu termine sarà esse dispunibule termine per u primu ordine.",
+        "U prugramma di cashback serà dispunibule solu per u primu ordine.",
       true_title: "solu primu ordine",
       false_title: "tuttu ordini",
     },
@@ -9958,13 +9958,13 @@ export default {
       edit: "rimborsu termine aghjurnatu cun successu.",
     },
     enable_input: {
-      true_msg: "u rimborsu termine hè attivu è clienti pò termine questu.",
+      true_msg: "U prugramma di cashback hè attivu è i clienti ponu aduprà.",
       false_msg:
-        "u rimborsu termine hè inattivu è clienti pò micca termine questu.",
+        "U prugramma di cashback hè inattivu è i clienti ùn ponu micca aduprà.",
     },
     boosted_input: {
       false_title: "Normale",
-      true_title: "termine (2termine rimborsu)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "U prugramma di cashback hè in modu di spinta è i clienti riceveranu 2x cashback.",
       false_msg:
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "termine rimborsu",
       description:
-        "eiu cunfirmà quellu u rimborsu quantità hè termine è eiu vulete à termine.",
+        "Cunfirmu chì a quantità di rimborsu hè curretta è vogliu cuntinuà.",
     },
     action: "rimborsu avà",
   },
@@ -10133,7 +10133,7 @@ export default {
     health: {
       title: "pruduttu termine",
       available_in_stock_msg: "pruduttu hè dispunibule in termine.",
-      out_of_stock_msg: "pruduttu hè termine di termine.",
+      out_of_stock_msg: "Product is out of stock.",
       file_count_msg:
         "{files_count} schedarii cù tutale {files_size} caricà per questu pruduttu.",
       no_file_uploaded_msg: "nò schedariu hà statu caricà termine.",
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "termine schedarii",
       subtitle:
-        "termine, nò schedarii avè statu caricà per questu pruduttu. per piacè caricà schedarii à termine.",
+        "Attualmente, nisun schedariu hè statu caricatu per stu pruduttu. Please upload files to proceed.",
       manage_files: "gestisce schedarii",
     },
 
@@ -10169,9 +10169,9 @@ export default {
       listing_pricing_msg: "lista prezzi:",
       has_valuation_msg: "pruduttu hà termine.",
       subscription_pricing_msg:
-        "questu pruduttu hà {count} termine prezzi termine.",
+        "Stu pruduttu hà piani di prezzu di abbonamentu {count}.",
       has_no_subscription_pricing_msg:
-        "questu pruduttu hà nò termine prezzi termine.",
+        "Stu pruduttu ùn hà micca piani di prezzu di abbonamentu.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10187,7 +10187,7 @@ export default {
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "termine locu termine ● {status}",
+      title: "Restrizzione di u locu di vendita ● {status}",
       status: {
         has_restriction: "dispunibule in {count} paesi",
         no_restriction: "micca termine",
@@ -10195,7 +10195,7 @@ export default {
       available_countries_msg:
         "Shopping in u mondu limitatu à {count} paesi. Questi paesi sò {countries}.",
       disable_for_all_countries_msg:
-        "termine hè disattivatu per tuttu paesi in u vostru buttega > lochi termine.",
+        "A shopping hè disattivata per tutti i paesi in a vostra buttrega> paràmetri di locu.",
       location_is_not_in_permitted_shop_locations_msg:
         "Avete stabilitu {country} cum'è locu di vendita, ma in u livellu di a tenda ùn permettenu micca stu paese. Per piacè verificate i vostri paràmetri di u livellu di a tenda.",
       shop_locations: "buttega lochi",
@@ -10284,7 +10284,7 @@ export default {
       title: "aghjunghje persunale & accessu",
       subtitle:
         "Tutti l'utilizatori cù accessu à u persunale ponu accede à u vostru dashboard è vede l'infurmazioni finanziarii. Per aghjunghje utilizatori cù accessu limitatu, definisce Role.",
-      go_to_roles: "termine à termine",
+      go_to_roles: "Andate à Roles",
     },
     access: {
       customization_tips:
@@ -10357,7 +10357,7 @@ export default {
     search_tips: {
       title: "circà termine",
       normal:
-        "<b>termine circà:</b>circà da titulu, MPN, SKU, termine, o etichette.",
+        "<b>Ricerca generale: </b>Ricerca per Titulu, MPN, SKU, Brand, o Tags.",
       product:
         "<b>ID Esattu di u Produttu: </b>Use P+ID di u Produttu per truvà un pruduttu specificu, per esempiu, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
@@ -10421,7 +10421,7 @@ export default {
 
       language_input: "Lingua attuale di l'articulu",
       delete_article: "sguassà termine",
-      menu_tooltip: "automaticu termine / sguassà termine",
+      menu_tooltip: "Auto translate / Delete article",
     },
     translate_to: "termine à",
     notifications: {
@@ -10429,7 +10429,7 @@ export default {
         message: "A traduzzione di l'articulu hè finita cù successu.",
       },
       save_article: {
-        message: "termine hà statu termine cun successu.",
+        message: "Article has been saved successfully.",
       },
       delete_article: {
         message: "termine hà statu sguassatu cun successu.",
@@ -10456,12 +10456,12 @@ export default {
     inputs: {
       name: {
         message:
-          "questu termine mostra à voi è sarà micca esse termine à u publicu.",
+          "Stu nome vi mostra è ùn serà micca revelatu à u publicu.",
       },
       accept_delete: {
         true_description:
           "questu azzione sarà caccià tuttu termine è prufili ligame.",
-        true_title: "eiu termine à caccià questu termine.",
+        true_title: "Aghju verificatu per sguassà sta cunnessione.",
       },
     },
     actions: {
@@ -10487,13 +10487,13 @@ export default {
       article: {
         title: "Articulu",
         subtitle:
-          "voi pò aghjunghje più termine dopu termine questu logistica prufilu.",
+          "Pudete aghjunghje più lingue dopu à creà stu prufilu logisticu.",
       },
       inputs: {
         name: {
           message:
-            "questu termine mostra à voi è sarà micca esse termine à u publicu.",
-          placeholder: "termine unu termine per u prufilu...",
+            "Stu nome vi mostra è ùn serà micca revelatu à u publicu.",
+          placeholder: "Enter a name for the profile...",
         },
       },
     },
@@ -10543,7 +10543,7 @@ export default {
         hint: "Aduprate stu codice per simplificà u prucessu di ricerca per truvà l'articuli.",
       },
       description: {
-        placeholder: "unu termine descrizzione termine questu elementu...",
+        placeholder: "A short description about this item...",
         hint: "A descrizzione serà aduprata per u SEO è forse visibile à l'utilizatori nantu à certi layout persunalizati in a pagina di u produttu.",
       },
       image: {
@@ -10600,8 +10600,8 @@ export default {
   referral_wallets: {
     title: "Portafogli",
     subtitle:
-      "termine voi pò vede u cumissione tariffe voi avè termine. voi pò trasferimentu u vostru cumissione tariffe à u vostru banca contu o u vostru Selldone portafogliu.",
-    no_commission_yet: "voi avè micca ricevutu termine cumissione termine.",
+      "Quì pudete vede i tariffi di cumissioni chì avete guadagnatu. Pudete trasfiriri i vostri tariffi di cumissioni à u vostru contu bancariu o a vostra billetera Selldone.",
+    no_commission_yet: "You have not received any commission yet.",
     no_wallet: "nò portafogliu!",
 
     withdraw_dialog: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "u vostru termine hà statu cun successu ricevutu, è noi sarà termine questu.",
+        "A vostra dumanda hè stata ricevuta cù successu, è a revisaremu.",
     },
   },
 
@@ -10648,7 +10648,7 @@ export default {
       message: "Pudete aghjunghje <b>?ref={code}</b> à qualsiasi url selldone.",
     },
     intro: {
-      title: "termine u Selldone affiliatu termine",
+      title: "Join the Selldone Affiliate Program",
       message:
         "U prugramma di affiliazione di Selldone hè simplice è direttu, pensatu per voi per guadagnà senza sforzu. Condividi u vostru ligame affilatu unicu per invità novi utilizatori à Selldone, è guadagnerete una cumissioni da ogni transazzione chì facenu - per sempre. Questu include i guadagni da abbonamenti, tariffi di serviziu, aghjurnamenti di buttreghi, è tutti l'altri flussi di rivenuti. Cumincià à guadagnà una parte di i rivenuti senza limiti di tempu o guadagnu. Unisciti à noi è trasfurmà a vostra reta in un ingressu stabile!",
       why_join_selldone_affiliate: "Perchè hè questa una opportunità unica?",
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "nò termine caricà termine.",
+    no_asset_uploaded: "Nisun attivu caricatu ancu.",
   },
 
   /**
@@ -10723,9 +10723,9 @@ export default {
       ctrl_1:
         "Diminuisce a dimensione di fonti di u testu sceltu | <small>Fate mi chjucu</small>",
       ctrl_2: "Aumentà a dimensione di fonti di u testu sceltu | <big>Fà mi grande</big>",
-      ctrl_r: "caccià tuttu termine da selezziunatu testu | termine tuttu stile",
+      ctrl_r: "Remove all formatting from selected text | Pulite tutti i stili",
       ctrl_s: "salvà u pagina",
-      tab: "termine trà termine modu",
+      tab: "Switch between scale modes",
       ctrl_e: "Attivà o disattivà u modu di stile di clone",
     },
   },
@@ -10762,7 +10762,7 @@ export default {
           message: "Adupratu per circà è categurizà elementi.",
         },
         section: {
-          message: "cupia u termine da u pagina termine.",
+          message: "Copy the section from the page builder.",
         },
       },
     },
@@ -10798,15 +10798,15 @@ export default {
     access_tooltip: {
       title: "termine accessu",
       subtitle:
-        "u venditore hà accessu à u so termine. voi pò mudificà questu in venditore > accessu termine.",
+        "The vendor has access to their panel. You can edit this in Vendor > Access tab.",
     },
     reject_by_user_tooltip: {
       title: "ricusà da utilizatore",
       subtitle:
-        "u utilizatore ricusà u termine à termine unu venditore è accessu questu venditore.",
+        "L'utilizatore hà rifiutatu a dumanda di diventà un venditore è accede à questu venditore.",
     },
     download_all_vendors: "scaricà tuttu venditori",
-    bulk_import: "termine impurtà (termine)",
+    bulk_import: "Importazione in massa (Excel)",
   },
 
   /**
@@ -10932,7 +10932,7 @@ export default {
     add_action: "aghjunghje scatula",
     subtitle:
       "Crea dimensioni di scatuli riutilizzabili per accelerà l'acquistu di l'etichetta è assicurà e tassi di spedizione precisi. Quandu cumpiendu un ordine, selezziunate una casella salvata è e so dimensioni si riempie automaticamente.",
-    empty: "nò scatule termine. termine “aghjunghje scatula”.",
+    empty: "No boxes yet. Click “Add box”.",
     edit: "mudificà scatula",
     new: "novu scatula",
     default_weight: "predefinitu pesu",
@@ -10988,7 +10988,7 @@ export default {
 
       empty_title: "nò elementi termine",
       empty_subtitle:
-        "creà u vostru primu lista elementu à principiu termine u vostru termine.",
+        "Crea u vostru primu articulu di lista per cumincià à custruisce u vostru annuariu.",
 
       add_title: "aghjunghje elementu",
       edit_title: "mudificà elementu",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Add Category",
       edit_title: "Edita categuria",
 
-      parent_filter: "termine da termine",
+      parent_filter: "Filter by parent",
       parent: "categuria parenti",
 
       price_format: "prezzu termine",
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "termine",
       moderation_mode: "termine modu",
-      require_first_approved_before_more: "termine primu termine prima più",
+      require_first_approved_before_more: "Require first approval before more",
 
       limits_title: "Limiti",
-      max_pending_per_user: "termine in attesa termine utilizatore",
-      max_items_per_user: "termine elementi termine utilizatore",
+      max_pending_per_user: "Max pending per user",
+      max_items_per_user: "Max items per user",
       limits_hint: "limiti termine",
 
       templates_title: "mudelli",
@@ -11070,7 +11070,7 @@ export default {
         "Quandu l'utilizatori sottumettenu novi articuli, appariscenu quì per a moderazione.",
 
       review_title: "termine elementu",
-      approve_publish: "termine & termine",
+      approve_publish: "Approve & publish",
 
       submitted_at: "termine",
       quick_actions: "termine azzioni",
@@ -11183,7 +11183,7 @@ export default {
 
       delete_title: "sguassà cumpagnia",
       delete_message:
-        "sguassà questu cumpagnia? elementi termine questu sarà automaticamente termine u cumpagnia ligame.",
+        "Delete this company? L'articuli chì l'utilizanu perderanu automaticamente u ligame di a cumpagnia.",
     },
 
 
@@ -11206,10 +11206,10 @@ export default {
       reply_hint: "Scrivite una risposta à l'utilizatore. Pudete ancu marcà u missaghju cum'è leghje / spam da l'azzioni.",
 
       mark_read: "termine cum’è lettura",
-      mark_unread: "termine cum’è termine",
+      mark_unread: "Mark as unread",
       archive: "termine",
       unarchive: "termine",
-      mark_spam: "termine cum’è termine",
+      mark_spam: "Marca cum'è spam",
       mark_not_spam: "micca termine",
 
       delete_confirm: "sguassà questu messaghju?",
@@ -11219,7 +11219,7 @@ export default {
       title: "lista",
       subtitle: "Attivà o disattivà a vostra pagina di lista publica. Quandu hè attivatu per a prima volta, Selldone creà automaticamente a cunfigurazione di a lista.",
       true_description: "lista hè attivatu. clienti pò termine lista pagine.",
-      false_description: "lista hè disattivatu. u lista pagine è termine sò termine.",
+      false_description: "Listing is disabled. E pagine di elencu è e sottomissioni sò bluccati.",
       open_listing: "apre lista",
       note: "Pudete più tardi cunfigurà a moderazione, i limiti, e forme è u disignu in i paràmetri di Lista.",
       vendor_prereq_text:
@@ -11248,23 +11248,23 @@ export default {
       location_enabled_true: "locu termine hè attivatu. clienti pò circà da distanza.",
       location_enabled_false: "U filtru di locu hè disattivatu. I risultati ùn saranu micca filtrati per distanza.",
 
-      radius_default: "predefinitu termine (termine)",
+      radius_default: "Ràu predefinitu (km)",
       radius_default_hint: "Adupratu quandu u cliente sceglie un locu ma ùn sceglie micca un raghju.",
-      radius_max: "massimu termine (termine)",
+      radius_max: "Radiu massimu (km)",
       radius_max_hint: "U raghju di u magazinu serà clampatu à stu valore.",
-      radius_options: "termine opzioni (termine)",
+      radius_options: "Opzioni di raggiu (km)",
       radius_options_hint: "Questi valori ponu esse dimustrati cum'è opzioni veloci in l'UI di a tenda.",
 
       filters_title: "circà termine",
       filters_subtitle: "Aghjunghjite filtri chì leghjenu i valori da i campi meta di l'elementu (a vostra lista / campi di forma di categuria). Aduprate Auto-generazione per cullà l'opzioni reali da l'articuli publicati.",
-      no_filters: "nò termine aghjunghje termine.",
+      no_filters: "Nisun filtru aghjuntu ancu.",
       auto_generate: "termine opzioni",
 
       filter_field: "campu chjave",
       filter_label: "Etichetta",
       filter_type: "Tipu",
       filter_options: "opzioni",
-      filter_options_hint: "per selezziunà termine, opzioni pò esse manuale o termine.",
+      filter_options_hint: "Per i filtri selezziunati, l'opzioni ponu esse manuali o generati.",
       multiple: "termine",
       single: "termine",
       kv_mode: "chjave/termine modu",
@@ -11365,26 +11365,26 @@ export default {
      */
     discount_code: {
       code: [
-        "BENVENU 10",
-        "ESTATE 20",
-        "VIPSALE 30",
+        "WELCOME10",
+        "SUMMER20",
+        "VIPSALE30",
         "BDAY15",
-        "termine",
-        "termine",
-        "ARRICATA GRATISI",
-        "VENDITA FLASH",
-        "termine",
-        "termine",
-        "STUDENTE10",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
+        "FREESHIPPING",
+        "FLASHSALE",
+        "CLEARANCE",
+        "EARLYBIRD",
+        "STUDENT10",
         "WINTER25",
-        "PRIMAVERA15",
+        "SPRING15",
         "FALL20",
-        "BEST seller 10",
-        "VACANZA 30",
-        "VALENTINE 20",
-        "FATA DI MAMMA",
-        "FATHERDAY",
-        "termine",
+        "BESTSELLER10",
+        "HOLIDAY30",
+        "VALENTINE20",
+        "MOTHERSDAY",
+        "FATHERSDAY",
+        "ENDOFYEAR",
       ],
       title: [
         "Vendita Flash: 20% di sconto!",
@@ -11526,17 +11526,17 @@ export default {
         "Una Piccola Surpresa",
         "Fate u vostru ghjornu",
         "Eccu à tè",
-        "termine u termine",
+        "Spread the Joy",
         "Un rigalu d'amore",
         "Cumprate cù Delight",
         "Un token di ringraziu",
-        "U tempu di Splurge",
-        "Gustate u mumentu",
-        "Truvate i vostri Preferiti",
-        "A Scelta hè Vostra",
+        "Time to Splurge",
+        "Savor the Moment",
+        "Find Your Favorites",
+        "The Choice is Yours",
         "Esprimi sè stessu",
-        "Scopre a Magia",
-        "Scacciate u vostru Stile",
+        "Discover the Magic",
+        "Unleash Your Style",
       ],
     },
 
@@ -11573,11 +11573,11 @@ export default {
         "Prutezzione di a pace di a mente di 36 mesi",
       ],
       pros_name: [
-        "Efficienza aumentata",
+        "Efficiency Enhanced",
         "Soluzione Cust-Efficace",
         "Qualità assicurata",
-        "termine",
-        "termine",
+        "User-Friendly",
+        "Time-Saver",
         "Affidabilità Garantita",
         "Usu versatile",
         "Tecnulugia di punta",
@@ -11850,7 +11850,7 @@ export default {
         "Fortune Wheel Jackpot",
         "Lucky Spin Bonanza",
         "Spin to Win Rewards",
-        "Rota di ricchezza",
+        "Wheel of Wealth",
         "Lucky Lottery Extravaganza",
         "Mega Spin Surprise",
         "Prize Wheel Fiesta",
@@ -11858,11 +11858,11 @@ export default {
         "Spin the Wheel Magic",
         "Lucky Wheel Galore",
         "Favore di Fortuna",
-        "termine di termine",
-        "termine per termine",
+        "Wheel of Wonders",
+        "Spin for Riches",
         "Prize Spinner Delight",
         "Lotteria Golden Spin",
-        "termine",
+        "Spin-a-Prize",
         "Rota di Fortune",
         "Lucky Spin Showcase",
         "Ultimate Spin Reward",
@@ -11896,14 +11896,14 @@ export default {
      */
     subscription_price: {
       title: [
-        "termine accessu",
+        "Accessu basi",
         "Adesione Premium",
-        "termine pacchettu",
+        "Pacchettu d'oru",
         "Pianu d'argentu",
         "Abbonamentu Platinum",
         "Livellu di l'impresa",
         "Starter Bundle",
-        "termine offerta",
+        "Offerta illimitata",
         "Pacchettu Famiglia",
         "Suite prufessiunale",
       ],
@@ -11911,11 +11911,11 @@ export default {
         "Ideale per e persone chì esploranu i principii.",
         "Accessu à tutte e funzioni premium è cuntenutu.",
         "Beneficii esclusivi è sustegnu prioritariu.",
-        "unu termine pacchettu per termine utilizatori.",
+        "Un pacchettu equilibratu per l'utilizatori regularmente.",
         "Accessu ultimu cù vantaghji di primu livellu.",
         "Soluzioni persunalizati per grandi urganisazioni.",
         "Una opzione di livellu d'entrata accessibile.",
-        "nò limiti nantu termine, per u termine utilizatore.",
+        "Nisun limite à l'usu, per l'utilizatori di putere.",
         "Un pianu speciale per famiglie, finu à 4 membri.",
         "Cuncepitu per i prufessiunali chì cercanu strumenti avanzati.",
       ],
@@ -11926,53 +11926,53 @@ export default {
         "Specificazioni tecniche",
         "Dimensioni fisiche",
         "Funzioni di rendiment",
-        "termine opzioni",
+        "Connectivity Options",
         "Requisiti di putenza",
         "Materiale è Qualità di Custruzzione",
-        "culore è termine opzioni",
-        "termine è termine",
+        "Color and Finish Options",
+        "Storage è Memoria",
         "Cumpatibilità di u Sistema Operativu",
-        "termine è termine",
-        "pacchettu termine",
-        "termine è termine",
-        "termine è termine",
+        "Sicurezza è Conformità",
+        "Package Contents",
+        "Garanzia è Supportu",
+        "Marca è Produttore",
         "Amichevule ambientale",
         "Efficienza energetica",
-        "termine è termine",
-        "termine opzioni",
-        "inclusu termine",
-        "utilizatore termine è termine",
-        "prezzi è termine",
+        "Cura è Mantenimentu",
+        "Opzioni di persunalizazione",
+        "Included Accessories",
+        "Valutazione di l'utilizatori è recensioni",
+        "Pricing and Availability",
       ],
     },
 
     avocado: {
       title: [
-        "termine ricevuta",
+        "Purchase Receipt",
         "Cunfirmazione di vendita",
-        "ordine fattura",
-        "pagamentu fattura",
-        "cliente ricevuta",
-        "transazzione termine",
+        "Order Invoice",
+        "Payment Invoice",
+        "Customer Receipt",
+        "Transaction Summary",
         "Dichjarazione di fattura",
-        "termine ricevuta",
-        "ordine termine",
-        "termine ordine fattura",
-        "termine ricevuta",
-        "termine fattura",
-        "termine",
-        "serviziu fattura",
-        "pruduttu fattura",
-        "pagamentu ricevuta",
-        "Cunfirmazione di l'ordine",
-        "termine fattura",
-        "termine fattura",
-        "cliente fattura",
+        "Checkout Receipt",
+        "Order Summary",
+        "Purchase Order Invoice",
+        "Sales Receipt",
+        "Retail Invoice",
+        "E-Receipt",
+        "Service Invoice",
+        "Product Invoice",
+        "Payment Receipt",
+        "Order Confirmation",
+        "Billing Invoice",
+        "Checkout Invoice",
+        "Customer Invoice",
       ],
       message: [
-        "termine voi per u vostru termine!",
-        "noi termine u vostru affari.",
-        "u vostru ordine hè nantu questu termine!",
+        "Grazie per a vostra compra!",
+        "Apprezzemu a vostra attività.",
+        "U vostru ordine hè in strada!",
         "Grazie per cumprà cun noi.",
         "In attesa di serve di novu.",
         "A vostra satisfaczione hè a nostra prima priorità.",
@@ -11982,7 +11982,7 @@ export default {
         "Salvà a vostra fattura per riferimentu futuru.",
         "Visitaci di novu per più prudutti grandi.",
         "Resta cunnessu per offerte esclusive.",
-        "termine voi per esse unu termine cliente.",
+        "Grazie per esse un cliente stimatu.",
         "Semu quì per aiutà se avete bisognu di assistenza.",
         "I vostri feedback ci aiutanu à migliurà.",
         "Prufittate di un scontu speciale nantu à a vostra prossima compra.",
@@ -11998,17 +11998,17 @@ export default {
      */
     map_tag: {
       title: [
-        "pruprietà termine",
-        "venditore termine",
-        "termine casa",
+        "Property Showcase",
+        "Vendor Plaza",
+        "Featured Homes",
         "Mercatu Locale",
-        "Novi Arrivati",
+        "New Arrivals",
         "Giardini Estate",
         "Quartiere shopping",
         "Strada Artigiana",
         "Estate di lussu",
         "Hub di affittu",
-        "apre termine",
+        "Open Houses",
         "L'innovazioni tecnologiche",
         "Strada di moda",
         "Cornu di l'artighjanu",
@@ -12027,23 +12027,23 @@ export default {
       title: [
         "Certificatu di registrazione di l'impresa",
         "Numero d'identificazione fiscale (TIN)",
-        "venditore termine furmulariu",
-        "pruduttu termine",
-        "prezzi lista",
-        "banca contu dettagli",
-        "termine di indirizzu",
+        "Vendor Agreement Form",
+        "Product Catalog",
+        "Pricing List",
+        "Bank Account Details",
+        "Proof of Address",
         "Certificatu d'Assicuranza",
-        "cumpagnia prufilu",
+        "Profilu di a cumpagnia",
         "Certificatu di Assicuranza di Qualità",
-        "termine dati fogliu (SDS)",
-        "pruduttu termine infurmazione",
-        "ritornu termine",
+        "Safety Data Sheet (SDS)",
+        "Product Warranty Information",
+        "Pulitica di ritornu",
         "Prucedure di spedizione è manipolazione",
-        "cliente serviziu termine",
+        "Customer Service Policy",
         "Piani di marketing è di prumuzione",
         "Ligami per i Social Media",
         "Referenze cummerciale",
-        "termine codice di termine",
+        "Codice di Conducta di u Fornitore",
         "Accordu di non-divulgazione (NDA)",
       ],
     },
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "mercatu termine servizii termine",
-        "buttega cunfigurazione termine",
-        "termine servizii termine",
+        "Accordu di servizii di installazione di u mercatu",
+        "Shop Configuration Contract",
+        "Accordu di servizii di stampa à a dumanda",
         "Accordu di serviziu di marketing digitale",
         "Accordu di installazione di a piattaforma di e-commerce",
         "Cuntrattu di cunsulenza esperta per i pruprietarii di l'imprese",
-        "serviziu termine per mercatu cunfigurazione",
-        "buttega termine è cunfigurazione servizii termine",
+        "Service Agreement for Marketplace Configuration",
+        "Cuntrattu di servizii di installazione è cunfigurazione di a tenda",
         "Accordu di Prestazione di Serviziu POD",
         "Accordu di Implementazione di Strategia di Marketing",
-        "affari termine serviziu termine",
+        "Cuntrattu di serviziu di sviluppu cummerciale",
         "Accordu di installazione di a tenda di e-commerce",
         "Accordu di Prestazione di Serviziu Expert",
         "Soluzioni cummerciale è cuntrattu di stallazione",
-        "persunalizatu buttega termine servizii termine",
-        "mercatu termine serviziu termine",
+        "Accordu di servizii di installazione di Custom Shop",
+        "Accordu di serviziu di ottimizzazione di u mercatu",
         "Cuntrattu di servizii di cunsulenza è installazione",
-        "POD termine servizii termine",
+        "Accordu di servizii di integrazione POD",
         "Cuntrattu di servizii di marketing è di prumuzione",
-        "affari termine serviziu termine",
+        "Business Expansion Service Agreement",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "principale portafogliu",
-        "affari contu",
-        "termine portafogliu",
-        "termine portafogliu",
-        "termine contu",
-        "primariu portafogliu",
-        "termine contu",
-        "termine portafogliu",
-        "transazzione portafogliu",
-        "termine contu",
+        "Main Wallet",
+        "Business Account",
+        "Personal Wallet",
+        "Savings Wallet",
+        "Expense Account",
+        "Primary Wallet",
+        "General Account",
+        "Reserve Wallet",
+        "Transaction Wallet",
+        "Cuntu di u Fondu",
       ],
     },
 
@@ -12099,36 +12099,36 @@ export default {
      */
     cashback: {
       title: [
-        "buttega & termine rimborsu",
+        "Cumprate è Guadagnate Cashback",
         "Ricompense di fideltà Cashback",
-        "termine rimborsu offerta",
-        "rimborsu termine",
-        "termine rimborsu termine",
-        "termine rimborsu termine",
-        "termine rimborsu ghjorni",
+        "Exclusive Cashback Offers",
+        "Cashback Bonanza",
+        "Offerte Instant Cashback",
+        "Risparmi di Cashback di stagione",
+        "Double Cashback Days",
         "Cashback per ogni compra",
-        "rimborsu termine",
-        "VIP rimborsu termine",
-        "limitu tempu rimborsu",
+        "Cashback Frenzy",
+        "Programma VIP Cashback",
+        "Cashback à tempu limitatu",
         "Cashback Rewards Club",
-        "buttega più, salvà più",
-        "termine rimborsu termine",
-        "rimborsu termine",
+        "Cumprate di più, risparmiate di più",
+        "Ultimate Cashback Rewards",
+        "Cashback Extravaganza",
       ],
       description: [
         "Guadagnà cashback nantu à ogni compra!",
         "Fate ricumpensa per a vostra lealtà.",
-        "termine rimborsu offerta termine per voi.",
+        "Exclusive cashback offers just for you.",
         "Prufittate grandi risparmi cù ricumpensa di cashback.",
-        "termine rimborsu nantu tuttu u vostru termine elementi.",
-        "salvà più cù termine rimborsu termine.",
-        "termine u vostru rimborsu nantu termine ghjorni!",
-        "termine rimborsu termine tempu voi buttega.",
-        "termine u rimborsu termine oghje!",
+        "Cashback istantaneu nantu à tutti i vostri articuli preferiti.",
+        "Risparmiate di più cù offerte di cashback di stagione.",
+        "Duppiate u vostru cashback in ghjorni speciali!",
+        "Earn cashback every time you shop.",
+        "Join the cashback frenzy today!",
         "I membri VIP godenu di cashback esclusivi.",
-        "termine! limitu tempu rimborsu offerta.",
+        "Prestu! Limited time cashback offers.",
         "Unisciti à u nostru Cashback Rewards Club avà.",
-        "u più voi buttega, u più voi salvà.",
+        "The more you shop, the more you save.",
         "Sbloccate l'ultime ricompense di cashback.",
         "Pruvate e migliori offerte di cashback intornu.",
       ],
@@ -12162,19 +12162,19 @@ export default {
         "Ùn mancate micca i nostri accoppiamenti perfetti!",
         "Migliora a vostra compra, add-ons aspetta!",
         "Sbloccate u risparmiu exclusivu, cumprà inseme!",
-        "termine elementi, termine scontu!",
+        "Complementary items, special discounts!",
         "Ottene di più, spende menu - bundle!",
-        "termine offerta: termine prudutti!",
+        "Limited-time offer: matched products!",
         "Aghjurnate a vostra sperienza, offerte combo!",
         "Scopri i nostri combo curati, risparmia ora!",
         "Accoppiate per u combo definitivu!",
-        "buttega termine, termine è salvà!",
+        "Shop smart, bundle and save!",
         "Doppiu u valore, doppia u divertimentu!",
         "A vostra partita perfetta hè quì - cumprà avà!",
         "Prezzi di bundle esclusivi solu per voi!",
         "Massimizà u vostru risparmiu cù i nostri combos!",
         "Migliora a vostra cullezzione cù queste scelte!",
-        "termine per voi: termine è salvà!",
+        "Curatu per voi: abbinate è salvate!",
         "U paru perfettu per un ghjornu perfettu!",
         "Unisci i vostri preferiti per un risparmiu extra!",
       ],
@@ -12186,24 +12186,24 @@ export default {
     vendor_pricing: {
       title: [
         "Beni digitale",
-        "termine",
-        "termine",
-        "termine",
-        "casa termine",
-        "termine prudutti",
+        "Libri",
+        "Elettronica",
+        "Moda",
+        "Apparecchi di casa",
+        "Prodotti di bellezza",
         "Equipamentu sportiu",
         "Ghjochi è ghjochi",
         "Alimenti",
         "Mobili",
         "Parts di l'automobile",
         "gioielli",
-        "termine & termine",
+        "Salute è Benessere",
         "Forniture per animali",
         "Forniture d'uffiziu",
-        "termine & termine",
-        "termine & TV mostra",
-        "termine",
-        "termine & termine",
+        "Musica è Strumenti",
+        "Filmi è Programmi TV",
+        "Software",
+        "Arti è Mestieri",
         "Attrezzatura outdoor",
       ],
     },
@@ -12213,17 +12213,17 @@ export default {
      */
     template_message: {
       title: [
-        "Cunfirmazione di l'ordine",
-        "ordine termine",
-        "ordine termine",
-        "pagamentu ricevutu",
-        "ordine termine",
+        "Order Confirmation",
+        "Ordine speditu",
+        "Ordine consegnatu",
+        "Pagamentu ricevutu",
+        "Ordine annullatu",
         "Ritardo di Trattamentu di l'Ordine",
-        "ordine nantu termine",
-        "ordine termine per consegna",
-        "ritornu termine",
-        "rimborsu termine",
-        "elementu termine in termine",
+        "Ordine in attesa",
+        "Ordine per a consegna",
+        "Ritornu processatu",
+        "Rimborsu Emessu",
+        "Articulu torna in Stock",
       ],
       body: [
         "Salute {buyer_name}, u vostru ordine #{order_id} hè statu cunfirmatu ! U trattemu è vi avvisemu quandu hè prontu à spedinu.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "termine",
+        "Vestitu",
         "Gadgets digitale",
-        "termine",
+        "Beie",
         "Alimenti",
         "Mobili",
-        "termine",
-        "termine prudutti",
-        "termine",
+        "Libri",
+        "Prodotti di bellezza",
+        "Ghjochi",
         "Equipamentu sportiu",
-        "termine",
+        "Accessori",
       ],
       description: [
         "Attributi per l'articuli di vestiti cum'è taglia, culore è tela.",
         "Specificazioni per i gadgets cum'è marca, mudellu è funzioni.",
         "Sapori, dimensioni è tipi di bevande.",
         "Dettagli per pasti, snacks è prudutti alimentari.",
-        "Material, termine, è disegnu stile.",
+        "Material, dimensions, and design styles.",
         "Auteur, genre et année de publication.",
         "Tipu di pelle, ingredienti è dettagli di imballaggio.",
         "Gruppu d'età, materiale è norme di sicurezza.",
         "Funzioni di tipu, dimensione è prestazione.",
-        "stile, termine, è termine dettagli.",
+        "Stili, materiali è dettagli di marca.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "scatula XS",
-        "scatula S",
-        "scatula M",
-        "scatula L",
-        "scatula XL",
-        "scatula XXL",
-        "scatula termine",
-        "scatula termine",
-        "scatula termine",
-        "scatula termine",
-        "scatula termine",
-        "scatula termine",
-        "scatula termine",
+        "Scatola XS",
+        "Box S",
+        "Box M",
+        "Box L",
+        "Scatola XL",
+        "Scatola XXL",
+        "Box Slim",
+        "Box Wide",
+        "Box Tall",
+        "Box Flat",
+        "Box Cube",
+        "Box Tube",
+        "Scatola Fragile",
         "Scatola di Bottiglie di Vetru",
         "Box Soft Pack", // flexible mailer
-        "scatula termine", // bubble/padded
-        "scatula termine", // thermal
-        "scatula termine",
+        "Scatola imbottita", // bubble/padded
+        "Scatola isolata", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

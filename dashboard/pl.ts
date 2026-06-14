@@ -31,8 +31,8 @@ export default {
     main_domain: "główna Domena",
     domains: "Domeny",
     home_page: "Dom strona",
-    google_icon_font_sample: "Google element element",
-    fontawesome_icon_font_sample: "Fontawesome (element) element",
+    google_icon_font_sample: "Próbka czcionki Google",
+    fontawesome_icon_font_sample: "Próbka Fontawesome (V6).",
   },
 
   numbers: {
@@ -96,7 +96,7 @@ export default {
     },
     upscale: {
       title: "zwiększ rozdzielczość",
-      subtitle: "zwiększ element rozdzielczość element element Obraz",
+      subtitle: "Zwiększ rozdzielczość obrazu.",
     },
   },
 
@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Zaawansowane opcje",
       menu_advanced_options_description:
-        "Connect Google arkusz, Usunąć element Produkty element Więcej. .",
+        "Połącz arkusz Google, usuń zduplikowane produkty i nie tylko...",
 
       products_rss: {
         title: "RSS produktów",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API produktów",
-        subtitle: "Importuj Produkty element element API element",
+        subtitle: "Import produktów poprzez publicznie dostępne wywołanie API.",
       },
       google_sheet: {
         action: "połączony arkusz",
@@ -630,12 +630,12 @@ export default {
         false_description:
           "Przeglądaj produkty uporządkowane według kategorii i podkategorii.",
         true_title: "Tryb tabeli",
-        true_description: "Pogląd Produkty element element ",
+        true_description: "Przeglądaj produkty w szczegółowym układzie tabeli.",
       },
 
       show_notes: {
         false_title: "Ukryj element",
-        false_description: "Ukryj element element",
+        false_description: "Ukryj puste notatki.",
         true_title: "Pokaż element",
         true_description: "Pokaż wszystko element, ⌘Ctrl+2",
       },
@@ -860,9 +860,9 @@ export default {
         subtitle:
           "Możesz wdrożyć ograniczenia, aby mieć pewność, że tylko klienci znajdujący się w wyznaczonych obszarach wysyłki będą mogli robić u Ciebie zakupy!",
         no_enable_shipping_error:
-          "nie element element Kupić Od element element nie włączone Wysyłka metoda!",
+          "Nikt nie może od Ciebie kupować, ponieważ nie masz włączonej metody wysyłki!",
         customer_must_select_a_shipping_msg:
-          "klient element Wybierz element Wysyłka metoda W celu element 🛍️Zamówienie",
+          "Klient musi wybrać metodę wysyłki, aby złożyć zamówienie.",
         customer_can_order_without_shipping_method_msg:
           "Klient może złożyć zamówienie nawet jeśli w wybranej lokalizacji nie jest obsługiwana żadna metoda wysyłki.",
         inputs: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "element Jednostka",
-        subtitle: "element Jednostka Używany element element",
+        subtitle: "Jednostka używana do pomiaru odległości.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Logistyka",
         profiles: "Profile",
         includes: "Zawiera",
-        property_sets: "element element",
+        property_sets: "Zestawy właściwości",
         boxes: "paczki",
       },
 
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategoria",
-      category_input_msg: "element: element element Sklepy element",
+      category_input_msg: "Pusty: w katalogu głównym sklepu",
       product_name: "Nazwa produktu*",
       product_name_placeholder: "Twoja nazwa produktu tutaj..",
       product_code: "Kod produktu (angielski)",
       sku: {
         label: "SKU",
-        message: "element element Jednostka",
+        message: "Jednostka Magazynowania",
       },
       mpn: {
         label: "MPN",
-        message: "element element ",
+        message: "Numer części producenta",
       },
 
       external_link: "Link zewnętrzny",
@@ -1490,7 +1490,7 @@ export default {
       },
       unit: {
         subtitle:
-          "element element cennik element element Produkt strona",
+          "Możesz spersonalizować wyświetlanie cen i elementów wezwania do działania na stronie produktu.",
       },
       custom_pricing: {
         title: "Zwyczaj cennik formularz",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Proszę najpierw zapisać produkt, a dopiero potem można przypisać model wyceny.",
         assign_valuation_message:
-          "element element W celu element Produkt",
+          "Proszę przypisać model wyceny do tego produktu.",
         edit_pricing_action: "Edytować cennik formularz",
         add_pricing_action: "Tworzyć Nowy cennik formularz",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Zwyczaj Kupić element",
         message:
           "Możesz zmienić ikonę, postępując zgodnie z tym wzorem: {icon name} podpis...",
-        placeholder: "element element W celu element",
-        multi_language_dialog_title: "Zwyczaj Kupić element element",
+        placeholder: "Wpisz wezwanie do działania...",
+        multi_language_dialog_title: "Niestandardowy podpis przycisku zakupu",
       },
       external: {
         not_available_message:
           "Dodatkowe działanie dostępne w przypadku licencji Company i Enterprise.",
         available_message: "Możesz dodać dodatkowe zewnętrzne wezwanie do działania.",
-        input_label: "element element W celu element",
+        input_label: "Drugie wezwanie do działania",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Obsługiwane wartości to UPC (Ameryka Północna, 12 cyfr), EAN (Europa, 13 cyfr), JAN (Japonia, 8 lub 13 cyfr), ISBN (książki, 13 cyfr).",
-        label: "Produkty element element przedmiot element",
-        placeholder: "element element (opcjonalnie)",
+        label: "Globalny numer jednostki handlowej produktu",
+        placeholder: "Globalny numer handlowy tutaj.. (Opcjonalnie)",
       },
       hsn: {
         hint: "HSN, czyli Zharmonizowany System Nomenklatury, to ujednolicony na szczeblu międzynarodowym system klasyfikacji służący do kategoryzacji towarów i produktów.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Produkt element element sklep",
-        message: "element element Produkt",
+        label: "Stan produktu w Twoim sklepie",
+        message: "Wybierz stan tego produktu.",
         subtitle:
           "Poinformuj swoich klientów o stanie i marce oferowanego produktu.",
       },
@@ -1550,7 +1550,7 @@ export default {
       status: {
         title: "status",
         subtitle:
-          "element Produkty status element element W celu zarabiaj element Produkt Projekt, element element status W celu 'nieaktywny",
+          "Status produktu określa jego dostępność online i stacjonarnie. Aby sporządzić wersję roboczą produktu, wystarczy zmienić jego status na „Nieaktywny”.",
       },
       profiles: {
         title: "Profile",
@@ -1558,7 +1558,7 @@ export default {
           "Możesz zdefiniować gwarancję, politykę zwrotów, wysyłkę i przewodnik oraz przypisać je do tego produktu. Będzie ona wyświetlana jako nowe zakładki na stronie produktu.",
       },
       shortcuts: {
-        title: "element Produkt W celu element Kategorie",
+        title: "Przypisz produkt do dodatkowych kategorii",
         subtitle:
           "Ta funkcja umożliwia wystawienie produktu w wielu kategoriach, zachowując jego miejsce w kategorii podstawowej ustawionej w obszarze Produkt > Edytuj > Kategoria. Zasadniczo działa to podobnie do tworzenia „skrótów” w systemach operacyjnych, umożliwiając pojawienie się produktu w dodatkowych określonych kategoriach.",
       },
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "element",
         subtitle:
-          "Dodaj Produkt Specyfikacje element element ",
+          "Dodaj specyfikacje produktu ręcznie, definiując grupy i parę klucz-wartość.",
         add_group_action: "Dodaj grupę",
         add_item_action: "Dodaj specyfikacja Wartość",
       },
@@ -1647,14 +1647,14 @@ export default {
         subtitle:
           "Możesz importować specyfikacje techniczne podobnych produktów.",
         action_title: "Importuj",
-        action_subtitle: "element specyfikacja Od element Produkt",
+        action_subtitle: "Sklonuj specyfikację z innego produktu.",
       },
       ai: {
         title: "AI",
         subtitle:
           "Możesz automatycznie tworzyć specyfikacje produktu, przesyłając surowe dane produktu w formie tekstowej.",
-        action_title: "automatyczny element element AI",
-        action_subtitle: "Tworzyć Produkt Specyfikacje element element ",
+        action_title: "Automatyczne generowanie przez sztuczną inteligencję",
+        action_subtitle: "Twórz specyfikacje produktu za pomocą abstrakcyjnego podpowiedzi.",
       },
 
       group_input_header: "Dodaj grupę",
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Zapisano specyfikacje produktów.",
       },
       dialog_ai: {
-        title: "element element Produkt Specyfikacje",
+        title: "Automatycznie generuj specyfikacje produktów",
         prompt: {
           title: "Produkt Przegląd",
           subtitle:
@@ -1696,19 +1696,19 @@ export default {
         generated_spec: {
           title: "elementelement Specyfikacje AI",
           subtitle:
-            "element Specyfikacje element element ",
+            "Specyfikacje te zostały wygenerowane przez sztuczną inteligencję.",
         },
         inputs: {
           prompt: {
             label: "Produkt Detale",
-            placeholder: "element element Produkt element",
+            placeholder: "Opisz produkt tutaj...",
           },
         },
         actions: {
           run: {
             title: "element Specyfikacje",
             subtitle:
-              "element W celu element Tworzyć Produkt Specyfikacje Od element element Przegląd",
+              "Kliknij, aby automatycznie utworzyć specyfikacje produktu na podstawie dostarczonego przeglądu.",
           },
           add_generated_spec: "Dodaj element Specyfikacje",
         },
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "tło Opis",
-            placeholder: "element element tło",
+            placeholder: "Opisz żądane tło...",
           },
         },
         actions: {
           reimagine: {
             title: "element Nowy Obraz",
-            subtitle: "stwórz na nowo element element Obraz element element Nowy tło",
+            subtitle: "Wyobraź sobie cały obraz z nowym tłem.",
           },
           replace: {
-            subtitle: "element element tło",
+            subtitle: "Zastąp istniejące tło.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "element cennik element element {min}",
+    title: "Dodatkowe ceny za ponad {min}",
     subtitle:
       "System automatycznie ustala kolejność i priorytet kalkulacji ceny. Proszę podać minimalną ilość wymaganą, aby ta cena zaczęła obowiązywać.",
     min_quantity: "Minimalna ilość",
@@ -1870,16 +1870,16 @@ export default {
         "Zapasy produktów dropshipping ustalane są przez hurtowników i nie można ich tutaj modyfikować.",
       marketplace:
         "Całkowity zapas produktów na rynku określa się poprzez zsumowanie zapasów wszystkich dostawców. Nie możesz go tutaj modyfikować.",
-      default: "element element Produkty Spis Liczyć element",
+      default: "Podaj tutaj stan zapasów produktu.",
     },
     menu: {
       add_bulk: {
         title: "element Dodaj",
-        subtitle: "Dodaj element Warianty element element ",
+        subtitle: "Dodaj wiele wariantów w jednej akcji.",
       },
       edit_property_set: {
-        title: "element element ",
-        subtitle: "Zmiana Warianty element, element element Zamówienia",
+        title: "Dostosuj zestaw właściwości",
+        subtitle: "Zmień nazwy wariantów, ikony i zamówienia.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Produkt Kategoria Kod",
     hint: "Reprezentuje kategorię Twojego produktu zgodnie z taksonomią produktów Google.",
-    placeholder: "element Produkt element usługa Kategoria (opcjonalnie)",
+    placeholder: "Wprowadź kategorię produktu lub usługi.. (Opcjonalnie)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "element Zarządzanie",
     subtitle:
-      "Tworzyć element, element, element element ",
+      "Twórz spersonalizowane, inteligentne i interaktywne okna wyskakujące.",
     add_action: "Dodaj Nowy Wyskakujące okienko",
   },
 
@@ -1942,7 +1942,7 @@ export default {
       dedicated: "element",
 
       subscription: "Podatek możemy zastosować jedynie na etapie tworzenia płatności.",
-      is_disabled: "element Podatek profil element wyłączone! (⚠️element)",
+      is_disabled: "Ten profil podatkowy jest wyłączony! (⚠️Ostrzeżenie)",
       shipping: "Wysyłka",
       fixed_rate: "Podatek",
       location_based_rate: "Podatek: Lokalizacja element",
@@ -1988,7 +1988,7 @@ export default {
       page: "strona Szablon",
       shipping: "Wysyłka",
       access: "Dostęp",
-      critical_zone: "element element",
+      critical_zone: "Strefa Krytyczna",
     },
 
     profile: {
@@ -2002,7 +2002,7 @@ export default {
 
     profiles: {
       title: "Profile",
-      subtitle: "element element Lokalizacja W celu element sprzedawca",
+      subtitle: "Możesz przypisać lokalizację do tego dostawcy.",
     },
     map: {
       no_map_message:
@@ -2014,7 +2014,7 @@ export default {
         "Ustaw niestandardową stronę docelową dla dostawcy, udostępniając mu unikalny link do dedykowanej strony.",
       action_set_page: "zobacz Publiczny strona",
       action_sub_caption: "Zwyczaj Lądowanie strona",
-      vendor_has_landing_msg: "sprzedawca element element Zwyczaj Lądowanie strona",
+      vendor_has_landing_msg: "Sprzedawca ma niestandardową stronę docelową.",
       no_landing_selected_msg: "nie Lądowanie strona Wybierz",
       no_landing_page: "nie Lądowanie strona",
       we_can_create_dedicated_landing_msg:
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Kontakt Informacje",
-      subtitle: "element element Kontakt Detale",
+      subtitle: "Prosimy o podanie prawidłowych danych kontaktowych.",
     },
     business: {
       title: "firma Informacje",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Wysyłka",
-      subtitle: "sprzedawcy element sklep element element Wysyłka Usługi element Kurierzy",
+      subtitle: "Sprzedawcy mogą konfigurować własne usługi wysyłkowe i kurierów.",
       shipping_services: "Wysyłka Usługi",
       total_number_of_services:
         "Łączna liczba usług wysyłkowych oferowanych przez dostawcę.",
@@ -2056,7 +2056,7 @@ export default {
       action: "Usunąć sprzedawca",
       verify_description:
         "Wiem, że wszystkie relacje z produktami dostawców zostaną usunięte!",
-      verify_title: "element element W celu Usunąć element sprzedawca",
+      verify_title: "Chcę usunąć tego dostawcę.",
     },
 
     send_invitation_tips:
@@ -2065,39 +2065,39 @@ export default {
       "Tylko właściciel rynku może edytować użytkownika. Jeżeli chcesz zmienić właściciela tego dostawcy możesz wysłać zapytanie do nas.",
     vendor_is_disable_msg: "sprzedawca element wyłączone",
     email_not_match_with_user_msg:
-      "element E-mail element element Użytkownicy E-mail (<b>{user_name}:</b>{user_email}). element element W celu Wysłać E-maile W celu<b>{email}</b>?",
+      "Wprowadzony adres e-mail nie jest zgodny z adresem e-mail użytkownika (<b>{user_name}:</b>{user_email}). Czy na pewno wysyłasz e-maile do <b>{email}</b>?",
 
     order_information_email_to_email:
-      "element element Wysłać Zamówienia informacje W celu <b>{email}</b>.",
+      "Informacje o zamówieniach wyślemy na adres <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Najpierw ustaw użytkownika dla dostawcy.",
 
     inputs: {
       slug: {
         label: "element",
-        placeholder: "element element Zwyczaj element",
-        hint: "Zmiana element element sprzedawcy element Lądowanie strona",
+        placeholder: "Wprowadź niestandardową ścieżkę...",
+        hint: "Zmień ścieżkę dynamicznej strony docelowej dostawcy.",
       },
       email: {
-        message: "element E-mail element Odbierać wszystko Powiadomienia element Aktualizuj",
+        message: "Na ten e-mail będą wysyłane wszystkie powiadomienia i aktualizacje.",
       },
       business: {
-        false_description: "element element ",
-        true_description: "element element firma element",
+        false_description: "Pracuję indywidualnie.",
+        true_description: "Działam jako prawnie uznany podmiot gospodarczy.",
         false_title: "element",
         true_title: "firma",
       },
       bank: {
         hint: "Nazwa banku, w którym sprzedawca ma swoje konto.",
-        placeholder: "element element Nazwać",
+        placeholder: "Nazwa Twojego banku..",
       },
       account_name: {
         hint: "Powinno pasować do nazwy powiązanej z kontem bankowym.",
         placeholder: "element Nazwać",
       },
       account_number: {
-        hint: "element sprzedawcy element Rachunek element",
-        placeholder: "element element Rachunek element",
+        hint: "Unikalny numer konta dostawcy.",
+        placeholder: "Numer Twojego konta bankowego..",
       },
       routing_number: {
         hint: "Liczba ta różni się w zależności od kraju. Służy do identyfikacji konkretnego oddziału banku, z którego korzysta sprzedawca.",
@@ -2105,15 +2105,15 @@ export default {
       },
       iban: {
         hint: "Międzynarodowy numer konta bankowego): Jeśli bank dostawcy znajduje się w Europie lub w niektórych innych krajach.",
-        placeholder: "element IBAN element element DE89 3704 0044 0000 0000 00",
+        placeholder: "Twój numer IBAN.. np. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Międzynarodowy numer konta bankowego): Jeśli bank dostawcy znajduje się w Europie lub w niektórych innych krajach.",
-        placeholder: "element element  BIC SWIFT",
+        placeholder: "Twój kod Swift/BIC..",
       },
       branch_address: {
         hint: "Adres oddziału banku, w którym sprzedawca posiada rachunek.",
-        placeholder: "element element adres",
+        placeholder: "Twój adres banku..",
       },
       enable: {
         label: "sprzedawca status",
@@ -2124,9 +2124,9 @@ export default {
       access: {
         label: "sprzedawca element & Dostęp",
         true_description:
-          "element sprzedawca element element W celu Aktualizacja Ilość element Cena",
+          "Sprzedawca posiada dedykowany panel do aktualizacji ilości i ceny.",
         hint: "Możesz włączyć lub wyłączyć panel dostawców, który umożliwia sprzedawcom aktualizację ilości i cen produktów oraz otrzymywanie częściowych zamówień.",
-        false_description: "element sprzedawca element nie Dostęp W celu element",
+        false_description: "Sprzedawca nie ma do niczego dostępu.",
       },
 
       logo: {
@@ -2164,21 +2164,21 @@ export default {
   product_badges: {
     title: "odznaki",
     subtitle: "Dodaj element Edytować Zwyczaj Produkt odznaki",
-    only_marketplace_owner_msg: "element Rynek element",
+    only_marketplace_owner_msg: "Tylko właściciele targowisk",
     create_new_badge_action: "Tworzyć Nowy odznaka",
     select_a_badge: "Wybierz element odznaka",
     inputs: {
       custom: {
-        false_description: "Produkty odznaki element element ",
+        false_description: "Identyfikatory produktów tworzone są automatycznie.",
         false_title: "automatyczny",
         true_title: "Zwyczaj Produkty odznaki",
-        true_description: "Dodaj Zwyczaj odznaki element element Produkt strona",
+        true_description: "Dodaj niestandardowe plakietki na stronie produktu.",
       },
     },
     add_custom_badge: {
       title: "Zwyczaj odznaka",
       subtitle:
-        "Dodaj element Nowy Zwyczaj odznaka W celu element Sklep element odznaki Liczyć element 10. Więcej. . odznaki element element Sklep",
+        "Dodaj nową niestandardową plakietkę do mojego sklepu. Utrzymuj liczbę odznak poniżej 10. Więcej odznak spowolniłoby Twój sklep.",
       show_advanced_options: "Pokaż Zaawansowany element",
 
       inputs: {
@@ -2188,7 +2188,7 @@ export default {
         image: {
           label: "Obraz",
           message: "Maks. Obraz element: 128KB",
-          placeholder: "Wybierz element element Obraz",
+          placeholder: "Wybierz zdjęcie na okładkę",
         },
         pattern: {
           label: "element",
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "Odznaka została pomyślnie dodana!",
-        badge_updated: "element odznaka element element !",
+        badge_updated: "Odznaka została pomyślnie zaktualizowana!",
         item_not_found_error:
           "Nie można znaleźć elementu. Odśwież stronę lub skontaktuj się z pomocą techniczną.",
       },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "element Tagi element element ",
+      tags_updated: "Tagi zostały pomyślnie zaktualizowane.",
     },
   },
 
@@ -2267,7 +2267,7 @@ export default {
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "element element",
+    header: "Wiele języków",
     auto_action: "automatyczny element",
     premium_user_only: "element Użytkownicy",
   },
@@ -2370,7 +2370,7 @@ export default {
         title: "Ocena produktu",
         title_small: "Raport zadowolenia klienta",
         total_participation: "Całkowita liczba wpłat",
-        total_participation_tooltip: "Całkowity Liczyć element element Produkt",
+        total_participation_tooltip: "Całkowita liczba osób oceniających produkt.",
         today_participation: "Dzisiejsze oceny",
         last7days_participation: "Wpisy z ostatnich 7 dni",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Liczba wpłat",
           score: "Wynik",
         },
-        users_not_rated_msg: "Użytkownicy element element Produkt element",
+        users_not_rated_msg: "Użytkownicy nie ocenili jeszcze tego produktu.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,35 +2442,35 @@ export default {
 
         config: {
           title: "Produkt element sklep",
-          subtitle: "Zarządzaj SKU, MPN, element element Warianty",
+          subtitle: "Zarządzaj SKU, MPN i dostępnością wariantów.",
         },
         variables: {
-          title: "element element",
+          title: "Opcje wariantów",
           subtitle:
             "Wprowadź szesnastkowy kod koloru, np. <b>#654FFF</b> lub dwa kolory oddzielone ukośnikiem, np. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "Możesz przypisać dowolną wartość do zmiennych, w tym obrazów, używając <b>Zasoby graficzne</b>. Prześlij wzór i użyj wygenerowanego kodu dla wariantu.",
-          graphical_asset_action: "element element",
-          graphical_asset_action_caption: "Obrazy element element ",
+          graphical_asset_action: "Zasoby graficzne",
+          graphical_asset_action_caption: "Obrazy opcji wariantów.",
         },
         smart_unit_price: {
-          tips: "element Jednostka Cena element element <b>Waga</b>, <b>tom</b>, element <b>element element</b>. W celu element element , element W celu Sklep > Ustawienia > Temat > Produkt strona > element Jednostka Cena",
+          tips: "Oblicz cenę jednostkową na podstawie <b>waga</b>, <b>volume</b> i <b>rozmiar opakowania</b>. Aby wyłączyć tę funkcję, przejdź do Sklep > Ustawienia > Motyw > Strona produktu > Inteligentna cena jednostkowa.",
           smart_unit_price: "Jednostka Cena element",
         },
         quantity: {
           title: "Spis",
-          subtitle: "element element ",
+          subtitle: "Ustaw poziom zapasów dla każdego wariantu.",
         },
         price: {
           title: "cennik",
           subtitle:
-            "element element Zwyczaj Cena element element Domyślna Produkt Cena",
+            "Ustaw niestandardową cenę dla wariantu lub użyj domyślnej ceny produktu.",
         },
         package: {
           title: "element & Wysyłka",
           subtitle:
             "Określ wagę i wymiary wariantów, aby określić opcje wysyłki.",
-          same_as_product_action: "element element Produkt",
+          same_as_product_action: "Taki sam jak produkt",
         },
         image: {
           title: "element Obrazy",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "element element Jednostka (SKU)",
+            message: "Jednostka magazynowania (SKU)",
           },
           mpn: {
-            message: "element element (MPN)",
+            message: "Numer części producenta (MPN)",
           },
           gtin: {
-            label: "element element przedmiot element (GTIN)",
+            label: "Globalny numer jednostki handlowej (GTIN)",
             message:
               "Obsługiwane formaty: UPC (12 cyfr), EAN (13 cyfr), JAN (8 lub 13 cyfr), ISBN (13 cyfr).",
           },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "Wysyłka Usługi Dostępny element element Waga",
+      "Dostępne usługi wysyłkowe zależą od podanego rozmiaru i wagi.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,12 +2531,12 @@ export default {
     lead_time_dimension: "Godziny)",
     bulk_action: "Działania masowe",
     bulk_action_subtitle:
-      "element element informacje W celu wszystko Produkt Warianty",
+      "Informacje o opakowaniu można zastosować do wszystkich wariantów produktu.",
 
     bulk_action_input: "Zaktualizuj wszystkie warianty",
     bulk_action_msg:
       "Ustaw opakowanie produktu i czas przygotowania dla wszystkich wariantów.",
-    dynamic_lead_time: "element element Czas",
+    dynamic_lead_time: "Dynamiczny czas realizacji",
     instant_delivery: "element Dostawa",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "element Obraz element element",
-      placeholder: "element element ",
-      success_update_notification: "element element ",
+      title: "Ustaw tekst alternatywny obrazu",
+      placeholder: "Wprowadź opisowy tekst alternatywny...",
+      success_update_notification: "Tekst alternatywny został pomyślnie zaktualizowany.",
     },
     dialog_bg_remove: {
       title: "Usunąć tło element",
@@ -2562,14 +2562,14 @@ export default {
         title: "Usuń tło",
         subtitle: "Tworzyć element przezroczyste tło",
       },
-      success_remove_bg_notification: "tło element element!",
+      success_remove_bg_notification: "Tło zostało pomyślnie usunięte!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "element element ",
+    title: "Warianty zasobów graficznych",
     tips: {
       how_it_works:
         "<b>Jak to działa:</b><br />Prześlij tutaj zdjęcia wzorów lub przedmiotów. Aby użyć tych obrazów jako opcji wariantu, w wartości wariantu dołącz <b>{filename}</b>. Należy pamiętać, że tego kodu nie można użyć w wartości <b><s>color</s></b>.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "element wycena",
     min_quantity: "element Ilość",
-    range_is_out_of_stock: "element element !",
+    range_is_out_of_stock: "Oferta wyczerpana!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "element element !",
-    set_color_warning: "element Wybierz element Kolor",
-    set_volume_warning: "element element tom",
-    set_pack_warning: "element element ",
-    set_weight_warning: "element element Waga",
-    set_type_warning: "element Wybierz element Rodzaj",
-    set_style_warning: "element Wybierz element Styl",
-    out_of_stock: "element element ",
+    duplicated_variant: "Ten wariant już istnieje!",
+    set_color_warning: "Proszę wybrać kolor.",
+    set_volume_warning: "Proszę podać głośność.",
+    set_pack_warning: "Proszę podać wielkość opakowania.",
+    set_weight_warning: "Proszę podać wagę.",
+    set_type_warning: "Proszę wybrać typ.",
+    set_style_warning: "Wybierz styl.",
+    out_of_stock: "Obecnie brak w magazynie",
 
     image: {
       tooltip: "⚡ Przeciągnij i upuść obraz tutaj, aby przypisać go do wariantu.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Pozycja nie jest dostępna w sklepie internetowym.",
     },
     restore_dialog: {
-      title: "element element",
+      title: "Przywróć wariant",
       message: "Czy na pewno chcesz przywrócić ten usunięty wariant?",
-      action: "tak, element element",
+      action: "Tak, przywróć teraz",
     },
     notifications: {
-      restore_variant_success: "element Produkt element element ",
+      restore_variant_success: "Wariant produktu został pomyślnie przywrócony.",
     },
   },
 
@@ -2673,8 +2673,8 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "sklep Spis",
-    subtitle: "Lista element wszystko Produkty element sklep",
-    cant_set_here: "element element ",
+    subtitle: "Lista wszystkich produktów dostępnych w sklepie.",
+    cant_set_here: "Nie można tutaj ustawić",
 
     search_input: "Wyszukiwarka produktów...",
     search_input_title: "Szukaj wśród produktów w sklepie",
@@ -2718,7 +2718,7 @@ export default {
     title: "element działania > Cena",
     message:
       "Poniższa kwota zostanie zastosowana jako procent ceny wszystkich produktów w Twoim sklepie. Ponadto obliczone wartości cen zostaną inteligentnie przeliczone na najbliższą okrągłą liczbę w oparciu o wybraną walutę. Zachowaj ostrożność przy wprowadzaniu wartości.",
-    check: "element element Cena element",
+    check: "Wyrażam zgodę na zmiany cen.",
     check_description:
       "Cena ulegnie zmianie dla wybranej kategorii i wszystkich podkategorii.",
     add_percent_tab: "Dodaj Procent",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Automatyczne zapisywanie",
-    auto_save_input_message: "element element ",
+    auto_save_input_message: "Zmiany zostaną zapisane automatycznie.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Zapłata metody",
     sub_title:
-      "Lista element Aktywny Zapłata metody element element W celu Dodaj element Nowy metoda W celu element Sklep, element element 10 Dodaj Zapłata Bramy",
+      "Lista aktywnych metod płatności. Jeśli chcesz dodać nową metodę do swojego sklepu, naciśnij poniższy przycisk. Zdecydowanie zalecamy, aby nie przekraczać 10 dodanych bramek płatniczych.",
     add_gateway: "Nowy Zapłata metoda",
 
     add_gateway_dialog: {
       title: "Wybierz Waluta",
-      country_currencies: "element element",
+      country_currencies: "Lokalne waluty",
       crypto_currencies: "element",
 
       confirm: "Dodaj metodę płatności",
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "element zobacz element element Zapłata metoda?",
+        title: "Nie widzisz preferowanej metody płatności?",
         subtitle:
           "Jeśli Twojego lokalnego dostawcy usług płatniczych nie ma na liście, zasubskrybuj dowolny plan roczny (w tym Startup zapewniający przystępną cenę) i poproś o integrację. Ukończymy go w ciągu 48 godzin, jeśli dostarczymy konto testowe i dokumentację.",
       },
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "element tryb",
-          true_description: "element element Wejście element element",
+          true_description: "Konfigurację bramy można ustawić ręcznie.",
 
           false_title: "automatyczny połącz",
           false_description:
@@ -3088,11 +3088,11 @@ export default {
         "Możesz poprawić wyświetlanie strony kategorii, nakładając stronę niestandardową. Najlepszym podejściem jest utworzenie stron z przezroczystym tłem i zaprojektowanie od 1 do 2 sekcji specyficznych dla każdej kategorii. Następnie możesz połączyć jedną stronę z wieloma kategoriami, korzystając z zawartości dynamicznej, aby dostosować każdą kategorię indywidualnie.",
     },
     critical_zone: {
-      title: "element element",
+      title: "Strefa Krytyczna",
       subtitle:
         "Jeśli usuniesz kategorię, jej podkategorie i produkty zostaną przeniesione do katalogu nadrzędnego<b>📁 {parent}</b>. Aby zarządzać kategoriami, których nie ma na liście produktów, przejdź do zakładki Sklep > Kategorie.",
       accept_delete: {
-        true_description: "element element W celu Usunąć element Kategoria",
+        true_description: "Chcę usunąć tę kategorię.",
         true_title: "element Usunąć Kategoria",
       },
     },
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Wybierz powód odrzucenia tego zamówienia z poniższej listy. Pamiętaj, aby poinformować klienta o procesie anulowania i zwrotu pieniędzy. Zwroty należy dokonać w ciągu 12 godzin.",
       confirm_now_action: "Anulować 🛍️Zamówienie element",
-      confirm_in48h_action: "Anulować 🛍️Zamówienie element 48 element",
+      confirm_in48h_action: "Anuluj zamówienie w ciągu 48 godzin",
 
       dismiss_reject_action: "Odrzuć anulowanie zamówienia",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "element | Anulować 🛍️Zamówienie element",
-        false_title: "element | Anulować 🛍️Zamówienie element 48 element",
+        true_title: "Ekspres | Natychmiast anuluj zamówienie",
+        false_title: "Standardowe | Anuluj zamówienie po 48 godzinach",
         true_description:
           "Opcja ta powoduje natychmiastowe anulowanie zamówienia i natychmiastową aktualizację stanu magazynowego.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Zamówienie wróciło do normalnego procesu.",
       set_tracking_success: "Identyfikator ścieżki zamówienia został pomyślnie zapisany.",
       shipping_address_update_success:
-        "Wysyłka adres element element ",
+        "Adres wysyłki został pomyślnie zaktualizowany.",
       vendor_order_status_update_success:
-        "sprzedawca element status element element ",
+        "Status realizacji zamówienia przez dostawcę został pomyślnie zaktualizowany.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Oczekująca płatność",
       processing_payment: "Przetwarzanie płatności",
       processing_cancel: "Płatność anulowana",
-      require_capture: "element element",
+      require_capture: "Wymagaj przechwytywania",
       paid: "Płatny",
       cod_pay_info:
         "Po otrzymaniu zamówienia od klienta możesz potwierdzić płatność i sfinalizować zamówienie.",
@@ -3519,7 +3519,7 @@ export default {
         "Twój klient wygrywa 1x tego produktu. Wyślij prezent z tym zamówieniem.",
 
       need_to_refund: {
-        title: "element element W celu element klient",
+        title: "Wymagany zwrot pieniędzy dla klienta",
         message:
           "Obliczamy całkowitą kwotę zwrotów, których musisz dokonać ręcznie. Obliczono ją na podstawie niedostępnych pozycji i łącznej wartości zwróconych dotychczas.",
         calculated_approximately:
@@ -3531,7 +3531,7 @@ export default {
           "Zauważyliśmy, że suma zwrócona klientowi jest wyższa niż kwota należna na podstawie pozycji w koszyku. Być może będziesz musiał obciążyć klienta opłatą w celu odzyskania nadwyżki.",
       },
       need_no_refund: {
-        title: "nie element element",
+        title: "Nie ma konieczności zwrotu pieniędzy",
       },
       total_refund: {
         title: "Całkowity element",
@@ -3549,7 +3549,7 @@ export default {
       weight_warning: "Przekracza dozwoloną wagę.",
       volume_warning: "Przekracza dozwolony rozmiar opakowania.",
       items_weight_calculation:
-        "element Waga element wszystko Rzeczy element {weight} {unit}",
+        "Łączna waga wszystkich elementów wynosi {weight} {unit}",
       not_available_message:
         "Nie jest dostępna, jeśli nie masz możliwości pytania o adres wysyłki, a użytkownik nie podał adresu po zakupie!",
 
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "Informacje",
-    subtitle: "Przegląd element Zapłata Wejście element element status",
+    subtitle: "Przegląd konfiguracji i statusu bramki płatniczej.",
     status: "status",
     cod_transportation: "element Wysyłka",
     cod_transportations_error:
-      "Włączyć element element Dostawa Zapłata element element Wysyłka metoda!",
+      "Włącz płatność za pobraniem dla co najmniej jednej metody wysyłki!",
     payment_type: "Zapłata Rodzaj",
     cod: "Płatność gotówką przy odbiorze",
     online: "element Zapłata",
@@ -3695,8 +3695,8 @@ export default {
       title: "element działania",
       subtitle:
         "Wykonując te kroki, zaczniesz otrzymywać rzeczywiste płatności od swoich klientów.",
-      action_enable: "element W celu Włączyć element",
-      make_live_enable: "element W celu Na żywo element",
+      action_enable: "Kliknij, aby to włączyć",
+      make_live_enable: "Kliknij, aby tym żyć",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Edytowano bramę {gateway_name}.",
-      success_delete: "Zapłata metoda element element Usunięto!",
+      success_delete: "Metoda płatności została usunięta!",
     },
     debug: {
       title: "Rozwijać się & element",
@@ -3732,28 +3732,28 @@ export default {
 
     limit: {
       title: "🛍️Zamówienie element",
-      subtitle: "element element minimum 🛍️Zamówienie Ilość element element Zapłata Wejście",
+      subtitle: "Ustaw minimalną kwotę zamówienia dla tej bramki płatniczej.",
     },
     limit_input: {
       title: "minimum 🛍️Zamówienie Ilość",
-      msg: "element element nie element",
+      msg: "Zero oznacza brak limitu.",
     },
     currency_input: {
       message: "Waluta obsługiwana przez tę bramkę płatniczą.",
     },
     gateway_code: "Wejście Kod",
 
-    hold_only_for: "element Zapłata element Dostępny element",
+    hold_only_for: "Wstrzymanie płatności dostępne tylko dla",
     manual_input: {
       false_description:
         "Status płatności zostanie automatycznie zmieniony z oczekującej na potwierdzoną w systemie dostawcy płatności.",
       false_title: "automatyczny Zapłata element",
-      true_title: "element Płatności element ręczny element",
+      true_title: "Wstrzymaj płatności i ręczne potwierdzenie",
       true_description:
         "Wstrzymaj płatność w celu sprawdzenia płatności, aby zlecenie mogło zmienić status z oczekującego na potwierdzone w systemie dostawcy płatności.",
     },
     delete_verify_input: {
-      true_title: "element element W celu Usunąć element Zapłata metoda",
+      true_title: "Chcę usunąć tę metodę płatności.",
       true_description:
         "Ta metoda płatności zostanie usunięta ze sklepu i nie będzie dostępna dla klientów.",
     },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Lista wydanych kart",
       subtitle:
-        "Pogląd element Zarządzaj wszystko element Karty element element Wysłać Karty W celu Użytkownicy element element ",
+        "Przeglądaj i zarządzaj wszystkimi wydanymi kartami. Możesz ręcznie wysyłać karty do użytkowników lub blokować ich, jeśli zajdzie taka potrzeba.",
 
       loading_message: "Uzyskiwanie informacji... proszę czekać",
       issue_to_user: "Problem do użytkownika",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "sprzedawcy Portfel Transakcja",
 
     "vendor-sms":
-      "🔔 🛍️Zamówienie element SMS element element Wysłano W celu <b>{vendor}</b> ╏ {phone}.",
+      "🔔 SMS informujący o zamówieniu został wysłany na adres <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4036,13 +4036,13 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "Wysłać element Zapłata element SMS W celu element klient element {phone}.",
+      "Wyślij SMS z potwierdzeniem płatności do klienta poprzez {phone}.",
     "sms-ready-to-ship":
       "Wyślij SMS-a do klienta z powiadomieniem, że jego zamówienie jest gotowe do wysyłki za pośrednictwem {phone}.",
     "sms-ready-to-pickup":
       "Wyślij SMS-a do klienta z informacją, że jego zamówienie jest gotowe do odbioru za pośrednictwem {phone}.",
     "sms-order-confirmation":
-      "Wysłać element 🛍️Zamówienie element SMS W celu element klient element {phone}.",
+      "Wyślij SMS z potwierdzeniem zamówienia do klienta poprzez {phone}.",
 
     "count-adjustment":
       "Ilość produktu „{product}” została zaktualizowana z {from} do {to}.",
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Przenieś kategorię <b>{category}</b> do innej kategorii",
     move_product: "Przenieś produkt <b>{product}</b> do kategorii",
     load_more_products:
-      "Więcej. . Produkty element Dostępny element element Kategoria element W celu element Więcej. . Rzeczy",
+      "W tej kategorii dostępnych jest więcej produktów. Kliknij, aby załadować więcej elementów.",
     product_menu: {
       dashboard: "Pulpit nawigacyjny produktu",
       inventory: "Zapasy i warianty",
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Masz produkty w katalogu głównym, ale nie masz filtra.",
       has_root_filter_message: "Ustawiasz filtry dla kategorii głównej.",
-      set_filter_message: "element element Filtry",
+      set_filter_message: "Możesz ustawić filtry.",
       edit_action: "Edytować element Filtry",
-      clear_action: "element element Filtry",
+      clear_action: "Wyczyść filtry główne",
     },
     ai: {
       title: "AI Produkt element",
@@ -4081,31 +4081,31 @@ export default {
     menu: {
       select_all_products: "Wybierz wszystko Produkty",
       unselect: "element",
-      sort_categories: "element / element Kategorie",
+      sort_categories: "Uporządkuj / sortuj kategorie",
       subscription_vendor_not_support_message:
         "Nie można przypisać dostawcy produktów objętych subskrypcją! Produkty objęte subskrypcją muszą zawsze mieć dostawcę jako właściciela!",
       vendor_owner_not_assignable_message:
         "Nie można przypisać dostawcy produktów, których właścicielem jest sprzedawca!",
-      category_assign_profile: "element profil W celu Produkty element element Kategoria",
+      category_assign_profile: "Przypisz profil do produktów w danej kategorii",
       category_assign_profile_subtitle: "Podatek, Wysyłka, przewodnik, gwarancja,. ..",
       bulk_discount: "element Zniżka",
-      bulk_discount_subtitle: "element Zniżka element wszystko Produkty",
+      bulk_discount_subtitle: "Zastosuj rabat na wszystkie produkty.",
     },
 
     engine: {
-      title: "element Produkty element",
+      title: "Silnik produktów dodatkowych",
       subtitle:
-        "Więcej. . Produkty element element Od Wybierz Kategorie element Tagi",
-      load_in_tips: "element Produkty Od Kategorie element element {category}.",
+        "Załaduje się więcej produktów z wybranych kategorii i tagów.",
+      load_in_tips: "Załaduj produkty z kategorii w {category}.",
       action: "Edytować {category} element",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "element element / CSV plik element",
+      title: "Upuść tutaj plik Excel/CSV.",
       select_file: "Wybierz plik",
-      max_file: "maksimum plik element: 20element",
+      max_file: "Maksymalny rozmiar pliku: 20mb",
       download_sample: "Pobierz element",
     },
     ai: {
@@ -4115,7 +4115,7 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "element element",
+    has_panel: "Posiada panel",
     no_panel: "nie element",
     manual_action: {
       title: "ręczny działania",
@@ -4123,16 +4123,16 @@ export default {
       guides: [
         "Dostawcy z dostępem do panelu mogą aktualizować swoją realizację (podzamówienia) w swoim dedykowanym panelu kontrolnym.",
         "Jeżeli sprzedawca nie ma dostępu do panelu, status zamówienia dostawcy zostanie zmieniony automatycznie poprzez zmianę stanu koszyka.",
-        "element element Aktualizacja sprzedawca Zamówienia element",
+        "Zamówienia dostawców można aktualizować ręcznie.",
       ],
     },
     payouts: {
       title: "element",
-      message: "Zarządzaj element sprzedawca element element Transakcje",
+      message: "Zarządzaj płatnościami i transakcjami dostawców.",
 
       charge_tooltip: "Opłata sprzedawca Portfel",
       withdraw_tooltip: "element Od sprzedawca Portfel",
-      payout_tooltip: "element W celu element sprzedawca",
+      payout_tooltip: "Wypłata sprzedawcy.",
     },
     order_canceled: "🛍️Zamówienie element",
     order_rejected: "🛍️Zamówienie Odrzucony element sprzedawca",
@@ -4160,8 +4160,8 @@ export default {
     },
 
     open_marketplace_page: "element Rynek strona",
-    open_my_store_page: "element element sklep strona",
-    open_my_listing_page: "element element lista strona",
+    open_my_store_page: "Otwórz stronę mojego sklepu",
+    open_my_listing_page: "Otwórz stronę z moją ofertą",
     add_products_permission: "Dodaj Produkty element",
     add_categories_permission: "Dodaj Kategorie element",
   },
@@ -4179,7 +4179,7 @@ export default {
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "element element",
+    title: "Członkowie zespołu",
     subtitle:
       "To jest lista użytkowników, którzy mają dostęp do Twojego panelu dostawców. Tutaj możesz dodać nowych członków zespołu i dostosować ich uprawnienia.",
     add_action: "Dodaj Nowy element",
@@ -4193,10 +4193,10 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "Edytować element element",
-    title_new: "Dodaj Nowy element element",
+    title_edit: "Edytuj członka zespołu",
+    title_new: "Dodaj nowego członka zespołu",
     member: {
-      title: "element element Detale",
+      title: "Dane członka zespołu",
       subtitle:
         "Dodaj nowego członka zespołu i ustaw jego uprawnienia. Kliknij każdy element, aby dostosować dostęp do odczytu/zapisu. Każdy wiersz odpowiada poziomowi uprawnień dla głównego panelu sklepu.",
     },
@@ -4207,17 +4207,17 @@ export default {
     inputs: {
       email: {
         label: "Adres e-mail",
-        placeholder: "element element E-mail adres",
+        placeholder: "Wpisz adres e-mail członka...",
       },
     },
     notifications: {
       add_success: {
         title: "element Dodaj",
-        message: "element element Dodaj",
+        message: "Członek zespołu został pomyślnie dodany.",
       },
       update_success: {
-        title: "element element",
-        message: "element element informacje element element ",
+        title: "Członek zaktualizowany",
+        message: "Informacje o członku zespołu zostały pomyślnie zaktualizowane.",
       },
     },
     actions: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "element element Potwierdzony element Zapłata?",
+          label: "Czy potwierdziłeś tę płatność?",
           false_description:
             "Nie, nie otrzymałem jeszcze tej płatności na moje konto bankowe.",
           true_description: "Tak, otrzymałem i zweryfikowałem tę płatność.",
@@ -4266,11 +4266,11 @@ export default {
       "<b>Ważne! </b>Wykonanie tej akcji spowoduje wygenerowanie negatywnej transakcji w portfelu sprzedawcy i odjęcie od niej wybranej kwoty. Kwota nie może przekroczyć pozostałej sumy transakcji dla wybranego zamówienia. Dodatkowo, jeśli środki zostały przelane na połączone konta bankowe (np. za pomocą Stripe Connect lub ręcznego przelewu bankowego), należy utworzyć <b>przelew zwrotny</b>.",
     inputs: {
       note: {
-        message: "element element W celu element sprzedawca",
-        placeholder: "element element Notatka element",
+        message: "Jest to widoczne dla sprzedawcy.",
+        placeholder: "Tutaj możesz załączyć notatkę...",
       },
       amount: {
-        error_message: "element element Ilość element element ",
+        error_message: "Pozostała kwota została przekroczona.",
       },
     },
   },
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "W tej sekcji możesz zobaczyć oś czasu wydarzeń związanych z zamówieniem, realizacją, płatnością i ich statusami. Dodatkowo możesz obserwować zamówienia wysłane zarówno do klientów, jak i dostawców.",
-    add_note_subtitle: "zapis element Wiadomość element element ",
+    add_note_subtitle: "Napisz wiadomość i wspomnij o swoich współpracownikach.",
 
     message_input: "Napisz wiadomość tutaj...",
     pin_action: "Przypnij do góry",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Dodaj Sklep",
-      description: "Dodaj element Nowy Sklep W celu element element",
+      description: "Dodaj nowy sklep do systemu.",
     },
     "backoffice:shop:delete": {
       name: "Usunąć Sklep",
-      description: "Usunąć element Sklep Od element element",
+      description: "Usuń sklep z systemu.",
     },
     "backoffice:giftcard:write": {
       name: "Prezent Karta Zarządzanie",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Zarządzanie",
-      description: "Tworzyć element Zarządzaj element element ",
+      description: "Twórz często zadawane pytania i zarządzaj nimi.",
     },
     "backoffice:faq:read": {
       name: "FAQ Dostęp",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "element Dostęp",
-      description: "odczyt element Detale element Statystyka",
+      description: "Przeczytaj szczegóły i statystyki dotyczące wstążki.",
     },
     "backoffice:ai:write": {
       name: "AI Zarządzanie",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Dostęp",
-      description: "odczyt AI element element Statystyka",
+      description: "Przeczytaj konfiguracje i statystyki AI.",
     },
     "backoffice:vendor-payment:write": {
       name: "sprzedawca Zapłata Zarządzanie",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Notatka Dostęp",
-      description: "odczyt element element Detale",
+      description: "Przeczytaj notatki i powiązane szczegóły.",
     },
     "backoffice:note:write": {
       name: "Notatka Zarządzanie",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "element Zarządzanie",
-      description: "Zarządzaj element element",
+      description: "Zarządzaj opcjami drukowania.",
     },
     "backoffice:print:read": {
       name: "element Dostęp",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "element Dostęp",
-      description: "odczyt element Detale element Statystyka",
+      description: "Przeczytaj szczegóły i statystyki tokena.",
     },
     "selldone:token:write": {
       name: "element Zarządzanie",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "element Dostęp",
-      description: "odczyt element Detale element Statystyka",
+      description: "Przeczytaj szczegóły i statystyki dotyczące monetyzacji.",
     },
     "selldone:monetization:write": {
       name: "element Zarządzanie",
-      description: "Zarządzaj element, element element ",
+      description: "Zarządzaj monetyzacją, w tym programami poleceń.",
     },
     "selldone:identification": {
       name: "element Dostęp",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "element Dostęp",
-      description: "odczyt element Detale element Statystyka",
+      description: "Przeczytaj szczegółowe informacje i statystyki dostawcy.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "element Dostęp",
-      description: "odczyt element Detale element Statystyka",
+      description: "Przeczytaj szczegółowe informacje i statystyki agencji.",
     },
     "agency:write": {
       name: "element Zarządzanie",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "element",
-      description: "Dostęp W celu element element sklep Zarządzanie element",
+      description: "Dostęp do funkcji backoffice i zarządzania sklepem.",
     },
     storefront: {
       title: "element",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Dostęp Selldone Usługi element element",
+      description: "Uzyskaj dostęp do usług i funkcji Selldone.",
     },
     others: {
       title: "element",
-      description: "element Zakresy element element ",
+      description: "Różne zakresy niezdefiniowane w systemie.",
     },
     vendor: {
       title: "sprzedawca",
-      description: "Dostęp sprzedawca informacje element Zarządzanie element",
+      description: "Uzyskaj dostęp do informacji o dostawcach i funkcji zarządzania.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "element",
-      description: "Dostęp element informacje element Zarządzanie",
+      description: "Uzyskaj dostęp do informacji o agencji i zarządzania.",
     },
   },
 
@@ -5562,26 +5562,26 @@ export default {
       my_public_profile_subtitle: "element Publiczny profil {name}.",
 
       personal_information: "Dane osobowe i profil",
-      personal_information_subtitle: "Edytować element profil, adres element KYC.",
+      personal_information_subtitle: "Edytuj mój profil, adres i KYC.",
       wallet: "Portfele i konta",
-      wallet_subtitle: "element Konta element Połączony Zapłata Karty",
+      wallet_subtitle: "Konta wirtualne i połączone karty płatnicze.",
 
       companies: "Firmy i konta biznesowe",
-      companies_subtitle: "Zarejestrować element firma element Podatek Profile",
+      companies_subtitle: "Zarejestruj moją firmę i profile podatkowe.",
 
       access: "Dostęp do mojego konta API",
       access_subtitle:
-        "OAelement Klienci, Osobisty Dostęp element element Połączony Aplikacje OAuth",
+        "Klienci OAuth, osobiste tokeny dostępu i połączone aplikacje.",
 
       security: "Bezpieczeństwo",
       security_subtitle: "Ustaw dwa czynniki i zarządzaj opcjami logowania społecznościowego.",
 
       preferences: "Preferencje użytkownika",
       preferences_subtitle:
-        "Zmiana Temat, element, element element Domyślna Waluta",
+        "Zmień motyw, poziom, język i domyślną walutę.",
       my_subscriptions: "moje subskrypcje",
       my_subscriptions_subtitle:
-        "Dostęp W celu element AI element element ",
+        "Dostęp do premium AI i funkcji dostosowywania.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "element element Portfel",
+        title: "Wybierz portfel",
         subtitle:
           "Wybierz portfel wirtualny, którego chcesz używać w ramach swojej subskrypcji. Jeśli jeszcze go nie masz, możesz go utworzyć w sekcji portfela. Ten portfel będzie używany do wszelkich opłat.",
       },
@@ -5742,7 +5742,7 @@ export default {
           "Twoja subskrypcja zostanie automatycznie odnowiona, jeśli w Twoim portfelu będzie wystarczająca ilość środków lub jeśli posiadasz ważny kupon.",
       },
       options: {
-        title: "element element",
+        title: "Dodatkowe opcje",
       },
       verify: {
         title: "element",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Z łatwością dodawaj produkty z POD lub dostawców dropshippingowych dzięki Selldone Connect OS — po prostu podłącz swój sklep i ciesz się automatyczną integracją produktów, bez konieczności stosowania wtyczek.",
     },
-    your_license_is_not_eligible: "element Licencja element element ",
+    your_license_is_not_eligible: "Twoja licencja nie kwalifikuje się.",
     sku_dialog: {
       title: "Dodaj Produkt element SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Połącz jedną ze swoich domen z tym partnerem stowarzyszonym. Odwiedzający, którzy dokonają zakupu za pośrednictwem tej domeny, zostaną przypisani do tego podmiotu stowarzyszonego.",
 
-      domain_not_approved_msg: "element Domena element element !",
-      domain_is_not_enable_msg: "element Domena element element włączone!",
+      domain_not_approved_msg: "Domena nie została jeszcze zatwierdzona!",
+      domain_is_not_enable_msg: "Domena nie jest włączona!",
       domain_is_linked_to_other_affiliate_msg:
         "Ta domena jest już połączona z innym partnerem!",
     },
 
-    set_users_first_message: "element element użytkownik element!",
+    set_users_first_message: "Najpierw ustaw użytkownika!",
 
     cluster: {
       title: "element",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Nowy Przyłączać Dodaj element",
-      update_success: "Przyłączać element element",
+      update_success: "Partner został pomyślnie zaktualizowany.",
     },
 
     inputs: {
@@ -5945,27 +5945,27 @@ export default {
       commission: {
         label: "Zamawiać element",
         false_description:
-          "element element prowizja",
+          "Oblicz, korzystając z kombinacji prowizji stałych i procentowych.",
         true_description:
           "Oblicz, korzystając z prowizji specyficznych dla produktu, ustawionych w zakładce cennik.",
-        false_title: "element + element Zamawiać",
+        false_title: "Stała + Prowizja procentowa",
         true_title: "element Zamawiać",
       },
       user: {
         label: "użytkownik (opcjonalnie)",
-        message: "opcjonalnie, element, Przyłączać Nazwać element Selldone",
+        message: "Opcjonalne, np. nazwa partnera w Selldone",
       },
       web: {
-        placeholder: "opcjonalnie, element, element",
+        placeholder: "Opcjonalne, np. partners-web.com",
       },
       address: {
-        placeholder: "opcjonalnie, element, 1200 element, NY, element",
+        placeholder: "Opcjonalnie, np. 1200 POX, NY, USA",
       },
       tel: {
         placeholder: "opcjonalnie, element, 001-808-210354",
       },
       bank: {
-        placeholder: "opcjonalnie, element, element element, nie: 10002-325-800-845213",
+        placeholder: "Opcjonalnie, np. Arstra Bank, nr: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Wybierz element Domena (opcjonalnie)",
@@ -5980,7 +5980,7 @@ export default {
           "Czy ten partner jest obecnie aktywny? Jeśli jest nieaktywny, ich program partnerski nie będzie miał zastosowania do zamówień złożonych za pośrednictwem ich linku.",
       },
       products: {
-        label: "Produkty element element Zamawiać",
+        label: "Produkty kwalifikujące się do prowizji",
         select_product: "Wybierz Produkty",
       },
     },
@@ -6003,7 +6003,7 @@ export default {
   shop_valuations: {
     title: "Zwyczaj cennik element Wyceny",
     subtitle:
-      "element element (element cennik Wejście formularz) W celu element Produkt, element Klienci W celu Wybierz Warianty element element Cena element element Zwyczaj Wejścia",
+      "Przypisz wycenę (formularz wprowadzania ceny) do produktu, umożliwiając klientom wybór wariantów lub personalizację towaru. System następnie obliczy cenę na podstawie niestandardowych danych wejściowych.",
     add_valuation_action: "Tworzyć Nowy element formularz",
     empty_message:
       "Zamiast tworzyć wiele wariantów, rozważ opracowanie strategii wyceny, którą można zastosować do prostego produktu.",
@@ -6014,7 +6014,7 @@ export default {
       action: "Tak, usuń teraz",
     },
     notifications: {
-      delete_success: "element element Usunięto",
+      delete_success: "Wycena została pomyślnie usunięta.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "cennik & element element",
+    label: "Model wyceny i wyceny",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Skonfiguruj system wyceny, aby tworzyć elastyczne ceny za pomocą formuł i tabel referencyjnych dla swoich produktów. Zacznij od nadania tej wycenie unikalnej nazwy.",
     },
     valuation_preview: "Zapowiedź element formularz",
-    load_sample: "element element",
+    load_sample: "Załaduj próbkę",
     conditions: {
       title: "Warunki",
       subtitle:
@@ -6045,13 +6045,13 @@ export default {
     structure: {
       title: "element",
       subtitle:
-        "Projekt element cennik Wejście formularz element element ",
+        "Zaprojektuj tutaj formularz wprowadzania cen, integrując formuły i tabele referencyjne.",
       expand_action: "element",
       collapse_action: "element",
     },
     inputs: {
       title: {
-        message: "element Tytuł element element W celu Klienci",
+        message: "Tytuł ten nie jest widoczny dla klientów.",
         placeholder: "Wpisz nazwę ceny, np. „Cennik kubków”",
       },
     },
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "W tej sekcji możesz ustawić zarówno maksymalną liczbę zastosowań kuponu, jak i najwyższą kwotę rabatu, jaką może zapewnić każdy kupon.",
-      zero_message: "element: element element nie element!",
+      zero_message: "zero: nie ma limitu!",
     },
     duration: {
       subtitle:
@@ -6335,8 +6335,8 @@ export default {
       subtitle:
         "Tutaj masz możliwość ustalenia dodatkowych spersonalizowanych parametrów kuponu.",
       no_limit: "nie element Ograniczenie",
-      has_limit: "element element",
-      has_code_message: "użytkownik element element Kod W celu Dodaj Kupon",
+      has_limit: "Dodatkowe ograniczenia",
+      has_code_message: "Użytkownik powinien wprowadzić kod, aby dodać kupon.",
     },
     club: {
       subtitle:
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Zwiększaj liczbę zakupów klientów dzięki rozgrywkowaniu w swoim sklepie. Ustaw nagrody i szanse na wygraną dla klientów, którzy zdobywają tokeny poprzez zakupy. Każda gra kosztuje 10 tokenów, a dla kupujących po raz pierwszy możesz zaoferować specjalne nagrody. Domyślną grą jest Wheel of Fortune, ale możesz ją dostosować, aby pasowała do układu Twojego sklepu.",
     },
-    empty_prize_list: "Tworzyć element Zarządzaj element element",
+    empty_prize_list: "Tutaj możesz tworzyć nagrody i zarządzać nimi...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6621,7 +6621,7 @@ export default {
         "Tutaj możesz wybrać obraz i kolor nagrody.",
     },
     constraints: {
-      subtitle: "element element ",
+      subtitle: "Określ kryteria i ograniczenia dotyczące zdobycia tej nagrody.",
     },
     prize: {
       title: "element",
@@ -7041,10 +7041,10 @@ export default {
     vendor: {
       title: "Importuj sprzedawcy",
       subtitle:
-        "Prześlij sprzedawca CSV pliki element element W celu Prywatność element",
+        "Prześlij tutaj pliki CSV dostawcy. Upewnij się, że format jest prawidłowy i zgodny z przepisami dotyczącymi prywatności.",
       checklist: {
-        title: "element element",
-        subtitle: "element element W celu element element ",
+        title: "Ważna lista kontrolna",
+        subtitle: "Pamiętaj, aby postępować zgodnie ze wskazówkami.",
         sample_files: "element pliki",
         valid_vendor_name_needed:
           "Musisz podać <b>prawidłową nazwę</b>. <b>nazwa</b> służy do określenia, czy <i>utworzyć</i> nowego dostawcę, czy <i>aktualizować</i> istniejącego.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "element sprzedawcy element",
+    open_vendors_panel: "Otwórz panel dostawców",
     title: "sprzedawca element Lista",
     subtitle:
       "To jest lista próśb od osób, które złożyły podanie, aby zostać dostawcami na Twoim rynku.",
@@ -7091,7 +7091,7 @@ export default {
         "Wyłączenie rynku spowoduje wyłączenie niektórych funkcjonalności. Jeśli chcesz zamknąć cały rynek, powinieneś wyłączyć swój sklep w ustawieniach.",
     },
     distribution_model: {
-      title: "element element",
+      title: "Model dystrybucji",
       subtitle:
         "Rynki mogą działać w ramach różnych modeli dystrybucji. Niezależnie od tego, czy wolisz, aby dostawcy wysyłali produkty bezpośrednio do kupujących, czy też konsolidowali zamówienia w Twoim magazynie w celu wysyłki, możesz tutaj wybrać model, który najlepiej odpowiada Twoim potrzebom.",
     },
@@ -7102,7 +7102,7 @@ export default {
     },
     need_enable_shipping_for_vendors_tips:
       "Włącz wysyłkę dla dostawców w zakładce Sklep > Logistyka dla każdej metody indywidualnie.",
-    transportation_available_tooltip: "element element Dostępny element sprzedawcy",
+    transportation_available_tooltip: "Ta opcja jest dostępna dla dostawców.",
     transportation_not_available_tooltip:
       "Niedostępne dla sprzedawców! Możesz to włączyć w ustawieniach transportu.",
     panel: {
@@ -7113,7 +7113,7 @@ export default {
       title: "element",
       subtitle:
         "Możesz wymagać od dostawców przesłania dokumentów lub podpisania określonych umów. Tutaj określ wymagane dokumenty.",
-      add_document_action: "Dodaj element element",
+      add_document_action: "Dodaj żądanie dokumentu",
     },
     inputs: {
       enable: {
@@ -7132,31 +7132,31 @@ export default {
       },
       need_verify: {
         label: "Produkt element Pływ",
-        false_description: "Nowy sprzedawca Produkty element Na żywo element",
-        false_title: "nie element element",
+        false_description: "Produkty nowych dostawców są natychmiast dostępne.",
+        false_title: "Nie jest wymagana weryfikacja",
         true_description:
-          "sprzedawcy Nowy Produkty element element Na żywo element element Rynek",
-        true_title: "element element",
+          "Nowe produkty dostawców wymagają zatwierdzenia przed wprowadzeniem ich na rynek.",
+        true_title: "Wymagana weryfikacja",
       },
       category: {
         label: "Dodaj nową kategorię",
         true_title: "sprzedawcy element Dodaj Kategorie",
         false_description:
-          "element Dodaj Kategorie sprzedawcy element element Dodaj Produkty W celu element Kategorie",
+          "Dodajesz kategorie. Sprzedawcy mogą dodawać produkty tylko do istniejących kategorii.",
         true_description:
           "Sprzedawcy mogą dodawać kategorie i zarządzać nimi bezpośrednio w swoim panelu dostawców.",
       },
       shipping: {
         label: "Wysyłka element",
-        true_title: "sprzedawcy element Wysyłka element",
+        true_title: "Sprzedawcy mają opcje wysyłki",
         false_description:
-          "sprzedawcy element Dodaj element element Wysyłka metody",
+          "Sprzedawcy nie mogą dodawać ani dostosowywać swoich metod wysyłki.",
         true_description:
           "Sprzedawcy mogą konfigurować własne metody wysyłki, dodawać kurierów i dostosowywać wysyłkę do swoich potrzeb.",
       },
       hidden_customer: {
         label: "Pokaż element Kontakt informacje",
-        true_description: "element Kontakt Detale element element Od sprzedawcy",
+        true_description: "Dane kontaktowe kupującego są ukryte przed dostawcami.",
         false_description:
           "Dane kontaktowe kupującego, takie jak telefon i adres e-mail, są widoczne dla dostawców.",
       },
@@ -7171,10 +7171,10 @@ export default {
 
       listing: {
         label: "lista element sprzedawcy",
-        true_description: "lista element włączone element sprzedawcy sprzedawcy element Zarządzaj lista Rzeczy element Firmy",
-        false_description: "lista element wyłączone element sprzedawcy element element Sklep Właściciel element Zarządzaj lista Rzeczy element Firmy",
+        true_description: "Lista jest włączona dla dostawców. Sprzedawcy mogą zarządzać pozycjami i firmami na liście.",
+        false_description: "Lista jest wyłączona dla dostawców. Tylko właściciel sklepu może zarządzać pozycjami i firmami na liście.",
         requires_listing_active_text:
-          "W celu element sprzedawcy element lista (Rzeczy + Firmy), element Włączyć element Sklep lista element element Kanał → lista element element Z powrotem element W celu element sprzedawca Dostęp",
+          "Aby umożliwić sprzedawcom korzystanie z aukcji (przedmioty + firmy), najpierw włącz funkcję aukcji sklepu w Kanał → Lista. Następnie wróć tutaj, aby zezwolić dostawcy na dostęp.",
         requires_listing_active_button: "element Kanał lista Ustawienia",
       },
 
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "sprzedawca Ustawienia element element",
+      update_success: "Ustawienia dostawcy zostały pomyślnie zaktualizowane.",
     },
     add_document_dialog: {
-      title: "element element",
+      title: "Wymagania dotyczące dokumentów",
       type: {
         title: "element Rodzaj",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Tytuł",
-          placeholder: "element element Tytuł element element ",
+          placeholder: "Wprowadź tytuł żądania dokumentu.",
         },
         guide: {
           label: "przewodnik (opcjonalnie)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Osadzać Kod",
-          placeholder: "element element Osadzać Kod element",
-          message: "element element HTML Kod",
+          placeholder: "Wklej tutaj kod osadzania...",
+          message: "Może zawierać kod HTML.",
         },
         url: {
           label: "URL",
-          message: "element element URL element element ",
+          message: "Wpisz tutaj adres URL dokumentu lub umowy...",
         },
       },
     },
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "element tryb",
       description:
-        "element element tryb, wszystko Zamówienia element Wysłano W celu element Hala magazynowa element element Wysłane W celu Klienci Od element element Lokalizacja sprzedawcy element Wysłać element Rzeczy W celu element Hala magazynowa, element element Wysyłka adres element sprzedawcy element element Hala magazynowa adres",
+        "W tym trybie wszystkie zamówienia są najpierw wysyłane do Twojego magazynu, a następnie wysyłane do klientów z centralnej lokalizacji. Sprzedawcy będą wysyłać swoje produkty do Twojego magazynu, więc adresem wysyłki dla dostawców będzie Twój adres magazynu.",
     },
     Direct: {
       title: "element Wysyłka Od sprzedawca",
       description:
-        "element element tryb, sprzedawcy element Zamówienia element W celu Klienci element Wysyłka adres element sprzedawca Zamówienia element element adres",
+        "W tym trybie sprzedawcy wysyłają zamówienia bezpośrednio do klientów. Adresem wysyłki zamówień dostawcy będzie adres kupującego.",
     },
   },
   /**
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Właściciel element element",
+      title: "Dokument identyfikacyjny właściciela",
       description:
         "Prześlij dokument tożsamości wydany przez organ państwowy, aby zweryfikować tożsamość właściciela firmy lub kluczowego dyrektora.",
     },
@@ -7264,14 +7264,14 @@ export default {
         "Prześlij dokument potwierdzający adres firmy, taki jak rachunek za media, faktura VAT lub umowa najmu.",
     },
     Contract: {
-      title: "element & element",
+      title: "Umowy i porozumienia",
       description:
         "Prześlij umowy lub porozumienia szczegółowo opisujące warunki Twoich relacji biznesowych.",
     },
     Copyright: {
-      title: "element element",
+      title: "Dokumentacja praw autorskich",
       description:
-        "element element W celu element element ",
+        "Dostarcz dokumenty rejestracyjne praw autorskich, aby potwierdzić swoje prawa własności intelektualnej.",
     },
     Privacy: {
       title: "Prywatność zasady element",
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "sprzedawca Portfele",
     subtitle:
-      "nie element W celu element Dodaj Portfele! sprzedawca Portfele element element Włączyć element Zapłata metoda element element (Lubić Stripe Connect), element element Płatności W celu element Połączony sprzedawcy Konta element element włączone, element element W celu element Płacić sprzedawcy, element element kwota element W celu element element Portfel Lista",
+      "Nie ma potrzeby ręcznego dodawania portfeli! Portfele dostawców są tworzone automatycznie. Jeśli włączysz metodę płatności obsługującą podzielone wypłaty (np. Stripe Connect), system automatycznie przekaże płatności na konta połączonych dostawców. Jeśli ta funkcja nie jest włączona, będziesz musiał ręcznie zapłacić dostawcom, a należne im kwoty będziesz mógł sprawdzić na liście portfela.",
     filter_vendor: {
       placeholder: "Filtr element sprzedawca",
     },
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "sprzedawca element",
     order_fee: "🛍️Zamówienie Opłata",
     order_refund: "🛍️Zamówienie element",
-    reverse_fund: "element element",
+    reverse_fund: "Odwrócenie funduszu",
     payout: "element",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "element Historia",
     subtitle:
       "Ta funkcja usprawnia księgowanie Ciebie i Twoich dostawców poprzez prowadzenie szczegółowego rejestru wszystkich transakcji. Płatności mogą być przetwarzane ręcznie za pomocą przelewów bankowych lub innych metod lub automatycznie zarządzane przez dostawców usług płatniczych obsługujących płatności podzielone, takich jak Stripe.",
-    top_up_vendor_action: "element element sprzedawca Rachunek",
+    top_up_vendor_action: "Doładuj konto dostawcy",
   },
 
   /**
@@ -7341,22 +7341,22 @@ export default {
   vendor_pricing_add: {
     title: "Rynek cennik element",
     subtitle:
-      "element element cennik element W celu sprzedawca Produkty, element Cena element element sprzedawca Cena * (1 + Zamawiać%).",
+      "Kiedy przypiszesz model cenowy do produktów dostawcy, cena zostanie automatycznie obliczona jako Cena dostawcy * (1 + prowizja%).",
     delete: {
       subtitle:
-        "element element cennik element element wszystko sprzedawca Produkty połączony W celu element element cennik element, zarabiaj element W celu Aktualizacja wszystko sprzedawca Produkty element element cennik element",
+        "Usunięcie modelu cenowego będzie miało wpływ na wszystkie powiązane z nim produkty dostawców. Przed usunięciem modelu cenowego pamiętaj o zaktualizowaniu wszystkich produktów dostawców, które go używają i przypisaniu im innego modelu cenowego.",
       remove_pricing_action: "Usunąć cennik element",
     },
     inputs: {
       title: {
-        placeholder: "element, element Produkty element",
+        placeholder: "np. klasa produktów cyfrowych...",
       },
       description: {
         placeholder: "Tutaj możesz dodać notatkę...",
       },
       accept_delete: {
         true_description: "Chcę usunąć ten model cenowy.",
-        true_title: "element cennik element element",
+        true_title: "Potwierdź usunięcie modelu cenowego",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Kiedy łączysz usługi wypłat, takie jak Stripe Connect, pobieramy i wyświetlamy saldo dostępne na Twoim koncie Stripe w celach informacyjnych.",
     with_balance: "element Saldo",
-    without_balance: "element Saldo - element tryb",
+    without_balance: "Bez równowagi – tryb szybki",
     bank_transfer: {
       title: "element Przenosić",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "Tutaj możesz dodać notatkę... Ta notatka nie jest widoczna dla sprzedawcy.",
       },
       accept_refund: {
-        true_description: "element element W celu Anulować element Zapłata",
+        true_description: "Chcę anulować tę płatność.",
         true_title: "Anulować & element Zapłata",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "element element",
+        title: "Fundusz odwrócony",
         message:
           "Wycofanie środków sprzedawcy zostało pomyślnie zakończone, a pieniądze zostały przelane z banku do portfela i dodane do salda portfela.",
       },
       payout_success: {
         title: "element",
         message:
-          "element sprzedawcy element element Dodaj",
+          "Wypłata dostawcy została pomyślnie przetworzona i dodana.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "element",
     max_batch_msg: "Maksymalna liczba artykułów, które można zaimportować w jednej partii.",
     max_daily_limit_msg: "Maksymalna liczba elementów, które możesz zaimportować w ciągu jednego dnia.",
-    extra_daily_limit_msg: "element Rzeczy element element ",
+    extra_daily_limit_msg: "Dodatkowe przedmioty dozwolone poza dziennym limitem.",
     add_items_today_msg: "Rzeczy Dodaj Dziś",
-    file_statistic_msg: "Statystyka element element plik",
+    file_statistic_msg: "Statystyki dla tego pliku.",
     used_quota: "Używany element",
   },
 
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "element",
       static: {
-        false_title: "element element",
+        false_title: "Z animacjami",
         false_description:
           "Kategorie i produkty posiadają interaktywną animację pokazującą funkcjonalność.",
         true_title: "Statyczny",
-        true_description: "Kategorie element Produkty element nie element",
+        true_description: "Kategorie i produkty nie mają animacji.",
       },
     },
 
@@ -7521,16 +7521,16 @@ export default {
         false_description:
           "Prosty i minimalny tryb bez żadnych dodatkowych akcji na kartach produktów.",
         true_description:
-          "Pokaż element Kupić & Dodaj W celu element element Produkt Karta element",
-        true_title: "Pokaż element element ",
+          "Pokaż przyciski Szybki zakup i Dodaj do porównania po najechaniu myszką na kartę produktu.",
+        true_title: "Pokaż akcję po najechaniu myszką",
       },
     },
     filter_products: {
       title: "Filtr Produkty",
       only_available: {
-        false_description: "Pokaż wszystko Produkty element element Sklep Lista element Domyślna",
+        false_description: "Domyślnie wyświetlaj wszystkie produkty na liście sklepu.",
         true_description:
-          "Pokaż element Dostępny Produkty element element Sklep Lista element Domyślna",
+          "Domyślnie pokazuj tylko dostępne produkty na liście sklepu.",
         true_title: "Dostępny Produkty",
         false_title: "wszystko Produkty",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "Filtr Kategorie",
       hide_empty_folders: {
-        false_description: "Pokaż wszystko Kategorie element element Sklep Lista",
+        false_description: "Pokaż wszystkie kategorie na liście sklepów.",
         false_title: "Pokaż wszystko Kategorie",
         true_title: "Ukryj element Kategorie",
         true_description:
-          "Pokaż element Kategorie element Produkty element element Sklep Lista",
+          "Pokaż tylko kategorie z produktami na liście sklepu.",
       },
     },
 
@@ -7591,7 +7591,7 @@ export default {
       page_vendor_login: {
         label: "sprzedawca Zaloguj sie strona",
         message:
-          "Wybierz element Zwyczaj Lądowanie strona element sprzedawca Zaloguj sie element Wideo, Obrazy, element element Projekt element strona element element W celu sprzedawcy element element ",
+          "Wybierz niestandardową stronę docelową do logowania dostawcy. Dołącz wideo, obrazy lub tekst, aby uzyskać unikalny projekt. Ta strona jest wyświetlana sprzedawcom, którzy nie są zalogowani.",
       },
       page_vendor_registered: {
         label: "sprzedawca Zarejestrowany strona",
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "główna Stronie internetowej element",
-      subtitle: "element element Od Google element",
+      subtitle: "Wybierz swoją ulubioną czcionkę z Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "element element",
-        message: "element element Wartość",
+        label: "Rodzina czcionek",
+        message: "Wprowadź wartość rodziny czcionek.",
       },
       font_res: {
-        label: "element element",
-        message: "element element ",
+        label: "Zasób czcionki",
+        message: "Określ zasób czcionki.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "nagłówek Tytuł",
-        set_empty: "element element Tytuł",
+        set_empty: "Ustaw pusty tytuł",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Edytować element element",
-    add_title: "Dodaj element element",
+    edit_title: "Edytuj zestaw właściwości",
+    add_title: "Dodaj zestaw właściwości",
     config: {
       subtitle:
         "Ustaw tytuł i opis zestawu właściwości. Będzie widoczny tylko dla personelu.",
@@ -7687,16 +7687,16 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "element element Tytuł element element ",
+        placeholder: "Wprowadź tytuł zestawu właściwości...",
       },
       description: {
-        placeholder: "element element Opis (opcjonalnie)",
+        placeholder: "Wprowadź krótki opis... (opcjonalnie)",
       },
       custom_variants: {
         true_title: "Zwyczaj Warianty",
         false_title: "Domyślna Warianty",
-        true_description: "element element Produkt Warianty",
-        false_description: "element Domyślna element Warianty",
+        true_description: "Dostosuj warianty produktu.",
+        false_description: "Użyj domyślnych wariantów globalnych.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "element element (opcjonalnie)",
+        placeholder: "Ustaw wartości ustaw... (opcjonalnie)",
         messages:
-          "element element 🛍️Zamówienie",
+          "Możesz podać sugestie dotyczące wartości i dostosować kolejność.",
       },
     },
   },
@@ -7833,14 +7833,14 @@ export default {
       "Aby dodać klienta do swojego sklepu, prosimy o podanie adresu e-mail lub numeru telefonu.",
     more: {
       title: "Dodaj więcej szczegółów",
-      subtitle: "element Waluta, klient Klub, Segmenty, adres element Więcej. .",
+      subtitle: "Ustaw walutę, klub klienta, segmenty, adres i nie tylko.",
     },
     detail: {
       subtitle:
         "Prowadź rejestr danych osobowych swojego klienta. Szanuj prywatność swoich klientów.",
     },
     preferences: {
-      subtitle: "element Domyślna użytkownik Waluta, klient Klub, element Segmenty element",
+      subtitle: "Ustaw tutaj domyślną walutę użytkownika, klub klienta i segmenty.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Kliknij poniższy przycisk, jeśli chcesz wysłać tę paczkę za pośrednictwem firmy <b>kurierskiej</b> .",
     courier_action: "Dostawa element",
-    courier_action_subtitle: "element element ",
+    courier_action_subtitle: "Kurier odbierze paczkę.",
 
-    pickup_ready_action: "element element",
+    pickup_ready_action: "Odbiór gotowy",
     pickup_ready_action_subtitle: "Zamówienie jest gotowe do odbioru przez klienta.",
 
-    service_action: "element element",
+    service_action: "Potwierdzenie wykonania",
 
     checklist: [
       "Sprawdź dowód osobisty kuriera.",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Opcja 3: Natychmiastowa wysyłka.",
 
     verify_delivery_input: {
-      true_title: "element Dostawa element",
+      true_title: "Potwierdź zakończenie dostawy",
       true_description:
         "Potwierdzam, że zamówienie zostało dostarczone do Klienta.",
     },
@@ -8006,10 +8006,10 @@ export default {
       "Na Twoje żądanie prowizja zostanie wypłacona na wskazany przez Ciebie rachunek bankowy. Podaj tutaj dane swojego banku.",
     no_bank_info: "nie element Informacje!",
     actions: {
-      edit_my_bank_info: "Edytować element element Informacje",
+      edit_my_bank_info: "Edytuj informacje o moim banku",
     },
     bank_dialog: {
-      title: "element element Detale",
+      title: "Dane mojego banku",
       info: {
         title: "element",
         subtitle:
@@ -8028,7 +8028,7 @@ export default {
         account_number: {
           label: "Numer konta",
           message:
-            "element element Rachunek",
+            "Unikalny numer powiązany z konkretnym kontem bankowym.",
         },
         routing_number: {
           label: "Numer rozliczeniowy (USA) lub kod rozliczeniowy (Wielka Brytania)",
@@ -8041,7 +8041,7 @@ export default {
             "Międzynarodowy kod używany do globalnej identyfikacji banków, szczególnie w przypadku przelewów międzynarodowych.",
         },
         iban: {
-          label: "IBAN (element element Rachunek element)",
+          label: "IBAN (Międzynarodowy Numer Konta Bankowego)",
           message:
             "Używany głównie w Europie, numer IBAN jest uzgodnionym na szczeblu międzynarodowym systemem identyfikacji rachunków bankowych poza granicami kraju.",
         },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "element element Informacje element element ",
+        message: "Informacje o Twoim banku zostały pomyślnie zaktualizowane.",
       },
     },
   },
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "element element",
+      title: "Poziom brązowy",
       description:
-        "element element 2% Zamawiać Od element element",
+        "Jesteś na poziomie brązowym. Otrzymałeś 2% prowizji od swoich poleconych.",
     },
     Silver: {
-      title: "element element",
+      title: "Poziom srebrny",
       description:
-        "element element 4% Zamawiać Od element element",
+        "Jesteś na poziomie srebrnym. Otrzymałeś 4% prowizji od swoich poleconych.",
     },
     Gold: {
-      title: "element element",
+      title: "Poziom złoty",
       description:
-        "element element 6% Zamawiać Od element element",
+        "Jesteś na Złotym Poziomie. Otrzymałeś 6% prowizji od swoich poleconych.",
     },
     Platinum: {
-      title: "element element",
+      title: "Poziom platynowy",
       description:
-        "element element 8% Zamawiać Od element element",
+        "Jesteś na poziomie platynowym. Otrzymałeś 8% prowizji od swoich poleconych.",
     },
     Diamond: {
-      title: "element element",
+      title: "Diament poziomu",
       description:
-        "element element 10% Zamawiać Od element element",
+        "Jesteś na poziomie diamentowym. Otrzymałeś 10% prowizji od swoich poleconych.",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Zarabiaj",
-    subtitle: "element Dostęp W celu firma element",
+    subtitle: "Zwiększ dostęp do możliwości biznesowych.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8525,28 +8525,28 @@ export default {
 
     template: {
       title: "element",
-      valid_message: "element element Tworzyć Zwyczaj SMS wiadomość",
-      provider_not_enable_message: "element SMS element element włączone!",
+      valid_message: "Możesz tworzyć własne wiadomości SMS.",
+      provider_not_enable_message: "Dostawca SMS-ów nie jest włączony!",
       need_custom_provider_message:
         "Dostosowane wiadomości SMS działają tylko wtedy, gdy ustawisz niestandardowego dostawcę.",
       add_new: "Dodaj Nowy",
       disable_reason: {
-        set_provider: "element element !",
-        provider_is_disabled: "element element !",
-        otp: "element - element element!",
-        select_another_provider: "Wybierz element element",
+        set_provider: "Najpierw ustaw swojego dostawcę!",
+        provider_is_disabled: "Dostawca jest wyłączony!",
+        otp: "OTP — brak możliwości dostosowania!",
+        select_another_provider: "Wybierz innego dostawcę.",
       },
       enable_only_filter: "Pokaż element włączone",
 
       text_template_not_supported_msg:
         "Twój dostawca nie obsługuje wiadomości tekstowych.",
       structure_template_not_supported_msg:
-        "element element Wsparcie element wiadomość",
+        "Twój dostawca nie obsługuje komunikatów strukturalnych.",
 
       structured_data: "element Dane",
 
       menu: {
-        reset_error: "element element",
+        reset_error: "Zresetuj błędy",
         send_test: "Wysłać element Wiadomość",
       },
     },
@@ -8559,19 +8559,19 @@ export default {
           "Możesz utworzyć szablon wiadomości SMS na stronie internetowej swojego dostawcy usług SMS, a następnie określić tutaj jej kod i strukturę danych. Przekażemy te informacje Twojemu dostawcy, gdzie zostanie wygenerowana właściwa wiadomość SMS.",
         code: "Kod",
         language_msg: "Pozostaw to pole puste, aby ustawić je jako domyślne.",
-        enable_msg: "element Szablon element element Używany W celu Tworzyć wiadomość",
+        enable_msg: "Ten szablon będzie używany do tworzenia wiadomości.",
       },
       text: {
-        title: "element element",
+        title: "Zwykły tekst",
         subtitle:
           "Wpisz tutaj spersonalizowaną wiadomość SMS. Wartości dynamiczne zostaną zastąpione ich wartościami rzeczywistymi przed wysłaniem do użytkownika.",
         message: "Wiadomość",
         reset_to_default: "element W celu Domyślna",
 
         auto_fill: {
-          title: "automatyczny element element",
+          title: "Parametry automatycznego wypełniania",
           subtitle:
-            "element element Selldone element element Wartość",
+            "Możesz użyć każdego z tych parametrów w tekście, a Selldone zastąpi je odpowiednią wartością.",
         },
 
         sample: {
@@ -8585,12 +8585,12 @@ export default {
         add_new_parameter: "Dodaj Nowy element",
 
         auto_fill: {
-          title: "automatyczny element element",
+          title: "Parametry automatycznego wypełniania",
           subtitle:
             "Możesz ustawić każdy z tych parametrów jako wartość, a Selldone zastąpi je odpowiednią wartością. Dla uproszczenia lepiej jest zdefiniować wartości domyślne jako szablony u dostawcy usług SMS. W takim przypadku nie będzie potrzeby definiowania w tym miejscu wartości parametrów.",
         },
         request: {
-          title: "element element",
+          title: "Przykładowy ładunek",
         },
         sample: {
           title: "element Szablon Wiadomość",
@@ -8603,7 +8603,7 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "element element",
+      title: "Zwykły tekst",
       desc: "Wiadomość zostanie utworzona z tekstu z parametrami automatycznej zamiany i wysłana.",
     },
     template: {
@@ -8615,10 +8615,10 @@ export default {
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "Zwyczaj SMS element",
-    reset_error: "element element",
+    reset_error: "Zresetuj błędy",
     subtitle:
       "Skonfiguruj niestandardowego dostawcę usług SMS i dostosuj uwierzytelniającą wiadomość SMS oraz nazwę firmy. Domyślny dostawca po prostu wysyła SMS-y uwierzytelniające i informuje o tym w niektórych krajach znajdujących się na białej liście.",
-    plain_text: "element element",
+    plain_text: "Zwykły tekst",
     structural_template: "element Szablon",
     errors_limit_msg:
       "Jeśli Twoja usługa przekroczy 100 błędów, zostanie automatycznie wyłączona! Możesz zresetować błędy, aby je ponownie włączyć.",
@@ -8630,7 +8630,7 @@ export default {
         "Wiadomości SMS będą dostarczane za pośrednictwem usługodawcy.",
     },
     test_input: {
-      true_title: "element element",
+      true_title: "Sprawdź konfigurację",
       true_description:
         "Wyślemy wiadomość testową na Twój numer telefonu 📞 <b>{phone}</b>, może Cię to obciążyć, ale możesz się upewnić, że wszystko działa dobrze.",
     },
@@ -8653,8 +8653,8 @@ export default {
         "Zostaną wysłane wiadomości uwierzytelniające i powiadomienia o zamówieniu.",
     },
     otp: {
-      title: "element element",
-      description: "element wiadomość element element Wysłano",
+      title: "Tylko OTP",
+      description: "Wiadomości uwierzytelniające zostaną wysłane.",
     },
   },
 
@@ -8679,9 +8679,9 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Zwyczaj element element",
+    title: "Niestandardowy serwer pocztowy",
     subtitle:
-      "Connect element element usługa element W celu Wysłać E-maile element element Zwyczaj Domena",
+      "Połącz się ze swoim dostawcą usług pocztowych, aby wysyłać wiadomości e-mail za pośrednictwem domeny niestandardowej.",
     provider: "element",
     enable_input: {
       false_description: "Twoje e-maile będą wysyłane za pośrednictwem domeny myselldone.",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "Wysłać element element E-mail",
+      send_test_email: "Wyślij e-mail testowy",
     },
 
     messages: {
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "Plik został pomyślnie usunięty.",
     },
-    drag_sort_msg: "element element pliki",
-    paid_mode_msg: "Użytkownicy element Pobierz element element Produkt",
+    drag_sort_msg: "Możesz przeciągać i sortować pliki.",
+    paid_mode_msg: "Użytkownicy mogą go pobrać dopiero po zakupie produktu.",
     free_mode_msg:
       "Użytkownicy mogą pobrać go bezpłatnie. Przykładowe pliki muszą mieć mniej niż 50 MB.",
     has_gust_shopping_msg:
       "Użytkownicy zarejestrowani i goście mogą pobierać pliki, ponieważ zakupy gości są włączone w ustawieniach sklepu > przepływ.",
     only_registered_shopping_msg:
-      "element Zarejestrowany Użytkownicy element Pobierz element pliki",
+      "Tylko zarejestrowani użytkownicy mogą pobierać przykładowe pliki.",
     file_count_limit: "pliki Liczyć element",
   },
 
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "nie ograniczenie",
     import: {
       title: "element profil",
-      subtitle: "Wybierz element element Lokalizacje profil",
+      subtitle: "Wybierz profil zapisanych lokalizacji.",
     },
     export: {
       title: "Ratować profil",
-      subtitle: "sklep Lokalizacje element element ",
+      subtitle: "Lokalizacje sklepów do wykorzystania w przyszłości.",
     },
     has_restriction_input: {
       title: "element Lokalizacja ograniczenie",
       description:
         "Ze względu na ustalone ograniczenia lokalizacyjne klienci mogą kupić ten produkt wyłącznie w określonym kraju i kodzie pocztowym.",
     },
-    zip_pin_code: "element / element kod",
+    zip_pin_code: "Kody pocztowe/Pin",
     no_country_selected_error:
       "Podaj co najmniej jeden kraj wraz z listą kodów pocztowych/pin. Bez tego ten produkt nie będzie dostępny.",
     tips: "Kliknij przycisk <b>+ Dodaj kraj</b>, aby rozpocząć tworzenie nowego zestawu lokalizacji. Gdy już skończysz, możesz go zapisać, klikając w prawym górnym rogu <b>⋮ Menu</b> i wybierając <b>Zapisz profil</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Wprowadź nazwę, aby zapisać ten zestaw lokalizacji. Ten zapisany zestaw lokalizacji można zastosować do innych produktów, umożliwiając szybkie wczytanie lokalizacji za pomocą jednego kliknięcia. Jeżeli profil o podanej nazwie już istnieje, zostanie zaktualizowany o nowe wartości.",
       title_input: {
         title: "profil Tytuł",
-        placeholder: "element Kategoria Nazwać, element sklep Nazwać,. ..",
+        placeholder: "Nazwa kategorii lub nazwa sklepu...",
       },
     },
     load_profile_dialog: {
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Nie przegap swoich zamówień!",
     msg: "Zarządzaj swoją firmą w dowolnym miejscu i czasie.",
-    scan_qr_code: "element element !",
+    scan_qr_code: "Zeskanuj mnie telefonem!",
 
     notification: {
       title: "Powiadomienie",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "Zamówienia",
-      subtitle: "zobacz element Zamówienia element Zarządzaj element",
+      subtitle: "Przeglądaj swoje zamówienia i zarządzaj nimi.",
     },
     product: {
       title: "Produkty",
-      subtitle: "Spis Zarządzanie element Produkt element",
+      subtitle: "Zarządzanie zapasami i proste produkty.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "Dodaj Nowy sklep",
-    i_have_a_deal: "element element ",
+    i_have_a_deal: "Mam umowę",
     access: {
       title: "Dostęp element",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "element element ",
+    title: "Harmonogram wydawania treści",
     subtitle:
       "Oto lista zaplanowanych artykułów, które mają zostać opublikowane w przyszłości. Masz możliwość planowania postów na blogu, a nawet opisów produktów, które mają być publikowane w określonych godzinach.",
   },
@@ -9493,11 +9493,11 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Wysłać element element",
+    title: "Wyślij bezpośrednie żądanie",
     message:
       "Zidentyfikuj 3 najważniejsze potrzeby biznesowe, aby prosperować i zyskiwać na Selldone. Informacje te zostaną udostępnione bezpośrednio założycielom i dyrektorom i zostaną dokładnie rozważone. Możesz także aktualizować swoje potrzeby w miarę upływu czasu od przesłania.",
-    expand_action: "zapis element element",
-    input_label: "element element",
+    expand_action: "Napisz prośbę...",
+    input_label: "Twoja prośba",
     to: {
       ceo: "Wysłać W celu element",
       team: "Wysłać W celu element",
@@ -9545,16 +9545,16 @@ export default {
     test: {
       title: "sklep",
       subtitle: "element usługa Raport",
-      action: "element element",
-      last_update: "element element ",
+      action: "Połączenie testowe",
+      last_update: "Ostatnia aktualizacja:",
     },
     service_status: {
       title: "usługa status",
-      syncing_message: "element element ",
+      syncing_message: "Podczas procesu synchronizacji...",
       action: "element wszystko",
       connect_status: "Status połączenia",
       service_status: "usługa status",
-      auto_confirm_enable_msg: "element element Zamówienia element włączone",
+      auto_confirm_enable_msg: "Automatyczne potwierdzanie zamówień jest włączone.",
       auto_confirm_disable_msg:
         "Automatyczne potwierdzanie zamówień nie jest włączone.",
       shipping_enable_msg:
@@ -9565,10 +9565,10 @@ export default {
       auto_confirm_order: "automatyczny element Zamówienia",
       test_mode: "element tryb",
       status: {
-        subtitle: "element informacje element element status",
+        subtitle: "Ogólne informacje o stanie synchronizacji.",
       },
       sync: {
-        title: "element element",
+        title: "Synchronizuj szczegóły",
         subtitle:
           "Szczegóły synchronizacji wewnętrznej. Informacje te są zapisywane po pomyślnym zakończeniu epoki procesu synchronizacji.",
         no_data: "nie element informacje!",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Lista dodanych produktów od {name}. Upewnij się, że Twój produkt ma unikalną nazwę i numer SKU. Niektóre usługi Connect są używane do migracji, więc jeśli masz produkty ze zduplikowanymi <b>SKUs</b> i <b>Names</b>, te produkty zostaną zmienione!",
       action: "element Produkty",
-      syncing_message: "element element ",
+      syncing_message: "Podczas procesu synchronizacji...",
     },
 
     logs: {
@@ -9600,16 +9600,16 @@ export default {
       test: {
         false_title: "element wszystko",
         false_desc: "element wszystko Dostępny Produkty, Kategorie, Klienci",
-        true_title: "element (element element )",
+        true_title: "Ograniczony (zalecany dla początkujących)",
         true_desc:
           "Zdobądź maksymalnie 5 produktów, kategorii i klientów. W dowolnym momencie możesz przełączyć go w tryb pełny w obszarze Połącz > Ustawienia.",
       },
       overwrite: {
-        false_title: "element element Zmiana element element",
+        false_title: "Nie zmieniaj, jeśli istnieje",
         false_desc: "Zachowaj istniejące szczegóły produktu i kategorii w niezmienionej postaci.",
         true_title: "element",
         true_desc:
-          "Aktualizacja element Produkt, element, element Kategoria informacje",
+          "Zaktualizuj istniejące informacje o produkcie, wariancie i kategorii.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
@@ -9622,11 +9622,11 @@ export default {
       },
       enable: {
         label: "Status połączenia",
-        true_desc: "Spis element Zamówienia element element ",
+        true_desc: "Zapasy i zamówienia zostaną zsynchronizowane.",
       },
       confirm: {
         label: "automatyczny element Zamówienia",
-        false_desc: "element element 🛍️Zamówienie element",
+        false_desc: "Należy potwierdzić zamówienie ręcznie.",
         true_desc:
           "Zamówienia z płatnością na żywo będą automatycznie zatwierdzane. Zamówienia z płatnością za debugowanie nie będą zatwierdzane automatycznie.",
         tips: "Zamówienia opłacone kartą podarunkową lub za pobraniem lub bramkami płatniczymi w trybie debugowania stanowią wyjątek i nie będą potwierdzane automatycznie.",
@@ -9661,8 +9661,8 @@ export default {
         "Zapomnij o aplikacjach i wtyczkach do dropshippingu! Connect to przyszłość wieloplatformowego zarządzania zamówieniami.",
       auto_confirm: "automatyczny element",
       shipping: "Wysyłka",
-      syncing_now: "element element!",
-      sync_not_started: "element element start element!",
+      syncing_now: "Synchronizuję teraz!",
+      sync_not_started: "Synchronizacja jeszcze się nie rozpoczęła!",
     },
   },
 
@@ -9700,7 +9700,7 @@ export default {
     add_new_action: "Dodaj Nowy strona",
     subtitle:
       "Twórz charakterystyczne, responsywne, niestandardowe strony dla swojej marki, korzystając z wszechstronnego edytora wbudowanego opartego na sztucznej inteligencji i automatycznie generuj dynamiczną treść poprzez wprowadzanie danych.",
-    empty_message: "Projekt Zwyczaj Strony element element & element",
+    empty_message: "Projektuj niestandardowe strony metodą przeciągnij i upuść...",
   },
 
   /**
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Uwagi",
     subtitle: "To jest lista komentarzy społeczności.",
-    empty_msg: "nie Uwagi element element ",
+    empty_msg: "Dotychczas nie pojawił się żaden komentarz...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Kategorie",
     subtitle: "To jest lista kategorii społeczności.",
     new_category_action: "Nowa kategoria",
-    empty_msg: "nie Kategorie element element ",
+    empty_msg: "Do tej pory nie utworzono żadnych kategorii...",
     filter: {
       delete: {
         title: "Usunięto",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "element",
-    subtitle: "element element Lista element element ",
+    subtitle: "To jest lista postów społeczności.",
     filter: {
       deleted: {
         title: "Usunięto",
@@ -9758,19 +9758,19 @@ export default {
         description: "Pokaż raport element",
       },
     },
-    empty_msg: "nie element element ",
+    empty_msg: "Do tej pory nie utworzono żadnych postów...",
     menu: {
       open_post: {
-        title: "element element",
-        subtitle: "Pogląd element Edytować element element Społeczność",
+        title: "Otwórz pocztę",
+        subtitle: "Wyświetl i edytuj post w społeczności.",
       },
       spam: {
         title: "Raport & Usunąć element",
-        subtitle: "element Usunąć element element użytkownik",
+        subtitle: "Masowe usuwanie postów i blokowanie użytkownika.",
       },
       delete: {
         title: "Usunąć element",
-        subtitle: "Usunąć element element",
+        subtitle: "Usuń ten post.",
       },
     },
   },
@@ -9790,7 +9790,7 @@ export default {
     shopping: {
       title: "Google element",
       subtitle:
-        "Dane element element informacje element element Połączyć W celu element Dodaj wszystko Produkty element Kategorie W celu Google element",
+        "Źródła danych wskazują pochodzenie informacji katalogowych w Google. Kliknij ten link, aby automatycznie dodać wszystkie produkty i kategorie do gadżetów Google.",
       tips: "Za pomocą tego narzędzia możesz łatwo i automatycznie zarządzać reklamami Google.",
       link_message: "Google Produkty element URL",
     },
@@ -9798,12 +9798,12 @@ export default {
       title: "szukaj element",
       subtitle: "Dodaj metatag do swojej strony głównej w celu weryfikacji Google Search Console.",
       code: {
-        label: "element element Etykietka Meta",
-        placeholder: "Od element, element element Google",
+        label: "Metatag weryfikacyjny",
+        placeholder: "Z Google np. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google element & element",
+      title: "SERP Google i słowa kluczowe",
       subtitle:
         "Najdokładniejsze dane do audytu SEO pozyskujemy od Google i prezentujemy je Tobie w wygodny sposób. Po prostu wykonaj podane kroki.",
     },
@@ -9829,9 +9829,9 @@ export default {
   cashback: {
     add_new: "Dodaj Nowy cashback",
     title: "cashback element",
-    boosted: "element (2element)",
+    boosted: "Wzmocnienie (2x)",
     min_purchase: "Minimalny zakup",
-    only_first_order: "element element 🛍️Zamówienie",
+    only_first_order: "Tylko Pierwsze Porządek",
     total_cashback: "Całkowity cashback",
     delete_alert: {
       title: "Usunąć cashback element",
@@ -9839,7 +9839,7 @@ export default {
       action: "Tak, usuń teraz",
     },
     notifications: {
-      delete_success: "cashback element Usunięto element",
+      delete_success: "Program Cashback został pomyślnie usunięty.",
     },
   },
   /**
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "cashback element",
-      message: "element element cashback element Od 1% W celu 20%.",
+      message: "Wprowadź procent zwrotu gotówki od 1% do 20%.",
     },
     currency_input: {
       message: "Program cashback będzie dostępny tylko dla tej waluty.",
     },
     limit_input: {
       title: "element",
-      hint: "element element maksimum Ilość element cashback",
-      zero_message: "element 0 element Nieograniczony cashback",
+      hint: "Wprowadź maksymalną kwotę zwrotu gotówki.",
+      zero_message: "Wpisz 0, aby uzyskać nieograniczony zwrot pieniędzy.",
     },
     duration: {
       title: "Czas trwania element",
@@ -9926,7 +9926,7 @@ export default {
       title: "Opis",
     },
     constraints: {
-      subtitle: "element element cashback element",
+      subtitle: "Ustaw ograniczenia programu cashback.",
     },
     min_purchase_input: {
       hint: "Wprowadź minimalną kwotę zakupu w programie cashback.",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "Program cashback będzie dostępny dla wszystkich zamówień.",
       true_desc:
         "Program cashback będzie dostępny tylko przy pierwszym zamówieniu.",
-      true_title: "element element 🛍️Zamówienie",
+      true_title: "Tylko Pierwsze Porządek",
       false_title: "wszystko Zamówienia",
     },
     qualify_input: {
@@ -9954,8 +9954,8 @@ export default {
         "Powiązując klaster z programem cashback, możesz efektywniej nim zarządzać.",
     },
     notifications: {
-      add: "cashback element Dodaj element",
-      edit: "cashback element element ",
+      add: "Program Cashback został pomyślnie dodany.",
+      edit: "Program Cashback został pomyślnie zaktualizowany.",
     },
     enable_input: {
       true_msg: "Program cashback jest aktywny i klienci mogą z niego korzystać.",
@@ -9964,11 +9964,11 @@ export default {
     },
     boosted_input: {
       false_title: "Normalna",
-      true_title: "element (2element cashback)",
+      true_title: "Zwiększenie (2x zwrot gotówki)",
       true_msg:
         "Program cashback jest w trybie boost i klienci otrzymają 2x cashback.",
       false_msg:
-        "element cashback element element Normalna tryb element Klienci element Odbierać Normalna cashback",
+        "Program zwrotu gotówki działa w trybie normalnym i klienci otrzymają normalny zwrot gotówki.",
     },
   },
 
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "element Zapłata",
-        subtitle: "element element ",
+        subtitle: "Obsługiwany częściowy lub pełny zwrot pieniędzy.",
       },
       delivery: {
-        title: "element element Dostawa",
+        title: "Potwierdź dostawę",
         subtitle: "Możesz ręcznie potwierdzić dostawę dla dostawcy płatności.",
       },
     },
@@ -9997,14 +9997,14 @@ export default {
       "Ze względów bezpieczeństwa zwrotowi podlegają wyłącznie zamówienia opłacone w ciągu ostatnich 7 dni.",
     payment_amount: "Wielkość płatności",
     total_refund_amount: "Całkowity element Ilość",
-    can_refund: "element element",
+    can_refund: "Może dokonać zwrotu",
     refund_amount: "element Ilość",
     verify: {
-      title: "element element",
+      title: "Zweryfikuj zwrot pieniędzy",
       description:
         "Potwierdzam, że kwota zwrotu jest prawidłowa i chcę kontynuować.",
     },
-    action: "element element",
+    action: "Zwrot pieniędzy teraz",
   },
 
   /**
@@ -10019,7 +10019,7 @@ export default {
       description:
         "Potwierdzam, że zamówienie zostało dostarczone do Klienta.",
     },
-    action: "element element",
+    action: "Potwierdź teraz",
   },
 
   /**
@@ -10031,8 +10031,8 @@ export default {
     subtitle:
       "W tej sekcji możesz dodawać produkty sprzedaży krzyżowej dla tej strony produktu i zarządzać nimi. Produkty te będą wyświetlane klientom jako sugestie dotyczące zakupu obok głównego artykułu. Możesz także ustawić rabaty, aby zachęcić i zachęcić do dodatkowych zakupów. System zaprezentuje maksymalnie 3 pozycje, które klient będzie mógł wziąć pod uwagę.",
     dialog: {
-      edit_title: "Edytować element element Produkt",
-      add_title: "Dodaj Nowy element element Produkty",
+      edit_title: "Edytuj produkt do sprzedaży krzyżowej",
+      add_title: "Dodaj nowe produkty do sprzedaży krzyżowej",
       target: {
         title: "element Produkt",
         subtitle:
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "element Produkt",
-        subtitle: "element Produkt element element ",
+        subtitle: "Ten produkt został wybrany do promocji cross-sellingu.",
         manage_product: "Zarządzaj Produkt",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Stwórz przekonujący i kuszący tytuł, który przyciągnie uwagę klientów.",
           placeholder:
-            "element & Ratować: element element !",
+            "Pakietuj i oszczędzaj: uzupełnij swój wygląd dzięki naszej starannie wybranej ofercie!",
         },
       },
       action: {
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Dodaj Warianty element element",
+    title: "Dodaj warianty zbiorczo",
     variants: {
-      title: "element element",
+      title: "Opcje wariantów",
       subtitle:
         "Wybierz maksymalnie dwie opcje wariantu. Po dokonaniu wyboru możesz wybrać, które konkretne warianty mają zostać utworzone automatycznie.",
     },
     values: {
-      title: "element element",
-      subtitle: "element element ",
+      title: "Wartości wariantów",
+      subtitle: "Wprowadź tutaj możliwe wartości dla każdej opcji wariantu.",
       prevent_duplicates_tips:
         "<b>Uwaga:</b> Automatycznie sprawdzamy istniejące warianty, aby zapobiec duplikatom.",
     },
     inventory: {
       title: "element Spis",
-      subtitle: "element element start Spis Liczyć element element Nowy Warianty",
+      subtitle: "Ustaw początkową inwentaryzację dla nowych wariantów.",
     },
     add_variants_action: "Tworzyć Warianty",
   },
@@ -10125,20 +10125,20 @@ export default {
       enable_msg: "Ten most do usług zewnętrznych jest włączony.",
       disable_msg: "Ten most do usług zewnętrznych jest wyłączony.",
       has_shipping_msg:
-        "{name} Wsparcie Wysyłka element element W celu Włączyć automatyczny Wysyłka element element {name} element element Wymeldować się strona",
+        "{name} obsługuje wysyłkę. Masz więc możliwość włączenia automatycznego obliczania wysyłki przez {name} na stronie kasy.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
       title: "Produkt element",
-      available_in_stock_msg: "Produkt element Dostępny element element",
-      out_of_stock_msg: "Produkt element element ",
+      available_in_stock_msg: "Produkt dostępny w magazynie.",
+      out_of_stock_msg: "Produkt jest niedostępny.",
       file_count_msg:
-        "{files_count} pliki element Całkowity {files_size} Prześlij element element Produkt",
-      no_file_uploaded_msg: "nie plik element element Prześlij element",
+        "Pliki {files_count} zawierające łącznie {files_size} przesłane dla tego produktu.",
+      no_file_uploaded_msg: "Żaden plik nie został jeszcze przesłany.",
       no_image_uploaded_msg:
-        "Prześlij element Produkt Obraz W celu zarabiaj element Więcej. . element",
+        "Prześlij zdjęcie produktu, aby uczynić go bardziej atrakcyjnym.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10165,13 +10165,13 @@ export default {
      */
     pricing: {
       title: "cennik",
-      no_product_price_msg: "element Domyślna Produkt Cena element element !",
+      no_product_price_msg: "Domyślna cena produktu nie została jeszcze ustalona!",
       listing_pricing_msg: "lista cennik:",
-      has_valuation_msg: "Produkt element element",
+      has_valuation_msg: "Produkt posiada wycenę.",
       subscription_pricing_msg:
-        "element Produkt element {count} Subskrypcja cennik Plany",
+        "Ten produkt ma plany cenowe subskrypcji {count}.",
       has_no_subscription_pricing_msg:
-        "element Produkt element nie Subskrypcja cennik Plany",
+        "Ten produkt nie ma planów cenowych subskrypcji.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "element Subskrypcja cennik Plany",
       subtitle:
-        "element Produkt element nie Subskrypcja cennik Plany element element W celu Dodaj element element Subskrypcja cennik element W celu zarabiaj element Produkt Dostępny element Subskrypcja Zakup",
+        "Ten produkt nie ma planów cenowych subskrypcji. Aby ten produkt był dostępny do zakupu w ramach subskrypcji, musisz dodać co najmniej jeden plan cenowy subskrypcji.",
       pricing_plans: "cennik Plany",
     },
 
@@ -10189,11 +10189,11 @@ export default {
     location: {
       title: "element Lokalizacja ograniczenie ● {status}",
       status: {
-        has_restriction: "Dostępny element {count} element",
-        no_restriction: "element element",
+        has_restriction: "Dostępne w krajach {count}",
+        no_restriction: "Nie ograniczone",
       },
       available_countries_msg:
-        "element element W celu {count} element element {countries}.",
+        "Zakupy na całym świecie ograniczone do krajów {count}. Te kraje to {countries}.",
       disable_for_all_countries_msg:
         "Zakupy są wyłączone dla wszystkich krajów w Twoim sklepie > ustawienie lokalizacji.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10226,10 +10226,10 @@ export default {
         subscription_tax_msg:
           "Podatek możemy zastosować jedynie na etapie tworzenia płatności.",
         dedicated: "element",
-        is_disabled: "element Podatek profil element wyłączone!",
+        is_disabled: "Ten profil podatkowy jest wyłączony!",
         tax_is_based_on_location: "Podatek: Lokalizacja element",
         shipping_tax_is_based_on_location: "Wysyłka: Lokalizacja element",
-        included_in_price: "element element Cena",
+        included_in_price: "Wliczone w cenę.",
       },
     },
 
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "element Produkt element W celu <b>{vendor}</b>.",
+      vendor_owner_msg: "Ten produkt należy do <b>{vendor}</b>.",
       has_vendors_msg: "Jest {count} dostawców tego produktu.",
       no_vendor_msg:
         "Nie przypisałeś dostawcy do tego produktu, więc klienci nie mogą go kupić.",
@@ -10264,7 +10264,7 @@ export default {
     card: {
       title: "element",
       description:
-        "element HTML Kod W celu Dodaj Produkt Karty element element HTML Strony",
+        "Wygeneruj kod HTML, aby dodać karty produktów na innych platformach i stronach HTML.",
     },
     iframe: {
       title: "element",
@@ -10283,7 +10283,7 @@ export default {
     staff: {
       title: "Dodaj Personel & Dostęp",
       subtitle:
-        "wszystko Użytkownicy element Personel Dostęp element element W celu element Deska rozdzielcza element zobacz Budżetowy informacje W celu Dodaj Użytkownicy element element Dostęp, element element",
+        "Wszyscy użytkownicy z dostępem pracowniczym mogą zalogować się do Twojego panelu i zobaczyć informacje finansowe. Aby dodać użytkowników z ograniczonym dostępem, zdefiniuj Rolę.",
       go_to_roles: "element W celu Role",
     },
     access: {
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Dostęp element",
-        placeholder: "Wybierz element element",
+        placeholder: "Wybierz poziom...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "Dostęp element",
-        message: "Nowy Dostęp element element Dodaj",
+        message: "Nowy dostęp został pomyślnie dodany.",
       },
       update_success: {
         title: "Dostęp element",
-        message: "Uprawnienia element element ",
+        message: "Uprawnienia zostały pomyślnie zaktualizowane.",
       },
     },
   },
@@ -10357,12 +10357,12 @@ export default {
     search_tips: {
       title: "szukaj element",
       normal:
-        "<b>element szukaj: </b>szukaj element Tytuł, MPN, SKU, Marka, element Tagi",
+        "<b>Wyszukiwanie ogólne: </b>Wyszukiwanie według tytułu, MPN, SKU, marki lub tagów.",
       product:
         "<b>Dokładny identyfikator produktu: </b>Użyj P+identyfikator produktu, aby znaleźć konkretny produkt, np. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Dokładne wyrażenie: </b>Użyj cudzysłowu, aby wyszukać dokładne wyrażenie, np. <b class=\"text-green\">\"</b><i class=\"text-yellow\">Twój tekst</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>Podatek profil: </b>szukaj element Produkty element element Podatek profil element \"Podatek:\", element, <b class=\"text-green\">Podatek:</b><i class=\"text-yellow\">Podatek profil Nazwać</i>.",
+      tax: "<b>Profil podatkowy: </b>Wyszukaj produkty z określonym profilem podatkowym za pomocą „podatku:”, np. <b class=\"text-green\">tax:</b><i class=\"text-yellow\">nazwa profilu podatkowego</i>.",
       new_products:
         "<b>Nowe produkty: </b>Znajdź produkty dodane w określonym zakresie dat, np. <b class=\"text-green\">nowy~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
@@ -10376,20 +10376,20 @@ export default {
     subtitle:
       "Wprowadź klucz, który zostanie zamieniony z odpowiadającą mu wartością w treści strony. Klucze powinny mieć maksymalnie 32 znaki.",
     add_caption: "Dodaj Nowy przedmiot",
-    add_sub_caption: "Dodaj Zwyczaj element element",
+    add_sub_caption: "Dodaj niestandardową parę klucz-wartość.",
     add_dialog: {
       title: "Wybierz Wejście Rodzaj",
       html: {
-        title: "element & element HTML",
-        subtitle: "element Rzeczy Wartość element element HTML.",
+        title: "Tekst i HTML",
+        subtitle: "Wartość elementu można określić jako tekstową lub HTML.",
       },
       image: {
         title: "Obraz",
-        subtitle: "element element Prześlij element Obraz",
+        subtitle: "Możesz przesłać obraz.",
       },
     },
     help_dialog: {
-      title: "element W celu element element ",
+      title: "Jak korzystać z treści dynamicznych",
       how_it_works_tips:
         "Na stronach docelowych możesz elastycznie wyznaczać dynamiczne elementy zastępcze zarówno dla tekstu, jak i obrazów. Te symbole zastępcze odgrywają znaczącą rolę w dostosowywaniu treści do kontekstu.   Dynamiczny charakter tych symboli zastępczych pozwala na wypełnienie ich wartościami powiększeń, które mogą się różnić w zależności od różnych czynników. Na przykład wartości powiększenia mogą być różne dla każdego produktu lub kategorii. Prawdziwa zaleta tej funkcji pojawia się, gdy masz wiele przedmiotów o różnych atrybutach. Możesz skutecznie wykorzystać te dynamiczne symbole zastępcze, aby spersonalizować i ulepszyć wyświetlanie każdego elementu, tworząc w ten sposób unikalne i interaktywne wrażenia na swoich stronach docelowych.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Do każdego produktu masz możliwość przypisania dedykowanych par klucz-wartość.",
       result_tips:
-        "element element strona, element element ",
+        "To jest ostateczny wynik strony, na której symbole zastępcze zostały zastąpione wartościami rozszerzonymi.",
     },
   },
 
@@ -10408,7 +10408,7 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "element element",
+      title: "Wiele języków",
       subtitle:
         "To jest lista języków treści. W każdym języku możesz ustawić inną treść profilu logistycznego.",
       add_caption: "Dodaj Nowy Artykuł",
@@ -10419,20 +10419,20 @@ export default {
       subtitle:
         "Możesz dostosować treść profilu logistycznego w wielu językach.",
 
-      language_input: "element Artykuł element",
+      language_input: "Aktualny język artykułu",
       delete_article: "Usunąć Artykuł",
       menu_tooltip: "automatyczny element / Usunąć Artykuł",
     },
     translate_to: "element W celu",
     notifications: {
       translate: {
-        message: "Artykuł element Zakończony element",
+        message: "Tłumaczenie artykułu zostało zakończone pomyślnie.",
       },
       save_article: {
-        message: "Artykuł element element ",
+        message: "Artykuł został pomyślnie zapisany.",
       },
       delete_article: {
-        message: "Artykuł element element Usunięto element",
+        message: "Artykuł został pomyślnie usunięty.",
       },
     },
     delete_dialog: {
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Produkty",
-    subtitle: "Lista element Produkty element element profil",
+    subtitle: "Lista produktów powiązanych z tym profilem.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10456,11 +10456,11 @@ export default {
     inputs: {
       name: {
         message:
-          "element Nazwać Pokaż W celu element element W celu element Publiczny",
+          "Ta nazwa jest widoczna dla Ciebie i nie zostanie ujawniona publicznie.",
       },
       accept_delete: {
         true_description:
-          "element element Usunąć wszystko element element Profile Spinki do mankietów",
+          "Ta czynność spowoduje usunięcie wszystkich linków do artykułów i profili.",
         true_title: "Sprawdzam, czy usunąć to połączenie.",
       },
     },
@@ -10492,7 +10492,7 @@ export default {
       inputs: {
         name: {
           message:
-            "element Nazwać Pokaż W celu element element W celu element Publiczny",
+            "Ta nazwa jest widoczna dla Ciebie i nie zostanie ujawniona publicznie.",
           placeholder: "Wprowadź nazwę profilu...",
         },
       },
@@ -10507,10 +10507,10 @@ export default {
     add_caption: "Dodaj Nowy przedmiot",
     subtitle:
       "Tutaj możesz zarządzać produktami zawartymi w Twoich produktach. Aby zapewnić nieskazitelny wygląd swojego sklepu, we wszystkich produktach konsekwentnie używaj produktów o podobnych wzorach graficznych, takich jak modele szkieletowe.",
-    empty_list_msg: "Lista element element Rzeczy",
+    empty_list_msg: "Lista elementów objętych...",
     notifications: {
       delete: {
-        message: "element przedmiot element element Usunięto",
+        message: "Element został usunięty.",
       },
     },
     delete_dialog: {
@@ -10536,10 +10536,10 @@ export default {
       "Wybierz krótki tytuł, najlepiej składający się z maksymalnie 2–3 słów. Użyj obrazów kwadratowych, ponieważ automatycznie zmienimy rozmiar przesłanych zdjęć do formatu kwadratowego 256 x 256. Aby uzyskać najlepszy wygląd we wszystkich szablonach, zastosuj minimalistyczne obrazy z przezroczystym tłem i zachowaj jednolity wzór we wszystkich swoich produktach.",
     inputs: {
       title: {
-        placeholder: "element Tytuł element element Produkt strona",
+        placeholder: "Zwięzły tytuł wyświetlany na stronie produktu...",
       },
       code: {
-        placeholder: "element Kod, np mobilny_element_element",
+        placeholder: "Unikalny kod, np. mobilny_kabel_usb",
         hint: "Użyj tego kodu, aby usprawnić proces wyszukiwania w celu zlokalizowania elementów.",
       },
       description: {
@@ -10574,7 +10574,7 @@ export default {
         message: "Uwzględniony element został pomyślnie dodany.",
       },
       edit: {
-        message: "element element przedmiot element element ",
+        message: "Uwzględniony element został pomyślnie zaktualizowany.",
       },
     },
   },
@@ -10605,9 +10605,9 @@ export default {
     no_wallet: "nie Portfel!",
 
     withdraw_dialog: {
-      title: "element Zamawiać element",
+      title: "Wycofaj prowizje",
 
-      need_bank_info_message: "element element Informacje element",
+      need_bank_info_message: "Najpierw wprowadź dane bankowe.",
 
       to_wallet: {
         title: "W celu Portfel",
@@ -10622,7 +10622,7 @@ export default {
       inputs: {
         verify_to_wallet: {
           true_description:
-            "element element W celu Przenosić element Zamawiać W celu element Selldone Portfel",
+            "Chcę przenieść moją prowizję do portfela Selldone.",
         },
         verify_to_bank: {
           true_description:
@@ -10631,7 +10631,7 @@ export default {
       },
       actions: {
         withdraw_to_wallet: "element W celu Portfel",
-        withdraw_to_bank: "element W celu element",
+        withdraw_to_bank: "Wypłata do banku",
       },
     },
     notifications: {
@@ -10648,14 +10648,14 @@ export default {
       message: "Możesz dodać <b>?ref={code}</b> do dowolnego sprzedanego adresu URL.",
     },
     intro: {
-      title: "element element Selldone Przyłączać element",
+      title: "Dołącz do programu partnerskiego Selldone",
       message:
         "Program partnerski Selldone jest prosty i przejrzysty, zaprojektowany tak, abyś mógł zarabiać bez wysiłku. Udostępnij swój unikalny link partnerski, aby zaprosić nowych użytkowników do Selldone, a otrzymasz prowizję od każdej dokonanej przez nich transakcji – na zawsze. Obejmuje to zarobki z subskrypcji, opłat za usługi, ulepszeń sklepu i wszystkich innych źródeł przychodów. Zacznij zarabiać na części przychodów bez żadnych ograniczeń czasowych i zarobków. Dołącz do nas i zamień swoją sieć w stały dochód!",
-      why_join_selldone_affiliate: "element element ?",
+      why_join_selldone_affiliate: "Dlaczego jest to wyjątkowa szansa?",
       reasons: [
-        "element element !",
+        "To trwa wiecznie!",
         "Obejmuje wszystkie opłaty abonamentowe i transakcyjne. Dosłownie każda płatność użytkownika na Selldone.",
-        "Każdemu, kto zarejestruje się przy użyciu Twojego linku, wyślemy bezpłatny kupon $99.",
+        "Każdemu, kto zarejestruje się przy użyciu Twojego linku, wyślemy darmowy kupon o wartości 99 USD.",
         "Po podniesieniu poziomu będziesz zarabiać według nowej stawki od wszystkich wcześniej poleconych użytkowników.",
       ],
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "nie element Prześlij element",
+    no_asset_uploaded: "Nie przesłano jeszcze żadnego zasobu.",
   },
 
   /**
@@ -10695,22 +10695,22 @@ export default {
     edit_mode_tooltip: {
       title: "Edytować / Zapowiedź tryb",
       edit_mode_title: "Edytować tryb",
-      edit_mode_msg: "wszystko Edytuj Narzędzia element element ",
+      edit_mode_msg: "Wyświetlone zostaną wszystkie narzędzia do edycji.",
       view_mode_title: "Zapowiedź tryb",
       view_mode_msg:
         "Wyświetlaj swoją stronę tak, jak widzieliby ją użytkownicy, ukrywając dodatkowe narzędzia do edycji i puste obszary tekstowe.",
     },
     repository_tooltip: {
-      title: "element element",
+      title: "Wstępnie zbudowane sekcje",
       subtitle:
         "Przełącz wyświetlanie wstępnie zaprojektowanych sekcji. Te sekcje są tworzone przy użyciu standardowych sekcji dostępnych w lewym menu, co ukazuje elastyczność tego narzędzia do tworzenia stron.",
     },
     live_view: {
       title: "Na żywo Zapowiedź",
-      subtitle: "zobacz Aktualizuj element element Edytować element strona",
+      subtitle: "Zobacz aktualizacje w czasie rzeczywistym podczas edycji strony.",
     },
     hotkeys_dialog: {
-      title: "element element",
+      title: "Skróty klawiaturowe",
       augment_tips:
         "Możesz załadować dynamiczną treść na swoją stronę i zastąpić ją wartościami <b>augment</b>. Rozszerzanie jest używane w przypadku niestandardowych stron dynamicznych, takich jak <b>Products</b>, <b>Categories</b> i <b>Include Items</b>. Aby ustawić dynamiczne ładowanie obrazu, kliknij <b>Feeder</b> i wybierz <b>Dynamic Source</b> dla tego obrazu.",
     },
@@ -10725,8 +10725,8 @@ export default {
       ctrl_2: "Zwiększ rozmiar czcionki zaznaczonego tekstu | <big>Uczyń mnie dużym</big>",
       ctrl_r: "Usuń całe formatowanie z zaznaczonego tekstu | Wyczyść wszystkie style",
       ctrl_s: "Ratować element strona",
-      tab: "element element tryb",
-      ctrl_e: "element element Styl tryb",
+      tab: "Przełączanie pomiędzy trybami skali",
+      ctrl_e: "Aktywuj lub dezaktywuj tryb stylu klonowania",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "element & element",
-    subtitle: "element element",
+    title: "Przeciągnij i upuść",
+    subtitle: "Wstępnie zbudowane sekcje",
     add_dialog: {
       title: "Dodaj Zwyczaj element",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Obraz",
-        subtitle: "Publiczny Obraz element element Lista",
+        subtitle: "Wizerunek publiczny wyświetlany na liście.",
       },
       code: {
         title: "Kod",
@@ -10755,14 +10755,14 @@ export default {
       inputs: {
         title: {
           label: "Tytuł",
-          message: "element element Publiczny Tytuł",
+          message: "To jest tytuł publiczny.",
         },
         tags: {
           label: "Tagi",
-          message: "Używany element szukaj element element ",
+          message: "Służy do wyszukiwania i kategoryzowania elementów.",
         },
         section: {
-          message: "element element Od element strona element",
+          message: "Skopiuj sekcję z narzędzia do tworzenia stron.",
         },
       },
     },
@@ -10774,15 +10774,15 @@ export default {
   marketplace_vendors: {
     title: "sprzedawcy Lista",
     subtitle:
-      "Dodaj sprzedawcy element, element element W celu Produkty element element Produkt Deska rozdzielcza > sprzedawcy",
+      "Dodaj tutaj dostawców, a następnie przypisz ich do produktów w Panelu produktów > Dostawcy.",
     add_new_vendor_action: "Dodaj Nowy sprzedawca",
     status_tooltip: {
       title: "sprzedawca status",
       ACCEPTED: "Sprzedawca ma dostęp do swojego panelu.",
-      REJECTED: "element sprzedawca element element Odrzucony",
+      REJECTED: "Zapytanie dostawcy zostało odrzucone.",
       PENDING: "Żądanie oczekuje na decyzję sprzedawcy.",
     },
-    number_of_products: "element element Produkty",
+    number_of_products: "Liczba produktów",
     invited: "element",
     no_pricing: "nie cennik",
     no_pricing_tooltip: {
@@ -10790,10 +10790,10 @@ export default {
       subtitle: "Ustaw domyślny model cenowy dla dostawcy.",
     },
     updated_products_tooltip: {
-      title: "Produkty element element 24 element",
+      title: "Produkty zaktualizowane w ciągu ostatnich 24 godzin",
     },
     added_products_tooltip: {
-      title: "Produkty Dodaj element element 24 element",
+      title: "Produkty dodane w ciągu ostatnich 24 godzin",
     },
     access_tooltip: {
       title: "element Dostęp",
@@ -10806,14 +10806,14 @@ export default {
         "Użytkownik odrzucił prośbę o zostanie dostawcą i uzyskanie dostępu do tego dostawcy.",
     },
     download_all_vendors: "Pobierz wszystko sprzedawcy",
-    bulk_import: "element Importuj (element)",
+    bulk_import: "Import zbiorczy (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Licencja element element!",
+    title: "Wymagana aktualizacja licencji!",
     subtitle:
       "Twoja obecna licencja nie spełnia wymagań wybranego modelu biznesowego. Uaktualnij swoją licencję do planu Enterprise.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Dodaj Wiadomość Szablon",
 
     notifications: {
-      add_chat_success_message: "Wiadomość element element Dodaj element",
+      add_chat_success_message: "Wiadomość została pomyślnie dodana.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Wysłać Aktualizacja E-mail",
 
       notifications: {
-        send_success_message: "E-mail element element Wysłano element",
+        send_success_message: "E-mail został pomyślnie wysłany.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Dodaj Szablon",
 
       notifications: {
-        save_success_message: "Szablon element element ",
+        save_success_message: "Szablon został pomyślnie zapisany.",
       },
 
       inputs: {
         title: {
           label: "Szablon Tytuł",
-          placeholder: "zapis element element Tytuł",
+          placeholder: "Napisz krótki tytuł...",
         },
         body: {
           label: "Szablon Wiadomość",
-          placeholder: "zapis element Wiadomość element",
+          placeholder: "Napisz swoją wiadomość tutaj...",
           messages:
-            "element element {order_id} element {buyer_name}.",
+            "Wartości dynamiczne można ustawić za pomocą {order_id} i {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "element",
     guest: "element",
     click_to_create: "element W celu Tworzyć",
-    valid_for_30_days: "element element 30 30 dni",
+    valid_for_30_days: "ważny przez 30 dni",
     notifications: {
-      secure_link_created: "element Połączyć element element ",
+      secure_link_created: "Bezpieczne łącze zostało pomyślnie utworzone.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Dodaj Nowy element element",
-    title: "element element",
+    add_caption: "Dodaj nowy zestaw właściwości",
+    title: "Zestawy właściwości",
     subtitle:
       "Tutaj możesz tworzyć zestawy właściwości i zarządzać nimi. Zestawy właściwości służą do definiowania właściwości produktów i usług. Możesz przypisać te zestawy właściwości do produktów w Panelu Produktu > Edytuj.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "element element - Zwyczaj Warianty",
+      title: "Zestaw właściwości — warianty niestandardowe",
       subtitle:
         "Możesz dostosować nazwy wariantów tego produktu, zastępując nazwy domyślne.",
     },
 
     subtitle:
       "Tutaj możesz dostosować nazwy wariantów, ikony i ich kolejność. W przypadku produktów posiadających unikalne warianty wykraczające poza domyślne sześć, możesz ustawić niestandardowe warianty dostosowane do każdego produktu. Wystarczy zdefiniować zestawy właściwości w zakładce Logistyka > Zestawy właściwości i przypisać je do dowolnej liczby produktów w zależności od potrzeb.",
-    select_property_set: "Wybierz element element",
-    add_property_set: "Dodaj element element",
+    select_property_set: "Wybierz Zestaw właściwości",
+    add_property_set: "Dodaj zestaw właściwości",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10932,19 +10932,19 @@ export default {
     add_action: "Dodaj element",
     subtitle:
       "Twórz rozmiary pudełek wielokrotnego użytku, aby przyspieszyć zakupy etykiet i zapewnić dokładne stawki za wysyłkę. Podczas realizacji zamówienia wybierz zapisane pudełko, a jego wymiary zostaną automatycznie uzupełnione.",
-    empty: "nie element element “Dodaj element”.",
+    empty: "Nie ma jeszcze pudełek. Kliknij „Dodaj pole”.",
     edit: "Edytować element",
     new: "Nowy element",
     default_weight: "Domyślna Waga",
-    updated: "element element",
-    created: "element element",
+    updated: "Pudełko zaktualizowane.",
+    created: "Skrzynka utworzona.",
     deleted: "element Usunięto",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Wybierz element paczka",
-    define_package: "element element paczka",
+    define_package: "Zdefiniuj pakiet",
     define_package_hint: "Utwórz lub edytuj predefiniowane rozmiary opakowań",
   },
 
@@ -10984,11 +10984,11 @@ export default {
     items: {
       title: "Rzeczy",
       sub_title:
-        "Tworzyć, Edytować, element Zarządzaj lista Rzeczy element status, cennik, Kontakt Informacje, element element",
+        "Twórz, edytuj i zarządzaj elementami aukcji. Kontroluj status, ceny, dane kontaktowe i media.",
 
       empty_title: "nie Rzeczy element",
       empty_subtitle:
-        "Tworzyć element element lista przedmiot W celu Początek Budynek. .. element element",
+        "Utwórz swój pierwszy element aukcji, aby rozpocząć tworzenie katalogu.",
 
       add_title: "Dodaj Przedmiot",
       edit_title: "Edytować przedmiot",
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Spinki do mankietów JSON",
-      opening_hours_json: "element element JSON",
+      opening_hours_json: "Godziny otwarcia JSON",
 
       delete_title: "Usunąć przedmiot",
-      delete_message: "element element W celu Usunąć element przedmiot?",
+      delete_message: "Czy na pewno chcesz usunąć ten element?",
       delete_success: "Element został pomyślnie usunięty.",
-      restore_success: "przedmiot element element",
+      restore_success: "Element został pomyślnie przywrócony.",
 
-      opening_hours:"element element",
+      opening_hours:"Godziny otwarcia",
       form_fields:"formularz element",
 
       company: "Spółka",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Dodaj kategorię",
       edit_title: "Edytuj kategorię",
 
-      parent_filter: "Filtr element element",
+      parent_filter: "Filtruj według rodzica",
       parent: "Kategoria nadrzędna",
 
       price_format: "Cena element",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Projekt ID",
 
       delete_title: "Usuń kategorię",
-      delete_message: "element element W celu Usunąć element Kategoria?",
+      delete_message: "Czy na pewno chcesz usunąć tę kategorię?",
       delete_success: "Kategoria Usunięto element",
       form_schema: "Kategoria formularz element",
     },
@@ -11045,7 +11045,7 @@ export default {
 
       moderation_title: "element",
       moderation_mode: "element tryb",
-      require_first_approved_before_more: "element element Więcej. .",
+      require_first_approved_before_more: "Wymagaj pierwszej zgody przed kolejnymi",
 
       limits_title: "Limity",
       max_pending_per_user: "Maks. Aż do element użytkownik",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "przedmiot element element",
+      approve_success: "Pozycja została pomyślnie zatwierdzona.",
       publish_success: "przedmiot Opublikowany element",
-      unpublish_success: "przedmiot element element",
-      archive_success: "przedmiot element element",
+      unpublish_success: "Pozycja została pomyślnie cofnięta.",
+      archive_success: "Element został pomyślnie zarchiwizowany.",
       reject_success: "przedmiot Odrzucony element",
-      penalty_success: "element element ",
+      penalty_success: "Kara została zastosowana pomyślnie.",
 
       reject_title: "Odrzucić przedmiot",
-      reject_reason: "element element",
+      reject_reason: "Powód odrzucenia",
 
       penalty: "element",
       penalty_title: "element",
-      penalty_points: "element element",
+      penalty_points: "Punkty karne",
       penalty_note: "element Notatka"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Prześlij Obrazy",
       url_type: "Rodzaj",
       url: "URL",
-      is_main: "element element główna"
+      is_main: "Ustaw jako główne"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Twórz wiele zestawów projektów (szablony kart + detali) i przypisuj je do kategorii. Kategorie mogą mieć różne projekty.",
 
-      empty_title: "nie element element",
+      empty_title: "Nie ma jeszcze żadnych projektów",
       empty_subtitle:
         "Dodaj swój pierwszy zestaw projektów, aby rozpocząć dostosowywanie wyglądu kategorii.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Detale Szablon",
 
       notifications: {
-        add_success: "Projekt element element",
-        edit_success: "Projekt element element",
+        add_success: "Projekt został utworzony pomyślnie.",
+        edit_success: "Projekt został pomyślnie zaktualizowany.",
         delete_success: "Projekt Usunięto element",
       },
 
@@ -11144,46 +11144,46 @@ export default {
     badges: {
       title: "odznaki",
       sub_title:
-        "Tworzyć element Zarządzaj element odznaki odznaki element element W celu lista Rzeczy W celu element element ",
+        "Twórz plakietki sklepowe i zarządzaj nimi. Odznaki można przypisać do przedmiotów na aukcji, aby wyróżnić specjalne atrybuty.",
 
       empty_title: "nie odznaki element",
       empty_subtitle:
-        "Dodaj element element odznaka W celu Początek element lista Rzeczy",
+        "Dodaj swoją pierwszą plakietkę, aby rozpocząć wyróżnianie elementów aukcji.",
 
       add_title: "Dodaj odznaka",
       edit_title: "Edytować odznaka",
 
       notifications: {
-        add_success: "odznaka element element",
-        edit_success: "odznaka element element",
+        add_success: "Odznaka została utworzona pomyślnie.",
+        edit_success: "Odznaka została pomyślnie zaktualizowana.",
         delete_success: "odznaka Usunięto element",
       },
 
       delete_title: "Usunąć odznaka",
-      delete_message: "element element W celu Usunąć element odznaka?",
+      delete_message: "Czy na pewno chcesz usunąć tę odznakę?",
     },
 
     companies: {
       title: "Firmy",
       sub_title:
-        "Tworzyć element Zarządzaj Firmy element lista przedmiot element element połączony W celu element Spółka",
+        "Twórz i zarządzaj firmami. Każdy element aukcji można opcjonalnie powiązać z jedną firmą.",
 
       empty_title: "nie Firmy element",
       empty_subtitle:
-        "Dodaj element element Spółka W celu Połączyć element W celu lista Rzeczy",
+        "Dodaj swoją pierwszą firmę, aby połączyć ją z pozycjami aukcji.",
 
       add_title: "Dodaj Spółka",
       edit_title: "Edytuj firmę",
 
       notifications: {
-        add_success: "Spółka element element",
-        edit_success: "Spółka element element",
+        add_success: "Firma została utworzona pomyślnie.",
+        edit_success: "Firma została pomyślnie zaktualizowana.",
         delete_success: "Spółka Usunięto element",
       },
 
       delete_title: "Usunąć Spółka",
       delete_message:
-        "Usunąć element Spółka? Rzeczy element element Spółka Połączyć",
+        "Usunąć tę firmę? Przedmioty korzystające z niego automatycznie stracą link do firmy.",
     },
 
 
@@ -11192,12 +11192,12 @@ export default {
       title: "wiadomość",
       sub_title: "Zarządzaj wiadomość Wysłano element Użytkownicy Od lista Profile",
       empty_title: "nie wiadomość",
-      empty_subtitle: "wiadomość Wysłano element Użytkownicy element element ",
+      empty_subtitle: "Tutaj będą pojawiać się wiadomości wysłane przez użytkowników.",
 
       sender: "element",
       item: "przedmiot",
       has_reply: "element",
-      has_reply_yes: "element element",
+      has_reply_yes: "Ma odpowiedź",
       has_reply_no: "nie element",
 
       dialog_title: "Wiadomość",
@@ -11205,12 +11205,12 @@ export default {
       reply: "element",
       reply_hint: "Napisz odpowiedź dla użytkownika. Możesz także oznaczyć wiadomość jako przeczytaną/spam w ramach akcji.",
 
-      mark_read: "element element odczyt",
-      mark_unread: "element element ",
+      mark_read: "Oznacz jako przeczytane",
+      mark_unread: "Oznacz jako nieprzeczytane",
       archive: "element",
       unarchive: "element",
-      mark_spam: "element element ",
-      mark_not_spam: "element element",
+      mark_spam: "Oznacz jako spam",
+      mark_not_spam: "Nie spam",
 
       delete_confirm: "Usunąć element Wiadomość?",
     },
@@ -11218,16 +11218,16 @@ export default {
     enable: {
       title: "lista",
       subtitle: "Włącz lub wyłącz swoją publiczną stronę z listą. Po włączeniu po raz pierwszy Selldone automatycznie utworzy konfigurację aukcji.",
-      true_description: "lista element włączone Klienci element element lista Strony",
+      true_description: "Lista jest włączona. Klienci mogą przeglądać strony z ofertami.",
       false_description: "Lista jest wyłączona. Strony z listami i zgłoszenia są zablokowane.",
       open_listing: "element lista",
-      note: "element element , Limity, formularz, element Projekt element lista Ustawienia",
+      note: "Możesz później skonfigurować moderację, limity, formularze i projekt w ustawieniach aukcji.",
       vendor_prereq_text:
-        "element sprzedawcy W celu Dodaj lista Rzeczy Od element sprzedawca element? element, element element firma element W celu Rynek",
-      vendor_prereq_button: "element Rynek firma element",
+        "Chcesz, aby dostawcy dodawali pozycje do aukcji ze swojego panelu sprzedawcy? Najpierw zmień swój model biznesowy na Marketplace.",
+      vendor_prereq_button: "Ustaw model biznesowy Marketplace",
 
       vendor_access_text:
-        "element element sprzedawcy element Dostęp lista element (Rzeczy + Firmy). Włączyć element element Rynek Ustawienia",
+        "Teraz możesz zdecydować, czy dostawcy będą mieli dostęp do funkcji aukcji (przedmioty + firmy). Włącz tę opcję w ustawieniach Marketplace.",
       vendor_access_button: "Włączyć lista element sprzedawcy",
 
       more_options_text:
@@ -11241,26 +11241,26 @@ export default {
 
     search: {
       title: "szukaj Ustawienia",
-      subtitle: "Projekt element Klienci szukaj element lista Włączyć element szukaj element Budować Filtry Od element Zwyczaj formularz element",
+      subtitle: "Zaprojektuj sposób, w jaki klienci przeszukują Twoją ofertę. Włącz wyszukiwanie oparte na lokalizacji i utwórz filtry na podstawie niestandardowych pól formularzy.",
 
       location_title: "Lokalizacja szukaj",
       location_subtitle: "Pozwól klientom wybrać lokalizację i znaleźć pobliskie wyniki w konfigurowalnym promieniu.",
-      location_enabled_true: "Lokalizacja Filtr element włączone Klienci element szukaj element element",
+      location_enabled_true: "Filtr lokalizacji jest włączony. Klienci mogą wyszukiwać według odległości.",
       location_enabled_false: "Filtr lokalizacji jest wyłączony. Wyniki nie będą filtrowane według odległości.",
 
       radius_default: "Domyślna Promień (element)",
       radius_default_hint: "Używane, gdy klient wybiera lokalizację, ale nie wybiera promienia.",
       radius_max: "maksimum Promień (element)",
       radius_max_hint: "Promień witryny sklepowej zostanie ograniczony do tej wartości.",
-      radius_options: "Promień element (element)",
-      radius_options_hint: "element element UI.",
+      radius_options: "Opcje promienia (km)",
+      radius_options_hint: "Wartości te można wyświetlić jako szybkie opcje w interfejsie sklepu.",
 
       filters_title: "szukaj Filtry",
       filters_subtitle: "Dodaj filtry, które odczytują wartości z metapól przedmiotu (pola formularza aukcji/kategorii). Użyj automatycznego generowania, aby zebrać rzeczywiste opcje z opublikowanych elementów.",
       no_filters: "nie Filtry Dodaj element",
-      auto_generate: "element element",
+      auto_generate: "Opcje automatycznego generowania",
 
-      filter_field: "element element",
+      filter_field: "Klucz pola",
       filter_label: "Etykieta",
       filter_type: "Rodzaj",
       filter_options: "element",
@@ -11703,11 +11703,11 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "element", // Provincial Sales Tax
-        "element", // Harmonized Sales Tax
-        "element", // Quebec Sales Tax
-        "element", // Central Sales Tax
-        "Akcyza", // Excise Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
+        "Podatek akcyzowy", // Excise Tax
         "Obowiązek importowy", // Import Duty
         "Podatek od usług", // Service Tax
         "Podatek od luksusu", // Luxury Tax
@@ -11848,7 +11848,7 @@ export default {
       title: [
         "Zakręć i wygraj duże nagrody!",
         "Pula w kole fortuny",
-        "element element ",
+        "Lucky Spin Bonanza",
         "Zakręć, aby wygrać nagrody",
         "Koło bogactwa",
         "Ekstrawagancja szczęśliwej loterii",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "element Dostęp",
-        "element element",
-        "element paczka",
-        "element element",
-        "element Subskrypcja",
-        "element element",
-        "element element",
-        "Nieograniczony Oferta",
-        "element element",
+        "Dostęp podstawowy",
+        "Członkostwo premium",
+        "Pakiet Złoty",
+        "Srebrny Plan",
+        "Subskrypcja platynowa",
+        "Poziom korporacyjny",
+        "Pakiet startowy",
+        "Oferta nieograniczona",
+        "Pakiet rodzinny",
         "Apartament profesjonalny",
       ],
       description: [
-        "element element ",
-        "Dostęp W celu wszystko element element ",
-        "element element Priorytet Wsparcie",
+        "Idealny dla osób odkrywających podstawy.",
+        "Dostęp do wszystkich funkcji i treści premium.",
+        "Ekskluzywne korzyści i priorytetowe wsparcie.",
         "Zrównoważony pakiet dla stałych użytkowników.",
-        "element Dostęp element element ",
-        "Zwyczaj element element ",
-        "element element ",
+        "Najwyższy dostęp z dodatkami najwyższej klasy.",
+        "Niestandardowe rozwiązania dla dużych organizacji.",
+        "Niedroga opcja dla początkujących.",
         "Brak ograniczeń użytkowania dla zaawansowanych użytkowników.",
-        "element element , element W celu 4 element",
-        "element element Zaawansowany Narzędzia",
+        "Specjalny plan dla rodzin, do 4 osób.",
+        "Zaprojektowany dla profesjonalistów poszukujących zaawansowanych narzędzi.",
       ],
     },
 
     spec: {
       group: [
-        "Specyfikacja techniczna",
-        "element element",
-        "Występ element",
-        "element element",
-        "element element",
-        "Material element Budować element",
-        "Kolor element Skończyć element",
-        "element element ",
-        "element element ",
-        "element element ",
-        "paczka element",
-        "gwarancja element Wsparcie",
-        "Marka element element",
-        "element element",
-        "element element",
-        "element element ",
-        "element element",
-        "element element",
-        "użytkownik element element Opinie",
-        "cennik element element",
+        "Dane techniczne",
+        "Wymiary fizyczne",
+        "Funkcje wydajności",
+        "Opcje łączności",
+        "Wymagania dotyczące zasilania",
+        "Jakość materiału i wykonania",
+        "Opcje koloru i wykończenia",
+        "Przechowywanie i pamięć",
+        "Zgodność systemu operacyjnego",
+        "Bezpieczeństwo i zgodność",
+        "Zawartość opakowania",
+        "Gwarancja i wsparcie",
+        "Marka i producent",
+        "Przyjazność dla środowiska",
+        "Efektywność energetyczna",
+        "Pielęgnacja i konserwacja",
+        "Opcje dostosowywania",
+        "Dołączone akcesoria",
+        "Oceny i recenzje użytkowników",
+        "Ceny i dostępność",
       ],
     },
 
     avocado: {
       title: [
-        "Zakup Paragon fiskalny",
-        "Sprzedaż element",
-        "🛍️Zamówienie Faktura",
-        "Zapłata Faktura",
-        "klient Paragon fiskalny",
-        "Transakcja element",
-        "Dane do faktury element",
-        "Wymeldować się Paragon fiskalny",
-        "🛍️Zamówienie element",
-        "Zakup 🛍️Zamówienie Faktura",
-        "Obroty Paragon fiskalny",
-        "element Faktura",
-        "element",
-        "usługa Faktura",
-        "Produkt Faktura",
-        "Zapłata Paragon fiskalny",
+        "Dowód zakupu",
+        "Potwierdzenie sprzedaży",
+        "Zamów fakturę",
+        "Faktura płatnicza",
+        "Odbiór klienta",
+        "Podsumowanie transakcji",
+        "Oświadczenie rozliczeniowe",
+        "Potwierdzenie realizacji transakcji",
+        "Podsumowanie zamówienia",
+        "Faktura zamówienia zakupu",
+        "Dowód sprzedaży",
+        "Faktura detaliczna",
+        "E-rachunek",
+        "Faktura za usługę",
+        "Faktura Produktu",
+        "Potwierdzenie płatności",
         "Potwierdzenie zamówienia",
-        "Dane do faktury Faktura",
-        "Wymeldować się Faktura",
-        "klient Faktura",
+        "Faktura rozliczeniowa",
+        "Faktura kasowa",
+        "Faktura klienta",
       ],
       message: [
-        "element element Zakup!",
-        "element element firma",
-        "element 🛍️Zamówienie element element !",
-        "element element ",
-        "element element W celu element element ",
-        "element element Priorytet",
-        "element element W celu element element ",
-        "element element sklep",
-        "element element Nowy Zakup!",
-        "Ratować element Faktura element element ",
-        "Odwiedzać element element Więcej. . element Produkty",
-        "element Połączony element element Oferuje",
-        "element element klient",
-        "element element W celu element element ",
-        "element Informacja zwrotna element element ",
+        "Dziękujemy za zakup!",
+        "Doceniamy Twój biznes.",
+        "Twoje zamówienie jest już w drodze!",
+        "Dziękujemy za zakupy u nas.",
+        "Nie mogę się doczekać, aby znów ci służyć.",
+        "Twoje zadowolenie jest dla nas najwyższym priorytetem.",
+        "Nie zapomnij ocenić swoich wrażeń.",
+        "Dziękujemy za wsparcie naszego sklepu.",
+        "Mamy nadzieję, że będziesz zadowolony ze swojego nowego zakupu!",
+        "Zapisz fakturę do wykorzystania w przyszłości.",
+        "Odwiedź nas ponownie, aby uzyskać więcej wspaniałych produktów.",
+        "Pozostań w kontakcie, aby uzyskać ekskluzywne oferty.",
+        "Dziękujemy, że jesteś cenionym klientem.",
+        "Jesteśmy tutaj, aby Ci pomóc, jeśli potrzebujesz pomocy.",
+        "Twoja opinia pomoże nam się ulepszyć.",
         "Skorzystaj ze specjalnego rabatu na kolejne zakupy.",
-        "element element !",
-        "element element ",
-        "element element W celu element Informacja zwrotna",
-        "element element Od element element",
+        "Dokonałeś świetnego wyboru!",
+        "Dziękujemy za zaufanie do nas.",
+        "Czekamy na Twoją opinię.",
+        "Serdeczne podziękowania od naszego zespołu.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "element element",
-        "sprzedawca element",
-        "element strona główna",
-        "element element",
+        "Prezentacja nieruchomości",
+        "Plac Sprzedawcy",
+        "Polecane domy",
+        "Rynek lokalny",
         "Nowości",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "Biżuteria element",
-        "element element",
-        "element element",
+        "Ogrody posiadłości",
+        "Dzielnica handlowa",
+        "Aleja Rzemieślników",
+        "Luksusowe osiedla",
+        "Centrum wynajmu",
+        "Domy Otwarte",
+        "Innowacje technologiczne",
+        "Pas Mody",
+        "Kącik Rzemiosła",
+        "Sąd Żywnościowy",
+        "Książka Zakątek",
+        "Złącze jubilerskie",
+        "Aleja Antyków",
+        "Strefa Fitness",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "firma element element",
-        "Podatek element element (element)",
-        "sprzedawca element formularz",
-        "Produkt element",
-        "cennik Lista",
-        "element Rachunek Detale",
-        "element element adres",
-        "element element",
-        "Spółka profil",
-        "element element ",
-        "element Dane arkusz (element)",
-        "Produkt gwarancja informacje",
-        "Zwrócić zasady",
-        "Wysyłka element element ",
-        "klient usługa zasady",
-        "element element Plany",
-        "element element Spinki do mankietów",
-        "element element",
-        "element Kod element element",
-        "element element (element)",
+        "Zaświadczenie o rejestracji działalności gospodarczej",
+        "Numer Identyfikacji Podatkowej (NIP)",
+        "Formularz umowy ze sprzedawcą",
+        "Katalog produktów",
+        "Cennik",
+        "Dane konta bankowego",
+        "Dowód adresu",
+        "Certyfikat ubezpieczenia",
+        "Profil firmy",
+        "Certyfikat Zapewnienia Jakości",
+        "Karta charakterystyki (SDS)",
+        "Informacje dotyczące gwarancji produktu",
+        "Polityka zwrotów",
+        "Procedury wysyłki i obsługi",
+        "Polityka Obsługi Klienta",
+        "Plany marketingowe i promocyjne",
+        "Linki do mediów społecznościowych",
+        "Referencje handlowe",
+        "Kodeks postępowania dostawcy",
+        "Umowa o zachowaniu poufności (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Rynek sklep Usługi element",
-        "Sklep element element",
-        "element Usługi element",
-        "element element usługa element",
-        "element element sklep element",
-        "Ekspert element element firma element",
-        "usługa element element Rynek element",
-        "Sklep sklep element element Usługi element",
-        "POD usługa element element",
-        "element element ",
-        "firma element usługa element",
-        "element sklep sklep element",
-        "Ekspert usługa element element",
-        "firma element element sklep element",
-        "Zwyczaj Sklep sklep Usługi element",
-        "Rynek element usługa element",
-        "element element sklep Usługi element",
-        "POD element Usługi element",
-        "element element Usługi element",
-        "firma element usługa element",
+        "Umowa o świadczenie usług konfiguracji Marketplace",
+        "Umowa konfiguracyjna sklepu",
+        "Umowa o świadczenie usług drukowania na żądanie",
+        "Umowa o świadczenie usług marketingu cyfrowego",
+        "Umowa dotycząca konfiguracji platformy e-commerce",
+        "Umowa o doradztwo eksperckie dla właścicieli firm",
+        "Umowa serwisowa dotycząca konfiguracji Marketplace",
+        "Umowa o świadczenie usług konfiguracji i konfiguracji sklepu",
+        "Umowa o świadczenie Usługi POD",
+        "Umowa dotycząca realizacji strategii marketingowej",
+        "Umowa o świadczenie usług w zakresie rozwoju biznesu",
+        "Umowa o założenie sklepu internetowego",
+        "Umowa o świadczenie Usług Eksperckich",
+        "Umowa dotycząca rozwiązań biznesowych i konfiguracji",
+        "Umowa o świadczenie usług konfiguracji sklepu niestandardowego",
+        "Umowa o świadczenie usług optymalizacji rynku",
+        "Umowa o świadczenie usług konsultingowych i konfiguracyjnych",
+        "Umowa o świadczenie usług integracji POD",
+        "Umowa o świadczenie usług marketingowych i promocyjnych",
+        "Umowa o świadczenie usług rozszerzenia działalności",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "główna Portfel",
-        "firma Rachunek",
-        "Osobisty Portfel",
-        "element Portfel",
-        "element Rachunek",
-        "Podstawowy Portfel",
-        "element Rachunek",
-        "element Portfel",
-        "Transakcja Portfel",
-        "element Rachunek",
+        "Główny portfel",
+        "Konto firmowe",
+        "Portfel osobisty",
+        "Portfel oszczędnościowy",
+        "Konto wydatków",
+        "Podstawowy portfel",
+        "Konto Ogólne",
+        "Rezerwowy portfel",
+        "Portfel transakcyjny",
+        "Konto Funduszu",
       ],
     },
 
@@ -12099,38 +12099,38 @@ export default {
      */
     cashback: {
       title: [
-        "Sklep & element cashback",
-        "element element cashback",
-        "element cashback Oferuje",
-        "cashback element",
-        "element cashback Oferty",
-        "element cashback element",
-        "element cashback 30 dni",
-        "cashback element element Zakup",
-        "cashback element",
-        "VIP cashback element",
-        "element Czas cashback",
-        "cashback element Klub",
-        "Sklep Więcej. ., Ratować Więcej. .",
-        "element cashback element",
-        "cashback element",
+        "Kupuj i zarabiaj zwrot pieniędzy",
+        "Zwrot gotówki w ramach nagród lojalnościowych",
+        "Ekskluzywne oferty zwrotu gotówki",
+        "Bonanza zwrotu gotówki",
+        "Natychmiastowe oferty zwrotu gotówki",
+        "Sezonowe oszczędności w postaci zwrotu gotówki",
+        "Dni podwójnego zwrotu gotówki",
+        "Zwrot gotówki przy każdym zakupie",
+        "Szał zwrotu gotówki",
+        "Program zwrotu gotówki VIP",
+        "Zwrot gotówki ograniczony czasowo",
+        "Klub nagród Cashback",
+        "Kupuj więcej, oszczędzaj więcej",
+        "Najlepsze nagrody za zwrot gotówki",
+        "Ekstrawagancja zwrotu gotówki",
       ],
       description: [
-        "element cashback element element Zakup!",
-        "element element ",
-        "element cashback Oferuje element element ",
-        "element element cashback element",
+        "Zdobądź zwrot gotówki przy każdym zakupie!",
+        "Otrzymaj nagrodę za swoją lojalność.",
+        "Ekskluzywne oferty zwrotu gotówki specjalnie dla Ciebie.",
+        "Ciesz się dużymi oszczędnościami dzięki nagrodom typu cashback.",
         "Natychmiastowy zwrot pieniędzy za wszystkie Twoje ulubione przedmioty.",
-        "Ratować Więcej. . element element cashback Oferty",
+        "Zaoszczędź więcej dzięki sezonowym ofertom zwrotu gotówki.",
         "Podwój swój zwrot gotówki w specjalne dni!",
-        "element cashback element Czas element Sklep",
-        "element element cashback element Dziś!",
-        "VIP element element cashback",
-        "element! element Czas cashback Oferuje",
+        "Otrzymuj zwrot gotówki za każdym razem, gdy robisz zakupy.",
+        "Dołącz do szaleństwa cashbacku już dziś!",
+        "Członkowie VIP mogą cieszyć się ekskluzywnym zwrotem gotówki.",
+        "Spieszyć się! Oferty zwrotu gotówki ograniczone czasowo.",
         "Dołącz już teraz do naszego klubu nagród Cashback.",
         "Im więcej robisz zakupy, tym więcej oszczędzasz.",
-        "element element cashback element",
-        "element element cashback Oferty element",
+        "Odblokuj najlepsze nagrody w postaci zwrotu gotówki.",
+        "Poznaj najlepsze oferty zwrotu gotówki w okolicy.",
       ],
     },
 
@@ -12139,14 +12139,14 @@ export default {
      */
     page: {
       prompts: [
-        "WITAM 10 W celu {shop} - element element Rzeczy",
-        "{shop} - element element usługa",
+        "Witamy w {shop} — poznaj naszą wyjątkową ofertę produktów",
+        "{shop} — Twoje najlepsze źródło wysokiej jakości towarów i doskonałej obsługi",
         "Ekskluzywne oferty i oszczędności tylko w {shop} — wykorzystaj okazję!",
-        "Poznaj zaangażowanie firmy {shop} w działania przyjazne dla środowiska i praktyki etyczne",
-        "Zostań częścią rodziny {shop} — zapisz się do naszego newslettera, aby otrzymywać aktualizacje",
-        "element element {shop}",
-        "element element wszystko Wydarzenia element {shop}",
-        "Bezkonkurencyjne oferty i oferty specjalne w {shop} — działaj szybko!",
+        "Poznaj zaangażowanie {shop} w działania przyjazne dla środowiska i praktyki etyczne",
+        "Zostań częścią rodziny {shop} — zapisz się do naszego biuletynu, aby otrzymywać aktualizacje",
+        "Zapoznaj się z najczęściej wybieranymi i wysoko ocenianymi towarami w {shop}",
+        "Prezentuj pomysły i kreatywne sugestie na wszystkie wydarzenia na {shop}",
+        "Bezkonkurencyjne oferty i oferty wrażliwe na czas w {shop} — działaj szybko!",
         "Kompleksowe wskazówki dotyczące zakupów i oceny produktów {shop} — rób zakupy bez obaw",
         "Skontaktuj się z {shop} — staramy się zapewnić niezrównane wrażenia z zakupów",
       ],
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "element element , element element !",
-        "Ratować element element Oferty!",
-        "element element !",
-        "element element Zakup, element element!",
-        "element element , Kupić element!",
-        "element Rzeczy, element element!",
+        "Dokończ swój look, zgarnij zestaw!",
+        "Zaoszczędź dużo dzięki naszym ofertom pakietowym!",
+        "Nie przegap naszych idealnych par!",
+        "Ulepsz swój zakup, dodatki czekają!",
+        "Odblokuj ekskluzywne oszczędności, kupuj razem!",
+        "Artykuły uzupełniające, specjalne rabaty!",
         "Zdobądź więcej, wydawaj mniej – spakuj się!",
-        "element Oferta: element Produkty!",
-        "element element , element Oferty!",
-        "element element , Ratować element!",
-        "element element !",
-        "Sklep element, element element Ratować!",
-        "element element Wartość, element element !",
-        "element element – Sklep element!",
-        "element element cennik element element !",
-        "element element !",
-        "element element !",
-        "element element : element element Ratować!",
-        "element element !",
-        "element element Ulubione element element !",
+        "Oferta ograniczona czasowo: dopasowane produkty!",
+        "Ulepsz swoje doświadczenie, oferty łączone!",
+        "Odkryj nasze wybrane kombinacje, zaoszczędź teraz!",
+        "Połącz to, aby uzyskać najlepsze połączenie!",
+        "Kupuj mądrze, pakuj i oszczędzaj!",
+        "Podwójna wartość, podwójna zabawa!",
+        "Twój idealny partner jest tutaj – kup teraz!",
+        "Ekskluzywna cena pakietu specjalnie dla Ciebie!",
+        "Zmaksymalizuj swoje oszczędności dzięki naszym kombinacjom!",
+        "Wzbogać swoją kolekcję dzięki tym produktom!",
+        "Wyselekcjonowane dla Ciebie: dopasowuj i oszczędzaj!",
+        "Idealna para na idealny dzień!",
+        "Połącz swoje ulubione produkty, aby uzyskać dodatkowe oszczędności!",
       ],
     },
 
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "element element",
-        "element",
-        "element",
-        "element",
-        "Dom element",
-        "element Produkty",
-        "element element",
+        "Towary cyfrowe",
+        "Książki",
+        "Elektronika",
+        "Moda",
+        "Sprzęt AGD",
+        "Produkty kosmetyczne",
+        "Sprzęt sportowy",
         "Zabawki i gry",
         "Artykuły spożywcze",
         "Meble",
         "Części samochodowe",
         "Biżuteria",
-        "element & element",
+        "Zdrowie i dobre samopoczucie",
         "Artykuły dla zwierząt",
-        "Artykuły biurowe",
-        "element & element",
-        "element & TV Pokaż",
+        "Materiały biurowe",
+        "Muzyka i instrumenty",
+        "Filmy i programy telewizyjne",
         "Oprogramowanie",
-        "element & element",
-        "element element",
+        "Sztuka i rzemiosło",
+        "Sprzęt outdoorowy",
       ],
     },
 
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Potwierdzenie zamówienia",
-        "🛍️Zamówienie Wysłane",
-        "🛍️Zamówienie Dostarczony",
-        "Zapłata Otrzymane",
-        "🛍️Zamówienie element",
-        "🛍️Zamówienie element element",
-        "🛍️Zamówienie element element",
-        "🛍️Zamówienie element element Dostawa",
-        "Zwrócić element",
-        "element element",
-        "przedmiot Z powrotem element element",
+        "Zamówienie wysłane",
+        "Zamówienie dostarczone",
+        "Otrzymano płatność",
+        "Zamówienie anulowane",
+        "Opóźnienie przetwarzania zamówienia",
+        "Zamówienie wstrzymane",
+        "Zamów z dostawą",
+        "Zwrot przetworzony",
+        "Wydano zwrot pieniędzy",
+        "Artykuł ponownie dostępny",
       ],
       body: [
         "Cześć {buyer_name}, Twoje zamówienie #{order_id} zostało potwierdzone! Przetwarzamy go i powiadomimy Cię, gdy będzie gotowy do wysyłki.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "element",
-        "element element",
-        "element",
+        "Sukienka",
+        "Gadżety cyfrowe",
+        "Napoje",
         "Jedzenie",
         "Meble",
-        "element",
-        "element Produkty",
-        "element",
-        "element element",
-        "element",
+        "Książki",
+        "Produkty kosmetyczne",
+        "Zabawki",
+        "Sprzęt sportowy",
+        "Akcesoria",
       ],
       description: [
         "Atrybuty elementów odzieży, takie jak rozmiar, kolor i materiał.",
         "Specyfikacje gadżetów, takie jak marka, model i funkcje.",
         "Smaki, rozmiary i rodzaje napojów.",
         "Szczegóły dotyczące posiłków, przekąsek i produktów spożywczych.",
-        "Material, element, element Projekt element",
-        "Autor, element, element element ",
+        "Materiał, wymiary i style projektowania.",
+        "Autor, gatunek i rok wydania.",
         "Rodzaj skóry, składniki i szczegóły opakowania.",
-        "element element, element, element element ",
-        "Rodzaj, element, element Występ element",
-        "element, element, element Marka Detale",
+        "Grupa wiekowa, materiał i standardy bezpieczeństwa.",
+        "Typ, rozmiar i właściwości użytkowe.",
+        "Style, materiały i szczegóły marki.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "element XS",
-        "element element",
-        "element element",
-        "element element",
-        "element XL",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element",
-        "element element ",
-        "element element ", // flexible mailer
-        "element element", // bubble/padded
-        "element element", // thermal
-        "element element",
+        "Pudełko XS",
+        "Pudełko S",
+        "Pudełko M",
+        "Pudełko l",
+        "Pudełko XL",
+        "Pudełko XXL",
+        "Pudełko Slim",
+        "Pudełko szerokie",
+        "Pudełko Wysokie",
+        "Pudełko płaskie",
+        "Kostka pudełkowa",
+        "Rurka pudełkowa",
+        "Pudełko kruche",
+        "Pudełko Szklane Butelki",
+        "Pudełko Miękkie opakowanie", // flexible mailer
+        "Pudełko wyściełane", // bubble/padded
+        "Pudełko izolowane", // thermal
+        "Pudełko o dużej wytrzymałości",
       ],
     },
   },

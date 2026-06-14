@@ -7726,7 +7726,7 @@ export default {
 
   /** {@see BPageAffiliateOrders**/
   affiliate_orders: {
-    title: "הזמנות שותפים שותפים",
+    title: "הזמנות שותפים",
     table: {
       order_price: "כמות הזמנה",
       order_payment: "סטטוס תשלום בהזמנה",

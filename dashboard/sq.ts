@@ -635,7 +635,7 @@ export default {
 
       show_notes: {
         false_title: "Fshih artikull",
-        false_description: "Fshih artikull artikull",
+        false_description: "Fshih shënimet boshe.",
         true_title: "Shfaq artikull",
         true_description: "Shfaq të gjitha artikull, ⌘Ctrl+2",
       },
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "artikull Njësia",
-        subtitle: "artikull Njësia I perdorur artikull artikull",
+        subtitle: "Njësia e përdorur për distancën.",
       },
 
       menu: {
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategoria",
-      category_input_msg: "artikull: artikull artikull Dyqane artikull",
+      category_input_msg: "Bosh: Në rrënjën e dyqanit",
       product_name: "Emri i produktit*",
       product_name_placeholder: "Emri i produktit tuaj këtu..",
       product_code: "Kodi i produktit (anglisht)",
       sku: {
         label: "SKU",
-        message: "artikull artikull Njësia",
+        message: "Njësia e mbajtjes së aksioneve",
       },
       mpn: {
         label: "MPN",
-        message: "artikull artikull artikull",
+        message: "Numri i pjesës së prodhuesit",
       },
 
       external_link: "Lidhje e jashtme",
@@ -1507,14 +1507,14 @@ export default {
         title: "Me porosi Blej artikull",
         message:
           "Mund ta ndryshoni ikonën duke ndjekur këtë model: {icon name} titull...",
-        placeholder: "artikull artikull për të artikull",
+        placeholder: "Fut thirrjen për veprim...",
         multi_language_dialog_title: "Me porosi Blej artikull artikull",
       },
       external: {
         not_available_message:
           "Ofrohet veprim shtesë me licencat e Kompanisë dhe Ndërmarrjeve.",
         available_message: "Mund të shtoni një thirrje shtesë të jashtme për veprim.",
-        input_label: "artikull artikull për të artikull",
+        input_label: "Thirrja e dytë për veprim",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Vlerat e mbështetura janë UPC (Amerika e Veriut, 12 shifra), EAN (Evropë, 13 shifra), JAN (Japoni, 8 ose 13 shifra), ISBN (libra, 13 shifra).",
-        label: "Produktet artikull artikull ",
-        placeholder: "artikull artikull (opsional)",
+        label: "Numri i artikullit të tregtisë globale të produktit",
+        placeholder: "Numri i tregtisë globale këtu.. (Opsionale)",
       },
       hsn: {
         hint: "HSN, ose Sistemi i Harmonizuar i Nomenklaturës, është një sistem klasifikimi i standardizuar ndërkombëtarisht për kategorizimin e mallrave dhe produkteve.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Produkt artikull artikull artikull dyqan",
-        message: "artikull artikull Produkt",
+        label: "Gjendja e produktit në dyqanin tuaj",
+        message: "Ju lutemi zgjidhni gjendjen e këtij produkti.",
         subtitle:
           "Informoni klientët tuaj për gjendjen dhe markën e produktit që po ofroni.",
       },
@@ -1696,12 +1696,12 @@ export default {
         generated_spec: {
           title: "artikullartikull Specifikimet",
           subtitle:
-            "artikull Specifikimet artikull artikull ",
+            "Këto specifikime janë krijuar nga inteligjenca artificiale.",
         },
         inputs: {
           prompt: {
             label: "Produkt Detajet",
-            placeholder: "artikull artikull Produkt artikull",
+            placeholder: "Përshkruani produktin këtu...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "sfond Përshkrim",
-            placeholder: "artikull artikull artikull sfond",
+            placeholder: "Përshkruani sfondin e dëshiruar...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Riimagjinoni të gjithë imazhin me një sfond të ri.",
           },
           replace: {
-            subtitle: "artikull artikull artikull sfond",
+            subtitle: "Zëvendësoni sfondin ekzistues.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "artikull Çmimet artikull artikull {min}",
+    title: "Çmime shtesë për mbi {min}",
     subtitle:
       "Sistemi automatikisht përcakton rendin dhe prioritetin për llogaritjen e çmimit. Ju lutemi vendosni sasinë minimale të kërkuar që ky çmim të hyjë në fuqi.",
     min_quantity: "Sasia minimale",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "Shtoni variante të shumta në një veprim.",
       },
       edit_property_set: {
-        title: "artikull artikull artikull",
+        title: "Personalizo grupin e vetive",
         subtitle: "Ndryshimi Variantet artikull, artikull artikull Porositë",
       },
     },
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "artikull Menaxhim",
     subtitle:
-      "Krijo artikull, artikull, artikull artikull ",
+      "Krijoni dritare pop-up të personalizuara, inteligjente dhe interaktive.",
     add_action: "Shto I ri Shfaqem",
   },
 
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Kontaktoni Informacion",
-      subtitle: "artikull artikull artikull Kontaktoni Detajet",
+      subtitle: "Ju lutemi jepni detaje të vlefshme kontakti.",
     },
     business: {
       title: "biznes Informacion",
@@ -2075,7 +2075,7 @@ export default {
     inputs: {
       slug: {
         label: "artikull",
-        placeholder: "artikull artikull Me porosi artikull",
+        placeholder: "Fut një shteg të personalizuar...",
         hint: "Ndrysho shtegun e faqes së uljes dinamike të shitësit.",
       },
       email: {
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "artikull artikull ",
-        true_description: "artikull artikull biznes artikull",
+        true_description: "Unë operoj si një subjekt biznesi i njohur ligjërisht.",
         false_title: "artikull",
         true_title: "biznes",
       },
@@ -2096,7 +2096,7 @@ export default {
         placeholder: "artikull Emri",
       },
       account_number: {
-        hint: "artikull shitës artikull Llogaria artikull",
+        hint: "Numri unik i llogarisë së shitësit.",
         placeholder: "artikull Banka Llogaria artikull",
       },
       routing_number: {
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Numri Ndërkombëtar i Llogarisë Bankare): Nëse banka e shitësit është në Evropë ose në disa vende të tjera.",
-        placeholder: "artikull IBAN artikull artikull DE89 3704 0044 0000 0000 00",
+        placeholder: "Numri juaj IBAN.. p.sh. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Numri Ndërkombëtar i Llogarisë Bankare): Nëse banka e shitësit është në Evropë ose në disa vende të tjera.",
-        placeholder: "artikull artikull artikull",
+        placeholder: "Kodi juaj Swift/BIC..",
       },
       branch_address: {
         hint: "Adresa e degës së bankës ku shitësi ka llogarinë e tij.",
@@ -2164,12 +2164,12 @@ export default {
   product_badges: {
     title: "distinktivë",
     subtitle: "Shto artikull Redakto Me porosi Produkt distinktivë",
-    only_marketplace_owner_msg: "artikull Tregu artikull",
+    only_marketplace_owner_msg: "Vetëm pronarët e tregut",
     create_new_badge_action: "Krijo I ri distinktiv",
     select_a_badge: "Zgjidh artikull distinktiv",
     inputs: {
       custom: {
-        false_description: "Produktet distinktivë artikull artikull artikull",
+        false_description: "Shenjat e produkteve krijohen automatikisht.",
         false_title: "automatik",
         true_title: "Me porosi Produktet distinktivë",
         true_description: "Shto Me porosi distinktivë artikull artikull Produkt faqe",
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "Distinktivi është shtuar me sukses!",
-        badge_updated: "artikull distinktiv artikull artikull !",
+        badge_updated: "Distinktivi është përditësuar me sukses!",
         item_not_found_error:
           "artikull artikull faqe artikull Kontaktoni Mbështetje",
       },
@@ -2217,11 +2217,11 @@ export default {
     ],
     inputs: {
       tags: {
-        placeholder: "artikull Etiketat artikull artikull p.sh. I ri artikull",
+        placeholder: "Etiketoni tela këtu dhe shtypni enter. psh. koleksion i ri",
       },
     },
     notifications: {
-      tags_updated: "artikull Etiketat artikull artikull ",
+      tags_updated: "Etiketat janë përditësuar me sukses.",
     },
   },
 
@@ -2370,7 +2370,7 @@ export default {
         title: "Vlerësimi i produktit",
         title_small: "Raporti i Kënaqësisë së Klientit",
         total_participation: "Numri total i kontributeve",
-        total_participation_tooltip: "artikull Numëroni artikull artikull Produkt",
+        total_participation_tooltip: "Numri total i vlerësuesve për produktin.",
         today_participation: "Vlerësimet e sotme",
         last7days_participation: "Kontributet e 7 ditëve të fundit",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Numri i kontributeve",
           score: "Rezultati",
         },
-        users_not_rated_msg: "Përdoruesit artikull artikull Produkt artikull",
+        users_not_rated_msg: "Përdoruesit nuk e kanë vlerësuar ende këtë produkt.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2451,7 +2451,7 @@ export default {
           graphical_asset_tips:
             "Mund t'u caktoni çdo vlerë variablave, duke përfshirë imazhet duke përdorur <b>Graphic Assets</b>. Ngarko një model dhe përdor kodin e krijuar për variantin.",
           graphical_asset_action: "artikull artikull",
-          graphical_asset_action_caption: "Imazhet artikull artikull artikull",
+          graphical_asset_action_caption: "Imazhet për opsionet e varianteve.",
         },
         smart_unit_price: {
           tips: "Llogaritni çmimin për njësi bazuar në <b>pesha</b>, <b>vëllimi</b> dhe <b>madhësia e paketimit</b>. Për ta çaktivizuar këtë veçori, lundroni te Blerja > Cilësimet > Tema > Faqja e produktit > Çmimi i njësisë inteligjente.",
@@ -2470,7 +2470,7 @@ export default {
           title: "artikull & Transporti",
           subtitle:
             "Specifikoni peshën dhe dimensionet për variantet për të përcaktuar opsionet e transportit.",
-          same_as_product_action: "artikull artikull Produkt",
+          same_as_product_action: "Njësoj si produkti",
         },
         image: {
           title: "artikull Imazhet",
@@ -2482,10 +2482,10 @@ export default {
             message: "artikull artikull Njësia (SKU)",
           },
           mpn: {
-            message: "artikull artikull artikull (MPN)",
+            message: "Numri i pjesës së prodhuesit (MPN)",
           },
           gtin: {
-            label: "artikull artikull (GTIN)",
+            label: "Numri global i artikullit tregtar (GTIN)",
             message:
               "Formatet e mbështetura: UPC (12 shifra), EAN (13 shifra), JAN (8 ose 13 shifra), ISBN (13 shifra).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Përditësoni të gjitha variantet",
     bulk_action_msg:
       "Përcaktoni kohën e paketimit dhe përgatitjes së produktit për të gjitha variantet.",
-    dynamic_lead_time: "artikull artikull Koha",
+    dynamic_lead_time: "Koha dinamike e drejtimit",
     instant_delivery: "artikull Dorëzimi",
   },
 
@@ -2552,7 +2552,7 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "artikull Imazhi artikull artikull",
+      title: "Vendosni tekstin alt të imazhit",
       placeholder: "artikull artikull ",
       success_update_notification: "artikull artikull ",
     },
@@ -2562,14 +2562,14 @@ export default {
         title: "Hiq sfondin",
         subtitle: "Krijo artikull transparent sfond",
       },
-      success_remove_bg_notification: "sfond artikull artikull!",
+      success_remove_bg_notification: "Sfondi u hoq me sukses!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "artikull artikull artikull",
+    title: "Variantet e aktiveve grafike",
     tips: {
       how_it_works:
         "<b>Si funksionon:</b><br />Ngarkoni imazhet e modelit ose artikullit këtu. Për t'i përdorur këto imazhe si opsion variant, përfshini <b>{filename}</b> në vlerën e variantit. Ki parasysh se ky kod nuk mund të përdoret në vlerën <b><s>color</s></b>.",
@@ -2593,9 +2593,9 @@ export default {
   product_variant_item: {
     duplicated_variant: "artikull artikull !",
     set_color_warning: "artikull Zgjidh artikull Ngjyrë",
-    set_volume_warning: "artikull artikull artikull vëllimi",
+    set_volume_warning: "Ju lutemi specifikoni volumin.",
     set_pack_warning: "artikull artikull ",
-    set_weight_warning: "artikull artikull artikull Pesha",
+    set_weight_warning: "Ju lutemi specifikoni peshën.",
     set_type_warning: "artikull Zgjidh artikull Lloji",
     set_style_warning: "artikull Zgjidh artikull Stili",
     out_of_stock: "artikull artikull ",
@@ -2610,10 +2610,10 @@ export default {
     restore_dialog: {
       title: "artikull artikull",
       message: "Jeni i sigurt që dëshironi të rivendosni këtë variant të fshirë?",
-      action: "po, artikull artikull",
+      action: "Po, Rivendos tani",
     },
     notifications: {
-      restore_variant_success: "artikull Produkt artikull artikull ",
+      restore_variant_success: "Varianti i produktit u rivendos me sukses.",
     },
   },
 
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "dyqan Inventari",
     subtitle: "Listë artikull të gjitha Produktet artikull dyqan",
-    cant_set_here: "artikull artikull artikull",
+    cant_set_here: "Nuk mund të vendoset këtu",
 
     search_input: "Kërkimi i produktit...",
     search_input_title: "Kërkoni midis produkteve të dyqanit",
@@ -2718,7 +2718,7 @@ export default {
     title: "artikull Veprimet > çmimi",
     message:
       "Shuma e mëposhtme do të zbatohet si përqindje për çmimin e të gjitha produkteve në dyqanin tuaj. Gjithashtu, vlerat e llogaritura të çmimeve do të konvertohen në mënyrë inteligjente në numrin më të afërt të rrumbullakët bazuar në monedhën e zgjedhur. Kini kujdes në futjen e vlerave.",
-    check: "artikull artikull çmimi artikull",
+    check: "Unë miratoj ndryshimet e çmimeve.",
     check_description:
       "Çmimi do të ndryshojë për kategorinë e zgjedhur dhe të gjitha nënkategoritë.",
     add_percent_tab: "Shto Përqindje",
@@ -3338,7 +3338,7 @@ export default {
 
       express_input: {
         true_title: "artikull | Anulo 🛍️ Porosit artikull",
-        false_title: "artikull | Anulo 🛍️ Porosit artikull 48 artikull",
+        false_title: "Standard | Anuloni porosinë pas 48 orësh",
         true_description:
           "Ky opsion do të anulojë porosinë tuaj menjëherë dhe do të përditësojë inventarin menjëherë.",
         false_description:
@@ -3356,7 +3356,7 @@ export default {
       shipping_address_update_success:
         "Transporti adresë artikull artikull ",
       vendor_order_status_update_success:
-        "shitës artikull Statusi artikull artikull ",
+        "Statusi i përmbushjes së shitësit është përditësuar me sukses.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3748,7 +3748,7 @@ export default {
       false_description:
         "Statusi i pagesës do të ndryshohet automatikisht nga në pritje në i konfirmuar në sistemin e ofruesit të pagesës.",
       false_title: "automatik Pagesa artikull",
-      true_title: "artikull Pagesat artikull manual artikull",
+      true_title: "Mbajtja e pagesave dhe konfirmimi manual",
       true_description:
         "Vendosni një pezullim për një pagesë në mënyrë që të duhet të verifikoni pagesat për një porosi për të ndryshuar statusin e tyre nga pezull në të konfirmuar në sistemin e ofruesit të pagesave.",
     },
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Ju keni produkte në rrënjë por nuk keni filtër.",
       has_root_filter_message: "Ju vendosni filtra për kategorinë rrënjë.",
-      set_filter_message: "artikull artikull artikull Filtrat",
+      set_filter_message: "Ju mund të vendosni filtra.",
       edit_action: "Redakto artikull Filtrat",
-      clear_action: "artikull artikull Filtrat",
+      clear_action: "Pastro filtrat rrënjë",
     },
     ai: {
       title: "AI Produkt artikull",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "Zgjidh të gjitha Produktet",
       unselect: "artikull",
-      sort_categories: "artikull / artikull Kategoritë",
+      sort_categories: "Organizoni / renditni kategoritë",
       subscription_vendor_not_support_message:
         "Nuk mund të caktohet shitësi për produktet e abonimit! Produktet e abonimit duhet të kenë gjithmonë një shitës si pronar të tyre!",
       vendor_owner_not_assignable_message:
@@ -4093,7 +4093,7 @@ export default {
     },
 
     engine: {
-      title: "artikull Produktet artikull",
+      title: "Motori i produkteve shtesë",
       subtitle:
         "Më shumë. . Produktet artikull artikull artikull Nga Zgjidh Kategoritë artikull Etiketat",
       load_in_tips: "artikull Produktet Nga Kategoritë artikull artikull {category}.",
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "artikull artikull / CSV skedar artikull",
+      title: "Hidhni skedarin Excel / CSV këtu.",
       select_file: "Zgjidh skedar",
       max_file: "maksimum skedar artikull: 20artikull",
       download_sample: "Shkarko artikull",
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "artikull artikull E konfirmuar artikull Pagesa?",
+          label: "E keni konfirmuar këtë pagesë?",
           false_description:
             "Jo, këtë pagesë nuk e kam marrë ende në llogarinë time bankare.",
           true_description: "Po, e kam marrë dhe verifikuar këtë pagesë.",
@@ -4267,7 +4267,7 @@ export default {
     inputs: {
       note: {
         message: "artikull artikull për të artikull shitës",
-        placeholder: "artikull artikull shënim artikull",
+        placeholder: "Këtu mund të bashkëngjitni një shënim...",
       },
       amount: {
         error_message: "Shuma e mbetur është tejkaluar.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Në këtë seksion, mund të shikoni afatin kohor të ngjarjeve që lidhen me porosinë, përmbushjen, pagesën dhe statuset e tyre përkatëse. Për më tepër, ju mund të vëzhgoni porositë e dërguara si për klientët ashtu edhe për shitësit.",
-    add_note_subtitle: "shkrim artikull Mesazh artikull artikull ",
+    add_note_subtitle: "Shkruani një mesazh dhe përmendni kolegët tuaj.",
 
     message_input: "Shkruaj nje mesazh ketu...",
     pin_action: "Gozhdoni në krye",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "shënim Qasja",
-      description: "lexim artikull artikull artikull Detajet",
+      description: "Lexoni shënimet dhe detajet përkatëse.",
     },
     "backoffice:note:write": {
       name: "shënim Menaxhim",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "artikull Menaxhim",
-      description: "Menaxho artikull artikull",
+      description: "Menaxho opsionet e printimit.",
     },
     "backoffice:print:read": {
       name: "artikull Qasja",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "artikull Menaxhim",
-      description: "Menaxho artikull, artikull artikull artikull",
+      description: "Menaxho fitimin e parave, duke përfshirë programet e referimit.",
     },
     "selldone:identification": {
       name: "artikull Qasja",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "artikull",
-      description: "artikull Fushëveprimi artikull artikull ",
+      description: "Fusha të ndryshme nuk janë përcaktuar në sistem.",
     },
     vendor: {
       title: "shitës",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "artikull artikull Portofoli",
+        title: "Zgjidhni një portofol",
         subtitle:
           "Zgjidhni një portofol virtual për t'u përdorur për abonimin tuaj. Nëse nuk e keni ende një të tillë, mund ta krijoni në seksionin e portofolit. Ky portofol do të përdoret për çdo tarifë.",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Shtoni me lehtësi produkte nga POD ose furnizues dropshipping me Selldone Connect OS—thjesht lidhni dyqanin tuaj dhe shijoni integrimin automatik të produktit, nuk nevojiten shtojca.",
     },
-    your_license_is_not_eligible: "artikull Liçensë artikull artikull artikull",
+    your_license_is_not_eligible: "Licenca juaj nuk është e pranueshme.",
     sku_dialog: {
       title: "Shto Produkt artikull SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Lidhni një nga domenet tuaja me këtë partner filial. Vizitorët që blejnë përmes këtij domeni do t'i atribuohen këtij filiali.",
 
-      domain_not_approved_msg: "artikull Domeni artikull artikull !",
-      domain_is_not_enable_msg: "artikull Domeni artikull artikull aktivizuar!",
+      domain_not_approved_msg: "Domeni nuk është miratuar ende!",
+      domain_is_not_enable_msg: "Domeni nuk është i aktivizuar!",
       domain_is_linked_to_other_affiliate_msg:
         "Ky domen është tashmë i lidhur me një filial tjetër!",
     },
 
-    set_users_first_message: "artikull artikull artikull Përdoruesi artikull!",
+    set_users_first_message: "Ju lutemi vendosni fillimisht përdoruesin!",
 
     cluster: {
       title: "artikull",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "I ri Filialin Shto artikull",
-      update_success: "Filialin artikull artikull",
+      update_success: "Filialja u përditësua me sukses.",
     },
 
     inputs: {
@@ -5945,10 +5945,10 @@ export default {
       commission: {
         label: "Komisioni artikull",
         false_description:
-          "artikull artikull komision",
+          "Llogaritni duke përdorur një kombinim të komisioneve fikse dhe të përqindjes.",
         true_description:
           "Llogaritni duke përdorur komisionet specifike të produktit të vendosura në skedën e çmimeve.",
-        false_title: "artikull + artikull Komisioni",
+        false_title: "Komisioni fiks + përqindje",
         true_title: "artikull Komisioni",
       },
       user: {
@@ -5956,7 +5956,7 @@ export default {
         message: "opsional, artikull, Filialin Emri artikull Selldone",
       },
       web: {
-        placeholder: "opsional, artikull, artikull",
+        placeholder: "Opsionale, p.sh., affiliate-web.com",
       },
       address: {
         placeholder: "opsional, artikull, 1200 POX, NY, USA",
@@ -6014,7 +6014,7 @@ export default {
       action: "Po, Fshije Tani",
     },
     notifications: {
-      delete_success: "artikull artikull Fshirë",
+      delete_success: "Vlerësimi është fshirë me sukses.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Çmimet & artikull artikull",
+    label: "Modeli i çmimit dhe vlerësimit",
   },
 
   /**
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Në këtë seksion, ju mund të vendosni si numrin maksimal të përdorimit për kupon ashtu edhe shumën më të lartë të zbritjes që mund të ofrojë çdo kupon.",
-      zero_message: "artikull: artikull artikull nr Kufiri!",
+      zero_message: "zero: nuk ka kufi!",
     },
     duration: {
       subtitle:
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Rritni blerjet e klientëve me një përvojë të gamifikuar në dyqanin tuaj. Vendosni çmime dhe shanse fitimi për klientët që fitojnë argumente përmes blerjeve. Çdo lojë kushton 10 argumente, dhe ju mund të ofroni çmime speciale për blerësit për herë të parë. Loja e parazgjedhur është Wheel of Fortune, por ju mund ta personalizoni atë për t'iu përshtatur strukturës së dyqanit tuaj.",
     },
-    empty_prize_list: "Krijo artikull Menaxho artikull artikull",
+    empty_prize_list: "Krijo dhe menaxho çmimet këtu...",
   },
 
   /** {@see BLotteryAdd**/
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "artikull shitës artikull",
+    open_vendors_panel: "Hap panelin e shitësve",
     title: "shitës artikull Listë",
     subtitle:
       "Kjo është një listë e kërkesave nga individë që kanë aplikuar për t'u bërë shitës në tregun tuaj.",
@@ -7113,7 +7113,7 @@ export default {
       title: "artikull",
       subtitle:
         "Ju mund të kërkoni që shitësit tuaj të ngarkojnë dokumente ose të nënshkruajnë kontrata të caktuara. Specifikoni dokumentet e kërkuara këtu.",
-      add_document_action: "Shto artikull artikull",
+      add_document_action: "Shto kërkesë për dokument",
     },
     inputs: {
       enable: {
@@ -7133,7 +7133,7 @@ export default {
       need_verify: {
         label: "Produkt artikull Rrjedha",
         false_description: "I ri shitës Produktet artikull Jetoni artikull",
-        false_title: "nr artikull artikull",
+        false_title: "Nuk kërkohet verifikim",
         true_description:
           "Produktet e reja të shitësve kërkojnë miratim përpara se të dalin drejtpërdrejt në treg.",
         true_title: "artikull artikull",
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Titulli",
-          placeholder: "artikull artikull Titulli artikull artikull ",
+          placeholder: "Futni një titull për kërkesën për dokument.",
         },
         guide: {
           label: "udhëzues (opsional)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "artikull Kodi",
-          placeholder: "artikull artikull artikull Kodi artikull",
+          placeholder: "Ngjit kodin e integruar këtu...",
           message: "artikull artikull HTML Kodi",
         },
         url: {
           label: "URL",
-          message: "artikull artikull URL artikull artikull ",
+          message: "Futni URL-në për dokumentin ose kontratën këtu...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Pronari artikull artikull",
+      title: "Dokumenti i identifikimit të pronarit",
       description:
         "Ngarko një ID të lëshuar nga qeveria për të verifikuar identitetin e pronarit të biznesit ose ekzekutivit kryesor.",
     },
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "artikull artikull",
       description:
-        "artikull artikull për të artikull artikull ",
+        "Siguroni dokumente të regjistrimit të së drejtës së autorit për të konfirmuar të drejtat tuaja të pronësisë intelektuale.",
     },
     Privacy: {
       title: "Privatësia politikë artikull",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "artikull, artikull Produktet artikull",
+        placeholder: "p.sh., Klasa e Produkteve Dixhitale...",
       },
       description: {
         placeholder: "Këtu mund të shtoni një shënim...",
       },
       accept_delete: {
         true_description: "Dua ta fshij këtë model çmimi.",
-        true_title: "artikull Çmimet artikull artikull",
+        true_title: "Konfirmo heqjen e modelit të çmimeve",
       },
     },
   },
@@ -7421,7 +7421,7 @@ export default {
       payout_success: {
         title: "artikull",
         message:
-          "artikull shitës artikull artikull Shto",
+          "Pagesa e shitësit është përpunuar dhe shtuar me sukses.",
       },
     },
   },
@@ -7433,7 +7433,7 @@ export default {
     quota: "artikull",
     max_batch_msg: "Numri maksimal i artikujve që mund të importoni në një grup të vetëm.",
     max_daily_limit_msg: "Numri maksimal i artikujve që mund të importoni në një ditë.",
-    extra_daily_limit_msg: "artikull Artikuj artikull artikull Kufiri",
+    extra_daily_limit_msg: "Artikuj shtesë lejohen përtej kufirit ditor.",
     add_items_today_msg: "Artikuj Shto Sot",
     file_statistic_msg: "Statistikat artikull artikull skedar",
     used_quota: "I perdorur artikull",
@@ -7522,7 +7522,7 @@ export default {
           "Modaliteti i thjeshtë dhe minimal pa ndonjë veprim shtesë në kartat e produkteve.",
         true_description:
           "Shfaq butonat e \"Blij dhe Shto të Shpejtë\" për të krahasuar në kartën e produktit që rri pezull.",
-        true_title: "Shfaq artikull artikull artikull",
+        true_title: "Shfaq Veprimin në Hover",
       },
     },
     filter_products: {
@@ -7613,12 +7613,12 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "kryesor Faqja e internetit artikull",
-      subtitle: "artikull artikull Nga Google artikull",
+      subtitle: "Zgjidhni fontin tuaj të preferuar nga Google Fonts.",
     },
     inputs: {
       font_family: {
         label: "artikull artikull",
-        message: "artikull artikull artikull Vlera",
+        message: "Futni vlerën e fontit të familjes.",
       },
       font_res: {
         label: "artikull artikull",
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Kreu Titulli",
-        set_empty: "artikull artikull Titulli",
+        set_empty: "Cakto titullin bosh",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Redakto artikull artikull",
-    add_title: "Shto artikull artikull",
+    edit_title: "Redakto grupin e vetive",
+    add_title: "Shto grupin e vetive",
     config: {
       subtitle:
         "Vendosni titullin dhe përshkrimin për grupin tuaj të pronës. Ajo do të jetë e dukshme vetëm për stafin.",
@@ -7690,7 +7690,7 @@ export default {
         placeholder: "Fut një titull për grupin e pronës...",
       },
       description: {
-        placeholder: "artikull artikull artikull Përshkrim (opsional)",
+        placeholder: "Fut një përshkrim të shkurtër... (opsionale)",
       },
       custom_variants: {
         true_title: "Me porosi Variantet",
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "artikull artikull artikull (opsional)",
+        placeholder: "Cakto vlerat e vendosura... (opsionale)",
         messages:
-          "artikull artikull 🛍️ Porosit",
+          "Ju mund të jepni sugjerime për vlerat dhe të personalizoni rendin.",
       },
     },
   },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Opsioni 3: Transporti i menjëhershëm.",
 
     verify_delivery_input: {
-      true_title: "artikull Dorëzimi artikull",
+      true_title: "Konfirmo përfundimin e dorëzimit",
       true_description:
         "Konfirmoj që porosia i është dorëzuar klientit.",
     },
@@ -8532,16 +8532,16 @@ export default {
       add_new: "Shto I ri",
       disable_reason: {
         set_provider: "artikull artikull !",
-        provider_is_disabled: "artikull artikull artikull!",
-        otp: "OTP - artikull artikull!",
-        select_another_provider: "Zgjidh artikull artikull",
+        provider_is_disabled: "Ofruesi është çaktivizuar!",
+        otp: "OTP - Asnjë i personalizueshëm!",
+        select_another_provider: "Zgjidhni një ofrues tjetër.",
       },
       enable_only_filter: "Shfaq artikull aktivizuar",
 
       text_template_not_supported_msg:
         "Ofruesi juaj nuk i mbështet mesazhet me tekst të thjeshtë.",
       structure_template_not_supported_msg:
-        "artikull artikull Mbështetje artikull mesazh",
+        "Ofruesi juaj nuk i mbështet mesazhet strukturore.",
 
       structured_data: "artikull Të dhënat",
 
@@ -8569,9 +8569,9 @@ export default {
         reset_to_default: "artikull për të E paracaktuar",
 
         auto_fill: {
-          title: "automatik artikull artikull",
+          title: "Parametrat e mbushjes automatike",
           subtitle:
-            "artikull artikull Selldone artikull artikull Vlera",
+            "Ju mund të përdorni secilin prej këtyre parametrave në tekst dhe Selldone do t'i zëvendësojë ato me vlerën përkatëse.",
         },
 
         sample: {
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "Shto I ri artikull",
 
         auto_fill: {
-          title: "automatik artikull artikull",
+          title: "Parametrat e mbushjes automatike",
           subtitle:
             "Ju mund të vendosni secilin prej këtyre parametrave si një vlerë, dhe Selldone do t'i zëvendësojë ato me vlerën përkatëse. Është më mirë të përcaktoni vlerat e paracaktuara si shabllone në ofruesin tuaj të SMS për thjeshtësi. Në këtë rast, nuk do të ketë nevojë të përcaktohen vlerat e parametrave këtu.",
         },
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "OTP artikull",
-      description: "artikull mesazh artikull artikull Dërguar",
+      description: "Mesazhet e vërtetimit do të dërgohen.",
     },
   },
 
@@ -8946,7 +8946,7 @@ export default {
     notifications: {
       delete_success: "Skedari u fshi me sukses.",
     },
-    drag_sort_msg: "artikull artikull skedarë",
+    drag_sort_msg: "Mund të tërhiqni dhe renditni skedarët.",
     paid_mode_msg: "Përdoruesit artikull Shkarko artikull artikull Produkt",
     free_mode_msg:
       "Përdoruesit mund ta shkarkojnë atë falas. Skedarët e mostrës duhet të jenë nën 50 MB.",
@@ -8973,14 +8973,14 @@ export default {
     },
     export: {
       title: "Ruaj profili",
-      subtitle: "dyqan Vendndodhjet artikull artikull artikull",
+      subtitle: "Vendndodhjet e dyqaneve për përdorim në të ardhmen.",
     },
     has_restriction_input: {
       title: "artikull Vendndodhja kufizim",
       description:
         "Klientët mund ta blejnë këtë produkt vetëm brenda vendit dhe kodit postar të specifikuar, për shkak të kufizimit të vendosur të vendndodhjes.",
     },
-    zip_pin_code: "artikull / artikull kod",
+    zip_pin_code: "Kodi Postar/Pin",
     no_country_selected_error:
       "Përfshini të paktën një shtet së bashku me një listë të kodeve postare/pin. Pa të, ky produkt nuk do të jetë i disponueshëm.",
     tips: "Klikoni në butonin <b>+ Shto shtet</b> për të filluar krijimin e një grupi të ri vendndodhjesh. Pasi të keni mbaruar, mund ta ruani duke klikuar në menynë lart djathtas <b>⋮</b> dhe duke zgjedhur <b>Ruaj profilin</b>.",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Mos i humbisni porositë tuaja!",
     msg: "Menaxhoni biznesin tuaj kudo dhe në çdo kohë.",
-    scan_qr_code: "artikull artikull telefon!",
+    scan_qr_code: "Më skanoni me telefonin tuaj!",
 
     notification: {
       title: "Njoftim",
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "artikull artikull artikull",
+    title: "Orari i publikimit të përmbajtjes",
     subtitle:
       "Këtu është lista e artikujve të planifikuar për botim të ardhshëm. Ju keni mundësinë të planifikoni postimet në blog dhe madje edhe përshkrimet e produkteve që do të publikohen në kohë specifike.",
   },
@@ -9493,10 +9493,10 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Dërgo artikull artikull",
+    title: "Dërgo Kërkesë Direkte",
     message:
       "Identifikoni 3 nevojat kryesore të biznesit tuaj për të lulëzuar dhe për të përfituar në Selldone. Ky informacion do të ndahet drejtpërdrejt me themeluesit dhe drejtorët dhe do të konsiderohet me kujdes. Ju gjithashtu mund të përditësoni nevojat tuaja me kalimin e kohës pas dorëzimit.",
-    expand_action: "shkrim artikull artikull",
+    expand_action: "Shkruani kërkesën...",
     input_label: "artikull artikull",
     to: {
       ceo: "Dërgo për të CEO",
@@ -9546,15 +9546,15 @@ export default {
       title: "dyqan",
       subtitle: "artikull shërbim Raportoni",
       action: "artikull artikull",
-      last_update: "artikull artikull artikull",
+      last_update: "Përditësuar së fundi nga",
     },
     service_status: {
       title: "shërbim Statusi",
-      syncing_message: "artikull artikull artikull",
+      syncing_message: "Në procesin e sinkronizimit...",
       action: "artikull të gjitha",
       connect_status: "Connect Statusi",
       service_status: "shërbim Statusi",
-      auto_confirm_enable_msg: "artikull artikull Porositë artikull aktivizuar",
+      auto_confirm_enable_msg: "Është aktivizuar konfirmimi automatik për porositë.",
       auto_confirm_disable_msg:
         "Konfirmimi automatik i porosive nuk është i aktivizuar.",
       shipping_enable_msg:
@@ -9565,7 +9565,7 @@ export default {
       auto_confirm_order: "automatik artikull Porositë",
       test_mode: "artikull modalitet",
       status: {
-        subtitle: "artikull informacion artikull artikull Statusi",
+        subtitle: "Informacion i përgjithshëm rreth statusit të sinkronizimit.",
       },
       sync: {
         title: "artikull artikull",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Lista e produkteve të shtuara nga {name}. Sigurohuni që produkti juaj të ketë një emër unik dhe SKU. Disa shërbime Connect përdoren për migrim, kështu që nëse keni produkte me <b>SKU</b> dhe <b>Names</b> dublikatë, ato produkte do të ndryshohen!",
       action: "artikull Produktet",
-      syncing_message: "artikull artikull artikull",
+      syncing_message: "Në procesin e sinkronizimit...",
     },
 
     logs: {
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "artikull të gjitha",
         false_desc: "artikull të gjitha Në dispozicion Produktet, Kategoritë, Klientët",
-        true_title: "artikull (artikull artikull artikull)",
+        true_title: "E kufizuar (rekomandohet për fillestarët)",
         true_desc:
           "Merrni maksimum 5 produkte, kategori dhe klientë. Mund ta ktheni në modalitetin e plotë te Lidhja > Cilësimet në çdo kohë.",
       },
       overwrite: {
-        false_title: "artikull artikull Ndryshimi artikull artikull",
+        false_title: "Mos ndryshoni nëse ekziston",
         false_desc: "Mbani detajet ekzistuese të produktit dhe kategorisë ashtu siç janë.",
         true_title: "artikull",
         true_desc:
@@ -9626,7 +9626,7 @@ export default {
       },
       confirm: {
         label: "automatik artikull Porositë",
-        false_desc: "artikull artikull artikull 🛍️ Porosit artikull",
+        false_desc: "Ju duhet të konfirmoni porosinë me dorë.",
         true_desc:
           "Porositë me pagesë të drejtpërdrejtë do të miratohen automatikisht. Porositë me pagesë të korrigjimit nuk do të miratohen automatikisht.",
         tips: "Porositë e paguara me kartë dhuratë ose COD ose porta pagese në modalitetin e korrigjimit janë përjashtime dhe nuk do të konfirmohen automatikisht.",
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "automatik artikull",
       shipping: "Transporti",
       syncing_now: "artikull artikull!",
-      sync_not_started: "artikull artikull artikull fillim artikull!",
+      sync_not_started: "Sinkronizimi nuk ka filluar ende!",
     },
   },
 
@@ -9758,7 +9758,7 @@ export default {
         description: "Shfaq raport artikull",
       },
     },
-    empty_msg: "nr artikull artikull ",
+    empty_msg: "Asnjë postim nuk është krijuar deri më tani...",
     menu: {
       open_post: {
         title: "artikull artikull",
@@ -9770,7 +9770,7 @@ export default {
       },
       delete: {
         title: "Fshije artikull",
-        subtitle: "Hiq artikull artikull",
+        subtitle: "Hiqeni këtë postim.",
       },
     },
   },
@@ -9798,8 +9798,8 @@ export default {
       title: "kërko artikull",
       subtitle: "Shtoni një meta etiketë në faqen tuaj kryesore për verifikimin e Google Search Console.",
       code: {
-        label: "artikull artikull Etiketë",
-        placeholder: "Nga artikull, artikull artikull",
+        label: "Etiketa meta e verifikimit",
+        placeholder: "Nga google, p.sh. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9831,7 +9831,7 @@ export default {
     title: "rimbursim parash artikull",
     boosted: "artikull (2artikull)",
     min_purchase: "Blerja minimale",
-    only_first_order: "artikull artikull 🛍️ Porosit",
+    only_first_order: "Vetëm Rendi i Parë",
     total_cashback: "artikull rimbursim parash",
     delete_alert: {
       title: "Fshije rimbursim parash artikull",
@@ -9926,7 +9926,7 @@ export default {
       title: "Përshkrim",
     },
     constraints: {
-      subtitle: "artikull artikull rimbursim parash artikull",
+      subtitle: "Vendosni kufizimet për programin e kthimit të parave.",
     },
     min_purchase_input: {
       hint: "artikull artikull minimum Blerje Shuma artikull rimbursim parash artikull",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "Programi i kthimit të parave do të jetë i disponueshëm për të gjitha porositë.",
       true_desc:
         "Programi i kthimit të parave do të jetë i disponueshëm vetëm për porosinë e parë.",
-      true_title: "artikull artikull 🛍️ Porosit",
+      true_title: "Vetëm Rendi i Parë",
       false_title: "të gjitha Porositë",
     },
     qualify_input: {
@@ -9955,7 +9955,7 @@ export default {
     },
     notifications: {
       add: "rimbursim parash artikull Shto artikull",
-      edit: "rimbursim parash artikull artikull artikull",
+      edit: "Programi i kthimit të parave u përditësua me sukses.",
     },
     enable_input: {
       true_msg: "Programi i kthimit të parave është aktiv dhe klientët mund ta përdorin atë.",
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "rimbursim Pagesa",
-        subtitle: "artikull artikull artikull rimbursim mbështetje",
+        subtitle: "Mbështet rimbursimi i pjesshëm ose i plotë.",
       },
       delivery: {
-        title: "artikull artikull Dorëzimi",
+        title: "Konfirmo në dorëzim",
         subtitle: "Mund të konfirmoni manualisht dorëzimin për ofruesin e pagesës.",
       },
     },
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "artikull Produkt",
-        subtitle: "artikull Produkt artikull artikull ",
+        subtitle: "Ky produkt është zgjedhur për promovim të shitjeve të kryqëzuara.",
         manage_product: "Menaxho Produkt",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Krijoni një titull tërheqës dhe tërheqës për të tërhequr vëmendjen e klientëve.",
           placeholder:
-            "artikull & Ruaj: artikull artikull !",
+            "Pako dhe ruaj: Plotësoni pamjen tuaj me përzgjedhjen tonë të zgjedhur me dorë!",
         },
       },
       action: {
@@ -10133,7 +10133,7 @@ export default {
     health: {
       title: "Produkt artikull",
       available_in_stock_msg: "Produkt artikull Në dispozicion artikull artikull",
-      out_of_stock_msg: "Produkt artikull artikull ",
+      out_of_stock_msg: "Produkti është jashtë stok.",
       file_count_msg:
         "{files_count} skedarë me gjithsej {files_size} të ngarkuar për këtë produkt.",
       no_file_uploaded_msg: "nr skedar artikull artikull Ngarko artikull",
@@ -10167,7 +10167,7 @@ export default {
       title: "Çmimet",
       no_product_price_msg: "Çmimi i paracaktuar i produktit nuk është vendosur ende!",
       listing_pricing_msg: "Listim Çmimet:",
-      has_valuation_msg: "Produkt artikull artikull",
+      has_valuation_msg: "Produkti ka një vlerësim.",
       subscription_pricing_msg:
         "artikull Produkt artikull {count} Abonimi Çmimet Planet",
       has_no_subscription_pricing_msg:
@@ -10229,7 +10229,7 @@ export default {
         is_disabled: "artikull Taksa profili artikull çaktivizuar!",
         tax_is_based_on_location: "Taksa: Vendndodhja artikull",
         shipping_tax_is_based_on_location: "Transporti: Vendndodhja artikull",
-        included_in_price: "artikull artikull çmimi",
+        included_in_price: "Të përfshira në çmim.",
       },
     },
 
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Qasja artikull",
-        placeholder: "Zgjidh artikull artikull",
+        placeholder: "Zgjidhni një nivel...",
       },
     },
 
@@ -10318,7 +10318,7 @@ export default {
       },
       update_success: {
         title: "Qasja artikull",
-        message: "Lejet artikull artikull ",
+        message: "Lejet janë përditësuar me sukses.",
       },
     },
   },
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "Produkt Etiketat",
         messages: "Produktet me këto etiketa do të shfaqen.",
-        placeholder: "artikull Etiketat artikull artikull p.sh. I ri artikull",
+        placeholder: "Etiketoni tela këtu dhe shtypni enter. psh. koleksion i ri",
       },
     },
     actions: {
@@ -10385,11 +10385,11 @@ export default {
       },
       image: {
         title: "Imazhi",
-        subtitle: "artikull artikull Ngarko artikull Imazhi",
+        subtitle: "Ju mund të ngarkoni një imazh.",
       },
     },
     help_dialog: {
-      title: "artikull për të artikull artikull artikull",
+      title: "Si të përdorni përmbajtje dinamike",
       how_it_works_tips:
         "Në faqet e uljes, ju keni fleksibilitetin për të përcaktuar vendmbajtësit dinamikë si për tekstin ashtu edhe për imazhet. Këta mbajtës vendesh shërbejnë një rol të rëndësishëm në përshtatjen e përmbajtjes sipas kontekstit.   Natyra dinamike e këtyre mbajtësve të vendndodhjes lejon që ato të popullohen nga vlera të shtuara, të cilat mund të ndryshojnë në bazë të faktorëve të ndryshëm. Për shembull, vlerat e rritjes mund të jenë të ndryshme për çdo produkt ose kategori. Avantazhi i vërtetë i kësaj veçorie vjen në lojë kur keni një shumëllojshmëri artikujsh me atribute të ndryshme. Ju mund t'i përdorni në mënyrë efektive këto mbajtëse dinamike për të personalizuar dhe përmirësuar shfaqjen e secilit artikull, duke krijuar kështu një përvojë unike dhe ndërvepruese në faqet tuaja të uljes.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Për çdo produkt, ju keni mundësinë të caktoni çifte të dedikuara çelës-vlerë.",
       result_tips:
-        "artikull artikull faqe, artikull artikull ",
+        "Ky është rezultati përfundimtar i faqes, ku mbajtësit e vendeve janë zëvendësuar me vlera të shtuara.",
     },
   },
 
@@ -10419,7 +10419,7 @@ export default {
       subtitle:
         "Mund ta personalizoni përmbajtjen për profilin e logjistikës në shumë gjuhë.",
 
-      language_input: "artikull Neni artikull",
+      language_input: "Gjuha aktuale e artikullit",
       delete_article: "Fshije Neni",
       menu_tooltip: "automatik artikull / Fshije Neni",
     },
@@ -10429,10 +10429,10 @@ export default {
         message: "Neni artikull E përfunduar artikull",
       },
       save_article: {
-        message: "Neni artikull artikull ",
+        message: "Artikulli është ruajtur me sukses.",
       },
       delete_article: {
-        message: "Neni artikull artikull Fshirë artikull",
+        message: "Artikulli është fshirë me sukses.",
       },
     },
     delete_dialog: {
@@ -10510,11 +10510,11 @@ export default {
     empty_list_msg: "Listë artikull artikull Artikuj",
     notifications: {
       delete: {
-        message: "artikull artikull Fshirë",
+        message: "Artikulli është fshirë.",
       },
     },
     delete_dialog: {
-      title: "Fshije artikull artikull",
+      title: "Fshi artikullin e përfshirë",
       message:
         "Jeni i sigurt që dëshironi ta fshini përgjithmonë këtë artikull? Ju lutemi vini re se do të hiqet gjithashtu nga të gjitha produktet e lidhura!",
       action: "Po, Fshije Tani",
@@ -10528,7 +10528,7 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "Redakto artikull artikull",
+    dialog_title_edit: "Redakto artikullin e përfshirë",
     dialog_title_add: "Krijo I ri artikull artikull",
 
     title: "artikull artikull",
@@ -10571,7 +10571,7 @@ export default {
     },
     notifications: {
       add: {
-        message: "artikull artikull Shto artikull",
+        message: "Artikulli i përfshirë është shtuar me sukses.",
       },
       edit: {
         message: "artikull artikull ",
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "nr Portofoli!",
 
     withdraw_dialog: {
-      title: "artikull Komisioni artikull",
+      title: "Tërheqja e tarifave të komisionit",
 
       need_bank_info_message: "Ju lutemi shkruani së pari të dhënat tuaja bankare.",
 
@@ -10648,12 +10648,12 @@ export default {
       message: "Ju mund të shtoni <b>?ref={code}</b> në çdo url të shitur.",
     },
     intro: {
-      title: "artikull artikull Selldone Filialin artikull",
+      title: "Bashkohuni me Programin e Filialeve Seldone",
       message:
         "Programi i Filialit Seldone është i thjeshtë dhe i drejtpërdrejtë, i krijuar për ju që të fitoni pa mundim. Ndani lidhjen tuaj unike të filialit për të ftuar përdoruesit e rinj në Selldone dhe do të fitoni një komision nga çdo transaksion që ata bëjnë—përgjithmonë. Kjo përfshin fitimet nga abonimet, tarifat e shërbimit, përmirësimet e dyqaneve dhe të gjitha rrjedhat e tjera të të ardhurave. Filloni të fitoni një pjesë të të ardhurave pa asnjë kufizim në kohë ose fitime. Bashkohuni me ne dhe kthejeni rrjetin tuaj në të ardhura të qëndrueshme!",
       why_join_selldone_affiliate: "artikull artikull ?",
       reasons: [
-        "artikull artikull artikull!",
+        "Ajo zgjat përgjithmonë!",
         "Mbulon të gjitha tarifat e abonimit dhe transaksionit. Fjalë për fjalë çdo pagesë e përdoruesit në Selldone.",
         "Ne dërgojmë një kupon falas $99 për këdo që regjistrohet duke përdorur lidhjen tuaj.",
         "Kur niveli juaj të përmirësohet, ju do të fitoni me tarifën e re nga të gjithë përdoruesit e referuar më parë.",
@@ -10725,7 +10725,7 @@ export default {
       ctrl_2: "Rrit madhësinë e shkronjave të tekstit të zgjedhur | <big>Më bëj të madh</big>",
       ctrl_r: "Hiq të gjitha artikull Nga Zgjidh artikull | artikull të gjitha artikull",
       ctrl_s: "Ruaj artikull faqe",
-      tab: "artikull artikull artikull modalitet",
+      tab: "Kaloni ndërmjet mënyrave të shkallës",
       ctrl_e: "artikull artikull Stili modalitet",
     },
   },
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Titulli",
-          message: "artikull artikull artikull Publike Titulli",
+          message: "Ky është titulli publik.",
         },
         tags: {
           label: "Etiketat",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Kërkesa e shitësit është refuzuar.",
       PENDING: "Kërkesa është në pritje të një vendimi nga shitësi.",
     },
-    number_of_products: "artikull artikull Produktet",
+    number_of_products: "Numri i Produkteve",
     invited: "artikull",
     no_pricing: "nr Çmimet",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Ju lutemi vendosni një model çmimi të paracaktuar për shitësin.",
     },
     updated_products_tooltip: {
-      title: "Produktet artikull artikull 24 artikull",
+      title: "Produktet e përditësuara në 24 orët e fundit",
     },
     added_products_tooltip: {
       title: "Produktet e shtuara në 24 orët e fundit",
@@ -10806,14 +10806,14 @@ export default {
         "Përdoruesi refuzoi kërkesën për t'u bërë shitës dhe për të hyrë në këtë shitës.",
     },
     download_all_vendors: "Shkarko të gjitha shitës",
-    bulk_import: "artikull Importo (artikull)",
+    bulk_import: "Importi me shumicë (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Liçensë artikull artikull!",
+    title: "Kërkohet përmirësimi i licencës!",
     subtitle:
       "Licenca juaj aktuale nuk i plotëson kërkesat e modelit tuaj të zgjedhur të biznesit. Ju lutemi përmirësoni licencën tuaj në planin e Ndërmarrjes.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Shto Mesazh shabllon",
 
     notifications: {
-      add_chat_success_message: "Mesazh artikull artikull Shto artikull",
+      add_chat_success_message: "Mesazhi është shtuar me sukses.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Dërgo Përditëso email",
 
       notifications: {
-        send_success_message: "email artikull artikull Dërguar artikull",
+        send_success_message: "Email-i është dërguar me sukses.",
       },
     },
     add_template: {
@@ -10855,7 +10855,7 @@ export default {
       add_action: "Shto shabllon",
 
       notifications: {
-        save_success_message: "shabllon artikull artikull ",
+        save_success_message: "Modeli është ruajtur me sukses.",
       },
 
       inputs: {
@@ -10884,9 +10884,9 @@ export default {
     authentication: "artikull",
     guest: "artikull",
     click_to_create: "artikull për të Krijo",
-    valid_for_30_days: "artikull artikull 30 30 dite",
+    valid_for_30_days: "e vlefshme për 30 ditë",
     notifications: {
-      secure_link_created: "artikull Lidhje artikull artikull ",
+      secure_link_created: "Lidhja e sigurt është krijuar me sukses.",
     },
   },
 
@@ -10922,8 +10922,8 @@ export default {
 
     subtitle:
       "Këtu mund të personalizoni emrat e varianteve, ikonat dhe renditjen e tyre. Për produktet me variante unike që shkojnë përtej gjashtë të paracaktuara, mund të vendosni variante të personalizuara të përshtatura për secilin produkt. Thjesht përcaktoni grupet e vetive në skedën Logistic > Property Sets dhe caktojini ato çdo numri produktesh sipas nevojës.",
-    select_property_set: "Zgjidh artikull artikull",
-    add_property_set: "Shto artikull artikull",
+    select_property_set: "Zgjidhni Property Set",
+    add_property_set: "Shto grupin e vetive",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10932,7 +10932,7 @@ export default {
     add_action: "Shto artikull",
     subtitle:
       "Krijoni madhësi kuti të ripërdorshme për të shpejtuar blerjet e etiketave dhe për të siguruar tarifa të sakta transporti. Kur përmbushni një porosi, zgjidhni një kuti të ruajtur dhe dimensionet e saj do të plotësohen automatikisht.",
-    empty: "nr artikull artikull artikull “Shto artikull”.",
+    empty: "Ende nuk ka kuti. Klikoni \"Shto kutinë\".",
     edit: "Redakto artikull",
     new: "I ri artikull",
     default_weight: "E paracaktuar Pesha",
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Zgjidh artikull paketë",
-    define_package: "artikull artikull paketë",
+    define_package: "Përcaktoni një paketë",
     define_package_hint: "Krijoni ose modifikoni madhësitë e paketave tuaja të paracaktuara",
   },
 
@@ -10999,12 +10999,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Lidhjet JSON",
-      opening_hours_json: "artikull artikull JSON",
+      opening_hours_json: "Orari i hapjes JSON",
 
       delete_title: "Fshije artikull",
       delete_message: "Jeni i sigurt që dëshironi ta fshini këtë artikull?",
       delete_success: "Artikulli u fshi me sukses.",
-      restore_success: "artikull artikull artikull",
+      restore_success: "Artikulli u rivendos me sukses.",
 
       opening_hours:"artikull artikull",
       form_fields:"formular artikull",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Shto kategori",
       edit_title: "Redakto kategorinë",
 
-      parent_filter: "Filtro artikull artikull",
+      parent_filter: "Filtro sipas prindit",
       parent: "Kategoria e prindërve",
 
       price_format: "çmimi artikull",
@@ -11082,12 +11082,12 @@ export default {
     },
 
     moderation: {
-      approve_success: "artikull artikull artikull",
-      publish_success: "artikull Publikuar artikull",
-      unpublish_success: "artikull artikull artikull",
-      archive_success: "artikull artikull artikull",
-      reject_success: "artikull Refuzuar artikull",
-      penalty_success: "artikull artikull artikull",
+      approve_success: "Artikulli u miratua me sukses.",
+      publish_success: "Artikulli u publikua me sukses.",
+      unpublish_success: "Artikulli u anulua me sukses.",
+      archive_success: "Artikulli u arkivua me sukses.",
+      reject_success: "Artikulli u refuzua me sukses.",
+      penalty_success: "Dënimi u zbatua me sukses.",
 
       reject_title: "Refuzo artikull",
       reject_reason: "artikull artikull",
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Ngarko Imazhet",
       url_type: "Lloji",
       url: "URL",
-      is_main: "artikull artikull kryesor"
+      is_main: "Cakto si kryesore"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Krijoni grupe të shumta dizajni (shabllone të kartelave + detajeve) dhe caktojini ato në kategori. Kategoritë mund të përdorin dizajne të ndryshme.",
 
-      empty_title: "nr artikull artikull",
+      empty_title: "Ende nuk ka dizajne",
       empty_subtitle:
         "Shtoni grupin tuaj të parë të dizajnit për të filluar personalizimin e pamjes së kategorive.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Detajet shabllon",
 
       notifications: {
-        add_success: "Dizajn artikull artikull",
-        edit_success: "Dizajn artikull artikull",
+        add_success: "Dizajni u krijua me sukses.",
+        edit_success: "Dizajni u përditësua me sukses.",
         delete_success: "Dizajn Fshirë artikull",
       },
 
@@ -11154,8 +11154,8 @@ export default {
       edit_title: "Redakto distinktiv",
 
       notifications: {
-        add_success: "distinktiv artikull artikull",
-        edit_success: "distinktiv artikull artikull",
+        add_success: "Distinktivi u krijua me sukses.",
+        edit_success: "Distinktivi u përditësua me sukses.",
         delete_success: "distinktiv Fshirë artikull",
       },
 
@@ -11176,8 +11176,8 @@ export default {
       edit_title: "Redaktoni kompaninë",
 
       notifications: {
-        add_success: "Kompania artikull artikull",
-        edit_success: "Kompania artikull artikull",
+        add_success: "Kompania u krijua me sukses.",
+        edit_success: "Kompania u përditësua me sukses.",
         delete_success: "Kompania Fshirë artikull",
       },
 
@@ -11205,11 +11205,11 @@ export default {
       reply: "artikull",
       reply_hint: "Shkruani një përgjigje për përdoruesit. Ju gjithashtu mund ta shënoni mesazhin si të lexuar/të padëshiruar nga veprimet.",
 
-      mark_read: "artikull artikull lexim",
-      mark_unread: "artikull artikull artikull",
+      mark_read: "Shënoni si të lexuar",
+      mark_unread: "Shëno si të palexuar",
       archive: "artikull",
       unarchive: "artikull",
-      mark_spam: "artikull artikull artikull",
+      mark_spam: "Shëno si të padëshiruar",
       mark_not_spam: "artikull artikull",
 
       delete_confirm: "Fshije artikull Mesazh?",
@@ -11252,8 +11252,8 @@ export default {
       radius_default_hint: "Përdoret kur klienti zgjedh një vendndodhje, por nuk zgjedh një rreze.",
       radius_max: "maksimum Rrezja (artikull)",
       radius_max_hint: "Rrezja e vitrinës do të mbërthehet në këtë vlerë.",
-      radius_options: "Rrezja artikull (artikull)",
-      radius_options_hint: "artikull artikull UI.",
+      radius_options: "Opsionet e rrezes (km)",
+      radius_options_hint: "Këto vlera mund të shfaqen si opsione të shpejta në ndërfaqen e përdoruesit të vitrinës.",
 
       filters_title: "kërko Filtrat",
       filters_subtitle: "Shto filtra që lexojnë vlerat nga fushat meta të artikullit (fushat e formularit të listimit/kategorisë). Përdorni gjenerimin automatik për të mbledhur opsione reale nga artikujt e publikuar.",
@@ -11768,11 +11768,11 @@ export default {
       name: [
         "Blini 'Til You Drop'",
         "Frenzy Cart",
-        "artikull Shitje artikull",
+        "Flash Sale Fiesta",
         "Kliko, Bli, Ruaj",
         "Bonanza e volitshme",
         "artikull artikull",
-        "artikull artikull artikull",
+        "Mega Markdown Madness",
         "Zbavitje e kursimeve kibernetike",
         "Ditët e zbritjeve dixhitale",
         "Karnaval i Tregtisë elektronike",
@@ -11848,12 +11848,12 @@ export default {
       title: [
         "Rrotulloni dhe fitoni çmime të mëdha!",
         "Jackpot i rrotës së pasurisë",
-        "artikull artikull artikull",
+        "Lucky Spin Bonanza",
         "Rrotulloni për të fituar shpërblime",
         "Rrota e pasurisë",
         "Ekstravaganza e Lotarisë me fat",
         "Surpriza e Mega Spin",
-        "artikull artikull artikull",
+        "Prize Wheel Fiesta",
         "Treasure Spin spektakolare",
         "Rrotulloni Magjinë e Rrotës",
         "Rrota me fat bollëk",
@@ -11896,23 +11896,23 @@ export default {
      */
     subscription_price: {
       title: [
-        "artikull Qasja",
-        "artikull artikull",
-        "artikull paketë",
-        "artikull Planifikoni",
-        "artikull Abonimi",
-        "artikull artikull",
-        "artikull artikull",
-        "Pa kufi Oferta",
-        "artikull artikull",
+        "Akses bazë",
+        "Anëtarësimi Premium",
+        "Paketa Gold",
+        "Plani i argjendtë",
+        "Abonim Platinum",
+        "Niveli i Ndërmarrjes",
+        "Paketa fillestare",
+        "Ofertë e pakufizuar",
+        "Paketa Familjare",
         "Suitë profesionale",
       ],
       description: [
         "artikull artikull ",
         "Qasja për të të gjitha artikull artikull ",
-        "artikull artikull artikull Prioriteti Mbështetje",
+        "Përfitime ekskluzive dhe mbështetje prioritare.",
         "Një paketë e ekuilibruar për përdoruesit e rregullt.",
-        "artikull Qasja artikull artikull artikull",
+        "Qasje përfundimtare me përfitime të nivelit të lartë.",
         "Me porosi artikull artikull ",
         "artikull artikull ",
         "Nuk ka kufizime në përdorim, për përdoruesit e fuqisë.",
@@ -11923,26 +11923,26 @@ export default {
 
     spec: {
       group: [
-        "Specifikimet teknike",
-        "artikull artikull",
-        "Performanca artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "Material artikull Ndërtoni artikull",
-        "Ngjyrë artikull Përfundo artikull",
-        "artikull artikull artikull",
-        "artikull artikull artikull",
-        "artikull artikull artikull",
-        "paketë artikull",
-        "garanci artikull Mbështetje",
-        "Markë artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "Përdoruesi artikull artikull Vlerësime",
-        "Çmimet artikull artikull",
+        "Specifikimet Teknike",
+        "Dimensionet fizike",
+        "Karakteristikat e performancës",
+        "Opsionet e lidhjes",
+        "Kërkesat për fuqi",
+        "Materiali dhe Cilësia e Ndërtimit",
+        "Opsionet e ngjyrave dhe përfundimit",
+        "Ruajtja dhe memoria",
+        "Përputhshmëria e Sistemit Operativ",
+        "Siguria dhe Pajtueshmëria",
+        "Përmbajtja e paketës",
+        "Garancia dhe Mbështetja",
+        "Marka dhe Prodhuesi",
+        "Miqësia ndaj mjedisit",
+        "Efikasiteti i Energjisë",
+        "Kujdesi dhe mirëmbajtja",
+        "Opsionet e personalizimit",
+        "Aksesorë të përfshirë",
+        "Vlerësimet dhe komentet e përdoruesve",
+        "Çmimi dhe disponueshmëria",
       ],
     },
 
@@ -11970,26 +11970,26 @@ export default {
         "klient Fatura",
       ],
       message: [
-        "artikull artikull Blerje!",
-        "artikull artikull artikull biznes",
-        "artikull 🛍️ Porosit artikull artikull !",
+        "Faleminderit për blerjen tuaj!",
+        "Ne e vlerësojmë biznesin tuaj.",
+        "Porosia juaj është në rrugë e sipër!",
         "artikull artikull ",
         "Mezi pres t'ju shërbej përsëri.",
-        "artikull artikull Prioriteti",
+        "Kënaqësia juaj është prioriteti ynë kryesor.",
         "Mos harroni të vlerësoni përvojën tuaj.",
         "Faleminderit për mbështetjen e dyqanit tonë.",
         "artikull artikull I ri Blerje!",
         "Ruani faturën tuaj për referencë në të ardhmen.",
         "Na vizitoni përsëri për më shumë produkte të shkëlqyera.",
-        "artikull Lidhur artikull artikull Ofertat",
-        "artikull artikull klient",
+        "Qëndroni të lidhur për oferta ekskluzive.",
+        "Faleminderit që jeni një klient i çmuar.",
         "Ne jemi këtu për t'ju ndihmuar nëse keni nevojë për ndihmë.",
-        "artikull artikull ndihmë artikull artikull",
+        "Komentet tuaja na ndihmojnë të përmirësohemi.",
         "Përfitoni nga një zbritje speciale në blerjen tuaj të radhës.",
         "artikull artikull !",
         "artikull artikull ",
-        "artikull artikull për të artikull artikull",
-        "artikull artikull Nga artikull artikull",
+        "Duke pritur me padurim komentet tuaja.",
+        "Një falenderim i përzemërt nga ekipi ynë.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "artikull artikull",
-        "shitës artikull",
-        "artikull faqja kryesore",
-        "artikull artikull",
-        "Arritje të reja",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "bizhuteri artikull",
-        "artikull artikull",
-        "artikull artikull",
+        "Vitrina e pronave",
+        "Shitësi Plaza",
+        "Shtëpitë e veçuara",
+        "Tregu Lokal",
+        "Arritjet e reja",
+        "Kopshtet e pasurive",
+        "Rrethi Tregtar",
+        "Rruga e Artizanatit",
+        "Prona luksoze",
+        "Qendra me qira",
+        "Shtëpi të hapura",
+        "Inovacionet Teknike",
+        "Rruga e Modës",
+        "Këndi i Artizanatit",
+        "Gjykata e Ushqimit",
+        "Libri Nook",
+        "Kryqëzimi i bizhuterive",
+        "Avenue Antik",
+        "Zona e fitnesit",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "biznes artikull artikull",
+        "Certifikata e regjistrimit të biznesit",
         "Taksa artikull artikull (TIN)",
         "shitës artikull formular",
         "Produkt artikull",
         "Çmimet Listë",
         "Banka Llogaria Detajet",
-        "artikull artikull adresë",
+        "Dëshmi e adresës",
         "artikull artikull",
         "Kompania profili",
-        "artikull artikull artikull",
+        "Certifikata e Sigurimit të Cilësisë",
         "artikull Të dhënat fletë (SDS)",
         "Produkt garanci informacion",
         "Kthimi politikë",
-        "Transporti artikull artikull artikull",
+        "Procedurat e Transportit dhe Trajtimit",
         "klient shërbim politikë",
         "Marketingu artikull artikull Planet",
-        "artikull artikull Lidhjet",
+        "Lidhjet e mediave sociale",
         "artikull artikull",
-        "artikull Kodi artikull artikull",
-        "artikull artikull (NDA)",
+        "Kodi i Sjelljes së Furnizuesit",
+        "Marrëveshja e mos zbulimit (NDA)",
       ],
     },
 
@@ -12054,24 +12054,24 @@ export default {
     expert_contract: {
       title: [
         "Tregu dyqan Shërbimet artikull",
-        "Dyqan artikull artikull",
-        "artikull Shërbimet artikull",
+        "Kontrata e konfigurimit të dyqanit",
+        "Marrëveshja e Shërbimeve Print-On-Demand",
         "artikull Marketingu shërbim artikull",
-        "artikull artikull dyqan artikull",
+        "Marrëveshja e konfigurimit të platformës së tregtisë elektronike",
         "Kontrata e konsulencës së ekspertëve për pronarët e bizneseve",
-        "shërbim artikull artikull Tregu artikull",
+        "Marrëveshja e shërbimit për konfigurimin e tregut",
         "Dyqan dyqan artikull artikull Shërbimet artikull",
         "POD shërbim artikull artikull",
-        "Marketingu artikull artikull artikull",
+        "Marrëveshja e Zbatimit të Strategjisë së Marketingut",
         "biznes artikull shërbim artikull",
         "artikull dyqan dyqan artikull",
         "Ekspert shërbim artikull artikull",
-        "biznes artikull artikull dyqan artikull",
+        "Zgjidhjet e biznesit dhe Kontrata e konfigurimit",
         "Me porosi Dyqan dyqan Shërbimet artikull",
         "Tregu artikull shërbim artikull",
-        "artikull artikull dyqan Shërbimet artikull",
+        "Kontrata e Shërbimeve të Konsulencës dhe Konfigurimit",
         "POD artikull Shërbimet artikull",
-        "Marketingu artikull artikull Shërbimet artikull",
+        "Kontrata e Shërbimeve të Marketingut dhe Promovimit",
         "biznes artikull shërbim artikull",
       ],
     },
@@ -12119,7 +12119,7 @@ export default {
         "artikull rimbursim parash artikull artikull Blerje!",
         "artikull artikull ",
         "Oferta ekskluzive për kthimin e parave vetëm për ju.",
-        "artikull artikull rimbursim parash artikull",
+        "Shijoni kursime të mëdha me shpërblimet e kthimit të parave.",
         "Kthim i menjëhershëm i parave për të gjithë artikujt tuaj të preferuar.",
         "Ruaj Më shumë. . artikull artikull rimbursim parash Ofertat",
         "Dyfishoni kthimin e parave tuaja në ditë të veçanta!",
@@ -12144,7 +12144,7 @@ export default {
         "Oferta ekskluzive dhe kursime vetëm në {shop} - Shfrytëzojeni mundësinë!",
         "Njihuni me përkushtimin e {shop} ndaj eko-miqësisë dhe praktikave etike",
         "Bëhuni pjesë e familjes {shop} - Abonohu ​​në buletinin tonë për përditësime",
-        "artikull artikull {shop}",
+        "Zhytuni në zgjedhjet kryesore dhe mallrat me vlerësim të lartë në {shop}",
         "artikull artikull të gjitha Ngjarjet artikull {shop}",
         "Oferta të pakrahasueshme dhe speciale të ndjeshme ndaj kohës në {shop} - Vepro shpejt!",
         "Këshillat gjithëpërfshirëse të {shop} për blerjen dhe vlerësimet e produkteve - Blini me besim",
@@ -12160,17 +12160,17 @@ export default {
         "Plotësoni pamjen tuaj, merrni kompletin!",
         "Ruaj artikull artikull Ofertat!",
         "artikull artikull !",
-        "artikull artikull Blerje, artikull artikull!",
-        "artikull artikull artikull, Blej artikull!",
+        "Përmirëso blerjen, shtesat presin!",
+        "Zhbllokoni kursimet ekskluzive, blini së bashku!",
         "artikull Artikuj, artikull zbritje!",
         "Merrni më shumë, shpenzoni më pak - grumbullohu!",
         "artikull Oferta: artikull Produktet!",
-        "artikull artikull artikull, artikull Ofertat!",
-        "artikull artikull , Ruaj artikull!",
+        "Përmirësoni përvojën tuaj, marrëveshje të kombinuara!",
+        "Zbuloni kombinimet tona të kuruara, kurseni tani!",
         "artikull artikull !",
-        "Dyqan artikull, artikull artikull Ruaj!",
+        "Blini zgjuar, grumbulloni dhe kurseni!",
         "Dyfishoni vlerën, dyfishoni argëtimin!",
-        "artikull artikull – Dyqan artikull!",
+        "Përputhja juaj perfekte është këtu - blini tani!",
         "Çmime ekskluzive të paketave vetëm për ju!",
         "artikull artikull !",
         "artikull artikull !",
@@ -12218,12 +12218,12 @@ export default {
         "🛍️ Porosit Dorëzuar",
         "Pagesa Marrë",
         "🛍️ Porosit artikull",
-        "🛍️ Porosit artikull artikull",
-        "🛍️ Porosit artikull artikull",
+        "Vonesa e përpunimit të porosive",
+        "Porosit në pritje",
         "🛍️ Porosit artikull artikull Dorëzimi",
         "Kthimi artikull",
         "rimbursim artikull",
-        "artikull Mbrapa artikull artikull",
+        "Artikulli përsëri në magazinë",
       ],
       body: [
         "Përshëndetje {buyer_name}, porosia juaj #{order_id} është konfirmuar! Ne po e përpunojmë atë dhe do t'ju njoftojmë kur të jetë gati për t'u dërguar.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "artikull",
-        "artikull artikull",
-        "artikull",
+        "Veshja",
+        "Gadgets dixhitale",
+        "Pije",
         "Ushqimet",
         "Mobilje",
-        "artikull",
-        "artikull Produktet",
-        "artikull",
-        "artikull artikull",
-        "artikull",
+        "libra",
+        "Produktet e Bukurisë",
+        "Lodrat",
+        "Pajisje sportive",
+        "Aksesorë",
       ],
       description: [
         "Atribute për artikujt e veshjeve si madhësia, ngjyra dhe pëlhura.",
         "Specifikimet për pajisje të tilla si marka, modeli dhe veçoritë.",
         "Shijet, përmasat dhe llojet e pijeve.",
         "Detaje për vaktet, ushqimet dhe produktet ushqimore.",
-        "Material, artikull, artikull Dizajn artikull",
-        "Autori, artikull, artikull artikull artikull",
+        "Materiali, dimensionet dhe stilet e dizajnit.",
+        "Autori, zhanri dhe viti i botimit.",
         "Lloji i lëkurës, përbërësit dhe detajet e paketimit.",
         "Grupmosha, materiali dhe standardet e sigurisë.",
-        "Lloji, artikull, artikull Performanca artikull",
-        "artikull, artikull, artikull Markë Detajet",
+        "Lloji, madhësia dhe veçoritë e performancës.",
+        "Stilet, materialet dhe detajet e markës.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "artikull XS",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull XL",
-        "artikull XXL",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull",
-        "artikull artikull artikull",
-        "artikull artikull artikull", // flexible mailer
-        "artikull artikull", // bubble/padded
-        "artikull artikull", // thermal
-        "artikull artikull",
+        "Kutia XS",
+        "Kutia S",
+        "Kutia M",
+        "Kutia L",
+        "Kutia XL",
+        "Kutia XXL",
+        "Kuti e hollë",
+        "Kuti e gjerë",
+        "Kuti e gjatë",
+        "Kuti e sheshtë",
+        "Kubi kuti",
+        "Tub kuti",
+        "Kuti e brishtë",
+        "Shishe qelqi kuti",
+        "Kuti Soft Pack", // flexible mailer
+        "Kuti e mbushur", // bubble/padded
+        "Kuti e izoluar", // thermal
+        "Kutia e rëndë",
       ],
     },
   },

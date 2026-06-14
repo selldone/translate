@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Pokročilé nastavenia",
       menu_advanced_options_description:
-        "Connect Google hárok, Odstrániť položka Produkty položka Viac. .",
+        "Pripojte tabuľku Google, odstráňte duplicitné produkty a ďalšie...",
 
       products_rss: {
         title: "RSS produktov",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API produktov",
-        subtitle: "Importovať Produkty položka položka API položka",
+        subtitle: "Import produktov prostredníctvom verejne prístupného volania API.",
       },
       google_sheet: {
         action: "prepojené hárok",
@@ -630,12 +630,12 @@ export default {
         false_description:
           "Zobraziť produkty usporiadané podľa kategórií a podkategórií.",
         true_title: "Režim tabuľky",
-        true_description: "vyhliadka Produkty položka položka ",
+        true_description: "Zobraziť produkty v podrobnom rozložení tabuľky.",
       },
 
       show_notes: {
         false_title: "Skryť položka",
-        false_description: "Skryť položka položka",
+        false_description: "Skryť prázdne poznámky.",
         true_title: "Zobraziť položka",
         true_description: "Zobraziť všetky položka, ⌘Ctrl+2",
       },
@@ -862,7 +862,7 @@ export default {
         no_enable_shipping_error:
           "Nikto od vás nemôže nakupovať, pretože nemáte povolený spôsob dopravy!",
         customer_must_select_a_shipping_msg:
-          "zákazník položka Vybrať položka Doprava metóda Komu položka 🛍️ Objednajte si",
+          "Zákazník si musí vybrať spôsob doručenia objednávky.",
         customer_can_order_without_shipping_method_msg:
           "Zákazník môže zadať objednávku aj v prípade, že pre vybrané miesto nie je podporovaný žiadny spôsob dopravy.",
         inputs: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "položka Jednotka",
-        subtitle: "položka Jednotka Použité položka položka",
+        subtitle: "Jednotka používaná pre vzdialenosť.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Logistika",
         profiles: "Profily",
         includes: "Zahŕňa",
-        property_sets: "položka položka",
+        property_sets: "Súbory vlastností",
         boxes: "balíky",
       },
 
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategória",
-      category_input_msg: "položka: položka položka Obchody položka",
+      category_input_msg: "Prázdne: V koreňovom adresári obchodu",
       product_name: "Meno Produktu*",
       product_name_placeholder: "Tu je názov vášho produktu..",
       product_code: "Kód produktu (angličtina)",
       sku: {
         label: "SKU",
-        message: "položka položka Jednotka",
+        message: "Skladová jednotka",
       },
       mpn: {
         label: "MPN",
-        message: "položka položka položka",
+        message: "Číslo dielu výrobcu",
       },
 
       external_link: "Externý odkaz",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Najprv uložte produkt a potom môžete priradiť model ocenenia.",
         assign_valuation_message:
-          "položka položka Komu položka Produkt",
+          "Priraďte tomuto produktu model ocenenia.",
         edit_pricing_action: "Upraviť Stanovenie cien formulár",
         add_pricing_action: "Vytvorte Nový Stanovenie cien formulár",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Vlastné Kúpiť položka",
         message:
           "Ikonu môžete zmeniť podľa tohto vzoru: {icon name} popis...",
-        placeholder: "položka položka Komu položka",
-        multi_language_dialog_title: "Vlastné Kúpiť položka položka",
+        placeholder: "Zadajte výzvu na akciu...",
+        multi_language_dialog_title: "Vlastný popis tlačidla nákupu",
       },
       external: {
         not_available_message:
           "Extra akcia dostupná s licenciami Company & Enterprise.",
         available_message: "Môžete pridať ďalšiu externú výzvu na akciu.",
-        input_label: "položka položka Komu položka",
+        input_label: "Druhá výzva na akciu",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Podporované hodnoty sú UPC (Severná Amerika, 12 číslic), EAN (Európa, 13 číslic), JAN (Japonsko, 8 alebo 13 číslic), ISBN (knihy, 13 číslic).",
-        label: "Produkty položka položka ",
-        placeholder: "položka položka (voliteľné)",
+        label: "Globálne číslo obchodnej položky produktu",
+        placeholder: "Globálne obchodné číslo tu.. (Voliteľné)",
       },
       hsn: {
         hint: "HSN alebo Harmonizovaný systém nomenklatúry je medzinárodne štandardizovaný klasifikačný systém na kategorizáciu tovaru a produktov.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Produkt položka položka položka obchod",
-        message: "položka položka Produkt",
+        label: "Stav produktu vo vašej predajni",
+        message: "Vyberte stav tohto produktu.",
         subtitle:
           "Informujte svojich zákazníkov o stave a značke produktu, ktorý ponúkate.",
       },
@@ -1550,7 +1550,7 @@ export default {
       status: {
         title: "Postavenie",
         subtitle:
-          "položka Produkty Postavenie položka položka Komu zarobiť položka Produkt Návrh, položka položka položka Postavenie Komu 'neaktívne",
+          "Stav produktu určuje jeho dostupnosť online a v obchode. Ak chcete vytvoriť koncept produktu, jednoducho prepnite jeho stav na „Neaktívny“.",
       },
       profiles: {
         title: "Profily",
@@ -1558,7 +1558,7 @@ export default {
           "Môžete definovať záruku, pravidlá vrátenia, dopravu a sprievodcu a priradiť ich k tomuto produktu. Zobrazí sa ako nové karty na stránke produktu.",
       },
       shortcuts: {
-        title: "položka Produkt Komu položka Kategórie",
+        title: "Priraďte produkt k ďalším kategóriám",
         subtitle:
           "Táto funkcia vám umožňuje zaradiť produkt do viacerých kategórií a zároveň zachovať jeho umiestnenie v primárnej kategórii nastavenej v časti Produkt > Upraviť > Kategória. V podstate funguje podobne ako vytváranie „skratiek“ v operačných systémoch, čo umožňuje, aby sa produkt objavil v ďalších špecifikovaných kategóriách.",
       },
@@ -1639,22 +1639,22 @@ export default {
       manual: {
         title: "položka",
         subtitle:
-          "Pridať Produkt technické údaje položka položka ",
+          "Špecifikácie produktu pridajte manuálne definovaním skupín a páru kľúč – hodnota.",
         add_group_action: "Pridať skupinu",
         add_item_action: "Pridať špecifikácia Hodnota",
       },
       import: {
         subtitle:
-          "položka položka Importovať Technická technické údaje položka položka Produkty",
+          "Môžete importovať technické špecifikácie podobných produktov.",
         action_title: "Importovať",
-        action_subtitle: "položka špecifikácia Od položka Produkt",
+        action_subtitle: "Klonová špecifikácia z iného produktu.",
       },
       ai: {
         title: "AI",
         subtitle:
           "Špecifikácie produktu môžete vytvoriť automaticky odoslaním nespracovaných údajov produktu v textovej forme.",
-        action_title: "automaticky položka položka AI",
-        action_subtitle: "Vytvorte Produkt technické údaje položka položka položka",
+        action_title: "Automatické generovanie pomocou AI",
+        action_subtitle: "Vytvorte špecifikácie produktu pomocou abstraktnej výzvy.",
       },
 
       group_input_header: "Pridať skupinu",
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Špecifikácie produktu boli uložené.",
       },
       dialog_ai: {
-        title: "položka položka Produkt technické údaje",
+        title: "Automaticky generujte špecifikácie produktu",
         prompt: {
           title: "Produkt Prehľad",
           subtitle:
@@ -1696,19 +1696,19 @@ export default {
         generated_spec: {
           title: "položkapoložka technické údaje",
           subtitle:
-            "položka technické údaje položka položka ",
+            "Tieto špecifikácie boli generované umelou inteligenciou.",
         },
         inputs: {
           prompt: {
             label: "Produkt Podrobnosti",
-            placeholder: "položka položka Produkt položka",
+            placeholder: "Popis produktu tu...",
           },
         },
         actions: {
           run: {
             title: "položka technické údaje",
             subtitle:
-              "položka Komu položka Vytvorte Produkt technické údaje Od položka položka Prehľad",
+              "Kliknutím automaticky vytvoríte špecifikácie produktu z poskytnutého prehľadu.",
           },
           add_generated_spec: "Pridať položka technické údaje",
         },
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "pozadie Popis",
-            placeholder: "položka položka položka pozadie",
+            placeholder: "Opíšte požadované pozadie...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Premeňte si celý obrázok s novým pozadím.",
           },
           replace: {
-            subtitle: "položka položka položka pozadie",
+            subtitle: "Vymeňte existujúce pozadie.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "položka Stanovenie cien položka položka {min}",
+    title: "Extra ceny pre viac ako {min}",
     subtitle:
       "Systém automaticky určí poradie a prioritu pre výpočet ceny. Zadajte minimálne množstvo potrebné na to, aby táto cena nadobudla platnosť.",
     min_quantity: "Minimálne množstvo",
@@ -1870,7 +1870,7 @@ export default {
         "Inventár pre produkty typu dropshipping nastavujú veľkoobchodníci a nemožno ho tu upravovať.",
       marketplace:
         "Celkový inventár produktov na trhu sa určí sčítaním zásob všetkých predajcov. Tu ho nemôžete upraviť.",
-      default: "položka položka Produkty Inventár počítať položka",
+      default: "Tu zadajte počet zásob produktu.",
     },
     menu: {
       add_bulk: {
@@ -1878,8 +1878,8 @@ export default {
         subtitle: "Pridajte viacero variantov v jednej akcii.",
       },
       edit_property_set: {
-        title: "položka položka položka",
-        subtitle: "Zmeniť Varianty položka, položka položka objednávky",
+        title: "Prispôsobiť sadu vlastností",
+        subtitle: "Zmeňte názvy variantov, ikony a objednávky.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Produkt Kategória kód",
     hint: "Predstavuje kategóriu vášho produktu podľa taxonómie produktov Google.",
-    placeholder: "položka Produkt položka služba Kategória (voliteľné)",
+    placeholder: "Zadajte kategóriu produktu alebo služby.. (Voliteľné)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "položka Správa",
     subtitle:
-      "Vytvorte položka, položka, položka položka ",
+      "Vytvárajte prispôsobené, inteligentné a interaktívne kontextové okná.",
     add_action: "Pridať Nový Objaviť sa",
   },
 
@@ -1942,7 +1942,7 @@ export default {
       dedicated: "položka",
 
       subscription: "Daň môžeme uplatniť iba v kroku vytvorenia platby.",
-      is_disabled: "položka daň profilu položka zakázané! (⚠️položka)",
+      is_disabled: "Tento daňový profil je zakázaný! (⚠️Upozornenie)",
       shipping: "Doprava",
       fixed_rate: "TAX",
       location_based_rate: "daň: Miesto položka",
@@ -1988,7 +1988,7 @@ export default {
       page: "stránka Šablóna",
       shipping: "Doprava",
       access: "Prístup",
-      critical_zone: "položka položka",
+      critical_zone: "Kritická zóna",
     },
 
     profile: {
@@ -2014,7 +2014,7 @@ export default {
         "Nastavte pre dodávateľa vlastnú vstupnú stránku a poskytnite mu jedinečný odkaz na jeho vyhradenú stránku.",
       action_set_page: "zobraziť Verejné stránka",
       action_sub_caption: "Vlastné Pristátie stránka",
-      vendor_has_landing_msg: "predajca položka položka Vlastné Pristátie stránka",
+      vendor_has_landing_msg: "Predajca má vlastnú vstupnú stránku.",
       no_landing_selected_msg: "č Pristátie stránka Vybrať",
       no_landing_page: "č Pristátie stránka",
       we_can_create_dedicated_landing_msg:
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Kontakt položka",
-      subtitle: "položka položka položka Kontakt Podrobnosti",
+      subtitle: "Uveďte prosím platné kontaktné údaje.",
     },
     business: {
       title: "podnikanie položka",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Doprava",
-      subtitle: "predajcovia položka obchod položka položka Doprava služby položka Kuriéri",
+      subtitle: "Predajcovia si môžu nastaviť svoje vlastné prepravné služby a kuriérov.",
       shipping_services: "Doprava služby",
       total_number_of_services:
         "Celkový počet prepravných služieb, ktoré má predajca.",
@@ -2056,7 +2056,7 @@ export default {
       action: "Odstrániť predajca",
       verify_description:
         "Viem, že všetky vzťahy s produktmi predajcu budú odstránené!",
-      verify_title: "položka položka Komu Odstrániť položka predajca",
+      verify_title: "Chcem vymazať tohto dodávateľa.",
     },
 
     send_invitation_tips:
@@ -2068,22 +2068,22 @@ export default {
       "Zadaný e-mail sa nezhoduje s e-mailom používateľa (<b>{user_name}:</b>{user_email}). Naozaj chcete odosielať e-maily na adresu <b>{email}</b>?",
 
     order_information_email_to_email:
-      "položka položka Odoslať objednávky informácie Komu <b>{email}</b>.",
+      "Informácie o objednávkach pošleme na <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Najprv nastavte používateľa pre dodávateľa.",
 
     inputs: {
       slug: {
         label: "položka",
-        placeholder: "položka položka Vlastné položka",
+        placeholder: "Zadajte vlastnú cestu...",
         hint: "Zmeňte cestu dynamickej vstupnej stránky dodávateľa.",
       },
       email: {
-        message: "položka e-mail položka Prijať všetky Upozornenia položka Aktualizovať",
+        message: "Tento e-mail bude dostávať všetky upozornenia a aktualizácie.",
       },
       business: {
-        false_description: "položka položka ",
-        true_description: "položka položka podnikanie položka",
+        false_description: "Pracujem ako jednotlivec.",
+        true_description: "Pôsobím ako právne uznaný podnikateľský subjekt.",
         false_title: "položka",
         true_title: "podnikanie",
       },
@@ -2096,8 +2096,8 @@ export default {
         placeholder: "položka názov",
       },
       account_number: {
-        hint: "položka predajcovia položka účtu položka",
-        placeholder: "položka breh účtu položka",
+        hint: "Jedinečné číslo účtu predajcu.",
+        placeholder: "Číslo vášho bankového účtu..",
       },
       routing_number: {
         hint: "Toto číslo sa v jednotlivých krajinách líši. Používa sa na identifikáciu konkrétnej pobočky banky, ktorú predajca používa.",
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Medzinárodné číslo bankového účtu): Ak je banka predajcu v Európe alebo v niektorých iných krajinách.",
-        placeholder: "položka IBAN položka položka DE89 3704 0044 0000 0000 00",
+        placeholder: "Vaše IBAN číslo, napr. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Medzinárodné číslo bankového účtu): Ak je banka predajcu v Európe alebo v niektorých iných krajinách.",
-        placeholder: "položka položka položka",
+        placeholder: "Váš SWIFT kód/BIC..",
       },
       branch_address: {
         hint: "Adresa pobočky banky, kde má predajca svoj účet.",
@@ -2124,9 +2124,9 @@ export default {
       access: {
         label: "predajca položka & Prístup",
         true_description:
-          "položka predajca položka položka Komu Aktualizovať množstvo položka cena",
+          "Predajca má špeciálny panel na aktualizáciu množstva a ceny.",
         hint: "Môžete povoliť alebo zakázať panel dodávateľa, ktorý umožňuje dodávateľom aktualizovať množstvá a ceny produktov a prijímať čiastočné objednávky.",
-        false_description: "položka predajca položka č Prístup Komu položka",
+        false_description: "Predajca nemá prístup k ničomu.",
       },
 
       logo: {
@@ -2164,21 +2164,21 @@ export default {
   product_badges: {
     title: "odznaky",
     subtitle: "Pridať položka Upraviť Vlastné Produkt odznaky",
-    only_marketplace_owner_msg: "položka Trhovisko položka",
+    only_marketplace_owner_msg: "Len majitelia trhoviska",
     create_new_badge_action: "Vytvorte Nový odznak",
     select_a_badge: "Vybrať položka odznak",
     inputs: {
       custom: {
-        false_description: "Produkty odznaky položka položka položka",
+        false_description: "Odznaky produktov sa vytvárajú automaticky.",
         false_title: "automaticky",
         true_title: "Vlastné Produkty odznaky",
-        true_description: "Pridať Vlastné odznaky položka položka Produkt stránka",
+        true_description: "Pridajte vlastné odznaky na stránku produktu.",
       },
     },
     add_custom_badge: {
       title: "Vlastné odznak",
       subtitle:
-        "Pridať položka Nový Vlastné odznak Komu položka Obchod položka odznaky počítať položka 10. Viac. . odznaky položka položka Obchod",
+        "Pridať nový vlastný odznak do môjho obchodu. Udržujte počet odznakov pod 10. Viac odznakov by spomalilo váš obchod.",
       show_advanced_options: "Zobraziť Pokročilé položka",
 
       inputs: {
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "Obrázok",
-          message: "položka Obrázok položka: 128KB",
-          placeholder: "Vybrať položka položka Obrázok",
+          message: "Maximálna veľkosť obrázka: 128 kB",
+          placeholder: "Vyberte titulný obrázok",
         },
         pattern: {
           label: "položka",
@@ -2199,9 +2199,9 @@ export default {
       },
       notifications: {
         badge_added: "Odznak bol úspešne pridaný!",
-        badge_updated: "položka odznak položka položka !",
+        badge_updated: "Odznak bol úspešne aktualizovaný!",
         item_not_found_error:
-          "položka položka stránka položka Kontakt podpora",
+          "Položku sa nepodarilo nájsť. Obnovte stránku alebo kontaktujte podporu.",
       },
     },
   },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "položka Tagy položka položka ",
+      tags_updated: "Značky boli úspešne aktualizované.",
     },
   },
 
@@ -2267,7 +2267,7 @@ export default {
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "položka položka",
+    header: "Viacjazyčné",
     auto_action: "automaticky položka",
     premium_user_only: "položka Používatelia",
   },
@@ -2286,7 +2286,7 @@ export default {
         "Vytvorte alebo vyberte súčasti balíka, ktoré sa dodávajú s produktom alebo službou. Využite túto funkciu na zdôraznenie toho, čo môžu zákazníci očakávať, že dostanú pri kúpe položky. Túto funkciu odporúčame využívať len vtedy, keď je pre zákazníka kľúčové porozumieť obsahu, napríklad pri kúpe smartfónu.",
       create_item_tips:
         "Prípadne môžete pridať novú položku. Použite štvorcové obrázky, pretože veľkosť nahraných obrázkov automaticky zmeníme na štvorcový formát 256 x 256. Ak chcete zabezpečiť optimálny vzhľad vo všetkých šablónach, použite minimalistické obrázky s priehľadným pozadím a zachovajte konzistentný vzor pre všetky svoje produkty.",
-      create_new_item_action: "Vytvorte Nový položka položka",
+      create_new_item_action: "Vytvorte novú zahrnutú položku",
     },
   },
 
@@ -2370,7 +2370,7 @@ export default {
         title: "Hodnotenie produktu",
         title_small: "Správa o spokojnosti zákazníkov",
         total_participation: "Celkový počet príspevkov",
-        total_participation_tooltip: "Celkom počítať položka položka Produkt",
+        total_participation_tooltip: "Celkový počet hodnotiteľov produktu.",
         today_participation: "Dnešné hodnotenia",
         last7days_participation: "Príspevky za posledných 7 dní",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Počet príspevkov",
           score: "skóre",
         },
-        users_not_rated_msg: "Používatelia položka položka Produkt položka",
+        users_not_rated_msg: "Používatelia zatiaľ tento produkt neohodnotili.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,16 +2442,16 @@ export default {
 
         config: {
           title: "Produkt položka obchod",
-          subtitle: "Spravovať SKU, MPN, položka položka položka Varianty",
+          subtitle: "Spravujte SKU, MPN a dostupnosť pre varianty.",
         },
         variables: {
-          title: "položka položka",
+          title: "Možnosti variantu",
           subtitle:
             "Zadajte hexadecimálny kód farby, napr. <b>#654FFF</b>, alebo dve farby oddelené lomkou, napr. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "Premenným môžete priradiť akúkoľvek hodnotu vrátane obrázkov pomocou <b>Graphic Assets</b>. Nahrajte vzor a použite vygenerovaný kód pre variant.",
-          graphical_asset_action: "položka položka",
-          graphical_asset_action_caption: "snímky položka položka položka",
+          graphical_asset_action: "Grafické aktíva",
+          graphical_asset_action_caption: "Obrázky pre varianty variantov.",
         },
         smart_unit_price: {
           tips: "Vypočítajte jednotkovú cenu na základe <b>hmotnosti</b>, <b>objemu</b> a <b>veľkosti balenia</b>. Ak chcete túto funkciu zakázať, prejdite na Obchod > Nastavenia > Motív > Stránka produktu > Cena za inteligentnú jednotku.",
@@ -2459,18 +2459,18 @@ export default {
         },
         quantity: {
           title: "Inventár",
-          subtitle: "položka položka ",
+          subtitle: "Nastavte stav zásob pre každý variant.",
         },
         price: {
           title: "Stanovenie cien",
           subtitle:
-            "položka položka Vlastné cena položka položka Predvolené Produkt cena",
+            "Nastavte vlastnú cenu pre variant alebo použite predvolenú cenu produktu.",
         },
         package: {
           title: "položka & Doprava",
           subtitle:
             "Uveďte hmotnosť a rozmery pre varianty, aby ste určili možnosti dopravy.",
-          same_as_product_action: "položka položka Produkt",
+          same_as_product_action: "Rovnaké ako produkt",
         },
         image: {
           title: "položka snímky",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "položka položka Jednotka (SKU)",
+            message: "Skladová jednotka (SKU)",
           },
           mpn: {
-            message: "položka položka položka (MPN)",
+            message: "Číslo dielu výrobcu (MPN)",
           },
           gtin: {
-            label: "položka položka (GTIN)",
+            label: "Global Trade Item Number (GTIN)",
             message:
               "Podporované formáty: UPC (12 číslic), EAN (13 číslic), JAN (8 alebo 13 číslic), ISBN (13 číslic).",
           },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "Doprava služby Dostupné položka položka Hmotnosť",
+      "Dostupné prepravné služby závisia od poskytnutej veľkosti a hmotnosti.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,12 +2531,12 @@ export default {
     lead_time_dimension: "hodina(y)",
     bulk_action: "Hromadné akcie",
     bulk_action_subtitle:
-      "položka položka informácie Komu všetky Produkt Varianty",
+      "Informácie o balení môžete použiť na všetky varianty produktu.",
 
     bulk_action_input: "Aktualizujte všetky varianty",
     bulk_action_msg:
       "Pre všetky varianty nastavte balenie produktu a čas prípravy.",
-    dynamic_lead_time: "položka položka čas",
+    dynamic_lead_time: "Dynamický dodací čas",
     instant_delivery: "položka Doručenie",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "položka Obrázok položka položka",
-      placeholder: "položka položka ",
-      success_update_notification: "položka položka ",
+      title: "Nastavte alternatívny text obrázka",
+      placeholder: "Zadajte alternatívny popisný text...",
+      success_update_notification: "Alternatívny text bol úspešne aktualizovaný.",
     },
     dialog_bg_remove: {
       title: "Odstrániť pozadie položka",
@@ -2562,14 +2562,14 @@ export default {
         title: "Odstrániť pozadie",
         subtitle: "Vytvorte položka priehľadné pozadie",
       },
-      success_remove_bg_notification: "pozadie položka položka!",
+      success_remove_bg_notification: "Pozadie bolo úspešne odstránené!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "položka položka položka",
+    title: "Variantné grafické aktíva",
     tips: {
       how_it_works:
         "<b>Ako to funguje:</b><br />Sem nahrajte obrázky vzorov alebo položiek. Ak chcete použiť tieto obrázky ako možnosť variantu, do hodnoty variantu zahrňte <b>{filename}</b>. Upozorňujeme, že tento kód nemožno použiť v hodnote <b><s>color</s></b>.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "položka cenotvorba",
     min_quantity: "položka množstvo",
-    range_is_out_of_stock: "položka položka !",
+    range_is_out_of_stock: "Sortiment je vypredaný!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "položka položka !",
-    set_color_warning: "položka Vybrať položka Farba",
-    set_volume_warning: "položka položka položka objem",
-    set_pack_warning: "položka položka ",
-    set_weight_warning: "položka položka položka Hmotnosť",
-    set_type_warning: "položka Vybrať položka Typ",
-    set_style_warning: "položka Vybrať položka Štýl",
-    out_of_stock: "položka položka ",
+    duplicated_variant: "Tento variant už existuje!",
+    set_color_warning: "Vyberte farbu.",
+    set_volume_warning: "Uveďte hlasitosť.",
+    set_pack_warning: "Uveďte prosím veľkosť balenia.",
+    set_weight_warning: "Uveďte hmotnosť.",
+    set_type_warning: "Vyberte typ.",
+    set_style_warning: "Vyberte štýl.",
+    out_of_stock: "Momentálne vypredané",
 
     image: {
       tooltip: "⚡ Presuňte obrázok sem, aby ste ho priradili k variantu.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Tento tovar nie je dostupný v internetovom obchode.",
     },
     restore_dialog: {
-      title: "položka položka",
+      title: "Obnoviť variant",
       message: "Naozaj chcete obnoviť tento odstránený variant?",
-      action: "áno, položka položka",
+      action: "Áno, obnoviť teraz",
     },
     notifications: {
-      restore_variant_success: "položka Produkt položka položka ",
+      restore_variant_success: "Variant produktu bol úspešne obnovený.",
     },
   },
 
@@ -2673,8 +2673,8 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "obchod Inventár",
-    subtitle: "Zoznam položka všetky Produkty položka obchod",
-    cant_set_here: "položka položka položka",
+    subtitle: "Zoznam všetkých produktov na predajni.",
+    cant_set_here: "Nedá sa tu nastaviť",
 
     search_input: "Vyhľadávanie produktov...",
     search_input_title: "Vyhľadávajte medzi produktmi obchodu",
@@ -2718,7 +2718,7 @@ export default {
     title: "položka Akcie > cena",
     message:
       "Nasledujúca suma sa použije ako percento k cene všetkých produktov vo vašom obchode. Vypočítané hodnoty cien budú tiež inteligentne prevedené na najbližšie okrúhle číslo na základe zvolenej meny. Pri zadávaní hodnôt buďte opatrní.",
-    check: "položka položka cena položka",
+    check: "Schvaľujem zmeny cien.",
     check_description:
       "Cena bude zmenená pre vybranú kategóriu a všetky podkategórie.",
     add_percent_tab: "Pridať percent",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Automatické uloženie",
-    auto_save_input_message: "položka položka ",
+    auto_save_input_message: "Zmeny sa uložia automaticky.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Platba metódy",
     sub_title:
-      "Zoznam položka Aktívne Platba metódy položka položka položka Komu Pridať položka Nový metóda Komu položka Obchod, položka položka 10 Pridať Platba Brány",
+      "Zoznam aktívnych spôsobov platby. Ak chcete do svojho obchodu pridať novú metódu, stlačte nasledujúce tlačidlo. Dôrazne odporúčame, aby ste neprekročili 10 pridaných platobných brán.",
     add_gateway: "Nový Platba metóda",
 
     add_gateway_dialog: {
       title: "Vybrať mena",
-      country_currencies: "položka položka",
+      country_currencies: "Miestne meny",
       crypto_currencies: "položka",
 
       confirm: "Pridajte spôsob platby",
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "položka zobraziť položka položka Platba metóda?",
+        title: "Nevidíte svoj preferovaný spôsob platby?",
         subtitle:
           "Ak váš miestny poskytovateľ platieb nie je uvedený, prihláste sa na odber akéhokoľvek ročného plánu (vrátane Startup kvôli cenovej dostupnosti) a požiadajte o integráciu. Ak nám poskytnete testovací účet a dokumentáciu, dokončíme ho do 48 hodín.",
       },
@@ -3074,7 +3074,7 @@ export default {
 
     config: {
       subtitle:
-        "Kategórie pomoc položka Produkt Správa položka zarobiť položka položka zákazníkov Komu položka Produkty položka položka obchod",
+        "Kategórie pomáhajú zefektívniť správu produktov a uľahčujú zákazníkom hľadanie produktov vo vašom obchode.",
     },
     parent: {
       subtitle:
@@ -3088,11 +3088,11 @@ export default {
         "Zobrazenie stránky kategórie môžete vylepšiť prekrytím vlastnej stránky. Najlepším prístupom je vytvoriť stránky s priehľadným pozadím a navrhnúť 1 až 2 sekcie špecifické pre každú kategóriu. Potom môžete prepojiť jednu stránku s viacerými kategóriami pomocou dynamického obsahu na prispôsobenie každej kategórie individuálne.",
     },
     critical_zone: {
-      title: "položka položka",
+      title: "Kritická zóna",
       subtitle:
         "Ak odstránite kategóriu, jej podkategórie a produkty sa presunú do nadradeného adresára<b>📁 {parent}</b>. Ak chcete spravovať kategórie, ktoré nie sú v zozname produktov, prejdite na kartu Obchod > Kategórie.",
       accept_delete: {
-        true_description: "položka položka Komu Odstrániť položka Kategória",
+        true_description: "Chcem odstrániť túto kategóriu.",
         true_title: "položka Odstrániť Kategória",
       },
     },
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Vyberte dôvod odmietnutia tejto objednávky zo zoznamu nižšie. Nezabudnite informovať zákazníka o procese zrušenia a vrátenia peňazí. Vrátenie peňazí je potrebné vykonať do 12 hodín.",
       confirm_now_action: "Zrušiť 🛍️ Objednajte si položka",
-      confirm_in48h_action: "Zrušiť 🛍️ Objednajte si položka 48 položka",
+      confirm_in48h_action: "Zrušenie objednávky do 48 hodín",
 
       dismiss_reject_action: "Odmietnuť zrušenie objednávky",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "položka | Zrušiť 🛍️ Objednajte si položka",
-        false_title: "položka | Zrušiť 🛍️ Objednajte si položka 48 položka",
+        true_title: "Express | Okamžite zrušiť objednávku",
+        false_title: "Štandardné | Zrušiť objednávku po 48 hodinách",
         true_description:
           "Táto možnosť okamžite zruší vašu objednávku a okamžite aktualizuje inventár.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Objednávka sa vrátila do normálneho procesu.",
       set_tracking_success: "ID trasy objednávky bolo úspešne uložené.",
       shipping_address_update_success:
-        "Doprava adresu položka položka ",
+        "Dodacia adresa bola úspešne aktualizovaná.",
       vendor_order_status_update_success:
-        "predajca položka Postavenie položka položka ",
+        "Stav plnenia dodávateľa bol úspešne aktualizovaný.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Čaká na platbu",
       processing_payment: "Spracovanie platby",
       processing_cancel: "Platba bola zrušená",
-      require_capture: "položka položka",
+      require_capture: "Vyžadovať zachytenie",
       paid: "Zaplatené",
       cod_pay_info:
         "Po prijatí objednávky od zákazníka môžete potvrdiť platbu a dokončiť objednávku.",
@@ -3519,7 +3519,7 @@ export default {
         "Váš zákazník vyhral 1x tento produkt. Pošlite darček s touto objednávkou.",
 
       need_to_refund: {
-        title: "vrátenie peňazí položka Komu položka zákazník",
+        title: "Vyžaduje sa vrátenie peňazí zákazníkovi",
         message:
           "Vypočítame celkovú sumu refundácií, ktoré musíte vykonať manuálne. Vypočítalo sa na základe nedostupných položiek a celkových vrátených hodnôt.",
         calculated_approximately:
@@ -3549,7 +3549,7 @@ export default {
       weight_warning: "Prekračuje povolenú hmotnosť.",
       volume_warning: "Presahuje povolenú veľkosť balíka.",
       items_weight_calculation:
-        "položka Hmotnosť položka všetky Položky položka {weight} {unit}",
+        "Celková hmotnosť všetkých položiek je {weight} {unit}",
       not_available_message:
         "Nie je k dispozícii, keď ste deaktivovaný a žiadate o dodaciu adresu a tiež používateľ po nákupe nevyplnil adresu!",
 
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "položka",
-    subtitle: "Prehľad položka Platba Brána položka položka Postavenie",
+    subtitle: "Prehľad konfigurácie a stavu platobnej brány.",
     status: "Postavenie",
     cod_transportation: "podpora Doprava",
     cod_transportations_error:
-      "Povoliť položka položka Doručenie Platba položka položka Doprava metóda!",
+      "Povoľte platbu na dobierku aspoň pre jeden spôsob dopravy!",
     payment_type: "Platba Typ",
     cod: "Platba na dobierku",
     online: "položka Platba",
@@ -3695,8 +3695,8 @@ export default {
       title: "položka Akcie",
       subtitle:
         "Po vykonaní týchto krokov začnete od svojich zákazníkov dostávať skutočné platby.",
-      action_enable: "položka Komu Povoliť položka",
-      make_live_enable: "položka Komu naživo položka",
+      action_enable: "Kliknutím ju povolíte",
+      make_live_enable: "Kliknutím to prežijete",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Brána {gateway_name} bola upravená.",
-      success_delete: "Platba metóda položka položka Odstránené!",
+      success_delete: "Spôsob platby bol vymazaný!",
     },
     debug: {
       title: "Rozvíjať & položka",
@@ -3732,28 +3732,28 @@ export default {
 
     limit: {
       title: "🛍️ Objednajte si položka",
-      subtitle: "položka položka minimum 🛍️ Objednajte si Suma položka položka Platba Brána",
+      subtitle: "Nastavte minimálnu sumu objednávky pre túto platobnú bránu.",
     },
     limit_input: {
       title: "minimum 🛍️ Objednajte si Suma",
-      msg: "položka položka č položka",
+      msg: "Nula znamená žiadny limit.",
     },
     currency_input: {
-      message: "položka mena položka položka Platba Brána podpora",
+      message: "Mena, ktorú táto platobná brána podporuje.",
     },
     gateway_code: "Brána kód",
 
-    hold_only_for: "položka Platba položka Dostupné položka",
+    hold_only_for: "Pozdržať platbu je k dispozícii iba pre",
     manual_input: {
       false_description:
         "Stav platby sa automaticky zmení z čakajúcej na potvrdenú v systéme poskytovateľa platieb.",
       false_title: "automaticky Platba položka",
-      true_title: "položka Platby položka manuálne položka",
+      true_title: "Pozdržanie platieb a manuálne potvrdenie",
       true_description:
         "Pozastavte platbu, takže musíte overiť platby za objednávku, aby ste zmenili ich stav z čakajúcej na potvrdenú v systéme poskytovateľa platieb.",
     },
     delete_verify_input: {
-      true_title: "položka položka Komu Odstrániť položka Platba metóda",
+      true_title: "Chcem odstrániť tento spôsob platby.",
       true_description:
         "Tento spôsob platby bude z obchodu odstránený a nebude k dispozícii zákazníkom.",
     },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Zoznam vydaných kariet",
       subtitle:
-        "vyhliadka položka Spravovať všetky položka karty položka položka Odoslať karty Komu Používatelia položka položka ",
+        "Zobrazenie a správa všetkých vydaných kariet. Karty môžete používateľom odosielať manuálne alebo ich v prípade potreby zakázať.",
 
       loading_message: "Získavam informácie... čakajte prosím",
       issue_to_user: "Problém pre používateľa",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "predajcovia Peňaženka Transakcia",
 
     "vendor-sms":
-      "🔔 🛍️ Objednajte si položka SMS položka položka Odoslané Komu <b>{vendor}</b> ╏ {phone}.",
+      "🔔 Informačná SMS o objednávke bola odoslaná na <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4036,13 +4036,13 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "Odoslať položka Platba položka SMS Komu položka zákazník položka {phone}.",
+      "Pošlite zákazníkovi SMS potvrdzujúcu platbu cez {phone}.",
     "sms-ready-to-ship":
       "Pošlite zákazníkovi SMS s upozornením, že jeho objednávka je pripravená na odoslanie prostredníctvom {phone}.",
     "sms-ready-to-pickup":
       "Pošlite zákazníkovi SMS s upozornením, že jeho objednávka je pripravená na vyzdvihnutie cez {phone}.",
     "sms-order-confirmation":
-      "Odoslať položka 🛍️ Objednajte si položka SMS Komu položka zákazník položka {phone}.",
+      "Pošlite zákazníkovi SMS s potvrdením objednávky cez {phone}.",
 
     "count-adjustment":
       "Množstvo produktu „{product}“ bolo aktualizované z {from} na {to}.",
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Presuňte kategóriu <b>{category}</b> do inej kategórie",
     move_product: "Presuňte produkt <b>{product}</b> do kategórie",
     load_more_products:
-      "Viac. . Produkty položka Dostupné položka položka Kategória položka Komu položka Viac. . Položky",
+      "V tejto kategórii je dostupných viac produktov. Kliknutím načítate ďalšie položky.",
     product_menu: {
       dashboard: "Prístrojová doska produktu",
       inventory: "Inventár a varianty",
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Máte produkty v roote, ale nemáte filter.",
       has_root_filter_message: "Nastavujete filtre pre koreňovú kategóriu.",
-      set_filter_message: "položka položka položka Filtre",
+      set_filter_message: "Môžete nastaviť filtre.",
       edit_action: "Upraviť položka Filtre",
-      clear_action: "položka položka Filtre",
+      clear_action: "Vymazať koreňové filtre",
     },
     ai: {
       title: "AI Produkt položka",
@@ -4081,31 +4081,31 @@ export default {
     menu: {
       select_all_products: "Vybrať všetky Produkty",
       unselect: "položka",
-      sort_categories: "položka / položka Kategórie",
+      sort_categories: "Usporiadať / zoradiť kategórie",
       subscription_vendor_not_support_message:
         "Nie je možné priradiť dodávateľa pre predplatné produktov! Predplatné produkty musia mať vždy predajcu ako svojho vlastníka!",
       vendor_owner_not_assignable_message:
         "Nie je možné priradiť dodávateľa k produktom, ktorých vlastníkom je dodávateľ!",
-      category_assign_profile: "položka profilu Komu Produkty položka položka Kategória",
+      category_assign_profile: "Priraďte profil k produktom v kategórii",
       category_assign_profile_subtitle: "daň, Doprava, sprievodca, záruka,. ..",
       bulk_discount: "položka Zľava",
-      bulk_discount_subtitle: "položka Zľava položka všetky Produkty",
+      bulk_discount_subtitle: "Uplatnite zľavu na všetky produkty.",
     },
 
     engine: {
-      title: "položka Produkty položka",
+      title: "Motor extra produktov",
       subtitle:
-        "Viac. . Produkty položka položka položka Od Vybrať Kategórie položka Tagy",
-      load_in_tips: "položka Produkty Od Kategórie položka položka {category}.",
+        "Z vybraných kategórií a značiek sa načítajú ďalšie produkty.",
+      load_in_tips: "Načítajte produkty z kategórií v {category}.",
       action: "Upraviť {category} položka",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "položka položka / CSV súbor položka",
+      title: "Sem presuňte súbor Excel / CSV.",
       select_file: "Vybrať súbor",
-      max_file: "maximum súbor položka: 20položka",
+      max_file: "Maximálna veľkosť súboru: 20 MB",
       download_sample: "Stiahnuť položka",
     },
     ai: {
@@ -4115,7 +4115,7 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "položka položka",
+    has_panel: "Má panel",
     no_panel: "č položka",
     manual_action: {
       title: "manuálne Akcie",
@@ -4123,16 +4123,16 @@ export default {
       guides: [
         "Dodávatelia s prístupom k panelu môžu aktualizovať svoje plnenie (podobjednávky) na svojom vyhradenom dashboarde.",
         "Ak dodávateľ nemá prístup k panelu, stav objednávky dodávateľa sa automaticky zmení zmenou stavu košíka.",
-        "položka položka Aktualizovať predajca objednávky položka",
+        "Objednávky dodávateľa môžete aktualizovať manuálne.",
       ],
     },
     payouts: {
       title: "položka",
-      message: "Spravovať položka predajca položka položka Transakcie",
+      message: "Spravujte platby a transakcie dodávateľa.",
 
       charge_tooltip: "Nabite predajca Peňaženka",
       withdraw_tooltip: "položka Od predajca Peňaženka",
-      payout_tooltip: "položka Komu položka predajca",
+      payout_tooltip: "Výplata predajcovi.",
     },
     order_canceled: "🛍️ Objednajte si položka",
     order_rejected: "🛍️ Objednajte si Odmietnuté položka predajca",
@@ -4160,8 +4160,8 @@ export default {
     },
 
     open_marketplace_page: "položka Trhovisko stránka",
-    open_my_store_page: "položka položka obchod stránka",
-    open_my_listing_page: "položka položka Záznam stránka",
+    open_my_store_page: "Otvoriť stránku môjho obchodu",
+    open_my_listing_page: "Otvoriť moju stránku so zoznamom",
     add_products_permission: "Pridať Produkty položka",
     add_categories_permission: "Pridať Kategórie položka",
   },
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Emailová adresa",
-        placeholder: "položka položka členovia e-mail adresu",
+        placeholder: "Zadajte e-mailovú adresu člena...",
       },
     },
     notifications: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "položka položka Potvrdené položka Platba?",
+          label: "Potvrdili ste túto platbu?",
           false_description:
             "Nie, túto platbu som ešte nedostal na svoj bankový účet.",
           true_description: "Áno, túto platbu som prijal a overil.",
@@ -4266,8 +4266,8 @@ export default {
       "<b>Dôležité! </b>Vykonaním tejto akcie sa vygeneruje negatívna transakcia v peňaženke dodávateľa a odpočíta sa od nej zvolená suma. Suma nemôže prekročiť zostávajúce celkové transakcie pre vybratú objednávku. Okrem toho, ak boli prostriedky prevedené na prepojené bankové účty (ako napríklad Stripe Connect alebo manuálny bankový prevod), mali by ste vytvoriť <b>reverzný prevod</b>.",
     inputs: {
       note: {
-        message: "položka položka Komu položka predajca",
-        placeholder: "položka položka Poznámka položka",
+        message: "Je to viditeľné pre predajcu.",
+        placeholder: "Tu môžete pripojiť poznámku...",
       },
       amount: {
         error_message: "Zostávajúca suma bola prekročená.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "V tejto sekcii si môžete pozrieť časovú os udalostí súvisiacich s objednávkou, plnením, platbou a ich príslušnými stavmi. Okrem toho môžete sledovať objednávky odoslané zákazníkom aj predajcom.",
-    add_note_subtitle: "zápis položka Správa položka položka ",
+    add_note_subtitle: "Napíšte správu a spomeňte svojich kolegov.",
 
     message_input: "Sem napíšte správu...",
     pin_action: "Pripnúť navrch",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Pridať Obchod",
-      description: "Pridať položka Nový Obchod Komu položka položka",
+      description: "Pridajte do systému nový obchod.",
     },
     "backoffice:shop:delete": {
       name: "Odstrániť Obchod",
-      description: "Odstrániť položka Obchod Od položka položka",
+      description: "Odstrániť obchod zo systému.",
     },
     "backoffice:giftcard:write": {
       name: "Darček kard Správa",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "položka Prístup",
-      description: "čítanie položka Podrobnosti položka Štatistiky",
+      description: "Prečítajte si podrobnosti o stuhe a štatistiky.",
     },
     "backoffice:ai:write": {
       name: "AI Správa",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Prístup",
-      description: "čítanie AI položka položka Štatistiky",
+      description: "Prečítajte si konfigurácie a štatistiky AI.",
     },
     "backoffice:vendor-payment:write": {
       name: "predajca Platba Správa",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Poznámka Prístup",
-      description: "čítanie položka položka položka Podrobnosti",
+      description: "Prečítajte si poznámky a súvisiace podrobnosti.",
     },
     "backoffice:note:write": {
       name: "Poznámka Správa",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "položka Správa",
-      description: "Spravovať položka položka",
+      description: "Spravujte možnosti tlače.",
     },
     "backoffice:print:read": {
       name: "položka Prístup",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "položka Prístup",
-      description: "čítanie položka Podrobnosti položka Štatistiky",
+      description: "Prečítajte si podrobnosti o tokenoch a štatistiky.",
     },
     "selldone:token:write": {
       name: "položka Správa",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "položka Prístup",
-      description: "čítanie položka Podrobnosti položka Štatistiky",
+      description: "Prečítajte si podrobnosti o speňažovaní a štatistiky.",
     },
     "selldone:monetization:write": {
       name: "položka Správa",
-      description: "Spravovať položka, položka položka položka",
+      description: "Spravujte speňaženie vrátane programov sprostredkovania.",
     },
     "selldone:identification": {
       name: "položka Prístup",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "položka Prístup",
-      description: "čítanie položka Podrobnosti položka Štatistiky",
+      description: "Prečítajte si podrobnosti a štatistiky poskytovateľa.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "položka Prístup",
-      description: "čítanie položka Podrobnosti položka Štatistiky",
+      description: "Prečítajte si podrobnosti a štatistiky agentúry.",
     },
     "agency:write": {
       name: "položka Správa",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "položka",
-      description: "Prístup Komu položka položka obchod Správa položka",
+      description: "Prístup k funkciám backoffice a správy obchodu.",
     },
     storefront: {
       title: "položka",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Prístup Selldone služby položka položka",
+      description: "Získajte prístup k službám a funkciám Selldone.",
     },
     others: {
       title: "položka",
-      description: "položka Rozsahy položka položka ",
+      description: "Rôzne rozsahy nie sú definované v systéme.",
     },
     vendor: {
       title: "predajca",
-      description: "Prístup predajca informácie položka Správa položka",
+      description: "Prístup k informáciám o dodávateľoch a funkciám správy.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "položka",
-      description: "Prístup položka informácie položka Správa",
+      description: "Získajte prístup k informáciám a správe agentúry.",
     },
   },
 
@@ -5265,7 +5265,7 @@ export default {
       description: "Odpovedajte na otázky, píšte blogy a navrhujte stránky.",
     },
     OFFICER: {
-      text: "položka položka",
+      text: "Senior Manager",
       description: "Sledujte a sledujte aktivitu zamestnancov.",
     },
     EMPLOYEE: {
@@ -5562,23 +5562,23 @@ export default {
       my_public_profile_subtitle: "položka Verejné profilu {name}.",
 
       personal_information: "Osobné údaje a profil",
-      personal_information_subtitle: "Upraviť položka profilu, adresu položka KYC.",
+      personal_information_subtitle: "Upraviť môj profil, adresu a KYC.",
       wallet: "Peňaženky a účty",
-      wallet_subtitle: "položka účty položka Pripojené Platba karty",
+      wallet_subtitle: "Virtuálne účty a pripojené platobné karty.",
 
       companies: "Spoločnosti a obchodné účty",
-      companies_subtitle: "Registrovať položka podnikanie položka daň Profily",
+      companies_subtitle: "Zaregistrujte moje obchodné a daňové profily.",
 
       access: "Prístup k môjmu účtu",
       access_subtitle:
-        "OApoložka klientov, Osobné Prístup položka položka Pripojené aplikácie",
+        "Klienti OAuth, osobné prístupové tokeny a pripojené aplikácie.",
 
       security: "Bezpečnosť",
       security_subtitle: "Nastavte dva faktory a spravujte možnosti sociálneho prihlásenia.",
 
       preferences: "Používateľské preferencie",
       preferences_subtitle:
-        "Zmeniť Téma, položka, položka položka Predvolené mena",
+        "Zmeňte tému, úroveň, jazyk a predvolenú menu.",
       my_subscriptions: "Moje odbery",
       my_subscriptions_subtitle:
         "Prístup k prémiovým funkciám AI a prispôsobenia.",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "položka položka Peňaženka",
+        title: "Vyberte Peňaženku",
         subtitle:
           "Vyberte virtuálnu peňaženku, ktorú chcete použiť pre svoje predplatné. Ak ho ešte nemáte, môžete si ho vytvoriť v sekcii peňaženka. Táto peňaženka bude použitá na akékoľvek poplatky.",
       },
@@ -5742,7 +5742,7 @@ export default {
           "Vaše predplatné sa automaticky obnoví, ak máte v peňaženke dostatočný zostatok alebo ak máte platný kupón.",
       },
       options: {
-        title: "položka položka",
+        title: "Ďalšie možnosti",
       },
       verify: {
         title: "položka",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Jednoducho pridávajte produkty od dodávateľov POD alebo dropshippingových dodávateľov pomocou Selldone Connect OS – stačí pripojiť svoj obchod a užívať si automatickú integráciu produktov bez potreby doplnkov.",
     },
-    your_license_is_not_eligible: "položka Licencia položka položka položka",
+    your_license_is_not_eligible: "Vaša licencia nie je oprávnená.",
     sku_dialog: {
       title: "Pridať Produkt položka SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Prepojte jednu zo svojich domén s týmto affiliate partnerom. Návštevníci, ktorí nakupujú prostredníctvom tejto domény, budú priradení k tomuto pridruženému subjektu.",
 
-      domain_not_approved_msg: "položka doména položka položka !",
-      domain_is_not_enable_msg: "položka doména položka položka povolené!",
+      domain_not_approved_msg: "Doména ešte nebola schválená!",
+      domain_is_not_enable_msg: "Doména nie je povolená!",
       domain_is_linked_to_other_affiliate_msg:
         "Táto doména je už prepojená s inou pridruženou spoločnosťou!",
     },
 
-    set_users_first_message: "položka položka položka Používateľ položka!",
+    set_users_first_message: "Najprv nastavte používateľa!",
 
     cluster: {
       title: "položka",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Nový Pridružený Pridať položka",
-      update_success: "Pridružený položka položka",
+      update_success: "Partner bol úspešne aktualizovaný.",
     },
 
     inputs: {
@@ -5945,18 +5945,18 @@ export default {
       commission: {
         label: "Komisia položka",
         false_description:
-          "položka položka provízia",
+          "Vypočítajte pomocou kombinácie fixných a percentuálnych provízií.",
         true_description:
           "Vypočítajte pomocou provízií špecifických pre produkt, ktoré sú nastavené na karte cien.",
-        false_title: "položka + položka Komisia",
+        false_title: "Pevná + percentuálna provízia",
         true_title: "položka Komisia",
       },
       user: {
         label: "Používateľ (voliteľné)",
-        message: "voliteľné, položka, Pridružený názov položka Selldone",
+        message: "Voliteľné, napr. názov pobočky v Selldone",
       },
       web: {
-        placeholder: "voliteľné, položka, položka",
+        placeholder: "Voliteľné, napr. affiliate-web.com",
       },
       address: {
         placeholder: "voliteľné, položka, 1200 POX, NY, USA",
@@ -5965,7 +5965,7 @@ export default {
         placeholder: "voliteľné, položka, 001-808-210354",
       },
       bank: {
-        placeholder: "voliteľné, položka, položka breh, č: 10002-325-800-845213",
+        placeholder: "Voliteľné, napr. Arstra Bank, č.: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Vybrať položka doména (voliteľné)",
@@ -5980,7 +5980,7 @@ export default {
           "Je tento affiliate partner momentálne aktívny? Ak je neaktívny, ich partnerský program sa nebude vzťahovať na objednávky uskutočnené prostredníctvom ich odkazu.",
       },
       products: {
-        label: "Produkty položka položka Komisia",
+        label: "Produkty oprávnené na províziu",
         select_product: "Vybrať Produkty",
       },
     },
@@ -6014,7 +6014,7 @@ export default {
       action: "Áno, vymazať teraz",
     },
     notifications: {
-      delete_success: "položka položka Odstránené",
+      delete_success: "Hodnotenie bolo úspešne vymazané.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Stanovenie cien & položka položka",
+    label: "Model oceňovania a oceňovania",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Nastavte systém oceňovania na vytvorenie flexibilného oceňovania pomocou vzorcov a referenčných tabuliek pre vaše produkty. Začnite tým, že tomuto oceneniu dáte jedinečný názov.",
     },
     valuation_preview: "Náhľad položka formulár",
-    load_sample: "položka položka",
+    load_sample: "Načítať vzorku",
     conditions: {
       title: "Podmienky",
       subtitle:
@@ -6045,7 +6045,7 @@ export default {
     structure: {
       title: "položka",
       subtitle:
-        "Dizajn položka Stanovenie cien Vstup formulár položka položka ",
+        "Tu si vytvorte cenový vstupný formulár integrovaním vzorcov a referenčných tabuliek.",
       expand_action: "položka",
       collapse_action: "položka",
     },
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "V tejto časti môžete nastaviť maximálny počet použití na kupón a najvyššiu sumu zľavy, ktorú môže každý kupón poskytnúť.",
-      zero_message: "položka: položka položka č položka!",
+      zero_message: "nula: neexistuje žiadny limit!",
     },
     duration: {
       subtitle:
@@ -6335,8 +6335,8 @@ export default {
       subtitle:
         "Tu máte možnosť nastaviť ďalšie prispôsobené parametre pre kupón.",
       no_limit: "č položka Obmedzenie",
-      has_limit: "položka položka",
-      has_code_message: "Používateľ položka položka položka kód Komu Pridať kupón",
+      has_limit: "Extra obmedzenia",
+      has_code_message: "Používateľ by mal zadať kód na pridanie kupónu.",
     },
     club: {
       subtitle:
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Zvýšte nákupy zákazníkov pomocou gamifikovaného zážitku vo vašom obchode. Nastavte ceny a výherné kurzy pre zákazníkov, ktorí získavajú žetóny nákupmi. Každá hra stojí 10 žetónov a pre nových kupujúcich môžete ponúknuť špeciálne ceny. Predvolená hra je Wheel of Fortune, ale môžete si ju prispôsobiť tak, aby vyhovovala rozloženiu vášho obchodu.",
     },
-    empty_prize_list: "Vytvorte položka Spravovať položka položka",
+    empty_prize_list: "Vytvorte a spravujte ceny tu...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6621,7 +6621,7 @@ export default {
         "Tu máte možnosť vybrať si obrázok a farbu výhry.",
     },
     constraints: {
-      subtitle: "položka položka ",
+      subtitle: "Uveďte kritériá a obmedzenia pre výhru tejto ceny.",
     },
     prize: {
       title: "položka",
@@ -7041,9 +7041,9 @@ export default {
     vendor: {
       title: "Importovať predajcovia",
       subtitle:
-        "Nahrať predajca CSV súbory položka položka Komu Ochrana osobných údajov položka",
+        "Tu nahrajte súbory CSV dodávateľa. Uistite sa, že formát je správny a dodržiava pravidlá ochrany osobných údajov.",
       checklist: {
-        title: "položka položka",
+        title: "Dôležitý kontrolný zoznam",
         subtitle: "Dodržiavajte pokyny.",
         sample_files: "položka súbory",
         valid_vendor_name_needed:
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "položka predajcovia položka",
+    open_vendors_panel: "Otvorte panel dodávateľov",
     title: "predajca položka Zoznam",
     subtitle:
       "Toto je zoznam žiadostí od jednotlivcov, ktorí požiadali o to, aby sa stali predajcami na vašom trhu.",
@@ -7091,7 +7091,7 @@ export default {
         "Vypnutím trhoviska sa vypnú niektoré funkcie. Ak chcete vypnúť celý svoj trh, mali by ste svoj obchod zakázať v nastaveniach.",
     },
     distribution_model: {
-      title: "položka položka",
+      title: "Distribučný model",
       subtitle:
         "Trhoviská môžu fungovať podľa rôznych distribučných modelov. Či už uprednostňujete zasielanie položiek priamo kupujúcim od predajcov alebo konsolidáciu objednávok vo vašom sklade na prepravu, tu si môžete vybrať model, ktorý najlepšie vyhovuje vašim potrebám.",
     },
@@ -7113,7 +7113,7 @@ export default {
       title: "položka",
       subtitle:
         "Od svojich dodávateľov môžete požadovať, aby nahrali dokumenty alebo podpísali určité zmluvy. Tu špecifikujte požadované dokumenty.",
-      add_document_action: "Pridať položka položka",
+      add_document_action: "Pridať žiadosť o dokument",
     },
     inputs: {
       enable: {
@@ -7132,23 +7132,23 @@ export default {
       },
       need_verify: {
         label: "Produkt položka Prietok",
-        false_description: "Nový predajca Produkty položka naživo položka",
-        false_title: "č položka položka",
+        false_description: "Nové produkty od dodávateľov sa okamžite spustia.",
+        false_title: "Nevyžaduje sa žiadne overenie",
         true_description:
-          "predajcovia Nový Produkty položka položka naživo položka položka Trhovisko",
-        true_title: "položka položka",
+          "Nové produkty predajcov vyžadujú schválenie pred uvedením na trh.",
+        true_title: "Vyžaduje sa overenie",
       },
       category: {
         label: "Pridať novú kategóriu",
         true_title: "predajcovia položka Pridať Kategórie",
         false_description:
-          "položka Pridať Kategórie predajcovia položka položka Pridať Produkty Komu položka Kategórie",
+          "Pridáte kategórie. Predajcovia môžu pridávať produkty iba do existujúcich kategórií.",
         true_description:
           "Predajcovia môžu pridávať a spravovať kategórie priamo na svojom paneli dodávateľov.",
       },
       shipping: {
         label: "Doprava položka",
-        true_title: "predajcovia položka Doprava položka",
+        true_title: "Predajcovia majú možnosti dopravy",
         false_description:
           "Predajcovia nemôžu pridávať ani upravovať spôsoby dopravy.",
         true_description:
@@ -7156,7 +7156,7 @@ export default {
       },
       hidden_customer: {
         label: "Zobraziť položka Kontakt informácie",
-        true_description: "položka Kontakt Podrobnosti položka položka Od predajcovia",
+        true_description: "Kontaktné údaje kupujúceho sú pred predajcami skryté.",
         false_description:
           "Kontaktné údaje kupujúceho, ako je telefón a e-mail, sú viditeľné pre predajcov.",
       },
@@ -7171,10 +7171,10 @@ export default {
 
       listing: {
         label: "Záznam položka predajcovia",
-        true_description: "Záznam položka povolené položka predajcovia predajcovia položka Spravovať Záznam Položky položka Spoločnosti",
-        false_description: "Záznam položka zakázané položka predajcovia položka položka Obchod vlastník položka Spravovať Záznam Položky položka Spoločnosti",
+        true_description: "Zoznam je povolený pre predajcov. Predajcovia môžu spravovať položky zoznamu a spoločnosti.",
+        false_description: "Zoznam je pre predajcov zakázaný. Iba majiteľ obchodu môže spravovať položky a spoločnosti.",
         requires_listing_active_text:
-          "Komu položka predajcovia položka Záznam (Položky + Spoločnosti), položka Povoliť položka Obchod Záznam položka položka kanál → Záznam položka položka späť položka Komu položka predajca Prístup",
+          "Ak chcete umožniť predajcom používať zoznam (položky + spoločnosti), najprv povoľte funkciu zoznamu obchodu v kanáli → Zoznam. Potom sa sem vráťte a povoľte prístup predajcovi.",
         requires_listing_active_button: "položka kanál Záznam nastavenie",
       },
 
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "predajca nastavenie položka položka",
+      update_success: "Nastavenia dodávateľa boli úspešne aktualizované.",
     },
     add_document_dialog: {
-      title: "položka položka",
+      title: "Požiadavky na dokumenty",
       type: {
         title: "položka Typ",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Názov",
-          placeholder: "položka položka Názov položka položka ",
+          placeholder: "Zadajte názov žiadosti o dokument.",
         },
         guide: {
           label: "sprievodca (voliteľné)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Vložiť kód",
-          placeholder: "položka položka Vložiť kód položka",
-          message: "položka položka HTML kód",
+          placeholder: "Sem vložte kód na vloženie...",
+          message: "Môže obsahovať HTML kód.",
         },
         url: {
           label: "URL",
-          message: "položka položka URL položka položka ",
+          message: "Tu zadajte adresu URL dokumentu alebo zmluvy...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "položka Doprava Od predajca",
       description:
-        "položka položka režim, predajcovia položka objednávky položka Komu zákazníkov položka Doprava adresu položka predajca objednávky položka položka adresu",
+        "V tomto režime dodávatelia doručujú objednávky priamo zákazníkom. Dodacia adresa pre objednávky dodávateľa bude adresa kupujúceho.",
     },
   },
   /**
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "vlastník položka položka",
+      title: "Identifikačný doklad vlastníka",
       description:
         "Nahrajte štátom vydaný preukaz totožnosti na overenie totožnosti vlastníka firmy alebo kľúčového predstaviteľa.",
     },
@@ -7264,14 +7264,14 @@ export default {
         "Odošlite dokument na overenie adresy vašej firmy, napríklad účet za energie, daňový doklad alebo nájomnú zmluvu.",
     },
     Contract: {
-      title: "položka & položka",
+      title: "Zmluvy a dohody",
       description:
         "Nahrajte zmluvy alebo dohody, ktoré podrobne popisujú zmluvné podmienky vašich obchodných vzťahov.",
     },
     Copyright: {
-      title: "položka položka",
+      title: "Dokumentácia o autorských právach",
       description:
-        "položka položka Komu položka položka ",
+        "Poskytnite dokumenty na registráciu autorských práv na potvrdenie vašich práv duševného vlastníctva.",
     },
     Privacy: {
       title: "Ochrana osobných údajov zásady položka",
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "predajca breh",
     order_fee: "🛍️ Objednajte si Poplatok",
     order_refund: "🛍️ Objednajte si vrátenie peňazí",
-    reverse_fund: "položka položka",
+    reverse_fund: "Zrušenie fondu",
     payout: "položka",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "položka História",
     subtitle:
       "Táto funkcia zjednodušuje účtovníctvo pre vás a vašich predajcov tým, že vedie podrobné záznamy o všetkých transakciách. Platby je možné spracovávať manuálne prostredníctvom bankových prevodov alebo inými metódami alebo ich môžu automaticky spravovať poskytovatelia platieb, ktorí podporujú rozdelené platby, ako napríklad Stripe.",
-    top_up_vendor_action: "položka položka predajca účtu",
+    top_up_vendor_action: "Doplňte účet dodávateľa",
   },
 
   /**
@@ -7341,22 +7341,22 @@ export default {
   vendor_pricing_add: {
     title: "Trhovisko Stanovenie cien položka",
     subtitle:
-      "položka položka Stanovenie cien položka Komu predajca Produkty, položka cena položka položka predajca cena * (1 + Komisia%).",
+      "Keď produktom dodávateľa priradíte cenový model, cena sa automaticky vypočíta ako cena predajcu * (1 + provízia %).",
     delete: {
       subtitle:
-        "položka položka Stanovenie cien položka položka položka všetky predajca Produkty prepojené Komu položka položka Stanovenie cien položka, zarobiť položka Komu Aktualizovať všetky predajca Produkty položka položka Stanovenie cien položka",
+        "Odstránenie cenového modelu ovplyvní všetky produkty dodávateľa, ktoré sú s ním spojené. Pred odstránením cenového modelu sa uistite, že aktualizujete všetky produkty dodávateľa, ktoré ho používajú, a priraďte im iný cenový model.",
       remove_pricing_action: "Odstrániť Stanovenie cien položka",
     },
     inputs: {
       title: {
-        placeholder: "položka, položka Produkty položka",
+        placeholder: "napr. trieda digitálnych produktov...",
       },
       description: {
         placeholder: "Tu môžete pridať poznámku...",
       },
       accept_delete: {
         true_description: "Chcem odstrániť tento cenový model.",
-        true_title: "položka Stanovenie cien položka položka",
+        true_title: "Potvrďte odstránenie modelu ceny",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Keď pripojíte platobné služby, ako je Stripe Connect, získame a zobrazíme dostupný zostatok na vašom účte Stripe pre referenciu.",
     with_balance: "položka Zostatok",
-    without_balance: "položka Zostatok - položka režim",
+    without_balance: "Bez rovnováhy - rýchly režim",
     bank_transfer: {
       title: "breh Prestup",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "Tu môžete pridať poznámku... Túto poznámku nevidí dodávateľ.",
       },
       accept_refund: {
-        true_description: "položka položka Komu Zrušiť položka Platba",
+        true_description: "Chcem zrušiť túto platbu.",
         true_title: "Zrušiť & vrátenie peňazí Platba",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "položka položka",
+        title: "Fond obrátený",
         message:
           "Zrušenie fondu dodávateľa bolo úspešne dokončené, pričom peniaze boli prevedené z banky do peňaženky a pridané k zostatku v peňaženke.",
       },
       payout_success: {
         title: "položka",
         message:
-          "položka predajcovia položka položka Pridať",
+          "Výplata dodávateľa bola úspešne spracovaná a pridaná.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "položka",
     max_batch_msg: "Maximálny počet položiek, ktoré môžete importovať v jednej dávke.",
     max_daily_limit_msg: "Maximálny počet položiek, ktoré môžete importovať za deň.",
-    extra_daily_limit_msg: "položka Položky položka položka ",
+    extra_daily_limit_msg: "Ďalšie položky povolené nad denný limit.",
     add_items_today_msg: "Položky Pridať dnes",
-    file_statistic_msg: "Štatistiky položka položka súbor",
+    file_statistic_msg: "Štatistiky pre tento súbor.",
     used_quota: "Použité položka",
   },
 
@@ -7459,7 +7459,7 @@ export default {
 
     marketing: "Marketing a reklamy",
     product: "Predstavenie výrobku",
-    health: "položka & položka",
+    health: "Zdravie a fitnes",
     food: "Jedlo a ovocie",
     house: "Nehnuteľnosti a dom",
     device: "Stroj a zariadenie",
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "položka",
       static: {
-        false_title: "položka položka",
+        false_title: "S animáciami",
         false_description:
           "Kategórie a produkty majú interaktívnu animáciu, ktorá zobrazuje funkčnosť.",
         true_title: "Statické",
-        true_description: "Kategórie položka Produkty položka č položka",
+        true_description: "Kategórie a produkty nemajú žiadnu animáciu.",
       },
     },
 
@@ -7522,15 +7522,15 @@ export default {
           "Jednoduchý a minimálny režim bez akýchkoľvek ďalších akcií na produktových kartách.",
         true_description:
           "Zobraziť tlačidlá Rýchly nákup a pridať na porovnanie na karte produktu.",
-        true_title: "Zobraziť položka položka položka",
+        true_title: "Zobraziť akciu pri umiestnení kurzora myši",
       },
     },
     filter_products: {
       title: "filter Produkty",
       only_available: {
-        false_description: "Zobraziť všetky Produkty položka položka Obchod Zoznam položka Predvolené",
+        false_description: "Predvolene zobrazovať všetky produkty v zozname obchodu.",
         true_description:
-          "Zobraziť položka Dostupné Produkty položka položka Obchod Zoznam položka Predvolené",
+          "Predvolene zobrazovať v zozname obchodu iba dostupné produkty.",
         true_title: "Dostupné Produkty",
         false_title: "všetky Produkty",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "filter Kategórie",
       hide_empty_folders: {
-        false_description: "Zobraziť všetky Kategórie položka položka Obchod Zoznam",
+        false_description: "Zobraziť všetky kategórie v zozname obchodu.",
         false_title: "Zobraziť všetky Kategórie",
         true_title: "Skryť položka Kategórie",
         true_description:
-          "Zobraziť položka Kategórie položka Produkty položka položka Obchod Zoznam",
+          "Zobraziť iba kategórie s produktmi v zozname obchodu.",
       },
     },
 
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "hlavná webové stránky položka",
-      subtitle: "položka položka Od Google položka",
+      subtitle: "Vyberte si svoje obľúbené písmo z Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "položka položka",
-        message: "položka položka položka Hodnota",
+        label: "Rodina písiem",
+        message: "Zadajte hodnotu skupiny písiem.",
       },
       font_res: {
-        label: "položka položka",
-        message: "položka položka ",
+        label: "Zdroj písma",
+        message: "Zadajte zdroj písma.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Hlavička Názov",
-        set_empty: "položka položka Názov",
+        set_empty: "Nastavte prázdny názov",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Upraviť položka položka",
-    add_title: "Pridať položka položka",
+    edit_title: "Upraviť množinu vlastností",
+    add_title: "Pridať množinu vlastností",
     config: {
       subtitle:
         "Nastavte názov a popis pre svoj súbor nehnuteľností. Bude viditeľný iba pre zamestnancov.",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Zadajte názov pre množinu vlastností...",
       },
       description: {
-        placeholder: "položka položka položka Popis (voliteľné)",
+        placeholder: "Zadajte krátky popis... (voliteľné)",
       },
       custom_variants: {
         true_title: "Vlastné Varianty",
         false_title: "Predvolené Varianty",
-        true_description: "položka položka Produkt Varianty",
-        false_description: "položka Predvolené položka Varianty",
+        true_description: "Prispôsobte si varianty produktov.",
+        false_description: "Použite predvolené globálne varianty.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "položka položka položka (voliteľné)",
+        placeholder: "Nastaviť hodnoty nastavené... (voliteľné)",
         messages:
-          "položka položka 🛍️ Objednajte si",
+          "Môžete poskytnúť návrhy hodnôt a prispôsobiť poradie.",
       },
     },
   },
@@ -7833,14 +7833,14 @@ export default {
       "Ak chcete do svojho obchodu pridať zákazníka, zadajte e-mailovú adresu alebo telefónne číslo.",
     more: {
       title: "Pridajte ďalšie podrobnosti",
-      subtitle: "položka mena, zákazník Klub, Segmenty, adresu položka Viac. .",
+      subtitle: "Nastavte menu, zákaznícky klub, segmenty, adresu a ďalšie.",
     },
     detail: {
       subtitle:
         "Uchovajte si osobné údaje o vašom zákazníkovi. Rešpektujte súkromie vášho zákazníka.",
     },
     preferences: {
-      subtitle: "položka Predvolené Používateľ mena, zákazník Klub, položka Segmenty položka",
+      subtitle: "Tu nastavte predvolenú menu používateľa, zákaznícky klub a segmenty.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Ak chcete poslať tento balík <b>zásielkovou službou</b> , kliknite na nasledujúce tlačidlo.",
     courier_action: "Doručenie položka",
-    courier_action_subtitle: "položka položka ",
+    courier_action_subtitle: "Zásielku vyzdvihne môj kuriér.",
 
-    pickup_ready_action: "položka položka",
+    pickup_ready_action: "Vyzdvihnutie pripravené",
     pickup_ready_action_subtitle: "Objednávka je pripravená na vyzdvihnutie zákazníkom.",
 
-    service_action: "položka položka",
+    service_action: "Potvrdenie o vykonaní",
 
     checklist: [
       "Skontrolujte si občiansky preukaz kuriéra.",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Možnosť 3: Okamžité odoslanie.",
 
     verify_delivery_input: {
-      true_title: "položka Doručenie položka",
+      true_title: "Potvrďte dokončenie dodávky",
       true_description:
         "Potvrdzujem doručenie objednávky zákazníkovi.",
     },
@@ -8006,7 +8006,7 @@ export default {
       "Provízny poplatok bude na vašu žiadosť vyplatený na vami uvedený bankový účet. Tu uveďte svoje bankové údaje.",
     no_bank_info: "č breh položka!",
     actions: {
-      edit_my_bank_info: "Upraviť položka breh položka",
+      edit_my_bank_info: "Upraviť informácie o mojej banke",
     },
     bank_dialog: {
       title: "položka breh Podrobnosti",
@@ -8028,7 +8028,7 @@ export default {
         account_number: {
           label: "Číslo účtu",
           message:
-            "položka položka breh účtu",
+            "Jedinečné číslo priradené ku konkrétnemu bankovému účtu.",
         },
         routing_number: {
           label: "Smerové číslo (USA) alebo Sort Code (Spojené kráľovstvo)",
@@ -8041,7 +8041,7 @@ export default {
             "Medzinárodný kód používaný na globálnu identifikáciu bánk, najmä pri medzinárodných prevodoch.",
         },
         iban: {
-          label: "IBAN (položka breh účtu položka)",
+          label: "IBAN (medzinárodné číslo bankového účtu)",
           message:
             "IBAN, ktorý sa používa predovšetkým v Európe, je medzinárodne dohodnutý systém na identifikáciu bankových účtov cez štátne hranice.",
         },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "položka breh položka položka ",
+        message: "Vaše bankové údaje boli úspešne aktualizované.",
       },
     },
   },
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "položka položka",
+      title: "Bronzová úroveň",
       description:
-        "položka položka 2% Komisia Od položka položka",
+        "Ste na bronzovej priečke. Získali ste 2% províziu z vašich odporúčaní.",
     },
     Silver: {
-      title: "položka položka",
+      title: "Strieborná vrstva",
       description:
-        "položka položka 4% Komisia Od položka položka",
+        "Ste na striebornej úrovni. Získali ste 4% províziu z vašich odporúčaní.",
     },
     Gold: {
-      title: "položka položka",
+      title: "Tier Gold",
       description:
-        "položka položka 6% Komisia Od položka položka",
+        "Nachádzate sa na Zlatej úrovni. Získali ste 6% províziu z vašich odporúčaní.",
     },
     Platinum: {
-      title: "položka položka",
+      title: "Úroveň Platinum",
       description:
-        "položka položka 8% Komisia Od položka položka",
+        "Nachádzate sa na úrovni Platinum. Získali ste 8% províziu z vašich odporúčaní.",
     },
     Diamond: {
-      title: "položka položka",
+      title: "Tier Diamond",
       description:
-        "položka položka 10% Komisia Od položka položka",
+        "Nachádzate sa na diamantovej úrovni. Získali ste 10% províziu z vašich odporúčaní.",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "speňažovať",
-    subtitle: "položka Prístup Komu podnikanie položka",
+    subtitle: "Rozšírte prístup k obchodným príležitostiam.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8525,28 +8525,28 @@ export default {
 
     template: {
       title: "položka",
-      valid_message: "položka položka Vytvorte Vlastné SMS správa",
+      valid_message: "Môžete si vytvoriť vlastné SMS správy.",
       provider_not_enable_message: "Poskytovateľ SMS nie je povolený!",
       need_custom_provider_message:
         "Prispôsobené SMS správy fungujú iba vtedy, ak si nastavíte vlastného poskytovateľa.",
       add_new: "Pridať Nový",
       disable_reason: {
-        set_provider: "položka položka !",
-        provider_is_disabled: "položka položka položka!",
-        otp: "OTP - položka položka!",
-        select_another_provider: "Vybrať položka položka",
+        set_provider: "Najprv nastavte svojho poskytovateľa!",
+        provider_is_disabled: "Poskytovateľ je zakázaný!",
+        otp: "Jednorazové heslo – žiadne prispôsobiteľné!",
+        select_another_provider: "Vyberte iného poskytovateľa.",
       },
       enable_only_filter: "Zobraziť položka povolené",
 
       text_template_not_supported_msg:
         "Váš poskytovateľ nepodporuje obyčajné textové správy.",
       structure_template_not_supported_msg:
-        "položka položka podpora položka správa",
+        "Váš poskytovateľ nepodporuje štrukturálne správy.",
 
       structured_data: "položka Údaje",
 
       menu: {
-        reset_error: "položka položka",
+        reset_error: "Obnoviť chyby",
         send_test: "Odoslať položka Správa",
       },
     },
@@ -8559,19 +8559,19 @@ export default {
           "Šablónu pre SMS správu si môžete vytvoriť na webovej stránke vášho poskytovateľa SMS správ, potom tu špecifikujte jej kód a štruktúru údajov. Tieto informácie prepošleme vášmu poskytovateľovi, kde sa vygeneruje samotná SMS správa.",
         code: "kód",
         language_msg: "Ak ho chcete nastaviť ako predvolený, nechajte ho prázdny.",
-        enable_msg: "položka Šablóna položka položka Použité Komu Vytvorte správa",
+        enable_msg: "Táto šablóna sa použije na vytváranie správ.",
       },
       text: {
-        title: "položka položka",
+        title: "Obyčajný text",
         subtitle:
           "Tu zadajte personalizovanú SMS správu. Dynamické hodnoty budú pred odoslaním používateľovi nahradené ich skutočnými hodnotami.",
         message: "Správa",
         reset_to_default: "položka Komu Predvolené",
 
         auto_fill: {
-          title: "automaticky položka položka",
+          title: "Parametre automatického vyplnenia",
           subtitle:
-            "položka položka Selldone položka položka Hodnota",
+            "Každý z týchto parametrov môžete použiť v texte a Selldone ich nahradí zodpovedajúcou hodnotou.",
         },
 
         sample: {
@@ -8585,12 +8585,12 @@ export default {
         add_new_parameter: "Pridať Nový položka",
 
         auto_fill: {
-          title: "automaticky položka položka",
+          title: "Parametre automatického vyplnenia",
           subtitle:
             "Každý z týchto parametrov môžete nastaviť ako hodnotu a Selldone ich nahradí zodpovedajúcou hodnotou. Pre jednoduchosť je lepšie definovať predvolené hodnoty ako šablóny u vášho poskytovateľa SMS. V tomto prípade tu nebude potrebné definovať hodnoty parametrov.",
         },
         request: {
-          title: "položka položka",
+          title: "Ukážka užitočného zaťaženia",
         },
         sample: {
           title: "položka Šablóna Správa",
@@ -8603,7 +8603,7 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "položka položka",
+      title: "Obyčajný text",
       desc: "Správa sa vytvorí z textu s parametrami automatického nahradenia a odošle sa.",
     },
     template: {
@@ -8615,10 +8615,10 @@ export default {
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "Vlastné SMS položka",
-    reset_error: "položka položka",
+    reset_error: "Obnoviť chyby",
     subtitle:
       "Nastavte si vlastného poskytovateľa SMS služieb a prispôsobte si overovaciu SMS a názov firmy. Predvolený poskytovateľ iba odosiela overovacie SMS a informačné správy v niektorých krajinách na bielej listine.",
-    plain_text: "položka položka",
+    plain_text: "Obyčajný text",
     structural_template: "položka Šablóna",
     errors_limit_msg:
       "Ak vaša služba prekročí 100 chýb, bude automaticky zakázaná! Chyby môžete resetovať a znova ju povoliť.",
@@ -8630,7 +8630,7 @@ export default {
         "SMS správy budú doručené prostredníctvom vášho poskytovateľa služieb.",
     },
     test_input: {
-      true_title: "položka položka",
+      true_title: "Overiť konfiguráciu",
       true_description:
         "Pošleme vám testovaciu správu na vaše telefónne číslo 📞 <b>{phone}</b>, môže vás nabíjať, ale môžete sa uistiť, že všetko funguje správne.",
     },
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "OTP položka",
-      description: "položka správa položka položka Odoslané",
+      description: "Odošlú sa overovacie správy.",
     },
   },
 
@@ -8679,9 +8679,9 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Vlastné položka položka",
+    title: "Vlastný poštový server",
     subtitle:
-      "Connect položka položka služba položka Komu Odoslať E-maily položka položka Vlastné doména",
+      "Pripojte svojho poskytovateľa poštových služieb, aby ste mohli odosielať e-maily prostredníctvom vlastnej domény.",
     provider: "položka",
     enable_input: {
       false_description: "Vaše e-maily sa budú odosielať prostredníctvom vašej domény myldone.",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "Odoslať položka položka e-mail",
+      send_test_email: "Pošlite skúšobný e-mail",
     },
 
     messages: {
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "Súbor bol úspešne odstránený.",
     },
-    drag_sort_msg: "položka položka súbory",
-    paid_mode_msg: "Používatelia položka Stiahnuť položka položka Produkt",
+    drag_sort_msg: "Súbory môžete presúvať a triediť.",
+    paid_mode_msg: "Používatelia si ho môžu stiahnuť až po zakúpení produktu.",
     free_mode_msg:
       "Používatelia si ho môžu stiahnuť zadarmo. Vzorové súbory musia byť menšie ako 50 MB.",
     has_gust_shopping_msg:
       "Registrovaní a hosťujúci používatelia môžu sťahovať súbory, pretože nákupy pre hostí sú povolené v nastaveniach obchodu > flow.",
     only_registered_shopping_msg:
-      "položka Registrovaný Používatelia položka Stiahnuť položka súbory",
+      "Vzorové súbory si môžu stiahnuť iba registrovaní užívatelia.",
     file_count_limit: "súbory počítať položka",
   },
 
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "č obmedzenie",
     import: {
       title: "položka profilu",
-      subtitle: "Vybrať položka položka Miesta profilu",
+      subtitle: "Vyberte profil uložených miest.",
     },
     export: {
       title: "Uložiť profilu",
-      subtitle: "obchod Miesta položka položka položka",
+      subtitle: "Uložte miesta pre budúce použitie.",
     },
     has_restriction_input: {
       title: "položka Miesto obmedzenie",
       description:
         "Zákazníci si môžu tento produkt zakúpiť iba v rámci špecifikovanej krajiny a PSČ, vzhľadom na stanovené obmedzenie lokality.",
     },
-    zip_pin_code: "položka / položka kód",
+    zip_pin_code: "PSČ / kódy PIN",
     no_country_selected_error:
       "Uveďte aspoň jednu krajinu spolu so zoznamom PSČ. Bez nej tento produkt nebude dostupný.",
     tips: "Kliknutím na tlačidlo <b>+ Pridať krajinu</b> začnite vytvárať novú súpravu umiestnení. Keď skončíte, môžete ho uložiť kliknutím na <b>⋮ vpravo hore Menu</b> a výberom možnosti <b>Uložiť profil</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Ak chcete uložiť túto skupinu miest, zadajte názov. Túto uloženú súpravu polohy možno použiť na iné produkty, čo umožňuje rýchle načítanie polohy jediným kliknutím. Ak profil so zadaným názvom už existuje, bude aktualizovaný o tieto nové hodnoty.",
       title_input: {
         title: "profilu Názov",
-        placeholder: "položka Kategória názov, položka obchod názov,. ..",
+        placeholder: "Názov kategórie alebo názov obchodu,...",
       },
     },
     load_profile_dialog: {
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Nepremeškajte svoje objednávky!",
     msg: "Spravujte svoju firmu kdekoľvek a kedykoľvek.",
-    scan_qr_code: "položka položka telefón!",
+    scan_qr_code: "Naskenujte ma telefónom!",
 
     notification: {
       title: "Oznámenie",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "objednávky",
-      subtitle: "zobraziť položka objednávky položka Spravovať položka",
+      subtitle: "Pozrite si svoje objednávky a spravujte ich.",
     },
     product: {
       title: "Produkty",
-      subtitle: "Inventár Správa položka Produkt položka",
+      subtitle: "Riadenie zásob a jednoduchý produkt.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "Pridať Nový obchod",
-    i_have_a_deal: "položka položka ",
+    i_have_a_deal: "Mám dohodu",
     access: {
       title: "Prístup položka",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "položka položka položka",
+    title: "Plán vydania obsahu",
     subtitle:
       "Tu je zoznam naplánovaných článkov určených na budúce zverejnenie. Máte možnosť naplánovať uverejnenie blogových príspevkov a dokonca aj popisov produktov, ktoré budú zverejnené v konkrétnych časoch.",
   },
@@ -9493,11 +9493,11 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Odoslať položka položka",
+    title: "Odoslať priamu požiadavku",
     message:
       "Identifikujte svoje 3 najdôležitejšie obchodné potreby, aby prosperovali a profitovali na Selldone. Tieto informácie budú zdieľané priamo so zakladateľmi a riaditeľmi a budú starostlivo zvážené. Po odoslaní môžete svoje potreby priebežne aktualizovať.",
-    expand_action: "zápis položka položka",
-    input_label: "položka položka",
+    expand_action: "Napíšte žiadosť...",
+    input_label: "Vaša žiadosť",
     to: {
       ceo: "Odoslať Komu CEO",
       team: "Odoslať Komu položka",
@@ -9545,16 +9545,16 @@ export default {
     test: {
       title: "obchod",
       subtitle: "položka služba správa",
-      action: "položka položka",
-      last_update: "položka položka položka",
+      action: "Otestujte pripojenie",
+      last_update: "Naposledy aktualizované používateľom",
     },
     service_status: {
       title: "služba Postavenie",
-      syncing_message: "položka položka položka",
+      syncing_message: "O procese synchronizácie...",
       action: "položka všetky",
       connect_status: "Connect Postavenie",
       service_status: "služba Postavenie",
-      auto_confirm_enable_msg: "položka položka objednávky položka povolené",
+      auto_confirm_enable_msg: "Automatické potvrdzovanie objednávok je povolené.",
       auto_confirm_disable_msg:
         "Automatické potvrdzovanie objednávok nie je povolené.",
       shipping_enable_msg:
@@ -9565,10 +9565,10 @@ export default {
       auto_confirm_order: "automaticky položka objednávky",
       test_mode: "položka režim",
       status: {
-        subtitle: "položka informácie položka položka Postavenie",
+        subtitle: "Celkové informácie o stave synchronizácie.",
       },
       sync: {
-        title: "položka položka",
+        title: "Podrobnosti synchronizácie",
         subtitle:
           "Podrobnosti internej synchronizácie. Tieto informácie sa uložia po úspešnom ukončení epochy procesu synchronizácie.",
         no_data: "č položka informácie!",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Zoznam pridaných produktov od {name}. Uistite sa, že váš produkt má jedinečný názov a kód SKU. Niektoré služby Connect sa používajú na migráciu, takže ak máte produkty s duplicitnými <b>SKU</b> a <b>Názvami</b>, tieto produkty sa zmenia!",
       action: "položka Produkty",
-      syncing_message: "položka položka položka",
+      syncing_message: "O procese synchronizácie...",
     },
 
     logs: {
@@ -9600,16 +9600,16 @@ export default {
       test: {
         false_title: "položka všetky",
         false_desc: "položka všetky Dostupné Produkty, Kategórie, zákazníkov",
-        true_title: "položka (položka položka položka)",
+        true_title: "Obmedzené (odporúčané pre začiatočníkov)",
         true_desc:
           "Získajte maximálne 5 produktov, kategórií a zákazníkov. Môžete ho kedykoľvek prepnúť do plného režimu v časti Pripojiť > Nastavenie.",
       },
       overwrite: {
-        false_title: "položka položka Zmeniť položka položka",
+        false_title: "Nemeňte, ak existujú",
         false_desc: "Ponechajte existujúce podrobnosti o produkte a kategórii tak, ako sú.",
         true_title: "položka",
         true_desc:
-          "Aktualizovať položka Produkt, položka, položka Kategória informácie",
+          "Aktualizujte informácie o existujúcom produkte, variante a kategórii.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
@@ -9626,7 +9626,7 @@ export default {
       },
       confirm: {
         label: "automaticky položka objednávky",
-        false_desc: "položka položka položka 🛍️ Objednajte si položka",
+        false_desc: "Objednávku musíte potvrdiť manuálne.",
         true_desc:
           "Objednávky so živou platbou budú automaticky schválené. Objednávky s platbou za ladenie nebudú schválené automaticky.",
         tips: "Výnimkou sú objednávky zaplatené darčekovou kartou alebo na dobierku alebo platobné brány v režime ladenia, ktoré nebudú automaticky potvrdené.",
@@ -9661,8 +9661,8 @@ export default {
         "Zabudnite na aplikácie a doplnky pre dropshipping! Connect je budúcnosťou správy objednávok naprieč platformami.",
       auto_confirm: "automaticky položka",
       shipping: "Doprava",
-      syncing_now: "položka položka!",
-      sync_not_started: "položka položka položka začiatok položka!",
+      syncing_now: "Prebieha synchronizácia!",
+      sync_not_started: "Synchronizácia ešte nezačala!",
     },
   },
 
@@ -9700,7 +9700,7 @@ export default {
     add_new_action: "Pridať Nový stránka",
     subtitle:
       "Vytvorte pre svoju značku výrazné, responzívne prispôsobené stránky pomocou všestranného inline editora poháňaného AI a automaticky generujte dynamický obsah vkladaním údajov.",
-    empty_message: "Dizajn Vlastné Stránky položka položka & položka",
+    empty_message: "Navrhnite si vlastné stránky presunutím myšou...",
   },
 
   /**
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Komentáre",
     subtitle: "Toto je zoznam komentárov komunity.",
-    empty_msg: "č Komentáre položka položka ",
+    empty_msg: "Zatiaľ neboli vytvorené žiadne komentáre...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Kategórie",
     subtitle: "Toto je zoznam kategórií komunity.",
     new_category_action: "Nová kategória",
-    empty_msg: "č Kategórie položka položka ",
+    empty_msg: "Zatiaľ neboli vytvorené žiadne kategórie...",
     filter: {
       delete: {
         title: "Odstránené",
@@ -9758,10 +9758,10 @@ export default {
         description: "Zobraziť prehľad položka",
       },
     },
-    empty_msg: "č položka položka ",
+    empty_msg: "Zatiaľ neboli vytvorené žiadne príspevky...",
     menu: {
       open_post: {
-        title: "položka položka",
+        title: "Otvorte príspevok",
         subtitle: "Zobraziť a upraviť príspevok v komunite.",
       },
       spam: {
@@ -9770,7 +9770,7 @@ export default {
       },
       delete: {
         title: "Odstrániť položka",
-        subtitle: "Odstrániť položka položka",
+        subtitle: "Odstráňte tento príspevok.",
       },
     },
   },
@@ -9790,7 +9790,7 @@ export default {
     shopping: {
       title: "Google položka",
       subtitle:
-        "Údaje položka položka informácie položka položka Odkaz Komu položka Pridať všetky Produkty položka Kategórie Komu Google položka",
+        "Zdroje údajov označujú pôvod vašich katalógových informácií na Googli. Kliknutím na tento odkaz automaticky pridáte všetky produkty a kategórie do tovaru Google.",
       tips: "Tento nástroj môžete použiť na jednoduchú a automatickú správu reklám Google.",
       link_message: "Google Produkty položka URL",
     },
@@ -9798,8 +9798,8 @@ export default {
       title: "hľadať položka",
       subtitle: "Pridajte metaznačku na svoju domovskú stránku na overenie Google Search Console.",
       code: {
-        label: "položka položka štítok",
-        placeholder: "Od položka, položka položka",
+        label: "Overovacia metaznačka",
+        placeholder: "Z google napr. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9831,7 +9831,7 @@ export default {
     title: "cashback položka",
     boosted: "položka (2X)",
     min_purchase: "Minimálny nákup",
-    only_first_order: "položka položka 🛍️ Objednajte si",
+    only_first_order: "Iba prvá objednávka",
     total_cashback: "Celkom cashback",
     delete_alert: {
       title: "Odstrániť cashback položka",
@@ -9839,7 +9839,7 @@ export default {
       action: "Áno, vymazať teraz",
     },
     notifications: {
-      delete_success: "cashback položka Odstránené položka",
+      delete_success: "Cashback program bol úspešne odstránený.",
     },
   },
   /**
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "cashback položka",
-      message: "položka položka cashback položka Od 1% Komu 20%.",
+      message: "Zadajte percento cashbacku od 1 % do 20 %.",
     },
     currency_input: {
       message: "Cashback program bude dostupný len pre túto menu.",
     },
     limit_input: {
       title: "položka",
-      hint: "položka položka maximum Suma položka cashback",
-      zero_message: "položka 0 položka Neobmedzené cashback",
+      hint: "Zadajte maximálnu sumu cashbacku.",
+      zero_message: "Zadajte 0 pre neobmedzený cashback.",
     },
     duration: {
       title: "Trvanie položka",
@@ -9926,7 +9926,7 @@ export default {
       title: "Popis",
     },
     constraints: {
-      subtitle: "položka položka cashback položka",
+      subtitle: "Nastavte obmedzenia pre program cashback.",
     },
     min_purchase_input: {
       hint: "Zadajte minimálnu sumu nákupu pre cashback program.",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "Cashback program bude dostupný pre všetky objednávky.",
       true_desc:
         "Cashback program bude dostupný len pre prvú objednávku.",
-      true_title: "položka položka 🛍️ Objednajte si",
+      true_title: "Iba prvá objednávka",
       false_title: "všetky objednávky",
     },
     qualify_input: {
@@ -9954,8 +9954,8 @@ export default {
         "Pridružením klastra k programu cashback ho môžete spravovať efektívnejšie.",
     },
     notifications: {
-      add: "cashback položka Pridať položka",
-      edit: "cashback položka položka položka",
+      add: "Cashback program bol úspešne pridaný.",
+      edit: "Cashback program bol úspešne aktualizovaný.",
     },
     enable_input: {
       true_msg: "Cashback program je aktívny a zákazníci ho môžu využívať.",
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "vrátenie peňazí Platba",
-        subtitle: "položka položka položka vrátenie peňazí podpora",
+        subtitle: "Podporuje sa čiastočná alebo úplná refundácia.",
       },
       delivery: {
-        title: "položka položka Doručenie",
+        title: "Potvrďte pri doručení",
         subtitle: "Doručenie poskytovateľovi platieb môžete potvrdiť manuálne.",
       },
     },
@@ -10019,7 +10019,7 @@ export default {
       description:
         "Potvrdzujem doručenie objednávky zákazníkovi.",
     },
-    action: "položka položka",
+    action: "Potvrďte teraz",
   },
 
   /**
@@ -10031,8 +10031,8 @@ export default {
     subtitle:
       "V tejto sekcii môžete pridávať a spravovať produkty krížového predaja pre túto produktovú stránku. Tieto produkty sa zákazníkom zobrazia ako návrhy na nákup vedľa hlavnej položky. Môžete tiež nastaviť zľavy na povzbudenie a stimuláciu ďalších nákupov. Systém zobrazí maximálne 3 položky, ktoré môže zákazník zvážiť.",
     dialog: {
-      edit_title: "Upraviť položka položka Produkt",
-      add_title: "Pridať Nový položka položka Produkty",
+      edit_title: "Upraviť krížový predaj produktu",
+      add_title: "Pridajte nové produkty krížového predaja",
       target: {
         title: "položka Produkt",
         subtitle:
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "položka Produkt",
-        subtitle: "položka Produkt položka položka ",
+        subtitle: "Tento produkt bol vybraný na propagáciu krížového predaja.",
         manage_product: "Spravovať Produkt",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Vytvorte presvedčivý a lákavý názov, aby ste upútali pozornosť zákazníkov.",
           placeholder:
-            "položka & Uložiť: položka položka !",
+            "Zbaliť a ušetriť: Doplňte svoj vzhľad pomocou nášho starostlivo vybraného výberu!",
         },
       },
       action: {
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Pridať Varianty položka položka",
+    title: "Pridať varianty hromadne",
     variants: {
-      title: "položka položka",
+      title: "Možnosti variantu",
       subtitle:
         "Vyberte až dve varianty. Po výbere si môžete vybrať, ktoré konkrétne varianty sa automaticky vytvoria.",
     },
     values: {
-      title: "položka položka",
-      subtitle: "položka položka ",
+      title: "Hodnoty variantov",
+      subtitle: "Tu zadajte možné hodnoty pre každú možnosť variantu.",
       prevent_duplicates_tips:
         "<b>Poznámka:</b> Automaticky kontrolujeme existujúce varianty, aby sme predišli duplikáciám.",
     },
     inventory: {
       title: "položka Inventár",
-      subtitle: "položka položka začiatok Inventár počítať položka položka Nový Varianty",
+      subtitle: "Nastavte počiatočný počet inventára pre nové varianty.",
     },
     add_variants_action: "Vytvorte Varianty",
   },
@@ -10125,20 +10125,20 @@ export default {
       enable_msg: "Tento most k externej službe je povolený.",
       disable_msg: "Tento most k externej službe je zakázaný.",
       has_shipping_msg:
-        "{name} podpora Doprava položka položka Komu Povoliť automaticky Doprava položka položka {name} položka položka Odhlásiť sa stránka",
+        "{name} podporuje prepravu. Takže máte možnosť povoliť automatický výpočet dopravy pomocou {name} na stránke pokladne.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
       title: "Produkt položka",
-      available_in_stock_msg: "Produkt položka Dostupné položka položka",
-      out_of_stock_msg: "Produkt položka položka ",
+      available_in_stock_msg: "Produkt je dostupný skladom.",
+      out_of_stock_msg: "Produkt nie je na sklade.",
       file_count_msg:
-        "{files_count} súbory položka Celkom {files_size} Nahrať položka položka Produkt",
-      no_file_uploaded_msg: "č súbor položka položka Nahrať položka",
+        "Súbory {files_count} s celkovým počtom {files_size} nahraných pre tento produkt.",
+      no_file_uploaded_msg: "Zatiaľ nebol odovzdaný žiadny súbor.",
       no_image_uploaded_msg:
-        "Nahrať položka Produkt Obrázok Komu zarobiť položka Viac. . položka",
+        "Nahrajte obrázok produktu, aby bol atraktívnejší.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10167,11 +10167,11 @@ export default {
       title: "Stanovenie cien",
       no_product_price_msg: "Predvolená cena produktu ešte nie je nastavená!",
       listing_pricing_msg: "Záznam Stanovenie cien:",
-      has_valuation_msg: "Produkt položka položka",
+      has_valuation_msg: "Produkt má ocenenie.",
       subscription_pricing_msg:
-        "položka Produkt položka {count} Predplatné Stanovenie cien Plány",
+        "Tento produkt má cenové plány predplatného {count}.",
       has_no_subscription_pricing_msg:
-        "položka Produkt položka č Predplatné Stanovenie cien Plány",
+        "Tento produkt nemá žiadne cenové plány predplatného.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "položka Predplatné Stanovenie cien Plány",
       subtitle:
-        "položka Produkt položka č Predplatné Stanovenie cien Plány položka položka Komu Pridať položka položka položka Predplatné Stanovenie cien Plán Komu zarobiť položka Produkt Dostupné položka Predplatné Nákup",
+        "Tento produkt nemá žiadne cenové plány predplatného. Ak chcete, aby bol tento produkt dostupný na nákup predplatného, ​​musíte pridať aspoň jeden cenový plán predplatného.",
       pricing_plans: "Stanovenie cien Plány",
     },
 
@@ -10189,8 +10189,8 @@ export default {
     location: {
       title: "položka Miesto obmedzenie ● {status}",
       status: {
-        has_restriction: "Dostupné položka {count} položka",
-        no_restriction: "položka položka",
+        has_restriction: "Dostupné v krajinách {count}",
+        no_restriction: "Nie je obmedzený",
       },
       available_countries_msg:
         "Nakupovanie je globálne obmedzené na {count} krajiny. Tieto krajiny sú {countries}.",
@@ -10226,10 +10226,10 @@ export default {
         subscription_tax_msg:
           "Daň môžeme uplatniť iba v kroku vytvorenia platby.",
         dedicated: "položka",
-        is_disabled: "položka daň profilu položka zakázané!",
+        is_disabled: "Tento daňový profil je zakázaný!",
         tax_is_based_on_location: "daň: Miesto položka",
         shipping_tax_is_based_on_location: "Doprava: Miesto položka",
-        included_in_price: "položka položka cena",
+        included_in_price: "V cene.",
       },
     },
 
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "položka Produkt položka Komu <b>{vendor}</b>.",
+      vendor_owner_msg: "Tento produkt patrí <b>{vendor}</b>.",
       has_vendors_msg: "Pre tento produkt existuje {count} predajcov.",
       no_vendor_msg:
         "K tomuto produktu ste nepriradili dodávateľa, takže zákazníci si ho nemôžu kúpiť.",
@@ -10264,7 +10264,7 @@ export default {
     card: {
       title: "položka",
       description:
-        "položka HTML kód Komu Pridať Produkt karty položka položka HTML Stránky",
+        "Vygenerujte HTML kód na pridanie produktových kariet na iné platformy a HTML stránky.",
     },
     iframe: {
       title: "položka",
@@ -10283,7 +10283,7 @@ export default {
     staff: {
       title: "Pridať personál & Prístup",
       subtitle:
-        "všetky Používatelia položka personál Prístup položka položka položka Komu položka ovládací panel položka zobraziť Finančné informácie Komu Pridať Používatelia položka položka Prístup, položka položka",
+        "Všetci používatelia s prístupom pre zamestnancov sa môžu prihlásiť na váš informačný panel a zobraziť finančné informácie. Ak chcete pridať používateľov s obmedzeným prístupom, definujte rolu.",
       go_to_roles: "položka Komu Roly",
     },
     access: {
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Prístup položka",
-        placeholder: "Vybrať položka položka",
+        placeholder: "Vyberte úroveň...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "Prístup položka",
-        message: "Nový Prístup položka položka položka Pridať",
+        message: "Nový prístup bol úspešne pridaný.",
       },
       update_success: {
         title: "Prístup položka",
-        message: "Povolenia položka položka ",
+        message: "Povolenia boli úspešne aktualizované.",
       },
     },
   },
@@ -10357,12 +10357,12 @@ export default {
     search_tips: {
       title: "hľadať položka",
       normal:
-        "<b>položka hľadať: </b>hľadať položka Názov, MPN, SKU, Značka, položka Tagy",
+        "<b>Všeobecné vyhľadávanie: </b>Vyhľadávanie podľa názvu, MPN, SKU, značky alebo značiek.",
       product:
         "<b>Presné ID produktu: </b>Použite P+ID produktu na vyhľadanie konkrétneho produktu, napr. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Presná fráza: </b>Na vyhľadanie presnej frázy použite úvodzovky, napr. <b class=\"text-green\">\"</b><i class=\"text-yellow\">váš text tu</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>daň profilu: </b>hľadať položka Produkty položka položka položka daň profilu položka \"daň:\", položka, <b class=\"text-green\">daň:</b><i class=\"text-yellow\">daň profilu názov</i>.",
+      tax: "<b>Tax Profil: </b>Vyhľadajte produkty s konkrétnym daňovým profilom pomocou „tax:“, napr. <b class=\"text-green\">tax:</b><i class=\"text-yellow\">názov daňového profilu</i>.",
       new_products:
         "<b>Nové produkty: </b>Nájdite produkty pridané v rámci určitého rozsahu dátumov, napr. <b class=\"text-green\">nové~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
@@ -10376,20 +10376,20 @@ export default {
     subtitle:
       "Zadajte kľúč, ktorý bude zamenený za zodpovedajúcu hodnotu v obsahu stránky. Kľúče by mali mať maximálne 32 znakov.",
     add_caption: "Pridať Nový položka",
-    add_sub_caption: "Pridať Vlastné položka položka",
+    add_sub_caption: "Pridajte vlastný pár kľúč – hodnota.",
     add_dialog: {
       title: "Vybrať Vstup Typ",
       html: {
-        title: "položka & položka",
-        subtitle: "položka Položky Hodnota položka položka HTML.",
+        title: "Text a Html",
+        subtitle: "Hodnota položky môže byť označená ako text alebo HTML.",
       },
       image: {
         title: "Obrázok",
-        subtitle: "položka položka Nahrať položka Obrázok",
+        subtitle: "Môžete nahrať obrázok.",
       },
     },
     help_dialog: {
-      title: "položka Komu položka položka položka",
+      title: "Ako používať dynamický obsah",
       how_it_works_tips:
         "Na vstupných stránkach máte možnosť flexibilne určiť dynamické zástupné symboly pre text aj obrázky. Tieto zástupné symboly zohrávajú významnú úlohu pri prispôsobovaní obsahu podľa kontextu.   Dynamická povaha týchto zástupných symbolov umožňuje ich vyplnenie hodnotami rozšírenia, ktoré sa môžu líšiť v závislosti od rôznych faktorov. Napríklad hodnoty rozšírenia sa môžu líšiť pre každý produkt alebo kategóriu. Skutočná výhoda tejto funkcie prichádza do hry, keď máte množstvo predmetov s rôznymi vlastnosťami. Tieto dynamické zástupné symboly môžete efektívne využiť na prispôsobenie a zlepšenie zobrazenia každej položky, čím vytvoríte jedinečný a interaktívny zážitok na vašich vstupných stránkach.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Ku každému produktu máte možnosť priradiť vyhradené páry kľúč – hodnota.",
       result_tips:
-        "položka položka stránka, položka položka ",
+        "Toto je konečný výsledok stránky, kde boli zástupné symboly nahradené rozšírenými hodnotami.",
     },
   },
 
@@ -10408,7 +10408,7 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "položka položka",
+      title: "Viacjazyčné",
       subtitle:
         "Toto je zoznam jazykov obsahu. V každom jazyku môžete nastaviť iný obsah pre logistický profil.",
       add_caption: "Pridať Nový Článok",
@@ -10419,20 +10419,20 @@ export default {
       subtitle:
         "Obsah logistického profilu môžete prispôsobiť vo viacerých jazykoch.",
 
-      language_input: "položka Článok položka",
+      language_input: "Aktuálny jazyk článku",
       delete_article: "Odstrániť Článok",
       menu_tooltip: "automaticky položka / Odstrániť Článok",
     },
     translate_to: "položka Komu",
     notifications: {
       translate: {
-        message: "Článok položka Dokončené položka",
+        message: "Preklad článku bol úspešne dokončený.",
       },
       save_article: {
-        message: "Článok položka položka ",
+        message: "Článok bol úspešne uložený.",
       },
       delete_article: {
-        message: "Článok položka položka Odstránené položka",
+        message: "Článok bol úspešne odstránený.",
       },
     },
     delete_dialog: {
@@ -10456,7 +10456,7 @@ export default {
     inputs: {
       name: {
         message:
-          "položka názov Zobraziť Komu položka položka Komu položka Verejné",
+          "Toto meno sa vám zobrazí a nebude zverejnené.",
       },
       accept_delete: {
         true_description:
@@ -10492,7 +10492,7 @@ export default {
       inputs: {
         name: {
           message:
-            "položka názov Zobraziť Komu položka položka Komu položka Verejné",
+            "Toto meno sa vám zobrazí a nebude zverejnené.",
           placeholder: "Zadajte názov profilu...",
         },
       },
@@ -10507,14 +10507,14 @@ export default {
     add_caption: "Pridať Nový položka",
     subtitle:
       "Tu môžete spravovať položky zahrnuté vo vašich produktoch. Ak chcete zaistiť bezchybný vzhľad svojho obchodu, vo všetkých produktoch dôsledne používajte položky s podobnými obrazovými vzormi, ako sú drôtené modely.",
-    empty_list_msg: "Zoznam položka položka Položky",
+    empty_list_msg: "Zoznam zahrnutých položiek...",
     notifications: {
       delete: {
-        message: "položka položka Odstránené",
+        message: "Položka bola odstránená.",
       },
     },
     delete_dialog: {
-      title: "Odstrániť položka položka",
+      title: "Odstrániť zahrnutú položku",
       message:
         "Naozaj chcete túto položku natrvalo odstrániť? Upozorňujeme, že bude odstránený aj zo všetkých súvisiacich produktov!",
       action: "Áno, vymazať teraz",
@@ -10528,18 +10528,18 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "Upraviť položka položka",
-    dialog_title_add: "Vytvorte Nový položka položka",
+    dialog_title_edit: "Upraviť zahrnutú položku",
+    dialog_title_add: "Vytvorte novú zahrnutú položku",
 
-    title: "položka položka",
+    title: "Zahrnutá položka",
     subtitle:
       "Zvoľte krátky názov, ideálne s maximálne 2 až 3 slovami. Použite štvorcové obrázky, pretože nahrané obrázky automaticky zmeníme na štvorcový formát 256 x 256. Ak chcete dosiahnuť najlepší vzhľad vo všetkých šablónach, použite minimalistické obrázky s priehľadným pozadím a udržujte jednotný vzor vo svojich produktoch.",
     inputs: {
       title: {
-        placeholder: "položka Názov položka položka Produkt stránka",
+        placeholder: "Stručný názov zobrazený na stránke produktu...",
       },
       code: {
-        placeholder: "položka kód, napr Mobilné_položka_položka",
+        placeholder: "Jedinečný kód, napr. mobile_cable_usb",
         hint: "Tento kód použite na zefektívnenie procesu vyhľadávania pri hľadaní položiek.",
       },
       description: {
@@ -10547,7 +10547,7 @@ export default {
         hint: "Popis sa použije na SEO a môže byť viditeľný pre používateľov na niektorých vlastných rozloženiach na stránke produktu.",
       },
       image: {
-        message: "položka Obrázok položka: 1MB",
+        message: "Maximálna veľkosť obrázka: 1 MB",
       },
       path: {
         label: "stránka položka",
@@ -10571,10 +10571,10 @@ export default {
     },
     notifications: {
       add: {
-        message: "položka položka Pridať položka",
+        message: "Zahrnutá položka bola úspešne pridaná.",
       },
       edit: {
-        message: "položka položka ",
+        message: "Zahrnutá položka bola úspešne aktualizovaná.",
       },
     },
   },
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "č Peňaženka!",
 
     withdraw_dialog: {
-      title: "položka Komisia položka",
+      title: "Vyberte si provízne poplatky",
 
       need_bank_info_message: "Najprv zadajte svoje bankové údaje.",
 
@@ -10622,7 +10622,7 @@ export default {
       inputs: {
         verify_to_wallet: {
           true_description:
-            "položka položka Komu Prestup položka Komisia Komu položka Selldone Peňaženka",
+            "Chcem previesť svoju províziu do peňaženky Selldon.",
         },
         verify_to_bank: {
           true_description:
@@ -10648,14 +10648,14 @@ export default {
       message: "<b>?ref={code}</b> môžete pridať na akúkoľvek predanú webovú adresu.",
     },
     intro: {
-      title: "položka položka Selldone Pridružený položka",
+      title: "Zapojte sa do pridruženého programu Selldon",
       message:
         "Selldon Affiliate Program je jednoduchý a priamočiary, navrhnutý tak, aby ste mohli zarábať bez námahy. Zdieľajte svoj jedinečný pridružený odkaz, aby ste pozvali nových používateľov do Selldon, a budete zarábať províziu z každej transakcie, ktorú vykonajú – navždy. To zahŕňa príjmy z predplatného, ​​servisné poplatky, inovácie obchodu a všetky ostatné zdroje príjmov. Začnite zarábať podiel na výnosoch bez akýchkoľvek obmedzení času alebo zárobkov. Pridajte sa k nám a premeňte svoju sieť na stabilný príjem!",
-      why_join_selldone_affiliate: "položka položka ?",
+      why_join_selldone_affiliate: "Prečo je to jedinečná príležitosť?",
       reasons: [
-        "položka položka položka!",
+        "Trvá to navždy!",
         "Pokrýva všetky poplatky za predplatné a transakčné poplatky. Doslova každá platba užívateľa na Selldone.",
-        "Každému, kto sa zaregistruje pomocou vášho odkazu, pošleme bezplatný kupón $99.",
+        "Každému, kto sa zaregistruje pomocou vášho odkazu, pošleme bezplatný poukaz v hodnote 99 USD.",
         "Keď upgradujete svoju úroveň, budete zarábať podľa novej sadzby od všetkých predtým odporúčaných používateľov.",
       ],
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "č položka Nahrať položka",
+    no_asset_uploaded: "Zatiaľ nebolo nahrané žiadne dielo.",
   },
 
   /**
@@ -10695,22 +10695,22 @@ export default {
     edit_mode_tooltip: {
       title: "Upraviť / Náhľad režim",
       edit_mode_title: "Upraviť režim",
-      edit_mode_msg: "všetky Upraviť Nástroje položka položka položka",
+      edit_mode_msg: "Zobrazia sa všetky nástroje na úpravu.",
       view_mode_title: "Náhľad režim",
       view_mode_msg:
         "Zobrazte svoju stránku tak, ako by ju videli používatelia, a to tak, že skryjete ďalšie nástroje na úpravu a prázdne textové oblasti.",
     },
     repository_tooltip: {
-      title: "položka položka",
+      title: "Vopred zostavené sekcie",
       subtitle:
         "Prepína zobrazenie vopred navrhnutých sekcií. Tieto sekcie sú vytvorené pomocou štandardných sekcií dostupných v ľavom menu, čo predstavuje flexibilitu tohto nástroja na tvorbu stránok.",
     },
     live_view: {
       title: "naživo Náhľad",
-      subtitle: "zobraziť Aktualizovať položka položka Upraviť položka stránka",
+      subtitle: "Pozrite si aktualizácie v reálnom čase, keď upravujete svoju stránku.",
     },
     hotkeys_dialog: {
-      title: "položka položka",
+      title: "Klávesové skratky",
       augment_tips:
         "Na svoju stránku môžete načítať dynamický obsah a nahradiť ho hodnotami <b>augment</b>. Rozšírenie sa používa pre vlastné dynamické stránky, ako sú <b>Products</b>, <b>Categories</b> a <b>Include Items</b>. Ak chcete nastaviť dynamické načítanie obrázka, kliknite na <b>Feeder</b> a pre daný obrázok vyberte <b>Dynamic Source</b>.",
     },
@@ -10725,8 +10725,8 @@ export default {
       ctrl_2: "Zväčšiť veľkosť písma vybraného textu | <big>Urobte ma veľkým</big>",
       ctrl_r: "Odstrániť všetko formátovanie z vybraného textu | Vyčistite všetky štýly",
       ctrl_s: "Uložiť položka stránka",
-      tab: "položka položka položka režim",
-      ctrl_e: "položka položka Štýl režim",
+      tab: "Prepínanie medzi režimami mierky",
+      ctrl_e: "Aktivujte alebo deaktivujte režim štýlu klonovania",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "položka & položka",
-    subtitle: "položka položka",
+    title: "Drag & Drop",
+    subtitle: "Vopred postavené sekcie",
     add_dialog: {
       title: "Pridať Vlastné položka",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Obrázok",
-        subtitle: "Verejné Obrázok položka položka položka Zoznam",
+        subtitle: "Verejný obrázok zobrazený v zozname.",
       },
       code: {
         title: "kód",
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Názov",
-          message: "položka položka položka Verejné Názov",
+          message: "Toto je verejný titul.",
         },
         tags: {
           label: "Tagy",
@@ -10774,7 +10774,7 @@ export default {
   marketplace_vendors: {
     title: "predajcovia Zoznam",
     subtitle:
-      "Pridať predajcovia položka, položka položka položka Komu Produkty položka položka Produkt ovládací panel > predajcovia",
+      "Sem pridajte dodávateľov a potom ich priraďte k produktom na paneli produktu > Dodávatelia.",
     add_new_vendor_action: "Pridať Nový predajca",
     status_tooltip: {
       title: "predajca Postavenie",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Žiadosť dodávateľa bola zamietnutá.",
       PENDING: "Žiadosť čaká na rozhodnutie predajcu.",
     },
-    number_of_products: "položka položka Produkty",
+    number_of_products: "Počet produktov",
     invited: "položka",
     no_pricing: "č Stanovenie cien",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Nastavte predvolený cenový model pre dodávateľa.",
     },
     updated_products_tooltip: {
-      title: "Produkty položka položka 24 položka",
+      title: "Produkty aktualizované za posledných 24 hodín",
     },
     added_products_tooltip: {
       title: "Produkty pridané za posledných 24 hodín",
@@ -10806,14 +10806,14 @@ export default {
         "Používateľ odmietol žiadosť stať sa dodávateľom a získať prístup k tomuto dodávateľovi.",
     },
     download_all_vendors: "Stiahnuť všetky predajcovia",
-    bulk_import: "položka Importovať (položka)",
+    bulk_import: "Hromadný import (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Licencia položka položka!",
+    title: "Vyžaduje sa upgrade licencie!",
     subtitle:
       "Vaša aktuálna licencia nespĺňa požiadavky zvoleného obchodného modelu. Inovujte svoju licenciu na plán Enterprise.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Pridať Správa Šablóna",
 
     notifications: {
-      add_chat_success_message: "Správa položka položka Pridať položka",
+      add_chat_success_message: "Správa bola úspešne pridaná.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Odoslať Aktualizovať e-mail",
 
       notifications: {
-        send_success_message: "e-mail položka položka Odoslané položka",
+        send_success_message: "E-mail bol úspešne odoslaný.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Pridať Šablóna",
 
       notifications: {
-        save_success_message: "Šablóna položka položka ",
+        save_success_message: "Šablóna bola úspešne uložená.",
       },
 
       inputs: {
         title: {
           label: "Šablóna Názov",
-          placeholder: "zápis položka položka Názov",
+          placeholder: "Napíšte krátky názov...",
         },
         body: {
           label: "Šablóna Správa",
-          placeholder: "zápis položka Správa položka",
+          placeholder: "Sem napíšte svoju správu...",
           messages:
-            "položka položka {order_id} položka {buyer_name}.",
+            "Dynamické hodnoty môžete nastaviť pomocou {order_id} a {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "položka",
     guest: "položka",
     click_to_create: "položka Komu Vytvorte",
-    valid_for_30_days: "položka položka 30 30 dní",
+    valid_for_30_days: "platný 30 dní",
     notifications: {
-      secure_link_created: "položka Odkaz položka položka ",
+      secure_link_created: "Zabezpečený odkaz bol úspešne vytvorený.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Pridať Nový položka položka",
-    title: "položka položka",
+    add_caption: "Pridať novú množinu vlastností",
+    title: "Súbory vlastností",
     subtitle:
       "Tu môžete vytvárať a spravovať súbory vlastností. Súbory vlastností sa používajú na definovanie vlastností produktov a služieb. Tieto sady vlastností môžete priradiť k produktom v Paneli produktu > Upraviť.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "položka položka - Vlastné Varianty",
+      title: "Sada vlastností – vlastné varianty",
       subtitle:
         "Názvy variantov pre tento produkt môžete prispôsobiť a nahradiť predvolené názvy.",
     },
 
     subtitle:
       "Tu si môžete prispôsobiť názvy variantov, ikony a ich poradie. Pre produkty s jedinečnými variantmi, ktoré presahujú predvolených šesť, môžete nastaviť vlastné varianty prispôsobené každému produktu. Jednoducho definujte sady vlastností na karte Logistika > Sady vlastností a podľa potreby ich priraďte k ľubovoľnému počtu produktov.",
-    select_property_set: "Vybrať položka položka",
-    add_property_set: "Pridať položka položka",
+    select_property_set: "Vyberte položku Sada vlastností",
+    add_property_set: "Pridať množinu vlastností",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10932,19 +10932,19 @@ export default {
     add_action: "Pridať položka",
     subtitle:
       "Vytvorte opakovane použiteľné veľkosti krabíc, aby ste urýchlili nákup štítkov a zaistili presné sadzby za dopravu. Pri plnení objednávky vyberte uložený box a jeho rozmery sa automaticky vyplnia.",
-    empty: "č položka položka položka “Pridať položka”.",
+    empty: "Zatiaľ žiadne krabice. Kliknite na „Pridať pole“.",
     edit: "Upraviť položka",
     new: "Nový položka",
     default_weight: "Predvolené Hmotnosť",
-    updated: "položka položka",
-    created: "položka položka",
+    updated: "Box bol aktualizovaný.",
+    created: "Box vytvorený.",
     deleted: "položka Odstránené",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Vybrať položka balík",
-    define_package: "položka položka balík",
+    define_package: "Definujte balík",
     define_package_hint: "Vytvorte alebo upravte svoje preddefinované veľkosti balíkov",
   },
 
@@ -10984,7 +10984,7 @@ export default {
     items: {
       title: "Položky",
       sub_title:
-        "Vytvorte, Upraviť, položka Spravovať Záznam Položky položka Postavenie, Stanovenie cien, Kontakt položka, položka položka",
+        "Vytvárajte, upravujte a spravujte položky záznamu. Kontrola stavu, cien, kontaktných informácií a médií.",
 
       empty_title: "č Položky položka",
       empty_subtitle:
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Odkazy JSON",
-      opening_hours_json: "položka položka JSON",
+      opening_hours_json: "Otváracie hodiny JSON",
 
       delete_title: "Odstrániť položka",
       delete_message: "Naozaj chcete odstrániť túto položku?",
       delete_success: "Položka bola úspešne odstránená.",
-      restore_success: "položka položka položka",
+      restore_success: "Položka bola úspešne obnovená.",
 
-      opening_hours:"položka položka",
+      opening_hours:"OTVÁRACIE HODINY",
       form_fields:"formulár položka",
 
       company: "Spoločnosť",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Pridať kategóriu",
       edit_title: "Upraviť kategóriu",
 
-      parent_filter: "filter položka položka",
+      parent_filter: "Filtrovať podľa rodiča",
       parent: "Rodičovská kategória",
 
       price_format: "cena položka",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Dizajn ID",
 
       delete_title: "Odstrániť kategóriu",
-      delete_message: "položka položka Komu Odstrániť položka Kategória?",
+      delete_message: "Naozaj chcete odstrániť túto kategóriu?",
       delete_success: "Kategória Odstránené položka",
       form_schema: "Kategória formulár položka",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "položka",
       moderation_mode: "položka režim",
-      require_first_approved_before_more: "položka položka Viac. .",
+      require_first_approved_before_more: "Pred ďalšími vyžaduje prvé schválenie",
 
       limits_title: "Limity",
-      max_pending_per_user: "položka Čaká na spracovanie položka Používateľ",
-      max_items_per_user: "položka Položky položka Používateľ",
+      max_pending_per_user: "Maximálny počet čakajúcich na používateľa",
+      max_items_per_user: "Maximálny počet položiek na používateľa",
       limits_hint: "Limity položka",
 
       templates_title: "položka",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "položka položka položka",
-      publish_success: "položka Publikovaný položka",
-      unpublish_success: "položka položka položka",
-      archive_success: "položka položka položka",
-      reject_success: "položka Odmietnuté položka",
-      penalty_success: "položka položka položka",
+      approve_success: "Položka bola úspešne schválená.",
+      publish_success: "Položka bola úspešne zverejnená.",
+      unpublish_success: "Zverejnenie položky bolo úspešne zrušené.",
+      archive_success: "Položka bola úspešne archivovaná.",
+      reject_success: "Položka bola úspešne odmietnutá.",
+      penalty_success: "Penalta bola úspešne uplatnená.",
 
       reject_title: "Odmietnuť položka",
-      reject_reason: "položka položka",
+      reject_reason: "Dôvod odmietnutia",
 
       penalty: "položka",
       penalty_title: "položka",
-      penalty_points: "položka položka",
+      penalty_points: "Trestné body",
       penalty_note: "položka Poznámka"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Nahrať snímky",
       url_type: "Typ",
       url: "URL",
-      is_main: "položka položka hlavná"
+      is_main: "Nastaviť ako hlavné"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Vytvorte viacero dizajnových sád (karty + šablóny detailov) a priraďte ich do kategórií. Kategórie môžu používať rôzne vzory.",
 
-      empty_title: "č položka položka",
+      empty_title: "Zatiaľ žiadne návrhy",
       empty_subtitle:
         "Pridajte svoju prvú súpravu návrhov a začnite prispôsobovať vzhľad kategórií.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Podrobnosti Šablóna",
 
       notifications: {
-        add_success: "Dizajn položka položka",
-        edit_success: "Dizajn položka položka",
+        add_success: "Dizajn úspešne vytvorený.",
+        edit_success: "Dizajn bol úspešne aktualizovaný.",
         delete_success: "Dizajn Odstránené položka",
       },
 
@@ -11148,42 +11148,42 @@ export default {
 
       empty_title: "č odznaky položka",
       empty_subtitle:
-        "Pridať položka položka odznak Komu Štart položka Záznam Položky",
+        "Pridajte svoj prvý odznak a začnite zvýrazňovať položky zoznamu.",
 
       add_title: "Pridať odznak",
       edit_title: "Upraviť odznak",
 
       notifications: {
-        add_success: "odznak položka položka",
-        edit_success: "odznak položka položka",
+        add_success: "Odznak bol úspešne vytvorený.",
+        edit_success: "Odznak bol úspešne aktualizovaný.",
         delete_success: "odznak Odstránené položka",
       },
 
       delete_title: "Odstrániť odznak",
-      delete_message: "položka položka Komu Odstrániť položka odznak?",
+      delete_message: "Naozaj chcete odstrániť tento odznak?",
     },
 
     companies: {
       title: "Spoločnosti",
       sub_title:
-        "Vytvorte položka Spravovať Spoločnosti položka Záznam položka položka prepojené Komu položka Spoločnosť",
+        "Vytvárajte a spravujte spoločnosti. Každá položka ponuky môže byť voliteľne prepojená s jednou spoločnosťou.",
 
       empty_title: "č Spoločnosti položka",
       empty_subtitle:
-        "Pridať položka položka Spoločnosť Komu Odkaz položka Komu Záznam Položky",
+        "Pridajte svoju prvú spoločnosť a prepojte ju s položkami ponuky.",
 
       add_title: "Pridať Spoločnosť",
       edit_title: "Upraviť spoločnosť",
 
       notifications: {
-        add_success: "Spoločnosť položka položka",
-        edit_success: "Spoločnosť položka položka",
+        add_success: "Spoločnosť bola úspešne vytvorená.",
+        edit_success: "Spoločnosť bola úspešne aktualizovaná.",
         delete_success: "Spoločnosť Odstránené položka",
       },
 
       delete_title: "Odstrániť Spoločnosť",
       delete_message:
-        "Odstrániť položka Spoločnosť? Položky položka položka Spoločnosť Odkaz",
+        "Odstrániť túto spoločnosť? Položky, ktoré ho používajú, automaticky stratia firemný odkaz.",
     },
 
 
@@ -11197,7 +11197,7 @@ export default {
       sender: "položka",
       item: "položka",
       has_reply: "položka",
-      has_reply_yes: "položka položka",
+      has_reply_yes: "Má odpoveď",
       has_reply_no: "č položka",
 
       dialog_title: "Správa",
@@ -11205,12 +11205,12 @@ export default {
       reply: "položka",
       reply_hint: "Napíšte odpoveď používateľovi. Správu môžete tiež označiť ako prečítanú/spam z akcií.",
 
-      mark_read: "položka položka čítanie",
-      mark_unread: "položka položka položka",
+      mark_read: "Označiť ako prečítané",
+      mark_unread: "Označiť ako neprečítané",
       archive: "položka",
       unarchive: "položka",
-      mark_spam: "položka položka položka",
-      mark_not_spam: "položka položka",
+      mark_spam: "Označiť ako spam",
+      mark_not_spam: "Nie spam",
 
       delete_confirm: "Odstrániť položka Správa?",
     },
@@ -11218,16 +11218,16 @@ export default {
     enable: {
       title: "Záznam",
       subtitle: "Povoľte alebo zakážte svoju verejnú stránku záznamu. Pri prvom povolení Selldone vytvorí konfiguráciu záznamu automaticky.",
-      true_description: "Záznam položka povolené zákazníkov položka položka Záznam Stránky",
+      true_description: "Výpis je povolený. Zákazníci si môžu prezerať stránky so zoznamom.",
       false_description: "Záznam je zakázaný. Stránky so zoznamom a príspevky sú zablokované.",
       open_listing: "položka Záznam",
-      note: "položka položka , Limity, formulár, položka Dizajn položka Záznam nastavenie",
+      note: "Neskôr môžete nakonfigurovať moderovanie, limity, formuláre a dizajn v nastaveniach záznamu.",
       vendor_prereq_text:
-        "položka predajcovia Komu Pridať Záznam Položky Od položka predajca položka? položka, položka položka podnikanie položka Komu Trhovisko",
-      vendor_prereq_button: "položka Trhovisko podnikanie položka",
+        "Chcete, aby dodávatelia pridávali položky zoznamu zo svojho panela dodávateľov? Najprv prepnite svoj obchodný model na Marketplace.",
+      vendor_prereq_button: "Nastavte obchodný model Marketplace",
 
       vendor_access_text:
-        "položka položka predajcovia položka Prístup Záznam položka (Položky + Spoločnosti). Povoliť položka položka Trhovisko nastavenie",
+        "Teraz sa môžete rozhodnúť, či majú predajcovia prístup k funkciám výpisu (položky + spoločnosti). Povoľte to v nastaveniach Marketplace.",
       vendor_access_button: "Povoliť Záznam položka predajcovia",
 
       more_options_text:
@@ -11241,26 +11241,26 @@ export default {
 
     search: {
       title: "hľadať nastavenie",
-      subtitle: "Dizajn položka zákazníkov hľadať položka Záznam Povoliť položka hľadať položka Stavať Filtre Od položka Vlastné formulár položka",
+      subtitle: "Navrhnite, ako zákazníci vyhľadávajú váš záznam. Povoľte vyhľadávanie na základe polohy a vytvorte filtre z vlastných polí formulára.",
 
       location_title: "Miesto hľadať",
       location_subtitle: "Umožnite zákazníkom vybrať si miesto a nájsť výsledky v okolí v rámci konfigurovateľného okruhu.",
-      location_enabled_true: "Miesto filter položka povolené zákazníkov položka hľadať položka položka",
+      location_enabled_true: "Filter polohy je povolený. Zákazníci môžu vyhľadávať podľa vzdialenosti.",
       location_enabled_false: "Filter polohy je zakázaný. Výsledky nebudú filtrované podľa vzdialenosti.",
 
       radius_default: "Predvolené Polomer (položka)",
       radius_default_hint: "Používa sa, keď zákazník vyberie miesto, ale nevyberie okruh.",
       radius_max: "maximum Polomer (položka)",
       radius_max_hint: "Polomer výkladu bude upnutý na túto hodnotu.",
-      radius_options: "Polomer položka (položka)",
-      radius_options_hint: "položka položka UI.",
+      radius_options: "Možnosti okruhu (km)",
+      radius_options_hint: "Tieto hodnoty možno zobraziť ako rýchle možnosti v používateľskom rozhraní obchodu.",
 
       filters_title: "hľadať Filtre",
       filters_subtitle: "Pridajte filtre, ktoré čítajú hodnoty z meta polí položky (polia formulára vášho záznamu/kategórie). Použite Automatické generovanie na zhromažďovanie skutočných možností z publikovaných položiek.",
       no_filters: "č Filtre Pridať položka",
-      auto_generate: "položka položka",
+      auto_generate: "Možnosti automatického generovania",
 
-      filter_field: "položka položka",
+      filter_field: "Kľúč poľa",
       filter_label: "Označenie",
       filter_type: "Typ",
       filter_options: "položka",
@@ -11329,7 +11329,7 @@ export default {
         "Sezónny výpredaj Extravaganza",
         "Odomknite svoj nákupný raj",
         "Veľký nákupný karneval",
-        "JAR15 položka položka položka",
+        "Spring Fling Shopping Spree",
         "Jesenné ponuky, ktorým neodoláte",
         "Winter Wonders: Teplé ponuky na chladné dni",
         "Odpočítavanie výpredajov na konci leta",
@@ -11478,7 +11478,7 @@ export default {
      */
     offer: {
       title: [
-        "položka & Uložiť položka!",
+        "Bundle & Save Big!",
         "Kúpte viac, ušetrite viac!",
         "Inteligentné ponuky pre inteligentných nakupujúcich",
         "Upozornenie na zľavy! Balíkové sporenie",
@@ -11630,12 +11630,12 @@ export default {
      */
     blog_category: {
       category: [
-        "položka položka",
-        "položka položka",
+        "Tech Insights",
+        "Foodie Finds",
         "Cestovateľské rozprávky",
         "Tipy pre zdravie",
         "Módne obľúbené",
-        "podnikanie položka",
+        "Business Buzz",
         "Príbehy o životnom štýle",
         "Športové aktualizácie",
         "Umelecké zvýraznenia",
@@ -11663,7 +11663,7 @@ export default {
         "Štartovací balíček",
         "Základný plán",
         "Profesionálna suita",
-        "položka položka",
+        "Enterprise Edition",
         "Pokročilá úroveň",
         "Prémiový balíček",
         "Konečné riešenie",
@@ -11708,8 +11708,8 @@ export default {
         "QST", // Quebec Sales Tax
         "CST", // Central Sales Tax
         "Spotrebná daň", // Excise Tax
-        "položka", // Import Duty
-        "položka", // Service Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
         "Luxusná daň", // Luxury Tax
       ],
     },
@@ -11767,16 +11767,16 @@ export default {
     campaign: {
       name: [
         "Nakupujte, kým neklesnete",
-        "položka položka",
+        "Cart Frenzy",
         "Bleskový výpredaj Fiesta",
         "Kliknite, nakupujte, uložte",
         "Výhodná Bonanza",
-        "položka položka",
-        "položka položka položka",
-        "položka položka položka",
+        "E-Deal Extravaganza",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Dni digitálnych zliav",
         "Karneval elektronického obchodu",
-        "položka položka položka",
+        "Online Outlet Oasis",
         "Maloobchod Rush",
         "Predaj skladu v internetovom obchode",
         "Raj e-shopárov",
@@ -11785,7 +11785,7 @@ export default {
         "Odbavenie elektronického košíka",
         "Vyrovnanie nákupov online",
         "Veľkolepý kybernetický predaj",
-        "položka položka",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11848,21 +11848,21 @@ export default {
       title: [
         "Zatočte a vyhrajte veľké ceny!",
         "Jackpot kolesa šťastia",
-        "položka položka položka",
+        "Lucky Spin Bonanza",
         "Zatočte a získajte odmeny",
         "Koleso bohatstva",
         "Šťastná lotéria Extravaganza",
-        "položka položka položka",
+        "Mega Spin Surprise",
         "Cena Wheel Fiesta",
         "Veľkolepé roztočenie pokladov",
         "Roztočte mágiu kolesa",
         "Veľa kolesa šťastia",
-        "položka položka",
+        "Fortune's Favor",
         "Koleso zázrakov",
-        "položka položka položka",
-        "položka položka položka",
+        "Spin for Riches",
+        "Prize Spinner Delight",
         "Zlatá otočná lotéria",
-        "položka",
+        "Spin-a-Prize",
         "Koleso šťastia",
         "Ukážka Lucky Spin",
         "Konečná odmena za točenie",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "položka Prístup",
-        "položka položka",
-        "položka balík",
-        "položka Plán",
-        "položka Predplatné",
-        "položka položka",
-        "položka položka",
-        "Neobmedzené Ponuka",
-        "položka položka",
+        "Základný prístup",
+        "Prémiové členstvo",
+        "Zlatý balíček",
+        "Strieborný plán",
+        "Platinové predplatné",
+        "Enterprise Tier",
+        "Štartovací balík",
+        "Neobmedzená ponuka",
+        "Rodinný balíček",
         "Profesionálna suita",
       ],
       description: [
-        "položka položka ",
-        "Prístup Komu všetky položka položka ",
-        "položka položka položka Priorita podpora",
+        "Ideálne pre jednotlivcov, ktorí skúmajú základy.",
+        "Prístup ku všetkým prémiovým funkciám a obsahu.",
+        "Exkluzívne výhody a prioritná podpora.",
         "Vyvážený balík pre bežných užívateľov.",
-        "položka Prístup položka položka položka",
-        "Vlastné položka položka ",
-        "položka položka ",
+        "Dokonalý prístup s výhodami najvyššej úrovne.",
+        "Zákazkové riešenia pre veľké organizácie.",
+        "Cenovo dostupná základná možnosť.",
         "Žiadne obmedzenia používania pre náročného používateľa.",
         "Špeciálny plán pre rodiny až pre 4 členov.",
-        "položka položka Pokročilé Nástroje",
+        "Navrhnuté pre profesionálov, ktorí hľadajú pokročilé nástroje.",
       ],
     },
 
     spec: {
       group: [
         "Technické špecifikácie",
-        "položka položka",
-        "Výkon položka",
-        "položka položka",
-        "položka položka",
-        "Material položka Stavať položka",
-        "Farba položka Skončiť položka",
-        "položka položka položka",
-        "položka položka položka",
-        "položka položka položka",
-        "balík položka",
-        "záruka položka podpora",
-        "Značka položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka položka",
-        "položka položka",
-        "položka položka",
-        "Používateľ položka položka Recenzie",
-        "Stanovenie cien položka položka",
+        "Fyzické rozmery",
+        "Výkonnostné vlastnosti",
+        "Možnosti pripojenia",
+        "Požiadavky na napájanie",
+        "Kvalita materiálu a konštrukcie",
+        "Možnosti farieb a povrchovej úpravy",
+        "Úložisko a pamäť",
+        "Kompatibilita operačného systému",
+        "Bezpečnosť a súlad",
+        "Obsah balenia",
+        "Záruka a podpora",
+        "Značka a výrobca",
+        "Šetrnosť k životnému prostrediu",
+        "Energetická účinnosť",
+        "Starostlivosť a údržba",
+        "Možnosti prispôsobenia",
+        "Zahrnuté príslušenstvo",
+        "Používateľské hodnotenia a recenzie",
+        "Cena a dostupnosť",
       ],
     },
 
     avocado: {
       title: [
-        "Nákup Potvrdenie",
-        "zľava položka",
-        "🛍️ Objednajte si Faktúra",
-        "Platba Faktúra",
-        "zákazník Potvrdenie",
-        "Transakcia položka",
-        "Fakturácia položka",
-        "Odhlásiť sa Potvrdenie",
-        "🛍️ Objednajte si položka",
-        "Nákup 🛍️ Objednajte si Faktúra",
-        "Predaj Potvrdenie",
-        "položka Faktúra",
-        "položka",
-        "služba Faktúra",
-        "Produkt Faktúra",
-        "Platba Potvrdenie",
+        "Potvrdenie o kúpe",
+        "Potvrdenie predaja",
+        "Faktúra objednávky",
+        "Platobná faktúra",
+        "Potvrdenie zákazníka",
+        "Súhrn transakcií",
+        "Vyúčtovanie",
+        "Potvrdenie o pokladni",
+        "Zhrnutie objednávky",
+        "Faktúra objednávky",
+        "Potvrdenie o predaji",
+        "Maloobchodná faktúra",
+        "E-potvrdenka",
+        "Servisná faktúra",
+        "Faktúra za produkt",
+        "Potvrdenie o platbe",
         "Potvrdenie objednávky",
-        "Fakturácia Faktúra",
-        "Odhlásiť sa Faktúra",
-        "zákazník Faktúra",
+        "Fakturačná faktúra",
+        "Pokladničná faktúra",
+        "Zákaznícka faktúra",
       ],
       message: [
-        "položka položka Nákup!",
-        "položka položka položka podnikanie",
-        "položka 🛍️ Objednajte si položka položka !",
-        "položka položka ",
+        "Ďakujeme za váš nákup!",
+        "Vážime si vaše podnikanie.",
+        "Vaša objednávka je na ceste!",
+        "Ďakujeme, že u nás nakupujete.",
         "Tešíme sa, že vás opäť obslúžime.",
-        "položka položka Priorita",
+        "Vaša spokojnosť je našou najvyššou prioritou.",
         "Nezabudnite ohodnotiť svoje skúsenosti.",
         "Ďakujeme za podporu nášho obchodu.",
-        "položka položka Nový Nákup!",
+        "Dúfame, že sa vám nový nákup bude páčiť!",
         "Uložte si faktúru pre budúce použitie.",
         "Navštívte nás znova pre ďalšie skvelé produkty.",
-        "položka Pripojené položka položka Ponuky",
-        "položka položka zákazník",
+        "Zostaňte v spojení a získajte exkluzívne ponuky.",
+        "Ďakujeme, že ste váženým zákazníkom.",
         "Sme tu, aby sme vám pomohli, ak potrebujete pomoc.",
-        "položka Spätná väzba pomoc položka položka",
+        "Vaša spätná väzba nám pomáha zlepšovať sa.",
         "Využite špeciálnu zľavu na ďalší nákup.",
-        "položka položka !",
-        "položka položka ",
-        "položka položka Komu položka Spätná väzba",
-        "položka položka Od položka položka",
+        "Vybrali ste si skvele!",
+        "Ďakujeme Vám za prejavenú dôveru.",
+        "Tešíme sa na vašu spätnú väzbu.",
+        "Srdečná vďaka od nášho tímu.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "položka položka",
-        "predajca položka",
-        "položka domovská stránka",
-        "položka položka",
-        "Novo prichádzajúci",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "Šperky položka",
-        "položka položka",
-        "položka položka",
+        "Ukážka nehnuteľností",
+        "Predajca Plaza",
+        "Najlepšie domy",
+        "Miestny trh",
+        "Nové príchody",
+        "Estate Gardens",
+        "Nákupná štvrť",
+        "Ulička remeselníkov",
+        "Luxusné nehnuteľnosti",
+        "Nájomné centrum",
+        "Dni otvorených dverí",
+        "Technické inovácie",
+        "Fashion Lane",
+        "Crafts Corner",
+        "Food Court",
+        "Knižný kútik",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Fitness zóna",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "podnikanie položka položka",
-        "daň položka položka (TIN)",
-        "predajca položka formulár",
-        "Produkt položka",
-        "Stanovenie cien Zoznam",
-        "breh účtu Podrobnosti",
-        "položka položka adresu",
-        "položka položka",
-        "Spoločnosť profilu",
-        "položka položka položka",
-        "položka Údaje hárok (SDS)",
-        "Produkt záruka informácie",
-        "Návrat zásady",
-        "Doprava položka položka položka",
-        "zákazník služba zásady",
-        "marketing položka položka Plány",
-        "položka položka Odkazy",
-        "položka položka",
-        "položka kód položka položka",
-        "položka položka (NDA)",
+        "Osvedčenie o registrácii živnosti",
+        "daňové identifikačné číslo (TIN)",
+        "Formulár zmluvy s predajcom",
+        "Katalóg produktov",
+        "Cenník",
+        "Podrobnosti o bankovom účte",
+        "Doklad o adrese",
+        "Poistný certifikát",
+        "Profil spoločnosti",
+        "Certifikát zabezpečenia kvality",
+        "Karta bezpečnostných údajov (KBÚ)",
+        "Informácie o záruke na produkt",
+        "Pravidlá vrátenia",
+        "Dodacie a manipulačné postupy",
+        "Zásady služieb zákazníkom",
+        "Marketingové a propagačné plány",
+        "Odkazy na sociálne médiá",
+        "Obchodné referencie",
+        "Kódex správania dodávateľa",
+        "Dohoda o mlčanlivosti (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Trhovisko obchod služby položka",
-        "Obchod položka položka",
-        "položka služby položka",
-        "položka marketing služba položka",
-        "položka položka obchod položka",
-        "položka položka podnikanie položka",
-        "služba položka položka Trhovisko položka",
-        "Obchod obchod položka položka služby položka",
-        "POD služba položka položka",
-        "marketing položka položka položka",
-        "podnikanie položka služba položka",
-        "položka obchod obchod položka",
-        "položka služba položka položka",
-        "podnikanie položka položka obchod položka",
-        "Vlastné Obchod obchod služby položka",
-        "Trhovisko položka služba položka",
-        "položka položka obchod služby položka",
-        "POD položka služby položka",
-        "marketing položka položka služby položka",
-        "podnikanie položka služba položka",
+        "Zmluva o službách nastavenia trhoviska",
+        "Zmluva o konfigurácii obchodu",
+        "Zmluva o službách tlače na požiadanie",
+        "Zmluva o službe digitálneho marketingu",
+        "Zmluva o nastavení platformy elektronického obchodu",
+        "Zmluva o odbornom poradenstve pre vlastníkov firiem",
+        "Servisná zmluva pre konfiguráciu trhoviska",
+        "Zmluva o službách nastavenia a konfigurácie obchodu",
+        "Zmluva o poskytovaní služieb POD",
+        "Dohoda o implementácii marketingovej stratégie",
+        "Servisná zmluva na rozvoj podnikania",
+        "Zmluva o založení elektronického obchodu",
+        "Zmluva o poskytovaní odborných služieb",
+        "Obchodné riešenia a zmluva o nastavení",
+        "Zmluva o službách nastavenia vlastného obchodu",
+        "Zmluva o službe optimalizácie trhoviska",
+        "Zmluva o poradenských a nastavovacích službách",
+        "Zmluva o integračných službách POD",
+        "Zmluva o marketingových a propagačných službách",
+        "Zmluva o službe rozšírenia podnikania",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "hlavná Peňaženka",
-        "podnikanie účtu",
-        "Osobné Peňaženka",
-        "položka Peňaženka",
-        "položka účtu",
-        "Primárny Peňaženka",
-        "položka účtu",
-        "položka Peňaženka",
-        "Transakcia Peňaženka",
-        "položka účtu",
+        "Hlavná peňaženka",
+        "Podnikateľský účet",
+        "Osobná peňaženka",
+        "Úsporná peňaženka",
+        "Výdavkový účet",
+        "Primárna peňaženka",
+        "Všeobecný účet",
+        "Rezervná peňaženka",
+        "Transakčná peňaženka",
+        "Účet fondu",
       ],
     },
 
@@ -12099,37 +12099,37 @@ export default {
      */
     cashback: {
       title: [
-        "Obchod & položka cashback",
-        "položka položka cashback",
-        "položka cashback Ponuky",
-        "cashback položka",
-        "položka cashback ponuky",
-        "položka cashback položka",
-        "položka cashback 30 dní",
-        "cashback položka položka Nákup",
-        "cashback položka",
-        "VIP cashback položka",
-        "položka čas cashback",
-        "cashback položka Klub",
-        "Obchod Viac. ., Uložiť Viac. .",
-        "položka cashback položka",
-        "cashback položka",
+        "Nakupujte a zarábajte cashback",
+        "Vernostné odmeny Cashback",
+        "Exkluzívne ponuky Cashback",
+        "Cashback Bonanza",
+        "Okamžité ponuky Cashback",
+        "Sezónne úspory Cashback",
+        "Double Cashback Days",
+        "Cashback pri každom nákupe",
+        "Cashback Frenzy",
+        "VIP Cashback Program",
+        "Cashback s obmedzeným časom",
+        "Cashback Rewards Club",
+        "Nakupujte viac, ušetrite viac",
+        "Ultimate Cashback Odmeny",
+        "Cashback Extravaganza",
       ],
       description: [
-        "položka cashback položka položka Nákup!",
-        "položka položka ",
+        "Získajte cashback z každého nákupu!",
+        "Získajte odmenu za svoju vernosť.",
         "Exkluzívne cashback ponuky len pre vás.",
-        "položka položka cashback položka",
+        "Užite si skvelé úspory s odmenami cashback.",
         "Okamžitý cashback na všetky vaše obľúbené položky.",
-        "Uložiť Viac. . položka položka cashback ponuky",
+        "Ušetrite viac vďaka sezónnym cashback akciám.",
         "Zdvojnásobte svoj cashback počas špeciálnych dní!",
-        "položka cashback položka čas položka Obchod",
-        "položka položka cashback položka dnes!",
-        "VIP členovia položka položka cashback",
-        "položka! položka čas cashback Ponuky",
+        "Získajte cashback pri každom nákupe.",
+        "Pripojte sa k cashback šialenstvu ešte dnes!",
+        "VIP členovia majú exkluzívny cashback.",
+        "Ponáhľaj sa! Časovo obmedzené ponuky cashback.",
         "Pripojte sa teraz k nášmu Cashback Rewards Clubu.",
         "Čím viac nakupujete, tým viac ušetríte.",
-        "položka položka položka cashback položka",
+        "Odomknite ultimátne cashback odmeny.",
         "Zažite najlepšie ponuky cashback v okolí.",
       ],
     },
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "VITAJTE10 Komu {shop} - položka položka Položky",
-        "{shop} - položka položka služba",
-        "Exkluzívne ponuky a úspory iba za {shop} – chopte sa príležitosti!",
-        "Spoznajte oddanosť spoločnosti {shop} ekologickej šetrnosti a etickým postupom",
+        "Vitajte v {shop} – Preskúmajte našu jedinečnú škálu položiek",
+        "{shop} – Váš konečný zdroj pre kvalitný tovar a vynikajúce služby",
+        "Exkluzívne ponuky a úspory len na {shop} – chopte sa príležitosti!",
+        "Spoznajte odhodlanie {shop} k ekologickosti a etickým praktikám",
         "Staňte sa súčasťou rodiny {shop} – prihláste sa na odber aktualizácií nášho bulletinu",
-        "položka položka {shop}",
-        "položka položka všetky Diania položka {shop}",
+        "Ponorte sa do najlepšieho výberu a vysoko hodnoteného tovaru na {shop}",
+        "Prezentujte nápady a kreatívne návrhy pre všetky udalosti na {shop}",
         "Bezkonkurenčné ponuky a časovo citlivé špeciálne ponuky na {shop} – konajte rýchlo!",
-        "Komplexné nákupné tipy a hodnotenia produktov {shop} – nakupujte s istotou",
-        "Oslovte {shop} – snažíme sa poskytnúť bezkonkurenčný zážitok z nakupovania",
+        "Komplexné tipy na nákup a hodnotenie produktov {shop} – Nakupujte s istotou",
+        "Oslovte {shop} – Snažíme sa poskytovať bezkonkurenčný zážitok z nakupovania",
       ],
     },
 
@@ -12158,24 +12158,24 @@ export default {
     cross_selling: {
       message: [
         "Dokončite svoj vzhľad, vezmite si súpravu!",
-        "Uložiť položka položka ponuky!",
-        "položka položka !",
-        "položka položka Nákup, položka položka!",
-        "položka položka položka, Kúpiť položka!",
-        "položka Položky, položka zľava!",
+        "Ušetrite veľa s našimi ponukami balíkov!",
+        "Nenechajte si ujsť naše dokonalé páry!",
+        "Vylepšite svoj nákup, doplnky čakajú!",
+        "Odomknite exkluzívne úspory, nakupujte spolu!",
+        "Doplnkové položky, špeciálne zľavy!",
         "Získajte viac, míňajte menej – zbaľte sa!",
-        "položka Ponuka: položka Produkty!",
-        "položka položka položka, položka ponuky!",
-        "položka položka , Uložiť položka!",
-        "položka položka !",
-        "Obchod položka, položka položka Uložiť!",
+        "Časovo obmedzená ponuka: zodpovedajúce produkty!",
+        "Inovujte svoje skúsenosti, kombinované ponuky!",
+        "Objavte naše vybrané kombinácie, ušetrite teraz!",
+        "Spárujte to a vytvorte dokonalé kombo!",
+        "Nakupujte inteligentne, zabaľte a ušetrite!",
         "Dvojnásobná hodnota, dvojnásobná zábava!",
-        "položka položka – Obchod položka!",
+        "Vaša dokonalá súhra je tu – nakupujte teraz!",
         "Exkluzívne ceny balíkov len pre vás!",
-        "položka položka !",
-        "položka položka !",
+        "Maximalizujte svoje úspory s našimi kombináciami!",
+        "Vylepšite svoju zbierku týmito výbermi!",
         "Vybrané pre vás: spárujte a ušetrite!",
-        "položka položka !",
+        "Ideálny pár pre perfektný deň!",
         "Zbaľte svoje obľúbené položky a ušetríte!",
       ],
     },
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "položka položka",
-        "položka",
-        "položka",
-        "položka",
-        "Domov položka",
-        "položka Produkty",
-        "položka položka",
+        "Digitálny tovar",
+        "knihy",
+        "Elektronika",
+        "Móda",
+        "Domáce spotrebiče",
+        "Kozmetické výrobky",
+        "Športové vybavenie",
         "Hračky a hry",
         "Potraviny",
         "Nábytok",
         "Automobilové diely",
         "Šperky",
-        "položka & položka",
+        "Zdravie a wellness",
         "Potreby pre domáce zvieratá",
         "Kancelárske potreby",
-        "položka & položka",
-        "položka & TV Zobraziť",
+        "Hudba a nástroje",
+        "Filmy a televízne relácie",
         "softvér",
-        "položka & položka",
-        "položka položka",
+        "Umenie a remeslá",
+        "Outdoorové vybavenie",
       ],
     },
 
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Potvrdenie objednávky",
-        "🛍️ Objednajte si Odoslané",
-        "🛍️ Objednajte si Doručené",
-        "Platba Prijaté",
-        "🛍️ Objednajte si položka",
-        "🛍️ Objednajte si položka položka",
-        "🛍️ Objednajte si položka položka",
-        "🛍️ Objednajte si položka položka Doručenie",
-        "Návrat položka",
-        "vrátenie peňazí položka",
-        "položka späť položka položka",
+        "Objednávka odoslaná",
+        "Objednávka doručená",
+        "Platba prijatá",
+        "Objednávka zrušená",
+        "Oneskorenie spracovania objednávky",
+        "Objednávka na počkanie",
+        "Objednajte na doručenie",
+        "Vrátenie spracované",
+        "Vrátenie platby vydané",
+        "Tovar späť na sklade",
       ],
       body: [
         "Dobrý deň, {buyer_name}, vaša objednávka #{order_id} bola potvrdená! Spracovávame ho a budeme vás informovať, keď bude pripravený na odoslanie.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "položka",
-        "položka položka",
-        "položka",
+        "Šaty",
+        "Digitálne gadgety",
+        "Nápoje",
         "Potraviny",
         "Nábytok",
-        "položka",
-        "položka Produkty",
-        "položka",
-        "položka položka",
-        "položka",
+        "knihy",
+        "Kozmetické výrobky",
+        "Hračky",
+        "Športové vybavenie",
+        "Príslušenstvo",
       ],
       description: [
         "Atribúty pre odevy, ako je veľkosť, farba a látka.",
         "Špecifikácie pre miniaplikácie, ako je značka, model a funkcie.",
         "Príchute, veľkosti a druhy nápojov.",
         "Podrobnosti o jedlách, občerstvení a potravinových výrobkoch.",
-        "Material, položka, položka Dizajn položka",
-        "Autor, položka, položka položka položka",
+        "Materiál, rozmery a štýly dizajnu.",
+        "Autor, žáner a rok vydania.",
         "Typ pokožky, zložky a podrobnosti o balení.",
         "Veková skupina, materiál a bezpečnostné normy.",
-        "Typ, položka, položka Výkon položka",
-        "položka, položka, položka Značka Podrobnosti",
+        "Vlastnosti typu, veľkosti a výkonu.",
+        "Štýly, materiály a detaily značky.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "položka XS",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka XL",
-        "položka XXL",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka",
-        "položka položka položka",
-        "položka položka položka", // flexible mailer
-        "položka položka", // bubble/padded
-        "položka položka", // thermal
-        "položka položka",
+        "Box XS",
+        "Box S",
+        "Box M",
+        "Box L",
+        "Box XL",
+        "Box XXL",
+        "Box Slim",
+        "Box Wide",
+        "Box Vysoký",
+        "Box Flat",
+        "Krabicová kocka",
+        "Box Tube",
+        "Krabička Krehká",
+        "Box sklenené fľaše",
+        "Box Soft Pack", // flexible mailer
+        "Box Polstrovaný", // bubble/padded
+        "Box izolovaný", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

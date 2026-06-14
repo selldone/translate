@@ -6956,7 +6956,7 @@ export default {
     print_receipt: "Makbuzu yazdırın",
     confirm_cash_payment: "Nakit ödemeyi onaylayın",
     payment_cod: {
-      title: "Kapıda ödeme ödeme",
+      title: "Teslimatta nakit ödeme",
       message:
         "Bu siparişin tutarı teslimatta ödenecektir. Alıcıdan tutarı aldıktan sonra, sistemdeki siparişi tamamlamak için ödemeyi onaylamanız gerekir.",
     },

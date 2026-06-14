@@ -32,7 +32,7 @@ export default {
     domains: "Domínios",
     home_page: "Casa página",
     google_icon_font_sample: "Amostra de fonte do Google",
-    fontawesome_icon_font_sample: "Fontawesome (item) item",
+    fontawesome_icon_font_sample: "Amostra de Fontawesome (V6)",
   },
 
   numbers: {
@@ -604,7 +604,7 @@ export default {
 
       menu_advanced_options: "Opções avançadas",
       menu_advanced_options_description:
-        "Connect Google planilha, Remover item Produtos item Mais. .",
+        "Conecte a planilha do Google, remova produtos duplicados e muito mais...",
 
       products_rss: {
         title: "Produtos RSS",
@@ -2598,12 +2598,12 @@ export default {
    */
   product_variant_item: {
     duplicated_variant: "Esta variante já existe!",
-    set_color_warning: "item Selecionar item Cor",
+    set_color_warning: "Selecione uma cor.",
     set_volume_warning: "Especifique o volume.",
     set_pack_warning: "Especifique o tamanho do pacote.",
     set_weight_warning: "Especifique o peso.",
-    set_type_warning: "item Selecionar item Tipo",
-    set_style_warning: "item Selecionar item Estilo",
+    set_type_warning: "Selecione um tipo.",
+    set_style_warning: "Selecione um estilo.",
     out_of_stock: "Atualmente fora de estoque",
 
     image: {
@@ -3343,7 +3343,7 @@ export default {
       },
 
       express_input: {
-        true_title: "item | Cancelar 🛍️ Encomenda item",
+        true_title: "Expresso | Cancelar pedido imediatamente",
         false_title: "Padrão | Cancelar pedido após 48 horas",
         true_description:
           "Esta opção cancelará seu pedido imediatamente e atualizará o estoque imediatamente.",
@@ -3513,7 +3513,7 @@ export default {
     basket_list: {
       checklist: [
         "Verifique o estoque.",
-        "Caso o item não esteja disponível, o valor pago por aquele item deverá ser devolvido ao cliente.",
+        "Caso o artigo não esteja disponível, o valor pago por esse artigo deverá ser devolvido ao cliente.",
       ],
       message:
         "Se algum dos itens não estiver disponível ou não puder ser vendido, desmarque a caixa ao lado e clique no botão <b>Confirmar pedido</b> .",
@@ -3664,7 +3664,7 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "Informações",
-    subtitle: "Visão geral item Pagamento Porta de entrada Configuração item status",
+    subtitle: "Visão geral da configuração e status do gateway de pagamento.",
     status: "status",
     cod_transportation: "item Envio",
     cod_transportations_error:
@@ -3701,8 +3701,8 @@ export default {
       title: "item Ações",
       subtitle:
         "Ao seguir essas etapas, você começará a receber pagamentos reais de seus clientes.",
-      action_enable: "item Para Habilitar item",
-      make_live_enable: "item Para Ao vivo item",
+      action_enable: "Clique para habilitá-lo",
+      make_live_enable: "Clique para viver",
     },
   },
 
@@ -5014,7 +5014,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "item Acesso",
-      description: "leitura item Detalhes item Estatisticas",
+      description: "Leia detalhes e estatísticas da faixa de opções.",
     },
     "backoffice:ai:write": {
       name: "AI Gerenciamento",
@@ -5066,7 +5066,7 @@ export default {
     },
     "selldone:token:read": {
       name: "item Acesso",
-      description: "leitura item Detalhes item Estatisticas",
+      description: "Leia detalhes e estatísticas do token.",
     },
     "selldone:token:write": {
       name: "item Gerenciamento",
@@ -5076,7 +5076,7 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "item Acesso",
-      description: "leitura item Detalhes item Estatisticas",
+      description: "Leia detalhes e estatísticas de monetização.",
     },
     "selldone:monetization:write": {
       name: "item Gerenciamento",
@@ -5112,7 +5112,7 @@ export default {
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "item Acesso",
-      description: "leitura item Detalhes item Estatisticas",
+      description: "Leia detalhes e estatísticas da agência.",
     },
     "agency:write": {
       name: "item Gerenciamento",
@@ -5154,7 +5154,7 @@ export default {
     },
     vendor: {
       title: "vendedor",
-      description: "Acesso vendedor informações item Gerenciamento item",
+      description: "Acesse informações do fornecedor e recursos de gerenciamento.",
     },
     connect: {
       title: "Conectar SO OS",
@@ -5162,7 +5162,7 @@ export default {
     },
     agency: {
       title: "Agência",
-      description: "Acesso item informações item Gerenciamento",
+      description: "Acesse informações e gerenciamento da agência.",
     },
   },
 
@@ -5954,15 +5954,15 @@ export default {
           "Calcule usando uma combinação de comissões fixas e percentuais.",
         true_description:
           "Calcule usando comissões específicas do produto definidas na guia de preços.",
-        false_title: "item + item Comissão",
+        false_title: "Comissão Fixa + Percentual",
         true_title: "item Comissão",
       },
       user: {
         label: "Do utilizador (opcional)",
-        message: "opcional, item, Afiliado Nome item Selldone",
+        message: "Opcional, por exemplo, nome de afiliado em Selldone",
       },
       web: {
-        placeholder: "opcional, item, item",
+        placeholder: "Opcional, por exemplo, afiliado-web.com",
       },
       address: {
         placeholder: "Opcional, por exemplo, 1200 POX, NY, EUA",
@@ -5971,7 +5971,7 @@ export default {
         placeholder: "opcional, item, 001-808-210354",
       },
       bank: {
-        placeholder: "opcional, item, item Banco, não: 10002-325-800-845213",
+        placeholder: "Opcional, por exemplo, Arstra Bank, No: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Selecionar item Domínio (opcional)",
@@ -7082,7 +7082,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "item vendedores item",
+    open_vendors_panel: "Painel de fornecedores abertos",
     title: "vendedor item Lista",
     subtitle:
       "Esta é uma lista de solicitações de indivíduos que se inscreveram para se tornarem fornecedores em seu mercado.",
@@ -7138,7 +7138,7 @@ export default {
       },
       need_verify: {
         label: "produtos item Fluxo",
-        false_description: "Novo vendedor Produtos item Ao vivo item",
+        false_description: "Os produtos de novos fornecedores são lançados instantaneamente.",
         false_title: "Nenhuma verificação necessária",
         true_description:
           "Os novos produtos dos fornecedores exigem aprovação antes de serem lançados no mercado.",
@@ -7270,7 +7270,7 @@ export default {
         "Envie um documento para verificar seu endereço comercial, como uma conta de luz, nota fiscal ou contrato de locação.",
     },
     Contract: {
-      title: "item & item",
+      title: "Contratos e Acordos",
       description:
         "Faça upload de contratos ou acordos que detalhem os termos e condições de suas relações comerciais.",
     },
@@ -7381,7 +7381,7 @@ export default {
     with_balance_tooltip:
       "Quando você conecta serviços de pagamento como o Stripe Connect, recuperamos e exibimos o saldo disponível em sua conta Stripe para referência.",
     with_balance: "item Equilíbrio",
-    without_balance: "item Equilíbrio - item modo",
+    without_balance: "Sem equilíbrio - modo rápido",
     bank_transfer: {
       title: "Banco Transferir",
       subtitle:
@@ -7702,7 +7702,7 @@ export default {
         true_title: "Personalizado Variantes",
         false_title: "Predefinição Variantes",
         true_description: "Personalize suas variantes de produto.",
-        false_description: "item Predefinição item Variantes",
+        false_description: "Use variantes globais padrão.",
       },
     },
   },
@@ -7988,7 +7988,7 @@ export default {
     option_instant_shipping: "Opção 3: Envio imediato.",
 
     verify_delivery_input: {
-      true_title: "item Entrega item",
+      true_title: "Confirmar conclusão da entrega",
       true_description:
         "Confirmo que o pedido foi entregue ao cliente.",
     },
@@ -8777,7 +8777,7 @@ export default {
     charge: {
       title: "Carregar",
       message:
-        "Você especificou uma cobrança para este item. Você pode alterar o valor da cobrança do item comprado pelo cliente.",
+        "Você especificou uma cobrança para este item. Você pode alterar o valor da cobrança do item adquirido pelo cliente.",
       charge: "Carregar",
     },
 
@@ -8893,7 +8893,7 @@ export default {
   avocado_process: {
     step1: "Preços",
     step1_msg:
-      "Insira o preço de cada item e marque a caixa verde. Se não for possível vender um item, altere seu status para rejeitado.",
+      "Insira o preço de cada item e marque a caixa verde. Caso não seja possível vender um item, altere seu status para rejeitado.",
     step2: "Confirmar fatura",
     step2_msg:
       "Crie uma fatura para este pedido. Você pode inserir um título e uma descrição para a fatura. O valor do pedido é calculado automaticamente com base no preço total dos itens.",
@@ -9970,7 +9970,7 @@ export default {
     },
     boosted_input: {
       false_title: "Normal",
-      true_title: "item (2item Dinheiro de volta)",
+      true_title: "Aumento (2x reembolso)",
       true_msg:
         "O programa de cashback está em modo de reforço e os clientes receberão 2x o cashback.",
       false_msg:
@@ -10566,7 +10566,7 @@ export default {
       external_link: {
         title: "Link externo",
         description: "Defina um link para uma URL externa.",
-        tips: "Você pode anexar qualquer URL ao item. Quando os usuários clicarem no item na página do produto, eles serão redirecionados para esse link.",
+        tips: "Você pode anexar qualquer URL ao item. Quando os usuários clicarem no item da página do produto, eles serão redirecionados para esse link.",
       },
       internal_link: {
         title: "Link interno",
@@ -10671,7 +10671,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "não item Enviar item",
+    no_asset_uploaded: "Nenhum recurso enviado ainda.",
   },
 
   /**
@@ -10740,7 +10740,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "item & item",
+    title: "Arrastar e soltar",
     subtitle: "Seções pré-construídas",
     add_dialog: {
       title: "Adicionar Personalizado item",
@@ -10812,7 +10812,7 @@ export default {
         "O usuário rejeitou a solicitação para se tornar um fornecedor e acessar esse fornecedor.",
     },
     download_all_vendors: "Baixar tudo vendedores",
-    bulk_import: "item Importar (item)",
+    bulk_import: "Importação em massa (Excel)",
   },
 
   /**
@@ -10871,7 +10871,7 @@ export default {
         },
         body: {
           label: "Modelo Mensagem",
-          placeholder: "gravação item Mensagem item",
+          placeholder: "Escreva aqui sua mensagem...",
           messages:
             "Você pode definir valores dinâmicos por {order_id} e {buyer_name}.",
         },
@@ -11089,10 +11089,10 @@ export default {
 
     moderation: {
       approve_success: "Item aprovado com sucesso.",
-      publish_success: "item Publicados item",
+      publish_success: "Item publicado com sucesso.",
       unpublish_success: "Item não publicado com sucesso.",
       archive_success: "Item arquivado com sucesso.",
-      reject_success: "item Rejeitado item",
+      reject_success: "Item rejeitado com sucesso.",
       penalty_success: "Penalidade aplicada com sucesso.",
 
       reject_title: "Rejeitar item",
@@ -11230,7 +11230,7 @@ export default {
       note: "Posteriormente, você pode configurar moderação, limites, formulários e design nas configurações da listagem.",
       vendor_prereq_text:
         "Quer que os fornecedores adicionem itens de listagem de seu Painel de Fornecedores? Primeiro, mude seu modelo de negócios para o Marketplace.",
-      vendor_prereq_button: "item Mercado O negócio item",
+      vendor_prereq_button: "Definir modelo de negócios do Marketplace",
 
       vendor_access_text:
         "Agora você pode decidir se os fornecedores podem acessar os recursos de Listagem (itens + empresas). Ative-o nas configurações do Marketplace.",

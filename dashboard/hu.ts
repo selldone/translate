@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "Távolságegység",
-        subtitle: "elem elem elem elem elem.",
+        subtitle: "A távolság mérésére használt mértékegység.",
       },
 
       menu: {
@@ -1215,7 +1215,7 @@ export default {
         app_icon_input: "Alkalmazásikon",
         app_icon_input_placeholder: "Válassza ki az alkalmazásikonok zip-fájlját.",
         generate_icon_pack_action: "Építsd meg az ikoncsomagot",
-        splash_design: "elem elem elem",
+        splash_design: "Splash Screen Desgin",
         splash_logo_input: "Splash Screen logó",
         splash_logo_input_placeholder: "Válasszon ki egy képet a Splash Screen számára.",
         splash_title_input: "Splash Screen Cím",
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategória",
-      category_input_msg: "elem: elem elem üzlet elem",
+      category_input_msg: "Üres: Az üzlet gyökerében",
       product_name: "Termék név*",
       product_name_placeholder: "A termék neve itt..",
       product_code: "Termékkód (angol)",
       sku: {
         label: "SKU",
-        message: "elem elem elem",
+        message: "Raktári egység",
       },
       mpn: {
         label: "MPN",
-        message: "elem elem elem",
+        message: "Gyártói cikkszám",
       },
 
       external_link: "Külső hivatkozás",
@@ -1507,8 +1507,8 @@ export default {
         title: "Egyéni vásárlás gomb",
         message:
           "Az ikont a következő minta követésével módosíthatja: {icon name} felirat...",
-        placeholder: "elem elem elem elem...",
-        multi_language_dialog_title: "elem elem elem elem",
+        placeholder: "Írja be a cselekvésre ösztönzést...",
+        multi_language_dialog_title: "Egyedi vásárlás gomb felirata",
       },
       external: {
         not_available_message:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-        label: "termékek elem elem elem elem",
-        placeholder: "elem elem elem elem.. (opcionális)",
+        label: "A termék globális kereskedelmi cikkszáma",
+        placeholder: "Globális kereskedelmi szám itt.. (Opcionális)",
       },
       hsn: {
         hint: "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
@@ -1531,7 +1531,7 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "termék elem elem elem üzlet",
+        label: "A termék állapota az üzletben",
         message: "Kérjük, válassza ki a termék állapotát.",
         subtitle:
           "Tájékoztassa ügyfeleit az Ön által kínált termék állapotáról és márkájáról.",
@@ -1545,7 +1545,7 @@ export default {
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
 
         label: "Garancia",
-        placeholder: "elem 24 elem elem.. (opcionális)",
+        placeholder: "Golden 24 hónap garancia.. (Opcionális)",
       },
       status: {
         title: "Állapot",
@@ -1558,7 +1558,7 @@ export default {
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       },
       shortcuts: {
-        title: "elem termék elem elem kategóriák",
+        title: "Rendelje hozzá a terméket további kategóriákhoz",
         subtitle:
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       },
@@ -1647,7 +1647,7 @@ export default {
         subtitle:
           "Importálhat hasonló termékek műszaki specifikációit.",
         action_title: "Importálás",
-        action_subtitle: "elem elem elem elem termék.",
+        action_subtitle: "Specifikáció klónozása egy másik termékből.",
       },
       ai: {
         title: "AI",
@@ -1687,21 +1687,21 @@ export default {
         spec_saved_success: "A termék specifikációi mentve.",
       },
       dialog_ai: {
-        title: "elem elem termék elem",
+        title: "Termékleírások automatikus generálása",
         prompt: {
           title: "Termékáttekintés",
           subtitle:
             "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
         },
         generated_spec: {
-          title: "AI-elem elem",
+          title: "AI által generált specifikációk",
           subtitle:
             "Ezeket a specifikációkat mesterséges intelligencia hozta létre.",
         },
         inputs: {
           prompt: {
             label: "Termékadatok",
-            placeholder: "elem elem termék elem...",
+            placeholder: "A termék leírása itt...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "Háttér leírása",
-            placeholder: "elem elem elem háttér...",
+            placeholder: "Írja le a kívánt hátteret...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Képzelje újra a teljes képet egy új háttérrel.",
           },
           replace: {
-            subtitle: "elem elem elem háttér.",
+            subtitle: "Cserélje ki a meglévő hátteret.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "elem árazás elem elem {min}",
+    title: "Extra ár {min} felett",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     min_quantity: "Minimális mennyiség",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "Több változat hozzáadása egy műveletben.",
       },
       edit_property_set: {
-        title: "elem elem elem",
+        title: "Tulajdonságkészlet testreszabása",
         subtitle: "Változatok nevei, ikonjai és rendelései módosíthatók.",
       },
     },
@@ -1945,8 +1945,8 @@ export default {
       is_disabled: "elem adó profil elem letiltott! (⚠️figyelmeztetés)",
       shipping: "Szállítás",
       fixed_rate: "TAX",
-      location_based_rate: "adó: elem elem",
-      shipping_location_based_rate: "szállítás: elem elem",
+      location_based_rate: "Adó: Helyszín alapú",
+      shipping_location_based_rate: "Szállítás: Helyszín függő",
       include_in_price: "Az ár tartalmazza",
     },
     dialog: {
@@ -1996,7 +1996,7 @@ export default {
       subtitle: "Ez az információ nyilvánosan megjelenik az ügyfelek számára.",
       action_sub_caption: "elem termékek listázás oldal.",
       action_see_listing_page: "elem listázás oldal",
-      send_invitation_email: "elem elem Email",
+      send_invitation_email: "Meghívó e-mail küldése",
       invitation_link: "elem link",
     },
 
@@ -2012,17 +2012,17 @@ export default {
       title: "elem oldal",
       subtitle:
         "Állítson be egyéni céloldalt a szállító számára, és biztosítson számára egyedi hivatkozást a dedikált oldalukra.",
-      action_set_page: "elem elem oldal",
-      action_sub_caption: "elem elem oldal.",
+      action_set_page: "Lásd: Nyilvános oldal",
+      action_sub_caption: "Egyedi céloldal.",
       vendor_has_landing_msg: "A szállító egyéni céloldallal rendelkezik.",
-      no_landing_selected_msg: "elem elem oldal elem.",
-      no_landing_page: "elem elem oldal",
+      no_landing_selected_msg: "Nincs kiválasztva céloldal.",
+      no_landing_page: "Nincs céloldal",
       we_can_create_dedicated_landing_msg:
         "Létrehozhatunk Önnek egy dedikált nyitóoldalt.",
     },
     contact: {
       title: "Kapcsolati adatok",
-      subtitle: "elem elem elem elem részletek.",
+      subtitle: "Kérjük, érvényes elérhetőségeket adjon meg.",
     },
     business: {
       title: "Üzleti adatok",
@@ -2075,29 +2075,29 @@ export default {
     inputs: {
       slug: {
         label: "elem",
-        placeholder: "elem elem elem elem...",
+        placeholder: "Adjon meg egy egyéni elérési utat...",
         hint: "Módosítsa a szállító dinamikus nyitóoldalának elérési útját.",
       },
       email: {
         message: "Ez az e-mail fog kapni minden értesítést és frissítést.",
       },
       business: {
-        false_description: "elem elem elem elem elem.",
+        false_description: "magánszemélyként dolgozom.",
         true_description: "Jogilag elismert gazdasági társaságként működöm.",
         false_title: "elem",
         true_title: "üzlet",
       },
       bank: {
         hint: "Annak a banknak a neve, ahol az eladó számlája van.",
-        placeholder: "elem elem elem..",
+        placeholder: "A bank neve..",
       },
       account_name: {
         hint: "Ennek meg kell egyeznie a bankszámlához társított névvel.",
         placeholder: "elem elem..",
       },
       account_number: {
-        hint: "elem eladók elem elem elem.",
-        placeholder: "elem elem elem elem..",
+        hint: "Az eladó egyedi számlaszáma.",
+        placeholder: "Az Ön bankszámlaszáma..",
       },
       routing_number: {
         hint: "Ez a szám országonként változik. Az eladó által használt bankfiók azonosítására szolgál.",
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Nemzetközi bankszámlaszám): Ha az eladó bankja Európában vagy bizonyos más országokban található.",
-        placeholder: "elem IBAN elem.. elem. DE89 3704 0044 0000 0000 00",
+        placeholder: "Az Ön IBAN száma.. pl. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Nemzetközi bankszámlaszám): Ha az eladó bankja Európában vagy bizonyos más országokban található.",
@@ -2113,7 +2113,7 @@ export default {
       },
       branch_address: {
         hint: "Annak a bankfióknak a címe, ahol az eladó számlája van.",
-        placeholder: "elem elem cím..",
+        placeholder: "A bank címe..",
       },
       enable: {
         label: "eladó állapot",
@@ -2164,14 +2164,14 @@ export default {
   product_badges: {
     title: "Jelvények",
     subtitle: "hozzáadás elem szerkesztés elem termék elem.",
-    only_marketplace_owner_msg: "elem piactér elem",
+    only_marketplace_owner_msg: "Csak a piac tulajdonosai",
     create_new_badge_action: "Új jelvény létrehozása",
-    select_a_badge: "kiválasztás elem elem...",
+    select_a_badge: "Jelvény kiválasztása...",
     inputs: {
       custom: {
-        false_description: "termékek elem elem elem elem.",
+        false_description: "A termékjelvények automatikusan jönnek létre.",
         false_title: "automatikus",
-        true_title: "elem termékek elem",
+        true_title: "Egyedi termékek jelvényei",
         true_description: "Adjon hozzá egyéni jelvényeket a termékoldalon.",
       },
     },
@@ -2179,7 +2179,7 @@ export default {
       title: "elem elem",
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-      show_advanced_options: "megjelenítés elem elem",
+      show_advanced_options: "Speciális opció megjelenítése",
 
       inputs: {
         title: {
@@ -2338,7 +2338,7 @@ export default {
         title_small: "Raktár",
         total_sell: "Teljes értékesítés",
         total_sell_today: "Ma értékesítés",
-        total_sell_timespan: "elem elem elem {start} ~ {end}",
+        total_sell_timespan: "Összes értékesítés a {start} ~ {end} között",
         chart: {
           labels: ["Leltár", "Eladás"],
         },
@@ -2441,7 +2441,7 @@ export default {
           "A változat mentése után képet is hozzáadhat ide.",
 
         config: {
-          title: "termék elem elem",
+          title: "Termékváltozat beállítása",
           subtitle: "SKU, MPN és változatok elérhetőségének kezelése.",
         },
         variables: {
@@ -2451,7 +2451,7 @@ export default {
           graphical_asset_tips:
             "<b>Itt kezelheti ennek a szakasznak az adatait és beállításait.</b>",
           graphical_asset_action: "elem elem",
-          graphical_asset_action_caption: "képek elem elem elem.",
+          graphical_asset_action_caption: "Képek a variációs lehetőségekhez.",
         },
         smart_unit_price: {
           tips: "<b>Itt kezelheti ennek a szakasznak az adatait és beállításait.</b><b></b><b></b>",
@@ -2470,7 +2470,7 @@ export default {
           title: "elem & szállítás",
           subtitle:
             "A szállítási lehetőségek meghatározásához adja meg a változatok súlyát és méreteit.",
-          same_as_product_action: "elem elem termék",
+          same_as_product_action: "Ugyanaz, mint a termék",
         },
         image: {
           title: "Változatképek",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "elem elem elem (SKU)",
+            message: "Raktári egység (SKU)",
           },
           mpn: {
-            message: "elem elem elem (MPN)",
+            message: "Gyártói cikkszám (MPN)",
           },
           gtin: {
-            label: "elem elem elem elem (GTIN)",
+            label: "Globális kereskedelmi cikkszám (GTIN)",
             message:
               "Támogatott formátumok: UPC (12 számjegy), EAN (13 számjegy), JAN (8 vagy 13 számjegy), ISBN (13 számjegy).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Frissítse az összes változatot",
     bulk_action_msg:
       "Állítsa be a termék csomagolását és elkészítési idejét minden változathoz.",
-    dynamic_lead_time: "elem elem idő",
+    dynamic_lead_time: "Dinamikus átfutási idő",
     instant_delivery: "elem elem",
   },
 
@@ -2553,8 +2553,8 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "Kép alternatív szövegének beállítása",
-      placeholder: "elem elem elem elem elem...",
-      success_update_notification: "elem elem elem elem.",
+      placeholder: "Írjon be egy leíró alternatív szöveget...",
+      success_update_notification: "A helyettesítő szöveg sikeresen frissítve.",
     },
     dialog_bg_remove: {
       title: "eltávolítás háttér elem",
@@ -2591,13 +2591,13 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "elem elem elem elem!",
-    set_color_warning: "elem kiválasztás elem elem.",
-    set_volume_warning: "elem elem elem elem.",
-    set_pack_warning: "elem elem elem elem elem.",
-    set_weight_warning: "elem elem elem elem.",
+    duplicated_variant: "Ez a változat már létezik!",
+    set_color_warning: "Kérjük, válasszon színt.",
+    set_volume_warning: "Kérjük, adja meg a hangerőt.",
+    set_pack_warning: "Kérjük, adja meg a csomag méretét.",
+    set_weight_warning: "Kérjük, adja meg a súlyt.",
     set_type_warning: "elem kiválasztás elem típus.",
-    set_style_warning: "elem kiválasztás elem elem.",
+    set_style_warning: "Kérjük, válasszon stílust.",
     out_of_stock: "Jelenleg nincs készleten",
 
     image: {
@@ -2610,7 +2610,7 @@ export default {
     restore_dialog: {
       title: "Változat visszaállítása",
       message: "Biztosan vissza szeretné állítani ezt a törölt változatot?",
-      action: "elem, elem elem",
+      action: "Igen, visszaállítás most",
     },
     notifications: {
       restore_variant_success: "A termékváltozatot sikeresen visszaállítottuk.",
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "üzlet készlet",
     subtitle: "lista elem elem termékek elem üzlet.",
-    cant_set_here: "elem elem elem",
+    cant_set_here: "Itt nem lehet beállítani",
 
     search_input: "Termékkeresés...",
     search_input_title: "Keressen a bolti termékek között",
@@ -2715,10 +2715,10 @@ export default {
    * @see BInventoryBulkPrice
    */
   bulk_price_dialog: {
-    title: "elem elem > ár",
+    title: "Tömeges műveletek > Ár",
     message:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    check: "elem elem ár elem.",
+    check: "Elfogadom az árváltozásokat.",
     check_description:
       "Az ár a kiválasztott kategóriában és az összes alkategóriában módosul.",
     add_percent_tab: "hozzáadás elem",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Automatikus mentés",
-    auto_save_input_message: "elem elem elem elem elem.",
+    auto_save_input_message: "A változtatások automatikusan mentésre kerülnek.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2808,7 +2808,7 @@ export default {
       confirm: "Fizetési mód hozzáadása",
 
       online_methods: "Online módok",
-      cod_methods: "elem elem elem",
+      cod_methods: "Utánvét",
       bank_transfer: "Banki átutalás",
       cash_methods: "elem fizetés (POS)",
 
@@ -3338,7 +3338,7 @@ export default {
 
       express_input: {
         true_title: "elem | mégse rendelés elem",
-        false_title: "elem | mégse rendelés elem 48 elem",
+        false_title: "Standard | Törölje a rendelést 48 óra elteltével",
         true_description:
           "Ezzel a lehetőséggel azonnal törli a megrendelését, és azonnal frissíti a készletet.",
         false_description:
@@ -3664,7 +3664,7 @@ export default {
     cod_transportations_error:
       "Legalább egy szállítási módnál engedélyezze az utánvétes fizetést!",
     payment_type: "fizetés típus",
-    cod: "elem elem elem",
+    cod: "Utánvét",
     online: "elem fizetés",
     wage_percent: "elem elem",
     min_wage: "minimum elem",
@@ -3695,8 +3695,8 @@ export default {
       title: "elem elem",
       subtitle:
         "Ha megteszi ezeket a lépéseket, tényleges kifizetéseket fog kapni ügyfeleitől.",
-      action_enable: "elem elem elem elem",
-      make_live_enable: "elem elem élő elem",
+      action_enable: "Kattintson az engedélyezéséhez",
+      make_live_enable: "Kattintson az éléshez",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "A(z) {gateway_name} átjáró szerkesztve.",
-      success_delete: "fizetés mód elem elem elem!",
+      success_delete: "A fizetési mód törölve!",
     },
     debug: {
       title: "elem & elem",
@@ -3736,19 +3736,19 @@ export default {
     },
     limit_input: {
       title: "minimum rendelés összeg",
-      msg: "elem elem elem korlát.",
+      msg: "A nulla azt jelenti, hogy nincs határ.",
     },
     currency_input: {
       message: "A fizetési átjáró által támogatott pénznem.",
     },
     gateway_code: "átjáró kód",
 
-    hold_only_for: "elem fizetés elem elérhető elem",
+    hold_only_for: "A fizetés visszatartása csak a következőre érhető el",
     manual_input: {
       false_description:
         "Válassza ki vagy adja meg a szükséges adatokat.",
       false_title: "automatikus fizetés elem",
-      true_title: "elem fizetések elem kézi elem",
+      true_title: "Fizetések visszatartása és kézi megerősítés",
       true_description:
         "Válassza ki vagy adja meg a szükséges adatokat.",
     },
@@ -4071,7 +4071,7 @@ export default {
     filter_box: {
       no_root_filter_message: "Vannak termékek a gyökérben, de nincs szűrő.",
       has_root_filter_message: "Szűrőket állít be a gyökérkategóriához.",
-      set_filter_message: "elem elem elem szűrő.",
+      set_filter_message: "Beállíthat szűrőket.",
       edit_action: "Gyökérszűrők szerkesztése",
       clear_action: "Gyökérszűrők törlése",
     },
@@ -4089,11 +4089,11 @@ export default {
       category_assign_profile: "Profil hozzárendelése a kategóriában lévő termékekhez",
       category_assign_profile_subtitle: "adó, szállítás, elem, elem,...",
       bulk_discount: "elem kedvezmény",
-      bulk_discount_subtitle: "elem kedvezmény elem elem termékek.",
+      bulk_discount_subtitle: "Alkalmazzon kedvezményt minden termékre.",
     },
 
     engine: {
-      title: "elem termékek elem",
+      title: "Extra termékek motorja",
       subtitle:
         "A kiválasztott kategóriákból és címkékből további termékek kerülnek betöltésre.",
       load_in_tips: "Válassza ki vagy adja meg a szükséges adatokat. {category}",
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "elem elem / CSV fájl elem.",
+      title: "Dobja ide az Excel/CSV fájlt.",
       select_file: "kiválasztás fájl",
       max_file: "maximum fájl elem: 20mb",
       download_sample: "letöltés minta",
@@ -4146,7 +4146,7 @@ export default {
       subtitle: "piactér információ.",
     },
     performance: {
-      subtitle: "elem elem elem.",
+      subtitle: "Az értékesítési teljesítményem.",
     },
     products: {
       title: "Termékek",
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "elem elem elem elem fizetés?",
+          label: "Megerősítette ezt a fizetést?",
           false_description:
             "Nem, még nem érkezett meg ez a kifizetés a bankszámlámra.",
           true_description: "Igen, megkaptam és ellenőriztem ezt a fizetést.",
@@ -4266,7 +4266,7 @@ export default {
       "<b>Fontos! </b>A művelet végrehajtása negatív tranzakciót generál a szállító pénztárcájában, és levonja belőle a kiválasztott összeget. Az összeg nem haladhatja meg a kiválasztott rendelés fennmaradó összes tranzakcióját. Ezenkívül, ha pénzeszközöket utaltak át a csatlakoztatott bankszámlákra (például Stripe Connect vagy kézi banki átutalással), létre kell hoznia egy <b>visszafordító átutalást</b>.",
     inputs: {
       note: {
-        message: "elem elem elem elem eladó.",
+        message: "Látható az eladó számára.",
         placeholder: "Ide csatolhatsz egy megjegyzést...",
       },
       amount: {
@@ -4832,7 +4832,7 @@ export default {
     },
     "backoffice:notifications": {
       name: "elem elem",
-      description: "elem elem elem elem.",
+      description: "Értesítések küldése és fogadása.",
     },
     "backoffice:order:write": {
       name: "rendelés elem",
@@ -4844,7 +4844,7 @@ export default {
     },
     "backoffice:support-tickets": {
       name: "elem elem",
-      description: "elem elem elem.",
+      description: "Támogatási jegyek kezelése.",
     },
     "backoffice:shop:read": {
       name: "bolt információ",
@@ -4876,7 +4876,7 @@ export default {
     },
     "backoffice:faq:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a GYIK részleteit és statisztikáit.",
     },
     "backoffice:category:write": {
       name: "kategória elem",
@@ -4899,11 +4899,11 @@ export default {
       description: "olvasás üzlet jelentések elem információ.",
     },
     "backoffice:finance:write": {
-      name: "elem elem elem",
+      name: "Pénzügyi számlavezetés",
       description: "Az üzlethez kapcsolódó pénzügyi számlák kezelése.",
     },
     "backoffice:finance:read": {
-      name: "elem elem hozzáférés",
+      name: "Pénzügyi számla hozzáférés",
       description: "Olvassa el a pénzügyi számla részleteit és statisztikákat.",
     },
     "backoffice:page:write": {
@@ -4916,19 +4916,19 @@ export default {
     },
     "backoffice:logistic:write": {
       name: "elem elem",
-      description: "elem elem információ.",
+      description: "Logisztikai információk kezelése.",
     },
     "backoffice:logistic:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a logisztikai részleteket és statisztikákat.",
     },
     "backoffice:staff:write": {
       name: "elem elem",
-      description: "szerkesztés elem elem elem részletek.",
+      description: "Szerkessze és kezelje a személyzet adatait.",
     },
     "backoffice:staff:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem információ elem elem.",
+      description: "Olvassa el a személyzettel kapcsolatos információkat és statisztikákat.",
     },
     "backoffice:business-profile:write": {
       name: "üzlet profil elem",
@@ -4976,23 +4976,23 @@ export default {
     },
     "backoffice:cashback:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a pénzvisszafizetési részleteket és statisztikákat.",
     },
     "backoffice:lottery:write": {
       name: "elem elem",
-      description: "elem üzlet elem.",
+      description: "Bolti lottó rendezése.",
     },
     "backoffice:lottery:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a lottó részleteit és statisztikákat.",
     },
     "backoffice:community:write": {
       name: "elem elem",
-      description: "elem elem elem.",
+      description: "Irányítsd a közösségi tevékenységeket.",
     },
     "backoffice:community:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a közösség részleteit és statisztikákat.",
     },
     "backoffice:customer:write": {
       name: "ügyfél elem",
@@ -5004,19 +5004,19 @@ export default {
     },
     "backoffice:ribbon:write": {
       name: "elem elem",
-      description: "elem üzlet elem.",
+      description: "Üzleti szalagok kezelése.",
     },
     "backoffice:ribbon:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a szalag részleteit és a statisztikákat.",
     },
     "backoffice:ai:write": {
       name: "AI elem",
-      description: "elem AI elem.",
+      description: "AI konfigurációk kezelése.",
     },
     "backoffice:ai:read": {
       name: "AI hozzáférés",
-      description: "olvasás AI elem elem elem.",
+      description: "Olvassa el az AI konfigurációkat és statisztikákat.",
     },
     "backoffice:vendor-payment:write": {
       name: "eladó fizetés elem",
@@ -5044,15 +5044,15 @@ export default {
     },
     "backoffice:affiliate:write": {
       name: "elem elem",
-      description: "elem elem információ.",
+      description: "Társult vállalkozások adatainak kezelése.",
     },
     "backoffice:affiliate:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a leányvállalatok adatait és statisztikáit.",
     },
     "backoffice:print:write": {
       name: "elem elem",
-      description: "elem elem elem.",
+      description: "Nyomtatási beállítások kezelése.",
     },
     "backoffice:print:read": {
       name: "elem hozzáférés",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "Token-hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a token részleteit és a statisztikákat.",
     },
     "selldone:token:write": {
       name: "Tokenkezelés",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a bevételszerzés részleteit és a statisztikákat.",
     },
     "selldone:monetization:write": {
       name: "elem elem",
-      description: "elem elem, elem elem elem.",
+      description: "Kezelje a bevételszerzést, beleértve az ajánlóprogramokat.",
     },
     "selldone:identification": {
       name: "elem hozzáférés",
@@ -5082,15 +5082,15 @@ export default {
     },
     "selldone:developer:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a fejlesztői adatokat és statisztikákat.",
     },
     "selldone:developer:write": {
       name: "elem elem",
-      description: "elem elem információ.",
+      description: "Fejlesztői információk kezelése.",
     },
     "selldone:security:write": {
       name: "elem elem",
-      description: "elem elem elem.",
+      description: "Biztonsági konfigurációk kezelése.",
     },
 
     //--------------------------- Connect ---------------------------
@@ -5100,17 +5100,17 @@ export default {
     },
     "connect:provider:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el a szolgáltató adatait és statisztikákat.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "elem hozzáférés",
-      description: "olvasás elem részletek elem elem.",
+      description: "Olvassa el az ügynökség adatait és statisztikáit.",
     },
     "agency:write": {
       name: "elem elem",
-      description: "elem elem információ.",
+      description: "Ügynökségi információk kezelése.",
     },
 
     //--------------------------- Vendor ---------------------------
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "elem",
-      description: "hozzáférés elem információ elem elem.",
+      description: "Hozzáférés az ügynökség információihoz és kezeléséhez.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "elem elem pénztárca",
+        title: "Válassz pénztárcát",
         subtitle:
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Selldone — Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
-    your_license_is_not_eligible: "elem licenc elem elem elem.",
+    your_license_is_not_eligible: "Az Ön engedélye nem jogosult.",
     sku_dialog: {
       title: "hozzáadás termék elem SKU",
       subtitle:
@@ -5889,8 +5889,8 @@ export default {
     affiliate_commission: "elem elem",
 
     config: {
-      new: "új elem elem",
-      edit: "szerkesztés elem elem",
+      new: "Új Affiliate Partner",
+      edit: "Társult partner szerkesztése",
       subtitle:
         "Itt konfigurálja az általános beállításokat és a társult vállalkozás nevét.",
     },
@@ -5918,12 +5918,12 @@ export default {
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
 
       domain_not_approved_msg: "A domain még nincs jóváhagyva!",
-      domain_is_not_enable_msg: "elem domain elem elem engedélyezett!",
+      domain_is_not_enable_msg: "A domain nincs engedélyezve!",
       domain_is_linked_to_other_affiliate_msg:
         "Ez a domain már össze van kapcsolva egy másik leányvállalattal!",
     },
 
-    set_users_first_message: "elem elem elem felhasználó elem!",
+    set_users_first_message: "Kérjük, először állítsa be a felhasználót!",
 
     cluster: {
       title: "elem",
@@ -5933,13 +5933,13 @@ export default {
     },
 
     notifications: {
-      create_success: "új elem elem elem.",
-      update_success: "elem elem elem.",
+      create_success: "Új társult vállalkozás sikeresen hozzáadva.",
+      update_success: "A partner sikeresen frissítve.",
     },
 
     inputs: {
       name: {
-        label: "elem elem elem",
+        label: "Társult partner neve",
         message: "pl. John Doe, Alex Company, X Marketers stb.",
       },
       commission: {
@@ -5948,7 +5948,7 @@ export default {
           "Számítsa ki a fix és a százalékos jutalékok kombinációjával.",
         true_description:
           "Számítsa ki az árképzés lapon beállított termékspecifikus jutalékok felhasználásával.",
-        false_title: "elem + elem elem",
+        false_title: "Fix + százalékos jutalék",
         true_title: "elem elem",
       },
       user: {
@@ -5956,13 +5956,13 @@ export default {
         message: "Nem kötelező, pl. társult vállalkozás neve a Selldone-ban",
       },
       web: {
-        placeholder: "opcionális, elem.elem., elem.elem",
+        placeholder: "Nem kötelező, például affiliate-web.com",
       },
       address: {
         placeholder: "Nem kötelező, pl. 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "opcionális, elem.elem., 001-808-210354",
+        placeholder: "Nem kötelező, például 001-808-210354",
       },
       bank: {
         placeholder: "Nem kötelező, pl. Arstra Bank, No: 10002-325-800-845213",
@@ -5980,13 +5980,13 @@ export default {
           "Válassza ki vagy adja meg a szükséges adatokat.",
       },
       products: {
-        label: "termékek elem elem elem",
+        label: "Jutalékra jogosult termékek",
         select_product: "kiválasztás termékek",
       },
     },
     actions: {
       update: "frissítés elem",
-      add: "hozzáadás elem elem",
+      add: "Adjon hozzá társult partnert",
     },
     /**
      * @see BPageAffiliateEdit
@@ -6001,7 +6001,7 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "elem árazás elem elem",
+    title: "Egyedi árak és értékelések",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     add_valuation_action: "létrehozás új elem űrlap",
@@ -6014,7 +6014,7 @@ export default {
       action: "Igen, törölje most",
     },
     notifications: {
-      delete_success: "elem elem elem elem elem.",
+      delete_success: "Az értékelés sikeresen törölve.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "árazás & elem elem",
+    label: "Árképzési és értékelési modell",
   },
 
   /**
@@ -6035,7 +6035,7 @@ export default {
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
-    valuation_preview: "elem elem űrlap",
+    valuation_preview: "Értékelési űrlap előnézete",
     load_sample: "elem minta",
     conditions: {
       title: "Körülmények",
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-      zero_message: "elem: elem elem elem korlát!",
+      zero_message: "nulla: nincs határ!",
     },
     duration: {
       subtitle:
@@ -6334,7 +6334,7 @@ export default {
     constraints: {
       subtitle:
         "Itt további, személyre szabott paramétereket is beállíthat a kuponhoz.",
-      no_limit: "elem elem elem",
+      no_limit: "Nincs extra korlátozás",
       has_limit: "elem elem",
       has_code_message: "A kupon hozzáadásához a felhasználónak be kell írnia a kódot.",
     },
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
-    empty_prize_list: "létrehozás elem elem elem elem...",
+    empty_prize_list: "Nyeremények létrehozása és kezelése itt...",
   },
 
   /** {@see BLotteryAdd**/
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "elem eladók elem",
+    open_vendors_panel: "Nyissa meg a Szállítók panelt",
     title: "eladó elem lista",
     subtitle:
       "Ez a kérelmek listája olyan személyektől, akik jelentkeztek, hogy eladók legyenek az Ön piacterén.",
@@ -7131,9 +7131,9 @@ export default {
           "A szállítók közvetlenül a szállítói panelen adhatják hozzá és kezelhetik saját termékeiket.",
       },
       need_verify: {
-        label: "termék elem elem",
+        label: "Termékellenőrzési folyamat",
         false_description: "új eladó termékek elem élő elem.",
-        false_title: "elem elem kötelező",
+        false_title: "Nincs szükség ellenőrzésre",
         true_description:
           "A gyártók új termékeit jóváhagyni kell, mielőtt megjelennének a piacon.",
         true_title: "elem kötelező",
@@ -7218,7 +7218,7 @@ export default {
         },
         code: {
           label: "elem kód",
-          placeholder: "elem elem elem kód elem...",
+          placeholder: "Illessze be ide a beágyazási kódot...",
           message: "elem elem HTML kód.",
         },
         url: {
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "elem elem dokumentum",
+      title: "Tulajdonos azonosító okmány",
       description:
         "Töltsön fel egy államilag kibocsátott személyazonosító okmányt a vállalkozás tulajdonosának vagy kulcsfontosságú vezetőjének személyazonosságának igazolásához.",
     },
@@ -7274,7 +7274,7 @@ export default {
         "Szellemi tulajdonjogainak megerősítésére szerzői jogi regisztrációs dokumentumokat biztosítson.",
     },
     Privacy: {
-      title: "elem elem dokumentumok",
+      title: "Adatvédelmi irányelvek dokumentumai",
       description:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
@@ -7322,7 +7322,7 @@ export default {
     title: "kifizetés elem",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    top_up_vendor_action: "elem elem eladó elem",
+    top_up_vendor_action: "Szállítói számla feltöltése",
   },
 
   /**
@@ -7349,7 +7349,7 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "elem.elem., elem termékek elem...",
+        placeholder: "például digitális termékek osztálya...",
       },
       description: {
         placeholder: "Ide megjegyzést fűzhetsz...",
@@ -7371,11 +7371,11 @@ export default {
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
     vendor_wallet: "eladó pénztárca",
-    vendor_bank_account: "eladó elem elem",
+    vendor_bank_account: "Eladó bankszámla",
     with_balance_tooltip:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     with_balance: "elem elem",
-    without_balance: "elem elem - elem mód",
+    without_balance: "Egyensúly nélkül - Gyors mód",
     bank_transfer: {
       title: "Banki átutalás",
       subtitle:
@@ -7434,8 +7434,8 @@ export default {
     max_batch_msg: "Egy kötegben importálható cikkek maximális száma.",
     max_daily_limit_msg: "Egy napon belül importálható cikkek maximális száma.",
     extra_daily_limit_msg: "További termékek megengedettek a napi limiten túl.",
-    add_items_today_msg: "elemek elem elem.",
-    file_statistic_msg: "elem elem elem fájl.",
+    add_items_today_msg: "Ma hozzáadott elemek.",
+    file_statistic_msg: "Statisztikák ehhez a fájlhoz.",
     used_quota: "elem elem",
   },
 
@@ -7522,7 +7522,7 @@ export default {
           "Egyszerű és minimális mód minden extra művelet nélkül a termékkártyákon.",
         true_description:
           "A Gyors vásárlás és Összehasonlításhoz adás gombok megjelenítése a termékkártyán lebeg.",
-        true_title: "megjelenítés elem elem elem",
+        true_title: "Művelet megjelenítése lebegve",
       },
     },
     filter_products: {
@@ -7550,14 +7550,14 @@ export default {
       title: "termék oldal",
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-      buy_button_color: "elem elem elem",
+      buy_button_color: "Vásárolja meg a gomb színét",
       smart_price: {
-        title: "elem elem ár",
+        title: "Intelligens egységár",
         true_description:
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       },
       reverse_currency: {
-        title: "pénznem elem elem",
+        title: "Valutajel pozíció",
         false_title: "Normál mód",
         true_title: "elem mód",
         false_description:
@@ -7573,7 +7573,7 @@ export default {
 
       tabs_order: {
         title: "elem rendelés",
-        reset_to_default: "elem elem elem",
+        reset_to_default: "Visszaállítás alapértelmezettre",
       },
     }, // end: product_page
   },
@@ -7618,11 +7618,11 @@ export default {
     inputs: {
       font_family: {
         label: "betűtípus elem",
-        message: "elem elem elem érték.",
+        message: "Adja meg a font-family értékét.",
       },
       font_res: {
         label: "betűtípus elem",
-        message: "elem elem betűtípus elem.",
+        message: "Adja meg a font erőforrást.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "elem cím",
-        set_empty: "elem elem cím",
+        set_empty: "Állítson be üres címet",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "szerkesztés elem elem",
-    add_title: "hozzáadás elem elem",
+    edit_title: "Tulajdonságkészlet szerkesztése",
+    add_title: "Tulajdonságkészlet hozzáadása",
     config: {
       subtitle:
         "Állítsa be az ingatlankészlet címét és leírását. Csak a személyzet számára lesz látható.",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Adja meg a tulajdonságkészlet címét...",
       },
       description: {
-        placeholder: "elem elem elem leírás... (opcionális)",
+        placeholder: "Adjon meg egy rövid leírást... (nem kötelező)",
       },
       custom_variants: {
         true_title: "elem elem",
         false_title: "elem elem",
-        true_description: "elem elem termék elem.",
-        false_description: "elem elem elem elem.",
+        true_description: "Szabja testre termékváltozatait.",
+        false_description: "Használja az alapértelmezett globális változatokat.",
       },
     },
   },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "3. lehetőség: Azonnali szállítás.",
 
     verify_delivery_input: {
-      true_title: "megerősítés elem elem",
+      true_title: "Erősítse meg a kézbesítés befejezését",
       true_description:
         "Kijelentem, hogy a megrendelést a vásárló megkapta.",
     },
@@ -8004,12 +8004,12 @@ export default {
     title: "elem irányítópult",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    no_bank_info: "elem elem elem!",
+    no_bank_info: "Nincs banki információ!",
     actions: {
-      edit_my_bank_info: "szerkesztés elem elem elem",
+      edit_my_bank_info: "Banki adatok szerkesztése",
     },
     bank_dialog: {
-      title: "elem elem részletek",
+      title: "Banki adataim",
       info: {
         title: "elem",
         subtitle:
@@ -8021,7 +8021,7 @@ export default {
           message: "A bank teljes neve, ahol a számla van.",
         },
         holder_name: {
-          label: "elem elem elem",
+          label: "Számlatulajdonos neve",
           message:
             "A fiókot birtokló személy vagy entitás teljes neve.",
         },
@@ -8041,7 +8041,7 @@ export default {
             "Nemzetközi kód, amely a bankok azonosítására szolgál világszerte, különösen nemzetközi átutalások esetén.",
         },
         iban: {
-          label: "IBAN (elem elem elem elem)",
+          label: "IBAN (nemzetközi bankszámlaszám)",
           message:
             "Válassza ki vagy adja meg a szükséges adatokat.",
         },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Bevételszerzés",
-    subtitle: "elem hozzáférés elem üzlet elem.",
+    subtitle: "Terjessze a hozzáférést az üzleti lehetőségekhez.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8531,10 +8531,10 @@ export default {
         "A testreszabott SMS-ek csak akkor működnek, ha egyéni szolgáltatót állít be.",
       add_new: "hozzáadás új",
       disable_reason: {
-        set_provider: "elem elem elem elem!",
-        provider_is_disabled: "elem elem elem!",
-        otp: "elem - elem elem!",
-        select_another_provider: "kiválasztás elem elem.",
+        set_provider: "Először állítsa be a szolgáltatót!",
+        provider_is_disabled: "A szolgáltató le van tiltva!",
+        otp: "OTP - Nincs testreszabható!",
+        select_another_provider: "Válasszon másik szolgáltatót.",
       },
       enable_only_filter: "megjelenítés elem engedélyezett",
 
@@ -8547,7 +8547,7 @@ export default {
 
       menu: {
         reset_error: "elem hiba",
-        send_test: "elem elem üzenet",
+        send_test: "Küldj tesztüzenetet",
       },
     },
     template_edit: {
@@ -8566,10 +8566,10 @@ export default {
         subtitle:
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
         message: "Üzenet",
-        reset_to_default: "elem elem elem",
+        reset_to_default: "Visszaállítás alapértelmezettre",
 
         auto_fill: {
-          title: "automatikus elem elem",
+          title: "Automatikus kitöltési paraméterek",
           subtitle:
             "Selldone — Itt kezelheti ennek a szakasznak az adatait és beállításait.",
         },
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "hozzáadás új elem",
 
         auto_fill: {
-          title: "automatikus elem elem",
+          title: "Automatikus kitöltési paraméterek",
           subtitle:
             "Selldone — Itt kezelheti ennek a szakasznak az adatait és beállításait.",
         },
@@ -8614,7 +8614,7 @@ export default {
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
-    title: "elem SMS elem",
+    title: "Egyedi SMS szolgáltató",
     reset_error: "elem hiba",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
@@ -8648,13 +8648,13 @@ export default {
   },
   sms_messages_options: {
     all: {
-      title: "elem + rendelés elem",
+      title: "OPT + Rendelési értesítések",
       description:
         "A rendszer hitelesítő üzeneteket és rendelési értesítéseket küld.",
     },
     otp: {
       title: "elem elem",
-      description: "elem üzenet elem elem elem.",
+      description: "A rendszer hitelesítő üzeneteket küld.",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "elem elem elem",
+    title: "Egyedi levelezőszerver",
     subtitle:
       "Csatlakoztassa levelezőszolgáltatóját, hogy e-maileket küldhessen az egyéni domainen keresztül.",
     provider: "elem",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "elem elem elem e-mail",
+      send_test_email: "Küldj teszt e-mailt",
     },
 
     messages: {
@@ -8735,7 +8735,7 @@ export default {
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
-    title: "Instagram elem elem",
+    title: "Instagram értékesítési csatorna",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
   },
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "elem elem",
     import: {
       title: "elem profil",
-      subtitle: "kiválasztás elem elem elem profil.",
+      subtitle: "Válasszon egy mentett helyprofilt.",
     },
     export: {
       title: "mentés profil",
-      subtitle: "üzlet elem elem elem elem.",
+      subtitle: "Tárolja a helyeket későbbi használatra.",
     },
     has_restriction_input: {
-      title: "elem elem elem",
+      title: "Helymeghatározással rendelkezik",
       description:
         "Válassza ki vagy adja meg a szükséges adatokat.",
     },
-    zip_pin_code: "elem / elem kód",
+    zip_pin_code: "Irányítószámok / Pin kódok",
     no_country_selected_error:
       "Válassza ki vagy adja meg a szükséges adatokat.",
     tips: "<b>Itt kezelheti ennek a szakasznak az adatait és beállításait.</b><b></b><b></b>",
@@ -9002,7 +9002,7 @@ export default {
       },
     },
     load_profile_dialog: {
-      title: "elem elem profil",
+      title: "Helyek profil betöltése",
       message:
         "Helyeket tölthet be, ha kiválaszt egy korábban elmentett helyet itt.",
 
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Ne maradj le rendeléseidről!",
     msg: "Kezelje vállalkozását bárhol és bármikor.",
-    scan_qr_code: "elem elem elem elem telefon!",
+    scan_qr_code: "Vizsgálj meg a telefonoddal!",
 
     notification: {
       title: "Értesítés",
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "Termékek",
-      subtitle: "készlet elem elem termék elem.",
+      subtitle: "Készletgazdálkodás és terméksima.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "hozzáadás új üzlet",
-    i_have_a_deal: "elem elem elem elem",
+    i_have_a_deal: "Megvan az alkum",
     access: {
       title: "hozzáférés elem",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "elem elem elem",
+    title: "Tartalom megjelenési ütemterve",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
   },
@@ -9493,14 +9493,14 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "elem elem elem",
+    title: "Közvetlen kérés küldése",
     message:
       "Selldone — Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    expand_action: "írás elem elem...",
+    expand_action: "Írd meg a kérést...",
     input_label: "elem elem",
     to: {
-      ceo: "elem elem elem",
-      team: "elem elem csapat",
+      ceo: "Küldje el a vezérigazgatónak",
+      team: "Küldés a csapatnak",
     },
     placeholder: {
       ceo: "Adja meg az értéket...",
@@ -9525,7 +9525,7 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "elem elem termékek",
+    title: "Import termékek feldolgozása",
     message:
       "Termékek és képek importálása folyamatban van, ami eltarthat egy ideig.",
   },
@@ -9546,15 +9546,15 @@ export default {
       title: "bolt",
       subtitle: "elem szolgáltatás jelentés",
       action: "elem elem",
-      last_update: "elem elem elem",
+      last_update: "Utoljára frissítette",
     },
     service_status: {
       title: "szolgáltatás állapot",
-      syncing_message: "elem elem elem...",
+      syncing_message: "A szinkronizálás folyamatában...",
       action: "elem elem",
       connect_status: "Connect állapot",
       service_status: "szolgáltatás állapot",
-      auto_confirm_enable_msg: "elem elem rendelések elem engedélyezett.",
+      auto_confirm_enable_msg: "A rendelések automatikus visszaigazolása engedélyezve van.",
       auto_confirm_disable_msg:
         "A rendelések automatikus visszaigazolása nincs engedélyezve.",
       shipping_enable_msg:
@@ -9565,13 +9565,13 @@ export default {
       auto_confirm_order: "automatikus megerősítés rendelések",
       test_mode: "elem mód",
       status: {
-        subtitle: "elem információ elem elem állapot.",
+        subtitle: "Általános információ a szinkronizálás állapotáról.",
       },
       sync: {
         title: "elem elem",
         subtitle:
           "Belső szinkronizálás részletei. Ez az információ a szinkronizálási folyamat sikeres befejezése után kerül mentésre.",
-        no_data: "elem elem információ!",
+        no_data: "Nincs szinkronizálási információ!",
       },
     },
 
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "<b>Itt kezelheti ennek a szakasznak az adatait és beállításait. {name}</b><b></b>",
       action: "elem termékek",
-      syncing_message: "elem elem elem...",
+      syncing_message: "A szinkronizálás folyamatában...",
     },
 
     logs: {
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "elem elem",
         false_desc: "elem elem elérhető termékek, kategóriák, ügyfelek.",
-        true_title: "elem (elem elem elem)",
+        true_title: "Korlátozott (kezdőknek ajánlott)",
         true_desc:
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       },
       overwrite: {
-        false_title: "elem elem elem elem elem",
+        false_title: "Ne változtassa meg, ha létezik",
         false_desc: "Tartsa meg a meglévő termék- és kategóriaadatokat úgy, ahogy vannak.",
         true_title: "elem",
         true_desc:
@@ -9625,7 +9625,7 @@ export default {
       },
       confirm: {
         label: "automatikus megerősítés rendelések",
-        false_desc: "elem elem megerősítés rendelés elem.",
+        false_desc: "A megrendelést manuálisan kell jóváhagynia.",
         true_desc:
           "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
         tips: "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
@@ -9661,7 +9661,7 @@ export default {
       auto_confirm: "automatikus megerősítés",
       shipping: "Szállítás",
       syncing_now: "elem elem!",
-      sync_not_started: "elem elem elem elem elem!",
+      sync_not_started: "A szinkronizálás még nem indult el!",
     },
   },
 
@@ -9683,7 +9683,7 @@ export default {
     },
     Accounting: {
       title: "Könyvelés",
-      desc: "elem rendelések elem elem információ.",
+      desc: "Megrendelések és pénzügyi információk küldése.",
     },
     Other: {
       title: "elem",
@@ -9713,7 +9713,7 @@ export default {
     },
     pending: {
       title: "Függőben levő",
-      message: "megjelenítés elem elem.",
+      message: "Függőben lévő meghívók megjelenítése.",
     },
   },
 
@@ -9750,11 +9750,11 @@ export default {
     filter: {
       deleted: {
         title: "Törölve",
-        description: "megjelenítés elem elem.",
+        description: "A törölt bejegyzések megjelenítése.",
       },
       reported: {
         title: "elem",
-        description: "megjelenítés elem elem.",
+        description: "Jelentett bejegyzések megjelenítése.",
       },
     },
     empty_msg: "Eddig nem készült bejegyzés...",
@@ -9769,7 +9769,7 @@ export default {
       },
       delete: {
         title: "törlés elem",
-        subtitle: "eltávolítás elem elem.",
+        subtitle: "Távolítsa el ezt a bejegyzést.",
       },
     },
   },
@@ -9783,7 +9783,7 @@ export default {
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       tag_id: {
-        label: "Google elem elem elem",
+        label: "Google Címkekezelő azonosítója",
       },
     },
     shopping: {
@@ -9797,12 +9797,12 @@ export default {
       title: "keresés elem",
       subtitle: "Adjon hozzá egy metacímkét kezdőlapjához a Google Search Console ellenőrzéséhez.",
       code: {
-        label: "elem elem elem",
+        label: "Ellenőrző metacímke",
         placeholder: "A google-ból pl. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google elem & elem",
+      title: "Google SERP és kulcsszavak",
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     },
@@ -9830,15 +9830,15 @@ export default {
     title: "elem elem",
     boosted: "elem (2x)",
     min_purchase: "minimum elem",
-    only_first_order: "elem elem rendelés",
+    only_first_order: "Csak az első rendelés",
     total_cashback: "elem elem",
     delete_alert: {
-      title: "törlés elem elem",
+      title: "Törölje a Cashback programot",
       message: "Biztosan törli ezt a pénzvisszatérítési programot?",
       action: "Igen, törölje most",
     },
     notifications: {
-      delete_success: "elem elem elem elem.",
+      delete_success: "Cashback program sikeresen törölve.",
     },
   },
   /**
@@ -9900,7 +9900,7 @@ export default {
     limit_input: {
       title: "Határ",
       hint: "Adja meg a készpénz-visszatérítés maximális összegét.",
-      zero_message: "elem 0 elem elem elem.",
+      zero_message: "Írjon be 0-t a korlátlan pénzvisszatérítéshez.",
     },
     duration: {
       title: "elem korlát",
@@ -9935,7 +9935,7 @@ export default {
       false_desc: "A pénzvisszatérítési program minden megrendelés esetén elérhető lesz.",
       true_desc:
         "A pénzvisszatérítési program csak az első rendelésre lesz elérhető.",
-      true_title: "elem elem rendelés",
+      true_title: "Csak az első rendelés",
       false_title: "elem rendelések",
     },
     qualify_input: {
@@ -9953,8 +9953,8 @@ export default {
         "Ha egy klasztert társít a pénzvisszatérítési programmal, akkor azt hatékonyabban kezelheti.",
     },
     notifications: {
-      add: "elem elem elem elem.",
-      edit: "elem elem elem elem.",
+      add: "Cashback program sikeresen hozzáadva.",
+      edit: "Cashback program sikeresen frissítve.",
     },
     enable_input: {
       true_msg: "A pénzvisszatérítési program aktív, és az ügyfelek használhatják.",
@@ -9978,10 +9978,10 @@ export default {
     actions: {
       refund: {
         title: "visszatérítés fizetés",
-        subtitle: "elem elem elem visszatérítés elem.",
+        subtitle: "Részleges vagy teljes visszatérítés támogatott.",
       },
       delivery: {
-        title: "megerősítés elem elem",
+        title: "Erősítse meg kézbesítéskor",
         subtitle: "Manuálisan megerősítheti a kézbesítést a fizetési szolgáltató számára.",
       },
     },
@@ -9995,7 +9995,7 @@ export default {
     message:
       "Biztonsági okokból csak az elmúlt 7 napon belül kifizetett rendelések jogosultak visszatérítésre.",
     payment_amount: "Végösszeg",
-    total_refund_amount: "elem elem összeg",
+    total_refund_amount: "Teljes visszatérített összeg",
     can_refund: "elem visszatérítés",
     refund_amount: "visszatérítés összeg",
     verify: {
@@ -10010,7 +10010,7 @@ export default {
    * @see BOrderPaymentActionsDeliveryDialog
    */
   payment_delivery_dialog: {
-    title: "ügyfél elem elem",
+    title: "Ügyfél kézbesítésének megerősítése",
     message:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     verify: {
@@ -10073,7 +10073,7 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "hozzáadás elem elem elem",
+    title: "Változatok tömeges hozzáadása",
     variants: {
       title: "elem elem",
       subtitle:
@@ -10131,8 +10131,8 @@ export default {
      */
     health: {
       title: "termék elem",
-      available_in_stock_msg: "termék elem elérhető elem elem.",
-      out_of_stock_msg: "termék elem elem elem elem.",
+      available_in_stock_msg: "A termék raktáron elérhető.",
+      out_of_stock_msg: "A termék elfogyott.",
       file_count_msg:
         "{files_count} fájl összesen {files_size} feltöltve ehhez a termékhez.",
       no_file_uploaded_msg: "Még nincs fájl feltöltve.",
@@ -10166,7 +10166,7 @@ export default {
       title: "Árazás",
       no_product_price_msg: "A termék alapértelmezett ára még nincs beállítva!",
       listing_pricing_msg: "listázás árazás:",
-      has_valuation_msg: "termék elem elem.",
+      has_valuation_msg: "A terméknek értékelése van.",
       subscription_pricing_msg:
         "elem termék elem {count} előfizetés árazás elem.",
       has_no_subscription_pricing_msg:
@@ -10186,7 +10186,7 @@ export default {
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "elem elem elem ● {status}",
+      title: "Az értékesítési hely korlátozása ● {status}",
       status: {
         has_restriction: "elérhető elem {count} elem",
         no_restriction: "elem elem",
@@ -10226,9 +10226,9 @@ export default {
           "Csak a fizetés létrehozási lépése után tudunk adót alkalmazni.",
         dedicated: "Dedikált",
         is_disabled: "elem adó profil elem letiltott!",
-        tax_is_based_on_location: "adó: elem elem",
-        shipping_tax_is_based_on_location: "szállítás: elem elem",
-        included_in_price: "elem elem ár.",
+        tax_is_based_on_location: "Adó: Helyszín alapú",
+        shipping_tax_is_based_on_location: "Szállítás: Helyszín függő",
+        included_in_price: "Az ár tartalmazza.",
       },
     },
 
@@ -10283,7 +10283,7 @@ export default {
       title: "hozzáadás elem & hozzáférés",
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-      go_to_roles: "elem elem szerepek",
+      go_to_roles: "Lépjen a Szerepek menüpontra",
     },
     access: {
       customization_tips:
@@ -10303,7 +10303,7 @@ export default {
       },
       level: {
         label: "hozzáférés elem",
-        placeholder: "kiválasztás elem elem...",
+        placeholder: "Válasszon ki egy szintet...",
       },
     },
 
@@ -10313,11 +10313,11 @@ export default {
     notifications: {
       add_success: {
         title: "hozzáférés elem",
-        message: "új hozzáférés elem elem elem elem.",
+        message: "Az új hozzáférés sikeresen hozzáadva.",
       },
       update_success: {
         title: "hozzáférés elem",
-        message: "engedélyek elem elem elem elem.",
+        message: "Az engedélyek frissítése sikeresen megtörtént.",
       },
     },
   },
@@ -10375,7 +10375,7 @@ export default {
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     add_caption: "hozzáadás új elem",
-    add_sub_caption: "hozzáadás elem elem elem.",
+    add_sub_caption: "Egyéni kulcs-érték pár hozzáadása.",
     add_dialog: {
       title: "kiválasztás elem típus",
       html: {
@@ -10384,11 +10384,11 @@ export default {
       },
       image: {
         title: "Kép",
-        subtitle: "elem elem feltöltés elem kép.",
+        subtitle: "Képet feltölthet.",
       },
     },
     help_dialog: {
-      title: "elem elem elem elem elem",
+      title: "A dinamikus tartalom használatának módja",
       how_it_works_tips:
         "A céloldalakon rugalmasan jelölhet ki dinamikus helyőrzőket szövegekhez és képekhez egyaránt. Ezek a helyőrzők jelentős szerepet töltenek be a tartalom kontextus szerinti testreszabásában.   Ezeknek a helyőrzőknek a dinamikus természete lehetővé teszi, hogy kiegészítési értékekkel töltsék fel őket, amelyek különböző tényezőktől függően változhatnak. Például a kiegészítési értékek termékenként vagy kategóriánként eltérőek lehetnek. Ennek a funkciónak az igazi előnye akkor jelenik meg, ha számos, eltérő tulajdonságú elemmel rendelkezik. Hatékonyan használhatja ezeket a dinamikus helyőrzőket az egyes elemek személyre szabására és megjelenítésének javítására, ezáltal egyedi és interaktív élményt teremthet a céloldalakon.",
       assign_tips:
@@ -10411,27 +10411,27 @@ export default {
       subtitle:
         "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
       add_caption: "hozzáadás új elem",
-      no_more_language: "elem elem elem!",
+      no_more_language: "Nincs több nyelv!",
     },
     content: {
       title: "elem",
       subtitle:
         "A logisztikai profil tartalmát több nyelven is testreszabhatja.",
 
-      language_input: "elem elem elem",
+      language_input: "A cikk aktuális nyelve",
       delete_article: "törlés elem",
       menu_tooltip: "automatikus elem / törlés elem",
     },
     translate_to: "elem elem",
     notifications: {
       translate: {
-        message: "elem elem elem elem.",
+        message: "A cikk fordítása sikeresen befejeződött.",
       },
       save_article: {
-        message: "elem elem elem elem elem.",
+        message: "A cikk sikeresen elmentve.",
       },
       delete_article: {
-        message: "elem elem elem elem elem.",
+        message: "A cikk sikeresen törölve.",
       },
     },
     delete_dialog: {
@@ -10502,21 +10502,21 @@ export default {
    * @see BPageShopLogisticIncludes
    */
   shop_logistic_includes: {
-    title: "elem elemek elem",
+    title: "Tartalmazott tételek kezelése",
     add_caption: "hozzáadás új elem",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     empty_list_msg: "lista elem elem elemek...",
     notifications: {
       delete: {
-        message: "elem elem elem elem elem.",
+        message: "Az elemet törölték.",
       },
     },
     delete_dialog: {
-      title: "törlés elem elem",
+      title: "A benne lévő elem törlése",
       message:
         "Biztosan törli ezt az elemet?",
-      action: "elem, törlés elem",
+      action: "Igen, törlés most",
     },
     actions: {
       edit_linked_page: "szerkesztés kapcsolt oldal",
@@ -10527,7 +10527,7 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "szerkesztés elem elem",
+    dialog_title_edit: "Szerkessze a mellékelt elemet",
     dialog_title_add: "Új tartalmazott elem létrehozása",
 
     title: "elem elem",
@@ -10604,7 +10604,7 @@ export default {
     no_wallet: "elem pénztárca!",
 
     withdraw_dialog: {
-      title: "elem elem elem",
+      title: "Jutalékok visszavonása",
 
       need_bank_info_message: "Kérjük, először adja meg banki adatait.",
 
@@ -10629,8 +10629,8 @@ export default {
         },
       },
       actions: {
-        withdraw_to_wallet: "elem elem pénztárca",
-        withdraw_to_bank: "elem elem elem",
+        withdraw_to_wallet: "Vedd vissza a pénztárcába",
+        withdraw_to_bank: "Kifizetés a bankba",
       },
     },
     notifications: {
@@ -10647,12 +10647,12 @@ export default {
       message: "A <b>?ref={code}</b> bármely eladott URL-hez hozzáadható.",
     },
     intro: {
-      title: "elem elem Selldone elem elem",
+      title: "Csatlakozzon a Selldone Partnerprogramhoz",
       message:
         "A Selldone Affiliate Program egyszerű és egyértelmű, úgy tervezték, hogy Ön könnyedén keressen. Ossza meg egyedi társult linkjét, hogy új felhasználókat hívjon meg a Selldone-ba, és jutalékot kap minden tranzakciójuk után – örökre. Ez magában foglalja az előfizetésekből származó bevételeket, a szolgáltatási díjakat, a boltok bővítéséből származó bevételeket és minden egyéb bevételi forrást. Kezdjen el részesedést szerezni a bevételből időbeli vagy bevételi korlátok nélkül. Csatlakozzon hozzánk, és alakítsa hálózatát állandó bevételré!",
       why_join_selldone_affiliate: "Miért egyedülálló ez a lehetőség?",
       reasons: [
-        "elem elem elem!",
+        "Örökké tart!",
         "Fedez minden előfizetési és tranzakciós díjat. Szó szerint a felhasználó minden kifizetése a Selldone-on.",
         "Ingyenes $99 értékű utalványt küldünk mindenkinek, aki az Ön linkjével regisztrál.",
         "A szint frissítésekor az összes korábban hivatkozott felhasználótól az új árfolyamon fog keresni.",
@@ -10664,7 +10664,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "elem elem elem elem.",
+    no_asset_uploaded: "Még nincs feltöltött elem.",
   },
 
   /**
@@ -10672,7 +10672,7 @@ export default {
    */
   l_menu_top_home: {
     hot_keys: "elem",
-    click_to_view_all: "elem elem elem elem...",
+    click_to_view_all: "Kattintson az összes megtekintéséhez...",
     clone_tooltip: {
       title: "elem elem",
       subtitle:
@@ -10724,7 +10724,7 @@ export default {
       ctrl_2: "A kijelölt szöveg betűméretének növelése | <big>Nagyíts engem</big>",
       ctrl_r: "Az összes formázás eltávolítása a kijelölt szövegből | Tisztítsa meg az összes stílust",
       ctrl_s: "mentés elem oldal",
-      tab: "elem elem elem mód",
+      tab: "Váltás a skálamódok között",
       ctrl_e: "A klónstílus mód be- vagy kikapcsolása",
     },
   },
@@ -10736,7 +10736,7 @@ export default {
     title: "elem & elem",
     subtitle: "elem elem",
     add_dialog: {
-      title: "hozzáadás elem elem",
+      title: "Egyéni szakasz hozzáadása",
       configuration: {
         title: "Beállítások",
         subtitle:
@@ -10754,7 +10754,7 @@ export default {
       inputs: {
         title: {
           label: "Cím",
-          message: "elem elem elem elem cím.",
+          message: "Ez a nyilvános cím.",
         },
         tags: {
           label: "Címkék",
@@ -10781,11 +10781,11 @@ export default {
       REJECTED: "A szállítói kérelmet elutasították.",
       PENDING: "A kérelem az eladó döntésére vár.",
     },
-    number_of_products: "elem elem termékek",
+    number_of_products: "Termékek száma",
     invited: "elem",
     no_pricing: "elem árazás",
     no_pricing_tooltip: {
-      title: "elem árazás elem",
+      title: "Alapértelmezett árképzési terv",
       subtitle: "Kérjük, állítson be egy alapértelmezett árképzési modellt a szállító számára.",
     },
     updated_products_tooltip: {
@@ -10800,12 +10800,12 @@ export default {
         "Az eladó hozzáfér a paneljéhez. Ezt a Szállító > Hozzáférés lapon szerkesztheti.",
     },
     reject_by_user_tooltip: {
-      title: "elem elem felhasználó",
+      title: "Felhasználó elutasította",
       subtitle:
         "A felhasználó elutasította a kérést, hogy legyen szállító, és hozzáférjen ehhez a szállítóhoz.",
     },
     download_all_vendors: "letöltés elem eladók",
-    bulk_import: "elem importálás (elem)",
+    bulk_import: "Tömeges importálás (Excel)",
   },
 
   /**
@@ -10828,7 +10828,7 @@ export default {
     add_template_action: "hozzáadás üzenet elem",
 
     notifications: {
-      add_chat_success_message: "üzenet elem elem elem elem.",
+      add_chat_success_message: "Az üzenet sikeresen hozzáadva.",
     },
 
     send_update_email: {
@@ -10836,12 +10836,12 @@ export default {
       need_set_service_alert: {
         message:
           "Állítsa be az e-mail szolgáltatóját, hogy engedélyezze az e-mail küldését.",
-        action: "elem elem beállítások",
+        action: "Menjen a beállításokhoz",
       },
       send_action: "elem frissítés Email",
 
       notifications: {
-        send_success_message: "Email elem elem elem elem.",
+        send_success_message: "Az e-mail sikeres elküldése.",
       },
     },
     add_template: {
@@ -10854,7 +10854,7 @@ export default {
       add_action: "hozzáadás elem",
 
       notifications: {
-        save_success_message: "elem elem elem elem elem.",
+        save_success_message: "A sablon sikeresen elmentve.",
       },
 
       inputs: {
@@ -10882,8 +10882,8 @@ export default {
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
     authentication: "elem",
     guest: "elem",
-    click_to_create: "elem elem létrehozás...",
-    valid_for_30_days: "elem elem 30 elem",
+    click_to_create: "Kattintson a létrehozáshoz...",
+    valid_for_30_days: "30 napig érvényes",
     notifications: {
       secure_link_created: "A biztonságos link létrehozása sikeresen megtörtént.",
     },
@@ -10894,7 +10894,7 @@ export default {
    */
   shop_reviews: {
     title: "elem elem",
-    add_source_action: "hozzáadás elem elem",
+    add_source_action: "Vélemény forrásának hozzáadása",
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
   },
@@ -10914,15 +10914,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "elem elem - elem elem",
+      title: "Tulajdonságkészlet – Egyéni változatok",
       subtitle:
         "Testreszabhatja ennek a terméknek a változatneveit, lecserélve az alapértelmezett neveket.",
     },
 
     subtitle:
       "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-    select_property_set: "kiválasztás elem elem",
-    add_property_set: "hozzáadás elem elem",
+    select_property_set: "Válassza a Tulajdonságkészlet lehetőséget",
+    add_property_set: "Tulajdonságkészlet hozzáadása",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10942,8 +10942,8 @@ export default {
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "kiválasztás elem elem",
-    define_package: "elem elem elem",
+    select_box: "Válasszon ki egy csomagot",
+    define_package: "Határozzon meg egy csomagot",
     define_package_hint: "Hozza létre vagy szerkessze előre meghatározott csomagméreteit",
   },
 
@@ -10985,7 +10985,7 @@ export default {
       sub_title:
         "A listaelemek létrehozása, szerkesztése és kezelése. Állapot, árak, kapcsolatfelvételi adatok és média szabályozása.",
 
-      empty_title: "elem elemek elem",
+      empty_title: "Még nincsenek tételek",
       empty_subtitle:
         "Hozza létre az első listaelemet a címtár építésének megkezdéséhez.",
 
@@ -10998,12 +10998,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "link JSON",
-      opening_hours_json: "elem elem JSON",
+      opening_hours_json: "Nyitvatartás JSON",
 
       delete_title: "törlés elem",
       delete_message: "Biztosan törli ezt az elemet?",
       delete_success: "Az elem sikeresen törölve.",
-      restore_success: "elem elem elem.",
+      restore_success: "Az elem sikeresen visszaállítva.",
 
       opening_hours:"elem elem",
       form_fields:"űrlap elem",
@@ -11018,14 +11018,14 @@ export default {
       sub_title:
         "Rendezze meg címtárát kategóriákkal és alkategóriákkal. Ez javítja a navigációt és a szűrést.",
 
-      empty_title: "elem kategóriák elem",
+      empty_title: "Még nincsenek kategóriák",
       empty_subtitle:
         "Hozzon létre kategóriákat az adatlap felépítéséhez és a böngészés javításához.",
 
       add_title: "Kategória hozzáadása",
       edit_title: "Kategória szerkesztése",
 
-      parent_filter: "szűrő elem elem",
+      parent_filter: "Szűrés szülő szerint",
       parent: "Szülő kategória",
 
       price_format: "ár elem",
@@ -11034,7 +11034,7 @@ export default {
 
       delete_title: "Kategória törlése",
       delete_message: "Biztosan törli ezt a kategóriát?",
-      delete_success: "kategória elem elem.",
+      delete_success: "A kategória sikeresen törölve.",
       form_schema: "kategória űrlap elem",
     },
 
@@ -11044,10 +11044,10 @@ export default {
 
       moderation_title: "elem",
       moderation_mode: "elem mód",
-      require_first_approved_before_more: "elem elem elem elem elem",
+      require_first_approved_before_more: "További jóváhagyás szükséges",
 
       limits_title: "Korlátok",
-      max_pending_per_user: "elem elem elem felhasználó",
+      max_pending_per_user: "Felhasználónként legfeljebb függőben van",
       max_items_per_user: "elem elemek elem felhasználó",
       limits_hint: "korlátok elem",
 
@@ -11064,7 +11064,7 @@ export default {
       sub_title:
         "Tekintse át a beküldött elemeket, és döntse el, mi történjen ezután: jóváhagyás, közzététel, elutasítás, archiválás vagy visszaállítás függő állapotba.",
 
-      empty_title: "elem elemek elem elem",
+      empty_title: "Nincsenek felülvizsgálandó tételek",
       empty_subtitle:
         "Amikor a felhasználók új elemeket küldenek be, azok itt jelennek meg moderálás céljából.",
 
@@ -11075,18 +11075,18 @@ export default {
       quick_actions: "elem elem",
 
       open_review: "elem elem",
-      reset_to_pending: "elem elem elem",
+      reset_to_pending: "Visszaállítás függőre",
       items_title: "Tételek",
 
     },
 
     moderation: {
-      approve_success: "elem elem elem.",
-      publish_success: "elem elem elem.",
-      unpublish_success: "elem elem elem.",
-      archive_success: "elem elem elem.",
-      reject_success: "elem elem elem.",
-      penalty_success: "elem elem elem.",
+      approve_success: "A tétel sikeresen jóváhagyva.",
+      publish_success: "Az elem sikeresen közzétéve.",
+      unpublish_success: "Az elem közzététele sikeresen visszavonva.",
+      archive_success: "Az elem sikeresen archiválva.",
+      reject_success: "Az elem sikeresen elutasítva.",
+      penalty_success: "Sikeresen alkalmazták a büntetést.",
 
       reject_title: "elem elem",
       reject_reason: "elem elem",
@@ -11101,7 +11101,7 @@ export default {
       upload_images: "feltöltés képek",
       url_type: "típus",
       url: "URL",
-      is_main: "elem elem fő"
+      is_main: "Beállítás főként"
     },
 
 
@@ -11115,7 +11115,7 @@ export default {
       sub_title:
         "Hozzon létre több tervezési készletet (kártya + részletek sablonok), és rendelje hozzá őket kategóriákhoz. A kategóriák különböző mintákat használhatnak.",
 
-      empty_title: "elem elem elem",
+      empty_title: "Még nincsenek tervek",
       empty_subtitle:
         "Adja hozzá az első tervezési készletet a kategóriák megjelenésének testreszabásához.",
 
@@ -11126,9 +11126,9 @@ export default {
       details_template: "részletek elem",
 
       notifications: {
-        add_success: "elem elem elem.",
-        edit_success: "elem elem elem.",
-        delete_success: "elem elem elem.",
+        add_success: "A terv sikeresen elkészült.",
+        edit_success: "Tervezés sikeresen frissítve.",
+        delete_success: "Tervezés sikeresen törölve.",
       },
 
       delete_title: "törlés elem",
@@ -11145,7 +11145,7 @@ export default {
       sub_title:
         "Kirakatjelvények létrehozása és kezelése. Jelvények rendelhetők a listaelemekhez a speciális attribútumok kiemelése érdekében.",
 
-      empty_title: "elem elem elem",
+      empty_title: "Még nincsenek jelvények",
       empty_subtitle:
         "Adja hozzá az első jelvényt a listaelemek kiemeléséhez.",
 
@@ -11153,9 +11153,9 @@ export default {
       edit_title: "szerkesztés elem",
 
       notifications: {
-        add_success: "elem elem elem.",
-        edit_success: "elem elem elem.",
-        delete_success: "elem elem elem.",
+        add_success: "A jelvény sikeresen létrehozva.",
+        edit_success: "A jelvény sikeresen frissítve.",
+        delete_success: "A jelvény sikeresen törölve.",
       },
 
       delete_title: "törlés elem",
@@ -11167,7 +11167,7 @@ export default {
       sub_title:
         "Vállalatok létrehozása és kezelése. Minden listaelem opcionálisan egy céghez kapcsolható.",
 
-      empty_title: "elem elem elem",
+      empty_title: "Még nincsenek cégek",
       empty_subtitle:
         "Adja hozzá első cégét, hogy összekapcsolja a listaelemekkel.",
 
@@ -11175,9 +11175,9 @@ export default {
       edit_title: "Cég szerkesztése",
 
       notifications: {
-        add_success: "cég elem elem.",
-        edit_success: "cég elem elem.",
-        delete_success: "cég elem elem.",
+        add_success: "A cég sikeresen létrejött.",
+        edit_success: "A cég sikeresen frissítve.",
+        delete_success: "A cég sikeresen törölve.",
       },
 
       delete_title: "törlés cég",
@@ -11204,11 +11204,11 @@ export default {
       reply: "elem",
       reply_hint: "Írjon választ a felhasználónak. Az üzenetet a műveletekből származó olvasottként/spamként is megjelölheti.",
 
-      mark_read: "elem elem olvasás",
-      mark_unread: "elem elem elem",
+      mark_read: "Megjelölés olvasottként",
+      mark_unread: "Megjelölés olvasatlanként",
       archive: "elem",
       unarchive: "elem",
-      mark_spam: "elem elem elem",
+      mark_spam: "Megjelölés spamként",
       mark_not_spam: "elem elem",
 
       delete_confirm: "törlés elem üzenet?",
@@ -11247,16 +11247,16 @@ export default {
       location_enabled_true: "A helyszűrő engedélyezve van. Az ügyfelek távolság alapján kereshetnek.",
       location_enabled_false: "A helyszűrő le van tiltva. Az eredményeket a rendszer nem szűri távolság alapján.",
 
-      radius_default: "elem elem (elem)",
+      radius_default: "Alapértelmezett sugár (km)",
       radius_default_hint: "Akkor használatos, ha az ügyfél kiválaszt egy helyet, de nem választ ki egy sugarat.",
-      radius_max: "maximum elem (elem)",
+      radius_max: "Maximális sugár (km)",
       radius_max_hint: "A kirakat sugara ehhez az értékhez lesz rögzítve.",
-      radius_options: "elem elem (elem)",
+      radius_options: "Sugár opciók (km)",
       radius_options_hint: "Ezek az értékek gyorsbeállításként jeleníthetők meg a kirakat felhasználói felületén.",
 
       filters_title: "keresés szűrő",
       filters_subtitle: "Itt kezelheti ennek a szakasznak az adatait és beállításait.",
-      no_filters: "elem szűrő elem elem.",
+      no_filters: "Még nincsenek hozzáadva szűrők.",
       auto_generate: "elem elem",
 
       filter_field: "elem elem",
@@ -11322,13 +11322,13 @@ export default {
      */
     shop_email: {
       name: [
-        "elem elem elem elem",
+        "Super Savings Weekend Blast",
         "Exkluzív bennfentes ajánlatok kerültek bemutatásra",
         "VIP hozzáférésed prémium kedvezményekhez",
         "Szezonális Kiárusítás Extravaganza",
         "Nyissa meg Vásárlási Paradicsomát",
         "A Grand Shopper karneválja",
-        "elem elem elem elem",
+        "Spring Fling Shopping Spree",
         "Őszi ajánlatok, amelyeknek nem lehet ellenállni",
         "Téli csodák: meleg ajánlatok a hideg napokra",
         "Nyár végi visszaszámlálás",
@@ -11767,15 +11767,15 @@ export default {
       name: [
         "Vásároljon ig",
         "elem elem",
-        "elem elem elem",
+        "Flash Sale Fiesta",
         "Kattintson, Vásárlás, Mentés",
         "Alku Bonanza",
         "elem elem",
-        "elem elem elem",
-        "elem elem elem",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Digitális akciós napok",
         "E-kereskedelmi karnevál",
-        "elem elem elem",
+        "Online Outlet Oasis",
         "Kiskereskedelmi Rush",
         "Webáruház Raktár eladó",
         "elem elem",
@@ -11846,25 +11846,25 @@ export default {
     lottery: {
       title: [
         "Pörgessen és nyerjen nagy nyereményeket!",
-        "elem elem elem",
-        "elem elem elem",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Pörgessen, hogy nyerjen jutalmakat",
         "A gazdagság kereke",
-        "elem elem elem",
-        "elem elem elem",
+        "Lucky Lottery Extravaganza",
+        "Mega Spin Surprise",
         "Nyeremény Wheel Fiesta",
-        "elem elem elem",
-        "elem elem elem elem",
+        "Treasure Spin Spectacular",
+        "Spin the Wheel Magic",
         "Lucky Wheel rengeteg",
         "A szerencse kegyei",
         "Csodák kereke",
-        "elem elem elem",
+        "Spin for Riches",
         "Nyeremény Spinner Delight",
         "Golden Spin lottó",
         "elem",
         "Szerencsekerék",
-        "elem elem elem",
-        "elem elem elem",
+        "Lucky Spin Showcase",
+        "Ultimate Spin Reward",
       ],
       description: [
         "Pörgesd meg a kereket, és nyerj exkluzív kedvezményeket!",
@@ -11895,25 +11895,25 @@ export default {
      */
     subscription_price: {
       title: [
-        "elem hozzáférés",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem előfizetés",
-        "elem elem",
-        "elem elem",
-        "elem ajánlat",
-        "elem elem",
+        "Alapszintű hozzáférés",
+        "Prémium tagság",
+        "Arany csomag",
+        "Ezüst terv",
+        "Platina előfizetés",
+        "Vállalati szint",
+        "Kezdőcsomag",
+        "Korlátlan ajánlat",
+        "Családi csomag",
         "Professzionális lakosztály",
       ],
       description: [
         "Ideális azok számára, akik felfedezik az alapokat.",
         "Hozzáférés az összes prémium funkcióhoz és tartalomhoz.",
-        "elem elem elem elem elem.",
+        "Exkluzív előnyök és kiemelt támogatás.",
         "Kiegyensúlyozott csomag rendszeres felhasználók számára.",
-        "elem hozzáférés elem elem elem.",
-        "elem elem elem elem elem.",
-        "elem elem elem elem.",
+        "Végső hozzáférés felső szintű jutalmakkal.",
+        "Egyedi megoldások nagy szervezetek számára.",
+        "Megfizethető belépő szintű lehetőség.",
         "Nincsenek korlátozások a használatban, a hatékony felhasználó számára.",
         "Speciális csomag családok számára, maximum 4 taggal.",
         "A fejlett eszközöket kereső szakemberek számára készült.",
@@ -11922,57 +11922,57 @@ export default {
 
     spec: {
       group: [
-        "Műszaki adatok",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem elem elem",
-        "elem elem elem elem",
-        "elem elem elem",
-        "elem elem elem",
-        "elem elem elem",
-        "elem elem",
-        "elem elem elem",
-        "elem elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem elem",
-        "elem elem",
-        "elem elem",
-        "felhasználó elem elem elem",
-        "árazás elem elem",
+        "Műszaki előírások",
+        "Fizikai méretek",
+        "Teljesítmény jellemzők",
+        "Csatlakozási lehetőségek",
+        "Teljesítménykövetelmények",
+        "Anyag- és építési minőség",
+        "Szín- és kivitelezési lehetőségek",
+        "Tárolás és memória",
+        "Operációs rendszer kompatibilitás",
+        "Biztonság és megfelelőség",
+        "A csomag tartalma",
+        "Garancia és támogatás",
+        "Márka és gyártó",
+        "Környezetbarátság",
+        "Energiahatékonyság",
+        "Gondozás és karbantartás",
+        "Testreszabási lehetőségek",
+        "Mellékelt Tartozékok",
+        "Felhasználói értékelések és vélemények",
+        "Árképzés és elérhetőség",
       ],
     },
 
     avocado: {
       title: [
-        "elem elem",
-        "elem elem",
-        "rendelés elem",
-        "fizetés elem",
-        "ügyfél elem",
-        "tranzakció elem",
-        "elem elem",
-        "elem elem",
-        "rendelés elem",
-        "elem rendelés elem",
-        "elem elem",
-        "elem elem",
-        "elem",
-        "szolgáltatás elem",
-        "termék elem",
-        "fizetés elem",
-        "Megrendelés visszaigazolása",
-        "elem elem",
-        "elem elem",
-        "ügyfél elem",
+        "Vásárlási nyugta",
+        "Eladás megerősítése",
+        "Rendelési számla",
+        "Fizetési számla",
+        "Ügyfélnyugta",
+        "Tranzakció összefoglaló",
+        "Számlázási nyilatkozat",
+        "Pénztár nyugta",
+        "Rendelési összefoglaló",
+        "Megrendelési számla",
+        "Értékesítési nyugta",
+        "Kiskereskedelmi számla",
+        "E-nyugta",
+        "Szolgáltatási számla",
+        "Termékszámla",
+        "Fizetési nyugta",
+        "Megrendelés megerősítése",
+        "Számlázási számla",
+        "Checkout Számla",
+        "Ügyfélszámla",
       ],
       message: [
-        "elem elem elem elem elem!",
-        "elem elem elem üzlet.",
+        "Köszönjük a vásárlást!",
+        "Nagyra értékeljük vállalkozását.",
         "Megrendelése úton van!",
-        "elem elem elem elem elem.",
+        "Köszönjük, hogy nálunk vásárolt.",
         "Várom, hogy újra szolgálhassam Önt.",
         "Az Ön elégedettsége a legfontosabb számunkra.",
         "Ne felejtse el értékelni tapasztalatait.",
@@ -11980,14 +11980,14 @@ export default {
         "Reméljük, hogy elnyeri tetszését új vásárlása!",
         "Mentse el a számlát későbbi használatra.",
         "További nagyszerű termékekért látogasson el hozzánk újra.",
-        "elem kapcsolódott elem elem ajánlat.",
+        "Maradjon kapcsolatban exkluzív ajánlatokért.",
         "Köszönjük, hogy értékes vásárló vagy.",
         "Azért vagyunk itt, hogy segítsünk, ha segítségre van szüksége.",
-        "elem elem elem elem elem.",
+        "Visszajelzése segít a fejlesztésben.",
         "Élvezze a különleges kedvezményt következő vásárlásakor.",
-        "elem elem elem elem elem!",
+        "Remekül választottál!",
         "Köszönjük a belénk vetett bizalmat.",
-        "elem elem elem elem elem.",
+        "Várom visszajelzését.",
         "Szívből jövő köszönet a csapatunktól.",
       ],
     },
@@ -11997,25 +11997,25 @@ export default {
      */
     map_tag: {
       title: [
-        "elem elem",
-        "eladó elem",
-        "elem kezdőlap",
-        "elem elem",
-        "Új érkezők",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
+        "Ingatlan kirakat",
+        "Vendor Plaza",
+        "Kiemelt otthonok",
+        "Helyi piac",
+        "Újdonságok",
+        "Estate Gardens",
+        "Bevásárlónegyed",
+        "Kézműves sikátor",
+        "Luxus ingatlanok",
+        "Rental Hub",
+        "Nyitott Házak",
+        "Technikai innovációk",
+        "Fashion Lane",
+        "Kézműves sarok",
+        "Élelmiszerbíróság",
+        "Könyv Kuckó",
+        "Jewelry Junction",
+        "Antik sugárút",
+        "Fitness zóna",
       ],
     },
 
@@ -12024,26 +12024,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "üzlet elem elem",
-        "adó elem elem (elem)",
-        "eladó elem űrlap",
-        "termék elem",
-        "árazás lista",
-        "elem elem részletek",
-        "elem elem cím",
-        "elem elem",
-        "cég profil",
-        "elem elem elem",
-        "elem adatok elem (elem)",
-        "termék elem információ",
+        "Cégbejegyzési bizonyítvány",
+        "Adóazonosító szám (TIN)",
+        "Szállítói szerződés nyomtatvány",
+        "Termékkatalógus",
+        "Árlista",
+        "Bankszámla adatai",
+        "Cím igazolása",
+        "Biztosítási igazolás",
+        "Vállalati profil",
+        "Minőségbiztosítási tanúsítvány",
+        "Biztonsági adatlap (SDS)",
+        "Termékszavatossági információk",
         "Visszaküldési szabályzat",
-        "szállítás elem elem elem",
-        "ügyfél szolgáltatás elem",
-        "elem elem elem elem",
-        "elem elem link",
-        "elem elem",
-        "elem kód elem elem",
-        "elem elem (elem)",
+        "Szállítási és kezelési eljárások",
+        "Ügyfélszolgálati szabályzat",
+        "Marketing és promóciós tervek",
+        "Közösségi média linkek",
+        "Kereskedelmi referenciák",
+        "Szállítói magatartási kódex",
+        "Titoktartási megállapodás (NDA)",
       ],
     },
 
@@ -12052,26 +12052,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "piactér elem szolgáltatások elem",
-        "bolt elem elem",
-        "elem szolgáltatások elem",
-        "elem elem szolgáltatás elem",
-        "elem elem elem elem",
+        "Piactér beállítási szolgáltatási szerződés",
+        "Üzlet konfigurálási szerződés",
+        "Igény szerinti nyomtatási szolgáltatási szerződés",
+        "Digitális Marketing Szolgáltatási Szerződés",
+        "E-kereskedelmi platform beállítási szerződés",
         "Szakértői tanácsadási szerződés üzlettulajdonosok számára",
-        "szolgáltatás elem elem piactér elem",
+        "Szolgáltatási szerződés a piactér konfigurációjához",
         "Üzleti beállítási és konfigurálási szolgáltatási szerződés",
-        "POD szolgáltatás elem elem",
-        "elem elem elem elem",
-        "üzlet elem szolgáltatás elem",
-        "elem üzlet elem elem",
-        "elem szolgáltatás elem elem",
-        "üzlet elem elem elem elem",
-        "elem bolt elem szolgáltatások elem",
-        "piactér elem szolgáltatás elem",
-        "elem elem elem szolgáltatások elem",
-        "POD elem szolgáltatások elem",
-        "elem elem elem szolgáltatások elem",
-        "üzlet elem szolgáltatás elem",
+        "POD szolgáltatási szerződés",
+        "Marketingstratégia végrehajtási megállapodás",
+        "Vállalkozásfejlesztési szolgáltatási szerződés",
+        "E-kereskedelmi áruház beállítási szerződés",
+        "Szakértői szolgáltatási szerződés",
+        "Üzleti megoldások és telepítési szerződés",
+        "Egyedi boltbeállítási szolgáltatási szerződés",
+        "Piactér-optimalizálási szolgáltatási szerződés",
+        "Tanácsadási és beállítási szolgáltatási szerződés",
+        "POD integrációs szolgáltatási szerződés",
+        "Marketing és promóciós szolgáltatási szerződés",
+        "Üzletbővítési szolgáltatási szerződés",
       ],
     },
 
@@ -12080,16 +12080,16 @@ export default {
      */
     account: {
       account_name: [
-        "fő pénztárca",
-        "üzlet elem",
-        "elem pénztárca",
-        "elem pénztárca",
-        "elem elem",
-        "elem pénztárca",
-        "elem elem",
-        "elem pénztárca",
-        "tranzakció pénztárca",
-        "elem elem",
+        "Fő pénztárca",
+        "Üzleti fiók",
+        "Személyes pénztárca",
+        "Takaréktárca",
+        "Költségszámla",
+        "Elsődleges pénztárca",
+        "Általános számla",
+        "Reserve Wallet",
+        "Tranzakciós pénztárca",
+        "Alapszámla",
       ],
     },
 
@@ -12098,37 +12098,37 @@ export default {
      */
     cashback: {
       title: [
-        "bolt & elem elem",
-        "elem elem elem",
-        "elem elem ajánlat",
-        "elem elem",
-        "elem elem elem",
-        "elem elem elem",
-        "elem elem elem",
-        "elem elem elem elem",
-        "elem elem",
-        "elem elem elem",
-        "elem idő elem",
-        "elem elem elem",
-        "bolt elem, mentés elem",
-        "elem elem elem",
-        "elem elem",
+        "Vásároljon és keressen készpénzt",
+        "Hűségjutalmak Cashback",
+        "Exkluzív Cashback ajánlatok",
+        "Cashback Bonanza",
+        "Azonnali Cashback ajánlatok",
+        "Szezonális pénzvisszafizetési megtakarítás",
+        "Dupla Cashback Days",
+        "Cashback minden vásárláskor",
+        "Cashback Frenzy",
+        "VIP Cashback Program",
+        "Korlátozott idejű készpénzvisszatérítés",
+        "Cashback Rewards Club",
+        "Vásároljon többet, takarítson meg többet",
+        "Végső Cashback Rewards",
+        "Cashback Extravaganza",
       ],
       description: [
-        "elem elem elem elem elem!",
-        "elem elem elem elem elem.",
+        "Keressen pénzvisszatérítést minden vásárlás után!",
+        "Jutalmat kap a hűségéért.",
         "Exkluzív cashback ajánlatok csak neked.",
         "Élvezze a nagy megtakarításokat a pénzvisszatérítési jutalmakkal.",
         "Azonnali pénzvisszatérítés minden kedvenc termékedért.",
         "Takarítson meg többet a szezonális cashback ajánlatokkal.",
         "Megduplázza pénzvisszatérítését különleges napokon!",
         "Keressen pénzvisszatérítést minden alkalommal, amikor vásárol.",
-        "elem elem elem elem elem!",
-        "elem tagok elem elem elem.",
-        "elem! elem idő elem ajánlat.",
+        "Csatlakozz a cashback őrülethez még ma!",
+        "A VIP tagok exkluzív pénzvisszatérítést élveznek.",
+        "Siet! Korlátozott idejű cashback ajánlatok.",
         "Csatlakozzon most Cashback Rewards Clubunkhoz.",
         "Minél többet vásárol, annál többet spórol.",
-        "elem elem elem elem elem.",
+        "Nyerje meg a végső pénzvisszatérítési jutalmakat.",
         "Tapasztalja meg a legjobb pénzvisszatérítési ajánlatokat.",
       ],
     },
@@ -12138,16 +12138,16 @@ export default {
      */
     page: {
       prompts: [
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {shop}",
+        "Üdvözöljük a {shop}-ben – Fedezze fel egyedi termékválasztékunkat",
+        "{shop} – A minőségi áruk és a kiváló szolgáltatás legfőbb forrása",
+        "Exkluzív ajánlatok és megtakarítások csak a {shop}-nél – Ragadja meg a lehetőséget!",
+        "Ismerje meg a {shop} elkötelezettségét a környezetbarátság és az etikus gyakorlatok iránt",
+        "Legyen a {shop} család tagja – iratkozzon fel hírlevelünkre a frissítésekért",
+        "Merüljön el a {shop} legjobb ajánlataiban és magasan értékelt áruiban",
+        "Ötletek és kreatív javaslatok a {shop} összes eseményéhez",
+        "Páratlan ajánlatok és időérzékeny akciók a {shop}-nél – Cselekedj gyorsan!",
+        "A {shop} átfogó vásárlási tippjei és termékértékelései – Vásároljon bizalommal",
+        "Forduljon a {shop}-hez – igyekszünk páratlan vásárlási élményt nyújtani",
       ],
     },
 
@@ -12158,16 +12158,16 @@ export default {
       message: [
         "Tedd teljessé megjelenésed, ragadd meg a készletet!",
         "Sokat spóroljon csomagajánlatainkkal!",
-        "elem elem elem elem elem!",
-        "elem elem elem, elem elem!",
-        "elem elem elem, elem elem!",
+        "Ne maradj le tökéletes párosításainkról!",
+        "Fokozza a vásárlást, a kiegészítők várnak!",
+        "Fedezze fel az exkluzív megtakarításokat, vásároljon együtt!",
         "elem elemek, elem kedvezmény!",
         "Szerezzen többet, költsön kevesebbet – csomagolja össze!",
         "elem ajánlat: elem termékek!",
-        "elem elem elem, elem elem!",
+        "Bővítse élményét, kombinált ajánlatok!",
         "Fedezze fel válogatott kombóinkat, mentse most!",
         "Párosítsa össze a tökéletes kombinációért!",
-        "bolt elem, elem elem mentés!",
+        "Vásároljon okosan, csomagolja össze és spóroljon!",
         "Dupla érték, dupla szórakozás!",
         "Itt a tökéletes párod – vásárolj most!",
         "Exkluzív csomagárak csak neked!",
@@ -12184,26 +12184,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "elem elem",
-        "elem",
-        "elem",
-        "elem",
-        "kezdőlap elem",
-        "elem termékek",
-        "elem elem",
+        "Digitális áruk",
+        "Könyvek",
+        "Elektronika",
+        "Divat",
+        "Háztartási gépek",
+        "Szépségápolási termékek",
+        "Sportfelszerelések",
         "Játékok és játékok",
         "Élelmiszerboltok",
         "Bútor",
         "Autóalkatrészek",
         "Ékszerek",
-        "elem & elem",
+        "Egészség és Wellness",
         "Kisállat kellékek",
-        "Irodaszerek",
-        "elem & elem",
-        "elem & elem megjelenítés",
+        "Irodai kellékek",
+        "Zene és hangszerek",
+        "Filmek és tévéműsorok",
         "Szoftver",
-        "elem & elem",
-        "elem elem",
+        "Art & Crafts",
+        "Kültéri felszerelés",
       ],
     },
 
@@ -12212,40 +12212,40 @@ export default {
      */
     template_message: {
       title: [
-        "Megrendelés visszaigazolása",
-        "rendelés elem",
-        "rendelés elem",
-        "fizetés elem",
-        "rendelés elem",
-        "rendelés elem elem",
-        "rendelés elem elem",
-        "rendelés elem elem elem",
-        "visszaküldés elem",
-        "visszatérítés elem",
-        "elem elem elem elem",
+        "Megrendelés megerősítése",
+        "Rendelés szállítva",
+        "Megrendelés kézbesítve",
+        "Fizetés érkezett",
+        "Megrendelés törölve",
+        "Megrendelés feldolgozási késedelem",
+        "Rendelés tartásban",
+        "Rendelje ki szállításra",
+        "Visszaküldés feldolgozva",
+        "Visszatérítés kiállítva",
+        "Tétel újra raktáron",
       ],
       body: [
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Szia, {buyer_name}, a #{order_id} rendelésed visszaigazolva! Feldolgozzuk, és értesítjük, ha készen áll a szállításra.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Jó hír, {buyer_name}! A #{order_id} számú megrendelését kiszállították. Fiókján keresztül nyomon követheti. Köszönjük, hogy nálunk vásárolt!",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! A(z) {order_id} számú megrendelését sikeresen kézbesítettük. Reméljük, hogy élvezni fogja a vásárlást. Köszönöm!",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! Megkaptuk a #{order_id} rendelés kifizetését. Megrendelése jelenleg feldolgozás alatt áll, és hamarosan kiszállításra kerül.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! Sajnálattal értesítjük, hogy a #{order_id} számú megrendelését töröltük. Ha bármilyen kérdése van, forduljon az ügyfélszolgálathoz.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! Késés tapasztalható a #{order_id} számú rendelésével kapcsolatban. Elnézést kérünk a kellemetlenségért, és azon dolgozunk, hogy a lehető leghamarabb megoldjuk.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! A #{order_id} számú rendelése jelenleg függőben van. Kérjük, ellenőrizze fiókját, vagy forduljon az ügyfélszolgálathoz további részletekért.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! A #{order_id} számú rendelése kiszállításra kész, és hamarosan megérkezik. Köszönjük türelmét!",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! Feldolgoztuk a #{order_id} számú megrendelésének visszaküldését. Ha bármilyen kérdése van, forduljon az ügyfélszolgálathoz.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Kedves {buyer_name}! A(z) {order_id} számú rendelés visszatérítését teljesítettük. Hamarosan látnia kell az összeget a számláján.",
 
-        "Itt kezelheti ennek a szakasznak az adatait és beállításait. {buyer_name} {order_id}",
+        "Szia, {buyer_name}! A #{order_id} számú rendeléséből származó termék újra raktáron van! Ha továbbra is érdekli, új rendelést adhat le.",
       ],
     },
 
@@ -12254,28 +12254,28 @@ export default {
      */
     property_set: {
       title: [
-        "elem",
-        "elem elem",
-        "elem",
-        "élelmiszerek",
+        "Ruha",
+        "Digitális kütyük",
+        "Italok",
+        "Élelmiszerek",
         "Bútor",
-        "elem",
-        "elem termékek",
-        "elem",
-        "elem elem",
-        "elem",
+        "Könyvek",
+        "Szépségápolási termékek",
+        "Játékok",
+        "Sportfelszerelések",
+        "Kiegészítők",
       ],
       description: [
         "Ruházati elemek attribútumai, például méret, szín és anyag.",
         "A modulok specifikációi, például márka, modell és funkciók.",
         "Ízek, méretek és italok fajtái.",
         "Részletek az ételekről, rágcsálnivalókról és élelmiszertermékekről.",
-        "elem, elem, elem elem elem.",
-        "elem, elem, elem elem elem.",
+        "Anyagok, méretek és tervezési stílusok.",
+        "Szerző, műfaj és megjelenési év.",
         "Bőrtípus, összetevők és csomagolás részletei.",
         "Korcsoport, anyag és biztonsági előírások.",
-        "típus, elem, elem elem elem.",
-        "elem, elem, elem elem részletek.",
+        "Típus, méret és teljesítmény jellemzők.",
+        "Stílusok, anyagok és márkarészletek.",
       ],
     },
 
@@ -12284,24 +12284,24 @@ export default {
      */
     boxes: {
       name: [
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem",
-        "elem elem elem",
-        "elem elem elem", // flexible mailer
-        "elem elem", // bubble/padded
-        "elem elem", // thermal
-        "elem elem",
+        "XS doboz",
+        "S doboz",
+        "M doboz",
+        "L doboz",
+        "XL. doboz",
+        "XXL-es doboz",
+        "Box Slim",
+        "Doboz széles",
+        "Box Tall",
+        "Box Flat",
+        "Box Cube",
+        "Dobozcső",
+        "Box Fragile",
+        "Dobozos üvegek",
+        "Box Soft Pack", // flexible mailer
+        "Párnázott doboz", // bubble/padded
+        "Doboz szigetelt", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

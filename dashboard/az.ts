@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "qiymətləndirmə & qiymətləndirmə model",
+    label: "Qiymətləndirmə və Qiymətləndirmə Modeli",
   },
 
   /**
@@ -9978,7 +9978,7 @@ export default {
   row_payment: {
     actions: {
       refund: {
-        title: "geri ödəniş ödəniş",
+        title: "Ödənişin geri qaytarılması",
         subtitle: "partial və ya full geri ödəniş supportəd.",
       },
       delivery: {
@@ -9992,7 +9992,7 @@ export default {
    * @see BOrderPaymentActionsRefundDialog
    */
   payment_refund_dialog: {
-    title: "geri ödəniş ödəniş",
+    title: "Ödənişin geri qaytarılması",
     message:
       "üçün səkurlik rəasons, yalnız sifarişlər paid daxilində bu son 7 days var əligbilən üçün rəfunds.",
     payment_amount: "Ödəniş məbləği",
@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Xarici keçid",
         description: "təyin et a link üçün an xarici url.",
-        tips: "siz bilərsiniz attakh ani URL üçün bu element. zaman istifadəçilər kliklə üzərində bu element üzərində bu məhsul səhifə, təi olacaq ol rədirəktəd üçün tat link.",
+        tips: "Elementə istənilən URL əlavə edə bilərsiniz. İstifadəçilər məhsul səhifəsindəki elementə kliklədikdə həmin linkə yönləndiriləcəklər.",
       },
       internal_link: {
         title: "intərnal link",

@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Dikgetho tse tsoetseng pele",
       menu_advanced_options_description:
-        "Connect Google leqephe, Tlosa ntho Lihlahisoa ntho Hape. .",
+        "Hokela leqephe la Google, Tlosa lihlahisoa tse kopitsoang le tse ling...",
 
       products_rss: {
         title: "RSS ea lihlahisoa",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API ea lihlahisoa",
-        subtitle: "Kenya Lihlahisoa ntho ntho API ntho",
+        subtitle: "Ho tlisa lihlahisoa ka mohala oa API o fumanehang ke bohle.",
       },
       google_sheet: {
         action: "e hokahane leqephe",
@@ -630,12 +630,12 @@ export default {
         false_description:
           "Sheba lihlahisoa tse hlophisitsoeng ho latela mekhahlelo le likaroloana.",
         true_title: "Mokhoa oa tafole",
-        true_description: "Sheba Lihlahisoa ntho ntho ",
+        true_description: "Sheba lihlahisoa ka mokhoa o hlakileng oa tafole.",
       },
 
       show_notes: {
         false_title: "Pata ntho",
-        false_description: "Pata ntho ntho",
+        false_description: "Pata lintlha tse se nang letho.",
         true_title: "Bontša ntho",
         true_description: "Bontša kaofela ntho, ⌘Ctrl+2",
       },
@@ -860,11 +860,11 @@ export default {
         subtitle:
           "O ka kenya ts'ebetsong lithibelo ho netefatsa hore ke bareki feela ba ka har'a libaka tse khethiloeng tsa thomello ba ka rekang ho uena!",
         no_enable_shipping_error:
-          "che ntho ntho Reka Ho tloha ntho ntho che e lumelletsoe Ho tsamaisa ka sekepe mokhoa!",
+          "Ha ho motho ea ka rekang ho uena hobane ha u na mokhoa oa ho romella o lumelletsoeng!",
         customer_must_select_a_shipping_msg:
-          "moreki ntho Khetha ntho Ho tsamaisa ka sekepe mokhoa Ho ntho Taelo",
+          "Moreki o tlameha ho khetha mokhoa oa ho romela thepa ho odara.",
         customer_can_order_without_shipping_method_msg:
-          "moreki ntho ntho ntho Taelo ntho ntho che Ho tsamaisa ka sekepe mokhoa tshehetso ntho ntho Khetha Sebaka",
+          "Moreki a ka etsa odara leha ho se mokhoa oa ho romella o tšehetsoeng sebakeng se khethiloeng.",
         inputs: {
           restriction: {
             false_description:
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "ntho Yuniti",
-        subtitle: "ntho Yuniti Se sebedisoang ntho ntho",
+        subtitle: "Sehlopha se sebedisoang bakeng sa sebaka.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Tsamaiso",
         profiles: "diprofaele",
         includes: "E kenyeletsa",
-        property_sets: "ntho ntho",
+        property_sets: "Thepa Sets",
         boxes: "liphutheloana",
       },
 
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Sehlopha",
-      category_input_msg: "ntho: ntho ntho Mabenkele ntho",
+      category_input_msg: "Ha ho letho: Motso oa lebenkele",
       product_name: "Lebitso la sehlahisoa*",
       product_name_placeholder: "Lebitso la sehlahisoa sa hau mona..",
       product_code: "Khouto ea sehlahisoa (Senyesemane)",
       sku: {
         label: "SKU",
-        message: "ntho ntho Yuniti",
+        message: "Setsi sa ho Boloka Setoko",
       },
       mpn: {
         label: "MPN",
-        message: "ntho ntho ntho",
+        message: "Nomoro ea Karolo ea Moetsi",
       },
 
       external_link: "Sehokelo sa kantle",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Ka kopo, boloka sehlahisoa pele, 'me u ka fana ka mohlala oa boleng ba boleng.",
         assign_valuation_message:
-          "ntho ntho Ho ntho Sehlahisoa",
+          "Ka kopo, fana ka mofuta oa boleng ho sehlahisoa sena.",
         edit_pricing_action: "Fetola Theko foromo",
         add_pricing_action: "Theha E ncha Theko foromo",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Tloaelo Reka ntho",
         message:
           "O ka fetola aekhone ka ho latela paterone ena : {icon name} mongolo...",
-        placeholder: "ntho ntho Ho ntho",
-        multi_language_dialog_title: "Tloaelo Reka ntho ntho",
+        placeholder: "Kenya mohala ho nka khato...",
+        multi_language_dialog_title: "Tlhaloso ea konopo ea ho reka",
       },
       external: {
         not_available_message:
           "Ketso e eketsehileng e teng ka laesense ea Khampani le ea Khoebo.",
         available_message: "O ka eketsa mohala o eketsehileng oa kantle ho nka khato.",
-        input_label: "ntho ntho Ho ntho",
+        input_label: "Pitso ea Bobeli ea Ketso",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Lipalo tse tšehelitsoeng ke UPC (Amerika Leboea, linomoro tse 12), EAN (Europe, linomoro tse 13), JAN (Japan, linomoro tse 8 kapa 13), ISBN (libuka, linomoro tse 13).",
-        label: "Lihlahisoa ntho ntho ",
-        placeholder: "ntho ntho (boikhethelo)",
+        label: "Nomoro ea Ntho ea Khoebo ea Lefatše ea Sehlahisoa",
+        placeholder: "Nomoro ea khoebo ea lefats'e mona.. (Boikhethelo)",
       },
       hsn: {
         hint: "HSN, kapa Harmonized System of Nomenclature, ke mokhoa o hlophisitsoeng oa machaba oa ho arola thepa le lihlahisoa.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Sehlahisoa ntho ntho ntho lebenkeleng",
-        message: "ntho ntho Sehlahisoa",
+        label: "Boemo ba sehlahisoa lebenkeleng la hau",
+        message: "Ka kopo, khetha boemo ba sehlahisoa sena.",
         subtitle:
           "Tsebisa bareki ba hau ka boemo le mofuta oa sehlahisoa seo u fanang ka sona.",
       },
@@ -1558,7 +1558,7 @@ export default {
           "O ka hlalosa waranti, leano la ho khutlisa, ho tsamaisa thepa, le ho tataisa le ho li abela sehlahisoa sena. E tla bontšoa e le li-tab tse ncha leqepheng la sehlahisoa.",
       },
       shortcuts: {
-        title: "ntho Sehlahisoa Ho ntho Lihlopha",
+        title: "Abela Sehlahisoa Mahlopheng a Tlatsetso",
         subtitle:
           "Karolo ena e u lumella ho thathamisa sehlahisoa ka mekhahlelo e mengata ha u ntse u boloka ho beoa ha sona karolong ea mantlha e behiloeng tlasa Sehlahisoa> Edita> Sehlopha. Ha e le hantle, e sebetsa ka mokhoa o ts'oanang ho theha 'likhaoletso' lits'ebetsong tsa ts'ebetso, e nolofalletsang sehlahisoa ho hlaha ka mekhahlelo e meng e boletsoeng.",
       },
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "ntho",
         subtitle:
-          "Eketsa Sehlahisoa Litlhaloso ntho ntho ",
+          "Eketsa lintlha tsa sehlahisoa ka bowena ka ho hlalosa lihlopha le litekanyetso tsa bohlokoa.",
         add_group_action: "Kenya Sehlopha",
         add_item_action: "Eketsa tlhaloso Boleng",
       },
@@ -1647,14 +1647,14 @@ export default {
         subtitle:
           "O ka reka kantle ho lintlha tsa tekheniki tsa lihlahisoa tse tšoanang.",
         action_title: "Kenya",
-        action_subtitle: "ntho tlhaloso Ho tloha ntho Sehlahisoa",
+        action_subtitle: "Clone spec ho tsoa sehlahisoa se seng.",
       },
       ai: {
         title: "AI",
         subtitle:
           "U ka iketsetsa litlhaloso tsa sehlahisoa ka ho fana ka lintlha tse tala tsa sehlahisoa ka mokhoa oa mongolo.",
-        action_title: "ka bo eona ntho ntho AI",
-        action_subtitle: "Theha Sehlahisoa Litlhaloso ntho ntho ntho",
+        action_title: "Hlahisa ka Motlakase ka AI",
+        action_subtitle: "Theha lintlha tsa sehlahisoa ka potlako.",
       },
 
       group_input_header: "Kenya Sehlopha",
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Litlhaloso tsa sehlahisoa li bolokiloe.",
       },
       dialog_ai: {
-        title: "ntho ntho Sehlahisoa Litlhaloso",
+        title: "Hlahisa Litlhaloso tsa Sehlahisoa ka mokhoa o itekanetseng",
         prompt: {
           title: "Sehlahisoa Kakaretso",
           subtitle:
@@ -1696,19 +1696,19 @@ export default {
         generated_spec: {
           title: "nthontho Litlhaloso",
           subtitle:
-            "ntho Litlhaloso ntho ntho ",
+            "Litlhaloso tsena li entsoe ke bohlale ba maiketsetso.",
         },
         inputs: {
           prompt: {
             label: "Sehlahisoa Lintlha",
-            placeholder: "ntho ntho Sehlahisoa ntho",
+            placeholder: "Hlalosa sehlahisoa mona...",
           },
         },
         actions: {
           run: {
             title: "ntho Litlhaloso",
             subtitle:
-              "ntho Ho ntho Theha Sehlahisoa Litlhaloso Ho tloha ntho ntho Kakaretso",
+              "Tobetsa ho iketsetsa litlhaloso tsa sehlahisoa ho tsoa ho kakaretso e fanoeng.",
           },
           add_generated_spec: "Eketsa ntho Litlhaloso",
         },
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "bokamorao Tlhaloso",
-            placeholder: "ntho ntho ntho bokamorao",
+            placeholder: "Hlalosa bokamorao bo batloang...",
           },
         },
         actions: {
           reimagine: {
             title: "ntho E ncha Setšoantšo",
-            subtitle: "Nahana bocha ntho ntho Setšoantšo ntho ntho E ncha bokamorao",
+            subtitle: "Nahana hape ka setšoantšo sohle ka semelo se secha.",
           },
           replace: {
-            subtitle: "ntho ntho ntho bokamorao",
+            subtitle: "Fetola bokamorao bo teng.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "ntho Theko ntho ntho {min}",
+    title: "Theko e Eketsehileng bakeng sa ho feta {min}",
     subtitle:
       "Sistimi e ikhethela tatellano le bohlokoa ba ho bala litheko. Ka kopo, kenya bonyane ba bongata bo hlokahalang hore litheko tsena li sebetse.",
     min_quantity: "Bonyane ba bongata",
@@ -1870,7 +1870,7 @@ export default {
         "Inventory ea lihlahisoa tse theohang e behiloe ke barekisi ba mabenkele, 'me e ke ke ea fetoloa mona.",
       marketplace:
         "Kakaretso ea lihlahisoa tsa lihlahisoa 'marakeng e khethoa ka ho eketsa lethathamo la barekisi bohle. O ka se e fetole mona.",
-      default: "ntho ntho Lihlahisoa setoko Bala ntho",
+      default: "Hlalosa palo ea thepa ea sehlahisoa mona.",
     },
     menu: {
       add_bulk: {
@@ -1878,8 +1878,8 @@ export default {
         subtitle: "Kenya mefuta e mengata ketsong e le 'ngoe.",
       },
       edit_property_set: {
-        title: "ntho ntho ntho",
-        subtitle: "Fetola Mefuta e fapaneng ntho, ntho ntho Litaelo",
+        title: "Customize Thepa Set",
+        subtitle: "Fetola mabitso a fapaneng, li-icon le litaelo.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Sehlahisoa Sehlopha Khoutu",
     hint: "E emela sehlopha sa sehlahisoa sa hau ho ea ka lekhetho la lihlahisoa tsa Google.",
-    placeholder: "ntho Sehlahisoa ntho tshebeletso Sehlopha (boikhethelo)",
+    placeholder: "Kenya sehlahisoa kapa litšebeletso.. (Ha u rata)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1913,7 +1913,7 @@ export default {
     },
     SHIPPING: {
       title: "Ho tsamaisa ka sekepe",
-      desc: "ntho Ho tsamaisa ka sekepe leano Lintlha ntho ntho Ho tsamaisa ka sekepe ntho ntho Litaelo, ntho Ho tsamaisa ka sekepe ntho, mekhoa, ntho ntho Phano Linako",
+      desc: "Leano la thomello le hlakisa lintlha tsa bohlokoa tsa thomello bakeng sa liodara tsa marang-rang, ho kenyeletsoa litšenyehelo tsa thomello, mekhoa le linako tse hakanyetsoang tsa thomello.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "ntho Tsamaiso",
     subtitle:
-      "Theha ntho, ntho, ntho ntho ",
+      "Theha lifensetere tsa pop-up tse etselitsoeng motho ka mong, tse bohlale, le tse sebetsang.",
     add_action: "Eketsa E ncha Hlahella",
   },
 
@@ -1942,7 +1942,7 @@ export default {
       dedicated: "ntho",
 
       subscription: "Re ka sebelisa lekhetho feela mohatong oa ho theha tefo.",
-      is_disabled: "ntho Lekhetho boemo ntho e thibetsoe! (⚠️ntho)",
+      is_disabled: "Boemo bona ba lekhetho bo timiloe! (⚠️Tlhokomeliso)",
       shipping: "Ho tsamaisa ka sekepe",
       fixed_rate: "TAX",
       location_based_rate: "Lekhetho: Sebaka ntho",
@@ -1988,7 +1988,7 @@ export default {
       page: "leqephe Setšoantšo",
       shipping: "Ho tsamaisa ka sekepe",
       access: "Phihlello",
-      critical_zone: "ntho ntho",
+      critical_zone: "Sebaka sa Bohlokoa",
     },
 
     profile: {
@@ -2014,7 +2014,7 @@ export default {
         "Behela morekisi leqephe la tloaelo, u ba fe sehokelo se ikhethileng leqepheng la bona le inehetseng.",
       action_set_page: "bona Phatlalatsa leqephe",
       action_sub_caption: "Tloaelo Ho theosa leqephe",
-      vendor_has_landing_msg: "morekisi ntho ntho Tloaelo Ho theosa leqephe",
+      vendor_has_landing_msg: "Morekisi o na le leqephe la tloaelo la ho fihla.",
       no_landing_selected_msg: "che Ho theosa leqephe Khetha",
       no_landing_page: "che Ho theosa leqephe",
       we_can_create_dedicated_landing_msg:
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Ikopanye ntho",
-      subtitle: "ntho ntho ntho Ikopanye Lintlha",
+      subtitle: "Ka kopo, fana ka lintlha tse nepahetseng tsa puisano.",
     },
     business: {
       title: "khoebo ntho",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Ho tsamaisa ka sekepe",
-      subtitle: "barekisi ntho lebenkeleng ntho ntho Ho tsamaisa ka sekepe Litšebeletso ntho Li-couriers",
+      subtitle: "Barekisi ba ka iketsetsa lits'ebeletso tsa bona tsa ho romella le li-courier.",
       shipping_services: "Ho tsamaisa ka sekepe Litšebeletso",
       total_number_of_services:
         "Palo eohle ea litšebeletso tsa likepe tseo morekisi a nang le tsona.",
@@ -2056,7 +2056,7 @@ export default {
       action: "Tlosa morekisi",
       verify_description:
         "Kea tseba hore likamano tsohle tsa lihlahisoa tsa barekisi li tla tlosoa!",
-      verify_title: "ntho ntho Ho Hlakola ntho morekisi",
+      verify_title: "Ke batla ho hlakola morekisi enoa.",
     },
 
     send_invitation_tips:
@@ -2068,22 +2068,22 @@ export default {
       "Lengolo-tsoibila le kentsoeng ha le tsamaisane le lengolo-tsoibila la mosebelisi (<b>{user_name}:</b>{user_email}). Na u tiile u romela mangolo-tsoibila ho<b>{email}</b>?",
 
     order_information_email_to_email:
-      "ntho ntho Romela Litaelo tlhahisoleseding Ho <b>{email}</b>.",
+      "Re tla romella lintlha tsa litaelo ho <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Beha mosebelisi bakeng sa morekisi pele.",
 
     inputs: {
       slug: {
         label: "ntho",
-        placeholder: "ntho ntho Tloaelo ntho",
+        placeholder: "Kenya tsela e ikhethileng...",
         hint: "Fetola tsela leqephe la ho lisa la morekisi.",
       },
       email: {
-        message: "ntho imeile ntho Amohela kaofela Litsebiso ntho Ntlafatsa",
+        message: "Lengolo-tsoibila lena le tla fumana litemoso le lintlafatso tsohle.",
       },
       business: {
-        false_description: "ntho ntho ",
-        true_description: "ntho ntho khoebo ntho",
+        false_description: "Ke sebetsa ke le motho.",
+        true_description: "Ke sebetsa joalo ka khoebo e ngolisitsoeng ka molao.",
         false_title: "ntho",
         true_title: "khoebo",
       },
@@ -2096,8 +2096,8 @@ export default {
         placeholder: "ntho Lebitso",
       },
       account_number: {
-        hint: "ntho barekisi ntho Akhaonto ntho",
-        placeholder: "ntho Banka Akhaonto ntho",
+        hint: "Nomoro e ikhethang ea ak'haonte ea morekisi.",
+        placeholder: "Nomoro ea hau ea banka..",
       },
       routing_number: {
         hint: "Palo ena e fapana ho ea ka linaha. E sebelisetsoa ho khetholla lekala le itseng la banka leo morekisi a le sebelisang.",
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Nomoro ea Akhaonto ea Banka ea Machabeng): Haeba banka ea morekisi e le Europe kapa linaheng tse ling.",
-        placeholder: "ntho IBAN ntho ntho DE89 3704 0044 0000 0000 00",
+        placeholder: "Nomoro ea hau ea IBAN.. mohlala. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Nomoro ea Akhaonto ea Banka ea Machabeng): Haeba banka ea morekisi e le Europe kapa linaheng tse ling.",
-        placeholder: "ntho ntho ntho",
+        placeholder: "Khoutu ea hau ea Swift/BIC..",
       },
       branch_address: {
         hint: "Aterese ea lekala la banka moo morekisi a nang le ak'haonte ea hae.",
@@ -2126,7 +2126,7 @@ export default {
         true_description:
           "Morekisi o na le phanele e inehetseng ho ntlafatsa bongata le theko.",
         hint: "O ka nolofalletsa kapa oa tima phanele ea barekisi, e lumellang barekisi ho ntlafatsa bongata ba sehlahisoa le litheko le ho fumana litaelo tse sa fellang.",
-        false_description: "ntho morekisi ntho che Phihlello Ho ntho",
+        false_description: "Morekisi ha a na mokhoa oa ho fumana letho.",
       },
 
       logo: {
@@ -2164,21 +2164,21 @@ export default {
   product_badges: {
     title: "libeche",
     subtitle: "Eketsa ntho Fetola Tloaelo Sehlahisoa libeche",
-    only_marketplace_owner_msg: "ntho Mmaraka ntho",
+    only_marketplace_owner_msg: "Ke beng ba 'maraka feela",
     create_new_badge_action: "Theha E ncha beche",
     select_a_badge: "Khetha ntho beche",
     inputs: {
       custom: {
-        false_description: "Lihlahisoa libeche ntho ntho ntho",
+        false_description: "Libeche tsa lihlahisoa li iketsetsa.",
         false_title: "ka bo eona",
         true_title: "Tloaelo Lihlahisoa libeche",
-        true_description: "Eketsa Tloaelo libeche ntho ntho Sehlahisoa leqephe",
+        true_description: "Kenya libeche tse ikhethileng leqepheng la sehlahisoa.",
       },
     },
     add_custom_badge: {
       title: "Tloaelo beche",
       subtitle:
-        "Eketsa ntho E ncha Tloaelo beche Ho ntho Reka ntho libeche Bala ntho 10. Hape. . libeche ntho ntho Reka",
+        "Kenya beche e ncha ea tloaelo lebenkeleng la ka. Boloka libeche li le ka tlase ho 10. Libeche tse ling li ka fokotsa lebelo la lebenkele la hau.",
       show_advanced_options: "Bontša E tsoetseng pele ntho",
 
       inputs: {
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "Setšoantšo",
-          message: "ntho Setšoantšo ntho: 128KB",
-          placeholder: "Khetha ntho ntho Setšoantšo",
+          message: "Boholo ba setšoantšo: 128KB",
+          placeholder: "Khetha setšoantšo sa sekoahelo",
         },
         pattern: {
           label: "ntho",
@@ -2199,9 +2199,9 @@ export default {
       },
       notifications: {
         badge_added: "Beche e kentsoe ka katleho!",
-        badge_updated: "ntho beche ntho ntho !",
+        badge_updated: "Beche e ntlafalitsoe ka katleho!",
         item_not_found_error:
-          "ntho ntho leqephe ntho Ikopanye Tšehetso",
+          "Ntho ha e fumanehe. Ka kopo qala leqephe bocha kapa ikopanye le ts'ehetso.",
       },
     },
   },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "ntho Li-tag ntho ntho ",
+      tags_updated: "Li-tag li ntlafalitsoe ka katleho.",
     },
   },
 
@@ -2231,7 +2231,7 @@ export default {
   vendor_shipping_services: {
     title: "Ho tsamaisa ka sekepe Litšebeletso",
     subtitle:
-      "ntho Mmaraka Litlhahiso Ho tsamaisa ka sekepe mekhoa Ho thuso barekisi ntho ntho Litaelo ntho ntho Eketsa Ho tsamaisa ka sekepe Litšebeletso ntho Ho ntho Taelo Ho tsamaisa ka sekepe ntho Ho tloha ntho Taelo leqephe ntho ntho Liaterese ntho ntho khoutu ntho ntho Ho tsamaisa ka sekepe ntho",
+      "Mmaraka o fana ka mekhoa ea ho tsamaisa thepa ho thusa barekisi ho phethahatsa litaelo tsa bona. U ka kenya litšebeletso tsa thomello mona ho odara lileibole tsa thomello habonolo leqepheng la hau la odara. Sena se nolofatsa ts'ebetso ka ho hokahanya liaterese le likhoutu tsa ho lata le mofani oa thepa.",
 
     subtitle_pickup:
       "'Maraka o thusa barekisi ho palama, o lumella bareki ho khetha ho lata sebakeng sa hau joalo ka khetho ea thomello. U ka eketsa sebaka sa hau sa ho lata profaele ea hau (sebaka sa hau sa polokelo se tla sebelisoa e le sebaka sa kamehla sa ho lata).",
@@ -2267,7 +2267,7 @@ export default {
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "ntho ntho",
+    header: "Lipuo tse ngata",
     auto_action: "ka bo eona ntho",
     premium_user_only: "ntho Basebedisi",
   },
@@ -2279,14 +2279,14 @@ export default {
     dialog: {
       header: "Sehlahisoa sephutheloana Lintho",
       title: "ntho Lintho",
-      subtitle: "ntho ntho Lintho ntho Sehlahisoa",
+      subtitle: "Ena ke pokello ea lintho tse tlang le sehlahisoa.",
       action_manage: "Laola Lintho",
       action_disable_msg: "Mmaraka Mong'a",
       select_items_tips:
         "Theha kapa khetha likarolo tsa liphutheloana tse tlang le sehlahisoa kapa tšebeletso. Sebelisa tšobotsi ena ho totobatsa seo bareki ba ka lebellang ho se fumana ha ba reka ntho eo. Re eletsa ho sebelisa ts'ebetso ena hafeela ho le bohlokoa hore moreki a utloisise litaba tse kenyellelitsoeng, joalo ka ha o reka smartphone.",
       create_item_tips:
         "Ntle le moo, o ka kenyelletsa ntho e ncha. Sebelisa litšoantšo tse lisekoere, kaha re tla fetola boholo ba litšoantšo tse kentsoeng hore e be sebopeho sa lisekoere tse 256x256. Ho netefatsa ponahalo e ntle ho litempele tsohle, sebelisa litšoantšo tse nyane tse nang le ponahalo e hlakileng le ho boloka sebopeho se ts'oanang sa lihlahisoa tsa hau kaofela.",
-      create_new_item_action: "Theha E ncha ntho ntho",
+      create_new_item_action: "Theha ntho e ncha e kenyellelitsoeng",
     },
   },
 
@@ -2370,7 +2370,7 @@ export default {
         title: "Tekanyetso ea Sehlahisoa",
         title_small: "Tlaleho ea Khotsofalo ea Bareki",
         total_participation: "Kakaretso ea palo ea liphallelo",
-        total_participation_tooltip: "Kakaretso Bala ntho ntho Sehlahisoa",
+        total_participation_tooltip: "Palo eohle ea likhahla tsa sehlahisoa.",
         today_participation: "Lintlha tsa kajeno",
         last7days_participation: "Lithuso tsa matsatsi a 7 a fetileng",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Palo ea menehelo",
           score: "Laduma",
         },
-        users_not_rated_msg: "Basebedisi ntho ntho Sehlahisoa ntho",
+        users_not_rated_msg: "Basebelisi ha ba so fane ka lintlha tsa sehlahisoa sena.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,16 +2442,16 @@ export default {
 
         config: {
           title: "Sehlahisoa ntho lebenkeleng",
-          subtitle: "Laola SKU, MPN, ntho ntho ntho Mefuta e fapaneng",
+          subtitle: "Laola SKU, MPN, le ho fumaneha ha mefuta e fapaneng.",
         },
         variables: {
-          title: "ntho ntho",
+          title: "Likhetho tse fapaneng",
           subtitle:
             "Kenya khouto ya mmala wa hex, mohlala, <b>#654FFF</b>, kapa mebala e mmedi e arohantsweng ka slash, mohlala, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "O ka fana ka boleng bofe kapa bofe ho tse fapa-fapaneng, ho kenyelletsa le litšoantšo o sebelisa <b>Matlotlo a Litšoantšo</b>. Kenya paterone 'me u sebelise khoutu e hlahisitsoeng bakeng sa mofuta o fapaneng.",
-          graphical_asset_action: "ntho ntho",
-          graphical_asset_action_caption: "Litšoantšo ntho ntho ntho",
+          graphical_asset_action: "Matlotlo a Graphic",
+          graphical_asset_action_caption: "Litšoantšo tsa likhetho tse fapaneng.",
         },
         smart_unit_price: {
           tips: "Bala theko ea yuniti ho latela <b> boima</b>, <b>volume</b>, le <b>pakete ea boholo</b>. Ho tima tšobotsi ena, ea ho Lebenkele > Litlhophiso > Sehlooho > Leqephe la Sehlahisoa > Theko ea Smart Unit.",
@@ -2459,18 +2459,18 @@ export default {
         },
         quantity: {
           title: "setoko",
-          subtitle: "ntho ntho ",
+          subtitle: "Beha maemo a stock bakeng sa mofuta o mong le o mong.",
         },
         price: {
           title: "Theko",
           subtitle:
-            "ntho ntho Tloaelo theko ntho ntho Ea kamehla Sehlahisoa theko",
+            "Beha theko e ikhethileng bakeng sa mofuta o fapaneng kapa sebelisa theko ea kamehla ea sehlahisoa.",
         },
         package: {
           title: "ntho & Ho tsamaisa ka sekepe",
           subtitle:
             "Hlalosa boima le litekanyo bakeng sa mefuta e fapaneng ho khetholla likhetho tsa thomello.",
-          same_as_product_action: "ntho ntho Sehlahisoa",
+          same_as_product_action: "E tšoanang le sehlahisoa",
         },
         image: {
           title: "ntho Litšoantšo",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "ntho ntho Yuniti (SKU)",
+            message: "Setsi sa ho Boloka Setoko (SKU)",
           },
           mpn: {
-            message: "ntho ntho ntho (MPN)",
+            message: "Nomoro ea Karolo ea Moetsi (MPN)",
           },
           gtin: {
-            label: "ntho ntho (GTIN)",
+            label: "Nomoro ea Ntho ea Khoebo ea Lefatše (GTIN)",
             message:
               "Libopeho tse tšehetsoeng: UPC (li-digits tse 12), EAN (li-digits tse 13), JAN (8 kapa 13 ea linomoro), ISBN (li-digits tse 13).",
           },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "Ho tsamaisa ka sekepe Litšebeletso E fumaneha ntho ntho Boima ba 'mele",
+      "Litšebeletso tsa thomello tse fumanehang li itšetlehile ka boholo bo fanoeng le boima ba 'mele.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,12 +2531,12 @@ export default {
     lead_time_dimension: "Lihora",
     bulk_action: "Liketso tse ngata",
     bulk_action_subtitle:
-      "ntho ntho tlhahisoleseding Ho kaofela Sehlahisoa Mefuta e fapaneng",
+      "U ka sebelisa lintlha tsa ho paka ho mefuta eohle ea lihlahisoa.",
 
     bulk_action_input: "Ntlafatsa mefuta eohle",
     bulk_action_msg:
       "Beha sephutheloana sa sehlahisoa le nako ea ho itokisetsa bakeng sa mefuta eohle.",
-    dynamic_lead_time: "ntho ntho Nako",
+    dynamic_lead_time: "Nako ea ho etella pele e matla",
     instant_delivery: "ntho Phano",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "ntho Setšoantšo ntho ntho",
-      placeholder: "ntho ntho ",
-      success_update_notification: "ntho ntho ",
+      title: "Seta Mongolo oa Alt oa setšoantšo",
+      placeholder: "Kenya mongolo o mong o hlalosang...",
+      success_update_notification: "Mongolo o mong o ntlafalitsoe ka katleho.",
     },
     dialog_bg_remove: {
       title: "Tlosa bokamorao ntho",
@@ -2562,14 +2562,14 @@ export default {
         title: "Tlosa bokamorao",
         subtitle: "Theha ntho bonaletsang bokamorao",
       },
-      success_remove_bg_notification: "bokamorao ntho ntho!",
+      success_remove_bg_notification: "Semelo se tlositsoe ka katleho!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "ntho ntho ntho",
+    title: "Matlotlo a fapaneng a Graphical",
     tips: {
       how_it_works:
         "<b>Kamoo e Sebetsang Kateng:</b><br />Kenya litšoantšo kapa lintho mona. Ho sebelisa litšoantšo tsena e le khetho e 'ngoe, kenyelletsa <b>{filename}</b> ho boleng bo fapaneng. Hlokomela hore khoutu ena e ka se sebelisoe ho boleng ba <b><s>'mala</s></b>.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "ntho ditheko",
     min_quantity: "ntho Bongata",
-    range_is_out_of_stock: "ntho ntho !",
+    range_is_out_of_stock: "Range e felile!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "ntho ntho !",
-    set_color_warning: "ntho Khetha ntho Mmala",
-    set_volume_warning: "ntho ntho ntho bophahamo ba modumo",
-    set_pack_warning: "ntho ntho ",
-    set_weight_warning: "ntho ntho ntho Boima ba 'mele",
-    set_type_warning: "ntho Khetha ntho Mofuta",
-    set_style_warning: "ntho Khetha ntho Setaele",
-    out_of_stock: "ntho ntho ",
+    duplicated_variant: "Mofuta ona o se o ntse o le teng!",
+    set_color_warning: "Ka kopo, khetha 'mala.",
+    set_volume_warning: "Ka kopo hlalosa molumo.",
+    set_pack_warning: "Ka kopo, bolela boholo ba pakete.",
+    set_weight_warning: "Ka kopo hlalosa boima ba 'mele.",
+    set_type_warning: "Ka kopo, khetha mofuta.",
+    set_style_warning: "Ka kopo, khetha mokhoa.",
+    out_of_stock: "Ha joale e felile",
 
     image: {
       tooltip: "⚡ Hula 'me u lihele setšoantšo mona ho se abela mofuta o fapaneng.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Ntho ena ha e fumanehe lebenkeleng la Marang-rang.",
     },
     restore_dialog: {
-      title: "ntho ntho",
+      title: "Khutlisa Phapang",
       message: "Na ehlile u batla ho khutlisa mofuta ona o tlositsoeng?",
-      action: "ee, ntho ntho",
+      action: "E, Khutlisa Hona Joale",
     },
     notifications: {
-      restore_variant_success: "ntho Sehlahisoa ntho ntho ",
+      restore_variant_success: "Mofuta oa sehlahisoa o khutliselitsoe ka katleho.",
     },
   },
 
@@ -2673,8 +2673,8 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "lebenkeleng setoko",
-    subtitle: "Lenane ntho kaofela Lihlahisoa ntho lebenkeleng",
-    cant_set_here: "ntho ntho ntho",
+    subtitle: "Lenane la lihlahisoa tsohle tse lebenkeleng.",
+    cant_set_here: "Ha e khone ho lula mona",
 
     search_input: "Patlisiso ea Sehlahisoa...",
     search_input_title: "Batla har'a lihlahisoa tsa lebenkele",
@@ -2718,7 +2718,7 @@ export default {
     title: "ntho Liketso > theko",
     message:
       "Chelete e latelang e tla sebetsa e le peresente ho theko ea lihlahisoa tsohle tse lebenkeleng la hau. Hape, litekanyetso tsa theko tse baloang li tla fetoloa ka bohlale ho nomoro e potolohileng e haufi-ufi ho latela chelete e khethiloeng.Ela hloko ha u kenya litekanyetso.",
-    check: "ntho ntho theko ntho",
+    check: "Ke amohela liphetoho tsa litheko.",
     check_description:
       "Theko e tla fetoloa bakeng sa sehlopha se khethiloeng le likaroloana tsohle.",
     add_percent_tab: "Eketsa Peresente",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Boloka ka ho iketsa",
-    auto_save_input_message: "ntho ntho ",
+    auto_save_input_message: "Liphetoho li tla bolokoa ka bo eona.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Tefo mekhoa",
     sub_title:
-      "Lenane ntho E sebetsa Tefo mekhoa ntho ntho ntho Ho Eketsa ntho E ncha mokhoa Ho ntho Reka, ntho ntho 10 Eketsa Tefo Liheke",
+      "Lethathamo la mekhoa ea ho lefa e sebetsang. Haeba u batla ho kenya mokhoa o mocha lebenkeleng la hau, tobetsa konopo e latelang. Re khothalelitse haholo ho se fete 10 e kenyellelitsoeng liheke tsa tefo.",
     add_gateway: "E ncha Tefo mokhoa",
 
     add_gateway_dialog: {
       title: "Khetha Chelete",
-      country_currencies: "ntho ntho",
+      country_currencies: "Lichelete tsa lehae",
       crypto_currencies: "ntho",
 
       confirm: "Kenya mokhoa oa ho lefa",
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "ntho bona ntho ntho Tefo mokhoa?",
+        title: "Ha u bone mokhoa oo u o ratang oa ho lefa?",
         subtitle:
           "Haeba mofani oa litefo oa lehae a sa thathamisoa, ingolise ho moralo ofe kapa ofe oa selemo (ho kenyeletsoa le Startup bakeng sa ho khoneha) 'me u kope kopanyo. Re tla e qeta nakong ea lihora tse 48 haeba ho fanoe ka akhaonto ea teko le litokomane.",
       },
@@ -2986,7 +2986,7 @@ export default {
     setting: {
       menu: {
         config: "Lokisa",
-        timespan: "Nako ea nako",
+        timespan: "Nako Nako",
         banner: "ntho",
         Notification: "Tsebiso",
       },
@@ -3088,11 +3088,11 @@ export default {
         "U ka ntlafatsa ponahalo ea leqephe la sehlopha sa hau ka ho koahela leqephe le ikhethileng. Mokhoa o motle ka ho fetisisa ke oa ho theha maqephe a nang le semelo se pepeneneng le ho rala likarolo tse 1 ho isa ho tse 2 tse ikhethileng sehlopheng ka seng. Joale u ka hokahanya leqephe le le leng ho mekhahlelo e mengata, u sebelisa litaba tse matla ho hlophisa sehlopha ka seng ka bonngoe.",
     },
     critical_zone: {
-      title: "ntho ntho",
+      title: "Sebaka sa Bohlokoa",
       subtitle:
         "Haeba u tlosa sehlopha, likaroloana tsa sona le lihlahisoa li tla isoa bukeng ea batsoali<b>📁 {parent}</b>. Ho laola mekhahlelo e seng lenaneng la lihlahisoa, e ea ho Lebenkele > tab ea Lihlopha.",
       accept_delete: {
-        true_description: "ntho ntho Ho Tlosa ntho Sehlopha",
+        true_description: "Ke batla ho tlosa sehlopha sena.",
         true_title: "ntho Tlosa Sehlopha",
       },
     },
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Khetha lebaka la ho hana taelo ena lethathamong le ka tlase. Etsa bonnete ba hore o tsebisa moreki ka ts'ebetso ea ho hlakola le ho khutlisa chelete. Lichelete li tlameha ho etsoa nakong ea lihora tse 12.",
       confirm_now_action: "Hlakola Taelo ntho",
-      confirm_in48h_action: "Hlakola Taelo ntho 48 ntho",
+      confirm_in48h_action: "Hlakola odara ka mor'a lihora tse 48",
 
       dismiss_reject_action: "Tlosa ho hlakolwa ha odara",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "ntho | Hlakola Taelo ntho",
-        false_title: "ntho | Hlakola Taelo ntho 48 ntho",
+        true_title: "Express | Hlakola Odara Hang-hang",
+        false_title: "E tloaelehileng | Hlakola odara ka mor'a lihora tse 48",
         true_description:
           "Khetho ena e tla hlakola odara ea hau hanghang 'me e ntlafatse thepa hang-hang.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Taelo e khutliselitsoe ts'ebetsong e tloaelehileng.",
       set_tracking_success: "ID ea Track Track e bolokiloe ka katleho.",
       shipping_address_update_success:
-        "Ho tsamaisa ka sekepe aterese ntho ntho ",
+        "Aterese ea thomello e ntlafalitsoe ka katleho.",
       vendor_order_status_update_success:
-        "morekisi ntho Boemo ntho ntho ",
+        "Boemo ba ho phethahala ha morekisi bo ntlafalitsoe ka katleho.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Tefo e ntseng e emetse",
       processing_payment: "E sebetsa ho lefa",
       processing_cancel: "Tefo e hlakotsoe",
-      require_capture: "ntho ntho",
+      require_capture: "E hloka ho tšoaroa",
       paid: "E lefelletsoe",
       cod_pay_info:
         "Ha o fumane taelo ho tsoa ho moreki o ka netefatsa tefo mme o tlatse odara.",
@@ -3519,7 +3519,7 @@ export default {
         "Moreki oa hau o hapa 1x ea sehlahisoa sena. Romella limpho ka odara ena.",
 
       need_to_refund: {
-        title: "pusetso ntho Ho ntho moreki",
+        title: "Puseletso e hlokahalang ho moreki",
         message:
           "Re bala palo yohle ya dipuseletso tseo o hlokang ho di etsa ka letsoho. E baloa ho ipapisitsoe le lintho tse sieo le lipalo tse khutliselitsoeng.",
         calculated_approximately:
@@ -3544,12 +3544,12 @@ export default {
       title: "Tokisetso",
       packing_weight: "Boima ba ho Paka",
       delivery_type: "Mokhoa oa ho romella",
-      packing_size: "ntho ntho",
+      packing_size: "Packaging Dimensions",
       distance_warning: "E feta moeli o lumelletsoeng oa sebaka.",
       weight_warning: "Feta boima bo lumelletsoeng.",
       volume_warning: "E feta boholo bo lumelletsoeng ba sephutheloana.",
       items_weight_calculation:
-        "ntho Boima ba 'mele ntho kaofela Lintho ntho {weight} {unit}",
+        "Boima bo kopantsoeng ba lintho tsohle ke {weight} {unit}",
       not_available_message:
         "Ha e fumanehe ha o holofetse o kopa aterese ea thomello mme mosebelisi ha a tlatsa aterese kamora ho reka!",
 
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "ntho",
-    subtitle: "Kakaretso ntho Tefo kgoro ya tefo ntho ntho Boemo",
+    subtitle: "Kakaretso ea tlhophiso ea heke ea tefo le boemo.",
     status: "Boemo",
     cod_transportation: "tshehetso Ho tsamaisa ka sekepe",
     cod_transportations_error:
-      "Thusa ntho ntho Phano Tefo ntho ntho Ho tsamaisa ka sekepe mokhoa!",
+      "Lumella chelete ho lefa tefo bakeng sa bonyane mokhoa o le mong oa ho romella!",
     payment_type: "Tefo Mofuta",
     cod: "Chelete Ka ho Tsamaisa",
     online: "ntho Tefo",
@@ -3695,8 +3695,8 @@ export default {
       title: "ntho Liketso",
       subtitle:
         "Ka ho nka mehato ena, o tla qala ho fumana litefo tsa nnete ho tsoa ho bareki ba hau.",
-      action_enable: "ntho Ho Thusa ntho",
-      make_live_enable: "ntho Ho Phela ntho",
+      action_enable: "Tobetsa ho e nolofalletsa",
+      make_live_enable: "Tobetsa ho e phela",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} e hlophisitsoe.",
-      success_delete: "Tefo mokhoa ntho ntho E hlakotsoe!",
+      success_delete: "Mokhoa oa ho lefa o hlakotsoe!",
     },
     debug: {
       title: "Hlahisa & ntho",
@@ -3732,28 +3732,28 @@ export default {
 
     limit: {
       title: "Taelo Moeli",
-      subtitle: "ntho ntho bonyane Taelo Chelete ntho ntho Tefo kgoro ya tefo",
+      subtitle: "Beha palo e tlase ea odara bakeng sa tsela ena ea ho lefa.",
     },
     limit_input: {
       title: "bonyane Taelo Chelete",
-      msg: "ntho ntho che Moeli",
+      msg: "Zero e bolela hore ha ho na moeli.",
     },
     currency_input: {
-      message: "ntho Chelete ntho ntho Tefo kgoro ya tefo tshehetso",
+      message: "Chelete eo heke ena ea tefo e e tšehetsang.",
     },
     gateway_code: "kgoro ya tefo Khoutu",
 
-    hold_only_for: "ntho Tefo ntho E fumaneha ntho",
+    hold_only_for: "Tšoara tefo e fumaneha feela bakeng sa",
     manual_input: {
       false_description:
         "Boemo ba tefo bo tla fetoloa ka bo eona ho tloha ha ho ntse ho emetse ho netefatsoa ho sistimi ea mofani oa tefo.",
       false_title: "ka bo eona Tefo ntho",
-      true_title: "ntho Litefo ntho ka letsoho ntho",
+      true_title: "Tšoara litefo le netefatso ka letsoho",
       true_description:
         "Tšoara tefo kahoo o hloka ho netefatsa litefo bakeng sa taelo ea ho fetola boemo ba tsona ho tloha ho tse emetseng ho ea ho tse tiisitsoeng tsamaisong ea mofani oa tefo.",
     },
     delete_verify_input: {
-      true_title: "ntho ntho Ho Tlosa ntho Tefo mokhoa",
+      true_title: "Ke batla ho tlosa mokhoa ona oa ho lefa.",
       true_description:
         "Mokhoa ona oa ho lefa o tla tlosoa lebenkeleng 'me o ke ke oa fumaneha ho bareki.",
     },
@@ -4007,7 +4007,7 @@ export default {
       "Tefo ea {amount} {currency} ea chelete ea bili e netefalitsoe.",
     "payment-dir-confirm": "Ho netefalitsoe rasiti ea tefo e tobileng.",
 
-    vendor: "morekisi Taelo ntho ntho Ho tloha <b>{from}</b> Ho <b>{to}</b>.",
+    vendor: "Boemo ba odara ea barekisi bo fetohile ho tloha ho <b>{from}</b> ho ya ho <b>{to}</b>.",
 
     "connect-sync": "Odara e hokahantsoe ke Connect OS.",
     "connect-shipped": "Odara e hokahantsweng e rometswe ka {shipping}.",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "barekisi Sepache transaction",
 
     "vendor-sms":
-      "🔔 Taelo ntho SMS ntho ntho E rometsoe Ho <b>{vendor}</b> ╏ {phone}.",
+      "🔔 SMS ya tsebiso ya odara e rometswe ho <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "U na le lihlahisoa ka metso empa ha u na sefe.",
       has_root_filter_message: "U beha li-filters bakeng sa sehlopha sa metso.",
-      set_filter_message: "ntho ntho ntho Lisefe",
+      set_filter_message: "U ka seta li-filters.",
       edit_action: "Fetola ntho Lisefe",
-      clear_action: "ntho ntho Lisefe",
+      clear_action: "Hlakola Lisefa tsa Metso",
     },
     ai: {
       title: "AI Sehlahisoa ntho",
@@ -4081,31 +4081,31 @@ export default {
     menu: {
       select_all_products: "Khetha kaofela Lihlahisoa",
       unselect: "ntho",
-      sort_categories: "ntho / ntho Lihlopha",
+      sort_categories: "Hlophisa/ Hlopha Dihlopha",
       subscription_vendor_not_support_message:
         "Ha e khone ho abela morekisi bakeng sa lihlahisoa tsa peeletso! Lihlahisoa tsa peeletso li tlameha ho lula li na le morekisi e le mong'a tsona!",
       vendor_owner_not_assignable_message:
         "Ha e khone ho abela morekisi bakeng sa lihlahisoa tse nang le morekisi e le mong'a tsona!",
-      category_assign_profile: "ntho boemo Ho Lihlahisoa ntho ntho Sehlopha",
+      category_assign_profile: "Abela profaele ho lihlahisoa tse sehlopheng",
       category_assign_profile_subtitle: "Lekhetho, Ho tsamaisa ka sekepe, tataiso, tiisetso,. ..",
       bulk_discount: "ntho Theolelo",
-      bulk_discount_subtitle: "ntho Theolelo ntho kaofela Lihlahisoa",
+      bulk_discount_subtitle: "Kenya litheolelo lihlahisoa tsohle.",
     },
 
     engine: {
-      title: "ntho Lihlahisoa ntho",
+      title: "Enjene ea Lihlahisoa tse Eketsehileng",
       subtitle:
-        "Hape. . Lihlahisoa ntho ntho ntho Ho tloha Khetha Lihlopha ntho Li-tag",
-      load_in_tips: "ntho Lihlahisoa Ho tloha Lihlopha ntho ntho {category}.",
+        "Lihlahisoa tse ling li tla laeloa ho tsoa mefuteng le li-tag tse khethiloeng.",
+      load_in_tips: "Laola lihlahisoa ho tsoa mekhahlelong ea {category}.",
       action: "Fetola {category} ntho",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "ntho ntho / CSV faele ntho",
+      title: "Lahlela faele ea Excel / CSV mona.",
       select_file: "Khetha faele",
-      max_file: "boholo faele ntho: 20ntho",
+      max_file: "Boholo ba boholo ba faele: 20mb",
       download_sample: "Khoasolla ntho",
     },
     ai: {
@@ -4115,7 +4115,7 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "ntho ntho",
+    has_panel: "E na le phanele",
     no_panel: "che ntho",
     manual_action: {
       title: "ka letsoho Liketso",
@@ -4123,16 +4123,16 @@ export default {
       guides: [
         "Barekisi ba nang le phihlello ea phanele ba ka ntlafatsa phethahatso ea bona (li-odara tse nyane) ho dashboard ea bona e inehetseng.",
         "Haeba morekisi a se na phihlello ea phanele, boemo ba taelo ea barekisi bo tla fetoloa ka bohona ka ho fetola boemo ba baskete.",
-        "ntho ntho Nchafatso morekisi Litaelo ntho",
+        "U ka ntlafatsa litaelo tsa barekisi ka letsoho.",
       ],
     },
     payouts: {
       title: "ntho",
-      message: "Laola ntho morekisi ntho ntho Litšebelisano",
+      message: "Laola ditefo tsa barekisi le ditransekshene.",
 
       charge_tooltip: "Tefiso morekisi Sepache",
       withdraw_tooltip: "ntho Ho tloha morekisi Sepache",
-      payout_tooltip: "ntho Ho ntho morekisi",
+      payout_tooltip: "Tefo ho morekisi.",
     },
     order_canceled: "Taelo ntho",
     order_rejected: "Taelo Hanoa ntho morekisi",
@@ -4160,8 +4160,8 @@ export default {
     },
 
     open_marketplace_page: "ntho Mmaraka leqephe",
-    open_my_store_page: "ntho ntho lebenkeleng leqephe",
-    open_my_listing_page: "ntho ntho Ho thathamisa leqephe",
+    open_my_store_page: "Bula leqephe la lebenkele laka",
+    open_my_listing_page: "Bula leqephe la ka la lethathamo",
     add_products_permission: "Eketsa Lihlahisoa ntho",
     add_categories_permission: "Eketsa Lihlopha ntho",
   },
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Aterese ea imeile",
-        placeholder: "ntho ntho ditho imeile aterese",
+        placeholder: "Kenya aterese ea lengolo-tsoibila la setho...",
       },
     },
     notifications: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "ntho ntho E tiisitsoe ntho Tefo?",
+          label: "Na u tiisitse tefo ee?",
           false_description:
             "Che, ha ke so fumane tefo ena akhaonteng eaka ea banka.",
           true_description: "E, ke fumane le ho netefatsa tefo ena.",
@@ -4266,8 +4266,8 @@ export default {
       "<b>Bohlokoa! </b>Ho etsa ketso ena ho tla hlahisa khoebo e mpe sepacheng sa morekisi le ho tlosa chelete e khethiloeng ho eona. Chelete e ke ke ea feta kakaretso e setseng ea transaction bakeng sa odara e khethiloeng. Ho feta moo, haeba lichelete li fetiselitsoe liakhaontong tsa banka tse hokahaneng (joalo ka Stripe Connect kapa ho fetisetsoa ka letsoho ka letsoho), u lokela ho etsa <b>ho khutlisetsoa morao</b>.",
     inputs: {
       note: {
-        message: "ntho ntho Ho ntho morekisi",
-        placeholder: "ntho ntho Hlokomela ntho",
+        message: "E bonahala ho morekisi.",
+        placeholder: "O ka hokela molaetsa mona...",
       },
       amount: {
         error_message: "Chelete e setseng e fetisitsoe.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Karolong ena, o ka sheba kemiso ea nako ea liketsahalo tse amanang le tatellano, phethahatso, tefo, le maemo a tsona a fapaneng. Ho feta moo, o ka boloka litaelo tse rometsoeng ho bareki le barekisi.",
-    add_note_subtitle: "ngola ntho Molaetsa ntho ntho ",
+    add_note_subtitle: "Ngola molaetsa 'me u bue ka basebetsi-'moho le uena.",
 
     message_input: "Ngola molaetsa mona...",
     pin_action: "Penya holimo",
@@ -4513,7 +4513,7 @@ export default {
     tel: "Nomoro ea lekolulo",
     address: "aterese",
     payment: "Lichelete tse sebetsang",
-    personal_information: "Boitsebiso ba Boitsebiso",
+    personal_information: "Boitsebiso ba boitsebiso",
     main_profile: "Boemo bo ka sehloohong",
     main_profile_subtitle:
       "Litaba tsena li fumaneha ho bohle.",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Eketsa Reka",
-      description: "Eketsa ntho E ncha Reka Ho ntho ntho",
+      description: "Kenya lebenkele le lecha tsamaisong.",
     },
     "backoffice:shop:delete": {
       name: "Hlakola Reka",
-      description: "Hlakola ntho Reka Ho tloha ntho ntho",
+      description: "Hlakola lebenkele ho tsoa ho sistimi.",
     },
     "backoffice:giftcard:write": {
       name: "Mpho Karete Tsamaiso",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "ntho Phihlello",
-      description: "bala ntho Lintlha ntho Lipalo-palo",
+      description: "Bala lintlha le lipalo-palo tsa ribone.",
     },
     "backoffice:ai:write": {
       name: "AI Tsamaiso",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Phihlello",
-      description: "bala AI ntho ntho Lipalo-palo",
+      description: "Bala meralo le lipalo-palo tsa AI.",
     },
     "backoffice:vendor-payment:write": {
       name: "morekisi Tefo Tsamaiso",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Hlokomela Phihlello",
-      description: "bala ntho ntho ntho Lintlha",
+      description: "Bala lintlha le lintlha tse amanang le tsona.",
     },
     "backoffice:note:write": {
       name: "Hlokomela Tsamaiso",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "ntho Tsamaiso",
-      description: "Laola ntho ntho",
+      description: "Laola likhetho tsa khatiso.",
     },
     "backoffice:print:read": {
       name: "ntho Phihlello",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "ntho Phihlello",
-      description: "bala ntho Lintlha ntho Lipalo-palo",
+      description: "Bala lintlha tsa tokene le lipalo-palo.",
     },
     "selldone:token:write": {
       name: "ntho Tsamaiso",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "ntho Phihlello",
-      description: "bala ntho Lintlha ntho Lipalo-palo",
+      description: "Bala lintlha tsa ho etsa chelete le lipalo-palo.",
     },
     "selldone:monetization:write": {
       name: "ntho Tsamaiso",
-      description: "Laola ntho, ntho ntho ntho",
+      description: "Laola ho etsa chelete, ho kenyeletsoa le mananeo a phetisetso.",
     },
     "selldone:identification": {
       name: "ntho Phihlello",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "ntho Phihlello",
-      description: "bala ntho Lintlha ntho Lipalo-palo",
+      description: "Bala lintlha tsa mofani oa thepa le lipalo-palo.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "ntho Phihlello",
-      description: "bala ntho Lintlha ntho Lipalo-palo",
+      description: "Bala lintlha le lipalo-palo tsa setsi.",
     },
     "agency:write": {
       name: "ntho Tsamaiso",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "ntho",
-      description: "Phihlello Ho ntho ntho lebenkeleng Tsamaiso ntho",
+      description: "Ho fihlella ho backoffice le likarolo tsa taolo ea lebenkele.",
     },
     storefront: {
       title: "ntho",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Phihlello Selldone Litšebeletso ntho ntho",
+      description: "Fumana litšebeletso le likarolo tsa Selldone.",
     },
     others: {
       title: "ntho",
-      description: "ntho Likarolo ntho ntho ",
+      description: "Likarolo tse fapaneng ha li hlalosoe tsamaisong.",
     },
     vendor: {
       title: "morekisi",
-      description: "Phihlello morekisi tlhahisoleseding ntho Tsamaiso ntho",
+      description: "Fumana lintlha tsa barekisi le likarolo tsa taolo.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "ntho",
-      description: "Phihlello ntho tlhahisoleseding ntho Tsamaiso",
+      description: "Fumana lintlha le taolo ea setsi.",
     },
   },
 
@@ -5562,26 +5562,26 @@ export default {
       my_public_profile_subtitle: "ntho Phatlalatsa boemo {name}.",
 
       personal_information: "Lintlha tsa Botho le Profile",
-      personal_information_subtitle: "Fetola ntho boemo, aterese ntho KYC.",
+      personal_information_subtitle: "Fetola boemo ba ka, aterese le KYC.",
       wallet: "Li-wallet le liakhaonto",
-      wallet_subtitle: "ntho Litlaleho ntho E hokahane Tefo Likarete",
+      wallet_subtitle: "Liakhaonto tsa sebele le likarete tsa ho lefa tse hokahaneng.",
 
       companies: "Lik'hamphani le Liak'haonte tsa Khoebo",
-      companies_subtitle: "Ngodisa ntho khoebo ntho Lekhetho diprofaele",
+      companies_subtitle: "Ngolisa khoebo ea ka le boemo ba lekhetho.",
 
       access: "Ho fihlella Akhaonto ea Ka",
       access_subtitle:
-        "OAntho Bareki, Motho ka mong Phihlello ntho ntho E hokahane Lisebelisoa",
+        "Basebelisi ba OAuth, li-tokens tsa phihlello ea hau le lisebelisoa tse hokahaneng.",
 
       security: "Tshireletso",
       security_subtitle: "Beha lintlha tse peli 'me u laole likhetho tsa ho kena sechabeng.",
 
       preferences: "Likhetho tsa Basebelisi",
       preferences_subtitle:
-        "Fetola Sehlooho, ntho, ntho ntho Ea kamehla Chelete",
+        "Fetola sehlooho, boemo, puo le chelete ea kamehla.",
       my_subscriptions: "Lipehelo tsa ka",
       my_subscriptions_subtitle:
-        "Phihlello Ho ntho AI ntho ntho ntho",
+        "Ho fihlella ho premium AI le likarolo tsa hau.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "ntho ntho Sepache",
+        title: "Khetha Wallet",
         subtitle:
           "Khetha sepache seo u ka se sebelisang ho ngolisa. Haeba ha u e-so be le eona, u ka e etsa karolong ea sepache. Sepache sena se tla sebelisoa bakeng sa litefiso life kapa life.",
       },
@@ -5742,7 +5742,7 @@ export default {
           "Ngoliso ea hau e tla inchafatsa ka bo eona haeba sepache sa hau se na le tekanyo e lekaneng kapa haeba u na le voucher e nepahetseng.",
       },
       options: {
-        title: "ntho ntho",
+        title: "Likhetho tse Eketsehileng",
       },
       verify: {
         title: "ntho",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Kenya lihlahisoa tse tsoang ho POD kapa barekisi ba theohang ka Selldone Connect OS-hokela lebenkele la hau feela 'me u natefeloe ke kopanyo ea sehlahisoa, ha ho li-plugins tse hlokahalang.",
     },
-    your_license_is_not_eligible: "ntho Laesense ntho ntho ntho",
+    your_license_is_not_eligible: "Laesense ea hau ha e lokelehe.",
     sku_dialog: {
       title: "Eketsa Sehlahisoa ntho SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Hokela e 'ngoe ea libaka tsa hau ho molekane enoa ea amanang. Baeti ba rekang sebakeng sena ba tla amahanngoa le setho sena.",
 
-      domain_not_approved_msg: "ntho Sebaka ntho ntho !",
-      domain_is_not_enable_msg: "ntho Sebaka ntho ntho e lumelletsoe!",
+      domain_not_approved_msg: "Sebaka ha se so amoheloe!",
+      domain_is_not_enable_msg: "Sebaka ha sea lumelloa!",
       domain_is_linked_to_other_affiliate_msg:
         "Sebaka sena se se se hokahantsoe le setho se seng!",
     },
 
-    set_users_first_message: "ntho ntho ntho Mosebedisi ntho!",
+    set_users_first_message: "Ka kopo, beha mosebelisi pele!",
 
     cluster: {
       title: "ntho",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "E ncha molekane Eketsa ntho",
-      update_success: "molekane ntho ntho",
+      update_success: "Selekane se ntlafalitsoe ka katleho.",
     },
 
     inputs: {
@@ -5945,18 +5945,18 @@ export default {
       commission: {
         label: "Komisi ntho",
         false_description:
-          "ntho ntho khomishene",
+          "Bala ka ho sebelisa motsoako oa li-commissions tse tsitsitseng le tsa peresente.",
         true_description:
           "Bala ka ho sebelisa lihlahisoa tse ikhethileng tse behiloeng ho thebo ea litheko.",
-        false_title: "ntho + ntho Komisi",
+        false_title: "Khomishene e tsitsitseng + Peresente",
         true_title: "ntho Komisi",
       },
       user: {
         label: "Mosebedisi (boikhethelo)",
-        message: "boikhethelo, ntho, molekane Lebitso ntho Selldone",
+        message: "Taba ea boikhethelo, mohlala, lebitso la setho ho Selldone",
       },
       web: {
-        placeholder: "boikhethelo, ntho, ntho",
+        placeholder: "Taba ea boikhethelo, mohlala, affiliate-web.com",
       },
       address: {
         placeholder: "boikhethelo, ntho, 1200 POX, NY, USA",
@@ -5965,7 +5965,7 @@ export default {
         placeholder: "boikhethelo, ntho, 001-808-210354",
       },
       bank: {
-        placeholder: "boikhethelo, ntho, ntho Banka, che: 10002-325-800-845213",
+        placeholder: "Ka boikhethelo, mohlala, Arstra Bank, Nomoro: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Khetha ntho Sebaka (boikhethelo)",
@@ -5980,7 +5980,7 @@ export default {
           "Na setsi sena se sebetsa hona joale? Haeba e sa sebetse, lenaneo la bona la kopanelo le ke ke la sebetsa ho liodara tse entsoeng ka sehokelo sa bona.",
       },
       products: {
-        label: "Lihlahisoa ntho ntho Komisi",
+        label: "Lihlahisoa tse Loketseng Komisi",
         select_product: "Khetha Lihlahisoa",
       },
     },
@@ -6014,7 +6014,7 @@ export default {
       action: "E, Hlakola Joale",
     },
     notifications: {
-      delete_success: "ntho ntho E hlakotsoe",
+      delete_success: "Theko ea boleng e hlakotsoe ka katleho.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Theko & ntho ntho",
+    label: "Theko & Valuation Model",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Theha mokhoa oa ho etsa litekanyetso ho theha litheko tse feto-fetohang u sebelisa liforomo le litafole tsa litšupiso bakeng sa lihlahisoa tsa hau. Qala ka ho fa boleng bona lebitso le ikhethileng.",
     },
     valuation_preview: "Sheba esale pele ntho foromo",
-    load_sample: "ntho ntho",
+    load_sample: "Lata Mohlala",
     conditions: {
       title: "Maemo",
       subtitle:
@@ -6045,7 +6045,7 @@ export default {
     structure: {
       title: "ntho",
       subtitle:
-        "Moralo ntho Theko Kenyeletso foromo ntho ntho ",
+        "Rala foromo ea hau ea ho kenya litheko mona ka ho kopanya liforomo le litafole tsa litšupiso.",
       expand_action: "ntho",
       collapse_action: "ntho",
     },
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Karolong ena, o khona ho beha palo e kholo ea tšebeliso ea setlankane ka 'ngoe le litheolelo tse phahameng ka ho fetisisa setlankaneng ka seng se ka fanang ka tsona.",
-      zero_message: "ntho: ntho ntho che Moeli!",
+      zero_message: "zero: ha ho na moeli!",
     },
     duration: {
       subtitle:
@@ -6335,8 +6335,8 @@ export default {
       subtitle:
         "Mona, o na le bokhoni ba ho theha liparamente tse ling tsa motho ka mong bakeng sa setlankane.",
       no_limit: "che ntho Moedi",
-      has_limit: "ntho ntho",
-      has_code_message: "Mosebedisi ntho ntho ntho Khoutu Ho Eketsa Setlankane",
+      has_limit: "Litšitiso tse ling",
+      has_code_message: "Mosebelisi o lokela ho kenya khoutu ho kenya setlankane.",
     },
     club: {
       subtitle:
@@ -6347,7 +6347,7 @@ export default {
         "Ka ho hokahanya setlankane sena le sehlopha, u ka se laola habonolo hammoho le lisebelisoa tse ling sebakeng se le seng.",
     },
     preview: {
-      subtitle: "ntho ntho Phatlalatsa Sheba esale pele ntho ntho Setlankane",
+      subtitle: "Mona ke pono ea sechaba ea setlankane.",
     },
   },
 
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Matlafatsa theko ea bareki ka boiphihlelo bo ntlafalitsoeng lebenkeleng la hau. Theha meputso le menyetla ea ho hapa molemong oa bareki ba fumanang li-tokens ka ho reka. Papali e 'ngoe le e' ngoe ea papali e bitsa li-tokens tse 10, 'me u ka fana ka meputso e khethehileng bakeng sa bareki ba pele. Papali ea kamehla ke Wheel of Fortune, empa u ka e etsa hore e lumellane le sebopeho sa lebenkele la hau.",
     },
-    empty_prize_list: "Theha ntho Laola ntho ntho",
+    empty_prize_list: "Theha le ho laola meputso mona...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6906,7 +6906,7 @@ export default {
 
   /** {@see PosDeviceTypes**/
   pos_devices: {
-    Scanner: "ntho ntho",
+    Scanner: "Barcode Scanner",
     Scanner_desc:
       "Ho sebelisa sekena sa barcode, o tlameha ho kenya khoutu ea SKU ea sehlahisoa ka nepo litlhophisong tsa sehlahisoa.",
     Printer: "Mohatisi",
@@ -6917,7 +6917,7 @@ export default {
       "Leqephe lena le u thusa ho hlahisa lintlha tsa odara ho bareki ba hau.",
     CardReader: "Sebali sa Karete",
     CardReader_desc: "Sesebelisoa sa ho bala likarete bakeng sa tefo ea COD ke bareki ba hau.",
-    ChipReader: "ntho ntho",
+    ChipReader: "Chip Reader",
     ChipReader_desc: "Sebali sa li-tag sa NFC ho kenya lintho kariking u sebelisa li-tag.",
   },
   /** {@see BPagePosDevices**/
@@ -7041,10 +7041,10 @@ export default {
     vendor: {
       title: "Kenya barekisi",
       subtitle:
-        "Kenya faele morekisi CSV difaele ntho ntho Ho Lekunutu ntho",
+        "Kenya lifaele tsa CSV tsa barekisi mona. Netefatsa hore sebopeho se nepahetse 'me se latela melaoana ea lekunutu.",
       checklist: {
-        title: "ntho ntho",
-        subtitle: "ntho ntho Ho ntho ntho ntho",
+        title: "Lethathamo la Bohlokoa",
+        subtitle: "Etsa bonnete ba hore u latela litataiso.",
         sample_files: "ntho difaele",
         valid_vendor_name_needed:
           "U tlameha ho fana ka <b>lebitso le nepahetseng</b>. <b>lebitso</b> le sebelisoa ho etsa qeto ea hore na <i>Theha</i> morekisi e mocha kapa <i>Nchafatsa</i> ea teng.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "ntho barekisi ntho",
+    open_vendors_panel: "Bula Panel ea Barekisi",
     title: "morekisi ntho Lenane",
     subtitle:
       "Lena ke lethathamo la likopo tse tsoang ho batho ba entseng kopo ea ho ba barekisi 'marakeng oa hau.",
@@ -7091,7 +7091,7 @@ export default {
         "Ho thibela 'maraka ho tla tima mesebetsi e meng. Haeba u batla ho koala 'maraka oa hau kaofela, u lokela ho tima lebenkele la hau ho li-setting.",
     },
     distribution_model: {
-      title: "ntho ntho",
+      title: "Mohlala oa Kabo",
       subtitle:
         "Limmaraka li ka sebetsa tlas'a mefuta e fapaneng ea kabo. Hore na o rata barekisi ho romella thepa ka kotloloho ho bareki kapa ho kopanya liodara sebakeng sa hau sa polokelo bakeng sa ho romelloa, o ka khetha mofuta o lumellanang hantle le litlhoko tsa hau mona.",
     },
@@ -7113,7 +7113,7 @@ export default {
       title: "ntho",
       subtitle:
         "U ka kopa barekisi ba hau ho kenya litokomane kapa ho saena likonteraka tse itseng. Hlalosa litokomane tse hlokahalang mona.",
-      add_document_action: "Eketsa ntho ntho",
+      add_document_action: "Kenya Kopo ea Tokomane",
     },
     inputs: {
       enable: {
@@ -7132,31 +7132,31 @@ export default {
       },
       need_verify: {
         label: "Sehlahisoa ntho Phallang",
-        false_description: "E ncha morekisi Lihlahisoa ntho Phela ntho",
-        false_title: "che ntho ntho",
+        false_description: "Lihlahisoa tse ncha tsa barekisi li qala ho sebetsa hang-hang.",
+        false_title: "Ha ho Tlhokeho Netefatso",
         true_description:
-          "barekisi E ncha Lihlahisoa ntho ntho Phela ntho ntho Mmaraka",
-        true_title: "ntho ntho",
+          "Lihlahisoa tse ncha tsa barekisi li hloka tumello pele li qala 'marakeng.",
+        true_title: "Netefatso e Hlokahala",
       },
       category: {
         label: "Kenya sehlopha se secha",
         true_title: "barekisi ntho Eketsa Lihlopha",
         false_description:
-          "ntho Eketsa Lihlopha barekisi ntho ntho Eketsa Lihlahisoa Ho ntho Lihlopha",
+          "U eketsa lihlopha. Barekisi ba ka eketsa lihlahisoa ho lihlopha tse teng feela.",
         true_description:
           "Barekisi ba ka eketsa le ho laola mekhahlelo ka kotloloho ho phanele ea bona ea barekisi.",
       },
       shipping: {
         label: "Ho tsamaisa ka sekepe ntho",
-        true_title: "barekisi ntho Ho tsamaisa ka sekepe ntho",
+        true_title: "Barekisi ba na le Likhetho tsa ho Romela",
         false_description:
-          "barekisi ntho Eketsa ntho ntho ntho Ho tsamaisa ka sekepe mekhoa",
+          "Barekisi ha ba khone ho eketsa kapa ho etsa mekhoa ea bona ea ho romella.",
         true_description:
           "Barekisi ba ka iketsetsa mekhoa ea bona ea ho tsamaisa thepa, ba eketsa li-courier, 'me ba iketsetse thepa bakeng sa litlhoko tsa bona.",
       },
       hidden_customer: {
         label: "Bontša ntho Ikopanye tlhahisoleseding",
-        true_description: "ntho Ikopanye Lintlha ntho ntho Ho tloha barekisi",
+        true_description: "Lintlha tsa ho ikopanya le moreki li patetsoe barekisi.",
         false_description:
           "Lintlha tsa ho ikopanya le moreki, joalo ka mohala le lengolo-tsoibila, li bonahala ho barekisi.",
       },
@@ -7171,10 +7171,10 @@ export default {
 
       listing: {
         label: "Ho thathamisa ntho barekisi",
-        true_description: "Ho thathamisa ntho e lumelletsoe ntho barekisi barekisi ntho Laola Ho thathamisa Lintho ntho Lik'hamphani",
-        false_description: "Ho thathamisa ntho e thibetsoe ntho barekisi ntho ntho Reka Mong'a ntho Laola Ho thathamisa Lintho ntho Lik'hamphani",
+        true_description: "Lethathamo le lumelletsoe barekisi. Barekisi ba ka tsamaisa lintho le lik'hamphani tsa lethathamo.",
+        false_description: "Lethathamo le emisitsoe ho barekisi. Ke mong'a lebenkele feela ea ka laolang lethathamo la lintho le lik'hamphani.",
         requires_listing_active_text:
-          "Ho ntho barekisi ntho Ho thathamisa (Lintho + Lik'hamphani), ntho Thusa ntho Reka Ho thathamisa ntho ntho kanale → Ho thathamisa ntho ntho Morao ntho Ho ntho morekisi Phihlello",
+          "Ho lumella barekisi ho sebelisa Listing (lintho + lik'hamphani), qala ka ho nolofalletsa karolo ea Lethathamo la mabenkele ho Channel → Lenane. Ebe u khutlela mona ho lumella morekisi ho kena.",
         requires_listing_active_button: "ntho kanale Ho thathamisa Litlhophiso",
       },
 
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "morekisi Litlhophiso ntho ntho",
+      update_success: "Litlhophiso tsa barekisi li ntlafalitsoe ka katleho.",
     },
     add_document_dialog: {
-      title: "ntho ntho",
+      title: "Litlhoko tsa Tokomane",
       type: {
         title: "ntho Mofuta",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Sehlooho",
-          placeholder: "ntho ntho Sehlooho ntho ntho ",
+          placeholder: "Kenya sehlooho bakeng sa kopo ea tokomane.",
         },
         guide: {
           label: "tataiso (boikhethelo)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Kenya Khoutu",
-          placeholder: "ntho ntho Kenya Khoutu ntho",
-          message: "ntho ntho HTML Khoutu",
+          placeholder: "Beha khoutu e kentsoeng mona...",
+          message: "E ka kenyelletsa khoutu ea HTML.",
         },
         url: {
           label: "URL",
-          message: "ntho ntho URL ntho ntho ",
+          message: "Kenya URL ea tokomane kapa konteraka mona...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "ntho Ho tsamaisa ka sekepe Ho tloha morekisi",
       description:
-        "ntho ntho mokhoa, barekisi ntho Litaelo ntho Ho Bareki ntho Ho tsamaisa ka sekepe aterese ntho morekisi Litaelo ntho ntho aterese",
+        "Ka mokhoa ona, barekisi ba romella liodara ka kotloloho ho bareki. Aterese ea thomello bakeng sa liodara tsa barekisi e tla ba aterese ea moreki.",
     },
   },
   /**
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Mong'a ntho ntho",
+      title: "Tokomane ea Boitsebiso ba Mong'a",
       description:
         "Kenya ID e fanoeng ke 'muso ho netefatsa boitsebiso ba mong'a khoebo kapa molaoli ea ka sehloohong.",
     },
@@ -7264,14 +7264,14 @@ export default {
         "Kenya tokomane ho netefatsa aterese ea khoebo ea hau, joalo ka tefiso ea lisebelisoa, invoice ea lekhetho, kapa tumellano ea khiriso.",
     },
     Contract: {
-      title: "ntho & ntho",
+      title: "Likonteraka & Litumellano",
       description:
         "Kenya likonteraka kapa litumellano tse qaqisang lipehelo le lipehelo tsa likamano tsa hau tsa khoebo.",
     },
     Copyright: {
-      title: "ntho ntho",
+      title: "Litokomane tsa Copyright",
       description:
-        "ntho ntho Ho ntho ntho ",
+        "Fana ka litokomane tsa ngoliso ea litokelo ho tiisa litokelo tsa hau tsa thepa ea mahlale.",
     },
     Privacy: {
       title: "Lekunutu leano ntho",
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "morekisi Banka",
     order_fee: "Taelo Tefo",
     order_refund: "Taelo pusetso",
-    reverse_fund: "ntho ntho",
+    reverse_fund: "Phetoho ea Chelete",
     payout: "ntho",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "ntho Histori",
     subtitle:
       "Karolo ena e thusa uena le barekisi ba hau ho boloka tlaleho e qaqileng ea litšebelisano tsohle. Litefiso li ka sebetsoa ka letsoho ka phetisetso ea banka kapa mekhoa e meng, kapa tsa laoloa ka bo eona ke bafani ba litefo ba tšehetsang litefo tse arohaneng, joalo ka Stripe.",
-    top_up_vendor_action: "ntho ntho morekisi Akhaonto",
+    top_up_vendor_action: "Phahamisa Akhaonto ea Morekisi",
   },
 
   /**
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "ntho, ntho Lihlahisoa ntho",
+        placeholder: "mohlala, Sehlopha sa Lihlahisoa tsa Dijithale...",
       },
       description: {
         placeholder: "O ka kenya molaetsa mona...",
       },
       accept_delete: {
         true_description: "Ke batla ho hlakola mofuta ona oa litheko.",
-        true_title: "ntho Theko ntho ntho",
+        true_title: "Netefatsa Tloso ea Mohlala oa Theko",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Ha o hokela lits'ebeletso tsa ho lefa joalo ka Stripe Connect, re fumana le ho bonts'a chelete e setseng ho akhaonto ea hau ea Stripe bakeng sa litšupiso.",
     with_balance: "ntho Ho leka-lekanya",
-    without_balance: "ntho Ho leka-lekanya - ntho mokhoa",
+    without_balance: "Ntle le ho leka-lekanya - Mokhoa o potlakileng",
     bank_transfer: {
       title: "Banka Phetisetso",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "O ka kenya molaetsa mona ... Lengolo lena ha le bonahale ho morekisi.",
       },
       accept_refund: {
-        true_description: "ntho ntho Ho Hlakola ntho Tefo",
+        true_description: "Ke batla ho hlakola tefo ena.",
         true_title: "Hlakola & pusetso Tefo",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "ntho ntho",
+        title: "Chelete e Felisitsoe",
         message:
           "Phetoho ea letlole la morekisi e phethiloe ka katleho, ka chelete e fetisitsoeng ho tloha bankeng ho ea sepacheng 'me ea eketsoa ho sepache.",
       },
       payout_success: {
         title: "ntho",
         message:
-          "ntho barekisi ntho ntho Eketsa",
+          "Tefo ea morekisi e sebelitsoe ka katleho le ho eketsoa.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "ntho",
     max_batch_msg: "Boholo ba palo ea lintho tseo u ka li rekang ka beche e le 'ngoe.",
     max_daily_limit_msg: "Boholo ba palo ea lintho tseo u ka li rekang ka letsatsi.",
-    extra_daily_limit_msg: "ntho Lintho ntho Moeli",
+    extra_daily_limit_msg: "Lintho tse ling li lumelletsoe ho feta moeli oa letsatsi le letsatsi.",
     add_items_today_msg: "Lintho Eketsa Kajeno",
-    file_statistic_msg: "Lipalo-palo ntho ntho faele",
+    file_statistic_msg: "Lipalopalo tsa faele ena.",
     used_quota: "Se sebedisoang ntho",
   },
 
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "ntho",
       static: {
-        false_title: "ntho ntho",
+        false_title: "Ka Lipopae",
         false_description:
           "Likarolo le lihlahisoa li na le lipopae tse sebetsang ho bontša tšebetso.",
         true_title: "E tsitsitseng",
-        true_description: "Lihlopha ntho Lihlahisoa ntho che ntho",
+        true_description: "Lihlopha le lihlahisoa ha li na lipopae.",
       },
     },
 
@@ -7522,15 +7522,15 @@ export default {
           "Mokhoa o bonolo le o fokolang ntle le liketso tse ling ho likarete tsa sehlahisoa.",
         true_description:
           "Bontša ho reka ka potlako le ho Eketsa ho bapisa likonopo tsa karete ea sehlahisoa.",
-        true_title: "Bontša ntho ntho ntho",
+        true_title: "Bontša Ketso ho Hover",
       },
     },
     filter_products: {
       title: "Sefe Lihlahisoa",
       only_available: {
-        false_description: "Bontša kaofela Lihlahisoa ntho ntho Reka Lenane ntho Ea kamehla",
+        false_description: "Hlahisa lihlahisoa tsohle lethathamong la mabenkele e le tsa kamehla.",
         true_description:
-          "Bontša ntho E fumaneha Lihlahisoa ntho ntho Reka Lenane ntho Ea kamehla",
+          "Hlahisa lihlahisoa tse fumanehang feela lethathamong la mabenkele e le tsa kamehla.",
         true_title: "E fumaneha Lihlahisoa",
         false_title: "kaofela Lihlahisoa",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "Sefe Lihlopha",
       hide_empty_folders: {
-        false_description: "Bontša kaofela Lihlopha ntho ntho Reka Lenane",
+        false_description: "Hlahisa mekhahlelo eohle lethathamong la mabenkele.",
         false_title: "Bontša kaofela Lihlopha",
         true_title: "Pata ntho Lihlopha",
         true_description:
-          "Bontša ntho Lihlopha ntho Lihlahisoa ntho ntho Reka Lenane",
+          "Hlahisa lihlopha feela tse nang le lihlahisoa lethathamong la mabenkele.",
       },
     },
 
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "sehlooho Webosaete ntho",
-      subtitle: "ntho ntho Ho tloha Google ntho",
+      subtitle: "Khetha fonte eo u e ratang haholo ho tsoa ho Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "ntho ntho",
-        message: "ntho ntho ntho Boleng",
+        label: "Lelapa la Fonte",
+        message: "Kenya boleng ba lelapa la fonte.",
       },
       font_res: {
-        label: "ntho ntho",
-        message: "ntho ntho ",
+        label: "Mohloli oa Fonte",
+        message: "Hlalosa mohlodi wa fonte.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Hlooho Sehlooho",
-        set_empty: "ntho ntho Sehlooho",
+        set_empty: "Beha sehlooho se se nang letho",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Fetola ntho ntho",
-    add_title: "Eketsa ntho ntho",
+    edit_title: "Fetola Thepa Set",
+    add_title: "Kenya Property Set",
     config: {
       subtitle:
         "Beha sehlooho le tlhaloso bakeng sa sete ea thepa ea hau. E tla bonahala ho basebetsi feela.",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Kenya sehlooho sa sete ea thepa...",
       },
       description: {
-        placeholder: "ntho ntho ntho Tlhaloso (boikhethelo)",
+        placeholder: "Kenya tlhaloso e khutšoane... (ho ikhethela)",
       },
       custom_variants: {
         true_title: "Tloaelo Mefuta e fapaneng",
         false_title: "Ea kamehla Mefuta e fapaneng",
-        true_description: "ntho ntho Sehlahisoa Mefuta e fapaneng",
-        false_description: "ntho Ea kamehla ntho Mefuta e fapaneng",
+        true_description: "Iketsetse mefuta e fapaneng ea sehlahisoa sa hau.",
+        false_description: "Sebelisa mefuta e fapaneng ea lefatše ka bophara.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "ntho ntho ntho (boikhethelo)",
+        placeholder: "Beha litekanyetso tse behiloeng... (ka boikhethelo)",
         messages:
-          "ntho ntho Taelo",
+          "U ka fana ka litlhahiso bakeng sa boleng le ho hlophisa tatellano ea hau.",
       },
     },
   },
@@ -7833,14 +7833,14 @@ export default {
       "Ho kenya moreki lebenkeleng la hau, ka kopo fana ka aterese ea lengolo-tsoibila kapa nomoro ea mohala.",
     more: {
       title: "Kenya lintlha tse ling",
-      subtitle: "ntho Chelete, moreki Sehlopha, Likarolo, aterese ntho Hape. .",
+      subtitle: "Beha chelete, sehlopha sa bareki, likarolo, aterese le tse ling.",
     },
     detail: {
       subtitle:
         "Boloka rekoto ea lintlha tsa hau mabapi le moreki oa hau. Ka kopo hlompha boinotši ba moreki oa hau.",
     },
     preferences: {
-      subtitle: "ntho Ea kamehla Mosebedisi Chelete, moreki Sehlopha, ntho Likarolo ntho",
+      subtitle: "Beha chelete ea mosebelisi ea kamehla, sehlopha sa bareki, le likarolo mona.",
     },
     address: {
       subtitle:
@@ -7913,7 +7913,7 @@ export default {
     disconnect: "Hakolla",
 
     dialog: {
-      title: "ntho ntho",
+      title: "Bot Configuration",
       message:
         "Moralo oa tsebiso o felletseng oa ho aha boiphihlelo ba khoebo ea ecommerce.",
       action: "Tlanya mona!",
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Tobetsa konopo e latelang haeba u batla ho romella sephutheloana sena <b>ka tšebeletso ea delibari</b> .",
     courier_action: "Phano ntho",
-    courier_action_subtitle: "ntho ntho ",
+    courier_action_subtitle: "Moemeli oa ka o tla nka sephutheloana.",
 
-    pickup_ready_action: "ntho ntho",
+    pickup_ready_action: "Pickup Loketse",
     pickup_ready_action_subtitle: "Odara e se e loketse ho latoa ke moreki.",
 
-    service_action: "ntho ntho",
+    service_action: "Tiiso ya Phethahatso",
 
     checklist: [
       "Sheba karete ea boitsebiso ea motho ea tsamaisang melaetsa.",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Khetho ea 3: Ho romella hang-hang.",
 
     verify_delivery_input: {
-      true_title: "ntho Phano ntho",
+      true_title: "Netefatsa Phello ea Phano",
       true_description:
         "Ke netefatsa hore odara e filoe moreki.",
     },
@@ -8006,7 +8006,7 @@ export default {
       "Ka kopo ea hau, tefiso ea khomishene e tla lefelloa akhaonteng ea banka e boletsoeng ke uena. Ka kopo, fana ka lintlha tsa banka ea hau mona.",
     no_bank_info: "che Banka ntho!",
     actions: {
-      edit_my_bank_info: "Fetola ntho Banka ntho",
+      edit_my_bank_info: "Edit My Bank Info",
     },
     bank_dialog: {
       title: "ntho Banka Lintlha",
@@ -8028,7 +8028,7 @@ export default {
         account_number: {
           label: "Nomoro ea ak'haonte",
           message:
-            "ntho ntho Banka Akhaonto",
+            "Nomoro e ikhethileng e amanang le ak'haonte e khethehileng ea banka.",
         },
         routing_number: {
           label: "Nomoro ea Tsela (USA) kapa Khoutu ea Hlophisa (UK)",
@@ -8041,7 +8041,7 @@ export default {
             "Khoutu ea machabeng e sebelisetsoang ho tsebahatsa libanka lefatšeng ka bophara, haholo bakeng sa phetisetso ea machabeng.",
         },
         iban: {
-          label: "IBAN (ntho Banka Akhaonto ntho)",
+          label: "IBAN (Nomoro ea Akhaonto ea Banka ea Machabeng)",
           message:
             "E sebelisoa haholo-holo Europe, IBAN ke mokhoa oo ho lumellanoeng ka oona ke machaba oa ho tsebahatsa liak'haonte tsa banka ho pholletsa le meeli ea naha.",
         },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "ntho Banka ntho ntho ",
+        message: "Lintlha tsa hau tsa banka li atlehile ho ntlafatsoa.",
       },
     },
   },
@@ -8075,27 +8075,27 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "ntho ntho",
+      title: "Sehlopha sa Bronze",
       description:
         "O sebakeng sa Bronze Tier. O fumane 2% khomishene ho tsoa ho batho ba u rometseng.",
     },
     Silver: {
-      title: "ntho ntho",
+      title: "Sehlopha sa silevera",
       description:
         "U Mothating oa Silver. O fumane 4% khomishene ho tsoa ho batho ba u rometseng.",
     },
     Gold: {
-      title: "ntho ntho",
+      title: "Khauta e lekanang",
       description:
         "O Sebakeng sa Khauta. O fumane 6% khomishene ho tsoa ho batho ba u rometseng.",
     },
     Platinum: {
-      title: "ntho ntho",
+      title: "Sehlopha sa Platinum",
       description:
         "O ho Platinum Tier. U fumane 8% ea khomishene ho tsoa ho batho ba u rometseng.",
     },
     Diamond: {
-      title: "ntho ntho",
+      title: "Taemane ea boleng",
       description:
         "O ho Diamond Tier. U fumane 10% ea khomishene ho tsoa ho batho ba u rometseng.",
     },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Etsa chelete",
-    subtitle: "ntho Phihlello Ho khoebo ntho",
+    subtitle: "Phatlalatsa phihlello ea menyetla ea khoebo.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8441,7 +8441,7 @@ export default {
     width_desc: "O ka seta boholo ba bophara ba leqephe.",
     height: "Bophahamo",
     height_desc: "O ka seta boholo ba leqephe la bophahamo.",
-    radius: "ntho ntho",
+    radius: "Corner radius",
     radius_desc:
       "Karolong ena u ka beha radius ea curvature ea likhutlong tsa tsebiso.",
     shadow: "Moriti",
@@ -8525,28 +8525,28 @@ export default {
 
     template: {
       title: "ntho",
-      valid_message: "ntho ntho Theha Tloaelo SMS molaetsa",
+      valid_message: "U ka etsa melaetsa e tloaelehileng ea SMS.",
       provider_not_enable_message: "Mofani oa SMS ha aa lumelloa!",
       need_custom_provider_message:
         "Melaetsa ea SMS e ikhethileng e sebetsa feela haeba u seta mofani oa litšebeletso.",
       add_new: "Eketsa E ncha",
       disable_reason: {
-        set_provider: "ntho ntho !",
-        provider_is_disabled: "ntho ntho ntho!",
-        otp: "OTP - ntho ntho!",
-        select_another_provider: "Khetha ntho ntho",
+        set_provider: "Beha mofani oa hau pele!",
+        provider_is_disabled: "Mofani o koetsoe!",
+        otp: "OTP - Ha ho e ka etsoang!",
+        select_another_provider: "Khetha mofani e mong.",
       },
       enable_only_filter: "Bontša ntho e lumelletsoe",
 
       text_template_not_supported_msg:
         "Mofani oa hau ha a tšehetse melaetsa e hlakileng.",
       structure_template_not_supported_msg:
-        "ntho ntho Tšehetso ntho molaetsa",
+        "Mofani oa hau ha a tšehetse melaetsa ea meralo.",
 
       structured_data: "ntho Lintlha",
 
       menu: {
-        reset_error: "ntho ntho",
+        reset_error: "Seta liphoso bocha",
         send_test: "Romela ntho Molaetsa",
       },
     },
@@ -8559,19 +8559,19 @@ export default {
           "U ka etsa template ea molaetsa oa SMS webosaeteng ea mofani oa li-SMS, ebe u hlakisa khoutu ea eona le sebopeho sa data mona. Re tla fetisetsa lintlha tsena ho mofani oa hau, moo molaetsa oa nnete oa SMS o tla hlahisoa.",
         code: "Khoutu",
         language_msg: "E tlohele e se na letho ho e beha e le ea kamehla.",
-        enable_msg: "ntho Setšoantšo ntho ntho Se sebedisoang Ho Theha molaetsa",
+        enable_msg: "Setšoantšo sena se tla sebelisoa ho etsa melaetsa.",
       },
       text: {
-        title: "ntho ntho",
+        title: "Mongolo o hlakileng",
         subtitle:
           "Kenya molaetsa oa hau oa SMS mona. Lintlha tse matla li tla nkeloa sebaka ke boleng ba tsona ba sebele pele li romelloa ho mosebelisi.",
         message: "Molaetsa",
         reset_to_default: "ntho Ho Ea kamehla",
 
         auto_fill: {
-          title: "ka bo eona ntho ntho",
+          title: "Auto tlatsa liparamente",
           subtitle:
-            "ntho ntho Selldone ntho ntho Boleng",
+            "U ka sebelisa e 'ngoe le e' ngoe ea liparamente tsena mongolong 'me Selldone e tla e nkela sebaka ka boleng bo lumellanang.",
         },
 
         sample: {
@@ -8585,12 +8585,12 @@ export default {
         add_new_parameter: "Eketsa E ncha ntho",
 
         auto_fill: {
-          title: "ka bo eona ntho ntho",
+          title: "Auto tlatsa liparamente",
           subtitle:
             "U ka beha e 'ngoe le e' ngoe ea liparamente tsena e le boleng, 'me Selldone e tla e nkela sebaka ka boleng bo lumellanang. Ho molemo ho hlalosa litekanyetso tsa kamehla e le litempele ho mofani oa hau oa SMS bakeng sa bonolo. Tabeng ena, ho ke ke ha hlokahala hore u hlalose litekanyetso tsa parameter mona.",
         },
         request: {
-          title: "ntho ntho",
+          title: "Mehlala ea moputso",
         },
         sample: {
           title: "ntho Setšoantšo Molaetsa",
@@ -8603,7 +8603,7 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "ntho ntho",
+      title: "Mongolo o sa Tšoaneng",
       desc: "Molaetsa o tla etsoa ho tsoa mongolong o nang le liparamente tsa sebaka sa auto ebe o romella.",
     },
     template: {
@@ -8615,10 +8615,10 @@ export default {
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "Tloaelo SMS ntho",
-    reset_error: "ntho ntho",
+    reset_error: "Seta liphoso bocha",
     subtitle:
       "Iketsetse mofani oa litšebeletso tsa SMS 'me u iketsetse SMS ea hau ea netefatso le lebitso la khoebo. Mofani oa kamehla o romella feela SMS ea netefatso le ho tsebisa melaetsa linaheng tse ling tse thathamisitsoeng ke batho ba basoeu.",
-    plain_text: "ntho ntho",
+    plain_text: "Mongolo o hlakileng",
     structural_template: "ntho Setšoantšo",
     errors_limit_msg:
       "Haeba ts'ebeletso ea hau e feta liphoso tse 100, e tla koaloa ka bo eona! U ka seta liphoso bocha ho e lumella hape.",
@@ -8630,7 +8630,7 @@ export default {
         "Melaetsa ea SMS e tla romelloa ho sebelisoa mofani oa litšebeletso tsa hau.",
     },
     test_input: {
-      true_title: "ntho ntho",
+      true_title: "Netefatsa Tlhophiso",
       true_description:
         "Re tla romella molaetsa oa teko nomorong ea hau ea mohala 📞 <b>{phone}</b>, e ka u lefisa, empa u ka etsa bonnete ba hore tsohle li sebetsa hantle.",
     },
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "OTP ntho",
-      description: "ntho molaetsa ntho ntho E rometsoe",
+      description: "Melaetsa ea netefatso e tla romelloa.",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Tloaelo ntho ntho",
+    title: "Seva ea mangolo e ikhethileng",
     subtitle:
       "Hokela mofani oa litšebeletso tsa lengolo-tsoibila ho romella mangolo-tsoibila ka domeine eo u e tloaetseng.",
     provider: "ntho",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "Romela ntho ntho imeile",
+      send_test_email: "Romela lengolo-tsoibila la teko",
     },
 
     messages: {
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "Faele e atlehile ho hlakolwa.",
     },
-    drag_sort_msg: "ntho ntho difaele",
-    paid_mode_msg: "Basebedisi ntho Khoasolla ntho ntho Sehlahisoa",
+    drag_sort_msg: "O ka hula le ho hlophisa lifaele.",
+    paid_mode_msg: "Basebelisi ba ka e jarolla feela kamora ho reka sehlahisoa.",
     free_mode_msg:
       "Basebelisi ba ka e khoasolla mahala. Lifaele tsa mohlala li tlameha ho ba ka tlase ho 50 MB.",
     has_gust_shopping_msg:
       "Basebelisi ba ngolisitsoeng le baeti ba ka khoasolla lifaele kaha theko ea baeti e lumelletsoe ho li-setting tsa lebenkele > phallo.",
     only_registered_shopping_msg:
-      "ntho Ngodisitsoe Basebedisi ntho Khoasolla ntho difaele",
+      "Ke basebelisi ba ngolisitsoeng feela ba ka khoasollang lifaele tsa mohlala.",
     file_count_limit: "difaele Bala Moeli",
   },
 
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "che thibelo",
     import: {
       title: "ntho boemo",
-      subtitle: "Khetha ntho ntho Libaka boemo",
+      subtitle: "Khetha profaele ea libaka tse bolokiloeng.",
     },
     export: {
       title: "Boloka boemo",
-      subtitle: "lebenkeleng Libaka ntho ntho ntho",
+      subtitle: "Boloka libaka bakeng sa tšebeliso ea nako e tlang.",
     },
     has_restriction_input: {
       title: "ntho Sebaka thibelo",
       description:
         "Bareki ba ka reka sehlahisoa sena feela ka har'a naha e boletsoeng le khoutu ea zip, ka lebaka la lithibelo tse behiloeng tsa sebaka.",
     },
-    zip_pin_code: "ntho / ntho khoutu",
+    zip_pin_code: "Likhoutu tsa Zip / Pin",
     no_country_selected_error:
       "Ka kopo, kenyelletsa naha e le 'ngoe hammoho le lethathamo la li-zip/pin codes. Ntle le eona, sehlahisoa sena se ke ke sa fumaneha.",
     tips: "Tobetsa ho <b>+ konopo ea Kenya Naha</b> ho qala ho theha sebaka se secha. Ha o qetile, o ka e boloka ka ho tobetsa <b>⋮ Menu</b> ebe o khetha <b>Boloka Boemo</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Ka kopo, kenya lebitso ho boloka sehlopha sena sa libaka. Sebaka sena se bolokiloeng se ka sebelisoa ho lihlahisoa tse ling, ho lumella ho kenya sebaka ka potlako ka ho tobetsa hanngoe feela. Haeba profaele e nang le lebitso le fanoeng e se e ntse e le teng, e tla nchafatsoa ka litekanyetso tsena tse ncha.",
       title_input: {
         title: "boemo Sehlooho",
-        placeholder: "ntho Sehlopha Lebitso, ntho lebenkeleng Lebitso,. ..",
+        placeholder: "Lebitso la sehlopha, kapa lebitso la lebenkele,...",
       },
     },
     load_profile_dialog: {
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Se ke oa fetoa ke liodara tsa hau!",
     msg: "Laola khoebo ea hau kae kapa kae le neng kapa neng.",
-    scan_qr_code: "ntho ntho mohala!",
+    scan_qr_code: "Nkeke ka mohala oa hau!",
 
     notification: {
       title: "Tsebiso",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "Litaelo",
-      subtitle: "bona ntho Litaelo ntho Laola ntho",
+      subtitle: "Sheba liodara tsa hau 'me u li laole.",
     },
     product: {
       title: "Lihlahisoa",
-      subtitle: "setoko Tsamaiso ntho Sehlahisoa ntho",
+      subtitle: "Tsamaiso ea thepa le sehlahiswa thota.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "Eketsa E ncha lebenkeleng",
-    i_have_a_deal: "ntho ntho ",
+    i_have_a_deal: "Ke na le khoebo",
     access: {
       title: "Phihlello ntho",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "ntho ntho ntho",
+    title: "Kemiso ea Phallo ea Litaba",
     subtitle:
       "Mona ke lethathamo la lingoloa tse hlophisitsoeng tse tla phatlalatsoa nakong e tlang. U na le bokhoni ba ho hlophisa li-post tsa blog esita le litlhaloso tsa sehlahisoa hore li phatlalatsoe ka linako tse itseng.",
   },
@@ -9493,11 +9493,11 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Romela ntho ntho",
+    title: "Romela Kopo e Otlolohileng",
     message:
       "Tseba hore na khoebo ea hau e 3 ea mantlha e hloka ho atleha le ho etsa phaello ho Selldone. Lintlha tsena li tla arolelanoa ka kotloloho le bathehi le batsamaisi 'me li tla shejoa ka hloko. U ka boela ua ntlafatsa litlhoko tsa hau ha nako e ntse e ea ka mor'a tlhahiso.",
-    expand_action: "ngola ntho ntho",
-    input_label: "ntho ntho",
+    expand_action: "Ngola kopo...",
+    input_label: "Kopo ea Hao",
     to: {
       ceo: "Romela Ho CEO",
       team: "Romela Ho ntho",
@@ -9545,16 +9545,16 @@ export default {
     test: {
       title: "lebenkeleng",
       subtitle: "ntho tshebeletso Tlaleho",
-      action: "ntho ntho",
-      last_update: "ntho ntho ntho",
+      action: "Khokahano ea liteko",
+      last_update: "E qetetse ho ntlafatsoa ke",
     },
     service_status: {
       title: "tshebeletso Boemo",
-      syncing_message: "ntho ntho ntho",
+      syncing_message: "Ts'ebetsong ea ho hokahanya...",
       action: "ntho kaofela",
       connect_status: "Connect Boemo",
       service_status: "tshebeletso Boemo",
-      auto_confirm_enable_msg: "ntho ntho Litaelo ntho e lumelletsoe",
+      auto_confirm_enable_msg: "Netefatso ea boiketsetso bakeng sa liodara e lumelletsoe.",
       auto_confirm_disable_msg:
         "Netefatso ea othomathike ea liodara ha e ea etsoa.",
       shipping_enable_msg:
@@ -9565,10 +9565,10 @@ export default {
       auto_confirm_order: "ka bo eona ntho Litaelo",
       test_mode: "ntho mokhoa",
       status: {
-        subtitle: "ntho tlhahisoleseding ntho ntho Boemo",
+        subtitle: "Lintlha ka kakaretso mabapi le boemo ba sync.",
       },
       sync: {
-        title: "ntho ntho",
+        title: "Lintlha tsa sync",
         subtitle:
           "Lintlha tsa khokahano ea ka hare. Lintlha tsena li bolokoa kamora hore nako ea ts'ebetso ea sync e felile ka katleho.",
         no_data: "che ntho tlhahisoleseding!",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Lenane la lihlahisoa tse kentsoeng ho tsoa ho {name}. Etsa bonnete ba hore sehlahisoa sa hau se na le lebitso le ikhethang le SKU. Litšebeletso tse ling tsa Connect li sebelisoa ho falla, kahoo haeba u na le lihlahisoa tse nang le <b>SKUs</b> le <b>Mabitso</b>, lihlahisoa tseo li tla fetoloa!",
       action: "ntho Lihlahisoa",
-      syncing_message: "ntho ntho ntho",
+      syncing_message: "Ts'ebetsong ea ho hokahanya...",
     },
 
     logs: {
@@ -9600,16 +9600,16 @@ export default {
       test: {
         false_title: "ntho kaofela",
         false_desc: "ntho kaofela E fumaneha Lihlahisoa, Lihlopha, Bareki",
-        true_title: "ntho (ntho ntho ntho)",
+        true_title: "Nyeoe (E khothalelitsoe ba qalang)",
         true_desc:
           "Fumana lihlahisoa tse holimo ho 5, mekhahlelo le bareki. O ka e fetola hore e be mokgweng o felletseng ho Hokela > Setting ka nako efe kapa efe.",
       },
       overwrite: {
-        false_title: "ntho ntho Fetola ntho ntho",
+        false_title: "Se ke oa fetoha haeba e teng",
         false_desc: "Boloka lintlha tse teng tsa sehlahisoa le lihlopha kamoo li leng kateng.",
         true_title: "ntho",
         true_desc:
-          "Nchafatso ntho Sehlahisoa, ntho, ntho Sehlopha tlhahisoleseding",
+          "Ntlafatsa sehlahisoa se seng se ntse se le teng, mefuta e fapaneng, le lintlha tsa sehlopha.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
@@ -9626,7 +9626,7 @@ export default {
       },
       confirm: {
         label: "ka bo eona ntho Litaelo",
-        false_desc: "ntho ntho ntho Taelo ntho",
+        false_desc: "O lokela ho netefatsa odara ka bowena.",
         true_desc:
           "Liodara tse nang le tefo ea hang-hang li tla amoheloa. Litaelo tse nang le tefo ea ho lokisa bothata li ke ke tsa amoheloa ka bo eona.",
         tips: "Liodara tse lefuoang ka karete ea limpho kapa COD kapa menyako ea ho patala ka mokhoa oa ho lokisa ke mekhelo 'me e ke ke ea netefatsoa ka bo eona.",
@@ -9644,7 +9644,7 @@ export default {
       },
 
       remove: {
-        verify: "ntho ntho Ho Tlosa ntho ntho",
+        verify: "Ke netefatsa ho tlosa khokahano ena.",
         action: "Tlosa hokela",
       },
     },
@@ -9661,8 +9661,8 @@ export default {
         "Lebala lits'ebetso le li-plugins tsa dropshipping! Connect ke bokamoso ba tsamaiso ea li-cross-platform order management.",
       auto_confirm: "ka bo eona ntho",
       shipping: "Ho tsamaisa ka sekepe",
-      syncing_now: "ntho ntho!",
-      sync_not_started: "ntho ntho ntho qala ntho!",
+      syncing_now: "E hokahanya hona joale!",
+      sync_not_started: "Khokahano ha e so qale!",
     },
   },
 
@@ -9700,7 +9700,7 @@ export default {
     add_new_action: "Eketsa E ncha leqephe",
     subtitle:
       "Theha maqephe a ikhethileng, a arabelang molemong oa lebitso la hau u sebelisa mohlophisi oa marang-rang oa AI o feto-fetohang, 'me u iketsetse litaba tse matla ka ho fana ka lintlha.",
-    empty_message: "Moralo Tloaelo Maqephe ntho ntho & ntho",
+    empty_message: "Rala maqephe a ikhethileng ka ho hula le ho theola...",
   },
 
   /**
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Maikutlo",
     subtitle: "Lena ke lethathamo la maikutlo a sechaba.",
-    empty_msg: "che Maikutlo ntho ntho ",
+    empty_msg: "Ha ho maikutlo a entsoeng ho fihlela joale...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Lihlopha",
     subtitle: "Lena ke lethathamo la lihlopha tsa sechaba.",
     new_category_action: "Sehlopha se secha",
-    empty_msg: "che Lihlopha ntho ntho ",
+    empty_msg: "Ha ho na lihlopha tse entsoeng ho fihlela joale...",
     filter: {
       delete: {
         title: "E hlakotsoe",
@@ -9758,10 +9758,10 @@ export default {
         description: "Bontša tlaleho ntho",
       },
     },
-    empty_msg: "che ntho ntho ",
+    empty_msg: "Ha ho liposo tse entsoeng ho fihlela joale...",
     menu: {
       open_post: {
-        title: "ntho ntho",
+        title: "Open Post",
         subtitle: "Sheba 'me u fetole lintho sechabeng.",
       },
       spam: {
@@ -9770,7 +9770,7 @@ export default {
       },
       delete: {
         title: "Hlakola ntho",
-        subtitle: "Tlosa ntho ntho",
+        subtitle: "Tlosa poso ena.",
       },
     },
   },
@@ -9798,8 +9798,8 @@ export default {
       title: "batla ntho",
       subtitle: "Kenya meta tag leqepheng la hau la lehae bakeng sa netefatso ea Google Search Console.",
       code: {
-        label: "ntho ntho letshwao",
-        placeholder: "Ho tloha ntho, ntho ntho",
+        label: "Netefatsa meta tag",
+        placeholder: "Ho tsoa ho google, mohlala. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9829,9 +9829,9 @@ export default {
   cashback: {
     add_new: "Eketsa E ncha pusetso ea chelete",
     title: "pusetso ea chelete ntho",
-    boosted: "ntho (2ntho)",
+    boosted: "Matlafatsa (2x)",
     min_purchase: "Bonyane theko",
-    only_first_order: "ntho ntho Taelo",
+    only_first_order: "Feela First Order",
     total_cashback: "Kakaretso pusetso ea chelete",
     delete_alert: {
       title: "Hlakola pusetso ea chelete ntho",
@@ -9839,7 +9839,7 @@ export default {
       action: "E, Hlakola Joale",
     },
     notifications: {
-      delete_success: "pusetso ea chelete ntho E hlakotsoe ntho",
+      delete_success: "Lenaneo la ho khutlisa chelete le hlakotsoe ka katleho.",
     },
   },
   /**
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "pusetso ea chelete ntho",
-      message: "ntho ntho pusetso ea chelete ntho Ho tloha 1% Ho 20%.",
+      message: "Kenya peresente ea ho khutlisa chelete ho tloha ho 1% ho isa ho 20%.",
     },
     currency_input: {
       message: "Lenaneo la ho khutlisa chelete le tla fumaneha bakeng sa chelete ena feela.",
     },
     limit_input: {
       title: "Moeli",
-      hint: "ntho ntho boholo Chelete ntho pusetso ea chelete",
-      zero_message: "ntho 0 ntho Ha ho moeli pusetso ea chelete",
+      hint: "Kenya boholo ba chelete e khutlisetsoang chelete.",
+      zero_message: "Kenya 0 bakeng sa ho khutlisa chelete e sa lekanyetsoang.",
     },
     duration: {
       title: "Nako Moeli",
@@ -9926,17 +9926,17 @@ export default {
       title: "Tlhaloso",
     },
     constraints: {
-      subtitle: "ntho ntho pusetso ea chelete ntho",
+      subtitle: "Beha lithibelo bakeng sa lenaneo la ho khutlisa chelete.",
     },
     min_purchase_input: {
-      hint: "ntho ntho bonyane Reka Chelete ntho pusetso ea chelete ntho",
+      hint: "Kenya bonyane chelete e rekiloeng bakeng sa lenaneo la ho khutlisa chelete.",
       title: "Bonyane theko",
     },
     only_first_buy_input: {
       false_desc: "Lenaneo la ho khutlisa chelete le tla fumaneha bakeng sa liodara tsohle.",
       true_desc:
         "Lenaneo la ho khutlisa chelete le tla fumaneha bakeng sa odara ea pele feela.",
-      true_title: "ntho ntho Taelo",
+      true_title: "Feela First Order",
       false_title: "kaofela Litaelo",
     },
     qualify_input: {
@@ -9954,8 +9954,8 @@ export default {
         "Ka ho kopanya sehlopha le lenaneo la ho khutlisa chelete, u ka khona ho le laola ka katleho.",
     },
     notifications: {
-      add: "pusetso ea chelete ntho Eketsa ntho",
-      edit: "pusetso ea chelete ntho ntho ntho",
+      add: "Lenaneo la ho khutlisa chelete le kentsoe ka katleho.",
+      edit: "Lenaneo la ho khutlisa chelete le ntlafalitsoe ka katleho.",
     },
     enable_input: {
       true_msg: "Lenaneo la ho khutlisa chelete le sebetsa mme bareki ba ka le sebelisa.",
@@ -9964,11 +9964,11 @@ export default {
     },
     boosted_input: {
       false_title: "Tloaelehileng",
-      true_title: "ntho (2ntho pusetso ea chelete)",
+      true_title: "Matlafatsa (2x Cashback)",
       true_msg:
         "Lenaneo la ho khutlisa chelete le maemong a boost mme bareki ba tla fumana 2x cashback.",
       false_msg:
-        "ntho pusetso ea chelete ntho ntho ntho Tloaelehileng mokhoa ntho Bareki ntho Amohela Tloaelehileng pusetso ea chelete",
+        "Lenaneo la ho khutlisa chelete le maemong a tloaelehileng 'me bareki ba tla fumana chelete e tloaelehileng.",
     },
   },
 
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "pusetso Tefo",
-        subtitle: "ntho ntho ntho pusetso tshehetso",
+        subtitle: "Puseletso e sa fellang kapa e felletseng e tšehelitsoe.",
       },
       delivery: {
-        title: "ntho ntho Phano",
+        title: "Netefatsa Ka Thomelo",
         subtitle: "O ka netefatsa ka bowena ho fihla ho mofani wa tefo.",
       },
     },
@@ -10019,7 +10019,7 @@ export default {
       description:
         "Ke netefatsa hore odara e filoe moreki.",
     },
-    action: "ntho ntho",
+    action: "Netefatsa Joale",
   },
 
   /**
@@ -10031,8 +10031,8 @@ export default {
     subtitle:
       "Karolong ena, o ka kenya le ho laola lihlahisoa tse rekisoang ka bongata bakeng sa leqephe lena la sehlahisoa. Lihlahisoa tsena li tla hlahisoa e le litlhahiso tseo bareki ba ka li rekang hammoho le ntho e ka sehloohong. U ka boela ua beha litheolelo ho khothaletsa le ho khothaletsa theko e eketsehileng. Sistimi e tla bonts'a boholo ba lintho tse 3 tseo moreki a ka li nahanang.",
     dialog: {
-      edit_title: "Fetola ntho ntho Sehlahisoa",
-      add_title: "Eketsa E ncha ntho ntho Lihlahisoa",
+      edit_title: "Fetola lihlahisoa tse rekisoang",
+      add_title: "Kenya lihlahisoa tse ncha tse rekisoang",
       target: {
         title: "ntho Sehlahisoa",
         subtitle:
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "ntho Sehlahisoa",
-        subtitle: "ntho Sehlahisoa ntho ntho ",
+        subtitle: "Sehlahisoa sena se khethetsoe papatso ea thekiso e fapaneng.",
         manage_product: "Laola Sehlahisoa",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Iketsetse sehlooho se susumetsang le se hohelang ho hapa maikutlo a bareki.",
           placeholder:
-            "ntho & Boloka: ntho ntho !",
+            "Bundle & Boloka: Tlatsa Chebahalo ea Hao ka Khetho ea Rona e Khethiloeng ka letsoho!",
         },
       },
       action: {
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Eketsa Mefuta e fapaneng ntho ntho",
+    title: "Kenya mefuta e fapaneng ka bongata",
     variants: {
-      title: "ntho ntho",
+      title: "Likhetho tse fapaneng",
       subtitle:
         "Khetha ho fihla ho tse peli tse fapaneng. Ka mor'a khetho, u ka khetha hore na ke mefuta efe e khethehileng eo u ka iketsetsang eona.",
     },
     values: {
-      title: "ntho ntho",
-      subtitle: "ntho ntho ",
+      title: "Maemo a Fapaneng",
+      subtitle: "Kenya boleng bo ka bang teng bakeng sa khetho e 'ngoe le e 'ngoe e fapaneng mona.",
       prevent_duplicates_tips:
         "<b>Tlhokomeliso:</b> Re itlhahloba ka bohona bakeng sa mefuta e meng e teng ho thibela likopi.",
     },
     inventory: {
       title: "ntho setoko",
-      subtitle: "ntho ntho qala setoko Bala ntho ntho E ncha Mefuta e fapaneng",
+      subtitle: "Beha palo ea lintho tse qalang bakeng sa mefuta e mecha.",
     },
     add_variants_action: "Theha Mefuta e fapaneng",
   },
@@ -10125,20 +10125,20 @@ export default {
       enable_msg: "Borokho bona bo isang litšebeletsong tsa kantle bo lumelletsoe.",
       disable_msg: "Borokho bona bo isang litšebeletsong tsa kantle bo koetsoe.",
       has_shipping_msg:
-        "{name} Tšehetso Ho tsamaisa ka sekepe ntho ntho Ho Thusa ka bo eona Ho tsamaisa ka sekepe ntho ntho {name} ntho ntho Sheba leqephe",
+        "{name} tšehetso ea thepa. Kahoo u na le khetho ea ho nolofalletsa lipalo tsa thomello ea likoloi ka {name} leqepheng la ho tsoa.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
       title: "Sehlahisoa ntho",
-      available_in_stock_msg: "Sehlahisoa ntho E fumaneha ntho ntho",
-      out_of_stock_msg: "Sehlahisoa ntho ntho ",
+      available_in_stock_msg: "Sehlahisoa se fumaneha setokong.",
+      out_of_stock_msg: "Sehlahisoa se felile.",
       file_count_msg:
-        "{files_count} difaele ntho Kakaretso {files_size} Kenya faele ntho ntho Sehlahisoa",
-      no_file_uploaded_msg: "che faele ntho ntho Kenya faele ntho",
+        "Lifaele tsa {files_count} tse nang le {files_size} tse kenyellelitsoeng sehlahisoa sena.",
+      no_file_uploaded_msg: "Ha hona faele e kentsoeng.",
       no_image_uploaded_msg:
-        "Kenya faele ntho Sehlahisoa Setšoantšo Ho fumana ntho Hape. . ntho",
+        "Kenya setšoantšo sa sehlahisoa ho etsa hore se khahle haholoanyane.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10167,11 +10167,11 @@ export default {
       title: "Theko",
       no_product_price_msg: "Theko ea kamehla ea sehlahisoa ha e so beoe!",
       listing_pricing_msg: "Ho thathamisa Theko:",
-      has_valuation_msg: "Sehlahisoa ntho ntho",
+      has_valuation_msg: "Sehlahisoa se na le boleng.",
       subscription_pricing_msg:
-        "ntho Sehlahisoa ntho {count} Ngoliso Theko Merero",
+        "Sehlahisoa sena se na le merero ea litheko tsa peeletso ea {count}.",
       has_no_subscription_pricing_msg:
-        "ntho Sehlahisoa ntho che Ngoliso Theko Merero",
+        "Sehlahisoa sena ha se na merero ea litefiso tsa ho ngolisa.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "ntho Ngoliso Theko Merero",
       subtitle:
-        "ntho Sehlahisoa ntho che Ngoliso Theko Merero ntho ntho Ho Eketsa ntho ntho ntho Ngoliso Theko Rera Ho fumana ntho Sehlahisoa E fumaneha ntho Ngoliso Reka",
+        "Sehlahisoa sena ha se na merero ea litefiso tsa ho ngolisa. U hloka ho kenya bonyane leano le le leng la litefiso ho etsa hore sehlahisoa sena se fumanehe bakeng sa ho rekoa.",
       pricing_plans: "Theko Merero",
     },
 
@@ -10189,11 +10189,11 @@ export default {
     location: {
       title: "ntho Sebaka thibelo ● {status}",
       status: {
-        has_restriction: "E fumaneha ntho {count} ntho",
-        no_restriction: "ntho ntho",
+        has_restriction: "E fumaneha linaheng tsa {count}",
+        no_restriction: "Ha ea thibeloa",
       },
       available_countries_msg:
-        "ntho ntho ntho Ho {count} ntho ntho {countries}.",
+        "Ho reka lefatšeng ka bophara ho fumaneha feela linaheng tsa {count}. Linaha tsena ke {countries}.",
       disable_for_all_countries_msg:
         "Ho reka ho koetsoe linaheng tsohle tse lebenkeleng la hau > litlhophiso tsa libaka.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10226,10 +10226,10 @@ export default {
         subscription_tax_msg:
           "Re ka sebelisa lekhetho feela mohatong oa ho theha tefo.",
         dedicated: "ntho",
-        is_disabled: "ntho Lekhetho boemo ntho e thibetsoe!",
+        is_disabled: "Boemo bona ba lekhetho bo timiloe!",
         tax_is_based_on_location: "Lekhetho: Sebaka ntho",
         shipping_tax_is_based_on_location: "Ho tsamaisa ka sekepe: Sebaka ntho",
-        included_in_price: "ntho ntho theko",
+        included_in_price: "E kenyelelitsoe ka theko.",
       },
     },
 
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "ntho Sehlahisoa ntho Ho <b>{vendor}</b>.",
+      vendor_owner_msg: "Sehlahisoa sena ke sa <b>{vendor}</b>.",
       has_vendors_msg: "Ho na le {count} barekisi ba sehlahisoa sena.",
       no_vendor_msg:
         "Ha o so abele morekisi sehlahisoa sena, kahoo bareki ba sitoa ho se reka.",
@@ -10264,7 +10264,7 @@ export default {
     card: {
       title: "ntho",
       description:
-        "ntho HTML Khoutu Ho Eketsa Sehlahisoa Likarete ntho ntho HTML Maqephe",
+        "Hlahisa khoutu ea HTML ho kenya likarete tsa sehlahisoa sethaleng se seng le maqepheng a HTML.",
     },
     iframe: {
       title: "ntho",
@@ -10283,7 +10283,7 @@ export default {
     staff: {
       title: "Eketsa Basebetsi & Phihlello",
       subtitle:
-        "kaofela Basebedisi ntho Basebetsi Phihlello ntho ntho ntho Ho ntho phanele ea taolo ntho bona Tsa lichelete tlhahisoleseding Ho Eketsa Basebedisi ntho ntho Phihlello, ntho ntho",
+        "Basebelisi bohle ba nang le phihlello ea basebetsi ba ka kena ho dashboard ea hau mme ba bona lintlha tsa lichelete. Ho kenya basebelisi ba nang le phihlello e fokolang, hlalosa Karolo.",
       go_to_roles: "ntho Ho Likarolo",
     },
     access: {
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Phihlello ntho",
-        placeholder: "Khetha ntho ntho",
+        placeholder: "Khetha boemo...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "Phihlello ntho",
-        message: "E ncha Phihlello ntho ntho ntho Eketsa",
+        message: "Mokhoa o mocha oa ho kena o kentsoe ka katleho.",
       },
       update_success: {
         title: "Phihlello ntho",
-        message: "Litumello ntho ntho ",
+        message: "Litumello li ntlafalitsoe ka katleho.",
       },
     },
   },
@@ -10357,12 +10357,12 @@ export default {
     search_tips: {
       title: "batla ntho",
       normal:
-        "<b>ntho batla: </b>batla ntho Sehlooho, MPN, SKU, ntho, ntho Li-tag",
+        "<b>Kakaretso Batlisisa: </b>Batla ka Sehlooho, MPN, SKU, Brand, kapa Tags.",
       product:
         "<b>Hantlentle ID ya Sehlahiswa: </b>Sebedisa P+Product ID ho fumana sehlahiswa se itseng, ka mohlala, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Hantle Polelo: </b>Sebelisa matšoao a qotso ho batla poleloana hantle, mohlala, <b class=\"text-green\">\"</b><i class=\"text-yellow\">mongolo oa hau mona</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>Lekhetho boemo: </b>batla ntho Lihlahisoa ntho ntho ntho Lekhetho boemo ntho \"Lekhetho:\", ntho, <b class=\"text-green\">Lekhetho:</b><i class=\"text-yellow\">Lekhetho boemo Lebitso</i>.",
+      tax: "<b>Tax Profile: </b>Batla lihlahisoa tse nang le boemo bo itseng ba lekhetho u sebelisa \"tax:\", mohlala, <b class=\"text-green\">tax:</b><i class=\"text-yellow\">tax profile name</i>.",
       new_products:
         "<b>Lihlahisoa tse Ncha: </b>Fumana lihlahisoa tse kentsoeng ka nako e itseng, mohlala, <b class=\"text-green\">tse ncha~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
@@ -10376,20 +10376,20 @@ export default {
     subtitle:
       "Kenya konopo e tla fetoloa ka boleng ba eona bo lumellanang le litaba tsa leqephe. Linotlolo ha lia lokela ho ba litlhaku tse 32.",
     add_caption: "Eketsa E ncha ntho",
-    add_sub_caption: "Eketsa Tloaelo ntho ntho",
+    add_sub_caption: "Kenya li-key-value tsa tloaelo.",
     add_dialog: {
       title: "Khetha Kenyeletso Mofuta",
       html: {
-        title: "ntho & ntho",
-        subtitle: "ntho Lintho Boleng ntho ntho HTML.",
+        title: "Mongolo & Html",
+        subtitle: "Boleng ba ntho bo ka hlalosoa e le mongolo kapa HTML.",
       },
       image: {
         title: "Setšoantšo",
-        subtitle: "ntho ntho Kenya faele ntho Setšoantšo",
+        subtitle: "U ka kenya setšoantšo.",
       },
     },
     help_dialog: {
-      title: "ntho Ho ntho ntho ntho",
+      title: "Mokhoa oa ho sebelisa litaba tse matla",
       how_it_works_tips:
         "Maqepheng a ho lulisa, u na le monyetla oa ho khetha litšoantšiso tse matla bakeng sa mongolo le litšoantšo. Lits'oants'o tsena li phetha karolo ea bohlokoa ho hlophiseng litaba ho latela maemo.   Sebopeho se matla sa litšoantšiso tsena se li lumella ho tlatsoa ke boleng ba ho eketsa, bo ka fapana ho latela lintlha tse fapaneng. Ka mohlala, litekanyetso tsa ho eketsa li ka 'na tsa fapana bakeng sa sehlahisoa kapa sehlopha ka seng. Monyetla oa 'nete oa karolo ena o hlaha ha o na le mefuta e fapaneng ea lintho tse nang le litšobotsi tse fapaneng. U ka sebelisa litšoantšiso tsena tse matla ho iketsetsa le ho ntlafatsa ponts'o ea ntho ka 'ngoe, ka ho etsa joalo u thehe boiphihlelo bo ikhethang le bo sebetsang maqepheng a hau a ho fihla.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Bakeng sa sehlahisoa se seng le se seng, u na le bokhoni ba ho abela lipara tsa bohlokoa tsa bohlokoa.",
       result_tips:
-        "ntho ntho leqephe, ntho ntho ",
+        "Sena ke sephetho sa ho qetela sa leqephe, moo litšoantšiso li nketsoeng sebaka ke boleng bo eketsehileng.",
     },
   },
 
@@ -10408,7 +10408,7 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "ntho ntho",
+      title: "Lipuo tse ngata",
       subtitle:
         "Lena ke lenane la lipuo tsa litaba. O ka seta dikahare tse fapaneng bakeng sa profaele ya tsamaiso puong ka nngwe.",
       add_caption: "Eketsa E ncha Sengoloa",
@@ -10419,20 +10419,20 @@ export default {
       subtitle:
         "U ka etsa hore litaba tsa profaele ea thepa li be teng ka lipuo tse ngata.",
 
-      language_input: "ntho Sengoloa ntho",
+      language_input: "Puo ea sengoloa sa hajoale",
       delete_article: "Hlakola Sengoloa",
       menu_tooltip: "ka bo eona ntho / Hlakola Sengoloa",
     },
     translate_to: "ntho Ho",
     notifications: {
       translate: {
-        message: "Sengoloa ntho E phethiloe ntho",
+        message: "Phetolelo ea sengoloa e phethiloe ka katleho.",
       },
       save_article: {
-        message: "Sengoloa ntho ntho ",
+        message: "Sengoloa se bolokiloe ka katleho.",
       },
       delete_article: {
-        message: "Sengoloa ntho ntho E hlakotsoe ntho",
+        message: "Sengoliloeng se hlakotsoe ka katleho.",
       },
     },
     delete_dialog: {
@@ -10461,7 +10461,7 @@ export default {
       accept_delete: {
         true_description:
           "Ketso ena e tla tlosa lingoliloeng tsohle le lihokelo tsa profaele.",
-        true_title: "ntho ntho Ho Tlosa ntho ntho",
+        true_title: "Ke netefatsa ho tlosa khokahano ena.",
       },
     },
     actions: {
@@ -10507,14 +10507,14 @@ export default {
     add_caption: "Eketsa E ncha ntho",
     subtitle:
       "Mona, o ka laola lintho tse kenyellelitsoeng lihlahisoa tsa hau. Ho etsa bonnete ba hore lebenkele la hau le shebahala le se na sekoli, sebelisa lintho tse nang le litšoantšo tse tšoanang, joalo ka li-wireframes, lihlahisoa tsohle.",
-    empty_list_msg: "Lenane ntho ntho Lintho",
+    empty_list_msg: "Lenane la lintho tse kenyellelitsoeng...",
     notifications: {
       delete: {
-        message: "ntho ntho E hlakotsoe",
+        message: "Ntho e hlakotsoe.",
       },
     },
     delete_dialog: {
-      title: "Hlakola ntho ntho",
+      title: "Hlakola ntho e kenyellelitsoeng",
       message:
         "Na u na le bonnete ba hore u batla ho hlakola ntho ee ruri? Ka kopo hlokomela hore e tla boela e tlosoe lihlahisoa tsohle tse amanang le tsona!",
       action: "E, Hlakola Joale",
@@ -10528,15 +10528,15 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "Fetola ntho ntho",
-    dialog_title_add: "Theha E ncha ntho ntho",
+    dialog_title_edit: "Fetola ntho e kenyelelitsoeng",
+    dialog_title_add: "Theha ntho e ncha e kenyellelitsoeng",
 
-    title: "ntho ntho",
+    title: "Ntho e kenyelelitsoeng",
     subtitle:
       "Khetha sehlooho se sekhuts'oane, se nang le mantsoe a 2 ho isa ho a 3 haholo. Sebelisa litšoantšo tse lisekoere, kaha re tla fetola boholo ba litšoantšo tse kentsoeng hore e be sebopeho sa lisekoere tse 256x256. Bakeng sa chebahalo e ntle ho litempele tsohle, sebelisa litšoantšo tse nyane tse nang le ponahalo e hlakileng le ho boloka sebopeho se ts'oanang ho lihlahisoa tsohle tsa hau.",
     inputs: {
       title: {
-        placeholder: "ntho Sehlooho ntho ntho Sehlahisoa leqephe",
+        placeholder: "Sehlooho se khuts'oane se bonts'itsoeng leqepheng la sehlahisoa...",
       },
       code: {
         placeholder: "Khoutu e ikhethang, mohlala. mobile_cable_usb",
@@ -10547,7 +10547,7 @@ export default {
         hint: "Tlhaloso e tla sebelisoa bakeng sa SEO mme mohlomong e ka bonahala ho basebelisi ba meralo e meng e tloaelehileng leqepheng la sehlahisoa.",
       },
       image: {
-        message: "ntho Setšoantšo ntho: 1MB",
+        message: "Boholo ba setšoantšo: 1MB",
       },
       path: {
         label: "leqephe ntho",
@@ -10571,10 +10571,10 @@ export default {
     },
     notifications: {
       add: {
-        message: "ntho ntho Eketsa ntho",
+        message: "Ntho e kenyellelitsoeng e kentsoe ka katleho.",
       },
       edit: {
-        message: "ntho ntho ",
+        message: "Ntho e kenyellelitsoeng e ntlafalitsoe ka katleho.",
       },
     },
   },
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "che Sepache!",
 
     withdraw_dialog: {
-      title: "ntho Komisi ntho",
+      title: "Tlosa Litefiso tsa Komisi",
 
       need_bank_info_message: "Ka kopo, kenya lintlha tsa banka pele.",
 
@@ -10648,14 +10648,14 @@ export default {
       message: "O ka kenya <b>?ref={code}</b> ho url efe kapa efe e rekisoang.",
     },
     intro: {
-      title: "ntho ntho Selldone molekane ntho",
+      title: "Kena le Selldone Affiliate Program",
       message:
         "Lenaneo la Selldone Affiliate le bonolo ebile le hlakile, le etselitsoe hore u fumane chelete ntle le matsapa. Arolelana sehokelo sa hau se ikhethileng ho memela basebelisi ba bacha ho Selldone, 'me u tla fumana komisi ho tsoa khoebong e ngoe le e ngoe eo ba e etsang - ka ho sa feleng. Sena se kenyelletsa meputso e tsoang ho lipeeletso, litefiso tsa lits'ebeletso, ntlafatso ea mabenkele, le mefuta e meng eohle ea chelete. Qala ho fumana karolo ea lekeno ntle le meeli ea nako kapa moputso. Eba le rona 'me u fetole marang-rang a hau chelete e tsitsitseng!",
-      why_join_selldone_affiliate: "ntho ntho ?",
+      why_join_selldone_affiliate: "Ke hobane’ng ha see e le monyetla o ikhethang?",
       reasons: [
-        "ntho ntho ntho!",
+        "E tšoarella ka ho sa feleng!",
         "E lefella lipeeletso tsohle le litefiso tsa transaction. Ha e le hantle tefo e 'ngoe le e 'ngoe ea mosebelisi ho Selldone.",
-        "Re romella $99 voucher mahala ho mang kapa mang ea ingolisang a sebelisa sehokelo sa hau.",
+        "Re romella voucher ea mahala ea $99 ho mang kapa mang ea ingolisang a sebelisa sehokelo sa hau.",
         "Ha boemo ba hau bo ntlafala, u tla fumana chelete ka sekhahla se secha ho tsoa ho basebelisi bohle ba boletsoeng pele.",
       ],
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "che ntho Kenya faele ntho",
+    no_asset_uploaded: "Ha ho na thepa e kentsoeng.",
   },
 
   /**
@@ -10690,27 +10690,27 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Thusa ntho ntho Ho ntho ntho ",
+        "Lumella tšobotsi ena ho hlophisa bocha le ho hlophisa likarolo habonolo ka ho li hula.",
     },
     edit_mode_tooltip: {
       title: "Fetola / Sheba esale pele mokhoa",
       edit_mode_title: "Fetola mokhoa",
-      edit_mode_msg: "kaofela Fetola Lisebelisoa ntho ntho ntho",
+      edit_mode_msg: "Lisebelisoa tsohle tsa ho hlophisa li tla hlahisoa.",
       view_mode_title: "Sheba esale pele mokhoa",
       view_mode_msg:
         "Sheba leqephe la hau ka tsela eo basebelisi ba ka le bonang ka eona ka ho pata lisebelisoa tse ling tsa ho hlophisa le libaka tse se nang letho.",
     },
     repository_tooltip: {
-      title: "ntho ntho",
+      title: "Likarolo tse hahiloeng esale pele",
       subtitle:
         "Fetolela pontšo ea likarolo tse entsoeng esale pele. Likarolo tsena li bōpiloe ho sebelisoa likarolo tse tloaelehileng tse fumanehang ho menu e letšehali, e bontšang ho feto-fetoha ha sehahi sena sa maqephe.",
     },
     live_view: {
       title: "Phela Sheba esale pele",
-      subtitle: "bona Ntlafatsa ntho ntho Fetola ntho leqephe",
+      subtitle: "Sheba lintlafatso ka nako ea 'nete ha u ntse u hlophisa leqephe la hau.",
     },
     hotkeys_dialog: {
-      title: "ntho ntho",
+      title: "Likhaoletso tsa Keyboard",
       augment_tips:
         "U ka kenya litaba tse matla leqepheng la hau, 'me u le nkele sebaka ka <b>augment</b> ea boleng. Augment e sebelisoa bakeng sa maqephe a ikhethileng joalo ka <b>Products</b>, <b>Categories</b>, le <b>Kenyelletsa Lintho</b>. Ho etsa hore senepe se kenelle ka matla, tobetsa <b>Feeder</b> ebe u khetha <b>Dynamic Source</b> bakeng sa setšoantšo seo.",
     },
@@ -10723,10 +10723,10 @@ export default {
       ctrl_1:
         "Fokotsa boholo ba mongolo oa mongolo o khethiloeng | <small>Nkhotse</small>",
       ctrl_2: "Eketsa boholo ba mongolo oa mongolo o khethiloeng | <big>Nketsetse moholo</big>",
-      ctrl_r: "Tlosa kaofela ntho Ho tloha Khetha ntho | ntho kaofela ntho",
+      ctrl_r: "Tlosa lifomete tsohle mongolong o khethiloeng | Hloekisa mefuta eohle",
       ctrl_s: "Boloka ntho leqephe",
-      tab: "ntho ntho ntho mokhoa",
-      ctrl_e: "ntho ntho Setaele mokhoa",
+      tab: "Fetola lipakeng tsa mekhoa ea sekala",
+      ctrl_e: "Kenya tshebetsong kapa o tima mokgwa wa setaele sa clone",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "ntho & ntho",
-    subtitle: "ntho ntho",
+    title: "Hula o Lahle",
+    subtitle: "Likarolo tse hahiloeng esale pele",
     add_dialog: {
       title: "Eketsa Tloaelo ntho",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Setšoantšo",
-        subtitle: "Phatlalatsa Setšoantšo ntho ntho ntho Lenane",
+        subtitle: "Setšoantšo sa sechaba se hlahisoa lenaneng.",
       },
       code: {
         title: "Khoutu",
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Sehlooho",
-          message: "ntho ntho ntho Phatlalatsa Sehlooho",
+          message: "Ena ke tlotla ea sechaba.",
         },
         tags: {
           label: "Li-tag",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Kopo ea morekisi e hannoe.",
       PENDING: "Kopo e emetse qeto ho tsoa ho morekisi.",
     },
-    number_of_products: "ntho ntho Lihlahisoa",
+    number_of_products: "Palo ea Lihlahisoa",
     invited: "ntho",
     no_pricing: "che Theko",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Ka kopo, beha mofuta oa litheko oa kamehla bakeng sa morekisi.",
     },
     updated_products_tooltip: {
-      title: "Lihlahisoa ntho ntho 24 ntho",
+      title: "Lihlahisoa li ntlafalitsoe lihoreng tse 24 tse fetileng",
     },
     added_products_tooltip: {
       title: "Lihlahisoa li kentsoe Lihoreng tse 24 tse fetileng",
@@ -10806,14 +10806,14 @@ export default {
         "Mosebelisi o hanne kopo ea ho ba morekisi le ho fihlella morekisi enoa.",
     },
     download_all_vendors: "Khoasolla kaofela barekisi",
-    bulk_import: "ntho Kenya (ntho)",
+    bulk_import: "Ho lata ka bongata (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Laesense ntho ntho!",
+    title: "Ho Hlokahala Ntlafatso ea License!",
     subtitle:
       "Laesense ea hau ea hajoale ha e fihlelle litlhoko tsa mofuta oa khoebo oo u o khethileng. Ka kopo, ntlafatsa laesense ea hau ho moralo oa Khoebo.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Eketsa Molaetsa Setšoantšo",
 
     notifications: {
-      add_chat_success_message: "Molaetsa ntho ntho Eketsa ntho",
+      add_chat_success_message: "Molaetsa o kentsoe ka katleho.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Romela Nchafatso imeile",
 
       notifications: {
-        send_success_message: "imeile ntho ntho E rometsoe ntho",
+        send_success_message: "Lengolo-tsoibila le rometsoe ka katleho.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Eketsa Setšoantšo",
 
       notifications: {
-        save_success_message: "Setšoantšo ntho ntho ",
+        save_success_message: "Setšoantšo se bolokiloe ka katleho.",
       },
 
       inputs: {
         title: {
           label: "Setšoantšo Sehlooho",
-          placeholder: "ngola ntho ntho Sehlooho",
+          placeholder: "Ngola sehlooho se khuts'oane...",
         },
         body: {
           label: "Setšoantšo Molaetsa",
-          placeholder: "ngola ntho Molaetsa ntho",
+          placeholder: "Ngola molaetsa oa hau mona...",
           messages:
-            "ntho ntho {order_id} ntho {buyer_name}.",
+            "O ka beha boleng bo matla ka {order_id} le {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "ntho",
     guest: "ntho",
     click_to_create: "ntho Ho Theha",
-    valid_for_30_days: "ntho ntho 30 Matsatsi a 30",
+    valid_for_30_days: "e sebetsa matsatsi a 30",
     notifications: {
-      secure_link_created: "ntho Sehokelo ntho ntho ",
+      secure_link_created: "Sehokelo se sireletsehileng se entsoe ka katleho.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Eketsa E ncha ntho ntho",
-    title: "ntho ntho",
+    add_caption: "Kenya sete e ncha ea thepa",
+    title: "Thepa Sets",
     subtitle:
       "U ka theha le ho laola lihlopha tsa thepa mona. Lisebelisoa tsa thepa li sebelisetsoa ho hlalosa thepa ea lihlahisoa le litšebeletso. O ka abela lisebelisoa tsena ho lihlahisoa ho Dashboard ea Sehlahisoa > Fetola.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "ntho ntho - Tloaelo Mefuta e fapaneng",
+      title: "Thepa Setha - Mefuta e Tloaelehileng",
       subtitle:
         "U ka etsa mabitso a fapaneng bakeng sa sehlahisoa sena, u nkela a kamehla.",
     },
 
     subtitle:
       "U ka etsa mabitso a fapaneng, litšoantšo le tatellano ea tsona mona. Bakeng sa lihlahisoa tse nang le mefuta e fapaneng e fetang tse tšeletseng tsa kamehla, u ka seta mefuta e fapaneng e etselitsoeng sehlahisoa ka seng. Hlalosa feela lisebelisoa tsa thepa ho Logistic > Property Sets tab 'me u li abele palo efe kapa efe ea lihlahisoa ha ho hlokahala.",
-    select_property_set: "Khetha ntho ntho",
-    add_property_set: "Eketsa ntho ntho",
+    select_property_set: "Kgetha Property Set",
+    add_property_set: "Kenya Property Set",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10936,15 +10936,15 @@ export default {
     edit: "Fetola ntho",
     new: "E ncha ntho",
     default_weight: "Ea kamehla Boima ba 'mele",
-    updated: "ntho ntho",
-    created: "ntho ntho",
+    updated: "Lebokose le ntlafalitsoe.",
+    created: "Lebokose le entsoe.",
     deleted: "ntho E hlakotsoe",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Khetha ntho sephutheloana",
-    define_package: "ntho ntho sephutheloana",
+    define_package: "Hlalosa sephutheloana",
     define_package_hint: "Theha kapa u hlophise boholo ba sephutheloana sa hau se seng se hlalositsoe esale pele",
   },
 
@@ -10984,7 +10984,7 @@ export default {
     items: {
       title: "Lintho",
       sub_title:
-        "Theha, Fetola, ntho Laola Ho thathamisa Lintho ntho Boemo, Theko, Ikopanye ntho, ntho ntho",
+        "Theha, hlophisa, 'me u laole lintho tsa lethathamo. Laola boemo, litheko, lintlha tsa mabitso, le mecha ea litaba.",
 
       empty_title: "che Lintho ntho",
       empty_subtitle:
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Lihokelo JSON",
-      opening_hours_json: "ntho ntho JSON",
+      opening_hours_json: "Lihora tsa ho bula JSON",
 
       delete_title: "Hlakola ntho",
-      delete_message: "ntho ntho Ho Hlakola ntho ntho?",
+      delete_message: "Na ehlile u batla ho hlakola ntho ee?",
       delete_success: "Ntho e hlakotsoe ka katleho.",
-      restore_success: "ntho ntho ntho",
+      restore_success: "Ntho e khutliselitsoe ka katleho.",
 
-      opening_hours:"ntho ntho",
+      opening_hours:"Lihora tsa ho Bula",
       form_fields:"foromo ntho",
 
       company: "Khampani",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Kenya Sehlopha",
       edit_title: "Fetola sehlopha",
 
-      parent_filter: "Sefe ntho ntho",
+      parent_filter: "Sefa ho ea ka motsoali",
       parent: "Sehlopha sa batsoali",
 
       price_format: "theko ntho",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Moralo ID",
 
       delete_title: "Hlakola sehlopha",
-      delete_message: "ntho ntho Ho Hlakola ntho Sehlopha?",
+      delete_message: "Na ehlile u batla ho hlakola sehlopha see?",
       delete_success: "Sehlopha E hlakotsoe ntho",
       form_schema: "Sehlopha foromo ntho",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "ntho",
       moderation_mode: "ntho mokhoa",
-      require_first_approved_before_more: "ntho ntho Hape. .",
+      require_first_approved_before_more: "E hloka tumello ea pele pele ho tse ling",
 
       limits_title: "Meeli",
-      max_pending_per_user: "ntho E emetse ntho Mosebedisi",
-      max_items_per_user: "ntho Lintho ntho Mosebedisi",
+      max_pending_per_user: "Boholo bo sa letile mosebelisi ka mong",
+      max_items_per_user: "Boholo ba lintho ka mosebelisi",
       limits_hint: "Meeli ntho",
 
       templates_title: "ntho",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "ntho ntho ntho",
-      publish_success: "ntho E hatisitsoe ntho",
-      unpublish_success: "ntho ntho ntho",
-      archive_success: "ntho ntho ntho",
-      reject_success: "ntho Hanoa ntho",
-      penalty_success: "ntho ntho ntho",
+      approve_success: "Ntho e amohetsoe ka katleho.",
+      publish_success: "Ntho e phatlalalitsoe ka katleho.",
+      unpublish_success: "Ntho e hlakotsoe ka katleho.",
+      archive_success: "Ntho e bolokoa ka katleho.",
+      reject_success: "Ntho e hanotsoe ka katleho.",
+      penalty_success: "Kotlo e sebelitsoe ka katleho.",
 
       reject_title: "Hana ntho",
-      reject_reason: "ntho ntho",
+      reject_reason: "Lebaka la ho hana",
 
       penalty: "ntho",
       penalty_title: "ntho",
-      penalty_points: "ntho ntho",
+      penalty_points: "Lintlha tsa kotlo",
       penalty_note: "ntho Hlokomela"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Kenya faele Litšoantšo",
       url_type: "Mofuta",
       url: "URL",
-      is_main: "ntho ntho sehlooho"
+      is_main: "Beha e le ea mantlha"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Theha mefuta e mengata ea meralo (karete + litempele tsa lintlha) 'me u li abele mekhahlelo. Lihlopha li ka sebelisa meralo e fapaneng.",
 
-      empty_title: "che ntho ntho",
+      empty_title: "Ha ho na meralo hajoale",
       empty_subtitle:
         "Kenya moralo oa hau oa pele ho qala ho itlhophisa hore na lihlopha li shebahala joang.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Lintlha Setšoantšo",
 
       notifications: {
-        add_success: "Moralo ntho ntho",
-        edit_success: "Moralo ntho ntho",
+        add_success: "Moralo o entsoe ka katleho.",
+        edit_success: "Moralo o ntlafalitsoe ka katleho.",
         delete_success: "Moralo E hlakotsoe ntho",
       },
 
@@ -11148,42 +11148,42 @@ export default {
 
       empty_title: "che libeche ntho",
       empty_subtitle:
-        "Eketsa ntho ntho beche Ho Qala ntho Ho thathamisa Lintho",
+        "Kenya beche ea hau ea pele ho qala ho totobatsa lintlha tsa lethathamo.",
 
       add_title: "Eketsa beche",
       edit_title: "Fetola beche",
 
       notifications: {
-        add_success: "beche ntho ntho",
-        edit_success: "beche ntho ntho",
+        add_success: "Beche e entsoe ka katleho.",
+        edit_success: "Beche e ntlafalitsoe ka katleho.",
         delete_success: "beche E hlakotsoe ntho",
       },
 
       delete_title: "Hlakola beche",
-      delete_message: "ntho ntho Ho Hlakola ntho beche?",
+      delete_message: "Na ehlile u batla ho hlakola beche ee?",
     },
 
     companies: {
       title: "Lik'hamphani",
       sub_title:
-        "Theha ntho Laola Lik'hamphani ntho Ho thathamisa ntho ntho e hokahane Ho ntho Khampani",
+        "Theha le ho laola lik'hamphani. Ntho e 'ngoe le e' ngoe e thathamisitsoeng e ka amahanngoa le k'hamphani e le 'ngoe ka boithatelo.",
 
       empty_title: "che Lik'hamphani ntho",
       empty_subtitle:
-        "Eketsa ntho ntho Khampani Ho Sehokelo ntho Ho Ho thathamisa Lintho",
+        "Kenya k'hamphani ea hau ea pele ho e hokahanya le lethathamo la lintho.",
 
       add_title: "Eketsa Khampani",
       edit_title: "Fetola khampani",
 
       notifications: {
-        add_success: "Khampani ntho ntho",
-        edit_success: "Khampani ntho ntho",
+        add_success: "Khampani e entsoe ka katleho.",
+        edit_success: "Khampani e ntlafalitsoe ka katleho.",
         delete_success: "Khampani E hlakotsoe ntho",
       },
 
       delete_title: "Hlakola Khampani",
       delete_message:
-        "Hlakola ntho Khampani? Lintho ntho Khampani Sehokelo",
+        "Hlakola khampani ee? Lintho tse e sebelisang li tla lahleheloa ke sehokelo sa k'hamphani.",
     },
 
 
@@ -11197,7 +11197,7 @@ export default {
       sender: "ntho",
       item: "ntho",
       has_reply: "ntho",
-      has_reply_yes: "ntho ntho",
+      has_reply_yes: "E na le karabo",
       has_reply_no: "che ntho",
 
       dialog_title: "Molaetsa",
@@ -11205,12 +11205,12 @@ export default {
       reply: "ntho",
       reply_hint: "Ngolla mosebelisi karabo. U ka boela ua tšoaea molaetsa e le o baliloeng/spam ho tsoa liketsong.",
 
-      mark_read: "ntho ntho bala",
-      mark_unread: "ntho ntho ntho",
+      mark_read: "Tšoaea ha u ntse u bala",
+      mark_unread: "Tšoaea e sa baloa",
       archive: "ntho",
       unarchive: "ntho",
-      mark_spam: "ntho ntho ntho",
-      mark_not_spam: "ntho ntho",
+      mark_spam: "Tšoaea e le spam",
+      mark_not_spam: "Eseng spam",
 
       delete_confirm: "Hlakola ntho Molaetsa?",
     },
@@ -11218,16 +11218,16 @@ export default {
     enable: {
       title: "Ho thathamisa",
       subtitle: "Lumella kapa u tima leqephe la hau la lethathamo la sechaba. Ha e lumelletsoe lekhetlo la pele, Selldone e tla iketsetsa tlhophiso ea lethathamo.",
-      true_description: "Ho thathamisa ntho e lumelletsoe Bareki ntho ntho Ho thathamisa Maqephe",
+      true_description: "Lethathamo le lumelletsoe. Bareki ba ka sheba maqephe a thathamisang.",
       false_description: "Lenane le emisitsoe. Maqephe a thathamisitsoeng le litlhahiso li thibetsoe.",
       open_listing: "ntho Ho thathamisa",
-      note: "ntho ntho , Meeli, foromo, ntho Moralo ntho Ho thathamisa Litlhophiso",
+      note: "Ha morao o ka lokisa boemo, meeli, liforomo, le moralo ka har'a Litlhophiso tsa Listing.",
       vendor_prereq_text:
         "Na u batla hore barekisi ba kenye lethathamo la lintho ho tsoa ho \"Vendor Panel\" ea bona? Ntlha ea pele, fetola mokhoa oa hau oa khoebo ho Marketplace.",
-      vendor_prereq_button: "ntho Mmaraka khoebo ntho",
+      vendor_prereq_button: "Beha mokhoa oa khoebo oa Marakeng",
 
       vendor_access_text:
-        "ntho ntho barekisi ntho Phihlello Ho thathamisa ntho (Lintho + Lik'hamphani). Thusa ntho ntho Mmaraka Litlhophiso",
+        "Joale o ka etsa qeto ea hore na barekisi ba ka fihlella likarolo tsa Lethathamo (lintho + lik'hamphani). E lumelle ho litlhophiso tsa Marketplace.",
       vendor_access_button: "Thusa Ho thathamisa ntho barekisi",
 
       more_options_text:
@@ -11241,26 +11241,26 @@ export default {
 
     search: {
       title: "batla Litlhophiso",
-      subtitle: "Moralo ntho Bareki batla ntho Ho thathamisa Thusa ntho batla ntho Haha Lisefe Ho tloha ntho Tloaelo foromo ntho",
+      subtitle: "Rala kamoo bareki ba batlang lethathamo la hau. Lumella ho batla ho ipapisitse le sebaka 'me u hahe lihloela ho tsoa likarolong tsa hau tsa tloaelo.",
 
       location_title: "Sebaka batla",
       location_subtitle: "Lumella bareki ho khetha sebaka le ho fumana liphetho tsa haufi le sebaka se ka lokisehang.",
-      location_enabled_true: "Sebaka Sefe ntho e lumelletsoe Bareki ntho batla ntho ntho",
+      location_enabled_true: "Setlhopha sa sebaka se butswe. Bareki ba ka batla ba le hole.",
       location_enabled_false: "Setlhopha sa sebaka se timiloe. Liphetho li ke ke tsa hlophisoa ho ea ka bohole.",
 
-      radius_default: "Ea kamehla ntho (ntho)",
+      radius_default: "Sebaka sa kamehla (km)",
       radius_default_hint: "E sebelisoa ha moreki a khetha sebaka empa a sa khethe radius.",
-      radius_max: "boholo ntho (ntho)",
-      radius_max_hint: "ntho ntho Ho ntho Boleng",
-      radius_options: "ntho ntho (ntho)",
-      radius_options_hint: "ntho ntho UI.",
+      radius_max: "Boholo ba radius (km)",
+      radius_max_hint: "Sebaka se ka pele sa lebenkele se tla hatelloa ho boleng bona.",
+      radius_options: "Likhetho tsa radius (km)",
+      radius_options_hint: "Lintlha tsena li ka hlahisoa e le likhetho tse potlakileng ho UI e ka pele ea lebenkele.",
 
       filters_title: "batla Lisefe",
       filters_subtitle: "Kenya li-filters tse balang boleng ho tsoa ho meta ea lintlha (mabala a hau a lethathamo / mofuta oa sehlopha). Sebelisa Auto-generate ho bokella likhetho tsa 'nete ho tsoa linthong tse hatisitsoeng.",
       no_filters: "che Lisefe Eketsa ntho",
-      auto_generate: "ntho ntho",
+      auto_generate: "Likhetho tsa ho iketsetsa",
 
-      filter_field: "ntho ntho",
+      filter_field: "Senotlolo sa tšimo",
       filter_label: "ntho",
       filter_type: "Mofuta",
       filter_options: "ntho",
@@ -11323,13 +11323,13 @@ export default {
      */
     shop_email: {
       name: [
-        "ntho ntho ",
+        "Super Savings Weekend Blast",
         "Lipehelo tse Ikhethang tsa Insider li Senotsoe",
         "Phihlello ea hau ea VIP ho Litheolelo tsa Premium",
-        "ntho Thekiso ntho",
+        "Seasonal Sale Extravaganza",
         "Notlolla Paradeise ea Hao ea Mabenkele",
         "Carnival ea Grand Shopper",
-        "LESELE15 ntho ntho ntho",
+        "Spring Fling Shopping Spree",
         "Lipehelo tsa Autumn tseo u ke keng ua li Hanela",
         "Limakatso tsa Mariha: Litšebelisano tse Mofuthu bakeng sa Matsatsi a Cold",
         "Qetello ea Lehlabula Nako ea ho Hlakola",
@@ -11388,7 +11388,7 @@ export default {
       ],
       title: [
         "Thekiso ea Flash: 20% Phokotso!",
-        "VIP ntho Phihlello Theolelo",
+        "VIP Early Access Discount",
         "Tšebeliso ea Mafelo-beke: Boloka Hona Joale!",
         "Natefeloa ke Phokotso ea 15% Kajeno",
         "Thekiso ea Lehlabula: E Eketsehileng 10% Phokotso",
@@ -11397,21 +11397,21 @@ export default {
         "2-for-1: Kajeno Feela!",
         "Tse khethehileng tsa Matsatsi a Phomolo: 25% Phokotso",
         "Exclusive 30% Theolelo",
-        "Makala! E Eketsehileng 20% Phokotso",
+        "Makala! E Eketsehileng 20% ​​Phokotso",
         "Lipolokelo tsa Nako ka Hare",
         "Bohlanya ba Har'a Beke: Phokotso ea 10%.",
         "E fela Haufinyane: 15% Off Tsohle",
         "Lelapa le Metsoalle: Phokotso ea 20%.",
         "Poloko e Kholo Bekeng Ena",
-        "ntho ntho: 40% ntho",
+        "Black Friday: 40% Off",
         "Phokotso ea Sneak Peek: Theolelo ea 30%.",
       ],
       description: [
         "Kopa tlhahiso ea hau e khethehileng! Nako e lekanyelitsoeng feela.",
-        "Potlaka! Ho tla bolokoa ka ho khetheha ka kariking ea hau.",
+        "Potlaka! Ho tla bolokoa ka mokhoa o ikhethileng kariking ea hau.",
         "Ho boloka chelete e ngata ke hang feela!",
         "Sebelisa monyetla oa tumellano ena pele e fela.",
-        "Theolelo e khethehileng e emetse! Seke oa fetoa.",
+        "Ho letile theolelo e khethehileng! Seke oa fetoa.",
         "Matlafatsa moea oa hau oa ho reka ka tlhahiso ea rona!",
         "Odara ea hau e latelang e ka ba tlase ho feta kamoo u nahanang!",
         "Ke nako e nepahetseng ea ho nka ntho eo u e batlang.",
@@ -11431,11 +11431,11 @@ export default {
      */
     coupon: {
       title: [
-        "ntho ntho",
+        "Savings Unleashed",
         "Notlolla Theolelo",
-        "ntho ntho",
+        "Super Savings",
         "Tšebelisano e Ikhethileng",
-        "ntho ntho",
+        "Bonus Savings",
         "VIP Thekotso",
         "Tlhahiso e Khethehileng",
         "Poloko e Eketsehileng",
@@ -11444,10 +11444,10 @@ export default {
         "Thabo ea Moruo",
         "Boleng Bonanza",
         "Theko e Fokotsoeng",
-        "ntho ntho",
+        "Happy Savings",
         "Boloka Haholoanyane, Reka Tse ling",
-        "ntho ntho",
-        "ntho ntho",
+        "Flash Deal",
+        "Bargain Bounty",
         "Ho boloka hanghang",
         "Tšebelisano ea Letsatsi",
         "Ho Utsoa ka Nako",
@@ -11599,9 +11599,9 @@ export default {
       ],
 
       cons_name: [
-        "ntho ntho",
+        "Pricey Investment",
         "Tšebelisano e Lekanyelitsoeng",
-        "ntho lebenkeleng",
+        "Complex Setup",
         "E Hloka Koetliso",
         "Ts'ebetso ea Subpar",
         "E hloka ho Fetolana",
@@ -11630,13 +11630,13 @@ export default {
      */
     blog_category: {
       category: [
-        "ntho ntho",
+        "Tech Insights",
         "Foodie Fumana",
         "Lipale Tsa Maeto",
         "Malebela a Bophelo bo Botle",
         "Feshene Faves",
         "Buzz ea khoebo",
-        "ntho ntho",
+        "Lifestyle Stories",
         "Lintlafatso tsa Lipapali",
         "Lintlha-khōlō tsa Art",
         "Litsupa Tsa Botsoali",
@@ -11660,9 +11660,9 @@ export default {
      */
     partner_plan: {
       name: [
-        "ntho ntho",
+        "Starter Pack",
         "Morero oa Bohlokoa",
-        "ntho ntho",
+        "Professional Suite",
         "Khatiso ea Khoebo",
         "Boemo bo tsoetseng pele",
         "Sephutheloana sa Premium",
@@ -11707,10 +11707,10 @@ export default {
         "HST", // Harmonized Sales Tax
         "QST", // Quebec Sales Tax
         "CST", // Central Sales Tax
-        "ntho", // Excise Tax
-        "ntho", // Import Duty
-        "ntho", // Service Tax
-        "ntho", // Luxury Tax
+        "ExciseTax", // Excise Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
+        "LuxuryTax", // Luxury Tax
       ],
     },
     /**
@@ -11768,24 +11768,24 @@ export default {
       name: [
         "Reka 'Til You Drop",
         "Ho hlanya kariki",
-        "ntho Thekiso ntho",
+        "Flash Sale Fiesta",
         "Tobetsa, Reka, Boloka",
         "Papali ea Bonanza",
-        "ntho ntho",
-        "ntho ntho ntho",
-        "ntho ntho ntho",
+        "E-Deal Extravaganza",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Matsatsi a Phokotso a Dijithale",
-        "ntho ntho",
-        "ntho ntho ntho",
-        "ntho ntho",
+        "E-Commerce Carnival",
+        "Online Outlet Oasis",
+        "Retail Rush",
         "Thekiso ea Warehouse ea Webstore",
         "E-Shopper's Paradeise",
-        "ntho ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
+        "Virtual Voucher Venture",
+        "Digital Doorbusters",
+        "E-Cart Clearance",
         "Pontšo ea ho reka ka Marang-rang",
-        "Thekiso ea Cyber e Hlollang",
-        "ntho ntho",
+        "Thekiso ea Cyber ​​​​e Hlollang",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11797,12 +11797,12 @@ export default {
         "Theko ea ho Itloaetsa T-Shirt",
         "Tekanyetso ea Mabenyane a entsoeng ka letsoho",
         "Litheko tsa Lieta tse ikhethileng",
-        "Tloaelo ntho ntho",
+        "Custom Artwork Valuation",
         "Tailored Suit Priceing",
         "Litšenyehelo tsa ho Itloaetsa Lisebelisoa tsa Elektronike",
         "Tekanyetso ea Perfume ka Motho",
         "Theko e Tloaelehileng ea Mokotla",
-        "ntho ntho ntho",
+        "Tailored Dress Valuation",
         "Litefiso tsa Sekoahelo sa Libuka tse ikhethileng",
         "Theko ea Theko ea Thepa e Tloaelehileng",
         "Bespoke Watch Theko",
@@ -11812,7 +11812,7 @@ export default {
         "Bespoke Home Decor Prices",
         "Tekanyetso ea Kitchenware e ikhethileng",
         "Litheko tsa Sengoloa tse ikhethileng",
-        "ntho ntho ",
+        "Bespoke Hair Accessory Valuation",
         "Theko e Tloaelehileng ea Lisebelisoa tsa Lipapali",
       ],
       structure: {
@@ -11827,9 +11827,9 @@ export default {
           "Thepa ea Mokotla le Boholo",
           "Bolelele ba Moaparo le Setaele",
           "Sekoahelo sa Buka",
-          "Thepa ea ka tlung ntho Mofuta",
+          "Furniture Wood Type",
           "Shebella Strap Material",
-          "ntho Tloaelo ntho",
+          "Toy Custom Features",
           "Boholo ba katiba le Mmala",
           "Likhetho tsa Setsoako sa Skincare",
           "Theme ea Khabiso ea Lehae",
@@ -11847,22 +11847,22 @@ export default {
     lottery: {
       title: [
         "Spin & Fumana Likhau tse kholo!",
-        "ntho ntho ntho",
-        "ntho ntho ntho",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Spin ho Hlōla Meputso",
         "Lebili la Leruo",
         "Lehlohonolo Lottery Extravaganza",
         "Mega Spin Makatsa",
         "Moputso oa Wheel Fiesta",
         "Treasure Spin E Khahlehang",
-        "ntho ntho ",
-        "ntho ntho ntho",
+        "Spin the Wheel Magic",
+        "Lucky Wheel Galore",
         "Mohau wa Fortune",
         "Lebili la Mehlolo",
         "Spin bakeng sa Maruo",
         "Moputso Spinner Thabo",
         "Khauta Spin Lottery",
-        "ntho",
+        "Spin-a-Prize",
         "Lebili la Mahlohonolo",
         "Lehlohonolo Spin Showcase",
         "Ultimate Spin Moputso",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "ntho Phihlello",
-        "ntho ntho",
-        "ntho sephutheloana",
-        "ntho Rera",
-        "ntho Ngoliso",
-        "ntho ntho",
-        "ntho ntho",
-        "Ha ho moeli Nehelano",
-        "ntho ntho",
-        "ntho ntho",
+        "Phihlello ea Motheo",
+        "Botho ba Premium",
+        "Khauta Pakete",
+        "Silver Plan",
+        "Ngoliso ea Platinum",
+        "Sehlopha sa Khoebo",
+        "Starter Bundle",
+        "Unlimited Offer",
+        "Pakete ea Lelapa",
+        "Professional Suite",
       ],
       description: [
-        "ntho ntho ",
-        "Phihlello Ho kaofela ntho ntho ",
-        "ntho ntho ntho Ea pele Tšehetso",
+        "E loketse batho ba ithutang lintho tsa motheo.",
+        "Ho fihlella likarolo tsohle tsa premium le litaba.",
+        "Melemo e khethehileng le tšehetso e tlang pele.",
         "Sephutheloana se leka-lekaneng bakeng sa basebelisi ba kamehla.",
-        "ntho Phihlello ntho ntho ntho",
-        "Tloaelo ntho ntho ",
-        "ntho ntho ",
+        "Phihlello ea ho qetela ka melemo ea maemo a holimo.",
+        "Litharollo tsa tloaelo bakeng sa mekhatlo e meholo.",
+        "Khetho ea ho kena ka theko e tlase.",
         "Ha ho na meeli ea tšebeliso, bakeng sa mosebelisi oa matla.",
         "Morero o khethehileng bakeng sa malapa, ho fihlela ho litho tse 4.",
-        "ntho ntho E tsoetseng pele Lisebelisoa",
+        "E etselitsoe litsebi tse batlang lisebelisoa tse tsoetseng pele.",
       ],
     },
 
     spec: {
       group: [
         "Litlhaloso tsa Tekheniki",
-        "ntho ntho",
-        "Tshebetso ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "Material ntho Haha ntho",
-        "Mmala ntho Qetella ntho",
-        "ntho ntho ntho",
-        "ntho ntho ntho",
-        "ntho ntho ntho",
-        "sephutheloana ntho",
-        "tiisetso ntho Tšehetso",
-        "ntho ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "Mosebedisi ntho ntho Maikutlo",
-        "Theko ntho ntho",
+        "Litekanyo tsa 'Mele",
+        "Likarolo tsa Ts'ebetso",
+        "Dikgetho tsa kgokelo",
+        "Litlhoko tsa Matla",
+        "Boitsebiso le Boleng ba ho Haha",
+        "Mebala le Likhetho tsa Qetella",
+        "Polokelo le Mehopolo",
+        "Tšebelisano ea Tsamaiso ea Ts'ebetso",
+        "Polokeho le Boikamahanyo",
+        "Litaba tsa Sephutheloana",
+        "Warranty le Tšehetso",
+        "Brand le Moetsi",
+        "Botsoalle ba Tikoloho",
+        "Matla a Matla",
+        "Tlhokomelo le Tlhokomelo",
+        "Dikgetho tsa ho itlhophisa",
+        "Kenyellelitsoe Lisebelisoa",
+        "Lintlha le Maikutlo a Basebelisi",
+        "Theko le Boteng",
       ],
     },
 
     avocado: {
       title: [
-        "Reka ntho",
-        "Thekiso ntho",
-        "Taelo invoice",
-        "Tefo invoice",
-        "moreki ntho",
-        "transaction ntho",
-        "Tefiso ntho",
-        "Sheba ntho",
-        "Taelo ntho",
-        "Reka Taelo invoice",
-        "Thekiso ntho",
-        "ntho invoice",
-        "ntho",
-        "tshebeletso invoice",
-        "Sehlahisoa invoice",
-        "Tefo ntho",
+        "Receipt ea ho Reka",
+        "Netefatso ya Sale",
+        "Invoice ea odara",
+        "Invoice ea Tefo",
+        "Receipt ea Bareki",
+        "Kakaretso ea Transaction",
+        "Tlaleho ea Tefiso",
+        "Receipt ea Checkout",
+        "Kakaretso ea Taelo",
+        "Reka Invoice ea Odara",
+        "Receipt ea Thekiso",
+        "Invoice ea Retail",
+        "E-Receipt",
+        "Invoice ea litšebeletso",
+        "Invoice ea Sehlahisoa",
+        "Receipt ea Tefo",
         "Netefatso ya Taelo",
-        "Tefiso invoice",
-        "Sheba invoice",
-        "moreki invoice",
+        "Invoice ea Tefiso",
+        "Invoice ea ho tsoa",
+        "Invoice ea bareki",
       ],
       message: [
-        "ntho ntho Reka!",
-        "ntho ntho ntho khoebo",
-        "ntho Taelo ntho ntho !",
-        "ntho ntho ",
-        "ntho ntho Ho ntho ntho ntho",
-        "ntho ntho Ea pele",
-        "ntho ntho Ho ntho ntho ntho",
+        "Kea leboha ha u rekile!",
+        "Re ananela khoebo ea hau.",
+        "Odara ea hau e tseleng!",
+        "Re leboha ho reka le rona.",
+        "Ke lebeletse ho u sebeletsa hape.",
+        "Khotsofalo ea hau ke eona ntho e tlang pele bophelong ba rona.",
+        "Se ke oa lebala ho lekanya boiphihlelo ba hau.",
         "Kea leboha ka ho tšehetsa lebenkele la rona.",
-        "ntho ntho E ncha Reka!",
+        "Re tšepa hore u tla thabela theko ea hau e ncha!",
         "Boloka invoice ea hau hore u e sebelise nakong e tlang.",
         "Re etele hape bakeng sa lihlahisoa tse ling tse monate.",
-        "ntho E hokahane ntho ntho Litlhahiso",
-        "ntho ntho moreki",
-        "ntho ntho Ho thuso ntho ntho ",
-        "ntho Maikutlo thuso ntho ntho",
+        "Lula u hokahane bakeng sa litefiso tse khethehileng.",
+        "Kea leboha ka ho ba moreki oa bohlokoa.",
+        "Re mona ho u thusa haeba u hloka thuso.",
+        "Maikutlo a hau a re thusa ho ntlafatsa.",
         "Natefeloa ke theolelo e khethehileng ha u reka nakong e tlang.",
-        "ntho ntho !",
-        "ntho ntho ",
-        "ntho ntho Ho ntho Maikutlo",
-        "ntho ntho Ho tloha ntho ntho",
+        "U entse khetho e ntle haholo!",
+        "Kea leboha ka ts'epo ea hau ho rona.",
+        "Re lebeletse maikutlo a hau.",
+        "Ke leboha ho tsoa botebong ba pelo ho tsoa sehlopheng sa rona.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "ntho ntho",
-        "morekisi ntho",
-        "ntho leqephe la lapeng",
-        "ntho ntho",
+        "Thepa Showcase",
+        "Plaza ea barekisi",
+        "Matlo a Hlahetsoeng",
+        "Mmaraka oa Lehae",
         "Ba Fihla Ba Bacha",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "Mabenyane ntho",
-        "ntho ntho",
-        "ntho ntho",
+        "Lirapa tsa Estate",
+        "Setereke sa Mabenkele",
+        "Artisan Alley",
+        "Libaka tsa Bokhabane",
+        "Setsi sa Renta",
+        "Matlo a Bulehileng",
+        "Mekhoa e mecha ea theknoloji",
+        "Feshene Lane",
+        "Crafts Corner",
+        "Lekhotla la Lijo",
+        "Buka ea Nook",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Fitness Zone",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "khoebo ntho ntho",
-        "Lekhetho ntho ntho (TIN)",
-        "morekisi ntho foromo",
-        "Sehlahisoa ntho",
-        "Theko Lenane",
-        "Banka Akhaonto Lintlha",
-        "ntho ntho aterese",
-        "ntho ntho",
-        "Khampani boemo",
-        "ntho ntho ntho",
-        "ntho Lintlha leqephe (SDS)",
-        "Sehlahisoa tiisetso tlhahisoleseding",
-        "Kgutla leano",
-        "Ho tsamaisa ka sekepe ntho ntho ntho",
-        "moreki tshebeletso leano",
-        "Papatso ntho ntho Merero",
-        "ntho ntho Lihokelo",
-        "ntho ntho",
-        "ntho Khoutu ntho ntho",
-        "ntho ntho (NDA)",
+        "Setifikeiti sa Ngoliso ea Khoebo",
+        "Nomoro ea Boitsebiso ea Lekhetho (TIN)",
+        "Foromo ea Tumellano ea barekisi",
+        "Catalog ea Lihlahisoa",
+        "Lethathamo la Litheko",
+        "Lintlha tsa Akhaonto ea Banka",
+        "Bopaki ba Aterese",
+        "Setifikeiti sa inshorense",
+        "Boemo ba Khoebo",
+        "Setifikeiti sa Tiisetso ea Boleng",
+        "Leqephe la Boitsebiso ba Tšireletso (SDS)",
+        "Tlhahisoleseding ea Tiisetso ea Sehlahisoa",
+        "LEANO LA THEPA E KHUTLISOANG",
+        "Mekhoa ea ho Romela le ho Tšoaroa",
+        "Leano la Tšebeletso ea Bareki",
+        "Merero ea Papatso le Phatlalatso",
+        "Lihokelo tsa Mecha ea Sechaba",
+        "Litšupiso tsa Khoebo",
+        "Melao ea Boitšoaro ea Bafani",
+        "Tumellano eo e seng ea Phatlalatso (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Mmaraka lebenkeleng Litšebeletso ntho",
-        "Reka ntho ntho",
-        "ntho Litšebeletso ntho",
-        "ntho Papatso tshebeletso ntho",
-        "ntho ntho lebenkeleng ntho",
+        "Tumellano ea Litšebeletso tsa ho Hlophisa Maraka",
+        "Lebenkele Configuration Contract",
+        "Tumellano ea Litšebeletso tsa Printa-On-Demant",
+        "Digital Marketing Service Agreement",
+        "Tumellano ea ho Hloma Platform ea E-commerce",
         "Setsebi Consultancy Contract bakeng sa Beng ba Khoebo",
-        "tshebeletso ntho ntho Mmaraka ntho",
-        "Reka lebenkeleng ntho ntho Litšebeletso ntho",
-        "POD tshebeletso ntho ntho",
-        "Papatso ntho ntho ntho",
-        "khoebo ntho tshebeletso ntho",
-        "ntho lebenkeleng lebenkeleng ntho",
-        "Setsebi tshebeletso ntho ntho",
-        "khoebo ntho ntho lebenkeleng ntho",
-        "Tloaelo Reka lebenkeleng Litšebeletso ntho",
-        "Mmaraka ntho tshebeletso ntho",
-        "ntho ntho lebenkeleng Litšebeletso ntho",
-        "POD ntho Litšebeletso ntho",
-        "Papatso ntho ntho Litšebeletso ntho",
-        "khoebo ntho tshebeletso ntho",
+        "Tumellano ea Ts'ebeletso bakeng sa Tlhophiso ea 'Maraka",
+        "Konteraka ea Litšebeletso tsa Setupo le Litlhophiso",
+        "Tumellano ea ho fana ka litšebeletso tsa POD",
+        "Tumellano ea Phethahatso ea Leano la Papatso",
+        "Konteraka ea Tšebeletso ea Ntšetso-pele ea Khoebo",
+        "Tumellano ea ho Hlophisa Lebenkele la E-commerce",
+        "Tumellano ea Phano ea Tšebeletso ea Setsebi",
+        "Litharollo tsa Khoebo le Konteraka ea ho Seta",
+        "Custom Shop Setup Services Agreement",
+        "Tumellano ea Ts'ebeletso ea Ntlafatso ea 'Maraka",
+        "Consulting le Setupo Services Contract",
+        "Tumellano ea Litšebeletso tsa Kopano ea POD",
+        "Konteraka ea Litšebeletso tsa Papatso le Phatlalatso",
+        "Tumellano ea Tšebeletso ea Katoloso ea Khoebo",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "sehlooho Sepache",
-        "khoebo Akhaonto",
-        "Motho ka mong Sepache",
-        "ntho Sepache",
-        "ntho Akhaonto",
-        "Ea mantlha Sepache",
-        "ntho Akhaonto",
-        "ntho Sepache",
-        "transaction Sepache",
-        "ntho Akhaonto",
+        "Sepache se ka Sehloohong",
+        "Akhaonto ea Khoebo",
+        "Sepache sa Motho",
+        "Savings Wallet",
+        "Litšenyehelo Account",
+        "Sepache sa mathomo",
+        "Akhaonto e Akaretsang",
+        "Sepache sa polokelo",
+        "Transaction Wallet",
+        "Account Account",
       ],
     },
 
@@ -12099,34 +12099,34 @@ export default {
      */
     cashback: {
       title: [
-        "Reka & ntho pusetso ea chelete",
-        "ntho ntho pusetso ea chelete",
-        "ntho pusetso ea chelete Litlhahiso",
-        "pusetso ea chelete ntho",
-        "ntho pusetso ea chelete Litšebelisano",
-        "ntho pusetso ea chelete ntho",
-        "ntho pusetso ea chelete Matsatsi a 30",
-        "pusetso ea chelete ntho ntho Reka",
-        "pusetso ea chelete ntho",
-        "VIP pusetso ea chelete ntho",
-        "ntho Nako pusetso ea chelete",
-        "pusetso ea chelete ntho Sehlopha",
-        "Reka Hape. ., Boloka Hape. .",
-        "ntho pusetso ea chelete ntho",
-        "pusetso ea chelete ntho",
+        "Reka 'me U fumane Chelete ea Chelete",
+        "Botšepehi Meputso Cashback",
+        "Litlhahiso tse ikhethang tsa Cashback",
+        "Cashback Bonanza",
+        "Lipehelo tsa Chelete ea Hang-hang",
+        "Lipolokelo tsa Cashback tsa nako",
+        "Matsatsi a mabeli a ho khutlisa chelete",
+        "Chelete ea chelete ho Theko e 'ngoe le e 'ngoe",
+        "Moferefere oa ho khutlisa chelete",
+        "Lenaneo la VIP Cashback",
+        "Chelete ea Nako e Lekanyelitsoeng",
+        "Sehlopha sa Meputso ea Cashback",
+        "Reka Tse ling, Boloka Tse ling",
+        "Meputso ea Ultimate Cashback",
+        "Cashback Extravaganza",
       ],
       description: [
-        "ntho pusetso ea chelete ntho ntho Reka!",
-        "ntho ntho ",
+        "Fumana chelete ka theko e 'ngoe le e 'ngoe!",
+        "Fumana moputso bakeng sa botšepehi ba hao.",
         "Litlhahiso tse khethehileng tsa ho khutlisa chelete bakeng sa hau.",
-        "ntho ntho pusetso ea chelete ntho",
+        "Natefeloa ke ho boloka chelete e ngata ka meputso ea ho khutlisa chelete.",
         "Khutlisetsa hanghang linthong tsohle tseo u li ratang.",
-        "Boloka Hape. . ntho ntho pusetso ea chelete Litšebelisano",
+        "Boloka chelete e ngata ka litumellano tsa ho khutlisa chelete.",
         "Habedi puseletso ya hao ya tjhelete ka matsatsi a kgethehileng!",
-        "ntho pusetso ea chelete ntho Nako ntho Reka",
-        "ntho ntho pusetso ea chelete ntho Kajeno!",
-        "VIP ditho ntho ntho pusetso ea chelete",
-        "ntho! ntho Nako pusetso ea chelete Litlhahiso",
+        "Fumana chelete hape nako le nako ha u reka.",
+        "Eba le moferefere oa ho khutlisa chelete kajeno!",
+        "Litho tsa VIP li natefeloa ke ho khutlisa chelete e khethehileng.",
+        "Potlaka! Litlhahiso tsa nako e lekanyelitsoeng tsa ho khutlisa chelete.",
         "Eba setho sa sehlopha sa rona sa Meputso ea Cashback hona joale.",
         "Ha u reka haholo, u boloka chelete e ngata.",
         "Notlolla meputso ea ho qetela ea ho khutlisa chelete.",
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "AMOHELANG10 Ho {shop} - ntho ntho Lintho",
-        "{shop} - ntho ntho tshebeletso",
-        "Litheko tse Ikhethang le Lipoloko Feela ho {shop} - Sebelisa Monyetla ona!",
-        "Tseba {shop} Boinehelo ba {shop} mabapi le ho sebelisana hantle le tikoloho le Mekhoa ea Boitšoaro",
-        "Eba Karolo ea {shop} Lelapa - Ingolise ho Leselinyana la Rōna bakeng sa Lintlafatso",
-        "ntho ntho {shop}",
-        "ntho ntho kaofela Liketsahalo ntho {shop}",
-        "Litlhahiso tse sa Bapisoeng le Lintho Tse Amanang le Nako ho {shop} - Etsa ka Potlako!",
-        "{shop} Malebela a Phethahetseng a Ho Reka le Tekolo ea Sehlahisoa - Reka ka Boitšepo",
-        "Ikopanye le {shop} - Re leka ka matla ho fana ka mokhoa o ke keng oa bapisoa oa ho Reka",
+        "Rea u amohela ho {shop} - Hlahloba Mefuta ea Rōna e Ikhethang ea Lintho",
+        "{shop} - Mohloli oa Hao oa ho qetela oa Thepa ea Boleng le Tšebeletso e Hlollang",
+        "Litheko le Lipoloko tse Ikhethang Feela ho {shop} - Sebelisa Monyetla ona!",
+        "Tseba Boinehelo ba {shop} ho Eco-friendlyness le Mekhoa ea Boitšoaro.",
+        "Eba Karolo ea Lelapa la {shop} - Ingolise ho Leselinyana la Rōna bakeng sa Lintlafatso",
+        "Ikakhetse ka setotsoana ho Likhetho tse Hloahloa le Thepa e Kenyellelitsoeng Haholo ho {shop}",
+        "Mehopolo le Litlhahiso tsa Tlhahiso bakeng sa Liketsahalo Tsohle ho {shop}",
+        "Litlhahiso tse sa Feleng le Lintho tse ikhethileng tse sa tsotelleng Nako ho {shop} - Etsa ka potlako!",
+        "Malebela a Phethahetseng a Ho Reka le Tekolo ea Sehlahisoa ea {shop} - Reka ka Tšepo",
+        "Finyella ho {shop} - Re ikitlaelletsa ho Fana ka Boiphihlelo ba ho Reka bo ke keng ba Bapisoa.",
       ],
     },
 
@@ -12158,24 +12158,24 @@ export default {
     cross_selling: {
       message: [
         "Tlatsa ponahalo ea hau, tšoara sete!",
-        "Boloka ntho ntho Litšebelisano!",
-        "ntho ntho !",
-        "ntho ntho Reka, ntho ntho!",
-        "ntho ntho ntho, Reka ntho!",
-        "ntho Lintho, ntho theolelo!",
+        "Boloka chelete e ngata ka litheko tsa rona tsa bongata!",
+        "Se ke oa fetoa ke lipara tsa rona tse phethahetseng!",
+        "Ntlafatsa theko ea hau, li-add-on li emetse!",
+        "Notlolla lipolokelo tse ikhethileng, reka hammoho!",
+        "Lintho tse tlatselletsang, litheolelo tse khethehileng!",
         "Fumana ho eketsehileng, sebelisa hanyenyane - bokella!",
-        "ntho Nehelano: ntho Lihlahisoa!",
-        "ntho ntho ntho, ntho Litšebelisano!",
-        "ntho ntho , Boloka ntho!",
-        "ntho ntho !",
-        "Reka ntho, ntho ntho Boloka!",
+        "Tlhahiso ea nako e lekanyelitsoeng: lihlahisoa tse tsamaellanang!",
+        "Ntlafatsa boiphihlelo ba hau, litheko tsa combo!",
+        "Fumana li-combos tsa rona tse hlophisitsoeng, boloka hona joale!",
+        "E kopanye bakeng sa combo ea ho qetela!",
+        "Reka bohlale, bokella 'me u boloke!",
         "Boleng ba habeli, thabo e habeli!",
-        "ntho ntho – Reka ntho!",
+        "Papali ea hau e phethahetseng e teng - reka hona joale!",
         "Litheko tse ikhethang tsa bongata molemong oa hau!",
-        "ntho ntho !",
-        "ntho ntho !",
+        "Eketsa chelete eo u e bolokileng ka li-combos tsa rona!",
+        "Ntlafatsa pokello ea hau ka likhetho tsena!",
         "E etselitsoe uena: bapisa 'me u boloke!",
-        "ntho ntho !",
+        "Banyalani ba phethahetseng bakeng sa letsatsi le phethahetseng!",
         "Kopanya lintho tseo u li ratang haholo bakeng sa ho boloka chelete e eketsehileng!",
       ],
     },
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "ntho ntho",
-        "ntho",
-        "ntho",
-        "ntho",
-        "Lehae ntho",
-        "ntho Lihlahisoa",
-        "ntho ntho",
+        "Dijithale Thepa",
+        "Libuka",
+        "Tsa elektroniki",
+        "Feshene",
+        "Lisebelisoa tsa Lehae",
+        "Lihlahisoa tsa Botle",
+        "Lisebelisoa tsa Lipapali",
         "Lipapali le Lipapali",
         "Lijo",
         "Thepa ea ka tlung",
         "Likarolo tsa Likoloi",
         "Mabenyane",
-        "ntho & ntho",
+        "Bophelo bo Botle le Bophelo bo Botle",
         "Thepa ea liphoofolo tse ruuoang lapeng",
         "Lisebelisoa tsa Ofisi",
-        "ntho & ntho",
-        "ntho & TV Bontša",
-        "ntho",
-        "ntho & ntho",
-        "ntho ntho",
+        "'Mino le Liletsa",
+        "Lifilimi le Mananeo a TV",
+        "Software",
+        "Art & Crafts",
+        "Lisebelisoa tsa Kantle",
       ],
     },
 
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Netefatso ya Taelo",
-        "Taelo E rometsoe",
-        "Taelo E filwe",
-        "Tefo E amohetse",
-        "Taelo ntho",
-        "Taelo ntho ntho",
-        "Taelo ntho ntho",
-        "Taelo ntho ntho Phano",
-        "Kgutla ntho",
-        "pusetso ntho",
-        "ntho Morao ntho ntho",
+        "Odara e Rometsoe",
+        "Odara e Fanoe",
+        "Tefo e Amogetswe",
+        "Odara e Hlakotsoe",
+        "Ho lieha ho sebetsa ha odara",
+        "Order On Hold",
+        "Odara E Tsoa Bakeng sa Delivery",
+        "Khutlisa E sebelitsoe",
+        "Puseletso e fanoe",
+        "Ntho e Khutletse Setokong",
       ],
       body: [
         "Lumela {buyer_name}, odara ea hau #{order_id} e tiisitsoe! Re ntse re e sebetsa, 'me re tla u tsebisa ha e se e loketse ho romelloa.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "ntho",
-        "ntho ntho",
-        "ntho",
+        "Moaparo",
+        "Lisebelisoa tsa Dijithale",
+        "Lino",
         "Lijo",
         "Thepa ea ka tlung",
-        "ntho",
-        "ntho Lihlahisoa",
-        "ntho",
-        "ntho ntho",
-        "ntho",
+        "Libuka",
+        "Lihlahisoa tsa Botle",
+        "Lintho tsa ho bapala",
+        "Lisebelisoa tsa Lipapali",
+        "Lisebelisoa",
       ],
       description: [
         "Litšobotsi tsa lintho tsa liaparo tse kang boholo, 'mala, le lesela.",
         "Litlhaloso tsa lisebelisoa tse kang mofuta, mofuta le likarolo.",
         "Litatso, boholo, le mefuta ea lino tse tahang.",
         "Lintlha mabapi le lijo, li-snacks, le lihlahisoa tsa lijo.",
-        "Material, ntho, ntho Moralo ntho",
-        "Mongoli, ntho, ntho ntho ntho",
+        "Thepa, boholo, le mekhoa ea moralo.",
+        "Mongoli, mofuta, le selemo sa khatiso.",
         "Mofuta oa letlalo, metsoako le lintlha tsa ho paka.",
         "Sehlopha sa lilemo, lisebelisoa, le litekanyetso tsa polokeho.",
-        "Mofuta, ntho, ntho Tshebetso ntho",
-        "ntho, ntho, ntho ntho Lintlha",
+        "Mofuta, boholo, le likarolo tsa ts'ebetso.",
+        "Litaele, lisebelisoa, le lintlha tsa lebitso.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "ntho XS",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho XL",
-        "ntho XXL",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho",
-        "ntho ntho ntho",
-        "ntho ntho ntho", // flexible mailer
-        "ntho ntho", // bubble/padded
-        "ntho ntho", // thermal
-        "ntho ntho",
+        "Lebokose la XS",
+        "Lebokose la S",
+        "Lebokose la M",
+        "Lebokose la L",
+        "Lebokose la XL",
+        "Lebokose la XXL",
+        "Lebokose le Slim",
+        "Lebokose le Sephara",
+        "Lebokose le Letelele",
+        "Lebokose le Flat",
+        "Lebokose la Cube",
+        "Lebokose la Tube",
+        "Lebokose la Fragile",
+        "Lebokose la Libotlolo tsa Khalase",
+        "Lebokose la Soft Pack", // flexible mailer
+        "Lebokose le Pakiloeng", // bubble/padded
+        "Lebokose le Insulated", // thermal
+        "Lebokose le Boima-Boima",
       ],
     },
   },

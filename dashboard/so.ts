@@ -635,7 +635,7 @@ export default {
 
       show_notes: {
         false_title: "Qari shay",
-        false_description: "Qari shay shay",
+        false_description: "Qari qoraallada madhan.",
         true_title: "Muuji shay",
         true_description: "Muuji dhammaan shay, ⌘Ctrl+2",
       },
@@ -958,7 +958,7 @@ export default {
             "Waxaa ku jira kharashyada caymiska iyo adeegyada kale sida kharashyada COD.",
           price_cof_input_dim: "shay {dim}",
           distance_weight_cof_input: "Kharashka ku dhufashada miisaan dhufashada",
-          distance_weight_cof_input_dim: "shay shay {weight} shay {distance}",
+          distance_weight_cof_input_dim: "{weight} kasta {distance}",
           free_shipping_input: "Maraakiibta free",
           free_shipping_limit_input: "Qiimaha dalbashada ugu yar ee dhoofinta bilaashka ah",
 
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Qaybta",
-      category_input_msg: "shay: shay shay Dukaamada shay",
+      category_input_msg: "Madhan: Xididka dukaanka",
       product_name: "Magaca alaabta*",
       product_name_placeholder: "Magaca alaabtaada halkan",
       product_code: "Koodhka badeecada (Ingiriis)",
       sku: {
         label: "SKU",
-        message: "shay shay Unug",
+        message: "Unugga Kaydka Kaydka",
       },
       mpn: {
         label: "MPN",
-        message: "shay shay shay",
+        message: "Qaybta wax-soo-saarka",
       },
 
       external_link: "Xiriirinta dibadda",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Fadlan kaydi badeecada marka hore, ka dibna waxaad ku meelayn kartaa nooc qiimayn ah.",
         assign_valuation_message:
-          "shay shay Ku shay Alaabta",
+          "Fadlan u qoondee qaabka qiimaynta alaabtan.",
         edit_pricing_action: "Wax ka beddel Qiimaha foom",
         add_pricing_action: "Abuur Cusub Qiimaha foom",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Caado Iibso shay",
         message:
           "Waxaad bedeli kartaa summada adiga oo raacaya qaabkan: {icon name} qoraal kooban...",
-        placeholder: "shay shay Ku shay",
+        placeholder: "Geli wicitaanka ficilka...",
         multi_language_dialog_title: "Caado Iibso shay shay",
       },
       external: {
         not_available_message:
           "Ficil dheeri ah oo la heli karo shatiyada Shirkadda & Ganacsiga.",
         available_message: "Waxaad ku dari kartaa wicitaan dibadeed oo dheeri ah ficil.",
-        input_label: "shay shay Ku shay",
+        input_label: "Wacitaanka Labaad ee Ficil",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Qiimaha la taageeray waa UPC (Waqooyiga Ameerika, 12 nambar), EAN (Europe, 13 nambar), JAN (Japan, 8 ama 13 nambar), ISBN (buugaag, 13 nambar).",
-        label: "Alaabta shay shay shayga shay",
-        placeholder: "shay shay (ikhtiyaari)",
+        label: "Nambarka Shayga Ganacsiga Caalamiga ah ee Alaabta",
+        placeholder: "Lanbarka ganacsiga caalamiga ah halkan.. (Ikhtiyaar)",
       },
       hsn: {
         hint: "HSN, ama Nidaamka Magacaabista ee la is waafajiyay, waa nidaam caalami ah oo habaysan oo lagu kala saaro badeecadaha iyo badeecadaha.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Alaabta shay shay shay dukaan",
-        message: "shay shay Alaabta",
+        label: "Xaaladda alaabta ee dukaankaaga",
+        message: "Fadlan dooro xaalada alaabtan.",
         subtitle:
           "U sheeg macaamiishaada xaalada iyo summada alaabta aad bixinayso.",
       },
@@ -1696,12 +1696,12 @@ export default {
         generated_spec: {
           title: "shayshay Tilmaamaha",
           subtitle:
-            "shay Tilmaamaha shay shay ",
+            "Tilmaamahan waxaa soo saaray sirdoonka macmal.",
         },
         inputs: {
           prompt: {
             label: "Alaabta Faahfaahin",
-            placeholder: "shay shay Alaabta shay",
+            placeholder: "Halkan ka sharax alaabta...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "asalka Sharaxaada",
-            placeholder: "shay shay shay asalka",
+            placeholder: "Sharax asalka la rabo...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Dib u sawir shay shay Sawirka shay shay Cusub asalka",
           },
           replace: {
-            subtitle: "shay shay shay asalka",
+            subtitle: "Beddel asalka jira.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "shay Qiimaha shay shay {min}",
+    title: "Qiimaha dheeraadka ah ee ka badan {min}",
     subtitle:
       "Nidaamku wuxuu si toos ah u go'aamiyaa nidaamka iyo mudnaanta xisaabinta qiimaha. Fadlan geli tirada ugu yar ee looga baahan yahay qiimahan si uu u hirgalo.",
     min_quantity: "Tirada ugu yar",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "Ku dar noocyo badan oo kala duwan hal fal.",
       },
       edit_property_set: {
-        title: "shay shay shay",
+        title: "Habbee Habaynta Hantida",
         subtitle: "Beddel Kala duwanaanshiyaha shay, shay shay Dalabka",
       },
     },
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "shay Maamulka",
     subtitle:
-      "Abuur shay, shay, shay shay ",
+      "Abuur daaqadaha la shaqsiyeeyay, caqli badan, iyo is dhexgal.",
     add_action: "Ku dar Cusub Soo booda",
   },
 
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Xiriir Xog",
-      subtitle: "shay shay shay Xiriir Faahfaahin",
+      subtitle: "Si naxariis leh u bixi faahfaahinta xiriirka saxda ah.",
     },
     business: {
       title: "ganacsi Xog",
@@ -2075,7 +2075,7 @@ export default {
     inputs: {
       slug: {
         label: "shay",
-        placeholder: "shay shay Caado shay",
+        placeholder: "Geli waddo gaar ah...",
         hint: "Beddel jidka bogga degitaanka firfircoon ee iibiyaha.",
       },
       email: {
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "shay shay ",
-        true_description: "shay shay ganacsi shay",
+        true_description: "Waxaan u shaqeeyaa sidii shirkad si sharci ah loo aqoonsan yahay.",
         false_title: "shay",
         true_title: "ganacsi",
       },
@@ -2096,7 +2096,7 @@ export default {
         placeholder: "shay Magaca",
       },
       account_number: {
-        hint: "shay iibiyeyaal shay Xisaab shay",
+        hint: "Lambarka koontada gaarka ah ee iibiyaha.",
         placeholder: "shay Bangiga Xisaab shay",
       },
       routing_number: {
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Lambarka Xisaabta ee Bangiga Caalamiga ah): Haddii bangiga iibiyuhu uu ku yaal Yurub ama dalal kale oo gaar ah.",
-        placeholder: "shay IBAN shay shay DE89 3704 0044 0000 0000 00",
+        placeholder: "Lambarkaaga IBAN.. tusaale. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Lambarka Xisaabta ee Bangiga Caalamiga ah): Haddii bangiga iibiyuhu uu ku yaal Yurub ama dalal kale oo gaar ah.",
-        placeholder: "shay shay shay",
+        placeholder: "Koodhkaaga Swift/BIC",
       },
       branch_address: {
         hint: "Cinwaanka laanta bangiga ee uu iibiyuhu ku leeyahay akoonkiisa.",
@@ -2164,12 +2164,12 @@ export default {
   product_badges: {
     title: "calaamado",
     subtitle: "Ku dar shay Wax ka beddel Caado Alaabta calaamado",
-    only_marketplace_owner_msg: "shay Suuqa shay",
+    only_marketplace_owner_msg: "Kaliya milkiilayaasha suuqa",
     create_new_badge_action: "Abuur Cusub calaamad",
     select_a_badge: "Dooro shay calaamad",
     inputs: {
       custom: {
-        false_description: "Alaabta calaamado shay shay shay",
+        false_description: "Calaamadaha alaabta si toos ah ayaa loo abuuray",
         false_title: "otomaatig",
         true_title: "Caado Alaabta calaamado",
         true_description: "Ku dar Caado calaamado shay shay Alaabta bog",
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "Calaamadda si guul leh ayaa loogu daray!",
-        badge_updated: "shay calaamad shay shay !",
+        badge_updated: "Calaamadda si guul leh ayaa loo cusboonaysiiyay!",
         item_not_found_error:
           "Shayga waa la heli waayay Fadlan dib u cusbooneysii bogga ama la xiriir taageerada.",
       },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "shay sumado shay shay ",
+      tags_updated: "Calaamadaha si guul leh ayaa loo cusboonaysiiyay",
     },
   },
 
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Tirada wax ku biirinta",
           score: "Dhibcaha",
         },
-        users_not_rated_msg: "Isticmaalayaasha shay shay Alaabta shay",
+        users_not_rated_msg: "Isticmaalayaashu wali ma qiimayn alaabtan",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2451,7 +2451,7 @@ export default {
           graphical_asset_tips:
             "Waxaad ku meelayn kartaa qiime kasta doorsoomayaasha, oo ay ku jiraan sawirada addoo isticmaalaya <b>Graphic Assets</b>. Soo rar qaab oo isticmaal koodka la sameeyay ee kala duwanaanshaha.",
           graphical_asset_action: "shay shay",
-          graphical_asset_action_caption: "Sawirada shay shay shay",
+          graphical_asset_action_caption: "Sawirrada ikhtiyaarrada kala duwan",
         },
         smart_unit_price: {
           tips: "Xisaabi qiimaha cutubka oo ku salaysan <b>miisaanka</b>, <b>mugga</b>, iyo <b>xajmiga baakidh</b>. Si aad u damiso sifadan, u gudub Dukaanka> Settings> theme> Page Product> Qiimaha Cutubka Wacan.",
@@ -2470,7 +2470,7 @@ export default {
           title: "shay & Raridda",
           subtitle:
             "U qeex miisaanka iyo cabbirrada kala duwanaanshaha si loo go'aamiyo ikhtiyaarrada rarida.",
-          same_as_product_action: "shay shay Alaabta",
+          same_as_product_action: "La mid ah alaabta",
         },
         image: {
           title: "shay Sawirada",
@@ -2482,10 +2482,10 @@ export default {
             message: "shay shay Unug (SKU)",
           },
           mpn: {
-            message: "shay shay shay (MPN)",
+            message: "Lambarka Qaybta wax-soo-saarka (MPN)",
           },
           gtin: {
-            label: "shay shay shayga shay (GTIN)",
+            label: "Lambarka Shayga Ganacsiga Caalamiga ah (GTIN)",
             message:
               "Qaababka la taageeray: UPC (12 nambar), EAN (13 nambar), JAN (8 ama 13 lambar), ISBN (13 lambar).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Cusbooneysii dhammaan noocyada kala duwan",
     bulk_action_msg:
       "U deji baakooyinka alaabta iyo wakhtiga diyaarinta dhammaan noocyada kala duwan.",
-    dynamic_lead_time: "shay shay Waqtiga",
+    dynamic_lead_time: "Waqtiga hogaaminta firfircoon",
     instant_delivery: "shay gaarsiin",
   },
 
@@ -2552,7 +2552,7 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "shay Sawirka shay shay",
+      title: "Deji sawirka Alt Text",
       placeholder: "shay shay ",
       success_update_notification: "shay shay ",
     },
@@ -2562,14 +2562,14 @@ export default {
         title: "Ka saar asalka",
         subtitle: "Abuur shay hufan asalka",
       },
-      success_remove_bg_notification: "asalka shay shay!",
+      success_remove_bg_notification: "Asalkii hore si guul leh ayaa meesha looga saaray!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "shay shay shay",
+    title: "Kala duwanaanta Hanti Garaaf",
     tips: {
       how_it_works:
         "<b>Sida Ay U Shaqeyso:</b><br />Soo rar qaabka ama sawirada shay halkan. Si aad sawiradan ugu isticmaasho door kala duwanaansho ahaan, ku dar <b>{filename}</b> qiimaha kala duwananshiyaha. Ogow in summadan aan lagu isticmaali karin <b><s>midabka</s></b> qiimaha.",
@@ -2593,9 +2593,9 @@ export default {
   product_variant_item: {
     duplicated_variant: "shay shay !",
     set_color_warning: "shay Dooro shay Midabka",
-    set_volume_warning: "shay shay shay mugga",
+    set_volume_warning: "Fadlan sheeg mugga",
     set_pack_warning: "shay shay ",
-    set_weight_warning: "shay shay shay Miisaanka",
+    set_weight_warning: "Fadlan sheeg miisaanka",
     set_type_warning: "shay Dooro shay Nooca",
     set_style_warning: "shay Dooro shay Qaabka",
     out_of_stock: "shay shay ",
@@ -2610,10 +2610,10 @@ export default {
     restore_dialog: {
       title: "shay shay",
       message: "Ma hubtaa inaad doonayso inaad soo celiso kala duwanaanshahan la tirtiray?",
-      action: "haa, shay shay",
+      action: "Haa, Soo Celi Hadda",
     },
     notifications: {
-      restore_variant_success: "shay Alaabta shay shay ",
+      restore_variant_success: "Kala duwanaanshaha badeecada si guul leh ayaa loo soo celiyay.",
     },
   },
 
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "dukaan Alaabada",
     subtitle: "Liiska shay dhammaan Alaabta shay dukaan",
-    cant_set_here: "shay shay shay",
+    cant_set_here: "Halkan lama dejin karo",
 
     search_input: "Badeecada Raadinta...",
     search_input_title: "Ka dhex raadi alaabada dukaamada",
@@ -2718,7 +2718,7 @@ export default {
     title: "shay Ficilada > qiimo",
     message:
       "Qadarka soo socda ayaa lagu dabaqi doonaa boqolkiiba ahaan qiimaha dhammaan badeecadaha dukaankaaga. Sidoo kale, qiyamka qiimaha la xisaabiyay ayaa si caqli-gal ah loogu rogi doonaa lambarka wareega ugu dhow iyadoo lagu salaynayo lacagta la doortay. Ka taxaddar gelitaanka qiyamka.",
-    check: "shay shay qiimo shay",
+    check: "Waan ogolahay isbeddelka qiimaha",
     check_description:
       "Qiimaha waxaa loo bedeli doonaa qaybta la doortay iyo dhammaan qaybaha hoose.",
     add_percent_tab: "Ku dar boqolkiiba",
@@ -3338,7 +3338,7 @@ export default {
 
       express_input: {
         true_title: "shay | Jooji 🛍️ Dalbo shay",
-        false_title: "shay | Jooji 🛍️ Dalbo shay 48 shay",
+        false_title: "Heerka | Jooji amarka 48 saacadood ka dib",
         true_description:
           "Doorashadani waxay baabi'in doontaa dalabkaaga isla markaaba waxayna cusboonaysiin doontaa agabka isla markaaba.",
         false_description:
@@ -3356,7 +3356,7 @@ export default {
       shipping_address_update_success:
         "Raridda ciwaanka shay shay ",
       vendor_order_status_update_success:
-        "iibiye shay Xaalada shay shay ",
+        "Heerka buuxinta iibiyuhu si guul leh ayaa loo cusboonaysiiyay",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3748,7 +3748,7 @@ export default {
       false_description:
         "Heerka lacag bixinta si toos ah ayaa loo beddeli doonaa laga bilaabo inta la sugayo oo la xaqiijiyo nidaamka bixiyaha lacag bixinta.",
       false_title: "otomaatig Lacag bixinta shay",
-      true_title: "shay Lacagaha shay gacan shay",
+      true_title: "Hayso lacag bixinta iyo xaqiijinta gacanta",
       true_description:
         "Hayso lacag-bixinta si aad ugu baahan tahay inaad xaqiijiso lacag bixinta amarka lagu beddelayo xaaladdooda oo la sugayo oo la xaqiijiyo nidaamka lacag-bixinta.",
     },
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Waxaad haysataa alaabo xidid laakiin shaandhayn ma leh.",
       has_root_filter_message: "Waxaad u dejisay filtarrada qaybta xididka.",
-      set_filter_message: "shay shay shay Shaandhaynta",
+      set_filter_message: "Waxaad dejin kartaa filtarrada.",
       edit_action: "Wax ka beddel shay Shaandhaynta",
-      clear_action: "shay shay Shaandhaynta",
+      clear_action: "Nadiifi filtarrada xididka",
     },
     ai: {
       title: "AI Alaabta shay",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "Dooro dhammaan Alaabta",
       unselect: "shay",
-      sort_categories: "shay / shay Qaybaha",
+      sort_categories: "Habbee / Kala Sooc Qaybaha",
       subscription_vendor_not_support_message:
         "Ma meelayn karo iibiyaha alaabta isdiiwaangelinta! Alaabooyinka isdiiwaangelinta waa in ay had iyo jeer lahaadaan iibiye ahaan mulkiilahooda!",
       vendor_owner_not_assignable_message:
@@ -4093,7 +4093,7 @@ export default {
     },
 
     engine: {
-      title: "shay Alaabta shay",
+      title: "Matoorka Alaabta Dheeraadka ah",
       subtitle:
         "Wax badan. . Alaabta shay shay shay Ka Dooro Qaybaha shay sumado",
       load_in_tips: "shay Alaabta Ka Qaybaha shay shay {category}.",
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "shay shay / CSV fayl shay",
+      title: "Ku rid faylka Excel / CSV halkan.",
       select_file: "Dooro fayl",
       max_file: "ugu badan fayl shay: 20shay",
       download_sample: "Soo degso shay",
@@ -4266,8 +4266,8 @@ export default {
       "<b>muhiim </b>Fulinta ficilkan waxay dhalin doontaa wax kala beddelasho taban oo ku jirta jeebka iibiyaha oo ay ka jarto qaddarka la doortay. Lacagtu kama badnaan karto wadarta guud ee wax kala iibsiga ee dalabka la doortay. Intaa waxaa dheer, haddii lacagaha lagu wareejiyay xisaabaadka bangiga ee xiran (sida Stripe Connect ama wareejinta siliga gacanta), waa inaad abuurtaa <b> wareejinta </b>.",
     inputs: {
       note: {
-        message: "shay shay Ku shay iibiye",
-        placeholder: "shay shay Ogow shay",
+        message: "Way u muuqataa iibiyaha.",
+        placeholder: "Waxaad halkan ku soo lifaaqi kartaa qoraal...",
       },
       amount: {
         error_message: "Inta soo hartay waa la dhaafay.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Qaybtan, waxaad ku arki kartaa wakhtiga dhacdooyinka ee la xidhiidha nidaamka, buuxinta, lacag bixinta, iyo heerarkooda. Intaa waxaa dheer, waxaad ilaalin kartaa amarada loo soo diro macaamiisha iyo iibiyeyaasha labadaba.",
-    add_note_subtitle: "qoris shay Fariinta shay shay ",
+    add_note_subtitle: "Fariin qor oo xus asxaabtaada.",
 
     message_input: "Halkan ku qor fariin...",
     pin_action: "Ku dheji dusha sare",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Ogow Helitaanka",
-      description: "akhris shay shay shay Faahfaahin",
+      description: "Akhri qoraalada iyo faahfaahinta la xidhiidha.",
     },
     "backoffice:note:write": {
       name: "Ogow Maamulka",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "shay Maamulka",
-      description: "Maamul shay shay",
+      description: "Maamul doorashooyinka daabacaadda",
     },
     "backoffice:print:read": {
       name: "shay Helitaanka",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "shay Maamulka",
-      description: "Maamul shay, shay shay shay",
+      description: "Maamul lacagta, oo ay ku jiraan barnaamijyada gudbinta.",
     },
     "selldone:identification": {
       name: "shay Helitaanka",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "shay",
-      description: "shay Baaxadda shay shay ",
+      description: "Baaxadaha kala duwan ee aan lagu qeexin nidaamka.",
     },
     vendor: {
       title: "iibiye",
@@ -5581,7 +5581,7 @@ export default {
         "Beddel Dulucda, shay, shay shay Asal ahaan Lacagta",
       my_subscriptions: "Diiwaangelintayda",
       my_subscriptions_subtitle:
-        "Helitaanka Ku shay AI shay shay shay",
+        "Helitaanka AI premium AI iyo sifooyinka habaynta.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "shay shay boorso",
+        title: "Dooro jeebka",
         subtitle:
           "Dooro boorsada macmalka ah si aad u isticmaasho rukhsadnimadaada. Haddii aadan weli mid haysan, waxaad ku abuuri kartaa qaybta jeebka. Shandadan waxa loo isticmaali doona kharash kasta.",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Si fudud ugu dar badeecooyinka POD ama alaab-qeybiyeyaasha soo dejinta ee Selldone Connect OS-kaliya ku xidh dukaankaaga oo ku raaxayso is dhexgalka alaabta, looma baahna plugins.",
     },
-    your_license_is_not_eligible: "shay Shatiga shay shay shay",
+    your_license_is_not_eligible: "Shatigaagu uma qalmo",
     sku_dialog: {
       title: "Ku dar Alaabta shay SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Ku xidh mid ka mid ah xayndaabkaaga lamaanahan xidhiidhka la leh. Soo-booqdayaasha wax ku iibsada boggan waxa loo aanaynayaa xidhiidhkan.",
 
-      domain_not_approved_msg: "shay domain shay shay !",
+      domain_not_approved_msg: "Domain-ka weli lama ansixin!",
       domain_is_not_enable_msg: "shay domain shay shay la hawlgeliyay!",
       domain_is_linked_to_other_affiliate_msg:
         "Goobtan waxa mar horeba lagu xidhay xidhiidhiye kale!",
     },
 
-    set_users_first_message: "shay shay shay isticmaale shay!",
+    set_users_first_message: "Fadlan horta isticmaal isticmaalaha!",
 
     cluster: {
       title: "shay",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Cusub Xiriirinta Ku dar shay",
-      update_success: "Xiriirinta shay shay",
+      update_success: "Xiriirinta si guul leh ayaa loo cusboonaysiiyay",
     },
 
     inputs: {
@@ -5945,10 +5945,10 @@ export default {
       commission: {
         label: "Komishanka shay",
         false_description:
-          "shay shay komishan",
+          "Xisaabi adiga oo isticmaalaya isku darka guddiyada go'an iyo boqolkiiba.",
         true_description:
           "Xisaabi adiga oo isticmaalaya guddiyada alaabta-gaarka ah ee lagu dejiyay tabka qiimaha.",
-        false_title: "shay + shay Komishanka",
+        false_title: "Go'an + Guddiga boqolkiiba",
         true_title: "shay Komishanka",
       },
       user: {
@@ -5956,7 +5956,7 @@ export default {
         message: "ikhtiyaari, shay, Xiriirinta Magaca shay Selldone",
       },
       web: {
-        placeholder: "ikhtiyaari, shay, shay",
+        placeholder: "Ikhtiyaar ah, tusaale, affiliate-web.com",
       },
       address: {
         placeholder: "ikhtiyaari, shay, 1200 POX, NY, USA",
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Qiimaha & shay shay",
+    label: "Qiimaha & Qaabka Qiimaynta",
   },
 
   /**
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Qaybtan, waxaad awood u leedahay inaad dejiso tirada ugu badan ee isticmaalka kuubankiiba iyo qaddarka dhimista ugu badan ee kuuban kasta uu bixin karo.",
-      zero_message: "shay: shay shay maya Xaddid!",
+      zero_message: "eber: ma jiro xad!",
     },
     duration: {
       subtitle:
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Ku xooji iibsashada macmiilka oo leh waayo-aragnimo macne leh oo ku jirta dukaankaaga. U samee abaal-marinno iyo jaanisyada ku guuleysiga macaamiisha ku kasbado calaamado iibsi. Ciyaar kasta waxay ku kacaysaa 10 calaamadood, waxaadna ku siin kartaa abaalmarino gaar ah iibsadayaasha markii ugu horeysay. Ciyaarta caadiga ah waa Wheel of Fortune, laakiin waxaad u habeyn kartaa si ay ugu habboonaato qaabka dukaankaaga.",
     },
-    empty_prize_list: "Abuur shay Maamul shay shay",
+    empty_prize_list: "Halkan ka samee oo maamul abaal-marinnada...",
   },
 
   /** {@see BLotteryAdd**/
@@ -7044,7 +7044,7 @@ export default {
         "Soo rar iibiye CSV faylal shay shay Ku Qarsoodinimada shay",
       checklist: {
         title: "shay shay",
-        subtitle: "shay shay Ku shay shay shay",
+        subtitle: "Hubi inaad raacdo tilmaamaha.",
         sample_files: "shay faylal",
         valid_vendor_name_needed:
           "Waa inaad bixisaa <b>magac sax ah</b>. <b>magaca</b> waxa loo isticmaalaa in lagu go'aamiyo in <i>Abuur </i> iibiye cusub ama <i>Cusbooneysii</i> mid jira.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "shay iibiyeyaal shay",
+    open_vendors_panel: "Fur guddiga iibiyeyaasha",
     title: "iibiye shay Liiska",
     subtitle:
       "Kani waa liis codsiyo ah oo ka yimi shakhsiyaad codsaday inay ku iibiyaan suuqaaga.",
@@ -7133,7 +7133,7 @@ export default {
       need_verify: {
         label: "Alaabta shay Socodka",
         false_description: "Cusub iibiye Alaabta shay noolow shay",
-        false_title: "maya shay shay",
+        false_title: "Xaqiijin Looma Baahna",
         true_description:
           "iibiyeyaal Cusub Alaabta shay shay noolow shay shay Suuqa",
         true_title: "shay shay",
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Ciwaanka",
-          placeholder: "shay shay Ciwaanka shay shay ",
+          placeholder: "Geli cinwaan codsiga dukumeentiga",
         },
         guide: {
           label: "hage (ikhtiyaari)",
@@ -7223,7 +7223,7 @@ export default {
         },
         url: {
           label: "URL",
-          message: "shay shay URL shay shay ",
+          message: "Geli URL dukumeentiga ama qandaraaska halkan...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Milkiilaha shay shay",
+      title: "Dukumentiga Aqoonsiga Mulkiilaha",
       description:
         "Soo rar aqoonsi ay dawladdu bixisay si loo xaqiijiyo aqoonsiga mulkiilaha meheradda ama maamulaha muhiimka ah.",
     },
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "shay shay",
       description:
-        "shay shay Ku shay shay ",
+        "Bixi dukumentiyada diiwaangelinta xuquuqda daabacaada si aad u xaqiijiso xuquuqahaaga lahaanshaha garaadka.",
     },
     Privacy: {
       title: "Qarsoodinimada siyaasad shay",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "shay, shay Alaabta shay",
+        placeholder: "tusaale, Heerka Alaabta Dijital ah...",
       },
       description: {
         placeholder: "Waxaad ku dari kartaa qoraal halkan...",
       },
       accept_delete: {
         true_description: "Waxaan rabaa in aan tirtiro qaabkan qiimaha.",
-        true_title: "shay Qiimaha shay shay",
+        true_title: "Xaqiiji ka saarida Qaabka Qiimaha",
       },
     },
   },
@@ -7433,7 +7433,7 @@ export default {
     quota: "shay",
     max_batch_msg: "Tirada ugu badan ee alaabta aad ku soo dejisan karto hal dufcadood.",
     max_daily_limit_msg: "Tirada ugu badan ee alaabta aad soo dejin karto maalin gudaheed.",
-    extra_daily_limit_msg: "shay Walxaha shay shay Xaddid",
+    extra_daily_limit_msg: "Alaabooyin dheeri ah oo la ogolyahay in ka baxsan xadka maalinlaha ah.",
     add_items_today_msg: "Walxaha Ku dar Maanta",
     file_statistic_msg: "Tirakoobka shay shay fayl",
     used_quota: "la isticmaalo shay",
@@ -7522,7 +7522,7 @@ export default {
           "Qaab fudud oo yar iyada oo aan wax ficil ah oo dheeraad ah laga helin kaararka alaabta.",
         true_description:
           "Muuji iibsi degdeg ah & ku dar si aad u barbar dhigto badhamada kaadhka badeecada dul heehaabaya.",
-        true_title: "Muuji shay shay shay",
+        true_title: "Tus Talaabada Hover",
       },
     },
     filter_products: {
@@ -7613,12 +7613,12 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "ugu weyn Mareegta shay",
-      subtitle: "shay shay Ka Google shay",
+      subtitle: "Ka dooro farta aad jeceshahay Google Fonts",
     },
     inputs: {
       font_family: {
         label: "shay shay",
-        message: "shay shay shay Qiimaha",
+        message: "Geli qiimaha font-qoyska",
       },
       font_res: {
         label: "shay shay",
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Madax Ciwaanka",
-        set_empty: "shay shay Ciwaanka",
+        set_empty: "Deji cinwaan faaruq ah",
       },
     },
   },
@@ -7690,7 +7690,7 @@ export default {
         placeholder: "Geli cinwaan u gaar ah hantida...",
       },
       description: {
-        placeholder: "shay shay shay Sharaxaada (ikhtiyaari)",
+        placeholder: "Geli sharaxaad gaaban... (ikhtiyaar)",
       },
       custom_variants: {
         true_title: "Caado Kala duwanaanshiyaha",
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "shay shay shay (ikhtiyaari)",
+        placeholder: "Deji qiyamka... (ikhtiyaar)",
         messages:
-          "shay shay 🛍️ Dalbo",
+          "Waxaad bixin kartaa talooyinka qiyamka oo aad habayn kartaa nidaamka.",
       },
     },
   },
@@ -7802,7 +7802,7 @@ export default {
     webhook: "shay",
     calls: "Wicitaannada",
     dialog: {
-      title: "{name} shay shay",
+      title: "Habaynta Bot {name}",
       message:
         "Qaab bot oo dhamaystiran oo loogu talagalay dhisidda khibradaha wax iibsiga ee heerka-shirkadda.",
     },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Xulashada 3: rarid degdeg ah.",
 
     verify_delivery_input: {
-      true_title: "shay gaarsiin shay",
+      true_title: "Xaqiiji Dhamaystirka Bixinta",
       true_description:
         "Waxaan xaqiijinayaa in dalabka la geeyay macmiilka.",
     },
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "shay shay",
       description:
-        "shay shay 2% Komishanka Ka shay shay",
+        "Waxaad ku jirtaa Heerka Bronze. Waxaad kasbatay 2% komishanka tixraacyadaada.",
     },
     Silver: {
       title: "shay shay",
       description:
-        "shay shay 4% Komishanka Ka shay shay",
+        "Waxaad ku jirtaa Heerka Silver. Waxaad kasbatay 4% komishanka tixraacyadaada.",
     },
     Gold: {
       title: "shay shay",
       description:
-        "shay shay 6% Komishanka Ka shay shay",
+        "Waxaad ku jirtaa Heerka Dahabka. Waxaad kasbatay 6% komishanka tixraacyadaada.",
     },
     Platinum: {
       title: "shay shay",
       description:
-        "shay shay 8% Komishanka Ka shay shay",
+        "Waxaad ku jirtaa heerka Platinum. Waxaad kasbatay 8% komishanka tixraacyadaada.",
     },
     Diamond: {
       title: "shay shay",
       description:
-        "shay shay 10% Komishanka Ka shay shay",
+        "Waxaad ku jirtaa Heerka Dheemanka Waxaad kasbatay 10% komishanka tixraacyadaada.",
     },
   },
 
@@ -8532,16 +8532,16 @@ export default {
       add_new: "Ku dar Cusub",
       disable_reason: {
         set_provider: "shay shay !",
-        provider_is_disabled: "shay shay shay!",
-        otp: "OTP - shay shay!",
-        select_another_provider: "Dooro shay shay",
+        provider_is_disabled: "Bixiyaha waa naafo!",
+        otp: "OTP - Midna lama beddeli karo!",
+        select_another_provider: "Dooro bixiye kale.",
       },
       enable_only_filter: "Muuji shay la hawlgeliyay",
 
       text_template_not_supported_msg:
         "Bixiyahaagu ma taageero fariimaha qoraalka ah ee cad.",
       structure_template_not_supported_msg:
-        "shay shay Taageero shay farriin",
+        "Bixiyahaagu ma taageero fariimaha qaabdhismeedka.",
 
       structured_data: "shay Xogta",
 
@@ -8569,9 +8569,9 @@ export default {
         reset_to_default: "shay Ku Asal ahaan",
 
         auto_fill: {
-          title: "otomaatig shay shay",
+          title: "Si otomaatig ah u buuxi xuduudaha",
           subtitle:
-            "shay shay Selldone shay shay Qiimaha",
+            "Waxaad ku isticmaali kartaa mid kasta oo ka mid ah xuduudahan qoraalka iyo Selldone waxay ku beddeli doontaa qiimaha u dhigma.",
         },
 
         sample: {
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "Ku dar Cusub shay",
 
         auto_fill: {
-          title: "otomaatig shay shay",
+          title: "Si otomaatig ah u buuxi xuduudaha",
           subtitle:
             "Waxaad u dejin kartaa mid kasta oo ka mid ah cabbiradan qiimo ahaan, Selldone-na wuxuu ku beddeli doonaa qiimaha u dhigma. Way fiicantahay in la qeexo qiimayaasha caadiga ah sida jaantusyada adeeg bixiyahaaga SMS si ay u fududaato. Xaaladdan oo kale, ma jiri doonto baahi loo qabo in lagu qeexo qiyamka cabbirka halkan.",
         },
@@ -8593,8 +8593,8 @@ export default {
           title: "shay shay",
         },
         sample: {
-          title: "shay shay Fariinta",
-          subtitle: "shay shay Ku shay SMS shay",
+          title: "Tusaalaha fariinta qaabka",
+          subtitle: "Waad koobi kartaa oo dhaafi kartaa qaabkan adeeg bixiyaha SMS.",
         },
         add_message_action: "Ku dar Fariinta shay",
       },
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "OTP shay",
-      description: "shay farriin shay shay Diray",
+      description: "Fariimaha xaqiijinta ayaa la diri doonaa",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Caado shay shay",
+    title: "Adeegga boostada gaarka ah",
     subtitle:
       "Ku xidh adeeg bixiyahaaga boostada si aad iimaylo ugu dirto boggaaga gaarka ah.",
     provider: "shay",
@@ -8946,7 +8946,7 @@ export default {
     notifications: {
       delete_success: "Faylka si guul leh ayaa loo tirtiray",
     },
-    drag_sort_msg: "shay shay faylal",
+    drag_sort_msg: "Waad jiidi kartaa oo kala saari kartaa faylasha.",
     paid_mode_msg: "Isticmaalayaasha shay Soo degso shay shay Alaabta",
     free_mode_msg:
       "Isticmaalayaashu waxay soo dejisan karaan bilaash. Tusaalaha faylasha waa in ay ka hooseeyaan 50 MB.",
@@ -8973,14 +8973,14 @@ export default {
     },
     export: {
       title: "Badbaadin profile",
-      subtitle: "dukaan Goobaha shay shay shay",
+      subtitle: "Goobaha kaydi si mustaqbalka loo isticmaalo.",
     },
     has_restriction_input: {
       title: "shay Goobta xaddidid",
       description:
         "Macaamiishu waxay kaliya ku iibsan karaan alaabtan gudaha dalka iyo sibka code-ka, sababtoo ah xaddidaadda goobta la dejiyay.",
     },
-    zip_pin_code: "shay / shay kood",
+    zip_pin_code: "Koodadka Zip/Pin",
     no_country_selected_error:
       "Fadlan ku dar ugu yaraan hal waddan oo ay la socdaan liiska koodka zip/pin-ka. La'aanteed, alaabtan lama heli doono.",
     tips: "Guji badhanka <b>+ Kudar Dalka</b> si aad u bilowdo abuurista meel cusub Marka aad dhammayso, waxaad ku kaydin kartaa adigoo gujinaya dhanka sare ee midig <b>⋮ Menu</b> oo dooro <b>Save Profile</b>.",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Ha moogaanin dalabaadkaaga!",
     msg: "Maamul ganacsigaaga meel kasta iyo wakhti kasta.",
-    scan_qr_code: "shay shay telefoon!",
+    scan_qr_code: "Igu sawir taleefankaaga!",
 
     notification: {
       title: "Ogeysiinta",
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "shay shay shay",
+    title: "Jadwalka Fasaxa Xogta",
     subtitle:
       "Waa kan liiska maqaallada la qorsheeyay ee loo dejiyay daabacaada mustaqbalka. Waxaad awood u leedahay inaad jadwal u sameyso qoraallada blog-ka iyo xitaa sharraxaadaha alaabta si loo daabaco waqtiyo gaar ah.",
   },
@@ -9493,10 +9493,10 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Dir shay shay",
+    title: "Soo dir Codsi Toos ah",
     message:
       "Aqoonso 3-da ganacsi ee ugu sarreeya u baahan tahay si ay u horumarto ugana faa'iidaysato Selldone. Macluumaadkan waxaa si toos ah loola wadaagi doonaa aasaasayaasha iyo agaasimayaasha waxaana loo tixgelin doonaa si taxadar leh. Waxa kale oo aad dib u cusbooneysiin kartaa baahiyahaaga wakhti ka dib marka aad soo gudbiso.",
-    expand_action: "qoris shay shay",
+    expand_action: "Qor codsiga...",
     input_label: "shay shay",
     to: {
       ceo: "Dir Ku CEO",
@@ -9546,11 +9546,11 @@ export default {
       title: "dukaan",
       subtitle: "shay adeeg Warbixin",
       action: "shay shay",
-      last_update: "shay shay shay",
+      last_update: "Waxaa cusbooneysiiyey",
     },
     service_status: {
       title: "adeeg Xaalada",
-      syncing_message: "shay shay shay",
+      syncing_message: "Habka isku xidhka",
       action: "shay dhammaan",
       connect_status: "Connect Xaalada",
       service_status: "adeeg Xaalada",
@@ -9565,7 +9565,7 @@ export default {
       auto_confirm_order: "otomaatig shay Dalabka",
       test_mode: "shay hab",
       status: {
-        subtitle: "shay macluumaad shay shay Xaalada",
+        subtitle: "Macluumaadka guud ee ku saabsan xaaladda isku xidhka",
       },
       sync: {
         title: "shay shay",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Liiska alaabta lagu daray {name}. Hubi in alaabtaadu leedahay magac gaar ah iyo SKU. Qaar ka mid ah adeegyada Connect waxaa loo isticmaalaa socdaalka, marka haddii aad haysatid badeecooyin leh <b>SKUs</b> iyo <b>Magacyada</b>, alaabtaas waa la beddeli doonaa!",
       action: "shay Alaabta",
-      syncing_message: "shay shay shay",
+      syncing_message: "Habka isku xidhka",
     },
 
     logs: {
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "shay dhammaan",
         false_desc: "shay dhammaan La heli karo Alaabta, Qaybaha, Macaamiisha",
-        true_title: "shay (shay shay shay)",
+        true_title: "Xaddidan (waxaa lagu talinayaa bilowga)",
         true_desc:
           "Hel ugu badnaan 5 alaab, qaybaha, iyo macaamiisha Waxaad u rogi kartaa qaabka buuxa ee Connect > Dejinta wakhti kasta.",
       },
       overwrite: {
-        false_title: "shay shay Beddel shay shay",
+        false_title: "Ha isbeddelin haddii ay jiraan",
         false_desc: "U hay tafaasiisha alaabta jirta iyo qaybta siday yihiin.",
         true_title: "shay",
         true_desc:
@@ -9626,7 +9626,7 @@ export default {
       },
       confirm: {
         label: "otomaatig shay Dalabka",
-        false_desc: "shay shay shay 🛍️ Dalbo shay",
+        false_desc: "Waa inaad gacanta ku xaqiijisaa dalabka",
         true_desc:
           "Dalabka lacag bixinta tooska ah ayaa si toos ah loo ansixin doonaa. Dalabka leh lacag-bixinta qaladku si toos ah uma ansixin doonaan.",
         tips: "Dalabka lagu bixiyo kaarka hadiyadda ama COD ama albaabada lacag bixinta ee qaabka khaladka waa ka reebban oo si toos ah looma xaqiijin doono.",
@@ -9644,7 +9644,7 @@ export default {
       },
 
       remove: {
-        verify: "shay shay Ku Ka saar shay shay",
+        verify: "Waxaan xaqiijinayaa inaan meesha ka saaro xidhiidhkan.",
         action: "Ka saar ku xir",
       },
     },
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "otomaatig shay",
       shipping: "Raridda",
       syncing_now: "shay shay!",
-      sync_not_started: "shay shay shay bilow shay!",
+      sync_not_started: "Isku xidhiddu wali ma bilaaban!",
     },
   },
 
@@ -9758,7 +9758,7 @@ export default {
         description: "Muuji warbixin shay",
       },
     },
-    empty_msg: "maya shay shay ",
+    empty_msg: "Wax qoraal ah lama abuurin ilaa hadda...",
     menu: {
       open_post: {
         title: "shay shay",
@@ -9798,8 +9798,8 @@ export default {
       title: "raadi shay",
       subtitle: "Ku dar summada badan boggaga hore si loo xaqiijiyo Google Search Console",
       code: {
-        label: "shay shay sumad",
-        placeholder: "Ka shay, shay shay",
+        label: "Xaqiijinta meta tag",
+        placeholder: "Laga soo bilaabo google-ka, tusaale viQg9mjdBj...",
       },
     },
     serp: {
@@ -9831,7 +9831,7 @@ export default {
     title: "lacag celin shay",
     boosted: "shay (2shay)",
     min_purchase: "Iibka ugu yar",
-    only_first_order: "shay shay 🛍️ Dalbo",
+    only_first_order: "Kaliya Dalabka Koowaad",
     total_cashback: "Wadarta lacag celin",
     delete_alert: {
       title: "Tirtir lacag celin shay",
@@ -9926,7 +9926,7 @@ export default {
       title: "Sharaxaada",
     },
     constraints: {
-      subtitle: "shay shay lacag celin shay",
+      subtitle: "U deji caqabadaha barnaamijka lacag celinta.",
     },
     min_purchase_input: {
       hint: "shay shay ugu yar Iibsasho Qadarka shay lacag celin shay",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "Barnaamijka cashback ayaa diyaar u ah dhammaan dalabaadka.",
       true_desc:
         "Barnaamijka cashback ayaa diyaar u ah dalabka koowaad.",
-      true_title: "shay shay 🛍️ Dalbo",
+      true_title: "Kaliya Dalabka Koowaad",
       false_title: "dhammaan Dalabka",
     },
     qualify_input: {
@@ -9955,7 +9955,7 @@ export default {
     },
     notifications: {
       add: "lacag celin shay Ku dar shay",
-      edit: "lacag celin shay shay shay",
+      edit: "Barnaamijka lacag celinta si guul leh ayaa loo cusboonaysiiyay",
     },
     enable_input: {
       true_msg: "Barnaamijka cashback waa firfircoon oo macaamiishu way isticmaali karaan.",
@@ -9982,7 +9982,7 @@ export default {
         subtitle: "shay shay shay lacag celin taageero",
       },
       delivery: {
-        title: "shay shay gaarsiin",
+        title: "Xaqiiji Bixinta",
         subtitle: "Waxaad gacanta ku xaqiijin kartaa keenista lacag bixiyaha.",
       },
     },
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "shay Alaabta",
-        subtitle: "shay Alaabta shay shay ",
+        subtitle: "Alaabtan waxaa loo doortay dhiirrigelinta iibinta isdhaafsiga.",
         manage_product: "Maamul Alaabta",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Samee cinwaan soo jiidasho leh oo soo jiidasho leh si aad u soo jiidato dareenka macaamiisha.",
           placeholder:
-            "shay & Badbaadin: shay shay !",
+            "Xidhmo & Keyd: Ku buuxi muuqaalkaaga Xulashadayada Gacanta lagu soo doortay!",
         },
       },
       action: {
@@ -10133,7 +10133,7 @@ export default {
     health: {
       title: "Alaabta shay",
       available_in_stock_msg: "Alaabta shay La heli karo shay shay",
-      out_of_stock_msg: "Alaabta shay shay ",
+      out_of_stock_msg: "Alaabta ayaa ka dhamaatay",
       file_count_msg:
         "{files_count} faylal shay Wadarta {files_size} Soo rar shay shay Alaabta",
       no_file_uploaded_msg: "maya fayl shay shay Soo rar shay",
@@ -10167,7 +10167,7 @@ export default {
       title: "Qiimaha",
       no_product_price_msg: "Qiimaha alaabta caadiga ah weli lama dejin!",
       listing_pricing_msg: "Liis garayn Qiimaha:",
-      has_valuation_msg: "Alaabta shay shay",
+      has_valuation_msg: "Alaabtu waxay leedahay qiimayn",
       subscription_pricing_msg:
         "shay Alaabta shay {count} Isdiiwaangelinta Qiimaha Qorshayaasha",
       has_no_subscription_pricing_msg:
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "shay shay",
       },
       available_countries_msg:
-        "shay shay shay Ku {count} shay shay {countries}.",
+        "Wax iibsiga adduunka oo dhan wuxuu ku xaddidan yahay wadamada {count}. Wadamadani waa {countries}.",
       disable_for_all_countries_msg:
         "Wax iibsiga waa naafada dhammaan wadamada dukaankaaga> dejinta goobaha.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10229,7 +10229,7 @@ export default {
         is_disabled: "shay Canshuur profile shay la joojiyay!",
         tax_is_based_on_location: "Canshuur: Goobta shay",
         shipping_tax_is_based_on_location: "Raridda: Goobta shay",
-        included_in_price: "shay shay qiimo",
+        included_in_price: "Waxaa ku jira qiimaha",
       },
     },
 
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Helitaanka shay",
-        placeholder: "Dooro shay shay",
+        placeholder: "Dooro heer...",
       },
     },
 
@@ -10318,7 +10318,7 @@ export default {
       },
       update_success: {
         title: "Helitaanka shay",
-        message: "Ogolaanshaha shay shay ",
+        message: "Ogolaanshaha si guul leh ayaa loo cusboonaysiiyay",
       },
     },
   },
@@ -10389,7 +10389,7 @@ export default {
       },
     },
     help_dialog: {
-      title: "shay Ku shay shay shay",
+      title: "Sida loo isticmaalo nuxurka firfircoon",
       how_it_works_tips:
         "Bogagga soo degaya, waxaad leedahay dabacsanaan aad ku magacawday meel-hayeyaal firfircoon labadaba qoraalka iyo sawirrada. Meel-hayeyaashani waxay door muhiim ah ka ciyaaraan habaynta nuxurka iyadoo loo eegayo macnaha guud.   Dabeecada firfircoon ee kuwan meeleeyayaashu waxay u oggolaanaysaa inay ku noolaadaan qiimayaal kordhin, taas oo ku kala duwanaan karta arrimo kala duwan. Tusaale ahaan, qiimayaasha kordhintu way ka duwanaan karaan alaab kasta ama qayb kasta. Faa'iidada dhabta ah ee qaabkani waxay ku timaadaa ciyaarta markaad haysato shay kala duwan oo leh sifooyin kala duwan. Waxaad si wax ku ool ah uga faa'iidaysan kartaa kuwan meeleeyayaasha firfircoon si aad u shakhsiyayso oo aad u wanaajiso bandhigga shay kasta, si aad u abuurto khibrad gaar ah oo is dhexgal ah boggaga degitaanka.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Badeeco kasta, waxaad awood u leedahay inaad u qoondayso lammaane qiimo leh oo go'an.",
       result_tips:
-        "shay shay bog, shay shay ",
+        "Tani waa natiijadii u dambaysay ee bogga, halkaas oo meel-hayeyaasha lagu beddelay qiimayaal la kordhiyay.",
     },
   },
 
@@ -10419,7 +10419,7 @@ export default {
       subtitle:
         "Waxaad u habayn kartaa waxa ku jira astaanta saadka oo luuqado badan ah.",
 
-      language_input: "shay Maqaal shay",
+      language_input: "Luuqadda maqaalka hadda",
       delete_article: "Tirtir Maqaal",
       menu_tooltip: "otomaatig shay / Tirtir Maqaal",
     },
@@ -10429,7 +10429,7 @@ export default {
         message: "Maqaal shay Dhammaystiran shay",
       },
       save_article: {
-        message: "Maqaal shay shay ",
+        message: "Maqaalka si guul leh ayaa loo keydiyay",
       },
       delete_article: {
         message: "Maqaal shay shay La tirtiray shay",
@@ -10461,7 +10461,7 @@ export default {
       accept_delete: {
         true_description:
           "Tallaabadani waxay meesha ka saari doontaa dhammaan maqaallada iyo boggaga bogga",
-        true_title: "shay shay Ku Ka saar shay shay",
+        true_title: "Waxaan xaqiijinayaa inaan meesha ka saaro xidhiidhkan.",
       },
     },
     actions: {
@@ -10574,7 +10574,7 @@ export default {
         message: "Shayga lagu daray si guul leh ayaa loogu daray",
       },
       edit: {
-        message: "shay shay shayga shay shay ",
+        message: "Shayga lagu daray si guul leh ayaa loo cusboonaysiiyay",
       },
     },
   },
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "maya boorso!",
 
     withdraw_dialog: {
-      title: "shay Komishanka shay",
+      title: "Kala-noqoshada Khidmadaha Komishanka",
 
       need_bank_info_message: "Fadlan marka hore geli macluumaadka bangigaaga.",
 
@@ -10648,12 +10648,12 @@ export default {
       message: "Waxaad ku dari kartaa <b>?ref={code}</b> url kasta oo la iibiyay.",
     },
     intro: {
-      title: "shay shay Selldone Xiriirinta shay",
+      title: "Ku biir Barnaamijka Xiriirinta Selldone",
       message:
         "Barnaamijka Xidhiidhka Selldone waa mid fudud oo toos ah, loogu talagalay adiga inaad ku kasbato dadaal la'aan. La wadaag xiriiriyahaaga gaarka ah si aad ugu casuunto isticmaalayaasha cusub Selldone, oo waxaad heli doontaa komishan wax kala iibsi kasta oo ay sameeyaan—weligood. Tan waxaa ku jira dakhliga laga helo isdiiwaangelinta, khidmadaha adeegga, cusboonaysiinta dukaanka, iyo dhammaan dakhliyada kale. Bilow inaad kasbato qayb ka mid ah dakhliga adiga oo aan xad lahayn wakhtiga ama dakhliga. Nagu soo biir oo shabakadaada u rog dakhli joogto ah!",
       why_join_selldone_affiliate: "shay shay ?",
       reasons: [
-        "shay shay shay!",
+        "Way jirtaa weligeed!",
         "Waxay daboolaysaa dhammaan khidmadaha is-diiwaangelinta iyo wax kala iibsiga. Dhab ahaantii lacag kasta oo isticmaalaha Selldone.",
         "Waxaan u dirnaa foojar $99 bilaash ah qof kasta oo isdiiwaangeliya adiga oo isticmaalaya isku xirkaaga.",
         "Marka heerkaagu kordho, waxaad kasban doontaa sicirka cusub dhammaan isticmaalayaasha hore loo sheegay.",
@@ -10690,7 +10690,7 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Daar shay shay Ku shay shay ",
+        "U ogolow sifadan si ay si fudud dib ugu habayso una habayso qaybaha adigoo jiidaya.",
     },
     edit_mode_tooltip: {
       title: "Wax ka beddel / Horudhac hab",
@@ -10725,7 +10725,7 @@ export default {
       ctrl_2: "Kordhi cabbirka farta qoraalka la doortay | <big>Iga dhig mid weyn</big>",
       ctrl_r: "Ka saar dhammaan qaabaynta qoraalka la doortay | Nadiifi dhammaan noocyada",
       ctrl_s: "Badbaadin shay bog",
-      tab: "shay shay shay hab",
+      tab: "U kala beddel hababka cabbirka",
       ctrl_e: "shay shay Qaabka hab",
     },
   },
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Ciwaanka",
-          message: "shay shay shay Dadweynaha Ciwaanka",
+          message: "Kani waa cinwaanka dadweynaha.",
         },
         tags: {
           label: "sumado",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Codsiga iibiyaha waa la diiday",
       PENDING: "Codsiga wuxuu sugayaa go'aanka iibiyaha.",
     },
-    number_of_products: "shay shay Alaabta",
+    number_of_products: "Tirada Alaabta",
     invited: "shay",
     no_pricing: "maya Qiimaha",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Fadlan u deji qaabka qiimaha caadiga ah ee iibiyaha.",
     },
     updated_products_tooltip: {
-      title: "Alaabta shay shay 24 shay",
+      title: "Alaabooyinka waa la cusboonaysiiyay 24-kii saac ee la soo dhaafay",
     },
     added_products_tooltip: {
       title: "Alaabooyinka Lagu Daray 24-kii Saac ee Lasoo Dhaafay",
@@ -10813,7 +10813,7 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Shatiga shay shay!",
+    title: "cusboonaysiinta shatiga ayaa loo baahan yahay!",
     subtitle:
       "Shatiga hadda ma buuxinayo shuruudaha qaabka ganacsi ee aad dooratay. Fadlan u cusboonaysii shatigaaga qorshaha ganacsiga.",
   },
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Dir Cusbooneysii iimaylka",
 
       notifications: {
-        send_success_message: "iimaylka shay shay Diray shay",
+        send_success_message: "Iimayl si guul leh ayaa loo soo diray",
       },
     },
     add_template: {
@@ -10884,9 +10884,9 @@ export default {
     authentication: "shay",
     guest: "shay",
     click_to_create: "shay Ku Abuur",
-    valid_for_30_days: "shay shay 30 30 maalmood",
+    valid_for_30_days: "shaqaynaysa 30 maalmood",
     notifications: {
-      secure_link_created: "shay Xiriirinta shay shay ",
+      secure_link_created: "Isku xirka sugan ayaa si guul leh loo abuuray",
     },
   },
 
@@ -10922,7 +10922,7 @@ export default {
 
     subtitle:
       "Waxaad halkan ku habayn kartaa magacyo kala duwan, astaamo, iyo nidaamkooda. Alaabooyinka leh kala duwanaansho gaar ah oo ka baxsan lixda caadiga ah, waxaad dejin kartaa kala duwanaansho gaar ah oo ku habboon badeecad kasta. Si fudud u qeex qalabka guryaha ee saadka> Hababka Hantida oo ku meelee tiro kasta oo badeecado ah haddii loo baahdo.",
-    select_property_set: "Dooro shay shay",
+    select_property_set: "Dooro Dejinta Hantida",
     add_property_set: "Ku dar shay shay",
   },
 
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Dooro shay xirmo",
-    define_package: "shay shay xirmo",
+    define_package: "Qeex xirmo",
     define_package_hint: "Abuur ama wax ka beddel cabbirrada xirmadaada ee horay loo sii qeexay",
   },
 
@@ -10999,12 +10999,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Xiriirinta JSON",
-      opening_hours_json: "shay shay JSON",
+      opening_hours_json: "Saacadaha furitaanka JSON",
 
       delete_title: "Tirtir shayga",
       delete_message: "shay shay Ku Tirtir shay shayga?",
       delete_success: "Shayga waa la tirtiray si guul leh",
-      restore_success: "shayga shay shay",
+      restore_success: "Shayga si guul leh ayaa loo soo celiyay",
 
       opening_hours:"shay shay",
       form_fields:"foom shay",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Kudar Qaybta",
       edit_title: "Wax ka beddel qaybta",
 
-      parent_filter: "Shaandhayso shay shay",
+      parent_filter: "Kala shaandhee waalidka",
       parent: "Qaybta waalidka",
 
       price_format: "qiimo shay",
@@ -11082,12 +11082,12 @@ export default {
     },
 
     moderation: {
-      approve_success: "shayga shay shay",
+      approve_success: "Shayga si guul leh loo ansixiyay",
       publish_success: "shayga La daabacay shay",
-      unpublish_success: "shayga shay shay",
-      archive_success: "shayga shay shay",
+      unpublish_success: "Shayga si guul leh looma daabicin",
+      archive_success: "Shayga si guul leh ayaa loo kaydiyay",
       reject_success: "shayga Waa la diiday shay",
-      penalty_success: "shay shay shay",
+      penalty_success: "Ganaax ayaa lagu fuliyay si guul leh",
 
       reject_title: "Diid shayga",
       reject_reason: "shay shay",
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Abuur qaybo badan oo nashqado ah (kaarka + qaababka faahfaahinta) oo ku meelee qaybaha. Qaybuhu waxay isticmaali karaan naqshado kala duwan.",
 
-      empty_title: "maya shay shay",
+      empty_title: "Weli nashqado ma jiraan",
       empty_subtitle:
         "Ku dar qaabayntaada ugu horeysa si aad u bilowdo habaynta sida qaybaha u muuqdaan.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Faahfaahin shay",
 
       notifications: {
-        add_success: "Nakhshad shay shay",
-        edit_success: "Nakhshad shay shay",
+        add_success: "Naqshad si guul leh loo sameeyay",
+        edit_success: "Nashqada si guul leh ayaa loo cusboonaysiiyay",
         delete_success: "Nakhshad La tirtiray shay",
       },
 
@@ -11154,8 +11154,8 @@ export default {
       edit_title: "Wax ka beddel calaamad",
 
       notifications: {
-        add_success: "calaamad shay shay",
-        edit_success: "calaamad shay shay",
+        add_success: "Calaamada si guul leh ayaa loo sameeyay",
+        edit_success: "Calaamada si guul leh ayaa loo cusboonaysiiyay",
         delete_success: "calaamad La tirtiray shay",
       },
 
@@ -11176,8 +11176,8 @@ export default {
       edit_title: "Shirkadda wax ka beddel",
 
       notifications: {
-        add_success: "Shirkadda shay shay",
-        edit_success: "Shirkadda shay shay",
+        add_success: "Shirkadda si guul leh ayaa loo abuuray",
+        edit_success: "Shirkadda si guul leh ayaa loo cusboonaysiiyay",
         delete_success: "Shirkadda La tirtiray shay",
       },
 
@@ -11205,11 +11205,11 @@ export default {
       reply: "shay",
       reply_hint: "Jawaab u qor isticmaalaha Waxaad sidoo kale ku calaamadin kartaa fariinta inay tahay akhrinta/spam ka ficillada.",
 
-      mark_read: "shay shay akhris",
-      mark_unread: "shay shay shay",
+      mark_read: "U calaamadee sida loo akhriyay",
+      mark_unread: "U calaamadee mid aan la akhriyin",
       archive: "shay",
       unarchive: "shay",
-      mark_spam: "shay shay shay",
+      mark_spam: "U calaamadee spam",
       mark_not_spam: "shay shay",
 
       delete_confirm: "Tirtir shay Fariinta?",
@@ -11251,9 +11251,9 @@ export default {
       radius_default: "Asal ahaan shay (shay)",
       radius_default_hint: "Waxa la adeegsadaa marka macmiilku uu doorto meel laakiin aanu soo dooran raadis.",
       radius_max: "ugu badan shay (shay)",
-      radius_max_hint: "shay shay Ku shay Qiimaha",
-      radius_options: "shay shay (shay)",
-      radius_options_hint: "shay shay UI.",
+      radius_max_hint: "Radiuska hore ee bakhaarka ayaa lagu dhejin doonaa qiimahan.",
+      radius_options: "Ikhtiyaarada raadiyaha (km)",
+      radius_options_hint: "Qiimayaashan waxa loo tusi karaa sidii ikhtiyaaro degdeg ah UI ee dukaanka hortiisa.",
 
       filters_title: "raadi Shaandhaynta",
       filters_subtitle: "Ku dar filtarrada akhriya qiyamka qaybaha badan ee shayga (qaybahaaga liiska/qaybaha foomka). Isticmaal si otomaatig ah u-abuur si aad uga soo ururiso xulashooyinka dhabta ah ee walxaha la daabacay.",
@@ -11776,7 +11776,7 @@ export default {
         "Kaydinta Cyberka",
         "Maalmo Dhimista Dijital ah",
         "E-commerce Carnival",
-        "shay shay shay",
+        "Online Outlet Oasis",
         "Rush tafaariiqda",
         "Iibka Bakhaarka Mareegta",
         "Jannada E-Dukaanka",
@@ -11847,24 +11847,24 @@ export default {
     lottery: {
       title: [
         "Spin & Guulayso Abaalmarinno Waaweyn!",
-        "shay shay shay",
-        "shay shay shay",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "U rog si aad ugu guulaysato Abaalmarinta",
-        "shay shay shay",
-        "shay Bakhtiyaanasiibka shay",
+        "Wheel of Wealth",
+        "Lucky Lottery Extravaganza",
         "Mega Spin yaab",
         "Abaalmarinta Wheel Fiesta",
-        "shay shay shay",
+        "Treasure Spin Spectacular",
         "shay shay ",
-        "shay shay shay",
+        "Lucky Wheel Galore",
         "Faa'iidada Fortune",
         "giraangiraha yaababka",
         "Isku dhufashada Hantida",
         "Abaalmarinta Spinner Delight",
         "Bakhtiyaa nasiib Spin Golden",
         "shay",
-        "shay shay shay",
-        "shay shay shay",
+        "Wheel of Fortunes",
+        "Lucky Spin Showcase",
         "Abaalmarinta Spin Ultimate",
       ],
       description: [
@@ -11896,24 +11896,24 @@ export default {
      */
     subscription_price: {
       title: [
-        "shay Helitaanka",
-        "shay shay",
-        "shay xirmo",
-        "shay Qorshe",
-        "shay Isdiiwaangelinta",
-        "shay shay",
-        "shay shay",
-        "Aan xadidnayn Bixin",
-        "shay shay",
+        "Helitaanka aasaasiga ah",
+        "Xubinnimada Premium",
+        "Xidhmada Dahabka",
+        "Qorshaha Lacagta",
+        "Is-diiwaangelinta Platinum",
+        "Heerka Ganacsiga",
+        "Xidhmada bilowga",
+        "Soo jeedin aan xadidnayn",
+        "Xidhmada Qoyska",
         "Suite Professional",
       ],
       description: [
         "shay shay ",
         "Helitaanka Ku dhammaan shay shay ",
-        "shay shay shay Mudnaanta Taageero",
+        "Faa'iidooyinka gaarka ah iyo taageerada mudnaanta leh.",
         "Xidhmo dheellitiran oo loogu talagalay isticmaalayaasha caadiga ah.",
-        "shay Helitaanka shay shay shay",
-        "Caado shay shay ",
+        "Helitaanka ugu dambeeya oo leh faa'iidooyin heer-sare ah.",
+        "Xalalka gaarka ah ee ururada waaweyn.",
         "shay shay ",
         "Ma xadidna isticmaalka, ee isticmaala tamarta.",
         "Qorshe gaar ah oo loogu talagalay qoysaska, ilaa 4 xubnood.",
@@ -11924,25 +11924,25 @@ export default {
     spec: {
       group: [
         "Tilmaamaha Farsamada",
-        "shay shay",
-        "Waxqabadka shay",
-        "shay shay",
-        "shay shay",
-        "Material shay Dhis shay",
-        "Midabka shay dhame shay",
-        "shay shay shay",
-        "shay shay shay",
-        "shay shay shay",
-        "xirmo shay",
-        "damaanad shay Taageero",
-        "Summada shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay shay",
-        "shay shay",
-        "shay shay",
-        "isticmaale shay shay Faallooyin",
-        "Qiimaha shay shay",
+        "Cabirka Jirka",
+        "Tilmaamaha Waxqabadka",
+        "Ikhtiyaarada isku xidhka",
+        "Shuruudaha Awoodda",
+        "Qalabka iyo Dhisida Tayada",
+        "Midabka iyo Dhammaadka Ikhtiyaarada",
+        "Kaydinta iyo Xusuusta",
+        "Waafaqsanaanta Nidaamka Hawlgelinta",
+        "Badbaadada iyo U Hogaansanaanta",
+        "Nuxurka Xidhmada",
+        "Dammaanad iyo Taageero",
+        "Summada iyo Soo saaraha",
+        "Saaxiibtinimada deegaanka",
+        "Waxtarka Tamarta",
+        "Daryeelka iyo Dayactirka",
+        "Ikhtiyaarada Habaynta",
+        "Qalabka lagu daro",
+        "Qiimaynta Isticmaalaha iyo Qiimaynta",
+        "Qiimaha iyo Helitaanka",
       ],
     },
 
@@ -11970,26 +11970,26 @@ export default {
         "macmiil qaansheeg",
       ],
       message: [
-        "shay shay Iibsasho!",
-        "shay shay shay ganacsi",
-        "shay 🛍️ Dalbo shay shay !",
+        "Waad ku mahadsan tahay iibsashadaada!",
+        "Waanu ku mahadsan nahay ganacsigaaga.",
+        "Dalabkaagii wuu soo socdaa!",
         "shay shay ",
-        "shay shay Ku shay shay shay",
-        "shay shay Mudnaanta",
-        "shay shay Ku shay shay shay",
+        "Anigoo rajaynaya inaan mar kale kuu adeego.",
+        "Ku qanacsanaantaada ayaa ah mudnaantayada ugu sareysa.",
+        "Ha iloobin inaad qiimeyso khibradaada.",
         "Waad ku mahadsan tahay taageerada dukaankayaga.",
         "shay shay Cusub Iibsasho!",
         "Kaydi qaansheegtaada si aad mustaqbalka u tixraacdo.",
         "Mar kale nagu soo booqo si aad u hesho alaab aad u wanaagsan",
         "shay Ku xidhan shay shay Soo jeedin",
-        "shay shay macmiil",
-        "shay shay Ku caawimo shay shay ",
+        "Waad ku mahadsan tahay inaad tahay macaamiil la qiimeeyo.",
+        "Waxaan halkaan u joognaa inaan ku caawinno haddii aad u baahan tahay gargaar.",
         "shay Jawaab celin caawimo shay shay",
         "Ku raaxayso qiimo dhimis gaar ah iibsashadaada soo socota.",
         "shay shay !",
         "shay shay ",
         "shay shay Ku shay Jawaab celin",
-        "shay shay Ka shay shay",
+        "Mahad kal iyo laab ah ayaa ka timid kooxdayada.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "shay shay",
-        "iibiye shay",
-        "shay bogga hore",
-        "shay shay",
+        "Bandhiga Hantida",
+        "Iibiyaha Plaza",
+        "Guryo sifaysan",
+        "Suuqa Deegaanka",
         "Imaanshaha Cusub",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "dahabka shay",
-        "shay shay",
-        "shay shay",
+        "Jardiinooyinka Estate",
+        "Degmada wax iibsiga",
+        "Farshaxan Alley",
+        "Guryaha Raaxada",
+        "Hub kiro",
+        "Guryo Furan",
+        "Hal-abuurka Farsamada",
+        "Lane Fashion",
+        "Geeska Farsamada",
+        "Maxkamadda Cuntada",
+        "Buuga Nook",
+        "Isgoysyada dahabka",
+        "Waddada Antique",
+        "Aagga Jimicsiga",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "ganacsi shay shay",
+        "Shahaadada Diiwaangelinta Ganacsiga",
         "Canshuur shay shay (TIN)",
         "iibiye shay foom",
         "Alaabta shay",
         "Qiimaha Liiska",
         "Bangiga Xisaab Faahfaahin",
-        "shay shay ciwaanka",
+        "Caddaynta Ciwaanka",
         "shay shay",
         "Shirkadda profile",
-        "shay shay shay",
+        "Shahaadada Hubinta Tayada",
         "shay Xogta xaashi (SDS)",
         "Alaabta damaanad macluumaad",
         "Soo noqo siyaasad",
-        "Raridda shay shay shay",
+        "Nidaamyada Rarida iyo Maareynta",
         "macmiil adeeg siyaasad",
         "Suuqgeynta shay shay Qorshayaasha",
-        "shay shay Xiriirinta",
+        "Xiriirinta Baraha Bulshada",
         "shay shay",
-        "shay Koodhka shay shay",
-        "shay shay (NDA)",
+        "Xeerka Anshaxa alaab-qeybiyaha",
+        "Heshiiska Aan Shaacin (NDA)",
       ],
     },
 
@@ -12054,24 +12054,24 @@ export default {
     expert_contract: {
       title: [
         "Suuqa dukaan Adeegyada shay",
-        "Dukaan shay shay",
-        "shay Adeegyada shay",
+        "Qandaraaska Habaynta Dukaanka",
+        "Heshiiska Adeegyada Dalbaabka-Daabacaadda",
         "shay Suuqgeynta adeeg shay",
-        "shay shay dukaan shay",
+        "Heshiiska Dejinta Platform E-commerce",
         "Qandaraaska La-talinta Khabiirka ee Milkiilayaasha Ganacsiga",
-        "adeeg shay shay Suuqa shay",
+        "Heshiiska Adeegga Habaynta Suuqa",
         "Dukaan dukaan shay shay Adeegyada shay",
         "POD adeeg shay shay",
-        "Suuqgeynta shay shay shay",
+        "Heshiiska Hirgelinta Istaraatiijiyada Suuqgeynta",
         "ganacsi shay adeeg shay",
         "shay dukaan dukaan shay",
         "Khabiir adeeg shay shay",
-        "ganacsi shay shay dukaan shay",
+        "Xalka Ganacsiga iyo Heshiiska Dejinta",
         "Caado Dukaan dukaan Adeegyada shay",
         "Suuqa shay adeeg shay",
-        "shay shay dukaan Adeegyada shay",
+        "Qandaraaska Adeegyada La-talinta iyo Dejinta",
         "POD shay Adeegyada shay",
-        "Suuqgeynta shay shay Adeegyada shay",
+        "Qandaraaska Adeegyada Suuqgeynta iyo Horumarinta",
         "ganacsi shay adeeg shay",
       ],
     },
@@ -12119,7 +12119,7 @@ export default {
         "shay lacag celin shay shay Iibsasho!",
         "shay shay ",
         "Cashback gaar ah ayaa kuu fidinaya adiga.",
-        "shay shay lacag celin shay",
+        "Ku raaxayso kaydin weyn oo leh abaalmarin cashback ah.",
         "Lacag caddaan ah oo degdeg ah dhammaan alaabta aad jeceshahay.",
         "Badbaadin Wax badan. . shay shay lacag celin Heshiisyada",
         "Laban laab lacagtaada maalmo gaar ah!",
@@ -12144,7 +12144,7 @@ export default {
         "Heshiisyada Gaarka ah iyo Kaydinta Keliya {shop} - Ka Faa'iidayso Fursada!",
         "Baro {shop} u huritaanka u huritaanka deegaanka iyo dhaqamada anshaxeed",
         "Ka mid noqo {shop} Qoyska - Ku biir Wargeysyadayada si aad u hesho warar cusub",
-        "shay shay {shop}",
+        "U quuso Xulashada Sare iyo Alaabooyinka aadka loo qiimeeyo ee {shop}",
         "shay shay dhammaan Dhacdooyinka shay {shop}",
         "Soojeedinno Aan La Helin iyo Waxyaabo Xasaasi Ah Waqtiga {shop} - Dhaqso U Samee!",
         "Talooyin Iibka Dhameystiran ee {shop} iyo Qiimaynta Alaabta - Kalsoonida wax ku iibso",
@@ -12160,17 +12160,17 @@ export default {
         "Dhammaystir muuqaalkaaga, qabso setka!",
         "Badbaadin shay shay Heshiisyada!",
         "shay shay !",
-        "shay shay Iibsasho, shay shay!",
-        "shay shay shay, Iibso shay!",
+        "Kor u qaad iibsashadaada, wax-ku-kordhinta ayaa sugaya!",
+        "Fur kayd gaar ah, wada iibsada!",
         "shay Walxaha, shay dhimis!",
         "Hel wax ka badan, kharash yar - xidhidh!",
         "shay Bixin: shay Alaabta!",
-        "shay shay shay, shay Heshiisyada!",
-        "shay shay , Badbaadin shay!",
+        "Kor u qaad khibradaada, heshiisyada combo!",
+        "Soo hel combos-yadayada la dajiyay, hadda badbaadi!",
         "shay shay !",
-        "Dukaan shay, shay shay Badbaadin!",
+        "Soo iibso xariif, xidhmo oo kaydi!",
         "Laban laab qiimaha, laba jibaar madadaalo!",
-        "shay shay – Dukaan shay!",
+        "Ciyaartaada ugu fiican waa halkan - hadda wax ka iibso!",
         "Qiimaynta xidhmada gaarka ah adiga kaliya!",
         "shay shay !",
         "shay shay !",
@@ -12218,8 +12218,8 @@ export default {
         "🛍️ Dalbo la keenay",
         "Lacag bixinta helay",
         "🛍️ Dalbo shay",
-        "🛍️ Dalbo shay shay",
-        "🛍️ Dalbo shay shay",
+        "Dib u dhigista Dalabka",
+        "Dalabka Joogta ah",
         "🛍️ Dalbo shay shay gaarsiin",
         "Soo noqo shay",
         "lacag celin shay",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "shay",
-        "shay shay",
-        "shay",
+        "Labbis",
+        "Qalabka Dijital ah",
+        "Cabbitaannada",
         "Cuntooyinka",
         "Alaabta guriga",
-        "shay",
-        "shay Alaabta",
-        "shay",
-        "shay shay",
-        "shay",
+        "Buugaag",
+        "Alaabta Quruxda",
+        "Alaabta lagu ciyaaro",
+        "Qalabka Ciyaaraha",
+        "Agabka",
       ],
       description: [
         "Tilmaamaha alaabta dharka sida cabbirka, midabka, iyo dharka.",
         "Tilmaamaha qalabka sida summada, moodeelka, iyo sifooyinka.",
         "dhadhanka, cabbirka, iyo noocyada cabitaannada.",
         "Faahfaahinta cuntada, cuntooyinka fudud, iyo alaabta cuntada.",
-        "Material, shay, shay Nakhshad shay",
-        "Qoraa, shay, shay shay shay",
+        "Qalabka, cabbirka, iyo qaababka naqshadeynta.",
+        "Qoraaga, nooca, iyo sanadka daabacaadda.",
         "Nooca maqaarka, maaddooyinka, iyo faahfaahinta baakadaha.",
         "Kooxda da'da, walxaha, iyo heerarka badbaadada.",
-        "Nooca, shay, shay Waxqabadka shay",
-        "shay, shay, shay Summada Faahfaahin",
+        "Nooca, cabbirka, iyo sifooyinka waxqabadka.",
+        "Qaababka, agabka, iyo faahfaahinta summada.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "shay XS",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay XL",
-        "shay XXL",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay",
-        "shay shay shay",
-        "shay shay shay", // flexible mailer
-        "shay shay", // bubble/padded
-        "shay shay", // thermal
-        "shay shay",
+        "Sanduuqa XS",
+        "Sanduuqa S",
+        "Sanduuqa M",
+        "Sanduuqa L",
+        "Sanduuqa XL",
+        "Sanduuqa XXL",
+        "Box Slim",
+        "Sanduuqa Ballaaran",
+        "Sanduuqa Dheer",
+        "Sanduuqa Flat",
+        "Sanduuqa Cube",
+        "Sanduuqa Tube",
+        "Santuuqa Jilicsan",
+        "Dhalooyinka dhalada ah ee sanduuqa",
+        "Xidhmada jilicsan ee sanduuqa", // flexible mailer
+        "Sanduuqa Badhan", // bubble/padded
+        "Sanduuqa Dahaaran", // thermal
+        "Sanduuqa culeyska culus",
       ],
     },
   },

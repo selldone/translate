@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Hankintakanavat",
         subtitle:
-          "sinun liiketoiminta on kohde. kohde on Raportti sinun asiakas Hankintakanavat.",
+          "Yrityksesi kasvaa. Tässä on raportti asiakashankintakanavistasi.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -1428,7 +1428,7 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategoria",
-      category_input_msg: "kohde sisällä kohde juuri",
+      category_input_msg: "Tyhjä: Kaupan juurella",
       product_name: "Tuotteen nimi*",
       product_name_placeholder: "Tuotteesi nimi täällä..",
       product_code: "Tuotekoodi (englanniksi)",
@@ -1506,7 +1506,7 @@ export default {
       action: {
         title: "mukautettu kohde painike",
         message:
-          "sinä voi muuta kuvake mukaan kohde tämä kohde: {icon name} teksti...",
+          "Voit vaihtaa kuvaketta noudattamalla tätä mallia: {icon name} kuvateksti...",
         placeholder: "syötä kutsu kohde toiminto...",
         multi_language_dialog_title: "mukautettu kohde painike teksti",
       },
@@ -1527,7 +1527,7 @@ export default {
       },
       hsn: {
         hint: "HSN eli harmonisoitu nimikkeistöjärjestelmä on kansainvälisesti standardoitu tavaroiden ja tuotteiden luokittelujärjestelmä.",
-        placeholder: "6~16 kohde HSN koodi.. (kohde)",
+        placeholder: "6–16-numeroinen HSN-koodi.. (valinnainen)",
         label: "HSN",
       },
       condition: {
@@ -1701,7 +1701,7 @@ export default {
         inputs: {
           prompt: {
             label: "tuote tiedot",
-            placeholder: "kohde tuote kohde...",
+            placeholder: "Kuvaile tuotetta täällä...",
           },
         },
         actions: {
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "kohde hinnoittelu varten kohde {min}",
+    title: "Lisähinta yli {min}:lle",
     subtitle:
       "Määritä ja hallitse tätä asetusta kauppaasi varten.",
     min_quantity: "Vähimmäismäärä",
@@ -1875,7 +1875,7 @@ export default {
     menu: {
       add_bulk: {
         title: "Joukko lisäys",
-        subtitle: "Lisää kohde variaatiot sisällä kohde toiminto.",
+        subtitle: "Lisää useita muunnelmia yhdellä toiminnolla.",
       },
       edit_property_set: {
         title: "Mukauta ominaisuusjoukkoa",
@@ -1945,7 +1945,7 @@ export default {
       is_disabled: "tämä Veroprofiili on poistettu käytöstä! (⚠️varoitus)",
       shipping: "laivaus",
       fixed_rate: "TAX",
-      location_based_rate: "kohde Sijainti kohde",
+      location_based_rate: "Vero: Sijaintiperusteinen",
       shipping_location_based_rate: "Toimitus: Sijainti kohde",
       include_in_price: "Sisältyy hintaan",
     },
@@ -2002,7 +2002,7 @@ export default {
 
     profiles: {
       title: "Profiilit",
-      subtitle: "sinä voi kohde Sijainti kohde tämä myyjä.",
+      subtitle: "Voit määrittää sijainnin tälle toimittajalle.",
     },
     map: {
       no_map_message:
@@ -2015,10 +2015,10 @@ export default {
       action_set_page: "katso julkinen sivu",
       action_sub_caption: "Mukautettu laskeutumissivu.",
       vendor_has_landing_msg: "myyjä sisältää Mukautettu laskeutumissivu.",
-      no_landing_selected_msg: "kohde Laskeutumissivu kohde.",
+      no_landing_selected_msg: "Aloitussivua ei ole valittu.",
       no_landing_page: "kohde Laskeutumissivu",
       we_can_create_dedicated_landing_msg:
-        "kohde voi Luo kohde Laskeutumissivu varten sinä.",
+        "Voimme luoda sinulle erillisen aloitussivun.",
     },
     contact: {
       title: "Yhteystiedot",
@@ -2068,7 +2068,7 @@ export default {
       "Syötetty sähköpostiosoite ei vastaa käyttäjän sähköpostiosoitetta (<b>{user_name}:</b>{user_email}). Oletko varma, että lähetät sähköpostit osoitteeseen<b>{email}</b>?",
 
     order_information_email_to_email:
-      "kohde tulee lähetä Tilaukset tiedot kohde <b>{email}</b>.",
+      "Lähetämme tilaustiedot numeroon <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "aseta käyttäjä varten myyjä kohde.",
 
@@ -2088,11 +2088,11 @@ export default {
         true_title: "liiketoiminta",
       },
       bank: {
-        hint: "nimi pankki kohde myyjä sisältää kohde tili.",
+        hint: "Sen pankin nimi, jossa myyjällä on tili.",
         placeholder: "sinun pankki nimi..",
       },
       account_name: {
-        hint: "tämä pitäisi kohde nimi kohde kanssa pankki tili.",
+        hint: "Tämän tulee vastata pankkitiliin liittyvää nimeä.",
         placeholder: "sinun nimi..",
       },
       account_number: {
@@ -2187,19 +2187,19 @@ export default {
         },
         image: {
           label: "kuva",
-          message: "kohde kuva kohde 128KB",
+          message: "Kuvan enimmäiskoko: 128 kt",
           placeholder: "Valitse kansikuva",
         },
         pattern: {
           label: "kohde",
           message:
             "Näytä tämä merkki automaattisesti tuotteille, joiden teknisissä tiedoissa on tämä vastaava arvo. Regex tuettu.",
-          placeholder: "kohde Näytä varten kaikki Tuotteet kohde *.*",
+          placeholder: "Näytä kaikkien tuotteiden kohdalla kirjoittamalla: *.*",
         },
       },
       notifications: {
         badge_added: "Tunnus on lisätty onnistuneesti!",
-        badge_updated: "merkki sisältää kohde päivitetty kohde!",
+        badge_updated: "Tunnus on päivitetty onnistuneesti!",
         item_not_found_error:
           "Kohdetta ei löytynyt. Päivitä sivu tai ota yhteyttä tukeen.",
       },
@@ -2212,7 +2212,7 @@ export default {
     title: "Tunnisteet",
     tips: [
       "sinä voi suodatin Tuotteet kohde päällä tunnisteet päällä <b>laskeutuminen sivut</b>.",
-      "sinä ja sinun Asiakkaat voi haku varten kohde tunnisteet sisällä <b>haku</b> kohde.",
+      "Sinä ja asiakkaasi voitte etsiä näitä tageja<b>search</b>-palkista.",
       "Jos tunnisteet on asetettu, vain tuotteet, joissa on <b>common tags</b>, näkyvät tuotesivun <b>-liittyvät tuotteet -osiossa</b>; muutoin samaan kategoriaan kuuluvat tuotteet näytetään.",
     ],
     inputs: {
@@ -2279,7 +2279,7 @@ export default {
     dialog: {
       header: "Tuotepaketin osat",
       title: "Sisältyvät osat",
-      subtitle: "tämä on kohde kohteet se kohde kanssa tuote.",
+      subtitle: "Tämä on kokoelma tuotteen mukana tulevista tuotteista.",
       action_manage: "Hallinnoi osia",
       action_disable_msg: "Markkinapaikan omistaja",
       select_items_tips:
@@ -2327,9 +2327,9 @@ export default {
         title: "Tilaukset",
         title_small: "Käsittelemätön",
         physical_orders_title: "Ostoskärryt tämän tuotteen kanssa",
-        send_count_in_period: "kohde Tilaukset kohde {start} ~ {end}",
+        send_count_in_period: "Tilaukset toimitetaan välillä {start} ~ {end}",
         downloads_count_in_period:
-          "tiedosto kohde määrä kohde {start} ~ {end}",
+          "Ladattujen tiedostojen määrä välillä {start} - {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2459,7 +2459,7 @@ export default {
         },
         quantity: {
           title: "Varasto",
-          subtitle: "aseta varasto kohde varten kohde variaatio.",
+          subtitle: "Aseta varastotasot kullekin versiolle.",
         },
         price: {
           title: "Hinnoittelu",
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "Toimituspalvelut saatavilla kohde päällä kohde koko ja paino.",
+      "Saatavilla olevat toimituspalvelut riippuvat toimitetusta koosta ja painosta.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,7 +2531,7 @@ export default {
     lead_time_dimension: "Tunti(t)",
     bulk_action: "Joukkotoiminnot",
     bulk_action_subtitle:
-      "sinä voi käytä kohde tiedot kohde kaikki tuote variaatiot.",
+      "Voit käyttää pakkaustietoja kaikkiin tuoteversioihin.",
 
     bulk_action_input: "Päivitä kaikki versiot",
     bulk_action_msg:
@@ -2554,7 +2554,7 @@ export default {
     dialog_alt: {
       title: "Aseta kuvan vaihtoehtoinen teksti",
       placeholder: "Kirjoita kuvaava vaihtoehtoinen teksti...",
-      success_update_notification: "kohde teksti päivitetty kohde.",
+      success_update_notification: "Vaihtoehtoinen teksti päivitetty onnistuneesti.",
     },
     dialog_bg_remove: {
       title: "Poista tausta automaattisesti",
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "Kaupan varasto",
     subtitle: "luettelo kaikki Tuotteet sisällä kauppa.",
-    cant_set_here: "kohde aseta kohde",
+    cant_set_here: "Ei voi asettaa tänne",
 
     search_input: "Tuotehaku...",
     search_input_title: "Hae myymälän tuotteista",
@@ -2753,7 +2753,7 @@ export default {
     },
 
     category: {
-      subtitle: "raja joukko toiminto kohde kategoria ja kaikki kohde.",
+      subtitle: "Rajoita joukkotoiminto luokkaan ja kaikkiin alaluokkiin.",
     },
     vendor: {
       subtitle:
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "kohde katso sinun kohde Maksu menetelmä?",
+        title: "Etkö näe haluamaasi maksutapaa?",
         subtitle:
           "Määritä ja hallitse tätä asetusta kauppaasi varten.",
       },
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "kohde | Peruuta tilaus kohde",
-        false_title: "kohde | Peruuta tilaus kohde 48 tunnit",
+        true_title: "Express | Peruuta tilaus välittömästi",
+        false_title: "Vakio | Peruuta tilaus 48 tunnin kuluttua",
         true_description:
           "Tämä vaihtoehto peruuttaa tilauksesi välittömästi ja päivittää varaston heti.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Tilaus palautui normaaliin prosessiin.",
       set_tracking_success: "Tilauksen jäljen tunnus tallennettu onnistuneesti.",
       shipping_address_update_success:
-        "Toimitus osoite sisältää kohde päivitetty kohde.",
+        "Toimitusosoitteen päivitys onnistui.",
       vendor_order_status_update_success:
-        "myyjä toimitus tila sisältää kohde päivitetty kohde.",
+        "Toimittajan toimitustilan päivitys onnistui.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3531,7 +3531,7 @@ export default {
           "Määritä ja hallitse tätä asetusta kauppaasi varten.",
       },
       need_no_refund: {
-        title: "kohde hyvitys kohde",
+        title: "Hyvitystä ei tarvita",
       },
       total_refund: {
         title: "yhteensä kohde",
@@ -3743,12 +3743,12 @@ export default {
     },
     gateway_code: "maksuportti koodi",
 
-    hold_only_for: "kohde Maksu kohde saatavilla varten",
+    hold_only_for: "Maksun lykkäys käytettävissä vain",
     manual_input: {
       false_description:
         "Maksun tila vaihtuu automaattisesti odottavasta tilasta vahvistettuun maksupalveluntarjoajan järjestelmässä.",
       false_title: "automaattinen Maksu kohde",
-      true_title: "kohde maksut ja manuaalinen kohde",
+      true_title: "Maksujen lykkääminen ja manuaalinen vahvistus",
       true_description:
         "Määritä ja hallitse tätä asetusta kauppaasi varten.",
     },
@@ -4020,7 +4020,7 @@ export default {
     "connect-confirmed": "Tilaus vahvistettiin.",
 
     "vendor-payout": "💸 Maksu myyjälle.",
-    "vendor-wallet-transaction": "kohde lompakko kohde.",
+    "vendor-wallet-transaction": "Myyjän lompakkokauppa.",
 
     "vendor-sms":
       "🔔 Tilaustiedote tekstiviesti on lähetetty osoitteeseen <b>{vendor}</b> ╏ {phone}.",
@@ -4045,7 +4045,7 @@ export default {
       "Lähetä asiakkaalle tilausvahvistus {phone}:n kautta.",
 
     "count-adjustment":
-      'määrä tuote "{product}" sisältää kohde päivitetty Mistä {from} kohde {to}.',
+      "Tuotteen \"{product}\" määrä on päivitetty arvosta {from} arvoon {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4085,15 +4085,15 @@ export default {
       subscription_vendor_not_support_message:
         "Tilaustuotteille ei voi määrittää toimittajaa! Tilaustuotteilla on aina oltava myyjä omistajana!",
       vendor_owner_not_assignable_message:
-        "voi ei kohde myyjä varten Tuotteet kanssa myyjä kohde omistaja!",
-      category_assign_profile: "kohde profiili kohde Tuotteet sisällä kategoria",
+        "Ei voi määrittää toimittajaa tuotteille, joiden omistaja on myyjä!",
+      category_assign_profile: "Määritä profiili luokan tuotteille",
       category_assign_profile_subtitle: "vero, Toimitus, Opas, Takuu,...",
       bulk_discount: "joukko alennus",
       bulk_discount_subtitle: "käytä alennus päällä kaikki Tuotteet.",
     },
 
     engine: {
-      title: "kohde Tuotteet kohde",
+      title: "Lisätuotteiden moottori",
       subtitle:
         "Lisää tuotteita ladataan valituista luokista ja tunnisteista.",
       load_in_tips: "lataa Tuotteet Mistä kategoria sisällä {category}.",
@@ -4103,9 +4103,9 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "pudota kohde / CSV tiedosto kohde.",
+      title: "Pudota Excel/CSV-tiedosto tähän.",
       select_file: "valitse tiedosto",
-      max_file: "enimmäis tiedosto kohde 20kohde",
+      max_file: "Tiedoston enimmäiskoko: 20 Mt",
       download_sample: "lataa näyte",
     },
     ai: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "kohde sinä kohde tämä Maksu?",
+          label: "Oletko vahvistanut tämän maksun?",
           false_description:
             "Ei, en ole vielä saanut tätä maksua pankkitililleni.",
           true_description: "Kyllä, olen vastaanottanut ja vahvistanut tämän maksun.",
@@ -4267,7 +4267,7 @@ export default {
     inputs: {
       note: {
         message: "Se näkyy myyjälle.",
-        placeholder: "sinä voi kohde muistiinpano kohde...",
+        placeholder: "Voit liittää muistiinpanon tähän...",
       },
       amount: {
         error_message: "Jäljellä oleva määrä on ylitetty.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Määritä ja hallitse tätä asetusta kauppaasi varten.",
-    add_note_subtitle: "kirjoita viesti ja kohde sinun kohde.",
+    add_note_subtitle: "Kirjoita viesti ja mainitse kollegasi.",
 
     message_input: "Kirjoita viestiä tähän...",
     pin_action: "Kiinnitä ylös",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "kohde käyttöoikeus",
-      description: "luku kohde tiedot ja kohde.",
+      description: "Lue nauhan tiedot ja tilastot.",
     },
     "backoffice:ai:write": {
       name: "AI kohde",
@@ -5070,7 +5070,7 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "kohde käyttöoikeus",
-      description: "luku kohde tiedot ja kohde.",
+      description: "Lue kaupallistamistiedot ja tilastot.",
     },
     "selldone:monetization:write": {
       name: "Kaupallistamisen hallinta",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "kohde käyttöoikeus",
-      description: "luku kohde tiedot ja kohde.",
+      description: "Lue palveluntarjoajan tiedot ja tilastot.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "kohde käyttöoikeus",
-      description: "luku kohde tiedot ja kohde.",
+      description: "Lue viraston tiedot ja tilastot.",
     },
     "agency:write": {
       name: "Viraston hallinta",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "kohde",
-      description: "käyttöoikeus kohde tiedot ja kohde.",
+      description: "Pääsy viraston tietoihin ja hallintaan.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "hinta",
     verify: {
       true_title: "kohde ehdot",
-      true_description: "kohde luku ja kohde kanssa Selldone ehdot käytä",
+      true_description: "Olen lukenut ja hyväksyn Selldonen käyttöehdot",
     },
     need_charge: "Tarvitsee maksua",
     buy_now: "Osta nyt",
@@ -5947,8 +5947,8 @@ export default {
         false_description:
           "Laske käyttämällä kiinteiden ja prosenttiosuuksien yhdistelmää.",
         true_description:
-          "kohde käyttäen kohde provisio aseta sisällä hinnoittelu välilehti.",
-        false_title: "kohde + kohde provisio",
+          "Laske käyttämällä hinnoitteluvälilehdellä asetettuja tuotekohtaisia ​​palkkioita.",
+        false_title: "Kiinteä + Prosenttipalkkio",
         true_title: "kohde provisio",
       },
       user: {
@@ -7101,13 +7101,13 @@ export default {
         "Määritä ja hallitse tätä asetusta kauppaasi varten.",
     },
     need_enable_shipping_for_vendors_tips:
-      "ota käyttöön Toimitus varten myyjät sisällä kauppa > logistiikka välilehti varten kohde menetelmä kohde.",
+      "Ota toimittajien toimitus käyttöön kullekin menetelmälle erikseen Kauppa > Logistiikka -välilehdellä.",
     transportation_available_tooltip: "tämä kohde on saatavilla varten myyjät.",
     transportation_not_available_tooltip:
-      "ei saatavilla varten myyjät! sinä voi ota käyttöön kohde sisällä kohde Asetukset.",
+      "Ei saatavilla myyjille! Voit ottaa sen käyttöön kuljetusasetuksista.",
     panel: {
       title: "myyjä kohde",
-      subtitle: "kohde sinun myyjät kohde sinun mukautettu verkkotunnus.",
+      subtitle: "Ota toimittajasi mukaan mukautetun verkkotunnuksesi kautta.",
     },
     documents: {
       title: "asiakirjat",
@@ -7126,14 +7126,14 @@ export default {
         label: "Lisää uusi tuote",
         true_title: "myyjät voi Lisää Tuotteet",
         false_description:
-          "sinä Lisää Tuotteet ja kohde myyjät. myyjät voi kohde hallinnoi hinta ja varasto.",
+          "Lisäät tuotteita ja määrität toimittajat. Myyjät voivat hallita vain hintoja ja varastoa.",
         true_description:
           "Toimittajat voivat lisätä ja hallita omia tuotteitaan suoraan toimittajapaneelissaan.",
       },
       need_verify: {
         label: "tuote vahvistus kohde",
         false_description: "uusi myyjä Tuotteet siirry tuotanto kohde.",
-        false_title: "kohde vahvistus kohde",
+        false_title: "Vahvistusta ei vaadita",
         true_description:
           "Myyjien uudet tuotteet vaativat hyväksynnän ennen kuin ne tulevat markkinoille.",
         true_title: "vahvistus kohde",
@@ -7156,7 +7156,7 @@ export default {
       },
       hidden_customer: {
         label: "Näytä kohde yhteystiedot tiedot",
-        true_description: "kohde yhteystiedot tiedot ovat kohde Mistä myyjät.",
+        true_description: "Ostajan yhteystiedot ovat piilossa myyjiltä.",
         false_description:
           "Ostajan yhteystiedot, kuten puhelin ja sähköposti, näkyvät myyjille.",
       },
@@ -7199,7 +7199,7 @@ export default {
       code: {
         title: "upotus koodi",
         subtitle:
-          "kohde upotus koodi varten asiakirja, Lomake, tai kohde se myyjä täytyy allekirjoitus.",
+          "Liitä upotuskoodi asiakirjalle, lomakkeelle tai sopimukselle, joka toimittajan on allekirjoitettava.",
       },
       link: {
         title: "ulkoinen linkki",
@@ -7218,7 +7218,7 @@ export default {
         },
         code: {
           label: "upotus koodi",
-          placeholder: "kohde upotus koodi kohde...",
+          placeholder: "Liitä upotuskoodi tähän...",
           message: "voi sisällytä HTML koodi.",
         },
         url: {
@@ -7264,7 +7264,7 @@ export default {
         "Lähetä asiakirja yrityksesi osoitteen vahvistamiseksi, kuten sähkölasku, verolasku tai vuokrasopimus.",
     },
     Contract: {
-      title: "kohde & kohde",
+      title: "Sopimukset ja sopimukset",
       description:
         "Lataa sopimuksia, joissa käsitellään liikesuhteidesi ehdot.",
     },
@@ -7339,7 +7339,7 @@ export default {
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "kohde hinnoittelu kohde",
+    title: "Markkinapaikan hinnoittelumalli",
     subtitle:
       "Kun määrität hinnoittelumallin toimittajan tuotteille, hinta lasketaan automaattisesti muodossa Myyjähinta * (1 + Provisio %).",
     delete: {
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Kun yhdistät maksupalvelut, kuten Stripe Connectin, haemme ja näytämme Stripe-tilisi käytettävissä olevan saldon viitteeksi.",
     with_balance: "kanssa saldo",
-    without_balance: "kohde saldo - kohde tila",
+    without_balance: "Ilman tasapainoa - nopea tila",
     bank_transfer: {
       title: "Pankkisiirto",
       subtitle:
@@ -7622,7 +7622,7 @@ export default {
       },
       font_res: {
         label: "fontti kohde",
-        message: "kohde fontti kohde.",
+        message: "Määritä fonttiresurssi.",
       },
     },
   },
@@ -7690,7 +7690,7 @@ export default {
         placeholder: "syötä otsikko varten ominaisuus aseta...",
       },
       description: {
-        placeholder: "syötä kohde kuvaus... (kohde)",
+        placeholder: "Kirjoita lyhyt kuvaus... (valinnainen)",
       },
       custom_variants: {
         true_title: "mukautettu variaatiot",
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "aseta kohde aseta... (kohde)",
+        placeholder: "Aseta arvot asetettu... (valinnainen)",
         messages:
           "Voit antaa ehdotuksia arvoista ja mukauttaa järjestystä.",
       },
@@ -8532,7 +8532,7 @@ export default {
       add_new: "Lisää uusi",
       disable_reason: {
         set_provider: "Aseta ensin palveluntarjoajasi!",
-        provider_is_disabled: "kohde on kohde!",
+        provider_is_disabled: "Palveluntarjoaja on poissa käytöstä!",
         otp: "OTP - Ei muokattavissa!",
         select_another_provider: "Valitse toinen palveluntarjoaja.",
       },
@@ -8559,7 +8559,7 @@ export default {
           "Määritä ja hallitse tätä asetusta kauppaasi varten.",
         code: "Koodi",
         language_msg: "Jätä se tyhjäksi asettaaksesi sen oletukseksi.",
-        enable_msg: "tämä malli tulee kohde käytetty kohde Luo viesti.",
+        enable_msg: "Tätä mallia käytetään viestien luomiseen.",
       },
       text: {
         title: "kohde teksti",
@@ -8650,11 +8650,11 @@ export default {
     all: {
       title: "OPT + tilaus ilmoitukset",
       description:
-        "kohde viesti ja tilaus ilmoitus tulee kohde lähetetty.",
+        "Todennusviestit ja tilausilmoitus lähetetään.",
     },
     otp: {
       title: "OTP kohde",
-      description: "kohde viesti tulee kohde lähetetty.",
+      description: "Todennusviestit lähetetään.",
     },
   },
 
@@ -8980,7 +8980,7 @@ export default {
       description:
         "Asiakkaat voivat ostaa tämän tuotteen vain määritetyn maan ja postinumeron sisällä määritetyn sijaintirajoituksen vuoksi.",
     },
-    zip_pin_code: "kohde / kohde COD",
+    zip_pin_code: "Postinumerot",
     no_country_selected_error:
       "Liitä mukaan vähintään yksi maa sekä luettelo postinumeroista. Ilman sitä tätä tuotetta ei ole saatavilla.",
     tips: "Napsauta <b>+ Lisää maa</b> -painiketta aloittaaksesi uuden sijaintijoukon luomisen. Kun olet valmis, voit tallentaa sen napsauttamalla oikeassa yläkulmassa olevaa <b>⋮ Menu</b> -kuvaketta ja valitsemalla <b>Save Profile</b>.",
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "Tuotteet",
-      subtitle: "varasto kohde ja tuote kohde.",
+      subtitle: "Varastonhallinta ja tuoteselvitys.",
     },
   },
 
@@ -9680,7 +9680,7 @@ export default {
     },
     Marketplace: {
       title: "Markkinapaikka",
-      desc: "kohde synkronoi varasto ja vastaanota Tilaukset (Tuotteet tulee kohde linkitetty mukaan SKU).",
+      desc: "Synkronoi vain varasto ja vastaanota tilauksia (SKU linkittää tuotteet).",
     },
     Accounting: {
       title: "Kirjanpito",
@@ -9766,7 +9766,7 @@ export default {
       },
       spam: {
         title: "Raportti & Poista kohde",
-        subtitle: "joukko Poista kohde ja kohde käyttäjä.",
+        subtitle: "Poista viestit joukkona ja estä käyttäjä.",
       },
       delete: {
         title: "Poista kohde",
@@ -9808,7 +9808,7 @@ export default {
         "Hankimme Googlelta tarkimmat SEO-auditointitiedot ja esittelemme ne sinulle kätevästi. Noudata vain annettuja ohjeita.",
     },
     serp_content: {
-      title: "Connect kohde Google haku kohde",
+      title: "Yhdistä Google Search Consoleen",
       subtitle:
         "Yhdistä myymäläsi hakukonsoliin ja ala tutkia avainsanoja, sijoituksia ja muita ilmaisia ​​SEO-työkaluja Selldonessa.",
       tips: {
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "Lisää uusi käteispalautus",
     title: "käteispalautus kohde",
-    boosted: "kohde (2kohde)",
+    boosted: "Tehostus (2x)",
     min_purchase: "vähimmäis osto",
     only_first_order: "Vain ensimmäinen tilaus",
     total_cashback: "yhteensä käteispalautus",
@@ -9839,7 +9839,7 @@ export default {
       action: "Kyllä, poista nyt",
     },
     notifications: {
-      delete_success: "käteispalautus kohde poistettu kohde.",
+      delete_success: "Cashback-ohjelman poistaminen onnistui.",
     },
   },
   /**
@@ -9893,7 +9893,7 @@ export default {
     },
     percent_input: {
       title: "käteispalautus kohde",
-      message: "syötä käteispalautus kohde Mistä 1% kohde 20%.",
+      message: "Syötä käteispalautusprosentti 1–20 %.",
     },
     currency_input: {
       message: "Cashback-ohjelma on saatavilla vain tälle valuutalle.",
@@ -9926,14 +9926,14 @@ export default {
       title: "Kuvaus",
     },
     constraints: {
-      subtitle: "aseta kohde varten käteispalautus kohde.",
+      subtitle: "Aseta cashback-ohjelman rajoitukset.",
     },
     min_purchase_input: {
       hint: "syötä vähimmäis osto summa varten käteispalautus kohde.",
       title: "vähimmäis osto",
     },
     only_first_buy_input: {
-      false_desc: "käteispalautus kohde tulee kohde saatavilla varten kaikki Tilaukset.",
+      false_desc: "Cashback-ohjelma on saatavilla kaikille tilauksille.",
       true_desc:
         "Cashback-ohjelma on saatavilla vain ensimmäiselle tilaukselle.",
       true_title: "Vain ensimmäinen tilaus",
@@ -9955,16 +9955,16 @@ export default {
     },
     notifications: {
       add: "Cashback-ohjelma lisätty onnistuneesti.",
-      edit: "käteispalautus kohde päivitetty kohde.",
+      edit: "Cashback-ohjelman päivitys onnistui.",
     },
     enable_input: {
-      true_msg: "käteispalautus kohde on aktiivinen ja Asiakkaat voi käytä kohde.",
+      true_msg: "Cashback-ohjelma on aktiivinen ja asiakkaat voivat käyttää sitä.",
       false_msg:
-        "käteispalautus kohde on passiivinen ja Asiakkaat voi ei käytä kohde.",
+        "Cashback-ohjelma ei ole aktiivinen, eivätkä asiakkaat voi käyttää sitä.",
     },
     boosted_input: {
       false_title: "Normaali",
-      true_title: "kohde (2kohde käteispalautus)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "Cashback-ohjelma on boost-tilassa ja asiakkaat saavat 2x cashbackin.",
       false_msg:
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "vahvista päällä toimitus",
-        subtitle: "sinä voi kohde vahvista toimitus varten Maksu kohde.",
+        subtitle: "Voit vahvistaa toimituksen manuaalisesti maksupalveluntarjoajalle.",
       },
     },
   },
@@ -10171,13 +10171,13 @@ export default {
       subscription_pricing_msg:
         "tämä tuote sisältää {count} tilaus hinnoittelu kohde.",
       has_no_subscription_pricing_msg:
-        "tämä tuote sisältää kohde tilaus hinnoittelu kohde.",
+        "Tällä tuotteella ei ole tilaushinnoittelua.",
     },
     /**
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "kohde tilaus hinnoittelu kohde",
+      title: "Puuttuvat tilaushinnoittelusuunnitelmat",
       subtitle:
         "Määritä ja hallitse tätä asetusta kauppaasi varten.",
       pricing_plans: "hinnoittelu kohde",
@@ -10195,7 +10195,7 @@ export default {
       available_countries_msg:
         "Ostokset maailmanlaajuisesti rajoitettu {count} maahan. Nämä maat ovat {countries}.",
       disable_for_all_countries_msg:
-        "kohde on poistettu käytöstä varten kaikki maat sisällä sinun kauppa > sijainti kohde.",
+        "Ostokset on poistettu käytöstä kaikissa maissa myymäläsi > sijaintiasetuksissa.",
       location_is_not_in_permitted_shop_locations_msg:
         "Olet määrittänyt {country}:n myyntipaikaksi, mutta et salli tätä maata kauppatasolla. Tarkista kauppatason asetukset.",
       shop_locations: "kauppa sijainti",
@@ -10227,7 +10227,7 @@ export default {
           "Voimme soveltaa veroa vain maksun luontivaiheeseen.",
         dedicated: "kohde",
         is_disabled: "tämä Veroprofiili on poistettu käytöstä!",
-        tax_is_based_on_location: "kohde Sijainti kohde",
+        tax_is_based_on_location: "Vero: Sijaintiperusteinen",
         shipping_tax_is_based_on_location: "Toimitus: Sijainti kohde",
         included_in_price: "sisältyy sisällä hinta.",
       },
@@ -10340,7 +10340,7 @@ export default {
       },
       tags: {
         label: "tuote tunnisteet",
-        messages: "Tuotteet kanssa kohde tunnisteet tulee kohde Näytä.",
+        messages: "Näillä tunnisteilla varustetut tuotteet näytetään.",
         placeholder: "Pujota tunnisteet tähän ja paina enter. esim. uusi kokoelma",
       },
     },
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "Monikielinen",
       subtitle:
-        "tämä on luettelo sisältö kielet. sinä voi aseta kohde sisältö varten logistiikka profiili sisällä kohde kieli.",
+        "Tämä on luettelo sisällön kielistä. Voit määrittää logistiikkaprofiilille eri sisällön jokaisella kielellä.",
       add_caption: "Lisää uusi kohde",
       no_more_language: "kohde lisää kieli!",
     },
     content: {
       title: "sisältö",
       subtitle:
-        "sinä voi kohde sisältö varten logistiikka profiili sisällä kohde kielet.",
+        "Voit muokata logistiikkaprofiilin sisältöä useilla kielillä.",
 
       language_input: "Artikkelin nykyinen kieli",
       delete_article: "Poista kohde",
@@ -10510,7 +10510,7 @@ export default {
     empty_list_msg: "luettelo Sisältyvät osat...",
     notifications: {
       delete: {
-        message: "kohde sisältää kohde poistettu.",
+        message: "Kohde on poistettu.",
       },
     },
     delete_dialog: {
@@ -10536,18 +10536,18 @@ export default {
       "Määritä ja hallitse tätä asetusta kauppaasi varten.",
     inputs: {
       title: {
-        placeholder: "kohde otsikko kohde päällä Tuotesivu...",
+        placeholder: "Tiivis otsikko näkyy tuotesivulla...",
       },
       code: {
         placeholder: "Ainutlaatuinen koodi, esim. mobiili_kaapeli_usb",
         hint: "Käytä tätä koodia virtaviivaistaaksesi hakuprosessia kohteiden paikantamiseksi.",
       },
       description: {
-        placeholder: "kohde kuvaus tietoja tämä kohde...",
+        placeholder: "Lyhyt kuvaus tästä tuotteesta...",
         hint: "Kuvausta käytetään hakukoneoptimoinnissa, ja se saattaa näkyä käyttäjille joissakin tuotesivun mukautetuissa asetteluissa.",
       },
       image: {
-        message: "kohde kuva kohde 1MB",
+        message: "Kuvan enimmäiskoko: 1 Mt",
       },
       path: {
         label: "sivu polku",
@@ -10648,14 +10648,14 @@ export default {
       message: "Voit lisätä <b>?ref={code}</b> mihin tahansa myytyyn URL-osoitteeseen.",
     },
     intro: {
-      title: "kohde Selldone kumppani kohde",
+      title: "Liity Selldone-kumppaniohjelmaan",
       message:
         "Selldone-kumppaniohjelma on yksinkertainen ja suoraviivainen, ja se on suunniteltu ansaitsemaan vaivattomasti. Jaa ainutlaatuinen kumppanilinkkisi kutsuaksesi uusia käyttäjiä Selldoneen, ja ansaitset palkkion jokaisesta heidän tekemästään tapahtumasta – ikuisesti. Tämä sisältää tulot tilauksista, palvelumaksuista, myymäläpäivityksistä ja kaikista muista tulovirroista. Ala ansaita osuutta tuloista ilman aika- tai tulorajoituksia. Liity joukkoomme ja muuta verkostostasi vakaa tulo!",
       why_join_selldone_affiliate: "Miksi tämä on ainutlaatuinen tilaisuus?",
       reasons: [
-        "kohde viimeiset kohde!",
+        "Se kestää ikuisesti!",
         "Kattaa kaikki tilaus- ja tapahtumamaksut. Kirjaimellisesti jokainen Selldonen käyttäjän maksu.",
-        "Lähetämme ilmaisen $99 kupongin kaikille, jotka rekisteröityvät käyttämällä linkkiäsi.",
+        "Lähetämme ilmaisen 99 dollarin lahjakortin kaikille, jotka rekisteröityvät linkkisi avulla.",
         "Kun tasoasi päivitetään, ansaitset uudella korolla kaikilta aiemmin ohjatuilta käyttäjiltä.",
       ],
     },
@@ -10726,7 +10726,7 @@ export default {
       ctrl_r: "Poista kaikki muotoilut valitusta tekstistä | Puhdista kaikki tyylit",
       ctrl_s: "Tallenna sivu",
       tab: "Vaihda skaalaustilojen välillä",
-      ctrl_e: "kohde tai kohde kloonaa tyyli tila",
+      ctrl_e: "Ota kloonityylitila käyttöön tai poista se käytöstä",
     },
   },
 
@@ -10842,7 +10842,7 @@ export default {
       send_action: "lähetä Päivitä sähköposti",
 
       notifications: {
-        send_success_message: "sähköposti sisältää kohde lähetetty kohde.",
+        send_success_message: "Sähköpostin lähetys onnistui.",
       },
     },
     add_template: {
@@ -10917,7 +10917,7 @@ export default {
     profile: {
       title: "ominaisuus aseta - mukautettu variaatiot",
       subtitle:
-        "sinä voi kohde variaatio nimi varten tämä tuote, kohde oletus päällä.",
+        "Voit mukauttaa tämän tuotteen muunnelmien nimiä korvaamalla oletusnimet.",
     },
 
     subtitle:
@@ -10986,7 +10986,7 @@ export default {
       sub_title:
         "Luo, Muokkaa, ja hallinnoi Listaus kohteet. kohde tila, hinnoittelu, Yhteystiedot, ja media.",
 
-      empty_title: "kohde kohteet kohde",
+      empty_title: "Ei kohteita vielä",
       empty_subtitle:
         "Luo ensimmäinen listauskohde aloittaaksesi hakemiston rakentamisen.",
 
@@ -11019,7 +11019,7 @@ export default {
       sub_title:
         "Järjestä hakemistosi luokkien ja alakategorioiden avulla. Tämä parantaa navigointia ja suodatusta.",
 
-      empty_title: "kohde kategoria kohde",
+      empty_title: "Ei vielä luokkia",
       empty_subtitle:
         "Luo luokkia tietojen jäsentämiseksi ja selaamisen parantamiseksi.",
 
@@ -11048,8 +11048,8 @@ export default {
       require_first_approved_before_more: "Vaadi ensimmäinen hyväksyntä ennen muita",
 
       limits_title: "Rajoitukset",
-      max_pending_per_user: "kohde odottaa kohde käyttäjä",
-      max_items_per_user: "kohde kohteet kohde käyttäjä",
+      max_pending_per_user: "Odottaa enintään käyttäjää kohti",
+      max_items_per_user: "Kohteiden enimmäismäärä käyttäjää kohti",
       limits_hint: "raja kohde",
 
       templates_title: "mallit",
@@ -11083,7 +11083,7 @@ export default {
 
     moderation: {
       approve_success: "Kohteen hyväksyminen onnistui.",
-      publish_success: "kohde julkaistu kohde.",
+      publish_success: "Kohteen julkaisu onnistui.",
       unpublish_success: "Kohteen julkaisun peruutus onnistui.",
       archive_success: "Kohteen arkistointi onnistui.",
       reject_success: "Kohteen hylkääminen onnistui.",
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Luo useita suunnittelusarjoja (kortti + tietomallit) ja liitä ne luokkiin. Luokat voivat käyttää erilaisia ​​malleja.",
 
-      empty_title: "kohde mallit kohde",
+      empty_title: "Ei vielä malleja",
       empty_subtitle:
         "Lisää ensimmäinen suunnittelusarja, jotta voit alkaa mukauttaa luokkien ulkoasua.",
 
@@ -11146,7 +11146,7 @@ export default {
       sub_title:
         "Luo ja hallinnoi julkisivun merkkejä. Luettelokohteille voidaan antaa merkkejä erityisten ominaisuuksien korostamiseksi.",
 
-      empty_title: "kohde merkit kohde",
+      empty_title: "Ei merkkejä vielä",
       empty_subtitle:
         "Lisää ensimmäinen merkkisi, niin voit alkaa korostaa listauksen kohteita.",
 
@@ -11168,7 +11168,7 @@ export default {
       sub_title:
         "Luo ja hallinnoi yrityksiä. Jokainen listauskohde voidaan valinnaisesti linkittää yhteen yritykseen.",
 
-      empty_title: "kohde yritykset kohde",
+      empty_title: "Ei vielä yrityksiä",
       empty_subtitle:
         "Lisää ensimmäinen yrityksesi linkittääksesi sen listattuihin tuotteisiin.",
 
@@ -11219,12 +11219,12 @@ export default {
       title: "Listaus",
       subtitle: "Ota julkinen tietosivusi käyttöön tai poista se käytöstä. Kun Selldone on otettu käyttöön ensimmäisen kerran, se luo listauskokoonpanon automaattisesti.",
       true_description: "Listaus on käytössä. Asiakkaat voi kohde Listaus sivut.",
-      false_description: "Listaus on poistettu käytöstä. Listaus sivut ja kohde ovat kohde.",
+      false_description: "Listaus on poistettu käytöstä. Listaussivut ja lähetykset on estetty.",
       open_listing: "avaa Listaus",
-      note: "sinä voi kohde määritä moderointi, raja, lomakkeet, ja muotoilu kohde Listaus Asetukset.",
+      note: "Voit myöhemmin määrittää valvontaa, rajoituksia, lomakkeita ja suunnittelua listausasetuksissa.",
       vendor_prereq_text:
         "Haluatko toimittajan lisäävän listauskohteita toimittajapaneelistaan? Vaihda ensin liiketoimintamallisi Marketplaceen.",
-      vendor_prereq_button: "aseta kohde liiketoiminta kohde",
+      vendor_prereq_button: "Aseta Marketplace-liiketoimintamalli",
 
       vendor_access_text:
         "Nyt voit päättää, voivatko myyjät käyttää listausominaisuuksia (tuotteet + yritykset). Ota se käyttöön Marketplacen asetuksista.",
@@ -11766,13 +11766,13 @@ export default {
      */
     campaign: {
       name: [
-        "Osta 'Til You pudota",
+        "Osta 'Til You Drop",
         "Cart Frenzy",
-        "kohde myynti kohde",
+        "Flash Sale Fiesta",
         "Klikkaa, osta, tallenna",
         "Edullinen Bonanza",
         "E-Deal Extravaganza",
-        "kohde Markdown kohde",
+        "Mega Markdown Madness",
         "Cyber ​​Savings Spree",
         "Digitaaliset alennuspäivät",
         "Verkkokaupan karnevaali",
@@ -11851,7 +11851,7 @@ export default {
         "Lucky Spin Bonanza",
         "Pyöritä voittaaksesi palkintoja",
         "Rikkauden pyörä",
-        "kohde arvonta kohde",
+        "Lucky Lottery Extravaganza",
         "Mega Spin Surprise",
         "Palkintopyörä Fiesta",
         "Treasure Spin Spectacular",
@@ -11896,22 +11896,22 @@ export default {
      */
     subscription_price: {
       title: [
-        "kohde käyttöoikeus",
+        "Peruskäyttö",
         "Premium-jäsenyys",
-        "kohde pakkaus",
+        "Kultainen paketti",
         "Hopeinen suunnitelma",
-        "kohde tilaus",
+        "Platinatilaus",
         "Yritystaso",
         "Aloituspaketti",
-        "rajoittamaton tarjous",
-        "kohde pakkaus",
+        "Rajoittamaton tarjous",
+        "Perhepaketti",
         "Professional-sviitti",
       ],
       description: [
         "Ihanteellinen henkilöille, jotka tutkivat perusasiat.",
-        "käyttöoikeus kohde kaikki kohde ominaisuudet ja sisältö.",
+        "Pääsy kaikkiin premium-ominaisuuksiin ja sisältöön.",
         "Ainutlaatuiset edut ja ensisijainen tuki.",
-        "kohde pakkaus varten kohde käyttäjät.",
+        "Tasapainoinen paketti tavallisille käyttäjille.",
         "Ylivoimainen pääsy huippueduilla.",
         "Räätälöidyt ratkaisut suurille organisaatioille.",
         "Edullinen lähtötason vaihtoehto.",
@@ -11924,70 +11924,70 @@ export default {
     spec: {
       group: [
         "Tekniset tiedot",
-        "fyysinen kohde",
-        "suorituskyky ominaisuudet",
-        "kohde vaihtoehdot",
+        "Fyysiset mitat",
+        "Suorituskykyominaisuudet",
+        "Yhteysasetukset",
         "Tehovaatimukset",
-        "kohde ja Koonti kohde",
-        "väri ja kohde vaihtoehdot",
-        "kohde ja kohde",
+        "Materiaalin ja rakenteen laatu",
+        "Väri- ja viimeistelyvaihtoehdot",
+        "Tallennus ja muisti",
         "Käyttöjärjestelmän yhteensopivuus",
-        "kohde ja kohde",
-        "pakkaus sisältö",
+        "Turvallisuus ja vaatimustenmukaisuus",
+        "Pakkauksen sisältö",
         "Takuu ja tuki",
-        "brändi ja kohde",
+        "Merkki ja valmistaja",
         "Ympäristöystävällisyys",
         "Energiatehokkuus",
-        "kohde ja kohde",
-        "kohde vaihtoehdot",
-        "sisältyy kohde",
-        "käyttäjä arviointi ja kohde",
-        "hinnoittelu ja kohde",
+        "Hoito ja huolto",
+        "Räätälöintiasetukset",
+        "Mukana tarvikkeet",
+        "Käyttäjien arviot ja arvostelut",
+        "Hinta ja saatavuus",
       ],
     },
 
     avocado: {
       title: [
-        "osto kuitti",
-        "myynti kohde",
-        "tilaus lasku",
+        "Ostokuitti",
+        "Myynnin vahvistus",
+        "Tilauslasku",
         "Maksu lasku",
-        "asiakas kuitti",
+        "Asiakaskuitti",
         "Tapahtuman yhteenveto",
-        "Laskutus kohde",
-        "kohde kuitti",
-        "tilaus kohde",
-        "osto tilaus lasku",
-        "myynti kuitti",
-        "kohde lasku",
-        "kohde",
-        "palvelu lasku",
-        "tuote lasku",
-        "Maksu kuitti",
+        "Laskutusilmoitus",
+        "Kassakuitti",
+        "Tilauksen yhteenveto",
+        "Ostotilauslasku",
+        "Myyntikuitti",
+        "Vähittäiskaupan lasku",
+        "E-kuitti",
+        "Palvelulasku",
+        "Tuotelasku",
+        "Maksukuitti",
         "Tilausvahvistus",
-        "Laskutus lasku",
-        "kohde lasku",
-        "asiakas lasku",
+        "Laskutuslasku",
+        "Checkout Lasku",
+        "Asiakaslasku",
       ],
       message: [
-        "kohde sinä varten sinun osto!",
+        "Kiitos ostoksestasi!",
         "Arvostamme yritystäsi.",
         "Tilauksesi on matkalla!",
-        "kohde varten kohde kanssa us.",
+        "Kiitos ostoksista kanssamme.",
         "Odotan innolla, että voimme palvella sinua uudelleen.",
-        "sinun kohde on kohde ylä prioriteetti.",
+        "Tyytyväisyytesi on meille tärkeintä.",
         "Älä unohda arvioida kokemustasi.",
         "Kiitos, että tuet myymäläämme.",
         "Toivomme, että nautit uudesta ostoksestasi!",
         "Säilytä lasku tulevaa tarvetta varten.",
         "Vieraile uudelleen saadaksesi lisää upeita tuotteita.",
-        "kohde yhdistetty varten kohde tarjoukset.",
+        "Pysy yhteydessä saadaksesi eksklusiivisia tarjouksia.",
         "Kiitos, että olet arvostettu asiakas.",
         "Olemme täällä auttamassa, jos tarvitset apua.",
-        "sinun palaute ohje us kohde.",
+        "Palautteesi auttaa meitä parantamaan toimintaamme.",
         "Nauti erikoisalennuksesta seuraavasta ostoksestasi.",
         "Olet tehnyt loistavan valinnan!",
-        "kohde sinä varten sinun kohde sisällä us.",
+        "Kiitos luottamuksestasi meitä kohtaan.",
         "Odotan innolla palautettasi.",
         "Sydämellinen kiitos tiimiltämme.",
       ],
@@ -11998,17 +11998,17 @@ export default {
      */
     map_tag: {
       title: [
-        "ominaisuus kohde",
-        "myyjä kohde",
-        "suositellut etusivu",
-        "paikallinen kohde",
-        "Uutuudet",
+        "Kiinteistöjen esittely",
+        "Myyjä Plaza",
+        "Suositellut kodit",
+        "Paikalliset markkinat",
+        "Uusia tulokkaita",
         "Estate Gardens",
         "Ostosalue",
         "Käsityöläisten kuja",
         "Luxury Estates",
         "Vuokrauskeskus",
-        "avaa kohde",
+        "Avoimet ovet",
         "Tekniset innovaatiot",
         "Fashion Lane",
         "Käsityön kulma",
@@ -12026,24 +12026,24 @@ export default {
     marketplace_document: {
       title: [
         "Yrityksen rekisteröintitodistus",
-        "vero kohde numero (TIN)",
-        "myyjä kohde Lomake",
-        "tuote kohde",
-        "hinnoittelu luettelo",
-        "pankki tili tiedot",
-        "kohde osoite",
+        "Verotunnistenumero (TIN)",
+        "Myyjäsopimuslomake",
+        "Tuoteluettelo",
+        "Hintalista",
+        "Pankkitilin tiedot",
+        "Osoitetodistus",
         "Vakuutustodistus",
-        "yritys profiili",
+        "Yrityksen profiili",
         "Laadunvarmistustodistus",
-        "kohde tiedot taulukko (SDS)",
-        "tuote Takuu tiedot",
+        "Käyttöturvallisuustiedote (SDS)",
+        "Tuotteen takuutiedot",
         "Palautuskäytäntö",
         "Lähetys- ja käsittelymenettelyt",
-        "asiakas palvelu kohde",
+        "Asiakaspalvelupolitiikka",
         "Markkinointi- ja promootiosuunnitelmat",
-        "Sosiaalinen media linkit",
+        "Linkit sosiaaliseen mediaan",
         "Kaupan viittaukset",
-        "kohde koodi kohde",
+        "Toimittajan toimintaohjeet",
         "Salassapitosopimus (NDA)",
       ],
     },
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "kohde asetukset palvelut kohde",
-        "kauppa määritys kohde",
-        "kohde palvelut kohde",
-        "kohde markkinointi palvelu kohde",
+        "Marketplacen asennuspalvelusopimus",
+        "Myymälän konfigurointisopimus",
+        "Print-On-Demand -palvelusopimus",
+        "Digimarkkinoinnin palvelusopimus",
         "Sähköisen kaupankäynnin alustan asennussopimus",
         "Asiantuntijakonsulttisopimus yritysten omistajille",
-        "palvelu kohde varten kohde määritys",
-        "kauppa asetukset ja määritys palvelut kohde",
+        "Marketplace-määrityksen palvelusopimus",
+        "Kaupan asennus- ja konfigurointipalvelusopimus",
         "POD-palvelusopimus",
         "Markkinointistrategian täytäntöönpanosopimus",
-        "liiketoiminta kohde palvelu kohde",
-        "kohde kauppa asetukset kohde",
+        "Yrityskehityspalvelusopimus",
+        "Verkkokaupan perustamissopimus",
         "Asiantuntijapalvelusopimus",
-        "liiketoiminta kohde ja asetukset kohde",
-        "mukautettu kauppa asetukset palvelut kohde",
+        "Liiketoimintaratkaisut ja asennussopimus",
+        "Mukautetun myymälän asennuspalvelusopimus",
         "Markkinapaikan optimointipalvelusopimus",
-        "kohde ja asetukset palvelut kohde",
-        "POD integraatio palvelut kohde",
-        "markkinointi ja kohde palvelut kohde",
-        "liiketoiminta kohde palvelu kohde",
+        "Konsultointi- ja asennuspalvelusopimus",
+        "POD-integraatiopalvelusopimus",
+        "Markkinointi- ja myynninedistämispalvelusopimus",
+        "Liiketoiminnan laajennuspalvelusopimus",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "pää lompakko",
-        "liiketoiminta tili",
-        "henkilökohtainen lompakko",
-        "kohde lompakko",
-        "kohde tili",
-        "ensisijainen lompakko",
-        "yleinen tili",
-        "kohde lompakko",
-        "kohde lompakko",
-        "kohde tili",
+        "Päälompakko",
+        "Yritystili",
+        "Henkilökohtainen lompakko",
+        "Säästölompakko",
+        "Kulutustili",
+        "Ensisijainen lompakko",
+        "Yleinen tili",
+        "Varaa lompakko",
+        "Tapahtumalompakko",
+        "Rahastotili",
       ],
     },
 
@@ -12099,36 +12099,36 @@ export default {
      */
     cashback: {
       title: [
-        "kauppa & kohde käteispalautus",
+        "Shoppaile ja ansaitse käteistä takaisin",
         "Loyalty Rewards Cashback",
-        "kohde käteispalautus tarjoukset",
-        "käteispalautus kohde",
-        "välitön käteispalautus sopimukset",
-        "kohde käteispalautus kohde",
-        "kohde käteispalautus päivää",
-        "käteispalautus päällä kohde osto",
-        "käteispalautus kohde",
-        "VIP käteispalautus kohde",
-        "kohde aika käteispalautus",
-        "käteispalautus kohde klubi",
-        "kauppa lisää, Tallenna lisää",
-        "kohde käteispalautus kohde",
-        "käteispalautus kohde",
+        "Ainutlaatuiset Cashback-tarjoukset",
+        "Cashback Bonanza",
+        "Välittömät Cashback-tarjoukset",
+        "Kauden Cashback Säästöt",
+        "Double Cashback Days",
+        "Cashback jokaisesta ostoksesta",
+        "Cashback Frenzy",
+        "VIP Cashback -ohjelma",
+        "Rajoitettu aika Cashback",
+        "Cashback Rewards Club",
+        "Osta enemmän, säästä enemmän",
+        "Lopulliset Cashback-palkinnot",
+        "Cashback Extravaganza",
       ],
       description: [
-        "kohde käteispalautus päällä kohde osto!",
+        "Ansaitse cashbackia jokaisesta ostoksestasi!",
         "Saat palkkion uskollisuudestasi.",
-        "kohde käteispalautus tarjoukset kohde varten sinä.",
+        "Ainutlaatuiset cashback-tarjoukset juuri sinulle.",
         "Nauti suurista säästöistä cashback-palkintojen avulla.",
-        "välitön käteispalautus päällä kaikki sinun kohde kohteet.",
-        "Tallenna lisää kanssa kohde käteispalautus sopimukset.",
-        "kohde sinun käteispalautus päällä kohde päivää!",
-        "kohde käteispalautus kohde aika sinä kauppa.",
-        "kohde käteispalautus kohde tänään!",
+        "Välitön cashback kaikista suosikkituotteistasi.",
+        "Säästä enemmän kausiluonteisilla cashback-tarjouksilla.",
+        "Tuplaa käteispalautus erikoispäivinä!",
+        "Ansaitse cashbackia joka kerta kun teet ostoksia.",
+        "Liity cashback-hulluuteen tänään!",
         "VIP-jäsenet saavat ainutlaatuisen cashbackin.",
-        "kohde! kohde aika käteispalautus tarjoukset.",
+        "Kiire! Rajoitetun ajan Cashback-tarjoukset.",
         "Liity Cashback Rewards Clubiin nyt.",
-        "lisää sinä kauppa, lisää sinä Tallenna.",
+        "Mitä enemmän ostat, sitä enemmän säästät.",
         "Avaa äärimmäiset cashback-palkinnot.",
         "Koe parhaat cashback-tarjoukset.",
       ],
@@ -12157,18 +12157,18 @@ export default {
      */
     cross_selling: {
       message: [
-        "valmis sinun kohde, kohde aseta!",
+        "Täydennä ilmettäsi, nappaa setti!",
         "Säästä paljon pakettitarjouksillamme!",
         "Älä missaa täydellisiä parejamme!",
-        "kohde sinun osto, Lisää-päällä kohde!",
+        "Tehosta ostoksesi, lisäosat odottavat!",
         "Hanki eksklusiivisia säästöjä, osta yhdessä!",
-        "kohde kohteet, kohde alennus!",
+        "Täydentävät tuotteet, erikoisalennukset!",
         "Hanki enemmän, kuluta vähemmän – niputa!",
         "Rajoitettu tarjous: yhteensopivat tuotteet!",
         "Päivitä kokemustasi, yhdistelmätarjoukset!",
         "Tutustu kuratoituihin komboihin, säästä nyt!",
         "Yhdistä se äärimmäiseen yhdistelmään!",
-        "kauppa kohde, kohde ja Tallenna!",
+        "Osta älykkäästi, niputa ja säästä!",
         "Tuplaa arvo, kaksinkertainen hauskuus!",
         "Täydellinen parisi on täällä – osta nyt!",
         "Ainutlaatuinen pakettihinta juuri sinulle!",
@@ -12185,25 +12185,25 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "kohde hyvä",
-        "kohde",
-        "kohde",
-        "kohde",
-        "etusivu kohde",
-        "kohde Tuotteet",
+        "Digitaaliset tavarat",
+        "Kirjat",
+        "Elektroniikka",
+        "Muoti",
+        "Kodinkoneet",
+        "Kauneustuotteet",
         "Urheiluvälineet",
         "Lelut ja pelit",
-        "Ruokaostokset",
+        "Elintarvikkeita",
         "Huonekalut",
         "Autojen osat",
         "Korut",
-        "kohde & kohde",
-        "Lemmikkieläinten tarvikkeita",
+        "Terveys & Hyvinvointi",
+        "Lemmikkieläintarvikkeet",
         "Toimistotarvikkeet",
-        "kohde & kohde",
-        "kohde & TV näytä",
+        "Musiikki & Soittimet",
+        "Elokuvat ja TV-ohjelmat",
         "Ohjelmisto",
-        "kohde & kohde",
+        "Taide ja käsityöt",
         "Ulkoiluvarusteet",
       ],
     },
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Tilausvahvistus",
-        "tilaus kohde",
-        "tilaus kohde",
+        "Tilaus lähetetty",
+        "Tilaus toimitettu",
         "Maksu vastaanotettu",
-        "tilaus kohde",
-        "tilaus kohde viive",
-        "tilaus päällä kohde",
-        "tilaus kohde varten toimitus",
-        "palautus kohde",
-        "hyvitys kohde",
-        "kohde Takaisin sisällä varasto",
+        "Tilaus peruutettu",
+        "Tilauksen käsittelyn viive",
+        "Tilaus pidossa",
+        "Tilaa toimitettavaksi",
+        "Palautus käsitelty",
+        "Hyvitys myönnetty",
+        "Tuote Takaisin varastossa",
       ],
       body: [
         "Hei {buyer_name}, tilauksesi #{order_id} on vahvistettu! Käsittelemme sitä ja ilmoitamme sinulle, kun se on valmis lähetettäväksi.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "kohde",
+        "Pukeutua",
         "Digitaaliset gadgetit",
-        "kohde",
+        "Juomat",
         "Ruoat",
         "Huonekalut",
-        "kohde",
-        "kohde Tuotteet",
-        "kohde",
+        "Kirjat",
+        "Kauneustuotteet",
+        "Lelut",
         "Urheiluvälineet",
-        "kohde",
+        "Tarvikkeet",
       ],
       description: [
         "Vaatteiden attribuutit, kuten koko, väri ja kangas.",
         "Laitteiden tekniset tiedot, kuten merkki, malli ja ominaisuudet.",
-        "kohde, koko, ja tyypit kohde.",
+        "Juomien maut, koot ja tyypit.",
         "Aterioiden, välipalojen ja elintarvikkeiden tiedot.",
-        "kohde, kohde, ja muotoilu tyylit.",
+        "Materiaalit, mitat ja suunnittelutyylit.",
         "Tekijä, genre ja julkaisuvuosi.",
         "Ihotyyppi, ainesosat ja pakkaustiedot.",
         "Ikäryhmä, materiaali ja turvallisuusstandardit.",
-        "tyyppi, koko, ja suorituskyky ominaisuudet.",
-        "tyylit, kohde, ja brändi tiedot.",
+        "Tyyppi, koko ja suorituskykyominaisuudet.",
+        "Tyylit, materiaalit ja bränditiedot.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "paketti XS",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti XL",
-        "paketti XXL",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti kohde",
-        "paketti kohde",
+        "Laatikko XS",
+        "Laatikko S",
+        "Laatikko M",
+        "Laatikko L",
+        "Laatikko XL",
+        "Laatikko XXL",
+        "Box Slim",
+        "Laatikko leveä",
+        "Laatikko korkea",
+        "Laatikko",
+        "Box Cube",
+        "Laatikon putki",
+        "Laatikko hauras",
         "Laatikot Lasipullot",
-        "paketti kohde pakkaus", // flexible mailer
-        "paketti kohde", // bubble/padded
-        "paketti kohde", // thermal
-        "paketti kohde",
+        "Box Soft Pack", // flexible mailer
+        "Laatikko pehmustettu", // bubble/padded
+        "Laatikko eristetty", // thermal
+        "Raskas laatikko",
       ],
     },
   },

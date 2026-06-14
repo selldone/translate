@@ -598,11 +598,11 @@ export default {
 
       menu_advanced_options: "Fortgeschratt Optiounen",
       menu_advanced_options_description:
-        "Connect Google Element, Ewechzehuelen Element Produkter a Méi.....",
+        "Connect Google Blat, Ewechzehuelen duplizéiert Produkter a méi...",
 
       products_rss: {
         title: "Produkter RSS",
-        subtitle: "Element Produkter Element Google, Meta,...",
+        subtitle: "Produkter op Google, Meta,...",
       },
       products_api: {
         title: "Produkter API",
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "verbonne Element",
         tooltip:
-          "D'Domain Produkter Op dës Buttek si verbonne Zu engem Google Element Op Google Element.",
+          "D'Produkter an dësem Buttek si mat engem Google Sheet am Google Drive verlinkt.",
       },
       show_deletes: {
         false_title: "Geläschtes verstoppen",
@@ -628,14 +628,14 @@ export default {
       table_mode: {
         false_title: "Zéien-a-falen Modus",
         false_description:
-          "Vue Produkter Element no Kategorien a Element.",
+          "Gesinn Produkter organiséiert vun Kategorien an Ënnerkategorien.",
         true_title: "Tabellmodus",
-        true_description: "Vue Produkter Op engem Element Tabell Element.",
+        true_description: "Gesinn Produkter an engem detailléierte Dësch Layout.",
       },
 
       show_notes: {
         false_title: "verstoppen Element",
-        false_description: "verstoppen Element Element.",
+        false_description: "Verstoppen eidel Noten.",
         true_title: "weisen Element",
         true_description: "weisen all Element, ⌘Ctrl+2",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "Produkter RSS",
         subtitle:
-          "Element dës RSS Element Zu Element e Element-Zu-Datum Lëscht vu all Produkter.",
+          "Benotzt dëse RSS Feed fir eng aktuell Lëscht vun alle Produkter ze halen.",
       },
       api_dialog: {
         title: "Produkter API",
         subtitle:
-          "benotzen dës API Element Zu Element Äre Produit Lëscht Element-Zu-Datum. et Element engem Element Element API Zu Element Produkter Vun Äre Buttek, Element et Element fir Produit Lëschtung a Verglach Element.",
+          "Benotzt dësen API Feed fir Är Produktlëscht aktuell ze halen. Et bitt eng ëffentlech zougänglech API fir Produkter aus Ärem Geschäft z'erreechen, wat et ideal mécht fir Produktoplëschtung a Verglach Websäiten.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,13 +858,13 @@ export default {
       restriction: {
         title: "Liwwerung Restriktioun",
         subtitle:
-          "Dir Element Element Restriktiounen Zu Element Element Bezuelen Clienten Element D'Domain Element Liwwerung Element Element Geld Akeef Vun Dir!",
+          "Dir kënnt Restriktiounen ëmsetzen fir sécherzestellen datt nëmme Clienten an den designéierte Versandberäicher Akeef vun Iech maache kënnen!",
         no_enable_shipping_error:
-          "nee Element Element Kafen Vun Dir Element Dir Element nee aktivéiert Liwwerung Method!",
+          "Keen ka vun Iech kafen well Dir keng aktivéiert Versandmethod hutt!",
         customer_must_select_a_shipping_msg:
-          "Client Element Wielt engem Liwwerung Method Zu Element 🛍️ Bestellen.",
+          "De Client muss eng Versandmethod wielen fir eng Bestellung ze maachen.",
         customer_can_order_without_shipping_method_msg:
-          "Client Element Element D'Domain 🛍️ Bestellen Element Element nee Liwwerung Method Element fir D'Domain ausgewielt Location.",
+          "De Client kann d'Bestellung maachen och wa keng Versandmethod fir déi gewielte Plaz ënnerstëtzt gëtt.",
         inputs: {
           restriction: {
             false_description:
@@ -872,7 +872,7 @@ export default {
             false_title: "Akzeptéieren all Bestellungen",
             true_title: "Aschränkt Akzeptéieren 🛍️ Bestellen",
             true_description:
-              "Clienten si Element Zu Wielt Element engem Liwwerung oder Pickup Optioun Op 🛍️ Bestellen Zu Komplett Element Kafen.",
+              "D'Clientë mussen entweder eng Versand- oder Pickupoptioun wielen fir hiren Akaf ofzeschléissen.",
           },
         },
       },
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Logistik",
         profiles: "Profiler",
         includes: "Enthält",
-        property_sets: "Element Element",
+        property_sets: "Property Sets",
         boxes: "Admin - Buttek - Logistesch - Element",
       },
 
@@ -1418,7 +1418,7 @@ export default {
       description: "Beschreiwung",
       form: "Formular",
       no_spec: "nee Element",
-      has_spec: "Element Element",
+      has_spec: "Huet Spezifizéierung",
     },
 
     select_type: {
@@ -1428,7 +1428,7 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategorie",
-      category_input_msg: "Element: Op D'Domain Element Element",
+      category_input_msg: "Eidel: Am Wuerzel vum Geschäft",
       product_name: "Produit Numm *",
       product_name_placeholder: "Äre Produit Numm hei ..",
       product_code: "Produktcode (Englesch)",
@@ -1438,7 +1438,7 @@ export default {
       },
       mpn: {
         label: "MPN",
-        message: "Element Element Zuel",
+        message: "Fabrikant Deel Zuel",
       },
 
       external_link: "Extern Link",
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "Konfiguréieren D'Domain Kategorie a Titel Zu Element Element Op Äre Lëschtung.",
+          "Konfiguréiert d'Kategorie an den Titel fir an Ärer Lëscht ze weisen.",
       },
       unit: {
         subtitle:
-          "Dir Element Element D'Domain Element vu Präisser a Element-Zu-Aktioun Element op D'Domain Produit Säit.",
+          "Dir kënnt d'Display vu Präisser an Call-to-Action Elementer op der Produktsäit personaliséieren.",
       },
       custom_pricing: {
         title: "Benotzerdefinéiert Präisser Formular",
         subtitle:
-          "Dir Element Schafen oder Element engem Bewäertung (engem Präisser Input Formular) Zu D'Domain Produit, a Äre Clienten Element Wielt Element Varianten oder Element Äre Element no e Element Input Formular.",
+          "Dir kënnt eng Bewäertung (e Präisinputform) un de Produit erstellen oder zouginn, an Är Clientë kënnen tëscht Varianten auswielen oder Är Wueren duerch eng intuitiv Input Form personaliséieren.",
         valuation_need_saved_product_message:
-          "wait Spueren D'Domain Produit éischte, a Element Dir Element Element engem Bewäertung Model.",
+          "Spuert w.e.g. d'Produkt als éischt, an da kënnt Dir e Bewäertungsmodell zouginn.",
         assign_valuation_message:
           "wait Element engem Bewäertung Model Zu dës Produit.",
         edit_pricing_action: "änneren Präisser Formular",
@@ -1506,7 +1506,7 @@ export default {
       action: {
         title: "Benotzerdefinéiert Kafen Knäppchen",
         message:
-          "Dir Element Änneren Ikon no Element dës Muster: {icon name} Element...",
+          "Dir kënnt d'Ikon änneren andeems Dir dëst Muster verfollegt: {icon name} Iwwerschrëft...",
         placeholder: "Gitt ElementäElement...",
         multi_language_dialog_title: "Benotzerdefinéiert Kafen Knäppchen Element",
       },
@@ -1518,12 +1518,12 @@ export default {
       },
       warehouse: {
         subtitle:
-          "dës Informatiounen ass Element no D'Domain Warehouse Gestioun Element a Element Zu Element Element D'Domain Produit.",
+          "Dës Informatioun gëtt vum Lagermanagementsystem benotzt an déngt fir d'Produkt global z'identifizéieren.",
       },
       gtin: {
         hint: "Ënnerstëtzt Wäerter sinn UPC (Nordamerika, 12 Zifferen), EAN (Europa, 13 Zifferen), JAN (Japan, 8 oder 13 Zifferen), ISBN (Bicher, 13 Zifferen).",
-        label: "Element Element Element item Zuel",
-        placeholder: "Element Element Zuel hei.. ((Optional))",
+        label: "Produkt Global Trade Artikelnummer",
+        placeholder: "Global Handelsnummer hei.. (Optional)",
       },
       hsn: {
         hint: "HSN, oder Harmonized System of Nomenclature, ass en international standardiséierte Klassifikatiounssystem fir Wueren a Produkter ze kategoriséieren.",
@@ -1534,7 +1534,7 @@ export default {
         label: "Produit Element Op Äre Buttek",
         message: "wait Wielt D'Domain Element vu dës Produit.",
         subtitle:
-          "Element Äre Clienten Iwwert D'Domain Element a Mark vu D'Domain Produit Element Element.",
+          "Informéiert Är Clienten iwwer den Zoustand an d'Mark vum Produkt deen Dir ubitt.",
       },
       brand: {
         label: "Mark",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "Set D'Domain Retour a Produit Status, Element dës Informatiounen Element Retour Element Element Element Zu D'Domain Client a Element Element D'Domain Zäit Frame Element Element Produkter Element Element Zréckkomm No Kafen.",
+          "Setzt d'Garantie an de Produktstatus, well dës Informatioun iwwer d'Garantie gëtt dem Client ugewisen an hëlleft den Zäitframe festzeleeën, an deem d'Produkter nom Kaf zréckginn.",
 
         label: "Retour",
         placeholder: "Golden 24 Méint Retour.. ((Optional))",
@@ -1550,7 +1550,7 @@ export default {
       status: {
         title: "Produit - Informatiounen - Status",
         subtitle:
-          "D'Domain Element Status Element Element Disponibilitéit Online a Op-Buttek. Zu Geld engem Produit Entworf, Nëmmen Element Element Status Zu 'inaktiv..",
+          "De Status vum Produkt bestëmmt seng Disponibilitéit online an am Geschäft. Fir e Produktentworf ze maachen, wiesselt just säi Status op 'Inaktiv'.",
       },
       profiles: {
         title: "Profiler",
@@ -1639,20 +1639,20 @@ export default {
       manual: {
         title: "confirméiert",
         subtitle:
-          "dobäisetzen Produit Spezifikatioune confirméiert no Element Element a Schlëssel-änneren Element.",
+          "Füügt Produktspezifikatiounen manuell andeems Dir Gruppen a Schlësselwäerterpaar definéiert.",
         add_group_action: "Grupp dobäisetzen",
         add_item_action: "dobäisetzen Element Wäert",
       },
       import: {
         subtitle:
-          "Dir Element Import Technesch Spezifikatioune vu Element Produkter.",
+          "Dir kënnt technesch Spezifikatioune vun ähnleche Produkter importéieren.",
         action_title: "Produit - Element - Import",
-        action_subtitle: "Element Element Vun Element Produit.",
+        action_subtitle: "Klon Spezifizéierung vun engem anere Produkt.",
       },
       ai: {
         title: "AI",
         subtitle:
-          "Dir Element Element Schafen Produit Spezifikatioune no Element D'Domain Element Raw Daten Op Element Formular.",
+          "Dir kënnt automatesch Produktspezifikatiounen erstellen andeems Dir d'Rohdaten vum Produkt an textueller Form ofginn.",
         action_title: "Auto Element no AI",
         action_subtitle: "Schafen Produit Spezifikatioune no Element Prompt.",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Produit Code: P0000 ...",
         spec_view_title: "Spezifikatioune vun der gewielter Produit",
         spec_view_subtitle:
-          "D'Domain Spezifikatioune Element Element Element Vun D'Domain Element Produit.",
+          "D'Spezifikatioune goufen aus dem gewielte Produkt importéiert.",
         set_spec_action: "Duplizéiert technesch Spezifikatioune",
       },
       notifications: {
@@ -1687,11 +1687,11 @@ export default {
         spec_saved_success: "Produit Spezifikatioune gespäichert.",
       },
       dialog_ai: {
-        title: "Element Element Produit Spezifikatioune",
+        title: "Generéiere automatesch Produkt Spezifikatioune",
         prompt: {
           title: "Produit Iwwersiicht",
           subtitle:
-            "wait Element engem Element a Element Beschreiwung vu D'Domain Produit, Element Element Schlëssel Fonctiounen a Detailer. dës Informatiounen Element Element Benotzt Zu Element Element D'Domain Produit Spezifikatioune.",
+            "Gitt w.e.g. eng kuerz a kloer Beschreiwung vum Produkt, ënnersträicht seng Schlësselmerkmale an Detailer. Dës Informatioun gëtt benotzt fir automatesch d'Produktspezifikatiounen ze generéieren.",
         },
         generated_spec: {
           title: "AI-Generéiert Spezifikatioune",
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "Element Spezifikatioune",
             subtitle:
-              "Klickt Zu Element Schafen Produit Spezifikatioune Vun D'Domain Element Iwwersiicht.",
+              "Klickt fir automatesch Produktspezifikatiounen aus dem geliwwerten Iwwerbléck ze kreéieren.",
           },
           add_generated_spec: "dobäisetzen Generéiert Spezifikatioune",
         },
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "Hannergrond Beschreiwung",
-            placeholder: "Element D'Domain Element Hannergrond...",
+            placeholder: "Beschreift de gewënschten Hannergrond...",
           },
         },
         actions: {
           reimagine: {
             title: "Element Nei Bild",
-            subtitle: "Element D'Domain Element Bild mat engem Nei Hannergrond.",
+            subtitle: "Representéiert dat ganzt Bild mat engem neien Hannergrond.",
           },
           replace: {
-            subtitle: "Element D'Domain Element Hannergrond.",
+            subtitle: "Ersetzen déi existent Hannergrond.",
           },
         },
       },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "Element D'Domain Maartplaz, D'Domain Primär Produit Präisser Element ass D'Domain Lëschtung Präis, Element D'Domain Element Präis ass Element baséiert op D'Domain Verkeefer-Produit Element Element.",
+          "Bannent der Maartplaz ass de primäre Produktpräis ugewisen den Oplëschtungspräis, während den aktuellen Präis baséiert op de Verkeefer-Produkt Relatioun records.",
         subscription:
-          "fir Abonnementer, Bezuelen D'Domain Lëschtung Präis ass Element, Element D'Domain Element Käschten Element Element Element baséiert op D'Domain ausgewielt Abonnement Plang.",
+          "Fir Abonnementer gëtt nëmmen den Oplëschtungspräis ugewisen, während déi aktuell Käschte festgeluegt ginn op Basis vum gewielten Abonnementplang.",
         service:
-          "fir Service-baséiert Produkter, D'Domain Element Präisser ass Element fir Element Element, Element e Element Käschten vu D'Domain Service. D'Domain Element Service Präis Element Element Element no Dir Element D'Domain Client Element Element Element 🛍️ Bestellen (Element Ofmellen).",
-        file: "dës Element Zu D'Domain Element a Element Präis vu D'Domain Fichier, Element Clienten Element Bezuelen Op 🛍️ Bestellen Zu Element Zougang Zu D'Domain Dateien.",
+          "Fir Service-baséiert Produkter sinn déi opgelëscht Präisser eleng fir Affichagezwecker, déi geschätzte Käschte vum Service ubidden. Den aktuellen Servicepräis gëtt vun Iech festgeluegt wann de Client seng Bestellung gemaach huet (beim Kasse).",
+        file: "Dëst bezitt sech op den opgezielten an aktuellen Präis vun der Datei, déi Cliente musse bezuelen fir Zougang zu den Dateien ze kréien.",
         default:
           "Dëst bezitt sech op den opgezielte Präis vum Produkt a berücksichtegt och de Präis vun all Varianten déi keng separat Präisser hunn.",
       },
       extra_pricings: {
         title: "dobäisetzen Extra Präisser",
-        subtitle: "Element Element Präisser baséiert op Kafen Quantitéit.",
+        subtitle: "Implementéiert dynamesch Präisser baséiert op Akafsquantitéit.",
       },
 
       vendor: {
         title: "Verkeefer Präisser",
         subtitle:
-          "dës Präis Element Element Element Bezuelen Op D'Domain Produkter Lëschtung. Dir Element Set Verkeefer Präis Op D'Domain Produit > Verkeefer Element.",
+          "Dëse Präis gëtt nëmmen an der Produktoplëschtung gewisen. Dir kënnt de Verkeeferpräis an der Produkt> Vendors Tab setzen.",
         manage_vendors: "Verwalte Verkeefer",
         vendor_product_pricing_link:
-          "D'Domain Element Produit Präisser ass verbonnen. Element D'Domain Lëschtung Präis hei Element Element Verkeefer Produkter Element Varianten oder Element mat Varianten Element Verpasst Element Element Element Präisser (Element D'Domain Element Präis Element D'Domain Haaptsäit Produit). dës Präis Element Element Element Element D'Domain Maartplaz Präis, a D'Domain Element Präis Element Element Set baséiert op D'Domain Präisser Model oder D'Domain Element Maartplaz Element Element.",
+          "D'Produktpräis vum Verkeefer ass verbonnen. D'Ännerung vum Oplëschtungspräis hei beaflosst Verkeeferprodukter ouni Varianten oder déi mat Varianten déi keng eege Präisser hunn (benotzt dee selwechte Präis wéi den Haaptprodukt). Dëse Präis gëtt als Maartplazpräis behandelt, an de Präis vum Verkeefer gëtt op Basis vum Präismodell oder dem fréiere Maartplaz Gewënnmarge festgeluecht.",
         vendor_variant_pricing_link:
-          "Element D'Domain Variant Präis hei Element Element D'Domain Präisser vu Verkeefer Produkter mat D'Domain Element Variant. dës Präis Element Element Element D'Domain Maartplaz Präis, a D'Domain Element Präis Element Element Set Element Zu D'Domain Präisser Model oder D'Domain Element Maartplaz Element Element.",
+          "D'Ännerung vum Variantpräis hei beaflosst d'Präisser vun de Verkeeferprodukter mat der selwechter Variant. Dëse Präis gëtt als de Maartplazpräis ugesinn, an de Präis vum Verkeefer gëtt no dem Präismodell oder dem fréiere Maartplaz Gewënnmarge festgeluegt.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Dëse Message gëtt dem Client gewisen wann Dir Produkter kaaft.",
       inputs_form: "Informatiounsstruktur (Input)",
       inputs_hint:
-        "Dir Element D'Domain Optioun Zu Set Element engem Personaliséiert Formular Zu Element Detailer Vun Äre Clienten wann Element prett Zu Element e 🛍️ Bestellen.",
+        "Dir hutt d'Méiglechkeet e personaliséierte Formulaire opzestellen fir Detailer vun Äre Clienten ze sammelen wann se prett sinn eng Bestellung ze maachen.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "🛍️ Bestellen Grenzen",
         subtitle:
-          "Element Element engem Element oder Element engem Minimum oder Maximum Limitéieren op D'Domain Quantitéit vu dës item pro 🛍️ Bestellen, Dir Element Element Element hei.",
+          "Wann Dir en Grossist sidd oder e Minimum oder Maximum Limit fir d'Quantitéit vun dësem Artikel pro Bestellung ass, kënnt Dir dat hei uginn.",
         no_limit: "nee Limitéieren",
         minimum_purchase_quantity: "Minimum Kafen Quantitéit",
         maximum_purchase_quantity: "Maximum Kafen Quantitéit",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Ewechzehuelen Produit",
       message: "Wëllt Dir <b>{product_title}</b> läschen?",
-      tips: "Element Dir Element Läschen engem Produit, Dir Element Element et no Element Zu Äre Buttek > Produkter, Element weisen Geläscht Artikelen, a Element Riets-Element op D'Domain Produit, a Element Element.",
+      tips: "Wann Dir zoufälleg e Produkt läscht, kënnt Dir et recuperéieren andeems Dir an Äre Buttek > Produkter navigéiert, aktivéiert Show Geläscht Artikelen, an dann klickt op de Produit, a wielt Restauréieren.",
     },
   },
 
@@ -1860,17 +1860,17 @@ export default {
   extra_pricing_add_dialog: {
     title: "Extra Präisser fir iwwer {min}",
     subtitle:
-      "D'Domain Element Element Element D'Domain 🛍️ Bestellen a Prioritéit fir Präis Berechnung. wait Input D'Domain Minimum Quantitéit Element fir dës Präisser Zu Element Element.",
+      "De System bestëmmt automatesch d'Uerdnung an d'Prioritéit fir Präisberechnung. Gitt w.e.g. déi minimal Quantitéit un déi néideg ass fir datt dës Präisser a Kraaft trieden.",
     min_quantity: "Minimum Quantitéit",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "Inventar fir addéieren Produkter ass Set no Element, a Element Element Element hei.",
+        "Inventar fir Dropshipping Produkter gëtt vu Grossiste festgeluecht a kann net hei geännert ginn.",
       marketplace:
-        "D'Domain Element Produit Inventar Op D'Domain Maartplaz ass Element no Element Element D'Domain Element vu all Verkeefer. Dir Element Element et hei.",
-      default: "Element D'Domain Element Inventar Grof hei.",
+        "De Gesamtproduktinventar op der Maartplaz gëtt festgeluegt andeems d'Inventaire vun all Ubidder eropgeet. Dir kënnt et net hei änneren.",
+      default: "Gitt d'Inventarzuel vum Produkt hei un.",
     },
     menu: {
       add_bulk: {
@@ -1878,8 +1878,8 @@ export default {
         subtitle: "dobäisetzen Multiple Varianten Op Element Aktioun.",
       },
       edit_property_set: {
-        title: "Element Element Set",
-        subtitle: "Änneren Varianten Element, Element a Bestellungen.",
+        title: "Customize Property Set",
+        subtitle: "Änneren Varianten Nimm, Ikonen an Uerderen.",
       },
     },
   },
@@ -1894,7 +1894,7 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google Produit Kategorie Code",
-    hint: "Element D'Domain Kategorie vu Äre Produit Element Zu D'Domain Element Produit Element. Google",
+    hint: "Representéiert d'Kategorie vun Ärem Produkt no der Google Produkttaxonomie.",
     placeholder: "Gitt Produit oder Service Kategorie.. ((Optional))",
   },
   /** {@see LogisticProfileType} **/
@@ -1913,7 +1913,7 @@ export default {
     },
     SHIPPING: {
       title: "Liwwerung",
-      desc: "engem Liwwerung Politik Detailer D'Domain Schlëssel Element vu Liwwerung fir Online Bestellungen, Element Liwwerung Element, Methoden, a Element Liwwerung Zäiten.",
+      desc: "Eng Versandpolitik detailléiert d'Schlëssel Aspekter vum Versand fir Online Bestellungen, inklusiv Versandkäschten, Methoden a geschätzte Liwwerzäiten.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "Standard",
       dedicated: "Element",
 
-      subscription: "Element Element Filter Steier Bezuelen op D'Domain 💳 Bezuelung Créatioun Schrëtt.",
+      subscription: "Mir kënnen Steier nëmmen op der Bezuelen Kreatioun Schrëtt gëlle.",
       is_disabled: "dës Steier Profil ass behënnert! (⚠️Element)",
       shipping: "Liwwerung",
       fixed_rate: "Steier",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "Steier Profil",
       subtitle:
-        "Dir Element Element Element Steier Element Zu D'Domain Produit. Element engem Steier Profil net Element Element fir D'Domain Produit, D'Domain Standard Buttek Steier Element Element Element Element Element.",
+        "Dir kënnt speziell Steierreglementer un de Produit zougewisen. Sollt e Steierprofil net fir de Produit gewielt ginn, da ginn d'Standardgeschäft Steierreglementer applizéiert.",
 
       action_manage: "Verwalte Steier",
       action_manage_sub: "Buttek > Finanzen > Steier",
 
       subscription_tips:
-        "wann Dir Wielt engem Steier Profil fir Abonnement Produit, Element aktualiséieren<code>Steier Code</code> a Set Element/Exklusiv Modus op Äre 💳 Bezuelung Service Element. D'Domain ausgewielt Steier Profil Element Element D'Domain Präis ass Element Element vu Steieren oder Exklusiv vu Steieren. Element vu <code>Element</code> oder <code>Exklusiv</code>. Element Element Element Element Element oder Exklusiv, et Element Element erfollegräich.<br /><br /><b>Element!</b> No Element D'Domain Steier Profil, Dir Element Klickt op Präisser Pläng op D'Domain Produit > Inventar Element a Klickt D'Domain Spueren Knäppchen Zu Filter Ännerungen.",
+        "Wann Dir e Steierprofil fir Abonnementprodukt auswielt, aktualiséieren mir <code>tax Code</code> a setzen inklusiv / exklusiv Modus op Ärem Bezuelungsserviceprovider. De gewielte Steierprofil spezifizéiert ob de Präis als inklusiv Steieren oder exklusiv Steieren ugesi gëtt. Ee vun <code>inclusive</code> oder <code>exclusive</code>. Eemol uginn als entweder inklusiv oder exklusiv, kann et net geännert ginn.<br /><br /><b>Important!</b> Nodeems Dir de Steierprofil geännert hutt, sollt Dir op Präispläng op der Tab Produkt > Inventar klickt a klickt op de Knäppchen späicheren fir Ännerungen z'applizéieren.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "D'Domain Präis a Quantitéit vu dës Produit si Set no engem Element Verkeefer Zu Element et Element.",
+        "De Präis an d'Quantitéit vun dësem Produkt gi vun engem bestëmmte Verkeefer festgeluegt, zu deem et gehéiert.",
     },
     vendors: {
       subtitle:
-        "Element engem Lëscht vu Element fir D'Domain Produit. D'Domain Quantitéit a Präis Element Element Set no D'Domain Element.",
+        "Hei ass eng Lëscht vu Liwweranten fir de Produit. D'Quantitéit an de Präis gi vun de Liwweranten festgeluecht.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "Verkeefer Informatiounen",
-      subtitle: "dës Informatiounen ass Element Zu Clienten Element.",
+      subtitle: "Dës Informatioun gëtt de Clienten ëffentlech gewisen.",
       action_sub_caption: "Ëffentlech Produkter Lëschtung Säit.",
       action_see_listing_page: "Element Lëschtung Säit",
       send_invitation_email: "Schécken Element E-Mail",
@@ -2002,51 +2002,51 @@ export default {
 
     profiles: {
       title: "Profiler",
-      subtitle: "Dir Element Element Location Zu dës Verkeefer.",
+      subtitle: "Dir kënnt dëse Verkeefer Plaz zouginn.",
     },
     map: {
       no_map_message:
-        "Element engem Location Zu D'Domain Verkeefer Element Element engem Location-baséiert Verkeefer.",
+        "Gitt e Standuert un de Verkeefer wann et e Location-baséiert Verkeefer ass.",
     },
     page: {
       title: "Benotzerdefinéiert Säit",
       subtitle:
-        "Set engem Benotzerdefinéiert Landung Säit fir D'Domain Verkeefer, Element Element mat engem eenzegaarteg Link Zu Element Element Säit.",
+        "Setzt eng personaliséiert Landung Säit fir de Verkeefer, liwwert hinnen en eenzegaartege Link op hir engagéiert Säit.",
       action_set_page: "Element Ëffentlech Säit",
       action_sub_caption: "Benotzerdefinéiert Landung Säit.",
       vendor_has_landing_msg: "Verkeefer Element engem Benotzerdefinéiert Landung Säit.",
       no_landing_selected_msg: "nee Landung Säit ausgewielt.",
       no_landing_page: "nee Landung Säit",
       we_can_create_dedicated_landing_msg:
-        "Element Element Schafen engem Element Landung Säit fir Dir.",
+        "Mir kënnen eng speziell Landung Säit fir Iech erstellen.",
     },
     contact: {
       title: "Kontakt Informatiounen",
-      subtitle: "Element Element Valabel Kontakt Detailer.",
+      subtitle: "Gitt w.e.g. gülteg Kontaktdetailer un.",
     },
     business: {
       title: "Affär Informatiounen",
       subtitle:
-        "wait Element präzis Informatiounen Iwwert Äre Affär Zu Element engem Element a Element Recetten Element Element.",
+        "Gitt w.e.g. korrekt Informatioun iwwer Äert Geschäft fir e séieren an nahtlosen Akommessammlungsprozess ze garantéieren.",
     },
     bank: {
       title: "Element Informatiounen",
-      subtitle: "Input Äre Element Detailer hei fir Element.",
+      subtitle: "Gitt Är Bankdetailer hei fir Ausbezuelen.",
     },
     default_pricing: {
       title: "Standard Präisser",
       subtitle:
-        "Dir Element Element engem Standard Präisser Model fir D'Domain Verkeefer. wann D'Domain Verkeefer Element engem Nei Produit, dës Präisser Model Element Element Benotzt Zu Berechent D'Domain Maartplaz Element op D'Domain Element Präis. Dir Element Element Element D'Domain Präisser Model fir Element Produit Element.",
+        "Dir kënnt e Standard Präismodell fir de Verkeefer zouginn. Wann de Verkeefer en neit Produkt bäidréit, gëtt dëse Präismodell benotzt fir d'Maartplaz Margin op de Präis vum Produkt ze berechnen. Dir kënnt spéider de Präismodell fir all Produkt individuell upassen.",
       no_pricing: "nee Präisser",
     },
     shipping: {
       title: "Liwwerung",
-      subtitle: "Verkeefer Element Buttek Element Element Liwwerung Servicer a Courrier.",
+      subtitle: "Verkeefer kënnen hir eege Versandservicer a Courrieren opstellen.",
       shipping_services: "Liwwerung Servicer",
       total_number_of_services:
-        "D'Domain Ganzen Zuel vu Liwwerung Servicer Element D'Domain Verkeefer Element.",
+        "D'Gesamtzuel vun de Versandservicer déi de Verkeefer huet.",
       couriers: "Courrier",
-      total_couriers_count: "D'Domain Ganzen Zuel vu Courrier Element D'Domain Verkeefer Element.",
+      total_couriers_count: "D'total Zuel vu Courrieren déi de Verkeefer huet.",
     },
     configuration: {
       title: "Configuratioun",
@@ -2062,13 +2062,13 @@ export default {
     send_invitation_tips:
       "Mir schécken eng Invitatioun E-Mail un dëse Benotzer. Wann de Benotzer an Ärem Buttek als Verkeefer bäitrieden, gëtt hire Kont automatesch un hinnen zougewisen.",
     only_marketplace_owner_can_edit_user:
-      "Bezuelen D'Domain Maartplaz Besëtzer Element änneren D'Domain Benotzer. Element Dir Element Zu Änneren D'Domain Besëtzer vu dës Verkeefer, Dir Element Schécken D'Domain Ufro Zu eis.",
+      "Nëmmen de Maartplazbesëtzer kann de Benotzer änneren. Wann Dir de Besëtzer vun dësem Verkeefer wëllt änneren, kënnt Dir d'Ufro un eis schécken.",
     vendor_is_disable_msg: "Verkeefer ass behënnert.",
     email_not_match_with_user_msg:
-      "aginn E-Mail Element net Element mat zu E-Mail (<b>{user_name}:</b>{user_email}). si Dir Element Zu Schécken E-Mailen Zu<b>{email}</b>?",
+      "Déi aginn E-Mail passt net mat der E-Mail vum Benotzer (<b>{user_name}:</b>{user_email}). Sidd Dir sécher E-Mailen op <b>{email}</b> ze schécken?",
 
     order_information_email_to_email:
-      "Element Element Schécken Bestellungen Informatiounen Zu <b>{email}</b>.",
+      "Mir schécken Bestellungsinformatioun op <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Set engem Benotzer fir D'Domain Verkeefer éischte.",
 
@@ -2076,23 +2076,23 @@ export default {
       slug: {
         label: "Wee",
         placeholder: "Gitt engem Benotzerdefinéiert Wee...",
-        hint: "Änneren D'Domain Wee D'Domain Element Element Landung Säit.",
+        hint: "Ännert de Wee vun der dynamescher Landung Säit vum Verkeefer.",
       },
       email: {
         message: "dës E-Mail Element Empfang all Notifikatiounen a Aktualiséierungen.",
       },
       business: {
-        false_description: "Ech Element Element e Element.",
+        false_description: "Ech schaffen als Eenzelpersoun.",
         true_description: "Ech funktionnéieren als gesetzlech unerkannt Geschäftsunitéit.",
         false_title: "Element",
         true_title: "Affär",
       },
       bank: {
-        hint: "D'Domain Numm vu D'Domain Element Element D'Domain Verkeefer Element Element Kont.",
+        hint: "Den Numm vun der Bank wou de Verkeefer hire Kont huet.",
         placeholder: "Äre Element Numm..",
       },
       account_name: {
-        hint: "dës Element Element D'Domain Numm Element mat D'Domain Element Kont.",
+        hint: "Dëst sollt dem Numm mat dem Bankkonto verbonne sinn.",
         placeholder: "Äre Numm..",
       },
       account_number: {
@@ -2100,8 +2100,8 @@ export default {
         placeholder: "Äre Element Kont Zuel..",
       },
       routing_number: {
-        hint: "dës Zuel Element no Land. Element Benotzt Zu Element D'Domain Element Element Element D'Domain Verkeefer benotzt.",
-        placeholder: "Äre Element Element Zuel, Sortéieren Code, oder BSB Zuel..",
+        hint: "Dës Zuel variéiert jee Land. Et gëtt benotzt fir déi spezifesch Bankzweig ze identifizéieren déi de Verkeefer benotzt.",
+        placeholder: "Är Bankroutingnummer, Sortcode oder BSB Nummer..",
       },
       iban: {
         hint: "International Bank Account Number): Wann d'Bank vum Verkeefer an Europa oder verschiddenen anere Länner ass.",
@@ -2117,16 +2117,16 @@ export default {
       },
       enable: {
         label: "Verkeefer Status",
-        hint: "Dir Element Aktivéieren oder Element Verkeefer Element. Clienten Element net Element Element Zu Kafen Element Vun behënnert Verkeefer.",
+        hint: "Dir kënnt Ubidder weltwäit aktivéieren oder deaktivéieren. Clienten kënnen näischt aus behënnerte Verkeefer kafen.",
         true_description:
           "Si kënnen hir Produkter iwwer Äre Maartplaz verkafen.",
       },
       access: {
         label: "Verkeefer Element & Zougang",
         true_description:
-          "D'Domain Verkeefer Element engem Element Element Zu aktualiséieren Quantitéit a Präis.",
-        hint: "Dir Element Aktivéieren oder Element D'Domain Verkeefer Element, Element Element Verkeefer Zu aktualiséieren Produit Element a Präisser a Empfang Element Bestellungen.",
-        false_description: "D'Domain Verkeefer Element nee Zougang Zu Element.",
+          "De Verkeefer huet en engagéierten Panel fir d'Quantitéit a Präis ze aktualiséieren.",
+        hint: "Dir kënnt d'Verkeefer Panel aktivéieren oder deaktivéieren, wat Verkeefer erlaabt Produktquantitéiten a Präisser ze aktualiséieren an deelweis Bestellungen ze kréien.",
+        false_description: "De Verkeefer huet keen Zougang zu näischt.",
       },
 
       logo: {
@@ -2145,7 +2145,7 @@ export default {
     title: "Element",
     action_upload_doc: "eroplueden Element",
     vendor_subtitle:
-      "wait eroplueden D'Domain Element Affär, IP, a Adress Verifikatioun Element. Element Element dës Informatiounen Zu Confirméieren Äre Element a Element Dir mat D'Domain Element Zougang.",
+      "Luet w.e.g. déi néideg Geschäfts-, IP- an Adressverifizéierungsdokumenter erop. Mir brauchen dës Informatioun fir Är Partnerschaft ze bestätegen an Iech den néidegen Zougang ze ginn.",
     marketplace_subtitle:
       "Verkeefer kënnen Dokumenter wéi Geschäft, intellektuell Propriétéit, an Adressverifizéierung ofginn fir hire KYC Prozess ze erliichteren, wat Iech erlaabt hinnen de passenden Zougang ze ginn.",
     upload_dialog: {
@@ -2178,7 +2178,7 @@ export default {
     add_custom_badge: {
       title: "Benotzerdefinéiert Element",
       subtitle:
-        "dobäisetzen engem Nei Benotzerdefinéiert Element Zu Meng Buttek. Element Schëlder Grof Element 10. Méi.. Schëlder Géif Element Element Äre Buttek.",
+        "Füügt en neie personaliséierte Badge a mengem Geschäft. Halen Schëlder zielen ënner 10. Méi Schëlder géif Är Buttek lues.",
       show_advanced_options: "weisen Fortgeschratt Optioun",
 
       inputs: {
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "Muster",
           message:
-            "Element weisen dës Element fir Produkter Element dës passt Wäert Op Element Element. Regex Element.",
+            "Automatesch weisen dëse Badge fir Produkter huet dëse passende Wäert an hirer Spezifizéierung. Regex ënnerstëtzt.",
           placeholder: "Zu weisen fir all Produkter Schreift: *.*",
         },
       },
       notifications: {
-        badge_added: "D'Domain Element Element Element erfollegräich dobäigesat!",
-        badge_updated: "D'Domain Element Element Element erfollegräich dobäigesat!",
+        badge_added: "De Badge ass erfollegräich bäigefüügt!",
+        badge_updated: "De Badge gouf erfollegräich aktualiséiert!",
         item_not_found_error:
-          "D'Domain item Element net Element fonnt. wait Element D'Domain Säit oder Kontakt Ënnerstëtzung.",
+          "Den Artikel konnt net fonnt ginn. Erfrëscht w.e.g. d'Säit oder kontaktéiert d'Ënnerstëtzung.",
       },
     },
   },
@@ -2211,8 +2211,8 @@ export default {
   product_tags: {
     title: "Element",
     tips: [
-      "Dir Element Filter Produkter baséiert op Element op <b>Landung Säiten</b>.",
-      "Dir a Äre Clienten Element sichen fir Element Element Op D'Domain<b>sichen</b> Element.",
+      "Dir kënnt Produkter filteren baséiert op Tags op <b>landing Säiten</b>.",
+      "Dir an Är Clientë kënnen dës Tags an der <b>search</b> Bar sichen.",
       "Wann d'Tags gesat ginn, ginn nëmme Produkter mat den <b>gemeinsame Tags</b> an der <b>relatéiert Produkter Rubrik</b> op der Produktsäit ugewisen; soss, Produiten an der selwechter Kategorie gëtt ugewisen.",
     ],
     inputs: {
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "D'Domain Element Element Element dobäigesat erfollegräich.",
+      tags_updated: "D'Tags goufen erfollegräich aktualiséiert.",
     },
   },
 
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "Liwwerung Servicer",
     subtitle:
-      "D'Domain Maartplaz Offeren Liwwerung Methoden Zu Hëllef Verkeefer Element Element Bestellungen. Dir Element dobäisetzen Liwwerung Servicer hei Zu Element 🛍️ Bestellen Liwwerung Etiketten Vun Äre 🛍️ Bestellen Säit. dës Element D'Domain Element no Element Adressen a Tracking Coden mat D'Domain Liwwerung Element.",
+      "D'Maartplaz bitt Versandmethoden fir Verkeefer ze hëllefen hir Bestellungen z'erfëllen. Dir kënnt Versandservicer hei addéieren fir einfach Versandetiketten vun Ärer Bestellungssäit ze bestellen. Dëst vereinfacht de Prozess andeems Dir Adressen an Trackingcodes mam Versandprovider synchroniséiert.",
 
     subtitle_pickup:
-      "D'Domain Maartplaz Element Pickup fir Verkeefer, Element Element Zu Wielt Pickup Vun Äre Location Element engem Liwwerung Optioun. Dir Element dobäisetzen Äre Pickup Location Op Äre Profil (Äre Warehouse Element Element Benotzt Element D'Domain Standard Pickup Location).",
+      "De Maartplaz erméiglecht Pickup fir Ubidder, wat de Keefer erlaabt Pickup vun Ärer Plaz als Versandoptioun ze wielen. Dir kënnt Är Pickup Location an Ärem Profil addéieren (Äre Lager gëtt als Standard Pickup Location benotzt).",
     action: "dobäisetzen Service",
 
     add_dialog: {
       select_service_msg:
-        "Liwwerung Methoden si Set no D'Domain Maartplaz, a Clienten Element Wielt Vun Element. Verkeefer Element nee Kontroll iwwer Element Optiounen Element Element Element Element Element mat Liwwerung Servicer Zu Kafen Etiketten Element. wait Wielt engem Method Vun D'Domain Lëscht Element Zu Vue Verfügbar Servicer. Wielt engem Liwwerung Service Vun D'Domain Lëscht Element. Bezuelen D'Domain Verfügbar Servicer Element Element Element erfollegräich Zu Äre Buttek si Element hei.",
+        "Versandmethoden gi vum Maart gesat, a Cliente kënnen dovunner wielen. Verkeefer hu keng Kontroll iwwer dës Optiounen awer kënnen hir Panel mat Versandservicer integréieren fir Etiketten direkt ze kafen. Wielt w.e.g. eng Method aus der Lëscht hei drënner fir verfügbar Servicer ze gesinn. Wielt e Versandservice aus der Lëscht hei drënner. Nëmmen déi verfügbar Servicer, déi an Ärem Geschäft bäigefüügt kënne ginn, ginn hei ugewisen.",
       no_available_service: "nee Verfügbar Service!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Produit - Location - Profil",
     empty_subtitle:
-      "Element engem Location Zu D'Domain Produit Element Element engem Location-baséiert item.",
+      "Gitt e Standuert un de Produkt wann et e Location-baséiert Element ass.",
     dialog: {
       header: "Wielt Location Profil",
       action_new_location: "Füügt nei Plaz",
       title: "Location Profil",
       subtitle:
-        "Dir Element Pin Produkter op D'Domain Kaart Location no Element Location Element Zu D'Domain Produkter.",
-      tips: "<b>Element: </b> Element engem Location Zu D'Domain Produit <b>Bezuelen</b> Element Dir Element Zu weisen D'Domain Produit op D'Domain Element Location op D'Domain Kaart. D'Domain Element Produit Element Element D'Domain Location Element Element Haaptsäit Element, Wéi <b>Element Element/Element</b> oder Op-Element Servicer Wéi<b>Element a Element</b>.",
+        "Dir kënnt Produkter op der Kaart positionéieren andeems Dir Location Tags un d'Produkter zouginn.",
+      tips: "<b>Wichteg: </b> Gitt eng Plaz fir de Produit <b>only</b> wann Dir de Produit op der spezifescher Plaz op der Kaart wëllt weisen. De Pined Produkt muss d'Location als Haaptspezifizéierung hunn, wéi <b> Rental Haiser/Plazen</b> oder perséinlech Servicer wéi <b>Hairdressing a Spa</b>.",
     },
   },
 
@@ -2275,11 +2275,11 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "Element engem Lëscht vu Artikelen Element Element mat D'Domain Produit oder Service Package.",
+      "Gitt eng Lëscht vun Artikelen déi mat dem Produkt oder Service Package kommen.",
     dialog: {
       header: "Produit Package Artikelen",
       title: "Am Artikelen",
-      subtitle: "dës ass engem Element vu Artikelen Element Element mat D'Domain Produit.",
+      subtitle: "Dëst ass eng Zesummesetzung vun Artikelen déi mam Produkt kommen.",
       action_manage: "Verwalte Artikelen",
       action_disable_msg: "Maartplaz Besëtzer",
       select_items_tips:
@@ -2329,7 +2329,7 @@ export default {
         physical_orders_title: "Shopping Weenchen mat dësem Produkt",
         send_count_in_period: "Geschéckt Bestellungen Element {start} ~ {end}",
         downloads_count_in_period:
-          "Fichier Element Grof Element {start} ~ {end}",
+          "Datei erofgeluede Grof tëscht {start} ~ {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "D'Zuel vun de Contributiounen",
           score: "Element",
         },
-        users_not_rated_msg: "Benotzer Element net Element dës Produit nach.",
+        users_not_rated_msg: "D'Benotzer hunn dëst Produkt nach net bewäert.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2449,12 +2449,12 @@ export default {
           subtitle:
             "Gitt en Hex Faarfcode an, zB <b>#654FFF</b>, oder zwou Faarwen getrennt vun engem Schnëtt, zB <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "Dir Element Element Element Wäert Zu D'Domain Element, Element Biller Element <b>Element Element</b>. eroplueden engem Muster a benotzen D'Domain Generéiert Code fir D'Domain Variant.",
-          graphical_asset_action: "Element Element",
+            "Dir kënnt all Wäert op d'Verännerlechen zougewisen, dorënner Biller benotzt <b>Graphic Assets</b>. Luet e Muster erop a benotzt de generéierte Code fir d'Variant.",
+          graphical_asset_action: "Grafik Verméigen",
           graphical_asset_action_caption: "Biller fir Variant Optiounen.",
         },
         smart_unit_price: {
-          tips: "Berechent Eenheet Präis baséiert op <b>Gewiicht</b>, <b>Volumen</b>, a <b>Pak Gréisst</b>. Zu Element dës Feature, Element Zu Buttek > Astellungen > Thema > Produit Säit > Element Eenheet Präis.",
+          tips: "Berechent Eenheetspräis baséiert op <b>weight</b>, <b>volume</b>, an <b>pack Gréisst</b>. Fir dës Fonktioun auszeschalten, navigéiert op Shop> Astellungen> Thema> Produkt Säit> Smart Eenheetspräis.",
           smart_unit_price: "Eenheet Präis Berechnung",
         },
         quantity: {
@@ -2469,23 +2469,23 @@ export default {
         package: {
           title: "Verpakung & Liwwerung",
           subtitle:
-            "Element Gewiicht a Dimensiounen fir Varianten Zu Element Liwwerung Optiounen.",
-          same_as_product_action: "Element Element Produit",
+            "Gitt Gewiicht an Dimensiounen fir Varianten fir d'Versandoptiounen ze bestëmmen.",
+          same_as_product_action: "Selwecht wéi Produkt",
         },
         image: {
           title: "Variant Biller",
           subtitle:
-            "dobäisetzen eenzegaarteg Biller fir Element Variant. D'Domain éischte Bild eropgelueden Element Element D'Domain Primär Bild fir Element Variant.",
+            "Füügt eenzegaarteg Biller fir all Variant. Dat éischt Bild dat eropgeluede gëtt ass dat primär Bild fir dës Variant.",
         },
         inputs: {
           sku: {
             message: "Lager Element Eenheet (SKU)",
           },
           mpn: {
-            message: "Element Element Zuel (MPN)",
+            message: "Fabrikant Part Number (MPN)",
           },
           gtin: {
-            label: "Element Element item Zuel (GTIN)",
+            label: "Global Trade Item Number (GTIN)",
             message:
               "Ënnerstëtzt Formater: UPC (12 Zifferen), EAN (13 Zifferen), JAN (8 oder 13 Zifferen), ISBN (13 Zifferen).",
           },
@@ -2507,18 +2507,18 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "Liwwerung Servicer Verfügbar Element op D'Domain Element Gréisst a Gewiicht.",
+      "Verfügbare Versandservicer hänkt vun der geliwwerter Gréisst a Gewiicht of.",
   },
 
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Package Gewiicht",
     weight_subtitle:
-      "Input D'Domain Element Ganzen Verpakung Gewiicht hei. dës Informatiounen Element Wielt D'Domain Riets Liwwerung Method a Element D'Domain 🛍️ Bestellen Element Element D'Domain Liwwerung Limitéieren.",
+      "Gitt hei d'Gesamtgewiicht vum Produkt un. Dës Informatioun hëlleft déi richteg Versandmethod ze wielen a garantéiert datt d'Bestellung d'Versandlimit net iwwerschreift.",
     weight_unit: "Element",
     size: "Package Dimensiounen",
     size_subtitle:
-      "Input D'Domain Element Ganzen Verpakung Gréisst hei. dës Informatiounen ass Benotzt Zu Wielt D'Domain richteg Liwwerung Method a Element D'Domain 🛍️ Bestellen Element Element D'Domain Element Gréisst Limitéieren.",
+      "Gitt hei déi voll Verpackungsgréisst vum Produkt un. Dës Informatioun gëtt benotzt fir déi richteg Versandmethod ze wielen an ze garantéieren datt d'Bestellung net d'Parzellgréisst Limit iwwerschreift.",
 
     width: "Breet",
     length: "Längt",
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Virbereedung Zäit",
     lead_time: "Virbereedung Zäit",
     lead_time_subtitle:
-      "Element Zäit Element D'Domain Dauer Element Zu Element engem Produit fir Liwwerung, Element Element Op Element D'Domain Liwwerung Zäit.",
+      "D'Lead Time schätzt d'Dauer déi néideg ass fir e Produkt op d'Verschécken virzebereeden, wat hëlleft d'Liwwerzäit ze schätzen.",
 
     lead_time_dimension: "Stonn(en)",
     bulk_action: "Bulk Aktiounen",
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Update all Varianten",
     bulk_action_msg:
       "Set Produktverpackung an Virbereedungszäit fir all Varianten.",
-    dynamic_lead_time: "Element Element Zäit",
+    dynamic_lead_time: "Dynamesch Lead Zäit",
     instant_delivery: "3 Liwwerung",
   },
 
@@ -2553,11 +2553,11 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "Set Bild Element Text",
-      placeholder: "Gitt engem Element Element Text...",
+      placeholder: "Gitt en deskriptiven Alttext an...",
       success_update_notification: "Element Text erfollegräich dobäigesat.",
     },
     dialog_bg_remove: {
-      title: "Element Element Element",
+      title: "Ewechzehuelen den Hannergrond automatesch",
       action: {
         title: "Hannergrond ewechhuelen",
         subtitle: "Schafen engem transparent Hannergrond.",
@@ -2569,10 +2569,10 @@ export default {
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "Variant Element Element",
+    title: "Variant grafesch Verméigen",
     tips: {
       how_it_works:
-        "<b>Element et Element:</b><br />eroplueden Muster oder item Biller hei. Zu benotzen Element Biller Element engem Variant Optioun, Element <b>{filename}</b> Op D'Domain Variant Wäert. Notiz Element dës Code Element Element Benotzt Op D'Domain <b><s>Faarf</s></b> Wäert.",
+        "<b>Wéi et funktionnéiert:</b><br />Upload Muster oder Element Biller hei. Fir dës Biller als Variantoptioun ze benotzen, enthält <b>{filename}</b> am Variantwäert. Bedenkt datt dëse Code net am <b><s>color</s></b> Wäert benotzt ka ginn.",
       how_set_name:
         "<b>Nennungstipps:</b><br />Déi éischt 12 Zeeche vum eropgeluedenen Dateinumm ginn als Verméigensnumm benotzt. Dës Feature ass ideal fir personaliséierbar Aspekter vun engem Produkt ze weisen, wéi Pneuengréissten fir Motorrieder oder Stoffmuster. Fir d'Benotzung vun dëser Fonktioun ze optimiséieren, vermeit Variant Biller hei eropzelueden, ausser d'Zuel vun de grafesche Verméigen ass manner wéi 100, sou wéi verschidden Holzarten fir Miwwelen.",
     },
@@ -2591,17 +2591,17 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "dës Variant Element Element!",
+    duplicated_variant: "Dës Variant gëtt et schonn!",
     set_color_warning: "wait Wielt engem Faarf.",
     set_volume_warning: "wait Element D'Domain Volumen.",
     set_pack_warning: "wait Element D'Domain Pak Gréisst.",
     set_weight_warning: "wait Element D'Domain Gewiicht.",
     set_type_warning: "wait Wielt engem Typ.",
     set_style_warning: "wait Wielt engem Stil.",
-    out_of_stock: "Element Element vu Lager",
+    out_of_stock: "Moment net op Stock",
 
     image: {
-      tooltip: "⚡ ZéElement-engem-Element Element e Bild hei Zu Element et Zu D'Domain Variant.",
+      tooltip: "⚡ Drag and drop e Bild hei fir et un d'Variant ze ginn.",
     },
     enable: {
       true_tooltip: "dës item ass Verfügbar Op D'Domain Online Buttek.",
@@ -2609,7 +2609,7 @@ export default {
     },
     restore_dialog: {
       title: "Element Variant",
-      message: "si Dir Element Dir Element Zu Element dës Geläscht Variant?",
+      message: "Sidd Dir sécher datt Dir dës geläscht Variant restauréiere wëllt?",
       action: "jo, Element elo",
     },
     notifications: {
@@ -2717,27 +2717,27 @@ export default {
   bulk_price_dialog: {
     title: "Bulk Aktiounen > Präis",
     message:
-      "D'Domain Element Betrag Element Filter Element engem Prozentsaz Zu D'Domain Präis vu all Produkter Op Äre Buttek. Element, D'Domain Element Präis änneren Element Element Element Element Zu D'Domain Element Element Zuel baséiert op D'Domain ausgewielt Währung.Element Element Op Element D'Domain änneren.",
+      "De folgende Betrag gëlt als Prozentsaz op de Präis vun alle Produkter an Ärem Geschäft. Och déi berechent Präiswäerter ginn intelligent ëmgerechent an déi nootste Ronn Zuel baséiert op der gewielter Währung. Opgepasst wann Dir d'Wäerter aginn.",
     check: "Ech stëmmen Präis Ännerungen.",
     check_description:
-      "D'Domain Präis Element Element erfollegräich fir D'Domain ausgewielt Kategorie a all Element.",
+      "De Präis gëtt fir déi gewielte Kategorie an all Ënnerkategorien geännert.",
     add_percent_tab: "dobäisetzen Prozent",
     add_constant_tab: "dobäisetzen Element",
-    ending_tab: "Element Element",
+    ending_tab: "Enn Strategie",
     marketplace_listing_price: "Lëschtung Präis",
 
     constant: {
       subtitle:
-        "D'Domain Betrag Element Element erfollegräich oder Element Vun D'Domain Aktuellt Präis vu Produkter.",
+        "De Betrag gëtt bäigefüügt oder vum aktuelle Präis vun de Produkter subtrahéiert.",
     },
     ending: {
       subtitle:
-        "D'Domain Element vu D'Domain Aktuellt Präis vu Produkter Element Element erfollegräich Zu D'Domain Element Wäert.",
+        "D'Enn vum aktuelle Präis vun de Produkter gëtt op de spezifizéierte Wäert geännert.",
     },
     marketplace: {
       title: "Maartplaz Lëschtung Präis",
       subtitle:
-        "dës Optioun Element Dir Zu Element aktualiséieren D'Domain Lëschtung Präis vu Produkter Op D'Domain Maartplaz. Element, D'Domain Haaptsäit Produit Präis Element net Element mat Verkeefer Präisser Element Zu Element Präis Ännerungen.",
+        "Dës Optioun erlaabt Iech automatesch den Oplëschtungspräis vun de Produkter um Maart ze aktualiséieren. Heiansdo kann den Haaptproduktpräis net mat de Verkeeferpräisser alignéieren wéinst manuelle Präisännerungen.",
       strategy: {
         min: {
           title: "Set Minimum Präis",
@@ -2757,9 +2757,9 @@ export default {
     },
     vendor: {
       subtitle:
-        "Limitéieren Bulk Aktiounen Zu engem Element Verkeefer. wann engem Verkeefer ass ausgewielt, D'Domain Präis aktualiséieren Element Element Element Zu D'Domain Element Produkter, Element Element D'Domain Element Präis fir Element Verkeefer.",
+        "Limitéiert Bulkaktiounen op e spezifesche Verkeefer. Wann e Verkeefer ausgewielt gëtt, gëtt de Präisaktualiséierung op d'Produkter vum Verkeefer applizéiert, wat de Verkafspräis fir dee Verkeefer duerstellt.",
       listing_price_need_update_msg:
-        "Element Dir Element Zu aktualiséieren D'Domain Lëschtung Präis (D'Domain Präis Element Op D'Domain Produit Lëscht), Dir Element Element D'Domain Bulk aktualiséieren mat D'Domain Element Filteren Element Element Element engem Verkeefer.",
+        "Wann Dir den Oplëschtungspräis wëllt aktualiséieren (de Präis deen an der Produktlëscht ugewise gëtt), sollt Dir d'Massaktualiséierung mat de selwechte Filteren nei ofginn, awer ouni e Verkeefer ze wielen.",
     },
     listing_products_changes: "Lëschtung Produkter Änneren",
     total_vendor_products: "Ganzen Verkeefer Produkter",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Auto späicheren",
-    auto_save_input_message: "Ännerungen Element Element Gespäichert Element.",
+    auto_save_input_message: "Ännerungen ginn automatesch gespäichert.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,7 +2797,7 @@ export default {
   b_page_shop_finance_gateway: {
     title: "💳 Bezuelung Methoden",
     sub_title:
-      "Lëscht vu Aktiv 💳 Bezuelung Methoden. Element Dir Element Zu dobäisetzen engem Nei Method Zu Äre Buttek, Element D'Domain Element Knäppchen. Element Element Element net Element 10 erfollegräich 💳 Bezuelung Gateways.",
+      "Lëscht vun aktive Bezuelmethoden. Wann Dir eng nei Method an Ärem Geschäft wëllt addéieren, dréckt op de folgende Knäppchen. Mir recommandéieren net méi wéi 10 zousätzlech Bezuelungspaarten.",
     add_gateway: "Nei 💳 Bezuelung Method",
 
     add_gateway_dialog: {
@@ -2815,7 +2815,7 @@ export default {
       currency_step: {
         title: "Wielt engem Währung",
         subtitle:
-          "Element Zu Element D'Domain Zuel vu Währungen Op Äre Buttek Zu engem Minimum—Element Element Element 3. Meescht 💳 Bezuelung Gateways Element Element Transaktiounen Op Element Element Währung.",
+          "Probéiert d'Zuel vun de Währungen an Ärem Geschäft op e Minimum ze halen - am Idealfall manner wéi 3. Déi meescht Bezuelungspaarten kënnen Transaktiounen a bal all Währung veraarbecht.",
         add_first_currency: {
           subtitle: "wait dobäisetzen engem Währung Zu Äre Buttek virun Element.",
           title: "Füügt Währung",
@@ -2824,16 +2824,16 @@ export default {
       gateway_step: {
         title: "Aktiv 💳 Bezuelung Methoden",
         subtitle:
-          "wait Wielt Vun D'Domain Verfügbar 💳 Bezuelung Methoden. Element Dir Wielt engem Paart, Element Element Element Zu Gitt D'Domain Element Element Detailer Zu Link Äre Buttek Element Zu Äre Element 💳 Bezuelung Method.",
+          "Wielt w.e.g. aus de verfügbare Bezuelmethoden. Wann Dir e Paart gewielt hutt, kënnt Dir déi néideg Verbindungsdetailer aginn fir Äre Buttek direkt op Är gewënschte Bezuelmethod ze verbannen.",
       },
 
       config_step: {
-        import_config: "Dir Element Import Element Vun Aner Element Gateways",
+        import_config: "Dir kënnt Configuratioun vun aneren ähnlechen Gateways importéieren",
         import_from: "Import Vun",
       },
 
       request_add_new_gateway: {
-        title: "Verpasst Element Äre Element 💳 Bezuelung Method?",
+        title: "Gesitt Dir Är beléifte Bezuelmethod net?",
         subtitle:
           "Wann Äre lokalen Bezuelanbieter net opgelëscht ass, abonnéiert Iech op all Joresplang (inklusiv Startup fir Bezuelbarkeet) a frot eng Integratioun. Mir wäerten et bannent 48 Stonnen fäerdeg maachen wann en Testkonto an Dokumentatioun zur Verfügung gestallt gëtt.",
       },
@@ -3074,7 +3074,7 @@ export default {
 
     config: {
       subtitle:
-        "Kategorien Hëllef Element Produit Gestioun a Geld et Element fir Äre Clienten Zu Fannt Produkter Op Äre Buttek.",
+        "Kategorien hëllefen d'Produktmanagement ze streamline an et méi einfach fir Är Clienten Produkter an Ärem Geschäft ze fannen.",
     },
     parent: {
       subtitle:
@@ -3085,12 +3085,12 @@ export default {
       edit_page: "änneren Säit",
       Pages_list: "Säit Lëscht",
       subtitle:
-        "Dir Element Element D'Domain Element vu Äre Kategorie Säit no Element engem Benotzerdefinéiert Säit. D'Domain Beschte Element ass Zu Schafen Säiten mat transparent Element a Design 1 Zu 2 Element Element Zu Element Kategorie. Dir Element Element Link Element Säit Zu Multiple Kategorien, Element Element Inhalt Zu Element Element Kategorie Element.",
+        "Dir kënnt den Affichage vun Ärer Kategorie Säit verbesseren andeems Dir eng personaliséiert Säit iwwerlagert. Déi bescht Approche ass Säiten mat transparenten Hannergrënn ze kreéieren an 1 bis 2 Sektiounen spezifesch fir all Kategorie ze designen. Dir kënnt dann eng Säit op verschidde Kategorien verlinken, mat dynamesche Inhalter fir all Kategorie individuell unzepassen.",
     },
     critical_zone: {
       title: "Element Zone",
       subtitle:
-        "Element Dir Ewechzehuelen engem Kategorie, Element Element a Produkter Element Element Element Zu D'Domain Elteren Element<b>📁 {parent}</b>. Zu Verwalte Kategorien Element si net Op D'Domain Produit Lëscht, Element Zu D'Domain Buttek > Kategorien Element.",
+        "Wann Dir eng Kategorie läscht, ginn seng Ënnerkategorien a Produkter an den Elterenverzeichnis geplënnert <b>📁 {parent}</b>. Fir Kategorien ze managen déi net an der Produktlëscht sinn, gitt op de Shop> Kategorien Tab.",
       accept_delete: {
         true_description: "Ech Element Zu Ewechzehuelen dës Kategorie.",
         true_title: "Confirméieren Ewechzehuelen Kategorie",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategorie geännert.",
       },
       manually_update_filters_tips:
-        "<b>Element!</b> Filteren si Element erfollegräich wann Produkter Änneren. Element, No Element Ännerungen Zu Produkter Op engem Kategorie, wait 📦 Retour hei a Klickt D'Domain Spueren/Element Knäppchen Zu Element D'Domain Filter.",
+        "<b>Wichteg!</b> Filtere ginn automatesch aktualiséiert wann d'Produkter änneren. Wéi och ëmmer, nodeems Dir Ännerunge fir Produkter an enger Kategorie gemaach hutt, gitt w.e.g. hei zréck a klickt op de Knäppchen späicheren / regeneréieren fir de Filter z'erfrëschen.",
 
       inputs: {
         spec: {
           message:
-            "Lëscht vu Fonctiounen Element Dir Element Zu Element Element Op D'Domain Filter Sektioun",
+            "Lëscht vun de Fonctiounen déi Dir wëllt an der Filtersektioun gewise ginn",
           placeholder: "Wielt Element Zu weisen Op Filter...",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Store Beschreiwung",
     description_input_message: "Schreift eng kuerz Beschreiwung iwwer Äert Geschäft.",
     description_input_tips:
-      "dës Beschreiwung Element Element Op Äre Element Fousszeilen a Element Element Element Benotzt Element D'Domain Standard Element Element Beschreiwung fir Äre Buttek Säiten.",
+      "Dës Beschreiwung erschéngt am Fousszeil vun Ärem Geschäft a gëtt och als Standard Meta Tag Beschreiwung fir Är Geschäft Säiten benotzt.",
     address_input: "Store Adress",
     address_input_message: "Gitt exakt Buttek Standuert Adress",
 
@@ -3333,14 +3333,14 @@ export default {
       options: {
         title: "Optiounen",
         subtitle:
-          "Element Dir Element Zu Ofbriechen Äre 🛍️ Bestellen Element, Dir Element benotzen dës Optioun.",
+          "Wann Dir wëllt Är Bestellung direkt annuléieren, Dir kënnt dës Optioun benotzen.",
       },
 
       express_input: {
         true_title: "Express | Ofbriechen 🛍️ Bestellen Element",
         false_title: "Element | Ofbriechen 🛍️ Bestellen No 48 Stonnen",
         true_description:
-          "dës Optioun Element Ofbriechen Äre 🛍️ Bestellen Element a aktualiséieren D'Domain Inventar Riets Element.",
+          "Dës Optioun annuléiert Är Bestellung direkt an aktualiséiert den Inventar direkt.",
         false_description:
           "Dës Optioun annuléiert Är Bestellung no 48 Stonnen. Bis dohinner ginn d'Saachen reservéiert a kënnen net vun aneren kaaft ginn.",
       },
@@ -3354,9 +3354,9 @@ export default {
         "Bestellung zréck an den normale Prozess.",
       set_tracking_success: "Bestellung Track ID erfollegräich gespäichert.",
       shipping_address_update_success:
-        "Liwwerung Adress Element Element erfollegräich dobäigesat.",
+        "Versandadress gouf erfollegräich aktualiséiert.",
       vendor_order_status_update_success:
-        "Verkeefer Erfëllung Status Element Element erfollegräich dobäigesat.",
+        "Verkeefer Erfëllung Status gouf erfollegräich aktualiséiert.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Pending Bezuelen",
       processing_payment: "Veraarbechtung Bezuelen",
       processing_cancel: "Bezuelung annuléiert",
-      require_capture: "Element Element",
+      require_capture: "Erfaassen erfuerderen",
       paid: "Bezuelt",
       cod_pay_info:
         "Wann Dir d'Bestellung vum Client kritt hutt, kënnt Dir d'Bezuelung bestätegen an d'Bestellung fäerdeg maachen.",
@@ -3507,7 +3507,7 @@ export default {
     basket_list: {
       checklist: [
         "Inventar kontrolléieren.",
-        "Wann den Artikel net verfügbar ass, muss de Betrag dee fir deen Artikel bezuelt gëtt un de Client zréckginn.",
+        "Wann den Artikel net verfügbar ass, muss de Betrag dee fir dësen Artikel bezuelt gëtt, dem Client zréckginn.",
       ],
       message:
         "Wann iergendeen vun den Artikelen net verfügbar ass oder net verkaaft ka ginn, deaktivéiert d'Këscht niewendrun a klickt op d' <b>Confirmatioun Bestellung</b> Knäppchen.",
@@ -3519,24 +3519,24 @@ export default {
         "Äre Client gewënnt 1x vun dësem Produkt. Schéckt Geschenk mat dëser Bestellung.",
 
       need_to_refund: {
-        title: "Element Element Zu D'Domain Client",
+        title: "Remboursement néideg fir de Client",
         message:
-          "Element Berechent D'Domain Ganzen Betrag vu Element Element Dir Braucht Zu Geld confirméiert. et Element baséiert op Element Artikelen a Ganzen Element änneren nach.",
+          "Mir berechnen de Gesamtbetrag vun de Remboursementer déi Dir manuell maache musst. Et berechent baséiert op net verfügbaren Artikelen a Gesamtbezuelte Wäerter nach.",
         calculated_approximately:
-          "D'Domain Betrag ass Element Element. wait Berechent D'Domain Element Betrag Element.",
+          "De Betrag gëtt ongeféier berechent. Berechent w.e.g. de genaue Betrag selwer.",
       },
       need_payback: {
         title: "Client Charge Element",
         message:
-          "Element Element Element D'Domain Ganzen Element Zu D'Domain Client ass Element Element D'Domain Betrag Element baséiert op D'Domain Artikelen Op D'Domain Cart. Dir Element Braucht Zu Charge Äre Client Zu Element D'Domain Element Betrag.",
+          "Mir hu gemierkt datt den Total deen dem Client rembourséiert ass méi héich ass wéi de Betrag, deen op Basis vun den Artikelen am Wuerekuerf baséiert. Dir musst vläicht Äre Client bezuelen fir den iwwerschësseg Betrag ze recuperéieren.",
       },
       need_no_refund: {
-        title: "nee Element Element",
+        title: "Kee Remboursement néideg",
       },
       total_refund: {
         title: "Ganzen Element",
         message:
-          "Element D'Domain Ganzen Betrag vu Element Element Element no Äre 💳 Bezuelung Paart. Bezuelen Element 💳 Bezuelung Servicer Ënnerstëtzung dës Feature, Element Dir Braucht Zu Element confirméiert.",
+          "Et ass de Gesamtbetrag vun de Remboursementer automatesch vun Ärem Bezuelungspaart gemaach. Nëmmen e puer Bezuelungsservicer ënnerstëtzen dës Feature, also musst Dir manuell rembourséieren.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "Element Gewiicht vu all Artikelen ass {weight} {unit}",
       not_available_message:
-        "Element net Verfügbar wann Dir si behënnert Element fir Liwwerung Adress a Element Benotzer Element net Element Adress No Kafen!",
+        "Et ass net verfügbar wann Dir behënnert sidd fir d'Versandadress ze froen an och de Benotzer huet d'Adress nom Kaf net ausfëllt!",
 
       message:
         "Klickt op de folgende <b>Bestellung Ready</b> Knäppchen wann d'Bestellung prett ass fir ze verschécken.",
@@ -3662,7 +3662,7 @@ export default {
     status: "Element - Paart - Iwwersiicht - Status",
     cod_transportation: "Element Liwwerung",
     cod_transportations_error:
-      "Aktivéieren COD 💳 Bezuelung fir um Element Element Liwwerung Method!",
+      "Aktivéiert boer op Liwwerung Bezuelung fir op d'mannst eng Versandmethod!",
     payment_type: "💳 Bezuelung Typ",
     cod: "COD",
     online: "Online 💳 Bezuelung",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "Äre Paart Status",
     oauth2_button: "Auto Connect Zu {gateway}",
     fee_payment_message:
-      "D'Domain Element Betrag Bezuelt no D'Domain Client Element Element Element Zu Äre Kont. D'Domain Service Element Element Element Element Vun Äre Portemonnaie Op Sellone. Selldone",
+      "De ganze Betrag dee vum Client bezuelt gëtt, gëtt op Äre Kont transferéiert. D'Servicekäschte gëtt vun Ärem Portemonnaie zu Selldone ofgesat.",
 
     auto_config: "Auto Element",
 
     keys: {
       title: "Privat Schlësselen",
       subtitle:
-        "Lëscht vu Privat Schlësselen fir D'Domain 💳 Bezuelung. dës Informatiounen ass Essential fir Element a Element Paiementer.",
+        "Lëscht vu private Schlëssele fir d'Bezuelung. Dës Informatioun ass wesentlech fir Bezuelungen ze kreéieren an ze managen.",
     },
     extra_config: {
       title: "💳 Bezuelung Service Configuratioun",
@@ -3707,10 +3707,10 @@ export default {
     link: "Websäit",
     status_title: "💳 Bezuelung Service Status",
     status_message:
-      "Konfiguréieren D'Domain 💳 Bezuelung Method Element Aktiv oder inaktiv. Bezuelen Methoden Set Element Aktiv Element Element Element Zu Clienten.",
+      "Konfiguréiert d'Bezuelmethod als Aktiv oder Inaktiv. Nëmme Methoden, déi als aktiv gesat ginn, ginn u Clienten ugewisen.",
     status_true_description: "Äre Clienten Element Bezuelen mat dës 💳 Bezuelung Method.",
 
-    manual_title: "Element / Auto Element 💳 Bezuelung",
+    manual_title: "Manuell / Auto Capture Bezuelung",
     manual_message:
       "Wann Dir eng Bezuelung erstellt, kënnt Dir eng berechtegt Bezuelmethod halen fir Fongen ze reservéieren déi Dir méi spéit erfaasst. Zum Beispill, Hoteler autoriséieren dacks eng voll Bezuelung ier e Gaascht ukomm ass, dann erfaassen d'Suen wann de Gaascht auscheckt.",
 
@@ -3723,11 +3723,11 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} geännert.",
-      success_delete: "💳 Bezuelung Method Element Element Geläscht!",
+      success_delete: "Bezuelmethod gouf geläscht!",
     },
     debug: {
       title: "Entwéckelen & Element",
-      subtitle: "Dir Element Aktivéieren D'Domain Element Modus Zu Element D'Domain 💳 Bezuelung Paart.",
+      subtitle: "Dir kënnt den Debug Modus aktivéieren fir de Bezuelungspaart ze testen.",
     },
 
     limit: {
@@ -3736,26 +3736,26 @@ export default {
     },
     limit_input: {
       title: "Minimum 🛍️ Bestellen Betrag",
-      msg: "Element Element nee Limitéieren.",
+      msg: "Null heescht keng Limite.",
     },
     currency_input: {
-      message: "D'Domain Währung Element dës 💳 Bezuelung Paart Element.",
+      message: "D'Währung déi dës Bezuelungspaart ënnerstëtzt.",
     },
     gateway_code: "Paart Code",
 
     hold_only_for: "Element 💳 Bezuelung Bezuelen Verfügbar fir",
     manual_input: {
       false_description:
-        "D'Domain 💳 Bezuelung Status Element Element erfollegräich Element Vun Erwaardung Zu Confirméiert Op D'Domain 💳 Bezuelung Element Element.",
+        "De Bezuelungsstatus gëtt automatesch geännert vun onendlech bis am Bezuelen Provider System bestätegt.",
       false_title: "Auto 💳 Bezuelung Bestätegung",
-      true_title: "Element Paiementer a Element Bestätegung",
+      true_title: "Halt Bezuelungen a Manuell Bestätegung",
       true_description:
-        "Element engem Element op engem 💳 Bezuelung Element Dir Braucht Zu Verifizéiert D'Domain Paiementer fir e 🛍️ Bestellen Zu Änneren Element Status Vun Erwaardung Zu Confirméiert Op D'Domain 💳 Bezuelung Element Element.",
+        "Stellt eng Bezuelung op, fir datt Dir d'Bezuelungen fir eng Bestellung verifizéiere musst fir hire Status z'änneren vun pendend bis am Bezuelen Provider System bestätegt.",
     },
     delete_verify_input: {
       true_title: "Ech Element Zu Ewechzehuelen dës 💳 Bezuelung Method.",
       true_description:
-        "dës 💳 Bezuelung Method Element Element geläscht Vun D'Domain Buttek a Element net Element Verfügbar Zu Clienten.",
+        "Dës Bezuelmethod gëtt aus dem Geschäft geläscht a wäert fir Clienten net disponibel sinn.",
     },
     delete_alert: {
       title: "Läschen 💳 Bezuelung Method",
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Lëscht vun erausginn Kaarte",
       subtitle:
-        "Vue a Verwalte all erausginn Kaarten. Dir Element Schécken Kaarten Zu Benotzer confirméiert oder Element Element Element Element.",
+        "Kuckt a verwalten all erausginn Kaarten. Dir kënnt Kaarte fir Benotzer manuell schécken oder se verbidden wann néideg.",
 
       loading_message: "Kréien Informatiounen ... wait weg",
       issue_to_user: "Ausgab fir Benotzer",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "Element Portemonnaie Transaktioun.",
 
     "vendor-sms":
-      "🔔 🛍️ Bestellen Element SMS Element Element Geschéckt Zu <b>{vendor}</b> ╏ {phone}.",
+      "🔔 Bestellungsinformatioun SMS gouf op <b>{vendor}</b> ╏ {phone} geschéckt.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "Schécken engem 💳 Bezuelung Bestätegung SMS Zu D'Domain Client Element {phone}.",
     "sms-ready-to-ship":
-      "Schécken e SMS Zu D'Domain Client Element Element Element 🛍️ Bestellen ass prett Zu Element Geschéckt Element {phone}.",
+      "Schéckt eng SMS un de Client matdeelen datt hir Bestellung prett ass fir iwwer {phone} geschéckt ze ginn.",
     "sms-ready-to-pickup":
-      "Schécken e SMS Zu D'Domain Client Element Element Element 🛍️ Bestellen ass prett fir Pickup Element {phone}.",
+      "Schéckt eng SMS un de Client matdeelen datt hir Bestellung prett ass fir ofzehuelen iwwer {phone}.",
     "sms-order-confirmation":
       "Schécken e 🛍️ Bestellen Bestätegung SMS Zu D'Domain Client Element {phone}.",
 
     "count-adjustment":
-      "D'Domain Quantitéit vu D'Domain Produit \"{product}\" Element Element erfollegräich Vun {from} Zu {to}.",
+      "D'Quantitéit vum Produkt \"{product}\" gouf vun {from} op {to} aktualiséiert.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4069,11 +4069,11 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "Dir Element Produkter Op Element Element nee Filter.",
+      no_root_filter_message: "Dir hutt Produkter an der Root awer kee Filter.",
       has_root_filter_message: "Dir Set Filteren fir Element Kategorie.",
       set_filter_message: "Dir Element Set Filteren.",
       edit_action: "änneren Element Filteren",
-      clear_action: "Element Element Filteren",
+      clear_action: "Root Filteren läschen",
     },
     ai: {
       title: "AI Produit Element",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "Element",
       sort_categories: "Element / Sortéieren Kategorien",
       subscription_vendor_not_support_message:
-        "Element net Element Verkeefer fir Abonnement Produkter! Abonnement Produkter Element Element Element engem Verkeefer Element Element Besëtzer!",
+        "Kann de Verkeefer net fir Abonnementprodukter zouginn! Abonnementprodukter mussen ëmmer e Verkeefer als Besëtzer hunn!",
       vendor_owner_not_assignable_message:
-        "Element net Element engem Verkeefer fir Produkter mat engem Verkeefer Element Element Besëtzer!",
+        "Kann net e Verkeefer fir Produkter mat engem Verkeefer als Besëtzer zouginn!",
       category_assign_profile: "Element Profil Zu Produkter Op D'Domain Kategorie",
       category_assign_profile_subtitle: "Steier, Liwwerung, Element, Retour,...",
       bulk_discount: "Bulk Remise",
@@ -4095,7 +4095,7 @@ export default {
     engine: {
       title: "Extra Produkter Element",
       subtitle:
-        "Méi.. Produkter Element Element Element Vun ausgewielt Kategorien a Element.",
+        "Méi Produkter ginn aus ausgewielte Kategorien an Tags gelueden.",
       load_in_tips: "Element Produkter Vun Kategorien Op D'Domain {category}.",
       action: "änneren {category} Element",
     },
@@ -4115,14 +4115,14 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "Element Element",
+    has_panel: "Huet Panel",
     no_panel: "nee Element",
     manual_action: {
       title: "Element Aktiounen",
       message: "Dir Element aktualiséieren D'Domain Verkeefer 🛍️ Bestellen Status confirméiert.",
       guides: [
         "Verkeefer mat Panel Zougang kënnen hir Erfëllung (Ënnerbestellungen) an hirem engagéierten Dashboard aktualiséieren.",
-        "Element D'Domain Verkeefer Element nee Element Zougang, D'Domain Verkeefer 🛍️ Bestellen Status Element Element erfollegräich Element no Element D'Domain Element Status.",
+        "Wann de Verkeefer kee Panel Zougang huet, gëtt de Verkeefer Bestellungsstatus automatesch geännert andeems de Kuerfstatus geännert gëtt.",
         "Dir Element aktualiséieren Verkeefer Bestellungen confirméiert.",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Produkter",
       subtitle:
-        "hei Dir Element Vue D'Domain Grof vu Äre Produkter Element op D'Domain Maartplaz. Produkter no Multiple Verkeefer si net Am.",
+        "Hei kënnt Dir d'Zuel vun Äre Produkter op der Maartplaz gesinn. Produkter vu multiple Verkeefer sinn net abegraff.",
     },
     wallets: {
       title: "Meng Portemonnaien",
       subtitle:
-        "Dir Verpasst Braucht Zu dobäisetzen Portemonnaien confirméiert! Verkeefer Portemonnaien Element Element erstallt Element.",
+        "Dir braucht keng Portemonnaien manuell ze addéieren! Verkeefer Portemonnaien gëtt automatesch erstallt.",
     },
 
     open_marketplace_page: "oppen Maartplaz Säit",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Produit Lëscht",
     subtitle:
-      "dës ass engem Lëscht vu Äre Produkter Op D'Domain Maartplaz. aktualiséieren Präisser a Element fir Äre Element Produkter Op D'Domain Inventar. Element engem Verkeefer, Element Bezuelen Element Eenzel-Verkeefer Produkter Dir Element Op D'Domain Produit Lëscht. Aner Element Produkter Element Element Element hei Element Gutt.",
+      "Dëst ass eng Lëscht vun Äre Produkter um Maartplaz. Update Präisser a Quantitéite fir Är zougewisen Produkter am Inventar. Als Verkeefer gesitt Dir nëmmen eenzel Verkeefer Produkter déi Dir an der Produktlëscht besëtzt. Aner zougewisen Produkter kënnen och hei geännert ginn.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Element Membere",
     subtitle:
-      "dës ass D'Domain Lëscht vu Benotzer Element Element Zougang Zu Äre Verkeefer Element. Dir Element dobäisetzen Nei Element Membere a Element Element Permissiounen hei.",
+      "Dëst ass d'Lëscht vun de Benotzer déi Zougang zu Ärem Vendor Panel hunn. Dir kënnt nei Teammemberen addéieren an hir Permissiounen hei personaliséieren.",
     add_action: "dobäisetzen Nei Member",
     pending: {
       title: "Erwaardung Element",
-      message: "Vue D'Domain Lëscht vu Element Element si Waarden Element.",
+      message: "Kuckt d'Lëscht vun Invitatiounen déi op Akzeptanz waarden.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "Element Member Detailer",
       subtitle:
-        "dobäisetzen engem Nei Element Member a Set Element Permissiounen. Klickt op Element item Zu Element Liest/Schreift Zougang. Element Element Element Zu engem Element Level fir D'Domain Haaptsäit Buttek Iwwersiicht.",
+        "Füügt en neien Teammember derbäi a setzt hir Permissiounen un. Klickt op all Element fir de Lies- / Schreifzougang unzepassen. All Zeil entsprécht engem Erlaabnisniveau fir den Haaptgeschäft Dashboard.",
     },
     access: {
       view_data: "Vue Daten",
@@ -4213,7 +4213,7 @@ export default {
     notifications: {
       add_success: {
         title: "Member erfollegräich",
-        message: "D'Domain Element Member Element Element dobäigesat erfollegräich.",
+        message: "Den Teammember gouf erfollegräich bäigefüügt.",
       },
       update_success: {
         title: "Member erfollegräich",
@@ -4237,20 +4237,20 @@ export default {
     connect: {
       title: "Connect Element",
       subtitle:
-        "Element Offer Element 💳 Bezuelung Fäegkeeten fir D'Domain Element 💳 Bezuelung Gateways. Zu Empfang Paiementer Element No Element Kafen, wait Connect Äre Element Kont Element Element Optiounen.",
+        "Mir bidden gespléckt Bezuelméiglechkeeten fir déi folgend Bezuelpaarten. Fir nahtlos Bezuelungen no all Akaf ze kréien, verbënnt w.e.g. Äre Bankkonto mat dësen Optiounen.",
     },
     verify_dialog: {
       title: "Verifizéiert 💳 Bezuelung",
       option: {
         title: "Verkeefer Aktioun",
         subtitle:
-          "Dir Element D'Domain Optioun Zu Akzeptéieren oder Oflehnen dës Transfert. dës Aktioun Element Element engem Element Element Bezuelen. Element Confirméieren Element Dir Element Empfang D'Domain Element; Element net, Element nee Braucht Zu Element Element Aktioun.",
+          "Dir hutt d'Méiglechkeet dësen Transfert ze akzeptéieren oder ze refuséieren. Dës Aktioun déngt nëmmen als historesche Rekord. Bestätegt einfach ob Dir d'Fongen kritt hutt; wann net, do d'net néideg Aktioun ze huelen.",
       },
       inputs: {
         verify: {
           label: "Element Dir Confirméiert dës 💳 Bezuelung?",
           false_description:
-            "nee, Ech Element net nach Empfang dës 💳 Bezuelung Op Meng Element Kont.",
+            "Nee, ech hunn dës Bezuelung nach net op mengem Bankkonto kritt.",
           true_description: "jo, Ech Element Empfang a Verifizéiert dës 💳 Bezuelung.",
         },
       },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "Element 🛍️ Bestellen",
     subtitle:
-      "<b>Element! </b>Element dës Aktioun Element Element engem Element Transaktioun Op D'Domain Element Portemonnaie a Element D'Domain Element Betrag Vun et. D'Domain Betrag Element Element D'Domain Bleift Ganzen Transaktiounen fir D'Domain ausgewielt 🛍️ Bestellen. Element, Element Element Element Element Element Zu verbonnen Element Konten (Element Element mat Stripe Connect oder Element Element Transfert), Dir Element Schafen engem <b>Element Transfert</b>.",
+      "<b>Wichteg! </b>E Dës Aktioun auszeféieren wäert eng negativ Transaktioun am Portemonnaie vum Verkeefer generéieren an de gewielte Betrag dovun ofzéien. De Betrag kann net déi verbleiwen Gesamttransaktioune fir déi gewielte Bestellung iwwerschreiden. Zousätzlech, wann Fongen op verbonne Bankkonten transferéiert goufen (wéi mat Stripe Connect oder manueller Drottransfer), sollt Dir en <b>reversal Transfer</b> erstellen.",
     inputs: {
       note: {
-        message: "Element Element Zu D'Domain Verkeefer.",
-        placeholder: "Dir Element Element engem Notiz hei...",
+        message: "Et ass sichtbar fir de Verkeefer.",
+        placeholder: "Dir kënnt eng Notiz hei befestegt...",
       },
       amount: {
-        error_message: "D'Domain Bleift Betrag Element Element Element.",
+        error_message: "De Rescht Betrag ass iwwerschratt.",
       },
     },
   },
@@ -4278,7 +4278,7 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "dës Element e Iwwersiicht vu D'Domain Transaktiounen Op D'Domain Element Virtuell Portemonnaie op D'Domain Maartplaz. Element e 🛍️ Bestellen ass Element, D'Domain Element Element vu D'Domain Verkaf ass erfollegräich Zu Element Portemonnaie.",
+      "Dëst bitt en Iwwerbléck iwwer d'Transaktiounen am virtuelle Portemonnaie vum Verkeefer um Maart. Wann ëmmer eng Bestellung gemaach gëtt, gëtt den Undeel vum Verkeefer vum Verkaf un hire Portemonnaie bäigefüügt.",
     vendor_wallets: "Verkeefer Portemonnaien",
     my_wallets: "Meng Portemonnaie",
     refund_order_action: "Element 🛍️ Bestellen",
@@ -4310,8 +4310,8 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "Op dës Sektioun, Dir Element Vue D'Domain Element vu Evenementer Element Zu D'Domain 🛍️ Bestellen, Erfëllung, 💳 Bezuelung, a Element Element Element. Element, Dir Element Element D'Domain Bestellungen Element Zu Element Clienten a Verkeefer.",
-    add_note_subtitle: "Schreift engem Message... a Element Äre Element.",
+      "An dëser Rubrik kënnt Dir d'Timeline vun Eventer am Zesummenhang mat der Bestellung, Erfëllung, Bezuelung an hir jeeweileg Status kucken. Zousätzlech kënnt Dir d'Bestellunge beobachten, déi u Clienten a Verkeefer verschéckt ginn.",
+    add_note_subtitle: "Schreift e Message an ernimmt Är Kollegen.",
 
     message_input: "Schreift hei e Message...",
     pin_action: "Pin op erop",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Haaptsäit Profil",
       subtitle:
-        "änneren Äre Ëffentlech Profil Informatiounen hei. dës Informatiounen Element Element Element Zu Äre Clienten oder Aner Benotzer.",
+        "Ännert Är ëffentlech Profilinformatioun hei. Dës Informatioun kéint fir Är Clienten oder aner Benotzer sichtbar sinn.",
       full_name_input: "Ganzen numm",
       tel_input: "Kontakt Zuel",
       email_input: "E-Mail",
@@ -4863,12 +4863,12 @@ export default {
       description: "Läschen engem Buttek Vun D'Domain Element.",
     },
     "backoffice:giftcard:write": {
-      name: "Element Element Gestioun",
-      description: "Schafen a Verwalte Element Element.",
+      name: "Cadeau Kaart Management",
+      description: "Schafen a verwalten Cadeau Kaarte.",
     },
     "backoffice:giftcard:read": {
-      name: "Element Element Zougang",
-      description: "Liest Element Element Detailer a Statistiken.",
+      name: "Geschenkkaart Zougang",
+      description: "Liest Cadeau Kaart Detailer a Statistiken.",
     },
     "backoffice:faq:write": {
       name: "FAQ Gestioun",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Notiz Zougang",
-      description: "Liest Element a Element Detailer.",
+      description: "Liest Notizen a verbonne Detailer.",
     },
     "backoffice:note:write": {
       name: "Notiz Gestioun",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "Monetiséierungsprojeten Gestioun",
-      description: "Verwalte Monetiséierungsprojeten, Element Referenz Element.",
+      description: "Verwalte Monetariséierung, dorënner Referratiounsprogrammer.",
     },
     "selldone:identification": {
       name: "Element Zougang",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "Element",
-      description: "Element Ëmfang net Element Op D'Domain Element.",
+      description: "Verschidden Ëmfang net am System definéiert.",
     },
     vendor: {
       title: "Verkeefer",
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "Wielt engem Portemonnaie",
         subtitle:
-          "Wielt engem Virtuell Portemonnaie Zu benotzen fir Äre Abonnement. Element Dir Verpasst Element Element nach, Dir Element Schafen et Op D'Domain Portemonnaie Sektioun. dës Portemonnaie Element Element Benotzt fir Element Käschten.",
+          "Wielt e virtuelle Portemonnaie fir Ären Abonnement ze benotzen. Wann Dir nach keen hutt, kënnt Dir et an der Portemonnaie Sektioun erstellen. Dëse Portemonnaie gëtt fir all Käschten benotzt.",
       },
       auto_renewal: {
         true_title: "Auto Erneierung",
         true_description:
-          "Äre Abonnement Element Element Element Element Äre Portemonnaie Element Element Gläichgewiicht oder Element Dir Element engem Valabel Voucher.",
+          "Ären Abonnement gëtt automatesch erneiert wann Äre Portemonnaie genuch Gläichgewiicht huet oder wann Dir e gültege Bong hutt.",
       },
       options: {
         title: "Zousätzlech Optiounen",
@@ -5814,11 +5814,11 @@ export default {
     sku_name_input: "SKU / Numm",
     info: {
       subtitle:
-        "Zu Element D'Domain Produit, Dir Element Gitt Bezuelen D'Domain Essential Detailer Element fir Element Créatioun.",
+        "Fir de Produkt ze generéieren, kënnt Dir nëmmen déi wesentlech Detailer aginn, déi fir seng Kreatioun néideg sinn.",
     },
     price: {
       subtitle:
-        "Gitt D'Domain Präis a Remise fir dës Produit. Element D'Domain Produit ass erfollegräich, Element Element Zougang Zu Méi.. Optiounen.",
+        "Gitt de Präis an Remise fir dëse Produit. Wann de Produit bäigefüügt ass, hutt Dir Zougang zu méi Optiounen.",
     },
     by_sku: {
       title: "dobäisetzen no SKU",
@@ -5826,17 +5826,17 @@ export default {
     },
     drop_shipping: {
       subtitle:
-        "Fannt Produkter Op D'Domain Element Maartplaz a dobäisetzen Element Zu Äre Buttek.",
+        "Fannt Produkter am Grousshandel Maartplaz a füügt se an Äre Geschäft.",
     },
     by_connect: {
       subtitle:
-        "Element dobäisetzen Produkter Vun POD oder addéieren Element mat Sellone Connect OS—Nëmmen Connect Äre Buttek a Genéisst Element Produit Element, nee Element Element. Selldone",
+        "Füügt einfach Produkter vu POD oder Dropshipping Liwweranten mat Selldone Connect OS un - verbënnt just Äre Geschäft a genéisst automatesch Produktintegratioun, keng Plugins néideg.",
     },
     your_license_is_not_eligible: "Äre Lizenz ass net Usproch.",
     sku_dialog: {
       title: "dobäisetzen Produit no SKU",
       subtitle:
-        "Dir Element D'Domain Element Zu Element Produkter no Element SKU Op Element Element a dobäisetzen Element mat Nëmmen engem Eenzel Klickt.",
+        "Dir hutt d'Fäegkeet Produkter no hirem SKU an eiser Datebank ze lokaliséieren an se mat just engem eenzegen Klick derbäi.",
     },
     dropshipping_dialog: {
       title: "dobäisetzen addéieren Produkter",
@@ -5898,7 +5898,7 @@ export default {
     payment: {
       title: "💳 Bezuelung Informatiounen",
       subtitle:
-        "Set D'Domain Kommissioun Struktur fir D'Domain Affiliate. Dir Element Element Fest a Prozentsaz-baséiert Element, oder Set Element Element fir Element Produit.",
+        "Setzt d'Kommissiounsstruktur fir de Partner. Dir kënnt fix a Prozentsaz-baséiert Kommissiounen kombinéieren, oder spezifesch Kommissiounen fir all Produkt setzen.",
     },
 
     contact: {
@@ -5915,12 +5915,12 @@ export default {
     link_domain: {
       title: "verbonne Domain",
       subtitle:
-        "Link Element vu Äre Domain Zu dës Affiliate Partner. Visiteuren Element Kafen Element dës Domain Element Element Element Zu dës Affiliate.",
+        "Link ee vun Ären Domainen op dësen Partner Partner. Besucher, déi duerch dëst Domain kafen, ginn un dësem Partner zougeschriwwen.",
 
-      domain_not_approved_msg: "D'Domain Domain Element net Element Element nach!",
+      domain_not_approved_msg: "D'Domain ass nach net guttgeheescht ginn!",
       domain_is_not_enable_msg: "D'Domain Domain ass net aktivéiert!",
       domain_is_linked_to_other_affiliate_msg:
-        "dës Domain ass Element verbonne Zu Element Affiliate!",
+        "Dësen Domain ass scho mat engem anere Partner verlinkt!",
     },
 
     set_users_first_message: "wait Set D'Domain Benotzer éischte!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "Element",
       subtitle:
-        "Element dës Affiliate mat engem Element Zu Verwalte et Element Aner Ressourcen Op Element Element.",
+        "Associéiert dëse Partner mat engem Cluster fir et niewent anere Ressourcen op enger Plaz ze managen.",
       manage_action: "Verwalte",
     },
 
@@ -5945,24 +5945,24 @@ export default {
       commission: {
         label: "Kommissioun Berechnung",
         false_description:
-          "Berechent Element engem Element vu Fest a Prozentsaz Element.",
+          "Berechent mat enger Kombinatioun vu fixen a Prozentsaz Kommissiounen.",
         true_description:
-          "Berechent Element Produit-Element Element Set Op D'Domain Präisser Element.",
+          "Berechent mat Produktspezifesch Kommissiounen, déi am Präistab gesat ginn.",
         false_title: "Fest + Prozentsaz Kommissioun",
         true_title: "Produit-baséiert Kommissioun",
       },
       user: {
         label: "Benotzer ((Optional))",
-        message: "(Optional), Element.Element., Affiliate Numm Op Sellone Selldone",
+        message: "Optional, z.B. Partnernumm zu Selldone",
       },
       web: {
-        placeholder: "(Optional), Element.Element., Affiliate-Web.Element",
+        placeholder: "Optional, zB Affiliate-web.com",
       },
       address: {
-        placeholder: "(Optional), Element.Element., 1200 Element, NY, Element US",
+        placeholder: "Fakultativ, zB 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "(Optional), Element.Element., 001-808-210354",
+        placeholder: "fakultativ, zB 001-808-210354",
       },
       bank: {
         placeholder: "Optional, z.B. Arstra Bank, Nr: 10002-325-800-845213",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "Dir Element Element Element Element Element mat D'Domain Affiliate virun Element Element Vun Äre Buttek. Affiliate Informatiounen Element Element Element fir engem Limitéiert Zäit No Element.",
+        "Dir kënnt all aussergewéinlech Scholde mat der Partner ofleeën ier Dir se aus Ärem Geschäft läscht. Affiliate Informatioun bleift zougänglech fir eng limitéiert Zäit no der Läschung.",
     },
   },
 
@@ -6003,18 +6003,18 @@ export default {
   shop_valuations: {
     title: "Benotzerdefinéiert Präisser a Bewäertungen",
     subtitle:
-      "Element engem Bewäertung (engem Präisser Input Formular) Zu engem Produit, Element Clienten Zu Wielt Varianten oder Element Äre Element. D'Domain Element Element Element Berechent D'Domain Präis baséiert op D'Domain Benotzerdefinéiert Input.",
+      "Gitt eng Bewäertung (e Präisinputform) un e Produkt zou, wat Clienten erlaabt Varianten ze wielen oder Är Wueren ze personaliséieren. De System berechent dann de Präis baséiert op de personaliséierten Inputen.",
     add_valuation_action: "Schafen Nei Bewäertung Formular",
     empty_message:
       "Amplaz verschidde Varianten ze kreéieren, betruecht eng Bewäertungsstrategie z'entwéckelen déi op en einfacht Produkt applizéiert ka ginn.",
     delete_dialog: {
       title: "Element Ewechzehuelen",
       message:
-        "si Dir Element Dir Element Zu Läschen dës Präisser Formular? wait Element Element dës Benotzerdefinéiert Präisser Element ass geläscht Vun all Element Produkter éischte.",
+        "Sidd Dir sécher datt Dir dëse Präisformular läschen wëllt? Gitt sécher datt dës personaliséiert Präisstrategie fir d'éischt vun all assoziéierten Produkter geläscht gëtt.",
       action: "Jo, Elo läschen",
     },
     notifications: {
-      delete_success: "Bewäertung Element Element dobäigesat Geläscht.",
+      delete_success: "Bewäertung gouf erfollegräich geläscht.",
     },
   },
 
@@ -6033,26 +6033,26 @@ export default {
     title_add: "Schafen Nei Bewäertung Formular",
     config: {
       subtitle:
-        "Set Element engem Bewäertung Element Zu Schafen Element Präisser Element Element a Element Element fir Äre Produkter. Start no Element dës Bewäertung engem eenzegaarteg Numm.",
+        "Setzt e Bewäertungssystem op fir flexibel Präisser ze kreéieren mat Formelen a Referenztabellen fir Är Produkter. Fänkt un mat dëser Bewäertung en eenzegaartegen Numm ze ginn.",
     },
     valuation_preview: "Virschau Bewäertung Formular",
     load_sample: "Element Prouf",
     conditions: {
       title: "Konditiounen",
       subtitle:
-        "Element D'Domain Element fir Benotzerdefinéiert Varianten. dës Configuratioun Element D'Domain Gestioun vu Variant Disponibilitéit.",
+        "Definéiert d'Logik fir personaliséiert Varianten. Dës Konfiguratioun vereinfacht d'Gestioun vun der Variant Disponibilitéit.",
     },
     structure: {
       title: "Struktur",
       subtitle:
-        "Design Äre Präisser Input Formular hei no Element Element a Element Element.",
+        "Designt Är Präisinputform hei andeems Dir Formelen a Referenztabellen integréiert.",
       expand_action: "Element",
       collapse_action: "Element",
     },
     inputs: {
       title: {
         message: "dës Titel ass net Element Zu Clienten.",
-        placeholder: "Gitt engem Numm fir Präisser, Element.Element., 'Element Präisser",
+        placeholder: "Gitt en Numm fir d'Präisser un, z.B. 'Mugs Pricing'",
       },
     },
     samples: {
@@ -6167,14 +6167,14 @@ export default {
         edit: "Remise Code erfollegräich geännert.",
       },
       config: {
-        title: "Element Element",
+        title: "Allgemeng Config",
         subtitle:
-          "D'Domain Element vu D'Domain Element Code Berechnung ass: Max (Limitéieren, Prozent * Cart Präis). Element Zu Geld D'Domain Coden Element a Element Zu Element.",
+          "D'Formel vun der Remise Code Berechnung ass: Max (LIMIT, PROCENT * Weenchen Präis). Denkt drun d'Coden relevant ze maachen an einfach ze erënneren.",
       },
       limit: {
         title: "Element",
         subtitle:
-          "Dir Element Element D'Domain Maximum Element Limitéieren fir Element Element Code, Element Gutt Element D'Domain Maximum Remise Betrag, Op dës Sektioun.",
+          "Dir kënnt déi maximal Benotzungsgrenz fir all Remisecode definéieren, souwéi de maximale Remisebetrag, an dëser Rubrik.",
       },
       duration: {
         title: "Dauer Limitéieren",
@@ -6183,11 +6183,11 @@ export default {
       },
       design: {
         subtitle:
-          "Dir Element Set engem Titel a Beschreiwung fir Element Element Code. Element Detailer Element Element Element Zu D'Domain Benotzer.",
+          "Dir kënnt en Titel a Beschreiwung fir all Remise Code astellen. Dës Detailer ginn dem Benotzer ugewisen.",
       },
       cluster: {
         subtitle:
-          "no Element dës Element Code mat engem Element, Dir Element Element Verwalte et Element Aner Ressourcen Op engem Eenzel Location.",
+          "Andeems Dir dëse Rabattcode mat engem Stärekoup assoziéiert, kënnt Dir et einfach zesumme mat anere Ressourcen op enger eenzeger Plaz verwalten.",
       },
     },
     delete_alert: {
@@ -6320,20 +6320,20 @@ export default {
     },
     limit: {
       subtitle:
-        "Op dës Sektioun, Element Element Zu Set Element D'Domain Maximum Zuel vu benotzt pro Coupon a D'Domain Element Remise Betrag Element Coupon Element Element.",
+        "An dëser Sektioun kënnt Dir souwuel d'maximal Unzuel u Gebrauch pro Coupon an den héchste Remisebetrag setzen, deen all Coupon ubitt.",
       zero_message: "Element: Et ass nee Limitéieren!",
     },
     duration: {
       subtitle:
-        "Element Dir Element Zu Set engem Element Element fir engem Coupon Zu Element Aktiv, Dir Element Konfiguréieren D'Domain Dauer Op dës Sektioun.",
+        "Wann Dir wëllt e spezifeschen Zäitframe fir e Coupon aktiv ze setzen, kënnt Dir d'Dauer an dëser Rubrik konfiguréieren.",
     },
     design: {
       subtitle:
-        "Element Coupon Element fir D'Domain Element vu engem Titel a Beschreiwung. Element Detailer Element Element Element Zu D'Domain Client.",
+        "All Coupon erlaabt der Zousätzlech vun engem Titel a Beschreiwung. Dës Detailer ginn dem Client siichtbar.",
     },
     constraints: {
       subtitle:
-        "hei, Dir Element D'Domain Element Zu Element Zousätzlech Personaliséiert Element fir D'Domain Coupon.",
+        "Hei hutt Dir d'Fäegkeet fir zousätzlech personaliséiert Parameteren fir de Coupon ze etabléieren.",
       no_limit: "nee Extra Begrenzung",
       has_limit: "Extra Element",
       has_code_message: "Benotzer Element Gitt D'Domain Code Zu dobäisetzen Coupon.",
@@ -6344,7 +6344,7 @@ export default {
     },
     cluster: {
       subtitle:
-        "no Element dës Coupon mat engem Element, Dir Element Element Verwalte et Element Aner Ressourcen Op engem Eenzel Location.",
+        "Andeems Dir dëse Coupon mat engem Cluster assoziéiert, kënnt Dir et einfach zesumme mat anere Ressourcen op enger eenzeger Plaz verwalten.",
     },
     preview: {
       subtitle: "Element D'Domain Ëffentlech Virschau vu D'Domain Coupon.",
@@ -6355,7 +6355,7 @@ export default {
   offers: {
     title: "Offeren",
     sub_title:
-      "Dir kënnt speziell Offere fir Är Clienten erstellen, sou datt se, nodeems Dir en Artikel kaaft hutt, en aneren Artikel mat Remise oder souguer gratis kréien.",
+      "Dir kënnt speziell Offere fir Är Clienten erstellen, sou datt se, nodeems Dir en Artikel kaaft hutt, en aneren Artikel mat Rabatt oder souguer gratis kréien.",
     create_new: "Füügt nei Offer",
     qualified_products: "Usproch Produkter",
     min_quantity: "Minimum Quantitéit",
@@ -6429,20 +6429,20 @@ export default {
     },
     duration: {
       subtitle:
-        "Element Dir Element Zu Set engem Element Element fir e Offer, Dir Element Konfiguréieren D'Domain Dauer hei.",
+        "Wann Dir e spezifeschen Zäitframe fir eng Offer wëllt setzen, kënnt Dir d'Dauer hei konfiguréieren.",
     },
     constraints: {
       subtitle:
-        "Set D'Domain Element Element a Konditiounen fir D'Domain Offer hei. D'Domain Offer Element Zu Cart Artikelen Element Element Element Konditiounen.",
+        "Setzt d'Qualifikatiounskriterien a Konditioune fir d'Offer hei. D'Offer gëlt fir Wuerenartikelen déi dëse Konditioune erfëllen.",
     },
     discounted_products: {
       title: "Element Produkter",
       subtitle:
-        "Dir Element Element D'Domain Produkter Zu Element dës Offer Element Filter engem Remise.",
+        "Dir kënnt d'Produkter spezifizéieren, op déi dës Offer eng Remise gëlt.",
     },
     cluster: {
       subtitle:
-        "no Element dës Offer mat engem Element, Dir Element Element Verwalte et Element Aner Ressourcen Op engem Eenzel Location.",
+        "Andeems Dir dës Offer mat engem Cluster assoziéiert, kënnt Dir et einfach zesumme mat anere Ressourcen op enger eenzeger Plaz verwalten.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "Affiliate - Iwwersiicht - Link",
       subtitle:
-        "Element engem eenzegaarteg Link fir Äre Affiliate Partner Zu Streck Verkaf a Element. dobäisetzen Referenz Coden '{code}' Zu Element Link oder Element engem Benotzerdefinéiert Element Domain fir Äre Affiliate. et Element Element Element no D'Domain Element fir 48Element.",
+        "Generéiert en eenzegaartege Link fir Ären Partner fir Verkaf a Kommissiounen ze verfolgen. Füügt Referralcoden '{code}' op all Link oder gitt e personaliséierten dedizéierten Domain fir Är Partner zou. Et gëtt vum System fir 48h verfollegt.",
     },
     fix_commission: "Fixe Kommissioun",
     percent_commission: "Prozentsaz-baséiert Kommissioun",
@@ -6553,7 +6553,7 @@ export default {
     sub_title:
       "Är Clienten kënnen Spill spillen a gewannen. Clienten vun Ärem Geschäft mussen 10 Chips fir all Spill konsuméieren. Zum Beispill, wann Dir wëllt datt Är Clienten eng Chance hunn 1000 USD ze gewannen, musst Dir de Montant vun all Chippräis op 100 USD setzen. E Wäert vun 0 fir all Chip heescht, datt de Keefer engem Chip fir all Akaf kritt.",
     manually_send_chip: "Wëllt Dir Chips manuell un d'Benotzer schécken?",
-    manual_send_token_action: "Element Element",
+    manual_send_token_action: "Manuell Tokens",
     lottery_enable: "Ass Lotterie aktivéiert?",
     chip_price_input: "Chip Präis",
     zero_chip_message: "Gitt 1x Chip pro Bestellung",
@@ -6614,19 +6614,19 @@ export default {
     },
     config: {
       subtitle:
-        "hei, Dir Element Schafen Äre Element Lotterie Präisser. Set D'Domain Titel, Beschreiwung, Faarf, a Bild fir Element Präis.",
+        "Hei kënnt Dir Äre Buttek Lotterie Präisser erstellen. Set den Titel, Beschreiwung, Faarf an Bild fir all Präis.",
     },
     design: {
       subtitle:
         "hei, Dir Element D'Domain Optioun Zu Wielt e Bild a Faarf fir D'Domain Präis.",
     },
     constraints: {
-      subtitle: "Element D'Domain Element a Element fir Gewënn dës Präis.",
+      subtitle: "Gitt d'Critèren an d'Aschränkungen un fir dëse Präis ze gewannen.",
     },
     prize: {
       title: "Präis",
       subtitle:
-        "Set Element D'Domain Präis Detailer hei. Optiounen Element Element Coden, Element Element, Element, a Aner Remise Element Lotterie Element.",
+        "Ariichten d'Präisdetailer hei. Optiounen enthalen Remise Coden, Kaddoskaarten, Kreditter, an aner Remise als Lotterie Belounungen.",
     },
     product_input: {
       label: "Produit Präis",
@@ -6900,13 +6900,13 @@ export default {
   barcode_scanner: {
     wifi_pass: "Äert Wi-Fi Passwuert",
     message: "Gitt Äert WiFi Router Passwuert a scannt den QR Code.",
-    wifi_ssid: "Element-Element Element ID",
+    wifi_ssid: "Wi-Fi SSID",
     ssid_message: "Gitt Ären Wi-Fi Netzwierknumm (SSID) an.",
   },
 
   /** {@see PosDeviceTypes**/
   pos_devices: {
-    Scanner: "Element Element",
+    Scanner: "Barcode Scanner",
     Scanner_desc:
       "Fir de Barcode Scanner ze benotzen, musst Dir de Produkt SKU Code korrekt an de Produktastellungen aginn.",
     Printer: "Dréckerspäicher",
@@ -7041,15 +7041,15 @@ export default {
     vendor: {
       title: "Import Verkeefer",
       subtitle:
-        "eroplueden Verkeefer CSV Dateien hei. Element D'Domain Element ass richteg a Element Zu Privatsphär Element.",
+        "Eroplueden Verkeefer CSV Dateien hei. Vergewëssert Iech datt d'Format korrekt ass an un d'Privatsphärreglementer hält.",
       checklist: {
-        title: "Element Element",
-        subtitle: "Element Element Zu Element D'Domain Element.",
+        title: "Wichteg Checkliste",
+        subtitle: "Gitt sécher d'Richtlinnen ze verfollegen.",
         sample_files: "Prouf Dateien",
         valid_vendor_name_needed:
-          "Dir Element Element engem <b>Valabel Numm</b>. D'Domain <b>Numm</b> ass Benotzt Zu Element Element Zu <i>Schafen</i> engem Nei Verkeefer oder <i>aktualiséieren</i> e Element Element.",
+          "Dir musst e <b> gëlteg Numm</b> ubidden. Den <b>name</b> gëtt benotzt fir ze bestëmmen ob <i>Create</i> en neie Verkeefer oder <i>Update</i> en existéierende.",
         assign_user_after_import:
-          "No Element Verkeefer, Dir Element confirméiert Element engem Benotzer Zu Element Element Zougang Zu D'Domain Verkeefer Element.",
+          "Nodeems Dir Verkeefer importéiert hutt, kënnt Dir e Benotzer manuell zouginn fir hinnen Zougang zum Verkeefer Panel ze ginn.",
       },
       need_kyc_alert:
         "Dir Braucht Zu Verifizéiert Äre Perséinlech Informatiounen virun Element Verkeefer.",
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "Verkeefer Produkter",
     subtitle:
-      "dës Element Element all Produkter Offere no Verkeefer. Op D'Domain Maartplaz, engem Produit Element Element verbonne Zu Element oder Méi.. Verkeefer. Element Verkeefer Element mat engem Produit Element engem eenzegaarteg Entrée Element Enthält Inventar a Präisser Detailer Element Zu Element Verkeefer.",
+      "Dëse Katalog listet all Produkter vun Ubidder ugebueden. Op der Maartplaz kann e Produkt mat engem oder méi Ubidder verbonne sinn. All Verkeefer ass mat engem Produkt assoziéiert huet eng eenzegaarteg Entrée déi Inventar a Präisdetailer spezifesch fir dee Verkeefer enthält.",
     filter_vendor: {
       placeholder: "Filter no Verkeefer...",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "oppen Verkeefer Element",
     title: "Verkeefer Ufro Lëscht",
     subtitle:
-      "dës ass engem Lëscht vu Ufroen Vun Element Element Element Element Zu Element Verkeefer Op Äre Maartplaz.",
+      "Dëst ass eng Lëscht vun Ufroe vun Individuen déi ugemellt hunn fir Ubidder op Ärem Maartplaz ze ginn.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7098,16 +7098,16 @@ export default {
     access: {
       title: "Verkeefer Zougang",
       subtitle:
-        "Element e Element, Dir Kontroll D'Domain Level vu Zougang Verkeefer Element Zu D'Domain Produit Iwwersiicht. Element Element Zougang Astellungen Zu Element Verkeefer Zu dobäisetzen Element Element Produkter a Kategorien oder Element dës Zougang Zu Element Bezuelen.",
+        "Als Administrator kontrolléiert Dir den Niveau vun den Zouganksverkeefer op de Produktdashboard. Ajustéieren global Zougang Astellunge fir Verkeefer ze erlaben hir eege Produkter a Kategorien derbäi oder dësen Zougang nëmmen op Administrateuren beschränken.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Aktivéieren Liwwerung fir Verkeefer Op D'Domain Buttek > Logistesch Element fir Element Method Element.",
+      "Aktivéiert d'Verschécken fir Ubidder am Shop> Logistesch Tab fir all Method individuell.",
     transportation_available_tooltip: "dës Optioun ass Verfügbar fir Verkeefer.",
     transportation_not_available_tooltip:
-      "net Verfügbar fir Verkeefer! Dir Element Aktivéieren et Op D'Domain Element Astellungen.",
+      "Net verfügbar fir Ubidder! Dir kënnt et an den Transport Astellungen aktivéieren.",
     panel: {
       title: "Verkeefer Element",
-      subtitle: "Element Äre Verkeefer Element Äre Benotzerdefinéiert Domain.",
+      subtitle: "Onboard Är Ubidder duerch Är personaliséiert Domain.",
     },
     documents: {
       title: "Element",
@@ -7118,53 +7118,53 @@ export default {
     inputs: {
       enable: {
         false_description:
-          "D'Domain Maartplaz ass Element OFF, Element all Maartplaz Element.",
+          "De Maartplaz ass ausgeschalt, all Maartplazfunktionalitéiten auszeschalten.",
         true_description:
-          "D'Domain Maartplaz ass Aktiv, Element all Maartplaz Element.",
+          "D'Maartplaz ass aktiv, erlaabt all Maartplaz Funktionalitéiten.",
       },
       product: {
         label: "dobäisetzen Nei Produit",
         true_title: "Verkeefer Element dobäisetzen Produkter",
         false_description:
-          "Dir dobäisetzen Produkter a Element Verkeefer. Verkeefer Element Bezuelen Verwalte Präis a Inventar.",
+          "Dir füügt Produkter un a gitt Ubidder un. Verkeefer kënnen nëmme Präis an Inventar verwalten.",
         true_description:
           "Verkeefer kënnen hir eege Produkter direkt an hirem Verkeefer Panel addéieren a verwalten.",
       },
       need_verify: {
         label: "Produit Verifikatioun Flux",
-        false_description: "Nei Verkeefer Produkter Element live Element.",
+        false_description: "Nei Verkeefer Produkter ginn direkt live.",
         false_title: "nee Verifikatioun Element",
         true_description:
-          "Verkeefer Nei Produkter Element Genehmegung virun Element live op D'Domain Maartplaz.",
+          "Nei Produkter vun de Verkeefer erfuerderen d'Zustimmung ier se live op de Maartplaz ginn.",
         true_title: "Verifikatioun Element",
       },
       category: {
         label: "dobäisetzen Nei Kategorie",
         true_title: "Verkeefer Element dobäisetzen Kategorien",
         false_description:
-          "Dir dobäisetzen Kategorien. Verkeefer Element Bezuelen dobäisetzen Produkter Zu Element Kategorien.",
+          "Dir füügt Kategorien un. Verkeefer kënnen nëmme Produkter zu existéierende Kategorien derbäisetzen.",
         true_description:
-          "Verkeefer Element dobäisetzen a Verwalte Kategorien Element Op Element Verkeefer Element.",
+          "Ubidder kënnen Kategorien direkt an hirem Vendor Panel addéieren a verwalten.",
       },
       shipping: {
         label: "Liwwerung Optiounen",
         true_title: "Verkeefer Element Liwwerung Optiounen",
         false_description:
-          "Verkeefer Element dobäisetzen oder Element Element Liwwerung Methoden.",
+          "Verkeefer kënnen hir Versandmethoden net addéieren oder personaliséieren.",
         true_description:
-          "Verkeefer Element Set Element Element Element Liwwerung Methoden, dobäisetzen Courrier, a Element Liwwerung fir Element Besoinen.",
+          "Ubidder kënnen hir eege Versandmethoden opstellen, Courrieren derbäisetzen an d'Verschécken fir hir Bedierfnesser personaliséieren.",
       },
       hidden_customer: {
         label: "weisen Keefer Kontakt Informatiounen",
         true_description: "Keefer Kontakt Detailer si Element Vun Verkeefer.",
         false_description:
-          "Keefer Kontakt Detailer, Element Element vum a E-Mail, si Element Zu Verkeefer.",
+          "Keefer Kontaktdetailer, wéi Telefon an E-Mail, si fir Verkeefer siichtbar.",
       },
       multi: {
         false_description:
           "E Benotzer kann nëmmen ee Verkeefer Kont hunn. D'Benotzer ginn op hir Panel op / Vendors ëmgeleet.",
         true_description:
-          "engem Benotzer Element Element Multiple Verkeefer Konten. dës ass engem Beta Feature; wait Kontakt eis virun Element et.",
+          "E Benotzer ka verschidde Verkeeferkonten hunn. Dëst ass eng Beta Feature; w.e.g. kontaktéiert eis ier Dir se benotzt.",
         true_title: "Element-Verkeefer Modus",
         false_title: "Eenzel Verkeefer Modus (Standard)",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "Lëschtung ass aktivéiert fir Verkeefer. Verkeefer Element Verwalte Lëschtung Artikelen a Firmen.",
         false_description: "Lëschtung ass behënnert fir Verkeefer. Bezuelen D'Domain Buttek Besëtzer Element Verwalte Lëschtung Artikelen a Firmen.",
         requires_listing_active_text:
-          "Zu Element Verkeefer benotzen Lëschtung (Artikelen + Firmen), éischte Aktivéieren D'Domain Buttek Lëschtung Feature Op Kanal → Lëschtung. Element Element Zréck hei Zu Element Verkeefer Zougang.",
+          "Fir Ubidder Listing (Artikelen + Firmen) ze benotzen, aktivéiert als éischt d'Geschäft Listing Feature am Channel → Listing. Da komm zréck hei fir Verkeefer Zougang ze erlaben.",
         requires_listing_active_button: "oppen Kanal Lëschtung Astellungen",
       },
 
@@ -7185,7 +7185,7 @@ export default {
       update_success: "Verkeefer Astellungen erfollegräich dobäigesat.",
     },
     add_document_dialog: {
-      title: "Element Element",
+      title: "Dokument Ufuerderunge",
       type: {
         title: "Element Typ",
         subtitle:
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Element Code",
-          placeholder: "Element D'Domain Element Code hei...",
-          message: "Element Element kopéieren Code. HTML",
+          placeholder: "Paste den Embed Code hei...",
+          message: "Kann HTML Code enthalen.",
         },
         url: {
           label: "URL",
-          message: "Gitt D'Domain URL fir D'Domain Element oder Element hei...",
+          message: "Gitt d'URL fir d'Dokument oder Kontrakt hei...",
         },
       },
     },
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "Element Modus",
       description:
-        "Op dës Modus, all Bestellungen si Geschéckt Zu Äre Warehouse éischte a Element Geschéckt Zu Clienten Vun engem Element Location. Verkeefer Element Schécken Element Artikelen Zu Äre Warehouse, Element D'Domain Liwwerung Adress fir Verkeefer Element Element Äre Warehouse Adress.",
+        "An dësem Modus ginn all Bestellungen als éischt an Äert Lager geschéckt an dann un d'Clientë vun enger zentraler Plaz geschéckt. Verkeefer schécken hir Artikelen an Äert Lager, sou datt d'Versandadress fir Verkeefer Är Lageradress ass.",
     },
     Direct: {
       title: "Element Liwwerung Vun Verkeefer",
       description:
-        "Op dës Modus, Verkeefer Element Bestellungen Element Zu Clienten. D'Domain Liwwerung Adress fir Verkeefer Bestellungen Element Element D'Domain Element Adress.",
+        "An dësem Modus schécken Ubidder Bestellungen direkt un d'Clienten. D'Versandadress fir Ubidderbestellunge wäert d'Adress vum Keefer sinn.",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Besëtzer Element Element",
+      title: "Besëtzer Identifikatioun Dokument",
       description:
-        "eroplueden engem Element-erausginn ID Zu Verifizéiert D'Domain KYC vu D'Domain Affär Besëtzer oder Schlëssel Element.",
+        "Eroplueden eng Regierung-erausginn ID fir d'Identitéit vum Geschäftsbesëtzer oder Schlësselexekutiv z'iwwerpréiwen.",
     },
     Business: {
       title: "Affär Element",
       description:
-        "Element Essential Affär Element Element Element Element oder Aschreiwung Element Zu Confirméieren D'Domain Element Status vu Äre Affär.",
+        "Gitt wesentlech Geschäftsdokumenter wéi Lizenzen oder Aschreiwungszertifikater fir de legale Status vun Ärem Geschäft ze bestätegen.",
     },
     Address: {
       title: "Adress Verifikatioun",
       description:
-        "Nei engem Element Zu Verifizéiert Äre Affär Adress, Element Element engem Element Rechnung, Steier Rechnung, oder Element Element.",
+        "Gitt en Dokument of fir Är Geschäftsadress z'iwwerpréiwen, sou wéi eng Utility Rechnung, Steierrechnung oder Leasingvertrag.",
     },
     Contract: {
       title: "Kontrakter & Element",
       description:
-        "eroplueden Kontrakter oder Element Element Element D'Domain Konditioune a Konditiounen vu Äre Affär Element.",
+        "Eroplueden Kontrakter oder Ofkommes déi d'Konditioune vun Äre Geschäftsverhältnisser detailléiert.",
     },
     Copyright: {
-      title: "Element Element",
+      title: "Copyright Dokumentatioun",
       description:
         "Gitt Copyright Aschreiwungsdokumenter fir Är intellektuell Propriétéitsrechter ze bestätegen.",
     },
     Privacy: {
       title: "Privatsphär Politik Element",
       description:
-        "Element Äre Privatsphär Politik Element Zu Element Äre Element Zu Element Benotzer a Client Informatiounen.",
+        "Gitt Är Privatsphär Politik Dokumenter fir Äert Engagement fir d'Benotzer- a Clientinformatioun ze schützen.",
     },
     Embed: {
       title: "Element Formular",
       description:
-        "Komplett D'Domain Element Formular Zu Element D'Domain Element Informatiounen.",
+        "Fëllt den embedded Form aus fir déi erfuerderlech Informatioun ze liwweren.",
     },
     Link: {
       title: "extern Link",
       description:
-        "Element D'Domain extern Link Zu Element D'Domain Element Informatiounen.",
+        "Follegt den externen Link fir déi néideg Informatioun ze liwweren.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Verkeefer Portemonnaien",
     subtitle:
-      "nee Braucht Zu confirméiert dobäisetzen Portemonnaien! Verkeefer Portemonnaien si erstallt Element. Element Dir Aktivéieren engem 💳 Bezuelung Method Element Element Element Element (Wéi Stripe Connect), D'Domain Element Element Element Element Paiementer Zu D'Domain verbonnen Verkeefer Konten. Element dës Feature ass net aktivéiert, Element Braucht Zu confirméiert Bezuelen Verkeefer, a Dir Element Check D'Domain Element Element Zu Element Op D'Domain Portemonnaie Lëscht.",
+      "Kee Grond fir manuell Portemonnaien ze addéieren! Verkeefer Portemonnaie ginn automatesch erstallt. Wann Dir eng Bezuelmethod aktivéiert déi gespléckt Ausbezuelungen ënnerstëtzt (wéi Stripe Connect), verdeelt de System automatesch d'Bezuelungen op d'Konten vun de verbonne Verkeefer. Wann dës Fonktioun net ageschalt ass, musst Dir Ubidder manuell bezuelen, an Dir kënnt d'Quantitéiten, déi hinnen an der Portemonnaie Lëscht schëlleg sinn, kontrolléieren.",
     filter_vendor: {
       placeholder: "Filter no Verkeefer...",
     },
@@ -7307,11 +7307,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "dës Sektioun Element engem Element Lëscht vu all Transaktiounen fir D'Domain ausgewielt Portemonnaie. engem Charge Transaktioun ass Element wann engem Client dobäigesat Element fir e 🛍️ Bestellen. Element e 🛍️ Bestellen ass annuléiert oder Element Element, D'Domain Element Element Transaktioun Element Element Element Element hei.",
+      "Dës Sektioun gëtt eng detailléiert Lëscht vun all Transaktiounen fir de ausgewielt Portemonnaie. Eng Chargetransaktioun gëtt opgeholl wann e Client erfollegräich fir eng Bestellung bezilt. Wann eng Bestellung annuléiert oder deelweis rembourséiert gëtt, gëtt déi entspriechend Remboursementtransaktioun och hei opgeholl.",
     vendor_bank: "Verkeefer Element",
     order_fee: "🛍️ Bestellen Fee",
     order_refund: "🛍️ Bestellen Element",
-    reverse_fund: "Element Element",
+    reverse_fund: "Fonds Réckgang",
     payout: "Element",
   },
 
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "Element Geschicht",
     subtitle:
-      "dës Feature Element Comptabilitéit fir Dir a Äre Verkeefer no Element engem Element Element vu all Transaktiounen. Paiementer Element Element Element confirméiert Element Element Element oder Aner Methoden, oder Element Element no 💳 Bezuelung Ubidder Element Ënnerstëtzung Element Paiementer, Wéi Stripe.",
+      "Dës Fonktioun streamlines Comptablesmethod fir Iech an Är Verkeefer vun engem detailléierte Rekord vun all Transaktiounen hält. Bezuelungen kënnen manuell duerch Bankiwwerweisungen oder aner Methoden veraarbecht ginn, oder automatesch vun Bezuelen Ubidder geréiert ginn, déi gespléckt Bezuelungen ënnerstëtzen, wéi Stripe.",
     top_up_vendor_action: "erop Element Verkeefer Kont",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "Präisser Pläng",
     subtitle:
-      "Set Element Präisser Element fir Äre Maartplaz, Wéi engem 5% Element Element fir Digital Produkter. dës Element Präisser Gestioun Element a Méi.. Element.",
+      "Setzt Präismodeller fir Äre Maartplaz op, wéi eng 5% Margingebühr fir digital Produkter. Dëst mécht Präismanagement méi séier a méi effizient.",
     add_pricing_action: "dobäisetzen Präisser Plang",
   },
 
@@ -7341,15 +7341,15 @@ export default {
   vendor_pricing_add: {
     title: "Maartplaz Präisser Model",
     subtitle:
-      "wann Dir Element engem Präisser Model Zu Verkeefer Produkter, D'Domain Präis Element Element Element Element Element Verkeefer Präis * (1 + Kommissioun%).",
+      "Wann Dir e Präismodell fir Verkeefer Produkter zougewisen, gëtt de Präis automatesch als Verkeefer Präis berechent * (1 + Kommissioun%).",
     delete: {
       subtitle:
-        "Element engem Präisser Model Element Element all Verkeefer Produkter verbonne Zu et. virun Element engem Präisser Model, Geld Element Zu aktualiséieren all Verkeefer Produkter Element et a Element Element engem Element Präisser Model.",
+        "D'Läsche vun engem Präismodell beaflosst all Verkeeferprodukter, déi domat verbonne sinn. Ier Dir e Präismodell ewechhuelt, gitt sécher datt Dir all Verkeeferprodukter aktualiséieren, déi et benotzen an hinnen en anere Präismodell zouweisen.",
       remove_pricing_action: "Ewechzehuelen Präisser Model",
     },
     inputs: {
       title: {
-        placeholder: "Element.Element., Digital Produkter Element...",
+        placeholder: "z.B. Digital Products Class...",
       },
       description: {
         placeholder: "Dir Element dobäisetzen engem Notiz hei...",
@@ -7373,21 +7373,21 @@ export default {
     vendor_wallet: "Verkeefer Portemonnaie",
     vendor_bank_account: "Verkeefer Element Kont",
     with_balance_tooltip:
-      "wann Dir Connect Element Servicer Wéi Stripe Connect, Element Element a Element D'Domain Verfügbar Gläichgewiicht Op Äre Stripe Kont fir Element.",
+      "Wann Dir Ausbezuelungsservicer wéi Stripe Connect verbënnt, recuperéieren a weisen mir de verfügbare Gläichgewiicht an Ärem Stripe Kont fir Referenz.",
     with_balance: "mat Gläichgewiicht",
     without_balance: "Element Gläichgewiicht - Schnell Modus",
     bank_transfer: {
       title: "Element Transfert",
       subtitle:
-        "dës ass engem Element vu 💳 Bezuelung Geschicht. nee Element verdéngen Element Element Element Zu D'Domain Verkeefer no D'Domain Element; Dir Element confirméiert Bezuelen Äre Verkeefer.",
+        "Dëst ass e Rekord vun der Bezuelungsgeschicht. Keng aktuell Suen gëtt vum System un de Verkeefer transferéiert; Dir musst Är Verkeefer manuell bezuelen.",
     },
     vendor_bank: "Verkeefer Element",
     gateway_in_debug_mode_warning:
-      "Element D'Domain 💳 Bezuelung Paart ass Element Op Element Modus, Element Element net Element Element Zu engem Immobilien Kont.",
+      "Zënter datt de Bezuelungspaart de Moment am Debugmodus ass, ginn d'Fongen net op e richtege Kont transferéiert.",
     payment: {
       title: "Bezuelen",
       subtitle:
-        "Wielt D'Domain Währung a Gitt D'Domain Betrag Dir Element Zu Transfert Zu D'Domain Verkeefer. Element Dir Gitt engem Element Betrag, D'Domain Element Element Element Element Vun D'Domain Element Portemonnaie. fir verbonnen Konten mat Element Optiounen, D'Domain Element Element Element Element Vun D'Domain verbonnen Kont, Element Element D'Domain Element Stripe Kont.",
+        "Wielt d'Währung a gitt de Betrag deen Dir un de Verkeefer transferéiere wëllt. Wann Dir en negativen Betrag gitt, ginn d'Fongen aus dem Portemonnaie vum Verkeefer zréckgezunn. Fir verbonne Konte mat Ausbezuelungsoptiounen, ginn d'Fongen vum verbonne Kont ofgesat, sou wéi de Stripe Kont vum Verkeefer.",
     },
     history: {
       title: "Geschicht",
@@ -7397,7 +7397,7 @@ export default {
     refund: {
       title: "Element",
       subtitle:
-        "D'Domain Element Betrag Element Element Element Vun D'Domain Element Gläichgewiicht. all Paiementer (oder Bleift Element) Op D'Domain Element Kont (Wéi Stripe Connect) Element Element Element Element engem Element Transfert.",
+        "De rembourséierte Betrag gëtt vum Saldo vum Verkeefer ofgezunn. All Bezuelungen (oder verbleiwen Betrag) op de Kont vum Verkeefer (wéi Stripe Connect) ginn duerch e Reversal Transfert rembourséiert.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "Dir Element dobäisetzen engem Notiz hei... dës Notiz ass net Element Zu D'Domain Verkeefer.",
+          "Dir kënnt hei eng Notiz derbäisetzen... Dës Notiz ass dem Verkeefer net sichtbar.",
       },
       accept_refund: {
         true_description: "Ech Element Zu Ofbriechen dës 💳 Bezuelung.",
@@ -7414,9 +7414,9 @@ export default {
     },
     notifications: {
       reverse_fund_success: {
-        title: "Element Element",
+        title: "Fonds ëmgedréint",
         message:
-          "D'Domain Element Element Element Element Element Ofgeschloss dobäigesat, mat verdéngen Element Vun D'Domain Element Zu D'Domain Portemonnaie a erfollegräich Zu D'Domain Portemonnaie Gläichgewiicht.",
+          "D'Verkeefer Fonds ëmgedréint gouf erfollegräich ofgeschloss, mat Suen vun der Bank op de Portemonnaie transferéiert an der Portemonnaie Gläichgewiicht dobäi.",
       },
       payout_success: {
         title: "Element",
@@ -7431,7 +7431,7 @@ export default {
    */
   quota_importer: {
     quota: "Element",
-    max_batch_msg: "Maximum Zuel vu Artikelen Dir Element Import Op engem Eenzel Element.",
+    max_batch_msg: "Maximal Unzuel vun Artikelen déi Dir an enger eenzeger Batch importéiere kënnt.",
     max_daily_limit_msg: "Maximum Zuel vu Artikelen Dir Element Import Op engem 30.",
     extra_daily_limit_msg: "Zousätzlech Artikelen erlaabt Element D'Domain Deeglech Limitéieren.",
     add_items_today_msg: "Artikelen erfollegräich Haut.",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Thema Faarwen",
     theme_colors_description:
-      "Dir Element Element D'Domain Primär Faarf Element vu Äre Buttek hei. Element Schabloun Element Element Element Faarwen Zu Element Element engem Komplett Faarf Range Element Element mat Äre Mark.",
+      "Dir kënnt déi primär Faarfpalette vun Ärem Geschäft hei personaliséieren. All Schabloun kann dës Faarwen benotzen fir automatesch eng komplett Faarfpalette ze generéieren déi mat Ärer Mark ausgeriicht ass.",
     products_view_mode: "Akaafslëscht Vue",
     products_view_mode_desc:
       "Dir kënnt den Displaymodus vun de Produkter an Ärem Geschäft op Basis vun der Écrangréisst upassen. Dëse Modus gëtt als Standard ugesinn a gëtt net ugewannt wann de Benotzer den Displaymodus ännert.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "Element Titel",
-      subtitle: "D'Domain Héicht vu D'Domain Titel Element Element Element.",
+      subtitle: "D'Héicht vum Titel gëtt dynamesch ugepasst.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "mat Element",
         false_description:
-          "Kategorien a Produkter Element e Element Animatioun Zu weisen D'Domain Funktionalitéit.",
+          "Kategorien a Produkter hunn eng interaktiv Animatioun fir d'Funktionalitéit ze weisen.",
         true_title: "Statesch",
         true_description: "Kategorien a Produkter Element nee Animatioun.",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "Quick Aktiounen",
       hover: {
         false_description:
-          "Einfach a Element Modus Element Element Extra Aktiounen op Produit Kaarten.",
+          "Einfach a minimal Modus ouni extra Aktiounen op Produktkaarten.",
         true_description:
-          "weisen Quick Kafen & dobäisetzen Zu Element Element op Produit Kaart Element.",
+          "Show Quick Buy & Add fir Knäppercher op Produktkaart ze vergläichen.",
         true_title: "weisen Aktioun op Element",
       },
     },
@@ -7549,12 +7549,12 @@ export default {
     product_page: {
       title: "Produit Säit",
       subtitle:
-        "Element Äre Produit Säit hei. Dir Element Element D'Domain Element vu Präisser a Element D'Domain Element vu Element Zu Kostüm Äre Preferenzen.",
+        "Personaliséiert Är Produkt Säit hei. Dir kënnt den Affichage vun de Präisser upassen an d'Arrangement vun de Sektiounen änneren fir Är Virléiften ze passen.",
       buy_button_color: "Kafen Knäppchen Faarf",
       smart_price: {
         title: "Element Eenheet Präis",
         true_description:
-          "Element Eenheet Präis no Element Gewiicht, Volumen, a Pak Varianten Element. Ex. Element Dir Element engem Variant mat 2L Gréisst a $5 Element Präis, Element D'Domain Client Element D'Domain $2.5/L op D'Domain Produit Säit.",
+          "Berechent Eenheetspräis andeems Dir Gewiicht, Volumen a Pakvarianten Eegeschafte berücksichtegt. Ex. Wann Dir eng Variant mat 2L Gréisst an $5 als Präis hutt, da gesäit de Client den $2.5/L op der Produktsäit.",
       },
       reverse_currency: {
         title: "Währung Element Positioun",
@@ -7568,7 +7568,7 @@ export default {
       variants_selector: {
         title: "Varianten Element",
         subtitle:
-          "Dir Element Wielt Element Element Zu Element Varianten op D'Domain Produit Säit.",
+          "Dir kënnt verschidde Weeër wielen fir Varianten op der Produktsäit ze weisen.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "Element & aloggen",
       subtitle:
-        "Element D'Domain Verkeefer Element a aloggen Element mat engem Benotzerdefinéiert Element, Bild, oder Message....",
+        "Personaliséiert de Verkeefer Onboarding a Login Erfahrung mat engem personaliséierte Video, Bild oder Message.",
     },
     inputs: {
       page_vendor_login: {
         label: "Verkeefer aloggen Säit",
         message:
-          "Wielt engem Benotzerdefinéiert Landung Säit fir Verkeefer aloggen. Element Element, Biller, oder Text fir engem eenzegaarteg Design. dës Säit ass Element Zu Verkeefer Element si net Element Op.",
+          "Wielt eng personaliséiert Landung Säit fir Verkeefer Login. Maacht Video, Biller oder Text fir en eenzegaartegen Design. Dës Säit gëtt Ubidder gewisen, déi net ageloggt sinn.",
       },
       page_vendor_registered: {
         label: "Verkeefer Registréiert Säit",
         message:
-          "Wielt engem Benotzerdefinéiert Säit fir Element-Op Verkeefer. dës Säit ass Element Element Äre Maartplaz Element Multiple Verkeefer pro Benotzer.",
+          "Wielt eng personaliséiert Säit fir ageloggt Ubidder. Dës Säit gëtt ugewisen wann Äre Maartplaz verschidde Verkeefer pro Benotzer ënnerstëtzt.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Benotzerdefinéiert Varianten",
       subtitle:
-        "Kierperlech Produkter Element Element Varianten. Dir Element Änneren D'Domain Standard Numm vu Varianten. Element Element ass Zu Element Element Artikelen Element Standard a Element Element Element Sellone Element Element Element Element fir Äre Clienten Element Element Sproochen. D'Domain Maximum Längt ass 24.",
+        "Kierperlech Produkter kënnen Varianten hunn. Dir kënnt den Default Numm vun Varianten änneren. Eise Virschlag ass dës Artikelen als Standard an eidel ze loossen, sou datt selldone se automatesch fir Är Clienten an hir Sproochen iwwersetzt. Déi maximal Längt ass 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7617,12 +7617,12 @@ export default {
     },
     inputs: {
       font_family: {
-        label: "Element Element",
-        message: "Gitt D'Domain Element-Element Wäert.",
+        label: "Schrëftfamill",
+        message: "Gitt de Schrëftfamilljewäert un.",
       },
       font_res: {
-        label: "Element Element",
-        message: "Element D'Domain Element Element.",
+        label: "Schrëft Ressource",
+        message: "Gitt d'Schrëftressource un.",
       },
     },
   },
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Header Logo",
       subtitle:
-        "no Standard, Äre Element Logo ass Element Op D'Domain Header, Element Dir Element eroplueden engem Benotzerdefinéiert Logo Element. Element Äre Logo Element net Element engem Element Element Element, Dir Element Braucht Zu confirméiert Element D'Domain Héicht a Breet fir Element Element.",
+        "Par défaut gëtt de Logo vun Ärem Geschäft am Header ugewisen, awer Dir kënnt amplaz e personaliséierte Logo eroplueden. Wann Äre Logo keen quadrateschen Aspekt Verhältnis huet, musst Dir vläicht d'Héicht an d'Breet manuell upassen fir eng optimal Presentatioun.",
     },
     header_title: {
       title: "Header Titel",
       subtitle:
-        "Dir Element Element D'Domain Titel Element Op D'Domain Header vu Äre Säiten hei. Element Dir Element Zu Element Ewechzehuelen et, wait Klickt D'Domain 'Set Element Titel Knäppchen.",
+        "Dir kënnt den Titel personaliséiere deen am Header vun Äre Säiten hei ugewise gëtt. Wann Dir se komplett ewechhuele wëllt, klickt w.e.g. op de Knäppchen 'Leiden Titel setzen'.",
     },
 
     inputs: {
@@ -7667,7 +7667,7 @@ export default {
     select: {
       title: "Wielt Modus",
       description:
-        "Element all Varianten Op engem Element, Element fir engem Grouss Zuel vu Varianten.",
+        "Weist all Varianten an engem Dropdown, ideal fir eng grouss Zuel vu Varianten.",
     },
   },
 
@@ -7677,12 +7677,12 @@ export default {
     add_title: "dobäisetzen Element Set",
     config: {
       subtitle:
-        "Set Titel a Beschreiwung fir Äre Element Set. et Element Element Element Zu Personal Bezuelen.",
+        "Setzt den Titel an d'Beschreiwung fir Ären Immobilieset. Et wäert nëmme fir Personal sichtbar sinn.",
     },
     variants: {
       title: "Varianten",
       subtitle:
-        "Dir Element Element D'Domain Variant Numm, Ikon, a 🛍️ Bestellen hei. Element Dir Element engem Element vu Produkter mat eenzegaarteg Varianten Element Element’Element Element Standard 6 Varianten, Dir Element Set Benotzerdefinéiert Varianten fir Element Produit hei.",
+        "Dir kënnt de Variantnumm, Ikon an Uerdnung hei personaliséieren. Wann Dir eng Vielfalt vu Produkter mat eenzegaartege Varianten hutt, déi net Standard 6 Varianten passen, kënnt Dir personaliséiert Varianten fir all Produkt hei setzen.",
     },
 
     inputs: {
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "Set änneren Set... ((Optional))",
         messages:
-          "Dir Element Element Element fir D'Domain änneren a Element 🛍️ Bestellen.",
+          "Dir kënnt Virschléi fir d'Wäerter ubidden an Uerdnung personaliséieren.",
       },
     },
   },
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Clientsmanagement",
     subtitle:
-      "Clienten Element Element erfollegräich Zu Äre Buttek Op Element Element; confirméiert, Bulk Excel Import, Element D'Domain POS, oder Element Äre Online Buttek. Element engem Benotzer Element Element Äre Buttek, Element Element Element Element Registréiert Element engem Client.",
+      "Clienten kënnen op verschidde Manéieren an Ärem Buttek bäigefüügt ginn; manuell, bulk Excel Import, duerch de POS, oder iwwer Ären Online Store. All Kéier wann e Benotzer an Ärem Geschäft aloggen, ginn se automatesch als Client registréiert.",
     add_customer_action: "dobäisetzen Nei Client",
 
     all_customers: "Download all Clienten",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "änneren Client",
     add_title: "dobäisetzen Nei Client",
     subtitle:
-      "Zu dobäisetzen engem Client Zu Äre Buttek, wait Element Element e E-Mail Adress oder engem vum Zuel.",
+      "Fir e Client an Äre Buttek ze addéieren, gitt w.e.g. entweder eng E-Mailadress oder eng Telefonsnummer.",
     more: {
       title: "Füügt méi Detailer",
       subtitle: "Set Währung, Client Club, Segmenter, Adress a Méi...",
     },
     detail: {
       subtitle:
-        "Element engem Element vu Perséinlech Informatiounen Iwwert Äre Client. wait Element Äre Keefer Privatsphär.",
+        "Halt e Rekord vu perséinlechen Informatioun iwwer Äre Client. Respektéiert w.e.g. d'Privatsphär vun Ärem Client.",
     },
     preferences: {
       subtitle: "Set Standard Benotzer Währung, Client Club, a Segmenter hei.",
     },
     address: {
       subtitle:
-        "dës Adress Element Element Benotzt Op D'Domain POS. D'Domain Benotzer Element net Element dës Informatiounen.",
+        "Dës Adress kann am POS benotzt ginn. De Benotzer kann dës Informatioun net gesinn.",
     },
   },
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "Confirméieren Liwwerung Element",
       true_description:
-        "Ech Confirméieren Element D'Domain 🛍️ Bestellen Element Element Geliwwert Zu D'Domain Client.",
+        "Ech bestätegen datt d'Bestellung un de Client geliwwert gouf.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "Referenz Iwwersiicht",
     subtitle:
-      "Element Äre Ufro, D'Domain Kommissioun Element Element Element Bezuelt Zu D'Domain Element Kont Element no Dir. wait Element Äre Element Informatiounen hei.",
+      "Op Är Ufro gëtt d'Kommissiounsgebühr op de Bankkonto bezuelt, deen Dir uginn hutt. Gitt weg Är Bankinformatioun hei.",
     no_bank_info: "nee Element Informatiounen!",
     actions: {
       edit_my_bank_info: "änneren Meng Element Informatiounen",
@@ -8013,25 +8013,25 @@ export default {
       info: {
         title: "Element",
         subtitle:
-          "wait Input Äre Element Informatiounen hei. Element Element benotzen dës Informatiounen Zu Transfert Element. Element Element D'Domain Element Kont ass Op Äre Numm oder Element Äre Affär Numm, Element Element.",
+          "Gitt w.e.g. Är Bankinformatioun hei un. Mir wäerten dës Informatioun benotze fir Fongen ze transferéieren. Vergewëssert Iech datt de Bankkonto an Ärem Numm oder ënner Ärem Geschäftsnumm ass, wéi zoutreffend.",
       },
       inputs: {
         name: {
           label: "Element Numm",
-          message: "D'Domain Ganzen Numm vu D'Domain Element Element D'Domain Kont ass Element.",
+          message: "De ganzen Numm vun der Bank wou de Kont ofgehale gëtt.",
         },
         holder_name: {
           label: "Kont Element Numm",
           message:
-            "D'Domain Ganzen Numm vu D'Domain Element oder Element Element Element D'Domain Kont.",
+            "De ganzen Numm vun der Persoun oder Entitéit déi de Kont hält.",
         },
         account_number: {
           label: "Kontosnummer",
           message:
-            "D'Domain eenzegaarteg Zuel Element mat D'Domain Element Element Kont.",
+            "Déi eenzegaarteg Nummer mat dem spezifesche Bankkonto assoziéiert.",
         },
         routing_number: {
-          label: "Element Zuel (Element) oder Sortéieren Code (UK) US",
+          label: "Routing Nummer (USA) oder Sort Code (UK)",
           message:
             "Eng Zuel déi déi spezifesch Bankzweig identifizéiert (verschidde Begrëffer ginn a verschiddene Länner benotzt).",
         },
@@ -8041,7 +8041,7 @@ export default {
             "En internationale Code dee benotzt gëtt fir Banken weltwäit z'identifizéieren, besonnesch fir international Iwwerweisungen.",
         },
         iban: {
-          label: "IBAN (Element Element Kont Zuel)",
+          label: "IBAN (International Bank Account Number)",
           message:
             "Benotzt haaptsächlech an Europa, ass den IBAN en international ausgemaach System fir Bankkonten iwwer national Grenzen z'identifizéieren.",
         },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "Äre Element Informatiounen Element dobäigesat erfollegräich.",
+        message: "Är Bankinformatioun gouf erfollegräich aktualiséiert.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Vun all Service Element, Abonnement a Aner Paiementer Element no Äre Element.",
+      "Vun all Servicekäschten, Abonnement an aner Bezuelungen, déi vun Äre Referratiounen gemaach ginn.",
   },
 
   /**
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "Tier Element",
       description:
-        "Dir si Op D'Domain Element Tier. Dir Element Element 2% Kommissioun Vun Äre Element.",
+        "Dir sidd an der Bronze Tier. Dir hutt 2% Kommissioun vun Äre Referratiounen verdéngt.",
     },
     Silver: {
       title: "Tier Element",
       description:
-        "Dir si Op D'Domain Element Tier. Dir Element Element 4% Kommissioun Vun Äre Element.",
+        "Dir sidd am Silver Tier. Dir hutt 4% Kommissioun vun Äre Referratiounen verdéngt.",
     },
     Gold: {
       title: "Referenz - Element - Gold",
       description:
-        "Dir si Op D'Domain Gold Tier. Dir Element Element 6% Kommissioun Vun Äre Element.",
+        "Dir sidd am Gold Tier. Dir hutt 6% Kommissioun vun Äre Referratiounen verdéngt.",
     },
     Platinum: {
       title: "Tier Platin",
       description:
-        "Dir si Op D'Domain Platin Tier. Dir Element Element 8% Kommissioun Vun Äre Element.",
+        "Dir sidd am Platin Tier. Dir hutt 8% Kommissioun vun Äre Referratiounen verdéngt.",
     },
     Diamond: {
       title: "Tier Element",
       description:
-        "Dir si Op D'Domain Element Tier. Dir Element Element 10% Kommissioun Vun Äre Element.",
+        "Dir sidd am Diamant Tier. Dir hutt 10% Kommissioun vun Äre Referratiounen verdéngt.",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Monetiséieren",
-    subtitle: "Element Zougang Zu Affär Element.",
+    subtitle: "Verbreet Zougang zu Geschäftsméiglechkeeten.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Referenz Bezuelungen",
     subtitle:
-      "Element D'Domain Lëscht vu Réckzuch Transaktiounen. wann Dir Transfert Element Vun Referenz Portemonnaie Zu Äre Element Kont oder Äre Sellone Portemonnaie, et Element Element Element hei. Selldone",
+      "Et ass d'Lëscht vun Austrëtt Transaktiounen. Wann Dir e Fong vum Referral Portemonnaie op Äre Bankkonto oder Äre Selldone Portemonnaie transferéiert, gëtt et hei opgelëscht.",
 
     officer: "Offizéier",
     amount: "Betrag Transaktioun",
@@ -8520,7 +8520,7 @@ export default {
     manage: {
       title: "Verwalte SMS",
       subtitle:
-        "Dir Element Element D'Domain Inhalt vu D'Domain Text Messagen Geschéckt no Äre Buttek hei. Element Zu D'Domain Begrenzung Op Element D'Domain Element Element Op D'Domain Element Service, et ass net Element Zu Element D'Domain Text Messagen um D'Domain Moment.",
+        "Dir kënnt den Inhalt vun den SMSen vun Ärem Geschäft gesinn hei. Wéinst der Begrenzung bei der Enregistréiere vun de Validatiounsmuster am Messagerie Service ass et am Moment net méiglech d'SMSen ze personaliséieren.",
     },
 
     template: {
@@ -8528,20 +8528,20 @@ export default {
       valid_message: "Dir Element Schafen Benotzerdefinéiert SMS Messagen.",
       provider_not_enable_message: "D'Domain SMS Element ass net aktivéiert!",
       need_custom_provider_message:
-        "Benotzerdefinéiert SMS Messagen Bezuelen Element Element Dir Set engem Benotzerdefinéiert Element.",
+        "Personnaliséiert SMS Messagen funktionnéieren nëmme wann Dir e personaliséierte Provider setzt.",
       add_new: "dobäisetzen Nei",
       disable_reason: {
         set_provider: "Set Äre Element éischte!",
-        provider_is_disabled: "Element ass Element!",
-        otp: "Element - Element Element!",
-        select_another_provider: "Wielt Element Element.",
+        provider_is_disabled: "Provider ass auszeschalten!",
+        otp: "OTP - Keen personaliséierbar!",
+        select_another_provider: "Wielt en anere Provider.",
       },
       enable_only_filter: "weisen Bezuelen aktivéiert",
 
       text_template_not_supported_msg:
-        "Äre Element Element net Ënnerstëtzung Element Text Messagen.",
+        "Äre Provider ënnerstëtzt keng Einfache SMSen.",
       structure_template_not_supported_msg:
-        "Äre Element Element net Ënnerstëtzung Element Messagen.",
+        "Äre Provider ënnerstëtzt keng strukturell Messagen.",
 
       structured_data: "Element Daten",
 
@@ -8556,20 +8556,20 @@ export default {
       config: {
         title: "Message... Element",
         subtitle:
-          "Dir Element Schafen engem Schabloun fir D'Domain SMS Message... op Äre SMS Element Websäit, Element Element Element Code a Daten Struktur hei. Element Element dës Informatiounen Zu Äre Element, Element D'Domain Element SMS Message... Element Element Generéiert.",
+          "Dir kënnt e Schabloun fir d'SMS-Message op der Websäit vun Ärem SMS-Provider erstellen, da gitt de Code an d'Datenstruktur hei. Mir wäerten dës Informatioun un Äre Provider weiderginn, wou déi aktuell SMS-Message generéiert gëtt.",
         code: "Buttek - Element - Schabloun",
-        language_msg: "Element et Element Zu Set et Element Standard.",
-        enable_msg: "dës Schabloun Element Element Benotzt Zu Schafen Messagen.",
+        language_msg: "Loosst et eidel fir et als Standard ze setzen.",
+        enable_msg: "Dës Schabloun gëtt benotzt fir Messagen ze kreéieren.",
       },
       text: {
         title: "Element Text",
         subtitle:
-          "Gitt engem Personaliséiert SMS Message... hei. Element änneren Element Element Element mat Element Element änneren virun Element Geschéckt Zu D'Domain Benotzer.",
+          "Gitt hei eng personaliséiert SMS Message un. Dynamesch Wäerter ginn duerch hir aktuell Wäerter ersat ier se un de Benotzer geschéckt ginn.",
         message: "Message...",
         reset_to_default: "Zerécksetzen Zu Standard",
 
         auto_fill: {
-          title: "Auto Element Element",
+          title: "Auto Fëllparameter",
           subtitle:
             "Dir kënnt all eenzel vun dësen Parameteren am Text benotzen an Selldone ersetzt se mam entspriechende Wäert.",
         },
@@ -8581,11 +8581,11 @@ export default {
       template: {
         title: "Element Schabloun",
         subtitle:
-          "Dir Element Set D'Domain Schabloun Schlëssel a Wäert hei. D'Domain Schabloun Code Element Element Element Element Dir Set Op Äre SMS Service Element, a D'Domain <code>Schlëssel</code> ass Element Äre Element Element Zu Schécken D'Domain Code Element. Element D'Domain <code>Wäert</code> Element vu Schabloun ass Element, Element <code>{code}</code> Element Element Element Element D'Domain Schabloun Code.",
+          "Dir kënnt de Schablounschlëssel a Wäert hei setzen. De Schablouncode sollt genau sinn wat Dir an Ärem SMS Service Provider gesat hutt, an den <code>key</code> ass dat wat Äre Provider de Code wëllt schécken. Wann d'<code>value</code> Feld vun der Schabloun eidel ass, da gëtt <code>{code}</code> als Schablouncode ugesinn.",
         add_new_parameter: "dobäisetzen Nei Element",
 
         auto_fill: {
-          title: "Auto Element Element",
+          title: "Auto Fëllparameter",
           subtitle:
             "Dir kënnt jiddereng vun dësen Parameteren als Wäert setzen, a Selldone ersetzt se mam entspriechende Wäert. Et ass besser d'Standardwäerter als Templates an Ärem SMS Provider fir Einfachheet ze definéieren. An dësem Fall gëtt et net néideg Parameter Wäerter hei ze definéieren.",
         },
@@ -8594,7 +8594,7 @@ export default {
         },
         sample: {
           title: "Prouf Schabloun Message...",
-          subtitle: "Dir Element Kopie a Element dës Schabloun Zu Äre SMS Element.",
+          subtitle: "Dir kënnt dës Schabloun un Ären SMS-Provider kopéieren a passéieren.",
         },
         add_message_action: "dobäisetzen Message... Schabloun",
       },
@@ -8604,7 +8604,7 @@ export default {
   sms_template_mode: {
     text: {
       title: "Element Text",
-      desc: "Message... Element Element erstallt Vun engem Text mat Auto Element Element a Schécken.",
+      desc: "De Message gëtt aus engem Text mat automateschen Ersatzparameter erstallt a geschéckt.",
     },
     template: {
       title: "Element Schabloun",
@@ -8617,7 +8617,7 @@ export default {
     title: "Benotzerdefinéiert SMS Element",
     reset_error: "Zerécksetzen Element",
     subtitle:
-      "Set Element engem Benotzerdefinéiert SMS Service Element a Element Äre Element SMS a Affär Numm. D'Domain Standard Element Nëmmen Schéckt Element SMS a Element Messagen Op Element Wäissen-Element Element.",
+      "Setzt e personaliséierten SMS Service Provider a personaliséiert Är Authentifikatioun SMS a Geschäftsnumm. De Standard Provider schéckt just Authentifikatioun SMS an informéiert Messagen an e puer wäiss-opgezielt Länner.",
     plain_text: "Element Text",
     structural_template: "Element Schabloun",
     errors_limit_msg:
@@ -8627,7 +8627,7 @@ export default {
       false_description:
         "OTP Messagen ginn duerch Selldone a gewielte Länner geschéckt, während aner Bestellungsnotifikatiouns-SMS och geschéckt ginn.",
       true_description:
-        "SMS Messagen Element Element Geliwwert Element Äre Service Element.",
+        "SMS Messagen gi mat Ärem Serviceprovider geliwwert.",
     },
     test_input: {
       true_title: "Element Configuratioun",
@@ -8637,24 +8637,24 @@ export default {
     sync_action: {
       title: "Aktiounen",
       subtitle:
-        "Element SMS Servicer Element Extra Servicer Wéi Campagnen, Marketing, a Aner Fonctiounen. Dir Element Element Äre Kontakter oder Zousätzlech Informatiounen Zu benotzen Element Fonctiounen Méi.. Element.",
+        "E puer SMS Servicer bidden extra Servicer wéi Kampagnen, Marketing an aner Funktiounen. Dir kënnt Är Kontakter oder zousätzlech Informatioun synchroniséieren fir hir Funktiounen méi séier ze benotzen.",
       action: "Element Kontakter",
     },
     tokens: {
       title: "Element",
       subtitle:
-        "Set D'Domain Element Element Zu Link Äre SMS Service Element mat Äre Buttek.",
+        "Setzt déi folgend Parameteren fir Ären SMS Service Provider mat Ärem Buttek ze verbannen.",
     },
   },
   sms_messages_options: {
     all: {
       title: "Element + 🛍️ Bestellen Notifikatiounen",
       description:
-        "Element Messagen a 🛍️ Bestellen Notifikatioun Element Element Geschéckt.",
+        "Authentifikatioun Messagen an Uerdnung Notifikatioun ginn geschéckt.",
     },
     otp: {
       title: "Element Bezuelen",
-      description: "Element Messagen Element Element Geschéckt.",
+      description: "Authentifikatioun Messagen ginn geschéckt.",
     },
   },
 
@@ -8681,21 +8681,21 @@ export default {
   shop_email_provider: {
     title: "Benotzerdefinéiert Mail Element",
     subtitle:
-      "Connect Äre Mail Service Element Zu Schécken E-Mailen Element Äre Benotzerdefinéiert Domain.",
+      "Connect Äre Mail Service Provider fir E-Mailen iwwer Är personaliséiert Domain ze schécken.",
     provider: "Element",
     enable_input: {
-      false_description: "Äre E-Mailen Element Element Geschéckt Element Äre Element Domain.",
-      true_description: "Äre E-Mailen Element Element Geschéckt Element Äre Benotzerdefinéiert Mail Domain.",
+      false_description: "Är E-Maile ginn iwwer Är myselldone Domain geschéckt.",
+      true_description: "Är E-Maile ginn iwwer Är personaliséiert Mail Domain geschéckt.",
     },
     config: {
       title: "Element",
       subtitle:
-        "Zu Konfiguréieren Äre Benotzerdefinéiert Mail Service fir Äre Buttek, Input Äre Service API Schlëssel Element mat Aner Element Astellungen.",
+        "Fir Äre personaliséierte Mail Service fir Äre Buttek ze konfiguréieren, gitt Äre Service API Schlëssel mat aner néideg Astellungen un.",
     },
     sender: {
       title: "Vun",
       subtitle:
-        "Dir Element Konfiguréieren D'Domain Standard Element Numm a E-Mail Adress, Element Element Element Benotzt fir Element E-Mailen Zu Äre Clienten.",
+        "Dir kënnt den Numm an d'E-Mailadress vum Standardsender konfiguréieren, déi benotzt gi fir E-Mailen un Är Clienten ze verschécken.",
     },
 
     inputs: {
@@ -8719,7 +8719,7 @@ export default {
         "E-Mail Ubidder kënnen SSL, TLS oder onverschlësselte Verbindunge baséieren op verfügbare Ports. Wann d'Verbindung zu engem Feeler resultéiert, kann d'Ännerung vum Verschlësselungsmodus de Problem léisen. Standard <b>TLS</b> benotzen Port: <b>587</b> an <b>SSL</b> benotzen Port: <b>465</b>.",
 
       enable_receive_test:
-        "No Spueren Ännerungen, Dir Element Empfang engem Element Mail op <b>{email}</b>. Spueren Ännerungen virun schécken engem Element E-Mail mat D'Domain Nei Configuratioun.",
+        "Nodeems d'Ännerungen gespäichert sinn, kritt Dir en Testmail op <b>{email}</b>. Späichert Ännerungen ier Dir eng Test-E-Mail mat der neier Konfiguratioun schéckt.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Verkaf Kanal",
     subtitle:
-      "Schafen engem Element Kategorie fir Äre Produkter, Komplett mat Biller a Element, a Element et Element Äre Sozial Medien. Element Element Zu Instagram a TikTok, Element mat Ganzen Kontroll, Element Dir Zu Element Element Äre Produkter.",
+      "Erstellt eng speziell Kategorie fir Är Produkter, komplett mat Biller a Videoen, an deelt se iwwer Är sozial Medien. Et ass ähnlech wéi Instagram an TikTok, awer mat voller Kontroll, wat Iech erlaabt Är Produkter direkt ze verkafen.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8801,7 +8801,7 @@ export default {
     service: {
       title: "Produit - Service",
       sub_title:
-        "éischte Wielt Äre Service Typ a Gitt D'Domain Element Informatiounen. fir Element, Dir Element Element engem Element Lëscht oder Stellt D'Domain Client fir engem Element Zäit oder e Element.",
+        "Wielt als éischt Äre Servicetyp a gitt déi erfuerderlech Informatioun. Zum Beispill kënnt Dir eng Todo Lëscht definéieren oder de Client fir eng Buchungszäit oder e Rendez-vous froen.",
     },
   },
 
@@ -8887,7 +8887,7 @@ export default {
   avocado_process: {
     step1: "Präisser",
     step1_msg:
-      "Gitt de Präis vun all Artikel a kontrolléiert déi gréng Këscht. Wann et net méiglech ass en Artikel ze verkafen, ännert de Status op refuséiert.",
+      "Gitt de Präis vun all Element a kontrolléiert déi gréng Këscht. Wann et net méiglech ass en Artikel ze verkafen, ännert de Status op refuséiert.",
     step2: "Confirméieren Rechnung",
     step2_msg:
       "Erstellt eng Rechnung fir dës Bestellung. Dir kënnt en Titel a Beschreiwung fir d'Rechnung aginn. Den Bestellungsbetrag gëtt berechent op Basis vum Gesamtpräis vun den Artikelen automatesch.",
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Steier soll op de Finale Präis dobäi ginn.",
     invoice: {
       subtitle:
-        "no Element dës Formular, Dir Element Schafen engem 💳 Bezuelung Link fir engem Element Betrag. et Element Element Tracking D'Domain Rechnung a Element 💳 Bezuelung Element Element a Element.",
+        "Andeems Dir dëse Formulaire benotzt, kënnt Dir e Bezuelungslink fir e spezifesche Betrag erstellen. Et mécht och d'Verfollegung vun der Rechnung an d'Bestätegung vun der Bezuelung einfach an einfach.",
     },
   },
 
@@ -8946,12 +8946,12 @@ export default {
     notifications: {
       delete_success: "Fichier erfollegräich geläscht.",
     },
-    drag_sort_msg: "Dir Element Element a Sortéieren Dateien.",
-    paid_mode_msg: "Benotzer Element eroflueden et Bezuelen No Element D'Domain Produit.",
+    drag_sort_msg: "Dir kënnt Dateien zéien a sortéieren.",
+    paid_mode_msg: "D'Benotzer kënnen et nëmmen eroflueden nodeems se de Produit kaaft hunn.",
     free_mode_msg:
-      "Benotzer Element eroflueden et fir fräi. Prouf Dateien Element Element Element 50 MB.",
+      "D'Benotzer kënnen et gratis eroflueden. Sample Dateien mussen ënner 50 MB sinn.",
     has_gust_shopping_msg:
-      "Registréiert a Element Benotzer Element eroflueden Dateien Element Element Akeef si aktivéiert Op D'Domain Element Astellungen > Flux.",
+      "Registréiert a Gaascht Benotzer kënnen Dateien eroflueden well Gäscht Akeef an den Astellunge vum Buttek aktivéiert sinn> Flux.",
     only_registered_shopping_msg:
       "Bezuelen Registréiert Benotzer Element eroflueden Prouf Dateien.",
     file_count_limit: "Dateien Grof Limitéieren",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Verfügbar Plaze",
     subtitle:
-      "Element Äre Produit oder Service ass Bezuelen Verfügbar Op Element Regiounen, Element no Land a Element oder Pin Coden, Dir Element Element Element Plaze hei. Element Location Restriktiounen si Element um D'Domain Produit Level. op D'Domain Produit Säit, Clienten Element Element Element Zu Wielt Element Location. Element D'Domain Produit ass Verfügbar Op Element Element Gebiet, Element Element Element Element Zu Element mat D'Domain Kafen.",
+      "Wann Äre Produkt oder Service nëmmen a spezifesche Regiounen verfügbar ass, definéiert duerch Land a Post- oder Pincoden, kënnt Dir dës Plazen hei uginn. Dës Plazbeschränkungen ginn um Produktniveau duerchgesat. Op der Produktsäit ginn d'Cliente gefrot hir Plaz ze wielen. Wann de Produit an hirem gewielte Beräich verfügbar ass, kënne se mam Kaf weidergoen.",
 
     add_location_action: "dobäisetzen Land",
     no_restriction: "nee Restriktioun",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "Element Location Restriktioun",
       description:
-        "Clienten Element Bezuelen Kafen dës Produit Element D'Domain Element Land a Element Code, Element Zu D'Domain Element Location Restriktioun.",
+        "D'Clientë kënnen dëst Produkt nëmmen am spezifizéierte Land a Postleitzuel kafen, wéinst der etabléierter Plazbeschränkung.",
     },
     zip_pin_code: "Element / Pin Coden",
     no_country_selected_error:
-      "wait Element um Element Element Land Element mat engem Lëscht vu Element/Pin Coden. Element et, dës Produit Element net Element Verfügbar.",
-    tips: "Klickt op D'Domain <b>+ dobäisetzen Land</b> Knäppchen Zu Start Element engem Nei Location Set. Element Element Element, Dir Element Spueren et no Element op D'Domain erop-Riets <b>⋮ Menü</b> a Element <b>Spueren Profil</b>.",
+      "Gitt w.e.g. op d'mannst ee Land zesumme mat enger Lëscht vun Zip-/Pin-Coden. Ouni et wäert dëst Produkt net verfügbar sinn.",
+    tips: "Klickt op de <b>+ Land addéieren</b> Knäppchen fir unzefänken en neie Standortset ze kreéieren. Wann Dir fäerdeg sidd, kënnt Dir et späicheren andeems Dir op uewe riets klickt <b>⋮ Menu</b> a wielt <b>Save Profile</b>.",
     need_save_message:
-      "D'Domain Location Restriktioun Astellungen fir D'Domain Produit Element Element erfollegräich. Zu Element Element Ännerungen, wait Klickt op D'Domain 'Spueren Knäppchen Element.",
+      "D'Location Restriktioun Astellunge fir de Produit goufen geännert. Fir dës Ännerungen ze erhaalen, klickt w.e.g. op de 'Späicheren' Knäppchen hei ënnen.",
 
     add_dialog: {
       title: "dobäisetzen Land",
       message:
-        "Wielt engem Land a Klickt 'dobäisetzen. dës Element Element D'Domain Land Zu D'Domain Tabell, Element Dir Zu Element Element, Pin Coden, Element Element, oder Regioun Element Zu et.",
+        "Wielt e Land a klickt op 'Add'. Dëst wäert d'Land un den Dësch bäifügen, wat Iech erlaabt Zipcodes, Pin Coden, Stadnamen oder Regiounnimm unzeweisen.",
     },
     save_profile_dialog: {
       title: "dobäisetzen Plaze Profil",
       message:
-        "wait Input engem Numm Zu Spueren dës Set vu Plaze. dës Gespäichert Location Set Element Element Element Zu Aner Produkter, Element fir Quick Location Element mat Nëmmen engem Eenzel Klickt. Element engem Profil mat D'Domain Element Numm Element Element, et Element Element erfollegräich mat Element Nei änneren.",
+        "Gitt w.e.g. en Numm un fir dës Set vu Plazen ze späicheren. Dëse gespäichert Location-Set kann op aner Produkter applizéiert ginn, wat e séiere Standortluede mat just engem Klick erlaabt. Wann e Profil mam uginnene Numm schonn existéiert, gëtt et mat dësen neie Wäerter aktualiséiert.",
       title_input: {
         title: "Profil Titel",
         placeholder: "engem Kategorie Numm, oder Buttek Numm,...",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "Element Plaze Profil",
       message:
-        "Dir Element Element Plaze no Element engem Element Gespäichert Location Set hei.",
+        "Dir kënnt Locations lueden andeems Dir e virdru gespäicherten Location hei auswielt.",
 
       select_input: {
         title: "Location Profil",
@@ -9036,7 +9036,7 @@ export default {
     },
     order: {
       title: "Bestellungen",
-      subtitle: "Element Äre Bestellungen a Verwalte Element.",
+      subtitle: "Kuckt Är Bestellungen a verwalten se.",
     },
     product: {
       title: "Produkter",
@@ -9119,7 +9119,7 @@ export default {
       title: "Maacht mat bei Selldone Business OS fir e gratis $ 99 Bong ze kréien.",
       description:
         "Ech invitéieren Iech op Selldone fir Äert Geschäft online mat engem fantastesche Tool unzefänken.",
-      hashtags: "Element,Element",
+      hashtags: "ecommerce,websiteBuilder",
       quot: "Ech hunn en Online Store vum Selldone gebaut, Dir kënnt och elo Äert Geschäft maachen.",
     },
   },
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "Prouf Geschäfter",
       subtitle:
-        "hei, Dir Element Element engem Auswiel vu Prouf Geschäfter. Dir si Element Element Zu Element D'Domain Informatiounen Verfügbar Op Element Geschäfter. Element, wait Element Vun Element Op oder Element Bestellungen Element Immobilien Perséinlech Informatiounen, Element dës Daten Element Element Element Zu D'Domain Ëffentlech. Element Dir Element Gitt Äre Informatiounen hei, Element Element D'Domain Buttek a Kréien Op Element mat eis fir Element Element.",
+        "Hei kënnt Dir eng Auswiel vu Proufgeschäfter entdecken. Dir kritt d'Erlaabnis fir d'Informatioun, déi an dëse Geschäfter verfügbar ass, z'iwwerpréiwen. Verzicht awer w.e.g. dovunner ofzemellen oder Bestellungen ze maachen mat real perséinlecher Informatioun, well dës Donnéeën fir de Public zougänglech sinn. Wann Dir zoufälleg Är Informatioun hei agitt, gitt w.e.g. aus dem Geschäft a kontaktéiert eis fir weider Hëllef.",
     },
 
     add_new_store: "dobäisetzen Nei Buttek",
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "Inhalt Element Zäitplang",
     subtitle:
-      "hei ass D'Domain Lëscht vu Element Artikelen Set fir Element Element. Dir Element D'Domain Element Zu Zäitplang Blog Element a Element Produit Element Zu Element Verëffentlecht um Element Zäiten.",
+      "Hei ass d'Lëscht vun geplangten Artikele fir zukünfteg Verëffentlechung. Dir hutt d'Fäegkeet Blog Posts ze plangen a souguer Produktbeschreiwunge fir zu spezifeschen Zäiten publizéiert ze ginn.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Bestellung Assistent",
     subtitle:
-      "Export a eroflueden Etiketten fir Bulk 🛍️ Bestellen Veraarbechtung - Element fir Element iwwer 100 Bestellungen Deeglech.",
+      "Export an eroflueden Etiketten fir bulk Bestellungsveraarbechtung - ideal fir all Dag iwwer 100 Bestellungen ze behandelen.",
 
     timespan: {
       title: "Zäit Period",
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Ofmellen Formular",
       subtitle:
-        "Element D'Domain Ofmellen Formular Element Zu Element D'Domain Informatiounen Dir Braucht Vun Äre Clienten.",
+        "Personnaliséiert d'Kasseformfelder fir d'Informatioun ze sammelen déi Dir braucht vun Äre Clienten.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "Element",
       title: "Element",
       description:
-        "dës Produit ass net Element Op D'Domain Buttek, Element Element no Element Link.",
+        "Dëst Produkt ass net am Geschäft opgezielt, awer duerch direkten Link zougänglech.",
     },
   },
 
@@ -9503,7 +9503,8 @@ export default {
       team: "Schécken Zu Element",
     },
     placeholder: {
-      ceo: "Element nee Braucht Zu Element Element, Ech Wéi Zu Element Äre Element, Riets-Zu-D'Domain-Punkt Stellt.\nElement.Element. Ech Braucht Zu Element...",
+      ceo: "Absolut net néideg léif ze sinn, ech héieren gär Är direkt, direkt op de Punkt froen.\n" +
+        "z.B. Ech muss hunn...",
       team: "Probéiert w.e.g. léif mat hinnen ze sinn.\nz.B. Ech muss hunn ...",
     },
   },
@@ -9535,7 +9536,7 @@ export default {
    */
   order_input: {
     message:
-      "D'Domain Informatiounen Element hei Element Element Element no D'Domain Client, Op Element mat D'Domain Produit Input Formular Struktur.",
+      "D'Informatioun hei ugewisen gouf vum Client presentéiert, am Aklang mat der Produktinput Form Struktur.",
   },
 
   /**
@@ -9545,12 +9546,12 @@ export default {
     test: {
       title: "Buttek",
       subtitle: "extern Service Rapport",
-      action: "Element Element",
+      action: "Test Verbindung",
       last_update: "Leschten erfollegräich no",
     },
     service_status: {
       title: "Service Status",
-      syncing_message: "op Element Element...",
+      syncing_message: "Am Synchroniséierungsprozess...",
       action: "Element all",
       connect_status: "Connect Status",
       service_status: "Service Status",
@@ -9558,17 +9559,17 @@ export default {
       auto_confirm_disable_msg:
         "Element Bestätegung vu Bestellungen ass net aktivéiert.",
       shipping_enable_msg:
-        "D'Domain Liwwerung Käschten Element Element Element baséiert op D'Domain Informatiounen Element um Ofmellen.",
+        "D'Verschéckenskäschte ginn berechent op Basis vun den Informatioune bei der Kasse.",
     },
     detail: {
       title: "Connect Element",
       auto_confirm_order: "Auto Confirméieren Bestellungen",
       test_mode: "Element Modus",
       status: {
-        subtitle: "Element Informatiounen Iwwert Element Status.",
+        subtitle: "Allgemeng Informatioun iwwer Synchroniséierungsstatus.",
       },
       sync: {
-        title: "Element Element",
+        title: "Synchroniséiert Detailer",
         subtitle:
           "Intern Synchroniséierung Detailer. Dës Informatioun gëtt gespäichert nodeems e Synchroniséierungsprozessepoch erfollegräich eriwwer ass.",
         no_data: "nee Element Informatiounen!",
@@ -9578,15 +9579,15 @@ export default {
     products: {
       title: "Produkter",
       subtitle:
-        "Lëscht vu erfollegräich Produkter Vun {name}. Geld Element Äre Produit Element engem eenzegaarteg Numm a SKU. Element Connect Servicer si Benotzt fir Element, Element Element Dir Element Produkter mat Duplizéiert <b>Element</b> a <b>Element</b>, Element Produkter Element Element erfollegräich!",
+        "Lëscht vun dobäi Produkter aus {name}. Vergewëssert Iech datt Äert Produkt en eenzegaartegen Numm an SKU huet. E puer Connect Servicer gi fir Migratioun benotzt, also wann Dir Produkter mat Duplikat <b>SKUs</b> an <b>Names</b> hutt, ginn dës Produkter geännert!",
       action: "Element Produkter",
-      syncing_message: "op Element Element...",
+      syncing_message: "Am Synchroniséierungsprozess...",
     },
 
     logs: {
       title: "Element",
       subtitle:
-        "D'Domain Lëscht vu all Element Op D'Domain Leschten 7 30 Deeg. Element Feature Element Bezuelen op extern Service Ubidder.",
+        "D'Lëscht vun alle Logbicher an de leschten 7 Deeg. Logging Feature ënnerstëtzt nëmmen op externen Déngschtleeschter.",
     },
 
     edit: {
@@ -9595,49 +9596,49 @@ export default {
       service: {
         title: "Buttek - Connect - Service",
         subtitle:
-          "Wielt Element Element, addéieren Element, oder Maartplaz Zu Connect.",
+          "Wielt Zilplattform, Dropshipping Zouliwwerer oder Maartplaz fir ze verbannen.",
       },
       test: {
         false_title: "Element all",
         false_desc: "Kréien all Verfügbar Produkter, Kategorien, Clienten.",
-        true_title: "Limitéiert (Element fir Element)",
+        true_title: "Limitéiert (recommandéiert fir Ufänger)",
         true_desc:
-          "Kréien Max 5 Produkter, Kategorien, a Clienten. Dir Element Element et Zu Ganzen Modus Op D'Domain Connect > Astellung um Element Zäit.",
+          "Kritt maximal 5 Produkter, Kategorien a Clienten. Dir kënnt et zu all Moment an de Vollmodus am Connect> Astellung ëmsetzen.",
       },
       overwrite: {
-        false_title: "Element net Änneren Element Element",
+        false_title: "Verännert net wann et existéiert",
         false_desc: "Behalen existéierend Produkt- a Kategoriedetailer sou wéi se sinn.",
         true_title: "Element",
         true_desc:
           "aktualiséieren Element Produit, Variant, a Kategorie Informatiounen.",
       },
       migration_tips:
-        "<b>Tipps: </b>Element Dir Element Zu Element D'Domain Funktionalitéit wait Wielt <b>Limitéiert</b> Optioun. no Element 'Element all, Element Kréien all Daten Vun Äre " +
-        "verbonnen Servicer a eroflueden Element Biller, Element et Element Element Äre fräi Element. Element, Element Element Produkter, Kategorien, a Clienten Géif Element Element!",
+        "<b>Tips: </b>Wann Dir d'Funktionalitéit wëllt testen, wielt w.e.g.\n" +
+          "            <b>Limited</b> Optioun. Andeems Dir 'Alles synchroniséiert' auswielen, kréie mir all Daten vun Äre verbonne Servicer an lueden verbonne Biller erof, sou datt et Är gratis Späichere reduzéiert. Och vill Produkter, Kategorien a Clienten ewechhuelen wier schwéier!",
       add_action: "Auto Connect Zu",
       order: {
         title: "bestellen Status",
         subtitle:
-          "Konfiguréieren D'Domain verbonnen Element 🛍️ Bestellen Gestioun Astellungen fir Äre Buttek. dës Enthält Astellung Element 🛍️ Bestellen Element, Element Element 🛍️ Bestellen Bestätegung (Element Element), a Element Liwwerung Käschten Element.",
+          "Konfiguréiert d'Bestellungsmanagement Astellunge vum verbonne Service fir Äre Buttek. Dëst beinhalt d'Astellung vun der Bestellungsakzeptanz, d'Aktivéiere vun der automatescher Bestellungsbestätegung (wann ënnerstëtzt), an d'Konfiguratioun vun de Versandkäschteberechnungen.",
       },
       enable: {
         label: "Connect Status",
-        true_desc: "Inventar a Bestellungen Element Element Element.",
+        true_desc: "Inventar an Uerder ginn synchroniséiert.",
       },
       confirm: {
         label: "Auto Confirméieren Bestellungen",
         false_desc: "Dir Element Confirméieren 🛍️ Bestellen confirméiert.",
         true_desc:
-          "Bestellungen mat live 💳 Bezuelung Element Element Element Element. Bestellungen mat Element 💳 Bezuelung Element net stëmmen Element.",
-        tips: "Bestellungen Bezuelt no Element Element oder COD oder 💳 Bezuelung Gateways Op D'Domain Element Modus si Element a Element net Element Confirméiert Element.",
+          "Bestellunge mat Live-Bezuelung ginn automatesch guttgeheescht. Bestellunge mat Debugbezuelung ginn net automatesch guttgeheescht.",
+        tips: "Bestellunge bezuelt mat Kaddokaart oder COD oder Bezuelungspaarten am Debugmodus sinn Ausnahmen a ginn net automatesch bestätegt.",
       },
 
       shipping: {
         label: "Liwwerung",
-        tips: "dës Service Offeren Liwwerung Berechnung, Element Element Element aktivéiert oder behënnert Element pro Äre Element. Element aktivéiert, Käschten Berechnung Element mat 3Element Element Servicer Element Element Element, Element Element Element engem weisen vu iwwer 300Element fir Element D'Domain Präis op D'Domain Ofmellen Säit. API",
+        tips: "Dëse Service bitt Versandberechnung, déi kann ageschalt oder behënnert ginn wéi Är Preferenz. Wann aktivéiert, wäerte Käschteberechnungs-APIs mat Drëtt Partei Servicer erfuerderlech sinn, wat e Verspéidung vun iwwer 300ms verursaache kann fir de Präis op der Kees Säit ze aktualiséieren.",
         false_title: "Element",
         false_desc:
-          "benotzen Meng Liwwerung Käschten Berechnung, Op Buttek > Logistesch > Element fir all Produkter, Element Element Element.",
+          "Benotzt meng Versandkäschteberechnung, am Shop> Logistik> Transport fir all Produkter, och importéiert.",
         true_title: "Berechent Liwwerung",
         true_desc:
           "Element D'Domain Liwwerung Taux Berechnung API Offere no dës Service.",
@@ -9655,14 +9656,14 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect Äre Affär os Zu extern Servicer a Verwalte all Channels Op D'Domain Element Element.",
+        "Connect Äre Betrib OS mat externen Servicer a verwalten all Channels op der selwechter Plaz.",
       action: "Connect Nei Servicer",
       empty_message:
-        "Element Apps a Element fir addéieren! Connect ass D'Domain Element vu Element-Element 🛍️ Bestellen Gestioun.",
+        "Vergiesst Apps a Plugins fir Dropshipping! Connect ass d'Zukunft vu Cross-Plattform Bestellungsmanagement.",
       auto_confirm: "Auto Confirméieren",
       shipping: "Liwwerung",
       syncing_now: "Element elo!",
-      sync_not_started: "Element Element net Element nach!",
+      sync_not_started: "Synchronisatioun ass nach net ugefaang!",
     },
   },
 
@@ -9672,15 +9673,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "Element",
-      desc: "Kréien Produkter, Kategorien, a Clienten. No D'Domain Benotzer Element dës Service, D'Domain Empfang Produkter, Kategorien, a Clienten Element net Element Geläscht.",
+      desc: "Kritt Produkter, Kategorien a Clienten. Nodeems de Benotzer dëse Service geläscht huet, ginn déi kritt Produkter, Kategorien a Clienten net geläscht.",
     },
     Dropshipping: {
       title: "Connect - Modus - addéieren",
-      desc: "Kréien Produkter, Kategorien, a Bestellungen. D'Domain Element Element Produkter No D'Domain Benotzer Element D'Domain Service.",
+      desc: "Kritt Produkter, Kategorien a Bestellungen. De System läscht Produkter nodeems de Benotzer de Service läscht.",
     },
     Marketplace: {
       title: "Maartplaz",
-      desc: "Nëmmen Element Inventar a Empfang Bestellungen (Produkter Element Element verbonne no SKU).",
+      desc: "Synchroniséiert einfach Inventar a kritt Bestellungen (Produkter ginn duerch SKU verlinkt).",
     },
     Accounting: {
       title: "Comptabilitéit",
@@ -9700,7 +9701,7 @@ export default {
     add_new_action: "dobäisetzen Nei Säit",
     subtitle:
       "Erstellt markant, reaktiounsfäeg personaliséiert Säiten fir Är Mark mat engem versatile AI-ugedriwwenen Inline Editor, a generéiert automatesch dynameschen Inhalt andeems Dir Daten fiddert.",
-    empty_message: "Design Benotzerdefinéiert Säiten no ZéElement-engem-Element Element...",
+    empty_message: "Design personaliséiert Säiten duerch Drag & Drop...",
   },
 
   /**
@@ -9747,7 +9748,7 @@ export default {
    */
   community_posts: {
     title: "Element",
-    subtitle: "dës ass engem Lëscht vu D'Domain Element Element.",
+    subtitle: "Dëst ass eng Lëscht vun de Posts vun der Gemeinschaft.",
     filter: {
       deleted: {
         title: "Geläscht",
@@ -9755,7 +9756,7 @@ export default {
       },
       reported: {
         title: "Element",
-        description: "weisen Element Element.",
+        description: "Show gemellt posts.",
       },
     },
     empty_msg: "Kee Posts goufe bis elo erstallt ...",
@@ -9766,7 +9767,7 @@ export default {
       },
       spam: {
         title: "Rapport & Ewechzehuelen Element",
-        subtitle: "Bulk Ewechzehuelen Element a Element Benotzer.",
+        subtitle: "Bulk ewechhuelen Posts a verbidden Benotzer.",
       },
       delete: {
         title: "Läschen Element",
@@ -9784,33 +9785,33 @@ export default {
       subtitle:
         "Google Analytics erméiglecht d'Messung vun der Annonce ROI beim Tracking vu Flash, Video a Social Media Siten an Apps. Verwalte Websäit Tags ouni Ustrengung mat de gratis, einfachen an zouverlässeg Léisunge vum Google Tag Manager - keng Code Redaktioun erfuerderlech.",
       tag_id: {
-        label: "Google Element Element ID",
+        label: "Google Tag Manager ID",
       },
     },
     shopping: {
       title: "Kanal - Google - Shopping",
       subtitle:
-        "Daten Element Element D'Domain Element vu Äre Element Informatiounen op Google. Element dës Link Zu Element dobäisetzen all Produkter a Kategorien Zu Google Element.",
+        "Datequellen weisen d'Origine vun Ärem Kataloginformatioun op Google un. Follegt dëse Link fir automatesch all Produkter a Kategorien op Google Wueren ze addéieren.",
       tips: "Dir kënnt dëst Tool benotze fir Google Annoncen ouni Ustrengung an automatesch ze managen.",
       link_message: "Google Produkter Element URL Fee",
     },
     console: {
       title: "sichen Element",
-      subtitle: "dobäisetzen engem Element Element Zu Äre Element fir Google sichen Element Verifikatioun.",
+      subtitle: "Füügt e Meta-Tag op Är Homepage fir d'Verifizéierung vun der Google Search Console.",
       code: {
-        label: "Verifikatioun Element Element",
-        placeholder: "Vun Google, Element.Element. Element9Element...",
+        label: "Verifikatioun Meta Tag",
+        placeholder: "Vun Google, z.B. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google Element & Element ERP",
+      title: "Google SERP & Schlësselwieder",
       subtitle:
         "Mir kréien déi präzis SEO Auditdaten vu Google a presentéieren Iech op eng bequem Manéier. Follegt einfach d'Schrëtt geliwwert.",
     },
     serp_content: {
       title: "Connect Zu Google sichen Element",
       subtitle:
-        "Connect Äre Buttek Zu D'Domain sichen Element a Start Element Element, Element, a Aner fräi SEO Element op Sellone. Selldone",
+        "Connect Äre Buttek op d'Sichkonsole a fänkt u Schlësselwierder, Rangen an aner gratis SEO Tools op Selldone ze entdecken.",
       tips: {
         title:
           "Ier Dir Selldone mat Google Search Console verbënnt, gitt sécher datt Dir folgend sidd:",
@@ -9828,25 +9829,25 @@ export default {
    */
   cashback: {
     add_new: "dobäisetzen Nei Element",
-    title: "Element Element",
-    boosted: "Element (2Element)",
+    title: "Cashback Programmer",
+    boosted: "Boost (2x)",
     min_purchase: "Minimum Kafen",
     only_first_order: "Bezuelen éischte 🛍️ Bestellen",
     total_cashback: "Ganzen Element",
     delete_alert: {
-      title: "Läschen Element Element",
-      message: "si Dir Element Zu Läschen dës Element Element?",
+      title: "Läschen Cashback Programm",
+      message: "Sidd Dir sécher dëse Cashback Programm ze läschen?",
       action: "Jo, Elo läschen",
     },
     notifications: {
-      delete_success: "Element Element Geläscht dobäigesat.",
+      delete_success: "Cashback Programm erfollegräich geläscht.",
     },
   },
   /**
    * {@see BPageCashback}
    */
   shop_cashback: {
-    title: "Element Element",
+    title: "Cashback Programm",
     up_to: "bis",
     menu: {
       back: "Zréck Element",
@@ -9889,14 +9890,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "Set D'Domain Element Prozent, Limitéieren a Element Status hei.",
+      subtitle: "Setzt de Chasback Prozent, Limit a säi Status hei.",
     },
     percent_input: {
       title: "Element Prozentsaz",
       message: "Gitt D'Domain Element Prozentsaz Vun 1% Zu 20%.",
     },
     currency_input: {
-      message: "D'Domain Element Element Element Element Verfügbar Nëmmen fir dës Währung.",
+      message: "De Cashback Programm wäert nëmme fir dës Währung verfügbar sinn.",
     },
     limit_input: {
       title: "Limitéieren",
@@ -9905,7 +9906,7 @@ export default {
     },
     duration: {
       title: "Dauer Limitéieren",
-      subtitle: "Set Dauer vu Element Element. Element (Optional).",
+      subtitle: "Set Dauer vun Cashback Programm. Et ass fakultativ.",
     },
     start_input: {
       title: "Start Datum",
@@ -9917,7 +9918,7 @@ export default {
     },
     design: {
       subtitle:
-        "Set Titel a kuerzen Beschreiwung fir D'Domain Element Element. Element Informatiounen Element Element Element Zu Clienten.",
+        "Setzt Titel a kuerz Beschreiwung fir de Cashback Programm. Dës Informatioun gëtt u Clienten gewisen.",
     },
     title_input: {
       title: "Titel",
@@ -9926,16 +9927,16 @@ export default {
       title: "Beschreiwung",
     },
     constraints: {
-      subtitle: "Set D'Domain Element fir D'Domain Element Element.",
+      subtitle: "Setzt d'Aschränkungen fir de Cashback Programm.",
     },
     min_purchase_input: {
-      hint: "Gitt D'Domain Minimum Kafen Betrag fir Element Element.",
+      hint: "Gitt de Minimum Akafsbetrag fir Cashback Programm.",
       title: "Minimum Kafen",
     },
     only_first_buy_input: {
-      false_desc: "D'Domain Element Element Element Element Verfügbar fir all Bestellungen.",
+      false_desc: "De Cashback Programm wäert fir all Bestellung verfügbar sinn.",
       true_desc:
-        "D'Domain Element Element Element Element Verfügbar Nëmmen fir D'Domain éischte 🛍️ Bestellen.",
+        "De Cashback Programm wäert nëmme fir déi éischt Bestellung verfügbar sinn.",
       true_title: "Bezuelen éischte 🛍️ Bestellen",
       false_title: "all Bestellungen",
     },
@@ -9947,28 +9948,28 @@ export default {
     },
     club: {
       subtitle:
-        "Set D'Domain Club fir D'Domain Element Element. D'Domain Element Element Element Element Verfügbar Nëmmen fir D'Domain Clienten Element si Op dës Club.",
+        "Set de Club fir de Cashback Programm. De Cashback Programm wäert nëmme fir d'Clienten verfügbar sinn, déi an dësem Club sinn.",
     },
     cluster: {
       subtitle:
         "Andeems Dir e Cluster mam Cashback Programm assoziéiert, kënnt Dir et méi effektiv verwalten.",
     },
     notifications: {
-      add: "Element Element erfollegräich dobäigesat.",
-      edit: "Element Element erfollegräich dobäigesat.",
+      add: "Cashback Programm erfollegräich dobäi.",
+      edit: "Cashback Programm erfollegräich aktualiséiert.",
     },
     enable_input: {
-      true_msg: "D'Domain Element Element ass Aktiv a Clienten Element benotzen et.",
+      true_msg: "De Cashback Programm ass aktiv a Cliente kënnen et benotzen.",
       false_msg:
-        "D'Domain Element Element ass inaktiv a Clienten Element net benotzen et.",
+        "De Cashback Programm ass inaktiv a Clienten kënnen et net benotzen.",
     },
     boosted_input: {
       false_title: "normal",
-      true_title: "Element (2Element Element)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "De Cashback Programm ass am Boost Modus a Clienten kréien 2x Cashback.",
       false_msg:
-        "D'Domain Element Element ass Op normal Modus a Clienten Element Empfang normal Element.",
+        "De Cashback Programm ass am normale Modus a Clienten kréien normal Cashback.",
     },
   },
 
@@ -9979,11 +9980,11 @@ export default {
     actions: {
       refund: {
         title: "Element 💳 Bezuelung",
-        subtitle: "Element oder Ganzen Element Element.",
+        subtitle: "Deelweis oder voll Remboursement ënnerstëtzt.",
       },
       delivery: {
         title: "Confirméieren op Liwwerung",
-        subtitle: "Dir Element confirméiert Confirméieren Liwwerung fir 💳 Bezuelung Element.",
+        subtitle: "Dir kënnt Liwwerung fir Bezuelen Provider manuell confirméieren.",
       },
     },
   },
@@ -9994,15 +9995,15 @@ export default {
   payment_refund_dialog: {
     title: "Element 💳 Bezuelung",
     message:
-      "fir Sécherheet Element, Bezuelen Bestellungen Bezuelt Element D'Domain Leschten 7 30 Deeg si Usproch fir Element.",
+      "Aus Sécherheetsgrënn sinn nëmmen Bestellungen, déi an de leschten 7 Deeg bezuelt goufen, berechtegt fir Remboursementer.",
     payment_amount: "Bezuelen Betrag",
     total_refund_amount: "Ganzen Element Betrag",
-    can_refund: "Element Element",
+    can_refund: "Kann Remboursement",
     refund_amount: "Element Betrag",
     verify: {
       title: "Verifizéiert Element",
       description:
-        "Ech Confirméieren Element D'Domain Element Betrag ass richteg a Ech Element Zu Element.",
+        "Ech bestätegen datt de Remboursementbetrag richteg ass an ech wëll weidergoen.",
     },
     action: "Element elo",
   },
@@ -10013,11 +10014,11 @@ export default {
   payment_delivery_dialog: {
     title: "Client Liwwerung Bestätegung",
     message:
-      "Element 💳 Bezuelung Servicer Element Bestätegung Element D'Domain 🛍️ Bestellen Element Element Geliwwert Zu D'Domain Client. Element Element Schécken dës Bestätegung während D'Domain Element Schrëtt vu 🛍️ Bestellen Erfëllung wann Element Empfang D'Domain Keefer Liwwerung Bestätegung. Element, Element Dir Braucht Zu Element dës Aktioun confirméiert, Dir Element Element Element hei.",
+      "Verschidde Bezuelungsservicer erfuerderen Bestätegung datt d'Bestellung un de Client geliwwert gouf. Mir schécken normalerweis dës Bestätegung wärend der leschter Etapp vun der Erfëllung vun der Bestellung wa mir d'Liwwerbestätegung vum Client kréien. Wéi och ëmmer, wann Dir dës Handlung manuell maache musst, kënnt Dir dat hei maachen.",
     verify: {
       title: "Verifizéiert Liwwerung",
       description:
-        "Ech Confirméieren Element D'Domain 🛍️ Bestellen Element Element Geliwwert Zu D'Domain Client.",
+        "Ech bestätegen datt d'Bestellung un de Client geliwwert gouf.",
     },
     action: "Confirméieren elo",
   },
@@ -10026,13 +10027,13 @@ export default {
    * @see BPageProductCrossSelling
    */
   product_cross_selling: {
-    title: "Element Element",
+    title: "Kräiz Verkaf",
     add_new_actions: "dobäisetzen Nei Produit",
     subtitle:
-      "Op dës Sektioun, Dir Element dobäisetzen a Verwalte Element-Element Produkter fir dës Produit Säit. Element Produkter Element Element Element Element Element fir Clienten Zu Kafen Element D'Domain Haaptsäit item. Dir Element Element Set Remise Zu Element a Element Zousätzlech Akeef. D'Domain Element Element Element engem Maximum vu 3 Artikelen fir D'Domain Client Zu Element.",
+      "An dëser Sektioun kënnt Dir Cross-Sell Produkter fir dës Produkt Säit addéieren a verwalten. Dës Produkter ginn als Virschléi fir Clienten ugewisen nieft dem Haaptartikel ze kafen. Dir kënnt och Remise setzen fir zousätzlech Akeef ze encouragéieren an ze stimuléieren. De System weist maximal 3 Elementer fir de Client ze berücksichtegen.",
     dialog: {
-      edit_title: "änneren Element Element Produit",
-      add_title: "dobäisetzen Nei Element Element Produkter",
+      edit_title: "Ännerung Kräiz verkafen Produit",
+      add_title: "Füügt nei Kräizverkaafsprodukter",
       target: {
         title: "Element Produit",
         subtitle:
@@ -10047,26 +10048,26 @@ export default {
       discount: {
         title: "Remise & Message...",
         subtitle:
-          "Dir Element D'Domain Optioun Zu Element engem Message... a Offer engem Remise Zu Element Clienten Zu Kafen D'Domain ausgewielt Zousätzlech Artikelen. Element Ureizer Element Hëllef Element Verkaf a Element D'Domain Element Shopping Element.",
+          "Dir hutt d'Méiglechkeet fir e Message ze enthalen an eng Remise ze bidden fir Clienten ze motivéieren fir déi gewielte zousätzlech Artikelen ze kafen. Dës Ureiz kënnen hëllefen de Verkaf ze féieren an d'Gesamt Akafserfahrung ze verbesseren.",
         amount_input: {
           message:
-            "D'Domain Remise Prozentsaz Element Element Element Zu D'Domain Produit Präis No Element Element Kont all Element Remise.",
+            "De Remise Prozentsaz gëtt op de Produit Präis applizéiert ginn nodeems se all bestehend Remise Rechnung huelen.",
         },
         mismatch_type_warning:
           "Remise kënnen net op aner Zorte ausser den Haaptproduktaarten applizéiert ginn, well d'Quell- an Zilartikelen net an engem selwechte Kuerf gesat ginn.",
         not_support_subscription_type_warning:
-          "Astellung Remise fir Element-Element Abonnement Produkter ass net Element, Element D'Domain Präisser Pläng Element Element Element Element.",
+          "Remise fir Cross-Sell Abonnementprodukter astellen ass net méiglech, well d'Präispläng net dynamesch ugepasst kënne ginn.",
         message_input: {
           message:
             "Erstellt en zwéngen a verlockenden Titel fir d'Opmierksamkeet vun de Clienten z'erreechen.",
           placeholder:
-            "Bundle & Spueren: Komplett Äre Element mat Element Element Auswiel!",
+            "Bundle & späicheren: Komplett Äre Look mat eiser Handausgewielten Auswiel!",
         },
       },
       action: {
         title: "Aktioun",
         subtitle:
-          "Element D'Domain Element-Element Element Aktioun hei. Element Äre Produit Verlaangt D'Domain Input vu Benotzerdefinéiert Informatiounen, Element Element Element engem Bewäertung Formular, Element net Wielt \"dobäisetzen Zu Cart\" Element D'Domain Aktioun, Element dës Element Element Zu Element.",
+          "Ännert d'Aktioun vum Cross-Seling Produkt hei. Wann Äert Produkt den Input vu personaliséierter Informatioun erfuerdert, sou wéi duerch e Bewäertungsformular, wielt net \"Add To Cart\" als Handlung, well dëst zu Feeler féiere kann.",
       },
     },
   },
@@ -10078,11 +10079,11 @@ export default {
     variants: {
       title: "Variant Optiounen",
       subtitle:
-        "Wielt Element Zu Zwee Variant Optiounen. No Auswiel, Dir Element Wielt Element Element Varianten Zu Schafen Element.",
+        "Wielt bis zu zwou Varianten Optiounen. No der Auswiel kënnt Dir wielen wéi eng spezifesch Varianten automatesch erstallt ginn.",
     },
     values: {
       title: "Variant änneren",
-      subtitle: "Gitt D'Domain Element änneren fir Element Variant Optioun hei.",
+      subtitle: "Gitt hei déi méiglech Wäerter fir all Variantoptioun.",
       prevent_duplicates_tips:
         "<b>Note:</b> Mir kontrolléieren automatesch no existéierende Varianten fir Duplikate ze vermeiden.",
     },
@@ -10100,12 +10101,12 @@ export default {
     AddToCart: {
       title: "An de Weenche leeën",
       description:
-        "Element D'Domain dobäisetzen Zu Cart Knäppchen Element. Notiz Element dës ass net Element fir Abonnement Produkter.",
+        "Weist den Add to Cart Knäppchen direkt. Notéiert datt dëst net fir Abonnementprodukter applicabel ass.",
     },
     ViewProduct: {
       title: "Kuckt de Produit",
       description:
-        "Element engem Vue Méi.. Knäppchen Element Element Clienten Zu D'Domain Produit Säit no Element engem Nei Element.",
+        "Weist e View More Knäppchen deen d'Clienten op d'Produkt Säit féiert andeems Dir eng nei Fënster opmaacht.",
     },
   },
 
@@ -10121,7 +10122,7 @@ export default {
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "dës Produit Element Element erfollegräich Element <b>{name}</b>.",
+      subtitle: "Dëst Produkt gouf iwwer <b>{name}</b> bäigefüügt.",
       enable_msg: "dës Bréck Zu extern Service ass aktivéiert.",
       disable_msg: "dës Bréck Zu extern Service ass behënnert.",
       has_shipping_msg:
@@ -10136,7 +10137,7 @@ export default {
       out_of_stock_msg: "Produit ass Element vu Lager.",
       file_count_msg:
         "{files_count} Dateien mat Ganzen {files_size} eropgelueden fir dës Produit.",
-      no_file_uploaded_msg: "nee Fichier Element Element eropgelueden nach.",
+      no_file_uploaded_msg: "Kee Fichier gouf nach eropgelueden.",
       no_image_uploaded_msg:
         "eroplueden engem Produit Bild Zu Geld et Méi.. Attraktiv.",
     },
@@ -10156,7 +10157,7 @@ export default {
     file_errors: {
       title: "Element Dateien",
       subtitle:
-        "Element, nee Dateien Element Element eropgelueden fir dës Produit. wait eroplueden Dateien Zu Element.",
+        "De Moment si keng Dateie fir dëst Produkt eropgeluede ginn. Luet w.e.g. Dateien erop fir weiderzegoen.",
       manage_files: "Verwalte Dateien",
     },
 
@@ -10179,7 +10180,7 @@ export default {
     subscription_errors: {
       title: "Element Abonnement Präisser Pläng",
       subtitle:
-        "dës Produit Element nee Abonnement Präisser Pläng. Dir Braucht Zu dobäisetzen um Element Element Abonnement Präisser Plang Zu Geld dës Produit Verfügbar fir Abonnement Kafen.",
+        "Dëst Produkt huet keng Abonnement Präispläng. Dir musst op d'mannst een Abonnement Präisplang derbäi fir dëst Produkt fir Abonnement Kaf verfügbar ze maachen.",
       pricing_plans: "Präisser Pläng",
     },
 
@@ -10197,7 +10198,7 @@ export default {
       disable_for_all_countries_msg:
         "Shopping ass behënnert fir all Element Op Äre Buttek > Plaze Astellung.",
       location_is_not_in_permitted_shop_locations_msg:
-        "Dir Set {country} Element engem Element Location Element Op D'Domain Buttek Level Dir net Element dës Land. wait Check Äre Buttek Level Astellungen.",
+        "Dir setzt {country} als Verkafsplaz, awer am Geschäftniveau erlaabt Dir dëst Land net. Iwwerpréift w.e.g. Äre Buttekniveau Astellungen.",
       shop_locations: "Buttek Plaze",
       product_locations: "Produit Plaze",
     },
@@ -10208,9 +10209,9 @@ export default {
     location_errors: {
       title: "Verfügbar Plaze Element",
       no_location_error_subtitle:
-        "Dir Element Aktivéiert engem Location Restriktioun fir Element D'Domain Produit, Element Element, nee Land ass Element Element dës Restriktioun. Element engem Resultat, dës Produit ass Element fir Kafen no Element.",
+        "Dir hutt eng Plazbeschränkung aktivéiert fir de Produit ze kafen, awer de Moment ass kee Land ënner dëser Restriktioun opgezielt. Als Resultat ass dëst Produkt net verfügbar fir jiddereen ze kafen.",
       invalid_location_error_subtitle:
-        "D'Domain Location Restriktioun Astellungen fir Äre Produit Element e Element: Element Plaze Element Element net Element Element Element Element Coden. Element, Benotzer si Element Zu Wielt engem Element Code, Element D'Domain Produit Element fir Kafen. IP",
+        "D'Plazebeschränkungsastellunge fir Äert Produkt enthalen e Feeler: verschidde Plazen déi opgelëscht sinn hunn keng verbonne Postcodes. Dofir kënnen d'Benotzer net e Postcode auswielen, wat d'Produkt net verfügbar ass fir ze kafen.",
 
       manage_locations: "Verwalte Plaze",
     },
@@ -10224,7 +10225,7 @@ export default {
       tax_profiles: "Steier Profiler",
       description: {
         subscription_tax_msg:
-          "Element Element Filter Steier Bezuelen op D'Domain 💳 Bezuelung Créatioun Schrëtt.",
+          "Mir kënnen Steier nëmmen op der Bezuelen Kreatioun Schrëtt gëlle.",
         dedicated: "Element",
         is_disabled: "dës Steier Profil ass behënnert!",
         tax_is_based_on_location: "Steier: Location baséiert",
@@ -10240,7 +10241,7 @@ export default {
       vendor_owner_msg: "dës Produit Element Zu <b>{vendor}</b>.",
       has_vendors_msg: "Et ass {count} Verkeefer fir dës Produit.",
       no_vendor_msg:
-        "Dir Element Element engem Verkeefer Zu dës Produit, Element Clienten si Element Zu Kafen et.",
+        "Dir hutt dëst Produkt kee Verkeefer zougewisen, sou datt d'Clienten et net kënnen kafen.",
       add_vendors: "dobäisetzen Verkeefer",
     },
   },
@@ -10251,7 +10252,7 @@ export default {
   product_template: {
     title: "Produit Säit Schabloun",
     subtitle:
-      "Dir Element Element engem Säit Element Äre Produit Säit fir e verbessert Element. D'Domain Element Element ass Zu Schafen Säiten Element engem transparent Hannergrond a 1 Zu 3 Element Mooss Zu Element Produit Kategorie. Element, Element Element Säit Zu Multiple Produkter fir engem Element a Element Element.",
+      "Dir kënnt eng Säit an Ärer Produkt Säit fir eng verbessert Presentatioun embed. Déi optimal Approche ass Säiten ze kreéieren mat engem transparenten Hannergrond an 1 bis 3 Sektiounen op all Produktkategorie ugepasst. Dann, gitt eng Säit op verschidde Produkter fir eng konsequent an attraktiv Affichage.",
     edit_page: "änneren Säit",
     list_of_pages: "Lëscht vu Säiten",
   },
@@ -10264,7 +10265,7 @@ export default {
     card: {
       title: "Element",
       description:
-        "Element kopéieren Code Zu dobäisetzen Produit Kaarten Op Aner Element a kopéieren Säiten. HTML",
+        "Generéiere HTML Code fir Produktkaarten op aner Plattformen an HTML Säiten ze addéieren.",
     },
     iframe: {
       title: "Element",
@@ -10283,16 +10284,16 @@ export default {
     staff: {
       title: "dobäisetzen Personal & Zougang",
       subtitle:
-        "all Benotzer mat Personal Zougang Element Element Op Zu Äre Iwwersiicht a Element Finanziell Informatiounen. Zu dobäisetzen Benotzer mat Limitéiert Zougang, Element Element.",
+        "All Benotzer mat Personalzougang kënnen op Ärem Dashboard aloggen a finanziell Informatioun gesinn. Fir Benotzer mat limitéierten Zougang ze addéieren, definéiert Roll.",
       go_to_roles: "Element Zu Rollen",
     },
     access: {
       customization_tips:
-        "<b>Personnalisatioun:</b> Klickt op Element item Zu Element D'Domain Standard Liest/Schreift Zougang. Element Element Element e Zougang Level Element Zu D'Domain Haaptsäit Buttek Iwwersiicht.",
+        "<b>Customization:</b> Klickt op all Element fir de Standard Lies-/Schreifzougang ze personaliséieren. All Zeil representéiert en Zougangsniveau entsprécht dem Haaptgeschäft Dashboard.",
       simplify_tips:
-        "<b>Element!</b> Element Element D'Domain Zougang Kontroll Vun iwwer 300 Zu Element 10 Niveauen. Méi.. Element a Element-Zu-Datum Zougang Niveauen Element Element Verëffentlecht Op D'Domain Element.",
+        "<b>Wichteg!</b> Mir vereinfachen d'Zougangskontroll vun iwwer 300 op ënner 10 Niveauen. Méi detailléiert an aktuell Zougangsniveauen ginn an der Dokumentatioun publizéiert.",
       multi_permission_tips:
-        "<b>Benotzerdefinéiert Grenzen?</b> Dir Element dobäisetzen Méi.. Zougang Zu Element Benotzer, Element No Element D'Domain éischte Zougang, Schafen Zousätzlech Zougang mat D'Domain Element Element.",
+        "<b>Custom Limiten?</b> Dir kënnt méi Zougang zu engem Benotzer addéieren, also nodeems Dir den éischten Zougang bäigefüügt hutt, zousätzlech Zougang mat de selwechte Schrëtt erstellen.",
       view_data: "Vue Daten",
       apply_changes: "Ännerunge uwenden",
     },
@@ -10314,11 +10315,11 @@ export default {
     notifications: {
       add_success: {
         title: "Zougang Element",
-        message: "Nei Zougang Element Element dobäigesat erfollegräich.",
+        message: "Neien Zougang gouf erfollegräich dobäigesat.",
       },
       update_success: {
         title: "Zougang erfollegräich",
-        message: "Permissiounen Element Element erfollegräich dobäigesat.",
+        message: "Permissiounen goufen erfollegräich aktualiséiert.",
       },
     },
   },
@@ -10329,9 +10330,9 @@ export default {
   category_engine_editor: {
     title: "Extra Produkter Lëschtung",
     subtitle:
-      "Element Produkter Vun Element Kategorien. Dir Element D'Domain Optioun Zu Wielt Multiple Kategorien Zu Element Produkter oder Filter Produkter no Element.",
+      "Display Produkter aus verschiddene Kategorien. Dir hutt d'Méiglechkeet verschidde Kategorien ze wielen fir Produkter ze weisen oder Produkter no Tags ze filteren.",
     aut_add_sub_categories_tips:
-      "Dir Element Element dobäisetzen all Element Zu D'Domain Aktuellt Kategorie no Element D'Domain Knäppchen Element.",
+      "Dir kënnt automatesch all Ënnerkategorien an déi aktuell Kategorie addéieren andeems Dir op de Knäppchen hei drënner klickt.",
     inputs: {
       categories: {
         label: "Kategorien",
@@ -10359,12 +10360,12 @@ export default {
       normal:
         "<b>Allgemeng sichen: </b>sichen no Titel, MPN, SKU, Mark, oder Element.",
       product:
-        "<b>Element Produit ID: </b>benotzen P0000+Produit ID Zu Fannt engem Element Produit, Element.Element., <b class=\"text-green\">P0000</b><i class=\"text-yellow\">360</i>.",
+        "<b>Eexakt Produkt ID: </b> Benotzt P + Produkt ID fir e spezifescht Produkt ze fannen, zB <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Exakt Phrase: </b>Benotzt Zitatzeechen fir no enger exakter Saz ze sichen, z.B. <b class=\"text-green\">\"</b><i class=\"text-yellow\">Ären Text hei</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>Steier Profil: </b>sichen fir Produkter mat engem Element Steier Profil Element \"Steier:\", Element.Element., <b class=\"text-green\">Steier:</b><i class=\"text-yellow\">Steier Profil Numm</i>.",
+      tax: "<b>Tax Profil: </b> Sich no Produkter mat engem spezifesche Steierprofil mat \"Steier:\", z.B. <b class=\"text-green\">tax: </b><i class=\"text-yellow\">tax Profilnumm</i>.",
       new_products:
-        "<b>Nei Produkter: </b>Fannt Produkter erfollegräich Element engem Element Datum Range, Element.Element., <b class=\"text-green\">Nei~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Nei Produkter: </b> Fannt Produkter déi an engem spezifeschen Datumbereich derbäigesat ginn, z.B. <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10389,13 +10390,13 @@ export default {
       },
     },
     help_dialog: {
-      title: "Element Zu benotzen Element Inhalt",
+      title: "Wéi benotzt dynamesch Inhalter",
       how_it_works_tips:
         "Op de Landungssäiten hutt Dir d'Flexibilitéit fir dynamesch Plazhalter fir Text a Biller ze designéieren. Dës Plazhalter déngen eng bedeitend Roll beim Personnalisatioun vum Inhalt no dem Kontext.   Déi dynamesch Natur vun dëse Plazhalter erlaabt datt se duerch Augmentatiounswäerter besat ginn, déi op Basis vu verschiddene Faktoren variéiere kënnen. Zum Beispill kënnen d'Vergréisserungswäerter fir all Produkt oder Kategorie anescht sinn. De richtege Virdeel vun dëser Feature kënnt an d'Spill wann Dir eng Vielfalt vun Elementer mat ënnerschiddlechen Attributer hutt. Dir kënnt effektiv dës dynamesch Plazhalter benotze fir d'Display vun all Element ze personaliséieren an ze verbesseren, an doduerch eng eenzegaarteg an interaktiv Erfarung op Äre Landungssäiten ze kreéieren.",
       assign_tips:
-        "Zu Element Element änneren Zu Biller, Klickt op D'Domain Element Knäppchen Element op D'Domain Lénks Säit vu D'Domain Sektioun.",
+        "Fir Biller dynamesch Wäerter ze ginn, klickt op de fidderen Knäppchen op der lénker Säit vun der Rubrik.",
       set_dynamic_image_tips:
-        "Dir elo Element D'Domain Element Zu Element D'Domain Bild URL a Element et engem Element Wäert.",
+        "Dir hutt elo d'Fäegkeet d'Bild URL z'änneren an et en dynamesche Wäert ze ginn.",
       enter_values_tips:
         "Fir all Produkt hutt Dir d'Fäegkeet engagéiert Schlëssel-Wäertpairen ze ginn.",
       result_tips:
@@ -10410,14 +10411,14 @@ export default {
     languages: {
       title: "Element Sprooch",
       subtitle:
-        "dës ass D'Domain Lëscht vu Inhalt Sproochen. Dir Element Set Element Inhalt fir D'Domain Logistik Profil Op Element Sprooch.",
+        "Dëst ass d'Lëscht vun Inhaltssproochen. Dir kënnt verschidden Inhalter fir de Logistikprofil an all Sprooch setzen.",
       add_caption: "dobäisetzen Nei Artikel",
       no_more_language: "nee Méi.. Sprooch!",
     },
     content: {
       title: "Inhalt",
       subtitle:
-        "Dir Element Element D'Domain Inhalt fir D'Domain Logistik Profil Op Multiple Sproochen.",
+        "Dir kënnt den Inhalt fir de Logistikprofil a verschidde Sprooche personaliséieren.",
 
       language_input: "Aktuellt Artikel Sprooch",
       delete_article: "Läschen Artikel",
@@ -10429,14 +10430,14 @@ export default {
         message: "Artikel Iwwersetzung Ofgeschloss dobäigesat.",
       },
       save_article: {
-        message: "Artikel Element Element Gespäichert dobäigesat.",
+        message: "Artikel gouf erfollegräich gespäichert.",
       },
       delete_article: {
-        message: "Artikel Element Element Geläscht dobäigesat.",
+        message: "Artikel gouf erfollegräich geläscht.",
       },
     },
     delete_dialog: {
-      message: "si Dir Element Zu Läschen dës Artikel fir Element?",
+      message: "Sidd Dir sécher dësen Artikel fir ëmmer ze läschen?",
       action: "Jo, Elo läschen",
     },
   },
@@ -10456,7 +10457,7 @@ export default {
     inputs: {
       name: {
         message:
-          "dës Numm Element Zu Dir a Element net Element Element Zu D'Domain Ëffentlech.",
+          "Dësen Numm weist Iech a gëtt net dem Public opgedeckt.",
       },
       accept_delete: {
         true_description:
@@ -10476,23 +10477,23 @@ export default {
     title: "Logistik Profiler",
     add_caption: "dobäisetzen Nei Profil",
     subtitle:
-      "Dir Element Schafen a änneren D'Domain Retour a 📦 Retour Politik fir Produkter hei a Element et Zu Element Produkter. Dir Element Element Element Retour Element fir Element Zorte vu Produkter.",
+      "Dir kënnt d'Garantie an d'Retour Politik fir Produkter hei erstellen an änneren an et un all Produkter zouweisen. Dir kënnt verschidde Garantie Politik fir verschidden Zorte vu Produiten definéieren.",
     add_dialog: {
       title: "Schafen Nei Logistesch Profil",
       config: {
         title: "Allgemeng Informatiounen",
         subtitle:
-          "Wielt D'Domain Profil Typ. et Element Element engem Element, Retour, oder Element Aner Inhalt a Material Element Element ënnert Multiple Produkter.",
+          "Wielt de Profiltyp. Et kann e Guide, Garantie oder all aner Inhalter a Material sinn, déi allgemeng ënner verschidde Produkter gedeelt ginn.",
       },
       article: {
         title: "Artikel",
         subtitle:
-          "Dir Element dobäisetzen Méi.. Sproochen No Element dës Logistesch Profil.",
+          "Dir kënnt méi Sproochen derbäi no dësem logistesche Profil erstellen.",
       },
       inputs: {
         name: {
           message:
-            "dës Numm Element Zu Dir a Element net Element Element Zu D'Domain Ëffentlech.",
+            "Dësen Numm weist Iech a gëtt net dem Public opgedeckt.",
           placeholder: "Gitt engem Numm fir D'Domain Profil...",
         },
       },
@@ -10506,17 +10507,17 @@ export default {
     title: "Am Artikelen Gestioun",
     add_caption: "dobäisetzen Nei item",
     subtitle:
-      "hei, Dir Element Verwalte D'Domain Artikelen Am Op Äre Produkter. Zu Element engem Element Ausgesinn fir Äre Buttek, Element benotzen Artikelen mat Element Bild Element, Element Element Element, Element all Produkter.",
+      "Hei kënnt Dir d'Elementer verwalten, déi an Äre Produkter abegraff sinn. Fir e flawless Erscheinungsbild fir Äre Geschäft ze garantéieren, benotzt konsequent Artikele mat ähnlechen Bildmuster, wéi Drotframes, iwwer all Produkter.",
     empty_list_msg: "Lëscht vu Am Artikelen...",
     notifications: {
       delete: {
-        message: "D'Domain item Element Element Geläscht.",
+        message: "Den Artikel gouf geläscht.",
       },
     },
     delete_dialog: {
       title: "Läschen Am item",
       message:
-        "si Dir Element Dir Element Zu Element Läschen dës item? wait Notiz Element et Element Element Element geläscht Vun all Element Produkter!",
+        "Sidd Dir sécher datt Dir dëst Element permanent läschen wëllt? Maacht weg datt et och vun all verbonne Produkter geläscht gëtt!",
       action: "jo, Läschen elo",
     },
     actions: {
@@ -10533,18 +10534,18 @@ export default {
 
     title: "Am item",
     subtitle:
-      "Wielt engem Element Titel, Element mat 2 Zu 3 Element um Meescht. benotzen Element Biller, Element Element Element Auto-Element eropgelueden Biller Zu engem 256Element256 Element Element. fir D'Domain Beschte Ausgesinn Element all Templates, Element Element Biller mat transparent Element a Element engem Element Muster Element Äre Produkter.",
+      "Wielt e kuerzen Titel, am Idealfall mat maximal 2 bis 3 Wierder. Benotzt quadratesch Biller, well mir automatesch d'Gréisst vun eropgeluede Biller op e 256x256 Quadratformat änneren. Fir déi bescht Erscheinung iwwer all Templates, benotzt minimalistesch Biller mat transparenten Hannergrënn an behalen en eenheetlecht Muster duerch Är Produkter.",
     inputs: {
       title: {
-        placeholder: "Element Titel Element op Produit Säit...",
+        placeholder: "Kuerz Titel ugewisen op Produkt Säit...",
       },
       code: {
-        placeholder: "eenzegaarteg Code, Ex. Element_Element_Element",
-        hint: "benotzen dës Code Zu Element D'Domain sichen Element fir Element Artikelen.",
+        placeholder: "Eenzegaarteg Code, ex. mobile_kabel_usb",
+        hint: "Benotzt dëse Code fir de Sichprozess fir Elementer ze lokaliséieren.",
       },
       description: {
         placeholder: "engem kuerzen Beschreiwung Iwwert dës item...",
-        hint: "Beschreiwung Element Element Benotzt fir SEO a Element Element Zu Benotzer op Element Benotzerdefinéiert Element Op D'Domain Produit Säit.",
+        hint: "Beschreiwung gëtt fir SEO benotzt a vläicht sichtbar fir Benotzer op e puer personaliséierte Layouten op der Produktsäit.",
       },
       image: {
         message: "Max Bild Gréisst: 1MB",
@@ -10560,21 +10561,21 @@ export default {
       external_link: {
         title: "Extern Link",
         description: "Set engem Link Zu e extern URL.",
-        tips: "Dir Element Element Element URL Zu D'Domain item. wann Benotzer Klickt op D'Domain item op D'Domain Produit Säit, Element Element Element Element Zu Element Link.",
+        tips: "Dir kënnt all URL un den Artikel befestigen. Wann d'Benotzer op den Artikel op der Produktsäit klickt, gi se op dee Link ëmgeleet.",
       },
       internal_link: {
         title: "Element Link",
         description:
-          "Schafen Element Säit no Element Element Daten fir dës item.",
-        tips: "Dir Element Link engem Landung Säit mat D'Domain Profil a Set engem Benotzerdefinéiert Wee a Element Inhalt fir et. Sellone Element Element engem Element Link fir D'Domain item. Selldone",
+          "Erstellt dynamesch Säit andeems Dir Augmentdaten fir dësen Artikel geliwwert hutt.",
+        tips: "Dir kënnt eng Landung Säit mam Profil verbannen an e personaliséierte Wee an dynameschen Inhalt dofir setzen. Sellone generéiert en dynamesche Link fir den Artikel.",
       },
     },
     notifications: {
       add: {
-        message: "D'Domain Am item Element Element erfollegräich dobäigesat.",
+        message: "Den abegraff Element ass erfollegräich bäigefüügt.",
       },
       edit: {
-        message: "D'Domain Am item Element Element erfollegräich dobäigesat.",
+        message: "Déi abegraff Element gouf erfollegräich aktualiséiert.",
       },
     },
   },
@@ -10584,7 +10585,7 @@ export default {
   shop_logistic_returns: {
     title: "Zréckkomm Bestellungen",
     subtitle:
-      "Äre Clienten Element 📦 Retour Element Kierperlech Bestellungen, a Dir Element Vue 📦 Retour Ufroen op D'Domain 🛍️ Bestellen Veraarbechtung Säit oder Zougang engem Komplett Lëscht vu Zréckkomm Bestellungen hei.",
+      "Är Clienten kënnen hir kierperlech Bestellungen zréckginn, an Dir kënnt Retourufroen op der Bestellungsveraarbechtungssäit gesinn oder op eng komplett Lëscht vun zréckgeschéckten Bestellungen hei kommen.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10593,7 @@ export default {
   referral_fees: {
     title: "Element",
     subtitle:
-      "D'Domain Lëscht vu all Element Dir Element Element Vun Äre Element. et Element Element Zu 30 30 Deeg fir D'Domain Kommissioun Zu Element Element a Transfert Zu Äre Portemonnaie.",
+      "D'Lëscht vun alle Kommissiounen déi Dir vun Äre Referratiounen verdéngt hutt. Et dauert bis zu 30 Deeg fir d'Kommissioun guttgeheescht ze ginn an op Äre Portemonnaie ze transferéieren.",
   },
   /**
    * @see OReferralWallets
@@ -10600,24 +10601,24 @@ export default {
   referral_wallets: {
     title: "Portemonnaien",
     subtitle:
-      "hei Dir Element Element D'Domain Kommissioun Element Dir Element Element. Dir Element Transfert Äre Kommissioun Element Zu Äre Element Kont oder Äre Sellone Portemonnaie. Selldone",
-    no_commission_yet: "Dir Element net Empfang Element Kommissioun nach.",
+      "Hei kënnt Dir d'Kommissiounskäschte gesinn, déi Dir verdéngt hutt. Dir kënnt Är Kommissiounskäschten op Äre Bankkonto oder Äre Selldone Portemonnaie transferéieren.",
+    no_commission_yet: "Dir hutt nach keng Kommissioun kritt.",
     no_wallet: "nee Portemonnaie!",
 
     withdraw_dialog: {
-      title: "Element Kommissioun Element Fee",
+      title: "Kommissiounskäschten zréckzéien",
 
       need_bank_info_message: "wait Gitt Dir Element Informatiounen éischte.",
 
       to_wallet: {
         title: "Zu Portemonnaie",
         subtitle:
-          "mat dës Optioun, Dir Element Transfert Kommissioun Element Zu Äre Sellone Portemonnaie. wait Geld Element Element engem Portemonnaie ass verbonnen Element Äre Cadeau Portemonnaie, a Element et Element mat D'Domain Element Währung. Selldone",
+          "Mat dëser Optioun kënnt Dir Kommissiounskäschten op Äre Selldone Portemonnaie transferéieren. Gitt sécher datt e Portemonnaie als Äre Kaddo-Portemonnaie verbonnen ass, an datt et mat der selwechter Währung funktionnéiert.",
       },
       to_bank: {
         title: "Zu Element",
         subtitle:
-          "mat dës Optioun, Dir Element Transfert Kommissioun Element Zu Äre Sellone Portemonnaie. wait Geld Element Element engem Portemonnaie ass verbonnen Element Äre Cadeau Portemonnaie, a Element et Element mat D'Domain Element Währung. Selldone",
+          "Mat dëser Optioun kënnt Dir Kommissiounskäschten op Äre Selldone Portemonnaie transferéieren. Gitt sécher datt e Portemonnaie als Äre Kaddo-Portemonnaie verbonnen ass, an datt et mat der selwechter Währung funktionnéiert.",
       },
       inputs: {
         verify_to_wallet: {
@@ -10626,17 +10627,17 @@ export default {
         },
         verify_to_bank: {
           true_description:
-            "Ech Verifizéiert Meng Element Informatiounen a Ech Element Zu Transfert Meng Kommissioun Zu Meng Element Kont.",
+            "Ech verifizéiere meng Bankinformatioun an ech wëll meng Kommissioun op mäi Bankkonto iwwerweisen.",
         },
       },
       actions: {
         withdraw_to_wallet: "Element Zu Portemonnaie",
-        withdraw_to_bank: "Element Zu Element",
+        withdraw_to_bank: "Bank zréckzéien",
       },
     },
     notifications: {
       request_transfer_to_bank_success:
-        "Äre Ufro Element Element dobäigesat Empfang, a Element Element Iwwerpréiwung et.",
+        "Är Demande gouf erfollegräich kritt, a mir wäerten et iwwerpréiwen.",
     },
   },
 
@@ -10645,18 +10646,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "Dir Element dobäisetzen <b>?Element={code}</b> Zu Element Sellone URL.",
+      message: "Dir kënnt <b>?ref={code}</b> op all verkaafte URL addéieren.",
     },
     intro: {
-      title: "Element D'Domain Sellone Affiliate Element Selldone",
+      title: "Maacht mat beim Selldone Affiliate Programm",
       message:
-        "D'Domain Sellone Affiliate Element ass Einfach a Element, entworf fir Dir Zu Element Element. Element Äre eenzegaarteg Affiliate Link Zu Element Nei Benotzer Zu Sellone, a Element Element engem Kommissioun Vun Element Transaktioun Element Geld—Element. dës Enthält Element Vun Abonnementer, Service Element, Buttek Element, a all Aner Recetten Element. Start Element engem Element vu D'Domain Recetten Element Element Grenzen op Zäit oder Element. Element eis a Element Äre Element Element engem Element Akommes! Selldone",
-      why_join_selldone_affiliate: "Element ass dës engem eenzegaarteg Element?",
+        "De Selldone Affiliate Programm ass einfach an einfach, entwéckelt fir Iech ouni Effort ze verdéngen. Deelt Ären eenzegaartegen Affiliate Link fir nei Benotzer op Selldone ze invitéieren, an Dir verdéngt eng Kommissioun vun all Transaktioun déi se maachen - fir ëmmer. Dëst beinhalt Akommes aus Abonnementer, Servicekäschten, Buttek Upgrades, an all aner Akommesstroum. Fänkt un en Deel vun de Recetten ze verdéngen ouni Grenzen op Zäit oder Akommes. Maacht mat an dréit Äert Netzwierk an e stännegt Akommes!",
+      why_join_selldone_affiliate: "Firwat ass dëst eng eenzegaarteg Geleeënheet?",
       reasons: [
-        "et Element Element!",
-        "Element all Abonnement a Transaktioun Element. Element Element 💳 Bezuelung vu D'Domain Benotzer op Sellone. Selldone",
-        "Mir schécken e gratis $99 Bong un jiddereen deen sech mat Ärem Link registréiert.",
-        "wann Äre Tier Element, Dir Element Element um D'Domain Nei Taux Vun all Element Element Benotzer.",
+        "Et dauert fir ëmmer!",
+        "Deckt all Abonnement an Transaktiounskäschten. Wuertwiertlech all Bezuelung vum Benotzer op Selldone.",
+        "Mir schécken e gratis $ 99 Bong un jiddereen deen Iech registréiert mat Ärem Link.",
+        "Wann Är Tier Upgrades, verdéngt Dir mam neien Taux vun all virdrun bezeechent Benotzer.",
       ],
     },
   },
@@ -10680,13 +10681,13 @@ export default {
         "Benotzt dëst Tool fir Stiler wéi Schrëften, Hannergrënn, Margen a Grenzen ze replizéieren. Follegt dës Schrëtt fir Stiler ze duplizéieren:",
       step_1:
         "Aktivéiert d'Tool an hover Är Maus iwwer Text, Kolonnen oder Biller; de Cursor wäert zu enger Pipette änneren.",
-      step_2: "Klickt op D'Domain Element Element Stil Dir Element Zu Kopie.",
+      step_2: "Klickt op dat Element deem säi Stil Dir kopéiere wëllt.",
       step_3:
-        "D'Domain Element Element Änneren Zréck Zu engem Element; Klickt op D'Domain Element Element Dir Element Zu Filter D'Domain Element Stil.",
+        "De Cursor wäert zréck an eng Palette änneren; klickt op d'Element wou Dir de kopéierte Stil gëlle wëllt.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "Element D'Domain Element vu D'Domain Säit Menü, Element Enthält all Sektioun Kategorien fir Gebai... Äre Säit.",
+        "Toggle d'Visibilitéit vum Säitmenü, deen all Sektiounskategorien enthält fir Är Säit ze bauen.",
     },
     sort_tooltip: {
       subtitle:
@@ -10701,32 +10702,32 @@ export default {
         "Kuckt Är Säit wéi d'Benotzer se gesinn andeems Dir extra Redaktiounsinstrumenter an eidel Textberäicher verstoppt.",
     },
     repository_tooltip: {
-      title: "Element Element",
+      title: "Prebuilt Sektiounen",
       subtitle:
         "Wiesselt d'Display vu vir-entworfene Sektiounen. Dës Sektioune ginn erstallt mat de Standardsektiounen déi am lénksen Menü verfügbar sinn, déi d'Flexibilitéit vun dësem Säitebauer weisen.",
     },
     live_view: {
       title: "live Virschau",
-      subtitle: "Element Aktualiséierungen Op Immobilien-Zäit Element Dir änneren Äre Säit.",
+      subtitle: "Kuckt Updates an Echtzäit wéi Dir Är Säit ännert.",
     },
     hotkeys_dialog: {
-      title: "Element Element",
+      title: "Tastatur Ofkiirzungen",
       augment_tips:
-        "Dir Element Element Element Inhalt Element Äre Säit a Element et mat <b>Element</b> änneren. Element ass Benotzt fir Benotzerdefinéiert Element Säiten Element Element <b>Produkter</b>, <b>Kategorien</b>, a <b>Element Artikelen</b>. Zu Set e Bild Zu Element Element, Klickt op <b>Element</b> a Wielt <b>Element Element</b> fir Element Bild. Fee",
+        "Dir kënnt dynamesch Inhalter op Är Säit lueden an duerch <b>augment</b> Wäerter ersetzen. Augment gëtt fir personaliséiert dynamesch Säiten benotzt wéi <b>Products</b>, <b>Categories</b>, an <b>Include Items</b>. Fir e Bild ze setzen fir dynamesch ze lueden, klickt op <b>Feeder</b> a wielt <b>Dynamic Source</b> fir dat Bild.",
     },
     hotkeys: {
-      ctrl_b: "Element Element op/OFF fir ausgewielt Text | <b>Geld mech Element</b>",
-      ctrl_i: "Element Element op/OFF fir ausgewielt Text | <i>Geld mech Element</i>",
+      ctrl_b: "Këscht Fett op / aus fir ausgewielten Text | <b>Maacht mech fett</b>",
+      ctrl_i: "Kursiv op/ausschalten fir ausgewielten Text | <i>Maacht mech kursiv</i>",
       ctrl_l:
-        "Element Element op/OFF fir ausgewielt Text | <s>Element Element mech</s>",
-      ctrl_u: "Element Element op/OFF fir ausgewielt Text | <u>Element mech</u>",
+        "Wiesselt Duerchschnëtt un/aus fir ausgewielten Text | <s>Strike duerch me</s>",
+      ctrl_u: "Toggle ënnersträichen op / aus fir ausgewielt Text | <u>Underline me</u>",
       ctrl_1:
-        "Element Element Gréisst vu ausgewielt Text | <small>Geld mech Element</small>",
+        "Schrëftgréisst vum gewielten Text reduzéieren | <small>Maacht mech kleng</small>",
       ctrl_2: "Erhéijung Element Gréisst vu ausgewielt Text | <big>Geld mech Big</big>",
-      ctrl_r: "Ewechzehuelen all Element Vun ausgewielt Text | Element all Element",
+      ctrl_r: "Ewechzehuelen all Formatéierung aus ausgewielten Text | Botzen all Stiler",
       ctrl_s: "Spueren D'Domain Säit",
-      tab: "Element Element Element Element",
-      ctrl_e: "Element oder Element Element Stil Modus",
+      tab: "Wiessel tëscht Skala Modi",
+      ctrl_e: "Aktivéiert oder deaktivéiert de Klonstilmodus",
     },
   },
 
@@ -10734,8 +10735,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "ZéElement-engem-Element Element",
-    subtitle: "Element-Element Element",
+    title: "Drag & Drop",
+    subtitle: "Pre-Built Sektiounen",
     add_dialog: {
       title: "dobäisetzen Benotzerdefinéiert Sektioun",
       configuration: {
@@ -10750,7 +10751,7 @@ export default {
       code: {
         title: "Element",
         subtitle:
-          "Dir Element Kopie a Element D'Domain Element Code Vun D'Domain Lénks Säit Element Op D'Domain Säit Assistant.",
+          "Dir kënnt den Elementcode vun de lénksen Sektiounen am Säitebauer kopéieren a pechen.",
       },
       inputs: {
         title: {
@@ -10759,7 +10760,7 @@ export default {
         },
         tags: {
           label: "Element",
-          message: "Benotzt fir Element a Element Element.",
+          message: "Benotzt fir Elementer ze sichen an ze kategoriséieren.",
         },
         section: {
           message: "Kopie D'Domain Sektioun Vun D'Domain Säit Assistant.",
@@ -10774,12 +10775,12 @@ export default {
   marketplace_vendors: {
     title: "Verkeefer Lëscht",
     subtitle:
-      "dobäisetzen Verkeefer hei, Element Element Element Zu Produkter Op D'Domain Produit Iwwersiicht > Verkeefer.",
+      "Füügt Ubidder hei un, gitt se dann u Produkter am Product Dashboard > Vendors.",
     add_new_vendor_action: "dobäisetzen Nei Verkeefer",
     status_tooltip: {
       title: "Verkeefer Status",
-      ACCEPTED: "D'Domain Verkeefer Element Zougang Zu Element Element.",
-      REJECTED: "D'Domain Verkeefer Ufro Element Element Refuséiert.",
+      ACCEPTED: "De Verkeefer huet Zougang zu hirem Panel.",
+      REJECTED: "D'Verkeefer Ufro gouf refuséiert.",
       PENDING: "D'Domain Ufro ass Waarden engem Element Vun D'Domain Verkeefer.",
     },
     number_of_products: "Zuel vu Produkter",
@@ -10798,7 +10799,7 @@ export default {
     access_tooltip: {
       title: "Element Zougang",
       subtitle:
-        "D'Domain Verkeefer Element Zougang Zu Element Element. Dir Element änneren dës Op Verkeefer > Zougang Element.",
+        "De Verkeefer huet Zougang zu hirem Panel. Dir kënnt dëst am Vendor> Access Tab änneren.",
     },
     reject_by_user_tooltip: {
       title: "Refuséiert no Benotzer",
@@ -10815,7 +10816,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Lizenz Upgrade Element!",
     subtitle:
-      "Äre Aktuellt Lizenz Element net Element D'Domain Element vu Äre ausgewielt Affär Model. wait Upgrade Äre Lizenz Zu D'Domain Enterprise Plang.",
+      "Är aktuell Lizenz entsprécht net den Ufuerderunge vun Ärem gewielte Geschäftsmodell. Upgrade w.e.g. Är Lizenz op den Enterprise Plang.",
   },
 
   /**
@@ -10824,38 +10825,38 @@ export default {
   b_order_chat_box: {
     title: "Quick Aktiounen",
     subtitle:
-      "Dir Element Schécken engem Status aktualiséieren E-Mail Zu D'Domain Keefer mat Nëmmen Element Klickt. Element, Dir Element Element Element Messagen hei Zu Element, Element Dir Verpasst Element Zu Element Element Element Zäit.",
+      "Dir kënnt e Status Update E-Mail un de Keefer mat just engem Klick schécken. Zousätzlech kënnt Dir hei gemeinsam Messagen definéieren fir ze benotzen, sou datt Dir se net all Kéier muss nei schreiwen.",
     send_update_email_action: "Schécken aktualiséieren E-Mail",
     add_template_action: "dobäisetzen Message... Schabloun",
 
     notifications: {
-      add_chat_success_message: "Message... Element Element erfollegräich dobäigesat.",
+      add_chat_success_message: "Message gouf erfollegräich dobäigesat.",
     },
 
     send_update_email: {
       title: "🛍️ Bestellen aktualiséieren E-Mail",
       need_set_service_alert: {
         message:
-          "wait Set Äre E-Mail Service Element Zu Element D'Domain E-Mail Zu Element Geschéckt.",
+          "Setzt w.e.g. Ären E-Mail Service Provider fir datt d'E-Mail geschéckt gëtt.",
         action: "Element Zu Astellungen",
       },
       send_action: "Schécken aktualiséieren E-Mail",
 
       notifications: {
-        send_success_message: "E-Mail Element Element Geschéckt dobäigesat.",
+        send_success_message: "E-Mail gouf erfollegräich geschéckt.",
       },
     },
     add_template: {
       edit_title: "änneren Message... Schabloun",
       add_title: "dobäisetzen Message... Schabloun",
       message:
-        "Dir Element Set engem Titel a Message... Kierper hei. D'Domain Titel Bezuelen Element Benotzt fir Äre Element a Element net Geschéckt Zu D'Domain Client.",
+        "Dir sollt en Titel a Message Kierper hei setzen. Den Titel gëtt nëmme fir Är Referenz benotzt a gëtt net un de Client geschéckt.",
 
       save_action: "Spueren Schabloun",
       add_action: "dobäisetzen Schabloun",
 
       notifications: {
-        save_success_message: "Schabloun Element Element Gespäichert dobäigesat.",
+        save_success_message: "Schabloun gouf erfollegräich gespäichert.",
       },
 
       inputs: {
@@ -10867,7 +10868,7 @@ export default {
           label: "Schabloun Message...",
           placeholder: "Schreift Äre Message... hei...",
           messages:
-            "Dir Element Set Element änneren no {order_id} a {buyer_name}.",
+            "Dir kënnt dynamesch Wäerter setzen duerch {order_id} an {buyer_name}.",
         },
       },
     },
@@ -10878,15 +10879,15 @@ export default {
    */
   b_order_share: {
     title: "🛍️ Bestellen Link",
-    subtitle: "Dir Element Element D'Domain 🛍️ Bestellen Link mat D'Domain Client.",
+    subtitle: "Dir kënnt den Bestellungslink mam Client deelen.",
     guest_checkout_message:
-      "Element Element Element Element Vue Element 🛍️ Bestellen Op D'Domain Element Element.Element, Element D'Domain Client ass engem Element a Dir Braucht Zu Element D'Domain 🛍️ Bestellen Detailer, Dir Element Schafen engem (Sécher) Link fir Element.",
+      "Guest Shoppers kënnen hir Bestellung automatesch am selwechte Browser kucken. Wann de Client awer Gaascht ass an Dir musst d'Bestellungsdetailer deelen, kënnt Dir e séchere Link fir si erstellen.",
     authentication: "Element",
     guest: "Element",
     click_to_create: "Klickt Zu Schafen...",
     valid_for_30_days: "Valabel fir 30 30 Deeg",
     notifications: {
-      secure_link_created: "(Sécher) Link Element Element erstallt dobäigesat.",
+      secure_link_created: "Séchere Link gouf erfollegräich erstallt.",
     },
   },
 
@@ -10897,7 +10898,7 @@ export default {
     title: "Rezensiounen Element",
     add_source_action: "dobäisetzen Iwwerpréiwung Element",
     subtitle:
-      "Element Connect extern Element Zu Element a Element Rezensiounen Iwwert Äre Affär Vun Element Wéi Facebook, Google, a Méi... Element Element Element Clienten Zu Element Rezensiounen fir engem Element Client Element. Dir Element Element Element Element Rezensiounen op Äre Landung Säiten a Produit Säiten.",
+      "Einfach extern Plattforme verbannen fir Bewäertungen iwwer Äert Geschäft vu Quelle wéi Facebook, Google a méi ze sammelen an ze analyséieren. Mir passen Clienten automatesch un hir Bewäertunge fir eng besser Clientserfarung. Dir kënnt dës Rezensiounen och op Är Landungssäiten a Produktsäiten weisen.",
   },
 
   /**
@@ -10905,7 +10906,7 @@ export default {
    */
   shop_logistic_property_set: {
     add_caption: "dobäisetzen Nei Element Set",
-    title: "Element Element",
+    title: "Property Sets",
     subtitle:
       "Dir kënnt Immobiliesets erstellen a verwalten hei. Property Sets gi benotzt fir d'Eegeschafte vu Produkter a Servicer ze definéieren. Dir kënnt dës Eegeschaftesets u Produkter am Produkt Dashboard> Editéieren.",
   },
@@ -10917,7 +10918,7 @@ export default {
     profile: {
       title: "Element Set - Benotzerdefinéiert Varianten",
       subtitle:
-        "Dir Element Element D'Domain Variant Element fir dës Produit, Element D'Domain Standard Element.",
+        "Dir kënnt d'Variantennimm fir dëst Produkt personaliséieren, déi Standard ersetzen.",
     },
 
     subtitle:
@@ -10931,7 +10932,7 @@ export default {
     title: "Element",
     add_action: "dobäisetzen Këscht",
     subtitle:
-      "Schafen Element Këscht Element Zu Element Element Label Akeef a Element präzis Liwwerung Tariffer. wann Element e 🛍️ Bestellen, Wielt engem Gespäichert Këscht a Element Dimensiounen Element Auto-Element.",
+      "Erstellt wiederverwendbare Këschtgréissten fir Label Akeef ze beschleunegen an korrekt Versandraten ze garantéieren. Wann Dir eng Bestellung erfëllt, wielt eng gespäichert Këscht a seng Dimensiounen ginn automatesch ausfëllen.",
     empty: "nee Element nach. Klickt “dobäisetzen Këscht”.",
     edit: "änneren Këscht",
     new: "Nei Këscht",
@@ -10945,7 +10946,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Wielt engem Package",
     define_package: "Element engem Package",
-    define_package_hint: "Schafen oder änneren Äre Element Package Element",
+    define_package_hint: "Erstellt oder ännert Är virdefinéiert Packagegréissten",
   },
 
 
@@ -11002,7 +11003,7 @@ export default {
       opening_hours_json: "Element Stonnen JSON",
 
       delete_title: "Läschen item",
-      delete_message: "si Dir Element Dir Element Zu Läschen dës item?",
+      delete_message: "Sidd Dir sécher, datt Dir dëst Element läschen wëllt?",
       delete_success: "Element erfollegräich geläscht.",
       restore_success: "item Element dobäigesat.",
 
@@ -11021,7 +11022,7 @@ export default {
 
       empty_title: "nee Kategorien nach",
       empty_subtitle:
-        "Schafen Kategorien Zu Struktur Äre Lëschtung a Element Element.",
+        "Erstellt Kategorien fir Är Oplëschtung ze strukturéieren an de Surfen ze verbesseren.",
 
       add_title: "Kategorie addéieren",
       edit_title: "Kategorie änneren",
@@ -11034,7 +11035,7 @@ export default {
       design_id: "Design ID",
 
       delete_title: "Kategorie läschen",
-      delete_message: "si Dir Element Dir Element Zu Läschen dës Kategorie?",
+      delete_message: "Sidd Dir sécher, datt Dir dës Kategorie läschen wëllt?",
       delete_success: "Kategorie Geläscht dobäigesat.",
       form_schema: "Kategorie Formular Element",
     },
@@ -11063,11 +11064,11 @@ export default {
     supervision: {
       title: "Element",
       sub_title:
-        "Iwwerpréiwung Element Artikelen a Element Element Element Nächste: stëmmen, Verëffentlechen, Oflehnen, Element, oder Zerécksetzen Zu Erwaardung.",
+        "Iwwerpréift proposéiert Elementer an entscheet wat duerno geschitt: approuvéieren, publizéieren, refuséieren, archivéieren oder zrécksetzen op pendend.",
 
       empty_title: "nee Artikelen Zu Iwwerpréiwung",
       empty_subtitle:
-        "wann Benotzer Nei Nei Artikelen, Element Element Element hei fir Element.",
+        "Wann d'Benotzer nei Elementer ofginn, erschéngen se hei fir Moderatioun.",
 
       review_title: "Iwwerpréiwung item",
       approve_publish: "stëmmen & Verëffentlechen",
@@ -11087,14 +11088,14 @@ export default {
       unpublish_success: "item Element dobäigesat.",
       archive_success: "item Element dobäigesat.",
       reject_success: "item Refuséiert dobäigesat.",
-      penalty_success: "Element Element dobäigesat.",
+      penalty_success: "Eelefmeter erfollegräich applizéiert.",
 
       reject_title: "Oflehnen item",
-      reject_reason: "Element Element",
+      reject_reason: "Ofleenung Grond",
 
       penalty: "Element",
       penalty_title: "Element",
-      penalty_points: "Element Element",
+      penalty_points: "Eelefmeterpunkten",
       penalty_note: "Element Notiz"
     },
 
@@ -11114,11 +11115,11 @@ export default {
     designs: {
       title: "Element",
       sub_title:
-        "Schafen Multiple Design Element (Kaart + Detailer Templates) a Element Element Zu Kategorien. Kategorien Element benotzen Element Element.",
+        "Erstellt verschidde Designsets (Kaart + Detailer Templates) a gitt se u Kategorien zou. Kategorien kënne verschidden Designen benotzen.",
 
       empty_title: "nee Element nach",
       empty_subtitle:
-        "dobäisetzen Äre éischte Design Set Zu Start Element Element Kategorien Element.",
+        "Füügt Ären éischten Design Set fir unzefänken ze personaliséieren wéi Kategorien ausgesinn.",
 
       add_title: "dobäisetzen Design",
       edit_title: "änneren Design",
@@ -11134,7 +11135,7 @@ export default {
 
       delete_title: "Läschen Design",
       delete_message:
-        "Läschen dës Design? Kategorien Element et Element Element Element Design_ID.",
+        "Dësen Design läschen? Kategorien déi se benotzen, verléieren automatesch design_id.",
     },
 
 
@@ -11148,7 +11149,7 @@ export default {
 
       empty_title: "nee Schëlder nach",
       empty_subtitle:
-        "dobäisetzen Äre éischte Element Zu Start Element Lëschtung Artikelen.",
+        "Füügt Ären éischte Badge fir d'Lëscht vun Artikelen ze markéieren.",
 
       add_title: "dobäisetzen Element",
       edit_title: "änneren Element",
@@ -11160,13 +11161,13 @@ export default {
       },
 
       delete_title: "Läschen Element",
-      delete_message: "si Dir Element Dir Element Zu Läschen dës Element?",
+      delete_message: "Sidd Dir sécher, datt Dir dëse Badge läsche wëllt?",
     },
 
     companies: {
       title: "Firmen",
       sub_title:
-        "Schafen a Verwalte Firmen. Element Lëschtung item Element Element Element verbonne Zu Element Firma.",
+        "Schafen a managen Firmen. All Oplëschtungsartikel kann optional mat enger Firma verbonne sinn.",
 
       empty_title: "nee Firmen nach",
       empty_subtitle:
@@ -11183,7 +11184,7 @@ export default {
 
       delete_title: "Läschen Firma",
       delete_message:
-        "Läschen dës Firma? Artikelen Element et Element Element Element D'Domain Firma Link.",
+        "Dës Firma läschen? Elementer déi se benotzen, verléieren automatesch de Firmenlink.",
     },
 
 
@@ -11192,7 +11193,7 @@ export default {
       title: "Messagen",
       sub_title: "Verwalte Messagen Geschéckt no Benotzer Vun Lëschtung Profiler.",
       empty_title: "nee Messagen",
-      empty_subtitle: "Messagen Geschéckt no Benotzer Element Element hei.",
+      empty_subtitle: "Messagen déi vun de Benotzer geschéckt ginn erschéngen hei.",
 
       sender: "Element",
       item: "item",
@@ -11203,13 +11204,13 @@ export default {
       dialog_title: "Message...",
       owner_reply: "Besëtzer Äntwert",
       reply: "Äntwert",
-      reply_hint: "Schreift engem Äntwert Zu D'Domain Benotzer. Dir Element Element Element D'Domain Message... Element Liest/Element Vun Aktiounen.",
+      reply_hint: "Schreift eng Äntwert op de Benotzer. Dir kënnt och de Message als gelies / Spam vun Aktiounen markéieren.",
 
-      mark_read: "Element Element Liest",
-      mark_unread: "Element Element Element",
+      mark_read: "Markéiert als gelies",
+      mark_unread: "Markéiert als ongelies",
       archive: "Element",
       unarchive: "Element",
-      mark_spam: "Element Element Element",
+      mark_spam: "Mark als Spam",
       mark_not_spam: "net Element",
 
       delete_confirm: "Läschen dës Message...?",
@@ -11217,21 +11218,21 @@ export default {
 
     enable: {
       title: "Lëschtung",
-      subtitle: "Aktivéieren oder Element Äre Ëffentlech Lëschtung Säit. wann aktivéiert fir D'Domain éischte Zäit, Sellone Element Schafen D'Domain Lëschtung Configuratioun Element. Selldone",
-      true_description: "Lëschtung ass aktivéiert. Clienten Element Element Lëschtung Säiten.",
-      false_description: "Lëschtung ass behënnert. D'Domain Lëschtung Säiten a Element si Element.",
+      subtitle: "Aktivéiert oder deaktivéiert Är ëffentlech Lëscht Säit. Wann et fir d'éischte Kéier aktivéiert ass, erstellt Selldone d'Lëschtkonfiguratioun automatesch.",
+      true_description: "Oplëschtung ass aktivéiert. Cliente kënnen Oplëschtungssäiten duerchsichen.",
+      false_description: "Oplëschtung ass behënnert. D'Lëscht Säiten a Soumissioune sinn gespaart.",
       open_listing: "oppen Lëschtung",
-      note: "Dir Element Element Konfiguréieren Element, Grenzen, Element, a Design Bannen Lëschtung Astellungen.",
+      note: "Dir kënnt spéider Moderatioun, Limiten, Formen an Design bannent Listing Astellunge konfiguréieren.",
       vendor_prereq_text:
-        "Element Verkeefer Zu dobäisetzen Lëschtung Artikelen Vun Element Verkeefer Element? éischte, Element Äre Affär Model Zu Maartplaz.",
+        "Wëllt Ubidder Oplëschtungsartikele vun hirem Vendor Panel derbäi? Als éischt, schalt Äre Geschäftsmodell op Marketplace.",
       vendor_prereq_button: "Set Maartplaz Affär Model",
 
       vendor_access_text:
-        "elo Dir Element Element Element Verkeefer Element Zougang Lëschtung Fonctiounen (Artikelen + Firmen). Aktivéieren et Op Maartplaz Astellungen.",
+        "Elo kënnt Dir entscheeden ob Ubidder Zougang zu Listing Features (Artikelen + Firmen) kréien. Aktivéiert et an Marketplace Astellungen.",
       vendor_access_button: "Aktivéieren Lëschtung fir Verkeefer",
 
       more_options_text:
-        "Méi.. Element si Verfügbar Op Lëschtung Astellungen. Dir Element Konfiguréieren Input, UI/Ausgesinn, Element, Grenzen, a Monetiséierungsprojeten Optiounen.",
+        "Méi Kontrollen sinn an Oplëschtungsastellungen verfügbar. Dir kënnt Inputen, UI / Erscheinung, Moderatioun, Limiten a Monetiséierungsoptiounen konfiguréieren.",
       more_options_button: "Element Zu Lëschtung Astellungen",
 
       updated: "Lëschtung erfollegräich.",
@@ -11241,22 +11242,22 @@ export default {
 
     search: {
       title: "sichen Astellungen",
-      subtitle: "Design Element Clienten sichen Äre Lëschtung. Aktivéieren Location-baséiert sichen a Bauen Filteren Vun Äre Benotzerdefinéiert Formular Element.",
+      subtitle: "Design wéi Clienten Är Oplëschtung sichen. Aktivéiert Location-baséiert Sich a baut Filtere vun Äre personaliséierte Formfelder.",
 
       location_title: "Location sichen",
       location_subtitle: "Erlaabt Clienten eng Plaz ze wielen an no Resultater bannent engem konfiguréierbare Radius ze fannen.",
       location_enabled_true: "Location Filter ass aktivéiert. Clienten Element sichen no Distanz.",
-      location_enabled_false: "Location Filter ass behënnert. Element Element net Element Filteren no Distanz.",
+      location_enabled_false: "Location Filter ass ausgeschalt. D'Resultater ginn net op Distanz gefiltert.",
 
       radius_default: "Standard Radius (Element)",
-      radius_default_hint: "Benotzt wann D'Domain Client Element engem Location Element Element net Element engem Radius.",
+      radius_default_hint: "Benotzt wann de Client eng Plaz wielt awer kee Radius wielt.",
       radius_max: "Maximum Radius (Element)",
       radius_max_hint: "De Radius vum Storefront gëtt op dëse Wäert ageklemmt.",
       radius_options: "Radius Optiounen (Element)",
       radius_options_hint: "Dës Wäerter kënnen als séier Optiounen am Storefront UI ugewise ginn.",
 
       filters_title: "sichen Filteren",
-      filters_subtitle: "dobäisetzen Filteren Element Liest änneren Vun item Element Element (Äre Lëschtung/Kategorie Formular Element). benotzen Auto-Element Zu Element Immobilien Optiounen Vun Verëffentlecht Artikelen.",
+      filters_subtitle: "Füügt Filtere déi Wäerter aus Element-Metafelder liesen (Är Oplëschtung / Kategorie Formfelder). Benotzt Auto-generéieren fir real Optiounen aus publizéierten Artikelen ze sammelen.",
       no_filters: "nee Filteren erfollegräich nach.",
       auto_generate: "Auto-Element Optiounen",
 
@@ -11264,7 +11265,7 @@ export default {
       filter_label: "Buttek - Lëschtung - sichen - Filter",
       filter_type: "Typ",
       filter_options: "Optiounen",
-      filter_options_hint: "fir Wielt Filteren, Optiounen Element Element Element oder Generéiert.",
+      filter_options_hint: "Fir ausgewielte Filtere kënnen d'Optiounen manuell oder generéiert ginn.",
       multiple: "Buttek - Lëschtung - sichen - Multiple",
       single: "Eenzel",
       kv_mode: "Schlëssel/Wäert Modus",
@@ -11365,26 +11366,26 @@ export default {
      */
     discount_code: {
       code: [
-        "Element10",
-        "SUMMER 20",
-        "Element30 IP",
-        "BDAY 15",
-        "SCHWAARZE FREIDEG",
-        "Element",
-        "VERSAND FRÄI IP",
-        "FLASHALE",
-        "Clearance",
-        "Element IR",
-        "STUDENT 10",
-        "WINTER 25",
-        "Fréijoër 15",
-        "FALL 20",
-        "BESTSELLER 10",
-        "VAKANZ 30 ID",
-        "VALENTIN 20",
-        "MAMMENDAG",
-        "PAPPERSDAG",
-        "Element",
+        "WELCOME10",
+        "SUMMER20",
+        "VIPSALE30",
+        "BDAY15",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
+        "FREESHIPPING",
+        "FLASHSALE",
+        "CLEARANCE",
+        "EARLYBIRD",
+        "STUDENT10",
+        "WINTER25",
+        "SPRING15",
+        "FALL20",
+        "BESTSELLER10",
+        "HOLIDAY30",
+        "VALENTINE20",
+        "MOTHERSDAY",
+        "FATHERSDAY",
+        "ENDOFYEAR",
       ],
       title: [
         "Flash Verkaf: 20% Off!",
@@ -11437,17 +11438,17 @@ export default {
         "Exklusiv Deal",
         "Bonus Spueren",
         "VIP Remise",
-        "Element - Coupon",
+        "Special Offer",
         "Extra Spueren",
-        "Discount Alarm",
-        "Element Element",
+        "Discount Alert",
+        "Budget Bliss",
         "Wirtschaft Delight",
         "Wäert Bonanza",
         "Präis Schnëtt",
         "Gléck Spueren",
         "Spuert Méi, Shop Méi",
-        "Element - Coupon",
-        "Schnäppchen Element",
+        "Flash Deal",
+        "Bargain Bounty",
         "Direkt spueren",
         "Deal vum Dag",
         "Saisonal klauen",
@@ -11632,13 +11633,13 @@ export default {
       category: [
         "Tech Abléck",
         "Foodie fënnt",
-        "Element Element",
+        "Travel Tales",
         "Gesondheet Tipps",
         "Modesch Favoritten",
-        "Affär Element",
+        "Business Buzz",
         "Liewensstil Geschichten",
         "Sport Aktualiséierungen",
-        "Element - Blog - Kategorie",
+        "Art Highlights",
         "Elterendeel Hiweiser",
       ],
       description: [
@@ -11660,12 +11661,12 @@ export default {
      */
     partner_plan: {
       name: [
-        "Element Pak",
+        "Starter Pack",
         "Essential Plang",
         "Professionell Suite",
         "Enterprise Editioun",
         "Fortgeschratt Tier",
-        "Element Package",
+        "Premium Package",
         "Ultimate Léisung",
         "Elite Niveau",
         "Wuesstem Accelerator",
@@ -11687,7 +11688,7 @@ export default {
         "Sportartikelen",
         "Spillsaachen & Spiller",
         "Bijouen & Accessoiren",
-        "Element Element",
+        "Automotive Parts",
         "Gaart & Outdoor",
         "Kichegeschir",
         "Home Dekor",
@@ -11695,21 +11696,21 @@ export default {
         "Déier Ëmgeréits",
         "Schong",
         "Poschen & Gepäck",
-        "Bürosmaterial",
-        "Element Element",
+        "Büro Ëmgeréits",
+        "Hardware Tools",
         "Epicerie",
       ],
 
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "Element", // Provincial Sales Tax
-        "Element", // Harmonized Sales Tax
-        "Element", // Quebec Sales Tax
-        "Element", // Central Sales Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
         "Akzis Steier", // Excise Tax
-        "Element", // Import Duty
-        "Element", // Service Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
         "LuxeTax", // Luxury Tax
       ],
     },
@@ -11725,15 +11726,15 @@ export default {
         "Beschte Verkeefer",
         "Saisonal Specials",
         "Limitéiert Offeren",
-        "Element Deals",
+        "Event Deals",
         "VIP Exklusiv",
         "Clearance Artikelen",
         "Vakanz Bundles",
         "Thema Kollektiounen",
-        "Mark Element",
+        "Brand Showcases",
         "Member Favoritten",
         "Flash Rabatter",
-        "Buttek Element",
+        "Shop Essentials",
         "Digital Ressourcen",
         "Cadeau Iddien",
         "Öko-frëndlech Picks",
@@ -11746,17 +11747,17 @@ export default {
      */
     popup: {
       title: [
-        "Konfiguréiert a verwalt Element - Optauchen fir Äre Buttek.",
+        "Special Offer!",
         "Nei Arrivée",
         "Limitéiert Zäit",
         "Discount Alarm!",
         "Exklusiv Deals",
         "Hot Verkaf!",
-        "Clearance Alarm",
-        "Versand fräi",
+        "Clearance Alert",
+        "Gratis Versand",
         "Cadeau bannen!",
         "Gewënn Präisser",
-        "Member Element",
+        "Member Perks",
         "Flash Verkaf",
       ],
     },
@@ -11766,26 +11767,26 @@ export default {
      */
     campaign: {
       name: [
-        "Buttek 'Element Dir Element",
-        "Cart Element",
+        "Shop 'Til You Drop",
+        "Cart Frenzy",
         "Flash Verkaf Fiesta",
         "Klickt, Shop, späicheren",
         "Schnäppchen Bonanza",
-        "Element - Campagne",
+        "E-Deal Extravaganza",
         "Mega Markdown Wahnsinn",
-        "Cyber spueren Spree",
+        "Cyber ​​spueren Spree",
         "Digital Remise Deeg",
         "E-Commerce Karneval",
-        "Online Element Element",
-        "Element Element",
+        "Online Outlet Oasis",
+        "Retail Rush",
         "Webstore Warehouse Verkaf",
         "E-Shopper d'Paradäis",
         "Virtuell Voucher Venture",
-        "Digital Element",
-        "Element - Campagne",
-        "Online Shopping Element",
-        "Cyber Sale Spektakulär",
-        "E-Schnäppchen Element",
+        "Digital Doorbusters",
+        "E-Cart Clearance",
+        "Online Shopping Showdown",
+        "Cyber ​​Sale Spektakulär",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11848,7 +11849,7 @@ export default {
       title: [
         "Spin & gewannen grouss Präisser!",
         "Räichtum Rad Jackpot",
-        "Element - Lotterie",
+        "Lucky Spin Bonanza",
         "Spin fir Belounungen ze gewannen",
         "Rad vun Wealth",
         "Lucky Lotterie Extravaganza",
@@ -11864,7 +11865,7 @@ export default {
         "Golden Spin Lotterie",
         "Spin-e-Präis",
         "Rad vun Räichtum",
-        "Lucky Spin Element",
+        "Lucky Spin Showcase",
         "Ultimate Spin Belounung",
       ],
       description: [
@@ -11897,27 +11898,27 @@ export default {
     subscription_price: {
       title: [
         "Basis Zougang",
-        "Element Memberschaft",
-        "Element - Abonnement - Präis",
-        "Element Plang",
+        "Premium Memberschaft",
+        "Gold Package",
+        "Sëlwer Plang",
         "Platin Abonnement",
-        "Element - Abonnement - Präis",
-        "Element Bundle",
+        "Enterprise Tier",
+        "Starter Package",
         "Onlimitéiert Offer",
-        "Element Pak",
+        "Famill Pack",
         "Professionell Suite",
       ],
       description: [
         "Ideal fir Eenzelpersounen déi d'Grondlage entdecken.",
-        "Zougang Zu all Element Fonctiounen a Inhalt.",
-        "Exklusiv Element a Prioritéit Ënnerstëtzung.",
-        "engem Element Package fir Element Benotzer.",
-        "Ultimate Zougang mat erop-Tier Element.",
-        "Benotzerdefinéiert Element fir Grouss Element.",
-        "e Element Entrée-Level Optioun.",
-        "nee Grenzen op Element, fir D'Domain Power Benotzer.",
-        "engem Special Plang fir Element, Element Zu 4 Membere.",
-        "entworf fir Element Element Fortgeschratt Element.",
+        "Zougang zu all Premium Funktiounen an Inhalt.",
+        "Exklusiv Virdeeler a Prioritéit Ënnerstëtzung.",
+        "E equilibréierte Package fir regelméisseg Benotzer.",
+        "Ultimate Zougang mat Top-Tier Virdeeler.",
+        "Benotzerdefinéiert Léisunge fir grouss Organisatiounen.",
+        "Eng bezuelbar Entrée-Niveau Optioun.",
+        "Keng Limiten op d'Benotzung, fir de Stroumverbraucher.",
+        "E spezielle Plang fir Famillen, bis zu 4 Memberen.",
+        "Designt fir Professionnelen déi fortgeschratt Tools sichen.",
       ],
     },
 
@@ -11926,69 +11927,69 @@ export default {
         "Technesch Spezifikatioune",
         "Kierperlech Dimensiounen",
         "Leeschtung Fonctiounen",
-        "Element Optiounen",
-        "Power Element",
-        "Material a Bauen Qualitéit",
-        "Faarf a Fäerdeg Optiounen",
-        "Storage a Element",
-        "Element Element Kompatibilitéit",
-        "Element a Element",
-        "Package Element",
-        "Retour a Ënnerstëtzung",
-        "Mark a Element",
-        "Element Element",
-        "Element Effizienz",
-        "Element a Ënnerhalt",
+        "Konnektivitéit Optiounen",
+        "Power Ufuerderunge",
+        "Material a Bauqualitéit",
+        "Faarf a Finish Optiounen",
+        "Stockage an Erënnerung",
+        "Betribssystem Kompatibilitéit",
+        "Sécherheet a Konformitéit",
+        "Package Inhalt",
+        "Garantie an Ënnerstëtzung",
+        "Mark an Hiersteller",
+        "Ëmweltfrëndlechkeet",
+        "Energieeffizienz",
+        "Pfleeg an Ënnerhalt",
         "Personnalisatioun Optiounen",
-        "Am Element",
-        "Benotzer haut a Rezensiounen",
-        "Präisser a Disponibilitéit",
+        "abegraff Accessoiren",
+        "Benotzer Bewäertungen a Rezensiounen",
+        "Präisser an Disponibilitéit",
       ],
     },
 
     avocado: {
       title: [
-        "Kafen Empfang",
-        "Verkaf Bestätegung",
-        "🛍️ Bestellen Rechnung",
-        "💳 Bezuelung Rechnung",
+        "Akaf Empfang",
+        "Verkaf Confirmatioun",
+        "Bestellung Rechnung",
+        "Bezuelen Rechnung",
         "Client Empfang",
-        "Transaktioun Element",
-        "Rechnung Element",
-        "Ofmellen Empfang",
-        "🛍️ Bestellen Element",
-        "Kafen 🛍️ Bestellen Rechnung",
+        "Transaktioun Resumé",
+        "Rechnungserklärung",
+        "Kasse Empfang",
+        "Bestellung Resumé",
+        "Bestellung Rechnung",
         "Verkaf Empfang",
-        "Element Rechnung",
-        "E-Empfang",
+        "Retail Rechnung",
+        "E-Receptioun",
         "Service Rechnung",
         "Produit Rechnung",
-        "💳 Bezuelung Empfang",
+        "Bezuelen Empfang",
         "Bestellung Bestätegung",
         "Rechnung Rechnung",
-        "Ofmellen Rechnung",
+        "Kasse Rechnung",
         "Client Rechnung",
       ],
       message: [
-        "Element Dir fir Äre Kafen!",
-        "Element Element Äre Affär.",
-        "Äre 🛍️ Bestellen ass op Element Element!",
-        "Merci fir Shopping mat eis.",
-        "Element Element Zu Element Dir Element.",
-        "Äre Zefriddenheet ass Element erop Prioritéit.",
-        "Verpasst Element Zu Taux Äre Element.",
-        "Element Dir fir Element Element Buttek.",
-        "Element Element Dir Genéisst Äre Nei Kafen!",
-        "Spueren Äre Rechnung fir Element Element.",
-        "Besicht eis Element fir Méi.. Element Produkter.",
-        "Element verbonnen fir Exklusiv Offeren.",
-        "Element Dir fir Element engem Element Client.",
-        "Element hei Zu Hëllef Element Dir Braucht Element.",
-        "Äre Feedback Element eis Element.",
-        "Genéisst engem Special Remise op Äre Nächste Kafen.",
-        "Element Element engem Element Wiel!",
-        "Element Dir fir Äre Element Op eis.",
-        "Element Element Zu Äre Feedback.",
+        "Merci fir Äre Kaf!",
+        "Mir schätzen Äre Betrib.",
+        "Är Bestellung ass ënnerwee!",
+        "Merci fir Akafen mat eis.",
+        "Gespaant Iech erëm ze déngen.",
+        "Är Zefriddenheet ass eis Haaptprioritéit.",
+        "Vergiesst net Är Erfahrung ze bewäerten.",
+        "Merci fir d'Ënnerstëtzung vun eisem Geschäft.",
+        "Mir hoffen Dir genéisst Ären neie Kaf!",
+        "Späichert Är Rechnung fir zukünfteg Referenz.",
+        "Besicht eis erëm fir méi super Produkter.",
+        "Bleift verbonne fir exklusiv Offeren.",
+        "Merci datt Dir e geschätzte Client sidd.",
+        "Mir sinn hei fir ze hëllefen wann Dir Hëllef braucht.",
+        "Äre Feedback hëlleft eis ze verbesseren.",
+        "Genéisst e spezielle Remise op Ärem nächste Kaf.",
+        "Dir hutt e super Choix gemaach!",
+        "Merci fir Äert Vertrauen an eis.",
+        "Mir freeën eis op Äre Feedback.",
         "Een häerzleche Merci vun eiser Equipe.",
       ],
     },
@@ -11998,25 +11999,25 @@ export default {
      */
     map_tag: {
       title: [
-        "Element Element",
-        "Verkeefer Element",
-        "Featured Element",
-        "Element Element",
+        "Property Showcase",
+        "Verkeefer Plaza",
+        "Featured Haiser",
+        "Lokal Maart",
         "Nei Arrivée",
-        "& Element",
-        "Shopping Element",
-        "Element Element",
-        "Element Element",
-        "Element Element",
-        "oppen Element",
-        "Tech Element",
-        "Modesch Element",
-        "Element Corner",
-        "Element Element",
-        "Buch Element",
-        "Bijouen Element",
-        "Element Element",
-        "Element Zone",
+        "Estate Gardens",
+        "Shopping Distrikter",
+        "Handwierker Alley",
+        "Luxus Immobilien",
+        "Locatioun Hub",
+        "Open Haiser",
+        "Tech Innovatiounen",
+        "Moud Lane",
+        "Handwierksgeschir Corner",
+        "Liewensmëttel Geriichtshaff",
+        "Buch Nook",
+        "Bijouen Junction",
+        "Antiquitéite Avenue",
+        "Fitness Zone",
       ],
     },
 
@@ -12025,26 +12026,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "Affär Aschreiwung Element",
-        "Steier Element Zuel (Element)",
-        "Verkeefer Element Formular",
-        "Produit Element",
-        "Präisser Lëscht",
-        "Element Kont Detailer",
-        "Element vu Adress",
-        "Element Element",
+        "Business Aschreiwung Zertifikat",
+        "Tax Identification Number (TIN)",
+        "Vendor Accord Form",
+        "Produit Katalog",
+        "Präislëscht",
+        "Bankkonto Detailer",
+        "Beweis vun Adress",
+        "Versécherung Zertifikat",
         "Firma Profil",
-        "Qualitéit Assurance Element",
-        "Element Daten Element (Element)",
-        "Produit Retour Informatiounen",
-        "📦 Retour Politik",
-        "Liwwerung a Element Element",
+        "Qualitéitssécherungszertifika",
+        "Sécherheetsdatenblatt (SDS)",
+        "Produit Garantie Informatiounen",
+        "Retour Politik",
+        "Verschécken an Ëmgank Prozeduren",
         "Client Service Politik",
-        "Marketing a Element Pläng",
+        "Marketing a Promotioun Pläng",
         "Sozial Medien Linken",
-        "Element Element",
-        "Element Code vu Element",
-        "Element-Element Element (Element)",
+        "Handel Referenze",
+        "Fournisseur Code of Conduct",
+        "Non-Disclosure Agreement (NDA)",
       ],
     },
 
@@ -12053,26 +12054,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Maartplaz Buttek Servicer Element",
-        "Buttek Configuratioun Element",
-        "Drécken-op-Element Servicer Element",
-        "Digital Marketing Service Element",
-        "E-Element Element Buttek Element",
+        "Maartplaz Setup Services Accord",
+        "Shop Configuratioun Kontrakt",
+        "Print-On-Demand Services Accord",
+        "Digital Marketing Service Accord",
+        "E-Commerce Plattform Setup Accord",
         "Expert Consultancy Kontrakt fir Geschäftsbesëtzer",
-        "Service Element fir Maartplaz Configuratioun",
-        "Buttek Buttek a Configuratioun Servicer Element",
-        "POD Service Element Element",
-        "Marketing Element Element Element",
-        "Affär Element Service Element",
-        "E-Element Buttek Buttek Element",
-        "Element Service Element Element",
-        "Affär Element a Buttek Element",
-        "Benotzerdefinéiert Buttek Buttek Servicer Element",
-        "Maartplaz Element Service Element",
-        "Element a Buttek Servicer Element",
-        "POD Element Servicer Element",
-        "Marketing a Element Servicer Element",
-        "Affär Element Service Element",
+        "Service Accord fir Maartplaz Configuratioun",
+        "Shop Setup an Configuratioun Services Kontrakt",
+        "POD Service Bestëmmung Accord",
+        "Marketing Strategie Ëmsetzung Accord",
+        "Business Entwécklung Service Kontrakt",
+        "E-Commerce Store Setup Accord",
+        "Expert Service Bestëmmung Accord",
+        "Business Léisungen a Setup Kontrakt",
+        "Benotzerdefinéiert Buttek Setup Services Accord",
+        "Maartplaz Optimisatioun Service Accord",
+        "Berodungs- a Setupservicekontrakt",
+        "POD Integratioun Services Accord",
+        "Marketing a Promotioun Services Kontrakt",
+        "Business Expansioun Service Accord",
       ],
     },
 
@@ -12082,15 +12083,15 @@ export default {
     account: {
       account_name: [
         "Haaptsäit Portemonnaie",
-        "Affär Kont",
+        "Business Kont",
         "Perséinlech Portemonnaie",
         "Spuer Portemonnaie",
-        "Element Kont",
+        "Käschte Kont",
         "Primär Portemonnaie",
         "Allgemeng Kont",
         "Reservéiert Portemonnaie",
         "Transaktioun Portemonnaie",
-        "Element Kont",
+        "Fonds Kont",
       ],
     },
 
@@ -12099,38 +12100,38 @@ export default {
      */
     cashback: {
       title: [
-        "Buttek & Element Element",
-        "Element Element Element",
-        "Exklusiv Element Offeren",
-        "Element Bonanza",
-        "3 Element Deals",
-        "Saisonal Element Spuer",
-        "Element Element 30 Deeg",
-        "Element op Element Kafen",
-        "Element Element",
-        "VIP Element Element",
-        "Limitéiert Zäit Element",
-        "Element Element Club",
-        "Buttek Méi.., Spueren Méi..",
-        "Ultimate Element Element",
-        "Element Extravaganza",
+        "Shop & verdéngen Cashback",
+        "Loyalitéit Belounungen Cashback",
+        "Exklusiv Cashback Offeren",
+        "Cashback Bonanza",
+        "Instant Cashback Deals",
+        "Saisonal Cashback Spueren",
+        "Duebel Cashback Deeg",
+        "Cashback op all Akaf",
+        "Cashback Frenzy",
+        "VIP Cashback Programm",
+        "Limitéiert Zäit Cashback",
+        "Cashback Belounung Club",
+        "Shop Méi, Spuert Méi",
+        "Ultimate Cashback Belounungen",
+        "Cashback Extravaganza",
       ],
       description: [
-        "Element Element op Element Kafen!",
-        "Kréien Element fir Äre Element.",
-        "Exklusiv Element Offeren Nëmmen fir Dir.",
-        "Genéisst Element Spuer mat Element Element.",
-        "3 Element op all Äre Léifsten Artikelen.",
-        "Spueren Méi.. mat Saisonal Element Deals.",
-        "Element Äre Element op Special 30 Deeg!",
-        "Element Element Element Zäit Dir Buttek.",
-        "Element D'Domain Element Element Haut!",
-        "VIP Membere Genéisst Exklusiv Element.",
-        "Element! Limitéiert Zäit Element Offeren.",
+        "Verdéngt Cashback op all Akaf!",
+        "Gitt belount fir Är Loyalitéit.",
+        "Exklusiv Cashback Offeren just fir Iech.",
+        "Genéisst super Erspuernisser mat Cashback Belounungen.",
+        "Direkt Cashback op all Är Liiblingsartikelen.",
+        "Spuert méi mat saisonal Cashback Deals.",
+        "Duebel Äre Cashback op speziellen Deeg!",
+        "Verdéngt Cashback all Kéier wann Dir akaft.",
+        "Maacht mat bei der Cashback Frenzy haut!",
+        "VIP Memberen genéissen exklusiv Cashback.",
+        "Maacht séier! Limitéiert Zäit Cashback Offeren.",
         "Maacht mat bei eisem Cashback Rewards Club elo.",
-        "D'Domain Méi.. Dir Buttek, D'Domain Méi.. Dir Spueren.",
-        "Spär D'Domain Ultimate Element Element.",
-        "Element D'Domain Beschte Element Deals Element.",
+        "Wat Dir méi akaft, wat Dir méi spuert.",
+        "Spär déi ultimativ Cashback Belounungen op.",
+        "Erlieft déi bescht Cashback Deals ronderëm.",
       ],
     },
 
@@ -12139,15 +12140,15 @@ export default {
      */
     page: {
       prompts: [
-        "Wëllkomm op {shop} - Entdeckt eis ënnerschiddlech Gamme vun Artikelen",
-        "{shop} - Äre Ultimate Element fir Qualitéit Element a Element Service",
-        "Exklusiv Deals a Spuer Bezuelen um {shop} - Element D'Domain Element!",
+        "Wëllkomm op {shop} - Entdeckt eis distinctive Gamme vun Artikelen",
+        "{shop} - Är Ultimate Quell fir Qualitéit Wueren an aussergewéinleche Service",
+        "Exklusiv Offeren a Spueren Nëmme bei {shop} - Profitéiert d'Geleeënheet!",
         "Léiert dem {shop} seng Engagement fir Ökofrëndlechkeet an Ethesch Praktiken kennen",
         "Gitt en Deel vun der {shop} Famill - Abonnéiert Iech op eisen Newsletter fir Updates",
-        "Taucht an Top Picks an héich bewäertte Wueren um {shop}",
-        "Element Iddien a Element Element fir all Evenementer um {shop}",
-        "Element Offeren a Zäit-Element Specials um {shop} - Element Schnell!",
-        "{shop}s ëmfaassend Kaf Tipps a Produit Evaluatioune - Shop mat Vertrauen",
+        "Taucht an Top Picks an héich bewäertte Wueren bei {shop}",
+        "Presentéiert Iddien a kreativ Virschléi fir all Eventer op {shop}",
+        "Oniwwertraff Offeren an Zäitempfindlech Specials bei {shop} - Akt séier!",
+        "{shop}'s Comprehensive Kaaftipps a Produktbewäertungen - Shop mat Vertrauen",
         "Erreeche bis {shop} - Mir striewen eng oniwwertraff Shoppingerfarung ze liwweren",
       ],
     },
@@ -12157,26 +12158,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "Komplett Äre Element, Element D'Domain Set!",
-        "Spueren Big mat Element Bundle Deals!",
-        "Verpasst net Element Element Element!",
-        "Element Äre Kafen, dobäisetzen-Element Element!",
-        "Spär Exklusiv Spuer, Kafen Element!",
-        "Element Artikelen, Special Remise!",
-        "Kréien Méi.., Element Element – Bundle Element!",
-        "Limitéiert-Zäit Offer: passt Produkter!",
-        "Upgrade Äre Element, Element Deals!",
-        "Element Element Element Combos, Spueren elo!",
-        "Element et Element fir D'Domain Ultimate Element!",
-        "Buttek Element, Bundle a Spueren!",
-        "Element D'Domain Wäert, Element D'Domain Element!",
-        "Äre Element Element ass hei – Buttek elo!",
-        "Exklusiv Bundle Präisser Nëmmen fir Dir!",
-        "Element Äre Spuer mat Element Combos!",
+        "Komplett Äre Look, gräift de Set!",
+        "Spuert grouss mat eise Package Deals!",
+        "Verpasst net eis perfekt Pairen!",
+        "Verbessert Äre Kaf, Add-ons waarden!",
+        "Spär exklusiv Spueren op, kaaft zesummen!",
+        "Ergänzungsartikelen, speziell Remise!",
+        "Kritt méi, verbréngt manner - packt!",
+        "Zäitlimitéiert Offer: passende Produkter!",
+        "Upgrade Är Erfahrung, Combo Deals!",
+        "Entdeckt eis curated Comboen, spuert elo!",
+        "Pair et fir den ultimativen Combo!",
+        "Shop Smart, bündelt a späichert!",
+        "Duebel de Wäert, duebel de Spaass!",
+        "Äre perfekte Match ass hei - Shop elo!",
+        "Exklusiv Bündelpräisser just fir Iech!",
+        "Maximaliséiert Är Erspuernisser mat eise Comboen!",
         "Verbessert Är Sammlung mat dëse Picken!",
-        "Element fir Dir: Element a Spueren!",
-        "D'Domain Element Element fir engem Element 30!",
-        "Bundle Äre Favoritten fir Extra Spuer!",
+        "Curated fir Iech: Match a späicheren!",
+        "Déi perfekt Koppel fir e perfekte Dag!",
+        "Bundle Är Favoritten fir extra Erspuernisser!",
       ],
     },
 
@@ -12185,26 +12186,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "Digital Element",
-        "Element",
-        "Element",
-        "Modesch",
-        "Doheem Element",
-        "Element Produkter",
+        "Digital Wueren",
+        "Bicher",
+        "Elektronik",
+        "Moud",
+        "Home Apparater",
+        "Schéinheet Produiten",
         "Sport Equipement",
         "Spillsaachen & Spiller",
         "Epicerie",
         "Miwwelen",
-        "Element Element",
+        "Automotive Parts",
         "Bijouen",
-        "Gesondheet & Element",
+        "Gesondheet & Wellness",
         "Déier Ëmgeréits",
-        "Bürosmaterial",
-        "Element & Instrumenter",
-        "Element & TV Element",
-        "Element",
-        "Art & Element",
-        "Element Element",
+        "Büro Ëmgeréits",
+        "Musek & Instrumenter",
+        "Filmer & Fernsehsendungen",
+        "Software",
+        "Konscht & Handwierk",
+        "Outdoor Gear",
       ],
     },
 
@@ -12214,39 +12215,39 @@ export default {
     template_message: {
       title: [
         "Bestellung Bestätegung",
-        "🛍️ Bestellen Geschéckt",
-        "🛍️ Bestellen Geliwwert",
-        "💳 Bezuelung Empfang",
-        "🛍️ Bestellen Element",
-        "🛍️ Bestellen Veraarbechtung weisen",
-        "🛍️ Bestellen op Element",
-        "🛍️ Bestellen Element fir Liwwerung",
-        "📦 Retour Element",
-        "Element erausginn",
-        "item Zréck Op Lager",
+        "Bestellung geschéckt",
+        "Bestellung geliwwert",
+        "Bezuelung kritt",
+        "Bestellung annuléiert",
+        "Bestellung Veraarbechtung Verspéidung",
+        "Bestellung op Halt",
+        "Bestellt Eraus fir Liwwerung",
+        "Retour veraarbecht",
+        "Remboursement erausginn",
+        "Artikel zréck op Stock",
       ],
       body: [
         "Salut {buyer_name}, Är Bestellung #{order_id} gouf bestätegt! Mir veraarbecht et a wäerten Iech matdeelen wann et fäerdeg ass ze verschécken.",
 
-        "Gutt Element, {buyer_name}! Äre 🛍️ Bestellen #{order_id} Element Element Geschéckt. Dir Element Streck et Element Äre Kont. Merci fir Shopping mat eis!",
+        "Gutt Noriicht, {buyer_name}! Är Bestellung #{order_id} gouf geschéckt. Dir kënnt et duerch Äre Kont verfollegen. Merci fir Akafen mat eis!",
 
-        "Element {buyer_name}, Äre 🛍️ Bestellen #{order_id} Element Element dobäigesat Geliwwert. Element Element Dir Genéisst Äre Kafen. Element Dir!",
+        "Hallo {buyer_name}, Är Bestellung #{order_id} gouf erfollegräich geliwwert. Mir hoffen Dir genéisst Äre Kaf. Merci!",
 
-        "Element {buyer_name}, Element Element Empfang D'Domain 💳 Bezuelung fir 🛍️ Bestellen #{order_id}. Äre 🛍️ Bestellen ass elo Element Element a Element Element Geschéckt Element.",
+        "Salut {buyer_name}, mir hunn d'Bezuelung fir d'Bestellung #{order_id} kritt. Är Bestellung gëtt elo veraarbecht a gëtt geschwënn geschéckt.",
 
         "Léif {buyer_name}, mir bedaueren Iech ze informéieren datt Är Bestellung #{order_id} annuléiert gouf. Wann Dir Froen hutt, kontaktéiert w.e.g. Ënnerstëtzung.",
 
         "Léif {buyer_name}, mir erliewen eng Verspéidung mat Ärer Bestellung #{order_id}. Mir entschëllegen eis fir d'Onbequemlechkeet a schaffe fir et sou séier wéi méiglech ze léisen.",
 
-        "Element {buyer_name}, Äre 🛍️ Bestellen #{order_id} ass Element op Element. wait Check Äre Kont oder Kontakt Ënnerstëtzung fir Element Detailer.",
+        "Salut {buyer_name}, Är Bestellung #{order_id} ass am Moment ofgesot. Kuckt w.e.g. Äre Kont oder kontaktéiert d'Ënnerstëtzung fir weider Detailer.",
 
-        "Element {buyer_name}, Äre 🛍️ Bestellen #{order_id} ass Element fir Liwwerung a Element Element Dir Element. Element Dir fir Äre Element!",
+        "Salut {buyer_name}, Är Bestellung #{order_id} ass eraus fir Liwwerung a sollt Iech geschwënn erreechen. Merci fir Är Gedold!",
 
-        "Element {buyer_name}, Element Element Element D'Domain 📦 Retour fir Äre 🛍️ Bestellen #{order_id}. Element Dir Element Element Froen, wait Kontakt Ënnerstëtzung.",
+        "Léif {buyer_name}, mir hunn de Retour fir Är Bestellung #{order_id} veraarbecht. Wann Dir Froen hutt, kontaktéiert w.e.g. Ënnerstëtzung.",
 
-        "Salut {buyer_name}, Äre Remboursement fir d'Bestellung #{order_id} gouf ausgestallt. Dir sollt d'Fongen an Ärem Kont geschwënn gesinn.",
+        "Salut {buyer_name}, Äre Remboursement fir Bestellung #{order_id} gouf ausgestallt. Dir sollt d'Fongen an Ärem Kont geschwënn gesinn.",
 
-        "Element {buyer_name}, D'Domain item Vun Äre 🛍️ Bestellen #{order_id} ass Zréck Op Lager! Dir Element Element engem Nei 🛍️ Bestellen elo Element Dir’Element Element Element.",
+        "Salut {buyer_name}, den Artikel aus Ärer Bestellung #{order_id} ass erëm op Lager! Dir kënnt elo eng nei Bestellung maachen wann Dir nach interesséiert sidd.",
       ],
     },
 
@@ -12257,26 +12258,26 @@ export default {
       title: [
         "Kleed",
         "Digital Gadgeten",
-        "Element",
+        "Gedrénks",
         "Liewensmëttel",
         "Miwwelen",
-        "Element",
-        "Element Produkter",
-        "Element",
+        "Bicher",
+        "Schéinheet Produiten",
+        "Spillsaachen",
         "Sport Equipement",
-        "Element",
+        "Accessoiren",
       ],
       description: [
-        "Element fir Element Artikelen Wéi Gréisst, Faarf, a Stoff.",
-        "Spezifikatioune fir Gadgeten Element Element Mark, Model, a Fonctiounen.",
-        "Element, Element, a Zorte vu Element.",
-        "Detailer fir Element, Element, a Element Produkter.",
-        "Material, Dimensiounen, a Design Element.",
-        "Auteur, Element, a Element 2-Joer.",
-        "Element Typ, Element, a Verpakung Detailer.",
-        "Alter dobäisetzen, Material, a Element Element.",
+        "Attributer fir Kleederartikele wéi Gréisst, Faarf a Stoff.",
+        "Spezifikatioune fir Gadgeten wéi Mark, Modell, a Fonctiounen.",
+        "Goûten, Gréissten an Aarte vu Gedrénks.",
+        "Detailer fir Iessen, Snacks a Liewensmëttelprodukter.",
+        "Material, Dimensiounen an Designstiler.",
+        "Auteur, Genre, a Publikatiounsjoer.",
+        "Hauttyp, Zutaten a Verpackungsdetailer.",
+        "Altersgrupp, Material a Sécherheetsnormen.",
         "Typ, Gréisst, a Leeschtung Fonctiounen.",
-        "Element, Element, a Mark Detailer.",
+        "Stiler, Materialien a Markdetailer.",
       ],
     },
 
@@ -12285,24 +12286,24 @@ export default {
      */
     boxes: {
       name: [
-        "Këscht XS",
+        "Box XS",
         "Këscht S",
         "Këscht M",
         "Këscht L",
-        "Këscht XL",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element",
-        "Këscht Element Element",
-        "Këscht Element Pak", // flexible mailer
-        "Këscht Element", // bubble/padded
-        "Këscht Element", // thermal
-        "Këscht Element-Element",
+        "Box XL",
+        "Box XXL",
+        "Këscht Slim",
+        "Këscht Breet",
+        "Box Héich",
+        "Këscht Flat",
+        "Këscht Cube",
+        "Këscht Tube",
+        "Këscht fragil",
+        "Këscht Glas Fläschen",
+        "Box Soft Pack", // flexible mailer
+        "Këscht gepolstert", // bubble/padded
+        "Këscht isoléiert", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

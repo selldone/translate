@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Tashqi havola",
         description: "Şéţ á Havola Kimga áñ éẋţéřñáľ URL.",
-        tips: "Ýóú çáñ áţţáçħ áñý URL Kimga ţħé element. Ŵħéñ Foydalanuvchilar çľíçķ óñ ţħé element óñ ţħé Mahsulot ƥáğé, ţħéý ŵíľľ ƀé řéďířéçţéď Kimga ţħáţ Havola.",
+        tips: "Elementga istalgan URL manzilini biriktirishingiz mumkin. Foydalanuvchilar mahsulot sahifasidagi elementni bosganda, ular ushbu havolaga yo'naltiriladi.",
       },
       internal_link: {
         title: "Íñţéřñáľ Havola",

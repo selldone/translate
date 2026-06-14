@@ -2075,7 +2075,7 @@ export default {
     inputs: {
       slug: {
         label: "ລາຍການ",
-        placeholder: "ລາຍການ 7 ກຳນົດເອງ ລາຍການ...",
+        placeholder: "ໃສ່ເສັ້ນທາງທີ່ກຳນົດເອງ...",
         hint: "ປ່ຽນເສັ້ນທາງໜ້າດິນແບບເຄື່ອນໄຫວຂອງຜູ້ຂາຍ.",
       },
       email: {
@@ -2164,7 +2164,7 @@ export default {
   product_badges: {
     title: "ລາຍການ",
     subtitle: "ເພີ່ມ ລາຍການ ແກ້ໄຂ ກຳນົດເອງ ຜະລິດຕະພັນ ລາຍການ.",
-    only_marketplace_owner_msg: "ລາຍການ ຕະຫຼາດ ລາຍການ",
+    only_marketplace_owner_msg: "ພຽງແຕ່ເຈົ້າຂອງຕະຫຼາດ",
     create_new_badge_action: "ສ້າງ ໃຫມ່ ລາຍການ",
     select_a_badge: "ລາຍການ 7 ລາຍການ...",
     inputs: {
@@ -2188,7 +2188,7 @@ export default {
         image: {
           label: "ຮູບພາບ",
           message: "ສູງສຸດ ຮູບພາບ ລາຍການ: 128KB",
-          placeholder: "ລາຍການ 7 ລາຍການ ຮູບພາບ",
+          placeholder: "ເລືອກຮູບໜ້າປົກ",
         },
         pattern: {
           label: "ລາຍການ",
@@ -2718,7 +2718,7 @@ export default {
     title: "ຄຳສັ່ງຫຼາຍ ການກະທໍາ > ລາຄາ",
     message:
       "ຈຳນວນຕໍ່ໄປນີ້ຈະນຳໃຊ້ເປັນເປີເຊັນກັບລາຄາສິນຄ້າທັງໝົດໃນຮ້ານຂອງທ່ານ. ນອກຈາກນີ້, ຄ່າລາຄາທີ່ຄຳນວນແລ້ວຈະຖືກປ່ຽນເປັນຕົວເລກຮອບທີ່ໃກ້ທີ່ສຸດໂດຍອັດສະລິຍະໂດຍອ້າງອີງຈາກສະກຸນເງິນທີ່ເລືອກ. ຈົ່ງລະມັດລະວັງໃນການປ້ອນຄ່າຕ່າງໆ.",
-    check: "I ລາຍການ ລາຄາ ລາຍການ.",
+    check: "ຂ້ອຍອະນຸມັດການປ່ຽນແປງລາຄາ.",
     check_description:
       "ລາຄາຈະຖືກປ່ຽນແປງສໍາລັບປະເພດທີ່ເລືອກແລະທຸກຫມວດຍ່ອຍ.",
     add_percent_tab: "ເພີ່ມ ເປີເຊັນ",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "ລາຍການ ທັງໝົດ ຜະລິດຕະພັນ",
       unselect: "ລາຍການ",
-      sort_categories: "ລາຍການ / ລາຍການ ໝວດໝູ່",
+      sort_categories: "ຈັດ / ຈັດປະເພດ",
       subscription_vendor_not_support_message:
         "ບໍ່ສາມາດມອບຫມາຍຜູ້ຂາຍສໍາລັບຜະລິດຕະພັນການສະຫມັກ! ຜະລິດຕະພັນການສະໝັກສະມາຊິກຕ້ອງມີຜູ້ຂາຍເປັນເຈົ້າຂອງສະເໝີ!",
       vendor_owner_not_assignable_message:
@@ -4844,7 +4844,7 @@ export default {
     },
     "backoffice:support-tickets": {
       name: "ສະຫນັບສະຫນູນ ລາຍການ",
-      description: "ລາຍການ ສະຫນັບສະຫນູນ ລາຍການ.",
+      description: "ຈັດການປີ້ສະຫນັບສະຫນູນ.",
     },
     "backoffice:shop:read": {
       name: "ຮ້ານຄ້າ ລາຍການ",
@@ -4916,7 +4916,7 @@ export default {
     },
     "backoffice:logistic:write": {
       name: "ການຂົນສົ່ງ ການຈັດການ",
-      description: "ລາຍການ ການຂົນສົ່ງ ລາຍການ.",
+      description: "ຈັດການຂໍ້ມູນການຂົນສົ່ງ.",
     },
     "backoffice:logistic:read": {
       name: "ການຂົນສົ່ງ ການເຂົ້າເຖິງ",
@@ -4980,7 +4980,7 @@ export default {
     },
     "backoffice:lottery:write": {
       name: "ຫວຍ ການຈັດການ",
-      description: "ລາຍການ ຮ້ານ ລາຍການ.",
+      description: "ຄຸ້ມຄອງຮ້ານຂາຍຫວຍ.",
     },
     "backoffice:lottery:read": {
       name: "ຫວຍ ການເຂົ້າເຖິງ",
@@ -4988,7 +4988,7 @@ export default {
     },
     "backoffice:community:write": {
       name: "ຊຸມຊົນ ການຈັດການ",
-      description: "ລາຍການ ຊຸມຊົນ ລາຍການ.",
+      description: "ຄຸ້ມຄອງກິດຈະກໍາຊຸມຊົນ.",
     },
     "backoffice:community:read": {
       name: "ຊຸມຊົນ ການເຂົ້າເຖິງ",
@@ -5004,7 +5004,7 @@ export default {
     },
     "backoffice:ribbon:write": {
       name: "ລາຍການ ການຈັດການ",
-      description: "ລາຍການ ຮ້ານ ລາຍການ.",
+      description: "ຈັດການໂບຮ້ານ.",
     },
     "backoffice:ribbon:read": {
       name: "ລາຍການ ການເຂົ້າເຖິງ",
@@ -5012,7 +5012,7 @@ export default {
     },
     "backoffice:ai:write": {
       name: "AI ການຈັດການ",
-      description: "ລາຍການ AI ລາຍການ.",
+      description: "ຈັດການການຕັ້ງຄ່າ AI.",
     },
     "backoffice:ai:read": {
       name: "AI ການເຂົ້າເຖິງ",
@@ -5032,7 +5032,7 @@ export default {
     },
     "backoffice:company:write": {
       name: "ບໍລິສັດ ການຈັດການ",
-      description: "ລາຍການ ບໍລິສັດ ລາຍການ.",
+      description: "ຈັດການຂໍ້ມູນຂອງບໍລິສັດ.",
     },
     "backoffice:note:read": {
       name: "ຫມາຍ​ເຫດ​ ການເຂົ້າເຖິງ",
@@ -5044,7 +5044,7 @@ export default {
     },
     "backoffice:affiliate:write": {
       name: "ສາຂາ ການຈັດການ",
-      description: "ລາຍການ ສາຂາ ລາຍການ.",
+      description: "ຈັດການຂໍ້ມູນພັນທະມິດ.",
     },
     "backoffice:affiliate:read": {
       name: "ສາຂາ ການເຂົ້າເຖິງ",
@@ -5086,11 +5086,11 @@ export default {
     },
     "selldone:developer:write": {
       name: "ນັກພັດທະນາ ການຈັດການ",
-      description: "ລາຍການ ນັກພັດທະນາ ລາຍການ.",
+      description: "ຈັດການຂໍ້ມູນຜູ້ພັດທະນາ.",
     },
     "selldone:security:write": {
       name: "ຄວາມປອດໄພ ການຈັດການ",
-      description: "ລາຍການ ຄວາມປອດໄພ ລາຍການ.",
+      description: "ຈັດການການຕັ້ງຄ່າຄວາມປອດໄພ.",
     },
 
     //--------------------------- Connect ---------------------------
@@ -5121,7 +5121,7 @@ export default {
     },
     "vendor-write": {
       name: "ຜູ້ຂາຍ ການຈັດການ",
-      description: "ລາຍການ ຜູ້ຂາຍ ລາຍການ.",
+      description: "ຈັດການຂໍ້ມູນຜູ້ຂາຍ.",
     },
   },
 
@@ -5948,7 +5948,7 @@ export default {
           "ຄິດ​ໄລ່​ໂດຍ​ນໍາ​ໃຊ້​ການ​ປະ​ສົມ​ຂອງ​ຄະ​ນະ​ກໍາ​ມະ​ຄົງ​ທີ່​ແລະ​ສ່ວນ​ຮ້ອຍ​.",
         true_description:
           "ຄິດ​ໄລ່​ໂດຍ​ນໍາ​ໃຊ້​ຄະ​ນະ​ກໍາ​ມະ​ສະ​ເພາະ​ຜະ​ລິດ​ຕະ​ພັນ​ທີ່​ກໍາ​ນົດ​ໄວ້​ໃນ​ແຖບ​ລາ​ຄາ​.",
-        false_title: "ລາຍການ + ລາຍການ ຄະນະກໍາມະການ",
+        false_title: "ຄົງທີ່ + ຄະນະກໍາມະການຮ້ອຍລະ",
         true_title: "ຜະລິດຕະພັນ-ລາຍການ ຄະນະກໍາມະການ",
       },
       user: {
@@ -5962,7 +5962,7 @@ export default {
         placeholder: "ທາງເລືອກ, ເຊັ່ນ: 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "(ທາງເລືອກ), ລາຍການ.ລາຍການ., 001-808-210354",
+        placeholder: "ທາງເລືອກ, ເຊັ່ນ: 001-808-210354",
       },
       bank: {
         placeholder: "ທາງເລືອກ, ເຊັ່ນ: ທະນາຄານ Arstra, ເບີ: 10002-325-800-845213",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "ລາຍການ ຜູ້ຂາຍ ລາຍການ",
+    open_vendors_panel: "ເປີດກະດານຜູ້ຂາຍ",
     title: "ລາຍຊື່ຜູ້ຂາຍ",
     subtitle:
       "ນີ້ແມ່ນບັນຊີລາຍຊື່ຂອງການຮ້ອງຂໍຈາກບຸກຄົນທີ່ໄດ້ສະຫມັກເປັນຜູ້ຂາຍໃນຕະຫຼາດຂອງທ່ານ.",
@@ -7612,7 +7612,7 @@ export default {
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "ລາຍການ ເວັບໄຊທ໌ ລາຍການ",
+      title: "ຕົວອັກສອນເວັບໄຊທ໌ຕົ້ນຕໍ",
       subtitle: "ເລືອກຟອນທີ່ທ່ານມັກຈາກ Google Fonts.",
     },
     inputs: {
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "ທາງເລືອກ 3: ການຂົນສົ່ງທັນທີ.",
 
     verify_delivery_input: {
-      true_title: "ລາຍການ ການຈັດສົ່ງ ລາຍການ",
+      true_title: "ຢືນຢັນການຈັດສົ່ງສໍາເລັດ",
       true_description:
         "ຂ້າພະເຈົ້າຢືນຢັນວ່າຄໍາສັ່ງໄດ້ຖືກສົ່ງໃຫ້ລູກຄ້າ.",
     },
@@ -8976,7 +8976,7 @@ export default {
       subtitle: "ເກັບຮັກສາສະຖານທີ່ສໍາລັບການນໍາໃຊ້ໃນອະນາຄົດ.",
     },
     has_restriction_input: {
-      title: "ລາຍການ ສະຖານທີ່ ລາຍການ",
+      title: "ມີຂໍ້ຈຳກັດສະຖານທີ່",
       description:
         "ລູກຄ້າສາມາດຊື້ຜະລິດຕະພັນນີ້ໄດ້ສະເພາະພາຍໃນປະເທດທີ່ລະບຸ ແລະລະຫັດໄປສະນີ, ເນື່ອງຈາກຂໍ້ຈຳກັດສະຖານທີ່ຕັ້ງ.",
     },
@@ -10037,7 +10037,7 @@ export default {
         title: "ລາຍການ ຜະລິດຕະພັນ",
         subtitle:
           "ເລືອກຜະລິດຕະພັນທີ່ທ່ານຕ້ອງການສົ່ງເສີມການຂາຍຂ້າມໄປຄຽງຄູ່ກັບຜະລິດຕະພັນນີ້.",
-        select_products: "ລາຍການ ຜະລິດຕະພັນ(ລາຍການ)",
+        select_products: "ເລືອກ​ຜະ​ລິດ​ຕະ​ພັນ",
       },
       list: {
         title: "ລາຍການ ຜະລິດຕະພັນ",
@@ -10806,7 +10806,7 @@ export default {
         "ຜູ້ໃຊ້ໄດ້ປະຕິເສດການຮ້ອງຂໍໃຫ້ກາຍເປັນຜູ້ຂາຍແລະເຂົ້າເຖິງຜູ້ຂາຍນີ້.",
     },
     download_all_vendors: "ດາວໂຫຼດ ທັງໝົດ ຜູ້ຂາຍ",
-    bulk_import: "ຄຳສັ່ງຫຼາຍ ລາຍການ (ລາຍການ)",
+    bulk_import: "ນຳເຂົ້າເປັນຊຸດ (Excel)",
   },
 
   /**
@@ -10861,7 +10861,7 @@ export default {
       inputs: {
         title: {
           label: "ແມ່ແບບ ຫົວຂໍ້",
-          placeholder: "ລາຍການ 7 ລາຍການ ຫົວຂໍ້...",
+          placeholder: "ຂຽນຊື່ສັ້ນ...",
         },
         body: {
           label: "ແມ່ແບບ ຂໍ້ຄວາມ",
@@ -11083,10 +11083,10 @@ export default {
 
     moderation: {
       approve_success: "ອະນຸມັດລາຍການສຳເລັດແລ້ວ.",
-      publish_success: "ລາຍການ ຈັດພີມມາ ລາຍການ.",
+      publish_success: "ເຜີຍແຜ່ລາຍການສຳເລັດແລ້ວ.",
       unpublish_success: "ຍົກເລີກການເຜີຍແຜ່ລາຍການສຳເລັດແລ້ວ.",
       archive_success: "ຈັດເກັບລາຍການສຳເລັດແລ້ວ.",
-      reject_success: "ລາຍການ ປະຕິເສດ ລາຍການ.",
+      reject_success: "ປະຕິເສດລາຍການສຳເລັດແລ້ວ.",
       penalty_success: "ໃຊ້ການລົງໂທດສຳເລັດແລ້ວ.",
 
       reject_title: "ປະຕິເສດ ລາຍການ",
@@ -11154,9 +11154,9 @@ export default {
       edit_title: "ແກ້ໄຂ ລາຍການ",
 
       notifications: {
-        add_success: "ລາຍການ ແລ້ວ ລາຍການ.",
+        add_success: "ສ້າງປ້າຍສຳເລັດແລ້ວ.",
         edit_success: "ອັບເດດປ້າຍສຳເລັດແລ້ວ.",
-        delete_success: "ລາຍການ ລຶບແລ້ວ ລາຍການ.",
+        delete_success: "ລຶບປ້າຍສຳເລັດແລ້ວ.",
       },
 
       delete_title: "ລຶບ ລາຍການ",
@@ -11250,9 +11250,9 @@ export default {
 
       radius_default: "ຄ່າເລີ່ມຕົ້ນ ລັດສະໝີ (ລາຍການ)",
       radius_default_hint: "ໃຊ້ເມື່ອລູກຄ້າເລືອກສະຖານທີ່ແຕ່ບໍ່ເລືອກລັດສະໝີ.",
-      radius_max: "ລາຍການ ລັດສະໝີ (ລາຍການ)",
+      radius_max: "ລັດສະໝີສູງສຸດ (ກມ)",
       radius_max_hint: "ລັດສະໝີໜ້າຮ້ານຈະຖືກຍຶດກັບຄ່ານີ້.",
-      radius_options: "ລັດສະໝີ ລາຍການ (ລາຍການ)",
+      radius_options: "ຕົວເລືອກລັດສະໝີ (ກມ)",
       radius_options_hint: "ຄ່າເຫຼົ່ານີ້ສາມາດສະແດງເປັນຕົວເລືອກດ່ວນໃນ UI ໜ້າຮ້ານ.",
 
       filters_title: "ຄົ້ນຫາ ການກັ່ນຕອງ",
@@ -11326,7 +11326,7 @@ export default {
         "ການລະເບີດໃນທ້າຍອາທິດ Super Savings",
         "ເປີດເຜີຍຂໍ້ສະເໜີພາຍໃນສະເພາະ",
         "ການເຂົ້າເຖິງ VIP ຂອງທ່ານຕໍ່ກັບສ່ວນຫຼຸດພິເສດ",
-        "ລາຍການ ຂາຍ ລາຍການ",
+        "Extravaganza ການຂາຍຕາມລະດູການ",
         "ປົດລັອກ Paradise Shopping ຂອງທ່ານ",
         "ງານລ້ຽງຂອງ Grand Shopper",
         "Spring Fling Shopping Spree",
@@ -11394,7 +11394,7 @@ export default {
         "ການຂາຍລະດູຮ້ອນ: ສ່ວນຫຼຸດພິເສດ 10%.",
         "ຫຼຸດລາຄາ! ປະຢັດໃຫຍ່",
         "ຂໍ້ສະເໜີພິເສດ: ສົ່ງຟຣີ",
-        "2-ລາຍການ-1: ມື້​ນີ້ ລາຍການ!",
+        "2-for-1: ມື້ນີ້ເທົ່ານັ້ນ!",
         "ພິເສດວັນພັກ: ຫຼຸດ 25%.",
         "ສ່ວນຫຼຸດພິເສດ 30%.",
         "ແປກໃຈ! ສ່ວນຫຼຸດພິເສດ 20%.",
@@ -11768,7 +11768,7 @@ export default {
       name: [
         "ຊື້ເຄື່ອງ 'Til You drop",
         "ລົດເຂັນ Frenzy",
-        "ລາຍການ ຂາຍ ລາຍການ",
+        "Flash Sale Fiesta",
         "ກົດ, ຊື້ເຄື່ອງ, ບັນທຶກ",
         "ຕໍ່ລອງໄດ້ Bonanza",
         "E-Deal Extravaganza",
@@ -11784,7 +11784,7 @@ export default {
         "Digital Doorbusters",
         "E-ລາຍການ ອະນາໄມ",
         "Showdown ການຄ້າອອນໄລນ໌",
-        "ລາຍການ ຂາຍ ລາຍການ",
+        "ການຂາຍ Cyber ​​ທີ່ຫນ້າປະທັບໃຈ",
         "E-Bagain Blitz",
       ],
     },
@@ -11851,7 +11851,7 @@ export default {
         "Lucky Spin Bonanza",
         "ໝຸນເພື່ອຮັບຮາງວັນ",
         "ລໍ້ແຫ່ງຄວາມຮັ່ງມີ",
-        "ລາຍການ ຫວຍ ລາຍການ",
+        "ຫວຍໂຊກດີ Extravaganza",
         "ຄວາມແປກໃຈ Mega Spin",
         "ລາງວັນລໍ້ Fiesta",
         "Treasure Spin ປະທັບໃຈ",
@@ -12109,7 +12109,7 @@ export default {
         "ເງິນຄືນໃນທຸກການຊື້",
         "Cashback Frenzy",
         "ໂຄງການເງິນຄືນ VIP",
-        "ລາຍການ ເວລາ ລາຍການ",
+        "ເງິນຄືນເວລາຈໍາກັດ",
         "Cashback Rewards Club",
         "ຮ້ານຄ້າ ເພີ່ມເຕີມ.., ບັນທຶກ ເພີ່ມເຕີມ..",
         "ລາງວັນເງິນຄືນສູງສຸດ",
@@ -12201,7 +12201,7 @@ export default {
         "ອຸປະກອນສັດລ້ຽງ",
         "ເຄື່ອງ​ໃຊ້​ຫ້ອງ​ການ",
         "ລາຍການ & ລາຍການ",
-        "ລາຍການ & TV ລາຍການ",
+        "ຮູບເງົາ ແລະລາຍການໂທລະພາບ",
         "ຊອບແວ",
         "ລາຍການ & ລາຍການ",
         "ເຄື່ອງມືກາງແຈ້ງ",

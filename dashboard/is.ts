@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "Fjarlægðareining",
-        subtitle: "atriði atriði atriði atriði atriði.",
+        subtitle: "Einingin sem notuð er fyrir fjarlægð.",
       },
 
       menu: {
@@ -1215,8 +1215,8 @@ export default {
         app_icon_input: "App Tákn",
         app_icon_input_placeholder: "Veldu zip skrá af forritatáknum.",
         generate_icon_pack_action: "Byggja táknpakka",
-        splash_design: "atriði atriði atriði",
-        splash_logo_input: "atriði atriði atriði",
+        splash_design: "Splash Screen Desgin",
+        splash_logo_input: "Splash Screen Logo",
         splash_logo_input_placeholder: "Veldu mynd fyrir Splash Screen.",
         splash_title_input: "Splash Screen Titill",
         splash_title_input_placeholder: "Sláðu inn titil fyrir Splash Screen",
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Flokkur",
-      category_input_msg: "atriði: atriði atriði verslun atriði",
+      category_input_msg: "Tómt: Í rót verslunarinnar",
       product_name: "Vöru Nafn*",
       product_name_placeholder: "Vöruheitið þitt hér..",
       product_code: "Vörukóði (enska)",
       sku: {
         label: "SKU",
-        message: "atriði atriði atriði",
+        message: "Birgðahaldseining",
       },
       mpn: {
         label: "MPN",
-        message: "atriði atriði atriði",
+        message: "Hlutanúmer framleiðanda",
       },
 
       external_link: "Ytri tengill",
@@ -1507,8 +1507,8 @@ export default {
         title: "Sérsniðinn kauphnappur",
         message:
           "Þú getur breytt táknmynd með því að fylgja þessu mynstri: {icon name} yfirskrift...",
-        placeholder: "atriði atriði atriði atriði...",
-        multi_language_dialog_title: "atriði atriði atriði atriði",
+        placeholder: "Sláðu inn ákall til aðgerða...",
+        multi_language_dialog_title: "Yfirskrift sérsniðinn kauphnappur",
       },
       external: {
         not_available_message:
@@ -1522,16 +1522,16 @@ export default {
       },
       gtin: {
         hint: "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-        label: "vörur atriði atriði atriði atriði",
-        placeholder: "atriði atriði atriði atriði.. (atriði)",
+        label: "Alþjóðlegt vörunúmer vörunnar",
+        placeholder: "Alþjóðlegt viðskiptanúmer hér.. (Valfrjálst)",
       },
       hsn: {
         hint: "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-        placeholder: "6~16 atriði HSN atriði.. (atriði)",
+        placeholder: "6~16 stafa HSN kóði.. (Valfrjálst)",
         label: "HSN",
       },
       condition: {
-        label: "vara atriði atriði atriði verslun",
+        label: "Vöruástand í verslun þinni",
         message: "Vinsamlegast veldu ástand þessarar vöru.",
         subtitle:
           "Láttu viðskiptavini þína vita um ástand og vörumerki vörunnar sem þú ert að bjóða.",
@@ -1545,7 +1545,7 @@ export default {
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
 
         label: "Ábyrgð",
-        placeholder: "atriði 24 atriði atriði.. (atriði)",
+        placeholder: "Gull 24 mánaða ábyrgð.. (Valfrjálst)",
       },
       status: {
         title: "Staða",
@@ -1558,7 +1558,7 @@ export default {
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       },
       shortcuts: {
-        title: "atriði vara atriði atriði atriði",
+        title: "Úthluta vöru til viðbótarflokka",
         subtitle:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       },
@@ -1647,7 +1647,7 @@ export default {
         subtitle:
           "Þú getur flutt inn tækniforskriftir svipaðra vara.",
         action_title: "Flytja inn",
-        action_subtitle: "atriði atriði atriði atriði vara.",
+        action_subtitle: "Klóna forskrift úr annarri vöru.",
       },
       ai: {
         title: "AI",
@@ -1687,21 +1687,21 @@ export default {
         spec_saved_success: "Vörulýsingar vistaðar.",
       },
       dialog_ai: {
-        title: "atriði atriði vara atriði",
+        title: "Búðu til vörulýsingar sjálfkrafa",
         prompt: {
           title: "Yfirlit vöru",
           subtitle:
             "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
         },
         generated_spec: {
-          title: "AI-atriði atriði",
+          title: "AI-myndaðar upplýsingar",
           subtitle:
             "Þessar forskriftir voru búnar til með gervigreind.",
         },
         inputs: {
           prompt: {
             label: "Upplýsingar um vöru",
-            placeholder: "atriði atriði vara atriði...",
+            placeholder: "Lýstu vörunni hér...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "Lýsing bakgrunns",
-            placeholder: "atriði atriði atriði atriði...",
+            placeholder: "Lýstu æskilegum bakgrunni...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Endurmyndaðu alla myndina með nýjum bakgrunni.",
           },
           replace: {
-            subtitle: "atriði atriði atriði atriði.",
+            subtitle: "Skiptu um núverandi bakgrunn.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "atriði atriði atriði atriði {min}",
+    title: "Aukaverð fyrir meira en {min}",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     min_quantity: "Lágmarks magn",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "Bættu við mörgum afbrigðum í einni aðgerð.",
       },
       edit_property_set: {
-        title: "atriði atriði atriði",
+        title: "Sérsníða eignasett",
         subtitle: "Breyttu nöfnum, táknum og pöntunum afbrigða.",
       },
     },
@@ -1945,8 +1945,8 @@ export default {
       is_disabled: "Þessi skattasnið er óvirk! (⚠️Viðvörun)",
       shipping: "Sending",
       fixed_rate: "TAX",
-      location_based_rate: "skattur: atriði atriði",
-      shipping_location_based_rate: "sending: atriði atriði",
+      location_based_rate: "Skattur: Staðsetning byggt",
+      shipping_location_based_rate: "Sending: Staðsetning byggð",
       include_in_price: "Innifalið í verði",
     },
     dialog: {
@@ -1994,9 +1994,9 @@ export default {
     profile: {
       title: "Upplýsingar seljanda",
       subtitle: "Þessar upplýsingar eru sýndar viðskiptavinum opinberlega.",
-      action_sub_caption: "atriði vörur atriði atriði.",
-      action_see_listing_page: "atriði atriði atriði",
-      send_invitation_email: "atriði atriði Email",
+      action_sub_caption: "Opinber vöruskráningarsíða.",
+      action_see_listing_page: "Sjá skráningarsíðu",
+      send_invitation_email: "Sendu boðspóst",
       invitation_link: "atriði hlekkur",
     },
 
@@ -2012,17 +2012,17 @@ export default {
       title: "atriði atriði",
       subtitle:
         "Stilltu sérsniðna áfangasíðu fyrir söluaðilann og veittu þeim einstakan hlekk á sérstaka síðu þeirra.",
-      action_set_page: "atriði atriði atriði",
-      action_sub_caption: "atriði atriði atriði.",
+      action_set_page: "Sjá opinber síða",
+      action_sub_caption: "Sérsniðin áfangasíða.",
       vendor_has_landing_msg: "Seljandi er með sérsniðna áfangasíðu.",
-      no_landing_selected_msg: "atriði atriði atriði atriði.",
-      no_landing_page: "atriði atriði atriði",
+      no_landing_selected_msg: "Engin áfangasíða valin.",
+      no_landing_page: "Engin áfangasíða",
       we_can_create_dedicated_landing_msg:
         "Við getum búið til sérstaka áfangasíðu fyrir þig.",
     },
     contact: {
       title: "Tengiliðaupplýsingar",
-      subtitle: "atriði atriði atriði atriði upplýsingar.",
+      subtitle: "Vinsamlegast gefðu upp gildar tengiliðaupplýsingar.",
     },
     business: {
       title: "Viðskiptaupplýsingar",
@@ -2063,7 +2063,7 @@ export default {
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     only_marketplace_owner_can_edit_user:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    vendor_is_disable_msg: "seljandi atriði atriði.",
+    vendor_is_disable_msg: "Seljandi er óvirkur.",
     email_not_match_with_user_msg:
       "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {user_name} {user_email} {email}</b><b></b>",
 
@@ -2075,29 +2075,29 @@ export default {
     inputs: {
       slug: {
         label: "atriði",
-        placeholder: "atriði atriði atriði atriði...",
+        placeholder: "Sláðu inn sérsniðna slóð...",
         hint: "Breyttu slóðinni á kraftmikilli áfangasíðu seljanda.",
       },
       email: {
         message: "Þessi tölvupóstur mun fá allar tilkynningar og uppfærslur.",
       },
       business: {
-        false_description: "atriði atriði atriði atriði atriði.",
+        false_description: "Ég vinn sem einstaklingur.",
         true_description: "Ég starfa sem löglega viðurkennd rekstrareining.",
         false_title: "atriði",
         true_title: "fyrirtæki",
       },
       bank: {
         hint: "Nafn bankans þar sem seljandi er með reikning sinn.",
-        placeholder: "atriði atriði atriði..",
+        placeholder: "Nafn bankans þíns..",
       },
       account_name: {
         hint: "Þetta ætti að passa við nafnið sem tengist bankareikningnum.",
         placeholder: "atriði atriði..",
       },
       account_number: {
-        hint: "atriði seljendur atriði atriði atriði.",
-        placeholder: "atriði atriði atriði atriði..",
+        hint: "Einstakt reikningsnúmer seljanda.",
+        placeholder: "Bankareikningsnúmerið þitt..",
       },
       routing_number: {
         hint: "Þessi tala er mismunandi eftir löndum. Það er notað til að auðkenna tiltekna bankaútibúið sem seljandinn notar.",
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Alþjóðlegt bankareikningsnúmer): Ef banki seljanda er í Evrópu eða tilteknum öðrum löndum.",
-        placeholder: "atriði IBAN atriði.. atriði. DE89 3704 0044 0000 0000 00",
+        placeholder: "IBAN númerið þitt.. td. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Alþjóðlegt bankareikningsnúmer): Ef banki seljanda er í Evrópu eða tilteknum öðrum löndum.",
@@ -2113,7 +2113,7 @@ export default {
       },
       branch_address: {
         hint: "Heimilisfang bankaútibúsins þar sem seljandi er með reikning sinn.",
-        placeholder: "atriði atriði heimilisfang..",
+        placeholder: "Banka heimilisfangið þitt..",
       },
       enable: {
         label: "seljandi staða",
@@ -2122,7 +2122,7 @@ export default {
           "Þeir munu geta selt vörur sínar í gegnum markaðstorgið þitt.",
       },
       access: {
-        label: "seljandi atriði & atriði",
+        label: "Söluborð og aðgangur",
         true_description:
           "Seljandinn hefur sérstakt spjaldið til að uppfæra magn og verð.",
         hint: "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
@@ -2133,7 +2133,7 @@ export default {
         label: "seljandi atriði",
       },
       description: {
-        placeholder: "atriði atriði atriði lýsing...",
+        placeholder: "Skrifaðu opinbera lýsingu...",
       },
     },
   },
@@ -2164,14 +2164,14 @@ export default {
   product_badges: {
     title: "Merki",
     subtitle: "bæta við atriði breyta atriði vara atriði.",
-    only_marketplace_owner_msg: "atriði markaðstorg atriði",
+    only_marketplace_owner_msg: "Aðeins markaðstorgeigendur",
     create_new_badge_action: "búa til atriði atriði",
-    select_a_badge: "velja atriði atriði...",
+    select_a_badge: "Veldu merki...",
     inputs: {
       custom: {
-        false_description: "vörur atriði atriði atriði atriði.",
+        false_description: "Vörumerki eru búin til sjálfkrafa.",
         false_title: "sjálfvirkt",
-        true_title: "atriði vörur atriði",
+        true_title: "Sérsniðin vörumerki",
         true_description: "Bættu við sérsniðnum merkjum á vörusíðunni.",
       },
     },
@@ -2179,7 +2179,7 @@ export default {
       title: "atriði atriði",
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      show_advanced_options: "sýna atriði atriði",
+      show_advanced_options: "Sýna háþróaðan valmöguleika",
 
       inputs: {
         title: {
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "atriði",
-          message: "atriði atriði atriði: 128KB",
-          placeholder: "velja atriði atriði atriði",
+          message: "Hámarksmyndastærð: 128KB",
+          placeholder: "Veldu forsíðumynd",
         },
         pattern: {
           label: "atriði",
@@ -2240,7 +2240,7 @@ export default {
     add_dialog: {
       select_service_msg:
         "Sendingaraðferðir eru ákvarðaðar af markaðnum og viðskiptavinir geta valið úr þeim. Seljendur hafa enga stjórn á þessum valkostum en geta samþætt spjaldið sitt við sendingarþjónustu til að kaupa merki beint. Vinsamlegast veldu aðferð af listanum hér að neðan til að skoða tiltæka þjónustu. Veldu sendingarþjónustu af listanum hér að neðan. Aðeins tiltæk þjónusta sem hægt er að bæta við verslunina þína er sýnd hér.",
-      no_available_service: "atriði tiltækt atriði!",
+      no_available_service: "Engin þjónusta í boði!",
     },
   },
   /**
@@ -2277,7 +2277,7 @@ export default {
     subtitle:
       "Láttu lista yfir hluti sem fylgja vörunni eða þjónustupakkanum fylgja með.",
     dialog: {
-      header: "vara atriði atriði",
+      header: "Vörupakkahlutir",
       title: "Innifalin atriði",
       subtitle: "Þetta er samansafn af hlutum sem fylgja vörunni.",
       action_manage: "Stjórna atriðum",
@@ -2286,7 +2286,7 @@ export default {
         "Búðu til eða veldu pakkahluta sem fylgja vörunni eða þjónustunni. Notaðu þennan eiginleika til að leggja áherslu á hvað viðskiptavinir geta búist við að fá við kaup á hlutnum. Við ráðleggjum að nota þessa aðgerð aðeins þegar það er mikilvægt fyrir viðskiptavininn að skilja innihaldið sem fylgir, svo sem þegar hann kaupir snjallsíma.",
       create_item_tips:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      create_new_item_action: "búa til atriði atriði atriði",
+      create_new_item_action: "Búðu til nýjan innifalinn hlut",
     },
   },
 
@@ -2329,7 +2329,7 @@ export default {
         physical_orders_title: "Innkaupakörfur með þessari vöru",
         send_count_in_period: "atriði pantanir atriði {start} ~ {end}",
         downloads_count_in_period:
-          "atriði atriði atriði atriði {start} ~ {end}",
+          "Skrá niðurhalað á milli {start} ~ {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2338,7 +2338,7 @@ export default {
         title_small: "Vöruhús",
         total_sell: "Heildarsala",
         total_sell_today: "Útsala í dag",
-        total_sell_timespan: "atriði atriði atriði {start} ~ {end}",
+        total_sell_timespan: "Heildarsala milli {start} ~ {end}",
         chart: {
           labels: ["Birgðir", "Útsala"],
         },
@@ -2441,7 +2441,7 @@ export default {
           "Eftir að þú hefur vistað þetta afbrigði muntu geta bætt við mynd hér.",
 
         config: {
-          title: "vara atriði atriði",
+          title: "Uppsetning vöruafbrigða",
           subtitle: "Hafa umsjón með SKU, MPN og framboði fyrir afbrigði.",
         },
         variables: {
@@ -2451,11 +2451,11 @@ export default {
           graphical_asset_tips:
             "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.</b>",
           graphical_asset_action: "atriði atriði",
-          graphical_asset_action_caption: "atriði atriði atriði atriði.",
+          graphical_asset_action_caption: "Myndir fyrir afbrigði valkosti.",
         },
         smart_unit_price: {
           tips: "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.</b><b></b><b></b>",
-          smart_unit_price: "atriði verð atriði",
+          smart_unit_price: "Einingaverðsútreikningur",
         },
         quantity: {
           title: "Birgðir",
@@ -2470,7 +2470,7 @@ export default {
           title: "atriði & sending",
           subtitle:
             "Tilgreindu þyngd og mál fyrir afbrigði til að ákvarða sendingarkosti.",
-          same_as_product_action: "atriði atriði vara",
+          same_as_product_action: "Sama og vara",
         },
         image: {
           title: "atriði atriði",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "atriði atriði atriði (SKU)",
+            message: "Stock Keeping Unit (SKU)",
           },
           mpn: {
-            message: "atriði atriði atriði (MPN)",
+            message: "Hlutanúmer framleiðanda (MPN)",
           },
           gtin: {
-            label: "atriði atriði atriði atriði (GTIN)",
+            label: "Global Trade Item Number (GTIN)",
             message:
               "Stydd snið: UPC (12 tölustafir), EAN (13 tölustafir), JAN (8 eða 13 tölustafir), ISBN (13 tölustafir).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Uppfærðu öll afbrigði",
     bulk_action_msg:
       "Stilltu vörupökkun og undirbúningstíma fyrir öll afbrigði.",
-    dynamic_lead_time: "atriði atriði atriði",
+    dynamic_lead_time: "Kvikur leiðtími",
     instant_delivery: "atriði atriði",
   },
 
@@ -2552,24 +2552,24 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "atriði atriði atriði atriði",
-      placeholder: "atriði atriði atriði atriði atriði...",
-      success_update_notification: "atriði atriði atriði atriði.",
+      title: "Stilltu Image Alt Text",
+      placeholder: "Sláðu inn lýsandi alt texta...",
+      success_update_notification: "Alt texti uppfærður.",
     },
     dialog_bg_remove: {
-      title: "fjarlægja atriði atriði",
+      title: "Fjarlægðu bakgrunn sjálfkrafa",
       action: {
         title: "Fjarlægja bakgrunn",
-        subtitle: "búa til atriði atriði atriði.",
+        subtitle: "Búðu til gagnsæjan bakgrunn.",
       },
-      success_remove_bg_notification: "atriði atriði atriði!",
+      success_remove_bg_notification: "Bakgrunnur var fjarlægður!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "atriði atriði atriði",
+    title: "Afbrigði grafískra eigna",
     tips: {
       how_it_works:
         "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {filename}</b><br /><b></b><b><s></s></b>",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "atriði atriði",
     min_quantity: "atriði magn",
-    range_is_out_of_stock: "atriði atriði atriði atriði atriði!",
+    range_is_out_of_stock: "Úrval er uppselt!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "atriði atriði atriði atriði!",
-    set_color_warning: "atriði velja atriði atriði.",
-    set_volume_warning: "atriði atriði atriði atriði.",
-    set_pack_warning: "atriði atriði atriði atriði atriði.",
-    set_weight_warning: "atriði atriði atriði atriði.",
+    duplicated_variant: "Þetta afbrigði er þegar til!",
+    set_color_warning: "Vinsamlegast veldu lit.",
+    set_volume_warning: "Vinsamlegast tilgreindu hljóðstyrkinn.",
+    set_pack_warning: "Vinsamlegast tilgreindu pakkningastærð.",
+    set_weight_warning: "Vinsamlegast tilgreinið þyngd.",
     set_type_warning: "atriði velja atriði gerð.",
-    set_style_warning: "atriði velja atriði atriði.",
-    out_of_stock: "atriði atriði atriði atriði",
+    set_style_warning: "Vinsamlegast veldu stíl.",
+    out_of_stock: "Ekki til á lager eins og er",
 
     image: {
       tooltip: "⚡ Dragðu og slepptu mynd hingað til að tengja hana við afbrigðið.",
@@ -2610,7 +2610,7 @@ export default {
     restore_dialog: {
       title: "atriði atriði",
       message: "Ertu viss um að þú viljir endurheimta þetta eydda afbrigði?",
-      action: "atriði, atriði atriði",
+      action: "Já, endurheimta núna",
     },
     notifications: {
       restore_variant_success: "Vöruafbrigðið tókst að endurheimta.",
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "verslun atriði",
     subtitle: "Listi yfir allar vörur í verslun.",
-    cant_set_here: "atriði atriði atriði",
+    cant_set_here: "Get ekki stillt hér",
 
     search_input: "Vöruleit...",
     search_input_title: "Leitaðu meðal verslunarvara",
@@ -2715,10 +2715,10 @@ export default {
    * @see BInventoryBulkPrice
    */
   bulk_price_dialog: {
-    title: "atriði atriði > verð",
+    title: "Magnaðgerðir > Verð",
     message:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    check: "atriði atriði verð atriði.",
+    check: "Ég samþykki verðbreytingar.",
     check_description:
       "Verði verður breytt fyrir valinn flokk og alla undirflokka.",
     add_percent_tab: "bæta við atriði",
@@ -2740,12 +2740,12 @@ export default {
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       strategy: {
         min: {
-          title: "atriði atriði verð",
+          title: "Stilltu lágmarksverð",
           description:
             "Stilltu lágmarksverð vörunnar sem skráningarverð.",
         },
         max: {
-          title: "atriði atriði verð",
+          title: "Stilltu hámarksverð",
           description:
             "Stilltu hámarksverð vörunnar sem skráningarverð.",
         },
@@ -2761,7 +2761,7 @@ export default {
       listing_price_need_update_msg:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
-    listing_products_changes: "atriði vörur atriði",
+    listing_products_changes: "Skráningarvörur breytast",
     total_vendor_products: "atriði seljandi vörur",
     total_products: "atriði vörur",
     total_variants: "atriði atriði",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Sjálfvirk vistun",
-    auto_save_input_message: "atriði atriði atriði atriði atriði.",
+    auto_save_input_message: "Breytingar verða vistaðar sjálfkrafa.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2808,7 +2808,7 @@ export default {
       confirm: "Bæta við greiðslumáta",
 
       online_methods: "atriði aðferð",
-      cod_methods: "atriði atriði atriði",
+      cod_methods: "Staðgreiðsla við afhendingu",
       bank_transfer: "Bankamillifærsla",
       cash_methods: "atriði greiðsla (POS)",
 
@@ -2840,7 +2840,7 @@ export default {
 
       inputs: {
         currency: {
-          placeholder: "velja atriði gátt atriði atriði...",
+          placeholder: "Veldu gátt til að flytja inn...",
         },
         manual: {
           true_title: "atriði atriði",
@@ -3325,8 +3325,8 @@ export default {
       title: "Ástæða til að hafna pöntuninni",
       message:
         "Veldu ástæðuna fyrir því að hafna þessari pöntun af listanum hér að neðan. Gakktu úr skugga um að upplýsa viðskiptavininn um afpöntunar- og endurgreiðsluferlið. Endurgreiðsla verður að fara fram innan 12 klukkustunda.",
-      confirm_now_action: "atriði pöntun atriði",
-      confirm_in48h_action: "atriði pöntun atriði 48 atriði",
+      confirm_now_action: "Hætta við pöntun núna",
+      confirm_in48h_action: "Hætta við pöntun eftir 48 klst",
 
       dismiss_reject_action: "Afturkalla pöntun",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "atriði | atriði pöntun atriði",
-        false_title: "atriði | atriði pöntun atriði 48 atriði",
+        true_title: "Express | Hætta við pöntun strax",
+        false_title: "Standard | Hætta við pöntun eftir 48 klst",
         true_description:
           "Þessi valkostur mun hætta við pöntunina þína strax og uppfæra birgðann strax.",
         false_description:
@@ -3519,19 +3519,19 @@ export default {
         "Viðskiptavinur þinn vinnur 1x af þessari vöru. Sendu gjöf með þessari pöntun.",
 
       need_to_refund: {
-        title: "endurgreiðsla atriði atriði atriði viðskiptavinur",
+        title: "Endurgreiðslu krafist til viðskiptavinar",
         message:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
         calculated_approximately:
           "Upphæðin er reiknuð um það bil. Vinsamlegast reiknaðu út nákvæma upphæð sjálfur.",
       },
       need_payback: {
-        title: "viðskiptavinur atriði atriði",
+        title: "Greiða þarf viðskiptavinargjald",
         message:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       },
       need_no_refund: {
-        title: "atriði endurgreiðsla atriði",
+        title: "Engin endurgreiðsla nauðsynleg",
       },
       total_refund: {
         title: "atriði atriði",
@@ -3664,7 +3664,7 @@ export default {
     cod_transportations_error:
       "Virkjaðu staðgreiðslu fyrir að minnsta kosti einn sendingarmáta!",
     payment_type: "greiðsla gerð",
-    cod: "atriði atriði atriði",
+    cod: "Staðgreiðsla við afhendingu",
     online: "atriði greiðsla",
     wage_percent: "atriði atriði",
     min_wage: "atriði atriði",
@@ -3687,7 +3687,7 @@ export default {
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
     extra_config: {
-      title: "greiðsla atriði atriði",
+      title: "Uppsetning greiðsluþjónustu",
       subtitle: "Viðbótarupplýsingar um stillingar fyrir greiðslugáttina.",
     },
 
@@ -3695,8 +3695,8 @@ export default {
       title: "atriði atriði",
       subtitle:
         "Með því að taka þessi skref muntu byrja að fá raunverulegar greiðslur frá viðskiptavinum þínum.",
-      action_enable: "atriði atriði atriði atriði",
-      make_live_enable: "atriði atriði atriði atriði",
+      action_enable: "Smelltu til að virkja það",
+      make_live_enable: "Smelltu til að lifa því",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Gátt {gateway_name} breytt.",
-      success_delete: "greiðsla aðferð atriði atriði atriði!",
+      success_delete: "Greiðslumáta hefur verið eytt!",
     },
     debug: {
       title: "atriði & atriði",
@@ -3736,19 +3736,19 @@ export default {
     },
     limit_input: {
       title: "atriði pöntun upphæð",
-      msg: "atriði atriði atriði mörk.",
+      msg: "Núll þýðir engin takmörk.",
     },
     currency_input: {
       message: "Gjaldmiðillinn sem þessi greiðslugátt styður.",
     },
     gateway_code: "gátt atriði",
 
-    hold_only_for: "atriði greiðsla atriði tiltækt atriði",
+    hold_only_for: "Halda greiðslu aðeins í boði fyrir",
     manual_input: {
       false_description:
         "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
       false_title: "sjálfvirkt greiðsla atriði",
-      true_title: "atriði greiðsla atriði handvirkt atriði",
+      true_title: "Haltu greiðslum og handvirkri staðfestingu",
       true_description:
         "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
     },
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Þú ert með vörur í rót en enga síu.",
       has_root_filter_message: "Þú stillir síur fyrir rótarflokk.",
-      set_filter_message: "atriði atriði atriði sía.",
+      set_filter_message: "Þú getur stillt síur.",
       edit_action: "breyta atriði sía",
-      clear_action: "atriði atriði sía",
+      clear_action: "Hreinsaðu rótarsíur",
     },
     ai: {
       title: "AI vara atriði",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "velja atriði vörur",
       unselect: "atriði",
-      sort_categories: "atriði / atriði atriði",
+      sort_categories: "Raða / Raða flokka",
       subscription_vendor_not_support_message:
         "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
       vendor_owner_not_assignable_message:
@@ -4089,11 +4089,11 @@ export default {
       category_assign_profile: "Úthlutaðu prófíl fyrir vörur í flokknum",
       category_assign_profile_subtitle: "skattur, sending, atriði, atriði,...",
       bulk_discount: "atriði afsláttur",
-      bulk_discount_subtitle: "atriði afsláttur atriði atriði vörur.",
+      bulk_discount_subtitle: "Notaðu afslátt af öllum vörum.",
     },
 
     engine: {
-      title: "atriði vörur atriði",
+      title: "Vél fyrir aukavörur",
       subtitle:
         "Fleiri vörur verða hlaðnar úr völdum flokkum og merkjum.",
       load_in_tips: "Veldu eða sláðu inn nauðsynlegar upplýsingar. {category}",
@@ -4103,9 +4103,9 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "atriði atriði / CSV atriði atriði.",
+      title: "Slepptu Excel / CSV skrá hér.",
       select_file: "velja atriði",
-      max_file: "atriði atriði atriði: 20mb",
+      max_file: "Hámarksskráarstærð: 20mb",
       download_sample: "sækja atriði",
     },
     ai: {
@@ -4132,7 +4132,7 @@ export default {
 
       charge_tooltip: "atriði seljandi veski.",
       withdraw_tooltip: "atriði atriði seljandi veski.",
-      payout_tooltip: "atriði atriði atriði seljandi.",
+      payout_tooltip: "Útborgun til seljanda.",
     },
     order_canceled: "pöntun atriði",
     order_rejected: "pöntun atriði atriði seljandi",
@@ -4146,7 +4146,7 @@ export default {
       subtitle: "markaðstorg upplýsingar.",
     },
     performance: {
-      subtitle: "atriði atriði atriði.",
+      subtitle: "Söluárangur minn.",
     },
     products: {
       title: "Vörur",
@@ -4159,9 +4159,9 @@ export default {
         "Þú þarft ekki að bæta við veski handvirkt! Veski söluaðila verða sjálfkrafa búin til.",
     },
 
-    open_marketplace_page: "atriði markaðstorg atriði",
-    open_my_store_page: "atriði atriði verslun atriði",
-    open_my_listing_page: "atriði atriði atriði atriði",
+    open_marketplace_page: "Opin markaðstorgsíða",
+    open_my_store_page: "Opnaðu verslunarsíðuna mína",
+    open_my_listing_page: "Opnaðu skráningarsíðuna mína",
     add_products_permission: "bæta við vörur atriði",
     add_categories_permission: "bæta við atriði atriði",
   },
@@ -4193,10 +4193,10 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "breyta atriði atriði",
-    title_new: "bæta við atriði atriði atriði",
+    title_edit: "Breyta liðsmanni",
+    title_new: "Bæta við nýjum liðsmanni",
     member: {
-      title: "atriði atriði upplýsingar",
+      title: "Upplýsingar um liðsfélaga",
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Email heimilisfang",
-        placeholder: "atriði atriði atriði atriði heimilisfang...",
+        placeholder: "Sláðu inn netfang meðlims...",
       },
     },
     notifications: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "atriði atriði atriði atriði greiðsla?",
+          label: "Hefur þú staðfest þessa greiðslu?",
           false_description:
             "Nei, ég hef ekki enn fengið þessa greiðslu inn á bankareikninginn minn.",
           true_description: "Já, ég hef fengið og staðfest þessa greiðslu.",
@@ -4266,7 +4266,7 @@ export default {
       "<b>Mikilvægt! </b>Að framkvæma þessa aðgerð myndar neikvæða færslu í veski seljanda og draga valda upphæð frá henni. Upphæðin má ekki fara yfir heildarfærslur sem eftir eru fyrir valda pöntun. Að auki, ef fjármunir hafa verið millifærðir á tengda bankareikninga (svo sem með Stripe Connect eða handvirkri millifærslu), ættirðu að búa til <b>bakfærslu</b>.",
     inputs: {
       note: {
-        message: "atriði atriði atriði atriði seljandi.",
+        message: "Það er sýnilegt seljanda.",
         placeholder: "Þú getur hengt við athugasemd hér...",
       },
       amount: {
@@ -4832,7 +4832,7 @@ export default {
     },
     "backoffice:notifications": {
       name: "atriði atriði",
-      description: "atriði atriði atriði atriði.",
+      description: "Senda og taka á móti tilkynningum.",
     },
     "backoffice:order:write": {
       name: "pöntun atriði",
@@ -4844,11 +4844,11 @@ export default {
     },
     "backoffice:support-tickets": {
       name: "atriði atriði",
-      description: "atriði atriði atriði.",
+      description: "Stjórna stuðningsmiðum.",
     },
     "backoffice:shop:read": {
       name: "verslun upplýsingar",
-      description: "atriði verslun upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um verslun og tölfræði.",
     },
     "backoffice:shop:write": {
       name: "verslun atriði",
@@ -4863,11 +4863,11 @@ export default {
       description: "Eyða búð úr kerfinu.",
     },
     "backoffice:giftcard:write": {
-      name: "atriði atriði atriði",
+      name: "Gjafakortastjórnun",
       description: "Búðu til og stjórnaðu gjafakortum.",
     },
     "backoffice:giftcard:read": {
-      name: "atriði atriði atriði",
+      name: "Aðgangur að gjafakortum",
       description: "Lestu upplýsingar um gjafakort og tölfræði.",
     },
     "backoffice:faq:write": {
@@ -4876,7 +4876,7 @@ export default {
     },
     "backoffice:faq:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu algengar upplýsingar og tölfræði.",
     },
     "backoffice:category:write": {
       name: "flokkur atriði",
@@ -4884,7 +4884,7 @@ export default {
     },
     "backoffice:category:read": {
       name: "flokkur atriði",
-      description: "atriði flokkur upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um flokka og tölfræði.",
     },
     "backoffice:product:write": {
       name: "vara atriði",
@@ -4892,18 +4892,18 @@ export default {
     },
     "backoffice:product:read": {
       name: "vara atriði",
-      description: "atriði vara upplýsingar atriði atriði.",
+      description: "Lestu vöruupplýsingar og tölfræði.",
     },
     "backoffice:report:read": {
       name: "skýrsla atriði",
       description: "atriði verslun skýrsla atriði upplýsingar.",
     },
     "backoffice:finance:write": {
-      name: "atriði atriði atriði",
+      name: "Stjórn fjármálareikninga",
       description: "Stjórna fjárhagsreikningum tengdum versluninni.",
     },
     "backoffice:finance:read": {
-      name: "atriði atriði atriði",
+      name: "Aðgangur að fjárhagsreikningi",
       description: "Lestu upplýsingar um fjárhagsreikning og tölfræði.",
     },
     "backoffice:page:write": {
@@ -4916,19 +4916,19 @@ export default {
     },
     "backoffice:logistic:write": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar.",
+      description: "Stjórna flutningsupplýsingum.",
     },
     "backoffice:logistic:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um flutninga og tölfræði.",
     },
     "backoffice:staff:write": {
       name: "atriði atriði",
-      description: "breyta atriði atriði atriði upplýsingar.",
+      description: "Breyttu og stjórnaðu upplýsingum um starfsfólk.",
     },
     "backoffice:staff:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um starfsfólk og tölfræði.",
     },
     "backoffice:business-profile:write": {
       name: "fyrirtæki prófíll atriði",
@@ -4939,11 +4939,11 @@ export default {
       description: "atriði fyrirtæki prófíll upplýsingar.",
     },
     "backoffice:discount-code:write": {
-      name: "afsláttur atriði atriði",
+      name: "Afsláttarkóðastjórnun",
       description: "atriði verslun afsláttur atriði.",
     },
     "backoffice:discount-code:read": {
-      name: "afsláttur atriði atriði",
+      name: "Afsláttarkóða aðgangur",
       description: "Lestu upplýsingar um afsláttarkóða og tölfræði.",
     },
     "backoffice:wallet:write": {
@@ -4952,7 +4952,7 @@ export default {
     },
     "backoffice:wallet:read": {
       name: "veski atriði",
-      description: "atriði veski upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um veski og tölfræði.",
     },
     "backoffice:coupon:write": {
       name: "afsláttarmiði atriði",
@@ -4960,7 +4960,7 @@ export default {
     },
     "backoffice:coupon:read": {
       name: "afsláttarmiði atriði",
-      description: "atriði afsláttarmiði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um afsláttarmiða og tölfræði.",
     },
     "backoffice:offer:write": {
       name: "tilboð atriði",
@@ -4968,7 +4968,7 @@ export default {
     },
     "backoffice:offer:read": {
       name: "tilboð atriði",
-      description: "atriði tilboð upplýsingar atriði atriði.",
+      description: "Lestu tilboðsupplýsingar og tölfræði.",
     },
     "backoffice:cashback:write": {
       name: "atriði atriði",
@@ -4976,23 +4976,23 @@ export default {
     },
     "backoffice:cashback:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um endurgreiðslu og tölfræði.",
     },
     "backoffice:lottery:write": {
       name: "atriði atriði",
-      description: "atriði verslun atriði.",
+      description: "Stjórna happdrætti verslana.",
     },
     "backoffice:lottery:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um happdrætti og tölfræði.",
     },
     "backoffice:community:write": {
       name: "atriði atriði",
-      description: "atriði atriði atriði.",
+      description: "Stjórna félagsstarfi.",
     },
     "backoffice:community:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um samfélagið og tölfræði.",
     },
     "backoffice:customer:write": {
       name: "viðskiptavinur atriði",
@@ -5000,23 +5000,23 @@ export default {
     },
     "backoffice:customer:read": {
       name: "viðskiptavinur atriði",
-      description: "atriði viðskiptavinur upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um viðskiptavini og tölfræði.",
     },
     "backoffice:ribbon:write": {
       name: "atriði atriði",
-      description: "atriði verslun atriði.",
+      description: "Stjórna búðarböndum.",
     },
     "backoffice:ribbon:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um borði og tölfræði.",
     },
     "backoffice:ai:write": {
       name: "AI atriði",
-      description: "atriði AI atriði.",
+      description: "Stjórna gervigreind stillingum.",
     },
     "backoffice:ai:read": {
       name: "AI atriði",
-      description: "atriði AI atriði atriði atriði.",
+      description: "Lestu gervigreindarstillingar og tölfræði.",
     },
     "backoffice:vendor-payment:write": {
       name: "seljandi greiðsla atriði",
@@ -5028,7 +5028,7 @@ export default {
     },
     "backoffice:company:read": {
       name: "fyrirtæki atriði",
-      description: "atriði fyrirtæki upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um fyrirtæki og tölfræði.",
     },
     "backoffice:company:write": {
       name: "fyrirtæki atriði",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "athugasemd atriði",
-      description: "atriði athugasemd atriði atriði upplýsingar.",
+      description: "Lestu athugasemdir og tengdar upplýsingar.",
     },
     "backoffice:note:write": {
       name: "athugasemd atriði",
@@ -5044,23 +5044,23 @@ export default {
     },
     "backoffice:affiliate:write": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar.",
+      description: "Stjórna hlutdeildarupplýsingum.",
     },
     "backoffice:affiliate:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um samstarfsaðila og tölfræði.",
     },
     "backoffice:print:write": {
       name: "atriði atriði",
-      description: "atriði atriði atriði.",
+      description: "Stjórna prentvalkostum.",
     },
     "backoffice:print:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar.",
+      description: "Lestu upplýsingar um prentun.",
     },
     "selldone:token:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu auðkennisupplýsingar og tölfræði.",
     },
     "selldone:token:write": {
       name: "atriði atriði",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um tekjuöflun og tölfræði.",
     },
     "selldone:monetization:write": {
       name: "atriði atriði",
-      description: "atriði atriði, atriði atriði atriði.",
+      description: "Stjórna tekjuöflun, þar með talið tilvísunaráætlunum.",
     },
     "selldone:identification": {
       name: "atriði atriði",
@@ -5082,42 +5082,42 @@ export default {
     },
     "selldone:developer:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um þróunaraðila og tölfræði.",
     },
     "selldone:developer:write": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar.",
+      description: "Hafa umsjón með upplýsingum um þróunaraðila.",
     },
     "selldone:security:write": {
       name: "atriði atriði",
-      description: "atriði atriði atriði.",
+      description: "Stjórna öryggisstillingum.",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
       name: "atriði atriði",
-      description: "atriði atriði atriði atriði.",
+      description: "Stjórna tengdum þjónustuaðilum.",
     },
     "connect:provider:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um veituna og tölfræði.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um stofnunina og tölfræði.",
     },
     "agency:write": {
       name: "atriði atriði",
-      description: "atriði atriði upplýsingar.",
+      description: "Hafa umsjón með upplýsingum um stofnun.",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
       name: "seljandi atriði",
-      description: "atriði seljandi upplýsingar atriði atriði.",
+      description: "Lestu upplýsingar um söluaðila og tölfræði.",
     },
     "vendor-write": {
       name: "seljandi atriði",
@@ -5140,7 +5140,7 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "atriði Selldone atriði atriði atriði.",
+      description: "Fáðu aðgang að Sellone þjónustu og eiginleikum.",
     },
     others: {
       title: "Annað",
@@ -5152,11 +5152,11 @@ export default {
     },
     connect: {
       title: "Connect OS",
-      description: "atriði atriði atriði atriði atriði.",
+      description: "Fáðu aðgang að tengdum þjónustu og veitendum.",
     },
     agency: {
       title: "atriði",
-      description: "atriði atriði upplýsingar atriði atriði.",
+      description: "Aðgangur að upplýsingum og stjórnun stofnunarinnar.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "atriði atriði veski",
+        title: "Veldu veski",
         subtitle:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Selldone — Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
-    your_license_is_not_eligible: "atriði leyfi atriði atriði atriði.",
+    your_license_is_not_eligible: "Leyfið þitt er ekki gjaldgengt.",
     sku_dialog: {
       title: "bæta við vara atriði SKU",
       subtitle:
@@ -5889,8 +5889,8 @@ export default {
     affiliate_commission: "atriði atriði",
 
     config: {
-      new: "atriði atriði atriði",
-      edit: "breyta atriði atriði",
+      new: "Nýr samstarfsaðili",
+      edit: "Breyta samstarfsaðila",
       subtitle:
         "Stilltu almennar stillingar og nafn hlutdeildarfélagsins hér.",
     },
@@ -5918,12 +5918,12 @@ export default {
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
 
       domain_not_approved_msg: "Lénið hefur ekki verið samþykkt ennþá!",
-      domain_is_not_enable_msg: "atriði atriði atriði atriði atriði!",
+      domain_is_not_enable_msg: "Lénið er ekki virkt!",
       domain_is_linked_to_other_affiliate_msg:
         "Þetta lén er nú þegar tengt öðru hlutdeildarfélagi!",
     },
 
-    set_users_first_message: "atriði atriði atriði notandi atriði!",
+    set_users_first_message: "Vinsamlegast stilltu notandann fyrst!",
 
     cluster: {
       title: "atriði",
@@ -5933,13 +5933,13 @@ export default {
     },
 
     notifications: {
-      create_success: "atriði atriði atriði atriði.",
-      update_success: "atriði atriði atriði.",
+      create_success: "Nýtt samstarfsaðili bætt við.",
+      update_success: "Samstarfsaðili uppfærður.",
     },
 
     inputs: {
       name: {
-        label: "atriði atriði atriði",
+        label: "Nafn samstarfsaðila",
         message: "t.d. John Doe, Alex Company, X Marketers o.fl.",
       },
       commission: {
@@ -5948,7 +5948,7 @@ export default {
           "Reiknaðu með því að nota blöndu af föstum og prósentum þóknunum.",
         true_description:
           "Reiknaðu með því að nota vörusértæk þóknun sem stillt er á flipann verðlagningu.",
-        false_title: "atriði + atriði atriði",
+        false_title: "Fast + prósentuþóknun",
         true_title: "atriði atriði",
       },
       user: {
@@ -5956,19 +5956,19 @@ export default {
         message: "Valfrjálst, td hlutdeildarnafn í Selldone",
       },
       web: {
-        placeholder: "atriði, atriði.atriði., atriði.atriði",
+        placeholder: "Valfrjálst, t.d. affiliate-web.com",
       },
       address: {
         placeholder: "Valfrjálst, t.d. 1200 POX, NY, Bandaríkjunum",
       },
       tel: {
-        placeholder: "atriði, atriði.atriði., 001-808-210354",
+        placeholder: "Valfrjálst, t.d. 001-808-210354",
       },
       bank: {
         placeholder: "Valfrjálst, t.d. Arstra Bank, nr: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "velja atriði atriði... (atriði)",
+        placeholder: "Veldu lén... (Valfrjálst)",
       },
       pos: {
         true_description:
@@ -5980,7 +5980,7 @@ export default {
           "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
       },
       products: {
-        label: "vörur atriði atriði atriði",
+        label: "Vörur sem eru gjaldgengar í þóknun",
         select_product: "velja vörur",
       },
     },
@@ -6001,7 +6001,7 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "atriði atriði atriði atriði",
+    title: "Sérsniðin verðlagning og verðmat",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     add_valuation_action: "búa til atriði atriði eyðublað",
@@ -6014,7 +6014,7 @@ export default {
       action: "Já, Eyða núna",
     },
     notifications: {
-      delete_success: "atriði atriði atriði atriði atriði.",
+      delete_success: "Verðmati hefur verið eytt.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "atriði & atriði atriði",
+    label: "Verð- og verðmatslíkan",
   },
 
   /**
@@ -6035,7 +6035,7 @@ export default {
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
-    valuation_preview: "atriði atriði eyðublað",
+    valuation_preview: "Forskoða verðmatsform",
     load_sample: "atriði atriði",
     conditions: {
       title: "Skilyrði",
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      zero_message: "atriði: atriði atriði atriði mörk!",
+      zero_message: "núll: það eru engin takmörk!",
     },
     duration: {
       subtitle:
@@ -6334,7 +6334,7 @@ export default {
     constraints: {
       subtitle:
         "Hér hefur þú möguleika á að koma á viðbótar persónulegum breytum fyrir afsláttarmiða.",
-      no_limit: "atriði atriði atriði",
+      no_limit: "Engin auka takmörkun",
       has_limit: "atriði atriði",
       has_code_message: "Notandi ætti að slá inn kóðann til að bæta við afsláttarmiða.",
     },
@@ -7053,7 +7053,7 @@ export default {
       },
       need_kyc_alert:
         "Þú þarft að staðfesta persónulegar upplýsingar þínar áður en þú flytur inn söluaðila.",
-      back_to_vendors_list: "atriði atriði seljandi atriði",
+      back_to_vendors_list: "Aftur á söluaðilalistann",
     },
   },
 
@@ -7076,8 +7076,8 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "atriði seljendur atriði",
-    title: "seljandi atriði atriði",
+    open_vendors_panel: "Opnaðu söluaðilaspjaldið",
+    title: "Beiðnalisti söluaðila",
     subtitle:
       "Þetta er listi yfir beiðnir frá einstaklingum sem hafa sótt um að verða söluaðilar á þínum markaði.",
   },
@@ -7131,9 +7131,9 @@ export default {
           "Seljendur geta bætt við og stjórnað eigin vörum beint í spjaldið lánardrottins þeirra.",
       },
       need_verify: {
-        label: "vara atriði atriði",
+        label: "Staðfestingarflæði vöru",
         false_description: "Nýjar vörur seljanda fara strax í notkun.",
-        false_title: "atriði atriði atriði",
+        false_title: "Engin staðfesting krafist",
         true_description:
           "Nýjar vörur söluaðila þurfa samþykki áður en þær fara á markaðinn.",
         true_title: "atriði atriði",
@@ -7166,16 +7166,16 @@ export default {
         true_description:
           "Notandi getur haft marga lánardrottnareikninga. Þetta er beta eiginleiki; vinsamlegast hafðu samband við okkur áður en þú notar það.",
         true_title: "atriði atriði",
-        false_title: "atriði seljandi atriði (atriði)",
+        false_title: "Stilling staks söluaðila (sjálfgefið)",
       },
 
       listing: {
-        label: "atriði atriði seljendur",
+        label: "Skráning fyrir söluaðila",
         true_description: "Skráning er virkjuð fyrir söluaðila. Seljendur geta stjórnað skráningarvörum og fyrirtækjum.",
         false_description: "Skráning er óvirk fyrir söluaðila. Aðeins verslunareigandi getur stjórnað skráningarvörum og fyrirtækjum.",
         requires_listing_active_text:
           "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
-        requires_listing_active_button: "atriði atriði atriði stillingar",
+        requires_listing_active_button: "Opnaðu stillingar fyrir rásarskráningu",
       },
 
 
@@ -7218,8 +7218,8 @@ export default {
         },
         code: {
           label: "atriði atriði",
-          placeholder: "atriði atriði atriði atriði atriði...",
-          message: "atriði atriði HTML atriði.",
+          placeholder: "Límdu innfellingarkóðann hér...",
+          message: "Getur innihaldið HTML kóða.",
         },
         url: {
           label: "URL",
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "atriði atriði skjal",
+      title: "Auðkenningarskjal eiganda",
       description:
         "Hladdu upp ríkisútgefnum skilríkjum til að staðfesta deili á eiganda fyrirtækisins eða lykilstjórnanda.",
     },
@@ -7274,7 +7274,7 @@ export default {
         "Gefðu upp höfundarréttarskráningarskjöl til að staðfesta hugverkarétt þinn.",
     },
     Privacy: {
-      title: "atriði atriði skjal",
+      title: "Persónuverndarskjöl",
       description:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
@@ -7322,7 +7322,7 @@ export default {
     title: "atriði atriði",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    top_up_vendor_action: "atriði atriði seljandi atriði",
+    top_up_vendor_action: "Fylltu upp söluaðilareikning",
   },
 
   /**
@@ -7339,24 +7339,24 @@ export default {
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "markaðstorg atriði atriði",
+    title: "Verðlíkan markaðstorgs",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     delete: {
       subtitle:
         "Ertu viss um að þú viljir eyða þessu atriði?",
-      remove_pricing_action: "fjarlægja atriði atriði",
+      remove_pricing_action: "Fjarlægðu verðlíkan",
     },
     inputs: {
       title: {
-        placeholder: "atriði.atriði., atriði vörur atriði...",
+        placeholder: "t.d. Digital Products Class...",
       },
       description: {
         placeholder: "Þú getur bætt við athugasemd hér...",
       },
       accept_delete: {
         true_description: "Ég vil eyða þessu verðlíkani.",
-        true_title: "atriði atriði atriði atriði",
+        true_title: "Staðfestu fjarlægingu verðlíkans",
       },
     },
   },
@@ -7371,11 +7371,11 @@ export default {
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
     vendor_wallet: "seljandi veski",
-    vendor_bank_account: "seljandi atriði atriði",
+    vendor_bank_account: "Bankareikningur seljanda",
     with_balance_tooltip:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     with_balance: "atriði atriði",
-    without_balance: "atriði atriði - atriði atriði",
+    without_balance: "Án jafnvægis - Hraðstilling",
     bank_transfer: {
       title: "Bankamillifærsla",
       subtitle:
@@ -7434,8 +7434,8 @@ export default {
     max_batch_msg: "Hámarksfjöldi vara sem þú getur flutt inn í einni lotu.",
     max_daily_limit_msg: "Hámarksfjöldi hluta sem þú getur flutt inn á dag.",
     extra_daily_limit_msg: "Fleiri hlutir leyfðir umfram daglegt hámark.",
-    add_items_today_msg: "atriði atriði atriði.",
-    file_statistic_msg: "atriði atriði atriði atriði.",
+    add_items_today_msg: "Hlutum bætt við í dag.",
+    file_statistic_msg: "Tölfræði fyrir þessa skrá.",
     used_quota: "atriði atriði",
   },
 
@@ -7522,7 +7522,7 @@ export default {
           "Einföld og lágmarks stilling án aukaaðgerða á vörukortum.",
         true_description:
           "Sýna fljótleg kaup og bæta við til að bera saman hnappa á vörukorti sem sveima.",
-        true_title: "sýna atriði atriði atriði",
+        true_title: "Sýna aðgerð á sveima",
       },
     },
     filter_products: {
@@ -7539,8 +7539,8 @@ export default {
       title: "sía atriði",
       hide_empty_folders: {
         false_description: "Sýna alla flokka í verslunarlistanum.",
-        false_title: "sýna atriði atriði",
-        true_title: "fela atriði atriði",
+        false_title: "Sýna alla flokka",
+        true_title: "Fela tóma flokka",
         true_description:
           "Sýna aðeins flokka með vörum í verslunarlistanum.",
       },
@@ -7550,14 +7550,14 @@ export default {
       title: "vara atriði",
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      buy_button_color: "atriði atriði atriði",
+      buy_button_color: "Kaupa hnappalit",
       smart_price: {
-        title: "atriði atriði verð",
+        title: "Snjallt einingaverð",
         true_description:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       },
       reverse_currency: {
-        title: "gjaldmiðill atriði atriði",
+        title: "Staða gjaldmiðilsmerkis",
         false_title: "Venjulegur háttur",
         true_title: "atriði atriði",
         false_description:
@@ -7573,7 +7573,7 @@ export default {
 
       tabs_order: {
         title: "atriði pöntun",
-        reset_to_default: "atriði atriði atriði",
+        reset_to_default: "Endurstilla í sjálfgefið",
       },
     }, // end: product_page
   },
@@ -7589,12 +7589,12 @@ export default {
     },
     inputs: {
       page_vendor_login: {
-        label: "seljandi atriði atriði",
+        label: "Innskráningarsíða söluaðila",
         message:
           "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
       },
       page_vendor_registered: {
-        label: "seljandi atriði atriði",
+        label: "Seljandi skráð síða",
         message:
           "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
       },
@@ -7612,17 +7612,17 @@ export default {
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "atriði atriði atriði",
+      title: "Leturgerð á aðalsíðu",
       subtitle: "Veldu uppáhalds leturgerðina þína úr Google leturgerðum.",
     },
     inputs: {
       font_family: {
         label: "atriði atriði",
-        message: "atriði atriði atriði gildi.",
+        message: "Sláðu inn gildi leturfjölskyldunnar.",
       },
       font_res: {
         label: "atriði atriði",
-        message: "atriði atriði atriði atriði.",
+        message: "Tilgreindu leturgerðina.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "atriði titill",
-        set_empty: "atriði atriði titill",
+        set_empty: "Stilltu tóman titil",
       },
     },
   },
@@ -7673,7 +7673,7 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "breyta atriði atriði",
+    edit_title: "Breyta eignasetti",
     add_title: "bæta við atriði atriði",
     config: {
       subtitle:
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Sláðu inn titil fyrir eignasett...",
       },
       description: {
-        placeholder: "atriði atriði atriði lýsing... (atriði)",
+        placeholder: "Sláðu inn stutta lýsingu... (valfrjálst)",
       },
       custom_variants: {
         true_title: "atriði atriði",
         false_title: "atriði atriði",
-        true_description: "atriði atriði vara atriði.",
-        false_description: "atriði atriði atriði atriði.",
+        true_description: "Sérsníddu vöruafbrigði þín.",
+        false_description: "Notaðu sjálfgefna alþjóðleg afbrigði.",
       },
     },
   },
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "atriði gildi atriði... (atriði)",
+        placeholder: "Stilltu gildi stillt... (valfrjálst)",
         messages:
           "Þú getur komið með tillögur um gildin og sérsniðið röð.",
       },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Valkostur 3: Sending strax.",
 
     verify_delivery_input: {
-      true_title: "atriði atriði atriði",
+      true_title: "Staðfestu afhendingu lokið",
       true_description:
         "Ég staðfesti að pöntunin hafi verið afhent viðskiptavinum.",
     },
@@ -8004,12 +8004,12 @@ export default {
     title: "atriði stjórnborð",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    no_bank_info: "atriði atriði atriði!",
+    no_bank_info: "Engar bankaupplýsingar!",
     actions: {
-      edit_my_bank_info: "breyta atriði atriði atriði",
+      edit_my_bank_info: "Breyta bankaupplýsingunum mínum",
     },
     bank_dialog: {
-      title: "atriði atriði upplýsingar",
+      title: "Bankaupplýsingar mínar",
       info: {
         title: "Banki",
         subtitle:
@@ -8021,7 +8021,7 @@ export default {
           message: "Fullt nafn bankans þar sem reikningurinn er haldinn.",
         },
         holder_name: {
-          label: "atriði atriði atriði",
+          label: "Nafn reikningshafa",
           message:
             "Fullt nafn einstaklings eða aðila sem á reikninginn.",
         },
@@ -8041,7 +8041,7 @@ export default {
             "Alþjóðlegur kóði sem notaður er til að auðkenna banka á heimsvísu, sérstaklega fyrir millifærslur milli landa.",
         },
         iban: {
-          label: "IBAN (atriði atriði atriði atriði)",
+          label: "IBAN (alþjóðabankareikningsnúmer)",
           message:
             "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
         },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Tekjuöflun",
-    subtitle: "atriði atriði atriði fyrirtæki atriði.",
+    subtitle: "Dreifðu aðgangi að viðskiptatækifærum.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8531,12 +8531,12 @@ export default {
         "Sérsniðin SMS-skilaboð virka aðeins ef þú velur sérsniðna þjónustuveitu.",
       add_new: "bæta við atriði",
       disable_reason: {
-        set_provider: "atriði atriði atriði atriði!",
-        provider_is_disabled: "atriði atriði atriði!",
-        otp: "atriði - atriði atriði!",
-        select_another_provider: "velja atriði atriði.",
+        set_provider: "Stilltu þjónustuveituna þína fyrst!",
+        provider_is_disabled: "Þjónustuveitan er óvirk!",
+        otp: "OTP - Ekkert sérhannaðar!",
+        select_another_provider: "Veldu annan þjónustuaðila.",
       },
-      enable_only_filter: "sýna atriði atriði",
+      enable_only_filter: "Sýna aðeins virkt",
 
       text_template_not_supported_msg:
         "Þjónustuveitan þín styður ekki einföld textaskilaboð.",
@@ -8547,7 +8547,7 @@ export default {
 
       menu: {
         reset_error: "atriði villa",
-        send_test: "atriði atriði skilaboð",
+        send_test: "Sendu prufuskilaboð",
       },
     },
     template_edit: {
@@ -8566,10 +8566,10 @@ export default {
         subtitle:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
         message: "Skilaboð",
-        reset_to_default: "atriði atriði atriði",
+        reset_to_default: "Endurstilla í sjálfgefið",
 
         auto_fill: {
-          title: "sjálfvirkt atriði atriði",
+          title: "Sjálfvirk fyllingarfæribreytur",
           subtitle:
             "Selldone — Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
         },
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "bæta við atriði atriði",
 
         auto_fill: {
-          title: "sjálfvirkt atriði atriði",
+          title: "Sjálfvirk fyllingarfæribreytur",
           subtitle:
             "Selldone — Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
         },
@@ -8593,7 +8593,7 @@ export default {
           title: "atriði atriði",
         },
         sample: {
-          title: "atriði atriði skilaboð",
+          title: "Dæmi um sniðmát skilaboð",
           subtitle: "Þú getur afritað og límt þetta sniðmát til SMS-þjónustunnar þinnar.",
         },
         add_message_action: "bæta við skilaboð atriði",
@@ -8614,7 +8614,7 @@ export default {
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
-    title: "atriði SMS atriði",
+    title: "Sérsniðin SMS veitandi",
     reset_error: "atriði villa",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
@@ -8648,13 +8648,13 @@ export default {
   },
   sms_messages_options: {
     all: {
-      title: "atriði + pöntun atriði",
+      title: "OPT + pöntunartilkynningar",
       description:
         "Auðkenningarskilaboð og pöntunartilkynning verða send.",
     },
     otp: {
       title: "atriði atriði",
-      description: "atriði skilaboð atriði atriði atriði.",
+      description: "Auðkenningarskilaboð verða send.",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "atriði atriði atriði",
+    title: "Sérsniðinn póstþjónn",
     subtitle:
       "Tengdu póstþjónustuveituna þína til að senda tölvupóst um sérsniðna lénið þitt.",
     provider: "atriði",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "atriði atriði atriði atriði",
+      send_test_email: "Sendu prófunarpóst",
     },
 
     messages: {
@@ -8735,7 +8735,7 @@ export default {
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
-    title: "Instagram atriði atriði",
+    title: "Sölurás Instagram",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
   },
@@ -8954,7 +8954,7 @@ export default {
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     only_registered_shopping_msg:
       "Aðeins skráðir notendur geta hlaðið niður sýnishornsskrám.",
-    file_count_limit: "atriði atriði mörk",
+    file_count_limit: "Takmörk fyrir fjölda skráa",
   },
 
   /**
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "atriði atriði",
     import: {
       title: "atriði prófíll",
-      subtitle: "velja atriði atriði atriði prófíll.",
+      subtitle: "Veldu snið fyrir vistaðar staðsetningar.",
     },
     export: {
       title: "vista prófíll",
-      subtitle: "verslun atriði atriði atriði atriði.",
+      subtitle: "Geymdu staðsetningar til notkunar í framtíðinni.",
     },
     has_restriction_input: {
-      title: "atriði atriði atriði",
+      title: "Er með takmörkun á staðsetningu",
       description:
         "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
     },
-    zip_pin_code: "atriði / atriði atriði",
+    zip_pin_code: "Póstnúmer / PIN-númer",
     no_country_selected_error:
       "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
     tips: "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.</b><b></b><b></b>",
@@ -9002,7 +9002,7 @@ export default {
       },
     },
     load_profile_dialog: {
-      title: "atriði atriði prófíll",
+      title: "Hlaða staðsetningarprófíl",
       message:
         "Þú getur hlaðið inn staðsetningum með því að velja áður vistað staðsetningarsett hér.",
 
@@ -9028,11 +9028,11 @@ export default {
   selldone_applications: {
     title: "Ekki missa af pöntunum þínum!",
     msg: "Stjórnaðu fyrirtækinu þínu hvar og hvenær sem er.",
-    scan_qr_code: "atriði atriði atriði atriði sími!",
+    scan_qr_code: "Skannaðu mig með símanum þínum!",
 
     notification: {
       title: "Tilkynning",
-      subtitle: "atriði atriði pantanir atriði.",
+      subtitle: "Fáðu tilkynningu um nýjar pantanir.",
     },
     order: {
       title: "Pantanir",
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "Vörur",
-      subtitle: "atriði atriði atriði vara atriði.",
+      subtitle: "Birgðastýring og vara látlaus.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "bæta við atriði verslun",
-    i_have_a_deal: "atriði atriði atriði atriði",
+    i_have_a_deal: "Ég er með samning",
     access: {
       title: "atriði atriði",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "atriði atriði atriði",
+    title: "Áætlun um útgáfu efnis",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
   },
@@ -9493,14 +9493,14 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "atriði atriði atriði",
+    title: "Sendu beina beiðni",
     message:
       "Selldone — Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    expand_action: "atriði atriði atriði...",
+    expand_action: "Skrifaðu beiðnina...",
     input_label: "atriði atriði",
     to: {
-      ceo: "atriði atriði atriði",
-      team: "atriði atriði atriði",
+      ceo: "Sendið til forstjóra",
+      team: "Senda á Team",
     },
     placeholder: {
       ceo: "Sláðu inn gildi...",
@@ -9525,7 +9525,7 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "atriði atriði vörur",
+    title: "Vinnsla innfluttra vara",
     message:
       "Við erum að vinna að innflutningi á vörum og myndum sem gæti tekið nokkurn tíma að klára.",
   },
@@ -9544,17 +9544,17 @@ export default {
   shop_connect: {
     test: {
       title: "verslun",
-      subtitle: "atriði atriði skýrsla",
+      subtitle: "Ytri þjónustuskýrsla",
       action: "atriði atriði",
-      last_update: "atriði atriði atriði",
+      last_update: "Síðast uppfært af",
     },
     service_status: {
       title: "atriði staða",
-      syncing_message: "atriði atriði atriði...",
+      syncing_message: "Í samstillingarferli...",
       action: "atriði atriði",
       connect_status: "Connect staða",
       service_status: "atriði staða",
-      auto_confirm_enable_msg: "atriði atriði pantanir atriði atriði.",
+      auto_confirm_enable_msg: "Sjálfvirk staðfesting fyrir pantanir er virkjuð.",
       auto_confirm_disable_msg:
         "Sjálfvirk staðfesting á pöntunum er ekki virkjuð.",
       shipping_enable_msg:
@@ -9565,13 +9565,13 @@ export default {
       auto_confirm_order: "sjálfvirkt atriði pantanir",
       test_mode: "atriði atriði",
       status: {
-        subtitle: "atriði upplýsingar atriði atriði staða.",
+        subtitle: "Heildarupplýsingar um samstillingarstöðu.",
       },
       sync: {
         title: "atriði atriði",
         subtitle:
           "Innri samstillingarupplýsingar. Þessar upplýsingar eru vistaðar eftir að samstillingarferli lýkur.",
-        no_data: "atriði atriði upplýsingar!",
+        no_data: "Engar samstillingarupplýsingar!",
       },
     },
 
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "<b>Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {name}</b><b></b>",
       action: "atriði vörur",
-      syncing_message: "atriði atriði atriði...",
+      syncing_message: "Í samstillingarferli...",
     },
 
     logs: {
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "atriði atriði",
         false_desc: "atriði atriði tiltækt vörur, atriði, viðskiptavinir.",
-        true_title: "atriði (atriði atriði atriði)",
+        true_title: "Takmarkað (Mælt með fyrir byrjendur)",
         true_desc:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       },
       overwrite: {
-        false_title: "atriði atriði atriði atriði atriði",
+        false_title: "Ekki breyta ef það er til",
         false_desc: "Haltu núverandi vöru- og flokkaupplýsingum eins og þær eru.",
         true_title: "atriði",
         true_desc:
@@ -9613,7 +9613,7 @@ export default {
       },
       migration_tips: "<b>Ábending: </b>Ef þú vilt prófa virknina skaltu velja <b>Takmarkað</b> valkostinn. Með því að velja „Samstilla allt“ sækjum við öll gögn úr tengdum þjónustum " +
       "og hleðjum niður tengdum myndum, sem minnkar ókeypis geymsluplássið þitt. Það getur líka verið erfitt að fjarlægja margar vörur, flokka og viðskiptavini!",
-      add_action: "sjálfvirkt atriði atriði",
+      add_action: "Sjálfvirk tenging við",
       order: {
         title: "atriði staða",
         subtitle:
@@ -9625,7 +9625,7 @@ export default {
       },
       confirm: {
         label: "sjálfvirkt atriði pantanir",
-        false_desc: "atriði atriði atriði pöntun atriði.",
+        false_desc: "Þú ættir að staðfesta pöntun handvirkt.",
         true_desc:
           "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
         tips: "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
@@ -9655,13 +9655,13 @@ export default {
       title: "Connect OS",
       subtitle:
         "Tengdu stýrikerfi fyrirtækisins við ytri þjónustu og stjórnaðu öllum rásum á sama stað.",
-      action: "Connect atriði atriði",
+      action: "Tengdu nýja þjónustu",
       empty_message:
         "Gleymdu öppum og viðbótum fyrir dropshipping! Connect er framtíð pöntunarstjórnunar á vettvangi.",
       auto_confirm: "sjálfvirkt atriði",
       shipping: "Sending",
       syncing_now: "atriði atriði!",
-      sync_not_started: "atriði atriði atriði atriði atriði!",
+      sync_not_started: "Samstilling er ekki hafin ennþá!",
     },
   },
 
@@ -9683,7 +9683,7 @@ export default {
     },
     Accounting: {
       title: "Bókhald",
-      desc: "atriði pantanir atriði atriði upplýsingar.",
+      desc: "Sendu pantanir og fjárhagsupplýsingar.",
     },
     Other: {
       title: "atriði",
@@ -9713,7 +9713,7 @@ export default {
     },
     pending: {
       title: "Í bið",
-      message: "sýna atriði atriði.",
+      message: "Sýna boð í bið.",
     },
   },
 
@@ -9737,7 +9737,7 @@ export default {
     filter: {
       delete: {
         title: "Eytt",
-        description: "sýna atriði atriði.",
+        description: "Sýna eydda flokka.",
       },
     },
   },
@@ -9750,11 +9750,11 @@ export default {
     filter: {
       deleted: {
         title: "Eytt",
-        description: "sýna atriði atriði.",
+        description: "Sýna eyddar færslur.",
       },
       reported: {
         title: "atriði",
-        description: "sýna atriði atriði.",
+        description: "Sýna tilkynntar færslur.",
       },
     },
     empty_msg: "Engar færslur hafa verið búnar til enn sem komið er...",
@@ -9769,7 +9769,7 @@ export default {
       },
       delete: {
         title: "eyða atriði",
-        subtitle: "fjarlægja atriði atriði.",
+        subtitle: "Fjarlægðu þessa færslu.",
       },
     },
   },
@@ -9783,7 +9783,7 @@ export default {
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       tag_id: {
-        label: "Google atriði atriði atriði",
+        label: "Google Tag Manager auðkenni",
       },
     },
     shopping: {
@@ -9797,12 +9797,12 @@ export default {
       title: "leit atriði",
       subtitle: "Bættu metamerki við heimasíðuna þína til að staðfesta Google Search Console.",
       code: {
-        label: "atriði atriði atriði",
+        label: "Staðfestingarmetamerki",
         placeholder: "Af google má t.d. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google atriði & atriði",
+      title: "Google SERP og leitarorð",
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     },
@@ -9830,15 +9830,15 @@ export default {
     title: "atriði atriði",
     boosted: "atriði (2x)",
     min_purchase: "atriði atriði",
-    only_first_order: "atriði atriði pöntun",
+    only_first_order: "Aðeins fyrsta pöntun",
     total_cashback: "atriði atriði",
     delete_alert: {
-      title: "eyða atriði atriði",
+      title: "Eyða Cashback Program",
       message: "Ertu viss um að eyða þessu endurgreiðsluforriti?",
       action: "Já, Eyða núna",
     },
     notifications: {
-      delete_success: "atriði atriði atriði atriði.",
+      delete_success: "Gjaldeyrisforriti eytt.",
     },
   },
   /**
@@ -9900,7 +9900,7 @@ export default {
     limit_input: {
       title: "Takmarka",
       hint: "Sláðu inn hámarksupphæð endurgreiðslu.",
-      zero_message: "atriði 0 atriði atriði atriði.",
+      zero_message: "Sláðu inn 0 fyrir ótakmarkaðan endurgreiðslu.",
     },
     duration: {
       title: "atriði mörk",
@@ -9908,11 +9908,11 @@ export default {
     },
     start_input: {
       title: "atriði atriði",
-      placeholder: "velja atriði atriði...",
+      placeholder: "Veldu upphafsdag...",
     },
     end_input: {
       title: "atriði atriði",
-      placeholder: "velja atriði atriði...",
+      placeholder: "Veldu lokadagsetningu...",
     },
     design: {
       subtitle:
@@ -9935,7 +9935,7 @@ export default {
       false_desc: "Gjaldeyrisforritið verður í boði fyrir allar pantanir.",
       true_desc:
         "Gjaldeyrisforritið verður aðeins fáanlegt fyrir fyrstu pöntun.",
-      true_title: "atriði atriði pöntun",
+      true_title: "Aðeins fyrsta pöntun",
       false_title: "atriði pantanir",
     },
     qualify_input: {
@@ -9953,8 +9953,8 @@ export default {
         "Með því að tengja klasa við endurgreiðsluáætlunina geturðu stjórnað því á skilvirkari hátt.",
     },
     notifications: {
-      add: "atriði atriði atriði atriði.",
-      edit: "atriði atriði atriði atriði.",
+      add: "Cashback forriti bætt við.",
+      edit: "Cashback forrit uppfært með góðum árangri.",
     },
     enable_input: {
       true_msg: "Gjaldeyrisforritið er virkt og viðskiptavinir geta notað það.",
@@ -9978,10 +9978,10 @@ export default {
     actions: {
       refund: {
         title: "endurgreiðsla greiðsla",
-        subtitle: "atriði atriði atriði endurgreiðsla atriði.",
+        subtitle: "Að hluta eða full endurgreiðsla studd.",
       },
       delivery: {
-        title: "atriði atriði atriði",
+        title: "Staðfestu við afhendingu",
         subtitle: "Þú getur handvirkt staðfest afhendingu fyrir greiðsluveitanda.",
       },
     },
@@ -9995,7 +9995,7 @@ export default {
     message:
       "Af öryggisástæðum eru aðeins pantanir sem greiddar eru á síðustu 7 dögum gjaldgengar fyrir endurgreiðslu.",
     payment_amount: "Greiðslu upphæð",
-    total_refund_amount: "atriði atriði upphæð",
+    total_refund_amount: "Heildarupphæð endurgreidd",
     can_refund: "atriði endurgreiðsla",
     refund_amount: "endurgreiðsla upphæð",
     verify: {
@@ -10010,7 +10010,7 @@ export default {
    * @see BOrderPaymentActionsDeliveryDialog
    */
   payment_delivery_dialog: {
-    title: "viðskiptavinur atriði atriði",
+    title: "Staðfesting á afhendingu viðskiptavinar",
     message:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     verify: {
@@ -10073,7 +10073,7 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "bæta við atriði atriði atriði",
+    title: "Bæta við afbrigðum í lausu",
     variants: {
       title: "atriði atriði",
       subtitle:
@@ -10131,8 +10131,8 @@ export default {
      */
     health: {
       title: "vara atriði",
-      available_in_stock_msg: "vara atriði tiltækt atriði atriði.",
-      out_of_stock_msg: "vara atriði atriði atriði atriði.",
+      available_in_stock_msg: "Varan er til á lager.",
+      out_of_stock_msg: "Varan er ekki til á lager.",
       file_count_msg:
         "{files_count} skrár með samtals {files_size} hlaðið upp fyrir þessa vöru.",
       no_file_uploaded_msg: "Engin skrá hefur verið hlaðið upp enn.",
@@ -10166,7 +10166,7 @@ export default {
       title: "Verðlag",
       no_product_price_msg: "Sjálfgefið vöruverð ekki ákveðið ennþá!",
       listing_pricing_msg: "atriði atriði:",
-      has_valuation_msg: "vara atriði atriði.",
+      has_valuation_msg: "Vara hefur verðmat.",
       subscription_pricing_msg:
         "Þessi vara er með {count} áskriftarverðsáætlanir.",
       has_no_subscription_pricing_msg:
@@ -10176,7 +10176,7 @@ export default {
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "atriði áskrift atriði atriði",
+      title: "Áskriftarverðsáætlanir vantar",
       subtitle:
         "Vinsamlegast yfirfarðu upplýsingarnar áður en þú heldur áfram.",
       pricing_plans: "atriði atriði",
@@ -10186,7 +10186,7 @@ export default {
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "atriði atriði atriði ● {status}",
+      title: "Takmörkun á sölustað ● {status}",
       status: {
         has_restriction: "tiltækt atriði {count} atriði",
         no_restriction: "atriði atriði",
@@ -10225,10 +10225,10 @@ export default {
         subscription_tax_msg:
           "Við getum aðeins beitt skatti á greiðslusköpunarþrepið.",
         dedicated: "Sérstakt",
-        is_disabled: "atriði skattur prófíll atriði atriði!",
-        tax_is_based_on_location: "skattur: atriði atriði",
-        shipping_tax_is_based_on_location: "sending: atriði atriði",
-        included_in_price: "atriði atriði verð.",
+        is_disabled: "Þessi skattasnið er óvirk!",
+        tax_is_based_on_location: "Skattur: Staðsetning byggt",
+        shipping_tax_is_based_on_location: "Sending: Staðsetning byggð",
+        included_in_price: "Innifalið í verði.",
       },
     },
 
@@ -10248,11 +10248,11 @@ export default {
    * @see BPageProductTemplate
    */
   product_template: {
-    title: "vara atriði atriði",
+    title: "Sniðmát fyrir vörusíðu",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     edit_page: "breyta atriði",
-    list_of_pages: "atriði atriði atriði",
+    list_of_pages: "Listi yfir síður",
   },
   /**
    * @see BPageProductEmbed
@@ -10283,7 +10283,7 @@ export default {
       title: "bæta við atriði & atriði",
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      go_to_roles: "atriði atriði atriði",
+      go_to_roles: "Farðu í Hlutverk",
     },
     access: {
       customization_tips:
@@ -10303,7 +10303,7 @@ export default {
       },
       level: {
         label: "atriði atriði",
-        placeholder: "velja atriði atriði...",
+        placeholder: "Veldu stig...",
       },
     },
 
@@ -10317,7 +10317,7 @@ export default {
       },
       update_success: {
         title: "atriði atriði",
-        message: "atriði atriði atriði atriði atriði.",
+        message: "Heimildir hafa verið uppfærðar.",
       },
     },
   },
@@ -10326,7 +10326,7 @@ export default {
    * @see BCategoryEngineEditor
    */
   category_engine_editor: {
-    title: "atriði vörur atriði",
+    title: "Auka vöruskráning",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     aut_add_sub_categories_tips:
@@ -10375,7 +10375,7 @@ export default {
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
     add_caption: "bæta við atriði atriði",
-    add_sub_caption: "bæta við atriði atriði atriði.",
+    add_sub_caption: "Bættu við sérsniðnu lykilgildi pari.",
     add_dialog: {
       title: "velja atriði gerð",
       html: {
@@ -10388,7 +10388,7 @@ export default {
       },
     },
     help_dialog: {
-      title: "atriði atriði atriði atriði atriði",
+      title: "Hvernig á að nota kraftmikið efni",
       how_it_works_tips:
         "Á áfangasíðunum hefurðu sveigjanleika til að tilnefna kraftmikla staðgengla fyrir bæði texta og myndir. Þessir staðgenglar gegna mikilvægu hlutverki við að sérsníða efnið í samræmi við samhengið.   Kraftmikið eðli þessara staðgengja gerir kleift að fylla þá með aukningargildum, sem geta verið mismunandi eftir mismunandi þáttum. Til dæmis gætu aukningargildin verið mismunandi fyrir hverja vöru eða flokk. Raunverulegur kostur þessa eiginleika kemur til greina þegar þú ert með margs konar hluti með mismunandi eiginleika. Þú getur á áhrifaríkan hátt notað þessa kraftmiklu staðgengla til að sérsníða og auka birtingu hvers hlutar og skapa þannig einstaka og gagnvirka upplifun á áfangasíðunum þínum.",
       assign_tips:
@@ -10411,27 +10411,27 @@ export default {
       subtitle:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
       add_caption: "bæta við atriði atriði",
-      no_more_language: "atriði atriði atriði!",
+      no_more_language: "Ekki meira tungumál!",
     },
     content: {
       title: "atriði",
       subtitle:
         "Þú getur sérsniðið innihaldið fyrir vörustjórnunarsniðið á mörgum tungumálum.",
 
-      language_input: "atriði atriði atriði",
+      language_input: "Núverandi greinarmál",
       delete_article: "eyða atriði",
       menu_tooltip: "sjálfvirkt atriði / eyða atriði",
     },
     translate_to: "atriði atriði",
     notifications: {
       translate: {
-        message: "atriði atriði atriði atriði.",
+        message: "Þýðingu greinar lokið.",
       },
       save_article: {
-        message: "atriði atriði atriði atriði atriði.",
+        message: "Grein hefur verið vistuð með góðum árangri.",
       },
       delete_article: {
-        message: "atriði atriði atriði atriði atriði.",
+        message: "Greininni hefur verið eytt.",
       },
     },
     delete_dialog: {
@@ -10502,24 +10502,24 @@ export default {
    * @see BPageShopLogisticIncludes
    */
   shop_logistic_includes: {
-    title: "atriði atriði atriði",
+    title: "Innifalið Hlutastjórnun",
     add_caption: "bæta við atriði atriði",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    empty_list_msg: "atriði atriði atriði atriði...",
+    empty_list_msg: "Listi yfir hluti sem fylgja með...",
     notifications: {
       delete: {
-        message: "atriði atriði atriði atriði atriði.",
+        message: "Atriði hefur verið eytt.",
       },
     },
     delete_dialog: {
-      title: "eyða atriði atriði",
+      title: "Eyða meðfylgjandi atriði",
       message:
         "Ertu viss um að þú viljir eyða þessu atriði?",
-      action: "atriði, eyða atriði",
+      action: "Já, eyða núna",
     },
     actions: {
-      edit_linked_page: "breyta atriði atriði",
+      edit_linked_page: "Breyta tengdri síðu",
     },
   },
 
@@ -10527,8 +10527,8 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "breyta atriði atriði",
-    dialog_title_add: "búa til atriði atriði atriði",
+    dialog_title_edit: "Breyta meðfylgjandi atriði",
+    dialog_title_add: "Búðu til nýjan innifalinn hlut",
 
     title: "atriði atriði",
     subtitle:
@@ -10546,7 +10546,7 @@ export default {
         hint: "Veldu eða sláðu inn nauðsynlegar upplýsingar.",
       },
       image: {
-        message: "atriði atriði atriði: 1MB",
+        message: "Hámarksmyndastærð: 1MB",
       },
       path: {
         label: "atriði atriði",
@@ -10604,7 +10604,7 @@ export default {
     no_wallet: "atriði veski!",
 
     withdraw_dialog: {
-      title: "atriði atriði atriði",
+      title: "Afturkalla þóknunargjöld",
 
       need_bank_info_message: "Vinsamlegast sláðu inn bankaupplýsingarnar þínar fyrst.",
 
@@ -10629,8 +10629,8 @@ export default {
         },
       },
       actions: {
-        withdraw_to_wallet: "atriði atriði veski",
-        withdraw_to_bank: "atriði atriði atriði",
+        withdraw_to_wallet: "Dragðu út í veski",
+        withdraw_to_bank: "Taka út í banka",
       },
     },
     notifications: {
@@ -10647,12 +10647,12 @@ export default {
       message: "Þú getur bætt <b>?ref={code}</b> við hvaða selda vefslóð sem er.",
     },
     intro: {
-      title: "atriði atriði Selldone atriði atriði",
+      title: "Skráðu þig í Seldone samstarfsverkefnið",
       message:
         "Selldone Affiliate Program er einfalt og einfalt, hannað fyrir þig til að vinna þér inn áreynslulaust. Deildu þínum einstaka tengda hlekk til að bjóða nýjum notendum til Selldone, og þú færð þóknun fyrir hverja færslu sem þeir gera - að eilífu. Þetta felur í sér tekjur af áskriftum, þjónustugjöldum, uppfærslum á verslunum og öllum öðrum tekjustreymum. Byrjaðu að vinna þér inn hluta af tekjum án nokkurra takmarkana á tíma eða tekjur. Gakktu til liðs við okkur og breyttu netinu þínu í stöðugar tekjur!",
       why_join_selldone_affiliate: "Hvers vegna er þetta einstakt tækifæri?",
       reasons: [
-        "atriði atriði atriði!",
+        "Það endist að eilífu!",
         "Tekur undir öll áskriftar- og viðskiptagjöld. Bókstaflega allar greiðslur notandans á Selldone.",
         "Við sendum ókeypis $99 skírteini til allra sem skrá sig með hlekknum þínum.",
         "Þegar flokkauppfærsla þín er uppfærð færðu nýtt gengi frá öllum notendum sem áður var vísað til.",
@@ -10664,7 +10664,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "atriði atriði atriði atriði.",
+    no_asset_uploaded: "Engin eign hlaðið upp ennþá.",
   },
 
   /**
@@ -10672,7 +10672,7 @@ export default {
    */
   l_menu_top_home: {
     hot_keys: "atriði",
-    click_to_view_all: "atriði atriði atriði atriði...",
+    click_to_view_all: "Smelltu til að skoða allt...",
     clone_tooltip: {
       title: "atriði atriði",
       subtitle:
@@ -10692,7 +10692,7 @@ export default {
         "Virkjaðu þennan eiginleika til að endurraða og skipuleggja hluta auðveldlega með því að draga þá.",
     },
     edit_mode_tooltip: {
-      title: "breyta / atriði atriði",
+      title: "Breyta / Forskoðunarstilling",
       edit_mode_title: "breyta atriði",
       edit_mode_msg: "Öll klippiverkfæri verða sýnd.",
       view_mode_title: "atriði atriði",
@@ -10723,8 +10723,8 @@ export default {
         "Minnka leturstærð valins texta | <small>Gerðu mig lítinn</small>",
       ctrl_2: "Auka leturstærð valins texta | <big>Gerðu mig stór</big>",
       ctrl_r: "Fjarlægðu allt snið úr völdum texta | Hreinsaðu alla stíla",
-      ctrl_s: "vista atriði atriði",
-      tab: "atriði atriði atriði atriði",
+      ctrl_s: "Vistaðu síðuna",
+      tab: "Skiptu á milli mælikvarða",
       ctrl_e: "Virkjaðu eða slökktu á klónastílsstillingu",
     },
   },
@@ -10754,7 +10754,7 @@ export default {
       inputs: {
         title: {
           label: "Titill",
-          message: "atriði atriði atriði atriði titill.",
+          message: "Þetta er opinber titill.",
         },
         tags: {
           label: "Merki",
@@ -10781,11 +10781,11 @@ export default {
       REJECTED: "Beiðni seljanda hefur verið hafnað.",
       PENDING: "Beiðnin bíður ákvörðunar frá seljanda.",
     },
-    number_of_products: "atriði atriði vörur",
+    number_of_products: "Fjöldi vara",
     invited: "atriði",
     no_pricing: "atriði atriði",
     no_pricing_tooltip: {
-      title: "atriði atriði atriði",
+      title: "Sjálfgefin verðáætlun",
       subtitle: "Vinsamlega stilltu sjálfgefið verðlíkan fyrir söluaðilann.",
     },
     updated_products_tooltip: {
@@ -10800,19 +10800,19 @@ export default {
         "Seljandi hefur aðgang að pallborði sínu. Þú getur breytt þessu í Seljandi > Aðgangur flipann.",
     },
     reject_by_user_tooltip: {
-      title: "atriði atriði notandi",
+      title: "Hafnað af notanda",
       subtitle:
         "Notandinn hafnaði beiðninni um að verða lánardrottinn og fá aðgang að þessum lánardrottni.",
     },
     download_all_vendors: "sækja atriði seljendur",
-    bulk_import: "atriði atriði (atriði)",
+    bulk_import: "Magninnflutningur (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "leyfi atriði atriði!",
+    title: "Leyfisuppfærsla áskilin!",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
   },
@@ -10828,7 +10828,7 @@ export default {
     add_template_action: "bæta við skilaboð atriði",
 
     notifications: {
-      add_chat_success_message: "skilaboð atriði atriði atriði atriði.",
+      add_chat_success_message: "Skilaboðum hefur verið bætt við.",
     },
 
     send_update_email: {
@@ -10836,12 +10836,12 @@ export default {
       need_set_service_alert: {
         message:
           "Vinsamlega stilltu tölvupóstþjónustuveituna þína til að leyfa sendingu tölvupóstsins.",
-        action: "atriði atriði stillingar",
+        action: "Farðu í stillingar",
       },
       send_action: "atriði uppfæra Email",
 
       notifications: {
-        send_success_message: "Email atriði atriði atriði atriði.",
+        send_success_message: "Tölvupóstur hefur verið sendur.",
       },
     },
     add_template: {
@@ -10854,17 +10854,17 @@ export default {
       add_action: "bæta við atriði",
 
       notifications: {
-        save_success_message: "atriði atriði atriði atriði atriði.",
+        save_success_message: "Sniðmát hefur verið vistað með góðum árangri.",
       },
 
       inputs: {
         title: {
           label: "atriði titill",
-          placeholder: "atriði atriði atriði titill...",
+          placeholder: "Skrifaðu stuttan titil...",
         },
         body: {
           label: "atriði skilaboð",
-          placeholder: "atriði atriði skilaboð atriði...",
+          placeholder: "Skrifaðu skilaboðin þín hér...",
           messages:
             "Þú getur stillt kvik gildi með {order_id} og {buyer_name}.",
         },
@@ -10883,7 +10883,7 @@ export default {
     authentication: "atriði",
     guest: "atriði",
     click_to_create: "atriði atriði búa til...",
-    valid_for_30_days: "atriði atriði 30 atriði",
+    valid_for_30_days: "gildir í 30 daga",
     notifications: {
       secure_link_created: "Öruggur hlekkur hefur verið búinn til.",
     },
@@ -10903,7 +10903,7 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "bæta við atriði atriði atriði",
+    add_caption: "Bæta við nýju eignasetti",
     title: "Eiginleikasett",
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
@@ -10914,14 +10914,14 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "atriði atriði - atriði atriði",
+      title: "Eignasett - Sérsniðin afbrigði",
       subtitle:
         "Þú getur sérsniðið afbrigðisnöfnin fyrir þessa vöru í stað sjálfgefna.",
     },
 
     subtitle:
       "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-    select_property_set: "velja atriði atriði",
+    select_property_set: "Veldu Eiginleikasett",
     add_property_set: "bæta við atriði atriði",
   },
 
@@ -10942,8 +10942,8 @@ export default {
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "velja atriði atriði",
-    define_package: "atriði atriði atriði",
+    select_box: "Veldu pakka",
+    define_package: "Skilgreindu pakka",
     define_package_hint: "Búðu til eða breyttu fyrirfram skilgreindum pakkastærðum þínum",
   },
 
@@ -10985,7 +10985,7 @@ export default {
       sub_title:
         "Búðu til, breyttu og stjórnaðu skráningaratriðum. Stjórna stöðu, verðlagningu, tengiliðaupplýsingum og miðlum.",
 
-      empty_title: "atriði atriði atriði",
+      empty_title: "Engir hlutir ennþá",
       empty_subtitle:
         "Búðu til fyrsta skráningarhlutinn þinn til að byrja að byggja upp möppuna þína.",
 
@@ -10998,12 +10998,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "hlekkur JSON",
-      opening_hours_json: "atriði atriði JSON",
+      opening_hours_json: "Opnunartími JSON",
 
       delete_title: "eyða atriði",
       delete_message: "Ertu viss um að þú viljir eyða þessu atriði?",
       delete_success: "Atriði eytt.",
-      restore_success: "atriði atriði atriði.",
+      restore_success: "Atriði endurheimt.",
 
       opening_hours:"atriði atriði",
       form_fields:"eyðublað atriði",
@@ -11018,14 +11018,14 @@ export default {
       sub_title:
         "Skipuleggðu möppuna þína með flokkum og undirflokkum. Þetta bætir leiðsögn og síun.",
 
-      empty_title: "atriði atriði atriði",
+      empty_title: "Engir flokkar ennþá",
       empty_subtitle:
         "Búðu til flokka til að skipuleggja skráningu þína og bæta vafra.",
 
       add_title: "Bæta við flokki",
       edit_title: "Breyta flokki",
 
-      parent_filter: "sía atriði atriði",
+      parent_filter: "Sía eftir foreldri",
       parent: "Foreldraflokkur",
 
       price_format: "verð atriði",
@@ -11034,7 +11034,7 @@ export default {
 
       delete_title: "Eyða flokki",
       delete_message: "Ertu viss um að þú viljir eyða þessum flokki?",
-      delete_success: "flokkur atriði atriði.",
+      delete_success: "Flokki eytt.",
       form_schema: "flokkur eyðublað atriði",
     },
 
@@ -11044,11 +11044,11 @@ export default {
 
       moderation_title: "atriði",
       moderation_mode: "atriði atriði",
-      require_first_approved_before_more: "atriði atriði atriði atriði atriði",
+      require_first_approved_before_more: "Krefjast fyrsta samþykkis áður en meira",
 
       limits_title: "Takmörk",
-      max_pending_per_user: "atriði atriði atriði notandi",
-      max_items_per_user: "atriði atriði atriði notandi",
+      max_pending_per_user: "Hámark í bið á hvern notanda",
+      max_items_per_user: "Hámarkshlutir á hvern notanda",
       limits_hint: "mörk atriði",
 
       templates_title: "atriði",
@@ -11064,7 +11064,7 @@ export default {
       sub_title:
         "Farðu yfir innsend atriði og ákveðið hvað gerist næst: samþykkja, birta, hafna, setja í geymslu eða endurstilla í bið.",
 
-      empty_title: "atriði atriði atriði atriði",
+      empty_title: "Engin atriði til að skoða",
       empty_subtitle:
         "Þegar notendur senda inn nýja hluti munu þeir birtast hér til stjórnunar.",
 
@@ -11075,18 +11075,18 @@ export default {
       quick_actions: "atriði atriði",
 
       open_review: "atriði atriði",
-      reset_to_pending: "atriði atriði atriði",
+      reset_to_pending: "Endurstilla í bið",
       items_title: "Hlutir",
 
     },
 
     moderation: {
-      approve_success: "atriði atriði atriði.",
-      publish_success: "atriði atriði atriði.",
-      unpublish_success: "atriði atriði atriði.",
-      archive_success: "atriði atriði atriði.",
-      reject_success: "atriði atriði atriði.",
-      penalty_success: "atriði atriði atriði.",
+      approve_success: "Atriði samþykktur.",
+      publish_success: "Atriði birt með góðum árangri.",
+      unpublish_success: "Atriði óútgefið tókst.",
+      archive_success: "Atriði var sett í geymslu.",
+      reject_success: "Atriði hafnað.",
+      penalty_success: "Refsingu beitt með góðum árangri.",
 
       reject_title: "atriði atriði",
       reject_reason: "atriði atriði",
@@ -11101,7 +11101,7 @@ export default {
       upload_images: "hlaða upp atriði",
       url_type: "Gerð",
       url: "URL",
-      is_main: "atriði atriði atriði"
+      is_main: "Stillt sem aðal"
     },
 
 
@@ -11115,7 +11115,7 @@ export default {
       sub_title:
         "Búðu til mörg hönnunarsett (kort + smáatriði sniðmát) og skiptu þeim í flokka. Flokkar geta notað mismunandi hönnun.",
 
-      empty_title: "atriði atriði atriði",
+      empty_title: "Engin hönnun ennþá",
       empty_subtitle:
         "Bættu við fyrsta hönnunarsettinu þínu til að byrja að sérsníða hvernig flokkar líta út.",
 
@@ -11126,9 +11126,9 @@ export default {
       details_template: "upplýsingar atriði",
 
       notifications: {
-        add_success: "atriði atriði atriði.",
-        edit_success: "atriði atriði atriði.",
-        delete_success: "atriði atriði atriði.",
+        add_success: "Hönnun búin til með góðum árangri.",
+        edit_success: "Hönnun uppfærð með góðum árangri.",
+        delete_success: "Hönnun eytt.",
       },
 
       delete_title: "eyða atriði",
@@ -11145,7 +11145,7 @@ export default {
       sub_title:
         "Búðu til og stjórnaðu verslunarmerkjum. Hægt er að úthluta merki á skráningarhluti til að auðkenna sérstaka eiginleika.",
 
-      empty_title: "atriði atriði atriði",
+      empty_title: "Engin merki ennþá",
       empty_subtitle:
         "Bættu við fyrsta merkinu þínu til að byrja að auðkenna skráningaratriði.",
 
@@ -11153,9 +11153,9 @@ export default {
       edit_title: "breyta atriði",
 
       notifications: {
-        add_success: "atriði atriði atriði.",
-        edit_success: "atriði atriði atriði.",
-        delete_success: "atriði atriði atriði.",
+        add_success: "Merki búið til.",
+        edit_success: "Merki uppfært.",
+        delete_success: "Merki eytt.",
       },
 
       delete_title: "eyða atriði",
@@ -11167,7 +11167,7 @@ export default {
       sub_title:
         "Stofna og stjórna fyrirtækjum. Hægt er að tengja hvern skráningarhlut við eitt fyrirtæki.",
 
-      empty_title: "atriði atriði atriði",
+      empty_title: "Engin fyrirtæki ennþá",
       empty_subtitle:
         "Bættu við fyrsta fyrirtækinu þínu til að tengja það við skráningarvörur.",
 
@@ -11175,9 +11175,9 @@ export default {
       edit_title: "Breyta fyrirtæki",
 
       notifications: {
-        add_success: "fyrirtæki atriði atriði.",
-        edit_success: "fyrirtæki atriði atriði.",
-        delete_success: "fyrirtæki atriði atriði.",
+        add_success: "Fyrirtæki stofnað með góðum árangri.",
+        edit_success: "Fyrirtæki uppfært með góðum árangri.",
+        delete_success: "Fyrirtæki eytt.",
       },
 
       delete_title: "eyða fyrirtæki",
@@ -11204,11 +11204,11 @@ export default {
       reply: "atriði",
       reply_hint: "Skrifaðu svar til notanda. Þú getur líka merkt skilaboðin sem lesin/ruslpóst úr aðgerðum.",
 
-      mark_read: "atriði atriði atriði",
-      mark_unread: "atriði atriði atriði",
+      mark_read: "Merktu sem lesið",
+      mark_unread: "Merkja sem ólesið",
       archive: "atriði",
       unarchive: "atriði",
-      mark_spam: "atriði atriði atriði",
+      mark_spam: "Merktu sem ruslpóst",
       mark_not_spam: "atriði atriði",
 
       delete_confirm: "eyða atriði skilaboð?",
@@ -11227,14 +11227,14 @@ export default {
 
       vendor_access_text:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      vendor_access_button: "atriði atriði atriði seljendur",
+      vendor_access_button: "Virkja skráningu fyrir söluaðila",
 
       more_options_text:
         "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      more_options_button: "atriði atriði atriði stillingar",
+      more_options_button: "Farðu í skráningarstillingar",
 
       updated: "atriði atriði.",
-      update_failed: "atriði atriði uppfæra atriði.",
+      update_failed: "Mistókst að uppfæra skráningu.",
     },
 
 
@@ -11247,16 +11247,16 @@ export default {
       location_enabled_true: "Staðsetningarsía er virkjuð. Viðskiptavinir geta leitað eftir fjarlægð.",
       location_enabled_false: "Staðsetningarsía er óvirk. Niðurstöður verða ekki síaðar eftir fjarlægð.",
 
-      radius_default: "atriði atriði (atriði)",
+      radius_default: "Sjálfgefinn radíus (km)",
       radius_default_hint: "Notað þegar viðskiptavinurinn velur staðsetningu en velur ekki radíus.",
-      radius_max: "atriði atriði (atriði)",
+      radius_max: "Hámarks radíus (km)",
       radius_max_hint: "Radíus verslunargluggans verður klemmd við þetta gildi.",
-      radius_options: "atriði atriði (atriði)",
+      radius_options: "Radíusvalkostir (km)",
       radius_options_hint: "Hægt er að sýna þessi gildi sem skjóta valkosti í notendaviðmóti verslunarinnar.",
 
       filters_title: "leit sía",
       filters_subtitle: "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta.",
-      no_filters: "atriði sía atriði atriði.",
+      no_filters: "Engum síum bætt við ennþá.",
       auto_generate: "atriði atriði",
 
       filter_field: "atriði atriði",
@@ -11266,7 +11266,7 @@ export default {
       filter_options_hint: "Fyrir valda síur geta valkostir verið handvirkir eða búnir til.",
       multiple: "atriði",
       single: "atriði",
-      kv_mode: "atriði/gildi atriði",
+      kv_mode: "Lykill/gildi hamur",
 
       requires_listing_active: "Skráning er ekki virk. Virkjaðu skráningu fyrst til að nota það á verslunarglugganum.",
 
@@ -11322,13 +11322,13 @@ export default {
      */
     shop_email: {
       name: [
-        "atriði atriði atriði atriði",
+        "Super Savings Weekend Blast",
         "Sérstök innherjatilboð kynnt",
         "VIP aðgangur þinn að úrvals afslætti",
         "Árstíðabundin útsala Extravaganza",
         "Opnaðu verslunarparadísina þína",
         "Karnival Grand Shopper",
-        "atriði atriði atriði atriði",
+        "Spring Fling Shopping Spree",
         "Hausttilboð sem þú getur ekki staðist",
         "Winter Wonders: Hlý tilboð fyrir kalda daga",
         "Niðurtalning á úthreinsun í lok sumars",
@@ -11767,12 +11767,12 @@ export default {
       name: [
         "Verslaðu 'Til You Drop",
         "Körfuæði",
-        "atriði atriði atriði",
+        "Flash Sale Fiesta",
         "Smelltu, Verslaðu, Vistaðu",
         "Hagkaup Bonanza",
         "atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Stafrænir afsláttardagar",
         "Karnival fyrir rafræn viðskipti",
         "Outlet Oasis á netinu",
@@ -11782,7 +11782,7 @@ export default {
         "Sýndarskírteini",
         "atriði atriði",
         "Úthreinsun rafbíla",
-        "atriði atriði atriði",
+        "Online Shopping Showdown",
         "Netsala stórkostleg",
         "Rafræn samkomulag",
       ],
@@ -11846,24 +11846,24 @@ export default {
     lottery: {
       title: [
         "Snúðu og vinndu stór verðlaun!",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Snúðu til að vinna verðlaun",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
+        "Wheel of Wealth",
+        "Lucky Lottery Extravaganza",
+        "Mega Spin Surprise",
         "Verðlaunahjól Fiesta",
-        "atriði atriði atriði",
-        "atriði atriði atriði atriði",
+        "Treasure Spin Spectacular",
+        "Spin the Wheel Magic",
         "Lucky Wheel í miklu magni",
         "Hagsæld",
         "Undrahjólið",
-        "atriði atriði atriði",
+        "Spin for Riches",
         "Verðlaunaspunagleði",
         "Golden Spin happdrætti",
         "Spin-a-Price",
         "Hjól lukku",
-        "atriði atriði atriði",
+        "Lucky Spin Showcase",
         "Fullkomin snúningsverðlaun",
       ],
       description: [
@@ -11895,25 +11895,25 @@ export default {
      */
     subscription_price: {
       title: [
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði áskrift",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði tilboð",
-        "atriði atriði",
-        "atriði atriði",
+        "Grunnaðgangur",
+        "Premium aðild",
+        "Gull pakki",
+        "Silfuráætlun",
+        "Platinum áskrift",
+        "Enterprise Tier",
+        "Byrjendabúnt",
+        "Ótakmarkað tilboð",
+        "Fjölskyldupakki",
+        "Professional Suite",
       ],
       description: [
         "Tilvalið fyrir einstaklinga sem kanna grunnatriðin.",
         "Aðgangur að öllum úrvalsaðgerðum og efni.",
-        "atriði atriði atriði atriði atriði.",
+        "Einkafríðindi og forgangsstuðningur.",
         "Yfirvegaður pakki fyrir venjulega notendur.",
-        "atriði atriði atriði atriði atriði.",
-        "atriði atriði atriði atriði atriði.",
-        "atriði atriði atriði atriði.",
+        "Fullkominn aðgangur með hágæða fríðindum.",
+        "Sérsniðnar lausnir fyrir stórar stofnanir.",
+        "Á viðráðanlegu verði fyrir upphafsstig.",
         "Engar takmarkanir á notkun, fyrir stórnotandann.",
         "Sérstakt skipulag fyrir fjölskyldur, allt að 4 meðlimir.",
         "Hannað fyrir fagfólk sem leitar að háþróuðum verkfærum.",
@@ -11923,56 +11923,56 @@ export default {
     spec: {
       group: [
         "Tæknilýsing",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði atriði atriði",
-        "atriði atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "notandi atriði atriði atriði",
-        "atriði atriði atriði",
+        "Líkamlegar stærðir",
+        "Frammistöðueiginleikar",
+        "Tengimöguleikar",
+        "Aflþörf",
+        "Efni og byggingargæði",
+        "Lita- og frágangsvalkostir",
+        "Geymsla og minni",
+        "Samhæfni stýrikerfis",
+        "Öryggi og samræmi",
+        "Innihald pakka",
+        "Ábyrgð og stuðningur",
+        "Vörumerki og framleiðandi",
+        "Umhverfisvænni",
+        "Orkunýting",
+        "Umhirða og viðhald",
+        "Sérstillingarvalkostir",
+        "Meðfylgjandi fylgihlutir",
+        "Einkunnir notenda og umsagnir",
+        "Verð og framboð",
       ],
     },
 
     avocado: {
       title: [
-        "atriði atriði",
-        "atriði atriði",
-        "pöntun atriði",
-        "greiðsla atriði",
-        "viðskiptavinur atriði",
-        "færsla atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "pöntun atriði",
-        "atriði pöntun atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði",
-        "atriði atriði",
-        "vara atriði",
-        "greiðsla atriði",
-        "Staðfesting á pöntun",
-        "atriði atriði",
-        "atriði atriði",
-        "viðskiptavinur atriði",
+        "Kaupkvittun",
+        "Staðfesting á sölu",
+        "Pöntunarreikningur",
+        "Greiðslureikningur",
+        "Kvittun viðskiptavinar",
+        "Samantekt viðskipta",
+        "Innheimtuyfirlit",
+        "Afgreiðslukvittun",
+        "Pantanayfirlit",
+        "Innkaupapöntunarreikningur",
+        "Sölukvittun",
+        "Smásölureikningur",
+        "Rafræn kvittun",
+        "Þjónustureikningur",
+        "Vörureikningur",
+        "Greiðslukvittun",
+        "Staðfesting pöntunar",
+        "Innheimtureikningur",
+        "Útskráningarreikningur",
+        "Reikningur viðskiptavinar",
       ],
       message: [
-        "atriði atriði atriði atriði atriði!",
-        "atriði atriði atriði fyrirtæki.",
+        "Þakka þér fyrir kaupin!",
+        "Við kunnum að meta viðskipti þín.",
         "Pöntunin þín er á leiðinni!",
-        "atriði atriði atriði atriði atriði.",
+        "Takk fyrir að versla við okkur.",
         "Hlakka til að þjóna þér aftur.",
         "Ánægja þín er forgangsverkefni okkar.",
         "Ekki gleyma að gefa upplifun þína einkunn.",
@@ -11980,14 +11980,14 @@ export default {
         "Við vonum að þú njótir nýju kaupanna!",
         "Vistaðu reikninginn þinn til síðari viðmiðunar.",
         "Heimsæktu okkur aftur fyrir fleiri frábærar vörur.",
-        "atriði atriði atriði atriði tilboð.",
+        "Vertu í sambandi fyrir einkatilboð.",
         "Þakka þér fyrir að vera metinn viðskiptavinur.",
         "Við erum hér til að hjálpa ef þú þarft aðstoð.",
-        "atriði atriði atriði atriði atriði.",
+        "Ábendingar þínar hjálpa okkur að bæta okkur.",
         "Njóttu sérstaks afsláttar á næstu kaupum.",
-        "atriði atriði atriði atriði atriði!",
+        "Þú hefur gert frábært val!",
         "Þakka þér fyrir traust þitt á okkur.",
-        "atriði atriði atriði atriði atriði.",
+        "Hlakka til að fá álit þitt.",
         "Hjartans þakkir frá teyminu okkar.",
       ],
     },
@@ -11997,25 +11997,25 @@ export default {
      */
     map_tag: {
       title: [
-        "atriði atriði",
-        "seljandi atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "Nýjar komur",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
+        "Eignasýning",
+        "Seljandi Plaza",
+        "Valin heimili",
+        "Staðbundinn markaður",
+        "Nýkomur",
+        "Estate Gardens",
+        "Verslunarhverfi",
+        "Handverkssundið",
+        "Lúxus bú",
+        "Leigumiðstöð",
+        "Opið hús",
+        "Tækninýjungar",
+        "Fashion Lane",
+        "Handverkshorn",
+        "Food Court",
+        "Bókahorn",
+        "Skartgripamót",
+        "Antique Avenue",
+        "Líkamsræktarsvæði",
       ],
     },
 
@@ -12024,26 +12024,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "fyrirtæki atriði atriði",
-        "skattur atriði atriði (atriði)",
-        "seljandi atriði eyðublað",
-        "vara atriði",
-        "atriði atriði",
-        "atriði atriði upplýsingar",
-        "atriði atriði heimilisfang",
-        "atriði atriði",
-        "fyrirtæki prófíll",
-        "atriði atriði atriði",
-        "atriði gögn atriði (atriði)",
-        "vara atriði upplýsingar",
-        "Skilastefna",
-        "sending atriði atriði atriði",
-        "viðskiptavinur atriði atriði",
-        "atriði atriði atriði atriði",
-        "atriði atriði hlekkur",
-        "atriði atriði",
-        "atriði atriði atriði atriði",
-        "atriði atriði (atriði)",
+        "Skráningarskírteini fyrirtækja",
+        "Skattkennisnúmer (TIN)",
+        "Eyðublað söluaðilasamnings",
+        "Vöruskrá",
+        "Verðskrá",
+        "Bankareikningsupplýsingar",
+        "Sönnun á heimilisfangi",
+        "Tryggingaskírteini",
+        "Fyrirtækjasnið",
+        "Gæðatryggingarvottorð",
+        "Öryggisblað (SDS)",
+        "Upplýsingar um vöruábyrgð",
+        "Skilareglur",
+        "Sendingar- og meðhöndlunarferli",
+        "Stefna um þjónustu við viðskiptavini",
+        "Markaðs- og kynningaráætlanir",
+        "Tenglar á samfélagsmiðlum",
+        "Viðskiptatilvísanir",
+        "Siðareglur birgja",
+        "Þjónustusamningur (NDA)",
       ],
     },
 
@@ -12052,26 +12052,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "markaðstorg atriði atriði atriði",
-        "verslun atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði atriði",
-        "atriði atriði atriði atriði",
+        "Markaðstorgsuppsetningarþjónustusamningur",
+        "Samningur um stillingar verslunar",
+        "Þjónustusamningur um prentun á eftirspurn",
+        "Þjónustusamningur um stafræna markaðssetningu",
+        "Samningur um uppsetningu rafræns vettvangs",
         "Sérfræðiráðgjafasamningur fyrir eigendur fyrirtækja",
-        "atriði atriði atriði markaðstorg atriði",
+        "Þjónustusamningur fyrir uppsetningu markaðstorgs",
         "Samningur um uppsetningu og stillingar verslunar",
-        "POD atriði atriði atriði",
-        "atriði atriði atriði atriði",
-        "fyrirtæki atriði atriði atriði",
-        "atriði verslun atriði atriði",
-        "atriði atriði atriði atriði",
-        "fyrirtæki atriði atriði atriði atriði",
-        "atriði verslun atriði atriði atriði",
-        "markaðstorg atriði atriði atriði",
-        "atriði atriði atriði atriði atriði",
-        "POD atriði atriði atriði",
-        "atriði atriði atriði atriði atriði",
-        "fyrirtæki atriði atriði atriði",
+        "POD þjónustuveitingasamningur",
+        "Samningur um framkvæmd markaðsstefnu",
+        "Þjónustusamningur um viðskiptaþróun",
+        "Uppsetningarsamningur fyrir rafræn viðskipti",
+        "Þjónustusamningur sérfræðinga",
+        "Viðskiptalausnir og uppsetningarsamningur",
+        "Sérsniðin verslunaruppsetningarsamningur",
+        "Markaðstorg hagræðingarþjónustusamningur",
+        "Samningur um ráðgjöf og uppsetningarþjónustu",
+        "POD samþættingarþjónustusamningur",
+        "Samningur um markaðs- og kynningarþjónustu",
+        "Þjónustusamningur um stækkun fyrirtækja",
       ],
     },
 
@@ -12080,16 +12080,16 @@ export default {
      */
     account: {
       account_name: [
-        "atriði veski",
-        "fyrirtæki atriði",
-        "atriði veski",
-        "atriði veski",
-        "atriði atriði",
-        "atriði veski",
-        "atriði atriði",
-        "atriði veski",
-        "færsla veski",
-        "atriði atriði",
+        "Aðalveski",
+        "Viðskiptareikningur",
+        "Persónulegt veski",
+        "Sparnaðarveski",
+        "Kostnaðarreikningur",
+        "Aðalveski",
+        "Almennur reikningur",
+        "Reserve Veski",
+        "Færsluveski",
+        "Sjóðsreikningur",
       ],
     },
 
@@ -12098,37 +12098,37 @@ export default {
      */
     cashback: {
       title: [
-        "verslun & atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði tilboð",
-        "atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði atriði",
-        "atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði",
-        "verslun atriði, vista atriði",
-        "atriði atriði atriði",
-        "atriði atriði",
+        "Verslaðu og græddu peninga til baka",
+        "Loyalty Rewards Cashback",
+        "Sérstök endurgreiðslutilboð",
+        "Cashback Bonanza",
+        "Augnablik endurgreiðslutilboð",
+        "Árstíðabundinn Cashback sparnaður",
+        "Tvöfaldur Cashback Days",
+        "Cashback við öll kaup",
+        "Cashback æði",
+        "VIP Cashback forrit",
+        "Tímabundinn endurgreiðsla",
+        "Cashback Rewards Club",
+        "Verslaðu meira, sparaðu meira",
+        "Fullkomin endurgreiðsluverðlaun",
+        "Cashback Extravaganza",
       ],
       description: [
-        "atriði atriði atriði atriði atriði!",
-        "atriði atriði atriði atriði atriði.",
+        "Aflaðu endurgreiðslu fyrir öll kaup!",
+        "Fáðu verðlaun fyrir tryggð þína.",
         "Sérstök endurgreiðslutilboð bara fyrir þig.",
         "Njóttu mikils sparnaðar með endurgreiðsluverðlaunum.",
         "Augnablik endurgreiðsla á öllum uppáhalds hlutunum þínum.",
         "Sparaðu meira með árstíðabundnum endurgreiðslutilboðum.",
         "Tvöfalda endurgreiðsluna þína á sérstökum dögum!",
         "Aflaðu endurgreiðslu í hvert skipti sem þú verslar.",
-        "atriði atriði atriði atriði atriði!",
-        "atriði atriði atriði atriði atriði.",
-        "atriði! atriði atriði atriði tilboð.",
+        "Vertu með í reiðufé æðinu í dag!",
+        "VIP meðlimir njóta einstaks endurgreiðslu.",
+        "Drífðu þig! Tilboð í takmarkaðan tíma.",
         "Skráðu þig í Cashback Rewards klúbbinn okkar núna.",
         "Því meira sem þú verslar, því meira sparar þú.",
-        "atriði atriði atriði atriði atriði.",
+        "Opnaðu fullkomin endurgreiðsluverðlaun.",
         "Upplifðu bestu endurgreiðslutilboðin sem til eru.",
       ],
     },
@@ -12138,16 +12138,16 @@ export default {
      */
     page: {
       prompts: [
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {shop}",
+        "Velkomin í {shop} - Skoðaðu sérstaka vöruúrvalið okkar",
+        "{shop} - Endanleg uppspretta þín fyrir gæðavöru og framúrskarandi þjónustu",
+        "Eingöngu tilboð og sparnaður aðeins á {shop} - Gríptu tækifærið!",
+        "Kynntu þér vígslu {shop} við vistvænni og siðferðileg vinnubrögð",
+        "Vertu hluti af {shop} fjölskyldunni - Gerast áskrifandi að fréttabréfinu okkar til að fá uppfærslur",
+        "Farðu í toppval og vörur með háa einkunn á {shop}",
+        "Settu fram hugmyndir og skapandi tillögur fyrir alla viðburði á {shop}",
+        "Óviðjafnanleg tilboð og tímanæm sértilboð á {shop} - bregðast hratt við!",
+        "Alhliða kaupráð {shop} og vörumat - verslaðu með sjálfstraust",
+        "Náðu til {shop} - við leitumst við að veita óviðjafnanlega verslunarupplifun",
       ],
     },
 
@@ -12158,16 +12158,16 @@ export default {
       message: [
         "Ljúktu útlitinu þínu, gríptu settið!",
         "Sparaðu stórt með pakkatilboðum okkar!",
-        "atriði atriði atriði atriði atriði!",
-        "atriði atriði atriði, atriði atriði!",
-        "atriði atriði atriði, atriði atriði!",
-        "atriði atriði, atriði afsláttur!",
+        "Ekki missa af fullkomnu pörunum okkar!",
+        "Bættu kaupin þín, viðbætur bíða!",
+        "Opnaðu einkasparnað, keyptu saman!",
+        "Aukavörur, sérstakur afsláttur!",
         "Fáðu meira, eyddu minna - safnaðu saman!",
         "atriði tilboð: atriði vörur!",
-        "atriði atriði atriði, atriði atriði!",
+        "Uppfærðu upplifun þína, combo tilboð!",
         "Uppgötvaðu samsett samsetningar okkar, sparaðu núna!",
         "Paraðu það saman fyrir fullkomið samsett!",
-        "verslun atriði, atriði atriði vista!",
+        "Verslaðu snjallt, settu saman og sparaðu!",
         "Tvöfalda gildið, tvöfalda skemmtunina!",
         "Hin fullkomna samsvörun er hér - verslaðu núna!",
         "Sérstakt pakkaverð bara fyrir þig!",
@@ -12184,26 +12184,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "atriði atriði",
-        "atriði",
-        "atriði",
-        "atriði",
-        "atriði atriði",
-        "atriði vörur",
-        "atriði atriði",
+        "Stafrænar vörur",
+        "Bækur",
+        "Raftæki",
+        "Tíska",
+        "Heimilistæki",
+        "Snyrtivörur",
+        "Íþróttabúnaður",
         "Leikföng og leikir",
         "Matvörur",
         "Húsgögn",
         "Bílavarahlutir",
         "Skartgripir",
-        "atriði & atriði",
+        "Heilsa og vellíðan",
         "Gæludýravörur",
         "Skrifstofuvörur",
-        "atriði & atriði",
-        "atriði & atriði sýna",
+        "Tónlist & hljóðfæri",
+        "Kvikmyndir og sjónvarpsþættir",
         "Hugbúnaður",
-        "atriði & atriði",
-        "atriði atriði",
+        "List og handverk",
+        "Útivistarbúnaður",
       ],
     },
 
@@ -12212,40 +12212,40 @@ export default {
      */
     template_message: {
       title: [
-        "Staðfesting á pöntun",
-        "pöntun atriði",
-        "pöntun atriði",
-        "greiðsla atriði",
-        "pöntun atriði",
-        "pöntun atriði atriði",
-        "pöntun atriði atriði",
-        "pöntun atriði atriði atriði",
-        "atriði atriði",
-        "endurgreiðsla atriði",
-        "atriði atriði atriði atriði",
+        "Staðfesting pöntunar",
+        "Pöntun send",
+        "Pöntun afhent",
+        "Greiðsla móttekin",
+        "Hætt við pöntun",
+        "Töf í afgreiðslu pöntunar",
+        "Pöntun í bið",
+        "Panta út til afhendingar",
+        "Skil afgreidd",
+        "Endurgreiðsla gefin út",
+        "Vara aftur á lager",
       ],
       body: [
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Hæ {buyer_name}, pöntunin þín #{order_id} hefur verið staðfest! Við erum að vinna úr því og munum láta þig vita þegar það er tilbúið til sendingar.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Góðar fréttir, {buyer_name}! Pöntun þín #{order_id} hefur verið send. Þú getur fylgst með því í gegnum reikninginn þinn. Takk fyrir að versla við okkur!",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Halló {buyer_name}, pöntunin þín #{order_id} hefur verið afhent. Við vonum að þú njótir kaupanna. Þakka þér fyrir!",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Hæ {buyer_name}, við höfum fengið greiðsluna fyrir pöntun #{order_id}. Pöntun þín er nú í vinnslu og verður send fljótlega.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Kæri {buyer_name}, okkur þykir leitt að tilkynna þér að pöntun þinni #{order_id} hefur verið hætt. Ef þú hefur einhverjar spurningar, vinsamlegast hafðu samband við þjónustudeild.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Kæri {buyer_name}, við erum að upplifa töf á pöntuninni þinni #{order_id}. Við biðjumst velvirðingar á óþægindunum og vinnum að því að leysa þau eins fljótt og auðið er.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Hæ {buyer_name}, pöntunin þín #{order_id} er í bið. Vinsamlegast athugaðu reikninginn þinn eða hafðu samband við þjónustudeild fyrir frekari upplýsingar.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Hæ {buyer_name}, pöntunin þín #{order_id} er til afhendingar og ætti að berast þér fljótlega. Þakka þér fyrir þolinmæðina!",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Kæri {buyer_name}, við höfum afgreitt skilagjaldið fyrir pöntunina þína #{order_id}. Ef þú hefur einhverjar spurningar, vinsamlegast hafðu samband við þjónustudeild.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Hæ {buyer_name}, endurgreiðsla þín fyrir pöntun #{order_id} hefur verið gefin út. Þú ættir að sjá fjármunina á reikningnum þínum fljótlega.",
 
-        "Hér getur þú stjórnað upplýsingum og stillingum þessa hluta. {buyer_name} {order_id}",
+        "Hæ {buyer_name}, varan úr pöntuninni þinni #{order_id} er aftur á lager! Þú getur lagt inn nýja pöntun núna ef þú hefur enn áhuga.",
       ],
     },
 
@@ -12254,28 +12254,28 @@ export default {
      */
     property_set: {
       title: [
-        "atriði",
-        "atriði atriði",
-        "atriði",
+        "Kjóll",
+        "Stafrænar græjur",
+        "Drykkir",
         "Matur",
         "Húsgögn",
-        "atriði",
-        "atriði vörur",
-        "atriði",
-        "atriði atriði",
-        "atriði",
+        "Bækur",
+        "Snyrtivörur",
+        "Leikföng",
+        "Íþróttabúnaður",
+        "Aukabúnaður",
       ],
       description: [
         "Eiginleikar fyrir fatnað eins og stærð, lit og efni.",
         "Forskriftir fyrir græjur eins og vörumerki, gerð og eiginleika.",
         "Bragð, stærðir og tegundir af drykkjum.",
         "Upplýsingar um máltíðir, snarl og matvörur.",
-        "atriði, atriði, atriði atriði atriði.",
-        "atriði, atriði, atriði atriði atriði.",
+        "Efni, stærðir og hönnunarstíll.",
+        "Höfundur, tegund og útgáfuár.",
         "Húðgerð, innihaldsefni og upplýsingar um umbúðir.",
         "Aldurshópur, efni og öryggisstaðlar.",
-        "gerð, atriði, atriði atriði atriði.",
-        "atriði, atriði, atriði atriði upplýsingar.",
+        "Gerð, stærð og frammistöðueiginleikar.",
+        "Stíll, efni og vörumerki.",
       ],
     },
 
@@ -12284,24 +12284,24 @@ export default {
      */
     boxes: {
       name: [
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði",
-        "atriði atriði atriði",
-        "atriði atriði atriði", // flexible mailer
-        "atriði atriði", // bubble/padded
-        "atriði atriði", // thermal
-        "atriði atriði",
+        "Box XS",
+        "Kassi S",
+        "Kassi M",
+        "Kassi L",
+        "Box XL",
+        "Box XXL",
+        "Box Slim",
+        "Kassi breiður",
+        "Box hár",
+        "Box Flat",
+        "Box Cube",
+        "Box Tube",
+        "Box brothætt",
+        "Kassi glerflöskur",
+        "Box mjúkur pakki", // flexible mailer
+        "Kassi bólstraður", // bubble/padded
+        "Box einangruð", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

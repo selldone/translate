@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "高度なオプション",
       menu_advanced_options_description:
-        "Connect Google 項目, 削除 項目 商品 項目 項目...",
+        "Google シートの接続、重複した商品の削除など...",
 
       products_rss: {
         title: "製品RSS",
@@ -628,9 +628,9 @@ export default {
       table_mode: {
         false_title: "ドラッグ＆ドロップモード",
         false_description:
-          "項目 商品 項目 項目 項目 項目 項目.",
+          "カテゴリとサブカテゴリ別に分類された製品を表示します。",
         true_title: "テーブルモード",
-        true_description: "項目 商品 項目 項目 項目 項目 項目.",
+        true_description: "詳細な表レイアウトで製品を表示します。",
       },
 
       show_notes: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "距離単位",
-        subtitle: "項目 項目 項目 項目 項目.",
+        subtitle: "距離に使用される単位。",
       },
 
       menu: {
@@ -1512,8 +1512,8 @@ export default {
       },
       external: {
         not_available_message:
-          "項目 項目 利用可能 項目 会社 & 項目 ライセンス.",
-        available_message: "項目 項目 追加 項目 項目 項目 項目 項目 項目.",
+          "Company および Enterprise ライセンスで追加のアクションを利用できます。",
+        available_message: "追加の外部の行動喚起を追加できます。",
         input_label: "2番目の行動ボタン",
       },
       warehouse: {
@@ -1875,11 +1875,11 @@ export default {
     menu: {
       add_bulk: {
         title: "一括追加",
-        subtitle: "追加 項目 項目 項目 項目 項目.",
+        subtitle: "1 つのアクションで複数のバリアントを追加します。",
       },
       edit_property_set: {
-        title: "項目 項目 項目",
-        subtitle: "項目 項目 項目, 項目 項目 注文.",
+        title: "プロパティ セットのカスタマイズ",
+        subtitle: "バリアント名、アイコン、順序を変更します。",
       },
     },
   },
@@ -1931,8 +1931,8 @@ export default {
   b_shop_popups: {
     title: "ポップアップ管理",
     subtitle:
-      "作成 項目, 項目, 項目 項目 項目 項目.",
-    add_action: "追加 項目 項目",
+      "パーソナライズされたインテリジェントでインタラクティブなポップアップ ウィンドウを作成します。",
+    add_action: "新しいポップアップを追加",
   },
 
   /** {@see BProductProfileTax} **/
@@ -1985,7 +1985,7 @@ export default {
       profile: "プロフィール & 項目",
       business: "ビジネス & 支払い",
       documents: "ドキュメント",
-      page: "項目 項目",
+      page: "ページテンプレート",
       shipping: "運送",
       access: "アクセス",
       critical_zone: "クリティカルゾーン",
@@ -1996,17 +1996,17 @@ export default {
       subtitle: "この情報は顧客に公開されます。",
       action_sub_caption: "公開製品一覧ページ。",
       action_see_listing_page: "リストページを見る",
-      send_invitation_email: "項目 項目 Email",
+      send_invitation_email: "招待メールを送信する",
       invitation_link: "項目 リンク",
     },
 
     profiles: {
       title: "プロファイル",
-      subtitle: "項目 項目 項目 項目 項目 項目 販売者.",
+      subtitle: "このベンダーに場所を割り当てることができます。",
     },
     map: {
       no_map_message:
-        "項目 項目 項目 項目 項目 販売者 項目 項目 項目 項目 販売者.",
+        "ロケーションベースのベンダーの場合は、ベンダーにロケーションを割り当てます。",
     },
     page: {
       title: "カスタムページ",
@@ -2068,7 +2068,7 @@ export default {
       "入力したメールはユーザーのメール（ <b>{user_name}：</b> {user_email}）と一致しません。 <b>{email}</b>にメールを送信してもよろしいですか？",
 
     order_information_email_to_email:
-      "項目 項目 項目 注文 情報 項目 <b>{email}</b>.",
+      "We will send orders information to <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "まずベンダーのユーザーを設定します。",
 
@@ -2133,7 +2133,7 @@ export default {
         label: "販売者 項目",
       },
       description: {
-        placeholder: "項目 項目 項目 説明...",
+        placeholder: "公開説明を書いてください...",
       },
     },
   },
@@ -2349,7 +2349,7 @@ export default {
       /** {@see BProductFinanceCharts} **/
       finance: {
         title: "金融",
-        title_small: "項目 レポート 項目 {start} ~ {end}.",
+        title_small: "{start} ～ {end} の間の購入レポート。",
         select_mode_title: "表示者",
         modes: {
           sell: "セール",
@@ -2441,17 +2441,17 @@ export default {
           "このバリアントを保存した後、ここに画像を追加できるようになります。",
 
         config: {
-          title: "商品 項目 項目",
-          subtitle: "項目 SKU, MPN, 項目 項目 項目 項目.",
+          title: "製品バリアントのセットアップ",
+          subtitle: "SKU、MPN、およびバリエーションの在庫状況を管理します。",
         },
         variables: {
-          title: "項目 項目",
+          title: "バリアントオプション",
           subtitle:
             "<b>ここでこのセクションの情報と設定を管理できます。</b><b></b>",
           graphical_asset_tips:
             "<b>ここでこのセクションの情報と設定を管理できます。</b>",
-          graphical_asset_action: "項目 項目",
-          graphical_asset_action_caption: "項目 項目 項目 項目.",
+          graphical_asset_action: "グラフィックアセット",
+          graphical_asset_action_caption: "バリエーション オプションの画像。",
         },
         smart_unit_price: {
           tips: "<b>重量</b>、<b>容量</b>、<b>パックサイズ</b>に基づいて単価を計算します。この機能を無効にするには、[ショップ] > [設定] > [テーマ] > [製品ページ] > [スマート単価] に移動します。",
@@ -2459,18 +2459,18 @@ export default {
         },
         quantity: {
           title: "在庫",
-          subtitle: "項目 項目 項目 項目 項目 項目.",
+          subtitle: "各バリエーションの在庫レベルを設定します。",
         },
         price: {
           title: "価格設定",
           subtitle:
-            "項目 項目 項目 価格 項目 項目 項目 項目 項目 項目 項目 商品 価格.",
+            "バリアントのカスタム価格を設定するか、デフォルトの商品価格を使用します。",
         },
         package: {
           title: "項目 & 配送",
           subtitle:
-            "項目 項目 項目 項目 項目 項目 項目 項目 配送 項目.",
-          same_as_product_action: "項目 項目 商品",
+            "配送オプションを決定するには、バリエーションの重量と寸法を指定します。",
+          same_as_product_action: "製品と同じ",
         },
         image: {
           title: "バリエーション画像",
@@ -2479,15 +2479,15 @@ export default {
         },
         inputs: {
           sku: {
-            message: "項目 項目 項目 (SKU)",
+            message: "在庫管理単位 (SKU)",
           },
           mpn: {
-            message: "項目 項目 項目 (MPN)",
+            message: "メーカー部品番号 (MPN)",
           },
           gtin: {
-            label: "項目 項目 項目 項目 (GTIN)",
+            label: "世界貿易品目番号 (GTIN)",
             message:
-              "項目 項目: UPC (12 項目), EAN (13 項目), JAN (8 項目 13 項目), ISBN (13 項目).",
+              "サポートされる形式: UPC (12 桁)、EAN (13 桁)、JAN (8 桁または 13 桁)、ISBN (13 桁)。",
           },
         },
       },
@@ -2536,8 +2536,8 @@ export default {
     bulk_action_input: "すべてのバリアントを更新します",
     bulk_action_msg:
       "すべてのバリエーションの製品パッケージと準備時間を設定します。",
-    dynamic_lead_time: "項目 項目 項目",
-    instant_delivery: "項目 項目",
+    dynamic_lead_time: "ダイナミックリードタイム",
+    instant_delivery: "即時配達",
   },
 
   /**
@@ -2553,14 +2553,14 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "画像の代替テキストを設定",
-      placeholder: "項目 項目 項目 項目 項目...",
-      success_update_notification: "項目 項目 項目 項目.",
+      placeholder: "説明的な代替テキストを入力してください...",
+      success_update_notification: "代替テキストが正常に更新されました。",
     },
     dialog_bg_remove: {
-      title: "削除 項目 項目",
+      title: "背景を自動的に削除する",
       action: {
         title: "背景を削除",
-        subtitle: "作成 項目 項目 項目.",
+        subtitle: "透明な背景を作成します。",
       },
       success_remove_bg_notification: "背景が正常に削除されました！",
     },
@@ -2582,7 +2582,7 @@ export default {
    * @see ExtraPricingLevels
    */
   extra_pricing_levels: {
-    extra_pricings: "項目 項目",
+    extra_pricings: "追加料金",
     min_quantity: "項目 数量",
     range_is_out_of_stock: "この範囲は在庫切れです！",
   },
@@ -2591,29 +2591,29 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "項目 項目 項目 項目!",
-    set_color_warning: "項目 選択 項目 項目.",
-    set_volume_warning: "項目 項目 項目 項目.",
-    set_pack_warning: "項目 項目 項目 項目 項目.",
-    set_weight_warning: "項目 項目 項目 項目.",
-    set_type_warning: "項目 選択 項目 タイプ.",
-    set_style_warning: "項目 選択 項目 項目.",
+    duplicated_variant: "この亜種はすでに存在します。",
+    set_color_warning: "色を選択してください。",
+    set_volume_warning: "音量を指定してください。",
+    set_pack_warning: "梱包サイズをご指定下さい。",
+    set_weight_warning: "重量をご指定ください。",
+    set_type_warning: "タイプを選択してください。",
+    set_style_warning: "スタイルを選択してください。",
     out_of_stock: "現在在庫切れ",
 
     image: {
-      tooltip: "⚡ 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+      tooltip: "⚡ ここに画像をドラッグ アンド ドロップして、バリアントに割り当てます。",
     },
     enable: {
-      true_tooltip: "項目 項目 項目 利用可能 項目 項目 項目 ストア.",
-      false_tooltip: "項目 項目 項目 項目 利用可能 項目 項目 項目 ストア.",
+      true_tooltip: "こちらの商品はオンラインストアでもお求めいただけます。",
+      false_tooltip: "この商品はオンラインストアではお取り扱いしておりません。",
     },
     restore_dialog: {
       title: "バリエーションを復元",
-      message: "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目?",
-      action: "項目, 項目 項目",
+      message: "この削除されたバリアントを復元してもよろしいですか?",
+      action: "はい、今すぐ復元します",
     },
     notifications: {
-      restore_variant_success: "項目 商品 項目 項目 項目 項目.",
+      restore_variant_success: "製品バリアントは正常に復元されました。",
     },
   },
 
@@ -2797,7 +2797,7 @@ export default {
   b_page_shop_finance_gateway: {
     title: "支払い方法",
     sub_title:
-      "項目 項目 項目 支払い 方法. 項目 項目 項目 項目 追加 項目 項目 方法 項目 項目 ショップ, 項目 項目 項目 項目. 項目 項目 項目 項目 項目 10 項目 支払い ゲートウェイ.",
+      "アクティブな支払い方法のリスト。新しいメソッドをショップに追加したい場合は、次のボタンを押してください。追加する支払いゲートウェイの数は 10 を超えないようにすることを強くお勧めします。",
     add_gateway: "新しい支払い方法",
 
     add_gateway_dialog: {
@@ -2808,7 +2808,7 @@ export default {
       confirm: "お支払い方法を追加",
 
       online_methods: "オンライン方法",
-      cod_methods: "項目 項目 項目",
+      cod_methods: "代金引換",
       bank_transfer: "銀行振込",
       cash_methods: "項目 支払い (POS)",
 
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "ストア内の通貨の数は最小限、理想的には 3 つ未満に抑えるようにしてください。ほとんどの支払いゲートウェイは、ほぼすべての通貨で取引を処理できます。",
         add_first_currency: {
-          subtitle: "項目 追加 項目 通貨 項目 項目 ショップ 項目 項目.",
+          subtitle: "続行する前に、ショップに通貨を追加してください。",
           title: "通貨を追加する",
         },
       },
@@ -2828,23 +2828,23 @@ export default {
       },
 
       config_step: {
-        import_config: "項目 項目 項目 項目 項目 項目 項目 ゲートウェイ",
+        import_config: "他の同様のゲートウェイから構成をインポートできます",
         import_from: "インポート元",
       },
 
       request_add_new_gateway: {
-        title: "項目 項目 項目 項目 支払い 方法?",
+        title: "ご希望の支払い方法が見つかりませんか?",
         subtitle:
           "地元の決済プロバイダーがリストにない場合は、年間プラン (手頃な価格の Startup を含む) に加入し、統合をリクエストしてください。テスト アカウントとドキュメントが提供されれば、48 時間以内に完了します。",
       },
 
       inputs: {
         currency: {
-          placeholder: "選択 項目 ゲートウェイ 項目 項目...",
+          placeholder: "インポートするゲートウェイを選択してください...",
         },
         manual: {
           true_title: "手動モード",
-          true_description: "項目 項目 項目 ゲートウェイ 項目 項目.",
+          true_description: "ゲートウェイ構成を手動で設定できます。",
 
           false_title: "自動接続",
           false_description:
@@ -3337,10 +3337,10 @@ export default {
       },
 
       express_input: {
-        true_title: "項目 | 項目 注文 項目",
-        false_title: "項目 | 項目 注文 項目 48 項目",
+        true_title: "エクスプレス |すぐに注文をキャンセルする",
+        false_title: "標準 | 48時間後に注文をキャンセルする",
         true_description:
-          "項目 項目 項目 項目 項目 注文 項目 項目 更新 項目 項目 項目 項目.",
+          "このオプションを選択すると、注文がすぐにキャンセルされ、在庫がすぐに更新されます。",
         false_description:
           "必要な情報を選択または入力してください。",
       },
@@ -3354,9 +3354,9 @@ export default {
         "注文は通常のプロセスに戻りました。",
       set_tracking_success: "注文トラックIDが正常に保存されました。",
       shipping_address_update_success:
-        "配送 住所 項目 項目 項目 項目.",
+        "配送先住所は正常に更新されました。",
       vendor_order_status_update_success:
-        "販売者 項目 ステータス 項目 項目 項目 項目.",
+        "ベンダーのフルフィルメントステータスが正常に更新されました。",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "支払いレポート",
         subtitle:
-          "項目 支払い 項目 取引 項目 項目 項目 項目 項目 項目.",
+          "選択した期間中に作成された支払いと取引。",
         chart: {
           times: "カウント",
           buys: "購入数",
@@ -3658,17 +3658,17 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "情報",
-    subtitle: "項目 項目 支払い ゲートウェイ 項目 項目 ステータス.",
+    subtitle: "支払いゲートウェイの構成とステータスの概要。",
     status: "状態",
     cod_transportation: "項目 配送",
     cod_transportations_error:
-      "項目 項目 項目 項目 支払い 項目 項目 項目 項目 配送 方法!",
+      "少なくとも 1 つの配送方法で代金引換支払いを有効にしてください。",
     payment_type: "支払い タイプ",
-    cod: "項目 項目 項目",
+    cod: "代金引換",
     online: "項目 支払い",
-    wage_percent: "項目 項目",
-    min_wage: "項目 項目",
-    max_wage: "項目 項目",
+    wage_percent: "手数料率",
+    min_wage: "最低料金",
+    max_wage: "最大料金",
     min_amount: "項目 取引",
     max_amount: "項目 取引",
     timeout: "支払い 項目",
@@ -3682,21 +3682,21 @@ export default {
     auto_config: "自動 項目",
 
     keys: {
-      title: "項目 項目",
+      title: "秘密鍵",
       subtitle:
         "ここでこのセクションの情報と設定を管理できます。",
     },
     extra_config: {
-      title: "支払い 項目 項目",
-      subtitle: "項目 項目 情報 項目 項目 支払い ゲートウェイ.",
+      title: "決済サービスの構成",
+      subtitle: "支払いゲートウェイの追加構成情報。",
     },
 
     recommended_actions: {
-      title: "項目 項目",
+      title: "推奨されるアクション",
       subtitle:
-        "項目 項目 項目 項目, 項目 項目 項目 項目 項目 支払い 項目 項目 顧客.",
-      action_enable: "項目 項目 項目 項目",
-      make_live_enable: "項目 項目 項目 項目",
+        "これらの手順を実行すると、顧客から実際の支払いを受け取ることができるようになります。",
+      action_enable: "クリックして有効にします",
+      make_live_enable: "クリックしてライブしてください",
     },
   },
 
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "発行されたカードのリスト",
       subtitle:
-        "項目 項目 項目 項目 項目 項目. 項目 項目 項目 項目 項目 ユーザー 項目 項目 項目 項目 項目 項目.",
+        "発行されたすべてのカードを表示および管理します。必要に応じて、ユーザーにカードを手動で送信したり、カードを禁止したりできます。",
 
       loading_message: "情報を入手しています...お待ちください",
       issue_to_user: "ユーザーへの発行",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "項目 項目 項目 項目 注文 項目 項目 項目 項目 項目 項目 項目 項目.",
+      "サードパーティプロバイダーによる処理が必要な、外部で同期された注文のリスト。",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4029,7 +4029,7 @@ export default {
 
     "email-buy": "購入確認メールを顧客に送信します。",
     "email-payment": "支払い確認メールを顧客に送信します。",
-    "email-update": "項目 注文 更新 項目 項目 顧客.",
+    "email-update": "注文更新メールを顧客に送信します。",
 
     "email-vendor":
       "🔔 注文通知メールが<b>{vendor}</b>に送信されました ╏ {email}。",
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "{phone} 経由で顧客に支払い確認 SMS を送信します。",
     "sms-ready-to-ship":
-      "項目 項目 SMS 項目 項目 顧客 項目 項目 項目 注文 項目 項目 項目 項目 項目 項目 {phone}.",
+      "{phone} 経由で注文品の発送準備ができたことを通知する SMS を顧客に送信します。",
     "sms-ready-to-pickup":
-      "項目 項目 SMS 項目 項目 顧客 項目 項目 項目 注文 項目 項目 項目 項目 項目 {phone}.",
+      "{phone} 経由で注文品の受け取り準備ができたことを通知する SMS を顧客に送信します。",
     "sms-order-confirmation":
-      "項目 項目 注文 項目 SMS 項目 項目 顧客 項目 {phone}.",
+      "{phone} 経由で顧客に注文確認 SMS を送信します。",
 
     "count-adjustment":
-      "項目 数量 項目 項目 商品 \"{product}\" 項目 項目 項目 項目 {from} 項目 {to}.",
+      "製品「{product}」の数量が {from} から {to} に更新されました。",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4135,7 +4135,7 @@ export default {
       payout_tooltip: "ベンダーへの支払い。",
     },
     order_canceled: "注文 項目",
-    order_rejected: "注文 項目 項目 販売者",
+    order_rejected: "注文がベンダーによって拒否されました",
   },
 
   /**
@@ -4185,7 +4185,7 @@ export default {
     add_action: "新しいメンバーを追加",
     pending: {
       title: "保留中の招待",
-      message: "項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+      message: "受け入れを待っている招待状のリストを表示します。",
     },
   },
 
@@ -4194,9 +4194,9 @@ export default {
    */
   vendor_member_add: {
     title_edit: "チームメンバーを編集",
-    title_new: "追加 項目 項目 項目",
+    title_new: "新しいチームメンバーを追加",
     member: {
-      title: "項目 項目 詳細",
+      title: "チームメンバーの詳細",
       subtitle:
         "新しいチームメンバーを追加し、権限を設定します。各項目をクリックして、読み取り/書き込みアクセスを調整します。各行は、メイン ショップ ダッシュボードの権限レベルに対応します。",
     },
@@ -4207,17 +4207,17 @@ export default {
     inputs: {
       email: {
         label: "Email 住所",
-        placeholder: "項目 項目 項目 項目 住所...",
+        placeholder: "会員のメールアドレスを入力してください...",
       },
     },
     notifications: {
       add_success: {
-        title: "項目 項目",
-        message: "項目 項目 項目 項目 項目 項目 項目.",
+        title: "メンバー追加",
+        message: "チームメンバーが正常に追加されました。",
       },
       update_success: {
-        title: "項目 項目",
-        message: "項目 項目 項目 情報 項目 項目 項目 項目.",
+        title: "メンバーが更新されました",
+        message: "チームメンバーの情報が正常に更新されました。",
       },
     },
     actions: {
@@ -4266,11 +4266,11 @@ export default {
       "<b>重要! </b>このアクションを実行すると、ベンダーのウォレットにマイナスのトランザクションが生成され、そこから選択した金額が減算されます。金額は、選択した注文の残りの合計トランザクションを超えることはできません。さらに、資金が接続された銀行口座に送金された場合 (Stripe Connect や手動電信送金など)、<b>取消送金</b> を作成する必要があります。",
     inputs: {
       note: {
-        message: "項目 項目 項目 項目 販売者.",
-        placeholder: "項目 項目 項目 項目 メモ 項目...",
+        message: "販売者にはそれが見えます。",
+        placeholder: "ここにメモを添付できます...",
       },
       amount: {
-        error_message: "項目 項目 金額 項目 項目 項目.",
+        error_message: "残量を超えています。",
       },
     },
   },
@@ -4808,7 +4808,7 @@ export default {
     },
     "user:profile:write": {
       name: "プロフィール 項目",
-      description: "編集 項目 項目 ユーザー プロフィール 情報.",
+      description: "ユーザープロファイル情報を編集および管理します。",
     },
 
     //--------------------------- Storefront ---------------------------
@@ -4831,104 +4831,104 @@ export default {
       description: "記事を編集します。",
     },
     "backoffice:notifications": {
-      name: "項目 項目",
-      description: "項目 項目 項目 項目.",
+      name: "通知管理",
+      description: "通知を送受信します。",
     },
     "backoffice:order:write": {
       name: "注文 項目",
-      description: "編集 項目 項目 ストア 注文.",
+      description: "ストア注文を編集および管理します。",
     },
     "backoffice:order:read": {
       name: "注文 項目",
       description: "項目 ストア 注文.",
     },
     "backoffice:support-tickets": {
-      name: "項目 項目",
-      description: "項目 項目 項目.",
+      name: "サポートチケット",
+      description: "サポートチケットを管理します。",
     },
     "backoffice:shop:read": {
       name: "ショップ 情報",
-      description: "項目 ショップ 詳細 項目 項目.",
+      description: "ショップの詳細と統計情報をご覧ください。",
     },
     "backoffice:shop:write": {
       name: "ショップ 項目",
-      description: "作成 項目 項目 ショップ 詳細.",
+      description: "ショップの詳細を作成および管理します。",
     },
     "backoffice:shop:add": {
       name: "追加 ショップ",
-      description: "追加 項目 項目 ショップ 項目 項目 項目.",
+      description: "新しいショップをシステムに追加します。",
     },
     "backoffice:shop:delete": {
       name: "削除 ショップ",
-      description: "削除 項目 ショップ 項目 項目 項目.",
+      description: "システムからショップを削除します。",
     },
     "backoffice:giftcard:write": {
-      name: "項目 項目 項目",
-      description: "作成 項目 項目 項目 項目.",
+      name: "ギフトカード管理",
+      description: "ギフトカードを作成および管理します。",
     },
     "backoffice:giftcard:read": {
-      name: "項目 項目 項目",
-      description: "項目 項目 項目 詳細 項目 項目.",
+      name: "ギフトカードへのアクセス",
+      description: "ギフトカードの詳細と統計を読みます。",
     },
     "backoffice:faq:write": {
-      name: "項目 項目",
-      description: "作成 項目 項目 項目 項目 項目.",
+      name: "よくある質問の管理",
+      description: "よくある質問を作成して管理します。",
     },
     "backoffice:faq:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "よくある質問へのアクセス",
+      description: "よくある質問の詳細と統計をご覧ください。",
     },
     "backoffice:category:write": {
       name: "カテゴリ 項目",
-      description: "作成 項目 項目 商品 項目.",
+      description: "製品カテゴリを作成および管理します。",
     },
     "backoffice:category:read": {
       name: "カテゴリ 項目",
-      description: "項目 カテゴリ 詳細 項目 項目.",
+      description: "カテゴリの詳細と統計を読みます。",
     },
     "backoffice:product:write": {
       name: "商品 項目",
-      description: "追加 項目 項目 商品.",
+      description: "製品を追加および管理します。",
     },
     "backoffice:product:read": {
       name: "商品 項目",
-      description: "項目 商品 詳細 項目 項目.",
+      description: "製品の詳細と統計をご覧ください。",
     },
     "backoffice:report:read": {
       name: "レポート 項目",
-      description: "項目 ストア レポート 項目 情報.",
+      description: "店舗のレポートや情報をご覧いただけます。",
     },
     "backoffice:finance:write": {
-      name: "項目 項目 項目",
-      description: "項目 項目 項目 項目 項目 項目 ストア.",
+      name: "金融口座管理",
+      description: "ストアにリンクされた金融アカウントを管理します。",
     },
     "backoffice:finance:read": {
-      name: "項目 項目 項目",
-      description: "項目 項目 項目 詳細 項目 項目.",
+      name: "金融口座へのアクセス",
+      description: "金融口座の詳細と統計を読みます。",
     },
     "backoffice:page:write": {
-      name: "項目 項目",
+      name: "ページ管理",
       description: "編集 ショップ 項目.",
     },
     "backoffice:page:read": {
-      name: "項目 項目",
-      description: "項目 ショップ 項目 詳細 項目 項目.",
+      name: "ページアクセス",
+      description: "ショップページの詳細と統計情報をご覧ください。",
     },
     "backoffice:logistic:write": {
-      name: "項目 項目",
-      description: "項目 項目 情報.",
+      name: "物流管理",
+      description: "物流情報を管理します。",
     },
     "backoffice:logistic:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "物流アクセス",
+      description: "物流の詳細と統計を読みます。",
     },
     "backoffice:staff:write": {
-      name: "項目 項目",
-      description: "編集 項目 項目 項目 詳細.",
+      name: "スタッフ管理",
+      description: "スタッフの詳細を編集および管理します。",
     },
     "backoffice:staff:read": {
-      name: "項目 項目",
-      description: "項目 項目 情報 項目 項目.",
+      name: "スタッフアクセス",
+      description: "スタッフ情報と統計を読んでください。",
     },
     "backoffice:business-profile:write": {
       name: "ビジネス プロフィール 項目",
@@ -4939,12 +4939,12 @@ export default {
       description: "項目 ビジネス プロフィール 詳細.",
     },
     "backoffice:discount-code:write": {
-      name: "割引 項目 項目",
-      description: "項目 ストア 割引 項目.",
+      name: "割引コードの管理",
+      description: "店舗の割引コードを管理します。",
     },
     "backoffice:discount-code:read": {
-      name: "割引 項目 項目",
-      description: "項目 割引 項目 詳細 項目 項目.",
+      name: "割引コードへのアクセス",
+      description: "割引コードの詳細と統計を読みます。",
     },
     "backoffice:wallet:write": {
       name: "ウォレット 項目",
@@ -4952,7 +4952,7 @@ export default {
     },
     "backoffice:wallet:read": {
       name: "ウォレット 項目",
-      description: "項目 ウォレット 情報 項目 項目.",
+      description: "ウォレットの情報と統計を読み取ります。",
     },
     "backoffice:coupon:write": {
       name: "クーポン 項目",
@@ -4960,7 +4960,7 @@ export default {
     },
     "backoffice:coupon:read": {
       name: "クーポン 項目",
-      description: "項目 クーポン 詳細 項目 項目.",
+      description: "クーポンの詳細と統計情報をご覧ください。",
     },
     "backoffice:offer:write": {
       name: "オファー 項目",
@@ -4968,31 +4968,31 @@ export default {
     },
     "backoffice:offer:read": {
       name: "オファー 項目",
-      description: "項目 オファー 情報 項目 項目.",
+      description: "オファー情報と統計を読んでください。",
     },
     "backoffice:cashback:write": {
-      name: "項目 項目",
-      description: "項目 ストア 項目 オファー.",
+      name: "キャッシュバック管理",
+      description: "ストアのキャッシュバック オファーを管理します。",
     },
     "backoffice:cashback:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "キャッシュバックアクセス",
+      description: "キャッシュバックの詳細と統計をご覧ください。",
     },
     "backoffice:lottery:write": {
-      name: "項目 項目",
-      description: "項目 ストア 項目.",
+      name: "宝くじ管理",
+      description: "店舗の宝くじを管理します。",
     },
     "backoffice:lottery:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "宝くじへのアクセス",
+      description: "宝くじの詳細と統計を読んでください。",
     },
     "backoffice:community:write": {
-      name: "項目 項目",
-      description: "項目 項目 項目.",
+      name: "コミュニティ管理",
+      description: "コミュニティ活動を管理します。",
     },
     "backoffice:community:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "コミュニティへのアクセス",
+      description: "コミュニティの詳細と統計を確認します。",
     },
     "backoffice:customer:write": {
       name: "顧客 項目",
@@ -5000,23 +5000,23 @@ export default {
     },
     "backoffice:customer:read": {
       name: "顧客 項目",
-      description: "項目 顧客 情報 項目 項目.",
+      description: "顧客情報と統計を読み取ります。",
     },
     "backoffice:ribbon:write": {
-      name: "項目 項目",
-      description: "項目 ストア 項目.",
+      name: "リボン管理",
+      description: "ストアのリボンを管理します。",
     },
     "backoffice:ribbon:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "リボンアクセス",
+      description: "リボンの詳細と統計を読みます。",
     },
     "backoffice:ai:write": {
       name: "AI 項目",
-      description: "項目 AI 項目.",
+      description: "AI 構成を管理します。",
     },
     "backoffice:ai:read": {
       name: "AI 項目",
-      description: "項目 AI 項目 項目 項目.",
+      description: "AI の構成と統計を読み取ります。",
     },
     "backoffice:vendor-payment:write": {
       name: "販売者 支払い 項目",
@@ -5024,11 +5024,11 @@ export default {
     },
     "backoffice:vendor-payment:read": {
       name: "販売者 支払い 項目",
-      description: "項目 販売者 支払い 詳細 項目 項目.",
+      description: "ベンダーの支払いの詳細と統計を確認します。",
     },
     "backoffice:company:read": {
       name: "会社 項目",
-      description: "項目 会社 詳細 項目 項目.",
+      description: "会社の詳細と統計をご覧ください。",
     },
     "backoffice:company:write": {
       name: "会社 項目",
@@ -5036,88 +5036,88 @@ export default {
     },
     "backoffice:note:read": {
       name: "メモ 項目",
-      description: "項目 メモ 項目 項目 詳細.",
+      description: "注意事項と関連する詳細をお読みください。",
     },
     "backoffice:note:write": {
       name: "メモ 項目",
       description: "項目 メモ.",
     },
     "backoffice:affiliate:write": {
-      name: "項目 項目",
-      description: "項目 項目 情報.",
+      name: "アフィリエイト管理",
+      description: "アフィリエイト情報を管理します。",
     },
     "backoffice:affiliate:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "アフィリエイトアクセス",
+      description: "アフィリエイトの詳細と統計を読んでください。",
     },
     "backoffice:print:write": {
-      name: "項目 項目",
-      description: "項目 項目 項目.",
+      name: "印刷管理",
+      description: "印刷オプションを管理します。",
     },
     "backoffice:print:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細.",
+      name: "印刷アクセス",
+      description: "印刷の詳細を読んでください。",
     },
     "selldone:token:read": {
       name: "トークンアクセス",
-      description: "項目 項目 詳細 項目 項目.",
+      description: "トークンの詳細と統計を読みます。",
     },
     "selldone:token:write": {
       name: "トークン管理",
-      description: "項目 項目.",
+      description: "トークンを管理します。",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "収益化アクセス",
+      description: "収益化の詳細と統計を確認します。",
     },
     "selldone:monetization:write": {
-      name: "項目 項目",
-      description: "項目 項目, 項目 項目 項目.",
+      name: "収益化管理",
+      description: "紹介プログラムを含む収益化を管理します。",
     },
     "selldone:identification": {
-      name: "項目 項目",
-      description: "項目 ユーザー 項目 詳細.",
+      name: "識別アクセス",
+      description: "ユーザー識別の詳細にアクセスします。",
     },
     "selldone:developer:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "開発者アクセス",
+      description: "開発者の詳細と統計を読んでください。",
     },
     "selldone:developer:write": {
-      name: "項目 項目",
-      description: "項目 項目 情報.",
+      name: "開発者管理",
+      description: "開発者情報を管理します。",
     },
     "selldone:security:write": {
-      name: "項目 項目",
-      description: "項目 項目 項目.",
+      name: "セキュリティ管理",
+      description: "セキュリティ構成を管理します。",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "項目 項目",
-      description: "項目 項目 項目 項目.",
+      name: "プロバイダー管理",
+      description: "接続されているサービスプロバイダーを管理します。",
     },
     "connect:provider:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "プロバイダーアクセス",
+      description: "プロバイダーの詳細と統計を読みます。",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
-      name: "項目 項目",
-      description: "項目 項目 詳細 項目 項目.",
+      name: "代理店へのアクセス",
+      description: "代理店の詳細と統計をご覧ください。",
     },
     "agency:write": {
-      name: "項目 項目",
-      description: "項目 項目 情報.",
+      name: "代理店管理",
+      description: "代理店情報を管理します。",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
       name: "販売者アクセス",
-      description: "項目 販売者 詳細 項目 項目.",
+      description: "ベンダーの詳細と統計を読んでください。",
     },
     "vendor-write": {
       name: "販売者管理",
@@ -5128,11 +5128,11 @@ export default {
   scope_group: {
     backoffice: {
       title: "バックオフィス",
-      description: "項目 項目 項目 項目 ストア 項目 項目.",
+      description: "バックオフィスおよび店舗管理機能へのアクセス。",
     },
     storefront: {
       title: "ストアフロント",
-      description: "項目 項目 顧客 項目 ストア 情報.",
+      description: "顧客および店舗情報へのアクセス。",
     },
     profile: {
       title: "プロフィール",
@@ -5140,23 +5140,23 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "項目 Selldone 項目 項目 項目.",
+      description: "Selldone のサービスと機能にアクセスします。",
     },
     others: {
       title: "その他",
-      description: "項目 項目 項目 項目 項目 項目 項目.",
+      description: "システムで定義されていないその他のスコープ。",
     },
     vendor: {
       title: "販売者",
-      description: "項目 販売者 情報 項目 項目 項目.",
+      description: "ベンダー情報と管理機能にアクセスします。",
     },
     connect: {
       title: "Connect OS",
-      description: "項目 項目 項目 項目 項目.",
+      description: "接続されたサービスとプロバイダーにアクセスします。",
     },
     agency: {
       title: "項目",
-      description: "項目 項目 情報 項目 項目.",
+      description: "代理店の情報と管理にアクセスします。",
     },
   },
 
@@ -5682,8 +5682,8 @@ export default {
     end_date: "終了日",
     price: "価格",
     verify: {
-      true_title: "項目 項目",
-      true_description: "項目 項目 項目 項目 項目 Selldone 項目 項目 項目",
+      true_title: "規約の確認",
+      true_description: "Selldoneの利用規約を読んで同意します",
     },
     need_charge: "料金が必要",
     buy_now: "今買う",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "項目 項目 ウォレット",
+        title: "ウォレットを選択してください",
         subtitle:
           "サブスクリプションに使用する仮想ウォレットを選択します。まだお持ちでない場合は、ウォレット セクションで作成できます。このウォレットはあらゆる料金に使用されます。",
       },
@@ -5742,7 +5742,7 @@ export default {
           "ここでこのセクションの情報と設定を管理できます。",
       },
       options: {
-        title: "項目 項目",
+        title: "追加オプション",
       },
       verify: {
         title: "項目",
@@ -5886,13 +5886,13 @@ export default {
    * @see BAffiliateEdit
    */
   affiliate_edit: {
-    affiliate_commission: "項目 項目",
+    affiliate_commission: "アフィリエイト委員会",
 
     config: {
-      new: "項目 項目 項目",
-      edit: "編集 項目 項目",
+      new: "新しいアフィリエイトパートナー",
+      edit: "アフィリエイトパートナーの編集",
       subtitle:
-        "項目 項目 項目 設定 項目 項目 項目 項目 項目 項目.",
+        "ここでアフィリエイトの一般設定と名前を構成します。",
     },
 
     payment: {
@@ -5903,76 +5903,76 @@ export default {
 
     contact: {
       title: "連絡先",
-      subtitle: "項目 項目 項目 詳細 項目 項目 項目 項目 項目.",
+      subtitle: "アフィリエイト パートナーの連絡先の詳細をここに入力します。",
     },
 
     restriction: {
-      title: "項目 項目",
+      title: "コミッションの制限",
       subtitle:
-        "項目 項目 商品 項目 項目 項目 項目. 項目 項目 項目 項目 項目 項目 商品.",
+        "どの商品がコミッションの対象となるかを定義します。手数料を特定の商品に制限することができます。",
     },
 
     link_domain: {
-      title: "項目 項目",
+      title: "リンクされたドメイン",
       subtitle:
         "ここでこのセクションの情報と設定を管理できます。",
 
-      domain_not_approved_msg: "項目 項目 項目 項目 項目 項目 項目!",
-      domain_is_not_enable_msg: "項目 項目 項目 項目 項目!",
+      domain_not_approved_msg: "ドメインはまだ承認されていません。",
+      domain_is_not_enable_msg: "ドメインが有効になっていません!",
       domain_is_linked_to_other_affiliate_msg:
-        "項目 項目 項目 項目 項目 項目 項目 項目!",
+        "このドメインはすでに別のアフィリエイトにリンクされています。",
     },
 
-    set_users_first_message: "項目 項目 項目 ユーザー 項目!",
+    set_users_first_message: "最初にユーザーを設定してください。",
 
     cluster: {
       title: "項目",
       subtitle:
-        "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "このアフィリエイトをクラスターに関連付けて、他のリソースと一緒に 1 か所で管理します。",
       manage_action: "項目",
     },
 
     notifications: {
-      create_success: "項目 項目 項目 項目.",
-      update_success: "項目 項目 項目.",
+      create_success: "新しいアフィリエイトが正常に追加されました。",
+      update_success: "アフィリエイトが正常に更新されました。",
     },
 
     inputs: {
       name: {
-        label: "項目 項目 項目",
-        message: "項目.項目., 項目 項目, 項目 会社, 項目 項目, 項目.",
+        label: "アフィリエイトパートナー名",
+        message: "例: John Doe、Alex Company、X Marketers など。",
       },
       commission: {
-        label: "項目 項目",
+        label: "手数料計算",
         false_description:
-          "項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+          "固定手数料とパーセント手数料を組み合わせて計算します。",
         true_description:
-          "項目 項目 項目 項目 項目 項目 項目 項目 項目.",
-        false_title: "項目 + 項目 項目",
-        true_title: "項目 項目",
+          "価格設定タブで設定された製品固有の手数料を使用して計算します。",
+        false_title: "固定 + パーセンテージ手数料",
+        true_title: "製品ベースの手数料",
       },
       user: {
         label: "ユーザー (項目)",
-        message: "項目, 項目.項目., 項目 項目 項目 Selldone",
+        message: "オプション (例: Selldone のアフィリエイト名)",
       },
       web: {
-        placeholder: "項目, 項目.項目., 項目.項目",
+        placeholder: "オプション（例：affiliate-web.com）",
       },
       address: {
-        placeholder: "項目, 項目.項目., 1200 項目, 項目, 項目",
+        placeholder: "オプション、例: 1200 POX、ニューヨーク州、米国",
       },
       tel: {
-        placeholder: "項目, 項目.項目., 001-808-210354",
+        placeholder: "オプション、例: 001-808-210354",
       },
       bank: {
-        placeholder: "項目, 項目.項目., 項目 項目, 項目: 10002-325-800-845213",
+        placeholder: "オプション、例: Arstra Bank、番号: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "選択 項目 項目... (項目)",
+        placeholder: "ドメインを選択してください... (オプション)",
       },
       pos: {
         true_description:
-          "項目 項目 項目 注文 項目 項目 項目 顧客 項目 項目 項目.",
+          "アフィリエイトは、パネルを通じて顧客に直接注文できます。",
         true_title: "POS 項目",
       },
       enable: {
@@ -5980,13 +5980,13 @@ export default {
           "必要な情報を選択または入力してください。",
       },
       products: {
-        label: "商品 項目 項目 項目",
+        label: "コミッションの対象となる製品",
         select_product: "選択 商品",
       },
     },
     actions: {
       update: "更新 項目",
-      add: "追加 項目 項目",
+      add: "アフィリエイトパートナーを追加",
     },
     /**
      * @see BPageAffiliateEdit
@@ -6001,10 +6001,10 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "項目 項目 項目 項目",
+    title: "カスタムの価格設定と評価",
     subtitle:
       "製品に評価 (価格設定入力フォーム) を割り当てると、顧客がバリエーションを選択したり、商品をカスタマイズしたりできるようになります。システムはカスタム入力に基づいて価格を計算します。",
-    add_valuation_action: "作成 項目 項目 フォーム",
+    add_valuation_action: "新しい評価フォームの作成",
     empty_message:
       "ここでこのセクションの情報と設定を管理できます。",
     delete_dialog: {
@@ -6014,7 +6014,7 @@ export default {
       action: "はい、今すぐ削除",
     },
     notifications: {
-      delete_success: "項目 項目 項目 項目 項目.",
+      delete_success: "評価は正常に削除されました。",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "項目 & 項目 項目",
+    label: "価格設定と評価モデル",
   },
 
   /**
@@ -6030,13 +6030,13 @@ export default {
    */
   valuation_add: {
     title_edit: "編集 項目 フォーム",
-    title_add: "作成 項目 項目 フォーム",
+    title_add: "新しい評価フォームの作成",
     config: {
       subtitle:
         "評価システムを設定して、製品の計算式と参照表を使用して柔軟な価格設定を作成します。まず、この評価に一意の名前を付けます。",
     },
-    valuation_preview: "項目 項目 フォーム",
-    load_sample: "項目 項目",
+    valuation_preview: "プレビュー評価フォーム",
+    load_sample: "サンプルをロードする",
     conditions: {
       title: "条件",
       subtitle:
@@ -6045,18 +6045,18 @@ export default {
     structure: {
       title: "項目",
       subtitle:
-        "項目 項目 項目 項目 フォーム 項目 項目 項目 項目 項目 項目 項目.",
+        "ここで、数式と参照表を統合して、価格入力フォームを設計します。",
       expand_action: "項目",
       collapse_action: "項目",
     },
     inputs: {
       title: {
-        message: "項目 タイトル 項目 項目 項目 項目 顧客.",
-        placeholder: "項目 項目 項目 項目 項目, 項目.項目., '項目 項目'",
+        message: "このタイトルは顧客には表示されません。",
+        placeholder: "価格設定の名前を入力します (例: 「マグカップ価格」)",
       },
     },
     samples: {
-      title: "項目 項目",
+      title: "評価例",
     },
   },
 
@@ -6900,7 +6900,7 @@ export default {
   barcode_scanner: {
     wifi_pass: "Wi-Fiパスワード",
     message: "WiFiルーターのパスワードを入力し、QRコードをスキャンします。",
-    wifi_ssid: "項目 項目",
+    wifi_ssid: "Wi-Fi SSID",
     ssid_message: "Wi-Fiネットワーク名（SSID）を入力します。",
   },
 
@@ -7041,19 +7041,19 @@ export default {
     vendor: {
       title: "項目 販売者",
       subtitle:
-        "アップロード 販売者 CSV 項目 項目. 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "ベンダーの CSV ファイルをここにアップロードします。形式が正しく、プライバシー規制に準拠していることを確認してください。",
       checklist: {
-        title: "項目 項目",
-        subtitle: "項目 項目 項目 項目 項目 項目.",
-        sample_files: "項目 項目",
+        title: "重要なチェックリスト",
+        subtitle: "必ずガイドラインに従ってください。",
+        sample_files: "サンプルファイル",
         valid_vendor_name_needed:
           "<b>ここでこのセクションの情報と設定を管理できます。</b><b></b><i></i><i></i>",
         assign_user_after_import:
-          "項目 項目 販売者, 項目 項目 項目 項目 項目 ユーザー 項目 項目 項目 項目 項目 項目 販売者 項目.",
+          "ベンダーをインポートした後、ベンダー パネルへのアクセスを許可するユーザーを手動で割り当てることができます。",
       },
       need_kyc_alert:
-        "項目 項目 項目 項目 項目 項目 情報 項目 項目 販売者.",
-      back_to_vendors_list: "項目 項目 販売者 項目",
+        "ベンダーを輸入する前に個人情報を確認する必要があります。",
+      back_to_vendors_list: "ベンダーリストに戻る",
     },
   },
 
@@ -7076,10 +7076,10 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "項目 販売者 項目",
-    title: "販売者 項目 項目",
+    open_vendors_panel: "ベンダーパネルを開く",
+    title: "ベンダーリクエストリスト",
     subtitle:
-      "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 販売者 項目 項目 マーケットプレイス.",
+      "これは、マーケットプレイスのベンダーになることを申請した個人からのリクエストのリストです。",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7091,7 +7091,7 @@ export default {
         "マーケットプレイスを無効にすると、一部の機能が無効になります。マーケットプレイス全体をシャットダウンしたい場合は、設定でストアを無効にする必要があります。",
     },
     distribution_model: {
-      title: "項目 項目",
+      title: "流通モデル",
       subtitle:
         "マーケットプレイスはさまざまな配信モデルで運営できます。ベンダーが商品を購入者に直接発送することを希望する場合でも、倉庫で注文を統合して発送することを希望する場合でも、ここでニーズに最適なモデルを選択できます。",
     },
@@ -7101,13 +7101,13 @@ export default {
         "管理者は、製品ダッシュボードに対するベンダーのアクセス レベルを制御します。グローバル アクセス設定を調整して、ベンダーが独自の製品やカテゴリを追加できるようにしたり、このアクセスを管理者のみに制限したりできます。",
     },
     need_enable_shipping_for_vendors_tips:
-      "項目 配送 項目 販売者 項目 項目 ショップ > 項目 項目 項目 項目 方法 項目.",
-    transportation_available_tooltip: "項目 項目 項目 利用可能 項目 販売者.",
+      "[ショップ] > [ロジスティック] タブで、各方法のベンダーへの配送を個別に有効にします。",
+    transportation_available_tooltip: "このオプションはベンダーが利用できます。",
     transportation_not_available_tooltip:
-      "項目 利用可能 項目 販売者! 項目 項目 項目 項目 項目 項目 項目 設定.",
+      "ベンダーは利用できません!交通機関の設定で有効にすることができます。",
     panel: {
       title: "販売者 項目",
-      subtitle: "項目 項目 販売者 項目 項目 項目 項目.",
+      subtitle: "カスタム ドメインを通じてベンダーをオンボードします。",
     },
     documents: {
       title: "ドキュメント",
@@ -7118,71 +7118,71 @@ export default {
     inputs: {
       enable: {
         false_description:
-          "項目 マーケットプレイス 項目 項目 項目, 項目 項目 マーケットプレイス 項目.",
+          "マーケットプレイスがオフになり、すべてのマーケットプレイスの機能が無効になります。",
         true_description:
-          "項目 マーケットプレイス 項目 項目, 項目 項目 マーケットプレイス 項目.",
+          "マーケットプレイスはアクティブであり、すべてのマーケットプレイスの機能が有効になっています。",
       },
       product: {
         label: "新製品を追加",
         true_title: "販売者 項目 追加 商品",
         false_description:
-          "項目 追加 商品 項目 項目 販売者. 販売者 項目 項目 項目 価格 項目 項目.",
+          "製品を追加し、ベンダーを割り当てます。ベンダーは価格と在庫のみを管理できます。",
         true_description:
-          "販売者 項目 追加 項目 項目 項目 項目 商品 項目 項目 項目 販売者 項目.",
+          "ベンダーは、ベンダー パネルで独自の製品を直接追加および管理できます。",
       },
       need_verify: {
-        label: "商品 項目 項目",
-        false_description: "項目 販売者 商品 項目 項目 項目.",
-        false_title: "項目 項目 項目",
+        label: "製品検証の流れ",
+        false_description: "新しいベンダー製品は即座に公開されます。",
+        false_title: "検証は必要ありません",
         true_description:
-          "販売者' 項目 商品 項目 項目 項目 項目 項目 項目 項目 マーケットプレイス.",
-        true_title: "項目 項目",
+          "ベンダーの新製品は、市場で公開される前に承認が必要です。",
+        true_title: "検証が必要です",
       },
       category: {
         label: "追加 項目 カテゴリ",
-        true_title: "販売者 項目 追加 項目",
+        true_title: "ベンダーはカテゴリを追加できます",
         false_description:
-          "項目 追加 項目. 販売者 項目 項目 追加 商品 項目 項目 項目.",
+          "カテゴリを追加します。ベンダーは既存のカテゴリにのみ製品を追加できます。",
         true_description:
-          "販売者 項目 追加 項目 項目 項目 項目 項目 項目 販売者 項目.",
+          "ベンダーはベンダー パネルでカテゴリを直接追加および管理できます。",
       },
       shipping: {
         label: "配送 項目",
-        true_title: "販売者 項目 配送 項目",
+        true_title: "ベンダーには配送オプションがあります",
         false_description:
-          "販売者 項目 追加 項目 項目 項目 配送 方法.",
+          "ベンダーは配送方法を追加またはカスタマイズすることはできません。",
         true_description:
-          "販売者 項目 項目 項目 項目 項目 配送 方法, 追加 項目, 項目 項目 配送 項目 項目 項目.",
+          "ベンダーは独自の配送方法を設定したり、宅配業者を追加したり、ニーズに合わせて配送をカスタマイズしたりできます。",
       },
       hidden_customer: {
-        label: "表示 項目 項目 情報",
-        true_description: "項目 項目 詳細 項目 項目 項目 販売者.",
+        label: "購入者の連絡先情報を表示",
+        true_description: "購入者の連絡先の詳細はベンダーには隠されています。",
         false_description:
-          "項目 項目 詳細, 項目 項目 電話 項目 項目, 項目 項目 項目 販売者.",
+          "電話や電子メールなどの購入者の連絡先の詳細は、ベンダーに表示されます。",
       },
       multi: {
         false_description:
-          "項目 ユーザー 項目 項目 項目 項目 販売者 項目. ユーザー 項目 項目 項目 項目 項目 項目 項目 /販売者.",
+          "ユーザーはベンダー アカウントを 1 つだけ持つことができます。ユーザーは /vendors にあるパネルにリダイレクトされます。",
         true_description:
-          "項目 ユーザー 項目 項目 項目 販売者 項目. 項目 項目 項目 項目 項目; 項目 項目 項目 項目 項目 項目.",
-        true_title: "項目 項目",
-        false_title: "項目 販売者 項目 (項目)",
+          "ユーザーは複数のベンダー アカウントを持つことができます。これはベータ版の機能です。ご使用前に必ずご連絡ください。",
+        true_title: "マルチベンダーモード",
+        false_title: "シングルベンダーモード (デフォルト)",
       },
 
       listing: {
-        label: "項目 項目 販売者",
-        true_description: "項目 項目 項目 項目 販売者. 販売者 項目 項目 項目 項目 項目 項目.",
-        false_description: "項目 項目 項目 項目 販売者. 項目 項目 ショップ 項目 項目 項目 項目 項目 項目 項目.",
+        label: "ベンダー向けリスト",
+        true_description: "ベンダーのリストが有効になります。ベンダーは出品商品や企業を管理できます。",
+        false_description: "ベンダーのリストは無効になっています。出品商品や会社を管理できるのはショップオーナーだけです。",
         requires_listing_active_text:
           "ベンダーがリスティング (アイテム + 企業) を使用できるようにするには、まずチャネル → リスティングでショップのリスティング機能を有効にします。次に、ここに戻ってベンダーのアクセスを許可します。",
-        requires_listing_active_button: "項目 項目 項目 設定",
+        requires_listing_active_button: "チャンネルリスト設定を開く",
       },
 
 
 
     },
     notifications: {
-      update_success: "販売者 設定 項目 項目.",
+      update_success: "ベンダー設定が正常に更新されました。",
     },
     add_document_dialog: {
       title: "書類 項目",
@@ -7197,33 +7197,33 @@ export default {
           "ここでこのセクションの情報と設定を管理できます。",
       },
       code: {
-        title: "項目 項目",
+        title: "コードを埋め込む",
         subtitle:
-          "項目 項目 項目 項目 項目 項目 書類, フォーム, 項目 項目 項目 項目 販売者 項目 項目.",
+          "ベンダーが署名する必要がある文書、フォーム、または契約書の埋め込みコードを貼り付けます。",
       },
       link: {
         title: "項目 リンク",
         subtitle:
-          "項目 項目 項目 リンク 項目 項目 書類 項目 項目 項目 項目 販売者 項目 項目.",
+          "ベンダーが署名する必要がある文書または契約への外部リンクを提供します。",
       },
       inputs: {
         title: {
           label: "タイトル",
-          placeholder: "項目 項目 タイトル 項目 項目 書類 項目.",
+          placeholder: "資料請求のタイトルを入力します。",
         },
         guide: {
-          label: "項目 (項目)",
+          label: "ガイド (オプション)",
           placeholder:
-            "項目, 項目 項目 項目 項目 項目 項目, 項目 リンク 項目 項目 項目 項目 書類.",
+            "必要に応じて、契約書やその他の文書へのリンクを含む、簡単なガイドや手順を提供します。",
         },
         code: {
-          label: "項目 項目",
-          placeholder: "項目 項目 項目 項目 項目...",
-          message: "項目 項目 HTML 項目.",
+          label: "コードを埋め込む",
+          placeholder: "ここに埋め込みコードを貼り付けます...",
+          message: "HTMLコードを含めることができます。",
         },
         url: {
           label: "URL",
-          message: "項目 項目 URL 項目 項目 書類 項目 項目 項目...",
+          message: "ここに文書または契約書の URL を入力してください...",
         },
       },
     },
@@ -7234,12 +7234,12 @@ export default {
    */
   ShopMarketplaceModes: {
     Collective: {
-      title: "項目 項目",
+      title: "集団モード",
       description:
         "このモードでは、すべての注文がまず倉庫に送信され、その後中央の場所から顧客に発送されます。ベンダーは商品をあなたの倉庫に発送するため、ベンダーの配送先住所はあなたの倉庫の住所になります。",
     },
     Direct: {
-      title: "項目 配送 項目 販売者",
+      title: "ベンダーからの直送",
       description:
         "ここでこのセクションの情報と設定を管理できます。",
     },
@@ -7249,9 +7249,9 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "項目 項目 書類",
+      title: "所有者本人確認書類",
       description:
-        "アップロード 項目 項目 項目 項目 項目 項目 項目 項目 項目 ビジネス 項目 項目 項目 項目.",
+        "政府発行の ID をアップロードして、事業主または主要幹部の身元を確認します。",
     },
     Business: {
       title: "ビジネス 項目",
@@ -7264,29 +7264,29 @@ export default {
         "ここでこのセクションの情報と設定を管理できます。",
     },
     Contract: {
-      title: "項目 & 項目",
+      title: "契約と協定",
       description:
-        "アップロード 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 ビジネス 項目.",
+        "ビジネス関係の条件を詳細に記載した契約書または同意書をアップロードします。",
     },
     Copyright: {
-      title: "項目 項目",
+      title: "著作権に関する文書",
       description:
-        "項目 項目 項目 書類 項目 項目 項目 項目 項目 項目.",
+        "知的財産権を確認するための著作権登録書類を提出してください。",
     },
     Privacy: {
-      title: "項目 項目 書類",
+      title: "プライバシーポリシー文書",
       description:
         "ここでこのセクションの情報と設定を管理できます。",
     },
     Embed: {
       title: "項目 フォーム",
       description:
-        "項目 項目 項目 フォーム 項目 項目 項目 項目 情報.",
+        "埋め込みフォームに必要な情報を入力してください。",
     },
     Link: {
       title: "項目 リンク",
       description:
-        "項目 項目 項目 リンク 項目 項目 項目 項目 情報.",
+        "外部リンクに従って必要な情報を提供します。",
     },
   },
 
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "販売者 項目",
     order_fee: "注文 項目",
     order_refund: "注文 返金",
-    reverse_fund: "項目 項目",
+    reverse_fund: "資金取消",
     payout: "項目",
   },
 
@@ -7319,10 +7319,10 @@ export default {
    * @see BPageMarketplacePayouts
    */
   marketplace_payouts: {
-    title: "項目 項目",
+    title: "支払い履歴",
     subtitle:
       "この機能は、すべての取引の詳細な記録を保持することで、あなたとあなたのベンダーの会計を合理化します。支払いは銀行振込やその他の方法で手動で処理することも、Stripe などの分割支払いをサポートする支払いプロバイダーによって自動的に管理することもできます。",
-    top_up_vendor_action: "項目 項目 販売者 項目",
+    top_up_vendor_action: "ベンダーアカウントを補充する",
   },
 
   /**
@@ -7332,31 +7332,31 @@ export default {
     title: "料金プラン",
     subtitle:
       "ここでこのセクションの情報と設定を管理できます。",
-    add_pricing_action: "追加 項目 項目",
+    add_pricing_action: "料金プランの追加",
   },
 
   /**
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "マーケットプレイス 項目 項目",
+    title: "マーケットプレイスの価格モデル",
     subtitle:
       "ここでこのセクションの情報と設定を管理できます。",
     delete: {
       subtitle:
         "価格モデルを削除すると、それにリンクされているすべてのベンダー製品に影響します。価格モデルを削除する前に、それを使用しているすべてのベンダー製品を更新し、別の価格モデルを割り当ててください。",
-      remove_pricing_action: "削除 項目 項目",
+      remove_pricing_action: "価格モデルの削除",
     },
     inputs: {
       title: {
-        placeholder: "項目.項目., 項目 商品 項目...",
+        placeholder: "例: デジタル製品クラス...",
       },
       description: {
-        placeholder: "項目 項目 追加 項目 メモ 項目...",
+        placeholder: "ここにメモを追加できます...",
       },
       accept_delete: {
-        true_description: "項目 項目 項目 削除 項目 項目 項目.",
-        true_title: "項目 項目 項目 項目",
+        true_description: "この価格モデルを削除したいと考えています。",
+        true_title: "価格モデルの削除の確認",
       },
     },
   },
@@ -7371,11 +7371,11 @@ export default {
         "資金を送金したいベンダーを選択します。選択すると、利用可能な支払いオプションが表示されます。支払い可能な支払いゲートウェイを有効にしている場合は、それらのオプションもここに表示されます。",
     },
     vendor_wallet: "販売者 ウォレット",
-    vendor_bank_account: "販売者 項目 項目",
+    vendor_bank_account: "ベンダーの銀行口座",
     with_balance_tooltip:
       "ここでこのセクションの情報と設定を管理できます。",
-    with_balance: "項目 項目",
-    without_balance: "項目 項目 - 項目 項目",
+    with_balance: "バランスあり",
+    without_balance: "バランスなし - 高速モード",
     bank_transfer: {
       title: "銀行振込",
       subtitle:
@@ -7405,23 +7405,23 @@ export default {
       },
       note: {
         placeholder:
-          "項目 項目 追加 項目 メモ 項目... 項目 メモ 項目 項目 項目 項目 項目 販売者.",
+          "ここにメモを追加できます... このメモはベンダーには表示されません。",
       },
       accept_refund: {
-        true_description: "項目 項目 項目 項目 項目 支払い.",
+        true_description: "この支払いをキャンセルしたいです。",
         true_title: "項目 & 返金 支払い",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "項目 項目",
+        title: "ファンドが取り消されました",
         message:
           "ベンダーの資金の取り消しは正常に完了し、資金が銀行からウォレットに転送され、ウォレットの残高に追加されました。",
       },
       payout_success: {
         title: "項目",
         message:
-          "項目 販売者 項目 項目 項目 項目 項目 項目 項目.",
+          "ベンダーの支払いは正常に処理され、追加されました。",
       },
     },
   },
@@ -7431,12 +7431,12 @@ export default {
    */
   quota_importer: {
     quota: "項目",
-    max_batch_msg: "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
-    max_daily_limit_msg: "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
-    extra_daily_limit_msg: "項目 項目 項目 項目 項目 項目 制限.",
-    add_items_today_msg: "項目 項目 項目.",
-    file_statistic_msg: "項目 項目 項目 項目.",
-    used_quota: "項目 項目",
+    max_batch_msg: "1 回のバッチでインポートできるアイテムの最大数。",
+    max_daily_limit_msg: "1 日にインポートできるアイテムの最大数。",
+    extra_daily_limit_msg: "1 日の制限を超えた追加アイテムが許可されます。",
+    add_items_today_msg: "本日追加されたアイテム。",
+    file_statistic_msg: "このファイルの統計。",
+    used_quota: "使用済みクォータ",
   },
 
   /** {@see BPageShopMarketingCampaign**/
@@ -7490,7 +7490,7 @@ export default {
     light_header: "軽いヘッダー",
     light_footer: "ライトフッター",
     light_filter: "カテゴリフィルターテーマ",
-    checkout_color: "項目 項目",
+    checkout_color: "チェックアウトの色",
 
     typography: "タイポグラフィ",
     header: "ヘッダ",
@@ -7501,36 +7501,36 @@ export default {
 
     wrap_product_title: {
       title: "項目 タイトル",
-      subtitle: "項目 項目 項目 項目 タイトル 項目 項目 項目.",
+      subtitle: "タイトルの高さは動的に調整されます。",
     },
 
     animation: {
       title: "項目",
       static: {
-        false_title: "項目 項目",
+        false_title: "アニメーション付き",
         false_description:
-          "項目 項目 商品 項目 項目 項目 項目 項目 表示 項目 項目.",
+          "カテゴリと製品には、機能を示すインタラクティブなアニメーションが付いています。",
         true_title: "静的",
-        true_description: "項目 項目 商品 項目 項目 項目.",
+        true_description: "カテゴリと商品にはアニメーションがありません。",
       },
     },
 
     quick_actions: {
-      title: "項目 項目",
+      title: "クイックアクション",
       hover: {
         false_description:
-          "項目 項目 項目 項目 項目 項目 項目 項目 項目 商品 項目.",
+          "製品カードに対する追加のアクションのない、シンプルで最小限のモード。",
         true_description:
-          "表示 項目 項目 & 追加 項目 項目 項目 項目 商品 項目 項目.",
-        true_title: "表示 項目 項目 項目",
+          "製品カードのホバリングに [クイック購入] と [比較] ボタンを表示します。",
+        true_title: "ホバー時にアクションを表示",
       },
     },
     filter_products: {
       title: "フィルター 商品",
       only_available: {
-        false_description: "表示 項目 商品 項目 項目 ショップ 項目 項目 項目.",
+        false_description: "ショップリスト内のすべての商品をデフォルトとして表示します。",
         true_description:
-          "表示 項目 利用可能 商品 項目 項目 ショップ 項目 項目 項目.",
+          "デフォルトでは、ショップリストに入手可能な商品のみを表示します。",
         true_title: "利用可能 商品",
         false_title: "項目 商品",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "フィルター 項目",
       hide_empty_folders: {
-        false_description: "表示 項目 項目 項目 項目 ショップ 項目.",
-        false_title: "表示 項目 項目",
-        true_title: "非表示 項目 項目",
+        false_description: "ショップリストの全カテゴリーを表示します。",
+        false_title: "すべてのカテゴリを表示",
+        true_title: "空のカテゴリを非表示にする",
         true_description:
-          "表示 項目 項目 項目 商品 項目 項目 ショップ 項目.",
+          "ショップリスト内の商品が含まれるカテゴリーのみを表示します。",
       },
     },
 
@@ -7550,25 +7550,25 @@ export default {
       title: "商品 項目",
       subtitle:
         "ここでこのセクションの情報と設定を管理できます。",
-      buy_button_color: "項目 項目 項目",
+      buy_button_color: "購入ボタンの色",
       smart_price: {
-        title: "項目 項目 価格",
+        title: "スマートな単価",
         true_description:
           "重量、体積、パックバリエーションのプロパティを考慮して単価を計算します。元。 2L サイズで価格が $5 のバリエーションがある場合、顧客には商品ページに $2.5/L が表示されます。",
       },
       reverse_currency: {
-        title: "通貨 項目 項目",
+        title: "通貨記号の位置",
         false_title: "ノーマルモード",
-        true_title: "項目 項目",
+        true_title: "リバースモード",
         false_description:
-          "項目 通貨 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目. 項目: $95, €30",
+          "通貨記号は数値の先頭に配置されます。例: 95 ドル、30 ユーロ",
         true_description:
-          "項目 通貨 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目. 項目: 95$, 30€",
+          "通貨記号は数値の末尾に付けられます。例: 95$、30ユーロ",
       },
       variants_selector: {
-        title: "項目 項目",
+        title: "バリアントセレクター",
         subtitle:
-          "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 商品 項目.",
+          "商品ページにバリエーションを表示するさまざまな方法を選択できます。",
       },
 
       tabs_order: {
@@ -7583,18 +7583,18 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "項目 & 項目",
+      title: "オンボーディングとログイン",
       subtitle:
-        "項目 項目 販売者 項目 項目 項目 項目 項目 項目 項目 項目, 項目, 項目 メッセージ.",
+        "カスタムビデオ、画像、メッセージを使用してベンダーのオンボーディングとログインエクスペリエンスをパーソナライズします。",
     },
     inputs: {
       page_vendor_login: {
-        label: "販売者 項目 項目",
+        label: "ベンダーのログインページ",
         message:
           "ベンダー ログイン用のカスタム ランディング ページを選択します。ビデオ、画像、テキストを含めてユニークなデザインを実現します。このページは、ログインしていないベンダーに表示されます。",
       },
       page_vendor_registered: {
-        label: "販売者 項目 項目",
+        label: "ベンダー登録ページ",
         message:
           "必要な情報を選択または入力してください。",
       },
@@ -7604,7 +7604,7 @@ export default {
   /** @see BShopOptionsVariants **/
   b_shop_options_variants: {
     custom_variants: {
-      title: "項目 項目",
+      title: "カスタムバリアント",
       subtitle:
         "物理的な製品にはバリエーションが存在する場合があります。バリアントのデフォルト名を変更できます。私たちの提案は、これらの項目をデフォルトの空のままにし、Selldone が顧客に合わせて項目を顧客の言語に自動的に翻訳することです。最大長は 24 です。",
     },
@@ -7612,17 +7612,17 @@ export default {
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "項目 項目 項目",
-      subtitle: "項目 項目 項目 項目 項目 Google 項目.",
+      title: "メイン Web サイトのフォント",
+      subtitle: "Google Fontsからお好みのフォントを選択してください。",
     },
     inputs: {
       font_family: {
-        label: "項目 項目",
-        message: "項目 項目 項目 値.",
+        label: "フォントファミリー",
+        message: "フォントファミリーの値を入力します。",
       },
       font_res: {
-        label: "項目 項目",
-        message: "項目 項目 項目 項目.",
+        label: "フォントリソース",
+        message: "フォントリソースを指定します。",
       },
     },
   },
@@ -7630,7 +7630,7 @@ export default {
   /** @see BShopThemeHeader **/
   b_shop_theme_header: {
     logo: {
-      title: "項目 項目",
+      title: "ヘッダーロゴ",
       subtitle:
         "デフォルトでは、ショップのロゴがヘッダーに表示されますが、代わりにカスタムのロゴをアップロードできます。ロゴのアスペクト比が正方形でない場合は、最適な表示のために高さと幅を手動で調整する必要がある場合があります。",
     },
@@ -7642,17 +7642,17 @@ export default {
 
     inputs: {
       logo: {
-        label: "項目 項目",
+        label: "ブランドロゴ",
       },
       height: {
-        label: "項目 項目",
+        label: "ロゴの高さ",
       },
       width: {
-        label: "項目 項目",
+        label: "ロゴの幅",
       },
       title: {
         label: "項目 タイトル",
-        set_empty: "項目 項目 タイトル",
+        set_empty: "空のタイトルを設定する",
       },
     },
   },
@@ -7660,24 +7660,24 @@ export default {
   /** @see ShopThemeVariantsMode**/
   shop_theme_variants_mode: {
     smart: {
-      title: "項目 項目",
+      title: "スマートモード",
       description:
-        "項目 項目 項目 項目 項目 項目, 項目 項目 項目 項目.",
+        "選択可能な個別オプションのコンパクトなバリエーションで、ほとんどのケースに適しています。",
     },
     select: {
       title: "選択 項目",
       description:
-        "項目 項目 項目 項目 項目 項目, 項目 項目 項目 項目 項目 項目 項目.",
+        "すべてのバリアントをドロップダウンに表示します。多数のバリアントに最適です。",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "編集 項目 項目",
-    add_title: "追加 項目 項目",
+    edit_title: "プロパティセットの編集",
+    add_title: "プロパティセットの追加",
     config: {
       subtitle:
-        "項目 タイトル 項目 説明 項目 項目 項目 項目. 項目 項目 項目 項目 項目 項目 項目.",
+        "プロパティ セットのタイトルと説明を設定します。スタッフのみに表示されます。",
     },
     variants: {
       title: "バリアント",
@@ -7687,16 +7687,16 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "項目 項目 タイトル 項目 項目 項目...",
+        placeholder: "プロパティ セットのタイトルを入力してください...",
       },
       description: {
-        placeholder: "項目 項目 項目 説明... (項目)",
+        placeholder: "短い説明を入力してください... (オプション)",
       },
       custom_variants: {
-        true_title: "項目 項目",
-        false_title: "項目 項目",
-        true_description: "項目 項目 商品 項目.",
-        false_description: "項目 項目 項目 項目.",
+        true_title: "カスタムバリアント",
+        false_title: "デフォルトのバリアント",
+        true_description: "製品バリエーションをカスタマイズします。",
+        false_description: "デフォルトのグローバル バリアントを使用します。",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "項目 値 項目... (項目)",
+        placeholder: "設定値 set... (オプション)",
         messages:
-          "項目 項目 項目 項目 項目 項目 値 項目 項目 注文.",
+          "値の提案を提供し、順序をカスタマイズできます。",
       },
     },
   },
@@ -7939,8 +7939,8 @@ export default {
     courier_action: "配達確認",
     courier_action_subtitle: "宅配業者が荷物を引き取りに来ます。",
 
-    pickup_ready_action: "項目 項目",
-    pickup_ready_action_subtitle: "項目 注文 項目 項目 項目 顧客 項目.",
+    pickup_ready_action: "受け取り準備完了",
+    pickup_ready_action_subtitle: "注文は顧客が受け取る準備ができています。",
 
     service_action: "実行確認",
 
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "オプション3：即納。",
 
     verify_delivery_input: {
-      true_title: "項目 項目 項目",
+      true_title: "配送完了の確認",
       true_description:
         "注文品が顧客に配達されたことを確認しました。",
     },
@@ -8735,7 +8735,7 @@ export default {
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
-    title: "Instagram 項目 項目",
+    title: "Instagram販売チャネル",
     subtitle:
       "画像やビデオを備えた製品専用のカテゴリを作成し、ソーシャル メディアで共有します。 Instagram や TikTok に似ていますが、完全に制御できるため、商品を直接販売できます。",
   },
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "項目 注文 レポート",
-      desc: "項目 項目 項目 項目 項目 項目 詳細 項目 注文 項目 項目 項目.",
+      desc: "その日の注文の詳細が記載された電子メールを毎日受け取ります。",
     },
   },
 
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "項目 フォーム",
       subtitle:
-        "項目 項目 項目 フォーム 項目 項目 項目 項目 情報 項目 項目 項目 項目 顧客.",
+        "チェックアウト フォームのフィールドをカスタマイズして、顧客から必要な情報を収集します。",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "項目",
       title: "項目",
       description:
-        "項目 商品 項目 項目 項目 項目 項目 ストア, 項目 項目 項目 項目 リンク.",
+        "この商品はストアには掲載されていませんが、直接リンクからアクセスできます。",
     },
   },
 
@@ -10073,21 +10073,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "追加 項目 項目 項目",
+    title: "バリアントを一括追加",
     variants: {
-      title: "項目 項目",
+      title: "バリアントオプション",
       subtitle:
         "ここでこのセクションの情報と設定を管理できます。",
     },
     values: {
       title: "項目 値",
-      subtitle: "項目 項目 項目 値 項目 項目 項目 項目 項目.",
+      subtitle: "ここに各バリアント オプションの可能な値を入力します。",
       prevent_duplicates_tips:
-        "<b>メモ:</b> 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "<b>注:</b> 重複を防ぐために、既存のバリアントが自動的にチェックされます。",
     },
     inventory: {
-      title: "項目 項目",
-      subtitle: "項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+      title: "初期在庫",
+      subtitle: "新しいバリアントの開始在庫数を設定します。",
     },
     add_variants_action: "作成 項目",
   },
@@ -10664,7 +10664,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "項目 項目 項目 項目.",
+    no_asset_uploaded: "アセットはまだアップロードされていません。",
   },
 
   /**
@@ -10672,14 +10672,14 @@ export default {
    */
   l_menu_top_home: {
     hot_keys: "項目",
-    click_to_view_all: "項目 項目 項目 項目...",
+    click_to_view_all: "クリックしてすべて表示...",
     clone_tooltip: {
-      title: "項目 項目",
+      title: "スタイルの複製",
       subtitle:
         "ここでこのセクションの情報と設定を管理できます。",
       step_1:
         "ここでこのセクションの情報と設定を管理できます。",
-      step_2: "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+      step_2: "スタイルをコピーする要素をクリックします。",
       step_3:
         "ここでこのセクションの情報と設定を管理できます。",
     },
@@ -10689,43 +10689,43 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "この機能を有効にすると、セクションをドラッグして簡単に再配置および整理できます。",
     },
     edit_mode_tooltip: {
-      title: "編集 / 項目 項目",
+      title: "編集/プレビューモード",
       edit_mode_title: "編集 項目",
-      edit_mode_msg: "項目 項目 項目 項目 項目 項目.",
-      view_mode_title: "項目 項目",
+      edit_mode_msg: "すべての編集ツールが表示されます。",
+      view_mode_title: "プレビューモード",
       view_mode_msg:
-        "項目 項目 項目 項目 ユーザー 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "余分な編集ツールや空のテキスト領域を非表示にして、ユーザーが見るのと同じようにページを表示します。",
     },
     repository_tooltip: {
-      title: "項目 項目",
+      title: "事前構築されたセクション",
       subtitle:
         "事前に設計されたセクションの表示を切り替えます。これらのセクションは、左側のメニューで利用可能な標準セクションを使用して作成されており、このページ ビルダーの柔軟性を示しています。",
     },
     live_view: {
-      title: "項目 項目",
-      subtitle: "項目 更新 項目 項目 項目 項目 編集 項目 項目.",
+      title: "ライブプレビュー",
+      subtitle: "ページを編集しながらリアルタイムで更新を確認します。",
     },
     hotkeys_dialog: {
-      title: "項目 項目",
+      title: "キーボードショートカット",
       augment_tips:
         "動的コンテンツをページにロードし、それを <b>augment</b> 値に置き換えることができます。オーグメントは、<b>商品</b>、<b>カテゴリ</b>、<b>アイテムを含める</b>などのカスタム動的ページに使用されます。画像を動的に読み込むように設定するには、[<b>}フィーダー</b>] をクリックし、その画像の [<b>}ダイナミック ソース</b>] を選択します。",
     },
     hotkeys: {
-      ctrl_b: "項目 項目 項目/項目 項目 項目 項目 | <b>項目 項目 項目</b>",
-      ctrl_i: "項目 項目 項目/項目 項目 項目 項目 | <i>項目 項目 項目</i>",
+      ctrl_b: "選択したテキストの太字のオン/オフを切り替えます | <b>大胆にしてください</b>",
+      ctrl_i: "選択したテキストの斜体のオン/オフを切り替えます | <i>斜体にしてください</i>",
       ctrl_l:
-        "項目 項目 項目/項目 項目 項目 項目 | <s>項目 項目 項目</s>",
-      ctrl_u: "項目 項目 項目/項目 項目 項目 項目 | <u>項目 項目</u>",
+        "選択したテキストの取り消し線のオン/オフを切り替えます | <s>私を打ち破ってください</s>",
+      ctrl_u: "選択したテキストの下線のオン/オフを切り替えます | <u>下線を引いてください</u>",
       ctrl_1:
-        "項目 項目 項目 項目 項目 項目 | <small>項目 項目 項目</small>",
-      ctrl_2: "項目 項目 項目 項目 項目 項目 | <big>項目 項目 項目</big>",
-      ctrl_r: "削除 項目 項目 項目 項目 項目 | 項目 項目 項目",
-      ctrl_s: "保存 項目 項目",
-      tab: "項目 項目 項目 項目",
-      ctrl_e: "項目 項目 項目 項目 項目 項目",
+        "選択したテキストのフォント サイズを小さくする | <small>私を小さくしてください</small>",
+      ctrl_2: "選択したテキストのフォント サイズを大きくする | <big>私を大きくしてください</big>",
+      ctrl_r: "選択したテキストからすべての書式設定を削除 |すべてのスタイルをクリーンにする",
+      ctrl_s: "ページを保存する",
+      tab: "スケールモードを切り替える",
+      ctrl_e: "クローン スタイル モードを有効または無効にする",
     },
   },
 
@@ -10733,10 +10733,10 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "項目 & 項目",
-    subtitle: "項目 項目",
+    title: "ドラッグ＆ドロップ",
+    subtitle: "事前に構築されたセクション",
     add_dialog: {
-      title: "追加 項目 項目",
+      title: "カスタムセクションの追加",
       configuration: {
         title: "設定",
         subtitle:
@@ -10744,24 +10744,24 @@ export default {
       },
       image: {
         title: "画像",
-        subtitle: "項目 項目 項目 項目 項目 項目.",
+        subtitle: "公開画像が一覧で表示されます。",
       },
       code: {
         title: "コード",
         subtitle:
-          "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+          "ページビルダーの左側のセクションから要素コードをコピーして貼り付けることができます。",
       },
       inputs: {
         title: {
           label: "タイトル",
-          message: "項目 項目 項目 項目 タイトル.",
+          message: "これが公開タイトルです。",
         },
         tags: {
           label: "タグ",
-          message: "項目 項目 項目 項目 項目 項目.",
+          message: "要素の検索と分類に使用されます。",
         },
         section: {
-          message: "項目 項目 項目 項目 項目 項目 項目.",
+          message: "ページビルダーからセクションをコピーします。",
         },
       },
     },
@@ -10773,46 +10773,46 @@ export default {
   marketplace_vendors: {
     title: "販売者 項目",
     subtitle:
-      "追加 販売者 項目, 項目 項目 項目 項目 商品 項目 項目 商品 ダッシュボード > 販売者.",
+      "ここでベンダーを追加し、[製品ダッシュボード] > [ベンダー] で製品に割り当てます。",
     add_new_vendor_action: "追加 項目 販売者",
     status_tooltip: {
       title: "販売者 ステータス",
-      ACCEPTED: "項目 販売者 項目 項目 項目 項目 項目.",
-      REJECTED: "項目 販売者 項目 項目 項目 項目.",
-      PENDING: "項目 項目 項目 項目 項目 項目 項目 項目 販売者.",
+      ACCEPTED: "ベンダーは自社のパネルにアクセスできます。",
+      REJECTED: "ベンダーの要求は拒否されました。",
+      PENDING: "リクエストはベンダーからの決定を待っています。",
     },
-    number_of_products: "項目 項目 商品",
+    number_of_products: "製品数",
     invited: "項目",
-    no_pricing: "項目 項目",
+    no_pricing: "価格設定なし",
     no_pricing_tooltip: {
-      title: "項目 項目 項目",
-      subtitle: "項目 項目 項目 項目 項目 項目 項目 項目 販売者.",
+      title: "デフォルトの料金プラン",
+      subtitle: "ベンダーのデフォルトの価格モデルを設定してください。",
     },
     updated_products_tooltip: {
-      title: "商品 項目 項目 項目 項目 24 項目",
+      title: "過去 24 時間以内に更新された製品",
     },
     added_products_tooltip: {
-      title: "商品 項目 項目 項目 項目 24 項目",
+      title: "過去 24 時間に追加された製品",
     },
     access_tooltip: {
-      title: "項目 項目",
+      title: "パネルアクセス",
       subtitle:
-        "項目 販売者 項目 項目 項目 項目 項目. 項目 項目 編集 項目 項目 販売者 > 項目 項目.",
+        "ベンダーは自社のパネルにアクセスできます。これは、[ベンダー] > [アクセス] タブで編集できます。",
     },
     reject_by_user_tooltip: {
-      title: "項目 項目 ユーザー",
+      title: "ユーザーによって拒否されました",
       subtitle:
-        "項目 ユーザー 項目 項目 項目 項目 項目 項目 販売者 項目 項目 項目 販売者.",
+        "ユーザーは、ベンダーになってこのベンダーにアクセスする要求を拒否しました。",
     },
     download_all_vendors: "ダウンロード 項目 販売者",
-    bulk_import: "項目 項目 (項目)",
+    bulk_import: "一括インポート（Excel）",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "ライセンス 項目 項目!",
+    title: "ライセンスのアップグレードが必要です!",
     subtitle:
       "ここでこのセクションの情報と設定を管理できます。",
   },
@@ -10821,27 +10821,27 @@ export default {
    * {@see BOrderChatBox}
    */
   b_order_chat_box: {
-    title: "項目 項目",
+    title: "クイックアクション",
     subtitle:
       "ワンクリックでステータス更新メールを購入者に送信できます。さらに、ここで共通のメッセージを定義して再利用できるため、毎回メッセージを書き直す必要がありません。",
     send_update_email_action: "項目 更新 Email",
     add_template_action: "追加 メッセージ 項目",
 
     notifications: {
-      add_chat_success_message: "メッセージ 項目 項目 項目 項目.",
+      add_chat_success_message: "メッセージが正常に追加されました。",
     },
 
     send_update_email: {
       title: "注文 更新 Email",
       need_set_service_alert: {
         message:
-          "項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
-        action: "項目 項目 設定",
+          "メールの送信を許可するようメールプロバイダーを設定してください。",
+        action: "設定に移動",
       },
       send_action: "項目 更新 Email",
 
       notifications: {
-        send_success_message: "Email 項目 項目 項目 項目.",
+        send_success_message: "メールは正常に送信されました。",
       },
     },
     add_template: {
@@ -10854,19 +10854,19 @@ export default {
       add_action: "追加 項目",
 
       notifications: {
-        save_success_message: "項目 項目 項目 項目 項目.",
+        save_success_message: "テンプレートは正常に保存されました。",
       },
 
       inputs: {
         title: {
           label: "項目 タイトル",
-          placeholder: "項目 項目 項目 タイトル...",
+          placeholder: "短いタイトルを書いてください...",
         },
         body: {
           label: "項目 メッセージ",
-          placeholder: "項目 項目 メッセージ 項目...",
+          placeholder: "ここにメッセージを書いてください...",
           messages:
-            "項目 項目 項目 項目 値 項目 {order_id} 項目 {buyer_name}.",
+            "{order_id} および {buyer_name} によって動的な値を設定できます。",
         },
       },
     },
@@ -10877,15 +10877,15 @@ export default {
    */
   b_order_share: {
     title: "注文 リンク",
-    subtitle: "項目 項目 項目 項目 注文 リンク 項目 項目 顧客.",
+    subtitle: "注文リンクを顧客と共有できます。",
     guest_checkout_message:
       "ゲストの買い物客は同じブラウザで注文を自動的に表示できます。ただし、顧客がゲストであり、注文の詳細を共有する必要がある場合は、その顧客用に安全なリンクを作成できます。",
     authentication: "項目",
     guest: "項目",
-    click_to_create: "項目 項目 作成...",
-    valid_for_30_days: "項目 項目 30 項目",
+    click_to_create: "クリックして作成...",
+    valid_for_30_days: "30日間有効",
     notifications: {
-      secure_link_created: "項目 リンク 項目 項目 項目 項目.",
+      secure_link_created: "安全なリンクが正常に作成されました。",
     },
   },
 
@@ -10893,8 +10893,8 @@ export default {
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
-    title: "項目 項目",
-    add_source_action: "追加 項目 項目",
+    title: "レビュー情報源",
+    add_source_action: "レビューソースを追加",
     subtitle:
       "外部プラットフォームに簡単に接続して、Facebook、Google などのソースからビジネスに関するレビューを収集して分析します。顧客エクスペリエンスを向上させるために、顧客とそのレビューを自動的に照合します。これらのレビューをランディング ページや商品ページで紹介することもできます。",
   },
@@ -10903,7 +10903,7 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "追加 項目 項目 項目",
+    add_caption: "新しいプロパティ セットを追加する",
     title: "プロパティセット",
     subtitle:
       "ここでプロパティ セットを作成および管理できます。プロパティ セットは、製品とサービスのプロパティを定義するために使用されます。これらのプロパティ セットは、[製品ダッシュボード] > [編集] で製品に割り当てることができます。",
@@ -10914,15 +10914,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "項目 項目 - 項目 項目",
+      title: "プロパティ セット - カスタム バリアント",
       subtitle:
-        "項目 項目 項目 項目 項目 項目 項目 項目 商品, 項目 項目 項目 項目.",
+        "この製品のバリアント名をカスタマイズして、デフォルトの名前を置き換えることができます。",
     },
 
     subtitle:
       "ここで、バリアント名、アイコン、およびそれらの順序をカスタマイズできます。デフォルトの 6 つを超える独自のバリエーションを持つ商品の場合は、各商品に合わせたカスタム バリエーションを設定できます。 [ロジスティック] > [プロパティ セット] タブでプロパティ セットを定義し、必要に応じて任意の数の製品に割り当てるだけです。",
-    select_property_set: "選択 項目 項目",
-    add_property_set: "追加 項目 項目",
+    select_property_set: "プロパティ セットの選択",
+    add_property_set: "プロパティセットの追加",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10931,20 +10931,20 @@ export default {
     add_action: "追加 項目",
     subtitle:
       "再利用可能な箱サイズを作成して、ラベルの購入を迅速化し、正確な配送料を確保します。注文を履行するときに、保存されたボックスを選択すると、その寸法が自動入力されます。",
-    empty: "項目 項目 項目. 項目 “追加 項目”.",
+    empty: "まだ箱はありません。 「ボックスを追加」をクリックします。",
     edit: "編集 項目",
-    new: "項目 項目",
-    default_weight: "項目 項目",
-    updated: "項目 項目.",
-    created: "項目 項目.",
-    deleted: "項目 項目.",
+    new: "新しいボックス",
+    default_weight: "デフォルトの重み",
+    updated: "ボックスが更新されました。",
+    created: "ボックスが作成されました。",
+    deleted: "ボックスが削除されました。",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "選択 項目 項目",
-    define_package: "項目 項目 項目",
-    define_package_hint: "作成 項目 編集 項目 項目 項目 項目",
+    select_box: "パッケージを選択してください",
+    define_package: "パッケージを定義する",
+    define_package_hint: "事前定義されたパッケージサイズを作成または編集します",
   },
 
 
@@ -10983,11 +10983,11 @@ export default {
     items: {
       title: "アイテム",
       sub_title:
-        "作成, 編集, 項目 項目 項目 項目. 項目 ステータス, 項目, 項目 項目, 項目 項目.",
+        "出品アイテムを作成、編集、管理します。ステータス、価格、連絡先情報、メディアを管理します。",
 
-      empty_title: "項目 項目 項目",
+      empty_title: "まだアイテムがありません",
       empty_subtitle:
-        "作成 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "最初のリスト項目を作成して、ディレクトリの構築を開始します。",
 
       add_title: "追加 項目",
       edit_title: "編集 項目",
@@ -10998,14 +10998,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "リンク JSON",
-      opening_hours_json: "項目 項目 JSON",
+      opening_hours_json: "営業時間 JSON",
 
       delete_title: "削除 項目",
-      delete_message: "項目 項目 項目 項目 項目 項目 削除 項目 項目?",
+      delete_message: "この項目を削除してもよろしいですか?",
       delete_success: "アイテムが正常に削除されました。",
-      restore_success: "項目 項目 項目.",
+      restore_success: "アイテムは正常に復元されました。",
 
-      opening_hours:"項目 項目",
+      opening_hours:"営業時間",
       form_fields:"フォーム 項目",
 
       company: "会社",
@@ -11016,43 +11016,43 @@ export default {
     categories: {
       title: "カテゴリ",
       sub_title:
-        "項目 項目 項目 項目 項目 項目 項目. 項目 項目 項目 項目 項目.",
+        "カテゴリとサブカテゴリを使用してディレクトリを整理します。これにより、ナビゲーションとフィルタリングが向上します。",
 
-      empty_title: "項目 項目 項目",
+      empty_title: "カテゴリはまだありません",
       empty_subtitle:
-        "作成 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "カテゴリを作成してリストを構造化し、閲覧を改善します。",
 
       add_title: "カテゴリを追加",
       edit_title: "カテゴリを編集",
 
-      parent_filter: "フィルター 項目 項目",
+      parent_filter: "親によるフィルター",
       parent: "親カテゴリ",
 
       price_format: "価格 項目",
       icon: "アイコン",
-      design_id: "項目 項目",
+      design_id: "デザインID",
 
       delete_title: "カテゴリを削除",
-      delete_message: "項目 項目 項目 項目 項目 項目 削除 項目 カテゴリ?",
-      delete_success: "カテゴリ 項目 項目.",
+      delete_message: "このカテゴリを削除してもよろしいですか?",
+      delete_success: "カテゴリが正常に削除されました。",
       form_schema: "カテゴリ フォーム 項目",
     },
 
     options: {
       submission_title: "項目",
-      submission_enabled: "項目 項目",
+      submission_enabled: "送信を有効にする",
 
       moderation_title: "項目",
-      moderation_mode: "項目 項目",
-      require_first_approved_before_more: "項目 項目 項目 項目 項目",
+      moderation_mode: "モデレーションモード",
+      require_first_approved_before_more: "追加の前に最初の承認を必要とする",
 
       limits_title: "制限",
-      max_pending_per_user: "項目 項目 項目 ユーザー",
-      max_items_per_user: "項目 項目 項目 ユーザー",
+      max_pending_per_user: "ユーザーあたりの保留最大数",
+      max_items_per_user: "ユーザーあたりの最大アイテム数",
       limits_hint: "制限 項目",
 
       templates_title: "テンプレート",
-      card_template: "項目 項目",
+      card_template: "カードテンプレート",
       details_template: "詳細 項目",
 
       form_schema_title: "フォーム 項目",
@@ -11062,38 +11062,38 @@ export default {
     supervision: {
       title: "項目",
       sub_title:
-        "項目 項目 項目 項目 項目 項目 項目 項目: 項目, 項目, 項目, 項目, 項目 項目 項目 項目.",
+        "送信されたアイテムを確認し、次に行うこと (承認、公開、拒否、アーカイブ、保留状態へのリセット) を決定します。",
 
-      empty_title: "項目 項目 項目 項目",
+      empty_title: "レビューする項目はありません",
       empty_subtitle:
-        "項目 ユーザー 項目 項目 項目, 項目 項目 項目 項目 項目 項目.",
+        "ユーザーが新しいアイテムを送信すると、モデレートのためにここに表示されます。",
 
-      review_title: "項目 項目",
-      approve_publish: "項目 & 項目",
+      review_title: "レビュー項目",
+      approve_publish: "承認して公開する",
 
       submitted_at: "項目",
-      quick_actions: "項目 項目",
+      quick_actions: "クイックアクション",
 
-      open_review: "項目 項目",
-      reset_to_pending: "項目 項目 項目",
+      open_review: "オープンレビュー",
+      reset_to_pending: "保留状態にリセット",
       items_title: "アイテム",
 
     },
 
     moderation: {
-      approve_success: "項目 項目 項目.",
-      publish_success: "項目 項目 項目.",
-      unpublish_success: "項目 項目 項目.",
-      archive_success: "項目 項目 項目.",
-      reject_success: "項目 項目 項目.",
-      penalty_success: "項目 項目 項目.",
+      approve_success: "アイテムは正常に承認されました。",
+      publish_success: "アイテムは正常に公開されました。",
+      unpublish_success: "アイテムは正常に非公開になりました。",
+      archive_success: "アイテムは正常にアーカイブされました。",
+      reject_success: "アイテムは正常に拒否されました。",
+      penalty_success: "ペナルティが正常に適用されました。",
 
-      reject_title: "項目 項目",
-      reject_reason: "項目 項目",
+      reject_title: "アイテムを拒否する",
+      reject_reason: "拒否理由",
 
       penalty: "項目",
       penalty_title: "項目",
-      penalty_points: "項目 項目",
+      penalty_points: "ペナルティポイント",
       penalty_note: "項目 メモ"
     },
 
@@ -11101,7 +11101,7 @@ export default {
       upload_images: "アップロード 項目",
       url_type: "タイプ",
       url: "URL",
-      is_main: "項目 項目 項目"
+      is_main: "メインに設定"
     },
 
 
@@ -11113,27 +11113,27 @@ export default {
     designs: {
       title: "項目",
       sub_title:
-        "作成 項目 項目 項目 (項目 + 詳細 項目) 項目 項目 項目 項目 項目. 項目 項目 項目 項目 項目.",
+        "複数のデザイン セット (カード + 詳細テンプレート) を作成し、カテゴリに割り当てます。カテゴリにはさまざまなデザインを使用できます。",
 
-      empty_title: "項目 項目 項目",
+      empty_title: "まだデザインはありません",
       empty_subtitle:
-        "追加 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "最初のデザイン セットを追加して、カテゴリの外観のカスタマイズを開始します。",
 
       add_title: "追加 項目",
       edit_title: "編集 項目",
 
-      card_template: "項目 項目",
+      card_template: "カードテンプレート",
       details_template: "詳細 項目",
 
       notifications: {
-        add_success: "項目 項目 項目.",
-        edit_success: "項目 項目 項目.",
-        delete_success: "項目 項目 項目.",
+        add_success: "デザインが正常に作成されました。",
+        edit_success: "デザインが正常に更新されました。",
+        delete_success: "デザインは正常に削除されました。",
       },
 
       delete_title: "削除 項目",
       delete_message:
-        "削除 項目 項目? 項目 項目 項目 項目 項目 項目 design_id.",
+        "このデザインを削除しますか?これを使用しているカテゴリは、design_id を自動的に失います。",
     },
 
 
@@ -11143,73 +11143,73 @@ export default {
     badges: {
       title: "バッジ",
       sub_title:
-        "作成 項目 項目 項目 項目. 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "店頭バッジを作成および管理します。バッジをリスト項目に割り当てて、特別な属性を強調することができます。",
 
-      empty_title: "項目 項目 項目",
+      empty_title: "まだバッジはありません",
       empty_subtitle:
-        "追加 項目 項目 項目 項目 項目 項目 項目 項目.",
+        "最初のバッジを追加して、リスト項目の強調表示を開始します。",
 
       add_title: "追加 項目",
       edit_title: "編集 項目",
 
       notifications: {
-        add_success: "項目 項目 項目.",
-        edit_success: "項目 項目 項目.",
-        delete_success: "項目 項目 項目.",
+        add_success: "バッジが正常に作成されました。",
+        edit_success: "バッジが正常に更新されました。",
+        delete_success: "バッジは正常に削除されました。",
       },
 
       delete_title: "削除 項目",
-      delete_message: "項目 項目 項目 項目 項目 項目 削除 項目 項目?",
+      delete_message: "このバッジを削除してもよろしいですか?",
     },
 
     companies: {
       title: "企業",
       sub_title:
-        "作成 項目 項目 項目. 項目 項目 項目 項目 項目 項目 項目 項目 項目 会社.",
+        "会社を作成および管理します。必要に応じて、各リスト項目を 1 つの会社にリンクできます。",
 
-      empty_title: "項目 項目 項目",
+      empty_title: "まだ企業はありません",
       empty_subtitle:
-        "追加 項目 項目 会社 項目 リンク 項目 項目 項目 項目.",
+        "最初の会社を追加して、商品リストにリンクします。",
 
       add_title: "追加 会社",
       edit_title: "会社を編集する",
 
       notifications: {
-        add_success: "会社 項目 項目.",
-        edit_success: "会社 項目 項目.",
-        delete_success: "会社 項目 項目.",
+        add_success: "会社が正常に作成されました。",
+        edit_success: "会社は正常に更新されました。",
+        delete_success: "会社は正常に削除されました。",
       },
 
       delete_title: "削除 会社",
       delete_message:
-        "削除 項目 会社? 項目 項目 項目 項目 項目 項目 項目 会社 リンク.",
+        "この会社を削除しますか?これを使用しているアイテムは、会社リンクを自動的に失います。",
     },
 
 
 
     messages: {
       title: "メッセージ",
-      sub_title: "項目 メッセージ 項目 項目 ユーザー 項目 項目 プロフィール.",
+      sub_title: "リストプロファイルからユーザーが送信したメッセージを管理します。",
       empty_title: "項目 メッセージ",
-      empty_subtitle: "メッセージ 項目 項目 ユーザー 項目 項目 項目.",
+      empty_subtitle: "ユーザーから送信されたメッセージがここに表示されます。",
 
       sender: "項目",
       item: "アイテム",
       has_reply: "項目",
-      has_reply_yes: "項目 項目",
-      has_reply_no: "項目 項目",
+      has_reply_yes: "返信あり",
+      has_reply_no: "返事がありません",
 
       dialog_title: "メッセージ",
-      owner_reply: "項目 項目",
+      owner_reply: "オーナーの返信",
       reply: "項目",
-      reply_hint: "項目 項目 項目 項目 項目 ユーザー. 項目 項目 項目 項目 項目 メッセージ 項目 項目/項目 項目 項目.",
+      reply_hint: "ユーザーに返信を書きます。アクションからメッセージを既読/スパムとしてマークすることもできます。",
 
-      mark_read: "項目 項目 項目",
-      mark_unread: "項目 項目 項目",
+      mark_read: "既読としてマークする",
+      mark_unread: "未読としてマークする",
       archive: "項目",
       unarchive: "項目",
-      mark_spam: "項目 項目 項目",
-      mark_not_spam: "項目 項目",
+      mark_spam: "スパムとしてマークする",
+      mark_not_spam: "スパムではありません",
 
       delete_confirm: "削除 項目 メッセージ?",
     },
@@ -11217,24 +11217,24 @@ export default {
     enable: {
       title: "項目",
       subtitle: "Selldone — ここでこのセクションの情報と設定を管理できます。",
-      true_description: "項目 項目 項目. 顧客 項目 項目 項目 項目.",
-      false_description: "項目 項目 項目. 項目 項目 項目 項目 項目 項目 項目.",
-      open_listing: "項目 項目",
-      note: "項目 項目 項目 項目 項目, 制限, フォーム, 項目 項目 項目 項目 設定.",
+      true_description: "リスト表示が有効になっています。顧客はリストページを閲覧できます。",
+      false_description: "リストは無効になっています。リストページと送信はブロックされています。",
+      open_listing: "公開リスト",
+      note: "後で、リスト設定内のモデレーション、制限、フォーム、デザインを構成できます。",
       vendor_prereq_text:
         "ここでこのセクションの情報と設定を管理できます。",
-      vendor_prereq_button: "項目 マーケットプレイス ビジネス 項目",
+      vendor_prereq_button: "マーケットプレイスのビジネスモデルを設定する",
 
       vendor_access_text:
         "ここでこのセクションの情報と設定を管理できます。",
-      vendor_access_button: "項目 項目 項目 販売者",
+      vendor_access_button: "ベンダーのリストを有効にする",
 
       more_options_text:
         "ここでこのセクションの情報と設定を管理できます。",
-      more_options_button: "項目 項目 項目 設定",
+      more_options_button: "出品設定に移動します",
 
-      updated: "項目 項目.",
-      update_failed: "項目 項目 更新 項目.",
+      updated: "リストが更新されました。",
+      update_failed: "リストを更新できませんでした。",
     },
 
 
@@ -11243,32 +11243,32 @@ export default {
       subtitle: "ここでこのセクションの情報と設定を管理できます。",
 
       location_title: "項目 検索",
-      location_subtitle: "項目 顧客 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
-      location_enabled_true: "項目 フィルター 項目 項目. 顧客 項目 検索 項目 項目.",
-      location_enabled_false: "項目 フィルター 項目 項目. 項目 項目 項目 項目 項目 項目 項目.",
+      location_subtitle: "顧客が場所を選択し、構成可能な半径内で近くの結果を検索できるようにします。",
+      location_enabled_true: "場所フィルターが有効になっています。距離別に検索できます。",
+      location_enabled_false: "場所フィルターが無効になっています。結果は距離によってフィルタリングされません。",
 
-      radius_default: "項目 項目 (項目)",
-      radius_default_hint: "項目 項目 項目 顧客 選択 項目 項目 項目 項目 項目 項目 項目 項目.",
-      radius_max: "項目 項目 (項目)",
-      radius_max_hint: "項目 項目 項目 項目 項目 項目 項目 項目 値.",
-      radius_options: "項目 項目 (項目)",
-      radius_options_hint: "項目 値 項目 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+      radius_default: "デフォルトの半径 (km)",
+      radius_default_hint: "顧客が場所を選択するが半径を選択しない場合に使用されます。",
+      radius_max: "最大半径 (km)",
+      radius_max_hint: "店頭の半径はこの値に固定されます。",
+      radius_options: "半径オプション (km)",
+      radius_options_hint: "これらの値は、ストアフロント UI のクイック オプションとして表示できます。",
 
       filters_title: "検索 フィルター",
       filters_subtitle: "アイテムのメタ フィールド (リスト/カテゴリ フォーム フィールド) から値を読み取るフィルターを追加します。自動生成を使用して、公開されたアイテムから実際のオプションを収集します。",
-      no_filters: "項目 フィルター 項目 項目.",
-      auto_generate: "項目 項目",
+      no_filters: "まだフィルターは追加されていません。",
+      auto_generate: "自動生成オプション",
 
-      filter_field: "項目 項目",
+      filter_field: "フィールドキー",
       filter_label: "ラベル",
       filter_type: "タイプ",
       filter_options: "オプション",
-      filter_options_hint: "項目 選択 フィルター, 項目 項目 項目 手動 項目 項目.",
+      filter_options_hint: "選択フィルターの場合、オプションは手動または生成できます。",
       multiple: "項目",
       single: "項目",
-      kv_mode: "項目/値 項目",
+      kv_mode: "キー/値モード",
 
-      requires_listing_active: "項目 項目 項目 項目. 項目 項目 項目 項目 項目 項目 項目 項目 項目.",
+      requires_listing_active: "リストはアクティブではありません。ストアフロントで使用するには、まずリスティングを有効にしてください。",
 
 
     },
@@ -12184,26 +12184,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "項目 項目",
-        "項目",
-        "項目",
-        "項目",
-        "項目 項目",
-        "項目 商品",
-        "項目 項目",
+        "デジタルグッズ",
+        "本",
+        "エレクトロニクス",
+        "ファッション",
+        "家電製品",
+        "美容製品",
+        "スポーツ用品",
         "おもちゃとゲーム",
         "食料品",
         "家具",
         "自動車部品",
         "ジュエリー",
-        "項目 & 項目",
+        "健康とウェルネス",
         "ペット用品",
         "事務用品",
-        "項目 & 項目",
-        "項目 & 項目 表示",
+        "音楽と楽器",
+        "映画とテレビ番組",
         "ソフトウェア",
-        "項目 & 項目",
-        "項目 項目",
+        "アート&クラフト",
+        "アウトドアギア",
       ],
     },
 
@@ -12213,39 +12213,39 @@ export default {
     template_message: {
       title: [
         "注文確認",
-        "注文 項目",
-        "注文 項目",
-        "支払い 項目",
-        "注文 項目",
-        "注文 項目 項目",
-        "注文 項目 項目",
-        "注文 項目 項目 項目",
-        "項目 項目",
-        "返金 項目",
-        "項目 項目 項目 項目",
+        "注文は発送されました",
+        "注文が配達されました",
+        "支払いを受領しました",
+        "注文がキャンセルされました",
+        "注文処理の遅延",
+        "保留中の注文",
+        "配達のために注文する",
+        "返品処理済み",
+        "払い戻しが行われました",
+        "再入荷商品",
       ],
       body: [
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}、ご注文 #{order_id} が確認されました。現在処理中ですので、発送の準備ができましたらお知らせいたします。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "{buyer_name} さん、朗報です!ご注文#{order_id}は発送されました。アカウントを通じて追跡できます。ご購入いただきありがとうございます。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}。ご注文 #{order_id} は正常に配送されました。ご購入をお楽しみいただければ幸いです。ありがとう！",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}。注文 #{order_id} の支払いを受け取りました。ご注文は現在処理中であり、間もなく発送されます。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "{buyer_name} 様、ご注文 #{order_id} がキャンセルされたことをお知らせいたします。ご不明な点がございましたら、サポートまでお問い合わせください。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "{buyer_name} 様、ご注文 #{order_id} に遅れが発生しております。ご不便をおかけして申し訳ございませんが、できるだけ早く解決できるよう努めております。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}。ご注文 #{order_id} は現在保留中です。詳細については、アカウントを確認するか、サポートにお問い合わせください。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}。ご注文 #{order_id} は配達中ですので、もうすぐ届く予定です。ご辛抱いただきありがとうございます。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "{buyer_name} 様、ご注文 #{order_id} の返品を処理しました。ご不明な点がございましたら、サポートまでお問い合わせください。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}。注文 #{order_id} の返金が行われました。すぐにアカウントに資金が表示されるはずです。",
 
-        "ここでこのセクションの情報と設定を管理できます。 {buyer_name} {order_id}",
+        "こんにちは、{buyer_name}。ご注文の商品 #{order_id} が再入​​荷しました。まだ興味がある場合は、今すぐ新しい注文をすることができます。",
       ],
     },
 
@@ -12254,28 +12254,28 @@ export default {
      */
     property_set: {
       title: [
-        "項目",
-        "項目 項目",
-        "項目",
+        "ドレス",
+        "デジタルガジェット",
+        "ドリンク",
         "食品",
         "家具",
-        "項目",
-        "項目 商品",
-        "項目",
-        "項目 項目",
-        "項目",
+        "本",
+        "美容製品",
+        "おもちゃ",
+        "スポーツ用品",
+        "付属品",
       ],
       description: [
-        "項目 項目 項目 項目 項目 項目, 項目, 項目 項目.",
-        "項目 項目 項目 項目 項目 項目, 項目, 項目 項目.",
-        "項目, 項目, 項目 タイプ 項目 項目.",
-        "詳細 項目 項目, 項目, 項目 項目 商品.",
-        "項目, 項目, 項目 項目 項目.",
-        "項目, 項目, 項目 項目 項目.",
-        "項目 タイプ, 項目, 項目 項目 詳細.",
-        "項目 項目, 項目, 項目 項目 項目.",
-        "タイプ, 項目, 項目 項目 項目.",
-        "項目, 項目, 項目 項目 詳細.",
+        "サイズ、色、生地などの衣類アイテムの属性。",
+        "ブランド、モデル、機能などのガジェットの仕様。",
+        "飲み物の味、サイズ、種類。",
+        "食事、軽食、食品の詳細。",
+        "素材、寸法、デザインスタイル。",
+        "著者、ジャンル、出版年。",
+        "肌のタイプ、成分、パッケージの詳細。",
+        "対象年齢、材質、安全基準。",
+        "タイプ、サイズ、性能の特徴。",
+        "スタイル、素材、ブランドの詳細。",
       ],
     },
 
@@ -12284,24 +12284,24 @@ export default {
      */
     boxes: {
       name: [
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目",
-        "項目 項目 項目",
-        "項目 項目 項目", // flexible mailer
-        "項目 項目", // bubble/padded
-        "項目 項目", // thermal
-        "項目 項目",
+        "ボックス XS",
+        "ボックスS",
+        "ボックスM",
+        "ボックスL",
+        "ボックスXL",
+        "ボックスXXL",
+        "ボックススリム",
+        "ボックスワイド",
+        "トールボックス",
+        "ボックスフラット",
+        "ボックスキューブ",
+        "ボックスチューブ",
+        "壊れやすい箱",
+        "ボックスガラス瓶",
+        "ボックスソフトパック", // flexible mailer
+        "パッド入りボックス", // bubble/padded
+        "ボックス絶縁", // thermal
+        "ボックスヘビーデューティ",
       ],
     },
   },

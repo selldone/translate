@@ -12214,39 +12214,39 @@ export default {
     template_message: {
       title: [
         "Ordrebekræftelse",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
+        "Ordren afsendt",
+        "Ordre leveret",
+        "Betaling modtaget",
+        "Ordren annulleret",
+        "Forsinket ordrebehandling",
+        "Bestilling i venteposition",
+        "Bestil ud til levering",
+        "Returnering behandlet",
+        "Refusion udstedt",
+        "Vare tilbage på lager",
       ],
       body: [
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, din ordre #{order_id} er blevet bekræftet! Vi behandler den og giver dig besked, når den er klar til afsendelse.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Gode ​​nyheder, {buyer_name}! Din ordre #{order_id} er blevet afsendt. Du kan spore det via din konto. Tak, fordi du handlede hos os!",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, din ordre #{order_id} er blevet leveret. Vi håber du bliver glad for dit køb. Tak!",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, vi har modtaget betalingen for ordre #{order_id}. Din ordre behandles nu og vil snart blive afsendt.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Kære {buyer_name}, vi beklager at meddele dig, at din ordre #{order_id} er blevet annulleret. Hvis du har spørgsmål, bedes du kontakte support.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Kære {buyer_name}, vi oplever en forsinkelse med din ordre #{order_id}. Vi beklager ulejligheden og arbejder på at løse det så hurtigt som muligt.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, din ordre #{order_id} er i øjeblikket på hold. Tjek venligst din konto eller kontakt support for yderligere detaljer.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, din ordre #{order_id} er ude til levering og bør nå dig snart. Tak for din tålmodighed!",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Kære {buyer_name}, vi har behandlet returneringen af ​​din ordre #{order_id}. Hvis du har spørgsmål, bedes du kontakte support.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, din refusion for ordre #{order_id} er blevet udstedt. Du bør snart kunne se pengene på din konto.",
 
-        "Konfigurer og administrer denne indstilling for din butik. {buyer_name} {order_id}",
+        "Hej {buyer_name}, varen fra din ordre #{order_id} er tilbage på lager! Du kan afgive en ny ordre nu, hvis du stadig er interesseret.",
       ],
     },
 
@@ -12267,16 +12267,16 @@ export default {
         "Titel",
       ],
       description: [
-        "Konfigurer og administrer denne indstilling for din butik.",
-        "Konfigurer og administrer denne indstilling for din butik.",
-        "Beskrivelse",
-        "Beskrivelse",
-        "Beskrivelse",
-        "Beskrivelse",
-        "Konfigurer og administrer denne indstilling for din butik.",
-        "Beskrivelse",
-        "Beskrivelse",
-        "Beskrivelse",
+        "Attributter for beklædningsgenstande som størrelse, farve og stof.",
+        "Specifikationer for gadgets såsom mærke, model og funktioner.",
+        "Smag, størrelser og typer af drikkevarer.",
+        "Detaljer for måltider, snacks og fødevarer.",
+        "Materiale, dimensioner og designstile.",
+        "Forfatter, genre og udgivelsesår.",
+        "Hudtype, ingredienser og emballagedetaljer.",
+        "Aldersgruppe, materiale og sikkerhedsstandarder.",
+        "Type, størrelse og ydeevnefunktioner.",
+        "Stilarter, materialer og mærkedetaljer.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "Kasse XS",
+        "Æske XS",
         "Kasse S",
         "Kasse M",
         "Kasse L",
-        "Kasse XL",
-        "Kasse XXL",
-        "Navn",
-        "Navn",
-        "Navn",
-        "Navn",
-        "Navn",
-        "Navn",
-        "Navn",
-        "Navn",
-        "Navn", // flexible mailer
-        "Navn", // bubble/padded
-        "Navn", // thermal
-        "Navn",
+        "Æske XL",
+        "Æske XXL",
+        "Slank kasse",
+        "Kasse bred",
+        "Box Høj",
+        "Box Flad",
+        "Box terning",
+        "Boksrør",
+        "Kasse skrøbelig",
+        "Æske glasflasker",
+        "Box Soft Pack", // flexible mailer
+        "Kasse polstret", // bubble/padded
+        "Kasse isoleret", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Avancerade alternativ",
       menu_advanced_options_description:
-        "Connect Google ark, Ta bort objekt Produkter objekt Mer. .",
+        "Anslut Google-ark, ta bort dubblerade produkter och mer...",
 
       products_rss: {
         title: "Produkter RSS",
@@ -630,7 +630,7 @@ export default {
         false_description:
           "Visa produkter organiserade efter kategorier och underkategorier.",
         true_title: "Tabelläge",
-        true_description: "Se Produkter objekt objekt ",
+        true_description: "Se produkter i en detaljerad tabelllayout.",
       },
 
       show_notes: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "objekt Enhet",
-        subtitle: "objekt Enhet Begagnade objekt objekt",
+        subtitle: "Enheten som används för avstånd.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Logistik",
         profiles: "Profiler",
         includes: "Inkluderar",
-        property_sets: "objekt objekt",
+        property_sets: "Egenskapsuppsättningar",
         boxes: "paket",
       },
 
@@ -1512,9 +1512,9 @@ export default {
       },
       external: {
         not_available_message:
-          "objekt Handling Tillgängliga objekt Företag & objekt licens",
+          "Extra åtgärd tillgänglig med företags- och företagslicenser.",
         available_message: "Du kan lägga till en extra extern uppmaning.",
-        input_label: "objekt objekt Till Handling",
+        input_label: "Andra uppmaningen till handling",
       },
       warehouse: {
         subtitle:
@@ -1875,11 +1875,11 @@ export default {
     menu: {
       add_bulk: {
         title: "objekt Lägg till",
-        subtitle: "Lägg till objekt Varianter objekt objekt Handling",
+        subtitle: "Lägg till flera varianter i en åtgärd.",
       },
       edit_property_set: {
-        title: "objekt objekt objekt",
-        subtitle: "Förändra Varianter objekt, objekt objekt Order",
+        title: "Anpassa egenskapsuppsättningen",
+        subtitle: "Ändra variantnamn, ikoner och beställningar.",
       },
     },
   },
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "objekt Hantering",
     subtitle:
-      "Skapa objekt, objekt, objekt objekt ",
+      "Skapa personliga, intelligenta och interaktiva popup-fönster.",
     add_action: "Lägg till Ny Dyka upp",
   },
 
@@ -2068,7 +2068,7 @@ export default {
       "Angiven e-post stämmer inte överens med användarens e-post ( <b>{user_name}:</b> {user_email}). Är du säker på att du skickar e-postmeddelanden till <b>{email}</b> ?",
 
     order_information_email_to_email:
-      "objekt objekt Skicka Order information Till <b>{email}</b>.",
+      "Vi kommer att skicka orderinformation till <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Ange först en användare för leverantören.",
 
@@ -2442,7 +2442,7 @@ export default {
 
         config: {
           title: "Produkt objekt Uppstart",
-          subtitle: "Hantera SKU, MPN, objekt objekt objekt Varianter",
+          subtitle: "Hantera SKU, MPN och tillgänglighet för varianter.",
         },
         variables: {
           title: "objekt alternativ",
@@ -2450,27 +2450,27 @@ export default {
             "Ange en hexadecimal färgkod, t.ex. <b>#654FFF</b>, eller två färger åtskilda av ett snedstreck, t.ex. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "Du kan tilldela alla värden till variablerna, inklusive bilder med <b>Graphic Assets</b>. Ladda upp ett mönster och använd den genererade koden för varianten.",
-          graphical_asset_action: "objekt objekt",
-          graphical_asset_action_caption: "Bilder objekt objekt alternativ",
+          graphical_asset_action: "Grafiska tillgångar",
+          graphical_asset_action_caption: "Bilder för variantalternativ.",
         },
         smart_unit_price: {
-          tips: "objekt Enhet pris objekt objekt <b>Vikt</b>, <b>volym</b>, objekt <b>objekt objekt</b>. Till Inaktivera objekt objekt, objekt Till affär > inställningar > Tema > Produkt sida > objekt Enhet pris",
+          tips: "Beräkna enhetspris baserat på <b>weight</b>, <b>volym</b> och <b>pack size</b>. För att inaktivera den här funktionen, navigera till Butik > Inställningar > Tema > Produktsida > Smart enhetspris.",
           smart_unit_price: "Enhet pris objekt",
         },
         quantity: {
           title: "Lager",
-          subtitle: "objekt objekt ",
+          subtitle: "Ställ in lagernivåer för varje variant.",
         },
         price: {
           title: "Prissättning",
           subtitle:
-            "objekt objekt Beställnings pris objekt objekt Standard Produkt pris",
+            "Ställ in ett anpassat pris för varianten eller använd standardproduktpriset.",
         },
         package: {
           title: "objekt & Frakt",
           subtitle:
             "Ange vikt och dimensioner för varianter för att bestämma fraktalternativ.",
-          same_as_product_action: "objekt objekt Produkt",
+          same_as_product_action: "Samma som produkt",
         },
         image: {
           title: "objekt Bilder",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "objekt objekt Enhet (SKU)",
+            message: "Lagerhållningsenhet (SKU)",
           },
           mpn: {
-            message: "objekt objekt objekt (MPN)",
+            message: "Tillverkarens artikelnummer (MPN)",
           },
           gtin: {
-            label: "objekt objekt Artikel objekt (GTIN)",
+            label: "Global Trade Item Number (GTIN)",
             message:
               "Format som stöds: UPC (12 siffror), EAN (13 siffror), JAN (8 eller 13 siffror), ISBN (13 siffror).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Uppdatera alla varianter",
     bulk_action_msg:
       "Ställ in produktförpackning och beredningstid för alla varianter.",
-    dynamic_lead_time: "objekt objekt Tid",
+    dynamic_lead_time: "Dynamisk ledtid",
     instant_delivery: "objekt Leverans",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "objekt bild objekt objekt",
-      placeholder: "objekt objekt ",
-      success_update_notification: "objekt objekt ",
+      title: "Ställ in bild alt text",
+      placeholder: "Ange en beskrivande alt-text...",
+      success_update_notification: "Alt-texten har uppdaterats.",
     },
     dialog_bg_remove: {
       title: "Ta bort bakgrund objekt",
@@ -2562,14 +2562,14 @@ export default {
         title: "Ta bort bakgrund",
         subtitle: "Skapa objekt transparent bakgrund",
       },
-      success_remove_bg_notification: "bakgrund objekt objekt!",
+      success_remove_bg_notification: "Bakgrunden har tagits bort!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "objekt objekt objekt",
+    title: "Variant grafiska tillgångar",
     tips: {
       how_it_works:
         "<b>Hur det fungerar:</b><br />Ladda upp mönster eller objektbilder här. För att använda dessa bilder som ett variantalternativ, inkludera <b>{filename}</b> i variantvärdet. Observera att den här koden inte kan användas i värdet <b><s>color</s></b>.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "objekt prissättning",
     min_quantity: "objekt Kvantitet",
-    range_is_out_of_stock: "objekt objekt !",
+    range_is_out_of_stock: "Sortimentet är slut!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "objekt objekt !",
-    set_color_warning: "objekt Välj objekt Färg",
-    set_volume_warning: "objekt objekt objekt volym",
-    set_pack_warning: "objekt objekt ",
-    set_weight_warning: "objekt objekt objekt Vikt",
-    set_type_warning: "objekt Välj objekt Typ",
-    set_style_warning: "objekt Välj objekt Stil",
-    out_of_stock: "objekt objekt ",
+    duplicated_variant: "Denna variant finns redan!",
+    set_color_warning: "Välj en färg.",
+    set_volume_warning: "Vänligen ange volymen.",
+    set_pack_warning: "Vänligen ange förpackningsstorleken.",
+    set_weight_warning: "Vänligen ange vikten.",
+    set_type_warning: "Välj en typ.",
+    set_style_warning: "Välj en stil.",
+    out_of_stock: "För närvarande slut i lager",
 
     image: {
       tooltip: "⚡ Dra och släpp en bild här för att tilldela den till varianten.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Denna vara är inte tillgänglig i webbutiken.",
     },
     restore_dialog: {
-      title: "objekt objekt",
+      title: "Återställ variant",
       message: "Är du säker på att du vill återställa den här borttagna varianten?",
-      action: "ja, objekt objekt",
+      action: "Ja, återställ nu",
     },
     notifications: {
-      restore_variant_success: "objekt Produkt objekt objekt ",
+      restore_variant_success: "Produktvarianten har återställts.",
     },
   },
 
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Betalning metoder",
     sub_title:
-      "Lista objekt Aktiva Betalning metoder objekt objekt objekt Till Lägg till objekt Ny metod Till objekt affär, objekt objekt 10 Lägg till Betalning betalningsgateway",
+      "Lista över aktiva betalningsmetoder. Om du vill lägga till en ny metod i din butik, tryck på följande knapp. Vi rekommenderar starkt att inte överstiga 10 tillagda betalningsgateways.",
     add_gateway: "Ny Betalning metod",
 
     add_gateway_dialog: {
       title: "Välj Valuta",
-      country_currencies: "objekt objekt",
+      country_currencies: "Lokala valutor",
       crypto_currencies: "objekt",
 
       confirm: "Lägg till betalningsmetod",
@@ -2828,12 +2828,12 @@ export default {
       },
 
       config_step: {
-        import_config: "objekt objekt Importera Konfig Från Övrig objekt betalningsgateway",
+        import_config: "Du kan importera konfiguration från andra liknande gateways",
         import_from: "Importera Från",
       },
 
       request_add_new_gateway: {
-        title: "objekt visa objekt objekt Betalning metod?",
+        title: "Ser du inte din föredragna betalningsmetod?",
         subtitle:
           "Om din lokala betalningsleverantör inte finns med i listan, prenumerera på valfri årsprenumeration (inklusive Startup för överkomliga priser) och begär en integration. Vi kommer att slutföra det inom 48 timmar om ett testkonto och dokumentation tillhandahålls.",
       },
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "Manuellt läge",
-          true_description: "objekt objekt objekt Inkörsport Konfiguration Manuellt",
+          true_description: "Du kan ställa in gatewaykonfigurationen manuellt.",
 
           false_title: "Bil anslut",
           false_description:
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "objekt | Avbryt 🛍️ Beställ objekt",
-        false_title: "objekt | Avbryt 🛍️ Beställ objekt 48 objekt",
+        true_title: "Express | Avbryt beställning omedelbart",
+        false_title: "Standard | Avbryt beställning efter 48 timmar",
         true_description:
           "Detta alternativ avbryter din beställning omedelbart och uppdaterar lagret direkt.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Beställningen återgick till normal process.",
       set_tracking_success: "Beställningsspår-ID har sparats.",
       shipping_address_update_success:
-        "Frakt adress objekt objekt ",
+        "Leveransadressen har uppdaterats framgångsrikt.",
       vendor_order_status_update_success:
-        "säljare objekt status objekt objekt ",
+        "Leverantörsuppfyllelsestatus har uppdaterats framgångsrikt.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "objekt",
-    subtitle: "Översikt objekt Betalning Inkörsport Konfiguration objekt status",
+    subtitle: "Översikt över konfiguration och status för betalningsgateway.",
     status: "status",
     cod_transportation: "support Frakt",
     cod_transportations_error:
-      "Gör det möjligt objekt objekt Leverans Betalning objekt objekt Frakt metod!",
+      "Aktivera postförskottsbetalning för minst en fraktmetod!",
     payment_type: "Betalning Typ",
     cod: "Postförskott",
     online: "objekt Betalning",
@@ -3688,15 +3688,15 @@ export default {
     },
     extra_config: {
       title: "Betalning tjänst Konfiguration",
-      subtitle: "objekt Konfiguration information objekt objekt Betalning Inkörsport",
+      subtitle: "Ytterligare konfigurationsinformation för betalningsgatewayen.",
     },
 
     recommended_actions: {
       title: "objekt Insatser",
       subtitle:
         "Genom att vidta dessa steg börjar du få faktiska betalningar från dina kunder.",
-      action_enable: "objekt Till Gör det möjligt objekt",
-      make_live_enable: "objekt Till leva objekt",
+      action_enable: "Klicka för att aktivera det",
+      make_live_enable: "Klicka för att leva det",
     },
   },
 
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Lista över utfärdade kort",
       subtitle:
-        "Se objekt Hantera Allt objekt Kort objekt objekt Skicka Kort Till Användare Manuellt objekt objekt ",
+        "Visa och hantera alla utfärdade kort. Du kan skicka kort till användare manuellt eller blockera dem om det behövs.",
 
       loading_message: "Får information ... vänta",
       issue_to_user: "Problem till användare",
@@ -4042,7 +4042,7 @@ export default {
     "sms-ready-to-pickup":
       "Skicka ett SMS till kunden och meddela att deras beställning är klar för avhämtning via {phone}.",
     "sms-order-confirmation":
-      "Skicka objekt 🛍️ Beställ objekt SMS Till objekt kund objekt {phone}.",
+      "Skicka ett orderbekräftelse-SMS till kunden via {phone}.",
 
     "count-adjustment":
       "Kvantiteten för produkten \"{product}\" har uppdaterats från {from} till {to}.",
@@ -4093,7 +4093,7 @@ export default {
     },
 
     engine: {
-      title: "objekt Produkter objekt",
+      title: "Extra Products Engine",
       subtitle:
         "Fler produkter kommer att laddas från utvalda kategorier och taggar.",
       load_in_tips: "Ladda produkter från kategorier i {category}.",
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "E-postadress",
-        placeholder: "objekt objekt medlemmar E-post adress",
+        placeholder: "Ange medlemmens e-postadress...",
       },
     },
     notifications: {
@@ -4266,8 +4266,8 @@ export default {
       "<b>Viktigt! </b>Att utföra denna åtgärd kommer att generera en negativ transaktion i leverantörens plånbok och subtrahera det valda beloppet från den. Beloppet får inte överstiga de återstående totala transaktionerna för den valda beställningen. Dessutom, om pengar har överförts till anslutna bankkonton (som med Stripe Connect eller manuell banköverföring), bör du skapa en <b>återföring</b>.",
     inputs: {
       note: {
-        message: "objekt objekt Till objekt säljare",
-        placeholder: "objekt objekt Notera objekt",
+        message: "Det är synligt för säljaren.",
+        placeholder: "Du kan bifoga en anteckning här...",
       },
       amount: {
         error_message: "Det återstående beloppet har överskridits.",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Lägg till affär",
-      description: "Lägg till objekt Ny affär Till objekt objekt",
+      description: "Lägg till en ny butik i systemet.",
     },
     "backoffice:shop:delete": {
       name: "Radera affär",
-      description: "Radera objekt affär Från objekt objekt",
+      description: "Ta bort en butik från systemet.",
     },
     "backoffice:giftcard:write": {
       name: "Gåva Kort Hantering",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "objekt Tillgång",
-      description: "läsning objekt Detaljer objekt Statistik",
+      description: "Läs banddetaljer och statistik.",
     },
     "backoffice:ai:write": {
       name: "AI Hantering",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Tillgång",
-      description: "läsning AI objekt objekt Statistik",
+      description: "Läs AI-konfigurationer och statistik.",
     },
     "backoffice:vendor-payment:write": {
       name: "säljare Betalning Hantering",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Notera Tillgång",
-      description: "läsning objekt objekt objekt Detaljer",
+      description: "Läs anteckningar och relaterade detaljer.",
     },
     "backoffice:note:write": {
       name: "Notera Hantering",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "objekt Tillgång",
-      description: "läsning objekt Detaljer objekt Statistik",
+      description: "Läs tokendetaljer och statistik.",
     },
     "selldone:token:write": {
       name: "objekt Hantering",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "objekt Tillgång",
-      description: "läsning objekt Detaljer objekt Statistik",
+      description: "Läs information om intäktsgenerering och statistik.",
     },
     "selldone:monetization:write": {
       name: "objekt Hantering",
-      description: "Hantera objekt, objekt objekt objekt",
+      description: "Hantera intäktsgenerering, inklusive hänvisningsprogram.",
     },
     "selldone:identification": {
       name: "objekt Tillgång",
@@ -5106,7 +5106,7 @@ export default {
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "objekt Tillgång",
-      description: "läsning objekt Detaljer objekt Statistik",
+      description: "Läs byrådetaljer och statistik.",
     },
     "agency:write": {
       name: "objekt Hantering",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "objekt",
-      description: "Tillgång Till objekt objekt Lagra Hantering objekt",
+      description: "Tillgång till backoffice och butikshanteringsfunktioner.",
     },
     storefront: {
       title: "objekt",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Tillgång Selldone Tjänster objekt objekt",
+      description: "Få tillgång till Selldones tjänster och funktioner.",
     },
     others: {
       title: "objekt",
-      description: "objekt Omfattningar objekt objekt ",
+      description: "Övriga omfattningar är inte definierade i systemet.",
     },
     vendor: {
       title: "säljare",
-      description: "Tillgång säljare information objekt Hantering objekt",
+      description: "Få tillgång till leverantörsinformation och hanteringsfunktioner.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "objekt",
-      description: "Tillgång objekt information objekt Hantering",
+      description: "Få tillgång till byråinformation och hantering.",
     },
   },
 
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "objekt objekt Plånbok",
+        title: "Välj en plånbok",
         subtitle:
           "Välj en virtuell plånbok att använda för din prenumeration. Om du inte har en ännu kan du skapa den i plånboksdelen. Denna plånbok kommer att användas för eventuella avgifter.",
       },
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Länka en av dina domäner till denna affiliate partner. Besökare som köper via denna domän kommer att tillskrivas denna affiliate.",
 
-      domain_not_approved_msg: "objekt Domän objekt objekt !",
-      domain_is_not_enable_msg: "objekt Domän objekt objekt aktiverad!",
+      domain_not_approved_msg: "Domänen har inte godkänts ännu!",
+      domain_is_not_enable_msg: "Domänen är inte aktiverad!",
       domain_is_linked_to_other_affiliate_msg:
         "Denna domän är redan länkad till en annan affiliate!",
     },
 
-    set_users_first_message: "objekt objekt objekt Användare objekt!",
+    set_users_first_message: "Ställ in användaren först!",
 
     cluster: {
       title: "objekt",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Ny Dotterbolag Lägg till objekt",
-      update_success: "Dotterbolag objekt objekt",
+      update_success: "Affiliate har uppdaterats.",
     },
 
     inputs: {
@@ -5945,18 +5945,18 @@ export default {
       commission: {
         label: "Provision objekt",
         false_description:
-          "objekt objekt Provisioner",
+          "Beräkna med en kombination av fasta och procentuella provisioner.",
         true_description:
           "Beräkna med hjälp av produktspecifika provisioner som anges på fliken prissättning.",
-        false_title: "objekt + objekt Provision",
+        false_title: "Fast + Procentuell provision",
         true_title: "objekt Provision",
       },
       user: {
         label: "Användare (valfritt)",
-        message: "valfritt, objekt, Dotterbolag namn objekt Selldone",
+        message: "Valfritt, t.ex. affiliatenamn i Selldone",
       },
       web: {
-        placeholder: "valfritt, objekt, objekt",
+        placeholder: "Valfritt, t.ex. affiliate-web.com",
       },
       address: {
         placeholder: "valfritt, objekt, 1200 POX, NY, USA",
@@ -5965,7 +5965,7 @@ export default {
         placeholder: "valfritt, objekt, 001-808-210354",
       },
       bank: {
-        placeholder: "valfritt, objekt, objekt objekt, Nej: 10002-325-800-845213",
+        placeholder: "Valfritt, t.ex. Arstra Bank, nr: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Välj objekt Domän (valfritt)",
@@ -5980,7 +5980,7 @@ export default {
           "Är detta affiliate aktivt för närvarande? Om de är inaktiva kommer deras affiliateprogram inte att gälla för beställningar som görs via deras länk.",
       },
       products: {
-        label: "Produkter objekt objekt Provision",
+        label: "Produkter som är berättigade till provision",
         select_product: "Välj Produkter",
       },
     },
@@ -6014,7 +6014,7 @@ export default {
       action: "Ja, radera nu",
     },
     notifications: {
-      delete_success: "objekt objekt raderade",
+      delete_success: "Värderingen har tagits bort.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Prissättning & objekt objekt",
+    label: "Prissättnings- och värderingsmodell",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Skapa ett värderingssystem för att skapa flexibel prissättning med hjälp av formler och referenstabeller för dina produkter. Börja med att ge denna värdering ett unikt namn.",
     },
     valuation_preview: "Förhandsvisning objekt formulär",
-    load_sample: "objekt objekt",
+    load_sample: "Ladda prov",
     conditions: {
       title: "Betingelser",
       subtitle:
@@ -7041,9 +7041,9 @@ export default {
     vendor: {
       title: "Importera säljare",
       subtitle:
-        "Ladda upp säljare CSV filer objekt objekt Till Integritet objekt",
+        "Ladda upp leverantörens CSV-filer här. Se till att formatet är korrekt och följer integritetsbestämmelserna.",
       checklist: {
-        title: "objekt objekt",
+        title: "Viktig checklista",
         subtitle: "Se till att följa riktlinjerna.",
         sample_files: "objekt filer",
         valid_vendor_name_needed:
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "objekt säljare objekt",
+    open_vendors_panel: "Öppna leverantörspanelen",
     title: "säljare objekt Lista",
     subtitle:
       "Det här är en lista över förfrågningar från personer som har ansökt om att bli leverantörer på din marknadsplats.",
@@ -7091,7 +7091,7 @@ export default {
         "Om du inaktiverar marknadsplatsen stängs vissa funktioner av. Om du vill stänga av hela din marknadsplats bör du inaktivera din butik i inställningarna.",
     },
     distribution_model: {
-      title: "objekt objekt",
+      title: "Distributionsmodell",
       subtitle:
         "Marknadsplatser kan verka under olika distributionsmodeller. Oavsett om du föredrar att leverantörer skickar varor direkt till köpare eller konsoliderar beställningar på ditt lager för frakt, kan du välja den modell som bäst passar dina behov här.",
     },
@@ -7113,7 +7113,7 @@ export default {
       title: "Dokument",
       subtitle:
         "Du kan kräva att dina leverantörer laddar upp dokument eller undertecknar vissa kontrakt. Ange nödvändiga dokument här.",
-      add_document_action: "Lägg till objekt objekt",
+      add_document_action: "Lägg till dokumentförfrågan",
     },
     inputs: {
       enable: {
@@ -7126,23 +7126,23 @@ export default {
         label: "Lägg till ny produkt",
         true_title: "säljare objekt Lägg till Produkter",
         false_description:
-          "objekt Lägg till Produkter objekt objekt säljare säljare objekt objekt Hantera pris objekt Lager",
+          "Du lägger till produkter och tilldelar leverantörer. Leverantörer kan bara hantera pris och lager.",
         true_description:
           "Leverantörer kan lägga till och hantera sina egna produkter direkt i sin leverantörspanel.",
       },
       need_verify: {
         label: "Produkt objekt Flöde",
-        false_description: "Ny säljare Produkter objekt leva objekt",
-        false_title: "Nej objekt objekt",
+        false_description: "Nya leverantörsprodukter går live direkt.",
+        false_title: "Ingen verifiering krävs",
         true_description:
           "Leverantörernas nya produkter kräver godkännande innan de släpps ut på marknaden.",
-        true_title: "objekt objekt",
+        true_title: "Verifiering krävs",
       },
       category: {
         label: "Lägg till ny kategori",
         true_title: "säljare objekt Lägg till kategorier",
         false_description:
-          "objekt Lägg till kategorier säljare objekt objekt Lägg till Produkter Till objekt kategorier",
+          "Du lägger till kategorier. Leverantörer kan bara lägga till produkter i befintliga kategorier.",
         true_description:
           "Leverantörer kan lägga till och hantera kategorier direkt i sin leverantörspanel.",
       },
@@ -7150,13 +7150,13 @@ export default {
         label: "Frakt alternativ",
         true_title: "säljare objekt Frakt alternativ",
         false_description:
-          "säljare objekt Lägg till objekt objekt objekt Frakt metoder",
+          "Leverantörer kan inte lägga till eller anpassa sina leveransmetoder.",
         true_description:
           "Leverantörer kan ställa in sina egna fraktmetoder, lägga till kurirer och anpassa frakten efter deras behov.",
       },
       hidden_customer: {
         label: "Visa objekt Kontakt information",
-        true_description: "objekt Kontakt Detaljer objekt objekt Från säljare",
+        true_description: "Köparens kontaktuppgifter är dolda för leverantörer.",
         false_description:
           "Köparens kontaktuppgifter, såsom telefon och e-post, är synliga för leverantörer.",
       },
@@ -7171,10 +7171,10 @@ export default {
 
       listing: {
         label: "Listning objekt säljare",
-        true_description: "Listning objekt aktiverad objekt säljare säljare objekt Hantera Listning Föremål objekt Företag",
-        false_description: "Listning objekt inaktiverad objekt säljare objekt objekt affär Ägare objekt Hantera Listning Föremål objekt Företag",
+        true_description: "Listning är aktiverad för leverantörer. Säljare kan hantera listningsartiklar och företag.",
+        false_description: "Listan är inaktiverad för leverantörer. Endast butiksägaren kan hantera listningsartiklar och företag.",
         requires_listing_active_text:
-          "Till objekt säljare objekt Listning (Föremål + Företag), objekt Gör det möjligt objekt affär Listning objekt objekt Kanal → Listning objekt objekt Tillbaka objekt Till objekt säljare Tillgång",
+          "För att låta leverantörer använda Listning (artiklar + företag), aktivera först funktionen Butikslistning i Kanal → Listning. Kom sedan tillbaka hit för att ge leverantörsåtkomst.",
         requires_listing_active_button: "objekt Kanal Listning inställningar",
       },
 
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "säljare inställningar objekt objekt",
+      update_success: "Leverantörsinställningar har uppdaterats.",
     },
     add_document_dialog: {
-      title: "objekt objekt",
+      title: "Dokumentkrav",
       type: {
         title: "Dokumenttyp",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Titel",
-          placeholder: "objekt objekt Titel objekt objekt ",
+          placeholder: "Ange en titel för dokumentförfrågan.",
         },
         guide: {
           label: "guide (valfritt)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Bädda in Koda",
-          placeholder: "objekt objekt Bädda in Koda objekt",
-          message: "objekt objekt HTML Koda",
+          placeholder: "Klistra in inbäddningskoden här...",
+          message: "Kan innehålla HTML-kod.",
         },
         url: {
           label: "URL",
-          message: "objekt objekt URL objekt objekt ",
+          message: "Ange URL:en för dokumentet eller kontraktet här...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "objekt Frakt Från säljare",
       description:
-        "objekt objekt läge, säljare objekt Order objekt Till Kunder objekt Frakt adress objekt säljare Order objekt objekt adress",
+        "I det här läget skickar leverantörer beställningar direkt till kunder. Leveransadressen för leverantörsbeställningar kommer att vara köparens adress.",
     },
   },
   /**
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Ägare objekt objekt",
+      title: "Ägarens identifieringsdokument",
       description:
         "Ladda upp ett statligt utfärdat ID för att verifiera identiteten på företagsägaren eller nyckelchefen.",
     },
@@ -7264,12 +7264,12 @@ export default {
         "Skicka in ett dokument för att verifiera din företagsadress, till exempel en elräkning, skattefaktura eller hyresavtal.",
     },
     Contract: {
-      title: "objekt & objekt",
+      title: "Kontrakt & avtal",
       description:
         "Ladda upp kontrakt eller avtal som beskriver villkoren för dina affärsrelationer.",
     },
     Copyright: {
-      title: "objekt objekt",
+      title: "Upphovsrättsdokumentation",
       description:
         "Tillhandahåll upphovsrättsregistreringsdokument för att bekräfta dina immateriella rättigheter.",
     },
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Försäljarplånböcker",
     subtitle:
-      "Nej objekt Till Manuellt Lägg till Plånböcker! säljare Plånböcker objekt objekt Gör det möjligt objekt Betalning metod objekt support objekt Utbetalningar (Tycka om Stripe Connect), objekt objekt Betalningar Till objekt Ansluten säljare Konton objekt objekt aktiverad, objekt objekt Till Manuellt Betala säljare, objekt objekt belopp objekt Till objekt objekt objekt Plånbok Lista",
+      "Inget behov av att lägga till plånböcker manuellt! Leverantörsplånböcker skapas automatiskt. Om du aktiverar en betalningsmetod som stöder delade utbetalningar (som Stripe Connect), kommer systemet automatiskt att distribuera betalningar till de anslutna leverantörernas konton. Om den här funktionen inte är aktiverad måste du betala leverantörer manuellt och du kan kontrollera beloppen som de är skyldiga i plånbokslistan.",
     filter_vendor: {
       placeholder: "Filtrera objekt säljare",
     },
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "säljare objekt",
     order_fee: "🛍️ Beställ Avgift",
     order_refund: "🛍️ Beställ återbetalning",
-    reverse_fund: "objekt objekt",
+    reverse_fund: "Fondåterföring",
     payout: "objekt",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "Utbetalningshistorik",
     subtitle:
       "Den här funktionen effektiviserar redovisningen för dig och dina leverantörer genom att hålla ett detaljerat register över alla transaktioner. Betalningar kan behandlas manuellt via banköverföringar eller andra metoder, eller hanteras automatiskt av betalningsleverantörer som stöder delade betalningar, som Stripe.",
-    top_up_vendor_action: "objekt objekt säljare konto",
+    top_up_vendor_action: "Fyll på leverantörskonto",
   },
 
   /**
@@ -7341,7 +7341,7 @@ export default {
   vendor_pricing_add: {
     title: "Marknad Prissättning objekt",
     subtitle:
-      "objekt objekt Prissättning objekt Till säljare Produkter, objekt pris objekt objekt säljare pris * (1 + Provision%).",
+      "När du tilldelar en prismodell till leverantörsprodukter, kommer priset automatiskt att beräknas som leverantörspris * (1 + provision %).",
     delete: {
       subtitle:
         "Att ta bort en prismodell kommer att påverka alla leverantörsprodukter som är kopplade till den. Innan du tar bort en prismodell, se till att uppdatera alla leverantörsprodukter som använder den och tilldela dem en annan prismodell.",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "objekt, objekt Produkter objekt",
+        placeholder: "t.ex. Digital Products Class...",
       },
       description: {
         placeholder: "Du kan lägga till en anteckning här...",
       },
       accept_delete: {
         true_description: "Jag vill ta bort den här prismodellen.",
-        true_title: "objekt Prissättning objekt objekt",
+        true_title: "Bekräfta borttagning av prismodell",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "När du ansluter utbetalningstjänster som Stripe Connect hämtar vi och visar det tillgängliga saldot på ditt Stripe-konto som referens.",
     with_balance: "objekt Balans",
-    without_balance: "objekt Balans - objekt läge",
+    without_balance: "Utan balans - Snabbläge",
     bank_transfer: {
       title: "objekt Överföra",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "Du kan lägga till en anteckning här... Den här anteckningen är inte synlig för leverantören.",
       },
       accept_refund: {
-        true_description: "objekt objekt Till Avbryt objekt Betalning",
+        true_description: "Jag vill avbryta denna betalning.",
         true_title: "Avbryt & återbetalning Betalning",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "objekt objekt",
+        title: "Fonden återförd",
         message:
           "Säljarens fondåterföring har slutförts framgångsrikt, med pengar överförda från banken till plånboken och lagts till saldot i plånboken.",
       },
       payout_success: {
         title: "objekt",
         message:
-          "objekt säljare objekt objekt Lägg till",
+          "Säljarens utbetalning har bearbetats och lagts till.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "objekt",
     max_batch_msg: "Maximalt antal artiklar du kan importera i en enda batch.",
     max_daily_limit_msg: "Maximalt antal objekt du kan importera på en dag.",
-    extra_daily_limit_msg: "objekt Föremål objekt objekt Begränsa",
+    extra_daily_limit_msg: "Ytterligare föremål tillåtna utöver den dagliga gränsen.",
     add_items_today_msg: "Föremål Lägg till I dag",
-    file_statistic_msg: "Statistik objekt objekt fil",
+    file_statistic_msg: "Statistik för denna fil.",
     used_quota: "Begagnade objekt",
   },
 
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "objekt",
       static: {
-        false_title: "objekt objekt",
+        false_title: "Med animationer",
         false_description:
           "Kategorier och produkter har en interaktiv animation för att visa funktionaliteten.",
         true_title: "Statisk",
-        true_description: "kategorier objekt Produkter objekt Nej objekt",
+        true_description: "Kategorier och produkter har ingen animation.",
       },
     },
 
@@ -7521,16 +7521,16 @@ export default {
         false_description:
           "Enkelt och minimalt läge utan några extra åtgärder på produktkort.",
         true_description:
-          "Visa objekt köpa & Lägg till Till objekt objekt objekt Produkt Kort objekt",
-        true_title: "Visa Handling objekt objekt",
+          "Visa Snabbköp & Lägg till för att jämföra knappar på produktkort som svävar.",
+        true_title: "Visa åtgärd vid hover",
       },
     },
     filter_products: {
       title: "Filtrera Produkter",
       only_available: {
-        false_description: "Visa Allt Produkter objekt objekt affär Lista objekt Standard",
+        false_description: "Visa alla produkter i butikslistan som standard.",
         true_description:
-          "Visa objekt Tillgängliga Produkter objekt objekt affär Lista objekt Standard",
+          "Visa endast tillgängliga produkter i butikslistan som standard.",
         true_title: "Tillgängliga Produkter",
         false_title: "Allt Produkter",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "Filtrera kategorier",
       hide_empty_folders: {
-        false_description: "Visa Allt kategorier objekt objekt affär Lista",
+        false_description: "Visa alla kategorier i butikslistan.",
         false_title: "Visa Allt kategorier",
         true_title: "Dölj objekt kategorier",
         true_description:
-          "Visa objekt kategorier objekt Produkter objekt objekt affär Lista",
+          "Visa endast kategorier med produkter i butikslistan.",
       },
     },
 
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "huvud Hemsida objekt",
-      subtitle: "objekt objekt Från Google objekt",
+      subtitle: "Välj ditt favoritteckensnitt från Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "objekt objekt",
-        message: "objekt objekt objekt Värde",
+        label: "Typsnittsfamilj",
+        message: "Ange teckensnittsfamiljens värde.",
       },
       font_res: {
-        label: "objekt objekt",
-        message: "objekt objekt ",
+        label: "Font Resurs",
+        message: "Ange teckensnittsresursen.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Rubrik Titel",
-        set_empty: "objekt objekt Titel",
+        set_empty: "Ange tom titel",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Redigera objekt objekt",
-    add_title: "Lägg till objekt objekt",
+    edit_title: "Redigera egenskapsuppsättning",
+    add_title: "Lägg till egenskapsuppsättning",
     config: {
       subtitle:
         "Ange titel och beskrivning för din egenskapsuppsättning. Det kommer endast att vara synligt för personalen.",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Ange en titel för egenskapsuppsättningen...",
       },
       description: {
-        placeholder: "objekt objekt objekt Beskrivning (valfritt)",
+        placeholder: "Ange en kort beskrivning... (valfritt)",
       },
       custom_variants: {
         true_title: "Beställnings Varianter",
         false_title: "Standard Varianter",
-        true_description: "objekt objekt Produkt Varianter",
-        false_description: "objekt Standard objekt Varianter",
+        true_description: "Anpassa dina produktvarianter.",
+        false_description: "Använd globala standardvarianter.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "objekt objekt objekt (valfritt)",
+        placeholder: "Ställ in värden... (valfritt)",
         messages:
-          "objekt objekt 🛍️ Beställ",
+          "Du kan ge förslag på värdena och anpassa ordningen.",
       },
     },
   },
@@ -7939,7 +7939,7 @@ export default {
     courier_action: "Leveransbekräftelse",
     courier_action_subtitle: "Min kurir hämtar paketet.",
 
-    pickup_ready_action: "objekt objekt",
+    pickup_ready_action: "Pickup klar",
     pickup_ready_action_subtitle: "Beställningen är klar för kundupphämtning.",
 
     service_action: "Utförandebekräftelse",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Alternativ 3: Omedelbar leverans.",
 
     verify_delivery_input: {
-      true_title: "objekt Leverans objekt",
+      true_title: "Bekräfta leverans slutförd",
       true_description:
         "Jag bekräftar att beställningen har levererats till kunden.",
     },
@@ -8041,7 +8041,7 @@ export default {
             "En internationell kod som används för att identifiera banker globalt, särskilt för internationella överföringar.",
         },
         iban: {
-          label: "IBAN (objekt objekt konto objekt)",
+          label: "IBAN (International Bank Account Number)",
           message:
             "Används främst i Europa, IBAN är ett internationellt överenskommet system för att identifiera bankkonton över nationella gränser.",
         },
@@ -8080,7 +8080,7 @@ export default {
         "Du är i bronsnivån. Du har tjänat 2 % i provision från dina hänvisningar.",
     },
     Silver: {
-      title: "objekt objekt",
+      title: "Tier Silver",
       description:
         "Du är i Silver Tier. Du har tjänat 4 % i provision från dina hänvisningar.",
     },
@@ -8090,12 +8090,12 @@ export default {
         "Du är i guldnivån. Du har tjänat 6 % i provision från dina hänvisningar.",
     },
     Platinum: {
-      title: "objekt objekt",
+      title: "Tier Platinum",
       description:
         "Du är i Platinum Tier. Du har tjänat 8 % i provision från dina hänvisningar.",
     },
     Diamond: {
-      title: "objekt objekt",
+      title: "Tier Diamond",
       description:
         "Du är i Diamond Tier. Du har tjänat 10 % i provision från dina hänvisningar.",
     },
@@ -9214,7 +9214,7 @@ export default {
 
   /** {@see BPageShopApplicationsMetaverse} **/
   metaverse: {
-    title: "objekt objekt",
+    title: "Metaverse Bridge",
     subtitle:
       "Selldone tillhandahåller %100 API-baserade tjänster i handelsområdet. Spel-, blockkedje- och metaverseutvecklare kan använda dessa kraftfulla API:er för att koppla samman företag, kunder och tjänster i framtiden för arbets-, livs- och handelsvärlden.",
     message: "Tidig tillgång för spelutvecklare",
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "Lägg till ny cashback",
     title: "Cashback-program",
-    boosted: "objekt (2objekt)",
+    boosted: "Boost (2x)",
     min_purchase: "Minsta köp",
     only_first_order: "Endast första beställning",
     total_cashback: "objekt återbäring",
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "Vanligt",
-      true_title: "objekt (2objekt återbäring)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "Cashback-programmet är i boostläge och kunder kommer att få 2x cashback.",
       false_msg:
@@ -10074,15 +10074,15 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Lägg till Varianter objekt objekt",
+    title: "Lägg till varianter i bulk",
     variants: {
       title: "objekt alternativ",
       subtitle:
         "Välj upp till två varianter. Efter valet kan du välja vilka specifika varianter som ska skapas automatiskt.",
     },
     values: {
-      title: "objekt objekt",
-      subtitle: "objekt objekt ",
+      title: "Variantvärden",
+      subtitle: "Ange de möjliga värdena för varje variantalternativ här.",
       prevent_duplicates_tips:
         "<b>Obs:</b> Vi söker automatiskt efter befintliga varianter för att förhindra dubbletter.",
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "Nej objekt Ladda upp objekt",
+    no_asset_uploaded: "Ingen tillgång har laddats upp ännu.",
   },
 
   /**
@@ -10695,22 +10695,22 @@ export default {
     edit_mode_tooltip: {
       title: "Redigera / Förhandsvisning läge",
       edit_mode_title: "Redigera läge",
-      edit_mode_msg: "Allt Redigera Verktyg objekt objekt objekt",
+      edit_mode_msg: "Alla redigeringsverktyg kommer att visas.",
       view_mode_title: "Förhandsvisning läge",
       view_mode_msg:
         "Visa din sida som användare skulle se den genom att dölja extra redigeringsverktyg och tomma textområden.",
     },
     repository_tooltip: {
-      title: "objekt objekt",
+      title: "Förbyggda sektioner",
       subtitle:
         "Växla visningen av fördesignade avsnitt. Dessa sektioner skapas med hjälp av standardsektionerna som finns tillgängliga i den vänstra menyn, vilket visar flexibiliteten hos den här sidbyggaren.",
     },
     live_view: {
       title: "leva Förhandsvisning",
-      subtitle: "visa Uppdatera objekt objekt Redigera objekt sida",
+      subtitle: "Se uppdateringar i realtid när du redigerar din sida.",
     },
     hotkeys_dialog: {
-      title: "objekt objekt",
+      title: "Kortkommandon",
       augment_tips:
         "Du kan ladda dynamiskt innehåll på din sida och ersätta det med <b>augment</b> värden. Augment används för anpassade dynamiska sidor som <b>Products</b>, <b>Categories</b> och <b>Include Items</b>. För att ställa in en bild att laddas dynamiskt, klicka på <b>Feeder</b> och välj <b>Dynamisk källa</b> för den bilden.",
     },
@@ -10723,10 +10723,10 @@ export default {
       ctrl_1:
         "Minska teckenstorleken för vald text | <small>Gör mig liten</small>",
       ctrl_2: "Öka teckensnittsstorleken på markerad text | <big>Gör mig stor</big>",
-      ctrl_r: "Ta bort Allt objekt Från Välj objekt | objekt Allt objekt",
+      ctrl_r: "Ta bort all formatering från markerad text | Rengör alla stilar",
       ctrl_s: "Spara objekt sida",
-      tab: "objekt objekt objekt läge",
-      ctrl_e: "objekt objekt Stil läge",
+      tab: "Växla mellan skallägen",
+      ctrl_e: "Aktivera eller inaktivera klonstilsläge",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "objekt & objekt",
-    subtitle: "objekt objekt",
+    title: "Dra och släpp",
+    subtitle: "Förbyggda sektioner",
     add_dialog: {
       title: "Lägg till Beställnings objekt",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Bild",
-        subtitle: "offentlig bild objekt objekt objekt Lista",
+        subtitle: "Offentlig bild som visas i listan.",
       },
       code: {
         title: "Koda",
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Titel",
-          message: "objekt objekt objekt offentlig Titel",
+          message: "Detta är den offentliga titeln.",
         },
         tags: {
           label: "Taggar",
@@ -10774,7 +10774,7 @@ export default {
   marketplace_vendors: {
     title: "säljare Lista",
     subtitle:
-      "Lägg till säljare objekt, objekt objekt objekt Till Produkter objekt objekt Produkt instrumentbräda > säljare",
+      "Lägg till leverantörer här och tilldela dem sedan till produkter i produktöversikten > leverantörer.",
     add_new_vendor_action: "Lägg till Ny säljare",
     status_tooltip: {
       title: "Leverantörsstatus",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Säljarens begäran har avvisats.",
       PENDING: "Begäran väntar på ett beslut från säljaren.",
     },
-    number_of_products: "objekt objekt Produkter",
+    number_of_products: "Antal produkter",
     invited: "objekt",
     no_pricing: "Ingen prissättning",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Ange en standardprismodell för leverantören.",
     },
     updated_products_tooltip: {
-      title: "Produkter objekt objekt 24 objekt",
+      title: "Produkter uppdaterade under de senaste 24 timmarna",
     },
     added_products_tooltip: {
       title: "Produkter som har lagts till under de senaste 24 timmarna",
@@ -10806,14 +10806,14 @@ export default {
         "Användaren avvisade begäran om att bli en leverantör och få åtkomst till denna leverantör.",
     },
     download_all_vendors: "Ladda ner Allt säljare",
-    bulk_import: "objekt Importera (objekt)",
+    bulk_import: "Massimport (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Licens objekt objekt!",
+    title: "Licensuppgradering krävs!",
     subtitle:
       "Din nuvarande licens uppfyller inte kraven för din valda affärsmodell. Vänligen uppgradera din licens till Enterprise-planen.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Lägg till meddelandemall",
 
     notifications: {
-      add_chat_success_message: "Meddelande objekt objekt Lägg till objekt",
+      add_chat_success_message: "Meddelandet har lagts till.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Skicka Uppdatering E-post",
 
       notifications: {
-        send_success_message: "E-post objekt objekt Skickat objekt",
+        send_success_message: "E-post har skickats.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Lägg till Mall",
 
       notifications: {
-        save_success_message: "Mall objekt objekt ",
+        save_success_message: "Mallen har sparats.",
       },
 
       inputs: {
         title: {
           label: "Mall Titel",
-          placeholder: "skrivning objekt objekt Titel",
+          placeholder: "Skriv en kort rubrik...",
         },
         body: {
           label: "Mall Meddelande",
-          placeholder: "skrivning objekt Meddelande objekt",
+          placeholder: "Skriv ditt meddelande här...",
           messages:
-            "objekt objekt {order_id} objekt {buyer_name}.",
+            "Du kan ställa in dynamiska värden med {order_id} och {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "objekt",
     guest: "objekt",
     click_to_create: "objekt Till Skapa",
-    valid_for_30_days: "objekt objekt 30 30 dagar",
+    valid_for_30_days: "gäller i 30 dagar",
     notifications: {
-      secure_link_created: "objekt Länk objekt objekt ",
+      secure_link_created: "Säker länk har skapats framgångsrikt.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Lägg till Ny objekt objekt",
-    title: "objekt objekt",
+    add_caption: "Lägg till ny egenskapsuppsättning",
+    title: "Egenskapsuppsättningar",
     subtitle:
       "Du kan skapa och hantera egenskapsuppsättningar här. Egenskapsuppsättningar används för att definiera egenskaperna hos produkter och tjänster. Du kan tilldela dessa egenskapsuppsättningar till produkter i produktöversikten > Redigera.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "objekt objekt - Beställnings Varianter",
+      title: "Egenskapsuppsättning - anpassade varianter",
       subtitle:
         "Du kan anpassa variantnamnen för den här produkten och ersätta standardnamnen.",
     },
 
     subtitle:
       "Du kan anpassa variantnamn, ikoner och deras ordning här. För produkter med unika varianter som går utöver standard sex, kan du ställa in anpassade varianter skräddarsydda för varje produkt. Definiera helt enkelt egenskapsuppsättningar på fliken Logistik > Egenskapsuppsättningar och tilldela dem till valfritt antal produkter efter behov.",
-    select_property_set: "Välj objekt objekt",
-    add_property_set: "Lägg till objekt objekt",
+    select_property_set: "Välj Egenskapsuppsättning",
+    add_property_set: "Lägg till egenskapsuppsättning",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10936,15 +10936,15 @@ export default {
     edit: "Redigera objekt",
     new: "Ny objekt",
     default_weight: "Standard Vikt",
-    updated: "objekt objekt",
-    created: "objekt objekt",
+    updated: "Box uppdaterad.",
+    created: "Box skapad.",
     deleted: "objekt raderade",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Välj objekt paket",
-    define_package: "objekt objekt paket",
+    define_package: "Definiera ett paket",
     define_package_hint: "Skapa eller redigera dina fördefinierade paketstorlekar",
   },
 
@@ -10984,11 +10984,11 @@ export default {
     items: {
       title: "Föremål",
       sub_title:
-        "Skapa, Redigera, objekt Hantera Listning Föremål objekt status, Prissättning, Kontakt objekt, objekt objekt",
+        "Skapa, redigera och hantera listobjekt. Kontrollera status, priser, kontaktinformation och media.",
 
       empty_title: "Nej Föremål objekt",
       empty_subtitle:
-        "Skapa objekt objekt Listning Artikel Till start Byggnad. .. objekt objekt",
+        "Skapa ditt första objekt för att börja bygga din katalog.",
 
       add_title: "Lägg till vara",
       edit_title: "Redigera Artikel",
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Länkar JSON",
-      opening_hours_json: "objekt objekt JSON",
+      opening_hours_json: "Öppettider JSON",
 
       delete_title: "Radera Artikel",
-      delete_message: "objekt objekt Till Radera objekt Artikel?",
+      delete_message: "Är du säker på att du vill ta bort det här objektet?",
       delete_success: "Objektet har raderats.",
-      restore_success: "Artikel objekt objekt",
+      restore_success: "Objektet har återställts.",
 
-      opening_hours:"objekt objekt",
+      opening_hours:"Öppettider",
       form_fields:"formulär objekt",
 
       company: "Företag",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Lägg till Kategori",
       edit_title: "Redigera kategori",
 
-      parent_filter: "Filtrera objekt objekt",
+      parent_filter: "Filtrera efter förälder",
       parent: "Föräldrakategori",
 
       price_format: "pris objekt",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "objekt ID",
 
       delete_title: "Ta bort kategori",
-      delete_message: "objekt objekt Till Radera objekt Kategori?",
+      delete_message: "Är du säker på att du vill ta bort den här kategorin?",
       delete_success: "Kategori raderade objekt",
       form_schema: "Kategori formulär objekt",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "objekt",
       moderation_mode: "objekt läge",
-      require_first_approved_before_more: "objekt objekt Mer. .",
+      require_first_approved_before_more: "Kräv ett första godkännande innan fler",
 
       limits_title: "Gränser",
-      max_pending_per_user: "objekt I väntan på objekt Användare",
-      max_items_per_user: "objekt Föremål objekt Användare",
+      max_pending_per_user: "Max väntande per användare",
+      max_items_per_user: "Max objekt per användare",
       limits_hint: "Gränser objekt",
 
       templates_title: "Mallar",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "Artikel objekt objekt",
+      approve_success: "Objektet har godkänts.",
       publish_success: "Artikel Publicerad objekt",
-      unpublish_success: "Artikel objekt objekt",
-      archive_success: "Artikel objekt objekt",
+      unpublish_success: "Objektet har avpublicerats.",
+      archive_success: "Objektet har arkiverats.",
       reject_success: "Artikel avvisade objekt",
-      penalty_success: "objekt objekt objekt",
+      penalty_success: "Påföljd tillämpades framgångsrikt.",
 
       reject_title: "Avvisa Artikel",
-      reject_reason: "objekt objekt",
+      reject_reason: "Orsak till avslag",
 
       penalty: "objekt",
       penalty_title: "objekt",
-      penalty_points: "objekt objekt",
+      penalty_points: "Straffpoäng",
       penalty_note: "objekt Notera"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Ladda upp Bilder",
       url_type: "Typ",
       url: "URL",
-      is_main: "objekt objekt huvud"
+      is_main: "Ställ in som huvud"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Skapa flera designuppsättningar (kort + detaljmallar) och tilldela dem till kategorier. Kategorier kan använda olika mönster.",
 
-      empty_title: "Nej objekt objekt",
+      empty_title: "Inga mönster än",
       empty_subtitle:
         "Lägg till din första designuppsättning för att börja anpassa hur kategorier ser ut.",
 
@@ -11127,9 +11127,9 @@ export default {
       details_template: "Detaljer Mall",
 
       notifications: {
-        add_success: "objekt objekt objekt",
-        edit_success: "objekt objekt objekt",
-        delete_success: "objekt raderade objekt",
+        add_success: "Design skapad framgångsrikt.",
+        edit_success: "Designen har uppdaterats.",
+        delete_success: "Designen har tagits bort.",
       },
 
       delete_title: "Radera objekt",
@@ -11148,42 +11148,42 @@ export default {
 
       empty_title: "Nej Märken objekt",
       empty_subtitle:
-        "Lägg till objekt objekt märke Till start objekt Listning Föremål",
+        "Lägg till ditt första märke för att börja markera objekt.",
 
       add_title: "Lägg till märke",
       edit_title: "Redigera märke",
 
       notifications: {
-        add_success: "märke objekt objekt",
-        edit_success: "märke objekt objekt",
+        add_success: "Märket har skapats.",
+        edit_success: "Märket har uppdaterats.",
         delete_success: "märke raderade objekt",
       },
 
       delete_title: "Radera märke",
-      delete_message: "objekt objekt Till Radera objekt märke?",
+      delete_message: "Är du säker på att du vill ta bort det här märket?",
     },
 
     companies: {
       title: "Företag",
       sub_title:
-        "Skapa objekt Hantera Företag objekt Listning Artikel objekt objekt objekt länkad Till objekt Företag",
+        "Skapa och hantera företag. Varje noteringsobjekt kan valfritt kopplas till ett företag.",
 
       empty_title: "Nej Företag objekt",
       empty_subtitle:
-        "Lägg till objekt objekt Företag Till Länk objekt Till Listning Föremål",
+        "Lägg till ditt första företag för att länka det till listningsobjekt.",
 
       add_title: "Lägg till Företag",
       edit_title: "Redigera företag",
 
       notifications: {
-        add_success: "Företag objekt objekt",
-        edit_success: "Företag objekt objekt",
+        add_success: "Företaget skapades framgångsrikt.",
+        edit_success: "Företaget har uppdaterats.",
         delete_success: "Företag raderade objekt",
       },
 
       delete_title: "Radera Företag",
       delete_message:
-        "Radera objekt Företag? Föremål objekt objekt Företag Länk",
+        "Ta bort det här företaget? Föremål som använder det kommer automatiskt att förlora företagslänken.",
     },
 
 
@@ -11197,7 +11197,7 @@ export default {
       sender: "objekt",
       item: "Artikel",
       has_reply: "objekt",
-      has_reply_yes: "objekt objekt",
+      has_reply_yes: "Har svar",
       has_reply_no: "Nej objekt",
 
       dialog_title: "Meddelande",
@@ -11205,29 +11205,29 @@ export default {
       reply: "objekt",
       reply_hint: "Skriv ett svar till användaren. Du kan också markera meddelandet som läst/spam från åtgärder.",
 
-      mark_read: "objekt objekt läsning",
-      mark_unread: "objekt objekt objekt",
+      mark_read: "Markera som läst",
+      mark_unread: "Markera som oläst",
       archive: "objekt",
       unarchive: "objekt",
-      mark_spam: "objekt objekt objekt",
-      mark_not_spam: "objekt objekt",
+      mark_spam: "Markera som skräppost",
+      mark_not_spam: "Inte spam",
 
       delete_confirm: "Radera objekt Meddelande?",
     },
 
     enable: {
       title: "Listning",
-      subtitle: "Gör det möjligt objekt Inaktivera objekt offentlig Listning sida objekt aktiverad objekt objekt objekt Tid, Selldone objekt Skapa objekt Listning Konfiguration objekt",
-      true_description: "Listning objekt aktiverad Kunder objekt objekt Listning Sidor",
+      subtitle: "Aktivera eller inaktivera din offentliga listningssida. När den är aktiverad för första gången kommer Selldone att skapa listkonfigurationen automatiskt.",
+      true_description: "Listning är aktiverad. Kunder kan bläddra på listningssidor.",
       false_description: "Listan är inaktiverad. Listningssidorna och bidragen är blockerade.",
       open_listing: "objekt Listning",
       note: "Du kan senare konfigurera moderering, gränser, formulär och design i listningsinställningarna.",
       vendor_prereq_text:
-        "objekt säljare Till Lägg till Listning Föremål Från objekt säljare objekt? objekt, objekt objekt Företag objekt Till Marknad",
-      vendor_prereq_button: "objekt Marknad Företag objekt",
+        "Vill du att leverantörer ska lägga till listobjekt från sin leverantörspanel? Byt först din affärsmodell till Marketplace.",
+      vendor_prereq_button: "Ställ in Marketplace affärsmodell",
 
       vendor_access_text:
-        "objekt objekt säljare objekt Tillgång Listning objekt (Föremål + Företag). Gör det möjligt objekt objekt Marknad inställningar",
+        "Nu kan du bestämma om leverantörer kan få tillgång till listningsfunktioner (artiklar + företag). Aktivera det i Marketplace-inställningarna.",
       vendor_access_button: "Gör det möjligt Listning objekt säljare",
 
       more_options_text:
@@ -11241,11 +11241,11 @@ export default {
 
     search: {
       title: "sök inställningar",
-      subtitle: "objekt objekt Kunder sök objekt Listning Gör det möjligt objekt sök objekt Bygga Filter Från objekt Beställnings formulär objekt",
+      subtitle: "Utforma hur kunder söker efter dina uppgifter. Aktivera platsbaserad sökning och skapa filter från dina anpassade formulärfält.",
 
       location_title: "Plats sök",
       location_subtitle: "Tillåt kunder att välja en plats och hitta närliggande resultat inom en konfigurerbar radie.",
-      location_enabled_true: "Plats Filtrera objekt aktiverad Kunder objekt sök objekt objekt",
+      location_enabled_true: "Platsfiltret är aktiverat. Kunder kan söka på avstånd.",
       location_enabled_false: "Platsfiltret är inaktiverat. Resultaten kommer inte att filtreras efter avstånd.",
 
       radius_default: "Standard Radie (objekt)",
@@ -11260,7 +11260,7 @@ export default {
       no_filters: "Nej Filter Lägg till objekt",
       auto_generate: "objekt alternativ",
 
-      filter_field: "objekt objekt",
+      filter_field: "Fältnyckel",
       filter_label: "Märka",
       filter_type: "Typ",
       filter_options: "alternativ",
@@ -11269,7 +11269,7 @@ export default {
       single: "objekt",
       kv_mode: "objekt läge",
 
-      requires_listing_active: "Listning objekt objekt Aktiva Gör det möjligt Listning objekt Till objekt objekt ",
+      requires_listing_active: "Listan är inte aktiv. Aktivera Listing först för att använda den i skyltfönstret.",
 
 
     },
@@ -11323,13 +11323,13 @@ export default {
      */
     shop_email: {
       name: [
-        "objekt objekt ",
+        "Super Savings Weekend Blast",
         "Exklusiva insidererbjudanden presenteras",
         "Din VIP-åtkomst till premiumrabatter",
         "Säsongsrea Extravaganza",
         "Lås upp ditt shoppingparadis",
-        "objekt objekt ",
-        "VÅR15 objekt objekt objekt",
+        "The Grand Shopper's Carnival",
+        "Spring Fling Shopping Spree",
         "Hösterbjudanden du inte kan motstå",
         "Winter Wonders: Varma erbjudanden för kalla dagar",
         "Slutet av sommaren Clearance Countdown",
@@ -11440,16 +11440,16 @@ export default {
         "Specialerbjudande",
         "Extra besparingar",
         "Rabattvarning",
-        "objekt objekt",
+        "Budget Bliss",
         "Ekonomiglädje",
         "Värde Bonanza",
-        "Prisnedsättning",
+        "Prissänkt",
         "Glada besparingar",
         "Spara mer, handla mer",
-        "objekt objekt",
+        "Flash Deal",
         "Fynda Bounty",
-        "Snabba besparingar",
-        "Dagens erbjudande",
+        "Omedelbara besparingar",
+        "Dagens affär",
         "Säsongsbetonad stjäla",
       ],
       description: [
@@ -11663,13 +11663,13 @@ export default {
         "Startpaket",
         "Grundläggande plan",
         "Professionell svit",
-        "objekt objekt",
+        "Enterprise Edition",
         "Avancerad nivå",
         "Premiumpaket",
         "Ultimate lösning",
         "Elitnivå",
         "Tillväxtaccelerator",
-        "objekt objekt",
+        "Platinum Power",
       ],
     },
 
@@ -11747,13 +11747,13 @@ export default {
     popup: {
       title: [
         "Specialerbjudande!",
-        "Nyankomna",
+        "Nya ankomster",
         "Begränsad tid",
         "Rabattvarning!",
         "Exklusiva erbjudanden",
         "Het rea!",
-        "objekt objekt",
-        "Gratis frakt",
+        "Clearance Alert",
+        "Fri frakt",
         "Present inuti!",
         "Vinn priser",
         "Medlemsförmåner",
@@ -11767,25 +11767,25 @@ export default {
     campaign: {
       name: [
         "Shoppa 'Til You Drop",
-        "objekt objekt",
+        "Cart Frenzy",
         "Flash Rea Fiesta",
         "Klicka, handla, spara",
         "Fynda Bonanza",
-        "objekt objekt",
-        "objekt objekt objekt",
+        "E-Deal Extravaganza",
+        "Mega Markdown Madness",
         "Cybersparande spree",
         "Digitala rabattdagar",
         "E-handelskarneval",
-        "objekt objekt objekt",
-        "objekt objekt",
+        "Online Outlet Oasis",
+        "Retail Rush",
         "Webbutik lagerförsäljning",
         "E-Shoppers paradis",
-        "objekt objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt objekt",
+        "Virtual Voucher Venture",
+        "Digital Doorbusters",
+        "E-Cart Clearance",
+        "Online Shopping Showdown",
         "Spektakulär cyberförsäljning",
-        "E-fynd blitz",
+        "E-fynd blixt",
       ],
     },
 
@@ -11847,24 +11847,24 @@ export default {
     lottery: {
       title: [
         "Snurra och vinn stora priser!",
-        "objekt objekt objekt",
-        "objekt objekt objekt",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Snurra för att vinna belöningar",
-        "objekt objekt objekt",
-        "objekt Lotteri objekt",
-        "objekt objekt objekt",
-        "Pris objekt objekt",
-        "objekt objekt objekt",
-        "objekt objekt ",
+        "Wheel of Wealth",
+        "Lucky Lottery Extravaganza",
+        "Mega Spin Surprise",
+        "Prize Wheel Fiesta",
+        "Treasure Spin Spectacular",
+        "Spin the Wheel Magic",
         "Lucky Wheel i överflöd",
-        "objekt objekt",
+        "Fortune's Favor",
         "Underverkens hjul",
-        "objekt objekt objekt",
+        "Spin for Riches",
         "Pris Spinner Delight",
         "Golden Spin-lotteriet",
         "Spin-a-Pris",
         "Lyckohjulet",
-        "objekt objekt objekt",
+        "Lucky Spin Showcase",
         "Ultimat spin-belöning",
       ],
       description: [
@@ -11901,7 +11901,7 @@ export default {
         "Guldpaket",
         "Silverplan",
         "Platinaabonnemang",
-        "objekt objekt",
+        "Enterprise Tier",
         "Startpaket",
         "Obegränsat erbjudande",
         "Familjepaket",
@@ -12002,21 +12002,21 @@ export default {
         "Försäljare Plaza",
         "Utvalda hem",
         "Lokal marknad",
-        "Nyankomna",
-        "objekt objekt",
+        "Nya ankomster",
+        "Estate Gardens",
         "Shoppingdistrikt",
-        "objekt objekt",
+        "Artisan Alley",
         "Lyxiga fastigheter",
         "Uthyrningsnav",
         "Öppet hus",
         "Tekniska innovationer",
-        "objekt objekt",
+        "Fashion Lane",
         "Hantverkshörna",
-        "objekt objekt",
+        "Food Court",
         "Boknook",
         "Smycken Junction",
         "Antik Avenue",
-        "objekt objekt",
+        "Fitness Zone",
       ],
     },
 
@@ -12026,8 +12026,8 @@ export default {
     marketplace_document: {
       title: [
         "Företagsregistreringsbevis",
-        "Beskatta objekt objekt (TIN)",
-        "Leverantörsavtalsformulär",
+        "Tax Identification Number (TIN)",
+        "Form för leverantörsavtal",
         "Produktkatalog",
         "Prislista",
         "Bankkontouppgifter",
@@ -12061,7 +12061,7 @@ export default {
         "Expertkonsultavtal för företagare",
         "Serviceavtal för Marketplace Configuration",
         "Kontrakt för butiksinställning och konfigurationstjänster",
-        "POD tjänst objekt objekt",
+        "POD Service Provision Agreement",
         "Implementeringsavtal för marknadsföringsstrategi",
         "Serviceavtal för affärsutveckling",
         "Konfigurationsavtal för e-handel",
@@ -12070,7 +12070,7 @@ export default {
         "Serviceavtal för anpassad butiksinstallation",
         "Serviceavtal för marknadsplatsoptimering",
         "Konsult- och installationsavtal",
-        "POD objekt Tjänster objekt",
+        "POD Integration Services Agreement",
         "Avtal om marknadsföring och marknadsföring",
         "Serviceavtal för affärsexpansion",
       ],
@@ -12102,18 +12102,18 @@ export default {
         "Handla och tjäna pengar",
         "Lojalitetsbelöningar Cashback",
         "Exklusiva Cashback-erbjudanden",
-        "återbäring objekt",
+        "Cashback Bonanza",
         "Omedelbar cashback-erbjudanden",
         "Säsongsbetonade Cashback-besparingar",
         "Dubbla Cashback-dagar",
         "Cashback vid varje köp",
-        "återbäring objekt",
+        "Cashback Frenzy",
         "VIP Cashback-program",
         "Tidsbegränsad Cashback",
-        "återbäring objekt Klubb",
+        "Cashback Rewards Club",
         "Handla mer, spara mer",
         "Ultimata Cashback-belöningar",
-        "återbäring objekt",
+        "Cashback Extravaganza",
       ],
       description: [
         "Tjäna cashback på varje köp!",
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "objekt objekt",
-        "objekt",
-        "objekt",
-        "objekt",
-        "Hem objekt",
-        "objekt Produkter",
-        "objekt objekt",
+        "Digitala varor",
+        "Böcker",
+        "Elektronik",
+        "Mode",
+        "Vitvaror",
+        "Skönhetsprodukter",
+        "Sportutrustning",
         "Leksaker & spel",
         "Specerier",
-        "möbel",
+        "Möbler",
         "Bildelar",
-        "Smycken",
-        "objekt & objekt",
+        "Smycke",
+        "Hälsa & Wellness",
         "Tillbehör för husdjur",
         "Kontorsmaterial",
-        "objekt & objekt",
-        "objekt & TV Visa",
-        "programvara",
-        "objekt & objekt",
-        "objekt objekt",
+        "Musik & Instrument",
+        "Filmer och TV-program",
+        "Programvara",
+        "Konst & Hantverk",
+        "Utomhusutrustning",
       ],
     },
 
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Orderbekräftelse",
-        "🛍️ Beställ Skickas",
-        "🛍️ Beställ Levereras",
-        "Betalning Mottagen",
-        "🛍️ Beställ objekt",
-        "🛍️ Beställ objekt objekt",
-        "🛍️ Beställ objekt objekt",
-        "🛍️ Beställ objekt objekt Leverans",
-        "Lämna tillbaka objekt",
-        "återbetalning objekt",
-        "Artikel Tillbaka objekt objekt",
+        "Beställning skickad",
+        "Beställning levererad",
+        "Betalning mottagen",
+        "Beställning avbruten",
+        "Fördröjning av orderhantering",
+        "Beställning i vänteläge",
+        "Beställ ut för leverans",
+        "Retur bearbetad",
+        "Återbetalning utfärdad",
+        "Varan finns i lager igen",
       ],
       body: [
         "Hej {buyer_name}, din beställning #{order_id} har bekräftats! Vi bearbetar den och kommer att meddela dig när den är redo att skickas.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "objekt",
-        "objekt objekt",
-        "objekt",
+        "Klä",
+        "Digitala prylar",
+        "Drycker",
         "Livsmedel",
-        "möbel",
-        "objekt",
-        "objekt Produkter",
-        "objekt",
-        "objekt objekt",
-        "objekt",
+        "Möbler",
+        "Böcker",
+        "Skönhetsprodukter",
+        "Leksaker",
+        "Sportutrustning",
+        "Tillbehör",
       ],
       description: [
         "Attribut för klädesplagg som storlek, färg och tyg.",
         "Specifikationer för prylar som varumärke, modell och funktioner.",
         "Smaker, storlekar och typer av drycker.",
         "Detaljer för måltider, snacks och livsmedelsprodukter.",
-        "Material, objekt, objekt objekt objekt",
-        "Författare, objekt, objekt objekt objekt",
+        "Material, dimensioner och designstilar.",
+        "Författare, genre och utgivningsår.",
         "Hudtyp, ingredienser och förpackningsdetaljer.",
         "Åldersgrupp, material och säkerhetsstandarder.",
-        "Typ, objekt, objekt Prestanda objekt",
-        "objekt, objekt, objekt varumärke Detaljer",
+        "Typ, storlek och prestandafunktioner.",
+        "Stilar, material och märkesdetaljer.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "objekt XS",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt XL",
-        "objekt XXL",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt",
-        "objekt objekt objekt",
-        "objekt objekt objekt", // flexible mailer
-        "objekt objekt", // bubble/padded
-        "objekt objekt", // thermal
-        "objekt objekt",
+        "Box XS",
+        "Box S",
+        "Box M",
+        "Box L",
+        "Box XL",
+        "Box XXL",
+        "Box Slim",
+        "Box bred",
+        "Box Tall",
+        "Box Flat",
+        "Box kub",
+        "Box Tube",
+        "Box ömtålig",
+        "Box glasflaskor",
+        "Box Soft Pack", // flexible mailer
+        "Box vadderad", // bubble/padded
+        "Box isolerad", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

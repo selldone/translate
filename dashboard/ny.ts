@@ -31,8 +31,8 @@ export default {
     main_domain: "yayikulu domeni",
     domains: "madera",
     home_page: "Kunyumba tsamba",
-    google_icon_font_sample: "Google chinthu chinthu",
-    fontawesome_icon_font_sample: "Fontawesome (chinthu) chinthu",
+    google_icon_font_sample: "Zitsanzo za zilembo za Google",
+    fontawesome_icon_font_sample: "Fontawesome (V6) chitsanzo",
   },
 
   numbers: {
@@ -250,7 +250,7 @@ export default {
   /** {@see Helps} **/
 
   helps: {
-    title: "Selldone chinthu chinthu",
+    title: "Selldone Help Center",
     subtitle:
       "Takulandilani ku Selldone. Ngati mukumanga sitolo yatsopano yapaintaneti pa bizinesi OS, mutha kupeza zambiri apa.",
 
@@ -265,7 +265,7 @@ export default {
 
       Product: "Kasamalidwe ka Zogulitsa & Magawo",
       Blog: "chinthu & chinthu",
-      Order: "Malamulo chinthu chinthu",
+      Order: "Orders Fulfillment Center",
       Channel: "Njira Zogulitsa",
       Accounting: "Njira Zowerengera & Malipiro",
       Incentives: "Zolimbikitsa",
@@ -635,7 +635,7 @@ export default {
 
       show_notes: {
         false_title: "Bisani chinthu",
-        false_description: "Bisani chinthu chinthu",
+        false_description: "Bisani zolemba zopanda kanthu.",
         true_title: "Onetsani chinthu",
         true_description: "Onetsani zonse chinthu, ⌘Ctrl+2",
       },
@@ -1216,13 +1216,13 @@ export default {
         app_icon_input_placeholder: "Sankhani fayilo ya zip ya zithunzi za pulogalamu.",
         generate_icon_pack_action: "Pangani Icon Pack",
         splash_design: "Splash Screen Design",
-        splash_logo_input: "chinthu chinthu Chizindikiro",
+        splash_logo_input: "Splash Screen Logo",
         splash_logo_input_placeholder: "Sankhani chithunzi cha Splash Screen.",
         splash_title_input: "Mutu wa Splash Screen",
         splash_title_input_placeholder: "Lowetsani mutu wa Splash Screen",
         splash_title_input_message:
           "Mutuwu udzawonetsedwa mu kukula kwa zilembo zazikulu.",
-        splash_message_input: "chinthu chinthu Uthenga",
+        splash_message_input: "Splash Screen Message",
         splash_message_input_placeholder: "Uthenga...",
         splash_message_input_message:
           "Uthenga uwu uwonetsedwa ngati chithunzi pansipa.",
@@ -1428,13 +1428,13 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Gulu",
-      category_input_msg: "chinthu: chinthu chinthu Masitolo chinthu",
+      category_input_msg: "Chopanda: Muzu wa sitolo",
       product_name: "Dzina la malonda*",
       product_name_placeholder: "Dzina la malonda anu apa..",
       product_code: "Khodi ya malonda (Chingerezi)",
       sku: {
         label: "SKU",
-        message: "chinthu chinthu Chigawo",
+        message: "Stock Keeping Unit",
       },
       mpn: {
         label: "MPN",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Chonde sungani malondawo kaye, ndiyeno mutha kugawira mtundu wowerengera.",
         assign_valuation_message:
-          "chinthu chinthu Kuti chinthu Mankhwala",
+          "Chonde perekani chitsanzo cha mtengo wa chinthuchi.",
         edit_pricing_action: "Sinthani Mitengo fomu",
         add_pricing_action: "Pangani Zatsopano Mitengo fomu",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Mwambo Gulani chinthu",
         message:
           "Mutha kusintha chizindikiro potsatira ndondomeko iyi : {icon name} mawu omasulira...",
-        placeholder: "chinthu chinthu Kuti chinthu",
+        placeholder: "Lowetsani kuyitana kuti muchitepo kanthu...",
         multi_language_dialog_title: "Mwambo Gulani chinthu chinthu",
       },
       external: {
         not_available_message:
           "Zowonjezerapo zomwe zikupezeka ndi malayisensi a Company & Enterprise.",
         available_message: "Mukhoza kuwonjezera kuyitana kwina kwakunja kuti muchitepo kanthu.",
-        input_label: "chinthu chinthu Kuti chinthu",
+        input_label: "Kuitana Kwachiwiri Kuchitapo",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Miyezo yogwirizana ndi UPC (North America, manambala 12), EAN (Europe, manambala 13), JAN (Japan, manambala 8 kapena 13), ISBN (mabuku, manambala 13).",
-        label: "Zogulitsa chinthu chinthu ",
-        placeholder: "chinthu chinthu (zosankha)",
+        label: "Nambala Yachinthu Pazamalonda Padziko Lonse",
+        placeholder: "Nambala yamalonda padziko lonse pano.. (Mwasankha)",
       },
       hsn: {
         hint: "HSN, kapena Harmonized System of Nomenclature, ndi njira yokhazikika padziko lonse lapansi yogawira katundu ndi katundu.",
@@ -1532,7 +1532,7 @@ export default {
       },
       condition: {
         label: "Mankhwala chinthu chinthu sitolo",
-        message: "chinthu chinthu Mankhwala",
+        message: "Chonde sankhani momwe zinthu zilili.",
         subtitle:
           "Dziwitsani makasitomala anu za momwe zinthu zilili komanso mtundu wazinthu zomwe mukupereka.",
       },
@@ -1610,7 +1610,7 @@ export default {
         "Tinakwaniritsa Zoyembekeza",
         "Chiyankhulo Chosavuta Kwambiri",
         "Kuchita Bwino Kwambiri",
-        "chinthu chinthu ntchito",
+        "Great After-Sale Service",
         "Ntchito Zosiyanasiyana",
         "Mitengo Yopikisana",
         "Kupezeka kwa Ma Spare Parts/Accessories",
@@ -1696,12 +1696,12 @@ export default {
         generated_spec: {
           title: "chinthuchinthu Zofotokozera AI",
           subtitle:
-            "chinthu Zofotokozera chinthu chinthu ",
+            "Mafotokozedwe awa adapangidwa ndi luntha lochita kupanga.",
         },
         inputs: {
           prompt: {
             label: "Mankhwala Tsatanetsatane",
-            placeholder: "chinthu chinthu Mankhwala chinthu",
+            placeholder: "Fotokozani malonda apa...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "maziko Kufotokozera",
-            placeholder: "chinthu chinthu maziko",
+            placeholder: "Fotokozani maziko omwe mukufuna...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Lingaliraninso chithunzi chonsecho ndi maziko atsopano.",
           },
           replace: {
-            subtitle: "chinthu chinthu maziko",
+            subtitle: "Sinthani maziko omwe alipo.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "chinthu Mitengo chinthu chinthu {min}",
+    title: "Mtengo wowonjezera wa {min}",
     subtitle:
       "Dongosolo limasankha zokha dongosolo ndi zofunika pakuwerengera mitengo. Chonde lowetsani kuchuluka kofunikira kuti mitengoyi igwire ntchito.",
     min_quantity: "Kuchuluka kochepa",
@@ -1875,7 +1875,7 @@ export default {
     menu: {
       add_bulk: {
         title: "chinthu Onjezani",
-        subtitle: "Onjezani chinthu Zosintha chinthu chinthu ",
+        subtitle: "Onjezani mitundu ingapo pakuchita kumodzi.",
       },
       edit_property_set: {
         title: "chinthu chinthu ",
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "chinthu Kasamalidwe",
     subtitle:
-      "Pangani chinthu, chinthu, chinthu chinthu ",
+      "Pangani mawindo owonekera, anzeru, ndi ochezera.",
     add_action: "Onjezani Zatsopano Tumphuka",
   },
 
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "chinthu Zambiri",
-      subtitle: "chinthu chinthu Tsatanetsatane",
+      subtitle: "Chonde perekani zovomerezeka.",
     },
     business: {
       title: "bizinesi Zambiri",
@@ -2075,7 +2075,7 @@ export default {
     inputs: {
       slug: {
         label: "chinthu",
-        placeholder: "chinthu chinthu Mwambo chinthu",
+        placeholder: "Lowetsani njira yomwe mwamakonda...",
         hint: "Kusintha chinthu chinthu ogulitsa chinthu Kutera tsamba",
       },
       email: {
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "chinthu chinthu ",
-        true_description: "chinthu chinthu bizinesi chinthu",
+        true_description: "Ndimagwira ntchito ngati bungwe lovomerezeka mwalamulo.",
         false_title: "chinthu",
         true_title: "bizinesi",
       },
@@ -2096,7 +2096,7 @@ export default {
         placeholder: "chinthu Dzina",
       },
       account_number: {
-        hint: "chinthu ogulitsa chinthu Akaunti chinthu",
+        hint: "Nambala ya akaunti yapadera ya ogulitsa.",
         placeholder: "chinthu Banki Akaunti chinthu",
       },
       routing_number: {
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Nambala ya Akaunti ya Banki Yapadziko Lonse): Ngati banki ya ogulitsa ili ku Europe kapena mayiko ena.",
-        placeholder: "chinthu IBAN chinthu chinthu DE89 3704 0044 0000 0000 00",
+        placeholder: "Nambala yanu ya IBAN.. mwachitsanzo. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Nambala ya Akaunti ya Banki Yapadziko Lonse): Ngati banki ya ogulitsa ili ku Europe kapena mayiko ena.",
@@ -2164,7 +2164,7 @@ export default {
   product_badges: {
     title: "mabaji",
     subtitle: "Onjezani chinthu Sinthani Mwambo Mankhwala mabaji",
-    only_marketplace_owner_msg: "chinthu Msika chinthu",
+    only_marketplace_owner_msg: "Eni ake amsika okha",
     create_new_badge_action: "Pangani Zatsopano baji",
     select_a_badge: "Sankhani chinthu baji",
     inputs: {
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "Baji yawonjezedwa bwino!",
-        badge_updated: "chinthu baji chinthu chinthu !",
+        badge_updated: "Baji yasinthidwa bwino!",
         item_not_found_error:
           "Chinthucho sichinapezeke. Chonde onetsaninso tsambali kapena funsani thandizo.",
       },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "chinthu zizindikiro chinthu chinthu ",
+      tags_updated: "Ma tag asinthidwa bwino.",
     },
   },
 
@@ -2451,7 +2451,7 @@ export default {
           graphical_asset_tips:
             "Mukhoza kupereka mtengo uliwonse ku zosintha, kuphatikizapo zithunzi pogwiritsa ntchito <b>Graphic Assets</b>. Kwezani pateni ndikugwiritsa ntchito code yopangidwa kuti musinthe.",
           graphical_asset_action: "chinthu chinthu",
-          graphical_asset_action_caption: "Zithunzi chinthu chinthu ",
+          graphical_asset_action_caption: "Zithunzi zamitundu yosiyanasiyana.",
         },
         smart_unit_price: {
           tips: "chinthu Chigawo mtengo chinthu chinthu <b>Kulemera</b>, <b>kuchuluka</b>, chinthu <b>chinthu chinthu</b>. Kuti chinthu chinthu , chinthu Kuti Gulani > Zokonda > Mutu > Mankhwala tsamba > chinthu Chigawo mtengo",
@@ -2470,7 +2470,7 @@ export default {
           title: "chinthu & Manyamulidwe",
           subtitle:
             "Tchulani kulemera ndi miyeso yamitundu yosiyanasiyana kuti mudziwe njira zotumizira.",
-          same_as_product_action: "chinthu chinthu Mankhwala",
+          same_as_product_action: "Mofanana ndi mankhwala",
         },
         image: {
           title: "chinthu Zithunzi",
@@ -2482,10 +2482,10 @@ export default {
             message: "chinthu chinthu Chigawo (SKU)",
           },
           mpn: {
-            message: "chinthu chinthu (MPN)",
+            message: "Nambala Yagawo Yopanga (MPN)",
           },
           gtin: {
-            label: "chinthu chinthu (GTIN)",
+            label: "Nambala Yogulitsa Padziko Lonse (GTIN)",
             message:
               "Mitundu yothandizidwa: UPC (manambala 12), EAN (ma manambala 13), JAN (ma manambala 8 kapena 13), ISBN (ma manambala 13).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Sinthani mitundu yonse",
     bulk_action_msg:
       "Khazikitsani kuyika kwazinthu ndi nthawi yokonzekera zamitundu yonse.",
-    dynamic_lead_time: "chinthu chinthu Nthawi",
+    dynamic_lead_time: "Nthawi yotsogolera yamphamvu",
     instant_delivery: "chinthu Kutumiza",
   },
 
@@ -2552,7 +2552,7 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "chinthu Chithunzi chinthu chinthu",
+      title: "Khazikitsani Malemba a Image Alt",
       placeholder: "chinthu chinthu ",
       success_update_notification: "chinthu chinthu ",
     },
@@ -2562,7 +2562,7 @@ export default {
         title: "Chotsani maziko",
         subtitle: "Pangani chinthu yowonekera maziko",
       },
-      success_remove_bg_notification: "maziko chinthu chinthu!",
+      success_remove_bg_notification: "Mbiri yachotsedwa bwino!",
     },
   },
   /**
@@ -2593,9 +2593,9 @@ export default {
   product_variant_item: {
     duplicated_variant: "chinthu chinthu !",
     set_color_warning: "chinthu Sankhani chinthu Mtundu",
-    set_volume_warning: "chinthu chinthu kuchuluka",
+    set_volume_warning: "Chonde tchulani voliyumu.",
     set_pack_warning: "chinthu chinthu ",
-    set_weight_warning: "chinthu chinthu Kulemera",
+    set_weight_warning: "Chonde tchulani kulemera kwake.",
     set_type_warning: "chinthu Sankhani chinthu Mtundu",
     set_style_warning: "chinthu Sankhani chinthu Mtundu",
     out_of_stock: "chinthu chinthu ",
@@ -2610,10 +2610,10 @@ export default {
     restore_dialog: {
       title: "chinthu chinthu",
       message: "Kodi mukutsimikiza kuti mukufuna kubwezeretsanso mtundu womwe wachotsedwawu?",
-      action: "inde, chinthu chinthu",
+      action: "Inde, Bwezerani Tsopano",
     },
     notifications: {
-      restore_variant_success: "chinthu Mankhwala chinthu chinthu ",
+      restore_variant_success: "Zosiyanasiyana zidabwezeretsedwa bwino.",
     },
   },
 
@@ -2718,7 +2718,7 @@ export default {
     title: "chinthu Zochita > mtengo",
     message:
       "Ndalama zotsatirazi zidzagwira ntchito ngati peresenti pamtengo wazinthu zonse zomwe zili m'sitolo yanu. Komanso, mitengo yamtengo wapatali yowerengedwera idzasinthidwa mwanzeru ku nambala yozungulira yoyandikana kwambiri malinga ndi ndalama zomwe zasankhidwa.Chenjerani polowetsa miyeso.",
-    check: "chinthu chinthu mtengo chinthu",
+    check: "Ndikuvomereza kusintha kwamitengo.",
     check_description:
       "Mtengo udzasinthidwa pagulu lomwe lasankhidwa ndi magawo onse ang'onoang'ono.",
     add_percent_tab: "Onjezani peresenti",
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "chinthu njira",
-          true_description: "chinthu chinthu Chipata chinthu chinthu",
+          true_description: "Mutha kukhazikitsa kasinthidwe kachipata pamanja.",
 
           false_title: "zokha lumikizani",
           false_description:
@@ -3338,7 +3338,7 @@ export default {
 
       express_input: {
         true_title: "chinthu | Letsani oda chinthu",
-        false_title: "chinthu | Letsani oda chinthu 48 chinthu",
+        false_title: "Standard | Letsani Kuyitanitsa Pambuyo pa Maola 48",
         true_description:
           "Izi ziletsa oda yanu nthawi yomweyo ndikusintha zomwe mwapeza nthawi yomweyo.",
         false_description:
@@ -3356,7 +3356,7 @@ export default {
       shipping_address_update_success:
         "Manyamulidwe adilesi chinthu chinthu ",
       vendor_order_status_update_success:
-        "wogulitsa chinthu Mkhalidwe chinthu chinthu ",
+        "Zokwaniritsa ogulitsa zasinthidwa bwino.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3519,7 +3519,7 @@ export default {
         "Makasitomala anu apambana 1x pazinthu izi. Tumizani mphatso ndi dongosolo ili.",
 
       need_to_refund: {
-        title: "chinthu chinthu Kuti chinthu kasitomala",
+        title: "Kubweza ndalama kumafunika kwa kasitomala",
         message:
           "Timawerengera kuchuluka kwa ndalama zomwe muyenera kubweza pamanja. Idawerengeredwa kutengera zinthu zomwe sizinapezeke komanso ndalama zonse zomwe zabwezeredwabe.",
         calculated_approximately:
@@ -3531,7 +3531,7 @@ export default {
           "Tawona kuti ndalama zonse zomwe wabweza kwa kasitomala ndi zochuluka kuposa zomwe zidayenera kutengera zomwe zili m'ngoloyo. Mungafunike kulipiritsa kasitomala wanu kuti abweze ndalama zochulukirapo.",
       },
       need_no_refund: {
-        title: "ayi chinthu chinthu",
+        title: "Palibe kubweza zofunika",
       },
       total_refund: {
         title: "Zonse chinthu",
@@ -3743,12 +3743,12 @@ export default {
     },
     gateway_code: "Chipata Kodi",
 
-    hold_only_for: "chinthu Malipiro chinthu Likupezeka chinthu",
+    hold_only_for: "Gwirani malipiro okhawo",
     manual_input: {
       false_description:
         "Malipiro asinthidwa okha kuchokera pomwe akudikirira mpaka kutsimikiziridwa munjira yolipira.",
       false_title: "zokha Malipiro chinthu",
-      true_title: "chinthu Malipiro chinthu pamanja chinthu",
+      true_title: "Gwirani malipiro ndi kutsimikizira pamanja",
       true_description:
         "Imirirani pamalipiro kotero muyenera kutsimikizira zolipira kuti musinthe mawonekedwe awo kuchokera pakudikirira mpaka kutsimikiziridwa munjira yolipira.",
     },
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Muli ndi zogulitsa koma mulibe zosefera.",
       has_root_filter_message: "Mumayika zosefera za gulu la mizu.",
-      set_filter_message: "chinthu chinthu Zosefera",
+      set_filter_message: "Mutha kukhazikitsa zosefera.",
       edit_action: "Sinthani chinthu Zosefera",
-      clear_action: "chinthu chinthu Zosefera",
+      clear_action: "Chotsani Zosefera za Mizu",
     },
     ai: {
       title: "AI Mankhwala chinthu",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "Sankhani zonse Zogulitsa",
       unselect: "chinthu",
-      sort_categories: "chinthu / chinthu Magulu",
+      sort_categories: "Konzani / Sanjani Magulu",
       subscription_vendor_not_support_message:
         "Sitingagawane wogulitsa zinthu zolembetsa! Zogulitsa zolembetsa ziyenera kukhala ndi ogulitsa ngati eni ake!",
       vendor_owner_not_assignable_message:
@@ -4093,7 +4093,7 @@ export default {
     },
 
     engine: {
-      title: "chinthu Zogulitsa chinthu",
+      title: "Injini Yowonjezera Yazinthu",
       subtitle:
         "Zambiri. . Zogulitsa chinthu chinthu Kuchokera Sankhani Magulu chinthu zizindikiro",
       load_in_tips: "chinthu Zogulitsa Kuchokera Magulu chinthu chinthu {category}.",
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "chinthu chinthu / CSV fayilo chinthu",
+      title: "Tsitsani fayilo ya Excel / CSV apa.",
       select_file: "Sankhani fayilo",
       max_file: "ochuluka fayilo chinthu: 20chinthu",
       download_sample: "Tsitsani chinthu",
@@ -4193,10 +4193,10 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "Sinthani chinthu chinthu",
+    title_edit: "Sinthani Mamembala a Gulu",
     title_new: "Onjezani Zatsopano chinthu chinthu",
     member: {
-      title: "chinthu chinthu Tsatanetsatane",
+      title: "Tsatanetsatane wa Membala wa Gulu",
       subtitle:
         "Onjezani membala watsopano watimu ndikukhazikitsa zilolezo zawo. Dinani pa chinthu chilichonse kuti musinthe mwayi wowerengera / kulemba. Mzere uliwonse umagwirizana ndi mulingo wachilolezo wa dashboard yayikulu.",
     },
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "chinthu Onjezani",
-        message: "chinthu chinthu Onjezani",
+        message: "Membala watimu wawonjezedwa bwino.",
       },
       update_success: {
         title: "chinthu chinthu",
-        message: "chinthu chinthu zambiri chinthu chinthu ",
+        message: "Zambiri za membala wa gulu zasinthidwa bwino.",
       },
     },
     actions: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "chinthu chinthu Zatsimikiziridwa chinthu Malipiro?",
+          label: "Kodi mwatsimikiza za malipirowa?",
           false_description:
             "Ayi, sindinalandirebe malipirowa mu akaunti yanga yakubanki.",
           true_description: "Inde, ndalandira ndikutsimikizira malipirowa.",
@@ -4266,11 +4266,11 @@ export default {
       "<b>Zofunika! </b>Kuchita izi kupangitsa kuti chikwama cha ogulitsa chiwonjezeke ndikuchotsamo ndalama zomwe mwasankha. Ndalamazo sizingadutse zonse zomwe zatsala pa dongosolo losankhidwa. Komanso, ngati ndalama zasamutsidwa kumaakaunti akubanki olumikizidwa (monga Stripe Connect kapena kutumiza pamanja), muyenera kupanga <b>reversal transfer</b>.",
     inputs: {
       note: {
-        message: "chinthu chinthu Kuti chinthu wogulitsa",
-        placeholder: "chinthu chinthu Zindikirani chinthu",
+        message: "Zimawonekera kwa wogulitsa.",
+        placeholder: "Mutha kulumikiza apa...",
       },
       amount: {
-        error_message: "chinthu chinthu Ndalama chinthu chinthu ",
+        error_message: "Ndalama zotsalazo zapyola.",
       },
     },
   },
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Mugawoli, mutha kuwona nthawi yanthawi ya zochitika zokhudzana ndi dongosolo, kukwaniritsidwa, kulipira, ndi ma stade awo. Kuphatikiza apo, mutha kuwona madongosolo omwe amatumizidwa kwa makasitomala ndi ogulitsa.",
-    add_note_subtitle: "lembani chinthu Uthenga chinthu chinthu ",
+    add_note_subtitle: "Lembani uthenga ndikutchula anzanu.",
 
     message_input: "Lembani uthenga apa...",
     pin_action: "Pinani pamwamba",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Kasamalidwe",
-      description: "Pangani chinthu Yendetsani chinthu chinthu ",
+      description: "Pangani ndi kukonza mafunso omwe amafunsidwa pafupipafupi.",
     },
     "backoffice:faq:read": {
       name: "FAQ Kufikira",
@@ -4988,7 +4988,7 @@ export default {
     },
     "backoffice:community:write": {
       name: "chinthu Kasamalidwe",
-      description: "Yendetsani chinthu chinthu",
+      description: "Sinthani zochita za anthu ammudzi.",
     },
     "backoffice:community:read": {
       name: "chinthu Kufikira",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "chinthu Kasamalidwe",
-      description: "Yendetsani chinthu chinthu",
+      description: "Sinthani zosankha zosindikiza.",
     },
     "backoffice:print:read": {
       name: "chinthu Kufikira",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "chinthu Kasamalidwe",
-      description: "Yendetsani chinthu, chinthu chinthu ",
+      description: "Konzani kachitidwe ka ndalama, kuphatikizapo mapulogalamu otumizira anthu.",
     },
     "selldone:identification": {
       name: "chinthu Kufikira",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "chinthu",
-      description: "chinthu Zokwanira chinthu chinthu ",
+      description: "Zosiyanasiyana sizimafotokozedwa mudongosolo.",
     },
     vendor: {
       title: "wogulitsa",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "chinthu chinthu chikwama",
+        title: "Sankhani Chikwama",
         subtitle:
           "Sankhani chikwama chenicheni kuti mugwiritse ntchito polembetsa. Ngati mulibe, mutha kuyipanga mugawo lachikwama. Chikwama ichi chidzagwiritsidwa ntchito pa mtengo uliwonse.",
       },
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Onjezani mosavuta zinthu zochokera ku POD kapena zotsika mtengo ndi Selldone Connect OS-ingolumikizani sitolo yanu ndikusangalala ndi kuphatikiza kwazinthu zokha, osafunikira mapulagini.",
     },
-    your_license_is_not_eligible: "chinthu Chilolezo chinthu chinthu ",
+    your_license_is_not_eligible: "Chiphatso chanu sichiyenera.",
     sku_dialog: {
       title: "Onjezani Mankhwala chinthu SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Lumikizani imodzi mwamadomeni anu kwa wothandizana nawoyu. Alendo omwe amagula kudzera mu domeniyi abwera chifukwa cha kampaniyi.",
 
-      domain_not_approved_msg: "chinthu domeni chinthu chinthu !",
-      domain_is_not_enable_msg: "chinthu domeni chinthu chinthu yatsegulidwa!",
+      domain_not_approved_msg: "Demayi sinavomerezedwe pano!",
+      domain_is_not_enable_msg: "Domeni siyidayatsidwa!",
       domain_is_linked_to_other_affiliate_msg:
         "Domeni iyi idalumikizidwa kale ndi gulu lina!",
     },
 
-    set_users_first_message: "chinthu chinthu Wogwiritsa chinthu!",
+    set_users_first_message: "Chonde yambitsani wosuta kaye!",
 
     cluster: {
       title: "chinthu",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Zatsopano Wothandizira Onjezani chinthu",
-      update_success: "Wothandizira chinthu chinthu",
+      update_success: "Othandizana nawo asinthidwa bwino.",
     },
 
     inputs: {
@@ -5945,10 +5945,10 @@ export default {
       commission: {
         label: "komishoni chinthu",
         false_description:
-          "chinthu chinthu komishoni",
+          "Werengetsani kugwiritsa ntchito kuphatikiza kokhazikika komanso kuchuluka kwa ma komisheni.",
         true_description:
           "Werengetsani pogwiritsa ntchito ma komisheni okhudzana ndi malonda omwe akhazikitsidwa pamitengo yamitengo.",
-        false_title: "chinthu + chinthu komishoni",
+        false_title: "Komiti Yokhazikika + Peresenti",
         true_title: "chinthu komishoni",
       },
       user: {
@@ -5956,10 +5956,10 @@ export default {
         message: "zosankha, chinthu, Wothandizira Dzina chinthu Selldone",
       },
       web: {
-        placeholder: "zosankha, chinthu, chinthu",
+        placeholder: "Zosankha, mwachitsanzo, affiliate-web.com",
       },
       address: {
-        placeholder: "zosankha, chinthu, 1200 chinthu, NY, chinthu",
+        placeholder: "Zosankha, mwachitsanzo, 1200 POX, NY, USA",
       },
       tel: {
         placeholder: "zosankha, chinthu, 001-808-210354",
@@ -6014,7 +6014,7 @@ export default {
       action: "Inde, Chotsani Tsopano",
     },
     notifications: {
-      delete_success: "chinthu chinthu Zachotsedwa",
+      delete_success: "Kuwerengera kwachotsedwa bwino.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Mitengo & chinthu chinthu",
+    label: "Mitengo & Valuation Model",
   },
 
   /**
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Mugawoli, mutha kuyika kuchuluka kwazomwe mungagwiritse ntchito pa khuponi iliyonse komanso kuchotsera kwakukulu komwe makuponi aliwonse angapereke.",
-      zero_message: "chinthu: chinthu chinthu ayi Malire!",
+      zero_message: "ziro: palibe malire!",
     },
     duration: {
       subtitle:
@@ -6532,7 +6532,7 @@ export default {
     amount_accepted: "Ndalama Zovomerezeka",
     amount_paid: "Ndalama Zolipidwa",
     sessions: "Magawo",
-    affiliate_payment: "Malipiro Othandizira Othandizira",
+    affiliate_payment: "Malipiro ogwirizana nawo",
     amount_payment: "Ndalama Zolipira",
     amount_payment_hint: "Kuchuluka kwenikweni kwa msika",
     i_paid: "Ndinalipira {amount} {currency} ku {name}",
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Limbikitsani kugula kwamakasitomala ndi zochitika zamasewera m'sitolo yanu. Konzani mphoto ndi mwayi wopambana kwa makasitomala omwe amapeza ma tokeni pogula. Masewera aliwonse amawononga ma tokeni 10, ndipo mutha kupereka mphotho zapadera kwa ogula oyamba. Masewera osasinthika ndi Wheel of Fortune, koma mutha kuyisintha kuti igwirizane ndi momwe sitolo yanu ilili.",
     },
-    empty_prize_list: "Pangani chinthu Yendetsani chinthu chinthu",
+    empty_prize_list: "Pangani ndi kukonza mphoto pano...",
   },
 
   /** {@see BLotteryAdd**/
@@ -7044,7 +7044,7 @@ export default {
         "Kwezani wogulitsa CSV mafayilo chinthu chinthu Kuti Zazinsinsi chinthu",
       checklist: {
         title: "chinthu chinthu",
-        subtitle: "chinthu chinthu Kuti chinthu chinthu ",
+        subtitle: "Onetsetsani kuti mukutsatira malangizowo.",
         sample_files: "chinthu mafayilo",
         valid_vendor_name_needed:
           "Muyenera kupereka <b>dzina lovomerezeka</b>. <b>dzina</b> imagwiritsidwa ntchito kudziwa ngati <i>_Pangani</i> wogulitsa watsopano kapena <i>Sintha</i> wogulitsa kale.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "chinthu ogulitsa chinthu",
+    open_vendors_panel: "Tsegulani gulu la ogulitsa",
     title: "wogulitsa chinthu mndandanda",
     subtitle:
       "Uwu ndi mndandanda wa zopempha za anthu omwe afunsira kuti akhale mavenda pamsika wanu.",
@@ -7102,7 +7102,7 @@ export default {
     },
     need_enable_shipping_for_vendors_tips:
       "Yambitsani kutumiza kwa ogulitsa mu Shop> Logistic tabu panjira iliyonse payekha.",
-    transportation_available_tooltip: "chinthu chinthu Likupezeka chinthu ogulitsa",
+    transportation_available_tooltip: "Njirayi ilipo kwa ogulitsa.",
     transportation_not_available_tooltip:
       "Sizikupezeka kwa ogulitsa! Mutha kuyiyambitsa pazokonda zamayendedwe.",
     panel: {
@@ -7113,7 +7113,7 @@ export default {
       title: "chinthu",
       subtitle:
         "Mungafunike kuti mavenda anu akweze zikalata kapena kusaina mapangano ena. Nenani zolembedwa zofunika apa.",
-      add_document_action: "Onjezani chinthu chinthu",
+      add_document_action: "Onjezani Document Request",
     },
     inputs: {
       enable: {
@@ -7133,7 +7133,7 @@ export default {
       need_verify: {
         label: "Mankhwala chinthu Yendani",
         false_description: "Zatsopano wogulitsa Zogulitsa chinthu Khalani ndi moyo chinthu",
-        false_title: "ayi chinthu chinthu",
+        false_title: "Palibe Chitsimikizo Chofunikira",
         true_description:
           "ogulitsa Zatsopano Zogulitsa chinthu chinthu Khalani ndi moyo chinthu chinthu Msika",
         true_title: "chinthu chinthu",
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Mutu",
-          placeholder: "chinthu chinthu Mutu chinthu chinthu ",
+          placeholder: "Lowetsani mutu wa pempho lachikalata.",
         },
         guide: {
           label: "kalozera (zosankha)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Ikani Kodi",
-          placeholder: "chinthu chinthu Ikani Kodi chinthu",
+          placeholder: "Matani khodi yoyika apa...",
           message: "chinthu chinthu HTML Kodi",
         },
         url: {
           label: "URL",
-          message: "chinthu chinthu URL chinthu chinthu ",
+          message: "Lowetsani ulalo wa chikalata kapena mgwirizano apa...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Mwini chinthu chinthu",
+      title: "Chikalata Chozindikiritsa Mwini",
       description:
         "Kwezani ID yoperekedwa ndi boma kuti mutsimikize mwini bizinesi kapena wamkulu wamkulu.",
     },
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "chinthu chinthu",
       description:
-        "chinthu chinthu Kuti chinthu chinthu ",
+        "Perekani zikalata zolembetsera kukopera kuti mutsimikize kuti muli ndi luntha lanu.",
     },
     Privacy: {
       title: "Zazinsinsi ndondomeko chinthu",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "chinthu, chinthu Zogulitsa chinthu",
+        placeholder: "mwachitsanzo, Digital Products Class...",
       },
       description: {
         placeholder: "Mutha kuwonjezera cholemba apa...",
       },
       accept_delete: {
         true_description: "Ndikufuna kuchotsa chitsanzo ichi chamitengo.",
-        true_title: "chinthu Mitengo chinthu chinthu",
+        true_title: "Tsimikizirani Kuchotsa Chitsanzo cha Mitengo",
       },
     },
   },
@@ -7421,7 +7421,7 @@ export default {
       payout_success: {
         title: "chinthu",
         message:
-          "chinthu ogulitsa chinthu chinthu Onjezani",
+          "Zolipira za ogulitsa zidakonzedwa ndikuwonjezedwa.",
       },
     },
   },
@@ -7433,7 +7433,7 @@ export default {
     quota: "chinthu",
     max_batch_msg: "Chiwerengero chochulukira cha zinthu zomwe mungatenge mugulu limodzi.",
     max_daily_limit_msg: "Chiwerengero chochulukira cha zinthu zomwe mungatenge kutengera tsiku limodzi.",
-    extra_daily_limit_msg: "chinthu Zinthu chinthu chinthu Malire",
+    extra_daily_limit_msg: "Zinthu zowonjezera zololedwa kupitirira malire a tsiku ndi tsiku.",
     add_items_today_msg: "Zinthu Onjezani Lero",
     file_statistic_msg: "Ziwerengero chinthu chinthu fayilo",
     used_quota: "Zogwiritsidwa ntchito chinthu",
@@ -7522,7 +7522,7 @@ export default {
           "Njira yosavuta komanso yocheperako popanda kuchitapo kanthu pamakhadi ogulitsa.",
         true_description:
           "Onetsani chinthu Gulani & Onjezani Kuti chinthu chinthu Mankhwala Khadi chinthu",
-        true_title: "Onetsani chinthu chinthu ",
+        true_title: "Onetsani Zochita pa Hover",
       },
     },
     filter_products: {
@@ -7613,12 +7613,12 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "yayikulu Webusaiti chinthu",
-      subtitle: "chinthu chinthu Kuchokera Google chinthu",
+      subtitle: "Sankhani font yomwe mumakonda kuchokera ku Google Fonts.",
     },
     inputs: {
       font_family: {
         label: "chinthu chinthu",
-        message: "chinthu chinthu Mtengo",
+        message: "Lowetsani mtengo wamtundu wamtundu.",
       },
       font_res: {
         label: "chinthu chinthu",
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Mutu Mutu",
-        set_empty: "chinthu chinthu Mutu",
+        set_empty: "Khazikitsani mutu wopanda kanthu",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Sinthani chinthu chinthu",
-    add_title: "Onjezani chinthu chinthu",
+    edit_title: "Sinthani Katundu Seti",
+    add_title: "Onjezani Property Set",
     config: {
       subtitle:
         "Khazikitsani mutu ndi malongosoledwe azinthu zanu. Zidzawoneka kwa ogwira ntchito okha.",
@@ -7687,7 +7687,7 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "chinthu chinthu Mutu chinthu chinthu ",
+        placeholder: "Lowetsani mutu wa katundu...",
       },
       description: {
         placeholder: "chinthu chinthu Kufotokozera (zosankha)",
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "chinthu chinthu (zosankha)",
+        placeholder: "Khazikitsani zikhalidwe... (zosasankha)",
         messages:
-          "chinthu chinthu oda",
+          "Mutha kupereka malingaliro pazofunikira ndikusintha madongosolo.",
       },
     },
   },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Njira 3: Kutumiza pompopompo.",
 
     verify_delivery_input: {
-      true_title: "chinthu Kutumiza chinthu",
+      true_title: "Tsimikizirani Kumaliza Kutumiza",
       true_description:
         "Ndikutsimikizira kuti dongosolo laperekedwa kwa kasitomala.",
     },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "chinthu Banki Zambiri chinthu chinthu ",
+        message: "Zambiri zaku banki yanu zidasinthidwa bwino.",
       },
     },
   },
@@ -8526,22 +8526,22 @@ export default {
     template: {
       title: "chinthu",
       valid_message: "chinthu chinthu Pangani Mwambo SMS uthenga",
-      provider_not_enable_message: "chinthu SMS chinthu chinthu yatsegulidwa!",
+      provider_not_enable_message: "Wopereka ma SMS alibe mphamvu!",
       need_custom_provider_message:
         "Mauthenga a makonda a SMS amagwira ntchito ngati mutakhazikitsa wopereka makonda.",
       add_new: "Onjezani Zatsopano",
       disable_reason: {
         set_provider: "chinthu chinthu !",
         provider_is_disabled: "chinthu chinthu !",
-        otp: "chinthu - chinthu chinthu!",
-        select_another_provider: "Sankhani chinthu chinthu",
+        otp: "OTP - Palibe makonda!",
+        select_another_provider: "Sankhani wothandizira wina.",
       },
       enable_only_filter: "Onetsani chinthu yatsegulidwa",
 
       text_template_not_supported_msg:
         "Wothandizira wanu sagwira nawo mameseji osavuta.",
       structure_template_not_supported_msg:
-        "chinthu chinthu Thandizo chinthu uthenga",
+        "Wothandizira wanu sagwirizana ndi mauthenga a kamangidwe.",
 
       structured_data: "chinthu Zambiri",
 
@@ -8569,9 +8569,9 @@ export default {
         reset_to_default: "chinthu Kuti Zofikira",
 
         auto_fill: {
-          title: "zokha chinthu chinthu",
+          title: "Auto lembani magawo",
           subtitle:
-            "chinthu chinthu Selldone chinthu chinthu Mtengo",
+            "Mutha kugwiritsa ntchito magawo onsewa m'mawuwo ndipo Selldone adzalowa m'malo ndi mtengo womwewo.",
         },
 
         sample: {
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "Onjezani Zatsopano chinthu",
 
         auto_fill: {
-          title: "zokha chinthu chinthu",
+          title: "Auto lembani magawo",
           subtitle:
             "Mutha kukhazikitsa magawo onsewa ngati mtengo, ndipo Selldone adzawalowetsa m'malo ndi mtengo wofananira. Ndikwabwino kufotokozera zosintha ngati ma templates mu opereka anu a SMS kuti mukhale osavuta. Pankhaniyi, sipadzakhala chifukwa chofotokozera ma parameter apa.",
         },
@@ -8593,7 +8593,7 @@ export default {
           title: "chinthu chinthu",
         },
         sample: {
-          title: "chinthu chinthu Uthenga",
+          title: "Chitsanzo cha uthenga wa template",
           subtitle: "Mutha kukopera ndikudutsitsa template iyi kwa opereka ma SMS anu.",
         },
         add_message_action: "Onjezani Uthenga chinthu",
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "chinthu chinthu",
-      description: "chinthu uthenga chinthu chinthu Kutumizidwa",
+      description: "Mauthenga otsimikizira adzatumizidwa.",
     },
   },
 
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Mwambo chinthu chinthu",
+    title: "Seva yamakalata mwamakonda",
     subtitle:
       "Connect chinthu chinthu ntchito chinthu Kuti Tumizani Maimelo chinthu chinthu Mwambo domeni",
     provider: "chinthu",
@@ -8916,7 +8916,7 @@ export default {
       "Sindikizani chizindikiro chotsatirachi ndikuchiyika patsogolo pa mankhwala",
     hyper_form_link_product_message:
       "Makasitomala anu azitha kugula {product} mwachangu kudzera pa ulalowu. Alowanso ulalo womwewo posanthula nambala ya QR.",
-    title: "chinthu chinthu Kugulitsa",
+    title: "Hyper Quick Sale",
     message:
       "Mothandizidwa ndi njira yogulitsira ya Hyper Selldone, makasitomala anu azitha kugula zinthu posanthula nambala ya QR popanda chilichonse chomwe mungafune. Gwiritsani ntchito njira iyi kuti mugulitse zinthu zina mwachangu pamapwando, ziwonetsero, kapena pamwambo wotanganidwa kwambiri. Mukayambitsa Hyper mugawoli, mutha kupanga nambala ya hyper QR pazinthu zakuthupi mugawo la Product Management.",
     orders_list: "chinthu Malamulo mndandanda",
@@ -8946,7 +8946,7 @@ export default {
     notifications: {
       delete_success: "Fayilo yachotsedwa bwino.",
     },
-    drag_sort_msg: "chinthu chinthu mafayilo",
+    drag_sort_msg: "Mutha kukoka ndikusintha mafayilo.",
     paid_mode_msg: "Ogwiritsa ntchito chinthu Tsitsani chinthu chinthu Mankhwala",
     free_mode_msg:
       "Ogwiritsa akhoza kukopera kwaulere. Zitsanzo zamafayilo ziyenera kukhala zosachepera 50 MB.",
@@ -8980,7 +8980,7 @@ export default {
       description:
         "Makasitomala atha kungogula izi mkati mwa dziko lodziwika komanso zip code, chifukwa chaziletso zamalo.",
     },
-    zip_pin_code: "chinthu / chinthu khodi",
+    zip_pin_code: "Zip / Pin Code",
     no_country_selected_error:
       "Chonde phatikizani dziko limodzi pamodzi ndi mndandanda wa zipi/mapini. Popanda izo, mankhwalawa sadzakhalapo.",
     tips: "Dinani pa <b>+ batani la Onjezani Dziko</b> kuti muyambe kupanga malo atsopano. Mukamaliza, mukhoza kuchisunga podina pamwamba kumanja <b>⋮ Menyu</b> ndikusankha <b>Save Profile</b>.",
@@ -9493,10 +9493,10 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Tumizani chinthu chinthu",
+    title: "Tumizani Pempho Mwachindunji",
     message:
       "Dziwani kuti bizinesi yanu 3 yapamwamba ikufunika kuti muchite bwino ndikupindula pa Selldone. Chidziwitsochi chidzagawidwa mwachindunji ndi oyambitsa ndi otsogolera ndipo chidzaganiziridwa mosamala. Mukhozanso kusintha zosowa zanu pakapita nthawi mutatha kutumiza.",
-    expand_action: "lembani chinthu chinthu",
+    expand_action: "Lembani pempho...",
     input_label: "chinthu chinthu",
     to: {
       ceo: "Tumizani Kuti chinthu",
@@ -9554,7 +9554,7 @@ export default {
       action: "chinthu zonse",
       connect_status: "Connect Mkhalidwe",
       service_status: "ntchito Mkhalidwe",
-      auto_confirm_enable_msg: "chinthu chinthu Malamulo chinthu yatsegulidwa",
+      auto_confirm_enable_msg: "Chitsimikizo chokha cha maoda chayatsidwa.",
       auto_confirm_disable_msg:
         "Chitsimikizo chokhazikika cha maoda sichimayatsidwa.",
       shipping_enable_msg:
@@ -9565,7 +9565,7 @@ export default {
       auto_confirm_order: "zokha chinthu Malamulo",
       test_mode: "chinthu njira",
       status: {
-        subtitle: "chinthu zambiri chinthu chinthu Mkhalidwe",
+        subtitle: "Zambiri zokhudza kulunzanitsa.",
       },
       sync: {
         title: "chinthu chinthu",
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "chinthu zonse",
         false_desc: "chinthu zonse Likupezeka Zogulitsa, Magulu, Makasitomala",
-        true_title: "chinthu (chinthu chinthu )",
+        true_title: "Zochepa (Zovomerezeka kwa oyamba kumene)",
         true_desc:
           "Pezani katundu wambiri, magulu, ndi makasitomala. Mutha kuyisintha kuti ikhale yonse mu Connect> Setting nthawi iliyonse.",
       },
       overwrite: {
-        false_title: "chinthu chinthu Kusintha chinthu chinthu",
+        false_title: "Osasintha ngati alipo",
         false_desc: "Sungani zinthu zomwe zilipo kale komanso zamagulu momwe zilili.",
         true_title: "chinthu",
         true_desc:
@@ -9622,11 +9622,11 @@ export default {
       },
       enable: {
         label: "Connect Mkhalidwe",
-        true_desc: "katundu chinthu Malamulo chinthu chinthu ",
+        true_desc: "Zolemba ndi maoda azilumikizidwa.",
       },
       confirm: {
         label: "zokha chinthu Malamulo",
-        false_desc: "chinthu chinthu oda chinthu",
+        false_desc: "Muyenera kutsimikizira kuyitanitsa pamanja.",
         true_desc:
           "Maoda okhala ndi malipiro amoyo adzavomerezedwa okha. Maoda okhala ndi zolipira zowongoleredwa sangavomerezedwe zokha.",
         tips: "Maoda omwe amaperekedwa ndi khadi lamphatso kapena COD kapena zipata zolipirira munjira yochotsa zolakwika ndizosiyana ndipo sizingatsimikizidwe zokha.",
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "zokha chinthu",
       shipping: "Manyamulidwe",
       syncing_now: "chinthu chinthu!",
-      sync_not_started: "chinthu chinthu yambani chinthu!",
+      sync_not_started: "Kulunzanitsa sikunayambebe!",
     },
   },
 
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "chinthu",
-    subtitle: "chinthu chinthu mndandanda chinthu chinthu ",
+    subtitle: "Uwu ndi mndandanda wamapositi amderalo.",
     filter: {
       deleted: {
         title: "Zachotsedwa",
@@ -9758,19 +9758,19 @@ export default {
         description: "Onetsani lipoti chinthu",
       },
     },
-    empty_msg: "ayi chinthu chinthu ",
+    empty_msg: "Palibe zolemba zomwe zapangidwa mpaka pano...",
     menu: {
       open_post: {
         title: "chinthu chinthu",
-        subtitle: "Onani chinthu Sinthani chinthu chinthu ",
+        subtitle: "Onani ndikusintha positi mdera lanu.",
       },
       spam: {
         title: "lipoti & Chotsani chinthu",
-        subtitle: "chinthu Chotsani chinthu chinthu Wogwiritsa",
+        subtitle: "Chotsani zolemba zambiri ndikuletsa ogwiritsa ntchito.",
       },
       delete: {
         title: "Chotsani chinthu",
-        subtitle: "Chotsani chinthu chinthu",
+        subtitle: "Chotsani izi.",
       },
     },
   },
@@ -9799,11 +9799,11 @@ export default {
       subtitle: "Onjezani meta tag patsamba lanu lofikira kuti mutsimikizire Google Search Console.",
       code: {
         label: "chinthu chinthu Tagi Meta",
-        placeholder: "Kuchokera chinthu, chinthu chinthu Google",
+        placeholder: "Kuchokera pa google, mwachitsanzo. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google chinthu & chinthu",
+      title: "Google SERP & Keywords",
       subtitle:
         "Timapeza zolondola kwambiri za kafukufuku wa SEO kuchokera ku Google ndikuzipereka kwa inu m'njira yosavuta. Ingotsatirani njira zomwe zaperekedwa.",
     },
@@ -9831,7 +9831,7 @@ export default {
     title: "kubweza ndalama chinthu",
     boosted: "chinthu (2chinthu)",
     min_purchase: "Kugula kochepa",
-    only_first_order: "chinthu chinthu oda",
+    only_first_order: "Only First Order",
     total_cashback: "Zonse kubweza ndalama",
     delete_alert: {
       title: "Chotsani kubweza ndalama chinthu",
@@ -9877,7 +9877,7 @@ export default {
     orders: {
       title: "kubweza ndalama Malamulo",
       table: {
-        amount_cashback: "kubweza ndalama Ndalama",
+        amount_cashback: "Kubweza ndalama",
         payment_status: "Malipiro",
         date: "Tsiku",
       },
@@ -9926,7 +9926,7 @@ export default {
       title: "Kufotokozera",
     },
     constraints: {
-      subtitle: "chinthu chinthu kubweza ndalama chinthu",
+      subtitle: "Khazikitsani zopinga za pulogalamu yobwezera ndalama.",
     },
     min_purchase_input: {
       hint: "chinthu chinthu ochepera Gulani Ndalama chinthu kubweza ndalama chinthu",
@@ -9936,7 +9936,7 @@ export default {
       false_desc: "chinthu kubweza ndalama chinthu chinthu Likupezeka chinthu zonse Malamulo",
       true_desc:
         "Pulogalamu yobweza ndalama ipezeka pakuyitanitsa koyamba.",
-      true_title: "chinthu chinthu oda",
+      true_title: "Only First Order",
       false_title: "zonse Malamulo",
     },
     qualify_input: {
@@ -9982,7 +9982,7 @@ export default {
         subtitle: "chinthu chinthu ",
       },
       delivery: {
-        title: "chinthu chinthu Kutumiza",
+        title: "Tsimikizirani Pakutumiza",
         subtitle: "Mutha kutsimikizira pawokha kutumiza kwa olipira.",
       },
     },
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "chinthu Mankhwala",
-        subtitle: "chinthu Mankhwala chinthu chinthu ",
+        subtitle: "Izi zasankhidwa kuti zikweze kugulitsa zinthu zosiyanasiyana.",
         manage_product: "Yendetsani Mankhwala",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Pangani mutu wokopa komanso wokopa kuti mukope chidwi cha makasitomala.",
           placeholder:
-            "chinthu & Sungani: chinthu chinthu !",
+            "Bundle & Sungani: Malizitsani Kuyang'ana Kwanu ndi Kusankhidwa Kwathu Pamanja!",
         },
       },
       action: {
@@ -10132,8 +10132,8 @@ export default {
      */
     health: {
       title: "Mankhwala chinthu",
-      available_in_stock_msg: "Mankhwala chinthu Likupezeka chinthu chinthu",
-      out_of_stock_msg: "Mankhwala chinthu chinthu ",
+      available_in_stock_msg: "Zogulitsa zilipo.",
+      out_of_stock_msg: "Zatha.",
       file_count_msg:
         "{files_count} mafayilo chinthu Zonse {files_size} Kwezani chinthu chinthu Mankhwala",
       no_file_uploaded_msg: "ayi fayilo chinthu chinthu Kwezani chinthu",
@@ -10167,7 +10167,7 @@ export default {
       title: "Mitengo",
       no_product_price_msg: "chinthu Zofikira Mankhwala mtengo chinthu chinthu !",
       listing_pricing_msg: "mndandanda Mitengo:",
-      has_valuation_msg: "Mankhwala chinthu chinthu",
+      has_valuation_msg: "Zogulitsa zili ndi mtengo.",
       subscription_pricing_msg:
         "chinthu Mankhwala chinthu {count} Kulembetsa Mitengo Mapulani",
       has_no_subscription_pricing_msg:
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "chinthu chinthu",
       },
       available_countries_msg:
-        "chinthu chinthu Kuti {count} chinthu chinthu {countries}.",
+        "Kugula padziko lonse lapansi kumangopezeka kumayiko a {count}. Maikowa ndi {countries}.",
       disable_for_all_countries_msg:
         "Kugula kwayimitsidwa kumayiko onse omwe ali mu shopu yanu > malo.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10229,7 +10229,7 @@ export default {
         is_disabled: "chinthu Msonkho mbiri chinthu yazimitsidwa!",
         tax_is_based_on_location: "Msonkho: Malo chinthu",
         shipping_tax_is_based_on_location: "Manyamulidwe: Malo chinthu",
-        included_in_price: "chinthu chinthu mtengo",
+        included_in_price: "Kuphatikizidwa mu mtengo.",
       },
     },
 
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Kufikira chinthu",
-        placeholder: "Sankhani chinthu chinthu",
+        placeholder: "Sankhani mulingo...",
       },
     },
 
@@ -10318,7 +10318,7 @@ export default {
       },
       update_success: {
         title: "Kufikira chinthu",
-        message: "Zilolezo chinthu chinthu ",
+        message: "Zilolezo zasinthidwa bwino.",
       },
     },
   },
@@ -10380,16 +10380,16 @@ export default {
     add_dialog: {
       title: "Sankhani Zolowetsa Mtundu",
       html: {
-        title: "chinthu & chinthu HTML",
+        title: "Zolemba & Html",
         subtitle: "chinthu Zinthu Mtengo chinthu chinthu HTML.",
       },
       image: {
         title: "Chithunzi",
-        subtitle: "chinthu chinthu Kwezani chinthu Chithunzi",
+        subtitle: "Mutha kukweza chithunzi.",
       },
     },
     help_dialog: {
-      title: "chinthu Kuti chinthu chinthu ",
+      title: "Momwe mungagwiritsire ntchito zosinthika",
       how_it_works_tips:
         "M'masamba otsikira, muli ndi mwayi wosankha zoikira malo zosinthika pamawu ndi zithunzi. Osungira malowa amagwira ntchito yofunika kwambiri posintha zomwe zili mkati molingana ndi nkhani yake.   Kusinthasintha kwa zosungira malowa zimawalola kuti azikhala ndi zikhalidwe zowonjezera, zomwe zimatha kusiyanasiyana kutengera zinthu zosiyanasiyana. Mwachitsanzo, ma augmentation atha kukhala osiyana pamtundu uliwonse kapena gulu. Ubwino weniweni wa izi umabwera mukakhala ndi zinthu zosiyanasiyana zokhala ndi mikhalidwe yosiyana. Mutha kugwiritsa ntchito bwino zoyimilirazi kuti musinthe makonda anu ndikuwongolera mawonekedwe a chinthu chilichonse, potero mumapanga chodabwitsa komanso chothandizira pamasamba omwe mumatsikira.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Pachinthu chilichonse, mumatha kugawira awiriawiri amtengo wapatali.",
       result_tips:
-        "chinthu chinthu tsamba, chinthu chinthu ",
+        "Ichi ndi chotsatira chomaliza chatsamba, pomwe zosungira malo zasinthidwa ndi ma augmented values.",
     },
   },
 
@@ -10419,7 +10419,7 @@ export default {
       subtitle:
         "Mutha kusintha zomwe zili patsamba lalogistics m'zilankhulo zingapo.",
 
-      language_input: "chinthu Nkhani chinthu",
+      language_input: "Chiyankhulo cha nkhani zapano",
       delete_article: "Chotsani Nkhani",
       menu_tooltip: "zokha chinthu / Chotsani Nkhani",
     },
@@ -10429,10 +10429,10 @@ export default {
         message: "Nkhani chinthu Zamalizidwa chinthu",
       },
       save_article: {
-        message: "Nkhani chinthu chinthu ",
+        message: "Nkhani yasungidwa bwino.",
       },
       delete_article: {
-        message: "Nkhani chinthu chinthu Zachotsedwa chinthu",
+        message: "Nkhani yachotsedwa bwino.",
       },
     },
     delete_dialog: {
@@ -10510,11 +10510,11 @@ export default {
     empty_list_msg: "mndandanda chinthu chinthu Zinthu",
     notifications: {
       delete: {
-        message: "chinthu chinthu Zachotsedwa",
+        message: "Chinthucho chachotsedwa.",
       },
     },
     delete_dialog: {
-      title: "Chotsani chinthu chinthu",
+      title: "Chotsani chinthu chophatikizidwa",
       message:
         "Kodi mukutsimikiza kuti mukufuna kuchotsa chinthuchi mpaka kalekale? Chonde dziwani kuti idzachotsedwanso pazinthu zonse zogwirizana!",
       action: "Inde, Chotsani Tsopano",
@@ -10528,7 +10528,7 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "Sinthani chinthu chinthu",
+    dialog_title_edit: "Sinthani zomwe zikuphatikizidwa",
     dialog_title_add: "Pangani Zatsopano chinthu chinthu",
 
     title: "chinthu chinthu",
@@ -10543,7 +10543,7 @@ export default {
         hint: "Gwiritsani ntchito kachidindo kameneka kuti muwongolere kusaka kwa zinthu.",
       },
       description: {
-        placeholder: "chinthu chinthu Kufotokozera chinthu chinthu ",
+        placeholder: "Kufotokozera mwachidule za chinthuchi...",
         hint: "Kufotokozera kudzagwiritsidwa ntchito pa SEO ndipo mwina kumawonekera kwa ogwiritsa ntchito pamapangidwe ena patsamba lazogulitsa.",
       },
       image: {
@@ -10571,7 +10571,7 @@ export default {
     },
     notifications: {
       add: {
-        message: "chinthu chinthu Onjezani chinthu",
+        message: "Zomwe zaphatikizidwazo zawonjezedwa bwino.",
       },
       edit: {
         message: "chinthu chinthu ",
@@ -10605,9 +10605,9 @@ export default {
     no_wallet: "ayi chikwama!",
 
     withdraw_dialog: {
-      title: "chinthu komishoni chinthu",
+      title: "Chotsani Ndalama za Commission",
 
-      need_bank_info_message: "chinthu chinthu Banki Zambiri chinthu",
+      need_bank_info_message: "Chonde lowetsani zambiri zaku banki kaye.",
 
       to_wallet: {
         title: "Kuti chikwama",
@@ -10648,7 +10648,7 @@ export default {
       message: "Mutha kuwonjezera <b>?ref={code}</b> ku ulalo uliwonse wogulitsidwa.",
     },
     intro: {
-      title: "chinthu chinthu Selldone Wothandizira chinthu",
+      title: "Lowani nawo Selldone Affiliate Program",
       message:
         "Selldone Affiliate Program ndi yosavuta komanso yowongoka, yopangidwira kuti mupeze ndalama mwachangu. Gawani ulalo wanu wapadera wothandizana nawo kuti muyitanire ogwiritsa ntchito atsopano ku Selldone, ndipo mupeza ndalama pazochita zilizonse zomwe apanga mpaka kalekale. Izi zikuphatikizapo zopindula kuchokera ku zolembetsa, malipiro a ntchito, kukweza masitolo, ndi njira zina zonse zopezera ndalama. Yambani kupeza gawo la ndalamazo popanda malire pa nthawi kapena zopeza. Lowani nafe ndikusintha maukonde anu kukhala ndalama zokhazikika!",
       why_join_selldone_affiliate: "chinthu chinthu ?",
@@ -10725,7 +10725,7 @@ export default {
       ctrl_2: "Wonjezerani kukula kwa zilembo za mawu osankhidwa | <big>Ndipangitseni kukhala wamkulu</big>",
       ctrl_r: "Chotsani zonse chinthu Kuchokera Sankhani chinthu | chinthu zonse chinthu",
       ctrl_s: "Sungani chinthu tsamba",
-      tab: "chinthu chinthu njira",
+      tab: "Sinthani pakati pa masikelo",
       ctrl_e: "chinthu chinthu Mtundu njira",
     },
   },
@@ -10779,10 +10779,10 @@ export default {
     status_tooltip: {
       title: "wogulitsa Mkhalidwe",
       ACCEPTED: "Wogulitsa ali ndi mwayi wopita ku gulu lawo.",
-      REJECTED: "chinthu wogulitsa chinthu chinthu Wakanidwa",
+      REJECTED: "Pempho la ogulitsa lakanidwa.",
       PENDING: "Pempho likuyembekezera chisankho kuchokera kwa wogulitsa.",
     },
-    number_of_products: "chinthu chinthu Zogulitsa",
+    number_of_products: "Chiwerengero cha Zogulitsa",
     invited: "chinthu",
     no_pricing: "ayi Mitengo",
     no_pricing_tooltip: {
@@ -10790,10 +10790,10 @@ export default {
       subtitle: "Chonde khazikitsani mtundu wokhazikika wamitengo kwa ogulitsa.",
     },
     updated_products_tooltip: {
-      title: "Zogulitsa chinthu chinthu 24 chinthu",
+      title: "Zasinthidwa m'maola 24 apitawa",
     },
     added_products_tooltip: {
-      title: "Zogulitsa Onjezani chinthu chinthu 24 chinthu",
+      title: "Zogulitsa Zawonjezedwa mu Maola 24 Omaliza",
     },
     access_tooltip: {
       title: "chinthu Kufikira",
@@ -10806,14 +10806,14 @@ export default {
         "Wogwiritsa anakana pempho loti akhale wogulitsa ndikupeza wogulitsa uyu.",
     },
     download_all_vendors: "Tsitsani zonse ogulitsa",
-    bulk_import: "chinthu Lowetsani (chinthu)",
+    bulk_import: "Kulowetsa zinthu zambiri (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Chilolezo chinthu chinthu!",
+    title: "Kukwezera License Kufunika!",
     subtitle:
       "Layisensi yanu yamakono siyikukwaniritsa zofunikira za mtundu wabizinesi womwe mwasankha. Chonde konzani laisensi yanu kukhala dongosolo la Enterprise.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Onjezani Uthenga chinthu",
 
     notifications: {
-      add_chat_success_message: "Uthenga chinthu chinthu Onjezani chinthu",
+      add_chat_success_message: "Uthenga wawonjezedwa bwino.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Tumizani Kusintha Imelo",
 
       notifications: {
-        send_success_message: "Imelo chinthu chinthu Kutumizidwa chinthu",
+        send_success_message: "Imelo yatumizidwa bwino.",
       },
     },
     add_template: {
@@ -10884,9 +10884,9 @@ export default {
     authentication: "chinthu",
     guest: "chinthu",
     click_to_create: "chinthu Kuti Pangani",
-    valid_for_30_days: "chinthu chinthu 30 30 masiku",
+    valid_for_30_days: "zovomerezeka kwa masiku 30",
     notifications: {
-      secure_link_created: "chinthu Lumikizani chinthu chinthu ",
+      secure_link_created: "Ulalo wotetezedwa wapangidwa bwino.",
     },
   },
 
@@ -10922,8 +10922,8 @@ export default {
 
     subtitle:
       "Mutha kusintha mayina osiyanasiyana, zithunzi, ndi dongosolo lawo apa. Pazinthu zamitundu yosiyanasiyana zomwe zimapitilira zisanu ndi chimodzi zokhazikika, mutha kuyika mitundu yogwirizana ndi chilichonse. Tangofotokozani ma seti a katundu mu Logistic> Property Sets tabu ndikugawira kuchuluka kwazinthu zomwe zikufunika.",
-    select_property_set: "Sankhani chinthu chinthu",
-    add_property_set: "Onjezani chinthu chinthu",
+    select_property_set: "Sankhani Property Set",
+    add_property_set: "Onjezani Property Set",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10932,7 +10932,7 @@ export default {
     add_action: "Onjezani chinthu",
     subtitle:
       "Pangani masaizi a mabokosi ogwiritsiridwanso ntchito kuti mufulumizitse kugula zilembo ndikuwonetsetsa kuti mitengo yotumizira ili yolondola. Mukamaliza kuyitanitsa, sankhani bokosi losungidwa ndipo miyeso yake idzadzaza yokha.",
-    empty: "ayi chinthu chinthu “Onjezani chinthu”.",
+    empty: "Palibe mabokosi panobe. Dinani \"Add box\".",
     edit: "Sinthani chinthu",
     new: "Zatsopano chinthu",
     default_weight: "Zofikira Kulemera",
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Sankhani chinthu phukusi",
-    define_package: "chinthu chinthu phukusi",
+    define_package: "Tanthauzirani phukusi",
     define_package_hint: "Pangani kapena sinthani makulidwe anu omwe mwawafotokozeratu",
   },
 
@@ -10999,7 +10999,7 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Maulalo JSON",
-      opening_hours_json: "chinthu chinthu JSON",
+      opening_hours_json: "Maola otsegulira JSON",
 
       delete_title: "Chotsani chinthu",
       delete_message: "Kodi mukutsimikiza kuti mukufuna kuchotsa chinthuchi?",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Onjezani Gulu",
       edit_title: "Sinthani gulu",
 
-      parent_filter: "Sefa chinthu chinthu",
+      parent_filter: "Sefa ndi kholo",
       parent: "Gulu la makolo",
 
       price_format: "mtengo chinthu",
@@ -11045,7 +11045,7 @@ export default {
 
       moderation_title: "chinthu",
       moderation_mode: "chinthu njira",
-      require_first_approved_before_more: "chinthu chinthu Zambiri. .",
+      require_first_approved_before_more: "Pamafunika chivomerezo choyamba chisanadze",
 
       limits_title: "Malire",
       max_pending_per_user: "chinthu Ikuyembekezera chinthu Wogwiritsa",
@@ -11083,10 +11083,10 @@ export default {
 
     moderation: {
       approve_success: "chinthu chinthu ",
-      publish_success: "chinthu Lofalitsidwa chinthu",
+      publish_success: "Chinthuchi chasindikizidwa bwino.",
       unpublish_success: "chinthu chinthu ",
       archive_success: "chinthu chinthu ",
-      reject_success: "chinthu Wakanidwa chinthu",
+      reject_success: "Chinthu chakanidwa bwino.",
       penalty_success: "chinthu chinthu ",
 
       reject_title: "Kana chinthu",
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Kwezani Zithunzi",
       url_type: "Mtundu",
       url: "URL",
-      is_main: "chinthu chinthu yayikulu"
+      is_main: "Khazikitsani ngati chachikulu"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Pangani seti zingapo zamapangidwe (makadi + ma tempulo atsatanetsatane) ndikuwagawa m'magulu. Magulu amatha kugwiritsa ntchito mapangidwe osiyanasiyana.",
 
-      empty_title: "ayi chinthu chinthu",
+      empty_title: "Palibe zopanga pano",
       empty_subtitle:
         "Onjezani mapangidwe anu oyamba kuti muyambe kusintha momwe magulu amawonekera.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Tsatanetsatane chinthu",
 
       notifications: {
-        add_success: "Kupanga chinthu chinthu",
-        edit_success: "Kupanga chinthu chinthu",
+        add_success: "Mapangidwe adapangidwa bwino.",
+        edit_success: "Mapangidwe asinthidwa bwino.",
         delete_success: "Kupanga Zachotsedwa chinthu",
       },
 
@@ -11154,8 +11154,8 @@ export default {
       edit_title: "Sinthani baji",
 
       notifications: {
-        add_success: "baji chinthu chinthu",
-        edit_success: "baji chinthu chinthu",
+        add_success: "Baji idapangidwa bwino.",
+        edit_success: "Baji yasinthidwa bwino.",
         delete_success: "baji Zachotsedwa chinthu",
       },
 
@@ -11176,8 +11176,8 @@ export default {
       edit_title: "Sinthani kampani",
 
       notifications: {
-        add_success: "Kampani chinthu chinthu",
-        edit_success: "Kampani chinthu chinthu",
+        add_success: "Kampani idapangidwa bwino.",
+        edit_success: "Kampani yasinthidwa bwino.",
         delete_success: "Kampani Zachotsedwa chinthu",
       },
 
@@ -11205,7 +11205,7 @@ export default {
       reply: "chinthu",
       reply_hint: "Lembani yankho kwa wogwiritsa ntchito. Mukhozanso kuyika uthengawo ngati wowerengedwa / sipamu kuchokera pazochita.",
 
-      mark_read: "chinthu chinthu werenga",
+      mark_read: "Chongani ngati mwawerenga",
       mark_unread: "chinthu chinthu ",
       archive: "chinthu",
       unarchive: "chinthu",
@@ -11252,8 +11252,8 @@ export default {
       radius_default_hint: "Amagwiritsidwa ntchito pamene kasitomala akusankha malo koma samasankha radius.",
       radius_max: "ochuluka Radiyasi (chinthu)",
       radius_max_hint: "Malo ozungulira sitolo adzatsekeredwa ku mtengo uwu.",
-      radius_options: "Radiyasi chinthu (chinthu)",
-      radius_options_hint: "chinthu chinthu UI.",
+      radius_options: "Maulendo apakati (km)",
+      radius_options_hint: "Izi zitha kuwonetsedwa ngati zosankha zachangu mu UI yakutsogolo.",
 
       filters_title: "sakani Zosefera",
       filters_subtitle: "Onjezani zosefera zomwe zimawerengeka kuchokera m'magawo a meta (mindandanda yanu / magawo amitundu). Gwiritsani ntchito Auto-generate kuti mutenge zosankha zenizeni kuchokera kuzinthu zomwe zasindikizidwa.",
@@ -11326,14 +11326,14 @@ export default {
         "chinthu chinthu ",
         "Za Exclusive Insider Deals Zawululidwa",
         "Kufikira kwanu kwa VIP ku Zochotsera za Premium",
-        "chinthu Kugulitsa chinthu",
+        "Seasonal Sale Extravaganza",
         "Tsegulani Paradaiso Wanu Wogula",
         "Carnival ya Grand Shopper",
         "chinthu chinthu ",
         "Malonda a Autumn Simungakane",
         "Zodabwitsa za Zima: Kuchita Zofunda kwa Masiku Ozizira",
         "Mapeto a Chilimwe Chilolezo",
-        "chinthu chinthu : chinthu chinthu Kufikira",
+        "Black Friday Bonanza: Early Bird Access",
         "Moni Tchuthi: Kalozera Wamphatso Wanu ndi Zina",
         "Zatsopano Zatsopano: Obwera Kwatsopano Kwa Inu",
         "Kukhulupirika Kumapindula: Kuchotsera Kwapadera Mkati",
@@ -11660,16 +11660,16 @@ export default {
      */
     partner_plan: {
       name: [
-        "chinthu chinthu",
+        "Starter Pack",
         "Dongosolo Lofunika",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "Zapamwamba chinthu",
+        "Professional Suite",
+        "Enterprise Edition",
+        "Advanced Tier",
         "Phukusi la Premium",
-        "chinthu chinthu",
-        "chinthu chinthu",
+        "Ultimate Solution",
+        "Elite Level",
         "Kukula Accelerator",
-        "chinthu chinthu",
+        "Platinum Power",
       ],
     },
 
@@ -11703,14 +11703,14 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "chinthu", // Provincial Sales Tax
-        "chinthu", // Harmonized Sales Tax
-        "chinthu", // Quebec Sales Tax
-        "chinthu", // Central Sales Tax
-        "chinthu", // Excise Tax
-        "chinthu", // Import Duty
-        "chinthu", // Service Tax
-        "chinthu", // Luxury Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
+        "ExciseTax", // Excise Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
+        "LuxuryTax", // Luxury Tax
       ],
     },
     /**
@@ -11768,7 +11768,7 @@ export default {
       name: [
         "Gulani 'Til You Drop",
         "Ngolo Yodabwitsa",
-        "chinthu Kugulitsa chinthu",
+        "Flash Sale Fiesta",
         "Dinani, Gulani, Sungani",
         "Bonanza Yabwino",
         "chinthu chinthu",
@@ -11797,7 +11797,7 @@ export default {
         "Mtengo Wosintha T-Shirt",
         "Kuwerengera Zodzikongoletsera Zopangidwa Pamanja",
         "Mitengo ya Nsapato Mwamakonda Anu",
-        "Mwambo chinthu chinthu",
+        "Custom Artwork Valuation",
         "Mitengo ya Suti Yogwirizana",
         "Mtengo Wosinthitsa Zida Zamagetsi",
         "Kuwerengera Kwamunthu Perfume",
@@ -11817,7 +11817,7 @@ export default {
       ],
       structure: {
         title: [
-          "chinthu chinthu Kupanga",
+          "T-shirt Print Design",
           "Mtundu Wazitsulo Zodzikongoletsera",
           "Kusankha Zinthu Zopangira Nsapato",
           "Art Frame Kukula",
@@ -11851,7 +11851,7 @@ export default {
         "chinthu chinthu ",
         "Sinthanitsani Kuti Mupambane Mphotho",
         "Gudumu la Chuma",
-        "chinthu Lotale chinthu",
+        "Lucky Lottery Extravaganza",
         "chinthu chinthu ",
         "Mphotho ya Wheel Fiesta",
         "Treasure Spin Chochititsa chidwi",
@@ -11896,24 +11896,24 @@ export default {
      */
     subscription_price: {
       title: [
-        "chinthu Kufikira",
-        "chinthu chinthu",
-        "chinthu phukusi",
-        "chinthu Konzani",
-        "chinthu Kulembetsa",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "Zopanda malire Kupereka",
-        "chinthu chinthu",
-        "chinthu chinthu",
+        "Basic Access",
+        "Umembala wa Premium",
+        "Phukusi la Golide",
+        "Silver Plan",
+        "Kulembetsa kwa Platinum",
+        "Gawo la Enterprise",
+        "Starter Bundle",
+        "Zopanda Malire",
+        "Family Pack",
+        "Professional Suite",
       ],
       description: [
         "chinthu chinthu ",
         "Kufikira Kuti zonse chinthu chinthu ",
         "chinthu chinthu Zofunika Kwambiri Thandizo",
         "Phukusi loyenera la ogwiritsa ntchito nthawi zonse.",
-        "chinthu Kufikira chinthu chinthu ",
-        "Mwambo chinthu chinthu ",
+        "Kufikira komaliza ndi zabwino zapamwamba.",
+        "Zothetsera mwamakonda mabungwe akuluakulu.",
         "chinthu chinthu ",
         "Palibe malire pakugwiritsa ntchito, kwa wogwiritsa ntchito mphamvu.",
         "Dongosolo lapadera la mabanja, mpaka mamembala anayi.",
@@ -11924,25 +11924,25 @@ export default {
     spec: {
       group: [
         "Mfundo Zaukadaulo",
-        "chinthu chinthu",
-        "Kachitidwe chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "Material chinthu Mangani chinthu",
-        "Mtundu chinthu Malizitsani chinthu",
-        "chinthu chinthu ",
-        "chinthu chinthu ",
-        "chinthu chinthu ",
-        "phukusi chinthu",
-        "chitsimikizo chinthu Thandizo",
-        "Mtundu chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu ",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "Wogwiritsa chinthu chinthu Ndemanga",
-        "Mitengo chinthu chinthu",
+        "Miyeso Yathupi",
+        "Mawonekedwe a Ntchito",
+        "Zosankha Zolumikizira",
+        "Zofunika Mphamvu",
+        "Zinthu Zofunika ndi Zomangamanga",
+        "Mitundu ndi Malizani Zosankha",
+        "Kusungirako ndi Kukumbukira",
+        "Kugwirizana kwa Operating System",
+        "Chitetezo ndi Kutsata",
+        "Zamkatimu Phukusi",
+        "Chitsimikizo ndi Thandizo",
+        "Brand ndi Wopanga",
+        "Ubwenzi Wachilengedwe",
+        "Mphamvu Mwachangu",
+        "Kusamalira ndi Kusamalira",
+        "Zokonda Zokonda",
+        "Kuphatikizapo Chalk",
+        "Makonda ndi Ndemanga za Ogwiritsa",
+        "Mitengo ndi Kupezeka",
       ],
     },
 
@@ -11970,26 +11970,26 @@ export default {
         "kasitomala chinthu",
       ],
       message: [
-        "chinthu chinthu Gulani!",
-        "chinthu chinthu bizinesi",
-        "chinthu oda chinthu chinthu !",
-        "chinthu chinthu ",
-        "chinthu chinthu Kuti chinthu chinthu ",
-        "chinthu chinthu Zofunika Kwambiri",
-        "chinthu chinthu Kuti chinthu chinthu ",
-        "chinthu chinthu sitolo",
-        "chinthu chinthu Zatsopano Gulani!",
-        "Sungani chinthu chinthu ",
-        "Pitani chinthu chinthu Zambiri. . chinthu Zogulitsa",
-        "chinthu Zolumikizidwa chinthu chinthu Zopereka",
-        "chinthu chinthu kasitomala",
-        "chinthu chinthu Kuti chinthu chinthu ",
-        "chinthu Ndemanga chinthu chinthu ",
+        "Zikomo chifukwa chogula!",
+        "Timayamikira bizinesi yanu.",
+        "Kuitanitsa kwanu kuli m'njira!",
+        "Zikomo pogula nafe.",
+        "Ndikuyembekezera kukutumikiraninso.",
+        "Kukhutitsidwa kwanu ndiye chofunikira kwambiri chathu.",
+        "Osayiwala kuvotera zomwe mwakumana nazo.",
+        "Zikomo pothandizira sitolo yathu.",
+        "Tikukhulupirira kuti mumakonda kugula kwanu kwatsopano!",
+        "Sungani invoice yanu kuti mudzagwiritse ntchito mtsogolo.",
+        "Tipezeninso kuti mupeze zinthu zabwino kwambiri.",
+        "Khalani olumikizidwa kuti mupeze zotsatsa zapadera.",
+        "Zikomo chifukwa chokhala kasitomala wofunika.",
+        "Tabwera kukuthandizani ngati mukufuna thandizo.",
+        "Ndemanga zanu zimatithandiza kuchita bwino.",
         "Sangalalani ndi kuchotsera kwapadera pa kugula kwanu kotsatira.",
-        "chinthu chinthu !",
-        "chinthu chinthu ",
-        "chinthu chinthu Kuti chinthu Ndemanga",
-        "chinthu chinthu Kuchokera chinthu chinthu",
+        "Mwasankha bwino kwambiri!",
+        "Zikomo chifukwa cha chikhulupiriro chanu mwa ife.",
+        "Tikuyembekezera mayankho anu.",
+        "Zikomo kuchokera pansi pamtima kuchokera ku gulu lathu.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "chinthu chinthu",
-        "wogulitsa chinthu",
-        "chinthu tsamba loyamba",
-        "chinthu chinthu",
+        "Chiwonetsero cha Katundu",
+        "Vendor Plaza",
+        "Nyumba Zowonetsedwa",
+        "Local Market",
         "Obwera Kwatsopano",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "Zodzikongoletsera chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
+        "Estate Gardens",
+        "Shopping District",
+        "Artisan Alley",
+        "Luxury Estates",
+        "Rental Hub",
+        "Nyumba Zotsegula",
+        "Tech Innovations",
+        "Fashion Lane",
+        "Crafts Corner",
+        "Khoti Lazakudya",
+        "Buku Nook",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Fitness Zone",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "bizinesi chinthu chinthu",
-        "Msonkho chinthu chinthu (chinthu)",
+        "Satifiketi Yolembetsa Bizinesi",
+        "Nambala Yozindikiritsa Msonkho (TIN)",
         "wogulitsa chinthu fomu",
         "Mankhwala chinthu",
         "Mitengo mndandanda",
         "Banki Akaunti Tsatanetsatane",
-        "chinthu chinthu adilesi",
+        "Umboni wa Adilesi",
         "chinthu chinthu",
         "Kampani mbiri",
         "chinthu chinthu ",
         "chinthu Zambiri pepala (chinthu)",
         "Mankhwala chitsimikizo zambiri",
         "Bwererani ndondomeko",
-        "Manyamulidwe chinthu chinthu ",
+        "Njira Zotumizira ndi Kusamalira",
         "kasitomala ntchito ndondomeko",
         "Kutsatsa chinthu chinthu Mapulani",
-        "chinthu chinthu Maulalo",
+        "Ma Social Media Links",
         "chinthu chinthu",
-        "chinthu Kodi chinthu chinthu",
-        "chinthu chinthu (chinthu)",
+        "Supplier Code of Conduct",
+        "Mgwirizano Wosawululira (NDA)",
       ],
     },
 
@@ -12054,24 +12054,24 @@ export default {
     expert_contract: {
       title: [
         "Msika sitolo Ntchito chinthu",
-        "Gulani chinthu chinthu",
-        "chinthu Ntchito chinthu",
+        "Shop Configuration Contract",
+        "Mgwirizano wa Ntchito Zosindikiza-Pa-Demand",
         "chinthu Kutsatsa ntchito chinthu",
-        "chinthu chinthu sitolo chinthu",
-        "Katswiri chinthu chinthu bizinesi chinthu",
-        "ntchito chinthu chinthu Msika chinthu",
+        "Mgwirizano Wokhazikitsa Platform E-commerce",
+        "Katswiri Wofunsira Contract kwa Eni Mabizinesi",
+        "Mgwirizano wa Utumiki Wokonza Msika",
         "Gulani sitolo chinthu chinthu Ntchito chinthu",
         "POD ntchito chinthu chinthu",
-        "Kutsatsa chinthu chinthu ",
+        "Mgwirizano Wokwaniritsa Njira Zotsatsa",
         "bizinesi chinthu ntchito chinthu",
         "chinthu sitolo sitolo chinthu",
         "Katswiri ntchito chinthu chinthu",
-        "bizinesi chinthu chinthu sitolo chinthu",
+        "Mayankho a Bizinesi ndi Kukhazikitsa Kontrakiti",
         "Mwambo Gulani sitolo Ntchito chinthu",
         "Msika chinthu ntchito chinthu",
-        "chinthu chinthu sitolo Ntchito chinthu",
+        "Consulting and Setup Services Contract",
         "POD chinthu Ntchito chinthu",
-        "Kutsatsa chinthu chinthu Ntchito chinthu",
+        "Mgwirizano wa Ntchito Zotsatsa ndi Kutsatsa",
         "bizinesi chinthu ntchito chinthu",
       ],
     },
@@ -12119,7 +12119,7 @@ export default {
         "chinthu kubweza ndalama chinthu chinthu Gulani!",
         "chinthu chinthu ",
         "chinthu kubweza ndalama Zopereka chinthu chinthu ",
-        "chinthu chinthu kubweza ndalama chinthu",
+        "Sangalalani ndi ndalama zabwino kwambiri zobweza ndalama.",
         "Kubwezeredwa pompopompo pazinthu zonse zomwe mumakonda.",
         "Sungani Zambiri. . chinthu chinthu kubweza ndalama Malonda",
         "Kawirikiza kawiri kubweza kwanu pamasiku apadera!",
@@ -12129,7 +12129,7 @@ export default {
         "chinthu! chinthu Nthawi kubweza ndalama Zopereka",
         "Lowani nawo Cashback Rewards Club tsopano.",
         "Mukamagula kwambiri, mumasunga kwambiri.",
-        "chinthu chinthu kubweza ndalama chinthu",
+        "Tsegulani mphotho zomaliza zobweza ndalama.",
         "chinthu chinthu kubweza ndalama Malonda chinthu",
       ],
     },
@@ -12144,7 +12144,7 @@ export default {
         "Kugulitsa Kwapadera ndi Kusunga Pokhapo pa {shop} - Gwiritsani Ntchito Mwayi!",
         "Dziwani Kudzipereka kwa {shop} pa Kukonda zachilengedwe ndi Makhalidwe Abwino",
         "Khalani M'gulu la {shop} Banja - Lembetsani Ku Kalata Yathu Kuti Zosintha",
-        "chinthu chinthu {shop}",
+        "Lowani mu Zosankha Zapamwamba ndi Katundu Wovoteredwa Kwambiri pa {shop}",
         "chinthu chinthu zonse Zochitika chinthu {shop}",
         "Zotsatsa Zopanda Mpikisano Komanso Zapadera Zanthawi Yake ku {shop} - Chitanipo kanthu Mwachangu!",
         "{shop} Maupangiri Athunthu Ogula ndi Kuwunika Kwazinthu - Gulani Mwachidaliro",
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "chinthu chinthu , chinthu chinthu !",
-        "Sungani chinthu chinthu Malonda!",
-        "chinthu chinthu !",
-        "chinthu chinthu Gulani, chinthu chinthu!",
-        "chinthu chinthu , Gulani chinthu!",
-        "chinthu Zinthu, chinthu chinthu!",
+        "Malizitsani mawonekedwe anu, gwirani seti!",
+        "Sungani zambiri ndi ma deal athu amtolo!",
+        "Musaphonye zophatikiza zathu zabwino!",
+        "Limbikitsani kugula kwanu, zowonjezera zikuyembekezera!",
+        "Tsegulani ndalama zokhazokha, gulani limodzi!",
+        "Zinthu zowonjezera, kuchotsera kwapadera!",
         "Pezani zambiri, wonongani zochepa - onjezerani!",
-        "chinthu Kupereka: chinthu Zogulitsa!",
-        "chinthu chinthu , chinthu Malonda!",
-        "chinthu chinthu , Sungani chinthu!",
-        "chinthu chinthu !",
-        "Gulani chinthu, chinthu chinthu Sungani!",
-        "chinthu chinthu Mtengo, chinthu chinthu !",
-        "chinthu chinthu – Gulani chinthu!",
-        "chinthu chinthu Mitengo chinthu chinthu !",
-        "chinthu chinthu !",
-        "chinthu chinthu !",
-        "chinthu chinthu : chinthu chinthu Sungani!",
-        "chinthu chinthu !",
-        "chinthu chinthu Zokondedwa chinthu chinthu !",
+        "Zopereka zanthawi yochepa: zofananira!",
+        "Sinthani luso lanu, ma combo deal!",
+        "Dziwani ma combo athu osankhidwa, sungani tsopano!",
+        "Yang'anirani kuti mukhale combo yomaliza!",
+        "Gulani mwanzeru, mtolo ndikusunga!",
+        "Pawiri mtengo, kusangalala kawiri!",
+        "Masewera anu abwino ali pano - gulani tsopano!",
+        "Mitengo yamtolo yokhayokha yanu!",
+        "Kwezani ndalama zanu ndi ma combos athu!",
+        "Konzani zosonkhanitsa zanu ndi zosankha izi!",
+        "Zopangira inu: fananitsani ndikusunga!",
+        "Awiri abwino kwa tsiku langwiro!",
+        "Sonkhanitsani zokonda zanu kuti musunge zambiri!",
       ],
     },
 
@@ -12218,12 +12218,12 @@ export default {
         "oda Zaperekedwa",
         "Malipiro Adalandira",
         "oda chinthu",
-        "oda chinthu chinthu",
-        "oda chinthu chinthu",
+        "Kuchedwa Kukonza Kukonza",
+        "Order Pa Hold",
         "oda chinthu chinthu Kutumiza",
         "Bwererani chinthu",
         "chinthu chinthu",
-        "chinthu Kubwerera chinthu chinthu",
+        "Zinthu Zabwereranso mu Stock",
       ],
       body: [
         "Moni {buyer_name}, kugula kwanu #{order_id} kwatsimikizika! Tikukonza ndipo tidzakudziwitsani ikakonzeka kutumiza.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "chinthu",
-        "chinthu chinthu",
-        "chinthu",
+        "Valani",
+        "Zida Zamakono",
+        "Zakumwa",
         "Zakudya",
         "Mipando",
-        "chinthu",
-        "chinthu Zogulitsa",
-        "chinthu",
-        "chinthu chinthu",
-        "chinthu",
+        "Mabuku",
+        "Zinthu Zokongola",
+        "Zoseweretsa",
+        "Zida Zamasewera",
+        "Zida",
       ],
       description: [
         "Zomwe zimapangidwira zovala monga kukula, mtundu, ndi nsalu.",
         "Zofotokozera za zida monga mtundu, mtundu, ndi mawonekedwe.",
         "Kukoma, makulidwe, ndi mitundu ya zakumwa.",
         "Tsatanetsatane wa zakudya, zokhwasula-khwasula, ndi zakudya.",
-        "Material, chinthu, chinthu Kupanga chinthu",
-        "Wolemba, chinthu, chinthu chinthu ",
+        "Zida, miyeso, ndi masitayelo apangidwe.",
+        "Wolemba, mtundu, ndi chaka chofalitsa.",
         "Mtundu wa khungu, zosakaniza, ndi tsatanetsatane wa phukusi.",
-        "chinthu chinthu, chinthu, chinthu chinthu ",
-        "Mtundu, chinthu, chinthu Kachitidwe chinthu",
-        "chinthu, chinthu, chinthu Mtundu Tsatanetsatane",
+        "Miyezo yazaka, zakuthupi, ndi chitetezo.",
+        "Mtundu, kukula, ndi magwiridwe antchito.",
+        "Masitayelo, zida, ndi tsatanetsatane wamtundu.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "chinthu XS",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu XL",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu",
-        "chinthu chinthu ",
-        "chinthu chinthu ", // flexible mailer
-        "chinthu chinthu", // bubble/padded
-        "chinthu chinthu", // thermal
-        "chinthu chinthu",
+        "Bokosi XS",
+        "Bokosi S",
+        "Bokosi M",
+        "Bokosi L",
+        "Bokosi XL",
+        "Bokosi XXL",
+        "Bokosi Slim",
+        "Bokosi Lonse",
+        "Box Tall",
+        "Bokosi Flat",
+        "Bokosi Cube",
+        "Bokosi Tube",
+        "Bokosi Fragile",
+        "Mabotolo agalasi a Bokosi",
+        "Box Soft Pack", // flexible mailer
+        "Bokosi Lopangidwa", // bubble/padded
+        "Bokosi Insulated", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

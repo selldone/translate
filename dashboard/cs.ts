@@ -621,14 +621,14 @@ export default {
       },
       show_vendors: {
         false_title: "Skrýt prodejce",
-        false_description: "pojem zobrazit prodejce pojem.",
+        false_description: "Stačí ukázat vlastníka prodejce.",
         true_title: "Zobrazit prodejce",
         true_description: "zobrazit vše prodejci, ⌘Ctrl+1",
       },
       table_mode: {
         false_title: "Režim přetažení",
         false_description:
-          "zobrazit produkty pojem podle kategorie a pojem.",
+          "Zobrazit produkty uspořádané podle kategorií a podkategorií.",
         true_title: "Tabulkový režim",
         true_description: "Prohlédněte si produkty v podrobném rozložení tabulky.",
       },
@@ -1428,7 +1428,7 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategorie",
-      category_input_msg: "prázdné: v pojem obchod pojem",
+      category_input_msg: "Prázdné: V kořenovém adresáři obchodu",
       product_name: "Jméno výrobku*",
       product_name_placeholder: "Název vašeho produktu zde..",
       product_code: "Kód produktu (anglicky)",
@@ -1513,7 +1513,7 @@ export default {
       external: {
         not_available_message:
           "Extra akce dostupná s licencemi Company & Enterprise.",
-        available_message: "vy může přidat pojem extra externí pojem k akce.",
+        available_message: "Můžete přidat další externí výzvu k akci.",
         input_label: "Druhá výzva k akci",
       },
       warehouse: {
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Specifikace produktu uloženy.",
       },
       dialog_ai: {
-        title: "automaticky pojem produkt pojem",
+        title: "Automaticky generovat specifikace produktu",
         prompt: {
           title: "produkt pojem",
           subtitle:
@@ -1875,11 +1875,11 @@ export default {
     menu: {
       add_bulk: {
         title: "Hromadné přidání",
-        subtitle: "přidat pojem varianty v pojem akce.",
+        subtitle: "Přidejte více variant v jedné akci.",
       },
       edit_property_set: {
         title: "Přizpůsobit sadu vlastností",
-        subtitle: "pojem varianty pojem, ikona a objednávky.",
+        subtitle: "Změňte názvy variant, ikony a objednávky.",
       },
     },
   },
@@ -2014,11 +2014,11 @@ export default {
         "Nastavte pro dodavatele vlastní vstupní stránku a poskytněte mu jedinečný odkaz na jeho vyhrazenou stránku.",
       action_set_page: "zobrazit veřejné stránka",
       action_sub_caption: "vlastní pojem stránka.",
-      vendor_has_landing_msg: "prodejce má pojem vlastní pojem stránka.",
+      vendor_has_landing_msg: "Prodejce má vlastní vstupní stránku.",
       no_landing_selected_msg: "ne pojem stránka vybrané.",
       no_landing_page: "ne pojem stránka",
       we_can_create_dedicated_landing_msg:
-        "my může vytvořit pojem vyhrazené pojem stránka pro vy.",
+        "Můžeme pro vás vytvořit speciální vstupní stránku.",
     },
     contact: {
       title: "pojem informace",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Lodní doprava",
-      subtitle: "prodejci může pojem jejich pojem doprava služby a kurýři.",
+      subtitle: "Prodejci si mohou nastavit své vlastní přepravní služby a kurýry.",
       shipping_services: "doprava služby",
       total_number_of_services:
         "Celkový počet přepravních služeb, které má prodejce.",
@@ -2070,7 +2070,7 @@ export default {
     order_information_email_to_email:
       "my bude pojem objednávky informace k <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "nastavit pojem uživatel pro pojem prodejce první.",
+    set_a_user_for_the_vendor_first_msg: "Nejprve nastavte uživatele pro dodavatele.",
 
     inputs: {
       slug: {
@@ -2079,7 +2079,7 @@ export default {
         hint: "Změňte cestu k dynamické vstupní stránce dodavatele.",
       },
       email: {
-        message: "toto e-mail bude pojem vše pojem a aktualizovat.",
+        message: "Tento e-mail bude přijímat všechna upozornění a aktualizace.",
       },
       business: {
         false_description: "Pracuji jako jednotlivec.",
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Mezinárodní číslo bankovního účtu: Pokud je banka prodejce v Evropě nebo v určitých jiných zemích.",
-        placeholder: "váš IBAN pojem.. pojem. DE89 3704 0044 0000 0000 00",
+        placeholder: "Vaše číslo IBAN, např. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Mezinárodní číslo bankovního účtu: Pokud je banka prodejce v Evropě nebo v určitých jiných zemích.",
@@ -2126,7 +2126,7 @@ export default {
         true_description:
           "Prodejce má vyhrazený panel pro aktualizaci množství a ceny.",
         hint: "Můžete povolit nebo zakázat panel dodavatele, který umožňuje dodavatelům aktualizovat množství a ceny produktů a přijímat částečné objednávky.",
-        false_description: "pojem prodejce má ne přístup k pojem.",
+        false_description: "Prodejce nemá k ničemu přístup.",
       },
 
       logo: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Počet příspěvků",
           score: "Skóre",
         },
-        users_not_rated_msg: "uživatelé mít ne pojem toto produkt pojem.",
+        users_not_rated_msg: "Uživatelé zatím tento produkt neohodnotili.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2455,7 +2455,7 @@ export default {
         },
         smart_unit_price: {
           tips: "Vypočítejte jednotkovou cenu na základě <b>hmotnosti</b>, <b>objemu</b> a <b>velikosti balení</b>. Chcete-li tuto funkci zakázat, přejděte na Obchod > Nastavení > Motiv > Stránka produktu > Cena za chytrou jednotku.",
-          smart_unit_price: "pojem cena pojem",
+          smart_unit_price: "Výpočet jednotkové ceny",
         },
         quantity: {
           title: "Inventář",
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "obchod pojem",
     subtitle: "seznam z vše produkty v obchod.",
-    cant_set_here: "pojem nastavit pojem",
+    cant_set_here: "Zde nelze nastavit",
 
     search_input: "Vyhledávání produktů...",
     search_input_title: "Hledejte mezi produkty obchodu",
@@ -2718,7 +2718,7 @@ export default {
     title: "pojem akce > cena",
     message:
       "Následující částka se použije jako procento k ceně všech produktů ve vašem obchodě. Vypočítané hodnoty cen budou také inteligentně převedeny na nejbližší zaokrouhlené číslo na základě zvolené měny. Při zadávání hodnot buďte opatrní.",
-    check: "já pojem cena pojem.",
+    check: "Změny cen schvaluji.",
     check_description:
       "Cena bude změněna pro vybranou kategorii a všechny podkategorie.",
     add_percent_tab: "přidat pojem",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Automatické ukládání",
-    auto_save_input_message: "pojem bude být pojem automaticky.",
+    auto_save_input_message: "Změny budou automaticky uloženy.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "Snažte se omezit počet měn ve vašem obchodě na minimum – ideálně méně než 3. Většina platebních bran dokáže zpracovávat transakce téměř v jakékoli měně.",
         add_first_currency: {
-          subtitle: "prosím přidat pojem měna k váš obchod před pojem.",
+          subtitle: "Než budete pokračovat, přidejte do svého obchodu měnu.",
           title: "Přidat měnu",
         },
       },
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "pojem režim",
-          true_description: "vy může nastavit pojem konfigurace pojem.",
+          true_description: "Konfiguraci brány můžete nastavit ručně.",
 
           false_title: "automaticky pojem",
           false_description:
@@ -3161,7 +3161,7 @@ export default {
         spec: {
           message:
             "Seznam funkcí, které chcete zobrazit v sekci filtru",
-          placeholder: "vybrat pojem k zobrazit v pojem...",
+          placeholder: "Vyberte specifikace, které chcete zobrazit ve filtru...",
         },
       },
     },
@@ -3333,11 +3333,11 @@ export default {
       options: {
         title: "možnosti",
         subtitle:
-          "pokud vy chcete k zrušit váš objednávka pojem, vy může pojem toto možnost.",
+          "Pokud chcete objednávku okamžitě zrušit, můžete využít této možnosti.",
       },
 
       express_input: {
-        true_title: "pojem | zrušit objednávka pojem",
+        true_title: "Express | Okamžitě zrušit objednávku",
         false_title: "pojem | zrušit objednávka po 48 hodiny",
         true_description:
           "Tato možnost okamžitě zruší vaši objednávku a okamžitě aktualizuje inventář.",
@@ -3658,7 +3658,7 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "informace",
-    subtitle: "pojem z platba pojem konfigurace a stav.",
+    subtitle: "Přehled konfigurace a stavu platební brány.",
     status: "Postavení",
     cod_transportation: "pojem doprava",
     cod_transportations_error:
@@ -3688,14 +3688,14 @@ export default {
     },
     extra_config: {
       title: "platba služba konfigurace",
-      subtitle: "dodatečné konfigurace informace pro pojem platba pojem.",
+      subtitle: "Další informace o konfiguraci platební brány.",
     },
 
     recommended_actions: {
       title: "pojem akce",
       subtitle:
         "Provedením těchto kroků začnete od svých zákazníků dostávat skutečné platby.",
-      action_enable: "pojem k pojem to",
+      action_enable: "Kliknutím ji povolíte",
       make_live_enable: "pojem k živě to",
     },
   },
@@ -3708,7 +3708,7 @@ export default {
     status_title: "platba služba stav",
     status_message:
       "Nakonfigurujte způsob platby jako Aktivní nebo Neaktivní. Zákazníkům se zobrazí pouze metody nastavené jako aktivní.",
-    status_true_description: "váš zákazníci může pojem s toto platba pojem.",
+    status_true_description: "Vaši zákazníci mohou platit touto platební metodou.",
 
     manual_title: "ručně / automaticky pojem platba",
     manual_message:
@@ -3726,13 +3726,13 @@ export default {
       success_delete: "platba pojem má bylo smazáno!",
     },
     debug: {
-      title: "pojem & pojem",
+      title: "Vyvíjet a testovat",
       subtitle: "Pro testování platební brány můžete povolit režim ladění.",
     },
 
     limit: {
       title: "objednávka limit",
-      subtitle: "nastavit pojem minimum objednávka částka pro toto platba pojem.",
+      subtitle: "Nastavte minimální částku objednávky pro tuto platební bránu.",
     },
     limit_input: {
       title: "minimum objednávka částka",
@@ -3748,7 +3748,7 @@ export default {
       false_description:
         "Stav platby se automaticky změní z nevyřízeného na potvrzený v systému poskytovatele plateb.",
       false_title: "automaticky platba pojem",
-      true_title: "pojem platby a ručně pojem",
+      true_title: "Pozdržení plateb a manuální potvrzení",
       true_description:
         "Pozastavte platbu, takže budete muset ověřit platby za objednávku, abyste změnili její stav z nevyřízeného na potvrzený v systému poskytovatele plateb.",
     },
@@ -3759,7 +3759,7 @@ export default {
     },
     delete_alert: {
       title: "smazat platba pojem",
-      message: "jsou vy pojem smazat toto platba pojem od váš obchod?",
+      message: "Jste si jisti, že smažete tuto platební metodu ze svého obchodu?",
       action: "smazat platba pojem",
     },
   },
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Přesunout kategorii <b>{category}</b> do jiné kategorie",
     move_product: "Přesunout produkt <b>{product}</b> do kategorie",
     load_more_products:
-      "více produkty jsou dostupné v toto kategorie. pojem k pojem více položky.",
+      "V této kategorii je k dispozici více produktů. Kliknutím načtete další položky.",
     product_menu: {
       dashboard: "Produktová deska",
       inventory: "Zásoby a varianty",
@@ -4070,7 +4070,7 @@ export default {
 
     filter_box: {
       no_root_filter_message: "V rootu máte produkty, ale žádný filtr.",
-      has_root_filter_message: "vy nastavit pojem pro pojem kategorie.",
+      has_root_filter_message: "Nastavujete filtry pro kořenovou kategorii.",
       set_filter_message: "vy může nastavit pojem.",
       edit_action: "Upravit kořenové filtry",
       clear_action: "Vymazat kořenové filtry",
@@ -4081,13 +4081,13 @@ export default {
     menu: {
       select_all_products: "vybrat vše produkty",
       unselect: "pojem",
-      sort_categories: "pojem / pojem kategorie",
+      sort_categories: "Uspořádat / Seřadit kategorie",
       subscription_vendor_not_support_message:
         "Nelze přiřadit dodavatele pro předplatné produktů! Předplatné produkty musí mít vždy prodejce jako svého vlastníka!",
       vendor_owner_not_assignable_message:
         "Nelze přiřadit dodavatele pro produkty, jejichž vlastníkem je prodejce!",
-      category_assign_profile: "pojem profil k produkty v pojem kategorie",
-      category_assign_profile_subtitle: "daň, doprava, pojem, pojem,...",
+      category_assign_profile: "Přiřadit profil k produktům v kategorii",
+      category_assign_profile_subtitle: "Daň, doprava, průvodce, záruka,...",
       bulk_discount: "pojem sleva",
       bulk_discount_subtitle: "použít sleva na vše produkty.",
     },
@@ -4096,14 +4096,14 @@ export default {
       title: "extra produkty pojem",
       subtitle:
         "více produkty bude být pojem od vybrané kategorie a štítky.",
-      load_in_tips: "pojem produkty od kategorie v pojem {category}.",
+      load_in_tips: "Načtěte produkty z kategorií v {category}.",
       action: "upravit {category} pojem",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "pustit pojem / CSV soubor pojem.",
+      title: "Sem přetáhněte soubor Excel / CSV.",
       select_file: "vybrat soubor",
       max_file: "maximum soubor velikost: 20pojem",
       download_sample: "stáhnout ukázka",
@@ -4119,7 +4119,7 @@ export default {
     no_panel: "ne pojem",
     manual_action: {
       title: "ručně akce",
-      message: "vy může aktualizovat pojem prodejce objednávka stav pojem.",
+      message: "Stav objednávky dodavatele můžete aktualizovat ručně.",
       guides: [
         "Dodavatelé s přístupem k panelu mohou aktualizovat své plnění (podobjednávky) na svém vyhrazeném řídicím panelu.",
         "Pokud dodavatel nemá přístup k panelu, stav objednávky dodavatele se automaticky změní změnou stavu košíku.",
@@ -4900,11 +4900,11 @@ export default {
     },
     "backoffice:finance:write": {
       name: "pojem účet správa",
-      description: "spravovat pojem účty odkaz k pojem obchod.",
+      description: "Spravujte finanční účty propojené s obchodem.",
     },
     "backoffice:finance:read": {
       name: "pojem účet přístup",
-      description: "čtení pojem účet detaily a pojem.",
+      description: "Přečtěte si podrobnosti o finančním účtu a statistiky.",
     },
     "backoffice:page:write": {
       name: "stránka správa",
@@ -4984,7 +4984,7 @@ export default {
     },
     "backoffice:lottery:read": {
       name: "pojem přístup",
-      description: "čtení pojem detaily a pojem.",
+      description: "Přečtěte si podrobnosti o loterii a statistiky.",
     },
     "backoffice:community:write": {
       name: "pojem správa",
@@ -4992,7 +4992,7 @@ export default {
     },
     "backoffice:community:read": {
       name: "pojem přístup",
-      description: "čtení pojem detaily a pojem.",
+      description: "Přečtěte si podrobnosti a statistiky komunity.",
     },
     "backoffice:customer:write": {
       name: "zákazník správa",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "pojem přístup",
-      description: "čtení pojem detaily a pojem.",
+      description: "Přečtěte si podrobnosti o pásu karet a statistiky.",
     },
     "backoffice:ai:write": {
       name: "AI správa",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "pojem přístup",
-      description: "čtení pojem detaily a pojem.",
+      description: "Přečtěte si podrobnosti o tokenu a statistiky.",
     },
     "selldone:token:write": {
       name: "pojem správa",
@@ -5070,7 +5070,7 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "pojem přístup",
-      description: "čtení pojem detaily a pojem.",
+      description: "Přečtěte si podrobnosti o zpeněžení a statistiky.",
     },
     "selldone:monetization:write": {
       name: "pojem správa",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "pojem",
-      description: "přístup k pojem a obchod správa pojem.",
+      description: "Přístup k funkcím správy backoffice a obchodu.",
     },
     storefront: {
       title: "pojem",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Snadno přidávejte produkty od dodavatelů POD nebo dropshippingových dodavatelů pomocí Selldone Connect OS – stačí připojit svůj obchod a užít si automatickou integraci produktů, nejsou potřeba žádné pluginy.",
     },
-    your_license_is_not_eligible: "váš pojem je ne pojem.",
+    your_license_is_not_eligible: "Vaše licence není způsobilá.",
     sku_dialog: {
       title: "přidat produkt podle SKU",
       subtitle:
@@ -5920,7 +5920,7 @@ export default {
       domain_not_approved_msg: "Doména ještě nebyla schválena!",
       domain_is_not_enable_msg: "pojem doména je ne povoleno!",
       domain_is_linked_to_other_affiliate_msg:
-        "toto doména je pojem odkaz k pojem affiliate partner!",
+        "Tato doména je již propojena s jinou přidruženou společností!",
     },
 
     set_users_first_message: "prosím nastavit pojem uživatel první!",
@@ -5948,7 +5948,7 @@ export default {
           "Počítejte pomocí kombinace fixních a procentuálních provizí.",
         true_description:
           "Vypočítejte pomocí provizí specifických pro daný produkt nastavených na záložce cen.",
-        false_title: "pojem + pojem provize",
+        false_title: "Fixní + procentní provize",
         true_title: "pojem provize",
       },
       user: {
@@ -5956,16 +5956,16 @@ export default {
         message: "Volitelné, např. název affiliate partnera v Selldone",
       },
       web: {
-        placeholder: "volitelné, pojem.pojem., affiliate-web.com",
+        placeholder: "Volitelné, např. affiliate-web.com",
       },
       address: {
-        placeholder: "volitelné, pojem.pojem., 1200 POX, NY, USA",
+        placeholder: "Volitelné, např. 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "volitelné, pojem.pojem., 001-808-210354",
+        placeholder: "Volitelné, např. 001-808-210354",
       },
       bank: {
-        placeholder: "volitelné, pojem.pojem., Arstra banka, ne: 10002-325-800-845213",
+        placeholder: "Volitelné, např. Arstra Bank, č.: 10002-325-800-845213",
       },
       domain: {
         placeholder: "vybrat pojem doména... (volitelné)",
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "V této sekci můžete nastavit jak maximální počet použití na kupón, tak nejvyšší částku slevy, kterou může každý kupón poskytnout.",
-      zero_message: "pojem: pojem je ne limit!",
+      zero_message: "nula: neexistuje žádný limit!",
     },
     duration: {
       subtitle:
@@ -7107,7 +7107,7 @@ export default {
       "Není k dispozici pro prodejce! Můžete to povolit v nastavení dopravy.",
     panel: {
       title: "prodejce pojem",
-      subtitle: "pojem váš prodejci pojem váš vlastní doména.",
+      subtitle: "Připojte své dodavatele prostřednictvím vlastní domény.",
     },
     documents: {
       title: "dokumenty",
@@ -7126,13 +7126,13 @@ export default {
         label: "přidat nový produkt",
         true_title: "prodejci může přidat produkty",
         false_description:
-          "vy přidat produkty a pojem prodejci. prodejci může pouze spravovat cena a pojem.",
+          "Přidáte produkty a přiřadíte dodavatele. Prodejci mohou spravovat pouze cenu a zásoby.",
         true_description:
           "Prodejci mohou přidávat a spravovat své vlastní produkty přímo na panelu dodavatelů.",
       },
       need_verify: {
         label: "Tok ověření produktu",
-        false_description: "nový prodejce produkty pojem živě pojem.",
+        false_description: "Produkty nových dodavatelů jsou okamžitě spuštěny.",
         false_title: "ne pojem povinné",
         true_description:
           "Nové produkty prodejců vyžadují schválení před uvedením na trh.",
@@ -7144,7 +7144,7 @@ export default {
         false_description:
           "vy přidat kategorie. prodejci může pouze přidat produkty k pojem kategorie.",
         true_description:
-          "prodejci může přidat a spravovat kategorie pojem v jejich prodejce pojem.",
+          "Dodavatelé mohou přidávat a spravovat kategorie přímo na panelu dodavatelů.",
       },
       shipping: {
         label: "doprava možnosti",
@@ -7172,7 +7172,7 @@ export default {
       listing: {
         label: "výpis pro prodejci",
         true_description: "výpis je povoleno pro prodejci. prodejci může spravovat výpis položky a společnosti.",
-        false_description: "výpis je zakázáno pro prodejci. pouze pojem obchod pojem může spravovat výpis položky a společnosti.",
+        false_description: "Výpis je pro dodavatele zakázán. Pouze majitel obchodu může spravovat položky a společnosti.",
         requires_listing_active_text:
           "Chcete-li umožnit prodejcům používat výpis (položky + společnosti), nejprve povolte funkci výpisu obchodu v Channel → Listing. Poté se sem vraťte a povolte přístup dodavateli.",
         requires_listing_active_button: "otevřít kanál výpis nastavení",
@@ -7264,7 +7264,7 @@ export default {
         "Odešlete dokument k ověření adresy vaší firmy, například účet za energie, daňový doklad nebo nájemní smlouvu.",
     },
     Contract: {
-      title: "pojem & pojem",
+      title: "Smlouvy a dohody",
       description:
         "Nahrajte smlouvy nebo dohody, které podrobně popisují podmínky vašich obchodních vztahů.",
     },
@@ -7352,7 +7352,7 @@ export default {
         placeholder: "např. Třída digitálních produktů...",
       },
       description: {
-        placeholder: "vy může přidat pojem poznámka pojem...",
+        placeholder: "Zde můžete přidat poznámku...",
       },
       accept_delete: {
         true_description: "já chcete k smazat toto ceny pojem.",
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Když připojíte výplatní služby, jako je Stripe Connect, načteme a zobrazíme dostupný zůstatek na vašem účtu Stripe pro referenci.",
     with_balance: "s zůstatek",
-    without_balance: "pojem zůstatek - pojem režim",
+    without_balance: "Bez rovnováhy - Rychlý režim",
     bank_transfer: {
       title: "banka převod",
       subtitle:
@@ -7421,7 +7421,7 @@ export default {
       payout_success: {
         title: "výplata",
         message:
-          "pojem prodejce výplata má bylo úspěšně pojem a přidat.",
+          "Výplata dodavatele byla úspěšně zpracována a přidána.",
       },
     },
   },
@@ -7583,7 +7583,7 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "pojem & pojem",
+      title: "Registrace a přihlášení",
       subtitle:
         "Přizpůsobte si registraci a přihlášení dodavatele pomocí vlastního videa, obrázku nebo zprávy.",
     },
@@ -7696,7 +7696,7 @@ export default {
         true_title: "vlastní varianty",
         false_title: "výchozí varianty",
         true_description: "pojem váš produkt varianty.",
-        false_description: "pojem výchozí pojem varianty.",
+        false_description: "Použít výchozí globální varianty.",
       },
     },
   },
@@ -7833,7 +7833,7 @@ export default {
       "Chcete-li do svého obchodu přidat zákazníka, zadejte e-mailovou adresu nebo telefonní číslo.",
     more: {
       title: "Přidejte další podrobnosti",
-      subtitle: "nastavit měna, zákazník pojem, pojem, adresa a více.",
+      subtitle: "Nastavte měnu, zákaznický klub, segmenty, adresu a další.",
     },
     detail: {
       subtitle:
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "Můj kurýr balíček vyzvedne.",
 
     pickup_ready_action: "vyzvednutí pojem",
-    pickup_ready_action_subtitle: "pojem objednávka je pojem pro zákazník vyzvednutí.",
+    pickup_ready_action_subtitle: "Objednávka je připravena k vyzvednutí zákazníkem.",
 
     service_action: "Potvrzení o provedení",
 
@@ -8041,7 +8041,7 @@ export default {
             "Mezinárodní kód používaný k celosvětové identifikaci bank, zejména pro mezinárodní převody.",
         },
         iban: {
-          label: "IBAN (pojem banka účet pojem)",
+          label: "IBAN (mezinárodní číslo bankovního účtu)",
           message:
             "IBAN, který se používá především v Evropě, je mezinárodně dohodnutý systém pro identifikaci bankovních účtů přes státní hranice.",
         },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "zpeněžit",
-    subtitle: "pojem přístup k podnikání pojem.",
+    subtitle: "Rozšiřte přístup k obchodním příležitostem.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8320,7 +8320,7 @@ export default {
   buy_button: {
     waiting_for_availability: "Čekání na dostupnost",
     inform_me_when_available: "Informujte mě, až bude k dispozici!",
-    pay_buy: "pojem & pojem",
+    pay_buy: "Pay & Buy",
     quantity: "Počet",
     quantity_in_basket: "Položky v košíku",
     count_unit: "X",
@@ -8650,7 +8650,7 @@ export default {
     all: {
       title: "OPT + objednávka pojem",
       description:
-        "pojem zpráva a objednávka pojem bude být odesláno.",
+        "Budou odeslány autentizační zprávy a upozornění na objednávku.",
     },
     otp: {
       title: "OTP pouze",
@@ -8684,8 +8684,8 @@ export default {
       "Chcete-li odesílat e-maily prostřednictvím vlastní domény, připojte se k poskytovateli poštovních služeb.",
     provider: "poskytovatel",
     enable_input: {
-      false_description: "váš e-mail bude být odesláno pojem váš pojem doména.",
-      true_description: "váš e-mail bude být odesláno pojem váš vlastní pojem doména.",
+      false_description: "Vaše e-maily budou zasílány prostřednictvím vaší domény myldone.",
+      true_description: "Vaše e-maily budou zasílány prostřednictvím vaší vlastní poštovní domény.",
     },
     config: {
       title: "konfigurace",
@@ -8980,7 +8980,7 @@ export default {
       description:
         "Zákazníci si mohou tento produkt zakoupit pouze v rámci uvedené země a PSČ z důvodu zavedeného omezení umístění.",
     },
-    zip_pin_code: "pojem / pojem kód",
+    zip_pin_code: "PSČ / PIN kódy",
     no_country_selected_error:
       "Uveďte prosím alespoň jednu zemi spolu se seznamem PSČ. Bez něj nebude tento produkt dostupný.",
     tips: "Kliknutím na tlačítko <b>+ Přidat zemi</b> začněte vytvářet novou sadu umístění. Až budete hotovi, můžete jej uložit kliknutím na <b>⋮ vpravo nahoře Menu</b> a výběrem <b>Uložit profil</b>.",
@@ -9032,7 +9032,7 @@ export default {
 
     notification: {
       title: "Oznámení",
-      subtitle: "pojem nový objednávky pojem.",
+      subtitle: "Získejte upozornění na nové objednávky.",
     },
     order: {
       title: "Objednávky",
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "produkty",
-      subtitle: "pojem správa a produkt pojem.",
+      subtitle: "Řízení zásob a produktové prosté.",
     },
   },
 
@@ -9600,7 +9600,7 @@ export default {
       test: {
         false_title: "pojem vše",
         false_desc: "pojem vše dostupné produkty, kategorie, zákazníci.",
-        true_title: "limit (pojem pro pojem)",
+        true_title: "Omezené (doporučeno pro začátečníky)",
         true_desc:
           "Získejte maximálně 5 produktů, kategorií a zákazníků. Kdykoli jej můžete přepnout do plného režimu v nabídce Připojit > Nastavení.",
       },
@@ -9622,11 +9622,11 @@ export default {
       },
       enable: {
         label: "Connect stav",
-        true_desc: "pojem a objednávky bude být pojem.",
+        true_desc: "Zásoby a objednávky budou synchronizovány.",
       },
       confirm: {
         label: "automaticky potvrdit objednávky",
-        false_desc: "vy pojem potvrdit objednávka pojem.",
+        false_desc: "Objednávku byste měli potvrdit ručně.",
         true_desc:
           "Objednávky se živou platbou budou automaticky schváleny. Objednávky s platbou za ladění nebudou automaticky schváleny.",
         tips: "Objednávky zaplacené dárkovou kartou nebo na dobírku nebo platební brány v režimu ladění jsou výjimkou a nebudou automaticky potvrzovány.",
@@ -9644,7 +9644,7 @@ export default {
       },
 
       remove: {
-        verify: "já pojem k odstranit toto pojem.",
+        verify: "Ověřuji odstranění tohoto připojení.",
         action: "odstranit pojem",
       },
     },
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "automaticky potvrdit",
       shipping: "Lodní doprava",
       syncing_now: "pojem nyní!",
-      sync_not_started: "pojem má ne začátek pojem!",
+      sync_not_started: "Synchronizace ještě nezačala!",
     },
   },
 
@@ -9684,7 +9684,7 @@ export default {
     },
     Accounting: {
       title: "Účetnictví",
-      desc: "pojem objednávky a pojem informace.",
+      desc: "Odesílejte objednávky a finanční informace.",
     },
     Other: {
       title: "pojem",
@@ -9815,7 +9815,7 @@ export default {
         title:
           "Před propojením Selldone s Google Search Console zajistěte následující:",
         add_in_selldone: "přidat, pojem, a nastavit jako primární váš vlastní doména.",
-        add_in_google: "přidat a pojem <b>{domain}</b> v váš<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google hledat pojem</b></a>.",
+        add_in_google: "Přidejte a ověřte <b>{domain}</b> ve svém<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a>.",
       },
       action_custom_domain: "vlastní doména",
       action_connect_now: "Připojte se nyní",
@@ -9829,13 +9829,13 @@ export default {
   cashback: {
     add_new: "přidat nový cashback",
     title: "cashback pojem",
-    boosted: "pojem (2pojem)",
+    boosted: "Zvýšit (2x)",
     min_purchase: "minimum pojem",
     only_first_order: "pouze první objednávka",
     total_cashback: "celkem cashback",
     delete_alert: {
       title: "smazat cashback pojem",
-      message: "jsou vy pojem k smazat toto cashback pojem?",
+      message: "Opravdu chcete tento cashback program smazat?",
       action: "Ano, smazat nyní",
     },
     notifications: {
@@ -9901,7 +9901,7 @@ export default {
     limit_input: {
       title: "Omezit",
       hint: "Zadejte maximální částku cashback.",
-      zero_message: "pojem 0 pro pojem cashback.",
+      zero_message: "Zadejte 0 pro neomezený cashback.",
     },
     duration: {
       title: "trvání limit",
@@ -9933,7 +9933,7 @@ export default {
       title: "minimum pojem",
     },
     only_first_buy_input: {
-      false_desc: "pojem cashback pojem bude být dostupné pro vše objednávky.",
+      false_desc: "Cashback program bude dostupný pro všechny objednávky.",
       true_desc:
         "Cashback program bude dostupný pouze pro první objednávku.",
       true_title: "pouze první objednávka",
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "Normální",
-      true_title: "pojem (2pojem cashback)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "Cashback program je v boost režimu a zákazníci obdrží 2x cashback.",
       false_msg:
@@ -10133,12 +10133,12 @@ export default {
     health: {
       title: "produkt pojem",
       available_in_stock_msg: "produkt je dostupné v pojem.",
-      out_of_stock_msg: "produkt je pojem z pojem.",
+      out_of_stock_msg: "Produkt není skladem.",
       file_count_msg:
         "{files_count} soubory s celkem {files_size} nahrát pro toto produkt.",
       no_file_uploaded_msg: "ne soubor má bylo nahrát pojem.",
       no_image_uploaded_msg:
-        "nahrát pojem produkt obrázek k vydělat to více pojem.",
+        "Nahrajte obrázek produktu, aby byl atraktivnější.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "pojem soubory",
       subtitle:
-        "pojem, ne soubory mít bylo nahrát pro toto produkt. prosím nahrát soubory k pojem.",
+        "V současné době nebyly pro tento produkt nahrány žádné soubory. Chcete-li pokračovat, nahrajte soubory.",
       manage_files: "spravovat soubory",
     },
 
@@ -10165,13 +10165,13 @@ export default {
      */
     pricing: {
       title: "Ceny",
-      no_product_price_msg: "pojem výchozí produkt cena ne nastavit pojem!",
+      no_product_price_msg: "Výchozí cena produktu ještě není nastavena!",
       listing_pricing_msg: "výpis ceny:",
       has_valuation_msg: "produkt má pojem.",
       subscription_pricing_msg:
-        "toto produkt má {count} pojem ceny pojem.",
+        "Tento produkt má předplatné cenových plánů {count}.",
       has_no_subscription_pricing_msg:
-        "toto produkt má ne pojem ceny pojem.",
+        "Tento produkt nemá žádné cenové plány předplatného.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10187,7 +10187,7 @@ export default {
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "pojem umístění pojem ● {status}",
+      title: "Omezení umístění prodeje ● {status}",
       status: {
         has_restriction: "dostupné v {count} země",
         no_restriction: "ne pojem",
@@ -10195,7 +10195,7 @@ export default {
       available_countries_msg:
         "Nakupování je globálně omezeno na {count} zemí. Tyto země jsou {countries}.",
       disable_for_all_countries_msg:
-        "pojem je zakázáno pro vše země v váš obchod > umístění pojem.",
+        "Nakupování je zakázáno pro všechny země ve vašem obchodě > nastavení umístění.",
       location_is_not_in_permitted_shop_locations_msg:
         "Nastavíte {country} jako prodejní místo, ale na úrovni obchodu tuto zemi nepovolíte. Zkontrolujte prosím nastavení na úrovni obchodu.",
       shop_locations: "obchod umístění",
@@ -10284,7 +10284,7 @@ export default {
       title: "přidat personál & přístup",
       subtitle:
         "Všichni uživatelé s přístupem zaměstnanců se mohou přihlásit k vašemu řídicímu panelu a zobrazit finanční informace. Chcete-li přidat uživatele s omezeným přístupem, definujte roli.",
-      go_to_roles: "pojem k pojem",
+      go_to_roles: "Přejděte na Role",
     },
     access: {
       customization_tips:
@@ -10357,7 +10357,7 @@ export default {
     search_tips: {
       title: "hledat pojem",
       normal:
-        "<b>pojem hledat:</b>hledat podle název, MPN, SKU, pojem, nebo štítky.",
+        "<b> Obecné vyhledávání: </b>Vyhledávání podle názvu, MPN, SKU, značky nebo štítků.",
       product:
         "<b>Přesné ID produktu: </b>Použijte P+ID produktu k nalezení konkrétního produktu, např. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
@@ -10421,7 +10421,7 @@ export default {
 
       language_input: "Aktuální jazyk článku",
       delete_article: "smazat pojem",
-      menu_tooltip: "automaticky pojem / smazat pojem",
+      menu_tooltip: "Automatický překlad / Smazat článek",
     },
     translate_to: "pojem k",
     notifications: {
@@ -10429,7 +10429,7 @@ export default {
         message: "Překlad článku byl úspěšně dokončen.",
       },
       save_article: {
-        message: "pojem má bylo pojem úspěšně.",
+        message: "Článek byl úspěšně uložen.",
       },
       delete_article: {
         message: "pojem má bylo smazáno úspěšně.",
@@ -10461,7 +10461,7 @@ export default {
       accept_delete: {
         true_description:
           "toto akce bude odstranit vše pojem a profily odkaz.",
-        true_title: "já pojem k odstranit toto pojem.",
+        true_title: "Ověřuji odstranění tohoto připojení.",
       },
     },
     actions: {
@@ -10487,7 +10487,7 @@ export default {
       article: {
         title: "Článek",
         subtitle:
-          "vy může přidat více pojem po pojem toto logistika profil.",
+          "Po vytvoření tohoto logistického profilu můžete přidat další jazyky.",
       },
       inputs: {
         name: {
@@ -10601,7 +10601,7 @@ export default {
     title: "Peněženky",
     subtitle:
       "Zde můžete vidět provize, které jste získali. Své provizní poplatky můžete převést na svůj bankovní účet nebo do své peněženky Soldone.",
-    no_commission_yet: "vy mít ne přijato pojem provize pojem.",
+    no_commission_yet: "Dosud jste neobdrželi žádnou provizi.",
     no_wallet: "ne peněženka!",
 
     withdraw_dialog: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "váš pojem má bylo úspěšně přijato, a my bude pojem to.",
+        "Vaše žádost byla úspěšně přijata a my ji prověříme.",
     },
   },
 
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "ne pojem nahrát pojem.",
+    no_asset_uploaded: "Dosud nebylo nahráno žádné dílo.",
   },
 
   /**
@@ -10723,9 +10723,9 @@ export default {
       ctrl_1:
         "Zmenšit velikost písma vybraného textu | <small>Udělej mě malým</small>",
       ctrl_2: "Zvětšit velikost písma vybraného textu | <big>Udělej mě velkým</big>",
-      ctrl_r: "odstranit vše pojem od vybrané text | pojem vše styl",
+      ctrl_r: "Odebrat veškeré formátování z vybraného textu | Vyčistěte všechny styly",
       ctrl_s: "uložit pojem stránka",
-      tab: "pojem mezi pojem režim",
+      tab: "Přepínání mezi režimy měřítka",
       ctrl_e: "Aktivujte nebo deaktivujte režim stylu klonování",
     },
   },
@@ -10778,8 +10778,8 @@ export default {
     add_new_vendor_action: "přidat nový prodejce",
     status_tooltip: {
       title: "prodejce stav",
-      ACCEPTED: "pojem prodejce má přístup k jejich pojem.",
-      REJECTED: "pojem prodejce pojem má bylo odmítnout.",
+      ACCEPTED: "Prodejce má přístup k jejich panelu.",
+      REJECTED: "Požadavek dodavatele byl zamítnut.",
       PENDING: "Žádost čeká na rozhodnutí dodavatele.",
     },
     number_of_products: "pojem z produkty",
@@ -10806,7 +10806,7 @@ export default {
         "Uživatel odmítl požadavek stát se dodavatelem a získat přístup k tomuto dodavateli.",
     },
     download_all_vendors: "stáhnout vše prodejci",
-    bulk_import: "pojem importovat (pojem)",
+    bulk_import: "Hromadný import (Excel)",
   },
 
   /**
@@ -10932,7 +10932,7 @@ export default {
     add_action: "přidat krabice",
     subtitle:
       "Vytvářejte opakovaně použitelné velikosti krabic, abyste urychlili nákup štítků a zajistili přesné sazby za dopravu. Při plnění objednávky vyberte uloženou krabici a její rozměry se automaticky vyplní.",
-    empty: "ne krabice pojem. pojem “přidat krabice”.",
+    empty: "Zatím žádné krabice. Klikněte na „Přidat pole“.",
     edit: "upravit krabice",
     new: "nový krabice",
     default_weight: "výchozí hmotnost",
@@ -10988,7 +10988,7 @@ export default {
 
       empty_title: "ne položky pojem",
       empty_subtitle:
-        "vytvořit váš první výpis položka k začátek pojem váš pojem.",
+        "Vytvořte svou první položku záznamu a začněte vytvářet svůj adresář.",
 
       add_title: "přidat položka",
       edit_title: "upravit položka",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Přidat kategorii",
       edit_title: "Upravit kategorii",
 
-      parent_filter: "pojem podle pojem",
+      parent_filter: "Filtrovat podle rodiče",
       parent: "Rodičovská Kategorie",
 
       price_format: "cena pojem",
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "pojem",
       moderation_mode: "pojem režim",
-      require_first_approved_before_more: "pojem první pojem před více",
+      require_first_approved_before_more: "Před dalšími vyžadovat první schválení",
 
       limits_title: "Limity",
-      max_pending_per_user: "pojem čeká pojem uživatel",
-      max_items_per_user: "pojem položky pojem uživatel",
+      max_pending_per_user: "Maximální počet nevyřízených na uživatele",
+      max_items_per_user: "Maximální počet položek na uživatele",
       limits_hint: "limity pojem",
 
       templates_title: "šablony",
@@ -11070,7 +11070,7 @@ export default {
         "Když uživatelé odešlou nové položky, zobrazí se zde k moderování.",
 
       review_title: "pojem položka",
-      approve_publish: "pojem & pojem",
+      approve_publish: "Schválit a publikovat",
 
       submitted_at: "pojem",
       quick_actions: "pojem akce",
@@ -11206,10 +11206,10 @@ export default {
       reply_hint: "Napište odpověď uživateli. Zprávu můžete také označit jako přečtenou/spam z akcí.",
 
       mark_read: "pojem jako čtení",
-      mark_unread: "pojem jako pojem",
+      mark_unread: "Označit jako nepřečtené",
       archive: "pojem",
       unarchive: "pojem",
-      mark_spam: "pojem jako pojem",
+      mark_spam: "Označit jako spam",
       mark_not_spam: "ne pojem",
 
       delete_confirm: "smazat toto zpráva?",
@@ -11248,23 +11248,23 @@ export default {
       location_enabled_true: "umístění pojem je povoleno. zákazníci může hledat podle vzdálenost.",
       location_enabled_false: "Filtr umístění je vypnutý. Výsledky nebudou filtrovány podle vzdálenosti.",
 
-      radius_default: "výchozí pojem (pojem)",
+      radius_default: "Výchozí poloměr (km)",
       radius_default_hint: "Používá se, když zákazník vybere místo, ale nezvolí okruh.",
-      radius_max: "maximum pojem (pojem)",
+      radius_max: "Maximální poloměr (km)",
       radius_max_hint: "Poloměr výlohy bude upnut na tuto hodnotu.",
-      radius_options: "pojem možnosti (pojem)",
+      radius_options: "Možnosti okruhu (km)",
       radius_options_hint: "Tyto hodnoty lze zobrazit jako rychlé možnosti v uživatelském rozhraní obchodu.",
 
       filters_title: "hledat pojem",
       filters_subtitle: "Přidejte filtry, které čtou hodnoty z polí meta položek (pole formuláře vašeho zápisu/kategorie). Pomocí automatického generování shromážděte skutečné možnosti z publikovaných položek.",
-      no_filters: "ne pojem přidat pojem.",
+      no_filters: "Zatím nebyly přidány žádné filtry.",
       auto_generate: "pojem možnosti",
 
       filter_field: "pole klíč",
       filter_label: "Označení",
       filter_type: "Typ",
       filter_options: "možnosti",
-      filter_options_hint: "pro vybrat pojem, možnosti může být ručně nebo pojem.",
+      filter_options_hint: "U vybraných filtrů mohou být možnosti ruční nebo generované.",
       multiple: "pojem",
       single: "pojem",
       kv_mode: "klíč/pojem režim",
@@ -11859,10 +11859,10 @@ export default {
         "Kolo štěstí",
         "Přízeň štěstí",
         "Kolo zázraků",
-        "pojem pro pojem",
+        "Spin for Riches",
         "Potěšení z otočného kola",
         "Zlatá otočná loterie",
-        "pojem",
+        "Spin-a-Prize",
         "Kolo štěstí",
         "Showcase Lucky Spin",
         "Nejvyšší odměna za točení",
@@ -11896,14 +11896,14 @@ export default {
      */
     subscription_price: {
       title: [
-        "pojem přístup",
+        "Základní přístup",
         "Prémiové členství",
-        "pojem balík",
+        "Zlatý balíček",
         "Stříbrný plán",
         "Platinové předplatné",
         "Enterprise Tier",
         "Startovací balíček",
-        "pojem nabídka",
+        "Neomezená nabídka",
         "Rodinný balíček",
         "Professional Suite",
       ],
@@ -11926,53 +11926,53 @@ export default {
         "Technické specifikace",
         "Fyzické rozměry",
         "Vlastnosti výkonu",
-        "pojem možnosti",
+        "Možnosti připojení",
         "Požadavky na napájení",
         "Kvalita materiálu a konstrukce",
-        "barva a pojem možnosti",
-        "pojem a pojem",
+        "Možnosti barev a povrchové úpravy",
+        "Úložiště a paměť",
         "Kompatibilita operačního systému",
-        "pojem a pojem",
-        "balík pojem",
-        "pojem a pojem",
-        "pojem a pojem",
+        "Bezpečnost a dodržování předpisů",
+        "Obsah balení",
+        "Záruka a podpora",
+        "Značka a výrobce",
         "Šetrnost k životnímu prostředí",
         "Energetická účinnost",
-        "pojem a pojem",
-        "pojem možnosti",
-        "zahrnuto pojem",
-        "uživatel pojem a pojem",
-        "ceny a pojem",
+        "Péče a údržba",
+        "Možnosti přizpůsobení",
+        "Zahrnuté příslušenství",
+        "Uživatelská hodnocení a recenze",
+        "Cena a dostupnost",
       ],
     },
 
     avocado: {
       title: [
-        "pojem účtenka",
+        "Potvrzení o nákupu",
         "Potvrzení prodeje",
-        "objednávka faktura",
-        "platba faktura",
-        "zákazník účtenka",
-        "transakce pojem",
+        "Faktura objednávky",
+        "Platební faktura",
+        "Potvrzení zákazníka",
+        "Přehled transakcí",
         "Vyúčtování",
-        "pojem účtenka",
-        "objednávka pojem",
-        "pojem objednávka faktura",
-        "pojem účtenka",
-        "pojem faktura",
-        "pojem",
-        "služba faktura",
-        "produkt faktura",
-        "platba účtenka",
+        "Pokladní potvrzení",
+        "Shrnutí objednávky",
+        "Faktura objednávky",
+        "Potvrzení o prodeji",
+        "Maloobchodní faktura",
+        "Elektronická účtenka",
+        "Servisní faktura",
+        "Produktová faktura",
+        "Potvrzení o platbě",
         "Potvrzení objednávky",
-        "pojem faktura",
-        "pojem faktura",
-        "zákazník faktura",
+        "Vyúčtování",
+        "Pokladna faktura",
+        "Zákaznická faktura",
       ],
       message: [
-        "pojem vy pro váš pojem!",
-        "my pojem váš podnikání.",
-        "váš objednávka je na to pojem!",
+        "Děkujeme za váš nákup!",
+        "Vážíme si vašeho podnikání.",
+        "Vaše objednávka je na cestě!",
         "Děkujeme, že u nás nakupujete.",
         "Těšíme se, že vás znovu obsloužím.",
         "Vaše spokojenost je naší nejvyšší prioritou.",
@@ -11998,17 +11998,17 @@ export default {
      */
     map_tag: {
       title: [
-        "vlastnost pojem",
-        "prodejce pojem",
-        "pojem domů",
+        "Přehlídka nemovitosti",
+        "Prodejce Plaza",
+        "Vybrané domy",
         "Místní trh",
-        "Nově příchozí",
+        "Nové příjezdy",
         "Stavovské zahrady",
         "Nákupní čtvrť",
         "Ulička řemeslníků",
         "Luxusní statky",
         "Půjčovna",
-        "otevřít pojem",
+        "Dny otevřených dveří",
         "Technické inovace",
         "Fashion Lane",
         "Koutek řemesel",
@@ -12027,23 +12027,23 @@ export default {
       title: [
         "Osvědčení o obchodní registraci",
         "daňové identifikační číslo (TIN)",
-        "prodejce pojem formulář",
-        "produkt pojem",
-        "ceny seznam",
-        "banka účet detaily",
-        "pojem z adresa",
+        "Formulář smlouvy s dodavatelem",
+        "Katalog produktů",
+        "Ceník",
+        "Podrobnosti o bankovním účtu",
+        "Doklad o adrese",
         "Osvědčení o pojištění",
-        "společnost profil",
+        "Profil společnosti",
         "Certifikát zajištění kvality",
-        "pojem data list (SDS)",
-        "produkt pojem informace",
-        "vrácení pojem",
+        "Bezpečnostní list (SDS)",
+        "Informace o záruce na produkt",
+        "Zásady vrácení",
         "Přepravní a manipulační postupy",
-        "zákazník služba pojem",
+        "Zásady zákaznických služeb",
         "Marketingové a propagační plány",
         "Odkazy na sociální sítě",
         "Obchodní reference",
-        "pojem kód z pojem",
+        "Kodex chování dodavatele",
         "Smlouva o mlčenlivosti (NDA)",
       ],
     },
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "tržiště pojem služby pojem",
-        "obchod konfigurace pojem",
-        "pojem služby pojem",
+        "Smlouva o nastavení služeb tržiště",
+        "Smlouva o konfiguraci obchodu",
+        "Smlouva o službách tisku na vyžádání",
         "Smlouva o poskytování digitálního marketingu",
         "Smlouva o nastavení platformy elektronického obchodu",
         "Smlouva o odborném poradenství pro majitele firem",
-        "služba pojem pro tržiště konfigurace",
-        "obchod pojem a konfigurace služby pojem",
+        "Servisní smlouva pro konfiguraci tržiště",
+        "Smlouva o nastavení a konfiguraci obchodu",
         "Smlouva o poskytování služeb POD",
         "Smlouva o implementaci marketingové strategie",
-        "podnikání pojem služba pojem",
+        "Smlouva o poskytování služeb rozvoje podnikání",
         "Smlouva o zřízení e-shopu",
         "Smlouva o poskytování odborných služeb",
         "Obchodní řešení a smlouva o nastavení",
-        "vlastní obchod pojem služby pojem",
-        "tržiště pojem služba pojem",
+        "Smlouva o službách nastavení vlastního obchodu",
+        "Smlouva o službě optimalizace tržiště",
         "Smlouva o poradenských a nastavovacích službách",
-        "POD pojem služby pojem",
+        "Smlouva o integračních službách POD",
         "Smlouva o marketingových a propagačních službách",
-        "podnikání pojem služba pojem",
+        "Smlouva o službě rozšíření podnikání",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "hlavní peněženka",
-        "podnikání účet",
-        "pojem peněženka",
-        "pojem peněženka",
-        "pojem účet",
-        "primární peněženka",
-        "pojem účet",
-        "pojem peněženka",
-        "transakce peněženka",
-        "pojem účet",
+        "Hlavní peněženka",
+        "Obchodní účet",
+        "Osobní peněženka",
+        "Úsporná peněženka",
+        "Výdajový účet",
+        "Primární peněženka",
+        "Obecný účet",
+        "Rezervní peněženka",
+        "Transakční peněženka",
+        "Účet fondu",
       ],
     },
 
@@ -12099,36 +12099,36 @@ export default {
      */
     cashback: {
       title: [
-        "obchod & pojem cashback",
+        "Nakupujte a vydělávejte cashback",
         "Věrnostní odměny Cashback",
-        "pojem cashback nabídka",
-        "cashback pojem",
-        "pojem cashback pojem",
-        "pojem cashback pojem",
-        "pojem cashback dny",
+        "Exkluzivní nabídky Cashback",
+        "Cashback Bonanza",
+        "Okamžité nabídky Cashback",
+        "Sezónní spoření cashback",
+        "Double Cashback Days",
         "Cashback při každém nákupu",
-        "cashback pojem",
-        "VIP cashback pojem",
-        "limit čas cashback",
+        "Cashback Frenzy",
+        "VIP Cashback Program",
+        "Cashback s omezeným časem",
         "Cashback Rewards Club",
-        "obchod více, uložit více",
-        "pojem cashback pojem",
-        "cashback pojem",
+        "Nakupujte více, ušetřete více",
+        "Ultimate Cashback Odměny",
+        "Cashback Extravaganza",
       ],
       description: [
         "Získejte cashback z každého nákupu!",
         "Získejte odměnu za svou věrnost.",
-        "pojem cashback nabídka pojem pro vy.",
+        "Exkluzivní cashback nabídky právě pro vás.",
         "Užijte si skvělé úspory díky cashback odměnám.",
-        "pojem cashback na vše váš pojem položky.",
-        "uložit více s pojem cashback pojem.",
-        "pojem váš cashback na pojem dny!",
-        "pojem cashback pojem čas vy obchod.",
+        "Okamžitý cashback na všechny vaše oblíbené položky.",
+        "Ušetřete více díky sezónním cashback akcím.",
+        "Zdvojnásobte svůj cashback ve speciální dny!",
+        "Získejte cashback při každém nákupu.",
         "Připojte se k cashback šílenství ještě dnes!",
         "VIP členové mají exkluzivní cashback.",
-        "pojem! limit čas cashback nabídka.",
+        "Spěchat! Cashback nabídky.",
         "Připojte se nyní k našemu Cashback Rewards Clubu.",
-        "pojem více vy obchod, pojem více vy uložit.",
+        "Čím více nakupujete, tím více ušetříte.",
         "Odemkněte maximální cashback odměny.",
         "Zažijte nejlepší cashback nabídky v okolí.",
       ],
@@ -12162,19 +12162,19 @@ export default {
         "Nenechte si ujít naše dokonalé páry!",
         "Vylepšete svůj nákup, doplňky čekají!",
         "Odemkněte exkluzivní úspory, nakupujte společně!",
-        "pojem položky, pojem sleva!",
+        "Doplňkové zboží, speciální slevy!",
         "Získejte více, utrácejte méně – sbalte se!",
-        "pojem nabídka: pojem produkty!",
+        "Časově omezená nabídka: odpovídající produkty!",
         "Upgradujte své zkušenosti, kombinované nabídky!",
         "Objevte naše vybraná komba, ušetřete!",
         "Spárujte to pro ultimátní kombinaci!",
-        "obchod pojem, pojem a uložit!",
+        "Nakupujte chytře, zabalte a ušetřete!",
         "Dvojnásobná hodnota, dvojnásobná zábava!",
         "Vaše dokonalé spojení je tady – nakupujte nyní!",
         "Exkluzivní cena balíčků jen pro vás!",
         "Maximalizujte své úspory s našimi kombinacemi!",
         "Vylepšete svou sbírku těmito tipy!",
-        "pojem pro vy: pojem a uložit!",
+        "Určeno pro vás: spárujte a ušetřete!",
         "Ideální pár pro perfektní den!",
         "Sbalte své oblíbené položky a ušetřete!",
       ],
@@ -12186,24 +12186,24 @@ export default {
     vendor_pricing: {
       title: [
         "Digitální zboží",
-        "pojem",
-        "pojem",
-        "pojem",
-        "domů pojem",
-        "pojem produkty",
+        "knihy",
+        "Elektronika",
+        "Móda",
+        "Domácí spotřebiče",
+        "Kosmetické výrobky",
         "Sportovní vybavení",
         "Hračky a hry",
-        "Koloniál",
+        "Potraviny",
         "Nábytek",
         "Automobilové díly",
         "Šperky",
-        "pojem & pojem",
+        "Zdraví a wellness",
         "Potřeby pro domácí mazlíčky",
         "Kancelářské potřeby",
-        "pojem & pojem",
-        "pojem & TV zobrazit",
-        "pojem",
-        "pojem & pojem",
+        "Hudba a nástroje",
+        "Filmy a televizní pořady",
+        "Software",
+        "Umění a řemesla",
         "Outdoorové vybavení",
       ],
     },
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Potvrzení objednávky",
-        "objednávka pojem",
-        "objednávka pojem",
-        "platba přijato",
-        "objednávka pojem",
+        "Objednávka odeslána",
+        "Objednávka doručena",
+        "Platba přijata",
+        "Objednávka zrušena",
         "Zpoždění zpracování objednávky",
-        "objednávka na pojem",
-        "objednávka pojem pro doručení",
-        "vrácení pojem",
-        "refundace pojem",
-        "položka pojem v pojem",
+        "Objednávka na počkání",
+        "Objednejte k doručení",
+        "Návrat zpracován",
+        "Vrácení peněz vydáno",
+        "Zboží zpět na skladě",
       ],
       body: [
         "Dobrý den {buyer_name}, vaše objednávka #{order_id} byla potvrzena! Zpracováváme jej a dáme vám vědět, až bude připraveno k odeslání.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "pojem",
+        "Šaty",
         "Digitální gadgety",
-        "pojem",
+        "Nápoje",
         "Potraviny",
         "Nábytek",
-        "pojem",
-        "pojem produkty",
-        "pojem",
+        "knihy",
+        "Kosmetické výrobky",
+        "Hračky",
         "Sportovní vybavení",
-        "pojem",
+        "Příslušenství",
       ],
       description: [
         "Atributy pro oděvní položky, jako je velikost, barva a látka.",
         "Specifikace pro gadgety, jako je značka, model a funkce.",
         "Příchutě, velikosti a druhy nápojů.",
         "Podrobnosti pro jídla, svačiny a potravinářské produkty.",
-        "Material, pojem, a design styl.",
+        "Materiál, rozměry a styly designu.",
         "Autor, žánr a rok vydání.",
         "Typ pleti, přísady a detaily balení.",
         "Věková skupina, materiál a bezpečnostní normy.",
         "Vlastnosti typu, velikosti a výkonu.",
-        "styl, pojem, a pojem detaily.",
+        "Styly, materiály a detaily značky.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "krabice XS",
-        "krabice S",
-        "krabice M",
-        "krabice L",
-        "krabice XL",
-        "krabice XXL",
-        "krabice pojem",
-        "krabice pojem",
-        "krabice pojem",
-        "krabice pojem",
-        "krabice pojem",
-        "krabice pojem",
-        "krabice pojem",
+        "Krabice XS",
+        "Box S",
+        "Box M",
+        "Krabice L",
+        "Krabice XL",
+        "Krabice XXL",
+        "Box Slim",
+        "Box široký",
+        "Box Vysoký",
+        "Box Flat",
+        "Krabicová kostka",
+        "Box Tube",
+        "Krabice Křehká",
         "Box Skleněné lahve",
         "Box Soft Pack", // flexible mailer
-        "krabice pojem", // bubble/padded
-        "krabice pojem", // thermal
-        "krabice pojem",
+        "Box Polstrovaný", // bubble/padded
+        "Box zateplený", // thermal
+        "Box Heavy-Duty",
       ],
     },
   },

@@ -31,7 +31,7 @@ export default {
     main_domain: "Domaina sereke",
     domains: "veşêre",
     home_page: "Rûpela malê",
-    google_icon_font_sample: "Google hêman hêman",
+    google_icon_font_sample: "Nimûneya tîpên Google",
     fontawesome_icon_font_sample: "Fontawesome (V6) hêman",
   },
 
@@ -635,7 +635,7 @@ export default {
 
       show_notes: {
         false_title: "veşêre hêman",
-        false_description: "veşêre hêman hêman.",
+        false_description: "Notên vala veşêrin.",
         true_title: "nîşan bide hêman",
         true_description: "nîşan bide gişt hêman, ⌘Ctrl+2",
       },
@@ -1428,7 +1428,7 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Liq",
-      category_input_msg: "hêman: Ez re hêman hêman",
+      category_input_msg: "Boş: Di koka dikanê de",
       product_name: "Navê hilberê *",
       product_name_placeholder: "Navê hilberê we li vir e..",
       product_code: "Koda hilberê (Îngilîzî)",
@@ -1438,7 +1438,7 @@ export default {
       },
       mpn: {
         label: "MPN",
-        message: "hêman hêman Hesabê",
+        message: "Manufacturer Part Hejmara",
       },
 
       external_link: "Girêdana derve",
@@ -1522,7 +1522,7 @@ export default {
       },
       gtin: {
         hint: "Nirxên piştgirî UPC (Amerîkaya Bakur, 12 reqeman), EAN (Ewropa, 13 reqeman), JAN (Japonya, 8 an 13 reqeman), ISBN (pirtûk, 13 reqeman) in.",
-        label: "hêman hêman hêman şanî Hesabê",
+        label: "Hejmara Bazirganiya Gerdûnî ya Hilberê",
         placeholder: "hêman hêman Hesabê binivîse.. ((Bijarte))",
       },
       hsn: {
@@ -1647,7 +1647,7 @@ export default {
         subtitle:
           "You hêman berhemên Teknîkî Teknîkî hilberên hêman berhem.",
         action_title: "berhemên",
-        action_subtitle: "hêman hêman Ji hêman Mal.",
+        action_subtitle: "Taybetmendiya klonê ji hilberek din.",
       },
       ai: {
         title: "AI",
@@ -1878,7 +1878,7 @@ export default {
         subtitle: "zêde bike Firoşkarên Guhertoyên Ez hêman Bişkojka.",
       },
       edit_property_set: {
-        title: "hêman hêman Set",
+        title: "Set Taybetmendiyê xweş bikin",
         subtitle: "Gûherrandinî Guhertoyên hêman, hêman û ferman.",
       },
     },
@@ -2082,7 +2082,7 @@ export default {
         message: "Vebijarkê Navnîşana hêman Wergirtin gişt Shop û Sporê.",
       },
       business: {
-        false_description: "Ez hêman hesabê hêman hêman.",
+        false_description: "Ez wek kesek kar dikim.",
         true_description: "Ez wekî saziyek karsaziyek qanûnî naskirî dixebitim.",
         false_title: "hêman",
         true_title: "Modela",
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "Hemî guhertoyan nûve bikin",
     bulk_action_msg:
       "Ji bo hemî guhertoyan dema pakkirin û amadekirina hilberê bicîh bikin.",
-    dynamic_lead_time: "hêman hêman Dem",
+    dynamic_lead_time: "Dema rêberiya dînamîk",
     instant_delivery: "Savings Şandinî",
   },
 
@@ -2557,7 +2557,7 @@ export default {
       success_update_notification: "hêman binivîse kirin hêman.",
     },
     dialog_bg_remove: {
-      title: "hêmanşhêman hêman hêman",
+      title: "Paşnav bixweber jêbirin",
       action: {
         title: "Paşxane rake",
         subtitle: "Xûliqandin vir zelal paşxane.",
@@ -2569,7 +2569,7 @@ export default {
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "biguherînin hêman hêman",
+    title: "Vebijarkên Grafîkî yên Variant",
     tips: {
       how_it_works:
         "<b>hêman hêman hêman:</b><br />bar bike hêman an şanî Wêneyên binivîse. Ber pirjimar hêman Wêneyên hesabê vir biguherînin Gadget, hêman <b>{filename}</b> Ez re biguherînin Giranî. Not hêman Vebijarkê Navê dizî Nikare piştrast Bikaranîn Ez re <b><s>Reng</s></b> Giranî.",
@@ -3531,7 +3531,7 @@ export default {
           "hêman hêman hêman re Hemî hêman Ber re mișterî neçalak hêman hêman re Biha hêman ji gorî re jêbirin Ez re selikê. You hêman hêman Ber Biha xwe mișterî Ber hêman re hêman Biha.",
       },
       need_no_refund: {
-        title: "na hêman hêman",
+        title: "No vegerandin pêwîst",
       },
       total_refund: {
         title: "Hemî hêman",
@@ -4073,7 +4073,7 @@ export default {
       has_root_filter_message: "You Set Parzûnên bo hêman Liq.",
       set_filter_message: "You hêman Set Parzûnên.",
       edit_action: "Weşandin hêman Parzûnên",
-      clear_action: "hêman hêman Parzûnên",
+      clear_action: "Parzûnên Root Paqij bikin",
     },
     ai: {
       title: "AI Mal hêman",
@@ -4314,7 +4314,7 @@ export default {
     add_note_subtitle: "Nû vir Agah û hêman xwe hêman.",
 
     message_input: "Li vir peyamek binivîse ...",
-    pin_action: "hêman Ber hêman",
+    pin_action: "Pin to top",
     unpin_action: "Rakin",
     copy_html: "Html kopî bikin",
     notifications: {
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "hêman rêvebirin",
-      description: "Karûbarê hêman, hêman referansa hêman.",
+      description: "Diravkirinê, tevî bernameyên referansê, rêvebirin.",
     },
     "selldone:identification": {
       name: "hêman Navketin",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "hêman",
-      description: "hêman hêman nehatin hêman Ez re hêman.",
+      description: "Qadên cûrbecûr di pergalê de nehatine diyarkirin.",
     },
     vendor: {
       title: "firoşkar",
@@ -5959,10 +5959,10 @@ export default {
         placeholder: "(Bijarte), hêman.hêman., Komîsyona-API-ê.hêman",
       },
       address: {
-        placeholder: "(Bijarte), hêman.hêman., 1200 hêman, NY, hêman US",
+        placeholder: "Vebijarkî, mînakî, 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "(Bijarte), hêman.hêman., 001-808-210354",
+        placeholder: "Vebijarkî, wek nimûne, 001-808-210354",
       },
       bank: {
         placeholder: "(Bijarte), hêman.hêman., hêman Banke, na: 10002-325-800-845213",
@@ -6900,7 +6900,7 @@ export default {
   barcode_scanner: {
     wifi_pass: "Şîfreya weya Wi-Fi",
     message: "Şîfreya routerê xweya WiFi binivîse û koda QR-ê bişopîne.",
-    wifi_ssid: "hêman-hêman hêman ID",
+    wifi_ssid: "Wi-Fi SSID",
     ssid_message: "Navê tora Wi-Fi (SSID) xwe binivîse.",
   },
 
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "hêman firoşkar hêman",
+    open_vendors_panel: "Panela Firoşkarên Vekin",
     title: "firoşkar Daxwaza Rêzok",
     subtitle:
       "Vebijarkê neçalak vir Rêzok hilberên Daxwazên Ji hêman hêman hêman hêman Ber hêman firoşkar Ez xwe bazargeh.",
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Xwedî hêman hêman",
+      title: "Belgeya Nasnameya Xwediyê",
       description:
         "bar bike vir hêman-Lîsteya hilberê Ber hêman re KYC hilberên re Modela Xwedî an Saved hêman. ID",
     },
@@ -7349,7 +7349,7 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "hêman.hêman., Çavkaniyên berhem hêman...",
+        placeholder: "Mînak, Dersa Berhemên Dîjîtal...",
       },
       description: {
         placeholder: "You hêman zêde bike vir Not binivîse...",
@@ -7622,7 +7622,7 @@ export default {
       },
       font_res: {
         label: "hêman hêman",
-        message: "hêman re hêman hêman.",
+        message: "Çavkaniya fontê diyar bikin.",
       },
     },
   },
@@ -8532,9 +8532,9 @@ export default {
       add_new: "zêde bike Nşh",
       disable_reason: {
         set_provider: "Set xwe hêman kirîna!",
-        provider_is_disabled: "hêman neçalak hêman!",
-        otp: "hêman - hêman hêman!",
-        select_another_provider: "Karê hêman hêman.",
+        provider_is_disabled: "Pêşkêşkar neçalak e!",
+        otp: "OTP - Kes nayê vesaz kirin!",
+        select_another_provider: "Pêşkêşkerek din hilbijêrin.",
       },
       enable_only_filter: "nîşan bide Tenê e",
 
@@ -8569,7 +8569,7 @@ export default {
         reset_to_default: "Vegere Ber Destçûnî",
 
         auto_fill: {
-          title: "Tamîrê hêman hêman",
+          title: "Parametreyên dagirtina otomatîkî",
           subtitle:
             "Hûn dikarin her yek ji van parameteran di nivîsê de bikar bînin û Selldone dê wan bi nirxa têkildar veguherîne.",
         },
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "zêde bike Nşh hêman",
 
         auto_fill: {
-          title: "Tamîrê hêman hêman",
+          title: "Parametreyên dagirtina otomatîkî",
           subtitle:
             "Hûn dikarin her yek ji van parameteran wekî nirxek destnîşan bikin, û Selldone dê wan bi nirxa têkildar veguhezîne. Ji bo sadebûnê çêtir e ku hûn di pêşkêşvanê SMS-ê de nirxên xwerû wekî şablon diyar bikin. Di vê rewşê de, dê hewce nebe ku li vir nirxên parametreyê diyar bikin.",
         },
@@ -8980,7 +8980,7 @@ export default {
       description:
         "Mişterî hêman Tenê Kirrîn Vebijarkê Mal hêman re hêman Welat û hêman Navê dizî, hêman Ber re hêman Cîh jêbirin.",
     },
-    zip_pin_code: "hêman / hêman Discount",
+    zip_pin_code: "Kodên Zip / Pîn",
     no_country_selected_error:
       "Ji kerema xwe bi kêmî ve welatek digel navnîşek kodên zip/pin-ê têxin nav xwe. Bêyî wê, ev hilber dê peyda nebe.",
     tips: "Bikirtînin gorî re <b>+ zêde bike Welat</b> bişkojk Ber Destpêkirin hêman vir Nşh Cîh Set. hêman hêman hêman, You hêman Rizgarkirin hêman rêzkirin hêman gorî re hêman-hêman <b>⋮ Qerta xûrekê</b> û hêman <b>Rizgarkirin tengal</b>.",
@@ -9605,7 +9605,7 @@ export default {
           "Pelê hêman 5 berhem, Kategorî, û Mişterî. You hêman hêman hêman Ber Navê rewş Ez re Hesabê > malê li hêman Dem.",
       },
       overwrite: {
-        false_title: "hêman nehatin Gûherrandinî hêman hêman",
+        false_title: "Ger hebe neguhere",
         false_desc: "hêman hêman Mal û Liq zêde hesabê hêman rast.",
         true_title: "hêman",
         true_desc:
@@ -9799,7 +9799,7 @@ export default {
       subtitle: "zêde bike vir hêman Tag Ber xwe hêman bo Google lêgerîn hêman Domain.",
       code: {
         label: "Domain hêman Tag",
-        placeholder: "Ji hêman, hêman.hêman. hêman9hêman...",
+        placeholder: "Ji google, wek nimûne. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9834,12 +9834,12 @@ export default {
     only_first_order: "Tenê kirîna 🛍️ Siparîş bike",
     total_cashback: "Hemî hêman",
     delete_alert: {
-      title: "Jêbirin hêman hêman",
+      title: "Bernameya Cashback jêbirin",
       message: "rast You hêman Ber Jêbirin Vebijarkê hêman hêman?",
       action: "Erê, Niha Jê Bike",
     },
     notifications: {
-      delete_success: "hêman hêman Jêbirin hêman.",
+      delete_success: "Bernameya Cashback bi serkeftî hate jêbirin.",
     },
   },
   /**
@@ -9954,8 +9954,8 @@ export default {
         "Bi girêdana komek bi bernameya cashback re, hûn dikarin wê bi bandortir îdare bikin.",
     },
     notifications: {
-      add: "hêman hêman Dîroka hêman.",
-      edit: "hêman hêman kirin hêman.",
+      add: "Bernameya Cashback bi serkeftî hate zêdekirin.",
+      edit: "Bernameya Cashback bi serfirazî hate nûve kirin.",
     },
     enable_input: {
       true_msg: "Bernameya cashback çalak e û xerîdar dikarin wê bikar bînin.",
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "Moda",
-      true_title: "hêman (2hêman hêman)",
+      true_title: "Boost (2x Cashback)",
       true_msg:
         "Bernameya cashback di moda zêdekirinê de ye û xerîdar dê 2x paşde paşde bistînin.",
       false_msg:
@@ -9979,7 +9979,7 @@ export default {
     actions: {
       refund: {
         title: "hêman 💳 Tezmînat",
-        subtitle: "hêman an Navê hêman hêman.",
+        subtitle: "Vegerandina qismî an tam piştgirî.",
       },
       delivery: {
         title: "Tesdîq gorî Şandinî",
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "na Tûrikê diravan!",
 
     withdraw_dialog: {
-      title: "hêman Simsarî hêman",
+      title: "Xercên Komîsyona Vekişîn",
 
       need_bank_info_message: "hêman Nirxa You Banke gelemperî kirîna.",
 
@@ -10653,7 +10653,7 @@ export default {
         "re Navenda Komîsyona hêman neçalak Asan û hêman, dîzaynkirin bo You Ber hêman hêman. hêman xwe yekta Komîsyona Pêvek Ber hêman Nşh Bikarhêner Ber Navenda, û hêman hêman vir Simsarî Ji hêman Şandindayinî hêman guhertinan—hêman. Vebijarkê Tê de hêman Ji Aboneyên, bikirin hêman, Dikan hêman, û gişt Rûpelên kampanyayê hêman. Destpêkirin hêman vir hêman hilberên re kampanyayê hêman hêman Sînorên gorî Dem an hêman. hêman bûn û hêman xwe hêman hêman vir hêman te! Selldone",
       why_join_selldone_affiliate: "hêman neçalak Vebijarkê vir yekta hêman?",
       reasons: [
-        "hêman hêman hêman!",
+        "Ew herheyî dimîne!",
         "hêman gişt Abonetî û Şandindayinî hêman. hêman hêman 💳 Tezmînat hilberên re bikaranîvan gorî Navenda. Selldone",
         "hêman Şandin vir Şandina $99 Voucher Ber hêman hêman hêman hêman xwe Pêvek.",
         "Dema ku asta we nûve bike, hûn ê bi rêjeya nû ji hemî bikarhênerên berê hatine şandin qezenc bikin.",
@@ -10725,7 +10725,7 @@ export default {
       ctrl_2: "Mezinahiya tîpên nivîsa hilbijartî zêde bike | <big>Min mezin bike</big>",
       ctrl_r: "Hemû formatkirin ji nivîsa hilbijartî rakin | Hemî şêwazên paqij bikin",
       ctrl_s: "Rizgarkirin re rûpel",
-      tab: "hêman hêman hêman hêman",
+      tab: "Di navbera modên pîvanê de biguherînin",
       ctrl_e: "hêman an hêman hêman Awayî rewş",
     },
   },
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "hêman hêmanşhêman û hêman",
-    subtitle: "Berî-hêman hêman",
+    title: "Bikişîne & Davêje",
+    subtitle: "Beşên Pre-Built",
     add_dialog: {
       title: "zêde bike Hûnbunî style",
       configuration: {
@@ -10759,7 +10759,7 @@ export default {
         },
         tags: {
           label: "hêman",
-          message: "Bikaranîn bo hêman û hêman hêman.",
+          message: "Ji bo lêgerîn û kategorîzekirina hêmanan tê bikaranîn.",
         },
         section: {
           message: "hêman re style Ji re rûpel Kesane.",
@@ -10813,7 +10813,7 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Îcaze hêman hêman!",
+    title: "Upgrade License Required!",
     subtitle:
       "xwe Şîfreya Îcaze hêman nehatin hêman re hêman hilberên xwe hêman Modela Karsaziyê. hêman hêman xwe Îcaze Ber re hêman Pîlan.",
   },
@@ -11004,7 +11004,7 @@ export default {
       delete_title: "Jêbirin şanî",
       delete_message: "rast You hêman You hêman Ber Jêbirin Vebijarkê şanî?",
       delete_success: "Babet bi serkeftî hat jêbirin.",
-      restore_success: "şanî hêman hêman.",
+      restore_success: "Babet bi serkeftî hate vegerandin.",
 
       opening_hours:"hêman demjimêrên",
       form_fields:"form hêman",
@@ -11082,12 +11082,12 @@ export default {
     },
 
     moderation: {
-      approve_success: "şanî hêman hêman.",
+      approve_success: "Babet bi serkeftî hate pejirandin.",
       publish_success: "şanî Weşandin hêman.",
-      unpublish_success: "şanî hêman hêman.",
-      archive_success: "şanî hêman hêman.",
+      unpublish_success: "Babet bi serkeftî nehat weşandin.",
+      archive_success: "Babet bi serkeftî hate arşîvkirin.",
       reject_success: "şanî Redkirin hêman.",
-      penalty_success: "hêman hêman hêman.",
+      penalty_success: "Ceza bi ser ket.",
 
       reject_title: "Refzkirin şanî",
       reject_reason: "hêman hêman",
@@ -11154,9 +11154,9 @@ export default {
       edit_title: "Weşandin hêman",
 
       notifications: {
-        add_success: "hêman afirandin hêman.",
-        edit_success: "hêman kirin hêman.",
-        delete_success: "hêman Jêbirin hêman.",
+        add_success: "Nîşan bi serkeftî hate afirandin.",
+        edit_success: "Nîşan bi serkeftî hate nûve kirin.",
+        delete_success: "Nîşe bi serkeftî hat jêbirin.",
       },
 
       delete_title: "Jêbirin hêman",
@@ -11206,10 +11206,10 @@ export default {
       reply_hint: "Nû vir Bersiva Ber re bikaranîvan. You hêman hêman hêman re Agah hesabê Zêdetir/hêman Ji girseyî.",
 
       mark_read: "hêman hesabê Zêdetir",
-      mark_unread: "hêman hesabê hêman",
+      mark_unread: "Wek nexwendî nîşan bide",
       archive: "hêman",
       unarchive: "hêman",
-      mark_spam: "hêman hesabê hêman",
+      mark_spam: "Wek spam nîşan bikin",
       mark_not_spam: "nehatin hêman",
 
       delete_confirm: "Jêbirin Vebijarkê Agah?",
@@ -11250,7 +11250,7 @@ export default {
 
       radius_default: "Destçûnî Çap (hêman)",
       radius_default_hint: "Bikaranîn hêman re mișterî hêman vir Cîh hêman hêman nehatin hêman vir Çap.",
-      radius_max: "hêman Çap (hêman)",
+      radius_max: "Radyoya herî zêde (km)",
       radius_max_hint: "re hêman Çap hêman piştrast hêman Ber Vebijarkê Giranî.",
       radius_options: "Çap pêşkeftî (hêman)",
       radius_options_hint: "hêman Edit hêman piştrast hêman hesabê Hyper pêşkeftî Ez re hêman UI.",
@@ -11523,7 +11523,7 @@ export default {
         "Li ser me kêfxweş bibin!",
         "Piçûk bixapînin",
         "Ji ber ku Tu Taybetî",
-        "vir hêman hêman",
+        "A Little Surprise",
         "Roja Xwe Bikin",
         "Li vir ji te re ye",
         "Şahiyê belav bikin",
@@ -11703,14 +11703,14 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "hêman", // Provincial Sales Tax
-        "hêman", // Harmonized Sales Tax
-        "hêman", // Quebec Sales Tax
-        "hêman", // Central Sales Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
         "Baca Excise", // Excise Tax
-        "hêman", // Import Duty
-        "hêman", // Service Tax
-        "hêman", // Luxury Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
+        "LuxuryTax", // Luxury Tax
       ],
     },
     /**
@@ -11772,7 +11772,7 @@ export default {
         "Bikirtînin, Bikirin, Save",
         "hêman Bonanza",
         "E-Exclusive Extravaganza",
-        "hêman hêman hêman",
+        "Mega Markdown Madness",
         "Spree Savings Cyber",
         "Rojan Discount Digital",
         "E-hêman hêman",
@@ -11847,16 +11847,16 @@ export default {
     lottery: {
       title: [
         "Bizivirin û Xelatên Mezin bistînin!",
-        "hêman Wheel hêman",
+        "Fortune Wheel Jackpot",
         "hêman Spin Bonanza",
         "Spin ji bo Serketina Xelat",
         "Wheel hilberên hêman",
         "hêman Qismetnazî Extravaganza",
-        "hêman Spin hêman",
+        "Mega Spin Surprise",
         "Xelata Wheel Fiesta",
         "Xazîno Spin Spectacular",
         "Spin re Wheel hêman",
-        "hêman Wheel hêman",
+        "Lucky Wheel Galore",
         "Favoriya Fortune",
         "Wheel hilberên hêman",
         "Spin ji bo Dewlemendî",
@@ -11864,7 +11864,7 @@ export default {
         "Lottery Spin Zêrîn",
         "Spin-vir-jêbirin",
         "Wheel hilberên hêman",
-        "hêman Spin hêman",
+        "Lucky Spin Showcase",
         "Xelata Spin Ultimate",
       ],
       description: [
@@ -11908,7 +11908,7 @@ export default {
         "Suite Professional",
       ],
       description: [
-        "hêman bo hêman hêman re hêman.",
+        "Îdeal e ji bo kesên ku bingehîn lêkolîn dikin.",
         "Navketin Ber gişt Pakêta Taybetmendî û Biguherîne.",
         "Deal hêman û Pêşeyî Alîkarî.",
         "vir hêman Serlêdanê bo hêman Bikarhêner.",
@@ -11931,7 +11931,7 @@ export default {
         "materyalê û Avakirin baş",
         "Reng û Qedandin pêşkeftî",
         "Storage û hêman",
-        "hêman hêman Limited",
+        "Compatibility System Operating",
         "hêman û hêman",
         "Serlêdanê hêman",
         "Garantî û Alîkarî",
@@ -11986,7 +11986,7 @@ export default {
         "Em li vir in ku ji we re bibin alîkar ku hûn hewceyê alîkariyê bin.",
         "xwe xerîdar hêman bûn hêman.",
         "hêman vir Festîvala Kêmkirinî gorî xwe Pêngava Kirrîn.",
-        "hêman hêman vir hêman pêlavê!",
+        "We hilbijartinek mezin çêkir!",
         "hêman You bo xwe hêman Ez bûn.",
         "hêman hêman Ber xwe xerîdar.",
         "Spasiyek ji dil ji tîma me re.",
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "hêman hêman",
-        "firoşkar hêman",
-        "Serlêdanên hêman",
-        "hêman hêman",
-        "Nşh hêman",
-        "& hêman",
-        "Lîsteya hêman",
-        "hêman hêman",
-        "hêman hêman",
-        "hêman hêman",
-        "hêman hêman",
-        "hêman hêman",
-        "hêman hêman",
-        "hêman Radyoya",
-        "hêman hêman",
-        "Pirtûka hêman",
-        "Xemil hêman",
-        "hêman hêman",
-        "hêman sêwiranê",
+        "Pêşangeha Taybetmendiyê",
+        "Vendor Plaza",
+        "Malên Taybetmendî",
+        "Bazara Herêmî",
+        "New Arrivals",
+        "Baxçeyên Sîteyê",
+        "Navçeya Kirînê",
+        "Artisan Alley",
+        "Sîteyên Luxury",
+        "Rental Hub",
+        "Xaniyên Vekirî",
+        "Tech Innovations",
+        "Fashion Lane",
+        "Crafts Corner",
+        "Dadgeha Xwarinê",
+        "Pirtûka Nook",
+        "Jewelry Junction",
+        "Antîk Avenue",
+        "Fitness Zone",
       ],
     },
 
@@ -12035,16 +12035,16 @@ export default {
         "hêman hêman",
         "Şîrket tengal",
         "baş Assurance hêman",
-        "hêman Jimare hêman (hêman)",
+        "Daneyên Ewlekariyê (SDS)",
         "Mal Garantî tevahî",
         "📦 Vegere polîtîkaya",
-        "şandin û hêman hêman",
+        "Karûbarên barkirinê û barkirinê",
         "mișterî bikirin polîtîkaya",
-        "E-nameyê û hêman hêman",
+        "Planên Bazirganî û Pêşvebirinê",
         "Medyaya civakî Girêdanên",
         "hêman hêman",
         "hêman Navê dizî hilberên hêman",
-        "hêman-hêman hêman (hêman)",
+        "Peymana Ne-Aşkerekirinê (NDA)",
       ],
     },
 
@@ -12057,12 +12057,12 @@ export default {
         "Dikan Giştî hêman",
         "Meqbûza-gorî-hêman Karûbar hêman",
         "Çavkaniyên E-nameyê bikirin hêman",
-        "E-hêman hêman dikan hêman",
+        "Peymana Sazkirina Platforma E-bazirganiyê",
         "Pispor hêman hêman bo Modela hêman",
         "bikirin hêman bo bazargeh Giştî",
         "Dikan dikan û Giştî Karûbar hêman",
         "POD bikirin hêman hêman",
-        "E-nameyê hêman hêman hêman",
+        "Peymana Pêkanîna Stratejiya Bazirganî",
         "Modela hêman bikirin hêman",
         "E-hêman dikan dikan hêman",
         "Pispor bikirin hêman hêman",
@@ -12099,32 +12099,32 @@ export default {
      */
     cashback: {
       title: [
-        "Dikan & hêman hêman",
-        "hêman hêman hêman",
+        "Dikanin & Qezenc Cashback",
+        "Dilsoziya Xelatên Cashback",
         "Deal hêman Pêşkêş dike",
         "hêman Bonanza",
         "Savings hêman Limited",
         "Sale hêman Savings",
-        "hêman hêman 30 roj",
+        "Ducarî rojên Cashback",
         "hêman gorî hêman Kirrîn",
         "hêman hêman",
         "Tenzîlata hêman hêman IP",
         "Deals Dem hêman",
-        "hêman hêman Klub",
+        "Cashback Rewards Club",
         "Dikan Zêdetir.., Rizgarkirin Zêdetir..",
-        "Garantiya hêman hêman",
+        "Xelatên Cashback Ultimate",
         "hêman Extravaganza",
       ],
       description: [
-        "hêman hêman gorî hêman Kirrîn!",
+        "Li ser her kirînê paşde drav qezenc bikin!",
         "Pelê hêman bo xwe hêman.",
         "Deal hêman Pêşkêş dike hêman bo You.",
-        "hêman hêman Savings bi hêman hêman.",
+        "Bi xelatên paşvekişandina drav ji teserûfa mezin kêfê bikin.",
         "Savings hêman gorî gişt xwe Navê jêbirin.",
         "Rizgarkirin Zêdetir.. bi Sale hêman Limited.",
         "hêman xwe hêman gorî Festîvala 30 roj!",
         "hêman hêman hêman Dem You Dikan.",
-        "hêman re hêman hêman Îro!",
+        "Tevlî frenzy cashback îro!",
         "Tenzîlata hêman hêman Deal hêman. IP",
         "hêman! Deals Dem hêman Pêşkêş dike.",
         "Naha beşdarî Klûba meya Xelatên Cashback bibin.",
@@ -12159,21 +12159,21 @@ export default {
       message: [
         "Agahdariya xwe hêman, hêman re Set!",
         "Rizgarkirin hêman bi hêman Time Limited!",
-        "hêman hêman hêman hêman hêman!",
+        "Hevalên me yên bêkêmasî ji bîr nekin!",
         "hêman xwe Kirrîn, zêde bike-hêman hêman!",
         "Bihuşta Deal Savings, Kirrîn hêman!",
         "hêman jêbirin, Festîvala Berdest!",
         "Pelê Zêdetir.., hêman hêman – Time hêman!",
         "Deals-Dem Pêşnîyar: lihevhatî berhem!",
-        "hêman xwe hêman, hêman Limited!",
+        "Tecrûbeya xwe nûve bikin, danûstandinên combo!",
         "Kombeyên meyên bijarte kifş bikin, naha xilas bikin!",
-        "hêman hêman hêman bo re Garantiya hêman!",
+        "Ji bo hevberdana dawîn wê hev bikin!",
         "Dikan hêman, Time û Rizgarkirin!",
         "hêman re Giranî, hêman re hêman!",
         "xwe hêman hêman neçalak binivîse – Dikan niha!",
         "Deal Time Competitive hêman bo You!",
         "hêman xwe Savings bi hêman hêman!",
-        "hêman xwe hêman bi hêman hêman!",
+        "Bi van hilbijartinan berhevoka xwe zêde bikin!",
         "hêman bo You: hêman û Rizgarkirin!",
         "re hêman hêman bo vir hêman Bikin!",
         "Time xwe Bibînin bo Savings Savings!",
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "Çavkaniyên Sporê",
-        "hêman",
-        "hêman",
-        "hêman",
-        "Xane hêman",
-        "hêman berhem",
-        "Nûvekirinên Sports",
-        "hêman & hêman",
+        "Berhemên dîjîtal",
+        "Books",
+        "Electronics",
+        "Mode",
+        "Home Appliances",
+        "Berhemên Bedewiyê",
+        "Amûrên sporê",
+        "Toys & Games",
         "Xûrek",
         "Navmalî",
-        "hêman hêman",
+        "Automotive Parts",
         "Xemil",
-        "hêman & hêman",
-        "hêman ofîsa",
+        "Health & Wellness",
+        "Pet Supplies",
         "Supplies ofîsa",
-        "hêman & Muzîkê",
-        "hêman & TV hêman",
-        "hêman",
-        "Mezinahiya & hêman",
-        "hêman hêman",
+        "Muzîk & Amûrên",
+        "Fîlm & Pêşandanên TV",
+        "Software",
+        "Huner & Crafts",
+        "Outdoor Gear",
       ],
     },
 
@@ -12269,12 +12269,12 @@ export default {
       description: [
         "hêman bo hêman jêbirin Çawa Yekîneya, Reng, û Fabric.",
         "Teknîkî bo Xweseriya hêman hesabê Şanika şewatê, Karsaziyê, û Taybetmendî.",
-        "hêman, hêman, û Cureyên hilberên hêman.",
+        "Tehm, mezinahî û cûreyên vexwarinan.",
         "zêde bo hêman, hêman, û hêman berhem.",
         "materyalê, pakêtê, û Kitên hêman.",
         "Nivîskar, hêman, û hêman 2-Sal.",
         "hêman Awa, hêman, û balkêş zêde.",
-        "hêman Sernivîsa, materyalê, û hêman hêman.",
+        "Koma temen, materyal û standardên ewlehiyê.",
         "Awa, Yekîneya, û Birêvebirinî Taybetmendî.",
         "hêman, hêman, û Şanika şewatê zêde.",
       ],
@@ -12298,11 +12298,11 @@ export default {
         "Etîketên hêman",
         "Etîketên hêman",
         "Etîketên hêman",
-        "Etîketên hêman hêman",
+        "Box Glass Bottles",
         "Etîketên hêman pakêtê", // flexible mailer
         "Etîketên hêman", // bubble/padded
         "Etîketên hêman", // thermal
-        "Etîketên hêman-hêman",
+        "Box Heavy-Duty",
       ],
     },
   },

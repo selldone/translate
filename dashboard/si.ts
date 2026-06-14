@@ -473,7 +473,7 @@ export default {
           input_domain: "වසම් URL",
           correct: "වසම් සැකසුම් නිවැරදියි.",
           set_message: "මෙම වසමේ CNAME {cname} ලෙස සකසන්න.",
-          input_domain_message: "අයිතමය අයිතමය වසම් නම අයිතමය අයිතමය ",
+          input_domain_message: "http සහ https නොමැතිව වසම් නාමය ඇතුළත් කරන්න.",
           ssl_message:
             "ඔබේ වෙබ් අඩවිය සඳහා SSL සහතිකය ගැන කරදර නොවන්න. ඔබට Cloudflare වැනි නොමිලේ හෝ ගෙවන CDN සපයන්නන් හරහා SSL ලබා ගත හැක.",
           active: "වසම ක්රියාකාරී වේ",
@@ -628,14 +628,14 @@ export default {
       table_mode: {
         false_title: "ඇද දමාහරින්න මාදිලිය",
         false_description:
-          "දැක්ම නිෂ්පාදන අයිතමය අයිතමය වර්ග අයිතමය අයිතමය",
+          "කාණ්ඩ සහ උපප්‍රවර්ග අනුව සංවිධානය කරන ලද නිෂ්පාදන බලන්න.",
         true_title: "වගු මාදිලිය",
         true_description: "දැක්ම නිෂ්පාදන අයිතමය අයිතමය ",
       },
 
       show_notes: {
         false_title: "සඟවන්න අයිතමය",
-        false_description: "සඟවන්න අයිතමය අයිතමය",
+        false_description: "හිස් සටහන් සඟවන්න.",
         true_title: "පෙන්වන්න අයිතමය",
         true_description: "පෙන්වන්න සෑම අයිතමය, ⌘Ctrl+2",
       },
@@ -1213,16 +1213,16 @@ export default {
         app_title_input_message: "මෙම මාතෘකාව යෙදුමේ ඉහලින් දිස්වේ.",
         app_title_input_placeholder: "මාතෘකාවක් ඇතුළත් කරන්න",
         app_icon_input: "යෙදුම් නිරූපකය",
-        app_icon_input_placeholder: "තෝරන්න අයිතමය අයිතමය ගොනුව අයිතමය යෙදුම අයිතමය",
+        app_icon_input_placeholder: "යෙදුම් අයිකන වල zip ගොනුව තෝරන්න.",
         generate_icon_pack_action: "අයිකන ඇසුරුම සාදන්න",
-        splash_design: "අයිතමය අයිතමය අයිතමය",
-        splash_logo_input: "අයිතමය අයිතමය ලාංඡනය",
-        splash_logo_input_placeholder: "තෝරන්න අයිතමය රූප අයිතමය අයිතමය ",
-        splash_title_input: "අයිතමය අයිතමය ශීර්ෂය",
-        splash_title_input_placeholder: "අයිතමය අයිතමය ශීර්ෂය අයිතමය අයිතමය අයිතමය",
+        splash_design: "Splash Screen Desgin",
+        splash_logo_input: "Splash Screen Logo",
+        splash_logo_input_placeholder: "Splash Screen සඳහා රූපයක් තෝරන්න.",
+        splash_title_input: "Splash තිර මාතෘකාව",
+        splash_title_input_placeholder: "Splash Screen සඳහා මාතෘකාවක් ඇතුළත් කරන්න",
         splash_title_input_message:
           "මෙම මාතෘකාව විශාල අකුරු ප්‍රමාණයෙන් පෙන්වනු ඇත.",
-        splash_message_input: "අයිතමය අයිතමය පණිවුඩය",
+        splash_message_input: "Splash Screen Message",
         splash_message_input_placeholder: "පණිවුඩය ...",
         splash_message_input_message:
           "මෙම පණිවිඩය සිඟිති රූපයක් ලෙස පහතින් පෙන්වනු ඇත.",
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "වර්ගය",
-      category_input_msg: "අයිතමය: අයිතමය අයිතමය ගබඩා අයිතමය",
+      category_input_msg: "හිස්: ගබඩාවේ මූලයේ",
       product_name: "නිෂ්පාදන නාමය*",
       product_name_placeholder: "ඔබේ නිෂ්පාදනයේ නම මෙතනින්..",
       product_code: "නිෂ්පාදන කේතය (ඉංග්‍රීසි)",
       sku: {
         label: "SKU",
-        message: "අයිතමය අයිතමය ඒකකය",
+        message: "කොටස් තබා ගැනීමේ ඒකකය",
       },
       mpn: {
         label: "MPN",
-        message: "අයිතමය අයිතමය අයිතමය",
+        message: "නිෂ්පාදකයාගේ කොටස අංකය",
       },
 
       external_link: "බාහිර සබැඳිය",
@@ -1497,9 +1497,9 @@ export default {
         subtitle:
           "ඔබට නිෂ්පාදනයට තක්සේරුවක් (මිල ආදාන පෝරමයක්) නිර්මාණය කිරීමට හෝ පැවරීමට හැකි අතර, ඔබේ ගනුදෙනුකරුවන්ට ප්‍රභේද අතර තේරීමට හෝ බුද්ධිමය ආදාන පෝරමයකින් ඔබේ වෙළඳ භාණ්ඩ අභිරුචිකරණය කිරීමට හැකිය.",
         valuation_need_saved_product_message:
-          "අයිතමය සුරකින්න අයිතමය නිෂ්පාදන අයිතමය, අයිතමය අයිතමය ",
+          "කරුණාකර පළමුව නිෂ්පාදනය සුරකින්න, පසුව ඔබට තක්සේරු ආකෘතියක් පැවරිය හැක.",
         assign_valuation_message:
-          "අයිතමය අයිතමය දක්වා අයිතමය නිෂ්පාදන",
+          "කරුණාකර මෙම නිෂ්පාදනයට තක්සේරු ආකෘතියක් පවරන්න.",
         edit_pricing_action: "සංස්කරණය කරන්න මිල නියම කිරීම පෝරමය",
         add_pricing_action: "නිර්මාණය කරන්න අලුත් මිල නියම කිරීම පෝරමය",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "අභිරුචි මිලදී ගන්න අයිතමය",
         message:
           "ඔබට මෙම රටාව අනුගමනය කිරීමෙන් නිරූපකය වෙනස් කළ හැක : {icon name} සිරස්තල...",
-        placeholder: "අයිතමය අයිතමය දක්වා අයිතමය",
+        placeholder: "ක්‍රියාවට ඇමතුම ඇතුළු කරන්න...",
         multi_language_dialog_title: "අභිරුචි මිලදී ගන්න අයිතමය අයිතමය",
       },
       external: {
         not_available_message:
-          "අයිතමය අයිතමය ඇත අයිතමය සමාගම & අයිතමය බලපත්‍රය",
+          "සමාගම් සහ ව්‍යවසාය බලපත්‍ර සමඟ අමතර ක්‍රියාමාර්ග තිබේ.",
         available_message: "ඔබට ක්‍රියාවට අමතර බාහිර ඇමතුමක් එක් කළ හැක.",
-        input_label: "අයිතමය අයිතමය දක්වා අයිතමය",
+        input_label: "ක්‍රියාවට දෙවන ඇමතුම",
       },
       warehouse: {
         subtitle:
@@ -1522,17 +1522,17 @@ export default {
       },
       gtin: {
         hint: "සහාය දක්වන අගයන් වන්නේ UPC (උතුරු ඇමරිකාව, ඉලක්කම් 12), EAN (යුරෝපය, ඉලක්කම් 13), JAN (ජපානය, 8 හෝ 13 ඉලක්කම්), ISBN (පොත්, ඉලක්කම් 13).",
-        label: "නිෂ්පාදන අයිතමය අයිතමය ",
-        placeholder: "අයිතමය අයිතමය (විකල්ප)",
+        label: "නිෂ්පාදනයේ ගෝලීය වෙළඳ අයිතම අංකය",
+        placeholder: "ගෝලීය වෙළඳ අංකය මෙතැනින්.. (විකල්ප)",
       },
       hsn: {
-        hint: "HSN, අයිතමය අයිතමය , අයිතමය අයිතමය නිෂ්පාදන",
+        hint: "HSN, නොහොත් Harmonized System of Nomenclature, යනු භාණ්ඩ හා නිෂ්පාදන වර්ගීකරණය සඳහා ජාත්‍යන්තර වශයෙන් ප්‍රමිතිගත වර්ගීකරණ පද්ධතියකි.",
         placeholder: "6~16 අයිතමය HSN කේතය (විකල්ප)",
         label: "HSN",
       },
       condition: {
-        label: "නිෂ්පාදන අයිතමය අයිතමය අයිතමය ගබඩා",
-        message: "අයිතමය අයිතමය නිෂ්පාදන",
+        label: "ඔබේ වෙළඳසැලේ නිෂ්පාදන තත්ත්වය",
+        message: "කරුණාකර මෙම නිෂ්පාදනයේ තත්ත්වය තෝරන්න.",
         subtitle:
           "ඔබ පිරිනමන නිෂ්පාදනයේ තත්ත්වය සහ වෙළඳ නාමය පිළිබඳව ඔබේ ගනුදෙනුකරුවන්ට දැනුම් දෙන්න.",
       },
@@ -1696,12 +1696,12 @@ export default {
         generated_spec: {
           title: "අයිතමයඅයිතමය පිරිවිතර",
           subtitle:
-            "අයිතමය පිරිවිතර අයිතමය අයිතමය ",
+            "මෙම පිරිවිතරයන් කෘතිම බුද්ධිය මගින් ජනනය කරන ලදී.",
         },
         inputs: {
           prompt: {
             label: "නිෂ්පාදන විස්තර",
-            placeholder: "අයිතමය අයිතමය නිෂ්පාදන අයිතමය",
+            placeholder: "මෙහි නිෂ්පාදනය විස්තර කරන්න...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "පසුබිම විස්තර",
-            placeholder: "අයිතමය අයිතමය අයිතමය පසුබිම",
+            placeholder: "අවශ්‍ය පසුබිම විස්තර කරන්න...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "නැවත සිතන්න අයිතමය අයිතමය රූප අයිතමය අයිතමය අලුත් පසුබිම",
           },
           replace: {
-            subtitle: "අයිතමය අයිතමය අයිතමය පසුබිම",
+            subtitle: "පවතින පසුබිම ප්‍රතිස්ථාපනය කරන්න.",
           },
         },
       },
@@ -1875,10 +1875,10 @@ export default {
     menu: {
       add_bulk: {
         title: "අයිතමය එක් කරන්න",
-        subtitle: "එක් කරන්න අයිතමය ප්රභේද අයිතමය අයිතමය අයිතමය",
+        subtitle: "එක් ක්‍රියාවක බහුවිධ ප්‍රභේද එක් කරන්න.",
       },
       edit_property_set: {
-        title: "අයිතමය අයිතමය අයිතමය",
+        title: "දේපල කට්ටලය අභිරුචිකරණය කරන්න",
         subtitle: "වෙනස් කරන්න ප්රභේද අයිතමය, අයිතමය අයිතමය නියෝග",
       },
     },
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "අයිතමය කළමනාකරණය",
     subtitle:
-      "නිර්මාණය කරන්න අයිතමය, අයිතමය, අයිතමය අයිතමය ",
+      "පුද්ගලාරෝපිත, බුද්ධිමත් සහ අන්තර්ක්‍රියාකාරී උත්පතන කවුළු සාදන්න.",
     add_action: "එක් කරන්න අලුත් මතුවන",
   },
 
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "විකුණුම්කරු තොරතුරු",
-      subtitle: "අයිතමය තොරතුරු අයිතමය අයිතමය දක්වා පාරිභෝගිකයන් අයිතමය",
+      subtitle: "මෙම තොරතුරු පාරිභෝගිකයින්ට ප්‍රසිද්ධියේ පෙන්වයි.",
       action_sub_caption: "මහජන නිෂ්පාදන ලැයිස්තුගත කිරීම පිටුව",
       action_see_listing_page: "බලන්න ලැයිස්තුගත කිරීම පිටුව",
       send_invitation_email: "යවන්න අයිතමය විද්යුත් තැපෑල",
@@ -2002,11 +2002,11 @@ export default {
 
     profiles: {
       title: "පැතිකඩ",
-      subtitle: "අයිතමය අයිතමය අයිතමය ස්ථානය දක්වා අයිතමය විකුණුම්කරු",
+      subtitle: "ඔබට මෙම වෙළෙන්දාට ස්ථානය පැවරිය හැක.",
     },
     map: {
       no_map_message:
-        "අයිතමය අයිතමය ස්ථානය දක්වා අයිතමය විකුණුම්කරු අයිතමය අයිතමය විකුණුම්කරු",
+        "එය ස්ථානය පදනම් වූ වෙළෙන්දෙකු නම් වෙළෙන්දාට ස්ථානයක් පවරන්න.",
     },
     page: {
       title: "අභිරුචි පිටුව",
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "අමතන්න තොරතුරු",
-      subtitle: "අයිතමය අයිතමය අයිතමය අමතන්න විස්තර",
+      subtitle: "කරුණාකර වලංගු සම්බන්ධතා තොරතුරු සපයන්න.",
     },
     business: {
       title: "ව්‍යාපාරය තොරතුරු",
@@ -2031,7 +2031,7 @@ export default {
     },
     bank: {
       title: "අයිතමය තොරතුරු",
-      subtitle: "ආදානය අයිතමය බැංකුව විස්තර අයිතමය අයිතමය අයිතමය",
+      subtitle: "ගෙවීම් සඳහා ඔබේ බැංකු විස්තර මෙහි ඇතුළත් කරන්න.",
     },
     default_pricing: {
       title: "පෙරනිමිය මිල නියම කිරීම",
@@ -2055,7 +2055,7 @@ export default {
       title: "ඉවත් කරන්න විකුණුම්කරු",
       action: "ඉවත් කරන්න විකුණුම්කරු",
       verify_description:
-        "අයිතමය අයිතමය අයිතමය සෑම විකුණුම්කරු නිෂ්පාදන අයිතමය අයිතමය !",
+        "සියලුම විකුණුම් නිෂ්පාදන සම්බන්ධතා ඉවත් කරන බව මම දනිමි!",
       verify_title: "අයිතමය අයිතමය දක්වා මකන්න අයිතමය විකුණුම්කරු",
     },
 
@@ -2070,12 +2070,12 @@ export default {
     order_information_email_to_email:
       "අයිතමය අයිතමය යවන්න නියෝග තොරතුරු දක්වා <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "අයිතමය අයිතමය පරිශීලක අයිතමය අයිතමය විකුණුම්කරු අයිතමය",
+    set_a_user_for_the_vendor_first_msg: "පළමුව විකුණුම්කරු සඳහා පරිශීලකයෙකු සකසන්න.",
 
     inputs: {
       slug: {
         label: "අයිතමය",
-        placeholder: "අයිතමය අයිතමය අභිරුචි අයිතමය",
+        placeholder: "අභිරුචි මාර්ගයක් ඇතුළු කරන්න...",
         hint: "වෙනස් කරන්න අයිතමය අයිතමය අයිතමය විකුණුම්කරුවන් අයිතමය ගොඩබෑම පිටුව",
       },
       email: {
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "අයිතමය අයිතමය ",
-        true_description: "අයිතමය අයිතමය ව්‍යාපාරය අයිතමය",
+        true_description: "මම නීත්‍යානුකූලව පිළිගත් ව්‍යාපාරික ආයතනයක් ලෙස ක්‍රියා කරමි.",
         false_title: "අයිතමය",
         true_title: "ව්‍යාපාරය",
       },
@@ -2092,11 +2092,11 @@ export default {
         placeholder: "අයිතමය බැංකුව නම",
       },
       account_name: {
-        hint: "අයිතමය අයිතමය නම අයිතමය අයිතමය අයිතමය බැංකුව ගිණුම",
+        hint: "මෙය බැංකු ගිණුම හා සම්බන්ධ නමට ගැළපිය යුතුය.",
         placeholder: "අයිතමය නම",
       },
       account_number: {
-        hint: "අයිතමය විකුණුම්කරුවන් අයිතමය ගිණුම අයිතමය",
+        hint: "වෙළෙන්දාගේ අනන්‍ය ගිණුම් අංකය.",
         placeholder: "අයිතමය බැංකුව ගිණුම අයිතමය",
       },
       routing_number: {
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "ජාත්‍යන්තර බැංකු ගිණුම් අංකය): වෙළෙන්දාගේ බැංකුව යුරෝපයේ හෝ වෙනත් රටවල තිබේ නම්.",
-        placeholder: "අයිතමය IBAN අයිතමය අයිතමය DE89 3704 0044 0000 0000 00",
+        placeholder: "ඔබගේ IBAN අංකය.. උදා. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "ජාත්‍යන්තර බැංකු ගිණුම් අංකය): වෙළෙන්දාගේ බැංකුව යුරෝපයේ හෝ වෙනත් රටවල තිබේ නම්.",
-        placeholder: "අයිතමය අයිතමය අයිතමය",
+        placeholder: "ඔබගේ Swift කේතය/BIC..",
       },
       branch_address: {
         hint: "වෙළෙන්දාට ඔවුන්ගේ ගිණුම ඇති බැංකු ශාඛාවේ ලිපිනය.",
@@ -2164,12 +2164,12 @@ export default {
   product_badges: {
     title: "ලාංඡන",
     subtitle: "එක් කරන්න අයිතමය සංස්කරණය කරන්න අභිරුචි නිෂ්පාදන ලාංඡන",
-    only_marketplace_owner_msg: "අයිතමය වෙළඳපොළ අයිතමය",
+    only_marketplace_owner_msg: "වෙළඳපල අයිතිකරුවන් පමණි",
     create_new_badge_action: "නිර්මාණය කරන්න අලුත් ලාංඡනය",
     select_a_badge: "තෝරන්න අයිතමය ලාංඡනය",
     inputs: {
       custom: {
-        false_description: "නිෂ්පාදන ලාංඡන අයිතමය අයිතමය අයිතමය",
+        false_description: "නිෂ්පාදන ලාංඡන ස්වයංක්‍රීයව සාදනු ලැබේ.",
         false_title: "ස්වයංක්‍රීය",
         true_title: "අභිරුචි නිෂ්පාදන ලාංඡන",
         true_description: "එක් කරන්න අභිරුචි ලාංඡන අයිතමය අයිතමය නිෂ්පාදන පිටුව",
@@ -2199,7 +2199,7 @@ export default {
       },
       notifications: {
         badge_added: "ලාංඡනය සාර්ථකව එකතු කර ඇත!",
-        badge_updated: "අයිතමය ලාංඡනය අයිතමය අයිතමය !",
+        badge_updated: "ලාංඡනය සාර්ථකව යාවත්කාලීන කර ඇත!",
         item_not_found_error:
           "අයිතමය අයිතමය පිටුව අයිතමය අමතන්න සහාය",
       },
@@ -2217,11 +2217,11 @@ export default {
     ],
     inputs: {
       tags: {
-        placeholder: "අයිතමය ටැග් අයිතමය අයිතමය උදා අලුත් අයිතමය",
+        placeholder: "මෙහි ටැග් වයර් කර enter ඔබන්න. උදා. නව එකතුව",
       },
     },
     notifications: {
-      tags_updated: "අයිතමය ටැග් අයිතමය අයිතමය ",
+      tags_updated: "ටැග් සාර්ථකව යාවත්කාලීන කර ඇත.",
     },
   },
 
@@ -2254,7 +2254,7 @@ export default {
   product_location_profile: {
     title: "ස්ථානය",
     empty_subtitle:
-      "අයිතමය අයිතමය ස්ථානය දක්වා අයිතමය නිෂ්පාදන අයිතමය අයිතමය ",
+      "ස්ථානය පදනම් වූ අයිතමයක් නම් නිෂ්පාදනයට ස්ථානයක් පවරන්න.",
     dialog: {
       header: "තෝරන්න ස්ථානය පැතිකඩ",
       action_new_location: "නව ස්ථානයක් එක් කරන්න",
@@ -2279,7 +2279,7 @@ export default {
     dialog: {
       header: "නිෂ්පාදන පැකේජය අයිතම",
       title: "අයිතමය අයිතම",
-      subtitle: "අයිතමය අයිතමය අයිතම අයිතමය අයිතමය නිෂ්පාදන",
+      subtitle: "මෙය නිෂ්පාදනය සමඟ එන අයිතමවල එකතුවකි.",
       action_manage: "කළමනාකරණය කරන්න අයිතම",
       action_disable_msg: "වෙළඳපොළ හිමිකරු",
       select_items_tips:
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "දායකත්ව ගණන",
           score: "ලකුණු",
         },
-        users_not_rated_msg: "පරිශීලකයන් අයිතමය අයිතමය නිෂ්පාදන අයිතමය",
+        users_not_rated_msg: "පරිශීලකයින් තවමත් මෙම නිෂ්පාදනය ශ්‍රේණිගත කර නොමැත.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2451,7 +2451,7 @@ export default {
           graphical_asset_tips:
             "ඔබට <b>Graphic Assets</b> භාවිතයෙන් රූප ඇතුළුව, විචල්‍යයන් සඳහා ඕනෑම අගයක් පැවරිය හැක. රටාවක් උඩුගත කර ප්‍රභේදය සඳහා ජනනය කළ කේතය භාවිතා කරන්න.",
           graphical_asset_action: "අයිතමය අයිතමය",
-          graphical_asset_action_caption: "රූප අයිතමය අයිතමය අයිතමය",
+          graphical_asset_action_caption: "ප්‍රභේද විකල්ප සඳහා පින්තූර.",
         },
         smart_unit_price: {
           tips: "<b>weight</b>, <b>volume</b>, සහ <b>pack size</b> මත පදනම්ව ඒකක මිල ගණනය කරන්න. මෙම විශේෂාංගය අබල කිරීමට, සාප්පු යන්න > සැකසීම් > තේමාව > නිෂ්පාදන පිටුව > Smart Unit Price වෙත යන්න.",
@@ -2470,7 +2470,7 @@ export default {
           title: "අයිතමය & නාවික",
           subtitle:
             "නැව්ගත කිරීමේ විකල්පයන් තීරණය කිරීම සඳහා ප්‍රභේද සඳහා බර සහ මානයන් සඳහන් කරන්න.",
-          same_as_product_action: "අයිතමය අයිතමය නිෂ්පාදන",
+          same_as_product_action: "නිෂ්පාදනයට සමානයි",
         },
         image: {
           title: "අයිතමය රූප",
@@ -2482,10 +2482,10 @@ export default {
             message: "අයිතමය අයිතමය ඒකකය (SKU)",
           },
           mpn: {
-            message: "අයිතමය අයිතමය අයිතමය (MPN)",
+            message: "නිෂ්පාදකයාගේ කොටස් අංකය (MPN)",
           },
           gtin: {
-            label: "අයිතමය අයිතමය (GTIN)",
+            label: "ගෝලීය වෙළඳ අයිතම අංකය (GTIN)",
             message:
               "සහාය දක්වන ආකෘති: UPC (ඉලක්කම් 12), EAN (ඉලක්කම් 13), JAN (8 හෝ 13 ඉලක්කම්), ISBN (ඉලක්කම් 13).",
           },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "සියලුම ප්‍රභේද යාවත්කාලීන කරන්න",
     bulk_action_msg:
       "සියලුම ප්‍රභේද සඳහා නිෂ්පාදන ඇසුරුම් සහ සකස් කිරීමේ කාලය සකසන්න.",
-    dynamic_lead_time: "අයිතමය අයිතමය වේලාව",
+    dynamic_lead_time: "ගතික ඉදිරි කාලය",
     instant_delivery: "අයිතමය භාරදීම",
   },
 
@@ -2552,7 +2552,7 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "අයිතමය රූප අයිතමය අයිතමය",
+      title: "රූපය Alt පෙළ සකසන්න",
       placeholder: "අයිතමය අයිතමය ",
       success_update_notification: "අයිතමය අයිතමය ",
     },
@@ -2562,14 +2562,14 @@ export default {
         title: "පසුබිම ඉවත් කරන්න",
         subtitle: "නිර්මාණය කරන්න අයිතමය විනිවිද පෙනෙන පසුබිම",
       },
-      success_remove_bg_notification: "පසුබිම අයිතමය අයිතමය!",
+      success_remove_bg_notification: "පසුබිම සාර්ථකව ඉවත් කර ඇත!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "අයිතමය අයිතමය අයිතමය",
+    title: "ප්‍රභේද චිත්‍රක වත්කම්",
     tips: {
       how_it_works:
         "<b>එය ක්‍රියා කරන්නේ කෙසේද:</b><br />මෙහිදී රටා හෝ අයිතම රූප උඩුගත කරන්න. මෙම පින්තූර ප්‍රභේද විකල්පයක් ලෙස භාවිතා කිරීමට, විචල්‍ය අගයට <b>{filename}</b> ඇතුළත් කරන්න. මෙම කේතය <b><s>color</s></b> අගය තුළ භාවිතා කළ නොහැකි බව සලකන්න.",
@@ -2593,9 +2593,9 @@ export default {
   product_variant_item: {
     duplicated_variant: "අයිතමය අයිතමය !",
     set_color_warning: "අයිතමය තෝරන්න අයිතමය වර්ණ",
-    set_volume_warning: "අයිතමය අයිතමය අයිතමය පරිමාව",
+    set_volume_warning: "කරුණාකර පරිමාව සඳහන් කරන්න.",
     set_pack_warning: "අයිතමය අයිතමය ",
-    set_weight_warning: "අයිතමය අයිතමය අයිතමය බර",
+    set_weight_warning: "කරුණාකර බර සඳහන් කරන්න.",
     set_type_warning: "අයිතමය තෝරන්න අයිතමය ටයිප් කරන්න",
     set_style_warning: "අයිතමය තෝරන්න අයිතමය ශෛලිය",
     out_of_stock: "අයිතමය අයිතමය ",
@@ -2610,10 +2610,10 @@ export default {
     restore_dialog: {
       title: "අයිතමය අයිතමය",
       message: "ඔබට මෙම මකා දැමූ ප්‍රභේදය ප්‍රතිසාධන කිරීමට අවශ්‍ය බව විශ්වාසද?",
-      action: "ඔව්, අයිතමය අයිතමය",
+      action: "ඔව්, දැන් Restore කරන්න",
     },
     notifications: {
-      restore_variant_success: "අයිතමය නිෂ්පාදන අයිතමය අයිතමය ",
+      restore_variant_success: "නිෂ්පාදන ප්‍රභේදය සාර්ථකව ප්‍රතිසාධනය කරන ලදී.",
     },
   },
 
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "ගබඩා ඉන්වෙන්ටරි",
     subtitle: "ලැයිස්තුව අයිතමය සෑම නිෂ්පාදන අයිතමය ගබඩා",
-    cant_set_here: "අයිතමය අයිතමය අයිතමය",
+    cant_set_here: "මෙතන සෙට් වෙන්න බෑ",
 
     search_input: "නිෂ්පාදන සෙවීම...",
     search_input_title: "ගබඩා නිෂ්පාදන අතර සොයන්න",
@@ -2718,9 +2718,9 @@ export default {
     title: "අයිතමය ක්රියාවන් > මිල",
     message:
       "පහත මුදල ඔබේ වෙළඳසැලේ සියලුම නිෂ්පාදනවල මිල සඳහා ප්‍රතිශතයක් ලෙස අදාළ වේ. එසේම, ගණනය කරන ලද මිල අගයන් තෝරාගත් මුදල් මත පදනම්ව ආසන්නතම වට අංකයට බුද්ධිමත් ලෙස පරිවර්තනය කරනු ලැබේ. අගයන් ඇතුළත් කිරීමේදී ප්‍රවේශම් වන්න.",
-    check: "අයිතමය අයිතමය මිල අයිතමය",
+    check: "මම මිල වෙනස් කිරීම් අනුමත කරමි.",
     check_description:
-      "අයිතමය මිල අයිතමය අයිතමය තෝරන්න වර්ගය අයිතමය සෑම අයිතමය",
+      "තෝරාගත් ප්‍රවර්ගය සහ සියලුම උපප්‍රවර්ග සඳහා මිල වෙනස් වේ.",
     add_percent_tab: "එක් කරන්න සියයට",
     add_constant_tab: "එක් කරන්න අයිතමය",
     ending_tab: "අවසානය අයිතමය",
@@ -2753,7 +2753,7 @@ export default {
     },
 
     category: {
-      subtitle: "සීමාව අයිතමය අයිතමය දක්වා අයිතමය වර්ගය අයිතමය සෑම අයිතමය",
+      subtitle: "තොග ක්‍රියාව ප්‍රවර්ගයකට සහ සියලුම උපප්‍රවර්ග වලට සීමා කරන්න.",
     },
     vendor: {
       subtitle:
@@ -2808,7 +2808,7 @@ export default {
       confirm: "ගෙවීමේ ක්‍රමය එක් කරන්න",
 
       online_methods: "අයිතමය ක්‍රම",
-      cod_methods: "අයිතමය අයිතමය භාරදීම",
+      cod_methods: "Cash On Delivery",
       bank_transfer: "බැංකුව මාරු",
       cash_methods: "අයිතමය ගෙවීම (POS)",
 
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "අයිතමය මාදිලිය",
-          true_description: "අයිතමය අයිතමය අයිතමය දොරටුව අයිතමය අයිතමය",
+          true_description: "ඔබට ද්වාර වින්‍යාසය අතින් සැකසිය හැක.",
 
           false_title: "ස්වයංක්‍රීය සම්බන්ධ කරන්න",
           false_description:
@@ -2979,7 +2979,7 @@ export default {
     /** {@see BPageCampaignLinks} **/
     links: {
       title: "ප්‍රචාරක සබැඳි",
-      url_input_message: "අයිතමය අයිතමය අයිතමය පිටුව අයිතමය",
+      url_input_message: "ඔබගේ ඉලක්ක පිටු url ඇතුලත් කරන්න",
     },
 
     /** {@see BPageCampaignSetting} **/
@@ -3033,7 +3033,7 @@ export default {
         message_input_hint: "ගබඩාවේ ඉහළින් ඇති බැනර් පණිවිඩ පෙළ",
         bg_image_input: "පසුබිම් රූප URL",
         bg_image_input_hint: "සම්පූර්ණ පසුබිම් රූප URL",
-        repeat_pattern: "නැවත නැවත රටාව",
+        repeat_pattern: "නැවත නැවතත් රටාව",
         simple: "සරල",
         dark_input: "අඳුරු තේමාව?",
         icon_input: "නිරූපකය",
@@ -3356,7 +3356,7 @@ export default {
       shipping_address_update_success:
         "නාවික ලිපිනය අයිතමය අයිතමය ",
       vendor_order_status_update_success:
-        "විකුණුම්කරු අයිතමය තත්ත්වය අයිතමය අයිතමය ",
+        "විකුණුම්කරු ඉටුකිරීමේ තත්ත්වය සාර්ථකව යාවත්කාලීන කර ඇත.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3438,7 +3438,7 @@ export default {
         info: "තොරතුරු",
       },
       user_payment: "පාරිභෝගික ගෙවීම",
-      cod: "අයිතමය අයිතමය භාරදීම",
+      cod: "Cash on Delivery",
       gateway_wage: "ගාස්තු",
       gift_card: "තෑගි කාඩ්පත",
       discount_code: {
@@ -3523,7 +3523,7 @@ export default {
         message:
           "ඔබ අතින් සිදු කළ යුතු මුදල් ආපසු ගෙවීමේ මුළු මුදල අපි ගණනය කරමු. එය තවමත් ලබා ගත නොහැකි අයිතම සහ සම්පූර්ණ ආපසු ගෙවන ලද අගයන් මත පදනම්ව ගණනය කර ඇත.",
         calculated_approximately:
-          "අයිතමය ප්රමාණය අයිතමය අයිතමය ප්රමාණය අයිතමය",
+          "මුදල ආසන්න වශයෙන් ගණනය කෙරේ. කරුණාකර නිශ්චිත මුදල ඔබම ගණනය කරන්න.",
       },
       need_payback: {
         title: "පාරිභෝගිකයා අයකිරීම අයිතමය",
@@ -3664,7 +3664,7 @@ export default {
     cod_transportations_error:
       "අවම වශයෙන් එක් නැව්ගත කිරීමේ ක්‍රමයක් සඳහා බෙදාහැරීමේ මුදල් ගෙවීම සබල කරන්න!",
     payment_type: "ගෙවීම ටයිප් කරන්න",
-    cod: "අයිතමය අයිතමය භාරදීම",
+    cod: "Cash On Delivery",
     online: "අයිතමය ගෙවීම",
     wage_percent: "ගාස්තු සියයට",
     min_wage: "අවම ගාස්තු",
@@ -3688,7 +3688,7 @@ export default {
     },
     extra_config: {
       title: "ගෙවීම සේවාව අයිතමය",
-      subtitle: "අයිතමය අයිතමය තොරතුරු අයිතමය අයිතමය ගෙවීම දොරටුව",
+      subtitle: "ගෙවීම් දොරටුව සඳහා අමතර වින්‍යාස තොරතුරු.",
     },
 
     recommended_actions: {
@@ -3743,12 +3743,12 @@ export default {
     },
     gateway_code: "දොරටුව කේතය",
 
-    hold_only_for: "අයිතමය ගෙවීම අයිතමය ඇත අයිතමය",
+    hold_only_for: "රඳවා තබා ගැනීම සඳහා පමණක් ලබා ගත හැකිය",
     manual_input: {
       false_description:
         "ගෙවීම් සපයන්නා පද්ධතිය තුළ අපේක්ෂිත සිට තහවුරු කිරීමට ගෙවීම් තත්ත්වය ස්වයංක්‍රීයව වෙනස් වේ.",
       false_title: "ස්වයංක්‍රීය ගෙවීම අයිතමය",
-      true_title: "අයිතමය ගෙවීම අයිතමය අතින් අයිතමය",
+      true_title: "ගෙවීම් රඳවා තබා ගැනීම සහ අතින් තහවුරු කිරීම",
       true_description:
         "ගෙවීමක් මත රඳවා තබා ගන්න, එවිට ඔබට ඇණවුමක් සඳහා ගෙවීම් තහවුරු කිරීමට අවශ්‍ය වන අතර, ගෙවීම් සපයන්නා පද්ධතිය තුළ ඔවුන්ගේ තත්ත්වය පොරොත්තුවෙන් සිට තහවුරු කර ඇත.",
     },
@@ -4070,10 +4070,10 @@ export default {
 
     filter_box: {
       no_root_filter_message: "ඔබට මූලයේ නිෂ්පාදන ඇති නමුත් පෙරහන නැත.",
-      has_root_filter_message: "අයිතමය අයිතමය පෙරහන් අයිතමය අයිතමය වර්ගය",
-      set_filter_message: "අයිතමය අයිතමය අයිතමය පෙරහන්",
+      has_root_filter_message: "ඔබ මූල කාණ්ඩය සඳහා පෙරහන් සකසා ඇත.",
+      set_filter_message: "ඔබට පෙරහන් සැකසිය හැක.",
       edit_action: "සංස්කරණය කරන්න අයිතමය පෙරහන්",
-      clear_action: "අයිතමය අයිතමය පෙරහන්",
+      clear_action: "මූල පෙරහන් හිස් කරන්න",
     },
     ai: {
       title: "AI නිෂ්පාදන අයිතමය",
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "තෝරන්න සෑම නිෂ්පාදන",
       unselect: "අයිතමය",
-      sort_categories: "අයිතමය / අයිතමය වර්ග",
+      sort_categories: "වර්ගීකරණය / වර්ග කිරීම",
       subscription_vendor_not_support_message:
         "දායකත්ව නිෂ්පාදන සඳහා වෙළෙන්දා පැවරිය නොහැක! දායකත්ව නිෂ්පාදන සෑම විටම එහි හිමිකරු ලෙස විකුණුම්කරුවෙකු සිටිය යුතුය!",
       vendor_owner_not_assignable_message:
@@ -4093,7 +4093,7 @@ export default {
     },
 
     engine: {
-      title: "අයිතමය නිෂ්පාදන අයිතමය",
+      title: "අමතර නිෂ්පාදන එන්ජිම",
       subtitle:
         "තව. . නිෂ්පාදන අයිතමය අයිතමය අයිතමය සිට තෝරන්න වර්ග අයිතමය ටැග්",
       load_in_tips: "අයිතමය නිෂ්පාදන සිට වර්ග අයිතමය අයිතමය {category}.",
@@ -4103,7 +4103,7 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "අයිතමය අයිතමය / CSV ගොනුව අයිතමය",
+      title: "Excel / CSV ගොනුව මෙහි දමන්න.",
       select_file: "තෝරන්න ගොනුව",
       max_file: "උපරිම ගොනුව අයිතමය: 20අයිතමය",
       download_sample: "බාගන්න අයිතමය",
@@ -4217,7 +4217,7 @@ export default {
       },
       update_success: {
         title: "සාමාජිකයා අයිතමය",
-        message: "අයිතමය අයිතමය සාමාජිකයින් තොරතුරු අයිතමය අයිතමය ",
+        message: "කණ්ඩායම් සාමාජිකයාගේ තොරතුරු සාර්ථකව යාවත්කාලීන කර ඇත.",
       },
     },
     actions: {
@@ -4266,11 +4266,11 @@ export default {
       "<b>වැදගත්! </b>මෙම ක්‍රියාව ක්‍රියාත්මක කිරීමෙන් වෙළෙන්දාගේ මුදල් පසුම්බියේ සෘණ ගනුදෙනුවක් ජනනය වන අතර එයින් තෝරාගත් මුදල අඩු කරයි. තෝරාගත් ඇණවුම සඳහා ඉතිරි මුළු ගනුදෙනු ඉක්මවිය නොහැක. අතිරේකව, සම්බන්ධිත බැංකු ගිණුම් වෙත අරමුදල් මාරු කර ඇත්නම් (Stripe Connect හෝ අතින් වයර් මාරු කිරීම වැනි), ඔබ <b>ප්‍රතිවර්තන හුවමාරුවක්</b> සෑදිය යුතුය.",
     inputs: {
       note: {
-        message: "අයිතමය අයිතමය දක්වා අයිතමය විකුණුම්කරු",
-        placeholder: "අයිතමය අයිතමය සටහන අයිතමය",
+        message: "එය වෙළෙන්දාට පෙනේ.",
+        placeholder: "ඔබට මෙහි සටහනක් ඇමිණිය හැක...",
       },
       amount: {
-        error_message: "අයිතමය අයිතමය ප්රමාණය අයිතමය අයිතමය අයිතමය",
+        error_message: "ඉතිරි මුදල ඉක්මවා ඇත.",
       },
     },
   },
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "මෙම කොටසෙහි, ඔබට ඇණවුම, ඉටු කිරීම, ගෙවීම සහ ඒවායේ තත්ත්‍වයට අදාළ සිදුවීම්වල කාලරාමුව බැලීමට හැකිය. මීට අමතරව, ඔබට පාරිභෝගිකයින්ට සහ විකුණුම්කරුවන්ට යවන ලද ඇණවුම් නිරීක්ෂණය කළ හැකිය.",
-    add_note_subtitle: "ලිවීම අයිතමය පණිවුඩය අයිතමය අයිතමය ",
+    add_note_subtitle: "පණිවිඩයක් ලියන්න සහ ඔබේ සගයන් සඳහන් කරන්න.",
 
     message_input: "මෙහි පණිවිඩයක් ලියන්න...",
     pin_action: "ඉහළට අමුණන්න",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "සටහන ප්රවේශ",
-      description: "කියවීම අයිතමය අයිතමය අයිතමය විස්තර",
+      description: "සටහන් සහ අදාළ විස්තර කියවන්න.",
     },
     "backoffice:note:write": {
       name: "සටහන කළමනාකරණය",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "අයිතමය",
-      description: "අයිතමය විෂය පථයන් අයිතමය අයිතමය ",
+      description: "පද්ධතිය තුළ විවිධ විෂය පථයන් අර්ථ දක්වා නොමැත.",
     },
     vendor: {
       title: "විකුණුම්කරු",
@@ -5457,7 +5457,7 @@ export default {
     description:
       "ඔබේ මාසික විකුණුම් මත පදනම්ව හොඳම සැලැස්ම ගණනය කර තෝරන්න:",
     sale_input: "මාසික විකුණුම් මුදල",
-    hypernova_plan: "අයිතමය අයිතමය අයිතමය %0!",
+    hypernova_plan: "Hypernova %0 සඳහා අයදුම් කරන්න!",
     show_normal_mode: "සාමාන්‍ය මාදිලිය පෙන්වන්න",
     show_hypernova_mode: "මගේ ගනුදෙනුව මිලියන 1 ඉක්මවයි!",
   },
@@ -5581,7 +5581,7 @@ export default {
         "වෙනස් කරන්න තේමාව, අයිතමය, අයිතමය අයිතමය පෙරනිමිය මුදල්",
       my_subscriptions: "මගේ දායකත්වයන්",
       my_subscriptions_subtitle:
-        "ප්රවේශ දක්වා අයිතමය AI අයිතමය අයිතමය අයිතමය",
+        "වාරික AI සහ අභිරුචිකරණ විශේෂාංග වෙත ප්‍රවේශය.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "මිල",
     verify: {
       true_title: "අයිතමය කොන්දේසි",
-      true_description: "Selldone අයිතමය කියවීම අයිතමය අයිතමය කොන්දේසි අයිතමය අයිතමය",
+      true_description: "මම Selldone භාවිත නියම කියවා එකඟ වෙමි",
     },
     need_charge: "ගාස්තුවක් අවශ්‍යයි",
     buy_now: "දැන් මිලදී ගන්න",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "අයිතමය අයිතමය පසුම්බිය",
+        title: "Wallet එකක් තෝරන්න",
         subtitle:
           "ඔබගේ දායකත්වය සඳහා භාවිතා කිරීමට අතථ්‍ය මුදල් පසුම්බියක් තෝරන්න. ඔබට තවම එකක් නොමැති නම්, ඔබට එය පසුම්බිය කොටසෙහි නිර්මාණය කළ හැකිය. මෙම මුදල් පසුම්බිය ඕනෑම ගාස්තුවක් සඳහා භාවිතා කරනු ඇත.",
       },
@@ -5822,7 +5822,7 @@ export default {
     },
     by_sku: {
       title: "එක් කරන්න අයිතමය SKU",
-      subtitle: "අයිතමය අයිතමය රට අයිතමය අයිතමය ඇත",
+      subtitle: "ඔබගේ රටෙහි දත්ත සමුදාය නොමැත.",
     },
     drop_shipping: {
       subtitle:
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Selldone Connect OS සමඟින් POD හෝ dropshipping සැපයුම්කරුවන් වෙතින් නිෂ්පාදන පහසුවෙන් එක් කරන්න-ඔබේ වෙළඳසැල සම්බන්ධ කර ස්වයංක්‍රීය නිෂ්පාදන ඒකාබද්ධ කිරීම භුක්ති විඳින්න, ප්ලගීන අවශ්‍ය නොවේ.",
     },
-    your_license_is_not_eligible: "අයිතමය බලපත්රය අයිතමය අයිතමය අයිතමය",
+    your_license_is_not_eligible: "ඔබේ බලපත්‍රය සුදුසුකම් නොලබයි.",
     sku_dialog: {
       title: "එක් කරන්න නිෂ්පාදන අයිතමය SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "මෙම අනුබද්ධ හවුල්කරු වෙත ඔබගේ වසම් වලින් එකක් සම්බන්ධ කරන්න. මෙම වසම හරහා මිලදී ගන්නා අමුත්තන් මෙම අනුබද්ධ ආයතනයට ආරෝපණය කරනු ලැබේ.",
 
-      domain_not_approved_msg: "අයිතමය වසම් අයිතමය අයිතමය !",
+      domain_not_approved_msg: "වසම තවමත් අනුමත කර නැත!",
       domain_is_not_enable_msg: "අයිතමය වසම් අයිතමය අයිතමය සක්‍රීය කර ඇත!",
       domain_is_linked_to_other_affiliate_msg:
         "අයිතමය වසම් අයිතමය අයිතමය සම්බන්ධිත දක්වා අයිතමය අනුබද්ධ!",
     },
 
-    set_users_first_message: "අයිතමය අයිතමය අයිතමය පරිශීලක අයිතමය!",
+    set_users_first_message: "කරුණාකර පළමුව පරිශීලකයා සකසන්න!",
 
     cluster: {
       title: "අයිතමය",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "අලුත් අනුබද්ධ එක් කරන්න අයිතමය",
-      update_success: "අනුබද්ධ අයිතමය අයිතමය",
+      update_success: "අනුබද්ධය සාර්ථකව යාවත්කාලීන කරන ලදී.",
     },
 
     inputs: {
@@ -5945,10 +5945,10 @@ export default {
       commission: {
         label: "කොමිසම අයිතමය",
         false_description:
-          "අයිතමය අයිතමය කොමිස්",
+          "ස්ථාවර සහ ප්‍රතිශත කොමිස් එකතුවක් භාවිතයෙන් ගණනය කරන්න.",
         true_description:
           "මිල පටිත්තෙහි සකසා ඇති නිෂ්පාදන-විශේෂිත කොමිස් භාවිතයෙන් ගණනය කරන්න.",
-        false_title: "අයිතමය + අයිතමය කොමිසම",
+        false_title: "ස්ථාවර + ප්‍රතිශත කොමිසම",
         true_title: "අයිතමය කොමිසම",
       },
       user: {
@@ -5956,7 +5956,7 @@ export default {
         message: "Selldone විකල්ප, අයිතමය, අනුබද්ධ නම අයිතමය අයිතමය",
       },
       web: {
-        placeholder: "විකල්ප, අයිතමය, අයිතමය",
+        placeholder: "විකල්ප, උදා., affiliate-web.com",
       },
       address: {
         placeholder: "විකල්ප, අයිතමය, 1200 POX, NY, USA",
@@ -6051,7 +6051,7 @@ export default {
     },
     inputs: {
       title: {
-        message: "අයිතමය ශීර්ෂය අයිතමය අයිතමය අයිතමය දක්වා පාරිභෝගිකයන්",
+        message: "මෙම මාතෘකාව පාරිභෝගිකයින්ට නොපෙනේ.",
         placeholder: "අයිතමය අයිතමය නම අයිතමය මිල නියම කිරීම, අයිතමය, 'අයිතමය මිල නියම කිරීම",
       },
     },
@@ -6177,7 +6177,7 @@ export default {
           "ඔබට මෙම කොටසෙහි එක් එක් වට්ටම් කේතය සඳහා උපරිම භාවිත සීමාව මෙන්ම උපරිම වට්ටම් මුදලද අර්ථ දැක්විය හැක.",
       },
       duration: {
-        title: "කාල සීමාව සීමාව",
+        title: "කාල සීමාව",
         subtitle:
           "ඔබට නිශ්චිත කාල රාමුවක් සඳහා වට්ටම් කේතයක් සක්‍රිය කිරීමට අවශ්‍ය නම්, ඔබට එම කාලසීමාව මෙහි ස්ථාපිත කළ හැක.",
       },
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "මෙම කොටසේදී, ඔබට කූපනයකට උපරිම භාවිත සංඛ්‍යාව සහ එක් එක් කූපනය සැපයිය හැකි ඉහළම වට්ටම් ප්‍රමාණය යන දෙකම සැකසිය හැක.",
-      zero_message: "අයිතමය: අයිතමය අයිතමය නැත සීමාව!",
+      zero_message: "බිංදුව: සීමාවක් නැත!",
     },
     duration: {
       subtitle:
@@ -6630,7 +6630,7 @@ export default {
     },
     product_input: {
       label: "නිෂ්පාදන අයිතමය",
-      message: "තෝරන්න අයිතමය නිෂ්පාදන අයිතමය අයිතමය (අයිතමය නොමිලේ)",
+      message: "ත්‍යාගය සඳහා නිෂ්පාදනයක් තෝරන්න (නොමිලේ)",
     },
   },
 
@@ -6898,7 +6898,7 @@ export default {
 
   /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
-    wifi_pass: "අයිතමය අයිතමය මුරපදය",
+    wifi_pass: "ඔබගේ Wi-Fi මුරපදය",
     message: "ඔබගේ WiFi රවුටරයේ මුරපදය ඇතුළත් කර QR කේතය පරිලෝකනය කරන්න.",
     wifi_ssid: "අයිතමය SSID",
     ssid_message: "අයිතමය අයිතමය නම (SSID).",
@@ -7044,7 +7044,7 @@ export default {
         "උඩුගත කරන්න විකුණුම්කරු CSV ගොනු අයිතමය අයිතමය දක්වා පෞද්ගලිකත්වය අයිතමය",
       checklist: {
         title: "අයිතමය අයිතමය",
-        subtitle: "අයිතමය අයිතමය දක්වා අයිතමය අයිතමය අයිතමය",
+        subtitle: "මාර්ගෝපදේශ අනුගමනය කිරීමට වග බලා ගන්න.",
         sample_files: "අයිතමය ගොනු",
         valid_vendor_name_needed:
           "ඔබ <b>වලංගු නමක්</b> සැපයිය යුතුය. The <b>name</b> is used to determine whether to <i>Create</i> a new vendor or <i>Update</i> an existing one.",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "අයිතමය විකුණුම්කරුවන් අයිතමය",
+    open_vendors_panel: "විකුණුම්කරුවන්ගේ පැනලය විවෘත කරන්න",
     title: "විකුණුම්කරු අයිතමය ලැයිස්තුව",
     subtitle:
       "මෙය ඔබේ වෙළඳපොලේ වෙළෙන්දන් වීමට ඉල්ලුම් කර ඇති පුද්ගලයින්ගේ ඉල්ලීම් ලැයිස්තුවකි.",
@@ -7102,12 +7102,12 @@ export default {
     },
     need_enable_shipping_for_vendors_tips:
       "එක් එක් ක්‍රමය සඳහා තනි තනිව සාප්පු > ලොජිස්ටික් ටැබය තුළ වෙළෙන්දන් සඳහා නැව්ගත කිරීම සබල කරන්න.",
-    transportation_available_tooltip: "අයිතමය අයිතමය අයිතමය ඇත අයිතමය විකුණුම්කරුවන්",
+    transportation_available_tooltip: "මෙම විකල්පය විකුණුම්කරුවන් සඳහා ලබා ගත හැකිය.",
     transportation_not_available_tooltip:
       "වෙළෙන්දන් සඳහා ලබා ගත නොහැක! ඔබට එය ප්‍රවාහන සැකසුම් තුළ සක්‍රීය කළ හැකිය.",
     panel: {
       title: "විකුණුම්කරු අයිතමය",
-      subtitle: "අයිතමය අයිතමය විකුණුම්කරුවන් අයිතමය අයිතමය අභිරුචි වසම්",
+      subtitle: "ඔබේ අභිරුචි වසම හරහා ඔබේ වෙළෙන්දන් ඇතුල් කරන්න.",
     },
     documents: {
       title: "අයිතමය",
@@ -7133,7 +7133,7 @@ export default {
       need_verify: {
         label: "නිෂ්පාදන අයිතමය ගලනවා",
         false_description: "අලුත් විකුණුම්කරු නිෂ්පාදන අයිතමය සජීවි අයිතමය",
-        false_title: "නැත අයිතමය අයිතමය",
+        false_title: "සත්‍යාපනය අවශ්‍ය නොවේ",
         true_description:
           "විකුණුම්කරුවන් අලුත් නිෂ්පාදන අයිතමය අයිතමය සජීවි අයිතමය අයිතමය වෙළඳපොළ",
         true_title: "අයිතමය අයිතමය",
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "ශීර්ෂය",
-          placeholder: "අයිතමය අයිතමය ශීර්ෂය අයිතමය අයිතමය ",
+          placeholder: "ලේඛන ඉල්ලීම සඳහා මාතෘකාවක් ඇතුළත් කරන්න.",
         },
         guide: {
           label: "මාර්ගෝපදේශය (විකල්ප)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "අයිතමය කේතය",
-          placeholder: "අයිතමය අයිතමය අයිතමය කේතය අයිතමය",
+          placeholder: "කාවැද්දූ කේතය මෙහි අලවන්න...",
           message: "අයිතමය අයිතමය HTML කේතය",
         },
         url: {
           label: "URL",
-          message: "අයිතමය අයිතමය URL අයිතමය අයිතමය ",
+          message: "ලේඛනය හෝ ගිවිසුම සඳහා URL එක මෙහි ඇතුළු කරන්න...",
         },
       },
     },
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "හිමිකරු අයිතමය අයිතමය",
+      title: "හිමිකරු හඳුනාගැනීමේ ලේඛනය",
       description:
         "ව්‍යාපාර හිමිකරුගේ හෝ ප්‍රධාන විධායකයාගේ අනන්‍යතාව සත්‍යාපනය කිරීමට රජයෙන් නිකුත් කළ හැඳුනුම්පතක් උඩුගත කරන්න.",
     },
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "අයිතමය අයිතමය",
       description:
-        "අයිතමය අයිතමය දක්වා අයිතමය අයිතමය ",
+        "ඔබේ බුද්ධිමය දේපළ අයිතිවාසිකම් තහවුරු කිරීමට ප්‍රකාශන හිමිකම් ලියාපදිංචි ලේඛන සපයන්න.",
     },
     Privacy: {
       title: "පෞද්ගලිකත්වය ප්‍රතිපත්තිය අයිතමය",
@@ -7349,7 +7349,7 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "අයිතමය, අයිතමය නිෂ්පාදන අයිතමය",
+        placeholder: "උදා., ඩිජිටල් නිෂ්පාදන පන්තිය...",
       },
       description: {
         placeholder: "ඔබට මෙහි සටහනක් එක් කළ හැක...",
@@ -7433,7 +7433,7 @@ export default {
     quota: "අයිතමය",
     max_batch_msg: "ඔබට එක් කණ්ඩායමක් තුළ ආයාත කළ හැකි උපරිම අයිතම ගණන.",
     max_daily_limit_msg: "ඔබට දිනකට ආනයනය කළ හැකි උපරිම අයිතම ගණන.",
-    extra_daily_limit_msg: "අයිතමය අයිතම අයිතමය අයිතමය සීමාව",
+    extra_daily_limit_msg: "දෛනික සීමාවෙන් ඔබ්බට අවසර දී ඇති අමතර අයිතම.",
     add_items_today_msg: "අයිතම එක් කරන්න අද",
     file_statistic_msg: "සංඛ්යා ලේඛන අයිතමය අයිතමය ගොනුව",
     used_quota: "පාවිච්චි කළා අයිතමය",
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "අයිතමය අයිතමය",
         false_description:
-          "වර්ග අයිතමය නිෂ්පාදන අයිතමය අයිතමය දක්වා පෙන්වන්න අයිතමය අයිතමය",
+          "කාණ්ඩ සහ නිෂ්පාදනවල ක්‍රියාකාරීත්වය පෙන්වීමට අන්තර්ක්‍රියාකාරී සජීවිකරණයක් ඇත.",
         true_title: "ස්ථිතික",
         true_description: "වර්ග අයිතමය නිෂ්පාදන අයිතමය නැත අයිතමය",
       },
@@ -7522,7 +7522,7 @@ export default {
           "නිෂ්පාදන කාඩ්පත් මත අමතර ක්‍රියා වලින් තොරව සරල සහ අවම මාදිලිය.",
         true_description:
           "නිෂ්පාදන කාඩ්පත් සැරිසැරීමේ බොත්තම් සංසන්දනය කිරීමට ඉක්මන් මිලදී ගැනීම සහ එකතු කිරීම පෙන්වන්න.",
-        true_title: "පෙන්වන්න අයිතමය අයිතමය අයිතමය",
+        true_title: "Hover මත ක්‍රියාව පෙන්වන්න",
       },
     },
     filter_products: {
@@ -7568,7 +7568,7 @@ export default {
       variants_selector: {
         title: "ප්රභේද අයිතමය",
         subtitle:
-          "අයිතමය අයිතමය දක්වා අයිතමය ප්රභේද අයිතමය අයිතමය නිෂ්පාදන පිටුව",
+          "නිෂ්පාදන පිටුවේ ප්‍රභේද පෙන්වීමට ඔබට විවිධ ක්‍රම තෝරාගත හැක.",
       },
 
       tabs_order: {
@@ -7613,12 +7613,12 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "ප්‍රධාන වෙබ් අඩවිය අයිතමය",
-      subtitle: "අයිතමය අයිතමය සිට Google අයිතමය",
+      subtitle: "Google Fonts වෙතින් ඔබගේ ප්‍රියතම අකුරු තෝරන්න.",
     },
     inputs: {
       font_family: {
         label: "අයිතමය අයිතමය",
-        message: "අයිතමය අයිතමය අයිතමය වටිනාකම",
+        message: "අකුරු-පවුලේ අගය ඇතුලත් කරන්න.",
       },
       font_res: {
         label: "අයිතමය අයිතමය",
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "ශීර්ෂකය ශීර්ෂය",
-        set_empty: "අයිතමය අයිතමය ශීර්ෂය",
+        set_empty: "හිස් මාතෘකාවක් සකසන්න",
       },
     },
   },
@@ -7662,7 +7662,7 @@ export default {
     smart: {
       title: "අයිතමය මාදිලිය",
       description:
-        "අයිතමය ප්රභේද අයිතමය අයිතමය , අයිතමය අයිතමය ",
+        "තෝරා ගත හැකි වෙනම විකල්පවල සංයුක්ත ප්‍රභේද, බොහෝ අවස්ථාවන් සඳහා සුදුසු වේ.",
     },
     select: {
       title: "තෝරන්න මාදිලිය",
@@ -7687,10 +7687,10 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "අයිතමය අයිතමය ශීර්ෂය අයිතමය අයිතමය අයිතමය",
+        placeholder: "දේපල කට්ටලය සඳහා මාතෘකාවක් ඇතුළු කරන්න...",
       },
       description: {
-        placeholder: "අයිතමය අයිතමය අයිතමය විස්තර (විකල්ප)",
+        placeholder: "කෙටි විස්තරයක් ඇතුළු කරන්න... (විකල්ප)",
       },
       custom_variants: {
         true_title: "අභිරුචි ප්රභේද",
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "අයිතමය අයිතමය අයිතමය (විකල්ප)",
+        placeholder: "අගයන් සකසන්න... (විකල්ප)",
         messages:
           "අයිතමය අයිතමය 🛍️ ඇනවුම් කරන්න",
       },
@@ -7802,7 +7802,7 @@ export default {
     webhook: "වෙබ්හුක්",
     calls: "ඇමතුම්",
     dialog: {
-      title: "{name} අයිතමය අයිතමය",
+      title: "{name} Bot Configuration",
       message:
         "ව්‍යවසාය-ශ්‍රේණියේ සාප්පු සවාරි අත්දැකීම් ගොඩනැගීම සඳහා පුළුල් බොට් රාමුවක්.",
     },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "විකල්ප 3: ක්ෂණික නැව්ගත කිරීම.",
 
     verify_delivery_input: {
-      true_title: "අයිතමය භාරදීම අයිතමය",
+      true_title: "බෙදා හැරීම සම්පූර්ණ කිරීම තහවුරු කරන්න",
       true_description:
         "ඇණවුම පාරිභෝගිකයා වෙත ලබා දී ඇති බව මම තහවුරු කරමි.",
     },
@@ -8023,7 +8023,7 @@ export default {
         holder_name: {
           label: "ගිණුම අයිතමය නම",
           message:
-            "අයිතමය අයිතමය නම අයිතමය අයිතමය ගිණුම",
+            "ගිණුම දරන පුද්ගලයාගේ හෝ ආයතනයේ සම්පූර්ණ නම.",
         },
         account_number: {
           label: "ගිණුම් අංකය",
@@ -8031,7 +8031,7 @@ export default {
             "අයිතමය අයිතමය බැංකුව ගිණුම",
         },
         routing_number: {
-          label: "අයිතමය අයිතමය (USA) අයිතමය අයිතමය කේතය (UK)",
+          label: "මාර්ගගත අංකය (USA) හෝ වර්ග කිරීමේ කේතය (UK)",
           message:
             "විශේෂිත බැංකු ශාඛාව හඳුනා ගන්නා අංකයක් (විවිධ රටවල විවිධ යෙදුම් භාවිතා වේ).",
         },
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "අයිතමය බැංකුව තොරතුරු අයිතමය අයිතමය අයිතමය",
+        message: "ඔබේ බැංකු තොරතුරු සාර්ථකව යාවත්කාලීන කර ඇත.",
       },
     },
   },
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "අයිතමය අයිතමය",
       description:
-        "අයිතමය අයිතමය 2% කොමිසම සිට අයිතමය අයිතමය",
+        "ඔබ සිටින්නේ ලෝකඩ ස්ථරයේය. ඔබ ඔබේ යොමුකරුවන්ගෙන් 2% ක කොමිස් මුදලක් උපයා ඇත.",
     },
     Silver: {
       title: "අයිතමය අයිතමය",
       description:
-        "අයිතමය අයිතමය 4% කොමිසම සිට අයිතමය අයිතමය",
+        "ඔබ සිටින්නේ රිදී ස්ථරයේය. ඔබ ඔබේ යොමුකරුවන්ගෙන් 4% ක කොමිස් මුදලක් උපයා ඇත.",
     },
     Gold: {
       title: "අයිතමය අයිතමය",
       description:
-        "අයිතමය අයිතමය 6% කොමිසම සිට අයිතමය අයිතමය",
+        "ඔබ සිටින්නේ රන් ස්ථරයේය. ඔබ ඔබේ යොමුකරුවන්ගෙන් 6% ක කොමිස් මුදලක් උපයා ඇත.",
     },
     Platinum: {
       title: "අයිතමය අයිතමය",
       description:
-        "අයිතමය අයිතමය 8% කොමිසම සිට අයිතමය අයිතමය",
+        "ඔබ සිටින්නේ ප්ලැටිනම් ස්ථරයේය. ඔබ ඔබේ යොමුකරුවන්ගෙන් 8% කොමිස් මුදලක් උපයා ඇත.",
     },
     Diamond: {
       title: "අයිතමය අයිතමය",
       description:
-        "අයිතමය අයිතමය 10% කොමිසම සිට අයිතමය අයිතමය",
+        "ඔබ සිටින්නේ දියමන්ති ස්ථරයේය. ඔබ ඔබේ යොමුකරුවන්ගෙන් 10% ක කොමිස් මුදලක් උපයා ඇත.",
     },
   },
 
@@ -8119,7 +8119,7 @@ export default {
     new_users: "නව පරිශීලකයන්",
     performance: "කාර්ය සාධනය",
     credit_mode: "ණය මාදිලිය",
-    get_stickers: "අයිතමය අයිතමය අයිතමය කේතය දක්වා අයිතමය & අයිතමය",
+    get_stickers: "පිටපත් කිරීමට සහ ඇලවීමට ස්ටිකර Html කේතය ලබා ගන්න",
     click_copy_sticker_code: "html කේතය පිටපත් කිරීමට ලාංඡනය මත ක්ලික් කරන්න.",
   },
   /** {@see OReferralTransactions} **/
@@ -8528,20 +8528,20 @@ export default {
       valid_message: "අයිතමය අයිතමය නිර්මාණය කරන්න අභිරුචි SMS පණිවිඩය",
       provider_not_enable_message: "අයිතමය SMS අයිතමය අයිතමය අයිතමය සක්‍රීය කර ඇත!",
       need_custom_provider_message:
-        "අයිතමය SMS පණිවිඩය අයිතමය අයිතමය අභිරුචි අයිතමය",
+        "අභිරුචි කළ SMS පණිවිඩ ක්‍රියා කරන්නේ ඔබ අභිරුචි සැපයුම්කරුවෙකු සකසන්නේ නම් පමණි.",
       add_new: "එක් කරන්න අලුත්",
       disable_reason: {
         set_provider: "අයිතමය අයිතමය !",
-        provider_is_disabled: "අයිතමය අයිතමය අයිතමය!",
-        otp: "OTP - අයිතමය අයිතමය!",
-        select_another_provider: "තෝරන්න අයිතමය අයිතමය",
+        provider_is_disabled: "සපයන්නා අබලයි!",
+        otp: "OTP - කිසිවක් අභිරුචිකරණය කළ නොහැක!",
+        select_another_provider: "වෙනත් සැපයුම්කරුවෙකු තෝරන්න.",
       },
       enable_only_filter: "පෙන්වන්න අයිතමය සක්‍රීය කර ඇත",
 
       text_template_not_supported_msg:
-        "අයිතමය අයිතමය සහාය අයිතමය අයිතමය පණිවිඩය",
+        "ඔබේ සැපයුම්කරු සරල කෙටි පණිවිඩ සඳහා සහය නොදක්වයි.",
       structure_template_not_supported_msg:
-        "අයිතමය අයිතමය සහාය අයිතමය පණිවිඩය",
+        "ඔබේ සැපයුම්කරු ව්‍යුහාත්මක පණිවිඩ සඳහා සහය නොදක්වයි.",
 
       structured_data: "අයිතමය දත්ත",
 
@@ -8569,7 +8569,7 @@ export default {
         reset_to_default: "අයිතමය දක්වා පෙරනිමිය",
 
         auto_fill: {
-          title: "ස්වයංක්‍රීය අයිතමය අයිතමය",
+          title: "ස්වයංක්‍රීය පිරවුම් පරාමිතීන්",
           subtitle:
             "Selldone අයිතමය අයිතමය වටිනාකම",
         },
@@ -8585,7 +8585,7 @@ export default {
         add_new_parameter: "එක් කරන්න අලුත් අයිතමය",
 
         auto_fill: {
-          title: "ස්වයංක්‍රීය අයිතමය අයිතමය",
+          title: "ස්වයංක්‍රීය පිරවුම් පරාමිතීන්",
           subtitle:
             "ඔබට මෙම සෑම පරාමිතියක්ම අගයක් ලෙස සැකසිය හැකි අතර Selldone ඒවා අනුරූප අගය සමඟ ප්‍රතිස්ථාපනය කරයි. සරල බව සඳහා ඔබේ SMS සපයන්නාගේ පෙරනිමි අගයන් සැකිලි ලෙස අර්ථ දැක්වීම වඩා හොඳය. මෙම අවස්ථාවේදී, මෙහි පරාමිති අගයන් අර්ථ දැක්වීමට අවශ්ය නොවේ.",
         },
@@ -8594,7 +8594,7 @@ export default {
         },
         sample: {
           title: "අයිතමය සැකිල්ල පණිවුඩය",
-          subtitle: "අයිතමය අයිතමය සැකිල්ල දක්වා අයිතමය SMS අයිතමය",
+          subtitle: "ඔබට මෙම අච්චුව ඔබගේ SMS සපයන්නා වෙත පිටපත් කර ඇලවිය හැක.",
         },
         add_message_action: "එක් කරන්න පණිවුඩය සැකිල්ල",
       },
@@ -8679,7 +8679,7 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "අභිරුචි අයිතමය අයිතමය",
+    title: "අභිරුචි තැපැල් සේවාදායකය",
     subtitle:
       "ඔබගේ අභිරුචි වසම හරහා ඊමේල් යැවීමට ඔබගේ තැපැල් සේවා සපයන්නා සම්බන්ධ කරන්න.",
     provider: "අයිතමය",
@@ -8946,7 +8946,7 @@ export default {
     notifications: {
       delete_success: "ගොනුව සාර්ථකව මකා ඇත.",
     },
-    drag_sort_msg: "අයිතමය අයිතමය ගොනු",
+    drag_sort_msg: "ඔබට ගොනු ඇදගෙන වර්ග කළ හැක.",
     paid_mode_msg: "පරිශීලකයන් අයිතමය බාගන්න අයිතමය අයිතමය නිෂ්පාදන",
     free_mode_msg:
       "පරිශීලකයින්ට එය නොමිලේ බාගත හැකිය. නියැදි ගොනු 50 MB ට අඩු විය යුතුය.",
@@ -8973,14 +8973,14 @@ export default {
     },
     export: {
       title: "සුරකින්න පැතිකඩ",
-      subtitle: "ගබඩා ස්ථාන අයිතමය අයිතමය අයිතමය",
+      subtitle: "අනාගත භාවිතය සඳහා ගබඩා ස්ථාන.",
     },
     has_restriction_input: {
       title: "අයිතමය ස්ථානය සීමාව",
       description:
         "ස්ථාපිත ස්ථාන සීමා කිරීම හේතුවෙන් පාරිභෝගිකයින්ට මෙම නිෂ්පාදනය මිලදී ගත හැක්කේ නිශ්චිත රට තුළ සහ zip කේතය තුළ පමණි.",
     },
-    zip_pin_code: "අයිතමය / අයිතමය කේතය",
+    zip_pin_code: "සිප් / පින් කේත",
     no_country_selected_error:
       "කරුණාකර zip/pin කේත ලැයිස්තුවක් සමඟ අවම වශයෙන් එක් රටක් ඇතුළත් කරන්න. එය නොමැතිව, මෙම නිෂ්පාදනය ලබා ගත නොහැක.",
     tips: "නව ස්ථාන කට්ටලයක් සෑදීම ආරම්භ කිරීමට <b>+ Add Country</b> බොත්තම ක්ලික් කරන්න. ඔබ අවසන් වූ පසු, ඉහළ දකුණේ <b>⋮ මෙනුව</b> මත ක්ලික් කර <b>පැතිකඩ සුරකින්න</b> තේරීමෙන් ඔබට එය සුරැකිය හැක.",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "ඔබගේ ඇණවුම් අතපසු නොකරන්න!",
     msg: "ඕනෑම තැනක සහ ඕනෑම වේලාවක ඔබේ ව්‍යාපාරය කළමනාකරණය කරන්න.",
-    scan_qr_code: "අයිතමය අයිතමය දුරකථනය!",
+    scan_qr_code: "ඔබගේ දුරකථනයෙන් මාව පරිලෝකනය කරන්න!",
 
     notification: {
       title: "දැනුම්දීම",
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "අයිතමය අයිතමය අයිතමය",
+    title: "අන්තර්ගත නිකුත් කිරීමේ කාලසටහන",
     subtitle:
       "අනාගත ප්‍රකාශනය සඳහා සකසා ඇති කාලසටහන්ගත ලිපි ලැයිස්තුව මෙන්න. ඔබට නිශ්චිත කාලවලදී ප්‍රකාශනය කිරීමට බ්ලොග් සටහන් සහ නිෂ්පාදන විස්තර පවා උපලේඛනගත කිරීමට හැකියාව ඇත.",
   },
@@ -9493,10 +9493,10 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "යවන්න අයිතමය අයිතමය",
+    title: "සෘජු ඉල්ලීමක් යවන්න",
     message:
       "Selldone හි දියුණු වීමට සහ ලාභ ලැබීමට ඔබේ ඉහළම 3 ව්‍යාපාරය හඳුනා ගන්න. මෙම තොරතුරු සෘජුවම ආරම්භකයින් සහ අධ්‍යක්ෂවරුන් සමඟ බෙදාගනු ලබන අතර ප්‍රවේශමෙන් සලකා බලනු ඇත. ඉදිරිපත් කිරීමෙන් පසු කාලයත් සමඟ ඔබට ඔබේ අවශ්‍යතා යාවත්කාලීන කළ හැකිය.",
-    expand_action: "ලිවීම අයිතමය අයිතමය",
+    expand_action: "ඉල්ලීම ලියන්න...",
     input_label: "අයිතමය අයිතමය",
     to: {
       ceo: "යවන්න දක්වා CEO",
@@ -9546,11 +9546,11 @@ export default {
       title: "ගබඩා",
       subtitle: "අයිතමය සේවාව වාර්තාව",
       action: "අයිතමය අයිතමය",
-      last_update: "අයිතමය අයිතමය අයිතමය",
+      last_update: "අවසන් වරට යාවත්කාලීන කළේ",
     },
     service_status: {
       title: "සේවාව තත්ත්වය",
-      syncing_message: "අයිතමය අයිතමය අයිතමය",
+      syncing_message: "සමමුහුර්ත කිරීමේ ක්‍රියාවලියේදී...",
       action: "අයිතමය සෑම",
       connect_status: "Connect තත්ත්වය",
       service_status: "සේවාව තත්ත්වය",
@@ -9558,14 +9558,14 @@ export default {
       auto_confirm_disable_msg:
         "ස්වයංක්‍රීය අයිතමය අයිතමය නියෝග අයිතමය අයිතමය සක්‍රීය කර ඇත",
       shipping_enable_msg:
-        "අයිතමය නාවික අයිතමය අයිතමය තොරතුරු අයිතමය අයිතමය පරීක්ෂාකාරී වන්න",
+        "පිටවීමේදී සපයන ලද තොරතුරු මත පදනම්ව නැව්ගත කිරීමේ පිරිවැය ගණනය කෙරේ.",
     },
     detail: {
       title: "Connect අයිතමය",
       auto_confirm_order: "ස්වයංක්‍රීය අයිතමය නියෝග",
       test_mode: "අයිතමය මාදිලිය",
       status: {
-        subtitle: "අයිතමය තොරතුරු අයිතමය අයිතමය තත්ත්වය",
+        subtitle: "සමමුහුර්ත තත්ත්වය පිළිබඳ සමස්ත තොරතුරු.",
       },
       sync: {
         title: "අයිතමය අයිතමය",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "{name} වෙතින් එකතු කළ නිෂ්පාදන ලැයිස්තුව. ඔබේ නිෂ්පාදනයට අද්විතීය නමක් සහ SKU ඇති බවට වග බලා ගන්න. සමහර Connect සේවාවන් සංක්‍රමණය සඳහා භාවිතා වේ, එබැවින් ඔබ සතුව අනුපිටපත් <b>SKUs</b> සහ <b>Names</b> සහිත නිෂ්පාදන තිබේ නම්, එම නිෂ්පාදන වෙනස් වනු ඇත!",
       action: "අයිතමය නිෂ්පාදන",
-      syncing_message: "අයිතමය අයිතමය අයිතමය",
+      syncing_message: "සමමුහුර්ත කිරීමේ ක්‍රියාවලියේදී...",
     },
 
     logs: {
@@ -9600,12 +9600,12 @@ export default {
       test: {
         false_title: "අයිතමය සෑම",
         false_desc: "අයිතමය සෑම ඇත නිෂ්පාදන, වර්ග, පාරිභෝගිකයන්",
-        true_title: "අයිතමය (අයිතමය අයිතමය අයිතමය)",
+        true_title: "සීමිත (ආරම්භකයින් සඳහා නිර්දේශිත)",
         true_desc:
           "උපරිම නිෂ්පාදන, කාණ්ඩ සහ පාරිභෝගිකයින් 5ක් ලබා ගන්න. ඔබට එය ඕනෑම වේලාවක Connect > Setting තුළ සම්පූර්ණ ප්‍රකාරයට හැරවිය හැක.",
       },
       overwrite: {
-        false_title: "අයිතමය අයිතමය වෙනස් කරන්න අයිතමය අයිතමය",
+        false_title: "පවතී නම් වෙනස් නොකරන්න",
         false_desc: "පවතින නිෂ්පාදන සහ ප්‍රවර්ග විස්තර එලෙසම තබා ගන්න.",
         true_title: "අයිතමය",
         true_desc:
@@ -9622,7 +9622,7 @@ export default {
       },
       enable: {
         label: "Connect තත්ත්වය",
-        true_desc: "ඉන්වෙන්ටරි අයිතමය නියෝග අයිතමය අයිතමය අයිතමය",
+        true_desc: "ඉන්වෙන්ටරි සහ ඇණවුම් සමමුහුර්ත වනු ඇත.",
       },
       confirm: {
         label: "ස්වයංක්‍රීය අයිතමය නියෝග",
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "ස්වයංක්‍රීය අයිතමය",
       shipping: "නාවික",
       syncing_now: "අයිතමය අයිතමය!",
-      sync_not_started: "අයිතමය අයිතමය අයිතමය ආරම්භය අයිතමය!",
+      sync_not_started: "සමමුහුර්ත කිරීම තවම ආරම්භ වී නැත!",
     },
   },
 
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "අයිතමය",
-    subtitle: "අයිතමය අයිතමය අයිතමය ලැයිස්තුව අයිතමය අයිතමය ",
+    subtitle: "මෙය ප්‍රජාවගේ පළ කිරීම් ලැයිස්තුවකි.",
     filter: {
       deleted: {
         title: "මකා දමන ලදී",
@@ -9758,7 +9758,7 @@ export default {
         description: "පෙන්වන්න වාර්තාව අයිතමය",
       },
     },
-    empty_msg: "නැත අයිතමය අයිතමය ",
+    empty_msg: "මෙතෙක් තනතුරු නිර්මාණය කර නොමැත...",
     menu: {
       open_post: {
         title: "අයිතමය අයිතමය",
@@ -9799,7 +9799,7 @@ export default {
       subtitle: "Google සෙවුම් කොන්සෝල සත්‍යාපනය සඳහා ඔබේ මුල් පිටුවට මෙටා ටැගයක් එක් කරන්න.",
       code: {
         label: "අයිතමය අයිතමය ටැග් කරන්න",
-        placeholder: "සිට අයිතමය, අයිතමය අයිතමය",
+        placeholder: "ගූගල් වෙතින්, උදා. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9904,7 +9904,7 @@ export default {
       zero_message: "අයිතමය 0 අයිතමය අසීමිත මුදල් ආපසු",
     },
     duration: {
-      title: "කාල සීමාව සීමාව",
+      title: "කාල සීමාව",
       subtitle: "අයිතමය කාල සීමාව අයිතමය මුදල් ආපසු අයිතමය අයිතමය විකල්ප",
     },
     start_input: {
@@ -9926,7 +9926,7 @@ export default {
       title: "විස්තර",
     },
     constraints: {
-      subtitle: "අයිතමය අයිතමය මුදල් ආපසු අයිතමය",
+      subtitle: "මුදල් ආපසු ගෙවීමේ වැඩසටහන සඳහා සීමාවන් සකසන්න.",
     },
     min_purchase_input: {
       hint: "මුදල් ආපසු ගෙවීමේ වැඩසටහන සඳහා අවම මිලදී ගැනීමේ මුදල ඇතුළත් කරන්න.",
@@ -9955,7 +9955,7 @@ export default {
     },
     notifications: {
       add: "මුදල් ආපසු අයිතමය එක් කරන්න අයිතමය",
-      edit: "මුදල් ආපසු අයිතමය අයිතමය අයිතමය",
+      edit: "Cashback වැඩසටහන සාර්ථකව යාවත්කාලීන කරන ලදී.",
     },
     enable_input: {
       true_msg: "මුදල් ආපසු ගැනීමේ වැඩසටහන සක්‍රීය වන අතර පාරිභෝගිකයින්ට එය භාවිතා කළ හැකිය.",
@@ -9982,8 +9982,8 @@ export default {
         subtitle: "අයිතමය අයිතමය අයිතමය මුදල් ආපසු ගෙවීම සහාය",
       },
       delivery: {
-        title: "අයිතමය අයිතමය භාරදීම",
-        subtitle: "අයිතමය අයිතමය භාරදීම අයිතමය ගෙවීම අයිතමය",
+        title: "භාරදීම තහවුරු කරන්න",
+        subtitle: "ඔබට ගෙවීම් සපයන්නා සඳහා බෙදා හැරීම හස්තීයව තහවුරු කළ හැක.",
       },
     },
   },
@@ -10036,12 +10036,12 @@ export default {
       target: {
         title: "අයිතමය නිෂ්පාදන",
         subtitle:
-          "අයිතමය අයිතමය නිෂ්පාදන අයිතමය මෙන් දක්වා අයිතමය අයිතමය නිෂ්පාදන",
+          "ඔබ මෙම නිෂ්පාදනය සමඟ හරස් විකුණුම් විකල්ප ලෙස ප්‍රවර්ධනය කිරීමට කැමති නිෂ්පාදන තෝරන්න.",
         select_products: "තෝරන්න නිෂ්පාදන(අයිතමය)",
       },
       list: {
         title: "අයිතමය නිෂ්පාදන",
-        subtitle: "අයිතමය නිෂ්පාදන අයිතමය අයිතමය ",
+        subtitle: "මෙම නිෂ්පාදනය හරස් විකුණුම් ප්‍රවර්ධනය සඳහා තෝරාගෙන ඇත.",
         manage_product: "කළමනාකරණය කරන්න නිෂ්පාදන",
       },
       discount: {
@@ -10058,9 +10058,9 @@ export default {
           "හරස් විකුණුම් දායකත්ව නිෂ්පාදන සඳහා වට්ටම් සැකසීම කළ නොහැක, මන්ද මිල සැලසුම් ගතිකව සකස් කළ නොහැක.",
         message_input: {
           message:
-            "අයිතමය අයිතමය ශීර්ෂය දක්වා අයිතමය පාරිභෝගිකයන් අයිතමය",
+            "ගනුදෙනුකරුවන්ගේ අවධානය ආකර්ෂණය කර ගැනීම සඳහා බලගතු සහ සිත් ඇදගන්නා මාතෘකාවක් සාදන්න.",
           placeholder:
-            "අයිතමය & සුරකින්න: අයිතමය අයිතමය !",
+            "මිටි සහ සුරකින්න: අපගේ තෝරා ගත් තේරීම සමඟ ඔබේ පෙනුම සම්පූර්ණ කරන්න!",
         },
       },
       action: {
@@ -10084,7 +10084,7 @@ export default {
       title: "අයිතමය අයිතමය",
       subtitle: "අයිතමය අයිතමය ",
       prevent_duplicates_tips:
-        "<b>සටහන:</b> අයිතමය අයිතමය ප්රභේද දක්වා අයිතමය අයිතමය",
+        "<b>සටහන:</b> අනුපිටපත් වැළැක්වීම සඳහා පවතින ප්‍රභේද සඳහා අපි ස්වයංක්‍රීයව පරීක්ෂා කරන්නෙමු.",
     },
     inventory: {
       title: "අයිතමය ඉන්වෙන්ටරි",
@@ -10132,8 +10132,8 @@ export default {
      */
     health: {
       title: "නිෂ්පාදන අයිතමය",
-      available_in_stock_msg: "නිෂ්පාදන අයිතමය ඇත අයිතමය අයිතමය",
-      out_of_stock_msg: "නිෂ්පාදන අයිතමය අයිතමය ",
+      available_in_stock_msg: "නිෂ්පාදන තොගයේ ඇත.",
+      out_of_stock_msg: "නිෂ්පාදන තොග අවසන්.",
       file_count_msg:
         "{files_count} ගොනු අයිතමය සමස්ත {files_size} උඩුගත කරන්න අයිතමය අයිතමය නිෂ්පාදන",
       no_file_uploaded_msg: "නැත ගොනුව අයිතමය අයිතමය උඩුගත කරන්න අයිතමය",
@@ -10165,9 +10165,9 @@ export default {
      */
     pricing: {
       title: "මිල නියම කිරීම",
-      no_product_price_msg: "අයිතමය පෙරනිමිය නිෂ්පාදන මිල අයිතමය අයිතමය අයිතමය!",
+      no_product_price_msg: "පෙරනිමි නිෂ්පාදන මිල තවම සකසා නැත!",
       listing_pricing_msg: "ලැයිස්තුගත කිරීම මිල නියම කිරීම:",
-      has_valuation_msg: "නිෂ්පාදන අයිතමය අයිතමය",
+      has_valuation_msg: "නිෂ්පාදනයට තක්සේරුවක් ඇත.",
       subscription_pricing_msg:
         "අයිතමය නිෂ්පාදන අයිතමය {count} දායකත්වය මිල නියම කිරීම සැලසුම්",
       has_no_subscription_pricing_msg:
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "අයිතමය අයිතමය",
       },
       available_countries_msg:
-        "අයිතමය අයිතමය අයිතමය දක්වා {count} අයිතමය අයිතමය {countries}.",
+        "ගෝලීය වශයෙන් සාප්පු සවාරි {count} රටවලට සීමා කර ඇත. මෙම රටවල් {countries} වේ.",
       disable_for_all_countries_msg:
         "ඔබගේ වෙළඳසැල > ස්ථාන සැකසීම තුළ සියලුම රටවල් සඳහා සාප්පු සවාරි අබල කර ඇත.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10229,7 +10229,7 @@ export default {
         is_disabled: "අයිතමය බද්ද පැතිකඩ අයිතමය අක්‍රීය කර ඇත!",
         tax_is_based_on_location: "බද්ද: ස්ථානය අයිතමය",
         shipping_tax_is_based_on_location: "නාවික: ස්ථානය අයිතමය",
-        included_in_price: "අයිතමය අයිතමය මිල",
+        included_in_price: "මිලෙහි ඇතුළත් වේ.",
       },
     },
 
@@ -10238,7 +10238,7 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "අයිතමය නිෂ්පාදන අයිතමය දක්වා <b>{vendor}</b>.",
-      has_vendors_msg: "අයිතමය අයිතමය {count} විකුණුම්කරුවන් අයිතමය අයිතමය නිෂ්පාදන",
+      has_vendors_msg: "මෙම නිෂ්පාදනය සඳහා {count} වෙළෙන්දන් ඇත.",
       no_vendor_msg:
         "ඔබ මෙම නිෂ්පාදනයට වෙළෙන්දෙකු පවරා නැත, එබැවින් පාරිභෝගිකයින්ට එය මිලදී ගැනීමට නොහැක.",
       add_vendors: "එක් කරන්න විකුණුම්කරුවන්",
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "ප්රවේශ අයිතමය",
-        placeholder: "තෝරන්න අයිතමය අයිතමය",
+        placeholder: "මට්ටමක් තෝරන්න...",
       },
     },
 
@@ -10318,7 +10318,7 @@ export default {
       },
       update_success: {
         title: "ප්රවේශ අයිතමය",
-        message: "අවසර අයිතමය අයිතමය ",
+        message: "අවසර සාර්ථකව යාවත්කාලීන කර ඇත.",
       },
     },
   },
@@ -10335,13 +10335,13 @@ export default {
     inputs: {
       categories: {
         label: "වර්ග",
-        messages: "නිෂ්පාදන අයිතමය අයිතමය වර්ග අයිතමය අයිතමය අයිතමය",
+        messages: "මෙම කාණ්ඩවල නිෂ්පාදන පෙන්වනු ඇත.",
         placeholder: "තෝරන්න වර්ග",
       },
       tags: {
         label: "නිෂ්පාදන ටැග්",
-        messages: "නිෂ්පාදන අයිතමය අයිතමය ටැග් අයිතමය අයිතමය පෙන්වන්න",
-        placeholder: "අයිතමය ටැග් අයිතමය අයිතමය උදා අලුත් අයිතමය",
+        messages: "මෙම ටැග් සහිත නිෂ්පාදන පෙන්වනු ඇත.",
+        placeholder: "මෙහි ටැග් වයර් කර enter ඔබන්න. උදා. නව එකතුව",
       },
     },
     actions: {
@@ -10381,7 +10381,7 @@ export default {
       title: "තෝරන්න ආදානය ටයිප් කරන්න",
       html: {
         title: "අයිතමය & අයිතමය",
-        subtitle: "අයිතමය අයිතම වටිනාකම අයිතමය අයිතමය අයිතමය",
+        subtitle: "අයිතමයේ අගය පෙළ හෝ HTML ලෙස නම් කළ හැක.",
       },
       image: {
         title: "රූප",
@@ -10389,17 +10389,17 @@ export default {
       },
     },
     help_dialog: {
-      title: "අයිතමය දක්වා අයිතමය අයිතමය අයිතමය",
+      title: "ගතික අන්තර්ගතය භාවිතා කරන්නේ කෙසේද",
       how_it_works_tips:
         "ගොඩබෑමේ පිටු තුළ, ඔබට පෙළ සහ රූප යන දෙකටම ගතික ස්ථාන දරන්නන් නම් කිරීමට නම්‍යශීලී බවක් ඇත. සන්දර්භය අනුව අන්තර්ගතය අභිරුචිකරණය කිරීමේදී මෙම ස්ථාන දරන්නන් සැලකිය යුතු කාර්යභාරයක් ඉටු කරයි.   මෙම ස්ථාන දරන්නන්ගේ ගතික ස්වභාවය විවිධ සාධක මත පදනම්ව වෙනස් විය හැකි වර්ධක අගයන් මගින් ඒවා ජනනය කිරීමට ඉඩ සලසයි. උදාහරණයක් ලෙස, එක් එක් නිෂ්පාදනය හෝ කාණ්ඩය සඳහා වර්ධන අගයන් වෙනස් විය හැකිය. ඔබට විවිධ ගුණාංග සහිත විවිධ අයිතම ඇති විට මෙම විශේෂාංගයේ සැබෑ වාසිය ක්‍රියාත්මක වේ. එක් එක් අයිතමයේ සංදර්ශකය පුද්ගලීකරණය කිරීමට සහ වැඩි දියුණු කිරීමට ඔබට මෙම ගතික ස්ථාන දරන්නන් ඵලදායී ලෙස භාවිතා කළ හැක, එමඟින් ඔබේ ගොඩබෑමේ පිටු මත අද්විතීය සහ අන්තර්ක්‍රියාකාරී අත්දැකීමක් නිර්මාණය කළ හැකිය.",
       assign_tips:
-        "දක්වා අයිතමය අයිතමය අයිතමය දක්වා රූප, අයිතමය අයිතමය ",
+        "රූප සඳහා ගතික අගයන් පැවරීමට, කොටසේ වම් පැත්තේ ඇති පෝෂක බොත්තම ක්ලික් කරන්න.",
       set_dynamic_image_tips:
         "ඔබට දැන් රූප URL එක වෙනස් කර ගතික අගයක් පැවරීමේ හැකියාව ඇත.",
       enter_values_tips:
         "සෑම නිෂ්පාදනයක් සඳහාම, ඔබට කැප වූ යතුරු-අගය යුගල පැවරීමේ හැකියාව ඇත.",
       result_tips:
-        "අයිතමය අයිතමය පිටුව, අයිතමය අයිතමය ",
+        "මෙය පිටුවේ අවසාන ප්‍රතිඵලය වන අතර, තැන් දරණ වැඩි කළ අගයන් සමඟ ආදේශ කර ඇත.",
     },
   },
 
@@ -10417,9 +10417,9 @@ export default {
     content: {
       title: "අයිතමය",
       subtitle:
-        "අයිතමය අයිතමය ලොජිස්ටික්ස් පැතිකඩ අයිතමය අයිතමය අයිතමය",
+        "ඔබට විවිධ භාෂාවලින් ලොජිස්ටික්ස් පැතිකඩ සඳහා අන්තර්ගතය අභිරුචිකරණය කළ හැකිය.",
 
-      language_input: "අයිතමය ලිපිය අයිතමය",
+      language_input: "වත්මන් ලිපි භාෂාව",
       delete_article: "මකන්න ලිපිය",
       menu_tooltip: "ස්වයංක්‍රීය අයිතමය / මකන්න ලිපිය",
     },
@@ -10429,7 +10429,7 @@ export default {
         message: "ලිපිය අයිතමය සම්පූර්ණ කළා අයිතමය",
       },
       save_article: {
-        message: "ලිපිය අයිතමය අයිතමය ",
+        message: "ලිපිය සාර්ථකව සුරැකී ඇත.",
       },
       delete_article: {
         message: "ලිපිය අයිතමය අයිතමය මකා දමන ලදී අයිතමය",
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "නිෂ්පාදන",
-    subtitle: "ලැයිස්තුව අයිතමය නිෂ්පාදන අයිතමය අයිතමය අයිතමය පැතිකඩ",
+    subtitle: "මෙම පැතිකඩ හා සම්බන්ධ නිෂ්පාදන ලැයිස්තුව.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10493,7 +10493,7 @@ export default {
         name: {
           message:
             "අයිතමය නම පෙන්වන්න දක්වා අයිතමය අයිතමය දක්වා අයිතමය මහජන",
-          placeholder: "අයිතමය අයිතමය නම අයිතමය අයිතමය පැතිකඩ",
+          placeholder: "පැතිකඩ සඳහා නමක් ඇතුළත් කරන්න...",
         },
       },
     },
@@ -10514,7 +10514,7 @@ export default {
       },
     },
     delete_dialog: {
-      title: "මකන්න අයිතමය අයිතමය",
+      title: "ඇතුළත් අයිතම මකන්න",
       message:
         "ඔබට මෙම අයිතමය ස්ථිරවම මැකීමට අවශ්‍ය බව විශ්වාසද? එය සියලු ආශ්‍රිත නිෂ්පාදන වලින් ද ඉවත් කරන බව කරුණාවෙන් සලකන්න!",
       action: "ඔව්, දැන් මකන්න",
@@ -10543,7 +10543,7 @@ export default {
         hint: "අයිතම ස්ථානගත කිරීම සඳහා සෙවුම් ක්‍රියාවලිය විධිමත් කිරීමට මෙම කේතය භාවිතා කරන්න.",
       },
       description: {
-        placeholder: "අයිතමය අයිතමය විස්තර අයිතමය අයිතමය අයිතමය",
+        placeholder: "මෙම අයිතමය පිළිබඳ කෙටි විස්තරයක්...",
         hint: "විස්තරය SEO සඳහා භාවිතා කරනු ඇති අතර නිෂ්පාදන පිටුවේ සමහර අභිරුචි පිරිසැලසුම්වල පරිශීලකයින්ට දෘශ්‍යමාන විය හැකිය.",
       },
       image: {
@@ -10559,7 +10559,7 @@ export default {
       },
       external_link: {
         title: "බාහිර සබැඳිය",
-        description: "අයිතමය අයිතමය සබැඳිය දක්වා අයිතමය අයිතමය අයිතමය",
+        description: "බාහිර url එකකට සබැඳියක් සකසන්න.",
         tips: "ඔබට අයිතමයට ඕනෑම URL එකක් ඇමිණිය හැක. පරිශීලකයින් නිෂ්පාදන පිටුවේ ඇති අයිතමය මත ක්ලික් කළ විට, ඔවුන් එම සබැඳිය වෙත හරවා යවනු ලැබේ.",
       },
       internal_link: {
@@ -10571,7 +10571,7 @@ export default {
     },
     notifications: {
       add: {
-        message: "අයිතමය අයිතමය එක් කරන්න අයිතමය",
+        message: "ඇතුළත් අයිතමය සාර්ථකව එකතු කර ඇත.",
       },
       edit: {
         message: "අයිතමය අයිතමය ",
@@ -10601,13 +10601,13 @@ export default {
     title: "පසුම්බි",
     subtitle:
       "ඔබ උපයා ඇති කොමිස් ගාස්තු මෙහි ඔබට දැක ගත හැකිය. ඔබට ඔබේ කොමිස් ගාස්තු ඔබේ බැංකු ගිණුමට හෝ ඔබේ Selldone මුදල් පසුම්බියට මාරු කළ හැකිය.",
-    no_commission_yet: "අයිතමය අයිතමය අයිතමය ලැබුනා අයිතමය කොමිසම අයිතමය",
+    no_commission_yet: "ඔබට තවම කිසිදු කොමිස් මුදලක් ලැබී නැත.",
     no_wallet: "නැත පසුම්බිය!",
 
     withdraw_dialog: {
-      title: "අයිතමය කොමිසම අයිතමය",
+      title: "කොමිස් ගාස්තු ආපසු ගන්න",
 
-      need_bank_info_message: "අයිතමය අයිතමය අයිතමය බැංකුව තොරතුරු අයිතමය",
+      need_bank_info_message: "කරුණාකර පළමුව ඔබේ බැංකු තොරතුරු ඇතුළත් කරන්න.",
 
       to_wallet: {
         title: "දක්වා පසුම්බිය",
@@ -10648,12 +10648,12 @@ export default {
       message: "ඔබට ඕනෑම අලෙවි කළ url එකකට <b>?ref={code}</b> එක් කළ හැක.",
     },
     intro: {
-      title: "Selldone අයිතමය අයිතමය අයිතමය අනුබද්ධ අයිතමය",
+      title: "Selldone අනුබද්ධ වැඩසටහනට සම්බන්ධ වන්න",
       message:
         "Selldone අනුබද්ධ වැඩසටහන සරල සහ සරල ය, ඔබට වෙහෙසකින් තොරව උපයා ගැනීම සඳහා නිර්මාණය කර ඇත. Selldone වෙත නව පරිශීලකයින්ට ආරාධනා කිරීමට ඔබේ අද්විතීය අනුබද්ධ සබැඳිය බෙදා ගන්න, ඔවුන් කරන සෑම ගනුදෙනුවකින්ම ඔබට කොමිස් මුදලක් ලැබෙනු ඇත—සදහටම. මෙයට දායකත්ව, සේවා ගාස්තු, සාප්පු වැඩිදියුණු කිරීම් සහ අනෙකුත් සියලුම ආදායම් ප්‍රවාහවලින් ඉපැයීම් ඇතුළත් වේ. කාලය හෝ ඉපැයීම් මත කිසිදු සීමාවකින් තොරව ආදායමෙන් කොටසක් ඉපැයීම ආරම්භ කරන්න. අප හා එක් වී ඔබේ ජාලය ස්ථාවර ආදායමක් බවට පත් කරන්න!",
       why_join_selldone_affiliate: "අයිතමය අයිතමය ?",
       reasons: [
-        "අයිතමය අයිතමය අයිතමය!",
+        "එය සදහටම පවතී!",
         "සියලුම දායකත්ව සහ ගනුදෙනු ගාස්තු ආවරණය කරයි. Selldone හි පරිශීලකයාගේ වචනාර්ථයෙන් සෑම ගෙවීමක්ම.",
         "ඔබගේ සබැඳිය භාවිතයෙන් ලියාපදිංචි වන ඕනෑම කෙනෙකුට අපි නොමිලේ $99 වවුචරයක් එවන්නෙමු.",
         "ඔබගේ ස්ථර උත්ශ්‍රේණි කරන විට, ඔබ කලින් යොමු කළ සියලුම පරිශීලකයින්ගෙන් නව ගාස්තුවකට උපයනු ඇත.",
@@ -10680,7 +10680,7 @@ export default {
         "අකුරු, පසුබිම්, මායිම් සහ මායිම් වැනි මෝස්තර අනුකරණය කිරීමට මෙම මෙවලම භාවිතා කරන්න. මෝස්තර අනුපිටපත් කිරීමට මෙම පියවර අනුගමනය කරන්න:",
       step_1:
         "මෙවලම සක්රිය කර ඔබේ මූසිකය පෙළ, තීරු හෝ පින්තූර මත තබා ගන්න; කර්සරය පයිප්පයකට වෙනස් වේ.",
-      step_2: "අයිතමය අයිතමය ශෛලිය අයිතමය අයිතමය දක්වා අයිතමය",
+      step_2: "ඔබට පිටපත් කිරීමට අවශ්‍ය අංගය මත ක්ලික් කරන්න.",
       step_3:
         "කර්සරය නැවත පැලට් එකකට වෙනස් වනු ඇත; ඔබට පිටපත් කළ විලාසය යෙදීමට අවශ්‍ය මූලද්‍රව්‍යය මත ක්ලික් කරන්න.",
     },
@@ -10719,13 +10719,13 @@ export default {
       ctrl_i: "තෝරාගත් පෙළ සඳහා ඇල අකුරු සක්‍රිය/අක්‍රිය | <i>මා ඇල අකුරු කරන්න</i>",
       ctrl_l:
         "තෝරාගත් පෙළ සඳහා ටොගල් වර්ජන සක්‍රිය / අක්‍රිය | <s>මා හරහා පහර දෙන්න</s>",
-      ctrl_u: "අයිතමය අයිතමය තෝරන්න අයිතමය | <u>අයිතමය අයිතමය</u>",
+      ctrl_u: "තෝරාගත් පෙළ සඳහා යටි ඉරි සක්‍රිය/අක්‍රිය කරන්න | <u> යටින් ඉරි me</u>",
       ctrl_1:
         "තෝරාගත් පෙළෙහි අකුරු ප්‍රමාණය අඩු කරන්න | <small>මාව කුඩා කරන්න</small>",
       ctrl_2: "තෝරාගත් පෙළෙහි අකුරු ප්‍රමාණය වැඩි කරන්න | <big>මාව ලොකු කරන්න</big>",
       ctrl_r: "තෝරාගත් පෙළෙන් සියලුම හැඩතල ගැන්වීම් ඉවත් කරන්න | සියලුම මෝස්තර පිරිසිදු කරන්න",
       ctrl_s: "සුරකින්න අයිතමය පිටුව",
-      tab: "අයිතමය අයිතමය අයිතමය මාදිලිය",
+      tab: "පරිමාණ මාදිලි අතර මාරු වන්න",
       ctrl_e: "අයිතමය අයිතමය ශෛලිය මාදිලිය",
     },
   },
@@ -10750,19 +10750,19 @@ export default {
       code: {
         title: "කේතය",
         subtitle:
-          "අයිතමය අයිතමය කේතය සිට අයිතමය අයිතමය පිටුව අයිතමය",
+          "ඔබට පිටු සාදන්නා තුළ වම් පැත්තේ කොටස් වලින් මූලද්‍රව්‍ය කේතය පිටපත් කර ඇලවිය හැක.",
       },
       inputs: {
         title: {
           label: "ශීර්ෂය",
-          message: "අයිතමය අයිතමය අයිතමය මහජන ශීර්ෂය",
+          message: "මෙය පොදු මාතෘකාවයි.",
         },
         tags: {
           label: "ටැග්",
-          message: "පාවිච්චි කළා අයිතමය සොයන්න අයිතමය අයිතමය අයිතමය",
+          message: "මූලද්‍රව්‍ය සෙවීමට සහ වර්ග කිරීමට භාවිතා කරයි.",
         },
         section: {
-          message: "අයිතමය අයිතමය අයිතමය සිට අයිතමය පිටුව අයිතමය",
+          message: "පිටු සාදන්නා වෙතින් කොටස පිටපත් කරන්න.",
         },
       },
     },
@@ -10778,11 +10778,11 @@ export default {
     add_new_vendor_action: "එක් කරන්න අලුත් විකුණුම්කරු",
     status_tooltip: {
       title: "විකුණුම්කරු තත්ත්වය",
-      ACCEPTED: "අයිතමය විකුණුම්කරු අයිතමය ප්රවේශ දක්වා අයිතමය අයිතමය",
-      REJECTED: "අයිතමය විකුණුම්කරු අයිතමය අයිතමය අයිතමය ප්‍රතික්ෂේප කළා",
+      ACCEPTED: "වෙළෙන්දාට ඔවුන්ගේ පැනලයට ප්‍රවේශය ඇත.",
+      REJECTED: "විකුණුම්කරුගේ ඉල්ලීම ප්‍රතික්ෂේප කර ඇත.",
       PENDING: "ඉල්ලීම විකුණුම්කරුගේ තීරණයක් බලාපොරොත්තුවෙන් සිටී.",
     },
-    number_of_products: "අයිතමය අයිතමය නිෂ්පාදන",
+    number_of_products: "නිෂ්පාදන ගණන",
     invited: "අයිතමය",
     no_pricing: "නැත මිල නියම කිරීම",
     no_pricing_tooltip: {
@@ -10790,10 +10790,10 @@ export default {
       subtitle: "කරුණාකර විකුණුම්කරු සඳහා පෙරනිමි මිලකරණ ආකෘතියක් සකසන්න.",
     },
     updated_products_tooltip: {
-      title: "නිෂ්පාදන අයිතමය අයිතමය 24 අයිතමය",
+      title: "නිෂ්පාදන පසුගිය පැය 24 තුළ යාවත්කාලීන කරන ලදී",
     },
     added_products_tooltip: {
-      title: "නිෂ්පාදන එක් කරන්න අයිතමය අයිතමය අයිතමය 24 අයිතමය",
+      title: "පසුගිය පැය 24 තුළ එකතු කරන ලද නිෂ්පාදන",
     },
     access_tooltip: {
       title: "අයිතමය ප්රවේශ",
@@ -10813,7 +10813,7 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "බලපත්රය අයිතමය අයිතමය!",
+    title: "බලපත්‍ර උත්ශ්‍රේණි කිරීම අවශ්‍යයි!",
     subtitle:
       "ඔබගේ වත්මන් බලපත්‍රය ඔබ තෝරාගත් ව්‍යාපාර ආකෘතියේ අවශ්‍යතා සපුරාලන්නේ නැත. කරුණාකර ඔබේ බලපත්‍රය ව්‍යවසාය සැලැස්මට උත්ශ්‍රේණි කරන්න.",
   },
@@ -10855,7 +10855,7 @@ export default {
       add_action: "එක් කරන්න සැකිල්ල",
 
       notifications: {
-        save_success_message: "සැකිල්ල අයිතමය අයිතමය ",
+        save_success_message: "අච්චුව සාර්ථකව සුරකින ලදී.",
       },
 
       inputs: {
@@ -10884,9 +10884,9 @@ export default {
     authentication: "අයිතමය",
     guest: "අයිතමය",
     click_to_create: "අයිතමය දක්වා නිර්මාණය කරන්න",
-    valid_for_30_days: "අයිතමය අයිතමය 30 දින 30",
+    valid_for_30_days: "දින 30 ක් සඳහා වලංගු වේ",
     notifications: {
-      secure_link_created: "අයිතමය සබැඳිය අයිතමය අයිතමය ",
+      secure_link_created: "ආරක්ෂිත සබැඳිය සාර්ථකව නිර්මාණය කර ඇත.",
     },
   },
 
@@ -10917,12 +10917,12 @@ export default {
     profile: {
       title: "අයිතමය අයිතමය - අභිරුචි ප්රභේද",
       subtitle:
-        "අයිතමය අයිතමය නිෂ්පාදන, අයිතමය අයිතමය පෙරනිමිය අයිතමය",
+        "ඔබට මෙම නිෂ්පාදනය සඳහා ප්‍රභේද නාම අභිරුචිකරණය කළ හැකිය, පෙරනිමි ඒවා ප්‍රතිස්ථාපනය කරන්න.",
     },
 
     subtitle:
       "ඔබට ප්‍රභේද නාම, අයිකන සහ ඒවායේ අනුපිළිවෙල මෙහිදී අභිරුචිකරණය කළ හැක. පෙරනිමි හයෙන් ඔබ්බට යන අද්විතීය ප්‍රභේද සහිත නිෂ්පාදන සඳහා, ඔබට එක් එක් නිෂ්පාදනයට ගැලපෙන අභිරුචි ප්‍රභේද සැකසිය හැක. ලොජිස්ටික් > දේපල කට්ටල පටිත්තෙහි දේපල කට්ටල සරලව නිර්වචනය කර අවශ්‍ය පරිදි ඕනෑම නිෂ්පාදන ගණනකට ඒවා පවරන්න.",
-    select_property_set: "තෝරන්න අයිතමය අයිතමය",
+    select_property_set: "දේපල කට්ටලය තෝරන්න",
     add_property_set: "එක් කරන්න අයිතමය අයිතමය",
   },
 
@@ -10932,7 +10932,7 @@ export default {
     add_action: "එක් කරන්න අයිතමය",
     subtitle:
       "ලේබල් මිලදී ගැනීම් වේගවත් කිරීමට සහ නිවැරදි නැව් ගාස්තු සහතික කිරීමට නැවත භාවිත කළ හැකි පෙට්ටි ප්‍රමාණ සාදන්න. ඇණවුමක් ඉටු කරන විට, සුරකින ලද පෙට්ටියක් තෝරන්න, එහි මානයන් ස්වයංක්‍රීයව පුරවනු ඇත.",
-    empty: "නැත අයිතමය අයිතමය අයිතමය “එක් කරන්න අයිතමය”.",
+    empty: "තවම පෙට්ටි නැත. \"Add box\" ක්ලික් කරන්න.",
     edit: "සංස්කරණය කරන්න අයිතමය",
     new: "අලුත් අයිතමය",
     default_weight: "පෙරනිමිය බර",
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "තෝරන්න අයිතමය පැකේජය",
-    define_package: "අයිතමය අයිතමය පැකේජය",
+    define_package: "පැකේජයක් නිර්වචනය කරන්න",
     define_package_hint: "ඔබගේ පූර්ව නිශ්චිත පැකේජ ප්‍රමාණ සාදන්න හෝ සංස්කරණය කරන්න",
   },
 
@@ -10999,12 +10999,12 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "සබැඳි JSON",
-      opening_hours_json: "අයිතමය අයිතමය JSON",
+      opening_hours_json: "විවෘත වේලාවන් JSON",
 
       delete_title: "මකන්න අයිතමය",
-      delete_message: "අයිතමය අයිතමය දක්වා මකන්න අයිතමය අයිතමය?",
+      delete_message: "ඔබට මෙම අයිතමය මැකීමට අවශ්‍ය බව විශ්වාසද?",
       delete_success: "අයිතමය සාර්ථකව මකා ඇත.",
-      restore_success: "අයිතමය අයිතමය අයිතමය",
+      restore_success: "අයිතමය සාර්ථකව ප්‍රතිසාධනය කරන ලදී.",
 
       opening_hours:"අයිතමය අයිතමය",
       form_fields:"පෝරමය අයිතමය",
@@ -11017,7 +11017,7 @@ export default {
     categories: {
       title: "වර්ග",
       sub_title:
-        "අයිතමය අයිතමය වර්ග අයිතමය අයිතමය පෙරහන්",
+        "ඔබේ නාමාවලිය ප්‍රවර්ග සහ උපප්‍රවර්ග සමඟ සංවිධානය කරන්න. මෙය සංචාලනය සහ පෙරීම වැඩි දියුණු කරයි.",
 
       empty_title: "නැත වර්ග අයිතමය",
       empty_subtitle:
@@ -11026,7 +11026,7 @@ export default {
       add_title: "ප්‍රවර්ගය එකතු කරන්න",
       edit_title: "ප්‍රවර්ගය සංස්කරණය කරන්න",
 
-      parent_filter: "පෙරහන අයිතමය අයිතමය",
+      parent_filter: "මාපියන් අනුව පෙරහන් කරන්න",
       parent: "මාපිය කාණ්ඩය",
 
       price_format: "මිල අයිතමය",
@@ -11045,7 +11045,7 @@ export default {
 
       moderation_title: "අයිතමය",
       moderation_mode: "අයිතමය මාදිලිය",
-      require_first_approved_before_more: "අයිතමය අයිතමය තව. .",
+      require_first_approved_before_more: "වැඩි කිරීමට පෙර පළමු අනුමැතිය අවශ්‍ය වේ",
 
       limits_title: "සීමාවන්",
       max_pending_per_user: "උපරිම පොරොත්තුවෙන් අයිතමය පරිශීලක",
@@ -11067,7 +11067,7 @@ export default {
 
       empty_title: "නැත අයිතම දක්වා සමාලෝචනය කරන්න",
       empty_subtitle:
-        "අයිතමය පරිශීලකයන් අයිතමය අලුත් අයිතම, අයිතමය අයිතමය ",
+        "පරිශීලකයින් නව අයිතම ඉදිරිපත් කරන විට, ඔවුන් මධ්‍යස්ථ කිරීම සඳහා මෙහි දිස් වනු ඇත.",
 
       review_title: "සමාලෝචනය කරන්න අයිතමය",
       approve_publish: "අයිතමය & ප්‍රකාශ කරන්න",
@@ -11082,12 +11082,12 @@ export default {
     },
 
     moderation: {
-      approve_success: "අයිතමය අයිතමය අයිතමය",
-      publish_success: "අයිතමය ප්‍රකාශිතයි අයිතමය",
-      unpublish_success: "අයිතමය අයිතමය අයිතමය",
-      archive_success: "අයිතමය අයිතමය අයිතමය",
+      approve_success: "අයිතමය සාර්ථකව අනුමත කරන ලදී.",
+      publish_success: "අයිතමය සාර්ථකව ප්‍රකාශයට පත් කරන ලදී.",
+      unpublish_success: "අයිතමය සාර්ථකව ප්‍රකාශයට පත් නොකළේය.",
+      archive_success: "අයිතමය සාර්ථකව සංරක්ෂණය කරන ලදී.",
       reject_success: "අයිතමය ප්‍රතික්ෂේප කළා අයිතමය",
-      penalty_success: "අයිතමය අයිතමය අයිතමය",
+      penalty_success: "දඬුවම් සාර්ථකව යෙදුවා.",
 
       reject_title: "ප්රතික්ෂේප කරන්න අයිතමය",
       reject_reason: "අයිතමය අයිතමය",
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "උඩුගත කරන්න රූප",
       url_type: "ටයිප් කරන්න",
       url: "URL",
-      is_main: "අයිතමය අයිතමය ප්‍රධාන"
+      is_main: "ප්රධාන ලෙස සකසන්න"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "බහුවිධ නිර්මාණ කට්ටල (කාඩ් + විස්තර සැකිලි) සාදා ඒවා ප්‍රවර්ගවලට පවරන්න. කාණ්ඩ විවිධ මෝස්තර භාවිතා කළ හැකිය.",
 
-      empty_title: "නැත අයිතමය අයිතමය",
+      empty_title: "තවම නිර්මාණ නැහැ",
       empty_subtitle:
         "ප්‍රවර්ග පෙනෙන ආකාරය අභිරුචිකරණය ආරම්භ කිරීමට ඔබේ පළමු නිර්මාණ කට්ටලය එක් කරන්න.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "විස්තර සැකිල්ල",
 
       notifications: {
-        add_success: "නිර්මාණ අයිතමය අයිතමය",
-        edit_success: "නිර්මාණ අයිතමය අයිතමය",
+        add_success: "නිර්මාණය සාර්ථකව නිර්මාණය කරන ලදී.",
+        edit_success: "නිර්මාණය සාර්ථකව යාවත්කාලීන කරන ලදී.",
         delete_success: "නිර්මාණ මකා දමන ලදී අයිතමය",
       },
 
@@ -11154,8 +11154,8 @@ export default {
       edit_title: "සංස්කරණය කරන්න ලාංඡනය",
 
       notifications: {
-        add_success: "ලාංඡනය අයිතමය අයිතමය",
-        edit_success: "ලාංඡනය අයිතමය අයිතමය",
+        add_success: "ලාංඡනය සාර්ථකව සාදන ලදී.",
+        edit_success: "ලාංඡනය සාර්ථකව යාවත්කාලීන කරන ලදී.",
         delete_success: "ලාංඡනය මකා දමන ලදී අයිතමය",
       },
 
@@ -11176,8 +11176,8 @@ export default {
       edit_title: "සංස්කරණ සමාගම",
 
       notifications: {
-        add_success: "සමාගම අයිතමය අයිතමය",
-        edit_success: "සමාගම අයිතමය අයිතමය",
+        add_success: "සමාගම සාර්ථකව නිර්මාණය කරන ලදී.",
+        edit_success: "සමාගම සාර්ථකව යාවත්කාලීන කරන ලදී.",
         delete_success: "සමාගම මකා දමන ලදී අයිතමය",
       },
 
@@ -11205,11 +11205,11 @@ export default {
       reply: "අයිතමය",
       reply_hint: "පරිශීලකයාට පිළිතුරක් ලියන්න. ඔබට ක්‍රියාවෙන් පණිවිඩය කියවීම/අයාචිත තැපෑල ලෙසද සලකුණු කළ හැක.",
 
-      mark_read: "අයිතමය අයිතමය කියවීම",
-      mark_unread: "අයිතමය අයිතමය අයිතමය",
+      mark_read: "කියවූ ලෙස ලකුණු කරන්න",
+      mark_unread: "නොකියවූ ලෙස ලකුණු කරන්න",
       archive: "අයිතමය",
       unarchive: "අයිතමය",
-      mark_spam: "අයිතමය අයිතමය අයිතමය",
+      mark_spam: "අයාචිත තැපැල් ලෙස ලකුණු කරන්න",
       mark_not_spam: "අයිතමය අයිතමය",
 
       delete_confirm: "මකන්න අයිතමය පණිවුඩය?",
@@ -11252,8 +11252,8 @@ export default {
       radius_default_hint: "පාරිභෝගිකයා ස්ථානයක් තෝරාගත් නමුත් අරයක් තෝරා නොගන්නා විට භාවිතා වේ.",
       radius_max: "උපරිම අරය (අයිතමය)",
       radius_max_hint: "ගබඩා ඉදිරිපස අරය මෙම අගයට තද කරනු ඇත.",
-      radius_options: "අරය අයිතමය (අයිතමය)",
-      radius_options_hint: "අයිතමය අයිතමය අයිතමය",
+      radius_options: "අරය විකල්ප (කි.මී.)",
+      radius_options_hint: "මෙම අගයන් වෙළඳසැල ඉදිරිපස UI හි ඉක්මන් විකල්ප ලෙස පෙන්විය හැක.",
 
       filters_title: "සොයන්න පෙරහන්",
       filters_subtitle: "අයිතම මෙටා ක්ෂේත්‍රවලින් අගයන් කියවන පෙරහන් එක් කරන්න (ඔබේ ලැයිස්තුගත කිරීම්/ප්‍රවර්ග ආකෘති ක්ෂේත්‍ර). ප්‍රකාශිත අයිතමවලින් සැබෑ විකල්ප එකතු කිරීමට ස්වයංක්‍රීය උත්පාදනය භාවිත කරන්න.",
@@ -11329,7 +11329,7 @@ export default {
         "සෘතුමය අලෙවිය අතිසාර්ථකත්වය",
         "ඔබේ සාප්පු සවාරි පාරාදීසය අගුළු හරින්න",
         "ග්රෑන්ඩ් ෂොපර්ස් කානිවල්",
-        "වසන්ත 15 අයිතමය අයිතමය අයිතමය",
+        "Spring Fling සාප්පු සවාරිය",
         "ඔබට විරුද්ධ විය නොහැකි සරත් සෘතුවේ ගනුදෙනු",
         "ශීත ඍතු ආශ්චර්යයන්: සීතල දින සඳහා උණුසුම් ගනුදෙනු",
         "ගිම්හාන නිෂ්කාශන ගණන් කිරීම",
@@ -11347,7 +11347,7 @@ export default {
         "🎁 ඔබ වෙනුවෙන් තෑග්ගක්: ඇතුළත $10 ණය!",
         "☀️ අපගේ උණුසුම් ගනුදෙනු සමඟ ගිම්හානය සඳහා සූදානම් වන්න",
         "🛍️ ඔබේ ඇඳුම් ආයිත්තම් කට්ටලය යාවත්කාලීන කරන්න - ඔබ එයට සුදුසුයි",
-        "👀 අයිතමය අයිතමය: අලුත් නිෂ්පාදන අයිතමය අයිතමය!",
+        "👀 Sneak Peek: නව නිෂ්පාදන ළඟදීම!",
         "🎂 සුභ උපන්දිනයක්! ඔබේ විශේෂ තෑග්ග බලාපොරොත්තු වේ",
         "🖤 කළු සිකුරාදා ගනුදෙනු සඳහා ඔබ සූදානම්ද?",
         "🎯 ඔබ සඳහා පමණක් හොඳම තේරීම් - පුද්ගලීකරණය කළ සාප්පු සවාරි අත්දැකීම",
@@ -11404,7 +11404,7 @@ export default {
         "පවුලේ අය සහ මිතුරන්: 20% වට්ටමක්",
         "මෙම සති අන්තයේ විශාල ඉතුරුම්",
         "කළු සිකුරාදා: 40% වට්ටමක්",
-        "අයිතමය අයිතමය වට්ටම්: 30% අයිතමය",
+        "Sneak Peek වට්ටම්: 30% වට්ටමක්",
       ],
       description: [
         "ඔබේ විශේෂ දීමනාවට හිමිකම් කියන්න! සීමිත කාලයක් පමණි.",
@@ -11482,15 +11482,15 @@ export default {
         "තවත් මිලදී ගන්න, තවත් සුරකින්න!",
         "ස්මාර්ට් සාප්පු සවාරි යන්නන් සඳහා ස්මාර්ට් ගනුදෙනු",
         "වට්ටම් ඇඟවීම! බණ්ඩල් ඉතුරුම්",
-        "අයිතමය පිරිනැමීම - තව. . අයිතමය අයිතමය",
+        "Combo Offer - අඩුවට වැඩි",
         "මිටි මත සුවිශේෂී ඉතුරුම්",
         "ඔබේ මුදල් සඳහා තවත් ලබා ගන්න!",
         "ඔබ බණ්ඩල් කරන විට සුරකින්න",
-        "අයිතමය ගනුදෙනු අයිතමය අයිතමය",
+        "Combos සඳහා විශේෂ දීමනා",
         "ගබඩාවේ විශාල ඉතුරුම්!",
         "හොඳම වටිනාකම් මිටි",
         "සීමිත කාල මිටි ගනුදෙනු",
-        "අයිතමය වට්ටම අයිතමය අයිතමය",
+        "Combos සඳහා විශාල වට්ටම්",
         "තෝරාගත් අයිතමවල ස්මාර්ට් ඉතුරුම්",
         "මිටි මත පරාජය කළ නොහැකි ගනුදෙනු",
         "බහු මිලදී ගැනීමේ වට්ටම් තිබේ",
@@ -11768,7 +11768,7 @@ export default {
       name: [
         "ඔබ වැටෙන තුරු සාප්පු යන්න",
         "කරත්ත වියරුව",
-        "අයිතමය විකිණීමට අයිතමය",
+        "Flash Sale Fiesta",
         "ක්ලික් කරන්න, සාප්පු යන්න, සුරකින්න",
         "අයිතමය අයිතමය",
         "අයිතමය අයිතමය",
@@ -11776,7 +11776,7 @@ export default {
         "සයිබර් ඉතුරුම් කම්පනය",
         "ඩිජිටල් වට්ටම් දින",
         "ඊ-වාණිජ්‍යය සැණකෙළිය",
-        "අයිතමය අයිතමය අයිතමය",
+        "Online Outlet Oasis",
         "සිල්ලර රෂ්",
         "අයිතමය ගබඩාව විකිණීමට",
         "ඊ-සාප්පුකරුවන්ගේ පාරාදීසය",
@@ -11828,9 +11828,9 @@ export default {
           "ඇඳුමේ දිග සහ විලාසය",
           "පොත් ආවරණ ද්රව්ය",
           "ගෘහ භාණ්ඩ ලී වර්ගය",
-          "අයිතමය අයිතමය Material",
+          "Watch Strap Material",
           "සෙල්ලම් බඩු අභිරුචි විශේෂාංග",
-          "අයිතමය අයිතමය අයිතමය වර්ණ",
+          "Hat ප්රමාණය සහ වර්ණය",
           "සම ආරක්ෂණ අමුද්‍රව්‍ය මනාප",
           "ගෘහ අලංකරණ තේමාව",
           "කුස්සියට උපකරණ ද්රව්ය",
@@ -11848,24 +11848,24 @@ export default {
       title: [
         "කරකවන්න සහ විශාල ත්‍යාග දිනා ගන්න!",
         "ෆෝචූන් වීල් ජැක්පොට්",
-        "අයිතමය අයිතමය අයිතමය",
+        "Lucky Spin Bonanza",
         "ත්‍යාග දිනා ගැනීමට කරකවන්න",
         "ධනයේ රෝදය",
-        "අයිතමය ලොතරැයිය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
+        "Lucky Lottery Extravaganza",
+        "Mega Spin Surprise",
         "ත්‍යාග වීල් ෆියෙස්ටා",
-        "අයිතමය අයිතමය අයිතමය",
+        "Treasure Spin Spectacular",
         "අයිතමය අයිතමය ",
-        "අයිතමය අයිතමය අයිතමය",
+        "Lucky Wheel Galore",
         "වාසනාවේ අනුග්රහය",
         "ආශ්චර්යයේ රෝදය",
         "ධනය සඳහා කරකවන්න",
-        "අයිතමය අයිතමය අයිතමය",
+        "ත්‍යාග Spinner Delight",
         "ගෝල්ඩන් ස්පින් ලොතරැයිය",
         "අයිතමය",
         "වාසනාවන්ත රෝදය",
-        "අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
+        "Lucky Spin Showcase",
+        "Ultimate Spin Reward",
       ],
       description: [
         "සුවිශේෂී වට්ටම් දිනා ගැනීමට අවස්ථාවක් සඳහා රෝදය කරකවන්න!",
@@ -11896,53 +11896,53 @@ export default {
      */
     subscription_price: {
       title: [
-        "අයිතමය ප්රවේශ",
-        "අයිතමය අයිතමය",
-        "අයිතමය පැකේජය",
-        "අයිතමය සැලසුම් කරන්න",
-        "අයිතමය දායකත්වය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අසීමිත පිරිනැමීම",
-        "අයිතමය අයිතමය",
+        "මූලික ප්රවේශය",
+        "වාරික සාමාජිකත්වය",
+        "රන් පැකේජය",
+        "රිදී සැලැස්ම",
+        "ප්ලැටිනම් දායකත්වය",
+        "ව්යවසාය ස්ථරය",
+        "ආරම්භක බණ්ඩලය",
+        "අසීමිත දීමනාව",
+        "ෆැමිලි පැක්",
         "වෘත්තීය කට්ටලය",
       ],
       description: [
-        "අයිතමය අයිතමය ",
-        "ප්රවේශ දක්වා සෑම අයිතමය අයිතමය ",
-        "අයිතමය අයිතමය අයිතමය ප්රමුඛත්වය සහාය",
-        "අයිතමය අයිතමය පැකේජය අයිතමය අයිතමය පරිශීලකයන්",
-        "අයිතමය ප්රවේශ අයිතමය අයිතමය අයිතමය",
-        "අභිරුචි අයිතමය අයිතමය ",
-        "අයිතමය අයිතමය ",
-        "නැත සීමාවන් අයිතමය අයිතමය, අයිතමය අයිතමය අයිතමය පරිශීලක",
+        "මූලික කරුණු ගවේෂණය කරන පුද්ගලයන් සඳහා වඩාත් සුදුසුය.",
+        "සියලුම වාරික විශේෂාංග සහ අන්තර්ගතය වෙත ප්‍රවේශය.",
+        "සුවිශේෂී ප්‍රතිලාභ සහ ප්‍රමුඛතා සහාය.",
+        "සාමාන්‍ය පරිශීලකයින් සඳහා සමබර පැකේජයක්.",
+        "ඉහළ මට්ටමේ වරප්‍රසාද සමඟ අවසාන ප්‍රවේශය.",
+        "විශාල සංවිධාන සඳහා අභිරුචි විසඳුම්.",
+        "දැරිය හැකි ප්‍රවේශ මට්ටමේ විකල්පයක්.",
+        "බලය භාවිතා කරන්නා සඳහා භාවිතයේ සීමාවන් නොමැත.",
         "සාමාජිකයින් 4 දෙනෙකු දක්වා පවුල් සඳහා විශේෂ සැලැස්මක්.",
-        "අයිතමය අයිතමය උසස් මෙවලම්",
+        "උසස් මෙවලම් සොයන වෘත්තිකයන් සඳහා නිර්මාණය කර ඇත.",
       ],
     },
 
     spec: {
       group: [
         "තාක්ෂණික පිරිවිතර",
-        "අයිතමය අයිතමය",
-        "කාර්ය සාධනය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "Material අයිතමය ගොඩනඟන්න අයිතමය",
-        "වර්ණ අයිතමය අවසන් කරන්න අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
-        "පැකේජය අයිතමය",
-        "වගකීම අයිතමය සහාය",
-        "වෙළඳ නාමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "පරිශීලක අයිතමය අයිතමය සමාලෝචන",
-        "මිල නියම කිරීම අයිතමය අයිතමය",
+        "භෞතික මානයන්",
+        "කාර්ය සාධන ලක්ෂණ",
+        "සම්බන්ධතා විකල්ප",
+        "බල අවශ්යතා",
+        "ද්රව්ය සහ ගොඩනැගීමේ ගුණාත්මකභාවය",
+        "වර්ණ සහ අවසන් විකල්ප",
+        "ගබඩා කිරීම සහ මතකය",
+        "මෙහෙයුම් පද්ධති අනුකූලතාව",
+        "ආරක්ෂාව සහ අනුකූලතාව",
+        "පැකේජයේ අන්තර්ගතය",
+        "වගකීම් සහ සහාය",
+        "වෙළඳ නාමය සහ නිෂ්පාදකයා",
+        "පරිසර හිතකාමීත්වය",
+        "බලශක්ති කාර්යක්ෂමතාව",
+        "රැකවරණය සහ නඩත්තුව",
+        "අභිරුචිකරණ විකල්ප",
+        "ඇතුළත් උපාංග",
+        "පරිශීලක ශ්‍රේණිගත කිරීම් සහ සමාලෝචන",
+        "මිලකරණය සහ ලබා ගැනීමේ හැකියාව",
       ],
     },
 
@@ -11970,26 +11970,26 @@ export default {
         "පාරිභෝගිකයා ඉන්වොයිසිය",
       ],
       message: [
-        "අයිතමය අයිතමය මිලදී!",
-        "අයිතමය අයිතමය අයිතමය ව්‍යාපාරය",
-        "අයිතමය 🛍️ ඇනවුම් කරන්න අයිතමය අයිතමය !",
-        "අයිතමය අයිතමය ",
-        "අයිතමය අයිතමය දක්වා අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය ප්රමුඛත්වය",
-        "අයිතමය අයිතමය දක්වා අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය සහාය අයිතමය ගබඩා",
-        "අයිතමය අයිතමය අලුත් මිලදී!",
-        "සුරකින්න අයිතමය ඉන්වොයිසිය අයිතමය අයිතමය අයිතමය",
-        "සංචාරය අයිතමය අයිතමය අයිතමය තව. . අයිතමය නිෂ්පාදන",
-        "අයිතමය සම්බන්ධයි අයිතමය අයිතමය පිරිනැමීම්",
-        "අයිතමය අයිතමය පාරිභෝගිකයා",
-        "අයිතමය අයිතමය දක්වා උදව් අයිතමය අයිතමය ",
-        "අයිතමය ප්රතිපෝෂණ උදව් අයිතමය අයිතමය",
+        "ඔබගේ මිලදී ගැනීම සඳහා ස්තූතියි!",
+        "අපි ඔබේ ව්‍යාපාරය අගය කරමු.",
+        "ඔබේ ඇණවුම පැමිණෙමින් තිබේ!",
+        "අප සමඟ සාප්පු සවාරි ගියාට ස්තුතියි.",
+        "නැවතත් ඔබට සේවය කිරීමට බලාපොරොත්තු වෙනවා.",
+        "ඔබගේ තෘප්තිය අපගේ ප්‍රමුඛතාවයයි.",
+        "ඔබේ අත්දැකීම් ඇගයීමට අමතක නොකරන්න.",
+        "අපගේ වෙළඳසැලට සහය දැක්වීම ගැන ඔබට ස්තූතියි.",
+        "ඔබගේ නව මිලදී ගැනීම ඔබ භුක්ති විඳිනු ඇතැයි අපි බලාපොරොත්තු වෙමු!",
+        "අනාගත යොමුව සඳහා ඔබේ ඉන්වොයිසිය සුරකින්න.",
+        "තවත් විශිෂ්ට නිෂ්පාදන සඳහා නැවත අප වෙත පැමිණෙන්න.",
+        "සුවිශේෂී දීමනා සඳහා සම්බන්ධව සිටින්න.",
+        "වටිනා පාරිභෝගිකයෙකු වීම ගැන ඔබට ස්තුතියි.",
+        "ඔබට උදව් අවශ්‍ය නම් උදව් කිරීමට අපි මෙහි සිටිමු.",
+        "ඔබගේ ප්‍රතිපෝෂණය අපට වැඩිදියුණු කිරීමට උපකාරී වේ.",
         "ඔබගේ ඊළඟ මිලදී ගැනීමේදී විශේෂ වට්ටමක් භුක්ති විඳින්න.",
-        "අයිතමය අයිතමය !",
-        "අයිතමය අයිතමය ",
-        "අයිතමය අයිතමය දක්වා අයිතමය ප්රතිපෝෂණ",
-        "අයිතමය අයිතමය සිට අයිතමය අයිතමය",
+        "ඔබ විශිෂ්ට තේරීමක් කර ඇත!",
+        "ඔබ අප කෙරෙහි තැබූ විශ්වාසයට ස්තුතියි.",
+        "ඔබගේ ප්‍රතිපෝෂණය බලාපොරොත්තුවෙන්.",
+        "අපගේ කණ්ඩායමෙන් ඔබට හෘදයාංගම ස්තුතිය.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "අයිතමය අයිතමය",
-        "විකුණුම්කරු අයිතමය",
-        "අයිතමය මුල් පිටුව",
-        "අයිතමය අයිතමය",
+        "දේපල ප්‍රදර්ශනාගාරය",
+        "විකුණුම්කරු ප්ලාසා",
+        "විශේෂාංග සහිත නිවාස",
+        "දේශීය වෙළෙඳපොළ",
         "නව පැමිණීම්",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "ස්වර්ණාභරණ අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
+        "වතු උද්යාන",
+        "සාප්පු සවාරි දිස්ත්‍රික්කය",
+        "ශිල්පී ඇලී",
+        "සුඛෝපභෝගී වතු",
+        "කුලී හබ්",
+        "විවෘත නිවාස",
+        "තාක්ෂණික නවෝත්පාදන",
+        "විලාසිතා පටුමග",
+        "අත්කම් කෝනර්",
+        "ආහාර උසාවිය",
+        "පොත් නෝක්",
+        "ස්වර්ණාභරණ හන්දිය",
+        "පෞරාණික මාවත",
+        "යෝග්යතා කලාපය",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "ව්‍යාපාරය අයිතමය අයිතමය",
+        "ව්යාපාර ලියාපදිංචි සහතිකය",
         "බද්ද අයිතමය අයිතමය (TIN)",
         "විකුණුම්කරු අයිතමය පෝරමය",
         "නිෂ්පාදන අයිතමය",
         "මිල නියම කිරීම ලැයිස්තුව",
         "බැංකුව ගිණුම විස්තර",
-        "අයිතමය අයිතමය ලිපිනය",
+        "ලිපිනය සනාථ කිරීම",
         "අයිතමය අයිතමය",
         "සමාගම පැතිකඩ",
-        "අයිතමය අයිතමය අයිතමය",
+        "තත්ත්ව සහතික සහතිකය",
         "අයිතමය දත්ත පත්‍රය (SDS)",
         "නිෂ්පාදන වගකීම තොරතුරු",
         "ආපසු ප්‍රතිපත්තිය",
-        "නාවික අයිතමය අයිතමය අයිතමය",
+        "නැව්ගත කිරීම සහ හැසිරවීමේ ක්රියා පටිපාටි",
         "පාරිභෝගිකයා සේවාව ප්‍රතිපත්තිය",
         "අලෙවි අයිතමය අයිතමය සැලසුම්",
-        "අයිතමය අයිතමය සබැඳි",
+        "සමාජ මාධ්‍ය සබැඳි",
         "අයිතමය අයිතමය",
-        "අයිතමය කේතය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය (NDA)",
+        "සැපයුම්කරුගේ චර්යාධර්ම සංග්රහය",
+        "හෙළිදරව් නොකිරීමේ ගිවිසුම (NDA)",
       ],
     },
 
@@ -12055,23 +12055,23 @@ export default {
       title: [
         "වෙළඳපොළ ගබඩා සේවාවන් අයිතමය",
         "සාප්පු යන්න අයිතමය අයිතමය",
-        "අයිතමය සේවාවන් අයිතමය",
+        "ඉල්ලුම මත මුද්‍රණ සේවා ගිවිසුම",
         "අයිතමය අලෙවි සේවාව අයිතමය",
-        "අයිතමය අයිතමය ගබඩා අයිතමය",
-        "විශේෂඥ අයිතමය අයිතමය අයිතමය ව්‍යාපාරය අයිතමය",
-        "සේවාව අයිතමය අයිතමය වෙළඳපොළ අයිතමය",
+        "E-commerce Platform Setup ගිවිසුම",
+        "ව්යාපාර හිමියන් සඳහා විශේෂඥ උපදේශන කොන්ත්රාත්තුව",
+        "වෙළඳපල වින්‍යාසය සඳහා සේවා ගිවිසුම",
         "සාප්පු යන්න ගබඩා අයිතමය අයිතමය සේවාවන් අයිතමය",
         "POD සේවාව අයිතමය අයිතමය",
-        "අලෙවි අයිතමය අයිතමය අයිතමය",
+        "අලෙවිකරණ උපාය මාර්ග ක්‍රියාත්මක කිරීමේ ගිවිසුම",
         "ව්‍යාපාරය අයිතමය සේවාව අයිතමය",
         "අයිතමය ගබඩා ගබඩා අයිතමය",
         "විශේෂඥ සේවාව අයිතමය අයිතමය",
-        "ව්‍යාපාරය අයිතමය අයිතමය ගබඩා අයිතමය",
+        "ව්යාපාර විසඳුම් සහ සැකසුම් කොන්ත්රාත්තුව",
         "අභිරුචි සාප්පු යන්න ගබඩා සේවාවන් අයිතමය",
         "වෙළඳපොළ අයිතමය සේවාව අයිතමය",
-        "අයිතමය අයිතමය ගබඩා සේවාවන් අයිතමය",
+        "උපදේශන සහ සැකසුම් සේවා කොන්ත්රාත්තුව",
         "POD අයිතමය සේවාවන් අයිතමය",
-        "අලෙවි අයිතමය අයිතමය සේවාවන් අයිතමය",
+        "අලෙවිකරණ සහ ප්‍රවර්ධන සේවා කොන්ත්‍රාත්තුව",
         "ව්‍යාපාරය අයිතමය සේවාව අයිතමය",
       ],
     },
@@ -12118,19 +12118,19 @@ export default {
       description: [
         "අයිතමය මුදල් ආපසු අයිතමය අයිතමය මිලදී!",
         "අයිතමය අයිතමය ",
-        "අයිතමය මුදල් ආපසු පිරිනැමීම් අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය මුදල් ආපසු අයිතමය",
+        "ඔබට පමණක් සුවිශේෂී මුදල් ආපසු දීමනා.",
+        "මුදල් ආපසු දීමේ ත්‍යාග සමඟ විශාල ඉතුරුම් භුක්ති විඳින්න.",
         "අයිතමය මුදල් ආපසු අයිතමය සෑම අයිතමය අයිතමය අයිතම",
         "සුරකින්න තව. . අයිතමය අයිතමය මුදල් ආපසු ගනුදෙනු",
-        "අයිතමය අයිතමය මුදල් ආපසු අයිතමය අයිතමය දින 30!",
+        "විශේෂ දිනවලදී ඔබේ මුදල් ආපසු දෙගුණ කරන්න!",
         "අයිතමය මුදල් ආපසු අයිතමය වේලාව අයිතමය සාප්පු යන්න",
         "අයිතමය අයිතමය මුදල් ආපසු අයිතමය අද!",
         "VIP සාමාජිකයින් අයිතමය අයිතමය මුදල් ආපසු",
         "අයිතමය! අයිතමය වේලාව මුදල් ආපසු පිරිනැමීම්",
-        "අයිතමය අයිතමය මුදල් ආපසු අයිතමය සමාජය අයිතමය",
+        "දැන්ම අපගේ Cashback Rewards Club හා එක්වන්න.",
         "අයිතමය තව. . අයිතමය සාප්පු යන්න, අයිතමය තව. . අයිතමය සුරකින්න",
-        "අයිතමය අයිතමය අයිතමය මුදල් ආපසු අයිතමය",
-        "අයිතමය අයිතමය අයිතමය මුදල් ආපසු ගනුදෙනු අයිතමය",
+        "අවසාන මුදල් ආපසු දීමේ ත්‍යාග අගුළු හරින්න.",
+        "අවට ඇති හොඳම මුදල් ආපසු දීමේ ගනුදෙනු අත්විඳින්න.",
       ],
     },
 
@@ -12144,10 +12144,10 @@ export default {
         "{shop} හි පමණක් සුවිශේෂී ගනුදෙනු සහ ඉතුරුම් - අවස්ථාව ලබා ගන්න!",
         "පරිසර හිතකාමීත්වය සහ සදාචාරාත්මක භාවිතයන් සඳහා {shop} ගේ කැපවීම දැන ගන්න",
         "{shop} පවුලේ කොටසක් වන්න - යාවත්කාලීන සඳහා අපගේ පුවත් පත්‍රිකාවට දායක වන්න",
-        "අයිතමය අයිතමය {shop}",
+        "{shop} හි ඉහළම තේරීම් සහ ඉහළ ශ්‍රේණිගත භාණ්ඩ වෙත කිමිදෙන්න",
         "අයිතමය අයිතමය සෑම සිද්ධීන් අයිතමය {shop}",
-        "අයිතමය පිරිනැමීම් අයිතමය අයිතමය {shop} - අයිතමය අයිතමය!",
-        "{shop}'අයිතමය අයිතමය නිෂ්පාදන අයිතමය - සාප්පු යන්න අයිතමය අයිතමය",
+        "{shop} හි අසමසම දීමනා සහ කාලයට සංවේදී විශේෂතා - වේගයෙන් ක්‍රියා කරන්න!",
+        "{shop} හි විස්තීර්ණ මිලදී ගැනීමේ ඉඟි සහ නිෂ්පාදන ඇගයීම් - විශ්වාසයෙන් සාප්පු යන්න",
         "{shop} වෙත ළඟා වන්න - අපි අසමසම සාප්පු සවාරි අත්දැකීමක් ලබා දීමට උත්සාහ කරමු",
       ],
     },
@@ -12158,24 +12158,24 @@ export default {
     cross_selling: {
       message: [
         "ඔබේ පෙනුම සම්පූර්ණ කරන්න, කට්ටලය අල්ලා ගන්න!",
-        "සුරකින්න අයිතමය අයිතමය ගනුදෙනු!",
-        "අයිතමය අයිතමය !",
-        "අයිතමය අයිතමය මිලදී, අයිතමය අයිතමය!",
-        "අයිතමය අයිතමය අයිතමය, මිලදී ගන්න අයිතමය!",
-        "අයිතමය අයිතම, අයිතමය වට්ටම!",
-        "අයිතමය තව. ., අයිතමය අයිතමය – අයිතමය අයිතමය!",
-        "අයිතමය පිරිනැමීම: අයිතමය නිෂ්පාදන!",
-        "අයිතමය අයිතමය අයිතමය, අයිතමය ගනුදෙනු!",
-        "අයිතමය අයිතමය , සුරකින්න අයිතමය!",
-        "අයිතමය අයිතමය !",
-        "සාප්පු යන්න අයිතමය, අයිතමය අයිතමය සුරකින්න!",
-        "අයිතමය අයිතමය වටිනාකම, අයිතමය අයිතමය අයිතමය!",
-        "අයිතමය අයිතමය – සාප්පු යන්න අයිතමය!",
-        "අයිතමය අයිතමය මිල නියම කිරීම අයිතමය අයිතමය අයිතමය!",
-        "අයිතමය අයිතමය !",
-        "අයිතමය අයිතමය !",
-        "අයිතමය අයිතමය අයිතමය: අයිතමය අයිතමය සුරකින්න!",
-        "අයිතමය අයිතමය !",
+        "අපගේ මිටි ගනුදෙනු සමඟ විශාල වශයෙන් ඉතිරි කරන්න!",
+        "අපගේ පරිපූර්ණ යුගල අතපසු නොකරන්න!",
+        "ඔබගේ මිලදී ගැනීම වැඩි දියුණු කරන්න, ඇඩෝන බලා සිටින්න!",
+        "සුවිශේෂී ඉතුරුම් අගුළු හරින්න, එකට මිලදී ගන්න!",
+        "අනුපූරක භාණ්ඩ, විශේෂ වට්ටම්!",
+        "වැඩිපුර ලබා ගන්න, අඩුවෙන් වියදම් කරන්න - එකතු කරන්න!",
+        "සීමිත කාලීන දීමනාව: ගැලපෙන නිෂ්පාදන!",
+        "ඔබේ අත්දැකීම් වැඩිදියුණු කරන්න, සංයුක්ත ගනුදෙනු!",
+        "අපගේ සංයෝජන සොයා ගන්න, දැන් සුරකින්න!",
+        "අවසාන සංයෝජනය සඳහා එය යුගල කරන්න!",
+        "බුද්ධිමත්ව සාප්පු යන්න, මිටි කර සුරකින්න!",
+        "වටිනාකම දෙගුණ කරන්න, විනෝදය දෙගුණ කරන්න!",
+        "ඔබගේ පරිපූර්ණ ගැලපීම මෙහි ඇත - දැන් සාප්පු යන්න!",
+        "ඔබ සඳහා පමණක් සුවිශේෂී මිටි මිල!",
+        "අපගේ සංයෝජන සමඟ ඔබේ ඉතුරුම් උපරිම කරන්න!",
+        "මෙම තේරීම් සමඟින් ඔබේ එකතුව වැඩි දියුණු කරන්න!",
+        "ඔබ වෙනුවෙන් සකස් කර ඇත: ගැලපෙන සහ සුරකින්න!",
+        "පරිපූර්ණ දවසක් සඳහා පරිපූර්ණ යුගලය!",
         "අමතර ඉතිරිකිරීම් සඳහා ඔබේ ප්‍රියතමයන් බණ්ඩල් කරන්න!",
       ],
     },
@@ -12223,7 +12223,7 @@ export default {
         "🛍️ ඇනවුම් කරන්න අයිතමය අයිතමය භාරදීම",
         "ආපසු අයිතමය",
         "මුදල් ආපසු ගෙවීම අයිතමය",
-        "අයිතමය ආපසු අයිතමය අයිතමය",
+        "අයිතමය නැවත තොගයේ",
       ],
       body: [
         "හායි {buyer_name}, ඔබේ ඇණවුම #{order_id} තහවුරු කර ඇත! අපි එය සකසමින් සිටින අතර එය නැව්ගත කිරීමට සූදානම් වූ විට ඔබට දන්වන්නෙමු.",
@@ -12255,25 +12255,25 @@ export default {
      */
     property_set: {
       title: [
-        "අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය",
+        "ඇඳුම",
+        "ඩිජිටල් උපකරණ",
+        "බීම වර්ග",
         "ආහාර",
-        "ගෘහභාණ්ඞ",
-        "අයිතමය",
-        "අයිතමය නිෂ්පාදන",
-        "අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය",
+        "ගෘහ භාණ්ඩ",
+        "පොත්",
+        "රූපලාවන්ය නිෂ්පාදන",
+        "සෙල්ලම් බඩු",
+        "ක්රීඩා උපකරණ",
+        "උපාංග",
       ],
       description: [
         "ප්‍රමාණය, වර්ණය සහ රෙදි වැනි ඇඳුම් අයිතම සඳහා ගුණාංග.",
-        "පිරිවිතර අයිතමය අයිතමය වෙළඳ නාමය, අයිතමය, අයිතමය අයිතමය",
-        "අයිතමය, අයිතමය, අයිතමය වර්ග අයිතමය අයිතමය",
-        "විස්තර අයිතමය අයිතමය, අයිතමය, අයිතමය අයිතමය නිෂ්පාදන",
-        "Material, අයිතමය, අයිතමය නිර්මාණ අයිතමය",
-        "කර්තෘ, අයිතමය, අයිතමය අයිතමය අයිතමය",
-        "අයිතමය ටයිප් කරන්න, අයිතමය, අයිතමය අයිතමය විස්තර",
+        "වෙළඳ නාමය, මාදිලිය සහ විශේෂාංග වැනි උපකරණ සඳහා පිරිවිතර.",
+        "රස, ප්රමාණ සහ බීම වර්ග.",
+        "ආහාර, සුලු කෑම සහ ආහාර නිෂ්පාදන සඳහා විස්තර.",
+        "ද්රව්ය, මානයන් සහ මෝස්තර මෝස්තර.",
+        "කර්තෘ, ප්‍රභේදය සහ ප්‍රකාශන වර්ෂය.",
+        "සමේ වර්ගය, අමුද්රව්ය සහ ඇසුරුම් විස්තර.",
         "වයස් කාණ්ඩය, ද්රව්ය සහ ආරක්ෂක ප්රමිතීන්.",
         "ටයිප් කරන්න, අයිතමය, අයිතමය කාර්ය සාධනය අයිතමය",
         "අයිතමය, අයිතමය, අයිතමය වෙළඳ නාමය විස්තර",
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "අයිතමය XS",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය XL",
-        "අයිතමය XXL",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය",
-        "අයිතමය අයිතමය අයිතමය", // flexible mailer
-        "අයිතමය අයිතමය", // bubble/padded
-        "අයිතමය අයිතමය", // thermal
-        "අයිතමය අයිතමය",
+        "පෙට්ටිය XS",
+        "පෙට්ටිය එස්",
+        "පෙට්ටිය එම්",
+        "පෙට්ටිය එල්",
+        "පෙට්ටිය XL",
+        "පෙට්ටිය XXL",
+        "පෙට්ටිය සිහින්",
+        "කොටුව පළල",
+        "පෙට්ටිය උස",
+        "පෙට්ටිය පැතලි",
+        "පෙට්ටි කියුබ්",
+        "පෙට්ටි නළය",
+        "පෙට්ටිය බිඳෙන සුළුය",
+        "පෙට්ටි වීදුරු බෝතල්",
+        "පෙට්ටිය මෘදු පැකේජය", // flexible mailer
+        "පෙට්ටිය පිරවූ", // bubble/padded
+        "පෙට්ටිය පරිවරණය කර ඇත", // thermal
+        "පෙට්ටිය බර - රාජකාරි",
       ],
     },
   },

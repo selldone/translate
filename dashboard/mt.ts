@@ -10734,7 +10734,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "oġġett & oġġett",
+    title: "Drag & Drop",
     subtitle: "Sezzjonijiet Mibnija minn qabel",
     add_dialog: {
       title: "Żid Taqsima tad-Dwana",
@@ -11508,7 +11508,7 @@ export default {
         "Ikseb aktar għal inqas! Skontijiet tal-għaġeb meta tixtri l-pakketti magħżula tagħna.",
         "Iffranka l-kbir meta inti pakkett! Offerti esklussivi fuq oġġetti magħżula għal żmien limitat.",
         "Għaqqad u ssalva! Skontijiet esklussivi meta tixtri l-prodotti magħżula tagħna flimkien.",
-        "Iktar ma tixtri, aktar tiffranka! Ikseb intelliġenti bil-pakketti speċjali tagħna.",
+        "Iktar ma tixtri, aktar tiffranka! Ikseb intelliġenti bil-qatet speċjali tagħna.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "Merħba għal {shop} - Esplora l-Firxa Distinttiva Tagħna ta' Oġġetti",
+        "Merħba għal {shop} - Esplora l-firxa distintiva ta 'oġġetti tagħna",
         "{shop} - Is-Sors Aħħari Tiegħek għal Merkanzija ta' Kwalità u Servizz Pendenti",
-        "Deals esklussivi u tfaddil biss fi {shop} - Aħtaf l-Opportunità!",
+        "Deals esklussivi u tfaddil biss f'{shop} - Aħtaf l-Opportunità!",
         "Kun af id-Dedikazzjoni ta' {shop} għall-Eko-friendly u l-Prattiċi Etiċi",
         "Issir Parti mill-Familja {shop} - Abbona man-Newsletter Tagħna għal Aġġornamenti",
-        "Għaddas fl-Aqwa Picks u Oġġetti b'rata Għolja fi {shop}",
-        "Ippreżenta Ideat u Suġġerimenti Kreattivi għall-Avvenimenti Kollha fi {shop}",
-        "Offerti bla konfront u Speċjali sensittivi għall-ħin fi {shop} - Aġixxi Mgħaġġla!",
-        "Suġġerimenti Komprensivi dwar ix-Xiri u Evalwazzjonijiet tal-Prodotti ta' {shop} - Ħut b'kunfidenza",
-        "Ilħaq {shop} - Naħdmu biex Inwasslu Esperjenza ta' Xiri Mhux Imqabbla",
+        "Għaddas fl-Aqwa Picks u Oġġetti b'rata Għolja f'{shop}",
+        "Ideat Ippreżenta u Suġġerimenti Kreattivi għall-Avvenimenti Kollha f'{shop}",
+        "Offerti bla xkiel u Speċjali sensittivi għall-ħin f'{shop} - Aġixxi Mgħaġġla!",
+        "Suġġerimenti Komprensivi dwar ix-Xiri u Evalwazzjonijiet tal-Prodotti ta' {shop} - Ixtri b'kunfidenza",
+        "Ilħaq lil {shop} - Naħdmu biex inwasslu Esperjenza ta' Xiri mhux imqabbla",
       ],
     },
 

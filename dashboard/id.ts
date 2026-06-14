@@ -270,7 +270,7 @@ export default {
       Developer: "Mengembangkan",
 
       Product: "Manajemen Produk & Kategori",
-      Blog: "item & item",
+      Blog: "CMS & Blog",
       Order: "Pusat Pemenuhan Pesanan",
       Channel: "Saluran Penjualan",
       Accounting: "Metode Akuntansi & Pembayaran",
@@ -1911,7 +1911,7 @@ export default {
     },
     RETURN_POLICY: {
       title: "Kebijakan pengembalian",
-      desc: "Kebijakan pengembalian barang menguraikan bagaimana pelanggan dapat mengembalikan atau menukar barang dagangan yang tidak diinginkan. Kebijakan tersebut menentukan barang yang memenuhi syarat, alasan pengembalian yang dapat diterima, dan jangka waktu pengembalian.",
+      desc: "Kebijakan pengembalian menguraikan bagaimana pelanggan dapat mengembalikan atau menukar barang dagangan yang tidak diinginkan. Mereka menentukan item yang memenuhi syarat, alasan pengembalian yang dapat diterima, dan jangka waktu pengembalian.",
     },
     GUIDE: {
       title: "Memandu",
@@ -2355,7 +2355,7 @@ export default {
       /** {@see BProductFinanceCharts} **/
       finance: {
         title: "Keuangan",
-        title_small: "item laporan item {start} ~ {end}.",
+        title_small: "Laporan Pembelian antara {start} ~ {end}.",
         select_mode_title: "Tampilkan Oleh",
         modes: {
           sell: "Penjualan",
@@ -2602,7 +2602,7 @@ export default {
     set_volume_warning: "Silakan tentukan volumenya.",
     set_pack_warning: "Silakan tentukan ukuran paket.",
     set_weight_warning: "Silakan tentukan beratnya.",
-    set_type_warning: "item pilih item tipe.",
+    set_type_warning: "Silakan pilih jenis.",
     set_style_warning: "Silakan pilih gaya.",
     out_of_stock: "Saat ini stok habis",
 
@@ -3343,7 +3343,7 @@ export default {
       },
 
       express_input: {
-        true_title: "item | batal pesanan item",
+        true_title: "Ekspres | Segera Batalkan Pesanan",
         false_title: "Standar | Batalkan Pesanan Setelah 48 Jam",
         true_description:
           "Opsi ini akan segera membatalkan pesanan Anda dan segera memperbarui inventaris.",
@@ -3513,7 +3513,7 @@ export default {
     basket_list: {
       checklist: [
         "Periksa inventaris.",
-        "Jika item tersebut tidak tersedia, jumlah yang dibayarkan untuk item tersebut harus dikembalikan kepada pelanggan.",
+        "Jika barang tidak tersedia, jumlah yang dibayarkan untuk barang tersebut harus dikembalikan kepada pelanggan.",
       ],
       message:
         "Jika salah satu item tidak tersedia atau tidak dapat dijual, hapus centang pada kotak di sebelahnya dan klik tombol <b>Konfirmasi Pesanan</b> .",
@@ -3534,7 +3534,7 @@ export default {
       need_payback: {
         title: "Pelanggan wajib membayar kembali",
         message:
-          "Kami telah memperhatikan bahwa total pengembalian dana kepada pelanggan lebih tinggi daripada jumlah yang harus dibayarkan berdasarkan barang-barang di keranjang. Anda mungkin perlu menagih pelanggan untuk mendapatkan kembali kelebihan jumlah tersebut.",
+          "Kami memperhatikan bahwa total pengembalian dana kepada pelanggan lebih tinggi daripada jumlah terutang berdasarkan item dalam keranjang. Anda mungkin perlu menagih pelanggan Anda untuk memulihkan jumlah kelebihannya.",
       },
       need_no_refund: {
         title: "Tidak perlu pengembalian uang",
@@ -4035,7 +4035,7 @@ export default {
 
     "email-buy": "Kirim email konfirmasi pembelian ke pelanggan.",
     "email-payment": "Kirim email konfirmasi pembayaran ke pelanggan.",
-    "email-update": "item pesanan perbarui email item pelanggan.",
+    "email-update": "Kirim email pembaruan pesanan ke pelanggan.",
 
     "email-vendor":
       "Email informasi pemesanan telah dikirim ke <b>{vendor}</b> ╏ {email}.",
@@ -4978,7 +4978,7 @@ export default {
     },
     "backoffice:cashback:write": {
       name: "Manajemen Uang Kembali",
-      description: "item toko item penawaran.",
+      description: "Kelola penawaran uang kembali toko.",
     },
     "backoffice:cashback:read": {
       name: "item akses",
@@ -4986,7 +4986,7 @@ export default {
     },
     "backoffice:lottery:write": {
       name: "Manajemen Lotere",
-      description: "item toko item.",
+      description: "Kelola lotere toko.",
     },
     "backoffice:lottery:read": {
       name: "item akses",
@@ -5010,7 +5010,7 @@ export default {
     },
     "backoffice:ribbon:write": {
       name: "Manajemen Pita",
-      description: "item toko item.",
+      description: "Kelola pita toko.",
     },
     "backoffice:ribbon:read": {
       name: "item akses",
@@ -5018,7 +5018,7 @@ export default {
     },
     "backoffice:ai:write": {
       name: "AI item",
-      description: "item AI item.",
+      description: "Kelola konfigurasi AI.",
     },
     "backoffice:ai:read": {
       name: "AI akses",
@@ -5102,7 +5102,7 @@ export default {
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
       name: "Manajemen Penyedia",
-      description: "item terhubung layanan item.",
+      description: "Kelola penyedia layanan yang terhubung.",
     },
     "connect:provider:read": {
       name: "item akses",
@@ -5138,7 +5138,7 @@ export default {
     },
     storefront: {
       title: "Etalase",
-      description: "akses item pelanggan item toko informasi.",
+      description: "Akses ke informasi pelanggan dan toko.",
     },
     profile: {
       title: "Profil",
@@ -5968,7 +5968,7 @@ export default {
         placeholder: "Opsional, misalnya, 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "opsional, item.item., 001-808-210354",
+        placeholder: "Opsional, misalnya 001-808-210354",
       },
       bank: {
         placeholder: "Opsional, misalnya Arstra Bank, No: 10002-325-800-845213",
@@ -6361,7 +6361,7 @@ export default {
   offers: {
     title: "Penawaran",
     sub_title:
-      "Anda dapat membuat penawaran khusus untuk pelanggan Anda sehingga, setelah membeli satu item, mereka akan menerima item lain dengan diskon atau bahkan gratis.",
+      "Anda dapat membuat penawaran khusus untuk pelanggan Anda sehingga setelah membeli satu item, mereka akan menerima item lain dengan harga diskon atau bahkan gratis.",
     create_new: "Tambahkan penawaran baru",
     qualified_products: "Produk yang memenuhi syarat",
     min_quantity: "jumlah minimum",
@@ -6400,7 +6400,7 @@ export default {
     offered_products: "Produk yang ditawarkan",
     offered_products_message: "Setidaknya salah satu dari produk ini harus ada di keranjang.",
     discount_percent: "persentase diskon",
-    discount_percent_message: "Persentase diskon untuk barang-barang ini.",
+    discount_percent_message: "Persentase diskon untuk item ini.",
     discount_percent_hint: "Jumlah persentase diskon",
 
     per_order: "Jumlah maksimum penggunaan per pesanan",
@@ -7154,7 +7154,7 @@ export default {
       },
       shipping: {
         label: "pengiriman item",
-        true_title: "vendor item pengiriman item",
+        true_title: "Vendor Memiliki Opsi Pengiriman",
         false_description:
           "Pilih atau masukkan informasi yang diperlukan.",
         true_description:
@@ -7172,7 +7172,7 @@ export default {
         true_description:
           "Pilih atau masukkan informasi yang diperlukan.",
         true_title: "item mode",
-        false_title: "item vendor mode (item)",
+        false_title: "Mode Vendor Tunggal (Default)",
       },
 
       listing: {
@@ -7245,7 +7245,7 @@ export default {
         "Kelola informasi dan pengaturan bagian ini di sini.",
     },
     Direct: {
-      title: "item pengiriman item vendor",
+      title: "Pengiriman Langsung dari Vendor",
       description:
         "Kelola informasi dan pengaturan bagian ini di sini.",
     },
@@ -7270,7 +7270,7 @@ export default {
         "Kelola informasi dan pengaturan bagian ini di sini.",
     },
     Contract: {
-      title: "item & item",
+      title: "Kontrak & Perjanjian",
       description:
         "Unggah kontrak atau perjanjian yang merinci syarat dan ketentuan hubungan bisnis Anda.",
     },
@@ -7589,7 +7589,7 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "item & item",
+      title: "Orientasi & Masuk",
       subtitle:
         "Kelola informasi dan pengaturan bagian ini di sini.",
     },
@@ -7711,7 +7711,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "item nilai item... (opsional)",
+        placeholder: "Tetapkan nilai, tetapkan... (opsional)",
         messages:
           "Anda dapat memberikan saran untuk nilai dan menyesuaikan pesanan.",
       },
@@ -9290,7 +9290,7 @@ export default {
       mode: {
         title: "Titik masuk pelanggan",
         default: {
-          title: "item (item)",
+          title: "Secepatnya (Bawaan)",
           msg: "Pengguna masuk sesegera mungkin. (Lebih banyak konversi)",
         },
         on_checkout: {
@@ -10034,7 +10034,7 @@ export default {
     title: "Penjualan Silang",
     add_new_actions: "Tambahkan Produk Baru",
     subtitle:
-      "Di bagian ini, Anda dapat menambahkan dan mengelola produk cross-sell untuk halaman produk ini. Produk-produk ini akan ditampilkan sebagai saran bagi pelanggan untuk dibeli di samping item utama. Anda juga dapat menetapkan diskon untuk mendorong dan memberi insentif pembelian tambahan. Sistem akan menampilkan maksimal 3 item untuk dipertimbangkan pelanggan.",
+      "Di bagian ini, Anda dapat menambahkan dan mengelola produk cross-sell untuk halaman produk ini. Produk-produk ini akan ditampilkan sebagai saran bagi pelanggan untuk membeli bersama dengan item utama. Anda juga dapat menetapkan diskon untuk mendorong dan memberi insentif pada pembelian tambahan. Sistem akan menampilkan maksimal 3 item untuk dipertimbangkan pelanggan.",
     dialog: {
       edit_title: "Edit produk penjualan silang",
       add_title: "Tambahkan produk cross-selling baru",
@@ -10396,7 +10396,7 @@ export default {
     help_dialog: {
       title: "Cara menggunakan konten dinamis",
       how_it_works_tips:
-        "Di halaman landing page, Anda memiliki fleksibilitas untuk menetapkan placeholder dinamis untuk teks dan gambar. Placeholder ini memiliki peran penting dalam menyesuaikan konten sesuai konteks. Sifat dinamis placeholder ini memungkinkannya diisi dengan nilai augmentasi, yang dapat bervariasi berdasarkan berbagai faktor. Misalnya, nilai augmentasi mungkin berbeda untuk setiap produk atau kategori. Keuntungan nyata dari fitur ini muncul saat Anda memiliki berbagai item dengan atribut yang berbeda. Anda dapat secara efektif memanfaatkan placeholder dinamis ini untuk mempersonalisasi dan meningkatkan tampilan setiap item, sehingga menciptakan pengalaman yang unik dan interaktif di halaman landing page Anda.",
+        "Di laman landas, Anda memiliki fleksibilitas untuk menetapkan placeholder dinamis untuk teks dan gambar. Placeholder ini berperan penting dalam menyesuaikan konten sesuai dengan konteksnya.   Sifat dinamis dari placeholder ini memungkinkannya diisi dengan nilai augmentasi, yang dapat bervariasi berdasarkan berbagai faktor. Misalnya, nilai augmentasi mungkin berbeda untuk setiap produk atau kategori. Keuntungan sebenarnya dari fitur ini muncul ketika Anda memiliki beragam item dengan atribut berbeda. Anda dapat secara efektif memanfaatkan placeholder dinamis ini untuk mempersonalisasi dan menyempurnakan tampilan setiap item, sehingga menciptakan pengalaman unik dan interaktif di laman landas Anda.",
       assign_tips:
         "Untuk menetapkan nilai dinamis pada gambar, klik tombol pengumpan yang terletak di sisi kiri bagian tersebut.",
       set_dynamic_image_tips:
@@ -10511,7 +10511,7 @@ export default {
     title: "Manajemen Item yang Termasuk",
     add_caption: "Tambahkan Item Baru",
     subtitle:
-      "Di sini, Anda dapat mengelola item yang disertakan dalam produk Anda. Untuk memastikan tampilan toko Anda sempurna, gunakan item dengan pola gambar yang serupa, seperti wireframe, secara konsisten di semua produk.",
+      "Di sini, Anda dapat mengelola item yang disertakan dalam produk Anda. Untuk memastikan tampilan toko Anda yang sempurna, gunakan item dengan pola gambar serupa secara konsisten, seperti gambar rangka, di semua produk.",
     empty_list_msg: "Daftar item yang disertakan...",
     notifications: {
       delete: {
@@ -10521,7 +10521,7 @@ export default {
     delete_dialog: {
       title: "Hapus item yang disertakan",
       message:
-        "Apakah Anda yakin ingin menghapus item ini secara permanen? Harap perhatikan bahwa item ini juga akan dihapus dari semua produk terkait!",
+        "Apakah Anda yakin ingin menghapus item ini secara permanen? Harap diperhatikan bahwa ini juga akan dihapus dari semua produk terkait!",
       action: "Ya, Hapus sekarang",
     },
     actions: {
@@ -10565,7 +10565,7 @@ export default {
       external_link: {
         title: "Tautan eksternal",
         description: "Tetapkan tautan ke url eksternal.",
-        tips: "Anda dapat melampirkan URL apa pun ke item tersebut. Saat pengguna mengklik item di halaman produk, mereka akan diarahkan ke tautan tersebut.",
+        tips: "Anda dapat melampirkan URL apa pun ke item tersebut. Ketika pengguna mengklik item di halaman produk, mereka akan diarahkan ke link tersebut.",
       },
       internal_link: {
         title: "Tautan internal",
@@ -10739,7 +10739,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "item & item",
+    title: "Seret & Jatuhkan",
     subtitle: "Bagian yang Telah Dibangun Sebelumnya",
     add_dialog: {
       title: "Tambahkan Bagian Kustom",
@@ -10791,7 +10791,7 @@ export default {
     invited: "Diundang",
     no_pricing: "item harga",
     no_pricing_tooltip: {
-      title: "item harga item",
+      title: "Paket Harga Default",
       subtitle: "Kelola informasi dan pengaturan bagian ini di sini.",
     },
     updated_products_tooltip: {
@@ -10811,7 +10811,7 @@ export default {
         "Kelola informasi dan pengaturan bagian ini di sini.",
     },
     download_all_vendors: "Kelola informasi dan pengaturan bagian ini di sini.",
-    bulk_import: "item impor (item)",
+    bulk_import: "Impor massal (Excel)",
   },
 
   /**
@@ -10870,7 +10870,7 @@ export default {
         },
         body: {
           label: "item pesan",
-          placeholder: "tulis item pesan item...",
+          placeholder: "Tulis pesan Anda di sini...",
           messages:
             "Anda dapat mengatur nilai dinamis dengan {order_id} dan {buyer_name}.",
         },
@@ -11024,7 +11024,7 @@ export default {
       sub_title:
         "Atur direktori Anda dengan kategori dan subkategori. Ini meningkatkan navigasi dan pemfilteran.",
 
-      empty_title: "item kategori item",
+      empty_title: "Belum ada kategori",
       empty_subtitle:
         "Buat kategori untuk menyusun daftar Anda dan meningkatkan penelusuran.",
 
@@ -11075,7 +11075,7 @@ export default {
         "Saat pengguna mengirimkan item baru, item tersebut akan muncul di sini untuk moderasi.",
 
       review_title: "Tinjau barang",
-      approve_publish: "item & item",
+      approve_publish: "Setujui & publikasikan",
 
       submitted_at: "Dikirim",
       quick_actions: "Tindakan cepat",
@@ -11229,7 +11229,7 @@ export default {
       note: "Nanti Anda dapat mengonfigurasi moderasi, batasan, formulir, dan desain di dalam pengaturan Daftar.",
       vendor_prereq_text:
         "Kelola informasi dan pengaturan bagian ini di sini.",
-      vendor_prereq_button: "item marketplace bisnis item",
+      vendor_prereq_button: "Tetapkan model bisnis Marketplace",
 
       vendor_access_text:
         "Kelola informasi dan pengaturan bagian ini di sini.",
@@ -11255,7 +11255,7 @@ export default {
 
       radius_default: "Radius bawaan (km)",
       radius_default_hint: "Digunakan ketika pelanggan memilih lokasi tetapi tidak memilih radius.",
-      radius_max: "maksimum item (item)",
+      radius_max: "Radius maksimum (km)",
       radius_max_hint: "Jari-jari etalase akan disesuaikan dengan nilai ini.",
       radius_options: "Opsi radius (km)",
       radius_options_hint: "Nilai-nilai ini dapat ditampilkan sebagai opsi cepat di UI etalase.",
@@ -11696,7 +11696,7 @@ export default {
         "Taman & Luar Ruangan",
         "Peralatan dapur",
         "Dekorasi rumah",
-        "Alat-alat musik",
+        "Alat Musik",
         "Persediaan Hewan Peliharaan",
         "Alas kaki",
         "Tas & Koper",
@@ -12144,16 +12144,16 @@ export default {
      */
     page: {
       prompts: [
-        "Selamat datang di {shop} - Jelajahi Berbagai Barang Khas Kami",
-        "{shop} - Sumber Utama Anda untuk Barang Berkualitas dan Layanan Luar Biasa",
-        "Penawaran Eksklusif dan Penghematan Hanya di {shop} - Raih Kesempatan!",
-        "Kenali Dedikasi {shop} terhadap Keramahan Lingkungan dan Praktik Etis",
-        "Jadilah Bagian dari Keluarga {shop} - Berlangganan Newsletter Kami untuk Pembaruan",
-        "Jelajahi Pilihan Terbaik dan Barang Berperingkat Tinggi di {shop}",
+        "Selamat datang di {shop} - Jelajahi Berbagai Produk Khas Kami",
+        "{shop} - Sumber Utama Anda untuk Barang Dagangan Berkualitas dan Layanan Luar Biasa",
+        "Penawaran Eksklusif dan Hemat Hanya di {shop} - Raih Peluangnya!",
+        "Kenali Dedikasi {shop} terhadap Ramah Lingkungan dan Praktik Etis",
+        "Menjadi Bagian dari Keluarga {shop} - Berlangganan Buletin Kami untuk Pembaruan",
+        "Selami Pilihan Teratas dan Barang Berperingkat Tinggi di {shop}",
         "Hadirkan Ide dan Saran Kreatif untuk Semua Acara di {shop}",
-        "Penawaran Tak Tertandingi dan Spesial Sensitif Waktu di {shop} - Bertindak Cepat!",
-        "Tips Membeli dan Evaluasi Produk Lengkap dari {shop} - Berbelanja dengan Percaya Diri",
-        "Hubungi {shop} - Kami Berusaha Memberikan Pengalaman Berbelanja yang Tak Tertandingi",
+        "Penawaran Tak Tertandingi dan Penawaran Spesial yang Sensitif terhadap Waktu di {shop} - Bertindak Cepat!",
+        "Tips Membeli dan Evaluasi Produk Komprehensif {shop} - Berbelanja dengan Percaya Diri",
+        "Hubungi {shop} - Kami Berusaha Memberikan Pengalaman Belanja yang Tak Tertandingi",
       ],
     },
 
@@ -12231,27 +12231,27 @@ export default {
         "Barang Kembali dalam Stok",
       ],
       body: [
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Hai {buyer_name}, pesanan Anda #{order_id} telah dikonfirmasi! Kami sedang memprosesnya dan akan memberi tahu Anda jika sudah siap dikirim.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Kabar baik, {buyer_name}! Pesanan Anda #{order_id} telah dikirimkan. Anda dapat melacaknya melalui akun Anda. Terima kasih telah berbelanja dengan kami!",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Halo {buyer_name}, pesanan Anda #{order_id} telah berhasil dikirimkan. Kami harap Anda menikmati pembelian Anda. Terima kasih!",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Hai {buyer_name}, kami telah menerima pembayaran untuk pesanan #{order_id}. Pesanan Anda sedang diproses dan akan segera dikirim.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "{buyer_name} yang terhormat, dengan menyesal kami informasikan bahwa pesanan Anda #{order_id} telah dibatalkan. Jika Anda memiliki pertanyaan, silakan hubungi dukungan.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "{buyer_name} yang terhormat, kami mengalami penundaan pada pesanan Anda #{order_id}. Kami mohon maaf atas ketidaknyamanan ini dan berupaya menyelesaikannya sesegera mungkin.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Hai {buyer_name}, pesanan Anda #{order_id} sedang ditangguhkan. Silakan periksa akun Anda atau hubungi dukungan untuk rincian lebih lanjut.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Hai {buyer_name}, pesanan Anda #{order_id} sudah siap dikirim dan akan segera Anda terima. Terima kasih atas kesabaran Anda!",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Dear {buyer_name}, kami telah memproses pengembalian pesanan Anda #{order_id}. Jika Anda memiliki pertanyaan, silakan hubungi dukungan.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Hai {buyer_name}, pengembalian dana Anda untuk pesanan #{order_id} telah dikeluarkan. Anda akan segera melihat dana di akun Anda.",
 
-        "Kelola informasi dan pengaturan bagian ini di sini. {buyer_name} {order_id}",
+        "Hai {buyer_name}, item dari pesanan Anda #{order_id} tersedia kembali! Anda dapat melakukan pemesanan baru sekarang jika Anda masih tertarik.",
       ],
     },
 

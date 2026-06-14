@@ -8823,7 +8823,7 @@ export default {
     create_by_seller_message:
       "Raha te hamorona faktiora miaraka amin'ny vola voafaritra ianao ary handefa izany amin'olona iray dia azonao atao ny manindry ny bokotra etsy ambany mba hampisehoana ny taratasy faktiora. Omeo rohy novokarina ho an'ny mpividy handoa sy hanarahany ny baikony amin'ny alalan'izany.",
 
-    create_by_buyer_title: "endrika avocado Avocado",
+    create_by_buyer_title: "endrika avocado",
     create_by_buyer_message:
       "Amin'ny fampahavitrihana ity fizarana ity dia hisy rohy haseho anao, omeo ity rohy ity ho an'ny mpividy anao mba hahafahan'izy ireo mametraka ny baikony.",
 
@@ -8881,7 +8881,7 @@ export default {
     title: "Zavoka Avocado",
     title_small: "singan-javatra singan-javatra Varotra",
     pending_orders: "Mavitrika baiko",
-    avocado: "Manafatra avocado Avocado",
+    avocado: "Manafatra avocado",
   },
   /** {@see BAvocadoInvoice} **/
   avocado_process: {
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Ny mpivarotra singan-javatra singan-javatra singan-javatra TSY.",
       PENDING: "Ny singan-javatra ny miandry singan-javatra singan-javatra singan-javatra Ny mpivarotra.",
     },
-    number_of_products: "ny ny vokatra",
+    number_of_products: "Isan'ny vokatra",
     invited: "singan-javatra",
     no_pricing: "tsy misy singan-javatra",
     no_pricing_tooltip: {
@@ -11703,14 +11703,14 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "singan-javatra", // Provincial Sales Tax
-        "singan-javatra", // Harmonized Sales Tax
-        "singan-javatra", // Quebec Sales Tax
-        "singan-javatra", // Central Sales Tax
-        "singan-javatra", // Excise Tax
-        "singan-javatra", // Import Duty
-        "singan-javatra", // Service Tax
-        "singan-javatra", // Luxury Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
+        "ExciseTax", // Excise Tax
+        "ImportDuty", // Import Duty
+        "ServiceTax", // Service Tax
+        "LuxuryTax", // Luxury Tax
       ],
     },
     /**
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "singan-javatra singan-javatra",
-        "mpivarotra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
+        "Fampisehoana fananan-tany",
+        "Vendor Plaza",
+        "Trano nasongadina",
+        "Tsena eo an-toerana",
         "Vaovao tonga",
-        "sy singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
-        "singan-javatra singan-javatra",
+        "Estate Gardens",
+        "Distrika fiantsenana",
+        "Artisan Alley",
+        "Trano mihaja",
+        "Rental Hub",
+        "Trano misokatra",
+        "Tech Innovation",
+        "Fashion Lane",
+        "Toerana asa tanana",
+        "Toeram-pisakafoanana",
+        "Book Nook",
+        "Jewelry Junction",
+        "Avenue Antique",
+        "Fitness Zone",
       ],
     },
 

@@ -3338,7 +3338,7 @@ export default {
 
       express_input: {
         true_title: "项目 | 取消 订单 项目",
-        false_title: "项目 | 取消 订单 项目 48 项目",
+        false_title: "标准| 48 小时后取消订单",
         true_description:
           "此选项将立即取消您的订单并立即更新库存。",
         false_description:
@@ -3695,8 +3695,8 @@ export default {
       title: "项目 操作",
       subtitle:
         "通过采取这些步骤，您将开始收到客户的实际付款。",
-      action_enable: "项目 到 启用 项目",
-      make_live_enable: "项目 到 正式环境 项目",
+      action_enable: "单击以启用它",
+      make_live_enable: "点击直播",
     },
   },
 
@@ -4182,7 +4182,7 @@ export default {
     title: "团队成员",
     subtitle:
       "这是有权访问您的供应商面板的用户列表。您可以在此处添加新的团队成员并自定义他们的权限。",
-    add_action: "项目 新建 项目",
+    add_action: "添加新会员",
     pending: {
       title: "待处理 项目",
       message: "查看等待接受的邀请列表。",
@@ -4844,7 +4844,7 @@ export default {
     },
     "backoffice:support-tickets": {
       name: "支持 项目",
-      description: "项目 支持 项目.",
+      description: "管理支持票证。",
     },
     "backoffice:shop:read": {
       name: "店铺 项目",
@@ -4916,7 +4916,7 @@ export default {
     },
     "backoffice:logistic:write": {
       name: "物流 项目",
-      description: "项目 物流 项目.",
+      description: "管理物流信息。",
     },
     "backoffice:logistic:read": {
       name: "物流 访问权限",
@@ -4980,7 +4980,7 @@ export default {
     },
     "backoffice:lottery:write": {
       name: "抽奖 项目",
-      description: "项目 店铺 项目.",
+      description: "管理商店彩票。",
     },
     "backoffice:lottery:read": {
       name: "抽奖 访问权限",
@@ -4988,7 +4988,7 @@ export default {
     },
     "backoffice:community:write": {
       name: "社区 项目",
-      description: "项目 社区 项目.",
+      description: "管理社区活动。",
     },
     "backoffice:community:read": {
       name: "社区 访问权限",
@@ -5004,7 +5004,7 @@ export default {
     },
     "backoffice:ribbon:write": {
       name: "色带管理",
-      description: "项目 店铺 项目.",
+      description: "管理商店丝带。",
     },
     "backoffice:ribbon:read": {
       name: "项目 访问权限",
@@ -5012,14 +5012,14 @@ export default {
     },
     "backoffice:ai:write": {
       name: "AI 项目",
-      description: "项目 AI 项目.",
+      description: "管理 AI 配置。",
     },
     "backoffice:ai:read": {
       name: "AI 访问权限",
       description: "阅读 AI 配置和统计数据。",
     },
     "backoffice:vendor-payment:write": {
-      name: "项目 支付 项目",
+      name: "供应商付款管理",
       description: "管理供应商付款。",
     },
     "backoffice:vendor-payment:read": {
@@ -5032,7 +5032,7 @@ export default {
     },
     "backoffice:company:write": {
       name: "商户 项目",
-      description: "项目 商户 项目.",
+      description: "管理公司信息。",
     },
     "backoffice:note:read": {
       name: "备注 访问权限",
@@ -5044,7 +5044,7 @@ export default {
     },
     "backoffice:affiliate:write": {
       name: "联盟 项目",
-      description: "项目 联盟 项目.",
+      description: "管理附属信息。",
     },
     "backoffice:affiliate:read": {
       name: "联盟 访问权限",
@@ -5090,7 +5090,7 @@ export default {
     },
     "selldone:security:write": {
       name: "安全 项目",
-      description: "项目 安全 项目.",
+      description: "管理安全配置。",
     },
 
     //--------------------------- Connect ---------------------------
@@ -5754,7 +5754,7 @@ export default {
 
   admin_shop_layout: {
     download_txt: "下载文本数据",
-    download_excel: "项目 数据 项目",
+    download_excel: "下载数据Excel",
   },
   /** {@see BUserPreferences} **/
   user_preferences: {
@@ -5948,12 +5948,12 @@ export default {
           "使用固定佣金和百分比佣金的组合进行计算。",
         true_description:
           "使用定价选项卡中设置的特定产品佣金进行计算。",
-        false_title: "项目 + 项目 佣金",
+        false_title: "固定+百分比佣金",
         true_title: "项目 佣金",
       },
       user: {
         label: "用户 (项目)",
-        message: "项目, 项目.项目., 联盟 姓名 项目 Selldone",
+        message: "可选，例如 Selldone 中的附属名称",
       },
       web: {
         placeholder: "项目, 项目.项目., affiliate-web.com",
@@ -5962,10 +5962,10 @@ export default {
         placeholder: "项目, 项目.项目., 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "项目, 项目.项目., 001-808-210354",
+        placeholder: "可选，例如 001-808-210354",
       },
       bank: {
-        placeholder: "项目, 项目.项目., 项目 银行, 无服务: 10002-325-800-845213",
+        placeholder: "可选，例如 Arstra Bank，号码：10002-325-800-845213",
       },
       domain: {
         placeholder: "选择一个域...（可选）",
@@ -5986,7 +5986,7 @@ export default {
     },
     actions: {
       update: "更新 联盟",
-      add: "项目 联盟 项目",
+      add: "添加附属合作伙伴",
     },
     /**
      * @see BPageAffiliateEdit
@@ -7239,7 +7239,7 @@ export default {
         "在这种模式下，所有订单都会首先发送到您的仓库，然后从一个中心位置运送给客户。供应商会将其物品发送到您的仓库，因此供应商的送货地址将是您的仓库地址。",
     },
     Direct: {
-      title: "项目 发货中 从 项目",
+      title: "供应商直接发货",
       description:
         "在这种模式下，供应商直接向客户发货。供应商订单的送货地址将是买家的地址。",
     },
@@ -7349,7 +7349,7 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "项目.项目., 项目 产品 项目...",
+        placeholder: "例如，数字产品类...",
       },
       description: {
         placeholder: "您可以在此处添加注释...",
@@ -7589,12 +7589,12 @@ export default {
     },
     inputs: {
       page_vendor_login: {
-        label: "项目 登录 项目",
+        label: "供应商登录页面",
         message:
           "选择供应商登录的自定义登录页面。包含视频、图像或文本以实现独特的设计。此页面向未登录的供应商显示。",
       },
       page_vendor_registered: {
-        label: "项目 已注册 项目",
+        label: "供应商注册页面",
         message:
           "为已登录的供应商选择自定义页面。如果您的市场支持每个用户多个供应商，则会显示此页面。",
       },
@@ -7612,7 +7612,7 @@ export default {
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "项目 网站 项目",
+      title: "主要网站字体",
       subtitle: "从 Google Fonts 中选择您最喜欢的字体。",
     },
     inputs: {
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "选项 3：即时配送。",
 
     verify_delivery_input: {
-      true_title: "项目 配送 项目",
+      true_title: "确认发货完成",
       true_description:
         "我确认订单已经送达客户。",
     },
@@ -9799,7 +9799,7 @@ export default {
       subtitle: "将元标记添加到您的主页以进行 Google Search Console 验证。",
       code: {
         label: "验证元标记",
-        placeholder: "从 Google, 项目.项目. 项目9项目...",
+        placeholder: "来自谷歌，例如viQg9mjdBj...",
       },
     },
     serp: {
@@ -10539,7 +10539,7 @@ export default {
         placeholder: "产品页面上显示的简洁标题...",
       },
       code: {
-        placeholder: "项目 代码, 项目. 手机_项目_项目",
+        placeholder: "唯一代码，例如。移动电缆USB",
         hint: "使用此代码可以简化查找物品的搜索过程。",
       },
       description: {
@@ -10737,7 +10737,7 @@ export default {
     title: "项目 & 项目",
     subtitle: "预建部分",
     add_dialog: {
-      title: "项目 自定义 项目",
+      title: "添加自定义部分",
       configuration: {
         title: "编辑",
         subtitle:
@@ -10775,7 +10775,7 @@ export default {
     title: "项目 列表视图",
     subtitle:
       "在此处添加供应商，然后将其分配给产品仪表板 > 供应商中的产品。",
-    add_new_vendor_action: "项目 新建 项目",
+    add_new_vendor_action: "添加新供应商",
     status_tooltip: {
       title: "项目 状态",
       ACCEPTED: "供应商可以访问他们的面板。",
@@ -10805,8 +10805,8 @@ export default {
       subtitle:
         "用户拒绝成为供应商并访问该供应商的请求。",
     },
-    download_all_vendors: "项目 全部 项目",
-    bulk_import: "项目 导入 (项目)",
+    download_all_vendors: "下载所有供应商",
+    bulk_import: "批量导入（Excel）",
   },
 
   /**
@@ -10895,7 +10895,7 @@ export default {
    */
   shop_reviews: {
     title: "条评价 项目",
-    add_source_action: "项目 条评价 项目",
+    add_source_action: "添加评论来源",
     subtitle:
       "轻松连接外部平台，从 Facebook、Google 等来源收集和分析有关您业务的评论。我们会自动将客户与其评论进行匹配，以获得更好的客户体验。您还可以在着陆页和产品页面上展示这些评论。",
   },
@@ -11156,7 +11156,7 @@ export default {
       notifications: {
         add_success: "徽章创建成功。",
         edit_success: "徽章更新成功。",
-        delete_success: "项目 已删除 项目.",
+        delete_success: "徽章删除成功。",
       },
 
       delete_title: "删除 项目",
@@ -11232,10 +11232,10 @@ export default {
 
       more_options_text:
         "列表设置中提供了更多控件。您可以配置输入、UI/外观、审核、限制和货币化选项。",
-      more_options_button: "项目 到 项目 编辑",
+      more_options_button: "转到列表设置",
 
       updated: "清单已更新。",
-      update_failed: "项目 到 更新 项目.",
+      update_failed: "无法更新列表。",
     },
 
 
@@ -11250,7 +11250,7 @@ export default {
 
       radius_default: "默认 圆角半径 (项目)",
       radius_default_hint: "当客户选择位置但未选择半径时使用。",
-      radius_max: "项目 圆角半径 (项目)",
+      radius_max: "最大半径（公里）",
       radius_max_hint: "店面半径将被限制为该值。",
       radius_options: "圆角半径 选项 (项目)",
       radius_options_hint: "这些值可以在店面 UI 中显示为快速选项。",
@@ -12201,7 +12201,7 @@ export default {
         "宠物用品",
         "办公用品",
         "项目 & 项目",
-        "项目 & TV 项目",
+        "电影和电视节目",
         "软件",
         "项目 & 项目",
         "户外装备",
@@ -12271,12 +12271,12 @@ export default {
         "小工具的规格，例如品牌、型号和功能。",
         "饮料的口味、尺寸和类型。",
         "膳食、零食和食品的详细信息。",
-        "项目, 项目, 项目 设计 项目.",
+        "材料、尺寸和设计风格。",
         "作者、类型和出版年份。",
         "皮肤类型、成分和包装详细信息。",
         "年龄组、材料和安全标准。",
-        "类型, 项目, 项目 表现 项目.",
-        "项目, 项目, 项目 品牌 许可证详情.",
+        "类型、尺寸和性能特点。",
+        "款式、材料和品牌细节。",
       ],
     },
 

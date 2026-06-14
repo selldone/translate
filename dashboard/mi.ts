@@ -92,11 +92,11 @@ export default {
     },
     reimagine: {
       title: "tūemi",
-      subtitle: "Waihanga Ētahi atu.. Whakaahua tūemi Hou tūemi.",
+      subtitle: "Waihangahia etahi atu whakaahua me nga papamuri hou.",
     },
     upscale: {
       title: "tūemi",
-      subtitle: "tūemi te tūemi o te Whakaahua.",
+      subtitle: "Whakanuia te taumira o te ahua.",
     },
   },
 
@@ -264,7 +264,7 @@ export default {
       Developer: "Whakawhanake",
 
       Product: "Nga Hua me nga waahanga Whakahaere",
-      Blog: "tūemi & tūemi",
+      Blog: "CMS & Blog",
       Order: "Te Poka Whakaoti Ota",
       Channel: "Nga Hoera Hoko",
       Accounting: "Kaute me nga tikanga utu",
@@ -598,11 +598,11 @@ export default {
 
       menu_advanced_options: "Kōwhiringa matatau",
       menu_advanced_options_description:
-        "Connect Google tūemi, Tango tūemi Hua ka Ētahi atu.....",
+        "Tūhonohia te rau Google, Tango hua tārite me te maha atu...",
 
       products_rss: {
         title: "Hua RSS",
-        subtitle: "tūemi Hua tūemi Google, Meta,...",
+        subtitle: "Kawemai hua ki Google, Meta,...",
       },
       products_api: {
         title: "Hua Kī API",
@@ -628,9 +628,9 @@ export default {
       table_mode: {
         false_title: "Aratau tō me te tuku",
         false_description:
-          "Tirohanga Hua tūemi mā Ngā Kāwai ka tūemi.",
+          "Tirohia nga hua kua whakaritea e nga waahanga me nga waahanga iti.",
         true_title: "Aratau ripanga",
-        true_description: "Tirohanga Hua i he tūemi ripanga tūemi.",
+        true_description: "Tirohia nga hua i roto i te tahora ripanga taipitopito.",
       },
 
       show_notes: {
@@ -1527,7 +1527,7 @@ export default {
       },
       hsn: {
         hint: "Ko te HSN, ko te Harmonized System of Nomenclature ranei, he punaha whakarōpū paerewa mo te ao mo te whakarōpū i nga taonga me nga hua.",
-        placeholder: "6~16 tūemi HSN Waehere.. (tūemi)",
+        placeholder: "6~16 mati waehere HSN.. (Kōwhiringa)",
         label: "HSN",
       },
       condition: {
@@ -1545,7 +1545,7 @@ export default {
           "Tautuhia te raihana me te mana hua, na te mea ka whakaatuhia enei korero mo te raihana ki te kaihoko me te awhina ki te whakarite i te waa ka taea te whakahoki mai i nga hua i muri i te hokonga.",
 
         label: "tūemi",
-        placeholder: "koura 24 Marama tūemi.. (tūemi)",
+        placeholder: "Koura 24 marama whakamana.. (Kōwhiringa)",
       },
       status: {
         title: "Tūnga",
@@ -1558,7 +1558,7 @@ export default {
           "Ka taea e koe te tautuhi i te raihana, te whakahoki kaupapa here, te tuku kaipuke, me te arahi me te tautapa ki tenei hua. Ka whakaatuhia hei ripa hou ki te wharangi hua.",
       },
       shortcuts: {
-        title: "tūemi Hua Ki tūemi Ngā Kāwai",
+        title: "Hoatu Hua ki etahi atu waahanga",
         subtitle:
           "Ma tenei ahuatanga ka taea e koe te whakarārangi i te hua i roto i nga waahanga maha i te wa e mau tonu ana tana tuunga ki te waahanga tuatahi kua whakaritea i raro i te Hua> Whakatika> Kawai. Ko te tikanga, he rite tonu tana mahi ki te hanga 'pokatata' i roto i nga punaha whakahaere, e taea ai te whakaputa i te hua ki etahi atu waahanga kua tohua.",
       },
@@ -1701,7 +1701,7 @@ export default {
         inputs: {
           prompt: {
             label: "Hua Nga korero",
-            placeholder: "tūemi te Hua tūemi...",
+            placeholder: "Whakaahuahia te hua ki konei...",
           },
         },
         actions: {
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "papamuri Whakaahuatanga",
-            placeholder: "tūemi te tūemi papamuri...",
+            placeholder: "Whakaahuahia te papamuri e hiahiatia ana...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Whakaarohia te ahua katoa me te papamuri hou.",
           },
           replace: {
-            subtitle: "tūemi te tūemi papamuri.",
+            subtitle: "Whakakapihia te papamuri o mua.",
           },
         },
       },
@@ -1879,7 +1879,7 @@ export default {
       },
       edit_property_set: {
         title: "Whakaritea te huinga Taonga",
-        subtitle: "Hurihia Nga momo rereke tūemi, tūemi ka Nga ota.",
+        subtitle: "Hurihia nga ingoa rereke, tohu me nga ota.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Hua Kāwai Waehere",
     hint: "He tohu mo te waahanga o to hua i runga i te taaketanga hua a Google.",
-    placeholder: "tūemi Hua te te Kāwai.. (tūemi)",
+    placeholder: "Whakauruhia te waahanga hua, ratonga ranei.. (Kōwhiringa)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -2031,7 +2031,7 @@ export default {
     },
     bank: {
       title: "Nga korero utu",
-      subtitle: "Whakauru to Peeke Nga korero tūemi mō tūemi.",
+      subtitle: "Whakauruhia o taipitopito putea ki konei mo nga utu.",
     },
     default_pricing: {
       title: "Taunoa Te utu",
@@ -2056,7 +2056,7 @@ export default {
       action: "Tango kaihoko",
       verify_description:
         "Kei te mohio ahau ka tangohia nga hononga hua kaihoko katoa!",
-      verify_title: "I tūemi Ki Mukua tūemi kaihoko.",
+      verify_title: "Kei te hiahia ahau ki te whakakore i tenei kaihoko.",
     },
 
     send_invitation_tips:
@@ -2070,12 +2070,12 @@ export default {
     order_information_email_to_email:
       "Ka tukuna atu e matou nga korero ota ki <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "tūemi he kaiwhakamahi mō te kaihoko tūemi.",
+    set_a_user_for_the_vendor_first_msg: "Whakatakotoria he kaiwhakamahi mo te kaihoko tuatahi.",
 
     inputs: {
       slug: {
         label: "tūemi",
-        placeholder: "tūemi he Ritenga tūemi...",
+        placeholder: "Whakauruhia he ara ritenga...",
         hint: "Hurihia te ara te wharangi taunga hihiri o te kaihoko.",
       },
       email: {
@@ -2105,7 +2105,7 @@ export default {
       },
       iban: {
         hint: "Tau Kaute Peeke o te Ao): Mena kei Uropi te peeke a te kaihoko, etahi atu whenua ranei.",
-        placeholder: "to IBAN tūemi.. tūemi. DE89 3704 0044 0000 0000 00",
+        placeholder: "To tau IBAN.. hei tauira. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Tau Kaute Peeke o te Ao): Mena kei Uropi te peeke a te kaihoko, etahi atu whenua ranei.",
@@ -2126,7 +2126,7 @@ export default {
         true_description:
           "Kei te kaihoko he panui whakatapua ki te whakahou i te rahi me te utu.",
         hint: "Ka taea e koe te whakahohe, te whakakore ranei i te rarangi kaihoko, ka taea e nga kaihoko te whakahou i nga rahinga hua me nga utu me te whiwhi ota waahanga.",
-        false_description: "te kaihoko tūemi kahore Urunga Ki tūemi.",
+        false_description: "Kaore te kaihoko e uru ki tetahi mea.",
       },
 
       logo: {
@@ -2164,9 +2164,9 @@ export default {
   product_badges: {
     title: "tūemi",
     subtitle: "tāpiri ka Whakatikatika Ritenga Hua tūemi.",
-    only_marketplace_owner_msg: "tūemi Te kainga hokohoko tūemi",
+    only_marketplace_owner_msg: "Ko nga rangatira maakete anake",
     create_new_badge_action: "Waihanga Hou tūemi",
-    select_a_badge: "tūemi he tūemi...",
+    select_a_badge: "Tīpakohia he tohu...",
     inputs: {
       custom: {
         false_description: "Ka hanga aunoa nga tohu hua.",
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "Whakaahua",
-          message: "tūemi Whakaahua tūemi: 128KB",
-          placeholder: "tūemi he tūemi Whakaahua",
+          message: "Te rahi o te whakaahua: 128KB",
+          placeholder: "Tīpakohia he whakaahua uhi",
         },
         pattern: {
           label: "tūemi",
@@ -2329,7 +2329,7 @@ export default {
         physical_orders_title: "Kaata Hoko Me tenei Hua",
         send_count_in_period: "Ka tukuna Nga ota tūemi {start} ~ {end}",
         downloads_count_in_period:
-          "kōnae tūemi Tatau tūemi {start} ~ {end}",
+          "Tatauhia nga konae kei waenga i te {start} ~ {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2442,7 +2442,7 @@ export default {
 
         config: {
           title: "Hua tūemi toa",
-          subtitle: "tūemi SKU, MPN, ka tūemi mō Nga momo rereke.",
+          subtitle: "Whakahaerehia te SKU, MPN, me te waatea mo nga momo rereke.",
         },
         variables: {
           title: "Kōwhiringa rerekē",
@@ -2584,7 +2584,7 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "20% tūemi",
     min_quantity: "tūemi Te nui",
-    range_is_out_of_stock: "Ra to tūemi o tūemi!",
+    range_is_out_of_stock: "Kua pau te awhe!",
   },
 
   /**
@@ -2718,7 +2718,7 @@ export default {
     title: "tūemi Nga Mahi > utu",
     message:
       "Ko te moni e whai ake nei ka uru hei paheketanga ki te utu o nga hua katoa i to toa. Ano, ko nga uara utu tatau ka huri marie ki te tau a tawhio tata i runga i te moni kua tohua. Kia tupato ki te whakauru i nga uara.",
-    check: "I tūemi utu tūemi.",
+    check: "Ka whakaae ahau ki nga huringa utu.",
     check_description:
       "Ka hurihia te utu mo te waahanga kua tohua me nga waahanga iti katoa.",
     add_percent_tab: "tāpiri ōrau",
@@ -2840,7 +2840,7 @@ export default {
 
       inputs: {
         currency: {
-          placeholder: "tūemi he Te kuwaha Ki tūemi...",
+          placeholder: "Tīpakohia he kuaha hei kawemai...",
         },
         manual: {
           true_title: "tūemi aratau",
@@ -3092,7 +3092,7 @@ export default {
       subtitle:
         "Mena ka tangohia e koe tetahi waahanga, ka nekehia ona waahanga iti me ona hua ki te raarangi matua<b>📁 {parent}</b>. Hei whakahaere i nga waahanga kaore i roto i te rarangi hua, haere ki te Hoko > Nga waahanga ripa.",
       accept_delete: {
-        true_description: "I tūemi Ki Tango tūemi Kāwai.",
+        true_description: "E hiahia ana ahau ki te tango i tenei waahanga.",
         true_title: "tūemi Tango Kāwai",
       },
     },
@@ -3337,7 +3337,7 @@ export default {
       },
 
       express_input: {
-        true_title: "tūemi | Whakakore 🛍️ Ota tūemi",
+        true_title: "Whakaaturanga | Whakakore Ota Inamata",
         false_title: "Paerewa | Whakakore Ota I muri i nga haora 48",
         true_description:
           "Ma tenei whiringa ka whakakore tonu i to ota ka whakahou tonu i te raarangi.",
@@ -3695,8 +3695,8 @@ export default {
       title: "tūemi Nga Mahi",
       subtitle:
         "Ma te tango i enei mahi, ka timata koe ki te whiwhi utu tuturu mai i o kaihoko.",
-      action_enable: "tūemi Ki Whakahohe tūemi",
-      make_live_enable: "tūemi Ki Ora tūemi",
+      action_enable: "Paatohia kia taea ai",
+      make_live_enable: "Pawhiria kia ora ai",
     },
   },
 
@@ -3743,11 +3743,11 @@ export default {
     },
     gateway_code: "Te kuwaha Waehere",
 
-    hold_only_for: "tūemi 💳 Utu tūemi Kei te waatea mō",
+    hold_only_for: "Pupuri utu e waatea ana mo",
     manual_input: {
       false_description:
         "Ka huri aunoatia te mana utu mai i te tarewa ki te whakamana i roto i te punaha kaiwhakarato utu.",
-      false_title: "tūemi 💳 Utu tūemi",
+      false_title: "Utu utu aunoa",
       true_title: "Purihia nga utu me te whakamana a-ringa",
       true_description:
         "Purihia he utu ka hiahia koe ki te manatoko i nga utu mo tetahi ota hei whakarereke i o raatau mana mai i te tatari ki te whakamana i roto i te punaha kaiwhakarato utu.",
@@ -3878,7 +3878,7 @@ export default {
   /** {@see BPageDiscountCode} **/
   shop_discount: {
     title: "Waehere hekenga",
-    up_to: "ki runga ki",
+    up_to: "Tae atu ki",
     menu: {
       dashboard: "Papatohu",
       orders: "Nga ota",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "tūemi Pukoro Tauwhitinga.",
 
     "vendor-sms":
-      "🔔 🛍️ Ota tūemi SMS tūemi te Tukuna Ki <b>{vendor}</b> ╏ {phone}.",
+      "🔔 Ota whakamohio kua tukuna he SMS ki <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "Tukua he 💳 Utu tūemi SMS Ki te kiritaki tūemi {phone}.",
+      "Tukuna he SMS whakamana utu ki te kaihoko ma te {phone}.",
     "sms-ready-to-ship":
       "Tukuna he SMS ki te kaihoko e whakaatu ana kua reri ana ota kia tukuna ma {phone}.",
     "sms-ready-to-pickup":
       "Tukuna he SMS ki te kaihoko e whakaatu ana kua reri tana ota mo te tiki ma {phone}.",
     "sms-order-confirmation":
-      "Tukua he 🛍️ Ota tūemi SMS Ki te kiritaki tūemi {phone}.",
+      "Tukuna he SMS whakau ki te kaihoko ma te {phone}.",
 
     "count-adjustment":
-      "te Te nui o te Hua \"{product}\" tūemi te tūemi Mai {from} Ki {to}.",
+      "Ko te nui o te hua \"{product}\" kua whakahoutia mai i {from} ki {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4081,15 +4081,15 @@ export default {
     menu: {
       select_all_products: "tūemi katoa Hua",
       unselect: "tūemi",
-      sort_categories: "tūemi / tūemi Ngā Kāwai",
+      sort_categories: "Raunaha / Kōmaka Kāwai",
       subscription_vendor_not_support_message:
         "Kaore e taea te tohu kaihoko mo nga hua ohaurunga! Ko nga hua ohaurunga me whai kaihoko tonu hei rangatira!",
       vendor_owner_not_assignable_message:
         "Kaore e taea te tautapa i tetahi kaihoko mo nga hua me te kaihoko ko tona rangatira!",
       category_assign_profile: "tūemi kōtaha Ki Hua i te Kāwai",
-      category_assign_profile_subtitle: "Taake, Te tuku, tūemi, tūemi,...",
+      category_assign_profile_subtitle: "Taake, Tukunga, Arataki, Waranti,...",
       bulk_discount: "tūemi Te utu",
-      bulk_discount_subtitle: "tūemi Te utu tūemi katoa Hua.",
+      bulk_discount_subtitle: "Hoatu utu mo nga hua katoa.",
     },
 
     engine: {
@@ -4128,7 +4128,7 @@ export default {
     },
     payouts: {
       title: "tūemi",
-      message: "tūemi te kaihoko tūemi ka Nga tauwhitinga.",
+      message: "Whakahaerehia nga utu me nga whakawhitinga kaihoko.",
 
       charge_tooltip: "Te utu kaihoko Pukoro.",
       withdraw_tooltip: "tūemi Mai kaihoko Pukoro.",
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Īmēra wāhi noho",
-        placeholder: "tūemi te tūemi Īmēra wāhi noho...",
+        placeholder: "Whakauruhia te wahitau imeera o te mema...",
       },
     },
     notifications: {
@@ -4251,7 +4251,7 @@ export default {
           label: "Kua whakapumautia e koe tenei utu?",
           false_description:
             "Kao, kaore ano kia riro mai tenei utu i roto i taku putea putea.",
-          true_description: "āe, I tūemi Kua riro ka Manatoko tūemi 💳 Utu.",
+          true_description: "Ae, kua riro mai, kua whakamanahia e au tenei utu.",
         },
       },
     },
@@ -4808,7 +4808,7 @@ export default {
     },
     "user:profile:write": {
       name: "kōtaha whakahaere",
-      description: "Whakatikatika ka tūemi kaiwhakamahi kōtaha tūemi.",
+      description: "Whakatika me te whakahaere i nga korero korero mo nga kaiwhakamahi.",
     },
 
     //--------------------------- Storefront ---------------------------
@@ -4844,7 +4844,7 @@ export default {
     },
     "backoffice:support-tickets": {
       name: "Tautoko tūemi",
-      description: "tūemi Tautoko tūemi.",
+      description: "Whakahaerehia nga tikiti tautoko.",
     },
     "backoffice:shop:read": {
       name: "Toa tūemi",
@@ -4896,11 +4896,11 @@ export default {
     },
     "backoffice:report:read": {
       name: "Ripoata Urunga",
-      description: "tūemi toa Ripoata ka tūemi.",
+      description: "Pānuihia nga purongo me nga korero mo te toa.",
     },
     "backoffice:finance:write": {
       name: "Pūtea Pūkete whakahaere",
-      description: "tūemi Pūtea Nga kaute tūemi Ki te toa.",
+      description: "Whakahaerehia nga kaute putea e hono ana ki te toa.",
     },
     "backoffice:finance:read": {
       name: "Pūtea Pūkete Urunga",
@@ -4928,7 +4928,7 @@ export default {
     },
     "backoffice:staff:read": {
       name: "Kaimahi Urunga",
-      description: "tūemi Kaimahi tūemi ka Tauanga.",
+      description: "Pānuihia nga korero a nga kaimahi me nga tatauranga.",
     },
     "backoffice:business-profile:write": {
       name: "tūemi kōtaha whakahaere",
@@ -4952,7 +4952,7 @@ export default {
     },
     "backoffice:wallet:read": {
       name: "Pukoro Urunga",
-      description: "tūemi Pukoro tūemi ka Tauanga.",
+      description: "Pānuihia nga korero putea me nga tatauranga.",
     },
     "backoffice:coupon:write": {
       name: "tīkitipati whakahaere",
@@ -4968,11 +4968,11 @@ export default {
     },
     "backoffice:offer:read": {
       name: "tuku Urunga",
-      description: "tūemi tuku tūemi ka Tauanga.",
+      description: "Pānuihia nga korero tuku me nga tatauranga.",
     },
     "backoffice:cashback:write": {
       name: "tūemi whakahaere",
-      description: "tūemi toa tūemi Nga tuku.",
+      description: "Whakahaerehia nga utu putea mo te toa.",
     },
     "backoffice:cashback:read": {
       name: "tūemi Urunga",
@@ -4980,7 +4980,7 @@ export default {
     },
     "backoffice:lottery:write": {
       name: "Rota whakahaere",
-      description: "tūemi toa tūemi.",
+      description: "Whakahaerehia nga rota toa.",
     },
     "backoffice:lottery:read": {
       name: "Rota Urunga",
@@ -4988,7 +4988,7 @@ export default {
     },
     "backoffice:community:write": {
       name: "Hapori whakahaere",
-      description: "tūemi Hapori tūemi.",
+      description: "Whakahaerehia nga mahi a te hapori.",
     },
     "backoffice:community:read": {
       name: "Hapori Urunga",
@@ -5000,11 +5000,11 @@ export default {
     },
     "backoffice:customer:read": {
       name: "kiritaki Urunga",
-      description: "tūemi kiritaki tūemi ka Tauanga.",
+      description: "Pānuihia nga korero a nga kaihoko me nga tatauranga.",
     },
     "backoffice:ribbon:write": {
       name: "tūemi whakahaere",
-      description: "tūemi toa tūemi.",
+      description: "Whakahaerehia nga riipene toa.",
     },
     "backoffice:ribbon:read": {
       name: "tūemi Urunga",
@@ -5012,11 +5012,11 @@ export default {
     },
     "backoffice:ai:write": {
       name: "AI whakahaere",
-      description: "tūemi AI tūemi.",
+      description: "Whakahaerehia nga whirihoranga AI.",
     },
     "backoffice:ai:read": {
       name: "AI Urunga",
-      description: "tūemi AI tūemi ka Tauanga.",
+      description: "Panuitia nga whirihoranga AI me nga tatauranga.",
     },
     "backoffice:vendor-payment:write": {
       name: "kaihoko 💳 Utu whakahaere",
@@ -5032,7 +5032,7 @@ export default {
     },
     "backoffice:company:write": {
       name: "Kamupene whakahaere",
-      description: "tūemi Kamupene tūemi.",
+      description: "Whakahaerehia nga korero a te kamupene.",
     },
     "backoffice:note:read": {
       name: "Tuhipoka Urunga",
@@ -5044,7 +5044,7 @@ export default {
     },
     "backoffice:affiliate:write": {
       name: "Hononga whakahaere",
-      description: "tūemi Hononga tūemi.",
+      description: "Whakahaerehia nga korero hononga.",
     },
     "backoffice:affiliate:read": {
       name: "Hononga Urunga",
@@ -5086,11 +5086,11 @@ export default {
     },
     "selldone:developer:write": {
       name: "Kaihanga whakahaere",
-      description: "tūemi Kaihanga tūemi.",
+      description: "Whakahaerehia nga korero kaiwhakawhanake.",
     },
     "selldone:security:write": {
       name: "Haumarutanga whakahaere",
-      description: "tūemi Haumarutanga tūemi.",
+      description: "Whakahaere whirihoranga haumarutanga.",
     },
 
     //--------------------------- Connect ---------------------------
@@ -5121,14 +5121,14 @@ export default {
     },
     "vendor-write": {
       name: "kaihoko whakahaere",
-      description: "tūemi kaihoko tūemi.",
+      description: "Whakahaerehia nga korero a te kaihoko.",
     },
   },
 
   scope_group: {
     backoffice: {
       title: "tūemi",
-      description: "Urunga Ki tūemi ka toa whakahaere tūemi.",
+      description: "Te uru ki te tari tuara me nga waahanga whakahaere toa.",
     },
     storefront: {
       title: "tūemi",
@@ -5148,7 +5148,7 @@ export default {
     },
     vendor: {
       title: "kaihoko",
-      description: "Urunga kaihoko tūemi ka whakahaere tūemi.",
+      description: "Uru atu ki nga korero a te kaihoko me nga ahuatanga whakahaere.",
     },
     connect: {
       title: "Connect OS",
@@ -5822,7 +5822,7 @@ export default {
     },
     by_sku: {
       title: "tāpiri mā SKU",
-      subtitle: "te tūemi i to Whenua to tūemi Kei te waatea.",
+      subtitle: "Ko te pātengi raraunga i tō whenua kāore i te wātea.",
     },
     drop_shipping: {
       subtitle:
@@ -5948,7 +5948,7 @@ export default {
           "Tatauhia ma te whakamahi i te huinga o nga komihana tuturu me te ōrau.",
         true_description:
           "Tātaihia mā te whakamahi i ngā kōmihana hua-tauwhāiti kua whakaritea ki te ripa utu.",
-        false_title: "tūemi + tūemi Komihana",
+        false_title: "Te Komihana Whakaritea + Ōrau",
         true_title: "Hua-tūemi Komihana",
       },
       user: {
@@ -5968,7 +5968,7 @@ export default {
         placeholder: "Kōwhiringa, hei tauira, Arstra Bank, Nama: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "tūemi he Rohe... (tūemi)",
+        placeholder: "Tīpakohia he rohe... (Kōwhiringa)",
       },
       pos: {
         true_description:
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "I roto i tenei waahanga, ka taea e koe te whakarite i te maha morahi o nga whakamahinga mo ia coupon me te utu utu nui ka taea e ia coupon te whakarato.",
-      zero_message: "tūemi: tūemi to kahore Tepe!",
+      zero_message: "kore: karekau he rohe!",
     },
     duration: {
       subtitle:
@@ -6747,7 +6747,7 @@ export default {
 
     locations_tip:
       "Ko te rarangi o runga ake e whakaatu ana i nga whenua kua tohua e koe i roto i nga Tautuhinga Toa> Nga waahi hei whenua e hokona ana e koe.",
-    locations_action: "Rokiroki Tautuhinga Tautuhinga",
+    locations_action: "Tautuhinga waahi toa",
 
     save_alert: "Kaore i te tiakina nga tautuhinga!",
 
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "tūemi kaihoko tūemi",
+    open_vendors_panel: "Whakatuwherahia te Paewhiri Kaihoko",
     title: "kaihoko tūemi Rarangi",
     subtitle:
       "He rarangi tono mai i nga tangata kua tono kia noho hei kaihoko i to maakete.",
@@ -7107,7 +7107,7 @@ export default {
       "Kaore i te waatea mo nga kaihoko! Ka taea e koe te whakahohe i roto i nga tautuhinga kawe.",
     panel: {
       title: "kaihoko tūemi",
-      subtitle: "tūemi to kaihoko tūemi to Ritenga Rohe.",
+      subtitle: "Ki runga i o kaihoko ma to rohe ritenga.",
     },
     documents: {
       title: "tūemi",
@@ -7120,7 +7120,7 @@ export default {
         false_description:
           "Ka weto te kainga hokohoko, ka whakakore i nga mahi katoa o te maakete.",
         true_description:
-          "te Te kainga hokohoko to Hohe, tūemi katoa Te kainga hokohoko tūemi.",
+          "Kei te kaha te maakete, e taea ai nga mahi katoa o te maakete.",
       },
       product: {
         label: "tāpiri Hou Hua",
@@ -7132,7 +7132,7 @@ export default {
       },
       need_verify: {
         label: "Hua tūemi Rere",
-        false_description: "Hou kaihoko Hua tūemi Ora tūemi.",
+        false_description: "Ka ora tonu nga hua kaihoko hou.",
         false_title: "Karekau he manatoko e hiahiatia ana",
         true_description:
           "Ko nga hua hou a nga kaihoko me whai whakaaetanga i mua i te haere ki te kainga hokohoko.",
@@ -7148,14 +7148,14 @@ export default {
       },
       shipping: {
         label: "Te tuku tūemi",
-        true_title: "kaihoko tūemi Te tuku tūemi",
+        true_title: "Kei nga Kaihoko etahi whiringa tuku",
         false_description:
           "Kaore e taea e nga kaihoko te taapiri, te whakarite ranei i a raatau tikanga tuku.",
         true_description:
           "Ka taea e nga kaihoko te whakarite i a raatau ake tikanga tuku, te taapiri i nga karere, me te whakarite i nga kaipuke mo o raatau hiahia.",
       },
       hidden_customer: {
-        label: "whakaatu tūemi Whakapā tūemi",
+        label: "Whakaatuhia nga korero mo nga kaihoko",
         true_description: "Ko nga korero whakapiri a te kaihoko ka huna mai i nga kaihoko.",
         false_description:
           "Ko nga korero whakapiri a te kaihoko, penei i te waea me te imeera, ka kitea e nga kaihoko.",
@@ -7212,13 +7212,13 @@ export default {
           placeholder: "Whakauruhia he taitara mo te tono tuhinga.",
         },
         guide: {
-          label: "tūemi (tūemi)",
+          label: "Aratohu (Kōwhiringa)",
           placeholder:
             "Ka taea, hoatu he aratohu poto, tohutohu ranei, tae atu ki nga hononga ki nga kirimana me etahi atu tuhinga.",
         },
         code: {
           label: "Whakamau Waehere",
-          placeholder: "tūemi te Whakamau Waehere tūemi...",
+          placeholder: "Whakapirihia te waehere whakauru ki konei...",
           message: "Ka taea te whakauru i te waehere HTML.",
         },
         url: {
@@ -7264,7 +7264,7 @@ export default {
         "Tukuna he tuhinga hei manatoko i to wahitau pakihi, penei i te pire whaipainga, te nama taake, te kirimana riihi ranei.",
     },
     Contract: {
-      title: "tūemi & tūemi",
+      title: "Nga Kiriata me nga Whakaaetanga",
       description:
         "Tukuna mai nga kirimana me nga kirimana e whakaatu ana i nga tikanga me nga tikanga o o hononga pakihi.",
     },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Ina hono koe i nga ratonga utu pera i a Stripe Connect, ka tikina e matou, ka whakaatu i te toenga e waatea ana ki to putea Stripe hei tohutoro.",
     with_balance: "tūemi Taurite",
-    without_balance: "tūemi Taurite - tūemi aratau",
+    without_balance: "Kore He Taurite - Aratau Tere",
     bank_transfer: {
       title: "Peeke Whakawhiti",
       subtitle:
@@ -7408,7 +7408,7 @@ export default {
           "Ka taea e koe te taapiri i tetahi tuhipoka ki konei... Kaore tenei tuhipoka e kitea e te kaihoko.",
       },
       accept_refund: {
-        true_description: "I tūemi Ki Whakakore tūemi 💳 Utu.",
+        true_description: "E hiahia ana ahau ki te whakakore i tenei utu.",
         true_title: "Whakakore & tūemi 💳 Utu",
       },
     },
@@ -7511,7 +7511,7 @@ export default {
         false_description:
           "He hākoritanga tauwhitiwhiti ngā kāwai me ngā hua hei whakaatu i te mahi.",
         true_title: "Pahekeheke",
-        true_description: "Ngā Kāwai ka Hua tūemi kahore tūemi.",
+        true_description: "Ko nga waahanga me nga hua kaore he hākoritanga.",
       },
     },
 
@@ -7530,7 +7530,7 @@ export default {
       only_available: {
         false_description: "whakaatu katoa Hua i te Toa Rarangi tūemi Taunoa.",
         true_description:
-          "whakaatu tūemi Kei te waatea Hua i te Toa Rarangi tūemi Taunoa.",
+          "Whakaatuhia nga hua e waatea ana ki te rarangi toa hei taunoa.",
         true_title: "Kei te waatea Hua",
         false_title: "katoa Hua",
       },
@@ -7542,7 +7542,7 @@ export default {
         false_title: "whakaatu katoa Ngā Kāwai",
         true_title: "huna tūemi Ngā Kāwai",
         true_description:
-          "whakaatu tūemi Ngā Kāwai tūemi Hua i te Toa Rarangi.",
+          "Whakaatuhia nga waahanga anake me nga hua kei te rarangi toa.",
       },
     },
 
@@ -7612,7 +7612,7 @@ export default {
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "tūemi paetukutuku tūemi",
+      title: "Momotuhi Paetukutuku Matua",
       subtitle: "Kōwhirihia to momotuhi tino pai mai i nga Momotuhi Google.",
     },
     inputs: {
@@ -7696,7 +7696,7 @@ export default {
         true_title: "Ritenga Nga momo rereke",
         false_title: "Taunoa Nga momo rereke",
         true_description: "tūemi to Hua Nga momo rereke.",
-        false_description: "tūemi Taunoa tūemi Nga momo rereke.",
+        false_description: "Whakamahia nga momo rereke o te ao.",
       },
     },
   },
@@ -7840,7 +7840,7 @@ export default {
         "Kia mau ki te rekoata o nga korero whaiaro mo to kaihoko. Whakahonoretia te noho muna a to kaihoko.",
     },
     preferences: {
-      subtitle: "tūemi Taunoa kaiwhakamahi Moni, kiritaki Karapu, ka Nga waahanga tūemi.",
+      subtitle: "Tautuhia te moni kaiwhakamahi taunoa, karapu kaihoko, me nga waahanga ki konei.",
     },
     address: {
       subtitle:
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "Ma taku kaikawe e tiki te peera.",
 
     pickup_ready_action: "Kua reri te tiki",
-    pickup_ready_action_subtitle: "te 🛍️ Ota to tūemi mō kiritaki tūemi.",
+    pickup_ready_action_subtitle: "Kua reri te ota mo te tiki kaihoko.",
 
     service_action: "Whakapumautanga Mahi",
 
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Kōwhiringa 3: Te tuku tere.",
 
     verify_delivery_input: {
-      true_title: "tūemi Tukunga tūemi",
+      true_title: "Whakapumautia te Whakaoti Tukunga",
       true_description:
         "Ka whakapumautia e ahau kua tukuna te ota ki te kaihoko.",
     },
@@ -8041,7 +8041,7 @@ export default {
             "He waehere ao e whakamahia ana hei tautuhi i nga peeke o te ao, ina koa mo nga whakawhitinga o te ao.",
         },
         iban: {
-          label: "IBAN (tūemi Peeke Pūkete tūemi)",
+          label: "IBAN (Tau Pūkete Peeke Ao)",
           message:
             "I whakamahia i Uropi, ko te IBAN he punaha kua whakaaetia i te ao mo te tautuhi i nga putea putea puta noa i nga rohe o te motu.",
         },
@@ -8532,7 +8532,7 @@ export default {
       add_new: "tāpiri Hou",
       disable_reason: {
         set_provider: "Whakaritehia to kaiwhakarato tuatahi!",
-        provider_is_disabled: "tūemi to tūemi!",
+        provider_is_disabled: "Kua monohia te kaiwhakarato!",
         otp: "OTP - Karekau he mea whakarite!",
         select_another_provider: "Tīpakohia tētahi atu kaiwhakarato.",
       },
@@ -8681,7 +8681,7 @@ export default {
   shop_email_provider: {
     title: "Ritenga mēra tūemi",
     subtitle:
-      "Connect to mēra te tūemi Ki Tukua Nga imeera tūemi to Ritenga Rohe.",
+      "Honoa to kaiwhakarato ratonga mēra ki te tuku imeera ma to rohe ritenga.",
     provider: "tūemi",
     enable_input: {
       false_description: "Ka tukuna o imeera ma to rohe myseldone.",
@@ -8969,14 +8969,14 @@ export default {
     no_restriction: "kahore tūemi",
     import: {
       title: "tūemi kōtaha",
-      subtitle: "tūemi he tūemi Nga waahi kōtaha.",
+      subtitle: "Tīpakohia he kōtaha wāhi kua tiakina.",
     },
     export: {
       title: "Tiaki kōtaha",
       subtitle: "Rokiroki i nga waahi hei whakamahi a meake nei.",
     },
     has_restriction_input: {
-      title: "tūemi Tauwāhi tūemi",
+      title: "He here waahi",
       description:
         "Ka taea e nga kaihoko anake te hoko i tenei hua i roto i te whenua kua tohua me te waehere zip, na te mea kua whakatauhia te waahi waahi.",
     },
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "Hua",
-      subtitle: "tūemi whakahaere ka Hua tūemi.",
+      subtitle: "Te whakahaere taonga me te maamaa o nga hua.",
     },
   },
 
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "tāpiri Hou toa",
-    i_have_a_deal: "I tūemi he tūemi",
+    i_have_a_deal: "He mahi taku",
     access: {
       title: "Urunga tūemi",
     },
@@ -9496,7 +9496,7 @@ export default {
     title: "Tuku Tono Tika",
     message:
       "Tautuhia to pakihi 3 runga rawa atu ki te tipu me te whai hua i runga i a Seldone. Ka tohatohahia enei korero ki nga kaihanga me nga kaiwhakahaere, ka ata whakaarohia. Ka taea hoki e koe te whakahou i o hiahia i muri i te tukunga.",
-    expand_action: "tūemi te tūemi...",
+    expand_action: "Tuhia te tono...",
     input_label: "to tūemi",
     to: {
       ceo: "Tukua Ki tūemi",
@@ -9600,7 +9600,7 @@ export default {
       test: {
         false_title: "tūemi katoa",
         false_desc: "tūemi katoa Kei te waatea Hua, Ngā Kāwai, Kaihoko.",
-        true_title: "Wā (tūemi mō tūemi)",
+        true_title: "He iti (E taunaki ana mo te hunga timata)",
         true_desc:
           "Tikina kia 5 nga hua, nga waahanga, me nga kaihoko. Ka taea e koe te huri ki te aratau katoa i roto i te Hononga> Tautuhinga i nga wa katoa.",
       },
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "Nga korero",
-    subtitle: "tūemi to he Rarangi o te tūemi Nga korero.",
+    subtitle: "He rarangi tenei o nga korero a te hapori.",
     empty_msg: "Karekau he korero i hangaia i tenei wa...",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "Ngā Kāwai",
-    subtitle: "tūemi to he Rarangi o te tūemi Ngā Kāwai.",
+    subtitle: "He rarangi tenei o nga wahanga o te hapori.",
     new_category_action: "Hou Kāwai",
     empty_msg: "Karekau he waahanga i hangaia i tenei wa...",
     filter: {
@@ -9803,7 +9803,7 @@ export default {
       },
     },
     serp: {
-      title: "Google tūemi & tūemi ERP",
+      title: "Google SERP & Kupumatua",
       subtitle:
         "Ka whiwhi matou i nga raraunga arotake SEO tino tika mai i a Google me te whakaatu atu ki a koe i runga i nga tikanga ngawari. Me whai noa i nga kaupae e whakaratohia ana.",
     },
@@ -9815,7 +9815,7 @@ export default {
         title:
           "I mua i te hono atu ki a Selldone me Google Search Console, me whakarite enei e whai ake nei:",
         add_in_selldone: "Tāpiri, manatoko, ka tautuhi hei tuatahi mo to Rohe Ritenga.",
-        add_in_google: "tāpiri ka tūemi <b>{domain}</b> i to<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google rapu tūemi</b></a>.",
+        add_in_google: "Tāpirihia ka manatoko <b>{domain}</b> i roto i to <a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Rapu Papatohu</b></a>.",
       },
       action_custom_domain: "Ritenga Rohe",
       action_connect_now: "Hono atu inaianei",
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "tāpiri Hou tūemi",
     title: "Kaupapa Whakahoki Moni",
-    boosted: "tūemi (2tūemi)",
+    boosted: "Whakanuia (2x)",
     min_purchase: "tūemi Hokonga",
     only_first_order: "Ota Tuatahi anake",
     total_cashback: "Tapeke tūemi",
@@ -9847,7 +9847,7 @@ export default {
    */
   shop_cashback: {
     title: "Kaupapa Whakahoki Moni",
-    up_to: "ki runga ki",
+    up_to: "Tae atu ki",
     menu: {
       back: "Whakamuri tūemi",
       dashboard: "Papatohu",
@@ -9901,7 +9901,7 @@ export default {
     limit_input: {
       title: "Tepe",
       hint: "Whakauruhia te nui rawa o te hokinga moni.",
-      zero_message: "tūemi 0 mō He mutunga kore tūemi.",
+      zero_message: "Whakauruhia te 0 mo te whakahoki moni mutunga kore.",
     },
     duration: {
       title: "Roanga Tepe",
@@ -10037,7 +10037,7 @@ export default {
         title: "tūemi Hua",
         subtitle:
           "Whiriwhiria nga hua e hiahia ana koe ki te whakatairanga hei whiringa hoko-whiti i te taha o tenei hua.",
-        select_products: "tūemi Hua(tūemi)",
+        select_products: "Tīpako hua(ng)",
       },
       list: {
         title: "tūemi Hua",
@@ -10133,7 +10133,7 @@ export default {
     health: {
       title: "Hua tūemi",
       available_in_stock_msg: "Hua to Kei te waatea i tūemi.",
-      out_of_stock_msg: "Hua to tūemi o tūemi.",
+      out_of_stock_msg: "Kua pau te hua.",
       file_count_msg:
         "{files_count} nga konae me te {files_size} katoa i tukuna mo tenei hua.",
       no_file_uploaded_msg: "Kare ano he kōnae i tukuake.",
@@ -10169,9 +10169,9 @@ export default {
       listing_pricing_msg: "rārangi Te utu:",
       has_valuation_msg: "He uara te hua.",
       subscription_pricing_msg:
-        "tūemi Hua tūemi {count} Ohaurunga Te utu Mahere.",
+        "Kei tenei hua nga mahere utu ohaurunga {count}.",
       has_no_subscription_pricing_msg:
-        "tūemi Hua tūemi kahore Ohaurunga Te utu Mahere.",
+        "Ko tenei hua kaore he mahere utu ohaurunga.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10187,7 +10187,7 @@ export default {
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "tūemi Tauwāhi tūemi ● {status}",
+      title: "Te hoko herenga tauwāhi ● {status}",
       status: {
         has_restriction: "Kei te waatea i {count} tūemi",
         no_restriction: "Ehara i te here",
@@ -10226,7 +10226,7 @@ export default {
         subscription_tax_msg:
           "Ka taea e taatau te tono taake anake i runga i te waahanga hanga utu.",
         dedicated: "tūemi",
-        is_disabled: "tūemi Taake kōtaha to tūemi!",
+        is_disabled: "Kua monoa tenei pūkete taake!",
         tax_is_based_on_location: "Taake: Tauwāhi tūemi",
         shipping_tax_is_based_on_location: "Te tuku: Tauwāhi tūemi",
         included_in_price: "tūemi i utu.",
@@ -10237,8 +10237,8 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "tūemi Hua tūemi Ki <b>{vendor}</b>.",
-      has_vendors_msg: "tūemi to {count} kaihoko mō tūemi Hua.",
+      vendor_owner_msg: "Ko tenei hua no <b>{vendor}</b>.",
+      has_vendors_msg: "Kei a {count} nga kaihoko mo tenei hua.",
       no_vendor_msg:
         "Kare ano koe i tautapa he kaihoko ki tenei hua, na reira kaore e taea e nga kaihoko te hoko.",
       add_vendors: "tāpiri kaihoko",
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Urunga tūemi",
-        placeholder: "tūemi he tūemi...",
+        placeholder: "Tīpakohia he taumata...",
       },
     },
 
@@ -10346,7 +10346,7 @@ export default {
     },
     actions: {
       save_engine: "Tiaki tūemi",
-      auto_add_subcategories: "tūemi tāpiri tūemi-Ngā Kāwai",
+      auto_add_subcategories: "Taapiri aunoa i nga waahanga-iti",
     },
   },
 
@@ -10376,7 +10376,7 @@ export default {
     subtitle:
       "Whakauruhia te taviri ka hurihia me tona uara e rite ana ki te ihirangi wharangi. Kia 32 te teitei o nga taviri.",
     add_caption: "tāpiri Hou tūemi",
-    add_sub_caption: "tāpiri Ritenga tūemi-Uara tūemi.",
+    add_sub_caption: "Tāpirihia te takirua uara-matua ritenga.",
     add_dialog: {
       title: "tūemi Whakauru Momo",
       html: {
@@ -10432,7 +10432,7 @@ export default {
         message: "Kua tiakina pai te tuhinga.",
       },
       delete_article: {
-        message: "Tuhinga tūemi te Kua mukua tūemi.",
+        message: "Kua pai te whakakore i te tuhinga.",
       },
     },
     delete_dialog: {
@@ -10547,7 +10547,7 @@ export default {
         hint: "Ka whakamahia te whakaahuatanga mo SEO ka kitea pea e nga kaiwhakamahi i runga i etahi whakatakotoranga ritenga i te wharangi hua.",
       },
       image: {
-        message: "tūemi Whakaahua tūemi: 1MB",
+        message: "Te rahi o te whakaahua: 1MB",
       },
       path: {
         label: "whārangi tūemi",
@@ -10559,7 +10559,7 @@ export default {
       },
       external_link: {
         title: "Hononga o waho",
-        description: "tūemi he Hononga Ki he tūemi url.",
+        description: "Tautuhia he hononga ki tetahi url waho.",
         tips: "Ka taea e koe te taapiri i tetahi URL ki te taonga. Ka paatohia e nga kaiwhakamahi te mea kei te wharangi hua, ka tukuna atu ki taua hononga.",
       },
       internal_link: {
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "kahore Pukoro!",
 
     withdraw_dialog: {
-      title: "tūemi Komihana tūemi Fee",
+      title: "Tangohia nga Utu Komihana",
 
       need_bank_info_message: "Tena koa whakauruhia nga korero putea i te tuatahi.",
 
@@ -10648,7 +10648,7 @@ export default {
       message: "Ka taea e koe te taapiri <b>?ref={code}</b> ki tetahi url hoko.",
     },
     intro: {
-      title: "tūemi te Selldone Hononga tūemi",
+      title: "Hono atu ki te Kaupapa Hononga a Seldone",
       message:
         "He maamaa, he maamaa hoki te Kaupapa Hononga a Selldone, i hangaia mo koe ki te whiwhi moni ngawari. Tohaina to hononga hono ahurei ki te tono i nga kaiwhakamahi hou ki a Selldone, ka whiwhi koe i te komihana mai i ia tauwhitinga ka mahia e ratou—mo ake tonu atu. Kei roto i tenei ko nga moni whiwhi mai i nga ohaurunga, utu ratonga, whakamohoatanga toa, me era atu moni moni katoa. Tīmatahia te whiwhi i tetahi wahanga o nga moni whiwhi kaore he herenga mo te wa, mo nga moni whiwhi ranei. Hono mai ki a maatau ka huri to whatunga ki te whiwhi moni tuturu!",
       why_join_selldone_affiliate: "He aha tenei he waahi ahurei?",
@@ -10780,7 +10780,7 @@ export default {
       title: "kaihoko Tūnga",
       ACCEPTED: "Ka taea e te kaihoko te uru atu ki o raatau roopu.",
       REJECTED: "Kua whakakorehia te tono kaihoko.",
-      PENDING: "te tūemi to E tatari ana he tūemi Mai te kaihoko.",
+      PENDING: "Kei te tatari te tono ki te whakatau a te kaihoko.",
     },
     number_of_products: "tūemi o Hua",
     invited: "tūemi",
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Tukua Whakahou Īmēra",
 
       notifications: {
-        send_success_message: "Īmēra tūemi te Tukuna tūemi.",
+        send_success_message: "Kua tukuna pai te imeera.",
       },
     },
     add_template: {
@@ -10861,11 +10861,11 @@ export default {
       inputs: {
         title: {
           label: "tauira Taitara",
-          placeholder: "tūemi he tūemi Taitara...",
+          placeholder: "Tuhia he taitara poto...",
         },
         body: {
           label: "tauira Karere",
-          placeholder: "tūemi to Karere tūemi...",
+          placeholder: "Tuhia to karere ki konei...",
           messages:
             "Ka taea e koe te whakarite uara hihiri ma {order_id} me {buyer_name}.",
         },
@@ -10943,8 +10943,8 @@ export default {
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "tūemi he tūemi",
-    define_package: "tūemi he tūemi",
+    select_box: "Tīpakohia he mōkihi",
+    define_package: "Tautuhia he kete",
     define_package_hint: "Waihangahia, whakatikahia ranei o rahinga kua tautuhia e koe",
   },
 
@@ -11048,8 +11048,8 @@ export default {
       require_first_approved_before_more: "Me whakaae tuatahi i mua i etahi atu",
 
       limits_title: "Nga rohe",
-      max_pending_per_user: "tūemi Tarewa ana tūemi kaiwhakamahi",
-      max_items_per_user: "tūemi Nga taonga tūemi kaiwhakamahi",
+      max_pending_per_user: "Max e tatari ana mo ia kaiwhakamahi",
+      max_items_per_user: "Tuemi teitei mo ia kaiwhakamahi",
       limits_hint: "Nga rohe tūemi",
 
       templates_title: "tūemi",
@@ -11083,10 +11083,10 @@ export default {
 
     moderation: {
       approve_success: "I tutuki pai te taonga.",
-      publish_success: "tūemi Whakaputaina tūemi.",
+      publish_success: "I momoho te whakaputanga o nga taonga.",
       unpublish_success: "Kua oti te whakaputanga o te taonga.",
       archive_success: "I momoho te purangatanga o nga taonga.",
-      reject_success: "tūemi Kua whakakorehia tūemi.",
+      reject_success: "I tutuki pai te paopao.",
       penalty_success: "I tutuki pai te whiunga.",
 
       reject_title: "Whakakahore tūemi",
@@ -11156,7 +11156,7 @@ export default {
       notifications: {
         add_success: "I momoho te hanga tohu.",
         edit_success: "I momoho te whakahou o te tohu.",
-        delete_success: "tūemi Kua mukua tūemi.",
+        delete_success: "I pai te whakakore i te tohu.",
       },
 
       delete_title: "Mukua tūemi",
@@ -11170,7 +11170,7 @@ export default {
 
       empty_title: "kahore Kamupene tūemi",
       empty_subtitle:
-        "tāpiri to tūemi Kamupene Ki Hononga tūemi Ki rārangi Nga taonga.",
+        "Taapirihia to kamupene tuatahi ki te hono atu ki te whakaraarangi taonga.",
 
       add_title: "tāpiri Kamupene",
       edit_title: "Whakatika kamupene",
@@ -11250,9 +11250,9 @@ export default {
 
       radius_default: "Taunoa Rorohiko (tūemi)",
       radius_default_hint: "Ka whakamahia ina kowhiria e te kaihoko tetahi waahi engari kaore e kowhiri i te radius.",
-      radius_max: "tūemi Rorohiko (tūemi)",
+      radius_max: "Putoro teitei (km)",
       radius_max_hint: "Ka rawhihia te radius o mua o te toa ki tenei uara.",
-      radius_options: "Rorohiko tūemi (tūemi)",
+      radius_options: "Kōwhiringa pūtoro (km)",
       radius_options_hint: "Ka taea te whakaatu i enei uara hei whiringa tere i roto i te UI storefront.",
 
       filters_title: "rapu Tātari",
@@ -11365,26 +11365,26 @@ export default {
      */
     discount_code: {
       code: [
-        "Nau Mai10",
-        "RAUMA20",
-        "tūemi30 IP",
-        "tūemi15",
-        "tūemi ID",
-        "tūemi",
-        "WHAKATOKANGA KOREUTU IP",
-        "HOKO KORERO",
-        "WHAKAWAHI",
-        "tūemi IR",
-        "ĀKONGA10 DE",
-        "TE HOKI25",
-        "KOANGA15",
-        "HUNGA20",
-        "Kaihoko pai10",
-        "HAERE30 ID",
-        "tūemi20",
-        "NGA WAEHA",
-        "NGA PAPA",
-        "WHAKAMUTU",
+        "WELCOME10",
+        "SUMMER20",
+        "VIPSALE30",
+        "BDAY15",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
+        "FREESHIPPING",
+        "FLASHSALE",
+        "CLEARANCE",
+        "EARLYBIRD",
+        "STUDENT10",
+        "WINTER25",
+        "SPRING15",
+        "FALL20",
+        "BESTSELLER10",
+        "HOLIDAY30",
+        "VALENTINE20",
+        "MOTHERSDAY",
+        "FATHERSDAY",
+        "ENDOFYEAR",
       ],
       title: [
         "Hoko Kohiko: 20% Whakatau!",
@@ -11703,10 +11703,10 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "tūemi", // Provincial Sales Tax
-        "tūemi", // Harmonized Sales Tax
-        "tūemi", // Quebec Sales Tax
-        "tūemi", // Central Sales Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
         "Taake Taake", // Excise Tax
         "Kawemai", // Import Duty
         "Taake Ratonga", // Service Tax
@@ -11784,7 +11784,7 @@ export default {
         "Mamati Doorbusters",
         "Whakawātea E-Kaata",
         "Whakaaturanga Hoko Ipurangi",
-        "tūemi Hokonga tūemi",
+        "Cyber ​​Sale Spectacular",
         "E-hoko Blitz",
       ],
     },
@@ -11854,15 +11854,15 @@ export default {
         "Waimarie Lottery Extravaganza",
         "Maere Miro Mega",
         "Whakataetae Wira Tohu",
-        "Taonga Miro Mīharo",
+        "Taonga Ahurihuri Mīharo",
         "Hurihia te Maama Wira",
         "Waimarie Wheel Galore",
         "Te manaakitanga a Fortune",
-        "tūemi o tūemi",
+        "Wheel of Wonders",
         "Hurihia mo te Taonga",
         "Prize Spinner Delight",
         "Lottery Spin koura",
-        "tūemi-he-tūemi",
+        "Spin-a-Prize",
         "Wira o te Wairau",
         "Whakaaturanga Waimarie Waimarie",
         "Utu Mimio Mutunga",
@@ -11896,20 +11896,20 @@ export default {
      */
     subscription_price: {
       title: [
-        "tūemi Urunga",
-        "Mōkī tūemi",
+        "Uru Taketake",
+        "Mema Moni",
         "Mōkī Koura",
-        "tūemi Mahere",
-        "tūemi Ohaurunga",
+        "Mahere Hiriwa",
+        "Ohaurunga Platinum",
         "Te taumata hinonga",
         "Paihere Whakamata",
-        "He mutunga kore tuku",
+        "Tukunga mutunga kore",
         "Whānau Pack",
         "Roopu Ngaio",
       ],
       description: [
         "He pai mo nga tangata takitahi e torotoro ana i nga kaupapa.",
-        "Urunga Ki katoa Mōkī tūemi ka tūemi.",
+        "Te uru ki nga ahuatanga utu nui me nga ihirangi katoa.",
         "Nga painga motuhake me te tautoko matua.",
         "He putea taurite mo nga kaiwhakamahi auau.",
         "Te urunga mutunga me nga painga o runga.",
@@ -11924,50 +11924,50 @@ export default {
     spec: {
       group: [
         "Whakatakotoranga Hangarau",
-        "tūemi Mōkī",
-        "Mahi tūemi",
+        "Ahu-tinana",
+        "Nga waahanga mahi",
         "Kōwhiringa Hononga",
         "Nga Whakaritenga Mana",
-        "Material ka Hanga tūemi",
-        "Tae ka Whakaoti tūemi",
-        "Storage ka tūemi",
+        "Rawa me te Kounga Hanga",
+        "Kōwhiringa Tae me te Mutu",
+        "Rokiroki me te Maharahara",
         "Hototahitanga Pūnaha Whakahaere",
-        "tūemi ka tūemi",
+        "Te Haumaru me te Tautukunga",
         "Ihirangi mokete",
-        "tūemi ka Tautoko",
-        "Waitohu ka tūemi",
+        "Pūtāhui me te Tautoko",
+        "Waitohu me te Kaihanga",
         "Te Taiao",
         "Pungao Pungao",
-        "tūemi ka tūemi",
+        "Tiaki me te Tiaki",
         "Kōwhiringa Whakaritenga",
         "Nga taputapu kei roto",
-        "kaiwhakamahi tūemi ka Nga arotake",
-        "Te utu ka tūemi",
+        "Whakatauranga Kaiwhakamahi me nga Arotake",
+        "Te utu me te waatea",
       ],
     },
 
     avocado: {
       title: [
-        "Hokonga Rihiti",
-        "Hokonga tūemi",
-        "🛍️ Ota nama",
-        "💳 Utu nama",
-        "kiritaki Rihiti",
-        "Tauwhitinga tūemi",
-        "Te nama tūemi",
-        "Takitaki Rihiti",
-        "🛍️ Ota tūemi",
-        "Hokonga 🛍️ Ota nama",
-        "Hokonga Rihiti",
-        "tūemi nama",
-        "E-Rihiti",
-        "te nama",
-        "Hua nama",
-        "💳 Utu Rihiti",
-        "Whakaaetanga Whakatau",
-        "Te nama nama",
-        "Takitaki nama",
-        "kiritaki nama",
+        "Rihiti hoko",
+        "Te Whakaaetanga Hoko",
+        "Tono Nama",
+        "Puka Utu",
+        "Rihiti Kiritaki",
+        "Whakarāpopototanga tauwhitinga",
+        "Tauākī Pire",
+        "Rihiti Tiki",
+        "Whakarāpopototanga ota",
+        "Puka Whakataunga Hoko",
+        "Rihiti hoko",
+        "nama hokohoko",
+        "E-Rerihiti",
+        "Nama Ratonga",
+        "Te nama hua",
+        "Rihiti Utu",
+        "Whakaaetanga ota",
+        "nama nama",
+        "Te nama utu",
+        "Nama Kiritaki",
       ],
       message: [
         "Mauruuru koe mo to hoko!",
@@ -11980,11 +11980,11 @@ export default {
         "Mauruuru koe mo te tautoko i to maatau toa.",
         "Ko te tumanako ka koa koe ki to hokonga hou!",
         "Tiakina to nama mo te tohutoro a meake nei.",
-        "Haerenga us tūemi mō Ētahi atu.. tūemi Hua.",
-        "tūemi Kua hono mō tūemi Nga tuku.",
+        "Haere mai ano ki a maatau mo etahi atu hua tino pai.",
+        "Noho hono mo nga tuku motuhake.",
         "Mauruuru koe mo te kaihoko nui.",
         "Kei konei matou ki te awhina mena ka hiahia awhina koe.",
-        "to Urupare tūemi us tūemi.",
+        "Ko to urupare ka awhina i a maatau ki te whakapai ake.",
         "Kia pai te utu motuhake mo to hokonga ka whai ake.",
         "He pai to whiringa!",
         "Mauruuru koe mo to whakawhirinaki ki a matou.",
@@ -11999,7 +11999,7 @@ export default {
     map_tag: {
       title: [
         "Whakaaturanga Taonga",
-        "kaihoko tūemi",
+        "Kaihoko Plaza",
         "Nga Whare Whakaaturanga",
         "Maakete rohe",
         "Tau Hou",
@@ -12014,7 +12014,7 @@ export default {
         "Kokonga Mahi",
         "Kooti Kai",
         "Puka Nook",
-        "Te whakapaipai tūemi",
+        "Hunga whakapaipai",
         "Te huarahi tawhito",
         "Rohe whakapakari tinana",
       ],
@@ -12027,23 +12027,23 @@ export default {
       title: [
         "Tiwhikete Rehita Pakihi",
         "Tau Tautuhi Taake (TIN)",
-        "kaihoko tūemi puka",
-        "Hua tūemi",
-        "Te utu Rarangi",
-        "Peeke Pūkete Nga korero",
-        "tūemi o wāhi noho",
+        "Puka Whakaaetanga Kaihoko",
+        "Putumōhio Hua",
+        "Rarangi Utu",
+        "Nga korero mo te putea putea",
+        "Tohu o te Wāhitau",
         "Tiwhikete Inihua",
-        "Kamupene kōtaha",
+        "Kōtaha Kamupene",
         "Tiwhikete Whakapumau Kounga",
         "Rau Raraunga Haumaru (SDS)",
         "Nga Korero Whakaputanga Hua",
-        "📦 Hoki mai tūemi",
+        "Kaupapa Whakahoki",
         "Nga Tikanga Tukunga me te Whakahaere",
-        "kiritaki te tūemi",
-        "Te hokohoko ka tūemi Mahere",
+        "Kaupapahere Ratonga Kaihoko",
+        "Mahere Hokohoko me te Whakatairanga",
         "Hononga Paapori",
         "Tohutoro Tauhokohoko",
-        "tūemi Waehere o tūemi",
+        "Waehere Whakahaere Kaituku",
         "Whakaaetanga Whakaatu-kore (NDA)",
       ],
     },
@@ -12053,25 +12053,25 @@ export default {
      */
     expert_contract: {
       title: [
-        "Te kainga hokohoko toa Ratonga tūemi",
+        "Whakaaetanga Ratonga Tatūnga Maakete",
         "Kirimana Whirihoranga Toa",
         "Whakaaetanga Ratonga Taa-I-Tuinga",
-        "tūemi Te hokohoko te tūemi",
+        "Whakaaetanga Ratonga Mamati Mamati",
         "Whakaaetanga Tatūnga Paerewa E-tauhokohoko",
         "kirimana Tohunga Tohunga mo nga Kaipupuri Pakihi",
-        "te tūemi mō Te kainga hokohoko tūemi",
-        "Toa toa ka tūemi Ratonga tūemi",
+        "Whakaaetanga Ratonga mo te Whakaritenga Maakete",
+        "Whakataunga Toa me nga Ratonga Whirihoranga kirimana",
         "Whakaaetanga Whakarato Ratonga POD",
         "Whakaaetanga Whakatinana Rautaki Tauhokohoko",
         "Kirimana Ratonga Whakawhanake Pakihi",
-        "E-tūemi toa toa tūemi",
+        "Whakaaetanga Tatūnga Toa E-hokohoko",
         "Whakaaetanga Whakarato Ratonga Tohunga",
         "Nga Whakataunga Pakihi me te Whakatau kirimana",
-        "Ritenga Toa toa Ratonga tūemi",
-        "Te kainga hokohoko tūemi te tūemi",
-        "tūemi ka toa Ratonga tūemi",
-        "POD tūemi Ratonga tūemi",
-        "Te hokohoko ka tūemi Ratonga tūemi",
+        "Whakaaetanga Ratonga Tatūnga Toa Ritenga",
+        "Whakaaetanga Ratonga Arotautanga Maakete",
+        "Kiriata Ratonga Whakawhitiwhiti me te Tatūnga",
+        "Whakaaetanga Ratonga Whakauru POD",
+        "Te kirimana hokohoko me te whakatairanga",
         "Whakaaetanga Ratonga Whakawhanui Pakihi",
       ],
     },
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "tūemi Pukoro",
-        "tūemi Pūkete",
-        "Whaiaro Pukoro",
-        "tūemi Pukoro",
-        "tūemi Pūkete",
-        "Paraimere Pukoro",
-        "tūemi Pūkete",
-        "tūemi Pukoro",
-        "Tauwhitinga Pukoro",
-        "tūemi Pūkete",
+        "Pukoro Matua",
+        "Pūkete Pakihi",
+        "Pukoro Whaiaro",
+        "Pukoro Tiaki",
+        "Pūkete Whakapaunga",
+        "Pukoro Tuatahi",
+        "Pūkete Whānui",
+        "Pukoro Rahui",
+        "Pukoro Tauwhitinga",
+        "Pūkete Pūtea",
       ],
     },
 
@@ -12126,9 +12126,9 @@ export default {
         "Whiwhi moni whakahoki i nga wa katoa e hoko ana koe.",
         "Hono atu ki te hikaka i tenei ra!",
         "He pai ki nga mema VIP te hokinga moni motuhake.",
-        "tūemi! Wā Te wa tūemi Nga tuku.",
+        "Kia tere! He wa iti te tuku moni whakahoki.",
         "Hono mai ki ta matou Karapu Utu Moni inaianei.",
-        "te Ētahi atu.. tūemi Toa, te Ētahi atu.. tūemi Tiaki.",
+        "Ko te nui ake o to hokohoko, ka nui ake te penapena.",
         "Wewete i nga utu utu nui.",
         "Ka wheako i nga utu tino pai mo te whakahoki moni huri noa.",
       ],
@@ -12164,11 +12164,11 @@ export default {
         "Wewetehia nga penapena motuhake, hoko tahi!",
         "Nga taonga taapiri, nga utu motuhake!",
         "Tikina ake, whakapau iti - paihere!",
-        "Wā-Te wa tuku: tūemi Hua!",
+        "He wa iti te tuku: hua rite!",
         "Whakapai ake i to wheako, utu paheko!",
         "Tirohia a maatau hiato kua tohua, tiakina inaianei!",
         "Whakahoahoa mo te paheko mutunga!",
-        "Toa tūemi, tūemi ka Tiaki!",
+        "Hokona atamai, paihere me te penapena!",
         "Whakaruahia te uara, whakaruarua te ngahau!",
         "Kei konei to whakataetae tino pai - hokohoko inaianei!",
         "Nga utu paihere motuhake mo koe anake!",
@@ -12176,7 +12176,7 @@ export default {
         "Whakanuia to kohinga me enei whiringa!",
         "Kua whakaritea mo koe: whakahoa me te penapena!",
         "Ko te takirua tino pai mo te ra tino pai!",
-        "tūemi to Makau mō 20% tūemi!",
+        "Paihere o tino pai mo te penapena taapiri!",
       ],
     },
 
@@ -12186,24 +12186,24 @@ export default {
     vendor_pricing: {
       title: [
         "Taonga Mamati",
-        "tūemi",
-        "tūemi",
-        "tūemi",
-        "Kainga tūemi",
-        "tūemi Hua",
+        "Pukapuka",
+        "Hikohiko",
+        "Huahua",
+        "Nga Taonga Whare",
+        "Hua Ataahua",
         "Taputapu Takaro",
         "Taonga Taonga me nga Taakaro",
         "Nga hoko kai",
         "Nga taonga",
         "Nga Waahanga Waka",
         "Te whakapaipai",
-        "tūemi & tūemi",
+        "Hauora me te oranga",
         "Nga Taonga Pet",
         "Nga Taonga Tari",
-        "tūemi & tūemi",
-        "tūemi & TV tūemi",
+        "Waiata & Taonga",
+        "Kiriata & Whakaaturanga TV",
         "Pūmanawa",
-        "tūemi & tūemi",
+        "Toi & Mahi",
         "Taputapu o waho",
       ],
     },
@@ -12213,17 +12213,17 @@ export default {
      */
     template_message: {
       title: [
-        "Whakaaetanga Whakatau",
-        "🛍️ Ota Ka tukuna",
-        "🛍️ Ota Kua tukuna",
-        "💳 Utu Kua riro",
-        "🛍️ Ota tūemi",
+        "Whakaaetanga ota",
+        "Kua tukuna te ota",
+        "Ota Tukua",
+        "Utu Kua riro",
+        "Kua Whakakorehia te Ota",
         "Whakaroa Tukatuka Tono",
         "Te Ota Whakamau",
-        "🛍️ Ota tūemi mō Tukunga",
-        "📦 Hoki mai tūemi",
+        "Tonoa atu mo te Tukunga",
+        "Whakahoki Tukatuka",
         "Whakahokinga i tukuna",
-        "tūemi Whakamuri i tūemi",
+        "Ko te taonga kei roto i nga taonga",
       ],
       body: [
         "Kia ora {buyer_name}, kua whakamanahia to ota #{order_id}! Kei te tukatukahia e matou ka whakamohio atu ki a koe ina rite ana ki te tuku.",
@@ -12255,16 +12255,16 @@ export default {
      */
     property_set: {
       title: [
-        "tūemi",
+        "kakahu",
         "Taputapu Mamati",
-        "tūemi",
+        "Nga inu",
         "Nga kai",
         "Nga taonga",
-        "tūemi",
-        "tūemi Hua",
-        "tūemi",
+        "Pukapuka",
+        "Hua Ataahua",
+        "Taonga tākaro",
         "Taputapu Takaro",
-        "tūemi",
+        "Nga taputapu",
       ],
       description: [
         "Huanga mo nga taonga kakahu penei i te rahi, te tae, me te papanga.",
@@ -12275,8 +12275,8 @@ export default {
         "Kaituhi, momo, me te tau whakaputa.",
         "Momo kiri, nga kai, me nga korero whakakakahu.",
         "Te reanga pakeke, nga rawa, me nga paerewa haumaru.",
-        "Momo, tūemi, ka Mahi tūemi.",
-        "tūemi, tūemi, ka Waitohu Nga korero.",
+        "Momo, te rahi, me nga ahuatanga mahi.",
+        "Ko nga ahua, nga rawa, me nga taipitopito waitohu.",
       ],
     },
 
@@ -12285,11 +12285,11 @@ export default {
      */
     boxes: {
       name: [
-        "tūemi XS",
-        "tūemi S",
-        "tūemi M",
-        "tūemi L",
-        "tūemi XL",
+        "Pouaka XS",
+        "Pouaka S",
+        "Pouaka M",
+        "Pouaka L",
+        "Pouaka XL",
         "Pouaka XXL",
         "Pouaka Pikitia",
         "Pouaka Whanui",

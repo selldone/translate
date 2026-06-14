@@ -3237,7 +3237,7 @@ export default {
   virtual_items_list: {
     add_virtual_item: "Hinzufügen Virtuell Option",
     add_virtual_item_desc:
-      "Um virtuelle Produkte zu verkaufen, müssen Sie sie in diesem Abschnitt hinzufügen. Die Anzahl der virtuellen Artikel entspricht der Anzahl der kostenlosen Artikel in diesem Abschnitt. Sobald Kunden den virtuellen Artikel gekauft haben, wird ihnen der Link zugesendet.",
+      "Um virtuelle Produkte zu verkaufen, können Sie diese in diesem Abschnitt hinzufügen. Die Anzahl der virtuellen Artikel entspricht der Anzahl der kostenlosen Artikel in diesem Abschnitt. Sobald Kunden den virtuellen Artikel kaufen, wird ihnen der Link zugesandt.",
 
     filter_action: "Filter anwenden",
     not_processed: "Unbearbeitete Bestellungen",
@@ -8771,7 +8771,7 @@ export default {
     charge: {
       title: "Aufladen",
       message:
-        "Sie haben für diesen Artikel eine Gebühr angegeben. Sie können den Belastungsbetrag für den vom Kunden gekauften Artikel ändern.",
+        "Sie haben für diesen Artikel eine Gebühr angegeben. Sie können den Rechnungsbetrag für den vom Kunden gekauften Artikel ändern.",
       charge: "Aufladen",
     },
 
@@ -8887,7 +8887,7 @@ export default {
   avocado_process: {
     step1: "Preisgestaltung",
     step1_msg:
-      "Geben Sie den Preis für jeden Artikel ein und aktivieren Sie das grüne Kästchen. Wenn es nicht möglich ist, einen Artikel zu verkaufen, ändern Sie seinen Status in abgelehnt.",
+      "Geben Sie den Preis für jeden Artikel ein und aktivieren Sie das grüne Kästchen. Wenn ein Artikel nicht verkauft werden kann, ändern Sie seinen Status in „Abgelehnt“.",
     step2: "Rechnung bestätigen",
     step2_msg:
       "Erstellen Sie eine Rechnung für diese Bestellung. Sie können einen Titel und eine Beschreibung für die Rechnung eingeben. Die Bestellsumme wird anhand des Gesamtpreises der Artikel automatisch berechnet.",
@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Externer Link",
         description: "Legen Sie einen Link zu einer externen URL fest.",
-        tips: "Sie können dem Artikel eine beliebige URL zuordnen. Wenn Benutzer auf der Produktseite auf den Artikel klicken, werden sie zu diesem Link weitergeleitet.",
+        tips: "Sie können dem Artikel eine beliebige URL hinzufügen. Wenn Benutzer auf der Produktseite auf den Artikel klicken, werden sie zu diesem Link weitergeleitet.",
       },
       internal_link: {
         title: "Interner Link",
@@ -11502,7 +11502,7 @@ export default {
         "Erzielen Sie große Einsparungen, wenn Sie ausgewählte Produkte bündeln. Beeilen Sie sich, zeitlich begrenztes Angebot!",
         "Es erwarten Sie clevere Angebote! Sparen Sie mehr, wenn Sie unsere hervorgehobenen Artikel zusammen kaufen.",
         "Entdecken Sie die clevere Art zu sparen! Bündeln Sie Ihre Favoriten und beobachten Sie den Preisverfall.",
-        "Profitieren Sie von exklusiven Rabatten beim Kombikauf ausgewählter Artikel. Handel jetzt!",
+        "Profitieren Sie von exklusiven Rabatten beim Kombikauf ausgewählter Artikel. Handeln Sie jetzt!",
         "Kaufen Sie mehr, sparen Sie mehr! Unschlagbare Rabatte auf unsere speziellen Produktpakete.",
         "Shoppen Sie clever mit unseren Sonderangeboten. Ermäßigte Preise für ausgewählte Produktpakete.",
         "Erhalten Sie mehr für weniger! Erstaunliche Rabatte beim Kauf unserer ausgewählten Pakete.",
@@ -12213,40 +12213,40 @@ export default {
      */
     template_message: {
       title: [
-        "Bestellbestätigung",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
-        "Titel",
+        "Auftragsbestätigung",
+        "Bestellung versendet",
+        "Bestellung geliefert",
+        "Zahlung erhalten",
+        "Bestellung storniert",
+        "Verzögerung bei der Auftragsabwicklung",
+        "Bestellung in der Warteschleife",
+        "Zur Lieferung bestellen",
+        "Rücksendung bearbeitet",
+        "Rückerstattung ausgestellt",
+        "Artikel wieder auf Lager",
       ],
       body: [
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, Ihre Bestellung #{order_id} wurde bestätigt! Wir bearbeiten es und benachrichtigen Sie, wenn es versandbereit ist.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Gute Nachrichten, {buyer_name}! Ihre Bestellung #{order_id} wurde versendet. Sie können es über Ihr Konto verfolgen. Vielen Dank für Ihren Einkauf bei uns!",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, Ihre Bestellung #{order_id} wurde erfolgreich geliefert. Wir wünschen Ihnen viel Spaß beim Kauf. Danke schön!",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, wir haben die Zahlung für die Bestellung Nr. {order_id} erhalten. Ihre Bestellung wird jetzt bearbeitet und in Kürze versendet.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Lieber {buyer_name}, es tut uns leid, Ihnen mitteilen zu müssen, dass Ihre Bestellung #{order_id} storniert wurde. Bei Fragen wenden Sie sich bitte an den Support.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Lieber {buyer_name}, es kommt zu einer Verzögerung bei Ihrer Bestellung #{order_id}. Wir entschuldigen uns für die Unannehmlichkeiten und arbeiten daran, das Problem so schnell wie möglich zu beheben.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, Ihre Bestellung #{order_id} ist derzeit zurückgestellt. Bitte überprüfen Sie Ihr Konto oder kontaktieren Sie den Support für weitere Details.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, Ihre Bestellung #{order_id} ist zur Auslieferung bereit und sollte bald bei Ihnen eintreffen. Vielen Dank für Ihre Geduld!",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Lieber {buyer_name}, wir haben die Rücksendung Ihrer Bestellung #{order_id} bearbeitet. Bei Fragen wenden Sie sich bitte an den Support.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, Ihre Rückerstattung für die Bestellung Nr. {order_id} wurde ausgestellt. Sie sollten bald das Guthaben auf Ihrem Konto sehen.",
 
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop. {buyer_name} {order_id}",
+        "Hallo {buyer_name}, der Artikel aus Ihrer Bestellung #{order_id} ist wieder auf Lager! Wenn Sie weiterhin Interesse haben, können Sie jetzt eine neue Bestellung aufgeben.",
       ],
     },
 
@@ -12267,16 +12267,16 @@ export default {
         "Titel",
       ],
       description: [
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop.",
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop.",
-        "Beschreibung",
-        "Beschreibung",
-        "Beschreibung",
-        "Beschreibung",
-        "Konfigurieren und verwalten Sie diese Option für Ihren Shop.",
-        "Beschreibung",
-        "Beschreibung",
-        "Beschreibung",
+        "Attribute für Kleidungsstücke wie Größe, Farbe und Stoff.",
+        "Spezifikationen für Gadgets wie Marke, Modell und Funktionen.",
+        "Geschmacksrichtungen, Größen und Arten von Getränken.",
+        "Details zu Mahlzeiten, Snacks und Lebensmitteln.",
+        "Material, Abmessungen und Designstile.",
+        "Autor, Genre und Erscheinungsjahr.",
+        "Hauttyp, Inhaltsstoffe und Verpackungsdetails.",
+        "Altersgruppe, Material und Sicherheitsstandards.",
+        "Typ, Größe und Leistungsmerkmale.",
+        "Stile, Materialien und Markendetails.",
       ],
     },
 

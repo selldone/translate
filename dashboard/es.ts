@@ -8748,7 +8748,7 @@ export default {
         "Escribe los títulos del trabajo que quieres hacer y hazle saber al comprador cuánto ha progresado.",
     },
     booking: {
-      title: "Reserva de reserva",
+      title: "Reserva / Reserva",
       message:
         "Este pedido se procesará en un tiempo específico, el cliente ha seleccionado el período deseado, si desea realizar algún cambio en el período seleccionado, comuníqueselo al cliente.",
 
@@ -12213,40 +12213,40 @@ export default {
      */
     template_message: {
       title: [
-        "Confirmación del pedido",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
-        "Título",
+        "Confirmación de pedido",
+        "Orden enviada",
+        "Orden entregada",
+        "Pago recibido",
+        "Orden cancelada",
+        "Retraso en el procesamiento de pedidos",
+        "Orden en espera",
+        "Realizar pedido para entrega",
+        "Devolución procesada",
+        "Reembolso emitido",
+        "Artículo nuevamente en stock",
       ],
       body: [
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, ¡tu pedido #{order_id} ha sido confirmado! Lo estamos procesando y le notificaremos cuando esté listo para enviarse.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "¡Buenas noticias, {buyer_name}! Su pedido #{order_id} ha sido enviado. Puedes rastrearlo a través de tu cuenta. ¡Gracias por comprar con nosotros!",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, tu pedido #{order_id} ha sido entregado exitosamente. Esperamos que disfrutes de tu compra. ¡Gracias!",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, hemos recibido el pago del pedido #{order_id}. Su pedido ahora se está procesando y se enviará pronto.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Estimado {buyer_name}, lamentamos informarle que su pedido #{order_id} ha sido cancelado. Si tiene alguna pregunta, comuníquese con el soporte.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Estimado {buyer_name}, estamos experimentando un retraso con su pedido #{order_id}. Lamentamos las molestias y estamos trabajando para resolverlo lo antes posible.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, tu pedido #{order_id} está actualmente en espera. Por favor verifique su cuenta o comuníquese con el soporte para obtener más detalles.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, tu pedido #{order_id} ya está disponible para entrega y debería llegarte pronto. ¡Gracias por tu paciencia!",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Estimado {buyer_name}, hemos procesado la devolución de su pedido #{order_id}. Si tiene alguna pregunta, comuníquese con el soporte.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, se ha emitido tu reembolso por el pedido #{order_id}. Deberías ver los fondos en tu cuenta pronto.",
 
-        "Configura y gestiona esta opción para tu tienda. {buyer_name} {order_id}",
+        "Hola {buyer_name}, ¡el artículo de tu pedido #{order_id} vuelve a estar disponible! Puedes realizar un nuevo pedido ahora si todavía estás interesado.",
       ],
     },
 
@@ -12267,16 +12267,16 @@ export default {
         "Título",
       ],
       description: [
-        "Configura y gestiona esta opción para tu tienda.",
-        "Configura y gestiona esta opción para tu tienda.",
-        "Descripción",
-        "Descripción",
-        "Descripción",
-        "Descripción",
-        "Configura y gestiona esta opción para tu tienda.",
-        "Descripción",
-        "Descripción",
-        "Descripción",
+        "Atributos de prendas de vestir como talla, color y tela.",
+        "Especificaciones de dispositivos como marca, modelo y características.",
+        "Sabores, tamaños y tipos de bebidas.",
+        "Detalles de comidas, snacks y productos alimenticios.",
+        "Material, dimensiones y estilos de diseño.",
+        "Autor, género y año de publicación.",
+        "Tipo de piel, ingredientes y detalles del empaque.",
+        "Grupo de edad, material y normas de seguridad.",
+        "Tipo, tamaño y características de rendimiento.",
+        "Estilos, materiales y detalles de marca.",
       ],
     },
 
@@ -12291,18 +12291,18 @@ export default {
         "Caja L",
         "Caja XL",
         "Caja XXL",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre",
-        "Nombre", // flexible mailer
-        "Nombre", // bubble/padded
-        "Nombre", // thermal
-        "Nombre",
+        "Caja delgada",
+        "Caja ancha",
+        "Caja alta",
+        "Caja plana",
+        "Caja cubo",
+        "Tubo de caja",
+        "Caja frágil",
+        "Caja De Botellas De Vidrio",
+        "Paquete blando de caja", // flexible mailer
+        "Caja Acolchada", // bubble/padded
+        "Caja aislada", // thermal
+        "Caja de servicio pesado",
       ],
     },
   },

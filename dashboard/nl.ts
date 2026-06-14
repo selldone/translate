@@ -32,7 +32,7 @@ export default {
     domains: "Domeinen",
     home_page: "Thuis pagina",
     google_icon_font_sample: "Google-lettertypevoorbeeld",
-    fontawesome_icon_font_sample: "Fontawesome (item) item",
+    fontawesome_icon_font_sample: "Fontawesome (V6) voorbeeld",
   },
 
   numbers: {
@@ -264,7 +264,7 @@ export default {
       Developer: "Ontwikkelen",
 
       Product: "Beheer van producten en categorieën",
-      Blog: "item & item",
+      Blog: "CMS en blog",
       Order: "Orderverwerkingscentrum",
       Channel: "Verkoopkanalen",
       Accounting: "Boekhoud- en betalingsmethoden",
@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Geavanceerde mogelijkheden",
       menu_advanced_options_description:
-        "Connect Google sheet, Verwijderen item Producten item Meer. .",
+        "Verbind Google-spreadsheet, verwijder dubbele producten en meer...",
 
       products_rss: {
         title: "Producten-RSS",
@@ -1558,7 +1558,7 @@ export default {
           "U kunt de garantie, het retourbeleid, de verzending en de handleiding definiëren en deze aan dit product toewijzen. Het wordt weergegeven als nieuwe tabbladen op de productpagina.",
       },
       shortcuts: {
-        title: "item product Tot item Categorieën",
+        title: "Wijs producten toe aan aanvullende categorieën",
         subtitle:
           "Met deze functie kunt u het product in meerdere categorieën plaatsen, terwijl de plaatsing ervan in de primaire categorie, ingesteld onder Product > Bewerken > Categorie, behouden blijft. In wezen werkt het op dezelfde manier als het maken van 'snelkoppelingen' in besturingssystemen, waardoor het product in extra gespecificeerde categorieën kan verschijnen.",
       },
@@ -1647,7 +1647,7 @@ export default {
         subtitle:
           "U kunt technische specificaties van vergelijkbare producten importeren.",
         action_title: "Importeren",
-        action_subtitle: "item specificatie Van item product",
+        action_subtitle: "Kloon de specificaties van een ander product.",
       },
       ai: {
         title: "AI",
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google product Categorie code",
     hint: "Vertegenwoordigt de categorie van uw product volgens de producttaxonomie van Google.",
-    placeholder: "item product item service Categorie (optioneel)",
+    placeholder: "Voer de product- of servicecategorie in. (Optioneel)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -2164,7 +2164,7 @@ export default {
   product_badges: {
     title: "badges",
     subtitle: "Toevoegen item Bewerk Aangepast product badges",
-    only_marketplace_owner_msg: "item Marktplaats item",
+    only_marketplace_owner_msg: "Alleen marktplaatseigenaren",
     create_new_badge_action: "Creëren Nieuw badge",
     select_a_badge: "Selecteren item badge",
     inputs: {
@@ -2187,7 +2187,7 @@ export default {
         },
         image: {
           label: "Afbeelding",
-          message: "item Afbeelding item: 128KB",
+          message: "Maximale afbeeldingsgrootte: 128 KB",
           placeholder: "Selecteer een omslagafbeelding",
         },
         pattern: {
@@ -2592,12 +2592,12 @@ export default {
    */
   product_variant_item: {
     duplicated_variant: "Deze variant bestaat al!",
-    set_color_warning: "item Selecteren item Kleur",
+    set_color_warning: "Selecteer een kleur.",
     set_volume_warning: "Geef het volume op.",
     set_pack_warning: "Geef de verpakkingsgrootte op.",
     set_weight_warning: "Geef het gewicht op.",
     set_type_warning: "Selecteer een type.",
-    set_style_warning: "item Selecteren item Stijl",
+    set_style_warning: "Selecteer een stijl.",
     out_of_stock: "Momenteel niet op voorraad",
 
     image: {
@@ -2673,7 +2673,7 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "op te slaan Voorraad",
-    subtitle: "Lijst item alle Producten item op te slaan",
+    subtitle: "Lijst met alle producten in de winkel.",
     cant_set_here: "Kan hier niet worden ingesteld",
 
     search_input: "Product zoeken...",
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Selecteer de reden voor het afwijzen van deze bestelling uit de onderstaande lijst. Zorg ervoor dat u de klant op de hoogte brengt van het annulerings- en terugbetalingsproces. Terugbetalingen dienen binnen 12 uur te geschieden.",
       confirm_now_action: "Annuleren 🛍️ Bestellen item",
-      confirm_in48h_action: "Annuleren 🛍️ Bestellen item 48 item",
+      confirm_in48h_action: "Annuleer bestelling binnen 48 uur",
 
       dismiss_reject_action: "Annulering van de bestelling afwijzen",
 
@@ -3337,7 +3337,7 @@ export default {
       },
 
       express_input: {
-        true_title: "item | Annuleren 🛍️ Bestellen item",
+        true_title: "Express | Annuleer bestelling onmiddellijk",
         false_title: "Standaard | Annuleer bestelling na 48 uur",
         true_description:
           "Met deze optie annuleert u uw bestelling onmiddellijk en wordt de voorraad meteen bijgewerkt.",
@@ -3507,7 +3507,7 @@ export default {
     basket_list: {
       checklist: [
         "Controleer de inventaris.",
-        "Als het artikel niet beschikbaar is, moet het bedrag dat voor dat artikel is betaald, aan de klant worden geretourneerd.",
+        "Als het artikel niet beschikbaar is, moet het voor dat artikel betaalde bedrag worden geretourneerd aan de klant.",
       ],
       message:
         "Als een van de artikelen niet beschikbaar is of niet kan worden verkocht, schakelt u het selectievakje ernaast uit en klikt u op de knop <b>Bestelling bevestigen</b> .",
@@ -3695,8 +3695,8 @@ export default {
       title: "item Acties",
       subtitle:
         "Door deze stappen te ondernemen, ontvangt u daadwerkelijke betalingen van uw klanten.",
-      action_enable: "item Tot Inschakelen item",
-      make_live_enable: "item Tot live item",
+      action_enable: "Klik om het in te schakelen",
+      make_live_enable: "Klik om het te beleven",
     },
   },
 
@@ -4081,7 +4081,7 @@ export default {
     menu: {
       select_all_products: "Selecteren alle Producten",
       unselect: "Deselecteer",
-      sort_categories: "item / item Categorieën",
+      sort_categories: "Categorieën rangschikken/sorteren",
       subscription_vendor_not_support_message:
         "Kan geen leverancier toewijzen voor abonnementsproducten! Abonnementsproducten moeten altijd een leverancier als eigenaar hebben!",
       vendor_owner_not_assignable_message:
@@ -4089,11 +4089,11 @@ export default {
       category_assign_profile: "Wijs een profiel toe aan producten in de categorie",
       category_assign_profile_subtitle: "Belasting, Verzending, handleiding, garantie,. ..",
       bulk_discount: "item Korting",
-      bulk_discount_subtitle: "item Korting item alle Producten",
+      bulk_discount_subtitle: "Korting toepassen op alle producten.",
     },
 
     engine: {
-      title: "item Producten item",
+      title: "Extra producten motor",
       subtitle:
         "Er worden meer producten geladen uit geselecteerde categorieën en tags.",
       load_in_tips: "Laad producten uit categorieën in de {category}.",
@@ -4105,7 +4105,7 @@ export default {
     excel_import: {
       title: "Zet het Excel-/CSV-bestand hier neer.",
       select_file: "Selecteren bestand",
-      max_file: "maximum bestand item: 20item",
+      max_file: "Maximale bestandsgrootte: 20mb",
       download_sample: "Downloaden item",
     },
     ai: {
@@ -4132,7 +4132,7 @@ export default {
 
       charge_tooltip: "Aanval verkoper Portemonnee",
       withdraw_tooltip: "item Van verkoper Portemonnee",
-      payout_tooltip: "item Tot item verkoper",
+      payout_tooltip: "Uitbetaling aan de verkoper.",
     },
     order_canceled: "🛍️ Bestellen item",
     order_rejected: "🛍️ Bestellen Afgekeurd item verkoper",
@@ -4852,7 +4852,7 @@ export default {
     },
     "backoffice:shop:write": {
       name: "Winkel Beheer",
-      description: "Creëren item Beheren Winkel item",
+      description: "Winkelgegevens aanmaken en beheren.",
     },
     "backoffice:shop:add": {
       name: "Toevoegen Winkel",
@@ -4924,7 +4924,7 @@ export default {
     },
     "backoffice:staff:write": {
       name: "Personeel Beheer",
-      description: "Bewerk item Beheren Personeel item",
+      description: "Bewerk en beheer personeelsgegevens.",
     },
     "backoffice:staff:read": {
       name: "Personeel Toegang",
@@ -5148,7 +5148,7 @@ export default {
     },
     vendor: {
       title: "verkoper",
-      description: "Toegang verkoper informatie item Beheer item",
+      description: "Toegang tot leveranciersinformatie en beheerfuncties.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "Bureau",
-      description: "Toegang item informatie item Beheer",
+      description: "Toegang tot informatie en beheer van bureaus.",
     },
   },
 
@@ -5562,9 +5562,9 @@ export default {
       my_public_profile_subtitle: "item Openbaar profiel {name}.",
 
       personal_information: "Persoonlijke informatie en profiel",
-      personal_information_subtitle: "Bewerk item profiel, adres item KYC.",
+      personal_information_subtitle: "Bewerk mijn profiel, adres en KYC.",
       wallet: "Portemonnees en rekeningen",
-      wallet_subtitle: "item rekeningen item Verbonden Betaling Kaarten",
+      wallet_subtitle: "Virtuele accounts en gekoppelde betaalkaarten.",
 
       companies: "Bedrijven en zakelijke rekeningen",
       companies_subtitle: "Registreer mijn bedrijfs- en belastingprofielen.",
@@ -5876,7 +5876,7 @@ export default {
     new_affiliate_message: "Nieuwe aangesloten partner toevoegen",
 
     link_factory: {
-      title: "partner item Koppeling item",
+      title: "Linkgenerator voor aangesloten partners",
       link_input: "Jouw link",
       link_output: "Gegenereerde link",
     },
@@ -5948,15 +5948,15 @@ export default {
           "Bereken met behulp van een combinatie van vaste en procentuele commissies.",
         true_description:
           "Bereken met behulp van productspecifieke commissies die zijn ingesteld op het tabblad Prijzen.",
-        false_title: "item + item Commissie",
+        false_title: "Vast + Provisiepercentage",
         true_title: "item Commissie",
       },
       user: {
         label: "Gebruiker (optioneel)",
-        message: "optioneel, item, partner Naam item Selldone",
+        message: "Optioneel, bijvoorbeeld de partnernaam in Selldone",
       },
       web: {
-        placeholder: "optioneel, item, item",
+        placeholder: "Optioneel, bijvoorbeeld affiliate-web.com",
       },
       address: {
         placeholder: "Optioneel, bijvoorbeeld 1200 POX, NY, VS",
@@ -6355,7 +6355,7 @@ export default {
   offers: {
     title: "Aanbiedingen",
     sub_title:
-      "U kunt speciale aanbiedingen maken voor uw klanten, zodat ze na aankoop van het ene artikel een ander artikel met korting of zelfs gratis ontvangen.",
+      "U kunt speciale aanbiedingen voor uw klanten maken, zodat zij na aankoop van een artikel een ander artikel met korting of zelfs gratis ontvangen.",
     create_new: "Nieuwe aanbieding toevoegen",
     qualified_products: "In aanmerking komende producten",
     min_quantity: "Minimale hoeveelheid",
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "item verkopers item",
+    open_vendors_panel: "Open het leverancierspaneel",
     title: "verkoper item Lijst",
     subtitle:
       "Dit is een lijst met verzoeken van personen die zich hebben aangemeld om leverancier op uw marktplaats te worden.",
@@ -7132,7 +7132,7 @@ export default {
       },
       need_verify: {
         label: "product item Stromen",
-        false_description: "Nieuw verkoper Producten item live item",
+        false_description: "Producten van nieuwe leveranciers gaan onmiddellijk live.",
         false_title: "Geen verificatie vereist",
         true_description:
           "Nieuwe producten van leveranciers vereisen goedkeuring voordat ze live op de markt worden gebracht.",
@@ -7148,7 +7148,7 @@ export default {
       },
       shipping: {
         label: "Verzending item",
-        true_title: "verkopers item Verzending item",
+        true_title: "Verkopers hebben verzendopties",
         false_description:
           "Leveranciers kunnen hun verzendmethoden niet toevoegen of aanpassen.",
         true_description:
@@ -7264,7 +7264,7 @@ export default {
         "Dien een document in om uw bedrijfsadres te verifiëren, zoals een energierekening, belastingfactuur of leaseovereenkomst.",
     },
     Contract: {
-      title: "item & item",
+      title: "Contracten & Overeenkomsten",
       description:
         "Upload contracten of overeenkomsten waarin de algemene voorwaarden van uw zakelijke relaties worden beschreven.",
     },
@@ -7274,7 +7274,7 @@ export default {
         "Zorg voor auteursrechtregistratiedocumenten om uw intellectuele eigendomsrechten te bevestigen.",
     },
     Privacy: {
-      title: "item beleid item",
+      title: "Privacybeleiddocumenten",
       description:
         "Voeg uw privacybeleidsdocumenten toe om aan te tonen dat u zich inzet voor de bescherming van gebruikers- en klantinformatie.",
     },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Wanneer u uitbetalingsdiensten zoals Stripe Connect aansluit, halen wij ter referentie het beschikbare saldo in uw Stripe-account op en geven dit weer.",
     with_balance: "item Balans",
-    without_balance: "item Balans - item modus",
+    without_balance: "Zonder balans - Snelle modus",
     bank_transfer: {
       title: "item Overdracht",
       subtitle:
@@ -7696,7 +7696,7 @@ export default {
         true_title: "Aangepast varianten",
         false_title: "Standaard varianten",
         true_description: "Pas uw productvarianten aan.",
-        false_description: "item Standaard item varianten",
+        false_description: "Gebruik standaard globale varianten.",
       },
     },
   },
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Optie 3: Directe verzending.",
 
     verify_delivery_input: {
-      true_title: "item Levering item",
+      true_title: "Bevestig de voltooiing van de levering",
       true_description:
         "Ik bevestig dat de bestelling bij de klant is afgeleverd.",
     },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Inkomsten genereren",
-    subtitle: "item Toegang Tot bedrijf item",
+    subtitle: "Verspreid de toegang tot zakelijke kansen.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8771,7 +8771,7 @@ export default {
     charge: {
       title: "Aanval",
       message:
-        "U heeft een toeslag voor dit artikel opgegeven. U kunt het afschrijvingsbedrag voor het door de klant gekochte artikel wijzigen.",
+        "U heeft kosten voor dit artikel opgegeven. U kunt het kostenbedrag voor het door de klant gekochte artikel wijzigen.",
       charge: "Aanval",
     },
 
@@ -8887,7 +8887,7 @@ export default {
   avocado_process: {
     step1: "Prijzen",
     step1_msg:
-      "Voer de prijs van elk artikel in en vink het groene vakje aan. Als het niet mogelijk is om een artikel te verkopen, wijzigt u de status in afgewezen.",
+      "Voer de prijs van elk artikel in en vink het groene vakje aan. Als het niet mogelijk is een artikel te verkopen, wijzig dan de status in afgewezen.",
     step2: "Factuur bevestigen",
     step2_msg:
       "Maak een factuur voor deze bestelling. U kunt een titel en omschrijving voor de factuur invoeren. Het orderbedrag wordt automatisch berekend op basis van de totaalprijs van de artikelen.",
@@ -8980,7 +8980,7 @@ export default {
       description:
         "Klanten kunnen dit product alleen kopen binnen het opgegeven land en de opgegeven postcode, vanwege de vastgestelde locatiebeperking.",
     },
-    zip_pin_code: "item / item code",
+    zip_pin_code: "Post-/pincodes",
     no_country_selected_error:
       "Geef ten minste één land op, samen met een lijst met postcodes. Zonder dit zal dit product niet beschikbaar zijn.",
     tips: "Klik op de knop <b>+ Land toevoegen</b> om een ​​nieuwe locatieset aan te maken. Als u klaar bent, kunt u het opslaan door rechtsboven op <b>⋮ Menu</b> te klikken en <b>Profiel opslaan</b> te selecteren.",
@@ -8998,7 +8998,7 @@ export default {
         "Voer een naam in om deze reeks locaties op te slaan. Deze opgeslagen locatieset kan op andere producten worden toegepast, waardoor locatie snel kan worden geladen met slechts één klik. Als er al een profiel met de opgegeven naam bestaat, wordt dit bijgewerkt met deze nieuwe waarden.",
       title_input: {
         title: "profiel Titel",
-        placeholder: "item Categorie Naam, item op te slaan Naam,. ..",
+        placeholder: "Een categorienaam, of winkelnaam,...",
       },
     },
     load_profile_dialog: {
@@ -9040,7 +9040,7 @@ export default {
     },
     product: {
       title: "Producten",
-      subtitle: "Voorraad Beheer item product item",
+      subtitle: "Voorraadbeheer en product duidelijk.",
     },
   },
 
@@ -9803,7 +9803,7 @@ export default {
       },
     },
     serp: {
-      title: "Google item & item",
+      title: "Google-SERP en trefwoorden",
       subtitle:
         "Wij verkrijgen de meest nauwkeurige SEO-auditgegevens van Google en presenteren deze op een handige manier aan u. Volg gewoon de aangegeven stappen.",
     },
@@ -9829,7 +9829,7 @@ export default {
   cashback: {
     add_new: "Toevoegen Nieuw cashback",
     title: "cashback item",
-    boosted: "item (2item)",
+    boosted: "Boost (2x)",
     min_purchase: "Minimale afname",
     only_first_order: "Alleen eerste bestelling",
     total_cashback: "Totaal cashback",
@@ -9839,7 +9839,7 @@ export default {
       action: "Ja, nu verwijderen",
     },
     notifications: {
-      delete_success: "cashback item verwijderd item",
+      delete_success: "Cashback programma succesvol verwijderd.",
     },
   },
   /**
@@ -9901,7 +9901,7 @@ export default {
     limit_input: {
       title: "Begrenzing",
       hint: "Vul het maximale cashbackbedrag in.",
-      zero_message: "item 0 item Onbeperkt cashback",
+      zero_message: "Vul 0 in voor onbeperkte cashback.",
     },
     duration: {
       title: "Duur Begrenzing",
@@ -9954,7 +9954,7 @@ export default {
         "Door een cluster aan het cashbackprogramma te koppelen, kunt u deze effectiever beheren.",
     },
     notifications: {
-      add: "cashback item Toevoegen item",
+      add: "Cashback programma succesvol toegevoegd.",
       edit: "Cashback-programma succesvol bijgewerkt.",
     },
     enable_input: {
@@ -9964,7 +9964,7 @@ export default {
     },
     boosted_input: {
       false_title: "normaal",
-      true_title: "item (2item cashback)",
+      true_title: "Boost (2x cashback)",
       true_msg:
         "Het cashbackprogramma staat in de boostmodus en klanten ontvangen 2x cashback.",
       false_msg:
@@ -10169,9 +10169,9 @@ export default {
       listing_pricing_msg: "lijst Prijzen:",
       has_valuation_msg: "Product heeft waardering.",
       subscription_pricing_msg:
-        "item product item {count} Abonnement Prijzen Plannen",
+        "Dit product heeft een {count}-abonnement.",
       has_no_subscription_pricing_msg:
-        "item product item nee Abonnement Prijzen Plannen",
+        "Dit product heeft geen abonnementsprijsplannen.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10189,7 +10189,7 @@ export default {
     location: {
       title: "item Plaats beperking ● {status}",
       status: {
-        has_restriction: "Beschikbaar item {count} item",
+        has_restriction: "Beschikbaar in {count}-landen",
         no_restriction: "Niet beperkt",
       },
       available_countries_msg:
@@ -10226,7 +10226,7 @@ export default {
         subscription_tax_msg:
           "We kunnen alleen belasting toepassen op de stap voor het maken van betalingen.",
         dedicated: "Toegewijd",
-        is_disabled: "item Belasting profiel item uitgeschakeld!",
+        is_disabled: "Dit belastingprofiel is uitgeschakeld!",
         tax_is_based_on_location: "Belasting: Plaats item",
         shipping_tax_is_based_on_location: "Verzending: Plaats item",
         included_in_price: "Inbegrepen in de prijs.",
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "item product item Tot <b>{vendor}</b>.",
+      vendor_owner_msg: "Dit product behoort tot <b>{vendor}</b>.",
       has_vendors_msg: "Er zijn {count} leveranciers voor dit product.",
       no_vendor_msg:
         "U heeft geen leverancier aan dit product toegewezen, dus klanten kunnen het niet kopen.",
@@ -10380,7 +10380,7 @@ export default {
     add_dialog: {
       title: "Selecteren Invoer item",
       html: {
-        title: "item & item HTML",
+        title: "Tekst & HTML",
         subtitle: "De waarde van het item kan worden aangegeven als tekst of HTML.",
       },
       image: {
@@ -10419,14 +10419,14 @@ export default {
       subtitle:
         "U kunt de inhoud van het logistieke profiel in meerdere talen aanpassen.",
 
-      language_input: "item Artikel item",
+      language_input: "Huidige artikeltaal",
       delete_article: "Verwijderen Artikel",
       menu_tooltip: "automatisch item / Verwijderen Artikel",
     },
     translate_to: "item Tot",
     notifications: {
       translate: {
-        message: "Artikel item Voltooid item",
+        message: "De vertaling van het artikel is succesvol voltooid.",
       },
       save_article: {
         message: "Artikel is succesvol opgeslagen.",
@@ -10547,7 +10547,7 @@ export default {
         hint: "De beschrijving wordt gebruikt voor SEO en is mogelijk zichtbaar voor gebruikers op sommige aangepaste lay-outs op de productpagina.",
       },
       image: {
-        message: "item Afbeelding item: 1MB",
+        message: "Maximale afbeeldingsgrootte: 1 MB",
       },
       path: {
         label: "pagina item",
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "nee Portemonnee!",
 
     withdraw_dialog: {
-      title: "item Commissie item",
+      title: "Commissiekosten intrekken",
 
       need_bank_info_message: "Voer eerst uw bankgegevens in.",
 
@@ -10631,7 +10631,7 @@ export default {
       },
       actions: {
         withdraw_to_wallet: "item Tot Portemonnee",
-        withdraw_to_bank: "item Tot item",
+        withdraw_to_bank: "Opnemen bij de bank",
       },
     },
     notifications: {
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "nee item Uploaden item",
+    no_asset_uploaded: "Er is nog geen item geüpload.",
   },
 
   /**
@@ -10734,7 +10734,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "item & item",
+    title: "Slepen en neerzetten",
     subtitle: "Voorgebouwde secties",
     add_dialog: {
       title: "Toevoegen Aangepast item",
@@ -10806,7 +10806,7 @@ export default {
         "De gebruiker heeft het verzoek afgewezen om leverancier te worden en toegang te krijgen tot deze leverancier.",
     },
     download_all_vendors: "Downloaden alle verkopers",
-    bulk_import: "item Importeren (item)",
+    bulk_import: "Bulkimport (Excel)",
   },
 
   /**
@@ -10865,7 +10865,7 @@ export default {
         },
         body: {
           label: "Sjabloon Bericht",
-          placeholder: "schrijven item Bericht item",
+          placeholder: "Schrijf hier uw bericht...",
           messages:
             "U kunt dynamische waarden instellen met {order_id} en {buyer_name}.",
         },
@@ -11048,8 +11048,8 @@ export default {
       require_first_approved_before_more: "Vereist eerst goedkeuring vóór meer",
 
       limits_title: "Grenzen",
-      max_pending_per_user: "item In afwachting item Gebruiker",
-      max_items_per_user: "item Artikelen item Gebruiker",
+      max_pending_per_user: "Max. in behandeling per gebruiker",
+      max_items_per_user: "Maximaal aantal items per gebruiker",
       limits_hint: "Grenzen item",
 
       templates_title: "Sjablonen",
@@ -11083,10 +11083,10 @@ export default {
 
     moderation: {
       approve_success: "Artikel succesvol goedgekeurd.",
-      publish_success: "item gepubliceerd item",
+      publish_success: "Artikel succesvol gepubliceerd.",
       unpublish_success: "Item is niet gepubliceerd.",
       archive_success: "Item succesvol gearchiveerd.",
-      reject_success: "item Afgekeurd item",
+      reject_success: "Artikel afgewezen.",
       penalty_success: "Straf succesvol toegepast.",
 
       reject_title: "Afwijzen item",
@@ -11224,7 +11224,7 @@ export default {
       note: "Je kunt moderatie, limieten, formulieren en ontwerp later configureren in de Lijstinstellingen.",
       vendor_prereq_text:
         "Wilt u dat leveranciers aanbiedingsitems toevoegen vanuit hun Leverancierspaneel? Schakel eerst uw bedrijfsmodel over naar Marketplace.",
-      vendor_prereq_button: "item Marktplaats bedrijf item",
+      vendor_prereq_button: "Stel het Marketplace-bedrijfsmodel in",
 
       vendor_access_text:
         "Nu kunt u beslissen of leveranciers toegang hebben tot de aanbiedingsfuncties (items + bedrijven). Schakel het in in de Marketplace-instellingen.",
@@ -11252,7 +11252,7 @@ export default {
       radius_default_hint: "Wordt gebruikt wanneer de klant een locatie selecteert, maar geen straal kiest.",
       radius_max: "maximum Straal (item)",
       radius_max_hint: "De winkelpuiradius wordt op deze waarde beperkt.",
-      radius_options: "Straal item (item)",
+      radius_options: "Straalopties (km)",
       radius_options_hint: "Deze waarden kunnen worden weergegeven als snelle opties in de winkelinterface.",
 
       filters_title: "zoeken filter",
@@ -11365,26 +11365,26 @@ export default {
      */
     discount_code: {
       code: [
-        "WELKOM10",
-        "ZOMER20",
-        "VIPVERKOOP30",
-        "BDAG15",
-        "ZWARTE VRIJDAG",
-        "CYBERMONDAG",
-        "GEEN VERZENDKOSTEN",
-        "FLASHVERKOOP",
-        "OPRUIMING",
-        "VROEGE VOGEL",
-        "item10",
-        "item25",
-        "LENTE15",
-        "HERFST20",
-        "item10",
-        "VAKANTIE 30",
-        "VALENTIJN20",
-        "MOEDERDAG",
-        "VADERDAG",
-        "EINDE VAN HET JAAR",
+        "WELCOME10",
+        "SUMMER20",
+        "VIPSALE30",
+        "BDAY15",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
+        "FREESHIPPING",
+        "FLASHSALE",
+        "CLEARANCE",
+        "EARLYBIRD",
+        "STUDENT10",
+        "WINTER25",
+        "SPRING15",
+        "FALL20",
+        "BESTSELLER10",
+        "HOLIDAY30",
+        "VALENTINE20",
+        "MOTHERSDAY",
+        "FATHERSDAY",
+        "ENDOFYEAR",
       ],
       title: [
         "Flash-uitverkoop: 20% korting!",
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "hoofd Portemonnee",
-        "bedrijf Rekening",
-        "persoonlijk Portemonnee",
-        "item Portemonnee",
-        "item Rekening",
-        "primair Portemonnee",
-        "item Rekening",
-        "item Portemonnee",
-        "Transactie Portemonnee",
-        "item Rekening",
+        "Hoofdportemonnee",
+        "Zakelijke rekening",
+        "Persoonlijke portemonnee",
+        "Spaarportemonnee",
+        "Onkostenrekening",
+        "Primaire portemonnee",
+        "Algemene rekening",
+        "Portemonnee reserveren",
+        "Transactieportemonnee",
+        "Fondsrekening",
       ],
     },
 

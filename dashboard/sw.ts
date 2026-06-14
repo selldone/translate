@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Chaguzi za hali ya juu",
       menu_advanced_options_description:
-        "Connect Google laha, Ondoa kipengee Bidhaa kipengee Zaidi. .",
+        "Unganisha laha la Google, Ondoa bidhaa zilizorudiwa na zaidi...",
 
       products_rss: {
         title: "RSS ya bidhaa",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API ya bidhaa",
-        subtitle: "Ingiza Bidhaa kipengee kipengee API kipengee",
+        subtitle: "Kuagiza bidhaa kupitia simu ya API inayoweza kufikiwa na umma.",
       },
       google_sheet: {
         action: "imeunganishwa laha",
@@ -630,12 +630,12 @@ export default {
         false_description:
           "Tazama bidhaa zilizopangwa kwa kategoria na kategoria ndogo.",
         true_title: "Hali ya jedwali",
-        true_description: "Tazama Bidhaa kipengee kipengee ",
+        true_description: "Tazama bidhaa katika mpangilio wa kina wa jedwali.",
       },
 
       show_notes: {
         false_title: "Ficha kipengee",
-        false_description: "Ficha kipengee kipengee",
+        false_description: "Ficha madokezo tupu.",
         true_title: "Onyesha kipengee",
         true_description: "Onyesha zote kipengee, ⌘Ctrl+2",
       },
@@ -860,9 +860,9 @@ export default {
         subtitle:
           "Unaweza kutekeleza vizuizi ili kuhakikisha kuwa wateja walio ndani ya maeneo maalum ya usafirishaji pekee ndio wanaoweza kufanya ununuzi kutoka kwako!",
         no_enable_shipping_error:
-          "Hapana kipengee kipengee Nunua Kutoka kipengee kipengee Hapana imewezeshwa Usafirishaji njia!",
+          "Hakuna mtu anayeweza kununua kutoka kwako kwa sababu huna njia ya usafirishaji iliyowezeshwa!",
         customer_must_select_a_shipping_msg:
-          "mteja kipengee Chagua kipengee Usafirishaji njia Kwa kipengee 🛍️ Agizo",
+          "Mteja lazima achague njia ya usafirishaji ili kuagiza.",
         customer_can_order_without_shipping_method_msg:
           "Mteja anaweza kuagiza hata kama hakuna njia ya usafirishaji inayotumika kwa eneo lililochaguliwa.",
         inputs: {
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "kipengee Kitengo",
-        subtitle: "kipengee Kitengo Imetumika kipengee kipengee",
+        subtitle: "Kitengo kinachotumika kwa umbali.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Vifaa",
         profiles: "Wasifu",
         includes: "Inajumuisha",
-        property_sets: "kipengee kipengee",
+        property_sets: "Seti za Mali",
         boxes: "vifurushi",
       },
 
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategoria",
-      category_input_msg: "kipengee: kipengee kipengee Maduka kipengee",
+      category_input_msg: "Tupu: Katika mizizi ya duka",
       product_name: "Jina la bidhaa*",
       product_name_placeholder: "Jina la bidhaa yako hapa..",
       product_code: "Nambari ya bidhaa (Kiingereza)",
       sku: {
         label: "SKU",
-        message: "kipengee kipengee Kitengo",
+        message: "Kitengo cha Kuhifadhi Hisa",
       },
       mpn: {
         label: "MPN",
-        message: "kipengee kipengee kipengee",
+        message: "Nambari ya Sehemu ya Mtengenezaji",
       },
 
       external_link: "Kiungo cha nje",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "Tafadhali hifadhi bidhaa kwanza, na kisha unaweza kuteua modeli ya uthamini.",
         assign_valuation_message:
-          "kipengee kipengee Kwa kipengee Bidhaa",
+          "Tafadhali kabidhi muundo wa uthamini kwa bidhaa hii.",
         edit_pricing_action: "Hariri Kuweka bei fomu",
         add_pricing_action: "Unda Mpya Kuweka bei fomu",
       },
@@ -1507,14 +1507,14 @@ export default {
         title: "Desturi Nunua kipengee",
         message:
           "Unaweza kubadilisha aikoni kwa kufuata mchoro huu : {icon name} maelezo mafupi...",
-        placeholder: "kipengee kipengee Kwa kipengee",
-        multi_language_dialog_title: "Desturi Nunua kipengee kipengee",
+        placeholder: "Weka mwito wa kuchukua hatua...",
+        multi_language_dialog_title: "Nukuu maalum ya kitufe cha kununua",
       },
       external: {
         not_available_message:
           "Hatua ya ziada inapatikana kwa leseni za Kampuni na Biashara.",
         available_message: "Unaweza kuongeza simu ya ziada ya kuchukua hatua.",
-        input_label: "kipengee kipengee Kwa kipengee",
+        input_label: "Wito wa Pili wa Kitendo",
       },
       warehouse: {
         subtitle:
@@ -1522,8 +1522,8 @@ export default {
       },
       gtin: {
         hint: "Thamani zinazotumika ni UPC (Amerika Kaskazini, tarakimu 12), EAN (Ulaya, tarakimu 13), JAN (Japani, tarakimu 8 au 13), ISBN (vitabu, tarakimu 13).",
-        label: "Bidhaa kipengee kipengee ",
-        placeholder: "kipengee kipengee (hiari)",
+        label: "Nambari ya Bidhaa ya Biashara ya Kimataifa",
+        placeholder: "Nambari ya biashara ya kimataifa hapa.. (Si lazima)",
       },
       hsn: {
         hint: "HSN, au Mfumo Uliooanishwa wa Nomenclature, ni mfumo wa uainishaji sanifu wa kimataifa wa kuainisha bidhaa na bidhaa.",
@@ -1531,8 +1531,8 @@ export default {
         label: "HSN",
       },
       condition: {
-        label: "Bidhaa kipengee kipengee kipengee duka",
-        message: "kipengee kipengee Bidhaa",
+        label: "Hali ya bidhaa katika duka lako",
+        message: "Tafadhali chagua hali ya bidhaa hii.",
         subtitle:
           "Wajulishe wateja wako kuhusu hali na chapa ya bidhaa unayotoa.",
       },
@@ -1550,7 +1550,7 @@ export default {
       status: {
         title: "Hali",
         subtitle:
-          "kipengee Bidhaa Hali kipengee kipengee Kwa pata kipengee Bidhaa Rasimu, kipengee kipengee kipengee Hali Kwa 'asiyefanya kazi",
+          "Hali ya bidhaa huamua upatikanaji wake mtandaoni na dukani. Ili kutengeneza rasimu ya bidhaa, badilisha tu hali yake iwe 'Isiyotumika'..",
       },
       profiles: {
         title: "Wasifu",
@@ -1558,7 +1558,7 @@ export default {
           "Unaweza kufafanua dhamana, sera ya kurejesha, usafirishaji, na kuwaongoza na kuwakabidhi kwa bidhaa hii. Itaonyeshwa kama vichupo vipya kwenye ukurasa wa bidhaa.",
       },
       shortcuts: {
-        title: "kipengee Bidhaa Kwa kipengee Kategoria",
+        title: "Agiza Bidhaa kwa Vitengo vya Ziada",
         subtitle:
           "Kipengele hiki hukuruhusu kuorodhesha bidhaa katika kategoria nyingi huku ukihifadhi uwekaji wake katika kategoria ya msingi iliyowekwa chini ya Bidhaa > Hariri > Kitengo. Kimsingi, inafanya kazi sawa na kuunda 'njia za mkato' katika mifumo ya uendeshaji, kuwezesha bidhaa kuonekana katika kategoria za ziada zilizobainishwa.",
       },
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "kipengee",
         subtitle:
-          "Ongeza Bidhaa Vipimo kipengee kipengee ",
+          "Ongeza vipimo vya bidhaa wewe mwenyewe kwa kufafanua vikundi na jozi za maadili muhimu.",
         add_group_action: "Ongeza Kikundi",
         add_item_action: "Ongeza vipimo Thamani",
       },
@@ -1647,14 +1647,14 @@ export default {
         subtitle:
           "Unaweza kuagiza vipimo vya kiufundi vya bidhaa zinazofanana.",
         action_title: "Ingiza",
-        action_subtitle: "kipengee vipimo Kutoka kipengee Bidhaa",
+        action_subtitle: "Mfano wa Clone kutoka kwa bidhaa nyingine.",
       },
       ai: {
         title: "AI",
         subtitle:
           "Unaweza kuunda vipimo vya bidhaa kiotomatiki kwa kuwasilisha data ghafi ya bidhaa katika umbo la maandishi.",
-        action_title: "kiotomatiki kipengee kipengee AI",
-        action_subtitle: "Unda Bidhaa Vipimo kipengee kipengee kipengee",
+        action_title: "Tengeneza Kiotomatiki na AI",
+        action_subtitle: "Unda vipimo vya bidhaa kwa haraka ya muhtasari.",
       },
 
       group_input_header: "Ongeza Kikundi",
@@ -1687,7 +1687,7 @@ export default {
         spec_saved_success: "Vipimo vya bidhaa vimehifadhiwa.",
       },
       dialog_ai: {
-        title: "kipengee kipengee Bidhaa Vipimo",
+        title: "Tengeneza Vipimo vya Bidhaa kiotomatiki",
         prompt: {
           title: "Bidhaa Muhtasari",
           subtitle:
@@ -1696,19 +1696,19 @@ export default {
         generated_spec: {
           title: "kipengeekipengee Vipimo",
           subtitle:
-            "kipengee Vipimo kipengee kipengee ",
+            "Vipimo hivi vilitolewa na akili ya bandia.",
         },
         inputs: {
           prompt: {
             label: "Bidhaa Maelezo",
-            placeholder: "kipengee kipengee Bidhaa kipengee",
+            placeholder: "Eleza bidhaa hapa...",
           },
         },
         actions: {
           run: {
             title: "kipengee Vipimo",
             subtitle:
-              "kipengee Kwa kipengee Unda Bidhaa Vipimo Kutoka kipengee kipengee Muhtasari",
+              "Bofya ili kuunda kiotomatiki vipimo vya bidhaa kutoka kwa muhtasari uliotolewa.",
           },
           add_generated_spec: "Ongeza kipengee Vipimo",
         },
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "mandharinyuma Maelezo",
-            placeholder: "kipengee kipengee kipengee mandharinyuma",
+            placeholder: "Eleza usuli unaotaka...",
           },
         },
         actions: {
           reimagine: {
             title: "kipengee Mpya Picha",
-            subtitle: "Wazia upya kipengee kipengee Picha kipengee kipengee Mpya mandharinyuma",
+            subtitle: "Fikiri upya picha nzima na usuli mpya.",
           },
           replace: {
-            subtitle: "kipengee kipengee kipengee mandharinyuma",
+            subtitle: "Badilisha usuli uliopo.",
           },
         },
       },
@@ -1858,7 +1858,7 @@ export default {
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "kipengee Kuweka bei kipengee kipengee {min}",
+    title: "Bei ya Ziada kwa zaidi ya {min}",
     subtitle:
       "Mfumo huamua moja kwa moja utaratibu na kipaumbele kwa hesabu ya bei. Tafadhali weka kiwango cha chini kinachohitajika ili bei hii ianze kutumika.",
     min_quantity: "Kiasi cha chini",
@@ -1870,7 +1870,7 @@ export default {
         "Malipo ya bidhaa zinazoshuka huwekwa na wauzaji wa jumla, na haiwezi kurekebishwa hapa.",
       marketplace:
         "Hesabu ya jumla ya bidhaa sokoni imedhamiriwa kwa kuongeza orodha ya wachuuzi wote. Huwezi kuirekebisha hapa.",
-      default: "kipengee kipengee Bidhaa Malipo Hesabu kipengee",
+      default: "Bainisha hesabu ya orodha ya bidhaa hapa.",
     },
     menu: {
       add_bulk: {
@@ -1878,8 +1878,8 @@ export default {
         subtitle: "Ongeza vibadala vingi katika kitendo kimoja.",
       },
       edit_property_set: {
-        title: "kipengee kipengee kipengee",
-        subtitle: "Badilika Lahaja kipengee, kipengee kipengee Maagizo",
+        title: "Binafsisha Seti ya Mali",
+        subtitle: "Badilisha lahaja majina, ikoni na maagizo.",
       },
     },
   },
@@ -1895,7 +1895,7 @@ export default {
   google_product_category_input: {
     label: "Google Bidhaa Kategoria Kanuni",
     hint: "Inawakilisha aina ya bidhaa yako kulingana na kanuni za bidhaa za Google.",
-    placeholder: "kipengee Bidhaa kipengee huduma Kategoria (hiari)",
+    placeholder: "Weka aina ya bidhaa au huduma.. (Si lazima)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "kipengee Usimamizi",
     subtitle:
-      "Unda kipengee, kipengee, kipengee kipengee ",
+      "Unda madirisha ibukizi yaliyogeuzwa kukufaa, yenye akili na maingiliano.",
     add_action: "Ongeza Mpya Ibukizi",
   },
 
@@ -1942,7 +1942,7 @@ export default {
       dedicated: "kipengee",
 
       subscription: "Tunaweza kutuma ushuru kwenye hatua ya kuunda malipo pekee.",
-      is_disabled: "kipengee Kodi wasifu kipengee imezimwa! (⚠️kipengee)",
+      is_disabled: "Wasifu huu wa ushuru umezimwa! (⚠️Tahadhari)",
       shipping: "Usafirishaji",
       fixed_rate: "TAX",
       location_based_rate: "Kodi: Mahali kipengee",
@@ -1988,7 +1988,7 @@ export default {
       page: "ukurasa Kiolezo",
       shipping: "Usafirishaji",
       access: "Ufikiaji",
-      critical_zone: "kipengee kipengee",
+      critical_zone: "Eneo Muhimu",
     },
 
     profile: {
@@ -2014,7 +2014,7 @@ export default {
         "Weka ukurasa maalum wa kutua kwa muuzaji, ukiwapa kiungo cha kipekee kwa ukurasa wao maalum.",
       action_set_page: "ona Hadharani ukurasa",
       action_sub_caption: "Desturi Kutua ukurasa",
-      vendor_has_landing_msg: "muuzaji kipengee kipengee Desturi Kutua ukurasa",
+      vendor_has_landing_msg: "Muuzaji ana ukurasa maalum wa kutua.",
       no_landing_selected_msg: "Hapana Kutua ukurasa Chagua",
       no_landing_page: "Hapana Kutua ukurasa",
       we_can_create_dedicated_landing_msg:
@@ -2022,7 +2022,7 @@ export default {
     },
     contact: {
       title: "Wasiliana Habari",
-      subtitle: "kipengee kipengee kipengee Wasiliana Maelezo",
+      subtitle: "Tafadhali toa maelezo halali ya mawasiliano.",
     },
     business: {
       title: "biashara Habari",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Usafirishaji",
-      subtitle: "wauzaji kipengee duka kipengee kipengee Usafirishaji Huduma kipengee Wasafirishaji",
+      subtitle: "Wachuuzi wanaweza kusanidi huduma zao za usafirishaji na wasafirishaji.",
       shipping_services: "Usafirishaji Huduma",
       total_number_of_services:
         "Jumla ya idadi ya huduma za usafirishaji ambazo muuzaji anazo.",
@@ -2056,7 +2056,7 @@ export default {
       action: "Ondoa muuzaji",
       verify_description:
         "Ninajua kuwa mahusiano yote ya bidhaa za wauzaji yataondolewa!",
-      verify_title: "kipengee kipengee Kwa Futa kipengee muuzaji",
+      verify_title: "Ninataka kufuta muuzaji huyu.",
     },
 
     send_invitation_tips:
@@ -2065,25 +2065,25 @@ export default {
       "Mmiliki wa soko pekee ndiye anayeweza kuhariri mtumiaji. Ikiwa ungependa kubadilisha mmiliki wa mchuuzi huyu, unaweza kutuma ombi kwetu.",
     vendor_is_disable_msg: "muuzaji kipengee imezimwa",
     email_not_match_with_user_msg:
-      "kipengee Barua pepe kipengee kipengee Watumiaji Barua pepe (<b>{user_name}:</b>{user_email}). kipengee kipengee kipengee Kwa Tuma Barua pepe Kwa<b>{email}</b>?",
+      "Barua pepe uliyoweka hailingani na barua pepe ya mtumiaji (<b>{user_name}:</b>{user_email}). Je, una uhakika wa kutuma barua pepe kwa<b>{email}</b>?",
 
     order_information_email_to_email:
-      "kipengee kipengee Tuma Maagizo taarifa Kwa <b>{email}</b>.",
+      "Tutatuma maelezo ya maagizo kwa <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Weka mtumiaji kwa muuzaji kwanza.",
 
     inputs: {
       slug: {
         label: "kipengee",
-        placeholder: "kipengee kipengee Desturi kipengee",
+        placeholder: "Weka njia maalum...",
         hint: "Badilisha njia ya ukurasa wa kutua unaobadilika wa muuzaji.",
       },
       email: {
-        message: "kipengee Barua pepe kipengee Pokea zote Arifa kipengee Sasisha",
+        message: "Barua pepe hii itapokea arifa na masasisho yote.",
       },
       business: {
-        false_description: "kipengee kipengee ",
-        true_description: "kipengee kipengee biashara kipengee",
+        false_description: "Ninafanya kazi kama mtu binafsi.",
+        true_description: "Ninafanya kazi kama huluki ya biashara inayotambulika kisheria.",
         false_title: "kipengee",
         true_title: "biashara",
       },
@@ -2096,8 +2096,8 @@ export default {
         placeholder: "kipengee Jina",
       },
       account_number: {
-        hint: "kipengee wauzaji kipengee Akaunti kipengee",
-        placeholder: "kipengee Benki Akaunti kipengee",
+        hint: "Nambari ya kipekee ya akaunti ya muuzaji.",
+        placeholder: "Nambari ya akaunti yako ya benki..",
       },
       routing_number: {
         hint: "Idadi hii inatofautiana kulingana na nchi. Inatumika kutambua tawi maalum la benki ambalo muuzaji hutumia.",
@@ -2105,11 +2105,11 @@ export default {
       },
       iban: {
         hint: "Nambari ya Akaunti ya Benki ya Kimataifa): Ikiwa benki ya muuzaji iko Ulaya au nchi zingine.",
-        placeholder: "kipengee IBAN kipengee kipengee DE89 3704 0044 0000 0000 00",
+        placeholder: "Nambari yako ya IBAN.. km. DE89 3704 0044 0000 0000 00",
       },
       swift: {
         hint: "Nambari ya Akaunti ya Benki ya Kimataifa): Ikiwa benki ya muuzaji iko Ulaya au nchi zingine.",
-        placeholder: "kipengee kipengee kipengee",
+        placeholder: "Msimbo wako Mwepesi/BIC..",
       },
       branch_address: {
         hint: "Anwani ya tawi la benki ambapo muuzaji ana akaunti yake.",
@@ -2124,9 +2124,9 @@ export default {
       access: {
         label: "muuzaji kipengee & Ufikiaji",
         true_description:
-          "kipengee muuzaji kipengee kipengee Kwa Sasisha Kiasi kipengee bei",
+          "Muuzaji ana jopo maalum la kusasisha idadi na bei.",
         hint: "Unaweza kuwasha au kuzima kidirisha cha wauzaji, ambacho huruhusu wachuuzi kusasisha idadi na bei za bidhaa na kupokea maagizo kiasi.",
-        false_description: "kipengee muuzaji kipengee Hapana Ufikiaji Kwa kipengee",
+        false_description: "Muuzaji hana ufikiaji wa chochote.",
       },
 
       logo: {
@@ -2164,22 +2164,22 @@ export default {
   product_badges: {
     title: "beji",
     subtitle: "Ongeza kipengee Hariri Desturi Bidhaa beji",
-    only_marketplace_owner_msg: "kipengee Sokoni kipengee",
+    only_marketplace_owner_msg: "Wamiliki wa soko pekee",
     create_new_badge_action: "Unda Mpya beji",
     select_a_badge: "Chagua kipengee beji",
     inputs: {
       custom: {
-        false_description: "Bidhaa beji kipengee kipengee kipengee",
+        false_description: "Beji za bidhaa huundwa kiotomatiki.",
         false_title: "kiotomatiki",
         true_title: "Desturi Bidhaa beji",
-        true_description: "Ongeza Desturi beji kipengee kipengee Bidhaa ukurasa",
+        true_description: "Ongeza beji maalum katika ukurasa wa bidhaa.",
       },
     },
     add_custom_badge: {
       title: "Desturi beji",
       subtitle:
-        "Ongeza kipengee Mpya Desturi beji Kwa kipengee Duka kipengee beji Hesabu kipengee 10. Zaidi. . beji kipengee kipengee Duka",
-      show_advanced_options: "Onyesha kipengee kipengee",
+        "Ongeza beji mpya maalum kwenye duka langu. Weka idadi ya beji chini ya 10. Beji zaidi zinaweza kupunguza kasi ya duka lako.",
+      show_advanced_options: "Onyesha chaguo la juu",
 
       inputs: {
         title: {
@@ -2187,8 +2187,8 @@ export default {
         },
         image: {
           label: "Picha",
-          message: "kipengee Picha kipengee: 128KB",
-          placeholder: "Chagua kipengee kipengee Picha",
+          message: "Ukubwa wa juu wa picha: 128 KB",
+          placeholder: "Chagua picha ya jalada",
         },
         pattern: {
           label: "kipengee",
@@ -2199,9 +2199,9 @@ export default {
       },
       notifications: {
         badge_added: "Beji imeongezwa kwa mafanikio!",
-        badge_updated: "kipengee beji kipengee kipengee !",
+        badge_updated: "Beji imesasishwa kwa mafanikio!",
         item_not_found_error:
-          "kipengee kipengee ukurasa kipengee Wasiliana Msaada",
+          "Kipengee hakikuweza kupatikana. Tafadhali onyesha upya ukurasa au wasiliana na usaidizi.",
       },
     },
   },
@@ -2221,7 +2221,7 @@ export default {
       },
     },
     notifications: {
-      tags_updated: "kipengee Lebo kipengee kipengee ",
+      tags_updated: "Lebo zimesasishwa kwa ufanisi.",
     },
   },
 
@@ -2231,7 +2231,7 @@ export default {
   vendor_shipping_services: {
     title: "Usafirishaji Huduma",
     subtitle:
-      "kipengee Sokoni Matoleo Usafirishaji njia Kwa msaada wauzaji kipengee kipengee Maagizo kipengee kipengee Ongeza Usafirishaji Huduma kipengee Kwa kipengee 🛍️ Agizo Usafirishaji kipengee Kutoka kipengee 🛍️ Agizo ukurasa kipengee kipengee Anwani kipengee kipengee msimbo kipengee kipengee Usafirishaji kipengee",
+      "Soko hutoa njia za usafirishaji ili kusaidia wachuuzi kutimiza maagizo yao. Unaweza kuongeza huduma za usafirishaji hapa ili kuagiza lebo za usafirishaji kwa urahisi kutoka kwa ukurasa wako wa kuagiza. Hii hurahisisha mchakato kwa kusawazisha anwani na misimbo ya kufuatilia na mtoa huduma wa usafirishaji.",
 
     subtitle_pickup:
       "Soko huwezesha kuchukua kwa wachuuzi, hivyo kuruhusu wanunuzi kuchagua kuchukua kutoka eneo lako kama chaguo la usafirishaji. Unaweza kuongeza eneo lako la kuchukua katika wasifu wako (ghala lako litatumika kama eneo chaguomsingi la kuchukua).",
@@ -2267,7 +2267,7 @@ export default {
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "kipengee kipengee",
+    header: "Lugha nyingi",
     auto_action: "kiotomatiki kipengee",
     premium_user_only: "kipengee Watumiaji",
   },
@@ -2286,7 +2286,7 @@ export default {
         "Unda au chagua vipengee vya kifurushi vinavyokuja na bidhaa au huduma. Tumia kipengele hiki ili kusisitiza kile ambacho wateja wanaweza kutarajia kupokea wanaponunua bidhaa. Tunashauri kutumia kipengele hiki tu wakati ni muhimu kwa mteja kuelewa maudhui yaliyojumuishwa, kama vile wakati wa kununua simu mahiri.",
       create_item_tips:
         "Vinginevyo, unaweza kujumuisha kipengee kipya. Tumia picha za mraba, kwani tutabadilisha ukubwa wa picha zilizopakiwa kiotomatiki hadi umbizo la mraba 256x256. Ili kuhakikisha mwonekano bora zaidi kwenye violezo vyote, tumia picha za udogo na mandharinyuma zinazowazi na kudumisha muundo thabiti wa bidhaa zako zote.",
-      create_new_item_action: "Unda Mpya kipengee kipengee",
+      create_new_item_action: "Unda kipengee kipya kilichojumuishwa",
     },
   },
 
@@ -2370,7 +2370,7 @@ export default {
         title: "Ukadiriaji wa Bidhaa",
         title_small: "Ripoti ya Kuridhika kwa Wateja",
         total_participation: "Jumla ya idadi ya michango",
-        total_participation_tooltip: "Jumla Hesabu kipengee kipengee Bidhaa",
+        total_participation_tooltip: "Jumla ya hesabu ya wakadiriaji wa bidhaa.",
         today_participation: "Ukadiriaji wa leo",
         last7days_participation: "Michango ya siku 7 zilizopita",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Idadi ya michango",
           score: "Alama",
         },
-        users_not_rated_msg: "Watumiaji kipengee kipengee Bidhaa kipengee",
+        users_not_rated_msg: "Watumiaji bado hawajakadiria bidhaa hii.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,16 +2442,16 @@ export default {
 
         config: {
           title: "Bidhaa kipengee duka",
-          subtitle: "Dhibiti SKU, MPN, kipengee kipengee kipengee Lahaja",
+          subtitle: "Dhibiti SKU, MPN, na upatikanaji wa vibadala.",
         },
         variables: {
-          title: "kipengee kipengee",
+          title: "Chaguzi Lahaja",
           subtitle:
             "Weka msimbo wa rangi ya hex, k.m., <b>#654FFF</b>, au rangi mbili zikitenganishwa na kufyeka, k.m., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "Unaweza kukabidhi thamani yoyote kwa vigeu, ikijumuisha picha ukitumia <b>Vipengee vya Picha</b>. Pakia mchoro na utumie msimbo uliotolewa kwa kibadala.",
-          graphical_asset_action: "kipengee kipengee",
-          graphical_asset_action_caption: "Picha kipengee kipengee kipengee",
+          graphical_asset_action: "Vipengee vya Picha",
+          graphical_asset_action_caption: "Picha kwa chaguo lahaja.",
         },
         smart_unit_price: {
           tips: "Kokotoa bei ya kitengo kulingana na <b>uzito</b>, <b>juzuu</b>, na <b>saizi ya kifurushi</b>. Ili kuzima kipengele hiki, nenda kwenye Duka > Mipangilio > Mandhari > Ukurasa wa Bidhaa > Bei Mahiri.",
@@ -2459,18 +2459,18 @@ export default {
         },
         quantity: {
           title: "Malipo",
-          subtitle: "kipengee kipengee ",
+          subtitle: "Weka viwango vya hisa kwa kila lahaja.",
         },
         price: {
           title: "Kuweka bei",
           subtitle:
-            "kipengee kipengee Desturi bei kipengee kipengee Chaguomsingi Bidhaa bei",
+            "Weka bei maalum ya kibadala au tumia bei chaguomsingi ya bidhaa.",
         },
         package: {
           title: "kipengee & Usafirishaji",
           subtitle:
             "Bainisha uzito na vipimo vya vibadala ili kubainisha chaguo za usafirishaji.",
-          same_as_product_action: "kipengee kipengee Bidhaa",
+          same_as_product_action: "Sawa na bidhaa",
         },
         image: {
           title: "kipengee Picha",
@@ -2479,13 +2479,13 @@ export default {
         },
         inputs: {
           sku: {
-            message: "kipengee kipengee Kitengo (SKU)",
+            message: "Kitengo cha Kuhifadhi Hisa (SKU)",
           },
           mpn: {
-            message: "kipengee kipengee kipengee (MPN)",
+            message: "Nambari ya Sehemu ya Mtengenezaji (MPN)",
           },
           gtin: {
-            label: "kipengee kipengee (GTIN)",
+            label: "Nambari ya Bidhaa ya Biashara Ulimwenguni (GTIN)",
             message:
               "Miundo inayotumika: UPC (tarakimu 12), EAN (tarakimu 13), JAN (tarakimu 8 au 13), ISBN (tarakimu 13).",
           },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "Usafirishaji Huduma Inapatikana kipengee kipengee Uzito",
+      "Huduma za usafirishaji zinazopatikana hutegemea saizi na uzito uliotolewa.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,12 +2531,12 @@ export default {
     lead_time_dimension: "Saa",
     bulk_action: "Vitendo Vingi",
     bulk_action_subtitle:
-      "kipengee kipengee taarifa Kwa zote Bidhaa Lahaja",
+      "Unaweza kutumia maelezo ya ufungaji kwa anuwai zote za bidhaa.",
 
     bulk_action_input: "Sasisha anuwai zote",
     bulk_action_msg:
       "Weka wakati wa ufungaji wa bidhaa na utayarishaji wa anuwai zote.",
-    dynamic_lead_time: "kipengee kipengee Wakati",
+    dynamic_lead_time: "Muda wa kuongoza wa nguvu",
     instant_delivery: "kipengee Uwasilishaji",
   },
 
@@ -2552,9 +2552,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "kipengee Picha kipengee kipengee",
-      placeholder: "kipengee kipengee ",
-      success_update_notification: "kipengee kipengee ",
+      title: "Weka Maandishi ya Alt ya Picha",
+      placeholder: "Weka maandishi mbadala ya maelezo...",
+      success_update_notification: "Maandishi mbadala yamesasishwa.",
     },
     dialog_bg_remove: {
       title: "Ondoa mandharinyuma kipengee",
@@ -2562,14 +2562,14 @@ export default {
         title: "Ondoa mandharinyuma",
         subtitle: "Unda kipengee wazi mandharinyuma",
       },
-      success_remove_bg_notification: "mandharinyuma kipengee kipengee!",
+      success_remove_bg_notification: "Usuli umeondolewa!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "kipengee kipengee kipengee",
+    title: "Vipengee Tofauti vya Picha",
     tips: {
       how_it_works:
         "<b>Jinsi Inavyofanya Kazi:</b><br />Pakia mchoro au picha za vipengee hapa. Ili kutumia picha hizi kama chaguo mbadala, jumuisha <b>{filename}</b> katika thamani ya kibadala. Kumbuka kuwa msimbo huu hauwezi kutumika katika thamani ya <b><s>rangi</s></b>.",
@@ -2584,21 +2584,21 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "kipengee uwekaji bei",
     min_quantity: "Dak Kiasi",
-    range_is_out_of_stock: "kipengee kipengee !",
+    range_is_out_of_stock: "Safu imekwisha!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "kipengee kipengee !",
-    set_color_warning: "kipengee Chagua kipengee Rangi",
-    set_volume_warning: "kipengee kipengee kipengee kiasi",
-    set_pack_warning: "kipengee kipengee ",
-    set_weight_warning: "kipengee kipengee kipengee Uzito",
-    set_type_warning: "kipengee Chagua kipengee Aina",
-    set_style_warning: "kipengee Chagua kipengee Mtindo",
-    out_of_stock: "kipengee kipengee ",
+    duplicated_variant: "Kibadala hiki tayari kipo!",
+    set_color_warning: "Tafadhali chagua rangi.",
+    set_volume_warning: "Tafadhali bainisha kiasi.",
+    set_pack_warning: "Tafadhali bainisha ukubwa wa kifurushi.",
+    set_weight_warning: "Tafadhali taja uzito.",
+    set_type_warning: "Tafadhali chagua aina.",
+    set_style_warning: "Tafadhali chagua mtindo.",
+    out_of_stock: "Hazina kwa sasa",
 
     image: {
       tooltip: "⚡ Buruta na udondoshe picha hapa ili kuikabidhi kwa lahaja.",
@@ -2608,12 +2608,12 @@ export default {
       false_tooltip: "Bidhaa hii haipatikani kwenye duka la mtandaoni.",
     },
     restore_dialog: {
-      title: "kipengee kipengee",
+      title: "Rejesha Lahaja",
       message: "Je, una uhakika unataka kurejesha lahaja hii iliyofutwa?",
-      action: "ndiyo, kipengee kipengee",
+      action: "Ndiyo, Rejesha Sasa",
     },
     notifications: {
-      restore_variant_success: "kipengee Bidhaa kipengee kipengee ",
+      restore_variant_success: "Kibadala cha bidhaa kilirejeshwa kwa ufanisi.",
     },
   },
 
@@ -2673,8 +2673,8 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "duka Malipo",
-    subtitle: "Orodha kipengee zote Bidhaa kipengee duka",
-    cant_set_here: "kipengee kipengee kipengee",
+    subtitle: "Orodha ya bidhaa zote katika duka.",
+    cant_set_here: "Haiwezi kuweka hapa",
 
     search_input: "Utafutaji wa Bidhaa...",
     search_input_title: "Tafuta kati ya bidhaa za duka",
@@ -2718,7 +2718,7 @@ export default {
     title: "kipengee Vitendo > bei",
     message:
       "Kiasi kifuatacho kitatumika kama asilimia kwa bei ya bidhaa zote katika duka lako. Pia, thamani za bei zilizokokotwa zitabadilishwa kwa akili hadi nambari ya mzunguko iliyo karibu zaidi kulingana na sarafu iliyochaguliwa. Kuwa mwangalifu unapoweka thamani.",
-    check: "kipengee kipengee bei kipengee",
+    check: "Ninaidhinisha mabadiliko ya bei.",
     check_description:
       "Bei itabadilishwa kwa kategoria iliyochaguliwa na vijamii vyote.",
     add_percent_tab: "Ongeza asilimia",
@@ -2737,7 +2737,7 @@ export default {
     marketplace: {
       title: "Sokoni Orodhesho bei",
       subtitle:
-        "kipengee kipengee Kwa kipengee Sasisha kipengee Orodhesho bei kipengee Bidhaa kipengee kipengee Sokoni kipengee, kipengee kuu Bidhaa bei kipengee kipengee muuzaji Kuweka bei kipengee Kwa kwa mkono bei kipengee",
+        "Chaguo hili hukuruhusu kusasisha kiotomatiki bei ya uorodheshaji wa bidhaa sokoni. Wakati fulani, bei kuu ya bidhaa inaweza isilingane na bei ya muuzaji kutokana na mabadiliko ya bei mwenyewe.",
       strategy: {
         min: {
           title: "kipengee kiwango cha chini bei",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Hifadhi kiotomatiki",
-    auto_save_input_message: "kipengee kipengee ",
+    auto_save_input_message: "Mabadiliko yatahifadhiwa kiotomatiki.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Malipo njia",
     sub_title:
-      "Orodha kipengee Inayotumika Malipo njia kipengee kipengee kipengee Kwa Ongeza kipengee Mpya njia Kwa kipengee Duka, kipengee kipengee 10 Ongeza Malipo Milango",
+      "Orodha ya njia za malipo zinazotumika. Ikiwa ungependa kuongeza mbinu mpya kwenye duka lako, bonyeza kitufe kifuatacho. Tulipendekeza sana zisizozidi lango 10 za malipo zilizoongezwa.",
     add_gateway: "Mpya Malipo njia",
 
     add_gateway_dialog: {
       title: "Chagua Sarafu",
-      country_currencies: "kipengee kipengee",
+      country_currencies: "Fedha za ndani",
       crypto_currencies: "kipengee",
 
       confirm: "Ongeza njia ya malipo",
@@ -2833,7 +2833,7 @@ export default {
       },
 
       request_add_new_gateway: {
-        title: "kipengee ona kipengee kipengee Malipo njia?",
+        title: "Je, huoni njia ya malipo unayopendelea?",
         subtitle:
           "Iwapo mtoa huduma wa malipo wa eneo lako hajaorodheshwa, jiandikishe kwa mpango wowote wa kila mwaka (ikiwa ni pamoja na Kuanzisha kwa uwezo wa kumudu) na uombe kuunganishwa. Tutaikamilisha ndani ya saa 48 ikiwa akaunti ya jaribio na hati zitatolewa.",
       },
@@ -3074,7 +3074,7 @@ export default {
 
     config: {
       subtitle:
-        "Kategoria msaada kipengee Bidhaa Usimamizi kipengee pata kipengee kipengee Wateja Kwa kipengee Bidhaa kipengee kipengee duka",
+        "Kategoria husaidia kurahisisha usimamizi wa bidhaa na kurahisisha wateja wako kupata bidhaa kwenye duka lako.",
     },
     parent: {
       subtitle:
@@ -3088,11 +3088,11 @@ export default {
         "Unaweza kuboresha onyesho la ukurasa wa kategoria yako kwa kufunika ukurasa maalum. Mbinu bora ni kuunda kurasa zilizo na mandharinyuma wazi na kubuni sehemu 1 hadi 2 mahususi kwa kila aina. Kisha unaweza kuunganisha ukurasa mmoja kwa kategoria nyingi, kwa kutumia maudhui yanayobadilika kubinafsisha kila kategoria kibinafsi.",
     },
     critical_zone: {
-      title: "kipengee kipengee",
+      title: "Eneo Muhimu",
       subtitle:
         "Ukiondoa aina, vijamii na bidhaa zake zitahamishiwa kwenye saraka kuu<b>📁 {parent}</b>. Ili kudhibiti kategoria ambazo haziko kwenye orodha ya bidhaa, nenda kwenye kichupo cha Duka > Vitengo.",
       accept_delete: {
-        true_description: "kipengee kipengee Kwa Ondoa kipengee Kategoria",
+        true_description: "Ninataka kuondoa kategoria hii.",
         true_title: "kipengee Ondoa Kategoria",
       },
     },
@@ -3326,7 +3326,7 @@ export default {
       message:
         "Chagua sababu ya kukataa agizo hili kutoka kwa orodha iliyo hapa chini. Hakikisha kuwa unamfahamisha mteja kuhusu mchakato wa kughairiwa na kurejesha pesa. Urejeshaji pesa lazima ufanyike ndani ya masaa 12.",
       confirm_now_action: "Ghairi 🛍️ Agizo kipengee",
-      confirm_in48h_action: "Ghairi 🛍️ Agizo kipengee 48 kipengee",
+      confirm_in48h_action: "Ghairi Agizo Ndani ya Saa 48",
 
       dismiss_reject_action: "Ondoa kughairiwa kwa agizo",
 
@@ -3337,8 +3337,8 @@ export default {
       },
 
       express_input: {
-        true_title: "kipengee | Ghairi 🛍️ Agizo kipengee",
-        false_title: "kipengee | Ghairi 🛍️ Agizo kipengee 48 kipengee",
+        true_title: "Express | Ghairi Agizo Mara Moja",
+        false_title: "Kawaida | Ghairi Agizo Baada ya Saa 48",
         true_description:
           "Chaguo hili litaghairi agizo lako mara moja na kusasisha orodha mara moja.",
         false_description:
@@ -3354,9 +3354,9 @@ export default {
         "Agizo limerejeshwa kwa mchakato wa kawaida.",
       set_tracking_success: "Kitambulisho cha Wimbo wa Agizo kimehifadhiwa.",
       shipping_address_update_success:
-        "Usafirishaji anwani kipengee kipengee ",
+        "Anwani ya usafirishaji imesasishwa.",
       vendor_order_status_update_success:
-        "muuzaji kipengee Hali kipengee kipengee ",
+        "Hali ya utimilifu wa muuzaji imesasishwa kwa mafanikio.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Inasubiri malipo",
       processing_payment: "Inachakata malipo",
       processing_cancel: "Malipo yameghairiwa",
-      require_capture: "kipengee kipengee",
+      require_capture: "Inahitaji kukamata",
       paid: "Imelipwa",
       cod_pay_info:
         "Ukipokea agizo kutoka kwa mteja unaweza kuthibitisha malipo na kukamilisha agizo.",
@@ -3519,7 +3519,7 @@ export default {
         "Mteja wako atashinda mara 1 ya bidhaa hii. Tuma zawadi na agizo hili.",
 
       need_to_refund: {
-        title: "rejesho kipengee Kwa kipengee mteja",
+        title: "Urejeshaji pesa unahitajika kwa mteja",
         message:
           "Tunakokotoa jumla ya kiasi cha kurejesha pesa ambacho unahitaji kurejesha mwenyewe. Ilikokotolewa kulingana na bidhaa ambazo hazipatikani na jumla ya thamani zilizorejeshwa bado.",
         calculated_approximately:
@@ -3549,7 +3549,7 @@ export default {
       weight_warning: "Inazidi uzito unaoruhusiwa.",
       volume_warning: "Inazidi ukubwa unaoruhusiwa wa kifurushi.",
       items_weight_calculation:
-        "kipengee Uzito kipengee zote Vipengee kipengee {weight} {unit}",
+        "Uzito wa pamoja wa vitu vyote ni {weight} {unit}",
       not_available_message:
         "Haipatikani wakati umezimwa ukiuliza anwani ya usafirishaji na pia mtumiaji hakujaza anwani baada ya ununuzi!",
 
@@ -3658,11 +3658,11 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "Habari",
-    subtitle: "Muhtasari kipengee Malipo Lango kipengee kipengee Hali",
+    subtitle: "Muhtasari wa usanidi wa lango la malipo na hali.",
     status: "Hali",
     cod_transportation: "usaidizi Usafirishaji",
     cod_transportations_error:
-      "Washa kipengee kipengee Uwasilishaji Malipo kipengee kipengee Usafirishaji njia!",
+      "Washa pesa kwenye malipo ya usafirishaji kwa angalau njia moja ya usafirishaji!",
     payment_type: "Malipo Aina",
     cod: "Pesa Wakati Uwasilishaji",
     online: "kipengee Malipo",
@@ -3695,8 +3695,8 @@ export default {
       title: "kipengee Vitendo",
       subtitle:
         "Kwa kuchukua hatua hizi, utaanza kupokea malipo halisi kutoka kwa wateja wako.",
-      action_enable: "kipengee Kwa Washa kipengee",
-      make_live_enable: "kipengee Kwa Ishi kipengee",
+      action_enable: "Bofya ili kuiwezesha",
+      make_live_enable: "Bofya ili kuishi",
     },
   },
 
@@ -3723,7 +3723,7 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} imehaririwa.",
-      success_delete: "Malipo njia kipengee kipengee Imefutwa!",
+      success_delete: "Njia ya kulipa imefutwa!",
     },
     debug: {
       title: "Kuendeleza & kipengee",
@@ -3732,28 +3732,28 @@ export default {
 
     limit: {
       title: "🛍️ Agizo Kikomo",
-      subtitle: "kipengee kipengee kiwango cha chini 🛍️ Agizo Kiasi kipengee kipengee Malipo Lango",
+      subtitle: "Weka kiwango cha chini cha agizo la lango hili la malipo.",
     },
     limit_input: {
       title: "kiwango cha chini 🛍️ Agizo Kiasi",
-      msg: "kipengee kipengee Hapana Kikomo",
+      msg: "Sifuri inamaanisha hakuna kikomo.",
     },
     currency_input: {
-      message: "kipengee Sarafu kipengee kipengee Malipo Lango usaidizi",
+      message: "Sarafu ambayo lango hili la malipo linaauni.",
     },
     gateway_code: "Lango Kanuni",
 
-    hold_only_for: "kipengee Malipo kipengee Inapatikana kipengee",
+    hold_only_for: "Shikilia malipo yanapatikana tu kwa",
     manual_input: {
       false_description:
         "Hali ya malipo itabadilishwa kiotomatiki kutoka inayosubiri hadi kuthibitishwa katika mfumo wa mtoa huduma wa malipo.",
       false_title: "kiotomatiki Malipo kipengee",
-      true_title: "kipengee Malipo kipengee kwa mkono kipengee",
+      true_title: "Shikilia malipo na uthibitisho wa Mwongozo",
       true_description:
         "Zuia malipo kwa hivyo unahitaji kuthibitisha malipo kwa agizo la kubadilisha hali yao kutoka hali inayosubiri hadi iliyothibitishwa katika mfumo wa mtoa huduma wa malipo.",
     },
     delete_verify_input: {
-      true_title: "kipengee kipengee Kwa Ondoa kipengee Malipo njia",
+      true_title: "Ninataka kuondoa njia hii ya kulipa.",
       true_description:
         "Njia hii ya kulipa itaondolewa kwenye duka na haitapatikana kwa wateja.",
     },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Orodha ya kadi zilizotolewa",
       subtitle:
-        "Tazama kipengee Dhibiti zote kipengee Kadi kipengee kipengee Tuma Kadi Kwa Watumiaji kipengee kipengee ",
+        "Tazama na udhibiti kadi zote zilizotolewa. Unaweza kutuma kadi kwa watumiaji wewe mwenyewe au kuzipiga marufuku ikihitajika.",
 
       loading_message: "Inapata maelezo ... tafadhali subiri",
       issue_to_user: "Tatizo kwa mtumiaji",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "wauzaji Mkoba Shughuli",
 
     "vendor-sms":
-      "🔔 🛍️ Agizo kipengee SMS kipengee kipengee Imetumwa Kwa <b>{vendor}</b> ╏ {phone}.",
+      "🔔 Taarifa ya kuagiza SMS imetumwa kwa <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4036,13 +4036,13 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "Tuma kipengee Malipo kipengee SMS Kwa kipengee mteja kipengee {phone}.",
+      "Tuma SMS ya uthibitishaji wa malipo kwa mteja kupitia {phone}.",
     "sms-ready-to-ship":
       "Tuma SMS kwa mteja ukimwarifu kuwa agizo lake liko tayari kusafirishwa kupitia {phone}.",
     "sms-ready-to-pickup":
       "Tuma SMS kwa mteja ukimwarifu kuwa agizo lake liko tayari kuchukuliwa kupitia {phone}.",
     "sms-order-confirmation":
-      "Tuma kipengee 🛍️ Agizo kipengee SMS Kwa kipengee mteja kipengee {phone}.",
+      "Tuma SMS ya uthibitishaji wa agizo kwa mteja kupitia {phone}.",
 
     "count-adjustment":
       "Idadi ya bidhaa \"{product}\" imesasishwa kutoka {from} hadi {to}.",
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Hamisha aina ya <b>{category}</b> hadi aina nyingine",
     move_product: "Hamisha bidhaa <b>{product}</b> hadi kategoria",
     load_more_products:
-      "Zaidi. . Bidhaa kipengee Inapatikana kipengee kipengee Kategoria kipengee Kwa kipengee Zaidi. . Vipengee",
+      "Bidhaa zaidi zinapatikana katika kitengo hiki. Bofya ili kupakia vipengee zaidi.",
     product_menu: {
       dashboard: "Dashibodi ya bidhaa",
       inventory: "Mali na lahaja",
@@ -4071,9 +4071,9 @@ export default {
     filter_box: {
       no_root_filter_message: "Una bidhaa katika mizizi lakini hakuna kichujio.",
       has_root_filter_message: "Unaweka vichungi kwa kategoria ya mizizi.",
-      set_filter_message: "kipengee kipengee kipengee Vichujio",
+      set_filter_message: "Unaweza kuweka vichungi.",
       edit_action: "Hariri kipengee Vichujio",
-      clear_action: "kipengee kipengee Vichujio",
+      clear_action: "Futa Vichujio vya Mizizi",
     },
     ai: {
       title: "AI Bidhaa kipengee",
@@ -4081,31 +4081,31 @@ export default {
     menu: {
       select_all_products: "Chagua zote Bidhaa",
       unselect: "kipengee",
-      sort_categories: "kipengee / kipengee Kategoria",
+      sort_categories: "Panga / Panga Kategoria",
       subscription_vendor_not_support_message:
         "Haiwezi kukabidhi muuzaji kwa bidhaa za usajili! Bidhaa za usajili lazima kila wakati ziwe na muuzaji kama mmiliki wao!",
       vendor_owner_not_assignable_message:
         "Haiwezi kuteua muuzaji wa bidhaa na muuzaji kama mmiliki wake!",
-      category_assign_profile: "kipengee wasifu Kwa Bidhaa kipengee kipengee Kategoria",
+      category_assign_profile: "Agiza wasifu kwa bidhaa katika kategoria",
       category_assign_profile_subtitle: "Kodi, Usafirishaji, mwongozo, dhamana,. ..",
       bulk_discount: "kipengee Punguzo",
-      bulk_discount_subtitle: "kipengee Punguzo kipengee zote Bidhaa",
+      bulk_discount_subtitle: "Omba punguzo kwa bidhaa zote.",
     },
 
     engine: {
-      title: "kipengee Bidhaa kipengee",
+      title: "Injini ya Bidhaa za Ziada",
       subtitle:
-        "Zaidi. . Bidhaa kipengee kipengee kipengee Kutoka Chagua Kategoria kipengee Lebo",
-      load_in_tips: "kipengee Bidhaa Kutoka Kategoria kipengee kipengee {category}.",
+        "Bidhaa zaidi zitapakiwa kutoka kategoria na lebo zilizochaguliwa.",
+      load_in_tips: "Pakia bidhaa kutoka kategoria katika {category}.",
       action: "Hariri {category} kipengee",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "kipengee kipengee / CSV faili kipengee",
+      title: "Dondosha faili ya Excel / CSV hapa.",
       select_file: "Chagua faili",
-      max_file: "kiwango cha juu faili kipengee: 20kipengee",
+      max_file: "Upeo wa ukubwa wa faili: 20mb",
       download_sample: "Pakua kipengee",
     },
     ai: {
@@ -4115,7 +4115,7 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "kipengee kipengee",
+    has_panel: "Ina paneli",
     no_panel: "Hapana kipengee",
     manual_action: {
       title: "kwa mkono Vitendo",
@@ -4123,16 +4123,16 @@ export default {
       guides: [
         "Wachuuzi walio na ufikiaji wa paneli wanaweza kusasisha utimilifu wao (maagizo madogo) katika dashibodi yao maalum.",
         "Ikiwa muuzaji hana ufikiaji wa paneli, hali ya agizo la muuzaji itabadilishwa kiatomati kwa kubadilisha hali ya kikapu.",
-        "kipengee kipengee Sasisha muuzaji Maagizo kipengee",
+        "Unaweza kusasisha maagizo ya wauzaji wewe mwenyewe.",
       ],
     },
     payouts: {
       title: "kipengee",
-      message: "Dhibiti kipengee muuzaji kipengee kipengee Shughuli",
+      message: "Dhibiti malipo na miamala ya wauzaji.",
 
       charge_tooltip: "Malipo muuzaji Mkoba",
       withdraw_tooltip: "kipengee Kutoka muuzaji Mkoba",
-      payout_tooltip: "kipengee Kwa kipengee muuzaji",
+      payout_tooltip: "Malipo kwa muuzaji.",
     },
     order_canceled: "🛍️ Agizo kipengee",
     order_rejected: "🛍️ Agizo Imekataliwa kipengee muuzaji",
@@ -4160,8 +4160,8 @@ export default {
     },
 
     open_marketplace_page: "kipengee Sokoni ukurasa",
-    open_my_store_page: "kipengee kipengee duka ukurasa",
-    open_my_listing_page: "kipengee kipengee Orodhesho ukurasa",
+    open_my_store_page: "Fungua ukurasa wangu wa duka",
+    open_my_listing_page: "Fungua ukurasa wa tangazo langu",
     add_products_permission: "Ongeza Bidhaa kipengee",
     add_categories_permission: "Ongeza Kategoria kipengee",
   },
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "Barua pepe",
-        placeholder: "kipengee kipengee wanachama Barua pepe anwani",
+        placeholder: "Weka barua pepe ya mwanachama...",
       },
     },
     notifications: {
@@ -4248,7 +4248,7 @@ export default {
       },
       inputs: {
         verify: {
-          label: "kipengee kipengee Imethibitishwa kipengee Malipo?",
+          label: "Je, umethibitisha malipo haya?",
           false_description:
             "Hapana, bado sijapokea malipo haya katika akaunti yangu ya benki.",
           true_description: "Ndiyo, nimepokea na kuthibitisha malipo haya.",
@@ -4266,8 +4266,8 @@ export default {
       "<b>Muhimu! </b>Kutekeleza kitendo hiki kutazalisha muamala hasi katika pochi ya muuzaji na kuondoa kiasi kilichochaguliwa kutoka kwayo. Kiasi hicho hakiwezi kuzidi jumla ya miamala iliyosalia ya agizo lililochaguliwa. Zaidi ya hayo, ikiwa fedha zimetumwa kwenye akaunti za benki zilizounganishwa (kama vile Stripe Connect au uhamishaji wa fedha wa kielektroniki), unapaswa kuunda <b>hamisha ya kurejesha</b>.",
     inputs: {
       note: {
-        message: "kipengee kipengee Kwa kipengee muuzaji",
-        placeholder: "kipengee kipengee Kumbuka kipengee",
+        message: "Inaonekana kwa muuzaji.",
+        placeholder: "Unaweza kuambatanisha dokezo hapa...",
       },
       amount: {
         error_message: "Kiasi kilichobaki kimepitwa.",
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Katika sehemu hii, unaweza kuona ratiba ya matukio yanayohusiana na agizo, utimilifu, malipo na hali zao husika. Zaidi ya hayo, unaweza kuchunguza maagizo yaliyotumwa kwa wateja na wachuuzi.",
-    add_note_subtitle: "kuandika kipengee Ujumbe kipengee kipengee ",
+    add_note_subtitle: "Andika ujumbe na utaje wenzako.",
 
     message_input: "Andika ujumbe hapa...",
     pin_action: "Bandika juu",
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Ongeza Duka",
-      description: "Ongeza kipengee Mpya Duka Kwa kipengee kipengee",
+      description: "Ongeza duka jipya kwenye mfumo.",
     },
     "backoffice:shop:delete": {
       name: "Futa Duka",
-      description: "Futa kipengee Duka Kutoka kipengee kipengee",
+      description: "Futa duka kutoka kwa mfumo.",
     },
     "backoffice:giftcard:write": {
       name: "Zawadi Kadi Usimamizi",
@@ -5008,7 +5008,7 @@ export default {
     },
     "backoffice:ribbon:read": {
       name: "kipengee Ufikiaji",
-      description: "kusoma kipengee Maelezo kipengee Takwimu",
+      description: "Soma maelezo na takwimu za Ribbon.",
     },
     "backoffice:ai:write": {
       name: "AI Usimamizi",
@@ -5016,7 +5016,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Ufikiaji",
-      description: "kusoma AI kipengee kipengee Takwimu",
+      description: "Soma usanidi na takwimu za AI.",
     },
     "backoffice:vendor-payment:write": {
       name: "muuzaji Malipo Usimamizi",
@@ -5036,7 +5036,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Kumbuka Ufikiaji",
-      description: "kusoma kipengee kipengee kipengee Maelezo",
+      description: "Soma maelezo na maelezo yanayohusiana.",
     },
     "backoffice:note:write": {
       name: "Kumbuka Usimamizi",
@@ -5052,7 +5052,7 @@ export default {
     },
     "backoffice:print:write": {
       name: "kipengee Usimamizi",
-      description: "Dhibiti kipengee kipengee",
+      description: "Dhibiti chaguo za kuchapisha.",
     },
     "backoffice:print:read": {
       name: "kipengee Ufikiaji",
@@ -5060,7 +5060,7 @@ export default {
     },
     "selldone:token:read": {
       name: "kipengee Ufikiaji",
-      description: "kusoma kipengee Maelezo kipengee Takwimu",
+      description: "Soma maelezo ya tokeni na takwimu.",
     },
     "selldone:token:write": {
       name: "kipengee Usimamizi",
@@ -5070,11 +5070,11 @@ export default {
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "kipengee Ufikiaji",
-      description: "kusoma kipengee Maelezo kipengee Takwimu",
+      description: "Soma maelezo na takwimu za uchumaji wa mapato.",
     },
     "selldone:monetization:write": {
       name: "kipengee Usimamizi",
-      description: "Dhibiti kipengee, kipengee kipengee kipengee",
+      description: "Dhibiti uchumaji wa mapato, ikijumuisha programu za rufaa.",
     },
     "selldone:identification": {
       name: "kipengee Ufikiaji",
@@ -5100,13 +5100,13 @@ export default {
     },
     "connect:provider:read": {
       name: "kipengee Ufikiaji",
-      description: "kusoma kipengee Maelezo kipengee Takwimu",
+      description: "Soma maelezo na takwimu za mtoa huduma.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "kipengee Ufikiaji",
-      description: "kusoma kipengee Maelezo kipengee Takwimu",
+      description: "Soma maelezo na takwimu za wakala.",
     },
     "agency:write": {
       name: "kipengee Usimamizi",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "kipengee",
-      description: "Ufikiaji Kwa kipengee kipengee duka Usimamizi kipengee",
+      description: "Ufikiaji wa ofisi ya nyuma na vipengele vya usimamizi wa duka.",
     },
     storefront: {
       title: "kipengee",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Ufikiaji Selldone Huduma kipengee kipengee",
+      description: "Fikia huduma na vipengele vya Selldone.",
     },
     others: {
       title: "kipengee",
-      description: "kipengee Mawanda kipengee kipengee ",
+      description: "Mipaka mbalimbali haijabainishwa katika mfumo.",
     },
     vendor: {
       title: "muuzaji",
-      description: "Ufikiaji muuzaji taarifa kipengee Usimamizi kipengee",
+      description: "Fikia maelezo ya muuzaji na vipengele vya usimamizi.",
     },
     connect: {
       title: "Connect OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "kipengee",
-      description: "Ufikiaji kipengee taarifa kipengee Usimamizi",
+      description: "Fikia taarifa za wakala na usimamizi.",
     },
   },
 
@@ -5562,23 +5562,23 @@ export default {
       my_public_profile_subtitle: "kipengee Hadharani wasifu {name}.",
 
       personal_information: "Taarifa za Kibinafsi na Wasifu",
-      personal_information_subtitle: "Hariri kipengee wasifu, anwani kipengee KYC.",
+      personal_information_subtitle: "Hariri wasifu wangu, anwani na KYC.",
       wallet: "Pochi na Akaunti",
-      wallet_subtitle: "kipengee Akaunti kipengee Imeunganishwa Malipo Kadi",
+      wallet_subtitle: "Akaunti pepe na kadi za malipo zilizounganishwa.",
 
       companies: "Makampuni na Akaunti za Biashara",
-      companies_subtitle: "Sajili kipengee biashara kipengee Kodi Wasifu",
+      companies_subtitle: "Sajili wasifu wangu wa biashara na kodi.",
 
       access: "Ufikiaji wa Akaunti Yangu",
       access_subtitle:
-        "OAkipengee Wateja, Binafsi Ufikiaji kipengee kipengee Imeunganishwa Programu",
+        "Wateja wa OAuth, tokeni za ufikiaji wa kibinafsi na programu zilizounganishwa.",
 
       security: "Usalama",
       security_subtitle: "Weka vipengele viwili na udhibiti chaguo za kuingia katika jamii.",
 
       preferences: "Mapendeleo ya Mtumiaji",
       preferences_subtitle:
-        "Badilika Mandhari, kipengee, kipengee kipengee Chaguomsingi Sarafu",
+        "Badilisha mandhari, kiwango, lugha na sarafu chaguo-msingi.",
       my_subscriptions: "Usajili Wangu",
       my_subscriptions_subtitle:
         "Ufikiaji wa AI ya kwanza na vipengele vya ubinafsishaji.",
@@ -5732,7 +5732,7 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "kipengee kipengee Mkoba",
+        title: "Chagua Mkoba",
         subtitle:
           "Chagua pochi pepe ya kutumia kwa usajili wako. Ikiwa bado huna moja, unaweza kuunda katika sehemu ya mkoba. Pochi hii itatumika kwa malipo yoyote.",
       },
@@ -5742,7 +5742,7 @@ export default {
           "Usajili wako utasasishwa kiotomatiki ikiwa pochi yako ina salio la kutosha au ikiwa una vocha halali.",
       },
       options: {
-        title: "kipengee kipengee",
+        title: "Chaguzi za Ziada",
       },
       verify: {
         title: "kipengee",
@@ -5832,7 +5832,7 @@ export default {
       subtitle:
         "Ongeza kwa urahisi bidhaa kutoka kwa wauzaji wa POD au wanaoshuka ukitumia Selldone Connect OS—unganisha tu duka lako na ufurahie ujumuishaji wa bidhaa kiotomatiki, hakuna programu-jalizi zinazohitajika.",
     },
-    your_license_is_not_eligible: "kipengee Leseni kipengee kipengee kipengee",
+    your_license_is_not_eligible: "Leseni yako haistahiki.",
     sku_dialog: {
       title: "Ongeza Bidhaa kipengee SKU",
       subtitle:
@@ -5917,13 +5917,13 @@ export default {
       subtitle:
         "Unganisha moja ya vikoa vyako kwa mshirika huyu mshirika. Wageni wanaonunua kupitia kikoa hiki watahusishwa na mshirika huu.",
 
-      domain_not_approved_msg: "kipengee Kikoa kipengee kipengee !",
-      domain_is_not_enable_msg: "kipengee Kikoa kipengee kipengee imewezeshwa!",
+      domain_not_approved_msg: "Kikoa bado hakijaidhinishwa!",
+      domain_is_not_enable_msg: "Kikoa hakijawezeshwa!",
       domain_is_linked_to_other_affiliate_msg:
         "Kikoa hiki tayari kimeunganishwa na mshirika mwingine!",
     },
 
-    set_users_first_message: "kipengee kipengee kipengee Mtumiaji kipengee!",
+    set_users_first_message: "Tafadhali weka mtumiaji kwanza!",
 
     cluster: {
       title: "kipengee",
@@ -5934,7 +5934,7 @@ export default {
 
     notifications: {
       create_success: "Mpya Mshirika Ongeza kipengee",
-      update_success: "Mshirika kipengee kipengee",
+      update_success: "Mshirika umesasishwa.",
     },
 
     inputs: {
@@ -5945,18 +5945,18 @@ export default {
       commission: {
         label: "Tume kipengee",
         false_description:
-          "kipengee kipengee kamisheni",
+          "Hesabu kwa kutumia mchanganyiko wa tume zisizohamishika na asilimia.",
         true_description:
           "Hesabu kwa kutumia tume mahususi za bidhaa zilizowekwa kwenye kichupo cha bei.",
-        false_title: "kipengee + kipengee Tume",
+        false_title: "Tume isiyohamishika + Asilimia",
         true_title: "kipengee Tume",
       },
       user: {
         label: "Mtumiaji (hiari)",
-        message: "hiari, kipengee, Mshirika Jina kipengee Selldone",
+        message: "Hiari, k.m., jina la mshirika katika Selldone",
       },
       web: {
-        placeholder: "hiari, kipengee, kipengee",
+        placeholder: "Hiari, k.m., affiliate-web.com",
       },
       address: {
         placeholder: "hiari, kipengee, 1200 POX, NY, USA",
@@ -5965,7 +5965,7 @@ export default {
         placeholder: "hiari, kipengee, 001-808-210354",
       },
       bank: {
-        placeholder: "hiari, kipengee, kipengee Benki, Hapana: 10002-325-800-845213",
+        placeholder: "Hiari, k.m., Arstra Bank, No: 10002-325-800-845213",
       },
       domain: {
         placeholder: "Chagua kipengee Kikoa (hiari)",
@@ -5980,7 +5980,7 @@ export default {
           "Je, mshirika huu unatumika kwa sasa? Ikiwa haitatumika, mpango wao wa washirika hautatumika kwa maagizo yaliyotolewa kupitia kiungo chao.",
       },
       products: {
-        label: "Bidhaa kipengee kipengee Tume",
+        label: "Bidhaa Zinazostahiki kwa Tume",
         select_product: "Chagua Bidhaa",
       },
     },
@@ -6014,7 +6014,7 @@ export default {
       action: "Ndiyo, Futa Sasa",
     },
     notifications: {
-      delete_success: "kipengee kipengee Imefutwa",
+      delete_success: "Uthamini umefutwa.",
     },
   },
 
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Kuweka bei & kipengee kipengee",
+    label: "Muundo wa Bei na Uthamini",
   },
 
   /**
@@ -6036,7 +6036,7 @@ export default {
         "Sanidi mfumo wa kuthamini ili kuunda bei inayoweza kunyumbulika kwa kutumia fomula na majedwali ya marejeleo ya bidhaa zako. Anza kwa kuipa hesabu hii jina la kipekee.",
     },
     valuation_preview: "Hakiki kipengee fomu",
-    load_sample: "kipengee kipengee",
+    load_sample: "Sampuli ya Mzigo",
     conditions: {
       title: "Masharti",
       subtitle:
@@ -6045,7 +6045,7 @@ export default {
     structure: {
       title: "kipengee",
       subtitle:
-        "Kubuni kipengee Kuweka bei Ingizo fomu kipengee kipengee ",
+        "Tengeneza fomu yako ya kuweka bei hapa kwa kuunganisha fomula na majedwali ya marejeleo.",
       expand_action: "kipengee",
       collapse_action: "kipengee",
     },
@@ -6321,7 +6321,7 @@ export default {
     limit: {
       subtitle:
         "Katika sehemu hii, unaweza kuweka idadi ya juu zaidi ya matumizi kwa kila kuponi na kiwango cha juu zaidi cha punguzo ambacho kila kuponi inaweza kutoa.",
-      zero_message: "kipengee: kipengee kipengee Hapana Kikomo!",
+      zero_message: "sifuri: hakuna kikomo!",
     },
     duration: {
       subtitle:
@@ -6335,8 +6335,8 @@ export default {
       subtitle:
         "Hapa, una uwezo wa kuanzisha vigezo vya ziada vya kibinafsi kwa kuponi.",
       no_limit: "Hapana kipengee Kizuizi",
-      has_limit: "kipengee kipengee",
-      has_code_message: "Mtumiaji kipengee kipengee kipengee Kanuni Kwa Ongeza Kuponi",
+      has_limit: "Vikwazo vya ziada",
+      has_code_message: "Mtumiaji anapaswa kuweka msimbo ili kuongeza kuponi.",
     },
     club: {
       subtitle:
@@ -6573,7 +6573,7 @@ export default {
       subtitle:
         "Boresha ununuzi wa wateja ukitumia uboreshaji katika duka lako. Weka zawadi na uwezekano wa kushinda kwa wateja wanaopata tokeni kupitia ununuzi. Kila uchezaji hugharimu tokeni 10, na unaweza kutoa zawadi maalum kwa wanunuzi wa mara ya kwanza. Mchezo chaguomsingi ni Gurudumu la Bahati, lakini unaweza kuubinafsisha ili kuendana na mpangilio wa duka lako.",
     },
-    empty_prize_list: "Unda kipengee Dhibiti kipengee kipengee",
+    empty_prize_list: "Unda na udhibiti zawadi hapa...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6621,7 +6621,7 @@ export default {
         "Hapa, una fursa ya kuchagua picha na rangi kwa ajili ya tuzo.",
     },
     constraints: {
-      subtitle: "kipengee kipengee ",
+      subtitle: "Bainisha vigezo na vikwazo vya kushinda tuzo hii.",
     },
     prize: {
       title: "kipengee",
@@ -7041,9 +7041,9 @@ export default {
     vendor: {
       title: "Ingiza wauzaji",
       subtitle:
-        "Pakia muuzaji CSV faili kipengee kipengee Kwa Faragha kipengee",
+        "Pakia faili za CSV za muuzaji hapa. Hakikisha umbizo ni sahihi na linazingatia kanuni za faragha.",
       checklist: {
-        title: "kipengee kipengee",
+        title: "Orodha Muhimu",
         subtitle: "Hakikisha kufuata miongozo.",
         sample_files: "kipengee faili",
         valid_vendor_name_needed:
@@ -7076,7 +7076,7 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "kipengee wauzaji kipengee",
+    open_vendors_panel: "Fungua Jopo la Wauzaji",
     title: "muuzaji kipengee Orodha",
     subtitle:
       "Hii ni orodha ya maombi kutoka kwa watu binafsi ambao wametuma maombi ya kuwa wachuuzi katika soko lako.",
@@ -7091,7 +7091,7 @@ export default {
         "Kuzima soko kutazima utendakazi fulani. Ikiwa unataka kuzima soko lako lote, unapaswa kuzima duka lako katika mipangilio.",
     },
     distribution_model: {
-      title: "kipengee kipengee",
+      title: "Mfano wa Usambazaji",
       subtitle:
         "Masoko yanaweza kufanya kazi chini ya miundo tofauti ya usambazaji. Iwe unapendelea wachuuzi kusafirisha bidhaa moja kwa moja kwa wanunuzi au kuunganisha maagizo kwenye ghala lako ili kusafirishwa, unaweza kuchagua muundo unaofaa mahitaji yako hapa.",
     },
@@ -7113,7 +7113,7 @@ export default {
       title: "kipengee",
       subtitle:
         "Unaweza kuhitaji wachuuzi wako kupakia hati au kusaini mikataba fulani. Taja hati zinazohitajika hapa.",
-      add_document_action: "Ongeza kipengee kipengee",
+      add_document_action: "Ongeza Ombi la Hati",
     },
     inputs: {
       enable: {
@@ -7132,23 +7132,23 @@ export default {
       },
       need_verify: {
         label: "Bidhaa kipengee Mtiririko",
-        false_description: "Mpya muuzaji Bidhaa kipengee Ishi kipengee",
-        false_title: "Hapana kipengee kipengee",
+        false_description: "Bidhaa mpya za wachuuzi huonyeshwa moja kwa moja.",
+        false_title: "Hakuna Uthibitishaji Unaohitajika",
         true_description:
-          "wauzaji Mpya Bidhaa kipengee kipengee Ishi kipengee kipengee Sokoni",
-        true_title: "kipengee kipengee",
+          "Bidhaa mpya za wauzaji zinahitaji idhini kabla ya kwenda moja kwa moja sokoni.",
+        true_title: "Uthibitishaji Unahitajika",
       },
       category: {
         label: "Ongeza aina mpya",
         true_title: "wauzaji kipengee Ongeza Kategoria",
         false_description:
-          "kipengee Ongeza Kategoria wauzaji kipengee kipengee Ongeza Bidhaa Kwa kipengee Kategoria",
+          "Unaongeza kategoria. Wachuuzi wanaweza tu kuongeza bidhaa kwa kategoria zilizopo.",
         true_description:
           "Wachuuzi wanaweza kuongeza na kudhibiti kategoria moja kwa moja kwenye paneli zao za wauzaji.",
       },
       shipping: {
         label: "Usafirishaji kipengee",
-        true_title: "wauzaji kipengee Usafirishaji kipengee",
+        true_title: "Wachuuzi Wana Chaguo za Usafirishaji",
         false_description:
           "Wachuuzi hawawezi kuongeza au kubinafsisha njia zao za usafirishaji.",
         true_description:
@@ -7156,7 +7156,7 @@ export default {
       },
       hidden_customer: {
         label: "Onyesha kipengee Wasiliana taarifa",
-        true_description: "kipengee Wasiliana Maelezo kipengee kipengee Kutoka wauzaji",
+        true_description: "Maelezo ya mawasiliano ya mnunuzi yamefichwa kutoka kwa wachuuzi.",
         false_description:
           "Maelezo ya mawasiliano ya mnunuzi, kama vile simu na barua pepe, yanaonekana kwa wachuuzi.",
       },
@@ -7171,10 +7171,10 @@ export default {
 
       listing: {
         label: "Orodhesho kipengee wauzaji",
-        true_description: "Orodhesho kipengee imewezeshwa kipengee wauzaji wauzaji kipengee Dhibiti Orodhesho Vipengee kipengee Makampuni",
-        false_description: "Orodhesho kipengee imezimwa kipengee wauzaji kipengee kipengee Duka Mmiliki kipengee Dhibiti Orodhesho Vipengee kipengee Makampuni",
+        true_description: "Uorodheshaji umewashwa kwa wachuuzi. Wachuuzi wanaweza kudhibiti bidhaa na makampuni ya kuorodhesha.",
+        false_description: "Uorodheshaji umezimwa kwa wachuuzi. Ni mmiliki wa duka pekee ndiye anayeweza kudhibiti bidhaa na makampuni ya kuorodhesha.",
         requires_listing_active_text:
-          "Kwa kipengee wauzaji kipengee Orodhesho (Vipengee + Makampuni), kipengee Washa kipengee Duka Orodhesho kipengee kipengee Kituo → Orodhesho kipengee kipengee Nyuma kipengee Kwa kipengee muuzaji Ufikiaji",
+          "Kuwaruhusu wachuuzi kutumia Uorodheshaji (vitu + na makampuni), kwanza washa kipengele cha Kuorodhesha kwenye Idhaa → Uorodheshaji. Kisha urudi hapa ili kuruhusu ufikiaji wa muuzaji.",
         requires_listing_active_button: "kipengee Kituo Orodhesho Mipangilio",
       },
 
@@ -7182,10 +7182,10 @@ export default {
 
     },
     notifications: {
-      update_success: "muuzaji Mipangilio kipengee kipengee",
+      update_success: "Mipangilio ya muuzaji imesasishwa.",
     },
     add_document_dialog: {
-      title: "kipengee kipengee",
+      title: "Mahitaji ya Hati",
       type: {
         title: "kipengee Aina",
         subtitle:
@@ -7209,7 +7209,7 @@ export default {
       inputs: {
         title: {
           label: "Kichwa",
-          placeholder: "kipengee kipengee Kichwa kipengee kipengee ",
+          placeholder: "Weka jina la ombi la hati.",
         },
         guide: {
           label: "mwongozo (hiari)",
@@ -7218,12 +7218,12 @@ export default {
         },
         code: {
           label: "Pachika Kanuni",
-          placeholder: "kipengee kipengee Pachika Kanuni kipengee",
-          message: "kipengee kipengee HTML Kanuni",
+          placeholder: "Bandika msimbo wa kupachika hapa...",
+          message: "Inaweza kujumuisha msimbo wa HTML.",
         },
         url: {
           label: "URL",
-          message: "kipengee kipengee URL kipengee kipengee ",
+          message: "Weka URL ya hati au mkataba hapa...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "kipengee Usafirishaji Kutoka muuzaji",
       description:
-        "kipengee kipengee hali, wauzaji kipengee Maagizo kipengee Kwa Wateja kipengee Usafirishaji anwani kipengee muuzaji Maagizo kipengee kipengee anwani",
+        "Katika hali hii, wachuuzi husafirisha maagizo moja kwa moja kwa wateja. Anwani ya usafirishaji kwa maagizo ya muuzaji itakuwa anwani ya mnunuzi.",
     },
   },
   /**
@@ -7249,7 +7249,7 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Mmiliki kipengee kipengee",
+      title: "Hati ya Utambulisho wa Mmiliki",
       description:
         "Pakia kitambulisho kilichotolewa na serikali ili kuthibitisha utambulisho wa mmiliki wa biashara au mtendaji mkuu.",
     },
@@ -7264,14 +7264,14 @@ export default {
         "Wasilisha hati ili kuthibitisha anwani ya biashara yako, kama vile bili ya matumizi, ankara ya kodi au makubaliano ya kukodisha.",
     },
     Contract: {
-      title: "kipengee & kipengee",
+      title: "Mikataba na Makubaliano",
       description:
         "Pakia mikataba au makubaliano ambayo yanaeleza kwa undani sheria na masharti ya mahusiano ya biashara yako.",
     },
     Copyright: {
-      title: "kipengee kipengee",
+      title: "Hati za Hakimiliki",
       description:
-        "kipengee kipengee Kwa kipengee kipengee ",
+        "Toa hati za usajili wa hakimiliki ili kuthibitisha haki zako za uvumbuzi.",
     },
     Privacy: {
       title: "Faragha sera kipengee",
@@ -7311,7 +7311,7 @@ export default {
     vendor_bank: "muuzaji Benki",
     order_fee: "🛍️ Agizo Ada",
     order_refund: "🛍️ Agizo rejesho",
-    reverse_fund: "kipengee kipengee",
+    reverse_fund: "Marejesho ya Mfuko",
     payout: "kipengee",
   },
 
@@ -7322,7 +7322,7 @@ export default {
     title: "kipengee Historia",
     subtitle:
       "Kipengele hiki hurahisisha uhasibu kwako na wachuuzi wako kwa kuweka rekodi ya kina ya miamala yote. Malipo yanaweza kushughulikiwa mwenyewe kupitia uhamisho wa benki au mbinu nyinginezo, au kudhibitiwa kiotomatiki na watoa huduma wa malipo wanaotumia malipo ya mgawanyiko, kama vile Stripe.",
-    top_up_vendor_action: "kipengee kipengee muuzaji Akaunti",
+    top_up_vendor_action: "Ongeza Akaunti ya Muuzaji",
   },
 
   /**
@@ -7341,22 +7341,22 @@ export default {
   vendor_pricing_add: {
     title: "Sokoni Kuweka bei kipengee",
     subtitle:
-      "kipengee kipengee Kuweka bei kipengee Kwa muuzaji Bidhaa, kipengee bei kipengee kipengee muuzaji bei * (1 + Tume%).",
+      "Unapokabidhi muundo wa bei kwa bidhaa za wauzaji, bei itahesabiwa kiotomatiki kama Bei ya Muuzaji * (1 + Tume%).",
     delete: {
       subtitle:
-        "kipengee kipengee Kuweka bei kipengee kipengee kipengee zote muuzaji Bidhaa imeunganishwa Kwa kipengee kipengee Kuweka bei kipengee, pata kipengee Kwa Sasisha zote muuzaji Bidhaa kipengee kipengee Kuweka bei kipengee",
+        "Kufuta muundo wa bei kutaathiri bidhaa zote za wauzaji zilizounganishwa nayo. Kabla ya kuondoa muundo wa bei, hakikisha kuwa umesasisha bidhaa zote za wachuuzi unaoutumia na kuwapa muundo tofauti wa bei.",
       remove_pricing_action: "Ondoa Kuweka bei kipengee",
     },
     inputs: {
       title: {
-        placeholder: "kipengee, kipengee Bidhaa kipengee",
+        placeholder: "k.m., Daraja la Bidhaa za Dijitali...",
       },
       description: {
         placeholder: "Unaweza kuongeza dokezo hapa...",
       },
       accept_delete: {
         true_description: "Ninataka kufuta muundo huu wa bei.",
-        true_title: "kipengee Kuweka bei kipengee kipengee",
+        true_title: "Thibitisha Uondoaji wa Muundo wa Bei",
       },
     },
   },
@@ -7375,7 +7375,7 @@ export default {
     with_balance_tooltip:
       "Unapounganisha huduma za malipo kama vile Stripe Connect, tunapata na kuonyesha salio linalopatikana katika akaunti yako ya Stripe kwa marejeleo.",
     with_balance: "kipengee Mizani",
-    without_balance: "kipengee Mizani - kipengee hali",
+    without_balance: "Bila Mizani - Njia ya Haraka",
     bank_transfer: {
       title: "Benki Uhamisho",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "Unaweza kuongeza dokezo hapa... Dokezo hili halionekani kwa mchuuzi.",
       },
       accept_refund: {
-        true_description: "kipengee kipengee Kwa Ghairi kipengee Malipo",
+        true_description: "Ninataka kughairi malipo haya.",
         true_title: "Ghairi & rejesho Malipo",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "kipengee kipengee",
+        title: "Mfuko Umebadilishwa",
         message:
           "Urejeshaji wa hazina ya muuzaji umekamilika kwa mafanikio, na pesa zimehamishwa kutoka benki hadi kwenye pochi na kuongezwa kwenye salio la pochi.",
       },
       payout_success: {
         title: "kipengee",
         message:
-          "kipengee wauzaji kipengee kipengee Ongeza",
+          "Malipo ya muuzaji yamechakatwa na kuongezwa.",
       },
     },
   },
@@ -7433,9 +7433,9 @@ export default {
     quota: "kipengee",
     max_batch_msg: "Idadi ya juu zaidi ya bidhaa unaweza kuleta katika kundi moja.",
     max_daily_limit_msg: "Idadi ya juu zaidi ya bidhaa unazoweza kuagiza kwa siku.",
-    extra_daily_limit_msg: "kipengee Vipengee kipengee kipengee Kikomo",
+    extra_daily_limit_msg: "Bidhaa za ziada zinazoruhusiwa zaidi ya kikomo cha kila siku.",
     add_items_today_msg: "Vipengee Ongeza Leo",
-    file_statistic_msg: "Takwimu kipengee kipengee faili",
+    file_statistic_msg: "Takwimu za faili hii.",
     used_quota: "Imetumika kipengee",
   },
 
@@ -7507,11 +7507,11 @@ export default {
     animation: {
       title: "kipengee",
       static: {
-        false_title: "kipengee kipengee",
+        false_title: "Na Uhuishaji",
         false_description:
           "Kategoria na bidhaa zina uhuishaji mwingiliano ili kuonyesha utendakazi.",
         true_title: "Tuli",
-        true_description: "Kategoria kipengee Bidhaa kipengee Hapana kipengee",
+        true_description: "Kategoria na bidhaa hazina uhuishaji.",
       },
     },
 
@@ -7522,15 +7522,15 @@ export default {
           "Njia rahisi na ndogo bila vitendo vyovyote vya ziada kwenye kadi za bidhaa.",
         true_description:
           "Onyesha ununuzi wa haraka na Ongeza ili kulinganisha vitufe kwenye kadi ya bidhaa inayoelea.",
-        true_title: "Onyesha kipengee kipengee kipengee",
+        true_title: "Onyesha Kitendo kwenye Hover",
       },
     },
     filter_products: {
       title: "Chuja Bidhaa",
       only_available: {
-        false_description: "Onyesha zote Bidhaa kipengee kipengee Duka Orodha kipengee Chaguomsingi",
+        false_description: "Onyesha bidhaa zote kwenye orodha ya duka kama chaguomsingi.",
         true_description:
-          "Onyesha kipengee Inapatikana Bidhaa kipengee kipengee Duka Orodha kipengee Chaguomsingi",
+          "Onyesha bidhaa zinazopatikana tu katika orodha ya duka kama chaguomsingi.",
         true_title: "Inapatikana Bidhaa",
         false_title: "zote Bidhaa",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "Chuja Kategoria",
       hide_empty_folders: {
-        false_description: "Onyesha zote Kategoria kipengee kipengee Duka Orodha",
+        false_description: "Onyesha aina zote kwenye orodha ya duka.",
         false_title: "Onyesha zote Kategoria",
         true_title: "Ficha kipengee Kategoria",
         true_description:
-          "Onyesha kipengee Kategoria kipengee Bidhaa kipengee kipengee Duka Orodha",
+          "Onyesha aina zilizo na bidhaa pekee kwenye orodha ya duka.",
       },
     },
 
@@ -7613,16 +7613,16 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "kuu Tovuti kipengee",
-      subtitle: "kipengee kipengee Kutoka Google kipengee",
+      subtitle: "Chagua fonti uipendayo kutoka kwa Fonti za Google.",
     },
     inputs: {
       font_family: {
-        label: "kipengee kipengee",
-        message: "kipengee kipengee kipengee Thamani",
+        label: "Familia ya Fonti",
+        message: "Weka thamani ya fonti-familia.",
       },
       font_res: {
-        label: "kipengee kipengee",
-        message: "kipengee kipengee ",
+        label: "Rasilimali ya herufi",
+        message: "Bainisha rasilimali ya fonti.",
       },
     },
   },
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "Kijajuu Kichwa",
-        set_empty: "kipengee kipengee Kichwa",
+        set_empty: "Weka kichwa tupu",
       },
     },
   },
@@ -7673,8 +7673,8 @@ export default {
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Hariri kipengee kipengee",
-    add_title: "Ongeza kipengee kipengee",
+    edit_title: "Badilisha Seti ya Mali",
+    add_title: "Ongeza Seti ya Mali",
     config: {
       subtitle:
         "Weka kichwa na maelezo ya seti yako ya mali. Itaonekana kwa wafanyikazi pekee.",
@@ -7690,13 +7690,13 @@ export default {
         placeholder: "Weka jina la seti ya mali...",
       },
       description: {
-        placeholder: "kipengee kipengee kipengee Maelezo (hiari)",
+        placeholder: "Weka maelezo mafupi... (si lazima)",
       },
       custom_variants: {
         true_title: "Desturi Lahaja",
         false_title: "Chaguomsingi Lahaja",
-        true_description: "kipengee kipengee Bidhaa Lahaja",
-        false_description: "kipengee Chaguomsingi kipengee Lahaja",
+        true_description: "Customize lahaja za bidhaa yako.",
+        false_description: "Tumia vibadala chaguomsingi vya kimataifa.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "kipengee kipengee kipengee (hiari)",
+        placeholder: "Weka thamani zilizowekwa... (si lazima)",
         messages:
-          "kipengee kipengee 🛍️ Agizo",
+          "Unaweza kutoa mapendekezo ya thamani na kubinafsisha mpangilio.",
       },
     },
   },
@@ -7830,17 +7830,17 @@ export default {
     edit_title: "Hariri mteja",
     add_title: "Ongeza Mpya mteja",
     subtitle:
-      "Kwa Ongeza kipengee mteja Kwa kipengee duka, kipengee kipengee Barua pepe anwani kipengee kipengee simu kipengee",
+      "Ili kuongeza mteja kwenye duka lako, tafadhali toa anwani ya barua pepe au nambari ya simu.",
     more: {
       title: "Ongeza maelezo zaidi",
-      subtitle: "kipengee Sarafu, mteja Klabu, Sehemu, anwani kipengee Zaidi. .",
+      subtitle: "Weka sarafu, klabu ya wateja, sehemu, anwani na zaidi.",
     },
     detail: {
       subtitle:
         "Weka rekodi ya taarifa za kibinafsi kuhusu mteja wako. Tafadhali heshimu faragha ya mteja wako.",
     },
     preferences: {
-      subtitle: "kipengee Chaguomsingi Mtumiaji Sarafu, mteja Klabu, kipengee Sehemu kipengee",
+      subtitle: "Weka sarafu chaguo-msingi ya mtumiaji, klabu ya wateja na sehemu hapa.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Bofya kitufe kifuatacho ikiwa ungependa kutuma kifurushi hiki kwa <b>huduma ya uwasilishaji</b> .",
     courier_action: "Uwasilishaji kipengee",
-    courier_action_subtitle: "kipengee kipengee ",
+    courier_action_subtitle: "Mjumbe wangu atachukua kifurushi.",
 
-    pickup_ready_action: "kipengee kipengee",
+    pickup_ready_action: "Kuchukua Tayari",
     pickup_ready_action_subtitle: "Agizo liko tayari kuchukuliwa na mteja.",
 
-    service_action: "kipengee kipengee",
+    service_action: "Uthibitisho wa Utekelezaji",
 
     checklist: [
       "Angalia kitambulisho cha msafirishaji.",
@@ -7982,7 +7982,7 @@ export default {
     option_instant_shipping: "Chaguo 3: Usafirishaji wa papo hapo.",
 
     verify_delivery_input: {
-      true_title: "kipengee Uwasilishaji kipengee",
+      true_title: "Thibitisha Kukamilika kwa Uwasilishaji",
       true_description:
         "Ninathibitisha kuwa agizo limewasilishwa kwa mteja.",
     },
@@ -8028,7 +8028,7 @@ export default {
         account_number: {
           label: "Nambari ya Akaunti",
           message:
-            "kipengee kipengee Benki Akaunti",
+            "Nambari ya kipekee inayohusishwa na akaunti mahususi ya benki.",
         },
         routing_number: {
           label: "Nambari ya Njia (Marekani) au Msimbo wa Panga (Uingereza)",
@@ -8041,7 +8041,7 @@ export default {
             "Msimbo wa kimataifa unaotumiwa kutambua benki duniani kote, hasa kwa uhamisho wa kimataifa.",
         },
         iban: {
-          label: "IBAN (kipengee Benki Akaunti kipengee)",
+          label: "IBAN (Nambari ya Akaunti ya Benki ya Kimataifa)",
           message:
             "IBAN inatumiwa hasa Ulaya, ni mfumo unaokubalika kimataifa wa kutambua akaunti za benki katika mipaka ya kitaifa.",
         },
@@ -8075,27 +8075,27 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "kipengee kipengee",
+      title: "Kiwango cha Shaba",
       description:
         "Uko kwenye Ngazi ya Shaba. Umepata kamisheni ya 2% kutokana na rufaa zako.",
     },
     Silver: {
-      title: "kipengee kipengee",
+      title: "Kiwango cha Fedha",
       description:
         "Uko katika Ngazi ya Fedha. Umepata kamisheni ya 4% kutokana na rufaa zako.",
     },
     Gold: {
-      title: "kipengee kipengee",
+      title: "Kiwango cha Dhahabu",
       description:
         "Uko kwenye Kiwango cha Dhahabu. Umepata kamisheni ya 6% kutokana na rufaa zako.",
     },
     Platinum: {
-      title: "kipengee kipengee",
+      title: "Kiwango cha Platinum",
       description:
         "Uko kwenye Kiwango cha Platinamu. Umepata kamisheni ya 8% kutokana na rufaa zako.",
     },
     Diamond: {
-      title: "kipengee kipengee",
+      title: "Kiwango cha Diamond",
       description:
         "Uko kwenye Daraja la Diamond. Umepata kamisheni ya 10% kutokana na rufaa zako.",
     },
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Chuma mapato",
-    subtitle: "kipengee Ufikiaji Kwa biashara kipengee",
+    subtitle: "Sambaza ufikiaji wa fursa za biashara.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8525,28 +8525,28 @@ export default {
 
     template: {
       title: "kipengee",
-      valid_message: "kipengee kipengee Unda Desturi SMS ujumbe",
+      valid_message: "Unaweza kuunda ujumbe maalum wa SMS.",
       provider_not_enable_message: "Mtoa huduma wa SMS hajawezeshwa!",
       need_custom_provider_message:
         "Ujumbe wa SMS uliobinafsishwa hufanya kazi tu ikiwa utaweka mtoaji maalum.",
       add_new: "Ongeza Mpya",
       disable_reason: {
-        set_provider: "kipengee kipengee !",
-        provider_is_disabled: "kipengee kipengee kipengee!",
-        otp: "OTP - kipengee kipengee!",
-        select_another_provider: "Chagua kipengee kipengee",
+        set_provider: "Weka mtoaji wako kwanza!",
+        provider_is_disabled: "Mtoa huduma amezimwa!",
+        otp: "OTP - Hakuna inayoweza kubinafsishwa!",
+        select_another_provider: "Chagua mtoa huduma mwingine.",
       },
       enable_only_filter: "Onyesha kipengee imewezeshwa",
 
       text_template_not_supported_msg:
         "Mtoa huduma wako hatumii ujumbe wa maandishi wazi.",
       structure_template_not_supported_msg:
-        "kipengee kipengee Msaada kipengee ujumbe",
+        "Mtoa huduma wako hatumii ujumbe wa muundo.",
 
-      structured_data: "kipengee kipengee",
+      structured_data: "Data Iliyoundwa",
 
       menu: {
-        reset_error: "kipengee kipengee",
+        reset_error: "Weka upya makosa",
         send_test: "Tuma kipengee Ujumbe",
       },
     },
@@ -8559,19 +8559,19 @@ export default {
           "Unaweza kuunda kiolezo cha ujumbe wa SMS kwenye tovuti ya mtoa huduma wako wa SMS, kisha ubainishe msimbo wake na muundo wa data hapa. Tutasambaza taarifa hii kwa mtoa huduma wako, ambapo ujumbe halisi wa SMS utatolewa.",
         code: "Kanuni",
         language_msg: "Iache tupu ili kuiweka kama chaguomsingi.",
-        enable_msg: "kipengee Kiolezo kipengee kipengee Imetumika Kwa Unda ujumbe",
+        enable_msg: "Kiolezo hiki kitatumika kuunda ujumbe.",
       },
       text: {
-        title: "kipengee kipengee",
+        title: "Maandishi wazi",
         subtitle:
           "Ingiza ujumbe wa SMS uliobinafsishwa hapa. Thamani zinazobadilika zitabadilishwa na zile halisi kabla ya kutumwa kwa mtumiaji.",
         message: "Ujumbe",
         reset_to_default: "kipengee Kwa Chaguomsingi",
 
         auto_fill: {
-          title: "kiotomatiki kipengee kipengee",
+          title: "Vigezo vya kujaza kiotomatiki",
           subtitle:
-            "kipengee kipengee Selldone kipengee kipengee Thamani",
+            "Unaweza kutumia kila moja ya vigezo hivi kwenye maandishi na Selldone itachukua nafasi yake kwa thamani inayolingana.",
         },
 
         sample: {
@@ -8585,12 +8585,12 @@ export default {
         add_new_parameter: "Ongeza Mpya kipengee",
 
         auto_fill: {
-          title: "kiotomatiki kipengee kipengee",
+          title: "Vigezo vya kujaza kiotomatiki",
           subtitle:
             "Unaweza kuweka kila moja ya vigezo hivi kama thamani, na Selldone itachukua nafasi yake kwa thamani inayolingana. Ni bora kufafanua thamani chaguo-msingi kama violezo katika mtoaji huduma wako wa SMS kwa urahisi. Katika kesi hii, hakutakuwa na haja ya kufafanua maadili ya parameter hapa.",
         },
         request: {
-          title: "kipengee kipengee",
+          title: "Sampuli ya malipo",
         },
         sample: {
           title: "kipengee Kiolezo Ujumbe",
@@ -8603,7 +8603,7 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "kipengee kipengee",
+      title: "Maandishi Sahihi",
       desc: "Ujumbe utaundwa kutoka kwa maandishi yenye vigezo vya kubadilisha kiotomatiki na kutuma.",
     },
     template: {
@@ -8615,10 +8615,10 @@ export default {
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "Desturi SMS kipengee",
-    reset_error: "kipengee kipengee",
+    reset_error: "Weka upya makosa",
     subtitle:
       "Sanidi mtoa huduma maalum wa SMS na ubadilishe upendavyo uthibitishaji wako wa SMS na jina la biashara. Mtoa huduma chaguo-msingi hutuma tu uthibitishaji SMS na taarifa katika baadhi ya nchi zilizoorodheshwa nyeupe.",
-    plain_text: "kipengee kipengee",
+    plain_text: "Maandishi wazi",
     structural_template: "kipengee Kiolezo",
     errors_limit_msg:
       "Ikiwa huduma yako itazidi makosa 100, itazimwa kiotomatiki! Unaweza kuweka upya hitilafu ili kuiwasha tena.",
@@ -8630,7 +8630,7 @@ export default {
         "Ujumbe wa SMS utatumwa kwa kutumia mtoa huduma wako.",
     },
     test_input: {
-      true_title: "kipengee kipengee",
+      true_title: "Thibitisha Usanidi",
       true_description:
         "Tutakutumia ujumbe wa jaribio kwenye nambari yako ya simu 📞 <b>{phone}</b>, inaweza kukutoza, lakini unaweza kuhakikisha kuwa kila kitu kinafanya kazi vizuri.",
     },
@@ -8654,7 +8654,7 @@ export default {
     },
     otp: {
       title: "OTP kipengee",
-      description: "kipengee ujumbe kipengee kipengee Imetumwa",
+      description: "Ujumbe wa uthibitishaji utatumwa.",
     },
   },
 
@@ -8679,9 +8679,9 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "Desturi kipengee kipengee",
+    title: "Seva maalum ya barua",
     subtitle:
-      "Connect kipengee kipengee huduma kipengee Kwa Tuma Barua pepe kipengee kipengee Desturi Kikoa",
+      "Unganisha mtoa huduma wako wa barua pepe ili kutuma barua pepe kupitia kikoa chako maalum.",
     provider: "kipengee",
     enable_input: {
       false_description: "Barua pepe zako zitatumwa kupitia kikoa chako cha myselldone.",
@@ -8708,7 +8708,7 @@ export default {
     },
 
     actions: {
-      send_test_email: "Tuma kipengee kipengee Barua pepe",
+      send_test_email: "Tuma barua pepe ya majaribio",
     },
 
     messages: {
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "Faili imefutwa.",
     },
-    drag_sort_msg: "kipengee kipengee faili",
-    paid_mode_msg: "Watumiaji kipengee Pakua kipengee kipengee Bidhaa",
+    drag_sort_msg: "Unaweza kuburuta na kupanga faili.",
+    paid_mode_msg: "Watumiaji wanaweza kuipakua tu baada ya kununua bidhaa.",
     free_mode_msg:
       "Watumiaji wanaweza kuipakua bila malipo. Sampuli za faili lazima ziwe chini ya MB 50.",
     has_gust_shopping_msg:
       "Watumiaji waliosajiliwa na wageni wanaweza kupakua faili kwa kuwa ununuzi wa wageni umewashwa katika mipangilio ya duka > mtiririko.",
     only_registered_shopping_msg:
-      "kipengee Imesajiliwa Watumiaji kipengee Pakua kipengee faili",
+      "Watumiaji waliosajiliwa pekee wanaweza kupakua faili za sampuli.",
     file_count_limit: "faili Hesabu Kikomo",
   },
 
@@ -8969,18 +8969,18 @@ export default {
     no_restriction: "Hapana kizuizi",
     import: {
       title: "kipengee wasifu",
-      subtitle: "Chagua kipengee kipengee Maeneo wasifu",
+      subtitle: "Chagua wasifu wa maeneo uliyohifadhi.",
     },
     export: {
       title: "Hifadhi wasifu",
-      subtitle: "duka Maeneo kipengee kipengee kipengee",
+      subtitle: "Hifadhi maeneo kwa matumizi ya baadaye.",
     },
     has_restriction_input: {
       title: "kipengee Mahali kizuizi",
       description:
         "Wateja wanaweza tu kununua bidhaa hii ndani ya nchi na msimbo maalum wa posta, kwa sababu ya kizuizi cha eneo kilichowekwa.",
     },
-    zip_pin_code: "kipengee / kipengee msimbo",
+    zip_pin_code: "Misimbo ya Zip / Pini",
     no_country_selected_error:
       "Tafadhali jumuisha angalau nchi moja pamoja na orodha ya misimbo ya zip/pini. Bila hivyo, bidhaa hii haitapatikana.",
     tips: "Bofya kwenye <b>+ kitufe cha Ongeza Nchi</b> ili kuanza kuunda seti mpya ya eneo. Ukimaliza, unaweza kuihifadhi kwa kubofya kwenye sehemu ya juu kulia <b>⋮ Menyu</b> na kuchagua <b>Hifadhi Wasifu</b>.",
@@ -8998,7 +8998,7 @@ export default {
         "Tafadhali weka jina ili kuhifadhi seti hii ya maeneo. Seti hii ya eneo iliyohifadhiwa inaweza kutumika kwa bidhaa zingine, ikiruhusu upakiaji wa haraka wa eneo kwa kubofya mara moja tu. Ikiwa wasifu ulio na jina lililotolewa tayari upo, utasasishwa na thamani hizi mpya.",
       title_input: {
         title: "wasifu Kichwa",
-        placeholder: "kipengee Kategoria Jina, kipengee duka Jina,. ..",
+        placeholder: "Jina la kitengo, au jina la duka,...",
       },
     },
     load_profile_dialog: {
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Usikose maagizo yako!",
     msg: "Dhibiti biashara yako mahali popote na wakati wowote.",
-    scan_qr_code: "kipengee kipengee simu!",
+    scan_qr_code: "Nichanganue kwa simu yako!",
 
     notification: {
       title: "Taarifa",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "Maagizo",
-      subtitle: "ona kipengee Maagizo kipengee Dhibiti kipengee",
+      subtitle: "Tazama maagizo yako na uyasimamie.",
     },
     product: {
       title: "Bidhaa",
-      subtitle: "Malipo Usimamizi kipengee Bidhaa kipengee",
+      subtitle: "Usimamizi wa hesabu na bidhaa wazi.",
     },
   },
 
@@ -9119,7 +9119,7 @@ export default {
       title: "Jiunge na Selldone business OS ili upate vocha ya $99 bila malipo.",
       description:
         "Ninakualika kwenye Selldone ili kuanzisha biashara yako mtandaoni kwa zana nzuri.",
-      hashtags: "kipengee,kipengee",
+      hashtags: "ecommerce,websiteBuilder",
       quot: "Nilijenga duka la mtandaoni na Selldone, unaweza pia kufanya biashara yako sasa.",
     },
   },
@@ -9137,7 +9137,7 @@ export default {
     },
 
     add_new_store: "Ongeza Mpya duka",
-    i_have_a_deal: "kipengee kipengee ",
+    i_have_a_deal: "Nina mpango",
     access: {
       title: "Ufikiaji kipengee",
     },
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "kipengee kipengee kipengee",
+    title: "Ratiba ya Utoaji wa Maudhui",
     subtitle:
       "Hii hapa orodha ya makala yaliyoratibiwa iliyowekwa kwa uchapishaji wa siku zijazo. Una uwezo wa kuratibu machapisho ya blogu na hata maelezo ya bidhaa kuchapishwa kwa wakati maalum.",
   },
@@ -9370,7 +9370,7 @@ export default {
     },
 
     wholesaler: {
-      title: "kipengee kipengee",
+      title: "Dropshipping Supplier",
       desc: "Kawaida ni muuzaji wa jumla au mtengenezaji - ambaye husafirisha maagizo moja kwa moja kwa watumiaji wa mwisho. Wafanyabiashara wengine kwenye Selldone wanaweza kusafirisha bidhaa zako katika maduka yao.",
     },
     marketplace: {
@@ -9493,11 +9493,11 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "Tuma kipengee kipengee",
+    title: "Tuma Ombi la moja kwa moja",
     message:
       "Tambua mahitaji yako matatu makuu ya biashara ili kustawi na kupata faida kwenye Selldone. Habari hii itashirikiwa moja kwa moja na waanzilishi na wakurugenzi na itazingatiwa kwa uangalifu. Unaweza pia kusasisha mahitaji yako baada ya muda baada ya kuwasilisha.",
-    expand_action: "kuandika kipengee kipengee",
-    input_label: "kipengee kipengee",
+    expand_action: "Andika ombi...",
+    input_label: "Ombi Lako",
     to: {
       ceo: "Tuma Kwa CEO",
       team: "Tuma Kwa kipengee",
@@ -9545,16 +9545,16 @@ export default {
     test: {
       title: "duka",
       subtitle: "kipengee huduma Ripoti",
-      action: "kipengee kipengee",
-      last_update: "kipengee kipengee kipengee",
+      action: "Muunganisho wa mtihani",
+      last_update: "Ilisasishwa mwisho na",
     },
     service_status: {
       title: "huduma Hali",
-      syncing_message: "kipengee kipengee kipengee",
+      syncing_message: "Kwenye mchakato wa kusawazisha...",
       action: "kipengee zote",
       connect_status: "Connect Hali",
       service_status: "huduma Hali",
-      auto_confirm_enable_msg: "kipengee kipengee Maagizo kipengee imewezeshwa",
+      auto_confirm_enable_msg: "Uthibitishaji otomatiki wa maagizo umewezeshwa.",
       auto_confirm_disable_msg:
         "Uthibitishaji otomatiki wa maagizo haujawezeshwa.",
       shipping_enable_msg:
@@ -9565,10 +9565,10 @@ export default {
       auto_confirm_order: "kiotomatiki kipengee Maagizo",
       test_mode: "kipengee hali",
       status: {
-        subtitle: "kipengee taarifa kipengee kipengee Hali",
+        subtitle: "Maelezo ya jumla kuhusu hali ya usawazishaji.",
       },
       sync: {
-        title: "kipengee kipengee",
+        title: "Maelezo ya kusawazisha",
         subtitle:
           "Maelezo ya usawazishaji wa ndani. Taarifa hii huhifadhiwa baada ya kipindi cha mchakato wa kusawazisha kukamilika.",
         no_data: "Hapana kipengee taarifa!",
@@ -9580,7 +9580,7 @@ export default {
       subtitle:
         "Orodha ya bidhaa zilizoongezwa kutoka {name}. Hakikisha kuwa bidhaa yako ina jina la kipekee na SKU. Baadhi ya huduma za Connect hutumiwa kuhama, kwa hivyo ikiwa una bidhaa zilizo na nakala <b>SKU</b> na <b>Majina</b>, bidhaa hizo zitabadilishwa!",
       action: "kipengee Bidhaa",
-      syncing_message: "kipengee kipengee kipengee",
+      syncing_message: "Kwenye mchakato wa kusawazisha...",
     },
 
     logs: {
@@ -9600,16 +9600,16 @@ export default {
       test: {
         false_title: "kipengee zote",
         false_desc: "kipengee zote Inapatikana Bidhaa, Kategoria, Wateja",
-        true_title: "kipengee (kipengee kipengee kipengee)",
+        true_title: "Mchache (Inapendekezwa kwa wanaoanza)",
         true_desc:
           "Pata bidhaa, aina na wateja zisizozidi 5. Unaweza kuiwasha kuwa hali kamili katika Unganisha > Mipangilio wakati wowote.",
       },
       overwrite: {
-        false_title: "kipengee kipengee Badilika kipengee kipengee",
+        false_title: "Usibadilishe ikiwa ipo",
         false_desc: "Hifadhi maelezo ya bidhaa na kategoria zilizopo jinsi zilivyo.",
         true_title: "kipengee",
         true_desc:
-          "Sasisha kipengee Bidhaa, kipengee, kipengee Kategoria taarifa",
+          "Sasisha bidhaa iliyopo, lahaja, na maelezo ya aina.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
@@ -9626,7 +9626,7 @@ export default {
       },
       confirm: {
         label: "kiotomatiki kipengee Maagizo",
-        false_desc: "kipengee kipengee kipengee 🛍️ Agizo kipengee",
+        false_desc: "Unapaswa kuthibitisha agizo mwenyewe.",
         true_desc:
           "Maagizo yaliyo na malipo ya moja kwa moja yatapitishwa kiotomatiki. Maagizo yenye malipo ya utatuzi hayataidhinishwa kiotomatiki.",
         tips: "Maagizo yanayolipwa kwa kadi ya zawadi au COD au lango la malipo katika hali ya utatuzi ni vighairi na hayatathibitishwa kiotomatiki.",
@@ -9661,8 +9661,8 @@ export default {
         "Sahau programu na programu-jalizi za kushuka! Unganisha ni mustakabali wa usimamizi wa mpangilio wa jukwaa tofauti.",
       auto_confirm: "kiotomatiki kipengee",
       shipping: "Usafirishaji",
-      syncing_now: "kipengee kipengee!",
-      sync_not_started: "kipengee kipengee kipengee anza kipengee!",
+      syncing_now: "Inasawazisha sasa!",
+      sync_not_started: "Usawazishaji bado haujaanza!",
     },
   },
 
@@ -9700,7 +9700,7 @@ export default {
     add_new_action: "Ongeza Mpya ukurasa",
     subtitle:
       "Unda kurasa maalum na zinazojibu kwa ajili ya chapa yako kwa kutumia kihariri cha mstari cha ndani kinachoendeshwa na AI, na utengeneze kiotomatiki maudhui yanayobadilika kwa kulisha data.",
-    empty_message: "Kubuni Desturi Kurasa kipengee kipengee & kipengee",
+    empty_message: "Tengeneza kurasa maalum kwa kuburuta na kudondosha...",
   },
 
   /**
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Maoni",
     subtitle: "Hii ni orodha ya maoni ya jumuiya.",
-    empty_msg: "Hapana Maoni kipengee kipengee ",
+    empty_msg: "Hakuna maoni ambayo yameundwa kufikia sasa...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Kategoria",
     subtitle: "Hii ni orodha ya kategoria za jumuiya.",
     new_category_action: "Kategoria mpya",
-    empty_msg: "Hapana Kategoria kipengee kipengee ",
+    empty_msg: "Hakuna kategoria ambazo zimeundwa kufikia sasa...",
     filter: {
       delete: {
         title: "Imefutwa",
@@ -9758,10 +9758,10 @@ export default {
         description: "Onyesha ripoti kipengee",
       },
     },
-    empty_msg: "Hapana kipengee kipengee ",
+    empty_msg: "Hakuna machapisho ambayo yameundwa kufikia sasa...",
     menu: {
       open_post: {
-        title: "kipengee kipengee",
+        title: "Fungua Chapisho",
         subtitle: "Tazama na uhariri chapisho katika jumuiya.",
       },
       spam: {
@@ -9770,7 +9770,7 @@ export default {
       },
       delete: {
         title: "Futa kipengee",
-        subtitle: "Ondoa kipengee kipengee",
+        subtitle: "Ondoa chapisho hili.",
       },
     },
   },
@@ -9798,8 +9798,8 @@ export default {
       title: "tafuta kipengee",
       subtitle: "Ongeza meta tag kwenye ukurasa wako wa nyumbani kwa uthibitishaji wa Dashibodi ya Tafuta na Google.",
       code: {
-        label: "kipengee kipengee Lebo",
-        placeholder: "Kutoka kipengee, kipengee kipengee",
+        label: "Meta tagi ya uthibitishaji",
+        placeholder: "Kutoka google, k.m. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9829,9 +9829,9 @@ export default {
   cashback: {
     add_new: "Ongeza Mpya rudishiwa fedha",
     title: "rudishiwa fedha kipengee",
-    boosted: "kipengee (2kipengee)",
+    boosted: "Ongeza (2x)",
     min_purchase: "Kiwango cha chini cha ununuzi",
-    only_first_order: "kipengee kipengee 🛍️ Agizo",
+    only_first_order: "Agizo la Kwanza tu",
     total_cashback: "Jumla rudishiwa fedha",
     delete_alert: {
       title: "Futa rudishiwa fedha kipengee",
@@ -9839,7 +9839,7 @@ export default {
       action: "Ndiyo, Futa Sasa",
     },
     notifications: {
-      delete_success: "rudishiwa fedha kipengee Imefutwa kipengee",
+      delete_success: "Mpango wa kurejesha pesa umefutwa.",
     },
   },
   /**
@@ -9893,15 +9893,15 @@ export default {
     },
     percent_input: {
       title: "rudishiwa fedha kipengee",
-      message: "kipengee kipengee rudishiwa fedha kipengee Kutoka 1% Kwa 20%.",
+      message: "Weka asilimia ya kurudishiwa pesa kutoka 1% hadi 20%.",
     },
     currency_input: {
       message: "Mpango wa kurejesha pesa utapatikana kwa sarafu hii pekee.",
     },
     limit_input: {
       title: "Kikomo",
-      hint: "kipengee kipengee kiwango cha juu Kiasi kipengee rudishiwa fedha",
-      zero_message: "kipengee 0 kipengee Isiyo na kikomo rudishiwa fedha",
+      hint: "Weka kiasi cha juu zaidi cha kurejesha pesa.",
+      zero_message: "Weka 0 kwa urejeshaji wa pesa bila kikomo.",
     },
     duration: {
       title: "Muda Kikomo",
@@ -9926,17 +9926,17 @@ export default {
       title: "Maelezo",
     },
     constraints: {
-      subtitle: "kipengee kipengee rudishiwa fedha kipengee",
+      subtitle: "Weka vikwazo kwa mpango wa kurejesha pesa.",
     },
     min_purchase_input: {
-      hint: "kipengee kipengee kiwango cha chini Nunua Kiasi kipengee rudishiwa fedha kipengee",
+      hint: "Weka kiwango cha chini zaidi cha ununuzi kwa mpango wa kurejesha pesa.",
       title: "Kiwango cha chini cha ununuzi",
     },
     only_first_buy_input: {
       false_desc: "Mpango wa kurejesha pesa utapatikana kwa maagizo yote.",
       true_desc:
         "Programu ya kurejesha pesa itapatikana kwa agizo la kwanza tu.",
-      true_title: "kipengee kipengee 🛍️ Agizo",
+      true_title: "Agizo la Kwanza tu",
       false_title: "zote Maagizo",
     },
     qualify_input: {
@@ -9954,8 +9954,8 @@ export default {
         "Kwa kuhusisha kikundi na mpango wa kurejesha pesa, unaweza kuudhibiti kwa ufanisi zaidi.",
     },
     notifications: {
-      add: "rudishiwa fedha kipengee Ongeza kipengee",
-      edit: "rudishiwa fedha kipengee kipengee kipengee",
+      add: "Mpango wa kurejesha pesa umeongezwa.",
+      edit: "Mpango wa kurejesha pesa umesasishwa.",
     },
     enable_input: {
       true_msg: "Mpango wa kurejesha pesa unatumika na wateja wanaweza kuutumia.",
@@ -9964,11 +9964,11 @@ export default {
     },
     boosted_input: {
       false_title: "Kawaida",
-      true_title: "kipengee (2kipengee rudishiwa fedha)",
+      true_title: "Ongeza (2x Rejesha Pesa)",
       true_msg:
         "Mpango wa kurejesha pesa uko katika hali ya kuongeza kasi na wateja watarejeshewa pesa mara 2.",
       false_msg:
-        "kipengee rudishiwa fedha kipengee kipengee kipengee Kawaida hali kipengee Wateja kipengee Pokea Kawaida rudishiwa fedha",
+        "Mpango wa kurejesha pesa uko katika hali ya kawaida na wateja watapokea marejesho ya kawaida ya pesa.",
     },
   },
 
@@ -9979,10 +9979,10 @@ export default {
     actions: {
       refund: {
         title: "rejesho Malipo",
-        subtitle: "kipengee kipengee kipengee rejesho usaidizi",
+        subtitle: "Urejeshaji wa pesa kiasi au kamili unatumika.",
       },
       delivery: {
-        title: "kipengee kipengee Uwasilishaji",
+        title: "Thibitisha Wakati Uwasilishaji",
         subtitle: "Unaweza kuthibitisha uwasilishaji kwa mtoa huduma wa malipo wewe mwenyewe.",
       },
     },
@@ -10019,7 +10019,7 @@ export default {
       description:
         "Ninathibitisha kuwa agizo limewasilishwa kwa mteja.",
     },
-    action: "kipengee kipengee",
+    action: "Thibitisha Sasa",
   },
 
   /**
@@ -10031,8 +10031,8 @@ export default {
     subtitle:
       "Katika sehemu hii, unaweza kuongeza na kudhibiti bidhaa zinazouzwa kwa wingi kwa ukurasa huu wa bidhaa. Bidhaa hizi zitaonyeshwa kama mapendekezo kwa wateja kununua pamoja na bidhaa kuu. Unaweza pia kuweka punguzo ili kuhimiza na kuhamasisha ununuzi wa ziada. Mfumo utaonyesha upeo wa vitu 3 kwa mteja kuzingatia.",
     dialog: {
-      edit_title: "Hariri kipengee kipengee Bidhaa",
-      add_title: "Ongeza Mpya kipengee kipengee Bidhaa",
+      edit_title: "Badilisha bidhaa zinazouzwa",
+      add_title: "Ongeza bidhaa mpya za kuuza",
       target: {
         title: "kipengee Bidhaa",
         subtitle:
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "kipengee Bidhaa",
-        subtitle: "kipengee Bidhaa kipengee kipengee ",
+        subtitle: "Bidhaa hii imechaguliwa kwa utangazaji wa uuzaji wa bidhaa mbalimbali.",
         manage_product: "Dhibiti Bidhaa",
       },
       discount: {
@@ -10060,7 +10060,7 @@ export default {
           message:
             "Unda kichwa cha kuvutia na cha kuvutia ili kuvutia umakini wa wateja.",
           placeholder:
-            "kipengee & Hifadhi: kipengee kipengee !",
+            "Bundle & Okoa: Kamilisha Muonekano Wako kwa Uteuzi Wetu Uliochaguliwa kwa Mikono!",
         },
       },
       action: {
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Ongeza Lahaja kipengee kipengee",
+    title: "Ongeza Vibadala katika Wingi",
     variants: {
-      title: "kipengee kipengee",
+      title: "Chaguzi Lahaja",
       subtitle:
         "Chagua hadi chaguo mbili za vibadala. Baada ya uteuzi, unaweza kuchagua vibadala mahususi vya kuunda kiotomatiki.",
     },
     values: {
-      title: "kipengee kipengee",
-      subtitle: "kipengee kipengee ",
+      title: "Maadili Tofauti",
+      subtitle: "Weka thamani zinazowezekana kwa kila chaguo la kibadala hapa.",
       prevent_duplicates_tips:
         "<b>Kumbuka:</b> Tunatafuta vibadala vilivyopo kiotomatiki ili kuzuia nakala.",
     },
     inventory: {
       title: "kipengee Malipo",
-      subtitle: "kipengee kipengee anza Malipo Hesabu kipengee kipengee Mpya Lahaja",
+      subtitle: "Weka hesabu ya kuanzia ya orodha ya vibadala vipya.",
     },
     add_variants_action: "Unda Lahaja",
   },
@@ -10125,20 +10125,20 @@ export default {
       enable_msg: "Daraja hili la huduma ya nje limewezeshwa.",
       disable_msg: "Daraja hili la huduma ya nje limezimwa.",
       has_shipping_msg:
-        "{name} Msaada Usafirishaji kipengee kipengee Kwa Washa kiotomatiki Usafirishaji kipengee kipengee {name} kipengee kipengee Angalia ukurasa",
+        "{name} inasaidia usafirishaji. Kwa hivyo una chaguo la kuwezesha hesabu ya usafirishaji kiotomatiki kwa {name} kwenye ukurasa wa malipo.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
       title: "Bidhaa kipengee",
-      available_in_stock_msg: "Bidhaa kipengee Inapatikana kipengee kipengee",
-      out_of_stock_msg: "Bidhaa kipengee kipengee ",
+      available_in_stock_msg: "Bidhaa inapatikana katika hisa.",
+      out_of_stock_msg: "Bidhaa imeisha.",
       file_count_msg:
-        "{files_count} faili kipengee Jumla {files_size} Pakia kipengee kipengee Bidhaa",
-      no_file_uploaded_msg: "Hapana faili kipengee kipengee Pakia kipengee",
+        "faili za {files_count} zenye jumla ya {files_size} zilizopakiwa kwa bidhaa hii.",
+      no_file_uploaded_msg: "Bado hakuna faili iliyopakiwa.",
       no_image_uploaded_msg:
-        "Pakia kipengee Bidhaa Picha Kwa pata kipengee Zaidi. . kipengee",
+        "Pakia picha ya bidhaa ili kuifanya kuvutia zaidi.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10167,11 +10167,11 @@ export default {
       title: "Kuweka bei",
       no_product_price_msg: "Bei chaguomsingi ya bidhaa bado haijawekwa!",
       listing_pricing_msg: "Orodhesho Kuweka bei:",
-      has_valuation_msg: "Bidhaa kipengee kipengee",
+      has_valuation_msg: "Bidhaa ina thamani.",
       subscription_pricing_msg:
-        "kipengee Bidhaa kipengee {count} Usajili Kuweka bei Mipango",
+        "Bidhaa hii ina mipango ya bei ya usajili ya {count}.",
       has_no_subscription_pricing_msg:
-        "kipengee Bidhaa kipengee Hapana Usajili Kuweka bei Mipango",
+        "Bidhaa hii haina mipango ya bei ya usajili.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "kipengee Usajili Kuweka bei Mipango",
       subtitle:
-        "kipengee Bidhaa kipengee Hapana Usajili Kuweka bei Mipango kipengee kipengee Kwa Ongeza kipengee kipengee kipengee Usajili Kuweka bei Mpango Kwa pata kipengee Bidhaa Inapatikana kipengee Usajili Nunua",
+        "Bidhaa hii haina mipango ya bei ya usajili. Unahitaji kuongeza angalau mpango mmoja wa bei ya usajili ili kufanya bidhaa hii ipatikane kwa ununuzi wa usajili.",
       pricing_plans: "Kuweka bei Mipango",
     },
 
@@ -10189,8 +10189,8 @@ export default {
     location: {
       title: "kipengee Mahali kizuizi ● {status}",
       status: {
-        has_restriction: "Inapatikana kipengee {count} kipengee",
-        no_restriction: "kipengee kipengee",
+        has_restriction: "Inapatikana katika nchi {count}",
+        no_restriction: "Haijazuiliwa",
       },
       available_countries_msg:
         "Ununuzi duniani kote unazuiliwa kwa nchi {count} pekee. Nchi hizi ni {countries}.",
@@ -10226,10 +10226,10 @@ export default {
         subscription_tax_msg:
           "Tunaweza kutuma ushuru kwenye hatua ya kuunda malipo pekee.",
         dedicated: "kipengee",
-        is_disabled: "kipengee Kodi wasifu kipengee imezimwa!",
+        is_disabled: "Wasifu huu wa ushuru umezimwa!",
         tax_is_based_on_location: "Kodi: Mahali kipengee",
         shipping_tax_is_based_on_location: "Usafirishaji: Mahali kipengee",
-        included_in_price: "kipengee kipengee bei",
+        included_in_price: "Imejumuishwa katika bei.",
       },
     },
 
@@ -10237,7 +10237,7 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "kipengee Bidhaa kipengee Kwa <b>{vendor}</b>.",
+      vendor_owner_msg: "Bidhaa hii ni ya <b>{vendor}</b>.",
       has_vendors_msg: "Kuna {count} wachuuzi wa bidhaa hii.",
       no_vendor_msg:
         "Hujamkabidhi muuzaji bidhaa hii, kwa hivyo wateja hawawezi kuinunua.",
@@ -10264,7 +10264,7 @@ export default {
     card: {
       title: "kipengee",
       description:
-        "kipengee HTML Kanuni Kwa Ongeza Bidhaa Kadi kipengee kipengee HTML Kurasa",
+        "Tengeneza msimbo wa HTML ili kuongeza kadi za bidhaa katika mifumo mingine na kurasa za HTML.",
     },
     iframe: {
       title: "kipengee",
@@ -10283,7 +10283,7 @@ export default {
     staff: {
       title: "Ongeza Wafanyakazi & Ufikiaji",
       subtitle:
-        "zote Watumiaji kipengee Wafanyakazi Ufikiaji kipengee kipengee kipengee Kwa kipengee Dashibodi kipengee ona Fedha taarifa Kwa Ongeza Watumiaji kipengee kipengee Ufikiaji, kipengee kipengee",
+        "Watumiaji wote walio na ufikiaji wa wafanyikazi wanaweza kuingia kwenye dashibodi yako na kuona maelezo ya kifedha. Ili kuongeza watumiaji walio na ufikiaji mdogo, fafanua Wajibu.",
       go_to_roles: "kipengee Kwa Majukumu",
     },
     access: {
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "Ufikiaji kipengee",
-        placeholder: "Chagua kipengee kipengee",
+        placeholder: "Chagua kiwango...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "Ufikiaji kipengee",
-        message: "Mpya Ufikiaji kipengee kipengee kipengee Ongeza",
+        message: "Idhini mpya imeongezwa.",
       },
       update_success: {
         title: "Ufikiaji kipengee",
-        message: "Ruhusa kipengee kipengee ",
+        message: "Ruhusa zimesasishwa.",
       },
     },
   },
@@ -10357,12 +10357,12 @@ export default {
     search_tips: {
       title: "tafuta kipengee",
       normal:
-        "<b>kipengee tafuta: </b>tafuta kipengee Kichwa, MPN, SKU, Chapa, kipengee Lebo",
+        "<b>Utafutaji Mkuu: </b>Tafuta kwa Kichwa, MPN, SKU, Chapa, au Lebo.",
       product:
         "<b>Kitambulisho Hasa cha Bidhaa: </b>Tumia P+Product ID kupata bidhaa mahususi, k.m., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
         "<b>Kauli Halisi: </b>Tumia alama za kunukuu kutafuta neno halisi, k.m., <b class=\"text-green\">\"</b><i class=\"text-yellow\">maandishi yako hapa</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>Kodi wasifu: </b>tafuta kipengee Bidhaa kipengee kipengee kipengee Kodi wasifu kipengee \"Kodi:\", kipengee, <b class=\"text-green\">Kodi:</b><i class=\"text-yellow\">Kodi wasifu Jina</i>.",
+      tax: "<b> Maelezo mafupi ya Kodi: </b>Tafuta bidhaa zilizo na wasifu mahususi wa kodi kwa kutumia \"kodi:\", k.m., <b class=\"text-green\">tax:</b><i class=\"text-yellow\"> jina la wasifu wa kodi</i>.",
       new_products:
         "<b>Bidhaa Mpya: </b>Tafuta bidhaa zilizoongezwa ndani ya kipindi mahususi cha tarehe, k.m., <b class=\"text-green\">mpya~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
@@ -10376,20 +10376,20 @@ export default {
     subtitle:
       "Ingiza ufunguo ambao utabadilishwa na thamani yake inayolingana katika yaliyomo kwenye ukurasa. Vifunguo vinapaswa kuwa na herufi zisizozidi 32.",
     add_caption: "Ongeza Mpya kipengee",
-    add_sub_caption: "Ongeza Desturi kipengee kipengee",
+    add_sub_caption: "Ongeza jozi maalum ya thamani ya ufunguo.",
     add_dialog: {
       title: "Chagua Ingizo Aina",
       html: {
-        title: "kipengee & kipengee",
-        subtitle: "kipengee Vipengee Thamani kipengee kipengee HTML.",
+        title: "Maandishi na Html",
+        subtitle: "Thamani ya bidhaa inaweza kuteuliwa kama maandishi au HTML.",
       },
       image: {
         title: "Picha",
-        subtitle: "kipengee kipengee Pakia kipengee Picha",
+        subtitle: "Unaweza kupakia picha.",
       },
     },
     help_dialog: {
-      title: "kipengee Kwa kipengee kipengee kipengee",
+      title: "Jinsi ya kutumia maudhui yanayobadilika",
       how_it_works_tips:
         "Katika kurasa za kutua, una uwezo wa kuteua vishikilia nafasi vinavyobadilika kwa maandishi na picha. Vishika nafasi hivi vina jukumu kubwa katika kubinafsisha maudhui kulingana na muktadha.   Asili inayobadilika ya vishika nafasi hivi huviruhusu kujazwa na thamani za upanuzi, ambazo zinaweza kutofautiana kulingana na mambo tofauti. Kwa mfano, thamani za upanuzi zinaweza kuwa tofauti kwa kila bidhaa au kategoria. Faida halisi ya kipengele hiki huonekana unapokuwa na aina mbalimbali za vipengee vyenye sifa tofauti. Unaweza kutumia vyema vishika nafasi hivi vinavyobadilika ili kubinafsisha na kuboresha onyesho la kila kipengee, na hivyo kuunda hali ya kipekee na shirikishi kwenye kurasa zako za kutua.",
       assign_tips:
@@ -10399,7 +10399,7 @@ export default {
       enter_values_tips:
         "Kwa kila bidhaa, una uwezo wa kugawa jozi maalum za thamani.",
       result_tips:
-        "kipengee kipengee ukurasa, kipengee kipengee ",
+        "Haya ni matokeo ya mwisho ya ukurasa, ambapo vishikilia nafasi vimebadilishwa na thamani zilizoongezwa.",
     },
   },
 
@@ -10408,7 +10408,7 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "kipengee kipengee",
+      title: "Lugha nyingi",
       subtitle:
         "Hii ndio orodha ya lugha za maudhui. Unaweza kuweka maudhui tofauti kwa wasifu wa vifaa katika kila lugha.",
       add_caption: "Ongeza Mpya Kifungu",
@@ -10419,20 +10419,20 @@ export default {
       subtitle:
         "Unaweza kubinafsisha yaliyomo kwa wasifu wa vifaa katika lugha nyingi.",
 
-      language_input: "kipengee Kifungu kipengee",
+      language_input: "Lugha ya makala ya sasa",
       delete_article: "Futa Kifungu",
       menu_tooltip: "kiotomatiki kipengee / Futa Kifungu",
     },
     translate_to: "kipengee Kwa",
     notifications: {
       translate: {
-        message: "Kifungu kipengee Imekamilika kipengee",
+        message: "Utafsiri wa makala umekamilika.",
       },
       save_article: {
-        message: "Kifungu kipengee kipengee ",
+        message: "Kifungu kimehifadhiwa.",
       },
       delete_article: {
-        message: "Kifungu kipengee kipengee Imefutwa kipengee",
+        message: "Kifungu kimefutwa.",
       },
     },
     delete_dialog: {
@@ -10456,7 +10456,7 @@ export default {
     inputs: {
       name: {
         message:
-          "kipengee Jina Onyesha Kwa kipengee kipengee Kwa kipengee Hadharani",
+          "Jina hili linakuonyesha na halitafichuliwa kwa umma.",
       },
       accept_delete: {
         true_description:
@@ -10492,7 +10492,7 @@ export default {
       inputs: {
         name: {
           message:
-            "kipengee Jina Onyesha Kwa kipengee kipengee Kwa kipengee Hadharani",
+            "Jina hili linakuonyesha na halitafichuliwa kwa umma.",
           placeholder: "Weka jina la wasifu...",
         },
       },
@@ -10507,14 +10507,14 @@ export default {
     add_caption: "Ongeza Mpya kipengee",
     subtitle:
       "Hapa, unaweza kudhibiti vipengee vilivyojumuishwa kwenye bidhaa zako. Ili kuhakikisha kuwa duka lako lina mwonekano kamili, tumia mara kwa mara bidhaa zilizo na muundo wa picha sawa, kama vile fremu za waya, kwenye bidhaa zote.",
-    empty_list_msg: "Orodha kipengee kipengee Vipengee",
+    empty_list_msg: "Orodha ya vitu vilivyojumuishwa...",
     notifications: {
       delete: {
-        message: "kipengee kipengee Imefutwa",
+        message: "Kipengee kimefutwa.",
       },
     },
     delete_dialog: {
-      title: "Futa kipengee kipengee",
+      title: "Futa kipengee kilichojumuishwa",
       message:
         "Je, una uhakika unataka kufuta kipengee hiki kabisa? Tafadhali kumbuka kuwa pia itaondolewa kutoka kwa bidhaa zote zinazohusiana!",
       action: "Ndiyo, Futa Sasa",
@@ -10528,18 +10528,18 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "Hariri kipengee kipengee",
-    dialog_title_add: "Unda Mpya kipengee kipengee",
+    dialog_title_edit: "Hariri kipengee kilichojumuishwa",
+    dialog_title_add: "Unda kipengee kipya kilichojumuishwa",
 
-    title: "kipengee kipengee",
+    title: "Kipengee kilichojumuishwa",
     subtitle:
       "Chagua kichwa kifupi, kikiwa na maneno 2 hadi 3 zaidi. Tumia picha za mraba, kwani tutabadilisha ukubwa wa picha zilizopakiwa kiotomatiki hadi umbizo la mraba 256x256. Ili upate mwonekano bora zaidi kwenye violezo vyote, tumia picha zisizo za kawaida zenye mandharinyuma yenye uwazi na udumishe muundo unaofanana katika bidhaa zako zote.",
     inputs: {
       title: {
-        placeholder: "kipengee Kichwa kipengee kipengee Bidhaa ukurasa",
+        placeholder: "Kichwa kifupi kinaonyeshwa kwenye ukurasa wa bidhaa...",
       },
       code: {
-        placeholder: "kipengee Kanuni, mfano Rununu_kipengee_kipengee",
+        placeholder: "Msimbo wa kipekee, mfano. mobile_cable_usb",
         hint: "Tumia msimbo huu ili kurahisisha mchakato wa utafutaji wa kutafuta vipengee.",
       },
       description: {
@@ -10547,7 +10547,7 @@ export default {
         hint: "Maelezo yatatumika kwa SEO na labda kuonekana kwa watumiaji kwenye baadhi ya mipangilio maalum katika ukurasa wa bidhaa.",
       },
       image: {
-        message: "kipengee Picha kipengee: 1MB",
+        message: "Ukubwa wa juu wa picha: 1MB",
       },
       path: {
         label: "ukurasa kipengee",
@@ -10565,16 +10565,16 @@ export default {
       internal_link: {
         title: "kipengee Kiungo",
         description:
-          "Unda kipengee ukurasa kipengee kipengee ",
+          "Unda ukurasa unaobadilika kwa kutumia data ya nyongeza iliyotolewa ya kipengee hiki.",
         tips: "Unaweza kuunganisha ukurasa wa kutua na wasifu na kuweka njia maalum na maudhui yenye nguvu kwa ajili yake. Selldone itazalisha kiungo chenye nguvu cha kipengee.",
       },
     },
     notifications: {
       add: {
-        message: "kipengee kipengee Ongeza kipengee",
+        message: "Kipengee kilichojumuishwa kimeongezwa kwa mafanikio.",
       },
       edit: {
-        message: "kipengee kipengee ",
+        message: "Kipengee kilichojumuishwa kimesasishwa kwa ufanisi.",
       },
     },
   },
@@ -10605,7 +10605,7 @@ export default {
     no_wallet: "Hapana Mkoba!",
 
     withdraw_dialog: {
-      title: "kipengee Tume kipengee",
+      title: "Ondoa Ada za Tume",
 
       need_bank_info_message: "Tafadhali weka maelezo yako ya benki kwanza.",
 
@@ -10622,7 +10622,7 @@ export default {
       inputs: {
         verify_to_wallet: {
           true_description:
-            "kipengee kipengee Kwa Uhamisho kipengee Tume Kwa kipengee Selldone Mkoba",
+            "Ninataka kuhamisha kamisheni yangu kwenye pochi yangu ya Selldone.",
         },
         verify_to_bank: {
           true_description:
@@ -10648,14 +10648,14 @@ export default {
       message: "Unaweza kuongeza <b>?ref={code}</b> kwa url yoyote iliyouzwa.",
     },
     intro: {
-      title: "kipengee kipengee Selldone Mshirika kipengee",
+      title: "Jiunge na Mpango Mshirika wa Selldone",
       message:
         "Mpango wa Washirika wa Selldone ni rahisi na wa moja kwa moja, ulioundwa ili upate mapato bila juhudi. Shiriki kiungo chako cha kipekee cha mshirika ili kuwaalika watumiaji wapya kwenye Selldone, na utapata kamisheni kutokana na kila shughuli wanayofanya—milele. Hii ni pamoja na mapato kutokana na usajili, ada za huduma, masasisho ya duka na njia nyingine zote za mapato. Anza kupata sehemu ya mapato bila kikomo chochote cha wakati au mapato. Jiunge nasi na ugeuze mtandao wako kuwa mapato ya kudumu!",
-      why_join_selldone_affiliate: "kipengee kipengee ?",
+      why_join_selldone_affiliate: "Kwa nini hii ni fursa ya kipekee?",
       reasons: [
-        "kipengee kipengee kipengee!",
+        "Inadumu milele!",
         "Inashughulikia ada zote za usajili na miamala. Kwa kweli kila malipo ya mtumiaji kwenye Selldone.",
-        "Tunatuma vocha $99 bila malipo kwa mtu yeyote anayejisajili kwa kutumia kiungo chako.",
+        "Tunatuma vocha ya $99 bila malipo kwa mtu yeyote anayejisajili kwa kutumia kiungo chako.",
         "Wakati kiwango chako kitasasishwa, utapata mapato kwa kiwango kipya kutoka kwa watumiaji wote waliorejelewa hapo awali.",
       ],
     },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "Hapana kipengee Pakia kipengee",
+    no_asset_uploaded: "Bado hakuna kipengee kilichopakiwa.",
   },
 
   /**
@@ -10695,22 +10695,22 @@ export default {
     edit_mode_tooltip: {
       title: "Hariri / Hakiki hali",
       edit_mode_title: "Hariri hali",
-      edit_mode_msg: "zote Hariri Zana kipengee kipengee kipengee",
+      edit_mode_msg: "Zana zote za kuhariri zitaonyeshwa.",
       view_mode_title: "Hakiki hali",
       view_mode_msg:
         "Tazama ukurasa wako jinsi watumiaji wangeuona kwa kuficha zana za ziada za kuhariri na sehemu za maandishi tupu.",
     },
     repository_tooltip: {
-      title: "kipengee kipengee",
+      title: "Sehemu Zilizojengwa Mapema",
       subtitle:
         "Geuza onyesho la sehemu zilizoundwa awali. Sehemu hizi zimeundwa kwa kutumia sehemu za kawaida zinazopatikana kwenye menyu ya kushoto, kuonyesha unyumbufu wa mjenzi wa ukurasa huu.",
     },
     live_view: {
       title: "Ishi Hakiki",
-      subtitle: "ona Sasisha kipengee kipengee Hariri kipengee ukurasa",
+      subtitle: "Tazama masasisho katika muda halisi unapohariri ukurasa wako.",
     },
     hotkeys_dialog: {
-      title: "kipengee kipengee",
+      title: "Njia za mkato za Kibodi",
       augment_tips:
         "Unaweza kupakia maudhui yanayobadilika kwenye ukurasa wako na kuyabadilisha na <b>kuongeza thamani</b>. Uboreshaji hutumiwa kwa kurasa maalum zinazobadilika kama vile <b>Bidhaa</b>, <b>Aina</b>, na <b>Jumuisha Vipengee</b>. Ili kuweka picha ipakie kwa nguvu, bofya kwenye <b>Feeder</b> na uchague <b>Chanzo Kinachobadilika</b> kwa picha hiyo.",
     },
@@ -10723,10 +10723,10 @@ export default {
       ctrl_1:
         "Punguza saizi ya fonti ya maandishi uliyochagua | <small>Nifanye mdogo</small>",
       ctrl_2: "Ongeza saizi ya fonti ya maandishi uliyochagua | <big>Nifanye mkubwa</big>",
-      ctrl_r: "Ondoa zote kipengee Kutoka Chagua kipengee | kipengee zote kipengee",
+      ctrl_r: "Ondoa uumbizaji wote kutoka kwa maandishi yaliyochaguliwa | Safisha mitindo yote",
       ctrl_s: "Hifadhi kipengee ukurasa",
-      tab: "kipengee kipengee kipengee hali",
-      ctrl_e: "kipengee kipengee Mtindo hali",
+      tab: "Badili kati ya modi za mizani",
+      ctrl_e: "Washa au zima hali ya mtindo wa clone",
     },
   },
 
@@ -10734,8 +10734,8 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "kipengee & kipengee",
-    subtitle: "kipengee kipengee",
+    title: "Buruta na Udondoshe",
+    subtitle: "Sehemu Zilizojengwa Kabla",
     add_dialog: {
       title: "Ongeza Desturi kipengee",
       configuration: {
@@ -10745,7 +10745,7 @@ export default {
       },
       image: {
         title: "Picha",
-        subtitle: "Hadharani Picha kipengee kipengee kipengee Orodha",
+        subtitle: "Picha ya umma inayoonyeshwa kwenye orodha.",
       },
       code: {
         title: "Kanuni",
@@ -10755,7 +10755,7 @@ export default {
       inputs: {
         title: {
           label: "Kichwa",
-          message: "kipengee kipengee kipengee Hadharani Kichwa",
+          message: "Hili ndilo jina la umma.",
         },
         tags: {
           label: "Lebo",
@@ -10782,7 +10782,7 @@ export default {
       REJECTED: "Ombi la mchuuzi limekataliwa.",
       PENDING: "Ombi hilo linasubiri uamuzi kutoka kwa mchuuzi.",
     },
-    number_of_products: "kipengee kipengee Bidhaa",
+    number_of_products: "Idadi ya Bidhaa",
     invited: "kipengee",
     no_pricing: "Hapana Kuweka bei",
     no_pricing_tooltip: {
@@ -10790,7 +10790,7 @@ export default {
       subtitle: "Tafadhali weka muundo chaguomsingi wa bei kwa muuzaji.",
     },
     updated_products_tooltip: {
-      title: "Bidhaa kipengee kipengee 24 kipengee",
+      title: "Bidhaa zimesasishwa katika saa 24 zilizopita",
     },
     added_products_tooltip: {
       title: "Bidhaa Zilizoongezwa Katika Saa 24 Zilizopita",
@@ -10806,14 +10806,14 @@ export default {
         "Mtumiaji alikataa ombi la kuwa mchuuzi na kufikia mchuuzi huyu.",
     },
     download_all_vendors: "Pakua zote wauzaji",
-    bulk_import: "kipengee Ingiza (kipengee)",
+    bulk_import: "Kuagiza kwa wingi (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Leseni kipengee kipengee!",
+    title: "Uboreshaji wa Leseni Unahitajika!",
     subtitle:
       "Leseni yako ya sasa haikidhi mahitaji ya muundo wa biashara uliochagua. Tafadhali pata toleo jipya la leseni yako hadi Mpango wa Biashara.",
   },
@@ -10829,7 +10829,7 @@ export default {
     add_template_action: "Ongeza Ujumbe Kiolezo",
 
     notifications: {
-      add_chat_success_message: "Ujumbe kipengee kipengee Ongeza kipengee",
+      add_chat_success_message: "Ujumbe umeongezwa.",
     },
 
     send_update_email: {
@@ -10842,7 +10842,7 @@ export default {
       send_action: "Tuma Sasisha Barua pepe",
 
       notifications: {
-        send_success_message: "Barua pepe kipengee kipengee Imetumwa kipengee",
+        send_success_message: "Barua pepe imetumwa kwa mafanikio.",
       },
     },
     add_template: {
@@ -10855,19 +10855,19 @@ export default {
       add_action: "Ongeza Kiolezo",
 
       notifications: {
-        save_success_message: "Kiolezo kipengee kipengee ",
+        save_success_message: "Kiolezo kimehifadhiwa.",
       },
 
       inputs: {
         title: {
           label: "Kiolezo Kichwa",
-          placeholder: "kuandika kipengee kipengee Kichwa",
+          placeholder: "Andika kichwa kifupi...",
         },
         body: {
           label: "Kiolezo Ujumbe",
-          placeholder: "kuandika kipengee Ujumbe kipengee",
+          placeholder: "Andika ujumbe wako hapa...",
           messages:
-            "kipengee kipengee {order_id} kipengee {buyer_name}.",
+            "Unaweza kuweka thamani zinazobadilika kwa {order_id} na {buyer_name}.",
         },
       },
     },
@@ -10884,9 +10884,9 @@ export default {
     authentication: "kipengee",
     guest: "kipengee",
     click_to_create: "kipengee Kwa Unda",
-    valid_for_30_days: "kipengee kipengee 30 siku 30",
+    valid_for_30_days: "halali kwa siku 30",
     notifications: {
-      secure_link_created: "kipengee Kiungo kipengee kipengee ",
+      secure_link_created: "Kiungo salama kimeundwa.",
     },
   },
 
@@ -10904,8 +10904,8 @@ export default {
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Ongeza Mpya kipengee kipengee",
-    title: "kipengee kipengee",
+    add_caption: "Ongeza seti mpya ya mali",
+    title: "Seti za Mali",
     subtitle:
       "Unaweza kuunda na kudhibiti seti za mali hapa. Seti za mali hutumiwa kufafanua sifa za bidhaa na huduma. Unaweza kukabidhi seti hizi za sifa kwa bidhaa katika Dashibodi ya Bidhaa > Badilisha.",
   },
@@ -10915,15 +10915,15 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "kipengee kipengee - Desturi Lahaja",
+      title: "Seti ya Mali - Vibadala Maalum",
       subtitle:
         "Unaweza kubinafsisha majina lahaja ya bidhaa hii, ukibadilisha yale chaguomsingi.",
     },
 
     subtitle:
       "Unaweza kubinafsisha majina lahaja, ikoni na mpangilio wao hapa. Kwa bidhaa zilizo na vibadala vya kipekee ambavyo vinapita zaidi ya sita chaguomsingi, unaweza kuweka vibadala maalum vinavyolenga kila bidhaa. Bainisha kwa urahisi seti za vipengee kwenye kichupo cha Vifaa > Seti za Sifa na uzikabidhi kwa idadi yoyote ya bidhaa inapohitajika.",
-    select_property_set: "Chagua kipengee kipengee",
-    add_property_set: "Ongeza kipengee kipengee",
+    select_property_set: "Chagua Seti ya Mali",
+    add_property_set: "Ongeza Seti ya Mali",
   },
 
   /** {@see BPageShopLogisticInventory} **/
@@ -10936,15 +10936,15 @@ export default {
     edit: "Hariri kipengee",
     new: "Mpya kipengee",
     default_weight: "Chaguomsingi Uzito",
-    updated: "kipengee kipengee",
-    created: "kipengee kipengee",
+    updated: "Sanduku limesasishwa.",
+    created: "Sanduku limeundwa.",
     deleted: "kipengee Imefutwa",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Chagua kipengee kifurushi",
-    define_package: "kipengee kipengee kifurushi",
+    define_package: "Bainisha kifurushi",
     define_package_hint: "Unda au uhariri saizi zako za kifurushi zilizobainishwa awali",
   },
 
@@ -10984,7 +10984,7 @@ export default {
     items: {
       title: "Vipengee",
       sub_title:
-        "Unda, Hariri, kipengee Dhibiti Orodhesho Vipengee kipengee Hali, Kuweka bei, Wasiliana Habari, kipengee kipengee",
+        "Unda, hariri na udhibiti vipengee vya uorodheshaji. Dhibiti hali, bei, maelezo ya mawasiliano na midia.",
 
       empty_title: "Hapana Vipengee kipengee",
       empty_subtitle:
@@ -10999,14 +10999,14 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "Viungo JSON",
-      opening_hours_json: "kipengee kipengee JSON",
+      opening_hours_json: "Saa za kufunguliwa JSON",
 
       delete_title: "Futa kipengee",
       delete_message: "Je, una uhakika unataka kufuta kipengee hiki?",
       delete_success: "Kipengee kimefutwa.",
-      restore_success: "kipengee kipengee kipengee",
+      restore_success: "Kipengee kimerejeshwa.",
 
-      opening_hours:"kipengee kipengee",
+      opening_hours:"Saa za Ufunguzi",
       form_fields:"fomu kipengee",
 
       company: "Kampuni",
@@ -11026,7 +11026,7 @@ export default {
       add_title: "Ongeza Kategoria",
       edit_title: "Badilisha kategoria",
 
-      parent_filter: "Chuja kipengee kipengee",
+      parent_filter: "Chuja kulingana na mzazi",
       parent: "Kategoria ya mzazi",
 
       price_format: "bei kipengee",
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Kubuni ID",
 
       delete_title: "Futa kategoria",
-      delete_message: "kipengee kipengee Kwa Futa kipengee Kategoria?",
+      delete_message: "Je, una uhakika unataka kufuta kategoria hii?",
       delete_success: "Kategoria Imefutwa kipengee",
       form_schema: "Kategoria fomu kipengee",
     },
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "kipengee",
       moderation_mode: "kipengee hali",
-      require_first_approved_before_more: "kipengee kipengee Zaidi. .",
+      require_first_approved_before_more: "Inahitaji idhini ya kwanza kabla ya zaidi",
 
       limits_title: "Mipaka",
-      max_pending_per_user: "kipengee Inasubiri kipengee Mtumiaji",
-      max_items_per_user: "kipengee Vipengee kipengee Mtumiaji",
+      max_pending_per_user: "Kiwango cha juu kinasubiri kwa kila mtumiaji",
+      max_items_per_user: "Vipengee vya juu kwa kila mtumiaji",
       limits_hint: "Mipaka kipengee",
 
       templates_title: "kipengee",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "kipengee kipengee kipengee",
-      publish_success: "kipengee Imechapishwa kipengee",
-      unpublish_success: "kipengee kipengee kipengee",
-      archive_success: "kipengee kipengee kipengee",
-      reject_success: "kipengee Imekataliwa kipengee",
-      penalty_success: "kipengee kipengee kipengee",
+      approve_success: "Kipengee kimeidhinishwa.",
+      publish_success: "Kipengee kimechapishwa.",
+      unpublish_success: "Kipengee kimebatilishwa kuchapishwa.",
+      archive_success: "Kipengee kimehifadhiwa kwenye kumbukumbu.",
+      reject_success: "Kipengee kimekataliwa.",
+      penalty_success: "Adhabu imetekelezwa.",
 
       reject_title: "Kataa kipengee",
-      reject_reason: "kipengee kipengee",
+      reject_reason: "Sababu ya kukataa",
 
       penalty: "kipengee",
       penalty_title: "kipengee",
-      penalty_points: "kipengee kipengee",
+      penalty_points: "Pointi za penalti",
       penalty_note: "kipengee Kumbuka"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "Pakia Picha",
       url_type: "Aina",
       url: "URL",
-      is_main: "kipengee kipengee kuu"
+      is_main: "Weka kama kuu"
     },
 
 
@@ -11116,7 +11116,7 @@ export default {
       sub_title:
         "Unda seti nyingi za muundo (kadi + violezo vya maelezo) na uzigawie kwa kategoria. Kategoria zinaweza kutumia miundo tofauti.",
 
-      empty_title: "Hapana kipengee kipengee",
+      empty_title: "Bado hakuna miundo",
       empty_subtitle:
         "Ongeza muundo wako wa kwanza ili uanze kubinafsisha jinsi kategoria zinavyoonekana.",
 
@@ -11127,8 +11127,8 @@ export default {
       details_template: "Maelezo Kiolezo",
 
       notifications: {
-        add_success: "Kubuni kipengee kipengee",
-        edit_success: "Kubuni kipengee kipengee",
+        add_success: "Usanifu umefanikiwa.",
+        edit_success: "Muundo umesasishwa.",
         delete_success: "Kubuni Imefutwa kipengee",
       },
 
@@ -11148,42 +11148,42 @@ export default {
 
       empty_title: "Hapana beji kipengee",
       empty_subtitle:
-        "Ongeza kipengee kipengee beji Kwa Anza kipengee Orodhesho Vipengee",
+        "Ongeza beji yako ya kwanza ili kuanza kuangazia vipengee vya kuorodhesha.",
 
       add_title: "Ongeza beji",
       edit_title: "Hariri beji",
 
       notifications: {
-        add_success: "beji kipengee kipengee",
-        edit_success: "beji kipengee kipengee",
+        add_success: "Beji imeundwa.",
+        edit_success: "Beji imesasishwa.",
         delete_success: "beji Imefutwa kipengee",
       },
 
       delete_title: "Futa beji",
-      delete_message: "kipengee kipengee Kwa Futa kipengee beji?",
+      delete_message: "Je, una uhakika unataka kufuta beji hii?",
     },
 
     companies: {
       title: "Makampuni",
       sub_title:
-        "Unda kipengee Dhibiti Makampuni kipengee Orodhesho kipengee kipengee imeunganishwa Kwa kipengee Kampuni",
+        "Unda na udhibiti makampuni. Kila bidhaa iliyoorodheshwa inaweza kuunganishwa kwa hiari na kampuni moja.",
 
       empty_title: "Hapana Makampuni kipengee",
       empty_subtitle:
-        "Ongeza kipengee kipengee Kampuni Kwa Kiungo kipengee Kwa Orodhesho Vipengee",
+        "Ongeza kampuni yako ya kwanza ili kuiunganisha na vipengee vya kuorodhesha.",
 
       add_title: "Ongeza Kampuni",
       edit_title: "Badilisha kampuni",
 
       notifications: {
-        add_success: "Kampuni kipengee kipengee",
-        edit_success: "Kampuni kipengee kipengee",
+        add_success: "Kampuni imeundwa.",
+        edit_success: "Kampuni imesasishwa.",
         delete_success: "Kampuni Imefutwa kipengee",
       },
 
       delete_title: "Futa Kampuni",
       delete_message:
-        "Futa kipengee Kampuni? Vipengee kipengee kipengee Kampuni Kiungo",
+        "Ungependa kufuta kampuni hii? Vipengee vinavyotumia vitapoteza kiungo cha kampuni kiotomatiki.",
     },
 
 
@@ -11197,7 +11197,7 @@ export default {
       sender: "kipengee",
       item: "kipengee",
       has_reply: "kipengee",
-      has_reply_yes: "kipengee kipengee",
+      has_reply_yes: "Ina jibu",
       has_reply_no: "Hapana kipengee",
 
       dialog_title: "Ujumbe",
@@ -11205,12 +11205,12 @@ export default {
       reply: "kipengee",
       reply_hint: "Andika jibu kwa mtumiaji. Unaweza pia kutia alama kuwa ujumbe umesomwa/ni taka kutoka kwa vitendo.",
 
-      mark_read: "kipengee kipengee kusoma",
-      mark_unread: "kipengee kipengee kipengee",
+      mark_read: "Weka alama kama imesomwa",
+      mark_unread: "Weka alama kuwa haijasomwa",
       archive: "kipengee",
       unarchive: "kipengee",
-      mark_spam: "kipengee kipengee kipengee",
-      mark_not_spam: "kipengee kipengee",
+      mark_spam: "Weka alama kuwa ni taka",
+      mark_not_spam: "Sio barua taka",
 
       delete_confirm: "Futa kipengee Ujumbe?",
     },
@@ -11218,16 +11218,16 @@ export default {
     enable: {
       title: "Orodhesho",
       subtitle: "Washa au zima ukurasa wako wa uorodheshaji hadharani. Ikiwezeshwa kwa mara ya kwanza, Selldone itaunda usanidi wa uorodheshaji kiotomatiki.",
-      true_description: "Orodhesho kipengee imewezeshwa Wateja kipengee kipengee Orodhesho Kurasa",
+      true_description: "Uorodheshaji umewezeshwa. Wateja wanaweza kuvinjari kurasa za orodha.",
       false_description: "Uorodheshaji umezimwa. Kurasa za uorodheshaji na mawasilisho yamezuiwa.",
       open_listing: "kipengee Orodhesho",
-      note: "kipengee kipengee , Mipaka, fomu, kipengee Kubuni kipengee Orodhesho Mipangilio",
+      note: "Unaweza baadaye kusanidi udhibiti, vikomo, fomu na muundo ndani ya mipangilio ya Orodha.",
       vendor_prereq_text:
-        "kipengee wauzaji Kwa Ongeza Orodhesho Vipengee Kutoka kipengee muuzaji kipengee? kipengee, kipengee kipengee biashara kipengee Kwa Sokoni",
-      vendor_prereq_button: "kipengee Sokoni biashara kipengee",
+        "Je, ungependa wachuuzi kuongeza bidhaa za kuorodheshwa kutoka kwa Paneli zao za Wauzaji? Kwanza, badilisha mtindo wako wa biashara kuwa Marketplace.",
+      vendor_prereq_button: "Weka mtindo wa biashara wa Soko",
 
       vendor_access_text:
-        "kipengee kipengee wauzaji kipengee Ufikiaji Orodhesho kipengee (Vipengee + Makampuni). Washa kipengee kipengee Sokoni Mipangilio",
+        "Sasa unaweza kuamua kama wachuuzi wanaweza kufikia vipengele vya Kuorodhesha (vipengee + makampuni). Iwashe katika mipangilio ya Soko.",
       vendor_access_button: "Washa Orodhesho kipengee wauzaji",
 
       more_options_text:
@@ -11241,26 +11241,26 @@ export default {
 
     search: {
       title: "tafuta Mipangilio",
-      subtitle: "Kubuni kipengee Wateja tafuta kipengee Orodhesho Washa kipengee tafuta kipengee Jenga Vichujio Kutoka kipengee Desturi fomu kipengee",
+      subtitle: "Buni jinsi wateja wanavyotafuta tangazo lako. Washa utafutaji unaotegemea eneo na uunde vichujio kutoka kwa sehemu zako za fomu maalum.",
 
       location_title: "Mahali tafuta",
       location_subtitle: "Ruhusu wateja kuchagua eneo na kupata matokeo ya karibu ndani ya eneo linaloweza kusanidiwa.",
-      location_enabled_true: "Mahali Chuja kipengee imewezeshwa Wateja kipengee tafuta kipengee kipengee",
+      location_enabled_true: "Kichujio cha eneo kimewashwa. Wateja wanaweza kutafuta kwa umbali.",
       location_enabled_false: "Kichujio cha eneo kimezimwa. Matokeo hayatachujwa kwa umbali.",
 
-      radius_default: "Chaguomsingi kipengee (kipengee)",
+      radius_default: "Kipenyo chaguomsingi (km)",
       radius_default_hint: "Hutumika mteja anapochagua eneo lakini hachagui eneo.",
-      radius_max: "kiwango cha juu kipengee (kipengee)",
-      radius_max_hint: "kipengee kipengee Kwa kipengee Thamani",
-      radius_options: "kipengee kipengee (kipengee)",
-      radius_options_hint: "kipengee kipengee UI.",
+      radius_max: "Upeo wa radius (km)",
+      radius_max_hint: "Sehemu ya mbele ya duka itabanwa kwa thamani hii.",
+      radius_options: "Chaguzi za kipenyo (km)",
+      radius_options_hint: "Thamani hizi zinaweza kuonyeshwa kama chaguo za haraka katika UI ya mbele ya duka.",
 
       filters_title: "tafuta Vichujio",
       filters_subtitle: "Ongeza vichujio vinavyosoma thamani kutoka sehemu za meta za bidhaa (sehemu za fomu za uorodheshaji/kitengo). Tumia Uzalishaji Kiotomatiki kukusanya chaguo halisi kutoka kwa vipengee vilivyochapishwa.",
       no_filters: "Hapana Vichujio Ongeza kipengee",
-      auto_generate: "kipengee kipengee",
+      auto_generate: "Tengeneza chaguzi kiotomatiki",
 
-      filter_field: "kipengee kipengee",
+      filter_field: "Ufunguo wa shamba",
       filter_label: "Lebo",
       filter_type: "Aina",
       filter_options: "kipengee",
@@ -11323,13 +11323,13 @@ export default {
      */
     shop_email: {
       name: [
-        "kipengee kipengee ",
+        "Super Savings Weekend Blast",
         "Ofa za Kipekee za Insider Zimezinduliwa",
         "Ufikiaji wako wa VIP kwa Punguzo la Kulipiwa",
         "Sale ya Msimu Extravaganza",
         "Fungua Paradiso Yako ya Ununuzi",
         "Kanivali ya Grand Shopper",
-        "kipengee kipengee ",
+        "Spring Fling Shopping Spree",
         "Mikataba ya Autumn Huwezi Kupinga",
         "Maajabu ya Majira ya baridi: Mikataba ya joto kwa Siku za Baridi",
         "Siku Zilizosalia za Kibali cha Mwisho wa Majira ya joto",
@@ -11767,25 +11767,25 @@ export default {
     campaign: {
       name: [
         "Nunua 'Til You Drop",
-        "kipengee kipengee",
-        "kipengee Uuzaji kipengee",
+        "Cart Frenzy",
+        "Flash Sale Fiesta",
         "Bofya, Nunua, Hifadhi",
         "Bonanza la Biashara",
-        "kipengee kipengee",
+        "E-Deal Extravaganza",
         "Mega Markdown wazimu",
         "Mfumo wa Akiba wa Mtandao",
         "Siku za Punguzo la Dijiti",
-        "kipengee kipengee",
+        "E-Commerce Carnival",
         "Outlet Oasis",
         "Kukimbilia kwa Uuzaji",
         "Uuzaji wa Ghala la Wavuti",
         "Paradiso ya E-Shopper",
         "Ubia wa Vocha ya kweli",
-        "kipengee kipengee",
+        "Digital Doorbusters",
         "Uondoaji wa E-Cart",
         "Maonyesho ya Ununuzi mtandaoni",
         "Uuzaji wa Mtandao wa Kuvutia",
-        "kipengee kipengee",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11802,7 +11802,7 @@ export default {
         "Gharama ya Kubinafsisha Vifaa vya Kielektroniki",
         "Uthamini wa Manukato Uliobinafsishwa",
         "Bei Maalum ya Mifuko",
-        "kipengee kipengee kipengee",
+        "Tailored Dress Valuation",
         "Bei ya Jalada la Kitabu lililobinafsishwa",
         "Uthamini wa Samani Maalum",
         "Bespoke Watch Bes",
@@ -11817,7 +11817,7 @@ export default {
       ],
       structure: {
         title: [
-          "kipengee kipengee Kubuni",
+          "T-shirt Print Design",
           "Aina ya Metal ya Kujitia",
           "Chaguo la Nyenzo za Viatu",
           "Ukubwa wa Fremu ya Sanaa",
@@ -11829,7 +11829,7 @@ export default {
           "Nyenzo ya Jalada la Kitabu",
           "Samani Aina ya Mbao",
           "Tazama Nyenzo ya Kamba",
-          "kipengee Desturi kipengee",
+          "Toy Custom Features",
           "Ukubwa wa Kofia na Rangi",
           "Mapendeleo ya Viungo vya Ngozi",
           "Mandhari ya Mapambo ya Nyumbani",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "kipengee Ufikiaji",
-        "kipengee kipengee",
-        "kipengee kifurushi",
-        "kipengee Mpango",
-        "kipengee Usajili",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "Isiyo na kikomo Toa",
-        "kipengee kipengee",
+        "Ufikiaji Msingi",
+        "Uanachama wa Kulipiwa",
+        "Kifurushi cha Dhahabu",
+        "Mpango wa Fedha",
+        "Usajili wa Platinamu",
+        "Kiwango cha Biashara",
+        "Kifungu cha Starter",
+        "Ofa Isiyo na Kikomo",
+        "Kifurushi cha Familia",
         "Suite ya kitaaluma",
       ],
       description: [
-        "kipengee kipengee ",
-        "Ufikiaji Kwa zote kipengee kipengee ",
-        "kipengee kipengee kipengee Kipaumbele Msaada",
+        "Inafaa kwa watu binafsi wanaochunguza misingi.",
+        "Ufikiaji wa vipengele na maudhui yote yanayolipiwa.",
+        "Faida za kipekee na usaidizi wa kipaumbele.",
         "Kifurushi cha usawa kwa watumiaji wa kawaida.",
-        "kipengee Ufikiaji kipengee kipengee kipengee",
-        "Desturi kipengee kipengee ",
-        "kipengee kipengee ",
+        "Ufikiaji wa mwisho na manufaa ya kiwango cha juu.",
+        "Ufumbuzi maalum kwa mashirika makubwa.",
+        "Chaguo la kiwango cha kuingia cha bei nafuu.",
         "Hakuna kikomo kwa matumizi, kwa mtumiaji wa nguvu.",
         "Mpango maalum kwa familia, hadi wanachama 4.",
-        "kipengee kipengee Zana",
+        "Imeundwa kwa wataalamu wanaotafuta zana za hali ya juu.",
       ],
     },
 
     spec: {
       group: [
         "Maelezo ya kiufundi",
-        "kipengee kipengee",
-        "Utendaji kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "Material kipengee Jenga kipengee",
-        "Rangi kipengee Maliza kipengee",
-        "kipengee kipengee kipengee",
-        "kipengee kipengee kipengee",
-        "kipengee kipengee kipengee",
-        "kifurushi kipengee",
-        "dhamana kipengee Msaada",
-        "Chapa kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "Mtumiaji kipengee kipengee Ukaguzi",
-        "Kuweka bei kipengee kipengee",
+        "Vipimo vya Kimwili",
+        "Vipengele vya Utendaji",
+        "Chaguzi za Muunganisho",
+        "Mahitaji ya Nguvu",
+        "Nyenzo na Ubora wa Kujenga",
+        "Chaguzi za Rangi na Maliza",
+        "Uhifadhi na Kumbukumbu",
+        "Utangamano wa Mfumo wa Uendeshaji",
+        "Usalama na Uzingatiaji",
+        "Yaliyomo kwenye Kifurushi",
+        "Udhamini na Msaada",
+        "Chapa na Mtengenezaji",
+        "Urafiki wa Mazingira",
+        "Ufanisi wa Nishati",
+        "Utunzaji na Utunzaji",
+        "Chaguzi za Kubinafsisha",
+        "Vifaa vilivyojumuishwa",
+        "Ukadiriaji na Maoni ya Mtumiaji",
+        "Bei na Upatikanaji",
       ],
     },
 
     avocado: {
       title: [
-        "Nunua Risiti",
-        "Uuzaji kipengee",
-        "🛍️ Agizo ankara",
-        "Malipo ankara",
-        "mteja Risiti",
-        "Shughuli kipengee",
-        "Bili kipengee",
-        "Angalia Risiti",
-        "🛍️ Agizo kipengee",
-        "Nunua 🛍️ Agizo ankara",
-        "Mauzo Risiti",
-        "kipengee ankara",
-        "kipengee",
-        "huduma ankara",
-        "Bidhaa ankara",
-        "Malipo Risiti",
+        "Risiti ya Ununuzi",
+        "Uthibitisho wa Uuzaji",
+        "Ankara ya Agizo",
+        "Ankara ya malipo",
+        "Risiti ya Mteja",
+        "Muhtasari wa Muamala",
+        "Taarifa ya Bili",
+        "Risiti ya Malipo",
+        "Muhtasari wa Agizo",
+        "Nunua Ankara ya Agizo",
+        "Risiti ya mauzo",
+        "Ankara ya reja reja",
+        "Risiti ya kielektroniki",
+        "Ankara ya Huduma",
+        "Ankara ya Bidhaa",
+        "Risiti ya Malipo",
         "Uthibitishaji wa Agizo",
-        "Bili ankara",
-        "Angalia ankara",
-        "mteja ankara",
+        "Ankara ya Malipo",
+        "Ankara ya Malipo",
+        "Ankara ya Wateja",
       ],
       message: [
-        "kipengee kipengee Nunua!",
-        "kipengee kipengee kipengee biashara",
-        "kipengee 🛍️ Agizo kipengee kipengee !",
-        "kipengee kipengee ",
+        "Asante kwa ununuzi wako!",
+        "Tunashukuru biashara yako.",
+        "Agizo lako liko njiani!",
+        "Asante kwa kufanya ununuzi nasi.",
         "Tunatazamia kukuhudumia tena.",
-        "kipengee kipengee Kipaumbele",
+        "Kuridhika kwako ndio kipaumbele chetu cha juu.",
         "Usisahau kukadiria matumizi yako.",
         "Asante kwa kusaidia duka letu.",
-        "kipengee kipengee Mpya Nunua!",
+        "Tunatumahi utafurahiya ununuzi wako mpya!",
         "Hifadhi ankara yako kwa marejeleo ya baadaye.",
         "Tutembelee tena kwa bidhaa bora zaidi.",
-        "kipengee Imeunganishwa kipengee kipengee Matoleo",
-        "kipengee kipengee mteja",
+        "Endelea kuwasiliana ili upate ofa za kipekee.",
+        "Asante kwa kuwa mteja wa thamani.",
         "Tuko hapa kukusaidia ikiwa unahitaji usaidizi.",
-        "kipengee Maoni msaada kipengee kipengee",
+        "Maoni yako hutusaidia kuboresha.",
         "Furahia punguzo maalum kwa ununuzi wako ujao.",
-        "kipengee kipengee !",
-        "kipengee kipengee ",
-        "kipengee kipengee Kwa kipengee Maoni",
-        "kipengee kipengee Kutoka kipengee kipengee",
+        "Umefanya chaguo nzuri!",
+        "Asante kwa imani yako kwetu.",
+        "Tunatarajia maoni yako.",
+        "Shukrani za dhati kutoka kwa timu yetu.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "kipengee kipengee",
-        "muuzaji kipengee",
-        "kipengee ukurasa wa nyumbani",
-        "kipengee kipengee",
+        "Onyesho la Mali",
+        "Plaza ya muuzaji",
+        "Nyumba Zilizoangaziwa",
+        "Soko la ndani",
         "Wajio Wapya",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "Kujitia kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
+        "Bustani za Majengo",
+        "Wilaya ya Ununuzi",
+        "Mchoro wa Fundi",
+        "Majengo ya kifahari",
+        "Kitovu cha Kukodisha",
+        "Nyumba zilizo wazi",
+        "Ubunifu wa Teknolojia",
+        "Njia ya Mitindo",
+        "Kona ya Ufundi",
+        "Uwanja wa Chakula",
+        "Kitabu Nook",
+        "Jewelry Junction",
+        "Barabara ya Kale",
+        "Eneo la Fitness",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "biashara kipengee kipengee",
-        "Kodi kipengee kipengee (TIN)",
-        "muuzaji kipengee fomu",
-        "Bidhaa kipengee",
-        "Kuweka bei Orodha",
-        "Benki Akaunti Maelezo",
-        "kipengee kipengee anwani",
-        "kipengee kipengee",
-        "Kampuni wasifu",
-        "kipengee kipengee kipengee",
-        "kipengee kipengee laha (SDS)",
-        "Bidhaa dhamana taarifa",
-        "Rudi sera",
-        "Usafirishaji kipengee kipengee kipengee",
-        "mteja huduma sera",
-        "Masoko kipengee kipengee Mipango",
-        "kipengee kipengee Viungo",
-        "kipengee kipengee",
-        "kipengee Kanuni kipengee kipengee",
-        "kipengee kipengee (NDA)",
+        "Cheti cha Usajili wa Biashara",
+        "Nambari ya Utambulisho wa Ushuru (TIN)",
+        "Fomu ya Makubaliano ya Muuzaji",
+        "Katalogi ya Bidhaa",
+        "Orodha ya Bei",
+        "Maelezo ya Akaunti ya Benki",
+        "Uthibitisho wa Anwani",
+        "Cheti cha Bima",
+        "Wasifu wa Kampuni",
+        "Cheti cha Uhakikisho wa Ubora",
+        "Laha ya Data ya Usalama (SDS)",
+        "Taarifa ya Udhamini wa Bidhaa",
+        "Sera ya Kurudisha",
+        "Taratibu za Usafirishaji na Utunzaji",
+        "Sera ya Huduma kwa Wateja",
+        "Mipango ya Masoko na Utangazaji",
+        "Viungo vya Mitandao ya Kijamii",
+        "Marejeleo ya Biashara",
+        "Kanuni ya Maadili ya Msambazaji",
+        "Mkataba wa Kutofichua (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "Sokoni duka Huduma kipengee",
-        "Duka kipengee kipengee",
-        "kipengee Huduma kipengee",
-        "kipengee Masoko huduma kipengee",
-        "kipengee kipengee duka kipengee",
+        "Makubaliano ya Huduma za Kuanzisha Soko",
+        "Mkataba wa Usanidi wa Duka",
+        "Mkataba wa Huduma za Kuchapisha Unapohitaji",
+        "Mkataba wa Huduma ya Uuzaji wa Kidijitali",
+        "Mkataba wa Kuanzisha Jukwaa la E-commerce",
         "Mkataba wa Ushauri wa Kitaalam kwa Wamiliki wa Biashara",
-        "huduma kipengee kipengee Sokoni kipengee",
-        "Duka duka kipengee kipengee Huduma kipengee",
-        "POD huduma kipengee kipengee",
-        "Masoko kipengee kipengee kipengee",
-        "biashara kipengee huduma kipengee",
-        "kipengee duka duka kipengee",
-        "Mtaalamu huduma kipengee kipengee",
-        "biashara kipengee kipengee duka kipengee",
-        "Desturi Duka duka Huduma kipengee",
-        "Sokoni kipengee huduma kipengee",
-        "kipengee kipengee duka Huduma kipengee",
-        "POD kipengee Huduma kipengee",
-        "Masoko kipengee kipengee Huduma kipengee",
-        "biashara kipengee huduma kipengee",
+        "Mkataba wa Huduma kwa Usanidi wa Soko",
+        "Mkataba wa Huduma za Usanidi na Usanidi wa Duka",
+        "Mkataba wa Utoaji Huduma wa POD",
+        "Mkataba wa Utekelezaji wa Mkakati wa Masoko",
+        "Mkataba wa Huduma ya Maendeleo ya Biashara",
+        "Mkataba wa Kuanzisha Duka la Biashara ya Kielektroniki",
+        "Mkataba wa Utoaji wa Huduma ya Mtaalam",
+        "Suluhu za Biashara na Mkataba wa Kuanzisha",
+        "Mkataba wa Huduma za Kuanzisha Duka Maalum",
+        "Mkataba wa Huduma ya Uboreshaji wa Soko",
+        "Mkataba wa Huduma za Ushauri na Kuanzisha",
+        "Mkataba wa Huduma za Ushirikiano wa POD",
+        "Mkataba wa Huduma za Masoko na Utangazaji",
+        "Mkataba wa Huduma ya Upanuzi wa Biashara",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "kuu Mkoba",
-        "biashara Akaunti",
-        "Binafsi Mkoba",
-        "kipengee Mkoba",
-        "kipengee Akaunti",
-        "Msingi Mkoba",
-        "kipengee Akaunti",
-        "kipengee Mkoba",
-        "Shughuli Mkoba",
-        "kipengee Akaunti",
+        "Mkoba Mkuu",
+        "Akaunti ya Biashara",
+        "Mkoba wa Kibinafsi",
+        "Mkoba wa Akiba",
+        "Akaunti ya Gharama",
+        "Mkoba wa Msingi",
+        "Akaunti ya Jumla",
+        "Mkoba wa Hifadhi",
+        "Mkoba wa shughuli",
+        "Akaunti ya Mfuko",
       ],
     },
 
@@ -12099,34 +12099,34 @@ export default {
      */
     cashback: {
       title: [
-        "Duka & kipengee rudishiwa fedha",
-        "kipengee kipengee rudishiwa fedha",
-        "kipengee rudishiwa fedha Matoleo",
-        "rudishiwa fedha kipengee",
-        "kipengee rudishiwa fedha Mikataba",
-        "kipengee rudishiwa fedha kipengee",
-        "kipengee rudishiwa fedha siku 30",
-        "rudishiwa fedha kipengee kipengee Nunua",
-        "rudishiwa fedha kipengee",
-        "VIP rudishiwa fedha kipengee",
-        "kipengee Wakati rudishiwa fedha",
-        "rudishiwa fedha kipengee Klabu",
-        "Duka Zaidi. ., Hifadhi Zaidi. .",
-        "kipengee rudishiwa fedha kipengee",
-        "rudishiwa fedha kipengee",
+        "Nunua na Upate Pesa",
+        "Malipo ya Malipo ya Uaminifu",
+        "Ofa za Kipekee za Rudisha Pesa",
+        "Bonanza la kurudishiwa pesa",
+        "Ofa za Urejeshaji Fedha Papo Hapo",
+        "Akiba ya Pesa ya Msimu",
+        "Siku za Kurudisha Pesa Maradufu",
+        "Malipo ya Pesa kwa Kila Ununuzi",
+        "Cashback Frenzy",
+        "Mpango wa Malipo ya Malipo ya VIP",
+        "Malipo ya Muda Mdogo",
+        "Klabu ya Tuzo za Pesa",
+        "Nunua Zaidi, Hifadhi Zaidi",
+        "Zawadi za Mwisho za Pesa",
+        "Mrejesho wa Fedha Extravaganza",
       ],
       description: [
-        "kipengee rudishiwa fedha kipengee kipengee Nunua!",
-        "kipengee kipengee ",
+        "Pata pesa taslimu kwa kila ununuzi!",
+        "Pata thawabu kwa uaminifu wako.",
         "Ofa za kurejesha pesa za kipekee kwa ajili yako.",
-        "kipengee kipengee rudishiwa fedha kipengee",
+        "Furahia uokoaji mkubwa na zawadi za kurejesha pesa.",
         "Rejesha pesa papo hapo kwa bidhaa zako zote unazopenda.",
-        "Hifadhi Zaidi. . kipengee kipengee rudishiwa fedha Mikataba",
+        "Okoa zaidi kwa matoleo ya msimu wa kurejesha pesa.",
         "Urejeshaji pesa wako mara mbili kwa siku maalum!",
-        "kipengee rudishiwa fedha kipengee Wakati kipengee Duka",
-        "kipengee kipengee rudishiwa fedha kipengee Leo!",
-        "VIP wanachama kipengee kipengee rudishiwa fedha",
-        "kipengee! kipengee Wakati rudishiwa fedha Matoleo",
+        "Pata pesa taslimu kila unaponunua.",
+        "Jiunge na shamrashamra za kurejesha pesa leo!",
+        "Wanachama wa VIP wanafurahia urejeshaji wa pesa za kipekee.",
+        "Haraka! Ofa za kurejesha pesa kwa muda mfupi.",
         "Jiunge na Klabu yetu ya Tuzo za Pesa sasa.",
         "Kadiri unavyonunua, ndivyo unavyookoa zaidi.",
         "Fungua zawadi za mwisho kabisa za kurejesha pesa.",
@@ -12139,15 +12139,15 @@ export default {
      */
     page: {
       prompts: [
-        "KARIBU10 Kwa {shop} - kipengee kipengee Vipengee",
-        "{shop} - kipengee kipengee huduma",
+        "Karibu {shop} - Gundua Msururu Wetu Husika wa Vipengee",
+        "{shop} - Chanzo chako cha Mwisho cha Bidhaa Bora na Huduma Bora",
         "Ofa za Kipekee na Akiba Pekee kwa {shop} - Tumia Fursa!",
-        "Jua Kujitolea kwa {shop} kwa Urafiki wa Mazingira na Mienendo ya Maadili",
-        "Kuwa Sehemu ya {shop} Familia - Jiandikishe kwa Jarida Letu kwa Usasisho",
-        "kipengee kipengee {shop}",
-        "kipengee kipengee zote Matukio kipengee {shop}",
-        "Ofa Zisizo na Kifani na Maalum zinazozingatia Muda katika {shop} - Chukua Hatua Haraka!",
-        "{shop} Vidokezo Kina vya Ununuzi na Tathmini ya Bidhaa - Nunua kwa Kujiamini",
+        "Jua Kujitolea kwa {shop} kwa Urafiki wa Mazingira na Mazoea ya Kimaadili",
+        "Kuwa Sehemu ya Familia ya {shop} - Jiandikishe kwa Jarida Letu kwa Sasisho",
+        "Ingia kwenye Chaguo Bora na Bidhaa Zilizokadiriwa Juu katika {shop}",
+        "Wasilisha Mawazo na Mapendekezo ya Ubunifu kwa Matukio Yote katika {shop}",
+        "Matoleo Ambayo Haijashindanishwa na Maalum zinazozingatia Wakati katika {shop} - Chukua Hatua Haraka!",
+        "Vidokezo Kina vya Ununuzi na Tathmini za Bidhaa za {shop} - Nunua kwa Kujiamini",
         "Fikia {shop} - Tunajitahidi Kuwasilisha Uzoefu Usiolinganishwa wa Ununuzi",
       ],
     },
@@ -12158,24 +12158,24 @@ export default {
     cross_selling: {
       message: [
         "Kamilisha mwonekano wako, shika seti!",
-        "Hifadhi kipengee kipengee Mikataba!",
-        "kipengee kipengee !",
-        "kipengee kipengee Nunua, kipengee kipengee!",
-        "kipengee kipengee kipengee, Nunua kipengee!",
-        "kipengee Vipengee, kipengee punguzo!",
+        "Okoa pesa nyingi kwa ofa zetu za vifurushi!",
+        "Usikose jozi zetu bora!",
+        "Boresha ununuzi wako, nyongeza zinangojea!",
+        "Fungua akiba ya kipekee, nunua pamoja!",
+        "Bidhaa za ziada, punguzo maalum!",
         "Pata zaidi, tumia kidogo - kusanya!",
-        "kipengee Toa: kipengee Bidhaa!",
-        "kipengee kipengee kipengee, kipengee Mikataba!",
-        "kipengee kipengee , Hifadhi kipengee!",
-        "kipengee kipengee !",
-        "Duka kipengee, kipengee kipengee Hifadhi!",
+        "Ofa ya muda mfupi: bidhaa zinazolingana!",
+        "Boresha matumizi yako, ofa za mchanganyiko!",
+        "Gundua mchanganyiko wetu ulioratibiwa, hifadhi sasa!",
+        "Oanisha kwa mchanganyiko wa mwisho!",
+        "Nunua mahiri, kusanya na uhifadhi!",
         "Thamani maradufu, furaha maradufu!",
-        "kipengee kipengee – Duka kipengee!",
+        "Mechi yako bora iko hapa - nunua sasa!",
         "Bei za vifurushi vya kipekee kwa ajili yako tu!",
-        "kipengee kipengee !",
-        "kipengee kipengee !",
+        "Ongeza akiba yako na mchanganyiko wetu!",
+        "Boresha mkusanyiko wako kwa chaguo hizi!",
         "Imeandaliwa kwa ajili yako: linganisha na uhifadhi!",
-        "kipengee kipengee !",
+        "Jozi kamili kwa siku kamili!",
         "Unganisha vipendwa vyako ili uokoe zaidi!",
       ],
     },
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "kipengee kipengee",
-        "kipengee",
-        "kipengee",
-        "kipengee",
-        "Nyumbani kipengee",
-        "kipengee Bidhaa",
-        "kipengee kipengee",
+        "Bidhaa za Dijiti",
+        "Vitabu",
+        "Elektroniki",
+        "Mitindo",
+        "Vifaa vya Nyumbani",
+        "Bidhaa za Urembo",
+        "Vifaa vya Michezo",
         "Vichezeo na Michezo",
         "Vyakula",
         "Samani",
         "Sehemu za Magari",
         "Kujitia",
-        "kipengee & kipengee",
+        "Afya na Ustawi",
         "Ugavi wa Kipenzi",
         "Vifaa vya Ofisi",
-        "kipengee & kipengee",
-        "kipengee & TV Onyesha",
+        "Muziki na Ala",
+        "Filamu na Vipindi vya Televisheni",
         "Programu",
-        "kipengee & kipengee",
-        "kipengee kipengee",
+        "Sanaa na Ufundi",
+        "Gear ya Nje",
       ],
     },
 
@@ -12214,16 +12214,16 @@ export default {
     template_message: {
       title: [
         "Uthibitishaji wa Agizo",
-        "🛍️ Agizo Imesafirishwa",
-        "🛍️ Agizo Imewasilishwa",
-        "Malipo Imepokelewa",
-        "🛍️ Agizo kipengee",
-        "🛍️ Agizo kipengee kipengee",
-        "🛍️ Agizo kipengee kipengee",
-        "🛍️ Agizo kipengee kipengee Uwasilishaji",
-        "Rudi kipengee",
-        "rejesho kipengee",
-        "kipengee Nyuma kipengee kipengee",
+        "Agizo Limesafirishwa",
+        "Agizo Limewasilishwa",
+        "Malipo Yamepokelewa",
+        "Agizo Limeghairiwa",
+        "Kuchelewa Kuchakata",
+        "Agizo Limesitishwa",
+        "Agiza Ili Uletewe",
+        "Kurudi Kumechakatwa",
+        "Urejeshaji wa Pesa Umetolewa",
+        "Bidhaa Imerudishwa kwenye Hisa",
       ],
       body: [
         "Hujambo {buyer_name}, agizo lako #{order_id} limethibitishwa! Tunaichakata na tutakuarifu ikiwa tayari kusafirishwa.",
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "kipengee",
-        "kipengee kipengee",
-        "kipengee",
+        "Mavazi",
+        "Vifaa vya Dijiti",
+        "Vinywaji",
         "Vyakula",
         "Samani",
-        "kipengee",
-        "kipengee Bidhaa",
-        "kipengee",
-        "kipengee kipengee",
-        "kipengee",
+        "Vitabu",
+        "Bidhaa za Urembo",
+        "Vichezeo",
+        "Vifaa vya Michezo",
+        "Vifaa",
       ],
       description: [
         "Sifa za nguo kama vile saizi, rangi na kitambaa.",
         "Maelezo ya vifaa kama vile chapa, muundo na vipengele.",
         "Ladha, saizi na aina ya vinywaji.",
         "Maelezo ya milo, vitafunio, na bidhaa za chakula.",
-        "Material, kipengee, kipengee Kubuni kipengee",
-        "Mwandishi, kipengee, kipengee kipengee kipengee",
+        "Nyenzo, vipimo, na mitindo ya muundo.",
+        "Mwandishi, aina, na mwaka wa uchapishaji.",
         "Aina ya ngozi, viungo na maelezo ya ufungaji.",
         "Kikundi cha umri, nyenzo, na viwango vya usalama.",
-        "Aina, kipengee, kipengee Utendaji kipengee",
-        "kipengee, kipengee, kipengee Chapa Maelezo",
+        "Aina, ukubwa na vipengele vya utendaji.",
+        "Mitindo, nyenzo, na maelezo ya chapa.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "kipengee XS",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee XL",
-        "kipengee XXL",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee",
-        "kipengee kipengee kipengee",
-        "kipengee kipengee kipengee", // flexible mailer
-        "kipengee kipengee", // bubble/padded
-        "kipengee kipengee", // thermal
-        "kipengee kipengee",
+        "Sanduku la XS",
+        "Sanduku la S",
+        "Sanduku la M",
+        "Sanduku la L",
+        "Sanduku la XL",
+        "Sanduku la XXL",
+        "Box Slim",
+        "Sanduku pana",
+        "Sanduku Tall",
+        "Sanduku Flat",
+        "Mchemraba wa Sanduku",
+        "Bomba la sanduku",
+        "Sanduku Tete",
+        "Sanduku la chupa za glasi",
+        "Sanduku Laini Pakiti", // flexible mailer
+        "Sanduku Lililowekwa", // bubble/padded
+        "Sanduku lililowekwa maboksi", // thermal
+        "Sanduku Nzito-Wajibu",
       ],
     },
   },
