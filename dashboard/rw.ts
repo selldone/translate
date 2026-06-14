@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Imiyoboro yo kwinjiza abakiriya",
         subtitle:
-          "ikintu ubucuruzi ikintu ikintu Raporo ikintu ikintu umukiriya kwinjiza Imiyoboro",
+          "Ubucuruzi bwawe buratera imbere. Dore raporo yimiyoboro yo kugura abakiriya bawe.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "bihujwe urupapuro",
         tooltip:
-          "ikintu Ibicuruzwa ikintu ikintu Amaduka ikintu bihujwe Kuri ikintu Google urupapuro ikintu Google ikintu",
+          "Ibicuruzwa biri muri iri duka bihujwe nurupapuro rwa Google muri Google Drive.",
       },
       show_deletes: {
         false_title: "Hisha ibyasibwe",
@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Uburyo bwo gukurura no kurekura",
         false_description:
-          "Reba Ibicuruzwa ikintu ikintu Ibyiciro ikintu ikintu",
+          "Reba ibicuruzwa byateguwe nibyiciro hamwe nu byiciro.",
         true_title: "Uburyo bw’imbonerahamwe",
         true_description: "Reba Ibicuruzwa ikintu ikintu ",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS y’ibicuruzwa",
         subtitle:
-          "ikintu ikintu RSS ikintu Kuri ikintu ikintu ikintu Urutonde ikintu byose Ibicuruzwa",
+          "Koresha iyi RSS ibiryo kugirango ukomeze urutonde rwibicuruzwa byose.",
       },
       api_dialog: {
         title: "API y’ibicuruzwa",
         subtitle:
-          "ikintu ikintu API ikintu Kuri ikintu ikintu Ibicuruzwa Urutonde ikintu ikintu API Kuri ikintu Ibicuruzwa Kuva ikintu ububiko, ikintu ikintu Ibicuruzwa Urutonde ikintu ikintu ikintu",
+          "Koresha iyi funguro ya API kugirango urutonde rwibicuruzwa bigezweho. Itanga kumugaragaro API yo kuzana ibicuruzwa mububiko bwawe, bigatuma biba byiza kurutonde rwibicuruzwa no kugereranya kurubuga.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,7 +858,7 @@ export default {
       restriction: {
         title: "Kohereza imbogamizi",
         subtitle:
-          "ikintu ikintu ikintu imbogamizi Kuri ikintu ikintu ikintu Abakiriya ikintu ikintu ikintu Kohereza ikintu ikintu korera Kugura Kuva ikintu!",
+          "Urashobora gushyira mubikorwa kubuza kwemeza ko abakiriya bonyine mubice byagenwe byoherejwe bashobora kugura ibyawe!",
         no_enable_shipping_error:
           "oya ikintu ikintu Gura Kuva ikintu ikintu oya byakoreshejwe Kohereza uburyo!",
         customer_must_select_a_shipping_msg:
@@ -868,11 +868,11 @@ export default {
         inputs: {
           restriction: {
             false_description:
-              "Abakiriya ikintu ikintu ikintu Amabwiriza ikintu ikintu oya ikintu Kohereza uburyo ikintu ikintu Hitamo",
+              "Abakiriya barashobora gutanga ibicuruzwa nubwo nta buryo bwihariye bwo kohereza bwatoranijwe.",
             false_title: "Emera byose Amabwiriza",
             true_title: "ikintu Emera Tegeka",
             true_description:
-              "Abakiriya ikintu ikintu Kuri ikintu ikintu ikintu Kohereza ikintu ikintu Tegeka Kuri ikintu ikintu Kugura",
+              "Abakiriya basabwa guhitamo uburyo bwo kohereza cyangwa gutwara ibintu kugirango barangize ibyo baguze.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Shiraho ububiko bwawe, ububiko, cyangwa inkomoko yubucuruzi bwawe. Nibyingenzi kugira muburyo bwo kohereza ibicuruzwa no kugenzura.",
       no_multi_warehouse_support_message:
-        "ikintu ikintu, ikintu ikintu Birashoboka ikintu Bisanzwe Amaduka",
+        "Kubworoshye, iyi mikorere ntabwo iboneka mububiko busanzwe.",
       size_unit: {
         title: "Ingano yubunini",
         subtitle: "Igice cyakoreshejwe muburebure, ubugari n'uburebure.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Ubike Porogaramu Ifatika",
         subtitle:
-          "Selldone Gucunga ibikorwa byawe.",
+          "Menya ubworoherane bwo gucunga porogaramu zawe hamwe nububiko bwa Selldone. Ihuriro ryacu ritanga ibikoresho byuzuye bigamije kunoza ibikorwa byawe byubucuruzi. Kuva muburyo bushya bwo gucunga ibisubizo kugeza kuri porogaramu zongera umusaruro, Selldone itanga uburambe butagira ingano kubucuruzi bushaka gukora neza no kuzamuka.",
         all: "byose",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "ikintu",
           subtitle:
-            "ikintu ikintu ikintu, ikintu Amashusho ikintu ikintu ikintu Urubuga ikintu ikintu ikintu, ikintu, ikintu Igendanwa Porogaramu ikintu",
+            "Favicons ni ntoya, amashusho agereranya urubuga murubuga rwa mushakisha, ibimenyetso byerekana, hamwe na porogaramu igendanwa.",
         },
       },
 
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "ikintu ikintu Icyiciro ikintu Umutwe Kuri ikintu ikintu Urutonde",
+          "Shiraho icyiciro n'umutwe ugomba kugaragara kurutonde rwawe.",
       },
       unit: {
         subtitle:
-          "ikintu ikintu Igiciro ikintu ikintu Ibicuruzwa paji",
+          "Urashobora kwihindura kwerekana ibiciro no guhamagarira-ibikorwa-urupapuro rwibicuruzwa.",
       },
       custom_pricing: {
         title: "byihariye Igiciro ifishi",
         subtitle:
-          "ikintu ikintu Kurema ikintu ikintu (ikintu Igiciro Iyinjiza ifishi) Kuri ikintu Ibicuruzwa, ikintu ikintu Abakiriya ikintu Hitamo ikintu Ibihinduka ikintu ikintu Iyinjiza ifishi",
+          "Urashobora gukora cyangwa kugenera igiciro (ifishi yinjiza igiciro) kubicuruzwa, kandi abakiriya bawe barashobora guhitamo hagati y'ibitandukanye cyangwa guhitamo ibicuruzwa byawe ukoresheje ifishi yinjira.",
         valuation_need_saved_product_message:
-          "ikintu Bika ikintu Ibicuruzwa ikintu, ikintu ikintu ",
+          "Nyamuneka nyamuneka ubike ibicuruzwa, hanyuma urashobora gutanga urugero rwo kugereranya.",
         assign_valuation_message:
           "ikintu ikintu Kuri ikintu Ibicuruzwa",
         edit_pricing_action: "Hindura Igiciro ifishi",
@@ -1506,27 +1506,27 @@ export default {
       action: {
         title: "byihariye Gura ikintu",
         message:
-          "ikintu ikintu Hindura Agashusho ikintu ikintu : {icon name} ikintu",
+          "Urashobora guhindura igishushanyo ukurikiza ubu buryo: {icon name} ibisobanuro ...",
         placeholder: "ikintu ikintu Kuri ikintu",
         multi_language_dialog_title: "byihariye Gura ikintu ikintu",
       },
       external: {
         not_available_message:
-          "ikintu ikintu Birashoboka ikintu Isosiyete & ikintu uruhushya",
-        available_message: "ikintu ikintu Ongeraho ikintu ikintu Kuri ikintu",
+          "Igikorwa cyinyongera kiboneka hamwe nimpushya za Company & Enterprises.",
+        available_message: "Urashobora kongeramo umuhamagaro winyongera mubikorwa.",
         input_label: "ikintu ikintu Kuri ikintu",
       },
       warehouse: {
         subtitle:
-          "ikintu amakuru ikintu ikintu Ububiko Ubuyobozi ikintu ikintu ikintu Kuri ikintu ikintu ikintu Ibicuruzwa",
+          "Aya makuru akoreshwa na sisitemu yo gucunga ububiko kandi ikora kugirango isi imenye ibicuruzwa.",
       },
       gtin: {
-        hint: "ubufasha ikintu ikintu UPC (ikintu ikintu, 12 ikintu), EAN (ikintu, 13 ikintu), JAN (ikintu, 8 ikintu 13 ikintu), ISBN (ikintu, 13 ikintu).",
+        hint: "Indangagaciro zishyigikiwe ni UPC (Amerika ya ruguru, imibare 12), EAN (Uburayi, imibare 13), JAN (Ubuyapani, imibare 8 cyangwa 13), ISBN (ibitabo, imibare 13).",
         label: "Ibicuruzwa ikintu ikintu ",
         placeholder: "ikintu ikintu (si ngombwa)",
       },
       hsn: {
-        hint: "HSN, ikintu ikintu , ikintu ikintu Ibicuruzwa",
+        hint: "HSN, cyangwa Harmonised Sisitemu ya Nomenclature, ni sisitemu yo mu rwego mpuzamahanga yo gutondekanya ibicuruzwa n'ibicuruzwa.",
         placeholder: "6~16 ikintu HSN Kode (si ngombwa)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "Ibicuruzwa ikintu ikintu ikintu ububiko",
         message: "ikintu ikintu Ibicuruzwa",
         subtitle:
-          "ikintu ikintu Abakiriya ikintu ikintu Ikirango ikintu ikintu Ibicuruzwa ikintu itangwa",
+          "Menyesha abakiriya bawe imiterere nibiranga ibicuruzwa utanga.",
       },
       brand: {
         label: "Ikirango",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "ikintu ikintu garanti ikintu Ibicuruzwa Imiterere, ikintu ikintu amakuru ikintu garanti ikintu ikintu ikintu Kuri ikintu umukiriya ikintu ubufasha ikintu ikintu Igihe ikintu ikintu ikintu Ibicuruzwa ikintu ikintu Yagarutse ikintu Kugura",
+          "Shiraho garanti nibicuruzwa, nkuko aya makuru yerekeye garanti azerekanwa kubakiriya kandi bigufasha kumenya igihe ibicuruzwa bishobora gusubizwa nyuma yo kugura.",
 
         label: "garanti",
         placeholder: "Zahabu 24 Amezi garanti (si ngombwa)",
@@ -1555,12 +1555,12 @@ export default {
       profiles: {
         title: "Umwirondoro",
         subtitle:
-          "ikintu ikintu ikintu garanti, Garuka politiki, Kohereza, ikintu umurongo ngenderwaho ikintu ikintu ikintu Kuri ikintu Ibicuruzwa ikintu ikintu Gishya ikintu ikintu ikintu Ibicuruzwa paji",
+          "Urashobora gusobanura garanti, gusubiza politiki, kohereza, no kuyobora no kubiha ibicuruzwa. Bizerekanwa nkibisobanuro bishya kurupapuro rwibicuruzwa.",
       },
       shortcuts: {
         title: "ikintu Ibicuruzwa Kuri ikintu Ibyiciro",
         subtitle:
-          "ikintu ikintu Kuri Urutonde ikintu Ibicuruzwa ikintu ikintu Ibyiciro ikintu ikintu Ibanze Icyiciro ikintu ikintu Ibicuruzwa > Hindura > Icyiciro ikintu, ikintu ikintu ikintu Kuri ikintu 'ikintu ikintu , ikintu ikintu Ibicuruzwa Kuri ikintu ikintu Ibyiciro",
+          "Iyi mikorere igufasha gutondekanya ibicuruzwa mubyiciro byinshi mugihe ugumana umwanya wabyo mubyiciro byambere byashyizweho munsi yibicuruzwa> Guhindura> Icyiciro. Byibanze, ikora kimwe no gukora 'shortcuts' muri sisitemu y'imikorere, ituma ibicuruzwa bigaragara mubyiciro byihariye.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Ibisobanuro bya tekiniki",
       subtitle:
-        "ikintu Ibicuruzwa Ibisobanuro ikintu ikintu amakuru ikintu ikintu ikintu Kuri Abakiriya ikintu ikintu icyiciro ikintu muyungurura ikintu",
+        "Shyiramo ibicuruzwa byihariye. Aya makuru azerekanwa kubakiriya kandi arashobora no gukoreshwa murwego rwubwenge bwo gushungura.",
       manual: {
         title: "ikintu",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "ikintu ikintu Kuzana Tekiniki Ibisobanuro ikintu ikintu Ibicuruzwa",
+          "Urashobora gutumiza tekinike yibicuruzwa bisa.",
         action_title: "Kuzana",
         action_subtitle: "ikintu ibisobanuro Kuva ikintu Ibicuruzwa",
       },
       ai: {
         title: "AI",
         subtitle:
-          "ikintu ikintu ikintu Kurema Ibicuruzwa Ibisobanuro ikintu ikintu ikintu Ibicuruzwa ikintu Amakuru ikintu ikintu ifishi",
+          "Urashobora guhita ukora ibicuruzwa byihariye mugutanga amakuru yibanze yibicuruzwa muburyo bwanditse.",
         action_title: "byikora ikintu ikintu AI",
         action_subtitle: "Kurema Ibicuruzwa Ibisobanuro ikintu ikintu ikintu",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Kode y'ibicuruzwa: P0000 ...",
         spec_view_title: "Ibisobanuro byibicuruzwa byatoranijwe",
         spec_view_subtitle:
-          "ikintu Ibisobanuro ikintu ikintu Kuzana Kuva ikintu ikintu Ibicuruzwa",
+          "Ibisobanuro byatumijwe mu bicuruzwa byatoranijwe.",
         set_spec_action: "Kwigana Ibisobanuro bya tekiniki",
       },
       notifications: {
@@ -1691,7 +1691,7 @@ export default {
         prompt: {
           title: "Ibicuruzwa Incamake",
           subtitle:
-            "ikintu ikintu Ibisobanuro ikintu ikintu Ibicuruzwa, ikintu ikintu Ibisobanuro ikintu amakuru ikintu ikintu Byakoreshejwe Kuri ikintu ikintu ikintu Ibicuruzwa Ibisobanuro",
+            "Nyamuneka tanga ibisobanuro bigufi kandi bisobanutse kubicuruzwa, werekane ibintu byingenzi byingenzi nibisobanuro. Aya makuru azakoreshwa muguhita ubyara ibicuruzwa byihariye.",
         },
         generated_spec: {
           title: "ikintuikintu Ibisobanuro",
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "ikintu ikintu Isoko, ikintu Ibanze Ibicuruzwa Igiciro ikintu ikintu ikintu Urutonde igiciro, ikintu ikintu ikintu igiciro ikintu ikintu ",
+          "Mu isoko, ibiciro byibanze byibicuruzwa byerekanwe ni igiciro cyurutonde, mugihe igiciro nyacyo cyagenwe hashingiwe kubicuruzwa byabacuruzi nibicuruzwa.",
         subscription:
-          "ikintu Kwiyandikisha, ikintu ikintu Urutonde igiciro ikintu ikintu, ikintu ikintu Hitamo Kwiyandikisha Tegura",
+          "Kwiyandikisha, gusa igiciro cyurutonde kirerekanwa, mugihe ikiguzi nyirizina kizagenwa hashingiwe kuri gahunda yatoranijwe yo kwiyandikisha.",
         service:
-          "ikintu ikintu Ibicuruzwa, ikintu urutonde Igiciro ikintu ikintu , ikintu ikintu serivisi ikintu ikintu serivisi igiciro ikintu ikintu umukiriya ikintu ikintu ikintu Tegeka (ikintu Kugenzura).",
-        file: "ikintu ikintu Kuri ikintu urutonde ikintu ikintu igiciro ikintu ikintu dosiye, ikintu Abakiriya ikintu Kwishura ikintu Tegeka Kuri ikintu Kwinjira Kuri ikintu dosiye",
+          "Kubicuruzwa bishingiye kuri serivisi, ibiciro byashyizwe ku rutonde ni ibyerekanwe gusa, bitanga igiciro cyagereranijwe cya serivisi. Igiciro cya serivisi nyacyo kizagenwa nawe mugihe umukiriya amaze gutanga ibyo batumije (kuri cheque).",
+        file: "Ibi bivuga ku rutonde kandi nyarwo rwa dosiye, abakiriya bagomba kwishyura kugirango babone amadosiye.",
         default:
-          "ikintu ikintu Kuri ikintu Ibicuruzwa urutonde igiciro ikintu ikintu Konti ikintu igiciro ikintu ikintu Ibihinduka ikintu ikintu Igiciro",
+          "Ibi bivuga ibicuruzwa byashyizwe ku rutonde kandi binita ku giciro cyibintu byose bidafite ibiciro bitandukanye.",
       },
       extra_pricings: {
         title: "Ongeraho ikintu Igiciro",
-        subtitle: "ikintu ikintu Igiciro ikintu ikintu Kugura Umubare",
+        subtitle: "Shyira mubikorwa ibiciro bishingiye kumubare wubuguzi.",
       },
 
       vendor: {
         title: "umucuruzi Igiciro",
         subtitle:
-          "ikintu igiciro ikintu ikintu Ibicuruzwa Urutonde ikintu ikintu ikintu umucuruzi igiciro ikintu ikintu Ibicuruzwa > abacuruzi ikintu",
+          "Iki giciro kizerekanwa gusa kurutonde rwibicuruzwa. Urashobora gushiraho igiciro cyabacuruzi muri tab> Abacuruzi.",
         manage_vendors: "Gucunga abacuruzi",
         vendor_product_pricing_link:
-          "ikintu abacuruzi Ibicuruzwa Igiciro ikintu Byahujwe ikintu ikintu Urutonde igiciro ikintu ikintu ikintu umucuruzi Ibicuruzwa ikintu Ibihinduka ikintu ikintu ikintu Ibihinduka ikintu ikintu Igiciro (ikintu ikintu ikintu igiciro ikintu ikintu nyamukuru Ibicuruzwa). ikintu igiciro ikintu ikintu Isoko igiciro, ikintu ikintu abacuruzi igiciro ikintu ikintu Igiciro ikintu ikintu Isoko ikintu ikintu",
+          "Ibicuruzwa byabacuruzi ibiciro birahujwe. Guhindura igiciro cyurutonde hano bizagira ingaruka kubicuruzwa bidafite ibicuruzwa cyangwa ibifite impinduka zidafite ibiciro byazo (ukoresheje igiciro kimwe nibicuruzwa nyamukuru). Iki giciro kizafatwa nkigiciro cyisoko, kandi igiciro cyumucuruzi kizashyirwaho hashingiwe ku giciro cyibiciro cyangwa inyungu yabanjirije isoko.",
         vendor_variant_pricing_link:
-          "ikintu ikintu ikintu igiciro ikintu ikintu Igiciro ikintu umucuruzi Ibicuruzwa ikintu ikintu igiciro ikintu ikintu Isoko igiciro, ikintu ikintu abacuruzi igiciro ikintu ikintu Kuri ikintu Igiciro ikintu ikintu Isoko ikintu ikintu",
+          "Guhindura ibiciro bihinduka hano bizagira ingaruka kubiciro byibicuruzwa byabacuruzi bafite variant imwe. Iki giciro kizafatwa nkigiciro cyisoko, kandi igiciro cyabacuruzi kizashyirwaho ukurikije urugero rwibiciro cyangwa inyungu yabanjirije isoko.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Ubu butumwa buzerekanwa kubakiriya mugihe ugura ibicuruzwa.",
       inputs_form: "Imiterere yamakuru (ibyinjijwe)",
       inputs_hint:
-        "ikintu ikintu Kuri ikintu ikintu ifishi Kuri ikintu Ibisobanuro Kuva ikintu Abakiriya ikintu ikintu ikintu Kuri ikintu ikintu Tegeka",
+        "Ufite uburyo bwo gushiraho ifomu yihariye yo gukusanya amakuru kubakiriya bawe mugihe biteguye gutanga itegeko.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "Tegeka Imipaka",
         subtitle:
-          "ikintu ikintu nto ikintu nini Imipaka ikintu ikintu Umubare ikintu ikintu Tegeka, ikintu ikintu ",
+          "Niba uri umucuruzi cyangwa hari ntarengwa cyangwa ntarengwa ntarengwa ku bwinshi bwiki kintu kuri gahunda, urashobora kubisobanura hano.",
         no_limit: "Nta karimbi",
         minimum_purchase_quantity: "nto Kugura Umubare",
         maximum_purchase_quantity: "nini Kugura Umubare",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Kuraho ibicuruzwa",
       message: `Urashaka gusiba <b>{product_title}</b> ?`,
-      tips: "ikintu ikintu ikintu Gusiba ikintu Ibicuruzwa, ikintu ikintu Kuri ikintu Amaduka > Ibicuruzwa, ikintu Erekana Gusiba Ibintu, ikintu ikintu Ibicuruzwa, ikintu Hitamo ikintu",
+      tips: "Niba utabishaka gusiba ibicuruzwa, urashobora kubisubiramo ugenda mububiko bwawe> Ibicuruzwa, bigafasha Kwerekana Ibintu Byasibwe, hanyuma ukande iburyo-ukanda kubicuruzwa, hanyuma uhitemo Kugarura.",
     },
   },
 
@@ -1860,22 +1860,22 @@ export default {
   extra_pricing_add_dialog: {
     title: "ikintu Igiciro ikintu ikintu {min}",
     subtitle:
-      "ikintu ikintu Tegeka ikintu Ibyingenzi ikintu igiciro ikintu ikintu Iyinjiza ikintu nto Umubare ikintu ikintu ikintu Igiciro Kuri ikintu ikintu",
+      "Sisitemu ihita igena gahunda nibyingenzi kubara ibiciro. Nyamuneka andika umubare ntarengwa usabwa kugirango iki giciro gitangire gukurikizwa.",
     min_quantity: "Umubare ntarengwa",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "Ibarura ikintu Kureka Ibicuruzwa ikintu ikintu , ikintu ikintu ",
+        "Ibarura ryibicuruzwa byamanutse bishyirwaho nabacuruzi benshi, kandi ntibishobora guhinduka hano.",
       marketplace:
-        "ikintu ikintu Ibicuruzwa Ibarura ikintu ikintu Isoko ikintu ikintu ikintu Ongeraho ikintu ikintu byose abacuruzi ikintu ikintu ",
+        "Ibarura rusange ryibicuruzwa ku isoko bigenwa no kongera ibarura ryabacuruzi bose. Ntushobora kubihindura hano.",
       default: "ikintu ikintu Ibicuruzwa Ibarura Kubara ikintu",
     },
     menu: {
       add_bulk: {
         title: "ikintu Ongeraho",
-        subtitle: "Ongeraho ikintu Ibihinduka ikintu ikintu ikintu",
+        subtitle: "Ongeraho ibintu byinshi mubikorwa bimwe.",
       },
       edit_property_set: {
         title: "ikintu ikintu ikintu",
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google Ibicuruzwa Icyiciro Kode",
-    hint: "ikintu ikintu Icyiciro ikintu ikintu Ibicuruzwa ikintu Kuri ikintu ikintu Ibicuruzwa ikintu",
+    hint: "Yerekana icyiciro cyibicuruzwa byawe ukurikije imisoro ya Google.",
     placeholder: "ikintu Ibicuruzwa ikintu serivisi Icyiciro (si ngombwa)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "garanti",
-      desc: "ikintu garanti ikintu ikintu Kuri ikintu ikintu Ibicuruzwa ikintu ikintu Kuri ikintu ikintu ",
+      desc: "Garanti iri mumasezerano aho uwabikoze asezeranya gusana cyangwa gusimbuza ibicuruzwa mugihe cyagenwe. Iyi mihigo irashobora kugera no kubaguzi badafite amasezerano ataziguye nuwabikoze.",
     },
     RETURN_POLICY: {
       title: "Garuka politiki",
-      desc: "Garuka ikintu ikintu ikintu Abakiriya ikintu Garuka ikintu Guhana ikintu ikintu Ibintu, ikintu ikintu ikintu gusubiza, ikintu ikintu gusubiza",
+      desc: "Politiki yo kugaruka yerekana uburyo abakiriya bashobora kugaruka cyangwa guhana ibicuruzwa udashaka. Bagaragaza ibintu byujuje ibisabwa, impamvu zemewe zo kugaruka, nigihe ntarengwa cyo kugaruka.",
     },
     GUIDE: {
       title: "umurongo ngenderwaho",
-      desc: "ikintu umurongo ngenderwaho ikintu ikintu umurongo ngenderwaho ikintu ikintu umurongo ngenderwaho ikintu ikintu Ibicuruzwa",
+      desc: "Imiyoboro irashobora gushiramo imbonerahamwe yubunini bwimyenda cyangwa icyerekezo cyo gutoranya diyama. Ni ngombwa ko ubuyobozi buhinduka kandi bukoreshwa mubicuruzwa byinshi.",
     },
     SHIPPING: {
       title: "Kohereza",
-      desc: "ikintu Kohereza politiki Ibisobanuro ikintu ikintu Kohereza ikintu ikintu Amabwiriza, ikintu Kohereza ikintu, uburyo, ikintu ikintu Gutanga Ibihe",
+      desc: "Politiki yo kohereza ibisobanuro birambuye byingenzi byo kohereza ibicuruzwa kumurongo, harimo amafaranga yo kohereza, uburyo, hamwe nigihe cyo kugemura.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "Mburabuzi",
       dedicated: "ikintu",
 
-      subscription: "ikintu ikintu ikintu Umusoro ikintu ikintu ikintu Kwishura ikintu ikintu",
+      subscription: "Turashobora gukoresha umusoro gusa ku ntambwe yo kwishyurwa.",
       is_disabled: "ikintu Umusoro umwirondoro ikintu byahagaritswe! (⚠️ikintu)",
       shipping: "Kohereza",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "Umusoro umwirondoro",
       subtitle:
-        "ikintu ikintu Umusoro ikintu Kuri ikintu Ibicuruzwa ikintu ikintu Umusoro umwirondoro ikintu ikintu Ibicuruzwa, ikintu Mburabuzi ububiko Umusoro ikintu ikintu ",
+        "Urashobora gutanga amabwiriza yimisoro yihariye kubicuruzwa. Mugihe umwirondoro wimisoro udatoranijwe kubicuruzwa, amabwiriza yimisoro yububiko adasanzwe azakurikizwa.",
 
       action_manage: "Gucunga Umusoro",
       action_manage_sub: "Amaduka > Imari > Umusoro",
 
       subscription_tips:
-        "ikintu ikintu Hitamo ikintu Umusoro umwirondoro ikintu Kwiyandikisha Ibicuruzwa, ikintu Kuvugurura<code>Umusoro Kode</code> ikintu ikintu ikintu uburyo ikintu ikintu Kwishura serivisi ikintu ikintu Hitamo Umusoro umwirondoro ikintu ikintu ikintu igiciro ikintu ikintu umusoro ikintu ikintu ikintu umusoro ikintu ikintu <code>ikintu</code> ikintu <code>ikintu</code>. ikintu ikintu , ikintu ikintu <br /><br /><b>ikintu!</b> ikintu ikintu ikintu Umusoro umwirondoro, ikintu ikintu Igiciro Gahunda ikintu ikintu Ibicuruzwa > Ibarura ikintu ikintu Bika ikintu Kuri ikintu ikintu",
+        "When you select a tax profile for subscription product, we update<code>tax code</code> and set inclusive/exclusive mode on your payment service provider. The selected tax profile specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of <code>inclusive</code> or <code>exclusive</code>. Once specified as either inclusive or exclusive, it cannot be changed.<br /><br /><b>Important!</b> After changing the tax profile, you should click on pricing plans on the Product > Inventory tab and click the Save button to apply changes.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "ikintu igiciro ikintu Umubare ikintu ikintu Ibicuruzwa ikintu ikintu umucuruzi Kuri ikintu ikintu ikintu",
+        "Igiciro nubunini bwibicuruzwa bishyirwaho nu mucuruzi runaka arimo.",
     },
     vendors: {
       subtitle:
-        "ikintu ikintu Urutonde ikintu ikintu Ibicuruzwa ikintu Umubare ikintu igiciro ikintu ikintu ",
+        "Dore urutonde rwabatanga ibicuruzwa. Umubare nigiciro bizashyirwaho nababitanga.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "umucuruzi Amakuru",
-      subtitle: "ikintu amakuru ikintu ikintu Kuri Abakiriya ikintu",
+      subtitle: "Aya makuru yeretswe abakiriya kumugaragaro.",
       action_sub_caption: "Rubanda Ibicuruzwa Urutonde paji",
       action_see_listing_page: "reba Urutonde paji",
       send_invitation_email: "Ohereza ikintu Imeri",
@@ -2002,23 +2002,23 @@ export default {
 
     profiles: {
       title: "Umwirondoro",
-      subtitle: "ikintu ikintu ikintu Aho biherereye Kuri ikintu umucuruzi",
+      subtitle: "Urashobora guha umwanya uyu mucuruzi.",
     },
     map: {
       no_map_message:
-        "ikintu ikintu Aho biherereye Kuri ikintu umucuruzi ikintu ikintu umucuruzi",
+        "Shinga ikibanza kubacuruzi niba ari umucuruzi ushingiye.",
     },
     page: {
       title: "byihariye paji",
       subtitle:
-        "ikintu ikintu byihariye Kumanuka paji ikintu ikintu umucuruzi, ikintu ikintu Ihuza Kuri ikintu ikintu paji",
+        "Shiraho urupapuro rwihariye rwo kugwa kubacuruzi, ubaha umurongo wihariye kurupapuro rwabigenewe.",
       action_set_page: "reba Rubanda paji",
       action_sub_caption: "byihariye Kumanuka paji",
       vendor_has_landing_msg: "umucuruzi ikintu ikintu byihariye Kumanuka paji",
       no_landing_selected_msg: "oya Kumanuka paji Hitamo",
       no_landing_page: "oya Kumanuka paji",
       we_can_create_dedicated_landing_msg:
-        "ikintu ikintu Kurema ikintu ikintu Kumanuka paji ikintu ikintu",
+        "Turashobora gukora urupapuro rwabigenewe kubwawe.",
     },
     contact: {
       title: "Twandikire Amakuru",
@@ -2027,16 +2027,16 @@ export default {
     business: {
       title: "ubucuruzi Amakuru",
       subtitle:
-        "ikintu ikintu ikintu amakuru ikintu ikintu ubucuruzi Kuri ikintu ikintu ",
+        "Nyamuneka tanga amakuru yukuri kubucuruzi bwawe kugirango wemeze uburyo bwihuse bwo gukusanya amafaranga.",
     },
     bank: {
       title: "ikintu amakuru",
-      subtitle: "Iyinjiza ikintu Banki Ibisobanuro ikintu ikintu ikintu",
+      subtitle: "Shyiramo amakuru ya banki hano kugirango wishyure.",
     },
     default_pricing: {
       title: "Mburabuzi Igiciro",
       subtitle:
-        "ikintu ikintu Mburabuzi Igiciro ikintu ikintu ikintu umucuruzi ikintu ikintu umucuruzi Ongeraho ikintu Gishya Ibicuruzwa, ikintu Igiciro ikintu ikintu ikintu Byakoreshejwe Kuri ikintu ikintu Isoko ikintu ikintu ikintu Ibicuruzwa igiciro ikintu ikintu Igiciro ikintu ikintu ikintu Ibicuruzwa ikintu",
+        "Urashobora gutanga igiciro cyambere cyibiciro kubacuruzi. Mugihe umucuruzi yongeyeho ibicuruzwa bishya, ubu buryo bwo kugena ibiciro buzakoreshwa mukubara isoko ryisoko kubiciro byibicuruzwa. Urashobora nyuma guhindura igiciro cyibiciro kuri buri gicuruzwa kugiti cyawe.",
       no_pricing: "oya Igiciro",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "abacuruzi ikintu ububiko ikintu ikintu Kohereza Serivisi ikintu Abakoresha",
       shipping_services: "Kohereza Serivisi",
       total_number_of_services:
-        "ikintu Igiteranyo ikintu ikintu Kohereza Serivisi ikintu ikintu umucuruzi ikintu",
+        "Umubare rusange wa serivisi zo kohereza umucuruzi afite.",
       couriers: "Abakoresha",
-      total_couriers_count: "ikintu Igiteranyo ikintu ikintu Abakoresha ikintu ikintu umucuruzi ikintu",
+      total_couriers_count: "Umubare rusange wabatwara ibicuruzwa umucuruzi afite.",
     },
     configuration: {
       title: "ikintu",
@@ -2055,28 +2055,28 @@ export default {
       title: "Kuraho umucuruzi",
       action: "Kuraho umucuruzi",
       verify_description:
-        "ikintu ikintu ikintu byose umucuruzi Ibicuruzwa ikintu ikintu !",
+        "Nzi ko ibicuruzwa byose byabacuruzi bizakurwaho!",
       verify_title: "ikintu ikintu Kuri Gusiba ikintu umucuruzi",
     },
 
     send_invitation_tips:
-      "ikintu ikintu Ohereza ikintu ikintu Imeri Kuri ikintu umukoresha ikintu ikintu umukoresha ikintu ikintu Amaduka ikintu ikintu umucuruzi, ikintu Konti ikintu ikintu Kuri ikintu",
+      "Tuzohereza imeri y'ubutumire kuri uyumukoresha. Niba umukoresha yinjiye mu iduka ryawe nkumucuruzi, konti yabo izahita ihabwa.",
     only_marketplace_owner_can_edit_user:
-      "ikintu ikintu Isoko Nyirubwite ikintu Hindura ikintu umukoresha ikintu ikintu ikintu Kuri Hindura ikintu Nyirubwite ikintu ikintu umucuruzi, ikintu ikintu Ohereza ikintu ikintu Kuri ikintu",
+      "Gusa nyir'isoko ashobora guhindura umukoresha. Niba ushaka guhindura nyir'umucuruzi, urashobora kutwoherereza icyifuzo.",
     vendor_is_disable_msg: "umucuruzi ikintu byahagaritswe",
     email_not_match_with_user_msg:
-      "ikintu Imeri ikintu ikintu Abakoresha Imeri (<b>{user_name}:</b>{user_email}). ikintu ikintu ikintu Kuri Ohereza Imeri Kuri<b>{email}</b>?",
+      "Imeri yinjiye ntabwo ihuye na imeri yumukoresha (<b> {user_name}: </b> {user_email}). Wizeye kohereza imeri kuri <b> {email} </b>?",
 
     order_information_email_to_email:
       "ikintu ikintu Ohereza Amabwiriza amakuru Kuri <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "ikintu ikintu umukoresha ikintu ikintu umucuruzi ikintu",
+    set_a_user_for_the_vendor_first_msg: "Shiraho umukoresha kubucuruzi mbere.",
 
     inputs: {
       slug: {
         label: "ikintu",
         placeholder: "ikintu ikintu byihariye ikintu",
-        hint: "Hindura ikintu ikintu ikintu abacuruzi ikintu Kumanuka paji",
+        hint: "Hindura inzira urupapuro rwumucuruzi rugurisha.",
       },
       email: {
         message: "ikintu Imeri ikintu Akira byose Amatangazo ikintu Vugurura",
@@ -2088,11 +2088,11 @@ export default {
         true_title: "ubucuruzi",
       },
       bank: {
-        hint: "ikintu Izina ikintu ikintu Banki ikintu ikintu umucuruzi ikintu ikintu Konti",
+        hint: "Izina rya banki aho umucuruzi afite konti yabo.",
         placeholder: "ikintu Banki Izina",
       },
       account_name: {
-        hint: "ikintu ikintu Izina ikintu ikintu ikintu Banki Konti",
+        hint: "Ibi bigomba guhuza izina rijyanye na konti ya banki.",
         placeholder: "ikintu Izina",
       },
       account_number: {
@@ -2100,32 +2100,32 @@ export default {
         placeholder: "ikintu Banki Konti ikintu",
       },
       routing_number: {
-        hint: "ikintu ikintu Igihugu ikintu Byakoreshejwe Kuri ikintu ikintu ikintu Banki ikintu ikintu umucuruzi ikintu",
-        placeholder: "ikintu Banki ikintu ikintu, ikintu Kode, ikintu BSB ikintu",
+        hint: "Uyu mubare uratandukanye bitewe nigihugu. Byakoreshejwe mukumenya ishami rya banki ryihariye umucuruzi akoresha.",
+        placeholder: "Inomero yawe ya banki yawe, kode yo gutondekanya, cyangwa numero ya BSB ..",
       },
       iban: {
-        hint: "ikintu Banki Konti ikintu): ikintu ikintu abacuruzi Banki ikintu ikintu ",
+        hint: "Umubare wa konti mpuzamahanga ya banki): Niba banki y'abacuruzi iri mu Burayi cyangwa mu bindi bihugu bimwe.",
         placeholder: "ikintu IBAN ikintu ikintu DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "ikintu Banki Konti ikintu): ikintu ikintu abacuruzi Banki ikintu ikintu ",
+        hint: "Umubare wa konti mpuzamahanga ya banki): Niba banki y'abacuruzi iri mu Burayi cyangwa mu bindi bihugu bimwe.",
         placeholder: "ikintu ikintu ikintu",
       },
       branch_address: {
-        hint: "ikintu aderesi ikintu ikintu Banki ikintu ikintu ikintu umucuruzi ikintu ikintu Konti",
+        hint: "Aderesi yishami rya banki aho umucuruzi afite konti yabo.",
         placeholder: "ikintu Banki aderesi",
       },
       enable: {
         label: "umucuruzi Imiterere",
-        hint: "ikintu ikintu Gushoboza ikintu ikintu abacuruzi ikintu Abakiriya ikintu ikintu Kuri Kugura ikintu Kuva byahagaritswe abacuruzi",
+        hint: "Urashobora gukora cyangwa guhagarika abacuruzi kwisi yose. Abakiriya ntibazashobora kugura ikintu na kimwe kubacuruzi bamugaye.",
         true_description:
-          "ikintu ikintu Kuri ikintu ikintu Ibicuruzwa ikintu ikintu Isoko",
+          "Bazashobora kugurisha ibicuruzwa byabo binyuze mumasoko yawe.",
       },
       access: {
         label: "umucuruzi ikintu & Kwinjira",
         true_description:
           "ikintu umucuruzi ikintu ikintu Kuri Kuvugurura Umubare ikintu igiciro",
-        hint: "ikintu ikintu Gushoboza ikintu ikintu ikintu umucuruzi ikintu, ikintu ikintu abacuruzi Kuri Kuvugurura Ibicuruzwa ikintu ikintu Ibiciro ikintu Akira ikintu Amabwiriza",
+        hint: "Urashobora gukora cyangwa guhagarika akanama k'abacuruzi, gatanga abacuruzi kuvugurura ibicuruzwa nibiciro no kwakira ibicuruzwa igice.",
         false_description: "ikintu umucuruzi ikintu oya Kwinjira Kuri ikintu",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "ikintu",
     action_upload_doc: "Kuramo wohereze ikintu",
     vendor_subtitle:
-      "ikintu Kuramo wohereze ikintu ikintu ubucuruzi, IP, ikintu aderesi ikintu ikintu amakuru Kuri ikintu ikintu Kwinjira",
+      "Nyamuneka ohereza ubucuruzi bukenewe, IP, hamwe na verisiyo yo kugenzura aderesi. Turasaba aya makuru kugirango twemeze ubufatanye bwawe kandi tuguhe uburyo bukenewe.",
     marketplace_subtitle:
-      "abacuruzi ikintu ikintu ubucuruzi, ikintu ikintu, ikintu aderesi ikintu Kuri ikintu ikintu KYC ikintu, ikintu ikintu Kuri ikintu ikintu Kwinjira",
+      "Abacuruzi barashobora gutanga ibyangombwa nkubucuruzi, umutungo wubwenge, hamwe no kugenzura aderesi kugirango byorohereze inzira zabo za KYC, bikwemerera kubaha uburyo bukwiye.",
     upload_dialog: {
       title: "Kuramo wohereze ikintu",
       type: {
         title: "ikintu Ubwoko",
         subtitle:
-          "ikintu Kuramo wohereze ikintu ikintu amakuru ikintu ikintu Birashoboka",
+          "Nyamuneka ohereza gusa ibyangombwa bikenewe. Irinde gusangira inyandiko zose zirimo amakuru yihariye. Turasaba inyandiko ziboneka kumugaragaro.",
       },
     },
   },
@@ -2193,12 +2193,12 @@ export default {
         pattern: {
           label: "ikintu",
           message:
-            "ikintu Erekana ikintu ikirango ikintu Ibicuruzwa ikintu ikintu ikintu Agaciro ikintu ikintu ibisobanuro Regex ubufasha",
+            "Mu buryo bwikora werekane iyi badge kubicuruzwa bifite agaciro gahuye nibisobanuro byabo. Regex ishyigikiwe.",
           placeholder: "Kuri Erekana ikintu byose Ibicuruzwa kwandika: *.*",
         },
       },
       notifications: {
-        badge_added: "ikintu ikirango ikintu ikintu Ongeraho ikintu!",
+        badge_added: "Ikarita yongeweho neza!",
         badge_updated: "ikintu ikirango ikintu ikintu !",
         item_not_found_error:
           "ikintu ikintu paji ikintu Twandikire Inkunga",
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "Etiquetas",
     tips: [
-      "ikintu ikintu Akayunguruzo Ibicuruzwa ikintu ikintu Etiquetas ikintu <b>Kumanuka Urupapuro</b>.",
-      "ikintu ikintu ikintu Abakiriya ikintu shakisha ikintu ikintu Etiquetas ikintu ikintu<b>shakisha</b> ikintu",
-      "ikintu ikintu Etiquetas, ikintu Ibicuruzwa ikintu ikintu <b>ikintu Etiquetas</b> ikintu ikintu <b>ikintu Ibicuruzwa ikintu</b> ikintu ikintu Ibicuruzwa paji; ikintu, Ibicuruzwa ikintu ikintu ikintu Icyiciro ikintu ikintu ikintu",
+      "Urashobora gushungura ibicuruzwa ukurikije tagi kuri <b>urupapuro rwerekana</b>.",
+      "Wowe hamwe nabakiriya bawe urashobora gushakisha utu tango mu kabari ka<b>ubushakashatsi</b>.",
+      "Niba washyizeho ibirango, gusa ibicuruzwa bifite <b>ibisanzwe bisanzwe</b> bizerekanwa mugice cya <b>ibicuruzwa bifitanye isano</b> kurupapuro rwibicuruzwa; bitabaye ibyo, ibicuruzwa mubyiciro bimwe bizerekanwa.",
     ],
     inputs: {
       tags: {
-        placeholder: "ikintu Etiquetas ikintu ikintu urugero Gishya ikintu",
+        placeholder: "Ikirangantego hano hanyuma ukande enter. ex. icyegeranyo gishya",
       },
     },
     notifications: {
@@ -2234,12 +2234,12 @@ export default {
       "ikintu Isoko Amaturo Kohereza uburyo Kuri ubufasha abacuruzi ikintu ikintu Amabwiriza ikintu ikintu Ongeraho Kohereza Serivisi ikintu Kuri ikintu Tegeka Kohereza ikintu Kuva ikintu Tegeka paji ikintu ikintu Aderesi ikintu ikintu kode ikintu ikintu Kohereza ikintu",
 
     subtitle_pickup:
-      "ikintu Isoko ikintu ikintu ikintu abacuruzi, ikintu ikintu Kuri ikintu ikintu Kuva ikintu Aho biherereye ikintu ikintu Kohereza ikintu ikintu ikintu Ongeraho ikintu ikintu Aho biherereye ikintu ikintu umwirondoro (ikintu Ububiko ikintu ikintu Byakoreshejwe ikintu ikintu Mburabuzi ikintu Aho biherereye).",
+      "Isoko ryemerera ipikipiki kubacuruzi, ryemerera abaguzi guhitamo ipikipiki aho uherereye nkuburyo bwo kohereza. Urashobora kongeramo ipikipiki yawe mumwirondoro wawe (ububiko bwawe buzakoreshwa nkahantu hatoranijwe).",
     action: "Ongeraho serivisi",
 
     add_dialog: {
       select_service_msg:
-        "Kohereza uburyo ikintu ikintu Isoko, ikintu Abakiriya ikintu ikintu Kuva ikintu abacuruzi ikintu oya ikintu ikintu Kohereza Serivisi Kuri Kugura ikintu ikintu ikintu Hitamo ikintu uburyo Kuva ikintu Urutonde ikintu Kuri Reba Birashoboka Serivisi ikintu ikintu Kohereza serivisi Kuva ikintu Urutonde ikintu ikintu ikintu Birashoboka Serivisi ikintu ikintu ikintu Ongeraho Kuri ikintu ububiko ikintu ikintu ikintu",
+        "Uburyo bwo kohereza bwashyizweho nisoko, kandi abakiriya barashobora guhitamo muri bo. Abacuruzi ntibagenzura ayo mahitamo ariko barashobora guhuza akanama kabo na serivisi zo kohereza kugirango bagure ibirango bitaziguye. Nyamuneka hitamo uburyo buva kurutonde hepfo kugirango urebe serivisi zihari. Hitamo serivisi yo kohereza kurutonde rukurikira. Gusa serivisi ziboneka zishobora kongerwa mububiko bwawe zirerekanwa hano.",
       no_available_service: "oya Birashoboka serivisi!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Aho biherereye",
     empty_subtitle:
-      "ikintu ikintu Aho biherereye Kuri ikintu Ibicuruzwa ikintu ikintu ",
+      "Shyira ahantu ku bicuruzwa niba ari ikintu gishingiye ku kibanza.",
     dialog: {
       header: "Hitamo Aho biherereye umwirondoro",
       action_new_location: "Ongeraho ahantu hashya",
       title: "Aho biherereye umwirondoro",
       subtitle:
-        "ikintu ikintu ikintu Ibicuruzwa ikintu ikintu Ikarita Aho biherereye ikintu ikintu Aho biherereye Etiquetas Kuri ikintu Ibicuruzwa",
-      tips: "<b>ikintu: </b> ikintu ikintu Aho biherereye Kuri ikintu Ibicuruzwa <b>ikintu</b> ikintu ikintu ikintu Kuri Erekana ikintu Ibicuruzwa ikintu ikintu ikintu Aho biherereye ikintu ikintu Ikarita ikintu ikintu Ibicuruzwa ikintu ikintu ikintu Aho biherereye ikintu ikintu nyamukuru ikintu, Nk <b>ikintu ikintu</b> ikintu ikintu Serivisi Nk<b>ikintu ikintu ikintu</b>.",
+        "Urashobora gushira ibicuruzwa kumwanya wikarita ugenera ibirango byibicuruzwa.",
+      tips: "<b> Icyangombwa: </b> Shyira ahantu kubicuruzwa <b>gusa</b> niba ushaka kwerekana ibicuruzwa ahantu runaka kurikarita. Igicuruzwa cya pine kigomba kuba gifite umwanya nkibisobanuro byacyo nyamukuru, nka <b> amazu asanzwe / ahantu</b> cyangwa serivisi zumuntu nka<b>Gukora imisatsi na Spa</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "ikintu ikintu Urutonde ikintu Ibintu ikintu ikintu Ibicuruzwa ikintu serivisi ipaki",
+      "Shyiramo urutonde rwibintu bizana ibicuruzwa cyangwa paki ya serivisi.",
     dialog: {
       header: "Ibicuruzwa ipaki Ibintu",
       title: "ikintu Ibintu",
-      subtitle: "ikintu ikintu Ibintu ikintu ikintu Ibicuruzwa",
+      subtitle: "Iki ni icyegeranyo cyibintu bizana nibicuruzwa.",
       action_manage: "Gucunga Ibintu",
       action_disable_msg: "Isoko Nyirubwite",
       select_items_tips:
-        "Kurema ikintu ikintu ipaki ikintu ikintu Ibicuruzwa ikintu serivisi ikintu ikintu ikintu Kuri ikintu ikintu Abakiriya ikintu ikintu umukiriya Kuri ikintu ikintu , ikintu ikintu ",
+        "Kurema cyangwa guhitamo ibice bizana ibicuruzwa cyangwa serivisi. Koresha iyi mikorere kugirango ushimangire kubyo abakiriya bashobora gutegereza kwakira nyuma yo kugura ikintu. Turagira inama yo gukoresha iyi mikorere gusa mugihe ari ngombwa kubakiriya gusobanukirwa nibirimo, nko kugura terefone.",
       create_item_tips:
-        "ikintu, ikintu ikintu Gishya ikintu ikintu ikintu Amashusho, ikintu ikintu Kuramo wohereze Amashusho Kuri ikintu 256ikintu ikintu ikintu Kuri ikintu ikintu Kugaragara ikintu byose ikintu, ikintu ikintu Amashusho ikintu ibonerana inyuma ikintu ikintu byose ikintu Ibicuruzwa",
+        "Ubundi, urashobora gushiramo ikintu gishya. Koresha amashusho ya kare, nkuko tuzahita duhindura amashusho yoherejwe kuri format ya 256x256. Kugirango umenye neza neza inyandikorugero zose, koresha amashusho ntoya afite imiterere iboneye kandi ukomeze icyitegererezo cyibicuruzwa byawe byose.",
       create_new_item_action: "Kurema Gishya ikintu ikintu",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "ikintu ikintu",
           subtitle:
-            "ikintu ikintu ikintu Ibara Kode, ikintu, <b>#654FFF</b>, ikintu ikintu , ikintu, <b>#764FFA/#000000</b>.",
+            "Injira kode yamabara ya hex, urugero, <b> # 654FFF </b>, cyangwa amabara abiri yatandukanijwe no gukata, urugero, <b> # 764FFA / # 000000 </b>.",
           graphical_asset_tips:
-            "ikintu ikintu Agaciro Kuri ikintu ikintu, ikintu Amashusho ikintu <b>ikintu ikintu</b>. Kuramo wohereze ikintu ikintu Kode ikintu ikintu ikintu",
+            "Urashobora guha agaciro icyaricyo cyose kubihinduka, harimo amashusho ukoresheje <b> Umutungo ushushanyije</b>. Kuramo icyitegererezo hanyuma ukoreshe code yakozwe kubitandukanye.",
           graphical_asset_action: "ikintu ikintu",
           graphical_asset_action_caption: "Amashusho ikintu ikintu ikintu",
         },
         smart_unit_price: {
-          tips: "ikintu Igice igiciro ikintu ikintu <b>Ibiro</b>, <b>ingano</b>, ikintu <b>ikintu ikintu</b>. Kuri ikintu ikintu ikintu, ikintu Kuri Amaduka > Igenamiterere > Insanganyamatsiko > Ibicuruzwa paji > ikintu Igice igiciro",
+          tips: "Kubara igiciro cyibice ukurikije <b>uburemere</b>, <b>umubyimba</b>, na <b>ipaki yubunini</b>. Kugirango uhagarike iyi mikorere, jya kuri Duka> Igenamiterere> Insanganyamatsiko> Urupapuro rwibicuruzwa> Igiciro cyubwenge.",
           smart_unit_price: "Igice igiciro ikintu",
         },
         quantity: {
@@ -2469,13 +2469,13 @@ export default {
         package: {
           title: "ikintu & Kohereza",
           subtitle:
-            "ikintu Ibiro ikintu ikintu ikintu Ibihinduka Kuri ikintu Kohereza ikintu",
+            "Kugaragaza uburemere nubunini kugirango uhindure uburyo bwo kohereza.",
           same_as_product_action: "ikintu ikintu Ibicuruzwa",
         },
         image: {
           title: "ikintu Amashusho",
           subtitle:
-            "Ongeraho ikintu Amashusho ikintu ikintu Ishusho Kuramo wohereze ikintu ikintu ikintu Ibanze Ishusho ikintu ikintu ikintu",
+            "Ongeraho amashusho yihariye kuri buri variant. Ishusho yambere yashyizwe ahagaragara izaba ishusho yibanze kuri iyo variant.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "ikintu ikintu (GTIN)",
             message:
-              "ubufasha ikintu: UPC (12 ikintu), EAN (13 ikintu), JAN (8 ikintu 13 ikintu), ISBN (13 ikintu).",
+              "Imiterere ishyigikiwe: UPC (imibare 12), EAN (imibare 13), JAN (imibare 8 cyangwa 13), ISBN (imibare 13).",
           },
         },
       },
@@ -2514,11 +2514,11 @@ export default {
   product_extra_physical: {
     weight: "Uburemere bw'ipaki",
     weight_subtitle:
-      "Iyinjiza ikintu Ibicuruzwa Igiteranyo ikintu Ibiro ikintu ikintu amakuru ubufasha ikintu ikintu ikintu Kohereza uburyo ikintu ikintu ikintu Tegeka ikintu ikintu ikintu Kohereza Imipaka",
+      "Shyiramo ibicuruzwa byose bipakira hano. Aya makuru afasha guhitamo uburyo bwiza bwo kohereza kandi akemeza ko ibicuruzwa bitarenze imipaka yoherejwe.",
     weight_unit: "Kg",
     size: "Ibipimo by'ipaki",
     size_subtitle:
-      "Iyinjiza ikintu Ibicuruzwa ikintu ikintu amakuru ikintu Byakoreshejwe Kuri ikintu ikintu ikintu Kohereza uburyo ikintu ikintu ikintu Tegeka ikintu ikintu Imipaka",
+      "Shyiramo ibicuruzwa byuzuye bipfunyika hano. Aya makuru akoreshwa muguhitamo uburyo bwiza bwo kohereza no kwemeza ko ibyateganijwe bitarenze urugero rwa parcelle.",
 
     width: "Ubugari",
     length: "Uburebure",
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Igihe cyo kwitegura",
     lead_time: "Igihe cyo kwitegura",
     lead_time_subtitle:
-      "ikintu Igihe ikintu ikintu Ikiringo ikintu Kuri ikintu ikintu Ibicuruzwa ikintu Kohereza, ikintu ubufasha ikintu ikintu ikintu Gutanga Igihe",
+      "Igihe cyo kuyobora kigereranya igihe gisabwa kugirango utegure ibicuruzwa byoherezwa, bifasha mukugereranya igihe cyo gutanga.",
 
     lead_time_dimension: "Amasaha",
     bulk_action: "Ibikorwa byinshi",
@@ -2572,9 +2572,9 @@ export default {
     title: "ikintu ikintu ikintu",
     tips: {
       how_it_works:
-        "<b>ikintu ikintu ikintu:</b><br />Kuramo wohereze ikintu ikintu ikintu Amashusho ikintu Kuri ikintu ikintu Amashusho ikintu ikintu , ikintu <b>{filename}</b> ikintu ikintu ikintu Agaciro Icyitonderwa ikintu ikintu Kode ikintu ikintu Byakoreshejwe ikintu ikintu <b><s>Ibara</s></b> Agaciro",
+        "<b> Uburyo ikora: </b> <br /> Kuramo ishusho cyangwa amashusho yibintu hano. Gukoresha aya mashusho nkuburyo butandukanye, shyiramo <b> {filename} </b> muburyo butandukanye. Menya ko iyi code idashobora gukoreshwa muri <b> <s> ibara </s> </b> agaciro.",
       how_set_name:
-        "<b>ikintu ikintu:</b><br />ikintu ikintu 12 ikintu ikintu ikintu Kuramo wohereze dosiye Izina ikintu ikintu Byakoreshejwe ikintu ikintu ikintu Izina ikintu ikintu Ibicuruzwa, ikintu ikintu Kuri ikintu ikintu , ikintu Kuramo wohereze ikintu Amashusho ikintu ikintu 100, ikintu ikintu Ubwoko ikintu Ibikoresho",
+        "<b>Naming Tips:</b><br />The first 12 characters of the uploaded file name will be used as the asset name. This feature is ideal for showcasing customizable aspects of a product, such as tire sizes for motorcycles or fabric patterns. To optimize the use of this feature, avoid uploading variant images here unless the number of graphical assets is fewer than 100, such as different wood types for furniture.",
     },
   },
 
@@ -2601,15 +2601,15 @@ export default {
     out_of_stock: "ikintu ikintu ",
 
     image: {
-      tooltip: "⚡ ikintu ikintu Ishusho ikintu Kuri ikintu ikintu Kuri ikintu ikintu",
+      tooltip: "Kurura no guta ishusho hano kugirango uyihe kuri variant.",
     },
     enable: {
-      true_tooltip: "ikintu ikintu ikintu Birashoboka ikintu ikintu ikintu ububiko",
-      false_tooltip: "ikintu ikintu Birashoboka ikintu ikintu ikintu ububiko",
+      true_tooltip: "Iki kintu kiraboneka mububiko bwa interineti.",
+      false_tooltip: "Iki kintu ntikiboneka mububiko bwa interineti.",
     },
     restore_dialog: {
       title: "ikintu ikintu",
-      message: "ikintu ikintu Kuri ikintu ikintu Gusiba ikintu?",
+      message: "Uzi neza ko ushaka kugarura iyi variant yasibwe?",
       action: "yego, ikintu ikintu",
     },
     notifications: {
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "ikintu Ibikorwa > igiciro",
     message:
-      "ikintu ikintu Umubare ikintu ikintu Kuri ikintu igiciro ikintu byose Ibicuruzwa ikintu ikintu ububiko ikintu, ikintu ikintu igiciro ikintu ikintu Kuri ikintu ikintu Hitamo ikintu ikintu ",
+      "Amafaranga akurikira azakoreshwa nkijanisha kubiciro byibicuruzwa byose mububiko bwawe. Na none, ibiciro byabazwe bizahindurwa mubwenge muburyo bwa hafi buzengurutse ukurikije ifaranga ryatoranijwe. Witondere kwinjiza indangagaciro.",
     check: "ikintu ikintu igiciro ikintu",
     check_description:
-      "ikintu igiciro ikintu ikintu Hitamo Icyiciro ikintu byose ikintu",
+      "Igiciro kizahindurwa mubyiciro byatoranijwe hamwe nibyiciro byose.",
     add_percent_tab: "Ongeraho ku ijana",
     add_constant_tab: "Ongeraho ikintu",
     ending_tab: "soza ikintu",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "ikintu Umubare ikintu ikintu Ongeraho ikintu ikintu Kuva ikintu ikintu igiciro ikintu Ibicuruzwa",
+        "Amafaranga azongerwaho cyangwa akurwe kubiciro biriho ubu.",
     },
     ending: {
       subtitle:
-        "ikintu soza ikintu ikintu ikintu igiciro ikintu Ibicuruzwa ikintu ikintu ikintu Kuri ikintu ikintu Agaciro",
+        "Iherezo ryibiciro biriho byibicuruzwa bizahindurwa kubiciro byagenwe.",
     },
     marketplace: {
       title: "Isoko Urutonde igiciro",
       subtitle:
-        "ikintu ikintu Kuri ikintu Kuvugurura ikintu Urutonde igiciro ikintu Ibicuruzwa ikintu ikintu Isoko ikintu, ikintu nyamukuru Ibicuruzwa igiciro ikintu ikintu umucuruzi Igiciro ikintu Kuri intoki igiciro ikintu",
+        "Ihitamo riragufasha guhita uvugurura igiciro cyibicuruzwa ku isoko. Rimwe na rimwe, igiciro nyamukuru cyibicuruzwa ntigishobora guhuza nigiciro cyabacuruzi kubera ihinduka ryintoki.",
       strategy: {
         min: {
           title: "ikintu nto igiciro",
           description:
-            "ikintu ikintu nto igiciro ikintu ikintu Ibicuruzwa ikintu ikintu Urutonde igiciro",
+            "Shiraho igiciro gito cyibicuruzwa nkigiciro cyo kurutonde.",
         },
         max: {
           title: "ikintu nini igiciro",
           description:
-            "ikintu ikintu nini igiciro ikintu ikintu Ibicuruzwa ikintu ikintu Urutonde igiciro",
+            "Shiraho igiciro ntarengwa cyibicuruzwa nkigiciro cyo kurutonde.",
         },
       },
     },
 
     category: {
-      subtitle: "Imipaka ikintu ikintu Kuri ikintu Icyiciro ikintu byose ikintu",
+      subtitle: "Gabanya ibikorwa byinshi murwego hamwe nibyiciro byose.",
     },
     vendor: {
       subtitle:
-        "Imipaka ikintu Ibikorwa Kuri ikintu ikintu umucuruzi ikintu ikintu umucuruzi ikintu Hitamo, ikintu igiciro Kuvugurura ikintu ikintu ikintu Kuri ikintu abacuruzi Ibicuruzwa, ikintu ikintu igiciro ikintu ikintu umucuruzi",
+        "Gabanya ibikorwa byinshi kubacuruzi runaka. Mugihe umucuruzi yatoranijwe, ivugurura ryibiciro rizakoreshwa mubicuruzwa byabacuruzi, byerekana igiciro cyo kugurisha uwo mucuruzi.",
       listing_price_need_update_msg:
-        "ikintu ikintu ikintu Kuri Kuvugurura ikintu Urutonde igiciro (ikintu igiciro ikintu ikintu ikintu Ibicuruzwa Urutonde), ikintu ikintu Kuvugurura ikintu ikintu ikintu Muyunguruzi ikintu ikintu Hitamo ikintu umucuruzi",
+        "Niba ushaka kuvugurura igiciro cyurutonde (igiciro cyerekanwe kurutonde rwibicuruzwa), ugomba kohereza ibishya byinshi hamwe na filteri imwe ariko udahisemo umucuruzi.",
     },
     listing_products_changes: "Urutonde Ibicuruzwa Hindura",
     total_vendor_products: "Igiteranyo umucuruzi Ibicuruzwa",
@@ -2815,27 +2815,27 @@ export default {
       currency_step: {
         title: "Hitamo ikintu Ifaranga",
         subtitle:
-          "ikintu Kuri ikintu ikintu ububiko Kuri ikintu nto—ikintu ikintu ikintu 3. ikintu Kwishura Amarembo ikintu ikintu Gucuruza ikintu ikintu ikintu Ifaranga",
+          "Gerageza kubika umubare wamafaranga mububiko bwawe kugeza byibuze - nibyiza kuba munsi ya 3. Amarembo menshi yo kwishyura arashobora gutunganya ibicuruzwa mumafaranga yose.",
         add_first_currency: {
-          subtitle: "ikintu Ongeraho ikintu Ifaranga Kuri ikintu Amaduka ikintu ikintu",
+          subtitle: "Nyamuneka ongeraho ifaranga mububiko bwawe mbere yo gukomeza.",
           title: "Ongeraho Ifaranga",
         },
       },
       gateway_step: {
         title: "Bikora Kwishura uburyo",
         subtitle:
-          "ikintu ikintu Kuva ikintu Birashoboka Kwishura uburyo ikintu ikintu Hitamo ikintu Irembo, ikintu ikintu ikintu Kuri ikintu ikintu Ibisobanuro Kuri Ihuza ikintu Amaduka ikintu Kuri ikintu ikintu Kwishura uburyo",
+          "Nyamuneka hitamo uburyo bwo kwishyura buboneka. Umaze guhitamo amarembo, uzashobora kwinjiza amakuru akenewe kugirango uhuze iduka ryawe nuburyo ukunda bwo kwishyura.",
       },
 
       config_step: {
-        import_config: "ikintu ikintu Kuzana Hindura Kuva ikintu ikintu Amarembo",
+        import_config: "Urashobora gutumiza config mubindi bikoresho bisa",
         import_from: "Kuzana Kuva",
       },
 
       request_add_new_gateway: {
         title: "ikintu reba ikintu ikintu Kwishura uburyo?",
         subtitle:
-          "ikintu ikintu ikintu Kwishura ikintu ikintu urutonde, ikintu Kuri ikintu Buri mwaka Tegura (ikintu ikintu ) ikintu ikintu 48 ikintu ikintu Konti ikintu ikintu ",
+          "Niba abatanga ubwishyu baho batashyizwe kurutonde, iyandikishe kuri gahunda yumwaka (harimo na Startup kubihendutse) hanyuma usabe kwishyira hamwe. Tuzayirangiza mugihe cyamasaha 48 niba konte yikizamini hamwe nibyangombwa byatanzwe.",
       },
 
       inputs: {
@@ -2844,11 +2844,11 @@ export default {
         },
         manual: {
           true_title: "ikintu uburyo",
-          true_description: "ikintu ikintu ikintu Irembo ikintu ikintu",
+          true_description: "Urashobora gushiraho amarembo yintoki.",
 
           false_title: "byikora huza",
           false_description:
-            "ikintu ikintu huza Kuri ikintu Irembo ikintu ikintu Irembo ikintu ikintu",
+            "Sisitemu izahita ihuza amarembo niba usanzwe ufite amarembo yagenwe ahantu.",
         },
       },
     },
@@ -3078,19 +3078,19 @@ export default {
     },
     parent: {
       subtitle:
-        "ikintu Icyiciro ikintu ikintu Icyiciro ikintu ikintu Ibicuruzwa ikintu ikintu Icyiciro, ikintu ikintu nyamukuru Icyiciro",
+        "Iki cyiciro kizagaragara munsi yicyiciro cyababyeyi. Niba ibicuruzwa bidafite icyiciro cyababyeyi, bizerekanwa mubyiciro nyamukuru.",
     },
     template: {
       title: "Inyandikorugero",
       edit_page: "Hindura paji",
       Pages_list: "paji Urutonde",
       subtitle:
-        "ikintu ikintu Icyiciro paji ikintu ikintu ikintu byihariye paji ikintu ikintu Kuri Kurema Urupapuro ikintu ibonerana inyuma ikintu Igishushanyo 1 Kuri 2 ikintu ikintu Kuri ikintu Icyiciro ikintu ikintu ikintu Ihuza ikintu paji Kuri ikintu Ibyiciro, ikintu ikintu ikintu Kuri ikintu ikintu Icyiciro ikintu",
+        "Urashobora kuzamura kwerekana urupapuro rwicyiciro cyawe hejuru yurupapuro rwihariye. Uburyo bwiza ni ugukora paji zifite imiterere iboneye kandi ugashushanya ibice 1 kugeza kuri 2 byihariye kuri buri cyiciro. Urashobora noneho guhuza urupapuro rumwe mubyiciro byinshi, ukoresheje ibintu bigenda neza kugirango uhuze buri cyiciro kugiti cye.",
     },
     critical_zone: {
       title: "ikintu ikintu",
       subtitle:
-        "ikintu ikintu Kuraho ikintu Icyiciro, ikintu ikintu ikintu Ibicuruzwa ikintu ikintu ikintu Kuri ikintu ikintu ikintu<b>📁 {parent}</b>. Kuri Gucunga Ibyiciro ikintu ikintu Ibicuruzwa Urutonde, ikintu Kuri ikintu Amaduka > Ibyiciro ikintu",
+        "Niba ukuyeho icyiciro, ibyiciro byacyo nibicuruzwa bizimurirwa mububiko bwababyeyi<b>📁 {parent}</b>. Gucunga ibyiciro bitari kurutonde rwibicuruzwa, jya kuri tab> Ibyiciro.",
       accept_delete: {
         true_description: "ikintu ikintu Kuri Kuraho ikintu Icyiciro",
         true_title: "ikintu Kuraho Icyiciro",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Icyiciro cyahinduwe.",
       },
       manually_update_filters_tips:
-        "<b>ikintu!</b> Muyunguruzi ikintu ikintu Ibicuruzwa Hindura ikintu, ikintu ikintu ikintu Kuri Ibicuruzwa ikintu ikintu Icyiciro, ikintu Garuka ikintu ikintu Kuri ikintu ikintu Akayunguruzo",
+        "<b> Ingenzi! </b> Akayunguruzo gahita kavugururwa iyo ibicuruzwa bihindutse. Ariko, nyuma yo guhindura ibicuruzwa mubyiciro, nyamuneka garuka hano hanyuma ukande buto yo kubika / kuvugurura kugirango uhindure akayunguruzo.",
 
       inputs: {
         spec: {
           message:
-            "Urutonde ikintu ikintu Kuri ikintu ikintu Akayunguruzo ikintu",
+            "Urutonde rwibintu ushaka kwerekanwa muyungurura",
           placeholder: "Hitamo ibisobanuro Kuri Erekana ikintu Akayunguruzo",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Ibisobanuro byububiko",
     description_input_message: "Andika ibisobanuro bigufi kubyerekeye ubucuruzi bwawe.",
     description_input_tips:
-      "ikintu Ibisobanuro ikintu ikintu Amaduka ikintu ikintu Byakoreshejwe ikintu ikintu Mburabuzi ikintu tagi Ibisobanuro ikintu ikintu ububiko Urupapuro",
+      "Ibisobanuro bizagaragara mububiko bwububiko kandi bizanakoreshwa nkibisanzwe meta tag ibisobanuro kumpapuro zububiko bwawe.",
     address_input: "Aderesi y'Ububiko",
     address_input_message: "Injira aho ubarizwa neza",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "ikintu",
         subtitle:
-          "ikintu ikintu ikintu Kuri Kureka ikintu Tegeka ikintu, ikintu ikintu ",
+          "Niba ushaka guhagarika ibyo wateguye ako kanya, urashobora gukoresha ubu buryo.",
       },
 
       express_input: {
         true_title: "ikintu | Kureka Tegeka ikintu",
         false_title: "ikintu | Kureka Tegeka ikintu 48 ikintu",
         true_description:
-          "ikintu ikintu ikintu Kureka ikintu Tegeka ikintu ikintu Kuvugurura ikintu Ibarura ikintu ikintu",
+          "Ihitamo rizahagarika ibyo wateguye ako kanya kandi uhindure ibarura ako kanya.",
         false_description:
-          "ikintu ikintu ikintu Kureka ikintu Tegeka ikintu 48 ikintu ikintu ikintu, Ibintu ikintu ikintu ",
+          "Ihitamo rizahagarika ibyo wateguye nyuma yamasaha 48. Kugeza icyo gihe, ibintu bizabikwa kandi ntibishobora kugurwa nabandi.",
       },
     },
 
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "gusubiza amafaranga ikintu Kuri ikintu umukiriya",
         message:
-          "ikintu ikintu ikintu Igiteranyo Umubare ikintu gusubiza amafaranga ikintu ikintu ikintu Kuri korera ikintu ikintu ntikiboneka Ibintu ikintu Igiteranyo gusubiza amafaranga ikintu ikintu",
+          "Turabara umubare wuzuye wo gusubizwa ukeneye gukora intoki. Yabaze ishingiye kubintu bitaboneka hamwe nagaciro kasubijwe kugeza ubu.",
         calculated_approximately:
-          "ikintu Umubare ikintu ikintu Umubare ikintu",
+          "Amafaranga abarwa hafi. Nyamuneka ubaze umubare nyawo wenyine.",
       },
       need_payback: {
         title: "umukiriya Kwishyuza ikintu",
         message:
-          "ikintu ikintu Igiteranyo gusubiza amafaranga Kuri ikintu umukiriya ikintu ikintu Umubare ikintu ikintu Ibintu ikintu ikintu Kuri Kwishyuza ikintu umukiriya Kuri ikintu ikintu ikintu Umubare",
+          "Twabonye ko amafaranga yose yasubijwe umukiriya arenze umubare wagenwe ukurikije ibintu biri mumagare. Urashobora gukenera kwishyuza umukiriya wawe kugirango agarure amafaranga arenze.",
       },
       need_no_refund: {
         title: "oya gusubiza amafaranga ikintu",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "Igiteranyo gusubiza amafaranga",
         message:
-          "ikintu ikintu Igiteranyo Umubare ikintu gusubiza amafaranga ikintu ikintu Kwishura Irembo ikintu ikintu Kwishura Serivisi Inkunga ikintu ikintu, ikintu ikintu ikintu Kuri gusubiza amafaranga ikintu",
+          "Numubare wuzuye wo gusubizwa uhita wakozwe numuryango wawe wo kwishyura. Gusa serivisi zimwe zo kwishyura zishyigikira iki kintu, ugomba rero gusubizwa intoki.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "ikintu Ibiro ikintu byose Ibintu ikintu {weight} {unit}",
       not_available_message:
-        "ikintu ikintu Birashoboka ikintu ikintu ikintu byahagaritswe ikintu ikintu Kohereza aderesi ikintu ikintu umukoresha ikintu ikintu ikintu aderesi ikintu Kugura!",
+        "Ntabwo iboneka mugihe wamugaye usaba aderesi yoherejwe kandi nanone uyikoresha ntabwo yujuje adresse nyuma yo kugura!",
 
       message:
         "Kanda ahanditse <b>Urutonde rwiteguye</b> niba itegeko ryiteguye kohereza.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Raporo yo Kwishura",
         subtitle:
-          "ikintu Kwishura ikintu Gucuruza ikintu ikintu ikintu Hitamo Igihe ikintu",
+          "Hashyizweho ubwishyu nibikorwa byakozwe mugihe cyatoranijwe.",
         chart: {
           times: "Kubara",
           buys: "Gura kubara",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "ikintu Irembo Imiterere",
     oauth2_button: "byikora Connect Kuri {gateway}",
     fee_payment_message:
-      "Selldone ikintu ikintu Umubare Yishyuwe ikintu ikintu umukiriya ikintu ikintu ikintu Kuri ikintu Konti ikintu serivisi Amafaranga ikintu ikintu ikintu Kuva ikintu Ikofi ikintu ikintu",
+      "Amafaranga yose yishyuwe nabakiriya azoherezwa kuri konte yawe. Amafaranga ya serivisi azakurwa mu gikapo cyawe muri Selldone.",
 
     auto_config: "byikora Hindura",
 
     keys: {
       title: "Wenyine ikintu",
       subtitle:
-        "Urutonde ikintu Wenyine ikintu ikintu ikintu Kwishura ikintu amakuru ikintu ikintu Kwishura",
+        "Urutonde rwurufunguzo rwigenga rwo kwishyura. Aya makuru ni ngombwa mugushinga no gucunga ubwishyu.",
     },
     extra_config: {
       title: "Kwishura serivisi ikintu",
-      subtitle: "ikintu ikintu amakuru ikintu ikintu Kwishura Irembo",
+      subtitle: "Ibisobanuro byinyongera byamakuru yo kwishura.",
     },
 
     recommended_actions: {
       title: "ikintu Ibikorwa",
       subtitle:
-        "ikintu ikintu , ikintu ikintu Kuri Akira ikintu Kwishura Kuva ikintu Abakiriya",
+        "Ufashe izi ntambwe, uzatangira kwakira ubwishyu nyabwo kubakiriya bawe.",
       action_enable: "ikintu Kuri Gushoboza ikintu",
       make_live_enable: "ikintu Kuri Baho ikintu",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "Urubuga",
     status_title: "Kwishura serivisi Imiterere",
     status_message:
-      "ikintu ikintu Kwishura uburyo ikintu Bikora ikintu idakora ikintu uburyo ikintu ikintu Bikora ikintu ikintu ikintu Kuri Abakiriya",
-    status_true_description: "ikintu Abakiriya ikintu Kwishura ikintu ikintu Kwishura uburyo",
+      "Shiraho uburyo bwo kwishyura nkibikorwa cyangwa bidakora. Gusa uburyo bwashyizweho nkibikorwa bizerekanwa kubakiriya.",
+    status_true_description: "Abakiriya bawe barashobora kwishyura hamwe nuburyo bwo kwishyura.",
 
     manual_title: "intoki / byikora ikintu Kwishura",
     manual_message:
-      "ikintu ikintu Kurema ikintu Kwishura, ikintu ikintu Kwishura uburyo Kuri ikintu ikintu urugero, ikintu ikintu Kwishura ikintu ikintu , ikintu ikintu ikintu amafaranga ikintu ikintu ",
+      "Mugihe uremye ubwishyu, urashobora gushira uburyo bwo kwishyura bwujuje ibisabwa kugirango ubike amafaranga ushobora gufata nyuma. Kurugero, amahoteri akenshi yemerera kwishyura byuzuye mbere yuko umushyitsi agera, hanyuma ugafata amafaranga mugihe umushyitsi agenzuye.",
 
     gateway_status: "Imiterere",
     wallet: "Gufunga umufuka",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "Itezimbere & ikintu",
-      subtitle: "ikintu ikintu Gushoboza ikintu ikintu uburyo Kuri ikintu ikintu Kwishura Irembo",
+      subtitle: "Urashobora gukora uburyo bwo gukemura kugirango ugerageze amarembo yo kwishyura.",
     },
 
     limit: {
@@ -3746,20 +3746,20 @@ export default {
     hold_only_for: "ikintu Kwishura ikintu Birashoboka ikintu",
     manual_input: {
       false_description:
-        "ikintu Kwishura Imiterere ikintu ikintu Kuva Bitegereje Kuri Byemejwe ikintu ikintu Kwishura ikintu ikintu",
+        "Imiterere yo kwishyura izahinduka mu buryo bwikora kuva itegereje kwemezwa muri sisitemu yo kwishyura.",
       false_title: "byikora Kwishura ikintu",
       true_title: "ikintu Kwishura ikintu intoki ikintu",
       true_description:
-        "ikintu ikintu Kwishura ikintu ikintu ikintu Kuri ikintu ikintu Kwishura ikintu ikintu Tegeka Kuri Hindura ikintu Imiterere Kuva Bitegereje Kuri Byemejwe ikintu ikintu Kwishura ikintu ikintu",
+        "Shira ubwishyu kugirango ukenera kugenzura ubwishyu kugirango utegeke guhindura imiterere yabo kuva utegereje kwemezwa muri sisitemu yo kwishyura.",
     },
     delete_verify_input: {
       true_title: "ikintu ikintu Kuri Kuraho ikintu Kwishura uburyo",
       true_description:
-        "ikintu Kwishura uburyo ikintu ikintu ikintu Kuva ikintu ububiko ikintu ikintu Birashoboka Kuri Abakiriya",
+        "Ubu buryo bwo kwishyura buzakurwa mububiko kandi ntibuzaboneka kubakiriya.",
     },
     delete_alert: {
       title: "Gusiba Kwishura uburyo",
-      message: "ikintu ikintu ikintu Gusiba ikintu Kwishura uburyo Kuva ikintu Amaduka?",
+      message: "Uzi neza gusiba ubu buryo bwo kwishyura mu iduka ryawe?",
       action: "Gusiba Kwishura uburyo",
     },
   },
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Urutonde ikintu ikintu ikintu Amabwiriza ikintu ikintu Kuri ikintu ikintu Abatanga",
+      "Urutonde rwibicuruzwa byahujwe hanze bigomba kuzuzwa nabandi batanga isoko.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "Ohereza ikintu Kwishura ikintu SMS Kuri ikintu umukiriya ikintu {phone}.",
     "sms-ready-to-ship":
-      "Ohereza ikintu SMS Kuri ikintu umukiriya ikintu ikintu ikintu Tegeka ikintu ikintu Kuri ikintu Yoherejwe ikintu {phone}.",
+      "Ohereza SMS kubakiriya bamenyesha ko ibyo batumije byiteguye koherezwa hakoreshejwe {phone}.",
     "sms-ready-to-pickup":
-      "Ohereza ikintu SMS Kuri ikintu umukiriya ikintu ikintu ikintu Tegeka ikintu ikintu {phone}.",
+      "Ohereza SMS kubakiriya bamenyesha ko ibyo batumije byiteguye gukuramo ukoresheje {phone}.",
     "sms-order-confirmation":
       "Ohereza ikintu Tegeka ikintu SMS Kuri ikintu umukiriya ikintu {phone}.",
 
     "count-adjustment":
-      "ikintu Umubare ikintu ikintu Ibicuruzwa \"{product}\" ikintu ikintu ikintu Kuva {from} Kuri {to}.",
+      "Ubwinshi bwibicuruzwa \"{product}\" byavuguruwe kuva {from} kugeza {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "ikintu ikintu Ibicuruzwa ikintu ikintu ikintu oya Akayunguruzo",
-      has_root_filter_message: "ikintu ikintu Muyunguruzi ikintu ikintu Icyiciro",
+      no_root_filter_message: "Ufite ibicuruzwa mumuzi ariko ntayunguruzo.",
+      has_root_filter_message: "Ushiraho muyunguruzi kumurongo wicyiciro.",
       set_filter_message: "ikintu ikintu ikintu Muyunguruzi",
       edit_action: "Hindura ikintu Muyunguruzi",
       clear_action: "ikintu ikintu Muyunguruzi",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "ikintu",
       sort_categories: "ikintu / ikintu Ibyiciro",
       subscription_vendor_not_support_message:
-        "ikintu ikintu ikintu umucuruzi ikintu Kwiyandikisha Ibicuruzwa! Kwiyandikisha Ibicuruzwa ikintu ikintu umucuruzi ikintu ikintu Nyirubwite!",
+        "Ntushobora guha umucuruzi ibicuruzwa byo kwiyandikisha! Ibicuruzwa byo kwiyandikisha bigomba guhora bifite umucuruzi nka nyirabyo!",
       vendor_owner_not_assignable_message:
-        "ikintu ikintu umucuruzi ikintu Ibicuruzwa ikintu ikintu umucuruzi ikintu ikintu Nyirubwite!",
+        "Ntushobora guha umucuruzi ibicuruzwa hamwe nu mucuruzi nka nyirabyo!",
       category_assign_profile: "ikintu umwirondoro Kuri Ibicuruzwa ikintu ikintu Icyiciro",
       category_assign_profile_subtitle: "Umusoro, Kohereza, umurongo ngenderwaho, garanti,. ..",
       bulk_discount: "ikintu Kugabanuka",
@@ -4119,10 +4119,10 @@ export default {
     no_panel: "oya ikintu",
     manual_action: {
       title: "intoki Ibikorwa",
-      message: "ikintu ikintu Kuvugurura ikintu umucuruzi Tegeka Imiterere ikintu",
+      message: "Urashobora kuvugurura urutonde rwabacuruzi.",
       guides: [
-        "abacuruzi ikintu ikintu Kwinjira ikintu Kuvugurura ikintu ikintu (ikintu) ikintu ikintu ikintu Ikibaho",
-        "ikintu ikintu umucuruzi ikintu oya ikintu Kwinjira, ikintu umucuruzi Tegeka Imiterere ikintu ikintu Imiterere",
+        "Abacuruzi bafite panneaux barashobora kuvugurura ibyo basohoye (sub-ordre) mukibaho cyabigenewe.",
+        "Niba umucuruzi adafite umwanya winjira, ibicuruzwa byabacuruzi bizahinduka byikora muguhindura igitebo.",
         "ikintu ikintu Kuvugurura umucuruzi Amabwiriza ikintu",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Ibicuruzwa",
       subtitle:
-        "ikintu ikintu ikintu Reba ikintu Kubara ikintu ikintu Ibicuruzwa urutonde ikintu ikintu Isoko Ibicuruzwa ikintu ikintu abacuruzi ikintu ikintu ikintu",
+        "Hano urashobora kureba kubara ibicuruzwa byawe byashyizwe kumasoko. Ibicuruzwa byabacuruzi benshi ntabwo birimo.",
     },
     wallets: {
       title: "Umufuka wanjye",
       subtitle:
-        "ikintu ikintu ikintu Kuri Ongeraho Umufuka ikintu! umucuruzi Umufuka ikintu ikintu ",
+        "Ntugomba kongeramo igikapu intoki! Umufuka w'abacuruzi uzakorwa mu buryo bwikora.",
     },
 
     open_marketplace_page: "ikintu Isoko paji",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Urutonde rwibicuruzwa",
     subtitle:
-      "ikintu ikintu ikintu Urutonde ikintu ikintu Ibicuruzwa ikintu ikintu Isoko Kuvugurura Ibiciro ikintu ikintu Ibicuruzwa ikintu ikintu Ibarura ikintu ikintu umucuruzi, ikintu ikintu reba ikintu Ibicuruzwa ikintu ikintu Ibicuruzwa Urutonde ikintu ikintu Ibicuruzwa ikintu ikintu ",
+      "Uru ni urutonde rwibicuruzwa byawe ku isoko. Kuvugurura ibiciro numubare wibicuruzwa wagenwe mububiko. Nkumucuruzi, uzabona gusa ibicuruzwa-bicuruzwa wenyine ufite kurutonde rwibicuruzwa. Ibindi bicuruzwa byahawe birashobora guhinduka hano.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "ikintu abanyamuryango",
     subtitle:
-      "ikintu ikintu ikintu Urutonde ikintu Abakoresha ikintu ikintu Kwinjira Kuri ikintu umucuruzi ikintu ikintu ikintu Ongeraho Gishya ikintu abanyamuryango ikintu ikintu ikintu Uruhushya ikintu",
+      "Uru nurutonde rwabakoresha bafite amahirwe yo kugurisha. Urashobora kongeramo abagize itsinda rishya hanyuma ugahitamo uburenganzira bwabo hano.",
     add_action: "Ongeraho Gishya umunyamuryango",
     pending: {
       title: "Bitegereje ikintu",
-      message: "Reba ikintu Urutonde ikintu ikintu Gutegereza ikintu",
+      message: "Reba urutonde rwubutumire butegereje kwemerwa.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "ikintu umunyamuryango Ibisobanuro",
       subtitle:
-        "Ongeraho ikintu Gishya ikintu umunyamuryango ikintu ikintu ikintu Uruhushya ikintu ikintu Kuri ikintu ikintu Kwinjira ikintu ikintu ikintu Kuri ikintu ikintu nyamukuru Amaduka Ikibaho",
+        "Ongeramo umunyamuryango mushya hanyuma ushireho uburenganzira bwabo. Kanda kuri buri kintu kugirango uhindure gusoma / kwandika. Buri murongo uhuye nurwego rwuruhushya rwibikoresho bikuru.",
     },
     access: {
       view_data: "Reba Amakuru",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "umunyamuryango Ongeraho",
-        message: "ikintu ikintu umunyamuryango ikintu ikintu ikintu Ongeraho",
+        message: "Umunyamuryango wongeyeho neza.",
       },
       update_success: {
         title: "umunyamuryango ikintu",
-        message: "ikintu ikintu abanyamuryango amakuru ikintu ikintu ",
+        message: "Amakuru y'abagize itsinda yaravuguruwe neza.",
       },
     },
     actions: {
@@ -4232,26 +4232,26 @@ export default {
     list: {
       title: "ikintu Amateka",
       subtitle:
-        "ikintu ikintu Reba ikintu ikintu Amateka ikintu ikintu Banki ikintu ikintu Kwishura Serivisi ikintu Tanga ikintu ikintu",
+        "Urashobora kureba amateka yo kwishyura hano. Iyishyurwa rishobora gutunganywa nintoki binyuze muri banki cyangwa guhita ukoresha serivisi zo kwishyura zitanga ubushobozi bwo kwishyura.",
     },
     connect: {
       title: "Connect Banki",
       subtitle:
-        "ikintu Tanga ikintu Kwishura ikintu ikintu Kwishura Amarembo Kuri Akira Kwishura ikintu ikintu ikintu Kugura, ikintu huza ikintu Banki Konti ikintu ikintu ikintu",
+        "Turatanga ubushobozi bwo kwishyura kumarembo akurikira. Kugira ngo wakire ubwishyu nyuma yubuguzi, nyamuneka uhuze konti yawe ukoresheje aya mahitamo.",
     },
     verify_dialog: {
       title: "ikintu Kwishura",
       option: {
         title: "umucuruzi ikintu",
         subtitle:
-          "ikintu ikintu Kuri Emera ikintu Wange ikintu Kwimura ikintu ikintu Yakiriwe ikintu ikintu; ikintu ikintu, ikintu oya ikintu Kuri ikintu ikintu ikintu",
+          "Ufite amahitamo yo kwakira cyangwa kwanga iyimurwa. Iki gikorwa gikora amateka gusa. Emeza gusa niba wakiriye amafaranga; niba atari byo, nta mpamvu yo gufata ingamba.",
       },
       inputs: {
         verify: {
           label: "ikintu ikintu Byemejwe ikintu Kwishura?",
           false_description:
-            "oya, ikintu ikintu Yakiriwe ikintu Kwishura ikintu ikintu Banki Konti",
-          true_description: "yego, ikintu ikintu Yakiriwe ikintu Byemejwe ikintu Kwishura",
+            "Oya, ntarabona ubu bwishyu kuri konti yanjye.",
+          true_description: "Nibyo, nakiriye kandi ngenzura iyi mishahara.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "gusubiza amafaranga Tegeka",
     subtitle:
-      "<b>ikintu! </b>ikintu ikintu Gucuruza ikintu ikintu abacuruzi Ikofi ikintu ikintu Umubare Kuva ikintu ikintu Umubare ikintu ikintu Igiteranyo Gucuruza ikintu ikintu Hitamo Tegeka ikintu, ikintu ikintu Kuri Byahujwe Banki Konti (ikintu ikintu ikintu Stripe Connect ikintu intoki ikintu Kwimura), ikintu ikintu Kurema ikintu <b>ikintu Kwimura</b>.",
+      "<b>Ni ngombwa! </b>Gukora iki gikorwa bizabyara ibicuruzwa bibi mumufuka wumucuruzi hanyuma ukuremo amafaranga watoranijwe muri yo. Amafaranga ntashobora kurenga ibikorwa byose bisigaye kurutonde rwatoranijwe. Byongeye kandi, niba amafaranga yimuriwe kuri konti ya banki ihujwe (nka hamwe na Stripe ihuza cyangwa ihererekanyabubasha ryintoki), ugomba gukora <b>yimura </b>.",
     inputs: {
       note: {
         message: "ikintu ikintu Kuri ikintu umucuruzi",
         placeholder: "ikintu ikintu Icyitonderwa ikintu",
       },
       amount: {
-        error_message: "ikintu ikintu Umubare ikintu ikintu ikintu",
+        error_message: "Amafaranga asigaye yarenze.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "ikintu ikintu ikintu Incamake ikintu ikintu Gucuruza ikintu ikintu abacuruzi ikintu Ikofi ikintu ikintu Isoko ikintu ikintu Tegeka ikintu ikintu, ikintu abacuruzi ikintu ikintu ikintu Igurisha ikintu Ongeraho Kuri ikintu Ikofi",
+      "Ibi biratanga incamake yubucuruzi mu gikapo cyabacuruzi ku isoko. Igihe cyose hashyizweho itegeko, umugabane wumugurisha wagurishijwe wongeyeho mumufuka wabo.",
     vendor_wallets: "umucuruzi Umufuka",
     my_wallets: "Umufuka wanjye",
     refund_order_action: "gusubiza amafaranga Tegeka",
     automatic_payout_list: {
       subtitle:
-        "ikintu ikintu ikintu Urutonde ikintu byikora ikintu Kuri ikintu Byahujwe Banki Konti ikintu Icyitonderwa ikintu ikintu byikora ikintu ikintu , ikintu intoki ikintu ikintu ",
+        "Uru ni urutonde rwubwishyu bwikora kuri konte yawe ya banki. Nyamuneka menya ko kwishura byikora byonyine bizerekanwa hano, kandi ubwishyu bwintoki ntibuzerekanwa.",
     },
     reversal_transfer_action: "ikintu Kwimura",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "ikintu ikintu ikintu, ikintu ikintu Reba ikintu Igihe ntarengwa ikintu Ibyabaye ikintu Kuri ikintu Tegeka, ikintu, Kwishura, ikintu ikintu ikintu imiterere ikintu, ikintu ikintu Amabwiriza ikintu Kuri ikintu Abakiriya ikintu abacuruzi",
+      "Muri iki gice, urashobora kureba ingengabihe y'ibyabaye bijyanye na gahunda, isohozwa, ubwishyu, hamwe na statuts zabo. Byongeye kandi, urashobora kubahiriza amabwiriza yoherejwe kubakiriya n'abacuruzi.",
     add_note_subtitle: "kwandika ikintu Ubutumwa ikintu ikintu ",
 
     message_input: "Andika ubutumwa hano ...",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Umwirondoro Wingenzi",
       subtitle:
-        "Hindura ikintu Rubanda umwirondoro amakuru ikintu ikintu amakuru ikintu ikintu ikintu Kuri ikintu Abakiriya ikintu ikintu Abakoresha",
+        "Hindura amakuru yumwirondoro rusange hano. Aya makuru arashobora kugaragara kubakiriya bawe cyangwa abandi bakoresha.",
       full_name_input: "Izina ryuzuye",
       tel_input: "Numero y'itumanaho",
       email_input: "Imeri",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Ubuyobozi",
-      description: "Kurema ikintu Gucunga ikintu ikintu ikintu",
+      description: "Kurema no gucunga ibibazo bikunze kubazwa.",
     },
     "backoffice:faq:read": {
       name: "FAQ Kwinjira",
@@ -5574,14 +5574,14 @@ export default {
         "OAikintu Abakiriya, Umuntu ku giti cye Kwinjira ikintu ikintu Byahujwe Porogaramu",
 
       security: "Umutekano",
-      security_subtitle: "ikintu ikintu Gucunga ikintu injira ikintu",
+      security_subtitle: "Shiraho ibintu bibiri kandi ucunge uburyo bwo kwinjira.",
 
       preferences: "Umukoresha Ibyifuzo",
       preferences_subtitle:
         "Hindura Insanganyamatsiko, ikintu, ikintu ikintu Mburabuzi Ifaranga",
       my_subscriptions: "Abiyandikishije",
       my_subscriptions_subtitle:
-        "Kwinjira Kuri ikintu AI ikintu ikintu ikintu",
+        "Kugera kuri premium AI nibiranga ibintu.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "igiciro",
     verify: {
       true_title: "ikintu Amagambo",
-      true_description: "ikintu gusoma ikintu ikintu ikintu Selldone Amagambo ikintu ikintu",
+      true_description: "Nasomye kandi nemeranya na Selldone amagambo yo gukoresha",
     },
     need_charge: "Ukeneye kwishyurwa",
     buy_now: "Gura nonaha",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Amateka Yaguzwe",
       subtitle:
-        "Impushya zikora kandi zitegereje.",
+        "Uru ni urutonde rwimpushya zikora kandi zitegereje. Urashobora kugura amasezerano nyuma yo gutera inkunga ikotomoni yawe. Byongeye kandi, nyamuneka menya ko mugihe uhagaritse kwiyandikisha, amafaranga yo kwiyandikisha asigaye azasubizwa mumufuka wawe.",
     },
     license_detail: {
       title: "Ibisobanuro",
       subtitle:
-        "Imipaka kuri gahunda yawe y'ubu.",
+        "Izi nimbogamizi za gahunda yawe y'ubu. Kubindi bisobanuro, nyamuneka sura urupapuro rwibiciro. Urashobora kugera kubintu byose muri gahunda zose, harimo gahunda yubuntu, kugirango utangire ubucuruzi bwawe kandi utere imbere. Mugihe wapimye ubucuruzi bwawe, tekereza kuzamura gahunda yo murwego rwohejuru kugirango ugabanye amafaranga ya serivisi.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "ikintu ikintu Ikofi",
         subtitle:
-          "Hitamo ikintu ikintu Ikofi Kuri ikintu ikintu ikintu Kwiyandikisha ikintu ikintu , ikintu ikintu Kurema ikintu ikintu ikintu Ikofi ikintu ikintu Ikofi ikintu ikintu Byakoreshejwe ikintu ikintu ikintu",
+          "Hitamo ikotomoni isanzwe kugirango ukoreshe abiyandikishije. Niba utarayifite, urashobora kuyikora mugice cyikofi. Iyi gapapuro izakoreshwa muburyo bwose.",
       },
       auto_renewal: {
         true_title: "Kuvugurura Imodoka",
         true_description:
-          "ikintu Kwiyandikisha ikintu ikintu Ikofi ikintu ikintu Kuringaniza ikintu ikintu ",
+          "Kwiyandikisha kwawe bizahita bivugurura niba ikotomoni yawe ifite impagarike ihagije cyangwa niba ufite inyemezabuguzi yemewe.",
       },
       options: {
         title: "ikintu ikintu",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Izina",
     info: {
       subtitle:
-        "Kuri ikintu ikintu Ibicuruzwa, ikintu ikintu Ibisobanuro ikintu ikintu ",
+        "Kubyara ibicuruzwa, urashobora kwinjiza gusa amakuru yingenzi akenewe mukurema.",
     },
     price: {
       subtitle:
-        "ikintu ikintu igiciro ikintu Kugabanuka ikintu ikintu Ibicuruzwa ikintu ikintu Ibicuruzwa ikintu Ongeraho, ikintu ikintu Kwinjira Kuri Ibindi. . ikintu",
+        "Injira igiciro no kugabanyirizwa ibicuruzwa. Ibicuruzwa bimaze kongerwaho, uzabona uburyo bwinshi.",
     },
     by_sku: {
       title: "Ongeraho ikintu SKU",
-      subtitle: "ikintu ikintu Igihugu ikintu ikintu Birashoboka",
+      subtitle: "Ububikoshingiro mu gihugu cyawe ntibuboneka.",
     },
     drop_shipping: {
       subtitle:
-        "ikintu Ibicuruzwa ikintu ikintu ikintu Isoko ikintu Ongeraho ikintu Kuri ikintu ububiko",
+        "Shakisha ibicuruzwa kumasoko menshi kandi ubyongere mububiko bwawe.",
     },
     by_connect: {
       subtitle:
-        "ikintu Ongeraho Ibicuruzwa Kuva POD ikintu Kureka ikintu ikintu Selldone Connect OS—ikintu huza ikintu ububiko ikintu ikintu byikora Ibicuruzwa ikintu, oya ikintu ikintu",
+        "Byoroshye kongeramo ibicuruzwa biva muri POD cyangwa abatanga ibicuruzwa hamwe na Selldone Connect OS-gusa uhuze ububiko bwawe kandi wishimire guhuza ibicuruzwa byikora, nta plugin ikenewe.",
     },
     your_license_is_not_eligible: "ikintu Uruhushya ikintu ikintu ikintu",
     sku_dialog: {
       title: "Ongeraho Ibicuruzwa ikintu SKU",
       subtitle:
-        "ikintu ikintu Kuri ikintu Ibicuruzwa ikintu ikintu SKU ikintu ikintu Ongeraho ikintu ikintu ",
+        "Ufite ubushobozi bwo kumenya ibicuruzwa na SKU yabo muri data base hanyuma ukabyongeraho ukanze rimwe gusa.",
     },
     dropshipping_dialog: {
       title: "Ongeraho Kureka Ibicuruzwa",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "ikintu, ikintu ikintu Urutonde ikintu Ibicuruzwa ikintu Selldone, ikintu ikintu Birashoboka ikintu ikintu Kureka ikintu ikintu , ikintu ikintu ",
+      "Hano, urashobora kubona abadandaza benshi berekana ibicuruzwa byabo kuri Selldone, bigatuma baboneka kubandi bacuruzi. Selldone yubatswe muburyo bwo kumanura ibintu byoroshya inzira, byoroshe kandi byoroshye kubacuruzi n'abacuruzi.",
   },
 
   /** @see Affiliates **/
@@ -5892,35 +5892,35 @@ export default {
       new: "Umufatanyabikorwa mushya",
       edit: "Hindura Ishyirahamwe ikintu",
       subtitle:
-        "ikintu ikintu ikintu Igenamiterere ikintu Izina ikintu ikintu Ishyirahamwe ikintu",
+        "Hindura igenamiterere rusange nizina ryishirahamwe hano.",
     },
 
     payment: {
       title: "Kwishura amakuru",
       subtitle:
-        "ikintu ikintu Komisiyo ikintu ikintu ikintu Ishyirahamwe ikintu ikintu komisiyo, ikintu ikintu ikintu komisiyo ikintu ikintu Ibicuruzwa",
+        "Shiraho imiterere ya komisiyo ishinzwe. Urashobora guhuza komisiyo ihamye kandi ishingiye ku ijanisha, cyangwa ugashyiraho komisiyo zihariye kuri buri gicuruzwa.",
     },
 
     contact: {
       title: "Kumenyesha amakuru",
-      subtitle: "ikintu ikintu Twandikire Ibisobanuro ikintu ikintu Ishyirahamwe ikintu ikintu",
+      subtitle: "Tanga amakuru arambuye yumufatanyabikorwa hano.",
     },
 
     restriction: {
       title: "Komisiyo imbogamizi",
       subtitle:
-        "ikintu ikintu Ibicuruzwa ikintu ikintu ikintu Komisiyo ikintu ikintu ikintu komisiyo Kuri ikintu Ibicuruzwa",
+        "Sobanura ibicuruzwa byemerewe gukora. Urashobora kugabanya komisiyo kubicuruzwa bimwe.",
     },
 
     link_domain: {
       title: "bihujwe Indanganturo",
       subtitle:
-        "Ihuza ikintu ikintu ikintu Indangarugero Kuri ikintu Ishyirahamwe ikintu ikintu ikintu Gura ikintu ikintu Indanganturo ikintu ikintu ikintu Kuri ikintu Ishyirahamwe",
+        "Huza imwe muri domaine yawe kuri uyu mufatanyabikorwa. Abashyitsi bagura binyuze muriyi domeni bazitirirwa iyi sano.",
 
       domain_not_approved_msg: "ikintu Indanganturo ikintu ikintu !",
       domain_is_not_enable_msg: "ikintu Indanganturo ikintu ikintu byakoreshejwe!",
       domain_is_linked_to_other_affiliate_msg:
-        "ikintu Indanganturo ikintu ikintu bihujwe Kuri ikintu Ishyirahamwe!",
+        "Iyi domeni yamaze guhuzwa nundi mashami!",
     },
 
     set_users_first_message: "ikintu ikintu ikintu umukoresha ikintu!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "ikintu",
       subtitle:
-        "ikintu ikintu Ishyirahamwe ikintu ikintu ikintu Kuri Gucunga ikintu ikintu ikintu Ibikoresho ikintu ikintu ikintu",
+        "Huza iyi sano hamwe na cluster yo kuyicunga hamwe nibindi bikoresho ahantu hamwe.",
       manage_action: "Gucunga",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "Ishyirahamwe ikintu Izina",
-        message: "ikintu, ikintu ikintu, ikintu Isosiyete, ikintu ikintu, ikintu",
+        message: "urugero, John Doe, Isosiyete ya Alex, Abacuruzi X, nibindi.",
       },
       commission: {
         label: "Komisiyo ikintu",
         false_description:
           "ikintu ikintu komisiyo",
         true_description:
-          "ikintu ikintu ikintu komisiyo ikintu ikintu ikintu Igiciro ikintu",
+          "Kubara ukoresheje ibicuruzwa byihariye byashyizweho muri tab.",
         false_title: "ikintu + ikintu Komisiyo",
         true_title: "ikintu Komisiyo",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "umufatanyabikorwa ikintu ikintu Amabwiriza ikintu ikintu ikintu Abakiriya ikintu ikintu ikintu",
+          "Abashoramari barashobora gutanga amabwiriza kubakiriya babo binyuze mumwanya wabo.",
         true_title: "POS Kwinjira",
       },
       enable: {
         true_description:
-          "ikintu ikintu Ishyirahamwe ikintu Bikora? ikintu idakora, ikintu Ishyirahamwe ikintu ikintu ikintu Kuri Amabwiriza ikintu ikintu ikintu Ihuza",
+          "Iri shyirahamwe rirakora? Niba idakora, gahunda yabo ifitanye isano ntishobora gukurikizwa kumabwiriza yatanzwe binyuze kumurongo wabo.",
       },
       products: {
         label: "Ibicuruzwa ikintu ikintu Komisiyo",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "ikintu ikintu Ishyirahamwe ikintu ikintu ikintu Kuva ikintu Amaduka Ishyirahamwe amakuru ikintu ikintu Igihe ikintu ikintu",
+        "Urashobora kwishura imyenda iyo ari yo yose isigaye hamwe nishami mbere yo kuyikura mububiko bwawe. Ibisobanuro bifatika bizakomeza kuboneka mugihe gito nyuma yo gusiba.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "byihariye Igiciro ikintu Agaciro",
     subtitle:
-      "ikintu ikintu ikintu (ikintu Igiciro Iyinjiza ifishi) Kuri ikintu Ibicuruzwa, ikintu Abakiriya Kuri Hitamo Ibihinduka ikintu ikintu igiciro ikintu ikintu ikintu byihariye Inyongeramusaruro",
+      "Shinga igiciro (ifishi yinjiza igiciro) kubicuruzwa, byemerera abakiriya guhitamo ibitandukanye cyangwa kugena ibicuruzwa byawe. Sisitemu noneho izabara igiciro ukurikije ibicuruzwa byinjira.",
     add_valuation_action: "Kurema Gishya ikintu ifishi",
     empty_message:
-      "ikintu ikintu Ibihinduka, ikintu ikintu Kuri ikintu Biroroshye Ibicuruzwa",
+      "Aho gukora ibintu byinshi, tekereza gutegura ingamba zo kugereranya zishobora gukoreshwa kubicuruzwa byoroshye.",
     delete_dialog: {
       title: "ikintu Kuraho",
       message:
-        "ikintu ikintu Kuri Gusiba ikintu Igiciro ifishi? ikintu ikintu byihariye Igiciro ikintu ikintu ikintu Kuva byose ikintu Ibicuruzwa ikintu",
+        "Uzi neza ko ushaka gusiba iyi fomu y'ibiciro? Nyamuneka reba neza ko ingamba zo kugena ibiciro zavanyweho ibicuruzwa byose bifitanye isano mbere.",
       action: "Yego, Siba Noneho",
     },
     notifications: {
@@ -6033,14 +6033,14 @@ export default {
     title_add: "Kurema Gishya ikintu ifishi",
     config: {
       subtitle:
-        "ikintu ikintu Kuri Kurema ikintu Igiciro ikintu ikintu Ibicuruzwa Tangira ikintu ikintu Izina",
+        "Shiraho gahunda yo kugereranya kugirango ukore ibiciro byoroshye ukoresheje formulaire hamwe nimbonerahamwe yerekana ibicuruzwa byawe. Tangira utanga iri gaciro izina ryihariye.",
     },
     valuation_preview: "Imbere ikintu ifishi",
     load_sample: "ikintu ikintu",
     conditions: {
       title: "Ibisabwa",
       subtitle:
-        "ikintu ikintu byihariye Ibihinduka ikintu ikintu Ubuyobozi ikintu ikintu ikintu",
+        "Sobanura logique kubidasanzwe. Iboneza byoroshya imiyoborere yaboneka.",
     },
     structure: {
       title: "ikintu",
@@ -6051,8 +6051,8 @@ export default {
     },
     inputs: {
       title: {
-        message: "ikintu Umutwe ikintu ikintu ikintu Kuri Abakiriya",
-        placeholder: "ikintu ikintu Izina ikintu Igiciro, ikintu, 'ikintu Igiciro",
+        message: "Iyi nyito ntabwo igaragara kubakiriya.",
+        placeholder: "Injiza izina ryibiciro, urugero, 'Mugs Igiciro'",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "ikintu Hindura",
         subtitle:
-          "ikintu ikintu Kugabanuka Kode ikintu ikintu: Icyiza (LIMIT, PERCENT * ikintu igiciro). ikintu Kuri korera ikintu kode ikintu ikintu ikintu Kuri ikintu",
+          "Inzira yo kugabanya kode yo kubara ni: max (LIMIT, PERCENT * igiciro cyikarita). Wibuke gukora code zingirakamaro kandi byoroshye kwibuka.",
       },
       limit: {
         title: "ikintu",
         subtitle:
-          "ikintu ikintu nini ikintu Imipaka ikintu ikintu Kugabanuka Kode, ikintu ikintu nini Kugabanuka Umubare, ikintu ikintu ikintu",
+          "Urashobora gusobanura imipaka ntarengwa yo gukoresha kuri buri kode yagabanijwe, kimwe n’amafaranga ntarengwa yagabanijwe, muri iki gice.",
       },
       duration: {
         title: "Ikiringo Imipaka",
         subtitle:
-          "ikintu ikintu ikintu Kuri ikintu ikintu Kugabanuka Kode ikintu ikintu , ikintu ikintu Ikiringo ikintu",
+          "Niba ukeneye gukora kode yo kugabanya igihe cyagenwe, urashobora gushiraho igihe cyayo hano.",
       },
       design: {
         subtitle:
-          "ikintu ikintu Umutwe ikintu Ibisobanuro ikintu ikintu Kugabanuka Kode ikintu Ibisobanuro ikintu ikintu ikintu Kuri ikintu umukoresha",
+          "Urashobora gushiraho umutwe nibisobanuro kuri buri kode igabanywa. Ibisobanuro birambuye bizerekanwa kubakoresha.",
       },
       cluster: {
         subtitle:
-          "ikintu ikintu ikintu Kugabanuka Kode ikintu ikintu ikintu, ikintu ikintu ikintu Gucunga ikintu ikintu ikintu Ibikoresho ikintu ikintu ikintu Aho biherereye",
+          "Muguhuza iyi code yo kugabanya hamwe na cluster, urashobora kuyicunga byoroshye hamwe nibindi bikoresho ahantu hamwe.",
       },
     },
     delete_alert: {
@@ -6320,34 +6320,34 @@ export default {
     },
     limit: {
       subtitle:
-        "ikintu ikintu ikintu, ikintu ikintu Kuri ikintu ikintu ikintu nini ikintu ikintu kupone ikintu ikintu ikintu Kugabanuka Umubare ikintu kupone ikintu ikintu",
+        "Muri iki gice, urashobora gushiraho umubare ntarengwa wimikoreshereze kuri coupon hamwe nigiciro kinini cyo kugabanywa buri coupon ishobora gutanga.",
       zero_message: "ikintu: ikintu ikintu oya Imipaka!",
     },
     duration: {
       subtitle:
-        "ikintu ikintu ikintu Kuri ikintu ikintu kupone Kuri ikintu Bikora, ikintu ikintu Ikiringo ikintu ikintu ikintu",
+        "Niba wifuza gushyiraho igihe cyagenwe kugirango coupon ikore, urashobora gushiraho igihe muri iki gice.",
     },
     design: {
       subtitle:
-        "ikintu kupone ikintu ikintu Umutwe ikintu Ibisobanuro ikintu Ibisobanuro ikintu ikintu ikintu Kuri ikintu umukiriya",
+        "Buri talon yemerera kongeramo umutwe nibisobanuro. Ibisobanuro birambuye bizagaragara kubakiriya.",
     },
     constraints: {
       subtitle:
-        "ikintu, ikintu ikintu Kuri ikintu ikintu kupone",
+        "Hano, ufite ubushobozi bwo gushiraho ibipimo byihariye byihariye kuri coupon.",
       no_limit: "oya ikintu Imipaka",
       has_limit: "ikintu ikintu",
       has_code_message: "umukoresha ikintu ikintu ikintu Kode Kuri Ongeraho kupone",
     },
     club: {
       subtitle:
-        "ikintu kupone ikintu ikintu Kuri abanyamuryango ikintu ikintu umukiriya ikintu",
+        "Iyi mikoreshereze ya coupon irashobora kugarukira gusa kubanyamuryango ba clubs zatoranijwe.",
     },
     cluster: {
       subtitle:
-        "ikintu ikintu ikintu kupone ikintu ikintu ikintu, ikintu ikintu ikintu Gucunga ikintu ikintu ikintu Ibikoresho ikintu ikintu ikintu Aho biherereye",
+        "Muguhuza iyi talon hamwe na cluster, urashobora kuyicunga byoroshye hamwe nibindi bikoresho ahantu hamwe.",
     },
     preview: {
-      subtitle: "ikintu ikintu Rubanda Imbere ikintu ikintu kupone",
+      subtitle: "Dore ibyerekanwe kumugaragaro kuri coupon.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "ikintu ikintu Umutwe, Ibisobanuro, ikintu Rubanda ikintu Imiterere",
+        "Tangira gukora amasezerano yubwenge ushyiraho umutwe wacyo, ibisobanuro, hamwe nuburyo rusange buboneka.",
     },
     limit: {
-      subtitle: "ikintu ikintu nini ikintu Imipaka ikintu ikintu Tanga ikintu ikintu ikintu",
+      subtitle: "Shiraho imipaka ntarengwa yo gukoresha muri iki gice.",
     },
     duration: {
       subtitle:
-        "ikintu ikintu ikintu Kuri ikintu ikintu Tanga, ikintu ikintu Ikiringo ikintu",
+        "Niba wifuza gushyiraho igihe ntarengwa cyo gutanga, urashobora gushiraho igihe hano.",
     },
     constraints: {
       subtitle:
-        "ikintu ikintu Ibisabwa ikintu ikintu Tanga ikintu ikintu Tanga ikintu Kuri ikintu Ibintu ikintu ikintu ikintu Ibisabwa",
+        "Shiraho ibipimo byujuje ibisabwa nibisabwa hano. Itangwa rireba ibintu byikarita byujuje ibi bisabwa.",
     },
     discounted_products: {
       title: "igabanywa Ibicuruzwa",
       subtitle:
-        "ikintu ikintu Ibicuruzwa Kuri ikintu ikintu Tanga ikintu ikintu ikintu Kugabanuka",
+        "Urashobora kwerekana ibicuruzwa ibyo bitanga bizakoreshwa kugabanyirizwa.",
     },
     cluster: {
       subtitle:
-        "ikintu ikintu ikintu Tanga ikintu ikintu ikintu, ikintu ikintu ikintu Gucunga ikintu ikintu ikintu Ibikoresho ikintu ikintu ikintu Aho biherereye",
+        "Muguhuza iki cyifuzo hamwe na cluster, urashobora kuyicunga byoroshye hamwe nibindi bikoresho ahantu hamwe.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "Ishyirahamwe Ihuza",
       subtitle:
-        "ikintu ikintu ikintu Ihuza ikintu ikintu Ishyirahamwe ikintu Kuri ikintu Kugurisha ikintu komisiyo Ongeraho ikintu kode '{code}' Kuri ikintu Ihuza ikintu ikintu ikintu byihariye ikintu Indanganturo ikintu ikintu Ishyirahamwe ikintu ikintu 48ikintu",
+        "Kora umurongo wihariye kubufatanye bwawe kugirango bakurikirane ibicuruzwa na komisiyo. Ongeraho kode yoherejwe '{code}' kumurongo uwo ariwo wose cyangwa ugenera indangarubuga yihariye kubufatanye bwawe. Bizakurikiranwa na sisitemu ya 48h.",
     },
     fix_commission: "Komisiyo ihamye",
     percent_commission: "Komisiyo ishingiye ku ijanisha",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "ikintu umukiriya Kugura ikintu ikintu ububiko ikintu ikintu Abakiriya ikintu ikintu Kugura ikintu ikintu 10 ikintu, ikintu ikintu ikintu Tanga ikintu ikintu Mburabuzi ikintu ikintu , ikintu ikintu Kuri ikintu ikintu Amaduka ikintu",
+        "Ongera kugura abakiriya bafite uburambe bwimikino mububiko bwawe. Shiraho ibihembo no gutsindira amahirwe kubakiriya binjiza ibimenyetso binyuze mubigura. Buri mukino ukina ugura ibimenyetso 10, kandi urashobora gutanga ibihembo byihariye kubaguzi bwa mbere. Umukino usanzwe ni Ikiziga cya Fortune, ariko urashobora kugikora kugirango uhuze imiterere yububiko bwawe.",
     },
     empty_prize_list: "Kurema ikintu Gucunga ikintu ikintu",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Gutsindira Amahirwe ku ijana",
     free_for_first: "Nubuntu kubakiriya bashya?",
     free_for_first_message: "Abakiriya bashya barashobora gutsinda iki kintu.",
-    not_free_for_first_message: "ikintu ikintu ikintu Birashoboka ikintu ikintu ubuntu ikintu",
+    not_free_for_first_message: "Iki gihembo ntikiboneka kumikino yambere yubusa.",
 
     amount: "Umubare w'igihembo",
     amount_hint: "Abakoresha batsindira aya mafranga kubyo batumije.",
@@ -6614,11 +6614,11 @@ export default {
     },
     config: {
       subtitle:
-        "ikintu, ikintu ikintu Kurema ikintu Amaduka Ubufindo ikintu ikintu ikintu Umutwe, Ibisobanuro, Ibara, ikintu Ishusho ikintu ikintu ikintu",
+        "Hano, urashobora gukora ibihembo bya tombora yububiko bwawe. Shiraho umutwe, ibisobanuro, ibara, nishusho kuri buri gihembo.",
     },
     design: {
       subtitle:
-        "ikintu, ikintu ikintu Kuri ikintu ikintu Ishusho ikintu Ibara ikintu ikintu ikintu",
+        "Hano, ufite amahitamo yo guhitamo ishusho namabara kubihembo.",
     },
     constraints: {
       subtitle: "ikintu ikintu ",
@@ -6626,11 +6626,11 @@ export default {
     prize: {
       title: "ikintu",
       subtitle:
-        "ikintu ikintu Ibisobanuro ikintu ikintu ikintu Kugabanuka kode, Impano Ikarita, ikintu, ikintu ikintu igabanywa ikintu Ubufindo ikintu",
+        "Shiraho ibihembo birambuye hano. Amahitamo arimo kode yo kugabanya, amakarita yimpano, inguzanyo, nibindi bigabanywa nkibihembo bya tombora.",
     },
     product_input: {
       label: "Ibicuruzwa ikintu",
-      message: "Hitamo ikintu Ibicuruzwa ikintu ikintu (ikintu ubuntu)",
+      message: "Hitamo ibicuruzwa kubihembo (ni ubuntu)",
     },
   },
 
@@ -7044,12 +7044,12 @@ export default {
         "Kuramo wohereze umucuruzi CSV dosiye ikintu ikintu Kuri Amabanga ikintu",
       checklist: {
         title: "ikintu ikintu",
-        subtitle: "ikintu ikintu Kuri ikintu ikintu ikintu",
+        subtitle: "Witondere gukurikiza umurongo ngenderwaho.",
         sample_files: "ikintu dosiye",
         valid_vendor_name_needed:
-          "ikintu ikintu <b>ikintu Izina</b>. ikintu <b>Izina</b> ikintu Byakoreshejwe Kuri ikintu ikintu Kuri <i>Kurema</i> ikintu Gishya umucuruzi ikintu <i>Kuvugurura</i> ikintu ikintu ikintu",
+          "Ugomba gutanga <b> izina ryemewe</b>. <b>name</b> ikoreshwa muguhitamo niba <i>Create</i> umucuruzi mushya cyangwa <i>Utariki</i> iyariho.",
         assign_user_after_import:
-          "ikintu Kuzana abacuruzi, ikintu ikintu umukoresha Kuri ikintu ikintu Kwinjira Kuri ikintu umucuruzi ikintu",
+          "Nyuma yo gutumiza ibicuruzwa, urashobora gukoresha intoki umukoresha kugirango abahe uburyo bwo kugurisha.",
       },
       need_kyc_alert:
         "ikintu ikintu Kuri ikintu ikintu Umuntu ku giti cye amakuru ikintu Kuzana abacuruzi",
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "umucuruzi Ibicuruzwa",
     subtitle:
-      "ikintu ikintu urutonde byose Ibicuruzwa itangwa ikintu abacuruzi ikintu ikintu Isoko, ikintu Ibicuruzwa ikintu ikintu bihujwe Kuri ikintu ikintu Ibindi. . abacuruzi ikintu umucuruzi ikintu ikintu ikintu Ibicuruzwa ikintu ikintu Harimo Ibarura ikintu Igiciro Ibisobanuro ikintu Kuri ikintu umucuruzi",
+      "Uru rutonde rwerekana ibicuruzwa byose bitangwa nabacuruzi. Ku isoko, ibicuruzwa birashobora guhuzwa numucuruzi umwe cyangwa benshi. Buri mucuruzi ujyanye nibicuruzwa afite ibyinjira byihariye birimo kubara no kugena ibiciro byihariye kuri uwo mucuruzi.",
     filter_vendor: {
       placeholder: "Akayunguruzo ikintu umucuruzi",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "ikintu abacuruzi ikintu",
     title: "umucuruzi ikintu Urutonde",
     subtitle:
-      "ikintu ikintu ikintu Urutonde ikintu Gusaba Kuva ikintu ikintu Kuri ikintu abacuruzi ikintu ikintu Isoko",
+      "Uru nurutonde rwibisabwa nabantu basabye kuba abacuruzi kumasoko yawe.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,47 +7088,47 @@ export default {
     marketplace: {
       title: "Isoko",
       subtitle:
-        "ikintu ikintu Isoko ikintu ikintu Kuri ikintu ikintu Isoko, ikintu ikintu ububiko ikintu ikintu Igenamiterere",
+        "Guhagarika isoko bizimya imikorere imwe. Niba ushaka guhagarika isoko ryawe ryose, ugomba guhagarika ububiko bwawe mumiterere.",
     },
     distribution_model: {
       title: "ikintu ikintu",
       subtitle:
-        "ikintu ikintu abacuruzi Kuri ikintu Ibintu ikintu Kuri ikintu ikintu ikintu Amabwiriza ikintu ikintu Ububiko ikintu Kohereza, ikintu ikintu ",
+        "Amasoko arashobora gukora muburyo butandukanye bwo gukwirakwiza. Waba ukunda abacuruzi kohereza ibintu kubaguzi cyangwa guhuriza hamwe ibicuruzwa mububiko bwawe bwo kohereza, urashobora guhitamo icyitegererezo gihuye nibyo ukeneye hano.",
     },
     access: {
       title: "umucuruzi Kwinjira",
       subtitle:
-        "ikintu ikintu ikintu, ikintu ikintu Kwinjira abacuruzi ikintu Kuri ikintu Ibicuruzwa Ikibaho ikintu ikintu Kwinjira Igenamiterere Kuri ikintu abacuruzi Kuri Ongeraho ikintu ikintu Ibicuruzwa ikintu Ibyiciro ikintu ikintu ikintu Kwinjira Kuri ikintu ikintu",
+        "Numuyobozi, ugenzura urwego rwabacuruzi bagomba kugera kubicuruzwa. Hindura igenamigambi ryinjira kwisi kugirango wemerere abacuruzi kongera ibicuruzwa byabo nibyiciro cyangwa kugabanya ubwo buryo kubayobozi gusa.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Gushoboza Kohereza ikintu abacuruzi ikintu ikintu Amaduka > ikintu ikintu uburyo ikintu",
-    transportation_available_tooltip: "ikintu ikintu ikintu Birashoboka ikintu abacuruzi",
+      "Gushoboza kohereza kubacuruzi mu iduka> Logistic tab kuri buri buryo kugiti cye.",
+    transportation_available_tooltip: "Ihitamo rirahari kubacuruzi.",
     transportation_not_available_tooltip:
-      "ikintu Birashoboka ikintu abacuruzi! ikintu ikintu Gushoboza ikintu ikintu Igenamiterere",
+      "Ntiboneka kubacuruzi! Urashobora kubishobora muburyo bwo gutwara abantu.",
     panel: {
       title: "umucuruzi ikintu",
-      subtitle: "ikintu ikintu abacuruzi ikintu ikintu byihariye Indanganturo",
+      subtitle: "Kwinjira kubacuruzi bawe ukoresheje domaine yawe yihariye.",
     },
     documents: {
       title: "ikintu",
       subtitle:
-        "ikintu ikintu abacuruzi Kuri Kuramo wohereze ikintu ikintu ",
+        "Urashobora gusaba abadandaza bawe kohereza inyandiko cyangwa gusinya amasezerano runaka. Kugaragaza inyandiko zisabwa hano.",
       add_document_action: "Ongeraho ikintu ikintu",
     },
     inputs: {
       enable: {
         false_description:
-          "ikintu Isoko ikintu ikintu ikintu, ikintu byose Isoko ikintu",
+          "Isoko ryazimye, rihagarika imikorere yose yisoko.",
         true_description:
-          "ikintu Isoko ikintu Bikora, ikintu byose Isoko ikintu",
+          "Isoko rirakora, rituma ibikorwa byose byamasoko bikora.",
       },
       product: {
         label: "Ongeraho ibicuruzwa bishya",
         true_title: "abacuruzi ikintu Ongeraho Ibicuruzwa",
         false_description:
-          "ikintu Ongeraho Ibicuruzwa ikintu ikintu abacuruzi abacuruzi ikintu ikintu Gucunga igiciro ikintu Ibarura",
+          "Wongeyeho ibicuruzwa kandi ugenera abacuruzi. Abacuruzi barashobora gucunga ibiciro gusa.",
         true_description:
-          "abacuruzi ikintu Ongeraho ikintu Gucunga ikintu ikintu Ibicuruzwa ikintu ikintu ikintu umucuruzi ikintu",
+          "Abacuruzi barashobora kongeramo no gucunga ibicuruzwa byabo muburyo butaziguye.",
       },
       need_verify: {
         label: "Ibicuruzwa ikintu Temba",
@@ -7144,27 +7144,27 @@ export default {
         false_description:
           "ikintu Ongeraho Ibyiciro abacuruzi ikintu ikintu Ongeraho Ibicuruzwa Kuri ikintu Ibyiciro",
         true_description:
-          "abacuruzi ikintu Ongeraho ikintu Gucunga Ibyiciro ikintu ikintu ikintu umucuruzi ikintu",
+          "Abacuruzi barashobora kongeramo no gucunga ibyiciro muburyo bwabacuruzi.",
       },
       shipping: {
         label: "Kohereza ikintu",
         true_title: "abacuruzi ikintu Kohereza ikintu",
         false_description:
-          "abacuruzi ikintu Ongeraho ikintu ikintu ikintu Kohereza uburyo",
+          "Abacuruzi ntibashobora kongera cyangwa guhitamo uburyo bwabo bwo kohereza.",
         true_description:
-          "abacuruzi ikintu ikintu Kohereza uburyo, Ongeraho Abakoresha, ikintu ikintu Kohereza ikintu ikintu ikintu",
+          "Abacuruzi barashobora gushiraho uburyo bwabo bwo kohereza, bakongeraho abatwara ubutumwa, kandi bagahitamo kohereza kubyo bakeneye.",
       },
       hidden_customer: {
         label: "Erekana ikintu Twandikire amakuru",
         true_description: "ikintu Twandikire Ibisobanuro ikintu ikintu Kuva abacuruzi",
         false_description:
-          "ikintu Twandikire Ibisobanuro, ikintu ikintu telefone ikintu Imeri, ikintu ikintu Kuri abacuruzi",
+          "Abaguzi amakuru arambuye, nka terefone na imeri, biragaragara kubacuruzi.",
       },
       multi: {
         false_description:
-          "ikintu umukoresha ikintu ikintu umucuruzi Konti Abakoresha ikintu ikintu ikintu Kuri ikintu ikintu ikintu /abacuruzi",
+          "Umukoresha arashobora kugira konti imwe y'abacuruzi. Abakoresha bazoherezwa kumwanya wabo kuri / abacuruzi.",
         true_description:
-          "ikintu umukoresha ikintu ikintu ikintu umucuruzi Konti ikintu ikintu ; ikintu Twandikire ikintu ikintu ",
+          "Umukoresha arashobora kugira konti nyinshi zabacuruzi. Ubu ni uburyo bwa beta; nyamuneka twandikire mbere yo kuyikoresha.",
         true_title: "ikintu uburyo",
         false_title: "ikintu umucuruzi uburyo (Mburabuzi)",
       },
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "ikintu Ubwoko",
         subtitle:
-          "Ongeraho ikintu ikintu abacuruzi ikintu, ikintu ikintu Kuri Kuramo wohereze ikintu ikintu ikintu",
+          "Ongeraho inyandiko isaba hano. Bizagaragara mugice cyabacuruzi, bibasaba kohereza inyandiko zisabwa.",
       },
       guide: {
         title: "umurongo ngenderwaho",
         subtitle:
-          "ikintu ikintu ikintu umurongo ngenderwaho Kuri ubufasha abacuruzi ikintu ikintu ikintu Kuri Kuramo wohereze ikintu ikintu Kuri ikintu ikintu ikintu",
+          "Tanga umurongo ngufi ufasha abacuruzi kumva inyandiko zohereza nuburyo bwo kubikora neza.",
       },
       code: {
         title: "ikintu Kode",
         subtitle:
-          "ikintu ikintu ikintu Kode ikintu ikintu ikintu, ifishi, ikintu ikintu umucuruzi ikintu ikintu",
+          "Shyiramo kode yashyizwemo inyandiko, ifishi, cyangwa amasezerano umucuruzi agomba gusinya.",
       },
       link: {
         title: "Ihuza ryo hanze",
         subtitle:
-          "ikintu ikintu ikintu Ihuza Kuri ikintu ikintu umucuruzi ikintu ikintu",
+          "Tanga ihuza ryo hanze yinyandiko cyangwa amasezerano umucuruzi agomba gusinya.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "umurongo ngenderwaho (si ngombwa)",
           placeholder:
-            "ikintu, ikintu ikintu ikintu umurongo ngenderwaho ikintu ikintu, ikintu Ihuza Kuri ikintu ikintu ",
+            "Ubishaka, tanga ubuyobozi bugufi cyangwa amabwiriza, harimo guhuza amasezerano cyangwa izindi nyandiko.",
         },
         code: {
           label: "ikintu Kode",
@@ -7236,7 +7236,7 @@ export default {
     Collective: {
       title: "ikintu uburyo",
       description:
-        "ikintu ikintu uburyo, byose Amabwiriza ikintu Yoherejwe Kuri ikintu Ububiko ikintu ikintu ikintu Yoherejwe Kuri Abakiriya Kuva ikintu ikintu Aho biherereye abacuruzi ikintu Ohereza ikintu Ibintu Kuri ikintu Ububiko, ikintu ikintu Kohereza aderesi ikintu abacuruzi ikintu ikintu ikintu Ububiko aderesi",
+        "Muri ubu buryo, ibyateganijwe byose byoherejwe mububiko bwawe bwa mbere hanyuma byoherezwa kubakiriya bava hagati. Abacuruzi bazohereza ibintu byabo mububiko bwawe, aderesi yo kohereza kubacuruzi izaba adresse yawe.",
     },
     Direct: {
       title: "ikintu Kohereza Kuva umucuruzi",
@@ -7251,22 +7251,22 @@ export default {
     Identification: {
       title: "Nyirubwite ikintu ikintu",
       description:
-        "Kuramo wohereze ikintu ikintu ID Kuri ikintu ikintu KYC ikintu ikintu ubucuruzi Nyirubwite ikintu ikintu ikintu",
+        "Kuramo indangamuntu yatanzwe na leta kugirango umenye umwirondoro wa nyir'ubucuruzi cyangwa umuyobozi mukuru.",
     },
     Business: {
       title: "ubucuruzi ikintu",
       description:
-        "ikintu ikintu ubucuruzi ikintu ikintu ikintu uruhushya ikintu ikintu ikintu Kuri ikintu ikintu ikintu Imiterere ikintu ikintu ubucuruzi",
+        "Tanga ibyangombwa byubucuruzi nkimpushya cyangwa ibyemezo byo kwiyandikisha kugirango wemeze ubucuruzi bwawe bwemewe.",
     },
     Address: {
       title: "aderesi ikintu",
       description:
-        "ikintu ikintu ikintu Kuri ikintu ikintu ubucuruzi aderesi, ikintu ikintu , Umusoro Inyemezabuguzi, ikintu ikintu ikintu",
+        "Tanga inyandiko kugirango umenye aderesi yawe yubucuruzi, nkumushinga wingirakamaro, fagitire yimisoro, cyangwa amasezerano yubukode.",
     },
     Contract: {
       title: "ikintu & ikintu",
       description:
-        "Kuramo wohereze ikintu ikintu Amagambo ikintu Ibisabwa ikintu ikintu ubucuruzi ikintu",
+        "Kuramo amasezerano cyangwa amasezerano arambuye kubijyanye nibisabwa mubucuruzi bwawe.",
     },
     Copyright: {
       title: "ikintu ikintu",
@@ -7276,17 +7276,17 @@ export default {
     Privacy: {
       title: "Amabanga politiki ikintu",
       description:
-        "ikintu ikintu Amabanga politiki ikintu Kuri ikintu ikintu ikintu Kuri ikintu umukoresha ikintu umukiriya amakuru",
+        "Shyiramo inyandiko za politiki y’ibanga kugirango werekane ko wiyemeje kurinda amakuru yumukoresha n’abakiriya.",
     },
     Embed: {
       title: "ikintu ifishi",
       description:
-        "ikintu ikintu ikintu ifishi Kuri ikintu ikintu ikintu amakuru",
+        "Uzuza urupapuro rwashyizwemo kugirango utange amakuru asabwa.",
     },
     Link: {
       title: "Ihuza ryo hanze",
       description:
-        "ikintu ikintu ikintu Ihuza Kuri ikintu ikintu ikintu amakuru",
+        "Kurikiza ihuza ryo hanze kugirango utange amakuru akenewe.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "umucuruzi Umufuka",
     subtitle:
-      "oya ikintu Kuri ikintu Ongeraho Umufuka! umucuruzi Umufuka ikintu ikintu Gushoboza ikintu Kwishura uburyo ikintu ubufasha ikintu ikintu (Nk Stripe Connect), ikintu ikintu Kwishura Kuri ikintu Byahujwe abacuruzi Konti ikintu ikintu byakoreshejwe, ikintu ikintu Kuri ikintu Kwishura abacuruzi, ikintu ikintu umubare ikintu Kuri ikintu ikintu ikintu Ikofi Urutonde",
+      "Ntibikenewe ko wongera intoki! Umufuka w'abacuruzi urema mu buryo bwikora. Niba ushoboje uburyo bwo kwishyura bushigikira kwishyura (nka Stripe ihuza), sisitemu izahita igabura kwishura kuri konti yabacuruzi bahujwe. Niba iyi mikorere idashoboka, uzakenera kwishyura intoki abacuruzi, kandi urashobora kugenzura amafaranga babereyemo kurutonde rwikariso.",
     filter_vendor: {
       placeholder: "Akayunguruzo ikintu umucuruzi",
     },
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "ikintu ikintu Urutonde ikintu byose Gucuruza ikintu ikintu Hitamo Ikofi ikintu Kwishyuza Gucuruza ikintu ikintu umukiriya ikintu ikintu Tegeka ikintu ikintu Tegeka ikintu ikintu gusubiza amafaranga, ikintu ikintu gusubiza amafaranga Gucuruza ikintu ikintu ",
+      "Iki gice gitanga urutonde rurambuye rwibikorwa byose byatoranijwe. Igicuruzwa cyishyurwa cyandikwa mugihe umukiriya yishyuye neza ibicuruzwa. Niba itegeko ryahagaritswe cyangwa ryasubijwe igice, ibikorwa byo gusubiza nabyo bizandikwa hano.",
     vendor_bank: "umucuruzi Banki",
     order_fee: "Tegeka Amafaranga",
     order_refund: "Tegeka gusubiza amafaranga",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "ikintu Amateka",
     subtitle:
-      "ikintu ikintu ikintu Ibaruramari ikintu ikintu abacuruzi ikintu ikintu byose Gucuruza Kwishura ikintu ikintu Banki ikintu ikintu ikintu uburyo, ikintu ikintu Kwishura Abatanga ikintu Inkunga ikintu Kwishura, Nk ikintu",
+      "Iyi mikorere itondekanya kubara wowe n'abacuruzi bawe kubika inyandiko irambuye y'ibikorwa byose. Kwishura birashobora gutunganywa nintoki binyuze muri banki cyangwa ubundi buryo, cyangwa bigahita bicungwa nabashinzwe kwishyura bishyigikira kugabana, nka Stripe.",
     top_up_vendor_action: "ikintu ikintu umucuruzi Konti",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "Igiciro Gahunda",
     subtitle:
-      "ikintu ikintu Igiciro ikintu ikintu ikintu Isoko, Nk ikintu 5% ikintu Amafaranga ikintu ikintu Ibicuruzwa ikintu korera Igiciro Ubuyobozi ikintu ikintu Ibindi. . ikintu",
+      "Shiraho ibiciro byerekana isoko ryanyu, nkamafaranga 5% yumusaruro wibicuruzwa. Ibi bituma gucunga ibiciro byihuse kandi neza.",
     add_pricing_action: "Ongeraho Igiciro Tegura",
   },
 
@@ -7344,7 +7344,7 @@ export default {
       "ikintu ikintu Igiciro ikintu Kuri umucuruzi Ibicuruzwa, ikintu igiciro ikintu ikintu umucuruzi igiciro * (1 + Komisiyo%).",
     delete: {
       subtitle:
-        "ikintu ikintu Igiciro ikintu ikintu ikintu byose umucuruzi Ibicuruzwa bihujwe Kuri ikintu ikintu Igiciro ikintu, korera ikintu Kuri Kuvugurura byose umucuruzi Ibicuruzwa ikintu ikintu Igiciro ikintu",
+        "Gusiba icyitegererezo cyibiciro bizagira ingaruka kubicuruzwa byose bifitanye isano nayo. Mbere yo gukuraho igiciro cyibiciro, menya neza kuvugurura ibicuruzwa byose byabacuruzi ukoresheje kandi ubihe uburyo butandukanye bwibiciro.",
       remove_pricing_action: "Kuraho Igiciro ikintu",
     },
     inputs: {
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "ikintu, ikintu Ibicuruzwa ikintu",
       },
       description: {
-        placeholder: "ikintu ikintu Ongeraho ikintu Icyitonderwa ikintu",
+        placeholder: "Urashobora kongeramo inyandiko hano ...",
       },
       accept_delete: {
-        true_description: "ikintu ikintu Kuri Gusiba ikintu Igiciro ikintu",
+        true_description: "Ndashaka gusiba ubu buryo bwo kugena ibiciro.",
         true_title: "ikintu Igiciro ikintu ikintu",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "umucuruzi",
       subtitle:
-        "Hitamo ikintu umucuruzi ikintu ikintu Kuri Kwimura ikintu Kuri ikintu Hitamo, Birashoboka Kwishura ikintu ikintu byakoreshejwe ikintu Kwishura Amarembo, ikintu ikintu ",
+        "Hitamo umucuruzi wifuza kohereza amafaranga kuri. Bimaze gutorwa, uburyo bwo kwishyura buhari buzerekanwa. Niba washoboje kwishyura-amarembo yo kwishyura, ayo mahitamo nayo azagaragara hano.",
     },
     vendor_wallet: "umucuruzi Ikofi",
     vendor_bank_account: "umucuruzi Banki Konti",
     with_balance_tooltip:
-      "ikintu ikintu huza ikintu Serivisi Nk Stripe Connect, ikintu ikintu Birashoboka Kuringaniza ikintu ikintu Stripe Konti ikintu ikintu",
+      "Iyo uhuza serivisi zo kwishyura nka Stripe ihuza, turagarura kandi twerekana amafaranga asigaye kuri konte yawe ya Stripe kugirango tuyereke.",
     with_balance: "ikintu Kuringaniza",
     without_balance: "ikintu Kuringaniza - ikintu uburyo",
     bank_transfer: {
       title: "Banki Kwimura",
       subtitle:
-        "ikintu ikintu Kwishura Amateka oya ikintu amafaranga ikintu ikintu ikintu Kuri ikintu umucuruzi ikintu ikintu ikintu; ikintu ikintu ikintu Kwishura ikintu abacuruzi",
+        "Iyi ni amateka yamateka yo kwishyura. Ntamafaranga nyayo azoherezwa kubacuruzi na sisitemu; ugomba kwishura intoki abacuruzi bawe.",
     },
     vendor_bank: "umucuruzi Banki",
     gateway_in_debug_mode_warning:
-      "ikintu ikintu Kwishura Irembo ikintu ikintu uburyo, ikintu ikintu Kuri ikintu ikintu Konti",
+      "Kubera ko amarembo yo kwishura ari muburyo bwo gukemura, amafaranga ntabwo azoherezwa kuri konti nyayo.",
     payment: {
       title: "Kwishura",
       subtitle:
-        "ikintu ikintu Ifaranga ikintu ikintu ikintu Umubare ikintu ikintu Kuri Kwimura Kuri ikintu umucuruzi ikintu ikintu Umubare, ikintu ikintu Kuva ikintu abacuruzi Ikofi ikintu Byahujwe Konti ikintu ikintu ikintu, ikintu ikintu Kuva ikintu Byahujwe Konti, ikintu ikintu ikintu abacuruzi Stripe Konti",
+        "Hitamo ifaranga hanyuma wandike amafaranga ushaka kohereza kubacuruzi. Niba winjije umubare mubi, amafaranga azakurwa mumufuka wumucuruzi. Kuri konti ihujwe hamwe nuburyo bwo kwishyura, amafaranga azakurwa kuri konte ihujwe, nka konte ya Stripe yumucuruzi.",
     },
     history: {
       title: "Amateka",
       subtitle:
-        "ikintu ikintu ikintu Kwishura ikintu ikintu gusubiza amafaranga ikintu ikintu ikintu Kwimura, ikintu ikintu Kuringaniza ikintu ikintu ikintu Kuva ikintu abacuruzi Konti ikintu Yagarutse Kuri ikintu Konti",
+        "Igice cyubwishyu cyasubijwe binyuze muburyo bwo guhindura ibintu, bivuze ko amafaranga asigaye yakuwe kuri konti yumucuruzi hanyuma asubizwa kuri konti yawe.",
     },
     refund: {
       title: "gusubiza amafaranga",
       subtitle:
-        "ikintu gusubiza amafaranga Umubare ikintu ikintu ikintu Kuva ikintu abacuruzi Kuringaniza byose Kwishura (ikintu ikintu umubare) ikintu ikintu abacuruzi Konti (Nk Stripe Connect) ikintu ikintu gusubiza amafaranga ikintu ikintu ikintu Kwimura",
+        "Amafaranga yasubijwe azakurwa kumafaranga asigaye. Amafaranga yose yishyuwe (cyangwa amafaranga asigaye) kuri konti yumucuruzi (nka Stripe Connect) azasubizwa binyuze muburyo bwo kwimura ibintu.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "ikintu ikintu Ongeraho ikintu Icyitonderwa ikintu ikintu Icyitonderwa ikintu ikintu ikintu Kuri ikintu umucuruzi",
+          "Urashobora kongeramo inoti hano ... Iyi nyandiko ntabwo igaragara kubacuruzi.",
       },
       accept_refund: {
         true_description: "ikintu ikintu Kuri Kureka ikintu Kwishura",
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "ikintu ikintu",
         message:
-          "ikintu abacuruzi ikintu ikintu Byarangiye ikintu, ikintu amafaranga ikintu Kuva ikintu Banki Kuri ikintu Ikofi ikintu Ongeraho Kuri ikintu Ikofi Kuringaniza",
+          "Isubiramo ry'ikigega cy'abacuruzi ryarangiye neza, hamwe n'amafaranga yoherejwe muri banki akajya mu gikapo kandi akongerwaho amafaranga asigaye.",
       },
       payout_success: {
         title: "ikintu",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "ikintu",
-    max_batch_msg: "nini ikintu ikintu Ibintu ikintu ikintu Kuzana ikintu ikintu ",
-    max_daily_limit_msg: "nini ikintu ikintu Ibintu ikintu ikintu Kuzana ikintu ikintu ikintu",
+    max_batch_msg: "Umubare ntarengwa wibintu ushobora gutumiza mugice kimwe.",
+    max_daily_limit_msg: "Umubare ntarengwa wibintu ushobora gutumiza mumunsi.",
     extra_daily_limit_msg: "ikintu Ibintu ikintu ikintu Imipaka",
     add_items_today_msg: "Ibintu Ongeraho Uyu munsi",
     file_statistic_msg: "Imibare ikintu ikintu dosiye",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Amabara yibanze",
     theme_colors_description:
-      "ikintu ikintu Ibanze Ibara ikintu ikintu ikintu Amaduka ikintu ikintu Inyandikorugero ikintu ikintu Kuri ikintu ikintu Ibara ikintu ikintu Ikirango",
+      "Urashobora kwihindura ibara ryambere palette yububiko bwawe hano. Inyandikorugero yose irashobora gukoresha ayo mabara kugirango ihite itanga ibara ryuzuye rihuza ikirango cyawe.",
     products_view_mode: "Urutonde rwubucuruzi",
     products_view_mode_desc:
       "Urashobora guhindura uburyo bwo kwerekana ibicuruzwa mububiko bwawe ukurikije ubunini bwa ecran. Ubu buryo buzafatwa nkibisanzwe kandi ntibuzakoreshwa niba umukoresha ahinduye uburyo bwo kwerekana.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "ikintu Umutwe",
-      subtitle: "ikintu Uburebure ikintu ikintu Umutwe ikintu ikintu ikintu",
+      subtitle: "Uburebure bwumutwe buzahinduka muburyo bukomeye.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "ikintu ikintu",
         false_description:
-          "Ibyiciro ikintu Ibicuruzwa ikintu ikintu Kuri Erekana ikintu ikintu",
+          "Ibyiciro nibicuruzwa bifite animasiyo yerekana kwerekana imikorere.",
         true_title: "Igihagararo",
         true_description: "Ibyiciro ikintu Ibicuruzwa ikintu oya ikintu",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "ikintu Ibikorwa",
       hover: {
         false_description:
-          "Biroroshye ikintu ikintu uburyo ikintu ikintu ikintu Ibikorwa ikintu Ibicuruzwa Ikarita",
+          "Uburyo bworoshye kandi buto nta gikorwa cyinyongera ku makarita y'ibicuruzwa.",
         true_description:
-          "Erekana ikintu Gura & Ongeraho Kuri ikintu ikintu ikintu Ibicuruzwa Ikarita ikintu",
+          "Erekana Kugura Byihuse & Ongeraho kugereranya buto kurikarita yibicuruzwa.",
         true_title: "Erekana ikintu ikintu ikintu",
       },
     },
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "Ibicuruzwa paji",
       subtitle:
-        "ikintu ikintu Ibicuruzwa paji ikintu ikintu Ibiciro ikintu ikintu Kuri ikintu ikintu ikintu",
+        "Hindura urupapuro rwibicuruzwa hano. Urashobora guhindura kwerekana ibiciro hanyuma ugahindura gahunda yibice kugirango uhuze nibyo ukunda.",
       buy_button_color: "Gura ikintu Ibara",
       smart_price: {
         title: "ikintu Igice igiciro",
         true_description:
-          "ikintu Igice igiciro ikintu ikintu Ibiro, ingano, ikintu ikintu Ibihinduka ikintu urugero ikintu ikintu 2ikintu ikintu ikintu $5 ikintu igiciro, ikintu ikintu umukiriya reba ikintu $2.5/ikintu ikintu ikintu Ibicuruzwa paji",
+          "Kubara igiciro cyibice urebye uburemere, ingano, hamwe nugupakira ibintu bitandukanye. Kuva. Niba ufite variant ifite ubunini bwa 2L na $5 nkigiciro, noneho umukiriya abona __PH1 __ / L kurupapuro rwibicuruzwa.",
       },
       reverse_currency: {
         title: "Ifaranga ikintu Umwanya",
         false_title: "Uburyo busanzwe",
         true_title: "ikintu uburyo",
         false_description:
-          "ikintu Ifaranga ikintu ikintu Tangira ikintu ikintu ikintu urugero: $95, €30",
+          "Ikimenyetso cy'ifaranga kizashyirwa mugitangira imibare. Kuva: $95, € 30",
         true_description:
-          "ikintu Ifaranga ikintu ikintu Iherezo ikintu ikintu ikintu urugero: 95$, 30€",
+          "Ikimenyetso cy'ifaranga kizashyirwa kumpera yimibare. Kuva: 95 $, 30 €",
       },
       variants_selector: {
         title: "Ibihinduka ikintu",
         subtitle:
-          "ikintu ikintu Kuri ikintu Ibihinduka ikintu ikintu Ibicuruzwa paji",
+          "Urashobora guhitamo inzira zitandukanye zo kwerekana ibitandukanye kurupapuro rwibicuruzwa.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "ikintu & injira",
       subtitle:
-        "ikintu ikintu umucuruzi ikintu ikintu injira ikintu ikintu ikintu byihariye ikintu, Ishusho, ikintu Ubutumwa",
+        "Ongera uhindure ibicuruzwa kubutaka no kwinjira hamwe na videwo yihariye, ishusho, cyangwa ubutumwa.",
     },
     inputs: {
       page_vendor_login: {
         label: "umucuruzi injira paji",
         message:
-          "Hitamo ikintu byihariye Kumanuka paji ikintu umucuruzi injira ikintu ikintu, Amashusho, ikintu ikintu Igishushanyo ikintu paji ikintu ikintu Kuri abacuruzi ikintu ikintu ",
+          "Hitamo urupapuro rwihariye rwo kugwa kubucuruzi bwinjira. Shyiramo amashusho, amashusho, cyangwa inyandiko kubishushanyo bidasanzwe. Uru rupapuro rwerekanwe kubacuruzi batinjiye.",
       },
       page_vendor_registered: {
         label: "umucuruzi Kwiyandikisha paji",
         message:
-          "Hitamo ikintu byihariye paji ikintu ikintu abacuruzi ikintu paji ikintu ikintu Isoko ubufasha ikintu abacuruzi ikintu umukoresha",
+          "Hitamo urupapuro rwihariye kubacuruzi binjiye. Uru rupapuro rwerekanwa niba isoko ryanyu rishyigikiye abacuruzi benshi kumukoresha.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "byihariye Ibihinduka",
       subtitle:
-        "ikintu Ibicuruzwa ikintu ikintu Ibihinduka ikintu ikintu Hindura ikintu Mburabuzi Izina ikintu Ibihinduka ikintu ikintu ikintu Kuri ikintu ikintu Ibintu ikintu Mburabuzi ikintu ikintu Abakiriya ikintu ikintu nini Uburebure ikintu 24.",
+        "Ibicuruzwa bifatika bishobora kugira impinduka. Urashobora guhindura izina risanzwe ryibitandukanye. Icyifuzo cyacu nukureka ibyo bintu nkibisanzwe kandi byubusa kugirango selldone ihite ihindura kubakiriya bawe mundimi zabo. Uburebure ntarengwa ni 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Umutwe Ikirangantego",
       subtitle:
-        "ikintu Mburabuzi, ikintu Amaduka Ikirangantego ikintu ikintu Umutwe, ikintu ikintu ikintu Kuramo wohereze ikintu byihariye Ikirangantego ikintu ikintu ikintu Ikirangantego ikintu ikintu , ikintu ikintu ikintu Kuri ikintu ikintu ikintu Uburebure ikintu Ubugari ikintu ikintu ikintu",
+        "Mburabuzi, ikirango cyibicuruzwa byawe cyerekanwa mumutwe, ariko urashobora kohereza ikirango cyabigenewe. Niba ikirangantego cyawe kidafite igipimo cya kare, ushobora gukenera guhindura intoki uburebure n'ubugari kugirango ubone neza.",
     },
     header_title: {
       title: "Umutwe Umutwe",
       subtitle:
-        "ikintu ikintu Umutwe ikintu ikintu ikintu Umutwe ikintu ikintu Urupapuro ikintu ikintu Kuri ikintu Kuraho ikintu, ikintu ikintu ikintu 'ikintu ikintu Umutwe ikintu",
+        "Urashobora kwihindura izina ryerekanwe kumutwe wurupapuro rwawe hano. Niba ushaka kuyikuraho burundu, nyamuneka kanda buto 'Shyira umutwe wubusa'.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "ikintu uburyo",
       description:
-        "ikintu Ibihinduka ikintu ikintu , ikintu ikintu ",
+        "Impinduka zifatika muburyo bwatoranijwe butandukanye, bubereye kubibazo byinshi.",
     },
     select: {
       title: "Hitamo uburyo",
       description:
-        "ikintu byose Ibihinduka ikintu ikintu ikintu, ikintu ikintu Ibihinduka",
+        "Yerekana impinduka zose mumanuka, nibyiza kumubare munini wibihinduka.",
     },
   },
 
@@ -7677,17 +7677,17 @@ export default {
     add_title: "Ongeraho ikintu ikintu",
     config: {
       subtitle:
-        "ikintu Umutwe ikintu Ibisobanuro ikintu ikintu Kuri Abakozi ikintu",
+        "Shiraho umutwe n'ibisobanuro kumitungo yawe yashizweho. Bizagaragara kubakozi gusa.",
     },
     variants: {
       title: "Ibihinduka",
       subtitle:
-        "ikintu ikintu Izina, Agashusho, ikintu Tegeka ikintu ikintu Ibicuruzwa ikintu ikintu Ibihinduka ikintu ikintu ikintu Mburabuzi 6 Ibihinduka, ikintu ikintu ikintu byihariye Ibihinduka ikintu ikintu Ibicuruzwa ikintu",
+        "Urashobora guhitamo izina ritandukanye, igishushanyo, na gahunda hano. Niba ufite ibicuruzwa bitandukanye bifite variant zidasanzwe zidahuye nibisanzwe 6, urashobora gushiraho ibicuruzwa byihariye kuri buri gicuruzwa hano.",
     },
 
     inputs: {
       title: {
-        placeholder: "ikintu ikintu Umutwe ikintu ikintu ikintu",
+        placeholder: "Injira umutwe wumutungo washyizweho ...",
       },
       description: {
         placeholder: "ikintu ikintu ikintu Ibisobanuro (si ngombwa)",
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Gucunga abakiriya",
     subtitle:
-      "Abakiriya ikintu ikintu Ongeraho Kuri ikintu ububiko ikintu ikintu ikintu; ikintu, ikintu ikintu Kuzana, ikintu ikintu POS, ikintu ikintu ububiko ikintu ikintu umukoresha ikintu ikintu ikintu ububiko, ikintu ikintu Kwiyandikisha ikintu ikintu umukiriya",
+      "Abakiriya barashobora kongerwa mububiko bwawe muburyo butandukanye; intoki, ubwinshi bwa Excel itumizwa, binyuze muri POS, cyangwa ukoresheje ububiko bwawe bwo kumurongo. Igihe cyose umukoresha yinjiye mububiko bwawe, bazahita biyandikisha nkumukiriya.",
     add_customer_action: "Ongeraho Gishya umukiriya",
 
     all_customers: "Kuramo abakiriya bose",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "Hindura umukiriya",
     add_title: "Ongeraho Gishya umukiriya",
     subtitle:
-      "Kuri Ongeraho ikintu umukiriya Kuri ikintu ububiko, ikintu ikintu Imeri aderesi ikintu ikintu telefone ikintu",
+      "Kugirango wongere umukiriya mububiko bwawe, nyamuneka utange aderesi imeri cyangwa numero ya terefone.",
     more: {
       title: "Ongeraho ibisobanuro birambuye",
       subtitle: "ikintu Ifaranga, umukiriya ikintu, Ibice, aderesi ikintu Ibindi. .",
     },
     detail: {
       subtitle:
-        "ikintu ikintu Umuntu ku giti cye amakuru ikintu ikintu umukiriya ikintu ikintu ikintu Abakiriya Amabanga",
+        "Bika inyandiko yamakuru yihariye yumukiriya wawe. Nyamuneka wubahe ubuzima bwite bwabakiriya bawe.",
     },
     preferences: {
       subtitle: "ikintu Mburabuzi umukoresha Ifaranga, umukiriya ikintu, ikintu Ibice ikintu",
     },
     address: {
       subtitle:
-        "ikintu aderesi ikintu ikintu Byakoreshejwe ikintu ikintu POS. ikintu umukoresha ikintu ikintu reba ikintu amakuru",
+        "Iyi aderesi irashobora gukoreshwa muri POS. Umukoresha ntashobora kubona aya makuru.",
     },
   },
 
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "ikintu ikintu ",
 
     pickup_ready_action: "ikintu ikintu",
-    pickup_ready_action_subtitle: "ikintu Tegeka ikintu ikintu ikintu umukiriya ikintu",
+    pickup_ready_action_subtitle: "Ibicuruzwa byiteguye gutwara abakiriya.",
 
     service_action: "ikintu ikintu",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "ikintu Gutanga ikintu",
       true_description:
-        "ikintu ikintu Tegeka ikintu ikintu Yatanzwe Kuri ikintu umukiriya",
+        "Ndemeza ko itegeko ryatanzwe kubakiriya.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "ikintu Ikibaho",
     subtitle:
-      "ikintu ikintu ikintu, ikintu Komisiyo Amafaranga ikintu ikintu Yishyuwe Kuri ikintu Banki Konti ikintu ikintu Banki amakuru ikintu",
+      "Iyo ubisabye, amafaranga ya komisiyo azishyurwa kuri konti ya banki wagenwe nawe. Nyamuneka tanga amakuru yawe muri banki hano.",
     no_bank_info: "oya Banki Amakuru!",
     actions: {
       edit_my_bank_info: "Hindura ikintu Banki Amakuru",
@@ -8013,17 +8013,17 @@ export default {
       info: {
         title: "Banki",
         subtitle:
-          "ikintu Iyinjiza ikintu Banki amakuru ikintu ikintu amakuru Kuri Kwimura ikintu ikintu Banki Konti ikintu ikintu ikintu Izina ikintu ikintu ikintu ubucuruzi Izina, ikintu ikintu",
+          "Nyamuneka andika amakuru yawe muri banki hano. Tuzakoresha aya makuru kugirango twohereze amafaranga. Menya neza ko konti ya banki iri mu izina ryawe cyangwa munsi yizina ryubucuruzi, nkuko bikenewe.",
       },
       inputs: {
         name: {
           label: "Banki Izina",
-          message: "ikintu ikintu Izina ikintu ikintu Banki ikintu ikintu Konti ikintu ikintu",
+          message: "Izina ryuzuye rya banki aho konti ifitwe.",
         },
         holder_name: {
           label: "Konti ikintu Izina",
           message:
-            "ikintu ikintu Izina ikintu ikintu Konti",
+            "Izina ryuzuye ryumuntu cyangwa ikigo gifite konti.",
         },
         account_number: {
           label: "Inomero ya Konti",
@@ -8031,23 +8031,23 @@ export default {
             "ikintu ikintu Banki Konti",
         },
         routing_number: {
-          label: "ikintu ikintu (USA) ikintu ikintu Kode (UK)",
+          label: "Umubare w'inzira (USA) cyangwa Sort Code (UK)",
           message:
-            "ikintu ikintu Banki ikintu (ikintu Amagambo ikintu Byakoreshejwe ikintu ikintu ikintu).",
+            "Umubare ugaragaza ishami rya banki ryihariye (amagambo atandukanye akoreshwa mubihugu bitandukanye).",
         },
         swift: {
           label: "SWIFT/BIC Kode",
           message:
-            "ikintu ikintu Kode Byakoreshejwe Kuri ikintu ikintu ikintu, ikintu ikintu ",
+            "Kode mpuzamahanga ikoreshwa mu kumenya amabanki kwisi yose, cyane cyane kubyohereza mpuzamahanga.",
         },
         iban: {
           label: "IBAN (ikintu Banki Konti ikintu)",
           message:
-            "Byakoreshejwe ikintu ikintu ikintu, ikintu IBAN ikintu ikintu Banki Konti ikintu ikintu ikintu",
+            "Ikoreshwa cyane cyane mu Burayi, IBAN ni uburyo bwumvikanyweho ku rwego mpuzamahanga bwo kumenya konti za banki ku mipaka y'igihugu.",
         },
         contact: {
           label: "Kumenyesha amakuru",
-          message: "telefone ikintu ikintu Imeri aderesi ikintu ikintu ikintu Konti",
+          message: "Inomero ya terefone cyangwa imeri imeri ijyanye na konti.",
         },
         note: {
           label: "Icyitonderwa",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "ikintu Banki Amakuru ikintu ikintu ikintu",
+        message: "Amakuru yawe ya banki yavuguruwe neza.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Kuva byose serivisi ikintu, Kwiyandikisha ikintu ikintu Kwishura ikintu ikintu ",
+      "Kuva kumafaranga yose ya serivisi, kwiyandikisha hamwe nandi mafaranga yatanzwe noherejwe.",
   },
 
   /**
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "ikintu ikintu",
       description:
-        "ikintu ikintu 2% Komisiyo Kuva ikintu ikintu",
+        "Urimo murwego rwa Bronze. Watsindiye komisiyo 2% uhereye kubyoherejwe.",
     },
     Silver: {
       title: "ikintu ikintu",
       description:
-        "ikintu ikintu 4% Komisiyo Kuva ikintu ikintu",
+        "Urimo murwego rwa silver. Wabonye komisiyo ya 4% uhereye kubyoherejwe.",
     },
     Gold: {
       title: "ikintu ikintu",
       description:
-        "ikintu ikintu 6% Komisiyo Kuva ikintu ikintu",
+        "Urimo murwego rwa Zahabu. Wabonye komisiyo 6% uhereye kubyoherejwe.",
     },
     Platinum: {
       title: "ikintu ikintu",
       description:
-        "ikintu ikintu 8% Komisiyo Kuva ikintu ikintu",
+        "Urimo murwego rwa platine. Wabonye komisiyo 8% uhereye kubyoherejwe.",
     },
     Diamond: {
       title: "ikintu ikintu",
       description:
-        "ikintu ikintu 10% Komisiyo Kuva ikintu ikintu",
+        "Wowe uri murwego rwa Diamond. Wabonye komisiyo 10% uhereye kubyoherejwe.",
     },
   },
 
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Kwishura",
     subtitle:
-      "ikintu ikintu Urutonde ikintu Gukuramo Gucuruza ikintu ikintu Kwimura ikintu Kuva ikintu Ikofi Kuri ikintu Banki Konti ikintu ikintu Selldone Ikofi, ikintu ikintu ikintu urutonde ikintu",
+      "Ni urutonde rwibikorwa byo kubikuza. Iyo wohereje ikigega kiva mumifuka yoherejwe kuri konte yawe ya banki cyangwa igikapu cya Selldone, bizashyirwa hano.",
 
     officer: "Umukozi",
     amount: "Igicuruzwa cyinshi",
@@ -8520,15 +8520,15 @@ export default {
     manage: {
       title: "Gucunga SMS",
       subtitle:
-        "ikintu ikintu reba ikintu ikintu ubutumwa Yoherejwe ikintu ikintu ububiko ikintu ikintu Kuri ikintu Imipaka ikintu ikintu serivisi, ikintu ikintu Kuri ikintu ikintu ikintu ubutumwa ikintu ikintu ikintu",
+        "Urashobora kubona ibikubiye mubutumwa bwanditse bwoherejwe nububiko bwawe hano. Bitewe n'imbogamizi mu kwandikisha uburyo bwo kwemeza muri serivisi yohereza ubutumwa, ntibishoboka kwihererana ubutumwa bwanditse muri iki gihe.",
     },
 
     template: {
       title: "ikintu",
       valid_message: "ikintu ikintu Kurema byihariye SMS ubutumwa",
-      provider_not_enable_message: "ikintu SMS ikintu ikintu ikintu byakoreshejwe!",
+      provider_not_enable_message: "Utanga SMS ntabwo ashoboye!",
       need_custom_provider_message:
-        "ikintu SMS ubutumwa ikintu ikintu byihariye ikintu",
+        "Ubutumwa bugufi bwa SMS bukora gusa mugihe washyizeho utanga ibicuruzwa.",
       add_new: "Ongeraho Gishya",
       disable_reason: {
         set_provider: "ikintu ikintu !",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "Erekana ikintu byakoreshejwe",
 
       text_template_not_supported_msg:
-        "ikintu ikintu Inkunga ikintu ikintu ubutumwa",
+        "Utanga ibintu ntabwo ashyigikiye ubutumwa bwanditse.",
       structure_template_not_supported_msg:
         "ikintu ikintu Inkunga ikintu ubutumwa",
 
@@ -8556,15 +8556,15 @@ export default {
       config: {
         title: "Ubutumwa Hindura",
         subtitle:
-          "ikintu ikintu Kurema ikintu Inyandikorugero ikintu ikintu SMS Ubutumwa ikintu ikintu SMS Abatanga Urubuga, ikintu ikintu ikintu Kode ikintu Amakuru ikintu ikintu amakuru Kuri ikintu ikintu, ikintu ikintu ikintu SMS Ubutumwa ikintu ikintu ikintu",
+          "Urashobora gukora inyandikorugero yubutumwa bwa SMS kurubuga rwa SMS yawe, hanyuma ugaragaze kode yayo nimiterere yamakuru hano. Tuzohereza aya makuru kubatanga, aho ubutumwa bugufi buzakorerwa.",
         code: "Kode",
-        language_msg: "ikintu ikintu ikintu Kuri ikintu ikintu ikintu Mburabuzi",
+        language_msg: "Kureka ubusa kugirango ubishyireho nkibisanzwe.",
         enable_msg: "ikintu Inyandikorugero ikintu ikintu Byakoreshejwe Kuri Kurema ubutumwa",
       },
       text: {
         title: "ikintu ikintu",
         subtitle:
-          "ikintu ikintu ikintu SMS Ubutumwa ikintu ikintu Yoherejwe Kuri ikintu umukoresha",
+          "Injira ubutumwa bwihariye hano. Indangagaciro zingirakamaro zizasimbuzwa agaciro kabo mbere yo koherezwa kubakoresha.",
         message: "Ubutumwa",
         reset_to_default: "ikintu Kuri Mburabuzi",
 
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "ikintu Inyandikorugero",
         subtitle:
-          "ikintu ikintu Inyandikorugero ikintu ikintu Agaciro ikintu ikintu Inyandikorugero Kode ikintu ikintu SMS serivisi ikintu, ikintu ikintu <code>ikintu</code> ikintu ikintu Kuri Ohereza ikintu Kode ikintu ikintu ikintu <code>Agaciro</code> ikintu ikintu Inyandikorugero ikintu ikintu, ikintu <code>{code}</code> ikintu ikintu Inyandikorugero Kode",
+          "Urashobora gushiraho icyitegererezo cy'urufunguzo n'agaciro hano. Inyandikorugero yinyandiko igomba kuba neza nibyo washyizeho mugutanga serivise ya SMS, kandi <code>key</code> nicyo utanga ushaka kohereza kode. Niba <code>gaciro</code> umurima wicyitegererezo urimo ubusa, noneho <code>{code}</code> bizafatwa nkicyitegererezo kode.",
         add_new_parameter: "Ongeraho Gishya ikintu",
 
         auto_fill: {
           title: "byikora ikintu ikintu",
           subtitle:
-            "ikintu ikintu Agaciro, ikintu Selldone ikintu ikintu Agaciro ikintu ikintu Kuri ikintu ikintu Mburabuzi ikintu ikintu SMS ikintu ikintu , ikintu ikintu ikintu oya ikintu Kuri ikintu ikintu ",
+            "Urashobora gushiraho buri kimwe muri ibyo bipimo nkigiciro, kandi Selldone izabisimbuza agaciro kangana. Nibyiza gusobanura indangagaciro zisanzwe nkicyitegererezo muri SMS yawe kugirango byoroshye. Muri iki kibazo, ntabwo bizaba ngombwa gusobanura ibipimo ngenderwaho hano.",
         },
         request: {
           title: "ikintu ikintu",
         },
         sample: {
           title: "ikintu Inyandikorugero Ubutumwa",
-          subtitle: "ikintu ikintu Inyandikorugero Kuri ikintu SMS ikintu",
+          subtitle: "Urashobora gukoporora no kurenza iyi nyandikorugero kuri SMS yawe.",
         },
         add_message_action: "Ongeraho Ubutumwa Inyandikorugero",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "ikintu ikintu",
-      desc: "Ubutumwa ikintu ikintu ikintu Kuva ikintu ikintu ikintu byikora ikintu ikintu ikintu Ohereza",
+      desc: "Ubutumwa buzakorwa uhereye kumyandiko hamwe na auto gusimbuza ibipimo no kohereza.",
     },
     template: {
       title: "ikintu Inyandikorugero",
-      desc: "ikintu ikintu Kuva ikintu ikintu Ohereza Kuri ikintu ikintu",
+      desc: "Ikintu kizaremwa uhereye kubipimo no kohereza kubitanga.",
     },
   },
 
@@ -8617,40 +8617,40 @@ export default {
     title: "byihariye SMS ikintu",
     reset_error: "ikintu ikintu",
     subtitle:
-      "ikintu ikintu ikintu byihariye SMS serivisi ikintu ikintu SMS ikintu ubucuruzi Izina ikintu Mburabuzi ikintu ikintu Kohereza ikintu SMS ikintu ikintu ubutumwa ikintu ikintu ",
+      "Shiraho serivise yihariye ya serivise kandi uhindure SMS yawe hamwe nizina ryubucuruzi. Mburabuzi itanga gusa SMS yo kwemeza no kumenyesha ubutumwa mubihugu bimwe byashyizwe ku rutonde.",
     plain_text: "ikintu ikintu",
     structural_template: "ikintu Inyandikorugero",
     errors_limit_msg:
-      "ikintu ikintu serivisi ikintu 100 ikintu, ikintu ikintu ikintu byahagaritswe ikintu! ikintu ikintu Kuri ikintu ikintu",
+      "Niba serivisi yawe irenze amakosa 100, izahagarikwa byikora! Urashobora gusubiramo amakosa kugirango wongere uyashoboze.",
 
     enable_input: {
       false_description:
-        "OTP ubutumwa ikintu ikintu Selldone ikintu Hitamo ikintu, ikintu ikintu Tegeka Kumenyesha SMS ikintu ikintu Yoherejwe ikintu ikintu",
+        "Ubutumwa bwa OTP buzoherezwa binyuze muri Selldone mubihugu byatoranijwe, mugihe ubundi butumwa bwo kumenyesha ubutumwa buzoherezwa.",
       true_description:
-        "SMS ubutumwa ikintu ikintu Yatanzwe ikintu ikintu serivisi ikintu",
+        "Ubutumwa bugufi buzatangwa ukoresheje serivise yawe.",
     },
     test_input: {
       true_title: "ikintu ikintu",
       true_description:
-        "ikintu ikintu Ohereza ikintu ikintu Ubutumwa Kuri ikintu telefone ikintu 📞 <b>{phone}</b>, ikintu ikintu Kwishyuza ikintu, ikintu ikintu ikintu korera ikintu ikintu ",
+        "Tuzohereza ubutumwa bwikizamini kuri numero yawe ya terefone 📞 <b>{phone}</b>, irashobora kukwishyuza, ariko urashobora kwemeza ko byose bikora neza.",
     },
     sync_action: {
       title: "Ibikorwa",
       subtitle:
-        "ikintu SMS Serivisi ikintu ikintu Serivisi Nk Ubukangurambaga, Kwamamaza, ikintu ikintu Guhuza ikintu ikintu amakuru Kuri ikintu ikintu ikintu Ibindi. . ikintu",
+        "Serivisi zimwe za SMS zitanga serivisi zinyongera nko kwiyamamaza, kwamamaza, nibindi biranga. Urashobora guhuza amakuru yawe cyangwa amakuru yinyongera kugirango ukoreshe ibiranga byihuse.",
       action: "ikintu Guhuza",
     },
     tokens: {
       title: "ikintu",
       subtitle:
-        "ikintu ikintu Kuri Ihuza ikintu SMS serivisi ikintu ikintu ikintu Amaduka",
+        "Shiraho ibipimo bikurikira kugirango uhuze serivise yawe ya SMS hamwe nububiko bwawe.",
     },
   },
   sms_messages_options: {
     all: {
       title: "OPT + Tegeka Amatangazo",
       description:
-        "ikintu ubutumwa ikintu Tegeka Kumenyesha ikintu ikintu Yoherejwe",
+        "Ubutumwa bwo kwemeza no kumenyesha ibicuruzwa bizoherezwa.",
     },
     otp: {
       title: "OTP ikintu",
@@ -8684,18 +8684,18 @@ export default {
       "Connect ikintu ikintu serivisi ikintu Kuri Ohereza Imeri ikintu ikintu byihariye Indanganturo",
     provider: "ikintu",
     enable_input: {
-      false_description: "ikintu Imeri ikintu ikintu Yoherejwe ikintu ikintu ikintu Indanganturo",
-      true_description: "ikintu Imeri ikintu ikintu Yoherejwe ikintu ikintu byihariye ikintu Indanganturo",
+      false_description: "Imeri yawe izoherezwa ukoresheje domeni ya myselldone.",
+      true_description: "Imeri yawe izoherezwa ukoresheje indangarubuga yawe yihariye.",
     },
     config: {
       title: "ikintu",
       subtitle:
-        "Kuri ikintu ikintu byihariye ikintu serivisi ikintu ikintu Amaduka, Iyinjiza ikintu serivisi API ikintu ikintu Igenamiterere",
+        "Kugirango ugaragaze serivisi yawe yoherejwe kububiko bwawe, andika serivise ya API urufunguzo hamwe nibindi bikoresho bikenewe.",
     },
     sender: {
       title: "Kuva",
       subtitle:
-        "ikintu ikintu Mburabuzi ikintu Izina ikintu Imeri aderesi, ikintu ikintu ikintu Byakoreshejwe ikintu ikintu Imeri Kuri ikintu Abakiriya",
+        "Urashobora gushiraho izina ryaboherejwe mbere na aderesi imeri, bizakoreshwa mukwohereza imeri kubakiriya bawe.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "ikintu ikintu serivisi ikintu 100 ikintu, ikintu ikintu ikintu byahagaritswe ikintu! ikintu ikintu Kuri ikintu ikintu",
+        "Niba serivisi yawe irenze amakosa 100, izahagarikwa byikora! Urashobora gusubiramo amakosa kugirango wongere uyashoboze.",
 
       encryption_ports_guide:
-        "Imeri Abatanga ikintu Tanga SSL, TLS, ikintu ikintu Birashoboka ikintu ikintu huza ikintu ikintu , ikintu ikintu ikintu uburyo ikintu ikintu <b>TLS</b> ikintu ikintu: <b>587</b> ikintu <b>SSL</b> ikintu ikintu: <b>465</b>.",
+        "Abatanga imeri barashobora gutanga SSL, TLS, cyangwa ibanga ridafite ibanga rishingiye ku byambu bihari. Niba guhuza ibisubizo mubibazo, guhindura uburyo bwo kugenzura bishobora gukemura ikibazo. Bisanzwe <b>TLS</b> koresha Icyambu: <b>587</b> na <b>SSL</b> koresha Icyambu: <b>465</b>.",
 
       enable_receive_test:
-        "ikintu Bika ikintu, ikintu ikintu Akira ikintu ikintu <b>{email}</b>. Bika ikintu ikintu Imeri ikintu ikintu Gishya ikintu",
+        "Nyuma yo kuzigama impinduka, uzakira ubutumwa bwikizamini kuri <b>{email}</b>. Bika impinduka mbere yo kohereza imeri yikizamini hamwe nuburyo bushya.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Kugurisha Umuyoboro",
     subtitle:
-      "Kurema ikintu ikintu Icyiciro ikintu ikintu Ibicuruzwa, ikintu ikintu Amashusho ikintu ikintu, ikintu ikintu Kuri Instagram ikintu ikintu, ikintu ikintu , ikintu ikintu Kuri ikintu ikintu ikintu Ibicuruzwa",
+      "Kora icyiciro cyabigenewe kubicuruzwa byawe, wuzuze amashusho na videwo, hanyuma ubisangire kurubuga rusange. Irasa na Instagram na TikTok, ariko hamwe nubugenzuzi bwuzuye, bikwemerera kugurisha ibicuruzwa byawe.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8801,7 +8801,7 @@ export default {
     service: {
       title: "Igishushanyo cya serivisi",
       sub_title:
-        "ikintu Hitamo ikintu serivisi Ubwoko ikintu ikintu amakuru ikintu urugero, ikintu ikintu Urutonde ikintu ikintu ikintu umukiriya ikintu ikintu ikintu Igihe ikintu ikintu ikintu",
+        "Banza uhitemo ubwoko bwa serivisi hanyuma wandike amakuru asabwa. Kurugero, urashobora gusobanura urutonde rwa todo cyangwa kubaza umukiriya igihe cyo gutumiza cyangwa gahunda.",
     },
   },
 
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Umusoro ugomba kongerwa kubiciro byanyuma.",
     invoice: {
       subtitle:
-        "ikintu ikintu ikintu ifishi, ikintu ikintu Kurema ikintu Kwishura Ihuza ikintu ikintu ikintu Umubare ikintu ikintu korera ikintu ikintu Inyemezabuguzi ikintu ikintu Kwishura ikintu ikintu ",
+        "Ukoresheje iyi fomu, urashobora gukora umurongo wo kwishyura kumafaranga runaka. Cyakora kandi gukurikirana inyemezabuguzi no kwemeza kurangiza kwishura byoroshye kandi byoroshye.",
     },
   },
 
@@ -8949,9 +8949,9 @@ export default {
     drag_sort_msg: "ikintu ikintu dosiye",
     paid_mode_msg: "Abakoresha ikintu Kuramo ikintu ikintu Ibicuruzwa",
     free_mode_msg:
-      "Abakoresha ikintu Kuramo ikintu ikintu ubuntu ikintu dosiye ikintu ikintu ikintu 50 MB.",
+      "Abakoresha barashobora kuyikuramo kubuntu. Icyitegererezo dosiye igomba kuba munsi ya 50 MB.",
     has_gust_shopping_msg:
-      "Kwiyandikisha ikintu ikintu Abakoresha ikintu Kuramo dosiye ikintu ikintu Kugura ikintu byakoreshejwe ikintu ikintu Amaduka Igenamiterere > Temba",
+      "Abakoresha biyandikishije nabatumirwa barashobora gukuramo dosiye kuva kugura abashyitsi bishobotse mumiterere yimangazini> gutemba.",
     only_registered_shopping_msg:
       "ikintu Kwiyandikisha Abakoresha ikintu Kuramo ikintu dosiye",
     file_count_limit: "dosiye Kubara Imipaka",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Birashoboka Ahantu",
     subtitle:
-      "ikintu ikintu Ibicuruzwa ikintu serivisi ikintu ikintu Birashoboka ikintu ikintu Uturere, ikintu ikintu Igihugu ikintu ikintu kode, ikintu ikintu Ahantu ikintu ikintu Aho biherereye imbogamizi ikintu ikintu Ibicuruzwa ikintu ikintu ikintu Ibicuruzwa paji, Abakiriya ikintu ikintu ikintu Kuri Hitamo ikintu Aho biherereye ikintu ikintu Ibicuruzwa ikintu Birashoboka ikintu ikintu ikintu Agace, ikintu ikintu Kuri ikintu ikintu ikintu Kugura",
+      "Niba ibicuruzwa byawe cyangwa serivisi biboneka gusa mukarere runaka, bisobanurwa nigihugu na zip cyangwa pin code, urashobora kwerekana ibibanza hano. Izi mbogamizi zumwanya zubahirizwa kurwego rwibicuruzwa. Kurupapuro rwibicuruzwa, abakiriya bazasabwa guhitamo aho baherereye. Niba ibicuruzwa biboneka mukarere bahisemo, bazashobora gukomeza kugura.",
 
     add_location_action: "Ongeraho Igihugu",
     no_restriction: "oya imbogamizi",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "ikintu Aho biherereye imbogamizi",
       description:
-        "Abakiriya ikintu ikintu Kugura ikintu Ibicuruzwa ikintu ikintu ikintu Igihugu ikintu ikintu Kode, ikintu Kuri ikintu ikintu Aho biherereye imbogamizi",
+        "Abakiriya barashobora kugura gusa ibicuruzwa mugihugu cyagenwe na kode ya zip, kubera aho byagenwe byagenwe.",
     },
     zip_pin_code: "ikintu / ikintu kode",
     no_country_selected_error:
-      "ikintu ikintu Igihugu ikintu ikintu ikintu Urutonde ikintu ikintu kode ikintu ikintu, ikintu Ibicuruzwa ikintu ikintu ikintu Birashoboka",
-    tips: "ikintu ikintu ikintu <b>+ Ongeraho Igihugu</b> ikintu Kuri Tangira ikintu ikintu Gishya Aho biherereye ikintu ikintu , ikintu ikintu Bika ikintu ikintu <b>⋮ Ibikubiyemo</b> ikintu Hitamo <b>Bika umwirondoro</b>.",
+      "Nyamuneka shyiramo byibuze igihugu kimwe hamwe nurutonde rwa zip / pin. Bitabaye ibyo, iki gicuruzwa ntikizaboneka.",
+    tips: "Kanda kuri <b> + Ongera Igihugu </b> kugirango utangire gukora ahantu hashya. Numara kurangiza, urashobora kuzigama ukanze hejuru-iburyo <b> ⋮ Ibikurikira </b> hanyuma uhitemo <b> Kubika Umwirondoro </b>.",
     need_save_message:
-      "ikintu Aho biherereye imbogamizi Igenamiterere ikintu ikintu Ibicuruzwa ikintu ikintu ikintu Kuri ikintu ikintu ikintu, ikintu ikintu 'Bika ikintu ikintu",
+      "Igenamiterere ryibibanza kubicuruzwa byahinduwe. Kugirango ubungabunge izo mpinduka, nyamuneka kanda ahanditse 'Kubika' hepfo.",
 
     add_dialog: {
       title: "Ongeraho Igihugu",
       message:
-        "ikintu ikintu Igihugu ikintu ikintu 'Ongeraho ikintu ikintu Igihugu Kuri ikintu ikintu, ikintu ikintu Kuri ikintu ikintu, ikintu kode, ikintu ikintu, ikintu Intara ikintu Kuri ikintu",
+        "Hitamo igihugu hanyuma ukande 'Ongera'. Ibi bizongerera igihugu kumeza, bikwemerera guha Zipcode, code ya pin, amazina yumujyi, cyangwa amazina yakarere.",
     },
     save_profile_dialog: {
       title: "Ongeraho Ahantu umwirondoro",
       message:
-        "ikintu Iyinjiza ikintu Izina Kuri Bika ikintu ikintu ikintu Ahantu ikintu ikintu Aho biherereye ikintu ikintu Kuri ikintu Ibicuruzwa, ikintu ikintu ikintu Aho biherereye ikintu ikintu umwirondoro ikintu ikintu ikintu Izina ikintu ikintu, ikintu ikintu Gishya ikintu",
+        "Nyamuneka andika izina kugirango ubike urutonde rwibibanza. Ibi bibitswe byabitswe birashobora gukoreshwa mubindi bicuruzwa, bikwemerera ahantu byihuse byikuramo ukanze rimwe gusa. Niba umwirondoro ufite izina ryatanzwe umaze kubaho, bizavugururwa nindangagaciro nshya.",
       title_input: {
         title: "umwirondoro Umutwe",
         placeholder: "ikintu Icyiciro Izina, ikintu ububiko Izina,. ..",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "ikintu Ahantu umwirondoro",
       message:
-        "ikintu ikintu ikintu Ahantu ikintu Hitamo ikintu ikintu ikintu Aho biherereye ikintu ikintu",
+        "Urashobora guterura ibibanza uhitamo ahantu wabitswe mbere washyizweho hano.",
 
       select_input: {
         title: "Aho biherereye umwirondoro",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "ikintu Tegeka Raporo",
-      desc: "Akira ikintu ikintu Imeri ikintu ikintu Ibisobanuro ikintu Amabwiriza ikintu ikintu ikintu",
+      desc: "Akira imeri ya buri munsi hamwe nibisobanuro byateganijwe kuri uriya munsi.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "ikintu Amaduka",
       subtitle:
-        "ikintu, ikintu ikintu Amaduka ikintu ikintu Kuri ikintu ikintu amakuru Birashoboka ikintu ikintu Amaduka ikintu, ikintu ikintu Kuva ikintu ikintu Amabwiriza ikintu ikintu Umuntu ku giti cye amakuru, ikintu ikintu Amakuru ikintu ikintu ikintu Kuri ikintu Rubanda ikintu ikintu amakuru ikintu, ikintu ikintu ikintu ububiko ikintu ikintu ",
+        "Hano, urashobora kuvumbura ihitamo ryububiko bwintangarugero. Uhabwa uruhushya rwo gusuzuma amakuru aboneka muri aya mangazini. Nyamuneka, nyamuneka wirinde kwinjira cyangwa gutanga amabwiriza ukoresheje amakuru yihariye, kuko aya makuru azagera kubaturage. Niba winjiye kubwimpanuka amakuru yawe hano, nyamuneka usohoke mububiko hanyuma utubwire kugirango tugufashe.",
     },
 
     add_new_store: "Ongeraho Gishya ububiko",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Ibyiciro bya Blog",
     subtitle:
-      "ikintu ikintu Kurema ikintu ikintu Ibyiciro ikintu ikintu blogu ikintu Kuri Gucunga ikintu Ibindi. . ikintu ikintu ikintu Icyiciro Imipaka ikintu ikintu Urubuga ikintu, ikintu ikintu ikintu gishya ikintu ikintu Ibyiciro, ikintu ikintu ikintu 100, Kuri ikintu Ubuyobozi ikintu ikintu ",
+      "Urashobora gukora umubare ntarengwa wibyiciro byanditse kuri blog kugirango ubicunge neza. Kugira icyiciro ntarengwa biteza imbere gahunda nziza kurubuga rwawe. Ikigaragara ni uko n'inzego zamakuru makuru zo hejuru zigumana umubare muto wibyiciro, akenshi bitarenze 100, kugirango byorohereze imiyoborere kandi bikomeze kwibanda cyane.",
 
     add_action: "Ongeraho icyiciro gishya",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "ikintu ikintu ikintu",
     subtitle:
-      "ikintu ikintu ikintu Urutonde ikintu ikintu Kuri ikintu blogu ikintu ikintu ikintu Ibicuruzwa ibisobanuro Kuri ikintu Yatangajwe ikintu ikintu Ibihe",
+      "Dore urutonde rwibintu byateganijwe gushyirwa ahagaragara. Ufite ubushobozi bwo guteganya inyandiko za blog ndetse nibisobanuro byibicuruzwa bigomba gutangazwa mugihe runaka.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Umufasha wungirije",
     subtitle:
-      "Kohereza ikintu Kuramo ikintu ikintu ikintu Tegeka ikintu - ikintu ikintu 100 Amabwiriza ikintu",
+      "Kohereza no gukuramo ibirango byo gutumiza ibicuruzwa byinshi - nibyiza gukemura ibicuruzwa birenga 100 kumunsi.",
 
     timespan: {
       title: "Igihe",
@@ -9266,7 +9266,7 @@ export default {
       title: "Uburyo bwo kwinjira",
       subtitle: "Hindura uburyo abakoresha binjira mububiko bwawe.",
 
-      tips: "<b>ikintu</b> ikintu ikintu umukoresha ikintu ikintu ikintu Amaduka, ikintu ikintu Selldone umukoresha ikintu ikintu, ikintu ikintu umukoresha ikintu ikintu Kwinjira Kuri ikintu aderesi ikintu ikintu byose Amaduka ikintu ikintu Reba ikintu Tegeka Amateka, ikintu ikintu ikintu Amaduka ikintu ikintu amakuru ikintu Kwamamaza ikintu ikintu Kuri ikintu ikintu Kuri ikintu ikintu, ikintu Ohereza ikintu Imeri Kuri ikintu umukoresha ikintu ikintu ",
+      tips: "<b>Important.</b> When a user registers with your shop, a corresponding Selldone user is created, if one doesn't already exist. This user will have access to their address book across all shops and can view their order history, even if a shop has closed. We do not use this information for marketing purposes but require it to prevent fraud on both sides. To maintain transparency, we'll send an email to the user informing them of their registration.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Kugenzura ifishi",
       subtitle:
-        "ikintu ikintu Kugenzura ifishi ikintu Kuri ikintu ikintu amakuru ikintu ikintu Kuva ikintu Abakiriya",
+        "Hindura uburyo bwo kugenzura imirima kugirango ukusanye amakuru ukeneye kubakiriya bawe.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "ikintu",
       title: "ikintu",
       description:
-        "ikintu Ibicuruzwa ikintu ikintu urutonde ikintu ikintu ububiko, ikintu ikintu Ihuza",
+        "Ibicuruzwa ntabwo byashyizwe mububiko, ariko birashoboka kubihuza.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Ohereza ikintu ikintu",
     message:
-      "Selldone ikintu ikintu ikintu 3 ubucuruzi ikintu Kuri ikintu ikintu amakuru ikintu ikintu Kuvugurura ikintu ikintu ikintu Igihe ikintu ikintu",
+      "Menya ubucuruzi bwawe bwa 3 bukeneye gutera imbere no kunguka kuri Selldone. Aya makuru azasangirwa muburyo butaziguye nabashinze n'abayobozi kandi azasuzumwa neza. Urashobora kandi kuvugurura ibyo ukeneye mugihe nyuma yo gutanga.",
     expand_action: "kwandika ikintu ikintu",
     input_label: "ikintu ikintu",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Ohereza Kuri ikintu",
     },
     placeholder: {
-      ceo: "ikintu oya ikintu Kuri ikintu ikintu, ikintu Nk Kuri ikintu ikintu ikintu, ikintu ikintu Kuri ikintu",
-      team: "ikintu ikintu Kuri ikintu ikintu Kuri ikintu ikintu Kuri ikintu",
+      ceo: "Ntabwo rwose bikenewe kuba byiza, nkunda kumva ibyerekezo byawe, iburyo-ku-ngingo.\nurugero Nkeneye kugira ...",
+      team: "Nyamuneka gerageza ube mwiza kuri bo.\nurugero Nkeneye kugira ...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "ikintu Kuzana Ibicuruzwa",
     message:
-      "ikintu ikintu Kuzana Ibicuruzwa ikintu Amashusho, ikintu ikintu Igihe Kuri ikintu",
+      "Turi muburyo bwo gutumiza ibicuruzwa n'amashusho, bishobora gufata igihe kugirango birangire.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "ikintu amakuru ikintu ikintu umukiriya, ikintu ikintu Ibicuruzwa Iyinjiza ifishi ikintu",
+      "Ibisobanuro byerekanwe hano byatanzwe nabakiriya, ukurikije imiterere yibicuruzwa byinjira.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "serivisi Imiterere",
       auto_confirm_enable_msg: "ikintu ikintu Amabwiriza ikintu byakoreshejwe",
       auto_confirm_disable_msg:
-        "byikora ikintu ikintu Amabwiriza ikintu ikintu byakoreshejwe",
+        "Kwemeza byikora byateganijwe ntabwo bishoboka.",
       shipping_enable_msg:
-        "ikintu Kohereza ikintu ikintu amakuru ikintu ikintu Kugenzura",
+        "Igiciro cyo kohereza kizabarwa hashingiwe ku makuru yatanzwe kuri cheque.",
     },
     detail: {
       title: "Connect ikintu",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "ikintu ikintu",
         subtitle:
-          "ikintu ikintu Ibisobanuro ikintu amakuru ikintu ikintu soza",
+          "Ibisobanuro byimbere. Aya makuru abitswe nyuma yigihe cyo guhuza ibihe birangiye neza.",
         no_data: "oya ikintu amakuru!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Ibicuruzwa",
       subtitle:
-        "Urutonde ikintu Ongeraho Ibicuruzwa Kuva {name}. korera ikintu ikintu Ibicuruzwa ikintu ikintu ikintu Izina ikintu SKU. ikintu Connect Serivisi ikintu Byakoreshejwe ikintu ikintu, ikintu ikintu Ibicuruzwa ikintu ikintu <b>SKUikintu</b> ikintu <b>ikintu</b>, ikintu Ibicuruzwa ikintu ikintu ikintu!",
+        "Urutonde rwibicuruzwa byongeweho kuva {name}. Menya neza ko ibicuruzwa byawe bifite izina ryihariye na SKU. Serivise zimwe zihuza zikoreshwa mukwimuka, niba rero ufite ibicuruzwa bifite duplicate <b>SKUs</b> na <b> Amazina</b>, ibyo bicuruzwa bizahinduka!",
       action: "ikintu Ibicuruzwa",
       syncing_message: "ikintu ikintu ikintu",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "ikintu",
       subtitle:
-        "ikintu Urutonde ikintu byose ikintu ikintu 7 Iminsi 30 ikintu ikintu ubufasha ikintu ikintu ikintu serivisi Abatanga",
+        "Urutonde rwibiti byose muminsi 7 ishize. Ibiranga ibiti byashyigikiwe gusa kubatanga serivisi zo hanze.",
     },
 
     edit: {
@@ -9602,11 +9602,11 @@ export default {
         false_desc: "ikintu byose Birashoboka Ibicuruzwa, Ibyiciro, Abakiriya",
         true_title: "ikintu (ikintu ikintu ikintu)",
         true_desc:
-          "ikintu Icyiza 5 Ibicuruzwa, Ibyiciro, ikintu Abakiriya ikintu ikintu Kuri ikintu uburyo ikintu ikintu Connect > Gushiraho ikintu ikintu Igihe",
+          "Shaka ibicuruzwa 5, ibyiciro, nabakiriya. Urashobora kuyihindura muburyo bwuzuye muri Guhuza> Gushiraho igihe icyo aricyo cyose.",
       },
       overwrite: {
         false_title: "ikintu ikintu Hindura ikintu ikintu",
-        false_desc: "ikintu ikintu Ibicuruzwa ikintu Icyiciro Ibisobanuro ikintu ikintu ikintu",
+        false_desc: "Gumana ibicuruzwa biriho nibisobanuro birambuye uko biri.",
         true_title: "ikintu",
         true_desc:
           "Kuvugurura ikintu Ibicuruzwa, ikintu, ikintu Icyiciro amakuru",
@@ -9618,33 +9618,33 @@ export default {
       order: {
         title: "itegeko Imiterere",
         subtitle:
-          "ikintu ikintu Byahujwe Serivisi Tegeka Ubuyobozi Igenamiterere ikintu ikintu ububiko ikintu Harimo Gushiraho ikintu Tegeka ikintu, ikintu byikora Tegeka ikintu (ikintu ubufasha), ikintu ikintu Kohereza ikintu ikintu",
+          "Hindura igenamiterere rya serivise ihujwe yo gucunga ibicuruzwa byawe. Ibi bikubiyemo gushyiraho ibyemezo byemewe, bigushoboza kwemeza byikora (niba bishyigikiwe), no kugena ibiciro byo kohereza.",
       },
       enable: {
         label: "Connect Imiterere",
-        true_desc: "Ibarura ikintu Amabwiriza ikintu ikintu ikintu",
+        true_desc: "Ibarura hamwe nibisabwa bizahuzwa.",
       },
       confirm: {
         label: "byikora ikintu Amabwiriza",
         false_desc: "ikintu ikintu ikintu Tegeka ikintu",
         true_desc:
-          "Amabwiriza ikintu Baho Kwishura ikintu ikintu Amabwiriza ikintu ikintu Kwishura ikintu ikintu ",
-        tips: "Amabwiriza Yishyuwe ikintu Impano Ikarita ikintu COD ikintu Kwishura Amarembo ikintu ikintu ikintu uburyo ikintu ikintu Byemejwe ikintu",
+          "Ibicuruzwa bifite ubwishyu bizahita byemerwa. Amabwiriza afite ubwishyu bwo kwishyura ntabwo azemera mu buryo bwikora.",
+        tips: "Ibicuruzwa byishyuwe n'ikarita y'impano cyangwa COD cyangwa amarembo yo kwishyura muburyo bwo gukemura ibibazo ntibisanzwe kandi ntibizemezwa mu buryo bwikora.",
       },
 
       shipping: {
         label: "Kohereza",
-        tips: "ikintu serivisi Amaturo Kohereza ikintu, ikintu ikintu ikintu byakoreshejwe ikintu byahagaritswe ikintu ikintu byakoreshejwe, ikintu ikintu APIikintu ikintu 3ikintu ikintu Serivisi ikintu ikintu ikintu, ikintu ikintu 300ikintu ikintu igiciro ikintu ikintu Kugenzura paji",
+        tips: "Iyi serivisi itanga ibicuruzwa byoherejwe, bishobora gushobozwa cyangwa guhagarikwa nkuko ubishaka. Niba bishoboka, kubara ibiciro APIs hamwe na serivisi zishyaka rya 3 bizakenerwa, bishobora gutera gutinda kurenga 300m yo kuvugurura igiciro kurupapuro rwigenzura.",
         false_title: "ikintu",
         false_desc:
-          "ikintu ikintu Kohereza ikintu ikintu, ikintu Amaduka > ikintu > ikintu ikintu byose Ibicuruzwa, ikintu Kuzana ikintu",
+          "Koresha ibicuruzwa byanjye byo kubara, mububiko> Logistic> Gutwara ibicuruzwa byose, harimo nibitumizwa hanze.",
         true_title: "ikintu Kohereza",
         true_desc:
-          "ikintu ikintu Kohereza ikintu ikintu API itangwa ikintu ikintu serivisi",
+          "Koresha igipimo cyo kohereza ibicuruzwa API itangwa niyi serivisi.",
       },
 
       remove: {
-        verify: "ikintu ikintu Kuri Kuraho ikintu ikintu",
+        verify: "Ndagenzura gukuraho iyi connection.",
         action: "Kuraho huza",
       },
     },
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect ikintu ubucuruzi ikintu Kuri ikintu Serivisi ikintu Gucunga byose Imiyoboro ikintu ikintu ",
+        "Huza ubucuruzi bwawe os na serivisi zo hanze kandi ucunge imiyoboro yose ahantu hamwe.",
       action: "Connect Gishya Serivisi",
       empty_message:
-        "ikintu Porogaramu ikintu ikintu ikintu Kureka! Connect ikintu ikintu Tegeka Ubuyobozi",
+        "Wibagiwe porogaramu na plugin zo guta! Kwihuza nigihe kizaza cyo gutondekanya imipaka.",
       auto_confirm: "byikora ikintu",
       shipping: "Kohereza",
       syncing_now: "ikintu ikintu!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "ikintu",
-      desc: "ikintu Ibicuruzwa, Ibyiciro, ikintu Abakiriya ikintu ikintu umukoresha Siba ikintu serivisi, ikintu Yakiriwe Ibicuruzwa, Ibyiciro, ikintu Abakiriya ikintu ikintu ikintu Gusiba",
+      desc: "Shaka ibicuruzwa, ibyiciro, nabakiriya. Nyuma yuko umukoresha asibye iyi serivisi, ibicuruzwa byakiriwe, ibyiciro, nabakiriya ntibizasibwa.",
     },
     Dropshipping: {
       title: "Kureka",
-      desc: "ikintu Ibicuruzwa, Ibyiciro, ikintu Amabwiriza ikintu ikintu Kuraho Ibicuruzwa ikintu ikintu umukoresha Kuraho ikintu serivisi",
+      desc: "Shaka ibicuruzwa, ibyiciro, nibisabwa. Sisitemu ikuraho ibicuruzwa nyuma yuko uyikoresha akuye serivise.",
     },
     Marketplace: {
       title: "Isoko",
-      desc: "ikintu ikintu Ibarura ikintu Akira Amabwiriza (Ibicuruzwa ikintu ikintu bihujwe ikintu SKU).",
+      desc: "Gusa guhuza ibarura no kwakira ibicuruzwa (Ibicuruzwa bizahuzwa na SKU).",
     },
     Accounting: {
       title: "Ibaruramari",
@@ -9699,7 +9699,7 @@ export default {
     title: "Impapuro",
     add_new_action: "Ongeraho Gishya paji",
     subtitle:
-      "Kurema ikintu, ikintu byihariye Urupapuro ikintu ikintu Ikirango ikintu ikintu ikintu AI-ikintu ikintu ikintu, ikintu ikintu Amakuru",
+      "Kora impapuro zidasanzwe, zishubije kurupapuro rwawe rwihariye ukoresheje ikirangantego cya AI gikoreshwa na enterineti, hanyuma uhite ubyara ibintu byingirakamaro mugaburira amakuru.",
     empty_message: "Igishushanyo byihariye Urupapuro ikintu ikintu & ikintu",
   },
 
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "Ibitekerezo",
-    subtitle: "ikintu ikintu ikintu Urutonde ikintu ikintu ikintu Ibitekerezo",
+    subtitle: "Uru nurutonde rwibitekerezo byabaturage.",
     empty_msg: "oya Ibitekerezo ikintu ikintu ",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "Ibyiciro",
-    subtitle: "ikintu ikintu ikintu Urutonde ikintu ikintu ikintu Ibyiciro",
+    subtitle: "Uru ni urutonde rwibyiciro byabaturage.",
     new_category_action: "Icyiciro gishya",
     empty_msg: "oya Ibyiciro ikintu ikintu ",
     filter: {
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "ikintu",
-    subtitle: "ikintu ikintu ikintu Urutonde ikintu ikintu ",
+    subtitle: "Uru nurutonde rwimyanya yabaturage.",
     filter: {
       deleted: {
         title: "Gusiba",
@@ -9762,11 +9762,11 @@ export default {
     menu: {
       open_post: {
         title: "ikintu ikintu",
-        subtitle: "Reba ikintu Hindura ikintu ikintu ikintu Umuganda",
+        subtitle: "Reba kandi uhindure inyandiko mubaturage.",
       },
       spam: {
         title: "Raporo & Kuraho ikintu",
-        subtitle: "ikintu Kuraho ikintu ikintu ikintu umukoresha",
+        subtitle: "Umubare munini ukuraho inyandiko kandi uhagarike umukoresha.",
       },
       delete: {
         title: "Gusiba ikintu",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "tagi ikintu",
       subtitle:
-        "Google ikintu ikintu ROI ikintu ikintu ikintu, ikintu, ikintu ikintu Porogaramu Gucunga Urubuga Etiquetas ikintu ikintu Google tagi ikintu ubuntu, Biroroshye, ikintu ikintu ikintu—oya Kode Hindura ikintu",
+        "Google Analytics ituma gupima iyamamaza ROI mugihe ukurikirana Flash, videwo, n'imbuga nkoranyambaga. Gucunga ibirango byurubuga bitagoranye hamwe na Google Tag Manager wubusa, byoroshye, kandi byizewe-nta guhindura code bisabwa.",
       tag_id: {
         label: "Google tagi ikintu ID",
       },
@@ -9791,12 +9791,12 @@ export default {
       title: "Google ikintu",
       subtitle:
         "Amakuru ikintu ikintu amakuru ikintu ikintu Ihuza Kuri ikintu Ongeraho byose Ibicuruzwa ikintu Ibyiciro Kuri Google ikintu",
-      tips: "ikintu ikintu Kuri ikintu ikintu ikintu Gucunga Google Amatangazo",
+      tips: "Urashobora gukoresha iki gikoresho kugirango utizigamye kandi uhite ucunga amatangazo ya Google.",
       link_message: "Google Ibicuruzwa ikintu URL",
     },
     console: {
       title: "shakisha ikintu",
-      subtitle: `Ongeraho ikintu ikintu tagi Kuri ikintu ikintu ikintu Google shakisha ikintu ikintu`,
+      subtitle: "Ongeraho meta tag kurupapuro rwawe kugirango Google igenzure.",
       code: {
         label: "ikintu ikintu tagi",
         placeholder: "Kuva ikintu, ikintu ikintu",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & ikintu",
       subtitle:
-        "ikintu ikintu SEO ikintu Amakuru Kuva Google ikintu ikintu ikintu Kuri ikintu ikintu ",
+        "Twabonye amakuru yubugenzuzi ya SEO avuye muri Google kandi tuyagezaho muburyo bworoshye. Kurikiza gusa intambwe zatanzwe.",
     },
     serp_content: {
       title: "Connect Kuri Google shakisha ikintu",
       subtitle:
-        "Selldone Connect ikintu Amaduka Kuri ikintu shakisha ikintu ikintu Tangira ikintu ikintu, ikintu, ikintu ikintu ubuntu SEO Ibikoresho ikintu ikintu",
+        "Huza iduka ryawe kuri konsole ishakisha hanyuma utangire gushakisha ijambo ryibanze, urwego, nibindi bikoresho bya SEO kubuntu kuri Selldone.",
       tips: {
         title:
-          "ikintu Kuri ihuza Selldone ikintu Google shakisha ikintu, ikintu ikintu ikintu:",
-        add_in_selldone: "Ongeraho, ikintu, ikintu ikintu ikintu Ibanze ikintu byihariye Indanganturo",
-        add_in_google: `Ongeraho ikintu ikintu <b>{domain}</b> ikintu ikintu<a href="https://search.google.com/search-console" target="_blank"> <b>Google shakisha ikintu</b></a>.`,
+          "Mbere yo guhuza Selldone na Google Shakisha Konsole, menya ibi bikurikira:",
+        add_in_selldone: "Ongeraho, kugenzura, no gushiraho nkibanze Domisiyo yawe yihariye.",
+        add_in_google: "Ongeraho kandi ugenzure <b>{domain}</b> muri<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Gushakisha Google Gushakisha</b></a>.",
       },
       action_custom_domain: "byihariye Indanganturo",
       action_connect_now: "Ihuze Noneho",
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "Igiteranyo gusubizwa amafaranga",
     delete_alert: {
       title: "Gusiba gusubizwa amafaranga ikintu",
-      message: "ikintu ikintu ikintu Kuri Gusiba ikintu gusubizwa amafaranga ikintu?",
+      message: "Uzi neza gusiba iyi gahunda yo kugarura amafaranga?",
       action: "Yego, Siba Noneho",
     },
     notifications: {
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "ikintu ikintu ikintu ku ijana, Imipaka ikintu ikintu Imiterere ikintu",
+      subtitle: "Shiraho chasback kwijana, imipaka nimiterere yayo hano.",
     },
     percent_input: {
       title: "gusubizwa amafaranga ikintu",
       message: "ikintu ikintu gusubizwa amafaranga ikintu Kuva 1% Kuri 20%.",
     },
     currency_input: {
-      message: "ikintu gusubizwa amafaranga ikintu ikintu ikintu Birashoboka ikintu ikintu ikintu Ifaranga",
+      message: "Gahunda yo gusubiza inyuma izaboneka kuriyi faranga gusa.",
     },
     limit_input: {
       title: "Imipaka",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Ikiringo Imipaka",
-      subtitle: "ikintu Ikiringo ikintu gusubizwa amafaranga ikintu ikintu si ngombwa",
+      subtitle: "Shiraho igihe cyo kugaruza gahunda. Ntabwo ari ngombwa.",
     },
     start_input: {
       title: "Itariki yo gutangiriraho",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "ikintu Umutwe ikintu ikintu Ibisobanuro ikintu ikintu gusubizwa amafaranga ikintu ikintu amakuru ikintu ikintu ikintu Kuri Abakiriya",
+        "Shiraho umutwe nibisobanuro bigufi kuri gahunda yo gusubiza inyuma. Aya makuru azerekanwa kubakiriya.",
     },
     title_input: {
       title: "Umutwe",
@@ -9933,9 +9933,9 @@ export default {
       title: "Kugura byibuze",
     },
     only_first_buy_input: {
-      false_desc: "ikintu gusubizwa amafaranga ikintu ikintu ikintu Birashoboka ikintu byose Amabwiriza",
+      false_desc: "Porogaramu yo kugarura amafaranga izaboneka kubisabwa byose.",
       true_desc:
-        "ikintu gusubizwa amafaranga ikintu ikintu ikintu Birashoboka ikintu ikintu Tegeka",
+        "Porogaramu yo kugarura amafaranga izaboneka gusa kurutonde rwa mbere.",
       true_title: "ikintu ikintu Tegeka",
       false_title: "byose Amabwiriza",
     },
@@ -9943,30 +9943,30 @@ export default {
       false_title: "byose Abakiriya",
       true_title: "ikintu Abakiriya",
       true_msg:
-        "ikintu gusubizwa amafaranga ikintu ikintu ikintu Birashoboka ikintu ikintu ikintu Abakiriya ikintu ikintu ikintu",
+        "Gahunda yo gusubiza amafaranga izaboneka kubakiriya babishoboye gusa.",
     },
     club: {
       subtitle:
-        "ikintu ikintu gusubizwa amafaranga ikintu ikintu gusubizwa amafaranga ikintu ikintu ikintu Birashoboka ikintu ikintu ikintu Abakiriya ikintu ikintu ",
+        "Shiraho club kuri gahunda yo gusubiza inyuma. Gahunda yo kugarura amafaranga izaboneka kubakiriya bari muri iyi club.",
     },
     cluster: {
       subtitle:
-        "ikintu ikintu gusubizwa amafaranga ikintu, ikintu ikintu Gucunga ikintu Ibindi. . ikintu",
+        "Muguhuza cluster na progaramu ya cashback, urashobora kuyicunga neza.",
     },
     notifications: {
       add: "gusubizwa amafaranga ikintu Ongeraho ikintu",
       edit: "gusubizwa amafaranga ikintu ikintu ikintu",
     },
     enable_input: {
-      true_msg: "ikintu gusubizwa amafaranga ikintu ikintu Bikora ikintu Abakiriya ikintu ikintu ikintu",
+      true_msg: "Porogaramu yo kugarura amafaranga irakora kandi abakiriya barashobora kuyikoresha.",
       false_msg:
-        "ikintu gusubizwa amafaranga ikintu ikintu idakora ikintu Abakiriya ikintu ikintu ",
+        "Porogaramu yo kugarura amafaranga idakora kandi abakiriya ntibashobora kuyikoresha.",
     },
     boosted_input: {
       false_title: "Bisanzwe",
       true_title: "ikintu (2ikintu gusubizwa amafaranga)",
       true_msg:
-        "ikintu gusubizwa amafaranga ikintu ikintu uburyo ikintu Abakiriya ikintu Akira 2ikintu gusubizwa amafaranga",
+        "Porogaramu yo kugarura amafaranga iri muburyo bwo kuzamura kandi abakiriya bazakira 2x cashback.",
       false_msg:
         "ikintu gusubizwa amafaranga ikintu ikintu ikintu Bisanzwe uburyo ikintu Abakiriya ikintu Akira Bisanzwe gusubizwa amafaranga",
     },
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "ikintu ikintu Gutanga",
-        subtitle: "ikintu ikintu Gutanga ikintu Kwishura ikintu",
+        subtitle: "Urashobora kwemeza intoki gutanga kubitanga.",
       },
     },
   },
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "gusubiza amafaranga Kwishura",
     message:
-      "ikintu Umutekano ikintu, ikintu Amabwiriza Yishyuwe ikintu ikintu ikintu 7 Iminsi 30 ikintu ikintu ikintu gusubiza amafaranga",
+      "Kubwimpamvu z'umutekano, gusa ibicuruzwa byishyuwe muminsi 7 ishize biremewe gusubizwa.",
     payment_amount: "Amafaranga yo kwishyura",
     total_refund_amount: "Igiteranyo gusubiza amafaranga Umubare",
     can_refund: "ikintu gusubiza amafaranga",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "ikintu gusubiza amafaranga",
       description:
-        "ikintu ikintu gusubiza amafaranga Umubare ikintu ikintu Kuri ikintu",
+        "Ndemeza ko amafaranga yo gusubizwa arukuri kandi ndashaka gukomeza.",
     },
     action: "gusubiza amafaranga ikintu",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "umukiriya Gutanga ikintu",
     message:
-      "ikintu Kwishura Serivisi ikintu ikintu Tegeka ikintu ikintu Yatanzwe Kuri ikintu umukiriya ikintu ikintu Ohereza ikintu ikintu Tegeka ikintu ikintu ikintu Akira ikintu Abakiriya Gutanga ikintu ikintu, ikintu ikintu ikintu Kuri ikintu ikintu , ikintu ikintu ",
+      "Serivisi zimwe zo kwishyura zisaba kwemeza ko itegeko ryatanzwe kubakiriya. Mubisanzwe twohereza iki cyemezo mugihe cyanyuma cyo kuzuza ibyateganijwe mugihe twakiriye ibyemezo byabakiriya. Ariko, niba ukeneye gukora iki gikorwa intoki, urashobora kubikora hano.",
     verify: {
       title: "ikintu Gutanga",
       description:
-        "ikintu ikintu Tegeka ikintu ikintu Yatanzwe Kuri ikintu umukiriya",
+        "Ndemeza ko itegeko ryatanzwe kubakiriya.",
     },
     action: "ikintu ikintu",
   },
@@ -10029,14 +10029,14 @@ export default {
     title: "Kugurisha umusaraba",
     add_new_actions: "Ongeraho ibicuruzwa bishya",
     subtitle:
-      "ikintu ikintu ikintu, ikintu ikintu Ongeraho ikintu Gucunga ikintu Ibicuruzwa ikintu ikintu Ibicuruzwa paji ikintu Ibicuruzwa ikintu ikintu Abakiriya Kuri Kugura ikintu ikintu nyamukuru ikintu ikintu igabanywa Kuri ikintu ikintu Kugura ikintu ikintu nini ikintu 3 Ibintu ikintu ikintu umukiriya Kuri ikintu",
+      "Muri iki gice, urashobora kongeramo no gucunga ibicuruzwa byambukiranya ibicuruzwa kurupapuro rwibicuruzwa. Ibicuruzwa bizerekanwa nkibitekerezo byabakiriya kugura kuruhande rwibanze. Urashobora kandi gushiraho kugabanuka kugirango ushishikarize kandi ushishikarize kugura byongeye. Sisitemu izerekana ntarengwa ibintu 3 kugirango abakiriya babitekerezeho.",
     dialog: {
       edit_title: "Hindura ikintu ikintu Ibicuruzwa",
       add_title: "Ongeraho Gishya ikintu ikintu Ibicuruzwa",
       target: {
         title: "ikintu Ibicuruzwa",
         subtitle:
-          "ikintu ikintu Ibicuruzwa ikintu Nk Kuri ikintu ikintu Ibicuruzwa",
+          "Hitamo ibicuruzwa wifuza kuzamura nkibicuruzwa byambukiranya ibicuruzwa.",
         select_products: "Hitamo Ibicuruzwa(ikintu)",
       },
       list: {
@@ -10047,18 +10047,18 @@ export default {
       discount: {
         title: "Kugabanuka & Ubutumwa",
         subtitle:
-          "ikintu ikintu Kuri ikintu ikintu Ubutumwa ikintu Tanga ikintu Kugabanuka Kuri ikintu Abakiriya Kuri Gura ikintu Hitamo ikintu Ibintu ikintu Inkunga ikintu ubufasha ikintu Kugurisha ikintu ikintu ",
+          "Ufite uburyo bwo gushyiramo ubutumwa no gutanga kugabanyirizwa gushishikariza abakiriya kugura ibintu byatoranijwe byiyongereye. Izi nkunga zirashobora gufasha gutwara ibicuruzwa no kuzamura uburambe muri rusange.",
         amount_input: {
           message:
-            "ikintu Kugabanuka ikintu ikintu Kuri ikintu Ibicuruzwa igiciro ikintu ikintu ikintu Konti byose ikintu igabanywa",
+            "Ijanisha ryo kugabanywa rizakoreshwa kubiciro byibicuruzwa nyuma yo kuzirikana ibiciro byose bihari.",
         },
         mismatch_type_warning:
-          "igabanywa ikintu ikintu ikintu Kuri ikintu Ubwoko ikintu ikintu nyamukuru Ibicuruzwa Ubwoko, ikintu ikintu Ibintu ikintu ikintu ",
+          "Kugabanuka ntibishobora gukoreshwa mubundi bwoko usibye ubwoko bwibicuruzwa nyamukuru, nkinkomoko nibintu bigenewe ntibizashyirwa mubiseke bimwe.",
         not_support_subscription_type_warning:
-          "Gushiraho igabanywa ikintu ikintu Kwiyandikisha Ibicuruzwa ikintu ikintu ikintu, ikintu ikintu Igiciro Gahunda ikintu ikintu ",
+          "Gushiraho kugabanuka kubicuruzwa byandikirwa kugurisha ntibishoboka, kuko gahunda y'ibiciro ntishobora guhinduka muburyo bukomeye.",
         message_input: {
           message:
-            "ikintu ikintu Umutwe Kuri ikintu Abakiriya ikintu",
+            "Kora umutwe uteye ubwoba kandi ushimishije kugirango ushimishe abakiriya.",
           placeholder:
             "ikintu & Bika: ikintu ikintu !",
         },
@@ -10066,7 +10066,7 @@ export default {
       action: {
         title: "ikintu",
         subtitle:
-          "ikintu ikintu ikintu Ibicuruzwa ikintu ikintu Ibicuruzwa ikintu ikintu Iyinjiza ikintu byihariye amakuru, ikintu ikintu ifishi, ikintu ikintu ikintu \"Ongeraho Kuri ikintu\" ikintu ikintu ikintu, ikintu ikintu Kuri ikintu",
+          "Hindura ibikorwa byo kugurisha ibicuruzwa hano. Niba ibicuruzwa byawe bisaba kwinjiza amakuru yihariye, nko kunyuza kumpapuro zagaciro, ntuhitemo \"Ongera Kuri Ikarita\" nkigikorwa, kuko ibi bishobora kuganisha ku makosa.",
       },
     },
   },
@@ -10078,13 +10078,13 @@ export default {
     variants: {
       title: "ikintu ikintu",
       subtitle:
-        "Hitamo ikintu Kuri ikintu ikintu , ikintu ikintu Ibihinduka Kuri Kurema ikintu",
+        "Hitamo kugeza kubintu bibiri bitandukanye. Nyuma yo guhitamo, urashobora guhitamo ibintu byihariye byo gukora byikora.",
     },
     values: {
       title: "ikintu ikintu",
       subtitle: "ikintu ikintu ",
       prevent_duplicates_tips:
-        "<b>Icyitonderwa:</b> ikintu ikintu Ibihinduka Kuri ikintu ikintu",
+        "<b> Icyitonderwa: </b> Turahita dusuzuma impinduka zihari kugirango twirinde kwigana.",
     },
     inventory: {
       title: "ikintu Ibarura",
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Ongera ku Ikarita",
       description:
-        "ikintu ikintu Ongeraho Kuri ikintu ikintu ikintu Icyitonderwa ikintu ikintu Kwiyandikisha Ibicuruzwa",
+        "Erekana Ongera Kuri Ikarita buto. Menya ko ibi bidakoreshwa mubicuruzwa byo kwiyandikisha.",
     },
     ViewProduct: {
       title: "Reba ibicuruzwa",
       description:
-        "ikintu ikintu Reba Ibindi. . ikintu ikintu ikintu Abakiriya Kuri ikintu Ibicuruzwa paji ikintu ikintu ikintu Gishya ikintu",
+        "Erekana Reba Ibindi Byinshi biyobora abakiriya kurupapuro rwibicuruzwa ufungura idirishya rishya.",
     },
   },
 
@@ -10115,15 +10115,15 @@ export default {
 
   product_flow: {
     title: "Kugura Temba",
-    subtitle: "ikintu ikintu ikintu Kugura Temba ikintu ikintu Ibicuruzwa",
+    subtitle: "Nuburyo bwo kugura no kugenzura ubuzima bwibicuruzwa byawe.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "ikintu Ibicuruzwa ikintu ikintu Ongeraho ikintu <b>{name}</b>.",
-      enable_msg: "ikintu ikintu Kuri ikintu serivisi ikintu byakoreshejwe",
-      disable_msg: "ikintu ikintu Kuri ikintu serivisi ikintu byahagaritswe",
+      subtitle: "Iki gicuruzwa cyongeyeho binyuze kuri <b>{name}</b>.",
+      enable_msg: "Iki kiraro kuri serivisi yo hanze irashoboka.",
+      disable_msg: "Iki kiraro kuri serivisi yo hanze kirahagarikwa.",
       has_shipping_msg:
         "{name} Inkunga Kohereza ikintu ikintu Kuri Gushoboza byikora Kohereza ikintu ikintu {name} ikintu ikintu Kugenzura paji",
     },
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "ikintu abacuruzi",
       subtitle:
-        "ikintu Ibicuruzwa ikintu ikintu oya ikintu abacuruzi ikintu ikintu Ibicuruzwa Kuri ikintu ikintu Isoko, ikintu ikintu umucuruzi",
+        "Ibicuruzwa kuri ubu nta bicuruzwa bifitanye isano. Kugirango ibicuruzwa bigurwe ku isoko, bigomba kugira byibuze umucuruzi umwe.",
       manage_vendors: "Gucunga abacuruzi",
     },
 
@@ -10165,7 +10165,7 @@ export default {
      */
     pricing: {
       title: "Igiciro",
-      no_product_price_msg: "ikintu Mburabuzi Ibicuruzwa igiciro ikintu ikintu ikintu!",
+      no_product_price_msg: "Igiciro cyibicuruzwa gisanzwe ntikirashyirwaho!",
       listing_pricing_msg: "Urutonde Igiciro:",
       has_valuation_msg: "Ibicuruzwa ikintu ikintu",
       subscription_pricing_msg:
@@ -10193,11 +10193,11 @@ export default {
         no_restriction: "ikintu ikintu",
       },
       available_countries_msg:
-        "ikintu ikintu ikintu Kuri {count} ikintu ikintu {countries}.",
+        "Guhaha kwisi yose bigarukira mubihugu {count}. Ibi bihugu ni {countries}.",
       disable_for_all_countries_msg:
-        "ikintu ikintu byahagaritswe ikintu byose ikintu ikintu ikintu Amaduka > Ahantu Gushiraho",
+        "Guhaha birahagarikwa mubihugu byose mumaduka yawe> gushiraho ahantu.",
       location_is_not_in_permitted_shop_locations_msg:
-        "ikintu ikintu {country} ikintu ikintu ikintu Aho biherereye ikintu ikintu ikintu ububiko ikintu ikintu Igihugu ikintu ikintu ikintu ububiko ikintu Igenamiterere",
+        "Washyizeho {country} nkahantu ho kugurisha ariko murwego rwububiko ntabwo wemera iki gihugu. Nyamuneka reba urwego rwububiko.",
       shop_locations: "Amaduka Ahantu",
       product_locations: "Ibicuruzwa Ahantu",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "Birashoboka Ahantu ikintu",
       no_location_error_subtitle:
-        "ikintu ikintu Bikora ikintu Aho biherereye imbogamizi ikintu ikintu ikintu Ibicuruzwa, ikintu ikintu, oya Igihugu ikintu urutonde ikintu ikintu imbogamizi ikintu ikintu ikintu, ikintu Ibicuruzwa ikintu ntikiboneka ikintu Kugura ikintu ikintu",
+        "Washyizeho uburyo bwo kubuza kugura ibicuruzwa, ariko kuri ubu, nta gihugu cyashyizwe kurutonde munsi yibi bibujijwe. Nkigisubizo, iki gicuruzwa ntigishobora kugurwa numuntu uwo ariwe wese.",
       invalid_location_error_subtitle:
-        "ikintu Aho biherereye imbogamizi Igenamiterere ikintu ikintu Ibicuruzwa ikintu ikintu ikintu: ikintu Ahantu urutonde ikintu ikintu ZIP kode ikintu, Abakoresha ikintu ikintu Kuri Hitamo ikintu ZIP Kode, ikintu ikintu Ibicuruzwa ntikiboneka ikintu Kugura",
+        "Igenamiterere ryibibanza byawe kubicuruzwa byawe birimo ikosa: ahantu runaka urutonde nta kode ya ZIP ifitanye isano. Kubwibyo, abakoresha ntibashobora guhitamo kode ya ZIP, bigatuma ibicuruzwa bitaboneka kugura.",
 
       manage_locations: "Gucunga Ahantu",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "Umusoro Umwirondoro",
       description: {
         subscription_tax_msg:
-          "ikintu ikintu ikintu Umusoro ikintu ikintu ikintu Kwishura ikintu ikintu",
+          "Turashobora gukoresha umusoro gusa ku ntambwe yo kwishyurwa.",
         dedicated: "ikintu",
         is_disabled: "ikintu Umusoro umwirondoro ikintu byahagaritswe!",
         tax_is_based_on_location: "Umusoro: Aho biherereye ikintu",
@@ -10238,9 +10238,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "ikintu Ibicuruzwa ikintu Kuri <b>{vendor}</b>.",
-      has_vendors_msg: "ikintu ikintu {count} abacuruzi ikintu ikintu Ibicuruzwa",
+      has_vendors_msg: "Hano hari {count} abacuruzi kubicuruzwa.",
       no_vendor_msg:
-        "ikintu ikintu umucuruzi Kuri ikintu Ibicuruzwa, ikintu Abakiriya ikintu ikintu Kuri Kugura ikintu",
+        "Ntabwo washyizeho umucuruzi kuri iki gicuruzwa, abakiriya rero ntibashobora kukigura.",
       add_vendors: "Ongeraho abacuruzi",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "Ibicuruzwa paji Inyandikorugero",
     subtitle:
-      "ikintu ikintu paji ikintu ikintu Ibicuruzwa paji ikintu ikintu Kuri Kurema Urupapuro ikintu ikintu ibonerana inyuma ikintu 1 Kuri 3 ikintu ikintu Kuri ikintu Ibicuruzwa Icyiciro ikintu, ikintu ikintu paji Kuri ikintu Ibicuruzwa ikintu ikintu ",
+      "Urashobora gushira urupapuro murupapuro rwibicuruzwa kugirango rwerekanwe neza. Uburyo bwiza ni ugukora paji zigaragara inyuma kandi ibice 1 kugeza kuri 3 bikwiranye na buri cyiciro cyibicuruzwa. Noneho, tanga urupapuro rumwe kubicuruzwa byinshi kugirango byerekanwe kandi bishimishije.",
     edit_page: "Hindura paji",
     list_of_pages: "Urutonde ikintu Urupapuro",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "ikintu ikintu Ibicuruzwa ikintu ikintu Urutonde ikintu Ibicuruzwa ikintu ikintu blogu ikintu ikintu ikintu Urupapuro ikintu ikintu kode ikintu ikintu , ikintu ikintu Kuri ikintu ikintu Birashoboka ikintu ikintu Amaturo ikintu ikintu, ikintu ikintu Gahunda Kuri ikintu Ibindi. . ikintu ikintu ",
+      "Urashobora gushira byoroshye ibicuruzwa cyangwa urutonde rwibicuruzwa muri blog yawe cyangwa izindi page zurubuga ukoporora gusa hanyuma ukandika kode dutanga. Nubwo iyi mikorere ikiri mubyiciro byayo byambere, turimo gukora cyane kugirango twagure imikorere yayo irenze ibiboneka ahandi. Mugihe kuri ubu itanga ubushobozi buke, dufite gahunda yo kumenyekanisha inyandikorugero nyinshi hamwe nuburyo bwo guhitamo mugihe kizaza.",
     card: {
       title: "ikintu",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "ikintu",
       description:
-        "ikintu ikintu ikintu Kode Kuri ikintu ikintu Ibicuruzwa Ibisobanuro ikintu ikintu ",
+        "Kora iframe code kugirango werekane ibisobanuro birambuye byibicuruzwa mumadirishya yashyizwemo.",
     },
   },
 
@@ -10288,11 +10288,11 @@ export default {
     },
     access: {
       customization_tips:
-        "<b>ikintu:</b> ikintu ikintu Kuri ikintu ikintu Mburabuzi ikintu Kwinjira ikintu ikintu Kwinjira ikintu ikintu Kuri ikintu nyamukuru Amaduka Ikibaho",
+        "<b> Kwimenyekanisha: </b> Kanda kuri buri kintu kugirango uhindure uburyo busanzwe bwo gusoma / kwandika. Buri murongo ugereranya urwego rwinjira rujyanye nububiko bukuru.",
       simplify_tips:
-        "<b>ikintu!</b> ikintu ikintu ikintu Kwinjira ikintu Kuva ikintu 300 Kuri ikintu 10 ikintu Ibindi. . ikintu ikintu ikintu Kwinjira ikintu ikintu ikintu Yatangajwe ikintu ikintu ikintu",
+        "<b> Ingenzi! </b> Tworoshya kugenzura uburyo bwo kuva kuri 300 kugeza munsi yinzego 10. Ibisobanuro birambuye kandi bigezweho byo kugeraho bizatangazwa mubyangombwa.",
       multi_permission_tips:
-        "<b>byihariye Imipaka?</b> ikintu ikintu Ongeraho Ibindi. . Kwinjira Kuri ikintu umukoresha, ikintu ikintu Ongeraho ikintu ikintu Kwinjira, Kurema ikintu Kwinjira ikintu ikintu ",
+        "<b>Custom limits?</b> You can add more access to one user, so after adding the first access, create additional access with the same steps.",
       view_data: "Reba Amakuru",
       apply_changes: "Koresha Impinduka",
     },
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "ikintu Ibicuruzwa Urutonde",
     subtitle:
-      "ikintu Ibicuruzwa Kuva ikintu Ibyiciro ikintu ikintu Kuri ikintu ikintu Ibyiciro Kuri ikintu Ibicuruzwa ikintu Akayunguruzo Ibicuruzwa ikintu Etiquetas",
+      "Erekana ibicuruzwa biva mubyiciro bitandukanye. Ufite amahitamo yo guhitamo ibyiciro byinshi kugirango werekane ibicuruzwa cyangwa gushungura ibicuruzwa ukoresheje tagi.",
     aut_add_sub_categories_tips:
-      "ikintu ikintu ikintu Ongeraho byose ikintu Kuri ikintu ikintu Icyiciro ikintu ikintu ",
+      "Urashobora guhita wongera ibyiciro byose mubyiciro byubu ukanze buto hepfo.",
     inputs: {
       categories: {
         label: "Ibyiciro",
-        messages: "Ibicuruzwa ikintu ikintu Ibyiciro ikintu ikintu ikintu",
+        messages: "Ibicuruzwa muri ibi byiciro bizerekanwa.",
         placeholder: "Hitamo Ibyiciro",
       },
       tags: {
         label: "Ibicuruzwa Etiquetas",
-        messages: "Ibicuruzwa ikintu ikintu Etiquetas ikintu ikintu Erekana",
-        placeholder: "ikintu Etiquetas ikintu ikintu urugero Gishya ikintu",
+        messages: "Ibicuruzwa hamwe nibi birango bizerekanwa.",
+        placeholder: "Ikirangantego hano hanyuma ukande enter. ex. icyegeranyo gishya",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>ikintu shakisha: </b>shakisha ikintu Umutwe, MPN, SKU, Ikirango, ikintu Etiquetas",
       product:
-        "<b>ikintu Ibicuruzwa ID: </b>ikintu ikintu ID Kuri ikintu ikintu ikintu Ibicuruzwa, ikintu, <b class=\"text-green\">ikintu</b><i class=\"text-yellow\">360</i>.",
+        "<b>Exact Product ID: </b>Use P+Product ID to find a specific product, e.g., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>ikintu ikintu: </b>ikintu ikintu ikintu Kuri shakisha ikintu ikintu , ikintu, <b class=\"text-green\">\"</b><i class=\"text-yellow\">ikintu ikintu ikintu</i><b class=\"text-green\">\"</b>.",
+        "<b>Exact Phrase: </b>Use quotation marks to search for an exact phrase, e.g., <b class=\"text-green\">\"</b><i class=\"text-yellow\">your text here</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Umusoro umwirondoro: </b>shakisha ikintu Ibicuruzwa ikintu ikintu ikintu Umusoro umwirondoro ikintu \"Umusoro:\", ikintu, <b class=\"text-green\">Umusoro:</b><i class=\"text-yellow\">Umusoro umwirondoro Izina</i>.",
       new_products:
-        "<b>Gishya Ibicuruzwa: </b>ikintu Ibicuruzwa Ongeraho ikintu ikintu ikintu Itariki ikintu, ikintu, <b class=\"text-green\">Gishya~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>New Products: </b>Find products added within a specific date range, e.g., <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "ikintu",
     subtitle:
-      "Iyinjiza ikintu ikintu Agaciro ikintu ikintu paji ikintu ikintu Icyiza 32 ikintu",
+      "Shyiramo urufunguzo ruzahindurwa nagaciro kayo mubirimo kurupapuro. Urufunguzo rugomba kuba inyuguti 32.",
     add_caption: "Ongeraho Gishya ikintu",
     add_sub_caption: "Ongeraho byihariye ikintu ikintu",
     add_dialog: {
@@ -10391,13 +10391,13 @@ export default {
     help_dialog: {
       title: "ikintu Kuri ikintu ikintu ikintu",
       how_it_works_tips:
-        "ikintu ikintu Kumanuka Urupapuro, ikintu ikintu Kuri ikintu ikintu Amashusho ikintu ikintu Kuri ikintu ikintu Kuri ikintu ikintu , ikintu ikintu urugero, ikintu ikintu Ibicuruzwa ikintu Icyiciro ikintu ikintu Ibintu ikintu ikintu Kuri ikintu ikintu , ikintu ikintu Kumanuka Urupapuro",
+        "Kurupapuro rwurupapuro, ufite guhinduka kugirango ugaragaze abafite imbaraga zingirakamaro kumyandiko n'amashusho. Abafite umwanya bafite uruhare runini mugutegura ibirimo ukurikije imiterere.   Imiterere yingirakamaro yabantu bafite umwanya ibemerera guturwa nindangagaciro zo kongera, zishobora gutandukana zishingiye kubintu bitandukanye. Kurugero, indangagaciro zo kwiyongera zishobora kuba zitandukanye kuri buri gicuruzwa cyangwa icyiciro. Inyungu nyayo yiyi ngingo iraza gukina mugihe ufite ibintu bitandukanye bifite imiterere itandukanye. Urashobora gukoresha neza abafite imbaraga zingirakamaro kugirango wihariye kandi utezimbere kwerekana buri kintu, bityo ukore uburambe budasanzwe kandi bwimikorere kurupapuro rwawe.",
       assign_tips:
-        "Kuri ikintu ikintu ikintu Kuri Amashusho, ikintu ikintu ",
+        "Kugenera indangagaciro zingirakamaro kumashusho, kanda kuri buto yo kugaburira iri kuruhande rwibumoso bwigice.",
       set_dynamic_image_tips:
-        "ikintu ikintu Kuri ikintu ikintu Ishusho URL ikintu ikintu Agaciro",
+        "Ubu ufite ubushobozi bwo guhindura URL ishusho hanyuma ukayiha agaciro keza.",
       enter_values_tips:
-        "ikintu ikintu Ibicuruzwa, ikintu ikintu Kuri ikintu ikintu ",
+        "Kuri buri gicuruzwa, ufite ubushobozi bwo gutanga urufunguzo rwihariye-agaciro kamwe.",
       result_tips:
         "ikintu ikintu paji, ikintu ikintu ",
     },
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "ikintu ikintu",
       subtitle:
-        "ikintu ikintu ikintu Urutonde ikintu ikintu Ibikoresho umwirondoro ikintu ikintu ikintu",
+        "Uru nurutonde rwindimi zibirimo. Urashobora gushiraho ibintu bitandukanye kumurongo wibikoresho muri buri rurimi.",
       add_caption: "Ongeraho Gishya Ingingo",
       no_more_language: "oya Ibindi. . ikintu!",
     },
     content: {
       title: "ikintu",
       subtitle:
-        "ikintu ikintu Ibikoresho umwirondoro ikintu ikintu ikintu",
+        "Urashobora guhitamo ibiri kumurongo wibikoresho mu ndimi nyinshi.",
 
       language_input: "ikintu Ingingo ikintu",
       delete_article: "Gusiba Ingingo",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "ikintu ikintu ikintu Kuri Gusiba ikintu Ingingo ikintu ikintu?",
+      message: "Uzi neza gusiba iyi ngingo ubuziraherezo?",
       action: "Yego, Siba Noneho",
     },
   },
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Ibicuruzwa",
-    subtitle: "Urutonde ikintu Ibicuruzwa ikintu ikintu ikintu umwirondoro",
+    subtitle: "Urutonde rwibicuruzwa bifitanye isano niyi shusho.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10460,8 +10460,8 @@ export default {
       },
       accept_delete: {
         true_description:
-          "ikintu ikintu ikintu Kuraho byose ikintu ikintu Umwirondoro Ihuza",
-        true_title: "ikintu ikintu Kuri Kuraho ikintu ikintu",
+          "Iki gikorwa kizakuraho ingingo zose hamwe nu mwirondoro.",
+        true_title: "Ndagenzura gukuraho iyi connection.",
       },
     },
     actions: {
@@ -10476,24 +10476,24 @@ export default {
     title: "Ibikoresho Umwirondoro",
     add_caption: "Ongeraho Gishya umwirondoro",
     subtitle:
-      "ikintu ikintu Kurema ikintu Hindura ikintu garanti ikintu Garuka politiki ikintu Ibicuruzwa ikintu ikintu Kuri ikintu Ibicuruzwa ikintu ikintu garanti ikintu ikintu ikintu Ubwoko ikintu Ibicuruzwa",
+      "Urashobora gukora no guhindura garanti no gusubiza politiki kubicuruzwa hano hanyuma ukabiha ibicuruzwa ibyo aribyo byose. Urashobora gusobanura politiki yubwishingizi itandukanye yubwoko butandukanye bwibicuruzwa.",
     add_dialog: {
       title: "Kurema Gishya ikintu umwirondoro",
       config: {
         title: "ikintu amakuru",
         subtitle:
-          "ikintu ikintu umwirondoro Ubwoko ikintu ikintu umurongo ngenderwaho, garanti, ikintu ikintu Ibicuruzwa",
+          "Hitamo ubwoko bw'umwirondoro. Irashobora kuyobora, garanti, cyangwa ibindi bintu byose nibikoresho bisanzwe bisangirwa mubicuruzwa byinshi.",
       },
       article: {
         title: "Ingingo",
         subtitle:
-          "ikintu ikintu Ongeraho Ibindi. . ikintu ikintu umwirondoro",
+          "Urashobora kongeramo indimi nyinshi nyuma yo gukora iyi profiliste.",
       },
       inputs: {
         name: {
           message:
             "ikintu Izina Erekana Kuri ikintu ikintu Kuri ikintu Rubanda",
-          placeholder: "ikintu ikintu Izina ikintu ikintu umwirondoro",
+          placeholder: "Injiza izina ryumwirondoro ...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "ikintu Ibintu Ubuyobozi",
     add_caption: "Ongeraho Gishya ikintu",
     subtitle:
-      "ikintu, ikintu ikintu Gucunga ikintu Ibintu ikintu ikintu ikintu Ibicuruzwa Kuri ikintu ikintu ikintu Kugaragara ikintu ikintu ububiko, ikintu ikintu Ibintu ikintu ikintu Ishusho ikintu, ikintu ikintu ikintu, ikintu byose Ibicuruzwa",
+      "Hano, urashobora gucunga ibintu bikubiye mubicuruzwa byawe. Kugirango ugaragare neza kububiko bwawe, burigihe ukoreshe ibintu bifite ishusho isa, nka wireframes, mubicuruzwa byose.",
     empty_list_msg: "Urutonde ikintu ikintu Ibintu",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Gusiba ikintu ikintu",
       message:
-        "ikintu ikintu Kuri ikintu Gusiba ikintu ikintu? ikintu Icyitonderwa ikintu ikintu Kuva byose ikintu Ibicuruzwa!",
+        "Uzi neza ko ushaka gusiba burundu iki kintu? Nyamuneka menya ko nayo izavanwa mubicuruzwa byose bifitanye isano!",
       action: "Yego, Siba Noneho",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "ikintu ikintu",
     subtitle:
-      "ikintu ikintu ikintu Umutwe, ikintu ikintu 2 Kuri 3 ikintu ikintu Amashusho, ikintu ikintu Kuramo wohereze Amashusho Kuri ikintu 256ikintu ikintu Kugaragara ikintu byose ikintu, ikintu ikintu Amashusho ikintu ibonerana inyuma ikintu ikintu Ibicuruzwa",
+      "Hitamo umutwe mugufi, nibyiza n'amagambo 2 kugeza kuri 3 cyane. Koresha amashusho ya kare, nkuko tuzahindura auto-reza amashusho yoherejwe kuri format ya 256x256. Kugirango ugaragare neza mubishusho byose, koresha amashusho ntoya afite imiterere iboneye kandi ukomeze icyitegererezo kimwe mubicuruzwa byawe.",
     inputs: {
       title: {
         placeholder: "ikintu Umutwe ikintu ikintu Ibicuruzwa paji",
       },
       code: {
         placeholder: "ikintu Kode, urugero Igendanwa_ikintu_ikintu",
-        hint: "ikintu ikintu Kode Kuri ikintu ikintu shakisha ikintu ikintu ikintu Ibintu",
+        hint: "Koresha iyi code kugirango woroshye inzira yo gushakisha ibintu.",
       },
       description: {
-        placeholder: "ikintu ikintu Ibisobanuro ikintu ikintu ikintu",
-        hint: "Ibisobanuro ikintu ikintu Byakoreshejwe ikintu SEO ikintu ikintu ikintu Kuri Abakoresha ikintu ikintu byihariye ikintu ikintu ikintu Ibicuruzwa paji",
+        placeholder: "Ibisobanuro bigufi kuri iki kintu ...",
+        hint: "Ibisobanuro bizakoreshwa kuri SEO kandi birashoboka ko bigaragara kubakoresha kumurongo wihariye kurupapuro rwibicuruzwa.",
       },
       image: {
         message: "Icyiza Ishusho ikintu: 1MB",
@@ -10559,14 +10559,14 @@ export default {
       },
       external_link: {
         title: "Ihuza ryo hanze",
-        description: "ikintu ikintu Ihuza Kuri ikintu ikintu ikintu",
-        tips: "ikintu ikintu URL Kuri ikintu ikintu ikintu Abakoresha ikintu ikintu Ibicuruzwa paji, ikintu ikintu Kuri ikintu Ihuza",
+        description: "Shiraho umurongo kuri url yo hanze.",
+        tips: "Urashobora kwomeka URL iyariyo yose. Iyo abakoresha bakanze ku kintu kiri kurupapuro rwibicuruzwa, bazoherezwa kuri iyo link.",
       },
       internal_link: {
         title: "ikintu Ihuza",
         description:
-          "Kurema ikintu paji ikintu ikintu ikintu Amakuru ikintu ikintu ikintu",
-        tips: "ikintu ikintu Ihuza ikintu Kumanuka paji ikintu ikintu umwirondoro ikintu ikintu ikintu byihariye ikintu ikintu Selldone ikintu ikintu Ihuza ikintu ikintu ikintu",
+          "Kora page yingirakamaro mugutanga amakuru yo kongera iki kintu.",
+        tips: "Urashobora guhuza urupapuro rwamanuka hamwe numwirondoro hanyuma ugashyiraho inzira yihariye nibirimo imbaraga. Selldone izabyara umurongo uhuza ikintu.",
       },
     },
     notifications: {
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "Yagarutse Amabwiriza",
     subtitle:
-      "ikintu Abakiriya ikintu Garuka ikintu ikintu Amabwiriza, ikintu ikintu ikintu Reba Garuka Gusaba ikintu ikintu Tegeka ikintu paji ikintu Kwinjira ikintu ikintu Urutonde ikintu Yagarutse Amabwiriza ikintu",
+      "Abakiriya bawe barashobora gusubiza ibyo batumije, kandi urashobora kureba ibyifuzo byo kugaruka kurupapuro rutunganya ibicuruzwa cyangwa ukagera kurutonde rwuzuye rwibicuruzwa byagarutse hano.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "komisiyo",
     subtitle:
-      "ikintu Urutonde ikintu byose komisiyo ikintu ikintu ikintu Kuva ikintu ikintu Kuri 30 Iminsi 30 ikintu ikintu Komisiyo Kuri ikintu ikintu ikintu Kwimura Kuri ikintu Ikofi",
+      "Urutonde rwa komisiyo zose winjije mubyoherejwe. Bifata iminsi igera kuri 30 kugirango komisiyo yemererwe kandi yimurwe mu gikapo cyawe.",
   },
   /**
    * @see OReferralWallets
@@ -10600,24 +10600,24 @@ export default {
   referral_wallets: {
     title: "Umufuka",
     subtitle:
-      "ikintu ikintu ikintu reba ikintu Komisiyo ikintu ikintu Kwimura ikintu Komisiyo ikintu Kuri ikintu Banki Konti ikintu ikintu Selldone Ikofi",
-    no_commission_yet: "ikintu ikintu ikintu Yakiriwe ikintu Komisiyo ikintu",
+      "Hano urashobora kubona amafaranga ya komisiyo winjije. Urashobora kohereza amafaranga ya komisiyo kuri konte yawe ya banki cyangwa igikapu cya Selldone.",
+    no_commission_yet: "Ntabwo wigeze ubona komisiyo.",
     no_wallet: "oya Ikofi!",
 
     withdraw_dialog: {
       title: "ikintu Komisiyo ikintu",
 
-      need_bank_info_message: "ikintu ikintu ikintu Banki Amakuru ikintu",
+      need_bank_info_message: "Nyamuneka andika amakuru yambere muri banki.",
 
       to_wallet: {
         title: "Kuri Ikofi",
         subtitle:
-          "ikintu ikintu ikintu, ikintu ikintu Kwimura Komisiyo ikintu Kuri ikintu Selldone Ikofi ikintu korera ikintu ikintu ikintu Ikofi ikintu Byahujwe ikintu ikintu Impano Ikofi, ikintu ikintu Ifaranga",
+          "Hamwe naya mahitamo, urashobora kohereza amafaranga ya komisiyo mugikapu cya Selldone. Nyamuneka reba neza ko igikapu gihujwe nkimpano yawe, kandi ko ikorana nifaranga rimwe.",
       },
       to_bank: {
         title: "Kuri Banki",
         subtitle:
-          "ikintu ikintu ikintu, ikintu ikintu Kwimura Komisiyo ikintu Kuri ikintu Selldone Ikofi ikintu korera ikintu ikintu ikintu Ikofi ikintu Byahujwe ikintu ikintu Impano Ikofi, ikintu ikintu Ifaranga",
+          "Hamwe naya mahitamo, urashobora kohereza amafaranga ya komisiyo mugikapu cya Selldone. Nyamuneka reba neza ko igikapu gihujwe nkimpano yawe, kandi ko ikorana nifaranga rimwe.",
       },
       inputs: {
         verify_to_wallet: {
@@ -10626,7 +10626,7 @@ export default {
         },
         verify_to_bank: {
           true_description:
-            "ikintu ikintu ikintu Banki Amakuru ikintu ikintu ikintu Kuri Kwimura ikintu Komisiyo Kuri ikintu Banki Konti",
+            "Ndagenzura amakuru ya banki kandi ndashaka kohereza komisiyo yanjye kuri konte yanjye.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "ikintu ikintu Yakiriwe, ikintu ikintu ikintu Isubiramo ikintu",
+        "Icyifuzo cyawe cyakiriwe neza, kandi tuzagisubiramo.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "ikintu ikintu Ongeraho <b>?ikintu={code}</b> Kuri ikintu ikintu ikintu",
+      message: "Urashobora kongeramo <b>? Ref = {code} </b> kuri url iyo ari yo yose.",
     },
     intro: {
       title: "ikintu ikintu Selldone Ishyirahamwe ikintu",
       message:
-        "ikintu Selldone Ishyirahamwe ikintu ikintu Biroroshye ikintu ikintu, ikintu ikintu ikintu Kuri ikintu ikintu Ishyirahamwe Ihuza Kuri ikintu Gishya Abakoresha Kuri Selldone, ikintu ikintu Komisiyo Kuva ikintu Gucuruza ikintu korera—ikintu ikintu Harimo ikintu Kuva Kwiyandikisha, serivisi ikintu, Amaduka ikintu, ikintu byose ikintu ikintu ikintu Tangira ikintu ikintu Imipaka ikintu Igihe ikintu ikintu !",
+        "Gahunda ya Selldone ifitanye isano iroroshye kandi yoroheje, yagenewe kugirango winjize imbaraga. Sangira ihuza ryihariye ridasanzwe kugirango utumire abakoresha bashya muri Selldone, kandi uzabona komisiyo mubikorwa byose bakora-ubuziraherezo. Ibi bikubiyemo kwinjiza amafaranga yo kwiyandikisha, amafaranga ya serivisi, kuzamura amaduka, hamwe nandi yose yinjira. Tangira kubona umugabane winjiza nta mbibi zigihe cyangwa inyungu. Twinjire kandi uhindure umuyoboro wawe winjiza neza!",
       why_join_selldone_affiliate: "ikintu ikintu ?",
       reasons: [
         "ikintu ikintu ikintu!",
-        "Selldone ikintu byose Kwiyandikisha ikintu Gucuruza ikintu ikintu ikintu Kwishura ikintu ikintu umukoresha ikintu ikintu",
-        "ikintu Ohereza ikintu ubuntu $99 ikintu Kuri ikintu ikintu Ihuza",
-        "ikintu ikintu , ikintu ikintu Gishya ikintu Kuva byose ikintu ikintu Abakoresha",
+        "Hindura amafaranga yose yo kwiyandikisha no kugurisha. Mubyukuri buri kwishura kwumukoresha kuri Selldone.",
+        "Twohereje voucher yubusa $99 kubantu bose biyandikishije ukoresheje umurongo wawe.",
+        "Mugihe urwego rwawe ruzamuye, uzinjiza ku gipimo gishya kubakoresha bose bavuzwe mbere.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "ikintu Imiterere",
       subtitle:
-        "ikintu ikintu ikintu Kuri ikintu ikintu , inyuma, ikintu, ikintu ikintu Kuri ikintu ikintu:",
+        "Koresha iki gikoresho kugirango wigane imiterere nkimyandikire, imiterere, imipaka, nimbibi. Kurikiza izi ntambwe zo kwigana uburyo:",
       step_1:
-        "ikintu ikintu , ikintu, ikintu Amashusho; ikintu ikintu ikintu Hindura Kuri ikintu ikintu",
-      step_2: "ikintu ikintu Imiterere ikintu ikintu Kuri ikintu",
+        "Koresha igikoresho hanyuma uzamure imbeba yawe hejuru yinyandiko, inkingi, cyangwa amashusho; indanga izahinduka kuri pipette.",
+      step_2: "Kanda kuri element ufite uburyo ushaka kwigana.",
       step_3:
-        "ikintu ikintu ikintu Hindura Inyuma Kuri ikintu ikintu; ikintu ikintu Kuri ikintu ikintu ikintu Imiterere",
+        "Indanga izahinduka kuri palette; kanda kuri element aho ushaka gukoresha uburyo bwimuwe.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "ikintu ikintu Ibikubiyemo, ikintu Harimo byose ikintu Ibyiciro ikintu Kubaka. .. ikintu paji",
+        "Kuzuza ibiboneka kuruhande rwibikubiyemo, bikubiyemo ibyiciro byose byo kubaka page yawe.",
     },
     sort_tooltip: {
       subtitle:
-        "Gushoboza ikintu ikintu Kuri ikintu ikintu ",
+        "Emera iyi mikorere kugirango uhindure byoroshye kandi utegure ibice ubikurura.",
     },
     edit_mode_tooltip: {
       title: "Hindura / Imbere uburyo",
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "byose Hindura Ibikoresho ikintu ikintu ikintu",
       view_mode_title: "Imbere uburyo",
       view_mode_msg:
-        "Reba ikintu paji ikintu Abakoresha ikintu reba ikintu ikintu Hindura Ibikoresho ikintu ikintu ",
+        "Reba page yawe nkuko abakoresha babibona uhisha ibikoresho byongeweho byo guhindura hamwe nubutaka bwanditse.",
     },
     repository_tooltip: {
       title: "ikintu ikintu",
       subtitle:
-        "ikintu ikintu Birashoboka ikintu ikintu ikintu Ibikubiyemo, ikintu ikintu paji ikintu",
+        "Hindura ibyerekanwa byateguwe mbere. Ibi bice byakozwe hifashishijwe ibice bisanzwe biboneka muri menu ibumoso, byerekana guhinduka kwuru rupapuro rwubaka.",
     },
     live_view: {
       title: "Baho Imbere",
@@ -10712,17 +10712,17 @@ export default {
     hotkeys_dialog: {
       title: "ikintu ikintu",
       augment_tips:
-        "ikintu ikintu paji ikintu ikintu <b>ikintu</b> ikintu ikintu ikintu Byakoreshejwe ikintu byihariye ikintu Urupapuro ikintu ikintu <b>Ibicuruzwa</b>, <b>Ibyiciro</b>, ikintu <b>ikintu Ibintu</b>. Kuri ikintu ikintu Ishusho Kuri ikintu ikintu, ikintu ikintu <b>ikintu</b> ikintu Hitamo <b>ikintu ikintu</b> ikintu ikintu Ishusho",
+        "Urashobora gupakira ibintu bifite imbaraga kurupapuro rwawe hanyuma ukabisimbuza <b>yongerewe</b>. Augment ikoreshwa kumpapuro zidasanzwe zifite imbaraga nka <b>Ibicuruzwa</b>, <b>Icyiciro</b>, na <b> Shyiramo Ibintu</b>. Gushiraho ishusho yo kwikorera imbaraga, kanda kuri <b>Umuyobozi</b> hanyuma uhitemo <b>Isoko ridafite imbaraga</b> kuri iyo shusho.",
     },
     hotkeys: {
-      ctrl_b: "ikintu ikintu Hitamo ikintu | <b>korera ikintu ikintu</b>",
-      ctrl_i: "ikintu ikintu Hitamo ikintu | <i>korera ikintu ikintu</i>",
+      ctrl_b: "Toggle ushize amanga kuri / kuzimya inyandiko yatoranijwe | <b> Unkore ushize amanga</b>",
+      ctrl_i: "Kuzuza italike kuri / kuzimya inyandiko yatoranijwe | <i>Kora italic</i>",
       ctrl_l:
-        "ikintu ikintu Hitamo ikintu | <s>ikintu ikintu ikintu</s>",
-      ctrl_u: "ikintu ikintu Hitamo ikintu | <u>ikintu ikintu</u>",
+        "Kuzuza intambwe kuri / kuzimya inyandiko yatoranijwe | <s>Gukubita unyuze</s>",
+      ctrl_u: "Kuzuza umurongo munsi / kuzimya inyandiko yatoranijwe | <u>Umurongo wa me</u>",
       ctrl_1:
-        "ikintu ikintu Hitamo ikintu | <small>korera ikintu ikintu</small>",
-      ctrl_2: "ongera ikintu ikintu ikintu Hitamo ikintu | <big>korera ikintu ikintu</big>",
+        "Kugabanya ingano yimyandikire yinyandiko yatoranijwe | <small>Mugira muto</small>",
+      ctrl_2: "Ongera ingano yimyandikire yinyandiko yatoranijwe | <big> Unkore binini</big>",
       ctrl_r: "Kuraho byose ikintu Kuva Hitamo ikintu | ikintu byose ikintu",
       ctrl_s: "Bika ikintu paji",
       tab: "ikintu ikintu ikintu uburyo",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Igenamiterere",
         subtitle:
-          "ikintu ikintu Bika ikintu ikintu paji ikintu ikintu Kuri byose ikintu ikintu ikintu ububiko",
+          "Urashobora kuzigama ibice byashizweho kugirango ukoreshe ejo hazaza mugushushanya kwa page. Ibi bice byazigamiwe bizagerwaho kubayobozi bose muriyi mangazini.",
       },
       image: {
         title: "Ishusho",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kode",
         subtitle:
-          "ikintu ikintu Kode Kuva ikintu ikintu paji ikintu",
+          "Urashobora gukoporora no gukata kode yibintu uhereye kuruhande rwibumoso mugice cyubaka page.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "Etiquetas",
-          message: "Byakoreshejwe ikintu shakisha ikintu ikintu ikintu",
+          message: "Byakoreshejwe mugushakisha no gutondekanya ibintu.",
         },
         section: {
-          message: "ikintu ikintu ikintu Kuva ikintu paji ikintu",
+          message: "Gukoporora igice uhereye kurupapuro rwubaka.",
         },
       },
     },
@@ -10774,36 +10774,36 @@ export default {
   marketplace_vendors: {
     title: "abacuruzi Urutonde",
     subtitle:
-      "Ongeraho abacuruzi ikintu, ikintu ikintu ikintu Kuri Ibicuruzwa ikintu ikintu Ibicuruzwa Ikibaho > abacuruzi",
+      "Ongeraho abacuruzi hano, hanyuma ubashire kubicuruzwa mubicuruzwa Dashboard> Abacuruzi.",
     add_new_vendor_action: "Ongeraho Gishya umucuruzi",
     status_tooltip: {
       title: "umucuruzi Imiterere",
-      ACCEPTED: "ikintu umucuruzi ikintu Kwinjira Kuri ikintu ikintu",
-      REJECTED: "ikintu umucuruzi ikintu ikintu ikintu Yanze",
-      PENDING: "ikintu ikintu ikintu Gutegereza ikintu ikintu Kuva ikintu umucuruzi",
+      ACCEPTED: "Umucuruzi afite uburyo bwo kugera kumwanya wabo.",
+      REJECTED: "Icyifuzo cyabacuruzi cyanze.",
+      PENDING: "Icyifuzo gitegereje icyemezo cyumucuruzi.",
     },
     number_of_products: "ikintu ikintu Ibicuruzwa",
     invited: "ikintu",
     no_pricing: "oya Igiciro",
     no_pricing_tooltip: {
       title: "Mburabuzi Igiciro Tegura",
-      subtitle: "ikintu ikintu ikintu Mburabuzi Igiciro ikintu ikintu ikintu umucuruzi",
+      subtitle: "Nyamuneka shiraho igiciro cyambere cyibiciro kubacuruzi.",
     },
     updated_products_tooltip: {
       title: "Ibicuruzwa ikintu ikintu 24 ikintu",
     },
     added_products_tooltip: {
-      title: "Ibicuruzwa Ongeraho ikintu ikintu ikintu 24 ikintu",
+      title: "Ibicuruzwa byongewe mumasaha 24 ashize",
     },
     access_tooltip: {
       title: "ikintu Kwinjira",
       subtitle:
-        "ikintu umucuruzi ikintu Kwinjira Kuri ikintu ikintu Hindura ikintu ikintu umucuruzi > Kwinjira ikintu",
+        "Umucuruzi afite uburyo bwo kugera kumwanya wabo. Urashobora guhindura ibi muri Vendor> Access tab.",
     },
     reject_by_user_tooltip: {
       title: "Yanze ikintu umukoresha",
       subtitle:
-        "ikintu umukoresha Yanze ikintu ikintu Kuri ikintu ikintu umucuruzi ikintu Kwinjira ikintu umucuruzi",
+        "Umukoresha yanze icyifuzo cyo kuba umucuruzi no kugera kubacuruzi.",
     },
     download_all_vendors: "Kuramo byose abacuruzi",
     bulk_import: "ikintu Kuzana (ikintu)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Uruhushya ikintu ikintu!",
     subtitle:
-      "ikintu ikintu Uruhushya ikintu ikintu Hitamo ubucuruzi ikintu ikintu Uruhushya Kuri ikintu ikintu Tegura",
+      "Uruhushya rwawe rwujuje ibyangombwa byubucuruzi wahisemo. Nyamuneka uzamure uruhushya rwawe kuri gahunda ya Enterprises.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "ikintu Ibikorwa",
     subtitle:
-      "ikintu ikintu Ohereza ikintu Imiterere Kuvugurura Imeri Kuri ikintu ikintu , ikintu ikintu ubutumwa ikintu Kuri ikintu, ikintu ikintu Kuri ikintu ikintu ikintu Igihe",
+      "Urashobora kohereza imeri ivugurura imeri kubaguzi ukanze rimwe gusa. Byongeye kandi, urashobora gusobanura ubutumwa busanzwe hano kugirango ukoreshe, ntugomba rero kubyandika buri gihe.",
     send_update_email_action: "Ohereza Kuvugurura Imeri",
     add_template_action: "Ongeraho Ubutumwa Inyandikorugero",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "Tegeka Kuvugurura Imeri",
       need_set_service_alert: {
         message:
-          "ikintu ikintu ikintu Imeri serivisi ikintu Kuri ikintu ikintu Imeri Kuri ikintu Yoherejwe",
+          "Nyamuneka shyira serivise yawe imeri kugirango wemere imeri yoherejwe.",
         action: "ikintu Kuri Igenamiterere",
       },
       send_action: "Ohereza Kuvugurura Imeri",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Hindura Ubutumwa Inyandikorugero",
       add_title: "Ongeraho Ubutumwa Inyandikorugero",
       message:
-        "ikintu ikintu Umutwe ikintu Ubutumwa ikintu ikintu ikintu Umutwe ikintu ikintu Byakoreshejwe ikintu ikintu Yoherejwe Kuri ikintu umukiriya",
+        "Ugomba gushyiraho umutwe nubutumwa umubiri hano. Umutwe ukoreshwa gusa kubisobanuro byawe kandi ntabwo uzoherezwa kubakiriya.",
 
       save_action: "Bika Inyandikorugero",
       add_action: "Ongeraho Inyandikorugero",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "Guhuza",
-    subtitle: "ikintu ikintu Tegeka Ihuza ikintu ikintu umukiriya",
+    subtitle: "Urashobora gusangira urutonde rwumukiriya.",
     guest_checkout_message:
-      "ikintu ikintu Reba ikintu Tegeka ikintu ikintu , ikintu ikintu umukiriya ikintu ikintu Kuri ikintu ikintu Tegeka Ibisobanuro, ikintu ikintu Kurema ikintu ikintu Ihuza ikintu ikintu",
+      "Abaguzi b'abashyitsi barashobora guhita bareba ibyo batumije muri mushakisha imwe.Nyamara, niba umukiriya ari umushyitsi kandi ukeneye gusangira amakuru yatumijwe, urashobora kubashiraho umurongo wizewe kuri bo.",
     authentication: "ikintu",
     guest: "ikintu",
     click_to_create: "ikintu Kuri Kurema",
@@ -10897,7 +10897,7 @@ export default {
     title: "Isubiramo ikintu",
     add_source_action: "Ongeraho Isubiramo ikintu",
     subtitle:
-      "ikintu huza ikintu ikintu Kuri ikintu ikintu ikintu Isubiramo ikintu ikintu ubucuruzi Kuva ikintu Nk Facebook, Google, ikintu Ibindi. . ikintu ikintu ikintu Abakiriya Kuri ikintu Isubiramo ikintu ikintu ikintu umukiriya ikintu ikintu Isubiramo ikintu ikintu Kumanuka Urupapuro ikintu Ibicuruzwa Urupapuro",
+      "Byoroshye guhuza urubuga rwo hanze kugirango ukusanye kandi usesengure ibyerekeye ubucuruzi bwawe buturuka ahantu nka Facebook, Google, nibindi byinshi. Tuzahita duhuza abakiriya nibisobanuro byabo kuburambe bwiza bwabakiriya. Urashobora kandi kwerekana ibi bisobanuro kurupapuro rwawe rugwa kurupapuro rwibicuruzwa.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Ongeraho Gishya ikintu ikintu",
     title: "ikintu ikintu",
     subtitle:
-      "ikintu ikintu Kurema ikintu Gucunga ikintu ikintu Byakoreshejwe Kuri ikintu ikintu Ibicuruzwa ikintu Serivisi ikintu ikintu Kuri Ibicuruzwa ikintu ikintu Ibicuruzwa Ikibaho > Hindura",
+      "Urashobora gukora no gucunga imitungo hano. Ibicuruzwa byumutungo bikoreshwa mugusobanura ibiranga ibicuruzwa na serivisi. Urashobora kugenera imitungo igizwe nibicuruzwa muri Dashboard> Guhindura.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "ikintu ikintu - byihariye Ibihinduka",
       subtitle:
-        "ikintu ikintu Ibicuruzwa, ikintu ikintu Mburabuzi ikintu",
+        "Urashobora guhitamo amazina atandukanye kubicuruzwa, ugasimbuza ayandi asanzwe.",
     },
 
     subtitle:
-      "ikintu ikintu , ikintu, ikintu ikintu Tegeka ikintu ikintu Ibicuruzwa ikintu ikintu Ibihinduka ikintu ikintu Mburabuzi ikintu, ikintu ikintu ikintu byihariye Ibihinduka ikintu Kuri ikintu Ibicuruzwa ikintu ikintu > ikintu ikintu Kuri ikintu ikintu ikintu Ibicuruzwa ikintu ikintu",
+      "Urashobora guhitamo amazina atandukanye, amashusho, hamwe na gahunda yabo hano. Kubicuruzwa bifite impinduka zidasanzwe zirenze esheshatu zisanzwe, urashobora gushiraho ibicuruzwa byabigenewe bikwiranye na buri gicuruzwa. Sobanura gusa imitungo yashizwe muri Logistic> Umutungo ushiraho tab hanyuma ubihe umubare wibicuruzwa byose bikenewe.",
     select_property_set: "Hitamo ikintu ikintu",
     add_property_set: "Ongeraho ikintu ikintu",
   },
@@ -10931,8 +10931,8 @@ export default {
     title: "ikintu",
     add_action: "Ongeraho ikintu",
     subtitle:
-      "Kurema ikintu ikintu ikintu Kuri ikintu ikintu Ikirango Kugura ikintu ikintu ikintu Kohereza ikintu ikintu Tegeka, Hitamo ikintu ikintu ",
-    empty: "oya ikintu ikintu ikintu “Ongeraho ikintu”.",
+      "Kora agasanduku gashobora gukoreshwa kugirango wihutishe kugura ibirango kandi urebe neza ibiciro byo kohereza. Mugihe wujuje ibyateganijwe, hitamo agasanduku kabitswe kandi ibipimo byayo bizahita byuzura.",
+    empty: "Nta gasanduku. Kanda “Ongeraho agasanduku”.",
     edit: "Hindura ikintu",
     new: "Gishya ikintu",
     default_weight: "Mburabuzi Ibiro",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Hitamo ikintu ipaki",
     define_package: "ikintu ikintu ipaki",
-    define_package_hint: "Kurema ikintu Hindura ikintu ikintu ipaki ikintu",
+    define_package_hint: "Kurema cyangwa guhindura ibipimo byateganijwe mbere",
   },
 
 
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Urutonde",
-    message:"Kurema ikintu ikintu, ikintu ikintu Ubwoko ikintu Urutonde—ikintu, ikintu, ikintu, Serivisi, ikintu Ibindi. ."
+    message:"Kora ububiko bushakishwa, buringaniye muburyo ubwo aribwo bwose - urutonde, imitungo, amahoteri, abaganga, serivisi, nibindi byinshi."
   },
 
   shop_listing: {
     name: "Urutonde",
     message:
-      "Kurema ikintu ikintu, ikintu ikintu Ubwoko ikintu Urutonde—ikintu, ikintu, ikintu, Serivisi, ikintu Ibindi. .",
+      "Kora ububiko bushakishwa, buringaniye muburyo ubwo aribwo bwose - urutonde, imitungo, amahoteri, abaganga, serivisi, nibindi byinshi.",
 
     items: {
       title: "Ibintu",
@@ -10988,7 +10988,7 @@ export default {
 
       empty_title: "oya Ibintu ikintu",
       empty_subtitle:
-        "Kurema ikintu ikintu Urutonde ikintu Kuri Tangira Kubaka. .. ikintu ikintu",
+        "Kora urutonde rwawe rwa mbere kugirango utangire kubaka ububiko bwawe.",
 
       add_title: "Ongeraho Ikintu",
       edit_title: "Hindura ikintu",
@@ -11002,7 +11002,7 @@ export default {
       opening_hours_json: "ikintu ikintu JSON",
 
       delete_title: "Gusiba ikintu",
-      delete_message: "ikintu ikintu Kuri Gusiba ikintu ikintu?",
+      delete_message: "Uzi neza ko ushaka gusiba iki kintu?",
       delete_success: "Ikintu cyasibwe neza.",
       restore_success: "ikintu ikintu ikintu",
 
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Ibyiciro",
       sub_title:
-        "ikintu ikintu Ibyiciro ikintu ikintu muyungurura",
+        "Tegura ububiko bwawe hamwe nibyiciro hamwe nu byiciro. Ibi bitezimbere kugendana no kuyungurura.",
 
       empty_title: "oya Ibyiciro ikintu",
       empty_subtitle:
-        "Kurema Ibyiciro Kuri ikintu ikintu Urutonde ikintu ikintu ikintu",
+        "Kora ibyiciro kugirango ubone urutonde rwawe kandi utezimbere gushakisha.",
 
       add_title: "Ongeraho Icyiciro",
       edit_title: "Hindura icyiciro",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "ikintu",
       sub_title:
-        "Isubiramo ikintu Ibintu ikintu ikintu : ikintu, Tangaza, Wange, ikintu, ikintu ikintu Kuri Bitegereje",
+        "Ongera usuzume ibintu byatanzwe hanyuma uhitemo ibizakurikiraho: kwemeza, gutangaza, kwanga, kubika, cyangwa gusubiramo gutegereza.",
 
       empty_title: "oya Ibintu Kuri Isubiramo",
       empty_subtitle:
-        "ikintu Abakoresha ikintu Gishya Ibintu, ikintu ikintu ",
+        "Mugihe abakoresha batanze ibintu bishya, bazagaragara hano kugirango bagabanye.",
 
       review_title: "Isubiramo ikintu",
       approve_publish: "ikintu & Tangaza",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "ikintu",
       sub_title:
-        "Kurema ikintu Igishushanyo ikintu (Ikarita + Ibisobanuro ikintu) ikintu ikintu ikintu Kuri Ibyiciro Ibyiciro ikintu ikintu ",
+        "Kora ibishushanyo byinshi (ikarita + ibisobanuro byerekana inyandikorugero) hanyuma ubihe ibyiciro. Ibyiciro birashobora gukoresha ibishushanyo bitandukanye.",
 
       empty_title: "oya ikintu ikintu",
       empty_subtitle:
-        "Ongeraho ikintu ikintu Igishushanyo ikintu Kuri Tangira ikintu ikintu Ibyiciro ikintu",
+        "Ongeraho igishushanyo cyawe cya mbere kugirango utangire guhitamo uko ibyiciro bisa.",
 
       add_title: "Ongeraho Igishushanyo",
       edit_title: "Hindura Igishushanyo",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Gusiba Igishushanyo",
       delete_message:
-        "Gusiba ikintu Igishushanyo? Ibyiciro ikintu ikintu Igishushanyo_ikintu",
+        "Delete this design? Ibyiciro kuyikoresha bizahita bitakaza igishushanyo_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "ibirango",
       sub_title:
-        "Kurema ikintu Gucunga ikintu ibirango ibirango ikintu ikintu ikintu Kuri Urutonde Ibintu Kuri ikintu ikintu ikintu",
+        "Kurema no gucunga ibirango byububiko. Ibirango birashobora gushyirwaho kurutonde rwibintu kugirango ugaragaze ibiranga bidasanzwe.",
 
       empty_title: "oya ibirango ikintu",
       empty_subtitle:
@@ -11192,7 +11192,7 @@ export default {
       title: "ubutumwa",
       sub_title: "Gucunga ubutumwa Yoherejwe ikintu Abakoresha Kuva Urutonde Umwirondoro",
       empty_title: "oya ubutumwa",
-      empty_subtitle: "ubutumwa Yoherejwe ikintu Abakoresha ikintu ikintu ikintu",
+      empty_subtitle: "Ubutumwa bwoherejwe nabakoresha buzagaragara hano.",
 
       sender: "ikintu",
       item: "ikintu",
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "Ubutumwa",
       owner_reply: "Nyirubwite ikintu",
       reply: "ikintu",
-      reply_hint: "kwandika ikintu ikintu Kuri ikintu umukoresha ikintu ikintu Ubutumwa ikintu ikintu Kuva Ibikorwa",
+      reply_hint: "Andika igisubizo kubakoresha. Urashobora kandi gushira akamenyetso kubutumwa nkuko wasomwe / spam uhereye kubikorwa.",
 
       mark_read: "ikintu ikintu gusoma",
       mark_unread: "ikintu ikintu ikintu",
@@ -11217,9 +11217,9 @@ export default {
 
     enable: {
       title: "Urutonde",
-      subtitle: "Gushoboza ikintu ikintu ikintu Rubanda Urutonde paji ikintu byakoreshejwe ikintu ikintu ikintu Igihe, Selldone ikintu Kurema ikintu Urutonde ikintu ikintu",
+      subtitle: "Gushoboza cyangwa guhagarika urupapuro rwawe rusange. Iyo bishobojwe bwa mbere, Selldone izakora iboneza ryurutonde mu buryo bwikora.",
       true_description: "Urutonde ikintu byakoreshejwe Abakiriya ikintu ikintu Urutonde Urupapuro",
-      false_description: "Urutonde ikintu byahagaritswe ikintu Urutonde Urupapuro ikintu ikintu ",
+      false_description: "Urutonde rwahagaritswe. Urupapuro rwurutonde hamwe nibyatanzwe birahagaritswe.",
       open_listing: "ikintu Urutonde",
       note: "ikintu ikintu , Imipaka, ifishi, ikintu Igishushanyo ikintu Urutonde Igenamiterere",
       vendor_prereq_text:
@@ -11231,7 +11231,7 @@ export default {
       vendor_access_button: "Gushoboza Urutonde ikintu abacuruzi",
 
       more_options_text:
-        "Ibindi. . ikintu ikintu Birashoboka ikintu Urutonde Igenamiterere ikintu ikintu ikintu Inyongeramusaruro, UI/Kugaragara, ikintu, Imipaka, ikintu ikintu ikintu",
+        "Igenzura ryinshi riraboneka murutonde rwimiterere. Urashobora gushiraho inyongeramusaruro, UI / isura, kugereranya, imipaka, hamwe namahitamo.",
       more_options_button: "ikintu Kuri Urutonde Igenamiterere",
 
       updated: "Urutonde ikintu",
@@ -11244,19 +11244,19 @@ export default {
       subtitle: "Igishushanyo ikintu Abakiriya shakisha ikintu Urutonde Gushoboza ikintu shakisha ikintu Kubaka Muyunguruzi Kuva ikintu byihariye ifishi ikintu",
 
       location_title: "Aho biherereye shakisha",
-      location_subtitle: "ikintu Abakiriya Kuri ikintu ikintu Aho biherereye ikintu ikintu ",
+      location_subtitle: "Emerera abakiriya guhitamo ahantu hamwe no kubona ibisubizo hafi muri radiyo igaragara.",
       location_enabled_true: "Aho biherereye Akayunguruzo ikintu byakoreshejwe Abakiriya ikintu shakisha ikintu ikintu",
-      location_enabled_false: "Aho biherereye Akayunguruzo ikintu byahagaritswe ikintu ikintu muyungurura ikintu ikintu",
+      location_enabled_false: "Akayunguruzo kahagaritswe. Ibisubizo ntabwo bizungururwa nintera.",
 
       radius_default: "Mburabuzi ikintu (ikintu)",
-      radius_default_hint: "Byakoreshejwe ikintu ikintu umukiriya Hitamo ikintu Aho biherereye ikintu ikintu ",
+      radius_default_hint: "Ikoreshwa mugihe umukiriya ahisemo ahantu ariko ntatore radiyo.",
       radius_max: "nini ikintu (ikintu)",
       radius_max_hint: "ikintu ikintu Kuri ikintu Agaciro",
       radius_options: "ikintu ikintu (ikintu)",
       radius_options_hint: "ikintu ikintu UI.",
 
       filters_title: "shakisha Muyunguruzi",
-      filters_subtitle: "Ongeraho Muyunguruzi ikintu gusoma ikintu Kuva ikintu ikintu ikintu (ikintu ikintu ifishi ikintu). ikintu ikintu Kuri ikintu ikintu ikintu Kuva Yatangajwe Ibintu",
+      filters_subtitle: "Ongeraho muyunguruzi isoma indangagaciro kuva meta meta (urutonde rwawe / urwego rwimiterere). Koresha Auto-kubyara gukusanya amahitamo nyayo mubintu byatangajwe.",
       no_filters: "oya Muyunguruzi Ongeraho ikintu",
       auto_generate: "ikintu ikintu",
 
@@ -11264,12 +11264,12 @@ export default {
       filter_label: "Ikirango",
       filter_type: "Ubwoko",
       filter_options: "ikintu",
-      filter_options_hint: "ikintu Hitamo Muyunguruzi, ikintu ikintu ikintu intoki ikintu ikintu",
+      filter_options_hint: "Guhitamo Akayunguruzo, amahitamo arashobora kuba intoki cyangwa yakozwe.",
       multiple: "ikintu",
       single: "ikintu",
       kv_mode: "ikintu uburyo",
 
-      requires_listing_active: "Urutonde ikintu ikintu Bikora Gushoboza Urutonde ikintu Kuri ikintu ikintu ",
+      requires_listing_active: "Urutonde ntirukora. Gushoboza Urutonde ubanza kubikoresha kububiko.",
 
 
     },
@@ -11911,12 +11911,12 @@ export default {
         "ikintu ikintu ",
         "Kwinjira Kuri byose ikintu ikintu ",
         "ikintu ikintu ikintu Ibyingenzi Inkunga",
-        "ikintu ikintu ipaki ikintu ikintu Abakoresha",
+        "Impuzandengo iringaniye kubakoresha bisanzwe.",
         "ikintu Kwinjira ikintu ikintu ikintu",
         "byihariye ikintu ikintu ",
         "ikintu ikintu ",
-        "oya Imipaka ikintu ikintu, ikintu ikintu ikintu umukoresha",
-        "ikintu ikintu Tegura ikintu ikintu, ikintu Kuri 4 abanyamuryango",
+        "Nta mbibi zikoreshwa, kubakoresha imbaraga.",
+        "Gahunda idasanzwe yimiryango, abanyamuryango bagera kuri 4.",
         "ikintu ikintu Yateye imbere Ibikoresho",
       ],
     },
@@ -11974,18 +11974,18 @@ export default {
         "ikintu ikintu ikintu ubucuruzi",
         "ikintu Tegeka ikintu ikintu !",
         "ikintu ikintu ",
-        "ikintu ikintu Kuri ikintu ikintu ikintu",
+        "Dutegereje kuzongera kugukorera.",
         "ikintu ikintu Ibyingenzi",
-        "ikintu ikintu Kuri ikintu ikintu ikintu",
-        "ikintu ikintu ikintu ubufasha ikintu ububiko",
+        "Ntiwibagirwe kugereranya uburambe bwawe.",
+        "Urakoze gutera inkunga ububiko bwacu.",
         "ikintu ikintu Gishya Kugura!",
-        "Bika ikintu Inyemezabuguzi ikintu ikintu ikintu",
-        "Sura ikintu ikintu ikintu Ibindi. . ikintu Ibicuruzwa",
+        "Bika fagitire yawe kugirango ikoreshwe ejo hazaza.",
+        "Ongera udusure kubindi bicuruzwa byiza.",
         "ikintu Byahujwe ikintu ikintu Amaturo",
         "ikintu ikintu umukiriya",
-        "ikintu ikintu Kuri ubufasha ikintu ikintu ",
+        "Turi hano kugirango dufashe niba ukeneye ubufasha.",
         "ikintu Ibisubizo ubufasha ikintu ikintu",
-        "ikintu ikintu ikintu Kugabanuka ikintu ikintu ikintu Kugura",
+        "Ishimire kugabanyirizwa bidasanzwe kugura ubutaha.",
         "ikintu ikintu !",
         "ikintu ikintu ",
         "ikintu ikintu Kuri ikintu Ibisubizo",
@@ -12058,7 +12058,7 @@ export default {
         "ikintu Serivisi ikintu",
         "ikintu Kwamamaza serivisi ikintu",
         "ikintu ikintu ububiko ikintu",
-        "Impuguke ikintu ikintu ikintu ubucuruzi ikintu",
+        "Impuguke zimpuguke zaba nyiri ubucuruzi",
         "serivisi ikintu ikintu Isoko ikintu",
         "Amaduka ububiko ikintu ikintu Serivisi ikintu",
         "POD serivisi ikintu ikintu",
@@ -12118,19 +12118,19 @@ export default {
       description: [
         "ikintu gusubizwa amafaranga ikintu ikintu Kugura!",
         "ikintu ikintu ",
-        "ikintu gusubizwa amafaranga Amaturo ikintu ikintu ikintu",
+        "Amafaranga asubizwa yihariye kubwawe gusa.",
         "ikintu ikintu gusubizwa amafaranga ikintu",
-        "ikintu gusubizwa amafaranga ikintu byose ikintu ikintu Ibintu",
+        "Ako kanya usubize ibintu byose ukunda.",
         "Bika Ibindi. . ikintu ikintu gusubizwa amafaranga Amasezerano",
-        "ikintu ikintu gusubizwa amafaranga ikintu ikintu Iminsi 30!",
+        "Kongera amafaranga yawe muminsi idasanzwe!",
         "ikintu gusubizwa amafaranga ikintu Igihe ikintu Amaduka",
         "ikintu ikintu gusubizwa amafaranga ikintu Uyu munsi!",
         "VIP abanyamuryango ikintu ikintu gusubizwa amafaranga",
         "ikintu! ikintu Igihe gusubizwa amafaranga Amaturo",
-        "ikintu ikintu gusubizwa amafaranga ikintu ikintu ikintu",
-        "ikintu Ibindi. . ikintu Amaduka, ikintu Ibindi. . ikintu Bika",
-        "ikintu ikintu ikintu gusubizwa amafaranga ikintu",
-        "ikintu ikintu ikintu gusubizwa amafaranga Amasezerano ikintu",
+        "Injira muri Cashback Rewards Club ubungubu.",
+        "Uko ugura byinshi, niko uzigama.",
+        "Fungura ibihembo byanyuma.",
+        "Inararibonye nziza yagarutse hafi.",
       ],
     },
 
@@ -12141,14 +12141,14 @@ export default {
       prompts: [
         "MURAKAZA10 Kuri {shop} - ikintu ikintu Ibintu",
         "{shop} - ikintu ikintu serivisi",
-        "ikintu Amasezerano ikintu ikintu {shop} - ikintu ikintu ikintu!",
-        "ikintu Kuri ikintu {shop}'ikintu ikintu Kuri ikintu ikintu ",
-        "ikintu ikintu {shop} ikintu - ikintu Kuri ikintu ikintu ikintu Vugurura",
+        "Amasezerano yihariye no kuzigama gusa kuri {shop} - Fata amahirwe!",
+        "Menya {shop} 'Kwiyegurira Ibidukikije-Imyitwarire myiza",
+        "Ba igice cyumuryango {shop} - Iyandikishe kumakuru yacu kugirango agezweho",
         "ikintu ikintu {shop}",
         "ikintu ikintu byose Ibyabaye ikintu {shop}",
-        "ikintu Amaturo ikintu ikintu {shop} - ikintu ikintu!",
-        "{shop}'ikintu ikintu Ibicuruzwa ikintu - Amaduka ikintu ikintu",
-        "ikintu ikintu Kuri {shop} - ikintu ikintu Kuri ikintu ikintu ",
+        "Impano zidahwitse hamwe nigihe-cyihariye cyihariye kuri {shop} - Kora Byihuse!",
+        "{shop} 'Kugura Byuzuye Inama no Gusuzuma Ibicuruzwa - Guhaha ufite Icyizere",
+        "Kugera kuri {shop} - Duharanira gutanga Ubunararibonye bwo Guhaha",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "ikintu ikintu ikintu, ikintu ikintu ikintu!",
+        "Uzuza isura yawe, fata urutonde!",
         "Bika ikintu ikintu Amasezerano!",
         "ikintu ikintu !",
         "ikintu ikintu Kugura, ikintu ikintu!",
         "ikintu ikintu ikintu, Gura ikintu!",
         "ikintu Ibintu, ikintu igabanywa!",
-        "ikintu Ibindi. ., ikintu ikintu – ikintu ikintu!",
+        "Shaka byinshi, ukoreshe bike - bundle up!",
         "ikintu Tanga: ikintu Ibicuruzwa!",
         "ikintu ikintu ikintu, ikintu Amasezerano!",
         "ikintu ikintu , Bika ikintu!",
         "ikintu ikintu !",
         "Amaduka ikintu, ikintu ikintu Bika!",
-        "ikintu ikintu Agaciro, ikintu ikintu ikintu!",
+        "Kongera agaciro, wikubye kabiri!",
         "ikintu ikintu – Amaduka ikintu!",
-        "ikintu ikintu Igiciro ikintu ikintu ikintu!",
+        "Igiciro cyihariye cya bundle kubwawe gusa!",
         "ikintu ikintu !",
         "ikintu ikintu !",
-        "ikintu ikintu ikintu: ikintu ikintu Bika!",
+        "Bikosowe kuri wewe: guhuza no kuzigama!",
         "ikintu ikintu !",
-        "ikintu ikintu Bikunzwe ikintu ikintu ikintu!",
+        "Huza ibyo ukunda kugirango uzigame!",
       ],
     },
 
@@ -12226,27 +12226,27 @@ export default {
         "ikintu Inyuma ikintu ikintu",
       ],
       body: [
-        "ikintu {buyer_name}, ikintu Tegeka #{order_id} ikintu ikintu Byemejwe! ikintu ikintu Kuri ikintu",
+        "Muraho {buyer_name}, itegeko ryawe #{order_id} ryemejwe! Turimo kuyitunganya kandi tuzakumenyesha mugihe yiteguye kohereza.",
 
-        "Nibyiza gishya, {buyer_name}! ikintu Tegeka #{order_id} ikintu ikintu Yoherejwe ikintu ikintu Konti ikintu ikintu !",
+        "Amakuru meza, {buyer_name}! Ibicuruzwa byawe #{order_id} byoherejwe. Urashobora kubikurikirana ukoresheje konte yawe. Urakoze guhaha natwe!",
 
-        "ikintu {buyer_name}, ikintu Tegeka #{order_id} ikintu ikintu ikintu Yatanzwe ikintu ikintu Kugura ikintu ikintu!",
+        "Mwaramutse {buyer_name}, itegeko ryawe #{order_id} ryatanzwe neza. Turizera ko wishimiye ibyo waguze. Murakoze!",
 
-        "ikintu {buyer_name}, ikintu ikintu Yakiriwe ikintu Kwishura ikintu Tegeka #{order_id}. ikintu Tegeka ikintu ikintu Yoherejwe ikintu",
+        "Muraho {buyer_name}, twabonye ubwishyu bwo gutumiza #{order_id}. Ibicuruzwa byawe ubu biratunganywa kandi bizoherezwa vuba.",
 
-        "ikintu {buyer_name}, ikintu ikintu Kuri ikintu ikintu Tegeka #{order_id} ikintu ikintu , ikintu Twandikire Inkunga",
+        "Nshuti {buyer_name}, twababajwe no kubamenyesha ko itegeko ryawe #{order_id} ryahagaritswe. Niba ufite ikibazo, nyamuneka hamagara inkunga.",
 
-        "ikintu {buyer_name}, ikintu ikintu Tegeka #{order_id}. ikintu ikintu Kuri ikintu ikintu ",
+        "Nshuti {buyer_name}, turimo gutinda hamwe na ordre yawe #{order_id}. Turasaba imbabazi kubibazo kandi turimo gukora kugirango tubikemure vuba bishoboka.",
 
-        "ikintu {buyer_name}, ikintu Tegeka #{order_id} ikintu ikintu Konti ikintu Twandikire Inkunga ikintu ikintu Ibisobanuro",
+        "Muraho {buyer_name}, itegeko ryawe #{order_id} rirahagaze. Nyamuneka reba konte yawe cyangwa ubufasha bwamakuru kugirango ubone ibisobanuro birambuye.",
 
-        "ikintu {buyer_name}, ikintu Tegeka #{order_id} ikintu ikintu ikintu Gutanga ikintu ikintu !",
+        "Muraho {buyer_name}, ibyo wategetse #{order_id} birasohoka kandi bigomba kukugeraho vuba. Urakoze kwihangana kwawe!",
 
-        "ikintu {buyer_name}, ikintu ikintu Garuka ikintu ikintu Tegeka #{order_id}. ikintu ikintu , ikintu Twandikire Inkunga",
+        "Nshuti {buyer_name}, twatunganije kugaruka kubyo watumije #{order_id}. Niba ufite ikibazo, nyamuneka hamagara inkunga.",
 
-        "ikintu {buyer_name}, ikintu gusubiza amafaranga ikintu Tegeka #{order_id} ikintu ikintu reba ikintu ikintu Konti ikintu",
+        "Muraho {buyer_name}, amafaranga yawe yo gutumiza #{order_id} yatanzwe. Ugomba kubona amafaranga muri konte yawe vuba.",
 
-        "ikintu {buyer_name}, ikintu ikintu Kuva ikintu Tegeka #{order_id} ikintu Inyuma ikintu ikintu! ikintu ikintu Gishya Tegeka ikintu ikintu ",
+        "Muraho {buyer_name}, ikintu kiva murutonde rwawe #{order_id} cyagarutse mububiko! Urashobora gushiraho itegeko rishya nonaha niba ubishaka.",
       ],
     },
 
@@ -12267,14 +12267,14 @@ export default {
         "ikintu",
       ],
       description: [
-        "ikintu ikintu ikintu Ibintu Nk ikintu, Ibara, ikintu ikintu",
-        "Ibisobanuro ikintu ikintu Ikirango, ikintu, ikintu ikintu",
-        "ikintu, ikintu, ikintu Ubwoko ikintu ikintu",
-        "Ibisobanuro ikintu ikintu, ikintu, ikintu ikintu Ibicuruzwa",
+        "Ibiranga imyenda nkubunini, ibara, nigitambara.",
+        "Ibisobanuro kubikoresho nkibirango, icyitegererezo, nibiranga.",
+        "Ibiryo, ingano, n'ubwoko bwibinyobwa.",
+        "Ibisobanuro birambuye ku ifunguro, ibiryo, n'ibicuruzwa.",
         "Material, ikintu, ikintu Igishushanyo ikintu",
         "Umwanditsi, ikintu, ikintu ikintu ikintu",
-        "ikintu Ubwoko, ikintu, ikintu ikintu Ibisobanuro",
-        "ikintu ikintu, ikintu, ikintu ikintu ikintu",
+        "Ubwoko bwuruhu, ibiyigize, nibisobanuro birambuye.",
+        "Itsinda ryimyaka, ibikoresho, numutekano.",
         "Ubwoko, ikintu, ikintu Imikorere ikintu",
         "ikintu, ikintu, ikintu Ikirango Ibisobanuro",
       ],

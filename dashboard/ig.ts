@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Ọwa inweta ndị ahịa",
         subtitle:
-          "ihe azụmahịa ihe ihe. ihe ihe ihe akụkọ ihe ihe onye ahịa ihe ihe.",
+          "Azụmahịa gị na-eto eto. Nke a bụ akụkọ ọwa inweta ndị ahịa gị.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -598,7 +598,7 @@ export default {
 
       menu_advanced_options: "Nhọrọ dị elu",
       menu_advanced_options_description:
-        "Connect Google ihe, wepụ ihe ngwaahịa ihe ihe...",
+        "Jikọọ mpempe akwụkwọ Google, wepụ ngwaahịa oyiri na ndị ọzọ...",
 
       products_rss: {
         title: "RSS ngwaahịa",
@@ -606,12 +606,12 @@ export default {
       },
       products_api: {
         title: "API ngwaahịa",
-        subtitle: "ihe ngwaahịa ihe ihe ihe ihe API ihe.",
+        subtitle: "Na-ebubata ngwaahịa site na oku API nke ọha na-enweta.",
       },
       google_sheet: {
         action: "Mpempe akwụkwọ ejikọrọ",
         tooltip:
-          "ihe ngwaahịa ihe ihe ụlọ ahịa ihe ihe ihe ihe Google ihe ihe Google ihe.",
+          "Ejikọtara ngwaahịa ndị dị na ụlọ ahịa a na Google Sheet na Google Drive.",
       },
       show_deletes: {
         false_title: "Zoo ndị ehichapụ",
@@ -628,9 +628,9 @@ export default {
       table_mode: {
         false_title: "Ọnọdụ ịdọrọ na ịhapụ",
         false_description:
-          "ihe ngwaahịa ihe ihe ihe ihe ihe.",
+          "Lelee ngwaahịa ahaziri site na ngalaba na ngalaba.",
         true_title: "Ọnọdụ tebụl",
-        true_description: "ihe ngwaahịa ihe ihe ihe ihe ihe.",
+        true_description: "Lelee ngwaahịa na nhazi tebụl zuru ezu.",
       },
 
       show_notes: {
@@ -643,7 +643,7 @@ export default {
       rss_dialog: {
         title: "RSS ngwaahịa",
         subtitle:
-          "ihe ihe RSS ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+          "Jiri ndepụta RSS a ka idowe ndepụta ngwaahịa niile dị ọhụrụ.",
       },
       api_dialog: {
         title: "API ngwaahịa",
@@ -860,15 +860,15 @@ export default {
         subtitle:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         no_enable_shipping_error:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe mbupu ụzọ!",
+          "Ọ nweghị onye nwere ike zụta n'aka gị n'ihi na ị nweghị usoro mbupu enyere aka!",
         customer_must_select_a_shipping_msg:
           "onye ahịa ihe họrọ ihe mbupu ụzọ ihe ihe iwu.",
         customer_can_order_without_shipping_method_msg:
-          "onye ahịa ihe ihe ihe iwu ihe ihe ihe mbupu ụzọ ihe ihe ihe ihe ihe.",
+          "Onye ahịa nwere ike idobe iwu ọbụlagodi na enweghị usoro mbupu akwadoro maka ọnọdụ ahọpụtara.",
         inputs: {
           restriction: {
             false_description:
-              "ndị ahịa ihe ihe ihe iwu ihe ihe ihe ihe mbupu ụzọ ihe ihe ihe.",
+              "Ndị ahịa ka nwere ike ịnye iwu ọbụlagodi ma ọ bụrụ na ahọpụtabeghị usoro mbupu akọwapụtara.",
             false_title: "Nabata iwu niile",
             true_title: "Nabata iwu n’ókè",
             true_description:
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Tọọ ụlọ nkwakọba ihe, ụlọ ahịa ma ọ bụ mmalite azụmahịa gị. Ọ dị mkpa ịnwe na ngụkọ ọnụ ahịa mbupu na usoro ndenye ọpụpụ.",
       no_multi_warehouse_support_message:
-        "ihe ihe, ihe ihe ihe ihe dị ihe ihe ụlọ ahịa.",
+        "Maka ịdị mfe, njirimara a adịghị na ụlọ ahịa nkịtị.",
       size_unit: {
         title: "Ngalaba nha",
         subtitle: "Nkeji a na-eji ogologo, obosara na ịdị elu.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Chekwaa ngwa na-arụ ọrụ",
         subtitle:
-          "Selldone — Jikwaa ngwa azụmahịa gị.",
+          "Chọpụta ịdị mfe nke ijikwa ngwa azụmaahịa gị na Selldone App Store. Ikpo okwu anyị na-enye ngwa ọrụ zuru oke emebere iji kwalite ọrụ azụmahịa gị. Site na ngwọta njikwa ọhụrụ ruo ngwa na-akwalite mmepụta, Selldone na-enye ahụmịhe enweghị nkebi maka azụmaahịa na-achọ arụmọrụ na uto.",
         all: "niile",
       },
       /** {@see BAppShopStore} **/
@@ -1428,7 +1428,7 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Otu",
-      category_input_msg: "ihe: ihe ihe ụlọ ahịa ihe",
+      category_input_msg: "Ihe efu: Na mgbọrọgwụ nke ụlọ ahịa",
       product_name: "Aha ngwaahịa*",
       product_name_placeholder: "Aha ngwaahịa gị ebe a..",
       product_code: "Koodu ngwaahịa (Bekee)",
@@ -1486,34 +1486,34 @@ export default {
 
       category: {
         subtitle:
-          "ihe ihe otu ihe aha ihe ihe ihe ihe ihe ihe.",
+          "Hazie udi na aha a ga-egosipụta na ndepụta gị.",
       },
       unit: {
         subtitle:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe.",
+          "Ị nwere ike hazie ngosipụta nke ọnụahịa ọnụahịa na ihe omume oku na ibe ngwaahịa.",
       },
       custom_pricing: {
         title: "Ụdị ọnụahịa omenala",
         subtitle:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         valuation_need_saved_product_message:
-          "ihe chekwaa ihe ngwaahịa ihe, ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Biko buru ụzọ chekwaa ngwaahịa ahụ, wee nwee ike kenye ihe nlere anya.",
         assign_valuation_message:
-          "ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+          "Biko kenye ihe nlere anya na ngwaahịa a.",
         edit_pricing_action: "Dezie ụdị ọnụahịa",
         add_pricing_action: "Mepụta ụdị ọnụahịa ọhụrụ",
       },
       action: {
         title: "Bọtịnụ ịzụta omenala",
         message:
-          "ihe ihe ihe ihe ihe ihe ihe ihe: {icon name} ihe...",
+          "Ị nwere ike ịgbanwe akara ngosi site na isoro ụkpụrụ a: {icon name} nkọwa okwu...",
         placeholder: "ihe ihe ihe ihe...",
         multi_language_dialog_title: "ihe ihe ihe ihe",
       },
       external: {
         not_available_message:
-          "ihe ihe dị ihe ụlọ ọrụ & ihe ikikere.",
-        available_message: "ihe ihe tinye ihe ihe ihe ihe ihe ihe.",
+          "Mgbakwunye omume dị na ikikere Ụlọ ọrụ & Enterprise.",
+        available_message: "Ịnwere ike ịgbakwunye oku mpụga ọzọ ka ọ rụọ ọrụ.",
         input_label: "Oku omume nke abụọ",
       },
       warehouse: {
@@ -1532,9 +1532,9 @@ export default {
       },
       condition: {
         label: "ngwaahịa ihe ihe ihe ụlọ ahịa",
-        message: "ihe ihe ihe ihe ihe ihe ngwaahịa.",
+        message: "Biko họrọ ọnọdụ ngwaahịa a.",
         subtitle:
-          "ihe ihe ndị ahịa ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe ihe.",
+          "Gwa ndị ahịa gị gbasara ọnọdụ yana akara ngwaahịa ị na-enye.",
       },
       brand: {
         label: "Ụdị",
@@ -1560,7 +1560,7 @@ export default {
       shortcuts: {
         title: "ihe ngwaahịa ihe ihe ihe",
         subtitle:
-          "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+          "Njirimara a na-enye gị ohere ịdepụta ngwaahịa a n'ọtụtụ edemede ka ị na-edobe ya na ngalaba izizi edobere n'okpuru Ngwaahịa> Dezie> Udi. N'ụzọ bụ isi, ọ na-arụ ọrụ n'otu aka ahụ imepụta 'ụzọ mkpirisi' na sistemu arụ ọrụ, na-eme ka ngwaahịa ahụ pụta na ngalaba akọwapụtara agbakwunyere.",
       },
     },
 
@@ -1639,13 +1639,13 @@ export default {
       manual: {
         title: "N’aka",
         subtitle:
-          "tinye ngwaahịa ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Tinye nkọwapụta ngwaahịa na aka site na ịkọwa otu na ụzọ igodo-ụkpụrụ.",
         add_group_action: "Tinye otu",
         add_item_action: "Tinye uru nkọwapụta",
       },
       import: {
         subtitle:
-          "ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+          "Ị nwere ike ibubata nkọwa teknụzụ nke ngwaahịa ndị yiri ya.",
         action_title: "Bubata",
         action_subtitle: "ihe ihe ihe ihe ngwaahịa.",
       },
@@ -1654,7 +1654,7 @@ export default {
         subtitle:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         action_title: "akpaka ihe ihe AI",
-        action_subtitle: "mepụta ngwaahịa ihe ihe ihe ihe.",
+        action_subtitle: "Mepụta nkọwapụta ngwaahịa site na ngwa ngwa ngwa ngwa.",
       },
 
       group_input_header: "Tinye otu",
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Koodu ngwaahịa: P0000 ...",
         spec_view_title: "Nkọwapụta ngwaahịa ahọpụtara",
         spec_view_subtitle:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+          "Ebubatara nkọwapụta ndị ahụ site na ngwaahịa ahọpụtara.",
         set_spec_action: "Nkọwapụta nka nka oyiri",
       },
       notifications: {
@@ -1696,7 +1696,7 @@ export default {
         generated_spec: {
           title: "AI-ihe ihe",
           subtitle:
-            "ihe ihe ihe ihe ihe ihe ihe.",
+            "Emepụtara nkọwapụta ndị a site na ọgụgụ isi mmadụ.",
         },
         inputs: {
           prompt: {
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "Mepụta nkọwapụta",
             subtitle:
-              "ihe ihe ihe mepụta ngwaahịa ihe ihe ihe ihe ihe.",
+              "Pịa ka imepụta nkọwapụta ngwaahịa na-akpaghị aka site na nchịkọta nke enyere.",
           },
           add_generated_spec: "tinye ihe ihe",
         },
@@ -1745,7 +1745,7 @@ export default {
         actions: {
           reimagine: {
             title: "Mepụta foto ọhụrụ",
-            subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe.",
+            subtitle: "Chegharịa ihe onyonyo a site na iji ndabere ọhụrụ.",
           },
           replace: {
             subtitle: "ihe ihe ihe ihe.",
@@ -1794,7 +1794,7 @@ export default {
       },
       extra_pricings: {
         title: "Tinye ọnụahịa mgbakwunye",
-        subtitle: "ihe ihe ihe ihe ihe ihe ọnụ ọgụgụ.",
+        subtitle: "Mejuputa ọnụ ahịa dị ike dabere na ọnụọgụ ịzụrụ.",
       },
 
       vendor: {
@@ -1803,9 +1803,9 @@ export default {
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         manage_vendors: "Jikwaa ndị na-ere ahịa",
         vendor_product_pricing_link:
-          "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+          "Ejikọtara ọnụ ahịa ngwaahịa onye na-ere ahịa. Ịgbanwe ọnụahịa ndepụta ebe a ga-emetụta ngwaahịa ndị na-ere ahịa na-enweghị ụdị dị iche iche ma ọ bụ ndị nwere ụdị dị iche iche na-enweghị ọnụahịa nke ha (iji otu ọnụahịa dị ka isi ngwaahịa). A ga-ewere ọnụ ahịa a dị ka ọnụ ahịa ahịa, a ga-edozi ọnụ ahịa onye na-ere ahịa dabere n'ụdị ọnụahịa ma ọ bụ oke uru n'ahịa gara aga.",
         vendor_variant_pricing_link:
-          "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+          "Ịgbanwe ọnụahịa dị iche iche ebe a ga-emetụta ọnụahịa nke ngwaahịa ndị na-ere ahịa nwere otu ụdị dị iche iche. A ga-ewere ọnụahịa a dị ka ọnụ ahịa ahịa, a ga-edobekwa ọnụ ahịa onye na-ere ahịa dịka usoro ọnụahịa si dị ma ọ bụ oke uru ahịa ahịa gara aga.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1867,19 +1867,19 @@ export default {
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "ihe ihe ihe ngwaahịa ihe ihe ihe ihe, ihe ihe ihe ihe ihe.",
+        "Ndị na-ere ahịa na-edozi ngwa ahịa ngwaahịa mbupu, enweghị ike ịgbanwe ya ebe a.",
       marketplace:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-      default: "ihe ihe ngwaahịa ihe ihe ihe.",
+      default: "Kọwaa ọnụọgụ ngwaahịa ngwaahịa ebe a.",
     },
     menu: {
       add_bulk: {
         title: "Tinye ọtụtụ",
-        subtitle: "tinye ihe ihe ihe ihe ihe.",
+        subtitle: "Tinye ọtụtụ ụdị n'otu omume.",
       },
       edit_property_set: {
         title: "ihe ihe ihe",
-        subtitle: "ihe ihe ihe, ihe ihe iwu.",
+        subtitle: "Gbanwee aha dị iche iche, akara ngosi na iwu.",
       },
     },
   },
@@ -1894,8 +1894,8 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google ngwaahịa otu ihe",
-    hint: "ihe ihe otu ihe ihe ngwaahịa ihe ihe ihe Google'ihe ngwaahịa ihe.",
-    placeholder: "ihe ngwaahịa ihe ihe otu.. (ihe)",
+    hint: "Na-anọchi anya otu nke ngwaahịa gị dịka taxonomy ngwaahịa Google si dị.",
+    placeholder: "Tinye ngwaahịa ma ọ bụ ngalaba ọrụ.. (Nhọrọ)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "Nlekọta popup",
     subtitle:
-      "mepụta ihe, ihe, ihe ihe ihe ihe.",
+      "Mepụta windo mmapụta ahaziri ahazi, ọgụgụ isi yana mmekọrịta.",
     add_action: "tinye ihe ihe",
   },
 
@@ -1941,8 +1941,8 @@ export default {
       default: "Ọdabara",
       dedicated: "Raara nye",
 
-      subscription: "ihe ihe ihe ụtụ ihe ihe ihe ịkwụ ụgwọ ihe ihe.",
-      is_disabled: "ihe ụtụ profaịlụ ihe ihe! (⚠️ihe)",
+      subscription: "Anyị nwere ike itinye ụtụ isi naanị na usoro ịmepụta ịkwụ ụgwọ.",
+      is_disabled: "Agbanyụrụ profaịlụ ụtụ isi a! (⚠️Ịdọ aka ná ntị)",
       shipping: "Mbupu",
       fixed_rate: "TAX",
       location_based_rate: "ụtụ: ihe ihe",
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "ụlọ ahịa > ihe > ụtụ",
 
       subscription_tips:
-        "<code>Jikwaa ozi na nhazi nke ngalaba a ebe a.</code><code></code><code></code><br /><br /><b></b>",
+        "Mgbe ịhọrọ profaịlụ ụtụ maka ngwaahịa ndenye aha, anyị na-emelite<code> koodu ụtụ</code> wee tọọ ọnọdụ nsonye/kewapụ na onye na-ahụ maka ịkwụ ụgwọ gị. Profaịlụ ụtụ isi ahọpụtara na-akọwapụta ma a na-ahụta ọnụahịa ahụ ka gụnyere ụtụ isi ma ọ bụ naanị ụtụ isi. Otu n'ime <code>inclusive</code> ma ọ bụ <code> naanị</code>. Ozugbo akọwapụtara dị ka nke gụnyere ma ọ bụ naanị ya, enweghị ike ịgbanwe ya.<br /><br /><b>dị mkpa!</b> Mgbe ịgbanwere profaịlụ ụtụ isi, ị ga-pịa atụmatụ ọnụahịa na ngwaahịa> Ngwa ahịa> tab wee pịa bọtịnụ Chekwaa ka itinye mgbanwe.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "ihe ọnụahịa ihe ọnụ ọgụgụ ihe ihe ngwaahịa ihe ihe ihe ihe ihe onye na-ere ihe ihe ihe ihe.",
+        "Ọnụ ahịa na ọnụ ọgụgụ nke ngwaahịa a bụ otu onye na-ere ahịa nke ọ nwere.",
     },
     vendors: {
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ngwaahịa. ihe ọnụ ọgụgụ ihe ọnụahịa ihe ihe ihe ihe ihe ihe.",
+        "Nke a bụ ndepụta ndị na-ebubata ngwaahịa a. Ndị na-ebubata ga-edozi ọnụọgụ na ọnụahịa.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "Ozi onye na-ere ahịa",
-      subtitle: "ihe ozi ihe ihe ihe ndị ahịa ihe.",
+      subtitle: "Egosiri ndị ahịa ozi a n'ihu ọha.",
       action_sub_caption: "ihe ngwaahịa ihe ihe.",
       action_see_listing_page: "ihe ihe ihe",
       send_invitation_email: "ihe ihe Email",
@@ -2002,23 +2002,23 @@ export default {
 
     profiles: {
       title: "Profaịlụ",
-      subtitle: "ihe ihe ihe ihe ihe ihe onye na-ere.",
+      subtitle: "Ị nwere ike kenye onye na-ere ahịa ebe.",
     },
     map: {
       no_map_message:
-        "ihe ihe ihe ihe ihe onye na-ere ihe ihe ihe ihe onye na-ere.",
+        "Kenye onye na-ere ahịa ebe ọ bụrụ na ọ bụ onye na-ere ahịa dabere na ọnọdụ.",
     },
     page: {
       title: "ihe ihe",
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe onye na-ere, ihe ihe ihe ihe ihe njikọ ihe ihe ihe ihe.",
+        "Debe ibe ọdịda omenala maka onye na-ere ahịa, na-enye ha njikọ pụrụ iche na ibe ha raara onwe ha nye.",
       action_set_page: "ihe ihe ihe",
       action_sub_caption: "ihe ihe ihe.",
-      vendor_has_landing_msg: "onye na-ere ihe ihe ihe ihe ihe.",
+      vendor_has_landing_msg: "Onye na-ere ahịa nwere ibe ọdịda omenala.",
       no_landing_selected_msg: "ihe ihe ihe ihe.",
       no_landing_page: "ihe ihe ihe",
       we_can_create_dedicated_landing_msg:
-        "ihe ihe mepụta ihe ihe ihe ihe ihe ihe.",
+        "Anyị nwere ike ịmepụtara gị ibe ọdịda raara onwe ya nye.",
     },
     contact: {
       title: "Ozi kọntaktị",
@@ -2031,22 +2031,22 @@ export default {
     },
     bank: {
       title: "ihe ozi",
-      subtitle: "ihe ihe ihe nkọwa ihe ihe ihe.",
+      subtitle: "Tinye nkọwa ụlọ akụ gị ebe a maka ịkwụ ụgwọ.",
     },
     default_pricing: {
       title: "ihe ihe",
       subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Ị nwere ike ịnye ụdị ọnụahịa ndabara maka onye na-ere ahịa. Mgbe onye na-ere ahịa gbakwunyere ngwaahịa ọhụrụ, a ga-eji ụdị ọnụahịa a gbakọọ oke ahịa na ọnụ ahịa ngwaahịa ahụ. Ị nwere ike mechaa gbanwee ụdị ọnụahịa maka ngwaahịa ọ bụla n'otu n'otu.",
       no_pricing: "ihe ihe",
     },
     shipping: {
       title: "Mbupu",
-      subtitle: "ndị na-ere ihe ihe ihe ihe mbupu ihe ihe ihe.",
+      subtitle: "Ndị na-ere ahịa nwere ike hazie ọrụ mbupu na ndị ozi nke ha.",
       shipping_services: "Ọrụ mbupu",
       total_number_of_services:
-        "ihe ihe ihe ihe mbupu ihe ihe ihe onye na-ere ihe.",
+        "Ngụkọta ọnụ ọgụgụ ọrụ mbupu nke onye na-ere ahịa nwere.",
       couriers: "Ndị ozi",
-      total_couriers_count: "ihe ihe ihe ihe ihe ihe ihe onye na-ere ihe.",
+      total_couriers_count: "Ngụkọta ọnụ ọgụgụ ndị ozi nke onye na-ere ahịa nwere.",
     },
     configuration: {
       title: "ihe",
@@ -2055,8 +2055,8 @@ export default {
       title: "wepụ onye na-ere",
       action: "wepụ onye na-ere",
       verify_description:
-        "ihe ihe ihe ihe onye na-ere ngwaahịa ihe ihe ihe ihe!",
-      verify_title: "ihe ihe ihe hichapụ ihe onye na-ere.",
+        "Amaara m na a ga-ewepụ mmekọrịta ngwaahịa ndị na-ere ahịa niile!",
+      verify_title: "Achọrọ m ihichapụ onye na-ere ahịa a.",
     },
 
     send_invitation_tips:
@@ -2068,65 +2068,65 @@ export default {
       "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a. {user_name} {user_email} {email}</b><b></b>",
 
     order_information_email_to_email:
-      "ihe ihe ihe iwu ozi ihe <b>{email}</b>.",
+      "Anyị ga-eziga ozi iwu na <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "ihe ihe onye ọrụ ihe ihe onye na-ere ihe.",
+    set_a_user_for_the_vendor_first_msg: "Tọọ onye ọrụ maka onye na-ere ahịa mbụ.",
 
     inputs: {
       slug: {
         label: "ihe",
         placeholder: "ihe ihe ihe ihe...",
-        hint: "ihe ihe ihe ihe ndị na-ere ihe ihe ihe.",
+        hint: "Gbanwee ụzọ ihu ọdịda ike nke onye na-ere ahịa.",
       },
       email: {
-        message: "ihe ihe ihe ihe ihe ihe ihe melite.",
+        message: "Email a ga-enweta ọkwa na mmelite niile.",
       },
       business: {
         false_description: "ihe ihe ihe ihe ihe.",
-        true_description: "ihe ihe ihe ihe ihe ihe azụmahịa ihe.",
+        true_description: "M na-arụ ọrụ dị ka ụlọ ọrụ azụmahịa nke iwu kwadoro.",
         false_title: "ihe",
         true_title: "azụmahịa",
       },
       bank: {
-        hint: "ihe ihe ihe ihe ihe ihe ihe onye na-ere ihe ihe ihe.",
+        hint: "Aha ụlọ akụ ebe onye na-ere ahịa nwere akaụntụ ha.",
         placeholder: "ihe ihe ihe..",
       },
       account_name: {
-        hint: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        hint: "Nke a kwesịrị ikwekọ n'aha metụtara akaụntụ ụlọ akụ.",
         placeholder: "ihe ihe..",
       },
       account_number: {
-        hint: "ihe ndị na-ere ihe ihe ihe.",
+        hint: "Nọmba akaụntụ pụrụ iche nke onye na-ere ahịa.",
         placeholder: "ihe ihe ihe ihe..",
       },
       routing_number: {
-        hint: "ihe ihe ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe ihe ihe onye na-ere ihe.",
-        placeholder: "ihe ihe ihe ihe, ihe ihe, ihe BSB ihe..",
+        hint: "Ọnụọgụ a dịgasị iche site na obodo. A na-eji ya mata ngalaba ụlọ akụ nke onye na-ere ahịa na-eji.",
+        placeholder: "Nọmba ụzọ ụlọ akụ gị, ụdị koodu, ma ọ bụ nọmba BSB.",
       },
       iban: {
-        hint: "ihe ihe ihe ihe): ihe ihe ndị na-ere ihe ihe ihe ihe ihe ihe ihe ihe.",
+        hint: "Nọmba Akaụntụ Bank International): Ọ bụrụ na ụlọ akụ onye na-ere ahịa dị na Europe ma ọ bụ ụfọdụ obodo ndị ọzọ.",
         placeholder: "ihe IBAN ihe.. ihe. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "ihe ihe ihe ihe): ihe ihe ndị na-ere ihe ihe ihe ihe ihe ihe ihe ihe.",
+        hint: "Nọmba Akaụntụ Bank International): Ọ bụrụ na ụlọ akụ onye na-ere ahịa dị na Europe ma ọ bụ ụfọdụ obodo ndị ọzọ.",
         placeholder: "ihe Swift ihe/BIC..",
       },
       branch_address: {
-        hint: "ihe adreesị ihe ihe ihe ihe ihe ihe onye na-ere ihe ihe ihe.",
+        hint: "Adreesị alaka ụlọ akụ ebe onye na-ere ahịa nwere akaụntụ ha.",
         placeholder: "ihe ihe adreesị..",
       },
       enable: {
         label: "onye na-ere ọnọdụ",
         hint: "Họrọ ma ọ bụ tinye ozi achọrọ.",
         true_description:
-          "ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe ihe ahịa.",
+          "Ha ga-enwe ike ire ngwaahịa ha site n'ahịa gị.",
       },
       access: {
         label: "onye na-ere ihe & ihe",
         true_description:
-          "ihe onye na-ere ihe ihe ihe ihe ihe melite ọnụ ọgụgụ ihe ọnụahịa.",
+          "Onye na-ere ahịa nwere panel raara onwe ya nye iji melite ọnụọgụ na ọnụahịa.",
         hint: "Họrọ ma ọ bụ tinye ozi achọrọ.",
-        false_description: "ihe onye na-ere ihe ihe ihe ihe ihe.",
+        false_description: "Onye na-ere ahịa enweghị ohere ịnweta ihe ọ bụla.",
       },
 
       logo: {
@@ -2172,7 +2172,7 @@ export default {
         false_description: "ngwaahịa ihe ihe ihe ihe.",
         false_title: "akpaka",
         true_title: "ihe ngwaahịa ihe",
-        true_description: "tinye ihe ihe ihe ihe ngwaahịa ihe.",
+        true_description: "Tinye baajị omenala na ibe ngwaahịa.",
       },
     },
     add_custom_badge: {
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "ihe",
           message:
-            "ihe gosi ihe ihe ihe ngwaahịa ihe ihe ihe uru ihe ihe ihe. Regex ihe.",
-          placeholder: "ihe gosi ihe ihe ngwaahịa ihe: *.*",
+            "Gosi baajị a na akpaghị aka maka ngwaahịa nwere uru a dabara na nkọwapụta ha. Regex kwadoro.",
+          placeholder: "Ka igosi maka ngwaahịa niile dee:*.*",
         },
       },
       notifications: {
-        badge_added: "ihe ihe ihe ihe ihe ihe!",
-        badge_updated: "ihe ihe ihe ihe ihe ihe!",
+        badge_added: "Agbakwunyela baajị ahụ nke ọma!",
+        badge_updated: "Emelitela baajị ahụ nke ọma!",
         item_not_found_error:
-          "ihe ihe ihe ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe.",
+          "Enweghị ike ịchọta ihe ahụ. Biko megharịa ibe ahụ ma ọ bụ kpọtụrụ nkwado.",
       },
     },
   },
@@ -2211,17 +2211,17 @@ export default {
   product_tags: {
     title: "Mkpado",
     tips: [
-      "ihe ihe nyocha ngwaahịa ihe ihe ihe ihe <b>ihe ihe</b>.",
-      "ihe ihe ihe ndị ahịa ihe chọọ ihe ihe ihe ihe ihe<b>chọọ</b> ihe.",
+      "Ị nwere ike nzacha ngwaahịa dabere na mkpado dị na <b> ibe ọdịda</b>.",
+      "Gị na ndị ahịa gị nwere ike ịchọ mkpado ndị a na mmanya<b>search</b>.",
       "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><b></b>",
     ],
     inputs: {
       tags: {
-        placeholder: "ihe ihe ihe ihe ihe ihe. ihe. ihe ihe",
+        placeholder: "Mkpado waya ebe a wee pịa tinye. ex. mkpokọta ọhụrụ",
       },
     },
     notifications: {
-      tags_updated: "ihe ihe ihe ihe ihe ihe.",
+      tags_updated: "Emelitela mkpado ndị ahụ nke ọma.",
     },
   },
 
@@ -2231,7 +2231,7 @@ export default {
   vendor_shipping_services: {
     title: "Ọrụ mbupu",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ahịa ahịa na-enye ụzọ mbupu iji nyere ndị na-ere ahịa aka imezu iwu ha. Ị nwere ike tinye ọrụ mbupu ebe a iji tụọ akara mbupu ngwa ngwa site na ibe iwu gị. Nke a na-eme ka usoro ahụ dị mfe site na ịmekọrịta adreesị na koodu nsochi na ndị na-eweta mbupu.",
 
     subtitle_pickup:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
@@ -2239,7 +2239,7 @@ export default {
 
     add_dialog: {
       select_service_msg:
-        "Họrọ ma ọ bụ tinye ozi achọrọ.",
+        "A na-ahazi usoro mbupu site n'ahịa, ndị ahịa nwere ike ịhọrọ n'ime ha. Ndị na-ere ahịa enweghị njikwa na nhọrọ ndị a mana ha nwere ike ijikọ panel ha na ọrụ mbupu iji zụta akara ozugbo. Biko họrọ usoro site na listi dị n'okpuru ka ịlele ọrụ dị. Họrọ ọrụ mbupu site na listi dị n'okpuru. Naanị ọrụ dị nwere ike ịgbakwunye na ụlọ ahịa gị ka egosiri ebe a.",
       no_available_service: "ihe dị ihe!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Ebe",
     empty_subtitle:
-      "ihe ihe ihe ihe ihe ngwaahịa ihe ihe ihe ihe ihe.",
+      "Kenye ọnọdụ n'ahịa ma ọ bụrụ na ọ bụ ihe dabere na ọnọdụ.",
     dialog: {
       header: "họrọ ihe profaịlụ",
       action_new_location: "Tinye ebe ọhụrụ",
       title: "ihe profaịlụ",
       subtitle:
-        "ihe ihe ihe ngwaahịa ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
-      tips: "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><b></b><b></b><b></b>",
+        "Ị nwere ike pinye ngwaahịa na ebe maapụ site na-ekenye mkpado ọnọdụ na ngwaahịa ndị a.",
+      tips: "<b>Ihe dị mkpa: </b> Kenye ebe ngwaahịa a <b>naanị</b> ma ọ bụrụ na ịchọrọ igosi ngwaahịa ahụ na ebe a kapịrị ọnụ na maapụ. Ngwaahịa a kpara akpa ga-enwerịrị ọnọdụ dịka nkọwapụta ya bụ isi, dị ka <b>ụlọ / ebe mgbazinye</b> ma ọ bụ ọrụ mmadụ dị ka<b>Nji ntutu na spa</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe ihe ihe.",
+      "Tinye ndepụta ihe ndị na-abịa na ngwugwu ngwaahịa ma ọ bụ ọrụ.",
     dialog: {
       header: "ngwaahịa ihe ihe",
       title: "Ihe gụnyere",
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+      subtitle: "Nke a bụ mkpokọta ihe ndị na-abịa na ngwaahịa a.",
       action_manage: "Jikwaa ihe",
       action_disable_msg: "ahịa ihe",
       select_items_tips:
-        "Họrọ ma ọ bụ tinye ozi achọrọ.",
+        "Mepụta ma ọ bụ họrọ ihe ngwugwu na-abịa na ngwaahịa ma ọ bụ ọrụ. Jiri atụmatụ a mesie ihe ndị ahịa nwere ike ịtụ anya ịnata mgbe ịzụrụ ihe ahụ. Anyị na-adụ ọdụ ka ị were ọrụ a naanị mgbe ọ dị mkpa ka onye ahịa ghọta ọdịnaya gụnyere, dị ka mgbe ịzụrụ ama.",
       create_item_tips:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "N'aka nke ọzọ, ịnwere ike itinye ihe ọhụrụ. Jiri onyonyo square, dịka anyị ga-emeghari foto ebugoro na-akpaghị aka na usoro 256x256 square. Iji hụ na ọdịdị kacha mma n'ofe ndebiri niile, jiri onyonyo pere mpe nwere nzụlite doro anya ma jikwaa ụkpụrụ na-agbanwe agbanwe maka ngwaahịa gị niile.",
       create_new_item_action: "mepụta ihe ihe ihe",
     },
   },
@@ -2370,7 +2370,7 @@ export default {
         title: "Ogo ngwaahịa",
         title_small: "Akụkọ afọ ojuju ndị ahịa",
         total_participation: "Ngụkọta ọnụọgụ onyinye",
-        total_participation_tooltip: "ihe ihe ihe ihe ihe ihe ngwaahịa.",
+        total_participation_tooltip: "Ngụkọta ọnụ ọgụgụ nke ngwaahịa maka ngwaahịa.",
         today_participation: "Ntụle taa",
         last7days_participation: "Onyinye ụbọchị asaa gara aga",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Ọnụọgụ ntinye aka",
           score: "Akara",
         },
-        users_not_rated_msg: "ndị ọrụ ihe ihe ihe ihe ngwaahịa ihe.",
+        users_not_rated_msg: "Ndị ọrụ enyebeghị ngwaahịa a ọkwa.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,7 +2442,7 @@ export default {
 
         config: {
           title: "ngwaahịa ihe ihe",
-          subtitle: "ihe SKU, MPN, ihe ihe ihe ihe.",
+          subtitle: "Jikwaa SKU, MPN, na nnweta maka ndịiche.",
         },
         variables: {
           title: "ihe ihe",
@@ -2459,17 +2459,17 @@ export default {
         },
         quantity: {
           title: "Akụrụngwa",
-          subtitle: "ihe ihe ihe ihe ihe ihe.",
+          subtitle: "Tọọ ọkwa ngwaahịa maka ụdị ọ bụla.",
         },
         price: {
           title: "Ịnye ọnụ ahịa",
           subtitle:
-            "ihe ihe ihe ọnụahịa ihe ihe ihe ihe ihe ihe ihe ngwaahịa ọnụahịa.",
+            "Tọọ ọnụ ahịa ahaziri maka ụdịdị ahụ ma ọ bụ jiri ọnụahịa ngwaahịa ndabara.",
         },
         package: {
           title: "ihe & mbupu",
           subtitle:
-            "ihe ihe ihe ihe ihe ihe ihe ihe mbupu ihe.",
+            "Kpebie ịdị arọ na nha maka ụdị dị iche iche iji chọpụta nhọrọ mbupu.",
           same_as_product_action: "ihe ihe ngwaahịa",
         },
         image: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "ihe ihe ihe ihe (GTIN)",
             message:
-              "ihe ihe: UPC (12 ihe), EAN (13 ihe), JAN (8 ihe 13 ihe), ISBN (13 ihe).",
+              "Ụdị akwadoro: UPC (ọnụọgụ iri na abụọ), EAN (ọnụọgụ iri na atọ), JAN (ọnụọgụ 8 ma ọ bụ 13), ISBN (ọnụọgụ iri na atọ).",
           },
         },
       },
@@ -2507,7 +2507,7 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "mbupu ihe dị ihe ihe ihe ihe ihe ihe ihe.",
+      "Ọrụ mbupu dị na-adabere na nha na ibu enyere.",
   },
 
   /** {@see BProductExtraInput} **/
@@ -2531,7 +2531,7 @@ export default {
     lead_time_dimension: "Oge elekere",
     bulk_action: "Omume buru ibu",
     bulk_action_subtitle:
-      "ihe ihe ihe ihe ihe ozi ihe ihe ngwaahịa ihe.",
+      "Ị nwere ike itinye ozi nkwakọ ngwaahịa na ụdị ngwaahịa niile.",
 
     bulk_action_input: "Melite ụdịdị niile",
     bulk_action_msg:
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a. {filename}</b><br /><b></b><b><s></s></b>",
       how_set_name:
-        "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><br />",
+        "<b> Ndụmọdụ ịkpọ aha:</b><br />A ga-eji mkpụrụedemede iri na abụọ mbụ nke aha faịlụ ebugoro dị ka aha akụ. Njirimara a dị mma maka igosipụta akụkụ ngwaahịa nwere ike ịhazi ya, dịka nha taya maka ọgba tum tum ma ọ bụ ụkpụrụ akwa. Iji kwalite ojiji nke njirimara a, zere ibugo ihe onyonyo dị iche iche ebe a ma ọ bụrụ na ọnụọgụ eserese erughị 100, dịka ụdị osisi dị iche iche maka arịa ụlọ.",
     },
   },
 
@@ -2601,19 +2601,19 @@ export default {
     out_of_stock: "ihe ihe ihe ihe",
 
     image: {
-      tooltip: "⚡ ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      tooltip: "⚡ Dọrọ na dobe onyonyo ebe a ka ekenye ya na ụdị dị iche iche.",
     },
     enable: {
-      true_tooltip: "ihe ihe ihe dị ihe ihe ihe ụlọ ahịa.",
-      false_tooltip: "ihe ihe ihe ihe dị ihe ihe ihe ụlọ ahịa.",
+      true_tooltip: "Ihe a dị na ụlọ ahịa dị n'ịntanetị.",
+      false_tooltip: "Ihe a adịghị na ụlọ ahịa dị n'ịntanetị.",
     },
     restore_dialog: {
       title: "ihe ihe",
-      message: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe?",
+      message: "Ị ji n'aka na ịchọrọ iweghachi ụdịdị a ehichapụrụ?",
       action: "ihe, ihe ihe",
     },
     notifications: {
-      restore_variant_success: "ihe ngwaahịa ihe ihe ihe ihe.",
+      restore_variant_success: "Eweghachitere ụdị ngwaahịa a nke ọma.",
     },
   },
 
@@ -2673,7 +2673,7 @@ export default {
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
     title: "ụlọ ahịa ihe",
-    subtitle: "ihe ihe ihe ngwaahịa ihe ụlọ ahịa.",
+    subtitle: "Ndepụta ngwaahịa niile dị na ụlọ ahịa.",
     cant_set_here: "ihe ihe ihe",
 
     search_input: "Ọchụchọ ngwaahịa...",
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "ihe ihe > ọnụahịa",
     message:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ego ndị a ga-emetụta dị ka pasentị na ọnụahịa ngwaahịa niile dị na ụlọ ahịa gị. Ọzọkwa, a ga-eji amamihe gbanwee ọnụ ahịa ọnụ ahịa a gbakọrọ na ọnụọgụ gburugburu kacha nso dabere na ego ahọpụtara. Kpachara anya na itinye ụkpụrụ.",
     check: "ihe ihe ọnụahịa ihe.",
     check_description:
-      "ihe ọnụahịa ihe ihe ihe ihe ihe ihe otu ihe ihe ihe.",
+      "A ga-agbanwe ọnụahịa maka udi ahọpụtara na ngalaba niile.",
     add_percent_tab: "tinye ihe",
     add_constant_tab: "tinye ihe",
     ending_tab: "ihe ihe",
@@ -2728,11 +2728,11 @@ export default {
 
     constant: {
       subtitle:
-        "ihe ego ihe ihe ihe ihe ihe ihe ihe ihe ọnụahịa ihe ngwaahịa.",
+        "A ga-agbakwunye ma ọ bụ wepụ ego ahụ na ọnụahịa ngwaahịa dị ugbu a.",
     },
     ending: {
       subtitle:
-        "ihe ihe ihe ihe ihe ọnụahịa ihe ngwaahịa ihe ihe ihe ihe ihe ihe uru.",
+        "A ga-agbanwe njedebe nke ọnụahịa ngwaahịa ugbu a na uru akọwapụtara.",
     },
     marketplace: {
       title: "ahịa ihe ọnụahịa",
@@ -2742,18 +2742,18 @@ export default {
         min: {
           title: "ihe ihe ọnụahịa",
           description:
-            "ihe ihe ihe ọnụahịa ihe ihe ngwaahịa ihe ihe ihe ọnụahịa.",
+            "Tọọ ọnụ ahịa kacha nta nke ngwaahịa dị ka ọnụahịa ndepụta.",
         },
         max: {
           title: "ihe ihe ọnụahịa",
           description:
-            "ihe ihe ihe ọnụahịa ihe ihe ngwaahịa ihe ihe ihe ọnụahịa.",
+            "Tọọ ọnụ ahịa ngwaahịa kachasị dị ka ọnụahịa ndepụta.",
         },
       },
     },
 
     category: {
-      subtitle: "oke ihe ihe ihe ihe otu ihe ihe ihe.",
+      subtitle: "Machie nnukwu ihe omume na otu na ngalaba niile.",
     },
     vendor: {
       subtitle:
@@ -2797,7 +2797,7 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Ụzọ ịkwụ ụgwọ",
     sub_title:
-      "ihe ihe ihe ịkwụ ụgwọ ụzọ. ihe ihe ihe ihe tinye ihe ihe ụzọ ihe ihe ụlọ ahịa, ihe ihe ihe ihe. ihe ihe ihe ihe ihe 10 ihe ịkwụ ụgwọ ọnụ ụzọ.",
+      "Ndepụta nke ụzọ ịkwụ ụgwọ na-arụ ọrụ. Ọ bụrụ na ịchọrọ ịgbakwunye usoro ọhụrụ na ụlọ ahịa gị, pịa bọtịnụ na-esonụ. Anyị na-atụ aro ka ọ ghara ịgafe ọnụ ụzọ ịkwụ ụgwọ 10 agbakwunyere.",
     add_gateway: "ihe ịkwụ ụgwọ ụzọ",
 
     add_gateway_dialog: {
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         add_first_currency: {
-          subtitle: "ihe tinye ihe ego ihe ihe ụlọ ahịa ihe ihe.",
+          subtitle: "Biko tinye ego na ụlọ ahịa gị tupu ịga n'ihu.",
           title: "Tinye ego",
         },
       },
@@ -2828,12 +2828,12 @@ export default {
       },
 
       config_step: {
-        import_config: "ihe ihe ihe ihe ihe ihe ihe ọnụ ụzọ",
+        import_config: "Ị nwere ike ibubata nhazi site na ọnụ ụzọ ámá ndị ọzọ yiri ya",
         import_from: "ihe ihe",
       },
 
       request_add_new_gateway: {
-        title: "ihe ihe ihe ihe ịkwụ ụgwọ ụzọ?",
+        title: "Ahụghị usoro ịkwụ ụgwọ masịrị gị?",
         subtitle:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       },
@@ -2844,7 +2844,7 @@ export default {
         },
         manual: {
           true_title: "ihe ihe",
-          true_description: "ihe ihe ihe ọnụ ụzọ ihe ihe.",
+          true_description: "Ị nwere ike iji aka gị hazie nhazi ọnụ ụzọ ámá.",
 
           false_title: "akpaka ihe",
           false_description:
@@ -3085,14 +3085,14 @@ export default {
       edit_page: "dezie ihe",
       Pages_list: "ihe ihe",
       subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Ị nwere ike welie ngosipụta nke ibe udi gị site na machie ibe omenala. Ụzọ kachasị mma bụ ịmepụta ibe nwere nzụlite doro anya ma chepụta akụkụ 1 ruo 2 kpọmkwem maka ụdị nke ọ bụla. Ị nwere ike jikọta otu ibe na ọtụtụ edemede, na-eji ọdịnaya dị ike iji hazie ụdị nke ọ bụla n'otu n'otu.",
     },
     critical_zone: {
       title: "Mpaghara dị mkpa",
       subtitle:
         "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a. {parent}</b>",
       accept_delete: {
-        true_description: "ihe ihe ihe wepụ ihe otu.",
+        true_description: "Achọrọ m iwepụ udi a.",
         true_title: "ihe wepụ otu",
       },
     },
@@ -3160,7 +3160,7 @@ export default {
       inputs: {
         spec: {
           message:
-            "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe nyocha ihe",
+            "Ndepụta atụmatụ ịchọrọ ka egosi ya na ngalaba nzacha",
           placeholder: "họrọ ihe ihe gosi ihe nyocha...",
         },
       },
@@ -3333,14 +3333,14 @@ export default {
       options: {
         title: "ihe",
         subtitle:
-          "ihe ihe ihe ihe ihe ihe iwu ihe, ihe ihe ihe ihe ihe.",
+          "Ọ bụrụ na ịchọrọ ịkagbu iwu gị ozugbo, ịnwere ike iji nhọrọ a.",
       },
 
       express_input: {
         true_title: "ihe | ihe iwu ihe",
         false_title: "ihe | ihe iwu ihe 48 ihe",
         true_description:
-          "ihe ihe ihe ihe ihe iwu ihe ihe melite ihe ihe ihe ihe.",
+          "Nhọrọ a ga-akagbu iwu gị ozugbo wee melite ngwa ahịa ozugbo.",
         false_description:
           "Họrọ ma ọ bụ tinye ozi achọrọ.",
       },
@@ -3354,9 +3354,9 @@ export default {
         "Usoro laghachiri n'usoro iwu.",
       set_tracking_success: "Echekwara ID nsuso iwu nke ọma.",
       shipping_address_update_success:
-        "mbupu adreesị ihe ihe ihe ihe.",
+        "Emelitela adreesị mbupu nke ọma.",
       vendor_order_status_update_success:
-        "onye na-ere ihe ọnọdụ ihe ihe ihe ihe.",
+        "Emelitela ọkwa mmezu onye na-ere ahịa nke ọma.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3523,7 +3523,7 @@ export default {
         message:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         calculated_approximately:
-          "ihe ego ihe ihe ihe. ihe ihe ihe ihe ego ihe.",
+          "A na-agbakọ ego ahụ ihe dịka. Biko gbakọọ ọnụ ọgụgụ ahụ n'onwe gị.",
       },
       need_payback: {
         title: "onye ahịa ihe ihe",
@@ -3549,7 +3549,7 @@ export default {
       weight_warning: "Gafere ibu ekwenyere.",
       volume_warning: "Gafere nha ngwugwu ekwenyere.",
       items_weight_calculation:
-        "ihe ihe ihe ihe ihe ihe {weight} {unit}",
+        "Ibu agwakọta ihe niile bụ {weight} {unit}",
       not_available_message:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
 
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Akụkọ ịkwụ ụgwọ",
         subtitle:
-          "ihe ịkwụ ụgwọ ihe azụmahịa ihe ihe ihe ihe ihe ihe.",
+          "Emepụtara ịkwụ ụgwọ na azụmahịa emere n'oge oge ahọpụtara.",
         chart: {
           times: "Gụọ",
           buys: "Ịzụta ọnụ",
@@ -3662,7 +3662,7 @@ export default {
     status: "Ọnọdụ",
     cod_transportation: "ihe mbupu",
     cod_transportations_error:
-      "ihe ihe ihe ihe ịkwụ ụgwọ ihe ihe ihe ihe mbupu ụzọ!",
+      "Kwado ego na ịkwụ ụgwọ nnyefe maka opekata mpe otu ụzọ mbupu!",
     payment_type: "ịkwụ ụgwọ ụdị",
     cod: "ihe ihe ihe",
     online: "ihe ịkwụ ụgwọ",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "ihe ihe",
       subtitle:
-        "ihe ihe ihe ihe, ihe ihe ihe ihe ihe ịkwụ ụgwọ ihe ihe ndị ahịa.",
+        "Site n'ime usoro ndị a, ị ga-amalite ịnata ụgwọ n'ezie n'aka ndị ahịa gị.",
       action_enable: "ihe ihe ihe ihe",
       make_live_enable: "ihe ihe ihe ihe",
     },
@@ -3708,7 +3708,7 @@ export default {
     status_title: "ịkwụ ụgwọ ihe ọnọdụ",
     status_message:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    status_true_description: "ihe ndị ahịa ihe ihe ihe ihe ịkwụ ụgwọ ụzọ.",
+    status_true_description: "Ndị ahịa gị nwere ike iji usoro ịkwụ ụgwọ a kwụọ ụgwọ.",
 
     manual_title: "aka / akpaka ihe ịkwụ ụgwọ",
     manual_message:
@@ -3727,12 +3727,12 @@ export default {
     },
     debug: {
       title: "ihe & ihe",
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ịkwụ ụgwọ ọnụ ụzọ.",
+      subtitle: "Ị nwere ike mee ka ọnọdụ nbipu nwalee ọnụ ụzọ ịkwụ ụgwọ.",
     },
 
     limit: {
       title: "iwu oke",
-      subtitle: "ihe ihe ihe iwu ego ihe ihe ịkwụ ụgwọ ọnụ ụzọ.",
+      subtitle: "Tọọ ego kacha nta maka ụzọ ịkwụ ụgwọ a.",
     },
     limit_input: {
       title: "ihe iwu ego",
@@ -3753,13 +3753,13 @@ export default {
         "Họrọ ma ọ bụ tinye ozi achọrọ.",
     },
     delete_verify_input: {
-      true_title: "ihe ihe ihe wepụ ihe ịkwụ ụgwọ ụzọ.",
+      true_title: "Achọrọ m iwepụ usoro ịkwụ ụgwọ a.",
       true_description:
-        "ihe ịkwụ ụgwọ ụzọ ihe ihe ihe ihe ihe ụlọ ahịa ihe ihe ihe ihe dị ihe ndị ahịa.",
+        "A ga-ewepụ usoro ịkwụ ụgwọ a na ụlọ ahịa ma ọ gaghị adị maka ndị ahịa.",
     },
     delete_alert: {
       title: "hichapụ ịkwụ ụgwọ ụzọ",
-      message: "ihe ihe ihe hichapụ ihe ịkwụ ụgwọ ụzọ ihe ihe ụlọ ahịa?",
+      message: "Ị ji n'aka na-ehichapụ usoro ịkwụ ụgwọ a na ụlọ ahịa gị?",
       action: "hichapụ ịkwụ ụgwọ ụzọ",
     },
   },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Ndepụta kaadị enyere",
       subtitle:
-        "ihe ihe ihe ihe ihe ihe. ihe ihe ihe ihe ihe ndị ọrụ ihe ihe ihe ihe ihe ihe.",
+        "Lelee ma jikwaa kaadị niile enyere. Ị nwere ike iji aka gị ziga ndị ọrụ kaadị ma ọ bụ machibido ha ma ọ dị mkpa.",
 
       loading_message: "Inweta ozi...biko chere",
       issue_to_user: "Okwu nye onye ọrụ",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "ihe ihe ihe ihe iwu ihe ihe ihe ihe ihe ihe ihe ihe.",
+      "Ndepụta iwu emekọrịtara na mpụga nke kwesịrị imezu site n'aka ndị na-eweta ndị ọzọ.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4036,13 +4036,13 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "ihe ihe ịkwụ ụgwọ ihe SMS ihe ihe onye ahịa ihe {phone}.",
+      "Ziga SMS nkwenye ịkwụ ụgwọ na onye ahịa site na {phone}.",
     "sms-ready-to-ship":
-      "ihe ihe SMS ihe ihe onye ahịa ihe ihe ihe iwu ihe ihe ihe ihe ihe ihe {phone}.",
+      "Ziga onye ahịa ozi SMS na-egosi na ọ dịla njikere ibupu ihe ha nyere site na {phone}.",
     "sms-ready-to-pickup":
-      "ihe ihe SMS ihe ihe onye ahịa ihe ihe ihe iwu ihe ihe ihe ihe ihe {phone}.",
+      "Ziga onye ahịa ozi SMS na-ekwupụta na ihe ha nyere adịla njikere maka mbubata site na {phone}.",
     "sms-order-confirmation":
-      "ihe ihe iwu ihe SMS ihe ihe onye ahịa ihe {phone}.",
+      "zipu SMS nkwenye n'aka onye ahịa site na {phone}.",
 
     "count-adjustment":
       "Jikwaa ozi na nhazi nke ngalaba a ebe a. {product} {from} {to}",
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Bugharịa otu <b>{category}</b> gaa na ngalaba ọzọ",
     move_product: "Bugharịa ngwaahịa <b>{product}</b> gaa na otu",
     load_more_products:
-      "ihe ngwaahịa ihe dị ihe ihe otu. ihe ihe ihe ihe ihe.",
+      "Ngwaahịa ndị ọzọ dị na ngalaba a. Pịa ka ibunye ihe ndị ọzọ.",
     product_menu: {
       dashboard: "dashboard ngwaahịa",
       inventory: "Ndepụta Ngwaahịa na Variants",
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "ihe ihe ngwaahịa ihe ihe ihe ihe nyocha.",
-      has_root_filter_message: "ihe ihe nyocha ihe ihe otu.",
+      no_root_filter_message: "Ị nwere ngwaahịa na mgbọrọgwụ mana enweghị nzacha.",
+      has_root_filter_message: "Ị na-edozi ihe nzacha maka ngalaba mgbọrọgwụ.",
       set_filter_message: "ihe ihe ihe nyocha.",
       edit_action: "dezie ihe nyocha",
       clear_action: "ihe ihe nyocha",
@@ -4085,8 +4085,8 @@ export default {
       subscription_vendor_not_support_message:
         "Họrọ ma ọ bụ tinye ozi achọrọ.",
       vendor_owner_not_assignable_message:
-        "ihe ihe ihe ihe onye na-ere ihe ngwaahịa ihe ihe onye na-ere ihe ihe ihe!",
-      category_assign_profile: "ihe profaịlụ ihe ngwaahịa ihe ihe otu",
+        "Enweghị ike ịnye onye na-ere ahịa maka ngwaahịa nwere onye na-ere ahịa dị ka onye nwe ya!",
+      category_assign_profile: "Kenye profaịlụ na ngwaahịa dị na otu",
       category_assign_profile_subtitle: "ụtụ, mbupu, ihe, ihe,...",
       bulk_discount: "ihe mbelata",
       bulk_discount_subtitle: "ihe mbelata ihe ihe ngwaahịa.",
@@ -4095,7 +4095,7 @@ export default {
     engine: {
       title: "ihe ngwaahịa ihe",
       subtitle:
-        "ihe ngwaahịa ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "A ga-ebuju ngwaahịa ndị ọzọ site na edemede na mkpado ahọpụtara.",
       load_in_tips: "Họrọ ma ọ bụ tinye ozi achọrọ. {category}",
       action: "dezie {category} ihe",
     },
@@ -4121,14 +4121,14 @@ export default {
       title: "aka ihe",
       message: "ihe ihe melite ihe onye na-ere iwu ọnọdụ ihe.",
       guides: [
-        "ndị na-ere ihe ihe ihe ihe melite ihe ihe (ihe) ihe ihe ihe dashboard.",
-        "ihe ihe onye na-ere ihe ihe ihe ihe, ihe onye na-ere iwu ọnọdụ ihe ihe ihe ihe ihe ihe ihe ihe ọnọdụ.",
+        "Ndị na-ere ahịa nwere ohere panel nwere ike imelite mmezu ha (okpuru iwu) na dashboard ha raara onwe ya nye.",
+        "Ọ bụrụ na onye na-ere ahịa enweghị ohere panel, a ga-agbanwe ọkwa onye na-ere ahịa na-akpaghị aka site n'ịgbanwe ọkwa nkata.",
         "ihe ihe melite onye na-ere iwu ihe.",
       ],
     },
     payouts: {
       title: "ihe",
-      message: "ihe ihe onye na-ere ihe ihe azụmahịa.",
+      message: "Jikwaa ụgwọ ndị na-ere ahịa na azụmahịa.",
 
       charge_tooltip: "ihe onye na-ere akpa ego.",
       withdraw_tooltip: "ihe ihe onye na-ere akpa ego.",
@@ -4156,7 +4156,7 @@ export default {
     wallets: {
       title: "Akpa ego m",
       subtitle:
-        "ihe ihe ihe ihe tinye akpa ego ihe! onye na-ere akpa ego ihe ihe ihe ihe.",
+        "Ịkwesighi iji aka tinye obere akpa! A ga-emepụta obere akpa ndị na-ere ahịa na-akpaghị aka.",
     },
 
     open_marketplace_page: "ihe ahịa ihe",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Ndepụta ngwaahịa",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Nke a bụ ndepụta ngwaahịa gị n'ahịa. Melite ọnụ ahịa na ọnụọgụ maka ngwaahịa ekenyere gị na ngwa ahịa. Dịka onye na-ere ahịa, ị ga-ahụ naanị ngwaahịa ndị na-ere otu onye ị nwere na ndepụta ngwaahịa. Ngwaahịa ndị ọzọ ekenyere nwekwara ike gbanwee ebe a.",
   },
 
   /**
@@ -4185,7 +4185,7 @@ export default {
     add_action: "Tinye onye otu ọhụrụ",
     pending: {
       title: "Ọkpụkpọ na-echere",
-      message: "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      message: "Lelee ndepụta ọkpụkpọ òkù na-eche nnabata.",
     },
   },
 
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "ihe ihe",
-        message: "ihe ihe ihe ihe ihe ihe ihe.",
+        message: "Agbakwunyela onye otu otu ahụ nke ọma.",
       },
       update_success: {
         title: "ihe ihe",
-        message: "ihe ihe ihe ozi ihe ihe ihe ihe.",
+        message: "Emelitela ozi onye otu otu nke ọma.",
       },
     },
     actions: {
@@ -4248,10 +4248,10 @@ export default {
       },
       inputs: {
         verify: {
-          label: "ihe ihe ihe ihe ịkwụ ụgwọ?",
+          label: "Ị kwadoro ụgwọ a?",
           false_description:
-            "ihe, ihe ihe ihe ihe ihe ihe ịkwụ ụgwọ ihe ihe ihe ihe.",
-          true_description: "ihe, ihe ihe ihe ihe ihe ihe ịkwụ ụgwọ.",
+            "Mba, enwetabeghị m ụgwọ a na akaụntụ akụ m.",
+          true_description: "Ee, ana m enweta ma kwadokwa ụgwọ a.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "nkwụghachi iwu",
     subtitle:
-      "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><b></b>",
+      "<b>dị mkpa! </b> Ime ihe a ga-ebute azụmahịa na-adịghị mma na obere akpa onye na-ere ahịa wee wepụ ego ahọpụtara na ya. Ọnụ ego ahụ enweghị ike ịgafe mkpokọta azụmahịa ndị fọdụrụ maka usoro ahọpụtara. Na mgbakwunye, ọ bụrụ na ebufela ego na akaụntụ ụlọ akụ ejikọrọ (dịka na Stripe Connect ma ọ bụ nyefe waya akwụkwọ ntuziaka), ị ga-emepụta mbufe <b>reversal</b>.",
     inputs: {
       note: {
-        message: "ihe ihe ihe ihe onye na-ere.",
-        placeholder: "ihe ihe ihe ihe ndetu ihe...",
+        message: "Onye na-ere ahịa na-ahụ ya.",
+        placeholder: "Ị nwere ike itinye ndetu ebe a...",
       },
       amount: {
-        error_message: "ihe ihe ego ihe ihe ihe.",
+        error_message: "Afefefe ego fọdụrụnụ.",
       },
     },
   },
@@ -4311,7 +4311,7 @@ export default {
   order_timeline: {
     message:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    add_note_subtitle: "ihe ihe ozi ihe ihe ihe ihe.",
+    add_note_subtitle: "Dee ozi wee kpọọ ndị ọrụ ibe gị.",
 
     message_input: "Dee ozi ebe a...",
     pin_action: "Pin n'elu",
@@ -4424,7 +4424,7 @@ export default {
     currency_input_message: "A na-agbakọ ọnụ ahịa na ego a.",
     send_action: "Zipu onyinye",
     notifications: {
-      send_success: "ihe ihe ihe {amount} {currency} ihe ihe ihe {receiver}.",
+      send_success: "E zigara {amount} {currency} onyinye na {receiver}.",
     },
   },
 
@@ -4856,11 +4856,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "tinye ụlọ ahịa",
-      description: "tinye ihe ihe ụlọ ahịa ihe ihe ihe.",
+      description: "Tinye ụlọ ahịa ọhụrụ na sistemụ.",
     },
     "backoffice:shop:delete": {
       name: "hichapụ ụlọ ahịa",
-      description: "hichapụ ihe ụlọ ahịa ihe ihe ihe.",
+      description: "Hichapụ ụlọ ahịa na sistemụ.",
     },
     "backoffice:giftcard:write": {
       name: "ihe ihe ihe",
@@ -4868,11 +4868,11 @@ export default {
     },
     "backoffice:giftcard:read": {
       name: "ihe ihe ihe",
-      description: "ihe ihe ihe nkọwa ihe ihe.",
+      description: "Gụọ nkọwa kaadị onyinye na ọnụ ọgụgụ.",
     },
     "backoffice:faq:write": {
       name: "ihe ihe",
-      description: "mepụta ihe ihe ihe ihe ihe.",
+      description: "Mepụta ma jikwaa ajụjụ ndị a na-ajụkarị.",
     },
     "backoffice:faq:read": {
       name: "ihe ihe",
@@ -4900,11 +4900,11 @@ export default {
     },
     "backoffice:finance:write": {
       name: "ihe ihe ihe",
-      description: "ihe ihe ihe ihe ihe ihe ụlọ ahịa.",
+      description: "Jikwaa akaụntụ ego jikọtara na ụlọ ahịa ahụ.",
     },
     "backoffice:finance:read": {
       name: "ihe ihe ihe",
-      description: "ihe ihe ihe nkọwa ihe ihe.",
+      description: "Gụọ nkọwa akaụntụ ego na ọnụ ọgụgụ.",
     },
     "backoffice:page:write": {
       name: "ihe ihe",
@@ -4912,7 +4912,7 @@ export default {
     },
     "backoffice:page:read": {
       name: "ihe ihe",
-      description: "ihe ụlọ ahịa ihe nkọwa ihe ihe.",
+      description: "Gụọ nkọwa ibe ụlọ ahịa na ọnụ ọgụgụ.",
     },
     "backoffice:logistic:write": {
       name: "ihe ihe",
@@ -4944,7 +4944,7 @@ export default {
     },
     "backoffice:discount-code:read": {
       name: "mbelata ihe ihe",
-      description: "ihe mbelata ihe nkọwa ihe ihe.",
+      description: "Gụọ nkọwa koodu mbelata na ọnụ ọgụgụ.",
     },
     "backoffice:wallet:write": {
       name: "akpa ego ihe",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "Ọfịs azụ",
-      description: "ihe ihe ihe ihe ụlọ ahịa ihe ihe.",
+      description: "Nweta backoffice na njirimara njikwa ụlọ ahịa.",
     },
     storefront: {
       title: "Ihu ụlọ ahịa",
@@ -5144,11 +5144,11 @@ export default {
     },
     others: {
       title: "Ndị ọzọ",
-      description: "ihe ihe ihe ihe ihe ihe ihe.",
+      description: "A naghị akọwapụta oghere dị iche iche na sistemụ.",
     },
     vendor: {
       title: "onye na-ere",
-      description: "ihe onye na-ere ozi ihe ihe ihe.",
+      description: "Nweta ozi na njirimara njikwa onye na-ere ahịa.",
     },
     connect: {
       title: "Connect OS",
@@ -5564,24 +5564,24 @@ export default {
       personal_information: "Ozi nkeonwe na profaịlụ",
       personal_information_subtitle: "dezie ihe profaịlụ, adreesị ihe KYC.",
       wallet: "Akpa & Akaụntụ",
-      wallet_subtitle: "ihe ihe ihe ihe ịkwụ ụgwọ ihe.",
+      wallet_subtitle: "Akaụntụ mebere na kaadị ịkwụ ụgwọ ejikọrọ.",
 
       companies: "Ụlọ ọrụ na Akaụntụ Azụmahịa",
       companies_subtitle: "ihe ihe azụmahịa ihe ụtụ profaịlụ.",
 
       access: "Ịnweta Akaụntụ M",
       access_subtitle:
-        "OAuth ihe, ihe ihe ihe ihe ihe ihe.",
+        "Ndị ahịa OAuth, akara nnweta nkeonwe yana ngwa ejikọrọ.",
 
       security: "Nchekwa",
-      security_subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe.",
+      security_subtitle: "Tọọ ihe abụọ wee jikwaa nhọrọ nbanye mmadụ.",
 
       preferences: "Mmasị onye ọrụ",
       preferences_subtitle:
-        "ihe ihe, ihe, ihe ihe ihe ego.",
+        "Gbanwee isiokwu, ọkwa, asụsụ na ego ndabara.",
       my_subscriptions: "Ndebanye aha m",
       my_subscriptions_subtitle:
-        "ihe ihe ihe AI ihe ihe ihe.",
+        "Ịnweta AI adịchaghị mma yana njirimara nhazi.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "ọnụ ahịa",
     verify: {
       true_title: "ihe ihe",
-      true_description: "ihe ihe ihe ihe ihe Selldone ihe ihe ihe",
+      true_description: "Agụrụ m wee kwenye na usoro ojiji Selldone",
     },
     need_charge: "Achọrọ ụgwọ",
     buy_now: "Zụta ugbu a",
@@ -5700,17 +5700,17 @@ export default {
       subtitle:
         "Ozi ikike gị nọ n'ọrụ.",
       subtitle_partner:
-        "Ozi ikike {name} gị nọ n'ọrụ.",
+        "Ozi ikike {name} gị nọ n'ọrụ. Ụlọ ahịa a nwere nkwekọrịta mmekọ na-arụsi ọrụ ike ugbu a. Ọ bụrụ na-ịchọrọ ịkagbu nkwekọrịta ahụ wee kwalite gaa na atụmatụ ọkwa dị elu, biko kpọtụrụ ndị otu nkwado anyị maka enyemaka.",
     },
     licenses_table: {
       title: "Akụkọ zụrụ",
       subtitle:
-        "Ikikere nọ n'ọrụ yana na-echere.",
+        "Nke a bụ ndepụta nke ikike na-echere. Ị nwere ike ịzụta azụmahịa mgbe ị kwadoro obere akpa gị. Na mgbakwunye, biko mara na mgbe ị kagburu ndenye aha, a ga-eweghachite ego ndenye nke fọdụrụ na obere akpa ego gị.",
     },
     license_detail: {
       title: "Nkọwa",
       subtitle:
-        "Oke na atụmatụ gị ugbu a.",
+        "Ndị a bụ njedebe nke atụmatụ gị ugbu a. Maka nkọwa ndị ọzọ, biko gaa na ibe ọnụahịa. Ị nwere ike ịnweta atụmatụ niile n'ofe atụmatụ niile, gụnyere atụmatụ efu, ịmalite azụmahịa gị wee too. Ka ị na-abawanye azụmahịa gị, tụlee ịkwalite ka ọ bụrụ atụmatụ ọkwa dị elu iji wedata ụgwọ ọrụ gị.",
     },
 
     table: {
@@ -5814,7 +5814,7 @@ export default {
     sku_name_input: "SKU / aha",
     info: {
       subtitle:
-        "ihe ihe ihe ngwaahịa, ihe ihe ihe ihe ihe ihe nkọwa ihe ihe ihe ihe.",
+        "Iji mepụta ngwaahịa, ị nwere ike itinye naanị nkọwa ndị dị mkpa maka okike ya.",
     },
     price: {
       subtitle:
@@ -5822,11 +5822,11 @@ export default {
     },
     by_sku: {
       title: "tinye ihe SKU",
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe dị.",
+      subtitle: "Ebe nchekwa data dị na obodo gị adịghị.",
     },
     drop_shipping: {
       subtitle:
-        "ihe ngwaahịa ihe ihe ihe ahịa ihe tinye ihe ihe ihe ụlọ ahịa.",
+        "Chọta ngwaahịa n'ahịa a na-ere n'ùkwù ma tinye ha na ụlọ ahịa gị.",
     },
     by_connect: {
       subtitle:
@@ -5892,7 +5892,7 @@ export default {
       new: "ihe ihe ihe",
       edit: "dezie ihe ihe",
       subtitle:
-        "ihe ihe ihe ntọala ihe ihe ihe ihe ihe ihe.",
+        "Hazie ntọala izugbe na aha nke mmekọ ebe a.",
     },
 
     payment: {
@@ -5903,13 +5903,13 @@ export default {
 
     contact: {
       title: "Ozi mkpọtụrụ",
-      subtitle: "ihe ihe ihe nkọwa ihe ihe ihe ihe ihe.",
+      subtitle: "Nye nkọwa kọntaktị nke onye mmekọ mmekọ ebe a.",
     },
 
     restriction: {
       title: "ihe ihe",
       subtitle:
-        "ihe ihe ngwaahịa ihe ihe ihe ihe. ihe ihe ihe ihe ihe ihe ngwaahịa.",
+        "Kọwaa ngwaahịa ndị tozuru maka ọrụ. Ị nwere ike machibido kọmitii na ngwaahịa ụfọdụ.",
     },
 
     link_domain: {
@@ -5917,18 +5917,18 @@ export default {
       subtitle:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
 
-      domain_not_approved_msg: "ihe ihe ihe ihe ihe ihe ihe!",
+      domain_not_approved_msg: "A kwadobebeghị ngalaba a!",
       domain_is_not_enable_msg: "ihe ihe ihe ihe ihe!",
       domain_is_linked_to_other_affiliate_msg:
-        "ihe ihe ihe ihe ihe ihe ihe ihe!",
+        "Ejikọtala ngalaba a na mmekọ ọzọ!",
     },
 
-    set_users_first_message: "ihe ihe ihe onye ọrụ ihe!",
+    set_users_first_message: "Biko tọọ onye ọrụ mbụ!",
 
     cluster: {
       title: "ihe",
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Jikọọ njikọ a na ụyọkọ iji jikwaa ya n'akụkụ akụrụngwa ndị ọzọ n'otu ebe.",
       manage_action: "ihe",
     },
 
@@ -5940,39 +5940,39 @@ export default {
     inputs: {
       name: {
         label: "ihe ihe ihe",
-        message: "ihe.ihe., ihe ihe, ihe ụlọ ọrụ, ihe ihe, ihe.",
+        message: "ọmụmaatụ, John Doe, Alex Company, X Marketers, wdg.",
       },
       commission: {
         label: "ihe ihe",
         false_description:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Gbakọọ site na iji ngwakọta nke kọmitii etinyere na pasentị.",
         true_description:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Gbakọọ site na iji kọmiti akọwapụtara ngwaahịa edobere na taabụ ọnụahịa.",
         false_title: "ihe + ihe ihe",
         true_title: "ihe ihe",
       },
       user: {
         label: "onye ọrụ (ihe)",
-        message: "ihe, ihe.ihe., ihe ihe ihe Selldone",
+        message: "Nhọrọ, ọmụmaatụ, aha mmekọ na Selldone",
       },
       web: {
         placeholder: "ihe, ihe.ihe., ihe.ihe",
       },
       address: {
-        placeholder: "ihe, ihe.ihe., 1200 ihe, ihe, ihe",
+        placeholder: "Nhọrọ, ọmụmaatụ, 1200 POX, NY, USA",
       },
       tel: {
         placeholder: "ihe, ihe.ihe., 001-808-210354",
       },
       bank: {
-        placeholder: "ihe, ihe.ihe., ihe ihe, ihe: 10002-325-800-845213",
+        placeholder: "Nhọrọ, ọmụmaatụ, Arstra Bank, Mba: 10002-325-800-845213",
       },
       domain: {
         placeholder: "họrọ ihe ihe... (ihe)",
       },
       pos: {
         true_description:
-          "ihe ihe ihe iwu ihe ihe ihe ndị ahịa ihe ihe ihe.",
+          "Ndị mmekọ nwere ike itinye iwu ozugbo maka ndị ahịa ha site na panel ha.",
         true_title: "POS ihe",
       },
       enable: {
@@ -6045,14 +6045,14 @@ export default {
     structure: {
       title: "ihe",
       subtitle:
-        "ihe ihe ihe ihe ụdị ihe ihe ihe ihe ihe ihe ihe.",
+        "Chepụta akwụkwọ ntinye ọnụahịa gị ebe a site na ijikọ usoro na tebụl ntụaka.",
       expand_action: "ihe",
       collapse_action: "ihe",
     },
     inputs: {
       title: {
-        message: "ihe aha ihe ihe ihe ihe ndị ahịa.",
-        placeholder: "ihe ihe ihe ihe ihe, ihe.ihe., 'ihe ihe'",
+        message: "Ndị ahịa anaghị ahụ aha a.",
+        placeholder: "Tinye aha maka ọnụahịa, ọmụmaatụ, 'Mugs Pricing'",
       },
     },
     samples: {
@@ -6316,7 +6316,7 @@ export default {
 
     config: {
       subtitle:
-        "ihe ihe ihe ihe kupon mbelata ihe ihe: ihe + ihe (oke, ihe * ihe ọnụahịa).",
+        "Usoro ngụkọ mwepu coupon bụ: CHARGE + max (LIMIT, PERCENT * ọnụ ahịa ụgbọ ala).",
     },
     limit: {
       subtitle:
@@ -6333,21 +6333,21 @@ export default {
     },
     constraints: {
       subtitle:
-        "ihe, ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe kupon.",
+        "N'ebe a, ị nwere ike ịmepụta paramita ahaziri agbakwunyere maka coupon.",
       no_limit: "ihe ihe ihe",
       has_limit: "ihe ihe",
-      has_code_message: "onye ọrụ ihe ihe ihe ihe ihe tinye kupon.",
+      has_code_message: "Onye ọrụ kwesịrị itinye koodu ka ịgbakwunye coupon.",
     },
     club: {
       subtitle:
-        "ihe kupon ihe ihe ihe ihe ihe ihe ihe ihe ihe onye ahịa ihe.",
+        "Enwere ike machibido iji coupon a naanị naanị ndị otu klọb ndị ahịa ahọpụtara.",
     },
     cluster: {
       subtitle:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     },
     preview: {
-      subtitle: "ihe ihe ihe ihe ihe ihe kupon.",
+      subtitle: "Nke a bụ nlebanya ọhaneze nke coupon.",
     },
   },
 
@@ -6425,11 +6425,11 @@ export default {
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     },
     limit: {
-      subtitle: "ihe ihe ihe ihe oke ihe ihe onyinye ihe ihe ihe.",
+      subtitle: "Tọọ oke ojiji maka onyinye a na ngalaba a.",
     },
     duration: {
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe onyinye, ihe ihe ihe ihe ihe ihe.",
+        "Ọ bụrụ na-ịchọrọ ịtọ oge a kapịrị ọnụ maka onyinye, ị nwere ike hazie oge ahụ ebe a.",
     },
     constraints: {
       subtitle:
@@ -6438,7 +6438,7 @@ export default {
     discounted_products: {
       title: "ihe ngwaahịa",
       subtitle:
-        "ihe ihe ihe ihe ngwaahịa ihe ihe ihe onyinye ihe ihe ihe mbelata.",
+        "Ị nwere ike ịkọwapụta ngwaahịa nke onyinye a ga-etinye maka mbelata.",
     },
     cluster: {
       subtitle:
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Jiri ahụmịhe dị egwu kwalite ịzụrụ ndị ahịa na ụlọ ahịa gị. Hazie ihe nrite na mmeri maka ndị ahịa na-enweta akara ngosi site na ịzụrụ ihe. Egwuregwu egwuregwu ọ bụla na-efu akara iri, ma ị nwere ike ịnye ihe nrite pụrụ iche maka ndị na-azụ ahịa oge mbụ. Egwuregwu ndabara bụ Wheel of Fortune, mana ị nwere ike hazie ya ka ọ dabara na nhazi ụlọ ahịa gị.",
     },
     empty_prize_list: "mepụta ihe ihe ihe ihe...",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Ohere imeri na pasentị",
     free_for_first: "Ọ bụ n'efu maka ndị ahịa ọhụrụ?",
     free_for_first_message: "Ndị ahịa ọhụrụ nwere ike imeri ihe a.",
-    not_free_for_first_message: "ihe ihe ihe dị ihe ihe ihe ihe.",
+    not_free_for_first_message: "Ihe nrite a adịghị maka egwuregwu efu nke mbụ.",
 
     amount: "Ọnụ ego nrite",
     amount_hint: "Ndị ọrụ na-emeri ego ole a maka ịtụ ha.",
@@ -6618,10 +6618,10 @@ export default {
     },
     design: {
       subtitle:
-        "ihe, ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "N'ebe a, ị nwere nhọrọ ịhọrọ ihe oyiyi na agba maka ihe nrite.",
     },
     constraints: {
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      subtitle: "Kọwaa njirisi na oke maka imeri ihe nrite a.",
     },
     prize: {
       title: "ihe",
@@ -6630,7 +6630,7 @@ export default {
     },
     product_input: {
       label: "ngwaahịa ihe",
-      message: "họrọ ihe ngwaahịa ihe ihe (ihe ihe)",
+      message: "Họrọ ngwaahịa maka ihe nrite (bụ n'efu)",
     },
   },
 
@@ -7041,18 +7041,18 @@ export default {
     vendor: {
       title: "ihe ndị na-ere",
       subtitle:
-        "bulite onye na-ere CSV ihe ihe. ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Bulite faịlụ CSV onye na-ere ahịa ebe a. Gbaa mbọ hụ na usoro ahụ ziri ezi ma na-agbaso ụkpụrụ nzuzo.",
       checklist: {
         title: "ihe ihe",
-        subtitle: "ihe ihe ihe ihe ihe ihe.",
+        subtitle: "Jide n'aka na-eso ntuziaka.",
         sample_files: "ihe ihe",
         valid_vendor_name_needed:
           "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><b></b><i></i><i></i>",
         assign_user_after_import:
-          "ihe ihe ndị na-ere, ihe ihe ihe ihe ihe onye ọrụ ihe ihe ihe ihe ihe ihe onye na-ere ihe.",
+          "Mgbe ibubata ndị na-ere ahịa, ị nwere ike iji aka gị kenye onye ọrụ ka ọ nye ha ohere na panel nke ndị na-ere ahịa.",
       },
       need_kyc_alert:
-        "ihe ihe ihe ihe ihe ihe ozi ihe ihe ndị na-ere.",
+        "Ịkwesịrị inyocha ozi nkeonwe gị tupu ibubata ndị na-ere ahịa.",
       back_to_vendors_list: "ihe ihe onye na-ere ihe",
     },
   },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "ihe ndị na-ere ihe",
     title: "onye na-ere ihe ihe",
     subtitle:
-      "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ndị na-ere ihe ihe ahịa.",
+      "Nke a bụ ndepụta arịrịọ sitere n'aka ndị debanyere akwụkwọ ka ha bụrụ ndị na-ere ahịa n'ahịa gị.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7101,13 +7101,13 @@ export default {
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     },
     need_enable_shipping_for_vendors_tips:
-      "ihe mbupu ihe ndị na-ere ihe ihe ụlọ ahịa > ihe ihe ihe ihe ụzọ ihe.",
-    transportation_available_tooltip: "ihe ihe ihe dị ihe ndị na-ere.",
+      "Kwado mbupu maka ndị na-ere ahịa na taabụ ụlọ ahịa> Logistic maka usoro ọ bụla n'otu n'otu.",
+    transportation_available_tooltip: "Nhọrọ a dị maka ndị na-ere ahịa.",
     transportation_not_available_tooltip:
-      "ihe dị ihe ndị na-ere! ihe ihe ihe ihe ihe ihe ihe ntọala.",
+      "Ọ dịghị maka ndị na-ere ahịa! Ị nwere ike ime ya na ntọala ụgbọ njem.",
     panel: {
       title: "onye na-ere ihe",
-      subtitle: "ihe ihe ndị na-ere ihe ihe ihe ihe.",
+      subtitle: "Banye ndị na-ere gị site na ngalaba omenala gị.",
     },
     documents: {
       title: "Akwụkwọ",
@@ -7118,33 +7118,33 @@ export default {
     inputs: {
       enable: {
         false_description:
-          "ihe ahịa ihe ihe ihe, ihe ihe ahịa ihe.",
+          "Agbanyụrụ ahịa ahịa, na-emebi ọrụ niile nke ebe ahịa.",
         true_description:
-          "ihe ahịa ihe ihe, ihe ihe ahịa ihe.",
+          "Ebe a na-ere ahịa na-arụsi ọrụ ike, na-eme ka arụ ọrụ niile dị n'ahịa.",
       },
       product: {
         label: "tinye ihe ngwaahịa",
         true_title: "ndị na-ere ihe tinye ngwaahịa",
         false_description:
-          "ihe tinye ngwaahịa ihe ihe ndị na-ere. ndị na-ere ihe ihe ihe ọnụahịa ihe ihe.",
+          "Ị gbakwunye ngwaahịa ma kenye ndị na-ere ahịa. Ndị na-ere ahịa nwere ike ijikwa ọnụ ahịa na ngwa ahịa naanị.",
         true_description:
-          "ndị na-ere ihe tinye ihe ihe ihe ihe ngwaahịa ihe ihe ihe onye na-ere ihe.",
+          "Ndị na-ere ahịa nwere ike ịgbakwunye ma jikwaa ngwaahịa nke ha ozugbo na panel nke ndị na-ere ha.",
       },
       need_verify: {
         label: "ngwaahịa ihe ihe",
-        false_description: "ihe onye na-ere ngwaahịa ihe ihe ihe.",
+        false_description: "Ngwaahịa ndị na-ere ahịa ọhụrụ na-aga n'ihu ozugbo.",
         false_title: "ihe ihe ihe",
         true_description:
-          "ndị na-ere' ihe ngwaahịa ihe ihe ihe ihe ihe ihe ihe ahịa.",
+          "Ngwaahịa ọhụrụ nke ndị na-ere ahịa chọrọ nkwado tupu ha ebie n'ọma ahịa.",
         true_title: "ihe ihe",
       },
       category: {
         label: "tinye ihe otu",
         true_title: "ndị na-ere ihe tinye ihe",
         false_description:
-          "ihe tinye ihe. ndị na-ere ihe ihe tinye ngwaahịa ihe ihe ihe.",
+          "Ị na-agbakwụnye edemede. Ndị na-ere ahịa nwere ike ịgbakwunye ngwaahịa na ngalaba dị adị.",
         true_description:
-          "ndị na-ere ihe tinye ihe ihe ihe ihe ihe ihe onye na-ere ihe.",
+          "Ndị na-ere ahịa nwere ike ịgbakwunye ma jikwaa edemede ozugbo na panel nke ndị na-ere ha.",
       },
       shipping: {
         label: "mbupu ihe",
@@ -7152,27 +7152,27 @@ export default {
         false_description:
           "ndị na-ere ihe tinye ihe ihe ihe mbupu ụzọ.",
         true_description:
-          "ndị na-ere ihe ihe ihe ihe ihe mbupu ụzọ, tinye ihe, ihe ihe mbupu ihe ihe ihe.",
+          "Ndị na-ere ahịa nwere ike hazie ụzọ mbupu nke ha, tinye ndị na-ebufe ozi, ma hazie mbupu maka mkpa ha.",
       },
       hidden_customer: {
         label: "gosi ihe ihe ozi",
-        true_description: "ihe ihe nkọwa ihe ihe ihe ndị na-ere.",
+        true_description: "Ezochiri nkọwa kọntaktị onye zụrụ n'aka ndị na-ere ahịa.",
         false_description:
-          "ihe ihe nkọwa, ihe ihe ekwentị ihe ihe, ihe ihe ihe ndị na-ere.",
+          "Nkọwa kọntaktị onye zụrụ, dị ka ekwentị na email, bụ ndị na-ere ahịa na-ahụ.",
       },
       multi: {
         false_description:
-          "ihe onye ọrụ ihe ihe ihe ihe onye na-ere ihe. ndị ọrụ ihe ihe ihe ihe ihe ihe ihe /ndị na-ere.",
+          "Onye ọrụ nwere ike ịnwe naanị otu akaụntụ onye na-ere ahịa. A ga-atụgharị ndị ọrụ na panel ha na / ndị na-ere ahịa.",
         true_description:
-          "ihe onye ọrụ ihe ihe ihe onye na-ere ihe. ihe ihe ihe ihe ihe; ihe ihe ihe ihe ihe ihe.",
+          "Onye ọrụ nwere ike ịnwe ọtụtụ akaụntụ ndị ere. Nke a bụ njirimara beta; biko kpọtụrụ anyị tupu iji ya.",
         true_title: "ihe ihe",
         false_title: "ihe onye na-ere ihe (ihe)",
       },
 
       listing: {
         label: "ihe ihe ndị na-ere",
-        true_description: "ihe ihe ihe ihe ndị na-ere. ndị na-ere ihe ihe ihe ihe ihe ihe.",
-        false_description: "ihe ihe ihe ihe ndị na-ere. ihe ihe ụlọ ahịa ihe ihe ihe ihe ihe ihe ihe.",
+        true_description: "Agbanyere ndepụta aha maka ndị na-ere ahịa. Ndị na-ere ahịa nwere ike ijikwa ihe ndepụta na ụlọ ọrụ.",
+        false_description: "Agbanyụrụ ndepụta maka ndị na-ere ahịa. Naanị onye nwe ụlọ ahịa nwere ike ijikwa ihe ndepụta na ụlọ ọrụ.",
         requires_listing_active_text:
           "Họrọ ma ọ bụ tinye ozi achọrọ.",
         requires_listing_active_button: "ihe ihe ihe ntọala",
@@ -7199,22 +7199,22 @@ export default {
       code: {
         title: "ihe ihe",
         subtitle:
-          "ihe ihe ihe ihe ihe ihe akwụkwọ, ụdị, ihe ihe ihe ihe onye na-ere ihe ihe.",
+          "Tapawa koodu agbakwunyere maka akwụkwọ, ụdị, ma ọ bụ nkwekọrịta nke onye na-ere ahịa ga-abanyerịrị.",
       },
       link: {
         title: "ihe njikọ",
         subtitle:
-          "ihe ihe ihe njikọ ihe ihe akwụkwọ ihe ihe ihe ihe onye na-ere ihe ihe.",
+          "Nye njikọ mpụga na akwụkwọ ma ọ bụ nkwekọrịta nke onye na-ere ahịa ga-abanyerịrị.",
       },
       inputs: {
         title: {
           label: "Aha",
-          placeholder: "ihe ihe aha ihe ihe akwụkwọ ihe.",
+          placeholder: "Tinye aha maka arịrịọ akwụkwọ.",
         },
         guide: {
           label: "ihe (ihe)",
           placeholder:
-            "ihe, ihe ihe ihe ihe ihe ihe, ihe njikọ ihe ihe ihe ihe akwụkwọ.",
+            "Nhọrọ, nye ntuziaka dị nkenke ma ọ bụ ntuziaka, gụnyere njikọ na nkwekọrịta ma ọ bụ akwụkwọ ndị ọzọ.",
         },
         code: {
           label: "ihe ihe",
@@ -7223,7 +7223,7 @@ export default {
         },
         url: {
           label: "URL",
-          message: "ihe ihe URL ihe ihe akwụkwọ ihe ihe ihe...",
+          message: "Tinye URL maka akwụkwọ ma ọ bụ nkwekọrịta ebe a...",
         },
       },
     },
@@ -7251,7 +7251,7 @@ export default {
     Identification: {
       title: "ihe ihe akwụkwọ",
       description:
-        "bulite ihe ihe ihe ihe ihe ihe ihe ihe ihe azụmahịa ihe ihe ihe ihe.",
+        "Bulite NJ gọọmentị nyere iji nyochaa njirimara onye nwe azụmahịa ma ọ bụ onye isi isi.",
     },
     Business: {
       title: "azụmahịa ihe",
@@ -7266,12 +7266,12 @@ export default {
     Contract: {
       title: "ihe & ihe",
       description:
-        "bulite ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe azụmahịa ihe.",
+        "Bulite nkwekọrịta ma ọ bụ nkwekọrịta na-akọwapụta usoro na ọnọdụ nke mmekọrịta azụmahịa gị.",
     },
     Copyright: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe akwụkwọ ihe ihe ihe ihe ihe ihe.",
+        "Nye akwụkwọ ndebanye ikike nwebiisinka iji kwado ikike ikike ọgụgụ isi gị.",
     },
     Privacy: {
       title: "ihe ihe akwụkwọ",
@@ -7281,12 +7281,12 @@ export default {
     Embed: {
       title: "ihe ụdị",
       description:
-        "ihe ihe ihe ụdị ihe ihe ihe ihe ozi.",
+        "Mezue fọm agbakwunyere iji nye ozi achọrọ.",
     },
     Link: {
       title: "ihe njikọ",
       description:
-        "ihe ihe ihe njikọ ihe ihe ihe ihe ozi.",
+        "Soro njikọ dị na mpụga iji nye ozi dị mkpa.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "onye na-ere akpa ego",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ọ dịghị mkpa iji aka tinye obere akpa! A na-emepụta obere akpa ndị na-ere ahịa na-akpaghị aka. Ọ bụrụ na ị mee ka usoro ịkwụ ụgwọ na-akwado ịkwụ ụgwọ nkewa (dị ka Stripe Connect), sistemụ ahụ ga-ekesa ego ozugbo na akaụntụ ndị na-ere ahịa ejikọrọ. Ọ bụrụ na akwadoghị njirimara a, ị ga-achọ iji aka gị kwụọ ndị na-ere ahịa, ma ị nwere ike ịlele ego ha ji na listi obere akpa.",
     filter_vendor: {
       placeholder: "nyocha ihe onye na-ere...",
     },
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Akụkụ a na-enye ndepụta zuru ezu nke azụmahịa niile maka obere akpa ahọpụtara. A na-edekọ azụmahịa ụgwọ mgbe onye ahịa kwụrụ ụgwọ nke ọma. Ọ bụrụ na akagbuo ma ọ bụ nyeghachi iwu nkwụghachi ụgwọ, a ga-edekọkwa azụmahịa nkwụghachi kwekọrọ ebe a.",
     vendor_bank: "onye na-ere ihe",
     order_fee: "iwu ihe",
     order_refund: "iwu nkwụghachi",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "ihe ihe",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Njirimara a na-eme ka ịza ajụjụ gị na ndị na-ere ahịa gị dị mma site n'idebe ndekọ zuru ezu nke azụmahịa niile. Enwere ike iji aka hazie ịkwụ ụgwọ site na mbufe ụlọ akụ ma ọ bụ ụzọ ndị ọzọ, ma ọ bụ jikwaa ya ozugbo site n'aka ndị na-enye ịkwụ ụgwọ na-akwado ịkwụ ụgwọ nkewa, dị ka Stripe.",
     top_up_vendor_action: "ihe ihe onye na-ere ihe",
   },
 
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "ihe.ihe., ihe ngwaahịa ihe...",
       },
       description: {
-        placeholder: "ihe ihe tinye ihe ndetu ihe...",
+        placeholder: "Ị nwere ike itinye ndetu ebe a...",
       },
       accept_delete: {
-        true_description: "ihe ihe ihe hichapụ ihe ihe ihe.",
+        true_description: "Achọrọ m ihichapụ ụdị ọnụahịa a.",
         true_title: "ihe ihe ihe ihe",
       },
     },
@@ -7387,7 +7387,7 @@ export default {
     payment: {
       title: "Ịkwụ ụgwọ",
       subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Họrọ ego ma tinye ego ịchọrọ ịnyefe na onye na-ere ahịa. Ọ bụrụ na itinye ego na-adịghị mma, a ga-ewepụ ego ahụ na obere akpa onye na-ere ahịa. Maka akaụntụ ejikọrọ nwere nhọrọ ịkwụ ụgwọ, a ga-ewepụ ego ahụ na akaụntụ ejikọrọ, dị ka akaụntụ Stripe nke onye na-ere ahịa.",
     },
     history: {
       title: "Akụkọ ihe mere eme",
@@ -7405,10 +7405,10 @@ export default {
       },
       note: {
         placeholder:
-          "ihe ihe tinye ihe ndetu ihe... ihe ndetu ihe ihe ihe ihe ihe onye na-ere.",
+          "Ị nwere ike itinye ndetu ebe a... Ihe ndetu a anaghị ahụ onye na-ere ya anya.",
       },
       accept_refund: {
-        true_description: "ihe ihe ihe ihe ihe ịkwụ ụgwọ.",
+        true_description: "Achọrọ m ịkagbu ụgwọ a.",
         true_title: "ihe & nkwụghachi ịkwụ ụgwọ",
       },
     },
@@ -7416,12 +7416,12 @@ export default {
       reverse_fund_success: {
         title: "ihe ihe",
         message:
-          "Emere omume a nke ọma.",
+          "Ntugharị ego onye na-ere ahịa emechaala nke ọma, na-ebufe ego site na ụlọ akụ gaa na obere akpa ma tinye ya na nguzozi obere akpa.",
       },
       payout_success: {
         title: "ihe",
         message:
-          "ihe ndị na-ere ihe ihe ihe ihe ihe ihe ihe.",
+          "Ahaziri ugwo nke onye na-ere ahịa nke ọma yana gbakwunye ya.",
       },
     },
   },
@@ -7431,9 +7431,9 @@ export default {
    */
   quota_importer: {
     quota: "ihe",
-    max_batch_msg: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
-    max_daily_limit_msg: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
-    extra_daily_limit_msg: "ihe ihe ihe ihe ihe ihe oke.",
+    max_batch_msg: "Ọnụ ọgụgụ kacha elu nke ihe ị nwere ike ibubata n'otu ogbe.",
+    max_daily_limit_msg: "Ọnụ ọgụgụ kacha elu nke ihe ị nwere ike ibubata n'otu ụbọchị.",
+    extra_daily_limit_msg: "A na-anabata ihe ndị ọzọ gafere oke ụbọchị.",
     add_items_today_msg: "ihe ihe ihe.",
     file_statistic_msg: "ihe ihe ihe ihe.",
     used_quota: "ihe ihe",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "ihe aha",
-      subtitle: "ihe ihe ihe ihe aha ihe ihe ihe.",
+      subtitle: "Ogo nke aha ga-agbanwe n'ike.",
     },
 
     animation: {
@@ -7509,9 +7509,9 @@ export default {
       static: {
         false_title: "ihe ihe",
         false_description:
-          "ihe ihe ngwaahịa ihe ihe ihe ihe ihe gosi ihe ihe.",
+          "Otu na ngwaahịa nwere ihe ngosi mmekọrịta iji gosi ọrụ ahụ.",
         true_title: "ihe",
-        true_description: "ihe ihe ngwaahịa ihe ihe ihe.",
+        true_description: "Categories na ngwaahịa enweghị animation.",
       },
     },
 
@@ -7519,18 +7519,18 @@ export default {
       title: "ihe ihe",
       hover: {
         false_description:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe.",
+          "Ụdị dị mfe na nke pere mpe na-enweghị mmemme ọ bụla na kaadị ngwaahịa.",
         true_description:
-          "gosi ihe ihe & tinye ihe ihe ihe ihe ngwaahịa ihe ihe.",
+          "Gosi ngwa ngwa ịzụrụ & Tinye ka atụnyere bọtịnụ n'elu kaadị ngwaahịa.",
         true_title: "gosi ihe ihe ihe",
       },
     },
     filter_products: {
       title: "nyocha ngwaahịa",
       only_available: {
-        false_description: "gosi ihe ngwaahịa ihe ihe ụlọ ahịa ihe ihe ihe.",
+        false_description: "Gosi ngwaahịa niile dị na listi ụlọ ahịa dị ka nke ndabara.",
         true_description:
-          "gosi ihe dị ngwaahịa ihe ihe ụlọ ahịa ihe ihe ihe.",
+          "Gosi naanị ngwaahịa dị na listi ụlọ ahịa dị ka ndabara.",
         true_title: "dị ngwaahịa",
         false_title: "ihe ngwaahịa",
       },
@@ -7538,11 +7538,11 @@ export default {
     filter_categories: {
       title: "nyocha ihe",
       hide_empty_folders: {
-        false_description: "gosi ihe ihe ihe ihe ụlọ ahịa ihe.",
+        false_description: "Gosi edemede niile dị na ndepụta ụlọ ahịa.",
         false_title: "gosi ihe ihe",
         true_title: "zoo ihe ihe",
         true_description:
-          "gosi ihe ihe ihe ngwaahịa ihe ihe ụlọ ahịa ihe.",
+          "Gosi naanị otu nwere ngwaahịa na ndepụta ụlọ ahịa.",
       },
     },
 
@@ -7561,14 +7561,14 @@ export default {
         false_title: "Ụdị nkịtị",
         true_title: "ihe ihe",
         false_description:
-          "ihe ego ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe. ihe: $95, €30",
+          "A ga-etinye akara ego na mmalite nke ọnụọgụgụ. Ọmụmụ: $95, €30",
         true_description:
-          "ihe ego ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe. ihe: 95$, 30€",
+          "A ga-etinye akara ego na njedebe nke ọnụọgụgụ. Ihe atụ: $95, 30€",
       },
       variants_selector: {
         title: "ihe ihe",
         subtitle:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe.",
+          "Ị nwere ike ịhọrọ ụzọ dị iche iche iji gosipụta iche iche na ibe ngwaahịa.",
       },
 
       tabs_order: {
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "ihe & ihe",
       subtitle:
-        "ihe ihe onye na-ere ihe ihe ihe ihe ihe ihe ihe ihe, ihe, ihe ozi.",
+        "Hazie onye na-ere ahịa n'ụgbọ mmiri yana ahụmịhe nbanye site na iji vidiyo, onyonyo ma ọ bụ ozi ahaziri.",
     },
     inputs: {
       page_vendor_login: {
@@ -7606,14 +7606,14 @@ export default {
     custom_variants: {
       title: "ihe ihe",
       subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Ngwaahịa anụ ahụ nwere ike ịnwe ụdị dị iche iche. Ị nwere ike ịgbanwe aha ndabara nke ụdị dị iche iche. Ndụmọdụ anyị bụ ịhapụ ihe ndị a ka ọ bụrụ nke ndabara na ihe efu ka emechara ga-atụgharị ha na-akpaghị aka maka ndị ahịa gị n'asụsụ ha. Ogologo kachasị bụ 24.",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
       title: "ihe ihe ihe",
-      subtitle: "ihe ihe ihe ihe ihe Google ihe.",
+      subtitle: "Họrọ mkpụrụedemede ọkacha mmasị gị site na Google Fonts.",
     },
     inputs: {
       font_family: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe, ihe ihe ihe ihe.",
+        "Kọmpat dị iche iche na nhọrọ dị iche iche enwere ike họrọ, dabara maka ọtụtụ ikpe.",
     },
     select: {
       title: "họrọ ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe, ihe ihe ihe ihe ihe ihe ihe.",
+        "Na-egosiputa ụdịdị dị iche iche na ndetu, dị mma maka ọnụ ọgụgụ buru ibu nke ụdịdị.",
     },
   },
 
@@ -7677,7 +7677,7 @@ export default {
     add_title: "tinye ihe ihe",
     config: {
       subtitle:
-        "ihe aha ihe nkọwa ihe ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe.",
+        "Tọọ aha na nkọwa maka ntọala akụrụngwa gị. A ga-ahụ ya naanị maka ndị ọrụ.",
     },
     variants: {
       title: "Ụdị dị iche iche",
@@ -7687,7 +7687,7 @@ export default {
 
     inputs: {
       title: {
-        placeholder: "ihe ihe aha ihe ihe ihe...",
+        placeholder: "Tinye aha maka ntọala ụlọ...",
       },
       description: {
         placeholder: "ihe ihe ihe nkọwa... (ihe)",
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "ihe uru ihe... (ihe)",
         messages:
-          "ihe ihe ihe ihe ihe ihe uru ihe ihe iwu.",
+          "Ị nwere ike ịnye ntụnye maka ụkpụrụ ma hazie usoro.",
       },
     },
   },
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "dezie onye ahịa",
     add_title: "tinye ihe onye ahịa",
     subtitle:
-      "ihe tinye ihe onye ahịa ihe ihe ụlọ ahịa, ihe ihe ihe ihe ihe adreesị ihe ihe ekwentị ihe.",
+      "Ka ịgbakwunye onye ahịa na ụlọ ahịa gị, biko nye adreesị ozi-e ma ọ bụ nọmba ekwentị.",
     more: {
       title: "Tinye nkọwa ndị ọzọ",
-      subtitle: "ihe ego, onye ahịa ihe, ihe, adreesị ihe ihe.",
+      subtitle: "Tọọ ego, klọb ndị ahịa, ngalaba, adreesị na ndị ọzọ.",
     },
     detail: {
       subtitle:
-        "ihe ihe ihe ihe ihe ozi ihe ihe onye ahịa. ihe ihe ihe ndị ahịa ihe.",
+        "Debe ndekọ nke ozi gbasara onye ahịa gị. Biko kwanyere nzuzo onye ahịa gị ugwu.",
     },
     preferences: {
-      subtitle: "ihe ihe onye ọrụ ego, onye ahịa ihe, ihe ihe ihe.",
+      subtitle: "Tọọ ego onye ọrụ, ụlọ ọgbakọ ndị ahịa, na ngalaba ebe a.",
     },
     address: {
       subtitle:
-        "ihe adreesị ihe ihe ihe ihe ihe POS. ihe onye ọrụ ihe ihe ihe ihe ozi.",
+        "Enwere ike iji adreesị a na POS. Onye ọrụ enweghị ike ịhụ ozi a.",
     },
   },
 
@@ -7937,10 +7937,10 @@ export default {
     message_add_to_service:
       "Pịa bọtịnụ na-esonụ ma ọ bụrụ na ịchọrọ izipu ngwugwu a site na ọrụ <b>nnyefe</b> .",
     courier_action: "ihe ihe",
-    courier_action_subtitle: "ihe ihe ihe ihe ihe ihe ihe.",
+    courier_action_subtitle: "Onye ozi m ga-eburu ngwugwu ahụ.",
 
     pickup_ready_action: "ihe ihe",
-    pickup_ready_action_subtitle: "ihe iwu ihe ihe ihe onye ahịa ihe.",
+    pickup_ready_action_subtitle: "Usoro a dịla njikere maka mbuli ndị ahịa.",
 
     service_action: "ihe ihe",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "ihe ihe ihe",
       true_description:
-        "ihe ihe ihe ihe iwu ihe ihe ihe ihe ihe onye ahịa.",
+        "Ana m akwado na ebufela onye ahịa ihe ahụ.",
     },
   },
 
@@ -8018,27 +8018,27 @@ export default {
       inputs: {
         name: {
           label: "ihe ihe",
-          message: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          message: "Aha zuru ezu nke ụlọ akụ ebe a na-ejide akaụntụ ahụ.",
         },
         holder_name: {
           label: "ihe ihe ihe",
           message:
-            "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+            "Aha zuru oke nke onye ma ọ bụ ụlọ ọrụ nke ji akaụntụ ahụ.",
         },
         account_number: {
           label: "Nọmba akaụntụ",
           message:
-            "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+            "Nọmba pụrụ iche jikọtara ya na akaụntụ ụlọ akụ akọwapụtara.",
         },
         routing_number: {
-          label: "ihe ihe (ihe) ihe ihe ihe (ihe)",
+          label: "Nọmba okporo ụzọ (USA) ma ọ bụ Ụdị koodu (UK)",
           message:
-            "ihe ihe ihe ihe ihe ihe ihe ihe (ihe ihe ihe ihe ihe ihe ihe).",
+            "Nọmba nke na-achọpụta ngalaba ụlọ akụ akọwapụtara (a na-eji okwu dị iche iche na mba dị iche iche).",
         },
         swift: {
           label: "SWIFT/BIC ihe",
           message:
-            "ihe ihe ihe ihe ihe ihe ihe ihe, ihe ihe ihe ihe.",
+            "Koodu mba ofesi eji amata ụlọ akụ n'ụwa niile, ọkachasị maka mbufe mba ofesi.",
         },
         iban: {
           label: "IBAN (ihe ihe ihe ihe)",
@@ -8047,7 +8047,7 @@ export default {
         },
         contact: {
           label: "Ozi mkpọtụrụ",
-          message: "ekwentị ihe ihe ihe adreesị ihe ihe ihe ihe.",
+          message: "Nọmba ekwentị ma ọ bụ adreesị ozi-e jikọtara ya na akaụntụ ahụ.",
         },
         note: {
           label: "Rịba ama",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "ihe ihe ihe ihe ihe ihe.",
+        message: "Emelitela ozi ụlọ akụ gị nke ọma.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "ihe ihe ihe ihe, ndebanye ihe ihe ịkwụ ụgwọ ihe ihe ihe ihe.",
+      "Site na ụgwọ ọrụ niile, ndenye aha na ịkwụ ụgwọ ndị ọzọ nke ntugharị gị mere.",
   },
 
   /**
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe. ihe ihe ihe 2% ihe ihe ihe ihe.",
+        "Ị nọ n'ọkwa ọla. Ị nwetala ọrụ 2% site na ntinye aka gị.",
     },
     Silver: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe. ihe ihe ihe 4% ihe ihe ihe ihe.",
+        "Ị nọ na Tier Silver. Ị nwetala ọrụ 4% site na ntinye aka gị.",
     },
     Gold: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe. ihe ihe ihe 6% ihe ihe ihe ihe.",
+        "Ị nọ na ọkwa ọla edo. Ị nwetala ọrụ 6% site na ntinye aka gị.",
     },
     Platinum: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe. ihe ihe ihe 8% ihe ihe ihe ihe.",
+        "Ị nọ na ọkwa Platinum. Ị nwetala ọrụ 8% site na ntinye aka gị.",
     },
     Diamond: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe. ihe ihe ihe 10% ihe ihe ihe ihe.",
+        "Ị nọ n'ọkwa diamond. Ị nwetala ọrụ 10% site na ntinye aka gị.",
     },
   },
 
@@ -8526,9 +8526,9 @@ export default {
     template: {
       title: "ihe",
       valid_message: "ihe ihe mepụta ihe SMS ozi.",
-      provider_not_enable_message: "ihe SMS ihe ihe ihe ihe!",
+      provider_not_enable_message: "Agbanyeghị onye na-eweta SMS!",
       need_custom_provider_message:
-        "ihe SMS ozi ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Ozi SMS ahaziri ahazi na-arụ ọrụ naanị ma ọ bụrụ na ịtọọ onye na-eweta omenala.",
       add_new: "tinye ihe",
       disable_reason: {
         set_provider: "ihe ihe ihe ihe!",
@@ -8539,9 +8539,9 @@ export default {
       enable_only_filter: "gosi ihe ihe",
 
       text_template_not_supported_msg:
-        "ihe ihe ihe ihe ihe ihe ihe ozi.",
+        "Onye na-eweta gị anaghị akwado ozi ederede nkịtị.",
       structure_template_not_supported_msg:
-        "ihe ihe ihe ihe ihe ihe ozi.",
+        "Onye na-eweta gị anaghị akwado ozi nhazi.",
 
       structured_data: "ihe data",
 
@@ -8558,8 +8558,8 @@ export default {
         subtitle:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         code: "Koodu",
-        language_msg: "ihe ihe ihe ihe ihe ihe ihe ihe.",
-        enable_msg: "ihe ihe ihe ihe ihe ihe mepụta ozi.",
+        language_msg: "Hapụ ya ka ọ tọgbọ chakoo ka ọ bụrụ nke ndabara.",
+        enable_msg: "A ga-eji ndebiri a mepụta ozi.",
       },
       text: {
         title: "ihe ihe",
@@ -8581,7 +8581,7 @@ export default {
       template: {
         title: "ihe ihe",
         subtitle:
-          "<code>Jikwaa ozi na nhazi nke ngalaba a ebe a. {code}</code><code></code><code></code>",
+          "Ị nwere ike ịtọ igodo template na uru ebe a. Koodu ndebiri kwesịrị ịbụ kpọmkwem ihe ị debere na onye na-eweta ọrụ SMS gị, yana <code>key</code> bụ ihe onye na-eweta gị chọrọ izipu koodu ahụ. Ọ bụrụ na oghere template <code>Uru</code> tọgbọrọ chakoo, mgbe ahụ <code>{code}</code> ga-ewere dị ka koodu ndebiri.",
         add_new_parameter: "tinye ihe ihe",
 
         auto_fill: {
@@ -8594,7 +8594,7 @@ export default {
         },
         sample: {
           title: "ihe ihe ozi",
-          subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe ihe SMS ihe.",
+          subtitle: "Ị nwere ike idetuo na gafere ndebiri a na onye na-eweta SMS gị.",
         },
         add_message_action: "tinye ozi ihe",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "ihe ihe",
-      desc: "ozi ihe ihe ihe ihe ihe ihe ihe akpaka ihe ihe ihe ihe.",
+      desc: "A ga-emepụta ozi site na ederede nwere parampat dochie akpaaka wee zipu.",
     },
     template: {
       title: "ihe ihe",
-      desc: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      desc: "A ga-emepụta ihe site na paramita ma zigara onye na-eweta ya.",
     },
   },
 
@@ -8627,7 +8627,7 @@ export default {
       false_description:
         "Selldone — Họrọ ma ọ bụ tinye ozi achọrọ.",
       true_description:
-        "SMS ozi ihe ihe ihe ihe ihe ihe ihe.",
+        "A ga-eziga ozi SMS site na iji onye na-ahụ maka ọrụ gị.",
     },
     test_input: {
       true_title: "ihe ihe",
@@ -8637,20 +8637,20 @@ export default {
     sync_action: {
       title: "Omume",
       subtitle:
-        "ihe SMS ihe ihe ihe ihe ihe ihe, ihe, ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe ozi ihe ihe ihe ihe ihe ihe.",
+        "Ụfọdụ ọrụ SMS na-enye mgbakwunye ọrụ dị ka mkpọsa, ịzụ ahịa, na atụmatụ ndị ọzọ. Ị nwere ike ịmekọrịta kọntaktị gị ma ọ bụ ozi agbakwunyere iji njirimara ha ngwa ngwa.",
       action: "ihe ihe",
     },
     tokens: {
       title: "ihe",
       subtitle:
-        "ihe ihe ihe ihe ihe njikọ ihe SMS ihe ihe ihe ihe ụlọ ahịa.",
+        "Tọọ paramita ndị a iji jikọta ndị na-eweta SMS gị na ụlọ ahịa gị.",
     },
   },
   sms_messages_options: {
     all: {
       title: "ihe + iwu ihe",
       description:
-        "ihe ozi ihe iwu ihe ihe ihe ihe.",
+        "A ga-eziga ozi nyocha na ọkwa ịtụ.",
     },
     otp: {
       title: "ihe ihe",
@@ -8681,11 +8681,11 @@ export default {
   shop_email_provider: {
     title: "ihe ihe ihe",
     subtitle:
-      "Connect ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      "Jikọọ onye na-ahụ maka ọrụ ozi gị ka izipu ozi-e site na ngalaba omenala gị.",
     provider: "ihe",
     enable_input: {
-      false_description: "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
-      true_description: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      false_description: "A ga-eziga ozi-e gị site na ngalaba myseldone gị.",
+      true_description: "A ga-eziga ozi-e gị site na ngalaba ozi omenala gị.",
     },
     config: {
       title: "ihe",
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "A ehichapụrụ faịlụ nke ọma.",
     },
-    drag_sort_msg: "ihe ihe ihe ihe ihe ihe.",
-    paid_mode_msg: "ndị ọrụ ihe budata ihe ihe ihe ihe ihe ngwaahịa.",
+    drag_sort_msg: "Ị nwere ike ịdọrọ na hazie faịlụ.",
+    paid_mode_msg: "Ndị ọrụ nwere ike ibudata ya naanị mgbe ịzụrụ ngwaahịa ahụ.",
     free_mode_msg:
-      "ndị ọrụ ihe budata ihe ihe ihe. ihe ihe ihe ihe ihe 50 ihe.",
+      "Ndị ọrụ nwere ike ibudata ya n'efu. Faịlụ nlele ga-adị n'okpuru 50 MB.",
     has_gust_shopping_msg:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     only_registered_shopping_msg:
-      "ihe ihe ndị ọrụ ihe budata ihe ihe.",
+      "Naanị ndị ọrụ edebanyere aha nwere ike ibudata faịlụ nlele.",
     file_count_limit: "ihe ihe oke",
   },
 
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "dị ihe",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ọ bụrụ na ngwaahịa ma ọ bụ ọrụ gị dị naanị na mpaghara akọwapụtara, nke obodo na zip ma ọ bụ koodu pin kọwapụtara, ị nwere ike wepụta ọnọdụ ndị ahụ ebe a. A na-amanye mmachi ọnọdụ n'ọkwa ngwaahịa. Na ibe ngwaahịa, a ga-akpali ndị ahịa ịhọrọ ebe ha nọ. Ọ bụrụ na ngwaahịa dị na mpaghara ha họọrọ, ha ga-enwe ike ịga n'ihu na ịzụrụ.",
 
     add_location_action: "tinye ihe",
     no_restriction: "ihe ihe",
@@ -8973,7 +8973,7 @@ export default {
     },
     export: {
       title: "chekwaa profaịlụ",
-      subtitle: "ụlọ ahịa ihe ihe ihe ihe.",
+      subtitle: "Ụlọ ahịa maka ojiji n'ọdịnihu.",
     },
     has_restriction_input: {
       title: "ihe ihe ihe",
@@ -8995,16 +8995,16 @@ export default {
     save_profile_dialog: {
       title: "tinye ihe profaịlụ",
       message:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Biko tinye aha iji chekwaa ntọala ebe a. Enwere ike itinye ntọala ọnọdụ echekwara na ngwaahịa ndị ọzọ, na-enye ohere iji naanị otu ọpịpị buru ibu ọnọdụ ngwa ngwa. Ọ bụrụ na profaịlụ nwere aha enyere adịlarị, a ga-eji ụkpụrụ ọhụrụ emelite ya.",
       title_input: {
         title: "profaịlụ aha",
-        placeholder: "ihe otu ihe, ihe ụlọ ahịa ihe,...",
+        placeholder: "Aha otu, ma ọ bụ aha ụlọ ahịa,...",
       },
     },
     load_profile_dialog: {
       title: "ihe ihe profaịlụ",
       message:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Ị nwere ike ịkwanye ebe site na ịhọrọ ebe echekwara na mbụ ebe a.",
 
       select_input: {
         title: "ihe profaịlụ",
@@ -9036,7 +9036,7 @@ export default {
     },
     order: {
       title: "Iwu",
-      subtitle: "ihe ihe iwu ihe ihe ihe.",
+      subtitle: "Hụ iwu gị wee jikwaa ha.",
     },
     product: {
       title: "Ngwaahịa",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "ihe iwu akụkọ",
-      desc: "ihe ihe ihe ihe ihe ihe nkọwa ihe iwu ihe ihe ihe.",
+      desc: "Nweta ozi-e kwa ụbọchị yana nkọwa nke iwu maka ụbọchị ahụ.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "ihe ụlọ ahịa",
       subtitle:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "N'ebe a, ị nwere ike ịchọta nhọrọ nke ụlọ ahịa ihe atụ. Enyere gị ikike inyocha ozi dị na ụlọ ahịa ndị a. Agbanyeghị, biko zere ịbanye ma ọ bụ tinye iwu site na iji ezigbo ozi nkeonwe, n'ihi na ọhaneze ga-enweta data a. Ọ bụrụ na itinye ozi gị na mberede ebe a, jiri nwayọ pụọ na ụlọ ahịa wee kpọtụrụ anyị maka enyemaka ọzọ.",
     },
 
     add_new_store: "tinye ihe ụlọ ahịa",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Otu blọọgụ",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ị nwere ike ịmepụta ọnụ ọgụgụ dị nta nke edemede maka blọọgụ gị iji jikwaa ha nke ọma. Inwe oke oke na-akwalite nhazi ka mma na webụsaịtị gị. N'ụzọ doro anya, ọbụlagodi ụlọ ọrụ mgbasa ozi kachasị elu na-edobe ọnụ ọgụgụ dị nta nke edemede, na-adịkarị obere karịa 100, iji kwalite njikwa na ịnọgide na-elekwasị anya.",
 
     add_action: "Tinye udi ọhụrụ",
     add_dialog: {
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Enyemaka iwu",
     subtitle:
-      "ihe ihe budata ihe ihe ihe iwu ihe - ihe ihe ihe ihe 100 iwu ihe.",
+      "Mbupụ na nbudata akara maka nhazi nnukwu usoro - dị mma maka ijikwa ihe karịrị 100 iwu kwa ụbọchị.",
 
     timespan: {
       title: "Ogologo oge",
@@ -9266,7 +9266,7 @@ export default {
       title: "Ụzọ nbanye",
       subtitle: "Hazie ka ndị ọrụ si abanye na ụlọ ahịa gị.",
 
-      tips: "Selldone — <b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b>",
+      tips: "<b>dị mkpa.</b> Mgbe onye ọrụ debanyere aha na ụlọ ahịa gị, a na-emepụta onye ọrụ Selldone kwekọrọ, ma ọ bụrụ na ọ dịbeghị. Onye ọrụ a ga-enwe ohere ịnweta akwụkwọ adreesị ha n'ofe ụlọ ahịa niile ma nwee ike ịlele akụkọ ihe mere eme ha, ọbụlagodi na ụlọ ahịa emechiela. Anyị anaghị eji ozi a maka ebumnuche ahịa mana anyị chọrọ ka ọ gbochie wayo n'akụkụ abụọ. Iji nọgide na-enwe nghọta, anyị ga-ezigara onye ọrụ ozi email na-agwa ha ndebanye aha ha.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "ihe ụdị",
       subtitle:
-        "ihe ihe ihe ụdị ihe ihe ihe ihe ozi ihe ihe ihe ihe ndị ahịa.",
+        "Hazie mpaghara ndenye ọpụpụ iji nakọta ozi ịchọrọ n'aka ndị ahịa gị.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "ihe",
       title: "ihe",
       description:
-        "ihe ngwaahịa ihe ihe ihe ihe ihe ụlọ ahịa, ihe ihe ihe ihe njikọ.",
+        "Edepụtaghị ngwaahịa a na ụlọ ahịa, mana enwere ike ịnweta ya site na njikọ ozugbo.",
     },
   },
 
@@ -9503,8 +9503,8 @@ export default {
       team: "ihe ihe ihe",
     },
     placeholder: {
-      ceo: "Tinye uru...",
-      team: "ihe ihe ihe ihe ihe ihe ihe.\nihe.ihe. ihe ihe ihe ihe...",
+      ceo: "N'ezie ọ dịghị mkpa ịdị mma, ọ masịrị m ịnụ ka ị na-ajụ ozugbo, nke ziri ezi.\neg. Achọrọ m inwe...",
+      team: "Biko gbalịa ime ha mma.\neg. Achọrọ m inwe...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "ihe ihe ngwaahịa",
     message:
-      "ihe ihe ihe ihe ihe ihe ihe ngwaahịa ihe ihe, ihe ihe ihe ihe ihe ihe ihe.",
+      "Anyị nọ na-ebubata ngwaahịa na onyonyo, nke nwere ike were oge iji wuchaa.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "ihe ọnọdụ",
       auto_confirm_enable_msg: "ihe ihe iwu ihe ihe.",
       auto_confirm_disable_msg:
-        "ihe ihe ihe iwu ihe ihe ihe.",
+        "Agbanyeghi nkwenye akpaghị aka.",
       shipping_enable_msg:
-        "ihe mbupu ihe ihe ihe ihe ihe ihe ihe ozi ihe ihe ihe.",
+        "A ga-agbakọ ọnụ ahịa mbupu dabere na ozi enyere na ndenye ọpụpụ.",
     },
     detail: {
       title: "Connect ihe",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "ihe ihe",
         subtitle:
-          "ihe ihe nkọwa. ihe ozi ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Nkọwa mmekọrịta dị n'ime. A na-echekwa ozi a ka usoro mmekọrịta gachara nke ọma.",
         no_data: "ihe ihe ozi!",
       },
     },
@@ -9595,7 +9595,7 @@ export default {
       service: {
         title: "ihe",
         subtitle:
-          "họrọ ihe ihe, ihe ihe, ihe ahịa ihe ihe.",
+          "Họrọ ikpo okwu lekwasịrị anya, ndị na-ebubata mbupu, ma ọ bụ ebe ahịa iji jikọọ.",
       },
       test: {
         false_title: "ihe ihe",
@@ -9606,7 +9606,7 @@ export default {
       },
       overwrite: {
         false_title: "ihe ihe ihe ihe ihe",
-        false_desc: "ihe ihe ngwaahịa ihe otu nkọwa ihe ihe ihe.",
+        false_desc: "Jido nkọwa ngwaahịa na otu dị ka ha dị.",
         true_title: "ihe",
         true_desc:
           "melite ihe ngwaahịa, ihe, ihe otu ozi.",
@@ -9621,7 +9621,7 @@ export default {
       },
       enable: {
         label: "Connect ọnọdụ",
-        true_desc: "ihe ihe iwu ihe ihe ihe.",
+        true_desc: "A ga-ejikọta ngwa ahịa na iwu.",
       },
       confirm: {
         label: "akpaka ihe iwu",
@@ -9633,17 +9633,17 @@ export default {
 
       shipping: {
         label: "Mbupu",
-        tips: "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        tips: "Ọrụ a na-enye mgbako mbupu, nke enwere ike ịgbanye ma ọ bụ gbanyụọ dịka mmasị gị. Ọ bụrụ na agbanyere ya, a ga-achọrọ API mgbako ọnụ ahịa nwere ọrụ ndị otu nke atọ, nke nwere ike bute igbu oge karịa 300ms maka imelite ọnụahịa na ibe ndenye ọpụpụ.",
         false_title: "ihe",
         false_desc:
           "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
         true_title: "ihe mbupu",
         true_desc:
-          "ihe ihe mbupu ihe ihe API ihe ihe ihe ihe.",
+          "Were API mgbako ọnụego mbupu nke ọrụ a na-enye.",
       },
 
       remove: {
-        verify: "ihe ihe ihe wepụ ihe ihe.",
+        verify: "Achọpụtara m na iwepụ njikọ a.",
         action: "wepụ ihe",
       },
     },
@@ -9654,10 +9654,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect ihe azụmahịa os ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Jikọọ os azụmahịa gị na ọrụ mpụga ma jikwaa ọwa niile n'otu ebe.",
       action: "Connect ihe ihe",
       empty_message:
-        "ihe ihe ihe ihe ihe ihe! Connect ihe ihe ihe ihe ihe iwu ihe.",
+        "Chezọ ngwa na ngwa mgbakwunye maka mbupu mmiri! Njikọ bụ ọdịnihu nke njikwa usoro ikpo okwu.",
       auto_confirm: "akpaka ihe",
       shipping: "Mbupu",
       syncing_now: "ihe ihe!",
@@ -9679,7 +9679,7 @@ export default {
     },
     Marketplace: {
       title: "Ebe ahịa",
-      desc: "ihe ihe ihe ihe ihe iwu (ngwaahịa ihe ihe ihe ihe SKU).",
+      desc: "Naanị mekọrịta ngwa ahịa ma nweta iwu (SKU ga-ejikọta ngwaahịa).",
     },
     Accounting: {
       title: "Akaụntụ",
@@ -9699,7 +9699,7 @@ export default {
     add_new_action: "tinye ihe ihe",
     subtitle:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    empty_message: "ihe ihe ihe ihe ihe & ihe...",
+    empty_message: "Chepụta ibe omenala site na ịdọrọ na dobe...",
   },
 
   /**
@@ -9722,8 +9722,8 @@ export default {
    */
   community_comments: {
     title: "Okwu",
-    subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe.",
-    empty_msg: "ihe ihe ihe ihe ihe ihe ihe...",
+    subtitle: "Nke a bụ ndepụta okwu obodo.",
+    empty_msg: "Onweghi okwu emebeghi ugbua...",
   },
 
   /**
@@ -9731,9 +9731,9 @@ export default {
    */
   community_categories: {
     title: "Otu",
-    subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe.",
+    subtitle: "Nke a bụ ndepụta nke otu obodo.",
     new_category_action: "ihe otu",
-    empty_msg: "ihe ihe ihe ihe ihe ihe ihe...",
+    empty_msg: "Ọ nweghị edemede emepụtara ugbu a...",
     filter: {
       delete: {
         title: "ehichapụ",
@@ -9746,7 +9746,7 @@ export default {
    */
   community_posts: {
     title: "ihe",
-    subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe.",
+    subtitle: "Nke a bụ ndepụta nke posts obodo.",
     filter: {
       deleted: {
         title: "ehichapụ",
@@ -9757,15 +9757,15 @@ export default {
         description: "gosi ihe ihe.",
       },
     },
-    empty_msg: "ihe ihe ihe ihe ihe ihe ihe...",
+    empty_msg: "Ọnweghị posts emepụtara ugbu a...",
     menu: {
       open_post: {
         title: "ihe ihe",
-        subtitle: "ihe ihe dezie ihe ihe ihe ihe.",
+        subtitle: "Lelee ma dezie ozi n'ime obodo.",
       },
       spam: {
         title: "akụkọ & wepụ ihe",
-        subtitle: "ihe wepụ ihe ihe ihe onye ọrụ.",
+        subtitle: "Nnukwu wepụ posts ma machibido onye ọrụ.",
       },
       delete: {
         title: "hichapụ ihe",
@@ -9790,15 +9790,15 @@ export default {
       title: "Google ihe",
       subtitle:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-      tips: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe Google ihe.",
+      tips: "Ị nwere ike iji ngwá ọrụ a iji jikwaa mgbasa ozi Google na-akpaghị aka.",
       link_message: "Google ngwaahịa ihe URL",
     },
     console: {
       title: "chọọ ihe",
-      subtitle: `tinye ihe ihe ihe ihe ihe ihe ihe Google chọọ ihe ihe.`,
+      subtitle: "Tinye mkpado meta na ibe mbụ gị maka nkwenye njikwa njikwa Google.",
       code: {
         label: "ihe ihe ihe",
-        placeholder: "ihe ihe, ihe.ihe. viQg9mjdBj...",
+        placeholder: "Site na google, dịka ọmụmaatụ. viQg9mjdBj...",
       },
     },
     serp: {
@@ -9812,8 +9812,8 @@ export default {
         "Selldone — Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       tips: {
         title:
-          "ihe ihe ihe Selldone ihe Google chọọ ihe, ihe ihe ihe:",
-        add_in_selldone: "tinye, ihe, ihe ihe ihe ihe ihe ihe ihe.",
+          "Tupu ijikọ Selldone na Google Search Console, hụ ihe ndị a:",
+        add_in_selldone: "Tinye, nyochaa, ma tọọ dị ka ngalaba omenala gị.",
         add_in_google: `<b>Jikwaa ozi na nhazi nke ngalaba a ebe a. {domain}</b><a href="https://search.google.com/search-console" target="_blank"><b></b></a>`,
       },
       action_custom_domain: "ihe ihe",
@@ -9834,7 +9834,7 @@ export default {
     total_cashback: "ihe ihe",
     delete_alert: {
       title: "hichapụ ihe ihe",
-      message: "ihe ihe ihe ihe hichapụ ihe ihe ihe?",
+      message: "Ị ji n'aka na ị ga-ehichapụ mmemme cashback a?",
       action: "Ee, Hichapụ Ugbu a",
     },
     notifications: {
@@ -9888,23 +9888,23 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "ihe ihe ihe ihe, oke ihe ihe ọnọdụ ihe.",
+      subtitle: "Tọọ pasentị chasback, oke na ọkwa ya ebe a.",
     },
     percent_input: {
       title: "ihe ihe",
-      message: "ihe ihe ihe ihe ihe 1% ihe 20%.",
+      message: "Tinye pasentị cashback site na 1% ruo 20%.",
     },
     currency_input: {
-      message: "ihe ihe ihe ihe ihe dị ihe ihe ihe ego.",
+      message: "Mmemme cashback ga-adị naanị maka ego a.",
     },
     limit_input: {
       title: "Oke",
-      hint: "ihe ihe ihe ego ihe ihe.",
+      hint: "Tinye ego nkwụghachi azụ kacha.",
       zero_message: "ihe 0 ihe ihe ihe.",
     },
     duration: {
       title: "ihe oke",
-      subtitle: "ihe ihe ihe ihe ihe. ihe ihe.",
+      subtitle: "Tọọ oge mmemme cashback. Ọ bụ nhọrọ.",
     },
     start_input: {
       title: "ihe ihe",
@@ -9925,16 +9925,16 @@ export default {
       title: "Nkọwa",
     },
     constraints: {
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe.",
+      subtitle: "Tọọ ihe mgbochi maka mmemme cashback.",
     },
     min_purchase_input: {
-      hint: "ihe ihe ihe ihe ego ihe ihe ihe.",
+      hint: "Tinye ego ịzụrụ kacha nta maka mmemme cashback.",
       title: "ihe ihe",
     },
     only_first_buy_input: {
-      false_desc: "ihe ihe ihe ihe ihe dị ihe ihe iwu.",
+      false_desc: "Mmemme cashback ga-adị maka iwu niile.",
       true_desc:
-        "ihe ihe ihe ihe ihe dị ihe ihe ihe ihe iwu.",
+        "Mmemme cashback ga-adị naanị maka usoro mbụ.",
       true_title: "ihe ihe iwu",
       false_title: "ihe iwu",
     },
@@ -9942,7 +9942,7 @@ export default {
       false_title: "ihe ndị ahịa",
       true_title: "ihe ndị ahịa",
       true_msg:
-        "ihe ihe ihe ihe ihe dị ihe ihe ihe ndị ahịa ihe ihe ihe.",
+        "Mmemme cashback ga-adị naanị maka ndị ahịa ruru eru.",
     },
     club: {
       subtitle:
@@ -9950,24 +9950,24 @@ export default {
     },
     cluster: {
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ihe, ihe ihe ihe ihe ihe ihe.",
+        "Site na ijikọ ụyọkọ na mmemme cashback, ị nwere ike ijikwa ya nke ọma.",
     },
     notifications: {
       add: "ihe ihe ihe ihe.",
       edit: "ihe ihe ihe ihe.",
     },
     enable_input: {
-      true_msg: "ihe ihe ihe ihe ihe ihe ndị ahịa ihe ihe ihe.",
+      true_msg: "Mmemme cashback na-arụ ọrụ na ndị ahịa nwere ike iji ya.",
       false_msg:
-        "ihe ihe ihe ihe ihe ihe ndị ahịa ihe ihe ihe ihe.",
+        "Mmemme cashback adịghị arụ ọrụ ma ndị ahịa enweghị ike iji ya.",
     },
     boosted_input: {
       false_title: "Nkịtị",
       true_title: "ihe (2x ihe)",
       true_msg:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ndị ahịa ihe ihe 2x ihe.",
+        "Mmemme cashback nọ na ọnọdụ nkwalite na ndị ahịa ga-enweta 2x cashback.",
       false_msg:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ndị ahịa ihe ihe ihe ihe.",
+        "Mmemme cashback dị na ọnọdụ nkịtị na ndị ahịa ga-enweta cashback nkịtị.",
     },
   },
 
@@ -9982,7 +9982,7 @@ export default {
       },
       delivery: {
         title: "ihe ihe ihe",
-        subtitle: "ihe ihe ihe ihe ihe ihe ịkwụ ụgwọ ihe.",
+        subtitle: "Ị nwere ike iji aka kwado nnyefe maka ndị na-eweta ugwo.",
       },
     },
   },
@@ -9993,7 +9993,7 @@ export default {
   payment_refund_dialog: {
     title: "nkwụghachi ịkwụ ụgwọ",
     message:
-      "ihe ihe ihe, ihe iwu ihe ihe ihe ihe 7 ihe ihe ihe ihe nkwụghachi.",
+      "Maka ebumnuche nchekwa, naanị iwu akwụgoro n'ime ụbọchị 7 gara aga tozuru maka nkwụghachi.",
     payment_amount: "Ọnụ ego ịkwụ ụgwọ",
     total_refund_amount: "ihe ihe ego",
     can_refund: "ihe nkwụghachi",
@@ -10001,7 +10001,7 @@ export default {
     verify: {
       title: "ihe nkwụghachi",
       description:
-        "ihe ihe ihe ihe nkwụghachi ego ihe ihe ihe ihe ihe ihe ihe.",
+        "Ana m akwado na ego nkwụghachi ahụ ziri ezi ma achọrọ m ịga n'ihu.",
     },
     action: "nkwụghachi ihe",
   },
@@ -10012,11 +10012,11 @@ export default {
   payment_delivery_dialog: {
     title: "onye ahịa ihe ihe",
     message:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ụfọdụ ọrụ ịkwụ ụgwọ chọrọ nkwenye na ebufela onye ahịa ihe ahụ. Anyị na-ezigakarị nkwenye a n'oge njedebe ikpeazụ nke mmezu mgbe anyị nwetara nkwenye nnyefe nke ndị ahịa. Agbanyeghị, ọ bụrụ na ịchọrọ iji aka gị mee ihe a, ị nwere ike ime ya ebe a.",
     verify: {
       title: "ihe ihe",
       description:
-        "ihe ihe ihe ihe iwu ihe ihe ihe ihe ihe onye ahịa.",
+        "Ana m akwado na ebufela onye ahịa ihe ahụ.",
     },
     action: "ihe ihe",
   },
@@ -10028,19 +10028,19 @@ export default {
     title: "ihe ihe",
     add_new_actions: "tinye ihe ngwaahịa",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Na ngalaba a, ị nwere ike ịgbakwunye ma jikwaa ngwaahịa ire ere maka ibe ngwaahịa a. A ga-egosipụta ngwaahịa ndị a dị ka aro maka ndị ahịa ịzụta n'akụkụ isi ihe. Ị nwekwara ike ịtọ ọnụ ahịa ego iji kwado na kpalie ịzụrụ ndị ọzọ. Usoro ahụ ga-egosipụta ihe kachasị 3 maka onye ahịa ka ọ tụlee.",
     dialog: {
       edit_title: "dezie ihe ihe ngwaahịa",
       add_title: "tinye ihe ihe ihe ngwaahịa",
       target: {
         title: "ihe ngwaahịa",
         subtitle:
-          "ihe ihe ngwaahịa ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+          "Họrọ ngwaahịa ndị ị ga-achọ ịkwalite dị ka nhọrọ ire ere n'akụkụ ngwaahịa a.",
         select_products: "họrọ ngwaahịa(ihe)",
       },
       list: {
         title: "ihe ngwaahịa",
-        subtitle: "ihe ngwaahịa ihe ihe ihe ihe ihe ihe.",
+        subtitle: "Ahọpụtara ngwaahịa a maka nkwalite ire ere.",
         manage_product: "ihe ngwaahịa",
       },
       discount: {
@@ -10057,9 +10057,9 @@ export default {
           "Biko lelee ozi tupu ịga n’ihu.",
         message_input: {
           message:
-            "ihe ihe ihe ihe ihe aha ihe ihe ndị ahịa' ihe.",
+            "Mepụta aha na-adọrọ adọrọ ma na-adọrọ adọrọ iji dọta uche ndị ahịa.",
           placeholder:
-            "ihe & chekwaa: ihe ihe ihe ihe ihe ihe ihe!",
+            "Bundle & Chekwa: Mezue anya gị site na nhọrọ ejiri aka anyị họrọ!",
         },
       },
       action: {
@@ -10081,13 +10081,13 @@ export default {
     },
     values: {
       title: "ihe uru",
-      subtitle: "ihe ihe ihe uru ihe ihe ihe ihe ihe.",
+      subtitle: "Tinye ụkpụrụ enwere ike maka nhọrọ dị iche iche ọ bụla ebe a.",
       prevent_duplicates_tips:
-        "<b>ndetu:</b> ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "<b>Nrịbama:</b> Anyị na-enyocha ozugbo maka ụdị dị adị iji gbochie oyiri.",
     },
     inventory: {
       title: "ihe ihe",
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      subtitle: "Tọọ ọnụọgụ mmalite maka ụdịdị ọhụrụ ahụ.",
     },
     add_variants_action: "mepụta ihe",
   },
@@ -10099,12 +10099,12 @@ export default {
     AddToCart: {
       title: "tinye na ụgbọ ibu",
       description:
-        "ihe ihe tinye ihe ihe ihe ihe. ndetu ihe ihe ihe ihe ihe ihe ndebanye ngwaahịa.",
+        "Gosipụta bọtịnụ Tinye na ụgbọ ibu ozugbo. Mara na nke a adịghị maka ngwaahịa ndenye aha.",
     },
     ViewProduct: {
       title: "Lelee ngwaahịa",
       description:
-        "ihe ihe ihe ihe ihe ihe ihe ndị ahịa ihe ihe ngwaahịa ihe ihe ihe ihe ihe ihe.",
+        "Gosipụta bọtịnụ View More na-eduga ndị ahịa na ibe ngwaahịa site na imepe windo ọhụrụ.",
     },
   },
 
@@ -10114,15 +10114,15 @@ export default {
 
   product_flow: {
     title: "ihe ihe",
-    subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa.",
+    subtitle: "Nke a bụ usoro ịzụrụ ihe na nlele ahụike nke ngwaahịa gị.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "ihe ngwaahịa ihe ihe ihe ihe <b>{name}</b>.",
-      enable_msg: "ihe ihe ihe ihe ihe ihe ihe.",
-      disable_msg: "ihe ihe ihe ihe ihe ihe ihe.",
+      subtitle: "Etinyela ngwaahịa a site na <b>{name}</b>.",
+      enable_msg: "Agbanyere akwa mmiri a gaa ọrụ mpụga.",
+      disable_msg: "Agbanyụrụ àkwà mmiri a gaa ọrụ mpụga.",
       has_shipping_msg:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a. {name} {name}",
     },
@@ -10134,10 +10134,10 @@ export default {
       available_in_stock_msg: "ngwaahịa ihe dị ihe ihe.",
       out_of_stock_msg: "ngwaahịa ihe ihe ihe ihe.",
       file_count_msg:
-        "{files_count} ihe ihe ihe {files_size} ihe ihe ihe ngwaahịa.",
-      no_file_uploaded_msg: "ihe ihe ihe ihe ihe ihe.",
+        "faịlụ {files_count} nwere mkpokọta {files_size} ebugoro maka ngwaahịa a.",
+      no_file_uploaded_msg: "Ebugobeghị faịlụ ọ bụla.",
       no_image_uploaded_msg:
-        "bulite ihe ngwaahịa ihe ihe ihe ihe ihe ihe.",
+        "Bulite onyonyo ngwaahịa ka ọ maa mma karịa.",
     },
     /**
      * @see BProductFlowErrorsVendor
@@ -10155,7 +10155,7 @@ export default {
     file_errors: {
       title: "ihe ihe",
       subtitle:
-        "ihe, ihe ihe ihe ihe ihe ihe ihe ngwaahịa. ihe bulite ihe ihe ihe.",
+        "Ugbu a, ọ nweghị faịlụ ebugoro maka ngwaahịa a. Biko bulite faịlụ ka ịga n'ihu.",
       manage_files: "ihe ihe",
     },
 
@@ -10164,13 +10164,13 @@ export default {
      */
     pricing: {
       title: "Ịnye ọnụ ahịa",
-      no_product_price_msg: "ihe ihe ngwaahịa ọnụahịa ihe ihe ihe!",
+      no_product_price_msg: "Emebebeghị ọnụ ngwaahịa ndabara!",
       listing_pricing_msg: "ihe ihe:",
       has_valuation_msg: "ngwaahịa ihe ihe.",
       subscription_pricing_msg:
-        "ihe ngwaahịa ihe {count} ndebanye ihe ihe.",
+        "Ngwaahịa a nwere atụmatụ ọnụahịa ndenye aha {count}.",
       has_no_subscription_pricing_msg:
-        "ihe ngwaahịa ihe ihe ndebanye ihe ihe.",
+        "Ngwaahịa a enweghị atụmatụ ọnụahịa ndenye aha.",
     },
     /**
      * @see BProductFlowErrorsSubscription
@@ -10192,9 +10192,9 @@ export default {
         no_restriction: "ihe ihe",
       },
       available_countries_msg:
-        "ihe ihe ihe ihe {count} ihe. ihe ihe ihe {countries}.",
+        "Amachibidoro ịzụ ahịa n'ụwa niile naanị na obodo {count}. Obodo ndị a bụ {countries}.",
       disable_for_all_countries_msg:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ụlọ ahịa > ihe ihe.",
+        "Akwụsịla ịzụ ahịa maka obodo niile dị na ụlọ ahịa gị> ntọala ọnọdụ.",
       location_is_not_in_permitted_shop_locations_msg:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a. {country}",
       shop_locations: "ụlọ ahịa ihe",
@@ -10207,9 +10207,9 @@ export default {
     location_errors: {
       title: "dị ihe njehie",
       no_location_error_subtitle:
-        "Biko lelee ozi tupu ịga n’ihu.",
+        "Ị gbalitela mmachi ọnọdụ maka ịzụrụ ngwaahịa a, mana ugbu a, ọ nweghị obodo edepụtara n'okpuru mmachi a. N'ihi ya, ngwaahịa a enweghị onye ọ bụla zụrụ.",
       invalid_location_error_subtitle:
-        "Biko lelee ozi tupu ịga n’ihu.",
+        "Ntọala mmachi ọnọdụ maka ngwaahịa gị nwere mperi: ụfọdụ ebe edepụtara enweghị koodu ZIP ọ bụla metụtara. N'ihi ya, ndị ọrụ enweghị ike ịhọrọ koodu ZIP, na-eme ka ngwaahịa ahụ ghara ịzụta.",
 
       manage_locations: "ihe ihe",
     },
@@ -10223,7 +10223,7 @@ export default {
       tax_profiles: "ụtụ profaịlụ",
       description: {
         subscription_tax_msg:
-          "ihe ihe ihe ụtụ ihe ihe ihe ịkwụ ụgwọ ihe ihe.",
+          "Anyị nwere ike itinye ụtụ isi naanị na usoro ịmepụta ịkwụ ụgwọ.",
         dedicated: "Raara nye",
         is_disabled: "ihe ụtụ profaịlụ ihe ihe!",
         tax_is_based_on_location: "ụtụ: ihe ihe",
@@ -10237,9 +10237,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a. {vendor}</b>",
-      has_vendors_msg: "ihe ihe {count} ndị na-ere ihe ihe ngwaahịa.",
+      has_vendors_msg: "Enwere {count} ndị na-ere ngwaahịa a.",
       no_vendor_msg:
-        "ihe ihe ihe ihe onye na-ere ihe ihe ngwaahịa, ihe ndị ahịa ihe ihe ihe ihe ihe.",
+        "Ị kenyeghị onye na-ere ahịa na ngwaahịa a, yabụ ndị ahịa enweghị ike ịzụta ya.",
       add_vendors: "tinye ndị na-ere",
     },
   },
@@ -10250,7 +10250,7 @@ export default {
   product_template: {
     title: "ngwaahịa ihe ihe",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ị nwere ike itinye ibe n'ime ibe ngwaahịa gị maka ihe ngosi emelitere. Ụzọ kachasị mma bụ ịmepụta ibe ndị na-egosipụta nzụlite doro anya yana ngalaba 1 ruo 3 ahaziri maka ụdị ngwaahịa ọ bụla. Mgbe ahụ, kenye otu ibe n'ọtụtụ ngwaahịa maka ngosipụta na-agbanwe agbanwe ma na-adọrọ adọrọ.",
     edit_page: "dezie ihe",
     list_of_pages: "ihe ihe ihe",
   },
@@ -10259,16 +10259,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ị nwere ike itinye ngwa ngwa ngwa ngwa ma ọ bụ ndepụta ngwaahịa na blọọgụ gị ma ọ bụ ibe weebụ ndị ọzọ site na ịpịnye na mado koodu ndị anyị nyere. Ọ bụ ezie na njirimara a ka nọ na mmalite mmalite ya, anyị na-arụsi ọrụ ike iji gbasaa ọrụ ya karịa nke dị ugbu a n'ebe ndị ọzọ. Ọ bụ ezie na ọ na-enye ikike dị ntakịrị ugbu a, anyị nwere atụmatụ iwebata ọtụtụ ndebiri na nhọrọ nhazi n'ọdịnihu.",
     card: {
       title: "ihe",
       description:
-        "ihe HTML ihe ihe tinye ngwaahịa ihe ihe ihe ihe ihe HTML ihe.",
+        "Mepụta koodu HTML ka ịgbakwunye kaadị ngwaahịa na nyiwe ndị ọzọ yana ibe HTML.",
     },
     iframe: {
       title: "ihe",
       description:
-        "ihe ihe ihe ihe ihe ihe ihe ngwaahịa nkọwa ihe ihe ihe ihe.",
+        "Mepụta koodu iframe iji gosipụta nkọwa ngwaahịa zuru oke na mpio agbakwunyere.",
     },
   },
 
@@ -10313,7 +10313,7 @@ export default {
     notifications: {
       add_success: {
         title: "ihe ihe",
-        message: "ihe ihe ihe ihe ihe ihe.",
+        message: "Agbakwunyela ohere ọhụrụ nke ọma.",
       },
       update_success: {
         title: "ihe ihe",
@@ -10330,17 +10330,17 @@ export default {
     subtitle:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     aut_add_sub_categories_tips:
-      "ihe ihe ihe tinye ihe ihe ihe ihe ihe otu ihe ihe ihe ihe ihe.",
+      "Ị nwere ike ịgbakwunye ngalaba niile na-akpaghị aka na ngalaba dị ugbu a site na ịpị bọtịnụ dị n'okpuru.",
     inputs: {
       categories: {
         label: "Otu",
-        messages: "ngwaahịa ihe ihe ihe ihe ihe ihe.",
+        messages: "A ga-egosi ngwaahịa dị na ngalaba ndị a.",
         placeholder: "họrọ ihe...",
       },
       tags: {
         label: "Mkpado ngwaahịa",
-        messages: "ngwaahịa ihe ihe ihe ihe ihe gosi.",
-        placeholder: "ihe ihe ihe ihe ihe ihe. ihe. ihe ihe",
+        messages: "A ga-egosi ngwaahịa ndị nwere mkpado ndị a.",
+        placeholder: "Mkpado waya ebe a wee pịa tinye. ex. mkpokọta ọhụrụ",
       },
     },
     actions: {
@@ -10356,7 +10356,7 @@ export default {
     search_tips: {
       title: "chọọ ihe",
       normal:
-        "<b>ihe chọọ: </b>chọọ ihe aha, MPN, SKU, ihe, ihe ihe.",
+        "<b>Ọchụchọ izugbe: </b>Chọọ site na aha, MPN, SKU, ika ma ọ bụ mkpado.",
       product:
         "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><b class=\"text-green\"></b><i class=\"text-yellow\"></i>",
       quotes:
@@ -10380,7 +10380,7 @@ export default {
       title: "họrọ ihe ụdị",
       html: {
         title: "ihe & Html",
-        subtitle: "ihe ihe uru ihe ihe ihe ihe ihe ihe ihe HTML.",
+        subtitle: "Enwere ike ịhọpụta uru ihe ahụ dị ka ederede ma ọ bụ HTML.",
       },
       image: {
         title: "Onyonyo",
@@ -10390,13 +10390,13 @@ export default {
     help_dialog: {
       title: "ihe ihe ihe ihe ihe",
       how_it_works_tips:
-        "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+        "Na ibe ọdịda, ị nwere ike ịhọpụta ndị na-edobe ebe dị ike maka ederede na onyonyo. Ndị na-edebe ebe a na-arụ ọrụ dị mkpa n'ịhazi ọdịnaya dị ka ihe dị na ya si dị.   Ọdịdị dị ike nke ndị na-edebe ebe a na-enye ha ohere ka ha jiri ụkpụrụ mmụba, nke nwere ike ịdịgasị iche dabere na ihe dị iche iche. Dịka ọmụmaatụ, ụkpụrụ mmụba nwere ike ịdị iche maka ngwaahịa ma ọ bụ otu ọ bụla. Ezigbo uru nke njirimara a na-abata mgbe ị nwere ihe dị iche iche nwere àgwà dị iche iche. Ị nwere ike iji ebe nchekwa ndị a dị ike rụọ ọrụ nke ọma iji hazie ma kwalite ngosipụta nke ihe ọ bụla, si otú ahụ mepụta ahụmịhe pụrụ iche na mmekọrịta na ibe ọdịda gị.",
       assign_tips:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       set_dynamic_image_tips:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ihe URL ihe ihe ihe ihe ihe uru.",
+        "Ị nwere ikike ịgbanwe URL onyonyo wee kenye ya uru na-agbanwe agbanwe.",
       enter_values_tips:
-        "ihe ihe ngwaahịa, ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Maka ngwaahịa ọ bụla, ị nwere ike ikenye ụzọ ụzọ igodo-uru raara onwe ya nye.",
       result_tips:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     },
@@ -10416,7 +10416,7 @@ export default {
     content: {
       title: "ihe",
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ihe profaịlụ ihe ihe ihe.",
+        "Ị nwere ike hazie ọdịnaya maka profaịlụ ngwa ngwa n'ọtụtụ asụsụ.",
 
       language_input: "ihe ihe ihe",
       delete_article: "hichapụ ihe",
@@ -10435,7 +10435,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "ihe ihe ihe ihe hichapụ ihe ihe ihe ihe?",
+      message: "Ị ji n'aka na ị ga-ehichapụ akụkọ a ruo mgbe ebighị ebi?",
       action: "Ee, Hichapụ Ugbu a",
     },
   },
@@ -10445,7 +10445,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Ngwaahịa",
-    subtitle: "ihe ihe ngwaahịa ihe ihe ihe profaịlụ.",
+    subtitle: "Ndepụta ngwaahịa ejikọtara na profaịlụ a.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10455,12 +10455,12 @@ export default {
     inputs: {
       name: {
         message:
-          "ihe ihe gosi ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Aha a na-egosi gị na agaghị ekpughere ọha mmadụ.",
       },
       accept_delete: {
         true_description:
-          "ihe ihe ihe wepụ ihe ihe ihe profaịlụ njikọ.",
-        true_title: "ihe ihe ihe wepụ ihe ihe.",
+          "Omume a ga-ewepụ akụkọ niile na njikọ profaịlụ.",
+        true_title: "Achọpụtara m na iwepụ njikọ a.",
       },
     },
     actions: {
@@ -10486,13 +10486,13 @@ export default {
       article: {
         title: "Akụkọ",
         subtitle:
-          "ihe ihe tinye ihe ihe ihe ihe ihe ihe profaịlụ.",
+          "Ị nwere ike ịgbakwunye asụsụ ndị ọzọ ka ịmechara profaịlụ logistic a.",
       },
       inputs: {
         name: {
           message:
-            "ihe ihe gosi ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
-          placeholder: "ihe ihe ihe ihe ihe profaịlụ...",
+            "Aha a na-egosi gị na agaghị ekpughere ọha mmadụ.",
+          placeholder: "Tinye aha maka profaịlụ...",
         },
       },
     },
@@ -10532,17 +10532,17 @@ export default {
 
     title: "ihe ihe",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Họrọ aha dị nkenke, nke kacha nwee mkpụrụokwu 2 ruo 3. Jiri onyonyo square, dịka anyị ga-emezigharị foto ebugoro na akpaghị aka na usoro 256x256 square. Maka ọdịdị kacha mma n'ofe ndebiri niile, were onyonyo pere mpe nwere nzụlite doro anya ma kwado otu ụkpụrụ na ngwaahịa gị niile.",
     inputs: {
       title: {
-        placeholder: "ihe aha ihe ihe ngwaahịa ihe...",
+        placeholder: "Aha nkenke egosiri na ibe ngwaahịa...",
       },
       code: {
         placeholder: "ihe ihe, ihe. mobile_cable_usb",
-        hint: "ihe ihe ihe ihe ihe ihe chọọ ihe ihe ihe ihe.",
+        hint: "Jiri koodu a mee ka usoro ọchụchọ dị mfe maka ịchọta ihe.",
       },
       description: {
-        placeholder: "ihe ihe nkọwa ihe ihe ihe...",
+        placeholder: "Nkọwa dị mkpirikpi gbasara ihe a...",
         hint: "Họrọ ma ọ bụ tinye ozi achọrọ.",
       },
       image: {
@@ -10558,22 +10558,22 @@ export default {
       },
       external_link: {
         title: "Njikọ mpụga",
-        description: "ihe ihe njikọ ihe ihe ihe url.",
+        description: "Tọọ njikọ na url mpụga.",
         tips: "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       },
       internal_link: {
         title: "ihe njikọ",
         description:
-          "mepụta ihe ihe ihe ihe ihe data ihe ihe ihe.",
+          "Mepụta ibe dị ike site na data agbakwunyere maka ihe a.",
         tips: "Selldone — Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       },
     },
     notifications: {
       add: {
-        message: "ihe ihe ihe ihe ihe ihe ihe.",
+        message: "Agbakwunyela ihe agbakwunyere nke ọma.",
       },
       edit: {
-        message: "ihe ihe ihe ihe ihe ihe ihe.",
+        message: "Emelitere ihe etinyere nke ọma.",
       },
     },
   },
@@ -10600,13 +10600,13 @@ export default {
     title: "Akpa akpa",
     subtitle:
       "Selldone — Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    no_commission_yet: "ihe ihe ihe ihe ihe ihe ihe.",
+    no_commission_yet: "Ị nwetabeghị ọrụ ọ bụla.",
     no_wallet: "ihe akpa ego!",
 
     withdraw_dialog: {
       title: "ihe ihe ihe",
 
-      need_bank_info_message: "ihe ihe ihe ihe ihe ihe.",
+      need_bank_info_message: "Biko buru ụzọ tinye ozi ụlọ akụ gị.",
 
       to_wallet: {
         title: "ihe akpa ego",
@@ -10621,11 +10621,11 @@ export default {
       inputs: {
         verify_to_wallet: {
           true_description:
-            "ihe ihe ihe ihe ihe ihe ihe ihe Selldone akpa ego.",
+            "Achọrọ m ịnyefe ọrụ m na obere akpa Selldone m.",
         },
         verify_to_bank: {
           true_description:
-            "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+            "Ana m enyocha ozi ụlọ akụ m ma achọrọ m ibufe kọmiti m na akaụntụ akụ m.",
         },
       },
       actions: {
@@ -10635,7 +10635,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "ihe ihe ihe ihe ihe ihe, ihe ihe ihe ihe ihe.",
+        "A nabatala arịrịọ gị nke ọma, anyị ga-enyocha ya.",
     },
   },
 
@@ -10644,18 +10644,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "ihe ihe tinye <b>?ihe={code}</b> ihe ihe ihe url.",
+      message: "Ị nwere ike itinye <b>?ref={code}</b> na url ọ bụla erere.",
     },
     intro: {
       title: "ihe ihe Selldone ihe ihe",
       message:
-        "Selldone — Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-      why_join_selldone_affiliate: "ihe ihe ihe ihe ihe ihe?",
+        "Mmemme Mgbakwunye Selldone dị mfe ma kwụ ọtọ, emebere gị ka ị nweta ego n'enweghị ike. Kekọrịta njikọ njikọ gị pụrụ iche iji kpọọ ndị ọrụ ọhụrụ ka ha bịa Selldone, ị ga-enwetakwa ọrụ site na azụmahịa ọ bụla ha na-eme - ruo mgbe ebighị ebi. Nke a gụnyere ego sitere na ndenye aha, ụgwọ ọrụ, nkwalite ụlọ ahịa, na iyi ego ndị ọzọ niile. Malite ị nweta òkè nke ego a na-enweta na-enweghị oke na oge ma ọ bụ ego. Soro anyị wee tụgharịa netwọkụ gị ka ọ bụrụ ego na-akwụ ụgwọ kwụ ọtọ!",
+      why_join_selldone_affiliate: "Gịnị mere nke a ji bụrụ ohere pụrụ iche?",
       reasons: [
         "ihe ihe ihe!",
-        "ihe ihe ndebanye ihe azụmahịa ihe. ihe ihe ịkwụ ụgwọ ihe ihe onye ọrụ ihe Selldone.",
-        "ihe ihe ihe ihe $99 ihe ihe ihe ihe ihe ihe ihe njikọ.",
-        "ihe ihe ihe ihe, ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ndị ọrụ.",
+        "Na-ekpuchi ụgwọ ndenye aha na ụgwọ azụmahịa. N'ezie ugwo ọ bụla nke onye ọrụ na Selldone.",
+        "Anyị na-ezigara onye ọ bụla nke na-eji njikọ gị debanyere aha ego $99 efu.",
+        "Mgbe ọkwa ọkwa gị kwalitere, ị ga-enweta ego ọhụrụ n'aka ndị ọrụ niile kwuru na mbụ.",
       ],
     },
   },
@@ -10679,7 +10679,7 @@ export default {
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       step_1:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-      step_2: "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      step_2: "Pịa mmewere nke ị chọrọ idetuo ụdị ya.",
       step_3:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     },
@@ -10689,15 +10689,15 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Kwado atụmatụ a ka ọ dị mfe ịhazi na hazie ngalaba site na ịdọrọ ha.",
     },
     edit_mode_tooltip: {
       title: "dezie / ihe ihe",
       edit_mode_title: "dezie ihe",
-      edit_mode_msg: "ihe ihe ihe ihe ihe ihe.",
+      edit_mode_msg: "A ga-egosipụta ngwaọrụ ndezi niile.",
       view_mode_title: "ihe ihe",
       view_mode_msg:
-        "ihe ihe ihe ihe ndị ọrụ ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Lelee ibe gị ka ndị ọrụ ga-ahụ ya site na izobe ngwa ndezi ọzọ yana mpaghara ederede efu.",
     },
     repository_tooltip: {
       title: "ihe ihe",
@@ -10706,26 +10706,26 @@ export default {
     },
     live_view: {
       title: "ihe ihe",
-      subtitle: "ihe melite ihe ihe ihe ihe dezie ihe ihe.",
+      subtitle: "Hụ mmelite ozugbo ka ị na-edezi ibe gị.",
     },
     hotkeys_dialog: {
       title: "ihe ihe",
       augment_tips:
-        "<b>Jikwaa ozi na nhazi nke ngalaba a ebe a.</b><b></b><b></b><b></b><b></b><b></b>",
+        "Ị nwere ike ibunye ọdịnaya siri ike na ibe gị wee jiri ụkpụrụ <b>augment</b> dochie ya. A na-eji augment eme ihe maka ibe dị ike dị ka <b>ngwaahịa</b>, <b>Kadị</b>, na <b>Gụnye ihe</b>. Ka ịtọọ onyonyo ka ọ na-ebu ngwa ngwa, pịa <b>Feeder</b> wee họrọ <b>Dynamic Source</b> maka onyonyo ahụ.",
     },
     hotkeys: {
-      ctrl_b: "ihe ihe ihe/ihe ihe ihe ihe | <b>ihe ihe ihe</b>",
-      ctrl_i: "ihe ihe ihe/ihe ihe ihe ihe | <i>ihe ihe ihe</i>",
+      ctrl_b: "Gbanyụọ ma ọ bụ gbanyụọ nkwuwa okwu maka ederede ahọpụtara | <b>Mee m obi ike</b>",
+      ctrl_i: "Gbanyụọ ma ọ bụ gbanyụọ italic maka ederede ahọpụtara | <i>Mee m italic </i>",
       ctrl_l:
-        "ihe ihe ihe/ihe ihe ihe ihe | <s>ihe ihe ihe</s>",
-      ctrl_u: "ihe ihe ihe/ihe ihe ihe ihe | <u>ihe ihe</u>",
+        "Gbanyụọ ma ọ bụ gbanyụọ ntụgharị maka ederede ahọpụtara | <s>Tie n'aka m</s>",
+      ctrl_u: "Gbanyụọ n'okpuru akara ma ọ bụ gbanyụọ maka ederede ahọpụtara | <u>N'okpuru akara m</u>",
       ctrl_1:
-        "ihe ihe ihe ihe ihe ihe | <small>ihe ihe ihe</small>",
-      ctrl_2: "ihe ihe ihe ihe ihe ihe | <big>ihe ihe ihe</big>",
-      ctrl_r: "wepụ ihe ihe ihe ihe ihe | ihe ihe ihe",
+        "Wedata nha mkpụrụedemede ederede ahọpụtara | <small>Mee m obere</small>",
+      ctrl_2: "Mụbaa nha mkpụrụedemede ederede ahọpụtara | <big>Mee m nnukwu</big>",
+      ctrl_r: "Wepu usoro niile na ederede ahọpụtara | Hichaa ụdị niile",
       ctrl_s: "chekwaa ihe ihe",
       tab: "ihe ihe ihe ihe",
-      ctrl_e: "ihe ihe ihe ihe ihe ihe",
+      ctrl_e: "Tinye ma ọ bụ gbanyụọ ụdị ụdị clone",
     },
   },
 
@@ -10744,12 +10744,12 @@ export default {
       },
       image: {
         title: "Onyonyo",
-        subtitle: "ihe ihe ihe ihe ihe ihe.",
+        subtitle: "Oyiyi ọha egosiri na ndepụta ahụ.",
       },
       code: {
         title: "Koodu",
         subtitle:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Ị nwere ike idetuo na mado koodu mmewere site na akụkụ aka ekpe na ndị na-ewu ibe.",
       },
       inputs: {
         title: {
@@ -10758,10 +10758,10 @@ export default {
         },
         tags: {
           label: "Mkpado",
-          message: "ihe ihe ihe ihe ihe ihe.",
+          message: "A na-eji ya maka ịchọ na nhazi ihe.",
         },
         section: {
-          message: "ihe ihe ihe ihe ihe ihe ihe.",
+          message: "Detuo ngalaba ahụ site na onye nrụpụta ibe.",
         },
       },
     },
@@ -10777,32 +10777,32 @@ export default {
     add_new_vendor_action: "tinye ihe onye na-ere",
     status_tooltip: {
       title: "onye na-ere ọnọdụ",
-      ACCEPTED: "ihe onye na-ere ihe ihe ihe ihe ihe.",
-      REJECTED: "ihe onye na-ere ihe ihe ihe ihe.",
-      PENDING: "ihe ihe ihe ihe ihe ihe ihe ihe onye na-ere.",
+      ACCEPTED: "Onye na-ere ahịa nwere ohere ịbanye na panel ha.",
+      REJECTED: "Ajụjụ onye na-ere ihe.",
+      PENDING: "Arịrịọ a na-echere mkpebi sitere n'aka onye na-ere ahịa.",
     },
     number_of_products: "ihe ihe ngwaahịa",
     invited: "ihe",
     no_pricing: "ihe ihe",
     no_pricing_tooltip: {
       title: "ihe ihe ihe",
-      subtitle: "ihe ihe ihe ihe ihe ihe ihe ihe onye na-ere.",
+      subtitle: "Biko tọọ ụdị ọnụahịa ndabara maka onye na-ere ya.",
     },
     updated_products_tooltip: {
-      title: "ngwaahịa ihe ihe ihe ihe 24 ihe",
+      title: "Emelitere ngwaahịa n'ime awa 24 gara aga",
     },
     added_products_tooltip: {
-      title: "ngwaahịa ihe ihe ihe ihe 24 ihe",
+      title: "Ngwaahịa agbakwunyere n'ime awa 24 gara aga",
     },
     access_tooltip: {
       title: "ihe ihe",
       subtitle:
-        "ihe onye na-ere ihe ihe ihe ihe ihe. ihe ihe dezie ihe ihe onye na-ere > ihe ihe.",
+        "Onye na-ere ahịa nwere ohere ịbanye na panel ha. Ị nwere ike idezi nke a na taabụ onye na-ere ahịa> Nweta.",
     },
     reject_by_user_tooltip: {
       title: "ihe ihe onye ọrụ",
       subtitle:
-        "ihe onye ọrụ ihe ihe ihe ihe ihe ihe onye na-ere ihe ihe ihe onye na-ere.",
+        "Onye ọrụ jụrụ arịrịọ ka ọ bụrụ onye ere wee nweta onye na-ere ahịa a.",
     },
     download_all_vendors: "budata ihe ndị na-ere",
     bulk_import: "ihe ihe (ihe)",
@@ -10835,7 +10835,7 @@ export default {
       title: "iwu melite Email",
       need_set_service_alert: {
         message:
-          "ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+          "Biko tọọ ndị na-eweta ọrụ email gị ka izipu ozi-e ahụ.",
         action: "ihe ihe ntọala",
       },
       send_action: "ihe melite Email",
@@ -10866,7 +10866,7 @@ export default {
           label: "ihe ozi",
           placeholder: "ihe ihe ozi ihe...",
           messages:
-            "ihe ihe ihe ihe uru ihe {order_id} ihe {buyer_name}.",
+            "Ị nwere ike ịtọ ụkpụrụ na-agbanwe agbanwe site na {order_id} na {buyer_name}.",
         },
       },
     },
@@ -10877,7 +10877,7 @@ export default {
    */
   b_order_share: {
     title: "iwu njikọ",
-    subtitle: "ihe ihe ihe ihe iwu njikọ ihe ihe onye ahịa.",
+    subtitle: "Ị nwere ike ịkọrọ onye ahịa njikọ ahụ.",
     guest_checkout_message:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
     authentication: "ihe",
@@ -10885,7 +10885,7 @@ export default {
     click_to_create: "ihe ihe mepụta...",
     valid_for_30_days: "ihe ihe 30 ihe",
     notifications: {
-      secure_link_created: "ihe njikọ ihe ihe ihe ihe.",
+      secure_link_created: "E mepụtala njikọ echekwara nke ọma.",
     },
   },
 
@@ -10896,7 +10896,7 @@ export default {
     title: "ihe ihe",
     add_source_action: "tinye ihe ihe",
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Jikọọ ngwa ngwa dị na mpụga iji nakọta na nyochaa nyocha gbasara azụmahịa gị site na isi mmalite dị ka Facebook, Google na ndị ọzọ. Anyị ga-ejikọta ndị ahịa ozugbo na nyocha ha maka ahụmịhe ndị ahịa ka mma. Ị nwekwara ike igosi nyocha ndị a na ibe ọdịda gị na ibe ngwaahịa.",
   },
 
   /**
@@ -10916,11 +10916,11 @@ export default {
     profile: {
       title: "ihe ihe - ihe ihe",
       subtitle:
-        "ihe ihe ihe ihe ihe ihe ihe ihe ngwaahịa, ihe ihe ihe ihe.",
+        "Ị nwere ike hazie aha dị iche iche maka ngwaahịa a, dochie ndị nke ndabara.",
     },
 
     subtitle:
-      "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
+      "Ị nwere ike hazie aha dị iche iche, akara ngosi na usoro ha ebe a. Maka ngwaahịa nwere ụdị dị iche iche nke gafere nke isii ndabara, ị nwere ike ịtọ ụdịdị dị iche iche ahaziri maka ngwaahịa ọ bụla. Naanị kọwaa ntọala ihe onwunwe na Logistic> Ngwongwo ihe onwunwe ma kenye ha na ọnụọgụ ngwaahịa ọ bụla dịka achọrọ.",
     select_property_set: "họrọ ihe ihe",
     add_property_set: "tinye ihe ihe",
   },
@@ -10931,7 +10931,7 @@ export default {
     add_action: "tinye ihe",
     subtitle:
       "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-    empty: "ihe ihe ihe. ihe “tinye ihe”.",
+    empty: "Enweghị igbe ma. Pịa \"Tinye igbe\".",
     edit: "dezie ihe",
     new: "ihe ihe",
     default_weight: "ihe ihe",
@@ -10944,7 +10944,7 @@ export default {
   transportation_boxes_input: {
     select_box: "họrọ ihe ihe",
     define_package: "ihe ihe ihe",
-    define_package_hint: "mepụta ihe dezie ihe ihe ihe ihe",
+    define_package_hint: "Mepụta ma ọ bụ dezie nha ngwungwu gị akọwapụtagoro",
   },
 
 
@@ -10983,11 +10983,11 @@ export default {
     items: {
       title: "Ihe",
       sub_title:
-        "mepụta, dezie, ihe ihe ihe ihe. ihe ọnọdụ, ihe, ihe ihe, ihe ihe.",
+        "Mepụta, dezie ma jikwaa ihe ndepụta. Ọkwa njikwa, ọnụahịa, ozi kọntaktị na mgbasa ozi.",
 
       empty_title: "ihe ihe ihe",
       empty_subtitle:
-        "mepụta ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Mepụta ihe ndepụta mbụ gị ka ịmalite ịmepụta ndekọ aha gị.",
 
       add_title: "tinye ihe",
       edit_title: "dezie ihe",
@@ -11001,7 +11001,7 @@ export default {
       opening_hours_json: "ihe ihe JSON",
 
       delete_title: "hichapụ ihe",
-      delete_message: "ihe ihe ihe ihe ihe ihe hichapụ ihe ihe?",
+      delete_message: "Ị ji n'aka na ịchọrọ ihichapụ ihe a?",
       delete_success: "ehichapụrụ ihe nke ọma.",
       restore_success: "ihe ihe ihe.",
 
@@ -11016,11 +11016,11 @@ export default {
     categories: {
       title: "Otu",
       sub_title:
-        "ihe ihe ihe ihe ihe ihe ihe. ihe ihe ihe ihe ihe.",
+        "Hazie akwụkwọ ndekọ aha gị na ngalaba na obere ngalaba. Nke a na-eme ka igodo na nzacha mma.",
 
       empty_title: "ihe ihe ihe",
       empty_subtitle:
-        "mepụta ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Mepụta otu iji hazie ndepụta gị wee kwalite nchọgharị.",
 
       add_title: "Tinye udi",
       edit_title: "Dezie udi",
@@ -11033,7 +11033,7 @@ export default {
       design_id: "ihe ihe",
 
       delete_title: "Hichapụ otu",
-      delete_message: "ihe ihe ihe ihe ihe ihe hichapụ ihe otu?",
+      delete_message: "Ị ji n'aka na ịchọrọ ihichapụ otu a?",
       delete_success: "otu ihe ihe.",
       form_schema: "otu ụdị ihe",
     },
@@ -11062,11 +11062,11 @@ export default {
     supervision: {
       title: "ihe",
       sub_title:
-        "ihe ihe ihe ihe ihe ihe ihe ihe: ihe, ihe, ihe, ihe, ihe ihe ihe ihe.",
+        "Nyochaa ihe ezigara ma kpebie ihe ga-eme na-esote: kwado, bipụta, jụ, dobe, ma ọ bụ tọgharịa ka ọ na-echere.",
 
       empty_title: "ihe ihe ihe ihe",
       empty_subtitle:
-        "ihe ndị ọrụ ihe ihe ihe, ihe ihe ihe ihe ihe ihe.",
+        "Mgbe ndị ọrụ nyefere ihe ọhụrụ, ha ga-apụta ebe a maka imeru ihe n'ókè.",
 
       review_title: "ihe ihe",
       approve_publish: "ihe & ihe",
@@ -11113,11 +11113,11 @@ export default {
     designs: {
       title: "ihe",
       sub_title:
-        "mepụta ihe ihe ihe (ihe + nkọwa ihe) ihe ihe ihe ihe ihe. ihe ihe ihe ihe ihe.",
+        "Mepụta ọtụtụ nhazi nhazi (kaadị + nkọwa ndebiri) wee kenye ha na ngalaba. Categories nwere ike iji ụdị dị iche iche.",
 
       empty_title: "ihe ihe ihe",
       empty_subtitle:
-        "tinye ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Tinye nhazi nhazi mbụ gị ka ịmalite ịhazi ka edemede si dị.",
 
       add_title: "tinye ihe",
       edit_title: "dezie ihe",
@@ -11133,7 +11133,7 @@ export default {
 
       delete_title: "hichapụ ihe",
       delete_message:
-        "hichapụ ihe ihe? ihe ihe ihe ihe ihe ihe design_id.",
+        "Hichapụ atụmatụ a? Otu ndị na-eji ya ga-atụfu design_id ozugbo.",
     },
 
 
@@ -11143,11 +11143,11 @@ export default {
     badges: {
       title: "Baajị",
       sub_title:
-        "mepụta ihe ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Mepụta ma jikwaa baajị n'ihu ụlọ ahịa. Enwere ike ịnye baajị n'ịdepụta ihe iji gosi njirimara pụrụ iche.",
 
       empty_title: "ihe ihe ihe",
       empty_subtitle:
-        "tinye ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Tinye baajị mbụ gị ka ịmalite ịkọwapụta ihe ndepụta.",
 
       add_title: "tinye ihe",
       edit_title: "dezie ihe",
@@ -11159,17 +11159,17 @@ export default {
       },
 
       delete_title: "hichapụ ihe",
-      delete_message: "ihe ihe ihe ihe ihe ihe hichapụ ihe ihe?",
+      delete_message: "Ị ji n'aka na ịchọrọ ihichapụ baajị a?",
     },
 
     companies: {
       title: "Ụlọ ọrụ",
       sub_title:
-        "mepụta ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe ihe ihe ụlọ ọrụ.",
+        "Mepụta ma jikwaa ụlọ ọrụ. Enwere ike ijikọ ihe ndepụta ọ bụla na otu ụlọ ọrụ.",
 
       empty_title: "ihe ihe ihe",
       empty_subtitle:
-        "tinye ihe ihe ụlọ ọrụ ihe njikọ ihe ihe ihe ihe.",
+        "Tinye ụlọ ọrụ mbụ gị iji jikọta ya na ndepụta ihe.",
 
       add_title: "tinye ụlọ ọrụ",
       edit_title: "Dezie ụlọ ọrụ",
@@ -11182,16 +11182,16 @@ export default {
 
       delete_title: "hichapụ ụlọ ọrụ",
       delete_message:
-        "hichapụ ihe ụlọ ọrụ? ihe ihe ihe ihe ihe ihe ihe ụlọ ọrụ njikọ.",
+        "Hichapụ ụlọ ọrụ a? Ihe ndị na-eji ya ga-atụfu njikọ ụlọ ọrụ na-akpaghị aka.",
     },
 
 
 
     messages: {
       title: "ozi",
-      sub_title: "ihe ozi ihe ihe ndị ọrụ ihe ihe profaịlụ.",
+      sub_title: "Jikwaa ozi ndị ọrụ zitere site na ndetu profaịlụ.",
       empty_title: "ihe ozi",
-      empty_subtitle: "ozi ihe ihe ndị ọrụ ihe ihe ihe.",
+      empty_subtitle: "Ozi ndị ọrụ zitere ga-apụta ebe a.",
 
       sender: "ihe",
       item: "ihe",
@@ -11202,7 +11202,7 @@ export default {
       dialog_title: "Ozi",
       owner_reply: "ihe ihe",
       reply: "ihe",
-      reply_hint: "ihe ihe ihe ihe ihe onye ọrụ. ihe ihe ihe ihe ihe ozi ihe ihe/ihe ihe ihe.",
+      reply_hint: "Dee nzaghachi nye onye ọrụ. Ị nwekwara ike kaa ozi dị ka ịgụ/spam site na omume.",
 
       mark_read: "ihe ihe ihe",
       mark_unread: "ihe ihe ihe",
@@ -11217,10 +11217,10 @@ export default {
     enable: {
       title: "ihe",
       subtitle: "Selldone — Jikwaa ozi na nhazi nke ngalaba a ebe a.",
-      true_description: "ihe ihe ihe. ndị ahịa ihe ihe ihe ihe.",
-      false_description: "ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe.",
+      true_description: "Agbanyere ndepụta. Ndị ahịa nwere ike ịchọgharị ibe ndepụta.",
+      false_description: "Agbanyụrụ ndepụta. Akpọchiela ibe ndepụta na ntinye.",
       open_listing: "ihe ihe",
-      note: "ihe ihe ihe ihe ihe, oke, ụdị, ihe ihe ihe ihe ntọala.",
+      note: "Ị nwere ike mechaa hazie nhazi, oke, ụdị na imewe n'ime ntọala Ndepụta.",
       vendor_prereq_text:
         "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
       vendor_prereq_button: "ihe ahịa azụmahịa ihe",
@@ -11243,16 +11243,16 @@ export default {
       subtitle: "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
 
       location_title: "ihe chọọ",
-      location_subtitle: "ihe ndị ahịa ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
-      location_enabled_true: "ihe nyocha ihe ihe. ndị ahịa ihe chọọ ihe ihe.",
-      location_enabled_false: "ihe nyocha ihe ihe. ihe ihe ihe ihe ihe ihe ihe.",
+      location_subtitle: "Nye ndị ahịa ohere ịhọrọ ebe wee chọta rịzọlt dị nso n'ime radius nwere ike ịhazi.",
+      location_enabled_true: "Agbanyere nzacha ebe. Ndị ahịa nwere ike ịchọ site na anya.",
+      location_enabled_false: "Agbanyụrụ nzacha ebe. Agaghị enyocha nsonaazụ ya site na anya.",
 
       radius_default: "ihe ihe (ihe)",
-      radius_default_hint: "ihe ihe ihe onye ahịa họrọ ihe ihe ihe ihe ihe ihe ihe ihe.",
+      radius_default_hint: "A na-eji ya mgbe onye ahịa na-ahọrọ ebe mana ọ naghị ahọrọ radius.",
       radius_max: "ihe ihe (ihe)",
-      radius_max_hint: "ihe ihe ihe ihe ihe ihe ihe ihe uru.",
+      radius_max_hint: "A ga-ejigide radius n'ihu ụlọ ahịa na uru a.",
       radius_options: "ihe ihe (ihe)",
-      radius_options_hint: "ihe uru ihe ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      radius_options_hint: "Enwere ike igosi ụkpụrụ ndị a dị ka nhọrọ ngwa ngwa n'ihu ụlọ ahịa UI.",
 
       filters_title: "chọọ nyocha",
       filters_subtitle: "Jikwaa ozi na nhazi nke ngalaba a ebe a.",
@@ -11263,12 +11263,12 @@ export default {
       filter_label: "Labelụ",
       filter_type: "Ụdị",
       filter_options: "ihe",
-      filter_options_hint: "ihe họrọ nyocha, ihe ihe ihe aka ihe ihe.",
+      filter_options_hint: "Maka nzacha ahọpụtara, nhọrọ nwere ike ịbụ ntuziaka ma ọ bụ mepụta.",
       multiple: "ihe",
       single: "ihe",
       kv_mode: "ihe/uru ihe",
 
-      requires_listing_active: "ihe ihe ihe ihe. ihe ihe ihe ihe ihe ihe ihe ihe ihe.",
+      requires_listing_active: "Ndepụta anaghị arụ ọrụ. Kwado Ndepụta mbụ ka iji ya n'ihu ụlọ ahịa.",
 
 
     },
@@ -11907,16 +11907,16 @@ export default {
         "Ọkachamara Suite",
       ],
       description: [
-        "ihe ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe ihe.",
+        "Kwesịrị ekwesị maka ndị mmadụ n'otu n'otu na-enyocha ihe ndị bụ isi.",
+        "Nweta atụmatụ na ọdịnaya niile adịchaghị mma.",
         "ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ndị ọrụ.",
+        "Ngwungwu ziri ezi maka ndị ọrụ oge niile.",
         "ihe ihe ihe ihe ihe.",
         "ihe ihe ihe ihe ihe.",
         "ihe ihe ihe ihe.",
-        "ihe oke ihe ihe, ihe ihe ihe onye ọrụ.",
-        "ihe ihe ihe ihe ihe, ihe ihe 4 ihe.",
-        "ihe ihe ihe ihe ihe ihe.",
+        "Enweghị oke na ojiji, maka onye ọrụ ike.",
+        "Atụmatụ pụrụ iche maka ezinaụlọ, ruo ndị otu 4.",
+        "Ezubere maka ndị ọkachamara na-achọ ngwá ọrụ dị elu.",
       ],
     },
 
@@ -11971,24 +11971,24 @@ export default {
       message: [
         "ihe ihe ihe ihe ihe!",
         "ihe ihe ihe azụmahịa.",
-        "ihe iwu ihe ihe ihe ihe!",
+        "Usoro gị na-aga!",
         "ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ụlọ ahịa.",
-        "ihe ihe ihe ihe ihe ihe ihe!",
-        "chekwaa ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe ngwaahịa.",
+        "Na-atụ anya ijere gị ozi ọzọ.",
+        "Afọ ojuju gị bụ ihe kacha anyị mkpa.",
+        "Echefula ịkọ ahụmahụ gị.",
+        "Daalụ maka ịkwado ụlọ ahịa anyị.",
+        "Anyị na-atụ na ị ga-anụ ụtọ ịzụrụ ọhụrụ gị!",
+        "Chekwaa akwụkwọ ọnụahịa gị maka ntụnye aka n'ọdịnihu.",
+        "Gaa leta anyị ọzọ maka ngwaahịa ndị ọzọ mara mma.",
         "ihe ihe ihe ihe onyinye.",
-        "ihe ihe ihe ihe ihe ihe onye ahịa.",
-        "ihe ihe ihe ihe ihe ihe ihe ihe.",
+        "Daalụ maka ịbụ onye ahịa bara uru.",
+        "Anyị bịara ebe a iji nyere aka ma ọ bụrụ na ịchọrọ enyemaka.",
         "ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe mbelata ihe ihe ihe ihe.",
+        "Nwee obi ụtọ na mbelata pụrụ iche na ịzụrụ ọzọ.",
         "ihe ihe ihe ihe ihe!",
-        "ihe ihe ihe ihe ihe ihe ihe.",
+        "Daalụ maka ntụkwasị obi gị na anyị.",
         "ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe ihe.",
+        "Ekele sitere n'obi sitere n'aka ndị otu anyị.",
       ],
     },
 
@@ -12057,16 +12057,16 @@ export default {
         "ihe ihe ihe",
         "ihe ihe ihe ihe",
         "ihe ihe ihe ihe",
-        "ihe ihe ihe ihe azụmahịa ihe",
+        "Nkwekọrịta ndụmọdụ ọkachamara maka ndị nwe ụlọ ahịa",
         "ihe ihe ihe ahịa ihe",
-        "ụlọ ahịa ihe ihe ihe ihe ihe",
+        "Nkwekọrịta ọrụ nhazi na nhazi ụlọ ahịa",
         "POD ihe ihe ihe",
         "ihe ihe ihe ihe",
         "azụmahịa ihe ihe ihe",
         "ihe ụlọ ahịa ihe ihe",
         "ihe ihe ihe ihe",
         "azụmahịa ihe ihe ihe ihe",
-        "ihe ụlọ ahịa ihe ihe ihe",
+        "Nkwekọrịta ọrụ nrụpụta ụlọ ahịa omenala",
         "ahịa ihe ihe ihe",
         "ihe ihe ihe ihe ihe",
         "POD ihe ihe ihe",
@@ -12117,19 +12117,19 @@ export default {
       description: [
         "ihe ihe ihe ihe ihe!",
         "ihe ihe ihe ihe ihe.",
-        "ihe ihe onyinye ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe ihe.",
-        "chekwaa ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe!",
-        "ihe ihe ihe ihe ihe ụlọ ahịa.",
+        "Naanị cashback na-enye naanị maka gị.",
+        "Nweta nnukwu ego site na ụgwọ ọrụ cashback.",
+        "Nkwụghachi azụ ozugbo na ihe niile ọkacha mmasị gị.",
+        "Chekwaa ihe ndị ọzọ site na azụmaahịa cashback nke oge.",
+        "Ugboro abụọ cashback gị n'ụbọchị pụrụ iche!",
+        "Nweta cashback mgbe ọ bụla ịzụrụ ihe.",
         "ihe ihe ihe ihe ihe!",
         "ihe ihe ihe ihe ihe.",
         "ihe! ihe ihe ihe onyinye.",
-        "ihe ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ụlọ ahịa, ihe ihe ihe chekwaa.",
+        "Soro Club Rewards Club anyị ugbu a.",
+        "Ka ị na-azụ ahịa, ka ị na-echekwa karịa.",
         "ihe ihe ihe ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe.",
+        "Nweta azụmaahịa cashback kacha mma gburugburu.",
       ],
     },
 
@@ -12156,26 +12156,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "ihe ihe ihe, ihe ihe ihe!",
-        "chekwaa ihe ihe ihe ihe ihe!",
+        "Mezue anya gị, jide setịpụ ahụ!",
+        "Chekwa nnukwu ego site na azụmahịa ngwugwu anyị!",
         "ihe ihe ihe ihe ihe!",
         "ihe ihe ihe, ihe ihe!",
         "ihe ihe ihe, ihe ihe!",
         "ihe ihe, ihe mbelata!",
-        "ihe ihe, ihe ihe – ihe ihe!",
+        "Nweta karịa, mefuo obere - chịkọta ọnụ!",
         "ihe onyinye: ihe ngwaahịa!",
         "ihe ihe ihe, ihe ihe!",
-        "ihe ihe ihe ihe, chekwaa ihe!",
-        "ihe ihe ihe ihe ihe ihe ihe!",
+        "Chọpụta combos anyị echekwabara, chekwaa ugbu a!",
+        "Jikọta ya maka ngwakọta kacha!",
         "ụlọ ahịa ihe, ihe ihe chekwaa!",
-        "ihe ihe uru, ihe ihe ihe!",
-        "ihe ihe ihe ihe ihe – ụlọ ahịa ihe!",
-        "ihe ihe ihe ihe ihe ihe!",
-        "ihe ihe ihe ihe ihe ihe!",
-        "ihe ihe ihe ihe ihe ihe!",
-        "ihe ihe ihe: ihe ihe chekwaa!",
-        "ihe ihe ihe ihe ihe ihe ihe!",
-        "ihe ihe ihe ihe ihe ihe!",
+        "Ugboro abụọ uru, okpukpu abụọ nke ntụrụndụ!",
+        "Egwuregwu gị zuru oke dị ebe a - zụta ugbu a!",
+        "Ọnụ ahịa ngwugwu naanị maka gị!",
+        "Jiri combos anyị bulie ego gị karịa!",
+        "Jiri nhọpụta ndị a kwalite mkpokọta gị!",
+        "Emebere gị: dakọtara wee chekwaa!",
+        "Ụzọ kacha mma maka ụbọchị zuru oke!",
+        "Gwakọta ọkacha mmasị gị maka itinyekwu ego!",
       ],
     },
 
@@ -12266,14 +12266,14 @@ export default {
         "ihe",
       ],
       description: [
-        "ihe ihe ihe ihe ihe ihe, ihe, ihe ihe.",
-        "ihe ihe ihe ihe ihe ihe, ihe, ihe ihe.",
-        "ihe, ihe, ihe ụdị ihe ihe.",
-        "nkọwa ihe ihe, ihe, ihe ihe ngwaahịa.",
+        "Àgwà maka ihe ndị dị na uwe dị ka nha, agba, na akwa ákwà.",
+        "Nkọwapụta maka ngwa dị ka ika, ụdị na atụmatụ.",
+        "Ụtọ, nha, na ụdị ihe ọṅụṅụ.",
+        "Nkọwa maka nri, nri nri, na ngwaahịa nri.",
         "ihe, ihe, ihe ihe ihe.",
         "ihe, ihe, ihe ihe ihe.",
-        "ihe ụdị, ihe, ihe ihe nkọwa.",
-        "ihe ihe, ihe, ihe ihe ihe.",
+        "Ụdị akpụkpọ ahụ, ihe ndị e ji eme ihe, na nkọwa nkwakọ ngwaahịa.",
+        "Otu afọ, ihe onwunwe na ụkpụrụ nchekwa.",
         "ụdị, ihe, ihe ihe ihe.",
         "ihe, ihe, ihe ihe nkọwa.",
       ],

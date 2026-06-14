@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Biltegiratu Aplikazio Aktiboak",
         subtitle:
-          "Selldone Kudeatu zure negozio aplikazioak.",
+          "Ezagutu zure negozio aplikazioak kudeatzeko erraztasuna Selldone App Store-rekin. Gure plataformak zure negozio-eragiketak optimizatzeko diseinatutako tresna multzo osoa eskaintzen du. Kudeaketa irtenbide berritzaileetatik produktibitatea sustatzeko aplikazioetara, Selldone-k esperientzia ezin hobea eskaintzen die eraginkortasuna eta hazkundea bilatzen duten enpresei.",
         all: "guztiak",
       },
       /** {@see BAppShopStore} **/
@@ -1803,7 +1803,7 @@ export default {
           "Konfiguratu eta kudeatu aukera hau zure dendarako.",
         manage_vendors: "Kudeatu Saltzaileak",
         vendor_product_pricing_link:
-          "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+          "Saltzailearen produktuen prezioa konektatuta dago. Hemen zerrendako prezioa aldatzeak aldaerarik gabeko saltzaileen produktuei edo prezio propiorik ez duten aldaerei eragingo die (produktu nagusiaren prezio bera erabiliz). Prezio hori merkatuko prezio gisa hartuko da, eta saltzailearen prezioa prezioen ereduan edo aurreko merkatuko irabazi-marjinean oinarrituta ezarriko da.",
         vendor_variant_pricing_link:
           "Konfiguratu eta kudeatu aukera hau zure dendarako.",
       },
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "Aukera",
 
       subscription_tips:
-        "<code></code><code></code><code></code><br /><br /><b></b> Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Harpidetza-produkturako zerga-profila hautatzen duzunean, <code>zerga kodea</code> eguneratzen dugu eta modu inklusiboa/esklusiboa ezartzen dugu zure ordainketa-zerbitzuen hornitzailean. Hautatutako zerga profilak zehazten du prezioa zergak barne hartzen dituen ala zergak kanpo hartzen diren. <code>inklusiboa</code> edo <code>esklusiboa</code> horietako bat. Behin barne edo esklusibo gisa zehaztu ondoren, ezin da aldatu.<br /><br /><b>Garrantzitsua!</b> Zerga-profila aldatu ondoren, Produktua > Inbentarioa fitxan prezio-planetan klik egin beharko zenuke eta Gorde botoian egin klik aldaketak aplikatzeko.",
     },
   },
 
@@ -2239,7 +2239,7 @@ export default {
 
     add_dialog: {
       select_service_msg:
-        "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Bidalketa-metodoak merkatuak ezartzen ditu eta bezeroek haien artean aukera dezakete. Saltzaileek ez dute aukera horien gaineko kontrolik, baina beren panela bidalketa zerbitzuekin integra dezakete etiketak zuzenean erosteko. Mesedez, hautatu metodo bat beheko zerrendatik eskuragarri dauden zerbitzuak ikusteko. Aukeratu bidalketa-zerbitzu bat beheko zerrendatik. Zure dendan gehi daitezkeen zerbitzuak soilik bistaratzen dira hemen.",
       no_available_service: "No Eskuragarri Zerbitzua!",
     },
   },
@@ -2283,7 +2283,7 @@ export default {
       action_manage: "Ekintza Kudeatu",
       action_disable_msg: "Merkatuaren jabea",
       select_items_tips:
-        "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Sortu edo aukeratu produktuarekin edo zerbitzuarekin batera datozen paketeen osagaiak. Erabili funtzio hau bezeroek elementua erostean jasoko dutena azpimarratzeko. Funtzio hau erabiltzea gomendatzen dugu bezeroak barne hartzen dituen edukiak ulertzea erabakigarria denean soilik, adibidez, smartphone bat erostean.",
       create_item_tips:
         "Konfiguratu eta kudeatu aukera hau zure dendarako.",
       create_new_item_action: "Aukera",
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b></b><br /><b></b><b><s></s></b> Konfiguratu eta kudeatu aukera hau zure dendarako. {filename}",
       how_set_name:
-        "<b></b><br /> Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "<b>Izenak emateko aholkuak:</b><br />Kargatutako fitxategi-izenaren lehen 12 karaktereak erabiliko dira aktiboaren izen gisa. Ezaugarri hau ezin hobea da produktu baten alderdi pertsonalizagarriak erakusteko, hala nola motozikletentzako pneumatikoen tamainak edo ehunen ereduak. Eginbide honen erabilera optimizatzeko, saihestu aldaera-irudiak hemen kargatzea aktibo grafikoen kopurua 100 baino txikiagoa ez bada, adibidez, altzarientzako egur mota desberdinak.",
     },
   },
 
@@ -4263,7 +4263,7 @@ export default {
   vendor_order_refund: {
     title: "Itzulketa Eskaera",
     subtitle:
-      "<b></b><b></b> Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "<b>Garrantzitsua! </b>Ekintza hau gauzatzeak transakzio negatiboa sortuko du saltzailearen zorroan eta aukeratutako zenbatekoa kenduko zaio. Zenbatekoa ezin da hautatutako eskaeraren gainerako transakzio osoa gainditu. Gainera, fondoak konektatutako banku-kontuetara transferitu badira (adibidez, Stripe Connect-ekin edo eskuzko alanbre-transferentziarekin), <b>alderantzizko transferentzia</b> sortu beharko zenuke.",
     inputs: {
       note: {
         message: "Mezua",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Erositako Historia",
       subtitle:
-        "Lizentzia aktibo eta izapideak.",
+        "Hau lizentzia aktiboen eta zain daudenen zerrenda da. Zure diru-zorroa finantzatu ondoren eskaintzak eros ditzakezu. Gainera, kontuan izan harpidetza bertan behera uzten duzunean, gainerako harpidetzaren zenbatekoa zure zorro birtualera itzuliko dela.",
     },
     license_detail: {
       title: "Xehetasunak",
       subtitle:
-        "Zure egungo planaren mugak.",
+        "Hauek dira zure egungo planaren mugak. Xehetasun gehiago lortzeko, bisitatu prezioen orria. Plan guztietan eginbide guztiak atzi ditzakezu, doako planera barne, zure negozioa abiarazteko eta hazteko. Zure negozioa handitzen duzun heinean, kontuan hartu maila altuagoko plan batera igotzea zerbitzu-kuotak jaisteko.",
     },
 
     table: {
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Bultza ezazu bezeroen erosketak zure dendan esperientzia ludiko batekin. Konfiguratu sariak eta irabazteko probabilitateak erosketen bidez tokenak irabazten dituzten bezeroentzat. Jolas bakoitzak 10 token balio du, eta sari bereziak eskain diezazkiekezu lehen erosleei. Joko lehenetsia Wheel of Fortune da, baina pertsonaliza dezakezu zure dendaren diseinura egokitzeko.",
     },
     empty_prize_list: "Aukera",
   },
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Saltzaileen zorroak",
     subtitle:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "Ez dago zorroak eskuz gehitu beharrik! Saltzaileen zorroak automatikoki sortzen dira. Banatutako ordainketak onartzen dituen ordainketa-metodo bat gaitzen baduzu (Stripe Connect adibidez), sistemak automatikoki banatuko ditu ordainketak konektatutako saltzaileen kontuetan. Eginbide hau gaituta ez badago, eskuz ordaindu beharko diezu saltzaileei, eta haiei zor zaizkien zenbatekoak egiaztatu ahal izango dituzu diru-zorroaren zerrendan.",
     filter_vendor: {
       placeholder: "Iragazkia by Saltzailea...",
     },
@@ -8918,7 +8918,7 @@ export default {
       "Zure bezeroek {product} azkar erosi ahal izango dute esteka honen bidez. Esteka bera ere sartuko dute QR kodea eskaneatuz.",
     title: "Salmenta Hiper Azkarra",
     message:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "Hyper Selldone salmenta-kanalaren laguntzaz, zure bezeroek produktuak erosi ahal izango dituzte QR kode bat eskaneatuz, zure aldetik inolako ekintzarik egin gabe. Erabili modu hau jaialdietan, erakusketetan edo zeremonia lanpetuetan elementu batzuk azkar saltzeko. Atal honetan Hyper aktibatu ondoren, produktu fisikoetarako hiper QR kode bat sor dezakezu Produktuen kudeaketa atalean.",
     orders_list: "Hyper Aginduen Zerrenda",
     active_mode: "Hiper salmenta kanala aktibatuta",
     inactive_mode: "inaktibo",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Eskuragarri Kokapenak",
     subtitle:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "Zure produktua edo zerbitzua eskualde jakin batzuetan soilik eskuragarri badago, herrialdearen eta posta-kodeen edo PIN-kodeen arabera zehaztuta, hemen izenda ditzakezu kokapen horiek. Kokapen-murrizketa hauek produktu mailan ezartzen dira. Produktuen orrian, bezeroei beren kokapena hautatzeko eskatuko zaie. Produktua aukeratutako eremuan eskuragarri badago, erosketarekin jarraitu ahal izango dute.",
 
     add_location_action: "Gehitu herrialdea",
     no_restriction: "Aukera",
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "Titulua",
       subtitle:
-        "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Hemen, lagin-denda aukeraketa bat aurki dezakezu. Denda hauetan eskuragarri dagoen informazioa arakatzeko baimena ematen zaizu. Hala ere, mesedez, ez saioa hasi edo benetako informazio pertsonala erabiliz eskaerak egitea, datu horiek publikoarentzat eskuragarri izango baitira. Nahi gabe zure informazioa hemen sartzen baduzu, mesedez irten dendatik eta jarri gurekin harremanetan laguntza gehiago jasotzeko.",
     },
 
     add_new_store: "Gehitu Berria Denda",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Blog Kategoriak",
     subtitle:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "Kategoria kopuru mugatu bat sor dezakezu zure blogeko argitalpenetarako, modu eraginkorragoan kudeatzeko. Kategoria-muga izateak zure webgunean antolaketa hobea sustatzen du. Nabarmentzekoa, goi mailako albiste agentziek ere kategoria kopuru mugatu bat mantentzen dute, askotan 100 baino gutxiago, kudeaketa arintzeko eta ikuspegi zabalagoa mantentzeko.",
 
     add_action: "Gehitu kategoria berria",
     add_dialog: {
@@ -9266,7 +9266,7 @@ export default {
       title: "Saioa hasteko metodoak",
       subtitle: "Pertsonalizatu erabiltzaileak zure dendan saioa hasteko modua.",
 
-      tips: "Selldone <b></b> Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      tips: "<b>Garrantzitsua.</b> Erabiltzaile bat zure dendan erregistratzen denean, dagokion Selldone erabiltzaile bat sortzen da, dagoeneko existitzen ez bada. Erabiltzaile honek bere helbide-libururako sarbidea izango du denda guztietan eta bere eskaeren historia ikus dezake, denda bat itxi bada ere. Ez dugu informazio hori erabiltzen marketin-helburuetarako, baina bi aldeetatik iruzurra saihesteko eskatzen dugu. Gardentasuna mantentzeko, mezu elektroniko bat bidaliko diogu erabiltzaileari erregistratzearen berri emateko.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -10029,7 +10029,7 @@ export default {
     title: "Salmenta gurutzatua",
     add_new_actions: "Gehitu produktu berria",
     subtitle:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "Atal honetan, produktuen orri honetako salmenta gurutzatua gehitu eta kudeatu dezakezu. Produktu hauek produktu nagusiarekin batera bezeroek erosteko iradokizun gisa bistaratuko dira. Deskontuak ere ezar ditzakezu erosketa osagarriak sustatzeko eta sustatzeko. Sistemak gehienez 3 elementu erakutsiko ditu bezeroak kontuan izan ditzan.",
     dialog: {
       edit_title: "Editatu Titulua",
       add_title: "Gehitu Titulua",
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+      "Produktu bat edo produktuen zerrenda erraz txertatu dezakezu zure blogean edo beste web orrietan, eskaintzen dizkizugun kodeak kopiatu eta itsatsi besterik ez baduzu. Ezaugarri hau hasierako fasean dagoen arren, aktiboki lanean dihardugu bere funtzionalitateak gaur egun beste leku batzuetan eskuragarri dagoenaz harago zabaltzeko. Gaur egun gaitasun mugatuak eskaintzen dituen arren, etorkizunean txantiloi eta pertsonalizazio aukera gehiago sartzeko asmoa dugu.",
     card: {
       title: "Titulua",
       description:
@@ -10391,7 +10391,7 @@ export default {
     help_dialog: {
       title: "Titulua",
       how_it_works_tips:
-        "Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Heltze-orrietan, testu zein irudientzako leku-mark dinamikoak izendatzeko malgutasuna duzu. Leku-marka hauek garrantzi handia dute edukia testuinguruaren arabera pertsonalizatzeko.   Leku-marka horien izaera dinamikoari esker, handitze-balioen bidez bete daitezke, faktore desberdinen arabera alda daitezkeenak. Adibidez, gehikuntza-balioak desberdinak izan daitezke produktu edo kategoria bakoitzeko. Ezaugarri honen benetako abantaila atributu desberdinak dituzten hainbat elementu dituzunean sartzen da. Leku-marka dinamiko hauek modu eraginkorrean erabil ditzakezu elementu bakoitzaren bistaratzea pertsonalizatzeko eta hobetzeko, eta horrela zure lurreratze-orrietan esperientzia berezia eta interaktiboa sortuz.",
       assign_tips:
         "Konfiguratu eta kudeatu aukera hau zure dendarako.",
       set_dynamic_image_tips:
@@ -10650,7 +10650,7 @@ export default {
     intro: {
       title: "Selldone Titulua",
       message:
-        "Selldone Konfiguratu eta kudeatu aukera hau zure dendarako.",
+        "Selldone Affiliate Programa sinplea eta zuzena da, esfortzurik gabe irabazteko diseinatua. Partekatu zure kideen esteka berezia Selldonera erabiltzaile berriak gonbidatzeko, eta egiten duten transakzio bakoitzeko komisio bat irabaziko duzu, betirako. Honek harpidetzak, zerbitzu-kuotak, denda-berritzeak eta gainerako diru-sarrerak jasotzen ditu. Hasi diru-sarreren zati bat irabazten denbora edo irabazien mugarik gabe. Sartu gurekin eta bihurtu zure sarea diru-sarrera finko bat!",
       why_join_selldone_affiliate: "Aukera",
       reasons: [
         "Aukera",

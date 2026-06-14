@@ -5700,17 +5700,17 @@ export default {
       subtitle:
         "Aktif lisans bilgileriniz.",
       subtitle_partner:
-        "Etkin {name} lisans bilgileriniz.",
+        "Aktif {name} lisans bilgileriniz. Bu mağazanın şu anda aktif bir ortak anlaşması var. Anlaşmayı iptal etmek ve daha yüksek seviyeli bir plana geçmek istiyorsanız lütfen yardım için destek ekibimizle iletişime geçin.",
     },
     licenses_table: {
       title: "Satın Alma Geçmişi",
       subtitle:
-        "Aktif ve bekleyen lisanslar.",
+        "Bu, etkin ve beklemedeki lisansların bir listesidir. Cüzdanınıza para yatırdıktan sonra fırsatlar satın alabilirsiniz. Ayrıca, bir aboneliği iptal ettiğinizde kalan abonelik tutarının sanal cüzdanınıza iade edileceğini lütfen unutmayın.",
     },
     license_detail: {
       title: "Detaylar",
       subtitle:
-        "Mevcut planınızdaki sınırlar.",
+        "Bunlar mevcut planınızın sınırlamalarıdır. Daha fazla ayrıntı için lütfen fiyatlandırma sayfasını ziyaret edin. İşletmenizi başlatmak ve büyütmek için ücretsiz plan da dahil olmak üzere tüm planlardaki tüm özelliklere erişebilirsiniz. İşletmenizi ölçeklendirirken hizmet ücretlerinizi düşürmek için daha üst düzey bir plana geçmeyi düşünün.",
     },
 
     table: {

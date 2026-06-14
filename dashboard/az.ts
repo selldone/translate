@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Aktiv Tətbiqləri Saxlayın",
         subtitle:
-          "Biznes proqramlarınızı idarə edin.",
+          "Selldone App Store ilə biznes proqramlarınızı idarə etməyin asanlığını kəşf edin. Platformamız biznes əməliyyatlarınızı optimallaşdırmaq üçün nəzərdə tutulmuş hərtərəfli alətlər dəsti təklif edir. İnnovativ idarəetmə həllərindən tutmuş məhsuldarlığı artıran tətbiqlərə qədər Selldone səmərəlilik və inkişaf axtaran bizneslər üçün mükəmməl təcrübə təqdim edir.",
         all: "hamısı",
       },
       /** {@see BAppShopStore} **/
@@ -5700,17 +5700,17 @@ export default {
       subtitle:
         "Aktiv lisenziya məlumatınız.",
       subtitle_partner:
-        "Aktiv {name} lisenziya məlumatınız.",
+        "Aktiv {name} lisenziya məlumatınız. Bu mağazanın hazırda aktiv tərəfdaş müqaviləsi var. Sövdələşməni ləğv etmək və daha yüksək səviyyəli plana yüksəltmək istəyirsinizsə, yardım üçün dəstək komandamızla əlaqə saxlayın.",
     },
     licenses_table: {
       title: "Satınalma tarixi",
       subtitle:
-        "Aktiv və gözlənilən lisenziyalar.",
+        "Bu aktiv və gözlənilən lisenziyaların siyahısıdır. Cüzdanınızı maliyyələşdirdikdən sonra sövdələşmələr əldə edə bilərsiniz. Əlavə olaraq qeyd edin ki, abunəni ləğv etdikdə, qalan abunə məbləği virtual pul kisənizə qaytarılacaq.",
     },
     license_detail: {
       title: "Təfərrüatlar",
       subtitle:
-        "Cari planınızdakı məhdudiyyətlər.",
+        "Bunlar cari planınızın məhdudiyyətləridir. Ətraflı məlumat üçün qiymətlər səhifəsinə daxil olun. Biznesinizi başlamaq və böyümək üçün pulsuz plan daxil olmaqla, bütün planlar üzrə bütün xüsusiyyətlərə daxil ola bilərsiniz. Biznesinizi genişləndirərkən, xidmət haqlarınızı azaltmaq üçün daha yüksək səviyyəli plana yüksəltməyi düşünün.",
     },
 
     table: {
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "Satıcılarım",
     message:
-      "Öz satıcılarımın siyahısı.",
+      "Bu, satıcı hesablarınızın siyahısıdır. Selldone platformasından istifadə edən mağazalarla əlaqəli bütün satıcı hesabları burada göstəriləcək və onları asanlıqla idarə etməyə imkan verəcəkdir.",
   },
 
   vendor_page: {},

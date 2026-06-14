@@ -5710,7 +5710,7 @@ export default {
     license_detail: {
       title: "Awọn alaye",
       subtitle:
-        "Awọn ifilelẹ lọ lori eto rẹ lọwọlọwọ.",
+        "Iwọnyi jẹ awọn idiwọn ti ero lọwọlọwọ rẹ. Fun alaye diẹ sii, jọwọ ṣabẹwo si oju-iwe idiyele. O le wọle si gbogbo awọn ẹya kọja gbogbo awọn ero, pẹlu ero ọfẹ, lati bẹrẹ iṣowo rẹ ati dagba. Bi o ṣe ṣe iwọn iṣowo rẹ, ronu igbegasoke si ero ipele ti o ga julọ lati dinku awọn idiyele iṣẹ rẹ.",
     },
 
     table: {

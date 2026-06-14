@@ -606,12 +606,12 @@ export default {
       },
       products_api: {
         title: "Produkti API",
-        subtitle: "vienums Produkti vienums vienums vienums vienums API vienums.",
+        subtitle: "Produktu importēšana, izmantojot publiski pieejamu API zvanu.",
       },
       google_sheet: {
         action: "saistītos vienums",
         tooltip:
-          "Domēns Produkti vienums vienums Veikals ir saistītos Uz vienums lietotni vienums vienums lietotni vienums. Google",
+          "Produkti šajā veikalā ir saistīti ar Google izklājlapu Google diskā.",
       },
       show_deletes: {
         false_title: "Slēpt dzēstos",
@@ -630,7 +630,7 @@ export default {
         false_description:
           "Skatīt Produkti vienums pēc Kategorijas un vienums.",
         true_title: "Tabulas režīms",
-        true_description: "Skatīt Produkti vienums vienums vienums tabula vienums.",
+        true_description: "Skatiet produktus detalizētā tabulas izkārtojumā.",
       },
 
       show_notes: {
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "Produkti RSS",
         subtitle:
-          "vienums vienums RSS vienums Uz vienums vienums vienums-Uz-Datums Saraksts vienums visi Produkti.",
+          "Izmantojiet šo RSS plūsmu, lai uzturētu atjauninātu visu produktu sarakstu.",
       },
       api_dialog: {
         title: "Produkti API",
         subtitle:
-          "Izmantojiet vienums API vienums Uz vienums sava Produkts Saraksts vienums-Uz-Datums. apstiprinu vienums vienums vienums vienums API Uz vienums Produkti No sava veikals, vienums apstiprinu vienums par Produkts saraksts un vienums vienums.",
+          "Izmantojiet šo API plūsmu, lai atjauninātu savu produktu sarakstu. Tas nodrošina publiski pieejamu API, lai iegūtu produktus no jūsu veikala, padarot to ideāli piemērotu produktu sarakstu un salīdzināšanas vietnēm.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,9 +858,9 @@ export default {
       restriction: {
         title: "Piegāde ierobežojumu",
         subtitle:
-          "vienums vienums vienums vienums Uz vienums vienums maksājumus Klienti vienums Domēns vienums Piegāde vienums vienums veikt Pirkumi No vienums!",
+          "Varat ieviest ierobežojumus, lai nodrošinātu, ka tikai klienti norādītajās piegādes zonās var veikt pirkumus no jums!",
         no_enable_shipping_error:
-          "Nē vienums vienums Pirkt No vienums vienums vienums vienums Nē iespējota Piegāde veids!",
+          "Neviens nevar iegādāties no jums, jo jums nav iespējota piegādes metode!",
         customer_must_select_a_shipping_msg:
           "klients vienums Izvēlieties vienums Piegāde veids Uz vienums 🛍️ Pasūtiet.",
         customer_can_order_without_shipping_method_msg:
@@ -868,7 +868,7 @@ export default {
         inputs: {
           restriction: {
             false_description:
-              "Klienti vienums vienums vienums Pasūtījumi vienums vienums Nē vienums Piegāde veids vienums vienums izvēlētās.",
+              "Klienti joprojām var veikt pasūtījumus pat tad, ja nav izvēlēta konkrēta piegādes metode.",
             false_title: "Pieņemt visi Pasūtījumi",
             true_title: "Ierobežots Pieņemt 🛍️ Pasūtiet",
             true_description:
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Saglabājiet aktīvās lietotnes",
         subtitle:
-          "Pārvaldiet savas biznesa lietojumprogrammas. Selldone",
+          "Atklājiet savu biznesa lietojumprogrammu pārvaldības vienkāršību, izmantojot Selldone App Store. Mūsu platforma piedāvā visaptverošu rīku komplektu, kas izstrādāts, lai optimizētu jūsu biznesa operācijas. No inovatīviem pārvaldības risinājumiem līdz produktivitāti paaugstinošām lietotnēm, Selldone nodrošina nevainojamu pieredzi uzņēmumiem, kas meklē efektivitāti un izaugsmi.",
         all: "visi",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "vienums",
           subtitle:
-            "vienums ir vienums, vienums Attēli vienums vienums vienums Tīmekļa vietne vienums vienums vienums, vienums, un Mobilais Aplikāciju vienums.",
+            "Faviconi ir mazi, ikoniski attēli, kas attēlo vietni pārlūkprogrammas cilnēs, grāmatzīmēs un mobilo lietotņu saskarnēs.",
         },
       },
 
@@ -1490,49 +1490,49 @@ export default {
       },
       unit: {
         subtitle:
-          "vienums vienums vienums Domēns vienums vienums Cenu noteikšana un vienums-Uz-Darbības vienums uz Domēns Produkts lapa.",
+          "Produkta lapā varat personalizēt cenu noteikšanas un aicinājuma uz darbību elementu rādīšanu.",
       },
       custom_pricing: {
         title: "Pielāgots Cenu noteikšana forma",
         subtitle:
           "vienums vienums Izveidot vai vienums vienums novērtēšana (vienums Cenu noteikšana Ievade forma) Uz Domēns Produkts, un sava Klienti vienums Izvēlieties vienums Varianti vai vienums sava Preču pēc vienums vienums Ievade forma.",
         valuation_need_saved_product_message:
-          "vienums Saglabāt Domēns Produkts pirmais, un vienums vienums vienums vienums vienums novērtēšana modelis.",
+          "Lūdzu, vispirms saglabājiet produktu un pēc tam varat piešķirt vērtēšanas modeli.",
         assign_valuation_message:
-          "vienums vienums vienums novērtēšana modelis Uz vienums Produkts.",
+          "Lūdzu, piešķiriet šim produktam vērtēšanas modeli.",
         edit_pricing_action: "Rediģēt Cenu noteikšana forma",
         add_pricing_action: "Izveidot Jauns Cenu noteikšana forma",
       },
       action: {
         title: "Pielāgots Pirkt poga",
         message:
-          "vienums vienums Mainīt Ikona pēc vienums vienums modeli: {icon name} vienums...",
+          "Varat mainīt ikonu, izpildot šo paraugu: {icon name} paraksts...",
         placeholder: "Ievadiet vienums...",
         multi_language_dialog_title: "Pielāgots Pirkt poga vienums",
       },
       external: {
         not_available_message:
           "Papildu Darbības Pieejams ar Uzņēmums & vienums vienums.",
-        available_message: "vienums vienums pievienot vienums Papildu ārējās vienums.",
+        available_message: "Varat pievienot papildu ārēju aicinājumu uz darbību.",
         input_label: "vienums vienums",
       },
       warehouse: {
         subtitle:
-          "vienums informācija ir vienums pēc Domēns Noliktava pārvaldība vienums un vienums Uz vienums vienums Domēns Produkts.",
+          "Šo informāciju izmanto noliktavas vadības sistēma, un tā kalpo, lai globāli identificētu produktu.",
       },
       gtin: {
-        hint: "vienums vērtības ir UPC (vienums vienums, 12 vienums), EAN (vienums, 13 vienums), JAN (vienums, 8 vai 13 vienums), ISBN (vienums, 13 vienums).",
+        hint: "Atbalstītās vērtības ir UPC (Ziemeļamerika, 12 cipari), EAN (Eiropa, 13 cipari), JAN (Japāna, 8 vai 13 cipari), ISBN (grāmatas, 13 cipari).",
         label: "vienums vienums vienums lieta numurs",
         placeholder: "vienums vienums numurs šeit.. (vienums)",
       },
       hsn: {
-        hint: "HSN, vai vienums vienums vienums vienums, ir vienums vienums vienums vienums vienums par vienums preces un Produkti.",
+        hint: "HSN jeb Harmonizētā nomenklatūras sistēma ir starptautiski standartizēta preču un produktu klasifikācijas sistēma.",
         placeholder: "6~16 vienums HSN Kods.. (vienums)",
         label: "HSN",
       },
       condition: {
         label: "Produkts vienums vienums sava veikals",
-        message: "vienums Izvēlieties Domēns vienums vienums vienums Produkts.",
+        message: "Lūdzu, izvēlieties šī produkta stāvokli.",
         subtitle:
           "vienums sava Klienti Par Domēns vienums un Zīmols vienums Domēns Produkts vienums vienums.",
       },
@@ -1550,17 +1550,17 @@ export default {
       status: {
         title: "Statuss",
         subtitle:
-          "Domēns vienums Statuss vienums vienums vienums Tiešsaistes un vienums-veikals. Uz veikt vienums Produkts Melnraksts, vienums vienums vienums Statuss Uz 'neaktīvs..",
+          "Produkta statuss nosaka tā pieejamību tiešsaistē un veikalā. Lai izveidotu produkta uzmetumu, vienkārši pārslēdziet tā statusu uz Neaktīvs.",
       },
       profiles: {
         title: "Profili",
         subtitle:
-          "vienums vienums vienums atgriešana, 📦 Atgriešanās politika, Piegāde, un rokasgrāmata un vienums vienums Uz vienums Produkts. apstiprinu vienums vienums vienums kā Jauns vienums uz Domēns Produkts lapa.",
+          "Varat definēt garantiju, atgriešanas politiku, piegādi un ceļvedi un piešķirt tos šim izstrādājumam. Produkta lapā tas tiks parādīts kā jaunas cilnes.",
       },
       shortcuts: {
         title: "vienums Produkts Uz Papildu Kategorijas",
         subtitle:
-          "vienums Līdzekļa vienums vienums Uz Saraksts Domēns Produkts vienums Vairāki Kategorijas vienums vienums vienums vienums vienums Domēns Primārs Kategorija Iestatiet vienums Produkts > Rediģēt > Kategorija. vienums, apstiprinu vienums vienums Uz vienums 'vienums vienums vienums vienums, vienums Domēns Produkts Uz vienums vienums Papildu vienums Kategorijas.",
+          "Šī funkcija ļauj uzskaitīt produktu vairākās kategorijās, vienlaikus saglabājot tā izvietojumu galvenajā kategorijā, kas iestatīta sadaļā Produkts > Rediģēt > Kategorija. Būtībā tas darbojas līdzīgi kā operētājsistēmu “īsceļu” izveide, ļaujot produktam parādīties papildu norādītajās kategorijās.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Tehniskās specifikācijas",
       subtitle:
-        "vienums Produkts Specifikācijas šeit. vienums informācija vienums vienums vienums Uz Klienti un vienums vienums vienums vienums vienums Domēns vienums vienums vienums vienums.",
+        "Šeit ievietojiet produkta specifikācijas. Šī informācija tiks parādīta klientiem, un to varēs izmantot arī kategorijas viedajā filtrēšanas sistēmā.",
       manual: {
         title: "manuāli",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "vienums vienums Importēt Tehnisks Specifikācijas vienums vienums Produkti.",
+          "Varat importēt līdzīgu produktu tehniskās specifikācijas.",
         action_title: "Importēt",
         action_subtitle: "vienums vienums No vienums Produkts.",
       },
       ai: {
         title: "AI",
         subtitle:
-          "vienums vienums vienums Izveidot Produkts Specifikācijas pēc vienums Domēns vienums Neapstrādātas Dati vienums vienums forma.",
+          "Jūs varat automātiski izveidot produkta specifikācijas, iesniedzot produkta izejas datus teksta formā.",
         action_title: "Auto vienums pēc AI",
         action_subtitle: "Izveidot Produkts Specifikācijas pēc vienums Ātra.",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Preces kods: P0000...",
         spec_view_title: "Izvēlētā produkta specifikācijas",
         spec_view_subtitle:
-          "Domēns Specifikācijas vienums vienums vienums No Domēns vienums Produkts.",
+          "Specifikācijas ir importētas no izvēlētās preces.",
         set_spec_action: "Tehnisko specifikāciju dublikāti",
       },
       notifications: {
@@ -1691,12 +1691,12 @@ export default {
         prompt: {
           title: "Produkts Pārskats",
           subtitle:
-            "vienums vienums vienums vienums un vienums Apraksts vienums Domēns Produkts, vienums vienums atslēga funkcijas un Sīkāka informācija. vienums informācija vienums vienums Lietots Uz vienums vienums Domēns Produkts Specifikācijas.",
+            "Lūdzu, sniedziet īsu un skaidru produkta aprakstu, izceļot tā galvenās funkcijas un detaļas. Šī informācija tiks izmantota, lai automātiski ģenerētu produkta specifikācijas.",
         },
         generated_spec: {
           title: "AI-Ģenerēta Specifikācijas",
           subtitle:
-            "vienums Specifikācijas vienums Ģenerēta pēc vienums vienums.",
+            "Šīs specifikācijas radīja mākslīgais intelekts.",
         },
         inputs: {
           prompt: {
@@ -1787,10 +1787,10 @@ export default {
         subscription:
           "par Abonementi, maksājumus Domēns saraksts cena ir vienums, vienums Domēns vienums cena vienums vienums vienums pamatojoties uz Domēns izvēlētās Abonēšana Plānot.",
         service:
-          "par pakalpojums-pamatojoties Produkti, Domēns vienums Cenu noteikšana ir vienums par vienums vienums, vienums vienums vienums cena vienums Domēns pakalpojums. Domēns vienums pakalpojums cena vienums vienums vienums pēc vienums vienums Domēns klients vienums vienums vienums 🛍️ Pasūtiet (vienums Izrakstīties).",
-        file: "vienums vienums Uz Domēns vienums un vienums cena vienums Domēns fails, vienums Klienti vienums Maksājiet vienums 🛍️ Pasūtiet Uz vienums Piekļuve Uz Domēns faili.",
+          "Produktiem, kuru pamatā ir pakalpojumi, norādītās cenas ir paredzētas tikai attēlošanai, nodrošinot pakalpojuma aptuvenās izmaksas. Faktisko pakalpojuma cenu jūs noteiksiet pēc tam, kad klients būs veicis pasūtījumu (norēķinot).",
+        file: "Tas attiecas uz norādīto un faktisko faila cenu, kas klientiem ir jāmaksā, lai piekļūtu failiem.",
         default:
-          "vienums vienums Uz Domēns vienums vienums cena un vienums vienums vienums Konts Domēns cena vienums vienums Varianti vienums lietu nav vienums vienums Cenu noteikšana.",
+          "Tas attiecas uz produkta norādīto cenu un ņem vērā arī to variantu cenu, kuriem nav atsevišķas cenas.",
       },
       extra_pricings: {
         title: "pievienot Papildu Cenu noteikšana",
@@ -1800,7 +1800,7 @@ export default {
       vendor: {
         title: "pārdevējs Cenu noteikšana",
         subtitle:
-          "vienums cena vienums vienums vienums maksājumus vienums Domēns Produkti saraksts. vienums vienums Iestatiet pārdevējs cena vienums Domēns Produkts > pārdevēji vienums.",
+          "Šī cena būs redzama tikai preču sarakstā. Pārdevēja cenu varat iestatīt cilnē Produkts > Pārdevēji.",
         manage_vendors: "Pārvaldiet pārdevēji",
         vendor_product_pricing_link:
           "Domēns vienums Produkts Cenu noteikšana ir Savienots. vienums Domēns saraksts cena šeit vienums vienums pārdevējs Produkti Bez Varianti vai vienums ar Varianti vienums Nepalaidiet vienums vienums vienums Cenu noteikšana (vienums Domēns vienums cena kā Domēns Galvenās Produkts). vienums cena vienums vienums vienums kā Domēns Tirgus laukums cena, un Domēns vienums cena vienums vienums Iestatiet pamatojoties uz Domēns Cenu noteikšana modelis vai Domēns vienums Tirgus laukums vienums vienums.",
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "🛍️ Pasūtiet Ierobežojumi",
         subtitle:
-          "vienums vienums vienums vienums vai vienums vienums Minimālais vai Maksimālais Ierobežot uz Domēns Daudzums vienums vienums lieta par 🛍️ Pasūtiet, vienums vienums vienums vienums šeit.",
+          "Ja esat vairumtirgotājs vai ir noteikts minimālais vai maksimālais šīs preces daudzuma ierobežojums vienam pasūtījumam, varat to norādīt šeit.",
         no_limit: "Nē Ierobežot",
         minimum_purchase_quantity: "Minimālais Pirkums Daudzums",
         maximum_purchase_quantity: "Maksimālais Pirkums Daudzums",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Izņemiet produktu",
       message: "Vai vēlaties dzēst <b>{product_title}</b> ?",
-      tips: "vienums vienums vienums Dzēst vienums Produkts, vienums vienums vienums apstiprinu pēc vienums Uz sava Veikals > Produkti, vienums rādīt Izdzēsts Preces, un vienums vienums-vienums uz Domēns Produkts, un vienums vienums.",
+      tips: "Ja nejauši izdzēšat produktu, varat to atgūt, pārejot uz veikalu > Produkti, iespējojot Rādīt izdzēstos vienumus un pēc tam ar peles labo pogu noklikšķinot uz produkta un atlasot Atjaunot.",
     },
   },
 
@@ -1894,22 +1894,22 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "lietotni Produkts Kategorija Kods Google",
-    hint: "vienums Domēns Kategorija vienums sava Produkts vienums Uz Domēns vienums Produkts vienums. Google",
+    hint: "Apzīmē jūsu produkta kategoriju saskaņā ar Google produktu taksonomiju.",
     placeholder: "Ievadiet Produkts vai pakalpojums Kategorija.. (vienums)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "atgriešana",
-      desc: "A atgriešana ir vienums vienums vienums vienums vienums Domēns vienums vienums Uz remonts vai vienums vienums Produkts vienums vienums vienums perioda. vienums vienums vienums vienums vienums Uz vienums vienums lietu nav vienums vienums vienums vienums ar Domēns vienums.",
+      desc: "Garantija ir daļa no līguma, kurā ražotājs sola salabot vai nomainīt preci noteiktā termiņā. Šīs saistības var attiekties pat uz patērētājiem, kuriem nav tieša līguma ar ražotāju.",
     },
     RETURN_POLICY: {
       title: "📦 Atgriešanās politika",
-      desc: "📦 Atgriešanās vienums vienums vienums Klienti vienums 📦 Atgriešanās vai Apmaiņa vienums Preču. vienums vienums Piemēroti Preces, pieļaujamais vienums par vienums, un Domēns vienums par vienums vienums.",
+      desc: "Atgriešanas politikā ir izklāstīts, kā klienti var atgriezt vai apmainīt nevēlamas preces. Tie norāda piemērotās preces, pieņemamus atgriešanas iemeslus un atgriešanas termiņus.",
     },
     GUIDE: {
       title: "rokasgrāmata",
-      desc: "A rokasgrāmata vienums vienums vienums Izmēra vienums par vienums vai vienums izvēle rokasgrāmata par vienums. vienums vienums vienums vienums ir Daudzpusīga un vienums vienums Vairāki Produkti.",
+      desc: "Rokasgrāmatā var būt iekļauta apģērba izmēru tabula vai dimantu atlases rokasgrāmata. Ir svarīgi, lai ceļveži būtu daudzpusīgi un piemēroti vairākiem produktiem.",
     },
     SHIPPING: {
       title: "Piegāde",
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "vienums pārvaldība",
     subtitle:
-      "Izveidot Personalizētas, vienums, un vienums vienums-vienums vienums.",
+      "Izveidojiet personalizētus, viedus un interaktīvus uznirstošos logus.",
     add_action: "pievienot Jauns Uznirstošais logs",
   },
 
@@ -1954,7 +1954,7 @@ export default {
 
       title: "Nodoklis profils",
       subtitle:
-        "vienums vienums vienums vienums Nodoklis vienums Uz Domēns Produkts. vienums vienums Nodoklis profils nav vienums vienums par Domēns Produkts, Domēns Noklusējums veikals Nodoklis vienums vienums vienums vienums vienums.",
+        "Produktam varat piešķirt īpašus nodokļu noteikumus. Ja precei netiks izvēlēts nodokļu profils, tiks piemēroti noklusējuma veikala nodokļu noteikumi.",
 
       action_manage: "Pārvaldiet Nodoklis",
       action_manage_sub: "Veikals > Finanses > Nodoklis",
@@ -2002,7 +2002,7 @@ export default {
 
     profiles: {
       title: "Profili",
-      subtitle: "vienums vienums vienums Atrašanās vieta Uz vienums pārdevējs.",
+      subtitle: "Šim pārdevējam varat piešķirt atrašanās vietu.",
     },
     map: {
       no_map_message:
@@ -2018,7 +2018,7 @@ export default {
       no_landing_selected_msg: "Nē Piezemēšanās lapa izvēlētās.",
       no_landing_page: "Nē Piezemēšanās lapa",
       we_can_create_dedicated_landing_msg:
-        "vienums vienums Izveidot vienums vienums Piezemēšanās lapa par vienums.",
+        "Mēs varam jums izveidot īpašu galveno lapu.",
     },
     contact: {
       title: "Sazināties Informācija",
@@ -2027,7 +2027,7 @@ export default {
     business: {
       title: "Biznesa Informācija",
       subtitle:
-        "vienums vienums precīza informācija Par sava Biznesa Uz vienums vienums vienums un vienums ieņēmumi vienums process.",
+        "Lūdzu, sniedziet precīzu informāciju par savu uzņēmumu, lai nodrošinātu ātru un netraucētu ieņēmumu iekasēšanas procesu.",
     },
     bank: {
       title: "💸 informācija",
@@ -2055,17 +2055,17 @@ export default {
       title: "Noņemt pārdevējs",
       action: "Noņemt pārdevējs",
       verify_description:
-        "es vienums vienums visi pārdevējs Produkts vienums vienums vienums noņemts!",
+        "Es zinu, ka visas pārdevēja produktu attiecības tiks noņemtas!",
       verify_title: "es vienums Uz Dzēst vienums pārdevējs.",
     },
 
     send_invitation_tips:
-      "vienums vienums Sūtīt vienums vienums E-pasts Uz vienums Lietotājs. vienums Domēns Lietotājs vienums sava Veikals kā vienums pārdevējs, vienums Konts vienums vienums vienums vienums Uz vienums.",
+      "Mēs šim lietotājam nosūtīsim uzaicinājuma e-pasta ziņojumu. Ja lietotājs pievienosies jūsu veikalam kā pārdevējs, viņa konts viņam tiks automātiski piešķirts.",
     only_marketplace_owner_can_edit_user:
       "maksājumus Domēns Tirgus laukums Īpašnieks vienums Rediģēt Domēns Lietotājs. vienums vienums vienums Uz Mainīt Domēns Īpašnieks vienums vienums pārdevējs, vienums vienums Sūtīt Domēns Lūdziet Uz mums.",
     vendor_is_disable_msg: "pārdevējs ir atspējots.",
     email_not_match_with_user_msg:
-      "ievadīts E-pasts vienums nav vienums ar vienums E-pasts (<b>{user_name}:</b>{user_email}). ir vienums vienums Uz Sūtīt E-pasti Uz<b>{email}</b>?",
+      "Ievadītā e-pasta adrese nesakrīt ar lietotāja e-pasta adresi (<b>{user_name}:</b>{user_email}). Vai tiešām sūtāt e-pastus uz<b>{email}</b>?",
 
     order_information_email_to_email:
       "vienums vienums Sūtīt Pasūtījumi informācija Uz <b>{email}</b>.",
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "es vienums kā vienums vienums.",
-        true_description: "es vienums kā vienums vienums vienums Biznesa vienums.",
+        true_description: "Es darbojos kā juridiski atzīta uzņēmējdarbības vienība.",
         false_title: "vienums",
         true_title: "Biznesa",
       },
@@ -2100,15 +2100,15 @@ export default {
         placeholder: "sava Banka Konts numurs..",
       },
       routing_number: {
-        hint: "vienums numurs vienums pēc Valsts. vienums Lietots Uz vienums Domēns vienums Banka vienums Domēns pārdevējs vienums.",
+        hint: "Šis skaitlis dažādās valstīs ir atšķirīgs. To izmanto, lai identificētu konkrēto bankas filiāli, ko izmanto pārdevējs.",
         placeholder: "sava Banka vienums numurs, Kārtot Kods, vai BSB numurs..",
       },
       iban: {
-        hint: "vienums Banka Konts numurs): vienums Domēns vienums Banka ir vienums vienums vai vienums Citas vienums.",
+        hint: "Starptautiskais bankas konta numurs): ja pārdevēja banka atrodas Eiropā vai noteiktās citās valstīs.",
         placeholder: "sava IBAN numurs.. vienums. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "vienums Banka Konts numurs): vienums Domēns vienums Banka ir vienums vienums vai vienums Citas vienums.",
+        hint: "Starptautiskais bankas konta numurs): ja pārdevēja banka atrodas Eiropā vai noteiktās citās valstīs.",
         placeholder: "sava vienums Kods/BIC..",
       },
       branch_address: {
@@ -2117,9 +2117,9 @@ export default {
       },
       enable: {
         label: "pārdevējs Statuss",
-        hint: "vienums vienums Iespējot vai vienums pārdevēji vienums. Klienti vienums nav vienums vienums Uz Pirkums vienums No atspējots pārdevēji.",
+        hint: "Varat iespējot vai atspējot piegādātājus visā pasaulē. Klienti nevarēs neko iegādāties no pārdevējiem ar invaliditāti.",
         true_description:
-          "vienums vienums vienums vienums Uz vienums vienums Produkti vienums sava Tirgus laukums.",
+          "Viņi varēs pārdot savus produktus, izmantojot jūsu tirgu.",
       },
       access: {
         label: "pārdevējs vienums & Piekļuve",
@@ -2145,15 +2145,15 @@ export default {
     title: "vienums",
     action_upload_doc: "augšupielādēt vienums",
     vendor_subtitle:
-      "vienums augšupielādēt Domēns vienums Biznesa, IP, un adrese verifikācija vienums. vienums vienums vienums informācija Uz Apstipriniet sava vienums un vienums vienums ar Domēns vienums Piekļuve.",
+      "Lūdzu, augšupielādējiet nepieciešamos uzņēmuma, IP un adreses verifikācijas dokumentus. Šī informācija mums ir nepieciešama, lai apstiprinātu jūsu partnerību un nodrošinātu jums nepieciešamo piekļuvi.",
     marketplace_subtitle:
-      "pārdevēji vienums Iesniegt vienums vienums kā Biznesa, vienums vienums, un adrese verifikācija Uz vienums vienums KYC process, vienums vienums Uz vienums vienums Domēns vienums Piekļuve.",
+      "Pārdevēji var iesniegt dokumentus, piemēram, uzņēmējdarbības, intelektuālā īpašuma un adreses verifikāciju, lai atvieglotu savu KYC procesu, ļaujot jums piešķirt viņiem atbilstošu piekļuvi.",
     upload_dialog: {
       title: "augšupielādēt vienums",
       type: {
         title: "vienums Tips",
         subtitle:
-          "vienums augšupielādēt maksājumus Domēns vienums vienums. vienums vienums vienums vienums vienums vienums vienums informācija. vienums Lūdziet vienums vienums ir vienums Pieejams.",
+          "Lūdzu, augšupielādējiet tikai nepieciešamos dokumentus. Izvairieties kopīgot dokumentus, kas satur sensitīvu informāciju. Mēs pieprasām dokumentus, kas ir publiski pieejami.",
       },
     },
   },
@@ -2193,7 +2193,7 @@ export default {
         pattern: {
           label: "modeli",
           message:
-            "vienums rādīt vienums vienums par Produkti vienums vienums atbilst Vērtība vienums vienums vienums. Regex vienums.",
+            "Automātiski rādīt šo emblēmu produktiem, kuru specifikācijā ir šī atbilstošā vērtība. Atbalstīta regulārā izteiksme.",
           placeholder: "Uz rādīt par visi Produkti Raksti: *.*",
         },
       },
@@ -2213,11 +2213,11 @@ export default {
     tips: [
       "vienums vienums Filtrs Produkti pamatojoties uz Tagi uz <b>Piezemēšanās Lapas</b>.",
       "vienums un sava Klienti vienums meklēšana par vienums Tagi vienums Domēns<b>meklēšana</b> vienums.",
-      "vienums Iestatiet Tagi, maksājumus Produkti ar Domēns <b>vienums Tagi</b> vienums vienums vienums vienums Domēns <b>vienums Produkti sadaļas</b> uz Domēns Produkts lapa; vienums, Produkti vienums Domēns vienums Kategorija vienums vienums vienums.",
+      "Ja ir iestatīti tagi, produkta lapas sadaļā <b>saistītie produkti</b> tiks parādīti tikai produkti ar <b>parastajiem tagiem</b>; pretējā gadījumā tiks parādīti tās pašas kategorijas produkti.",
     ],
     inputs: {
       tags: {
-        placeholder: "vienums Tagi šeit un vienums Ievadiet. vienums. Jauns vienums",
+        placeholder: "Pievienojiet vadu tagus šeit un nospiediet taustiņu Enter. piem. jauna kolekcija",
       },
     },
     notifications: {
@@ -2261,7 +2261,7 @@ export default {
       title: "Atrašanās vieta profils",
       subtitle:
         "vienums vienums vienums Produkti uz Domēns Karte Atrašanās vieta pēc vienums Atrašanās vieta Tagi Uz Domēns Produkti.",
-      tips: "<b>vienums: </b> vienums vienums Atrašanās vieta Uz Domēns Produkts <b>maksājumus</b> vienums vienums vienums Uz rādīt Domēns Produkts uz Domēns vienums Atrašanās vieta uz Domēns Karte. Domēns vienums Produkts vienums vienums Domēns Atrašanās vieta kā vienums Galvenās vienums, Patīk <b>vienums vienums/vienums</b> vai vienums-vienums Pakalpojumi Patīk<b>vienums un vienums</b>.",
+      tips: "<b>Svarīgi: </b> Piešķiriet produktam atrašanās vietu <b>tikai</b>, ja ​​vēlaties parādīt preci konkrētajā vietā kartē. Piestiprinātā produkta galvenajai specifikācijai ir jābūt norādītai atrašanās vietai, piemēram, <b>īres mājas/vietas</b> vai klātienes pakalpojumi, piemēram,<b>Frizieris un spa</b>.",
     },
   },
 
@@ -2279,13 +2279,13 @@ export default {
     dialog: {
       header: "Produkts iepakojuma Preces",
       title: "vienums Preces",
-      subtitle: "vienums ir vienums vienums vienums Preces vienums vienums ar Domēns Produkts.",
+      subtitle: "Šis ir produkta komplektācijā iekļauto priekšmetu apkopojums.",
       action_manage: "Pārvaldiet Preces",
       action_disable_msg: "Tirgus laukums Īpašnieks",
       select_items_tips:
-        "Izveidot vai Izvēlieties iepakojuma vienums vienums vienums ar Domēns Produkts vai pakalpojums. vienums vienums Līdzekļa Uz vienums vienums Klienti vienums vienums Informācijas vienums vienums Domēns lieta. vienums vienums vienums vienums vienums maksājumus kad apstiprinu ir vienums par Domēns klients Uz vienums Domēns vienums vienums, vienums kā kad vienums vienums vienums.",
+        "Izveidojiet vai izvēlieties iepakojuma komponentus, kas tiek piegādāti kopā ar produktu vai pakalpojumu. Izmantojiet šo funkciju, lai uzsvērtu, ko klienti var sagaidīt, iegādājoties preci. Mēs iesakām izmantot šo funkciju tikai tad, ja klientam ir ļoti svarīgi saprast iekļauto saturu, piemēram, pērkot viedtālruni.",
       create_item_tips:
-        "vienums, vienums vienums vienums vienums Jauns lieta. vienums vienums Attēli, kā vienums vienums vienums vienums augšupielādēto Bildes Uz vienums 256vienums256 vienums vienums. Uz vienums vienums Izskats vienums visi veidnes, Izmantojiet vienums Attēli ar caurspīdīgs vienums un vienums vienums vienums modeli par visi sava Produkti.",
+        "Varat arī iekļaut jaunu vienumu. Izmantojiet kvadrātveida attēlus, jo mēs automātiski mainīsim augšupielādēto attēlu izmērus 256 x 256 kvadrātveida formātā. Lai nodrošinātu optimālu izskatu visās veidnēs, izmantojiet minimālistiskus attēlus ar caurspīdīgu fonu un saglabājiet konsekventu rakstu visiem produktiem.",
       create_new_item_action: "Izveidot Jauns vienums lieta",
     },
   },
@@ -2447,9 +2447,9 @@ export default {
         variables: {
           title: "variantu opcija",
           subtitle:
-            "Ievadiet vienums vienums Krāsa Kods, vienums.vienums., <b>#654vienums</b>, vai līmeņa krāsas vienums pēc vienums vienums, vienums.vienums., <b>#764vienums/#000000</b>.",
+            "Ievadiet heksadecimālo krāsu kodu, piemēram, <b>#654FFF</b>, vai divas krāsas, atdalot tās ar slīpsvītru, piemēram, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "vienums vienums vienums vienums Vērtība Uz Domēns vienums, vienums Attēli vienums <b>vienums vienums</b>. augšupielādēt vienums modeli un Izmantojiet Domēns Ģenerēta Kods par Domēns variantu.",
+            "Varat piešķirt jebkuru vērtību mainīgajiem lielumiem, tostarp attēliem, izmantojot <b>Graphic Assets</b>. Augšupielādējiet modeli un izmantojiet variantam ģenerēto kodu.",
           graphical_asset_action: "vienums vienums",
           graphical_asset_action_caption: "Attēli par variantu opcija.",
         },
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "vienums vienums lieta numurs (GTIN)",
             message:
-              "vienums vienums: UPC (12 vienums), EAN (13 vienums), JAN (8 vai 13 vienums), ISBN (13 vienums).",
+              "Atbalstītie formāti: UPC (12 cipari), EAN (13 cipari), JAN (8 vai 13 cipari), ISBN (13 cipari).",
           },
         },
       },
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Gatavošanas laiks",
     lead_time: "Gatavošanas laiks",
     lead_time_subtitle:
-      "vienums Laiks vienums Domēns Ilgums vienums Uz vienums vienums Produkts par Piegāde, vienums vienums vienums vienums Domēns Piegāde Laiks.",
+      "Izpildes laiks nosaka ilgumu, kas nepieciešams produkta sagatavošanai nosūtīšanai, kas palīdz novērtēt piegādes laiku.",
 
     lead_time_dimension: "Stunda(s)",
     bulk_action: "Lielapjoma darbības",
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b>vienums apstiprinu vienums:</b><br />augšupielādēt modeli vai lieta Attēli šeit. Uz Izmantojiet vienums Attēli kā vienums variantu opcija, vienums <b>{filename}</b> vienums Domēns variantu Vērtība. Piezīme vienums vienums Kods Nevar vienums Lietots vienums Domēns <b><s>Krāsa</s></b> Vērtība.",
       how_set_name:
-        "<b>vienums padomi:</b><br />Domēns pirmais 12 vienums vienums Domēns augšupielādēto fails Vārds vienums vienums Lietots kā Domēns vienums Vārds. vienums Līdzekļa ir vienums par vienums vienums vienums vienums vienums Produkts, vienums kā vienums vienums par vienums vai audumu vienums. Uz vienums Domēns Izmantojiet vienums vienums Līdzekļa, vienums vienums variantu Attēli šeit vienums Domēns numurs vienums vienums vienums ir vienums vienums 100, vienums kā vienums Koka Veidi par Mēbeles.",
+        "<b>Padomi par nosaukumu piešķiršanu:</b><br />Augšupielādētā faila nosaukuma pirmās 12 rakstzīmes tiks izmantotas kā līdzekļa nosaukums. Šī funkcija ir ideāli piemērota, lai parādītu pielāgojamus produkta aspektus, piemēram, motociklu riepu izmērus vai auduma rakstus. Lai optimizētu šīs funkcijas izmantošanu, izvairieties no attēlu variantu augšupielādes šeit, ja vien grafisko līdzekļu skaits nav mazāks par 100, piemēram, dažādu veidu mēbelēm.",
     },
   },
 
@@ -2609,7 +2609,7 @@ export default {
     },
     restore_dialog: {
       title: "vienums variantu",
-      message: "ir vienums vienums vienums vienums Uz vienums vienums Izdzēsts variantu?",
+      message: "Vai tiešām vēlaties atjaunot šo dzēsto variantu?",
       action: "jā, vienums tūlīt",
     },
     notifications: {
@@ -2815,7 +2815,7 @@ export default {
       currency_step: {
         title: "Izvēlieties vienums Valūta",
         subtitle:
-          "vienums Uz vienums Domēns numurs vienums valūtas vienums sava veikals Uz vienums Minimālais—vienums vienums vienums 3. vienums 💳 Apmaksa Vārti vienums process Darījumi vienums vienums vienums Valūta.",
+          "Centieties samazināt valūtu skaitu savā veikalā līdz minimumam — ideālā gadījumā mazāk nekā 3. Lielākā daļa maksājumu vārtejas var apstrādāt darījumus gandrīz jebkurā valūtā.",
         add_first_currency: {
           subtitle: "vienums pievienot vienums Valūta Uz sava Veikals iepriekš vienums.",
           title: "Pievienot valūtu",
@@ -2835,7 +2835,7 @@ export default {
       request_add_new_gateway: {
         title: "Nepalaidiet vienums sava Vēlamais 💳 Apmaksa veids?",
         subtitle:
-          "vienums sava vienums 💳 Apmaksa vienums vienums vienums, vienums Uz vienums Ik gadu Plānot (vienums vienums par vienums) un Lūdziet vienums vienums. vienums Pilnīga apstiprinu vienums 48 laiks vienums vienums testa Konts un vienums ir vienums.",
+          "Ja jūsu vietējais maksājumu pakalpojumu sniedzējs nav norādīts sarakstā, abonējiet jebkuru gada plānu (tostarp Startup par pieņemamu cenu) un pieprasiet integrāciju. Mēs to pabeigsim 48 stundu laikā, ja tiks nodrošināts testa konts un dokumentācija.",
       },
 
       inputs: {
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "Auto Pievienojiet",
           false_description:
-            "Domēns vienums vienums vienums Pievienojiet Uz Domēns Vārteja vienums vienums vienums vienums vienums vienums Vārteja vienums vienums.",
+            "Sistēma automātiski izveidos savienojumu ar vārteju, ja jums jau ir konfigurēta vārteja.",
         },
       },
     },
@@ -3078,14 +3078,14 @@ export default {
     },
     parent: {
       subtitle:
-        "vienums Kategorija vienums vienums vienums vienums Vecāku Kategorija. vienums vienums Produkts vienums’vienums vienums vienums Vecāku Kategorija, apstiprinu vienums vienums vienums vienums Domēns Galvenās Kategorija.",
+        "Šī kategorija parādīsies zem tās vecākkategorijas. Ja produktam nav galvenās kategorijas, tas tiks parādīts galvenajā kategorijā.",
     },
     template: {
       title: "Veidne",
       edit_page: "Rediģēt lapa",
       Pages_list: "lapa Saraksts",
       subtitle:
-        "vienums vienums vienums Domēns vienums vienums sava Kategorija lapa pēc vienums vienums Pielāgots lapa. Domēns Labākās vienums ir Uz Izveidot Lapas ar caurspīdīgs vienums un Dizaina 1 Uz 2 vienums vienums Uz vienums Kategorija. vienums vienums vienums Saite vienums lapa Uz Vairāki Kategorijas, vienums vienums Rediģēt Uz vienums vienums Kategorija vienums.",
+        "Varat uzlabot savas kategorijas lapas attēlojumu, pārklājot pielāgotu lapu. Labākā pieeja ir izveidot lapas ar caurspīdīgu fonu un katrai kategorijai noformēt 1–2 sadaļas. Pēc tam varat saistīt vienu lapu ar vairākām kategorijām, izmantojot dinamisku saturu, lai pielāgotu katru kategoriju atsevišķi.",
     },
     critical_zone: {
       title: "vienums zona",
@@ -3160,7 +3160,7 @@ export default {
       inputs: {
         spec: {
           message:
-            "Saraksts vienums funkcijas vienums vienums vienums Uz vienums vienums vienums Domēns Filtrs sadaļas",
+            "To funkciju saraksts, kuras vēlaties rādīt filtra sadaļā",
           placeholder: "Izvēlieties vienums Uz rādīt vienums Filtrs...",
         },
       },
@@ -3333,7 +3333,7 @@ export default {
       options: {
         title: "opcija",
         subtitle:
-          "vienums vienums vienums Uz Atcelt sava 🛍️ Pasūtiet vienums, vienums vienums Izmantojiet vienums opcija.",
+          "Ja vēlaties nekavējoties atcelt pasūtījumu, varat izmantot šo iespēju.",
       },
 
       express_input: {
@@ -3342,7 +3342,7 @@ export default {
         true_description:
           "vienums opcija vienums Atcelt sava 🛍️ Pasūtiet vienums un Atjaunināt Domēns Inventārs vienums vienums.",
         false_description:
-          "vienums opcija vienums Atcelt sava 🛍️ Pasūtiet pēc 48 laiks. vienums vienums, Preces vienums vienums vienums un Nevar vienums Pirkuma pēc vienums.",
+          "Šī opcija atcels jūsu pasūtījumu pēc 48 stundām. Līdz tam preces tiks rezervētas, un tās nevarēs iegādāties citi.",
       },
     },
 
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "vienums Darbības",
       subtitle:
-        "pēc vienums vienums vienums, vienums vienums Uz Saņemt vienums Maksājumi No sava Klienti.",
+        "Veicot šīs darbības, jūs sāksit saņemt faktiskos maksājumus no saviem klientiem.",
       action_enable: "Noklikšķiniet Uz Iespējot apstiprinu",
       make_live_enable: "Noklikšķiniet Uz Tiešraide apstiprinu",
     },
@@ -3712,7 +3712,7 @@ export default {
 
     manual_title: "vienums / Auto vienums 💳 Apmaksa",
     manual_message:
-      "kad vienums Izveidot vienums 💳 Apmaksa, vienums vienums vienums vienums vienums uz vienums Piemēroti 💳 Apmaksa veids Uz Rezervējiet vienums vienums vienums vienums vienums vienums. par vienums, vienums vienums vienums vienums 💳 Apmaksa vienums Pilns iepriekš vienums vienums vienums, vienums vienums Domēns naudu kad Domēns vienums vienums vienums.",
+      "Kad veidojat maksājumu, varat aizturēt piemērotu maksājuma veidu, lai rezervētu līdzekļus, ko varēsit iegūt vēlāk. Piemēram, viesnīcas bieži autorizē maksājumu pilnā apjomā pirms viesa ierašanās un pēc tam saņem naudu, kad viesis izrakstās.",
 
     gateway_status: "Statuss",
     wallet: "Blockchain maks",
@@ -3750,7 +3750,7 @@ export default {
       false_title: "Auto 💳 Apmaksa apstiprinājums",
       true_title: "vienums Maksājumi un vienums apstiprinājums",
       true_description:
-        "vienums vienums vienums uz vienums 💳 Apmaksa vienums vienums Nepieciešama Uz Apstipriniet Domēns Maksājumi par vienums 🛍️ Pasūtiet Uz Mainīt vienums Statuss No Gaida Uz Apstiprināts vienums Domēns 💳 Apmaksa vienums vienums.",
+        "Aizturiet maksājumu, lai jums būtu jāpārbauda maksājumi, lai maksājumu nodrošinātāja sistēmā mainītu to statusu no gaida uz apstiprinātu.",
     },
     delete_verify_input: {
       true_title: "es vienums Uz Noņemt vienums 💳 Apmaksa veids.",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Saraksts vienums vienums vienums Pasūtījumi vienums Nepieciešama Uz vienums izpildīta pēc vienums-vienums Pakalpojumu sniedzēji.",
+      "Ārēji sinhronizēto pasūtījumu saraksts, kas jāizpilda trešo pušu pakalpojumu sniedzējiem.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,7 +4038,7 @@ export default {
     "sms-payment":
       "Sūtīt vienums 💳 Apmaksa apstiprinājums SMS Uz Domēns klients vienums {phone}.",
     "sms-ready-to-ship":
-      "Sūtīt vienums SMS Uz Domēns klients vienums vienums vienums 🛍️ Pasūtiet ir gatava Uz vienums Nosūtīts vienums {phone}.",
+      "Nosūtiet klientam SMS, paziņojot, ka viņa pasūtījums ir gatavs nosūtīšanai, izmantojot {phone}.",
     "sms-ready-to-pickup":
       "Sūtīt vienums SMS Uz Domēns klients vienums vienums vienums 🛍️ Pasūtiet ir gatava par Saņemšanas vienums {phone}.",
     "sms-order-confirmation":
@@ -4069,7 +4069,7 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "vienums vienums Produkti vienums vienums vienums Nē Filtrs.",
+      no_root_filter_message: "Jums ir produkti saknē, bet nav filtra.",
       has_root_filter_message: "vienums Iestatiet Filtri par vienums Kategorija.",
       set_filter_message: "vienums vienums Iestatiet Filtri.",
       edit_action: "Rediģēt vienums Filtri",
@@ -4085,7 +4085,7 @@ export default {
       subscription_vendor_not_support_message:
         "vienums nav vienums pārdevējs par Abonēšana Produkti! Abonēšana Produkti vienums vienums vienums vienums pārdevējs kā vienums Īpašnieks!",
       vendor_owner_not_assignable_message:
-        "vienums nav vienums vienums pārdevējs par Produkti ar vienums pārdevējs kā vienums Īpašnieks!",
+        "Nevar piešķirt pārdevēju produktiem, kuru īpašnieks ir pārdevējs!",
       category_assign_profile: "vienums profils Uz Produkti vienums Domēns Kategorija",
       category_assign_profile_subtitle: "Nodoklis, Piegāde, rokasgrāmata, atgriešana,...",
       bulk_discount: "Lielapjoma Atlaide",
@@ -4121,7 +4121,7 @@ export default {
       title: "vienums Darbības",
       message: "vienums vienums Atjaunināt Domēns pārdevējs 🛍️ Pasūtiet Statuss manuāli.",
       guides: [
-        "pārdevēji ar vienums Piekļuve vienums Atjaunināt vienums izpildes (vienums-Pasūtījumi) vienums vienums vienums Mērinstrumentu panelis.",
+        "Pārdevēji ar paneļa piekļuvi var atjaunināt savu izpildi (apakšpasūtījumus) savā īpašajā informācijas panelī.",
         "vienums Domēns pārdevējs vienums Nē vienums Piekļuve, Domēns pārdevējs 🛍️ Pasūtiet Statuss vienums vienums veiksmīgi vienums pēc vienums Domēns vienums Statuss.",
         "vienums vienums Atjaunināt pārdevējs Pasūtījumi manuāli.",
       ],
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "vienums vienums",
     subtitle:
-      "vienums ir Domēns Saraksts vienums Lietotāji vienums vienums Piekļuve Uz sava pārdevējs vienums. vienums vienums pievienot Jauns vienums vienums un vienums vienums Atļaujas šeit.",
+      "Šis ir to lietotāju saraksts, kuriem ir piekļuve jūsu piegādātāja panelim. Šeit varat pievienot jaunus komandas dalībniekus un pielāgot viņu atļaujas.",
     add_action: "pievienot Jauns Dalībnieku",
     pending: {
       title: "Gaida vienums",
-      message: "Skatīt Domēns Saraksts vienums vienums vienums ir Gaida vienums.",
+      message: "Skatiet to ielūgumu sarakstu, kuri gaida pieņemšanu.",
     },
   },
 
@@ -4217,7 +4217,7 @@ export default {
       },
       update_success: {
         title: "Dalībnieku veiksmīgi",
-        message: "Domēns vienums vienums informācija vienums vienums atjaunināts veiksmīgi.",
+        message: "Komandas dalībnieka informācija ir veiksmīgi atjaunināta.",
       },
     },
     actions: {
@@ -4232,7 +4232,7 @@ export default {
     list: {
       title: "💸 Vēsture",
       subtitle:
-        "vienums vienums Skatīt sava 💸 Vēsture šeit. vienums vienums vienums vienums vienums manuāli vienums Banka vienums vai vienums vienums 💳 Apmaksa Pakalpojumi vienums Piedāvājums 💸 iespējas.",
+        "Šeit varat skatīt savu izmaksu vēsturi. Šīs izmaksas var apstrādāt manuāli, izmantojot bankas pārskaitījumu vai automātiski, izmantojot maksājumu pakalpojumus, kas piedāvā izmaksu iespējas.",
     },
     connect: {
       title: "Pievienojiet Banka",
@@ -4244,7 +4244,7 @@ export default {
       option: {
         title: "pārdevējs Darbības",
         subtitle:
-          "vienums vienums Domēns opcija Uz Pieņemt vai Noraidīt vienums Pārsūtīšana. vienums Darbības vienums kā vienums vienums vienums maksājumus. vienums Apstipriniet vienums vienums vienums Saņemts Domēns vienums; vienums nav, vienums Nē Nepieciešama Uz vienums vienums Darbības.",
+          "Jums ir iespēja pieņemt vai noraidīt šo pārsūtīšanu. Šī darbība kalpo tikai kā vēsturisks ieraksts. Vienkārši apstipriniet, vai esat saņēmis līdzekļus; ja nē, nekādas darbības nav jāveic.",
       },
       inputs: {
         verify: {
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "vienums 🛍️ Pasūtiet",
     subtitle:
-      "<b>vienums! </b>vienums vienums Darbības vienums vienums vienums vienums Darījums vienums Domēns vienums Maks un vienums Domēns vienums Summa No apstiprinu. Domēns Summa Nevar vienums Domēns vienums Kopā Darījumi par Domēns izvēlētās 🛍️ Pasūtiet. vienums, vienums vienums vienums vienums vienums Uz Savienots Banka Konti (vienums kā ar Stripe Pievienojiet vai vienums vienums Pārsūtīšana), vienums vienums Izveidot vienums <b>vienums Pārsūtīšana</b>.",
+      "<b>Svarīgi! </b>Izpildot šo darbību, pārdevēja makā tiks ģenerēts negatīvs darījums un no tā tiks atņemta izvēlētā summa. Summa nedrīkst pārsniegt atlikušo kopējo darījumu skaitu atlasītajam pasūtījumam. Turklāt, ja līdzekļi ir pārskaitīti uz saistītajiem bankas kontiem (piemēram, izmantojot Stripe Connect vai manuālo pārskaitījumu), jums ir jāizveido <b>atgriezenisks pārskaitījums</b>.",
     inputs: {
       note: {
         message: "vienums vienums Uz Domēns pārdevējs.",
-        placeholder: "vienums vienums vienums vienums Piezīme šeit...",
+        placeholder: "Šeit varat pievienot piezīmi...",
       },
       amount: {
-        error_message: "Domēns vienums Summa vienums vienums vienums.",
+        error_message: "Atlikusī summa ir pārsniegta.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "vienums vienums vienums Pārskats vienums Domēns Darījumi vienums Domēns vienums Virtuālie Maks uz Domēns Tirgus laukums. vienums vienums 🛍️ Pasūtiet ir vienums, Domēns vienums vienums vienums Domēns Izpārdošana ir piekļuve Uz vienums Maks.",
+      "Tas sniedz pārskatu par darījumiem pārdevēja virtuālajā makā tirgū. Ikreiz, kad tiek veikts pasūtījums, pārdevēja daļa no pārdošanas tiek pievienota viņa makam.",
     vendor_wallets: "pārdevējs Maki",
     my_wallets: "Mans maks",
     refund_order_action: "vienums 🛍️ Pasūtiet",
     automatic_payout_list: {
       subtitle:
-        "vienums ir vienums Saraksts vienums vienums vienums Uz sava Savienots Banka Konts. vienums Piezīme vienums maksājumus vienums vienums vienums vienums vienums šeit, un vienums vienums vienums nav vienums vienums.",
+        "Šis ir saraksts ar automātiskajām izmaksām uz jūsu pievienoto bankas kontu. Lūdzu, ņemiet vērā, ka šeit tiks rādītas tikai automātiskās izmaksas, bet manuālās izmaksas netiks rādītas.",
     },
     reversal_transfer_action: "vienums Pārsūtīšana",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "vienums vienums sadaļas, vienums vienums Skatīt Domēns Laika skala vienums Pasākumi vienums Uz Domēns 🛍️ Pasūtiet, izpildes, 💳 Apmaksa, un vienums vienums vienums. vienums, vienums vienums vienums Domēns Pasūtījumi vienums Uz vienums Klienti un pārdevēji.",
+      "Šajā sadaļā varat apskatīt ar pasūtījumu, izpildi, apmaksu saistīto notikumu laika grafiku un to attiecīgos statusus. Turklāt jūs varat novērot pasūtījumus, kas tiek nosūtīti gan klientiem, gan pārdevējiem.",
     add_note_subtitle: "Raksti vienums Ziņa un vienums sava vienums.",
 
     message_input: "Raksti ziņu šeit...",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "vienums",
-      description: "vienums Darbības jomas nav vienums vienums Domēns vienums.",
+      description: "Sistēmā nav definēti dažādi tvērumi.",
     },
     vendor: {
       title: "pārdevējs",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Pirkuma vēsture",
       subtitle:
-        "Aktīvās un neapstiprinātās licences.",
+        "Šis ir aktīvo un neapstiprināto licenču saraksts. Jūs varat iegādāties darījumus pēc sava maka finansēšanas. Turklāt, lūdzu, ņemiet vērā, ka, atceļot abonementu, atlikušā abonēšanas summa tiks atgriezta jūsu virtuālajā makā.",
     },
     license_detail: {
       title: "Sīkāka informācija",
       subtitle:
-        "Jūsu pašreizējā plāna ierobežojumi.",
+        "Šie ir jūsu pašreizējā plāna ierobežojumi. Lai iegūtu sīkāku informāciju, lūdzu, apmeklējiet cenu lapu. Varat piekļūt visām funkcijām visos plānos, tostarp bezmaksas plānam, lai sāktu savu biznesu un attīstītos. Paplašinot savu biznesu, apsveriet iespēju pāriet uz augstāka līmeņa plānu, lai samazinātu pakalpojumu maksu.",
     },
 
     table: {
@@ -5739,7 +5739,7 @@ export default {
       auto_renewal: {
         true_title: "Automātiskā atjaunošana",
         true_description:
-          "sava Abonēšana vienums vienums vienums vienums sava Maks vienums vienums Līdzsvars vai vienums vienums vienums vienums Derīgi kuponu.",
+          "Jūsu abonements tiks automātiski atjaunots, ja makā būs pietiekams atlikums vai ja jums ir derīgs kupons.",
       },
       options: {
         title: "Papildu opcija",
@@ -5836,7 +5836,7 @@ export default {
     sku_dialog: {
       title: "pievienot Produkts pēc SKU",
       subtitle:
-        "vienums vienums Domēns vienums Uz vienums Produkti pēc vienums SKU vienums vienums vienums un pievienot vienums ar vienums vienums Viens Noklikšķiniet.",
+        "Jums ir iespēja mūsu datubāzē atrast produktus pēc to SKU un pievienot tos tikai ar vienu klikšķi.",
     },
     dropshipping_dialog: {
       title: "pievienot dropshipping Produkti",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "šeit, vienums vienums Atrodiet vienums vienums Saraksts vienums Produkti uz Selldone, vienums vienums Pieejams par Citas vienums. vienums vienums-vienums dropshipping vienums vienums Domēns process, vienums apstiprinu vienums un vienums par vienums vienums un vienums.",
+      "Šeit varat atrast vairumtirgotājus, kuri uzskaita savus produktus vietnē Selldone, padarot tos pieejamus citiem tirgotājiem. Selldone iebūvētā dropshipping platforma vienkāršo procesu, padarot to vienkāršu un saprotamu gan vairumtirgotājiem, gan tirgotājiem.",
   },
 
   /** @see Affiliates **/
@@ -5909,13 +5909,13 @@ export default {
     restriction: {
       title: "Komisija vienums",
       subtitle:
-        "vienums vienums Produkti ir Piemēroti par Komisija. vienums vienums vienums vienums Uz vienums Produkti.",
+        "Nosakiet, kuri produkti ir tiesīgi saņemt komisijas maksu. Jūs varat ierobežot komisijas maksu par noteiktiem produktiem.",
     },
 
     link_domain: {
       title: "saistītos Domēns",
       subtitle:
-        "Saite vienums vienums sava Domēni Uz vienums Filiāle partneris. apmeklētāji vienums Pirkt vienums vienums Domēns vienums vienums vienums Uz vienums Filiāle.",
+        "Saistiet kādu no saviem domēniem ar šo saistīto partneri. Apmeklētāji, kuri iepērkas, izmantojot šo domēnu, tiks attiecināti uz šo filiāli.",
 
       domain_not_approved_msg: "Domēns Domēns vienums nav vienums vienums pirkuma!",
       domain_is_not_enable_msg: "Domēns Domēns ir nav iespējota!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "vienums",
       subtitle:
-        "vienums vienums Filiāle ar vienums vienums Uz Pārvaldiet apstiprinu vienums Citas Resursi vienums vienums vienums.",
+        "Saistiet šo filiāli ar kopu, lai pārvaldītu to kopā ar citiem resursiem vienuviet.",
       manage_action: "Pārvaldiet",
     },
 
@@ -5940,23 +5940,23 @@ export default {
     inputs: {
       name: {
         label: "Filiāle partneris Vārds",
-        message: "vienums.vienums., vienums vienums, vienums Uzņēmums, X vienums, vienums.",
+        message: "piemēram, John Doe, Alex Company, X Marketers utt.",
       },
       commission: {
         label: "Komisija aprēķins",
         false_description:
-          "Aprēķināt vienums vienums vienums vienums Fiksēta un procents vienums.",
+          "Aprēķiniet, izmantojot fiksētās un procentuālās komisijas kombināciju.",
         true_description:
-          "Aprēķināt vienums Produkts-vienums vienums Iestatiet vienums Domēns Cenu noteikšana vienums.",
+          "Aprēķiniet, izmantojot produktam specifiskās komisijas maksas, kas iestatītas cenu cilnē.",
         false_title: "Fiksēta + procents Komisija",
         true_title: "Produkts-pamatojoties Komisija",
       },
       user: {
         label: "Lietotājs (vienums)",
-        message: "vienums, vienums.vienums., Filiāle Vārds vienums Selldone",
+        message: "Neobligāts, piemēram, partneruzņēmuma nosaukums pakalpojumā Selldone",
       },
       web: {
-        placeholder: "vienums, vienums.vienums., Filiāle-tīmekļa.vienums",
+        placeholder: "Neobligāti, piemēram, affiliate-web.com",
       },
       address: {
         placeholder: "vienums, vienums.vienums., 1200 vienums, NY, vienums US",
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "vienums vienums vienums Pasūtījumi vienums par vienums Klienti vienums vienums vienums.",
+          "Filiāles var veikt pasūtījumus tieši saviem klientiem, izmantojot savu paneli.",
         true_title: "POS Piekļuve",
       },
       enable: {
         true_description:
-          "ir vienums Filiāle vienums Aktīvs? vienums neaktīvs, vienums Filiāle vienums vienums Uzklājiet Uz Pasūtījumi vienums vienums vienums Saite.",
+          "Vai šī filiāle pašlaik ir aktīva? Ja tā ir neaktīva, viņu saistītā programma netiks piemērota pasūtījumiem, kas veikti, izmantojot saiti.",
       },
       products: {
         label: "Produkti Piemēroti par Komisija",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "vienums vienums vienums vienums vienums vienums ar Domēns Filiāle iepriekš vienums vienums No sava Veikals. Filiāle informācija vienums vienums vienums par vienums Ierobežota Laiks pēc vienums.",
+        "Jūs varat nokārtot visus nenokārtotos parādus ar filiāli, pirms tos izņemat no sava veikala. Pēc dzēšanas saistītā informācija būs pieejama ierobežotu laiku.",
     },
   },
 
@@ -6006,11 +6006,11 @@ export default {
       "vienums vienums novērtēšana (vienums Cenu noteikšana Ievade forma) Uz vienums Produkts, vienums Klienti Uz Izvēlieties Varianti vai vienums sava Preču. Domēns vienums vienums vienums Aprēķināt Domēns cena pamatojoties uz Domēns Pielāgots Ievades.",
     add_valuation_action: "Izveidot Jauns novērtēšana forma",
     empty_message:
-      "vienums vienums vienums Vairāki Varianti, vienums vienums vienums novērtēšana vienums vienums vienums vienums vienums Uz vienums Vienkārši Produkts.",
+      "Tā vietā, lai izveidotu vairākus variantus, apsveriet iespēju izstrādāt vērtēšanas stratēģiju, ko var piemērot vienkāršam produktam.",
     delete_dialog: {
       title: "vienums Noņemt",
       message:
-        "ir vienums vienums vienums vienums Uz Dzēst vienums Cenu noteikšana forma? vienums vienums vienums vienums Pielāgots Cenu noteikšana vienums ir noņemts No visi vienums Produkti pirmais.",
+        "Vai tiešām vēlaties dzēst šo cenu veidlapu? Lūdzu, vispirms nodrošiniet, lai šī pielāgotā cenu stratēģija tiktu noņemta no visiem saistītajiem produktiem.",
       action: "Jā, dzēst tūlīt",
     },
     notifications: {
@@ -6033,7 +6033,7 @@ export default {
     title_add: "Izveidot Jauns novērtēšana forma",
     config: {
       subtitle:
-        "Iestatiet vienums vienums novērtēšana vienums Uz Izveidot vienums Cenu noteikšana vienums vienums un vienums vienums par sava Produkti. Sākt pēc vienums vienums novērtēšana vienums unikālais Vārds.",
+        "Iestatiet vērtēšanas sistēmu, lai izveidotu elastīgu cenu noteikšanu, izmantojot formulas un atsauces tabulas saviem produktiem. Sāciet, piešķirot šim vērtējumam unikālu nosaukumu.",
     },
     valuation_preview: "Priekšskatījums novērtēšana forma",
     load_sample: "vienums veikalu",
@@ -6179,15 +6179,15 @@ export default {
       duration: {
         title: "Ilgums Ierobežot",
         subtitle:
-          "vienums vienums vienums Uz vienums vienums vienums vienums par vienums vienums vienums, vienums vienums vienums vienums Ilgums šeit.",
+          "Ja vēlaties aktivizēt atlaides kodu noteiktam laika periodam, varat noteikt šo ilgumu šeit.",
       },
       design: {
         subtitle:
-          "vienums vienums Iestatiet vienums Nosaukums un Apraksts par vienums vienums vienums. vienums Sīkāka informācija vienums vienums vienums Uz Domēns Lietotājs.",
+          "Katram atlaides kodam varat iestatīt nosaukumu un aprakstu. Šī informācija tiks parādīta lietotājam.",
       },
       cluster: {
         subtitle:
-          "pēc vienums vienums vienums vienums ar vienums vienums, vienums vienums vienums Pārvaldiet apstiprinu vienums Citas Resursi vienums vienums Viens Atrašanās vieta.",
+          "Saistot šo atlaides kodu ar kopu, varat to viegli pārvaldīt kopā ar citiem resursiem vienā vietā.",
       },
     },
     delete_alert: {
@@ -6320,16 +6320,16 @@ export default {
     },
     limit: {
       subtitle:
-        "vienums vienums sadaļas, vienums vienums Uz Iestatiet vienums Domēns Maksimālais numurs vienums vienums par Kupons un Domēns vienums Atlaide Summa vienums Kupons vienums vienums.",
+        "Šajā sadaļā varat iestatīt gan maksimālo izlietojumu skaitu vienam kuponam, gan lielāko atlaides summu, ko katrs kupons var nodrošināt.",
       zero_message: "vienums: vienums ir Nē Ierobežot!",
     },
     duration: {
       subtitle:
-        "vienums vienums vienums Uz Iestatiet vienums vienums vienums par vienums Kupons Uz vienums Aktīvs, vienums vienums Konfigurēt Domēns Ilgums vienums vienums sadaļas.",
+        "Ja vēlaties iestatīt noteiktu laika periodu, kurā kupons ir aktīvs, varat konfigurēt ilgumu šajā sadaļā.",
     },
     design: {
       subtitle:
-        "vienums Kupons vienums par Domēns vienums vienums vienums Nosaukums un Apraksts. vienums Sīkāka informācija vienums vienums vienums Uz Domēns klients.",
+        "Katram kuponam var pievienot nosaukumu un aprakstu. Šie dati būs redzami klientam.",
     },
     constraints: {
       subtitle:
@@ -6340,11 +6340,11 @@ export default {
     },
     club: {
       subtitle:
-        "vienums vienums Izmantojiet vienums vienums Ierobežots vienums Uz vienums vienums vienums klients klubus.",
+        "Šo kuponu var izmantot tikai izvēlēto klientu klubu dalībnieki.",
     },
     cluster: {
       subtitle:
-        "pēc vienums vienums Kupons ar vienums vienums, vienums vienums vienums Pārvaldiet apstiprinu vienums Citas Resursi vienums vienums Viens Atrašanās vieta.",
+        "Saistot šo kuponu ar kopu, varat to viegli pārvaldīt kopā ar citiem resursiem vienā vietā.",
     },
     preview: {
       subtitle: "vienums Domēns Publisks Priekšskatījums vienums Domēns Kupons.",
@@ -6422,14 +6422,14 @@ export default {
     },
     config: {
       subtitle:
-        "vienums vienums vienums vienums piedāvājums pēc vienums vienums Nosaukums, Apraksts, un Publisks vienums Statuss.",
+        "Sāciet izstrādāt viedo darījumu, nosakot tā nosaukumu, aprakstu un publiskās pieejamības statusu.",
     },
     limit: {
       subtitle: "Iestatiet Domēns Maksimālais lietojums Ierobežot par vienums Piedāvājums vienums vienums sadaļas.",
     },
     duration: {
       subtitle:
-        "vienums vienums vienums Uz Iestatiet vienums vienums vienums par vienums Piedāvājums, vienums vienums Konfigurēt Domēns Ilgums šeit.",
+        "Ja vēlaties iestatīt konkrētu piedāvājuma termiņu, šeit varat konfigurēt ilgumu.",
     },
     constraints: {
       subtitle:
@@ -6438,11 +6438,11 @@ export default {
     discounted_products: {
       title: "vienums Produkti",
       subtitle:
-        "vienums vienums vienums Domēns Produkti Uz vienums vienums Piedāvājums vienums Uzklājiet vienums Atlaide.",
+        "Jūs varat norādīt preces, kurām šis piedāvājums piemēros atlaidi.",
     },
     cluster: {
       subtitle:
-        "pēc vienums vienums Piedāvājums ar vienums vienums, vienums vienums vienums Pārvaldiet apstiprinu vienums Citas Resursi vienums vienums Viens Atrašanās vieta.",
+        "Saistot šo piedāvājumu ar kopu, varat to viegli pārvaldīt kopā ar citiem resursiem vienā vietā.",
     },
   },
 
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "vienums klients Pirkumi ar vienums vienums vienums vienums sava veikals. Iestatiet vienums balvas un vienums vienums par Klienti vienums vienums vienums vienums Pirkumi. vienums vienums vienums vienums 10 vienums, un vienums vienums Piedāvājums Īpašais balvas par pirmais-Laiks vienums. Domēns Noklusējums vienums ir Riteņu vienums vienums, vienums vienums vienums vienums apstiprinu Uz vienums sava vienums vienums.",
+        "Palieliniet pircēju pirkumus, izmantojot spēlēšanas pieredzi savā veikalā. Iestatiet balvas un laimestu izredzes klientiem, kuri nopelna žetonus, veicot pirkumus. Katra spēle maksā 10 žetonus, un jūs varat piedāvāt īpašas balvas pircējiem pirmo reizi. Noklusējuma spēle ir Wheel of Fortune, taču varat to pielāgot, lai tā atbilstu sava veikala izkārtojumam.",
     },
     empty_prize_list: "Izveidot un Pārvaldiet balvas šeit...",
   },
@@ -6621,7 +6621,7 @@ export default {
         "šeit, vienums vienums Domēns opcija Uz Izvēlieties vienums Attēls un Krāsa par Domēns balvu.",
     },
     constraints: {
-      subtitle: "vienums Domēns vienums un vienums par vienums vienums balvu.",
+      subtitle: "Norādiet kritērijus un ierobežojumus šīs balvas iegūšanai.",
     },
     prize: {
       title: "balvu",
@@ -7047,9 +7047,9 @@ export default {
         subtitle: "vienums vienums Uz vienums Domēns vienums.",
         sample_files: "veikalu faili",
         valid_vendor_name_needed:
-          "vienums vienums vienums vienums <b>Derīgi Vārds</b>. Domēns <b>Vārds</b> ir Lietots Uz vienums vienums Uz <i>Izveidot</i> vienums Jauns pārdevējs vai <i>Atjaunināt</i> vienums vienums vienums.",
+          "Jums ir jānorāda <b>derīgs nosaukums</b>. <b>nosaukums</b> tiek izmantots, lai noteiktu, vai <i>Izveidot</i> jaunu piegādātāju vai <i>Atjaunināt</i> esošu.",
         assign_user_after_import:
-          "pēc vienums pārdevēji, vienums vienums manuāli vienums vienums Lietotājs Uz vienums vienums Piekļuve Uz Domēns pārdevējs vienums.",
+          "Pēc piegādātāju importēšanas varat manuāli piešķirt lietotāju, lai tas viņam piešķirtu piekļuvi piegādātāja panelim.",
       },
       need_kyc_alert:
         "vienums Nepieciešama Uz Apstipriniet sava Personīga informācija iepriekš vienums pārdevēji.",
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "darba pārdevēji vienums",
     title: "pārdevējs Lūdziet Saraksts",
     subtitle:
-      "vienums ir vienums Saraksts vienums Pieprasījumi No vienums vienums vienums vienums Uz vienums pārdevēji vienums sava Tirgus laukums.",
+      "Šis ir to personu pieprasījumu saraksts, kuras ir pieteikušās kļūt par pārdevējiem jūsu tirgū.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,12 +7088,12 @@ export default {
     marketplace: {
       title: "Tirgus laukums",
       subtitle:
-        "vienums Domēns Tirgus laukums vienums vienums ATLAIDI vienums vienums. vienums vienums vienums Uz vienums vienums sava vienums Tirgus laukums, vienums vienums vienums sava veikals vienums Domēns Iestatījumi.",
+        "Atspējojot tirgus laukumu, tiks izslēgtas dažas funkcijas. Ja vēlaties slēgt visu savu tirgu, iestatījumos ir jāatspējo veikals.",
     },
     distribution_model: {
       title: "vienums modelis",
       subtitle:
-        "vienums vienums vienums vienums vienums vienums vienums. vienums vienums vienums pārdevēji Uz vienums Preces vienums Uz vienums vai vienums Pasūtījumi plkst sava Noliktava par Piegāde, vienums vienums Izvēlieties Domēns modelis vienums Labākās vienums sava vienums šeit.",
+        "Tirgus var darboties dažādos izplatīšanas modeļos. Neatkarīgi no tā, vai vēlaties, lai pārdevēji preces nosūtītu tieši pircējiem vai apvienotu pasūtījumus jūsu noliktavā nosūtīšanai, šeit varat izvēlēties modeli, kas vislabāk atbilst jūsu vajadzībām.",
     },
     access: {
       title: "pārdevējs Piekļuve",
@@ -7112,7 +7112,7 @@ export default {
     documents: {
       title: "vienums",
       subtitle:
-        "vienums vienums vienums sava pārdevēji Uz augšupielādēt vienums vai vienums vienums vienums. vienums Domēns vienums vienums šeit.",
+        "Varat pieprasīt saviem pārdevējiem augšupielādēt dokumentus vai parakstīt noteiktus līgumus. Šeit norādiet nepieciešamos dokumentus.",
       add_document_action: "pievienot vienums Lūdziet",
     },
     inputs: {
@@ -7128,7 +7128,7 @@ export default {
         false_description:
           "vienums pievienot Produkti un vienums pārdevēji. pārdevēji vienums maksājumus Pārvaldiet cena un Inventārs.",
         true_description:
-          "pārdevēji vienums pievienot un Pārvaldiet vienums vienums Produkti vienums vienums vienums pārdevējs vienums.",
+          "Pārdevēji var pievienot un pārvaldīt savus produktus tieši savā piegādātāju panelī.",
       },
       need_verify: {
         label: "Produkts verifikācija Plūsma",
@@ -7144,7 +7144,7 @@ export default {
         false_description:
           "vienums pievienot Kategorijas. pārdevēji vienums maksājumus pievienot Produkti Uz vienums Kategorijas.",
         true_description:
-          "pārdevēji vienums pievienot un Pārvaldiet Kategorijas vienums vienums vienums pārdevējs vienums.",
+          "Pārdevēji var pievienot un pārvaldīt kategorijas tieši savā piegādātāju panelī.",
       },
       shipping: {
         label: "Piegāde opcija",
@@ -7152,7 +7152,7 @@ export default {
         false_description:
           "pārdevēji Nevar pievienot vai vienums vienums Piegāde metodes.",
         true_description:
-          "pārdevēji vienums Iestatiet vienums vienums vienums Piegāde metodes, pievienot Kurjeri, un vienums Piegāde par vienums vienums.",
+          "Pārdevēji var iestatīt savas piegādes metodes, pievienot kurjerus un pielāgot piegādi savām vajadzībām.",
       },
       hidden_customer: {
         label: "rādīt Pircēja Sazināties informācija",
@@ -7162,7 +7162,7 @@ export default {
       },
       multi: {
         false_description:
-          "A Lietotājs vienums vienums maksājumus vienums pārdevējs Konts. Lietotāji vienums vienums vienums Uz vienums vienums plkst /pārdevēji.",
+          "Lietotājam var būt tikai viens piegādātāja konts. Lietotāji tiks novirzīti uz viņu paneli vietnē /vendors.",
         true_description:
           "A Lietotājs vienums vienums Vairāki pārdevējs Konti. vienums ir vienums Beta Līdzekļa; vienums Sazināties mums iepriekš vienums apstiprinu.",
         true_title: "vienums-pārdevējs režīms",
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "vienums Tips",
         subtitle:
-          "pievienot vienums vienums Lūdziet lieta šeit. apstiprinu vienums vienums vienums Domēns vienums vienums, vienums vienums Uz augšupielādēt Domēns vienums vienums.",
+          "Šeit pievienojiet dokumenta pieprasījuma vienumu. Tas parādīsies pārdevēja panelī, aicinot augšupielādēt nepieciešamo dokumentu.",
       },
       guide: {
         title: "rokasgrāmata",
         subtitle:
-          "vienums vienums vienums rokasgrāmata Uz Palīdzības pārdevēji vienums vienums vienums Uz augšupielādēt un vienums Uz lietu apstiprinu vienums.",
+          "Sniedziet īsu ceļvedi, lai palīdzētu pārdevējiem saprast, kurus dokumentus augšupielādēt un kā to izdarīt pareizi.",
       },
       code: {
         title: "Iegult Kods",
         subtitle:
-          "vienums Domēns Iegult Kods par vienums vienums, forma, vai vienums vienums Domēns pārdevējs vienums vienums.",
+          "Ielīmējiet iegulšanas kodu dokumentam, veidlapai vai līgumam, kas pārdevējam ir jāparaksta.",
       },
       link: {
         title: "ārējās Saite",
         subtitle:
-          "vienums vienums ārējās Saite Uz vienums vienums vai vienums vienums Domēns pārdevējs vienums vienums.",
+          "Norādiet ārēju saiti uz dokumentu vai līgumu, kas pārdevējam ir jāparaksta.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "rokasgrāmata (vienums)",
           placeholder:
-            "vienums, vienums vienums vienums rokasgrāmata vai vienums, vienums Saites Uz vienums vai Citas vienums.",
+            "Pēc izvēles sniedziet īsu ceļvedi vai instrukcijas, tostarp saites uz līgumiem vai citiem dokumentiem.",
         },
         code: {
           label: "Iegult Kods",
@@ -7266,12 +7266,12 @@ export default {
     Contract: {
       title: "vienums & vienums",
       description:
-        "augšupielādēt vienums vai vienums vienums vienums Domēns Noteikumi un Nosacījumi vienums sava Biznesa vienums.",
+        "Augšupielādējiet līgumus vai līgumus, kuros ir sīki aprakstīti jūsu biznesa attiecību noteikumi un nosacījumi.",
     },
     Copyright: {
       title: "vienums vienums",
       description:
-        "vienums vienums Reģistrācijas vienums Uz vienums sava vienums vienums vienums.",
+        "Nodrošiniet autortiesību reģistrācijas dokumentus, lai apstiprinātu savas intelektuālā īpašuma tiesības.",
     },
     Privacy: {
       title: "Privātums politika vienums",
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "vienums sadaļas vienums vienums vienums Saraksts vienums visi Darījumi par Domēns izvēlētās Maks. A Uzlādē Darījums ir vienums kad vienums klients atjaunināts vienums par vienums 🛍️ Pasūtiet. vienums vienums 🛍️ Pasūtiet ir atcelts vai vienums vienums, Domēns vienums vienums Darījums vienums vienums vienums vienums šeit.",
+      "Šajā sadaļā ir sniegts detalizēts visu atlasītā seifa darījumu saraksts. Maksas darījums tiek reģistrēts, kad klients veiksmīgi samaksā par pasūtījumu. Ja pasūtījums tiek atcelts vai daļēji atmaksāts, šeit tiks reģistrēts arī attiecīgais atmaksas darījums.",
     vendor_bank: "pārdevējs Banka",
     order_fee: "🛍️ Pasūtiet maksu Fee",
     order_refund: "🛍️ Pasūtiet vienums",
@@ -7368,7 +7368,7 @@ export default {
     vendor: {
       title: "pārdevējs",
       subtitle:
-        "Izvēlieties Domēns pārdevējs vienums vienums Uz Pārsūtīšana vienums Uz. vienums izvēlētās, Pieejams 💳 Apmaksa opcija vienums vienums vienums. vienums vienums iespējota 💸-vienums 💳 Apmaksa Vārti, vienums opcija vienums vienums vienums šeit.",
+        "Izvēlieties pārdevēju, kuram vēlaties pārskaitīt līdzekļus. Pēc izvēles tiks parādītas pieejamās maksājumu iespējas. Ja esat iespējojis maksājumu vārtejas, ar kurām var veikt izmaksu, šīs opcijas tiks parādītas arī šeit.",
     },
     vendor_wallet: "pārdevējs Maks",
     vendor_bank_account: "pārdevējs Banka Konts",
@@ -7379,11 +7379,11 @@ export default {
     bank_transfer: {
       title: "Banka Pārsūtīšana",
       subtitle:
-        "vienums ir vienums vienums vienums 💳 Apmaksa Vēsture. Nē vienums naudu vienums vienums vienums Uz Domēns pārdevējs pēc Domēns vienums; vienums vienums manuāli Maksājiet sava pārdevēji.",
+        "Šis ir maksājumu vēstures ieraksts. Sistēma pārdevējam nepārskaitīs reālu naudu; jums ir manuāli jāmaksā saviem pārdevējiem.",
     },
     vendor_bank: "pārdevējs Banka",
     gateway_in_debug_mode_warning:
-      "vienums Domēns 💳 Apmaksa Vārteja ir vienums vienums vienums režīms, vienums vienums nav vienums vienums Uz vienums vienums Konts.",
+      "Tā kā maksājumu vārteja pašlaik ir atkļūdošanas režīmā, līdzekļi netiks pārskaitīti uz reālu kontu.",
     payment: {
       title: "Maksājums",
       subtitle:
@@ -7392,12 +7392,12 @@ export default {
     history: {
       title: "Vēsture",
       subtitle:
-        "vienums vienums vienums 💳 Apmaksa vienums vienums vienums vienums vienums vienums Pārsūtīšana, vienums Domēns Līdzsvars vienums vienums vienums No Domēns vienums Konts un Atgriezās Uz sava Konts.",
+        "Daļa no šī maksājuma ir atmaksāta, veicot apgrieztu pārskaitījumu, kas nozīmē, ka atlikums ir atskaitīts no pārdevēja konta un atgriezts jūsu kontā.",
     },
     refund: {
       title: "vienums",
       subtitle:
-        "Domēns vienums Summa vienums vienums vienums No Domēns vienums Līdzsvars. visi Maksājumi (vai vienums vienums) vienums Domēns vienums Konts (Patīk Stripe Pievienojiet) vienums vienums vienums vienums vienums vienums Pārsūtīšana.",
+        "Atmaksātā summa tiks atskaitīta no pārdevēja atlikuma. Visi maksājumi (vai atlikušās summas) pārdevēja kontā (piemēram, Stripe Connect) tiks atmaksāti, izmantojot apgrieztu pārskaitījumu.",
     },
     inputs: {
       vendor: {
@@ -7421,7 +7421,7 @@ export default {
       payout_success: {
         title: "pārdevējs – 💸",
         message:
-          "Domēns vienums 💸 vienums vienums atjaunināts vienums un piekļuve.",
+          "Pārdevēja izmaksa ir veiksmīgi apstrādāta un pievienota.",
       },
     },
   },
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "kvota",
-    max_batch_msg: "Maksimālais numurs vienums Preces vienums vienums Importēt vienums vienums Viens vienums.",
-    max_daily_limit_msg: "Maksimālais numurs vienums Preces vienums vienums Importēt vienums vienums dienu.",
+    max_batch_msg: "Maksimālais vienumu skaits, ko varat importēt vienā partijā.",
+    max_daily_limit_msg: "Maksimālais vienumu skaits, ko varat importēt dienā.",
     extra_daily_limit_msg: "Papildu Preces vienums vienums Domēns Dienas Ierobežot.",
     add_items_today_msg: "Preces piekļuve Šodien.",
     file_statistic_msg: "Statistika par vienums fails.",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Tēmas krāsas",
     theme_colors_description:
-      "vienums vienums vienums Domēns Primārs Krāsa vienums vienums sava Veikals šeit. vienums Veidne vienums vienums vienums krāsas Uz vienums vienums vienums Pilnīga Krāsa diapazons vienums vienums ar sava Zīmols.",
+      "Šeit varat personalizēt sava veikala primāro krāsu paleti. Katra veidne var izmantot šīs krāsas, lai automātiski ģenerētu pilnu krāsu diapazonu, kas atbilst jūsu zīmolam.",
     products_view_mode: "Iepirkumu saraksta skats",
     products_view_mode_desc:
       "Varat pielāgot preču displeja režīmu savā veikalā, pamatojoties uz ekrāna izmēru. Šis režīms tiks uzskatīts pēc noklusējuma un netiks lietots, ja lietotājs mainīs displeja režīmu.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "vienums Nosaukums",
-      subtitle: "Domēns Augstums vienums Domēns Nosaukums vienums vienums vienums.",
+      subtitle: "Virsraksta augstums tiks dinamiski pielāgots.",
     },
 
     animation: {
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "Produkts lapa",
       subtitle:
-        "vienums sava Produkts lapa šeit. vienums vienums vienums Domēns vienums vienums Cenas un vienums Domēns vienums vienums vienums Uz uzvalku sava vienums.",
+        "Personalizējiet savu produkta lapu šeit. Varat pielāgot cenu attēlojumu un mainīt sadaļu izkārtojumu atbilstoši savām vēlmēm.",
       buy_button_color: "Pirkt poga Krāsa",
       smart_price: {
         title: "vienums Vienība cena",
@@ -7561,14 +7561,14 @@ export default {
         false_title: "Normāls režīms",
         true_title: "vienums režīms",
         false_description:
-          "Domēns Valūta vienums vienums vienums vienums plkst Domēns Sākt vienums Domēns vienums. vienums: $95, €30",
+          "Valūtas zīme tiks novietota skaitļu sākumā. Piemēram: $95, 30 eiro",
         true_description:
-          "Domēns Valūta vienums vienums vienums vienums plkst Domēns Beigas vienums Domēns vienums. vienums: 95$, 30€",
+          "Valūtas zīme tiks ievietota skaitļu beigās. Piem.: 95$ , 30€",
       },
       variants_selector: {
         title: "Varianti vienums",
         subtitle:
-          "vienums vienums Izvēlieties vienums vienums Uz vienums Varianti uz Domēns Produkts lapa.",
+          "Var izvēlēties dažādus veidus, kā preces lapā attēlot variantus.",
       },
 
       tabs_order: {
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Pielāgots Varianti",
       subtitle:
-        "Fiziski Produkti vienums vienums Varianti. vienums vienums Mainīt Domēns Noklusējums Vārds vienums Varianti. vienums vienums ir Uz vienums vienums Preces kā Noklusējums un vienums vienums vienums Selldone vienums vienums vienums vienums par sava Klienti vienums vienums valodas. Domēns Maksimālais Garums ir 24.",
+        "Fiziskiem produktiem var būt varianti. Varat mainīt variantu noklusējuma nosaukumus. Mūsu ieteikums ir atstāt šīs preces kā noklusējuma un tukšas, lai selldone automātiski tulkotu tos jūsu klientiem viņu valodās. Maksimālais garums ir 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Virsraksts Logotips",
       subtitle:
-        "pēc Noklusējums, sava vienums Logotips ir vienums vienums Domēns Virsraksts, vienums vienums vienums augšupielādēt vienums Pielāgots Logotips vienums. vienums sava Logotips vienums nav vienums vienums vienums vienums koeficients, vienums vienums Nepieciešama Uz manuāli vienums Domēns Augstums un Platums par vienums vienums.",
+        "Pēc noklusējuma jūsu veikala logotips tiek rādīts galvenē, taču tā vietā varat augšupielādēt pielāgotu logotipu. Ja jūsu logotipam nav kvadrātveida malu attiecības, iespējams, jums būs manuāli jāpielāgo augstums un platums, lai nodrošinātu optimālu prezentāciju.",
     },
     header_title: {
       title: "Virsraksts Nosaukums",
       subtitle:
-        "vienums vienums vienums Domēns Nosaukums vienums vienums Domēns Virsraksts vienums sava Lapas šeit. vienums vienums vienums Uz vienums Noņemt apstiprinu, vienums Noklikšķiniet Domēns 'Iestatiet vienums Nosaukums poga.",
+        "Šeit varat personalizēt savu lapu galvenē redzamo nosaukumu. Ja vēlaties to pilnībā noņemt, lūdzu, noklikšķiniet uz pogas Iestatīt tukšu nosaukumu.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "vienums režīms",
       description:
-        "vienums Varianti vienums vienums vienums opcija, vienums par vienums vienums.",
+        "Kompakti varianti izvēlētās atsevišķās opcijās, piemērotas lielākajai daļai gadījumu.",
     },
     select: {
       title: "Izvēlieties režīms",
       description:
-        "vienums visi Varianti vienums vienums vienums, vienums par vienums Lieli numurs vienums Varianti.",
+        "Parāda visus variantus nolaižamajā izvēlnē, kas ir ideāli piemērots lielam skaitam variantu.",
     },
   },
 
@@ -7682,7 +7682,7 @@ export default {
     variants: {
       title: "Varianti",
       subtitle:
-        "vienums vienums vienums Domēns variantu Vārds, Ikona, un 🛍️ Pasūtiet šeit. vienums vienums vienums vienums vienums vienums Produkti ar unikālais Varianti vienums vienums’vienums vienums Noklusējums 6 Varianti, vienums vienums Iestatiet Pielāgots Varianti par vienums Produkts šeit.",
+        "Šeit varat pielāgot varianta nosaukumu, ikonu un pasūtījumu. Ja jums ir dažādi produkti ar unikāliem variantiem, kas neatbilst 6 noklusējuma variantiem, šeit varat iestatīt pielāgotus variantus katram produktam.",
     },
 
     inputs: {
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "Iestatiet vērtības Iestatiet... (vienums)",
         messages:
-          "vienums vienums vienums vienums par Domēns vērtības un vienums 🛍️ Pasūtiet.",
+          "Varat sniegt ieteikumus par vērtībām un pielāgot secību.",
       },
     },
   },
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Klientu vadība",
     subtitle:
-      "Klienti vienums vienums piekļuve Uz sava veikals vienums vienums vienums; manuāli, Lielapjoma datus Importēt, vienums Domēns POS, vai vienums sava Tiešsaistes veikals. vienums vienums Lietotājs vienums vienums sava veikals, vienums vienums vienums vienums Reģistrēts kā vienums klients.",
+      "Klientus savam veikalam var pievienot vairākos veidos; manuāli, lielapjoma Excel importēšana, izmantojot POS vai tiešsaistes veikalu. Ikreiz, kad lietotājs piesakās jūsu veikalā, viņš automātiski tiks reģistrēts kā klients.",
     add_customer_action: "pievienot Jauns klients",
 
     all_customers: "Lejupielādējiet visus klientus",
@@ -7844,7 +7844,7 @@ export default {
     },
     address: {
       subtitle:
-        "vienums adrese vienums vienums Lietots vienums Domēns POS. Domēns Lietotājs vienums nav vienums vienums informācija.",
+        "Šo adresi var izmantot POS. Lietotājs nevar redzēt šo informāciju.",
     },
   },
 
@@ -7937,7 +7937,7 @@ export default {
     message_add_to_service:
       "Noklikšķiniet uz šīs pogas, ja vēlaties nosūtīt šo paku ar <b>piegādes pakalpojumu</b> .",
     courier_action: "Piegāde apstiprinājums",
-    courier_action_subtitle: "Mana Kurjers vienums vienums vienums Domēns vienums.",
+    courier_action_subtitle: "Mans kurjers paņems paku.",
 
     pickup_ready_action: "Saņemšanas gatava",
     pickup_ready_action_subtitle: "Domēns 🛍️ Pasūtiet ir gatava par klients Saņemšanas.",
@@ -8033,17 +8033,17 @@ export default {
         routing_number: {
           label: "vienums numurs (vienums) vai Kārtot Kods (UK) US",
           message:
-            "A numurs vienums vienums Domēns vienums Banka vienums (vienums Noteikumi ir Lietots vienums vienums vienums).",
+            "Skaitlis, kas identificē konkrēto bankas filiāli (dažādās valstīs tiek lietoti dažādi termini).",
         },
         swift: {
           label: "vienums/BIC Kods",
           message:
-            "vienums vienums Kods Lietots Uz vienums vienums vienums, vienums par vienums vienums.",
+            "Starptautisks kods, ko izmanto, lai identificētu bankas visā pasaulē, īpaši starptautiskajiem pārskaitījumiem.",
         },
         iban: {
           label: "IBAN (vienums Banka Konts numurs)",
           message:
-            "Lietots vienums vienums vienums, Domēns IBAN ir vienums vienums vienums-vienums vienums par vienums Banka Konti vienums vienums vienums.",
+            "IBAN, ko galvenokārt izmanto Eiropā, ir starptautiski saskaņota sistēma banku kontu identificēšanai pāri valstu robežām.",
         },
         contact: {
           label: "Kontaktinformācija",
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "līmenis vienums",
       description:
-        "vienums ir vienums Domēns vienums līmenis. vienums vienums vienums 2% Komisija No sava vienums.",
+        "Jūs atrodaties bronzas līmenī. Jūs esat nopelnījis 2% komisijas maksu par saviem ieteikumiem.",
     },
     Silver: {
       title: "līmenis vienums",
       description:
-        "vienums ir vienums Domēns vienums līmenis. vienums vienums vienums 4% Komisija No sava vienums.",
+        "Jūs atrodaties sudraba līmenī. Jūs esat nopelnījis 4% komisijas maksu no saviem ieteikumiem.",
     },
     Gold: {
       title: "līmenis vienums",
       description:
-        "vienums ir vienums Domēns vienums līmenis. vienums vienums vienums 6% Komisija No sava vienums.",
+        "Jūs atrodaties zelta līmenī. Jūs esat nopelnījis 6% komisijas maksu par saviem ieteikumiem.",
     },
     Platinum: {
       title: "līmenis Platīna",
       description:
-        "vienums ir vienums Domēns Platīna līmenis. vienums vienums vienums 8% Komisija No sava vienums.",
+        "Jūs esat platīna līmenī. Jūs esat nopelnījis 8% komisijas maksu par saviem ieteikumiem.",
     },
     Diamond: {
       title: "līmenis vienums",
       description:
-        "vienums ir vienums Domēns vienums līmenis. vienums vienums vienums 10% Komisija No sava vienums.",
+        "Jūs atrodaties dimanta līmenī. Jūs esat nopelnījis 10% komisijas maksu no saviem ieteikumiem.",
     },
   },
 
@@ -8528,7 +8528,7 @@ export default {
       valid_message: "vienums vienums Izveidot Pielāgots SMS ziņojumu.",
       provider_not_enable_message: "Domēns SMS vienums ir nav iespējota!",
       need_custom_provider_message:
-        "vienums SMS ziņojumu maksājumus vienums vienums vienums Iestatiet vienums Pielāgots vienums.",
+        "Pielāgotas īsziņas darbojas tikai tad, ja iestatāt pielāgotu pakalpojumu sniedzēju.",
       add_new: "pievienot Jauns",
       disable_reason: {
         set_provider: "Iestatiet sava vienums pirmais!",
@@ -8571,7 +8571,7 @@ export default {
         auto_fill: {
           title: "Auto vienums vienums",
           subtitle:
-            "vienums vienums Izmantojiet vienums vienums vienums vienums vienums Domēns tekstu un Selldone vienums vienums vienums ar Domēns vienums Vērtība.",
+            "Tekstā varat izmantot katru no šiem parametriem, un Selldone tos aizstās ar atbilstošo vērtību.",
         },
 
         sample: {
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "vienums Veidne",
         subtitle:
-          "vienums vienums Iestatiet Domēns Veidne atslēga un Vērtība šeit. Domēns Veidne Kods vienums vienums vienums vienums vienums Iestatiet vienums sava SMS pakalpojums vienums, un Domēns <code>atslēga</code> ir vienums sava vienums vienums Uz Sūtīt Domēns Kods vienums. vienums Domēns <code>Vērtība</code> vienums vienums Veidne ir vienums, vienums <code>{code}</code> vienums vienums vienums kā Domēns Veidne Kods.",
+          "Šeit varat iestatīt veidnes atslēgu un vērtību. Veidnes kodam ir jābūt tieši tam, ko iestatījāt savā SMS pakalpojumu sniedzējā, un <code>key</code> ir tas, caur kuru jūsu pakalpojumu sniedzējs vēlas nosūtīt kodu. Ja veidnes lauks <code>value</code> ir tukšs, <code>{code}</code> tiks uzskatīts par veidnes kodu.",
         add_new_parameter: "pievienot Jauns vienums",
 
         auto_fill: {
           title: "Auto vienums vienums",
           subtitle:
-            "vienums vienums Iestatiet vienums vienums vienums vienums kā vienums Vērtība, un Selldone vienums vienums vienums ar Domēns vienums Vērtība. vienums vienums Uz vienums Domēns Noklusējums vērtības kā veidnes vienums sava SMS vienums par vienums. vienums vienums vienums, vienums vienums vienums Nē Nepieciešama Uz vienums vienums vērtības šeit.",
+            "Varat iestatīt katru no šiem parametriem kā vērtību, un Selldone tos aizstās ar atbilstošo vērtību. Vienkāršības labad labāk ir definēt noklusējuma vērtības kā veidnes savā SMS pakalpojumu sniedzējā. Šajā gadījumā šeit nebūs jādefinē parametru vērtības.",
         },
         request: {
           title: "veikalu vienums",
         },
         sample: {
           title: "veikalu Veidne Ziņa",
-          subtitle: "vienums vienums Kopēt un vienums vienums Veidne Uz sava SMS vienums.",
+          subtitle: "Varat kopēt un ielīmēt šo veidni savam SMS pakalpojumu sniedzējam.",
         },
         add_message_action: "pievienot Ziņa Veidne",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "vienums tekstu",
-      desc: "Ziņa vienums vienums izveidota No vienums tekstu ar Auto vienums vienums un Sūtīt.",
+      desc: "Ziņojums tiks izveidots no teksta ar automātiskās aizstāšanas parametriem un nosūtīts.",
     },
     template: {
       title: "vienums Veidne",
-      desc: "vienums vienums vienums vienums izveidota No vienums un Sūtīt Uz Domēns vienums.",
+      desc: "No parametriem tiks izveidots objekts un nosūtīts pakalpojumu sniedzējam.",
     },
   },
 
@@ -8617,22 +8617,22 @@ export default {
     title: "Pielāgots SMS vienums",
     reset_error: "Atiestatīt vienums",
     subtitle:
-      "Iestatiet vienums vienums Pielāgots SMS pakalpojums vienums un vienums sava vienums SMS un Biznesa Vārds. Domēns Noklusējums vienums vienums Nosūta vienums SMS un vienums ziņojumu vienums vienums balts-vienums vienums.",
+      "Iestatiet pielāgotu SMS pakalpojumu sniedzēju un pielāgojiet savu autentifikācijas SMS un uzņēmuma nosaukumu. Noklusējuma pakalpojumu sniedzējs tikai nosūta autentifikācijas SMS un informē ziņojumus dažās baltajā sarakstā iekļautajās valstīs.",
     plain_text: "vienums tekstu",
     structural_template: "vienums Veidne",
     errors_limit_msg:
-      "vienums sava pakalpojums vienums 100 vienums, apstiprinu vienums vienums atspējots vienums! vienums vienums Atiestatīt vienums Uz vienums-Iespējot apstiprinu.",
+      "Ja jūsu pakalpojums pārsniedz 100 kļūdas, tas tiks automātiski atspējots! Varat atiestatīt kļūdas, lai to atkārtoti iespējotu.",
 
     enable_input: {
       false_description:
-        "vienums ziņojumu vienums vienums vienums vienums Selldone vienums Izvēlieties vienums, vienums Citas 🛍️ Pasūtiet Paziņojums SMS vienums vienums Nosūtīts kā Labi.",
+        "Atsevišķās valstīs OTP ziņojumi tiks nosūtīti, izmantojot Selldone, bet tiks nosūtīti arī citi pasūtījuma paziņojumi.",
       true_description:
         "SMS ziņojumu vienums vienums Piegādāts vienums sava pakalpojums vienums.",
     },
     test_input: {
       true_title: "vienums konfigurācija",
       true_description:
-        "vienums vienums Sūtīt vienums testa Ziņa Uz sava telefona numurs 📞 <b>{phone}</b>, apstiprinu vienums Uzlādē vienums, vienums vienums vienums veikt vienums vienums vienums Labi.",
+        "Mēs nosūtīsim testa ziņojumu uz jūsu tālruņa numuru 📞 <b>{phone}</b>, tas var jums iekasēt maksu, bet jūs varat pārliecināties, ka viss darbojas labi.",
     },
     sync_action: {
       title: "Darbības",
@@ -8713,10 +8713,10 @@ export default {
 
     messages: {
       provider_error_limit:
-        "vienums sava pakalpojums vienums 100 vienums, apstiprinu vienums vienums atspējots vienums! vienums vienums Atiestatīt vienums Uz vienums-Iespējot apstiprinu.",
+        "Ja jūsu pakalpojums pārsniedz 100 kļūdas, tas tiks automātiski atspējots! Varat atiestatīt kļūdas, lai to atkārtoti iespējotu.",
 
       encryption_ports_guide:
-        "E-pasts Pakalpojumu sniedzēji vienums Piedāvājums SSL, vienums, vai vienums vienums pamatojoties uz Pieejams vienums. vienums vienums vienums vienums vienums vienums, vienums Domēns vienums režīms vienums vienums Domēns Izdošanas. vienums <b>vienums</b> Izmantojiet vienums: <b>587</b> un <b>SSL</b> Izmantojiet vienums: <b>465</b>.",
+        "E-pasta pakalpojumu sniedzēji var piedāvāt SSL, TLS vai nešifrētus savienojumus, pamatojoties uz pieejamajiem portiem. Ja savienojuma izveides rezultātā rodas kļūda, šifrēšanas režīma maiņa var atrisināt problēmu. Standarta <b>TLS</b> izmanto portu: <b>587</b> un <b>SSL</b> izmanto portu: <b>465</b>.",
 
       enable_receive_test:
         "pēc Saglabāt Izmaiņas, vienums vienums Saņemt vienums testa pastu uz <b>{email}</b>. Saglabāt Izmaiņas iepriekš vienums vienums testa E-pasts ar Domēns Jauns konfigurācija.",
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Galīgajai cenai jāpieskaita nodoklis.",
     invoice: {
       subtitle:
-        "pēc vienums vienums forma, vienums vienums Izveidot vienums 💳 Apmaksa Saite par vienums vienums Summa. apstiprinu vienums vienums Izsekošanas Domēns Rēķins un vienums 💳 Apmaksa vienums vienums un vienums.",
+        "Izmantojot šo veidlapu, varat izveidot maksājuma saiti noteiktai summai. Tas arī padara vienkāršu un vienkāršu rēķina izsekošanu un maksājuma pabeigšanas apstiprināšanu.",
     },
   },
 
@@ -8982,7 +8982,7 @@ export default {
     },
     zip_pin_code: "vienums / vienums kodi",
     no_country_selected_error:
-      "vienums vienums plkst vienums vienums Valsts vienums ar vienums Saraksts vienums vienums/vienums kodi. Bez apstiprinu, vienums Produkts vienums nav vienums Pieejams.",
+      "Lūdzu, iekļaujiet vismaz vienu valsti kopā ar pasta/pin kodu sarakstu. Bez tā šis produkts nebūs pieejams.",
     tips: "Noklikšķiniet uz Domēns <b>+ pievienot Valsts</b> poga Uz Sākt vienums vienums Jauns Atrašanās vieta Iestatiet. vienums vienums vienums, vienums vienums Saglabāt apstiprinu pēc vienums uz Domēns vienums-vienums <b>⋮ Izvēlne</b> un vienums <b>Saglabāt profils</b>.",
     need_save_message:
       "Domēns Atrašanās vieta ierobežojumu Iestatījumi par Domēns Produkts vienums vienums veiksmīgi. Uz vienums vienums Izmaiņas, vienums Noklikšķiniet uz Domēns 'Saglabāt poga vienums.",
@@ -8990,12 +8990,12 @@ export default {
     add_dialog: {
       title: "pievienot Valsts",
       message:
-        "Izvēlieties vienums Valsts un Noklikšķiniet 'pievienot. vienums vienums vienums Domēns Valsts Uz Domēns tabula, vienums vienums Uz vienums vienums, vienums kodi, vienums vienums, vai Novads vienums Uz apstiprinu.",
+        "Izvēlieties valsti un noklikšķiniet uz \"Pievienot\". Tādējādi tabulai tiks pievienota valsts, ļaujot tai piešķirt pasta indeksus, PIN kodus, pilsētu nosaukumus vai reģionu nosaukumus.",
     },
     save_profile_dialog: {
       title: "pievienot Atrašanās vietas profils",
       message:
-        "vienums Ievade vienums Vārds Uz Saglabāt vienums Iestatiet vienums Atrašanās vietas. vienums Saglabāta Atrašanās vieta Iestatiet vienums vienums vienums Uz Citas Produkti, vienums par vienums Atrašanās vieta vienums ar vienums vienums Viens Noklikšķiniet. vienums vienums profils ar Domēns vienums Vārds vienums vienums, apstiprinu vienums vienums veiksmīgi ar vienums Jauns vērtības.",
+        "Lūdzu, ievadiet nosaukumu, lai saglabātu šo atrašanās vietu kopu. Šo saglabāto atrašanās vietu komplektu var lietot citiem produktiem, ļaujot ātri ielādēt atrašanās vietu tikai ar vienu klikšķi. Ja profils ar norādīto nosaukumu jau pastāv, tas tiks atjaunināts ar šīm jaunajām vērtībām.",
       title_input: {
         title: "profils Nosaukums",
         placeholder: "A Kategorija Vārds, vai veikals Vārds,...",
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "veikalu Veikali",
       subtitle:
-        "šeit, vienums vienums vienums vienums izvēle vienums veikalu Veikali. vienums ir vienums vienums Uz vienums Domēns informācija Pieejams vienums vienums Veikali. vienums, vienums vienums No vienums vienums vai vienums Pasūtījumi vienums vienums Personīga informācija, kā vienums Dati vienums vienums vienums Uz Domēns Publisks. vienums vienums vienums Ievadiet sava informācija šeit, vienums vienums Domēns veikals un Iegūstiet vienums vienums ar mums par vienums vienums.",
+        "Šeit varat atklāt dažādus veikalu paraugus. Jums tiek piešķirta atļauja iepazīties ar šajos veikalos pieejamo informāciju. Tomēr, lūdzu, atturieties no pieteikšanās vai pasūtījumu veikšanas, izmantojot reālu personas informāciju, jo šie dati būs publiski pieejami. Ja nejauši ievadāt šeit savu informāciju, lūdzu, izejiet no veikala un sazinieties ar mums, lai saņemtu papildu palīdzību.",
     },
 
     add_new_store: "pievienot Jauns veikals",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Emuāru kategorijas",
     subtitle:
-      "vienums vienums Izveidot vienums Ierobežota numurs vienums Kategorijas par sava Emuārs vienums Uz Pārvaldiet vienums Vairāk.. vienums. vienums vienums Kategorija Ierobežot vienums vienums vienums uz sava Tīmekļa vietne. vienums, vienums Domēns vienums vienums vienums vienums vienums Ierobežota numurs vienums Kategorijas, vienums vienums vienums 100, Uz vienums pārvaldība un vienums vienums vienums vienums.",
+      "Varat izveidot ierobežotu skaitu kategoriju saviem emuāra ziņojumiem, lai tos pārvaldītu efektīvāk. Kategoriju ierobežojums veicina labāku vietnes organizēšanu. Proti, pat augstākās ziņu aģentūras uztur ierobežotu skaitu kategoriju, bieži vien mazāk par 100, lai racionalizētu pārvaldību un saglabātu plašāku uzmanību.",
 
     add_action: "Pievienot jaunu kategoriju",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "Rediģēt vienums Grafiks",
     subtitle:
-      "šeit ir Domēns Saraksts vienums vienums raksti Iestatiet par vienums vienums. vienums vienums Domēns vienums Uz Grafiks Emuārs vienums un vienums Produkts vienums Uz vienums Publicēts plkst vienums reizes.",
+      "Šeit ir ieplānoto rakstu saraksts, kas ir iestatīti turpmākai publicēšanai. Jums ir iespēja ieplānot emuāra ziņojumu un pat produktu aprakstu publicēšanu noteiktā laikā.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9266,7 +9266,7 @@ export default {
       title: "Pieteikšanās metodes",
       subtitle: "Pielāgojiet veidu, kā lietotāji piesakās jūsu veikalā.",
 
-      tips: "<b>vienums.</b> kad vienums Lietotājs vienums ar sava Veikals, vienums vienums Selldone Lietotājs ir izveidota, vienums vienums vienums vienums vienums. vienums Lietotājs vienums vienums Piekļuve Uz vienums adrese Rezervēt vienums visi Veikali un vienums Skatīt vienums 🛍️ Pasūtiet Vēsture, vienums vienums vienums Veikals vienums vienums. vienums lietu nav Izmantojiet vienums informācija par Mārketings vienums vienums vienums apstiprinu Uz vienums vienums uz vienums vienums. Uz vienums vienums, vienums Sūtīt vienums E-pasts Uz Domēns Lietotājs vienums vienums vienums vienums Reģistrācijas.",
+      tips: "<b>Svarīgi.</b> Kad lietotājs reģistrējas jūsu veikalā, tiek izveidots atbilstošs Selldone lietotājs, ja tāda vēl nav. Šis lietotājs varēs piekļūt savai adrešu grāmatai visos veikalos un skatīt savu pasūtījumu vēsturi pat tad, ja veikals ir slēgts. Mēs neizmantojam šo informāciju mārketinga nolūkos, bet pieprasām to, lai novērstu abu pušu krāpšanu. Lai saglabātu pārredzamību, mēs lietotājam nosūtīsim e-pasta ziņojumu, informējot viņu par reģistrāciju.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "vienums",
       title: "vienums",
       description:
-        "vienums Produkts ir nav vienums vienums Domēns veikals, vienums vienums pēc vienums Saite.",
+        "Šis produkts nav norādīts veikalā, bet pieejams, izmantojot tiešu saiti.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Sūtīt vienums Lūdziet",
     message:
-      "vienums sava vienums 3 Biznesa vienums Uz vienums un vienums uz Selldone. vienums informācija vienums vienums vienums vienums ar vienums un vienums un vienums vienums vienums vienums. vienums vienums vienums Atjaunināt sava vienums laika Laiks pēc vienums.",
+      "Nosakiet savas 3 galvenās biznesa vajadzības, lai Selldone attīstītos un gūtu peļņu. Šī informācija tiks tieši kopīgota ar dibinātājiem un direktoriem, un tā tiks rūpīgi izskatīta. Pēc iesniegšanas laika gaitā varat arī atjaunināt savas vajadzības.",
     expand_action: "Raksti Domēns Lūdziet...",
     input_label: "sava Lūdziet",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Sūtīt Uz vienums",
     },
     placeholder: {
-      ceo: "vienums Nē Nepieciešama Uz vienums vienums, es Patīk Uz vienums sava vienums, vienums-Uz-Domēns-punkts Uzdod.\nvienums.vienums. es Nepieciešama Uz vienums...",
-      team: "vienums vienums Uz vienums vienums Uz vienums.\nvienums.vienums. es Nepieciešama Uz vienums...",
+      ceo: "Pilnīgi nevajag būt jaukam, man patīk dzirdēt jūsu tiešu, tiešu jautājumu.\npiem. Man vajag...",
+      team: "Lūdzu, mēģiniet būt jauks pret viņiem.\npiem. Man vajag...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "Apstrādes vienums Produkti",
     message:
-      "vienums ir vienums Domēns process vienums vienums Produkti un Attēli, vienums vienums vienums vienums Laiks Uz Pilnīga.",
+      "Pašlaik tiek importēti produkti un attēli, kas var aizņemt kādu laiku.",
   },
 
   /**
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "vienums vienums",
         subtitle:
-          "vienums vienums Sīkāka informācija. vienums informācija ir Saglabāta pēc vienums vienums process vienums atjaunināts vienums.",
+          "Iekšējās sinhronizācijas informācija. Šī informācija tiek saglabāta pēc sinhronizācijas procesa veiksmīgas beigām.",
         no_data: "Nē vienums informācija!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Produkti",
       subtitle:
-        "Saraksts vienums piekļuve Produkti No {name}. veikt vienums sava Produkts vienums vienums unikālais Vārds un SKU. vienums Pievienojiet Pakalpojumi ir Lietots par vienums, vienums vienums vienums vienums Produkti ar Tehnisko <b>vienums</b> un <b>vienums</b>, vienums Produkti vienums vienums veiksmīgi!",
+        "Pievienoto produktu saraksts no {name}. Pārliecinieties, vai jūsu produktam ir unikāls nosaukums un SKU. Daži Connect pakalpojumi tiek izmantoti migrēšanai, tādēļ, ja jums ir produkti ar dublikātu <b>SKUs</b> un <b>Names</b>, šie produkti tiks mainīti!",
       action: "vienums Produkti",
       syncing_message: "uz vienums process...",
     },
@@ -9628,13 +9628,13 @@ export default {
         label: "Auto Apstipriniet Pasūtījumi",
         false_desc: "vienums vienums Apstipriniet 🛍️ Pasūtiet manuāli.",
         true_desc:
-          "Pasūtījumi ar Tiešraide 💳 Apmaksa vienums vienums vienums vienums. Pasūtījumi ar vienums 💳 Apmaksa vienums nav vienums vienums.",
+          "Pasūtījumi ar reāllaika maksājumu tiks automātiski apstiprināti. Pasūtījumi ar atkļūdošanas maksājumu netiks apstiprināti automātiski.",
         tips: "Pasūtījumi Apmaksāts pēc Dāvienums vienums vai COD vai 💳 Apmaksa Vārti vienums Domēns vienums režīms ir vienums un vienums nav vienums Apstiprināts vienums.",
       },
 
       shipping: {
         label: "Piegāde",
-        tips: "vienums pakalpojums Piedāvājumi Piegāde aprēķins, vienums vienums vienums iespējota vai atspējots kā par sava vienums. vienums iespējota, cena aprēķins vienums ar 3vienums vienums Pakalpojumi vienums vienums vienums, vienums vienums vienums vienums aizkavi vienums laika 300vienums par vienums Domēns cena uz Domēns Izrakstīties lapa. API",
+        tips: "Šis pakalpojums piedāvā piegādes aprēķinu, ko var iespējot vai atspējot pēc jūsu izvēles. Ja tas ir iespējots, būs nepieciešamas izmaksu aprēķināšanas API ar trešās puses pakalpojumiem, kas var izraisīt vairāk nekā 300 ms aizkavi cenas atjaunināšanai norēķinu lapā.",
         false_title: "vienums",
         false_desc:
           "Izmantojiet Mana Piegāde cena aprēķins, vienums Veikals > Loģistika > vienums par visi Produkti, vienums vienums vienums.",
@@ -9699,7 +9699,7 @@ export default {
     title: "Galvenās lapas",
     add_new_action: "pievienot Jauns lapa",
     subtitle:
-      "Izveidot vienums, vienums Pielāgots Lapas par sava Zīmols vienums vienums Daudzpusīga AI-vienums Personīgais vienums, un vienums vienums vienums Rediģēt pēc vienums vienums Dati.",
+      "Izveidojiet atšķirīgas, atsaucīgas pielāgotas lapas savam zīmolam, izmantojot daudzpusīgu, ar AI darbinātu iekļauto redaktoru, un automātiski ģenerējiet dinamisku saturu, ievadot datus.",
     empty_message: "Dizaina Pielāgots Lapas pēc vienumsšvienums vienums vienumsšvienums vienumsžīvienums...",
   },
 
@@ -9723,8 +9723,8 @@ export default {
    */
   community_comments: {
     title: "komentāri",
-    subtitle: "vienums ir vienums Saraksts vienums Domēns vienums komentāri.",
-    empty_msg: "Nē komentāri vienums vienums izveidota vienums vienums...",
+    subtitle: "Šis ir kopienas komentāru saraksts.",
+    empty_msg: "Pagaidām komentāri nav izveidoti...",
   },
 
   /**
@@ -9732,9 +9732,9 @@ export default {
    */
   community_categories: {
     title: "Kategorijas",
-    subtitle: "vienums ir vienums Saraksts vienums Domēns vienums Kategorijas.",
+    subtitle: "Šis ir kopienas kategoriju saraksts.",
     new_category_action: "Jauns Kategorija",
-    empty_msg: "Nē Kategorijas vienums vienums izveidota vienums vienums...",
+    empty_msg: "Pagaidām nav izveidota neviena kategorija...",
     filter: {
       delete: {
         title: "Izdzēsts",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "vienums",
-    subtitle: "vienums ir vienums Saraksts vienums Domēns vienums vienums.",
+    subtitle: "Šis ir kopienas ziņu saraksts.",
     filter: {
       deleted: {
         title: "Izdzēsts",
@@ -9758,7 +9758,7 @@ export default {
         description: "rādīt vienums vienums.",
       },
     },
-    empty_msg: "Nē vienums vienums vienums izveidota vienums vienums...",
+    empty_msg: "Pagaidām nav izveidota neviena ziņa...",
     menu: {
       open_post: {
         title: "darba vienums",
@@ -9791,7 +9791,7 @@ export default {
       title: "lietotni Iepirkumu Google",
       subtitle:
         "Dati vienums vienums Domēns vienums vienums sava vienums informācija uz lietotni. vienums vienums Saite Uz vienums pievienot visi Produkti un Kategorijas Uz lietotni Preču. Google",
-      tips: "vienums vienums vienums vienums vienums Uz vienums un vienums Pārvaldiet lietotni Reklāmas. Google",
+      tips: "Varat izmantot šo rīku, lai bez piepūles un automātiski pārvaldītu Google reklāmas.",
       link_message: "lietotni Produkti vienums URL Google Fee",
     },
     console: {
@@ -9805,7 +9805,7 @@ export default {
     serp: {
       title: "lietotni vienums & vienums Google ERP",
       subtitle:
-        "vienums vienums Domēns vienums vienums SEO vienums Dati No lietotni un vienums apstiprinu Uz vienums vienums vienums vienums vienums. vienums vienums Domēns vienums vienums. Google",
+        "Mēs iegūstam no Google visprecīzākos SEO audita datus un piedāvājam tos jums ērtā veidā. Vienkārši izpildiet norādītās darbības.",
     },
     serp_content: {
       title: "Pievienojiet Uz lietotni meklēšana vienums Google",
@@ -9813,7 +9813,7 @@ export default {
         "Pievienojiet sava Veikals Uz Domēns meklēšana vienums un Sākt vienums vienums, vienums, un Citas Bezmaksas SEO Rīki uz Selldone.",
       tips: {
         title:
-          "vienums Uz vienums Selldone ar lietotni meklēšana vienums, vienums Domēns vienums: Google",
+          "Pirms Selldone saistīšanas ar Google Search Console pārliecinieties, ka:",
         add_in_selldone: "pievienot, Apstipriniet, un Iestatiet kā Primārs sava Pielāgots Domēns.",
         add_in_google: "pievienot un Apstipriniet <b>{domain}</b> vienums sava<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>lietotni meklēšana vienums</b></a>. Google",
       },
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "Kopā vienums",
     delete_alert: {
       title: "Dzēst vienums vienums",
-      message: "ir vienums vienums Uz Dzēst vienums vienums vienums?",
+      message: "Vai tiešām izdzēsīsiet šo naudas atmaksas programmu?",
       action: "Jā, dzēst tūlīt",
     },
     notifications: {
@@ -9896,7 +9896,7 @@ export default {
       message: "Ievadiet Domēns vienums procents No 1% Uz 20%.",
     },
     currency_input: {
-      message: "Domēns vienums vienums vienums vienums Pieejams vienums par vienums Valūta.",
+      message: "Naudas atmaksas programma būs pieejama tikai šai valūtai.",
     },
     limit_input: {
       title: "Ierobežot",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Ilgums Ierobežot",
-      subtitle: "Iestatiet Ilgums vienums vienums vienums. vienums vienums.",
+      subtitle: "Iestatiet naudas atmaksas programmas ilgumu. Tas nav obligāti.",
     },
     start_input: {
       title: "Sākt Datums",
@@ -9935,7 +9935,7 @@ export default {
     only_first_buy_input: {
       false_desc: "Domēns vienums vienums vienums vienums Pieejams par visi Pasūtījumi.",
       true_desc:
-        "Domēns vienums vienums vienums vienums Pieejams vienums par Domēns pirmais 🛍️ Pasūtiet.",
+        "Naudas atmaksas programma būs pieejama tikai pirmajam pasūtījumam.",
       true_title: "maksājumus pirmais 🛍️ Pasūtiet",
       false_title: "visi Pasūtījumi",
     },
@@ -9943,15 +9943,15 @@ export default {
       false_title: "visi Klienti",
       true_title: "vienums Klienti",
       true_msg:
-        "Domēns vienums vienums vienums vienums Pieejams vienums par Domēns Klienti vienums ir vienums.",
+        "Naudas atmaksas programma būs pieejama tikai kvalificētiem klientiem.",
     },
     club: {
       subtitle:
-        "Iestatiet Domēns Klubs par Domēns vienums vienums. Domēns vienums vienums vienums vienums Pieejams vienums par Domēns Klienti vienums ir vienums vienums Klubs.",
+        "Iestatiet klubu naudas atmaksas programmai. Cashback programma būs pieejama tikai klientiem, kas ir šajā klubā.",
     },
     cluster: {
       subtitle:
-        "pēc vienums vienums vienums ar Domēns vienums vienums, vienums vienums Pārvaldiet apstiprinu Vairāk.. vienums.",
+        "Saistot kopu ar naudas atmaksas programmu, varat to pārvaldīt efektīvāk.",
     },
     notifications: {
       add: "vienums vienums piekļuve atjaunināts.",
@@ -9966,9 +9966,9 @@ export default {
       false_title: "Normāls",
       true_title: "vienums (2vienums vienums)",
       true_msg:
-        "Domēns vienums vienums ir vienums vienums režīms un Klienti vienums Saņemt 2vienums vienums.",
+        "Naudas atmaksas programma ir palielināšanas režīmā, un klienti saņems 2x naudas atmaksu.",
       false_msg:
-        "Domēns vienums vienums ir vienums Normāls režīms un Klienti vienums Saņemt Normāls vienums.",
+        "Naudas atmaksas programma ir parastajā režīmā, un klienti saņems parasto naudas atmaksu.",
     },
   },
 
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "Apstipriniet vienums",
       description:
-        "es Apstipriniet vienums Domēns vienums Summa ir pareizi un es vienums Uz vienums.",
+        "Es apstiprinu, ka atmaksas summa ir pareiza, un vēlos turpināt.",
     },
     action: "vienums tūlīt",
   },
@@ -10029,7 +10029,7 @@ export default {
     title: "Krusta pārdošana",
     add_new_actions: "pievienot Jauns Produkts",
     subtitle:
-      "vienums vienums sadaļas, vienums vienums pievienot un Pārvaldiet Krusta-vienums Produkti par vienums Produkts lapa. vienums Produkti vienums vienums vienums kā vienums par Klienti Uz Pirkums vienums Domēns Galvenās lieta. vienums vienums vienums Iestatiet atlaides Uz vienums un vienums Papildu Pirkumi. Domēns vienums vienums vitrīna vienums Maksimālais vienums 3 Preces par Domēns klients Uz vienums.",
+      "Šajā sadaļā varat pievienot un pārvaldīt šīs produktu lapas savstarpējās pārdošanas produktus. Šie produkti tiks parādīti kā ieteikumi klientiem iegādāties kopā ar galveno preci. Varat arī iestatīt atlaides, lai veicinātu un stimulētu papildu pirkumus. Sistēma klientam izskatīs ne vairāk kā 3 vienumus.",
     dialog: {
       edit_title: "Rediģēt Krusta pārdošana Produkts",
       add_title: "pievienot Jauns Krusta pārdošana Produkti",
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "vienums Produkts",
-        subtitle: "vienums Produkts vienums vienums vienums par Krusta-pārdošana vienums.",
+        subtitle: "Šis produkts ir izvēlēts savstarpējās pārdošanas veicināšanai.",
         manage_product: "Pārvaldiet Produkts",
       },
       discount: {
@@ -10053,12 +10053,12 @@ export default {
             "Domēns Atlaide procents vienums vienums vienums Uz Domēns Produkts cena pēc vienums vienums Konts visi vienums atlaides.",
         },
         mismatch_type_warning:
-          "atlaides Nevar vienums vienums Uz Citas Veidi vienums Domēns Galvenās Produkts Veidi, kā Domēns vienums un vienums Preces vienums nav vienums vienums vienums vienums vienums vienums.",
+          "Atlaides nevar piemērot citiem veidiem, izņemot galvenos produktu veidus, jo avota un mērķa preces netiks ievietotas vienā grozā.",
         not_support_subscription_type_warning:
           "Iestatījums atlaides par Krusta-pārdošana Abonēšana Produkti ir nav vienums, kā Domēns Cenu noteikšana Plāni Nevar vienums vienums vienums.",
         message_input: {
           message:
-            "vienums vienums vienums un vienums Nosaukums Uz vienums Klienti vienums.",
+            "Izveidojiet pārliecinošu un vilinošu nosaukumu, lai piesaistītu klientu uzmanību.",
           placeholder:
             "Komplekta & Saglabāt: Pilnīga sava vienums ar vienums vienums izvēle!",
         },
@@ -10084,7 +10084,7 @@ export default {
       title: "variantu vērtības",
       subtitle: "Ievadiet Domēns vienums vērtības par vienums variantu opcija šeit.",
       prevent_duplicates_tips:
-        "<b>Piezīme:</b> vienums vienums Pārbaudiet par vienums Varianti Uz vienums vienums.",
+        "<b>Piezīme:</b> Mēs automātiski pārbaudām esošos variantus, lai novērstu dublikātus.",
     },
     inventory: {
       title: "Sākotnējā Inventārs",
@@ -10121,7 +10121,7 @@ export default {
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "vienums Produkts vienums vienums piekļuve vienums <b>{name}</b>.",
+      subtitle: "Šis produkts ir pievienots, izmantojot <b>{name}</b>.",
       enable_msg: "vienums tilts Uz ārējās pakalpojums ir iespējota.",
       disable_msg: "vienums tilts Uz ārējās pakalpojums ir atspējots.",
       has_shipping_msg:
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "vienums pārdevēji",
       subtitle:
-        "vienums Produkts vienums vienums Nē vienums pārdevēji. par vienums Produkts Uz vienums vienums vienums Domēns Tirgus laukums, apstiprinu vienums vienums plkst vienums vienums pārdevējs.",
+        "Šim produktam pašlaik nav saistīto pārdevēju. Lai produktu varētu iegādāties tirgū, tam ir jābūt vismaz vienam pārdevējam.",
       manage_vendors: "Pārvaldiet pārdevēji",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "vienums faili",
       subtitle:
-        "vienums, Nē faili vienums vienums augšupielādēto par vienums Produkts. vienums augšupielādēt faili Uz vienums.",
+        "Pašlaik šim produktam nav augšupielādēts neviens fails. Lūdzu, augšupielādējiet failus, lai turpinātu.",
       manage_files: "Pārvaldiet faili",
     },
 
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "nav Ierobežots",
       },
       available_countries_msg:
-        "Iepirkumu vienums Ierobežots Uz {count} vienums. vienums vienums ir {countries}.",
+        "Iepirkšanās visā pasaulē ir ierobežota {count} valstīs. Šīs valstis ir {countries}.",
       disable_for_all_countries_msg:
         "Iepirkumu ir atspējots par visi vienums vienums sava Veikals > Atrašanās vietas Iestatījums.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10208,7 +10208,7 @@ export default {
     location_errors: {
       title: "Pieejams Atrašanās vietas vienums",
       no_location_error_subtitle:
-        "vienums vienums Aktivizēts vienums Atrašanās vieta ierobežojumu par vienums Domēns Produkts, vienums vienums, Nē Valsts ir vienums vienums vienums ierobežojumu. kā vienums rezultātu, vienums Produkts ir vienums par Pirkums pēc vienums.",
+        "Jūs esat aktivizējis atrašanās vietas ierobežojumu produkta iegādei, taču pašlaik šī ierobežojuma sarakstā nav norādīta neviena valsts. Rezultātā šo produktu neviens nevar iegādāties.",
       invalid_location_error_subtitle:
         "Domēns Atrašanās vieta ierobežojumu Iestatījumi par sava Produkts vienums vienums vienums: vienums Atrašanās vietas vienums lietu nav vienums vienums vienums vienums kodi. vienums, Lietotāji ir vienums Uz Izvēlieties vienums vienums Kods, vienums Domēns Produkts vienums par Pirkums. IP",
 
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "vienums Produkts vienums Uz <b>{vendor}</b>.",
       has_vendors_msg: "vienums ir {count} pārdevēji par vienums Produkts.",
       no_vendor_msg:
-        "vienums vienums vienums vienums pārdevējs Uz vienums Produkts, vienums Klienti ir vienums Uz Pirkums apstiprinu.",
+        "Jūs šim produktam neesat piešķīris pārdevēju, tāpēc klienti to nevar iegādāties.",
       add_vendors: "pievienot pārdevēji",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "Produkts lapa Veidne",
     subtitle:
-      "vienums vienums Iegult vienums lapa vienums sava Produkts lapa par vienums efektivitāte vienums. Domēns vienums vienums ir Uz Izveidot Lapas vienums vienums caurspīdīgs fons un 1 Uz 3 vienums Pielāgotu Uz vienums Produkts Kategorija. vienums, vienums vienums lapa Uz Vairāki Produkti par vienums vienums un vienums vienums.",
+      "Jūs varat iegult lapu savā produkta lapā, lai uzlabotu prezentāciju. Optimālākā pieeja ir izveidot lapas ar caurspīdīgu fonu un katrai produktu kategorijai pielāgotām 1 līdz 3 sadaļām. Pēc tam piešķiriet vienu lapu vairākiem produktiem, lai nodrošinātu konsekventu un pievilcīgu attēlojumu.",
     edit_page: "Rediģēt lapa",
     list_of_pages: "Saraksts vienums Lapas",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "vienums vienums vienums Iegult vienums Produkts vai vienums Saraksts vienums Produkti vienums sava Emuārs vai Citas tīmekļa Lapas pēc vienums vienums un vienums Domēns kodi vienums vienums. vienums vienums Līdzekļa ir vienums vienums vienums agrīnās vienums, vienums ir vienums Darba Uz vienums vienums funkcionalitāte vienums vienums ir vienums Pieejams vienums. vienums apstiprinu vienums Piedāvājumi Ierobežota iespējas, vienums vienums Plāni Uz vienums Vairāk.. veidnes un pielāgošanas opcija vienums Domēns vienums.",
+      "Jūs varat viegli iegult produktu vai produktu sarakstu savā emuārā vai citās tīmekļa lapās, vienkārši kopējot un ielīmējot mūsu nodrošinātos kodus. Lai gan šī funkcija joprojām ir sākuma stadijā, mēs aktīvi strādājam, lai paplašinātu tās funkcionalitāti, pārsniedzot to, kas pašlaik ir pieejams citur. Lai gan pašlaik tas piedāvā ierobežotas iespējas, mēs plānojam nākotnē ieviest vairāk veidņu un pielāgošanas iespēju.",
     card: {
       title: "vienums",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "vienums",
       description:
-        "vienums Domēns vienums Kods Uz vienums vienums Produkts Sīkāka informācija vienums vienums vienums vienums.",
+        "Ģenerējiet iframe kodu, lai iegultā logā parādītu visaptverošu informāciju par produktu.",
     },
   },
 
@@ -10290,7 +10290,7 @@ export default {
       customization_tips:
         "<b>pielāgošanas:</b> Noklikšķiniet uz vienums lieta Uz vienums Domēns Noklusējums Lasīt/Raksti Piekļuve. vienums vienums vienums vienums Piekļuve līmeņa vienums Uz Domēns Galvenās Veikals Mērinstrumentu panelis.",
       simplify_tips:
-        "<b>vienums!</b> vienums vienums Domēns Piekļuve kontrole No laika 300 Uz vienums 10 līmeņi. Vairāk.. vienums un vienums-Uz-Datums Piekļuve līmeņi vienums vienums Publicēts vienums Domēns vienums.",
+        "<b>Svarīgi!</b> Mēs vienkāršojam piekļuves kontroli no vairāk nekā 300 līdz mazāk nekā 10 līmeņiem. Detalizētāki un jaunākie piekļuves līmeņi tiks publicēti dokumentācijā.",
       multi_permission_tips:
         "<b>Pielāgots Ierobežojumi?</b> vienums vienums pievienot Vairāk.. Piekļuve Uz vienums Lietotājs, vienums pēc vienums Domēns pirmais Piekļuve, Izveidot Papildu Piekļuve ar Domēns vienums vienums.",
       view_data: "Skatīt Dati",
@@ -10335,13 +10335,13 @@ export default {
     inputs: {
       categories: {
         label: "Kategorijas",
-        messages: "Produkti vienums vienums Kategorijas vienums vienums vienums.",
+        messages: "Tiks parādīti šo kategoriju produkti.",
         placeholder: "Izvēlieties Kategorijas...",
       },
       tags: {
         label: "Produkts Tagi",
         messages: "Produkti ar vienums Tagi vienums vienums rādīt.",
-        placeholder: "vienums Tagi šeit un vienums Ievadiet. vienums. Jauns vienums",
+        placeholder: "Pievienojiet vadu tagus šeit un nospiediet taustiņu Enter. piem. jauna kolekcija",
       },
     },
     actions: {
@@ -10359,9 +10359,9 @@ export default {
       normal:
         "<b>Vispārīga meklēšana: </b>meklēšana pēc Nosaukums, MPN, SKU, Zīmols, vai Tagi.",
       product:
-        "<b>vienums Produkts ID: </b>Izmantojiet P0000+Produkts ID Uz Atrodiet vienums vienums Produkts, vienums.vienums., <b class=\"text-green\">P0000</b><i class=\"text-yellow\">360</i>.",
+        "<b>Precīzs produkta ID: </b>Izmantojiet P+Produkta ID, lai atrastu konkrētu produktu, piemēram, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>vienums vienums: </b>Izmantojiet vienums vienums Uz meklēšana par vienums vienums vienums, vienums.vienums., <b class=\"text-green\">\"</b><i class=\"text-yellow\">sava tekstu šeit</i><b class=\"text-green\">\"</b>.",
+        "<b>Precīza frāze: </b>Izmantojiet pēdiņas, lai meklētu precīzu frāzi, piemēram, <b class=\"text-green\">\"</b><i class=\"text-yellow\">jūsu teksts šeit</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Nodoklis profils: </b>meklēšana par Produkti ar vienums vienums Nodoklis profils vienums \"Nodoklis:\", vienums.vienums., <b class=\"text-green\">Nodoklis:</b><i class=\"text-yellow\">Nodoklis profils Vārds</i>.",
       new_products:
         "<b>Jauns Produkti: </b>Atrodiet Produkti piekļuve vienums vienums vienums Datums diapazons, vienums.vienums., <b class=\"text-green\">Jauns~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
@@ -10374,14 +10374,14 @@ export default {
   augment_form: {
     title: "vienums",
     subtitle:
-      "Ievade Domēns atslēga vienums vienums vienums vienums ar vienums vienums Vērtība vienums Domēns lapa Rediģēt. atslēgas vienums vienums Maks 32 vienums.",
+      "Ievadiet atslēgu, kas tiks apmainīta ar atbilstošo vērtību lapas saturā. Taustiņiem jābūt ne vairāk kā 32 rakstzīmēm.",
     add_caption: "pievienot Jauns lieta",
     add_sub_caption: "pievienot Pielāgots atslēga-Vērtība vienums.",
     add_dialog: {
       title: "Izvēlieties Ievade Tips",
       html: {
         title: "tekstu & HTML",
-        subtitle: "Domēns vienums Vērtība vienums vienums vienums kā vienums tekstu vai HTML.",
+        subtitle: "Vienuma vērtību var norādīt kā tekstu vai HTML.",
       },
       image: {
         title: "Attēls",
@@ -10391,15 +10391,15 @@ export default {
     help_dialog: {
       title: "vienums Uz Izmantojiet vienums Rediģēt",
       how_it_works_tips:
-        "vienums Domēns Piezemēšanās Lapas, vienums vienums Domēns vienums Uz vienums vienums vienums par vienums tekstu un Attēli. vienums vienums vienums vienums vienums lomu vienums vienums Domēns Rediģēt vienums Uz Domēns vienums. Domēns vienums vienums vienums vienums vienums vienums vienums Uz vienums vienums pēc vienums vērtības, vienums vienums vienums pamatojoties uz vienums vienums. par vienums, Domēns vienums vērtības vienums vienums vienums par vienums Produkts vai Kategorija. Domēns vienums vienums vienums vienums Līdzekļa vienums vienums vienums kad vienums vienums vienums vienums vienums Preces ar vienums vienums. vienums vienums vienums vienums vienums vienums vienums Uz vienums un vienums Domēns vienums vienums vienums lieta, vienums vienums vienums unikālais un vienums vienums uz sava Piezemēšanās Lapas.",
+        "Galvenās lapās varat izvēlēties dinamiskus vietturus gan tekstam, gan attēliem. Šiem vietturiem ir nozīmīga loma satura pielāgošanā atbilstoši kontekstam.   Šo vietturu dinamiskais raksturs ļauj tos aizpildīt ar palielinājuma vērtībām, kas var atšķirties atkarībā no dažādiem faktoriem. Piemēram, katra produkta vai kategorijas palielināšanas vērtības var atšķirties. Šīs funkcijas patiesās priekšrocības izpaužas, ja jums ir dažādi vienumi ar atšķirīgiem atribūtiem. Varat efektīvi izmantot šos dinamiskos vietturus, lai personalizētu un uzlabotu katra vienuma attēlojumu, tādējādi radot unikālu un interaktīvu pieredzi savās galvenajās lapās.",
       assign_tips:
         "Uz vienums vienums vērtības Uz Attēli, Noklikšķiniet uz Domēns vienums poga vienums uz Domēns vienums puse vienums Domēns sadaļas.",
       set_dynamic_image_tips:
-        "vienums tūlīt vienums Domēns vienums Uz vienums Domēns Attēls URL un vienums apstiprinu vienums vienums Vērtība.",
+        "Tagad jums ir iespēja modificēt attēla URL un piešķirt tam dinamisku vērtību.",
       enter_values_tips:
-        "par vienums Produkts, vienums vienums Domēns vienums Uz vienums vienums atslēga-Vērtība vienums.",
+        "Katram produktam jums ir iespēja piešķirt īpašus atslēgu-vērtību pārus.",
       result_tips:
-        "vienums ir Domēns vienums vienums vienums Domēns lapa, vienums vienums vienums vienums vienums ar vienums vērtības.",
+        "Šis ir lapas gala rezultāts, kur vietturi ir aizstāti ar paplašinātām vērtībām.",
     },
   },
 
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "ir vienums vienums Uz Dzēst vienums Raksts par vienums?",
+      message: "Vai tiešām izdzēsīsiet šo rakstu uz visiem laikiem?",
       action: "Jā, dzēst tūlīt",
     },
   },
@@ -10456,7 +10456,7 @@ export default {
     inputs: {
       name: {
         message:
-          "vienums Vārds vienums Uz vienums un vienums nav vienums vienums Uz Domēns Publisks.",
+          "Šis vārds tiek rādīts jums un netiks atklāts.",
       },
       accept_delete: {
         true_description:
@@ -10492,7 +10492,7 @@ export default {
       inputs: {
         name: {
           message:
-            "vienums Vārds vienums Uz vienums un vienums nav vienums vienums Uz Domēns Publisks.",
+            "Šis vārds tiek rādīts jums un netiks atklāts.",
           placeholder: "Ievadiet vienums Vārds par Domēns profils...",
         },
       },
@@ -10506,7 +10506,7 @@ export default {
     title: "vienums Preces pārvaldība",
     add_caption: "pievienot Jauns lieta",
     subtitle:
-      "šeit, vienums vienums Pārvaldiet Domēns Preces vienums vienums sava Produkti. Uz vienums vienums vienums Izskats par sava veikals, vienums Izmantojiet Preces ar vienums Attēls vienums, vienums kā vienums, vienums visi Produkti.",
+      "Šeit varat pārvaldīt savos produktos iekļautos vienumus. Lai nodrošinātu nevainojamu sava veikala izskatu, visos produktos konsekventi izmantojiet preces ar līdzīgiem attēlu modeļiem, piemēram, stiepļu rāmjus.",
     empty_list_msg: "Saraksts vienums vienums Preces...",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Dzēst vienums lieta",
       message:
-        "ir vienums vienums vienums vienums Uz vienums Dzēst vienums lieta? vienums Piezīme vienums apstiprinu vienums vienums vienums noņemts No visi vienums Produkti!",
+        "Vai esat pārliecināts, ka vēlaties neatgriezeniski dzēst šo vienumu? Lūdzu, ņemiet vērā, ka tas tiks noņemts arī no visiem saistītajiem produktiem!",
       action: "jā, Dzēst tūlīt",
     },
     actions: {
@@ -10533,7 +10533,7 @@ export default {
 
     title: "vienums lieta",
     subtitle:
-      "Izvēlieties vienums vienums Nosaukums, vienums ar 2 Uz 3 vienums plkst vienums. Izmantojiet vienums Attēli, kā vienums vienums Auto-vienums augšupielādēto Bildes Uz vienums 256vienums256 vienums vienums. par Domēns Labākās Izskats vienums visi veidnes, vienums vienums Attēli ar caurspīdīgs vienums un vienums vienums vienums modeli vienums sava Produkti.",
+      "Izvēlieties īsu virsrakstu, kurā būtu ne vairāk kā 2–3 vārdi. Izmantojiet kvadrātveida attēlus, jo mēs automātiski mainīsim augšupielādēto attēlu izmērus 256 x 256 kvadrātveida formātā. Lai nodrošinātu vislabāko izskatu visās veidnēs, izmantojiet minimālistiskus attēlus ar caurspīdīgu fonu un saglabājiet vienmērīgu rakstu visos produktos.",
     inputs: {
       title: {
         placeholder: "vienums Nosaukums vienums uz Produkts lapa...",
@@ -10560,7 +10560,7 @@ export default {
       external_link: {
         title: "Ārējā saite",
         description: "Iestatiet vienums Saite Uz vienums ārējās URL.",
-        tips: "vienums vienums vienums vienums URL Uz Domēns lieta. kad Lietotāji Noklikšķiniet uz Domēns lieta uz Domēns Produkts lapa, vienums vienums vienums vienums Uz vienums Saite.",
+        tips: "Vienumam varat pievienot jebkuru URL. Kad lietotāji produkta lapā noklikšķina uz preces, viņi tiks novirzīti uz šo saiti.",
       },
       internal_link: {
         title: "vienums Saite",
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "vienums",
     subtitle:
-      "Domēns Saraksts vienums visi vienums vienums vienums vienums No sava vienums. apstiprinu vienums vienums Uz 30 30 dienas par Domēns Komisija Uz vienums vienums un Pārsūtīšana Uz sava Maks.",
+      "Saraksts ar visām komisijām, kuras esat nopelnījis par saviem ieteikumiem. Paiet līdz 30 dienām, līdz komisija tiek apstiprināta un ieskaitīta jūsu makā.",
   },
   /**
    * @see OReferralWallets
@@ -10650,12 +10650,12 @@ export default {
     intro: {
       title: "vienums Domēns Selldone Filiāle vienums",
       message:
-        "Domēns Selldone Filiāle vienums ir Vienkārši un vienums, izstrādāts par vienums Uz vienums vienums. vienums sava unikālais Filiāle Saite Uz vienums Jauns Lietotāji Uz Selldone, un vienums vienums vienums Komisija No vienums Darījums vienums veikt—vienums. vienums Ietilpst vienums No Abonementi, pakalpojums veida, Veikals vienums, un visi Citas ieņēmumi vienums. Sākt vienums vienums vienums vienums Domēns ieņēmumi Bez vienums Ierobežojumi uz Laiks vai vienums. vienums mums un vienums sava vienums vienums vienums vienums ienākumi!",
+        "Selldone partnerprogramma ir vienkārša un vienkārša, un tā ir paredzēta, lai jūs bez pūlēm nopelnītu. Kopīgojiet savu unikālo saistīto saiti, lai uzaicinātu jaunus lietotājus uz Selldone, un jūs uz visiem laikiem nopelnīsit komisiju par katru viņu veikto darījumu. Tas ietver ieņēmumus no abonementiem, pakalpojumu maksām, veikala jauninājumiem un visām citām ieņēmumu plūsmām. Sāciet nopelnīt daļu no ieņēmumiem bez laika vai ieņēmumu ierobežojumiem. Pievienojieties mums un pārvērtiet savu tīklu par stabiliem ienākumiem!",
       why_join_selldone_affiliate: "vienums ir vienums vienums unikālais vienums?",
       reasons: [
         "apstiprinu vienums vienums!",
         "vienums visi Abonēšana un Darījums veida. vienums vienums 💳 Apmaksa vienums Domēns Lietotājs uz Selldone.",
-        "vienums Sūtīt vienums Bezmaksas $99 kuponu Uz vienums vienums vienums vienums sava Saite.",
+        "Mēs nosūtām bezmaksas $99 kuponu ikvienam, kurš reģistrējas, izmantojot jūsu saiti.",
         "kad sava līmenis vienums, vienums vienums vienums plkst Domēns Jauns likme No visi vienums vienums Lietotāji.",
       ],
     },
@@ -10677,12 +10677,12 @@ export default {
     clone_tooltip: {
       title: "Tehnisko Stils",
       subtitle:
-        "Izmantojiet vienums vienums Uz vienums vienums vienums kā fonti, vienums, vienums, un vienums. vienums vienums vienums Uz Tehnisko vienums:",
+        "Izmantojiet šo rīku, lai replicētu stilus, piemēram, fontus, fonus, piemales un apmales. Lai dublētu stilus, veiciet šīs darbības:",
       step_1:
-        "vienums Domēns vienums un vienums sava vienums laika tekstu, vienums, vai Attēli; Domēns vienums vienums Mainīt Uz vienums vienums.",
-      step_2: "Noklikšķiniet uz Domēns vienums vienums Stils vienums vienums Uz Kopēt.",
+        "Aktivizējiet rīku un virziet kursoru virs teksta, kolonnām vai attēliem; kursors mainīsies uz pipeti.",
+      step_2: "Noklikšķiniet uz elementa, kura stilu vēlaties kopēt.",
       step_3:
-        "Domēns vienums vienums Mainīt Atpakaļ Uz vienums vienums; Noklikšķiniet uz Domēns vienums vienums vienums vienums Uz Uzklājiet Domēns vienums Stils.",
+        "Kursors tiks mainīts atpakaļ uz paleti; noklikšķiniet uz elementa, kurā vēlaties lietot kopēto stilu.",
     },
     show_side_menu_tooltip: {
       subtitle:
@@ -10690,12 +10690,12 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Iespējot vienums Līdzekļa Uz vienums vienums un vienums vienums pēc vienums vienums.",
+        "Iespējojiet šo funkciju, lai viegli pārkārtotu un sakārtotu sadaļas, velkot tās.",
     },
     edit_mode_tooltip: {
       title: "Rediģēt / Priekšskatījums režīms",
       edit_mode_title: "Rediģēt režīms",
-      edit_mode_msg: "visi vienums Rīki vienums vienums vienums.",
+      edit_mode_msg: "Tiks parādīti visi rediģēšanas rīki.",
       view_mode_title: "Priekšskatījums režīms",
       view_mode_msg:
         "Skatīt sava lapa kā Lietotāji vienums vienums apstiprinu pēc vienums Papildu vienums Rīki un vienums tekstu vienums.",
@@ -10703,7 +10703,7 @@ export default {
     repository_tooltip: {
       title: "vienums vienums",
       subtitle:
-        "vienums Domēns vienums vienums vienums-izstrādāts vienums. vienums vienums ir izveidota vienums Domēns vienums vienums Pieejams vienums Domēns vienums Izvēlne, vienums Domēns vienums vienums vienums lapa asistents.",
+        "Pārslēgt iepriekš izstrādāto sadaļu rādīšanu. Šīs sadaļas ir izveidotas, izmantojot standarta sadaļas, kas pieejamas kreisajā izvēlnē, parādot šī lapu veidotāja elastību.",
     },
     live_view: {
       title: "Tiešraide Priekšskatījums",
@@ -10712,7 +10712,7 @@ export default {
     hotkeys_dialog: {
       title: "vienums vienums",
       augment_tips:
-        "vienums vienums vienums vienums Rediģēt vienums sava lapa un vienums apstiprinu ar <b>vienums</b> vērtības. vienums ir Lietots par Pielāgots vienums Lapas vienums kā <b>Produkti</b>, <b>Kategorijas</b>, un <b>vienums Preces</b>. Uz Iestatiet vienums Attēls Uz vienums vienums, Noklikšķiniet uz <b>vienums</b> un Izvēlieties <b>vienums vienums</b> par vienums Attēls. Fee",
+        "Varat ielādēt dinamisku saturu savā lapā un aizstāt to ar <b>augment</b> vērtībām. Papildinājums tiek izmantots pielāgotām dinamiskām lapām, piemēram, <b>Produkti</b>, <b>Kategorijas</b> un <b>Iekļaut vienumus</b>. Lai iestatītu attēla dinamisku ielādi, noklikšķiniet uz <b>Padevējs</b> un šim attēlam atlasiet <b>Dinamisko avotu</b>.",
     },
     hotkeys: {
       ctrl_b: "vienums vienums uz/ATLAIDI par izvēlētās tekstu | <b>veikt mani vienums</b>",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Iestatījumi",
         subtitle:
-          "vienums vienums Saglabāt Pielāgots-izstrādāts vienums par vienums Izmantojiet vienums sava lapa vienums. vienums Saglabāta vienums vienums vienums vienums Uz visi vienums vienums vienums veikals.",
+          "Varat saglabāt pielāgotas sadaļas turpmākai izmantošanai lapu noformējumā. Šīs saglabātās sadaļas būs pieejamas visiem šī veikala administratoriem.",
       },
       image: {
         title: "Attēls",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kods",
         subtitle:
-          "vienums vienums Kopēt un vienums Domēns vienums Kods No Domēns vienums puse vienums vienums Domēns lapa asistents.",
+          "Elementa kodu var kopēt un ielīmēt lapas veidotāja kreisās puses sadaļās.",
       },
       inputs: {
         title: {
@@ -10798,7 +10798,7 @@ export default {
     access_tooltip: {
       title: "vienums Piekļuve",
       subtitle:
-        "Domēns pārdevējs vienums Piekļuve Uz vienums vienums. vienums vienums Rediģēt vienums vienums pārdevējs > Piekļuve vienums.",
+        "Pārdevējam ir piekļuve savam panelim. Varat to rediģēt cilnē Piegādātājs > Piekļuve.",
     },
     reject_by_user_tooltip: {
       title: "Noraidīts pēc Lietotājs",
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "vienums Darbības",
     subtitle:
-      "vienums vienums Sūtīt vienums Statuss Atjaunināt E-pasts Uz Domēns Pircēja ar vienums vienums Noklikšķiniet. vienums, vienums vienums vienums vienums ziņojumu šeit Uz vienums, vienums vienums Nepalaidiet vienums Uz vienums vienums vienums Laiks.",
+      "Ar vienu klikšķi varat nosūtīt pircējam statusa atjauninājuma e-pasta ziņojumu. Turklāt šeit varat definēt izplatītākos ziņojumus, lai tos izmantotu atkārtoti, tāpēc jums tie nav katru reizi jāpārraksta.",
     send_update_email_action: "Sūtīt Atjaunināt E-pasts",
     add_template_action: "pievienot Ziņa Veidne",
 
@@ -10880,7 +10880,7 @@ export default {
     title: "🛍️ Pasūtiet Saite",
     subtitle: "vienums vienums vienums Domēns 🛍️ Pasūtiet Saite ar Domēns klients.",
     guest_checkout_message:
-      "vienums vienums vienums vienums Skatīt vienums 🛍️ Pasūtiet vienums Domēns vienums vienums.vienums, vienums Domēns klients ir vienums vienums un vienums Nepieciešama Uz vienums Domēns 🛍️ Pasūtiet Sīkāka informācija, vienums vienums Izveidot vienums (drošas) Saite par vienums.",
+      "Viespircēji var automātiski skatīt savu pasūtījumu tajā pašā pārlūkprogrammā. Taču, ja klients ir viesis un jums ir nepieciešams kopīgot pasūtījuma informāciju, varat izveidot viņiem drošu saiti.",
     authentication: "vienums",
     guest: "vienums",
     click_to_create: "Noklikšķiniet Uz Izveidot...",
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "pievienot Jauns vienums Iestatiet",
     title: "vienums vienums",
     subtitle:
-      "vienums vienums Izveidot un Pārvaldiet vienums vienums šeit. vienums vienums ir Lietots Uz vienums Domēns vienums vienums Produkti un Pakalpojumi. vienums vienums vienums vienums vienums vienums Uz Produkti vienums Domēns Produkts Mērinstrumentu panelis > Rediģēt.",
+      "Šeit varat izveidot un pārvaldīt rekvizītu kopas. Rekvizītu kopas tiek izmantotas, lai definētu produktu un pakalpojumu īpašības. Šīs rekvizītu kopas produktiem varat piešķirt sadaļā Produktu informācijas panelis > Rediģēt.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "vienums Iestatiet - Pielāgots Varianti",
       subtitle:
-        "vienums vienums vienums Domēns variantu vienums par vienums Produkts, vienums Domēns Noklusējums vienums.",
+        "Varat pielāgot šī produkta variantu nosaukumus, aizstājot noklusējuma nosaukumus.",
     },
 
     subtitle:
-      "vienums vienums vienums variantu vienums, vienums, un vienums 🛍️ Pasūtiet šeit. par Produkti ar unikālais Varianti vienums Dodieties vienums Domēns Noklusējums vienums, vienums vienums Iestatiet Pielāgots Varianti Pielāgotu Uz vienums Produkts. vienums vienums vienums vienums vienums Domēns Loģistika > vienums vienums vienums un vienums vienums Uz vienums numurs vienums Produkti kā vienums.",
+      "Šeit varat pielāgot variantu nosaukumus, ikonas un to secību. Produktiem ar unikāliem variantiem, kas pārsniedz noklusējuma sešus, varat iestatīt pielāgotus variantus, kas pielāgoti katram produktam. Vienkārši definējiet rekvizītu kopas cilnē Loģistika > Rekvizītu kopas un pēc vajadzības piešķiriet tās jebkuram produktu skaitam.",
     select_property_set: "Izvēlieties vienums Iestatiet",
     add_property_set: "pievienot vienums Iestatiet",
   },
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"saraksts",
-    message:"Izveidot vienums vienums, vienums vienums par vienums Tips vienums saraksts—vienums, vienums, vienums, Pakalpojumi, un Vairāk..."
+    message:"Izveidojiet meklējamu, regulētu direktoriju jebkura veida ierakstiem — īpašumiem, viesnīcām, ārstiem, pakalpojumiem un citiem."
   },
 
   shop_listing: {
     name: "saraksts",
     message:
-      "Izveidot vienums vienums, vienums vienums par vienums Tips vienums saraksts—vienums, vienums, vienums, Pakalpojumi, un Vairāk...",
+      "Izveidojiet meklējamu, regulētu direktoriju jebkura veida ierakstiem — īpašumiem, viesnīcām, ārstiem, pakalpojumiem un citiem.",
 
     items: {
       title: "Preces",
@@ -11002,7 +11002,7 @@ export default {
       opening_hours_json: "vienums laiks JSON",
 
       delete_title: "Dzēst lieta",
-      delete_message: "ir vienums vienums vienums vienums Uz Dzēst vienums lieta?",
+      delete_message: "Vai tiešām vēlaties dzēst šo vienumu?",
       delete_success: "Vienums veiksmīgi izdzēsts.",
       restore_success: "lieta vienums atjaunināts.",
 
@@ -11017,7 +11017,7 @@ export default {
     categories: {
       title: "Kategorijas",
       sub_title:
-        "vienums sava vienums ar Kategorijas un vienums. vienums vienums vienums un vienums.",
+        "Sakārtojiet savu direktoriju ar kategorijām un apakškategorijām. Tas uzlabo navigāciju un filtrēšanu.",
 
       empty_title: "Nē Kategorijas pirkuma",
       empty_subtitle:
@@ -11034,7 +11034,7 @@ export default {
       design_id: "Design ID",
 
       delete_title: "Dzēst kategoriju",
-      delete_message: "ir vienums vienums vienums vienums Uz Dzēst vienums Kategorija?",
+      delete_message: "Vai tiešām vēlaties dzēst šo kategoriju?",
       delete_success: "Kategorija Izdzēsts atjaunināts.",
       form_schema: "Kategorija forma vienums",
     },
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Dzēst Dizaina",
       delete_message:
-        "Dzēst vienums Dizaina? Kategorijas vienums apstiprinu vienums vienums vienums Dizaina_ID.",
+        "Vai dzēst šo dizainu? Kategorijas, kas to izmanto, automātiski zaudēs design_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "emblēmas",
       sub_title:
-        "Izveidot un Pārvaldiet vienums emblēmas. emblēmas vienums vienums vienums Uz saraksts Preces Uz vienums Īpašais vienums.",
+        "Izveidojiet un pārvaldiet veikala nozīmītes. Uzskaites vienumiem var piešķirt emblēmas, lai izceltu īpašus atribūtus.",
 
       empty_title: "Nē emblēmas pirkuma",
       empty_subtitle:
@@ -11160,7 +11160,7 @@ export default {
       },
 
       delete_title: "Dzēst vienums",
-      delete_message: "ir vienums vienums vienums vienums Uz Dzēst vienums vienums?",
+      delete_message: "Vai tiešām vēlaties dzēst šo emblēmu?",
     },
 
     companies: {
@@ -11221,7 +11221,7 @@ export default {
       true_description: "saraksts ir iespējota. Klienti vienums vienums saraksts Lapas.",
       false_description: "saraksts ir atspējots. Domēns saraksts Lapas un vienums ir vienums.",
       open_listing: "darba saraksts",
-      note: "vienums vienums vienums Konfigurēt vienums, Ierobežojumi, vienums, un Dizaina iekšā saraksts Iestatījumi.",
+      note: "Vēlāk saraksta iestatījumos varat konfigurēt regulēšanu, ierobežojumus, formas un dizainu.",
       vendor_prereq_text:
         "vienums pārdevēji Uz pievienot saraksts Preces No vienums pārdevējs vienums? pirmais, vienums sava Biznesa modelis Uz Tirgus laukums.",
       vendor_prereq_button: "Iestatiet Tirgus laukums Biznesa modelis",
@@ -11244,16 +11244,16 @@ export default {
       subtitle: "Dizaina vienums Klienti meklēšana sava saraksts. Iespējot Atrašanās vieta-pamatojoties meklēšana un Būvēt Filtri No sava Pielāgots forma vienums.",
 
       location_title: "Atrašanās vieta meklēšana",
-      location_subtitle: "vienums Klienti Uz vienums vienums Atrašanās vieta un Atrodiet vienums vienums vienums vienums vienums Rādiuss.",
+      location_subtitle: "Ļaujiet klientiem izvēlēties atrašanās vietu un atrast tuvumā esošos rezultātus konfigurējamā rādiusā.",
       location_enabled_true: "Atrašanās vieta Filtrs ir iespējota. Klienti vienums meklēšana pēc Nosegts.",
       location_enabled_false: "Atrašanās vieta Filtrs ir atspējots. vienums vienums nav vienums Filtrēti pēc Nosegts.",
 
       radius_default: "Noklusējums Rādiuss (vienums)",
       radius_default_hint: "Lietots kad Domēns klients vienums vienums Atrašanās vieta vienums vienums nav vienums vienums Rādiuss.",
       radius_max: "Maksimālais Rādiuss (vienums)",
-      radius_max_hint: "Domēns vienums Rādiuss vienums vienums vienums Uz vienums Vērtība.",
+      radius_max_hint: "Veikala fasādes rādiuss tiks fiksēts līdz šai vērtībai.",
       radius_options: "Rādiuss opcija (vienums)",
-      radius_options_hint: "vienums vērtības vienums vienums vienums kā vienums opcija vienums Domēns vienums UI.",
+      radius_options_hint: "Šīs vērtības var parādīt kā ātrās opcijas veikala fasādes lietotāja saskarnē.",
 
       filters_title: "meklēšana Filtri",
       filters_subtitle: "pievienot Filtri vienums Lasīt vērtības No lieta vienums vienums (sava saraksts/Kategorija forma vienums). Izmantojiet Auto-vienums Uz vienums vienums opcija No Publicēts Preces.",
@@ -11908,7 +11908,7 @@ export default {
         "Profesionāls komplekts",
       ],
       description: [
-        "vienums par vienums vienums Domēns vienums.",
+        "Ideāli piemērots cilvēkiem, kuri pēta pamatus.",
         "Piekļuve Uz visi Premium funkcijas un Rediģēt.",
         "Ekskluzīvs vienums un Prioritāte Atbalsts.",
         "A vienums iepakojuma par vienums Lietotāji.",
@@ -11977,17 +11977,17 @@ export default {
         "vienums vienums Uz vienums vienums vienums.",
         "sava apmierinātības ir vienums vienums Prioritāte.",
         "Nepalaidiet vienums Uz likme sava vienums.",
-        "vienums vienums par vienums vienums veikals.",
+        "Paldies, ka atbalstāt mūsu veikalu.",
         "vienums vienums vienums Izbaudiet sava Jauns Pirkums!",
         "Saglabāt sava Rēķins par vienums vienums.",
         "Vizīte mums vienums par Vairāk.. vienums Produkti.",
         "vienums Savienots par Ekskluzīvs Piedāvājumi.",
-        "vienums vienums par vienums vienums vienums klients.",
-        "vienums šeit Uz Palīdzības vienums vienums Nepieciešama vienums.",
+        "Paldies, ka esat vērtīgs klients.",
+        "Mēs esam šeit, lai palīdzētu, ja jums nepieciešama palīdzība.",
         "sava Atsauksmes vienums mums vienums.",
         "Izbaudiet vienums Īpašais Atlaide uz sava Nākamais Pirkums.",
         "vienums vienums vienums vienums izvēle!",
-        "vienums vienums par sava vienums vienums mums.",
+        "Paldies par uzticību mums.",
         "vienums vienums Uz sava Atsauksmes.",
         "A vienums vienums vienums No vienums vienums.",
       ],
@@ -12123,7 +12123,7 @@ export default {
         "Tūlītēji vienums uz visi sava Mīļākā Preces.",
         "Saglabāt Vairāk.. ar Sezonas vienums Piedāvājumi.",
         "vienums sava vienums uz Īpašais 30 dienas!",
-        "vienums vienums vienums Laiks vienums Veikals.",
+        "Nopelniet naudas atmaksu katru reizi, kad iepērkaties.",
         "vienums Domēns vienums trakums Šodien!",
         "VIP vienums Izbaudiet Ekskluzīvs vienums.",
         "vienums! Ierobežota Laiks vienums Piedāvājumi.",
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "LAIPNI LŪDZAM 10 Uz {shop} - vienums vienums vienums diapazons vienums Preces",
+        "Laipni lūdzam {shop} — izpētiet mūsu atšķirīgo preču klāstu",
         "{shop} - sava Galīgais vienums par kvalitāte Preču un vienums pakalpojums",
         "Ekskluzīvs Piedāvājumi un ietaupījumi maksājumus plkst {shop} - vienums Domēns vienums!",
-        "Iegūstiet Uz vienums {shop}'vienums vienums Uz Videi-vienums un vienums vienums",
-        "vienums vienums vienums vienums Domēns {shop} vienums - vienums Uz vienums vienums par atjauninājumi",
-        "vienums vienums vienums izvēles un vienums-vienums preces plkst {shop}",
+        "Iepazīstieties ar {shop} apņemšanos ievērot videi draudzīgumu un ētisku praksi",
+        "Kļūstiet par daļu no {shop} ģimenes — abonējiet mūsu biļetenu, lai saņemtu atjauninājumus",
+        "Iepazīstieties ar populārākajām un augsti novērtētajām precēm vietnē {shop}",
         "vienums idejas un vienums vienums par visi Pasākumi plkst {shop}",
-        "vienums Piedāvājumi un Laiks-vienums vienums plkst {shop} - vienums Ātra!",
-        "{shop}'vienums vienums vienums padomi un Produkts vienums - Veikals ar vienums",
-        "vienums vienums Uz {shop} - vienums vienums Uz vienums vienums vienums Iepirkumu vienums",
+        "Nepārspējami piedāvājumi un īpašie īpašie piedāvājumi vietnē {shop} — rīkojieties ātri!",
+        "{shop} visaptverošie pirkšanas padomi un produktu novērtējumi — iepērcieties ar pārliecību",
+        "Sazinieties ar {shop} — mēs cenšamies nodrošināt nepārspējamu iepirkšanās pieredzi",
       ],
     },
 
@@ -12166,7 +12166,7 @@ export default {
         "Iegūstiet Vairāk.., vienums vienums – Komplekta vienums!",
         "Ierobežota-Laiks Piedāvājums: atbilst Produkti!",
         "Jaunināt sava vienums, vienums Piedāvājumi!",
-        "vienums vienums vienums vienums, Saglabāt tūlīt!",
+        "Atklājiet mūsu atlasītās kombinācijas, saglabājiet tagad!",
         "vienums apstiprinu vienums par Domēns Galīgais vienums!",
         "Veikals vienums, Komplekta un Saglabāt!",
         "vienums Domēns Vērtība, vienums Domēns vienums!",
@@ -12175,7 +12175,7 @@ export default {
         "vienums sava ietaupījumi ar vienums vienums!",
         "vienums sava vienums ar vienums izvēles!",
         "vienums par vienums: vienums un Saglabāt!",
-        "Domēns vienums vienums par vienums vienums dienu!",
+        "Ideāls pāris ideālai dienai!",
         "Komplekta sava Izlase par Papildu ietaupījumi!",
       ],
     },
@@ -12226,27 +12226,27 @@ export default {
         "lieta Atpakaļ vienums vienums",
       ],
       body: [
-        "vienums {buyer_name}, sava 🛍️ Pasūtiet #{order_id} vienums vienums Apstiprināts! vienums’vienums Apstrādes apstiprinu un vienums Paziņot vienums kad apstiprinu’vienums gatava Uz vienums.",
+        "Sveiki, {buyer_name}! Jūsu pasūtījums #{order_id} ir apstiprināts! Mēs to apstrādājam un paziņosim, kad tas būs gatavs nosūtīšanai.",
 
         "Labi vienums, {buyer_name}! sava 🛍️ Pasūtiet #{order_id} vienums vienums Nosūtīts. vienums vienums Izsekot apstiprinu vienums sava Konts. vienums par Iepirkumu ar mums!",
 
-        "vienums {buyer_name}, sava 🛍️ Pasūtiet #{order_id} vienums vienums atjaunināts Piegādāts. vienums vienums vienums Izbaudiet sava Pirkums. vienums vienums!",
+        "Labdien, {buyer_name}! Jūsu pasūtījums #{order_id} ir veiksmīgi piegādāts. Mēs ceram, ka jums patiks pirkums. Paldies!",
 
-        "vienums {buyer_name}, vienums vienums Saņemts Domēns 💳 Apmaksa par 🛍️ Pasūtiet #{order_id}. sava 🛍️ Pasūtiet ir tūlīt vienums vienums un vienums vienums Nosūtīts vienums.",
+        "Sveiki, {buyer_name}, esam saņēmuši maksājumu par pasūtījumu #{order_id}. Jūsu pasūtījums pašlaik tiek apstrādāts un drīz tiks nosūtīts.",
 
-        "vienums {buyer_name}, vienums vienums Uz vienums vienums vienums sava 🛍️ Pasūtiet #{order_id} vienums vienums vienums. vienums vienums vienums vienums jautājumi, vienums Sazināties Atbalsts.",
+        "Cien. {buyer_name}, ar nožēlu paziņojam, ka jūsu pasūtījums #{order_id} ir atcelts. Ja jums ir kādi jautājumi, lūdzu, sazinieties ar atbalsta dienestu.",
 
-        "vienums {buyer_name}, vienums’vienums vienums vienums aizkavi ar sava 🛍️ Pasūtiet #{order_id}. vienums vienums par Domēns vienums un ir Darba Uz vienums apstiprinu kā vienums kā vienums.",
+        "Cien. {buyer_name}, mēs novērojam aizkavēšanos ar jūsu pasūtījumu #{order_id}. Atvainojamies par sagādātajām neērtībām un strādājam, lai tās pēc iespējas ātrāk atrisinātu.",
 
         "vienums {buyer_name}, sava 🛍️ Pasūtiet #{order_id} ir vienums uz vienums. vienums Pārbaudiet sava Konts vai Sazināties Atbalsts par vienums Sīkāka informācija.",
 
-        "vienums {buyer_name}, sava 🛍️ Pasūtiet #{order_id} ir vienums par Piegāde un vienums vienums vienums vienums. vienums vienums par sava vienums!",
+        "Sveiki, {buyer_name}! Jūsu pasūtījums #{order_id} ir beidzies piegādei, un tas drīzumā sasniegs jūs. Paldies par pacietību!",
 
-        "vienums {buyer_name}, vienums vienums vienums Domēns 📦 Atgriešanās par sava 🛍️ Pasūtiet #{order_id}. vienums vienums vienums vienums jautājumi, vienums Sazināties Atbalsts.",
+        "Cien. {buyer_name}, esam apstrādājuši jūsu pasūtījuma atgriešanu #{order_id}. Ja jums ir kādi jautājumi, lūdzu, sazinieties ar atbalsta dienestu.",
 
-        "vienums {buyer_name}, sava vienums par 🛍️ Pasūtiet #{order_id} vienums vienums Izsniegto. vienums vienums vienums Domēns vienums vienums sava Konts vienums.",
+        "Sveiki, {buyer_name}! Jūsu atmaksa par pasūtījumu #{order_id} ir izsniegta. Drīzumā jums vajadzētu redzēt līdzekļus savā kontā.",
 
-        "vienums {buyer_name}, Domēns lieta No sava 🛍️ Pasūtiet #{order_id} ir Atpakaļ vienums vienums! vienums vienums vienums vienums Jauns 🛍️ Pasūtiet tūlīt vienums vienums’vienums vienums vienums.",
+        "Sveiki, {buyer_name}! Prece no jūsu pasūtījuma #{order_id} ir atpakaļ noliktavā! Ja jūs joprojām interesē, varat veikt jaunu pasūtījumu tūlīt.",
       ],
     },
 

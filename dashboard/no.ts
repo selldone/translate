@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Anskaffelseskanaler",
         subtitle:
-          "element bedrift element element Rapportere element element kunde anskaffelse Kanaler",
+          "Bedriften din vokser. Her er rapporten over dine kundeanskaffelseskanaler.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "koblet ark",
         tooltip:
-          "element Produkter element element Butikk element koblet Til element Google ark element Google element",
+          "Produktene i denne butikken er koblet til et Google-ark i Google Disk.",
       },
       show_deletes: {
         false_title: "Skjul Slettet",
@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Dra-og-slipp-modus",
         false_description:
-          "Utsikt Produkter element element Kategorier element element",
+          "Se produkter organisert etter kategorier og underkategorier.",
         true_title: "Tabellmodus",
         true_description: "Utsikt Produkter element element ",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "Produkt-RSS",
         subtitle:
-          "element element RSS element Til element element Liste element alle Produkter",
+          "Bruk denne RSS-feeden for å holde en oppdatert liste over alle produkter.",
       },
       api_dialog: {
         title: "Produkt-API",
         subtitle:
-          "element element API element Til element element Produkt Liste element element API Til element Produkter Fra element butikk, element element Produkt liste element element ",
+          "Bruk denne API-feeden for å holde produktlisten din oppdatert. Den gir en offentlig tilgjengelig API for å hente produkter fra butikken din, noe som gjør den ideell for produktoppføringer og sammenligningsnettsteder.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "frakt begrensning",
         subtitle:
-          "element element begrensning Til element element Kunder element element frakt element element tjen Kjøp Fra element!",
+          "Du kan implementere begrensninger for å sikre at kun kunder innenfor de angitte fraktområdene kan foreta kjøp fra deg!",
         no_enable_shipping_error:
           "Nei element element Kjøpe Fra element element Nei aktivert frakt metode!",
         customer_must_select_a_shipping_msg:
           "kunde element Velg element frakt metode Til element 🛍️ Bestill",
         customer_can_order_without_shipping_method_msg:
-          "kunde element element 🛍️ Bestill element element Nei frakt metode element element Velg plassering",
+          "Kunden kan legge inn bestillingen selv om ingen fraktmetode støttes for det valgte stedet.",
         inputs: {
           restriction: {
             false_description:
-              "Kunder element element Ordrene element element Nei element frakt metode element element Velg",
+              "Kunder kan fortsatt legge inn bestillinger selv om ingen spesifikk fraktmetode er valgt.",
             false_title: "Aksepterer alle Ordrene",
             true_title: "element Aksepterer 🛍️ Bestill",
             true_description:
-              "Kunder element element Til element element frakt element element 🛍️ Bestill Til element element Kjøp",
+              "Kunder må velge enten et frakt- eller hentealternativ for å fullføre kjøpet.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Angi lageret, butikken eller opprinnelsen til virksomheten din. Det er viktig å ha med i fraktkostnadsberegningen og utsjekkingsprosessen.",
       no_multi_warehouse_support_message:
-        "element element, element element Tilgjengelig element element Butikker",
+        "For enkelhets skyld er denne funksjonen ikke tilgjengelig i vanlige butikker.",
       size_unit: {
         title: "Størrelsesenhet",
         subtitle: "Enheten som brukes for lengde, bredde og høyde.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Lagre aktive apper",
         subtitle:
-          "Selldone Administrer bedriftsapplikasjonene dine.",
+          "Oppdag hvor enkelt det er å administrere bedriftsapplikasjonene dine med Selldone App Store. Plattformen vår tilbyr en omfattende pakke med verktøy designet for å optimalisere virksomheten din. Fra innovative administrasjonsløsninger til produktivitetsfremmende apper, Selldone gir en sømløs opplevelse for bedrifter som søker effektivitet og vekst.",
         all: "alle",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "element",
           subtitle:
-            "element element , element Bilder element element Nettsted element element , element, element Mobil element element",
+            "Favoritter er små, ikoniske bilder som representerer et nettsted i nettleserfaner, bokmerker og mobilappgrensesnitt.",
         },
       },
 
@@ -1486,7 +1486,7 @@ export default {
 
       category: {
         subtitle:
-          "element element Kategori element Tittel Til element element liste",
+          "Konfigurer kategorien og tittelen som skal vises i oppføringen din.",
       },
       unit: {
         subtitle:
@@ -1495,9 +1495,9 @@ export default {
       custom_pricing: {
         title: "Tilpasset Prissetting skjema",
         subtitle:
-          "element element Skape element element (element Prissetting Inndata skjema) Til element Produkt, element element Kunder element Velg element Varianter element element Inndata skjema",
+          "Du kan opprette eller tilordne en verdivurdering (et prisinndataskjema) til produktet, og kundene dine kan velge mellom varianter eller tilpasse varene dine ved hjelp av et intuitivt inputskjema.",
         valuation_need_saved_product_message:
-          "element Lagre element Produkt element, element element ",
+          "Vennligst lagre produktet først, og deretter kan du tilordne en verdivurderingsmodell.",
         assign_valuation_message:
           "element element Til element Produkt",
         edit_pricing_action: "Redigere Prissetting skjema",
@@ -1506,27 +1506,27 @@ export default {
       action: {
         title: "Tilpasset Kjøpe element",
         message:
-          "element element Endring Ikon element element : {icon name} element",
+          "Du kan endre ikon ved å følge dette mønsteret: {icon name} bildetekst...",
         placeholder: "element element Til element",
         multi_language_dialog_title: "Tilpasset Kjøpe element element",
       },
       external: {
         not_available_message:
-          "element element Tilgjengelig element Selskap & element element",
-        available_message: "element element Legg til element element Til element",
+          "Ekstra handling tilgjengelig med firma- og bedriftslisenser.",
+        available_message: "Du kan legge til en ekstra ekstern handlingsfremmende oppfordring.",
         input_label: "element element Til element",
       },
       warehouse: {
         subtitle:
-          "element informasjon element element Lager Administrasjon element element Til element element Produkt",
+          "Denne informasjonen brukes av lagerstyringssystemet og tjener til å identifisere produktet globalt.",
       },
       gtin: {
-        hint: "element element UPC (element element, 12 element), EAN (element, 13 element), JAN (element, 8 element 13 element), ISBN (element, 13 element).",
+        hint: "Støttede verdier er UPC (Nord-Amerika, 12 sifre), EAN (Europa, 13 sifre), JAN (Japan, 8 eller 13 sifre), ISBN (bøker, 13 sifre).",
         label: "Produkter element element punkt element",
         placeholder: "element element (valgfritt)",
       },
       hsn: {
-        hint: "HSN, element element , element element Produkter",
+        hint: "HSN, eller Harmonized System of Nomenclature, er et internasjonalt standardisert klassifiseringssystem for å kategorisere varer og produkter.",
         placeholder: "6~16 element HSN Kode (valgfritt)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "Produkt element element butikk",
         message: "element element Produkt",
         subtitle:
-          "element element Kunder element element Merke element element Produkt element tilbud",
+          "Informer kundene dine om tilstanden og merket til produktet du tilbyr.",
       },
       brand: {
         label: "Merke",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "element element garanti element Produkt status, element element informasjon element garanti element element Til element kunde element element Tid element element Produkter element element Returnert element Kjøp",
+          "Angi garantien og produktstatusen, siden denne informasjonen om garanti vil vises til kunden og hjelper til med å etablere tidsrammen for hvilke produkter kan returneres etter kjøp.",
 
         label: "garanti",
         placeholder: "gylden 24 Måneder garanti (valgfritt)",
@@ -1555,12 +1555,12 @@ export default {
       profiles: {
         title: "Profiler",
         subtitle:
-          "element element garanti, Komme tilbake policy, frakt, element veiledning element element Til element Produkt element element Ny element element Produkt side",
+          "Du kan definere garanti, returpolicy, frakt og veiledning og tilordne dem til dette produktet. Det vil vises som nye faner på produktsiden.",
       },
       shortcuts: {
         title: "element Produkt Til element Kategorier",
         subtitle:
-          "element element Til Liste element Produkt element element Kategorier element element Hoved Kategori element element Produkt > Redigere > Kategori element, element element Til element 'element element , element element Produkt Til element element Kategorier",
+          "Denne funksjonen lar deg liste produktet i flere kategorier mens du beholder plasseringen i den primære kategorien satt under Produkt > Rediger > Kategori. I hovedsak fungerer det på samme måte som å lage \"snarveier\" i operativsystemer, slik at produktet vises i flere spesifiserte kategorier.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Tekniske spesifikasjoner",
       subtitle:
-        "element Produkt Spesifikasjoner element element informasjon element element Til Kunder element element kategori element filter element",
+        "Sett inn produktspesifikasjoner her. Denne informasjonen vil vises til kunder og kan også brukes i kategoriens intelligente filtreringssystem.",
       manual: {
         title: "element",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "element element Importer Teknisk Spesifikasjoner element element Produkter",
+          "Du kan importere tekniske spesifikasjoner for lignende produkter.",
         action_title: "Importer",
         action_subtitle: "element spesifikasjon Fra element Produkt",
       },
       ai: {
         title: "AI",
         subtitle:
-          "element element Skape Produkt Spesifikasjoner element element Produkter element element skjema",
+          "Du kan automatisk lage produktspesifikasjoner ved å sende inn produktets rådata i tekstform.",
         action_title: "automatisk element element AI",
         action_subtitle: "Skape Produkt Spesifikasjoner element element ",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Produktkode: P0000 ...",
         spec_view_title: "Spesifikasjoner for det valgte produktet",
         spec_view_subtitle:
-          "element Spesifikasjoner element element Importer Fra element element Produkt",
+          "Spesifikasjonene er importert fra det valgte produktet.",
         set_spec_action: "Dupliserte tekniske spesifikasjoner",
       },
       notifications: {
@@ -1691,7 +1691,7 @@ export default {
         prompt: {
           title: "Produkt Oversikt",
           subtitle:
-            "element element Beskrivelse element element Produkt, element element Detaljer element informasjon element element Brukt Til element element Produkt Spesifikasjoner",
+            "Gi en kort og tydelig beskrivelse av produktet, og fremhev dets hovedfunksjoner og detaljer. Denne informasjonen vil bli brukt til å generere produktspesifikasjonene automatisk.",
         },
         generated_spec: {
           title: "elementelement Spesifikasjoner AI",
@@ -1745,7 +1745,7 @@ export default {
         actions: {
           reimagine: {
             title: "element Ny Bilde",
-            subtitle: "tenk på nytt element element Bilde element element Ny bakgrunn",
+            subtitle: "Reimagine hele bildet med en ny bakgrunn.",
           },
           replace: {
             subtitle: "element element bakgrunn",
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "element element Markedsplass, element Hoved Produkt Prissetting element element liste pris, element element pris element element ",
+          "Innenfor markedsplassen er den primære produktprisen som vises, oppføringsprisen, mens den faktiske prisen bestemmes basert på leverandør-produktforholdspostene.",
         subscription:
-          "element Abonnementer, element element liste pris element element, element element Velg Abonnement element",
+          "For abonnementer vises kun oppføringsprisen, mens den faktiske kostnaden vil bli bestemt basert på valgt abonnementsplan.",
         service:
-          "element element Produkter, element liste Prissetting element element , element element tjeneste element element tjeneste pris element element kunde element element 🛍️ Bestill (element Sjekk ut).",
-        file: "element element Til element liste element element pris element element fil, element Kunder element Betale element 🛍️ Bestill Til element Adgang Til element filer",
+          "For tjenestebaserte produkter er den oppførte prisen utelukkende for visningsformål, og gir en estimert kostnad for tjenesten. Den faktiske tjenesteprisen vil bli bestemt av deg når kunden har lagt inn sin bestilling (ved kassen).",
+        file: "Dette refererer til den oppførte og faktiske prisen på filen, som kundene må betale for å få tilgang til filene.",
         default:
-          "element element Til element Produkter liste pris element element Regnskap element pris element element Varianter element element Prissetting",
+          "Dette refererer til produktets oppgitte pris og tar også hensyn til prisen på eventuelle varianter som ikke har egen pris.",
       },
       extra_pricings: {
         title: "Legg til element Prissetting",
-        subtitle: "element element Prissetting element element Kjøp Mengde",
+        subtitle: "Implementer dynamisk prissetting basert på kjøpsmengde.",
       },
 
       vendor: {
         title: "selger Prissetting",
         subtitle:
-          "element pris element element Produkter liste element element selger pris element element Produkt > selgere element",
+          "Denne prisen vises kun i produktoppføringen. Du kan angi leverandørpris i kategorien Produkt > Leverandører.",
         manage_vendors: "Administrer selgere",
         vendor_product_pricing_link:
-          "element selgere Produkt Prissetting element Tilkoblet element element liste pris element element selger Produkter element Varianter element element Varianter element element Prissetting (element element pris element element hoved Produkt). element pris element element Markedsplass pris, element element selgere pris element element Prissetting element element Markedsplass element element",
+          "Leverandørens produktpriser er koblet sammen. Endring av oppføringsprisen her vil påvirke leverandørprodukter uten varianter eller de med varianter som ikke har egne priser (med samme pris som hovedproduktet). Denne prisen vil bli behandlet som markedsplassprisen, og leverandørens pris vil bli satt basert på prismodellen eller den forrige markedsplassens fortjenestemargin.",
         vendor_variant_pricing_link:
-          "element element pris element element Prissetting element selger Produkter element element pris element element Markedsplass pris, element element selgere pris element element Til element Prissetting element element Markedsplass element element",
+          "Endring av variantprisen her vil påvirke prisingen av leverandørprodukter med samme variant. Denne prisen vil bli betraktet som markedsplassprisen, og leverandørens pris vil bli satt i henhold til prismodellen eller den forrige markedsplassens fortjenestemargin.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Denne meldingen vil bli vist til kunden ved kjøp av produkter.",
       inputs_form: "Informasjonsstruktur (inndata)",
       inputs_hint:
-        "element element Til element element skjema Til element Detaljer Fra element Kunder element element Til element element 🛍️ Bestill",
+        "Du har muligheten til å sette opp et personlig skjema for å samle detaljer fra kundene dine når de er klare til å legge inn en bestilling.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "🛍️ Bestill Grenser",
         subtitle:
-          "element element minimum element maksimum Grense element element Mengde element element punkt element 🛍️ Bestill, element element ",
+          "Hvis du er en grossist eller det er en minimums- eller maksimumsgrense på mengden av denne varen per bestilling, kan du spesifisere det her.",
         no_limit: "Ingen grense",
         minimum_purchase_quantity: "minimum Kjøp Mengde",
         maximum_purchase_quantity: "maksimum Kjøp Mengde",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Fjern produktet",
       message: `Vil du slette <b>{product_title}</b> ?`,
-      tips: "element element Slett element Produkt, element element Til element Butikk > Produkter, element Vis Slettet Varer, element element Produkt, element Velg element",
+      tips: "Hvis du ved et uhell sletter et produkt, kan du gjenopprette det ved å gå til Butikken > Produkter, aktivere Vis slettede elementer, og deretter høyreklikke på produktet og velge Gjenopprett.",
     },
   },
 
@@ -1860,16 +1860,16 @@ export default {
   extra_pricing_add_dialog: {
     title: "element Prissetting element element {min}",
     subtitle:
-      "element element 🛍️ Bestill element Prioritet element pris element element Inndata element minimum Mengde element element Prissetting Til element element",
+      "Systemet bestemmer automatisk rekkefølge og prioritet for prisberegning. Angi minimumsmengden som kreves for at denne prisen skal tre i kraft.",
     min_quantity: "Minimumsmengde",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "Inventar element element Produkter element element , element element ",
+        "Beholdning for dropshipping-produkter er satt av grossister, og kan ikke endres her.",
       marketplace:
-        "element element Produkt Inventar element element Markedsplass element element Legg til element element alle selgere element element ",
+        "Den samlede produktbeholdningen i markedet bestemmes ved å legge sammen beholdningene til alle leverandører. Du kan ikke endre det her.",
       default: "element element Produkter Inventar Telle element",
     },
     menu: {
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google Produkt Kategori Kode",
-    hint: "element element Kategori element element Produkt element Til element element Produkt element Google",
+    hint: "Representerer kategorien til produktet ditt i henhold til Googles produktklassifikasjon.",
     placeholder: "element Produkt element tjeneste Kategori (valgfritt)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "garanti",
-      desc: "element garanti element element Til element element Produkt element element Til element element ",
+      desc: "En garanti er en del av en kontrakt der produsenten lover å reparere eller erstatte et produkt innen en spesifisert periode. Denne forpliktelsen kan strekke seg selv til forbrukere som ikke har en direkte kontrakt med produsenten.",
     },
     RETURN_POLICY: {
       title: "Komme tilbake policy",
-      desc: "Komme tilbake element element Kunder element Komme tilbake element Utveksling element element Varer, element element retur, element element retur",
+      desc: "Returretningslinjer skisserer hvordan kunder kan returnere eller bytte uønskede varer. De spesifiserer kvalifiserte varer, akseptable årsaker for returer og tidsrammen for retur.",
     },
     GUIDE: {
       title: "veiledning",
-      desc: "element veiledning element element veiledning element element veiledning element element Produkter",
+      desc: "En guide kan inkludere et størrelsesdiagram for klær eller en valgguide for diamanter. Det er viktig at veiledningene er allsidige og anvendelige for flere produkter.",
     },
     SHIPPING: {
       title: "frakt",
-      desc: "element frakt policy Detaljer element element frakt element element Ordrene, element frakt element, metoder, element element Leveranse Tider",
+      desc: "En fraktpolicy beskriver nøkkelaspektene ved frakt for nettbestillinger, inkludert fraktkostnader, metoder og estimerte leveringstider.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "Misligholde",
       dedicated: "element",
 
-      subscription: "element element Avgift element element innbetaling element element",
+      subscription: "Vi kan bare bruke skatt på trinnet for opprettelse av betaling.",
       is_disabled: "element Avgift profil element deaktivert! (⚠️element)",
       shipping: "frakt",
       fixed_rate: "Avgift",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "Avgift profil",
       subtitle:
-        "element element Avgift element Til element Produkt element element Avgift profil element element Produkt, element Misligholde butikk Avgift element element ",
+        "Du kan tilordne spesielle skatteregler til produktet. Skulle det ikke velges en avgiftsprofil for produktet, vil standard butikkavgiftsbestemmelser bli brukt.",
 
       action_manage: "Administrer Avgift",
       action_manage_sub: "Butikk > Finansiere > Avgift",
 
       subscription_tips:
-        "element element Velg element Avgift profil element Abonnement Produkt, element Oppdater<code>Avgift Kode</code> element element modus element element innbetaling tjeneste element element Velg Avgift profil element element pris element element avgift element element avgift element element <code>element</code> element <code>element</code>. element element , element element <br /><br /><b>element!</b> element element Avgift profil, element element Prissetting Planer element element Produkt > Inventar element element Lagre element Til element element",
+        "Når du velger en skatteprofil for et abonnementsprodukt, oppdaterer vi<code>avgiftskode</code> og setter inkluderende/eksklusiv modus på betalingstjenesteleverandøren din. Den valgte avgiftsprofilen spesifiserer om prisen anses som inkludert avgifter eller eksklusive avgifter. En av <code>inclusive</code> eller <code>exclusive</code>. Når den er spesifisert som enten inkluderende eller eksklusiv, kan den ikke endres.<br /><br /><b>Viktig!</b> Etter at du har endret skatteprofilen, bør du klikke på prisplaner i kategorien Produkt > Beholdning og klikke på Lagre-knappen for å bruke endringer.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "element pris element Mengde element element Produkt element element selger Til element element ",
+        "Prisen og mengden av dette produktet er satt av en bestemt leverandør som det tilhører.",
     },
     vendors: {
       subtitle:
-        "element element Liste element element Produkt element Mengde element pris element element ",
+        "Her er en liste over leverandører for produktet. Mengde og pris vil bli fastsatt av leverandørene.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "selger element",
-      subtitle: "element informasjon element element Til Kunder element",
+      subtitle: "Denne informasjonen vises til kunder offentlig.",
       action_sub_caption: "Offentlig Produkter liste side",
       action_see_listing_page: "se liste side",
       send_invitation_email: "Sende element E-post",
@@ -2006,19 +2006,19 @@ export default {
     },
     map: {
       no_map_message:
-        "element element plassering Til element selger element element selger",
+        "Tilordne en plassering til leverandøren hvis det er en stedsbasert leverandør.",
     },
     page: {
       title: "Tilpasset side",
       subtitle:
-        "element element Tilpasset element side element element selger, element element lenke Til element element side",
+        "Angi en tilpasset landingsside for leverandøren, og gi dem en unik lenke til deres dedikerte side.",
       action_set_page: "se Offentlig side",
       action_sub_caption: "Tilpasset element side",
       vendor_has_landing_msg: "selger element element Tilpasset element side",
       no_landing_selected_msg: "Nei element side Velg",
       no_landing_page: "Nei element side",
       we_can_create_dedicated_landing_msg:
-        "element element Skape element element side element element",
+        "Vi kan lage en dedikert landingsside for deg.",
     },
     contact: {
       title: "Kontakt element",
@@ -2027,16 +2027,16 @@ export default {
     business: {
       title: "bedrift element",
       subtitle:
-        "element element informasjon element element bedrift Til element element  SWIFT",
+        "Oppgi nøyaktig informasjon om virksomheten din for å sikre en rask og sømløs inntektsinnsamlingsprosess.",
     },
     bank: {
       title: "element informasjon",
-      subtitle: "Inndata element element Detaljer element element ",
+      subtitle: "Skriv inn bankopplysningene dine her for utbetalinger.",
     },
     default_pricing: {
       title: "Misligholde Prissetting",
       subtitle:
-        "element element Misligholde Prissetting element element selger element element selger Legg til element Ny Produkt, element Prissetting element element Brukt Til element element Markedsplass element element Produkter pris element element Prissetting element element Produkt element",
+        "Du kan tilordne en standard prismodell for leverandøren. Når leverandøren legger til et nytt produkt, vil denne prismodellen bli brukt til å beregne markedsplassmarginen på produktets pris. Du kan senere justere prismodellen for hvert produkt individuelt.",
       no_pricing: "Nei Prissetting",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "selgere element butikk element element frakt Tjenester element Kurerer",
       shipping_services: "frakt Tjenester",
       total_number_of_services:
-        "element element frakt Tjenester element element selger element",
+        "Det totale antallet frakttjenester som leverandøren har.",
       couriers: "Kurerer",
-      total_couriers_count: "element element Kurerer element element selger element",
+      total_couriers_count: "Det totale antallet bud som leverandøren har.",
     },
     configuration: {
       title: "element",
@@ -2055,14 +2055,14 @@ export default {
       title: "Ta vekk selger",
       action: "Ta vekk selger",
       verify_description:
-        "element element alle selger Produkt element element !",
+        "Jeg vet at alle leverandørproduktrelasjoner vil bli fjernet!",
       verify_title: "element element Til Slett element selger",
     },
 
     send_invitation_tips:
-      "element element Sende element element E-post Til element Bruker element element Bruker element element Butikk element element selger, element Regnskap element element Til element",
+      "Vi sender en e-postinvitasjon til denne brukeren. Hvis brukeren blir med i butikken din som leverandør, vil vedkommendes konto automatisk bli tildelt dem.",
     only_marketplace_owner_can_edit_user:
-      "element element Markedsplass Eieren element Redigere element Bruker element element Til Endring element Eieren element element selger, element element Sende element element Til element",
+      "Bare markedsplasseieren kan redigere brukeren. Hvis du ønsker å endre eieren av denne leverandøren, kan du sende forespørselen til oss.",
     vendor_is_disable_msg: "selger element deaktivert",
     email_not_match_with_user_msg:
       "element E-post element element Brukere E-post (<b>{user_name}:</b>{user_email}). element element Til Sende E-poster Til<b>{email}</b>?",
@@ -2070,13 +2070,13 @@ export default {
     order_information_email_to_email:
       "element element Sende Ordrene informasjon Til <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "element element Bruker element element selger element",
+    set_a_user_for_the_vendor_first_msg: "Angi en bruker for leverandøren først.",
 
     inputs: {
       slug: {
         label: "element",
         placeholder: "element element Tilpasset element",
-        hint: "Endring element element selgere element element side",
+        hint: "Endre banen til leverandørens dynamiske landingsside.",
       },
       email: {
         message: "element E-post element Motta alle Varsler element Oppdater",
@@ -2088,11 +2088,11 @@ export default {
         true_title: "bedrift",
       },
       bank: {
-        hint: "element Navn element element selger element element Regnskap",
+        hint: "Navnet på banken hvor leverandøren har sin konto.",
         placeholder: "element element Navn",
       },
       account_name: {
-        hint: "element element Navn element element Regnskap",
+        hint: "Dette skal samsvare med navnet knyttet til bankkontoen.",
         placeholder: "element Navn",
       },
       account_number: {
@@ -2100,32 +2100,32 @@ export default {
         placeholder: "element element Regnskap element",
       },
       routing_number: {
-        hint: "element element Land element Brukt Til element element selger element",
-        placeholder: "element element , element Kode, element BSB element",
+        hint: "Dette tallet varierer fra land til land. Den brukes til å identifisere den spesifikke bankfilialen leverandøren bruker.",
+        placeholder: "Bankens rutenummer, sorteringskode eller BSB-nummer.",
       },
       iban: {
-        hint: "element element Regnskap element): element element selgere element element ",
+        hint: "Internasjonalt bankkontonummer): Hvis leverandørens bank er i Europa eller visse andre land.",
         placeholder: "element IBAN element element DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "element element Regnskap element): element element selgere element element ",
+        hint: "Internasjonalt bankkontonummer): Hvis leverandørens bank er i Europa eller visse andre land.",
         placeholder: "element element  BIC SWIFT",
       },
       branch_address: {
-        hint: "element adresse element element selger element element Regnskap",
+        hint: "Adressen til bankfilialen hvor leverandøren har sin konto.",
         placeholder: "element element adresse",
       },
       enable: {
         label: "selger status",
-        hint: "element element Muliggjøre element element selgere element Kunder element element Til Kjøp element Fra deaktivert selgere",
+        hint: "Du kan aktivere eller deaktivere leverandører globalt. Kunder vil ikke kunne kjøpe noe fra funksjonshemmede leverandører.",
         true_description:
-          "element element Til element element Produkter element element Markedsplass",
+          "De vil kunne selge produktene sine gjennom markedsplassen din.",
       },
       access: {
         label: "selger element & Adgang",
         true_description:
           "element selger element element Til Oppdater Mengde element pris",
-        hint: "element element Muliggjøre element element selger element, element element selgere Til Oppdater Produkt element element Priser element Motta element Ordrene",
+        hint: "Du kan aktivere eller deaktivere leverandørpanelet, som lar leverandører oppdatere produktmengder og priser og motta delordrer.",
         false_description: "element selger element Nei Adgang Til element",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "element",
     action_upload_doc: "Last opp element",
     vendor_subtitle:
-      "element Last opp element element bedrift, IP, element adresse element element informasjon Til element element Adgang",
+      "Last opp de nødvendige dokumentene for bekreftelse av virksomhet, IP og adresse. Vi krever denne informasjonen for å bekrefte partnerskapet ditt og gi deg nødvendig tilgang.",
     marketplace_subtitle:
-      "selgere element element bedrift, element element, element adresse element Til element element KYC element, element element Til element element Adgang",
+      "Leverandører kan sende inn dokumenter som virksomhet, intellektuell eiendom og adressebekreftelse for å lette deres KYC-prosess, slik at du kan gi dem riktig tilgang.",
     upload_dialog: {
       title: "Last opp element",
       type: {
         title: "element element",
         subtitle:
-          "element Last opp element element informasjon element element Tilgjengelig",
+          "Last opp kun de nødvendige dokumentene. Unngå å dele dokumenter som inneholder sensitiv informasjon. Vi ber om dokumenter som er offentlig tilgjengelige.",
       },
     },
   },
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "element",
           message:
-            "element Vis element merke element Produkter element element Verdi element element spesifikasjon Regex element",
+            "Vis automatisk dette merket for produkter som har denne samsvarende verdien i spesifikasjonen. Regex støttes.",
           placeholder: "Til Vis element alle Produkter skrive: *.*",
         },
       },
       notifications: {
-        badge_added: "element merke element element Legg til element!",
+        badge_added: "Merket er lagt til!",
         badge_updated: "element merke element element !",
         item_not_found_error:
-          "element punkt element element side element Kontakt Brukerstøtte",
+          "Varen ble ikke funnet. Vennligst oppdater siden eller kontakt support.",
       },
     },
   },
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "Tagger",
     tips: [
-      "element element filter Produkter element element Tagger element <b>element Sider</b>.",
-      "element element Kunder element søk element element Tagger element element<b>søk</b> element",
-      "element element Tagger, element Produkter element element <b>element Tagger</b> element element <b>element Produkter element</b> element element Produkt side; element, Produkter element element Kategori element element ",
+      "Du kan filtrere produkter basert på tagger på <b>landingssider</b>.",
+      "Du og kundene dine kan søke etter disse kodene i <b>search</b>-linjen.",
+      "Hvis du har angitt tagger, vil bare produkter med <b>common tags</b> vises i <b>relaterte produkter-delen</b> på produktsiden; ellers vil produkter i samme kategori vises.",
     ],
     inputs: {
       tags: {
-        placeholder: "element Tagger element element f.eks Ny element",
+        placeholder: "Slå på tagger her og trykk enter. eks. ny kolleksjon",
       },
     },
     notifications: {
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "frakt Tjenester",
     subtitle:
-      "element Markedsplass Tilbud frakt metoder Til element selgere element element Ordrene element element Legg til frakt Tjenester element Til element 🛍️ Bestill frakt element Fra element 🛍️ Bestill side element element Adresser element element kode element element frakt element",
+      "Markedsplassen tilbyr fraktmetoder for å hjelpe leverandører med å fullføre bestillingene sine. Du kan legge til frakttjenester her for enkelt å bestille fraktetiketter fra bestillingssiden din. Dette forenkler prosessen ved å synkronisere adresser og sporingskoder med fraktleverandøren.",
 
     subtitle_pickup:
-      "element Markedsplass element element selgere, element element Til element element Fra element plassering element element frakt element element Legg til element element plassering element element profil (element Lager element element Brukt element element Misligholde element plassering).",
+      "Markedsplassen muliggjør henting for leverandører, slik at kjøpere kan velge henting fra stedet ditt som et fraktalternativ. Du kan legge til hentested i profilen din (lageret ditt vil bli brukt som standard hentested).",
     action: "Legg til tjeneste",
 
     add_dialog: {
       select_service_msg:
-        "frakt metoder element element Markedsplass, element Kunder element element Fra element selgere element Nei element element frakt Tjenester Til Kjøp element element Velg element metode Fra element Liste element Til Utsikt Tilgjengelig Tjenester element element frakt tjeneste Fra element Liste element element Tilgjengelig Tjenester element element Legg til Til element butikk element element ",
+        "Fraktmetoder er satt av markedsplassen, og kundene kan velge mellom dem. Leverandører har ingen kontroll over disse alternativene, men kan integrere panelet sitt med frakttjenester for å kjøpe etiketter direkte. Velg en metode fra listen nedenfor for å se tilgjengelige tjenester. Velg en frakttjeneste fra listen nedenfor. Bare de tilgjengelige tjenestene som kan legges til butikken din vises her.",
       no_available_service: "Nei Tilgjengelig tjeneste!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "plassering",
     empty_subtitle:
-      "element element plassering Til element Produkt element element punkt",
+      "Tilordne en plassering til produktet hvis det er et stedsbasert element.",
     dialog: {
       header: "Velg plassering profil",
       action_new_location: "Legg til ny plassering",
       title: "plassering profil",
       subtitle:
-        "element element Produkter element element Kart plassering element element plassering Tagger Til element Produkter",
-      tips: "<b>element: </b> element element plassering Til element Produkt <b>element</b> element element Til Vis element Produkt element element plassering element element Kart element element Produkt element element plassering element element hoved element, Som <b>element element</b> element element Tjenester Som<b>element element </b>.",
+        "Du kan feste produkter på kartplasseringen ved å tilordne plasseringskoder til produktene.",
+      tips: "<b>Viktig: </b> Tilordne en plassering til produktet <b>kun</b> hvis du vil vise produktet på den spesifikke plasseringen på kartet. Det pinnede produktet må ha plasseringen som hovedspesifikasjon, som <b>utleieboliger/plasser</b> eller personlige tjenester som<b>Hairdressing og Spa</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "element element Liste element Varer element element Produkt element tjeneste pakke",
+      "Ta med en liste over varer som følger med produktet eller tjenestepakken.",
     dialog: {
       header: "Produkt pakke Varer",
       title: "element Varer",
-      subtitle: "element element Varer element element Produkt",
+      subtitle: "Dette er en samling av varer som følger med produktet.",
       action_manage: "Administrer Varer",
       action_disable_msg: "Markedsplass Eieren",
       select_items_tips:
-        "Skape element element pakke element element Produkt element tjeneste element element Til element element Kunder element element punkt element element kunde Til element element , element element ",
+        "Lag eller velg pakkekomponenter som følger med produktet eller tjenesten. Bruk denne funksjonen til å understreke hva kunder kan forvente å motta ved kjøp av varen. Vi anbefaler å bruke denne funksjonen kun når det er avgjørende for kunden å forstå innholdet som er inkludert, for eksempel når du kjøper en smarttelefon.",
       create_item_tips:
-        "element, element element Ny punkt element element Bilder, element element Last opp Bilder Til element 256element element Til element element Utseende element alle element, element element Bilder element gjennomsiktig bakgrunn element element alle element Produkter",
+        "Alternativt kan du inkludere et nytt element. Bruk kvadratiske bilder, da vi automatisk endrer størrelsen på opplastede bilder til et kvadratisk format på 256x256. For å sikre optimalt utseende på tvers av alle maler, bruk minimalistiske bilder med gjennomsiktig bakgrunn og opprettholde et konsistent mønster for alle produktene dine.",
       create_new_item_action: "Skape Ny element punkt",
     },
   },
@@ -2447,9 +2447,9 @@ export default {
         variables: {
           title: "element element",
           subtitle:
-            "element element Farge Kode, element, <b>#654FFF</b>, element element , element, <b>#764FFA/#000000</b>.",
+            "Skriv inn en sekskantet fargekode, f.eks. <b>#654FFF</b>, eller to farger atskilt med en skråstrek, f.eks. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "element element Verdi Til element element, element Bilder element <b>element element</b>. Last opp element element Kode element element ",
+            "Du kan tilordne en hvilken som helst verdi til variablene, inkludert bilder ved hjelp av <b>Graphic Assets</b>. Last opp et mønster og bruk den genererte koden for varianten.",
           graphical_asset_action: "element element",
           graphical_asset_action_caption: "Bilder element element ",
         },
@@ -2469,13 +2469,13 @@ export default {
         package: {
           title: "element & frakt",
           subtitle:
-            "element Vekt element element Varianter Til element frakt element",
+            "Angi vekt og dimensjoner for varianter for å bestemme fraktalternativer.",
           same_as_product_action: "element element Produkt",
         },
         image: {
           title: "element Bilder",
           subtitle:
-            "Legg til element Bilder element element Bilde Last opp element element Hoved Bilde element element ",
+            "Legg til unike bilder for hver variant. Det første bildet som lastes opp vil være hovedbildet for den varianten.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "element element punkt element (GTIN)",
             message:
-              "element element: UPC (12 element), EAN (13 element), JAN (8 element 13 element), ISBN (13 element).",
+              "Støttede formater: UPC (12 sifre), EAN (13 sifre), JAN (8 eller 13 sifre), ISBN (13 sifre).",
           },
         },
       },
@@ -2514,11 +2514,11 @@ export default {
   product_extra_physical: {
     weight: "Pakkevekt",
     weight_subtitle:
-      "Inndata element Produkter element element Vekt element element informasjon element element frakt metode element element 🛍️ Bestill element element frakt Grense",
+      "Skriv inn produktets totale emballasjevekt her. Denne informasjonen hjelper deg med å velge riktig fraktmetode og sikrer at bestillingen ikke overskrider fraktgrensen.",
     weight_unit: "Kg",
     size: "Pakkedimensjoner",
     size_subtitle:
-      "Inndata element Produkter element element informasjon element Brukt Til element element frakt metode element element 🛍️ Bestill element element Grense",
+      "Skriv inn produktets fulle emballasjestørrelse her. Denne informasjonen brukes til å velge riktig fraktmetode og sikre at bestillingen ikke overskrider pakkestørrelsesgrensen.",
 
     width: "Bredde",
     length: "Lengde",
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Forberedelsestid",
     lead_time: "Forberedelsestid",
     lead_time_subtitle:
-      "element Tid element element Varighet element Til element element Produkt element frakt, element element Leveranse Tid",
+      "Ledetid anslår varigheten som kreves for å klargjøre et produkt for frakt, noe som hjelper med å estimere leveringstiden.",
 
     lead_time_dimension: "Time(r)",
     bulk_action: "Massehandlinger",
@@ -2572,9 +2572,9 @@ export default {
     title: "element element ",
     tips: {
       how_it_works:
-        "<b>element element :</b><br />Last opp element element punkt Bilder element Til element element Bilder element element , element <b>{filename}</b> element element Verdi Merk element element Kode element element Brukt element element <b><s>Farge</s></b> Verdi",
+        "<b>Slik fungerer det:</b><br />Last opp mønster- eller elementbilder her. For å bruke disse bildene som et variantalternativ, inkluderer du <b>{filename}</b> i variantverdien. Merk at denne koden ikke kan brukes i verdien <b><s>color</s></b>.",
       how_set_name:
-        "<b>element element:</b><br />element element 12 element element Last opp fil Navn element element Brukt element element Navn element element Produkt, element element Til element element , element Last opp element Bilder element element 100, element element Typer element Møbler",
+        "<b>Navntips:</b><br />De første 12 tegnene i det opplastede filnavnet vil bli brukt som ressursnavn. Denne funksjonen er ideell for å vise frem tilpassbare aspekter ved et produkt, for eksempel dekkstørrelser for motorsykler eller stoffmønstre. For å optimere bruken av denne funksjonen, unngå å laste opp variantbilder her med mindre antallet grafiske elementer er færre enn 100, for eksempel forskjellige tretyper for møbler.",
     },
   },
 
@@ -2601,15 +2601,15 @@ export default {
     out_of_stock: "element element ",
 
     image: {
-      tooltip: "⚡ element element Bilde element Til element element Til element element",
+      tooltip: "⚡ Dra og slipp et bilde her for å tilordne det til varianten.",
     },
     enable: {
-      true_tooltip: "element punkt element Tilgjengelig element element butikk",
-      false_tooltip: "element punkt element element Tilgjengelig element element butikk",
+      true_tooltip: "Denne varen er tilgjengelig i nettbutikken.",
+      false_tooltip: "Denne varen er ikke tilgjengelig i nettbutikken.",
     },
     restore_dialog: {
       title: "element element",
-      message: "element element Til element element Slettet element?",
+      message: "Er du sikker på at du vil gjenopprette denne slettede varianten?",
       action: "ja, element element",
     },
     notifications: {
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "element Handlinger > pris",
     message:
-      "element element Beløp element element Til element pris element alle Produkter element element butikk element, element element pris element element Til element element Velg element element ",
+      "Følgende beløp vil gjelde i prosent av prisen på alle produktene i butikken din. Dessuten vil de beregnede prisverdiene bli konvertert til nærmeste runde tall basert på den valgte valutaen. Vær forsiktig med å angi verdiene.",
     check: "element element pris element",
     check_description:
-      "element pris element element Velg Kategori element alle element",
+      "Prisen vil bli endret for den valgte kategorien og alle underkategorier.",
     add_percent_tab: "Legg til Prosent",
     add_constant_tab: "Legg til element",
     ending_tab: "slutt element",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "element Beløp element element Legg til element element Fra element element pris element Produkter",
+        "Beløpet vil bli lagt til eller trukket fra gjeldende pris på produktene.",
     },
     ending: {
       subtitle:
-        "element slutt element element pris element Produkter element element Til element element Verdi",
+        "Slutten av gjeldende pris på produkter vil bli endret til den angitte verdien.",
     },
     marketplace: {
       title: "Markedsplass liste pris",
       subtitle:
-        "element element Til element Oppdater element liste pris element Produkter element element Markedsplass element, element hoved Produkt pris element element selger Prissetting element Til manuell pris element",
+        "Dette alternativet lar deg automatisk oppdatere oppføringsprisen for produkter på markedsplassen. Noen ganger kan det hende at hovedproduktprisen ikke stemmer overens med leverandørens priser på grunn av manuelle prisendringer.",
       strategy: {
         min: {
           title: "element minimum pris",
           description:
-            "element element minimum pris element element Produkt element element liste pris",
+            "Angi minimumsprisen på produktet som oppføringsprisen.",
         },
         max: {
           title: "element maksimum pris",
           description:
-            "element element maksimum pris element element Produkt element element liste pris",
+            "Angi maksimal pris på produktet som oppføringspris.",
         },
       },
     },
 
     category: {
-      subtitle: "Grense element element Til element Kategori element alle element",
+      subtitle: "Begrens massehandling til en kategori og alle underkategorier.",
     },
     vendor: {
       subtitle:
-        "Grense element Handlinger Til element element selger element element selger element Velg, element pris Oppdater element element Til element selgere Produkter, element element pris element element selger",
+        "Begrens massehandlinger til en bestemt leverandør. Når en leverandør er valgt, vil prisoppdateringen bli brukt på leverandørens produkter, som representerer salgsprisen for den leverandøren.",
       listing_price_need_update_msg:
-        "element element Til Oppdater element liste pris (element pris element element Produkt Liste), element element Oppdater element element Filtre element element Velg element selger",
+        "Hvis du ønsker å oppdatere oppføringsprisen (prisen som vises i produktlisten), bør du sende inn masseoppdateringen på nytt med de samme filtrene, men uten å velge en leverandør.",
     },
     listing_products_changes: "liste Produkter Endring",
     total_vendor_products: "element selger Produkter",
@@ -2815,27 +2815,27 @@ export default {
       currency_step: {
         title: "Velg element Valuta",
         subtitle:
-          "element Til element element butikk Til element minimum—element element 3. element innbetaling Porter element element Transaksjoner element element Valuta",
+          "Prøv å holde antallet valutaer i butikken din på et minimum – ideelt sett færre enn 3. De fleste betalingsgatewayer kan behandle transaksjoner i nesten hvilken som helst valuta.",
         add_first_currency: {
-          subtitle: "element Legg til element Valuta Til element Butikk element element",
+          subtitle: "Legg til en valuta i butikken din før du fortsetter.",
           title: "Legg til valuta",
         },
       },
       gateway_step: {
         title: "Aktiv innbetaling metoder",
         subtitle:
-          "element element Fra element Tilgjengelig innbetaling metoder element element Velg element Inngangsport, element element Til element element Detaljer Til lenke element Butikk element Til element element innbetaling metode",
+          "Vennligst velg fra de tilgjengelige betalingsmetodene. Når du velger en gateway, vil du kunne angi de nødvendige tilkoblingsdetaljene for å koble butikken din direkte til din foretrukne betalingsmåte.",
       },
 
       config_step: {
-        import_config: "element element Importer Konfig Fra element element Porter",
+        import_config: "Du kan importere konfigurasjon fra andre lignende gatewayer",
         import_from: "Importer Fra",
       },
 
       request_add_new_gateway: {
         title: "element se element element innbetaling metode?",
         subtitle:
-          "element element innbetaling element element liste, element Til element Årlig element (element element ) element element 48 element element Regnskap element element ",
+          "Hvis din lokale betalingsleverandør ikke er oppført, abonner på en hvilken som helst årsplan (inkludert oppstart for rimelighet) og be om en integrasjon. Vi fullfører det innen 48 timer hvis en testkonto og dokumentasjon er levert.",
       },
 
       inputs: {
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "automatisk koble til",
           false_description:
-            "element element koble til Til element Inngangsport element element Inngangsport element element",
+            "Systemet vil automatisk koble til gatewayen hvis du allerede har en konfigurert gateway på plass.",
         },
       },
     },
@@ -3074,23 +3074,23 @@ export default {
 
     config: {
       subtitle:
-        "Kategorier element element Produkt Administrasjon element tjen element element Kunder Til element Produkter element element butikk",
+        "Kategorier bidrar til å effektivisere produktadministrasjon og gjør det enklere for kundene dine å finne produkter i butikken din.",
     },
     parent: {
       subtitle:
-        "element Kategori element element Kategori element element Produkt element element Kategori, element element hoved Kategori",
+        "Denne kategorien vises under overordnet kategori. Hvis et produkt ikke har en overordnet kategori, vil det vises i hovedkategorien.",
     },
     template: {
       title: "Mal",
       edit_page: "Redigere side",
       Pages_list: "side Liste",
       subtitle:
-        "element element Kategori side element element Tilpasset side element element Til Skape Sider element gjennomsiktig bakgrunn element element 1 Til 2 element element Til element Kategori element element lenke element side Til element Kategorier, element element Til element element Kategori element",
+        "Du kan forbedre visningen av kategorisiden din ved å legge over en egendefinert side. Den beste tilnærmingen er å lage sider med gjennomsiktig bakgrunn og designe 1 til 2 seksjoner spesifikke for hver kategori. Du kan deretter koble én side til flere kategorier, ved å bruke dynamisk innhold for å skreddersy hver kategori individuelt.",
     },
     critical_zone: {
       title: "element element",
       subtitle:
-        "element element Ta vekk element Kategori, element element Produkter element element Til element element <b>📁 {parent}</b>. Til Administrer Kategorier element element Produkt Liste, element Til element Butikk > Kategorier element",
+        "Hvis du fjerner en kategori, vil dens underkategorier og produkter flyttes til den overordnede katalogen<b>📁 {parent}</b>. For å administrere kategorier som ikke er i produktlisten, gå til fanen Butikk > Kategorier.",
       accept_delete: {
         true_description: "element element Til Ta vekk element Kategori",
         true_title: "element Ta vekk Kategori",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategori redigert.",
       },
       manually_update_filters_tips:
-        "<b>element!</b> Filtre element element Produkter Endring element, element element Til Produkter element element Kategori, element Komme tilbake element element Til element element filter",
+        "<b>Viktig!</b> Filtre oppdateres automatisk når produktene endres. Men etter å ha gjort endringer i produkter i en kategori, vennligst gå tilbake hit og klikk på lagre/regenerer-knappen for å oppdatere filteret.",
 
       inputs: {
         spec: {
           message:
-            "Liste element element Til element element filter element",
+            "Liste over funksjoner du ønsker skal vises i filterdelen",
           placeholder: "Velg spesifikasjon Til Vis element filter",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Butikkbeskrivelse",
     description_input_message: "Skriv en kort beskrivelse av virksomheten din.",
     description_input_tips:
-      "element Beskrivelse element element Butikker element element Brukt element element Misligholde element stikkord Beskrivelse element element butikk Sider Meta",
+      "Denne beskrivelsen vil vises i butikkens bunntekst og vil også bli brukt som standard metatag-beskrivelse for butikksidene dine.",
     address_input: "Butikkadresse",
     address_input_message: "Skriv inn nøyaktig butikkadresse",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "element",
         subtitle:
-          "element element Til Avbryt element 🛍️ Bestill element, element element ",
+          "Hvis du ønsker å kansellere bestillingen din umiddelbart, kan du bruke dette alternativet.",
       },
 
       express_input: {
         true_title: "element | Avbryt 🛍️ Bestill element",
         false_title: "element | Avbryt 🛍️ Bestill element 48 element",
         true_description:
-          "element element Avbryt element 🛍️ Bestill element element Oppdater element Inventar element element",
+          "Dette alternativet vil kansellere bestillingen din umiddelbart og oppdatere beholdningen umiddelbart.",
         false_description:
-          "element element Avbryt element 🛍️ Bestill element 48 element element , Varer element element ",
+          "Dette alternativet vil kansellere bestillingen din etter 48 timer. Inntil da vil varer bli reservert og kan ikke kjøpes av andre.",
       },
     },
 
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "element element Til element kunde",
         message:
-          "element element Beløp element element Til tjen element element ikke tilgjengelig Varer element element ",
+          "Vi beregner det totale beløpet for refusjoner du må gjøre manuelt. Den er beregnet basert på utilgjengelige varer og totale refunderte verdier ennå.",
         calculated_approximately:
-          "element Beløp element element Beløp element",
+          "Beløpet er beregnet tilnærmet. Beregn det nøyaktige beløpet selv.",
       },
       need_payback: {
         title: "kunde Lade element",
         message:
-          "element element Til element kunde element element Beløp element element Varer element element Til Lade element kunde Til element element Beløp",
+          "Vi har lagt merke til at totalbeløpet som refunderes til kunden, er høyere enn det skyldige beløpet basert på varene i handlekurven. Det kan hende du må belaste kunden for å få tilbake det overskytende beløpet.",
       },
       need_no_refund: {
         title: "Nei element element",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "element element",
         message:
-          "element element Beløp element element innbetaling Inngangsport element element innbetaling Tjenester Brukerstøtte element element, element element Til element element",
+          "Det er det totale beløpet for refusjoner som automatisk gjøres av betalingsgatewayen din. Bare noen betalingstjenester støtter denne funksjonen, så du må refundere manuelt.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "element Vekt element alle Varer element {weight} {unit}",
       not_available_message:
-        "element element Tilgjengelig element element deaktivert element element frakt adresse element element Bruker element element adresse element Kjøp!",
+        "Det er ikke tilgjengelig når du er deaktivert og ber om leveringsadresse og brukeren har ikke fylt ut adressen etter kjøpet!",
 
       message:
         "Klikk på følgende <b>Bestillingsklar</b> -knapp hvis bestillingen er klar til å sendes.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Betalingsrapport",
         subtitle:
-          "element Betalinger element Transaksjoner element element Velg Tid element",
+          "Opprettet betalinger og transaksjoner utført i løpet av den valgte tidsperioden.",
         chart: {
           times: "Telle",
           buys: "Kjøp teller",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "element Inngangsport status",
     oauth2_button: "automatisk Connect Til {gateway}",
     fee_payment_message:
-      "Selldone element element Beløp Betalt element element kunde element element Til element Regnskap element tjeneste Avgift element element Fra element Lommebok element element",
+      "Hele beløpet kunden har betalt vil bli overført til din konto. Servicegebyret vil bli trukket fra lommeboken din i Selldone.",
 
     auto_config: "automatisk Konfig",
 
     keys: {
       title: "Privat element",
       subtitle:
-        "Liste element Privat element element innbetaling element informasjon element element Betalinger",
+        "Liste over private nøkler for betalingen. Denne informasjonen er viktig for å opprette og administrere betalinger.",
     },
     extra_config: {
       title: "innbetaling tjeneste element",
-      subtitle: "element element informasjon element element innbetaling Inngangsport",
+      subtitle: "Ytterligere konfigurasjonsinformasjon for betalingsgatewayen.",
     },
 
     recommended_actions: {
       title: "element Handlinger",
       subtitle:
-        "element element , element element Til Motta element Betalinger Fra element Kunder",
+        "Ved å følge disse trinnene begynner du å motta faktiske betalinger fra kundene dine.",
       action_enable: "element Til Muliggjøre element",
       make_live_enable: "element Til Bo element",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "Nettsted",
     status_title: "innbetaling tjeneste status",
     status_message:
-      "element element innbetaling metode element Aktiv element inaktiv element metoder element element Aktiv element element Til Kunder",
-    status_true_description: "element Kunder element Betale element element innbetaling metode",
+      "Konfigurer betalingsmåten som Aktiv eller Inaktiv. Kun metoder angitt som aktive vil bli vist til kunder.",
+    status_true_description: "Kundene dine kan betale med denne betalingsmåten.",
 
     manual_title: "manuell / automatisk element innbetaling",
     manual_message:
-      "element element Skape element innbetaling, element element innbetaling metode Til element element f.eks, element element innbetaling element element , element element penger element element ",
+      "Når du oppretter en betaling, kan du holde tilbake en kvalifisert betalingsmåte for å reservere midler som du kan hente inn senere. For eksempel godkjenner hoteller ofte en full betaling før en gjest ankommer, og tar deretter pengene når gjesten sjekker ut.",
 
     gateway_status: "status",
     wallet: "Blockchain lommebok",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "Utvikle & element",
-      subtitle: "element element Muliggjøre element element modus Til element element innbetaling Inngangsport",
+      subtitle: "Du kan aktivere feilsøkingsmodusen for å teste betalingsgatewayen.",
     },
 
     limit: {
@@ -3739,23 +3739,23 @@ export default {
       msg: "element element Nei Grense",
     },
     currency_input: {
-      message: "element Valuta element element innbetaling Inngangsport element",
+      message: "Valutaen som denne betalingsgatewayen støtter.",
     },
     gateway_code: "Inngangsport Kode",
 
     hold_only_for: "element innbetaling element Tilgjengelig element",
     manual_input: {
       false_description:
-        "element innbetaling status element element Fra Avventer Til Bekreftet element element innbetaling element element",
+        "Betalingsstatusen endres automatisk fra ventende til bekreftet i betalingsleverandørsystemet.",
       false_title: "automatisk innbetaling element",
       true_title: "element Betalinger element manuell element",
       true_description:
-        "element element innbetaling element element Til element element Betalinger element element 🛍️ Bestill Til Endring element status Fra Avventer Til Bekreftet element element innbetaling element element",
+        "Plasser en tilbakeholding av en betaling slik at du må bekrefte betalingene for en bestilling for å endre statusen fra ventende til bekreftet i betalingsleverandørsystemet.",
     },
     delete_verify_input: {
       true_title: "element element Til Ta vekk element innbetaling metode",
       true_description:
-        "element innbetaling metode element element Fra element butikk element element Tilgjengelig Til Kunder",
+        "Denne betalingsmåten vil bli fjernet fra butikken og vil ikke være tilgjengelig for kunder.",
     },
     delete_alert: {
       title: "Slett innbetaling metode",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Liste element element Ordrene element element Til element element Leverandører",
+      "Liste over eksternt synkroniserte bestillinger som må oppfylles av tredjepartsleverandører.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "Sende element innbetaling element SMS Til element kunde element {phone}.",
     "sms-ready-to-ship":
-      "Sende element SMS Til element kunde element element 🛍️ Bestill element element Til element Sendes element {phone}.",
+      "Send en SMS til kunden med beskjed om at bestillingen deres er klar til å sendes via {phone}.",
     "sms-ready-to-pickup":
-      "Sende element SMS Til element kunde element element 🛍️ Bestill element element {phone}.",
+      "Send en SMS til kunden med beskjed om at bestillingen er klar for henting via {phone}.",
     "sms-order-confirmation":
       "Sende element 🛍️ Bestill element SMS Til element kunde element {phone}.",
 
     "count-adjustment":
-      "element Mengde element element Produkt \"{product}\" element element Fra {from} Til {to}.",
+      "Mengden av produktet \"{product}\" har blitt oppdatert fra {from} til {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "element element Produkter element element Nei filter",
-      has_root_filter_message: "element element Filtre element element Kategori",
+      no_root_filter_message: "Du har produkter i root, men ikke noe filter.",
+      has_root_filter_message: "Du angir filtre for rotkategori.",
       set_filter_message: "element element Filtre",
       edit_action: "Redigere element Filtre",
       clear_action: "element element Filtre",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "element",
       sort_categories: "element / element Kategorier",
       subscription_vendor_not_support_message:
-        "element element selger element Abonnement Produkter! Abonnement Produkter element element selger element element Eieren!",
+        "Kan ikke tildele leverandør for abonnementsprodukter! Abonnementsprodukter må alltid ha en leverandør som eier!",
       vendor_owner_not_assignable_message:
-        "element element selger element Produkter element element selger element element Eieren!",
+        "Kan ikke tildele en leverandør for produkter med en leverandør som eier!",
       category_assign_profile: "element profil Til Produkter element element Kategori",
       category_assign_profile_subtitle: "Avgift, frakt, veiledning, garanti,. ..",
       bulk_discount: "element Rabatt",
@@ -4119,10 +4119,10 @@ export default {
     no_panel: "Nei element",
     manual_action: {
       title: "manuell Handlinger",
-      message: "element element Oppdater element selger 🛍️ Bestill status element",
+      message: "Du kan oppdatere leverandørordrestatusen manuelt.",
       guides: [
-        "selgere element element Adgang element Oppdater element element (element) element element Dashbord",
-        "element element selger element Nei element Adgang, element selger 🛍️ Bestill status element element status",
+        "Leverandører med paneltilgang kan oppdatere oppfyllelsen (underordre) i deres dedikerte dashboard.",
+        "Hvis leverandøren ikke har paneltilgang, vil leverandørens ordrestatus endres automatisk ved å endre kurvstatusen.",
         "element element Oppdater selger Ordrene element",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Produkter",
       subtitle:
-        "element element Utsikt element Telle element element Produkter liste element element Markedsplass Produkter element element selgere element element ",
+        "Her kan du se antallet av produktene dine som er oppført på markedsplassen. Produkter fra flere leverandører er ikke inkludert.",
     },
     wallets: {
       title: "Min lommebok",
       subtitle:
-        "element element Til Legg til Lommebøker element! selger Lommebøker element element ",
+        "Du trenger ikke legge til lommebøker manuelt! Leverandørens lommebøker opprettes automatisk.",
     },
 
     open_marketplace_page: "element Markedsplass side",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Produktliste",
     subtitle:
-      "element element Liste element element Produkter element element Markedsplass Oppdater Priser element element Produkter element element Inventar element element selger, element element se element Produkter element element Produkt Liste element element Produkter element element ",
+      "Dette er en liste over produktene dine på markedet. Oppdater priser og kvanta for de tilordnede produktene dine i beholdningen. Som leverandør vil du bare se enkeltleverandørprodukter du eier i produktlisten. Andre tildelte produkter kan også endres her.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "element element",
     subtitle:
-      "element element Liste element Brukere element element Adgang Til element selger element element Legg til Ny element element Tillatelser element",
+      "Dette er listen over brukere som har tilgang til leverandørpanelet ditt. Du kan legge til nye teammedlemmer og tilpasse tillatelsene deres her.",
     add_action: "Legg til Ny element",
     pending: {
       title: "Avventer element",
-      message: "Utsikt element Liste element element Venter element",
+      message: "Se listen over invitasjoner som venter på aksept.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "element element Detaljer",
       subtitle:
-        "Legg til element Ny element element Tillatelser element element punkt Til element element Adgang element element Til element element hoved Butikk Dashbord",
+        "Legg til et nytt teammedlem og angi deres tillatelser. Klikk på hvert element for å justere lese-/skrivetilgang. Hver rad tilsvarer et tillatelsesnivå for hovedbutikkens dashbord.",
     },
     access: {
       view_data: "Utsikt element",
@@ -4232,26 +4232,26 @@ export default {
     list: {
       title: "element Historie",
       subtitle:
-        "element element Utsikt element element Historie element element innbetaling Tjenester element By på element element",
+        "Du kan se utbetalingshistorikken din her. Disse utbetalingene kan behandles manuelt via bankoverføringer eller automatisk ved hjelp av betalingstjenester som tilbyr utbetalingsmuligheter.",
     },
     connect: {
       title: "Connect element",
       subtitle:
-        "element By på element innbetaling element element innbetaling Porter Til Motta Betalinger element element Kjøp, element koble til element element Regnskap element element ",
+        "Vi tilbyr delte betalingsmuligheter for følgende betalingsgatewayer. For å motta betalinger sømløst etter hvert kjøp, må du koble til bankkontoen din ved å bruke disse alternativene.",
     },
     verify_dialog: {
       title: "element innbetaling",
       option: {
         title: "selger element",
         subtitle:
-          "element element Til Aksepterer element Avvis element Overføre element element Mottatt element element; element element, element Nei element Til element element ",
+          "Du har muligheten til å godta eller avvise denne overføringen. Denne handlingen tjener kun som en historisk registrering. Bare bekreft om du har mottatt midlene; hvis ikke, er det ikke nødvendig å gjøre noe.",
       },
       inputs: {
         verify: {
           label: "element element Bekreftet element innbetaling?",
           false_description:
-            "Nei, element element Mottatt element innbetaling element element Regnskap",
-          true_description: "ja, element element Mottatt element Verifisert element innbetaling",
+            "Nei, jeg har ennå ikke mottatt denne betalingen på bankkontoen min.",
+          true_description: "Ja, jeg har mottatt og bekreftet denne betalingen.",
         },
       },
     },
@@ -4263,7 +4263,7 @@ export default {
   vendor_order_refund: {
     title: "element 🛍️ Bestill",
     subtitle:
-      "<b>element! </b>element element Transaksjon element element selgere Lommebok element element Beløp Fra element element Beløp element element Transaksjoner element element Velg 🛍️ Bestill element, element element Til Tilkoblet element Kontoer (element element Stripe Connect element manuell element Overføre), element element Skape element <b>element Overføre</b>.",
+      "<b>Viktig! </b>Utførelse av denne handlingen vil generere en negativ transaksjon i leverandørens lommebok og trekke det valgte beløpet fra den. Beløpet kan ikke overstige de gjenværende totale transaksjonene for den valgte bestillingen. I tillegg, hvis midler har blitt overført til tilkoblede bankkontoer (som med Stripe Connect eller manuell bankoverføring), bør du opprette en <b>reverseringsoverføring</b>.",
     inputs: {
       note: {
         message: "element element Til element selger",
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "element element Oversikt element element Transaksjoner element element selgere element Lommebok element element Markedsplass element element 🛍️ Bestill element element, element selgere element element Salg element Legg til Til element Lommebok",
+      "Dette gir en oversikt over transaksjonene i leverandørens virtuelle lommebok på markedsplassen. Hver gang en bestilling legges inn, legges leverandørens andel av salget til lommeboken.",
     vendor_wallets: "selger Lommebøker",
     my_wallets: "Min lommebok",
     refund_order_action: "element 🛍️ Bestill",
     automatic_payout_list: {
       subtitle:
-        "element element Liste element automatisk element Til element Tilkoblet element Regnskap element Merk element element automatisk element element , element manuell element element ",
+        "Dette er en liste over automatiske utbetalinger til din tilkoblede bankkonto. Vær oppmerksom på at kun automatiske utbetalinger vil vises her, og manuelle utbetalinger vil ikke vises.",
     },
     reversal_transfer_action: "element Overføre",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "element element , element element Utsikt element Tidslinje element arrangementer element Til element 🛍️ Bestill, element, innbetaling, element element status element, element element Ordrene element Til element Kunder element selgere",
+      "I denne delen kan du se tidslinjen for hendelser knyttet til bestillingen, oppfyllelsen, betalingen og deres respektive statuser. I tillegg kan du se bestillingene som sendes til både kunder og leverandører.",
     add_note_subtitle: "skrive element Beskjed element element ",
 
     message_input: "Skriv en melding her...",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Hovedprofil",
       subtitle:
-        "Redigere element Offentlig profil informasjon element element informasjon element element Til element Kunder element element Brukere",
+        "Rediger din offentlige profilinformasjon her. Denne informasjonen kan være synlig for kundene dine eller andre brukere.",
       full_name_input: "Fullt navn",
       tel_input: "Kontakt nummer",
       email_input: "E-post",
@@ -5574,7 +5574,7 @@ export default {
         "OAelement Kunder, Personlig Adgang element element Tilkoblet Apper OAuth",
 
       security: "Sikkerhet",
-      security_subtitle: "element element Administrer element Logg Inn element",
+      security_subtitle: "Angi to faktorer og administrer sosiale påloggingsalternativer.",
 
       preferences: "Brukerinnstillinger",
       preferences_subtitle:
@@ -5683,7 +5683,7 @@ export default {
     price: "pris",
     verify: {
       true_title: "element Vilkår",
-      true_description: "element lese element element Selldone Vilkår element element",
+      true_description: "Jeg leser og godtar Selldones vilkår for bruk",
     },
     need_charge: "Trenger lading",
     buy_now: "Kjøp nå",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Kjøpt historie",
       subtitle:
-        "Aktive og ventende lisenser.",
+        "Dette er en liste over aktive og ventende lisenser. Du kan kjøpe avtaler etter at du har finansiert lommeboken. Vær i tillegg oppmerksom på at når du kansellerer et abonnement, vil det gjenværende abonnementsbeløpet bli returnert til din virtuelle lommebok.",
     },
     license_detail: {
       title: "Detaljer",
       subtitle:
-        "Begrensninger på din nåværende plan.",
+        "Dette er begrensningene i din nåværende plan. For mer informasjon, vennligst besøk prissiden. Du kan få tilgang til alle funksjoner på tvers av alle planer, inkludert gratisplanen, for å kickstarte virksomheten din og vokse. Når du skalerer virksomheten din, bør du vurdere å oppgradere til en plan med høyere nivå for å redusere tjenestegebyrene.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "element element Lommebok",
         subtitle:
-          "Velg element element Lommebok Til element element Abonnement element element , element element Skape element element Lommebok element element Lommebok element element Brukt element element ",
+          "Velg en virtuell lommebok du vil bruke for abonnementet ditt. Hvis du ikke har en ennå, kan du opprette den i lommebokseksjonen. Denne lommeboken vil bli brukt for eventuelle kostnader.",
       },
       auto_renewal: {
         true_title: "Automatisk fornyelse",
         true_description:
-          "element Abonnement element element Lommebok element element Balansere element element ",
+          "Abonnementet ditt fornyes automatisk hvis lommeboken din har nok saldo eller hvis du har en gyldig kupong.",
       },
       options: {
         title: "element element",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Navn",
     info: {
       subtitle:
-        "Til element element Produkt, element element Detaljer element element ",
+        "For å generere produktet kan du bare angi de essensielle detaljene som er nødvendige for å lage det.",
     },
     price: {
       subtitle:
-        "element element pris element Rabatt element element Produkt element element Produkt element Legg til, element element Adgang Til Mer. . element",
+        "Skriv inn pris og rabatt for dette produktet. Når produktet er lagt til, har du tilgang til flere alternativer.",
     },
     by_sku: {
       title: "Legg til element SKU",
-      subtitle: "element element Land element element Tilgjengelig",
+      subtitle: "Databasen i ditt land er ikke tilgjengelig.",
     },
     drop_shipping: {
       subtitle:
-        "element Produkter element element Markedsplass element Legg til element Til element butikk",
+        "Finn produkter på grossistmarkedet og legg dem til i butikken din.",
     },
     by_connect: {
       subtitle:
-        "element Legg til Produkter Fra POD element element Selldone Connect OS—element koble til element butikk element element automatisk Produkt element, Nei element element",
+        "Legg enkelt til produkter fra POD- eller dropshipping-leverandører med Selldone Connect OS – bare koble til butikken din og nyt automatisk produktintegrering, ingen plugins nødvendig.",
     },
     your_license_is_not_eligible: "element Tillatelse element element ",
     sku_dialog: {
       title: "Legg til Produkt element SKU",
       subtitle:
-        "element element Til element Produkter element element SKU element element Legg til element element ",
+        "Du har muligheten til å finne produkter etter deres SKU i databasen vår og legge dem til med et enkelt klikk.",
     },
     dropshipping_dialog: {
       title: "Legg til element Produkter",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "element, element element Liste element Produkter element Selldone, element element Tilgjengelig element element , element element ",
+      "Her kan du finne grossister som viser produktene sine på Selldone, og gjør dem tilgjengelige for andre selgere. Selldones innebygde dropshipping-plattform forenkler prosessen, og gjør det enkelt og greit for både grossister og selgere.",
   },
 
   /** @see Affiliates **/
@@ -5892,35 +5892,35 @@ export default {
       new: "Ny affiliate partner",
       edit: "Redigere Tilknytte element",
       subtitle:
-        "element element Innstillinger element Navn element element Tilknytte element",
+        "Konfigurer de generelle innstillingene og navnet på partneren her.",
     },
 
     payment: {
       title: "innbetaling informasjon",
       subtitle:
-        "element element Kommisjon element element Tilknytte element element provisjon, element element provisjon element element Produkt",
+        "Angi provisjonsstrukturen for affiliate. Du kan kombinere faste og prosentbaserte provisjoner, eller angi spesifikke provisjoner for hvert produkt.",
     },
 
     contact: {
       title: "Kontaktinformasjon",
-      subtitle: "element element Kontakt Detaljer element element Tilknytte element element",
+      subtitle: "Oppgi kontaktdetaljene til affiliatepartneren her.",
     },
 
     restriction: {
       title: "Kommisjon begrensning",
       subtitle:
-        "element element Produkter element element Kommisjon element element provisjon Til element Produkter",
+        "Definer hvilke produkter som er kvalifisert for provisjon. Du kan begrense provisjoner til visse produkter.",
     },
 
     link_domain: {
       title: "koblet Domene",
       subtitle:
-        "lenke element element Domener Til element Tilknytte element element Kjøpe element element Domene element element Til element Tilknytte",
+        "Koble et av domenene dine til denne tilknyttede partneren. Besøkende som kjøper gjennom dette domenet vil bli tilskrevet dette tilknyttede selskapet.",
 
       domain_not_approved_msg: "element Domene element element !",
       domain_is_not_enable_msg: "element Domene element element aktivert!",
       domain_is_linked_to_other_affiliate_msg:
-        "element Domene element element koblet Til element Tilknytte!",
+        "Dette domenet er allerede koblet til en annen affiliate!",
     },
 
     set_users_first_message: "element element Bruker element!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "element",
       subtitle:
-        "element element Tilknytte element element Til Administrer element element Ressurser element element ",
+        "Knytt denne partneren til en klynge for å administrere den sammen med andre ressurser på ett sted.",
       manage_action: "Administrer",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "Tilknytte element Navn",
-        message: "element, element element, element Selskap, element element, element",
+        message: "f.eks. John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
         label: "Kommisjon element",
         false_description:
           "element element provisjon",
         true_description:
-          "element element provisjon element element Prissetting element",
+          "Beregn ved å bruke produktspesifikke provisjoner angitt i prisfanen.",
         false_title: "element + element Kommisjon",
         true_title: "element Kommisjon",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "affiliate element element Ordrene element element Kunder element element ",
+          "Tilknyttede selskaper kan legge inn bestillinger direkte for sine kunder gjennom panelet deres.",
         true_title: "POS Adgang",
       },
       enable: {
         true_description:
-          "element element Tilknytte element Aktiv? element inaktiv, element Tilknytte element element Til Ordrene element element lenke",
+          "Er dette tilknyttede selskapet aktivt for øyeblikket? Hvis de er inaktive, vil ikke deres tilknyttede program gjelde for bestillinger gjort via lenken deres.",
       },
       products: {
         label: "Produkter element element Kommisjon",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "element element Tilknytte element element Fra element Butikk Tilknytte informasjon element element Tid element element",
+        "Du kan gjøre opp eventuell utestående gjeld med partneren før du fjerner dem fra butikken din. Tilknyttet informasjon vil forbli tilgjengelig i en begrenset periode etter sletting.",
     },
   },
 
@@ -6006,11 +6006,11 @@ export default {
       "element element (element Prissetting Inndata skjema) Til element Produkt, element Kunder Til Velg Varianter element element pris element element Tilpasset Innganger",
     add_valuation_action: "Skape Ny element skjema",
     empty_message:
-      "element element Varianter, element element Til element Enkel Produkt",
+      "I stedet for å lage flere varianter, bør du vurdere å utvikle en verdsettelsesstrategi som kan brukes på et enkelt produkt.",
     delete_dialog: {
       title: "element Ta vekk",
       message:
-        "element element Til Slett element Prissetting skjema? element element Tilpasset Prissetting element element Fra alle element Produkter element",
+        "Er du sikker på at du vil slette dette prisskjemaet? Sørg for at denne tilpassede prisstrategien fjernes fra alle tilknyttede produkter først.",
       action: "Ja, Slett nå",
     },
     notifications: {
@@ -6033,26 +6033,26 @@ export default {
     title_add: "Skape Ny element skjema",
     config: {
       subtitle:
-        "element element Til Skape element Prissetting element element Produkter start element element Navn",
+        "Sett opp et verdivurderingssystem for å lage fleksible priser ved å bruke formler og referansetabeller for produktene dine. Start med å gi denne verdivurderingen et unikt navn.",
     },
     valuation_preview: "Forhåndsvisning element skjema",
     load_sample: "element element",
     conditions: {
       title: "Forhold",
       subtitle:
-        "element element Tilpasset Varianter element element Administrasjon element element ",
+        "Definer logikken for tilpassede varianter. Denne konfigurasjonen forenkler administrasjonen av varianttilgjengelighet.",
     },
     structure: {
       title: "element",
       subtitle:
-        "element element Prissetting Inndata skjema element element ",
+        "Design ditt prisinndataskjema her ved å integrere formler og referansetabeller.",
       expand_action: "element",
       collapse_action: "element",
     },
     inputs: {
       title: {
         message: "element Tittel element element Til Kunder",
-        placeholder: "element element Navn element Prissetting, element, 'element Prissetting",
+        placeholder: "Skriv inn et navn for prissetting, f.eks. \"Kruspriser\"",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "element Konfig",
         subtitle:
-          "element element Rabatt Kode element element: Maks (Grense, Prosent * element pris). element Til tjen element kode element element Til element",
+          "Formelen for rabattkodeberegningen er: maks (LIMIT, PROCENT * handlekurvpris). Husk å gjøre kodene relevante og enkle å huske.",
       },
       limit: {
         title: "element",
         subtitle:
-          "element element maksimum element Grense element element Rabatt Kode, element element maksimum Rabatt Beløp, element element ",
+          "Du kan definere maksimal bruksgrense for hver rabattkode, samt maksimalt rabattbeløp, i denne delen.",
       },
       duration: {
         title: "Varighet Grense",
         subtitle:
-          "element element Til element element Rabatt Kode element element , element element Varighet element",
+          "Hvis du ønsker å aktivere en rabattkode for en bestemt tidsramme, kan du angi denne varigheten her.",
       },
       design: {
         subtitle:
-          "element element Tittel element Beskrivelse element element Rabatt Kode element Detaljer element element Til element Bruker",
+          "Du kan angi en tittel og beskrivelse for hver rabattkode. Disse detaljene vil bli vist til brukeren.",
       },
       cluster: {
         subtitle:
-          "element element Rabatt Kode element element , element element Administrer element element Ressurser element element plassering",
+          "Ved å knytte denne rabattkoden til en klynge kan du enkelt administrere den sammen med andre ressurser på ett enkelt sted.",
       },
     },
     delete_alert: {
@@ -6320,34 +6320,34 @@ export default {
     },
     limit: {
       subtitle:
-        "element element , element element Til element element maksimum element element Kupong element element Rabatt Beløp element Kupong element element",
+        "I denne delen kan du angi både det maksimale antallet bruk per kupong og det høyeste rabattbeløpet hver kupong kan gi.",
       zero_message: "element: element element Nei Grense!",
     },
     duration: {
       subtitle:
-        "element element Til element element Kupong Til element Aktiv, element element Varighet element element ",
+        "Hvis du ønsker å angi en spesifikk tidsramme for at en kupong skal være aktiv, kan du konfigurere varigheten i denne delen.",
     },
     design: {
       subtitle:
-        "element Kupong element element Tittel element Beskrivelse element Detaljer element element Til element kunde",
+        "Hver kupong gir mulighet for å legge til en tittel og beskrivelse. Disse detaljene vil være synlige for kunden.",
     },
     constraints: {
       subtitle:
-        "element, element element Til element element Kupong",
+        "Her har du muligheten til å etablere flere personlige parametere for kupongen.",
       no_limit: "Nei element Begrensning",
       has_limit: "element element",
       has_code_message: "Bruker element element Kode Til Legg til Kupong",
     },
     club: {
       subtitle:
-        "element Kuponger element element Til element element kunde element",
+        "Bruken av denne kupongen kan utelukkende begrenses til medlemmer av utvalgte kundeklubber.",
     },
     cluster: {
       subtitle:
-        "element element Kupong element element , element element Administrer element element Ressurser element element plassering",
+        "Ved å knytte denne kupongen til en klynge, kan du enkelt administrere den sammen med andre ressurser på ett enkelt sted.",
     },
     preview: {
-      subtitle: "element element Offentlig Forhåndsvisning element element Kupong",
+      subtitle: "Her er den offentlige forhåndsvisningen av kupongen.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "element element Tittel, Beskrivelse, element Offentlig element status",
+        "Begynn å lage en intelligent avtale ved å etablere tittel, beskrivelse og offentlig tilgjengelighetsstatus.",
     },
     limit: {
-      subtitle: "element element maksimum element Grense element element By på element element ",
+      subtitle: "Angi maksimal bruksgrense for dette tilbudet i denne delen.",
     },
     duration: {
       subtitle:
-        "element element Til element element By på, element element Varighet element",
+        "Hvis du ønsker å angi en spesifikk tidsramme for et tilbud, kan du konfigurere varigheten her.",
     },
     constraints: {
       subtitle:
-        "element element Forhold element element By på element element By på element Til element Varer element element Forhold",
+        "Angi kvalifikasjonskriteriene og betingelsene for tilbudet her. Tilbudet gjelder handlekurvvarer som oppfyller disse betingelsene.",
     },
     discounted_products: {
       title: "element Produkter",
       subtitle:
-        "element element Produkter Til element element By på element element Rabatt",
+        "Du kan spesifisere produktene som dette tilbudet vil gi rabatt på.",
     },
     cluster: {
       subtitle:
-        "element element By på element element , element element Administrer element element Ressurser element element plassering",
+        "Ved å knytte dette tilbudet til en klynge kan du enkelt administrere det sammen med andre ressurser på ett enkelt sted.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "Tilknytte lenke",
       subtitle:
-        "element element lenke element element Tilknytte element Til element Salg element provisjon Legg til element kode '{code}' Til element lenke element element Tilpasset element Domene element element Tilknytte element element 48element",
+        "Generer en unik lenke for din tilknyttede partner for å spore salg og provisjoner. Legg til henvisningskoder '{code}' til en hvilken som helst lenke eller tilordne et tilpasset dedikert domene for din tilknyttede selskap. Det vil bli sporet av systemet i 48 timer.",
     },
     fix_commission: "Fast provisjon",
     percent_commission: "Prosentbasert provisjon",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "element kunde Kjøp element element butikk element element Kunder element element Kjøp element element 10 element, element element By på element element Misligholde element element , element element Til element element Butikker element",
+        "Øk kundekjøp med en gamified opplevelse i butikken din. Sett opp premier og vinnerodds for kunder som tjener tokens gjennom kjøp. Hvert spill koster 10 tokens, og du kan tilby spesialpremier for førstegangskjøpere. Standardspillet er Wheel of Fortune, men du kan tilpasse det til å passe butikkens layout.",
     },
     empty_prize_list: "Skape element Administrer element element",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Vinnersjans i prosent",
     free_for_first: "Er det gratis for nye kunder?",
     free_for_first_message: "Nye kunder kan vinne denne varen.",
-    not_free_for_first_message: "element element Tilgjengelig element element gratis element",
+    not_free_for_first_message: "Denne premien er ikke tilgjengelig for første gratisspill.",
 
     amount: "Premiebeløp",
     amount_hint: "Brukere vinner dette beløpet for bestillingen sin.",
@@ -6614,11 +6614,11 @@ export default {
     },
     config: {
       subtitle:
-        "element, element element Skape element Butikker Lotteri element element Tittel, Beskrivelse, Farge, element Bilde element element ",
+        "Her kan du lage din butikks lotteripremier. Angi tittel, beskrivelse, farge og bilde for hver premie.",
     },
     design: {
       subtitle:
-        "element, element element Til element element Bilde element Farge element element ",
+        "Her har du muligheten til å velge bilde og farge for premien.",
     },
     constraints: {
       subtitle: "element element ",
@@ -6626,11 +6626,11 @@ export default {
     prize: {
       title: "element",
       subtitle:
-        "element element Detaljer element element Rabatt kode, Gave Kort, element, element element Lotteri element",
+        "Sett opp premiedetaljene her. Alternativene inkluderer rabattkoder, gavekort, kreditter og andre rabatter som lotteribelønninger.",
     },
     product_input: {
       label: "Produkt element",
-      message: "Velg element Produkt element element (element gratis)",
+      message: "Velg et produkt for premie (er gratis)",
     },
   },
 
@@ -7047,12 +7047,12 @@ export default {
         subtitle: "element element Til element element ",
         sample_files: "element filer",
         valid_vendor_name_needed:
-          "element element <b>element Navn</b>. element <b>Navn</b> element Brukt Til element element Til <i>Skape</i> element Ny selger element <i>Oppdater</i> element element ",
+          "Du må oppgi et <b>gyldig navn</b>. <b>navn</b> brukes til å bestemme om det skal <i>Opprette</i> en ny leverandør eller <i>Oppdatere</i> en eksisterende.",
         assign_user_after_import:
-          "element Importer selgere, element element Bruker Til element element Adgang Til element selger element",
+          "Etter å ha importert leverandører, kan du manuelt tilordne en bruker for å gi dem tilgang til leverandørpanelet.",
       },
       need_kyc_alert:
-        "element element Til element element Personlig informasjon element Importer selgere",
+        "Du må bekrefte din personlige informasjon før du importerer leverandører.",
       back_to_vendors_list: "Tilbake Til selger Liste",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "selger Produkter",
     subtitle:
-      "element element liste alle Produkter tilbud element selgere element element Markedsplass, element Produkt element element koblet Til element element Mer. . selgere element selger element element Produkt element element Inkluderer Inventar element Prissetting Detaljer element Til element selger",
+      "Denne katalogen viser alle produkter som tilbys av leverandører. På markedsplassen kan et produkt knyttes til en eller flere leverandører. Hver leverandør knyttet til et produkt har en unik oppføring som inkluderer beholdning og prisdetaljer spesifikke for den leverandøren.",
     filter_vendor: {
       placeholder: "filter element selger",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "element selgere element",
     title: "selger element Liste",
     subtitle:
-      "element element Liste element Forespørsler Fra element element Til element selgere element element Markedsplass",
+      "Dette er en liste over forespørsler fra enkeltpersoner som har søkt om å bli leverandører på din markedsplass.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,39 +7088,39 @@ export default {
     marketplace: {
       title: "Markedsplass",
       subtitle:
-        "element element Markedsplass element element Til element element Markedsplass, element element butikk element element Innstillinger",
+        "Deaktivering av markedsplassen vil slå av enkelte funksjoner. Hvis du vil stenge hele markedsplassen din, bør du deaktivere butikken din i innstillingene.",
     },
     distribution_model: {
       title: "element element",
       subtitle:
-        "element element selgere Til element Varer element Til element element Ordrene element element Lager element frakt, element element ",
+        "Markedsplasser kan operere under ulike distribusjonsmodeller. Enten du foretrekker at leverandører sender varer direkte til kjøpere eller konsoliderer bestillinger på lageret ditt for frakt, kan du velge den modellen som passer best for dine behov her.",
     },
     access: {
       title: "selger Adgang",
       subtitle:
-        "element element , element element Adgang selgere element Til element Produkt Dashbord element element Adgang Innstillinger Til element selgere Til Legg til element element Produkter element Kategorier element element Adgang Til element element",
+        "Som administrator kontrollerer du tilgangsnivået leverandører har til produktdashbordet. Juster globale tilgangsinnstillinger for å la leverandører legge til sine egne produkter og kategorier eller begrense denne tilgangen til kun administratorer.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Muliggjøre frakt element selgere element element Butikk > Logistikk element element metode element",
+      "Aktiver frakt for leverandører i kategorien Butikk > Logistikk for hver enkelt metode.",
     transportation_available_tooltip: "element element Tilgjengelig element selgere",
     transportation_not_available_tooltip:
-      "element Tilgjengelig element selgere! element element Muliggjøre element element Innstillinger",
+      "Ikke tilgjengelig for leverandører! Du kan aktivere det i transportinnstillingene.",
     panel: {
       title: "selger element",
-      subtitle: "element element selgere element element Tilpasset Domene",
+      subtitle: "Ta med leverandørene dine gjennom ditt egendefinerte domene.",
     },
     documents: {
       title: "element",
       subtitle:
-        "element element selgere Til Last opp element element ",
+        "Du kan kreve at leverandørene laster opp dokumenter eller signerer visse kontrakter. Spesifiser nødvendige dokumenter her.",
       add_document_action: "Legg til element element",
     },
     inputs: {
       enable: {
         false_description:
-          "element Markedsplass element element , element alle Markedsplass element",
+          "Markedsplassen er slått av, og deaktiverer alle markedsplassfunksjoner.",
         true_description:
-          "element Markedsplass element Aktiv, element alle Markedsplass element",
+          "Markedsplassen er aktiv, og aktiverer alle markedsplassfunksjoner.",
       },
       product: {
         label: "Legg til nytt produkt",
@@ -7128,14 +7128,14 @@ export default {
         false_description:
           "element Legg til Produkter element element selgere selgere element element Administrer pris element Inventar",
         true_description:
-          "selgere element Legg til element Administrer element element Produkter element element selger element",
+          "Leverandører kan legge til og administrere sine egne produkter direkte i leverandørpanelet.",
       },
       need_verify: {
         label: "Produkt element Strømme",
         false_description: "Ny selger Produkter element Bo element",
         false_title: "Nei element element",
         true_description:
-          "selgere Ny Produkter element element Bo element element Markedsplass",
+          "Leverandørenes nye produkter krever godkjenning før de publiseres på markedsplassen.",
         true_title: "element element",
       },
       category: {
@@ -7144,7 +7144,7 @@ export default {
         false_description:
           "element Legg til Kategorier selgere element element Legg til Produkter Til element Kategorier",
         true_description:
-          "selgere element Legg til element Administrer Kategorier element element selger element",
+          "Leverandører kan legge til og administrere kategorier direkte i leverandørpanelet.",
       },
       shipping: {
         label: "frakt element",
@@ -7152,19 +7152,19 @@ export default {
         false_description:
           "selgere element Legg til element element frakt metoder",
         true_description:
-          "selgere element element frakt metoder, Legg til Kurerer, element element frakt element element ",
+          "Leverandører kan sette opp sine egne fraktmetoder, legge til kurerer og tilpasse frakt etter deres behov.",
       },
       hidden_customer: {
         label: "Vis element Kontakt informasjon",
         true_description: "element Kontakt Detaljer element element Fra selgere",
         false_description:
-          "element Kontakt Detaljer, element element E-post, element element Til selgere",
+          "Kjøpers kontaktinformasjon, som telefon og e-post, er synlig for leverandører.",
       },
       multi: {
         false_description:
-          "element Bruker element element selger Regnskap Brukere element element Til element element /selgere",
+          "En bruker kan bare ha én leverandørkonto. Brukere vil bli omdirigert til panelet deres på /leverandører.",
         true_description:
-          "element Bruker element element selger Kontoer element element ; element Kontakt element element ",
+          "En bruker kan ha flere leverandørkontoer. Dette er en betafunksjon; vennligst kontakt oss før du bruker den.",
         true_title: "element modus",
         false_title: "element selger modus (Misligholde)",
       },
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "element element",
         subtitle:
-          "Legg til element element punkt element element selgere element, element element Til Last opp element element ",
+          "Legg til et dokumentforespørselselement her. Det vil vises i leverandørens panel, og ber dem laste opp det nødvendige dokumentet.",
       },
       guide: {
         title: "veiledning",
         subtitle:
-          "element element veiledning Til element selgere element element Til Last opp element element Til element element ",
+          "Gi en kort veiledning for å hjelpe leverandører med å forstå hvilke dokumenter som skal lastes opp og hvordan de skal gjøre det riktig.",
       },
       code: {
         title: "Bygg inn Kode",
         subtitle:
-          "element element Bygg inn Kode element element , skjema, element element selger element element",
+          "Lim inn innbyggingskoden for et dokument, skjema eller kontrakt som leverandøren må signere.",
       },
       link: {
         title: "Ekstern lenke",
         subtitle:
-          "element element lenke Til element element selger element element",
+          "Oppgi en ekstern lenke til et dokument eller en kontrakt som leverandøren må signere.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "veiledning (valgfritt)",
           placeholder:
-            "element, element element veiledning element element, element Lenker Til element element ",
+            "Gi eventuelt en kort veiledning eller instruksjoner, inkludert lenker til kontrakter eller andre dokumenter.",
         },
         code: {
           label: "Bygg inn Kode",
@@ -7251,22 +7251,22 @@ export default {
     Identification: {
       title: "Eieren element element",
       description:
-        "Last opp element element ID Til element element KYC element element bedrift Eieren element element ",
+        "Last opp en offentlig utstedt ID for å bekrefte identiteten til bedriftseieren eller nøkkellederen.",
     },
     Business: {
       title: "bedrift element",
       description:
-        "element element bedrift element element Til element element status element element bedrift",
+        "Oppgi viktige forretningsdokumenter som lisenser eller registreringsbevis for å bekrefte den juridiske statusen til virksomheten din.",
     },
     Address: {
       title: "adresse element",
       description:
-        "element element Til element element bedrift adresse, element element , Avgift Faktura, element element ",
+        "Send inn et dokument for å bekrefte bedriftsadressen din, for eksempel en strømregning, skattefaktura eller leieavtale.",
     },
     Contract: {
       title: "element & element",
       description:
-        "Last opp element element Vilkår element Forhold element element bedrift element",
+        "Last opp kontrakter eller avtaler som beskriver vilkårene og betingelsene for forretningsforbindelsene dine.",
     },
     Copyright: {
       title: "element element",
@@ -7276,17 +7276,17 @@ export default {
     Privacy: {
       title: "Personvern policy element",
       description:
-        "element element Personvern policy element Til element element Til element Bruker element kunde informasjon",
+        "Ta med dokumentene dine i personvernerklæringen for å demonstrere din forpliktelse til å beskytte bruker- og kundeinformasjon.",
     },
     Embed: {
       title: "element skjema",
       description:
-        "element element skjema Til element element informasjon",
+        "Fyll ut det innebygde skjemaet for å gi den nødvendige informasjonen.",
     },
     Link: {
       title: "Ekstern lenke",
       description:
-        "element element lenke Til element element informasjon",
+        "Følg den eksterne lenken for å gi nødvendig informasjon.",
     },
   },
 
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "element element Liste element alle Transaksjoner element element Velg Lommebok element Lade Transaksjon element element kunde element element 🛍️ Bestill element element 🛍️ Bestill element element , element element Transaksjon element element ",
+      "Denne delen gir en detaljert liste over alle transaksjoner for den valgte lommeboken. En kostnadstransaksjon registreres når en kunde betaler for en ordre. Hvis en ordre kanselleres eller delvis refunderes, vil den tilsvarende refusjonstransaksjonen også bli registrert her.",
     vendor_bank: "selger element",
     order_fee: "🛍️ Bestill Avgift",
     order_refund: "🛍️ Bestill element",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "element Historie",
     subtitle:
-      "element element Regnskap element element selgere element element alle Transaksjoner Betalinger element element metoder, element element innbetaling Leverandører element Brukerstøtte element Betalinger, Som element Stripe",
+      "Denne funksjonen effektiviserer regnskapet for deg og leverandørene dine ved å føre en detaljert oversikt over alle transaksjoner. Betalinger kan behandles manuelt via bankoverføringer eller andre metoder, eller administreres automatisk av betalingsleverandører som støtter delte betalinger, som Stripe.",
     top_up_vendor_action: "element element selger Regnskap",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "Prissetting Planer",
     subtitle:
-      "element element Prissetting element element Markedsplass, Som element 5% element Avgift element element Produkter element tjen Prissetting Administrasjon element element Mer. . element",
+      "Konfigurer prismodeller for markedsplassen din, som en marginavgift på 5 % for digitale produkter. Dette gjør prisstyring raskere og mer effektiv.",
     add_pricing_action: "Legg til Prissetting element",
   },
 
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "element, element Produkter element",
       },
       description: {
-        placeholder: "element element Legg til element Merk element",
+        placeholder: "Du kan legge til et notat her...",
       },
       accept_delete: {
-        true_description: "element element Til Slett element Prissetting element",
+        true_description: "Jeg ønsker å slette denne prismodellen.",
         true_title: "element Prissetting element element",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "selger",
       subtitle:
-        "Velg element selger element element Til Overføre element Til element Velg, Tilgjengelig innbetaling element element aktivert element innbetaling Porter, element element ",
+        "Velg leverandøren du ønsker å overføre penger til. Når det er valgt, vil tilgjengelige betalingsalternativer vises. Hvis du har aktivert utbetalingskompatible betalingsgatewayer, vil disse alternativene også vises her.",
     },
     vendor_wallet: "selger Lommebok",
     vendor_bank_account: "selger element Regnskap",
     with_balance_tooltip:
-      "element element koble til element Tjenester Som Stripe Connect, element element Tilgjengelig Balansere element element Stripe Regnskap element element",
+      "Når du kobler til utbetalingstjenester som Stripe Connect, henter og viser vi den tilgjengelige saldoen på Stripe-kontoen din for referanse.",
     with_balance: "element Balansere",
     without_balance: "element Balansere - element modus",
     bank_transfer: {
       title: "element Overføre",
       subtitle:
-        "element element innbetaling Historie Nei element penger element element Til element selger element element ; element element Betale element selgere",
+        "Dette er en oversikt over betalingshistorikk. Ingen faktiske penger vil bli overført til leverandøren av systemet; du må betale leverandørene manuelt.",
     },
     vendor_bank: "selger element",
     gateway_in_debug_mode_warning:
-      "element element innbetaling Inngangsport element element modus, element element Til element element Regnskap",
+      "Siden betalingsgatewayen for øyeblikket er i feilsøkingsmodus, vil ikke penger overføres til en ekte konto.",
     payment: {
       title: "innbetaling",
       subtitle:
-        "element element Valuta element element Beløp element element Til Overføre Til element selger element element Beløp, element element Fra element selgere Lommebok element Tilkoblet Kontoer element element , element element Fra element Tilkoblet Regnskap, element element selgere Stripe Regnskap",
+        "Velg valuta og skriv inn beløpet du vil overføre til leverandøren. Hvis du legger inn et negativt beløp, vil midlene bli trukket fra leverandørens lommebok. For tilknyttede kontoer med utbetalingsmuligheter, vil midlene bli trukket fra den tilknyttede kontoen, for eksempel leverandørens Stripe-konto.",
     },
     history: {
       title: "Historie",
       subtitle:
-        "element element innbetaling element element Overføre, element element Balansere element element Fra element selgere Regnskap element Returnert Til element Regnskap",
+        "En del av denne betalingen har blitt refundert gjennom en reverseringsoverføring, noe som betyr at saldoen er trukket fra leverandørens konto og returnert til kontoen din.",
     },
     refund: {
       title: "element",
       subtitle:
-        "element element Beløp element element Fra element selgere Balansere alle Betalinger (element element beløp) element element selgere Regnskap (Som Stripe Connect) element element Overføre",
+        "Det tilbakebetalte beløpet vil bli trukket fra leverandørens saldo. Alle betalinger (eller gjenværende beløp) på leverandørens konto (som Stripe Connect) vil bli refundert gjennom en reverseringsoverføring.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "element element Legg til element Merk element element Merk element element Til element selger",
+          "Du kan legge til et notat her... Dette notatet er ikke synlig for leverandøren.",
       },
       accept_refund: {
         true_description: "element element Til Avbryt element innbetaling",
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "element element",
         message:
-          "element selgere element element Fullført element, element penger element Fra element element Til element Lommebok element Legg til Til element Lommebok Balansere",
+          "Leverandørens tilbakeføring av midler er fullført, med penger overført fra banken til lommeboken og lagt til lommeboksaldoen.",
       },
       payout_success: {
         title: "element",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "element",
-    max_batch_msg: "maksimum element element Varer element element Importer element element ",
-    max_daily_limit_msg: "maksimum element element Varer element element Importer element element ",
+    max_batch_msg: "Maksimalt antall varer du kan importere i en enkelt batch.",
+    max_daily_limit_msg: "Maksimalt antall varer du kan importere i løpet av en dag.",
     extra_daily_limit_msg: "element Varer element element Grense",
     add_items_today_msg: "Varer Legg til I dag",
     file_statistic_msg: "Statistikk element element fil",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Temafarger",
     theme_colors_description:
-      "element element Hoved Farge element element Butikk element element Mal element element Til element element Farge element element Merke",
+      "Du kan tilpasse hovedfargepaletten til butikken din her. Hver mal kan bruke disse fargene til automatisk å generere et komplett fargespekter som er på linje med merkevaren din.",
     products_view_mode: "Handlelistevisning",
     products_view_mode_desc:
       "Du kan justere visningsmodusen til produktene i butikken din basert på skjermstørrelsen. Denne modusen vil bli vurdert som standard og vil ikke bli brukt hvis brukeren endrer visningsmodus.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "element Tittel",
-      subtitle: "element Høyde element element Tittel element element ",
+      subtitle: "Høyden på tittelen vil justeres dynamisk.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "element element",
         false_description:
-          "Kategorier element Produkter element element Til Vis element element",
+          "Kategorier og produkter har en interaktiv animasjon for å vise funksjonaliteten.",
         true_title: "Statisk",
         true_description: "Kategorier element Produkter element Nei element",
       },
@@ -7519,7 +7519,7 @@ export default {
       title: "element Handlinger",
       hover: {
         false_description:
-          "Enkel element element modus element element Handlinger element Produkt Kort",
+          "Enkel og minimal modus uten ekstra handlinger på produktkort.",
         true_description:
           "Vis element Kjøpe & Legg til Til element element Produkt Kort element",
         true_title: "Vis element element ",
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "Produkt side",
       subtitle:
-        "element element Produkt side element element Priser element element Til element element ",
+        "Tilpass produktsiden din her. Du kan justere visningen av priser og endre arrangementet av seksjoner for å passe dine preferanser.",
       buy_button_color: "Kjøpe element Farge",
       smart_price: {
         title: "element Enhet pris",
         true_description:
-          "element Enhet pris element element Vekt, volum, element element Varianter element f.eks element element 2element element $5 element pris, element element kunde se element $2.5/element element Produkt side",
+          "Beregning av enhetspris ved å vurdere egenskapen til vekt, volum og pakkevarianter. Eks. Hvis du har en variant med 2L størrelse og $5 som pris, så ser kunden $2.5/L på produktsiden.",
       },
       reverse_currency: {
         title: "Valuta element Posisjon",
         false_title: "Normal modus",
         true_title: "element modus",
         false_description:
-          "element Valuta element element start element element f.eks: $95, €30",
+          "Valutategnet vil bli plassert i starten av tallene. Eks: $95 , €30",
         true_description:
-          "element Valuta element element Slutt element element f.eks: 95$, 30€",
+          "Valutategnet vil bli plassert på slutten av tallene. Eks: 95$ , 30€",
       },
       variants_selector: {
         title: "Varianter element",
         subtitle:
-          "element element Til element Varianter element element Produkt side",
+          "Du kan velge ulike måter å vise varianter på på produktsiden.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "element & Logg Inn",
       subtitle:
-        "element element selger element element Logg Inn element element Tilpasset element, Bilde, element Beskjed",
+        "Tilpass leverandørens introduksjons- og påloggingsopplevelse med en tilpasset video, bilde eller melding.",
     },
     inputs: {
       page_vendor_login: {
         label: "selger Logg Inn side",
         message:
-          "Velg element Tilpasset element side element selger Logg Inn element element, Bilder, element element side element element Til selgere element element ",
+          "Velg en tilpasset landingsside for leverandørpålogging. Inkluder video, bilder eller tekst for et unikt design. Denne siden vises til leverandører som ikke er pålogget.",
       },
       page_vendor_registered: {
         label: "selger Registrert side",
         message:
-          "Velg element Tilpasset side element element selgere element side element element Markedsplass element element selgere element Bruker",
+          "Velg en egendefinert side for påloggede leverandører. Denne siden vises hvis markedsplassen din støtter flere leverandører per bruker.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Tilpasset Varianter",
       subtitle:
-        "element Produkter element element Varianter element element Endring element Misligholde Navn element Varianter element element Til element element Varer element Misligholde element element Kunder element element maksimum Lengde element 24. Selldone",
+        "Fysiske produkter kan ha varianter. Du kan endre standardnavnet på varianter. Vårt forslag er å la disse varene stå som standard og tomme, slik at selldone automatisk vil oversette dem for kundene dine til deres språk. Maksimal lengde er 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Overskrift element",
       subtitle:
-        "element Misligholde, element Butikker element element Overskrift, element element Last opp element Tilpasset element element , element element Til element element Høyde element Bredde element element ",
+        "Som standard vises butikkens logo i overskriften, men du kan laste opp en egendefinert logo i stedet. Hvis logoen din ikke har et kvadratisk sideforhold, må du kanskje justere høyden og bredden manuelt for optimal presentasjon.",
     },
     header_title: {
       title: "Overskrift Tittel",
       subtitle:
-        "element element Tittel element element Overskrift element element Sider element element Til element Ta vekk element, element element 'element element Tittel element",
+        "Du kan tilpasse tittelen som vises i overskriften på sidene dine her. Hvis du ønsker å fjerne den helt, vennligst klikk på 'Angi tom tittel'-knappen.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "element modus",
       description:
-        "element Varianter element element , element element ",
+        "Kompakte varianter i valgbare separate alternativer, egnet for de fleste tilfeller.",
     },
     select: {
       title: "Velg modus",
       description:
-        "element alle Varianter element element , element element Varianter",
+        "Viser alle varianter i en rullegardin, ideell for et stort antall varianter.",
     },
   },
 
@@ -7677,12 +7677,12 @@ export default {
     add_title: "Legg til element element",
     config: {
       subtitle:
-        "element Tittel element Beskrivelse element element Til Personale element",
+        "Angi tittel og beskrivelse for eiendomssettet ditt. Det vil kun være synlig for ansatte.",
     },
     variants: {
       title: "Varianter",
       subtitle:
-        "element element Navn, Ikon, element 🛍️ Bestill element element Produkter element element Varianter element element Misligholde 6 Varianter, element element Tilpasset Varianter element element Produkt element",
+        "Du kan tilpasse variantnavnet, ikonet og rekkefølgen her. Hvis du har en rekke produkter med unike varianter som ikke passer til standard 6 varianter, kan du angi tilpassede varianter for hvert produkt her.",
     },
 
     inputs: {
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Kundeadministrasjon",
     subtitle:
-      "Kunder element element Legg til Til element butikk element element ; element, element element Importer, element element POS, element element butikk element element Bruker element element butikk, element element Registrert element element kunde",
+      "Kunder kan legges til butikken din på flere måter; manuelt, bulk Excel-import, gjennom POS eller via nettbutikken din. Hver gang en bruker logger seg inn på butikken din, blir de automatisk registrert som kunde.",
     add_customer_action: "Legg til Ny kunde",
 
     all_customers: "Last ned alle kunder",
@@ -7837,14 +7837,14 @@ export default {
     },
     detail: {
       subtitle:
-        "element element Personlig informasjon element element kunde element element Kunder Personvern",
+        "Hold en oversikt over personlig informasjon om kunden din. Vennligst respekter kundens personvern.",
     },
     preferences: {
       subtitle: "element Misligholde Bruker Valuta, kunde Klubb, element Segmenter element",
     },
     address: {
       subtitle:
-        "element adresse element element Brukt element element POS. element Bruker element element se element informasjon",
+        "Denne adressen kan brukes i POS. Brukeren kan ikke se denne informasjonen.",
     },
   },
 
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "element element ",
 
     pickup_ready_action: "element element",
-    pickup_ready_action_subtitle: "element 🛍️ Bestill element element kunde element",
+    pickup_ready_action_subtitle: "Bestillingen er klar for kundehenting.",
 
     service_action: "element element",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "element Leveranse element",
       true_description:
-        "element element 🛍️ Bestill element element Levert Til element kunde",
+        "Jeg bekrefter at bestillingen er levert til kunden.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "element Dashbord",
     subtitle:
-      "element element , element Kommisjon Avgift element element Betalt Til element element Regnskap element element informasjon element",
+      "På forespørsel vil provisjonsgebyret bli utbetalt til bankkontoen spesifisert av deg. Vennligst oppgi bankinformasjonen din her.",
     no_bank_info: "Nei element element!",
     actions: {
       edit_my_bank_info: "Redigere element element ",
@@ -8013,17 +8013,17 @@ export default {
       info: {
         title: "element",
         subtitle:
-          "element Inndata element element informasjon element element informasjon Til Overføre element element Regnskap element element Navn element element bedrift Navn, element element",
+          "Skriv inn bankinformasjonen din her. Vi vil bruke denne informasjonen til å overføre penger. Sørg for at bankkontoen står i ditt navn eller under firmanavnet ditt, alt etter hva som er aktuelt.",
       },
       inputs: {
         name: {
           label: "element Navn",
-          message: "element element Navn element element Regnskap element element",
+          message: "Fullt navn på banken der kontoen holdes.",
         },
         holder_name: {
           label: "Regnskap element Navn",
           message:
-            "element element Navn element element Regnskap",
+            "Fullt navn på personen eller enheten som har kontoen.",
         },
         account_number: {
           label: "Kontonummer",
@@ -8031,23 +8031,23 @@ export default {
             "element element Regnskap",
         },
         routing_number: {
-          label: "element element (element) element element Kode (UK)",
+          label: "Rutingnummer (USA) eller sorteringskode (Storbritannia)",
           message:
-            "element element (element Vilkår element Brukt element element ).",
+            "Et nummer som identifiserer den spesifikke bankfilialen (ulike termer brukes i forskjellige land).",
         },
         swift: {
           label: "SWIFT/BIC Kode",
           message:
-            "element element Kode Brukt Til element element , element element ",
+            "En internasjonal kode som brukes til å identifisere banker globalt, spesielt for internasjonale overføringer.",
         },
         iban: {
           label: "IBAN (element element Regnskap element)",
           message:
-            "Brukt element element , element IBAN element element Kontoer element element ",
+            "IBAN brukes hovedsakelig i Europa, og er et internasjonalt avtalt system for å identifisere bankkontoer på tvers av landegrenser.",
         },
         contact: {
           label: "Kontaktinformasjon",
-          message: "element element E-post adresse element element Regnskap",
+          message: "Telefonnummer eller e-postadresse knyttet til kontoen.",
         },
         note: {
           label: "Merk",
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Fra alle tjeneste element, Abonnement element element Betalinger element element ",
+      "Fra alle tjenestegebyrer, abonnement og andre betalinger utført av dine henvisninger.",
   },
 
   /**
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "element element",
       description:
-        "element element 2% Kommisjon Fra element element",
+        "Du er i bronsenivået. Du har tjent 2 % provisjon fra henvisningene dine.",
     },
     Silver: {
       title: "element element",
       description:
-        "element element 4% Kommisjon Fra element element",
+        "Du er i Silver Tier. Du har tjent 4 % provisjon fra henvisningene dine.",
     },
     Gold: {
       title: "element element",
       description:
-        "element element 6% Kommisjon Fra element element",
+        "Du er i Gold Tier. Du har tjent 6 % provisjon fra henvisningene dine.",
     },
     Platinum: {
       title: "element element",
       description:
-        "element element 8% Kommisjon Fra element element",
+        "Du er i platinanivået. Du har tjent 8 % provisjon fra henvisningene dine.",
     },
     Diamond: {
       title: "element element",
       description:
-        "element element 10% Kommisjon Fra element element",
+        "Du er i Diamond Tier. Du har tjent 10 % provisjon fra henvisningene dine.",
     },
   },
 
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Henvisningsbetalinger",
     subtitle:
-      "element element Liste element Uttak Transaksjoner element element Overføre element Fra element Lommebok Til element element Regnskap element element Selldone Lommebok, element element liste element",
+      "Det er listen over uttakstransaksjoner. Når du overfører midler fra henvisningslommebok til bankkontoen din eller Selldone-lommeboken din, vil det bli oppført her.",
 
     officer: "Offiser",
     amount: "Beløpstransaksjon",
@@ -8520,7 +8520,7 @@ export default {
     manage: {
       title: "Administrer SMS",
       subtitle:
-        "element element se element element melding Sendt element element butikk element element Til element Begrensning element element tjeneste, element element Til element element melding element element ",
+        "Du kan se innholdet i tekstmeldingene som er sendt av butikken din her. På grunn av begrensningen i å registrere valideringsmønstrene i meldingstjenesten, er det ikke mulig å tilpasse tekstmeldingene for øyeblikket.",
     },
 
     template: {
@@ -8528,7 +8528,7 @@ export default {
       valid_message: "element element Skape Tilpasset SMS melding",
       provider_not_enable_message: "element SMS element element aktivert!",
       need_custom_provider_message:
-        "element SMS melding element element Tilpasset element",
+        "Tilpassede SMS-meldinger fungerer bare hvis du angir en tilpasset leverandør.",
       add_new: "Legg til Ny",
       disable_reason: {
         set_provider: "element element !",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "Vis element aktivert",
 
       text_template_not_supported_msg:
-        "element element Brukerstøtte element element melding",
+        "Leverandøren din støtter ikke rene tekstmeldinger.",
       structure_template_not_supported_msg:
         "element element Brukerstøtte element melding",
 
@@ -8556,15 +8556,15 @@ export default {
       config: {
         title: "Beskjed Konfig",
         subtitle:
-          "element element Skape element Mal element element SMS Beskjed element element SMS Leverandører Nettsted, element element Kode element element informasjon Til element element, element element SMS Beskjed element element ",
+          "Du kan lage en mal for SMS-meldingen på nettsiden til SMS-leverandøren din, og deretter angi kode og datastruktur her. Vi videresender denne informasjonen til leverandøren din, hvor selve SMS-meldingen vil bli generert.",
         code: "Kode",
-        language_msg: "element element Til element element Misligholde",
+        language_msg: "La den stå tom for å angi den som standard.",
         enable_msg: "element Mal element element Brukt Til Skape melding",
       },
       text: {
         title: "element element",
         subtitle:
-          "element element SMS Beskjed element element Sendt Til element Bruker",
+          "Skriv inn en personlig SMS-melding her. Dynamiske verdier vil bli erstattet med deres faktiske verdier før de sendes til brukeren.",
         message: "Beskjed",
         reset_to_default: "element Til Misligholde",
 
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "element Mal",
         subtitle:
-          "element element Mal element element Verdi element element Mal Kode element element SMS tjeneste element, element element <code>element</code> element element Til Sende element Kode element element <code>Verdi</code> element element Mal element element, element <code>{code}</code> element element Mal Kode",
+          "Du kan angi malnøkkelen og verdien her. Malkoden skal være nøyaktig det du angir i SMS-tjenesteleverandøren, og <code>nøkkelen</code> er det leverandøren vil sende koden gjennom. Hvis feltet <code>verdi</code> for malen er tomt, vil <code>{code}</code> bli betraktet som malkoden.",
         add_new_parameter: "Legg til Ny element",
 
         auto_fill: {
           title: "automatisk element element",
           subtitle:
-            "element element Verdi, element Selldone element element Verdi element element Til element element Misligholde element element SMS element element , element element Nei element Til element element ",
+            "Du kan angi hver av disse parameterne som en verdi, og Selldone vil erstatte dem med den tilsvarende verdien. Det er bedre å definere standardverdiene som maler i SMS-leverandøren for enkelhets skyld. I dette tilfellet vil det ikke være nødvendig å definere parameterverdier her.",
         },
         request: {
           title: "element element",
         },
         sample: {
           title: "element Mal Beskjed",
-          subtitle: "element element Mal Til element SMS element",
+          subtitle: "Du kan kopiere og lime inn denne malen til din SMS-leverandør.",
         },
         add_message_action: "Legg til Beskjed Mal",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "element element",
-      desc: "Beskjed element element Fra element element automatisk element element Sende",
+      desc: "Meldingen vil bli opprettet fra en tekst med automatisk erstatte parametere og sende.",
     },
     template: {
       title: "element Mal",
-      desc: "element element Fra element element Sende Til element element",
+      desc: "Et objekt vil bli opprettet fra parametere og sendt til leverandøren.",
     },
   },
 
@@ -8617,40 +8617,40 @@ export default {
     title: "Tilpasset SMS element",
     reset_error: "element element",
     subtitle:
-      "element element Tilpasset SMS tjeneste element element SMS element bedrift Navn element Misligholde element element Sender element SMS element element melding element element ",
+      "Sett opp en tilpasset SMS-tjenesteleverandør og tilpass autentiserings-SMS-en og bedriftsnavnet. Standardleverandøren sender bare autentiserings-SMS og informerer meldinger i enkelte hvitelistede land.",
     plain_text: "element element",
     structural_template: "element Mal",
     errors_limit_msg:
-      "element element tjeneste element 100 element, element element deaktivert element! element element Til element element",
+      "Hvis tjenesten din overstiger 100 feil, deaktiveres den automatisk! Du kan tilbakestille feil for å aktivere den på nytt.",
 
     enable_input: {
       false_description:
-        "element melding element element Selldone element Velg element, element element 🛍️ Bestill Melding SMS element element Sendt element element",
+        "OTP-meldinger vil bli sendt gjennom Selldone i utvalgte land, mens andre bestillingsvarslings-SMS også vil bli sendt.",
       true_description:
-        "SMS melding element element Levert element element tjeneste element",
+        "SMS-meldinger vil bli levert via tjenesteleverandøren din.",
     },
     test_input: {
       true_title: "element element",
       true_description:
-        "element element Sende element element Beskjed Til element element 📞 <b>{phone}</b>, element element Lade element, element element tjen element element ",
+        "Vi sender en testmelding til telefonnummeret ditt 📞 <b>{phone}</b>, det kan belaste deg, men du kan sørge for at alt fungerer bra.",
     },
     sync_action: {
       title: "Handlinger",
       subtitle:
-        "element SMS Tjenester element element Tjenester Som Kampanjer, Markedsføring, element element Kontakter element element informasjon Til element element Mer. . element",
+        "Noen SMS-tjenester tilbyr ekstratjenester som kampanjer, markedsføring og andre funksjoner. Du kan synkronisere kontaktene dine eller tilleggsinformasjon for å bruke funksjonene deres raskere.",
       action: "element Kontakter",
     },
     tokens: {
       title: "element",
       subtitle:
-        "element element Til lenke element SMS tjeneste element element Butikk",
+        "Still inn følgende parametere for å knytte SMS-tjenesteleverandøren din til butikken din.",
     },
   },
   sms_messages_options: {
     all: {
       title: "element + 🛍️ Bestill Varsler",
       description:
-        "element melding element 🛍️ Bestill Melding element element Sendt",
+        "Autentiseringsmeldinger og ordrevarsel vil bli sendt.",
     },
     otp: {
       title: "element element",
@@ -8684,18 +8684,18 @@ export default {
       "Connect element element tjeneste element Til Sende E-poster element element Tilpasset Domene",
     provider: "element",
     enable_input: {
-      false_description: "element E-poster element element Sendt element element Domene",
-      true_description: "element E-poster element element Sendt element element Tilpasset element Domene",
+      false_description: "Dine e-poster vil bli sendt via ditt myselldone-domene.",
+      true_description: "Dine e-poster vil bli sendt via ditt egendefinerte e-postdomene.",
     },
     config: {
       title: "element",
       subtitle:
-        "Til element element Tilpasset element tjeneste element element Butikk, Inndata element tjeneste API element element Innstillinger",
+        "For å konfigurere din egendefinerte e-posttjeneste for butikken din, skriv inn tjeneste-API-nøkkelen sammen med andre nødvendige innstillinger.",
     },
     sender: {
       title: "Fra",
       subtitle:
-        "element element Misligholde element Navn element E-post adresse, element element Brukt element element E-poster Til element Kunder",
+        "Du kan konfigurere standard avsenderens navn og e-postadresse, som vil bli brukt til å sende e-post til kundene dine.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "element element tjeneste element 100 element, element element deaktivert element! element element Til element element",
+        "Hvis tjenesten din overstiger 100 feil, deaktiveres den automatisk! Du kan tilbakestille feil for å aktivere den på nytt.",
 
       encryption_ports_guide:
-        "E-post Leverandører element By på SSL, element, element element Tilgjengelig element element koble til element element , element element modus element element <b>element</b> element element: <b>587</b> element <b>SSL</b> element element: <b>465</b>.",
+        "E-postleverandører kan tilby SSL, TLS eller ukrypterte tilkoblinger basert på tilgjengelige porter. Hvis tilkobling resulterer i en feil, kan endring av krypteringsmodus løse problemet. Standard <b>TLS</b> bruk port : <b>587</b> og <b>SSL</b> bruker port : <b>465</b>.",
 
       enable_receive_test:
-        "element Lagre element, element element Motta element element <b>{email}</b>. Lagre element element E-post element element Ny element",
+        "Etter å ha lagret endringer, vil du motta en testmail på <b>{email}</b>. Lagre endringer før du sender en test-e-post med den nye konfigurasjonen.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Salg Kanal",
     subtitle:
-      "Skape element element Kategori element element Produkter, element element Bilder element element, element element Til Instagram element element, element element , element element Til element element Produkter",
+      "Lag en dedikert kategori for produktene dine, komplett med bilder og videoer, og del den på sosiale medier. Det ligner på Instagram og TikTok, men med full kontroll, slik at du kan selge produktene dine direkte.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Skatt skal legges til sluttprisen.",
     invoice: {
       subtitle:
-        "element element skjema, element element Skape element innbetaling lenke element element Beløp element element tjen element element Faktura element element innbetaling element element ",
+        "Ved å bruke dette skjemaet kan du opprette en betalingslenke for et bestemt beløp. Det gjør det også enkelt og greit å spore fakturaen og bekrefte at betalingen er fullført.",
     },
   },
 
@@ -8949,7 +8949,7 @@ export default {
     drag_sort_msg: "element element filer",
     paid_mode_msg: "Brukere element Last ned element element Produkt",
     free_mode_msg:
-      "Brukere element Last ned element element gratis element filer element element 50 MB.",
+      "Brukere kan laste den ned gratis. Eksempelfiler må være under 50 MB.",
     has_gust_shopping_msg:
       "Registrert element element Brukere element Last ned filer element element Kjøp element aktivert element element Butikker Innstillinger > Strømme",
     only_registered_shopping_msg:
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Tilgjengelig Steder",
     subtitle:
-      "element element Produkt element tjeneste element element Tilgjengelig element element Regioner, element element Land element element kode, element element Steder element element plassering begrensning element element Produkt element element Produkt side, Kunder element element Til Velg element plassering element element Produkt element Tilgjengelig element element Område, element element Til element element Kjøp",
+      "Hvis produktet eller tjenesten din bare er tilgjengelig i bestemte regioner, definert av land og post- eller pinkoder, kan du angi disse stedene her. Disse plasseringsrestriksjonene håndheves på produktnivå. På produktsiden vil kundene bli bedt om å velge sin plassering. Hvis produktet er tilgjengelig i deres valgte område, vil de kunne fortsette med kjøpet.",
 
     add_location_action: "Legg til Land",
     no_restriction: "Nei begrensning",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "element plassering begrensning",
       description:
-        "Kunder element element Kjøp element Produkt element element Land element element Kode, element Til element element plassering begrensning",
+        "Kunder kan kun kjøpe dette produktet innenfor det angitte landet og postnummeret, på grunn av den etablerte plasseringsbegrensningen.",
     },
     zip_pin_code: "element / element kode",
     no_country_selected_error:
-      "element element Land element element Liste element element kode element element, element Produkt element element Tilgjengelig",
-    tips: "element element <b>+ Legg til Land</b> element Til start element element Ny plassering element element , element element Lagre element element <b>⋮ Meny</b> element Velg <b>Lagre profil</b>.",
+      "Inkluder minst ett land sammen med en liste over post-/pinkoder. Uten det vil ikke dette produktet være tilgjengelig.",
+    tips: "Klikk på knappen <b>+ Legg til land</b> for å begynne å lage et nytt stedssett. Når du er ferdig, kan du lagre den ved å klikke øverst til høyre <b>⋮ Meny</b> og velge <b>Lagre profil</b>.",
     need_save_message:
-      "element plassering begrensning Innstillinger element element Produkt element element Til element element , element element 'Lagre element element",
+      "Plasseringsbegrensningsinnstillingene for produktet er endret. For å bevare disse endringene, klikk på \"Lagre\"-knappen nedenfor.",
 
     add_dialog: {
       title: "Legg til Land",
       message:
-        "element element Land element element 'Legg til element element Land Til element element, element element Til element element, element kode, element element, element element Til element",
+        "Velg et land og klikk \"Legg til\". Dette vil legge til landet i tabellen, slik at du kan tilordne postkoder, pinkoder, bynavn eller regionnavn til det.",
     },
     save_profile_dialog: {
       title: "Legg til Steder profil",
       message:
-        "element Inndata element Navn Til Lagre element element Steder element element plassering element element Til element Produkter, element element plassering element element profil element element Navn element element, element element Ny element",
+        "Skriv inn et navn for å lagre dette settet med plasseringer. Dette lagrede posisjonssettet kan brukes på andre produkter, noe som muliggjør rask posisjonslasting med bare et enkelt klikk. Hvis en profil med det angitte navnet allerede eksisterer, vil den bli oppdatert med disse nye verdiene.",
       title_input: {
         title: "profil Tittel",
         placeholder: "element Kategori Navn, element butikk Navn,. ..",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "element Steder profil",
       message:
-        "element element Steder element Velg element element plassering element element",
+        "Du kan laste posisjoner ved å velge et tidligere lagret posisjonssett her.",
 
       select_input: {
         title: "plassering profil",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "element 🛍️ Bestill Rapportere",
-      desc: "Motta element element E-post element element Detaljer element Ordrene element element ",
+      desc: "Motta en daglig e-post med detaljene for bestillinger for den dagen.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "element Butikker",
       subtitle:
-        "element, element element Butikker element element Til element element informasjon Tilgjengelig element element Butikker element, element element Fra element element Ordrene element element Personlig informasjon, element element Til element Offentlig element element informasjon element, element element butikk element element ",
+        "Her kan du oppdage et utvalg av prøvebutikker. Du får tillatelse til å lese informasjonen som er tilgjengelig i disse butikkene. Vennligst avstå fra å logge på eller legge inn bestillinger ved hjelp av ekte personlig informasjon, da disse dataene vil være tilgjengelige for allmennheten. Hvis du ved et uhell oppgir informasjonen din her, vennligst gå ut av butikken og ta kontakt med oss ​​for ytterligere hjelp.",
     },
 
     add_new_store: "Legg til Ny butikk",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Bloggkategorier",
     subtitle:
-      "element element Skape element element Kategorier element element Blogg element Til Administrer element Mer. . element element Kategori Grense element element Nettsted element, element element ny element element Kategorier, element element 100, Til element Administrasjon element element ",
+      "Du kan opprette et begrenset antall kategorier for blogginnleggene dine for å administrere dem mer effektivt. Å ha en kategorigrense fremmer bedre organisering på nettstedet ditt. Spesielt har selv de beste nyhetsbyråene et begrenset antall kategorier, ofte færre enn 100, for å effektivisere ledelsen og opprettholde et bredere fokus.",
 
     add_action: "Legg til ny kategori",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "element element ",
     subtitle:
-      "element element Liste element element Til element Blogg element element Produkt beskrivelse Til element Publisert element element Tider",
+      "Her er listen over planlagte artikler satt for fremtidig publisering. Du har muligheten til å planlegge blogginnlegg og til og med produktbeskrivelser som skal publiseres til bestemte tider.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Ordreassistent",
     subtitle:
-      "Eksporter element Last ned element element 🛍️ Bestill element - element element 100 Ordrene element",
+      "Eksporter og last ned etiketter for bulkordrebehandling - ideell for håndtering av over 100 bestillinger daglig.",
 
     timespan: {
       title: "Tidsperiode",
@@ -9266,7 +9266,7 @@ export default {
       title: "Påloggingsmetoder",
       subtitle: "Tilpass måten brukerne logger på i butikken din.",
 
-      tips: "<b>element</b> element element Bruker element element Butikk, element element Selldone Bruker element element, element element Bruker element element Adgang Til element adresse element element alle Butikker element element Utsikt element 🛍️ Bestill Historie, element element Butikk element element informasjon element Markedsføring element element Til element element Til element element, element Sende element E-post Til element Bruker element element ",
+      tips: "<b>Viktig.</b> Når en bruker registrerer seg i butikken din, opprettes en tilsvarende Selldone-bruker, hvis en ikke allerede eksisterer. Denne brukeren vil ha tilgang til adresseboken sin på tvers av alle butikker og kan se ordrehistorikken sin, selv om en butikk har stengt. Vi bruker ikke denne informasjonen til markedsføringsformål, men krever den for å forhindre svindel fra begge sider. For å opprettholde åpenhet sender vi en e-post til brukeren og informerer dem om registreringen.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Sjekk ut skjema",
       subtitle:
-        "element element Sjekk ut skjema element Til element element informasjon element element Fra element Kunder",
+        "Tilpass kasseskjemafeltene for å samle inn informasjonen du trenger fra kundene dine.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "element",
       title: "element",
       description:
-        "element Produkt element element liste element element butikk, element element lenke",
+        "Dette produktet er ikke oppført i butikken, men tilgjengelig via direkte lenke.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Sende element element",
     message:
-      "Selldone element element 3 bedrift element Til element element informasjon element element Oppdater element element Tid element element",
+      "Identifiser dine topp 3 forretningsbehov for å trives og tjene penger på Selldone. Denne informasjonen vil bli delt direkte med grunnleggere og direktører og vil bli vurdert nøye. Du kan også oppdatere behovene dine over tid etter innsending.",
     expand_action: "skrive element element",
     input_label: "element element",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Sende Til element",
     },
     placeholder: {
-      ceo: "element Nei element Til element element, element Som Til element element , element element Til element",
-      team: "element element Til element element Til element element Til element",
+      ceo: "Absolutt ingen grunn til å være hyggelig, jeg liker å høre din direkte, rett til punkt spørre.\nf.eks. jeg må ha...",
+      team: "Prøv å være hyggelig mot dem.\nf.eks. jeg må ha...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "element Importer Produkter",
     message:
-      "element element Importer Produkter element Bilder, element element Tid Til element",
+      "Vi er i ferd med å importere produkter og bilder, noe som kan ta litt tid å fullføre.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "element informasjon element element kunde, element element Produkt Inndata skjema element",
+      "Informasjonen som vises her er sendt inn av kunden, i samsvar med skjemastrukturen for produktinndata.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "tjeneste status",
       auto_confirm_enable_msg: "element element Ordrene element aktivert",
       auto_confirm_disable_msg:
-        "automatisk element element Ordrene element element aktivert",
+        "Automatisk bekreftelse av bestillinger er ikke aktivert.",
       shipping_enable_msg:
-        "element frakt element element informasjon element element Sjekk ut",
+        "Fraktkostnaden vil bli beregnet basert på informasjonen oppgitt i kassen.",
     },
     detail: {
       title: "Connect element",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "element element",
         subtitle:
-          "element element Detaljer element informasjon element element slutt",
+          "Interne synkroniseringsdetaljer. Denne informasjonen lagres etter at en synkroniseringsprosessepoke er avsluttet.",
         no_data: "Nei element informasjon!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Produkter",
       subtitle:
-        "Liste element Legg til Produkter Fra {name}. tjen element element Produkt element element Navn element SKU. element Connect Tjenester element Brukt element element, element element Produkter element element <b>SKUelement</b> element <b>element</b>, element Produkter element element !",
+        "Liste over lagt til produkter fra {name}. Sørg for at produktet ditt har et unikt navn og SKU. Noen Connect-tjenester brukes til migrering, så hvis du har produkter med dupliserte <b>SKUs</b> og <b>Names</b>, vil disse produktene bli endret!",
       action: "element Produkter",
       syncing_message: "element element ",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "element",
       subtitle:
-        "element Liste element alle element element 7 30 dager element element tjeneste Leverandører",
+        "Listen over alle logger de siste 7 dagene. Loggingsfunksjonen støttes kun på eksterne tjenesteleverandører.",
     },
 
     edit: {
@@ -9595,18 +9595,18 @@ export default {
       service: {
         title: "tjeneste",
         subtitle:
-          "Velg element element, element element, element Markedsplass Til koble til",
+          "Velg målplattform, dropshipping-leverandør eller markedsplass for å koble til.",
       },
       test: {
         false_title: "element alle",
         false_desc: "element alle Tilgjengelig Produkter, Kategorier, Kunder",
         true_title: "element (element element )",
         true_desc:
-          "element Maks 5 Produkter, Kategorier, element Kunder element element Til element modus element element Connect > Innstilling element element Tid",
+          "Få maks 5 produkter, kategorier og kunder. Du kan slå den til full modus i Koble til > Innstilling når som helst.",
       },
       overwrite: {
         false_title: "element element Endring element element",
-        false_desc: "element element Produkt element Kategori Detaljer element element ",
+        false_desc: "Behold eksisterende produkt- og kategoridetaljer slik de er.",
         true_title: "element",
         true_desc:
           "Oppdater element Produkt, element, element Kategori informasjon",
@@ -9618,7 +9618,7 @@ export default {
       order: {
         title: "ordre status",
         subtitle:
-          "element element Tilkoblet Tjenester 🛍️ Bestill Administrasjon Innstillinger element element butikk element Inkluderer Innstilling element 🛍️ Bestill element, element automatisk 🛍️ Bestill element (element element), element element frakt element element",
+          "Konfigurer den tilkoblede tjenestens ordreadministrasjonsinnstillinger for butikken din. Dette inkluderer konfigurering av ordreaksept, aktivering av automatisk ordrebekreftelse (hvis støttet), og konfigurering av fraktkostnadsberegninger.",
       },
       enable: {
         label: "Tilkoblingsstatus",
@@ -9628,23 +9628,23 @@ export default {
         label: "automatisk element Ordrene",
         false_desc: "element element 🛍️ Bestill element",
         true_desc:
-          "Ordrene element Bo innbetaling element element Ordrene element element innbetaling element element ",
-        tips: "Ordrene Betalt element Gave Kort element COD element innbetaling Porter element element modus element element Bekreftet element",
+          "Bestillinger med direktebetaling blir automatisk godkjent. Bestillinger med feilsøkingsbetaling godkjennes ikke automatisk.",
+        tips: "Bestillinger betalt med gavekort eller COD eller betalingsgatewayer i feilsøkingsmodus er unntak og vil ikke bekreftes automatisk.",
       },
 
       shipping: {
         label: "frakt",
-        tips: "element tjeneste Tilbud frakt element, element element aktivert element deaktivert element element aktivert, element element APIelement element 3element element Tjenester element element , element element 300element element pris element element Sjekk ut side API",
+        tips: "Denne tjenesten tilbyr fraktberegning, som kan aktiveres eller deaktiveres etter dine preferanser. Hvis aktivert, vil kostnadsberegnings-APIer med tredjepartstjenester kreves, noe som kan føre til en forsinkelse på over 300 ms for oppdatering av prisen på betalingssiden.",
         false_title: "element",
         false_desc:
-          "element element frakt element element, element Butikk > Logistikk > element element alle Produkter, element Importer element",
+          "Bruk min fraktkostnadsberegning i Butikk > Logistikk > Transport for alle produkter, inkludert importerte.",
         true_title: "element frakt",
         true_desc:
-          "element element frakt element element API tilbud element element tjeneste",
+          "Bruk API-et for beregning av fraktrater som tilbys av denne tjenesten.",
       },
 
       remove: {
-        verify: "element element Til Ta vekk element element",
+        verify: "Jeg bekrefter for å fjerne denne tilkoblingen.",
         action: "Ta vekk koble til",
       },
     },
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect element bedrift element Til element Tjenester element Administrer alle Kanaler element element  OS",
+        "Koble bedriftens operativsystem til eksterne tjenester og administrer alle kanaler på samme sted.",
       action: "Connect Ny Tjenester",
       empty_message:
-        "element Apper element element ! Connect element element 🛍️ Bestill Administrasjon",
+        "Glem apper og plugins for dropshipping! Connect er fremtiden for ordreadministrasjon på tvers av plattformer.",
       auto_confirm: "automatisk element",
       shipping: "frakt",
       syncing_now: "element element!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "element",
-      desc: "element Produkter, Kategorier, element Kunder element element Bruker Slett element tjeneste, element Mottatt Produkter, Kategorier, element Kunder element element Slettet",
+      desc: "Få produkter, kategorier og kunder. Etter at brukeren har slettet denne tjenesten, vil ikke mottatte produkter, kategorier og kunder bli slettet.",
     },
     Dropshipping: {
       title: "element",
-      desc: "element Produkter, Kategorier, element Ordrene element element Fjern Produkter element element Bruker Fjern element tjeneste",
+      desc: "Få produkter, kategorier og bestillinger. Systemet fjerner produkter etter at brukeren fjerner tjenesten.",
     },
     Marketplace: {
       title: "Markedsplass",
-      desc: "element element Inventar element Motta Ordrene (Produkter element element koblet element SKU).",
+      desc: "Bare synkroniser inventar og motta bestillinger (Produktene vil bli knyttet til SKU).",
     },
     Accounting: {
       title: "Regnskap",
@@ -9699,8 +9699,8 @@ export default {
     title: "Landingssider",
     add_new_action: "Legg til Ny side",
     subtitle:
-      "Skape element, element Tilpasset Sider element element Merke element element AI-element element , element element ",
-    empty_message: "element Tilpasset Sider element element & element",
+      "Lag særegne, responsive tilpassede sider for merkevaren din ved hjelp av en allsidig AI-drevet innebygd editor, og generer automatisk dynamisk innhold ved å mate inn data.",
+    empty_message: "Design egendefinerte sider ved å dra og slippe...",
   },
 
   /**
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "Kommentarer",
-    subtitle: "element element Liste element element Kommentarer",
+    subtitle: "Dette er en liste over fellesskapets kommentarer.",
     empty_msg: "Nei Kommentarer element element ",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "Kategorier",
-    subtitle: "element element Liste element element Kategorier",
+    subtitle: "Dette er en liste over fellesskapets kategorier.",
     new_category_action: "Ny kategori",
     empty_msg: "Nei Kategorier element element ",
     filter: {
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "stikkord element",
       subtitle:
-        "Google element element , element, element element Apper Administrer Nettsted Tagger element element Google stikkord element gratis, Enkel, element element —Nei Kode Rediger element",
+        "Google Analytics muliggjør måling av annonse-ROI mens du sporer Flash-, video- og sosiale mediesider og apper. Administrer nettstedstagger enkelt med Google Tag Managers gratis, enkle og pålitelige løsninger – ingen koderedigering nødvendig.",
       tag_id: {
         label: "Google stikkord element ID",
       },
@@ -9791,12 +9791,12 @@ export default {
       title: "Google element",
       subtitle:
         "element element informasjon element element lenke Til element Legg til alle Produkter element Kategorier Til Google element",
-      tips: "element element Til element element Administrer Google Annonser",
+      tips: "Du kan bruke dette verktøyet til å enkelt og automatisk administrere Google-annonser.",
       link_message: "Google Produkter element URL",
     },
     console: {
       title: "søk element",
-      subtitle: `Legg til element element stikkord Til element element Google søk element element Meta`,
+      subtitle: "Legg til en metakode på startsiden din for bekreftelse av Google Search Console.",
       code: {
         label: "element element stikkord Meta",
         placeholder: "Fra element, element element Google",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google element & element",
       subtitle:
-        "element element SEO element element Fra Google element element Til element element ",
+        "Vi innhenter de mest nøyaktige SEO-revisjonsdataene fra Google og presenterer dem for deg på en praktisk måte. Bare følg trinnene som er gitt.",
     },
     serp_content: {
       title: "Connect Til Google søk element",
       subtitle:
-        "Selldone Connect element Butikk Til element søk element element start element element, element, element element gratis SEO Verktøy element element",
+        "Koble butikken din til søkekonsollen og begynn å utforske søkeord, rangeringer og andre gratis SEO-verktøy på Selldone.",
       tips: {
         title:
-          "element Til lenke Selldone element Google søk element, element element :",
+          "Før du kobler Sellone til Google Search Console, sørg for følgende:",
         add_in_selldone: "Legg til, element, element element Hoved element Tilpasset Domene",
-        add_in_google: `Legg til element element <b>{domain}</b> element element<a href="https://search.google.com/search-console" target="_blank"> <b>Google søk element</b></a>.`,
+        add_in_google: "Legg til og bekreft <b>{domain}</b> i <a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a>.",
       },
       action_custom_domain: "Tilpasset Domene",
       action_connect_now: "Koble til nå",
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "element cashback",
     delete_alert: {
       title: "Slett cashback element",
-      message: "element element Til Slett element cashback element?",
+      message: "Er du sikker på å slette dette cashback-programmet?",
       action: "Ja, Slett nå",
     },
     notifications: {
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "element element Prosent, Grense element element status element",
+      subtitle: "Angi chasback-prosent, grense og status her.",
     },
     percent_input: {
       title: "cashback element",
       message: "element element cashback element Fra 1% Til 20%.",
     },
     currency_input: {
-      message: "element cashback element element Tilgjengelig element element Valuta",
+      message: "Cashback-programmet vil være tilgjengelig kun for denne valutaen.",
     },
     limit_input: {
       title: "Grense",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Varighet Grense",
-      subtitle: "element Varighet element cashback element element valgfritt",
+      subtitle: "Angi varigheten av cashback-programmet. Det er valgfritt.",
     },
     start_input: {
       title: "Startdato",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "element Tittel element element Beskrivelse element element cashback element element informasjon element element Til Kunder",
+        "Sett tittel og kort beskrivelse for cashback-programmet. Denne informasjonen vil bli vist til kundene.",
     },
     title_input: {
       title: "Tittel",
@@ -9929,13 +9929,13 @@ export default {
       subtitle: "element element cashback element",
     },
     min_purchase_input: {
-      hint: "element element minimum Kjøp Beløp element cashback element",
+      hint: "Angi minimum kjøpsbeløp for cashback-programmet.",
       title: "Minimumskjøp",
     },
     only_first_buy_input: {
-      false_desc: "element cashback element element Tilgjengelig element alle Ordrene",
+      false_desc: "Cashback-programmet vil være tilgjengelig for alle bestillinger.",
       true_desc:
-        "element cashback element element Tilgjengelig element element 🛍️ Bestill",
+        "Cashback-programmet vil være tilgjengelig kun for den første bestillingen.",
       true_title: "element element 🛍️ Bestill",
       false_title: "alle Ordrene",
     },
@@ -9943,32 +9943,32 @@ export default {
       false_title: "alle Kunder",
       true_title: "element Kunder",
       true_msg:
-        "element cashback element element Tilgjengelig element element Kunder element element ",
+        "Cashback-programmet vil være tilgjengelig kun for kundene som er kvalifisert.",
     },
     club: {
       subtitle:
-        "element element Klubb element element cashback element element cashback element element Tilgjengelig element element Kunder element element Klubb",
+        "Sett klubben for cashback-programmet. Cashback-programmet vil være tilgjengelig kun for kundene som er i denne klubben.",
     },
     cluster: {
       subtitle:
-        "element element cashback element, element element Administrer element Mer. . element",
+        "Ved å knytte en klynge til cashback-programmet kan du administrere det mer effektivt.",
     },
     notifications: {
       add: "cashback element Legg til element",
       edit: "cashback element element ",
     },
     enable_input: {
-      true_msg: "element cashback element element Aktiv element Kunder element element ",
+      true_msg: "Cashback-programmet er aktivt og kunder kan bruke det.",
       false_msg:
-        "element cashback element element inaktiv element Kunder element element ",
+        "Cashback-programmet er inaktivt og kunder kan ikke bruke det.",
     },
     boosted_input: {
       false_title: "element",
       true_title: "element (2element cashback)",
       true_msg:
-        "element cashback element element modus element Kunder element Motta 2element cashback",
+        "Cashback-programmet er i boost-modus og kunder vil motta 2x cashback.",
       false_msg:
-        "element cashback element element modus element Kunder element Motta element cashback",
+        "Cashback-programmet er i normal modus og kunder vil motta normal cashback.",
     },
   },
 
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "element element Leveranse",
-        subtitle: "element element Leveranse element innbetaling element",
+        subtitle: "Du kan bekrefte levering manuelt for betalingsleverandør.",
       },
     },
   },
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "element innbetaling",
     message:
-      "element Sikkerhet element, element Ordrene Betalt element element 7 30 dager element element ",
+      "Av sikkerhetsgrunner er det kun bestillinger betalt innen de siste 7 dagene som er kvalifisert for refusjon.",
     payment_amount: "Betalings beløp",
     total_refund_amount: "element element Beløp",
     can_refund: "element element",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "element element",
       description:
-        "element element Beløp element element Til element",
+        "Jeg bekrefter at refusjonsbeløpet er riktig, og jeg vil fortsette.",
     },
     action: "element element",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "kunde Leveranse element",
     message:
-      "element innbetaling Tjenester element element 🛍️ Bestill element element Levert Til element kunde element element Sende element element 🛍️ Bestill element element Motta element Kunder Leveranse element element, element element Til element element , element element ",
+      "Enkelte betalingstjenester krever bekreftelse på at bestillingen er levert til kunden. Vi sender vanligvis denne bekreftelsen under det siste trinnet i ordreoppfyllelsen når vi mottar kundens leveringsbekreftelse. Men hvis du trenger å utføre denne handlingen manuelt, kan du gjøre det her.",
     verify: {
       title: "element Leveranse",
       description:
-        "element element 🛍️ Bestill element element Levert Til element kunde",
+        "Jeg bekrefter at bestillingen er levert til kunden.",
     },
     action: "element element",
   },
@@ -10029,14 +10029,14 @@ export default {
     title: "Krysssalg",
     add_new_actions: "Legg til nytt produkt",
     subtitle:
-      "element element , element element Legg til element Administrer element Produkter element element Produkt side element Produkter element element Kunder Til Kjøp element element hoved punkt element element Til element element Kjøp element element maksimum element 3 Varer element element kunde Til element",
+      "I denne delen kan du legge til og administrere krysssalgsprodukter for denne produktsiden. Disse produktene vil bli vist som forslag for kunder å kjøpe ved siden av hovedvaren. Du kan også angi rabatter for å oppmuntre og stimulere til ytterligere kjøp. Systemet vil vise frem maksimalt 3 elementer som kunden kan vurdere.",
     dialog: {
       edit_title: "Redigere element element Produkt",
       add_title: "Legg til Ny element element Produkter",
       target: {
         title: "element Produkt",
         subtitle:
-          "element element Produkter element Som Til element element Produkt",
+          "Velg produktene du vil markedsføre som krysssalgsalternativer ved siden av dette produktet.",
         select_products: "Velg Produkt(element)",
       },
       list: {
@@ -10047,18 +10047,18 @@ export default {
       discount: {
         title: "Rabatt & Beskjed",
         subtitle:
-          "element element Til element element Beskjed element By på element Rabatt Til element Kunder Til Kjøpe element Velg element Varer element Incentiver element element Salg element element ",
+          "Du har muligheten til å inkludere en melding og tilby en rabatt for å motivere kunder til å kjøpe de valgte tilleggsvarene. Disse insentivene kan bidra til å øke salget og forbedre den generelle handleopplevelsen.",
         amount_input: {
           message:
-            "element Rabatt element element Til element Produkt pris element element Regnskap alle element element",
+            "Rabattprosenten vil bli brukt på produktprisen etter å ha tatt hensyn til alle eksisterende rabatter.",
         },
         mismatch_type_warning:
-          "element element Til element Typer element element hoved Produkt Typer, element element Varer element element ",
+          "Rabatter kan ikke brukes på andre typer enn hovedprodukttypene, da kilde- og målvarene ikke vil bli plassert i samme kurv.",
         not_support_subscription_type_warning:
-          "Innstilling element element Abonnement Produkter element element , element element Prissetting Planer element element ",
+          "Det er ikke mulig å angi rabatter for krysssalg av abonnementsprodukter, da prisplanene ikke kan justeres dynamisk.",
         message_input: {
           message:
-            "element element Tittel Til element Kunder element",
+            "Lag en overbevisende og fristende tittel for å fange kundenes oppmerksomhet.",
           placeholder:
             "element & Lagre: element element !",
         },
@@ -10066,7 +10066,7 @@ export default {
       action: {
         title: "element",
         subtitle:
-          "element element Produkter element element Produkt element element Inndata element Tilpasset informasjon, element element skjema, element element \"Legg til Til element\" element element , element element Til element",
+          "Endre krysssalgsproduktets handling her. Hvis produktet ditt krever inntasting av tilpasset informasjon, for eksempel gjennom et verdivurderingsskjema, må du ikke velge \"Legg i handlekurv\" som handling, da dette kan føre til feil.",
       },
     },
   },
@@ -10078,17 +10078,17 @@ export default {
     variants: {
       title: "element element",
       subtitle:
-        "Velg element Til element element , element element Varianter Til Skape element",
+        "Velg opptil to varianter. Etter valg kan du velge hvilke spesifikke varianter som skal opprettes automatisk.",
     },
     values: {
       title: "element element",
       subtitle: "element element ",
       prevent_duplicates_tips:
-        "<b>Merk:</b> element element Varianter Til element element",
+        "<b>Merk:</b> Vi ser automatisk etter eksisterende varianter for å forhindre duplikater.",
     },
     inventory: {
       title: "element Inventar",
-      subtitle: "element element start Inventar Telle element element Ny Varianter",
+      subtitle: "Angi startbeholdningen for de nye variantene.",
     },
     add_variants_action: "Skape Varianter",
   },
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Legg i handlekurv",
       description:
-        "element element Legg til Til element element Merk element element Abonnement Produkter",
+        "Vis Legg til i handlekurv-knappen direkte. Merk at dette ikke gjelder for abonnementsprodukter.",
     },
     ViewProduct: {
       title: "Se produkt",
       description:
-        "element element Utsikt Mer. . element element Kunder Til element Produkt side element element Ny element",
+        "Vis en Vis mer-knapp som leder kunder til produktsiden ved å åpne et nytt vindu.",
     },
   },
 
@@ -10115,15 +10115,15 @@ export default {
 
   product_flow: {
     title: "Kjøp Strømme",
-    subtitle: "element element Kjøp Strømme element element Produkt",
+    subtitle: "Dette er kjøpsflyten og helsesjekken av produktet ditt.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "element Produkt element element Legg til element <b>{name}</b>.",
-      enable_msg: "element element Til element tjeneste element aktivert",
-      disable_msg: "element element Til element tjeneste element deaktivert",
+      subtitle: "Dette produktet er lagt til via <b>{name}</b>.",
+      enable_msg: "Denne broen til ekstern tjeneste er aktivert.",
+      disable_msg: "Denne broen til ekstern tjeneste er deaktivert.",
       has_shipping_msg:
         "{name} Brukerstøtte frakt element element Til Muliggjøre automatisk frakt element element {name} element element Sjekk ut side",
     },
@@ -10135,7 +10135,7 @@ export default {
       available_in_stock_msg: "Produkt element Tilgjengelig element element",
       out_of_stock_msg: "Produkt element element ",
       file_count_msg:
-        "{files_count} filer element element {files_size} Last opp element element Produkt",
+        "{files_count} filer med totalt {files_size} lastet opp for dette produktet.",
       no_file_uploaded_msg: "Nei fil element element Last opp element",
       no_image_uploaded_msg:
         "Last opp element Produkt Bilde Til tjen element Mer. . element",
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "element selgere",
       subtitle:
-        "element Produkt element element Nei element selgere element element Produkt Til element element Markedsplass, element element selger",
+        "Dette produktet har for øyeblikket ingen tilknyttede leverandører. For at et produkt skal kunne kjøpes på markedet, må det ha minst én leverandør.",
       manage_vendors: "Administrer selgere",
     },
 
@@ -10195,9 +10195,9 @@ export default {
       available_countries_msg:
         "element element Til {count} element element {countries}.",
       disable_for_all_countries_msg:
-        "element element deaktivert element alle element element Butikk > Steder Innstilling",
+        "Shopping er deaktivert for alle land i butikken din > plasseringsinnstilling.",
       location_is_not_in_permitted_shop_locations_msg:
-        "element element {country} element element plassering element element butikk element element Land element element butikk element Innstillinger",
+        "Du angir {country} som et salgssted, men på butikknivå tillater du ikke dette landet. Vennligst sjekk innstillingene for butikknivå.",
       shop_locations: "Butikk Steder",
       product_locations: "Produkt Steder",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "Tilgjengelig Steder element",
       no_location_error_subtitle:
-        "element element Aktivert element plassering begrensning element element Produkt, element element, Nei Land element liste element element begrensning element element , element Produkt element ikke tilgjengelig element Kjøp element element",
+        "Du har aktivert en plasseringsbegrensning for kjøp av produktet, men for øyeblikket er ingen land oppført under denne begrensningen. Som et resultat er dette produktet ikke tilgjengelig for kjøp av noen.",
       invalid_location_error_subtitle:
-        "element plassering begrensning Innstillinger element element Produkt element element : element Steder liste element element kode element, Brukere element element Til Velg element element Kode, element element Produkt ikke tilgjengelig element Kjøp",
+        "Plasseringsbegrensningsinnstillingene for produktet ditt inneholder en feil: enkelte steder som er oppført har ingen tilknyttede postnumre. Følgelig kan ikke brukere velge postnummer, noe som gjør produktet utilgjengelig for kjøp.",
 
       manage_locations: "Administrer Steder",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "Avgift Profiler",
       description: {
         subscription_tax_msg:
-          "element element Avgift element element innbetaling element element",
+          "Vi kan bare bruke skatt på trinnet for opprettelse av betaling.",
         dedicated: "element",
         is_disabled: "element Avgift profil element deaktivert!",
         tax_is_based_on_location: "Avgift: plassering element",
@@ -10238,9 +10238,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "element Produkt element Til <b>{vendor}</b>.",
-      has_vendors_msg: "element element {count} selgere element element Produkt",
+      has_vendors_msg: "Det er {count} leverandører for dette produktet.",
       no_vendor_msg:
-        "element element selger Til element Produkt, element Kunder element element Til Kjøp element",
+        "Du har ikke tilordnet en leverandør til dette produktet, så kunder kan ikke kjøpe det.",
       add_vendors: "Legg til selgere",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "Produkt side Mal",
     subtitle:
-      "element element Bygg inn element side element element Produkt side element element Til Skape Sider element element gjennomsiktig bakgrunn element 1 Til 3 element element Til element Produkt Kategori element, element element side Til element Produkter element element ",
+      "Du kan bygge inn en side på produktsiden din for en forbedret presentasjon. Den optimale tilnærmingen er å lage sider med en gjennomsiktig bakgrunn og 1 til 3 seksjoner skreddersydd for hver produktkategori. Deretter tilordner du én side til flere produkter for en konsistent og tiltalende visning.",
     edit_page: "Redigere side",
     list_of_pages: "Liste element Sider",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "element element Bygg inn element Produkt element element Liste element Produkter element element Blogg element element Sider element element kode element element , element element Til element element Tilgjengelig element element Tilbud element element, element element Planer Til element Mer. . element element ",
+      "Du kan enkelt bygge inn et produkt eller en liste over produkter i bloggen din eller andre nettsider ved å kopiere og lime inn kodene vi oppgir. Selv om denne funksjonen fortsatt er i en tidlig fase, jobber vi aktivt med å utvide funksjonaliteten utover det som for øyeblikket er tilgjengelig andre steder. Selv om det for øyeblikket tilbyr begrensede muligheter, har vi planer om å introdusere flere maler og tilpasningsmuligheter i fremtiden.",
     card: {
       title: "element",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "element",
       description:
-        "element element Kode Til element element Produkt Detaljer element element ",
+        "Generer iframe-koden for å vise omfattende produktdetaljer i et innebygd vindu.",
     },
   },
 
@@ -10288,9 +10288,9 @@ export default {
     },
     access: {
       customization_tips:
-        "<b>element:</b> element element punkt Til element element Misligholde element Adgang element element Adgang element element Til element hoved Butikk Dashbord",
+        "<b>Tilpasning:</b> Klikk på hvert element for å tilpasse standard lese-/skrivetilgang. Hver rad representerer et tilgangsnivå som tilsvarer hovedbutikkens dashbord.",
       simplify_tips:
-        "<b>element!</b> element element Adgang element Fra element 300 Til element 10 element Mer. . element element Adgang element element Publisert element element ",
+        "<b>Viktig!</b> Vi forenkler tilgangskontrollen fra over 300 til under 10 nivåer. Mer detaljerte og oppdaterte tilgangsnivåer vil bli publisert i dokumentasjonen.",
       multi_permission_tips:
         "<b>Tilpasset Grenser?</b> element element Legg til Mer. . Adgang Til element Bruker, element element Legg til element element Adgang, Skape element Adgang element element ",
       view_data: "Utsikt element",
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "element Produkter liste",
     subtitle:
-      "element Produkter Fra element Kategorier element element Til element element Kategorier Til element Produkter element filter Produkter element Tagger",
+      "Vis produkter fra ulike kategorier. Du har muligheten til å velge flere kategorier for å vise frem produkter eller filtrere produkter etter tagger.",
     aut_add_sub_categories_tips:
-      "element element Legg til alle element Til element element Kategori element element ",
+      "Du kan automatisk legge til alle underkategorier til gjeldende kategori ved å klikke på knappen nedenfor.",
     inputs: {
       categories: {
         label: "Kategorier",
-        messages: "Produkter element element Kategorier element element ",
+        messages: "Produkter i disse kategoriene vil bli vist.",
         placeholder: "Velg Kategorier",
       },
       tags: {
         label: "Produkt Tagger",
-        messages: "Produkter element element Tagger element element Vis",
-        placeholder: "element Tagger element element f.eks Ny element",
+        messages: "Produkter med disse taggene vises.",
+        placeholder: "Slå på tagger her og trykk enter. eks. ny kolleksjon",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>element søk: </b>søk element Tittel, MPN, SKU, Merke, element Tagger",
       product:
-        "<b>element Produkt ID: </b>element element ID Til element element Produkt, element, <b class=\"text-green\">element</b><i class=\"text-yellow\">360</i>.",
+        "<b>Eksakt produkt-ID: </b>Bruk P+produkt-ID for å finne et spesifikt produkt, f.eks. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>element element: </b>element element Til søk element element , element, <b class=\"text-green\">\"</b><i class=\"text-yellow\">element element </i><b class=\"text-green\">\"</b>.",
+        "<b>Nøyaktig setning: </b>Bruk anførselstegn for å søke etter en eksakt setning, f.eks. <b class=\"text-green\">\"</b><i class=\"text-yellow\">teksten din her</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Avgift profil: </b>søk element Produkter element element Avgift profil element \"Avgift:\", element, <b class=\"text-green\">Avgift:</b><i class=\"text-yellow\">Avgift profil Navn</i>.",
       new_products:
-        "<b>Ny Produkter: </b>element Produkter Legg til element element Dato element, element, <b class=\"text-green\">Ny~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Nye produkter: </b>Finn produkter lagt til innenfor en bestemt datoperiode, f.eks. <b class=\"text-green\">ny~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "element",
     subtitle:
-      "Inndata element element Verdi element element side element element Maks 32 element",
+      "Skriv inn nøkkelen som skal byttes med dens tilsvarende verdi i sideinnholdet. Nøkler skal bestå av maks 32 tegn.",
     add_caption: "Legg til Ny punkt",
     add_sub_caption: "Legg til Tilpasset element element",
     add_dialog: {
@@ -10391,13 +10391,13 @@ export default {
     help_dialog: {
       title: "element Til element element ",
       how_it_works_tips:
-        "element element Sider, element element Til element element Bilder element element Til element element Til element element , element element f.eks, element element Produkt element Kategori element element Varer element element Til element element punkt, element element Sider",
+        "På landingssidene har du fleksibiliteten til å angi dynamiske plassholdere for både tekst og bilder. Disse plassholderne spiller en viktig rolle i å tilpasse innholdet i henhold til konteksten.   Den dynamiske karakteren til disse plassholderne gjør at de kan fylles med utvidelsesverdier, som kan variere basert på ulike faktorer. For eksempel kan utvidelsesverdiene være forskjellige for hvert produkt eller kategori. Den virkelige fordelen med denne funksjonen kommer inn når du har en rekke varer med forskjellige egenskaper. Du kan effektivt bruke disse dynamiske plassholderne for å tilpasse og forbedre visningen av hvert element, og dermed skape en unik og interaktiv opplevelse på landingssidene dine.",
       assign_tips:
-        "Til element element Til Bilder, element element ",
+        "For å tilordne dynamiske verdier til bilder, klikk på materknappen på venstre side av delen.",
       set_dynamic_image_tips:
-        "element element Til element element Bilde URL element element Verdi",
+        "Du har nå muligheten til å endre bildenettadressen og tilordne den en dynamisk verdi.",
       enter_values_tips:
-        "element element Produkt, element element Til element element ",
+        "For hvert produkt har du muligheten til å tilordne dedikerte nøkkelverdi-par.",
       result_tips:
         "element element side, element element ",
     },
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "element element",
       subtitle:
-        "element element Liste element element Logistikk profil element element ",
+        "Dette er listen over innholdsspråk. Du kan angi forskjellig innhold for logistikkprofilen på hvert språk.",
       add_caption: "Legg til Ny Artikkel",
       no_more_language: "Nei Mer. . element!",
     },
     content: {
       title: "element",
       subtitle:
-        "element element Logistikk profil element element ",
+        "Du kan tilpasse innholdet for logistikkprofilen på flere språk.",
 
       language_input: "element Artikkel element",
       delete_article: "Slett Artikkel",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "element element Til Slett element Artikkel element element?",
+      message: "Er du sikker på at du vil slette denne artikkelen for alltid?",
       action: "Ja, Slett nå",
     },
   },
@@ -10460,8 +10460,8 @@ export default {
       },
       accept_delete: {
         true_description:
-          "element element Ta vekk alle element element Profiler Lenker",
-        true_title: "element element Til Ta vekk element element",
+          "Denne handlingen vil fjerne alle artikler og profilkoblinger.",
+        true_title: "Jeg bekrefter for å fjerne denne tilkoblingen.",
       },
     },
     actions: {
@@ -10476,13 +10476,13 @@ export default {
     title: "Logistikk Profiler",
     add_caption: "Legg til Ny profil",
     subtitle:
-      "element element Skape element Redigere element garanti element Komme tilbake policy element Produkter element element Til element Produkter element element garanti element element Typer element Produkter",
+      "Du kan opprette og redigere garanti- og returretningslinjene for produkter her og tilordne dem til alle produkter. Du kan definere ulike garantipolicyer for ulike typer produkter.",
     add_dialog: {
       title: "Skape Ny Logistikk profil",
       config: {
         title: "element informasjon",
         subtitle:
-          "element element profil element element veiledning, garanti, element element Produkter",
+          "Velg profiltype. Det kan være en veiledning, garanti eller annet innhold og materiale som vanligvis deles mellom flere produkter.",
       },
       article: {
         title: "Artikkel",
@@ -10493,7 +10493,7 @@ export default {
         name: {
           message:
             "element Navn Vis Til element element Til element Offentlig",
-          placeholder: "element element Navn element element profil",
+          placeholder: "Skriv inn et navn for profilen...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "element Varer Administrasjon",
     add_caption: "Legg til Ny punkt",
     subtitle:
-      "element, element element Administrer element Varer element element Produkter Til element element Utseende element element butikk, element element Varer element element Bilde element, element element , element alle Produkter",
+      "Her kan du administrere varene som er inkludert i produktene dine. For å sikre et feilfritt utseende for butikken din, bruk konsekvent varer med lignende bildemønstre, for eksempel wireframes, på tvers av alle produkter.",
     empty_list_msg: "Liste element element Varer",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Slett element punkt",
       message:
-        "element element Til element Slett element punkt? element Merk element element Fra alle element Produkter!",
+        "Er du sikker på at du vil slette dette elementet permanent? Vær oppmerksom på at den også vil bli fjernet fra alle tilknyttede produkter!",
       action: "Ja, Slett nå",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "element punkt",
     subtitle:
-      "element element Tittel, element element 2 Til 3 element element Bilder, element element Last opp Bilder Til element 256element element Utseende element alle element, element element Bilder element gjennomsiktig bakgrunn element element Produkter",
+      "Velg en kort tittel, helst med 2 til 3 ord på det meste. Bruk firkantede bilder, da vi automatisk endrer størrelse på opplastede bilder til et 256x256 kvadratisk format. For det beste utseendet på tvers av alle maler, bruk minimalistiske bilder med gjennomsiktig bakgrunn og opprettholde et enhetlig mønster gjennom produktene dine.",
     inputs: {
       title: {
         placeholder: "element Tittel element element Produkt side",
       },
       code: {
         placeholder: "element Kode, f.eks Mobil_element_element",
-        hint: "element element Kode Til element element søk element element Varer",
+        hint: "Bruk denne koden for å effektivisere søkeprosessen for å finne varer.",
       },
       description: {
-        placeholder: "element element Beskrivelse element element punkt",
-        hint: "Beskrivelse element element Brukt element SEO element element Til Brukere element element Tilpasset element element Produkt side",
+        placeholder: "En kort beskrivelse av denne varen...",
+        hint: "Beskrivelse vil bli brukt for SEO og kanskje synlig for brukere på noen tilpassede layouter på produktsiden.",
       },
       image: {
         message: "Maks Bilde element: 1MB",
@@ -10559,19 +10559,19 @@ export default {
       },
       external_link: {
         title: "Ekstern lenke",
-        description: "element element lenke Til element element URL",
-        tips: "element element URL Til element punkt element Brukere element element punkt element element Produkt side, element element Til element lenke",
+        description: "Sett en lenke til en ekstern url.",
+        tips: "Du kan legge ved hvilken som helst URL til elementet. Når brukere klikker på varen på produktsiden, blir de omdirigert til den lenken.",
       },
       internal_link: {
         title: "element lenke",
         description:
           "Skape element side element element punkt",
-        tips: "element element lenke element element side element element profil element element Tilpasset element element Selldone element element lenke element element punkt",
+        tips: "Du kan koble en landingsside til profilen og angi en tilpasset bane og dynamisk innhold for den. Sellone vil generere en dynamisk lenke for varen.",
       },
     },
     notifications: {
       add: {
-        message: "element element punkt element element Legg til element",
+        message: "Det inkluderte elementet er lagt til.",
       },
       edit: {
         message: "element element punkt element element ",
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "Returnert Ordrene",
     subtitle:
-      "element Kunder element Komme tilbake element element Ordrene, element element Utsikt Komme tilbake Forespørsler element element 🛍️ Bestill element side element Adgang element element Liste element Returnert Ordrene element",
+      "Kundene dine kan returnere sine fysiske bestillinger, og du kan se returforespørsler på ordrebehandlingssiden eller få tilgang til en fullstendig liste over returnerte bestillinger her.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "provisjon",
     subtitle:
-      "element Liste element alle provisjon element element Fra element element Til 30 30 dager element element Kommisjon Til element element Overføre Til element Lommebok",
+      "Listen over alle provisjoner du har tjent fra henvisningene dine. Det tar opptil 30 dager før provisjonen godkjennes og overføres til lommeboken din.",
   },
   /**
    * @see OReferralWallets
@@ -10600,8 +10600,8 @@ export default {
   referral_wallets: {
     title: "Lommebøker",
     subtitle:
-      "element element se element Kommisjon element element Overføre element Kommisjon element Til element element Regnskap element element Selldone Lommebok",
-    no_commission_yet: "element element Mottatt element Kommisjon element",
+      "Her kan du se provisjonsgebyrene du har tjent. Du kan overføre provisjonsgebyrene til bankkontoen din eller Selldone-lommeboken din.",
+    no_commission_yet: "Du har ikke mottatt noen provisjon ennå.",
     no_wallet: "Nei Lommebok!",
 
     withdraw_dialog: {
@@ -10612,12 +10612,12 @@ export default {
       to_wallet: {
         title: "Til Lommebok",
         subtitle:
-          "element element , element element Overføre Kommisjon element Til element Selldone Lommebok element tjen element element Lommebok element Tilkoblet element element Gave Lommebok, element element Valuta",
+          "Med dette alternativet kan du overføre provisjonsgebyrer til Selldone-lommeboken din. Sørg for at en lommebok er koblet til som gavelommeboken din, og at den opererer med samme valuta.",
       },
       to_bank: {
         title: "Til element",
         subtitle:
-          "element element , element element Overføre Kommisjon element Til element Selldone Lommebok element tjen element element Lommebok element Tilkoblet element element Gave Lommebok, element element Valuta",
+          "Med dette alternativet kan du overføre provisjonsgebyrer til Selldone-lommeboken din. Sørg for at en lommebok er koblet til som gavelommeboken din, og at den opererer med samme valuta.",
       },
       inputs: {
         verify_to_wallet: {
@@ -10626,7 +10626,7 @@ export default {
         },
         verify_to_bank: {
           true_description:
-            "element element Til Overføre element Kommisjon Til element element Regnskap",
+            "Jeg bekrefter bankinformasjonen min og vil overføre provisjonen til bankkontoen min.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "element element Mottatt, element element Anmeldelse element",
+        "Forespørselen din er mottatt, og vi vil vurdere den.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "element element Legg til <b>?element={code}</b> Til element element URL Selldone",
+      message: "Du kan legge til <b>?ref={code}</b> til en hvilken som helst selldone url.",
     },
     intro: {
       title: "element element Selldone Tilknytte element",
       message:
-        "element Selldone Tilknytte element element Enkel element element, element element Til element element Tilknytte lenke Til element Ny Brukere Til Selldone, element element Kommisjon Fra element Transaksjon element tjen—element element Inkluderer element Fra Abonnementer, tjeneste element, Butikk element, element alle element element start element element Grenser element Tid element element !",
+        "Selldones tilknyttede program er enkelt og greit, designet for at du skal tjene uanstrengt. Del din unike tilknyttede lenke for å invitere nye brukere til Selldone, og du vil tjene en provisjon fra hver transaksjon de gjør – for alltid. Dette inkluderer inntekter fra abonnementer, serviceavgifter, butikkoppgraderinger og alle andre inntektsstrømmer. Begynn å tjene en del av inntekten uten begrensninger på tid eller inntjening. Bli med oss ​​og gjør nettverket ditt til en fast inntekt!",
       why_join_selldone_affiliate: "element element ?",
       reasons: [
         "element element !",
-        "Selldone element alle Abonnement element Transaksjon element element innbetaling element element Bruker element element",
-        "element Sende element gratis $99 element Til element element lenke",
-        "element element , element element Ny element Fra alle element element Brukere",
+        "Dekker alle abonnements- og transaksjonsgebyrer. Bokstavelig talt hver betaling av brukeren på Selldone.",
+        "Vi sender en gratis $99-kupong til alle som registrerer seg ved hjelp av lenken din.",
+        "Når nivået oppgraderes, vil du tjene den nye prisen fra alle tidligere henviste brukere.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "element Stil",
       subtitle:
-        "element element Til element element , bakgrunn, element, element element Til element element:",
+        "Bruk dette verktøyet til å replikere stiler som fonter, bakgrunner, marger og kantlinjer. Følg disse trinnene for å duplisere stiler:",
       step_1:
-        "element element , element, element Bilder; element element Endring Til element element",
-      step_2: "element element Stil element element Til element",
+        "Aktiver verktøyet og hold musepekeren over tekst, kolonner eller bilder; markøren endres til en pipette.",
+      step_2: "Klikk på elementet du vil kopiere stilen til.",
       step_3:
-        "element element Endring Tilbake Til element element; element element Til element element Stil",
+        "Markøren vil endre tilbake til en palett; klikk på elementet der du vil bruke den kopierte stilen.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "element element Meny, element Inkluderer alle element Kategorier element Bygning. .. element side",
+        "Veksle på synligheten til sidemenyen, som inkluderer alle seksjonskategorier for å bygge siden din.",
     },
     sort_tooltip: {
       subtitle:
-        "Muliggjøre element element Til element element ",
+        "Aktiver denne funksjonen for enkelt å omorganisere og organisere deler ved å dra dem.",
     },
     edit_mode_tooltip: {
       title: "Redigere / Forhåndsvisning modus",
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "alle Rediger Verktøy element element ",
       view_mode_title: "Forhåndsvisning modus",
       view_mode_msg:
-        "Utsikt element side element Brukere element se element element Rediger Verktøy element element ",
+        "Se siden din slik brukerne ser den ved å skjule ekstra redigeringsverktøy og tomme tekstområder.",
     },
     repository_tooltip: {
       title: "element element",
       subtitle:
-        "element element Tilgjengelig element element Meny, element element side element",
+        "Bytt visning av forhåndsdesignede seksjoner. Disse seksjonene er opprettet ved hjelp av standardseksjonene som er tilgjengelige i venstremenyen, og viser fleksibiliteten til denne sidebyggeren.",
     },
     live_view: {
       title: "Bo Forhåndsvisning",
@@ -10712,17 +10712,17 @@ export default {
     hotkeys_dialog: {
       title: "element element",
       augment_tips:
-        "element element side element element <b>element</b> element element Brukt element Tilpasset element Sider element element <b>Produkter</b>, <b>Kategorier</b>, element <b>element Varer</b>. Til element element Bilde Til element element, element element <b>element</b> element Velg <b>element element</b> element element Bilde",
+        "Du kan laste dynamisk innhold på siden din og erstatte det med <b>augment</b> verdier. Augment brukes for tilpassede dynamiske sider som <b>Products</b>, <b>Categories</b> og <b>Inkluder varer</b>. For å angi at et bilde skal lastes dynamisk, klikk på <b>Feeder</b> og velg <b>Dynamisk kilde</b> for det bildet.",
     },
     hotkeys: {
-      ctrl_b: "element element Velg element | <b>tjen element element</b>",
-      ctrl_i: "element element Velg element | <i>tjen element element</i>",
+      ctrl_b: "Slå fet skrift på/av for valgt tekst | <b>Gjør meg modig</b>",
+      ctrl_i: "Slå kursiv på/av for valgt tekst | <i>Gjør meg kursiv</i>",
       ctrl_l:
-        "element element Velg element | <s>element element </s>",
-      ctrl_u: "element element Velg element | <u>element element</u>",
+        "Slå gjennomstreking på/av for valgt tekst | <s>Slag gjennom meg</s>",
+      ctrl_u: "Slå understreking på/av for valgt tekst | <u>Understrek meg</u>",
       ctrl_1:
-        "element element Velg element | <small>tjen element element</small>",
-      ctrl_2: "øk element element Velg element | <big>tjen element element</big>",
+        "Reduser skriftstørrelse på valgt tekst | <small>Gjør meg liten</small>",
+      ctrl_2: "Øk skriftstørrelsen på valgt tekst | <big>Gjør meg stor</big>",
       ctrl_r: "Ta vekk alle element Fra Velg element | element alle element",
       ctrl_s: "Lagre element side",
       tab: "element element modus",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Innstillinger",
         subtitle:
-          "element element Lagre element element side element element Til alle element element butikk",
+          "Du kan lagre spesialdesignede seksjoner for fremtidig bruk i sidedesignene dine. Disse lagrede delene vil være tilgjengelige for alle administratorer i denne butikken.",
       },
       image: {
         title: "Bilde",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kode",
         subtitle:
-          "element element Kode Fra element element side element",
+          "Du kan kopiere og lime inn elementkoden fra venstre side i sidebyggeren.",
       },
       inputs: {
         title: {
@@ -10762,7 +10762,7 @@ export default {
           message: "Brukt element søk element element ",
         },
         section: {
-          message: "element element Fra element side element",
+          message: "Kopier delen fra sidebyggeren.",
         },
       },
     },
@@ -10778,16 +10778,16 @@ export default {
     add_new_vendor_action: "Legg til Ny selger",
     status_tooltip: {
       title: "selger status",
-      ACCEPTED: "element selger element Adgang Til element element",
+      ACCEPTED: "Leverandøren har tilgang til panelet sitt.",
       REJECTED: "element selger element element Avvist",
-      PENDING: "element element Venter element element Fra element selger",
+      PENDING: "Forespørselen avventer en avgjørelse fra leverandøren.",
     },
     number_of_products: "element element Produkter",
     invited: "element",
     no_pricing: "Nei Prissetting",
     no_pricing_tooltip: {
       title: "Misligholde Prissetting element",
-      subtitle: "element element Misligholde Prissetting element element selger",
+      subtitle: "Angi en standard prismodell for leverandøren.",
     },
     updated_products_tooltip: {
       title: "Produkter element element 24 element",
@@ -10798,12 +10798,12 @@ export default {
     access_tooltip: {
       title: "element Adgang",
       subtitle:
-        "element selger element Adgang Til element element Redigere element element selger > Adgang element",
+        "Leverandøren har tilgang til panelet sitt. Du kan redigere dette i kategorien Leverandør > Tilgang.",
     },
     reject_by_user_tooltip: {
       title: "Avvist element Bruker",
       subtitle:
-        "element Bruker Avvist element element Til element element selger element Adgang element selger",
+        "Brukeren avviste forespørselen om å bli leverandør og få tilgang til denne leverandøren.",
     },
     download_all_vendors: "Last ned alle selgere",
     bulk_import: "element Importer (element)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Tillatelse element element!",
     subtitle:
-      "element element Tillatelse element element Velg bedrift element element Tillatelse Til element element ",
+      "Din nåværende lisens oppfyller ikke kravene til den valgte forretningsmodellen. Oppgrader lisensen din til Enterprise-planen.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "element Handlinger",
     subtitle:
-      "element element Sende element status Oppdater E-post Til element element , element element melding element Til element, element element Til element element Tid",
+      "Du kan sende en e-post med statusoppdatering til kjøperen med bare ett klikk. I tillegg kan du definere vanlige meldinger her for gjenbruk, slik at du ikke trenger å skrive dem om hver gang.",
     send_update_email_action: "Sende Oppdater E-post",
     add_template_action: "Legg til Beskjed Mal",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "🛍️ Bestill Oppdater E-post",
       need_set_service_alert: {
         message:
-          "element element E-post tjeneste element Til element element E-post Til element Sendt",
+          "Still inn e-postleverandøren din til å tillate at e-posten sendes.",
         action: "element Til Innstillinger",
       },
       send_action: "Sende Oppdater E-post",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Redigere Beskjed Mal",
       add_title: "Legg til Beskjed Mal",
       message:
-        "element element Tittel element Beskjed element element Tittel element element Brukt element element Sendt Til element kunde",
+        "Du bør angi en tittel og meldingstekst her. Tittelen brukes kun for din referanse og vil ikke sendes til kunden.",
 
       save_action: "Lagre Mal",
       add_action: "Legg til Mal",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "Bestillingslenke",
-    subtitle: "element element 🛍️ Bestill lenke element element kunde",
+    subtitle: "Du kan dele bestillingslenken med kunden.",
     guest_checkout_message:
-      "element element Utsikt element 🛍️ Bestill element element , element element kunde element element Til element element 🛍️ Bestill Detaljer, element element Skape element element lenke element element",
+      "Gjestekunder kan automatisk se bestillingen sin i samme nettleser. Men hvis kunden er gjest og du trenger å dele bestillingsdetaljene, kan du opprette en sikker lenke for dem.",
     authentication: "element",
     guest: "element",
     click_to_create: "element Til Skape",
@@ -10897,7 +10897,7 @@ export default {
     title: "Anmeldelser element",
     add_source_action: "Legg til Anmeldelse element",
     subtitle:
-      "element koble til element element Til element element Anmeldelser element element bedrift Fra element Som Facebook, Google, element Mer. . element element Kunder Til element Anmeldelser element element kunde element element Anmeldelser element element Sider element Produkt Sider",
+      "Koble enkelt til eksterne plattformer for å samle inn og analysere anmeldelser om virksomheten din fra kilder som Facebook, Google og mer. Vi vil automatisk matche kundene til deres anmeldelser for en bedre kundeopplevelse. Du kan også vise frem disse anmeldelsene på landingssidene og produktsidene dine.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Legg til Ny element element",
     title: "element element",
     subtitle:
-      "element element Skape element Administrer element element Brukt Til element element Produkter element Tjenester element element Til Produkter element element Produkt Dashbord > Redigere",
+      "Du kan opprette og administrere egenskapssett her. Egenskapssett brukes til å definere egenskapene til produkter og tjenester. Du kan tilordne disse egenskapssettene til produkter i produktdashbordet > Rediger.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "element element - Tilpasset Varianter",
       subtitle:
-        "element element Produkt, element element Misligholde element",
+        "Du kan tilpasse variantnavnene for dette produktet, og erstatte standardnavnene.",
     },
 
     subtitle:
-      "element element , element, element element 🛍️ Bestill element element Produkter element element Varianter element element Misligholde element, element element Tilpasset Varianter element Til element Produkt element element Logistikk > element element Til element element Produkter element element",
+      "Du kan tilpasse variantnavn, ikoner og rekkefølgen deres her. For produkter med unike varianter som går utover standard seks, kan du angi tilpassede varianter skreddersydd for hvert produkt. Definer ganske enkelt eiendomssett i kategorien Logistikk > Eiendomssett og tilordne dem til et hvilket som helst antall produkter etter behov.",
     select_property_set: "Velg element element",
     add_property_set: "Legg til element element",
   },
@@ -10931,7 +10931,7 @@ export default {
     title: "element",
     add_action: "Legg til element",
     subtitle:
-      "Skape element element Til element element Merkelapp Kjøp element element frakt element element 🛍️ Bestill, Velg element element ",
+      "Lag gjenbrukbare eskestørrelser for å fremskynde kjøp av etiketter og sikre nøyaktige fraktpriser. Når du utfører en bestilling, velg en lagret boks, og dens dimensjoner fylles ut automatisk.",
     empty: "Nei element element “Legg til element”.",
     edit: "Redigere element",
     new: "Ny element",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Velg element pakke",
     define_package: "element element pakke",
-    define_package_hint: "Skape element Redigere element element pakke element",
+    define_package_hint: "Opprett eller rediger dine forhåndsdefinerte pakkestørrelser",
   },
 
 
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"liste",
-    message:"Skape element element, element element liste—element, element, element, Tjenester, element Mer. ."
+    message:"Lag en søkbar, moderert katalog for alle typer oppføringer – eiendommer, hoteller, leger, tjenester og mer."
   },
 
   shop_listing: {
     name: "liste",
     message:
-      "Skape element element, element element liste—element, element, element, Tjenester, element Mer. .",
+      "Lag en søkbar, moderert katalog for alle typer oppføringer – eiendommer, hoteller, leger, tjenester og mer.",
 
     items: {
       title: "Varer",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategorier",
       sub_title:
-        "element element Kategorier element element filter",
+        "Organiser katalogen din med kategorier og underkategorier. Dette forbedrer navigering og filtrering.",
 
       empty_title: "Nei Kategorier element",
       empty_subtitle:
-        "Skape Kategorier Til element element liste element element ",
+        "Lag kategorier for å strukturere oppføringen din og forbedre nettlesingen.",
 
       add_title: "Legg til kategori",
       edit_title: "Rediger kategori",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "element",
       sub_title:
-        "Anmeldelse element Varer element element : element, publisere, Avvis, element, element element Til Avventer",
+        "Gjennomgå innsendte elementer og avgjør hva som skjer videre: godkjenn, publiser, avvis, arkiver eller tilbakestill til ventende.",
 
       empty_title: "Nei Varer Til Anmeldelse",
       empty_subtitle:
-        "element Brukere element Ny Varer, element element ",
+        "Når brukere sender inn nye elementer, vil de vises her for moderering.",
 
       review_title: "Anmeldelse punkt",
       approve_publish: "element & publisere",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "element",
       sub_title:
-        "Skape element element (Kort + Detaljer element) element element Til Kategorier Kategorier element element ",
+        "Lag flere designsett (kort + detaljmaler) og tilordne dem til kategorier. Kategorier kan bruke ulike design.",
 
       empty_title: "Nei element element",
       empty_subtitle:
-        "Legg til element element Til start element element Kategorier element",
+        "Legg til ditt første designsett for å begynne å tilpasse hvordan kategorier ser ut.",
 
       add_title: "Legg til element",
       edit_title: "Redigere element",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Slett element",
       delete_message:
-        "Slett element element? Kategorier element element _element",
+        "Vil du slette dette designet? Kategorier som bruker det vil automatisk miste design_id.",
     },
 
 
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "Beskjed",
       owner_reply: "Eieren element",
       reply: "element",
-      reply_hint: "skrive element element Til element Bruker element element Beskjed element element Fra Handlinger",
+      reply_hint: "Skriv et svar til brukeren. Du kan også merke meldingen som lest/spam fra handlinger.",
 
       mark_read: "element element lese",
       mark_unread: "element element ",
@@ -11217,11 +11217,11 @@ export default {
 
     enable: {
       title: "liste",
-      subtitle: "Muliggjøre element element Offentlig liste side element aktivert element element Tid, Selldone element Skape element liste element element",
+      subtitle: "Aktiver eller deaktiver den offentlige oppføringssiden din. Når den er aktivert for første gang, vil Sellone opprette oppføringskonfigurasjonen automatisk.",
       true_description: "liste element aktivert Kunder element element liste Sider",
-      false_description: "liste element deaktivert element liste Sider element element ",
+      false_description: "Oppføring er deaktivert. Oppføringssidene og bidragene er blokkert.",
       open_listing: "element liste",
-      note: "element element , Grenser, skjema, element element liste Innstillinger",
+      note: "Du kan senere konfigurere moderering, begrensninger, skjemaer og design i oppføringsinnstillingene.",
       vendor_prereq_text:
         "element selgere Til Legg til liste Varer Fra element selger element? element, element element bedrift element Til Markedsplass",
       vendor_prereq_button: "element Markedsplass bedrift element",
@@ -11231,7 +11231,7 @@ export default {
       vendor_access_button: "Muliggjøre liste element selgere",
 
       more_options_text:
-        "Mer. . element element Tilgjengelig element liste Innstillinger element element Innganger, UI/Utseende, element, Grenser, element element ",
+        "Flere kontroller er tilgjengelige i Oppføringsinnstillinger. Du kan konfigurere innganger, brukergrensesnitt/utseende, moderering, grenser og alternativer for inntektsgenerering.",
       more_options_button: "element Til liste Innstillinger",
 
       updated: "liste element",
@@ -11244,19 +11244,19 @@ export default {
       subtitle: "element element Kunder søk element liste Muliggjøre element søk element Bygge Filtre Fra element Tilpasset skjema element",
 
       location_title: "plassering søk",
-      location_subtitle: "element Kunder Til element element plassering element element ",
+      location_subtitle: "Tillat kunder å velge et sted og finne resultater i nærheten innenfor en konfigurerbar radius.",
       location_enabled_true: "plassering filter element aktivert Kunder element søk element element",
-      location_enabled_false: "plassering filter element deaktivert element element filter element element",
+      location_enabled_false: "Posisjonsfilteret er deaktivert. Resultatene vil ikke bli filtrert etter avstand.",
 
       radius_default: "Misligholde element (element)",
-      radius_default_hint: "Brukt element element kunde Velg element plassering element element ",
+      radius_default_hint: "Brukes når kunden velger et sted, men ikke velger en radius.",
       radius_max: "maksimum element (element)",
       radius_max_hint: "element element Til element Verdi",
       radius_options: "element element (element)",
       radius_options_hint: "element element UI.",
 
       filters_title: "søk Filtre",
-      filters_subtitle: "Legg til Filtre element lese element Fra punkt element element (element element skjema element). element element Til element element Fra Publisert Varer Meta",
+      filters_subtitle: "Legg til filtre som leser verdier fra elementmetafelt (dine oppførings-/kategoriskjemafelt). Bruk Auto-generer for å samle ekte alternativer fra publiserte elementer.",
       no_filters: "Nei Filtre Legg til element",
       auto_generate: "element element",
 
@@ -11264,12 +11264,12 @@ export default {
       filter_label: "Merkelapp",
       filter_type: "element",
       filter_options: "element",
-      filter_options_hint: "element Velg Filtre, element element manuell element element",
+      filter_options_hint: "For utvalgte filtre kan alternativer være manuelle eller genererte.",
       multiple: "element",
       single: "element",
       kv_mode: "element modus",
 
-      requires_listing_active: "liste element element Aktiv Muliggjøre liste element Til element element ",
+      requires_listing_active: "Oppføringen er ikke aktiv. Aktiver oppføringen først for å bruke den på butikkfronten.",
 
 
     },
@@ -11911,11 +11911,11 @@ export default {
         "element element ",
         "Adgang Til alle element element ",
         "element element Prioritet Brukerstøtte",
-        "element element pakke element element Brukere",
+        "En balansert pakke for vanlige brukere.",
         "element Adgang element element ",
         "Tilpasset element element ",
         "element element ",
-        "Nei Grenser element element, element element Bruker",
+        "Ingen begrensninger på bruk, for superbrukeren.",
         "element element , element Til 4 element",
         "element element Avansert Verktøy",
       ],
@@ -11985,7 +11985,7 @@ export default {
         "element element kunde",
         "element element Til element element ",
         "element Tilbakemelding element element ",
-        "element element Rabatt element element Kjøp",
+        "Nyt en spesiell rabatt på ditt neste kjøp.",
         "element element !",
         "element element ",
         "element element Til element Tilbakemelding",
@@ -12120,15 +12120,15 @@ export default {
         "element element ",
         "element cashback Tilbud element element ",
         "element element cashback element",
-        "element cashback element alle element element Varer",
+        "Umiddelbar cashback på alle favorittvarene dine.",
         "Lagre Mer. . element element cashback Tilbud",
-        "element element cashback element element 30 dager!",
+        "Doble cashbacken din på spesielle dager!",
         "element cashback element Tid element Butikk",
         "element element cashback element I dag!",
         "VIP element element cashback",
         "element! element Tid cashback Tilbud",
-        "element element cashback element Klubb element",
-        "element Mer. . element Butikk, element Mer. . element Lagre",
+        "Bli med i vår Cashback Rewards-klubb nå.",
+        "Jo mer du handler, jo mer sparer du.",
         "element element cashback element",
         "element element cashback Tilbud element",
       ],
@@ -12141,14 +12141,14 @@ export default {
       prompts: [
         "VELKOMMEN 10 Til {shop} - element element Varer",
         "{shop} - element element tjeneste",
-        "element Tilbud element element {shop} - element element !",
-        "element Til element {shop}'element element Til element element ",
-        "element element {shop} element - element Til element element Oppdater",
+        "Eksklusive tilbud og besparelser kun hos {shop} - Grip muligheten!",
+        "Bli kjent med {shop}s dedikasjon til miljøvennlighet og etiske praksiser",
+        "Bli en del av {shop}-familien - Abonner på vårt nyhetsbrev for oppdateringer",
         "element element {shop}",
         "element element alle arrangementer element {shop}",
-        "element Tilbud element element {shop} - element element!",
-        "{shop}'element element Produkt element - Butikk element element",
-        "element element Til {shop} - element element Til element element ",
+        "Uovertruffen tilbud og tidssensitive spesialtilbud hos {shop} - handle raskt!",
+        "{shop}s omfattende kjøpstips og produktevalueringer - Handle med selvtillit",
+        "Nå ut til {shop} - Vi streber etter å levere en enestående handleopplevelse",
       ],
     },
 
@@ -12163,7 +12163,7 @@ export default {
         "element element Kjøp, element element!",
         "element element , Kjøpe element!",
         "element Varer, element element!",
-        "element Mer. ., element element – element element!",
+        "Få mer, bruk mindre – samle sammen!",
         "element By på: element Produkter!",
         "element element , element Tilbud!",
         "element element , Lagre element!",
@@ -12226,27 +12226,27 @@ export default {
         "punkt Tilbake element element",
       ],
       body: [
-        "element {buyer_name}, element 🛍️ Bestill #{order_id} element element Bekreftet! element element Til element",
+        "Hei {buyer_name}, bestillingen din #{order_id} er bekreftet! Vi behandler den og vil varsle deg når den er klar til å sendes.",
 
-        "God ny, {buyer_name}! element 🛍️ Bestill #{order_id} element element Sendes element element Regnskap element element !",
+        "Gode ​​nyheter, {buyer_name}! Bestillingen din #{order_id} er sendt. Du kan spore det gjennom kontoen din. Takk for at du handler hos oss!",
 
-        "element {buyer_name}, element 🛍️ Bestill #{order_id} element element Levert element element Kjøp element element!",
+        "Hei {buyer_name}, bestillingen din #{order_id} har blitt levert. Vi håper du liker kjøpet. Takk!",
 
-        "element {buyer_name}, element element Mottatt element innbetaling element 🛍️ Bestill #{order_id}. element 🛍️ Bestill element element Sendes element",
+        "Hei {buyer_name}, vi har mottatt betalingen for bestillingen #{order_id}. Bestillingen din blir nå behandlet og vil bli sendt snart.",
 
-        "element {buyer_name}, element element Til element element 🛍️ Bestill #{order_id} element element , element Kontakt Brukerstøtte",
+        "Kjære {buyer_name}, vi beklager å måtte informere deg om at bestillingen din #{order_id} er kansellert. Hvis du har spørsmål, vennligst kontakt support.",
 
-        "element {buyer_name}, element element 🛍️ Bestill #{order_id}. element element Til element element ",
+        "Kjære {buyer_name}, vi opplever en forsinkelse med bestillingen din #{order_id}. Vi beklager ulempen og jobber med å løse det så snart som mulig.",
 
-        "element {buyer_name}, element 🛍️ Bestill #{order_id} element element Regnskap element Kontakt Brukerstøtte element element Detaljer",
+        "Hei {buyer_name}, bestillingen din #{order_id} er for øyeblikket på vent. Sjekk kontoen din eller kontakt kundestøtte for mer informasjon.",
 
-        "element {buyer_name}, element 🛍️ Bestill #{order_id} element element Leveranse element element !",
+        "Hei {buyer_name}, bestillingen din #{order_id} er ute for levering og bør nå deg snart. Takk for tålmodigheten!",
 
-        "element {buyer_name}, element element Komme tilbake element element 🛍️ Bestill #{order_id}. element element , element Kontakt Brukerstøtte",
+        "Kjære {buyer_name}, vi har behandlet returen for bestillingen din #{order_id}. Hvis du har spørsmål, vennligst kontakt support.",
 
-        "element {buyer_name}, element element 🛍️ Bestill #{order_id} element element se element element Regnskap element",
+        "Hei {buyer_name}, refusjonen din for bestillingen #{order_id} er utstedt. Du bør snart se midlene på kontoen din.",
 
-        "element {buyer_name}, element punkt Fra element 🛍️ Bestill #{order_id} element Tilbake element element! element element Ny 🛍️ Bestill element element ",
+        "Hei {buyer_name}, varen fra bestillingen din #{order_id} er tilbake på lager! Du kan legge inn en ny bestilling nå hvis du fortsatt er interessert.",
       ],
     },
 
@@ -12267,13 +12267,13 @@ export default {
         "element",
       ],
       description: [
-        "element element Varer Som element, Farge, element element",
-        "Spesifikasjoner element element Merke, element, element element",
-        "element, element, element Typer element element",
-        "Detaljer element element, element, element element Produkter",
+        "Attributter for klesplagg som størrelse, farge og stoff.",
+        "Spesifikasjoner for dingser som merke, modell og funksjoner.",
+        "Smaker, størrelser og typer drikkevarer.",
+        "Detaljer for måltider, snacks og matvarer.",
         "Material, element, element element ",
         "Forfatter, element, element element ",
-        "element element, element, element element Detaljer",
+        "Hudtype, ingredienser og emballasjedetaljer.",
         "element element, element, element element ",
         "element, element, element Opptreden element",
         "element, element, element Merke Detaljer",

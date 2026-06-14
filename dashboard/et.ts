@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Aktiivsete rakenduste salvestamine",
         subtitle:
-          "Hallake oma ärirakendusi.",
+          "Avastage oma ärirakenduste haldamise lihtsus Selldone App Store'iga. Meie platvorm pakub laiaulatuslikku tööriistakomplekti, mis on loodud teie äritegevuse optimeerimiseks. Alates uuenduslikest halduslahendustest kuni tootlikkust suurendavate rakendusteni – Selldone pakub sujuvat kogemust ettevõtetele, kes otsivad tõhusust ja kasvu.",
         all: "kõik",
       },
       /** {@see BAppShopStore} **/
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "Pood > Rahandus > Maks",
 
       subscription_tips:
-        "<code></code><code></code><code></code><br /><br /><b></b> Hallake üksust Tellimus üksus ja kohandage oma poe seotud seadeid.",
+        "Kui valite tellimustoote jaoks maksuprofiili, värskendame<code>maksukoodi</code> ja määrame teie makseteenuse pakkujal kaasava/eksklusiivse režiimi. Valitud maksuprofiil määrab, kas hind loetakse koos maksudega või ilma maksudeta. Üks <code>kaasa arvatud</code> või <code>eksklusiivne</code>. Kui olete määranud kas kaasavaks või eksklusiivseks, ei saa seda muuta.<br /><br /><b>Tähtis!</b> Pärast maksuprofiili muutmist peaksite klikkima hinnaplaanidel vahekaardil Toode > Varud ja muudatuste rakendamiseks klikkima nupul Salvesta.",
     },
   },
 
@@ -2239,7 +2239,7 @@ export default {
 
     add_dialog: {
       select_service_msg:
-        "Seadistage ja hallake seda valikut oma poe jaoks.",
+        "Tarneviisid määrab turg ja kliendid saavad nende hulgast valida. Müüjatel pole nende valikute üle kontrolli, kuid nad saavad etikettide otse ostmiseks integreerida oma paneeli tarneteenustega. Saadaolevate teenuste vaatamiseks valige allolevast loendist meetod. Valige allolevast loendist saatmisteenus. Siin kuvatakse ainult saadaolevad teenused, mida saab teie poodi lisada.",
       no_available_service: "Ei Saadaval Teenus!",
     },
   },
@@ -2283,7 +2283,7 @@ export default {
       action_manage: "Halda Üksused",
       action_disable_msg: "Turuplatsi omanik",
       select_items_tips:
-        "Seadistage ja hallake seda valikut oma poe jaoks.",
+        "Looge või valige toote või teenusega kaasas olevad paketikomponendid. Kasutage seda funktsiooni, et rõhutada, mida kliendid võivad kauba ostmisel saada. Soovitame seda funktsiooni kasutada ainult siis, kui kliendi jaoks on oluline kaasasolevast sisust aru saada, näiteks nutitelefoni ostmisel.",
       create_item_tips:
         "Seadistage ja hallake seda valikut oma poe jaoks.",
       create_new_item_action: "Loo Uus Kaasatud Üksus",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Ostetud ajalugu",
       subtitle:
-        "Aktiivsed ja ootel litsentsid.",
+        "See on aktiivsete ja ootel olevate litsentside loend. Pärast rahakoti rahastamist saate pakkumisi osta. Lisaks pange tähele, et tellimuse tühistamisel tagastatakse ülejäänud tellimuse summa teie virtuaalsesse rahakotti.",
     },
     license_detail: {
       title: "Üksikasjad",
       subtitle:
-        "Teie praeguse plaani piirangud.",
+        "Need on teie praeguse plaani piirangud. Lisateabe saamiseks külastage hinnalehte. Oma ettevõtte käivitamiseks ja kasvamiseks pääsete juurde kõikidele pakettide kõikidele funktsioonidele, sealhulgas tasuta paketile. Ettevõtte laiendamisel kaaluge teenustasude vähendamiseks üleviimist kõrgema taseme plaanile.",
     },
 
     table: {
@@ -9266,7 +9266,7 @@ export default {
       title: "Sisselogimismeetodid",
       subtitle: "Kohandage viisi, kuidas kasutajad teie poodi sisse logivad.",
 
-      tips: "<b></b> Hallake üksust üksus ja kohandage oma poe seotud seadeid.",
+      tips: "<b>Tähtis.</b> Kui kasutaja registreerub teie poes, luuakse vastav Selldone kasutaja, kui seda veel pole. Sellel kasutajal on juurdepääs oma aadressiraamatule kõigis poodides ja ta saab vaadata oma tellimuste ajalugu isegi siis, kui pood on suletud. Me ei kasuta seda teavet turunduseesmärkidel, vaid nõuame seda mõlemapoolsete pettuste vältimiseks. Läbipaistvuse säilitamiseks saadame kasutajale meili, milles teavitame teda registreerumisest.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "Minu müüjad",
     message:
-      "Minu enda müüjate nimekiri.",
+      "See on teie hankija kontode loend. Siin kuvatakse kõik Selldone'i platvormi kasutavate kauplustega seotud hankijakontod, mis võimaldab teil neid hõlpsalt hallata.",
   },
 
   vendor_page: {},
@@ -9813,7 +9813,7 @@ export default {
         "Seadistage ja hallake seda valikut oma poe jaoks.",
       tips: {
         title:
-          "Pealkiri",
+          "Enne Selldone'i linkimist Google'i otsingukonsooliga veenduge järgmiselt.",
         add_in_selldone: "Lisage ja kinnitage kohandatud domeen ning määrake see esmaseks.",
         add_in_google: `Lisa ja kinnita <b>{domain}</b> oma <a href="https://search.google.com/search-console" target="_blank"><b>Google Search Console</b></a> kontol.`,
       },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Hallake üksust Alapealkiri ja kohandage oma poe seotud seadeid.",
+      "Saate hõlpsasti manustada toote või toodete loendi oma ajaveebi või muudele veebilehtedele, lihtsalt kopeerides ja kleepides meie pakutavad koodid. Kuigi see funktsioon on alles algusjärgus, töötame aktiivselt selle nimel, et laiendada selle funktsionaalsust kaugemale sellest, mis mujal praegu saadaval on. Kuigi see pakub praegu piiratud võimalusi, plaanime tulevikus kasutusele võtta rohkem malle ja kohandamisvalikuid.",
     card: {
       title: "üksus",
       description:
@@ -10391,7 +10391,7 @@ export default {
     help_dialog: {
       title: "Pealkiri",
       how_it_works_tips:
-        "Seadistage ja hallake seda valikut oma poe jaoks.",
+        "Sihtlehtedel saate paindlikult määrata nii teksti kui ka piltide jaoks dünaamilisi kohahoidjaid. Need kohatäitjad mängivad olulist rolli sisu kohandamisel vastavalt kontekstile.   Nende kohatäitjate dünaamiline olemus võimaldab neid täita laiendusväärtustega, mis võivad olenevalt erinevatest teguritest erineda. Näiteks võivad lisaväärtused iga toote või kategooria puhul olla erinevad. Selle funktsiooni tõeline eelis tuleb mängu siis, kui teil on palju erinevate omadustega üksusi. Saate neid dünaamilisi kohahoidjaid tõhusalt kasutada iga üksuse kuvamise isikupärastamiseks ja täiustamiseks, luues seeläbi oma sihtlehtedel ainulaadse ja interaktiivse kogemuse.",
       assign_tips:
         "Hallake üksust määra üksus ja kohandage oma poe seotud seadeid.",
       set_dynamic_image_tips:
@@ -10650,7 +10650,7 @@ export default {
     intro: {
       title: "Pealkiri",
       message:
-        "Hallake üksust Sõnum ja kohandage oma poe seotud seadeid.",
+        "Selldone'i sidusprogramm on lihtne ja arusaadav, loodud selleks, et saaksite vaevata teenida. Jagage oma ainulaadset sidusettevõtte linki, et kutsuda uusi kasutajaid Selldone'i, ja teenite komisjonitasu iga nende tehingu eest – igaveseks. See hõlmab tellimustest saadavat tulu, teenustasusid, poe versiooniuuendusi ja kõiki muid tuluvooge. Alustage osa tulu teenimist ilma aja- või sissetulekupiiranguteta. Liituge meiega ja muutke oma võrgustik püsivaks sissetulekuks!",
       why_join_selldone_affiliate: "üksus",
       reasons: [
         "üksus",

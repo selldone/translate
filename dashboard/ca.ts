@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API de productes",
-        subtitle: "importa productes terme un terme terme API terme.",
+        subtitle: "Importació de productes mitjançant una trucada d'API accessible públicament.",
       },
       google_sheet: {
         action: "Full enllaçat",
@@ -858,7 +858,7 @@ export default {
       restriction: {
         title: "enviament terme",
         subtitle:
-          "tu pot terme terme a terme allò només clients terme el terme enviament terme pot guanya terme des de tu!",
+          "Podeu implementar restriccions per assegurar-vos que només els clients dins de les àrees d'enviament designades puguin fer-vos compres!",
         no_enable_shipping_error:
           "no terme pot terme des de tu terme tu tenir no activat enviament terme!",
         customer_must_select_a_shipping_msg:
@@ -868,7 +868,7 @@ export default {
         inputs: {
           restriction: {
             false_description:
-              "clients pot terme terme comandes terme si no terme enviament terme té estat seleccionat.",
+              "Els clients encara poden fer comandes encara que no s'hagi seleccionat cap mètode d'enviament específic.",
             false_title: "accepta tot comandes",
             true_title: "terme accepta comanda",
             true_description:
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Emmagatzema les aplicacions actives",
         subtitle:
-          "terme el terme de terme teu negoci terme amb Selldone terme botiga. terme terme oferta un terme terme de terme disseny a terme teu negoci terme. des de terme gestió terme a terme terme, Selldone terme un terme terme per terme terme terme i terme.",
+          "Descobriu la facilitat de gestionar les vostres aplicacions empresarials amb Selldone App Store. La nostra plataforma ofereix un conjunt complet d'eines dissenyades per optimitzar les operacions del vostre negoci. Des de solucions de gestió innovadores fins a aplicacions que augmenten la productivitat, Selldone ofereix una experiència perfecta per a les empreses que busquen eficiència i creixement.",
         all: "tots",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "favicon",
           subtitle:
-            "favicon són terme, terme imatges allò terme un terme a terme terme, terme, i terme terme terme.",
+            "Els favicons són imatges petites i emblemàtiques que representen un lloc web en pestanyes del navegador, adreces d'interès i interfícies d'aplicacions mòbils.",
         },
       },
 
@@ -1490,7 +1490,7 @@ export default {
       },
       unit: {
         subtitle:
-          "tu pot terme el terme de preus i terme terme a el producte pàgina.",
+          "Podeu personalitzar la visualització dels preus i dels elements de crida a l'acció a la pàgina del producte.",
       },
       custom_pricing: {
         title: "personalitzat preus formulari",
@@ -1506,7 +1506,7 @@ export default {
       action: {
         title: "personalitzat terme terme",
         message:
-          "tu pot terme icona per terme això terme: {icon name} terme...",
+          "Podeu canviar la icona seguint aquest patró: {icon name} subtítol...",
         placeholder: "terme terme a acció...",
         multi_language_dialog_title: "personalitzat terme terme terme",
       },
@@ -1518,15 +1518,15 @@ export default {
       },
       warehouse: {
         subtitle:
-          "això informació és terme per el magatzem gestió terme i terme a terme terme el producte.",
+          "Aquesta informació és utilitzada pel sistema de gestió del magatzem i serveix per identificar globalment el producte.",
       },
       gtin: {
-        hint: "terme terme són UPC (terme terme, 12 terme), EAN (terme, 13 terme), JAN (terme, 8 o 13 terme), ISBN (terme, 13 terme).",
+        hint: "Els valors admesos són UPC (Amèrica del Nord, 12 dígits), EAN (Europa, 13 dígits), JAN (Japó, 8 o 13 dígits), ISBN (llibres, 13 dígits).",
         label: "producte terme terme element terme",
         placeholder: "terme terme terme terme.. (opcional)",
       },
       hsn: {
-        hint: "HSN, o terme terme de terme, és un terme terme classificació terme per terme terme i productes.",
+        hint: "HSN, o Sistema Harmonitzat de Nomenclatura, és un sistema de classificació estandarditzat internacionalment per categoritzar béns i productes.",
         placeholder: "6~16 terme HSN codi.. (opcional)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "producte terme a teu botiga",
         message: "si us plau tria el terme de això producte.",
         subtitle:
-          "terme teu clients terme el terme i terme de el producte terme oferta.",
+          "Informeu els vostres clients sobre l'estat i la marca del producte que oferiu.",
       },
       brand: {
         label: "Marca",
@@ -1550,7 +1550,7 @@ export default {
       status: {
         title: "Estat",
         subtitle:
-          "el producte estat terme això terme en línia i terme. a guanya un producte terme, terme terme això estat a 'terme..",
+          "L'estat del producte determina la seva disponibilitat en línia i a la botiga. Per crear un esborrany de producte, només cal canviar-ne l'estat a \"Inactiu\".",
       },
       profiles: {
         title: "Perfils",
@@ -1560,7 +1560,7 @@ export default {
       shortcuts: {
         title: "terme producte a addicional categories",
         subtitle:
-          "això terme terme tu a llista el producte a terme categories terme terme això terme a el primari categoria estableix terme producte > edita > categoria. terme, això terme terme a terme 'terme a terme terme, terme el producte a terme a addicional terme categories.",
+          "Aquesta funció us permet llistar el producte en diverses categories, mantenint la seva ubicació a la categoria principal establerta a Producte > Edita > Categoria. Essencialment, funciona de manera similar a la creació de \"dreceres\" als sistemes operatius, permetent que el producte aparegui en categories especificades addicionals.",
       },
     },
 
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "terme",
         subtitle:
-          "afegeix producte terme terme per terme terme i terme terme.",
+          "Afegiu manualment especificacions de producte definint grups i parells clau-valor.",
         add_group_action: "Afegeix un grup",
         add_item_action: "afegeix terme terme",
       },
@@ -1696,7 +1696,7 @@ export default {
         generated_spec: {
           title: "terme terme",
           subtitle:
-            "terme terme terme terme per terme terme.",
+            "Aquestes especificacions van ser generades per intel·ligència artificial.",
         },
         inputs: {
           prompt: {
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "terme terme",
             subtitle:
-              "terme a automàticament crea producte terme des de el terme terme.",
+              "Feu clic per crear automàticament les especificacions del producte a partir de la visió general proporcionada.",
           },
           add_generated_spec: "afegeix terme terme",
         },
@@ -1783,18 +1783,18 @@ export default {
 
       subtitle: {
         marketplace:
-          "terme el mercat, el primari producte preus mostrat és el llistat preu, terme el terme preu és terme terme a el terme terme terme.",
+          "Dins del mercat, el preu del producte principal que es mostra és el preu de llista, mentre que el preu real es determina en funció dels registres de relació proveïdor-producte.",
         subscription:
-          "per terme, només el llistat preu és mostrat, terme el terme terme serà ser terme terme a el seleccionat terme terme.",
+          "Per a les subscripcions, només es mostra el preu del llistat, mentre que el cost real es determinarà en funció del pla de subscripció seleccionat.",
         service:
-          "per terme productes, el llista preus és terme per terme terme, terme un terme terme de el servei. el terme servei preu serà ser terme per tu terme el client té terme seu comanda (terme terme).",
+          "Per als productes basats en serveis, el preu indicat només té finalitats de visualització, proporcionant un cost estimat del servei. El preu real del servei el determinareu un cop el client hagi fet la seva comanda (en fer la compra).",
         file: "això terme a el llista i terme preu de el fitxer, terme clients terme terme a comanda a terme accés a el fitxers.",
         default:
           "això terme a el producte llista preu i terme terme terme compte el preu de terme variants allò terme no tenir terme preus.",
       },
       extra_pricings: {
         title: "afegeix extra preus",
-        subtitle: "terme terme preus terme a terme terme.",
+        subtitle: "Implementar preus dinàmics basats en la quantitat de compra.",
       },
 
       vendor: {
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "comanda límits",
         subtitle:
-          "si terme un terme o terme un mínim o màxim límit a el terme de això element terme comanda, tu pot terme allò terme.",
+          "Si sou majorista o hi ha un límit mínim o màxim a la quantitat d'aquest article per comanda, podeu especificar-ho aquí.",
         no_limit: "no límit",
         minimum_purchase_quantity: "mínim terme terme",
         maximum_purchase_quantity: "màxim terme terme",
@@ -1867,9 +1867,9 @@ export default {
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "terme per terme productes és estableix per terme, i terme ser terme terme.",
+        "L'inventari dels productes de dropshipping el configuren els majoristes i no es pot modificar aquí.",
       marketplace:
-        "el terme producte terme a el mercat és terme per afegeix terme el terme de tot venedors. tu terme terme això terme.",
+        "L'inventari global de productes al mercat es determina sumant els inventaris de tots els proveïdors. No el podeu modificar aquí.",
       default: "terme el producte terme terme terme.",
     },
     menu: {
@@ -1894,22 +1894,22 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google producte categoria codi",
-    hint: "terme el categoria de teu producte terme a el Google'terme producte terme.",
+    hint: "Representa la categoria del vostre producte segons la taxonomia de productes de Google.",
     placeholder: "terme producte o servei categoria.. (opcional)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "terme",
-      desc: "un terme és terme de un terme terme el terme terme a terme o terme un producte terme un terme terme. això terme pot terme terme a terme terme terme no tenir un terme terme amb el terme.",
+      desc: "Una garantia forma part d'un contracte on el fabricant es compromet a reparar o substituir un producte en un període determinat. Aquest compromís es pot estendre fins i tot als consumidors que no tinguin un contracte directe amb el fabricant.",
     },
     RETURN_POLICY: {
       title: "retorn terme",
-      desc: "retorn terme terme terme clients pot retorn o terme terme terme. terme terme terme elements, terme terme per retorn, i el terme per terme retorn.",
+      desc: "Les polítiques de devolució descriuen com els clients poden tornar o canviar la mercaderia no desitjada. Especifiquen els articles elegibles, els motius acceptables per a les devolucions i el termini per fer les devolucions.",
     },
     GUIDE: {
       title: "terme",
-      desc: "un terme terme terme un mida terme per terme o un terme terme per terme. això terme allò terme són terme i terme terme terme productes.",
+      desc: "Una guia podria incloure una taula de talles per a la roba o una guia de selecció de diamants. És important que les guies siguin versàtils i aplicables a diversos productes.",
     },
     SHIPPING: {
       title: "Enviament",
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "terme gestió",
     subtitle:
-      "crea terme, terme, i terme terme terme.",
+      "Creeu finestres emergents personalitzades, intel·ligents i interactives.",
     add_action: "afegeix nou terme",
   },
 
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "botiga > terme > impost",
 
       subscription_tips:
-        "terme tu selecciona un impost perfil per terme producte, nosaltres actualitza<code>impost codi</code> i estableix terme/terme mode a teu pagament servei proveïdor. el seleccionat impost perfil terme terme el preu és terme terme de terme o terme de terme. terme de <code>terme</code> o <code>terme</code>. terme terme com terme terme o terme, això terme ser terme.<br /><br /><b>terme!</b> després terme el impost perfil, tu terme terme a preus terme a el producte > terme terme i terme el desa terme a aplica terme.",
+        "Quan seleccioneu un perfil fiscal per a un producte de subscripció, actualitzem el<code>codi fiscal</code> i establim el mode inclusiu/exclusiu al vostre proveïdor de serveis de pagament. El perfil fiscal seleccionat especifica si el preu es considera amb impostos inclosos o sense impostos. Un de <code>inclòs</code> o <code>exclusiu</code>. Un cop especificat com a inclusiu o exclusiu, no es pot canviar.<br /><br /><b>Important!</b> Després de canviar el perfil fiscal, hauríeu de fer clic a plans de preus a la pestanya Producte > Inventari i fer clic al botó Desa per aplicar els canvis.",
     },
   },
 
@@ -2027,7 +2027,7 @@ export default {
     business: {
       title: "negoci informació",
       subtitle:
-        "si us plau terme terme informació terme teu negoci a terme un terme i terme terme terme terme.",
+        "Proporcioneu informació precisa sobre la vostra empresa per garantir un procés de recaptació d'ingressos ràpid i fluid.",
     },
     bank: {
       title: "pagament informació",
@@ -2076,14 +2076,14 @@ export default {
       slug: {
         label: "terme",
         placeholder: "terme un personalitzat terme...",
-        hint: "terme el terme el venedor terme terme pàgina.",
+        hint: "Canvieu el camí a la pàgina de destinació dinàmica del venedor.",
       },
       email: {
         message: "això correu electrònic serà terme tot terme i actualitza.",
       },
       business: {
         false_description: "jo terme com un terme.",
-        true_description: "jo terme com un terme terme negoci terme.",
+        true_description: "Opero com una entitat comercial reconeguda legalment.",
         false_title: "terme",
         true_title: "negoci",
       },
@@ -2092,7 +2092,7 @@ export default {
         placeholder: "teu banc terme..",
       },
       account_name: {
-        hint: "això terme terme el terme terme amb el banc compte.",
+        hint: "Això hauria de coincidir amb el nom associat al compte bancari.",
         placeholder: "teu terme..",
       },
       account_number: {
@@ -2100,15 +2100,15 @@ export default {
         placeholder: "teu banc compte terme..",
       },
       routing_number: {
-        hint: "això terme terme per país. això terme a terme el terme banc terme el venedor terme.",
-        placeholder: "teu banc terme terme, terme codi, o BSB terme..",
+        hint: "Aquesta xifra varia segons el país. S'utilitza per identificar la sucursal bancària específica que utilitza el venedor.",
+        placeholder: "El vostre número d'encaminament bancari, codi d'ordenació o número BSB.",
       },
       iban: {
-        hint: "terme banc compte terme): si el venedor banc és a terme o terme terme països.",
+        hint: "Número de compte bancari internacional): si el banc del venedor es troba a Europa o en alguns altres països.",
         placeholder: "teu IBAN terme.. terme. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "terme banc compte terme): si el venedor banc és a terme o terme terme països.",
+        hint: "Número de compte bancari internacional): si el banc del venedor es troba a Europa o en alguns altres països.",
         placeholder: "teu terme codi/BIC..",
       },
       branch_address: {
@@ -2125,7 +2125,7 @@ export default {
         label: "venedor terme & accés",
         true_description:
           "el venedor té un dedicat terme a actualitza terme i preu.",
-        hint: "tu pot terme o terme el venedor terme, terme terme venedors a actualitza producte terme i preu i terme terme comandes.",
+        hint: "Podeu activar o desactivar el tauler de proveïdors, que permet als venedors actualitzar les quantitats i preus dels productes i rebre comandes parcials.",
         false_description: "el venedor té no accés a terme.",
       },
 
@@ -2147,7 +2147,7 @@ export default {
     vendor_subtitle:
       "si us plau puja el terme negoci, IP, i adreça terme documents. nosaltres terme això informació a confirma teu terme i terme tu amb el terme accés.",
     marketplace_subtitle:
-      "venedors pot terme documents terme com negoci, terme propietat, i adreça terme a terme seu KYC terme, terme tu a terme ells el terme accés.",
+      "Els venedors poden enviar documents com ara la verificació de negocis, propietat intel·lectual i adreces per facilitar el seu procés KYC, cosa que us permetrà concedir-los l'accés adequat.",
     upload_dialog: {
       title: "puja document",
       type: {
@@ -2201,7 +2201,7 @@ export default {
         badge_added: "el insígnia té estat afegeix correctament!",
         badge_updated: "el insígnia té estat actualitzat correctament!",
         item_not_found_error:
-          "el element terme no ser terme. si us plau terme el pàgina o terme terme.",
+          "No s'ha pogut trobar l'element. Actualitzeu la pàgina o poseu-vos en contacte amb el servei d'assistència.",
       },
     },
   },
@@ -2217,7 +2217,7 @@ export default {
     ],
     inputs: {
       tags: {
-        placeholder: "terme etiquetes terme i terme terme. terme. nou terme",
+        placeholder: "Envieu les etiquetes aquí i premeu Intro. ex. nova col·lecció",
       },
     },
     notifications: {
@@ -2261,7 +2261,7 @@ export default {
       title: "ubicació perfil",
       subtitle:
         "tu pot terme productes a el terme ubicació per terme ubicació etiquetes a el productes.",
-      tips: "<b>terme:</b> terme un ubicació a el producte <b>només</b> si tu vols a mostra el producte a el terme ubicació a el terme. el terme producte terme tenir el ubicació com això principal terme, terme <b>terme inici/terme</b> o terme serveis terme<b>terme i terme</b>.",
+      tips: "<b>Important: </b> Assigna una ubicació al producte <b>només</b> si vols mostrar el producte a la ubicació específica del mapa. El producte pined ha de tenir la ubicació com a especificació principal, com ara <b>habitatges/llocs de lloguer</b> o serveis presencials com <b>Perruqueria i Spa</b>.",
     },
   },
 
@@ -2283,9 +2283,9 @@ export default {
       action_manage: "gestiona elements",
       action_disable_msg: "mercat terme",
       select_items_tips:
-        "crea o tria paquet terme allò terme amb el producte o servei. terme això terme a terme terme clients pot terme terme terme terme el element. nosaltres terme terme això terme només terme això és terme per el client a terme el terme inclòs, terme com terme terme un terme.",
+        "Creeu o trieu els components del paquet que inclouen el producte o servei. Utilitzeu aquesta funció per emfatitzar el que els clients poden preveure rebre en comprar l'article. Aconsellem utilitzar aquesta funció només quan sigui crucial que el client entengui el contingut inclòs, com ara quan compra un telèfon intel·ligent.",
       create_item_tips:
-        "terme, tu pot terme un nou element. terme terme imatges, com nosaltres serà automàticament terme puja terme a un 256terme256 terme terme. a terme terme terme terme tot plantilles, terme terme imatges amb transparent fons i terme un terme terme per tot teu productes.",
+        "Alternativament, podeu incloure un element nou. Utilitzeu imatges quadrades, ja que automàticament canviarem la mida de les imatges penjades a un format quadrat de 256 x 256. Per garantir un aspecte òptim a totes les plantilles, utilitzeu imatges minimalistes amb fons transparents i manteniu un patró coherent per a tots els vostres productes.",
       create_new_item_action: "crea nou inclòs element",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "variant opcions",
           subtitle:
-            "terme un terme color codi, terme.terme., <b>#654FFF</b>, o terme color terme per un terme, terme.terme., <b>#764FFA/#000000</b>.",
+            "Introduïu un codi de color hexadecimal, p. ex., <b>#654FFF</b>, o dos colors separats per una barra, p. ex., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "tu pot terme terme terme a el terme, terme imatges terme <b>terme terme</b>. puja un terme i terme el terme codi per el variant.",
+            "Podeu assignar qualsevol valor a les variables, incloses les imatges mitjançant <b>Recursos gràfics</b>. Carregueu un patró i utilitzeu el codi generat per a la variant.",
           graphical_asset_action: "terme terme",
           graphical_asset_action_caption: "imatges per variant opcions.",
         },
         smart_unit_price: {
-          tips: "terme terme preu terme a <b>pes</b>, <b>terme</b>, i <b>terme mida</b>. a terme això terme, terme a botiga > configuració > terme > producte pàgina > terme terme preu.",
+          tips: "Calcula el preu unitari en funció de <b>pes</b>, <b>volum</b> i <b>mida del paquet</b>. Per desactivar aquesta funció, aneu a Botiga > Configuració > Tema > Pàgina del producte > Preu unitari intel·ligent.",
           smart_unit_price: "terme preu terme",
         },
         quantity: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "terme terme element terme (GTIN)",
             message:
-              "terme terme: UPC (12 terme), EAN (13 terme), JAN (8 o 13 terme), ISBN (13 terme).",
+              "Formats admesos: UPC (12 dígits), EAN (13 dígits), JAN (8 o 13 dígits), ISBN (13 dígits).",
           },
         },
       },
@@ -2518,7 +2518,7 @@ export default {
     weight_unit: "Kg",
     size: "Dimensions del paquet",
     size_subtitle:
-      "entrada el producte terme terme mida terme. això informació és terme a tria el terme enviament terme i terme el comanda terme terme el terme mida límit.",
+      "Introduïu aquí la mida completa de l'embalatge del producte. This information is used to choose the correct shipping method and ensure the order doesn't exceed the parcel size limit.",
 
     width: "Amplada",
     length: "Llargada",
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b>terme això terme:</b><br />puja terme o element imatges terme. a terme terme imatges com un variant opció, terme <b>{filename}</b> a el variant terme. nota allò això codi terme ser terme a el <b><s>color</s></b> terme.",
       how_set_name:
-        "<b>terme terme:</b><br />el primer 12 terme de el puja fitxer terme serà ser terme com el terme terme. això terme és terme per terme terme terme de un producte, terme com terme mida per terme o terme terme. a terme el terme de això terme, terme puja variant imatges terme terme el terme de terme terme és terme terme 100, terme com terme terme terme per terme.",
+        "<b>Naming Tips:</b><br />The first 12 characters of the uploaded file name will be used as the asset name. This feature is ideal for showcasing customizable aspects of a product, such as tire sizes for motorcycles or fabric patterns. Per optimitzar l'ús d'aquesta funció, eviteu penjar imatges variant aquí tret que el nombre d'actius gràfics sigui inferior a 100, com ara diferents tipus de fusta per a mobles.",
     },
   },
 
@@ -2717,7 +2717,7 @@ export default {
   bulk_price_dialog: {
     title: "terme accions > preu",
     message:
-      "el terme import serà aplica com un terme a el preu de tot productes a teu botiga. terme, el terme preu terme serà ser terme terme a el terme terme terme terme a el seleccionat moneda.ser terme a terme el terme.",
+      "The following amount will apply as a percentage to the price of all products in your store. A més, els valors de preus calculats es convertiran de manera intel·ligent al número rodó més proper en funció de la moneda seleccionada. Aneu amb compte en introduir els valors.",
     check: "jo terme preu terme.",
     check_description:
       "el preu serà ser terme per el seleccionat categoria i tot terme.",
@@ -2797,7 +2797,7 @@ export default {
   b_page_shop_finance_gateway: {
     title: "pagament terme",
     sub_title:
-      "llista de actiu pagament terme. si tu vols a afegeix un nou terme a teu botiga, terme el terme terme. nosaltres terme terme no terme 10 afegeix pagament terme.",
+      "Llista de formes de pagament actives. If you want to add a new method to your shop, press the following button. We highly recommended not exceeding 10 added payment gateways.",
     add_gateway: "nou pagament terme",
 
     add_gateway_dialog: {
@@ -2815,7 +2815,7 @@ export default {
       currency_step: {
         title: "selecciona un moneda",
         subtitle:
-          "terme a terme el terme de terme a teu botiga a un mínim—terme terme terme 3. terme pagament terme pot terme transaccions a terme terme moneda.",
+          "Intenta mantenir el nombre de monedes de la teva botiga al mínim, idealment menys de 3. La majoria de passarel·les de pagament poden processar transaccions en gairebé qualsevol moneda.",
         add_first_currency: {
           subtitle: "si us plau afegeix un moneda a teu botiga abans terme.",
           title: "Afegeix moneda",
@@ -2824,7 +2824,7 @@ export default {
       gateway_step: {
         title: "actiu pagament terme",
         subtitle:
-          "si us plau tria des de el disponible pagament terme. terme tu selecciona un terme, terme ser terme a terme el terme terme detalls a enllaç teu botiga terme a teu terme pagament terme.",
+          "Si us plau, trieu entre els mètodes de pagament disponibles. Un cop hàgiu seleccionat una passarel·la, podreu introduir els detalls de connexió necessaris per enllaçar la vostra botiga directament amb el vostre mètode de pagament preferit.",
       },
 
       config_step: {
@@ -2835,7 +2835,7 @@ export default {
       request_add_new_gateway: {
         title: "terme veure teu terme pagament terme?",
         subtitle:
-          "si teu terme pagament proveïdor terme llista, terme a terme terme terme (terme terme per terme) i terme un terme. terme terme això terme 48 hores si un terme compte i terme són terme.",
+          "Si el vostre proveïdor de pagaments local no apareix a la llista, subscriviu-vos a qualsevol pla anual (inclòs Startup per assequibilitat) i sol·liciteu una integració. We'll complete it within 48 hours if a test account and documentation are provided.",
       },
 
       inputs: {
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "automàtic terme",
           false_description:
-            "el terme serà automàticament terme a el terme si tu terme tenir un terme terme a terme.",
+            "El sistema es connectarà automàticament a la passarel·la si ja teniu una passarel·la configurada.",
         },
       },
     },
@@ -3085,7 +3085,7 @@ export default {
       edit_page: "edita pàgina",
       Pages_list: "pàgina llista",
       subtitle:
-        "tu pot terme el terme de teu categoria pàgina per terme un personalitzat pàgina. el terme terme és a crea pàgines amb transparent fons i disseny 1 a 2 terme terme a terme categoria. tu pot terme enllaç terme pàgina a terme categories, terme terme terme a terme terme categoria terme.",
+        "Podeu millorar la visualització de la vostra pàgina de categoria superposant una pàgina personalitzada. El millor enfocament és crear pàgines amb fons transparents i dissenyar d'1 a 2 seccions específiques per a cada categoria. A continuació, podeu enllaçar una pàgina a diverses categories, utilitzant contingut dinàmic per adaptar cada categoria individualment.",
     },
     critical_zone: {
       title: "terme terme",
@@ -3155,7 +3155,7 @@ export default {
         edit_success: "Categoria editada.",
       },
       manually_update_filters_tips:
-        "<b>terme!</b> terme són automàticament actualitzat terme productes terme. terme, després terme terme a productes a un categoria, si us plau retorn terme i terme el desa/terme terme a terme el terme.",
+        "<b>Important!</b> Els filtres s'actualitzen automàticament quan canvien els productes. Tanmateix, després de fer canvis als productes d'una categoria, torneu aquí i feu clic al botó desar/regenerar per actualitzar el filtre.",
 
       inputs: {
         spec: {
@@ -3523,12 +3523,12 @@ export default {
         message:
           "nosaltres terme el total import de reemborsament allò tu terme a guanya terme. això terme terme a no disponible elements i total reemborsament terme terme.",
         calculated_approximately:
-          "el import és terme terme. si us plau terme el terme import terme.",
+          "La quantitat es calcula aproximadament. Calculeu l'import exacte vosaltres mateixos.",
       },
       need_payback: {
         title: "client càrrec obligatori",
         message:
-          "terme terme allò el total reemborsament a el client és terme terme el import terme terme a el elements a el terme. tu terme terme a càrrec teu client a terme el terme import.",
+          "Hem observat que el total reemborsat al client és superior a l'import a pagar en funció dels articles del carretó. És possible que hàgiu de cobrar al vostre client per recuperar l'excés.",
       },
       need_no_refund: {
         title: "no reemborsament terme",
@@ -3662,7 +3662,7 @@ export default {
     status: "Estat",
     cod_transportation: "terme enviament",
     cod_transportations_error:
-      "terme terme a lliurament pagament per a terme terme enviament terme!",
+      "Activa el pagament contra reemborsament per almenys un mètode d'enviament!",
     payment_type: "pagament terme",
     cod: "terme a lliurament",
     online: "en línia pagament",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "terme accions",
       subtitle:
-        "per terme terme terme, terme terme a terme terme pagaments des de teu clients.",
+        "Si seguiu aquests passos, començareu a rebre pagaments reals dels vostres clients.",
       action_enable: "terme a terme això",
       make_live_enable: "terme a en directe això",
     },
@@ -3712,7 +3712,7 @@ export default {
 
     manual_title: "manual / automàtic terme pagament",
     manual_message:
-      "terme tu crea un pagament, tu pot terme un terme a un terme pagament terme a terme terme allò tu pot terme terme. per terme, terme terme terme un pagament a terme abans un terme terme, terme terme el diners terme el terme terme terme.",
+      "Quan creeu un pagament, podeu suspendre un mètode de pagament apte per reservar fons que podreu capturar més tard. Per exemple, els hotels solen autoritzar un pagament íntegre abans que arribi un hoste, i després capten els diners quan l'hoste surt.",
 
     gateway_status: "Estat",
     wallet: "Cartera Blockchain",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "terme & terme",
-      subtitle: "tu pot terme el terme mode a terme el pagament terme.",
+      subtitle: "Podeu activar el mode de depuració per provar la passarel·la de pagament.",
     },
 
     limit: {
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Llistat de targetes emeses",
       subtitle:
-        "visualitza i gestiona tot terme terme. tu pot terme terme a usuaris terme o terme ells si terme.",
+        "Consulta i gestiona totes les targetes emeses. Podeu enviar targetes als usuaris manualment o prohibir-les si cal.",
 
       loading_message: "Obtenint informació... si us plau, espereu",
       issue_to_user: "Problema a l'usuari",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "llista de terme terme comandes allò terme a ser terme per terme proveïdors.",
+      "Llista de comandes sincronitzades externament que han de complir proveïdors de tercers.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,7 +4038,7 @@ export default {
     "sms-payment":
       "terme un pagament terme SMS a el client terme {phone}.",
     "sms-ready-to-ship":
-      "terme un SMS a el client terme allò seu comanda és terme a ser terme terme {phone}.",
+      "Envieu un SMS al client notificant-li que la seva comanda està a punt per ser enviada a través de {phone}.",
     "sms-ready-to-pickup":
       "terme un SMS a el client terme allò seu comanda és terme per recollida terme {phone}.",
     "sms-order-confirmation":
@@ -4237,7 +4237,7 @@ export default {
     connect: {
       title: "Connecta el banc",
       subtitle:
-        "nosaltres oferta terme pagament terme per el terme pagament terme. a terme pagaments terme després terme terme, si us plau terme teu banc compte terme terme opcions.",
+        "Oferim capacitats de pagament dividit per a les següents passarel·les de pagament. Per rebre pagaments sense problemes després de cada compra, connecteu el vostre compte bancari mitjançant aquestes opcions.",
     },
     verify_dialog: {
       title: "terme pagament",
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "a això terme, tu pot visualitza el terme de terme terme a el comanda, terme, pagament, i seu terme terme. terme, tu pot terme el comandes terme a terme clients i venedors.",
+      "En aquesta secció, podeu veure la cronologia dels esdeveniments relacionats amb la comanda, el compliment, el pagament i els seus estats respectius. A més, podeu observar les comandes enviades tant als clients com als venedors.",
     add_note_subtitle: "escriptura un missatge i terme teu terme.",
 
     message_input: "Escriu un missatge aquí...",
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "Formulari de sol·licitud de transferència",
         sub_title:
-          "això és terme a terme terme terme terme teu cartera terme carteres de el terme moneda, o transferència ells a terme carteres a Selldone.",
+          "És possible moure fons accessibles dins de la vostra cartera entre carteres de la mateixa moneda o transferir-los a diferents carteres a Selldone.",
         message:
           "Aneu amb compte a l'hora de transferir diners, no podreu tornar si completeu la transferència.",
       },
@@ -5571,14 +5571,14 @@ export default {
 
       access: "Accés al meu compte",
       access_subtitle:
-        "OAuth terme, terme accés terme i terme terme.",
+        "Clients OAuth, testimonis d'accés personal i aplicacions connectades.",
 
       security: "Seguretat",
-      security_subtitle: "estableix terme terme i gestiona terme terme opcions.",
+      security_subtitle: "Estableix dos factors i gestiona les opcions d'inici de sessió social.",
 
       preferences: "Preferències de l'usuari",
       preferences_subtitle:
-        "terme terme, terme, terme i predeterminat moneda.",
+        "Canvia el tema, el nivell, l'idioma i la moneda predeterminada.",
       my_subscriptions: "Les meves subscripcions",
       my_subscriptions_subtitle:
         "accés a terme AI i terme terme.",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Historial de compra",
       subtitle:
-        "Llicències actives i pendents.",
+        "Aquesta és una llista de llicències actives i pendents. Podeu comprar ofertes després de finançar la vostra cartera. A més, tingueu en compte que quan cancel·leu una subscripció, l'import de la subscripció restant es retornarà a la vostra cartera virtual.",
     },
     license_detail: {
       title: "Detalls",
       subtitle:
-        "Límits al vostre pla actual.",
+        "Aquestes són les limitacions del vostre pla actual. Per obtenir més detalls, visiteu la pàgina de preus. Podeu accedir a totes les funcions de tots els plans, inclòs el pla gratuït, per impulsar el vostre negoci i créixer. A mesura que augmenteu el vostre negoci, considereu l'actualització a un pla de nivell superior per reduir les tarifes del servei.",
     },
 
     table: {
@@ -5814,7 +5814,7 @@ export default {
     sku_name_input: "SKU / Nom",
     info: {
       subtitle:
-        "a terme el producte, tu pot terme només el terme detalls terme per això terme.",
+        "Per generar el producte, només podeu introduir els detalls essencials necessaris per a la seva creació.",
     },
     price: {
       subtitle:
@@ -5830,13 +5830,13 @@ export default {
     },
     by_connect: {
       subtitle:
-        "terme afegeix productes des de POD o terme terme amb Selldone Connect OS—terme terme teu botiga i terme automàtic producte terme, no terme terme.",
+        "Afegiu fàcilment productes de proveïdors de POD o d'enviament directe amb Selldone Connect OS; només cal que connecteu la vostra botiga i gaudiu de la integració automàtica del producte, sense necessitat de connectors.",
     },
     your_license_is_not_eligible: "teu terme és no terme.",
     sku_dialog: {
       title: "afegeix producte per SKU",
       subtitle:
-        "tu tenir el terme a terme productes per seu SKU a terme terme i afegeix ells amb terme un terme terme.",
+        "Teniu la possibilitat de localitzar productes segons el seu SKU a la nostra base de dades i afegir-los amb un sol clic.",
     },
     dropshipping_dialog: {
       title: "afegeix terme productes",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "terme, tu pot terme terme terme llista seu productes a Selldone, terme ells disponible per terme terme. Selldone terme terme terme terme el terme, terme això terme i terme per terme terme i terme.",
+      "Aquí, podeu trobar majoristes que llisten els seus productes a Selldone, posant-los a disposició d'altres comerciants. La plataforma de dropshipping integrada de Selldone simplifica el procés, fent-lo fàcil i senzill tant per als majoristes com per als comerciants.",
   },
 
   /** @see Affiliates **/
@@ -5892,7 +5892,7 @@ export default {
       new: "nou afiliat soci",
       edit: "edita afiliat soci",
       subtitle:
-        "terme el terme configuració i terme de el afiliat terme.",
+        "Configureu la configuració general i el nom de l'afiliat aquí.",
     },
 
     payment: {
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "terme",
       subtitle:
-        "terme això afiliat amb un terme a gestiona això terme terme terme a terme terme.",
+        "Associa aquest afiliat a un clúster per gestionar-lo juntament amb altres recursos en un sol lloc.",
       manage_action: "gestiona",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "afiliat soci terme",
-        message: "terme.terme., John Doe, Alex empresa, X terme, terme.",
+        message: "per exemple, John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
         label: "comissió terme",
         false_description:
-          "terme terme un terme de terme i terme comissió.",
+          "Calcula amb una combinació de comissions fixes i percentuals.",
         true_description:
-          "terme terme terme comissió estableix a el preus terme.",
+          "Calculeu utilitzant les comissions específiques del producte establertes a la pestanya de preus.",
         false_title: "terme + terme comissió",
         true_title: "terme comissió",
       },
@@ -6006,7 +6006,7 @@ export default {
       "terme un terme (un preus entrada formulari) a un producte, terme clients a selecciona variants o terme teu terme. el terme serà terme terme el preu terme a el personalitzat entrades.",
     add_valuation_action: "crea nou terme formulari",
     empty_message:
-      "terme de terme terme variants, terme terme un terme terme allò pot ser terme a un terme producte.",
+      "En lloc de crear diverses variants, considereu desenvolupar una estratègia de valoració que es pugui aplicar a un producte senzill.",
     delete_dialog: {
       title: "terme elimina",
       message:
@@ -6033,7 +6033,7 @@ export default {
     title_add: "crea nou terme formulari",
     config: {
       subtitle:
-        "estableix terme un terme terme a crea terme preus terme terme i terme taula per teu productes. inici per terme això terme un terme terme.",
+        "Set up a valuation system to create flexible pricing using formulas and reference tables for your products. Comenceu donant a aquesta valoració un nom únic.",
     },
     valuation_preview: "terme terme formulari",
     load_sample: "terme mostra",
@@ -6052,7 +6052,7 @@ export default {
     inputs: {
       title: {
         message: "això títol és no visible a clients.",
-        placeholder: "terme un terme per preus, terme.terme., 'terme terme",
+        placeholder: "Introduïu un nom per al preu, per exemple, \"Preus de les tasses\"",
       },
     },
     samples: {
@@ -6169,7 +6169,7 @@ export default {
       config: {
         title: "terme configuració",
         subtitle:
-          "el terme de el descompte codi terme és: terme (LIMIT, terme * terme preu). terme a guanya el codi terme i terme a terme.",
+          "La fórmula del càlcul del codi de descompte és: màxim (LIMIT, PERCENT * preu del carretó). Recordeu que els codis són rellevants i fàcils de recordar.",
       },
       limit: {
         title: "terme",
@@ -6179,7 +6179,7 @@ export default {
       duration: {
         title: "durada límit",
         subtitle:
-          "terme tu vols a terme un descompte codi per un terme terme, tu pot terme allò durada terme.",
+          "Si voleu activar un codi de descompte per a un període de temps concret, podeu establir aquesta durada aquí.",
       },
       design: {
         subtitle:
@@ -6316,11 +6316,11 @@ export default {
 
     config: {
       subtitle:
-        "el terme de el cupó descompte terme és: CHARGE + terme (LIMIT, terme * terme preu).",
+        "La fórmula del càlcul del descompte del cupó és: CÀRREGA + màxim (LIMIT, PERCENT * preu del carretó).",
     },
     limit: {
       subtitle:
-        "a això terme, terme terme a estableix terme el màxim terme de terme terme cupó i el terme descompte import terme cupó pot terme.",
+        "En aquesta secció, podeu establir tant el nombre màxim d'usos per cupó com l'import de descompte més alt que pot oferir cada cupó.",
       zero_message: "terme: terme és no límit!",
     },
     duration: {
@@ -6333,18 +6333,18 @@ export default {
     },
     constraints: {
       subtitle:
-        "terme, tu tenir el terme a terme addicional terme terme per el cupó.",
+        "Aquí teniu la possibilitat d'establir paràmetres personalitzats addicionals per al cupó.",
       no_limit: "no extra terme",
       has_limit: "extra terme",
       has_code_message: "usuari terme terme el codi a afegeix cupó.",
     },
     club: {
       subtitle:
-        "això cupó terme pot ser terme terme a membres de terme client terme.",
+        "L'ús d'aquest cupó es pot restringir exclusivament als membres dels clubs de clients escollits.",
     },
     cluster: {
       subtitle:
-        "per terme això cupó amb un terme, tu pot terme gestiona això terme terme terme a un terme ubicació.",
+        "En associar aquest cupó a un clúster, podeu gestionar-lo fàcilment juntament amb altres recursos en una sola ubicació.",
     },
     preview: {
       subtitle: "terme el públic terme de el cupó.",
@@ -6422,18 +6422,18 @@ export default {
     },
     config: {
       subtitle:
-        "terme terme un terme terme per terme això títol, descripció, i públic terme estat.",
+        "Comenceu a elaborar un acord intel·ligent establint-ne el títol, la descripció i l'estat de disponibilitat pública.",
     },
     limit: {
       subtitle: "estableix el màxim terme límit per això oferta a això terme.",
     },
     duration: {
       subtitle:
-        "si tu terme a estableix un terme terme per un oferta, tu pot terme el durada terme.",
+        "Si voleu establir un període de temps específic per a una oferta, podeu configurar-ne la durada aquí.",
     },
     constraints: {
       subtitle:
-        "estableix el terme terme i terme per el oferta terme. el oferta terme a terme elements allò terme terme terme.",
+        "Establiu aquí els criteris d'elegibilitat i les condicions de l'oferta. L'oferta s'aplica als articles del carretó que compleixin aquestes condicions.",
     },
     discounted_products: {
       title: "descompte productes",
@@ -6442,7 +6442,7 @@ export default {
     },
     cluster: {
       subtitle:
-        "per terme això oferta amb un terme, tu pot terme gestiona això terme terme terme a un terme ubicació.",
+        "En associar aquesta oferta a un clúster, podeu gestionar-la fàcilment juntament amb altres recursos en una única ubicació.",
     },
   },
 
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "terme client terme amb un terme terme a teu botiga. estableix terme terme i terme terme per clients terme terme terme terme terme. terme terme terme terme 10 terme, i tu pot oferta terme terme per terme terme. el predeterminat terme és terme de terme, terme tu pot terme això a terme teu botiga terme.",
+        "Augmenta les compres dels clients amb una experiència gamificada a la teva botiga. Configureu premis i probabilitats de guanyar per als clients que guanyen fitxes mitjançant compres. Cada joc costa 10 fitxes i pots oferir premis especials per als compradors per primera vegada. El joc predeterminat és Wheel of Fortune, però podeu personalitzar-lo perquè s'adapti al disseny de la vostra botiga.",
     },
     empty_prize_list: "crea i gestiona terme terme...",
   },
@@ -6621,12 +6621,12 @@ export default {
         "terme, tu tenir el opció a tria un imatge i color per el terme.",
     },
     constraints: {
-      subtitle: "terme el terme i terme per terme això terme.",
+      subtitle: "Especifiqueu els criteris i limitacions per guanyar aquest premi.",
     },
     prize: {
       title: "terme",
       subtitle:
-        "estableix terme el terme detalls terme. opcions terme descompte codi, terme terme, terme, i terme descompte com terme terme.",
+        "Configureu els detalls del premi aquí. Les opcions inclouen codis de descompte, targetes regal, crèdits i altres descomptes com a recompenses de loteria.",
     },
     product_input: {
       label: "producte terme",
@@ -7041,13 +7041,13 @@ export default {
     vendor: {
       title: "importa venedors",
       subtitle:
-        "puja venedor CSV fitxers terme. terme el terme és terme i terme a terme terme.",
+        "Pengeu els fitxers CSV del proveïdor aquí. Assegureu-vos que el format sigui correcte i compleixi les normes de privadesa.",
       checklist: {
         title: "terme terme",
         subtitle: "ser terme a terme el terme.",
         sample_files: "mostra fitxers",
         valid_vendor_name_needed:
-          "tu terme terme un <b>vàlid terme</b>. el <b>terme</b> és terme a terme terme a <i>crea</i> un nou venedor o <i>actualitza</i> un terme terme.",
+          "Heu de proporcionar un <b>nom vàlid</b>. El <b>nom</b> s'utilitza per determinar si cal <i>Crear</i> un proveïdor nou o <i>Actualitzar</i> un d'existent.",
         assign_user_after_import:
           "després importa venedors, tu pot terme terme un usuari a terme ells accés a el venedor terme.",
       },
@@ -7088,12 +7088,12 @@ export default {
     marketplace: {
       title: "Mercat",
       subtitle:
-        "terme el mercat serà terme terme terme terme. si tu vols a terme terme teu terme mercat, tu terme terme teu botiga a el configuració.",
+        "Si desactiveu el mercat, es desactivaran algunes funcionalitats. Si voleu tancar tot el vostre mercat, hauríeu de desactivar la vostra botiga a la configuració.",
     },
     distribution_model: {
       title: "terme terme",
       subtitle:
-        "mercat pot terme terme terme terme terme. terme tu terme venedors a terme elements terme a terme o terme comandes a teu magatzem per enviament, tu pot tria el terme allò terme terme teu terme terme.",
+        "Els mercats poden funcionar sota diferents models de distribució. Tant si preferiu que els venedors enviïn articles directament als compradors o que consolidin les comandes al vostre magatzem per a l'enviament, aquí podeu triar el model que millor s'adapti a les vostres necessitats.",
     },
     access: {
       title: "venedor accés",
@@ -7101,7 +7101,7 @@ export default {
         "com un terme, tu terme el terme de accés venedors tenir a el producte tauler. terme terme accés configuració a terme venedors a afegeix seu terme productes i categories o terme això accés a terme només.",
     },
     need_enable_shipping_for_vendors_tips:
-      "terme enviament per venedors a el botiga > logística terme per terme terme terme.",
+      "Activeu l'enviament per als venedors a la pestanya Botiga > Logística per a cada mètode individualment.",
     transportation_available_tooltip: "això opció és disponible per venedors.",
     transportation_not_available_tooltip:
       "no disponible per venedors! tu pot terme això a el terme configuració.",
@@ -7112,13 +7112,13 @@ export default {
     documents: {
       title: "documents",
       subtitle:
-        "tu pot terme teu venedors a puja documents o terme terme terme. terme el obligatori documents terme.",
+        "Podeu demanar als vostres venedors que carreguin documents o que signin determinats contractes. Especifiqueu aquí els documents requerits.",
       add_document_action: "afegeix document terme",
     },
     inputs: {
       enable: {
         false_description:
-          "el mercat és terme terme, terme tot mercat terme.",
+          "El mercat està desactivat i es desactiva totes les funcionalitats del mercat.",
         true_description:
           "el mercat és actiu, terme tot mercat terme.",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "llistat és activat per venedors. venedors pot gestiona llistat elements i empreses.",
         false_description: "llistat és desactivat per venedors. només el botiga terme pot gestiona llistat elements i empreses.",
         requires_listing_active_text:
-          "a terme venedors terme llistat (elements + empreses), primer terme el botiga llistat terme a canal → llistat. terme terme terme terme a terme venedor accés.",
+          "Per permetre que els venedors utilitzin Llistat (articles + empreses), primer activeu la funció Llistat de botiga a Canal → Llistat. A continuació, torneu aquí per permetre l'accés del venedor.",
         requires_listing_active_button: "obre canal llistat configuració",
       },
 
@@ -7194,12 +7194,12 @@ export default {
       guide: {
         title: "terme",
         subtitle:
-          "terme un terme terme a terme venedors terme terme documents a puja i terme a terme això terme.",
+          "Proporcioneu una guia breu per ajudar els venedors a entendre quins documents cal penjar i com fer-ho correctament.",
       },
       code: {
         title: "terme codi",
         subtitle:
-          "terme el terme codi per un document, formulari, o terme allò el venedor terme terme.",
+          "Enganxeu el codi d'inserció d'un document, formulari o contracte que el venedor ha de signar.",
       },
       link: {
         title: "extern enllaç",
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "terme (opcional)",
           placeholder:
-            "terme, terme un terme terme o terme, terme enllaç a terme o terme documents.",
+            "Opcionalment, proporcioneu una guia o instruccions breus, inclosos enllaços a contractes o altres documents.",
         },
         code: {
           label: "terme codi",
@@ -7251,32 +7251,32 @@ export default {
     Identification: {
       title: "terme terme document",
       description:
-        "puja un terme ID a terme el terme de el negoci terme o clau terme.",
+        "Pengeu una identificació emesa pel govern per verificar la identitat del propietari de l'empresa o de l'executiu clau.",
     },
     Business: {
       title: "negoci terme",
       description:
-        "terme terme negoci documents terme com terme o terme terme a confirma el terme estat de teu negoci.",
+        "Proporcioneu documents comercials essencials, com ara llicències o certificats de registre per confirmar l'estat legal de la vostra empresa.",
     },
     Address: {
       title: "adreça terme",
       description:
-        "terme un document a terme teu negoci adreça, terme com un terme terme, impost factura, o terme terme.",
+        "Envieu un document per verificar l'adreça de la vostra empresa, com ara una factura de serveis públics, una factura fiscal o un contracte d'arrendament.",
     },
     Contract: {
       title: "terme & terme",
       description:
-        "puja terme o terme allò terme el terme i terme de teu negoci terme.",
+        "Carregueu contractes o acords que detallin els termes i condicions de les vostres relacions comercials.",
     },
     Copyright: {
       title: "terme terme",
       description:
-        "terme terme terme documents a terme teu terme propietat terme.",
+        "Proporcioneu documents de registre de drets d'autor per confirmar els vostres drets de propietat intel·lectual.",
     },
     Privacy: {
       title: "terme terme documents",
       description:
-        "terme teu terme terme documents a terme teu terme a terme usuari i client informació.",
+        "Incloeu els vostres documents de política de privadesa per demostrar el vostre compromís amb la protecció de la informació dels usuaris i dels clients.",
     },
     Embed: {
       title: "terme formulari",
@@ -7379,11 +7379,11 @@ export default {
     bank_transfer: {
       title: "banc transferència",
       subtitle:
-        "això és un terme de pagament terme. no terme diners serà ser terme a el venedor per el terme; tu terme terme terme teu venedors.",
+        "Aquest és un registre de l'historial de pagaments. El sistema no transferirà diners reals al venedor; heu de pagar manualment als vostres venedors.",
     },
     vendor_bank: "venedor banc",
     gateway_in_debug_mode_warning:
-      "terme el pagament terme és terme a terme mode, terme serà no ser terme a un terme compte.",
+      "Com que la passarel·la de pagament es troba actualment en mode de depuració, els fons no es transferiran a un compte real.",
     payment: {
       title: "Pagament",
       subtitle:
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Colors temàtics",
     theme_colors_description:
-      "tu pot terme el primari color terme de teu botiga terme. terme plantilla pot terme terme color a automàticament terme un terme color terme allò terme amb teu terme.",
+      "Podeu personalitzar la paleta de colors primaris de la vostra botiga aquí. Cada plantilla pot utilitzar aquests colors per generar automàticament una gamma de colors completa que s'alinea amb la vostra marca.",
     products_view_mode: "Visualització de la llista de la compra",
     products_view_mode_desc:
       "Podeu ajustar el mode de visualització dels productes de la vostra botiga en funció de la mida de la pantalla. Aquest mode es considerarà per defecte i no s'aplicarà si l'usuari canvia el mode de visualització.",
@@ -7519,9 +7519,9 @@ export default {
       title: "terme accions",
       hover: {
         false_description:
-          "terme i terme mode terme terme extra accions a producte terme.",
+          "Mode senzill i mínim sense cap acció addicional a les targetes de producte.",
         true_description:
-          "mostra terme terme & afegeix a terme terme a producte terme terme.",
+          "Mostra els botons de compra ràpida i afegeix per comparar a la targeta de producte que està passant.",
         true_title: "mostra acció a terme",
       },
     },
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "producte pàgina",
       subtitle:
-        "terme teu producte pàgina terme. tu pot terme el terme de preu i terme el terme de terme a terme teu terme.",
+        "Personalitzeu la vostra pàgina de producte aquí. Podeu ajustar la visualització de preus i modificar la disposició de les seccions segons les vostres preferències.",
       buy_button_color: "terme terme color",
       smart_price: {
         title: "terme terme preu",
@@ -7561,9 +7561,9 @@ export default {
         false_title: "Mode normal",
         true_title: "terme mode",
         false_description:
-          "el moneda terme serà ser terme a el inici de el terme. terme: $95, €30",
+          "El signe de la moneda es col·locarà al començament dels números. Ex: $95 , 30 €",
         true_description:
-          "el moneda terme serà ser terme a el fi de el terme. terme: 95$, 30€",
+          "El signe de la moneda es col·locarà al final dels números. Ex: 95$, 30€",
       },
       variants_selector: {
         title: "variants terme",
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "terme & terme",
       subtitle:
-        "terme el venedor terme i terme terme amb un personalitzat terme, imatge, o missatge.",
+        "Personalitzeu l'experiència d'inici de sessió i d'incorporació del proveïdor amb un vídeo, una imatge o un missatge personalitzats.",
     },
     inputs: {
       page_vendor_login: {
@@ -7632,7 +7632,7 @@ export default {
     logo: {
       title: "terme logotip",
       subtitle:
-        "per predeterminat, teu botiga logotip és mostrat a el terme, terme tu pot puja un personalitzat logotip terme. si teu logotip terme no tenir un terme terme terme, tu terme terme a terme terme el terme i terme per terme terme.",
+        "De manera predeterminada, el logotip de la vostra botiga es mostra a la capçalera, però podeu pujar un logotip personalitzat. Si el vostre logotip no té una relació d'aspecte quadrada, és possible que hàgiu d'ajustar manualment l'alçada i l'amplada per a una presentació òptima.",
     },
     header_title: {
       title: "terme títol",
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "terme mode",
       description:
-        "terme variants a terme terme opcions, terme per terme terme.",
+        "Variants compactes en opcions separades seleccionables, adequades per a la majoria dels casos.",
     },
     select: {
       title: "selecciona mode",
       description:
-        "terme tot variants a un terme, terme per un terme terme de variants.",
+        "Mostra totes les variants en un desplegable, ideal per a un gran nombre de variants.",
     },
   },
 
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "estableix terme estableix... (opcional)",
         messages:
-          "tu pot terme terme per el terme i terme comanda.",
+          "Podeu proporcionar suggeriments sobre els valors i personalitzar l'ordre.",
       },
     },
   },
@@ -7837,7 +7837,7 @@ export default {
     },
     detail: {
       subtitle:
-        "terme un terme de terme informació terme teu client. si us plau terme teu client terme.",
+        "Manteniu un registre de la informació personal del vostre client. Si us plau, respecteu la privadesa del vostre client.",
     },
     preferences: {
       subtitle: "estableix predeterminat usuari moneda, client terme, i terme terme.",
@@ -8018,32 +8018,32 @@ export default {
       inputs: {
         name: {
           label: "banc terme",
-          message: "el terme terme de el banc terme el compte és terme.",
+          message: "El nom complet del banc on es manté el compte.",
         },
         holder_name: {
           label: "compte terme terme",
           message:
-            "el terme terme de el terme o terme allò terme el compte.",
+            "El nom complet de la persona o entitat que té el compte.",
         },
         account_number: {
           label: "Número de compte",
           message:
-            "el terme terme terme amb el terme banc compte.",
+            "El número únic associat al compte bancari específic.",
         },
         routing_number: {
           label: "terme terme (USA) o terme codi (UK)",
           message:
-            "un terme allò terme el terme banc terme (terme terme són terme a terme països).",
+            "Un número que identifica l'oficina bancària específica (s'utilitzen diferents termes en diferents països).",
         },
         swift: {
           label: "SWIFT/BIC codi",
           message:
-            "un terme codi terme a terme banc terme, terme per terme transferència.",
+            "Un codi internacional utilitzat per identificar bancs a nivell mundial, especialment per a transferències internacionals.",
         },
         iban: {
           label: "IBAN (terme banc compte terme)",
           message:
-            "terme terme a terme, el IBAN és un terme terme terme per terme banc comptes terme terme terme.",
+            "Usat principalment a Europa, l'IBAN és un sistema acordat internacionalment per identificar comptes bancaris a través de les fronteres nacionals.",
         },
         contact: {
           label: "Informació de contacte",
@@ -8520,7 +8520,7 @@ export default {
     manage: {
       title: "gestiona SMS",
       subtitle:
-        "tu pot veure el terme de el text missatge enviat per teu botiga terme. terme a el terme a terme el terme terme a el terme servei, això és no terme a terme el text missatge a el terme.",
+        "Pots veure el contingut dels missatges de text enviats per la teva botiga aquí. Due to the limitation in registering the validation patterns in the messaging service, it is not possible to personalize the text messages at the moment.",
     },
 
     template: {
@@ -8571,7 +8571,7 @@ export default {
         auto_fill: {
           title: "automàtic terme terme",
           subtitle:
-            "tu pot terme terme de terme terme a el text i Selldone serà terme ells amb el terme terme.",
+            "Podeu utilitzar cadascun d'aquests paràmetres al text i Selldone els substituirà pel valor corresponent.",
         },
 
         sample: {
@@ -8587,7 +8587,7 @@ export default {
         auto_fill: {
           title: "automàtic terme terme",
           subtitle:
-            "tu pot estableix terme de terme terme com un terme, i Selldone serà terme ells amb el terme terme. això terme a terme el predeterminat terme com plantilles a teu SMS proveïdor per terme. a això terme, terme serà ser no terme a terme terme terme terme.",
+            "Podeu establir cadascun d'aquests paràmetres com a valor i Selldone els substituirà pel valor corresponent. Per simplificar, és millor definir els valors predeterminats com a plantilles al vostre proveïdor d'SMS. En aquest cas, no caldrà definir els valors dels paràmetres aquí.",
         },
         request: {
           title: "mostra terme",
@@ -8637,7 +8637,7 @@ export default {
     sync_action: {
       title: "Accions",
       subtitle:
-        "terme SMS serveis terme extra serveis terme terme, terme, i terme terme. tu pot terme teu terme o addicional informació a terme seu terme més terme.",
+        "Alguns serveis d'SMS ofereixen serveis addicionals com ara campanyes, màrqueting i altres funcions. Podeu sincronitzar els vostres contactes o informació addicional per utilitzar les seves funcions més ràpidament.",
       action: "terme terme",
     },
     tokens: {
@@ -8716,7 +8716,7 @@ export default {
         "si teu servei terme 100 error, això serà ser desactivat automàticament! tu pot terme error a terme això.",
 
       encryption_ports_guide:
-        "correu electrònic proveïdors terme oferta SSL, TLS, o terme terme terme a disponible terme. si terme terme a un error, terme el terme mode terme terme el terme. terme <b>TLS</b> terme terme: <b>587</b> i <b>SSL</b> terme terme: <b>465</b>.",
+        "Els proveïdors de correu electrònic poden oferir connexions SSL, TLS o sense xifrar en funció dels ports disponibles. Si la connexió provoca un error, canviar el mode de xifratge podria resoldre el problema. Port estàndard <b>TLS</b>: <b>587</b> i <b>SSL</b> port: <b>465</b>.",
 
       enable_receive_test:
         "després desa terme, tu serà terme un terme terme a <b>{email}</b>. desa terme abans terme un terme correu electrònic amb el nou configuració.",
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram terme canal",
     subtitle:
-      "crea un dedicat categoria per teu productes, terme amb imatges i terme, i terme això terme teu terme terme. això terme a Instagram i TikTok, terme amb terme terme, terme tu a terme terme teu productes.",
+      "Creeu una categoria dedicada als vostres productes, completa amb imatges i vídeos, i compartiu-la a les vostres xarxes socials. És similar a Instagram i TikTok, però amb un control total, que us permet vendre directament els vostres productes.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8978,19 +8978,19 @@ export default {
     has_restriction_input: {
       title: "té ubicació terme",
       description:
-        "clients pot només terme això producte terme el terme país i terme codi, terme a el terme ubicació terme.",
+        "Els clients només poden comprar aquest producte dins del país i el codi postal especificats, a causa de la restricció d'ubicació establerta.",
     },
     zip_pin_code: "terme / terme codi",
     no_country_selected_error:
       "si us plau terme a terme terme país terme amb un llista de terme/terme codi. terme això, això producte serà no ser disponible.",
     tips: "terme a el <b>+ afegeix país</b> terme a inici terme un nou ubicació estableix. terme terme terme, tu pot desa això per terme a el terme <b>⋮ terme</b> i selecciona <b>desa perfil</b>.",
     need_save_message:
-      "el ubicació terme configuració per el producte tenir estat terme. a terme terme terme, si us plau terme a el 'terme terme terme.",
+      "S'ha canviat la configuració de restricció d'ubicació del producte. Per conservar aquests canvis, feu clic al botó \"Desa\" a continuació.",
 
     add_dialog: {
       title: "afegeix país",
       message:
-        "tria un país i terme 'terme. això serà terme el país a el taula, terme tu a terme terme, terme codi, terme terme, o terme terme a això.",
+        "Trieu un país i feu clic a \"Afegeix\". Això afegirà el país a la taula i us permetrà assignar-hi codis postals, codis PIN, noms de ciutat o noms de regió.",
     },
     save_profile_dialog: {
       title: "afegeix ubicacions perfil",
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "mostra botiga",
       subtitle:
-        "terme, tu pot terme un terme de mostra botiga. tu són terme terme a terme el informació disponible a terme botiga. terme, si us plau terme des de terme a o terme comandes terme terme terme informació, com això dades serà ser terme a el públic. si tu terme terme teu informació terme, terme terme el botiga i terme a terme amb terme per terme terme.",
+        "Aquí podeu descobrir una selecció de botigues de mostres. Tens permís per llegir la informació disponible en aquestes botigues. Tanmateix, si us plau, s'abstingui d'iniciar sessió o fer comandes utilitzant informació personal real, ja que aquestes dades seran accessibles al públic. Si accidentalment introduïu la vostra informació aquí, sortiu de la botiga i poseu-vos en contacte amb nosaltres per obtenir més ajuda.",
     },
 
     add_new_store: "afegeix nou botiga",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Categories del blog",
     subtitle:
-      "tu pot crea un límit terme de categories per teu terme terme a gestiona ells més terme. terme un categoria límit terme terme terme a teu terme. terme, terme el terme nou terme terme un límit terme de categories, terme terme terme 100, a terme gestió i terme un terme terme.",
+      "Podeu crear un nombre limitat de categories per a les publicacions del vostre bloc per gestionar-les de manera més eficient. Tenir un límit de categoria promou una millor organització al vostre lloc web. Notably, even the top news agencies maintain a limited number of categories, often fewer than 100, to streamline management and maintain a broader focus.",
 
     add_action: "Afegeix una nova categoria",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "terme terme terme",
     subtitle:
-      "terme és el llista de terme terme estableix per terme terme. tu tenir el terme a terme terme terme i terme producte descripció a ser terme a terme hora.",
+      "Aquí teniu la llista d'articles programats per a publicacions futures. Teniu la possibilitat de programar publicacions de bloc i fins i tot descripcions de productes per publicar-se en moments concrets.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Auxiliar de comandes",
     subtitle:
-      "exporta i descarrega terme per terme comanda terme - terme per terme terme 100 comandes terme.",
+      "Exporteu i descarregueu etiquetes per al processament de comandes a granel, ideal per gestionar més de 100 comandes diàries.",
 
     timespan: {
       title: "Període de temps",
@@ -9266,7 +9266,7 @@ export default {
       title: "Mètodes d'inici de sessió",
       subtitle: "Personalitzeu la manera com els usuaris inicien sessió a la vostra botiga.",
 
-      tips: "<b>terme.</b> terme un usuari terme amb teu botiga, un terme Selldone usuari és creat, si terme terme terme terme. això usuari serà tenir accés a seu adreça terme terme tot botiga i pot visualitza seu comanda terme, terme si un botiga té terme. nosaltres terme no terme això informació per terme terme terme terme això a terme terme a terme terme. a terme terme, terme terme un correu electrònic a el usuari terme ells de seu terme.",
+      tips: "<b>Important.</b> Quan un usuari es registra a la teva botiga, es crea un usuari de Selldone corresponent, si encara no n'hi ha. Aquest usuari tindrà accés a la seva llibreta d'adreces a totes les botigues i podrà veure el seu historial de comandes, encara que una botiga hagi tancat. No utilitzem aquesta informació amb finalitats de màrqueting, però la necessitem per evitar fraus per ambdues parts. Per mantenir la transparència, enviarem un correu electrònic a l'usuari informant-li del seu registre.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "terme terme terme",
     message:
-      "terme teu terme 3 negoci terme a terme i terme a Selldone. això informació serà ser terme terme amb terme i terme i serà ser terme terme. tu pot terme actualitza teu terme terme hora després terme.",
+      "Identifiqueu les 3 principals necessitats empresarials per prosperar i obtenir beneficis amb Selldone. Aquesta informació es compartirà directament amb els fundadors i directors i es considerarà acuradament. També podeu actualitzar les vostres necessitats amb el temps després de l'enviament.",
     expand_action: "escriptura el terme...",
     input_label: "teu terme",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "terme a equip",
     },
     placeholder: {
-      ceo: "terme no terme a ser terme, jo terme a terme teu terme, terme terme.\nterme.terme. jo terme a tenir...",
-      team: "si us plau terme a ser terme a ells.\nterme.terme. jo terme a tenir...",
+      ceo: "No cal ser amable, m'agrada escoltar la teva pregunta directa i directa.\np. ex. Necessito tenir...",
+      team: "Si us plau, intenta ser amable amb ells.\np. ex. Necessito tenir...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "terme importa productes",
     message:
-      "nosaltres són a el terme de importa productes i imatges, terme terme terme terme hora a terme.",
+      "Estem en procés d'importació de productes i imatges, que pot trigar una mica a completar-se.",
   },
 
   /**
@@ -9558,7 +9558,7 @@ export default {
       auto_confirm_disable_msg:
         "automàtic terme de comandes és no activat.",
       shipping_enable_msg:
-        "el enviament terme serà ser terme terme a el informació terme a terme.",
+        "El cost d'enviament es calcularà en funció de la informació proporcionada a la compra.",
     },
     detail: {
       title: "Connect terme",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "terme terme",
         subtitle:
-          "intern terme detalls. això informació és terme després un terme terme terme correctament fi.",
+          "Detalls de sincronització interna. Aquesta informació es desa després d'acabar amb èxit una època de procés de sincronització.",
         no_data: "no terme informació!",
       },
     },
@@ -9595,7 +9595,7 @@ export default {
       service: {
         title: "servei",
         subtitle:
-          "selecciona terme terme, terme terme, o mercat a terme.",
+          "Seleccioneu la plataforma objectiu, el proveïdor de dropshipping o el mercat per connectar-vos.",
       },
       test: {
         false_title: "terme tot",
@@ -9618,7 +9618,7 @@ export default {
       order: {
         title: "comanda estat",
         subtitle:
-          "terme el terme servei comanda gestió configuració per teu botiga. això terme terme terme comanda terme, terme automàtic comanda terme (si terme), i terme enviament terme terme.",
+          "Configureu la configuració de gestió de comandes del servei connectat per a la vostra botiga. Això inclou configurar l'acceptació de la comanda, activar la confirmació automàtica de la comanda (si és compatible) i configurar els càlculs de costos d'enviament.",
       },
       enable: {
         label: "Connect estat",
@@ -9634,7 +9634,7 @@ export default {
 
       shipping: {
         label: "Enviament",
-        tips: "això servei oferta enviament terme, terme pot ser activat o desactivat com terme teu terme. si activat, terme terme terme amb 3terme terme serveis serà ser obligatori, terme terme terme un terme de terme 300terme per terme el preu a el terme pàgina.",
+        tips: "Aquest servei ofereix càlcul d'enviament, que es pot activar o desactivar segons les vostres preferències. Si està activat, es requeriran API de càlcul de costos amb serveis de tercers, cosa que pot provocar un retard de més de 300 ms per actualitzar el preu a la pàgina de pagament.",
         false_title: "terme",
         false_desc:
           "terme meu enviament terme terme, a botiga > logística > terme per tot productes, terme importa terme.",
@@ -9658,7 +9658,7 @@ export default {
         "Connect teu negoci terme a extern serveis i gestiona tot canals a el terme terme.",
       action: "Connect nou serveis",
       empty_message:
-        "terme terme i terme per terme! Connect és el terme de terme comanda gestió.",
+        "Oblida't d'aplicacions i complements per a l'enviament directe! Connect és el futur de la gestió de comandes multiplataforma.",
       auto_confirm: "automàtic confirma",
       shipping: "Enviament",
       syncing_now: "terme ara!",
@@ -9699,7 +9699,7 @@ export default {
     title: "Pàgines de destinació",
     add_new_action: "afegeix nou pàgina",
     subtitle:
-      "crea terme, terme personalitzat pàgines per teu terme terme un terme terme terme terme, i automàticament terme terme terme per canal a dades.",
+      "Creeu pàgines personalitzades distintives i responsives per a la vostra marca mitjançant un editor en línia versàtil basat en IA i genereu automàticament contingut dinàmic introduint dades.",
     empty_message: "disseny personalitzat pàgines per arrossega & deixa...",
   },
 
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "etiqueta terme",
       subtitle:
-        "Google terme terme terme de terme ROI terme terme terme, terme, i terme terme terme i terme. gestiona terme etiquetes terme amb Google etiqueta terme terme, terme, i terme terme—no codi edita obligatori.",
+        "Google Analytics permet mesurar el retorn de la inversió dels anuncis mentre es fa el seguiment de llocs i aplicacions de Flash, vídeos i xarxes socials. Gestioneu les etiquetes de llocs web sense esforç amb les solucions gratuïtes, senzilles i fiables de Google Tag Manager, sense necessitat d'edició de codi.",
       tag_id: {
         label: "Google etiqueta terme ID",
       },
@@ -9791,7 +9791,7 @@ export default {
       title: "Google terme",
       subtitle:
         "dades terme terme el terme de teu terme informació a Google. terme això enllaç a automàticament afegeix tot productes i categories a Google terme.",
-      tips: "tu pot terme això terme a terme i automàticament gestiona Google terme.",
+      tips: "Podeu utilitzar aquesta eina per gestionar automàticament i sense esforç els anuncis de Google.",
       link_message: "Google productes canal URL",
     },
     console: {
@@ -9805,15 +9805,15 @@ export default {
     serp: {
       title: "Google SERP & terme",
       subtitle:
-        "nosaltres terme el terme terme SEO terme dades des de Google i terme això a tu a un terme terme. terme terme el terme terme.",
+        "Obtenim les dades d'auditoria de SEO més precises de Google i us les presentem d'una manera còmoda. Simplement seguiu els passos indicats.",
     },
     serp_content: {
       title: "Connect a Google cerca terme",
       subtitle:
-        "Connect teu botiga a el cerca terme i inici terme terme, terme, i terme terme SEO terme a Selldone.",
+        "Connecteu la vostra botiga a la consola de cerca i comenceu a explorar paraules clau, classificacions i altres eines de SEO gratuïtes a Selldone.",
       tips: {
         title:
-          "terme a enllaç Selldone amb Google cerca terme, terme el terme:",
+          "Abans d'enllaçar Selldone amb Google Search Console, assegureu-vos del següent:",
         add_in_selldone: "afegeix, terme, i estableix com primari teu personalitzat domini.",
         add_in_google: "afegeix i terme <b>{domain}</b> a teu<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google cerca terme</b></a>.",
       },
@@ -10013,7 +10013,7 @@ export default {
   payment_delivery_dialog: {
     title: "client lliurament terme",
     message:
-      "terme pagament serveis terme terme allò el comanda té estat terme a el client. nosaltres terme terme això terme terme el terme terme de comanda terme terme nosaltres terme el client lliurament terme. terme, si tu terme a terme això acció terme, tu pot terme terme terme.",
+      "Alguns serveis de pagament requereixen la confirmació que la comanda s'ha lliurat al client. Normalment enviem aquesta confirmació durant el pas final del compliment de la comanda quan rebem la confirmació de lliurament del client. Tanmateix, si necessiteu realitzar aquesta acció manualment, podeu fer-ho aquí.",
     verify: {
       title: "terme lliurament",
       description:
@@ -10036,7 +10036,7 @@ export default {
       target: {
         title: "terme producte",
         subtitle:
-          "tria el productes terme terme a terme com terme opcions terme això producte.",
+          "Trieu els productes que voleu promocionar com a opcions de venda creuada al costat d'aquest producte.",
         select_products: "selecciona producte(terme)",
       },
       list: {
@@ -10047,20 +10047,20 @@ export default {
       discount: {
         title: "descompte & missatge",
         subtitle:
-          "tu tenir el opció a terme un missatge i oferta un descompte a terme clients a terme el seleccionat addicional elements. terme terme pot terme terme terme i terme el terme terme terme.",
+          "Tens l'opció d'incloure un missatge i oferir un descompte per motivar els clients a comprar els articles addicionals seleccionats. Aquests incentius poden ajudar a impulsar les vendes i millorar l'experiència general de compra.",
         amount_input: {
           message:
             "el descompte terme serà ser terme a el producte preu després terme terme compte tot terme descompte.",
         },
         mismatch_type_warning:
-          "descompte terme ser terme a terme terme terme el principal producte terme, com el terme i terme elements serà no ser terme a un terme terme.",
+          "Els descomptes no es poden aplicar a altres tipus a més dels tipus de productes principals, ja que els articles d'origen i de destinació no es col·locaran a la mateixa cistella.",
         not_support_subscription_type_warning:
-          "terme descompte per terme terme productes és no terme, com el preus terme terme ser terme terme.",
+          "No és possible establir descomptes per a productes de subscripció de venda creuada, ja que els plans de preus no es poden ajustar dinàmicament.",
         message_input: {
           message:
-            "terme un terme i terme títol a terme terme terme.",
+            "Crea un títol convincent i atractiu per captar l'atenció dels clients.",
           placeholder:
-            "terme & desa: terme teu terme amb terme terme terme!",
+            "Empaqueta i estalvia: completa el teu look amb la nostra selecció seleccionada!",
         },
       },
       action: {
@@ -10082,7 +10082,7 @@ export default {
     },
     values: {
       title: "variant terme",
-      subtitle: "terme el terme terme per terme variant opció terme.",
+      subtitle: "Introduïu aquí els valors possibles per a cada opció de variant.",
       prevent_duplicates_tips:
         "<b>nota:</b> nosaltres automàticament terme per terme variants a terme terme.",
     },
@@ -10100,7 +10100,7 @@ export default {
     AddToCart: {
       title: "Afegeix a la cistella",
       description:
-        "terme el afegeix a terme terme terme. nota allò això és no terme per terme productes.",
+        "Mostra directament el botó Afegeix a la cistella. Tingueu en compte que això no és aplicable als productes de subscripció.",
     },
     ViewProduct: {
       title: "Veure producte",
@@ -10115,7 +10115,7 @@ export default {
 
   product_flow: {
     title: "terme terme",
-    subtitle: "això és el terme terme i terme terme de teu producte.",
+    subtitle: "Aquest és el flux de compra i el control de salut del vostre producte.",
 
     /**
      * @see BProductFlowRowConnect
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "terme terme preus terme",
       subtitle:
-        "això producte té no terme preus terme. tu terme a afegeix a terme terme terme preus terme a guanya això producte disponible per terme terme.",
+        "Aquest producte no té plans de preus de subscripció. Heu d'afegir almenys un pla de preus de subscripció per fer que aquest producte estigui disponible per a la compra d'una subscripció.",
       pricing_plans: "preus terme",
     },
 
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "no terme",
       },
       available_countries_msg:
-        "terme terme terme a {count} països. terme països són {countries}.",
+        "Compres globalment restringides a {count} països. Aquests països són {countries}.",
       disable_for_all_countries_msg:
         "terme és desactivat per tot països a teu botiga > ubicacions terme.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "això producte terme a <b>{vendor}</b>.",
       has_vendors_msg: "terme és {count} venedors per això producte.",
       no_vendor_msg:
-        "tu terme terme un venedor a això producte, terme clients són terme a terme això.",
+        "No heu assignat cap venedor a aquest producte, de manera que els clients no poden comprar-lo.",
       add_vendors: "afegeix venedors",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "producte pàgina plantilla",
     subtitle:
-      "tu pot terme un pàgina terme teu producte pàgina per un terme terme. el terme terme és a crea pàgines terme un transparent fons i 1 a 3 terme terme a terme producte categoria. terme, terme terme pàgina a terme productes per un terme i terme terme.",
+      "Podeu inserir una pàgina a la pàgina del vostre producte per a una presentació millorada. L'enfocament òptim és crear pàgines amb un fons transparent i d'1 a 3 seccions adaptades a cada categoria de producte. A continuació, assigneu una pàgina a diversos productes per obtenir una visualització coherent i atractiva.",
     edit_page: "edita pàgina",
     list_of_pages: "llista de pàgines",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "tu pot terme terme un producte o un llista de productes a teu terme o terme terme pàgines per terme copia i terme el codi nosaltres terme. terme això terme és terme a això terme terme, nosaltres són terme terme a terme això terme terme terme és terme disponible terme. terme això terme oferta límit terme, nosaltres tenir terme a terme més plantilles i terme opcions a el terme.",
+      "Podeu incrustar fàcilment un producte o una llista de productes al vostre bloc o altres pàgines web simplement copiant i enganxant els codis que oferim. Tot i que aquesta funció encara es troba en les seves primeres etapes, estem treballant activament per ampliar la seva funcionalitat més enllà del que està disponible actualment en altres llocs. Tot i que actualment ofereix capacitats limitades, tenim previst introduir més plantilles i opcions de personalització en el futur.",
     card: {
       title: "terme",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "terme",
       description:
-        "terme el iframe codi a terme terme producte detalls a un terme terme.",
+        "Genereu el codi iframe per mostrar detalls complets del producte en una finestra incrustada.",
     },
   },
 
@@ -10288,9 +10288,9 @@ export default {
     },
     access: {
       customization_tips:
-        "<b>terme:</b> terme a terme element a terme el predeterminat lectura/escriptura accés. terme terme terme un accés terme terme a el principal botiga tauler.",
+        "<b>Personalització:</b> Feu clic a cada element per personalitzar l'accés de lectura/escriptura predeterminat. Cada fila representa un nivell d'accés corresponent al tauler principal de la botiga.",
       simplify_tips:
-        "<b>terme!</b> nosaltres terme el accés terme des de terme 300 a terme 10 terme. més terme i terme accés terme serà ser terme a el terme.",
+        "<b>Important!</b> Simplificam el control d'accés de més de 300 a menys de 10 nivells. A la documentació es publicaran nivells d'accés més detallats i actualitzats.",
       multi_permission_tips:
         "<b>personalitzat límits?</b> tu pot afegeix més accés a terme usuari, terme després afegeix el primer accés, crea addicional accés amb el terme terme.",
       view_data: "visualitza dades",
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "producte etiquetes",
         messages: "productes amb terme etiquetes serà ser mostra.",
-        placeholder: "terme etiquetes terme i terme terme. terme. nou terme",
+        placeholder: "Envieu les etiquetes aquí i premeu Intro. ex. nova col·lecció",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>terme cerca:</b>cerca per títol, MPN, SKU, terme, o etiquetes.",
       product:
-        "<b>terme producte ID:</b>terme P+Product ID a terme un terme producte, terme.terme., <b class=\"text-green\">terme</b><i class=\"text-yellow\">360</i>.",
+        "<b>Identificador exacte del producte: </b>Feu servir P+ID de producte per trobar un producte específic, per exemple, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>terme terme:</b>terme terme terme a cerca per un terme terme, terme.terme., <b class=\"text-green\">\"</b><i class=\"text-yellow\">teu text terme</i><b class=\"text-green\">\"</b>.",
+        "<b>Frase exacta: </b>Feu servir cometes per cercar una frase exacta, per exemple, <b class=\"text-green\">\"</b><i class=\"text-yellow\">el vostre text aquí</i><b class=\"text-green\">\"</b>.",
       tax: "<b>impost perfil:</b>cerca per productes amb un terme impost perfil terme \"impost:\", terme.terme., <b class=\"text-green\">impost:</b><i class=\"text-yellow\">impost perfil terme</i>.",
       new_products:
-        "<b>nou productes:</b>terme productes afegeix terme un terme data terme, terme.terme., <b class=\"text-green\">nou~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Nous productes: </b>Cerca productes afegits dins d'un interval de dates específic, per exemple, <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20.</i>",
     },
   },
 
@@ -10391,15 +10391,15 @@ export default {
     help_dialog: {
       title: "terme a terme terme terme",
       how_it_works_tips:
-        "a el terme pàgines, tu tenir el terme a terme terme terme per terme text i imatges. terme terme terme un terme terme a terme el terme terme a el terme. el terme terme de terme terme terme ells a ser terme per terme terme, terme pot terme terme a terme terme. per terme, el terme terme terme ser terme per terme producte o categoria. el terme terme de això terme terme terme terme terme tu tenir un terme de elements amb terme terme. tu pot terme terme terme terme terme a terme i terme el terme de terme element, terme terme un terme i terme terme a teu terme pàgines.",
+        "A les pàgines de destinació, teniu la flexibilitat de designar marcadors de posició dinàmics tant per al text com per a les imatges. Aquests marcadors de posició tenen un paper important a l'hora de personalitzar el contingut segons el context.   La naturalesa dinàmica d'aquests marcadors de posició permet omplir-los amb valors d'augment, que poden variar en funció de diferents factors. Per exemple, els valors d'augment poden ser diferents per a cada producte o categoria. El veritable avantatge d'aquesta característica entra en joc quan teniu una varietat d'articles amb diferents atributs. Podeu utilitzar de manera efectiva aquests marcadors de posició dinàmics per personalitzar i millorar la visualització de cada element, creant així una experiència única i interactiva a les vostres pàgines de destinació.",
       assign_tips:
-        "a terme terme terme a imatges, terme a el terme terme terme a el terme terme de el terme.",
+        "Per assignar valors dinàmics a les imatges, feu clic al botó d'alimentació situat a la part esquerra de la secció.",
       set_dynamic_image_tips:
-        "tu ara tenir el terme a terme el imatge URL i terme això un terme terme.",
+        "Ara teniu la possibilitat de modificar l'URL de la imatge i assignar-li un valor dinàmic.",
       enter_values_tips:
-        "per terme producte, tu tenir el terme a terme dedicat terme terme.",
+        "Per a cada producte, teniu la possibilitat d'assignar parells clau-valor dedicats.",
       result_tips:
-        "això és el terme terme de el pàgina, terme terme tenir estat terme amb terme terme.",
+        "Aquest és el resultat final de la pàgina, on els marcadors de posició s'han substituït per valors augmentats.",
     },
   },
 
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "terme terme",
       subtitle:
-        "això és el llista de terme terme. tu pot estableix terme terme per el logística perfil a terme terme.",
+        "Aquesta és la llista d'idiomes de contingut. Podeu configurar contingut diferent per al perfil logístic en cada idioma.",
       add_caption: "afegeix nou terme",
       no_more_language: "no més terme!",
     },
     content: {
       title: "terme",
       subtitle:
-        "tu pot terme el terme per el logística perfil a terme terme.",
+        "Podeu personalitzar el contingut del perfil logístic en diversos idiomes.",
 
       language_input: "actual terme terme",
       delete_article: "suprimeix terme",
@@ -10476,13 +10476,13 @@ export default {
     title: "logística perfils",
     add_caption: "afegeix nou perfil",
     subtitle:
-      "tu pot crea i edita el terme i retorn terme per productes terme i terme això a terme productes. tu pot terme terme terme terme per terme terme de productes.",
+      "Podeu crear i editar la garantia i la política de devolució dels productes aquí i assignar-la a qualsevol producte. Podeu definir diferents polítiques de garantia per a diferents tipus de productes.",
     add_dialog: {
       title: "crea nou logística perfil",
       config: {
         title: "terme informació",
         subtitle:
-          "tria el perfil terme. això pot ser un terme, terme, o terme terme terme i terme terme terme terme terme productes.",
+          "Choose the profile type. Pot ser una guia, una garantia o qualsevol altre contingut i material compartit habitualment entre diversos productes.",
       },
       article: {
         title: "terme",
@@ -10533,13 +10533,13 @@ export default {
 
     title: "inclòs element",
     subtitle:
-      "tria un terme títol, terme amb 2 a 3 terme a terme. terme terme imatges, com nosaltres serà terme puja terme a un 256terme256 terme terme. per el terme terme terme tot plantilles, terme terme imatges amb transparent fons i terme un terme terme terme teu productes.",
+      "Trieu un títol breu, idealment amb 2 o 3 paraules com a màxim. Utilitzeu imatges quadrades, ja que canviarem la mida automàticament de les imatges penjades a un format quadrat de 256 x 256. Per obtenir la millor aparença en totes les plantilles, utilitzeu imatges minimalistes amb fons transparents i manteniu un patró uniforme als vostres productes.",
     inputs: {
       title: {
         placeholder: "terme títol mostrat a producte pàgina...",
       },
       code: {
-        placeholder: "terme codi, terme. terme_terme_terme",
+        placeholder: "Codi únic, ex. mòbil_cable_usb",
         hint: "terme això codi a terme el cerca terme per terme elements.",
       },
       description: {
@@ -10650,13 +10650,13 @@ export default {
     intro: {
       title: "terme el Selldone afiliat terme",
       message:
-        "el Selldone afiliat terme és terme i terme, disseny per tu a terme terme. terme teu terme afiliat enllaç a terme nou usuaris a Selldone, i terme terme un comissió des de terme transacció terme guanya—terme. això terme terme des de terme, servei comissions, botiga terme, i tot terme terme terme. inici terme un terme de el terme terme terme límits a hora o terme. terme terme i terme teu terme terme un terme terme!",
+        "El programa d'afiliats de Selldone és senzill i directe, dissenyat perquè guanyis sense esforç. Comparteix el teu enllaç d'afiliat únic per convidar usuaris nous a Selldone i guanyaràs una comissió de cada transacció que facin, per sempre. Això inclou els guanys de les subscripcions, les tarifes de servei, les actualitzacions de la botiga i totes les altres fonts d'ingressos. Comenceu a guanyar una part dels ingressos sense cap límit de temps ni de guanys. Uneix-te a nosaltres i converteix la teva xarxa en un ingressos constant!",
       why_join_selldone_affiliate: "terme és això un terme terme?",
       reasons: [
         "això últim terme!",
         "terme tot terme i transacció comissions. terme terme pagament de el usuari a Selldone.",
-        "nosaltres terme un terme $99 terme a terme terme terme terme teu enllaç.",
-        "terme teu terme terme, tu serà terme a el nou terme des de tot terme terme usuaris.",
+        "Enviem un val $99 gratuït a qualsevol persona que es registri mitjançant el vostre enllaç.",
+        "Quan el vostre nivell s'actualitzi, guanyareu a la nova tarifa de tots els usuaris referits anteriorment.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "terme estil",
       subtitle:
-        "terme això terme a terme estil terme com font, fons, terme, i terme. terme terme terme a terme estil:",
+        "Utilitzeu aquesta eina per replicar estils com fonts, fons, marges i vores. Seguiu aquests passos per duplicar estils:",
       step_1:
-        "terme el terme i terme teu terme terme text, terme, o imatges; el terme serà terme a un terme.",
+        "Activeu l'eina i passeu el ratolí sobre text, columnes o imatges; el cursor canviarà a una pipeta.",
       step_2: "terme a el terme terme estil tu vols a copia.",
       step_3:
-        "el terme serà terme terme a un terme; terme a el terme terme tu vols a aplica el terme estil.",
+        "El cursor tornarà a canviar a una paleta; feu clic a l'element on voleu aplicar l'estil copiat.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "terme el terme de el terme terme, terme terme tot terme categories per terme teu pàgina.",
+        "Commuteu la visibilitat del menú lateral, que inclou totes les categories de seccions per crear la vostra pàgina.",
     },
     sort_tooltip: {
       subtitle:
-        "terme això terme a terme terme i terme terme per terme ells.",
+        "Activeu aquesta funció per reorganitzar i organitzar fàcilment les seccions arrossegant-les.",
     },
     edit_mode_tooltip: {
       title: "edita / terme mode",
@@ -10703,7 +10703,7 @@ export default {
     repository_tooltip: {
       title: "terme terme",
       subtitle:
-        "terme el terme de terme terme. terme terme són creat terme el terme terme disponible a el terme terme, terme el terme de això pàgina terme.",
+        "Commuta la visualització de les seccions predissenyades. Aquestes seccions es creen utilitzant les seccions estàndard disponibles al menú de l'esquerra, mostrant la flexibilitat d'aquest creador de pàgines.",
     },
     live_view: {
       title: "en directe terme",
@@ -10712,14 +10712,14 @@ export default {
     hotkeys_dialog: {
       title: "terme terme",
       augment_tips:
-        "tu pot terme terme terme terme teu pàgina i terme això amb <b>terme</b> terme. terme és terme per personalitzat terme pàgines terme com <b>productes</b>, <b>categories</b>, i <b>terme elements</b>. a estableix un imatge a terme terme, terme a <b>terme</b> i selecciona <b>terme terme</b> per allò imatge.",
+        "Podeu carregar contingut dinàmic a la vostra pàgina i substituir-lo per valors <b>augment</b>. Augment s'utilitza per a pàgines dinàmiques personalitzades com ara <b>Productes</b>, <b>Categories</b> i <b>Inclou elements</b>. Per configurar una imatge perquè es carregui dinàmicament, feu clic a <b>Feeder</b> i seleccioneu <b>Dynamic Source</b> per a aquesta imatge.",
     },
     hotkeys: {
-      ctrl_b: "terme terme a/terme per seleccionat text | <b>guanya terme terme</b>",
-      ctrl_i: "terme terme a/terme per seleccionat text | <i>guanya terme terme</i>",
+      ctrl_b: "Activa/desactiva la negreta per al text seleccionat | <b>Fes-me atrevit</b>",
+      ctrl_i: "Activa/desactiva la cursiva per al text seleccionat | <i>Fes-me en cursiva</i>",
       ctrl_l:
-        "terme terme a/terme per seleccionat text | <s>terme terme terme</s>",
-      ctrl_u: "terme terme a/terme per seleccionat text | <u>terme terme</u>",
+        "Activa/desactiva el ratllat per al text seleccionat | <s>Entraveu-me</s>",
+      ctrl_u: "Activa/desactiva el subratllat per al text seleccionat | <u>subratlla'm</u>",
       ctrl_1:
         "terme font mida de seleccionat text | <small>guanya terme terme</small>",
       ctrl_2: "terme font mida de seleccionat text | <big>guanya terme terme</big>",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Configuració",
         subtitle:
-          "tu pot desa terme terme per terme terme a teu pàgina disseny. terme terme terme serà ser terme a tot terme a això botiga.",
+          "Podeu desar seccions dissenyades a mida per a un ús futur als dissenys de les vostres pàgines. Aquestes seccions desades seran accessibles per a tots els administradors d'aquesta botiga.",
       },
       image: {
         title: "Imatge",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Codi",
         subtitle:
-          "tu pot copia i terme el terme codi des de el terme terme terme a el pàgina terme.",
+          "Podeu copiar i enganxar el codi de l'element des de les seccions del costat esquerre del creador de pàgines.",
       },
       inputs: {
         title: {
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "terme terme obligatori!",
     subtitle:
-      "teu actual terme terme no terme el terme de teu seleccionat negoci terme. si us plau terme teu terme a el terme terme.",
+      "La vostra llicència actual no compleix els requisits del vostre model de negoci seleccionat. Actualitzeu la vostra llicència al pla Enterprise.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "terme accions",
     subtitle:
-      "tu pot terme un estat actualitza correu electrònic a el terme amb terme terme terme. terme, tu pot terme terme missatge terme a terme, terme tu terme tenir a terme ells terme hora.",
+      "Podeu enviar un correu electrònic d'actualització d'estat al comprador amb només un clic. A més, aquí podeu definir missatges comuns per reutilitzar-los, de manera que no els haureu de reescriure cada vegada.",
     send_update_email_action: "terme actualitza correu electrònic",
     add_template_action: "afegeix missatge plantilla",
 
@@ -10897,7 +10897,7 @@ export default {
     title: "terme terme",
     add_source_action: "afegeix terme terme",
     subtitle:
-      "terme terme extern terme a terme i terme terme terme teu negoci des de terme terme Facebook, Google, i més. terme automàticament terme clients a seu terme per un terme client terme. tu pot terme terme terme terme a teu terme pàgines i producte pàgines.",
+      "Connecteu fàcilment plataformes externes per recopilar i analitzar ressenyes sobre la vostra empresa de fonts com Facebook, Google i més. Automàticament relacionarem els clients amb les seves ressenyes per millorar l'experiència del client. També podeu mostrar aquestes ressenyes a les vostres pàgines de destinació i pàgines de productes.",
   },
 
   /**
@@ -10931,7 +10931,7 @@ export default {
     title: "caixes",
     add_action: "afegeix caixa",
     subtitle:
-      "crea terme caixa mida a terme terme terme terme i terme terme enviament terme. terme terme un comanda, selecciona un terme caixa i això terme serà terme.",
+      "Creeu mides de caixes reutilitzables per accelerar les compres d'etiquetes i garantir tarifes d'enviament precises. En complir una comanda, seleccioneu una casella desada i les seves dimensions s'ompliran automàticament.",
     empty: "no caixes terme. terme “afegeix caixa”.",
     edit: "edita caixa",
     new: "nou caixa",
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"llistat",
-    message:"crea un terme, terme terme per terme terme de llistat—propietats, terme, terme, serveis, i més."
+    message:"Creeu un directori moderat i on es pugui cercar per a qualsevol tipus de llista: propietats, hotels, metges, serveis i molt més."
   },
 
   shop_listing: {
     name: "llistat",
     message:
-      "crea un terme, terme terme per terme terme de llistat—propietats, terme, terme, serveis, i més.",
+      "Creeu un directori moderat i on es pugui cercar per a qualsevol tipus de llista: propietats, hotels, metges, serveis i molt més.",
 
     items: {
       title: "Elements",
@@ -11017,7 +11017,7 @@ export default {
     categories: {
       title: "categories",
       sub_title:
-        "terme teu terme amb categories i terme. això terme terme i terme.",
+        "Organitzeu el vostre directori amb categories i subcategories. Això millora la navegació i el filtratge.",
 
       empty_title: "no categories terme",
       empty_subtitle:
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "terme",
       sub_title:
-        "terme terme elements i terme terme terme terme: terme, terme, rebutja, terme, o terme a pendent.",
+        "Reviseu els elements enviats i decidiu què passarà a continuació: aprovar, publicar, rebutjar, arxivar o restablir a pendents.",
 
       empty_title: "no elements a terme",
       empty_subtitle:
-        "terme usuaris terme nou elements, terme serà terme terme per terme.",
+        "Quan els usuaris enviïn elements nous, apareixeran aquí per a la moderació.",
 
       review_title: "terme element",
       approve_publish: "terme & terme",
@@ -11244,14 +11244,14 @@ export default {
       subtitle: "disseny terme clients cerca teu llistat. terme terme cerca i terme terme des de teu personalitzat formulari camps.",
 
       location_title: "ubicació cerca",
-      location_subtitle: "terme clients a terme un ubicació i terme terme terme terme un terme terme.",
+      location_subtitle: "Permet als clients triar una ubicació i trobar resultats propers dins d'un radi configurable.",
       location_enabled_true: "ubicació terme és activat. clients pot cerca per distància.",
       location_enabled_false: "ubicació terme és desactivat. terme serà no ser terme per distància.",
 
       radius_default: "predeterminat terme (terme)",
-      radius_default_hint: "terme terme el client selecciona un ubicació terme terme no terme un terme.",
+      radius_default_hint: "S'utilitza quan el client selecciona una ubicació però no tria un radi.",
       radius_max: "màxim terme (terme)",
-      radius_max_hint: "el terme terme serà ser terme a això terme.",
+      radius_max_hint: "El radi de l'aparador es fixarà a aquest valor.",
       radius_options: "terme opcions (terme)",
       radius_options_hint: "terme terme pot ser mostrat com terme opcions a el terme UI.",
 
@@ -11916,8 +11916,8 @@ export default {
         "personalitzat terme per terme terme.",
         "un terme terme opció.",
         "no límits a terme, per el terme usuari.",
-        "un terme terme per terme, terme a 4 membres.",
-        "disseny per terme terme terme terme.",
+        "Un pla especial per a famílies, fins a 4 membres.",
+        "Dissenyat per a professionals que busquen eines avançades.",
       ],
     },
 
@@ -11980,12 +11980,12 @@ export default {
         "terme tu per terme terme botiga.",
         "nosaltres terme tu terme teu nou terme!",
         "desa teu factura per terme terme.",
-        "terme terme terme per més terme productes.",
+        "Visita'ns de nou per obtenir més productes fantàstics.",
         "terme terme per terme oferta.",
         "terme tu per ser un terme client.",
         "terme terme a terme si tu terme terme.",
         "teu terme terme terme terme.",
-        "terme un terme descompte a teu terme terme.",
+        "Gaudeix d'un descompte especial en la teva propera compra.",
         "terme terme un terme terme!",
         "terme tu per teu terme a terme.",
         "terme terme a teu terme.",
@@ -12058,7 +12058,7 @@ export default {
         "terme serveis terme",
         "terme terme servei terme",
         "terme terme terme terme",
-        "terme terme terme per negoci terme",
+        "Contracte de consultoria experta per a empresaris",
         "servei terme per mercat configuració",
         "botiga terme i configuració serveis terme",
         "POD servei terme terme",
@@ -12119,7 +12119,7 @@ export default {
         "terme reemborsament a terme terme!",
         "terme terme per teu terme.",
         "terme reemborsament oferta terme per tu.",
-        "terme terme terme amb reemborsament terme.",
+        "Gaudeix de grans estalvis amb recompenses de devolució en efectiu.",
         "terme reemborsament a tot teu terme elements.",
         "desa més amb terme reemborsament terme.",
         "terme teu reemborsament a terme dies!",
@@ -12127,7 +12127,7 @@ export default {
         "terme el reemborsament terme avui!",
         "VIP membres terme terme reemborsament.",
         "terme! límit hora reemborsament oferta.",
-        "terme terme reemborsament terme terme ara.",
+        "Uneix-te al nostre Cashback Rewards Club ara.",
         "el més tu botiga, el més tu desa.",
         "terme el terme reemborsament terme.",
         "terme el terme reemborsament terme terme.",
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "terme a {shop} - terme terme terme terme de elements",
-        "{shop} - teu terme terme per terme terme i terme servei",
-        "terme terme i terme només a {shop} - terme el terme!",
-        "terme a terme {shop}'terme terme a terme i terme terme",
-        "terme un terme de el {shop} terme - terme a terme terme per actualitza",
-        "terme terme terme terme i terme terme a {shop}",
-        "terme terme i terme terme per tot terme a {shop}",
-        "terme oferta i terme terme a {shop} - terme terme!",
-        "{shop}'terme terme terme terme i producte terme - botiga amb terme",
-        "terme terme a {shop} - nosaltres terme a terme un terme terme terme",
+        "Benvingut a {shop} - Exploreu la nostra gamma distintiva d'articles",
+        "{shop} - La vostra font definitiva de mercaderia de qualitat i servei excepcional",
+        "Ofertes i estalvis exclusius només a {shop} - Aprofiteu l'oportunitat!",
+        "Coneix la dedicació de {shop} a l'ecològic i a les pràctiques ètiques",
+        "Forma part de la família {shop}: subscriu-te al nostre butlletí per rebre actualitzacions",
+        "Submergeix-te a les millors eleccions i productes amb molt bona qualificació a {shop}",
+        "Presenteu idees i suggeriments creatius per a tots els esdeveniments a {shop}",
+        "Ofertes inigualables i ofertes especials a {shop} - Actueu ràpidament!",
+        "Consells de compra integrals i avaluacions de productes de {shop} - Compreu amb confiança",
+        "Poseu-vos en contacte amb {shop}: ens esforcem per oferir una experiència de compra inigualable",
       ],
     },
 
@@ -12158,22 +12158,22 @@ export default {
     cross_selling: {
       message: [
         "terme teu terme, terme el estableix!",
-        "desa terme amb terme terme terme!",
+        "Estalvia molt amb les nostres ofertes de paquets!",
         "terme terme terme terme terme!",
         "terme teu terme, terme terme!",
         "terme terme terme, terme terme!",
         "terme elements, terme descompte!",
-        "terme més, terme terme – terme terme!",
+        "Aconseguiu més, gasteu menys: empaqueteu-vos!",
         "terme oferta: terme productes!",
         "terme teu terme, terme terme!",
-        "terme terme terme terme, desa ara!",
-        "terme això terme per el terme terme!",
+        "Descobreix les nostres combinacions seleccionades, estalvia ara!",
+        "Combina-ho per a la combinació definitiva!",
         "botiga terme, terme i desa!",
         "terme el terme, terme el terme!",
         "teu terme terme és terme – botiga ara!",
         "terme terme preus terme per tu!",
-        "terme teu terme amb terme terme!",
-        "terme teu terme amb terme terme!",
+        "Maximitzeu els vostres estalvis amb els nostres combos!",
+        "Millora la teva col·lecció amb aquestes opcions!",
         "terme per tu: terme i desa!",
         "el terme terme per un terme terme!",
         "terme teu terme per extra terme!",
@@ -12226,27 +12226,27 @@ export default {
         "element terme a terme",
       ],
       body: [
-        "terme {buyer_name}, teu comanda #{order_id} té estat confirma! terme terme això i serà terme tu terme això terme a terme.",
+        "Hola {buyer_name}, la teva comanda #{order_id} s'ha confirmat! L'estem processant i t'avisarem quan estigui a punt per enviar-lo.",
 
         "terme nou, {buyer_name}! teu comanda #{order_id} té estat terme. tu pot terme això terme teu compte. terme per terme amb terme!",
 
-        "terme {buyer_name}, teu comanda #{order_id} té estat correctament terme. nosaltres terme tu terme teu terme. terme tu!",
+        "Hola {buyer_name}, la teva comanda #{order_id} s'ha lliurat correctament. Esperem que gaudiu de la vostra compra. Gràcies!",
 
         "terme {buyer_name}, nosaltres tenir rebut el pagament per comanda #{order_id}. teu comanda és ara ser terme i serà ser terme aviat.",
 
-        "terme {buyer_name}, terme terme a terme tu allò teu comanda #{order_id} té estat terme. si tu tenir terme terme, si us plau terme terme.",
+        "Benvolgut {buyer_name}, ens sap greu informar-te que la teva comanda #{order_id} s'ha cancel·lat. Si teniu cap pregunta, poseu-vos en contacte amb el servei d'assistència.",
 
-        "terme {buyer_name}, terme terme un terme amb teu comanda #{order_id}. nosaltres terme per el terme i són terme a terme això com aviat com terme.",
+        "Benvolgut/da {buyer_name}, estem experimentant un retard amb la teva comanda #{order_id}. Demanem disculpes per les molèsties i estem treballant per solucionar-ho el més aviat possible.",
 
-        "terme {buyer_name}, teu comanda #{order_id} és terme a terme. si us plau terme teu compte o terme terme per terme detalls.",
+        "Hola {buyer_name}, la teva comanda #{order_id} està actualment en espera. Comproveu el vostre compte o poseu-vos en contacte amb el servei d'assistència per a més detalls.",
 
-        "terme {buyer_name}, teu comanda #{order_id} és terme per lliurament i terme terme tu aviat. terme tu per teu terme!",
+        "Hola {buyer_name}, la teva comanda #{order_id} ja s'ha de lliurar i t'hauria d'arribar aviat. Gràcies per la vostra paciència!",
 
         "terme {buyer_name}, nosaltres tenir terme el retorn per teu comanda #{order_id}. si tu tenir terme terme, si us plau terme terme.",
 
         "terme {buyer_name}, teu reemborsament per comanda #{order_id} té estat terme. tu terme veure el terme a teu compte aviat.",
 
-        "terme {buyer_name}, el element des de teu comanda #{order_id} és terme a terme! tu pot terme un nou comanda ara si terme terme terme.",
+        "Hola {buyer_name}, l'article de la teva comanda #{order_id} torna a estar en estoc! Podeu fer una nova comanda ara si encara esteu interessats.",
       ],
     },
 
@@ -12267,8 +12267,8 @@ export default {
         "terme",
       ],
       description: [
-        "terme per terme elements terme mida, color, i terme.",
-        "terme per terme terme com terme, terme, i terme.",
+        "Atributs per a articles de roba com la mida, el color i la tela.",
+        "Especificacions per a gadgets com ara la marca, el model i les funcions.",
         "terme, mida, i terme de terme.",
         "detalls per terme, terme, i terme productes.",
         "Material, terme, i disseny estil.",

@@ -23,15 +23,15 @@ export default {
     featured_apps: "Apl yang ditampilkan",
     more_apps: "Lebih banyak apl",
     my_public_profile: "Halaman profil awam saya",
-    product_admin: "butiran butiran",
+    product_admin: "Pentadbir Produk",
     make_money_affiliate: "Buat duit",
-    see_live_shop: "butiran butiran butiran",
-    see_live_product: "butiran butiran butiran",
-    has_inputs: "butiran butiran",
+    see_live_shop: "Lihat Kedai Langsung",
+    see_live_product: "Lihat Produk Langsung",
+    has_inputs: "Mempunyai Input",
     main_domain: "butiran Domain",
     domains: "Domain",
-    home_page: "butiran butiran",
-    google_icon_font_sample: "Google butiran butiran",
+    home_page: "Halaman Utama",
+    google_icon_font_sample: "Contoh fon Google",
     fontawesome_icon_font_sample: "Fontawesome (butiran) butiran",
   },
 
@@ -42,9 +42,9 @@ export default {
   error: {
     not_fount_data: "Data tidak ditemui!",
     license_max_limit: "Lesen anda mencapai had!",
-    no_read_access: "butiran butiran butiran",
-    no_write_access: "butiran butiran butiran",
-    no_access: "butiran butiran",
+    no_read_access: "Tiada akses baca",
+    no_write_access: "Tiada akses tulis",
+    no_access: "Tiada akses",
   },
 
   time_spans: {
@@ -58,9 +58,9 @@ export default {
     custom: "Adat",
   },
   device_types: {
-    desktop: "butiran",
+    desktop: "Desktop",
     mobile: "mudah alih",
-    tablet: "butiran",
+    tablet: "Tablet",
   },
 
   create_website_action: "Cipta tapak web anda — Ia percuma",
@@ -87,22 +87,22 @@ export default {
 
   ai: {
     remove_bg: {
-      title: "butiran butiran butiran butiran",
-      subtitle: "butiran butiran butiran",
+      title: "Alih Keluar Latar Belakang",
+      subtitle: "Buat latar belakang telus.",
     },
     reimagine: {
-      title: "butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran",
+      title: "Bayangkan semula",
+      subtitle: "Cipta lebih banyak imej dengan latar belakang baharu.",
     },
     upscale: {
-      title: "butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran",
+      title: "Kelas atasan",
+      subtitle: "Tingkatkan resolusi imej.",
     },
   },
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "Selldone ╏ butiran butiran butiran butiran butiran butiran butiran",
+    home: "Selldone ╏ Sistem Operasi Perniagaan Untuk Syarikat yang berkembang pesat",
     login: "log masuk",
     register: "Daftar",
     auth_2fa: "2 faktor Kesahihan 🔐",
@@ -241,18 +241,18 @@ export default {
     only_available: "Tersedia",
     view_mode: {
       normal: "Biasalah",
-      grid: "butiran",
+      grid: "Grid",
       list: "Senaraikan",
-      insta: "butiran",
+      insta: "Insta",
     },
   },
 
   /** {@see Helps} **/
 
   helps: {
-    title: "Selldone butiran butiran",
+    title: "Pusat Bantuan Seldone",
     subtitle:
-      "butiran butiran butiran Selldone butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran, butiran butiran butiran",
+      "Selamat datang ke Pusat Bantuan Selldone, panduan komprehensif anda untuk membina dan mengurus kedai dalam talian dalam sistem pengendalian perniagaan yang berkuasa. Terokai sumber, tutorial dan amalan terbaik kami untuk menyelaraskan persediaan kedai anda, memaksimumkan kecekapan dan memacu pertumbuhan.",
 
     add_new_help: "Bantuan Baru",
     resources: "Sumber",
@@ -289,11 +289,11 @@ export default {
   /** {@see InterestTopicsView} **/
 
   blogs: {
-    title: "butiran",
+    title: "Blog",
     subtitle:
       "Pelajaran untuk perniagaan, keyakinan dan pengetahuan yang anda perlukan untuk mencipta perniagaan yang berkembang maju.",
     add_new_blog: "Blog Baru",
-    popular: "butiran",
+    popular: "Popular",
     topics: "Topik",
     select_topics: "Pilih kerja anda.",
     select_job_topics: "Pilih topik berkaitan pekerjaan anda",
@@ -362,8 +362,8 @@ export default {
         payments: "Pembayaran",
         orders: "Pesanan",
         currency: "mata wang",
-        no_payment: "butiran butiran!",
-        no_purchase: "butiran butiran!",
+        no_payment: "Tiada bayaran!",
+        no_purchase: "Tiada pembelian!",
       },
     },
   },
@@ -395,24 +395,24 @@ export default {
       access: "Akses",
       pages: "muka surat",
       channels: "Saluran",
-      classification: "butiran",
+      classification: "Pengelasan",
       marketing: "Pemasaran",
       customers: "Pelanggan",
       logistic: "Logistik",
       auditing: "perakaunan",
       incentives: "Insentif",
       process_center: "Pesanan",
-      blog: "butiran",
+      blog: "Blog",
       products: "Produk",
       shops: "kedai",
       dashboard: "Papan pemuka",
-      autopilot: "butiran",
+      autopilot: "Autopilot",
       apps: "Apl",
       pos: "POS",
       seo: "SEO",
       localization: "Penyetempatan",
       crm: "CRM",
-      listing: "butiran",
+      listing: "Penyenaraian",
     },
 
     /** {@see BPageShopDashboard} **/
@@ -468,14 +468,14 @@ export default {
             "Anda boleh menentukan had IP rekod A untuk domain DNS atau subdomain daripada nilai berikut:",
           step2: "Tambahkan rekod TXT DNS:",
           set_ip_alert:
-            "butiran butiran IP butiran butiran butiran butiran <b> {ip} </b> - butiran butiran Domain butiran butiran butiran butiran butiran butiran CDN",
+            "Tetapkan nilai IP rekod A <b> {ip} </b> - Jika domain anda belum ditambahkan melalui CDN.",
 
           input_domain: "URL domain",
           correct: "Tetapan domain adalah betul.",
           set_message: "Tetapkan CNAME domain ini kepada {cname}.",
           input_domain_message: "Masukkan nama domain tanpa http dan https.",
           ssl_message:
-            "butiran butiran butiran butiran SSL butiran butiran butiran butiran butiran butiran butiran SSL butiran butiran butiran butiran CDN butiran butiran butiran Cloudflare",
+            "Jangan risau tentang sijil SSL untuk tapak web anda. Anda boleh mendapatkan SSL melalui pembekal CDN percuma atau berbayar seperti Cloudflare.",
           active: "Domain aktif",
           inactive: "Domain dilumpuhkan",
           success_message:
@@ -566,9 +566,9 @@ export default {
       /** {@see BDashboardShopChannels} **/
 
       channels: {
-        title: "butiran butiran",
+        title: "Saluran Pemerolehan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Perniagaan anda semakin berkembang. Berikut ialah laporan saluran pemerolehan pelanggan anda.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -598,57 +598,57 @@ export default {
 
       menu_advanced_options: "Pilihan lanjutan",
       menu_advanced_options_description:
-        "Connect Google butiran, butiran butiran butiran butiran butiran butiran",
+        "Sambungkan helaian Google, Alih keluar produk pendua dan banyak lagi...",
 
       products_rss: {
         title: "butiran RSS",
-        subtitle: "Import butiran butiran Google, Meta,...",
+        subtitle: "Mengimport produk ke dalam Google, Meta, ...",
       },
       products_api: {
         title: "butiran API",
-        subtitle: "Import butiran butiran butiran butiran butiran API butiran",
+        subtitle: "Mengimport produk melalui panggilan API yang boleh diakses secara umum.",
       },
       google_sheet: {
-        action: "butiran butiran",
+        action: "Helaian Terpaut",
         tooltip:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran Google butiran butiran Google butiran",
+          "Produk di kedai ini dipautkan ke Helaian Google dalam Google Drive.",
       },
       show_deletes: {
-        false_title: "butiran butiran",
-        false_description: "butiran butiran butiran",
-        true_title: "butiran butiran",
-        true_description: "butiran butiran butiran",
+        false_title: "Sembunyikan Dipadamkan",
+        false_description: "Sembunyikan produk yang dipadamkan.",
+        true_title: "Tunjukkan Dipadamkan",
+        true_description: "Tunjukkan produk yang dipadamkan.",
       },
       show_vendors: {
-        false_title: "butiran butiran",
-        false_description: "butiran butiran butiran butiran",
-        true_title: "butiran butiran",
-        true_description: "butiran butiran butiran, ⌘Ctrl+1",
+        false_title: "Sembunyikan Vendor",
+        false_description: "Hanya tunjukkan pemilik vendor.",
+        true_title: "Tunjukkan Vendor",
+        true_description: "Tunjukkan semua vendor, ⌘Ctrl+1",
       },
       table_mode: {
-        false_title: "butiran & butiran butiran",
+        false_title: "Mod Seret & Lepas",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran",
-        true_description: "butiran butiran butiran butiran butiran butiran butiran",
+          "Lihat produk yang disusun mengikut kategori dan subkategori.",
+        true_title: "Mod Jadual",
+        true_description: "Lihat produk dalam susun atur jadual terperinci.",
       },
 
       show_notes: {
-        false_title: "butiran butiran",
-        false_description: "butiran butiran butiran",
-        true_title: "butiran butiran",
-        true_description: "butiran butiran butiran, ⌘Ctrl+2",
+        false_title: "Sembunyikan Nota",
+        false_description: "Sembunyikan nota kosong.",
+        true_title: "Tunjukkan Nota",
+        true_description: "Tunjukkan semua nota, ⌘Ctrl+2",
       },
 
       rss_dialog: {
         title: "butiran RSS",
         subtitle:
-          "butiran butiran RSS butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Gunakan suapan RSS ini untuk mengekalkan senarai terkini semua produk.",
       },
       api_dialog: {
         title: "butiran API",
         subtitle:
-          "butiran butiran API butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran API butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Gunakan suapan API ini untuk memastikan senarai produk anda dikemas kini. Ia menyediakan API yang boleh diakses secara umum untuk mengambil produk dari kedai anda, menjadikannya ideal untuk penyenaraian produk dan tapak web perbandingan.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -659,7 +659,7 @@ export default {
         value_added: "Suruhanjaya",
         discount: "Diskaun",
         in_stock: "Dalam stok",
-        product_unit: "butiran",
+        product_unit: "Unit",
         total_sell: "Jumlah jualan",
         total_view: "Jumlah tontonan",
         view_unit: "Masa",
@@ -680,7 +680,7 @@ export default {
     /** {@see BPageShopBlogs}  **/
     blogs: {
       new: "Tulis baharu",
-      blogs: "butiran",
+      blogs: "Blog",
 
       /** {@see BPageShopBlogsList} **/
       list: {
@@ -752,7 +752,7 @@ export default {
         drop_shipping: "Resit penjual semula",
         reseller_accounts: "Akaun penjual semula",
         valuations: "Penilaian",
-        customer_wallets: "butiran butiran",
+        customer_wallets: "Dompet Pelanggan",
       },
 
       /** {@see BPageShopFinanceBill} **/
@@ -856,23 +856,23 @@ export default {
         subtitle: "Senarai gudang saya.",
       },
       restriction: {
-        title: "butiran butiran",
+        title: "Sekatan penghantaran",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+          "Anda boleh melaksanakan sekatan untuk memastikan bahawa hanya pelanggan dalam kawasan penghantaran yang ditetapkan boleh membuat pembelian daripada anda!",
         no_enable_shipping_error:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+          "Tiada sesiapa boleh membeli daripada anda kerana anda tidak mempunyai kaedah penghantaran yang didayakan!",
         customer_must_select_a_shipping_msg:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pelanggan mesti memilih kaedah penghantaran untuk membuat pesanan.",
         customer_can_order_without_shipping_method_msg:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pelanggan boleh membuat pesanan walaupun tiada kaedah penghantaran disokong untuk lokasi yang dipilih.",
         inputs: {
           restriction: {
             false_description:
-              "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-            false_title: "butiran butiran butiran",
-            true_title: "butiran butiran butiran",
+              "Pelanggan masih boleh membuat pesanan walaupun tiada kaedah penghantaran tertentu telah dipilih.",
+            false_title: "Terima semua tempahan",
+            true_title: "Terhad menerima pesanan",
             true_description:
-              "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+              "Pelanggan dikehendaki memilih sama ada pilihan penghantaran atau pengambilan untuk melengkapkan pembelian mereka.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Tetapkan gudang, kedai atau asal perniagaan anda. Adalah penting untuk mempunyai dalam pengiraan kos penghantaran dan proses pembayaran.",
       no_multi_warehouse_support_message:
-        "butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Untuk memudahkan, ciri ini tidak tersedia di kedai biasa.",
       size_unit: {
         title: "Unit saiz",
         subtitle: "Unit yang digunakan untuk panjang, lebar dan tinggi.",
@@ -891,8 +891,8 @@ export default {
         subtitle: "Unit yang digunakan untuk berat.",
       },
       distance_unit: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran",
+        title: "Unit jarak",
+        subtitle: "Unit yang digunakan untuk jarak.",
       },
 
       menu: {
@@ -903,8 +903,8 @@ export default {
         logistic_apps: "Logistik",
         profiles: "Profil",
         includes: "Termasuk",
-        property_sets: "butiran butiran",
-        boxes: "butiran",
+        property_sets: "Set Hartanah",
+        boxes: "Pakej",
       },
 
       /** {@see BPageShopLogisticInventory} **/
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Simpan Apl Aktif",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, Selldone butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Temui kemudahan mengurus aplikasi perniagaan anda dengan Selldone App Store. Platform kami menawarkan set lengkap alatan yang direka untuk mengoptimumkan operasi perniagaan anda. Daripada penyelesaian pengurusan yang inovatif kepada apl yang meningkatkan produktiviti, Selldone menyediakan pengalaman yang lancar untuk perniagaan yang mencari kecekapan dan pertumbuhan.",
         all: "semua",
       },
       /** {@see BAppShopStore} **/
@@ -1203,7 +1203,7 @@ export default {
         version_name_input: "nama versi",
         version_name_input_message:
           "Masukkan nama unik untuk versi apl ini.",
-        use_selldone_key: "Selldone butiran butiran",
+        use_selldone_key: "Kunci lalai Seldone",
         use_last_key: "Kunci disimpan",
         use_new_key: "Kunci baru",
         appearance: "Penampilan",
@@ -1249,7 +1249,7 @@ export default {
     /** {@see ShopAutomation} **/
     automation: {
       menu: {
-        autopilot: "butiran",
+        autopilot: "Autopilot",
       },
     },
 
@@ -1304,13 +1304,13 @@ export default {
             "Maklumat hubungan awam dan persediaan perniagaan tempatan Google.",
         },
         image_tab: {
-          title: "butiran",
+          title: "Logo",
           subtitle: "Pilih logo unik untuk jenama anda.",
         },
         favicon: {
-          title: "butiran",
+          title: "Favicon",
           subtitle:
-            "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran",
+            "Favicon ialah imej kecil dan ikonik yang mewakili tapak web dalam tab penyemak imbas, penanda halaman dan antara muka aplikasi mudah alih.",
         },
       },
 
@@ -1344,7 +1344,7 @@ export default {
         table: {
           home: "Rumah",
           shop: "kedai",
-          blogs: "butiran",
+          blogs: "Blog",
           about_us: "Tentang kita",
           privacy: "Privasi",
           terms: "Syarat Penggunaan",
@@ -1407,7 +1407,7 @@ export default {
       spec: "Spesifikasi",
       images: "Gambar",
       price: "harga",
-      inputs: "butiran",
+      inputs: "Input",
       outputs: "pengeluaran",
       extra: "Maklumat tambahan",
       review: "Semakan Produk",
@@ -1416,9 +1416,9 @@ export default {
     },
     menu_extra: {
       description: "Penerangan",
-      form: "butiran",
-      no_spec: "butiran butiran",
-      has_spec: "butiran butiran",
+      form: "Borang",
+      no_spec: "Tiada spec",
+      has_spec: "Mempunyai spec",
     },
 
     select_type: {
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "kategori",
-      category_input_msg: "butiran: butiran butiran butiran butiran",
+      category_input_msg: "Kosong: Di akar kedai",
       product_name: "Nama Produk*",
       product_name_placeholder: "Nama produk anda di sini..",
       product_code: "Kod produk (Bahasa Inggeris)",
       sku: {
         label: "SKU",
-        message: "butiran butiran butiran",
+        message: "Unit Penyimpanan Stok",
       },
       mpn: {
         label: "MPN",
-        message: "butiran butiran butiran",
+        message: "Nombor Bahagian Pengilang",
       },
 
       external_link: "Pautan luar",
@@ -1486,55 +1486,55 @@ export default {
 
       category: {
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Konfigurasikan kategori dan tajuk untuk dipaparkan dalam penyenaraian anda.",
       },
       unit: {
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh memperibadikan paparan harga dan elemen seruan tindak pada halaman produk.",
       },
       custom_pricing: {
-        title: "butiran butiran butiran butiran",
+        title: "Borang harga tersuai",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran butiran) butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh membuat atau menetapkan penilaian (borang input harga) kepada produk dan pelanggan anda boleh memilih antara varian atau menyesuaikan barangan anda dengan borang input intuitif.",
         valuation_need_saved_product_message:
-          "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Sila simpan produk dahulu, dan kemudian anda boleh menetapkan model penilaian.",
         assign_valuation_message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran",
-        edit_pricing_action: "butiran butiran butiran butiran",
-        add_pricing_action: "butiran butiran butiran butiran butiran",
+          "Sila berikan model penilaian kepada produk ini.",
+        edit_pricing_action: "Edit borang harga",
+        add_pricing_action: "Buat borang harga baharu",
       },
       action: {
-        title: "butiran butiran butiran",
+        title: "Butang beli tersuai",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran: {icon name} butiran",
-        placeholder: "butiran butiran butiran butiran",
-        multi_language_dialog_title: "butiran butiran butiran butiran",
+          "Anda boleh menukar ikon dengan mengikut corak ini : kapsyen {icon name}...",
+        placeholder: "Masukkan seruan tindak...",
+        multi_language_dialog_title: "Kapsyen butang beli tersuai",
       },
       external: {
         not_available_message:
-          "butiran butiran butiran butiran butiran & butiran butiran",
-        available_message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        input_label: "butiran butiran butiran butiran",
+          "Tindakan tambahan tersedia dengan lesen Syarikat & Perusahaan.",
+        available_message: "Anda boleh menambah seruan tindak luaran tambahan.",
+        input_label: "Seruan Tindakan Kedua",
       },
       warehouse: {
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Maklumat ini digunakan oleh sistem pengurusan gudang dan berfungsi untuk mengenal pasti produk secara global.",
       },
       gtin: {
-        hint: "butiran butiran butiran UPC (butiran butiran, 12 butiran), EAN (butiran, 13 butiran), JAN (butiran, 8 butiran 13 butiran), ISBN (butiran, 13 butiran).",
-        label: "butiran butiran butiran item butiran",
-        placeholder: "butiran butiran butiran butiran (butiran)",
+        hint: "Nilai yang disokong ialah UPC (Amerika Utara, 12 digit), EAN (Eropah, 13 digit), JAN (Jepun, 8 atau 13 digit), ISBN (buku, 13 digit).",
+        label: "Nombor Item Perdagangan Global Produk",
+        placeholder: "Nombor perdagangan global di sini.. (Pilihan)",
       },
       hsn: {
-        hint: "HSN, butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "6~16 butiran HSN butiran (butiran)",
+        hint: "HSN, atau Harmonized System of Nomenclature, ialah sistem pengelasan piawaian antarabangsa untuk mengkategorikan barangan dan produk.",
+        placeholder: "6~16 digit kod HSN.. (Pilihan)",
         label: "HSN",
       },
       condition: {
-        label: "butiran butiran butiran butiran butiran",
-        message: "butiran butiran butiran butiran butiran butiran butiran",
+        label: "Keadaan produk di kedai anda",
+        message: "Sila pilih keadaan produk ini.",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Maklumkan kepada pelanggan anda tentang keadaan dan jenama produk yang anda tawarkan.",
       },
       brand: {
         label: "Jenama",
@@ -1542,25 +1542,25 @@ export default {
       },
       warranty: {
         subtitle:
-          "butiran butiran butiran butiran butiran Status, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Tetapkan waranti dan status produk, kerana maklumat mengenai waranti ini akan dipaparkan kepada pelanggan dan membantu menetapkan tempoh masa produk boleh dipulangkan selepas pembelian.",
 
-        label: "butiran",
-        placeholder: "butiran 24 butiran butiran (butiran)",
+        label: "Waranti",
+        placeholder: "Waranti emas 24 bulan.. (Pilihan)",
       },
       status: {
         title: "Status",
         subtitle:
-          "butiran butiran Status butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran Status butiran 'butiran",
+          "Status produk menentukan ketersediaannya dalam talian dan dalam kedai. Untuk membuat draf produk, cuma tukar statusnya kepada 'Tidak Aktif'..",
       },
       profiles: {
         title: "Profil",
         subtitle:
-          "butiran butiran butiran butiran, butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh mentakrifkan jaminan, polisi pemulangan, penghantaran dan panduan serta menyerahkannya kepada produk ini. Ia akan ditunjukkan sebagai tab baharu pada halaman produk.",
       },
       shortcuts: {
-        title: "butiran butiran butiran butiran butiran",
+        title: "Tetapkan Produk kepada Kategori Tambahan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran > butiran butiran, butiran butiran butiran butiran butiran 'butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Ciri ini membolehkan anda menyenaraikan produk dalam berbilang kategori sambil mengekalkan peletakannya dalam kategori utama yang ditetapkan di bawah Produk > Edit > Kategori. Pada asasnya, ia berfungsi sama seperti mencipta 'pintasan' dalam sistem pengendalian, membolehkan produk muncul dalam kategori tertentu tambahan.",
       },
     },
 
@@ -1635,26 +1635,26 @@ export default {
     edit_spec: {
       title: "Spesifikasi teknikal",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Masukkan spesifikasi produk di sini. Maklumat ini akan dipaparkan kepada pelanggan dan juga boleh digunakan dalam sistem penapisan pintar kategori.",
       manual: {
-        title: "butiran",
+        title: "Secara manual",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Tambahkan spesifikasi produk secara manual dengan menentukan kumpulan dan pasangan nilai kunci.",
         add_group_action: "Tambah Kumpulan",
-        add_item_action: "butiran butiran butiran",
+        add_item_action: "Tambah Nilai Spesifikasi",
       },
       import: {
         subtitle:
-          "butiran butiran Import butiran butiran butiran butiran butiran",
+          "Anda boleh mengimport spesifikasi teknikal produk yang serupa.",
         action_title: "Import",
-        action_subtitle: "butiran butiran butiran butiran butiran",
+        action_subtitle: "Spesifikasi klon dari produk lain.",
       },
       ai: {
         title: "AI",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        action_title: "butiran butiran butiran AI",
-        action_subtitle: "butiran butiran butiran butiran butiran butiran",
+          "Anda boleh membuat spesifikasi produk secara automatik dengan menyerahkan data mentah produk dalam bentuk teks.",
+        action_title: "Auto Jana oleh AI",
+        action_subtitle: "Cipta spesifikasi produk dengan segera abstrak.",
       },
 
       group_input_header: "Tambah Kumpulan",
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Kod Produk: P0000 ...",
         spec_view_title: "Spesifikasi produk yang dipilih",
         spec_view_subtitle:
-          "butiran butiran butiran butiran Import butiran butiran butiran butiran",
+          "Spesifikasi telah diimport dari produk yang dipilih.",
         set_spec_action: "Spesifikasi Teknikal Pendua",
       },
       notifications: {
@@ -1687,30 +1687,30 @@ export default {
         spec_saved_success: "Spesifikasi produk disimpan.",
       },
       dialog_ai: {
-        title: "butiran butiran butiran butiran",
+        title: "Menjana Spesifikasi Produk Secara Automatik",
         prompt: {
-          title: "butiran butiran butiran",
+          title: "Gambaran Keseluruhan Produk",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Sila berikan penerangan ringkas dan jelas tentang produk, menyerlahkan ciri dan butiran utamanya. Maklumat ini akan digunakan untuk menjana spesifikasi produk secara automatik.",
         },
         generated_spec: {
-          title: "butiran butiran AI",
+          title: "Spesifikasi Dijana AI",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran",
+            "Spesifikasi ini dihasilkan oleh kecerdasan buatan.",
         },
         inputs: {
           prompt: {
-            label: "butiran butiran",
-            placeholder: "butiran butiran butiran butiran",
+            label: "Butiran Produk",
+            placeholder: "Terangkan produk di sini...",
           },
         },
         actions: {
           run: {
-            title: "butiran butiran",
+            title: "Hasilkan Spesifikasi",
             subtitle:
-              "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+              "Klik untuk membuat spesifikasi produk secara automatik daripada gambaran keseluruhan yang disediakan.",
           },
-          add_generated_spec: "butiran butiran butiran",
+          add_generated_spec: "Tambah Spesifikasi Dijana",
         },
       },
     },
@@ -1730,25 +1730,25 @@ export default {
           "Muat naik imej produk, biasa kepada semua varian produk, dalam bahagian ini.",
       },
       video: {
-        title: "butiran",
+        title: "Video",
         sub_title:
           "Mula-mula, muat naik video produk anda di YouTube, dan kemudian letakkan URL video di sini.",
       },
       change_bg_ai: {
-        title: "butiran butiran butiran butiran butiran butiran",
+        title: "Cipta Imej Dengan Latar Belakang Baharu",
         inputs: {
           prompt: {
-            label: "butiran butiran butiran",
-            placeholder: "butiran butiran butiran butiran",
+            label: "Penerangan Latar Belakang",
+            placeholder: "Terangkan latar belakang yang dikehendaki...",
           },
         },
         actions: {
           reimagine: {
-            title: "butiran butiran butiran",
-            subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+            title: "Hasilkan Imej Baharu",
+            subtitle: "Bayangkan semula keseluruhan imej dengan latar belakang baharu.",
           },
           replace: {
-            subtitle: "butiran butiran butiran butiran",
+            subtitle: "Gantikan latar belakang sedia ada.",
           },
         },
       },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Dalam pasaran, harga produk utama yang dipaparkan ialah harga penyenaraian, manakala harga sebenar ditentukan berdasarkan rekod hubungan vendor-produk.",
         subscription:
-          "butiran butiran, butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Untuk langganan, hanya harga penyenaraian dipaparkan, manakala kos sebenar akan ditentukan berdasarkan pelan langganan yang dipilih.",
         service:
-          "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran).",
-        file: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Untuk produk berasaskan perkhidmatan, harga yang disenaraikan adalah semata-mata untuk tujuan paparan, memberikan anggaran kos perkhidmatan. Harga perkhidmatan sebenar akan ditentukan oleh anda sebaik sahaja pelanggan membuat pesanan mereka (semasa daftar keluar).",
+        file: "Ini merujuk kepada harga fail yang disenaraikan dan sebenar, yang perlu dibayar oleh pelanggan untuk mendapatkan akses kepada fail.",
         default:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Ini merujuk kepada harga tersenarai produk dan juga mengambil kira harga mana-mana varian yang tidak mempunyai harga berasingan.",
       },
       extra_pricings: {
-        title: "butiran butiran butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        title: "Tambah harga tambahan",
+        subtitle: "Laksanakan harga dinamik berdasarkan kuantiti pembelian.",
       },
 
       vendor: {
-        title: "butiran butiran butiran",
+        title: "Harga vendor",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran butiran",
-        manage_vendors: "butiran butiran",
+          "Harga ini hanya akan ditunjukkan dalam penyenaraian produk. Anda boleh menetapkan harga vendor dalam tab Produk > Vendor.",
+        manage_vendors: "Urus Vendor",
         vendor_product_pricing_link:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran butiran butiran butiran butiran). butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Harga produk vendor disambungkan. Menukar harga penyenaraian di sini akan menjejaskan produk vendor tanpa varian atau yang mempunyai varian yang tidak mempunyai harga sendiri (menggunakan harga yang sama seperti produk utama). Harga ini akan dianggap sebagai harga pasaran dan harga vendor akan ditetapkan berdasarkan model harga atau margin keuntungan pasaran sebelumnya.",
         vendor_variant_pricing_link:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Menukar harga varian di sini akan menjejaskan harga produk vendor dengan varian yang sama. Harga ini akan dianggap sebagai harga pasaran dan harga vendor akan ditetapkan mengikut model harga atau margin keuntungan pasaran sebelumnya.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Mesej ini akan ditunjukkan kepada pelanggan semasa membeli produk.",
       inputs_form: "Struktur maklumat (input)",
       inputs_hint:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda mempunyai pilihan untuk menyediakan borang yang diperibadikan untuk mengumpulkan butiran daripada pelanggan anda apabila mereka bersedia untuk membuat pesanan.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1835,12 +1835,12 @@ export default {
       },
 
       order_limit: {
-        title: "butiran butiran",
+        title: "Had pesanan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran item butiran butiran, butiran butiran butiran butiran butiran",
+          "Jika anda seorang pemborong atau terdapat had minimum atau maksimum pada kuantiti item ini bagi setiap pesanan, anda boleh menyatakannya di sini.",
         no_limit: "Tiada had",
-        minimum_purchase_quantity: "butiran butiran butiran",
-        maximum_purchase_quantity: "butiran butiran butiran",
+        minimum_purchase_quantity: "Kuantiti pembelian minimum",
+        maximum_purchase_quantity: "Kuantiti pembelian maksimum",
       },
     },
 
@@ -1852,34 +1852,34 @@ export default {
     delete_product: {
       title: "Keluarkan produk",
       message: `Adakah anda mahu memadamkan <b>{product_title}</b> ?`,
-      tips: "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran, butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran, butiran butiran butiran",
+      tips: "Jika anda secara tidak sengaja memadamkan produk, anda boleh memulihkannya dengan menavigasi ke Kedai > Produk anda, mendayakan Tunjukkan Item Dipadamkan, kemudian klik kanan pada produk dan pilih Pulihkan.",
     },
   },
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "butiran butiran butiran butiran butiran {min}",
+    title: "Harga Tambahan untuk lebih {min}",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Sistem secara automatik menentukan pesanan dan keutamaan untuk pengiraan harga. Sila masukkan kuantiti minimum yang diperlukan untuk penetapan harga ini berkuat kuasa.",
     min_quantity: "Kuantiti minimum",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran",
+        "Inventori untuk produk dropshipping ditetapkan oleh pemborong dan tidak boleh diubah suai di sini.",
       marketplace:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      default: "butiran butiran butiran butiran butiran butiran",
+        "Inventori produk keseluruhan dalam pasaran ditentukan dengan menjumlahkan inventori semua vendor. Anda tidak boleh mengubah suainya di sini.",
+      default: "Nyatakan kiraan inventori produk di sini.",
     },
     menu: {
       add_bulk: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran",
+        title: "Tambah Pukal",
+        subtitle: "Tambahkan berbilang varian dalam satu tindakan.",
       },
       edit_property_set: {
-        title: "butiran butiran butiran",
-        subtitle: "butiran butiran butiran, butiran butiran butiran",
+        title: "Sesuaikan Set Harta",
+        subtitle: "Tukar nama, ikon dan pesanan varian.",
       },
     },
   },
@@ -1888,40 +1888,40 @@ export default {
    * @see USmartMenu
    */
   smart_menu: {
-    show_delete_items: "butiran butiran butiran",
+    show_delete_items: "Tunjukkan item yang dipadamkan",
   },
 
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
-    label: "Google butiran butiran butiran",
-    hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Google",
-    placeholder: "butiran butiran butiran butiran butiran (butiran)",
+    label: "Kod kategori produk Google",
+    hint: "Mewakili kategori produk anda mengikut taksonomi produk Google.",
+    placeholder: "Masukkan kategori produk atau perkhidmatan.. (Pilihan)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
-      title: "butiran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Waranti",
+      desc: "Waranti adalah sebahagian daripada kontrak di mana pengilang berjanji untuk membaiki atau menggantikan produk dalam tempoh tertentu. Komitmen ini boleh dilanjutkan walaupun kepada pengguna yang tidak mempunyai kontrak langsung dengan pengilang.",
     },
     RETURN_POLICY: {
-      title: "butiran butiran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+      title: "Polisi Pemulangan",
+      desc: "Dasar pemulangan menggariskan cara pelanggan boleh memulangkan atau menukar barangan yang tidak diingini. Mereka menyatakan item yang layak, sebab yang boleh diterima untuk pemulangan dan tempoh masa untuk membuat pemulangan.",
     },
     GUIDE: {
-      title: "butiran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Panduan",
+      desc: "Panduan boleh termasuk carta saiz untuk pakaian atau panduan pemilihan untuk berlian. Adalah penting bahawa panduan adalah serba boleh dan boleh digunakan pada pelbagai produk.",
     },
     SHIPPING: {
       title: "penghantaran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran, butiran, butiran butiran butiran butiran",
+      desc: "Polisi penghantaran memperincikan aspek utama penghantaran untuk pesanan dalam talian, termasuk kos penghantaran, kaedah dan anggaran masa penghantaran.",
     },
   },
   /** {@see BProductProfileLogistic} **/
   product_logistic_profile: {
     dialog: {
-      title: "butiran butiran butiran",
-      add_new_action: "butiran butiran butiran",
-      add_new_disable_msg: "butiran butiran",
+      title: "Pilih profil logistik",
+      add_new_action: "Tambah profil baharu",
+      add_new_disable_msg: "Pemilik pasaran",
     },
   },
 
@@ -1929,38 +1929,38 @@ export default {
    * @see BPageShopPagesPopups
    */
   b_shop_popups: {
-    title: "butiran butiran",
+    title: "Pengurusan pop timbul",
     subtitle:
-      "butiran butiran, butiran, butiran butiran butiran butiran",
-    add_action: "butiran butiran butiran butiran",
+      "Cipta tetingkap pop timbul yang diperibadikan, pintar dan interaktif.",
+    add_action: "Tambah Pop Timbul Baharu",
   },
 
   /** {@see BProductProfileTax} **/
   product_tax_profile: {
     description: {
       default: "lalai",
-      dedicated: "butiran",
+      dedicated: "berdedikasi",
 
-      subscription: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      is_disabled: "butiran butiran butiran butiran butiran! (⚠️butiran)",
+      subscription: "Kami boleh menggunakan cukai hanya pada langkah membuat pembayaran.",
+      is_disabled: "Profil cukai ini dilumpuhkan! (⚠️Amaran)",
       shipping: "penghantaran",
       fixed_rate: "Cukai",
-      location_based_rate: "butiran: butiran butiran",
-      shipping_location_based_rate: "butiran: butiran butiran",
+      location_based_rate: "Cukai: Berdasarkan lokasi",
+      shipping_location_based_rate: "Penghantaran: Berdasarkan lokasi",
       include_in_price: "Termasuk dalam harga",
     },
     dialog: {
-      header: "butiran butiran butiran",
+      header: "Pilih profil cukai",
 
-      title: "butiran butiran",
+      title: "Profil cukai",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh menetapkan peraturan cukai tertentu kepada produk. Sekiranya profil cukai tidak dipilih untuk produk tersebut, peraturan cukai kedai lalai kemudiannya akan digunakan.",
 
-      action_manage: "butiran butiran",
-      action_manage_sub: "butiran > butiran > butiran",
+      action_manage: "Urus cukai",
+      action_manage_sub: "Kedai > Kewangan > Cukai",
 
       subscription_tips:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran<code>butiran butiran</code> butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran <code>butiran</code> butiran <code>butiran</code>. butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran<br /><br /><b>butiran!</b> butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Apabila anda memilih profil cukai untuk produk langganan, kami mengemas kini<code>kod cukai</code> dan menetapkan mod inklusif/eksklusif pada pembekal perkhidmatan pembayaran anda. Profil cukai yang dipilih menentukan sama ada harga itu dianggap termasuk cukai atau tidak termasuk cukai. Salah satu daripada <code>inclusive</code> atau <code>exclusive</code>. Setelah dinyatakan sama ada inklusif atau eksklusif, ia tidak boleh diubah.<br /><br /><b>Penting!</b> Selepas menukar profil cukai, anda harus mengklik pada pelan harga pada tab Produk > Inventori dan klik butang Simpan untuk menggunakan perubahan.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Harga dan kuantiti produk ini ditetapkan oleh vendor tertentu yang menjadi miliknya.",
     },
     vendors: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Berikut ialah senarai pembekal untuk produk tersebut. Kuantiti dan harga akan ditetapkan oleh pembekal.",
     },
   },
   /**
@@ -1984,156 +1984,156 @@ export default {
     menu: {
       profile: "butiran & info",
       business: "butiran & butiran",
-      documents: "butiran",
-      page: "butiran butiran",
+      documents: "Dokumen",
+      page: "Templat Halaman",
       shipping: "penghantaran",
       access: "Akses",
-      critical_zone: "butiran butiran",
+      critical_zone: "Zon Kritikal",
     },
 
     profile: {
       title: "butiran info",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
-      action_sub_caption: "butiran butiran butiran butiran",
-      action_see_listing_page: "butiran butiran butiran",
-      send_invitation_email: "butiran butiran butiran",
-      invitation_link: "butiran butiran",
+      subtitle: "Maklumat ini ditunjukkan kepada pelanggan secara terbuka.",
+      action_sub_caption: "Halaman penyenaraian produk awam.",
+      action_see_listing_page: "Lihat Halaman Penyenaraian",
+      send_invitation_email: "Hantar E-mel Jemputan",
+      invitation_link: "Pautan Jemputan",
     },
 
     profiles: {
       title: "Profil",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Anda boleh menetapkan lokasi kepada vendor ini.",
     },
     map: {
       no_map_message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Berikan lokasi kepada vendor jika ia adalah vendor berasaskan lokasi.",
     },
     page: {
-      title: "butiran butiran",
+      title: "Halaman tersuai",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      action_set_page: "butiran butiran butiran",
-      action_sub_caption: "butiran butiran butiran",
-      vendor_has_landing_msg: "butiran butiran butiran butiran butiran butiran",
-      no_landing_selected_msg: "butiran butiran butiran butiran",
-      no_landing_page: "butiran butiran butiran",
+        "Tetapkan halaman pendaratan tersuai untuk vendor, berikan mereka pautan unik ke halaman khusus mereka.",
+      action_set_page: "Lihat Halaman Awam",
+      action_sub_caption: "Halaman pendaratan tersuai.",
+      vendor_has_landing_msg: "Vendor mempunyai halaman pendaratan tersuai.",
+      no_landing_selected_msg: "Tiada halaman pendaratan dipilih.",
+      no_landing_page: "Tiada halaman pendaratan",
       we_can_create_dedicated_landing_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kami boleh membuat halaman pendaratan khusus untuk anda.",
     },
     contact: {
       title: "butiran info",
-      subtitle: "butiran butiran butiran butiran butiran",
+      subtitle: "Sila berikan butiran hubungan yang sah.",
     },
     business: {
       title: "butiran info",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran SWIFT",
+        "Sila berikan maklumat yang tepat tentang perniagaan anda untuk memastikan proses kutipan hasil yang pantas dan lancar.",
     },
     bank: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Maklumat Pembayaran",
+      subtitle: "Masukkan butiran bank anda di sini untuk pembayaran.",
     },
     default_pricing: {
-      title: "butiran butiran butiran",
+      title: "Harga Lalai",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      no_pricing: "butiran butiran butiran",
+        "Anda boleh menetapkan model harga lalai untuk vendor. Apabila vendor menambah produk baharu, model harga ini akan digunakan untuk mengira margin pasaran pada harga produk. Anda kemudian boleh melaraskan model harga untuk setiap produk secara individu.",
+      no_pricing: "Tiada harga",
     },
     shipping: {
       title: "penghantaran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      shipping_services: "butiran butiran",
+      subtitle: "Penjual boleh menyediakan perkhidmatan penghantaran dan kurier mereka sendiri.",
+      shipping_services: "Perkhidmatan Penghantaran",
       total_number_of_services:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Jumlah bilangan perkhidmatan penghantaran yang dimiliki oleh vendor.",
       couriers: "Kurier",
-      total_couriers_count: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      total_couriers_count: "Jumlah bilangan kurier yang vendor ada.",
     },
     configuration: {
-      title: "butiran",
+      title: "Konfigurasi",
     },
     delete: {
-      title: "butiran butiran butiran",
-      action: "butiran butiran butiran",
+      title: "Alih keluar vendor",
+      action: "Alih keluar vendor",
       verify_description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
-      verify_title: "butiran butiran butiran butiran butiran butiran",
+        "Saya tahu bahawa semua hubungan produk vendor akan dialih keluar!",
+      verify_title: "Saya mahu memadamkan vendor ini.",
     },
 
     send_invitation_tips:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Kami akan menghantar e-mel jemputan kepada pengguna ini. Jika pengguna menyertai kedai anda sebagai vendor, akaun mereka akan diberikan secara automatik kepada mereka.",
     only_marketplace_owner_can_edit_user:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
-    vendor_is_disable_msg: "butiran butiran butiran",
+      "Hanya pemilik pasaran boleh mengedit pengguna. Jika anda ingin menukar pemilik vendor ini, anda boleh menghantar permintaan kepada kami.",
+    vendor_is_disable_msg: "Penjual dilumpuhkan.",
     email_not_match_with_user_msg:
-      "butiran butiran butiran butiran butiran butiran butiran butiran (<b>{user_name}:</b>{user_email}). butiran butiran butiran butiran butiran butiran butiran<b>{email}</b>?",
+      "E-mel yang dimasukkan tidak sepadan dengan e-mel pengguna (<b>{user_name}:</b>{user_email}). Adakah anda pasti menghantar e-mel kepada<b>{email}</b>?",
 
     order_information_email_to_email:
-      "butiran butiran butiran butiran butiran butiran <b>{email}</b>.",
+      "Kami akan menghantar maklumat pesanan kepada <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "butiran butiran butiran butiran butiran butiran butiran",
+    set_a_user_for_the_vendor_first_msg: "Tetapkan pengguna untuk vendor dahulu.",
 
     inputs: {
       slug: {
-        label: "butiran",
-        placeholder: "butiran butiran butiran butiran",
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        label: "Laluan",
+        placeholder: "Masukkan laluan tersuai...",
+        hint: "Tukar laluan halaman pendaratan dinamik vendor.",
       },
       email: {
-        message: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        message: "E-mel ini akan menerima semua pemberitahuan dan kemas kini.",
       },
       business: {
-        false_description: "butiran butiran butiran butiran butiran",
-        true_description: "butiran butiran butiran butiran butiran butiran butiran butiran",
-        false_title: "butiran",
-        true_title: "butiran",
+        false_description: "Saya bekerja sebagai individu.",
+        true_description: "Saya beroperasi sebagai entiti perniagaan yang diiktiraf di sisi undang-undang.",
+        false_title: "individu",
+        true_title: "Perniagaan",
       },
       bank: {
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran",
+        hint: "Nama bank tempat vendor mempunyai akaun mereka.",
+        placeholder: "nama bank anda..",
       },
       account_name: {
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran",
+        hint: "Ini sepatutnya sepadan dengan nama yang dikaitkan dengan akaun bank.",
+        placeholder: "nama awak..",
       },
       account_number: {
-        hint: "butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran butiran",
+        hint: "Nombor akaun unik vendor.",
+        placeholder: "Nombor akaun bank anda..",
       },
       routing_number: {
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran butiran, butiran butiran, butiran BSB butiran",
+        hint: "Nombor ini berbeza mengikut negara. Ia digunakan untuk mengenal pasti cawangan bank tertentu yang digunakan oleh vendor.",
+        placeholder: "Nombor penghalaan bank anda, kod isihan atau nombor BSB..",
       },
       iban: {
-        hint: "butiran butiran butiran butiran): butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran IBAN butiran butiran butiran 3704 0044 0000 0000 00",
+        hint: "Nombor Akaun Bank Antarabangsa): Jika bank vendor berada di Eropah atau negara lain tertentu.",
+        placeholder: "Nombor IBAN anda.. cth. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "butiran butiran butiran butiran): butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran BIC SWIFT",
+        hint: "Nombor Akaun Bank Antarabangsa): Jika bank vendor berada di Eropah atau negara lain tertentu.",
+        placeholder: "Kod Swift/BIC anda..",
       },
       branch_address: {
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran",
+        hint: "Alamat cawangan bank tempat vendor mempunyai akaun mereka.",
+        placeholder: "alamat bank anda..",
       },
       enable: {
         label: "butiran Status",
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        hint: "Anda boleh mendayakan atau melumpuhkan vendor di seluruh dunia. Pelanggan tidak akan dapat membeli apa-apa daripada vendor yang kurang upaya.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Mereka akan dapat menjual produk mereka melalui pasaran anda.",
       },
       access: {
-        label: "butiran butiran & butiran",
+        label: "Panel & akses vendor",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        false_description: "butiran butiran butiran butiran butiran butiran butiran",
+          "Vendor mempunyai panel khusus untuk mengemas kini kuantiti dan harga.",
+        hint: "Anda boleh mendayakan atau melumpuhkan panel vendor, yang membenarkan vendor mengemas kini kuantiti dan harga produk serta menerima pesanan separa.",
+        false_description: "Penjual tidak mempunyai akses kepada apa-apa.",
       },
 
       logo: {
-        label: "butiran butiran",
+        label: "Logo Penjual",
       },
       description: {
-        placeholder: "butiran butiran butiran butiran",
+        placeholder: "Tulis penerangan umum...",
       },
     },
   },
@@ -2142,18 +2142,18 @@ export default {
    * @see BVendorDocumentsList
    */
   vendor_documents_list: {
-    title: "butiran",
-    action_upload_doc: "butiran butiran butiran",
+    title: "Dokumen",
+    action_upload_doc: "Muat naik Doc",
     vendor_subtitle:
-      "butiran butiran butiran butiran butiran butiran, IP, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Sila muat naik dokumen pengesahan perniagaan, IP dan alamat yang diperlukan. Kami memerlukan maklumat ini untuk mengesahkan perkongsian anda dan memberikan anda akses yang diperlukan.",
     marketplace_subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran, butiran butiran, butiran butiran butiran butiran butiran butiran KYC butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Penjual boleh menyerahkan dokumen seperti perniagaan, harta intelek dan pengesahan alamat untuk memudahkan proses KYC mereka, membolehkan anda memberikan mereka akses yang sesuai.",
     upload_dialog: {
-      title: "butiran butiran butiran",
+      title: "Muat Naik Dokumen",
       type: {
-        title: "butiran butiran",
+        title: "Jenis Dokumen",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Sila muat naik hanya dokumen yang diperlukan. Elakkan berkongsi sebarang dokumen yang mengandungi maklumat sensitif. Kami meminta dokumen yang tersedia untuk umum.",
       },
     },
   },
@@ -2162,46 +2162,46 @@ export default {
    * @see BProductBadgesManage
    */
   product_badges: {
-    title: "butiran",
-    subtitle: "butiran butiran butiran butiran butiran butiran",
-    only_marketplace_owner_msg: "butiran butiran butiran",
-    create_new_badge_action: "butiran butiran butiran",
-    select_a_badge: "butiran butiran butiran",
+    title: "Lencana",
+    subtitle: "Tambah dan edit lencana produk tersuai.",
+    only_marketplace_owner_msg: "Hanya pemilik pasaran",
+    create_new_badge_action: "Buat lencana baharu",
+    select_a_badge: "Pilih lencana...",
     inputs: {
       custom: {
-        false_description: "butiran butiran butiran butiran butiran",
-        false_title: "butiran",
-        true_title: "butiran butiran butiran",
-        true_description: "butiran butiran butiran butiran butiran butiran butiran",
+        false_description: "Lencana produk dibuat secara automatik.",
+        false_title: "Auto",
+        true_title: "Lencana produk tersuai",
+        true_description: "Tambahkan lencana tersuai dalam halaman produk.",
       },
     },
     add_custom_badge: {
-      title: "butiran butiran",
+      title: "Lencana tersuai",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 10. butiran butiran butiran butiran butiran butiran butiran",
-      show_advanced_options: "butiran butiran butiran",
+        "Tambahkan lencana tersuai baharu pada kedai saya. Pastikan lencana dikira di bawah 10. Lebih banyak lencana akan melambatkan kedai anda.",
+      show_advanced_options: "Tunjukkan pilihan lanjutan",
 
       inputs: {
         title: {
-          placeholder: "butiran butiran",
+          placeholder: "Tajuk umum...",
         },
         image: {
           label: "Gambar",
-          message: "butiran butiran butiran: 128butiran",
-          placeholder: "butiran butiran butiran butiran",
+          message: "Saiz imej maksimum: 128KB",
+          placeholder: "Pilih imej muka depan",
         },
         pattern: {
-          label: "butiran",
+          label: "Corak",
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Regex butiran",
-          placeholder: "butiran butiran butiran butiran butiran butiran: *.*",
+            "Tunjukkan lencana ini secara automatik untuk produk yang mempunyai nilai yang sepadan ini dalam spesifikasinya. Regex disokong.",
+          placeholder: "Untuk menunjukkan kepada semua produk, tulis: *.*",
         },
       },
       notifications: {
-        badge_added: "butiran butiran butiran butiran butiran butiran!",
-        badge_updated: "butiran butiran butiran butiran butiran butiran!",
+        badge_added: "Lencana telah berjaya ditambahkan!",
+        badge_updated: "Lencana telah berjaya dikemas kini!",
         item_not_found_error:
-          "butiran item butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Item tidak dapat ditemui. Sila muat semula halaman atau hubungi sokongan.",
       },
     },
   },
@@ -2211,17 +2211,17 @@ export default {
   product_tags: {
     title: "Tag",
     tips: [
-      "butiran butiran butiran butiran butiran butiran butiran butiran <b>butiran butiran butiran</b>.",
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran<b>butiran</b> butiran",
-      "butiran butiran butiran, butiran butiran butiran butiran <b>butiran butiran</b> butiran butiran butiran butiran butiran <b>butiran butiran butiran</b> butiran butiran butiran butiran; butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh menapis produk berdasarkan teg pada <b>halaman pendaratan</b>.",
+      "Anda dan pelanggan anda boleh mencari teg ini dalam bar<b>search</b>.",
+      "Jika menetapkan teg, hanya produk dengan <b>tag biasa</b> akan dipaparkan dalam bahagian <b>produk berkaitan</b> pada halaman produk; jika tidak, produk dalam kategori yang sama akan dipaparkan.",
     ],
     inputs: {
       tags: {
-        placeholder: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        placeholder: "Teg wayar di sini dan tekan enter. ex. koleksi baru",
       },
     },
     notifications: {
-      tags_updated: "butiran butiran butiran butiran butiran butiran",
+      tags_updated: "Teg telah berjaya dikemas kini.",
     },
   },
 
@@ -2229,18 +2229,18 @@ export default {
    * @see VPageVendorShippingTransportation
    */
   vendor_shipping_services: {
-    title: "butiran butiran",
+    title: "Perkhidmatan Penghantaran",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Pasaran menawarkan kaedah penghantaran untuk membantu vendor memenuhi pesanan mereka. Anda boleh menambah perkhidmatan penghantaran di sini untuk memesan label penghantaran dengan mudah dari halaman pesanan anda. Ini memudahkan proses dengan menyegerakkan alamat dan kod penjejakan dengan pembekal penghantaran.",
 
     subtitle_pickup:
-      "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran).",
+      "Pasaran membolehkan pengambilan untuk vendor, membolehkan pembeli memilih pengambilan dari lokasi anda sebagai pilihan penghantaran. Anda boleh menambah lokasi pengambilan anda dalam profil anda (gudang anda akan digunakan sebagai lokasi pengambilan lalai).",
     action: "Tambah perkhidmatan",
 
     add_dialog: {
       select_service_msg:
-        "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      no_available_service: "butiran butiran butiran!",
+        "Kaedah penghantaran ditetapkan oleh pasaran, dan pelanggan boleh memilih daripada kaedah tersebut. Vendor tidak mempunyai kawalan ke atas pilihan ini tetapi boleh menyepadukan panel mereka dengan perkhidmatan penghantaran untuk membeli label secara terus. Sila pilih kaedah daripada senarai di bawah untuk melihat perkhidmatan yang tersedia. Pilih perkhidmatan penghantaran daripada senarai di bawah. Hanya perkhidmatan yang tersedia yang boleh ditambah ke kedai anda dipaparkan di sini.",
+      no_available_service: "Tiada perkhidmatan tersedia!",
     },
   },
   /**
@@ -2254,39 +2254,39 @@ export default {
   product_location_profile: {
     title: "Lokasi",
     empty_subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Tetapkan lokasi pada produk jika ia adalah item berasaskan lokasi.",
     dialog: {
-      header: "butiran butiran butiran",
+      header: "Pilih profil lokasi",
       action_new_location: "Tambah lokasi baharu",
-      title: "butiran butiran",
+      title: "Profil lokasi",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      tips: "<b>butiran: </b> butiran butiran butiran butiran butiran butiran <b>butiran</b> butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran <b>butiran butiran</b> butiran butiran butiran butiran<b>butiran butiran butiran</b>.",
+        "Anda boleh menyematkan produk pada lokasi peta dengan memberikan teg lokasi kepada produk.",
+      tips: "<b>Penting: </b> Tetapkan lokasi kepada produk <b>only</b> jika anda ingin menunjukkan produk pada lokasi tertentu pada peta. Produk pined mesti mempunyai lokasi sebagai spesifikasi utamanya, seperti <b>rumah/tempat sewa</b> atau perkhidmatan bersemuka seperti<b>Dandanan Rambut dan Spa</b>.",
     },
   },
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "butiran butiran",
-    auto_action: "butiran butiran",
-    premium_user_only: "butiran butiran",
+    header: "Pelbagai Bahasa",
+    auto_action: "Auto Terjemah",
+    premium_user_only: "Pengguna Premium",
   },
 
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Sertakan senarai item yang disertakan dengan pakej produk atau perkhidmatan.",
     dialog: {
-      header: "butiran butiran butiran",
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      action_manage: "butiran butiran",
-      action_disable_msg: "butiran butiran",
+      header: "Item Pakej Produk",
+      title: "Termasuk item",
+      subtitle: "Ini adalah kompilasi item yang disertakan dengan produk.",
+      action_manage: "Uruskan barang",
+      action_disable_msg: "Pemilik pasaran",
       select_items_tips:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Buat atau pilih komponen pakej yang disertakan dengan produk atau perkhidmatan. Gunakan ciri ini untuk menekankan perkara yang pelanggan boleh jangkakan akan diterima apabila membeli item tersebut. Kami menasihatkan untuk menggunakan fungsi ini hanya apabila penting untuk pelanggan memahami kandungan yang disertakan, seperti semasa membeli telefon pintar.",
       create_item_tips:
-        "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 256butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      create_new_item_action: "butiran butiran butiran item",
+        "Sebagai alternatif, anda boleh memasukkan item baharu. Gunakan imej segi empat sama, kerana kami akan mengubah saiz gambar yang dimuat naik secara automatik kepada format persegi 256x256. Untuk memastikan penampilan optimum merentas semua templat, gunakan imej minimalis dengan latar belakang telus dan kekalkan corak yang konsisten untuk semua produk anda.",
+      create_new_item_action: "Buat item baharu yang disertakan",
     },
   },
 
@@ -2302,7 +2302,7 @@ export default {
       inventory: "Inventori",
       dashboard: "Papan pemuka",
       back_to_products: "Produk",
-      drop_shipping: "butiran",
+      drop_shipping: "Dropshipping",
     },
 
     /** {@see BPageProductDashboard} **/
@@ -2317,19 +2317,19 @@ export default {
         inputs: "Maklumat input",
         outputs: "Maklumat keluaran",
         user_data_form: "Borang Maklumat Pembeli",
-        staff_messages: "butiran butiran",
-        add_note: "butiran butiran",
-        product_tags: "butiran butiran",
-        edit_tags: "butiran butiran",
+        staff_messages: "Mesej kakitangan",
+        add_note: "Tambah nota",
+        product_tags: "Tag produk",
+        edit_tags: "Edit tag",
       },
       /** {@see BProductOrdersAbstractView} **/
       orders: {
         title: "Pesanan",
         title_small: "Tidak diproses",
         physical_orders_title: "Troli Beli-belah Dengan Produk Ini",
-        send_count_in_period: "butiran butiran butiran {start} ~ {end}",
+        send_count_in_period: "Pesanan dihantar antara {start} ~ {end}",
         downloads_count_in_period:
-          "butiran butiran butiran butiran butiran {start} ~ {end}",
+          "Kiraan fail yang dimuat turun antara {start} ~ {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2338,7 +2338,7 @@ export default {
         title_small: "Gudang",
         total_sell: "Jumlah jualan",
         total_sell_today: "Jualan hari ini",
-        total_sell_timespan: "butiran butiran butiran {start} ~ {end}",
+        total_sell_timespan: "Jumlah Jualan antara {start} ~ {end}",
         chart: {
           labels: ["Inventori", "Jualan"],
         },
@@ -2349,7 +2349,7 @@ export default {
       /** {@see BProductFinanceCharts} **/
       finance: {
         title: "kewangan",
-        title_small: "butiran butiran butiran {start} ~ {end}.",
+        title_small: "Laporan Pembelian antara {start} ~ {end}.",
         select_mode_title: "Tunjukkan Oleh",
         modes: {
           sell: "Jualan",
@@ -2370,7 +2370,7 @@ export default {
         title: "Penilaian Produk",
         title_small: "Laporan Kepuasan Pelanggan",
         total_participation: "Jumlah bilangan sumbangan",
-        total_participation_tooltip: "butiran butiran butiran butiran butiran butiran butiran",
+        total_participation_tooltip: "Jumlah kiraan penilai untuk produk.",
         today_participation: "Penilaian hari ini",
         last7days_participation: "Sumbangan 7 hari terakhir",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Bilangan sumbangan",
           score: "markah",
         },
-        users_not_rated_msg: "butiran butiran butiran butiran butiran butiran butiran",
+        users_not_rated_msg: "Pengguna belum menilai produk ini lagi.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2441,53 +2441,53 @@ export default {
           "Selepas menyimpan varian ini, anda akan dapat menambah imej di sini.",
 
         config: {
-          title: "butiran butiran butiran",
-          subtitle: "butiran SKU, MPN, butiran butiran butiran butiran",
+          title: "Persediaan Varian Produk",
+          subtitle: "Urus SKU, MPN dan ketersediaan untuk varian.",
         },
         variables: {
-          title: "butiran butiran",
+          title: "Pilihan Varian",
           subtitle:
-            "butiran butiran butiran butiran butiran, butiran, <b>#654FFF</b>, butiran butiran butiran butiran butiran butiran butiran, butiran, <b>#764FFA/#000000</b>.",
+            "Masukkan kod warna heks, cth., <b>#654FFF</b> atau dua warna yang dipisahkan dengan garis miring, cth., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran <b>butiran butiran</b>. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-          graphical_asset_action: "butiran butiran",
-          graphical_asset_action_caption: "butiran butiran butiran butiran",
+            "Anda boleh menetapkan sebarang nilai kepada pembolehubah, termasuk imej menggunakan <b>Aset Grafik</b>. Muat naik corak dan gunakan kod yang dijana untuk varian.",
+          graphical_asset_action: "Aset Grafik",
+          graphical_asset_action_caption: "Imej untuk pilihan varian.",
         },
         smart_unit_price: {
-          tips: "butiran butiran butiran butiran butiran <b>butiran butiran</b>, <b>butiran</b>, butiran <b>butiran butiran</b>. butiran butiran butiran butiran, butiran butiran butiran > butiran > butiran > butiran butiran > butiran butiran butiran",
-          smart_unit_price: "butiran butiran butiran",
+          tips: "Kira harga unit berdasarkan <b>berat</b>, <b>isipadu</b> dan <b>saiz pek</b>. Untuk melumpuhkan ciri ini, navigasi ke Kedai > Tetapan > Tema > Halaman Produk > Harga Unit Pintar.",
+          smart_unit_price: "Pengiraan Harga Seunit",
         },
         quantity: {
           title: "Inventori",
-          subtitle: "butiran butiran butiran butiran butiran butiran",
+          subtitle: "Tetapkan tahap stok untuk setiap varian.",
         },
         price: {
           title: "penentuan harga",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Tetapkan harga tersuai untuk varian atau gunakan harga produk lalai.",
         },
         package: {
           title: "butiran & butiran",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-          same_as_product_action: "butiran butiran butiran",
+            "Tentukan berat dan dimensi untuk varian untuk menentukan pilihan penghantaran.",
+          same_as_product_action: "Sama seperti produk",
         },
         image: {
-          title: "butiran butiran",
+          title: "Imej Varian",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Tambahkan imej unik untuk setiap varian. Imej pertama yang dimuat naik akan menjadi imej utama untuk varian tersebut.",
         },
         inputs: {
           sku: {
-            message: "butiran butiran butiran (SKU)",
+            message: "Unit Penyimpanan Stok (SKU)",
           },
           mpn: {
-            message: "butiran butiran butiran (MPN)",
+            message: "Nombor Bahagian Pengilang (MPN)",
           },
           gtin: {
-            label: "butiran butiran item butiran (GTIN)",
+            label: "Nombor Item Perdagangan Global (GTIN)",
             message:
-              "butiran butiran: UPC (12 butiran), EAN (13 butiran), JAN (8 butiran 13 butiran), ISBN (13 butiran).",
+              "Format yang disokong: UPC (12 digit), EAN (13 digit), JAN (8 atau 13 digit), ISBN (13 digit).",
           },
         },
       },
@@ -2507,18 +2507,18 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Perkhidmatan penghantaran yang disediakan bergantung pada saiz dan berat yang disediakan.",
   },
 
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Berat pakej",
     weight_subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    weight_unit: "butiran",
+      "Masukkan jumlah berat pembungkusan produk di sini. Maklumat ini membantu memilih kaedah penghantaran yang betul dan memastikan pesanan tidak melebihi had penghantaran.",
+    weight_unit: "Kg",
     size: "Dimensi Pakej",
     size_subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Masukkan saiz pembungkusan penuh produk di sini. Maklumat ini digunakan untuk memilih kaedah penghantaran yang betul dan memastikan pesanan tidak melebihi had saiz bungkusan.",
 
     width: "Lebar",
     length: "Panjang",
@@ -2526,25 +2526,25 @@ export default {
     lead_time_title: "Masa persediaan",
     lead_time: "Masa persediaan",
     lead_time_subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+      "Masa utama menganggarkan tempoh yang diperlukan untuk menyediakan produk untuk penghantaran, yang membantu dalam menganggarkan masa penghantaran.",
 
     lead_time_dimension: "Jam)",
     bulk_action: "Tindakan pukal",
     bulk_action_subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh menggunakan maklumat pembungkusan pada semua varian produk.",
 
     bulk_action_input: "Kemas kini semua varian",
     bulk_action_msg:
       "Tetapkan masa pembungkusan dan penyediaan produk untuk semua varian.",
-    dynamic_lead_time: "butiran butiran butiran",
-    instant_delivery: "butiran butiran",
+    dynamic_lead_time: "Masa pendahuluan dinamik",
+    instant_delivery: "Penghantaran Segera",
   },
 
   /**
    * @see SGalleryUploadGrid
    */
   gallery_upload_grid: {
-    upload_images: "butiran butiran butiran",
+    upload_images: "Muat Naik Imej",
   },
 
   /**
@@ -2552,29 +2552,29 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "butiran butiran butiran butiran",
-      placeholder: "butiran butiran butiran butiran butiran",
-      success_update_notification: "butiran butiran butiran butiran",
+      title: "Tetapkan Teks Alt Imej",
+      placeholder: "Masukkan teks alt deskriptif...",
+      success_update_notification: "Teks Alt berjaya dikemas kini.",
     },
     dialog_bg_remove: {
-      title: "butiran butiran butiran butiran butiran",
+      title: "Alih Keluar Latar Belakang Secara Automatik",
       action: {
-        title: "butiran butiran butiran butiran",
-        subtitle: "butiran butiran butiran butiran",
+        title: "Alih Keluar Latar Belakang",
+        subtitle: "Buat latar belakang telus.",
       },
-      success_remove_bg_notification: "butiran butiran butiran butiran!",
+      success_remove_bg_notification: "Latar belakang berjaya dialih keluar!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "butiran butiran butiran",
+    title: "Aset Grafik Varian",
     tips: {
       how_it_works:
-        "<b>butiran butiran butiran:</b><br />butiran butiran butiran butiran item butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran <b>{filename}</b> butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran <b><s>butiran</s></b> butiran",
+        "<b>Cara Ia Berfungsi:</b><br />Muat naik imej corak atau item di sini. Untuk menggunakan imej ini sebagai pilihan varian, masukkan <b>{filename}</b> dalam nilai varian. Ambil perhatian bahawa kod ini tidak boleh digunakan dalam nilai <b><s>color</s></b>.",
       how_set_name:
-        "<b>butiran butiran:</b><br />butiran butiran 12 butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 100, butiran butiran butiran butiran butiran butiran butiran",
+        "<b>Petua Penamaan:</b><br />12 aksara pertama nama fail yang dimuat naik akan digunakan sebagai nama aset. Ciri ini sesuai untuk mempamerkan aspek produk yang boleh disesuaikan, seperti saiz tayar untuk motosikal atau corak fabrik. Untuk mengoptimumkan penggunaan ciri ini, elakkan memuat naik imej varian di sini melainkan bilangan aset grafik adalah kurang daripada 100, seperti jenis kayu yang berbeza untuk perabot.",
     },
   },
 
@@ -2582,38 +2582,38 @@ export default {
    * @see ExtraPricingLevels
    */
   extra_pricing_levels: {
-    extra_pricings: "butiran butiran butiran",
-    min_quantity: "butiran butiran",
-    range_is_out_of_stock: "butiran butiran butiran butiran butiran!",
+    extra_pricings: "harga tambahan",
+    min_quantity: "Kuantiti min",
+    range_is_out_of_stock: "Rangkaian kehabisan stok!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "butiran butiran butiran butiran!",
-    set_color_warning: "butiran butiran butiran butiran",
-    set_volume_warning: "butiran butiran butiran butiran",
-    set_pack_warning: "butiran butiran butiran butiran butiran",
-    set_weight_warning: "butiran butiran butiran butiran",
-    set_type_warning: "butiran butiran butiran butiran",
-    set_style_warning: "butiran butiran butiran butiran",
-    out_of_stock: "butiran butiran butiran butiran",
+    duplicated_variant: "Varian ini sudah wujud!",
+    set_color_warning: "Sila pilih warna.",
+    set_volume_warning: "Sila nyatakan kelantangan.",
+    set_pack_warning: "Sila nyatakan saiz pek.",
+    set_weight_warning: "Sila nyatakan berat.",
+    set_type_warning: "Sila pilih jenis.",
+    set_style_warning: "Sila pilih gaya.",
+    out_of_stock: "Pada masa ini kehabisan stok",
 
     image: {
-      tooltip: "⚡ butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      tooltip: "⚡ Seret dan lepaskan imej di sini untuk menetapkannya kepada varian.",
     },
     enable: {
-      true_tooltip: "butiran item butiran butiran butiran butiran butiran butiran butiran",
-      false_tooltip: "butiran item butiran butiran butiran butiran butiran butiran butiran butiran",
+      true_tooltip: "Item ini boleh didapati di kedai dalam talian.",
+      false_tooltip: "Item ini tidak tersedia di kedai dalam talian.",
     },
     restore_dialog: {
-      title: "butiran butiran",
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran?",
-      action: "butiran, butiran butiran",
+      title: "Pulihkan Varian",
+      message: "Adakah anda pasti mahu memulihkan varian yang dipadamkan ini?",
+      action: "Ya, Pulihkan Sekarang",
     },
     notifications: {
-      restore_variant_success: "butiran butiran butiran butiran butiran butiran",
+      restore_variant_success: "Varian produk telah berjaya dipulihkan.",
     },
   },
 
@@ -2672,9 +2672,9 @@ export default {
 
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
-    title: "butiran butiran",
-    subtitle: "butiran butiran butiran butiran butiran butiran",
-    cant_set_here: "butiran butiran butiran",
+    title: "Stor Inventori",
+    subtitle: "Senarai semua produk di kedai.",
+    cant_set_here: "Tidak boleh ditetapkan di sini",
 
     search_input: "Carian Produk...",
     search_input_title: "Cari antara produk kedai",
@@ -2715,62 +2715,62 @@ export default {
    * @see BInventoryBulkPrice
    */
   bulk_price_dialog: {
-    title: "butiran butiran > butiran",
+    title: "Tindakan pukal > Harga",
     message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    check: "butiran butiran butiran butiran",
+      "Jumlah berikut akan digunakan sebagai peratusan kepada harga semua produk di kedai anda. Selain itu, nilai harga yang dikira akan ditukar dengan bijak kepada nombor pusingan terdekat berdasarkan mata wang yang dipilih. Berhati-hati dalam memasukkan nilai.",
+    check: "Saya meluluskan perubahan harga.",
     check_description:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    add_percent_tab: "butiran butiran",
-    add_constant_tab: "butiran butiran",
-    ending_tab: "butiran butiran",
-    marketplace_listing_price: "butiran butiran",
+      "Harga akan ditukar untuk kategori yang dipilih dan semua subkategori.",
+    add_percent_tab: "Tambah Peratus",
+    add_constant_tab: "Tambah Malar",
+    ending_tab: "Strategi penamat",
+    marketplace_listing_price: "Harga Penyenaraian",
 
     constant: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Jumlah tersebut akan ditambah atau ditolak daripada harga semasa produk.",
     },
     ending: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Penamatan harga semasa produk akan ditukar kepada nilai yang ditentukan.",
     },
     marketplace: {
-      title: "butiran butiran butiran",
+      title: "Harga Penyenaraian Pasaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Manual butiran butiran",
+        "Pilihan ini membolehkan anda mengemas kini secara automatik harga penyenaraian produk di pasaran. Kadangkala, harga produk utama mungkin tidak sejajar dengan harga vendor disebabkan perubahan harga manual.",
       strategy: {
         min: {
-          title: "butiran butiran butiran",
+          title: "Tetapkan Harga Minimum",
           description:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Tetapkan harga minimum produk sebagai harga penyenaraian.",
         },
         max: {
-          title: "butiran butiran butiran",
+          title: "Tetapkan Harga Maksimum",
           description:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Tetapkan harga maksimum produk sebagai harga penyenaraian.",
         },
       },
     },
 
     category: {
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Hadkan tindakan pukal kepada kategori dan semua subkategori.",
     },
     vendor: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hadkan tindakan pukal kepada vendor tertentu. Apabila vendor dipilih, kemas kini harga akan digunakan pada produk vendor, yang mewakili harga jualan untuk vendor tersebut.",
       listing_price_need_update_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran butiran butiran butiran), butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Jika anda ingin mengemas kini harga penyenaraian (harga yang dipaparkan dalam senarai produk), anda harus menyerahkan semula kemas kini pukal dengan penapis yang sama tetapi tanpa memilih vendor.",
     },
-    listing_products_changes: "butiran butiran butiran",
-    total_vendor_products: "butiran butiran butiran",
-    total_products: "butiran butiran",
-    total_variants: "butiran butiran",
+    listing_products_changes: "Penyenaraian produk berubah",
+    total_vendor_products: "Jumlah produk vendor",
+    total_products: "Jumlah produk",
+    total_variants: "Jumlah varian",
   },
 
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Auto simpan",
-    auto_save_input_message: "butiran butiran butiran butiran butiran",
+    auto_save_input_message: "Perubahan akan disimpan secara automatik.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2795,60 +2795,60 @@ export default {
 
   /** {@see BPageShopFinanceGateways} **/
   b_page_shop_finance_gateway: {
-    title: "butiran butiran",
+    title: "Kaedah Pembayaran",
     sub_title:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran 10 butiran butiran butiran",
-    add_gateway: "butiran butiran butiran",
+      "Senarai kaedah pembayaran aktif. Jika anda ingin menambah kaedah baharu pada kedai anda, tekan butang berikut. Kami sangat mengesyorkan agar tidak melebihi 10 gerbang pembayaran tambahan.",
+    add_gateway: "Kaedah pembayaran baharu",
 
     add_gateway_dialog: {
-      title: "butiran butiran butiran",
-      country_currencies: "butiran butiran",
-      crypto_currencies: "butiran",
+      title: "Pilih Mata Wang",
+      country_currencies: "mata wang tempatan",
+      crypto_currencies: "Mata wang kripto",
 
       confirm: "Tambahkan kaedah pembayaran",
 
-      online_methods: "butiran butiran butiran",
+      online_methods: "Kaedah Dalam Talian",
       cod_methods: "Tunai Semasa Penghantaran",
-      bank_transfer: "butiran butiran",
-      cash_methods: "butiran butiran (POS)",
+      bank_transfer: "Pindahan Bank",
+      cash_methods: "Bayaran Tunai (POS)",
 
       currency_step: {
-        title: "butiran butiran butiran butiran",
+        title: "Pilih mata wang",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran—butiran butiran butiran 3. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Cuba pastikan bilangan mata wang dalam kedai anda pada tahap minimum—sebaik-baiknya kurang daripada 3. Kebanyakan gerbang pembayaran boleh memproses transaksi dalam hampir mana-mana mata wang.",
         add_first_currency: {
-          subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          subtitle: "Sila tambah mata wang pada kedai anda sebelum meneruskan.",
           title: "Tambah Mata Wang",
         },
       },
       gateway_step: {
-        title: "butiran butiran butiran",
+        title: "Kaedah pembayaran aktif",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Sila pilih daripada kaedah pembayaran yang tersedia. Sebaik sahaja anda memilih gerbang, anda akan dapat memasukkan butiran sambungan yang diperlukan untuk memautkan kedai anda terus ke kaedah pembayaran pilihan anda.",
       },
 
       config_step: {
-        import_config: "butiran butiran Import butiran butiran butiran butiran butiran",
+        import_config: "Anda boleh mengimport konfigurasi daripada gerbang lain yang serupa",
         import_from: "Import butiran",
       },
 
       request_add_new_gateway: {
-        title: "butiran butiran butiran butiran butiran butiran?",
+        title: "Tidak melihat kaedah pembayaran pilihan anda?",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran) butiran butiran butiran butiran butiran butiran butiran butiran 48 butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "If your local payment provider isn't listed, subscribe to any yearly plan (including Startup for affordability) and request an integration. Kami akan menyelesaikannya dalam masa 48 jam jika akaun ujian dan dokumentasi disediakan.",
       },
 
       inputs: {
         currency: {
-          placeholder: "butiran butiran butiran butiran butiran",
+          placeholder: "Pilih gerbang untuk diimport...",
         },
         manual: {
-          true_title: "butiran butiran",
-          true_description: "butiran butiran butiran butiran butiran butiran",
+          true_title: "Mod secara manual",
+          true_description: "Anda boleh menetapkan konfigurasi get laluan secara manual.",
 
-          false_title: "butiran butiran",
+          false_title: "Sambung automatik",
           false_description:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Sistem akan bersambung secara automatik ke get laluan jika anda sudah mempunyai gateway yang dikonfigurasikan di tempatnya.",
         },
       },
     },
@@ -2860,7 +2860,7 @@ export default {
       nodata: "Tiada soalan ditemui.",
       more_data_action: "Lagi soalan..",
       user: "pengguna",
-      tag: "butiran",
+      tag: "Tag",
       question: "soalan",
       officer: "Kakitangan",
       answer: "Jawab",
@@ -3074,26 +3074,26 @@ export default {
 
     config: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kategori membantu memperkemas pengurusan produk dan memudahkan pelanggan anda mencari produk di kedai anda.",
     },
     parent: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kategori ini akan muncul di bawah kategori induknya. Jika produk tidak mempunyai kategori induk, ia akan dipaparkan dalam kategori utama.",
     },
     template: {
       title: "templat",
-      edit_page: "butiran butiran",
-      Pages_list: "butiran butiran",
+      edit_page: "Edit Halaman",
+      Pages_list: "Senarai Halaman",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 1 butiran 2 butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh meningkatkan paparan halaman kategori anda dengan menindih halaman tersuai. Pendekatan terbaik ialah membuat halaman dengan latar belakang telus dan mereka bentuk 1 hingga 2 bahagian khusus untuk setiap kategori. Anda kemudiannya boleh memautkan satu halaman kepada berbilang kategori, menggunakan kandungan dinamik untuk menyesuaikan setiap kategori secara individu.",
     },
     critical_zone: {
-      title: "butiran butiran",
+      title: "Zon Kritikal",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran<b>📁 {parent}</b>. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran > butiran butiran",
+        "Jika anda mengalih keluar kategori, subkategori dan produknya akan dialihkan ke direktori induk<b>📁 {parent}</b>. Untuk mengurus kategori yang tiada dalam senarai produk, pergi ke tab Kedai > Kategori.",
       accept_delete: {
-        true_description: "butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran butiran butiran",
+        true_description: "Saya mahu mengalih keluar kategori ini.",
+        true_title: "Sahkan Alih Keluar Kategori",
       },
     },
 
@@ -3140,7 +3140,7 @@ export default {
       spec_input: "Senarai Spesifikasi Teknikal",
 
       price: "harga",
-      min: "butiran",
+      min: "Min",
       max: "Maks",
       suggested_list: {
         brand: "Jenama",
@@ -3155,13 +3155,13 @@ export default {
         edit_success: "Kategori disunting.",
       },
       manually_update_filters_tips:
-        "<b>butiran!</b> butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "<b>Penting!</b> Penapis dikemas kini secara automatik apabila produk berubah. Walau bagaimanapun, selepas membuat perubahan pada produk dalam kategori, sila kembali ke sini dan klik butang simpan/jana semula untuk memuat semula penapis.",
 
       inputs: {
         spec: {
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-          placeholder: "butiran butiran butiran butiran butiran butiran",
+            "Senarai ciri yang anda mahu ditunjukkan dalam bahagian penapis",
+          placeholder: "Pilih spesifikasi untuk ditunjukkan dalam penapis...",
         },
       },
     },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Penerangan kedai",
     description_input_message: "Tulis penerangan ringkas tentang perniagaan anda.",
     description_input_tips:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Meta",
+      "Perihalan ini akan muncul dalam pengaki kedai anda dan juga akan digunakan sebagai perihalan teg meta lalai untuk halaman kedai anda.",
     address_input: "Alamat Kedai",
     address_input_message: "Masukkan alamat lokasi kedai yang tepat",
 
@@ -3247,7 +3247,7 @@ export default {
     table: {
       nodata: "Tiada barang",
       product: "produk",
-      data: "butiran",
+      data: "Data",
       status: "Status",
       user_message: "Mesej pengguna",
       updated_at: "Kemaskini terakhir",
@@ -3325,24 +3325,24 @@ export default {
       title: "Sebab Tolak Pesanan",
       message:
         "Pilih sebab untuk menolak pesanan ini daripada senarai di bawah. Pastikan anda memaklumkan pelanggan tentang proses pembatalan dan bayaran balik. Bayaran balik mesti dibuat dalam masa 12 jam.",
-      confirm_now_action: "butiran butiran butiran",
-      confirm_in48h_action: "butiran butiran butiran 48 butiran",
+      confirm_now_action: "Batalkan Pesanan Sekarang",
+      confirm_in48h_action: "Batalkan Pesanan Dalam 48 Jam",
 
       dismiss_reject_action: "Tolak pembatalan pesanan",
 
       options: {
-        title: "butiran",
+        title: "Pilihan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran",
+          "Jika anda ingin membatalkan pesanan anda dengan segera, anda boleh menggunakan pilihan ini.",
       },
 
       express_input: {
-        true_title: "butiran | butiran butiran butiran",
-        false_title: "butiran | butiran butiran butiran 48 butiran",
+        true_title: "Ekspres | Batalkan Pesanan Segera",
+        false_title: "Standard | Batalkan Pesanan Selepas 48 Jam",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pilihan ini akan membatalkan pesanan anda serta-merta dan mengemas kini inventori dengan segera.",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran 48 butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pilihan ini akan membatalkan pesanan anda selepas 48 jam. Sehingga itu, barangan akan ditempah dan tidak boleh dibeli oleh orang lain.",
       },
     },
 
@@ -3354,9 +3354,9 @@ export default {
         "Pesanan kembali kepada proses biasa.",
       set_tracking_success: "ID Jejak Pesanan berjaya disimpan.",
       shipping_address_update_success:
-        "butiran butiran butiran butiran butiran butiran",
+        "Alamat penghantaran telah berjaya dikemas kini.",
       vendor_order_status_update_success:
-        "butiran butiran Status butiran butiran butiran butiran",
+        "Status pemenuhan vendor telah berjaya dikemas kini.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Pembayaran belum selesai",
       processing_payment: "Memproses pembayaran",
       processing_cancel: "Pembayaran dibatalkan",
-      require_capture: "butiran butiran",
+      require_capture: "Memerlukan tangkapan",
       paid: "Dibayar",
       cod_pay_info:
         "Apabila anda telah menerima pesanan daripada pelanggan anda boleh mengesahkan pembayaran dan menyelesaikan pesanan.",
@@ -3519,24 +3519,24 @@ export default {
         "Pelanggan anda memenangi 1x ganda produk ini. Hantar hadiah dengan pesanan ini.",
 
       need_to_refund: {
-        title: "butiran butiran butiran butiran butiran",
+        title: "Bayaran balik diperlukan kepada pelanggan",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "We calculate the total amount of refunds that you need to make manually. Ia dikira berdasarkan item yang tidak tersedia dan jumlah nilai yang dikembalikan.",
         calculated_approximately:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Jumlahnya dikira lebih kurang. Sila hitung sendiri jumlah yang tepat.",
       },
       need_payback: {
-        title: "butiran butiran butiran",
+        title: "Caj pelanggan diperlukan",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Kami mendapati bahawa jumlah yang dikembalikan kepada pelanggan adalah lebih tinggi daripada jumlah yang perlu dibayar berdasarkan item dalam troli. Anda mungkin perlu mengenakan bayaran kepada pelanggan anda untuk mendapatkan semula jumlah yang berlebihan.",
       },
       need_no_refund: {
-        title: "butiran butiran butiran",
+        title: "Tiada bayaran balik diperlukan",
       },
       total_refund: {
-        title: "butiran butiran",
+        title: "Jumlah yang dikembalikan",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+          "Ini ialah jumlah bayaran balik yang dibuat secara automatik oleh gerbang pembayaran anda. Hanya sesetengah perkhidmatan pembayaran menyokong ciri ini, jadi anda perlu membuat bayaran balik secara manual.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3549,9 +3549,9 @@ export default {
       weight_warning: "Melebihi berat yang dibenarkan.",
       volume_warning: "Melebihi saiz pakej yang dibenarkan.",
       items_weight_calculation:
-        "butiran butiran butiran butiran butiran butiran butiran {weight} {unit}",
+        "Berat gabungan semua item ialah {weight} {unit}",
       not_available_message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+        "Ia tidak tersedia apabila anda kurang upaya meminta alamat penghantaran dan juga pengguna tidak mengisi alamat selepas pembelian!",
 
       message:
         "Klik butang <b>Sedia Pesanan</b> berikut jika pesanan sedia untuk dihantar.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Laporan Pembayaran",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Membuat pembayaran dan transaksi yang dibuat dalam tempoh masa yang dipilih.",
         chart: {
           times: "Kira",
           buys: "Kiraan beli",
@@ -3658,45 +3658,45 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "info",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+    subtitle: "Gambaran keseluruhan konfigurasi dan status gerbang pembayaran.",
     status: "Status",
-    cod_transportation: "butiran butiran",
+    cod_transportation: "Penghantaran yang Disokong",
     cod_transportations_error:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
-    payment_type: "butiran butiran",
+      "Dayakan pembayaran tunai semasa penghantaran untuk sekurang-kurangnya satu kaedah penghantaran!",
+    payment_type: "Jenis pembayaran",
     cod: "Tunai Semasa Penghantaran",
-    online: "butiran butiran butiran",
-    wage_percent: "butiran butiran",
-    min_wage: "butiran butiran",
-    max_wage: "butiran butiran",
-    min_amount: "butiran butiran",
-    max_amount: "butiran butiran",
-    timeout: "butiran butiran",
-    timeout_unit: "butiran",
-    link: "butiran butiran",
-    your_gateway_status: "butiran butiran Status",
+    online: "Pembayaran dalam talian",
+    wage_percent: "Peratus Yuran",
+    min_wage: "Yuran Minimum",
+    max_wage: "Yuran Maksimum",
+    min_amount: "Transaksi Minimum",
+    max_amount: "Transaksi Maksimum",
+    timeout: "Tempoh Pembayaran",
+    timeout_unit: "Detik",
+    link: "Pautan Gerbang",
+    your_gateway_status: "Status gerbang anda",
     oauth2_button: "butiran Connect butiran {gateway}",
     fee_payment_message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone",
+      "Jumlah keseluruhan yang dibayar oleh pelanggan akan dipindahkan ke akaun anda. Yuran perkhidmatan akan ditolak daripada dompet anda di Selldone.",
 
-    auto_config: "butiran butiran",
+    auto_config: "Autokonfigurasi",
 
     keys: {
-      title: "butiran butiran",
+      title: "Kunci Peribadi",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Senarai kunci peribadi untuk pembayaran. Maklumat ini penting untuk membuat dan mengurus pembayaran.",
     },
     extra_config: {
-      title: "butiran butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Konfigurasi perkhidmatan pembayaran",
+      subtitle: "Maklumat konfigurasi tambahan untuk gerbang pembayaran.",
     },
 
     recommended_actions: {
-      title: "butiran butiran",
+      title: "Tindakan yang disyorkan",
       subtitle:
-        "butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      action_enable: "butiran butiran butiran butiran",
-      make_live_enable: "butiran butiran butiran butiran",
+        "Dengan mengambil langkah ini, anda akan mula menerima bayaran sebenar daripada pelanggan anda.",
+      action_enable: "Klik untuk membolehkannya",
+      make_live_enable: "Klik untuk menghidupkannya",
     },
   },
 
@@ -3705,14 +3705,14 @@ export default {
     public_keys: "Kunci Awam",
     private_keys: "Kunci peribadi (rahsia)",
     link: "laman web",
-    status_title: "butiran butiran Status",
+    status_title: "Status perkhidmatan pembayaran",
     status_message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    status_true_description: "butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Konfigurasikan kaedah pembayaran sebagai Aktif atau Tidak Aktif. Hanya kaedah yang ditetapkan sebagai aktif akan dipaparkan kepada pelanggan.",
+    status_true_description: "Pelanggan anda boleh membayar dengan kaedah pembayaran ini.",
 
-    manual_title: "Manual / butiran butiran butiran",
+    manual_title: "Pembayaran manual / tangkapan automatik",
     manual_message:
-      "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Apabila anda membuat pembayaran, anda boleh menahan kaedah pembayaran yang layak untuk menempah dana yang boleh anda tangkap kemudian. Sebagai contoh, hotel sering membenarkan pembayaran sepenuhnya sebelum tetamu tiba, kemudian menangkap wang itu apabila tetamu mendaftar keluar.",
 
     gateway_status: "Status",
     wallet: "Dompet rantaian blok",
@@ -3723,44 +3723,44 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} diedit.",
-      success_delete: "butiran butiran butiran butiran butiran!",
+      success_delete: "Kaedah pembayaran telah dipadamkan!",
     },
     debug: {
       title: "butiran & butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Anda boleh mendayakan mod nyahpepijat untuk menguji gerbang pembayaran.",
     },
 
     limit: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Had Pesanan",
+      subtitle: "Tetapkan jumlah pesanan minimum untuk gerbang pembayaran ini.",
     },
     limit_input: {
-      title: "butiran butiran butiran",
-      msg: "butiran butiran butiran butiran",
+      title: "Jumlah pesanan minimum",
+      msg: "Sifar bermakna tiada had.",
     },
     currency_input: {
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran",
+      message: "Mata wang yang disokong oleh gerbang pembayaran ini.",
     },
-    gateway_code: "butiran butiran",
+    gateway_code: "Kod Gerbang",
 
-    hold_only_for: "butiran butiran butiran butiran butiran",
+    hold_only_for: "Tahan pembayaran hanya tersedia untuk",
     manual_input: {
       false_description:
-        "butiran butiran Status butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      false_title: "butiran butiran butiran",
-      true_title: "butiran butiran butiran Manual butiran",
+        "Status pembayaran akan ditukar secara automatik daripada belum selesai kepada disahkan dalam sistem pembekal pembayaran.",
+      false_title: "Pengesahan pembayaran automatik",
+      true_title: "Tahan pembayaran dan pengesahan Manual",
       true_description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Status butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tahan pembayaran supaya anda perlu mengesahkan pembayaran untuk pesanan untuk menukar statusnya daripada belum selesai kepada disahkan dalam sistem penyedia pembayaran.",
     },
     delete_verify_input: {
-      true_title: "butiran butiran butiran butiran butiran butiran butiran butiran",
+      true_title: "Saya mahu mengalih keluar kaedah pembayaran ini.",
       true_description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kaedah pembayaran ini akan dialih keluar daripada kedai dan tidak akan tersedia kepada pelanggan.",
     },
     delete_alert: {
-      title: "butiran butiran butiran",
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran?",
-      action: "butiran butiran butiran",
+      title: "Padamkan kaedah pembayaran",
+      message: "Adakah anda pasti memadamkan kaedah pembayaran ini daripada kedai anda?",
+      action: "Padamkan kaedah pembayaran",
     },
   },
 
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Senarai kad yang dikeluarkan",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Lihat dan urus semua kad yang dikeluarkan. Anda boleh menghantar kad kepada pengguna secara manual atau melarangnya jika perlu.",
 
       loading_message: "Mendapat maklumat ... sila tunggu",
       issue_to_user: "Isu kepada pengguna",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Senarai pesanan yang disegerakkan secara luaran yang perlu dipenuhi oleh pembekal pihak ketiga.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -3972,7 +3972,7 @@ export default {
     balance: "Seimbang",
     locked: "Terkunci",
     transfer: "Pemindahan",
-    charge: "butiran",
+    charge: "Deposit",
   },
 
   /** {@see TimelineStatus} **/
@@ -3981,7 +3981,7 @@ export default {
     info: "{message}",
     error: "{message}",
 
-    buy: "butiran",
+    buy: "Checkout",
     payment: "Bayaran",
 
     confirm:
@@ -4020,32 +4020,32 @@ export default {
     "connect-confirmed": "Perintah itu disahkan.",
 
     "vendor-payout": "💸 Bayaran kepada vendor.",
-    "vendor-wallet-transaction": "butiran butiran butiran",
+    "vendor-wallet-transaction": "Urus niaga dompet vendor.",
 
     "vendor-sms":
-      "🔔 butiran butiran SMS butiran butiran butiran butiran <b>{vendor}</b> ╏ {phone}.",
+      "🔔 SMS maklumkan pesanan telah dihantar ke <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
     "email-buy": "Hantar e-mel pengesahan pembelian kepada pelanggan.",
     "email-payment": "Hantar e-mel pengesahan pembayaran kepada pelanggan.",
-    "email-update": "butiran butiran butiran butiran butiran butiran butiran",
+    "email-update": "Hantar e-mel kemas kini pesanan kepada pelanggan.",
 
     "email-vendor":
       "🔔 E-mel maklumkan pesanan telah dihantar kepada <b>{vendor}</b> ╏ {email}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "butiran butiran butiran butiran SMS butiran butiran butiran butiran {phone}.",
+      "Hantar SMS pengesahan pembayaran kepada pelanggan melalui {phone}.",
     "sms-ready-to-ship":
-      "butiran butiran SMS butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran {phone}.",
+      "Hantar SMS kepada pelanggan memberitahu bahawa pesanan mereka sedia untuk dihantar melalui {phone}.",
     "sms-ready-to-pickup":
-      "butiran butiran SMS butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran {phone}.",
+      "Hantar SMS kepada pelanggan yang memberitahu bahawa pesanan mereka sedia untuk diambil melalui {phone}.",
     "sms-order-confirmation":
-      "butiran butiran butiran butiran SMS butiran butiran butiran butiran {phone}.",
+      "Hantar SMS pengesahan pesanan kepada pelanggan melalui {phone}.",
 
     "count-adjustment":
-      "butiran butiran butiran butiran butiran \"{product}\" butiran butiran butiran butiran {from} butiran {to}.",
+      "Kuantiti produk \"{product}\" telah dikemas kini daripada {from} kepada {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Alihkan kategori <b>{category}</b> ke kategori lain",
     move_product: "Alihkan produk <b>{product}</b> ke kategori",
     load_more_products:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Lebih banyak produk tersedia dalam kategori ini. Klik untuk memuatkan lebih banyak item.",
     product_menu: {
       dashboard: "Papan pemuka produk",
       inventory: "Inventori dan Varian",
@@ -4069,73 +4069,73 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "butiran butiran butiran butiran butiran butiran butiran butiran",
-      has_root_filter_message: "butiran butiran butiran butiran butiran butiran",
-      set_filter_message: "butiran butiran butiran butiran",
-      edit_action: "butiran butiran butiran",
-      clear_action: "butiran butiran butiran",
+      no_root_filter_message: "Anda mempunyai produk dalam akar tetapi tiada penapis.",
+      has_root_filter_message: "Anda menetapkan penapis untuk kategori akar.",
+      set_filter_message: "Anda boleh menetapkan penapis.",
+      edit_action: "Edit Penapis Akar",
+      clear_action: "Kosongkan Penapis Akar",
     },
     ai: {
-      title: "AI butiran butiran",
+      title: "Bantuan Produk AI",
     },
     menu: {
-      select_all_products: "butiran butiran butiran",
-      unselect: "butiran",
-      sort_categories: "butiran / butiran butiran",
+      select_all_products: "Pilih semua produk",
+      unselect: "Nyahpilih",
+      sort_categories: "Susun / Isih Kategori",
       subscription_vendor_not_support_message:
-        "butiran butiran butiran butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+        "Tidak boleh menetapkan vendor untuk produk langganan! Produk langganan mesti sentiasa mempunyai vendor sebagai pemiliknya!",
       vendor_owner_not_assignable_message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
-      category_assign_profile: "butiran butiran butiran butiran butiran butiran butiran",
-      category_assign_profile_subtitle: "butiran, butiran, butiran, butiran,...",
-      bulk_discount: "butiran butiran",
-      bulk_discount_subtitle: "butiran butiran butiran butiran butiran",
+        "Tidak boleh menetapkan vendor untuk produk dengan vendor sebagai pemiliknya!",
+      category_assign_profile: "Berikan profil kepada produk dalam kategori",
+      category_assign_profile_subtitle: "Cukai, Penghantaran, Panduan, Waranti,...",
+      bulk_discount: "Diskaun pukal",
+      bulk_discount_subtitle: "Gunakan diskaun untuk semua produk.",
     },
 
     engine: {
-      title: "butiran butiran butiran",
+      title: "Enjin Produk Tambahan",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      load_in_tips: "butiran butiran butiran butiran butiran butiran {category}.",
+        "Lebih banyak produk akan dimuatkan daripada kategori dan teg terpilih.",
+      load_in_tips: "Muatkan produk daripada kategori dalam {category}.",
       action: "butiran {category} butiran",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "butiran butiran / CSV butiran butiran",
-      select_file: "butiran butiran",
-      max_file: "butiran butiran butiran: 20butiran",
-      download_sample: "butiran butiran butiran",
+      title: "Lepaskan fail Excel / CSV di sini.",
+      select_file: "Pilih fail",
+      max_file: "Saiz fail maksimum: 20mb",
+      download_sample: "Muat turun sampel",
     },
     ai: {
-      title: "AI butiran butiran",
+      title: "Bantuan Produk AI",
     },
   },
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "butiran butiran",
-    no_panel: "butiran butiran",
+    has_panel: "Mempunyai panel",
+    no_panel: "Tiada panel",
     manual_action: {
       title: "Manual butiran",
-      message: "butiran butiran butiran butiran butiran butiran butiran Status butiran",
+      message: "Anda boleh mengemas kini status pesanan vendor secara manual.",
       guides: [
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran) butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran Status butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran",
+        "Vendor dengan akses panel boleh mengemas kini pemenuhan (sub-pesanan) mereka dalam papan pemuka khusus mereka.",
+        "Jika vendor tidak mempunyai akses panel, status pesanan vendor akan ditukar secara automatik dengan menukar status bakul.",
+        "Anda boleh mengemas kini pesanan vendor secara manual.",
       ],
     },
     payouts: {
-      title: "butiran",
-      message: "butiran butiran butiran butiran butiran butiran",
+      title: "Bayaran",
+      message: "Urus pembayaran dan transaksi vendor.",
 
-      charge_tooltip: "butiran butiran butiran",
-      withdraw_tooltip: "butiran butiran butiran butiran",
-      payout_tooltip: "butiran butiran butiran butiran",
+      charge_tooltip: "Caj dompet vendor.",
+      withdraw_tooltip: "Keluarkan dari dompet vendor.",
+      payout_tooltip: "Bayaran kepada vendor.",
     },
-    order_canceled: "butiran butiran",
-    order_rejected: "butiran butiran butiran butiran",
+    order_canceled: "Pesanan dibatalkan",
+    order_rejected: "Pesanan ditolak oleh vendor",
   },
 
   /**
@@ -4143,27 +4143,27 @@ export default {
    */
   vendor_dashboard: {
     info: {
-      subtitle: "butiran butiran",
+      subtitle: "Maklumat pasaran.",
     },
     performance: {
-      subtitle: "butiran butiran butiran",
+      subtitle: "Prestasi jualan saya.",
     },
     products: {
       title: "Produk",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Di sini anda boleh melihat kiraan produk anda yang disenaraikan di pasaran. Produk oleh berbilang vendor tidak disertakan.",
     },
     wallets: {
       title: "Dompet saya",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran",
+        "Anda tidak perlu menambah dompet secara manual! Dompet vendor akan dibuat secara automatik.",
     },
 
-    open_marketplace_page: "butiran butiran butiran",
-    open_my_store_page: "butiran butiran butiran butiran",
-    open_my_listing_page: "butiran butiran butiran butiran",
-    add_products_permission: "butiran butiran butiran",
-    add_categories_permission: "butiran butiran butiran",
+    open_marketplace_page: "Buka halaman pasaran",
+    open_my_store_page: "Buka halaman kedai saya",
+    open_my_listing_page: "Buka halaman penyenaraian saya",
+    add_products_permission: "Tambahkan kebenaran produk",
+    add_categories_permission: "Tambah kebenaran kategori",
   },
 
   /**
@@ -4172,20 +4172,20 @@ export default {
   vendor_inventory: {
     title: "Senarai produk",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Ini ialah senarai produk anda di pasaran. Kemas kini harga dan kuantiti untuk produk yang anda tetapkan dalam inventori. Sebagai vendor, anda hanya akan melihat produk penjual tunggal yang anda miliki dalam senarai produk. Produk lain yang diperuntukkan boleh diubah suai di sini juga.",
   },
 
   /**
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "butiran butiran",
+    title: "Ahli Pasukan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    add_action: "butiran butiran butiran",
+      "Ini ialah senarai pengguna yang mempunyai akses kepada panel vendor anda. Anda boleh menambah ahli pasukan baharu dan menyesuaikan kebenaran mereka di sini.",
+    add_action: "Tambah Ahli Baru",
     pending: {
-      title: "butiran butiran butiran butiran",
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Jemputan Menunggu",
+      message: "Lihat senarai jemputan yang sedang menunggu penerimaan.",
     },
   },
 
@@ -4193,35 +4193,35 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "butiran butiran butiran",
-    title_new: "butiran butiran butiran butiran",
+    title_edit: "Edit Ahli Pasukan",
+    title_new: "Tambah Ahli Pasukan Baharu",
     member: {
-      title: "butiran butiran butiran",
+      title: "Butiran Ahli Pasukan",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran item butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tambah ahli pasukan baharu dan tetapkan kebenaran mereka. Klik pada setiap item untuk melaraskan akses baca/tulis. Setiap baris sepadan dengan tahap kebenaran untuk papan pemuka kedai utama.",
     },
     access: {
-      view_data: "butiran butiran",
-      apply_changes: "butiran butiran",
+      view_data: "Lihat Data",
+      apply_changes: "Simpan Perubahan",
     },
     inputs: {
       email: {
         label: "Alamat emel",
-        placeholder: "butiran butiran butiran butiran butiran",
+        placeholder: "Masukkan alamat e-mel ahli...",
       },
     },
     notifications: {
       add_success: {
-        title: "butiran butiran",
-        message: "butiran butiran butiran butiran butiran butiran butiran",
+        title: "Ahli Ditambah",
+        message: "Ahli pasukan telah berjaya ditambah.",
       },
       update_success: {
-        title: "butiran butiran",
-        message: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        title: "Ahli dikemas kini",
+        message: "Maklumat ahli pasukan telah berjaya dikemas kini.",
       },
     },
     actions: {
-      add: "butiran butiran",
+      add: "Tambah Ahli",
     },
   },
 
@@ -4230,28 +4230,28 @@ export default {
    */
   vendor_payments: {
     list: {
-      title: "butiran butiran",
+      title: "Sejarah pembayaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh melihat sejarah pembayaran anda di sini. Pembayaran ini boleh diproses secara manual melalui pindahan bank atau secara automatik menggunakan perkhidmatan pembayaran yang menawarkan keupayaan pembayaran.",
     },
     connect: {
       title: "Connect butiran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kami menawarkan keupayaan pembayaran berpecah untuk gerbang pembayaran berikut. Untuk menerima pembayaran dengan lancar selepas setiap pembelian, sila sambungkan akaun bank anda menggunakan pilihan ini.",
     },
     verify_dialog: {
-      title: "butiran butiran",
+      title: "Sahkan pembayaran",
       option: {
-        title: "butiran butiran",
+        title: "Tindakan vendor",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran; butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+          "Anda mempunyai pilihan untuk menerima atau menolak pemindahan ini. Tindakan ini berfungsi sebagai rekod sejarah sahaja. Hanya sahkan jika anda telah menerima dana; jika tidak, tidak perlu mengambil sebarang tindakan.",
       },
       inputs: {
         verify: {
-          label: "butiran butiran butiran butiran butiran?",
+          label: "Adakah anda telah mengesahkan pembayaran ini?",
           false_description:
-            "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-          true_description: "butiran, butiran butiran butiran butiran butiran butiran butiran",
+            "Tidak, saya belum menerima bayaran ini dalam akaun bank saya.",
+          true_description: "Ya, saya telah menerima dan mengesahkan pembayaran ini.",
         },
       },
     },
@@ -4261,16 +4261,16 @@ export default {
    * @see BVendorOrderRefund
    */
   vendor_order_refund: {
-    title: "butiran butiran",
+    title: "Bayaran balik pesanan",
     subtitle:
-      "<b>butiran! </b>butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran Stripe Connect butiran Manual butiran butiran), butiran butiran butiran butiran <b>butiran butiran</b>.",
+      "<b>Penting! </b>Melaksanakan tindakan ini akan menghasilkan transaksi negatif dalam dompet vendor dan menolak jumlah yang dipilih daripadanya. Jumlah tidak boleh melebihi jumlah transaksi yang tinggal untuk pesanan yang dipilih. Selain itu, jika dana telah dipindahkan ke akaun bank yang disambungkan (seperti Stripe Connect atau pindahan kawat manual), anda harus membuat pemindahan <b>reversal</b>.",
     inputs: {
       note: {
-        message: "butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran butiran butiran butiran",
+        message: "Ia kelihatan kepada vendor.",
+        placeholder: "Anda boleh melampirkan nota di sini...",
       },
       amount: {
-        error_message: "butiran butiran butiran butiran butiran butiran",
+        error_message: "Jumlah baki telah melebihi.",
       },
     },
   },
@@ -4278,15 +4278,15 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    vendor_wallets: "butiran butiran",
+      "Ini memberikan gambaran keseluruhan transaksi dalam dompet maya vendor di pasaran. Setiap kali pesanan dibuat, bahagian jualan penjual ditambahkan pada dompet mereka.",
+    vendor_wallets: "Dompet Penjual",
     my_wallets: "Dompet saya",
-    refund_order_action: "butiran butiran",
+    refund_order_action: "Pesanan Bayaran Balik",
     automatic_payout_list: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran Manual butiran butiran butiran butiran butiran",
+        "Ini ialah senarai pembayaran automatik ke akaun bank anda yang disambungkan. Sila ambil perhatian bahawa hanya pembayaran automatik akan dipaparkan di sini dan pembayaran manual tidak akan ditunjukkan.",
     },
-    reversal_transfer_action: "butiran butiran",
+    reversal_transfer_action: "Pemindahan Pembalikan",
   },
 
   /** {@see BPageOrderPhysicalTrack} **/
@@ -4310,8 +4310,8 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran, butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    add_note_subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      "Dalam bahagian ini, anda boleh melihat garis masa acara yang berkaitan dengan pesanan, pemenuhan, pembayaran dan status masing-masing. Selain itu, anda boleh melihat pesanan yang dihantar kepada kedua-dua pelanggan dan vendor.",
+    add_note_subtitle: "Tulis mesej dan sebutkan rakan sekerja anda.",
 
     message_input: "Tulis mesej di sini...",
     pin_action: "Sematkan ke atas",
@@ -4484,7 +4484,7 @@ export default {
   user_monetize_plans: {
     title: "Projek Kerjasama dan Pengewangan",
     sub_title:
-      "butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran (butiran butiran butiran). butiran butiran butiran butiran Selldone VIP butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda akan dikreditkan dengan ganjaran rujukan dalam dompet Seldone anda dan dana ini boleh digunakan untuk membayar yuran perkhidmatan Selldone (tersedia untuk semua). Sila ambil perhatian bahawa hanya rakan kongsi perniagaan VIP Selldone yang mempunyai keupayaan untuk menarik balik kredit rujukan ini, dan pilihan ini tidak tersedia untuk semua pengguna.",
 
     discount: "Diskaun",
     your_income: "Pendapatan anda",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Profil Utama",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Edit maklumat profil awam anda di sini. Maklumat ini mungkin kelihatan kepada pelanggan anda atau pengguna lain.",
       full_name_input: "Nama penuh",
       tel_input: "Nombor telefon",
       email_input: "E-mel",
@@ -4569,7 +4569,7 @@ export default {
   phone_verify: {
     title: "Nombor telefon",
     step1_title:
-      "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran SMS",
+      "Masukkan nombor mudah alih anda dan anda akan menerima SMS pengesahan.",
     phone_number_input: "Nombor telefon",
     next: "Langkah seterusnya",
     sms_code_input: "Kod pengesahan",
@@ -4596,7 +4596,7 @@ export default {
     website_input: "laman web",
     email_input: "E-mel",
     address_input: "alamat",
-    tel_input: "butiran",
+    tel_input: "Tel",
     mobile_input: "mudah alih",
     edit_action: "Edit syarikat",
     create_action: "Buat syarikat",
@@ -4743,7 +4743,7 @@ export default {
     table: {
       client_id: "ID Pelanggan",
       app: "Aplikasi",
-      name: "butiran",
+      name: "Alias",
       secret_key: "Kunci Rahsia",
     },
     create_dialog: {
@@ -4807,8 +4807,8 @@ export default {
       description: "Baca alamat yang disimpan dari buku alamat.",
     },
     "user:profile:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Pengurusan Profil",
+      description: "Edit dan urus maklumat profil pengguna.",
     },
 
     //--------------------------- Storefront ---------------------------
@@ -4831,184 +4831,184 @@ export default {
       description: "Edit Artikel.",
     },
     "backoffice:notifications": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Pengurusan Pemberitahuan",
+      description: "Hantar dan terima pemberitahuan.",
     },
     "backoffice:order:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Pengurusan Pesanan",
+      description: "Edit dan urus pesanan kedai.",
     },
     "backoffice:order:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Akses Pesanan",
+      description: "Baca pesanan kedai.",
     },
     "backoffice:support-tickets": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Tiket Sokongan",
+      description: "Urus tiket sokongan.",
     },
     "backoffice:shop:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Maklumat Kedai",
+      description: "Baca butiran dan statistik kedai.",
     },
     "backoffice:shop:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Pengurusan Kedai",
+      description: "Buat dan urus butiran kedai.",
     },
     "backoffice:shop:add": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran butiran",
+      name: "Tambah Kedai",
+      description: "Tambahkan kedai baharu pada sistem.",
     },
     "backoffice:shop:delete": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Padamkan Kedai",
+      description: "Padamkan kedai daripada sistem.",
     },
     "backoffice:giftcard:write": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Pengurusan Kad Hadiah",
+      description: "Cipta dan urus kad hadiah.",
     },
     "backoffice:giftcard:read": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Akses Kad Hadiah",
+      description: "Baca butiran dan statistik kad hadiah.",
     },
     "backoffice:faq:write": {
       name: "FAQ butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      description: "Cipta dan urus soalan lazim.",
     },
     "backoffice:faq:read": {
       name: "FAQ butiran",
-      description: "butiran FAQ butiran butiran butiran",
+      description: "Baca butiran dan statistik FAQ.",
     },
     "backoffice:category:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Pengurusan Kategori",
+      description: "Cipta dan uruskan kategori produk.",
     },
     "backoffice:category:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Kategori",
+      description: "Baca butiran dan statistik kategori.",
     },
     "backoffice:product:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Pengurusan Produk",
+      description: "Tambah dan urus produk.",
     },
     "backoffice:product:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Produk",
+      description: "Baca butiran dan statistik produk.",
     },
     "backoffice:report:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Laporan",
+      description: "Baca laporan dan maklumat kedai.",
     },
     "backoffice:finance:write": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran butiran",
+      name: "Pengurusan Akaun Kewangan",
+      description: "Urus akaun kewangan yang dipautkan ke kedai.",
     },
     "backoffice:finance:read": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Akses Akaun Kewangan",
+      description: "Baca butiran dan statistik akaun kewangan.",
     },
     "backoffice:page:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Halaman",
+      description: "Edit halaman kedai.",
     },
     "backoffice:page:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Akses Halaman",
+      description: "Baca butiran dan statistik halaman kedai.",
     },
     "backoffice:logistic:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Logistik",
+      description: "Mengurus maklumat logistik.",
     },
     "backoffice:logistic:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Logistik",
+      description: "Baca butiran dan statistik logistik.",
     },
     "backoffice:staff:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Pengurusan Kakitangan",
+      description: "Edit dan urus butiran kakitangan.",
     },
     "backoffice:staff:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Kakitangan",
+      description: "Baca maklumat dan statistik kakitangan.",
     },
     "backoffice:business-profile:write": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Profil Perniagaan",
+      description: "Urus profil perniagaan.",
     },
     "backoffice:business-profile:read": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Akses Profil Perniagaan",
+      description: "Baca butiran profil perniagaan.",
     },
     "backoffice:discount-code:write": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Pengurusan Kod Diskaun",
+      description: "Urus kod diskaun kedai.",
     },
     "backoffice:discount-code:read": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Akses Kod Diskaun",
+      description: "Baca butiran dan statistik kod diskaun.",
     },
     "backoffice:wallet:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Dompet",
+      description: "Urus dompet pengguna.",
     },
     "backoffice:wallet:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Dompet",
+      description: "Baca maklumat dan statistik dompet.",
     },
     "backoffice:coupon:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Kupon",
+      description: "Uruskan kupon kedai.",
     },
     "backoffice:coupon:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Kupon",
+      description: "Baca butiran dan statistik kupon.",
     },
     "backoffice:offer:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Tawaran",
+      description: "Urus tawaran kedai.",
     },
     "backoffice:offer:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Tawaran",
+      description: "Baca maklumat dan statistik tawaran.",
     },
     "backoffice:cashback:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Pengurusan Pulangan Tunai",
+      description: "Urus tawaran pulangan tunai kedai.",
     },
     "backoffice:cashback:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Pulangan Tunai",
+      description: "Baca butiran dan statistik pulangan tunai.",
     },
     "backoffice:lottery:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Loteri",
+      description: "Uruskan loteri kedai.",
     },
     "backoffice:lottery:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Loteri",
+      description: "Baca butiran dan statistik loteri.",
     },
     "backoffice:community:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Komuniti",
+      description: "Menguruskan aktiviti kemasyarakatan.",
     },
     "backoffice:community:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Komuniti",
+      description: "Baca butiran dan statistik komuniti.",
     },
     "backoffice:customer:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Pelanggan",
+      description: "Urus butiran pelanggan.",
     },
     "backoffice:customer:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Pelanggan",
+      description: "Baca maklumat dan statistik pelanggan.",
     },
     "backoffice:ribbon:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Reben",
+      description: "Uruskan reben kedai.",
     },
     "backoffice:ribbon:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Reben",
+      description: "Baca butiran dan statistik reben.",
     },
     "backoffice:ai:write": {
       name: "AI butiran",
@@ -5016,147 +5016,147 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI butiran",
-      description: "butiran AI butiran butiran butiran",
+      description: "Baca konfigurasi dan statistik AI.",
     },
     "backoffice:vendor-payment:write": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Pembayaran Vendor",
+      description: "Uruskan pembayaran vendor.",
     },
     "backoffice:vendor-payment:read": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Akses Pembayaran Vendor",
+      description: "Baca butiran dan statistik pembayaran vendor.",
     },
     "backoffice:company:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Syarikat",
+      description: "Baca butiran dan statistik syarikat.",
     },
     "backoffice:company:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Syarikat",
+      description: "Mengurus maklumat syarikat.",
     },
     "backoffice:note:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Nota",
+      description: "Baca nota dan butiran berkaitan.",
     },
     "backoffice:note:write": {
-      name: "butiran butiran",
-      description: "butiran butiran",
+      name: "Pengurusan Nota",
+      description: "Urus nota.",
     },
     "backoffice:affiliate:write": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Pengurusan Gabungan",
+      description: "Urus maklumat ahli gabungan.",
     },
     "backoffice:affiliate:read": {
-      name: "butiran butiran butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      name: "Akses Gabungan",
+      description: "Baca butiran dan statistik ahli gabungan.",
     },
     "backoffice:print:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Cetakan",
+      description: "Urus pilihan cetakan.",
     },
     "backoffice:print:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Akses Cetak",
+      description: "Baca butiran cetakan.",
     },
     "selldone:token:read": {
       name: "Token butiran",
-      description: "butiran Token butiran butiran butiran",
+      description: "Baca butiran dan statistik token.",
     },
     "selldone:token:write": {
       name: "Token butiran",
-      description: "butiran butiran",
+      description: "Uruskan token.",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Pengewangan",
+      description: "Baca butiran dan statistik pengewangan.",
     },
     "selldone:monetization:write": {
-      name: "butiran butiran",
-      description: "butiran butiran, butiran butiran butiran",
+      name: "Pengurusan Pengewangan",
+      description: "Uruskan pengewangan, termasuk program rujukan.",
     },
     "selldone:identification": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Akses Pengenalan",
+      description: "Akses butiran pengenalan pengguna.",
     },
     "selldone:developer:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Pembangun",
+      description: "Baca butiran dan statistik pembangun.",
     },
     "selldone:developer:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Pembangun",
+      description: "Urus maklumat pembangun.",
     },
     "selldone:security:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Keselamatan",
+      description: "Urus konfigurasi keselamatan.",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran",
+      name: "Pengurusan Pembekal",
+      description: "Urus pembekal perkhidmatan yang disambungkan.",
     },
     "connect:provider:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Pembekal",
+      description: "Baca butiran dan statistik pembekal.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Agensi",
+      description: "Baca butiran dan statistik agensi.",
     },
     "agency:write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Agensi",
+      description: "Urus maklumat agensi.",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      name: "Akses Penjual",
+      description: "Baca butiran dan statistik vendor.",
     },
     "vendor-write": {
-      name: "butiran butiran",
-      description: "butiran butiran butiran",
+      name: "Pengurusan Vendor",
+      description: "Urus maklumat vendor.",
     },
   },
 
   scope_group: {
     backoffice: {
-      title: "butiran",
-      description: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Pejabat belakang",
+      description: "Akses kepada pejabat belakang dan ciri pengurusan kedai.",
     },
     storefront: {
-      title: "butiran",
-      description: "butiran butiran butiran butiran butiran butiran",
+      title: "Etalase",
+      description: "Akses kepada maklumat pelanggan dan kedai.",
     },
     profile: {
       title: "profil",
-      description: "butiran butiran butiran butiran",
+      description: "Akses maklumat profil pengguna.",
     },
     selldone: {
       title: "Selldone",
-      description: "butiran Selldone butiran butiran butiran",
+      description: "Akses perkhidmatan dan ciri Selldone.",
     },
     others: {
-      title: "butiran",
-      description: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Lain-lain",
+      description: "Pelbagai skop tidak ditakrifkan dalam sistem.",
     },
     vendor: {
       title: "Penjual",
-      description: "butiran butiran butiran butiran butiran butiran",
+      description: "Akses maklumat vendor dan ciri pengurusan.",
     },
     connect: {
       title: "Connect OS",
-      description: "butiran butiran butiran butiran butiran",
+      description: "Akses perkhidmatan dan pembekal yang disambungkan.",
     },
     agency: {
-      title: "butiran",
-      description: "butiran butiran butiran butiran butiran",
+      title: "Agensi",
+      description: "Akses maklumat dan pengurusan agensi.",
     },
   },
 
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "Borang Permintaan Pemindahan",
         sub_title:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran Selldone",
+          "Anda boleh memindahkan dana yang boleh diakses dalam dompet anda antara dompet mata wang yang sama, atau memindahkannya ke dompet berbeza di Selldone.",
         message:
           "Berhati-hati dalam memindahkan wang, anda tidak akan dapat memulangkan jika anda menyelesaikan pemindahan.",
       },
@@ -5506,7 +5506,7 @@ export default {
   login: {
     register_title: "Perantara perniagaan,<br> Pengalaman yang menyeronokkan.",
     register_subtitle:
-      "butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran, butiran, butiran, butiran butiran",
+      "Daftar hari ini secara percuma. Seldone disukai oleh syarikat baru, perusahaan, pembeli dan penjual.",
 
     password_recovery_title: "Pemulihan kata laluan",
     password_recovery_message:
@@ -5552,36 +5552,36 @@ export default {
     email_or_username_placeholder: "E-mel, Nama pengguna atau nombor telefon",
     password_placeholder: "Kata laluan",
     re_password_placeholder: "Sahkan Kata Laluan",
-    new_in_samin: "butiran butiran Selldone?",
+    new_in_samin: "Baru dalam Seldone?",
     auto_create_shop: "Auto buat kedai",
   },
   /** {@see Layout} **/
   layout: {
     logout: "Log keluar",
     menu: {
-      my_public_profile_subtitle: "butiran butiran butiran {name}.",
+      my_public_profile_subtitle: "Profil awam saya {name}.",
 
       personal_information: "Maklumat Peribadi dan Profil",
-      personal_information_subtitle: "butiran butiran butiran, butiran butiran butiran KYC",
+      personal_information_subtitle: "Edit profil, alamat dan KYC saya.",
       wallet: "Dompet & Akaun",
-      wallet_subtitle: "butiran butiran butiran butiran butiran butiran",
+      wallet_subtitle: "Akaun maya dan kad pembayaran yang disambungkan.",
 
       companies: "Akaun Syarikat dan Perniagaan",
-      companies_subtitle: "butiran butiran butiran butiran butiran butiran",
+      companies_subtitle: "Daftar perniagaan saya dan profil cukai.",
 
       access: "butiran & API butiran",
       access_subtitle:
-        "butiran butiran, butiran butiran Token butiran butiran butiran OAuth",
+        "Pelanggan OAuth, token akses peribadi dan apl yang disambungkan.",
 
       security: "Keselamatan",
-      security_subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      security_subtitle: "Tetapkan dua faktor dan urus pilihan log masuk sosial.",
 
       preferences: "Keutamaan Pengguna",
       preferences_subtitle:
-        "butiran butiran, butiran, butiran butiran butiran butiran",
+        "Tukar tema, tahap, bahasa dan mata wang lalai.",
       my_subscriptions: "Langganan Saya",
       my_subscriptions_subtitle:
-        "butiran butiran butiran AI butiran butiran butiran",
+        "Akses kepada AI premium dan ciri penyesuaian.",
     },
   },
 
@@ -5626,7 +5626,7 @@ export default {
         history: "Sejarah",
         style: "Gaya",
         typography: "Tipografi",
-        hierarchy: "butiran",
+        hierarchy: "Hierarki",
       },
       no_category: "Tiada Kategori",
     },
@@ -5682,8 +5682,8 @@ export default {
     end_date: "Tarikh tamat",
     price: "harga",
     verify: {
-      true_title: "butiran butiran",
-      true_description: "butiran butiran butiran butiran butiran Selldone butiran butiran butiran",
+      true_title: "Sahkan Syarat",
+      true_description: "Saya membaca dan bersetuju dengan syarat penggunaan Selldone",
     },
     need_charge: "Perlukan bayaran",
     buy_now: "Beli sekarang",
@@ -5700,17 +5700,17 @@ export default {
       subtitle:
         "Maklumat lesen aktif anda.",
       subtitle_partner:
-        "Maklumat lesen {name} aktif anda.",
+        "Maklumat lesen {name} anda yang aktif. Kedai ini pada masa ini mempunyai perjanjian rakan kongsi yang aktif. Jika anda ingin membatalkan perjanjian dan menaik taraf kepada pelan peringkat lebih tinggi, sila hubungi pasukan sokongan kami untuk mendapatkan bantuan.",
     },
     licenses_table: {
       title: "Sejarah Dibeli",
       subtitle:
-        "Lesen aktif dan belum selesai.",
+        "Ini ialah senarai lesen yang aktif dan belum selesai. Anda boleh membeli tawaran selepas membiayai dompet anda. Selain itu, sila ambil perhatian bahawa apabila anda membatalkan langganan, baki jumlah langganan akan dikembalikan ke dompet maya anda.",
     },
     license_detail: {
       title: "Butiran",
       subtitle:
-        "Had pada pelan semasa anda.",
+        "Ini adalah had pelan semasa anda. Untuk butiran lanjut, sila lawati halaman harga. Anda boleh mengakses semua ciri merentas semua rancangan, termasuk pelan percuma, untuk memulakan perniagaan anda dan berkembang. Semasa anda meningkatkan perniagaan anda, pertimbangkan untuk menaik taraf kepada pelan peringkat lebih tinggi untuk menurunkan yuran perkhidmatan anda.",
     },
 
     table: {
@@ -5732,20 +5732,20 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "butiran butiran butiran",
+        title: "Pilih Dompet",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pilih dompet maya untuk digunakan untuk langganan anda. Jika anda belum memilikinya, anda boleh menciptanya di bahagian dompet. Dompet ini akan digunakan untuk sebarang caj.",
       },
       auto_renewal: {
         true_title: "Pembaharuan automatik",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Langganan anda akan diperbaharui secara automatik jika dompet anda mempunyai baki yang mencukupi atau jika anda mempunyai baucar yang sah.",
       },
       options: {
-        title: "butiran butiran",
+        title: "Pilihan Tambahan",
       },
       verify: {
-        title: "butiran",
+        title: "Pengesahan",
       },
     },
   },
@@ -5814,32 +5814,32 @@ export default {
     sku_name_input: "SKU / Nama",
     info: {
       subtitle:
-        "butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Untuk menjana produk, anda boleh memasukkan hanya butiran penting yang diperlukan untuk penciptaannya.",
     },
     price: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Masukkan harga dan diskaun untuk produk ini. Setelah produk ditambahkan, anda akan mempunyai akses kepada lebih banyak pilihan.",
     },
     by_sku: {
-      title: "butiran butiran SKU",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Tambah mengikut SKU",
+      subtitle: "Pangkalan data di negara anda tidak tersedia.",
     },
     drop_shipping: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Cari produk di pasaran borong dan tambahkannya ke kedai anda.",
     },
     by_connect: {
       subtitle:
-        "butiran butiran butiran butiran POD butiran butiran butiran butiran Selldone Connect OS—butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran",
+        "Tambah produk daripada POD atau pembekal dropshipping dengan mudah dengan Selldone Connect OS—hanya sambungkan kedai anda dan nikmati penyepaduan produk automatik, tiada pemalam diperlukan.",
     },
-    your_license_is_not_eligible: "butiran butiran butiran butiran butiran",
+    your_license_is_not_eligible: "Lesen anda tidak layak.",
     sku_dialog: {
-      title: "butiran butiran butiran SKU",
+      title: "Tambah Produk mengikut SKU",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran SKU butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda mempunyai keupayaan untuk mencari produk mengikut SKU mereka dalam pangkalan data kami dan menambahnya dengan hanya satu klik.",
     },
     dropshipping_dialog: {
-      title: "butiran butiran butiran",
+      title: "Tambah produk dropshipping",
     },
   },
 
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Di sini, anda boleh menemui pemborong yang menyenaraikan produk mereka di Selldone, menjadikannya tersedia untuk peniaga lain. Platform dropshipping terbina dalam Selldone memudahkan proses, menjadikannya mudah dan mudah untuk kedua-dua pemborong dan peniaga.",
   },
 
   /** @see Affiliates **/
@@ -5890,110 +5890,110 @@ export default {
 
     config: {
       new: "Rakan kongsi ahli gabungan baharu",
-      edit: "butiran butiran butiran butiran",
+      edit: "Edit Rakan Kongsi Gabungan",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Konfigurasikan tetapan umum dan nama ahli gabungan di sini.",
     },
 
     payment: {
-      title: "butiran butiran",
+      title: "Maklumat Pembayaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+        "Tetapkan struktur komisen untuk ahli gabungan. Anda boleh menggabungkan komisen tetap dan berasaskan peratusan, atau menetapkan komisen khusus untuk setiap produk.",
     },
 
     contact: {
       title: "Maklumat perhubungan",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Berikan butiran hubungan rakan kongsi ahli gabungan di sini.",
     },
 
     restriction: {
-      title: "butiran butiran",
+      title: "Sekatan Suruhanjaya",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tentukan produk yang layak untuk komisen. Anda boleh mengehadkan komisen untuk produk tertentu.",
     },
 
     link_domain: {
       title: "butiran Domain",
       subtitle:
-        "butiran butiran butiran butiran Domain butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Domain butiran butiran butiran butiran butiran butiran",
+        "Pautkan salah satu domain anda kepada rakan kongsi ahli gabungan ini. Pelawat yang membeli melalui domain ini akan dikaitkan dengan ahli gabungan ini.",
 
-      domain_not_approved_msg: "butiran Domain butiran butiran butiran butiran butiran!",
-      domain_is_not_enable_msg: "butiran Domain butiran butiran butiran!",
+      domain_not_approved_msg: "Domain belum diluluskan lagi!",
+      domain_is_not_enable_msg: "Domain tidak didayakan!",
       domain_is_linked_to_other_affiliate_msg:
-        "butiran Domain butiran butiran butiran butiran butiran butiran butiran!",
+        "Domain ini telah dipautkan kepada ahli gabungan lain!",
     },
 
-    set_users_first_message: "butiran butiran butiran butiran butiran!",
+    set_users_first_message: "Sila tetapkan pengguna dahulu!",
 
     cluster: {
-      title: "butiran",
+      title: "Kluster",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      manage_action: "butiran",
+        "Kaitkan ahli gabungan ini dengan kluster untuk mengurusnya bersama sumber lain di satu tempat.",
+      manage_action: "Uruskan",
     },
 
     notifications: {
-      create_success: "butiran butiran butiran butiran butiran",
-      update_success: "butiran butiran butiran butiran",
+      create_success: "Ahli gabungan baharu berjaya ditambahkan.",
+      update_success: "Ahli gabungan berjaya dikemas kini.",
     },
 
     inputs: {
       name: {
-        label: "butiran butiran butiran butiran",
-        message: "butiran, butiran butiran, butiran butiran, butiran butiran, butiran",
+        label: "Nama Rakan Kongsi Gabungan",
+        message: "cth., John Doe, Syarikat Alex, X Marketers, dsb.",
       },
       commission: {
-        label: "butiran butiran",
+        label: "Pengiraan Komisen",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Kira menggunakan gabungan komisen tetap dan peratusan.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        false_title: "butiran + butiran butiran",
-        true_title: "butiran butiran",
+          "Kira menggunakan komisen khusus produk yang ditetapkan dalam tab harga.",
+        false_title: "Komisen Tetap + Peratusan",
+        true_title: "Komisen Berasaskan Produk",
       },
       user: {
         label: "butiran (butiran)",
-        message: "butiran, butiran, butiran butiran butiran butiran Selldone",
+        message: "Pilihan, cth., nama ahli gabungan dalam Selldone",
       },
       web: {
-        placeholder: "butiran, butiran, butiran",
+        placeholder: "Pilihan, cth., affiliate-web.com",
       },
       address: {
-        placeholder: "butiran, butiran, 1200 butiran, butiran, butiran",
+        placeholder: "Pilihan, cth., 1200 POX, NY, USA",
       },
       tel: {
         placeholder: "butiran, butiran, 001-808-210354",
       },
       bank: {
-        placeholder: "butiran, butiran, butiran butiran, butiran: 10002-325-800-845213",
+        placeholder: "Pilihan, cth., Arstra Bank, No: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "butiran butiran butiran (butiran)",
+        placeholder: "Pilih domain... (Pilihan)",
       },
       pos: {
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Ahli gabungan boleh membuat pesanan terus untuk pelanggan mereka melalui panel mereka.",
         true_title: "POS butiran",
       },
       enable: {
         true_description:
-          "butiran butiran butiran butiran butiran butiran? butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Adakah ahli gabungan ini aktif pada masa ini? Jika tidak aktif, program ahli gabungan mereka tidak akan digunakan untuk pesanan yang dibuat melalui pautan mereka.",
       },
       products: {
-        label: "butiran butiran butiran butiran",
-        select_product: "butiran butiran",
+        label: "Produk Layak untuk Komisen",
+        select_product: "Pilih Produk",
       },
     },
     actions: {
-      update: "butiran butiran butiran butiran",
-      add: "butiran butiran butiran butiran",
+      update: "Kemas kini Ahli Gabungan",
+      add: "Tambah Rakan Kongsi Gabungan",
     },
     /**
      * @see BPageAffiliateEdit
      */
     delete: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh menyelesaikan sebarang hutang tertunggak dengan ahli gabungan sebelum mengeluarkannya dari kedai anda. Maklumat ahli gabungan akan kekal boleh diakses untuk masa yang terhad selepas pemadaman.",
     },
   },
 
@@ -6001,20 +6001,20 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "butiran butiran butiran butiran butiran",
+    title: "Harga Tersuai dan Penilaian",
     subtitle:
-      "butiran butiran butiran (butiran butiran butiran butiran butiran) butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    add_valuation_action: "butiran butiran butiran butiran",
+      "Berikan penilaian (borang input harga) kepada produk, membolehkan pelanggan memilih varian atau memperibadikan barangan anda. Sistem kemudiannya akan mengira harga berdasarkan input tersuai.",
+    add_valuation_action: "Cipta Borang Penilaian Baharu",
     empty_message:
-      "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Daripada mencipta berbilang varian, pertimbangkan untuk membangunkan strategi penilaian yang boleh digunakan pada produk mudah.",
     delete_dialog: {
-      title: "butiran butiran butiran",
+      title: "Alih Keluar Secara Kekal",
       message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran? butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Adakah anda pasti mahu memadamkan borang harga ini? Sila pastikan bahawa strategi harga tersuai ini dialih keluar daripada semua produk yang berkaitan terlebih dahulu.",
       action: "Ya, Padam Sekarang",
     },
     notifications: {
-      delete_success: "butiran butiran butiran butiran butiran",
+      delete_success: "Penilaian telah berjaya dipadamkan.",
     },
   },
 
@@ -6022,41 +6022,41 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "butiran butiran & butiran butiran",
+    label: "Model Harga & Penilaian",
   },
 
   /**
    * @see BValuationAdd
    */
   valuation_add: {
-    title_edit: "butiran butiran butiran",
-    title_add: "butiran butiran butiran butiran",
+    title_edit: "Edit Borang Penilaian",
+    title_add: "Cipta Borang Penilaian Baharu",
     config: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sediakan sistem penilaian untuk mencipta harga yang fleksibel menggunakan formula dan jadual rujukan untuk produk anda. Mulakan dengan memberikan penilaian ini nama yang unik.",
     },
-    valuation_preview: "butiran butiran butiran",
-    load_sample: "butiran butiran",
+    valuation_preview: "Pratonton Borang Penilaian",
+    load_sample: "Muatkan Sampel",
     conditions: {
       title: "syarat",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tentukan logik untuk varian tersuai. Konfigurasi ini memudahkan pengurusan ketersediaan varian.",
     },
     structure: {
-      title: "butiran",
+      title: "Struktur",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      expand_action: "butiran",
-      collapse_action: "butiran",
+        "Reka bentuk borang input harga anda di sini dengan menyepadukan formula dan jadual rujukan.",
+      expand_action: "Kembangkan",
+      collapse_action: "Runtuh",
     },
     inputs: {
       title: {
-        message: "butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran butiran butiran butiran, butiran, 'butiran butiran butiran",
+        message: "Tajuk ini tidak kelihatan kepada pelanggan.",
+        placeholder: "Masukkan nama untuk penetapan harga, cth., 'Harga Cawan'",
       },
     },
     samples: {
-      title: "butiran butiran",
+      title: "Penilaian Sampel",
     },
   },
 
@@ -6116,7 +6116,7 @@ export default {
     offer: "Tawaran",
     gift_card: "Kad Hadiah",
     lottery: "Loteri",
-    cashback: "butiran",
+    cashback: "Pulangan tunai",
   },
 
   /** {@see BPageShopIncentivesDiscountCode} **/
@@ -6167,27 +6167,27 @@ export default {
         edit: "Kod diskaun berjaya diedit.",
       },
       config: {
-        title: "butiran butiran",
+        title: "Konfigurasi Umum",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran: butiran (butiran, butiran * butiran butiran). butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Formula pengiraan kod diskaun ialah: maks (LIMIT, PERCENT * harga troli). Ingat untuk menjadikan kod itu relevan dan mudah diingati.",
       },
       limit: {
-        title: "butiran",
+        title: "Had",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran",
+          "Anda boleh menentukan had penggunaan maksimum untuk setiap kod diskaun, serta jumlah diskaun maksimum, dalam bahagian ini.",
       },
       duration: {
-        title: "butiran butiran",
+        title: "Had Tempoh",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+          "Sekiranya anda ingin mengaktifkan kod diskaun untuk jangka masa tertentu, anda boleh menetapkan tempoh tersebut di sini.",
       },
       design: {
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh menetapkan tajuk dan penerangan untuk setiap kod diskaun. Butiran ini akan dipaparkan kepada pengguna.",
       },
       cluster: {
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Dengan mengaitkan kod diskaun ini dengan kelompok, anda boleh mengurusnya dengan mudah bersama sumber lain dalam satu lokasi.",
       },
     },
     delete_alert: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran: butiran + butiran (butiran, butiran * butiran butiran).",
+        "Formula pengiraan diskaun kupon ialah: CAJ + maks (HAD, PERATUS * harga troli).",
     },
     limit: {
       subtitle:
-        "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      zero_message: "butiran: butiran butiran butiran butiran!",
+        "Dalam bahagian ini, anda boleh menetapkan kedua-dua bilangan maksimum penggunaan setiap kupon dan jumlah diskaun tertinggi yang boleh diberikan oleh setiap kupon.",
+      zero_message: "sifar: tiada had!",
     },
     duration: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Jika anda ingin menetapkan jangka masa tertentu untuk kupon menjadi aktif, anda boleh mengkonfigurasi tempoh dalam bahagian ini.",
     },
     design: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Setiap kupon membenarkan penambahan tajuk dan keterangan. Butiran ini akan dapat dilihat oleh pelanggan.",
     },
     constraints: {
       subtitle:
-        "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      no_limit: "butiran butiran butiran",
-      has_limit: "butiran butiran",
-      has_code_message: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Di sini, anda mempunyai keupayaan untuk mewujudkan parameter diperibadikan tambahan untuk kupon.",
+      no_limit: "Tiada had tambahan",
+      has_limit: "Kekangan tambahan",
+      has_code_message: "Pengguna hendaklah memasukkan kod untuk menambah kupon.",
     },
     club: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Penggunaan kupon ini boleh dihadkan secara eksklusif kepada ahli kelab pelanggan terpilih.",
     },
     cluster: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dengan mengaitkan kupon ini dengan kelompok, anda boleh mengurusnya dengan mudah bersama sumber lain dalam satu lokasi.",
     },
     preview: {
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Berikut ialah pratonton awam kupon.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran",
+        "Mula membuat perjanjian pintar dengan menetapkan tajuk, perihalan dan status ketersediaan awamnya.",
     },
     limit: {
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Tetapkan had penggunaan maksimum untuk tawaran ini dalam bahagian ini.",
     },
     duration: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Jika anda ingin menetapkan jangka masa tertentu untuk tawaran, anda boleh mengkonfigurasi tempoh di sini.",
     },
     constraints: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tetapkan kriteria dan syarat kelayakan untuk tawaran di sini. Tawaran terpakai kepada item troli yang memenuhi syarat ini.",
     },
     discounted_products: {
-      title: "butiran butiran",
+      title: "Produk diskaun",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh menentukan produk yang tawaran ini akan menggunakan diskaun.",
     },
     cluster: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dengan mengaitkan tawaran ini dengan kluster, anda boleh mengurusnya dengan mudah bersama sumber lain dalam satu lokasi.",
     },
   },
 
@@ -6514,9 +6514,9 @@ export default {
   /** {@see BPageAffiliateDashboard**/
   affiliate_dashboard: {
     link: {
-      title: "butiran butiran butiran",
+      title: "Pautan Gabungan",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran '{code}' butiran butiran butiran butiran butiran butiran butiran butiran Domain butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 48butiran",
+        "Hasilkan pautan unik untuk rakan sekutu anda untuk menjejaki jualan dan komisen. Tambahkan kod rujukan '{code}' pada mana-mana pautan atau tetapkan domain khusus tersuai untuk ahli gabungan anda. Ia akan dijejaki oleh sistem selama 48j.",
     },
     fix_commission: "Komisen tetap",
     percent_commission: "Komisen berasaskan peratusan",
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Token butiran butiran butiran butiran butiran butiran 10 Token, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tingkatkan pembelian pelanggan dengan pengalaman gamified di kedai anda. Sediakan hadiah dan peluang menang untuk pelanggan yang memperoleh token melalui pembelian. Setiap permainan berharga 10 token, dan anda boleh menawarkan hadiah istimewa untuk pembeli kali pertama. Permainan lalai ialah Wheel of Fortune, tetapi anda boleh menyesuaikannya agar sesuai dengan reka letak kedai anda.",
     },
-    empty_prize_list: "butiran butiran butiran butiran butiran",
+    empty_prize_list: "Cipta dan uruskan hadiah di sini...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Peluang Menang dalam peratus",
     free_for_first: "Adakah ia percuma untuk pelanggan baharu?",
     free_for_first_message: "Pelanggan baru boleh memenangi item ini.",
-    not_free_for_first_message: "butiran butiran butiran butiran butiran butiran butiran butiran",
+    not_free_for_first_message: "Hadiah ini tidak tersedia untuk permainan percuma pertama.",
 
     amount: "Jumlah hadiah",
     amount_hint: "Pengguna memenangi jumlah caj ini untuk pesanan mereka.",
@@ -6614,23 +6614,23 @@ export default {
     },
     config: {
       subtitle:
-        "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran, butiran butiran butiran butiran butiran",
+        "Di sini, anda boleh mencipta hadiah loteri kedai anda. Tetapkan tajuk, penerangan, warna dan imej untuk setiap hadiah.",
     },
     design: {
       subtitle:
-        "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Di sini, anda mempunyai pilihan untuk memilih imej dan warna untuk hadiah.",
     },
     constraints: {
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Nyatakan kriteria dan had untuk memenangi hadiah ini.",
     },
     prize: {
-      title: "butiran",
+      title: "Hadiah",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran, butiran, butiran butiran butiran butiran butiran butiran",
+        "Sediakan butiran hadiah di sini. Pilihan termasuk kod diskaun, kad hadiah, kredit dan diskaun lain sebagai ganjaran loteri.",
     },
     product_input: {
-      label: "butiran butiran",
-      message: "butiran butiran butiran butiran butiran (butiran butiran)",
+      label: "Hadiah produk",
+      message: "Pilih produk untuk hadiah (percuma)",
     },
   },
 
@@ -6703,7 +6703,7 @@ export default {
   /** {@see BPageShopFinanceTax**/
   shop_tax: {
     region: "Wilayah",
-    label: "butiran",
+    label: "Label",
     country_tax: "Cukai Negara",
     customer_tax: "VAT pelanggan",
     business_tax: "VAT perniagaan",
@@ -7041,19 +7041,19 @@ export default {
     vendor: {
       title: "Import butiran",
       subtitle:
-        "butiran butiran butiran CSV butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Muat naik fail CSV vendor di sini. Pastikan format adalah betul dan mematuhi peraturan privasi.",
       checklist: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran",
-        sample_files: "butiran butiran",
+        title: "Senarai Semak Penting",
+        subtitle: "Pastikan anda mengikuti garis panduan.",
+        sample_files: "Contoh Fail",
         valid_vendor_name_needed:
-          "butiran butiran butiran butiran <b>butiran butiran</b>. butiran <b>butiran</b> butiran butiran butiran butiran butiran butiran <i>butiran</i> butiran butiran butiran butiran <i>butiran butiran</i> butiran butiran butiran",
+          "Anda mesti memberikan <b>nama yang sah</b>. <b>name</b> digunakan untuk menentukan sama ada hendak <i>Cipta</i> vendor baharu atau <i>Update</i> vendor yang sedia ada.",
         assign_user_after_import:
-          "butiran Import butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Selepas mengimport vendor, anda boleh menetapkan pengguna secara manual untuk memberi mereka akses kepada panel vendor.",
       },
       need_kyc_alert:
-        "butiran butiran butiran butiran butiran butiran butiran butiran Import butiran",
-      back_to_vendors_list: "butiran butiran butiran butiran",
+        "Anda perlu mengesahkan maklumat peribadi anda sebelum mengimport vendor.",
+      back_to_vendors_list: "Kembali ke Senarai Vendor",
     },
   },
 
@@ -7061,14 +7061,14 @@ export default {
    * @see BPageMarketplaceProducts
    */
   marketplace_products: {
-    title: "butiran butiran",
+    title: "Produk Penjual",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Katalog ini menyenaraikan semua produk yang ditawarkan oleh vendor. Di pasaran, produk boleh dipautkan kepada satu atau lebih vendor. Setiap vendor yang dikaitkan dengan produk mempunyai entri unik yang merangkumi butiran inventori dan harga khusus untuk vendor tersebut.",
     filter_vendor: {
-      placeholder: "butiran butiran butiran",
+      placeholder: "Tapis mengikut vendor...",
     },
     filter_status: {
-      placeholder: "butiran butiran butiran",
+      placeholder: "Tapis mengikut status...",
     },
   },
 
@@ -7076,10 +7076,10 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "butiran butiran butiran",
-    title: "butiran butiran butiran",
+    open_vendors_panel: "Buka Panel Vendor",
+    title: "Senarai Permintaan Penjual",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Ini ialah senarai permintaan daripada individu yang telah memohon untuk menjadi vendor di pasaran anda.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,142 +7088,142 @@ export default {
     marketplace: {
       title: "Pasaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Melumpuhkan pasaran akan mematikan beberapa fungsi. Jika anda ingin menutup seluruh pasaran anda, anda harus melumpuhkan kedai anda dalam tetapan.",
     },
     distribution_model: {
-      title: "butiran butiran",
+      title: "Model Pengedaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Pasaran boleh beroperasi di bawah model pengedaran yang berbeza. Sama ada anda lebih suka vendor menghantar item terus kepada pembeli atau menyatukan pesanan di gudang anda untuk penghantaran, anda boleh memilih model yang paling sesuai dengan keperluan anda di sini.",
     },
     access: {
-      title: "butiran butiran",
+      title: "Akses Penjual",
       subtitle:
-        "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sebagai pentadbir, anda mengawal tahap akses vendor kepada papan pemuka produk. Laraskan tetapan akses global untuk membenarkan vendor menambah produk dan kategori mereka sendiri atau mengehadkan akses ini kepada pentadbir sahaja.",
     },
     need_enable_shipping_for_vendors_tips:
-      "butiran butiran butiran butiran butiran butiran butiran > butiran butiran butiran butiran butiran butiran",
-    transportation_available_tooltip: "butiran butiran butiran butiran butiran butiran",
+      "Dayakan penghantaran untuk vendor dalam tab Kedai > Logistik untuk setiap kaedah secara individu.",
+    transportation_available_tooltip: "Pilihan ini tersedia untuk vendor.",
     transportation_not_available_tooltip:
-      "butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Tidak tersedia untuk vendor! Anda boleh mendayakannya dalam tetapan pengangkutan.",
     panel: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Panel Penjual",
+      subtitle: "Sediakan vendor anda melalui domain tersuai anda.",
     },
     documents: {
-      title: "butiran",
+      title: "Dokumen",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      add_document_action: "butiran butiran butiran",
+        "Anda boleh meminta vendor anda memuat naik dokumen atau menandatangani kontrak tertentu. Nyatakan dokumen yang diperlukan di sini.",
+      add_document_action: "Tambah Permintaan Dokumen",
     },
     inputs: {
       enable: {
         false_description:
-          "butiran butiran butiran butiran butiran, butiran butiran butiran butiran",
+          "Pasaran dimatikan, melumpuhkan semua fungsi pasaran.",
         true_description:
-          "butiran butiran butiran butiran, butiran butiran butiran butiran",
+          "Pasaran aktif, membolehkan semua fungsi pasaran.",
       },
       product: {
         label: "Tambah produk baharu",
-        true_title: "butiran butiran butiran butiran",
+        true_title: "Penjual Boleh Tambah Produk",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda menambah produk dan menetapkan vendor. Penjual hanya boleh menguruskan harga dan inventori.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Vendor boleh menambah dan mengurus produk mereka sendiri secara langsung dalam panel vendor mereka.",
       },
       need_verify: {
-        label: "butiran butiran butiran",
-        false_description: "butiran butiran butiran butiran butiran butiran",
-        false_title: "butiran butiran butiran",
+        label: "Aliran Pengesahan Produk",
+        false_description: "Produk vendor baharu disiarkan secara langsung.",
+        false_title: "Tiada Pengesahan Diperlukan",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran",
+          "Produk baharu vendor memerlukan kelulusan sebelum disiarkan secara langsung di pasaran.",
+        true_title: "Pengesahan Diperlukan",
       },
       category: {
         label: "Tambah kategori baharu",
-        true_title: "butiran butiran butiran butiran",
+        true_title: "Vendor Boleh Tambah Kategori",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda menambah kategori. Penjual hanya boleh menambah produk pada kategori sedia ada.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Vendor boleh menambah dan mengurus kategori secara langsung dalam panel vendor mereka.",
       },
       shipping: {
-        label: "butiran butiran",
-        true_title: "butiran butiran butiran butiran",
+        label: "Pilihan Penghantaran",
+        true_title: "Penjual Mempunyai Pilihan Penghantaran",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Penjual tidak boleh menambah atau menyesuaikan kaedah penghantaran mereka.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran, butiran butiran butiran butiran butiran butiran",
+          "Penjual boleh menyediakan kaedah penghantaran mereka sendiri, menambah kurier dan menyesuaikan penghantaran untuk keperluan mereka.",
       },
       hidden_customer: {
-        label: "butiran butiran butiran butiran",
-        true_description: "butiran butiran butiran butiran butiran butiran butiran",
+        label: "Tunjukkan Maklumat Hubungan Pembeli",
+        true_description: "Butiran hubungan pembeli disembunyikan daripada vendor.",
         false_description:
-          "butiran butiran butiran, butiran butiran butiran butiran butiran, butiran butiran butiran butiran",
+          "Butiran hubungan pembeli, seperti telefon dan e-mel, kelihatan kepada vendor.",
       },
       multi: {
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran /butiran",
+          "Pengguna hanya boleh mempunyai satu akaun vendor. Pengguna akan diubah hala ke panel mereka di /vendor.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran; butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran",
-        false_title: "butiran butiran butiran (butiran)",
+          "Pengguna boleh mempunyai berbilang akaun vendor. Ini adalah ciri beta; sila hubungi kami sebelum menggunakannya.",
+        true_title: "Mod Berbilang Vendor",
+        false_title: "Mod Penjual Tunggal (Lalai)",
       },
 
       listing: {
-        label: "butiran butiran butiran",
-        true_description: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        false_description: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        label: "Penyenaraian untuk vendor",
+        true_description: "Penyenaraian didayakan untuk vendor. Vendor boleh menguruskan item penyenaraian dan syarikat.",
+        false_description: "Penyenaraian dilumpuhkan untuk vendor. Hanya pemilik kedai boleh menguruskan item penyenaraian dan syarikat.",
         requires_listing_active_text:
-          "butiran butiran butiran butiran butiran (butiran + butiran), butiran butiran butiran butiran butiran butiran butiran butiran → butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        requires_listing_active_button: "butiran butiran butiran butiran",
+          "Untuk membenarkan vendor menggunakan Penyenaraian (item + syarikat), mula-mula dayakan ciri Penyenaraian kedai dalam Saluran → Penyenaraian. Kemudian kembali ke sini untuk membenarkan akses vendor.",
+        requires_listing_active_button: "Buka tetapan Penyenaraian Saluran",
       },
 
 
 
     },
     notifications: {
-      update_success: "butiran butiran butiran butiran",
+      update_success: "Tetapan vendor berjaya dikemas kini.",
     },
     add_document_dialog: {
-      title: "butiran butiran",
+      title: "Keperluan Dokumen",
       type: {
-        title: "butiran butiran",
+        title: "Jenis Dokumen",
         subtitle:
-          "butiran butiran butiran butiran item butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Tambahkan item permintaan dokumen di sini. Ia akan muncul dalam panel vendor, menggesa mereka untuk memuat naik dokumen yang diperlukan.",
       },
       guide: {
-        title: "butiran",
+        title: "Panduan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Sediakan panduan ringkas untuk membantu vendor memahami dokumen yang hendak dimuat naik dan cara melakukannya dengan betul.",
       },
       code: {
-        title: "butiran butiran",
+        title: "Benamkan Kod",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran",
+          "Tampalkan kod benam untuk dokumen, borang atau kontrak yang mesti ditandatangani oleh vendor.",
       },
       link: {
         title: "Pautan luar",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Sediakan pautan luaran kepada dokumen atau kontrak yang mesti ditandatangani oleh vendor.",
       },
       inputs: {
         title: {
           label: "Tajuk",
-          placeholder: "butiran butiran butiran butiran butiran butiran butiran",
+          placeholder: "Masukkan tajuk untuk permintaan dokumen.",
         },
         guide: {
           label: "butiran (butiran)",
           placeholder:
-            "butiran, butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+            "Secara pilihan, sediakan panduan atau arahan ringkas, termasuk pautan kepada kontrak atau dokumen lain.",
         },
         code: {
-          label: "butiran butiran",
-          placeholder: "butiran butiran butiran butiran butiran",
-          message: "butiran butiran HTML butiran",
+          label: "Benamkan Kod",
+          placeholder: "Tampalkan kod benam di sini...",
+          message: "Boleh sertakan kod HTML.",
         },
         url: {
           label: "URL",
-          message: "butiran butiran URL butiran butiran butiran butiran butiran butiran",
+          message: "Masukkan URL untuk dokumen atau kontrak di sini...",
         },
       },
     },
@@ -7234,14 +7234,14 @@ export default {
    */
   ShopMarketplaceModes: {
     Collective: {
-      title: "butiran butiran",
+      title: "Mod Kolektif",
       description:
-        "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dalam mod ini, semua pesanan dihantar ke gudang anda dahulu dan kemudian dihantar kepada pelanggan dari lokasi pusat. Penjual akan menghantar barang mereka ke gudang anda, jadi alamat penghantaran untuk vendor akan menjadi alamat gudang anda.",
     },
     Direct: {
-      title: "butiran butiran butiran butiran",
+      title: "Penghantaran Terus dari Vendor",
       description:
-        "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dalam mod ini, vendor menghantar pesanan terus kepada pelanggan. Alamat penghantaran untuk pesanan vendor akan menjadi alamat pembeli.",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "butiran butiran butiran",
+      title: "Dokumen Pengenalan Pemilik",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran KYC butiran butiran butiran butiran butiran butiran butiran",
+        "Muat naik ID keluaran kerajaan untuk mengesahkan identiti pemilik perniagaan atau eksekutif utama.",
     },
     Business: {
-      title: "butiran butiran",
+      title: "Dokumentasi Perniagaan",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Status butiran butiran butiran",
+        "Sediakan dokumen perniagaan penting seperti lesen atau sijil pendaftaran untuk mengesahkan status undang-undang perniagaan anda.",
     },
     Address: {
-      title: "butiran butiran",
+      title: "Pengesahan Alamat",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran, butiran butiran, butiran butiran butiran",
+        "Serahkan dokumen untuk mengesahkan alamat perniagaan anda, seperti bil utiliti, invois cukai atau perjanjian pajakan.",
     },
     Contract: {
       title: "butiran & butiran",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Muat naik kontrak atau perjanjian yang memperincikan terma dan syarat perhubungan perniagaan anda.",
     },
     Copyright: {
-      title: "butiran butiran",
+      title: "Dokumentasi Hak Cipta",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sediakan dokumen pendaftaran hak cipta untuk mengesahkan hak harta intelek anda.",
     },
     Privacy: {
-      title: "butiran butiran butiran",
+      title: "Dokumen Dasar Privasi",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sertakan dokumen dasar privasi anda untuk menunjukkan komitmen anda untuk melindungi maklumat pengguna dan pelanggan.",
     },
     Embed: {
-      title: "butiran butiran",
+      title: "Borang Terbenam",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Lengkapkan borang terbenam untuk memberikan maklumat yang diperlukan.",
     },
     Link: {
       title: "Pautan luar",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Ikuti pautan luaran untuk memberikan maklumat yang diperlukan.",
     },
   },
 
@@ -7294,11 +7294,11 @@ export default {
    * @see BPageMarketplaceWallets
    */
   marketplace_wallets: {
-    title: "butiran butiran",
+    title: "Dompet Penjual",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran Stripe Connect), butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Tidak perlu menambah dompet secara manual! Dompet vendor dibuat secara automatik. Jika anda mendayakan kaedah pembayaran yang menyokong pembayaran berpecah (seperti Stripe Connect), sistem akan mengedarkan pembayaran secara automatik ke akaun vendor yang disambungkan. Jika ciri ini tidak didayakan, anda perlu membayar vendor secara manual dan anda boleh menyemak jumlah terhutang kepada mereka dalam senarai dompet.",
     filter_vendor: {
-      placeholder: "butiran butiran butiran",
+      placeholder: "Tapis mengikut vendor...",
     },
   },
 
@@ -7307,56 +7307,56 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    vendor_bank: "butiran butiran",
-    order_fee: "butiran butiran",
-    order_refund: "butiran butiran",
-    reverse_fund: "butiran butiran",
-    payout: "butiran",
+      "Bahagian ini menyediakan senarai terperinci semua transaksi untuk dompet yang dipilih. Transaksi caj direkodkan apabila pelanggan berjaya membayar pesanan. Jika pesanan dibatalkan atau sebahagiannya dibayar balik, transaksi bayaran balik yang sepadan juga akan direkodkan di sini.",
+    vendor_bank: "Bank Penjual",
+    order_fee: "Yuran Pesanan",
+    order_refund: "Bayaran Balik Pesanan",
+    reverse_fund: "Pembalikan Dana",
+    payout: "Pembayaran",
   },
 
   /**
    * @see BPageMarketplacePayouts
    */
   marketplace_payouts: {
-    title: "butiran butiran",
+    title: "Sejarah Pembayaran",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran Stripe",
-    top_up_vendor_action: "butiran butiran butiran butiran",
+      "Ciri ini memperkemas perakaunan untuk anda dan vendor anda dengan menyimpan rekod terperinci semua transaksi. Pembayaran boleh diproses secara manual melalui pindahan bank atau kaedah lain atau diurus secara automatik oleh penyedia pembayaran yang menyokong pembayaran berpecah, seperti Stripe.",
+    top_up_vendor_action: "Tambah Nilai Akaun Vendor",
   },
 
   /**
    * @see BPageMarketplacePricings
    */
   marketplace_pricings: {
-    title: "butiran butiran butiran",
+    title: "Pelan Harga",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran 5% butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    add_pricing_action: "butiran butiran butiran butiran",
+      "Sediakan model harga untuk pasaran anda, seperti yuran margin 5% untuk produk digital. Ini menjadikan pengurusan harga lebih pantas dan lebih cekap.",
+    add_pricing_action: "Tambah Pelan Harga",
   },
 
   /**
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "butiran butiran butiran butiran",
+    title: "Model Harga Pasaran",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran * (1 + butiran%).",
+      "Apabila anda menetapkan model harga kepada produk vendor, harga akan dikira secara automatik sebagai Harga Vendor * (1 + Komisen%).",
     delete: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      remove_pricing_action: "butiran butiran butiran butiran butiran",
+        "Memadamkan model harga akan menjejaskan semua produk vendor yang dipautkan kepadanya. Sebelum mengalih keluar model harga, pastikan anda mengemas kini semua produk vendor yang menggunakannya dan tetapkan model harga yang berbeza kepada mereka.",
+      remove_pricing_action: "Alih keluar Model Harga",
     },
     inputs: {
       title: {
-        placeholder: "butiran, butiran butiran butiran",
+        placeholder: "cth., Kelas Produk Digital...",
       },
       description: {
-        placeholder: "butiran butiran butiran butiran butiran butiran",
+        placeholder: "Anda boleh menambah nota di sini...",
       },
       accept_delete: {
-        true_description: "butiran butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran butiran butiran butiran",
+        true_description: "Saya mahu memadamkan model harga ini.",
+        true_title: "Sahkan Pembuangan Model Harga",
       },
     },
   },
@@ -7368,60 +7368,60 @@ export default {
     vendor: {
       title: "Penjual",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Pilih vendor yang anda ingin pindahkan dana. Setelah dipilih, pilihan pembayaran yang tersedia akan dipaparkan. Jika anda telah mendayakan gerbang pembayaran berkemampuan pembayaran, pilihan tersebut juga akan dipaparkan di sini.",
     },
-    vendor_wallet: "butiran butiran",
-    vendor_bank_account: "butiran butiran butiran",
+    vendor_wallet: "Dompet Penjual",
+    vendor_bank_account: "Akaun Bank Penjual",
     with_balance_tooltip:
-      "butiran butiran butiran butiran butiran butiran Stripe Connect, butiran butiran butiran butiran butiran butiran butiran butiran butiran Stripe butiran butiran butiran",
-    with_balance: "butiran butiran",
-    without_balance: "butiran butiran - butiran butiran",
+      "Apabila anda menyambungkan perkhidmatan pembayaran seperti Stripe Connect, kami mendapatkan dan memaparkan baki yang tersedia dalam akaun Stripe anda untuk rujukan.",
+    with_balance: "Dengan Baki",
+    without_balance: "Tanpa Baki - Mod Pantas",
     bank_transfer: {
-      title: "butiran butiran",
+      title: "Pindahan Bank",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran; butiran butiran butiran butiran butiran butiran",
+        "Ini adalah rekod sejarah pembayaran. Tiada wang sebenar akan dipindahkan kepada vendor oleh sistem; anda mesti membayar vendor anda secara manual.",
     },
-    vendor_bank: "butiran butiran",
+    vendor_bank: "Bank Penjual",
     gateway_in_debug_mode_warning:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Memandangkan gerbang pembayaran kini dalam mod nyahpepijat, dana tidak akan dipindahkan ke akaun sebenar.",
     payment: {
       title: "Bayaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran Stripe butiran",
+        "Pilih mata wang dan masukkan jumlah yang anda mahu pindahkan kepada vendor. Jika anda memasukkan jumlah negatif, dana akan dikeluarkan daripada dompet vendor. Untuk akaun bersambung dengan pilihan pembayaran, dana akan ditolak daripada akaun bersambung, seperti akaun Stripe vendor.",
     },
     history: {
       title: "Sejarah",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sebahagian daripada pembayaran ini telah dibayar balik melalui pindahan balik, bermakna baki telah ditolak daripada akaun vendor dan dikembalikan ke akaun anda.",
     },
     refund: {
-      title: "butiran",
+      title: "Bayaran balik",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran) butiran butiran butiran butiran (butiran Stripe Connect) butiran butiran butiran butiran butiran butiran butiran",
+        "Jumlah yang dikembalikan akan ditolak daripada baki vendor. Semua pembayaran (atau baki jumlah) dalam akaun vendor (seperti Stripe Connect) akan dibayar balik melalui pemindahan pembalikan.",
     },
     inputs: {
       vendor: {
-        placeholder: "butiran butiran butiran",
+        placeholder: "Pilih vendor...",
       },
       note: {
         placeholder:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh menambah nota di sini... Nota ini tidak kelihatan kepada vendor.",
       },
       accept_refund: {
-        true_description: "butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran & butiran butiran",
+        true_description: "Saya mahu membatalkan pembayaran ini.",
+        true_title: "Batal & Bayaran Balik",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "butiran butiran",
+        title: "Dana Diterbalikkan",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pembalikan dana vendor telah berjaya diselesaikan, dengan wang dipindahkan dari bank ke dompet dan ditambah pada baki dompet.",
       },
       payout_success: {
-        title: "butiran",
+        title: "Pembayaran",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pembayaran vendor telah berjaya diproses dan ditambah.",
       },
     },
   },
@@ -7430,13 +7430,13 @@ export default {
    * @see BShopQuotaImporter
    */
   quota_importer: {
-    quota: "butiran",
-    max_batch_msg: "butiran butiran butiran butiran butiran butiran Import butiran butiran butiran butiran",
-    max_daily_limit_msg: "butiran butiran butiran butiran butiran butiran Import butiran butiran butiran",
-    extra_daily_limit_msg: "butiran butiran butiran butiran butiran butiran butiran",
-    add_items_today_msg: "butiran butiran butiran",
-    file_statistic_msg: "butiran butiran butiran butiran",
-    used_quota: "butiran butiran",
+    quota: "Kuota",
+    max_batch_msg: "Bilangan maksimum item yang anda boleh import dalam satu kelompok.",
+    max_daily_limit_msg: "Bilangan maksimum item yang anda boleh import dalam sehari.",
+    extra_daily_limit_msg: "Item tambahan dibenarkan melebihi had harian.",
+    add_items_today_msg: "Item ditambah hari ini.",
+    file_statistic_msg: "Statistik untuk fail ini.",
+    used_quota: "Kuota terpakai",
   },
 
   /** {@see BPageShopMarketingCampaign**/
@@ -7473,13 +7473,13 @@ export default {
   shop_theme: {
     theme_colors: "Warna tema",
     theme_colors_description:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh memperibadikan palet warna utama kedai anda di sini. Setiap templat boleh menggunakan warna ini untuk menjana rangkaian warna lengkap secara automatik yang sejajar dengan jenama anda.",
     products_view_mode: "Paparan senarai beli-belah",
     products_view_mode_desc:
       "Anda boleh melaraskan mod paparan produk di kedai anda berdasarkan saiz skrin. Mod ini akan dipertimbangkan secara lalai dan tidak akan digunakan jika pengguna menukar mod paparan.",
 
     tabs: {
-      vendor_page: "butiran butiran",
+      vendor_page: "Halaman Penjual",
     },
 
     color_light: "Warna utama",
@@ -7490,90 +7490,90 @@ export default {
     light_header: "Pengepala cahaya",
     light_footer: "Pengaki ringan",
     light_filter: "Tema penapis kategori",
-    checkout_color: "butiran butiran",
+    checkout_color: "Warna checkout",
 
     typography: "Tipografi",
     header: "Kepala",
-    footer: "butiran",
+    footer: "Pengaki",
     custom_code: "Kod tersuai",
     custom_css: "CSS tersuai",
     custom_variants: "Varian",
 
     wrap_product_title: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Bungkus Tajuk",
+      subtitle: "Ketinggian tajuk akan disesuaikan secara dinamik.",
     },
 
     animation: {
-      title: "butiran",
+      title: "Animasi",
       static: {
-        false_title: "butiran butiran",
+        false_title: "Dengan Animasi",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Kategori dan produk mempunyai animasi interaktif untuk menunjukkan fungsi.",
         true_title: "Statik",
-        true_description: "butiran butiran butiran butiran butiran butiran",
+        true_description: "Kategori dan produk tidak mempunyai animasi.",
       },
     },
 
     quick_actions: {
-      title: "butiran butiran",
+      title: "Tindakan Pantas",
       hover: {
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Mod ringkas dan minimum tanpa sebarang tindakan tambahan pada kad produk.",
         true_description:
-          "butiran butiran butiran & butiran butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran butiran butiran",
+          "Tunjukkan Belian Pantas & Tambah untuk membandingkan butang pada kad produk berlegar.",
+        true_title: "Tunjukkan Tindakan pada Hover",
       },
     },
     filter_products: {
-      title: "butiran butiran",
+      title: "Produk Penapis",
       only_available: {
-        false_description: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        false_description: "Tunjukkan semua produk dalam senarai kedai sebagai lalai.",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran",
-        false_title: "butiran butiran",
+          "Tunjukkan hanya produk yang tersedia dalam senarai kedai sebagai lalai.",
+        true_title: "Produk Tersedia",
+        false_title: "Semua Produk",
       },
     },
     filter_categories: {
-      title: "butiran butiran",
+      title: "Kategori Penapis",
       hide_empty_folders: {
-        false_description: "butiran butiran butiran butiran butiran butiran butiran",
-        false_title: "butiran butiran butiran",
-        true_title: "butiran butiran butiran",
+        false_description: "Tunjukkan semua kategori dalam senarai kedai.",
+        false_title: "Tunjukkan Semua Kategori",
+        true_title: "Sembunyikan Kategori Kosong",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Tunjukkan hanya kategori dengan produk dalam senarai kedai.",
       },
     },
 
     product_page: {
-      title: "butiran butiran",
+      title: "Halaman Produk",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      buy_button_color: "butiran butiran butiran",
+        "Peribadikan halaman produk anda di sini. Anda boleh melaraskan paparan harga dan mengubah suai susunan bahagian untuk disesuaikan dengan pilihan anda.",
+      buy_button_color: "Beli warna butang",
       smart_price: {
-        title: "butiran butiran butiran",
+        title: "Harga seunit pintar",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 2butiran butiran butiran $5 butiran butiran, butiran butiran butiran butiran butiran $2.5/butiran butiran butiran butiran butiran",
+          "Mengira harga unit dengan mempertimbangkan berat, isipadu dan sifat varian pek. Cth. Jika anda mempunyai varian dengan saiz 2L dan $5 sebagai harga, maka pelanggan melihat $2.5/L pada halaman produk.",
       },
       reverse_currency: {
-        title: "butiran butiran butiran butiran",
+        title: "Kedudukan tanda mata wang",
         false_title: "Mod biasa",
-        true_title: "butiran butiran",
+        true_title: "Mod terbalik",
         false_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran: $95, €30",
+          "Tanda mata wang akan diletakkan pada permulaan nombor. Cth: $95 , €30",
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran: 95$, 30€",
+          "Tanda mata wang akan diletakkan di hujung nombor. Cth: 95$ , 30€",
       },
       variants_selector: {
-        title: "butiran butiran",
+        title: "Pemilih Varian",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh memilih cara yang berbeza untuk memaparkan varian pada halaman produk.",
       },
 
       tabs_order: {
-        title: "butiran butiran",
-        reset_to_default: "butiran butiran butiran",
+        title: "Pesanan tab",
+        reset_to_default: "Tetapkan semula kepada lalai",
       },
     }, // end: product_page
   },
@@ -7583,20 +7583,20 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "butiran & butiran butiran",
+      title: "Onboarding & Log Masuk",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran",
+        "Peribadikan pengalaman onboarding dan log masuk vendor dengan video, imej atau mesej tersuai.",
     },
     inputs: {
       page_vendor_login: {
-        label: "butiran butiran butiran butiran",
+        label: "Halaman Log Masuk Vendor",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pilih halaman pendaratan tersuai untuk log masuk vendor. Sertakan video, imej atau teks untuk reka bentuk yang unik. Halaman ini ditunjukkan kepada vendor yang tidak log masuk.",
       },
       page_vendor_registered: {
-        label: "butiran butiran butiran",
+        label: "Halaman Berdaftar Penjual",
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pilih halaman tersuai untuk vendor log masuk. Halaman ini dipaparkan jika pasaran anda menyokong berbilang vendor bagi setiap pengguna.",
       },
     },
   },
@@ -7604,25 +7604,25 @@ export default {
   /** @see BShopOptionsVariants **/
   b_shop_options_variants: {
     custom_variants: {
-      title: "butiran butiran",
+      title: "Varian Tersuai",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 24. Selldone",
+        "Produk fizikal boleh mempunyai variasi. Anda boleh menukar nama lalai varian. Cadangan kami adalah untuk membiarkan item ini sebagai lalai dan kosong supaya seldone akan menterjemahkannya secara automatik untuk pelanggan anda ke dalam bahasa mereka. Panjang maksimum ialah 24.",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "butiran butiran butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran Google butiran",
+      title: "Fon Laman Web Utama",
+      subtitle: "Pilih fon kegemaran anda daripada Google Font.",
     },
     inputs: {
       font_family: {
-        label: "butiran butiran",
-        message: "butiran butiran butiran butiran",
+        label: "Keluarga Font",
+        message: "Masukkan nilai keluarga fon.",
       },
       font_res: {
-        label: "butiran butiran",
-        message: "butiran butiran butiran butiran",
+        label: "Sumber Font",
+        message: "Tentukan sumber fon.",
       },
     },
   },
@@ -7630,29 +7630,29 @@ export default {
   /** @see BShopThemeHeader **/
   b_shop_theme_header: {
     logo: {
-      title: "butiran butiran",
+      title: "Logo pengepala",
       subtitle:
-        "butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Secara lalai, logo kedai anda dipaparkan dalam pengepala, tetapi anda boleh memuat naik logo tersuai sebaliknya. Jika logo anda tidak mempunyai nisbah bidang segi empat sama, anda mungkin perlu melaraskan ketinggian dan lebar secara manual untuk persembahan yang optimum.",
     },
     header_title: {
-      title: "butiran butiran",
+      title: "Tajuk tajuk",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran 'butiran butiran butiran butiran",
+        "Anda boleh memperibadikan tajuk yang dipaparkan dalam pengepala halaman anda di sini. Jika anda ingin mengalih keluar sepenuhnya, sila klik butang 'Tetapkan tajuk kosong'.",
     },
 
     inputs: {
       logo: {
-        label: "butiran butiran",
+        label: "Logo jenama",
       },
       height: {
-        label: "butiran butiran",
+        label: "Ketinggian logo",
       },
       width: {
-        label: "butiran butiran",
+        label: "Lebar logo",
       },
       title: {
-        label: "butiran butiran",
-        set_empty: "butiran butiran butiran",
+        label: "Tajuk tajuk",
+        set_empty: "Tetapkan tajuk kosong",
       },
     },
   },
@@ -7660,43 +7660,43 @@ export default {
   /** @see ShopThemeVariantsMode**/
   shop_theme_variants_mode: {
     smart: {
-      title: "butiran butiran",
+      title: "Mod Pintar",
       description:
-        "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran",
+        "Varian padat dalam pilihan berasingan yang boleh dipilih, sesuai untuk kebanyakan kes.",
     },
     select: {
-      title: "butiran butiran",
+      title: "Pilih Mod",
       description:
-        "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+        "Memaparkan semua varian dalam menu lungsur, sesuai untuk sejumlah besar varian.",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "butiran butiran butiran",
-    add_title: "butiran butiran butiran",
+    edit_title: "Edit Set Harta",
+    add_title: "Tambah Set Harta",
     config: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tetapkan tajuk dan perihalan untuk set harta anda. Ia akan kelihatan kepada kakitangan sahaja.",
     },
     variants: {
       title: "Varian",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 6 butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh menyesuaikan nama varian, ikon dan pesanan di sini. Jika anda mempunyai pelbagai produk dengan varian unik yang tidak sesuai dengan 6 varian lalai, anda boleh menetapkan varian tersuai untuk setiap produk di sini.",
     },
 
     inputs: {
       title: {
-        placeholder: "butiran butiran butiran butiran butiran butiran",
+        placeholder: "Masukkan tajuk untuk set harta...",
       },
       description: {
-        placeholder: "butiran butiran butiran butiran (butiran)",
+        placeholder: "Masukkan penerangan ringkas... (pilihan)",
       },
       custom_variants: {
-        true_title: "butiran butiran",
-        false_title: "butiran butiran",
-        true_description: "butiran butiran butiran butiran",
-        false_description: "butiran butiran butiran butiran",
+        true_title: "Varian Tersuai",
+        false_title: "Varian Lalai",
+        true_description: "Sesuaikan varian produk anda.",
+        false_description: "Gunakan varian global lalai.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "butiran butiran butiran (butiran)",
+        placeholder: "Tetapkan nilai yang ditetapkan... (pilihan)",
         messages:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh memberikan cadangan untuk nilai dan menyesuaikan pesanan.",
       },
     },
   },
@@ -7716,7 +7716,7 @@ export default {
   app_templates: {
     default: "lalai",
     blue: "Lautan biru",
-    amber: "butiran",
+    amber: "Amber",
     green: "Khatulistiwa",
     red: "Pontianak",
     magenta: "bunga",
@@ -7812,8 +7812,8 @@ export default {
   shop_customers: {
     title: "Pengurusan Pelanggan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran; butiran, butiran butiran Import, butiran butiran POS, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
-    add_customer_action: "butiran butiran butiran",
+      "Pelanggan boleh ditambah ke kedai anda dalam beberapa cara; secara manual, import Excel pukal, melalui POS, atau melalui kedai dalam talian anda. Setiap kali pengguna log masuk ke kedai anda, mereka akan didaftarkan sebagai pelanggan secara automatik.",
+    add_customer_action: "Tambah pelanggan baharu",
 
     all_customers: "Muat turun semua pelanggan",
     filtered_customers: "Pelanggan yang ditapis",
@@ -7827,24 +7827,24 @@ export default {
 
   /** {@see BCustomerAdd**/
   customer_add: {
-    edit_title: "butiran butiran",
-    add_title: "butiran butiran butiran",
+    edit_title: "Edit pelanggan",
+    add_title: "Tambah pelanggan baharu",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Untuk menambahkan pelanggan ke kedai anda, sila berikan sama ada alamat e-mel atau nombor telefon.",
     more: {
       title: "Tambah butiran lanjut",
-      subtitle: "butiran butiran butiran, butiran butiran, butiran, butiran butiran butiran",
+      subtitle: "Tetapkan mata wang, kelab pelanggan, segmen, alamat dan banyak lagi.",
     },
     detail: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Simpan rekod maklumat peribadi tentang pelanggan anda. Sila hormati privasi pelanggan anda.",
     },
     preferences: {
-      subtitle: "butiran butiran butiran butiran butiran, butiran butiran, butiran butiran butiran",
+      subtitle: "Tetapkan mata wang pengguna lalai, kelab pelanggan dan segmen di sini.",
     },
     address: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran POS",
+        "Alamat ini boleh digunakan dalam POS. Pengguna tidak dapat melihat maklumat ini.",
     },
   },
 
@@ -7936,13 +7936,13 @@ export default {
       "Selepas memberikan bungkusan kepada kurier penghantaran, klik butang <b>Sahkan Penghantaran</b> .",
     message_add_to_service:
       "Klik butang berikut jika anda ingin menghantar pakej ini melalui perkhidmatan <b>penghantaran</b> .",
-    courier_action: "butiran butiran",
-    courier_action_subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+    courier_action: "Pengesahan Penghantaran",
+    courier_action_subtitle: "Kurier saya akan mengambil bungkusan itu.",
 
-    pickup_ready_action: "butiran butiran",
-    pickup_ready_action_subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+    pickup_ready_action: "Pickup Sedia",
+    pickup_ready_action_subtitle: "Tempahan sedia untuk diambil oleh pelanggan.",
 
-    service_action: "butiran butiran",
+    service_action: "Pengesahan Pelaksanaan",
 
     checklist: [
       "Semak kad pengenalan kurier.",
@@ -7982,9 +7982,9 @@ export default {
     option_instant_shipping: "Pilihan 3: Penghantaran segera.",
 
     verify_delivery_input: {
-      true_title: "butiran butiran butiran",
+      true_title: "Sahkan Penghantaran Selesai",
       true_description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Saya mengesahkan bahawa pesanan telah dihantar kepada pelanggan.",
     },
   },
 
@@ -8001,63 +8001,63 @@ export default {
    * @see OReferralBank
    */
   referral_bank: {
-    title: "butiran butiran butiran",
+    title: "Papan Pemuka Rujukan",
     subtitle:
-      "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    no_bank_info: "butiran butiran info!",
+      "Atas permintaan anda, yuran komisen akan dibayar ke akaun bank yang anda tentukan. Sila berikan maklumat bank anda di sini.",
+    no_bank_info: "Tiada maklumat bank!",
     actions: {
-      edit_my_bank_info: "butiran butiran butiran info",
+      edit_my_bank_info: "Edit Maklumat Bank Saya",
     },
     bank_dialog: {
-      title: "butiran butiran butiran",
+      title: "Butiran Bank Saya",
       info: {
-        title: "butiran",
+        title: "Bank",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran",
+          "Sila masukkan maklumat bank anda di sini. Kami akan menggunakan maklumat ini untuk memindahkan dana. Pastikan akaun bank adalah atas nama anda atau di bawah nama perniagaan anda, mengikut mana yang berkenaan.",
       },
       inputs: {
         name: {
-          label: "butiran butiran",
-          message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          label: "Nama Bank",
+          message: "Nama penuh bank tempat akaun itu disimpan.",
         },
         holder_name: {
-          label: "butiran butiran butiran",
+          label: "Nama Pemegang Akaun",
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Nama penuh orang atau entiti yang memegang akaun tersebut.",
         },
         account_number: {
           label: "Nombor akaun",
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Nombor unik yang dikaitkan dengan akaun bank tertentu.",
         },
         routing_number: {
-          label: "butiran butiran (butiran) butiran butiran butiran (butiran)",
+          label: "Nombor Penghalaan (AS) atau Kod Isih (UK)",
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran butiran butiran butiran).",
+            "Nombor yang mengenal pasti cawangan bank tertentu (istilah yang berbeza digunakan di negara yang berbeza).",
         },
         swift: {
-          label: "butiran butiran BIC SWIFT",
+          label: "Kod SWIFT/BIC",
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran",
+            "Kod antarabangsa yang digunakan untuk mengenal pasti bank di seluruh dunia, terutamanya untuk pemindahan antarabangsa.",
         },
         iban: {
-          label: "IBAN (butiran butiran butiran butiran)",
+          label: "IBAN (Nombor Akaun Bank Antarabangsa)",
           message:
-            "butiran butiran butiran butiran, butiran IBAN butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Digunakan terutamanya di Eropah, IBAN ialah sistem yang dipersetujui di peringkat antarabangsa untuk mengenal pasti akaun bank merentasi sempadan negara.",
         },
         contact: {
           label: "Maklumat perhubungan",
-          message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          message: "Nombor telefon atau alamat e-mel yang dikaitkan dengan akaun.",
         },
         note: {
           label: "Catatan",
-          message: "butiran butiran",
+          message: "Nota tambahan",
         },
       },
     },
     notifications: {
       save: {
-        message: "butiran butiran info butiran butiran butiran",
+        message: "Maklumat bank anda telah berjaya dikemas kini.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Daripada semua yuran perkhidmatan, langganan dan pembayaran lain yang dibuat oleh rujukan anda.",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "butiran butiran",
+      title: "Gangsa Peringkat",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran 2% butiran butiran butiran butiran",
+        "Anda berada dalam Peringkat Gangsa. Anda telah memperoleh 2% komisen daripada rujukan anda.",
     },
     Silver: {
-      title: "butiran butiran",
+      title: "Peringkat Perak",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran 4% butiran butiran butiran butiran",
+        "Anda berada di Peringkat Perak. Anda telah memperoleh 4% komisen daripada rujukan anda.",
     },
     Gold: {
-      title: "butiran butiran",
+      title: "Emas Peringkat",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran 6% butiran butiran butiran butiran",
+        "Anda berada dalam Tahap Emas. Anda telah memperoleh 6% komisen daripada rujukan anda.",
     },
     Platinum: {
-      title: "butiran butiran",
+      title: "Peringkat Platinum",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran 8% butiran butiran butiran butiran",
+        "Anda berada dalam Tahap Platinum. Anda telah memperoleh 8% komisen daripada rujukan anda.",
     },
     Diamond: {
-      title: "butiran butiran",
+      title: "Berlian Peringkat",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran 10% butiran butiran butiran butiran",
+        "Anda berada dalam Tahap Berlian. Anda telah memperoleh 10% komisen daripada rujukan anda.",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Mengewangkan",
-    subtitle: "butiran butiran butiran butiran butiran",
+    subtitle: "Sebarkan akses kepada peluang perniagaan.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8114,7 +8114,7 @@ export default {
     referral_link: "Pautan rujukan",
     registered: "Berdaftar",
     accepted: "Diterima",
-    bank: "butiran",
+    bank: "Bank",
     bank_title: "Maklumat bank untuk pengeluaran",
     new_users: "Pengguna baharu",
     performance: "Prestasi",
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Bayaran Rujukan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran, butiran butiran butiran butiran butiran",
+      "Ia adalah senarai transaksi pengeluaran. Apabila anda memindahkan dana daripada dompet rujukan ke akaun bank anda atau dompet Seldone anda, ia akan disenaraikan di sini.",
 
     officer: "Pegawai",
     amount: "Jumlah transaksi",
@@ -8305,7 +8305,7 @@ export default {
 
   /** @see BPageProductDropshipping **/
   product_dropshipping_admin: {
-    title: "butiran",
+    title: "Dropshipping",
     save_alert:
       "Tetapan dropshipping produk ini telah berubah. Adakah anda mahu menyimpan perubahan?",
     reselling_message:
@@ -8323,7 +8323,7 @@ export default {
     pay_buy: "Bayar & Beli",
     quantity: "Kira",
     quantity_in_basket: "Item dalam troli",
-    count_unit: "butiran",
+    count_unit: "x",
     remove: "Alih keluar",
     add_to_basket: "Tambah ke Troli",
     book_now: "Tempah sekarang",
@@ -8513,148 +8513,148 @@ export default {
    **/
   shop_sms: {
     tabs: {
-      templates: "butiran",
-      provider: "butiran",
+      templates: "templat",
+      provider: "Pembekal",
     },
 
     manage: {
       title: "butiran SMS",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh melihat kandungan mesej teks yang dihantar oleh kedai anda di sini. Disebabkan oleh pengehadan dalam mendaftarkan corak pengesahan dalam perkhidmatan pemesejan, adalah tidak mungkin untuk memperibadikan mesej teks pada masa ini.",
     },
 
     template: {
-      title: "butiran",
-      valid_message: "butiran butiran butiran butiran SMS butiran",
-      provider_not_enable_message: "butiran SMS butiran butiran butiran butiran!",
+      title: "templat",
+      valid_message: "Anda boleh membuat mesej SMS tersuai.",
+      provider_not_enable_message: "Pembekal SMS tidak didayakan!",
       need_custom_provider_message:
-        "butiran SMS butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      add_new: "butiran butiran",
+        "Mesej SMS tersuai hanya berfungsi jika anda menetapkan pembekal tersuai.",
+      add_new: "Tambah Baru",
       disable_reason: {
-        set_provider: "butiran butiran butiran butiran!",
-        provider_is_disabled: "butiran butiran butiran!",
-        otp: "butiran - butiran butiran!",
-        select_another_provider: "butiran butiran butiran",
+        set_provider: "Tetapkan pembekal anda dahulu!",
+        provider_is_disabled: "Penyedia dilumpuhkan!",
+        otp: "OTP - Tiada yang boleh disesuaikan!",
+        select_another_provider: "Pilih pembekal lain.",
       },
-      enable_only_filter: "butiran butiran butiran",
+      enable_only_filter: "Tunjukkan sahaja didayakan",
 
       text_template_not_supported_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Pembekal anda tidak menyokong mesej teks biasa.",
       structure_template_not_supported_msg:
-        "butiran butiran butiran butiran butiran butiran butiran",
+        "Pembekal anda tidak menyokong mesej struktur.",
 
-      structured_data: "butiran butiran",
+      structured_data: "Data Berstruktur",
 
       menu: {
-        reset_error: "butiran butiran",
-        send_test: "butiran butiran butiran",
+        reset_error: "Tetapkan semula ralat",
+        send_test: "Hantar mesej ujian",
       },
     },
     template_edit: {
-      title_add: "butiran butiran butiran butiran",
-      title_edit: "butiran butiran butiran",
+      title_add: "Tambah templat mesej baharu",
+      title_edit: "Edit templat mesej",
       config: {
-        title: "butiran butiran",
+        title: "Konfigurasi Mesej",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran SMS butiran butiran butiran SMS butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran SMS butiran butiran butiran butiran",
+          "Anda boleh membuat templat untuk mesej SMS di tapak web pembekal SMS anda, kemudian nyatakan kod dan struktur datanya di sini. Kami akan memajukan maklumat ini kepada pembekal anda, tempat mesej SMS sebenar akan dijana.",
         code: "Kod",
-        language_msg: "butiran butiran butiran butiran butiran butiran butiran butiran",
-        enable_msg: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        language_msg: "Biarkan kosong untuk menetapkannya sebagai lalai.",
+        enable_msg: "Templat ini akan digunakan untuk membuat mesej.",
       },
       text: {
-        title: "butiran butiran",
+        title: "Teks biasa",
         subtitle:
-          "butiran butiran butiran SMS butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Masukkan mesej SMS yang diperibadikan di sini. Nilai dinamik akan digantikan dengan nilai sebenar sebelum dihantar kepada pengguna.",
         message: "Mesej",
-        reset_to_default: "butiran butiran butiran",
+        reset_to_default: "Tetapkan semula kepada lalai",
 
         auto_fill: {
-          title: "butiran butiran butiran",
+          title: "Parameter isian automatik",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran butiran butiran butiran",
+            "Anda boleh menggunakan setiap parameter ini dalam teks dan Selldone akan menggantikannya dengan nilai yang sepadan.",
         },
 
         sample: {
-          title: "butiran butiran",
+          title: "Contoh mesej",
         },
       },
       template: {
-        title: "butiran butiran",
+        title: "Templat Struktur",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran SMS butiran butiran, butiran butiran <code>butiran</code> butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran <code>butiran</code> butiran butiran butiran butiran butiran, butiran <code>{code}</code> butiran butiran butiran butiran butiran butiran butiran",
-        add_new_parameter: "butiran butiran butiran",
+          "Anda boleh menetapkan kunci templat dan nilai di sini. Kod templat hendaklah sama seperti yang anda tetapkan dalam pembekal perkhidmatan SMS anda dan <code>key</code> ialah kod yang ingin dihantar oleh pembekal anda. Jika medan <code>value</code> templat kosong, maka <code>{code}</code> akan dianggap sebagai kod templat.",
+        add_new_parameter: "Tambah parameter baharu",
 
         auto_fill: {
-          title: "butiran butiran butiran",
+          title: "Parameter isian automatik",
           subtitle:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran Selldone butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran SMS butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Anda boleh menetapkan setiap parameter ini sebagai nilai dan Selldone akan menggantikannya dengan nilai yang sepadan. Adalah lebih baik untuk menentukan nilai lalai sebagai templat dalam pembekal SMS anda untuk kesederhanaan. Dalam kes ini, tiada keperluan untuk menentukan nilai parameter di sini.",
         },
         request: {
-          title: "butiran butiran",
+          title: "Muatan sampel",
         },
         sample: {
-          title: "butiran butiran butiran",
-          subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran SMS butiran",
+          title: "Contoh mesej templat",
+          subtitle: "Anda boleh menyalin dan melepasi templat ini kepada pembekal SMS anda.",
         },
-        add_message_action: "butiran butiran butiran",
+        add_message_action: "Tambah templat mesej",
       },
     },
   },
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "butiran butiran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Teks Biasa",
+      desc: "Mesej akan dibuat daripada teks dengan parameter ganti automatik dan hantar.",
     },
     template: {
-      title: "butiran butiran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Templat Struktur",
+      desc: "Objek akan dibuat daripada parameter dan dihantar kepada pembekal.",
     },
   },
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "butiran SMS butiran",
-    reset_error: "butiran butiran",
+    reset_error: "Tetapkan semula ralat",
     subtitle:
-      "butiran butiran butiran butiran SMS butiran butiran butiran butiran butiran butiran SMS butiran butiran butiran butiran butiran butiran butiran butiran butiran SMS butiran butiran butiran butiran butiran butiran butiran",
-    plain_text: "butiran butiran",
-    structural_template: "butiran butiran",
+      "Sediakan pembekal perkhidmatan SMS tersuai dan sesuaikan SMS pengesahan dan nama perniagaan anda. Pembekal lalai hanya menghantar SMS pengesahan dan memaklumkan mesej di beberapa negara tersenarai putih.",
+    plain_text: "Teks biasa",
+    structural_template: "Templat struktur",
     errors_limit_msg:
-      "butiran butiran butiran butiran 100 butiran, butiran butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran",
+      "Jika perkhidmatan anda melebihi 100 ralat, ia akan dilumpuhkan secara automatik! Anda boleh menetapkan semula ralat untuk mendayakannya semula.",
 
     enable_input: {
       false_description:
-        "butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran, butiran butiran butiran butiran SMS butiran butiran butiran butiran butiran",
+        "Mesej OTP akan dihantar melalui Seldone di negara terpilih, manakala SMS pemberitahuan pesanan lain akan dihantar juga.",
       true_description:
-        "SMS butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Mesej SMS akan dihantar menggunakan pembekal perkhidmatan anda.",
     },
     test_input: {
-      true_title: "butiran butiran",
+      true_title: "Sahkan Konfigurasi",
       true_description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 📞 <b>{phone}</b>, butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kami akan menghantar mesej ujian ke nombor telefon anda 📞 <b>{phone}</b>, ia boleh mengecaj anda, tetapi anda boleh memastikan semuanya berfungsi dengan baik.",
     },
     sync_action: {
       title: "Tindakan",
       subtitle:
-        "butiran SMS butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      action: "butiran butiran",
+        "Sesetengah perkhidmatan SMS menyediakan perkhidmatan tambahan seperti kempen, pemasaran dan ciri lain. Anda boleh menyegerakkan kenalan anda atau maklumat tambahan untuk menggunakan ciri mereka dengan lebih cepat.",
+      action: "Segerakkan kenalan",
     },
     tokens: {
-      title: "butiran",
+      title: "Parameter",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran SMS butiran butiran butiran butiran butiran",
+        "Tetapkan parameter berikut untuk memautkan pembekal perkhidmatan SMS anda dengan kedai anda.",
     },
   },
   sms_messages_options: {
     all: {
-      title: "butiran + butiran butiran",
+      title: "OPT + Pemberitahuan Pesanan",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Mesej pengesahan dan pemberitahuan pesanan akan dihantar.",
     },
     otp: {
-      title: "butiran butiran",
-      description: "butiran butiran butiran butiran butiran",
+      title: "OTP Sahaja",
+      description: "Mesej pengesahan akan dihantar.",
     },
   },
 
@@ -8665,13 +8665,13 @@ export default {
       "Anda akan melihat senarai e-mel yang dihantar oleh kedai kepada pelanggan dan pengurus dalam bahagian ini. E-mel direka bentuk dan dibuat secara automatik berdasarkan maklumat yang anda masukkan untuk kedai anda. Selain itu, kemungkinan memperibadikan mesej dan imej akan tersedia kepada orang ramai pada masa hadapan.",
 
     tabs: {
-      preferences: "butiran",
-      templates: "butiran",
-      provider: "butiran",
+      preferences: "Keutamaan",
+      templates: "templat",
+      provider: "Pembekal",
     },
 
     preferences: {
-      title: "butiran butiran",
+      title: "E-mel pemberitahuan",
     },
   },
 
@@ -8679,47 +8679,47 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "butiran butiran butiran",
+    title: "Pelayan mel tersuai",
     subtitle:
-      "Connect butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    provider: "butiran",
+      "Sambungkan pembekal perkhidmatan mel anda untuk menghantar e-mel melalui domain tersuai anda.",
+    provider: "Pembekal",
     enable_input: {
-      false_description: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      true_description: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      false_description: "E-mel anda akan dihantar melalui domain myseldone anda.",
+      true_description: "E-mel anda akan dihantar melalui domain mel tersuai anda.",
     },
     config: {
-      title: "butiran",
+      title: "Konfigurasi",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran API butiran butiran butiran butiran butiran butiran",
+        "Untuk mengkonfigurasi perkhidmatan mel tersuai anda untuk kedai anda, masukkan kunci API perkhidmatan anda bersama-sama dengan tetapan lain yang diperlukan.",
     },
     sender: {
       title: "daripada",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh mengkonfigurasi nama dan alamat e-mel pengirim lalai, yang akan digunakan untuk menghantar e-mel kepada pelanggan anda.",
     },
 
     inputs: {
       from: {
-        label: "butiran butiran",
+        label: "Daripada E-mel",
       },
       from_name: {
-        label: "butiran butiran",
+        label: "Daripada Nama",
       },
     },
 
     actions: {
-      send_test_email: "butiran butiran butiran butiran",
+      send_test_email: "Hantar e-mel ujian",
     },
 
     messages: {
       provider_error_limit:
-        "butiran butiran butiran butiran 100 butiran, butiran butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran",
+        "Jika perkhidmatan anda melebihi 100 ralat, ia akan dilumpuhkan secara automatik! Anda boleh menetapkan semula ralat untuk mendayakannya semula.",
 
       encryption_ports_guide:
-        "butiran butiran butiran butiran SSL, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran <b>butiran</b> butiran butiran: <b>587</b> butiran <b>SSL</b> butiran butiran: <b>465</b>.",
+        "Pembekal e-mel mungkin menawarkan sambungan SSL, TLS atau tidak disulitkan berdasarkan port yang tersedia. Jika penyambungan mengakibatkan ralat, mengubah mod penyulitan mungkin menyelesaikan isu tersebut. Standard <b>TLS</b> menggunakan Port : <b>587</b> dan <b>SSL</b> menggunakan Port : <b>465</b>.",
 
       enable_receive_test:
-        "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran <b>{email}</b>. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Selepas menyimpan perubahan, anda akan menerima mel ujian pada <b>{email}</b>. Simpan perubahan sebelum menghantar e-mel ujian dengan konfigurasi baharu.",
     },
   },
 
@@ -8735,9 +8735,9 @@ export default {
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
-    title: "Instagram butiran butiran",
+    title: "Saluran Jualan Instagram",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Instagram butiran butiran, butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+      "Buat kategori khusus untuk produk anda, lengkapkan dengan imej dan video, dan kongsikannya ke seluruh media sosial anda. Ia serupa dengan Instagram dan TikTok, tetapi dengan kawalan penuh, membolehkan anda menjual terus produk anda.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Cukai harus ditambah pada harga akhir.",
     invoice: {
       subtitle:
-        "butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dengan menggunakan borang ini, anda boleh membuat pautan pembayaran untuk jumlah tertentu. Ia juga menjadikan pengesanan invois dan mengesahkan penyelesaian pembayaran menjadi mudah dan mudah.",
     },
   },
 
@@ -8946,69 +8946,69 @@ export default {
     notifications: {
       delete_success: "Fail berjaya dipadamkan.",
     },
-    drag_sort_msg: "butiran butiran butiran butiran butiran butiran",
-    paid_mode_msg: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+    drag_sort_msg: "Anda boleh menyeret dan mengisih fail.",
+    paid_mode_msg: "Pengguna boleh memuat turunnya hanya selepas membeli produk.",
     free_mode_msg:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 50 butiran",
+      "Pengguna boleh memuat turun secara percuma. Fail sampel mestilah di bawah 50 MB.",
     has_gust_shopping_msg:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran",
+      "Pengguna berdaftar dan tetamu boleh memuat turun fail kerana pembelian tetamu didayakan dalam tetapan kedai > aliran.",
     only_registered_shopping_msg:
-      "butiran butiran butiran butiran butiran butiran butiran butiran",
-    file_count_limit: "butiran butiran butiran",
+      "Hanya pengguna berdaftar boleh memuat turun fail sampel.",
+    file_count_limit: "Had kiraan fail",
   },
 
   /**
    * @see BProductLocationRestrictionsList
    */
   product_location_restrictions: {
-    title: "butiran butiran",
+    title: "Lokasi Tersedia",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Jika produk atau perkhidmatan anda hanya tersedia di wilayah tertentu, ditakrifkan mengikut negara dan kod zip atau pin, anda boleh menetapkan lokasi tersebut di sini. Sekatan lokasi ini dikuatkuasakan pada peringkat produk. Pada halaman produk, pelanggan akan digesa untuk memilih lokasi mereka. Jika produk tersedia di kawasan pilihan mereka, mereka akan dapat meneruskan pembelian.",
 
-    add_location_action: "butiran butiran",
-    no_restriction: "butiran butiran",
+    add_location_action: "Tambah Negara",
+    no_restriction: "Tiada sekatan",
     import: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran",
+      title: "Muatkan profil",
+      subtitle: "Pilih profil lokasi yang disimpan.",
     },
     export: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran",
+      title: "Simpan profil",
+      subtitle: "Simpan lokasi untuk kegunaan masa hadapan.",
     },
     has_restriction_input: {
-      title: "butiran butiran butiran",
+      title: "Mempunyai sekatan lokasi",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Pelanggan hanya boleh membeli produk ini dalam negara dan poskod yang ditentukan, disebabkan sekatan lokasi yang ditetapkan.",
     },
-    zip_pin_code: "butiran / butiran butiran",
+    zip_pin_code: "Zip / Kod Pin",
     no_country_selected_error:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
-    tips: "butiran butiran butiran <b>+ butiran butiran</b> butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran <b>⋮ butiran</b> butiran butiran <b>butiran butiran</b>.",
+      "Sila sertakan sekurang-kurangnya satu negara bersama senarai kod zip/pin. Tanpa itu, produk ini tidak akan tersedia.",
+    tips: "Klik pada butang <b>+ Tambah Negara</b> untuk mula membuat set lokasi baharu. Sebaik sahaja anda selesai, anda boleh menyimpannya dengan mengklik pada bahagian atas kanan <b>⋮ Menu</b> dan memilih <b>Save Profile</b>.",
     need_save_message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran 'butiran butiran butiran",
+      "Tetapan sekatan lokasi untuk produk telah ditukar. Untuk mengekalkan perubahan ini, sila klik pada butang 'Simpan' di bawah.",
 
     add_dialog: {
-      title: "butiran butiran",
+      title: "Tambah Negara",
       message:
-        "butiran butiran butiran butiran butiran 'butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran, butiran butiran, butiran butiran, butiran butiran butiran butiran butiran",
+        "Pilih negara dan klik 'Tambah'. Ini akan menambahkan negara pada jadual, membolehkan anda menetapkan Poskod, Kod Pin, Nama Bandar atau nama Wilayah kepadanya.",
     },
     save_profile_dialog: {
-      title: "butiran butiran butiran",
+      title: "Tambah Profil Lokasi",
       message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sila masukkan nama untuk menyimpan set lokasi ini. Set lokasi yang disimpan ini boleh digunakan pada produk lain, membolehkan pemuatan lokasi pantas dengan hanya satu klik. Jika profil dengan nama yang diberikan sudah wujud, ia akan dikemas kini dengan nilai baharu ini.",
       title_input: {
-        title: "butiran butiran",
-        placeholder: "butiran butiran butiran, butiran butiran butiran,...",
+        title: "Tajuk profil",
+        placeholder: "Nama kategori, atau nama kedai, ...",
       },
     },
     load_profile_dialog: {
-      title: "butiran butiran butiran",
+      title: "Muatkan Profil Lokasi",
       message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh memuatkan lokasi dengan memilih set lokasi yang disimpan sebelum ini di sini.",
 
       select_input: {
-        title: "butiran butiran",
-        placeholder: "butiran butiran butiran",
+        title: "Profil Lokasi",
+        placeholder: "Pilih profil...",
       },
     },
   },
@@ -9028,19 +9028,19 @@ export default {
   selldone_applications: {
     title: "Jangan terlepas pesanan anda!",
     msg: "Urus perniagaan anda di mana-mana & bila-bila masa.",
-    scan_qr_code: "butiran butiran butiran butiran butiran!",
+    scan_qr_code: "Imbas saya dengan telefon anda!",
 
     notification: {
       title: "Pemberitahuan",
-      subtitle: "butiran butiran butiran butiran",
+      subtitle: "Dapatkan pemberitahuan pesanan baharu.",
     },
     order: {
       title: "Pesanan",
-      subtitle: "butiran butiran butiran butiran butiran butiran",
+      subtitle: "Lihat pesanan anda dan uruskannya.",
     },
     product: {
       title: "Produk",
-      subtitle: "butiran butiran butiran butiran butiran",
+      subtitle: "Pengurusan inventori dan produk biasa.",
     },
   },
 
@@ -9098,8 +9098,8 @@ export default {
       desc: "Jika anda perlu mengesahkan proses di kedai, e-mel yang berkaitan akan dihantar ke alamat ini. Contohnya untuk mengesahkan penghantaran e-mel pemasaran kepada pengguna kedai.",
     },
     bulk: {
-      title: "butiran butiran butiran",
-      desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Laporan Pesanan Harian",
+      desc: "Terima e-mel harian dengan butiran pesanan untuk hari itu.",
     },
   },
 
@@ -9116,7 +9116,7 @@ export default {
     title: "Beritahu tentang perniagaan anda kepada dunia!",
     msg: "Perkenalkan Selldone kepada rakan anda. Mereka akan mendapat baucar syarikat bernilai $99 apabila mereka mendaftar, dan anda akan mendapat baucar permulaan $15 sebaik sahaja mereka menyelesaikan transaksi pertama mereka.",
     invite: {
-      title: "butiran Selldone butiran OS butiran butiran butiran butiran $99 butiran",
+      title: "Sertai OS perniagaan Selldone untuk mendapatkan baucar $99 percuma.",
       description:
         "Saya menjemput anda ke Selldone untuk memulakan perniagaan anda dalam talian dengan alat yang hebat.",
       hashtags: "e-dagang, pembina laman web",
@@ -9131,15 +9131,15 @@ export default {
       "Senarai kedai saya sendiri, kedai yang dibenarkan dan sampel.",
 
     sample: {
-      title: "butiran butiran",
+      title: "Kedai Contoh",
       subtitle:
-        "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Di sini, anda boleh menemui pilihan kedai sampel. Anda diberi kebenaran untuk meneliti maklumat yang tersedia di kedai ini. Walau bagaimanapun, sila elakkan daripada melog masuk atau membuat pesanan menggunakan maklumat peribadi sebenar, kerana data ini boleh diakses oleh orang ramai. Jika anda secara tidak sengaja memasukkan maklumat anda di sini, sila keluar dari kedai dan hubungi kami untuk mendapatkan bantuan lanjut.",
     },
 
-    add_new_store: "butiran butiran butiran",
-    i_have_a_deal: "butiran butiran butiran butiran",
+    add_new_store: "Tambah Kedai Baharu",
+    i_have_a_deal: "Saya ada perjanjian",
     access: {
-      title: "butiran butiran",
+      title: "Akses Jemputan",
     },
   },
 
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategori Blog",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran 100, butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh mencipta bilangan kategori yang terhad untuk catatan blog anda untuk mengurusnya dengan lebih cekap. Mempunyai had kategori menggalakkan organisasi yang lebih baik di tapak web anda. Malah, agensi berita terkemuka mengekalkan bilangan kategori yang terhad, selalunya kurang daripada 100, untuk menyelaraskan pengurusan dan mengekalkan fokus yang lebih luas.",
 
     add_action: "Tambah kategori baharu",
     add_dialog: {
@@ -9182,9 +9182,9 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "butiran butiran butiran ",
+    title: "Jadual Keluaran Kandungan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Berikut ialah senarai rencana berjadual yang ditetapkan untuk penerbitan akan datang. Anda mempunyai keupayaan untuk menjadualkan catatan blog dan juga penerangan produk untuk diterbitkan pada masa tertentu.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Pembantu Pesanan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran - butiran butiran butiran butiran 100 butiran butiran",
+      "Eksport dan muat turun label untuk pemprosesan pesanan pukal - sesuai untuk mengendalikan lebih 100 pesanan setiap hari.",
 
     timespan: {
       title: "Tempoh masa",
@@ -9266,7 +9266,7 @@ export default {
       title: "Kaedah log masuk",
       subtitle: "Sesuaikan cara pengguna log masuk ke kedai anda.",
 
-      tips: "<b>butiran</b> butiran butiran butiran butiran butiran butiran butiran, butiran butiran Selldone butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      tips: "<b>Penting.</b> Apabila pengguna mendaftar dengan kedai anda, pengguna Selldone yang sepadan dibuat, jika pengguna itu belum wujud. Pengguna ini akan mempunyai akses kepada buku alamat mereka di semua kedai dan boleh melihat sejarah pesanan mereka, walaupun kedai telah ditutup. Kami tidak menggunakan maklumat ini untuk tujuan pemasaran tetapi memerlukannya untuk mengelakkan penipuan di kedua-dua pihak. Untuk mengekalkan ketelusan, kami akan menghantar e-mel kepada pengguna yang memaklumkan pendaftaran mereka.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9317,9 +9317,9 @@ export default {
 
     /** {@see BShopOptionsCheckoutForm} **/
     checkout_form: {
-      title: "butiran butiran",
+      title: "Borang pembayaran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Sesuaikan medan borang pembayaran untuk mengumpulkan maklumat yang anda perlukan daripada pelanggan anda.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9365,7 +9365,7 @@ export default {
     },
 
     dropshipping: {
-      title: "butiran",
+      title: "Dropshipping",
       desc: "Tiada produk dan tiada inventori - anda membayar kepada pihak ketiga, biasanya pemborong (seperti Printify, Wholesale2B, ...) atau pengilang, dan mereka memenuhi pesanan di belakang tabir.",
     },
 
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "Penjual Saya",
     message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+      "Ini ialah senarai akaun vendor anda. Semua akaun vendor yang dikaitkan dengan kedai yang menggunakan platform Seldone akan dipaparkan di sini, membolehkan anda mengurusnya dengan mudah.",
   },
 
   vendor_page: {},
@@ -9482,10 +9482,10 @@ export default {
       description: "Produk ini telah ditolak oleh pasaran.",
     },
     unlisted: {
-      name: "butiran",
-      title: "butiran",
+      name: "Tidak tersenarai",
+      title: "Tidak tersenarai",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran",
+        "Produk ini tidak disenaraikan di kedai, tetapi boleh diakses melalui pautan terus.",
     },
   },
 
@@ -9493,18 +9493,18 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "butiran butiran butiran",
+    title: "Hantar Permintaan Terus",
     message:
-      "butiran butiran butiran 3 butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone",
-    expand_action: "butiran butiran butiran",
-    input_label: "butiran butiran",
+      "Kenal pasti 3 keperluan perniagaan teratas anda untuk berkembang maju dan mendapat keuntungan di Selldone. Maklumat ini akan dikongsi secara langsung dengan pengasas dan pengarah dan akan dipertimbangkan dengan teliti. Anda juga boleh mengemas kini keperluan anda dari semasa ke semasa selepas penyerahan.",
+    expand_action: "Tulis permintaan...",
+    input_label: "Permintaan Anda",
     to: {
-      ceo: "butiran butiran butiran",
-      team: "butiran butiran butiran",
+      ceo: "Hantar kepada CEO",
+      team: "Hantar kepada Pasukan",
     },
     placeholder: {
-      ceo: "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran, butiran butiran\nbutiran butiran butiran butiran butiran",
-      team: "butiran butiran butiran butiran butiran butiran butiran\nbutiran butiran butiran butiran butiran",
+      ceo: "Sama sekali tidak perlu bersikap baik, saya suka mendengar anda bertanya secara langsung dan tepat.\ncth. Saya perlu ada...",
+      team: "Sila cuba berbuat baik kepada mereka.\ncth. Saya perlu ada...",
     },
   },
 
@@ -9512,13 +9512,13 @@ export default {
    * BInventoryFilter
    */
   inventory_filter: {
-    placeholder: "butiran butiran *.*",
+    placeholder: "Pilih Penapis *.*",
   },
   /**
    * BVendorInput
    */
   vendor_input: {
-    placeholder: "butiran butiran",
+    placeholder: "Penjual penapis...",
   },
 
   /**
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "butiran Import butiran",
     message:
-      "butiran butiran butiran butiran butiran butiran Import butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+      "Kami sedang dalam proses mengimport produk dan imej, yang mungkin mengambil sedikit masa untuk disiapkan.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Maklumat yang dipaparkan di sini telah diserahkan oleh pelanggan, mengikut struktur borang input produk.",
   },
 
   /**
@@ -9544,108 +9544,108 @@ export default {
   shop_connect: {
     test: {
       title: "kedai",
-      subtitle: "butiran butiran butiran",
-      action: "butiran butiran",
-      last_update: "butiran butiran butiran",
+      subtitle: "Laporan perkhidmatan luar",
+      action: "Uji sambungan",
+      last_update: "Terakhir dikemas kini oleh",
     },
     service_status: {
       title: "butiran Status",
-      syncing_message: "butiran butiran butiran",
-      action: "butiran butiran",
+      syncing_message: "Pada proses penyegerakan...",
+      action: "Segerakkan semua",
       connect_status: "Status sambungan",
       service_status: "butiran Status",
-      auto_confirm_enable_msg: "butiran butiran butiran butiran butiran",
+      auto_confirm_enable_msg: "Pengesahan automatik untuk pesanan didayakan.",
       auto_confirm_disable_msg:
-        "butiran butiran butiran butiran butiran butiran butiran",
+        "Pengesahan automatik pesanan tidak didayakan.",
       shipping_enable_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kos penghantaran akan dikira berdasarkan maklumat yang diberikan semasa pembayaran.",
     },
     detail: {
       title: "Connect butiran",
-      auto_confirm_order: "butiran butiran butiran",
-      test_mode: "butiran butiran",
+      auto_confirm_order: "Auto mengesahkan pesanan",
+      test_mode: "Mod ujian",
       status: {
-        subtitle: "butiran butiran butiran butiran butiran",
+        subtitle: "Maklumat keseluruhan tentang status penyegerakan.",
       },
       sync: {
-        title: "butiran butiran",
+        title: "Butiran penyegerakan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        no_data: "butiran butiran butiran!",
+          "Butiran penyegerakan dalaman. Maklumat ini disimpan selepas zaman proses penyegerakan berjaya ditamatkan.",
+        no_data: "Tiada maklumat penyegerakan!",
       },
     },
 
     products: {
       title: "Produk",
       subtitle:
-        "butiran butiran butiran butiran butiran {name}. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Connect butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran <b>butiran</b> butiran <b>butiran</b>, butiran butiran butiran butiran butiran! SKU",
-      action: "butiran butiran",
-      syncing_message: "butiran butiran butiran",
+        "Senarai produk tambahan daripada {name}. Pastikan produk anda mempunyai nama dan SKU yang unik. Sesetengah perkhidmatan Connect digunakan untuk penghijrahan, jadi jika anda mempunyai produk dengan pendua <b>SKUs</b> dan <b>Names</b>, produk tersebut akan ditukar!",
+      action: "Ambil produk",
+      syncing_message: "Pada proses penyegerakan...",
     },
 
     logs: {
-      title: "butiran",
+      title: "Log",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran 7 butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Senarai semua log dalam 7 hari yang lalu. Ciri pembalakan hanya disokong pada pembekal perkhidmatan luaran.",
     },
 
     edit: {
-      title: "butiran butiran Connect",
+      title: "Tambah Sambung baharu",
 
       service: {
         title: "Perkhidmatan",
         subtitle:
-          "butiran butiran butiran, butiran butiran, butiran butiran butiran butiran",
+          "Pilih platform sasaran, pembekal dropshipping atau pasaran untuk disambungkan.",
       },
       test: {
-        false_title: "butiran butiran",
-        false_desc: "butiran butiran butiran butiran, butiran, butiran",
-        true_title: "butiran (butiran butiran butiran)",
+        false_title: "Segerakkan semua",
+        false_desc: "Dapatkan semua produk, kategori, pelanggan yang tersedia.",
+        true_title: "Terhad (Disyorkan untuk pemula)",
         true_desc:
-          "butiran butiran 5 butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Connect > butiran butiran butiran butiran",
+          "Dapatkan maksimum 5 produk, kategori dan pelanggan. Anda boleh mengubahnya ke mod penuh dalam Sambung > Tetapan pada bila-bila masa.",
       },
       overwrite: {
-        false_title: "butiran butiran butiran butiran butiran",
-        false_desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran",
+        false_title: "Jangan ubah jika wujud",
+        false_desc: "Kekalkan butiran produk dan kategori sedia ada sebagaimana adanya.",
+        true_title: "Tulis ganti",
         true_desc:
-          "butiran butiran butiran butiran, butiran, butiran butiran butiran",
+          "Kemas kini maklumat produk, varian dan kategori sedia ada.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
         "            <b>Limited</b> option. By selecting 'Sync all', we get all data from your connected services and download related images, so it will reduce your free storage. Also, removing many products, categories, and customers would be hard!",
-      add_action: "butiran butiran butiran",
+      add_action: "Auto sambung ke",
       order: {
         title: "butiran Status",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran (butiran butiran), butiran butiran butiran butiran butiran",
+          "Konfigurasikan tetapan pengurusan pesanan perkhidmatan yang disambungkan untuk kedai anda. Ini termasuk menyediakan penerimaan pesanan, mendayakan pengesahan pesanan automatik (jika disokong) dan mengkonfigurasi pengiraan kos penghantaran.",
       },
       enable: {
         label: "Status sambungan",
-        true_desc: "butiran butiran butiran butiran butiran butiran",
+        true_desc: "Inventori dan pesanan akan disegerakkan.",
       },
       confirm: {
-        label: "butiran butiran butiran",
-        false_desc: "butiran butiran butiran butiran butiran",
+        label: "Auto mengesahkan pesanan",
+        false_desc: "Anda harus mengesahkan pesanan secara manual.",
         true_desc:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran ",
-        tips: "butiran butiran butiran butiran butiran butiran COD butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pesanan dengan bayaran langsung akan diluluskan secara automatik. Pesanan dengan pembayaran nyahpepijat tidak akan diluluskan secara automatik.",
+        tips: "Pesanan yang dibayar melalui kad hadiah atau COD atau gerbang pembayaran dalam mod nyahpepijat adalah pengecualian dan tidak akan disahkan secara automatik.",
       },
 
       shipping: {
         label: "penghantaran",
-        tips: "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran 3butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran 300butiran butiran butiran butiran butiran butiran butiran butiran butiran API",
-        false_title: "butiran",
+        tips: "Perkhidmatan ini menawarkan pengiraan penghantaran, yang boleh didayakan atau dilumpuhkan mengikut pilihan anda. Jika didayakan, API pengiraan kos dengan perkhidmatan pihak ketiga akan diperlukan, yang boleh menyebabkan kelewatan lebih 300ms untuk mengemas kini harga pada halaman pembayaran.",
+        false_title: "Lumpuhkan",
         false_desc:
-          "butiran butiran butiran butiran butiran, butiran butiran > butiran > butiran butiran butiran butiran, butiran Import butiran",
-        true_title: "butiran butiran",
+          "Gunakan pengiraan kos penghantaran saya, dalam Kedai > Logistik > Pengangkutan untuk semua produk, termasuk yang diimport.",
+        true_title: "Kira penghantaran",
         true_desc:
-          "butiran butiran butiran butiran butiran API butiran butiran butiran butiran",
+          "Gunakan API pengiraan kadar penghantaran yang ditawarkan oleh perkhidmatan ini.",
       },
 
       remove: {
-        verify: "butiran butiran butiran butiran butiran butiran butiran",
-        action: "butiran butiran butiran",
+        verify: "Saya mengesahkan untuk mengalih keluar sambungan ini.",
+        action: "Alih keluar sambung",
       },
     },
 
@@ -9655,14 +9655,14 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran OS",
-      action: "Connect butiran butiran",
+        "Sambungkan os perniagaan anda kepada perkhidmatan luaran dan urus semua saluran di tempat yang sama.",
+      action: "Sambungkan perkhidmatan baharu",
       empty_message:
-        "butiran butiran butiran butiran butiran butiran! Connect butiran butiran butiran butiran butiran butiran butiran",
-      auto_confirm: "butiran butiran",
+        "Lupakan aplikasi dan pemalam untuk dropship! Connect ialah masa depan pengurusan pesanan merentas platform.",
+      auto_confirm: "AutoConfirm",
       shipping: "penghantaran",
-      syncing_now: "butiran butiran!",
-      sync_not_started: "butiran butiran butiran butiran butiran!",
+      syncing_now: "Menyegerakkan sekarang!",
+      sync_not_started: "Penyegerakan belum bermula lagi!",
     },
   },
 
@@ -9671,24 +9671,24 @@ export default {
    */
   connect_mode: {
     Migration: {
-      title: "butiran",
-      desc: "butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran",
+      title: "Penghijrahan",
+      desc: "Dapatkan produk, kategori dan pelanggan. Selepas pengguna memadamkan perkhidmatan ini, produk, kategori dan pelanggan yang diterima tidak akan dipadamkan.",
     },
     Dropshipping: {
-      title: "butiran",
-      desc: "butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Dropshipping",
+      desc: "Dapatkan produk, kategori dan pesanan. Sistem mengalih keluar produk selepas pengguna mengalih keluar perkhidmatan.",
     },
     Marketplace: {
       title: "Pasaran",
-      desc: "butiran butiran butiran butiran butiran butiran (butiran butiran butiran butiran butiran SKU).",
+      desc: "Hanya segerakkan inventori dan terima pesanan (Produk akan dipautkan oleh SKU).",
     },
     Accounting: {
       title: "perakaunan",
-      desc: "butiran butiran butiran butiran butiran",
+      desc: "Hantar pesanan dan maklumat kewangan.",
     },
     Other: {
-      title: "butiran",
-      desc: "butiran butiran",
+      title: "Lain-lain",
+      desc: "Perkhidmatan lain.",
     },
   },
 
@@ -9697,10 +9697,10 @@ export default {
    */
   shop_landings: {
     title: "Halaman pendaratan",
-    add_new_action: "butiran butiran butiran",
+    add_new_action: "Tambah Halaman Baharu",
     subtitle:
-      "butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran AI",
-    empty_message: "butiran butiran butiran butiran butiran butiran butiran & butiran",
+      "Cipta halaman tersuai yang tersendiri dan responsif untuk jenama anda menggunakan editor sebaris dikuasakan AI serba boleh dan menjana kandungan dinamik secara automatik dengan memasukkan data.",
+    empty_message: "Reka halaman tersuai dengan seret & lepas...",
   },
 
   /**
@@ -9708,13 +9708,13 @@ export default {
    */
   shop_staff: {
     list: {
-      title: "butiran butiran ",
+      title: "Pengurusan kakitangan",
       subtitle:
         "Pengguna yang akan mempunyai akses kepada papan pemuka dan bahagian pengurusan kedai ini.",
     },
     pending: {
       title: "Yang belum selesai",
-      message: "butiran butiran butiran butiran butiran",
+      message: "Tunjukkan jemputan yang belum selesai.",
     },
   },
 
@@ -9723,8 +9723,8 @@ export default {
    */
   community_comments: {
     title: "Komen",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
-    empty_msg: "butiran butiran butiran butiran butiran butiran butiran",
+    subtitle: "Ini adalah senarai komen komuniti.",
+    empty_msg: "Tiada ulasan dibuat setakat ini...",
   },
 
   /**
@@ -9732,13 +9732,13 @@ export default {
    */
   community_categories: {
     title: "Kategori",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+    subtitle: "Ini ialah senarai kategori komuniti.",
     new_category_action: "Kategori baharu",
-    empty_msg: "butiran butiran butiran butiran butiran butiran butiran",
+    empty_msg: "Tiada kategori telah dibuat setakat ini...",
     filter: {
       delete: {
         title: "Dipadamkan",
-        description: "butiran butiran butiran",
+        description: "Tunjukkan kategori yang dipadamkan.",
       },
     },
   },
@@ -9746,31 +9746,31 @@ export default {
    * BPageShopCommunityPosts
    */
   community_posts: {
-    title: "butiran",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+    title: "Catatan",
+    subtitle: "Ini ialah senarai siaran komuniti.",
     filter: {
       deleted: {
         title: "Dipadamkan",
-        description: "butiran butiran butiran",
+        description: "Tunjukkan siaran yang dipadamkan.",
       },
       reported: {
-        title: "butiran",
-        description: "butiran butiran butiran",
+        title: "Dilaporkan",
+        description: "Tunjukkan siaran yang dilaporkan.",
       },
     },
-    empty_msg: "butiran butiran butiran butiran butiran butiran butiran",
+    empty_msg: "Tiada siaran dibuat setakat ini...",
     menu: {
       open_post: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+        title: "Buka Pos",
+        subtitle: "Lihat dan edit siaran dalam komuniti.",
       },
       spam: {
-        title: "butiran & butiran butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+        title: "Laporkan & Alih Keluar Spam",
+        subtitle: "Alih keluar siaran secara pukal dan larang pengguna.",
       },
       delete: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran",
+        title: "Padamkan Catatan",
+        subtitle: "Alih keluar siaran ini.",
       },
     },
   },
@@ -9780,46 +9780,46 @@ export default {
    */
   channel_google: {
     gtag: {
-      title: "butiran butiran",
+      title: "Pengurus Teg",
       subtitle:
-        "Google butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Google butiran butiran butiran, butiran, butiran butiran butiran—butiran butiran butiran butiran",
+        "Analitis Google mendayakan pengukuran ROI iklan sambil menjejak tapak dan apl Flash, video dan media sosial. Urus teg tapak web dengan mudah dengan penyelesaian percuma, mudah dan boleh dipercayai Pengurus Teg Google—tiada pengeditan kod diperlukan.",
       tag_id: {
-        label: "Google butiran butiran butiran",
+        label: "ID Pengurus Teg Google",
       },
     },
     shopping: {
       title: "Google butiran",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Google butiran",
-      tips: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Google butiran",
-      link_message: "Google butiran butiran URL",
+        "Sumber Data menunjukkan asal usul maklumat katalog anda di Google. Ikut pautan ini untuk menambahkan semua produk dan kategori secara automatik pada barangan Google.",
+      tips: "Anda boleh menggunakan alat ini untuk mengurus iklan Google dengan mudah dan automatik.",
+      link_message: "URL Suapan Produk Google",
     },
     console: {
-      title: "butiran butiran",
-      subtitle: `butiran butiran butiran butiran butiran butiran butiran butiran Google butiran butiran butiran Meta`,
+      title: "Konsol Carian",
+      subtitle: "Tambahkan teg meta pada halaman utama anda untuk pengesahan Konsol Carian Google.",
       code: {
-        label: "butiran butiran butiran Meta",
-        placeholder: "butiran butiran, butiran butiran Google",
+        label: "Teg meta pengesahan",
+        placeholder: "Daripada google, mis. viQg9mjdBj...",
       },
     },
     serp: {
       title: "Google butiran & butiran",
       subtitle:
-        "butiran butiran butiran butiran butiran SEO butiran butiran butiran Google butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kami memperoleh data audit SEO yang paling tepat daripada Google dan membentangkannya kepada anda dengan cara yang mudah. Hanya ikuti langkah yang disediakan.",
     },
     serp_content: {
-      title: "Connect butiran Google butiran butiran",
+      title: "Sambung ke Konsol Carian Google",
       subtitle:
-        "Connect butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran SEO butiran butiran butiran Selldone",
+        "Sambungkan kedai anda ke konsol carian dan mula meneroka kata kunci, kedudukan dan alatan SEO percuma lain di Selldone.",
       tips: {
         title:
-          "butiran butiran butiran Selldone butiran Google butiran butiran, butiran butiran butiran:",
-        add_in_selldone: "butiran, butiran, butiran butiran butiran butiran butiran butiran butiran",
-        add_in_google: `butiran butiran butiran <b>{domain}</b> butiran butiran<a href="https://search.google.com/search-console" target="_blank"> <b>Google butiran butiran</b></a>.`,
+          "Sebelum memautkan Selldone dengan Konsol Carian Google, pastikan perkara berikut:",
+        add_in_selldone: "Tambahkan, sahkan dan tetapkan sebagai Domain Tersuai anda yang utama.",
+        add_in_google: "Tambahkan dan sahkan <b>{domain}</b> dalam<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Konsol Carian Google</b></a> anda.",
       },
       action_custom_domain: "butiran Domain",
       action_connect_now: "Sambung Sekarang",
-      action_remove_connection: "butiran butiran butiran",
+      action_remove_connection: "Alih keluar sambungan",
     },
   },
 
@@ -9827,29 +9827,29 @@ export default {
    * {@see BPageShopIncentivesCoupon}
    */
   cashback: {
-    add_new: "butiran butiran butiran",
-    title: "butiran butiran",
+    add_new: "Tambah Pulangan Tunai Baharu",
+    title: "Program Pulangan Tunai",
     boosted: "butiran (2butiran)",
     min_purchase: "Pembelian minimum",
-    only_first_order: "butiran butiran butiran",
-    total_cashback: "butiran butiran",
+    only_first_order: "Hanya Pesanan Pertama",
+    total_cashback: "Jumlah Pulangan Tunai",
     delete_alert: {
-      title: "butiran butiran butiran",
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran?",
+      title: "Padamkan Program Pulangan Tunai",
+      message: "Adakah anda pasti akan memadamkan program pulangan tunai ini?",
       action: "Ya, Padam Sekarang",
     },
     notifications: {
-      delete_success: "butiran butiran butiran butiran",
+      delete_success: "Program Pulangan Tunai berjaya dipadamkan.",
     },
   },
   /**
    * {@see BPageCashback}
    */
   shop_cashback: {
-    title: "butiran butiran",
+    title: "Program Pulangan Tunai",
     up_to: "sehingga",
     menu: {
-      back: "butiran butiran",
+      back: "Program Kembali",
       dashboard: "Papan pemuka",
       orders: "Pesanan",
       edit: "Sunting",
@@ -9863,8 +9863,8 @@ export default {
         y: "Jumlah pembelian {currency}",
       },
       chart_amount_cashback: {
-        label: "butiran",
-        y: "butiran butiran {currency}",
+        label: "Pulangan tunai",
+        y: "Jumlah pulangan tunai {currency}",
       },
       chart_used: {
         label: "terpakai",
@@ -9875,9 +9875,9 @@ export default {
      * {@see BPageCashbackOrders}
      */
     orders: {
-      title: "butiran butiran",
+      title: "Pesanan Pulangan Tunai",
       table: {
-        amount_cashback: "butiran butiran",
+        amount_cashback: "Jumlah Pulangan Tunai",
         payment_status: "Status bayaran",
         date: "Tarikh",
       },
@@ -9889,35 +9889,35 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "butiran butiran butiran butiran, butiran butiran butiran Status butiran",
+      subtitle: "Tetapkan peratus chasback, had dan statusnya di sini.",
     },
     percent_input: {
-      title: "butiran butiran",
-      message: "butiran butiran butiran butiran butiran 1% butiran 20%.",
+      title: "Peratusan Pulangan Tunai",
+      message: "Masukkan peratusan pulangan tunai dari 1% hingga 20%.",
     },
     currency_input: {
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      message: "Program pulangan tunai akan tersedia hanya untuk mata wang ini.",
     },
     limit_input: {
       title: "Had",
-      hint: "butiran butiran butiran butiran butiran butiran",
-      zero_message: "butiran 0 butiran butiran butiran butiran",
+      hint: "Masukkan jumlah maksimum pulangan tunai.",
+      zero_message: "Masukkan 0 untuk pulangan tunai tanpa had.",
     },
     duration: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Had Tempoh",
+      subtitle: "Tetapkan tempoh program pulangan tunai. Ia adalah pilihan.",
     },
     start_input: {
       title: "Tarikh mula",
-      placeholder: "butiran butiran butiran",
+      placeholder: "Pilih tarikh mula...",
     },
     end_input: {
       title: "Tarikh tamat",
-      placeholder: "butiran butiran butiran",
+      placeholder: "Pilih tarikh tamat...",
     },
     design: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tetapkan tajuk dan penerangan ringkas untuk program pulangan tunai. Maklumat ini akan ditunjukkan kepada pelanggan.",
     },
     title_input: {
       title: "Tajuk",
@@ -9926,49 +9926,49 @@ export default {
       title: "Penerangan",
     },
     constraints: {
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Tetapkan kekangan untuk program pulangan tunai.",
     },
     min_purchase_input: {
-      hint: "butiran butiran butiran butiran butiran butiran butiran butiran",
+      hint: "Masukkan jumlah pembelian minimum untuk program pulangan tunai.",
       title: "Pembelian minimum",
     },
     only_first_buy_input: {
-      false_desc: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      false_desc: "Program pulangan tunai akan tersedia untuk semua pesanan.",
       true_desc:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      true_title: "butiran butiran butiran",
-      false_title: "butiran butiran",
+        "Program pulangan tunai akan tersedia hanya untuk pesanan pertama.",
+      true_title: "Hanya Pesanan Pertama",
+      false_title: "Semua Pesanan",
     },
     qualify_input: {
-      false_title: "butiran butiran",
-      true_title: "butiran butiran",
+      false_title: "Semua Pelanggan",
+      true_title: "Pelanggan Layak",
       true_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Program pulangan tunai akan disediakan hanya untuk pelanggan yang layak.",
     },
     club: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tetapkan kelab untuk program pulangan tunai. Program pulangan tunai akan disediakan hanya untuk pelanggan yang berada di kelab ini.",
     },
     cluster: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Dengan mengaitkan kluster dengan program pulangan tunai, anda boleh mengurusnya dengan lebih berkesan.",
     },
     notifications: {
-      add: "butiran butiran butiran butiran",
-      edit: "butiran butiran butiran butiran",
+      add: "Program Pulangan Tunai berjaya ditambahkan.",
+      edit: "Program Pulangan Tunai berjaya dikemas kini.",
     },
     enable_input: {
-      true_msg: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      true_msg: "Program pulangan tunai aktif dan pelanggan boleh menggunakannya.",
       false_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Program pulangan tunai tidak aktif dan pelanggan tidak boleh menggunakannya.",
     },
     boosted_input: {
       false_title: "Biasalah",
-      true_title: "butiran (2butiran butiran)",
+      true_title: "Peningkatan (2x Pulangan Tunai)",
       true_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 2butiran butiran",
+        "Program pulangan tunai adalah dalam mod rangsangan dan pelanggan akan menerima pulangan tunai 2x.",
       false_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Program pulangan tunai adalah dalam mod biasa dan pelanggan akan menerima pulangan tunai biasa.",
     },
   },
 
@@ -9978,12 +9978,12 @@ export default {
   row_payment: {
     actions: {
       refund: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran",
+        title: "Bayaran Balik",
+        subtitle: "Bayaran balik separa atau penuh disokong.",
       },
       delivery: {
-        title: "butiran butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
+        title: "Sahkan Semasa Penghantaran",
+        subtitle: "Anda boleh mengesahkan penghantaran secara manual untuk pembekal pembayaran.",
       },
     },
   },
@@ -9992,34 +9992,34 @@ export default {
    * @see BOrderPaymentActionsRefundDialog
    */
   payment_refund_dialog: {
-    title: "butiran butiran",
+    title: "Bayaran Balik",
     message:
-      "butiran butiran butiran, butiran butiran butiran butiran butiran butiran 7 butiran butiran butiran butiran butiran",
+      "Atas sebab keselamatan, hanya pesanan yang dibayar dalam tempoh 7 hari yang lalu layak mendapat bayaran balik.",
     payment_amount: "Jumlah pembayaran",
-    total_refund_amount: "butiran butiran butiran",
-    can_refund: "butiran butiran",
-    refund_amount: "butiran butiran",
+    total_refund_amount: "Jumlah Amaun Dipulangkan",
+    can_refund: "Boleh Bayar Balik",
+    refund_amount: "Jumlah Bayaran Balik",
     verify: {
-      title: "butiran butiran",
+      title: "Sahkan Bayaran Balik",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Saya mengesahkan bahawa jumlah bayaran balik adalah betul dan saya mahu meneruskan.",
     },
-    action: "butiran butiran",
+    action: "Bayar Sekarang",
   },
 
   /**
    * @see BOrderPaymentActionsDeliveryDialog
    */
   payment_delivery_dialog: {
-    title: "butiran butiran butiran",
+    title: "Pengesahan Penghantaran Pelanggan",
     message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran",
+      "Perkhidmatan pembayaran tertentu memerlukan pengesahan bahawa pesanan telah dihantar kepada pelanggan. Kami biasanya menghantar pengesahan ini semasa langkah akhir pemenuhan pesanan apabila kami menerima pengesahan penghantaran pelanggan. Walau bagaimanapun, jika anda perlu melakukan tindakan ini secara manual, anda boleh melakukannya di sini.",
     verify: {
-      title: "butiran butiran",
+      title: "Sahkan Penghantaran",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Saya mengesahkan bahawa pesanan telah dihantar kepada pelanggan.",
     },
-    action: "butiran butiran",
+    action: "Sahkan Sekarang",
   },
 
   /**
@@ -10029,44 +10029,44 @@ export default {
     title: "Jualan silang",
     add_new_actions: "Tambah produk baharu",
     subtitle:
-      "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 3 butiran butiran butiran butiran butiran butiran",
+      "Dalam bahagian ini, anda boleh menambah dan mengurus produk jualan silang untuk halaman produk ini. Produk ini akan dipaparkan sebagai cadangan untuk pelanggan membeli bersama item utama. Anda juga boleh menetapkan diskaun untuk menggalakkan dan memberi insentif kepada pembelian tambahan. Sistem akan mempamerkan maksimum 3 item untuk dipertimbangkan oleh pelanggan.",
     dialog: {
-      edit_title: "butiran butiran butiran butiran",
-      add_title: "butiran butiran butiran butiran butiran",
+      edit_title: "Edit produk jualan silang",
+      add_title: "Tambah produk jualan silang baharu",
       target: {
-        title: "butiran butiran",
+        title: "Produk Sasaran",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        select_products: "butiran butiran(butiran)",
+          "Pilih produk yang anda ingin promosikan sebagai pilihan jualan silang bersama produk ini.",
+        select_products: "Pilih produk",
       },
       list: {
-        title: "butiran butiran",
-        subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran",
-        manage_product: "butiran butiran",
+        title: "Produk Sasaran",
+        subtitle: "Produk ini telah dipilih untuk promosi jualan silang.",
+        manage_product: "Uruskan Produk",
       },
       discount: {
         title: "butiran & butiran",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda mempunyai pilihan untuk memasukkan mesej dan menawarkan diskaun untuk memotivasikan pelanggan membeli item tambahan yang dipilih. Insentif ini boleh membantu memacu jualan dan meningkatkan pengalaman membeli-belah secara keseluruhan.",
         amount_input: {
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Peratusan diskaun akan digunakan pada harga produk selepas mengambil kira semua diskaun sedia ada.",
         },
         mismatch_type_warning:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Diskaun tidak boleh digunakan untuk jenis lain selain jenis produk utama, kerana item sumber dan sasaran tidak akan diletakkan dalam bakul yang sama.",
         not_support_subscription_type_warning:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Menetapkan diskaun untuk produk langganan jualan silang tidak boleh dilakukan, kerana rancangan harga tidak boleh dilaraskan secara dinamik.",
         message_input: {
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Cipta tajuk yang menarik dan menarik untuk menarik perhatian pelanggan.",
           placeholder:
-            "butiran & butiran: butiran butiran butiran butiran butiran butiran butiran!",
+            "Himpunan & Simpan: Lengkapkan Penampilan Anda dengan Pilihan Pilihan Kami!",
         },
       },
       action: {
-        title: "butiran",
+        title: "Tindakan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran, butiran butiran butiran \"butiran butiran butiran\" butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+          "Ubah suai tindakan produk jualan silang di sini. Jika produk anda memerlukan input maklumat tersuai, seperti melalui Borang Penilaian, jangan pilih \"Tambah Ke Troli\" sebagai tindakan, kerana ini boleh membawa kepada ralat.",
       },
     },
   },
@@ -10074,23 +10074,23 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "butiran butiran butiran butiran",
+    title: "Tambah Varian secara Pukal",
     variants: {
-      title: "butiran butiran",
+      title: "Pilihan Varian",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Pilih sehingga dua pilihan varian. Selepas pemilihan, anda boleh memilih varian tertentu untuk dibuat secara automatik.",
     },
     values: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Nilai Varian",
+      subtitle: "Masukkan nilai yang mungkin untuk setiap pilihan varian di sini.",
       prevent_duplicates_tips:
-        "<b>butiran:</b> butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "<b>Nota:</b> Kami menyemak varian sedia ada secara automatik untuk mengelakkan pendua.",
     },
     inventory: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Inventori Permulaan",
+      subtitle: "Tetapkan kiraan inventori permulaan untuk varian baharu.",
     },
-    add_variants_action: "butiran butiran",
+    add_variants_action: "Buat Varian",
   },
 
   /**
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Tambah ke Troli",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Paparkan butang Tambah ke Troli secara langsung. Harap maklum bahawa ini tidak terpakai untuk produk langganan.",
     },
     ViewProduct: {
       title: "Lihat Produk",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Paparkan butang Lihat Lagi yang mengarahkan pelanggan ke halaman produk dengan membuka tetingkap baharu.",
     },
   },
 
@@ -10114,50 +10114,50 @@ export default {
    */
 
   product_flow: {
-    title: "butiran butiran",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+    title: "Aliran pembelian",
+    subtitle: "Ini ialah aliran pembelian dan pemeriksaan kesihatan produk anda.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "butiran butiran butiran butiran butiran butiran <b>{name}</b>.",
-      enable_msg: "butiran butiran butiran butiran butiran butiran butiran",
-      disable_msg: "butiran butiran butiran butiran butiran butiran butiran",
+      subtitle: "Produk ini telah ditambahkan melalui <b>{name}</b>.",
+      enable_msg: "Jambatan ke perkhidmatan luaran ini didayakan.",
+      disable_msg: "Jambatan ke perkhidmatan luaran ini dilumpuhkan.",
       has_shipping_msg:
-        "{name} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran {name} butiran butiran butiran butiran",
+        "{name} sokongan penghantaran. Jadi anda mempunyai pilihan untuk mendayakan pengiraan penghantaran automatik oleh {name} pada halaman pembayaran.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
-      title: "butiran butiran",
-      available_in_stock_msg: "butiran butiran butiran butiran butiran",
-      out_of_stock_msg: "butiran butiran butiran butiran butiran",
+      title: "Kesihatan Produk",
+      available_in_stock_msg: "Produk tersedia dalam stok.",
+      out_of_stock_msg: "Produk kehabisan stok.",
       file_count_msg:
-        "{files_count} butiran butiran butiran {files_size} butiran butiran butiran butiran butiran",
-      no_file_uploaded_msg: "butiran butiran butiran butiran butiran butiran butiran",
+        "{files_count} fail dengan jumlah {files_size} dimuat naik untuk produk ini.",
+      no_file_uploaded_msg: "Tiada fail telah dimuat naik lagi.",
       no_image_uploaded_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Muat naik imej produk untuk menjadikannya lebih menarik.",
     },
     /**
      * @see BProductFlowErrorsVendor
      */
     vendor_errors: {
-      title: "butiran butiran",
+      title: "Penjual yang hilang",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
-      manage_vendors: "butiran butiran",
+        "Produk ini pada masa ini tidak mempunyai vendor yang berkaitan. Untuk produk boleh dibeli di pasaran, ia mesti mempunyai sekurang-kurangnya satu vendor.",
+      manage_vendors: "Urus Vendor",
     },
 
     /**
      * @see BProductFlowErrorsFile
      */
     file_errors: {
-      title: "butiran butiran",
+      title: "Fail Tiada",
       subtitle:
-        "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      manage_files: "butiran butiran",
+        "Pada masa ini, tiada fail telah dimuat naik untuk produk ini. Sila muat naik fail untuk meneruskan.",
+      manage_files: "Urus Fail",
     },
 
     /**
@@ -10165,71 +10165,71 @@ export default {
      */
     pricing: {
       title: "penentuan harga",
-      no_product_price_msg: "butiran butiran butiran butiran butiran butiran butiran!",
-      listing_pricing_msg: "butiran butiran butiran:",
-      has_valuation_msg: "butiran butiran butiran",
+      no_product_price_msg: "Harga produk lalai belum ditetapkan lagi!",
+      listing_pricing_msg: "Harga penyenaraian:",
+      has_valuation_msg: "Produk mempunyai penilaian.",
       subscription_pricing_msg:
-        "butiran butiran butiran {count} butiran butiran butiran butiran",
+        "Produk ini mempunyai {count} pelan harga langganan.",
       has_no_subscription_pricing_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Produk ini tidak mempunyai pelan harga langganan.",
     },
     /**
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "butiran butiran butiran butiran butiran",
+      title: "Pelan Harga Langganan Tiada",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      pricing_plans: "butiran butiran butiran",
+        "Produk ini tidak mempunyai pelan harga langganan. Anda perlu menambah sekurang-kurangnya satu pelan harga langganan untuk menjadikan produk ini tersedia untuk pembelian langganan.",
+      pricing_plans: "Pelan Harga",
     },
 
     /**
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "butiran butiran butiran ● {status}",
+      title: "Menjual sekatan lokasi ● {status}",
       status: {
-        has_restriction: "butiran butiran {count} butiran",
-        no_restriction: "butiran butiran",
+        has_restriction: "Tersedia di {count} negara",
+        no_restriction: "Tidak terhad",
       },
       available_countries_msg:
-        "butiran butiran butiran butiran {count} butiran butiran butiran butiran {countries}.",
+        "Beli-belah secara global terhad kepada {count} negara. Negara-negara ini ialah {countries}.",
       disable_for_all_countries_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran butiran",
+        "Beli-belah dilumpuhkan untuk semua negara dalam kedai anda > tetapan lokasi.",
       location_is_not_in_permitted_shop_locations_msg:
-        "butiran butiran {country} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      shop_locations: "butiran butiran",
-      product_locations: "butiran butiran",
+        "Anda menetapkan {country} sebagai lokasi jualan tetapi di peringkat kedai anda tidak membenarkan negara ini. Sila semak tetapan peringkat kedai anda.",
+      shop_locations: "Lokasi Kedai",
+      product_locations: "Lokasi Produk",
     },
 
     /**
      * @see BProductFlowErrorsLocation
      */
     location_errors: {
-      title: "butiran butiran butiran",
+      title: "Ralat lokasi tersedia",
       no_location_error_subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda telah mengaktifkan sekatan lokasi untuk membeli produk, tetapi pada masa ini, tiada negara disenaraikan di bawah sekatan ini. Akibatnya, produk ini tidak tersedia untuk dibeli oleh sesiapa sahaja.",
       invalid_location_error_subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran: butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Tetapan sekatan lokasi untuk produk anda mengandungi ralat: lokasi tertentu yang disenaraikan tidak mempunyai sebarang kod ZIP yang berkaitan. Akibatnya, pengguna tidak dapat memilih kod ZIP, menyebabkan produk tidak tersedia untuk pembelian.",
 
-      manage_locations: "butiran butiran",
+      manage_locations: "Urus Lokasi",
     },
 
     /**
      * @see BProductFlowRowTax
      */
     tax: {
-      title: "butiran butiran",
-      default_shop: "butiran butiran butiran",
-      tax_profiles: "butiran butiran",
+      title: "Cukai langganan",
+      default_shop: "Cukai Kedai Lalai",
+      tax_profiles: "Profil Cukai",
       description: {
         subscription_tax_msg:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        dedicated: "butiran",
-        is_disabled: "butiran butiran butiran butiran butiran!",
-        tax_is_based_on_location: "butiran: butiran butiran",
-        shipping_tax_is_based_on_location: "butiran: butiran butiran",
-        included_in_price: "butiran butiran butiran",
+          "Kami boleh menggunakan cukai hanya pada langkah membuat pembayaran.",
+        dedicated: "berdedikasi",
+        is_disabled: "Profil cukai ini dilumpuhkan!",
+        tax_is_based_on_location: "Cukai: Berdasarkan lokasi",
+        shipping_tax_is_based_on_location: "Penghantaran: Berdasarkan lokasi",
+        included_in_price: "Termasuk dalam harga.",
       },
     },
 
@@ -10237,11 +10237,11 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "butiran butiran butiran butiran <b>{vendor}</b>.",
-      has_vendors_msg: "butiran butiran {count} butiran butiran butiran butiran",
+      vendor_owner_msg: "Produk ini kepunyaan <b>{vendor}</b>.",
+      has_vendors_msg: "Terdapat {count} vendor untuk produk ini.",
       no_vendor_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
-      add_vendors: "butiran butiran",
+        "Anda belum menetapkan vendor untuk produk ini, jadi pelanggan tidak dapat membelinya.",
+      add_vendors: "Tambah Vendor",
     },
   },
 
@@ -10249,27 +10249,27 @@ export default {
    * @see BPageProductTemplate
    */
   product_template: {
-    title: "butiran butiran butiran",
+    title: "Templat Halaman Produk",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 1 butiran 3 butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    edit_page: "butiran butiran",
-    list_of_pages: "butiran butiran butiran butiran",
+      "Anda boleh membenamkan halaman dalam halaman produk anda untuk persembahan yang dipertingkatkan. Pendekatan yang optimum ialah membuat halaman yang memaparkan latar belakang telus dan 1 hingga 3 bahagian yang disesuaikan dengan setiap kategori produk. Kemudian, tetapkan satu halaman kepada berbilang produk untuk paparan yang konsisten dan menarik.",
+    edit_page: "Edit Halaman",
+    list_of_pages: "Senarai Halaman",
   },
   /**
    * @see BPageProductEmbed
    */
   product_embed: {
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh membenamkan produk atau senarai produk dengan mudah dalam blog anda atau halaman web lain dengan hanya menyalin dan menampal kod yang kami sediakan. Walaupun ciri ini masih di peringkat awal, kami sedang giat berusaha untuk mengembangkan fungsinya melebihi apa yang tersedia di tempat lain pada masa ini. Walaupun pada masa ini ia menawarkan keupayaan terhad, kami mempunyai rancangan untuk memperkenalkan lebih banyak templat dan pilihan penyesuaian pada masa hadapan.",
     card: {
-      title: "butiran",
+      title: "minima",
       description:
-        "butiran HTML butiran butiran butiran butiran butiran butiran butiran butiran butiran HTML butiran",
+        "Hasilkan kod HTML untuk menambah kad produk dalam platform lain dan halaman HTML.",
     },
     iframe: {
-      title: "butiran",
+      title: "Iframe",
       description:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hasilkan kod iframe untuk memaparkan butiran produk yang komprehensif dalam tetingkap terbenam.",
     },
   },
 
@@ -10277,48 +10277,48 @@ export default {
    * @see BPermissionStaffAddDialog
    */
   permission_staff_add: {
-    title_new: "butiran butiran",
-    title_edit: "butiran butiran",
+    title_new: "Kakitangan Baru",
+    title_edit: "Edit Kakitangan",
 
     staff: {
-      title: "butiran butiran & butiran",
+      title: "Tambah Kakitangan & Akses",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran",
-      go_to_roles: "butiran butiran butiran",
+        "Semua pengguna yang mempunyai akses kakitangan boleh log masuk ke papan pemuka anda dan melihat maklumat kewangan. Untuk menambah pengguna dengan akses terhad, tentukan Peranan.",
+      go_to_roles: "Pergi ke Peranan",
     },
     access: {
       customization_tips:
-        "<b>butiran:</b> butiran butiran butiran item butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "<b>Penyesuaian:</b> Klik pada setiap item untuk menyesuaikan akses baca/tulis lalai. Setiap baris mewakili tahap akses yang sepadan dengan papan pemuka kedai utama.",
       simplify_tips:
-        "<b>butiran!</b> butiran butiran butiran butiran butiran butiran butiran 300 butiran butiran 10 butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "<b>Penting!</b> Kami memudahkan kawalan akses daripada lebih 300 kepada di bawah 10 tahap. Tahap akses yang lebih terperinci dan terkini akan diterbitkan dalam dokumentasi.",
       multi_permission_tips:
-        "<b>butiran butiran?</b> butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
-      view_data: "butiran butiran",
+        "<b>Had tersuai?</b> Anda boleh menambah lebih banyak akses kepada satu pengguna, jadi selepas menambah akses pertama, buat akses tambahan dengan langkah yang sama.",
+      view_data: "Lihat Data",
       apply_changes: "Gunakan Perubahan",
     },
 
     inputs: {
       email: {
         placeholder: "E-mel",
-        label: "butiran butiran butiran",
+        label: "Alamat E-mel Pengguna",
       },
       level: {
-        label: "butiran butiran",
-        placeholder: "butiran butiran butiran",
+        label: "Tahap akses",
+        placeholder: "Pilih tahap...",
       },
     },
 
     actions: {
-      add: "butiran butiran",
+      add: "Tambah Kakitangan",
     },
     notifications: {
       add_success: {
-        title: "butiran butiran",
-        message: "butiran butiran butiran butiran butiran butiran",
+        title: "Akses Diberikan",
+        message: "Akses baharu telah berjaya ditambah.",
       },
       update_success: {
-        title: "butiran butiran",
-        message: "butiran butiran butiran butiran butiran",
+        title: "Akses Dikemaskini",
+        message: "Kebenaran telah berjaya dikemas kini.",
       },
     },
   },
@@ -10327,26 +10327,26 @@ export default {
    * @see BCategoryEngineEditor
    */
   category_engine_editor: {
-    title: "butiran butiran butiran",
+    title: "Penyenaraian Produk Tambahan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Paparkan produk daripada pelbagai kategori. Anda mempunyai pilihan untuk memilih berbilang kategori untuk mempamerkan produk atau menapis produk mengikut teg.",
     aut_add_sub_categories_tips:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh menambah semua subkategori secara automatik ke kategori semasa dengan mengklik butang di bawah.",
     inputs: {
       categories: {
         label: "Kategori",
-        messages: "butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran",
+        messages: "Produk dalam kategori ini akan ditunjukkan.",
+        placeholder: "Pilih kategori...",
       },
       tags: {
-        label: "butiran butiran",
-        messages: "butiran butiran butiran butiran butiran butiran butiran",
-        placeholder: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        label: "Tag produk",
+        messages: "Produk dengan tag ini akan ditunjukkan.",
+        placeholder: "Teg wayar di sini dan tekan enter. ex. koleksi baru",
       },
     },
     actions: {
-      save_engine: "butiran butiran",
-      auto_add_subcategories: "butiran butiran butiran",
+      save_engine: "Jimat Enjin",
+      auto_add_subcategories: "Auto tambah subkategori",
     },
   },
 
@@ -10355,16 +10355,16 @@ export default {
    */
   products_sort_view: {
     search_tips: {
-      title: "butiran butiran",
+      title: "Petua Carian",
       normal:
-        "<b>butiran butiran: </b>butiran butiran butiran, MPN, SKU, butiran, butiran butiran",
+        "<b>Carian Umum: </b>Cari mengikut Tajuk, MPN, SKU, Jenama atau Teg.",
       product:
-        "<b>butiran butiran butiran: </b>butiran butiran butiran butiran butiran butiran butiran butiran, butiran, <b class=\"text-green\">butiran</b><i class=\"text-yellow\">360</i>.",
+        "<b>ID Produk Tepat: </b>Gunakan ID Produk P+ untuk mencari produk tertentu, cth., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>butiran butiran: </b>butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, <b class=\"text-green\">\"</b><i class=\"text-yellow\">butiran butiran butiran</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>butiran butiran: </b>butiran butiran butiran butiran butiran butiran butiran butiran butiran \"butiran:\", butiran, <b class=\"text-green\">butiran:</b><i class=\"text-yellow\">butiran butiran butiran</i>.",
+        "<b>Frasa Tepat: </b>Gunakan tanda petikan untuk mencari frasa yang tepat, cth., <b class=\"text-green\">\"</b><i class=\"text-yellow\">teks anda di sini</i><b class=\"text-green\">\"</b>.",
+      tax: "<b>Profil Cukai: </b>Cari produk dengan profil cukai tertentu menggunakan \"cukai:\", cth., <b class=\"text-green\">cukai:</b><i class=\"text-yellow\">nama profil cukai</i>.",
       new_products:
-        "<b>butiran butiran: </b>butiran butiran butiran butiran butiran butiran butiran butiran, butiran, <b class=\"text-green\">butiran~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Produk Baharu: </b>Cari produk yang ditambahkan dalam julat tarikh tertentu, cth., <b class=\"text-green\">baharu~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10372,34 +10372,34 @@ export default {
    * @see LAugmentForm
    */
   augment_form: {
-    title: "butiran",
+    title: "Pembesaran",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 32 butiran",
-    add_caption: "butiran butiran item",
-    add_sub_caption: "butiran butiran butiran butiran",
+      "Masukkan kunci yang akan ditukar dengan nilai yang sepadan dalam kandungan halaman. Kunci hendaklah maksimum 32 aksara.",
+    add_caption: "Tambah Item Baharu",
+    add_sub_caption: "Tambahkan pasangan nilai kunci tersuai.",
     add_dialog: {
-      title: "butiran butiran butiran",
+      title: "Pilih jenis input",
       html: {
         title: "butiran & butiran HTML",
-        subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran HTML",
+        subtitle: "Nilai item boleh ditetapkan sebagai sama ada teks atau HTML.",
       },
       image: {
         title: "Gambar",
-        subtitle: "butiran butiran butiran butiran butiran butiran",
+        subtitle: "Anda boleh memuat naik imej.",
       },
     },
     help_dialog: {
-      title: "butiran butiran butiran butiran butiran",
+      title: "Cara menggunakan kandungan dinamik",
       how_it_works_tips:
-        "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran item, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dalam halaman pendaratan, anda mempunyai fleksibiliti untuk menetapkan ruang letak dinamik untuk kedua-dua teks dan imej. Pemegang tempat ini memainkan peranan penting dalam menyesuaikan kandungan mengikut konteks.   Sifat dinamik ruang letak ini membolehkannya diisi dengan nilai penambahan, yang boleh berbeza-beza berdasarkan faktor yang berbeza. Sebagai contoh, nilai penambahan mungkin berbeza untuk setiap produk atau kategori. Kelebihan sebenar ciri ini berlaku apabila anda mempunyai pelbagai item dengan atribut yang berbeza. Anda boleh menggunakan ruang letak dinamik ini dengan berkesan untuk memperibadikan dan meningkatkan paparan setiap item, dengan itu mencipta pengalaman unik dan interaktif pada halaman pendaratan anda.",
       assign_tips:
-        "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Untuk menetapkan nilai dinamik pada imej, klik pada butang penyuap yang terletak di sebelah kiri bahagian.",
       set_dynamic_image_tips:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran URL butiran butiran butiran butiran butiran butiran",
+        "Anda kini mempunyai keupayaan untuk mengubah suai URL imej dan memberikannya nilai dinamik.",
       enter_values_tips:
-        "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Untuk setiap produk, anda mempunyai keupayaan untuk menetapkan pasangan nilai kunci khusus.",
       result_tips:
-        "butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Ini ialah hasil akhir halaman, di mana ruang letak telah digantikan dengan nilai ditambah.",
     },
   },
 
@@ -10408,35 +10408,35 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "butiran butiran",
+      title: "Pelbagai Bahasa",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      add_caption: "butiran butiran butiran",
-      no_more_language: "butiran butiran butiran!",
+        "Ini ialah senarai bahasa kandungan. Anda boleh menetapkan kandungan yang berbeza untuk profil logistik dalam setiap bahasa.",
+      add_caption: "Tambah artikel baharu",
+      no_more_language: "Tiada bahasa lagi!",
     },
     content: {
-      title: "butiran",
+      title: "kandungan",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda boleh menyesuaikan kandungan untuk profil logistik dalam berbilang bahasa.",
 
-      language_input: "butiran butiran butiran",
-      delete_article: "butiran butiran",
-      menu_tooltip: "butiran butiran / butiran butiran",
+      language_input: "Bahasa artikel semasa",
+      delete_article: "Padam Artikel",
+      menu_tooltip: "Auto terjemah / Padam artikel",
     },
-    translate_to: "butiran butiran",
+    translate_to: "Terjemah ke",
     notifications: {
       translate: {
-        message: "butiran butiran butiran butiran",
+        message: "Terjemahan artikel berjaya diselesaikan.",
       },
       save_article: {
-        message: "butiran butiran butiran butiran butiran",
+        message: "Artikel telah berjaya disimpan.",
       },
       delete_article: {
-        message: "butiran butiran butiran butiran butiran",
+        message: "Artikel telah berjaya dipadamkan.",
       },
     },
     delete_dialog: {
-      message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran?",
+      message: "Adakah anda pasti akan memadamkan artikel ini untuk selama-lamanya?",
       action: "Ya, Padam Sekarang",
     },
   },
@@ -10446,26 +10446,26 @@ export default {
    */
   logistic_profile_products: {
     title: "Produk",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+    subtitle: "Senarai produk yang dikaitkan dengan profil ini.",
   },
   /**
    * @see LogisticProfilePage_Setting
    */
   logistic_profile_setting: {
-    title: "butiran butiran",
+    title: "Maklumat am",
     inputs: {
       name: {
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Nama ini ditunjukkan kepada anda dan tidak akan didedahkan kepada umum.",
       },
       accept_delete: {
         true_description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        true_title: "butiran butiran butiran butiran butiran butiran butiran",
+          "Tindakan ini akan mengalih keluar semua pautan artikel dan profil.",
+        true_title: "Saya mengesahkan untuk mengalih keluar sambungan ini.",
       },
     },
     actions: {
-      remove: "butiran butiran butiran & butiran",
+      remove: "Alih keluar profil & perhubungan",
     },
   },
 
@@ -10473,27 +10473,27 @@ export default {
    * @see BPageShopLogisticProfiles
    */
   shop_logistic_profiles: {
-    title: "butiran butiran",
-    add_caption: "butiran butiran butiran",
+    title: "Profil Logistik",
+    add_caption: "Tambah Profil baharu",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Anda boleh membuat dan mengedit polisi jaminan dan pemulangan untuk produk di sini dan menetapkannya kepada mana-mana produk. Anda boleh menentukan dasar waranti yang berbeza untuk jenis produk yang berbeza.",
     add_dialog: {
-      title: "butiran butiran butiran butiran",
+      title: "Buat profil logistik baharu",
       config: {
-        title: "butiran butiran",
+        title: "Maklumat am",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Pilih jenis profil. Ia boleh menjadi panduan, waranti atau apa-apa kandungan dan bahan lain yang biasa dikongsi antara berbilang produk.",
       },
       article: {
         title: "Artikel",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh menambah lebih banyak bahasa selepas membuat profil logistik ini.",
       },
       inputs: {
         name: {
           message:
-            "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-          placeholder: "butiran butiran butiran butiran butiran butiran",
+            "Nama ini ditunjukkan kepada anda dan tidak akan didedahkan kepada umum.",
+          placeholder: "Masukkan nama untuk profil...",
         },
       },
     },
@@ -10503,24 +10503,24 @@ export default {
    * @see BPageShopLogisticIncludes
    */
   shop_logistic_includes: {
-    title: "butiran butiran butiran",
-    add_caption: "butiran butiran item",
+    title: "Pengurusan Item Termasuk",
+    add_caption: "Tambah item baharu",
     subtitle:
-      "butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran, butiran butiran butiran",
-    empty_list_msg: "butiran butiran butiran butiran",
+      "Di sini, anda boleh menguruskan item yang disertakan dalam produk anda. Untuk memastikan penampilan yang sempurna untuk kedai anda, gunakan item dengan corak imej yang serupa secara konsisten, seperti bingkai wayar, merentas semua produk.",
+    empty_list_msg: "Senarai item yang disertakan...",
     notifications: {
       delete: {
-        message: "butiran item butiran butiran butiran",
+        message: "Item telah dipadamkan.",
       },
     },
     delete_dialog: {
-      title: "butiran butiran item",
+      title: "Padam item yang disertakan",
       message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran item? butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+        "Adakah anda pasti mahu memadamkan item ini secara kekal? Sila ambil perhatian bahawa ia juga akan dialih keluar daripada semua produk yang berkaitan!",
       action: "Ya, Padam Sekarang",
     },
     actions: {
-      edit_linked_page: "butiran butiran butiran",
+      edit_linked_page: "Edit halaman terpaut",
     },
   },
 
@@ -10528,53 +10528,53 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "butiran butiran item",
-    dialog_title_add: "butiran butiran butiran item",
+    dialog_title_edit: "Edit item yang disertakan",
+    dialog_title_add: "Buat item baharu yang disertakan",
 
     title: "butiran item",
     subtitle:
-      "butiran butiran butiran butiran, butiran butiran 2 butiran 3 butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran 256butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Pilih tajuk ringkas, sebaik-baiknya dengan 2 hingga 3 perkataan paling banyak. Gunakan imej segi empat sama, kerana kami akan mengubah saiz gambar yang dimuat naik secara automatik kepada format persegi 256x256. Untuk penampilan terbaik merentas semua templat, gunakan imej minimalis dengan latar belakang telus dan kekalkan corak seragam di seluruh produk anda.",
     inputs: {
       title: {
-        placeholder: "butiran butiran butiran butiran butiran butiran",
+        placeholder: "Tajuk ringkas dipaparkan pada halaman produk...",
       },
       code: {
-        placeholder: "butiran butiran, butiran butiran butiran_butiran_butiran",
-        hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        placeholder: "Kod unik, cth. mudah alih_kabel_usb",
+        hint: "Gunakan kod ini untuk menyelaraskan proses carian untuk mencari item.",
       },
       description: {
-        placeholder: "butiran butiran butiran butiran butiran butiran",
-        hint: "butiran butiran butiran butiran butiran SEO butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        placeholder: "Penerangan ringkas tentang item ini...",
+        hint: "Perihalan akan digunakan untuk SEO dan mungkin boleh dilihat oleh pengguna pada beberapa reka letak tersuai dalam halaman produk.",
       },
       image: {
-        message: "butiran butiran butiran: 1butiran",
+        message: "Saiz imej maksimum: 1MB",
       },
       path: {
-        label: "butiran butiran",
+        label: "Laluan halaman",
       },
     },
     mode: {
       no_link: {
-        title: "butiran butiran",
+        title: "Tiada pautan",
       },
       external_link: {
         title: "Pautan luar",
-        description: "butiran butiran butiran butiran butiran butiran butiran URL",
-        tips: "butiran butiran butiran butiran URL butiran butiran butiran butiran butiran butiran butiran butiran item butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+        description: "Tetapkan pautan ke url luaran.",
+        tips: "Anda boleh melampirkan sebarang URL pada item tersebut. Apabila pengguna mengklik pada item pada halaman produk, mereka akan diubah hala ke pautan tersebut.",
       },
       internal_link: {
-        title: "butiran butiran",
+        title: "Pautan dalaman",
         description:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        tips: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Buat halaman dinamik dengan data tambahan yang disediakan untuk item ini.",
+        tips: "Anda boleh memautkan halaman pendaratan dengan profil dan menetapkan laluan tersuai serta kandungan dinamik untuknya. Selldone akan menjana pautan dinamik untuk item tersebut.",
       },
     },
     notifications: {
       add: {
-        message: "butiran butiran item butiran butiran butiran butiran",
+        message: "Item yang disertakan telah berjaya ditambahkan.",
       },
       edit: {
-        message: "butiran butiran item butiran butiran butiran butiran",
+        message: "Item yang disertakan telah berjaya dikemas kini.",
       },
     },
   },
@@ -10582,17 +10582,17 @@ export default {
    * @see BPageShopLogisticReturns
    */
   shop_logistic_returns: {
-    title: "butiran butiran",
+    title: "Pesanan Dikembalikan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Pelanggan anda boleh memulangkan pesanan fizikal mereka dan anda boleh melihat permintaan pemulangan pada halaman pemprosesan pesanan atau mengakses senarai lengkap pesanan yang dikembalikan di sini.",
   },
   /**
    * @see OReferralFees
    */
   referral_fees: {
-    title: "butiran",
+    title: "Komisen",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran 30 butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Senarai semua komisen yang anda perolehi daripada rujukan anda. Ia mengambil masa sehingga 30 hari untuk komisen diluluskan dan dipindahkan ke dompet anda.",
   },
   /**
    * @see OReferralWallets
@@ -10600,43 +10600,43 @@ export default {
   referral_wallets: {
     title: "Dompet",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran",
-    no_commission_yet: "butiran butiran butiran butiran butiran butiran butiran",
-    no_wallet: "butiran butiran!",
+      "Di sini anda boleh melihat yuran komisen yang telah anda perolehi. Anda boleh memindahkan yuran komisen anda ke akaun bank anda atau dompet Seldone anda.",
+    no_commission_yet: "Anda belum menerima sebarang komisen lagi.",
+    no_wallet: "Tiada Dompet!",
 
     withdraw_dialog: {
-      title: "butiran butiran butiran",
+      title: "Tarik balik Yuran Komisen",
 
-      need_bank_info_message: "butiran butiran butiran butiran info butiran",
+      need_bank_info_message: "Sila masukkan maklumat bank anda dahulu.",
 
       to_wallet: {
-        title: "butiran butiran",
+        title: "Kepada Wallet",
         subtitle:
-          "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Dengan pilihan ini, anda boleh memindahkan yuran komisen ke dompet Seldone anda. Sila pastikan bahawa dompet disambungkan sebagai dompet hadiah anda, dan ia beroperasi dengan mata wang yang sama.",
       },
       to_bank: {
-        title: "butiran butiran",
+        title: "Kepada Bank",
         subtitle:
-          "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran Selldone butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Dengan pilihan ini, anda boleh memindahkan yuran komisen ke dompet Seldone anda. Sila pastikan bahawa dompet disambungkan sebagai dompet hadiah anda, dan ia beroperasi dengan mata wang yang sama.",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "butiran butiran butiran butiran butiran butiran butiran butiran Selldone butiran",
+            "Saya ingin memindahkan komisen saya ke dompet Seldone saya.",
         },
         verify_to_bank: {
           true_description:
-            "butiran butiran butiran butiran info butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+            "Saya mengesahkan maklumat bank saya dan saya ingin memindahkan komisen saya ke akaun bank saya.",
         },
       },
       actions: {
-        withdraw_to_wallet: "butiran butiran butiran",
-        withdraw_to_bank: "butiran butiran butiran",
+        withdraw_to_wallet: "Tarik balik ke dompet",
+        withdraw_to_bank: "Keluarkan ke bank",
       },
     },
     notifications: {
       request_transfer_to_bank_success:
-        "butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran",
+        "Permintaan anda telah berjaya diterima dan kami akan menyemaknya.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "butiran butiran butiran <b>?butiran={code}</b> butiran butiran butiran butiran Selldone URL",
+      message: "Anda boleh menambah <b>?ref={code}</b> pada mana-mana url seldone.",
     },
     intro: {
-      title: "butiran butiran Selldone butiran butiran butiran",
+      title: "Sertai Program Gabungan Selldone",
       message:
-        "butiran Selldone butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran—butiran butiran butiran butiran butiran butiran, butiran butiran, butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
-      why_join_selldone_affiliate: "butiran butiran butiran butiran butiran butiran?",
+        "Program Gabungan Selldone adalah ringkas dan mudah, direka untuk anda memperoleh pendapatan dengan mudah. Kongsi pautan ahli gabungan anda yang unik untuk menjemput pengguna baharu ke Selldone, dan anda akan memperoleh komisen daripada setiap transaksi yang mereka lakukan—selama-lamanya. Ini termasuk pendapatan daripada langganan, yuran perkhidmatan, naik taraf kedai dan semua aliran hasil lain. Mula memperoleh bahagian hasil tanpa sebarang had masa atau pendapatan. Sertai kami dan jadikan rangkaian anda sebagai pendapatan tetap!",
+      why_join_selldone_affiliate: "Mengapakah ini peluang yang unik?",
       reasons: [
-        "butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Selldone",
-        "butiran butiran butiran butiran $99 butiran butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Ia kekal selama-lamanya!",
+        "Meliputi semua yuran langganan dan transaksi. Secara harfiah setiap pembayaran pengguna pada Selldone.",
+        "Kami menghantar baucar $99 percuma kepada sesiapa yang mendaftar menggunakan pautan anda.",
+        "Apabila peningkatan peringkat anda, anda akan memperoleh pada kadar baharu daripada semua pengguna yang dirujuk sebelum ini.",
       ],
     },
   },
@@ -10665,68 +10665,68 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "butiran butiran butiran butiran butiran",
+    no_asset_uploaded: "Tiada aset dimuat naik lagi.",
   },
 
   /**
    * @see LMenuTopHome
    */
   l_menu_top_home: {
-    hot_keys: "butiran",
-    click_to_view_all: "butiran butiran butiran butiran",
+    hot_keys: "Kekunci panas",
+    click_to_view_all: "Klik untuk melihat semua...",
     clone_tooltip: {
-      title: "butiran butiran",
+      title: "Gaya Pendua",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran:",
+        "Gunakan alat ini untuk meniru gaya seperti fon, latar belakang, jidar dan jidar. Ikuti langkah ini untuk menduplikasi gaya:",
       step_1:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran butiran; butiran butiran butiran butiran butiran butiran butiran",
-      step_2: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Aktifkan alat dan tuding tetikus anda pada teks, lajur atau imej; kursor akan bertukar kepada pipet.",
+      step_2: "Klik pada elemen yang gayanya ingin anda salin.",
       step_3:
-        "butiran butiran butiran butiran butiran butiran butiran butiran; butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Kursor akan bertukar kembali kepada palet; klik pada elemen di mana anda ingin menggunakan gaya yang disalin.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Togol keterlihatan menu sisi, yang merangkumi semua kategori bahagian untuk membina halaman anda.",
     },
     sort_tooltip: {
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Dayakan ciri ini untuk menyusun semula dan menyusun bahagian dengan mudah dengan menyeretnya.",
     },
     edit_mode_tooltip: {
-      title: "butiran / butiran butiran",
-      edit_mode_title: "butiran butiran",
-      edit_mode_msg: "butiran butiran butiran butiran butiran butiran",
-      view_mode_title: "butiran butiran",
+      title: "Mod Edit / Pratonton",
+      edit_mode_title: "Mod Edit",
+      edit_mode_msg: "Semua alat penyuntingan akan dipaparkan.",
+      view_mode_title: "Mod Pratonton",
       view_mode_msg:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Lihat halaman anda kerana pengguna akan melihatnya dengan menyembunyikan alat penyuntingan tambahan dan kawasan teks kosong.",
     },
     repository_tooltip: {
-      title: "butiran butiran",
+      title: "Bahagian Prabina",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran",
+        "Togol paparan bahagian yang telah direka bentuk. Bahagian ini dibuat menggunakan bahagian standard yang tersedia dalam menu kiri, mempamerkan fleksibiliti pembina halaman ini.",
     },
     live_view: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Pratonton Langsung",
+      subtitle: "Lihat kemas kini dalam masa nyata semasa anda mengedit halaman anda.",
     },
     hotkeys_dialog: {
-      title: "butiran butiran",
+      title: "Pintasan Papan Kekunci",
       augment_tips:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran <b>butiran</b> butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran <b>butiran</b>, <b>butiran</b>, butiran <b>butiran butiran</b>. butiran butiran butiran butiran butiran butiran butiran, butiran butiran <b>butiran</b> butiran butiran <b>butiran butiran</b> butiran butiran butiran",
+        "Anda boleh memuatkan kandungan dinamik ke halaman anda dan menggantikannya dengan nilai <b>augment</b>. Penambahan digunakan untuk halaman dinamik tersuai seperti <b>Products</b>, <b>Categories</b> dan <b>Include Items</b>. Untuk menetapkan imej untuk dimuatkan secara dinamik, klik pada <b>Feeder</b> dan pilih <b>Sumber Dinamik</b> untuk imej tersebut.",
     },
     hotkeys: {
-      ctrl_b: "butiran butiran butiran butiran butiran butiran | <b>butiran butiran butiran</b>",
-      ctrl_i: "butiran butiran butiran butiran butiran butiran | <i>butiran butiran butiran</i>",
+      ctrl_b: "Togol huruf tebal hidup/mati untuk teks yang dipilih | <b>Jadikan saya berani</b>",
+      ctrl_i: "Togol italik hidup/mati untuk teks yang dipilih | <i>Jadikan saya condong</i>",
       ctrl_l:
-        "butiran butiran butiran butiran butiran butiran | <s>butiran butiran butiran</s>",
-      ctrl_u: "butiran butiran butiran butiran butiran butiran | <u>butiran butiran</u>",
+        "Togol coretan hidup/mati untuk teks yang dipilih | <s>Serang saya</s>",
+      ctrl_u: "Togol garis bawah hidup/mati untuk teks yang dipilih | <u>gariskan saya</u>",
       ctrl_1:
-        "butiran butiran butiran butiran butiran butiran | <small>butiran butiran butiran</small>",
-      ctrl_2: "butiran butiran butiran butiran butiran butiran | <big>butiran butiran butiran</big>",
-      ctrl_r: "butiran butiran butiran butiran butiran butiran butiran | butiran butiran butiran",
-      ctrl_s: "butiran butiran butiran",
-      tab: "butiran butiran butiran butiran",
-      ctrl_e: "butiran butiran butiran butiran butiran butiran",
+        "Kecilkan saiz fon teks yang dipilih | <small>Jadikan saya kecil</small>",
+      ctrl_2: "Tingkatkan saiz fon teks yang dipilih | <big>Jadikan saya besar</big>",
+      ctrl_r: "Alih keluar semua pemformatan daripada teks yang dipilih | Bersihkan semua gaya",
+      ctrl_s: "Simpan halaman",
+      tab: "Tukar antara mod skala",
+      ctrl_e: "Aktifkan atau nyahaktifkan mod gaya klon",
     },
   },
 
@@ -10735,34 +10735,34 @@ export default {
    */
   l_page_editor_repository: {
     title: "butiran & butiran",
-    subtitle: "butiran butiran",
+    subtitle: "Bahagian Pra-Bina",
     add_dialog: {
-      title: "butiran butiran butiran",
+      title: "Tambah Bahagian Tersuai",
       configuration: {
         title: "tetapan",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh menyimpan bahagian yang direka khas untuk kegunaan masa hadapan dalam reka bentuk halaman anda. Bahagian yang disimpan ini boleh diakses oleh semua pentadbir di kedai ini.",
       },
       image: {
         title: "Gambar",
-        subtitle: "butiran butiran butiran butiran butiran butiran",
+        subtitle: "Imej awam dipaparkan dalam senarai.",
       },
       code: {
         title: "Kod",
         subtitle:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+          "Anda boleh menyalin dan menampal kod elemen dari bahagian sebelah kiri dalam pembina halaman.",
       },
       inputs: {
         title: {
           label: "Tajuk",
-          message: "butiran butiran butiran butiran butiran",
+          message: "Ini adalah gelaran umum.",
         },
         tags: {
           label: "Tag",
-          message: "butiran butiran butiran butiran butiran butiran",
+          message: "Digunakan untuk mencari dan mengkategorikan elemen.",
         },
         section: {
-          message: "butiran butiran butiran butiran butiran butiran butiran",
+          message: "Salin bahagian daripada pembina halaman.",
         },
       },
     },
@@ -10772,40 +10772,40 @@ export default {
    * @see BPageMarketplaceVendors
    */
   marketplace_vendors: {
-    title: "butiran butiran",
+    title: "Senarai Vendor",
     subtitle:
-      "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran",
-    add_new_vendor_action: "butiran butiran butiran",
+      "Tambahkan vendor di sini, kemudian tetapkan mereka pada produk dalam Papan Pemuka Produk > Vendor.",
+    add_new_vendor_action: "Tambah Vendor Baharu",
     status_tooltip: {
       title: "butiran Status",
-      ACCEPTED: "butiran butiran butiran butiran butiran butiran butiran",
-      REJECTED: "butiran butiran butiran butiran butiran butiran",
-      PENDING: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      ACCEPTED: "Penjual mempunyai akses kepada panel mereka.",
+      REJECTED: "Permintaan vendor telah ditolak.",
+      PENDING: "Permintaan sedang menunggu keputusan daripada vendor.",
     },
-    number_of_products: "butiran butiran butiran",
-    invited: "butiran",
-    no_pricing: "butiran butiran butiran",
+    number_of_products: "Bilangan Produk",
+    invited: "dijemput",
+    no_pricing: "Tiada Harga",
     no_pricing_tooltip: {
-      title: "butiran butiran butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Pelan Harga Lalai",
+      subtitle: "Sila tetapkan model harga lalai untuk vendor.",
     },
     updated_products_tooltip: {
-      title: "butiran butiran butiran butiran butiran 24 butiran",
+      title: "Produk dikemas kini dalam 24 jam yang lalu",
     },
     added_products_tooltip: {
-      title: "butiran butiran butiran butiran butiran 24 butiran",
+      title: "Produk Ditambah dalam 24 Jam Terakhir",
     },
     access_tooltip: {
-      title: "butiran butiran",
+      title: "Akses Panel",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran butiran",
+        "Penjual mempunyai akses kepada panel mereka. Anda boleh mengedit ini dalam Vendor > tab Akses.",
     },
     reject_by_user_tooltip: {
-      title: "butiran butiran butiran",
+      title: "Ditolak oleh Pengguna",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Pengguna menolak permintaan untuk menjadi vendor dan mengakses vendor ini.",
     },
-    download_all_vendors: "butiran butiran butiran butiran",
+    download_all_vendors: "Muat turun semua vendor",
     bulk_import: "butiran Import (butiran)",
   },
 
@@ -10813,61 +10813,61 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "butiran butiran butiran!",
+    title: "Peningkatan Lesen Diperlukan!",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Lesen semasa anda tidak memenuhi keperluan model perniagaan pilihan anda. Sila tingkatkan lesen anda kepada pelan Perusahaan.",
   },
 
   /**
    * {@see BOrderChatBox}
    */
   b_order_chat_box: {
-    title: "butiran butiran",
+    title: "Tindakan Pantas",
     subtitle:
-      "butiran butiran butiran butiran Status butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    send_update_email_action: "butiran butiran butiran butiran",
-    add_template_action: "butiran butiran butiran",
+      "Anda boleh menghantar e-mel kemas kini status kepada pembeli dengan hanya satu klik. Selain itu, anda boleh menentukan mesej biasa di sini untuk digunakan semula, jadi anda tidak perlu menulis semula mesej itu setiap kali.",
+    send_update_email_action: "Hantar E-mel Kemas Kini",
+    add_template_action: "Tambah Templat Mesej",
 
     notifications: {
-      add_chat_success_message: "butiran butiran butiran butiran butiran",
+      add_chat_success_message: "Mesej telah berjaya ditambahkan.",
     },
 
     send_update_email: {
-      title: "butiran butiran butiran butiran",
+      title: "E-mel Kemas Kini Pesanan",
       need_set_service_alert: {
         message:
-          "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        action: "butiran butiran butiran",
+          "Sila tetapkan pembekal perkhidmatan e-mel anda untuk membenarkan e-mel dihantar.",
+        action: "Pergi ke tetapan",
       },
-      send_action: "butiran butiran butiran butiran",
+      send_action: "Hantar E-mel Kemas Kini",
 
       notifications: {
-        send_success_message: "butiran butiran butiran butiran butiran",
+        send_success_message: "E-mel telah berjaya dihantar.",
       },
     },
     add_template: {
-      edit_title: "butiran butiran butiran",
-      add_title: "butiran butiran butiran",
+      edit_title: "Edit Templat Mesej",
+      add_title: "Tambah Templat Mesej",
       message:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Anda harus menetapkan tajuk dan kandungan mesej di sini. Tajuk hanya digunakan untuk rujukan anda dan tidak akan dihantar kepada pelanggan.",
 
-      save_action: "butiran butiran",
-      add_action: "butiran butiran",
+      save_action: "Simpan Templat",
+      add_action: "Tambah Templat",
 
       notifications: {
-        save_success_message: "butiran butiran butiran butiran butiran",
+        save_success_message: "Templat telah berjaya disimpan.",
       },
 
       inputs: {
         title: {
-          label: "butiran butiran",
-          placeholder: "butiran butiran butiran butiran",
+          label: "Tajuk Templat",
+          placeholder: "Tulis tajuk pendek...",
         },
         body: {
-          label: "butiran butiran",
-          placeholder: "butiran butiran butiran butiran",
+          label: "Mesej Templat",
+          placeholder: "Tulis mesej anda di sini...",
           messages:
-            "butiran butiran butiran butiran butiran butiran {order_id} butiran {buyer_name}.",
+            "Anda boleh menetapkan nilai dinamik mengikut {order_id} dan {buyer_name}.",
         },
       },
     },
@@ -10878,15 +10878,15 @@ export default {
    */
   b_order_share: {
     title: "pautan pesanan",
-    subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+    subtitle: "Anda boleh berkongsi pautan pesanan dengan pelanggan.",
     guest_checkout_message:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran",
-    authentication: "butiran",
-    guest: "butiran",
-    click_to_create: "butiran butiran butiran",
-    valid_for_30_days: "butiran butiran 30 butiran",
+      "Pembeli tetamu boleh melihat pesanan mereka secara automatik dalam penyemak imbas yang sama. Walau bagaimanapun, jika pelanggan adalah tetamu dan anda perlu berkongsi butiran pesanan, anda boleh membuat pautan selamat untuk mereka.",
+    authentication: "Pengesahan",
+    guest: "tetamu",
+    click_to_create: "Klik untuk membuat...",
+    valid_for_30_days: "sah selama 30 hari",
     notifications: {
-      secure_link_created: "butiran butiran butiran butiran butiran butiran",
+      secure_link_created: "Pautan selamat telah berjaya dibuat.",
     },
   },
 
@@ -10894,20 +10894,20 @@ export default {
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
-    title: "butiran butiran",
-    add_source_action: "butiran butiran butiran",
+    title: "Sumber Ulasan",
+    add_source_action: "Tambah Sumber Semakan",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran Facebook, Google, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      "Sambungkan platform luaran dengan mudah untuk mengumpul dan menganalisis ulasan tentang perniagaan anda daripada sumber seperti Facebook, Google dan banyak lagi. Kami akan memadankan pelanggan secara automatik dengan ulasan mereka untuk pengalaman pelanggan yang lebih baik. Anda juga boleh mempamerkan ulasan ini pada halaman pendaratan dan halaman produk anda.",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "butiran butiran butiran butiran",
-    title: "butiran butiran",
+    add_caption: "Tambahkan set sifat baharu",
+    title: "Set Hartanah",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran",
+      "Anda boleh membuat dan mengurus set harta di sini. Set hartanah digunakan untuk menentukan sifat produk dan perkhidmatan. Anda boleh menetapkan set sifat ini kepada produk dalam Papan Pemuka Produk > Edit.",
   },
 
   /**
@@ -10915,37 +10915,37 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "butiran butiran - butiran butiran",
+      title: "Set Hartanah - Varian Tersuai",
       subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran",
+        "Anda boleh menyesuaikan nama varian untuk produk ini, menggantikan yang lalai.",
     },
 
     subtitle:
-      "butiran butiran butiran butiran butiran, butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran > butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    select_property_set: "butiran butiran butiran",
-    add_property_set: "butiran butiran butiran",
+      "Anda boleh menyesuaikan nama varian, ikon dan pesanannya di sini. Untuk produk dengan varian unik yang melangkaui enam lalai, anda boleh menetapkan varian tersuai yang disesuaikan dengan setiap produk. Hanya tentukan set harta dalam tab Logistik > Set Harta dan tetapkan set tersebut kepada sebarang bilangan produk mengikut keperluan.",
+    select_property_set: "Pilih Set Harta",
+    add_property_set: "Tambah Set Harta",
   },
 
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
-    title: "butiran",
-    add_action: "butiran butiran",
+    title: "kotak",
+    add_action: "Tambah kotak",
     subtitle:
-      "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-    empty: "butiran butiran butiran butiran “butiran butiran”.",
-    edit: "butiran butiran",
-    new: "butiran butiran",
-    default_weight: "butiran butiran butiran",
-    updated: "butiran butiran",
-    created: "butiran butiran",
-    deleted: "butiran butiran",
+      "Cipta saiz kotak boleh guna semula untuk mempercepatkan pembelian label dan memastikan kadar penghantaran yang tepat. Apabila memenuhi pesanan, pilih kotak yang disimpan dan dimensinya akan diisi secara automatik.",
+    empty: "Tiada kotak lagi. Klik \"Tambah kotak\".",
+    edit: "Kotak edit",
+    new: "Kotak baru",
+    default_weight: "Berat lalai",
+    updated: "Kotak dikemas kini.",
+    created: "Kotak dicipta.",
+    deleted: "Kotak dipadamkan.",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "butiran butiran butiran",
-    define_package: "butiran butiran butiran",
-    define_package_hint: "butiran butiran butiran butiran butiran butiran butiran",
+    select_box: "Pilih pakej",
+    define_package: "Tentukan pakej",
+    define_package_hint: "Buat atau edit saiz pakej anda yang dipratentukan",
   },
 
 
@@ -10972,137 +10972,137 @@ export default {
 
   /** {@see BPageShopListing} **/
   listing:{
-    name:"butiran",
-    message:"butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran—butiran, butiran, butiran, butiran, butiran butiran"
+    name:"Penyenaraian",
+    message:"Buat direktori yang boleh dicari dan disederhanakan untuk sebarang jenis penyenaraian—harta, hotel, doktor, perkhidmatan dan banyak lagi."
   },
 
   shop_listing: {
-    name: "butiran",
+    name: "Penyenaraian",
     message:
-      "butiran butiran butiran, butiran butiran butiran butiran butiran butiran butiran—butiran, butiran, butiran, butiran, butiran butiran",
+      "Buat direktori yang boleh dicari dan disederhanakan untuk sebarang jenis penyenaraian—harta, hotel, doktor, perkhidmatan dan banyak lagi.",
 
     items: {
       title: "barang",
       sub_title:
-        "butiran, butiran, butiran butiran butiran butiran butiran Status, butiran butiran, butiran info, butiran butiran",
+        "Buat, edit dan urus item penyenaraian. Kawal status, harga, maklumat hubungan dan media.",
 
-      empty_title: "butiran butiran butiran",
+      empty_title: "Tiada item lagi",
       empty_subtitle:
-        "butiran butiran butiran butiran item butiran butiran butiran butiran butiran",
+        "Buat item penyenaraian pertama anda untuk mula membina direktori anda.",
 
       add_title: "Tambah Item",
       edit_title: "butiran item",
 
-      price_to: "butiran butiran",
-      price_unit: "butiran butiran",
-      is_featured: "butiran",
+      price_to: "Harga ke",
+      price_unit: "Unit harga",
+      is_featured: "Ditampilkan",
 
       meta_json: "Meta JSON",
       links_json: "butiran JSON",
-      opening_hours_json: "butiran butiran JSON",
+      opening_hours_json: "Waktu buka JSON",
 
       delete_title: "butiran item",
-      delete_message: "butiran butiran butiran butiran butiran butiran butiran butiran item?",
+      delete_message: "Adakah anda pasti mahu memadamkan item ini?",
       delete_success: "Item berjaya dipadamkan.",
-      restore_success: "item butiran butiran",
+      restore_success: "Item berjaya dipulihkan.",
 
-      opening_hours:"butiran butiran",
-      form_fields:"butiran butiran",
+      opening_hours:"Waktu Buka",
+      form_fields:"Medan Borang",
 
       company: "Syarikat",
-      badges: "butiran",
+      badges: "Lencana",
 
     },
 
     categories: {
       title: "Kategori",
       sub_title:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Susun direktori anda dengan kategori dan subkategori. Ini meningkatkan navigasi dan penapisan.",
 
-      empty_title: "butiran butiran butiran",
+      empty_title: "Tiada kategori lagi",
       empty_subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Buat kategori untuk menstrukturkan penyenaraian anda dan meningkatkan penyemakan imbas.",
 
       add_title: "Tambah Kategori",
       edit_title: "Edit kategori",
 
-      parent_filter: "butiran butiran butiran",
+      parent_filter: "Tapis mengikut ibu bapa",
       parent: "Kategori ibu bapa",
 
-      price_format: "butiran butiran",
+      price_format: "Format harga",
       icon: "ikon",
-      design_id: "butiran butiran butiran",
+      design_id: "ID Reka Bentuk",
 
       delete_title: "Padamkan kategori",
-      delete_message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran?",
-      delete_success: "butiran butiran butiran",
-      form_schema: "butiran butiran butiran",
+      delete_message: "Adakah anda pasti mahu memadamkan kategori ini?",
+      delete_success: "Kategori berjaya dipadamkan.",
+      form_schema: "Medan borang kategori",
     },
 
     options: {
-      submission_title: "butiran",
-      submission_enabled: "butiran butiran",
+      submission_title: "Penyerahan",
+      submission_enabled: "Dayakan penyerahan",
 
-      moderation_title: "butiran",
-      moderation_mode: "butiran butiran",
-      require_first_approved_before_more: "butiran butiran butiran butiran butiran",
+      moderation_title: "Kesederhanaan",
+      moderation_mode: "Mod kesederhanaan",
+      require_first_approved_before_more: "Memerlukan kelulusan pertama sebelum lebih",
 
       limits_title: "had",
-      max_pending_per_user: "butiran butiran butiran butiran butiran butiran",
-      max_items_per_user: "butiran butiran butiran butiran",
-      limits_hint: "butiran butiran",
+      max_pending_per_user: "Maks belum selesai bagi setiap pengguna",
+      max_items_per_user: "Item maksimum bagi setiap pengguna",
+      limits_hint: "Pembayang had",
 
-      templates_title: "butiran",
-      card_template: "butiran butiran",
-      details_template: "butiran butiran",
+      templates_title: "templat",
+      card_template: "Templat kad",
+      details_template: "Templat butiran",
 
-      form_schema_title: "butiran butiran",
-      settings_title: "butiran butiran"
+      form_schema_title: "Skema bentuk",
+      settings_title: "Tetapan tambahan"
     },
 
     supervision: {
-      title: "butiran",
+      title: "Penyeliaan",
       sub_title:
-        "butiran butiran butiran butiran butiran butiran butiran butiran: butiran, butiran, butiran, butiran, butiran butiran butiran butiran",
+        "Semak item yang diserahkan dan tentukan perkara yang akan berlaku seterusnya: luluskan, terbitkan, tolak, arkibkan atau tetapkan semula kepada belum selesai.",
 
-      empty_title: "butiran butiran butiran butiran",
+      empty_title: "Tiada item untuk disemak",
       empty_subtitle:
-        "butiran butiran butiran butiran butiran, butiran butiran butiran butiran butiran butiran",
+        "Apabila pengguna menyerahkan item baharu, mereka akan muncul di sini untuk penyederhanaan.",
 
       review_title: "butiran item",
       approve_publish: "butiran & butiran",
 
-      submitted_at: "butiran",
-      quick_actions: "butiran butiran",
+      submitted_at: "diserahkan",
+      quick_actions: "Tindakan pantas",
 
-      open_review: "butiran butiran",
-      reset_to_pending: "butiran butiran butiran butiran butiran",
+      open_review: "Buka ulasan",
+      reset_to_pending: "Tetapkan semula kepada belum selesai",
       items_title: "barang",
 
     },
 
     moderation: {
-      approve_success: "item butiran butiran",
-      publish_success: "item butiran butiran",
-      unpublish_success: "item butiran butiran",
-      archive_success: "item butiran butiran",
-      reject_success: "item butiran butiran",
-      penalty_success: "butiran butiran butiran",
+      approve_success: "Item berjaya diluluskan.",
+      publish_success: "Item berjaya diterbitkan.",
+      unpublish_success: "Item berjaya dinyahterbitkan.",
+      archive_success: "Item berjaya diarkibkan.",
+      reject_success: "Item berjaya ditolak.",
+      penalty_success: "Penalti berjaya digunakan.",
 
       reject_title: "butiran item",
-      reject_reason: "butiran butiran",
+      reject_reason: "Sebab penolakan",
 
-      penalty: "butiran",
-      penalty_title: "butiran",
-      penalty_points: "butiran butiran",
-      penalty_note: "butiran butiran"
+      penalty: "Penalti",
+      penalty_title: "Penalti",
+      penalty_points: "Mata penalti",
+      penalty_note: "Nota penalti"
     },
 
     media: {
-      upload_images: "butiran butiran butiran",
+      upload_images: "Muat naik imej",
       url_type: "taip",
       url: "URL",
-      is_main: "butiran butiran butiran"
+      is_main: "Tetapkan sebagai utama"
     },
 
 
@@ -11112,29 +11112,29 @@ export default {
 
     /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
     designs: {
-      title: "butiran",
+      title: "Reka bentuk",
       sub_title:
-        "butiran butiran butiran butiran butiran (butiran + butiran butiran) butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Buat berbilang set reka bentuk (kad + templat butiran) dan tetapkan mereka kepada kategori. Kategori boleh menggunakan reka bentuk yang berbeza.",
 
-      empty_title: "butiran butiran butiran",
+      empty_title: "Belum ada reka bentuk",
       empty_subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tambahkan set reka bentuk pertama anda untuk mula menyesuaikan rupa kategori.",
 
-      add_title: "butiran butiran butiran",
-      edit_title: "butiran butiran butiran",
+      add_title: "Tambah reka bentuk",
+      edit_title: "Edit reka bentuk",
 
-      card_template: "butiran butiran",
-      details_template: "butiran butiran",
+      card_template: "Templat kad",
+      details_template: "Templat butiran",
 
       notifications: {
-        add_success: "butiran butiran butiran butiran",
-        edit_success: "butiran butiran butiran butiran",
-        delete_success: "butiran butiran butiran butiran",
+        add_success: "Reka bentuk berjaya dibuat.",
+        edit_success: "Reka bentuk berjaya dikemas kini.",
+        delete_success: "Reka bentuk berjaya dipadamkan.",
       },
 
-      delete_title: "butiran butiran butiran",
+      delete_title: "Padam reka bentuk",
       delete_message:
-        "butiran butiran butiran butiran? butiran butiran butiran butiran butiran butiran butiran butiran_butiran",
+        "Padamkan reka bentuk ini? Kategori yang menggunakannya akan kehilangan design_id secara automatik.",
     },
 
 
@@ -11142,134 +11142,134 @@ export default {
 
 
     badges: {
-      title: "butiran",
+      title: "Lencana",
       sub_title:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Buat dan urus lencana etalase. Lencana boleh diberikan kepada item penyenaraian untuk menyerlahkan atribut khas.",
 
-      empty_title: "butiran butiran butiran",
+      empty_title: "Tiada lencana lagi",
       empty_subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tambahkan lencana pertama anda untuk mula menyerlahkan item penyenaraian.",
 
-      add_title: "butiran butiran",
-      edit_title: "butiran butiran",
+      add_title: "Tambah lencana",
+      edit_title: "Edit lencana",
 
       notifications: {
-        add_success: "butiran butiran butiran",
-        edit_success: "butiran butiran butiran",
-        delete_success: "butiran butiran butiran",
+        add_success: "Lencana berjaya dibuat.",
+        edit_success: "Lencana berjaya dikemas kini.",
+        delete_success: "Lencana berjaya dipadamkan.",
       },
 
-      delete_title: "butiran butiran",
-      delete_message: "butiran butiran butiran butiran butiran butiran butiran butiran butiran?",
+      delete_title: "Padamkan lencana",
+      delete_message: "Adakah anda pasti mahu memadamkan lencana ini?",
     },
 
     companies: {
       title: "Syarikat",
       sub_title:
-        "butiran butiran butiran butiran butiran butiran item butiran butiran butiran butiran butiran butiran butiran",
+        "Buat dan urus syarikat. Setiap item penyenaraian boleh dipautkan kepada satu syarikat secara pilihan.",
 
-      empty_title: "butiran butiran butiran",
+      empty_title: "Tiada syarikat lagi",
       empty_subtitle:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Tambahkan syarikat pertama anda untuk memautkannya ke item penyenaraian.",
 
-      add_title: "butiran butiran",
+      add_title: "Tambah syarikat",
       edit_title: "Edit syarikat",
 
       notifications: {
-        add_success: "butiran butiran butiran",
-        edit_success: "butiran butiran butiran",
-        delete_success: "butiran butiran butiran",
+        add_success: "Syarikat berjaya dibuat.",
+        edit_success: "Syarikat berjaya dikemas kini.",
+        delete_success: "Syarikat berjaya dipadamkan.",
       },
 
-      delete_title: "butiran butiran",
+      delete_title: "Padamkan syarikat",
       delete_message:
-        "butiran butiran butiran? butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Padamkan syarikat ini? Item yang menggunakannya akan kehilangan pautan syarikat secara automatik.",
     },
 
 
 
     messages: {
-      title: "butiran",
-      sub_title: "butiran butiran butiran butiran butiran butiran butiran butiran",
-      empty_title: "butiran butiran",
-      empty_subtitle: "butiran butiran butiran butiran butiran butiran butiran",
+      title: "Mesej",
+      sub_title: "Uruskan mesej yang dihantar oleh pengguna daripada profil penyenaraian.",
+      empty_title: "Tiada mesej",
+      empty_subtitle: "Mesej yang dihantar oleh pengguna akan dipaparkan di sini.",
 
-      sender: "butiran",
+      sender: "penghantar",
       item: "item",
-      has_reply: "butiran",
-      has_reply_yes: "butiran butiran",
-      has_reply_no: "butiran butiran",
+      has_reply: "Balas",
+      has_reply_yes: "Mempunyai balasan",
+      has_reply_no: "Tiada balasan",
 
       dialog_title: "Mesej",
-      owner_reply: "butiran butiran",
-      reply: "butiran",
-      reply_hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      owner_reply: "Balasan pemilik",
+      reply: "Balas",
+      reply_hint: "Tulis balasan kepada pengguna. Anda juga boleh menandai mesej sebagai dibaca/spam daripada tindakan.",
 
-      mark_read: "butiran butiran butiran",
-      mark_unread: "butiran butiran butiran",
-      archive: "butiran",
-      unarchive: "butiran",
-      mark_spam: "butiran butiran butiran",
-      mark_not_spam: "butiran butiran",
+      mark_read: "Tandakan sebagai dibaca",
+      mark_unread: "Tandai sebagai belum dibaca",
+      archive: "Arkib",
+      unarchive: "Nyahrkib",
+      mark_spam: "Tandai sebagai spam",
+      mark_not_spam: "Bukan spam",
 
-      delete_confirm: "butiran butiran butiran?",
+      delete_confirm: "Padamkan mesej ini?",
     },
 
     enable: {
-      title: "butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, Selldone butiran butiran butiran butiran butiran butiran",
-      true_description: "butiran butiran butiran butiran butiran butiran butiran butiran",
-      false_description: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      open_listing: "butiran butiran",
-      note: "butiran butiran butiran butiran butiran, butiran, butiran, butiran butiran butiran butiran butiran butiran",
+      title: "Penyenaraian",
+      subtitle: "Dayakan atau lumpuhkan halaman penyenaraian awam anda. Apabila didayakan buat kali pertama, Selldone akan membuat konfigurasi penyenaraian secara automatik.",
+      true_description: "Penyenaraian didayakan. Pelanggan boleh menyemak imbas halaman penyenaraian.",
+      false_description: "Penyenaraian dilumpuhkan. Halaman penyenaraian dan penyerahan disekat.",
+      open_listing: "Buka penyenaraian",
+      note: "Anda kemudian boleh mengkonfigurasi penyederhanaan, had, borang dan reka bentuk dalam tetapan Penyenaraian.",
       vendor_prereq_text:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran? butiran, butiran butiran butiran butiran butiran butiran",
-      vendor_prereq_button: "butiran butiran butiran butiran",
+        "Mahu vendor menambah item penyenaraian daripada Panel Vendor mereka? Mula-mula, tukar model perniagaan anda kepada Marketplace.",
+      vendor_prereq_button: "Tetapkan model perniagaan Marketplace",
 
       vendor_access_text:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran (butiran + butiran). butiran butiran butiran butiran butiran",
-      vendor_access_button: "butiran butiran butiran butiran",
+        "Kini anda boleh memutuskan sama ada vendor boleh mengakses ciri Penyenaraian (item + syarikat). Dayakannya dalam tetapan Marketplace.",
+      vendor_access_button: "Dayakan penyenaraian untuk vendor",
 
       more_options_text:
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran, butiran, butiran, butiran, butiran butiran butiran",
-      more_options_button: "butiran butiran butiran butiran",
+        "Lebih banyak kawalan tersedia dalam tetapan Penyenaraian. Anda boleh mengkonfigurasi pilihan input, UI/penampilan, penyederhanaan, had dan pengewangan.",
+      more_options_button: "Pergi ke tetapan penyenaraian",
 
-      updated: "butiran butiran",
-      update_failed: "butiran butiran butiran butiran butiran",
+      updated: "Penyenaraian dikemas kini.",
+      update_failed: "Gagal mengemas kini penyenaraian.",
     },
 
 
     search: {
-      title: "butiran butiran",
-      subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      title: "Tetapan carian",
+      subtitle: "Reka bentuk cara pelanggan mencari penyenaraian anda. Dayakan penapis carian dan bina berasaskan lokasi daripada medan borang tersuai anda.",
 
-      location_title: "butiran butiran",
-      location_subtitle: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      location_enabled_true: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      location_enabled_false: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      location_title: "Carian lokasi",
+      location_subtitle: "Benarkan pelanggan memilih lokasi dan mencari hasil berdekatan dalam radius yang boleh dikonfigurasikan.",
+      location_enabled_true: "Penapis lokasi didayakan. Pelanggan boleh mencari mengikut jarak.",
+      location_enabled_false: "Penapis lokasi dilumpuhkan. Keputusan tidak akan ditapis mengikut jarak.",
 
-      radius_default: "butiran butiran (butiran)",
-      radius_default_hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      radius_max: "butiran butiran (butiran)",
-      radius_max_hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-      radius_options: "butiran butiran (butiran)",
-      radius_options_hint: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      radius_default: "Jejari lalai (km)",
+      radius_default_hint: "Digunakan apabila pelanggan memilih lokasi tetapi tidak memilih radius.",
+      radius_max: "Jejari maksimum (km)",
+      radius_max_hint: "Jejari etalase akan diapit pada nilai ini.",
+      radius_options: "Pilihan jejari (km)",
+      radius_options_hint: "Nilai ini boleh ditunjukkan sebagai pilihan pantas dalam UI etalase.",
 
-      filters_title: "butiran butiran",
-      filters_subtitle: "butiran butiran butiran butiran butiran butiran item butiran butiran (butiran butiran butiran butiran). butiran butiran butiran butiran butiran butiran butiran butiran butiran Meta",
-      no_filters: "butiran butiran butiran butiran",
-      auto_generate: "butiran butiran",
+      filters_title: "Penapis carian",
+      filters_subtitle: "Tambahkan penapis yang membaca nilai daripada medan meta item (medan borang penyenaraian/kategori anda). Gunakan Auto-jana untuk mengumpul pilihan sebenar daripada item yang diterbitkan.",
+      no_filters: "Tiada penapis ditambahkan lagi.",
+      auto_generate: "Pilihan jana automatik",
 
-      filter_field: "butiran butiran",
-      filter_label: "butiran",
+      filter_field: "Kunci medan",
+      filter_label: "Label",
       filter_type: "taip",
-      filter_options: "butiran",
-      filter_options_hint: "butiran butiran butiran, butiran butiran butiran Manual butiran butiran",
-      multiple: "butiran",
-      single: "butiran",
-      kv_mode: "butiran butiran",
+      filter_options: "Pilihan",
+      filter_options_hint: "Untuk penapis terpilih, pilihan boleh dibuat secara manual atau dijana.",
+      multiple: "Berbilang",
+      single: "Bujang",
+      kv_mode: "Mod Kekunci/Nilai",
 
-      requires_listing_active: "butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+      requires_listing_active: "Penyenaraian tidak aktif. Dayakan Penyenaraian dahulu untuk menggunakannya di etalase.",
 
 
     },
@@ -11329,7 +11329,7 @@ export default {
         "Ekstravaganza Jualan Bermusim",
         "Buka Kunci Syurga Beli-belah Anda",
         "Karnival The Grand Shopper",
-        "butiran butiran butiran butiran",
+        "Pesta Beli-belah Musim Bunga",
         "Tawaran Musim Luruh yang Anda Tidak Boleh Tolak",
         "Winter Wonders: Tawaran Hangat untuk Hari Sejuk",
         "Kira detik Pembersihan Akhir Musim Panas",
@@ -11368,20 +11368,20 @@ export default {
         "SELAMAT DATANG10",
         "Musim panas20",
         "JUALAN VIP30",
-        "butiran",
-        "butiran",
-        "butiran",
+        "BDAY15",
+        "BLACKFRIDAY",
+        "CYBERMONDAY",
         "PENGHANTARAN PERCUMA",
-        "butiran",
-        "butiran",
-        "butiran",
+        "FLASHSALE",
+        "CLEARANCE",
+        "EARLYBIRD",
         "PELAJAR10",
         "MUSIM SEJUK25",
-        "butiran",
+        "SPRING15",
         "JATUH20",
         "TERLARIS10",
         "CUTI30",
-        "butiran",
+        "VALENTINE20",
         "HARI IBU",
         "HARI BAPA",
         "PENGHUJUNG TAHUN",
@@ -11631,7 +11631,7 @@ export default {
     blog_category: {
       category: [
         "Wawasan Teknologi",
-        "butiran butiran",
+        "Foodie Finds",
         "Kisah Perjalanan",
         "Tips Kesihatan",
         "Kegemaran Fesyen",
@@ -11703,12 +11703,12 @@ export default {
       label: [
         "VAT", // Value-Added Tax
         "GST", // Goods and Services Tax
-        "butiran", // Provincial Sales Tax
-        "butiran", // Harmonized Sales Tax
-        "butiran", // Quebec Sales Tax
-        "butiran", // Central Sales Tax
+        "PST", // Provincial Sales Tax
+        "HST", // Harmonized Sales Tax
+        "QST", // Quebec Sales Tax
+        "CST", // Central Sales Tax
         "Cukai Eksais", // Excise Tax
-        "butiran", // Import Duty
+        "ImportDuty", // Import Duty
         "Cukai perkhidmatan", // Service Tax
         "Cukai Mewah", // Luxury Tax
       ],
@@ -11771,8 +11771,8 @@ export default {
         "Fiesta Jualan Kilat",
         "Klik, Beli, Simpan",
         "Bonanza tawar menawar",
-        "butiran butiran",
-        "butiran butiran butiran",
+        "Ekstravaganza E-Tawaran",
+        "Kegilaan Penurunan Harga Mega",
         "Penjimatan Siber",
         "Hari Diskaun Digital",
         "Karnival E-Dagang",
@@ -11781,11 +11781,11 @@ export default {
         "Jualan Gudang Kedai Web",
         "Syurga E-Shopper",
         "Usaha Baucar Maya",
-        "butiran butiran",
+        "Tawaran Kilat Digital",
         "Pelepasan E-Cart",
         "Pertunjukan Beli-belah Dalam Talian",
         "Jualan Siber Hebat",
-        "butiran butiran",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11854,7 +11854,7 @@ export default {
         "Ekstravaganza Loteri Bertuah",
         "Kejutan Mega Spin",
         "Fiesta Roda Hadiah",
-        "butiran butiran butiran",
+        "Putaran Harta Karun Spektakular",
         "Putar Sihir Roda",
         "Bertuah Wheel Galore",
         "Nikmat Rezeki",
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
+        "Akses Asas",
+        "Keahlian Premium",
+        "Pakej Emas",
+        "Rancangan Perak",
+        "Langganan Platinum",
+        "Peringkat Perusahaan",
+        "Himpunan Permulaan",
+        "Tawaran Tanpa Had",
+        "Pek Keluarga",
         "Suite Profesional",
       ],
       description: [
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran, butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran, butiran butiran 4 butiran",
-        "butiran butiran butiran butiran butiran butiran",
+        "Sesuai untuk individu yang meneroka asas.",
+        "Akses kepada semua ciri dan kandungan premium.",
+        "Faedah eksklusif dan sokongan keutamaan.",
+        "Pakej seimbang untuk pengguna biasa.",
+        "Akses muktamad dengan faedah peringkat teratas.",
+        "Penyelesaian tersuai untuk organisasi besar.",
+        "Pilihan peringkat permulaan yang berpatutan.",
+        "Tiada had penggunaan, untuk pengguna kuasa.",
+        "Pelan khas untuk keluarga, sehingga 4 ahli.",
+        "Direka untuk profesional yang mencari alat canggih.",
       ],
     },
 
     spec: {
       group: [
         "Spesifikasi teknikal",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "Material butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
+        "Dimensi Fizikal",
+        "Ciri Prestasi",
+        "Pilihan Kesambungan",
+        "Keperluan Kuasa",
+        "Kualiti Bahan dan Binaan",
+        "Pilihan Warna dan Kemasan",
+        "Penyimpanan dan Memori",
+        "Keserasian Sistem Pengendalian",
+        "Keselamatan dan Pematuhan",
+        "Kandungan Pakej",
+        "Waranti dan Sokongan",
+        "Jenama dan Pengeluar",
+        "Kemesraan Alam Sekitar",
+        "Kecekapan Tenaga",
+        "Penjagaan dan Penyelenggaraan",
+        "Pilihan Penyesuaian",
+        "Aksesori yang disertakan",
+        "Penilaian dan Ulasan Pengguna",
+        "Harga dan Ketersediaan",
       ],
     },
 
     avocado: {
       title: [
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
+        "Resit Pembelian",
+        "Pengesahan Jualan",
+        "Invois Pesanan",
+        "Invois Pembayaran",
+        "Resit Pelanggan",
+        "Ringkasan Transaksi",
+        "Penyata Bil",
+        "Resit Pembayaran",
+        "Ringkasan Pesanan",
+        "Invois Pesanan Belian",
+        "Resit Jualan",
+        "Invois Runcit",
+        "E-Resit",
+        "Invois Perkhidmatan",
+        "Invois Produk",
+        "Resit Bayaran",
         "Pengesahan pesanan",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
+        "Invois Pengebilan",
+        "Invois Pembayaran",
+        "Invois Pelanggan",
       ],
       message: [
-        "butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran",
+        "Terima kasih atas pembelian anda!",
+        "Kami menghargai perniagaan anda.",
+        "Pesanan anda sedang dalam perjalanan!",
+        "Terima kasih kerana membeli dengan kami.",
+        "Tidak sabar untuk melayani anda lagi.",
+        "Kepuasan anda adalah keutamaan kami.",
+        "Jangan lupa untuk menilai pengalaman anda.",
+        "Terima kasih kerana menyokong kedai kami.",
+        "Kami harap anda menikmati pembelian baharu anda!",
+        "Simpan invois anda untuk rujukan masa hadapan.",
+        "Lawati kami sekali lagi untuk lebih banyak produk hebat.",
+        "Kekal berhubung untuk mendapatkan tawaran eksklusif.",
+        "Terima kasih kerana menjadi pelanggan yang dihargai.",
+        "Kami di sini untuk membantu jika anda memerlukan bantuan.",
+        "Maklum balas anda membantu kami bertambah baik.",
+        "Nikmati diskaun istimewa untuk pembelian seterusnya.",
+        "Anda telah membuat pilihan yang hebat!",
+        "Terima kasih atas kepercayaan anda kepada kami.",
+        "Mengharap maklum balas anda.",
+        "Ucapan terima kasih yang tulus daripada pasukan kami.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
+        "Pameran Hartanah",
+        "Plaza Penjual",
+        "Rumah Pilihan",
+        "Pasaran Tempatan",
         "Ketibaan Baru",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
+        "Taman Estet",
+        "Daerah Beli Belah",
+        "Lorong Artisan",
+        "Estet Mewah",
+        "Hab Sewa",
+        "Rumah Terbuka",
+        "Inovasi Teknologi",
+        "Lorong Fesyen",
+        "Sudut Kraftangan",
+        "Medan Selera",
+        "Nook Buku",
+        "Persimpangan Barang Kemas",
+        "Jalan Antik",
+        "Zon Kecergasan",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "butiran butiran butiran",
-        "butiran butiran butiran (butiran)",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran (butiran)",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran (butiran)",
+        "Sijil Pendaftaran Perniagaan",
+        "Nombor Pengenalan Cukai (TIN)",
+        "Borang Perjanjian Penjual",
+        "Katalog Produk",
+        "Senarai Harga",
+        "Butiran Akaun Bank",
+        "Bukti Alamat",
+        "Sijil Insurans",
+        "Profil Syarikat",
+        "Sijil Jaminan Kualiti",
+        "Helaian Data Keselamatan (SDS)",
+        "Maklumat Waranti Produk",
+        "Polisi Pemulangan",
+        "Prosedur Penghantaran dan Pengendalian",
+        "Polisi Perkhidmatan Pelanggan",
+        "Rancangan Pemasaran dan Promosi",
+        "Pautan Media Sosial",
+        "Rujukan Perdagangan",
+        "Tatakelakuan Pembekal",
+        "Perjanjian Tanpa Pendedahan (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "POD butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "POD butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran",
+        "Perjanjian Perkhidmatan Persediaan Pasaran",
+        "Kontrak Konfigurasi Kedai",
+        "Perjanjian Perkhidmatan Cetak Atas Permintaan",
+        "Perjanjian Perkhidmatan Pemasaran Digital",
+        "Perjanjian Persediaan Platform E-dagang",
+        "Kontrak Perundingan Pakar untuk Pemilik Perniagaan",
+        "Perjanjian Perkhidmatan untuk Konfigurasi Pasaran",
+        "Kontrak Perkhidmatan Persediaan dan Konfigurasi Kedai",
+        "Perjanjian Pemberian Perkhidmatan POD",
+        "Perjanjian Pelaksanaan Strategi Pemasaran",
+        "Kontrak Perkhidmatan Pembangunan Perniagaan",
+        "Perjanjian Persediaan Kedai E-dagang",
+        "Perjanjian Pemberian Perkhidmatan Pakar",
+        "Penyelesaian Perniagaan dan Kontrak Persediaan",
+        "Perjanjian Perkhidmatan Persediaan Kedai Tersuai",
+        "Perjanjian Perkhidmatan Pengoptimuman Pasaran",
+        "Kontrak Perkhidmatan Perundingan dan Persediaan",
+        "Perjanjian Perkhidmatan Integrasi POD",
+        "Kontrak Perkhidmatan Pemasaran dan Promosi",
+        "Perjanjian Perkhidmatan Perluasan Perniagaan",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
+        "Dompet Utama",
+        "Akaun Perniagaan",
+        "Dompet Peribadi",
+        "Dompet Simpanan",
+        "Akaun Perbelanjaan",
+        "Dompet Utama",
+        "Akaun Am",
+        "Dompet Rizab",
+        "Dompet Transaksi",
+        "Akaun Dana",
       ],
     },
 
@@ -12099,38 +12099,38 @@ export default {
      */
     cashback: {
       title: [
-        "butiran & butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran",
-        "VIP butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran, butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran",
+        "Beli & Dapatkan Pulangan Tunai",
+        "Ganjaran Kesetiaan Pulangan Tunai",
+        "Tawaran Pulangan Tunai Eksklusif",
+        "Bonanza Pulangan Tunai",
+        "Tawaran Pulangan Tunai Segera",
+        "Simpanan Pulangan Tunai Bermusim",
+        "Hari Pulangan Tunai Berganda",
+        "Pulangan Tunai pada Setiap Pembelian",
+        "Kegilaan Pulangan Tunai",
+        "Program Pulangan Tunai VIP",
+        "Pulangan Tunai Masa Terhad",
+        "Kelab Ganjaran Pulangan Tunai",
+        "Beli Lebih Banyak, Lebih Jimat",
+        "Ganjaran Pulangan Tunai Tertinggi",
+        "Extravaganza Pulangan Tunai",
       ],
       description: [
-        "butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran!",
-        "VIP butiran butiran butiran butiran",
-        "butiran! butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran, butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran",
+        "Dapatkan pulangan tunai pada setiap pembelian!",
+        "Dapatkan ganjaran untuk kesetiaan anda.",
+        "Tawaran pulangan tunai eksklusif hanya untuk anda.",
+        "Nikmati penjimatan hebat dengan ganjaran pulangan tunai.",
+        "Pulangan tunai segera untuk semua item kegemaran anda.",
+        "Lebih jimat dengan tawaran pulangan tunai bermusim.",
+        "Gandakan pulangan tunai anda pada hari istimewa!",
+        "Dapatkan pulangan tunai setiap kali anda membeli-belah.",
+        "Sertai kegilaan pulangan tunai hari ini!",
+        "Ahli VIP menikmati pulangan tunai eksklusif.",
+        "Cepat! Tawaran pulangan tunai masa terhad.",
+        "Sertai Kelab Ganjaran Pulangan Tunai kami sekarang.",
+        "Lebih banyak anda membeli-belah, lebih banyak anda menjimatkan.",
+        "Buka kunci ganjaran pulangan tunai muktamad.",
+        "Alami tawaran pulangan tunai terbaik.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "butiran butiran {shop} - butiran butiran butiran butiran butiran butiran",
-        "{shop} - butiran butiran butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran {shop} - butiran butiran butiran!",
-        "butiran butiran butiran {shop}'butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran {shop} butiran - butiran butiran butiran butiran butiran butiran butiran",
-        "butiran butiran butiran butiran butiran butiran butiran butiran {shop}",
-        "butiran butiran butiran butiran butiran butiran butiran butiran butiran {shop}",
-        "butiran butiran butiran butiran butiran butiran {shop} - butiran butiran!",
-        "{shop}'butiran butiran butiran butiran butiran butiran butiran - butiran butiran butiran",
-        "butiran butiran butiran {shop} - butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Selamat datang ke {shop} - Terokai Rangkaian Item Tersendiri Kami",
+        "{shop} - Sumber Utama Anda untuk Barangan Berkualiti dan Perkhidmatan Cemerlang",
+        "Tawaran Eksklusif dan Penjimatan Hanya di {shop} - Rebutlah Peluang!",
+        "Kenali Dedikasi {shop} terhadap Amalan Mesra Alam dan Etika",
+        "Menjadi Sebahagian daripada Keluarga {shop} - Langgan Surat Berita Kami untuk Kemas Kini",
+        "Terokai Pilihan Teratas dan Barangan Bernilai Tinggi di {shop}",
+        "Kemukakan Idea dan Cadangan Kreatif untuk Semua Acara di {shop}",
+        "Tawaran Tiada tandingan dan Istimewa sensitif Masa di {shop} - Bertindak Cepat!",
+        "Petua Membeli Komprehensif dan Penilaian Produk {shop} - Beli dengan Yakin",
+        "Jangkau {shop} - Kami Berusaha Menyampaikan Pengalaman Membeli-belah yang Tiada Tandingan",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "butiran butiran butiran, butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran, butiran butiran!",
-        "butiran butiran butiran, butiran butiran!",
-        "butiran butiran, butiran butiran!",
-        "butiran butiran, butiran butiran – butiran butiran!",
-        "butiran butiran: butiran butiran!",
-        "butiran butiran butiran, butiran butiran!",
-        "butiran butiran butiran butiran, butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran, butiran butiran butiran!",
-        "butiran butiran butiran, butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran – butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran: butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran butiran!",
-        "butiran butiran butiran butiran butiran butiran!",
+        "Lengkapkan penampilan anda, dapatkan set!",
+        "Jimat besar dengan tawaran bundle kami!",
+        "Jangan terlepas gandingan sempurna kami!",
+        "Tingkatkan pembelian anda, alat tambah menanti!",
+        "Buka kunci penjimatan eksklusif, beli bersama-sama!",
+        "Item pelengkap, diskaun istimewa!",
+        "Dapatkan lebih banyak, belanja lebih sedikit – himpunkan!",
+        "Tawaran masa terhad: produk sepadan!",
+        "Tingkatkan pengalaman anda, tawaran kombo!",
+        "Temui gabungan susun atur kami, jimat sekarang!",
+        "Pasangkan untuk kombo terbaik!",
+        "Beli dengan bijak, himpun dan jimat!",
+        "Gandakan nilai, gandakan keseronokan!",
+        "Padanan sempurna anda di sini - belilah sekarang!",
+        "Harga pakej eksklusif hanya untuk anda!",
+        "Maksimumkan penjimatan anda dengan kombo kami!",
+        "Tingkatkan koleksi anda dengan pilihan ini!",
+        "Disusun untuk anda: padankan dan simpan!",
+        "Pasangan yang sempurna untuk hari yang sempurna!",
+        "Himpunkan kegemaran anda untuk penjimatan tambahan!",
       ],
     },
 
@@ -12185,13 +12185,13 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "butiran butiran",
-        "butiran",
-        "butiran",
-        "butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
+        "Barangan Digital",
+        "Buku",
+        "elektronik",
+        "Fesyen",
+        "Peralatan Rumah",
+        "Produk Kecantikan",
+        "Peralatan Sukan",
         "Mainan & Permainan",
         "Barangan runcit",
         "Perabot",
@@ -12201,10 +12201,10 @@ export default {
         "Bekalan Haiwan Kesayangan",
         "Kelengkapan Pejabat",
         "butiran & butiran",
-        "butiran & butiran butiran",
+        "Filem & Rancangan TV",
         "Perisian",
         "butiran & butiran",
-        "butiran butiran",
+        "Peralatan Luar",
       ],
     },
 
@@ -12214,39 +12214,39 @@ export default {
     template_message: {
       title: [
         "Pengesahan pesanan",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "item butiran butiran butiran",
+        "Pesanan Dihantar",
+        "Pesanan Dihantar",
+        "Bayaran Diterima",
+        "Pesanan Dibatalkan",
+        "Kelewatan Pemprosesan Pesanan",
+        "Pesanan Ditahan",
+        "Pesanan Keluar untuk Penghantaran",
+        "Pemulangan Diproses",
+        "Bayaran Balik Dikeluarkan",
+        "Item Kembali dalam Stok",
       ],
       body: [
-        "butiran {buyer_name}, butiran butiran #{order_id} butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hai {buyer_name}, pesanan anda #{order_id} telah disahkan! Kami sedang memprosesnya dan akan memberitahu anda apabila ia sedia untuk dihantar.",
 
-        "butiran butiran, {buyer_name}! butiran butiran #{order_id} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+        "Berita baik, {buyer_name}! Pesanan anda #{order_id} telah dihantar. Anda boleh menjejakinya melalui akaun anda. Terima kasih kerana membeli-belah dengan kami!",
 
-        "butiran {buyer_name}, butiran butiran #{order_id} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+        "Helo {buyer_name}, pesanan anda #{order_id} telah berjaya dihantar. Kami harap anda menikmati pembelian anda. terima kasih!",
 
-        "butiran {buyer_name}, butiran butiran butiran butiran butiran butiran butiran #{order_id}. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hai {buyer_name}, kami telah menerima bayaran untuk pesanan #{order_id}. Pesanan anda kini sedang diproses dan akan dihantar tidak lama lagi.",
 
-        "butiran {buyer_name}, butiran butiran butiran butiran butiran butiran butiran butiran #{order_id} butiran butiran butiran butiran butiran butiran butiran butiran, butiran butiran butiran",
+        "{buyer_name} yang dihormati, kami memohon maaf untuk memaklumkan anda bahawa pesanan anda #{order_id} telah dibatalkan. Jika anda mempunyai sebarang pertanyaan, sila hubungi sokongan.",
 
-        "butiran {buyer_name}, butiran butiran butiran butiran butiran butiran butiran #{order_id}. butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "{buyer_name} yang dihormati, kami mengalami kelewatan dengan pesanan anda #{order_id}. Kami memohon maaf atas kesulitan ini dan sedang berusaha untuk menyelesaikannya secepat mungkin.",
 
-        "butiran {buyer_name}, butiran butiran #{order_id} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hai {buyer_name}, pesanan anda #{order_id} sedang ditahan. Sila semak akaun anda atau hubungi sokongan untuk mendapatkan butiran lanjut.",
 
-        "butiran {buyer_name}, butiran butiran #{order_id} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran!",
+        "Hai {buyer_name}, pesanan anda #{order_id} keluar untuk penghantaran dan akan sampai kepada anda tidak lama lagi. Terima kasih atas kesabaran anda!",
 
-        "butiran {buyer_name}, butiran butiran butiran butiran butiran butiran butiran butiran #{order_id}. butiran butiran butiran butiran butiran, butiran butiran butiran",
+        "{buyer_name} yang dihormati, kami telah memproses pemulangan untuk pesanan anda #{order_id}. Jika anda mempunyai sebarang pertanyaan, sila hubungi sokongan.",
 
-        "butiran {buyer_name}, butiran butiran butiran butiran #{order_id} butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hai {buyer_name}, bayaran balik anda untuk pesanan #{order_id} telah dikeluarkan. Anda sepatutnya melihat dana dalam akaun anda tidak lama lagi.",
 
-        "butiran {buyer_name}, butiran item butiran butiran butiran #{order_id} butiran butiran butiran butiran! butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran butiran",
+        "Hai {buyer_name}, item dari pesanan anda #{order_id} telah kembali dalam stok! Anda boleh membuat pesanan baharu sekarang jika anda masih berminat.",
       ],
     },
 
@@ -12255,28 +12255,28 @@ export default {
      */
     property_set: {
       title: [
-        "butiran",
-        "butiran butiran",
-        "butiran",
+        "Berpakaian",
+        "Alat Digital",
+        "minuman",
         "Makanan",
         "Perabot",
-        "butiran",
-        "butiran butiran",
-        "butiran",
-        "butiran butiran",
-        "butiran",
+        "Buku",
+        "Produk Kecantikan",
+        "mainan",
+        "Peralatan Sukan",
+        "Aksesori",
       ],
       description: [
-        "butiran butiran butiran butiran butiran butiran, butiran, butiran butiran",
-        "butiran butiran butiran butiran butiran butiran, butiran, butiran butiran",
-        "butiran, butiran, butiran butiran butiran butiran",
-        "butiran butiran butiran, butiran, butiran butiran butiran",
-        "Material, butiran, butiran butiran butiran butiran",
-        "butiran, butiran, butiran butiran butiran",
-        "butiran butiran, butiran, butiran butiran butiran",
-        "butiran butiran, butiran, butiran butiran butiran",
-        "butiran, butiran, butiran butiran butiran",
-        "butiran, butiran, butiran butiran butiran",
+        "Atribut untuk item pakaian seperti saiz, warna dan fabrik.",
+        "Spesifikasi untuk alat seperti jenama, model dan ciri.",
+        "Perisa, saiz, dan jenis minuman.",
+        "Butiran untuk makanan, makanan ringan dan produk makanan.",
+        "Bahan, dimensi dan gaya reka bentuk.",
+        "Pengarang, genre, dan tahun penerbitan.",
+        "Jenis kulit, ramuan dan butiran pembungkusan.",
+        "Kumpulan umur, bahan dan piawaian keselamatan.",
+        "Jenis, saiz dan ciri prestasi.",
+        "Gaya, bahan dan butiran jenama.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran",
-        "butiran butiran butiran",
-        "butiran butiran butiran", // flexible mailer
-        "butiran butiran", // bubble/padded
-        "butiran butiran", // thermal
-        "butiran butiran",
+        "Kotak XS",
+        "Kotak S",
+        "Kotak M",
+        "Kotak L",
+        "Kotak XL",
+        "Kotak XXL",
+        "Kotak Slim",
+        "Lebar Kotak",
+        "Tinggi Kotak",
+        "Kotak Flat",
+        "Kiub Kotak",
+        "Tiub Kotak",
+        "Kotak Rapuh",
+        "Botol Kaca Kotak",
+        "Pek Lembut Kotak", // flexible mailer
+        "Kotak Empuk", // bubble/padded
+        "Kotak Bertebat", // thermal
+        "Kotak Tugas Berat",
       ],
     },
   },

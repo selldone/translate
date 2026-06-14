@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Dra och släpp-läge",
         false_description:
-          "Se Produkter objekt objekt kategorier objekt objekt",
+          "Visa produkter organiserade efter kategorier och underkategorier.",
         true_title: "Tabelläge",
         true_description: "Se Produkter objekt objekt ",
       },
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Lagra aktiva appar",
         subtitle:
-          "Selldone Hantera dina affärsapplikationer.",
+          "Upptäck hur enkelt det är att hantera dina affärsapplikationer med Selldone App Store. Vår plattform erbjuder en omfattande uppsättning verktyg utformade för att optimera din verksamhet. Från innovativa hanteringslösningar till produktivitetshöjande appar, Selldone ger en sömlös upplevelse för företag som söker effektivitet och tillväxt.",
         all: "Allt",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "objekt",
           subtitle:
-            "objekt objekt objekt, objekt Bilder objekt objekt objekt Hemsida objekt objekt objekt, objekt, objekt Mobil app objekt",
+            "Favoriter är små, ikoniska bilder som representerar en webbplats i webbläsarflikar, bokmärken och mobilappsgränssnitt.",
         },
       },
 
@@ -1513,7 +1513,7 @@ export default {
       external: {
         not_available_message:
           "objekt Handling Tillgängliga objekt Företag & objekt licens",
-        available_message: "objekt objekt Lägg till objekt objekt Till Handling",
+        available_message: "Du kan lägga till en extra extern uppmaning.",
         input_label: "objekt objekt Till Handling",
       },
       warehouse: {
@@ -2002,11 +2002,11 @@ export default {
 
     profiles: {
       title: "Profiler",
-      subtitle: "objekt objekt objekt Plats Till objekt säljare",
+      subtitle: "Du kan tilldela plats till denna leverantör.",
     },
     map: {
       no_map_message:
-        "objekt objekt Plats Till objekt säljare objekt objekt säljare",
+        "Tilldela en plats till leverantören om det är en platsbaserad leverantör.",
     },
     page: {
       title: "Anpassad sida",
@@ -2234,7 +2234,7 @@ export default {
       "Du kan lägga till frakttjänster och bud här. Frakttjänsterna och kurirerna bör vara under fördefinierade transportmetoder som definieras av marknaden. Genom att lägga till frakttjänster och kurirer kan du enkelt tilldela beställningar till dem och automatiskt beställa etiketter eller kurirer.",
 
     subtitle_pickup:
-      "objekt Marknad objekt objekt objekt säljare, objekt objekt Till objekt objekt Från objekt Plats objekt objekt Frakt objekt objekt objekt Lägg till objekt objekt Plats objekt objekt Profil (objekt lager objekt objekt Begagnade objekt objekt Standard objekt Plats).",
+      "Marknadsplatsen möjliggör hämtning för leverantörer, vilket gör att köpare kan välja hämtning från din plats som ett fraktalternativ. Du kan lägga till din hämtningsplats i din profil (ditt lager kommer att användas som standard hämtningsplats).",
     action: "Lägg till tjänst",
 
     add_dialog: {
@@ -2447,9 +2447,9 @@ export default {
         variables: {
           title: "objekt alternativ",
           subtitle:
-            "objekt objekt objekt Färg Koda, objekt, <b>#654FFF</b>, objekt objekt , objekt, <b>#764FFA/#000000</b>.",
+            "Ange en hexadecimal färgkod, t.ex. <b>#654FFF</b>, eller två färger åtskilda av ett snedstreck, t.ex. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "objekt objekt Värde Till objekt objekt, objekt Bilder objekt <b>objekt objekt</b>. Ladda upp objekt Mönster objekt objekt Koda objekt objekt objekt",
+            "Du kan tilldela alla värden till variablerna, inklusive bilder med <b>Graphic Assets</b>. Ladda upp ett mönster och använd den genererade koden för varianten.",
           graphical_asset_action: "objekt objekt",
           graphical_asset_action_caption: "Bilder objekt objekt alternativ",
         },
@@ -2469,13 +2469,13 @@ export default {
         package: {
           title: "objekt & Frakt",
           subtitle:
-            "objekt Vikt objekt objekt objekt Varianter Till objekt Frakt alternativ",
+            "Ange vikt och dimensioner för varianter för att bestämma fraktalternativ.",
           same_as_product_action: "objekt objekt Produkt",
         },
         image: {
           title: "objekt Bilder",
           subtitle:
-            "Lägg till objekt Bilder objekt objekt bild Ladda upp objekt objekt objekt Primär bild objekt objekt objekt",
+            "Lägg till unika bilder för varje variant. Den första bilden som laddas upp kommer att vara den primära bilden för den varianten.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "objekt objekt Artikel objekt (GTIN)",
             message:
-              "support objekt: UPC (12 objekt), EAN (13 objekt), JAN (8 objekt 13 objekt), ISBN (13 objekt).",
+              "Format som stöds: UPC (12 siffror), EAN (13 siffror), JAN (8 eller 13 siffror), ISBN (13 siffror).",
           },
         },
       },
@@ -2572,9 +2572,9 @@ export default {
     title: "objekt objekt objekt",
     tips: {
       how_it_works:
-        "<b>objekt objekt objekt:</b><br />Ladda upp Mönster objekt Artikel Bilder objekt Till objekt objekt Bilder objekt objekt , objekt <b>{filename}</b> objekt objekt objekt Värde Notera objekt objekt Koda objekt objekt Begagnade objekt objekt <b><s>Färg</s></b> Värde",
+        "<b>Hur det fungerar:</b><br />Ladda upp mönster eller objektbilder här. För att använda dessa bilder som ett variantalternativ, inkludera <b>{filename}</b> i variantvärdet. Observera att den här koden inte kan användas i värdet <b><s>color</s></b>.",
       how_set_name:
-        "<b>objekt objekt:</b><br />objekt objekt 12 objekt objekt objekt Ladda upp fil namn objekt objekt Begagnade objekt objekt objekt namn objekt objekt Produkt, objekt objekt Till objekt objekt , objekt Ladda upp objekt Bilder objekt objekt 100, objekt objekt Typer objekt möbel",
+        "<b>Namngivningstips:</b><br />De första 12 tecknen i det uppladdade filnamnet kommer att användas som tillgångsnamn. Denna funktion är idealisk för att visa upp anpassningsbara aspekter av en produkt, såsom däckstorlekar för motorcyklar eller tygmönster. För att optimera användningen av den här funktionen, undvik att ladda upp variantbilder här om inte antalet grafiska tillgångar är färre än 100, till exempel olika träslag för möbler.",
     },
   },
 
@@ -2601,15 +2601,15 @@ export default {
     out_of_stock: "objekt objekt ",
 
     image: {
-      tooltip: "⚡ objekt objekt bild objekt Till objekt objekt Till objekt objekt",
+      tooltip: "⚡ Dra och släpp en bild här för att tilldela den till varianten.",
     },
     enable: {
-      true_tooltip: "objekt Artikel objekt Tillgängliga objekt objekt objekt Lagra",
-      false_tooltip: "objekt Artikel objekt objekt Tillgängliga objekt objekt objekt Lagra",
+      true_tooltip: "Denna vara finns tillgänglig i webbutiken.",
+      false_tooltip: "Denna vara är inte tillgänglig i webbutiken.",
     },
     restore_dialog: {
       title: "objekt objekt",
-      message: "objekt objekt Till objekt objekt raderade objekt?",
+      message: "Är du säker på att du vill återställa den här borttagna varianten?",
       action: "ja, objekt objekt",
     },
     notifications: {
@@ -2815,16 +2815,16 @@ export default {
       currency_step: {
         title: "Välj objekt Valuta",
         subtitle:
-          "objekt Till objekt objekt Lagra Till objekt minimum—objekt objekt objekt 3. objekt Betalning betalningsgateway objekt objekt Transaktioner objekt objekt objekt Valuta",
+          "Försök att hålla antalet valutor i din butik till ett minimum – helst färre än 3. De flesta betalningsgateways kan behandla transaktioner i nästan vilken valuta som helst.",
         add_first_currency: {
-          subtitle: "objekt Lägg till objekt Valuta Till objekt affär objekt objekt",
+          subtitle: "Lägg till en valuta i din butik innan du fortsätter.",
           title: "Lägg till valuta",
         },
       },
       gateway_step: {
         title: "Aktiva Betalning metoder",
         subtitle:
-          "objekt objekt Från objekt Tillgängliga Betalning metoder objekt objekt Välj objekt Inkörsport, objekt objekt objekt Till objekt objekt Detaljer Till Länk objekt affär objekt Till objekt objekt Betalning metod",
+          "Välj bland de tillgängliga betalningsmetoderna. När du väl har valt en gateway kommer du att kunna ange nödvändiga anslutningsdetaljer för att länka din butik direkt till din föredragna betalningsmetod.",
       },
 
       config_step: {
@@ -2835,7 +2835,7 @@ export default {
       request_add_new_gateway: {
         title: "objekt visa objekt objekt Betalning metod?",
         subtitle:
-          "objekt objekt objekt Betalning Leverantör objekt lista, objekt Till objekt Årlig Planen (objekt objekt ) objekt objekt 48 objekt objekt konto objekt objekt ",
+          "Om din lokala betalningsleverantör inte finns med i listan, prenumerera på valfri årsprenumeration (inklusive Startup för överkomliga priser) och begär en integration. Vi kommer att slutföra det inom 48 timmar om ett testkonto och dokumentation tillhandahålls.",
       },
 
       inputs: {
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "Bil anslut",
           false_description:
-            "objekt objekt anslut Till objekt Inkörsport objekt objekt Inkörsport objekt objekt",
+            "Systemet ansluter automatiskt till gatewayen om du redan har en konfigurerad gateway på plats.",
         },
       },
     },
@@ -3340,9 +3340,9 @@ export default {
         true_title: "objekt | Avbryt 🛍️ Beställ objekt",
         false_title: "objekt | Avbryt 🛍️ Beställ objekt 48 objekt",
         true_description:
-          "objekt objekt objekt Avbryt objekt 🛍️ Beställ objekt objekt Uppdatering objekt Lager objekt objekt",
+          "Detta alternativ avbryter din beställning omedelbart och uppdaterar lagret direkt.",
         false_description:
-          "objekt objekt objekt Avbryt objekt 🛍️ Beställ objekt 48 objekt objekt objekt, Föremål objekt objekt ",
+          "Detta alternativ kommer att annullera din beställning efter 48 timmar. Tills dess kommer artiklar att vara reserverade och kan inte köpas av andra.",
       },
     },
 
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Betalningsrapport",
         subtitle:
-          "objekt Betalningar objekt Transaktioner objekt objekt objekt Välj Tid objekt",
+          "Skapat betalningar och transaktioner gjorda under den valda tidsperioden.",
         chart: {
           times: "Räkna",
           buys: "Köp räkna",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "objekt Inkörsport status",
     oauth2_button: "Bil Connect Till {gateway}",
     fee_payment_message:
-      "Selldone objekt objekt Belopp Betalt objekt objekt kund objekt objekt objekt Till objekt konto objekt tjänst Avgift objekt objekt objekt Från objekt Plånbok objekt objekt",
+      "Hela beloppet som betalas av kunden kommer att överföras till ditt konto. Serviceavgiften kommer att dras från din plånbok i Selldone.",
 
     auto_config: "Bil Konfig",
 
     keys: {
       title: "Privat objekt",
       subtitle:
-        "Lista objekt Privat objekt objekt objekt Betalning objekt information objekt objekt Betalningar",
+        "Lista över privata nycklar för betalningen. Denna information är viktig för att skapa och hantera betalningar.",
     },
     extra_config: {
       title: "Betalning tjänst Konfiguration",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "objekt Insatser",
       subtitle:
-        "objekt objekt , objekt objekt Till Motta objekt Betalningar Från objekt Kunder",
+        "Genom att vidta dessa steg börjar du få faktiska betalningar från dina kunder.",
       action_enable: "objekt Till Gör det möjligt objekt",
       make_live_enable: "objekt Till leva objekt",
     },
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Lista objekt objekt objekt Order objekt objekt Till objekt objekt Leverantörer",
+      "Lista över externt synkroniserade beställningar som måste uppfyllas av tredjepartsleverantörer.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "Skicka betalningsbekräftelse SMS till kunden via {phone}.",
     "sms-ready-to-ship":
-      "Skicka objekt SMS Till objekt kund objekt objekt objekt 🛍️ Beställ objekt objekt Till objekt Skickas objekt {phone}.",
+      "Skicka ett SMS till kunden och meddela att deras beställning är redo att skickas via {phone}.",
     "sms-ready-to-pickup":
-      "Skicka objekt SMS Till objekt kund objekt objekt objekt 🛍️ Beställ objekt objekt {phone}.",
+      "Skicka ett SMS till kunden och meddela att deras beställning är klar för avhämtning via {phone}.",
     "sms-order-confirmation":
       "Skicka objekt 🛍️ Beställ objekt SMS Till objekt kund objekt {phone}.",
 
     "count-adjustment":
-      "objekt Kvantitet objekt objekt Produkt \"{product}\" objekt objekt objekt Från {from} Till {to}.",
+      "Kvantiteten för produkten \"{product}\" har uppdaterats från {from} till {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "objekt medlemmar",
     subtitle:
-      "objekt objekt objekt Lista objekt Användare objekt objekt Tillgång Till objekt säljare objekt objekt objekt Lägg till Ny objekt medlemmar objekt objekt objekt Behörigheter objekt",
+      "Det här är listan över användare som har åtkomst till din leverantörspanel. Du kan lägga till nya teammedlemmar och anpassa deras behörigheter här.",
     add_action: "Lägg till Ny medlem",
     pending: {
       title: "I väntan på objekt",
-      message: "Se objekt Lista objekt objekt Avvaktan objekt",
+      message: "Se listan över inbjudningar som väntar på acceptans.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "objekt medlem Detaljer",
       subtitle:
-        "Lägg till objekt Ny objekt medlem objekt objekt objekt Behörigheter objekt objekt objekt Artikel Till objekt objekt Tillgång objekt objekt objekt Till objekt objekt huvud affär instrumentbräda",
+        "Lägg till en ny teammedlem och ange deras behörigheter. Klicka på varje objekt för att justera läs-/skrivåtkomst. Varje rad motsvarar en behörighetsnivå för huvudbutikens instrumentpanel.",
     },
     access: {
       view_data: "Visa data",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "medlem Lägg till",
-        message: "objekt objekt medlem objekt objekt objekt Lägg till",
+        message: "Teammedlemmen har lagts till.",
       },
       update_success: {
         title: "medlem objekt",
-        message: "objekt objekt medlemmar information objekt objekt ",
+        message: "Teammedlemmens information har uppdaterats.",
       },
     },
     actions: {
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "återbetalning 🛍️ Beställ",
     subtitle:
-      "<b>objekt! </b>objekt objekt Handling objekt objekt Transaktion objekt objekt säljare Plånbok objekt objekt Belopp Från objekt objekt Belopp objekt objekt Transaktioner objekt objekt Välj 🛍️ Beställ objekt, objekt objekt Till Ansluten objekt Konton (objekt objekt objekt Stripe Connect objekt manuell objekt Överföra), objekt objekt Skapa objekt <b>objekt Överföra</b>.",
+      "<b>Viktigt! </b>Att utföra denna åtgärd kommer att generera en negativ transaktion i leverantörens plånbok och subtrahera det valda beloppet från den. Beloppet får inte överstiga de återstående totala transaktionerna för den valda beställningen. Dessutom, om pengar har överförts till anslutna bankkonton (som med Stripe Connect eller manuell banköverföring), bör du skapa en <b>återföring</b>.",
     inputs: {
       note: {
         message: "objekt objekt Till objekt säljare",
         placeholder: "objekt objekt Notera objekt",
       },
       amount: {
-        error_message: "objekt objekt Belopp objekt objekt objekt",
+        error_message: "Det återstående beloppet har överskridits.",
       },
     },
   },
@@ -4284,7 +4284,7 @@ export default {
     refund_order_action: "återbetalning 🛍️ Beställ",
     automatic_payout_list: {
       subtitle:
-        "objekt objekt objekt Lista objekt automatisk Utbetalningar Till objekt Ansluten objekt konto objekt Notera objekt objekt automatisk Utbetalningar objekt objekt , objekt manuell Utbetalningar objekt objekt ",
+        "Detta är en lista över automatiska utbetalningar till ditt anslutna bankkonto. Observera att endast automatiska utbetalningar kommer att visas här, och manuella utbetalningar kommer inte att visas.",
     },
     reversal_transfer_action: "objekt Överföra",
   },
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Huvudprofil",
       subtitle:
-        "Redigera objekt offentlig Profil information objekt objekt information objekt objekt objekt Till objekt Kunder objekt Övrig Användare",
+        "Redigera din offentliga profilinformation här. Denna information kan vara synlig för dina kunder eller andra användare.",
       full_name_input: "Fullständiga namn",
       tel_input: "Kontaktnummer",
       email_input: "E-post",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Hantering",
-      description: "Skapa objekt Hantera objekt objekt objekt",
+      description: "Skapa och hantera vanliga frågor.",
     },
     "backoffice:faq:read": {
       name: "FAQ Tillgång",
@@ -5683,7 +5683,7 @@ export default {
     price: "pris",
     verify: {
       true_title: "objekt Villkor",
-      true_description: "objekt läsning objekt objekt objekt Selldone Villkor objekt objekt",
+      true_description: "Jag läser och godkänner Selldones användarvillkor",
     },
     need_charge: "Behöver laddning",
     buy_now: "Köp nu",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Köpt historik",
       subtitle:
-        "Aktiva och väntande licenser.",
+        "Detta är en lista över aktiva och väntande licenser. Du kan köpa erbjudanden efter att du har finansierat din plånbok. Observera dessutom att när du avbryter en prenumeration kommer det återstående prenumerationsbeloppet att returneras till din virtuella plånbok.",
     },
     license_detail: {
       title: "Detaljer",
       subtitle:
-        "Begränsningar för din nuvarande plan.",
+        "Det här är begränsningarna för din nuvarande plan. För mer information, besök prissidan. Du kan komma åt alla funktioner i alla planer, inklusive gratisplanen, för att kickstarta ditt företag och växa. När du skalar din verksamhet kan du överväga att uppgradera till en plan på högre nivå för att sänka dina serviceavgifter.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "objekt objekt Plånbok",
         subtitle:
-          "Välj objekt objekt Plånbok Till objekt objekt objekt Prenumeration objekt objekt , objekt objekt Skapa objekt objekt objekt Plånbok objekt objekt Plånbok objekt objekt Begagnade objekt objekt objekt",
+          "Välj en virtuell plånbok att använda för din prenumeration. Om du inte har en ännu kan du skapa den i plånboksdelen. Denna plånbok kommer att användas för eventuella avgifter.",
       },
       auto_renewal: {
         true_title: "Automatisk förnyelse",
         true_description:
-          "objekt Prenumeration objekt objekt Plånbok objekt objekt Balans objekt objekt ",
+          "Ditt abonnemang förnyas automatiskt om din plånbok har tillräckligt med saldo eller om du har en giltig kupong.",
       },
       options: {
         title: "objekt alternativ",
@@ -5892,35 +5892,35 @@ export default {
       new: "Ny affiliate partner",
       edit: "Redigera Dotterbolag objekt",
       subtitle:
-        "objekt objekt objekt inställningar objekt namn objekt objekt Dotterbolag objekt",
+        "Konfigurera de allmänna inställningarna och namnet på affiliate här.",
     },
 
     payment: {
       title: "Betalning information",
       subtitle:
-        "objekt objekt Provision objekt objekt objekt Dotterbolag objekt objekt Provisioner, objekt objekt objekt Provisioner objekt objekt Produkt",
+        "Ställ in provisionsstrukturen för affiliate. Du kan kombinera fasta och procentuella provisioner, eller sätta specifika provisioner för varje produkt.",
     },
 
     contact: {
       title: "Kontaktinformation",
-      subtitle: "objekt objekt Kontakt Detaljer objekt objekt Dotterbolag objekt objekt",
+      subtitle: "Ange kontaktuppgifterna för affiliate-partnern här.",
     },
 
     restriction: {
       title: "Provision begränsning",
       subtitle:
-        "objekt objekt Produkter objekt objekt objekt Provision objekt objekt objekt Provisioner Till objekt Produkter",
+        "Definiera vilka produkter som är berättigade till provision. Du kan begränsa provisioner till vissa produkter.",
     },
 
     link_domain: {
       title: "länkad Domän",
       subtitle:
-        "Länk objekt objekt objekt Domäner Till objekt Dotterbolag objekt objekt objekt köpa objekt objekt Domän objekt objekt objekt Till objekt Dotterbolag",
+        "Länka en av dina domäner till denna affiliate partner. Besökare som köper via denna domän kommer att tillskrivas denna affiliate.",
 
       domain_not_approved_msg: "objekt Domän objekt objekt !",
       domain_is_not_enable_msg: "objekt Domän objekt objekt aktiverad!",
       domain_is_linked_to_other_affiliate_msg:
-        "objekt Domän objekt objekt länkad Till objekt Dotterbolag!",
+        "Denna domän är redan länkad till en annan affiliate!",
     },
 
     set_users_first_message: "objekt objekt objekt Användare objekt!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "objekt",
       subtitle:
-        "objekt objekt Dotterbolag objekt objekt objekt Till Hantera objekt objekt Övrig Resurser objekt objekt objekt",
+        "Associera denna affiliate med ett kluster för att hantera det tillsammans med andra resurser på ett ställe.",
       manage_action: "Hantera",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "Dotterbolag objekt namn",
-        message: "objekt, objekt objekt, objekt Företag, objekt objekt, objekt",
+        message: "t.ex. John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
         label: "Provision objekt",
         false_description:
           "objekt objekt Provisioner",
         true_description:
-          "objekt objekt objekt Provisioner objekt objekt objekt Prissättning objekt",
+          "Beräkna med hjälp av produktspecifika provisioner som anges på fliken prissättning.",
         false_title: "objekt + objekt Provision",
         true_title: "objekt Provision",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "affiliate objekt objekt Order objekt objekt objekt Kunder objekt objekt objekt",
+          "Affiliates kan lägga beställningar direkt till sina kunder via sin panel.",
         true_title: "POS Tillgång",
       },
       enable: {
         true_description:
-          "objekt objekt Dotterbolag objekt Aktiva? objekt inaktiv, objekt Dotterbolag objekt objekt objekt Till Order objekt objekt objekt Länk",
+          "Är detta affiliate aktivt för närvarande? Om de är inaktiva kommer deras affiliateprogram inte att gälla för beställningar som görs via deras länk.",
       },
       products: {
         label: "Produkter objekt objekt Provision",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "objekt objekt Dotterbolag objekt objekt objekt Från objekt affär Dotterbolag information objekt objekt Tid objekt objekt",
+        "Du kan reglera eventuella utestående skulder med affiliate innan du tar bort dem från din butik. Affiliateinformation kommer att vara tillgänglig under en begränsad tid efter raderingen.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "Beställnings Prissättning objekt Värderingar",
     subtitle:
-      "objekt objekt objekt (objekt Prissättning Inmatning formulär) Till objekt Produkt, objekt Kunder Till Välj Varianter objekt objekt pris objekt objekt objekt Beställnings Ingångar",
+      "Tilldela en värdering (ett formulär för prissättning) till en produkt, så att kunderna kan välja varianter eller anpassa dina varor. Systemet kommer sedan att beräkna priset baserat på de anpassade ingångarna.",
     add_valuation_action: "Skapa Ny objekt formulär",
     empty_message:
-      "objekt objekt Varianter, objekt objekt Till objekt Enkel Produkt",
+      "Istället för att skapa flera varianter, överväg att utveckla en värderingsstrategi som kan tillämpas på en enkel produkt.",
     delete_dialog: {
       title: "objekt Ta bort",
       message:
-        "objekt objekt Till Radera objekt Prissättning formulär? objekt objekt Beställnings Prissättning objekt objekt objekt Från Allt objekt Produkter objekt",
+        "Är du säker på att du vill ta bort detta prisformulär? Se till att denna anpassade prissättningsstrategi tas bort från alla associerade produkter först.",
       action: "Ja, radera nu",
     },
     notifications: {
@@ -6033,26 +6033,26 @@ export default {
     title_add: "Skapa Ny objekt formulär",
     config: {
       subtitle:
-        "objekt objekt Till Skapa objekt Prissättning objekt objekt Produkter start objekt objekt namn",
+        "Skapa ett värderingssystem för att skapa flexibel prissättning med hjälp av formler och referenstabeller för dina produkter. Börja med att ge denna värdering ett unikt namn.",
     },
     valuation_preview: "Förhandsvisning objekt formulär",
     load_sample: "objekt objekt",
     conditions: {
       title: "Betingelser",
       subtitle:
-        "objekt objekt Beställnings Varianter objekt Konfiguration objekt objekt Hantering objekt objekt objekt",
+        "Definiera logiken för anpassade varianter. Denna konfiguration förenklar hanteringen av varianttillgänglighet.",
     },
     structure: {
       title: "objekt",
       subtitle:
-        "objekt objekt Prissättning Inmatning formulär objekt objekt ",
+        "Designa ditt prisinmatningsformulär här genom att integrera formler och referenstabeller.",
       expand_action: "objekt",
       collapse_action: "objekt",
     },
     inputs: {
       title: {
-        message: "objekt Titel objekt objekt objekt Till Kunder",
-        placeholder: "objekt objekt namn objekt Prissättning, objekt, 'objekt Prissättning",
+        message: "Den här titeln är inte synlig för kunder.",
+        placeholder: "Ange ett namn för prissättning, t.ex. \"Muggars prissättning\"",
       },
     },
     samples: {
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "Dotterbolag Länk",
       subtitle:
-        "objekt objekt objekt Länk objekt objekt Dotterbolag objekt Till objekt Försäljning objekt Provisioner Lägg till objekt kod '{code}' Till objekt Länk objekt objekt objekt Beställnings Hängiven Domän objekt objekt Dotterbolag objekt objekt 48objekt",
+        "Skapa en unik länk för din affiliatepartner för att spåra försäljning och provisioner. Lägg till hänvisningskoder '{code}' till valfri länk eller tilldela en anpassad dedikerad domän för din affiliate. Det kommer att spåras av systemet i 48 timmar.",
     },
     fix_commission: "Fast provision",
     percent_commission: "Procentbaserad provision",
@@ -6989,7 +6989,7 @@ export default {
 
     excel:
       "Du kommer att få en lista över alla {type} i butiken tillsammans med fullständig information i Excel-format.",
-    csv: "objekt objekt Motta objekt Lista objekt Allt objekt {type} objekt objekt Lagra objekt objekt objekt information objekt CSV objekt objekt Selldone objekt Importera {type} objekt objekt Lagra",
+    csv: "Du kommer att få en lista över alla {type} i butiken tillsammans med fullständig information i CSV-format. Detta format är i enlighet med standardformatet för Selldone för import av {type} till butiken.",
   },
   /** {@see BPageShopProductsImporter**/
   importer: {
@@ -7044,15 +7044,15 @@ export default {
         "Ladda upp säljare CSV filer objekt objekt Till Integritet objekt",
       checklist: {
         title: "objekt objekt",
-        subtitle: "objekt objekt Till objekt objekt objekt",
+        subtitle: "Se till att följa riktlinjerna.",
         sample_files: "objekt filer",
         valid_vendor_name_needed:
-          "objekt objekt <b>objekt namn</b>. objekt <b>namn</b> objekt Begagnade Till objekt objekt Till <i>Skapa</i> objekt Ny säljare objekt <i>Uppdatering</i> objekt objekt objekt",
+          "Du måste ange ett <b>giltigt namn</b>. <b>namn</b> används för att avgöra om man ska <i>Skapa</i> en ny leverantör eller <i>Uppdatera</i> en befintlig.",
         assign_user_after_import:
-          "objekt Importera säljare, objekt objekt Manuellt objekt objekt Användare Till objekt objekt Tillgång Till objekt säljare objekt",
+          "Efter import av leverantörer kan du manuellt tilldela en användare att ge dem åtkomst till leverantörspanelen.",
       },
       need_kyc_alert:
-        "objekt objekt Till objekt objekt Personlig information objekt Importera säljare",
+        "Du måste verifiera din personliga information innan du importerar leverantörer.",
       back_to_vendors_list: "Tillbaka Till säljare Lista",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "säljare Produkter",
     subtitle:
-      "objekt objekt lista Allt Produkter erbjudande objekt säljare objekt objekt Marknad, objekt Produkt objekt objekt länkad Till objekt objekt Mer. . säljare objekt säljare objekt objekt objekt Produkt objekt objekt Inkluderar Lager objekt Prissättning Detaljer objekt Till objekt säljare",
+      "Denna katalog listar alla produkter som erbjuds av leverantörer. På marknadsplatsen kan en produkt kopplas till en eller flera leverantörer. Varje leverantör som är associerad med en produkt har en unik post som inkluderar lager- och prisinformation som är specifik för den leverantören.",
     filter_vendor: {
       placeholder: "Filtrera objekt säljare",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "objekt säljare objekt",
     title: "säljare objekt Lista",
     subtitle:
-      "objekt objekt objekt Lista objekt Förfrågningar Från objekt objekt Till objekt säljare objekt objekt Marknad",
+      "Det här är en lista över förfrågningar från personer som har ansökt om att bli leverantörer på din marknadsplats.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,39 +7088,39 @@ export default {
     marketplace: {
       title: "Marknad",
       subtitle:
-        "objekt objekt Marknad objekt objekt Till objekt objekt Marknad, objekt objekt Inaktivera objekt Lagra objekt objekt inställningar",
+        "Om du inaktiverar marknadsplatsen stängs vissa funktioner av. Om du vill stänga av hela din marknadsplats bör du inaktivera din butik i inställningarna.",
     },
     distribution_model: {
       title: "objekt objekt",
       subtitle:
-        "objekt objekt säljare Till objekt Föremål objekt Till objekt objekt objekt Order objekt objekt lager objekt Frakt, objekt objekt ",
+        "Marknadsplatser kan verka under olika distributionsmodeller. Oavsett om du föredrar att leverantörer skickar varor direkt till köpare eller konsoliderar beställningar på ditt lager för frakt, kan du välja den modell som bäst passar dina behov här.",
     },
     access: {
       title: "säljare Tillgång",
       subtitle:
-        "objekt objekt objekt, objekt objekt Tillgång säljare objekt Till objekt Produkt instrumentbräda objekt objekt Tillgång inställningar Till objekt säljare Till Lägg till objekt objekt Produkter objekt kategorier objekt objekt objekt Tillgång Till objekt objekt",
+        "Som administratör kontrollerar du vilken åtkomstnivå leverantörer har till produktens instrumentpanel. Justera globala åtkomstinställningar för att tillåta leverantörer att lägga till sina egna produkter och kategorier eller begränsa denna åtkomst till endast administratörer.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Gör det möjligt Frakt objekt säljare objekt objekt affär > Logistisk objekt objekt objekt metod objekt",
-    transportation_available_tooltip: "objekt objekt objekt Tillgängliga objekt säljare",
+      "Aktivera frakt för leverantörer på fliken Butik > Logistik för varje metod individuellt.",
+    transportation_available_tooltip: "Det här alternativet är tillgängligt för leverantörer.",
     transportation_not_available_tooltip:
-      "objekt Tillgängliga objekt säljare! objekt objekt Gör det möjligt objekt objekt inställningar",
+      "Ej tillgängligt för leverantörer! Du kan aktivera det i transportinställningarna.",
     panel: {
       title: "säljare objekt",
-      subtitle: "objekt objekt säljare objekt objekt Beställnings Domän",
+      subtitle: "Ta med dina leverantörer via din anpassade domän.",
     },
     documents: {
       title: "Dokument",
       subtitle:
-        "objekt objekt säljare Till Ladda upp Dokument objekt objekt Dokument objekt",
+        "Du kan kräva att dina leverantörer laddar upp dokument eller undertecknar vissa kontrakt. Ange nödvändiga dokument här.",
       add_document_action: "Lägg till objekt objekt",
     },
     inputs: {
       enable: {
         false_description:
-          "objekt Marknad objekt objekt objekt, objekt Allt Marknad objekt",
+          "Marknadsplatsen är avstängd, vilket inaktiverar alla marknadsplatsfunktioner.",
         true_description:
-          "objekt Marknad objekt Aktiva, objekt Allt Marknad objekt",
+          "Marknadsplatsen är aktiv, vilket möjliggör alla marknadsplatsfunktioner.",
       },
       product: {
         label: "Lägg till ny produkt",
@@ -7128,14 +7128,14 @@ export default {
         false_description:
           "objekt Lägg till Produkter objekt objekt säljare säljare objekt objekt Hantera pris objekt Lager",
         true_description:
-          "säljare objekt Lägg till objekt Hantera objekt objekt Produkter objekt objekt objekt säljare objekt",
+          "Leverantörer kan lägga till och hantera sina egna produkter direkt i sin leverantörspanel.",
       },
       need_verify: {
         label: "Produkt objekt Flöde",
         false_description: "Ny säljare Produkter objekt leva objekt",
         false_title: "Nej objekt objekt",
         true_description:
-          "säljare Ny Produkter objekt objekt leva objekt objekt Marknad",
+          "Leverantörernas nya produkter kräver godkännande innan de släpps ut på marknaden.",
         true_title: "objekt objekt",
       },
       category: {
@@ -7144,7 +7144,7 @@ export default {
         false_description:
           "objekt Lägg till kategorier säljare objekt objekt Lägg till Produkter Till objekt kategorier",
         true_description:
-          "säljare objekt Lägg till objekt Hantera kategorier objekt objekt objekt säljare objekt",
+          "Leverantörer kan lägga till och hantera kategorier direkt i sin leverantörspanel.",
       },
       shipping: {
         label: "Frakt alternativ",
@@ -7152,19 +7152,19 @@ export default {
         false_description:
           "säljare objekt Lägg till objekt objekt objekt Frakt metoder",
         true_description:
-          "säljare objekt objekt Frakt metoder, Lägg till Kurirer, objekt objekt Frakt objekt objekt objekt",
+          "Leverantörer kan ställa in sina egna fraktmetoder, lägga till kurirer och anpassa frakten efter deras behov.",
       },
       hidden_customer: {
         label: "Visa objekt Kontakt information",
         true_description: "objekt Kontakt Detaljer objekt objekt Från säljare",
         false_description:
-          "objekt Kontakt Detaljer, objekt objekt telefon objekt E-post, objekt objekt Till säljare",
+          "Köparens kontaktuppgifter, såsom telefon och e-post, är synliga för leverantörer.",
       },
       multi: {
         false_description:
-          "objekt Användare objekt objekt säljare konto Användare objekt objekt objekt Till objekt objekt objekt /säljare",
+          "En användare kan bara ha ett leverantörskonto. Användare kommer att omdirigeras till sin panel på /leverantörer.",
         true_description:
-          "objekt Användare objekt objekt objekt säljare Konton objekt objekt ; objekt Kontakt objekt objekt ",
+          "En användare kan ha flera leverantörskonton. Detta är en betafunktion; vänligen kontakta oss innan du använder den.",
         true_title: "objekt läge",
         false_title: "objekt säljare läge (Standard)",
       },
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "Dokumenttyp",
         subtitle:
-          "Lägg till objekt objekt objekt Artikel objekt objekt säljare objekt, objekt objekt Till Ladda upp objekt objekt objekt",
+          "Lägg till en dokumentbegäran här. Det kommer att visas i leverantörens panel och uppmanar dem att ladda upp det nödvändiga dokumentet.",
       },
       guide: {
         title: "guide",
         subtitle:
-          "objekt objekt objekt guide Till hjälp säljare objekt objekt Dokument Till Ladda upp objekt objekt Till objekt objekt objekt",
+          "Ge en kort guide som hjälper leverantörer att förstå vilka dokument som ska laddas upp och hur man gör det på rätt sätt.",
       },
       code: {
         title: "Bädda in Koda",
         subtitle:
-          "objekt objekt Bädda in Koda objekt objekt objekt, formulär, objekt objekt säljare objekt objekt",
+          "Klistra in inbäddningskoden för ett dokument, formulär eller kontrakt som leverantören måste underteckna.",
       },
       link: {
         title: "Extern länk",
         subtitle:
-          "objekt objekt objekt Länk Till objekt objekt säljare objekt objekt",
+          "Ange en extern länk till ett dokument eller kontrakt som säljaren måste underteckna.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "guide (valfritt)",
           placeholder:
-            "objekt, objekt objekt objekt guide objekt objekt, objekt Länkar Till objekt objekt Övrig Dokument",
+            "Alternativt kan du ge en kort guide eller instruktioner, inklusive länkar till kontrakt eller andra dokument.",
         },
         code: {
           label: "Bädda in Koda",
@@ -7236,7 +7236,7 @@ export default {
     Collective: {
       title: "objekt läge",
       description:
-        "objekt objekt läge, Allt Order objekt Skickat Till objekt lager objekt objekt objekt Skickas Till Kunder Från objekt objekt Plats säljare objekt Skicka objekt Föremål Till objekt lager, objekt objekt Frakt adress objekt säljare objekt objekt objekt lager adress",
+        "I det här läget skickas alla beställningar till ditt lager först och skickas sedan till kunderna från en central plats. Leverantörer kommer att skicka sina varor till ditt lager, så leveransadressen för leverantörer kommer att vara din lageradress.",
     },
     Direct: {
       title: "objekt Frakt Från säljare",
@@ -7251,42 +7251,42 @@ export default {
     Identification: {
       title: "Ägare objekt objekt",
       description:
-        "Ladda upp objekt objekt ID Till objekt objekt KYC objekt objekt Företag Ägare objekt objekt objekt",
+        "Ladda upp ett statligt utfärdat ID för att verifiera identiteten på företagsägaren eller nyckelchefen.",
     },
     Business: {
       title: "Företag objekt",
       description:
-        "objekt objekt Företag Dokument objekt objekt licens objekt objekt objekt Till objekt objekt objekt status objekt objekt Företag",
+        "Tillhandahåll viktiga affärsdokument såsom licenser eller registreringsbevis för att bekräfta ditt företags juridiska status.",
     },
     Address: {
       title: "adress objekt",
       description:
-        "objekt objekt objekt Till objekt objekt Företag adress, objekt objekt , Beskatta Faktura, objekt objekt objekt",
+        "Skicka in ett dokument för att verifiera din företagsadress, till exempel en elräkning, skattefaktura eller hyresavtal.",
     },
     Contract: {
       title: "objekt & objekt",
       description:
-        "Ladda upp objekt objekt Villkor objekt Betingelser objekt objekt Företag objekt",
+        "Ladda upp kontrakt eller avtal som beskriver villkoren för dina affärsrelationer.",
     },
     Copyright: {
       title: "objekt objekt",
       description:
-        "objekt objekt objekt Dokument Till objekt objekt ",
+        "Tillhandahåll upphovsrättsregistreringsdokument för att bekräfta dina immateriella rättigheter.",
     },
     Privacy: {
       title: "Integritet policy Dokument",
       description:
-        "objekt objekt Integritet policy Dokument Till objekt objekt objekt Till objekt Användare objekt kund information",
+        "Inkludera dina sekretesspolicydokument för att visa ditt engagemang för att skydda användar- och kundinformation.",
     },
     Embed: {
       title: "objekt formulär",
       description:
-        "objekt objekt objekt formulär Till objekt objekt objekt information",
+        "Fyll i det inbäddade formuläret för att tillhandahålla den information som krävs.",
     },
     Link: {
       title: "Extern länk",
       description:
-        "objekt objekt objekt Länk Till objekt objekt objekt information",
+        "Följ den externa länken för att ge nödvändig information.",
     },
   },
 
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "objekt objekt Lista objekt Allt Transaktioner objekt objekt Välj Plånbok objekt Avgift Transaktion objekt objekt kund objekt objekt 🛍️ Beställ objekt objekt 🛍️ Beställ objekt objekt återbetalning, objekt objekt återbetalning Transaktion objekt objekt ",
+      "Det här avsnittet ger en detaljerad lista över alla transaktioner för den valda plånboken. En avgiftstransaktion registreras när en kund framgångsrikt betalar för en beställning. Om en beställning annulleras eller delvis återbetalas, kommer motsvarande återbetalningstransaktion också att registreras här.",
     vendor_bank: "säljare objekt",
     order_fee: "🛍️ Beställ Avgift",
     order_refund: "🛍️ Beställ återbetalning",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "Utbetalningshistorik",
     subtitle:
-      "objekt objekt objekt Bokföring objekt objekt säljare objekt objekt Allt Transaktioner Betalningar objekt objekt objekt Manuellt objekt objekt Övrig metoder, objekt objekt Betalning Leverantörer objekt Stöd objekt Betalningar, Tycka om objekt",
+      "Den här funktionen effektiviserar redovisningen för dig och dina leverantörer genom att hålla ett detaljerat register över alla transaktioner. Betalningar kan behandlas manuellt via banköverföringar eller andra metoder, eller hanteras automatiskt av betalningsleverantörer som stöder delade betalningar, som Stripe.",
     top_up_vendor_action: "objekt objekt säljare konto",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "Prissättningsplaner",
     subtitle:
-      "objekt objekt Prissättning objekt objekt objekt Marknad, Tycka om objekt 5% objekt Avgift objekt objekt Produkter objekt tjäna Prissättning Hantering objekt objekt Mer. . objekt",
+      "Ställ in prismodeller för din marknadsplats, som en marginalavgift på 5 % för digitala produkter. Detta gör prishanteringen snabbare och effektivare.",
     add_pricing_action: "Lägg till Prissättning Planen",
   },
 
@@ -7344,7 +7344,7 @@ export default {
       "objekt objekt Prissättning objekt Till säljare Produkter, objekt pris objekt objekt säljare pris * (1 + Provision%).",
     delete: {
       subtitle:
-        "objekt objekt Prissättning objekt objekt objekt Allt säljare Produkter länkad Till objekt objekt Prissättning objekt, tjäna objekt Till Uppdatering Allt säljare Produkter objekt objekt Prissättning objekt",
+        "Att ta bort en prismodell kommer att påverka alla leverantörsprodukter som är kopplade till den. Innan du tar bort en prismodell, se till att uppdatera alla leverantörsprodukter som använder den och tilldela dem en annan prismodell.",
       remove_pricing_action: "Ta bort Prissättning objekt",
     },
     inputs: {
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "objekt, objekt Produkter objekt",
       },
       description: {
-        placeholder: "objekt objekt Lägg till objekt Notera objekt",
+        placeholder: "Du kan lägga till en anteckning här...",
       },
       accept_delete: {
-        true_description: "objekt objekt Till Radera objekt Prissättning objekt",
+        true_description: "Jag vill ta bort den här prismodellen.",
         true_title: "objekt Prissättning objekt objekt",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "säljare",
       subtitle:
-        "Välj objekt säljare objekt objekt Till Överföra objekt Till objekt Välj, Tillgängliga Betalning alternativ objekt objekt aktiverad objekt Betalning betalningsgateway, objekt alternativ objekt objekt ",
+        "Välj den leverantör du vill överföra pengar till. När du har valt det kommer tillgängliga betalningsalternativ att visas. Om du har aktiverat utbetalningskompatibla betalningsgateways kommer dessa alternativ också att visas här.",
     },
     vendor_wallet: "säljare Plånbok",
     vendor_bank_account: "säljare objekt konto",
     with_balance_tooltip:
-      "objekt objekt anslut objekt Tjänster Tycka om Stripe Connect, objekt objekt Tillgängliga Balans objekt objekt Stripe konto objekt objekt",
+      "När du ansluter utbetalningstjänster som Stripe Connect hämtar vi och visar det tillgängliga saldot på ditt Stripe-konto som referens.",
     with_balance: "objekt Balans",
     without_balance: "objekt Balans - objekt läge",
     bank_transfer: {
       title: "objekt Överföra",
       subtitle:
-        "objekt objekt Betalning Historia Nej objekt pengar objekt objekt objekt Till objekt säljare objekt objekt objekt; objekt objekt Manuellt Betala objekt säljare",
+        "Detta är ett register över betalningshistorik. Inga faktiska pengar kommer att överföras till leverantören av systemet; du måste betala dina leverantörer manuellt.",
     },
     vendor_bank: "säljare objekt",
     gateway_in_debug_mode_warning:
-      "objekt objekt Betalning Inkörsport objekt objekt läge, objekt objekt Till objekt objekt konto",
+      "Eftersom betalningsgatewayen för närvarande är i felsökningsläge kommer pengar inte att överföras till ett riktigt konto.",
     payment: {
       title: "Betalning",
       subtitle:
-        "objekt objekt Valuta objekt objekt objekt Belopp objekt objekt Till Överföra Till objekt säljare objekt objekt Belopp, objekt objekt Från objekt säljare Plånbok objekt Ansluten Konton objekt objekt alternativ, objekt objekt Från objekt Ansluten konto, objekt objekt objekt säljare Stripe konto",
+        "Välj valuta och ange det belopp du vill överföra till leverantören. Om du anger ett negativt belopp kommer pengarna att dras från säljarens plånbok. För anslutna konton med utbetalningsalternativ kommer pengarna att dras från det anslutna kontot, till exempel säljarens Stripe-konto.",
     },
     history: {
       title: "Historia",
       subtitle:
-        "objekt objekt objekt Betalning objekt objekt återbetalning objekt objekt objekt Överföra, objekt objekt Balans objekt objekt objekt Från objekt säljare konto objekt Returnerad Till objekt konto",
+        "En del av denna betalning har återbetalats genom en återföring, vilket innebär att saldot har dragits från säljarens konto och återförts till ditt konto.",
     },
     refund: {
       title: "återbetalning",
       subtitle:
-        "objekt återbetalning Belopp objekt objekt objekt Från objekt säljare Balans Allt Betalningar (objekt objekt belopp) objekt objekt säljare konto (Tycka om Stripe Connect) objekt objekt återbetalning objekt objekt objekt Överföra",
+        "Det återbetalade beloppet kommer att dras från säljarens saldo. Alla betalningar (eller återstående belopp) på säljarens konto (som Stripe Connect) kommer att återbetalas genom en återföringsöverföring.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "objekt objekt Lägg till objekt Notera objekt objekt Notera objekt objekt objekt Till objekt säljare",
+          "Du kan lägga till en anteckning här... Den här anteckningen är inte synlig för leverantören.",
       },
       accept_refund: {
         true_description: "objekt objekt Till Avbryt objekt Betalning",
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "objekt objekt",
         message:
-          "objekt säljare objekt objekt Avslutad objekt, objekt pengar objekt Från objekt objekt Till objekt Plånbok objekt Lägg till Till objekt Plånbok Balans",
+          "Säljarens fondåterföring har slutförts framgångsrikt, med pengar överförda från banken till plånboken och lagts till saldot i plånboken.",
       },
       payout_success: {
         title: "objekt",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "objekt",
-    max_batch_msg: "maximum objekt objekt Föremål objekt objekt Importera objekt objekt ",
-    max_daily_limit_msg: "maximum objekt objekt Föremål objekt objekt Importera objekt objekt objekt",
+    max_batch_msg: "Maximalt antal artiklar du kan importera i en enda batch.",
+    max_daily_limit_msg: "Maximalt antal objekt du kan importera på en dag.",
     extra_daily_limit_msg: "objekt Föremål objekt objekt Begränsa",
     add_items_today_msg: "Föremål Lägg till I dag",
     file_statistic_msg: "Statistik objekt objekt fil",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Temafärger",
     theme_colors_description:
-      "objekt objekt Primär Färg objekt objekt objekt affär objekt objekt Mall objekt objekt Till objekt objekt Färg objekt objekt varumärke",
+      "Du kan anpassa den primära färgpaletten i din butik här. Varje mall kan använda dessa färger för att automatiskt generera ett komplett färgområde som passar ditt varumärke.",
     products_view_mode: "Inköpslistavy",
     products_view_mode_desc:
       "Du kan justera visningsläget för produkter i din butik baserat på skärmstorleken. Detta läge övervägs som standard och kommer inte att tillämpas om användaren ändrar visningsläget.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "objekt Titel",
-      subtitle: "objekt Höjd objekt objekt Titel objekt objekt objekt",
+      subtitle: "Höjden på titeln kommer att justeras dynamiskt.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "objekt objekt",
         false_description:
-          "kategorier objekt Produkter objekt objekt Till Visa objekt objekt",
+          "Kategorier och produkter har en interaktiv animation för att visa funktionaliteten.",
         true_title: "Statisk",
         true_description: "kategorier objekt Produkter objekt Nej objekt",
       },
@@ -7519,7 +7519,7 @@ export default {
       title: "objekt Insatser",
       hover: {
         false_description:
-          "Enkel objekt objekt läge objekt objekt objekt Insatser objekt Produkt Kort",
+          "Enkelt och minimalt läge utan några extra åtgärder på produktkort.",
         true_description:
           "Visa objekt köpa & Lägg till Till objekt objekt objekt Produkt Kort objekt",
         true_title: "Visa Handling objekt objekt",
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "Produkt sida",
       subtitle:
-        "objekt objekt Produkt sida objekt objekt Priser objekt objekt Till objekt objekt Inställningar",
+        "Anpassa din produktsida här. Du kan justera visningen av priser och ändra arrangemanget av sektioner för att passa dina preferenser.",
       buy_button_color: "köpa objekt Färg",
       smart_price: {
         title: "objekt Enhet pris",
         true_description:
-          "objekt Enhet pris objekt objekt Vikt, volym, objekt objekt Varianter objekt t.ex. objekt objekt 2objekt objekt objekt $5 objekt pris, objekt objekt kund visa objekt $2.5/objekt objekt objekt Produkt sida",
+          "Beräkna enhetspris genom att ta hänsyn till vikt, volym och förpackningsvarianters egendom. Ex. Om du har en variant med 2L storlek och $5 som pris, så ser kunden $2.5/L på produktsidan.",
       },
       reverse_currency: {
         title: "Valuta objekt Placera",
         false_title: "Normalt läge",
         true_title: "objekt läge",
         false_description:
-          "objekt Valuta objekt objekt start objekt objekt objekt t.ex.: $95, €30",
+          "Valutatecknet kommer att placeras i början av siffrorna. Ex: $95 , 30 €",
         true_description:
-          "objekt Valuta objekt objekt Slutet objekt objekt objekt t.ex.: 95$, 30€",
+          "Valutatecknet kommer att placeras i slutet av siffrorna. Ex: 95$ , 30€",
       },
       variants_selector: {
         title: "Varianter objekt",
         subtitle:
-          "objekt objekt Till objekt Varianter objekt objekt Produkt sida",
+          "Du kan välja olika sätt att visa varianter på produktsidan.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "objekt & Logga in",
       subtitle:
-        "objekt objekt säljare objekt objekt Logga in objekt objekt objekt Beställnings objekt, bild, objekt Meddelande",
+        "Anpassa leverantörens introduktions- och inloggningsupplevelse med en anpassad video, bild eller meddelande.",
     },
     inputs: {
       page_vendor_login: {
         label: "säljare Logga in sida",
         message:
-          "Välj objekt Beställnings Landning sida objekt säljare Logga in objekt objekt, Bilder, objekt objekt sida objekt objekt Till säljare objekt objekt ",
+          "Välj en anpassad målsida för leverantörsinloggning. Inkludera video, bilder eller text för en unik design. Den här sidan visas för leverantörer som inte är inloggade.",
       },
       page_vendor_registered: {
         label: "säljare Registrerad sida",
         message:
-          "Välj objekt Beställnings sida objekt objekt säljare objekt sida objekt objekt Marknad support objekt säljare objekt Användare",
+          "Välj en anpassad sida för inloggade leverantörer. Den här sidan visas om din marknadsplats stöder flera leverantörer per användare.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Beställnings Varianter",
       subtitle:
-        "objekt Produkter objekt objekt Varianter objekt objekt Förändra objekt Standard namn objekt Varianter objekt objekt objekt Till objekt objekt Föremål objekt Standard objekt objekt Kunder objekt objekt maximum Längd objekt 24.",
+        "Fysiska produkter kan ha varianter. Du kan ändra standardnamnet på varianter. Vårt förslag är att lämna dessa objekt som standard och tomma så att selldone automatiskt översätter dem för dina kunder till deras språk. Maxlängden är 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Rubrik Logotyp",
       subtitle:
-        "objekt Standard, objekt Butiker Logotyp objekt objekt Rubrik, objekt objekt objekt Ladda upp objekt Beställnings Logotyp objekt objekt objekt Logotyp objekt objekt , objekt objekt objekt Till Manuellt objekt objekt Höjd objekt Bredd objekt objekt objekt",
+        "Som standard visas din butiks logotyp i rubriken, men du kan ladda upp en anpassad logotyp istället. Om din logotyp inte har ett kvadratiskt bildförhållande kan du behöva justera höjden och bredden manuellt för optimal presentation.",
     },
     header_title: {
       title: "Rubrik Titel",
       subtitle:
-        "objekt objekt Titel objekt objekt objekt Rubrik objekt objekt Sidor objekt objekt Till objekt Ta bort objekt, objekt objekt objekt 'objekt objekt Titel objekt",
+        "Du kan anpassa titeln som visas i rubriken på dina sidor här. Om du vill ta bort den helt, klicka på knappen 'Ange tom titel'.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "objekt läge",
       description:
-        "objekt Varianter objekt objekt objekt alternativ, objekt objekt ",
+        "Kompakta varianter i valbara separata tillval, lämpliga för de flesta fall.",
     },
     select: {
       title: "Välj läge",
       description:
-        "objekt Allt Varianter objekt objekt objekt, objekt objekt Varianter",
+        "Visar alla varianter i en rullgardinsmeny, perfekt för ett stort antal varianter.",
     },
   },
 
@@ -7677,17 +7677,17 @@ export default {
     add_title: "Lägg till objekt objekt",
     config: {
       subtitle:
-        "objekt Titel objekt Beskrivning objekt objekt Till Personal objekt",
+        "Ange titel och beskrivning för din egenskapsuppsättning. Det kommer endast att vara synligt för personalen.",
     },
     variants: {
       title: "Varianter",
       subtitle:
-        "objekt objekt namn, Ikon, objekt 🛍️ Beställ objekt objekt Produkter objekt objekt Varianter objekt objekt objekt Standard 6 Varianter, objekt objekt objekt Beställnings Varianter objekt objekt Produkt objekt",
+        "Du kan anpassa variantens namn, ikon och ordning här. Om du har en mängd olika produkter med unika varianter som inte passar standard 6 varianter, kan du ställa in anpassade varianter för varje produkt här.",
     },
 
     inputs: {
       title: {
-        placeholder: "objekt objekt Titel objekt objekt objekt",
+        placeholder: "Ange en titel för egenskapsuppsättningen...",
       },
       description: {
         placeholder: "objekt objekt objekt Beskrivning (valfritt)",
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "Min kurir hämtar paketet.",
 
     pickup_ready_action: "objekt objekt",
-    pickup_ready_action_subtitle: "objekt 🛍️ Beställ objekt objekt objekt kund objekt",
+    pickup_ready_action_subtitle: "Beställningen är klar för kundupphämtning.",
 
     service_action: "Utförandebekräftelse",
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Försäljning Kanal",
     subtitle:
-      "Skapa objekt Hängiven Kategori objekt objekt Produkter, objekt objekt Bilder objekt objekt, objekt objekt Till Instagram objekt objekt, objekt objekt , objekt objekt Till objekt objekt objekt Produkter",
+      "Skapa en dedikerad kategori för dina produkter, komplett med bilder och videor, och dela den på dina sociala medier. Det liknar Instagram och TikTok, men med full kontroll, så att du kan sälja dina produkter direkt.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Skatt ska läggas till det slutliga priset.",
     invoice: {
       subtitle:
-        "objekt objekt objekt formulär, objekt objekt Skapa objekt Betalning Länk objekt objekt objekt Belopp objekt objekt tjäna objekt objekt Faktura objekt objekt Betalning objekt objekt ",
+        "Genom att använda detta formulär kan du skapa en betalningslänk för ett specifikt belopp. Det gör det också enkelt och enkelt att spåra fakturan och bekräfta att betalningen har slutförts.",
     },
   },
 
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "objekt 🛍️ Beställ Rapportera",
-      desc: "Motta objekt objekt E-post objekt objekt Detaljer objekt Order objekt objekt objekt",
+      desc: "Få ett dagligt e-postmeddelande med information om beställningar för den dagen.",
     },
   },
 
@@ -9266,7 +9266,7 @@ export default {
       title: "Inloggningsmetoder",
       subtitle: "Anpassa hur användare loggar in i din butik.",
 
-      tips: "<b>objekt</b> objekt objekt Användare objekt objekt objekt affär, objekt objekt Selldone Användare objekt objekt, objekt objekt Användare objekt objekt Tillgång Till objekt adress objekt objekt Allt Butiker objekt objekt Se objekt 🛍️ Beställ Historia, objekt objekt objekt affär objekt objekt information objekt Marknadsföring objekt objekt Till objekt objekt Till objekt objekt, objekt Skicka objekt E-post Till objekt Användare objekt objekt ",
+      tips: "<b>Viktigt.</b> När en användare registrerar sig i din butik skapas en motsvarande Selldone-användare, om en sådan inte redan finns. Denna användare kommer att ha tillgång till sin adressbok i alla butiker och kan se sin beställningshistorik, även om en butik har stängt. Vi använder inte denna information i marknadsföringssyfte utan kräver att den ska förhindra bedrägeri från båda sidor. För att upprätthålla transparensen skickar vi ett e-postmeddelande till användaren och informerar dem om sin registrering.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Kolla upp formulär",
       subtitle:
-        "objekt objekt Kolla upp formulär objekt Till objekt objekt information objekt objekt Från objekt Kunder",
+        "Anpassa fälten i kassaformuläret för att samla in den information du behöver från dina kunder.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "objekt",
       title: "objekt",
       description:
-        "objekt Produkt objekt objekt lista objekt objekt Lagra, objekt objekt Länk",
+        "Denna produkt är inte listad i butiken, men tillgänglig via direktlänk.",
     },
   },
 
@@ -10078,17 +10078,17 @@ export default {
     variants: {
       title: "objekt alternativ",
       subtitle:
-        "Välj objekt Till objekt objekt alternativ objekt objekt, objekt objekt Varianter Till Skapa objekt",
+        "Välj upp till två varianter. Efter valet kan du välja vilka specifika varianter som ska skapas automatiskt.",
     },
     values: {
       title: "objekt objekt",
       subtitle: "objekt objekt ",
       prevent_duplicates_tips:
-        "<b>Notera:</b> objekt objekt Varianter Till objekt objekt",
+        "<b>Obs:</b> Vi söker automatiskt efter befintliga varianter för att förhindra dubbletter.",
     },
     inventory: {
       title: "objekt Lager",
-      subtitle: "objekt objekt start Lager Räkna objekt objekt Ny Varianter",
+      subtitle: "Ställ in startinventering för de nya varianterna.",
     },
     add_variants_action: "Skapa Varianter",
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "objekt Stil",
       subtitle:
-        "objekt objekt objekt Till objekt objekt , bakgrund, objekt, objekt objekt Till objekt objekt:",
+        "Använd det här verktyget för att replikera stilar som typsnitt, bakgrunder, marginaler och kanter. Följ dessa steg för att duplicera stilar:",
       step_1:
-        "objekt objekt , objekt, objekt Bilder; objekt objekt objekt Förändra Till objekt objekt",
-      step_2: "objekt objekt Stil objekt objekt Till objekt",
+        "Aktivera verktyget och för musen över text, kolumner eller bilder; markören ändras till en pipett.",
+      step_2: "Klicka på elementet vars stil du vill kopiera.",
       step_3:
-        "objekt objekt objekt Förändra Tillbaka Till objekt objekt; objekt objekt Till objekt objekt objekt Stil",
+        "Markören ändras tillbaka till en palett; klicka på elementet där du vill använda den kopierade stilen.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "objekt objekt Meny, objekt Inkluderar Allt objekt kategorier objekt Byggnad. .. objekt sida",
+        "Växla synligheten för sidomenyn, som inkluderar alla avsnittskategorier för att bygga din sida.",
     },
     sort_tooltip: {
       subtitle:
-        "Gör det möjligt objekt objekt Till objekt objekt ",
+        "Aktivera den här funktionen för att enkelt ordna om och organisera avsnitt genom att dra dem.",
     },
     edit_mode_tooltip: {
       title: "Redigera / Förhandsvisning läge",
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "Allt Redigera Verktyg objekt objekt objekt",
       view_mode_title: "Förhandsvisning läge",
       view_mode_msg:
-        "Se objekt sida objekt Användare objekt visa objekt objekt Redigera Verktyg objekt objekt ",
+        "Visa din sida som användare skulle se den genom att dölja extra redigeringsverktyg och tomma textområden.",
     },
     repository_tooltip: {
       title: "objekt objekt",
       subtitle:
-        "objekt objekt Tillgängliga objekt objekt objekt Meny, objekt objekt sida objekt",
+        "Växla visningen av fördesignade avsnitt. Dessa sektioner skapas med hjälp av standardsektionerna som finns tillgängliga i den vänstra menyn, vilket visar flexibiliteten hos den här sidbyggaren.",
     },
     live_view: {
       title: "leva Förhandsvisning",
@@ -10712,17 +10712,17 @@ export default {
     hotkeys_dialog: {
       title: "objekt objekt",
       augment_tips:
-        "objekt objekt Innehåll objekt objekt sida objekt objekt <b>objekt</b> objekt objekt objekt Begagnade objekt Beställnings objekt Sidor objekt objekt <b>Produkter</b>, <b>kategorier</b>, objekt <b>objekt Föremål</b>. Till objekt objekt bild Till objekt objekt, objekt objekt <b>objekt</b> objekt Välj <b>objekt objekt</b> objekt objekt bild",
+        "Du kan ladda dynamiskt innehåll på din sida och ersätta det med <b>augment</b> värden. Augment används för anpassade dynamiska sidor som <b>Products</b>, <b>Categories</b> och <b>Include Items</b>. För att ställa in en bild att laddas dynamiskt, klicka på <b>Feeder</b> och välj <b>Dynamisk källa</b> för den bilden.",
     },
     hotkeys: {
-      ctrl_b: "objekt objekt Välj objekt | <b>tjäna objekt objekt</b>",
-      ctrl_i: "objekt objekt Välj objekt | <i>tjäna objekt objekt</i>",
+      ctrl_b: "Växla fetstil på/av för markerad text | <b>Gör mig djärv</b>",
+      ctrl_i: "Slå kursiv på/av för markerad text | <i>Gör mig kursiv</i>",
       ctrl_l:
-        "objekt objekt Välj objekt | <s>objekt objekt objekt</s>",
-      ctrl_u: "objekt objekt Välj objekt | <u>objekt objekt</u>",
+        "Slå på/av genomstrykning för markerad text | <s>Slå igenom mig</s>",
+      ctrl_u: "Växla understrykning på/av för markerad text | <u>Stryk under mig</u>",
       ctrl_1:
-        "objekt objekt Välj objekt | <small>tjäna objekt objekt</small>",
-      ctrl_2: "öka objekt objekt objekt Välj objekt | <big>tjäna objekt objekt</big>",
+        "Minska teckenstorleken för vald text | <small>Gör mig liten</small>",
+      ctrl_2: "Öka teckensnittsstorleken på markerad text | <big>Gör mig stor</big>",
       ctrl_r: "Ta bort Allt objekt Från Välj objekt | objekt Allt objekt",
       ctrl_s: "Spara objekt sida",
       tab: "objekt objekt objekt läge",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "inställningar",
         subtitle:
-          "objekt objekt Spara objekt objekt sida objekt objekt Till Allt objekt objekt objekt Lagra",
+          "Du kan spara skräddarsydda avsnitt för framtida användning i dina siddesigner. Dessa sparade avsnitt kommer att vara tillgängliga för alla administratörer i den här butiken.",
       },
       image: {
         title: "Bild",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Koda",
         subtitle:
-          "objekt objekt Koda Från objekt objekt sida objekt",
+          "Du kan kopiera och klistra in elementkoden från de vänstra sidosektionerna i sidbyggaren.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "Taggar",
-          message: "Begagnade objekt sök objekt objekt objekt",
+          message: "Används för att söka och kategorisera element.",
         },
         section: {
-          message: "objekt objekt objekt Från objekt sida objekt",
+          message: "Kopiera avsnittet från sidbyggaren.",
         },
       },
     },
@@ -10778,32 +10778,32 @@ export default {
     add_new_vendor_action: "Lägg till Ny säljare",
     status_tooltip: {
       title: "Leverantörsstatus",
-      ACCEPTED: "objekt säljare objekt Tillgång Till objekt objekt",
-      REJECTED: "objekt säljare objekt objekt objekt avvisade",
-      PENDING: "objekt objekt objekt Avvaktan objekt objekt Från objekt säljare",
+      ACCEPTED: "Säljaren har tillgång till sin panel.",
+      REJECTED: "Säljarens begäran har avvisats.",
+      PENDING: "Begäran väntar på ett beslut från säljaren.",
     },
     number_of_products: "objekt objekt Produkter",
     invited: "objekt",
     no_pricing: "Ingen prissättning",
     no_pricing_tooltip: {
       title: "Standard Prissättning Planen",
-      subtitle: "objekt objekt objekt Standard Prissättning objekt objekt objekt säljare",
+      subtitle: "Ange en standardprismodell för leverantören.",
     },
     updated_products_tooltip: {
       title: "Produkter objekt objekt 24 objekt",
     },
     added_products_tooltip: {
-      title: "Produkter Lägg till objekt objekt objekt 24 objekt",
+      title: "Produkter som har lagts till under de senaste 24 timmarna",
     },
     access_tooltip: {
       title: "objekt Tillgång",
       subtitle:
-        "objekt säljare objekt Tillgång Till objekt objekt Redigera objekt objekt säljare > Tillgång objekt",
+        "Säljaren har tillgång till sin panel. Du kan redigera detta på fliken Leverantör > Åtkomst.",
     },
     reject_by_user_tooltip: {
       title: "avvisade objekt Användare",
       subtitle:
-        "objekt Användare avvisade objekt objekt Till objekt objekt säljare objekt Tillgång objekt säljare",
+        "Användaren avvisade begäran om att bli en leverantör och få åtkomst till denna leverantör.",
     },
     download_all_vendors: "Ladda ner Allt säljare",
     bulk_import: "objekt Importera (objekt)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Licens objekt objekt!",
     subtitle:
-      "objekt objekt Licens objekt objekt Välj Företag objekt objekt Licens Till objekt objekt Planen",
+      "Din nuvarande licens uppfyller inte kraven för din valda affärsmodell. Vänligen uppgradera din licens till Enterprise-planen.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "objekt Insatser",
     subtitle:
-      "objekt objekt Skicka objekt status Uppdatering E-post Till objekt objekt , objekt objekt meddelande objekt Till objekt, objekt objekt Till objekt objekt objekt Tid",
+      "Du kan skicka ett e-postmeddelande om statusuppdatering till köparen med bara ett klick. Dessutom kan du definiera vanliga meddelanden här för att återanvända, så att du inte behöver skriva om dem varje gång.",
     send_update_email_action: "Skicka Uppdatering E-post",
     add_template_action: "Lägg till meddelandemall",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "🛍️ Beställ Uppdatering E-post",
       need_set_service_alert: {
         message:
-          "objekt objekt objekt E-post tjänst Leverantör Till objekt objekt E-post Till objekt Skickat",
+          "Ställ in din e-postleverantör så att e-postmeddelandet skickas.",
         action: "objekt Till inställningar",
       },
       send_action: "Skicka Uppdatering E-post",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Redigera meddelandemall",
       add_title: "Lägg till meddelandemall",
       message:
-        "objekt objekt Titel objekt Meddelande objekt objekt objekt Titel objekt objekt Begagnade objekt objekt Skickat Till objekt kund",
+        "Du bör ange en titel och meddelandetext här. Titeln används endast för din referens och kommer inte att skickas till kunden.",
 
       save_action: "Spara Mall",
       add_action: "Lägg till Mall",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "Beställningslänk",
-    subtitle: "objekt objekt 🛍️ Beställ Länk objekt objekt kund",
+    subtitle: "Du kan dela beställningslänken med kunden.",
     guest_checkout_message:
-      "objekt objekt Se objekt 🛍️ Beställ objekt objekt , objekt objekt kund objekt objekt Till objekt objekt 🛍️ Beställ Detaljer, objekt objekt Skapa objekt objekt Länk objekt objekt",
+      "Gästshoppare kan automatiskt se sin beställning i samma webbläsare. Men om kunden är en gäst och du behöver dela beställningsinformationen kan du skapa en säker länk för dem.",
     authentication: "objekt",
     guest: "objekt",
     click_to_create: "objekt Till Skapa",
@@ -10897,7 +10897,7 @@ export default {
     title: "Recensioner objekt",
     add_source_action: "Lägg till Recension objekt",
     subtitle:
-      "objekt anslut objekt objekt Till objekt objekt objekt Recensioner objekt objekt Företag Från objekt Tycka om Facebook, Google, objekt Mer. . objekt objekt objekt Kunder Till objekt Recensioner objekt objekt objekt kund objekt objekt Recensioner objekt objekt Landning Sidor objekt Produkt Sidor",
+      "Anslut enkelt externa plattformar för att samla in och analysera recensioner om ditt företag från källor som Facebook, Google och mer. Vi matchar automatiskt kunderna till deras recensioner för en bättre kundupplevelse. Du kan också visa upp dessa recensioner på dina målsidor och produktsidor.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Lägg till Ny objekt objekt",
     title: "objekt objekt",
     subtitle:
-      "objekt objekt Skapa objekt Hantera objekt objekt Begagnade Till objekt objekt Produkter objekt Tjänster objekt objekt Till Produkter objekt objekt Produkt instrumentbräda > Redigera",
+      "Du kan skapa och hantera egenskapsuppsättningar här. Egenskapsuppsättningar används för att definiera egenskaperna hos produkter och tjänster. Du kan tilldela dessa egenskapsuppsättningar till produkter i produktöversikten > Redigera.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "objekt objekt - Beställnings Varianter",
       subtitle:
-        "objekt objekt Produkt, objekt objekt Standard objekt",
+        "Du kan anpassa variantnamnen för den här produkten och ersätta standardnamnen.",
     },
 
     subtitle:
-      "objekt objekt , objekt, objekt objekt 🛍️ Beställ objekt objekt Produkter objekt objekt Varianter objekt objekt Standard objekt, objekt objekt objekt Beställnings Varianter objekt Till objekt Produkt objekt objekt Logistisk > objekt objekt Till objekt objekt objekt Produkter objekt objekt",
+      "Du kan anpassa variantnamn, ikoner och deras ordning här. För produkter med unika varianter som går utöver standard sex, kan du ställa in anpassade varianter skräddarsydda för varje produkt. Definiera helt enkelt egenskapsuppsättningar på fliken Logistik > Egenskapsuppsättningar och tilldela dem till valfritt antal produkter efter behov.",
     select_property_set: "Välj objekt objekt",
     add_property_set: "Lägg till objekt objekt",
   },
@@ -10931,8 +10931,8 @@ export default {
     title: "objekt",
     add_action: "Lägg till objekt",
     subtitle:
-      "Skapa objekt objekt objekt Till objekt objekt Märka Inköp objekt objekt objekt Frakt objekt objekt 🛍️ Beställ, Välj objekt objekt ",
-    empty: "Nej objekt objekt objekt “Lägg till objekt”.",
+      "Skapa återanvändbara kartongstorlekar för att snabba upp etikettköp och säkerställa korrekta fraktpriser. När du utför en beställning väljer du en sparad ruta så fylls dess dimensioner i automatiskt.",
+    empty: "Inga lådor än. Klicka på \"Lägg till ruta\".",
     edit: "Redigera objekt",
     new: "Ny objekt",
     default_weight: "Standard Vikt",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Välj objekt paket",
     define_package: "objekt objekt paket",
-    define_package_hint: "Skapa objekt Redigera objekt objekt paket objekt",
+    define_package_hint: "Skapa eller redigera dina fördefinierade paketstorlekar",
   },
 
 
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Listning",
-    message:"Skapa objekt objekt, objekt objekt Typ objekt Listning—objekt, objekt, objekt, Tjänster, objekt Mer. ."
+    message:"Skapa en sökbar, modererad katalog för alla typer av listor – fastigheter, hotell, läkare, tjänster och mer."
   },
 
   shop_listing: {
     name: "Listning",
     message:
-      "Skapa objekt objekt, objekt objekt Typ objekt Listning—objekt, objekt, objekt, Tjänster, objekt Mer. .",
+      "Skapa en sökbar, modererad katalog för alla typer av listor – fastigheter, hotell, läkare, tjänster och mer.",
 
     items: {
       title: "Föremål",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategorier",
       sub_title:
-        "objekt objekt kategorier objekt objekt filter",
+        "Organisera din katalog med kategorier och underkategorier. Detta förbättrar navigering och filtrering.",
 
       empty_title: "Nej kategorier objekt",
       empty_subtitle:
-        "Skapa kategorier Till objekt objekt Listning objekt objekt objekt",
+        "Skapa kategorier för att strukturera dina uppgifter och förbättra surfandet.",
 
       add_title: "Lägg till Kategori",
       edit_title: "Redigera kategori",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "objekt",
       sub_title:
-        "Recension objekt Föremål objekt objekt : objekt, Publicera, Avvisa, objekt, objekt objekt Till I väntan på",
+        "Granska inskickade objekt och bestäm vad som händer härnäst: godkänn, publicera, avvisa, arkivera eller återställ till väntande.",
 
       empty_title: "Nej Föremål Till Recension",
       empty_subtitle:
-        "objekt Användare objekt Ny Föremål, objekt objekt ",
+        "När användare skickar in nya objekt kommer de att visas här för moderering.",
 
       review_title: "Recension Artikel",
       approve_publish: "objekt & Publicera",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "objekt",
       sub_title:
-        "Skapa objekt objekt objekt (Kort + Detaljer Mallar) objekt objekt objekt Till kategorier kategorier objekt objekt ",
+        "Skapa flera designuppsättningar (kort + detaljmallar) och tilldela dem till kategorier. Kategorier kan använda olika mönster.",
 
       empty_title: "Nej objekt objekt",
       empty_subtitle:
-        "Lägg till objekt objekt Till start objekt objekt kategorier objekt",
+        "Lägg till din första designuppsättning för att börja anpassa hur kategorier ser ut.",
 
       add_title: "Lägg till objekt",
       edit_title: "Redigera objekt",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Radera objekt",
       delete_message:
-        "Radera objekt objekt? kategorier objekt objekt _objekt",
+        "Vill du ta bort den här designen? Kategorier som använder det kommer automatiskt att förlora design_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "Märken",
       sub_title:
-        "Skapa objekt Hantera objekt Märken Märken objekt objekt objekt Till Listning Föremål Till objekt objekt objekt",
+        "Skapa och hantera skyltfönstermärken. Märken kan tilldelas listobjekt för att markera speciella attribut.",
 
       empty_title: "Nej Märken objekt",
       empty_subtitle:
@@ -11192,7 +11192,7 @@ export default {
       title: "meddelande",
       sub_title: "Hantera meddelande Skickat objekt Användare Från Listning Profiler",
       empty_title: "Nej meddelande",
-      empty_subtitle: "meddelande Skickat objekt Användare objekt objekt objekt",
+      empty_subtitle: "Meddelanden som skickas av användare kommer att visas här.",
 
       sender: "objekt",
       item: "Artikel",
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "Meddelande",
       owner_reply: "Ägare objekt",
       reply: "objekt",
-      reply_hint: "skrivning objekt objekt Till objekt Användare objekt objekt Meddelande objekt objekt Från Insatser",
+      reply_hint: "Skriv ett svar till användaren. Du kan också markera meddelandet som läst/spam från åtgärder.",
 
       mark_read: "objekt objekt läsning",
       mark_unread: "objekt objekt objekt",
@@ -11219,9 +11219,9 @@ export default {
       title: "Listning",
       subtitle: "Gör det möjligt objekt Inaktivera objekt offentlig Listning sida objekt aktiverad objekt objekt objekt Tid, Selldone objekt Skapa objekt Listning Konfiguration objekt",
       true_description: "Listning objekt aktiverad Kunder objekt objekt Listning Sidor",
-      false_description: "Listning objekt inaktiverad objekt Listning Sidor objekt objekt ",
+      false_description: "Listan är inaktiverad. Listningssidorna och bidragen är blockerade.",
       open_listing: "objekt Listning",
-      note: "objekt objekt , Gränser, formulär, objekt objekt objekt Listning inställningar",
+      note: "Du kan senare konfigurera moderering, gränser, formulär och design i listningsinställningarna.",
       vendor_prereq_text:
         "objekt säljare Till Lägg till Listning Föremål Från objekt säljare objekt? objekt, objekt objekt Företag objekt Till Marknad",
       vendor_prereq_button: "objekt Marknad Företag objekt",
@@ -11231,7 +11231,7 @@ export default {
       vendor_access_button: "Gör det möjligt Listning objekt säljare",
 
       more_options_text:
-        "Mer. . objekt objekt Tillgängliga objekt Listning inställningar objekt objekt objekt Ingångar, UI/Utseende, objekt, Gränser, objekt objekt alternativ",
+        "Fler kontroller är tillgängliga i Listningsinställningar. Du kan konfigurera ingångar, användargränssnitt/utseende, moderering, gränser och alternativ för intäktsgenerering.",
       more_options_button: "objekt Till Listning inställningar",
 
       updated: "Listning objekt",
@@ -11244,19 +11244,19 @@ export default {
       subtitle: "objekt objekt Kunder sök objekt Listning Gör det möjligt objekt sök objekt Bygga Filter Från objekt Beställnings formulär objekt",
 
       location_title: "Plats sök",
-      location_subtitle: "objekt Kunder Till objekt objekt Plats objekt objekt Radie",
+      location_subtitle: "Tillåt kunder att välja en plats och hitta närliggande resultat inom en konfigurerbar radie.",
       location_enabled_true: "Plats Filtrera objekt aktiverad Kunder objekt sök objekt objekt",
-      location_enabled_false: "Plats Filtrera objekt inaktiverad objekt objekt filter objekt objekt",
+      location_enabled_false: "Platsfiltret är inaktiverat. Resultaten kommer inte att filtreras efter avstånd.",
 
       radius_default: "Standard Radie (objekt)",
-      radius_default_hint: "Begagnade objekt objekt kund Välj objekt Plats objekt objekt Radie",
+      radius_default_hint: "Används när kunden väljer en plats men inte väljer en radie.",
       radius_max: "maximum Radie (objekt)",
-      radius_max_hint: "objekt objekt Radie objekt objekt objekt Till objekt Värde",
+      radius_max_hint: "Skyltfönsterradien kommer att klämmas fast till detta värde.",
       radius_options: "Radie alternativ (objekt)",
-      radius_options_hint: "objekt objekt alternativ objekt objekt objekt UI.",
+      radius_options_hint: "Dessa värden kan visas som snabba alternativ i skyltfönstrets gränssnitt.",
 
       filters_title: "sök Filter",
-      filters_subtitle: "Lägg till Filter objekt läsning objekt Från Artikel objekt objekt (objekt objekt formulär objekt). objekt objekt Till objekt objekt alternativ Från Publicerad Föremål",
+      filters_subtitle: "Lägg till filter som läser värden från objektmetafält (din listnings-/kategoriformulärfält). Använd Autogenerera för att samla in riktiga alternativ från publicerade objekt.",
       no_filters: "Nej Filter Lägg till objekt",
       auto_generate: "objekt alternativ",
 
@@ -11264,7 +11264,7 @@ export default {
       filter_label: "Märka",
       filter_type: "Typ",
       filter_options: "alternativ",
-      filter_options_hint: "objekt Välj Filter, alternativ objekt objekt manuell objekt objekt",
+      filter_options_hint: "För utvalda filter kan alternativen vara manuella eller genererade.",
       multiple: "objekt",
       single: "objekt",
       kv_mode: "objekt läge",
@@ -11333,7 +11333,7 @@ export default {
         "Hösterbjudanden du inte kan motstå",
         "Winter Wonders: Varma erbjudanden för kalla dagar",
         "Slutet av sommaren Clearance Countdown",
-        "objekt objekt objekt: objekt objekt Tillgång",
+        "Black Friday Bonanza: Early Bird Access",
         "Hej helgdagar: Din presentguide och mer",
         "Färska fynd: Nyheter bara för dig",
         "Lojalitet belönad: Exklusiva rabatter inuti",
@@ -12226,27 +12226,27 @@ export default {
         "Artikel Tillbaka objekt objekt",
       ],
       body: [
-        "objekt {buyer_name}, objekt 🛍️ Beställ #{order_id} objekt objekt Bekräftad! objekt objekt Till objekt",
+        "Hej {buyer_name}, din beställning #{order_id} har bekräftats! Vi bearbetar den och kommer att meddela dig när den är redo att skickas.",
 
-        "Bra ny, {buyer_name}! objekt 🛍️ Beställ #{order_id} objekt objekt Skickas objekt objekt konto objekt objekt !",
+        "Goda nyheter, {buyer_name}! Din beställning #{order_id} har skickats. Du kan spåra det via ditt konto. Tack för att du handlar hos oss!",
 
-        "objekt {buyer_name}, objekt 🛍️ Beställ #{order_id} objekt objekt objekt Levereras objekt objekt Köp objekt objekt!",
+        "Hej {buyer_name}, din beställning #{order_id} har levererats. Vi hoppas att du gillar ditt köp. Tack!",
 
-        "objekt {buyer_name}, objekt objekt Mottagen objekt Betalning objekt 🛍️ Beställ #{order_id}. objekt 🛍️ Beställ objekt objekt Skickas objekt",
+        "Hej {buyer_name}, vi har tagit emot betalningen för beställning #{order_id}. Din beställning behandlas nu och kommer att skickas inom kort.",
 
-        "objekt {buyer_name}, objekt objekt Till objekt objekt 🛍️ Beställ #{order_id} objekt objekt , objekt Kontakt Stöd",
+        "Bästa {buyer_name}, vi är ledsna att meddela dig att din beställning #{order_id} har annullerats. Kontakta supporten om du har några frågor.",
 
-        "objekt {buyer_name}, objekt objekt 🛍️ Beställ #{order_id}. objekt objekt Till objekt objekt ",
+        "Bästa {buyer_name}, vi upplever en försening med din beställning #{order_id}. Vi ber om ursäkt för besväret och arbetar för att lösa det så snart som möjligt.",
 
-        "objekt {buyer_name}, objekt 🛍️ Beställ #{order_id} objekt objekt konto objekt Kontakt Stöd objekt objekt Detaljer",
+        "Hej {buyer_name}, din beställning #{order_id} är för närvarande pausad. Kontrollera ditt konto eller kontakta supporten för mer information.",
 
-        "objekt {buyer_name}, objekt 🛍️ Beställ #{order_id} objekt objekt objekt Leverans objekt objekt !",
+        "Hej {buyer_name}, din beställning #{order_id} är ute för leverans och bör nå dig snart. Tack för ditt tålamod!",
 
-        "objekt {buyer_name}, objekt objekt Lämna tillbaka objekt objekt 🛍️ Beställ #{order_id}. objekt objekt , objekt Kontakt Stöd",
+        "Bästa {buyer_name}, vi har behandlat returen för din beställning #{order_id}. Kontakta supporten om du har några frågor.",
 
-        "objekt {buyer_name}, objekt återbetalning objekt 🛍️ Beställ #{order_id} objekt objekt visa objekt objekt konto objekt",
+        "Hej {buyer_name}, din återbetalning för beställning #{order_id} har utfärdats. Du bör se pengarna på ditt konto snart.",
 
-        "objekt {buyer_name}, objekt Artikel Från objekt 🛍️ Beställ #{order_id} objekt Tillbaka objekt objekt! objekt objekt Ny 🛍️ Beställ objekt objekt ",
+        "Hej {buyer_name}, varan från din beställning #{order_id} finns i lager igen! Du kan lägga en ny beställning nu om du fortfarande är intresserad.",
       ],
     },
 
@@ -12267,14 +12267,14 @@ export default {
         "objekt",
       ],
       description: [
-        "objekt objekt objekt Föremål Tycka om objekt, Färg, objekt objekt",
-        "Specifikationer objekt objekt varumärke, objekt, objekt objekt",
-        "objekt, objekt, objekt Typer objekt objekt",
-        "Detaljer objekt objekt, objekt, objekt objekt Produkter",
+        "Attribut för klädesplagg som storlek, färg och tyg.",
+        "Specifikationer för prylar som varumärke, modell och funktioner.",
+        "Smaker, storlekar och typer av drycker.",
+        "Detaljer för måltider, snacks och livsmedelsprodukter.",
         "Material, objekt, objekt objekt objekt",
         "Författare, objekt, objekt objekt objekt",
-        "objekt Typ, objekt, objekt objekt Detaljer",
-        "objekt objekt, objekt, objekt objekt objekt",
+        "Hudtyp, ingredienser och förpackningsdetaljer.",
+        "Åldersgrupp, material och säkerhetsstandarder.",
         "Typ, objekt, objekt Prestanda objekt",
         "objekt, objekt, objekt varumärke Detaljer",
       ],

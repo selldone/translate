@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Sotib olish tarixi",
       subtitle:
-        "Faol va kutilayotgan litsenziyalar.",
+        "Bu faol va kutilayotgan litsenziyalar roʻyxati. Hamyonni moliyalashtirgandan so'ng, bitimlarni sotib olishingiz mumkin. Bundan tashqari, obunani bekor qilganingizda, qolgan obuna miqdori virtual hamyoningizga qaytarilishini unutmang.",
     },
     license_detail: {
       title: "Tafsilotlar",
       subtitle:
-        "Joriy rejangizdagi cheklovlar.",
+        "Bular joriy rejangizning cheklovlari. Batafsil ma'lumot uchun narxlar sahifasiga tashrif buyuring. Biznesingizni boshlash va rivojlantirish uchun barcha tarif rejalaridagi barcha funksiyalardan, jumladan, bepul rejadan kirishingiz mumkin. Biznesingizni kengaytirganda, xizmat haqini pasaytirish uchun yuqori darajadagi rejaga o'tishni o'ylab ko'ring.",
     },
 
     table: {

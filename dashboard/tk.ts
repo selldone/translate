@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Satyn alnan taryh",
       subtitle:
-        "Işjeň we garaşylýan ygtyýarnamalar.",
+        "Bu işjeň we garaşylýan ygtyýarnamalaryň sanawy. Gapjygyňyzy maliýeleşdireniňizden soň şertnamalary satyn alyp bilersiňiz. Mundan başga-da, abunalygy ýatyranyňyzda galan abuna mukdary wirtual gapjygyňyza gaýtaryljakdygyny ýadyňyzdan çykarmaň.",
     },
     license_detail: {
       title: "Jikme-jiklikler",
       subtitle:
-        "Häzirki meýilnamaňyzyň çäkleri.",
+        "Bular häzirki meýilnamaňyzyň çäklendirmeleri. Has giňişleýin maglumat üçin nyrh sahypasyna girmegiňizi haýyş edýäris. Işiňizi başlamak we ösmek üçin mugt meýilnama ýaly ähli meýilnamalar boýunça ähli aýratynlyklara girip bilersiňiz. Işiňizi giňeldeniňizde, hyzmat tölegleriňizi arzanlatmak üçin has ýokary derejeli meýilnama täzelemegi göz öňünde tutuň.",
     },
 
     table: {

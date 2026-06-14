@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Stoor aktiewe toepassings",
         subtitle:
-          "Bestuur jou besigheidstoepassings.",
+          "Ontdek die gemak van die bestuur van jou besigheidstoepassings met Selldone App Store. Ons platform bied 'n omvattende reeks gereedskap wat ontwerp is om u besigheidsbedrywighede te optimaliseer. Van innoverende bestuursoplossings tot toepassings wat produktiwiteit bevorder, bied Selldone 'n naatlose ervaring vir besighede wat doeltreffendheid en groei soek.",
         all: "almal",
       },
       /** {@see BAppShopStore} **/
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Gekoopte geskiedenis",
       subtitle:
-        "Aktiewe en hangende lisensies.",
+        "Dit is 'n lys van aktiewe en hangende lisensies. Jy kan transaksies koop nadat jy jou beursie gefinansier het. Neem ook asseblief kennis dat wanneer jy 'n intekening kanselleer, die oorblywende intekeningbedrag na jou virtuele beursie teruggestuur sal word.",
     },
     license_detail: {
       title: "Besonderhede",
       subtitle:
-        "Beperkings op jou huidige plan.",
+        "Dit is die beperkings van u huidige plan. Vir meer besonderhede, besoek asseblief die prysbladsy. Jy het toegang tot alle kenmerke oor alle planne, insluitend die gratis plan, om jou besigheid te begin en te groei. Terwyl jy jou besigheid skaal, oorweeg dit om op te gradeer na 'n hoër vlak plan om jou diensfooie te verlaag.",
     },
 
     table: {
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "My Verkopers",
     message:
-      "Lys van my eie verkopers.",
+      "Dit is 'n lys van jou verskaffer rekeninge. Alle verkoperrekeninge wat verband hou met winkels wat die Selldone-platform gebruik, sal hier vertoon word, sodat jy dit met gemak kan bestuur.",
   },
 
   vendor_page: {},

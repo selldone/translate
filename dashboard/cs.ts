@@ -250,7 +250,7 @@ export default {
   /** {@see Helps} **/
 
   helps: {
-    title: "Selldone pojem pojem",
+    title: "Prodané centrum nápovědy",
     subtitle:
       "Vítejte v destinaci Selldone. Pokud stavíte nový internetový obchod na firemním OS, více informací naleznete zde.",
 
@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Akviziční kanály",
         subtitle:
-          "váš podnikání je pojem. pojem je pojem zpráva z váš zákazník akvizice kanály.",
+          "Vaše podnikání roste. Zde je přehled vašich kanálů akvizice zákazníků.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -594,7 +594,7 @@ export default {
       menu_export: "Exportujte produkty",
       menu_import: "Importujte produkty",
       drop_import_message:
-        "pustit produkty seznam soubor (CSV, XLS, XLSX pojem) pojem k začátek přidat pojem produkty. pojem to pojem soubor má pojem Selldone produkty seznam pojem.",
+        "Sem přetáhněte soubor se seznamem produktů (formát CSV, XLS, XLSX) a začněte přidávat hromadné produkty. Ujistěte se, že soubor má formát seznamu prodaných produktů.",
 
       menu_advanced_options: "Pokročilé možnosti",
       menu_advanced_options_description:
@@ -606,12 +606,12 @@ export default {
       },
       products_api: {
         title: "API produktů",
-        subtitle: "importovat produkty pojem pojem pojem pojem API pojem.",
+        subtitle: "Import produktů prostřednictvím veřejně přístupného volání API.",
       },
       google_sheet: {
         action: "Propojený list",
         tooltip:
-          "pojem produkty v toto obchod jsou odkaz k pojem Google list v Google pojem.",
+          "Produkty v tomto obchodě jsou propojeny s Tabulkou Google na Disku Google.",
       },
       show_deletes: {
         false_title: "Skrýt smazané",
@@ -630,7 +630,7 @@ export default {
         false_description:
           "zobrazit produkty pojem podle kategorie a pojem.",
         true_title: "Tabulkový režim",
-        true_description: "zobrazit produkty v pojem pojem tabulka pojem.",
+        true_description: "Prohlédněte si produkty v podrobném rozložení tabulky.",
       },
 
       show_notes: {
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS produktů",
         subtitle:
-          "pojem toto RSS kanál k pojem pojem pojem seznam z vše produkty.",
+          "Využijte tento RSS kanál k udržování aktuálního seznamu všech produktů.",
       },
       api_dialog: {
         title: "API produktů",
         subtitle:
-          "pojem toto API kanál k pojem váš produkt seznam pojem. to pojem pojem pojem pojem API k pojem produkty od váš obchod, pojem to pojem pro produkt výpis a pojem pojem.",
+          "Pomocí tohoto zdroje API udržujte svůj seznam produktů aktuální. Poskytuje veřejně přístupné API pro načítání produktů z vašeho obchodu, takže je ideální pro seznamy produktů a srovnávací weby.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "doprava pojem",
         subtitle:
-          "vy může pojem pojem k pojem to pouze zákazníci pojem pojem pojem doprava pojem může vydělat pojem od vy!",
+          "Můžete zavést omezení, abyste zajistili, že u vás budou moci nakupovat pouze zákazníci v určených oblastech dopravy!",
         no_enable_shipping_error:
-          "ne pojem může pojem od vy pojem vy mít ne povoleno doprava pojem!",
+          "Nikdo u vás nemůže nakupovat, protože nemáte povolený způsob dopravy!",
         customer_must_select_a_shipping_msg:
-          "zákazník pojem vybrat pojem doprava pojem k pojem objednávka.",
+          "Zákazník musí vybrat způsob dopravy pro zadání objednávky.",
         customer_can_order_without_shipping_method_msg:
-          "zákazník může pojem pojem objednávka pojem pokud ne doprava pojem pojem pro pojem vybrané umístění.",
+          "Zákazník může zadat objednávku, i když pro vybrané místo není podporován žádný způsob dopravy.",
         inputs: {
           restriction: {
             false_description:
-              "zákazníci může pojem pojem objednávky pojem pokud ne pojem doprava pojem má bylo vybrané.",
+              "Zákazníci mohou stále zadávat objednávky, i když nebyl zvolen žádný konkrétní způsob dopravy.",
             false_title: "přijmout vše objednávky",
             true_title: "pojem přijmout objednávka",
             true_description:
-              "zákazníci jsou povinné k zvolit pojem pojem doprava nebo vyzvednutí možnost v objednávka k pojem jejich pojem.",
+              "Zákazníci si k dokončení nákupu musí vybrat buď dopravu, nebo možnost vyzvednutí.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Nastavte si sklad, obchod nebo původ svého podnikání. Je důležité mít při výpočtu nákladů na dopravu a procesu platby.",
       no_multi_warehouse_support_message:
-        "pro pojem, toto pojem je ne dostupné v pojem obchod.",
+        "Pro zjednodušení není tato funkce v běžných obchodech dostupná.",
       size_unit: {
         title: "Jednotka velikosti",
         subtitle: "Jednotka použitá pro délku, šířku a výšku.",
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "vzdálenost pojem",
-        subtitle: "pojem pojem pojem pro vzdálenost.",
+        subtitle: "Jednotka používaná pro vzdálenost.",
       },
 
       menu: {
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Ukládat aktivní aplikace",
         subtitle:
-          "pojem pojem pojem z pojem váš podnikání pojem s Selldone pojem obchod. pojem pojem nabídka pojem pojem pojem z pojem design k pojem váš podnikání pojem. od pojem správa pojem k pojem pojem, Selldone pojem pojem pojem pojem pro pojem pojem pojem a pojem.",
+          "Objevte snadnost správy vašich podnikových aplikací pomocí Selldone App Store. Naše platforma nabízí komplexní sadu nástrojů navržených pro optimalizaci vašich obchodních operací. Od inovativních řešení pro správu až po aplikace zvyšující produktivitu, Soldone poskytuje bezproblémové prostředí pro podniky, které hledají efektivitu a růst.",
         all: "Všechno",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "favicon",
           subtitle:
-            "favicon jsou pojem, pojem obrázky to pojem pojem pojem v pojem pojem, pojem, a pojem pojem pojem.",
+            "Favicony jsou malé ikonické obrázky, které představují web na kartách prohlížeče, záložkách a rozhraních mobilních aplikací.",
         },
       },
 
@@ -1434,11 +1434,11 @@ export default {
       product_code: "Kód produktu (anglicky)",
       sku: {
         label: "SKU",
-        message: "pojem pojem pojem",
+        message: "Skladová jednotka",
       },
       mpn: {
         label: "MPN",
-        message: "pojem pojem pojem",
+        message: "Číslo dílu výrobce",
       },
 
       external_link: "Externí odkaz",
@@ -1486,55 +1486,55 @@ export default {
 
       category: {
         subtitle:
-          "pojem pojem kategorie a název k být zobrazeno v váš výpis.",
+          "Nakonfigurujte kategorii a název, které se budou zobrazovat ve vašem záznamu.",
       },
       unit: {
         subtitle:
-          "vy může pojem pojem pojem z ceny a pojem pojem na pojem produkt stránka.",
+          "Zobrazení cen a prvků výzvy k akci na stránce produktu si můžete přizpůsobit.",
       },
       custom_pricing: {
         title: "vlastní ceny formulář",
         subtitle:
-          "vy může vytvořit nebo pojem pojem pojem (pojem ceny vstup formulář) k pojem produkt, a váš zákazníci může vybrat mezi varianty nebo pojem váš pojem podle pojem pojem vstup formulář.",
+          "Můžete vytvořit nebo přiřadit ocenění (cenový vstupní formulář) k produktu a vaši zákazníci si mohou vybrat mezi variantami nebo přizpůsobit vaše zboží pomocí intuitivního vstupního formuláře.",
         valuation_need_saved_product_message:
-          "prosím uložit pojem produkt první, a pojem vy může pojem pojem pojem pojem.",
+          "Nejprve uložte produkt a poté můžete přiřadit model ocenění.",
         assign_valuation_message:
-          "prosím pojem pojem pojem pojem k toto produkt.",
+          "Přiřaďte tomuto produktu model ocenění.",
         edit_pricing_action: "upravit ceny formulář",
         add_pricing_action: "vytvořit nový ceny formulář",
       },
       action: {
-        title: "vlastní pojem pojem",
+        title: "Vlastní tlačítko koupit",
         message:
-          "vy může pojem ikona podle pojem toto pojem: {icon name} pojem...",
-        placeholder: "pojem pojem k akce...",
-        multi_language_dialog_title: "vlastní pojem pojem pojem",
+          "Ikonu můžete změnit podle tohoto vzoru: {icon name} titulek...",
+        placeholder: "Zadejte výzvu k akci...",
+        multi_language_dialog_title: "Vlastní popisek tlačítka nákupu",
       },
       external: {
         not_available_message:
-          "extra akce dostupné s společnost & pojem pojem.",
+          "Extra akce dostupná s licencemi Company & Enterprise.",
         available_message: "vy může přidat pojem extra externí pojem k akce.",
-        input_label: "pojem pojem k akce",
+        input_label: "Druhá výzva k akci",
       },
       warehouse: {
         subtitle:
-          "toto informace je pojem podle pojem sklad správa pojem a pojem k pojem pojem pojem produkt.",
+          "Tyto informace využívá systém řízení skladu a slouží ke globální identifikaci produktu.",
       },
       gtin: {
-        hint: "pojem pojem jsou UPC (pojem pojem, 12 pojem), EAN (pojem, 13 pojem), JAN (pojem, 8 nebo 13 pojem), ISBN (pojem, 13 pojem).",
-        label: "produkt pojem pojem položka pojem",
-        placeholder: "pojem pojem pojem pojem.. (volitelné)",
+        hint: "Podporované hodnoty jsou UPC (Severní Amerika, 12 číslic), EAN (Evropa, 13 číslic), JAN (Japonsko, 8 nebo 13 číslic), ISBN (knihy, 13 číslic).",
+        label: "Globální číslo obchodní položky produktu",
+        placeholder: "Globální obchodní číslo zde.. (Volitelné)",
       },
       hsn: {
-        hint: "HSN, nebo pojem pojem z pojem, je pojem pojem pojem klasifikace pojem pro pojem pojem a produkty.",
+        hint: "HSN neboli Harmonizovaný systém nomenklatury je mezinárodně standardizovaný klasifikační systém pro kategorizaci zboží a produktů.",
         placeholder: "6~16 pojem HSN kód.. (volitelné)",
         label: "HSN",
       },
       condition: {
         label: "produkt pojem v váš obchod",
-        message: "prosím zvolit pojem pojem z toto produkt.",
+        message: "Vyberte prosím stav tohoto produktu.",
         subtitle:
-          "pojem váš zákazníci pojem pojem pojem a pojem z pojem produkt pojem nabídka.",
+          "Informujte své zákazníky o stavu a značce produktu, který nabízíte.",
       },
       brand: {
         label: "Značka",
@@ -1542,25 +1542,25 @@ export default {
       },
       warranty: {
         subtitle:
-          "nastavit pojem pojem a produkt stav, jako toto informace pojem pojem bude být zobrazeno k pojem zákazník a pojem pojem pojem čas pojem pojem pojem produkty může být vráceno po pojem.",
+          "Nastavte záruku a stav produktu, protože tyto informace týkající se záruky se zobrazí zákazníkovi a pomohou stanovit časový rámec, ve kterém lze produkty po zakoupení vrátit.",
 
         label: "pojem",
-        placeholder: "pojem 24 pojem pojem.. (volitelné)",
+        placeholder: "Zlatá záruka 24 měsíců.. (Volitelné)",
       },
       status: {
         title: "Postavení",
         subtitle:
-          "pojem produkt stav pojem to pojem online a pojem. k vydělat pojem produkt pojem, pojem pojem to stav k 'pojem..",
+          "Stav produktu určuje jeho dostupnost online a v obchodě. Chcete-li vytvořit koncept produktu, přepněte jeho stav na „Neaktivní“.",
       },
       profiles: {
         title: "Profily",
         subtitle:
-          "vy může pojem pojem, vrácení pojem, doprava, a pojem a pojem je k toto produkt. to bude být zobrazeno jako nový pojem na pojem produkt stránka.",
+          "Můžete definovat záruku, zásady vrácení, dopravu a průvodce a přiřadit je k tomuto produktu. Zobrazí se jako nové karty na stránce produktu.",
       },
       shortcuts: {
         title: "pojem produkt k dodatečné kategorie",
         subtitle:
-          "toto pojem pojem vy k seznam pojem produkt v pojem kategorie pojem pojem to pojem v pojem primární kategorie nastavit pojem produkt > upravit > kategorie. pojem, to pojem pojem k pojem 'pojem v pojem pojem, pojem pojem produkt k pojem v dodatečné pojem kategorie.",
+          "Tato funkce umožňuje zařadit produkt do více kategorií a zároveň zachovat jeho umístění v primární kategorii nastavené v části Produkt > Upravit > Kategorie. V podstatě funguje podobně jako vytváření „zástupců“ v operačních systémech, což umožňuje, aby se produkt objevil v dalších specifikovaných kategoriích.",
       },
     },
 
@@ -1635,26 +1635,26 @@ export default {
     edit_spec: {
       title: "Technické specifikace",
       subtitle:
-        "pojem produkt pojem pojem. toto informace bude být zobrazeno k zákazníci a může pojem být pojem v pojem kategorie pojem pojem pojem.",
+        "Zde vložte specifikace produktu. Tyto informace se zobrazí zákazníkům a lze je také využít v systému inteligentního filtrování kategorie.",
       manual: {
         title: "pojem",
         subtitle:
-          "přidat produkt pojem pojem podle pojem pojem a pojem pojem.",
+          "Přidejte specifikace produktu ručně definováním skupin a páru klíč–hodnota.",
         add_group_action: "Přidat skupinu",
-        add_item_action: "přidat pojem pojem",
+        add_item_action: "Přidejte hodnotu specifikace",
       },
       import: {
         subtitle:
-          "vy může importovat pojem pojem z pojem produkty.",
+          "Můžete importovat technické specifikace podobných produktů.",
         action_title: "importovat",
-        action_subtitle: "pojem pojem od pojem produkt.",
+        action_subtitle: "Specifikace klonu z jiného produktu.",
       },
       ai: {
         title: "AI",
         subtitle:
-          "vy může automaticky vytvořit produkt pojem podle pojem pojem produkt pojem data v pojem formulář.",
+          "Specifikace produktu můžete vytvořit automaticky odesláním nezpracovaných dat produktu v textové podobě.",
         action_title: "automaticky pojem podle AI",
-        action_subtitle: "vytvořit produkt pojem podle pojem pojem.",
+        action_subtitle: "Vytvořte specifikace produktu pomocí abstraktní výzvy.",
       },
 
       group_input_header: "Přidat skupinu",
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Kód produktu: P0000...",
         spec_view_title: "Specifikace vybraného produktu",
         spec_view_subtitle:
-          "pojem pojem mít bylo importovat od pojem pojem produkt.",
+          "Specifikace byly importovány z vybraného produktu.",
         set_spec_action: "Duplicitní technické specifikace",
       },
       notifications: {
@@ -1691,26 +1691,26 @@ export default {
         prompt: {
           title: "produkt pojem",
           subtitle:
-            "prosím pojem pojem pojem a pojem popis z pojem produkt, pojem to klíč pojem a detaily. toto informace bude být pojem k automaticky pojem pojem produkt pojem.",
+            "Uveďte prosím stručný a jasný popis produktu se zdůrazněním jeho klíčových vlastností a podrobností. Tyto informace budou použity k automatickému vygenerování specifikací produktu.",
         },
         generated_spec: {
-          title: "pojem pojem",
+          title: "Specifikace generované AI",
           subtitle:
-            "pojem pojem pojem pojem podle pojem pojem.",
+            "Tyto specifikace byly generovány umělou inteligencí.",
         },
         inputs: {
           prompt: {
             label: "produkt detaily",
-            placeholder: "pojem pojem produkt pojem...",
+            placeholder: "Zde popište produkt...",
           },
         },
         actions: {
           run: {
-            title: "pojem pojem",
+            title: "Generovat specifikace",
             subtitle:
-              "pojem k automaticky vytvořit produkt pojem od pojem pojem pojem.",
+              "Kliknutím automaticky vytvoříte specifikace produktu z poskytnutého přehledu.",
           },
-          add_generated_spec: "přidat pojem pojem",
+          add_generated_spec: "Přidejte vygenerované specifikace",
         },
       },
     },
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "pozadí popis",
-            placeholder: "pojem pojem pojem pozadí...",
+            placeholder: "Popište požadované pozadí...",
           },
         },
         actions: {
           reimagine: {
             title: "pojem nový obrázek",
-            subtitle: "pojem pojem pojem obrázek s pojem nový pozadí.",
+            subtitle: "Znovu si představte celý obrázek s novým pozadím.",
           },
           replace: {
-            subtitle: "pojem pojem pojem pozadí.",
+            subtitle: "Nahraďte stávající pozadí.",
           },
         },
       },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "pojem pojem tržiště, pojem primární produkt ceny zobrazeno je pojem výpis cena, pojem pojem pojem cena je pojem pojem na pojem pojem pojem pojem.",
+          "Na trhu je primární zobrazenou cenou produktu katalogová cena, zatímco skutečná cena je určena na základě záznamů o vztahu mezi dodavatelem a produktem.",
         subscription:
-          "pro pojem, pouze pojem výpis cena je zobrazeno, pojem pojem pojem pojem bude být pojem pojem na pojem vybrané pojem pojem.",
+          "U předplatného se zobrazuje pouze nabídková cena, zatímco skutečná cena bude určena na základě vybraného plánu předplatného.",
         service:
-          "pro pojem produkty, pojem seznam ceny je pojem pro pojem pojem, pojem pojem pojem pojem z pojem služba. pojem pojem služba cena bude být pojem podle vy pojem pojem zákazník má pojem jejich objednávka (pojem pojem).",
-        file: "toto pojem k pojem seznam a pojem cena z pojem soubor, pojem zákazníci pojem pojem v objednávka k pojem přístup k pojem soubory.",
+          "U produktů založených na službách jsou uvedené ceny pouze pro účely zobrazení a poskytují odhadované náklady na službu. Skutečnou cenu služby určíte vy, jakmile zákazník zadá svou objednávku (při placení).",
+        file: "To se týká uvedené a skutečné ceny souboru, kterou musí zákazníci zaplatit, aby získali přístup k souborům.",
         default:
-          "toto pojem k pojem produkt seznam cena a pojem pojem pojem účet pojem cena z pojem varianty to pojem ne mít pojem ceny.",
+          "Toto se vztahuje na uvedenou cenu produktu a také bere v úvahu cenu všech variant, které nemají samostatné ceny.",
       },
       extra_pricings: {
         title: "přidat extra ceny",
-        subtitle: "pojem pojem ceny pojem na pojem pojem.",
+        subtitle: "Implementujte dynamické stanovení cen na základě množství nákupu.",
       },
 
       vendor: {
         title: "prodejce ceny",
         subtitle:
-          "toto cena bude být zobrazeno pouze v pojem produkty výpis. vy může nastavit prodejce cena v pojem produkt > prodejci pojem.",
+          "Tato cena bude uvedena pouze v nabídce produktů. Cenu dodavatele můžete nastavit na kartě Produkt > Dodavatelé.",
         manage_vendors: "spravovat prodejci",
         vendor_product_pricing_link:
-          "pojem prodejce produkt ceny je pojem. pojem pojem výpis cena pojem bude pojem prodejce produkty pojem varianty nebo pojem s varianty to pojem mít jejich pojem ceny (pojem pojem pojem cena jako pojem hlavní produkt). toto cena bude být pojem jako pojem tržiště cena, a pojem prodejce cena bude být nastavit pojem na pojem ceny pojem nebo pojem pojem tržiště pojem pojem.",
+          "Ceny produktů prodejce jsou propojeny. Změna katalogové ceny zde ovlivní produkty dodavatele bez variant nebo produkty s variantami, které nemají vlastní cenu (za použití stejné ceny jako u hlavního produktu). Tato cena bude považována za tržní cenu a cena prodejce bude stanovena na základě cenového modelu nebo předchozí ziskové marže na trhu.",
         vendor_variant_pricing_link:
-          "pojem pojem varianta cena pojem bude pojem pojem ceny z prodejce produkty s pojem pojem varianta. toto cena bude být pojem pojem tržiště cena, a pojem prodejce cena bude být nastavit pojem k pojem ceny pojem nebo pojem pojem tržiště pojem pojem.",
+          "Změna ceny varianty zde ovlivní ceny produktů dodavatele se stejnou variantou. Tato cena bude považována za tržní cenu a cena prodejce bude stanovena podle cenového modelu nebo předchozího ziskového rozpětí na trhu.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Tato zpráva se zákazníkovi zobrazí při nákupu produktů.",
       inputs_form: "Informační struktura (vstup)",
       inputs_hint:
-        "vy mít pojem možnost k nastavit pojem pojem pojem formulář k pojem detaily od váš zákazníci pojem pojem pojem k pojem pojem objednávka.",
+        "Máte možnost nastavit personalizovaný formulář ke shromažďování podrobností od vašich zákazníků, když jsou připraveni zadat objednávku.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,10 +1837,10 @@ export default {
       order_limit: {
         title: "objednávka limity",
         subtitle:
-          "pokud pojem pojem pojem nebo pojem pojem minimum nebo maximum limit na pojem pojem z toto položka pojem objednávka, vy může pojem to pojem.",
+          "Pokud jste velkoobchod nebo existuje minimální nebo maximální limit na množství této položky na objednávku, můžete to zadat zde.",
         no_limit: "ne limit",
-        minimum_purchase_quantity: "minimum pojem pojem",
-        maximum_purchase_quantity: "maximum pojem pojem",
+        minimum_purchase_quantity: "Minimální množství nákupu",
+        maximum_purchase_quantity: "Maximální množství nákupu",
       },
     },
 
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Odstraňte produkt",
       message: "Chcete smazat <b>{product_title}</b>?",
-      tips: "pokud vy pojem smazat pojem produkt, vy může pojem to podle pojem k váš obchod > produkty, pojem pojem pojemé položky, a pojem pojem na pojem produkt, a vybrat obnovit.",
+      tips: "Pokud omylem smažete produkt, můžete jej obnovit tak, že přejdete do svého Obchodu > Produkty, povolíte Zobrazit smazané položky a poté kliknete pravým tlačítkem na produkt a vyberete Obnovit.",
     },
   },
 
@@ -1860,17 +1860,17 @@ export default {
   extra_pricing_add_dialog: {
     title: "extra ceny pro pojem {min}",
     subtitle:
-      "pojem pojem automaticky pojem pojem objednávka a pojem pro cena pojem. prosím vstup pojem minimum pojem povinné pro toto ceny k pojem pojem.",
+      "Systém automaticky určí pořadí a prioritu pro kalkulaci ceny. Zadejte prosím minimální množství požadované k tomu, aby tato cena vstoupila v platnost.",
     min_quantity: "Minimální kvantita",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "pojem pro pojem produkty je nastavit podle pojem, a pojem být pojem pojem.",
+        "Inventář pro produkty typu dropshipping nastavují velkoobchodníci a nelze je zde upravovat.",
       marketplace:
-        "pojem pojem produkt pojem v pojem tržiště je pojem podle přidat pojem pojem pojem z vše prodejci. vy pojem pojem to pojem.",
-      default: "pojem pojem produkt pojem pojem pojem.",
+        "Celková zásoba produktů na trhu je určena sečtením zásob všech dodavatelů. Zde to nemůžete upravit.",
+      default: "Zde zadejte počet zásob produktu.",
     },
     menu: {
       add_bulk: {
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google produkt kategorie kód",
-    hint: "pojem pojem kategorie z váš produkt pojem k pojem Google'pojem produkt pojem.",
+    hint: "Představuje kategorii vašeho produktu podle taxonomie produktů Google.",
     placeholder: "pojem produkt nebo služba kategorie.. (volitelné)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "pojem",
-      desc: "pojem pojem je pojem z pojem pojem pojem pojem pojem pojem k pojem nebo pojem pojem produkt pojem pojem pojem pojem. toto pojem může pojem pojem k pojem pojem pojem ne mít pojem pojem pojem s pojem pojem.",
+      desc: "Záruka je součástí smlouvy, kde výrobce slibuje opravu nebo výměnu výrobku ve stanovené lhůtě. Tento závazek se může rozšířit i na spotřebitele, kteří nemají přímou smlouvu s výrobcem.",
     },
     RETURN_POLICY: {
       title: "vrácení pojem",
-      desc: "vrácení pojem pojem pojem zákazníci může vrácení nebo pojem pojem pojem. pojem pojem pojem položky, pojem pojem pro vrácení, a pojem pojem pro pojem vrácení.",
+      desc: "Zásady vrácení uvádějí, jak mohou zákazníci vrátit nebo vyměnit nechtěné zboží. Uvádějí způsobilé položky, přijatelné důvody pro vrácení a časový rámec pro vrácení.",
     },
     GUIDE: {
       title: "pojem",
-      desc: "pojem pojem pojem pojem pojem velikost pojem pro pojem nebo pojem pojem pojem pro pojem. to pojem to pojem jsou pojem a pojem pojem pojem produkty.",
+      desc: "Průvodce může obsahovat tabulku velikostí pro oblečení nebo průvodce výběrem diamantů. Je důležité, aby příručky byly univerzální a použitelné pro více produktů.",
     },
     SHIPPING: {
       title: "Lodní doprava",
-      desc: "pojem doprava pojem detaily pojem klíč pojem z doprava pro online objednávky, pojem doprava pojem, pojem, a pojem doručení čas.",
+      desc: "Zásady dopravy podrobně popisují klíčové aspekty dopravy pro online objednávky, včetně nákladů na dopravu, metod a odhadovaných dodacích lhůt.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "pojem správa",
     subtitle:
-      "vytvořit pojem, pojem, a pojem pojem pojem.",
+      "Vytvářejte personalizovaná, inteligentní a interaktivní vyskakovací okna.",
     add_action: "přidat nový pojem",
   },
 
@@ -1941,7 +1941,7 @@ export default {
       default: "Výchozí",
       dedicated: "vyhrazené",
 
-      subscription: "my může použít daň pouze na pojem platba pojem pojem.",
+      subscription: "Daň můžeme uplatnit pouze v kroku vytvoření platby.",
       is_disabled: "toto daň profil je zakázáno! (⚠️varování)",
       shipping: "Lodní doprava",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "daň profil",
       subtitle:
-        "vy může pojem pojem daň pojem k pojem produkt. pojem pojem daň profil ne být pojem pro pojem produkt, pojem výchozí obchod daň pojem bude pojem být pojem.",
+        "K produktu můžete přiřadit konkrétní daňové předpisy. Pokud pro produkt nevyberete daňový profil, použijí se výchozí předpisy o dani z obchodu.",
 
       action_manage: "spravovat daň",
       action_manage_sub: "obchod > pojem > daň",
 
       subscription_tips:
-        "pojem vy vybrat pojem daň profil pro pojem produkt, my aktualizovat<code>daň kód</code> a nastavit pojem/pojem režim na váš platba služba poskytovatel. pojem vybrané daň profil pojem pojem pojem cena je pojem pojem z pojem nebo pojem z pojem. pojem z <code>pojem</code> nebo <code>pojem</code>. pojem pojem jako pojem pojem nebo pojem, to pojem být pojem.<br /><br /><b>pojem!</b> po pojem pojem daň profil, vy pojem pojem na ceny pojem na pojem produkt > pojem pojem a pojem pojem uložit pojem k použít pojem.",
+        "Když vyberete daňový profil pro předplacený produkt, aktualizujeme <code>daňový kód</code> a nastavíme u vašeho poskytovatele platebních služeb režim zahrnující/exkluzivní. Vybraný daňový profil určuje, zda je cena považována za včetně daní nebo bez daní. Jeden z <code>včetně</code> nebo <code>exclusive</code>. Jakmile je zadáno jako zahrnující nebo exkluzivní, nelze jej změnit.<br /><br /><b>Důležité!</b> Po změně daňového profilu byste měli kliknout na cenové plány na kartě Produkt > Zásoby a kliknutím na tlačítko Uložit změny aplikujte.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "pojem cena a pojem z toto produkt jsou nastavit podle pojem pojem prodejce k pojem to pojem.",
+        "Cena a množství tohoto produktu jsou stanoveny konkrétním prodejcem, kterému patří.",
     },
     vendors: {
       subtitle:
-        "pojem pojem seznam z pojem pro pojem produkt. pojem pojem a cena bude být nastavit podle pojem pojem.",
+        "Zde je seznam dodavatelů produktu. Množství a cenu určí dodavatelé.",
     },
   },
   /**
@@ -1988,7 +1988,7 @@ export default {
       page: "stránka šablona",
       shipping: "Lodní doprava",
       access: "Přístup",
-      critical_zone: "pojem pojem",
+      critical_zone: "Kritická zóna",
     },
 
     profile: {
@@ -1996,7 +1996,7 @@ export default {
       subtitle: "toto informace je zobrazeno k zákazníci pojem.",
       action_sub_caption: "veřejné produkty výpis stránka.",
       action_see_listing_page: "zobrazit výpis stránka",
-      send_invitation_email: "pojem pojem e-mail",
+      send_invitation_email: "Odeslat e-mail s pozvánkou",
       invitation_link: "pojem odkaz",
     },
 
@@ -2006,12 +2006,12 @@ export default {
     },
     map: {
       no_map_message:
-        "pojem pojem umístění k pojem prodejce pokud to pojem pojem prodejce.",
+        "Přiřaďte dodavateli umístění, pokud se jedná o dodavatele založeného na umístění.",
     },
     page: {
       title: "vlastní stránka",
       subtitle:
-        "nastavit pojem vlastní pojem stránka pro pojem prodejce, pojem je s pojem pojem odkaz k jejich vyhrazené stránka.",
+        "Nastavte pro dodavatele vlastní vstupní stránku a poskytněte mu jedinečný odkaz na jeho vyhrazenou stránku.",
       action_set_page: "zobrazit veřejné stránka",
       action_sub_caption: "vlastní pojem stránka.",
       vendor_has_landing_msg: "prodejce má pojem vlastní pojem stránka.",
@@ -2022,12 +2022,12 @@ export default {
     },
     contact: {
       title: "pojem informace",
-      subtitle: "pojem pojem platné pojem detaily.",
+      subtitle: "Uveďte prosím platné kontaktní údaje.",
     },
     business: {
       title: "podnikání informace",
       subtitle:
-        "prosím pojem pojem informace pojem váš podnikání k pojem pojem pojem a pojem pojem pojem pojem.",
+        "Uveďte prosím přesné informace o své firmě, abyste zajistili rychlý a bezproblémový proces výběru příjmů.",
     },
     bank: {
       title: "výplata informace",
@@ -2036,7 +2036,7 @@ export default {
     default_pricing: {
       title: "výchozí ceny",
       subtitle:
-        "vy může pojem pojem výchozí ceny pojem pro pojem prodejce. pojem pojem prodejce přidat pojem nový produkt, toto ceny pojem bude být pojem k pojem pojem tržiště pojem na pojem produkt cena. vy může pojem pojem pojem ceny pojem pro pojem produkt pojem.",
+        "Dodavateli můžete přiřadit výchozí cenový model. Když prodejce přidá nový produkt, tento cenový model se použije k výpočtu tržní marže z ceny produktu. Cenový model můžete později upravit pro každý produkt individuálně.",
       no_pricing: "ne ceny",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "prodejci může pojem jejich pojem doprava služby a kurýři.",
       shipping_services: "doprava služby",
       total_number_of_services:
-        "pojem celkem pojem z doprava služby to pojem prodejce má.",
+        "Celkový počet přepravních služeb, které má prodejce.",
       couriers: "Kurýři",
-      total_couriers_count: "pojem celkem pojem z kurýři to pojem prodejce má.",
+      total_couriers_count: "Celkový počet kurýrů, které má prodejce.",
     },
     configuration: {
       title: "konfigurace",
@@ -2055,17 +2055,17 @@ export default {
       title: "odstranit prodejce",
       action: "odstranit prodejce",
       verify_description:
-        "já pojem to vše prodejce produkt pojem bude být pojem!",
+        "Vím, že všechny vztahy s produktem dodavatele budou odstraněny!",
       verify_title: "já chcete k smazat toto prodejce.",
     },
 
     send_invitation_tips:
-      "my bude pojem pojem pojem e-mail k toto uživatel. pokud pojem uživatel pojem váš obchod jako pojem prodejce, jejich účet bude být automaticky pojem k je.",
+      "Tomuto uživateli zašleme e-mail s pozvánkou. Pokud se uživatel připojí k vašemu obchodu jako prodejce, bude mu automaticky přiřazen jeho účet.",
     only_marketplace_owner_can_edit_user:
-      "pouze pojem tržiště pojem může upravit pojem uživatel. pokud vy chcete k pojem pojem pojem z toto prodejce, vy může pojem pojem pojem k pojem.",
+      "Uživatele může upravovat pouze vlastník tržiště. Pokud chcete změnit vlastníka tohoto dodavatele, můžete nám poslat žádost.",
     vendor_is_disable_msg: "prodejce je zakázáno.",
     email_not_match_with_user_msg:
-      "pojem e-mail pojem ne pojem s uživatel e-mail (<b>{user_name}:</b>{user_email}). jsou vy pojem k pojem e-mail k<b>{email}</b>?",
+      "Zadaný e-mail se neshoduje s e-mailem uživatele (<b>{user_name}:</b>{user_email}). Opravdu chcete posílat e-maily na adresu <b>{email}</b>?",
 
     order_information_email_to_email:
       "my bude pojem objednávky informace k <b>{email}</b>.",
@@ -2075,57 +2075,57 @@ export default {
     inputs: {
       slug: {
         label: "pojem",
-        placeholder: "pojem pojem vlastní pojem...",
-        hint: "pojem pojem pojem pojem prodejce pojem pojem stránka.",
+        placeholder: "Zadejte vlastní cestu...",
+        hint: "Změňte cestu k dynamické vstupní stránce dodavatele.",
       },
       email: {
         message: "toto e-mail bude pojem vše pojem a aktualizovat.",
       },
       business: {
-        false_description: "já pojem jako pojem pojem.",
-        true_description: "já pojem jako pojem pojem pojem podnikání pojem.",
+        false_description: "Pracuji jako jednotlivec.",
+        true_description: "Působím jako právně uznaný podnikatelský subjekt.",
         false_title: "pojem",
         true_title: "podnikání",
       },
       bank: {
-        hint: "pojem pojem z pojem banka pojem pojem prodejce má jejich účet.",
+        hint: "Název banky, kde má prodejce účet.",
         placeholder: "váš banka pojem..",
       },
       account_name: {
-        hint: "toto pojem pojem pojem pojem pojem s pojem banka účet.",
+        hint: "To by se mělo shodovat se jménem přidruženým k bankovnímu účtu.",
         placeholder: "váš pojem..",
       },
       account_number: {
-        hint: "pojem prodejce pojem účet pojem.",
+        hint: "Jedinečné číslo účtu dodavatele.",
         placeholder: "váš banka účet pojem..",
       },
       routing_number: {
-        hint: "toto pojem pojem podle země. to pojem k pojem pojem pojem banka pojem pojem prodejce pojem.",
-        placeholder: "váš banka pojem pojem, pojem kód, nebo BSB pojem..",
+        hint: "Toto číslo se v jednotlivých zemích liší. Používá se k identifikaci konkrétní pobočky banky, kterou prodejce používá.",
+        placeholder: "Vaše směrové číslo banky, kód řazení nebo číslo BSB.",
       },
       iban: {
-        hint: "pojem banka účet pojem): pokud pojem prodejce banka je v pojem nebo pojem pojem země.",
+        hint: "Mezinárodní číslo bankovního účtu: Pokud je banka prodejce v Evropě nebo v určitých jiných zemích.",
         placeholder: "váš IBAN pojem.. pojem. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "pojem banka účet pojem): pokud pojem prodejce banka je v pojem nebo pojem pojem země.",
+        hint: "Mezinárodní číslo bankovního účtu: Pokud je banka prodejce v Evropě nebo v určitých jiných zemích.",
         placeholder: "váš pojem kód/BIC..",
       },
       branch_address: {
-        hint: "pojem adresa z pojem banka pojem pojem pojem prodejce má jejich účet.",
+        hint: "Adresa pobočky banky, kde má prodejce svůj účet.",
         placeholder: "váš banka adresa..",
       },
       enable: {
         label: "prodejce stav",
-        hint: "vy může pojem nebo pojem prodejci pojem. zákazníci bude ne být pojem k pojem pojem od zakázáno prodejci.",
+        hint: "Dodavatele můžete povolit nebo zakázat globálně. Zákazníci si nebudou moci nic koupit od zdravotně postižených prodejců.",
         true_description:
-          "pojem bude být pojem k pojem jejich produkty pojem váš tržiště.",
+          "Budou moci prodávat své produkty prostřednictvím vašeho trhu.",
       },
       access: {
         label: "prodejce pojem & přístup",
         true_description:
-          "pojem prodejce má pojem vyhrazené pojem k aktualizovat pojem a cena.",
-        hint: "vy může pojem nebo pojem pojem prodejce pojem, pojem pojem prodejci k aktualizovat produkt pojem a cena a pojem pojem objednávky.",
+          "Prodejce má vyhrazený panel pro aktualizaci množství a ceny.",
+        hint: "Můžete povolit nebo zakázat panel dodavatele, který umožňuje dodavatelům aktualizovat množství a ceny produktů a přijímat částečné objednávky.",
         false_description: "pojem prodejce má ne přístup k pojem.",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "dokumenty",
     action_upload_doc: "nahrát pojem",
     vendor_subtitle:
-      "prosím nahrát pojem pojem podnikání, IP, a adresa pojem dokumenty. my pojem toto informace k potvrdit váš pojem a pojem vy s pojem pojem přístup.",
+      "Nahrajte prosím potřebné dokumenty k ověření firmy, IP a adresy. Tyto informace potřebujeme k potvrzení vašeho partnerství a poskytnutí potřebného přístupu.",
     marketplace_subtitle:
-      "prodejci může pojem dokumenty pojem jako podnikání, pojem vlastnost, a adresa pojem k pojem jejich KYC pojem, pojem vy k pojem je pojem pojem přístup.",
+      "Prodejci mohou zasílat dokumenty, jako je podnikání, duševní vlastnictví a ověření adresy, aby jim usnadnili proces KYC, což vám umožní udělit jim odpovídající přístup.",
     upload_dialog: {
       title: "nahrát dokument",
       type: {
         title: "dokument pojem",
         subtitle:
-          "prosím nahrát pouze pojem pojem dokumenty. pojem pojem pojem dokumenty to pojem pojem informace. my pojem dokumenty to jsou pojem dostupné.",
+          "Nahrajte prosím pouze potřebné dokumenty. Vyhněte se sdílení jakýchkoli dokumentů, které obsahují citlivé informace. Požadujeme dokumenty, které jsou veřejně dostupné.",
       },
     },
   },
@@ -2178,7 +2178,7 @@ export default {
     add_custom_badge: {
       title: "vlastní odznak",
       subtitle:
-        "přidat pojem nový vlastní odznak k můj obchod. pojem odznaky pojem pojem 10. více odznaky pojem pojem pojem váš obchod.",
+        "Přidat nový vlastní odznak do mého obchodu. Udržujte počet odznaků pod 10. Více odznaků by zpomalilo váš obchod.",
       show_advanced_options: "zobrazit pojem možnost",
 
       inputs: {
@@ -2188,12 +2188,12 @@ export default {
         image: {
           label: "obrázek",
           message: "pojem obrázek velikost: 128KB",
-          placeholder: "vybrat pojem pojem obrázek",
+          placeholder: "Vyberte titulní obrázek",
         },
         pattern: {
           label: "pojem",
           message:
-            "automaticky zobrazit toto odznak pro produkty má toto pojem pojem v jejich pojem. Regex pojem.",
+            "Automaticky zobrazovat tento odznak u produktů, které mají ve specifikaci stejnou hodnotu. Podporováno Regex.",
           placeholder: "k zobrazit pro vše produkty zápis: *.*",
         },
       },
@@ -2201,7 +2201,7 @@ export default {
         badge_added: "pojem odznak má bylo přidat úspěšně!",
         badge_updated: "pojem odznak má bylo aktualizováno úspěšně!",
         item_not_found_error:
-          "pojem položka pojem ne být pojem. prosím pojem pojem stránka nebo pojem pojem.",
+          "Položka nebyla nalezena. Obnovte stránku nebo kontaktujte podporu.",
       },
     },
   },
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "Tagy",
     tips: [
-      "vy může pojem produkty pojem na štítky na <b>pojem stránky</b>.",
-      "vy a váš zákazníci může hledat pro pojem štítky v pojem<b>hledat</b> pojem.",
-      "pokud nastavit štítky, pouze produkty s pojem <b>pojem štítky</b> bude být zobrazeno v pojem <b>pojem produkty pojem</b> na pojem produkt stránka; pojem, produkty v pojem pojem kategorie bude být zobrazeno.",
+      "Produkty můžete filtrovat podle značek na <b>vstupních stránkách</b>.",
+      "Vy a vaši zákazníci můžete tyto značky vyhledat na liště <b>search</b>.",
+      "Pokud nastavíte tagy, zobrazí se v sekci <b> související produkty</b> na stránce produktu pouze produkty s <b>běžnými tagy</b>; jinak se zobrazí produkty ve stejné kategorii.",
     ],
     inputs: {
       tags: {
-        placeholder: "pojem štítky pojem a pojem pojem. pojem. nový pojem",
+        placeholder: "Zde zapojte štítky a stiskněte enter. např. nová kolekce",
       },
     },
     notifications: {
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "doprava služby",
     subtitle:
-      "pojem tržiště nabídka doprava pojem k pojem prodejci pojem jejich objednávky. vy může přidat doprava služby pojem k pojem objednávka doprava pojem od váš objednávka stránka. toto pojem pojem pojem podle pojem pojem a pojem kód s pojem doprava poskytovatel.",
+      "Trh nabízí způsoby dopravy, které prodejcům pomohou splnit jejich objednávky. Zde můžete přidat přepravní služby a snadno si objednat přepravní štítky ze stránky objednávky. To zjednodušuje proces synchronizací adres a sledovacích kódů s poskytovatelem přepravy.",
 
     subtitle_pickup:
-      "pojem tržiště pojem vyzvednutí pro prodejci, pojem pojem k zvolit vyzvednutí od váš umístění jako pojem doprava možnost. vy může přidat váš vyzvednutí umístění v váš profil (váš sklad bude být pojem jako pojem výchozí vyzvednutí umístění).",
+      "Tržiště umožňuje vyzvednutí pro prodejce, což umožňuje kupujícím vybrat si vyzvednutí z vašeho místa jako možnost dopravy. Místo vyzvednutí můžete přidat do svého profilu (jako výchozí místo vyzvednutí bude použit váš sklad).",
     action: "přidat služba",
 
     add_dialog: {
       select_service_msg:
-        "doprava pojem jsou nastavit podle pojem tržiště, a zákazníci může zvolit od je. prodejci mít ne pojem pojem pojem možnosti pojem může pojem jejich pojem s doprava služby k pojem pojem pojem. prosím vybrat pojem pojem od pojem seznam pojem k zobrazit dostupné služby. zvolit pojem doprava služba od pojem seznam pojem. pouze pojem dostupné služby to může být přidat k váš obchod jsou zobrazeno pojem.",
+        "Způsoby dopravy určuje tržiště a zákazníci si z nich mohou vybrat. Prodejci nemají žádnou kontrolu nad těmito možnostmi, ale mohou integrovat svůj panel s přepravními službami a přímo nakupovat štítky. Chcete-li zobrazit dostupné služby, vyberte metodu ze seznamu níže. Vyberte si přepravní službu ze seznamu níže. Zde se zobrazují pouze dostupné služby, které lze přidat do vašeho obchodu.",
       no_available_service: "ne dostupné služba!",
     },
   },
@@ -2254,20 +2254,20 @@ export default {
   product_location_profile: {
     title: "Umístění",
     empty_subtitle:
-      "pojem pojem umístění k pojem produkt pokud to pojem pojem položka.",
+      "Pokud se jedná o položku založenou na umístění, přiřaďte produktu umístění.",
     dialog: {
       header: "vybrat umístění profil",
       action_new_location: "Přidat nové umístění",
       title: "umístění profil",
       subtitle:
-        "vy může pojem produkty na pojem pojem umístění podle pojem umístění štítky k pojem produkty.",
-      tips: "<b>pojem:</b> pojem pojem umístění k pojem produkt <b>pouze</b> pokud vy chcete k zobrazit pojem produkt na pojem pojem umístění na pojem pojem. pojem pojem produkt pojem mít pojem umístění jako to hlavní pojem, pojem <b>pojem domů/pojem</b> nebo pojem služby pojem<b>pojem a pojem</b>.",
+        "Produkty můžete připnout na umístění na mapě přiřazením značek umístění k produktům.",
+      tips: "<b>Důležité: </b> Přidělte produktu umístění <b>pouze</b>, pokud chcete produkt zobrazit na konkrétním místě na mapě. Hlavní specifikací produktu s pined musí být umístění, například <b>pronájmy/místa</b> nebo osobní služby, jako je <b>Kadeřnictví a lázně</b>.",
     },
   },
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "pojem pojem",
+    header: "Vícejazyčné",
     auto_action: "automaticky pojem",
     premium_user_only: "pojem uživatelé",
   },
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "pojem pojem seznam z položky to pojem s pojem produkt nebo služba balík.",
+      "Zahrňte seznam položek, které jsou součástí balíčku produktu nebo služby.",
     dialog: {
       header: "produkt balík položky",
       title: "zahrnuto položky",
-      subtitle: "toto je pojem pojem z položky to pojem s pojem produkt.",
+      subtitle: "Jedná se o kompilaci položek dodávaných s produktem.",
       action_manage: "spravovat položky",
       action_disable_msg: "tržiště pojem",
       select_items_tips:
-        "vytvořit nebo zvolit balík pojem to pojem s pojem produkt nebo služba. pojem toto pojem k pojem pojem zákazníci může pojem pojem pojem pojem pojem položka. my pojem pojem toto pojem pouze pojem to je pojem pro pojem zákazník k pojem pojem pojem zahrnuto, pojem jako pojem pojem pojem pojem.",
+        "Vytvořte nebo vyberte součásti balíčku, které se dodávají s produktem nebo službou. Využijte tuto funkci ke zdůraznění toho, co mohou zákazníci očekávat, že obdrží při nákupu položky. Tuto funkci doporučujeme používat pouze v případě, kdy je pro zákazníka zásadní porozumět obsaženému obsahu, například při nákupu chytrého telefonu.",
       create_item_tips:
-        "pojem, vy může pojem pojem nový položka. pojem pojem obrázky, jako my bude automaticky pojem nahrát pojem k pojem 256pojem256 pojem pojem. k pojem pojem pojem pojem vše šablony, pojem pojem obrázky s průhledné pozadí a pojem pojem pojem pojem pro vše váš produkty.",
+        "Případně můžete přidat novou položku. Používejte čtvercové obrázky, protože automaticky změníme velikost nahraných obrázků na čtvercový formát 256x256. Chcete-li zajistit optimální vzhled ve všech šablonách, používejte minimalistické obrázky s průhledným pozadím a udržujte konzistentní vzor pro všechny své produkty.",
       create_new_item_action: "vytvořit nový zahrnuto položka",
     },
   },
@@ -2370,7 +2370,7 @@ export default {
         title: "Hodnocení produktu",
         title_small: "Zpráva o spokojenosti zákazníků",
         total_participation: "Celkový počet příspěvků",
-        total_participation_tooltip: "celkem pojem z pojem pro pojem produkt.",
+        total_participation_tooltip: "Celkový počet hodnotitelů produktu.",
         today_participation: "Dnešní hodnocení",
         last7days_participation: "Příspěvky za posledních 7 dní",
         chart: {
@@ -2447,47 +2447,47 @@ export default {
         variables: {
           title: "varianta možnosti",
           subtitle:
-            "pojem pojem pojem barva kód, pojem.pojem., <b>#654FFF</b>, nebo pojem barva pojem podle pojem pojem, pojem.pojem., <b>#764FFA/#000000</b>.",
+            "Zadejte hexadecimální kód barvy, např. <b>#654FFF</b>, nebo dvě barvy oddělené lomítkem, např. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "vy může pojem pojem pojem k pojem pojem, pojem obrázky pojem <b>pojem pojem</b>. nahrát pojem pojem a pojem pojem pojem kód pro pojem varianta.",
-          graphical_asset_action: "pojem pojem",
+            "Proměnným můžete přiřadit libovolnou hodnotu, včetně obrázků pomocí <b>Graphic Assets</b>. Nahrajte vzor a použijte vygenerovaný kód pro variantu.",
+          graphical_asset_action: "Grafický majetek",
           graphical_asset_action_caption: "obrázky pro varianta možnosti.",
         },
         smart_unit_price: {
-          tips: "pojem pojem cena pojem na <b>hmotnost</b>, <b>pojem</b>, a <b>pojem velikost</b>. k pojem toto pojem, pojem k obchod > nastavení > pojem > produkt stránka > pojem pojem cena.",
+          tips: "Vypočítejte jednotkovou cenu na základě <b>hmotnosti</b>, <b>objemu</b> a <b>velikosti balení</b>. Chcete-li tuto funkci zakázat, přejděte na Obchod > Nastavení > Motiv > Stránka produktu > Cena za chytrou jednotku.",
           smart_unit_price: "pojem cena pojem",
         },
         quantity: {
           title: "Inventář",
-          subtitle: "nastavit pojem pojem pro pojem varianta.",
+          subtitle: "Nastavte skladové zásoby pro každou variantu.",
         },
         price: {
           title: "Ceny",
           subtitle:
-            "nastavit pojem vlastní cena pro pojem varianta nebo pojem pojem výchozí produkt cena.",
+            "Nastavte vlastní cenu varianty nebo použijte výchozí cenu produktu.",
         },
         package: {
           title: "pojem & doprava",
           subtitle:
-            "pojem hmotnost a pojem pro varianty k pojem doprava možnosti.",
+            "U variant zadejte hmotnost a rozměry, abyste určili možnosti dopravy.",
           same_as_product_action: "pojem jako produkt",
         },
         image: {
           title: "varianta obrázky",
           subtitle:
-            "přidat pojem obrázky pro pojem varianta. pojem první obrázek nahrát bude být pojem primární obrázek pro to varianta.",
+            "Přidejte jedinečné obrázky pro každou variantu. První nahraný obrázek bude primárním obrázkem pro danou variantu.",
         },
         inputs: {
           sku: {
-            message: "pojem pojem pojem (SKU)",
+            message: "Skladová jednotka (SKU)",
           },
           mpn: {
-            message: "pojem pojem pojem (MPN)",
+            message: "Číslo dílu výrobce (MPN)",
           },
           gtin: {
-            label: "pojem pojem položka pojem (GTIN)",
+            label: "Global Trade Item Number (GTIN)",
             message:
-              "pojem pojem: UPC (12 pojem), EAN (13 pojem), JAN (8 nebo 13 pojem), ISBN (13 pojem).",
+              "Podporované formáty: UPC (12 číslic), EAN (13 číslic), JAN (8 nebo 13 číslic), ISBN (13 číslic).",
           },
         },
       },
@@ -2507,18 +2507,18 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "doprava služby dostupné pojem na pojem pojem velikost a hmotnost.",
+      "Dostupné přepravní služby závisí na poskytnuté velikosti a hmotnosti.",
   },
 
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Hmotnost balení",
     weight_subtitle:
-      "vstup pojem produkt celkem pojem hmotnost pojem. toto informace pojem zvolit pojem pojem doprava pojem a pojem pojem objednávka pojem pojem pojem doprava limit.",
+      "Zde zadejte celkovou hmotnost balení produktu. Tyto informace pomohou vybrat správný způsob dopravy a zajistí, že objednávka nepřekročí dodací limit.",
     weight_unit: "Kg",
     size: "Rozměry balení",
     size_subtitle:
-      "vstup pojem produkt pojem pojem velikost pojem. toto informace je pojem k zvolit pojem pojem doprava pojem a pojem pojem objednávka pojem pojem pojem pojem velikost limit.",
+      "Zde zadejte plnou velikost balení produktu. Tyto informace slouží k výběru správného způsobu dopravy a zajištění, aby objednávka nepřesáhla limit velikosti balíku.",
 
     width: "Šířka",
     length: "Délka",
@@ -2526,17 +2526,17 @@ export default {
     lead_time_title: "Čas na přípravu",
     lead_time: "Čas na přípravu",
     lead_time_subtitle:
-      "pojem čas pojem pojem trvání povinné k pojem pojem produkt pro doprava, pojem pojem v pojem pojem doručení čas.",
+      "Doba dodání odhaduje dobu potřebnou k přípravě produktu k odeslání, což pomáhá odhadnout dobu dodání.",
 
     lead_time_dimension: "hodina(y)",
     bulk_action: "Hromadné akce",
     bulk_action_subtitle:
-      "vy může použít pojem pojem informace k vše produkt varianty.",
+      "Informace o balení můžete použít na všechny varianty produktu.",
 
     bulk_action_input: "Aktualizujte všechny varianty",
     bulk_action_msg:
       "U všech variant nastavte balení produktu a dobu přípravy.",
-    dynamic_lead_time: "pojem pojem čas",
+    dynamic_lead_time: "Dynamický dodací čas",
     instant_delivery: "pojem doručení",
   },
 
@@ -2553,7 +2553,7 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "nastavit obrázek Alt text",
-      placeholder: "pojem pojem pojem pojem text...",
+      placeholder: "Zadejte popisný alternativní text...",
       success_update_notification: "Alt text aktualizováno úspěšně.",
     },
     dialog_bg_remove: {
@@ -2569,12 +2569,12 @@ export default {
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "varianta pojem pojem",
+    title: "Variantní grafické prvky",
     tips: {
       how_it_works:
-        "<b>pojem to pojem:</b><br />nahrát pojem nebo položka obrázky pojem. k pojem pojem obrázky jako pojem varianta možnost, pojem <b>{filename}</b> v pojem varianta pojem. poznámka to toto kód pojem být pojem v pojem <b><s>barva</s></b> pojem.",
+        "<b>Jak to funguje:</b><br />Sem nahrajte obrázky vzorů nebo položek. Chcete-li tyto obrázky použít jako variantu, zahrňte do hodnoty varianty <b>{filename}</b>. Upozorňujeme, že tento kód nelze použít v hodnotě <b><s>color</s></b>.",
       how_set_name:
-        "<b>pojem pojem:</b><br />pojem první 12 pojem z pojem nahrát soubor pojem bude být pojem jako pojem pojem pojem. toto pojem je pojem pro pojem pojem pojem z pojem produkt, pojem jako pojem velikost pro pojem nebo pojem pojem. k pojem pojem pojem z toto pojem, pojem nahrát varianta obrázky pojem pojem pojem pojem z pojem pojem je pojem pojem 100, pojem jako pojem pojem pojem pro pojem.",
+        "<b>Tipy pro pojmenování:</b><br />Jako název položky bude použito prvních 12 znaků názvu nahraného souboru. Tato funkce je ideální pro předvedení přizpůsobitelných aspektů produktu, jako jsou velikosti pneumatik pro motocykly nebo vzory látek. Chcete-li optimalizovat použití této funkce, nenahrávejte sem obrázky variant, pokud počet grafických podkladů není menší než 100, jako jsou různé druhy dřeva pro nábytek.",
     },
   },
 
@@ -2583,25 +2583,25 @@ export default {
    */
   extra_pricing_levels: {
     extra_pricings: "extra ceny",
-    min_quantity: "pojem pojem",
-    range_is_out_of_stock: "pojem je pojem z pojem!",
+    min_quantity: "Min. množství",
+    range_is_out_of_stock: "Sortiment není skladem!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "toto varianta pojem pojem!",
+    duplicated_variant: "Tato varianta již existuje!",
     set_color_warning: "prosím vybrat pojem barva.",
-    set_volume_warning: "prosím pojem pojem pojem.",
-    set_pack_warning: "prosím pojem pojem pojem velikost.",
-    set_weight_warning: "prosím pojem pojem hmotnost.",
-    set_type_warning: "prosím vybrat pojem pojem.",
+    set_volume_warning: "Upřesněte hlasitost.",
+    set_pack_warning: "Uveďte prosím velikost balení.",
+    set_weight_warning: "Upřesněte prosím váhu.",
+    set_type_warning: "Vyberte prosím typ.",
     set_style_warning: "prosím vybrat pojem styl.",
-    out_of_stock: "pojem pojem z pojem",
+    out_of_stock: "Momentálně není skladem",
 
     image: {
-      tooltip: "⚡ přetáhnout a pustit pojem obrázek pojem k pojem to k pojem varianta.",
+      tooltip: "⚡ Přetažením sem obrázek přiřaďte k variantě.",
     },
     enable: {
       true_tooltip: "toto položka je dostupné v pojem online obchod.",
@@ -2613,7 +2613,7 @@ export default {
       action: "ano, obnovit nyní",
     },
     notifications: {
-      restore_variant_success: "pojem produkt varianta pojem úspěšně pojem.",
+      restore_variant_success: "Varianta produktu byla úspěšně obnovena.",
     },
   },
 
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "pojem akce > cena",
     message:
-      "pojem pojem částka bude použít jako pojem pojem k pojem cena z vše produkty v váš obchod. pojem, pojem pojem cena pojem bude být pojem pojem k pojem pojem pojem pojem pojem na pojem vybrané měna.být pojem v pojem pojem pojem.",
+      "Následující částka se použije jako procento k ceně všech produktů ve vašem obchodě. Vypočítané hodnoty cen budou také inteligentně převedeny na nejbližší zaokrouhlené číslo na základě zvolené měny. Při zadávání hodnot buďte opatrní.",
     check: "já pojem cena pojem.",
     check_description:
-      "pojem cena bude být pojem pro pojem vybrané kategorie a vše pojem.",
+      "Cena bude změněna pro vybranou kategorii a všechny podkategorie.",
     add_percent_tab: "přidat pojem",
     add_constant_tab: "přidat pojem",
     ending_tab: "konec pojem",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "pojem částka bude být přidat nebo pojem od pojem aktuální cena z produkty.",
+        "Částka bude přičtena nebo odečtena od aktuální ceny produktů.",
     },
     ending: {
       subtitle:
-        "pojem konec z pojem aktuální cena z produkty bude být pojem k pojem pojem pojem.",
+        "Konec aktuální ceny produktů se změní na zadanou hodnotu.",
     },
     marketplace: {
       title: "tržiště výpis cena",
       subtitle:
-        "toto možnost pojem vy k automaticky aktualizovat pojem výpis cena z produkty v pojem tržiště. pojem, pojem hlavní produkt cena pojem ne pojem s prodejce ceny pojem k ručně cena pojem.",
+        "Tato možnost vám umožňuje automaticky aktualizovat cenu produktů na trhu. Občas se může stát, že cena hlavního produktu nebude odpovídat cenám dodavatele kvůli ručním změnám cen.",
       strategy: {
         min: {
           title: "nastavit minimum cena",
           description:
-            "nastavit pojem minimum cena z pojem produkt jako pojem výpis cena.",
+            "Jako katalogovou cenu nastavte minimální cenu produktu.",
         },
         max: {
           title: "nastavit maximum cena",
           description:
-            "nastavit pojem maximum cena z pojem produkt jako pojem výpis cena.",
+            "Jako katalogovou cenu nastavte maximální cenu produktu.",
         },
       },
     },
 
     category: {
-      subtitle: "limit pojem akce k pojem kategorie a vše pojem.",
+      subtitle: "Omezte hromadnou akci na kategorii a všechny podkategorie.",
     },
     vendor: {
       subtitle:
-        "limit pojem akce k pojem pojem prodejce. pojem pojem prodejce je vybrané, pojem cena aktualizovat bude být pojem k pojem prodejce produkty, pojem pojem pojem pojem cena pro to prodejce.",
+        "Omezte hromadné akce na konkrétního dodavatele. Když je vybrán dodavatel, aktualizace ceny se použije na produkty dodavatele, což představuje prodejní cenu daného dodavatele.",
       listing_price_need_update_msg:
-        "pokud vy chcete k aktualizovat pojem výpis cena (pojem cena zobrazeno v pojem produkt seznam), vy pojem pojem pojem pojem aktualizovat s pojem pojem pojem pojem pojem vybrat pojem prodejce.",
+        "Pokud chcete aktualizovat katalogovou cenu (cena zobrazená v seznamu produktů), měli byste hromadnou aktualizaci odeslat znovu se stejnými filtry, ale bez výběru dodavatele.",
     },
     listing_products_changes: "výpis produkty pojem",
     total_vendor_products: "celkem prodejce produkty",
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "platba pojem",
     sub_title:
-      "seznam z aktivní platba pojem. pokud vy chcete k přidat pojem nový pojem k váš obchod, pojem pojem pojem pojem. my pojem pojem ne pojem 10 přidat platba pojem.",
+      "Seznam aktivních platebních metod. Pokud chcete do svého obchodu přidat novou metodu, stiskněte následující tlačítko. Důrazně doporučujeme nepřekračovat 10 přidaných platebních bran.",
     add_gateway: "nový platba pojem",
 
     add_gateway_dialog: {
       title: "vybrat měna",
-      country_currencies: "pojem pojem",
+      country_currencies: "Místní měny",
       crypto_currencies: "pojem",
 
       confirm: "Přidat způsob platby",
@@ -2815,7 +2815,7 @@ export default {
       currency_step: {
         title: "vybrat pojem měna",
         subtitle:
-          "pojem k pojem pojem pojem z pojem v váš obchod k pojem minimum—pojem pojem pojem 3. pojem platba pojem může pojem transakce v pojem pojem měna.",
+          "Snažte se omezit počet měn ve vašem obchodě na minimum – ideálně méně než 3. Většina platebních bran dokáže zpracovávat transakce téměř v jakékoli měně.",
         add_first_currency: {
           subtitle: "prosím přidat pojem měna k váš obchod před pojem.",
           title: "Přidat měnu",
@@ -2824,23 +2824,23 @@ export default {
       gateway_step: {
         title: "aktivní platba pojem",
         subtitle:
-          "prosím zvolit od pojem dostupné platba pojem. pojem vy vybrat pojem pojem, pojem být pojem k pojem pojem pojem pojem detaily k odkaz váš obchod pojem k váš pojem platba pojem.",
+          "Vyberte si z dostupných způsobů platby. Jakmile vyberete bránu, budete moci zadat potřebné údaje o připojení, abyste propojili svůj obchod přímo s preferovaným způsobem platby.",
       },
 
       config_step: {
-        import_config: "vy může importovat konfigurace od pojem pojem pojem",
+        import_config: "Můžete importovat konfiguraci z jiných podobných bran",
         import_from: "importovat od",
       },
 
       request_add_new_gateway: {
-        title: "pojem zobrazit váš pojem platba pojem?",
+        title: "Nevidíte preferovaný způsob platby?",
         subtitle:
-          "pokud váš pojem platba poskytovatel pojem seznam, pojem k pojem pojem pojem (pojem pojem pro pojem) a pojem pojem pojem. pojem pojem to pojem 48 hodiny pokud pojem pojem účet a pojem jsou pojem.",
+          "Pokud váš místní poskytovatel plateb není uveden, přihlaste se k odběru jakéhokoli ročního plánu (včetně Startup pro dostupnost) a požádejte o integraci. Dokončíme to do 48 hodin, pokud nám poskytnete testovací účet a dokumentaci.",
       },
 
       inputs: {
         currency: {
-          placeholder: "vybrat pojem pojem k importovat...",
+          placeholder: "Vyberte bránu k importu...",
         },
         manual: {
           true_title: "pojem režim",
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "automaticky pojem",
           false_description:
-            "pojem pojem bude automaticky pojem k pojem pojem pokud vy pojem mít pojem pojem pojem v pojem.",
+            "Pokud již máte nakonfigurovanou bránu, systém se automaticky připojí k bráně.",
         },
       },
     },
@@ -3074,23 +3074,23 @@ export default {
 
     config: {
       subtitle:
-        "kategorie pojem pojem produkt správa a vydělat to pojem pro váš zákazníci k pojem produkty v váš obchod.",
+        "Kategorie pomáhají zefektivnit správu produktů a usnadňují zákazníkům hledání produktů ve vašem obchodě.",
     },
     parent: {
       subtitle:
-        "toto kategorie bude pojem pojem to pojem kategorie. pokud pojem produkt pojem mít pojem pojem kategorie, to bude být zobrazeno v pojem hlavní kategorie.",
+        "Tato kategorie se zobrazí ve své nadřazené kategorii. Pokud produkt nemá nadřazenou kategorii, zobrazí se v hlavní kategorii.",
     },
     template: {
       title: "Šablona",
       edit_page: "upravit stránka",
       Pages_list: "stránka seznam",
       subtitle:
-        "vy může pojem pojem pojem z váš kategorie stránka podle pojem pojem vlastní stránka. pojem pojem pojem je k vytvořit stránky s průhledné pozadí a design 1 k 2 pojem pojem k pojem kategorie. vy může pojem odkaz pojem stránka k pojem kategorie, pojem pojem pojem k pojem pojem kategorie pojem.",
+        "Zobrazení stránky kategorie můžete vylepšit překrytím vlastní stránky. Nejlepší přístup je vytvořit stránky s průhledným pozadím a navrhnout 1 až 2 sekce specifické pro každou kategorii. Poté můžete propojit jednu stránku s více kategoriemi pomocí dynamického obsahu k přizpůsobení každé kategorie individuálně.",
     },
     critical_zone: {
-      title: "pojem pojem",
+      title: "Kritická zóna",
       subtitle:
-        "pokud vy odstranit pojem kategorie, to pojem a produkty bude být pojem k pojem pojem pojem<b>📁 {parent}</b>. k spravovat kategorie to jsou ne v pojem produkt seznam, pojem k pojem obchod > kategorie pojem.",
+        "Pokud odstraníte kategorii, její podkategorie a produkty se přesunou do nadřazeného adresáře<b>📁 {parent}</b>. Chcete-li spravovat kategorie, které nejsou v seznamu produktů, přejděte na kartu Obchod > Kategorie.",
       accept_delete: {
         true_description: "já chcete k odstranit toto kategorie.",
         true_title: "potvrdit odstranit kategorie",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategorie upravena.",
       },
       manually_update_filters_tips:
-        "<b>pojem!</b> pojem jsou automaticky aktualizováno pojem produkty pojem. pojem, po pojem pojem k produkty v pojem kategorie, prosím vrácení pojem a pojem pojem uložit/pojem pojem k pojem pojem pojem.",
+        "<b>Důležité!</b> Filtry se automaticky aktualizují při změně produktů. Po provedení změn u produktů v kategorii se však vraťte sem a kliknutím na tlačítko uložit/obnovit filtr obnovte.",
 
       inputs: {
         spec: {
           message:
-            "seznam z pojem to vy chcete k být zobrazeno v pojem pojem pojem",
+            "Seznam funkcí, které chcete zobrazit v sekci filtru",
           placeholder: "vybrat pojem k zobrazit v pojem...",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Popis obchodu",
     description_input_message: "Napište stručný popis svého podnikání.",
     description_input_tips:
-      "toto popis bude pojem v váš obchod pojem a bude pojem být pojem jako pojem výchozí Meta štítek popis pro váš obchod stránky.",
+      "Tento popis se zobrazí v patičce vašeho obchodu a bude také použit jako výchozí popis metaznačky pro vaše stránky obchodu.",
     address_input: "Adresa prodejny",
     address_input_message: "Zadejte přesnou adresu umístění obchodu",
 
@@ -3340,9 +3340,9 @@ export default {
         true_title: "pojem | zrušit objednávka pojem",
         false_title: "pojem | zrušit objednávka po 48 hodiny",
         true_description:
-          "toto možnost bude zrušit váš objednávka pojem a aktualizovat pojem pojem pojem pojem.",
+          "Tato možnost okamžitě zruší vaši objednávku a okamžitě aktualizuje inventář.",
         false_description:
-          "toto možnost bude zrušit váš objednávka po 48 hodiny. pojem pojem, položky bude být pojem a pojem být pojem podle pojem.",
+          "Tato možnost zruší vaši objednávku po 48 hodinách. Do té doby budou položky rezervovány a nemohou být zakoupeny jinými osobami.",
       },
     },
 
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Čekající platba",
       processing_payment: "Zpracování platby",
       processing_cancel: "Platba zrušena",
-      require_capture: "pojem pojem",
+      require_capture: "Vyžadovat zachycení",
       paid: "Zaplaceno",
       cod_pay_info:
         "Po obdržení objednávky od zákazníka můžete potvrdit platbu a dokončit objednávku.",
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "refundace povinné k pojem zákazník",
         message:
-          "my pojem pojem celkem částka z refundace to vy pojem k vydělat pojem. to pojem pojem na nedostupné položky a celkem refundace pojem pojem.",
+          "Vypočítáme celkovou částku refundací, které musíte provést ručně. Počítalo se na základě nedostupných položek a celkových vrácených hodnot.",
         calculated_approximately:
-          "pojem částka je pojem pojem. prosím pojem pojem pojem částka pojem.",
+          "Částka se počítá přibližně. Přesnou částku si prosím spočítejte sami.",
       },
       need_payback: {
         title: "zákazník účtovat povinné",
         message:
-          "pojem pojem to pojem celkem refundace k pojem zákazník je pojem pojem pojem částka pojem pojem na pojem položky v pojem pojem. vy pojem pojem k účtovat váš zákazník k pojem pojem pojem částka.",
+          "Všimli jsme si, že celková částka vrácená zákazníkovi je vyšší než splatná částka na základě položek v košíku. Možná budete muset zákazníkovi naúčtovat přeplatek.",
       },
       need_no_refund: {
         title: "ne refundace pojem",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "celkem refundace",
         message:
-          "to pojem celkem částka z refundace automaticky pojem podle váš platba pojem. pouze pojem platba služby pojem toto pojem, pojem vy pojem k refundace pojem.",
+          "Je to celková částka refundací automaticky provedená vaší platební bránou. Tuto funkci podporují pouze některé platební služby, takže peníze musíte vrátit ručně.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "pojem hmotnost z vše položky je {weight} {unit}",
       not_available_message:
-        "to ne dostupné pojem vy jsou zakázáno pojem pro doprava adresa a pojem uživatel pojem ne pojem adresa po pojem!",
+        "Není k dispozici, pokud jste deaktivováni s dotazem na dodací adresu a také uživatel po nákupu nevyplnil adresu!",
 
       message:
         "Pokud je objednávka připravena k odeslání, klikněte na následující tlačítko <b>Objednávka</b> připravena.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Zpráva o platbách",
         subtitle:
-          "vytvořeno platby a transakce pojem pojem pojem vybrané čas pojem.",
+          "Vytvořené platby a transakce provedené během zvoleného časového období.",
         chart: {
           times: "Počet",
           buys: "Koupit počet",
@@ -3662,7 +3662,7 @@ export default {
     status: "Postavení",
     cod_transportation: "pojem doprava",
     cod_transportations_error:
-      "pojem pojem na doručení platba pro v pojem pojem doprava pojem!",
+      "Umožněte platbu na dobírku alespoň u jednoho způsobu dopravy!",
     payment_type: "platba pojem",
     cod: "pojem na doručení",
     online: "online platba",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "váš pojem stav",
     oauth2_button: "automaticky Connect k {gateway}",
     fee_payment_message:
-      "pojem pojem částka pojem podle pojem zákazník bude být pojem k váš účet. pojem služba poplatek bude být pojem od váš peněženka v Selldone.",
+      "Celá částka zaplacená zákazníkem bude převedena na váš účet. Servisní poplatek bude odečten z vaší peněženky v Selldone.",
 
     auto_config: "automaticky konfigurace",
 
     keys: {
       title: "soukromé klíče",
       subtitle:
-        "seznam z soukromé klíče pro pojem platba. toto informace je pojem pro pojem a pojem platby.",
+        "Seznam soukromých klíčů pro platbu. Tyto informace jsou nezbytné pro vytváření a správu plateb.",
     },
     extra_config: {
       title: "platba služba konfigurace",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "pojem akce",
       subtitle:
-        "podle pojem pojem pojem, pojem pojem k pojem pojem platby od váš zákazníci.",
+        "Provedením těchto kroků začnete od svých zákazníků dostávat skutečné platby.",
       action_enable: "pojem k pojem to",
       make_live_enable: "pojem k živě to",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "webová stránka",
     status_title: "platba služba stav",
     status_message:
-      "pojem pojem platba pojem jako aktivní nebo neaktivní. pouze pojem nastavit jako aktivní bude být zobrazeno k zákazníci.",
+      "Nakonfigurujte způsob platby jako Aktivní nebo Neaktivní. Zákazníkům se zobrazí pouze metody nastavené jako aktivní.",
     status_true_description: "váš zákazníci může pojem s toto platba pojem.",
 
     manual_title: "ručně / automaticky pojem platba",
     manual_message:
-      "pojem vy vytvořit pojem platba, vy může pojem pojem pojem na pojem pojem platba pojem k pojem pojem to vy může pojem pojem. pro pojem, pojem pojem pojem pojem platba v pojem před pojem pojem pojem, pojem pojem pojem peníze pojem pojem pojem pojem pojem.",
+      "Když vytvoříte platbu, můžete pozastavit způsobilou platební metodu a zarezervovat si prostředky, které můžete získat později. Hotely například často autorizují platbu v plné výši ještě před příjezdem hosta a poté zachycují peníze, když se host odhlásí.",
 
     gateway_status: "Postavení",
     wallet: "Blockchain peněženka",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "pojem & pojem",
-      subtitle: "vy může pojem pojem pojem režim k pojem pojem platba pojem.",
+      subtitle: "Pro testování platební brány můžete povolit režim ladění.",
     },
 
     limit: {
@@ -3736,26 +3736,26 @@ export default {
     },
     limit_input: {
       title: "minimum objednávka částka",
-      msg: "pojem pojem ne limit.",
+      msg: "Nula znamená žádný limit.",
     },
     currency_input: {
-      message: "pojem měna to toto platba pojem pojem.",
+      message: "Měna, kterou tato platební brána podporuje.",
     },
     gateway_code: "pojem kód",
 
     hold_only_for: "pojem platba pouze dostupné pro",
     manual_input: {
       false_description:
-        "pojem platba stav bude být pojem automaticky od čeká k potvrdit v pojem platba poskytovatel pojem.",
+        "Stav platby se automaticky změní z nevyřízeného na potvrzený v systému poskytovatele plateb.",
       false_title: "automaticky platba pojem",
       true_title: "pojem platby a ručně pojem",
       true_description:
-        "pojem pojem pojem na pojem platba pojem vy pojem k pojem pojem platby pro pojem objednávka k pojem jejich stav od čeká k potvrdit v pojem platba poskytovatel pojem.",
+        "Pozastavte platbu, takže budete muset ověřit platby za objednávku, abyste změnili její stav z nevyřízeného na potvrzený v systému poskytovatele plateb.",
     },
     delete_verify_input: {
       true_title: "já chcete k odstranit toto platba pojem.",
       true_description:
-        "toto platba pojem bude být pojem od pojem obchod a bude ne být dostupné k zákazníci.",
+        "Tato platební metoda bude z obchodu odstraněna a nebude zákazníkům dostupná.",
     },
     delete_alert: {
       title: "smazat platba pojem",
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Seznam vydaných karet",
       subtitle:
-        "zobrazit a spravovat vše pojem pojem. vy může pojem pojem k uživatelé pojem nebo pojem je pokud pojem.",
+        "Prohlížejte a spravujte všechny vydané karty. Karty můžete uživatelům odesílat ručně nebo je v případě potřeby zakázat.",
 
       loading_message: "Získávání informací... čekejte prosím",
       issue_to_user: "Problém pro uživatele",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "seznam z pojem pojem objednávky to pojem k být pojem podle pojem poskytovatelé.",
+      "Seznam externě synchronizovaných objednávek, které je třeba splnit poskytovateli třetích stran.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "pojem pojem platba pojem SMS k pojem zákazník pojem {phone}.",
+      "Odešlete zákazníkovi SMS s potvrzením platby prostřednictvím {phone}.",
     "sms-ready-to-ship":
-      "pojem pojem SMS k pojem zákazník pojem to jejich objednávka je pojem k být pojem pojem {phone}.",
+      "Pošlete zákazníkovi SMS s oznámením, že jeho objednávka je připravena k odeslání prostřednictvím {phone}.",
     "sms-ready-to-pickup":
-      "pojem pojem SMS k pojem zákazník pojem to jejich objednávka je pojem pro vyzvednutí pojem {phone}.",
+      "Pošlete zákazníkovi SMS s oznámením, že jeho objednávka je připravena k vyzvednutí prostřednictvím {phone}.",
     "sms-order-confirmation":
-      "pojem pojem objednávka pojem SMS k pojem zákazník pojem {phone}.",
+      "Odešlete zákazníkovi SMS s potvrzením objednávky prostřednictvím {phone}.",
 
     "count-adjustment":
-      "pojem pojem z pojem produkt \"{product}\" má bylo aktualizováno od {from} k {to}.",
+      "Množství produktu \"{product}\" bylo aktualizováno z {from} na {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4069,11 +4069,11 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "vy mít produkty v pojem pojem ne pojem.",
+      no_root_filter_message: "V rootu máte produkty, ale žádný filtr.",
       has_root_filter_message: "vy nastavit pojem pro pojem kategorie.",
       set_filter_message: "vy může nastavit pojem.",
-      edit_action: "upravit pojem pojem",
-      clear_action: "pojem pojem pojem",
+      edit_action: "Upravit kořenové filtry",
+      clear_action: "Vymazat kořenové filtry",
     },
     ai: {
       title: "AI produkt pojem",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "pojem",
       sort_categories: "pojem / pojem kategorie",
       subscription_vendor_not_support_message:
-        "může ne pojem prodejce pro pojem produkty! pojem produkty pojem pojem mít pojem prodejce jako jejich pojem!",
+        "Nelze přiřadit dodavatele pro předplatné produktů! Předplatné produkty musí mít vždy prodejce jako svého vlastníka!",
       vendor_owner_not_assignable_message:
-        "může ne pojem pojem prodejce pro produkty s pojem prodejce jako to pojem!",
+        "Nelze přiřadit dodavatele pro produkty, jejichž vlastníkem je prodejce!",
       category_assign_profile: "pojem profil k produkty v pojem kategorie",
       category_assign_profile_subtitle: "daň, doprava, pojem, pojem,...",
       bulk_discount: "pojem sleva",
@@ -4121,8 +4121,8 @@ export default {
       title: "ručně akce",
       message: "vy může aktualizovat pojem prodejce objednávka stav pojem.",
       guides: [
-        "prodejci s pojem přístup může aktualizovat jejich pojem (pojem) v jejich vyhrazené nástěnka.",
-        "pokud pojem prodejce má ne pojem přístup, pojem prodejce objednávka stav bude být pojem automaticky podle pojem pojem pojem stav.",
+        "Dodavatelé s přístupem k panelu mohou aktualizovat své plnění (podobjednávky) na svém vyhrazeném řídicím panelu.",
+        "Pokud dodavatel nemá přístup k panelu, stav objednávky dodavatele se automaticky změní změnou stavu košíku.",
         "vy může aktualizovat prodejce objednávky pojem.",
       ],
     },
@@ -4146,17 +4146,17 @@ export default {
       subtitle: "tržiště informace.",
     },
     performance: {
-      subtitle: "můj pojem pojem.",
+      subtitle: "Můj prodejní výkon.",
     },
     products: {
       title: "produkty",
       subtitle:
-        "pojem vy může zobrazit pojem pojem z váš produkty seznam na pojem tržiště. produkty podle pojem prodejci jsou ne zahrnuto.",
+        "Zde si můžete prohlédnout počet vašich produktů uvedených na trhu. Nejsou zahrnuty produkty od více dodavatelů.",
     },
     wallets: {
       title: "můj peněženky",
       subtitle:
-        "vy pojem pojem k přidat peněženky pojem! prodejce peněženky bude být vytvořeno automaticky.",
+        "Nemusíte přidávat peněženky ručně! Peněženky dodavatele budou vytvořeny automaticky.",
     },
 
     open_marketplace_page: "otevřít tržiště stránka",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Seznam produktů",
     subtitle:
-      "toto je pojem seznam z váš produkty v pojem tržiště. aktualizovat cena a pojem pro váš pojem produkty v pojem pojem. jako pojem prodejce, pojem pouze zobrazit pojem produkty vy pojem v pojem produkt seznam. pojem pojem produkty může být pojem pojem jako pojem.",
+      "Toto je seznam vašich produktů na trhu. Aktualizujte ceny a množství pro přiřazené produkty v inventáři. Jako prodejce uvidíte v seznamu produktů pouze produkty od jednoho dodavatele, které vlastníte. Zde lze také upravovat další přiřazené produkty.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Členové týmu",
     subtitle:
-      "toto je pojem seznam z uživatelé pojem mít přístup k váš prodejce pojem. vy může přidat nový tým členové a pojem jejich pojem pojem.",
+      "Toto je seznam uživatelů, kteří mají přístup k vašemu panelu dodavatele. Zde můžete přidat nové členy týmu a upravit jejich oprávnění.",
     add_action: "přidat nový člen",
     pending: {
       title: "Čekající pozvánky",
-      message: "zobrazit pojem seznam z pojem to jsou pojem pojem.",
+      message: "Podívejte se na seznam pozvánek, které čekají na přijetí.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "tým člen detaily",
       subtitle:
-        "přidat pojem nový tým člen a nastavit jejich pojem. pojem na pojem položka k pojem čtení/zápis přístup. pojem pojem pojem k pojem pojem pojem pro pojem hlavní obchod nástěnka.",
+        "Přidejte nového člena týmu a nastavte jeho oprávnění. Kliknutím na každou položku upravíte přístup pro čtení/zápis. Každý řádek odpovídá úrovni oprávnění pro hlavní řídicí panel obchodu.",
     },
     access: {
       view_data: "zobrazit data",
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "e-mail adresa",
-        placeholder: "pojem pojem člen e-mail adresa...",
+        placeholder: "Zadejte e-mailovou adresu člena...",
       },
     },
     notifications: {
@@ -4232,19 +4232,19 @@ export default {
     list: {
       title: "Historie výplat",
       subtitle:
-        "vy může zobrazit váš výplata pojem pojem. pojem výplaty pojem být pojem pojem pojem banka převod nebo automaticky pojem platba služby to nabídka výplata pojem.",
+        "Historii plateb si můžete prohlédnout zde. Tyto platby mohou být zpracovány ručně prostřednictvím bankovních převodů nebo automaticky pomocí platebních služeb, které nabízejí možnosti výplaty.",
     },
     connect: {
       title: "Připojit banku",
       subtitle:
-        "my nabídka pojem platba pojem pro pojem pojem platba pojem. k pojem platby pojem po pojem pojem, prosím pojem váš banka účet pojem pojem možnosti.",
+        "Nabízíme možnosti rozdělených plateb pro následující platební brány. Abyste mohli bez problémů přijímat platby po každém nákupu, připojte svůj bankovní účet pomocí těchto možností.",
     },
     verify_dialog: {
       title: "pojem platba",
       option: {
         title: "prodejce akce",
         subtitle:
-          "vy mít pojem možnost k přijmout nebo odmítnout toto převod. toto akce pojem jako pojem pojem pojem pouze. pojem potvrdit pokud vy mít přijato pojem pojem; pokud ne, pojem ne pojem k pojem pojem akce.",
+          "Máte možnost tento převod přijmout nebo odmítnout. Tato akce slouží pouze jako historický záznam. Jednoduše potvrďte, zda jste obdrželi prostředky; pokud ne, není třeba podnikat žádné kroky.",
       },
       inputs: {
         verify: {
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "Refundovat objednávku",
     subtitle:
-      "<b>pojem!</b>pojem toto akce bude pojem pojem pojem transakce v pojem prodejce peněženka a pojem pojem pojem částka od to. pojem částka pojem pojem pojem pojem celkem transakce pro pojem vybrané objednávka. pojem, pokud pojem mít bylo pojem k pojem banka účty (pojem jako s Stripe Connect nebo ručně pojem převod), vy pojem vytvořit pojem <b>pojem převod</b>.",
+      "<b>Důležité! </b>Provedení této akce vygeneruje zápornou transakci v peněžence dodavatele a odečte od ní zvolenou částku. Částka nesmí překročit zbývající celkový počet transakcí pro vybranou objednávku. Pokud byly prostředky převedeny na propojené bankovní účty (například pomocí Stripe Connect nebo ručním bankovním převodem), měli byste vytvořit <b>zpětný převod</b>.",
     inputs: {
       note: {
         message: "to viditelné k pojem prodejce.",
-        placeholder: "vy může pojem pojem poznámka pojem...",
+        placeholder: "Zde můžete připojit poznámku...",
       },
       amount: {
-        error_message: "pojem pojem částka má bylo pojem.",
+        error_message: "Zbývající částka byla překročena.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "toto pojem pojem pojem z pojem transakce v pojem prodejce pojem peněženka na pojem tržiště. pojem pojem objednávka je pojem, pojem prodejce pojem z pojem pojem je přidat k jejich peněženka.",
+      "To poskytuje přehled o transakcích ve virtuální peněžence dodavatele na tržišti. Kdykoli je zadána objednávka, podíl prodejce na prodeji se přičte do jejich peněženky.",
     vendor_wallets: "prodejce peněženky",
     my_wallets: "Moje peněženka",
     refund_order_action: "refundace objednávka",
     automatic_payout_list: {
       subtitle:
-        "toto je pojem seznam z automatické výplaty k váš pojem banka účet. prosím poznámka to pouze automatické výplaty bude být zobrazeno pojem, a ručně výplaty bude ne být zobrazeno.",
+        "Toto je seznam automatických plateb na váš propojený bankovní účet. Upozorňujeme, že zde budou zobrazeny pouze automatické platby a nebudou zobrazeny manuální platby.",
     },
     reversal_transfer_action: "Zpětný převod",
   },
@@ -4310,8 +4310,8 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "v toto pojem, vy může zobrazit pojem pojem z pojem pojem k pojem objednávka, pojem, platba, a jejich pojem pojem. pojem, vy může pojem pojem objednávky pojem k pojem zákazníci a prodejci.",
-    add_note_subtitle: "zápis pojem zpráva a pojem váš pojem.",
+      "V této sekci můžete zobrazit časovou osu událostí souvisejících s objednávkou, plněním, platbou a jejich příslušnými stavy. Kromě toho můžete sledovat objednávky odeslané zákazníkům i prodejcům.",
+    add_note_subtitle: "Napište zprávu a zmiňte své kolegy.",
 
     message_input: "Zde napište zprávu...",
     pin_action: "Připnout nahoru",
@@ -4381,7 +4381,7 @@ export default {
     received_gifts: {
       title: "Přijaté dárky",
       sub_title:
-        "pojem je pojem pojem z pojem pojem vy mít přijato, pojem od Selldone nebo pojem pojem.",
+        "Zde je kompilace darů, které jste obdrželi, ať už od Seldona nebo z jiných zdrojů.",
 
       table: {
         amount: "Množství",
@@ -4484,7 +4484,7 @@ export default {
   user_monetize_plans: {
     title: "Projekty spolupráce a monetizace",
     sub_title:
-      "pojem být pojem s pojem pojem v váš Selldone peněženka, a pojem pojem může být pojem k pojem pro Selldone služba poplatky (dostupné pro vše). prosím poznámka to pouze Selldone VIP podnikání partneři mít pojem pojem k pojem pojem pojem pojem, a toto možnost je ne dostupné k vše uživatelé.",
+      "Odměny za doporučení vám budou připsány do vaší peněženky Selldone a tyto prostředky lze použít k zaplacení poplatků za služby Selldon (k dispozici pro všechny). Vezměte prosím na vědomí, že pouze Selldone VIP obchodní partneři mají možnost vybrat tyto kredity za doporučení a tato možnost není dostupná všem uživatelům.",
 
     discount: "Sleva",
     your_income: "Váš příjem",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Hlavní profil",
       subtitle:
-        "upravit váš veřejné profil informace pojem. toto informace pojem být viditelné k váš zákazníci nebo pojem uživatelé.",
+        "Zde upravte informace o svém veřejném profilu. Tyto informace mohou být viditelné vašim zákazníkům nebo jiným uživatelům.",
       full_name_input: "Celé jméno",
       tel_input: "Kontaktní číslo",
       email_input: "E-mailem",
@@ -4772,7 +4772,7 @@ export default {
       expire_at: "Datum vypršení platnosti",
     },
     create_dialog: {
-      title: "pojem pojem",
+      title: "Token Building",
       error_message: "<strong>Chyba!</strong> Omlouváme se, došlo k chybě!",
       name_input: "Alias Ex. moje token name",
       name_input_message: "Oblíbené jméno tokenu.",
@@ -4832,7 +4832,7 @@ export default {
     },
     "backoffice:notifications": {
       name: "pojem správa",
-      description: "pojem a pojem pojem.",
+      description: "Odesílejte a přijímejte upozornění.",
     },
     "backoffice:order:write": {
       name: "objednávka správa",
@@ -4843,8 +4843,8 @@ export default {
       description: "čtení obchod objednávky.",
     },
     "backoffice:support-tickets": {
-      name: "pojem pojem",
-      description: "spravovat pojem pojem.",
+      name: "Vstupenky na podporu",
+      description: "Správa lístků podpory.",
     },
     "backoffice:shop:read": {
       name: "obchod informace",
@@ -4856,23 +4856,23 @@ export default {
     },
     "backoffice:shop:add": {
       name: "přidat obchod",
-      description: "přidat pojem nový obchod k pojem pojem.",
+      description: "Přidejte do systému nový obchod.",
     },
     "backoffice:shop:delete": {
       name: "smazat obchod",
-      description: "smazat pojem obchod od pojem pojem.",
+      description: "Odstranit obchod ze systému.",
     },
     "backoffice:giftcard:write": {
-      name: "pojem pojem správa",
-      description: "vytvořit a spravovat pojem pojem.",
+      name: "Správa dárkových karet",
+      description: "Vytvářejte a spravujte dárkové karty.",
     },
     "backoffice:giftcard:read": {
-      name: "pojem pojem přístup",
-      description: "čtení pojem pojem detaily a pojem.",
+      name: "Přístup k dárkové kartě",
+      description: "Přečtěte si podrobnosti a statistiky dárkových karet.",
     },
     "backoffice:faq:write": {
       name: "FAQ správa",
-      description: "vytvořit a spravovat pojem pojem pojem.",
+      description: "Vytvářejte a spravujte často kladené otázky.",
     },
     "backoffice:faq:read": {
       name: "FAQ přístup",
@@ -4988,7 +4988,7 @@ export default {
     },
     "backoffice:community:write": {
       name: "pojem správa",
-      description: "spravovat pojem pojem.",
+      description: "Řídit komunitní aktivity.",
     },
     "backoffice:community:read": {
       name: "pojem přístup",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "pojem správa",
-      description: "spravovat pojem, pojem pojem pojem.",
+      description: "Spravujte zpeněžení, včetně programů doporučení.",
     },
     "selldone:identification": {
       name: "pojem přístup",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "pojem",
-      description: "pojem pojem ne pojem v pojem pojem.",
+      description: "Různé rozsahy nejsou v systému definovány.",
     },
     vendor: {
       title: "prodejce",
@@ -5265,7 +5265,7 @@ export default {
       description: "Odpovídejte na otázky, pište blogy a navrhujte stránky.",
     },
     OFFICER: {
-      text: "pojem pojem",
+      text: "Senior Manager",
       description: "Prohlížejte a sledujte aktivitu zaměstnanců.",
     },
     EMPLOYEE: {
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "Formulář žádosti o převod",
         sub_title:
-          "to je pojem k pojem pojem pojem pojem váš peněženka pojem peněženky z pojem pojem měna, nebo převod je k pojem peněženky na Selldone.",
+          "Dostupné finanční prostředky je možné přesouvat ve vaší peněžence mezi peněženkami stejné měny nebo je převádět do různých peněženek na Selldone.",
         message:
           "Při převodu peněz buďte opatrní, pokud převod dokončíte, nebudete se moci vrátit.",
       },
@@ -5506,7 +5506,7 @@ export default {
   login: {
     register_title: "médium podnikání,<br>Příjemný zážitek.",
     register_subtitle:
-      "pojem pojem dnes pro pojem. Selldone je pojem podle pojem, pojem, pojem, a pojem.",
+      "Zaregistrujte se ještě dnes zdarma. Selldona milují startupy, podniky, kupující i prodávající.",
 
     password_recovery_title: "Obnova hesla",
     password_recovery_message:
@@ -5564,24 +5564,24 @@ export default {
       personal_information: "Osobní údaje a profil",
       personal_information_subtitle: "upravit můj profil, adresa a KYC.",
       wallet: "Peněženky a účty",
-      wallet_subtitle: "pojem účty a pojem platba pojem.",
+      wallet_subtitle: "Virtuální účty a připojené platební karty.",
 
       companies: "Společnosti a obchodní účty",
       companies_subtitle: "pojem můj podnikání a daň profily.",
 
       access: "Přístup k mému účtu",
       access_subtitle:
-        "OAuth pojem, pojem přístup pojem a pojem pojem.",
+        "Klienti OAuth, osobní přístupové tokeny a připojené aplikace.",
 
       security: "Bezpečnostní",
-      security_subtitle: "nastavit pojem pojem a spravovat pojem pojem možnosti.",
+      security_subtitle: "Nastavte dva faktory a spravujte možnosti sociálního přihlášení.",
 
       preferences: "Uživatelské předvolby",
       preferences_subtitle:
-        "pojem pojem, pojem, pojem a výchozí měna.",
+        "Změňte téma, úroveň, jazyk a výchozí měnu.",
       my_subscriptions: "Moje Předplatné",
       my_subscriptions_subtitle:
-        "přístup k pojem AI a pojem pojem.",
+        "Přístup k prémiové umělé inteligenci a funkcím přizpůsobení.",
     },
   },
 
@@ -5682,8 +5682,8 @@ export default {
     end_date: "Datum ukončení",
     price: "cena",
     verify: {
-      true_title: "pojem pojem",
-      true_description: "já čtení a pojem s Selldone pojem z pojem",
+      true_title: "Ověřte podmínky",
+      true_description: "Přečetl jsem a souhlasím s podmínkami použití Selldon",
     },
     need_charge: "Potřebujete nabití",
     buy_now: "Kup nyní",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Historie zakoupení",
       subtitle:
-        "Aktivní a čekající licence.",
+        "Toto je seznam aktivních a čekajících licencí. Nabídky můžete nakupovat poté, co dofinancujete svou peněženku. Dále mějte na paměti, že když zrušíte předplatné, zbývající částka předplatného bude vrácena do vaší virtuální peněženky.",
     },
     license_detail: {
       title: "Podrobnosti",
       subtitle:
-        "Omezení vašeho aktuálního plánu.",
+        "Toto jsou omezení vašeho aktuálního plánu. Další podrobnosti naleznete na stránce s cenami. Máte přístup ke všem funkcím napříč všemi plány, včetně bezplatného plánu, abyste nastartovali své podnikání a rostli. Při rozšiřování svého podnikání zvažte přechod na plán vyšší úrovně, abyste snížili své poplatky za služby.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "zvolit pojem peněženka",
         subtitle:
-          "vybrat pojem pojem peněženka k pojem pro váš pojem. pokud vy pojem mít pojem pojem, vy může vytvořit to v pojem peněženka pojem. toto peněženka bude být pojem pro pojem účtovat.",
+          "Vyberte virtuální peněženku, kterou chcete použít pro své předplatné. Pokud ještě žádnou nemáte, můžete si ji vytvořit v sekci peněženka. Tato peněženka bude použita pro jakékoli poplatky.",
       },
       auto_renewal: {
         true_title: "Automatické obnovení",
         true_description:
-          "váš pojem bude automaticky pojem pokud váš peněženka má pojem zůstatek nebo pokud vy mít pojem platné pojem.",
+          "Vaše předplatné se automaticky obnoví, pokud je ve vaší peněžence dostatečný zůstatek nebo pokud máte platný voucher.",
       },
       options: {
         title: "dodatečné možnosti",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Název",
     info: {
       subtitle:
-        "k pojem pojem produkt, vy může pojem pouze pojem pojem detaily pojem pro to pojem.",
+        "Pro vygenerování produktu můžete zadat pouze podstatné detaily nutné pro jeho vytvoření.",
     },
     price: {
       subtitle:
-        "pojem pojem cena a sleva pro toto produkt. pojem pojem produkt je přidat, pojem mít přístup k více možnosti.",
+        "Zadejte cenu a slevu pro tento produkt. Po přidání produktu budete mít přístup k dalším možnostem.",
     },
     by_sku: {
       title: "přidat podle SKU",
-      subtitle: "pojem pojem v váš země je ne dostupné.",
+      subtitle: "Databáze ve vaší zemi není k dispozici.",
     },
     drop_shipping: {
       subtitle:
-        "pojem produkty v pojem pojem tržiště a přidat je k váš obchod.",
+        "Najděte produkty na velkoobchodním trhu a přidejte je do svého obchodu.",
     },
     by_connect: {
       subtitle:
-        "pojem přidat produkty od POD nebo pojem pojem s Selldone Connect OS—pojem pojem váš obchod a pojem automatické produkt pojem, ne pojem pojem.",
+        "Snadno přidávejte produkty od dodavatelů POD nebo dropshippingových dodavatelů pomocí Selldone Connect OS – stačí připojit svůj obchod a užít si automatickou integraci produktů, nejsou potřeba žádné pluginy.",
     },
     your_license_is_not_eligible: "váš pojem je ne pojem.",
     sku_dialog: {
       title: "přidat produkt podle SKU",
       subtitle:
-        "vy mít pojem pojem k pojem produkty podle jejich SKU v pojem pojem a přidat je s pojem pojem pojem pojem.",
+        "Máte možnost vyhledat produkty podle jejich SKU v naší databázi a přidat je jediným kliknutím.",
     },
     dropshipping_dialog: {
       title: "přidat pojem produkty",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "pojem, vy může pojem pojem pojem seznam jejich produkty na Selldone, pojem je dostupné pro pojem pojem. Selldone pojem pojem pojem pojem pojem pojem, pojem to pojem a pojem pro pojem pojem a pojem.",
+      "Zde můžete najít velkoobchodníky, kteří uvádějí své produkty na Selldone a zpřístupňují je tak dalším obchodníkům. Vestavěná platforma dropshipping společnosti Selldone tento proces zjednodušuje, takže je snadný a přímočarý pro velkoobchodníky i obchodníky.",
   },
 
   /** @see Affiliates **/
@@ -5892,32 +5892,32 @@ export default {
       new: "nový affiliate partner partner",
       edit: "upravit affiliate partner partner",
       subtitle:
-        "pojem pojem pojem nastavení a pojem z pojem affiliate partner pojem.",
+        "Zde nakonfigurujte obecná nastavení a název pobočky.",
     },
 
     payment: {
       title: "platba informace",
       subtitle:
-        "nastavit pojem provize pojem pro pojem affiliate partner. vy může pojem pojem a pojem provize, nebo nastavit pojem provize pro pojem produkt.",
+        "Nastavte strukturu provizí pro affiliate partnera. Můžete kombinovat fixní a procentuální provize nebo nastavit konkrétní provize pro každý produkt.",
     },
 
     contact: {
       title: "Kontaktní informace",
-      subtitle: "pojem pojem pojem detaily z pojem affiliate partner partner pojem.",
+      subtitle: "Zde uveďte kontaktní údaje affiliate partnera.",
     },
 
     restriction: {
       title: "provize pojem",
       subtitle:
-        "pojem pojem produkty jsou pojem pro provize. vy může pojem provize k pojem produkty.",
+        "Definujte, které produkty mají nárok na provizi. Provize můžete omezit na určité produkty.",
     },
 
     link_domain: {
       title: "odkaz doména",
       subtitle:
-        "odkaz pojem z váš domény k toto affiliate partner partner. pojem pojem pojem pojem toto doména bude být pojem k toto affiliate partner.",
+        "Propojte jednu ze svých domén s tímto affiliate partnerem. Návštěvníci, kteří nakupují prostřednictvím této domény, budou připsáni tomuto přidruženému subjektu.",
 
-      domain_not_approved_msg: "pojem doména má ne bylo pojem pojem!",
+      domain_not_approved_msg: "Doména ještě nebyla schválena!",
       domain_is_not_enable_msg: "pojem doména je ne povoleno!",
       domain_is_linked_to_other_affiliate_msg:
         "toto doména je pojem odkaz k pojem affiliate partner!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "pojem",
       subtitle:
-        "pojem toto affiliate partner s pojem pojem k spravovat to pojem pojem pojem v pojem pojem.",
+        "Přidružte tuto přidruženou společnost ke clusteru, abyste ji mohli spravovat spolu s dalšími zdroji na jednom místě.",
       manage_action: "spravovat",
     },
 
@@ -5940,20 +5940,20 @@ export default {
     inputs: {
       name: {
         label: "affiliate partner partner pojem",
-        message: "pojem.pojem., John Doe, Alex společnost, X pojem, pojem.",
+        message: "např. John Doe, Alex Company, X Marketers atd.",
       },
       commission: {
         label: "provize pojem",
         false_description:
-          "pojem pojem pojem pojem z pojem a pojem provize.",
+          "Počítejte pomocí kombinace fixních a procentuálních provizí.",
         true_description:
-          "pojem pojem pojem provize nastavit v pojem ceny pojem.",
+          "Vypočítejte pomocí provizí specifických pro daný produkt nastavených na záložce cen.",
         false_title: "pojem + pojem provize",
         true_title: "pojem provize",
       },
       user: {
         label: "uživatel (volitelné)",
-        message: "volitelné, pojem.pojem., affiliate partner pojem v Selldone",
+        message: "Volitelné, např. název affiliate partnera v Selldone",
       },
       web: {
         placeholder: "volitelné, pojem.pojem., affiliate-web.com",
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "affiliate partner může pojem objednávky pojem pro jejich zákazníci pojem jejich pojem.",
+          "Přidružené společnosti mohou zadávat objednávky přímo pro své zákazníky prostřednictvím svého panelu.",
         true_title: "POS přístup",
       },
       enable: {
         true_description:
-          "je toto affiliate partner pojem aktivní? pokud neaktivní, jejich affiliate partner pojem pojem použít k objednávky pojem pojem jejich odkaz.",
+          "Je tento affiliate partner aktuálně aktivní? Pokud jsou neaktivní, jejich přidružený program se nebude vztahovat na objednávky provedené prostřednictvím jejich odkazu.",
       },
       products: {
         label: "produkty pojem pro provize",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "vy může pojem pojem pojem pojem s pojem affiliate partner před pojem je od váš obchod. affiliate partner informace bude pojem pojem pro pojem limit čas po pojem.",
+        "Jakékoli neuhrazené dluhy můžete u affiliate partnera vyrovnat, než je odstraníte ze svého obchodu. Informace o přidružených společnostech zůstanou přístupné po omezenou dobu po smazání.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "vlastní ceny a pojem",
     subtitle:
-      "pojem pojem pojem (pojem ceny vstup formulář) k pojem produkt, pojem zákazníci k vybrat varianty nebo pojem váš pojem. pojem pojem bude pojem pojem pojem cena pojem na pojem vlastní vstupy.",
+      "Přiřaďte produktu ocenění (vstupní formulář ceny), což zákazníkům umožní vybrat si varianty nebo personalizovat vaše zboží. Systém pak vypočítá cenu na základě vlastních vstupů.",
     add_valuation_action: "vytvořit nový pojem formulář",
     empty_message:
-      "pojem z pojem pojem varianty, pojem pojem pojem pojem pojem to může být pojem k pojem pojem produkt.",
+      "Namísto vytváření více variant zvažte vytvoření strategie ocenění, kterou lze aplikovat na jednoduchý produkt.",
     delete_dialog: {
       title: "pojem odstranit",
       message:
-        "jsou vy pojem vy chcete k smazat toto ceny formulář? prosím pojem to toto vlastní ceny pojem je pojem od vše pojem produkty první.",
+        "Opravdu chcete smazat tento cenový formulář? Zajistěte, aby byla tato vlastní cenová strategie nejprve odstraněna ze všech souvisejících produktů.",
       action: "Ano, smazat nyní",
     },
     notifications: {
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "ceny & pojem pojem",
+    label: "Model oceňování a oceňování",
   },
 
   /**
@@ -6033,26 +6033,26 @@ export default {
     title_add: "vytvořit nový pojem formulář",
     config: {
       subtitle:
-        "nastavit pojem pojem pojem pojem k vytvořit pojem ceny pojem pojem a pojem tabulka pro váš produkty. začátek podle pojem toto pojem pojem pojem pojem.",
+        "Nastavte systém oceňování pro vytváření flexibilních cen pomocí vzorců a referenčních tabulek pro vaše produkty. Začněte tím, že tomuto ocenění dáte jedinečný název.",
     },
-    valuation_preview: "pojem pojem formulář",
+    valuation_preview: "Náhled formuláře ocenění",
     load_sample: "pojem ukázka",
     conditions: {
       title: "Podmínky",
       subtitle:
-        "pojem pojem pojem pro vlastní varianty. toto konfigurace pojem pojem správa z varianta pojem.",
+        "Definujte logiku pro vlastní varianty. Tato konfigurace zjednodušuje správu dostupnosti variant.",
     },
     structure: {
       title: "pojem",
       subtitle:
-        "design váš ceny vstup formulář pojem podle pojem pojem a pojem tabulka.",
+        "Vytvořte si zde formulář pro zadání cen integrací vzorců a referenčních tabulek.",
       expand_action: "pojem",
       collapse_action: "pojem",
     },
     inputs: {
       title: {
         message: "toto název je ne viditelné k zákazníci.",
-        placeholder: "pojem pojem pojem pro ceny, pojem.pojem., 'pojem pojem",
+        placeholder: "Zadejte název pro stanovení ceny, např. „Cena hrnků“",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "pojem konfigurace",
         subtitle:
-          "pojem pojem z pojem sleva kód pojem je: pojem (LIMIT, pojem * pojem cena). pojem k vydělat pojem kód pojem a pojem k pojem.",
+          "Vzorec pro výpočet slevového kódu je: max (LIMIT, PROCENT * cena v košíku). Nezapomeňte, aby byly kódy relevantní a snadno zapamatovatelné.",
       },
       limit: {
         title: "pojem",
         subtitle:
-          "vy může pojem pojem maximum pojem limit pro pojem sleva kód, jako pojem jako pojem maximum sleva částka, v toto pojem.",
+          "V této sekci můžete definovat maximální limit použití pro každý slevový kód a také maximální výši slevy.",
       },
       duration: {
         title: "trvání limit",
         subtitle:
-          "pojem vy chcete k pojem pojem sleva kód pro pojem pojem pojem, vy může pojem to trvání pojem.",
+          "Pokud si přejete aktivovat slevový kód na konkrétní časové období, můžete zde nastavit dobu trvání.",
       },
       design: {
         subtitle:
-          "vy může nastavit pojem název a popis pro pojem sleva kód. pojem detaily bude být zobrazeno k pojem uživatel.",
+          "Pro každý slevový kód můžete nastavit název a popis. Tyto podrobnosti se zobrazí uživateli.",
       },
       cluster: {
         subtitle:
-          "podle pojem toto sleva kód s pojem pojem, vy může pojem spravovat to pojem pojem pojem v pojem pojem umístění.",
+          "Přidružením tohoto slevového kódu ke clusteru jej můžete snadno spravovat spolu s dalšími zdroji na jednom místě.",
       },
     },
     delete_alert: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "pojem pojem z pojem kupón sleva pojem je: CHARGE + pojem (LIMIT, pojem * pojem cena).",
+        "Vzorec pro výpočet slevy kupónu je: POPLATEK + max (LIMIT, PROCENTA * cena v košíku).",
     },
     limit: {
       subtitle:
-        "v toto pojem, pojem pojem k nastavit pojem pojem maximum pojem z pojem pojem kupón a pojem pojem sleva částka pojem kupón může pojem.",
+        "V této sekci můžete nastavit jak maximální počet použití na kupón, tak nejvyšší částku slevy, kterou může každý kupón poskytnout.",
       zero_message: "pojem: pojem je ne limit!",
     },
     duration: {
       subtitle:
-        "pokud vy pojem k nastavit pojem pojem pojem pro pojem kupón k být aktivní, vy může pojem pojem trvání v toto pojem.",
+        "Pokud si přejete nastavit konkrétní časový rámec, kdy má být kupón aktivní, můžete v této sekci nakonfigurovat dobu trvání.",
     },
     design: {
       subtitle:
-        "pojem kupón pojem pro pojem pojem z pojem název a popis. pojem detaily bude být viditelné k pojem zákazník.",
+        "Každý kupón umožňuje přidat název a popis. Tyto údaje budou viditelné pro zákazníka.",
     },
     constraints: {
       subtitle:
-        "pojem, vy mít pojem pojem k pojem dodatečné pojem pojem pro pojem kupón.",
+        "Zde máte možnost nastavit další personalizované parametry pro kupón.",
       no_limit: "ne extra pojem",
       has_limit: "extra pojem",
-      has_code_message: "uživatel pojem pojem pojem kód k přidat kupón.",
+      has_code_message: "Uživatel by měl zadat kód pro přidání kupónu.",
     },
     club: {
       subtitle:
-        "toto kupón pojem může být pojem pojem k členové z pojem zákazník pojem.",
+        "Použití tohoto kuponu může být omezeno výhradně na členy vybraných zákaznických klubů.",
     },
     cluster: {
       subtitle:
-        "podle pojem toto kupón s pojem pojem, vy může pojem spravovat to pojem pojem pojem v pojem pojem umístění.",
+        "Přidružením tohoto kupónu ke clusteru jej můžete snadno spravovat spolu s dalšími zdroji na jednom místě.",
     },
     preview: {
-      subtitle: "pojem pojem veřejné pojem z pojem kupón.",
+      subtitle: "Zde je veřejný náhled kuponu.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "pojem pojem pojem pojem pojem podle pojem to název, popis, a veřejné pojem stav.",
+        "Začněte vytvářet inteligentní dohodu stanovením jejího názvu, popisu a stavu veřejné dostupnosti.",
     },
     limit: {
-      subtitle: "nastavit pojem maximum pojem limit pro toto nabídka v toto pojem.",
+      subtitle: "V této části nastavte maximální limit využití pro tuto nabídku.",
     },
     duration: {
       subtitle:
-        "pokud vy pojem k nastavit pojem pojem pojem pro pojem nabídka, vy může pojem pojem trvání pojem.",
+        "Pokud si přejete nastavit konkrétní časový rámec pro nabídku, můžete zde nakonfigurovat dobu trvání.",
     },
     constraints: {
       subtitle:
-        "nastavit pojem pojem pojem a pojem pro pojem nabídka pojem. pojem nabídka pojem k pojem položky to pojem pojem pojem.",
+        "Zde nastavte kritéria způsobilosti a podmínky pro nabídku. Nabídka se vztahuje na položky košíku, které splňují tyto podmínky.",
     },
     discounted_products: {
       title: "sleva produkty",
       subtitle:
-        "vy může pojem pojem produkty k pojem toto nabídka bude použít pojem sleva.",
+        "Můžete určit produkty, na které bude tato nabídka uplatňovat slevu.",
     },
     cluster: {
       subtitle:
-        "podle pojem toto nabídka s pojem pojem, vy může pojem spravovat to pojem pojem pojem v pojem pojem umístění.",
+        "Přidružením této nabídky ke clusteru ji můžete snadno spravovat spolu s dalšími zdroji na jednom místě.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "affiliate partner odkaz",
       subtitle:
-        "pojem pojem pojem odkaz pro váš affiliate partner partner k pojem pojem a provize. přidat pojem kód '{code}' k pojem odkaz nebo pojem pojem vlastní vyhrazené doména pro váš affiliate partner. to bude být pojem podle pojem pojem pro 48h.",
+        "Vygenerujte pro svého affiliate partnera jedinečný odkaz pro sledování prodeje a provizí. Přidejte doporučující kódy '{code}' k libovolnému odkazu nebo přiřaďte vlastní dedikovanou doménu svému přidruženému subjektu. Systém bude sledován po dobu 48 hodin.",
     },
     fix_commission: "Pevná provize",
     percent_commission: "Provize na základě procent",
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "pojem zákazník pojem s pojem pojem pojem v váš obchod. nastavit pojem pojem a pojem pojem pro zákazníci pojem pojem pojem pojem pojem. pojem pojem pojem pojem 10 pojem, a vy může nabídka pojem pojem pro pojem pojem. pojem výchozí pojem je pojem z pojem, pojem vy může pojem to k pojem váš obchod pojem.",
+        "Zvyšte nákupy zákazníků pomocí gamifikovaných zkušeností ve vašem obchodě. Nastavte ceny a výherní kurzy pro zákazníky, kteří získávají tokeny nákupy. Každá hra stojí 10 žetonů a těm, kteří kupují poprvé, můžete nabídnout speciální ceny. Výchozí hrou je Wheel of Fortune, ale můžete si ji přizpůsobit tak, aby vyhovovala rozložení vašeho obchodu.",
     },
-    empty_prize_list: "vytvořit a spravovat pojem pojem...",
+    empty_prize_list: "Zde můžete vytvářet a spravovat ceny...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Šance na výhru v procentech",
     free_for_first: "Je to zdarma pro nové zákazníky?",
     free_for_first_message: "Noví zákazníci mohou tuto položku vyhrát.",
-    not_free_for_first_message: "toto pojem ne dostupné pro první pojem pojem.",
+    not_free_for_first_message: "Tato cena není k dispozici pro první hru zdarma.",
 
     amount: "Výše ceny",
     amount_hint: "Uživatelé vyhrají tuto částku poplatku za svou objednávku.",
@@ -6614,23 +6614,23 @@ export default {
     },
     config: {
       subtitle:
-        "pojem, vy může vytvořit váš obchod pojem pojem. nastavit pojem název, popis, barva, a obrázek pro pojem pojem.",
+        "Zde můžete vytvořit výhry v loterii vašeho obchodu. Nastavte název, popis, barvu a obrázek pro každou cenu.",
     },
     design: {
       subtitle:
-        "pojem, vy mít pojem možnost k zvolit pojem obrázek a barva pro pojem pojem.",
+        "Zde máte možnost vybrat si obrázek a barvu ceny.",
     },
     constraints: {
-      subtitle: "pojem pojem pojem a pojem pro pojem toto pojem.",
+      subtitle: "Uveďte kritéria a omezení pro výhru této ceny.",
     },
     prize: {
       title: "pojem",
       subtitle:
-        "nastavit pojem pojem pojem detaily pojem. možnosti pojem sleva kód, pojem pojem, pojem, a pojem sleva jako pojem pojem.",
+        "Zde nastavte podrobnosti o ceně. Možnosti zahrnují slevové kódy, dárkové karty, kredity a další slevy jako odměny v loterii.",
     },
     product_input: {
       label: "produkt pojem",
-      message: "vybrat pojem produkt pro pojem (je pojem)",
+      message: "Vyberte produkt pro cenu (je zdarma)",
     },
   },
 
@@ -6697,7 +6697,7 @@ export default {
   /** {@see InlineHelp**/
   inline_help: {
     helps_title: "Servisní uživatelská příručka",
-    blogs_title: "pojem pojem v Selldone pojem",
+    blogs_title: "Související obsah v blogu Soldone",
   },
 
   /** {@see BPageShopFinanceTax**/
@@ -7041,18 +7041,18 @@ export default {
     vendor: {
       title: "importovat prodejci",
       subtitle:
-        "nahrát prodejce CSV soubory pojem. pojem pojem pojem je pojem a pojem k pojem pojem.",
+        "Sem nahrajte soubory CSV dodavatele. Ujistěte se, že formát je správný a dodržuje předpisy o ochraně osobních údajů.",
       checklist: {
-        title: "pojem pojem",
-        subtitle: "být pojem k pojem pojem pojem.",
+        title: "Důležitý kontrolní seznam",
+        subtitle: "Dodržujte pokyny.",
         sample_files: "ukázka soubory",
         valid_vendor_name_needed:
-          "vy pojem pojem pojem <b>platné pojem</b>. pojem <b>pojem</b> je pojem k pojem pojem k <i>vytvořit</i> pojem nový prodejce nebo <i>aktualizovat</i> pojem pojem pojem.",
+          "Musíte zadat <b>platný název</b>. <b>name</b> se používá k určení, zda <i>Vytvořit</i> nového dodavatele nebo <i>aktualizovat</i> stávajícího.",
         assign_user_after_import:
-          "po importovat prodejci, vy může pojem pojem pojem uživatel k pojem je přístup k pojem prodejce pojem.",
+          "Po importu dodavatelů můžete ručně přiřadit uživatele, abyste jim poskytli přístup k panelu dodavatelů.",
       },
       need_kyc_alert:
-        "vy pojem k pojem váš pojem informace před importovat prodejci.",
+        "Před importem dodavatelů musíte ověřit své osobní údaje.",
       back_to_vendors_list: "pojem k prodejce seznam",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "prodejce produkty",
     subtitle:
-      "toto pojem seznam vše produkty nabídka podle prodejci. v pojem tržiště, pojem produkt může být odkaz k pojem nebo více prodejci. pojem prodejce pojem s pojem produkt má pojem pojem pojem to pojem pojem a ceny detaily pojem k to prodejce.",
+      "Tento katalog obsahuje seznam všech produktů nabízených prodejci. Na trhu může být produkt propojen s jedním nebo více dodavateli. Každý dodavatel spojený s produktem má jedinečný záznam, který obsahuje podrobnosti o zásobách a cenách specifické pro daného dodavatele.",
     filter_vendor: {
       placeholder: "pojem podle prodejce...",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "otevřít prodejci pojem",
     title: "prodejce pojem seznam",
     subtitle:
-      "toto je pojem seznam z pojem od pojem pojem mít pojem k pojem prodejci v váš tržiště.",
+      "Toto je seznam požadavků od jednotlivců, kteří požádali o to, aby se stali prodejci na vašem trhu.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,23 +7088,23 @@ export default {
     marketplace: {
       title: "Tržiště",
       subtitle:
-        "pojem pojem tržiště bude pojem pojem pojem pojem. pokud vy chcete k pojem pojem váš pojem tržiště, vy pojem pojem váš obchod v pojem nastavení.",
+        "Zakázáním tržiště se vypnou některé funkce. Pokud chcete vypnout celý svůj trh, měli byste svůj obchod zakázat v nastavení.",
     },
     distribution_model: {
-      title: "pojem pojem",
+      title: "Distribuční model",
       subtitle:
-        "tržiště může pojem pojem pojem pojem pojem. pojem vy pojem prodejci k pojem položky pojem k pojem nebo pojem objednávky v váš sklad pro doprava, vy může zvolit pojem pojem to pojem pojem váš pojem pojem.",
+        "Tržiště mohou fungovat v rámci různých distribučních modelů. Zde si můžete vybrat model, který nejlépe vyhovuje vašim potřebám, ať už dáváte přednost tomu, aby dodavatelé zasílali položky přímo kupujícím, nebo konsolidujete objednávky ve vašem skladu k odeslání.",
     },
     access: {
       title: "prodejce přístup",
       subtitle:
-        "jako pojem pojem, vy pojem pojem pojem z přístup prodejci mít k pojem produkt nástěnka. pojem pojem přístup nastavení k pojem prodejci k přidat jejich pojem produkty a kategorie nebo pojem toto přístup k pojem pouze.",
+        "Jako správce řídíte úroveň přístupu, který mají dodavatelé k řídicímu panelu produktu. Upravte nastavení globálního přístupu tak, aby dodavatelé mohli přidávat své vlastní produkty a kategorie nebo omezili tento přístup pouze na administrátory.",
     },
     need_enable_shipping_for_vendors_tips:
-      "pojem doprava pro prodejci v pojem obchod > logistika pojem pro pojem pojem pojem.",
+      "Povolte přepravu pro dodavatele na kartě Obchod > Logistika pro každý způsob zvlášť.",
     transportation_available_tooltip: "toto možnost je dostupné pro prodejci.",
     transportation_not_available_tooltip:
-      "ne dostupné pro prodejci! vy může pojem to v pojem pojem nastavení.",
+      "Není k dispozici pro prodejce! Můžete to povolit v nastavení dopravy.",
     panel: {
       title: "prodejce pojem",
       subtitle: "pojem váš prodejci pojem váš vlastní doména.",
@@ -7112,15 +7112,15 @@ export default {
     documents: {
       title: "dokumenty",
       subtitle:
-        "vy může pojem váš prodejci k nahrát dokumenty nebo pojem pojem pojem. pojem pojem povinné dokumenty pojem.",
+        "Můžete od svých prodejců požadovat, aby nahráli dokumenty nebo podepsali určité smlouvy. Zde specifikujte požadované dokumenty.",
       add_document_action: "přidat dokument pojem",
     },
     inputs: {
       enable: {
         false_description:
-          "pojem tržiště je pojem pojem, pojem vše tržiště pojem.",
+          "Marketplace je vypnutý a deaktivují se všechny jeho funkce.",
         true_description:
-          "pojem tržiště je aktivní, pojem vše tržiště pojem.",
+          "Tržiště je aktivní a umožňuje všechny funkce tržiště.",
       },
       product: {
         label: "přidat nový produkt",
@@ -7128,14 +7128,14 @@ export default {
         false_description:
           "vy přidat produkty a pojem prodejci. prodejci může pouze spravovat cena a pojem.",
         true_description:
-          "prodejci může přidat a spravovat jejich pojem produkty pojem v jejich prodejce pojem.",
+          "Prodejci mohou přidávat a spravovat své vlastní produkty přímo na panelu dodavatelů.",
       },
       need_verify: {
-        label: "produkt pojem pojem",
+        label: "Tok ověření produktu",
         false_description: "nový prodejce produkty pojem živě pojem.",
         false_title: "ne pojem povinné",
         true_description:
-          "pojem nový produkty pojem pojem před pojem živě na pojem tržiště.",
+          "Nové produkty prodejců vyžadují schválení před uvedením na trh.",
         true_title: "pojem povinné",
       },
       category: {
@@ -7150,21 +7150,21 @@ export default {
         label: "doprava možnosti",
         true_title: "prodejci mít doprava možnosti",
         false_description:
-          "prodejci pojem přidat nebo pojem jejich doprava pojem.",
+          "Prodejci nemohou přidávat ani přizpůsobovat své způsoby dopravy.",
         true_description:
-          "prodejci může nastavit pojem jejich pojem doprava pojem, přidat kurýři, a pojem doprava pro jejich pojem.",
+          "Prodejci si mohou nastavit vlastní způsoby dopravy, přidat kurýry a přizpůsobit dopravu svým potřebám.",
       },
       hidden_customer: {
-        label: "zobrazit pojem pojem informace",
-        true_description: "pojem pojem detaily jsou skryté od prodejci.",
+        label: "Zobrazit kontaktní údaje kupujícího",
+        true_description: "Kontaktní údaje kupujícího jsou před prodejci skryté.",
         false_description:
-          "pojem pojem detaily, pojem jako telefon a e-mail, jsou viditelné k prodejci.",
+          "Kontaktní údaje kupujícího, jako je telefon a e-mail, jsou viditelné pro prodejce.",
       },
       multi: {
         false_description:
-          "pojem uživatel může mít pouze pojem prodejce účet. uživatelé bude být pojem k jejich pojem v /prodejci.",
+          "Uživatel může mít pouze jeden účet dodavatele. Uživatelé budou přesměrováni na svůj panel na adrese /vendors.",
         true_description:
-          "pojem uživatel může mít pojem prodejce účty. toto je pojem pojem pojem; prosím pojem pojem před pojem to.",
+          "Uživatel může mít více účtů dodavatelů. Toto je funkce beta; před použitím nás prosím kontaktujte.",
         true_title: "pojem režim",
         false_title: "pojem prodejce režim (výchozí)",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "výpis je povoleno pro prodejci. prodejci může spravovat výpis položky a společnosti.",
         false_description: "výpis je zakázáno pro prodejci. pouze pojem obchod pojem může spravovat výpis položky a společnosti.",
         requires_listing_active_text:
-          "k pojem prodejci pojem výpis (položky + společnosti), první pojem pojem obchod výpis pojem v kanál → výpis. pojem pojem pojem pojem k pojem prodejce přístup.",
+          "Chcete-li umožnit prodejcům používat výpis (položky + společnosti), nejprve povolte funkci výpisu obchodu v Channel → Listing. Poté se sem vraťte a povolte přístup dodavateli.",
         requires_listing_active_button: "otevřít kanál výpis nastavení",
       },
 
@@ -7189,41 +7189,41 @@ export default {
       type: {
         title: "dokument pojem",
         subtitle:
-          "přidat pojem dokument pojem položka pojem. to bude pojem v pojem prodejce pojem, pojem je k nahrát pojem povinné dokument.",
+          "Zde přidejte položku žádosti o dokument. Zobrazí se na panelu dodavatele a vyzve ho k nahrání požadovaného dokumentu.",
       },
       guide: {
         title: "pojem",
         subtitle:
-          "pojem pojem pojem pojem k pojem prodejci pojem pojem dokumenty k nahrát a pojem k pojem to pojem.",
+          "Poskytněte stručného průvodce, který dodavatelům pomůže pochopit, které dokumenty mají nahrát a jak to správně provést.",
       },
       code: {
         title: "pojem kód",
         subtitle:
-          "pojem pojem pojem kód pro pojem dokument, formulář, nebo pojem to pojem prodejce pojem pojem.",
+          "Vložte kód pro vložení dokumentu, formuláře nebo smlouvy, kterou musí dodavatel podepsat.",
       },
       link: {
         title: "externí odkaz",
         subtitle:
-          "pojem pojem externí odkaz k pojem dokument nebo pojem to pojem prodejce pojem pojem.",
+          "Poskytněte externí odkaz na dokument nebo smlouvu, kterou musí dodavatel podepsat.",
       },
       inputs: {
         title: {
           label: "Titul",
-          placeholder: "pojem pojem název pro pojem dokument pojem.",
+          placeholder: "Zadejte název žádosti o dokument.",
         },
         guide: {
           label: "pojem (volitelné)",
           placeholder:
-            "pojem, pojem pojem pojem pojem nebo pojem, pojem odkaz k pojem nebo pojem dokumenty.",
+            "Volitelně uveďte stručný návod nebo pokyny, včetně odkazů na smlouvy nebo jiné dokumenty.",
         },
         code: {
           label: "pojem kód",
-          placeholder: "pojem pojem pojem kód pojem...",
+          placeholder: "Sem vložte kód pro vložení...",
           message: "může pojem HTML kód.",
         },
         url: {
           label: "URL",
-          message: "pojem pojem URL pro pojem dokument nebo pojem pojem...",
+          message: "Zde zadejte adresu URL dokumentu nebo smlouvy...",
         },
       },
     },
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "pojem režim",
       description:
-        "v toto režim, vše objednávky jsou odesláno k váš sklad první a pojem pojem k zákazníci od pojem pojem umístění. prodejci bude pojem jejich položky k váš sklad, pojem pojem doprava adresa pro prodejci bude být váš sklad adresa.",
+        "V tomto režimu jsou všechny objednávky nejprve odeslány do vašeho skladu a poté odeslány zákazníkům z centrálního místa. Prodejci zašlou své položky do vašeho skladu, takže dodací adresa pro dodavatele bude adresa vašeho skladu.",
     },
     Direct: {
       title: "pojem doprava od prodejce",
       description:
-        "v toto režim, prodejci pojem objednávky pojem k zákazníci. pojem doprava adresa pro prodejce objednávky bude být pojem pojem adresa.",
+        "V tomto režimu dodavatelé zasílají objednávky přímo zákazníkům. Doručovací adresou pro objednávky dodavatele bude adresa kupujícího.",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "pojem pojem dokument",
+      title: "Identifikační doklad vlastníka",
       description:
-        "nahrát pojem pojem ID k pojem pojem pojem z pojem podnikání pojem nebo klíč pojem.",
+        "Nahrajte úředně vydaný průkaz totožnosti k ověření identity vlastníka firmy nebo klíčového vedoucího pracovníka.",
     },
     Business: {
       title: "podnikání pojem",
       description:
-        "pojem pojem podnikání dokumenty pojem jako pojem nebo pojem pojem k potvrdit pojem pojem stav z váš podnikání.",
+        "Poskytněte základní obchodní dokumenty, jako jsou licence nebo osvědčení o registraci, abyste potvrdili právní status vaší firmy.",
     },
     Address: {
       title: "adresa pojem",
       description:
-        "pojem pojem dokument k pojem váš podnikání adresa, pojem jako pojem pojem pojem, daň faktura, nebo pojem pojem.",
+        "Odešlete dokument k ověření adresy vaší firmy, například účet za energie, daňový doklad nebo nájemní smlouvu.",
     },
     Contract: {
       title: "pojem & pojem",
       description:
-        "nahrát pojem nebo pojem to pojem pojem pojem a pojem z váš podnikání pojem.",
+        "Nahrajte smlouvy nebo dohody, které podrobně popisují podmínky vašich obchodních vztahů.",
     },
     Copyright: {
-      title: "pojem pojem",
+      title: "Dokumentace o autorských právech",
       description:
-        "pojem pojem pojem dokumenty k pojem váš pojem vlastnost pojem.",
+        "Poskytněte dokumenty o registraci autorských práv k potvrzení vašich práv duševního vlastnictví.",
     },
     Privacy: {
-      title: "pojem pojem dokumenty",
+      title: "Zásady ochrany osobních údajů Dokumenty",
       description:
-        "pojem váš pojem pojem dokumenty k pojem váš pojem k pojem uživatel a zákazník informace.",
+        "Zahrňte dokumenty se zásadami ochrany osobních údajů, abyste prokázali svůj závazek chránit informace o uživatelích a zákaznících.",
     },
     Embed: {
       title: "pojem formulář",
       description:
-        "pojem pojem pojem formulář k pojem pojem povinné informace.",
+        "Vyplňte vložený formulář a uveďte požadované informace.",
     },
     Link: {
       title: "externí odkaz",
       description:
-        "pojem pojem externí odkaz k pojem pojem pojem informace.",
+        "Potřebné informace poskytněte pomocí externího odkazu.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "prodejce peněženky",
     subtitle:
-      "ne pojem k pojem přidat peněženky! prodejce peněženky jsou vytvořeno automaticky. pokud vy pojem pojem platba pojem to pojem pojem výplaty (pojem Stripe Connect), pojem pojem bude automaticky pojem platby k pojem pojem pojem účty. pokud toto pojem je ne povoleno, pojem pojem k pojem pojem prodejci, a vy může pojem pojem částka pojem k je v pojem peněženka seznam.",
+      "Není třeba ručně přidávat peněženky! Peněženky dodavatele se vytvářejí automaticky. Pokud povolíte platební metodu, která podporuje rozdělené výplaty (jako Stripe Connect), systém automaticky rozdělí platby na účty připojených prodejců. Pokud tato funkce není povolena, budete muset obchodníkům platit ručně a částky, které jim dlužíte, můžete zkontrolovat v seznamu peněženek.",
     filter_vendor: {
       placeholder: "pojem podle prodejce...",
     },
@@ -7307,11 +7307,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "toto pojem pojem pojem pojem seznam z vše transakce pro pojem vybrané peněženka. pojem účtovat transakce je pojem pojem pojem zákazník úspěšně pojem pro pojem objednávka. pokud pojem objednávka je zrušit nebo pojem refundace, pojem pojem refundace transakce bude pojem být pojem pojem.",
+      "Tato část poskytuje podrobný seznam všech transakcí pro vybranou peněženku. Účtovací transakce se zaznamená, když zákazník úspěšně zaplatí za objednávku. Pokud je objednávka zrušena nebo částečně vrácena, bude zde také zaznamenána odpovídající transakce vrácení peněz.",
     vendor_bank: "prodejce banka",
     order_fee: "objednávka poplatek",
     order_refund: "objednávka refundace",
-    reverse_fund: "pojem pojem",
+    reverse_fund: "Zrušení fondu",
     payout: "výplata",
   },
 
@@ -7321,8 +7321,8 @@ export default {
   marketplace_payouts: {
     title: "výplata pojem",
     subtitle:
-      "toto pojem pojem účet pro vy a váš prodejci podle pojem pojem pojem pojem z vše transakce. platby může být pojem pojem pojem banka převod nebo pojem pojem, nebo automaticky pojem podle platba poskytovatelé to pojem pojem platby, pojem Stripe.",
-    top_up_vendor_action: "pojem pojem prodejce účet",
+      "Tato funkce zjednodušuje účetnictví pro vás a vaše dodavatele tím, že vede podrobné záznamy o všech transakcích. Platby mohou být zpracovány ručně prostřednictvím bankovních převodů nebo jinými metodami nebo automaticky spravovány poskytovateli plateb, kteří podporují rozdělené platby, jako je Stripe.",
+    top_up_vendor_action: "Doplňte účet dodavatele",
   },
 
   /**
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "ceny pojem",
     subtitle:
-      "nastavit pojem ceny pojem pro váš tržiště, pojem pojem 5% pojem poplatek pro pojem produkty. toto vydělat ceny správa pojem a více pojem.",
+      "Nastavte cenové modely pro své tržiště, například 5% marži pro digitální produkty. Díky tomu je správa cen rychlejší a efektivnější.",
     add_pricing_action: "přidat ceny pojem",
   },
 
@@ -7341,22 +7341,22 @@ export default {
   vendor_pricing_add: {
     title: "tržiště ceny pojem",
     subtitle:
-      "pojem vy pojem pojem ceny pojem k prodejce produkty, pojem cena bude automaticky být pojem jako prodejce cena * (1 + provize%).",
+      "Když produktům dodavatele přiřadíte cenový model, cena se automaticky vypočítá jako cena dodavatele * (1 + provize %).",
     delete: {
       subtitle:
-        "pojem pojem ceny pojem bude pojem vše prodejce produkty odkaz k to. před pojem pojem ceny pojem, vydělat pojem k aktualizovat vše prodejce produkty pojem to a pojem je pojem pojem ceny pojem.",
+        "Odstranění cenového modelu ovlivní všechny produkty dodavatele, které jsou s ním propojeny. Před odebráním cenového modelu se ujistěte, že aktualizujete všechny produkty dodavatele, které jej používají, a přiřaďte jim jiný cenový model.",
       remove_pricing_action: "odstranit ceny pojem",
     },
     inputs: {
       title: {
-        placeholder: "pojem.pojem., pojem produkty pojem...",
+        placeholder: "např. Třída digitálních produktů...",
       },
       description: {
         placeholder: "vy může přidat pojem poznámka pojem...",
       },
       accept_delete: {
         true_description: "já chcete k smazat toto ceny pojem.",
-        true_title: "potvrdit ceny pojem pojem",
+        true_title: "Potvrďte odstranění modelu ceny",
       },
     },
   },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "prodejce",
       subtitle:
-        "vybrat pojem prodejce vy pojem k převod pojem k. pojem vybrané, dostupné platba možnosti bude být zobrazeno. pokud pojem povoleno pojem platba pojem, pojem možnosti bude pojem pojem pojem.",
+        "Vyberte dodavatele, kterému chcete převést prostředky. Po výběru se zobrazí dostupné možnosti platby. Pokud jste povolili platební brány s možností výplaty, tyto možnosti se zde také zobrazí.",
     },
     vendor_wallet: "prodejce peněženka",
     vendor_bank_account: "prodejce banka účet",
     with_balance_tooltip:
-      "pojem vy pojem výplata služby pojem Stripe Connect, my pojem a pojem pojem dostupné zůstatek v váš Stripe účet pro pojem.",
+      "Když připojíte výplatní služby, jako je Stripe Connect, načteme a zobrazíme dostupný zůstatek na vašem účtu Stripe pro referenci.",
     with_balance: "s zůstatek",
     without_balance: "pojem zůstatek - pojem režim",
     bank_transfer: {
       title: "banka převod",
       subtitle:
-        "toto je pojem pojem z platba pojem. ne pojem peníze bude být pojem k pojem prodejce podle pojem pojem; vy pojem pojem pojem váš prodejci.",
+        "Toto je záznam historie plateb. Systém dodavateli nepřevede žádné skutečné peníze; musíte ručně zaplatit svým prodejcům.",
     },
     vendor_bank: "prodejce banka",
     gateway_in_debug_mode_warning:
-      "pojem pojem platba pojem je pojem v pojem režim, pojem bude ne být pojem k pojem pojem účet.",
+      "Vzhledem k tomu, že platební brána je aktuálně v režimu ladění, nebudou prostředky převedeny na skutečný účet.",
     payment: {
       title: "Způsob platby",
       subtitle:
-        "zvolit pojem měna a pojem pojem částka vy chcete k převod k pojem prodejce. pokud vy pojem pojem pojem částka, pojem pojem bude být pojem od pojem prodejce peněženka. pro pojem účty s výplata možnosti, pojem pojem bude být pojem od pojem pojem účet, pojem jako pojem prodejce Stripe účet.",
+        "Vyberte měnu a zadejte částku, kterou chcete převést dodavateli. Pokud zadáte zápornou částku, budou prostředky staženy z peněženky prodejce. U propojených účtů s možnostmi výplaty budou prostředky odečteny z propojeného účtu, jako je například Stripe účet dodavatele.",
     },
     history: {
       title: "Dějiny",
       subtitle:
-        "pojem z toto platba má bylo refundace pojem pojem pojem převod, pojem pojem zůstatek má bylo pojem od pojem prodejce účet a vráceno k váš účet.",
+        "Část této platby byla vrácena zpětným převodem, což znamená, že zůstatek byl odečten z účtu dodavatele a vrácen na váš účet.",
     },
     refund: {
       title: "refundace",
       subtitle:
-        "pojem refundace částka bude být pojem od pojem prodejce zůstatek. vše platby (nebo pojem částka) v pojem prodejce účet (pojem Stripe Connect) bude být refundace pojem pojem pojem převod.",
+        "Vrácená částka bude odečtena ze zůstatku dodavatele. Všechny platby (nebo zbývající částky) na účtu dodavatele (jako Stripe Connect) budou vráceny zpětným převodem.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "vy může přidat pojem poznámka pojem... toto poznámka je ne viditelné k pojem prodejce.",
+          "Zde můžete přidat poznámku... Tato poznámka není viditelná pro dodavatele.",
       },
       accept_refund: {
         true_description: "já chcete k zrušit toto platba.",
@@ -7414,9 +7414,9 @@ export default {
     },
     notifications: {
       reverse_fund_success: {
-        title: "pojem pojem",
+        title: "Fond obrácený",
         message:
-          "pojem prodejce pojem pojem má bylo pojem úspěšně, s peníze pojem od pojem banka k pojem peněženka a přidat k pojem peněženka zůstatek.",
+          "Zrušení fondu dodavatele bylo úspěšně dokončeno, peníze byly převedeny z banky do peněženky a přidány k zůstatku v peněžence.",
       },
       payout_success: {
         title: "výplata",
@@ -7431,12 +7431,12 @@ export default {
    */
   quota_importer: {
     quota: "pojem",
-    max_batch_msg: "maximum pojem z položky vy může importovat v pojem pojem pojem.",
-    max_daily_limit_msg: "maximum pojem z položky vy může importovat v pojem pojem.",
-    extra_daily_limit_msg: "dodatečné položky pojem pojem pojem pojem limit.",
+    max_batch_msg: "Maximální počet položek, které můžete importovat v jedné dávce.",
+    max_daily_limit_msg: "Maximální počet položek, které můžete importovat za den.",
+    extra_daily_limit_msg: "Další položky povolené nad denní limit.",
     add_items_today_msg: "položky přidat dnes.",
     file_statistic_msg: "pojem pro toto soubor.",
-    used_quota: "pojem pojem",
+    used_quota: "Použitá kvóta",
   },
 
   /** {@see BPageShopMarketingCampaign**/
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Barvy motivu",
     theme_colors_description:
-      "vy může pojem pojem primární barva pojem z váš obchod pojem. pojem šablona může pojem pojem barva k automaticky pojem pojem pojem barva pojem to pojem s váš pojem.",
+      "Zde si můžete přizpůsobit primární barevnou paletu svého obchodu. Každá šablona může tyto barvy využít k automatickému generování kompletního barevného rozsahu, který odpovídá vaší značce.",
     products_view_mode: "Zobrazení nákupního seznamu",
     products_view_mode_desc:
       "Režim zobrazení produktů ve vašem obchodě můžete upravit podle velikosti obrazovky. Tento režim bude považován za výchozí a nebude použit, pokud uživatel změní režim zobrazení.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "pojem název",
-      subtitle: "pojem pojem z pojem název bude pojem pojem.",
+      subtitle: "Výška titulku se bude dynamicky upravovat.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "s pojem",
         false_description:
-          "kategorie a produkty mít pojem pojem pojem k zobrazit pojem pojem.",
+          "Kategorie a produkty mají interaktivní animaci, která ukazuje funkčnost.",
         true_title: "Statický",
         true_description: "kategorie a produkty mít ne pojem.",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "pojem akce",
       hover: {
         false_description:
-          "pojem a pojem režim pojem pojem extra akce na produkt pojem.",
+          "Jednoduchý a minimální režim bez dalších akcí na produktových kartách.",
         true_description:
-          "zobrazit pojem pojem & přidat k pojem pojem na produkt pojem pojem.",
+          "Zobrazit tlačítka Rychlý nákup a Přidat k porovnání na kartě produktu.",
         true_title: "zobrazit akce na pojem",
       },
     },
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "produkt stránka",
       subtitle:
-        "pojem váš produkt stránka pojem. vy může pojem pojem pojem z cena a pojem pojem pojem z pojem k pojem váš pojem.",
-      buy_button_color: "pojem pojem barva",
+        "Zde si přizpůsobte svou produktovou stránku. Zobrazení cen a uspořádání sekcí si můžete upravit podle svých preferencí.",
+      buy_button_color: "Koupit barvu tlačítka",
       smart_price: {
-        title: "pojem pojem cena",
+        title: "Cena inteligentní jednotky",
         true_description:
-          "pojem pojem cena podle pojem hmotnost, pojem, a pojem varianty vlastnost. pojem. pokud vy mít pojem varianta s 2L velikost a $5 jako cena, pojem pojem zákazník zobrazit pojem $2.5/L na pojem produkt stránka.",
+          "Výpočet jednotkové ceny s ohledem na hmotnost, objem a vlastnosti variant balení. Př. Pokud máte variantu s velikostí 2 l a cenou 5 USD, pak zákazník na stránce produktu uvidí 2,5 USD/l.",
       },
       reverse_currency: {
-        title: "měna pojem pojem",
+        title: "Pozice znaku měny",
         false_title: "Normální mód",
         true_title: "pojem režim",
         false_description:
-          "pojem měna pojem bude být pojem v pojem začátek z pojem pojem. pojem: $95, €30",
+          "Znak měny bude umístěn na začátku čísel. Příklad: $95 , 30 EUR",
         true_description:
-          "pojem měna pojem bude být pojem v pojem konec z pojem pojem. pojem: 95$, 30€",
+          "Znak měny bude umístěn na konci čísel. Příklad: 95 $, 30 €",
       },
       variants_selector: {
         title: "varianty pojem",
         subtitle:
-          "vy může zvolit pojem pojem k pojem varianty na pojem produkt stránka.",
+          "Můžete si vybrat různé způsoby zobrazení variant na stránce produktu.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "pojem & pojem",
       subtitle:
-        "pojem pojem prodejce pojem a pojem pojem s pojem vlastní pojem, obrázek, nebo zpráva.",
+        "Přizpůsobte si registraci a přihlášení dodavatele pomocí vlastního videa, obrázku nebo zprávy.",
     },
     inputs: {
       page_vendor_login: {
         label: "prodejce pojem stránka",
         message:
-          "vybrat pojem vlastní pojem stránka pro prodejce pojem. pojem pojem, obrázky, nebo text pro pojem pojem design. toto stránka je zobrazeno k prodejci pojem jsou ne pojem v.",
+          "Vyberte vlastní vstupní stránku pro přihlášení dodavatele. Zahrňte video, obrázky nebo text pro jedinečný design. Tato stránka se zobrazuje prodejcům, kteří nejsou přihlášeni.",
       },
       page_vendor_registered: {
         label: "prodejce pojem stránka",
         message:
-          "vybrat pojem vlastní stránka pro pojem prodejci. toto stránka je zobrazeno pokud váš tržiště pojem pojem prodejci pojem uživatel.",
+          "Vyberte vlastní stránku pro přihlášené dodavatele. Tato stránka se zobrazí, pokud vaše tržiště podporuje více dodavatelů na uživatele.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "vlastní varianty",
       subtitle:
-        "pojem produkty může mít varianty. vy může pojem pojem výchozí pojem z varianty. pojem pojem je k pojem pojem položky jako výchozí a prázdné pojem to Selldone bude automaticky pojem je pro váš zákazníci pojem jejich pojem. pojem maximum pojem je 24.",
+        "Fyzické produkty mohou mít varianty. Výchozí název variant můžete změnit. Navrhujeme ponechat tyto položky jako výchozí a prázdné, aby je selldone automaticky přeložil vašim zákazníkům do jejich jazyků. Maximální délka je 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7618,11 +7618,11 @@ export default {
     inputs: {
       font_family: {
         label: "písmo pojem",
-        message: "pojem pojem pojem pojem.",
+        message: "Zadejte hodnotu rodiny písem.",
       },
       font_res: {
         label: "písmo pojem",
-        message: "pojem pojem písmo pojem.",
+        message: "Zadejte zdroj písma.",
       },
     },
   },
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "pojem logo",
       subtitle:
-        "podle výchozí, váš obchod logo je zobrazeno v pojem pojem, pojem vy může nahrát pojem vlastní logo pojem. pokud váš logo pojem ne mít pojem pojem pojem pojem, vy pojem pojem k pojem pojem pojem pojem a pojem pro pojem pojem.",
+        "Ve výchozím nastavení se logo vašeho obchodu zobrazuje v záhlaví, ale můžete místo něj nahrát vlastní logo. Pokud vaše logo nemá čtvercový poměr stran, možná budete muset ručně upravit výšku a šířku pro optimální prezentaci.",
     },
     header_title: {
       title: "pojem název",
       subtitle:
-        "vy může pojem pojem název zobrazeno v pojem pojem z váš stránky pojem. pokud vy pojem k pojem odstranit to, prosím pojem pojem 'nastavit prázdné pojem pojem.",
+        "Zde si můžete přizpůsobit název zobrazený v záhlaví vašich stránek. Pokud jej chcete zcela odstranit, klikněte na tlačítko 'Nastavit prázdný název'.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "pojem režim",
       description:
-        "pojem varianty v pojem pojem možnosti, pojem pro pojem pojem.",
+        "Kompaktní varianty ve volitelných samostatných možnostech, vhodné pro většinu případů.",
     },
     select: {
       title: "vybrat režim",
       description:
-        "pojem vše varianty v pojem pojem, pojem pro pojem pojem pojem z varianty.",
+        "Zobrazí všechny varianty v rozevíracím seznamu, ideální pro velké množství variant.",
     },
   },
 
@@ -7682,15 +7682,15 @@ export default {
     variants: {
       title: "Varianty",
       subtitle:
-        "vy může pojem pojem varianta pojem, ikona, a objednávka pojem. pokud vy mít pojem pojem z produkty s pojem varianty to pojem pojem výchozí 6 varianty, vy může nastavit vlastní varianty pro pojem produkt pojem.",
+        "Zde si můžete přizpůsobit název varianty, ikonu a pořadí. Pokud máte různé produkty s jedinečnými variantami, které neodpovídají výchozím 6 variantám, můžete zde nastavit vlastní varianty pro každý produkt.",
     },
 
     inputs: {
       title: {
-        placeholder: "pojem pojem název pro vlastnost nastavit...",
+        placeholder: "Zadejte název sady vlastností...",
       },
       description: {
-        placeholder: "pojem pojem pojem popis... (volitelné)",
+        placeholder: "Zadejte krátký popis... (volitelné)",
       },
       custom_variants: {
         true_title: "vlastní varianty",
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "nastavit pojem nastavit... (volitelné)",
         messages:
-          "vy může pojem pojem pro pojem pojem a pojem objednávka.",
+          "Můžete poskytnout návrhy hodnot a přizpůsobit pořadí.",
       },
     },
   },
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Správa zákazníků",
     subtitle:
-      "zákazníci může být přidat k váš obchod v pojem pojem; pojem, pojem pojem importovat, pojem pojem POS, nebo pojem váš online obchod. pojem pojem uživatel pojem pojem váš obchod, pojem bude automaticky být pojem jako pojem zákazník.",
+      "Zákazníci mohou být do vašeho obchodu přidáni několika způsoby; ručně, hromadným importem do Excelu, přes POS nebo přes váš internetový obchod. Kdykoli se uživatel přihlásí do vašeho obchodu, bude automaticky zaregistrován jako zákazník.",
     add_customer_action: "přidat nový zákazník",
 
     all_customers: "Stáhnout všechny zákazníky",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "upravit zákazník",
     add_title: "přidat nový zákazník",
     subtitle:
-      "k přidat pojem zákazník k váš obchod, prosím pojem pojem pojem e-mail adresa nebo pojem telefon pojem.",
+      "Chcete-li do svého obchodu přidat zákazníka, zadejte e-mailovou adresu nebo telefonní číslo.",
     more: {
       title: "Přidejte další podrobnosti",
       subtitle: "nastavit měna, zákazník pojem, pojem, adresa a více.",
     },
     detail: {
       subtitle:
-        "pojem pojem pojem z pojem informace pojem váš zákazník. prosím pojem váš zákazník pojem.",
+        "Zaznamenejte si osobní údaje o svém zákazníkovi. Respektujte prosím soukromí svého zákazníka.",
     },
     preferences: {
-      subtitle: "nastavit výchozí uživatel měna, zákazník pojem, a pojem pojem.",
+      subtitle: "Zde nastavte výchozí uživatelskou měnu, zákaznický klub a segmenty.",
     },
     address: {
       subtitle:
-        "toto adresa může být pojem v pojem POS. pojem uživatel může ne zobrazit toto informace.",
+        "Tuto adresu lze použít v POS. Uživatel tyto informace nevidí.",
     },
   },
 
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Chcete-li tento balíček odeslat <b>přepravní službou</b>, klikněte na následující tlačítko.",
     courier_action: "doručení pojem",
-    courier_action_subtitle: "můj kurýr bude pojem pojem pojem pojem.",
+    courier_action_subtitle: "Můj kurýr balíček vyzvedne.",
 
     pickup_ready_action: "vyzvednutí pojem",
     pickup_ready_action_subtitle: "pojem objednávka je pojem pro zákazník vyzvednutí.",
 
-    service_action: "pojem pojem",
+    service_action: "Potvrzení o provedení",
 
     checklist: [
       "Zkontrolujte průkaz totožnosti kurýra.",
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "potvrdit doručení pojem",
       true_description:
-        "já potvrdit to pojem objednávka má bylo pojem k pojem zákazník.",
+        "Potvrzuji, že objednávka byla doručena zákazníkovi.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "pojem nástěnka",
     subtitle:
-      "pojem váš pojem, pojem provize poplatek bude být pojem k pojem banka účet pojem podle vy. prosím pojem váš banka informace pojem.",
+      "Na Vaši žádost bude provize vyplacena na Vámi uvedený bankovní účet. Zde uveďte své bankovní údaje.",
     no_bank_info: "ne banka informace!",
     actions: {
       edit_my_bank_info: "upravit můj banka informace",
@@ -8013,41 +8013,41 @@ export default {
       info: {
         title: "banka",
         subtitle:
-          "prosím vstup váš banka informace pojem. my bude pojem toto informace k převod pojem. pojem to pojem banka účet je v váš pojem nebo pojem váš podnikání pojem, jako pojem.",
+          "Zde zadejte své bankovní údaje. Tyto informace použijeme k převodu finančních prostředků. Ujistěte se, že bankovní účet je na vaše jméno nebo pod vaším obchodním jménem, ​​podle toho, co je relevantní.",
       },
       inputs: {
         name: {
           label: "banka pojem",
-          message: "pojem pojem pojem z pojem banka pojem pojem účet je pojem.",
+          message: "Úplný název banky, kde je účet veden.",
         },
         holder_name: {
-          label: "účet pojem pojem",
+          label: "Jméno držitele účtu",
           message:
-            "pojem pojem pojem z pojem pojem nebo pojem to pojem pojem účet.",
+            "Celé jméno osoby nebo subjektu, který je držitelem účtu.",
         },
         account_number: {
           label: "Číslo účtu",
           message:
-            "pojem pojem pojem pojem s pojem pojem banka účet.",
+            "Jedinečné číslo spojené s konkrétním bankovním účtem.",
         },
         routing_number: {
-          label: "pojem pojem (USA) nebo pojem kód (UK)",
+          label: "Směrové číslo (USA) nebo Sort Code (Velká Británie)",
           message:
-            "pojem pojem to pojem pojem pojem banka pojem (pojem pojem jsou pojem v pojem země).",
+            "Číslo, které identifikuje konkrétní pobočku banky (v různých zemích se používají různé termíny).",
         },
         swift: {
           label: "SWIFT/BIC kód",
           message:
-            "pojem pojem kód pojem k pojem banka pojem, pojem pro pojem převod.",
+            "Mezinárodní kód používaný k celosvětové identifikaci bank, zejména pro mezinárodní převody.",
         },
         iban: {
           label: "IBAN (pojem banka účet pojem)",
           message:
-            "pojem pojem v pojem, pojem IBAN je pojem pojem pojem pojem pro pojem banka účty pojem pojem pojem.",
+            "IBAN, který se používá především v Evropě, je mezinárodně dohodnutý systém pro identifikaci bankovních účtů přes státní hranice.",
         },
         contact: {
           label: "Kontaktní informace",
-          message: "telefon pojem nebo e-mail adresa pojem s pojem účet.",
+          message: "Telefonní číslo nebo e-mailová adresa spojená s účtem.",
         },
         note: {
           label: "Poznámka",
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "od vše služba poplatky, pojem a pojem platby pojem podle váš pojem.",
+      "Ze všech poplatků za služby, předplatného a dalších plateb provedených vašimi doporučeními.",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "pojem pojem",
+      title: "Bronzová řada",
       description:
-        "vy jsou v pojem pojem pojem. vy mít pojem 2% provize od váš pojem.",
+        "Jste na bronzové úrovni. Získali jste 2% provizi z vašich doporučení.",
     },
     Silver: {
-      title: "pojem pojem",
+      title: "Tier Silver",
       description:
-        "vy jsou v pojem pojem pojem. vy mít pojem 4% provize od váš pojem.",
+        "Nacházíte se ve stříbrné úrovni. Získali jste 4% provizi z vašich doporučení.",
     },
     Gold: {
-      title: "pojem pojem",
+      title: "Tier Gold",
       description:
-        "vy jsou v pojem pojem pojem. vy mít pojem 6% provize od váš pojem.",
+        "You are in the Gold Tier. Získali jste 6% provizi z vašich doporučení.",
     },
     Platinum: {
-      title: "pojem pojem",
+      title: "Tier Platinum",
       description:
-        "vy jsou v pojem pojem pojem. vy mít pojem 8% provize od váš pojem.",
+        "Nacházíte se v platinové úrovni. Získali jste 8% provizi z vašich doporučení.",
     },
     Diamond: {
-      title: "pojem pojem",
+      title: "Tier Diamond",
       description:
-        "vy jsou v pojem pojem pojem. vy mít pojem 10% provize od váš pojem.",
+        "Nacházíte se v Diamond Tier. Získali jste 10% provizi z vašich doporučení.",
     },
   },
 
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Platby za doporučení",
     subtitle:
-      "to pojem seznam z pojem transakce. pojem vy převod pojem od pojem peněženka k váš banka účet nebo váš Selldone peněženka, to bude být seznam pojem.",
+      "Je to seznam výběrových transakcí. Když převedete prostředky z doporučující peněženky na váš bankovní účet nebo peněženku Selldon, bude zde uveden.",
 
     officer: "Důstojník",
     amount: "Částka transakce",
@@ -8520,7 +8520,7 @@ export default {
     manage: {
       title: "spravovat SMS",
       subtitle:
-        "vy může zobrazit pojem pojem z pojem text zpráva odesláno podle váš obchod pojem. pojem k pojem pojem v pojem pojem pojem pojem v pojem pojem služba, to je ne pojem k pojem pojem text zpráva v pojem pojem.",
+        "Zde si můžete prohlédnout obsah textových zpráv zaslaných vaším obchodem. Vzhledem k omezení při registraci ověřovacích vzorů ve službě zasílání zpráv není v tuto chvíli možné personalizovat textové zprávy.",
     },
 
     template: {
@@ -8528,26 +8528,26 @@ export default {
       valid_message: "vy může vytvořit vlastní SMS zpráva.",
       provider_not_enable_message: "pojem SMS poskytovatel je ne povoleno!",
       need_custom_provider_message:
-        "pojem SMS zpráva pouze pojem pokud vy nastavit pojem vlastní poskytovatel.",
+        "Přizpůsobené SMS zprávy fungují pouze v případě, že nastavíte vlastního poskytovatele.",
       add_new: "přidat nový",
       disable_reason: {
         set_provider: "nastavit váš poskytovatel první!",
         provider_is_disabled: "poskytovatel je pojem!",
-        otp: "OTP - pojem pojem!",
+        otp: "OTP – žádné přizpůsobitelné!",
         select_another_provider: "vybrat pojem poskytovatel.",
       },
       enable_only_filter: "zobrazit pouze povoleno",
 
       text_template_not_supported_msg:
-        "váš poskytovatel pojem ne pojem pojem text zpráva.",
+        "Váš poskytovatel nepodporuje prosté textové zprávy.",
       structure_template_not_supported_msg:
-        "váš poskytovatel pojem ne pojem pojem zpráva.",
+        "Váš poskytovatel nepodporuje strukturální zprávy.",
 
       structured_data: "pojem data",
 
       menu: {
         reset_error: "pojem chyba",
-        send_test: "pojem pojem zpráva",
+        send_test: "Odeslat zkušební zprávu",
       },
     },
     template_edit: {
@@ -8556,7 +8556,7 @@ export default {
       config: {
         title: "zpráva konfigurace",
         subtitle:
-          "vy může vytvořit pojem šablona pro pojem SMS zpráva na váš SMS poskytovatel pojem, pojem pojem to kód a data pojem pojem. pojem pojem toto informace k váš poskytovatel, pojem pojem pojem SMS zpráva bude být pojem.",
+          "Šablonu SMS zprávy si můžete vytvořit na webu vašeho poskytovatele SMS zpráv, zde pak zadejte její kód a datovou strukturu. Tyto informace předáme vašemu poskytovateli, kde bude vygenerována vlastní SMS zpráva.",
         code: "Kód",
         language_msg: "pojem to prázdné k nastavit to jako výchozí.",
         enable_msg: "toto šablona bude být pojem k vytvořit zpráva.",
@@ -8564,14 +8564,14 @@ export default {
       text: {
         title: "pojem text",
         subtitle:
-          "pojem pojem pojem SMS zpráva pojem. pojem pojem bude být pojem s jejich pojem pojem před být odesláno k pojem uživatel.",
+          "Zde zadejte personalizovanou SMS zprávu. Dynamické hodnoty budou před odesláním uživateli nahrazeny jejich skutečnými hodnotami.",
         message: "Zpráva",
         reset_to_default: "pojem k výchozí",
 
         auto_fill: {
-          title: "automaticky pojem pojem",
+          title: "Parametry automatického plnění",
           subtitle:
-            "vy může pojem pojem z pojem pojem v pojem text a Selldone bude pojem je s pojem pojem pojem.",
+            "Každý z těchto parametrů můžete použít v textu a Selldone je nahradí odpovídající hodnotou.",
         },
 
         sample: {
@@ -8581,13 +8581,13 @@ export default {
       template: {
         title: "pojem šablona",
         subtitle:
-          "vy může nastavit pojem šablona klíč a pojem pojem. pojem šablona kód pojem být pojem pojem vy nastavit v váš SMS služba poskytovatel, a pojem <code>klíč</code> je pojem váš poskytovatel chcete k pojem pojem kód pojem. pokud pojem <code>pojem</code> pole z šablona je prázdné, pojem <code>{code}</code> bude být pojem jako pojem šablona kód.",
+          "Zde můžete nastavit klíč a hodnotu šablony. Kód šablony by měl být přesně takový, jaký jste nastavili u svého poskytovatele SMS služeb, a <code>key</code> je to, přes co chce váš poskytovatel kód poslat. Pokud je pole <code>value</code> šablony prázdné, bude <code>{code}</code> považován za kód šablony.",
         add_new_parameter: "přidat nový pojem",
 
         auto_fill: {
-          title: "automaticky pojem pojem",
+          title: "Parametry automatického plnění",
           subtitle:
-            "vy může nastavit pojem z pojem pojem jako pojem pojem, a Selldone bude pojem je s pojem pojem pojem. to pojem k pojem pojem výchozí pojem jako šablony v váš SMS poskytovatel pro pojem. v toto pojem, pojem bude být ne pojem k pojem pojem pojem pojem.",
+            "Každý z těchto parametrů můžete nastavit jako hodnotu a Selldone je nahradí odpovídající hodnotou. Pro zjednodušení je lepší definovat výchozí hodnoty jako šablony u vašeho poskytovatele SMS. V tomto případě zde nebude potřeba definovat hodnoty parametrů.",
         },
         request: {
           title: "ukázka pojem",
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "pojem text",
-      desc: "zpráva bude být vytvořeno od pojem text s automaticky pojem pojem a pojem.",
+      desc: "Zpráva bude vytvořena z textu s parametry automatického nahrazení a odeslána.",
     },
     template: {
       title: "pojem šablona",
-      desc: "pojem pojem bude být vytvořeno od pojem a pojem k pojem poskytovatel.",
+      desc: "Z parametrů bude vytvořen objekt a odeslán poskytovateli.",
     },
   },
 
@@ -8617,33 +8617,33 @@ export default {
     title: "vlastní SMS poskytovatel",
     reset_error: "pojem chyba",
     subtitle:
-      "nastavit pojem pojem vlastní SMS služba poskytovatel a pojem váš pojem SMS a podnikání pojem. pojem výchozí poskytovatel pojem pojem pojem SMS a pojem zpráva v pojem pojem země.",
+      "Nastavte si vlastního poskytovatele SMS služeb a přizpůsobte si ověřovací SMS a obchodní název. Výchozí poskytovatel pouze odesílá ověřovací SMS a informativní zprávy v některých zemích na bílé listině.",
     plain_text: "pojem text",
     structural_template: "pojem šablona",
     errors_limit_msg:
-      "pokud váš služba pojem 100 chyba, to bude být zakázáno automaticky! vy může pojem chyba k pojem to.",
+      "Pokud vaše služba překročí 100 chyb, bude automaticky deaktivována! Můžete resetovat chyby a znovu ji povolit.",
 
     enable_input: {
       false_description:
-        "OTP zpráva bude být pojem pojem Selldone v vybrat země, pojem pojem objednávka pojem SMS bude být odesláno jako pojem.",
+        "OTP zprávy budou ve vybraných zemích odesílány prostřednictvím Selldone, zatímco ostatní SMS s upozorněním na objednávku budou zasílány také.",
       true_description:
-        "SMS zpráva bude být pojem pojem váš služba poskytovatel.",
+        "SMS zprávy budou doručeny prostřednictvím vašeho poskytovatele služeb.",
     },
     test_input: {
       true_title: "pojem konfigurace",
       true_description:
-        "my bude pojem pojem pojem zpráva k váš telefon pojem 📞 <b>{phone}</b>, to může účtovat vy, pojem vy může vydělat pojem pojem pojem pojem.",
+        "Na vaše telefonní číslo 📞 <b>{phone}</b> vám zašleme zkušební zprávu, může vás nabít, ale můžete se ujistit, že vše funguje dobře.",
     },
     sync_action: {
       title: "Akce",
       subtitle:
-        "pojem SMS služby pojem extra služby pojem pojem, pojem, a pojem pojem. vy může pojem váš pojem nebo dodatečné informace k pojem jejich pojem více pojem.",
-      action: "pojem pojem",
+        "Některé služby SMS poskytují další služby, jako jsou kampaně, marketing a další funkce. Své kontakty nebo další informace můžete synchronizovat a používat jejich funkce rychleji.",
+      action: "Synchronizujte kontakty",
     },
     tokens: {
       title: "pojem",
       subtitle:
-        "nastavit pojem pojem pojem k odkaz váš SMS služba poskytovatel s váš obchod.",
+        "Nastavením následujících parametrů propojíte poskytovatele SMS služeb s vaším obchodem.",
     },
   },
   sms_messages_options: {
@@ -8679,9 +8679,9 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "vlastní pojem pojem",
+    title: "Vlastní poštovní server",
     subtitle:
-      "Connect váš pojem služba poskytovatel k pojem e-mail pojem váš vlastní doména.",
+      "Chcete-li odesílat e-maily prostřednictvím vlastní domény, připojte se k poskytovateli poštovních služeb.",
     provider: "poskytovatel",
     enable_input: {
       false_description: "váš e-mail bude být odesláno pojem váš pojem doména.",
@@ -8690,12 +8690,12 @@ export default {
     config: {
       title: "konfigurace",
       subtitle:
-        "k pojem váš vlastní pojem služba pro váš obchod, vstup váš služba API klíč pojem s pojem pojem nastavení.",
+        "Chcete-li nakonfigurovat vlastní poštovní službu pro svůj obchod, zadejte klíč API služby spolu s dalšími nezbytnými nastaveními.",
     },
     sender: {
       title: "Z",
       subtitle:
-        "vy může pojem pojem výchozí pojem pojem a e-mail adresa, pojem bude být pojem pro pojem e-mail k váš zákazníci.",
+        "Můžete nakonfigurovat výchozí jméno odesílatele a e-mailovou adresu, které se budou používat pro zasílání e-mailů vašim zákazníkům.",
     },
 
     inputs: {
@@ -8708,18 +8708,18 @@ export default {
     },
 
     actions: {
-      send_test_email: "pojem pojem pojem e-mail",
+      send_test_email: "Pošlete zkušební e-mail",
     },
 
     messages: {
       provider_error_limit:
-        "pokud váš služba pojem 100 chyba, to bude být zakázáno automaticky! vy může pojem chyba k pojem to.",
+        "Pokud vaše služba překročí 100 chyb, bude automaticky deaktivována! Můžete resetovat chyby a znovu ji povolit.",
 
       encryption_ports_guide:
-        "e-mail poskytovatelé pojem nabídka SSL, TLS, nebo pojem pojem pojem na dostupné pojem. pokud pojem pojem v pojem chyba, pojem pojem pojem režim pojem pojem pojem pojem. pojem <b>TLS</b> pojem pojem: <b>587</b> a <b>SSL</b> pojem pojem: <b>465</b>.",
+        "Poskytovatelé e-mailu mohou nabízet SSL, TLS nebo nešifrovaná připojení na základě dostupných portů. Pokud při připojení dojde k chybě, může problém vyřešit změna režimu šifrování. Standardní <b>TLS</b> používá port: <b>587</b> a <b>SSL</b> používá port: <b>465</b>.",
 
       enable_receive_test:
-        "po uložit pojem, vy bude pojem pojem pojem pojem na <b>{email}</b>. uložit pojem před pojem pojem pojem e-mail s pojem nový konfigurace.",
+        "Po uložení změn obdržíte testovací e-mail na <b>{email}</b>. Před odesláním zkušebního e-mailu s novou konfigurací uložte změny.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram pojem kanál",
     subtitle:
-      "vytvořit pojem vyhrazené kategorie pro váš produkty, pojem s obrázky a pojem, a pojem to pojem váš pojem pojem. to pojem k Instagram a TikTok, pojem s pojem pojem, pojem vy k pojem pojem váš produkty.",
+      "Vytvořte vyhrazenou kategorii pro své produkty, doplněnou o obrázky a videa, a sdílejte ji na svých sociálních sítích. Je to podobné jako Instagram a TikTok, ale s plnou kontrolou, což vám umožňuje přímo prodávat vaše produkty.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Ke konečné ceně je třeba připočítat daň.",
     invoice: {
       subtitle:
-        "podle pojem toto formulář, vy může vytvořit pojem platba odkaz pro pojem pojem částka. to pojem vydělat pojem pojem faktura a potvrdit platba pojem pojem a pojem.",
+        "Pomocí tohoto formuláře můžete vytvořit platební odkaz pro konkrétní částku. Sledování faktury a potvrzení dokončení platby je také jednoduché a snadné.",
     },
   },
 
@@ -8947,11 +8947,11 @@ export default {
       delete_success: "Soubor byl úspěšně smazán.",
     },
     drag_sort_msg: "vy může přetáhnout a pojem soubory.",
-    paid_mode_msg: "uživatelé může stáhnout to pouze po pojem pojem produkt.",
+    paid_mode_msg: "Uživatelé si jej mohou stáhnout až po zakoupení produktu.",
     free_mode_msg:
-      "uživatelé může stáhnout to pro pojem. ukázka soubory pojem být pojem 50 MB.",
+      "Uživatelé si jej mohou stáhnout zdarma. Ukázkové soubory musí být menší než 50 MB.",
     has_gust_shopping_msg:
-      "pojem a pojem uživatelé může stáhnout soubory pojem pojem pojem jsou povoleno v pojem obchod nastavení > pojem.",
+      "Registrovaní a hostující uživatelé mohou stahovat soubory, protože nákupy hostů jsou povoleny v nastavení obchodu > flow.",
     only_registered_shopping_msg:
       "pouze pojem uživatelé může stáhnout ukázka soubory.",
     file_count_limit: "soubory pojem limit",
@@ -8963,48 +8963,48 @@ export default {
   product_location_restrictions: {
     title: "dostupné umístění",
     subtitle:
-      "pokud váš produkt nebo služba je pouze dostupné v pojem pojem, pojem podle země a pojem nebo pojem kód, vy může pojem pojem umístění pojem. pojem umístění pojem jsou pojem v pojem produkt pojem. na pojem produkt stránka, zákazníci bude být pojem k vybrat jejich umístění. pokud pojem produkt je dostupné v jejich pojem pojem, pojem bude být pojem k pojem s pojem pojem.",
+      "Pokud je váš produkt nebo služba k dispozici pouze ve specifických oblastech definovaných zemí a PSČ, můžete tato místa určit zde. Tato omezení umístění jsou vynucována na úrovni produktu. Na stránce produktu budou zákazníci vyzváni, aby vybrali své umístění. Pokud je produkt dostupný ve zvolené oblasti, bude moci pokračovat v nákupu.",
 
     add_location_action: "přidat země",
     no_restriction: "ne pojem",
     import: {
       title: "pojem profil",
-      subtitle: "vybrat pojem pojem umístění profil.",
+      subtitle: "Vyberte profil uložených míst.",
     },
     export: {
       title: "uložit profil",
-      subtitle: "obchod umístění pro pojem pojem.",
+      subtitle: "Uložte místa pro budoucí použití.",
     },
     has_restriction_input: {
       title: "má umístění pojem",
       description:
-        "zákazníci může pouze pojem toto produkt pojem pojem pojem země a pojem kód, pojem k pojem pojem umístění pojem.",
+        "Zákazníci si mohou tento produkt zakoupit pouze v rámci uvedené země a PSČ z důvodu zavedeného omezení umístění.",
     },
     zip_pin_code: "pojem / pojem kód",
     no_country_selected_error:
-      "prosím pojem v pojem pojem země pojem s pojem seznam z pojem/pojem kód. pojem to, toto produkt bude ne být dostupné.",
-    tips: "pojem na pojem <b>+ přidat země</b> pojem k začátek pojem pojem nový umístění nastavit. pojem pojem pojem, vy může uložit to podle pojem na pojem pojem <b>⋮ pojem</b> a vybrat <b>uložit profil</b>.",
+      "Uveďte prosím alespoň jednu zemi spolu se seznamem PSČ. Bez něj nebude tento produkt dostupný.",
+    tips: "Kliknutím na tlačítko <b>+ Přidat zemi</b> začněte vytvářet novou sadu umístění. Až budete hotovi, můžete jej uložit kliknutím na <b>⋮ vpravo nahoře Menu</b> a výběrem <b>Uložit profil</b>.",
     need_save_message:
-      "pojem umístění pojem nastavení pro pojem produkt mít bylo pojem. k pojem pojem pojem, prosím pojem na pojem 'pojem pojem pojem.",
+      "Nastavení omezení umístění pro produkt byla změněna. Chcete-li tyto změny zachovat, klikněte níže na tlačítko 'Uložit'.",
 
     add_dialog: {
       title: "přidat země",
       message:
-        "zvolit pojem země a pojem 'pojem. toto bude pojem pojem země k pojem tabulka, pojem vy k pojem pojem, pojem kód, pojem pojem, nebo pojem pojem k to.",
+        "Vyberte zemi a klikněte na 'Přidat'. Tím se země připojí k tabulce, což vám umožní přiřadit k ní PSČ, PIN kódy, názvy měst nebo názvy regionů.",
     },
     save_profile_dialog: {
       title: "přidat umístění profil",
       message:
-        "prosím vstup pojem pojem k uložit toto nastavit z umístění. toto pojem umístění nastavit může být pojem k pojem produkty, pojem pro pojem umístění pojem s pojem pojem pojem pojem. pokud pojem profil s pojem pojem pojem pojem pojem, to bude být aktualizováno s pojem nový pojem.",
+        "Chcete-li uložit tuto sadu míst, zadejte prosím název. Tuto uloženou sadu umístění lze použít na jiné produkty, což umožňuje rychlé načtení polohy jediným kliknutím. Pokud profil se zadaným názvem již existuje, bude aktualizován o tyto nové hodnoty.",
       title_input: {
         title: "profil název",
-        placeholder: "pojem kategorie pojem, nebo obchod pojem,...",
+        placeholder: "Název kategorie nebo název obchodu,...",
       },
     },
     load_profile_dialog: {
       title: "pojem umístění profil",
       message:
-        "vy může pojem umístění podle vybrat pojem pojem pojem umístění nastavit pojem.",
+        "Umístění můžete načíst tak, že zde vyberete dříve uloženou sadu umístění.",
 
       select_input: {
         title: "umístění profil",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Nenechte si ujít své objednávky!",
     msg: "Spravujte své podnikání kdekoli a kdykoli.",
-    scan_qr_code: "pojem pojem s váš telefon!",
+    scan_qr_code: "Naskenujte mě svým telefonem!",
 
     notification: {
       title: "Oznámení",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "pojem objednávka zpráva",
-      desc: "pojem pojem pojem e-mail s pojem detaily z objednávky pro to pojem.",
+      desc: "Dostávat denně e-mail s podrobnostmi o objednávkách pro daný den.",
     },
   },
 
@@ -9114,7 +9114,7 @@ export default {
   /** {@see SInviteFriends} **/
   invite_friends: {
     title: "Řekněte o svém podnikání světu!",
-    msg: "pojem váš pojem k Selldone a pojem je pojem $99 společnost pojem pojem pojem pojem pojem. pojem pojem vydělat jejich první transakce, pojem pojem pojem pojem provize od vše jejich transakce. pojem pojem affiliate partner stránka k začátek pojem dnes!",
+    msg: "Doporučte svým přátelům Selldone a dejte jim firemní poukaz $99, když se zaregistrují. Jakmile provedou svou první transakci, získáte doživotní provizi ze všech jejich transakcí. Navštivte naši affiliate stránku a začněte vydělávat ještě dnes!",
     invite: {
       title: "Připojte se k Selldone business OS a získejte bezplatný poukaz v hodnotě 99 $.",
       description:
@@ -9133,11 +9133,11 @@ export default {
     sample: {
       title: "ukázka obchod",
       subtitle:
-        "pojem, vy může pojem pojem pojem z ukázka obchod. vy jsou pojem pojem k pojem pojem informace dostupné v pojem obchod. pojem, prosím pojem od pojem v nebo pojem objednávky pojem pojem pojem informace, jako toto data bude být pojem k pojem veřejné. pokud vy pojem pojem váš informace pojem, pojem pojem pojem obchod a pojem v pojem s pojem pro pojem pojem.",
+        "Zde můžete objevit výběr vzorových prodejen. Máte oprávnění k prohlížení informací dostupných v těchto obchodech. Zdržte se však přihlašování nebo zadávání objednávek pomocí skutečných osobních údajů, protože tyto údaje budou přístupné veřejnosti. Pokud zde omylem zadáte své údaje, opusťte prosím obchod a kontaktujte nás pro další pomoc.",
     },
 
     add_new_store: "přidat nový obchod",
-    i_have_a_deal: "já mít pojem pojem",
+    i_have_a_deal: "Mám dohodu",
     access: {
       title: "přístup pojem",
     },
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategorie blogu",
     subtitle:
-      "vy může vytvořit pojem limit pojem z kategorie pro váš pojem pojem k spravovat je více pojem. pojem pojem kategorie limit pojem pojem pojem na váš pojem. pojem, pojem pojem pojem nový pojem pojem pojem limit pojem z kategorie, pojem pojem pojem 100, k pojem správa a pojem pojem pojem pojem.",
+      "Pro své blogové příspěvky můžete vytvořit omezený počet kategorií, abyste je mohli spravovat efektivněji. Omezení kategorií podporuje lepší organizaci na vašem webu. Je pozoruhodné, že dokonce i nejlepší tiskové agentury udržují omezený počet kategorií, často méně než 100, aby zefektivnily správu a udržely širší zaměření.",
 
     add_action: "Přidat novou kategorii",
     add_dialog: {
@@ -9182,9 +9182,9 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "pojem pojem pojem",
+    title: "Plán vydání obsahu",
     subtitle:
-      "pojem je pojem seznam z pojem pojem nastavit pro pojem pojem. vy mít pojem pojem k pojem pojem pojem a pojem produkt popis k být pojem v pojem čas.",
+      "Zde je seznam plánovaných článků pro budoucí zveřejnění. Máte možnost naplánovat publikování blogových příspěvků a dokonce i popisů produktů, které budou zveřejněny v konkrétní čas.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Asistent objednávek",
     subtitle:
-      "exportovat a stáhnout pojem pro pojem objednávka pojem - pojem pro pojem pojem 100 objednávky pojem.",
+      "Exportujte a stahujte štítky pro hromadné zpracování objednávek – ideální pro zpracování více než 100 objednávek denně.",
 
     timespan: {
       title: "Časový úsek",
@@ -9266,7 +9266,7 @@ export default {
       title: "Způsoby přihlášení",
       subtitle: "Přizpůsobte si způsob, jakým se uživatelé přihlašují do vašeho obchodu.",
 
-      tips: "<b>pojem.</b> pojem pojem uživatel pojem s váš obchod, pojem pojem Selldone uživatel je vytvořeno, pokud pojem pojem pojem pojem. toto uživatel bude mít přístup k jejich adresa pojem pojem vše obchod a může zobrazit jejich objednávka pojem, pojem pokud pojem obchod má pojem. my pojem ne pojem toto informace pro pojem pojem pojem pojem to k pojem pojem na pojem pojem. k pojem pojem, pojem pojem pojem e-mail k pojem uživatel pojem je z jejich pojem.",
+      tips: "<b>Důležité.</b> Když se uživatel zaregistruje ve vašem obchodě, vytvoří se odpovídající prodaný uživatel, pokud ještě neexistuje. Tento uživatel bude mít přístup ke svému adresáři ve všech obchodech a bude moci zobrazit historii svých objednávek, i když je obchod uzavřen. Tyto informace nepoužíváme pro marketingové účely, ale vyžadujeme je, abychom zabránili podvodům na obou stranách. Abychom zachovali transparentnost, zašleme uživateli e-mail s informací o jeho registraci.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "pojem formulář",
       subtitle:
-        "pojem pojem pojem formulář pole k pojem pojem informace vy pojem od váš zákazníci.",
+        "Upravte si pole formuláře pokladny tak, aby shromažďovala informace, které potřebujete od svých zákazníků.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "Moji prodejci",
     message:
-      "toto je pojem seznam z váš prodejce účty. vše prodejce účty pojem s obchod pojem pojem Selldone pojem bude být zobrazeno pojem, pojem vy k spravovat je s pojem.",
+      "Toto je seznam vašich účtů dodavatelů. Zde se zobrazí všechny účty dodavatelů spojené s obchody využívajícími platformu Selldone, což vám umožní je snadno spravovat.",
   },
 
   vendor_page: {},
@@ -9485,7 +9485,7 @@ export default {
       name: "pojem",
       title: "pojem",
       description:
-        "toto produkt je ne seznam v pojem obchod, pojem pojem podle pojem odkaz.",
+        "Tento produkt není uveden v obchodě, ale je dostupný prostřednictvím přímého odkazu.",
     },
   },
 
@@ -9493,18 +9493,18 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "pojem pojem pojem",
+    title: "Odeslat přímou žádost",
     message:
-      "pojem váš pojem 3 podnikání pojem k pojem a pojem na Selldone. toto informace bude být pojem pojem s pojem a pojem a bude být pojem pojem. vy může pojem aktualizovat váš pojem pojem čas po pojem.",
-    expand_action: "zápis pojem pojem...",
+      "Identifikujte své 3 hlavní potřeby, aby vaše podnikání prosperovalo a profitovalo na Selldon. Tyto informace budou sdíleny přímo se zakladateli a řediteli a budou pečlivě zváženy. Své potřeby můžete také po odeslání časem aktualizovat.",
+    expand_action: "Napište žádost...",
     input_label: "váš pojem",
     to: {
       ceo: "pojem k CEO",
       team: "pojem k tým",
     },
     placeholder: {
-      ceo: "pojem ne pojem k být pojem, já pojem k pojem váš pojem, pojem pojem.\npojem.pojem. já pojem k mít...",
-      team: "prosím pojem k být pojem k je.\npojem.pojem. já pojem k mít...",
+      ceo: "Naprosto není třeba být milý, rád slyším váš přímý a věcný dotaz.\nnapř. Potřebuji mít...",
+      team: "Zkuste na ně být laskaví.\nnapř. Potřebuji mít...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "pojem importovat produkty",
     message:
-      "my jsou v pojem pojem z importovat produkty a obrázky, pojem pojem pojem pojem čas k pojem.",
+      "Právě probíhá import produktů a obrázků, jehož dokončení může nějakou dobu trvat.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "pojem informace zobrazeno pojem má bylo pojem podle pojem zákazník, v pojem s pojem produkt vstup formulář pojem.",
+      "Zde zobrazené informace byly zaslány zákazníkem v souladu se strukturou vstupního formuláře produktu.",
   },
 
   /**
@@ -9545,12 +9545,12 @@ export default {
     test: {
       title: "ukládat",
       subtitle: "externí služba zpráva",
-      action: "pojem pojem",
+      action: "Test připojení",
       last_update: "poslední aktualizováno podle",
     },
     service_status: {
       title: "služba stav",
-      syncing_message: "na pojem pojem...",
+      syncing_message: "O procesu synchronizace...",
       action: "pojem vše",
       connect_status: "Connect stav",
       service_status: "služba stav",
@@ -9558,19 +9558,19 @@ export default {
       auto_confirm_disable_msg:
         "automatické pojem z objednávky je ne povoleno.",
       shipping_enable_msg:
-        "pojem doprava pojem bude být pojem pojem na pojem informace pojem v pojem.",
+        "Cena dopravy bude vypočítána na základě informací uvedených při pokladně.",
     },
     detail: {
       title: "Connect pojem",
       auto_confirm_order: "automaticky potvrdit objednávky",
       test_mode: "pojem režim",
       status: {
-        subtitle: "pojem informace pojem pojem stav.",
+        subtitle: "Celkové informace o stavu synchronizace.",
       },
       sync: {
-        title: "pojem pojem",
+        title: "Podrobnosti synchronizace",
         subtitle:
-          "interní pojem detaily. toto informace je pojem po pojem pojem pojem pojem úspěšně konec.",
+          "Podrobnosti o interní synchronizaci. Tyto informace se uloží po úspěšném ukončení epochy procesu synchronizace.",
         no_data: "ne pojem informace!",
       },
     },
@@ -9578,15 +9578,15 @@ export default {
     products: {
       title: "produkty",
       subtitle:
-        "seznam z přidat produkty od {name}. vydělat pojem váš produkt má pojem pojem pojem a SKU. pojem Connect služby jsou pojem pro pojem, pojem pokud vy mít produkty s pojem <b>pojem</b> a <b>pojem</b>, pojem produkty bude být pojem!",
+        "Seznam přidaných produktů z {name}. Ujistěte se, že váš produkt má jedinečný název a SKU. Některé služby Connect se používají pro migraci, takže pokud máte produkty s duplicitními <b>SKUs</b> a <b>Names</b>, tyto produkty budou změněny!",
       action: "pojem produkty",
-      syncing_message: "na pojem pojem...",
+      syncing_message: "O procesu synchronizace...",
     },
 
     logs: {
       title: "pojem",
       subtitle:
-        "pojem seznam z vše pojem v pojem poslední 7 dny. pojem pojem pojem pouze na externí služba poskytovatelé.",
+        "Seznam všech protokolů za posledních 7 dní. Funkce protokolování je podporována pouze u externích poskytovatelů služeb.",
     },
 
     edit: {
@@ -9595,30 +9595,30 @@ export default {
       service: {
         title: "služba",
         subtitle:
-          "vybrat pojem pojem, pojem pojem, nebo tržiště k pojem.",
+          "Vyberte cílovou platformu, dodavatele dropshippingu nebo tržiště, ke kterému se chcete připojit.",
       },
       test: {
         false_title: "pojem vše",
         false_desc: "pojem vše dostupné produkty, kategorie, zákazníci.",
         true_title: "limit (pojem pro pojem)",
         true_desc:
-          "pojem pojem 5 produkty, kategorie, a zákazníci. vy může pojem to k pojem režim v pojem Connect > pojem v pojem čas.",
+          "Získejte maximálně 5 produktů, kategorií a zákazníků. Kdykoli jej můžete přepnout do plného režimu v nabídce Připojit > Nastavení.",
       },
       overwrite: {
-        false_title: "pojem ne pojem pokud pojem",
-        false_desc: "pojem pojem produkt a kategorie detaily jako pojem jsou.",
+        false_title: "Neměňte, pokud existují",
+        false_desc: "Zachovejte stávající podrobnosti o produktu a kategorii tak, jak jsou.",
         true_title: "pojem",
         true_desc:
           "aktualizovat pojem produkt, varianta, a kategorie informace.",
       },
       migration_tips:
-        "<b>pojem:</b>pokud vy chcete k pojem pojem pojem prosím vybrat <b>limit</b> možnost. podle vybrat 'pojem pojem, my pojem vše data od váš pojem " +
-        "služby a stáhnout pojem obrázky, pojem to bude pojem váš pojem pojem. pojem, pojem pojem produkty, kategorie, a zákazníci pojem být pojem!",
+        "<b>Tipy: </b>Pokud chcete funkčnost vyzkoušet, vyberte\n" +
+          "            Možnost <b>Limited</b>. Výběrem možnosti „Synchronizovat vše“ získáme všechna data z vašich připojených služeb a stáhneme související obrázky, takže se sníží vaše bezplatné úložiště. Také odstranění mnoha produktů, kategorií a zákazníků by bylo obtížné!",
       add_action: "automaticky pojem k",
       order: {
         title: "objednávka stav",
         subtitle:
-          "pojem pojem pojem služba objednávka správa nastavení pro váš obchod. toto pojem pojem pojem objednávka pojem, pojem automatické objednávka pojem (pokud pojem), a pojem doprava pojem pojem.",
+          "Nakonfigurujte nastavení správy objednávek připojené služby pro váš obchod. To zahrnuje nastavení přijetí objednávky, povolení automatického potvrzení objednávky (pokud je podporováno) a konfiguraci kalkulací nákladů na dopravu.",
       },
       enable: {
         label: "Connect stav",
@@ -9628,19 +9628,19 @@ export default {
         label: "automaticky potvrdit objednávky",
         false_desc: "vy pojem potvrdit objednávka pojem.",
         true_desc:
-          "objednávky s živě platba bude být automaticky pojem. objednávky s pojem platba bude ne pojem automaticky.",
-        tips: "objednávky pojem podle pojem pojem nebo COD nebo platba pojem v pojem pojem režim jsou pojem a bude ne být potvrdit automaticky.",
+          "Objednávky se živou platbou budou automaticky schváleny. Objednávky s platbou za ladění nebudou automaticky schváleny.",
+        tips: "Objednávky zaplacené dárkovou kartou nebo na dobírku nebo platební brány v režimu ladění jsou výjimkou a nebudou automaticky potvrzovány.",
       },
 
       shipping: {
         label: "Lodní doprava",
-        tips: "toto služba nabídka doprava pojem, pojem může být povoleno nebo zakázáno jako pojem váš pojem. pokud povoleno, pojem pojem pojem s 3pojem pojem služby bude být povinné, pojem pojem pojem pojem pojem z pojem 300pojem pro pojem pojem cena na pojem pojem stránka.",
+        tips: "Tato služba nabízí výpočet dopravy, který lze povolit nebo zakázat podle vašich preferencí. Pokud je povoleno, budou vyžadována rozhraní API pro výpočet nákladů se službami třetích stran, což může způsobit zpoždění aktualizace ceny na stránce pokladny až 300 ms.",
         false_title: "pojem",
         false_desc:
-          "pojem můj doprava pojem pojem, v obchod > logistika > pojem pro vše produkty, pojem importovat pojem.",
+          "Použijte můj výpočet nákladů na dopravu v Obchod > Logistika > Doprava pro všechny produkty, včetně dovážených.",
         true_title: "pojem doprava",
         true_desc:
-          "pojem pojem doprava pojem pojem API nabídka podle toto služba.",
+          "Využijte rozhraní API pro výpočet sazby za dopravu nabízené touto službou.",
       },
 
       remove: {
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect váš podnikání pojem k externí služby a spravovat vše kanály v pojem pojem pojem.",
+        "Připojte svůj obchodní operační systém k externím službám a spravujte všechny kanály na stejném místě.",
       action: "Connect nový služby",
       empty_message:
-        "pojem pojem a pojem pro pojem! Connect je pojem pojem z pojem objednávka správa.",
+        "Zapomeňte na aplikace a pluginy pro dropshipping! Connect je budoucností správy objednávek napříč platformami.",
       auto_confirm: "automaticky potvrdit",
       shipping: "Lodní doprava",
       syncing_now: "pojem nyní!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "pojem",
-      desc: "pojem produkty, kategorie, a zákazníci. po pojem uživatel smazat toto služba, pojem přijato produkty, kategorie, a zákazníci bude ne být smazáno.",
+      desc: "Získejte produkty, kategorie a zákazníky. Poté, co uživatel tuto službu smaže, přijaté produkty, kategorie a zákazníci nebudou smazáni.",
     },
     Dropshipping: {
       title: "pojem",
-      desc: "pojem produkty, kategorie, a objednávky. pojem pojem odstranit produkty po pojem uživatel odstranit pojem služba.",
+      desc: "Získejte produkty, kategorie a objednávky. Systém odebere produkty poté, co uživatel odebere službu.",
     },
     Marketplace: {
       title: "Tržiště",
-      desc: "pojem pojem pojem a pojem objednávky (produkty bude být odkaz podle SKU).",
+      desc: "Stačí synchronizovat inventář a přijímat objednávky (Produkty budou propojeny podle SKU).",
     },
     Accounting: {
       title: "Účetnictví",
@@ -9699,7 +9699,7 @@ export default {
     title: "Vstupní stránky",
     add_new_action: "přidat nový stránka",
     subtitle:
-      "vytvořit pojem, pojem vlastní stránky pro váš pojem pojem pojem pojem pojem pojem pojem, a automaticky pojem pojem pojem podle kanál v data.",
+      "Vytvářejte osobité, responzivní vlastní stránky pro svou značku pomocí všestranného inline editoru s umělou inteligencí a automaticky generujte dynamický obsah vkládáním dat.",
     empty_message: "design vlastní stránky podle přetáhnout & pustit...",
   },
 
@@ -9723,8 +9723,8 @@ export default {
    */
   community_comments: {
     title: "Komentáře",
-    subtitle: "toto je pojem seznam z pojem pojem pojem.",
-    empty_msg: "ne pojem mít bylo vytvořeno pojem pojem...",
+    subtitle: "Toto je seznam komentářů komunity.",
+    empty_msg: "Zatím nebyly vytvořeny žádné komentáře...",
   },
 
   /**
@@ -9732,9 +9732,9 @@ export default {
    */
   community_categories: {
     title: "Kategorie",
-    subtitle: "toto je pojem seznam z pojem pojem kategorie.",
+    subtitle: "Toto je seznam kategorií komunity.",
     new_category_action: "nový kategorie",
-    empty_msg: "ne kategorie mít bylo vytvořeno pojem pojem...",
+    empty_msg: "Zatím nebyly vytvořeny žádné kategorie...",
     filter: {
       delete: {
         title: "Smazáno",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "pojem",
-    subtitle: "toto je pojem seznam z pojem pojem pojem.",
+    subtitle: "Toto je seznam příspěvků komunity.",
     filter: {
       deleted: {
         title: "Smazáno",
@@ -9758,15 +9758,15 @@ export default {
         description: "zobrazit zpráva pojem.",
       },
     },
-    empty_msg: "ne pojem mít bylo vytvořeno pojem pojem...",
+    empty_msg: "Zatím nebyly vytvořeny žádné příspěvky...",
     menu: {
       open_post: {
         title: "otevřít pojem",
-        subtitle: "zobrazit a upravit pojem v pojem pojem.",
+        subtitle: "Zobrazit a upravit příspěvek v komunitě.",
       },
       spam: {
         title: "zpráva & odstranit pojem",
-        subtitle: "pojem odstranit pojem a pojem uživatel.",
+        subtitle: "Hromadné odstranění příspěvků a zákaz uživatele.",
       },
       delete: {
         title: "smazat pojem",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "štítek pojem",
       subtitle:
-        "Google pojem pojem pojem z pojem ROI pojem pojem pojem, pojem, a pojem pojem pojem a pojem. spravovat pojem štítky pojem s Google štítek pojem pojem, pojem, a pojem pojem—ne kód upravit povinné.",
+        "Google Analytics umožňuje měření návratnosti investic do reklamy při sledování stránek a aplikací ve formátu Flash, videí a sociálních médií. Spravujte značky webových stránek bez námahy pomocí bezplatných, jednoduchých a spolehlivých řešení Správce značek Google – není potřeba žádná úprava kódu.",
       tag_id: {
         label: "Google štítek pojem ID",
       },
@@ -9790,30 +9790,30 @@ export default {
     shopping: {
       title: "Google pojem",
       subtitle:
-        "data pojem pojem pojem pojem z váš pojem informace na Google. pojem toto odkaz k automaticky přidat vše produkty a kategorie k Google pojem.",
-      tips: "vy může pojem toto pojem k pojem a automaticky spravovat Google pojem.",
+        "Zdroje dat udávají původ vašich katalogových informací na Googlu. Kliknutím na tento odkaz automaticky přidáte všechny produkty a kategorie do zboží Google.",
+      tips: "Tento nástroj můžete využít k snadné a automatické správě reklam Google.",
       link_message: "Google produkty kanál URL",
     },
     console: {
       title: "hledat pojem",
-      subtitle: "přidat pojem Meta štítek k váš pojem pro Google hledat pojem pojem.",
+      subtitle: "Přidejte na svou domovskou stránku metaznačku pro ověření Google Search Console.",
       code: {
         label: "pojem Meta štítek",
-        placeholder: "od Google, pojem.pojem. pojem9pojem...",
+        placeholder: "Z google, např. viQg9mjdBj...",
       },
     },
     serp: {
       title: "Google SERP & pojem",
       subtitle:
-        "my pojem pojem pojem pojem SEO pojem data od Google a pojem to k vy v pojem pojem pojem. pojem pojem pojem pojem pojem.",
+        "Získáváme nejpřesnější data SEO auditu od Googlu a prezentujeme vám je pohodlným způsobem. Jednoduše postupujte podle uvedených kroků.",
     },
     serp_content: {
       title: "Connect k Google hledat pojem",
       subtitle:
-        "Connect váš obchod k pojem hledat pojem a začátek pojem pojem, pojem, a pojem pojem SEO pojem na Selldone.",
+        "Připojte svůj obchod k vyhledávací konzoli a začněte prozkoumávat klíčová slova, hodnocení a další bezplatné nástroje SEO na Selldone.",
       tips: {
         title:
-          "pojem k odkaz Selldone s Google hledat pojem, pojem pojem pojem:",
+          "Před propojením Selldone s Google Search Console zajistěte následující:",
         add_in_selldone: "přidat, pojem, a nastavit jako primární váš vlastní doména.",
         add_in_google: "přidat a pojem <b>{domain}</b> v váš<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google hledat pojem</b></a>.",
       },
@@ -9849,7 +9849,7 @@ export default {
     title: "cashback pojem",
     up_to: "až do",
     menu: {
-      back: "pojem pojem",
+      back: "Zpět Programy",
       dashboard: "Přístrojová deska",
       orders: "Objednávky",
       edit: "Upravit",
@@ -9889,18 +9889,18 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "nastavit pojem pojem pojem, limit a to stav pojem.",
+      subtitle: "Zde nastavte procento chasback, limit a jeho stav.",
     },
     percent_input: {
       title: "cashback pojem",
-      message: "pojem pojem cashback pojem od 1% k 20%.",
+      message: "Zadejte procento cashbacku od 1 % do 20 %.",
     },
     currency_input: {
-      message: "pojem cashback pojem bude být dostupné pojem pro toto měna.",
+      message: "Cashback program bude dostupný pouze pro tuto měnu.",
     },
     limit_input: {
       title: "Omezit",
-      hint: "pojem pojem maximum částka z cashback.",
+      hint: "Zadejte maximální částku cashback.",
       zero_message: "pojem 0 pro pojem cashback.",
     },
     duration: {
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "nastavit název a pojem popis pro pojem cashback pojem. pojem informace bude být zobrazeno k zákazníci.",
+        "Nastavte název a krátký popis programu cashback. Tyto informace se zobrazí zákazníkům.",
     },
     title_input: {
       title: "Titul",
@@ -9926,16 +9926,16 @@ export default {
       title: "Popis",
     },
     constraints: {
-      subtitle: "nastavit pojem pojem pro pojem cashback pojem.",
+      subtitle: "Nastavte omezení pro program cashback.",
     },
     min_purchase_input: {
-      hint: "pojem pojem minimum pojem částka pro cashback pojem.",
+      hint: "Zadejte minimální částku nákupu pro cashback program.",
       title: "minimum pojem",
     },
     only_first_buy_input: {
       false_desc: "pojem cashback pojem bude být dostupné pro vše objednávky.",
       true_desc:
-        "pojem cashback pojem bude být dostupné pojem pro pojem první objednávka.",
+        "Cashback program bude dostupný pouze pro první objednávku.",
       true_title: "pouze první objednávka",
       false_title: "vše objednávky",
     },
@@ -9943,32 +9943,32 @@ export default {
       false_title: "vše zákazníci",
       true_title: "pojem zákazníci",
       true_msg:
-        "pojem cashback pojem bude být dostupné pojem pro pojem zákazníci pojem jsou pojem.",
+        "Cashback program bude k dispozici pouze pro kvalifikované zákazníky.",
     },
     club: {
       subtitle:
-        "nastavit pojem pojem pro pojem cashback pojem. pojem cashback pojem bude být dostupné pojem pro pojem zákazníci pojem jsou v toto pojem.",
+        "Nastavte klub pro cashback program. Cashback program bude dostupný pouze pro zákazníky, kteří jsou v tomto klubu.",
     },
     cluster: {
       subtitle:
-        "podle pojem pojem pojem s pojem cashback pojem, vy může spravovat to více pojem.",
+        "Přidružením clusteru k programu cashback jej můžete spravovat efektivněji.",
     },
     notifications: {
       add: "cashback pojem přidat úspěšně.",
       edit: "cashback pojem aktualizováno úspěšně.",
     },
     enable_input: {
-      true_msg: "pojem cashback pojem je aktivní a zákazníci může pojem to.",
+      true_msg: "Cashback program je aktivní a zákazníci jej mohou využívat.",
       false_msg:
-        "pojem cashback pojem je neaktivní a zákazníci může ne pojem to.",
+        "Cashback program je neaktivní a zákazníci jej nemohou využívat.",
     },
     boosted_input: {
       false_title: "Normální",
       true_title: "pojem (2pojem cashback)",
       true_msg:
-        "pojem cashback pojem je v pojem režim a zákazníci bude pojem 2pojem cashback.",
+        "Cashback program je v boost režimu a zákazníci obdrží 2x cashback.",
       false_msg:
-        "pojem cashback pojem je v pojem režim a zákazníci bude pojem pojem cashback.",
+        "Cashback program je v normálním režimu a zákazníci obdrží normální cashback.",
     },
   },
 
@@ -9979,7 +9979,7 @@ export default {
     actions: {
       refund: {
         title: "refundace platba",
-        subtitle: "pojem nebo pojem refundace pojem.",
+        subtitle: "Částečná nebo plná refundace podporována.",
       },
       delivery: {
         title: "potvrdit na doručení",
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "refundace platba",
     message:
-      "pro pojem pojem, pouze objednávky pojem pojem pojem poslední 7 dny jsou pojem pro refundace.",
+      "Z bezpečnostních důvodů mají nárok na vrácení peněz pouze objednávky zaplacené během posledních 7 dnů.",
     payment_amount: "Částka k úhradě",
     total_refund_amount: "celkem refundace částka",
     can_refund: "může refundace",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "pojem refundace",
       description:
-        "já potvrdit to pojem refundace částka je pojem a já chcete k pojem.",
+        "Potvrzuji, že vrácená částka je správná a chci pokračovat.",
     },
     action: "refundace nyní",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "zákazník doručení pojem",
     message:
-      "pojem platba služby pojem pojem to pojem objednávka má bylo pojem k pojem zákazník. my pojem pojem toto pojem pojem pojem pojem pojem z objednávka pojem pojem my pojem pojem zákazník doručení pojem. pojem, pokud vy pojem k pojem toto akce pojem, vy může pojem pojem pojem.",
+      "Některé platební služby vyžadují potvrzení o doručení objednávky zákazníkovi. Toto potvrzení obvykle zasíláme během posledního kroku plnění objednávky, když obdržíme potvrzení o doručení zákazníka. Pokud však potřebujete tuto akci provést ručně, můžete tak učinit zde.",
     verify: {
       title: "pojem doručení",
       description:
-        "já potvrdit to pojem objednávka má bylo pojem k pojem zákazník.",
+        "Potvrzuji, že objednávka byla doručena zákazníkovi.",
     },
     action: "potvrdit nyní",
   },
@@ -10026,47 +10026,47 @@ export default {
    * @see BPageProductCrossSelling
    */
   product_cross_selling: {
-    title: "pojem pojem",
+    title: "Křížový prodej",
     add_new_actions: "přidat nový produkt",
     subtitle:
-      "v toto pojem, vy může přidat a spravovat pojem produkty pro toto produkt stránka. pojem produkty bude být zobrazeno jako pojem pro zákazníci k pojem pojem pojem hlavní položka. vy může pojem nastavit sleva k pojem a pojem dodatečné pojem. pojem pojem bude pojem pojem maximum z 3 položky pro pojem zákazník k pojem.",
+      "V této sekci můžete přidávat a spravovat cross-sell produkty pro tuto produktovou stránku. Tyto produkty se zákazníkům zobrazí jako návrhy k nákupu vedle hlavní položky. Můžete také nastavit slevy, abyste povzbudili a motivovali k dalším nákupům. Systém zobrazí maximálně 3 položky, které musí zákazník zvážit.",
     dialog: {
-      edit_title: "upravit pojem pojem produkt",
-      add_title: "přidat nový pojem pojem produkty",
+      edit_title: "Upravit křížový prodej produktu",
+      add_title: "Přidejte nové produkty křížového prodeje",
       target: {
         title: "pojem produkt",
         subtitle:
-          "zvolit pojem produkty pojem pojem k pojem jako pojem možnosti pojem toto produkt.",
+          "Vyberte produkty, které chcete propagovat jako možnosti křížového prodeje vedle tohoto produktu.",
         select_products: "vybrat produkt(pojem)",
       },
       list: {
         title: "pojem produkt",
-        subtitle: "toto produkt má bylo pojem pro pojem pojem.",
+        subtitle: "Tento produkt byl vybrán pro propagaci křížového prodeje.",
         manage_product: "spravovat produkt",
       },
       discount: {
         title: "sleva & zpráva",
         subtitle:
-          "vy mít pojem možnost k pojem pojem zpráva a nabídka pojem sleva k pojem zákazníci k pojem pojem vybrané dodatečné položky. pojem pojem může pojem pojem pojem a pojem pojem pojem pojem pojem.",
+          "Máte možnost zahrnout zprávu a nabídnout slevu, abyste motivovali zákazníky k nákupu vybraných doplňkových položek. Tyto pobídky mohou pomoci zvýšit prodej a zlepšit celkový zážitek z nakupování.",
         amount_input: {
           message:
-            "pojem sleva pojem bude být pojem k pojem produkt cena po pojem pojem účet vše pojem sleva.",
+            "Procento slevy bude aplikováno na cenu produktu po zohlednění všech existujících slev.",
         },
         mismatch_type_warning:
-          "sleva pojem být pojem k pojem pojem pojem pojem hlavní produkt pojem, jako pojem pojem a pojem položky bude ne být pojem v pojem pojem pojem.",
+          "Slevy nelze uplatnit na jiné typy kromě hlavních typů produktů, protože zdrojové a cílové položky nebudou umístěny do stejného košíku.",
         not_support_subscription_type_warning:
-          "pojem sleva pro pojem pojem produkty je ne pojem, jako pojem ceny pojem pojem být pojem pojem.",
+          "Nastavení slev pro křížový prodej předplatitelských produktů není možné, protože cenové plány nelze dynamicky upravovat.",
         message_input: {
           message:
-            "pojem pojem pojem a pojem název k pojem pojem pojem.",
+            "Vytvořte přesvědčivý a lákavý titul, který upoutá pozornost zákazníků.",
           placeholder:
-            "pojem & uložit: pojem váš pojem s pojem pojem pojem!",
+            "Sbalte a ušetřete: Doplňte svůj vzhled naším pečlivě vybraným výběrem!",
         },
       },
       action: {
         title: "akce",
         subtitle:
-          "pojem pojem pojem produkt akce pojem. pokud váš produkt pojem pojem vstup z vlastní informace, pojem jako pojem pojem pojem formulář, pojem ne zvolit \"přidat k pojem\" jako pojem akce, jako toto pojem pojem k chyba.",
+          "Zde upravte akci křížového prodeje produktu. Pokud váš produkt vyžaduje zadání vlastních informací, například prostřednictvím formuláře ocenění, nevybírejte jako akci „Přidat do košíku“, protože to může vést k chybám.",
       },
     },
   },
@@ -10078,17 +10078,17 @@ export default {
     variants: {
       title: "varianta možnosti",
       subtitle:
-        "vybrat pojem k pojem varianta možnosti. po pojem, vy může zvolit pojem pojem varianty k vytvořit automaticky.",
+        "Vyberte až dvě varianty. Po výběru si můžete vybrat, které konkrétní varianty se automaticky vytvoří.",
     },
     values: {
       title: "varianta pojem",
-      subtitle: "pojem pojem pojem pojem pro pojem varianta možnost pojem.",
+      subtitle: "Zde zadejte možné hodnoty pro každou variantu.",
       prevent_duplicates_tips:
-        "<b>poznámka:</b> my automaticky pojem pro pojem varianty k pojem pojem.",
+        "<b>Poznámka:</b> Automaticky kontrolujeme existující varianty, abychom předešli duplicitám.",
     },
     inventory: {
-      title: "pojem pojem",
-      subtitle: "nastavit pojem začátek pojem pojem pro pojem nový varianty.",
+      title: "Počáteční inventura",
+      subtitle: "Nastavte počáteční počet inventáře pro nové varianty.",
     },
     add_variants_action: "vytvořit varianty",
   },
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Přidat do košíku",
       description:
-        "pojem pojem přidat k pojem pojem pojem. poznámka to toto je ne pojem pro pojem produkty.",
+        "Zobrazte přímo tlačítko Přidat do košíku. Upozorňujeme, že toto neplatí pro produkty s předplatným.",
     },
     ViewProduct: {
       title: "Zobrazit produkt",
       description:
-        "pojem pojem zobrazit více pojem to pojem zákazníci k pojem produkt stránka podle otevřít pojem nový pojem.",
+        "Zobrazte tlačítko Zobrazit více, které přesměruje zákazníky na stránku produktu otevřením nového okna.",
     },
   },
 
@@ -10114,8 +10114,8 @@ export default {
    */
 
   product_flow: {
-    title: "pojem pojem",
-    subtitle: "toto je pojem pojem pojem a pojem pojem z váš produkt.",
+    title: "Nákupní tok",
+    subtitle: "Toto je proces nákupu a kontrola stavu vašeho produktu.",
 
     /**
      * @see BProductFlowRowConnect
@@ -10125,7 +10125,7 @@ export default {
       enable_msg: "toto pojem k externí služba je povoleno.",
       disable_msg: "toto pojem k externí služba je zakázáno.",
       has_shipping_msg:
-        "{name} pojem doprava. pojem vy mít pojem možnost k pojem automaticky doprava pojem podle {name} na pojem pojem stránka.",
+        "{name} podpora dopravy. Máte tedy možnost povolit automatický výpočet dopravy podle {name} na stránce pokladny.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "pojem prodejci",
       subtitle:
-        "toto produkt pojem má ne pojem prodejci. pro pojem produkt k být pojem v pojem tržiště, to pojem mít v pojem pojem prodejce.",
+        "Tento produkt momentálně nemá žádné přidružené prodejce. Aby bylo možné produkt zakoupit na trhu, musí mít alespoň jednoho dodavatele.",
       manage_vendors: "spravovat prodejci",
     },
 
@@ -10177,9 +10177,9 @@ export default {
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "pojem pojem ceny pojem",
+      title: "Chybí cenové plány předplatného",
       subtitle:
-        "toto produkt má ne pojem ceny pojem. vy pojem k přidat v pojem pojem pojem ceny pojem k vydělat toto produkt dostupné pro pojem pojem.",
+        "Tento produkt nemá žádné cenové plány předplatného. Chcete-li tento produkt zpřístupnit pro nákup předplatného, ​​musíte přidat alespoň jeden cenový plán předplatného.",
       pricing_plans: "ceny pojem",
     },
 
@@ -10193,11 +10193,11 @@ export default {
         no_restriction: "ne pojem",
       },
       available_countries_msg:
-        "pojem pojem pojem k {count} země. pojem země jsou {countries}.",
+        "Nakupování je globálně omezeno na {count} zemí. Tyto země jsou {countries}.",
       disable_for_all_countries_msg:
         "pojem je zakázáno pro vše země v váš obchod > umístění pojem.",
       location_is_not_in_permitted_shop_locations_msg:
-        "vy nastavit {country} jako pojem pojem umístění pojem v pojem obchod pojem vy ne pojem toto země. prosím pojem váš obchod pojem nastavení.",
+        "Nastavíte {country} jako prodejní místo, ale na úrovni obchodu tuto zemi nepovolíte. Zkontrolujte prosím nastavení na úrovni obchodu.",
       shop_locations: "obchod umístění",
       product_locations: "produkt umístění",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "dostupné umístění chyba",
       no_location_error_subtitle:
-        "vy mít pojem pojem umístění pojem pro pojem pojem produkt, pojem pojem, ne země je seznam pojem toto pojem. jako pojem pojem, toto produkt je nedostupné pro pojem podle pojem.",
+        "Aktivovali jste omezení na umístění pro nákup produktu, ale v současné době není pod tímto omezením uvedena žádná země. V důsledku toho si tento produkt nemůže nikdo koupit.",
       invalid_location_error_subtitle:
-        "pojem umístění pojem nastavení pro váš produkt pojem pojem chyba: pojem umístění seznam pojem ne mít pojem pojem ZIP kód. pojem, uživatelé jsou pojem k vybrat pojem ZIP kód, pojem pojem produkt nedostupné pro pojem.",
+        "Nastavení omezení polohy pro váš produkt obsahuje chybu: některá uvedená místa nemají přiřazena žádná PSČ. V důsledku toho si uživatelé nemohou vybrat PSČ, čímž je produkt nedostupný pro nákup.",
 
       manage_locations: "spravovat umístění",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "daň profily",
       description: {
         subscription_tax_msg:
-          "my může použít daň pouze na pojem platba pojem pojem.",
+          "Daň můžeme uplatnit pouze v kroku vytvoření platby.",
         dedicated: "vyhrazené",
         is_disabled: "toto daň profil je zakázáno!",
         tax_is_based_on_location: "daň: umístění pojem",
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "toto produkt pojem k <b>{vendor}</b>.",
       has_vendors_msg: "pojem je {count} prodejci pro toto produkt.",
       no_vendor_msg:
-        "vy pojem pojem pojem prodejce k toto produkt, pojem zákazníci jsou pojem k pojem to.",
+        "K tomuto produktu jste nepřiřadili dodavatele, takže jej zákazníci nemohou zakoupit.",
       add_vendors: "přidat prodejci",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "produkt stránka šablona",
     subtitle:
-      "vy může pojem pojem stránka pojem váš produkt stránka pro pojem pojem pojem. pojem pojem pojem je k vytvořit stránky pojem pojem průhledné pozadí a 1 k 3 pojem pojem k pojem produkt kategorie. pojem, pojem pojem stránka k pojem produkty pro pojem pojem a pojem pojem.",
+      "Do stránky svého produktu můžete vložit stránku pro lepší prezentaci. Optimálním přístupem je vytvořit stránky s průhledným pozadím a 1 až 3 sekcemi na míru pro každou kategorii produktů. Poté přiřaďte jednu stránku více produktům pro konzistentní a přitažlivé zobrazení.",
     edit_page: "upravit stránka",
     list_of_pages: "seznam z stránky",
   },
@@ -10260,16 +10260,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "vy může pojem pojem pojem produkt nebo pojem seznam z produkty v váš pojem nebo pojem pojem stránky podle pojem kopírovat a pojem pojem kód my pojem. pojem toto pojem je pojem v to pojem pojem, my jsou pojem pojem k pojem to pojem pojem pojem je pojem dostupné pojem. pojem to pojem nabídka limit pojem, my mít pojem k pojem více šablony a pojem možnosti v pojem pojem.",
+      "Můžete snadno vložit produkt nebo seznam produktů na svůj blog nebo jiné webové stránky pouhým zkopírováním a vložením kódů, které poskytujeme. Přestože je tato funkce stále v rané fázi, aktivně pracujeme na rozšíření její funkčnosti nad rámec toho, co je aktuálně dostupné jinde. I když v současné době nabízí omezené možnosti, v budoucnu plánujeme představit více šablon a možností přizpůsobení.",
     card: {
       title: "pojem",
       description:
-        "pojem HTML kód k přidat produkt pojem v pojem pojem a HTML stránky.",
+        "Vygenerujte HTML kód pro přidání produktových karet na jiné platformy a stránky HTML.",
     },
     iframe: {
       title: "pojem",
       description:
-        "pojem pojem iframe kód k pojem pojem produkt detaily v pojem pojem pojem.",
+        "Vygenerujte kód iframe pro zobrazení komplexních podrobností o produktu ve vloženém okně.",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "přidat personál & přístup",
       subtitle:
-        "vše uživatelé s personál přístup může pojem v k váš nástěnka a zobrazit pojem informace. k přidat uživatelé s limit přístup, pojem pojem.",
+        "Všichni uživatelé s přístupem zaměstnanců se mohou přihlásit k vašemu řídicímu panelu a zobrazit finanční informace. Chcete-li přidat uživatele s omezeným přístupem, definujte roli.",
       go_to_roles: "pojem k pojem",
     },
     access: {
       customization_tips:
-        "<b>pojem:</b> pojem na pojem položka k pojem pojem výchozí čtení/zápis přístup. pojem pojem pojem pojem přístup pojem pojem k pojem hlavní obchod nástěnka.",
+        "<b>Přizpůsobení:</b> Kliknutím na každou položku přizpůsobíte výchozí přístup pro čtení/zápis. Každý řádek představuje úroveň přístupu odpovídající hlavnímu řídicímu panelu obchodu.",
       simplify_tips:
-        "<b>pojem!</b> my pojem pojem přístup pojem od pojem 300 k pojem 10 pojem. více pojem a pojem přístup pojem bude být pojem v pojem pojem.",
+        "<b>Důležité!</b> Zjednodušili jsme řízení přístupu z více než 300 na méně než 10 úrovní. Podrobnější a aktuální úrovně přístupu budou zveřejněny v dokumentaci.",
       multi_permission_tips:
-        "<b>vlastní limity?</b> vy může přidat více přístup k pojem uživatel, pojem po přidat pojem první přístup, vytvořit dodatečné přístup s pojem pojem pojem.",
+        "<b>Vlastní limity?</b> Jednomu uživateli můžete přidat další přístup, takže po přidání prvního přístupu vytvořte další přístup pomocí stejných kroků.",
       view_data: "zobrazit data",
       apply_changes: "Aplikuj změny",
     },
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "přístup pojem",
-        placeholder: "vybrat pojem pojem...",
+        placeholder: "Vyberte úroveň...",
       },
     },
 
@@ -10329,9 +10329,9 @@ export default {
   category_engine_editor: {
     title: "extra produkty výpis",
     subtitle:
-      "pojem produkty od pojem kategorie. vy mít pojem možnost k zvolit pojem kategorie k pojem produkty nebo pojem produkty podle štítky.",
+      "Zobrazit produkty z různých kategorií. Máte možnost vybrat si více kategorií pro prezentaci produktů nebo filtrovat produkty podle značek.",
     aut_add_sub_categories_tips:
-      "vy může automaticky přidat vše pojem k pojem aktuální kategorie podle pojem pojem pojem pojem.",
+      "Kliknutím na tlačítko níže můžete do aktuální kategorie automaticky přidat všechny podkategorie.",
     inputs: {
       categories: {
         label: "Kategorie",
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "produkt štítky",
         messages: "produkty s pojem štítky bude být zobrazit.",
-        placeholder: "pojem štítky pojem a pojem pojem. pojem. nový pojem",
+        placeholder: "Zde zapojte štítky a stiskněte enter. např. nová kolekce",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>pojem hledat:</b>hledat podle název, MPN, SKU, pojem, nebo štítky.",
       product:
-        "<b>pojem produkt ID:</b>pojem P+Product ID k pojem pojem pojem produkt, pojem.pojem., <b class=\"text-green\">pojem</b><i class=\"text-yellow\">360</i>.",
+        "<b>Přesné ID produktu: </b>Použijte P+ID produktu k nalezení konkrétního produktu, např. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>pojem pojem:</b>pojem pojem pojem k hledat pro pojem pojem pojem, pojem.pojem., <b class=\"text-green\">\"</b><i class=\"text-yellow\">váš text pojem</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>daň profil:</b>hledat pro produkty s pojem pojem daň profil pojem \"daň:\", pojem.pojem., <b class=\"text-green\">daň:</b><i class=\"text-yellow\">daň profil pojem</i>.",
+        "<b>Přesná fráze: </b>Použijte uvozovky k vyhledání přesné fráze, např. <b class=\"text-green\">\"</b><i class=\"text-yellow\">váš text zde</i><b class=\"text-green\">\"</b>.",
+      tax: "<b>Tax Profile: </b>Vyhledejte produkty s konkrétním daňovým profilem pomocí „tax:“, např. <b class=\"text-green\">tax:</b><i class=\"text-yellow\">název daňového profilu</i>.",
       new_products:
-        "<b>nový produkty:</b>pojem produkty přidat pojem pojem pojem datum pojem, pojem.pojem., <b class=\"text-green\">nový~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Nové produkty: </b>Najděte produkty přidané v určitém časovém období, např. <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,14 +10374,14 @@ export default {
   augment_form: {
     title: "pojem",
     subtitle:
-      "vstup pojem klíč to bude být pojem s to pojem pojem v pojem stránka pojem. klíče pojem být pojem 32 pojem.",
+      "Zadejte klíč, který bude zaměněn za odpovídající hodnotu v obsahu stránky. Klíče by měly mít maximálně 32 znaků.",
     add_caption: "přidat nový položka",
-    add_sub_caption: "přidat vlastní pojem pojem.",
+    add_sub_caption: "Přidejte vlastní pár klíč–hodnota.",
     add_dialog: {
       title: "vybrat vstup pojem",
       html: {
         title: "text & pojem",
-        subtitle: "pojem položka pojem může být pojem jako pojem text nebo HTML.",
+        subtitle: "Hodnota položky může být označena jako text nebo HTML.",
       },
       image: {
         title: "obraz",
@@ -10389,17 +10389,17 @@ export default {
       },
     },
     help_dialog: {
-      title: "pojem k pojem pojem pojem",
+      title: "Jak používat dynamický obsah",
       how_it_works_tips:
-        "v pojem pojem stránky, vy mít pojem pojem k pojem pojem pojem pro pojem text a obrázky. pojem pojem pojem pojem pojem pojem v pojem pojem pojem pojem k pojem pojem. pojem pojem pojem z pojem pojem pojem je k být pojem podle pojem pojem, pojem může pojem pojem na pojem pojem. pro pojem, pojem pojem pojem pojem být pojem pro pojem produkt nebo kategorie. pojem pojem pojem z toto pojem pojem pojem pojem pojem vy mít pojem pojem z položky s pojem pojem. vy může pojem pojem pojem pojem pojem k pojem a pojem pojem pojem z pojem položka, pojem pojem pojem pojem a pojem pojem na váš pojem stránky.",
+        "Na vstupních stránkách můžete flexibilně určovat dynamické zástupné symboly pro text i obrázky. Tyto zástupné symboly hrají významnou roli při přizpůsobování obsahu podle kontextu.   Dynamická povaha těchto zástupných symbolů umožňuje, aby byly naplněny hodnotami augmentace, které se mohou lišit v závislosti na různých faktorech. Například hodnoty rozšíření se mohou pro každý produkt nebo kategorii lišit. Skutečná výhoda této funkce přichází do hry, když máte různé předměty s různými atributy. Tyto dynamické zástupné symboly můžete efektivně využít k personalizaci a vylepšení zobrazení každé položky, a vytvořit tak jedinečný a interaktivní zážitek na vašich vstupních stránkách.",
       assign_tips:
-        "k pojem pojem pojem k obrázky, pojem na pojem pojem pojem pojem na pojem pojem pojem z pojem pojem.",
+        "Chcete-li obrázkům přiřadit dynamické hodnoty, klikněte na tlačítko podavače umístěné na levé straně sekce.",
       set_dynamic_image_tips:
-        "vy nyní mít pojem pojem k pojem pojem obrázek URL a pojem to pojem pojem pojem.",
+        "Nyní máte možnost upravit adresu URL obrázku a přiřadit jí dynamickou hodnotu.",
       enter_values_tips:
-        "pro pojem produkt, vy mít pojem pojem k pojem vyhrazené pojem pojem.",
+        "Ke každému produktu máte možnost přiřadit vyhrazené páry klíč–hodnota.",
       result_tips:
-        "toto je pojem pojem pojem z pojem stránka, pojem pojem mít bylo pojem s pojem pojem.",
+        "Toto je konečný výsledek stránky, kde byly zástupné symboly nahrazeny rozšířenými hodnotami.",
     },
   },
 
@@ -10408,25 +10408,25 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "pojem pojem",
+      title: "Vícejazyčné",
       subtitle:
-        "toto je pojem seznam z pojem pojem. vy může nastavit pojem pojem pro pojem logistika profil v pojem pojem.",
+        "Toto je seznam jazyků obsahu. V každém jazyce můžete nastavit jiný obsah pro logistický profil.",
       add_caption: "přidat nový pojem",
       no_more_language: "ne více pojem!",
     },
     content: {
       title: "pojem",
       subtitle:
-        "vy může pojem pojem pojem pro pojem logistika profil v pojem pojem.",
+        "Obsah logistického profilu můžete přizpůsobit ve více jazycích.",
 
-      language_input: "aktuální pojem pojem",
+      language_input: "Aktuální jazyk článku",
       delete_article: "smazat pojem",
       menu_tooltip: "automaticky pojem / smazat pojem",
     },
     translate_to: "pojem k",
     notifications: {
       translate: {
-        message: "pojem pojem pojem úspěšně.",
+        message: "Překlad článku byl úspěšně dokončen.",
       },
       save_article: {
         message: "pojem má bylo pojem úspěšně.",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "jsou vy pojem k smazat toto pojem pro pojem?",
+      message: "Opravdu chcete tento článek navždy smazat?",
       action: "Ano, smazat nyní",
     },
   },
@@ -10456,7 +10456,7 @@ export default {
     inputs: {
       name: {
         message:
-          "toto pojem zobrazit k vy a bude ne být pojem k pojem veřejné.",
+          "Toto jméno se vám zobrazí a nebude zveřejněno.",
       },
       accept_delete: {
         true_description:
@@ -10476,13 +10476,13 @@ export default {
     title: "logistika profily",
     add_caption: "přidat nový profil",
     subtitle:
-      "vy může vytvořit a upravit pojem pojem a vrácení pojem pro produkty pojem a pojem to k pojem produkty. vy může pojem pojem pojem pojem pro pojem pojem z produkty.",
+      "Zde můžete vytvořit a upravit zásady záruky a vrácení pro produkty a přiřadit je ke všem produktům. Pro různé typy produktů můžete definovat různé zásady záruky.",
     add_dialog: {
       title: "vytvořit nový logistika profil",
       config: {
         title: "pojem informace",
         subtitle:
-          "zvolit pojem profil pojem. to může být pojem pojem, pojem, nebo pojem pojem pojem a pojem pojem pojem pojem pojem produkty.",
+          "Vyberte typ profilu. Může to být průvodce, záruka nebo jakýkoli jiný obsah a materiál běžně sdílený mezi více produkty.",
       },
       article: {
         title: "Článek",
@@ -10492,8 +10492,8 @@ export default {
       inputs: {
         name: {
           message:
-            "toto pojem zobrazit k vy a bude ne být pojem k pojem veřejné.",
-          placeholder: "pojem pojem pojem pro pojem profil...",
+            "Toto jméno se vám zobrazí a nebude zveřejněno.",
+          placeholder: "Zadejte název profilu...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "zahrnuto položky správa",
     add_caption: "přidat nový položka",
     subtitle:
-      "pojem, vy může spravovat pojem položky zahrnuto v váš produkty. k pojem pojem pojem pojem pro váš obchod, pojem pojem položky s pojem obrázek pojem, pojem jako pojem, pojem vše produkty.",
+      "Zde můžete spravovat položky obsažené ve vašich produktech. Abyste zajistili bezchybný vzhled svého obchodu, důsledně používejte u všech produktů položky s podobnými obrazovými vzory, jako jsou drátěné modely.",
     empty_list_msg: "seznam z zahrnuto položky...",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "smazat zahrnuto položka",
       message:
-        "jsou vy pojem vy chcete k pojem smazat toto položka? prosím poznámka to to bude pojem být pojem od vše pojem produkty!",
+        "Opravdu chcete tuto položku trvale smazat? Upozorňujeme, že bude také odstraněn ze všech souvisejících produktů!",
       action: "ano, smazat nyní",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "zahrnuto položka",
     subtitle:
-      "zvolit pojem pojem název, pojem s 2 k 3 pojem v pojem. pojem pojem obrázky, jako my bude pojem nahrát pojem k pojem 256pojem256 pojem pojem. pro pojem pojem pojem pojem vše šablony, pojem pojem obrázky s průhledné pozadí a pojem pojem pojem pojem pojem váš produkty.",
+      "Zvolte stručný název, ideálně s maximálně 2 až 3 slovy. Použijte čtvercové obrázky, protože nahrané obrázky automaticky změníme na čtvercový formát 256x256. Chcete-li dosáhnout nejlepšího vzhledu ve všech šablonách, použijte minimalistické obrázky s průhledným pozadím a udržujte jednotný vzor ve všech svých produktech.",
     inputs: {
       title: {
         placeholder: "pojem název zobrazeno na produkt stránka...",
       },
       code: {
-        placeholder: "pojem kód, pojem. pojem_pojem_pojem",
-        hint: "pojem toto kód k pojem pojem hledat pojem pro pojem položky.",
+        placeholder: "Unikátní kód, např. mobile_kabel_usb",
+        hint: "Tento kód použijte ke zefektivnění procesu vyhledávání při hledání položek.",
       },
       description: {
-        placeholder: "pojem pojem popis pojem toto položka...",
-        hint: "popis bude být pojem pro SEO a pojem viditelné k uživatelé na pojem vlastní pojem v pojem produkt stránka.",
+        placeholder: "Krátký popis tohoto zboží...",
+        hint: "Popis bude použit pro SEO a může být viditelný pro uživatele na některých vlastních rozvrženích na stránce produktu.",
       },
       image: {
         message: "pojem obrázek velikost: 1MB",
@@ -10559,14 +10559,14 @@ export default {
       },
       external_link: {
         title: "Externí odkaz",
-        description: "nastavit pojem odkaz k pojem externí pojem.",
-        tips: "vy může pojem pojem URL k pojem položka. pojem uživatelé pojem na pojem položka na pojem produkt stránka, pojem bude být pojem k to odkaz.",
+        description: "Nastavte odkaz na externí adresu URL.",
+        tips: "K položce můžete připojit libovolnou adresu URL. Když uživatelé kliknou na položku na stránce produktu, budou přesměrováni na tento odkaz.",
       },
       internal_link: {
         title: "interní odkaz",
         description:
-          "vytvořit pojem stránka podle pojem pojem data pro toto položka.",
-        tips: "vy může odkaz pojem pojem stránka s pojem profil a nastavit pojem vlastní pojem a pojem pojem pro to. Selldone bude pojem pojem pojem odkaz pro pojem položka.",
+          "Vytvořit dynamickou stránku pomocí poskytnutých dat rozšíření pro tuto položku.",
+        tips: "Vstupní stránku můžete propojit s profilem a nastavit pro ni vlastní cestu a dynamický obsah. Prodáno vygeneruje pro položku dynamický odkaz.",
       },
     },
     notifications: {
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "vráceno objednávky",
     subtitle:
-      "váš zákazníci může vrácení jejich pojem objednávky, a vy může zobrazit vrácení pojem na pojem objednávka pojem stránka nebo přístup pojem pojem seznam z vráceno objednávky pojem.",
+      "Vaši zákazníci mohou vrátit své fyzické objednávky a vy si můžete zobrazit požadavky na vrácení na stránce zpracování objednávky nebo zde máte přístup ke kompletnímu seznamu vrácených objednávek.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "provize",
     subtitle:
-      "pojem seznam z vše provize vy mít pojem od váš pojem. to pojem pojem k 30 dny pro pojem provize k být pojem a převod k váš peněženka.",
+      "Seznam všech provizí, které jste získali z vašich doporučení. Schválení provize a převedení do vaší peněženky trvá až 30 dní.",
   },
   /**
    * @see OReferralWallets
@@ -10600,7 +10600,7 @@ export default {
   referral_wallets: {
     title: "Peněženky",
     subtitle:
-      "pojem vy může zobrazit pojem provize poplatky vy mít pojem. vy může převod váš provize poplatky k váš banka účet nebo váš Selldone peněženka.",
+      "Zde můžete vidět provize, které jste získali. Své provizní poplatky můžete převést na svůj bankovní účet nebo do své peněženky Soldone.",
     no_commission_yet: "vy mít ne přijato pojem provize pojem.",
     no_wallet: "ne peněženka!",
 
@@ -10612,12 +10612,12 @@ export default {
       to_wallet: {
         title: "k peněženka",
         subtitle:
-          "s toto možnost, vy může převod provize poplatky k váš Selldone peněženka. prosím vydělat pojem to pojem peněženka je pojem jako váš pojem peněženka, a to to pojem s pojem pojem měna.",
+          "Pomocí této možnosti můžete převést provizní poplatky do své peněženky Selldone. Ujistěte se, že je peněženka připojena jako vaše dárková peněženka a že funguje se stejnou měnou.",
       },
       to_bank: {
         title: "k banka",
         subtitle:
-          "s toto možnost, vy může převod provize poplatky k váš Selldone peněženka. prosím vydělat pojem to pojem peněženka je pojem jako váš pojem peněženka, a to to pojem s pojem pojem měna.",
+          "Pomocí této možnosti můžete převést provizní poplatky do své peněženky Selldone. Ujistěte se, že je peněženka připojena jako vaše dárková peněženka a že funguje se stejnou měnou.",
       },
       inputs: {
         verify_to_wallet: {
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "vy může přidat <b>?pojem={code}</b> k pojem Selldone pojem.",
+      message: "<b>?ref={code}</b> můžete přidat na jakoukoli prodanou adresu URL.",
     },
     intro: {
-      title: "pojem pojem Selldone affiliate partner pojem",
+      title: "Připojte se k Soldone Affiliate programu",
       message:
-        "pojem Selldone affiliate partner pojem je pojem a pojem, design pro vy k pojem pojem. pojem váš pojem affiliate partner odkaz k pojem nový uživatelé k Selldone, a pojem pojem pojem provize od pojem transakce pojem vydělat—pojem. toto pojem pojem od pojem, služba poplatky, obchod pojem, a vše pojem pojem pojem. začátek pojem pojem pojem z pojem pojem pojem pojem limity na čas nebo pojem. pojem pojem a pojem váš pojem pojem pojem pojem pojem!",
-      why_join_selldone_affiliate: "pojem je toto pojem pojem pojem?",
+        "Prodaný affiliate program je jednoduchý a přímočarý, navržený tak, abyste mohli bez námahy vydělávat. Sdílejte svůj jedinečný přidružený odkaz a pozvěte nové uživatele do Selldone a budete získávat provizi z každé transakce, kterou provedou – navždy. To zahrnuje příjmy z předplatného, ​​servisní poplatky, upgrady obchodů a všechny další zdroje příjmů. Začněte vydělávat podíl na tržbách bez omezení času nebo výdělků. Připojte se k nám a proměňte svou síť ve stálý příjem!",
+      why_join_selldone_affiliate: "Proč je to jedinečná příležitost?",
       reasons: [
         "to poslední pojem!",
-        "pojem vše pojem a transakce poplatky. pojem pojem platba z pojem uživatel na Selldone.",
-        "my pojem pojem pojem $99 pojem k pojem pojem pojem pojem váš odkaz.",
-        "pojem váš pojem pojem, vy bude pojem v pojem nový pojem od vše pojem pojem uživatelé.",
+        "Pokrývá všechny poplatky za předplatné a transakční poplatky. Doslova každá platba uživatele na Selldone.",
+        "Každému, kdo se zaregistruje pomocí vašeho odkazu, zašleme bezplatný poukaz $99.",
+        "Když upgradujete svou úroveň, budete vydělávat novou sazbou od všech dříve doporučených uživatelů.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "pojem styl",
       subtitle:
-        "pojem toto pojem k pojem styl pojem jako písmo, pozadí, pojem, a pojem. pojem pojem pojem k pojem styl:",
+        "Tento nástroj použijte k replikaci stylů, jako jsou písma, pozadí, okraje a okraje. Chcete-li duplikovat styly, postupujte takto:",
       step_1:
-        "pojem pojem pojem a pojem váš pojem pojem text, pojem, nebo obrázky; pojem pojem bude pojem k pojem pojem.",
-      step_2: "pojem na pojem pojem pojem styl vy chcete k kopírovat.",
+        "Aktivujte nástroj a najeďte myší na text, sloupce nebo obrázky; kurzor se změní na pipetu.",
+      step_2: "Klikněte na prvek, jehož styl chcete zkopírovat.",
       step_3:
-        "pojem pojem bude pojem pojem k pojem pojem; pojem na pojem pojem pojem vy chcete k použít pojem pojem styl.",
+        "Kurzor se změní zpět na paletu; klikněte na prvek, na který chcete použít zkopírovaný styl.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "pojem pojem pojem z pojem pojem pojem, pojem pojem vše pojem kategorie pro pojem váš stránka.",
+        "Přepněte viditelnost postranní nabídky, která obsahuje všechny kategorie sekcí pro vytvoření vaší stránky.",
     },
     sort_tooltip: {
       subtitle:
-        "pojem toto pojem k pojem pojem a pojem pojem podle pojem je.",
+        "Povolením této funkce můžete snadno přeskupit a uspořádat sekce jejich přetažením.",
     },
     edit_mode_tooltip: {
       title: "upravit / pojem režim",
@@ -10698,35 +10698,35 @@ export default {
       edit_mode_msg: "vše upravit pojem bude být zobrazeno.",
       view_mode_title: "pojem režim",
       view_mode_msg:
-        "zobrazit váš stránka jako uživatelé pojem zobrazit to podle pojem extra upravit pojem a prázdné text pojem.",
+        "Zobrazte svou stránku tak, jak by ji viděli uživatelé, tím, že skryjete další nástroje pro úpravy a prázdné textové oblasti.",
     },
     repository_tooltip: {
-      title: "pojem pojem",
+      title: "Předpřipravené sekce",
       subtitle:
-        "pojem pojem pojem z pojem pojem. pojem pojem jsou vytvořeno pojem pojem pojem pojem dostupné v pojem pojem pojem, pojem pojem pojem z toto stránka pojem.",
+        "Přepnout zobrazení předem navržených sekcí. Tyto sekce jsou vytvářeny pomocí standardních sekcí dostupných v levé nabídce, což ukazuje flexibilitu tohoto nástroje pro tvorbu stránek.",
     },
     live_view: {
       title: "živě pojem",
       subtitle: "zobrazit aktualizovat v pojem jako vy upravit váš stránka.",
     },
     hotkeys_dialog: {
-      title: "pojem pojem",
+      title: "Klávesové zkratky",
       augment_tips:
-        "vy může pojem pojem pojem pojem váš stránka a pojem to s <b>pojem</b> pojem. pojem je pojem pro vlastní pojem stránky pojem jako <b>produkty</b>, <b>kategorie</b>, a <b>pojem položky</b>. k nastavit pojem obrázek k pojem pojem, pojem na <b>pojem</b> a vybrat <b>pojem pojem</b> pro to obrázek.",
+        "Na stránku můžete načíst dynamický obsah a nahradit jej hodnotami <b>augment</b>. Rozšíření se používá pro vlastní dynamické stránky, jako jsou <b>Products</b>, <b>Categories</b> a <b>Include Items</b>. Chcete-li nastavit dynamické načítání obrázku, klikněte na <b>Feeder</b> a pro tento obrázek vyberte <b>Dynamic Source</b>.",
     },
     hotkeys: {
-      ctrl_b: "pojem pojem na/pojem pro vybrané text | <b>vydělat pojem pojem</b>",
-      ctrl_i: "pojem pojem na/pojem pro vybrané text | <i>vydělat pojem pojem</i>",
+      ctrl_b: "Zapnout/vypnout tučné písmo pro vybraný text | <b>Zvýrazněte mě</b>",
+      ctrl_i: "Zapnout/vypnout kurzívu pro vybraný text | <i>Nastavit kurzívou</i>",
       ctrl_l:
-        "pojem pojem na/pojem pro vybrané text | <s>pojem pojem pojem</s>",
-      ctrl_u: "pojem pojem na/pojem pro vybrané text | <u>pojem pojem</u>",
+        "Zapnout/vypnout přeškrtnutí pro vybraný text | <s>Přeškrtni mě</s>",
+      ctrl_u: "Zapnout/vypnout podtržení pro vybraný text | <u>Podtrhnout mě</u>",
       ctrl_1:
-        "pojem písmo velikost z vybrané text | <small>vydělat pojem pojem</small>",
-      ctrl_2: "pojem písmo velikost z vybrané text | <big>vydělat pojem pojem</big>",
+        "Zmenšit velikost písma vybraného textu | <small>Udělej mě malým</small>",
+      ctrl_2: "Zvětšit velikost písma vybraného textu | <big>Udělej mě velkým</big>",
       ctrl_r: "odstranit vše pojem od vybrané text | pojem vše styl",
       ctrl_s: "uložit pojem stránka",
       tab: "pojem mezi pojem režim",
-      ctrl_e: "pojem nebo pojem pojem styl režim",
+      ctrl_e: "Aktivujte nebo deaktivujte režim stylu klonování",
     },
   },
 
@@ -10735,13 +10735,13 @@ export default {
    */
   l_page_editor_repository: {
     title: "přetáhnout & pustit",
-    subtitle: "pojem pojem",
+    subtitle: "Předem postavené sekce",
     add_dialog: {
       title: "přidat vlastní pojem",
       configuration: {
         title: "Nastavení",
         subtitle:
-          "vy může uložit pojem pojem pro pojem pojem v váš stránka design. pojem pojem pojem bude být pojem k vše pojem v toto obchod.",
+          "Vlastní sekce můžete uložit pro budoucí použití v návrzích stránek. Tyto uložené sekce budou přístupné všem administrátorům v tomto obchodě.",
       },
       image: {
         title: "obraz",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kód",
         subtitle:
-          "vy může kopírovat a pojem pojem pojem kód od pojem pojem pojem pojem v pojem stránka pojem.",
+          "Kód prvku můžete zkopírovat a vložit z levé postranní sekce v nástroji pro tvorbu stránek.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "Tagy",
-          message: "pojem pro hledat a pojem pojem.",
+          message: "Používá se pro vyhledávání a kategorizaci prvků.",
         },
         section: {
-          message: "kopírovat pojem pojem od pojem stránka pojem.",
+          message: "Zkopírujte sekci z nástroje pro tvorbu stránek.",
         },
       },
     },
@@ -10774,20 +10774,20 @@ export default {
   marketplace_vendors: {
     title: "prodejci seznam",
     subtitle:
-      "přidat prodejci pojem, pojem pojem je k produkty v pojem produkt nástěnka > prodejci.",
+      "Zde přidejte dodavatele a poté je přiřaďte k produktům na panelu Product Dashboard > Dodavatelé.",
     add_new_vendor_action: "přidat nový prodejce",
     status_tooltip: {
       title: "prodejce stav",
       ACCEPTED: "pojem prodejce má přístup k jejich pojem.",
       REJECTED: "pojem prodejce pojem má bylo odmítnout.",
-      PENDING: "pojem pojem je pojem pojem pojem od pojem prodejce.",
+      PENDING: "Žádost čeká na rozhodnutí dodavatele.",
     },
     number_of_products: "pojem z produkty",
     invited: "pojem",
     no_pricing: "ne ceny",
     no_pricing_tooltip: {
       title: "výchozí ceny pojem",
-      subtitle: "prosím nastavit pojem výchozí ceny pojem pro pojem prodejce.",
+      subtitle: "Nastavte prosím výchozí cenový model pro dodavatele.",
     },
     updated_products_tooltip: {
       title: "produkty aktualizováno v pojem poslední 24 hodiny",
@@ -10798,12 +10798,12 @@ export default {
     access_tooltip: {
       title: "pojem přístup",
       subtitle:
-        "pojem prodejce má přístup k jejich pojem. vy může upravit toto v prodejce > přístup pojem.",
+        "Prodejce má přístup k jejich panelu. Toto můžete upravit na kartě Dodavatel > Přístup.",
     },
     reject_by_user_tooltip: {
       title: "odmítnout podle uživatel",
       subtitle:
-        "pojem uživatel odmítnout pojem pojem k pojem pojem prodejce a přístup toto prodejce.",
+        "Uživatel odmítl požadavek stát se dodavatelem a získat přístup k tomuto dodavateli.",
     },
     download_all_vendors: "stáhnout vše prodejci",
     bulk_import: "pojem importovat (pojem)",
@@ -10813,9 +10813,9 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "pojem pojem povinné!",
+    title: "Je vyžadován upgrade licence!",
     subtitle:
-      "váš aktuální pojem pojem ne pojem pojem pojem z váš vybrané podnikání pojem. prosím pojem váš pojem k pojem pojem pojem.",
+      "Vaše aktuální licence nesplňuje požadavky zvoleného obchodního modelu. Upgradujte prosím svou licenci na plán Enterprise.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "pojem akce",
     subtitle:
-      "vy může pojem pojem stav aktualizovat e-mail k pojem pojem s pojem pojem pojem. pojem, vy může pojem pojem zpráva pojem k pojem, pojem vy pojem mít k pojem je pojem čas.",
+      "Jediným kliknutím můžete kupujícímu odeslat e-mail s aktualizací stavu. Kromě toho zde můžete definovat běžné zprávy pro opětovné použití, takže je nemusíte pokaždé přepisovat.",
     send_update_email_action: "pojem aktualizovat e-mail",
     add_template_action: "přidat zpráva šablona",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "objednávka aktualizovat e-mail",
       need_set_service_alert: {
         message:
-          "prosím nastavit váš e-mail služba poskytovatel k pojem pojem e-mail k být odesláno.",
+          "Nastavte prosím svého poskytovatele e-mailových služeb, aby povolil odesílání e-mailu.",
         action: "pojem k nastavení",
       },
       send_action: "pojem aktualizovat e-mail",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "upravit zpráva šablona",
       add_title: "přidat zpráva šablona",
       message:
-        "vy pojem nastavit pojem název a zpráva pojem pojem. pojem název pouze být pojem pro váš pojem a bude ne odesláno k pojem zákazník.",
+        "Zde byste měli nastavit název a tělo zprávy. Název slouží pouze pro vaši referenci a nebude zaslán zákazníkovi.",
 
       save_action: "uložit šablona",
       add_action: "přidat šablona",
@@ -10861,13 +10861,13 @@ export default {
       inputs: {
         title: {
           label: "šablona název",
-          placeholder: "zápis pojem pojem název...",
+          placeholder: "Napište krátký název...",
         },
         body: {
           label: "šablona zpráva",
           placeholder: "zápis váš zpráva pojem...",
           messages:
-            "vy může nastavit pojem pojem podle {order_id} a {buyer_name}.",
+            "Dynamické hodnoty můžete nastavit pomocí {order_id} a {buyer_name}.",
         },
       },
     },
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "objednávka odkaz",
-    subtitle: "vy může pojem pojem objednávka odkaz s pojem zákazník.",
+    subtitle: "Odkaz na objednávku můžete sdílet se zákazníkem.",
     guest_checkout_message:
-      "pojem pojem může automaticky zobrazit jejich objednávka v pojem pojem pojem.pojem, pokud pojem zákazník je pojem pojem a vy pojem k pojem pojem objednávka detaily, vy může vytvořit pojem pojem odkaz pro je.",
+      "Nakupující typu host mohou svou objednávku automaticky zobrazit ve stejném prohlížeči. Pokud je však zákazník hostem a potřebujete sdílet podrobnosti objednávky, můžete pro něj vytvořit zabezpečený odkaz.",
     authentication: "pojem",
     guest: "pojem",
     click_to_create: "pojem k vytvořit...",
@@ -10894,10 +10894,10 @@ export default {
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
-    title: "pojem pojem",
-    add_source_action: "přidat pojem pojem",
+    title: "Zdroje recenzí",
+    add_source_action: "Přidat zdroj recenze",
     subtitle:
-      "pojem pojem externí pojem k pojem a pojem pojem pojem váš podnikání od pojem pojem Facebook, Google, a více. pojem automaticky pojem zákazníci k jejich pojem pro pojem pojem zákazník pojem. vy může pojem pojem pojem pojem na váš pojem stránky a produkt stránky.",
+      "Snadno propojte externí platformy a shromažďujte a analyzujte recenze o vaší firmě ze zdrojů, jako je Facebook, Google a další. Automaticky přiřadíme zákazníky k jejich recenzím pro lepší zákaznickou zkušenost. Tyto recenze můžete také prezentovat na svých vstupních stránkách a produktových stránkách.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "přidat nový vlastnost nastavit",
     title: "vlastnost sady",
     subtitle:
-      "vy může vytvořit a spravovat vlastnost sady pojem. vlastnost sady jsou pojem k pojem pojem vlastnosti z produkty a služby. vy může pojem pojem vlastnost sady k produkty v pojem produkt nástěnka > upravit.",
+      "Zde můžete vytvářet a spravovat sady vlastností. Soubory vlastností se používají k definování vlastností produktů a služeb. Tyto sady vlastností můžete přiřadit k produktům v Panelu produktu > Upravit.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "vlastnost nastavit - vlastní varianty",
       subtitle:
-        "vy může pojem pojem varianta pojem pro toto produkt, pojem pojem výchozí pojem.",
+        "Názvy variant tohoto produktu můžete přizpůsobit a nahradit tak výchozí.",
     },
 
     subtitle:
-      "vy může pojem varianta pojem, ikona, a jejich objednávka pojem. pro produkty s pojem varianty to pojem pojem pojem výchozí pojem, vy může nastavit vlastní varianty pojem k pojem produkt. pojem pojem vlastnost sady v pojem logistika > vlastnost sady pojem a pojem je k pojem pojem z produkty jako pojem.",
+      "Zde si můžete přizpůsobit názvy variant, ikony a jejich pořadí. U produktů s jedinečnými variantami, které jdou nad rámec výchozích šesti, můžete nastavit vlastní varianty přizpůsobené každému produktu. Jednoduše definujte sady vlastností na kartě Logistika > Sady vlastností a podle potřeby je přiřaďte k libovolnému počtu produktů.",
     select_property_set: "vybrat vlastnost nastavit",
     add_property_set: "přidat vlastnost nastavit",
   },
@@ -10931,7 +10931,7 @@ export default {
     title: "krabice",
     add_action: "přidat krabice",
     subtitle:
-      "vytvořit pojem krabice velikost k pojem pojem pojem pojem a pojem pojem doprava pojem. pojem pojem pojem objednávka, vybrat pojem pojem krabice a to pojem bude pojem.",
+      "Vytvářejte opakovaně použitelné velikosti krabic, abyste urychlili nákup štítků a zajistili přesné sazby za dopravu. Při plnění objednávky vyberte uloženou krabici a její rozměry se automaticky vyplní.",
     empty: "ne krabice pojem. pojem “přidat krabice”.",
     edit: "upravit krabice",
     new: "nový krabice",
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "vybrat pojem balík",
-    define_package: "pojem pojem balík",
+    define_package: "Definujte balíček",
     define_package_hint: "vytvořit nebo upravit váš pojem balík velikost",
   },
 
@@ -10973,18 +10973,18 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"výpis",
-    message:"vytvořit pojem pojem, pojem pojem pro pojem pojem z výpis—vlastnosti, pojem, pojem, služby, a více."
+    message:"Vytvořte prohledávatelný, moderovaný adresář pro jakýkoli typ výpisu – nemovitosti, hotely, lékaře, služby a další."
   },
 
   shop_listing: {
     name: "výpis",
     message:
-      "vytvořit pojem pojem, pojem pojem pro pojem pojem z výpis—vlastnosti, pojem, pojem, služby, a více.",
+      "Vytvořte prohledávatelný, moderovaný adresář pro jakýkoli typ výpisu – nemovitosti, hotely, lékaře, služby a další.",
 
     items: {
       title: "Položky",
       sub_title:
-        "vytvořit, upravit, a spravovat výpis položky. pojem stav, ceny, pojem informace, a pojem.",
+        "Vytvářejte, upravujte a spravujte položky seznamu. Kontrolujte stav, ceny, kontaktní informace a média.",
 
       empty_title: "ne položky pojem",
       empty_subtitle:
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategorie",
       sub_title:
-        "pojem váš pojem s kategorie a pojem. toto pojem pojem a pojem.",
+        "Uspořádejte svůj adresář pomocí kategorií a podkategorií. To zlepšuje navigaci a filtrování.",
 
       empty_title: "ne kategorie pojem",
       empty_subtitle:
-        "vytvořit kategorie k pojem váš výpis a pojem pojem.",
+        "Vytvořte kategorie pro strukturování vašeho zápisu a zlepšení procházení.",
 
       add_title: "Přidat kategorii",
       edit_title: "Upravit kategorii",
@@ -11041,7 +11041,7 @@ export default {
 
     options: {
       submission_title: "pojem",
-      submission_enabled: "pojem pojem",
+      submission_enabled: "Povolit odesílání",
 
       moderation_title: "pojem",
       moderation_mode: "pojem režim",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "pojem",
       sub_title:
-        "pojem pojem položky a pojem pojem pojem pojem: pojem, pojem, odmítnout, pojem, nebo pojem k čeká.",
+        "Zkontrolujte odeslané položky a rozhodněte, co se bude dít dál: schválit, publikovat, zamítnout, archivovat nebo resetovat na nevyřízené.",
 
       empty_title: "ne položky k pojem",
       empty_subtitle:
-        "pojem uživatelé pojem nový položky, pojem bude pojem pojem pro pojem.",
+        "Když uživatelé odešlou nové položky, zobrazí se zde k moderování.",
 
       review_title: "pojem položka",
       approve_publish: "pojem & pojem",
@@ -11087,14 +11087,14 @@ export default {
       unpublish_success: "položka pojem úspěšně.",
       archive_success: "položka pojem úspěšně.",
       reject_success: "položka odmítnout úspěšně.",
-      penalty_success: "pojem pojem úspěšně.",
+      penalty_success: "Penalta byla úspěšně uplatněna.",
 
       reject_title: "odmítnout položka",
-      reject_reason: "pojem pojem",
+      reject_reason: "Důvod odmítnutí",
 
       penalty: "pojem",
       penalty_title: "pojem",
-      penalty_points: "pojem pojem",
+      penalty_points: "Trestné body",
       penalty_note: "pojem poznámka"
     },
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "design",
       sub_title:
-        "vytvořit pojem design sady (pojem + detaily šablony) a pojem je k kategorie. kategorie může pojem pojem design.",
+        "Vytvořte více sad návrhů (karty + šablony detailů) a přiřaďte je do kategorií. Kategorie mohou používat různé vzory.",
 
       empty_title: "ne design pojem",
       empty_subtitle:
-        "přidat váš první design nastavit k začátek pojem pojem kategorie pojem.",
+        "Přidejte svou první sadu návrhů a začněte přizpůsobovat vzhled kategorií.",
 
       add_title: "přidat design",
       edit_title: "upravit design",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "smazat design",
       delete_message:
-        "smazat toto design? kategorie pojem to bude automaticky pojem design_pojem.",
+        "Smazat tento design? Kategorie, které jej používají, automaticky ztratí design_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "odznaky",
       sub_title:
-        "vytvořit a spravovat pojem odznaky. odznaky může být pojem k výpis položky k pojem pojem pojem.",
+        "Vytvářejte a spravujte odznaky výlohy. Odznaky lze přiřadit k položkám seznamu pro zvýraznění speciálních atributů.",
 
       empty_title: "ne odznaky pojem",
       empty_subtitle:
@@ -11166,7 +11166,7 @@ export default {
     companies: {
       title: "Společnosti",
       sub_title:
-        "vytvořit a spravovat společnosti. pojem výpis položka může pojem být odkaz k pojem společnost.",
+        "Vytvářejte a řiďte společnosti. Každá položka nabídky může být volitelně spojena s jednou společností.",
 
       empty_title: "ne společnosti pojem",
       empty_subtitle:
@@ -11183,7 +11183,7 @@ export default {
 
       delete_title: "smazat společnost",
       delete_message:
-        "smazat toto společnost? položky pojem to bude automaticky pojem pojem společnost odkaz.",
+        "Smazat tuto společnost? Položky, které jej používají, automaticky ztratí firemní odkaz.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "zpráva",
       sub_title: "spravovat zpráva odesláno podle uživatelé od výpis profily.",
       empty_title: "ne zpráva",
-      empty_subtitle: "zpráva odesláno podle uživatelé bude pojem pojem.",
+      empty_subtitle: "Zde se zobrazí zprávy odeslané uživateli.",
 
       sender: "pojem",
       item: "položka",
@@ -11201,9 +11201,9 @@ export default {
       has_reply_no: "ne pojem",
 
       dialog_title: "Zpráva",
-      owner_reply: "pojem pojem",
+      owner_reply: "Odpověď majitele",
       reply: "pojem",
-      reply_hint: "zápis pojem pojem k pojem uživatel. vy může pojem pojem pojem zpráva jako čtení/pojem od akce.",
+      reply_hint: "Napište odpověď uživateli. Zprávu můžete také označit jako přečtenou/spam z akcí.",
 
       mark_read: "pojem jako čtení",
       mark_unread: "pojem jako pojem",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "výpis",
-      subtitle: "pojem nebo pojem váš veřejné výpis stránka. pojem povoleno pro pojem první čas, Selldone bude vytvořit pojem výpis konfigurace automaticky.",
+      subtitle: "Povolte nebo zakažte stránku veřejného zápisu. Při prvním zapnutí Selldone vytvoří konfiguraci výpisu automaticky.",
       true_description: "výpis je povoleno. zákazníci může pojem výpis stránky.",
-      false_description: "výpis je zakázáno. pojem výpis stránky a pojem jsou pojem.",
+      false_description: "Výpis je zakázán. Stránky se seznamy a příspěvky jsou blokovány.",
       open_listing: "otevřít výpis",
-      note: "vy může pojem pojem pojem, limity, formuláře, a design pojem výpis nastavení.",
+      note: "Později můžete v nastavení výpisu nakonfigurovat moderování, limity, formuláře a design.",
       vendor_prereq_text:
-        "chcete prodejci k přidat výpis položky od jejich prodejce pojem? první, pojem váš podnikání pojem k tržiště.",
+        "Chcete, aby dodavatelé přidali položky seznamu ze svého panelu dodavatelů? Nejprve přepněte svůj obchodní model na Marketplace.",
       vendor_prereq_button: "nastavit tržiště podnikání pojem",
 
       vendor_access_text:
-        "nyní vy může pojem pojem prodejci může přístup výpis pojem (položky + společnosti). pojem to v tržiště nastavení.",
+        "Nyní se můžete rozhodnout, zda mají prodejci přístup k funkcím výpisu (položky + společnosti). Povolte jej v nastavení Marketplace.",
       vendor_access_button: "pojem výpis pro prodejci",
 
       more_options_text:
-        "více pojem jsou dostupné v výpis nastavení. vy může pojem vstupy, UI/pojem, pojem, limity, a pojem možnosti.",
+        "Další ovládací prvky jsou k dispozici v nastavení seznamu. Můžete nakonfigurovat vstupy, uživatelské rozhraní/vzhled, moderování, limity a možnosti zpeněžení.",
       more_options_button: "pojem k výpis nastavení",
 
       updated: "výpis aktualizováno.",
@@ -11241,22 +11241,22 @@ export default {
 
     search: {
       title: "hledat nastavení",
-      subtitle: "design pojem zákazníci hledat váš výpis. pojem pojem hledat a pojem pojem od váš vlastní formulář pole.",
+      subtitle: "Navrhněte, jak zákazníci vyhledávají váš zápis. Povolte vyhledávání na základě polohy a vytvořte filtry z vlastních polí formuláře.",
 
       location_title: "umístění hledat",
-      location_subtitle: "pojem zákazníci k pojem pojem umístění a pojem pojem pojem pojem pojem pojem pojem.",
+      location_subtitle: "Umožněte zákazníkům vybrat si místo a najít blízké výsledky v konfigurovatelném okruhu.",
       location_enabled_true: "umístění pojem je povoleno. zákazníci může hledat podle vzdálenost.",
-      location_enabled_false: "umístění pojem je zakázáno. pojem bude ne být pojem podle vzdálenost.",
+      location_enabled_false: "Filtr umístění je vypnutý. Výsledky nebudou filtrovány podle vzdálenosti.",
 
       radius_default: "výchozí pojem (pojem)",
-      radius_default_hint: "pojem pojem pojem zákazník vybrat pojem umístění pojem pojem ne pojem pojem pojem.",
+      radius_default_hint: "Používá se, když zákazník vybere místo, ale nezvolí okruh.",
       radius_max: "maximum pojem (pojem)",
-      radius_max_hint: "pojem pojem pojem bude být pojem k toto pojem.",
+      radius_max_hint: "Poloměr výlohy bude upnut na tuto hodnotu.",
       radius_options: "pojem možnosti (pojem)",
-      radius_options_hint: "pojem pojem může být zobrazeno jako pojem možnosti v pojem pojem UI.",
+      radius_options_hint: "Tyto hodnoty lze zobrazit jako rychlé možnosti v uživatelském rozhraní obchodu.",
 
       filters_title: "hledat pojem",
-      filters_subtitle: "přidat pojem to čtení pojem od položka Meta pole (váš výpis/kategorie formulář pole). pojem pojem k pojem pojem možnosti od pojem položky.",
+      filters_subtitle: "Přidejte filtry, které čtou hodnoty z polí meta položek (pole formuláře vašeho zápisu/kategorie). Pomocí automatického generování shromážděte skutečné možnosti z publikovaných položek.",
       no_filters: "ne pojem přidat pojem.",
       auto_generate: "pojem možnosti",
 
@@ -11269,7 +11269,7 @@ export default {
       single: "pojem",
       kv_mode: "klíč/pojem režim",
 
-      requires_listing_active: "výpis je ne aktivní. pojem výpis první k pojem to na pojem pojem.",
+      requires_listing_active: "Výpis není aktivní. Nejprve povolte záznam, abyste jej mohli použít ve výloze.",
 
 
     },
@@ -11333,7 +11333,7 @@ export default {
         "Podzimní nabídky, kterým neodoláte",
         "Winter Wonders: Teplé nabídky pro chladné dny",
         "Odpočítávání výprodejů na konci léta",
-        "pojem pojem pojem: pojem pojem přístup",
+        "Black Friday Bonanza: Early Bird Access",
         "Hello Holidays: Váš průvodce dárky a další",
         "Čerstvé nálezy: Nové produkty jen pro vás",
         "Odměna za věrnost: Exkluzivní slevy uvnitř",
@@ -11630,15 +11630,15 @@ export default {
      */
     blog_category: {
       category: [
-        "pojem pojem",
-        "pojem pojem",
+        "Tech Insights",
+        "Foodie Finds",
         "Cestovatelské příběhy",
         "Tipy pro zdraví",
         "Módní oblíbenci",
         "podnikání pojem",
         "Příběhy o životním stylu",
         "Sportovní aktualizace",
-        "pojem pojem",
+        "Art Highlights",
         "Rodičovské ukazatele",
       ],
       description: [
@@ -11662,8 +11662,8 @@ export default {
       name: [
         "Startovací balíček",
         "Základní plán",
-        "pojem pojem",
-        "pojem pojem",
+        "Professional Suite",
+        "Enterprise Edition",
         "Pokročilá úroveň",
         "Prémiový balíček",
         "Konečné řešení",
@@ -11767,16 +11767,16 @@ export default {
     campaign: {
       name: [
         "Nakupujte, dokud neklesnete",
-        "pojem pojem",
+        "Cart Frenzy",
         "Bleskový výprodej Fiesty",
         "Klikněte, nakupovat, uložit",
         "Výhodná Bonanza",
-        "pojem pojem",
-        "pojem pojem pojem",
+        "E-Deal Extravaganza",
+        "Mega Markdown Madness",
         "Spree kybernetických úspor",
         "Digitální slevové dny",
         "Karneval elektronického obchodu",
-        "online pojem pojem",
+        "Online Outlet Oasis",
         "Maloobchodní Rush",
         "Prodej skladu v internetovém obchodě",
         "Ráj e-shopařů",
@@ -11785,7 +11785,7 @@ export default {
         "Odbavení elektronického košíku",
         "Zúčtování online nakupování",
         "Spektakulární kybernetický prodej",
-        "pojem pojem",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11817,7 +11817,7 @@ export default {
       ],
       structure: {
         title: [
-          "pojem pojem design",
+          "T-shirt Print Design",
           "Kovový typ šperku",
           "Výběr materiálu obuvi",
           "Velikost uměleckého rámu",
@@ -11848,7 +11848,7 @@ export default {
       title: [
         "Roztočte a vyhrajte velké ceny!",
         "Jackpot kola štěstí",
-        "pojem pojem pojem",
+        "Lucky Spin Bonanza",
         "Zatočte a vyhrajte odměny",
         "Kolo bohatství",
         "Šťastná loterie Extravaganza",
@@ -11897,47 +11897,47 @@ export default {
     subscription_price: {
       title: [
         "pojem přístup",
-        "pojem pojem",
+        "Prémiové členství",
         "pojem balík",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
+        "Stříbrný plán",
+        "Platinové předplatné",
+        "Enterprise Tier",
+        "Startovací balíček",
         "pojem nabídka",
-        "pojem pojem",
-        "pojem pojem",
+        "Rodinný balíček",
+        "Professional Suite",
       ],
       description: [
-        "pojem pro pojem pojem pojem pojem.",
-        "přístup k vše pojem pojem a pojem.",
-        "pojem pojem a pojem pojem.",
-        "pojem pojem balík pro pojem uživatelé.",
-        "pojem přístup s pojem pojem.",
-        "vlastní pojem pro pojem pojem.",
-        "pojem pojem pojem možnost.",
-        "ne limity na pojem, pro pojem pojem uživatel.",
-        "pojem pojem pojem pro pojem, pojem k 4 členové.",
-        "design pro pojem pojem pojem pojem.",
+        "Ideální pro jednotlivce, kteří zkoumají základy.",
+        "Přístup ke všem prémiovým funkcím a obsahu.",
+        "Exkluzivní výhody a prioritní podpora.",
+        "Vyvážený balíček pro běžné uživatele.",
+        "Dokonalý přístup s výhodami nejvyšší úrovně.",
+        "Zakázková řešení pro velké organizace.",
+        "Cenově dostupná základní varianta.",
+        "Bez omezení použití pro náročné uživatele.",
+        "Speciální tarif pro rodiny až pro 4 členy.",
+        "Navrženo pro profesionály, kteří hledají pokročilé nástroje.",
       ],
     },
 
     spec: {
       group: [
         "Technické specifikace",
-        "pojem pojem",
-        "pojem pojem",
+        "Fyzické rozměry",
+        "Vlastnosti výkonu",
         "pojem možnosti",
-        "pojem pojem",
-        "Material a pojem pojem",
+        "Požadavky na napájení",
+        "Kvalita materiálu a konstrukce",
         "barva a pojem možnosti",
         "pojem a pojem",
-        "pojem pojem pojem",
+        "Kompatibilita operačního systému",
         "pojem a pojem",
         "balík pojem",
         "pojem a pojem",
         "pojem a pojem",
-        "pojem pojem",
-        "pojem pojem",
+        "Šetrnost k životnímu prostředí",
+        "Energetická účinnost",
         "pojem a pojem",
         "pojem možnosti",
         "zahrnuto pojem",
@@ -11949,12 +11949,12 @@ export default {
     avocado: {
       title: [
         "pojem účtenka",
-        "pojem pojem",
+        "Potvrzení prodeje",
         "objednávka faktura",
         "platba faktura",
         "zákazník účtenka",
         "transakce pojem",
-        "pojem pojem",
+        "Vyúčtování",
         "pojem účtenka",
         "objednávka pojem",
         "pojem objednávka faktura",
@@ -11973,23 +11973,23 @@ export default {
         "pojem vy pro váš pojem!",
         "my pojem váš podnikání.",
         "váš objednávka je na to pojem!",
-        "pojem pro pojem s pojem.",
-        "pojem pojem k pojem vy pojem.",
-        "váš pojem je pojem pojem pojem.",
-        "pojem pojem k pojem váš pojem.",
-        "pojem vy pro pojem pojem obchod.",
-        "my pojem vy pojem váš nový pojem!",
-        "uložit váš faktura pro pojem pojem.",
-        "pojem pojem pojem pro více pojem produkty.",
-        "pojem pojem pro pojem nabídka.",
-        "pojem vy pro být pojem pojem zákazník.",
-        "pojem pojem k pojem pokud vy pojem pojem.",
-        "váš pojem pojem pojem pojem.",
-        "pojem pojem pojem sleva na váš pojem pojem.",
-        "pojem pojem pojem pojem pojem!",
-        "pojem vy pro váš pojem v pojem.",
-        "pojem pojem k váš pojem.",
-        "pojem pojem pojem vy od pojem tým.",
+        "Děkujeme, že u nás nakupujete.",
+        "Těšíme se, že vás znovu obsloužím.",
+        "Vaše spokojenost je naší nejvyšší prioritou.",
+        "Nezapomeňte ohodnotit své zkušenosti.",
+        "Děkujeme za podporu našeho obchodu.",
+        "Doufáme, že se vám nový nákup bude líbit!",
+        "Uložte fakturu pro budoucí použití.",
+        "Navštivte nás znovu pro další skvělé produkty.",
+        "Zůstaňte ve spojení a získejte exkluzivní nabídky.",
+        "Děkujeme, že jste váženým zákazníkem.",
+        "Jsme tu, abychom vám pomohli, pokud potřebujete pomoc.",
+        "Vaše zpětná vazba nám pomáhá zlepšovat se.",
+        "Využijte speciální slevu na další nákup.",
+        "Udělali jste skvělou volbu!",
+        "děkujeme za důvěru, kterou nám projevujete.",
+        "Těšíme se na vaši zpětnou vazbu.",
+        "Srdečné poděkování od našeho týmu.",
       ],
     },
 
@@ -12001,22 +12001,22 @@ export default {
         "vlastnost pojem",
         "prodejce pojem",
         "pojem domů",
-        "pojem pojem",
+        "Místní trh",
         "Nově příchozí",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
+        "Stavovské zahrady",
+        "Nákupní čtvrť",
+        "Ulička řemeslníků",
+        "Luxusní statky",
+        "Půjčovna",
         "otevřít pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
-        "pojem pojem",
+        "Technické inovace",
+        "Fashion Lane",
+        "Koutek řemesel",
+        "Food Court",
+        "Knižní koutek",
+        "Křižovatka šperků",
+        "Starožitná třída",
+        "Fitness zóna",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "podnikání pojem pojem",
-        "daň pojem pojem (TIN)",
+        "Osvědčení o obchodní registraci",
+        "daňové identifikační číslo (TIN)",
         "prodejce pojem formulář",
         "produkt pojem",
         "ceny seznam",
         "banka účet detaily",
         "pojem z adresa",
-        "pojem pojem",
+        "Osvědčení o pojištění",
         "společnost profil",
-        "pojem pojem pojem",
+        "Certifikát zajištění kvality",
         "pojem data list (SDS)",
         "produkt pojem informace",
         "vrácení pojem",
-        "doprava a pojem pojem",
+        "Přepravní a manipulační postupy",
         "zákazník služba pojem",
-        "pojem a pojem pojem",
-        "pojem pojem odkaz",
-        "pojem pojem",
+        "Marketingové a propagační plány",
+        "Odkazy na sociální sítě",
+        "Obchodní reference",
         "pojem kód z pojem",
-        "pojem pojem (NDA)",
+        "Smlouva o mlčenlivosti (NDA)",
       ],
     },
 
@@ -12056,22 +12056,22 @@ export default {
         "tržiště pojem služby pojem",
         "obchod konfigurace pojem",
         "pojem služby pojem",
-        "pojem pojem služba pojem",
-        "pojem pojem pojem pojem",
-        "pojem pojem pojem pro podnikání pojem",
+        "Smlouva o poskytování digitálního marketingu",
+        "Smlouva o nastavení platformy elektronického obchodu",
+        "Smlouva o odborném poradenství pro majitele firem",
         "služba pojem pro tržiště konfigurace",
         "obchod pojem a konfigurace služby pojem",
-        "POD služba pojem pojem",
-        "pojem pojem pojem pojem",
+        "Smlouva o poskytování služeb POD",
+        "Smlouva o implementaci marketingové strategie",
         "podnikání pojem služba pojem",
-        "pojem obchod pojem pojem",
-        "pojem služba pojem pojem",
-        "podnikání pojem a pojem pojem",
+        "Smlouva o zřízení e-shopu",
+        "Smlouva o poskytování odborných služeb",
+        "Obchodní řešení a smlouva o nastavení",
         "vlastní obchod pojem služby pojem",
         "tržiště pojem služba pojem",
-        "pojem a pojem služby pojem",
+        "Smlouva o poradenských a nastavovacích službách",
         "POD pojem služby pojem",
-        "pojem a pojem služby pojem",
+        "Smlouva o marketingových a propagačních službách",
         "podnikání pojem služba pojem",
       ],
     },
@@ -12100,37 +12100,37 @@ export default {
     cashback: {
       title: [
         "obchod & pojem cashback",
-        "pojem pojem cashback",
+        "Věrnostní odměny Cashback",
         "pojem cashback nabídka",
         "cashback pojem",
         "pojem cashback pojem",
         "pojem cashback pojem",
         "pojem cashback dny",
-        "cashback na pojem pojem",
+        "Cashback při každém nákupu",
         "cashback pojem",
         "VIP cashback pojem",
         "limit čas cashback",
-        "cashback pojem pojem",
+        "Cashback Rewards Club",
         "obchod více, uložit více",
         "pojem cashback pojem",
         "cashback pojem",
       ],
       description: [
-        "pojem cashback na pojem pojem!",
-        "pojem pojem pro váš pojem.",
+        "Získejte cashback z každého nákupu!",
+        "Získejte odměnu za svou věrnost.",
         "pojem cashback nabídka pojem pro vy.",
-        "pojem pojem pojem s cashback pojem.",
+        "Užijte si skvělé úspory díky cashback odměnám.",
         "pojem cashback na vše váš pojem položky.",
         "uložit více s pojem cashback pojem.",
         "pojem váš cashback na pojem dny!",
         "pojem cashback pojem čas vy obchod.",
-        "pojem pojem cashback pojem dnes!",
-        "VIP členové pojem pojem cashback.",
+        "Připojte se k cashback šílenství ještě dnes!",
+        "VIP členové mají exkluzivní cashback.",
         "pojem! limit čas cashback nabídka.",
-        "pojem pojem cashback pojem pojem nyní.",
+        "Připojte se nyní k našemu Cashback Rewards Clubu.",
         "pojem více vy obchod, pojem více vy uložit.",
-        "pojem pojem pojem cashback pojem.",
-        "pojem pojem pojem cashback pojem pojem.",
+        "Odemkněte maximální cashback odměny.",
+        "Zažijte nejlepší cashback nabídky v okolí.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "pojem k {shop} - pojem pojem pojem pojem z položky",
-        "{shop} - váš pojem pojem pro pojem pojem a pojem služba",
-        "pojem pojem a pojem pouze v {shop} - pojem pojem pojem!",
-        "pojem k pojem {shop}'pojem pojem k pojem a pojem pojem",
-        "pojem pojem pojem z pojem {shop} pojem - pojem k pojem pojem pro aktualizovat",
-        "pojem pojem pojem pojem a pojem pojem v {shop}",
-        "pojem pojem a pojem pojem pro vše pojem v {shop}",
-        "pojem nabídka a pojem pojem v {shop} - pojem pojem!",
-        "{shop}'pojem pojem pojem pojem a produkt pojem - obchod s pojem",
-        "pojem pojem k {shop} - my pojem k pojem pojem pojem pojem pojem",
+        "Vítejte v {shop} – Prozkoumejte naši jedinečnou nabídku položek",
+        "{shop} – Váš konečný zdroj pro kvalitní zboží a vynikající služby",
+        "Exkluzivní nabídky a úspory pouze za {shop} – využijte příležitosti!",
+        "Seznamte se s oddaností společnosti {shop} šetrnosti k životnímu prostředí a etickým postupům",
+        "Staňte se součástí rodiny {shop} – přihlaste se k odběru našeho zpravodaje pro aktualizace",
+        "Ponořte se do nejoblíbenějšího a vysoce hodnoceného zboží na {shop}",
+        "Prezentovat nápady a kreativní návrhy pro všechny události na {shop}",
+        "Bezkonkurenční nabídky a časově citlivé speciály na {shop} – jednejte rychle!",
+        "Komplexní nákupní tipy a hodnocení produktů {shop} – nakupujte s jistotou",
+        "Oslovte {shop} – snažíme se poskytovat bezkonkurenční zážitek z nakupování",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "pojem váš pojem, pojem pojem nastavit!",
-        "uložit pojem s pojem pojem pojem!",
-        "pojem pojem pojem pojem pojem!",
-        "pojem váš pojem, pojem pojem!",
-        "pojem pojem pojem, pojem pojem!",
+        "Doplňte svůj vzhled, vezměte si sadu!",
+        "Ušetřete výrazně s našimi nabídkami balíčků!",
+        "Nenechte si ujít naše dokonalé páry!",
+        "Vylepšete svůj nákup, doplňky čekají!",
+        "Odemkněte exkluzivní úspory, nakupujte společně!",
         "pojem položky, pojem sleva!",
-        "pojem více, pojem pojem – pojem pojem!",
+        "Získejte více, utrácejte méně – sbalte se!",
         "pojem nabídka: pojem produkty!",
-        "pojem váš pojem, pojem pojem!",
-        "pojem pojem pojem pojem, uložit nyní!",
-        "pojem to pojem pro pojem pojem pojem!",
+        "Upgradujte své zkušenosti, kombinované nabídky!",
+        "Objevte naše vybraná komba, ušetřete!",
+        "Spárujte to pro ultimátní kombinaci!",
         "obchod pojem, pojem a uložit!",
-        "pojem pojem pojem, pojem pojem pojem!",
-        "váš pojem pojem je pojem – obchod nyní!",
-        "pojem pojem ceny pojem pro vy!",
-        "pojem váš pojem s pojem pojem!",
-        "pojem váš pojem s pojem pojem!",
+        "Dvojnásobná hodnota, dvojnásobná zábava!",
+        "Vaše dokonalé spojení je tady – nakupujte nyní!",
+        "Exkluzivní cena balíčků jen pro vás!",
+        "Maximalizujte své úspory s našimi kombinacemi!",
+        "Vylepšete svou sbírku těmito tipy!",
         "pojem pro vy: pojem a uložit!",
-        "pojem pojem pojem pro pojem pojem pojem!",
-        "pojem váš pojem pro extra pojem!",
+        "Ideální pár pro perfektní den!",
+        "Sbalte své oblíbené položky a ušetřete!",
       ],
     },
 
@@ -12185,13 +12185,13 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "pojem pojem",
+        "Digitální zboží",
         "pojem",
         "pojem",
         "pojem",
         "domů pojem",
         "pojem produkty",
-        "pojem pojem",
+        "Sportovní vybavení",
         "Hračky a hry",
         "Koloniál",
         "Nábytek",
@@ -12204,7 +12204,7 @@ export default {
         "pojem & TV zobrazit",
         "pojem",
         "pojem & pojem",
-        "pojem pojem",
+        "Outdoorové vybavení",
       ],
     },
 
@@ -12218,7 +12218,7 @@ export default {
         "objednávka pojem",
         "platba přijato",
         "objednávka pojem",
-        "objednávka pojem pojem",
+        "Zpoždění zpracování objednávky",
         "objednávka na pojem",
         "objednávka pojem pro doručení",
         "vrácení pojem",
@@ -12226,27 +12226,27 @@ export default {
         "položka pojem v pojem",
       ],
       body: [
-        "pojem {buyer_name}, váš objednávka #{order_id} má bylo potvrdit! pojem pojem to a bude pojem vy pojem to pojem k pojem.",
+        "Dobrý den {buyer_name}, vaše objednávka #{order_id} byla potvrzena! Zpracováváme jej a dáme vám vědět, až bude připraveno k odeslání.",
 
-        "pojem nový, {buyer_name}! váš objednávka #{order_id} má bylo pojem. vy může pojem to pojem váš účet. pojem pro pojem s pojem!",
+        "Dobré zprávy, {buyer_name}! Vaše objednávka #{order_id} byla odeslána. Můžete to sledovat prostřednictvím svého účtu. Děkujeme, že u nás nakupujete!",
 
-        "pojem {buyer_name}, váš objednávka #{order_id} má bylo úspěšně pojem. my pojem vy pojem váš pojem. pojem vy!",
+        "Dobrý den {buyer_name}, vaše objednávka #{order_id} byla úspěšně doručena. Doufáme, že si nákup užijete. Děkuju!",
 
-        "pojem {buyer_name}, my mít přijato pojem platba pro objednávka #{order_id}. váš objednávka je nyní být pojem a bude být pojem brzy.",
+        "Dobrý den, {buyer_name}, obdrželi jsme platbu za objednávku #{order_id}. Vaše objednávka se nyní zpracovává a bude brzy odeslána.",
 
-        "pojem {buyer_name}, pojem pojem k pojem vy to váš objednávka #{order_id} má bylo pojem. pokud vy mít pojem pojem, prosím pojem pojem.",
+        "Vážený {buyer_name}, s lítostí vám oznamujeme, že vaše objednávka #{order_id} byla zrušena. Máte-li jakékoli dotazy, kontaktujte podporu.",
 
-        "pojem {buyer_name}, pojem pojem pojem pojem s váš objednávka #{order_id}. my pojem pro pojem pojem a jsou pojem k pojem to jako brzy jako pojem.",
+        "Vážený {buyer_name}, došlo ke zpoždění vaší objednávky #{order_id}. Omlouváme se za nepříjemnosti a pracujeme na jejich co nejrychlejším vyřešení.",
 
-        "pojem {buyer_name}, váš objednávka #{order_id} je pojem na pojem. prosím pojem váš účet nebo pojem pojem pro pojem detaily.",
+        "Dobrý den, {buyer_name}, vaše objednávka #{order_id} je momentálně pozastavena. Zkontrolujte prosím svůj účet nebo kontaktujte podporu pro další podrobnosti.",
 
-        "pojem {buyer_name}, váš objednávka #{order_id} je pojem pro doručení a pojem pojem vy brzy. pojem vy pro váš pojem!",
+        "Dobrý den, {buyer_name}, vaše objednávka #{order_id} je připravena k doručení a měla by vám brzy dorazit. Děkujeme za trpělivost!",
 
-        "pojem {buyer_name}, my mít pojem pojem vrácení pro váš objednávka #{order_id}. pokud vy mít pojem pojem, prosím pojem pojem.",
+        "Vážený {buyer_name}, zpracovali jsme vrácení vaší objednávky #{order_id}. Máte-li jakékoli dotazy, kontaktujte podporu.",
 
-        "pojem {buyer_name}, váš refundace pro objednávka #{order_id} má bylo pojem. vy pojem zobrazit pojem pojem v váš účet brzy.",
+        "Dobrý den, {buyer_name}, vaše refundace za objednávku č. {order_id} byla odeslána. Brzy byste měli vidět prostředky na svém účtu.",
 
-        "pojem {buyer_name}, pojem položka od váš objednávka #{order_id} je pojem v pojem! vy může pojem pojem nový objednávka nyní pokud pojem pojem pojem.",
+        "Dobrý den, {buyer_name}, položka z vaší objednávky #{order_id} je opět skladem! Pokud máte stále zájem, můžete zadat novou objednávku.",
       ],
     },
 
@@ -12256,26 +12256,26 @@ export default {
     property_set: {
       title: [
         "pojem",
-        "pojem pojem",
+        "Digitální gadgety",
         "pojem",
         "Potraviny",
         "Nábytek",
         "pojem",
         "pojem produkty",
         "pojem",
-        "pojem pojem",
+        "Sportovní vybavení",
         "pojem",
       ],
       description: [
-        "pojem pro pojem položky pojem velikost, barva, a pojem.",
-        "pojem pro pojem pojem jako pojem, pojem, a pojem.",
-        "pojem, velikost, a pojem z pojem.",
-        "detaily pro pojem, pojem, a pojem produkty.",
+        "Atributy pro oděvní položky, jako je velikost, barva a látka.",
+        "Specifikace pro gadgety, jako je značka, model a funkce.",
+        "Příchutě, velikosti a druhy nápojů.",
+        "Podrobnosti pro jídla, svačiny a potravinářské produkty.",
         "Material, pojem, a design styl.",
-        "pojem, pojem, a pojem pojem.",
-        "pojem pojem, pojem, a pojem detaily.",
-        "pojem pojem, pojem, a pojem pojem.",
-        "pojem, velikost, a pojem pojem.",
+        "Autor, žánr a rok vydání.",
+        "Typ pleti, přísady a detaily balení.",
+        "Věková skupina, materiál a bezpečnostní normy.",
+        "Vlastnosti typu, velikosti a výkonu.",
         "styl, pojem, a pojem detaily.",
       ],
     },
@@ -12298,8 +12298,8 @@ export default {
         "krabice pojem",
         "krabice pojem",
         "krabice pojem",
-        "krabice pojem pojem",
-        "krabice pojem pojem", // flexible mailer
+        "Box Skleněné lahve",
+        "Box Soft Pack", // flexible mailer
         "krabice pojem", // bubble/padded
         "krabice pojem", // thermal
         "krabice pojem",

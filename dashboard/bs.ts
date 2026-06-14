@@ -538,7 +538,7 @@ export default {
         pay_amount: "Iznos plaćanja",
         sell_amount: "Iznos prodaje",
         discount_amount: "Iznos popusta",
-        sell_count: "pojam pojam",
+        sell_count: "Sale count",
         table: {
           currency: "Valuta",
           total_sell_30days: "Ukupna prodaja 30 dana",
@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Kanali akvizicije",
         subtitle:
-          "vaš poslovanje je pojam. pojam je pojam izvještaj od vaš kupac akvizicija kanali.",
+          "Vaše poslovanje raste. Ovdje je izvještaj o vašim kanalima akvizicije kupaca.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -606,12 +606,12 @@ export default {
       },
       products_api: {
         title: "API proizvoda",
-        subtitle: "uvezi proizvodi pojam pojam pojam pojam API pojam.",
+        subtitle: "Uvoz proizvoda putem javno dostupnog API poziva.",
       },
       google_sheet: {
         action: "Povezana tabela",
         tooltip:
-          "pojam proizvodi u ovo prodavnica su link za pojam Google tabela u Google pojam.",
+          "Proizvodi u ovoj trgovini povezani su sa Google Sheet-om na Google disku.",
       },
       show_deletes: {
         false_title: "Sakrij izbrisano",
@@ -630,7 +630,7 @@ export default {
         false_description:
           "prikaži proizvodi pojam od kategorije i pojam.",
         true_title: "Tabelarni način",
-        true_description: "prikaži proizvodi u pojam pojam tabela pojam.",
+        true_description: "Pogledajte proizvode u detaljnom rasporedu tabele.",
       },
 
       show_notes: {
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS proizvoda",
         subtitle:
-          "pojam ovo RSS feed za pojam pojam pojam lista od sve proizvodi.",
+          "Koristite ovaj RSS feed za održavanje ažurne liste svih proizvoda.",
       },
       api_dialog: {
         title: "API proizvoda",
         subtitle:
-          "pojam ovo API feed za pojam vaš proizvod lista pojam. to pojam pojam pojam pojam API za pojam proizvodi od vaš prodavnica, pojam to pojam za proizvod listing i pojam pojam.",
+          "Koristite ovaj API feed kako biste svoju listu proizvoda održavali ažurnom. Pruža javno dostupan API za preuzimanje proizvoda iz vaše trgovine, što ga čini idealnim za popis proizvoda i web stranice za poređenje.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "dostava pojam",
         subtitle:
-          "vi može pojam pojam za pojam to samo kupci pojam pojam pojam dostava pojam može zaradi pojam od vi!",
+          "Možete primijeniti ograničenja kako biste osigurali da samo kupci unutar određenih područja za otpremu mogu kupovati od vas!",
         no_enable_shipping_error:
-          "nema pojam može pojam od vi pojam vi imati nema omogućeno dostava pojam!",
+          "Niko ne može kupiti od vas jer nemate omogućen način dostave!",
         customer_must_select_a_shipping_msg:
-          "kupac pojam odaberi pojam dostava pojam za pojam narudžba.",
+          "Kupac mora odabrati način dostave da bi naručio.",
         customer_can_order_without_shipping_method_msg:
-          "kupac može pojam pojam narudžba pojam ako nema dostava pojam pojam za pojam odabrano lokacija.",
+          "Kupac može naručiti čak i ako za odabranu lokaciju nije podržan način dostave.",
         inputs: {
           restriction: {
             false_description:
-              "kupci može pojam pojam narudžbe pojam ako nema pojam dostava pojam ima bilo odabrano.",
+              "Kupci i dalje mogu naručivati ​​čak i ako nije odabran poseban način isporuke.",
             false_title: "prihvati sve narudžbe",
             true_title: "pojam prihvati narudžba",
             true_description:
-              "kupci su obavezno za izaberi pojam pojam dostava ili preuzimanje opcija u narudžba za pojam njihov pojam.",
+              "Od kupaca se traži da odaberu opciju dostave ili preuzimanja kako bi dovršili kupovinu.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Postavite svoje skladište, prodavnicu ili porijeklo vašeg poslovanja. Od vitalnog je značaja imati u procesu obračuna troškova dostave i naplate.",
       no_multi_warehouse_support_message:
-        "za pojam, ovo pojam je nije dostupno u pojam prodavnica.",
+        "Radi jednostavnosti, ova funkcija nije dostupna u normalnim trgovinama.",
       size_unit: {
         title: "Jedinica veličine",
         subtitle: "Jedinica koja se koristi za dužinu, širinu i visinu.",
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "udaljenost pojam",
-        subtitle: "pojam pojam pojam za udaljenost.",
+        subtitle: "Jedinica koja se koristi za udaljenost.",
       },
 
       menu: {
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Store Active Apps",
         subtitle:
-          "pojam pojam pojam od pojam vaš poslovanje pojam sa Selldone pojam prodavnica. pojam pojam ponuda pojam pojam pojam od pojam dizajn za pojam vaš poslovanje pojam. od pojam upravljanje pojam za pojam pojam, Selldone pojam pojam pojam pojam za pojam pojam pojam i pojam.",
+          "Otkrijte lakoću upravljanja vašim poslovnim aplikacijama uz Selldone App Store. Naša platforma nudi sveobuhvatan skup alata dizajniranih za optimizaciju vašeg poslovanja. Od inovativnih rješenja za upravljanje do aplikacija za povećanje produktivnosti, Selldone pruža besprijekorno iskustvo za poduzeća koja traže efikasnost i rast.",
         all: "sve",
       },
       /** {@see BAppShopStore} **/
@@ -1167,7 +1167,7 @@ export default {
     applications: {
       /** {@see BPageShopApplicationsPwa} **/
       pwa: {
-        title: "pojam pojam",
+        title: "Web App",
         sub_title: "Ovdje pogledajte web aplikaciju svoje trgovine",
         message:
           "Napomena: stranicu dobrodošlice web stranice možete urediti na svom iPhoneu i iPadu u iOS aplikaciji",
@@ -1216,7 +1216,7 @@ export default {
         app_icon_input_placeholder: "Odaberite zip datoteku ikona aplikacija.",
         generate_icon_pack_action: "Napravite paket ikona",
         splash_design: "Dizajn početnog ekrana",
-        splash_logo_input: "pojam pojam logotip",
+        splash_logo_input: "Splash Screen Logo",
         splash_logo_input_placeholder: "Odaberite sliku za početni ekran.",
         splash_title_input: "Naslov početnog ekrana",
         splash_title_input_placeholder: "Unesite naslov za Splash Screen",
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "favicon",
           subtitle:
-            "favicon su pojam, pojam slike to pojam pojam pojam u pojam pojam, pojam, i pojam pojam pojam.",
+            "Favikone su male, ikone slike koje predstavljaju web stranicu u karticama pretraživača, oznakama i sučeljima mobilnih aplikacija.",
         },
       },
 
@@ -1434,11 +1434,11 @@ export default {
       product_code: "Šifra proizvoda (engleski)",
       sku: {
         label: "SKU",
-        message: "pojam pojam pojam",
+        message: "Jedinica za čuvanje zaliha",
       },
       mpn: {
         label: "MPN",
-        message: "pojam pojam pojam",
+        message: "Broj dijela proizvođača",
       },
 
       external_link: "Eksterna veza",
@@ -1486,55 +1486,55 @@ export default {
 
       category: {
         subtitle:
-          "pojam pojam kategorija i naslov za biti prikazano u vaš listing.",
+          "Konfigurirajte kategoriju i naslov koji će biti prikazani u vašem popisu.",
       },
       unit: {
         subtitle:
-          "vi može pojam pojam pojam od određivanje cijena i pojam pojam na pojam proizvod stranica.",
+          "Možete personalizirati prikaz cijena i elemenata poziva na akciju na stranici proizvoda.",
       },
       custom_pricing: {
         title: "prilagođeno određivanje cijena obrazac",
         subtitle:
-          "vi može kreiraj ili pojam pojam pojam (pojam određivanje cijena unos obrazac) za pojam proizvod, i vaš kupci može odaberi između varijante ili pojam vaš pojam od pojam pojam unos obrazac.",
+          "Možete kreirati ili dodijeliti procjenu (obrazac za unos cijene) proizvodu, a vaši kupci mogu birati između varijanti ili prilagoditi vašu robu pomoću intuitivnog obrasca za unos.",
         valuation_need_saved_product_message:
-          "molimo sačuvaj pojam proizvod prvo, i pojam vi može pojam pojam pojam pojam.",
+          "Molimo prvo sačuvajte proizvod, a zatim možete dodijeliti model procjene.",
         assign_valuation_message:
-          "molimo pojam pojam pojam pojam za ovo proizvod.",
+          "Molimo dodijelite model procjene ovom proizvodu.",
         edit_pricing_action: "uredi određivanje cijena obrazac",
         add_pricing_action: "kreiraj novo određivanje cijena obrazac",
       },
       action: {
-        title: "prilagođeno pojam pojam",
+        title: "Prilagođeno dugme za kupovinu",
         message:
-          "vi može pojam ikona od pojam ovo pojam: {icon name} pojam...",
-        placeholder: "pojam pojam za radnja...",
-        multi_language_dialog_title: "prilagođeno pojam pojam pojam",
+          "Ikonu možete promijeniti slijedeći ovaj obrazac: {icon name} natpis...",
+        placeholder: "Unesite poziv na akciju...",
+        multi_language_dialog_title: "Prilagođeni natpis dugmeta za kupovinu",
       },
       external: {
         not_available_message:
-          "dodatno radnja dostupno sa kompanija & pojam pojam.",
+          "Dodatna akcija dostupna sa licencama kompanije i preduzeća.",
         available_message: "vi može dodaj pojam dodatno vanjsko pojam za radnja.",
-        input_label: "pojam pojam za radnja",
+        input_label: "Drugi poziv na akciju",
       },
       warehouse: {
         subtitle:
-          "ovo informacije je pojam od pojam skladište upravljanje pojam i pojam za pojam pojam pojam proizvod.",
+          "Ove informacije koristi sistem upravljanja skladištem i služe za globalnu identifikaciju proizvoda.",
       },
       gtin: {
-        hint: "pojam pojam su UPC (pojam pojam, 12 pojam), EAN (pojam, 13 pojam), JAN (pojam, 8 ili 13 pojam), ISBN (pojam, 13 pojam).",
-        label: "proizvod pojam pojam stavka pojam",
-        placeholder: "pojam pojam pojam pojam.. (opcionalno)",
+        hint: "Podržane vrijednosti su UPC (Sjeverna Amerika, 12 cifara), EAN (Evropa, 13 cifara), JAN (Japan, 8 ili 13 cifara), ISBN (knjige, 13 cifara).",
+        label: "Globalni broj trgovinske jedinice proizvoda",
+        placeholder: "Globalni trgovački broj ovdje.. (Neobavezno)",
       },
       hsn: {
-        hint: "HSN, ili pojam pojam od pojam, je pojam pojam pojam klasifikacija pojam za pojam pojam i proizvodi.",
+        hint: "HSN, ili Harmonizirani sistem nomenklature, je međunarodno standardizirani klasifikacijski sistem za kategorizaciju robe i proizvoda.",
         placeholder: "6~16 pojam HSN kod.. (opcionalno)",
         label: "HSN",
       },
       condition: {
         label: "proizvod pojam u vaš prodavnica",
-        message: "molimo izaberi pojam pojam od ovo proizvod.",
+        message: "Molimo odaberite stanje ovog proizvoda.",
         subtitle:
-          "pojam vaš kupci pojam pojam pojam i pojam od pojam proizvod pojam ponuda.",
+          "Obavijestite svoje kupce o stanju i marki proizvoda koji nudite.",
       },
       brand: {
         label: "pojam",
@@ -1542,25 +1542,25 @@ export default {
       },
       warranty: {
         subtitle:
-          "postavi pojam pojam i proizvod status, kao ovo informacije pojam pojam će biti prikazano za pojam kupac i pojam pojam pojam vrijeme pojam pojam pojam proizvodi može biti vraćeno nakon pojam.",
+          "Podesite garanciju i status proizvoda, jer će ove informacije u vezi sa garancijom biti prikazane kupcu i pomažu u određivanju vremenskog okvira u kojem se proizvodi mogu vratiti nakon kupovine.",
 
         label: "pojam",
-        placeholder: "pojam 24 pojam pojam.. (opcionalno)",
+        placeholder: "Zlatna garancija 24 mjeseca.. (Opciono)",
       },
       status: {
         title: "status",
         subtitle:
-          "pojam proizvod status pojam to pojam online i pojam. za zaradi pojam proizvod pojam, pojam pojam to status za 'pojam..",
+          "Status proizvoda određuje njegovu dostupnost na mreži i u trgovini. Da biste napravili nacrt proizvoda, samo promijenite njegov status na 'Neaktivan'.",
       },
       profiles: {
         title: "Profili",
         subtitle:
-          "vi može pojam pojam, povrat pojam, dostava, i pojam i pojam njih za ovo proizvod. to će biti prikazano kao novo pojam na pojam proizvod stranica.",
+          "Možete definirati jamstvo, politiku povrata, dostavu i vodič i dodijeliti ih ovom proizvodu. Biće prikazano kao nove kartice na stranici proizvoda.",
       },
       shortcuts: {
         title: "pojam proizvod za dodatno kategorije",
         subtitle:
-          "ovo pojam pojam vi za lista pojam proizvod u pojam kategorije pojam pojam to pojam u pojam primarno kategorija postavi pojam proizvod > uredi > kategorija. pojam, to pojam pojam za pojam 'pojam u pojam pojam, pojam pojam proizvod za pojam u dodatno pojam kategorije.",
+          "Ova funkcija vam omogućava da navedete proizvod u više kategorija uz zadržavanje njegovog položaja u primarnoj kategoriji postavljenoj pod Proizvod > Uredi > Kategorija. U suštini, funkcioniše slično stvaranju 'prečica' u operativnim sistemima, omogućavajući proizvodu da se pojavi u dodatnim određenim kategorijama.",
       },
     },
 
@@ -1593,7 +1593,7 @@ export default {
       suggestion_rating: [
         "Dobra kvaliteta",
         "Dobra vrijednost",
-        "pojam pojam",
+        "Would Recommend",
         "Karakteristike i mogućnosti",
         "Jednostavna upotreba",
         "Dobro dizajniran",
@@ -1603,7 +1603,7 @@ export default {
         "Opis proizvoda podudara se",
         "Izdržljiv i dugotrajan",
         "Isplativo",
-        "pojam pojam",
+        "Attractive Packaging",
         "Inovativni dizajn",
         "Environmental Friendly",
         "Dovoljna uputstva/priručnik",
@@ -1635,26 +1635,26 @@ export default {
     edit_spec: {
       title: "Tehničke specifikacije",
       subtitle:
-        "pojam proizvod pojam pojam. ovo informacije će biti prikazano za kupci i može pojam biti pojam u pojam kategorija pojam pojam pojam.",
+        "Ovdje unesite specifikacije proizvoda. Ove informacije će biti prikazane kupcima i mogu se koristiti u inteligentnom sistemu filtriranja kategorije.",
       manual: {
         title: "pojam",
         subtitle:
-          "dodaj proizvod pojam pojam od pojam pojam i pojam pojam.",
+          "Ručno dodajte specifikacije proizvoda definiranjem grupa i para ključ/vrijednost.",
         add_group_action: "Dodaj grupu",
-        add_item_action: "dodaj pojam pojam",
+        add_item_action: "Dodajte vrijednost specifikacije",
       },
       import: {
         subtitle:
-          "vi može uvezi pojam pojam od pojam proizvodi.",
+          "Možete uvesti tehničke specifikacije sličnih proizvoda.",
         action_title: "uvezi",
-        action_subtitle: "pojam pojam od pojam proizvod.",
+        action_subtitle: "Klon specifikacija iz drugog proizvoda.",
       },
       ai: {
         title: "AI",
         subtitle:
-          "vi može automatski kreiraj proizvod pojam od pojam pojam proizvod pojam podaci u pojam obrazac.",
+          "Možete automatski kreirati specifikacije proizvoda slanjem sirovih podataka o proizvodu u tekstualnom obliku.",
         action_title: "automatski pojam od AI",
-        action_subtitle: "kreiraj proizvod pojam od pojam pojam.",
+        action_subtitle: "Kreirajte specifikacije proizvoda apstraktnim upitom.",
       },
 
       group_input_header: "Dodaj grupu",
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Šifra proizvoda: P0000...",
         spec_view_title: "Specifikacije odabranog proizvoda",
         spec_view_subtitle:
-          "pojam pojam imati bilo uvezi od pojam pojam proizvod.",
+          "Specifikacije su uvezene iz odabranog proizvoda.",
         set_spec_action: "Duplicirane tehničke specifikacije",
       },
       notifications: {
@@ -1691,26 +1691,26 @@ export default {
         prompt: {
           title: "proizvod pojam",
           subtitle:
-            "molimo pojam pojam pojam i pojam opis od pojam proizvod, pojam to ključ pojam i detalji. ovo informacije će biti pojam za automatski pojam pojam proizvod pojam.",
+            "Molimo navedite kratak i jasan opis proizvoda, naglašavajući njegove ključne karakteristike i detalje. Ove informacije će se koristiti za automatsko generiranje specifikacija proizvoda.",
         },
         generated_spec: {
-          title: "pojam pojam",
+          title: "Specifikacije generirane AI",
           subtitle:
-            "pojam pojam pojam pojam od pojam pojam.",
+            "Ove specifikacije je generirala umjetna inteligencija.",
         },
         inputs: {
           prompt: {
             label: "proizvod detalji",
-            placeholder: "pojam pojam proizvod pojam...",
+            placeholder: "Ovdje opišite proizvod...",
           },
         },
         actions: {
           run: {
-            title: "pojam pojam",
+            title: "Generiraj specifikacije",
             subtitle:
-              "pojam za automatski kreiraj proizvod pojam od pojam pojam pojam.",
+              "Kliknite da automatski kreirate specifikacije proizvoda iz datog pregleda.",
           },
-          add_generated_spec: "dodaj pojam pojam",
+          add_generated_spec: "Dodajte generirane specifikacije",
         },
       },
     },
@@ -1739,16 +1739,16 @@ export default {
         inputs: {
           prompt: {
             label: "pozadina opis",
-            placeholder: "pojam pojam pojam pozadina...",
+            placeholder: "Opišite željenu pozadinu...",
           },
         },
         actions: {
           reimagine: {
             title: "pojam novo slika",
-            subtitle: "pojam pojam pojam slika sa pojam novo pozadina.",
+            subtitle: "Ponovno zamislite cijelu sliku s novom pozadinom.",
           },
           replace: {
-            subtitle: "pojam pojam pojam pozadina.",
+            subtitle: "Zamijenite postojeću pozadinu.",
           },
         },
       },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "pojam pojam tržište, pojam primarno proizvod određivanje cijena prikazano je pojam listing cijena, pojam pojam pojam cijena je pojam pojam na pojam pojam pojam pojam.",
+          "Unutar tržišta, prikazana primarna cijena proizvoda je cijena na listi, dok se stvarna cijena utvrđuje na osnovu zapisa odnosa dobavljača i proizvoda.",
         subscription:
-          "za pojam, samo pojam listing cijena je prikazano, pojam pojam pojam pojam će biti pojam pojam na pojam odabrano pojam pojam.",
+          "Za pretplate se prikazuje samo cijena na listi, dok će stvarni trošak biti utvrđen na osnovu odabranog plana pretplate.",
         service:
-          "za pojam proizvodi, pojam lista određivanje cijena je pojam za pojam pojam, pojam pojam pojam pojam od pojam usluga. pojam pojam usluga cijena će biti pojam od vi pojam pojam kupac ima pojam njihov narudžba (pojam pojam).",
-        file: "ovo pojam za pojam lista i pojam cijena od pojam datoteka, pojam kupci pojam pojam u narudžba za pojam pristup za pojam datoteke.",
+          "Za proizvode zasnovane na uslugama, navedene cijene služe isključivo u svrhu prikazivanja, dajući procijenjenu cijenu usluge. Stvarnu cijenu usluge odredit ćete vi nakon što korisnik naruči svoju narudžbu (prilikom odjave).",
+        file: "Ovo se odnosi na navedenu i stvarnu cijenu datoteke koju korisnici moraju platiti da bi dobili pristup datotekama.",
         default:
-          "ovo pojam za pojam proizvod lista cijena i pojam pojam pojam račun pojam cijena od pojam varijante to pojam nije imati pojam određivanje cijena.",
+          "Ovo se odnosi na navedenu cijenu proizvoda i također uzima u obzir cijenu svih varijanti koje nemaju odvojene cijene.",
       },
       extra_pricings: {
         title: "dodaj dodatno određivanje cijena",
-        subtitle: "pojam pojam određivanje cijena pojam na pojam pojam.",
+        subtitle: "Implementirajte dinamičko određivanje cijena na osnovu količine kupovine.",
       },
 
       vendor: {
         title: "prodavac određivanje cijena",
         subtitle:
-          "ovo cijena će biti prikazano samo u pojam proizvodi listing. vi može postavi prodavac cijena u pojam proizvod > prodavci pojam.",
+          "Ova cijena će biti prikazana samo u popisu proizvoda. Možete postaviti cijenu dobavljača na kartici Proizvod > Dobavljači.",
         manage_vendors: "upravljaj prodavci",
         vendor_product_pricing_link:
-          "pojam prodavac proizvod određivanje cijena je pojam. pojam pojam listing cijena pojam će pojam prodavac proizvodi pojam varijante ili pojam sa varijante to pojam imati njihov pojam određivanje cijena (pojam pojam pojam cijena kao pojam glavno proizvod). ovo cijena će biti pojam kao pojam tržište cijena, i pojam prodavac cijena će biti postavi pojam na pojam određivanje cijena pojam ili pojam pojam tržište pojam pojam.",
+          "Cijene proizvoda dobavljača su povezane. Promjena cijene na listi ovdje će utjecati na proizvode dobavljača bez varijanti ili na one s varijantama koje nemaju vlastite cijene (koristeći istu cijenu kao glavni proizvod). Ova cijena će se tretirati kao tržišna cijena, a cijena dobavljača će biti postavljena na osnovu modela određivanja cijena ili prethodne tržišne profitne marže.",
         vendor_variant_pricing_link:
-          "pojam pojam varijanta cijena pojam će pojam pojam određivanje cijena od prodavac proizvodi sa pojam pojam varijanta. ovo cijena će biti pojam pojam tržište cijena, i pojam prodavac cijena će biti postavi pojam za pojam određivanje cijena pojam ili pojam pojam tržište pojam pojam.",
+          "Promjena cijene varijante ovdje će utjecati na cijene proizvoda dobavljača s istom varijantom. Ova cijena će se smatrati tržišnom cijenom, a cijena dobavljača će biti postavljena prema modelu određivanja cijena ili prethodnoj tržišnoj profitnoj marži.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Ova poruka će biti prikazana kupcu prilikom kupovine proizvoda.",
       inputs_form: "Informaciona struktura (ulaz)",
       inputs_hint:
-        "vi imati pojam opcija za postavi pojam pojam pojam obrazac za pojam detalji od vaš kupci pojam pojam pojam za pojam pojam narudžba.",
+        "Imate mogućnost da postavite personalizirani obrazac za prikupljanje detalja od vaših kupaca kada budu spremni za narudžbu.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,10 +1837,10 @@ export default {
       order_limit: {
         title: "narudžba ograničenja",
         subtitle:
-          "ako pojam pojam pojam ili pojam pojam minimum ili maksimum ograničenje na pojam pojam od ovo stavka pojam narudžba, vi može pojam to pojam.",
+          "Ako ste veletrgovac ili postoji minimalno ili maksimalno ograničenje količine ovog artikla po narudžbi, to možete navesti ovdje.",
         no_limit: "nema ograničenje",
-        minimum_purchase_quantity: "minimum pojam pojam",
-        maximum_purchase_quantity: "maksimum pojam pojam",
+        minimum_purchase_quantity: "Minimalna količina za kupovinu",
+        maximum_purchase_quantity: "Maksimalna količina kupovine",
       },
     },
 
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Uklonite proizvod",
       message: "Želite li izbrisati <b>{product_title}</b>?",
-      tips: "ako vi pojam izbriši pojam proizvod, vi može pojam to od pojam za vaš prodavnica > proizvodi, pojam pojamžja pojam stavke, i pojam pojam na pojam proizvod, i odaberi vrati.",
+      tips: "Ako slučajno izbrišete proizvod, možete ga oporaviti tako što ćete otići na svoju Prodavnica > Proizvodi, omogućiti Prikaži izbrisane stavke, a zatim desnim klikom na proizvod i odabirom Vrati.",
     },
   },
 
@@ -1860,17 +1860,17 @@ export default {
   extra_pricing_add_dialog: {
     title: "dodatno određivanje cijena za pojam {min}",
     subtitle:
-      "pojam pojam automatski pojam pojam narudžba i pojam za cijena pojam. molimo unos pojam minimum pojam obavezno za ovo određivanje cijena za pojam pojam.",
+      "Sistem automatski određuje redosled i prioritet za obračun cene. Unesite minimalnu količinu potrebnu da ova cijena stupi na snagu.",
     min_quantity: "Minimalna količina",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "pojam za pojam proizvodi je postavi od pojam, i pojam biti pojam pojam.",
+        "Inventar za dropshipping proizvode postavljaju veletrgovci i ne može se mijenjati ovdje.",
       marketplace:
-        "pojam pojam proizvod pojam u pojam tržište je pojam od dodaj pojam pojam pojam od sve prodavci. vi pojam pojam to pojam.",
-      default: "pojam pojam proizvod pojam pojam pojam.",
+        "Ukupna zaliha proizvoda na tržištu utvrđuje se zbrajanjem zaliha svih dobavljača. Ne možete ga mijenjati ovdje.",
+      default: "Ovdje navedite broj zaliha proizvoda.",
     },
     menu: {
       add_bulk: {
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google proizvod kategorija kod",
-    hint: "pojam pojam kategorija od vaš proizvod pojam za pojam Google'pojam proizvod pojam.",
+    hint: "Predstavlja kategoriju vašeg proizvoda prema Googleovoj taksonomiji proizvoda.",
     placeholder: "pojam proizvod ili usluga kategorija.. (opcionalno)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "pojam",
-      desc: "pojam pojam je pojam od pojam pojam pojam pojam pojam pojam za pojam ili pojam pojam proizvod pojam pojam pojam pojam. ovo pojam može pojam pojam za pojam pojam pojam nije imati pojam pojam pojam sa pojam pojam.",
+      desc: "Garancija je dio ugovora u kojem proizvođač obećava da će popraviti ili zamijeniti proizvod u određenom roku. Ova obaveza se može proširiti čak i na potrošače koji nemaju direktan ugovor sa proizvođačem.",
     },
     RETURN_POLICY: {
       title: "povrat pojam",
-      desc: "povrat pojam pojam pojam kupci može povrat ili pojam pojam pojam. pojam pojam pojam stavke, pojam pojam za povrat, i pojam pojam za pojam povrat.",
+      desc: "Pravila povrata navode kako kupci mogu vratiti ili zamijeniti neželjenu robu. Oni navode prihvatljive artikle, prihvatljive razloge za vraćanje i vremenski okvir za vraćanje.",
     },
     GUIDE: {
       title: "pojam",
-      desc: "pojam pojam pojam pojam pojam veličina pojam za pojam ili pojam pojam pojam za pojam. to pojam to pojam su pojam i pojam pojam pojam proizvodi.",
+      desc: "Vodič može uključivati ​​tablicu veličina za odjeću ili vodič za odabir dijamanata. Važno je da su vodiči svestrani i primjenjivi na više proizvoda.",
     },
     SHIPPING: {
       title: "Dostava",
-      desc: "pojam dostava pojam detalji pojam ključ pojam od dostava za online narudžbe, pojam dostava pojam, pojam, i pojam isporuka vrijeme.",
+      desc: "Politika dostave detaljno opisuje ključne aspekte dostave za online narudžbe, uključujući troškove dostave, metode i procijenjena vremena isporuke.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "pojam upravljanje",
     subtitle:
-      "kreiraj pojam, pojam, i pojam pojam pojam.",
+      "Kreirajte personalizirane, inteligentne i interaktivne iskačuće prozore.",
     add_action: "dodaj novo pojam",
   },
 
@@ -1941,7 +1941,7 @@ export default {
       default: "zadano",
       dedicated: "namjenski",
 
-      subscription: "mi može primijeni porez samo na pojam plaćanje pojam pojam.",
+      subscription: "Porez možemo primijeniti samo na korak kreiranja plaćanja.",
       is_disabled: "ovo porez profil je onemogućeno! (⚠️upozorenje)",
       shipping: "Dostava",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "porez profil",
       subtitle:
-        "vi može pojam pojam porez pojam za pojam proizvod. pojam pojam porez profil nije biti pojam za pojam proizvod, pojam zadano prodavnica porez pojam će pojam biti pojam.",
+        "Proizvodu možete dodijeliti određene porezne propise. Ako porezni profil nije odabran za proizvod, tada će se primijeniti zadani porezni propisi trgovine.",
 
       action_manage: "upravljaj porez",
       action_manage_sub: "prodavnica > pojam > porez",
 
       subscription_tips:
-        "pojam vi odaberi pojam porez profil za pojam proizvod, mi ažuriraj<code>porez kod</code> i postavi pojam/pojam način na vaš plaćanje usluga pružalac. pojam odabrano porez profil pojam pojam pojam cijena je pojam pojam od pojam ili pojam od pojam. pojam od <code>pojam</code> ili <code>pojam</code>. pojam pojam kao pojam pojam ili pojam, to pojam biti pojam.<br /><br /><b>pojam!</b> nakon pojam pojam porez profil, vi pojam pojam na određivanje cijena pojam na pojam proizvod > pojam pojam i pojam pojam sačuvaj pojam za primijeni pojam.",
+        "Kada odaberete porezni profil za pretplatnički proizvod, ažuriramo<code>porezni kod</code> i postavljamo inkluzivni/ekskluzivni način rada na vašem pružatelju usluga plaćanja. Odabrani porezni profil određuje da li se cijena smatra sa porezom ili bez poreza. Jedan od <code>uključivo</code> ili <code>isključivo</code>. Jednom kada je navedeno kao uključivo ili ekskluzivno, ne može se mijenjati.<br /><br /><b>Važno!</b> Nakon promjene poreznog profila, trebate kliknuti na cjenovne planove na kartici Proizvod > Inventar i kliknuti na dugme Sačuvaj da biste primijenili promjene.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "pojam cijena i pojam od ovo proizvod su postavi od pojam pojam prodavac za pojam to pojam.",
+        "Cijenu i količinu ovog proizvoda određuje određeni prodavac kojem pripada.",
     },
     vendors: {
       subtitle:
-        "pojam pojam lista od pojam za pojam proizvod. pojam pojam i cijena će biti postavi od pojam pojam.",
+        "Evo liste dobavljača za proizvod. Količinu i cijenu određuju dobavljači.",
     },
   },
   /**
@@ -1988,7 +1988,7 @@ export default {
       page: "stranica predložak",
       shipping: "Dostava",
       access: "Pristup",
-      critical_zone: "pojam pojam",
+      critical_zone: "Kritična zona",
     },
 
     profile: {
@@ -1996,7 +1996,7 @@ export default {
       subtitle: "ovo informacije je prikazano za kupci pojam.",
       action_sub_caption: "javno proizvodi listing stranica.",
       action_see_listing_page: "pogledaj listing stranica",
-      send_invitation_email: "pojam pojam e-pošta",
+      send_invitation_email: "Pošaljite pozivnicu e-poštom",
       invitation_link: "pojam link",
     },
 
@@ -2006,12 +2006,12 @@ export default {
     },
     map: {
       no_map_message:
-        "pojam pojam lokacija za pojam prodavac ako to pojam pojam prodavac.",
+        "Dodijelite lokaciju dobavljaču ako je dobavljač baziran na lokaciji.",
     },
     page: {
       title: "prilagođeno stranica",
       subtitle:
-        "postavi pojam prilagođeno pojam stranica za pojam prodavac, pojam njih sa pojam pojam link za njihov namjenski stranica.",
+        "Postavite prilagođenu odredišnu stranicu za dobavljača, pružajući im jedinstvenu vezu do njihove namjenske stranice.",
       action_set_page: "pogledaj javno stranica",
       action_sub_caption: "prilagođeno pojam stranica.",
       vendor_has_landing_msg: "prodavac ima pojam prilagođeno pojam stranica.",
@@ -2022,12 +2022,12 @@ export default {
     },
     contact: {
       title: "pojam informacije",
-      subtitle: "pojam pojam važeće pojam detalji.",
+      subtitle: "Molimo Vas da navedete važeće kontakt podatke.",
     },
     business: {
       title: "poslovanje informacije",
       subtitle:
-        "molimo pojam pojam informacije pojam vaš poslovanje za pojam pojam pojam i pojam pojam pojam pojam.",
+        "Molimo navedite tačne informacije o svom poslovanju kako biste osigurali brz i besprijekoran proces prikupljanja prihoda.",
     },
     bank: {
       title: "isplata informacije",
@@ -2036,7 +2036,7 @@ export default {
     default_pricing: {
       title: "zadano određivanje cijena",
       subtitle:
-        "vi može pojam pojam zadano određivanje cijena pojam za pojam prodavac. pojam pojam prodavac dodaj pojam novo proizvod, ovo određivanje cijena pojam će biti pojam za pojam pojam tržište pojam na pojam proizvod cijena. vi može pojam pojam pojam određivanje cijena pojam za pojam proizvod pojam.",
+        "Možete dodijeliti zadani model cijena za dobavljača. Kada dobavljač doda novi proizvod, ovaj model cijena će se koristiti za izračunavanje tržišne marže na cijenu proizvoda. Kasnije možete prilagoditi cjenovni model za svaki proizvod pojedinačno.",
       no_pricing: "nema određivanje cijena",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "prodavci može pojam njihov pojam dostava usluge i kuriri.",
       shipping_services: "dostava usluge",
       total_number_of_services:
-        "pojam ukupno pojam od dostava usluge to pojam prodavac ima.",
+        "Ukupan broj usluga dostave koje dobavljač ima.",
       couriers: "Kuriri",
-      total_couriers_count: "pojam ukupno pojam od kuriri to pojam prodavac ima.",
+      total_couriers_count: "Ukupan broj kurira koje ima prodavac.",
     },
     configuration: {
       title: "konfiguracija",
@@ -2055,17 +2055,17 @@ export default {
       title: "ukloni prodavac",
       action: "ukloni prodavac",
       verify_description:
-        "ja pojam to sve prodavac proizvod pojam će biti pojam!",
+        "Znam da će svi odnosi sa dobavljačima biti uklonjeni!",
       verify_title: "ja želite za izbriši ovo prodavac.",
     },
 
     send_invitation_tips:
-      "mi će pojam pojam pojam e-pošta za ovo korisnik. ako pojam korisnik pojam vaš prodavnica kao pojam prodavac, njihov račun će biti automatski pojam za njih.",
+      "Ovom korisniku ćemo poslati pozivnicu putem e-pošte. Ako se korisnik pridruži vašoj trgovini kao prodavac, automatski će mu biti dodijeljen njegov račun.",
     only_marketplace_owner_can_edit_user:
-      "samo pojam tržište pojam može uredi pojam korisnik. ako vi želite za pojam pojam pojam od ovo prodavac, vi može pojam pojam pojam za pojam.",
+      "Samo vlasnik tržišta može uređivati ​​korisnika. Ako želite promijeniti vlasnika ovog dobavljača, možete nam poslati zahtjev.",
     vendor_is_disable_msg: "prodavac je onemogućeno.",
     email_not_match_with_user_msg:
-      "pojam e-pošta pojam nije pojam sa korisnik e-pošta (<b>{user_name}:</b>{user_email}). su vi pojam za pojam e-pošta za<b>{email}</b>?",
+      "Unesena adresa e-pošte se ne podudara s korisničkom e-poštom (<b>{user_name}:</b>{user_email}). Jeste li sigurni da šaljete e-poštu na<b>{email}</b>?",
 
     order_information_email_to_email:
       "mi će pojam narudžbe informacije za <b>{email}</b>.",
@@ -2075,57 +2075,57 @@ export default {
     inputs: {
       slug: {
         label: "pojam",
-        placeholder: "pojam pojam prilagođeno pojam...",
-        hint: "pojam pojam pojam pojam prodavac pojam pojam stranica.",
+        placeholder: "Unesite prilagođenu putanju...",
+        hint: "Promijenite putanju dinamičke odredišne ​​stranice dobavljača.",
       },
       email: {
         message: "ovo e-pošta će pojam sve pojam i ažuriraj.",
       },
       business: {
-        false_description: "ja pojam kao pojam pojam.",
-        true_description: "ja pojam kao pojam pojam pojam poslovanje pojam.",
+        false_description: "Radim kao pojedinac.",
+        true_description: "Poslujem kao pravno priznati privredni subjekt.",
         false_title: "pojam",
         true_title: "poslovanje",
       },
       bank: {
-        hint: "pojam pojam od pojam banka pojam pojam prodavac ima njihov račun.",
+        hint: "Naziv banke u kojoj prodavac ima svoj račun.",
         placeholder: "vaš banka pojam..",
       },
       account_name: {
-        hint: "ovo pojam pojam pojam pojam pojam sa pojam banka račun.",
+        hint: "Ovo bi trebalo odgovarati imenu povezanom s bankovnim računom.",
         placeholder: "vaš pojam..",
       },
       account_number: {
-        hint: "pojam prodavac pojam račun pojam.",
+        hint: "Jedinstveni broj računa prodavca.",
         placeholder: "vaš banka račun pojam..",
       },
       routing_number: {
-        hint: "ovo pojam pojam od država. to pojam za pojam pojam pojam banka pojam pojam prodavac pojam.",
-        placeholder: "vaš banka pojam pojam, pojam kod, ili BSB pojam..",
+        hint: "Ovaj broj se razlikuje od zemlje do zemlje. Koristi se za identifikaciju specifične filijale banke koju koristi prodavac.",
+        placeholder: "Vaš bankovni broj za usmjeravanje, kod sortiranja ili BSB broj..",
       },
       iban: {
-        hint: "pojam banka račun pojam): ako pojam prodavac banka je u pojam ili pojam pojam države.",
+        hint: "Međunarodni broj bankovnog računa): Ako je banka dobavljača u Evropi ili nekim drugim zemljama.",
         placeholder: "vaš IBAN pojam.. pojam. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "pojam banka račun pojam): ako pojam prodavac banka je u pojam ili pojam pojam države.",
+        hint: "Međunarodni broj bankovnog računa): Ako je banka dobavljača u Evropi ili nekim drugim zemljama.",
         placeholder: "vaš pojam kod/BIC..",
       },
       branch_address: {
-        hint: "pojam adresa od pojam banka pojam pojam pojam prodavac ima njihov račun.",
+        hint: "Adresa filijale banke u kojoj prodavac ima svoj račun.",
         placeholder: "vaš banka adresa..",
       },
       enable: {
         label: "prodavac status",
-        hint: "vi može pojam ili pojam prodavci pojam. kupci će nije biti pojam za pojam pojam od onemogućeno prodavci.",
+        hint: "Možete omogućiti ili onemogućiti dobavljače globalno. Kupci neće moći kupiti ništa od dobavljača s invaliditetom.",
         true_description:
-          "pojam će biti pojam za pojam njihov proizvodi pojam vaš tržište.",
+          "Oni će moći da prodaju svoje proizvode preko vašeg tržišta.",
       },
       access: {
         label: "prodavac pojam & pristup",
         true_description:
-          "pojam prodavac ima pojam namjenski pojam za ažuriraj pojam i cijena.",
-        hint: "vi može pojam ili pojam pojam prodavac pojam, pojam pojam prodavci za ažuriraj proizvod pojam i cijena i pojam pojam narudžbe.",
+          "Prodavac ima poseban panel za ažuriranje količine i cijene.",
+        hint: "Možete omogućiti ili onemogućiti panel dobavljača, koji dobavljačima omogućava da ažuriraju količine i cijene proizvoda i primaju djelomične narudžbe.",
         false_description: "pojam prodavac ima nema pristup za pojam.",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "dokumenti",
     action_upload_doc: "otpremi pojam",
     vendor_subtitle:
-      "molimo otpremi pojam pojam poslovanje, IP, i adresa pojam dokumenti. mi pojam ovo informacije za potvrdi vaš pojam i pojam vi sa pojam pojam pristup.",
+      "Učitajte potrebne dokumente za verifikaciju poslovanja, IP adrese i adrese. Ove informacije su nam potrebne kako bismo potvrdili vaše partnerstvo i omogućili vam neophodan pristup.",
     marketplace_subtitle:
-      "prodavci može pojam dokumenti pojam kao poslovanje, pojam svojstvo, i adresa pojam za pojam njihov KYC pojam, pojam vi za pojam njih pojam pojam pristup.",
+      "Prodavci mogu dostaviti dokumente kao što su poslovna, intelektualna svojina i verifikacija adrese kako bi olakšali njihov KYC proces, omogućavajući vam da im odobrite odgovarajući pristup.",
     upload_dialog: {
       title: "otpremi dokument",
       type: {
         title: "dokument pojam",
         subtitle:
-          "molimo otpremi samo pojam pojam dokumenti. pojam pojam pojam dokumenti to pojam pojam informacije. mi pojam dokumenti to su pojam dostupno.",
+          "Učitajte samo potrebnu dokumentaciju. Izbjegavajte dijeljenje dokumenata koji sadrže osjetljive informacije. Tražimo dokumente koji su javno dostupni.",
       },
     },
   },
@@ -2178,7 +2178,7 @@ export default {
     add_custom_badge: {
       title: "prilagođeno značka",
       subtitle:
-        "dodaj pojam novo prilagođeno značka za moj prodavnica. pojam značke pojam pojam 10. više značke pojam pojam pojam vaš prodavnica.",
+        "Dodaj novu prilagođenu značku u moju trgovinu. Neka broj bedževa bude manji od 10. Više znački bi usporilo vašu trgovinu.",
       show_advanced_options: "prikaži pojam opcija",
 
       inputs: {
@@ -2188,12 +2188,12 @@ export default {
         image: {
           label: "slika",
           message: "pojam slika veličina: 128KB",
-          placeholder: "odaberi pojam pojam slika",
+          placeholder: "Odaberite naslovnu sliku",
         },
         pattern: {
           label: "pojam",
           message:
-            "automatski prikaži ovo značka za proizvodi ima ovo pojam pojam u njihov pojam. Regex pojam.",
+            "Automatski prikaži ovu značku za proizvode koji imaju odgovarajuću vrijednost u specifikaciji. Regex podržan.",
           placeholder: "za prikaži za sve proizvodi pisanje: *.*",
         },
       },
@@ -2201,7 +2201,7 @@ export default {
         badge_added: "pojam značka ima bilo dodaj uspješno!",
         badge_updated: "pojam značka ima bilo ažurirano uspješno!",
         item_not_found_error:
-          "pojam stavka pojam nije biti pojam. molimo pojam pojam stranica ili pojam pojam.",
+          "Stavka nije pronađena. Osvježite stranicu ili kontaktirajte podršku.",
       },
     },
   },
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "Oznake",
     tips: [
-      "vi može pojam proizvodi pojam na oznake na <b>pojam stranice</b>.",
-      "vi i vaš kupci može pretraži za pojam oznake u pojam<b>pretraži</b> pojam.",
-      "ako postavi oznake, samo proizvodi sa pojam <b>pojam oznake</b> će biti prikazano u pojam <b>pojam proizvodi pojam</b> na pojam proizvod stranica; pojam, proizvodi u pojam pojam kategorija će biti prikazano.",
+      "Možete filtrirati proizvode na osnovu oznaka na <b>odredišnim stranicama</b>.",
+      "Vi i vaši klijenti možete pretraživati ​​ove oznake na traci <b>search</b>.",
+      "Ako su postavljene oznake, samo proizvodi sa <b>uobičajenim oznakama</b> će biti prikazani u odjeljku <b>related products</b> na stranici proizvoda; u suprotnom će biti prikazani proizvodi u istoj kategoriji.",
     ],
     inputs: {
       tags: {
-        placeholder: "pojam oznake pojam i pojam pojam. pojam. novo pojam",
+        placeholder: "Označite ovdje i pritisnite enter. ex. nova kolekcija",
       },
     },
     notifications: {
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "dostava usluge",
     subtitle:
-      "pojam tržište ponuda dostava pojam za pojam prodavci pojam njihov narudžbe. vi može dodaj dostava usluge pojam za pojam narudžba dostava pojam od vaš narudžba stranica. ovo pojam pojam pojam od pojam pojam i pojam kod sa pojam dostava pružalac.",
+      "Tržište nudi metode dostave koje pomažu prodavcima da ispune svoje narudžbe. Ovdje možete dodati usluge dostave kako biste jednostavno naručili naljepnice za otpremu sa stranice za narudžbu. Ovo pojednostavljuje proces sinhronizacijom adresa i kodova za praćenje sa dobavljačem dostave.",
 
     subtitle_pickup:
-      "pojam tržište pojam preuzimanje za prodavci, pojam pojam za izaberi preuzimanje od vaš lokacija kao pojam dostava opcija. vi može dodaj vaš preuzimanje lokacija u vaš profil (vaš skladište će biti pojam kao pojam zadano preuzimanje lokacija).",
+      "Tržište omogućava preuzimanje za prodavce, omogućavajući kupcima da izaberu preuzimanje sa vaše lokacije kao opciju dostave. Svoju lokaciju za preuzimanje možete dodati u svoj profil (vaše skladište će se koristiti kao zadana lokacija za preuzimanje).",
     action: "dodaj usluga",
 
     add_dialog: {
       select_service_msg:
-        "dostava pojam su postavi od pojam tržište, i kupci može izaberi od njih. prodavci imati nema pojam pojam pojam opcije pojam može pojam njihov pojam sa dostava usluge za pojam pojam pojam. molimo odaberi pojam pojam od pojam lista pojam za prikaži dostupno usluge. izaberi pojam dostava usluga od pojam lista pojam. samo pojam dostupno usluge to može biti dodaj za vaš prodavnica su prikazano pojam.",
+        "Načini dostave su postavljeni od strane tržišta, a kupci mogu birati između njih. Prodavci nemaju kontrolu nad ovim opcijama, ali mogu integrirati svoj panel sa uslugama dostave kako bi direktno kupili etikete. Molimo odaberite metodu sa liste ispod da vidite dostupne usluge. Odaberite uslugu dostave sa liste ispod. Ovdje su prikazane samo dostupne usluge koje se mogu dodati vašoj trgovini.",
       no_available_service: "nema dostupno usluga!",
     },
   },
@@ -2254,20 +2254,20 @@ export default {
   product_location_profile: {
     title: "Lokacija",
     empty_subtitle:
-      "pojam pojam lokacija za pojam proizvod ako to pojam pojam stavka.",
+      "Dodijelite lokaciju proizvodu ako se radi o stavci zasnovanoj na lokaciji.",
     dialog: {
       header: "odaberi lokacija profil",
       action_new_location: "Dodajte novu lokaciju",
       title: "lokacija profil",
       subtitle:
-        "vi može pojam proizvodi na pojam pojam lokacija od pojam lokacija oznake za pojam proizvodi.",
-      tips: "<b>pojam:</b> pojam pojam lokacija za pojam proizvod <b>samo</b> ako vi želite za prikaži pojam proizvod na pojam pojam lokacija na pojam pojam. pojam pojam proizvod pojam imati pojam lokacija kao to glavno pojam, pojam <b>pojam početna/pojam</b> ili pojam usluge pojam<b>pojam i pojam</b>.",
+        "Možete zakačiti proizvode na lokaciju na karti tako što ćete proizvodima dodijeliti oznake lokacije.",
+      tips: "<b>Važno: </b> Dodijelite lokaciju proizvodu <b>samo</b> ako želite prikazati proizvod na određenoj lokaciji na mapi. Izraženi proizvod mora imati lokaciju kao svoju glavnu specifikaciju, kao što su <b>kuće/mjesta za iznajmljivanje</b> ili osobne usluge kao što su<b>frizerski salon i spa</b>.",
     },
   },
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "pojam pojam",
+    header: "Multi Language",
     auto_action: "automatski pojam",
     premium_user_only: "pojam korisnici",
   },
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "pojam pojam lista od stavke to pojam sa pojam proizvod ili usluga paket.",
+      "Uključite listu artikala koji dolaze s proizvodom ili paketom usluga.",
     dialog: {
       header: "proizvod paket stavke",
       title: "uključeno stavke",
-      subtitle: "ovo je pojam pojam od stavke to pojam sa pojam proizvod.",
+      subtitle: "Ovo je kompilacija artikala koji dolaze s proizvodom.",
       action_manage: "upravljaj stavke",
       action_disable_msg: "tržište pojam",
       select_items_tips:
-        "kreiraj ili izaberi paket pojam to pojam sa pojam proizvod ili usluga. pojam ovo pojam za pojam pojam kupci može pojam pojam pojam pojam pojam stavka. mi pojam pojam ovo pojam samo pojam to je pojam za pojam kupac za pojam pojam pojam uključeno, pojam kao pojam pojam pojam pojam.",
+        "Kreirajte ili odaberite komponente paketa koje dolaze s proizvodom ili uslugom. Koristite ovu funkciju da naglasite ono što kupci mogu očekivati ​​da dobiju nakon kupovine artikla. Savjetujemo korištenje ove funkcije samo kada je ključno da kupac razumije uključeni sadržaj, na primjer kada kupuje pametni telefon.",
       create_item_tips:
-        "pojam, vi može pojam pojam novo stavka. pojam pojam slike, kao mi će automatski pojam otpremi pojam za pojam 256pojam256 pojam pojam. za pojam pojam pojam pojam sve predlošci, pojam pojam slike sa transparentno pozadina i pojam pojam pojam pojam za sve vaš proizvodi.",
+        "Alternativno, možete uključiti novu stavku. Koristite kvadratne slike, jer ćemo automatski promijeniti veličinu otpremljenih slika u kvadratni format 256x256. Kako biste osigurali optimalan izgled na svim predlošcima, koristite minimalističke slike s prozirnom pozadinom i održavajte dosljedan uzorak za sve svoje proizvode.",
       create_new_item_action: "kreiraj novo uključeno stavka",
     },
   },
@@ -2370,7 +2370,7 @@ export default {
         title: "Ocjena proizvoda",
         title_small: "Izvještaj o zadovoljstvu kupaca",
         total_participation: "Ukupan broj doprinosa",
-        total_participation_tooltip: "ukupno pojam od pojam za pojam proizvod.",
+        total_participation_tooltip: "Ukupan broj ocjenjivača za proizvod.",
         today_participation: "Današnje ocjene",
         last7days_participation: "Doprinosi zadnjih 7 dana",
         chart: {
@@ -2447,47 +2447,47 @@ export default {
         variables: {
           title: "varijanta opcije",
           subtitle:
-            "pojam pojam pojam boja kod, pojam.pojam., <b>#654FFF</b>, ili pojam boja pojam od pojam pojam, pojam.pojam., <b>#764FFA/#000000</b>.",
+            "Unesite heksadecimalni kod boje, npr. <b>#654FFF</b>, ili dvije boje odvojene kosom crtom, npr. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "vi može pojam pojam pojam za pojam pojam, pojam slike pojam <b>pojam pojam</b>. otpremi pojam pojam i pojam pojam pojam kod za pojam varijanta.",
-          graphical_asset_action: "pojam pojam",
+            "Možete dodijeliti bilo koju vrijednost varijablama, uključujući slike koristeći <b>Grafička sredstva</b>. Otpremite uzorak i koristite generirani kod za varijantu.",
+          graphical_asset_action: "Grafička sredstva",
           graphical_asset_action_caption: "slike za varijanta opcije.",
         },
         smart_unit_price: {
-          tips: "pojam pojam cijena pojam na <b>težina</b>, <b>pojam</b>, i <b>pojam veličina</b>. za pojam ovo pojam, pojam za prodavnica > postavke > pojam > proizvod stranica > pojam pojam cijena.",
+          tips: "Izračunajte jediničnu cijenu na osnovu <b>težine</b>, <b>zapremine</b> i <b>veličine pakovanja</b>. Da biste onemogućili ovu funkciju, idite na Trgovina > Postavke > Tema > Stranica proizvoda > Pametna jedinična cijena.",
           smart_unit_price: "pojam cijena pojam",
         },
         quantity: {
           title: "Inventar",
-          subtitle: "postavi pojam pojam za pojam varijanta.",
+          subtitle: "Postavite nivoe zaliha za svaku varijantu.",
         },
         price: {
           title: "Cijene",
           subtitle:
-            "postavi pojam prilagođeno cijena za pojam varijanta ili pojam pojam zadano proizvod cijena.",
+            "Postavite prilagođenu cijenu za varijantu ili koristite zadanu cijenu proizvoda.",
         },
         package: {
           title: "pojam & dostava",
           subtitle:
-            "pojam težina i pojam za varijante za pojam dostava opcije.",
+            "Navedite težinu i dimenzije za varijante kako biste odredili opcije isporuke.",
           same_as_product_action: "pojam kao proizvod",
         },
         image: {
           title: "varijanta slike",
           subtitle:
-            "dodaj pojam slike za pojam varijanta. pojam prvo slika otpremi će biti pojam primarno slika za to varijanta.",
+            "Dodajte jedinstvene slike za svaku varijantu. Prva učitana slika bit će primarna slika za tu varijantu.",
         },
         inputs: {
           sku: {
-            message: "pojam pojam pojam (SKU)",
+            message: "Jedinica za čuvanje zaliha (SKU)",
           },
           mpn: {
-            message: "pojam pojam pojam (MPN)",
+            message: "Broj dijela proizvođača (MPN)",
           },
           gtin: {
-            label: "pojam pojam stavka pojam (GTIN)",
+            label: "Globalni broj trgovinske jedinice (GTIN)",
             message:
-              "pojam pojam: UPC (12 pojam), EAN (13 pojam), JAN (8 ili 13 pojam), ISBN (13 pojam).",
+              "Podržani formati: UPC (12 cifara), EAN (13 cifara), JAN (8 ili 13 cifara), ISBN (13 cifara).",
           },
         },
       },
@@ -2507,18 +2507,18 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "dostava usluge dostupno pojam na pojam pojam veličina i težina.",
+      "Dostupne usluge dostave zavise od ponuđene veličine i težine.",
   },
 
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Težina paketa",
     weight_subtitle:
-      "unos pojam proizvod ukupno pojam težina pojam. ovo informacije pojam izaberi pojam pojam dostava pojam i pojam pojam narudžba pojam pojam pojam dostava ograničenje.",
+      "Ovdje unesite ukupnu težinu pakovanja proizvoda. Ove informacije pomažu u odabiru pravog načina dostave i osiguravaju da narudžba ne prelazi ograničenje isporuke.",
     weight_unit: "Kg",
     size: "Dimenzije paketa",
     size_subtitle:
-      "unos pojam proizvod pojam pojam veličina pojam. ovo informacije je pojam za izaberi pojam pojam dostava pojam i pojam pojam narudžba pojam pojam pojam pojam veličina ograničenje.",
+      "Ovdje unesite punu veličinu pakovanja proizvoda. Ove informacije se koriste za odabir ispravnog načina dostave i osiguravanje da narudžba ne prelazi ograničenje veličine paketa.",
 
     width: "Širina",
     length: "Dužina",
@@ -2526,17 +2526,17 @@ export default {
     lead_time_title: "Vrijeme pripreme",
     lead_time: "Vrijeme pripreme",
     lead_time_subtitle:
-      "pojam vrijeme pojam pojam trajanje obavezno za pojam pojam proizvod za dostava, pojam pojam u pojam pojam isporuka vrijeme.",
+      "Vrijeme isporuke procjenjuje trajanje potrebno za pripremu proizvoda za isporuku, što pomaže u procjeni vremena isporuke.",
 
     lead_time_dimension: "sat(i)",
     bulk_action: "pojam radnje",
     bulk_action_subtitle:
-      "vi može primijeni pojam pojam informacije za sve proizvod varijante.",
+      "Informacije o pakovanju možete primijeniti na sve varijante proizvoda.",
 
     bulk_action_input: "Ažurirajte sve varijante",
     bulk_action_msg:
       "Podesite pakovanje proizvoda i vreme pripreme za sve varijante.",
-    dynamic_lead_time: "pojam pojam vrijeme",
+    dynamic_lead_time: "Dinamično vrijeme isporuke",
     instant_delivery: "pojam isporuka",
   },
 
@@ -2553,11 +2553,11 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "postavi slika Alt tekst",
-      placeholder: "pojam pojam pojam pojam tekst...",
+      placeholder: "Unesite opisni zamjenski tekst...",
       success_update_notification: "Alt tekst ažurirano uspješno.",
     },
     dialog_bg_remove: {
-      title: "pojam pojam automatski",
+      title: "Automatski ukloni pozadinu",
       action: {
         title: "Ukloni pozadinu",
         subtitle: "kreiraj pojam transparentno pozadina.",
@@ -2569,12 +2569,12 @@ export default {
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "varijanta pojam pojam",
+    title: "Varijanta grafičkih sredstava",
     tips: {
       how_it_works:
-        "<b>pojam to pojam:</b><br />otpremi pojam ili stavka slike pojam. za pojam pojam slike kao pojam varijanta opcija, pojam <b>{filename}</b> u pojam varijanta pojam. bilješka to ovo kod pojam biti pojam u pojam <b><s>boja</s></b> pojam.",
+        "<b>Kako to funkcionira:</b><br />Ovdje otpremite uzorak ili slike predmeta. Da biste koristili ove slike kao opciju varijante, uključite <b>{filename}</b> u vrijednost varijante. Imajte na umu da se ovaj kod ne može koristiti u vrijednosti <b><s>color</s></b>.",
       how_set_name:
-        "<b>pojam pojam:</b><br />pojam prvo 12 pojam od pojam otpremi datoteka pojam će biti pojam kao pojam pojam pojam. ovo pojam je pojam za pojam pojam pojam od pojam proizvod, pojam kao pojam veličina za pojam ili pojam pojam. za pojam pojam pojam od ovo pojam, pojam otpremi varijanta slike pojam pojam pojam pojam od pojam pojam je pojam pojam 100, pojam kao pojam pojam pojam za pojam.",
+        "<b>Savjeti za imenovanje:</b><br />Prvih 12 znakova učitanog naziva fajla će se koristiti kao ime sredstva. Ova karakteristika je idealna za prikazivanje prilagodljivih aspekata proizvoda, kao što su veličine guma za motocikle ili uzorci tkanina. Da biste optimizirali korištenje ove funkcije, izbjegavajte učitavanje varijanti slika ovdje osim ako je broj grafičkih sredstava manji od 100, kao što su različite vrste drveta za namještaj.",
     },
   },
 
@@ -2583,25 +2583,25 @@ export default {
    */
   extra_pricing_levels: {
     extra_pricings: "dodatno određivanje cijena",
-    min_quantity: "pojam pojam",
-    range_is_out_of_stock: "pojam je pojam od pojam!",
+    min_quantity: "Min quantity",
+    range_is_out_of_stock: "Asortiman nije na zalihama!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "ovo varijanta pojam pojam!",
+    duplicated_variant: "Ova varijanta već postoji!",
     set_color_warning: "molimo odaberi pojam boja.",
-    set_volume_warning: "molimo pojam pojam pojam.",
-    set_pack_warning: "molimo pojam pojam pojam veličina.",
-    set_weight_warning: "molimo pojam pojam težina.",
-    set_type_warning: "molimo odaberi pojam pojam.",
+    set_volume_warning: "Molimo navedite jačinu zvuka.",
+    set_pack_warning: "Molimo navedite veličinu pakovanja.",
+    set_weight_warning: "Molimo navedite težinu.",
+    set_type_warning: "Molimo odaberite vrstu.",
     set_style_warning: "molimo odaberi pojam stil.",
-    out_of_stock: "pojam pojam od pojam",
+    out_of_stock: "Trenutno nema na zalihama",
 
     image: {
-      tooltip: "⚡ prevlačenje i ispuštanje pojam slika pojam za pojam to za pojam varijanta.",
+      tooltip: "⚡ Prevucite i ispustite sliku ovde da biste je dodelili varijanti.",
     },
     enable: {
       true_tooltip: "ovo stavka je dostupno u pojam online prodavnica.",
@@ -2613,7 +2613,7 @@ export default {
       action: "da, vrati sada",
     },
     notifications: {
-      restore_variant_success: "pojam proizvod varijanta pojam uspješno pojam.",
+      restore_variant_success: "Varijanta proizvoda je uspješno obnovljena.",
     },
   },
 
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "pojam radnje > cijena",
     message:
-      "pojam pojam iznos će primijeni kao pojam pojam za pojam cijena od sve proizvodi u vaš prodavnica. pojam, pojam pojam cijena pojam će biti pojam pojam za pojam pojam pojam pojam pojam na pojam odabrano valuta.biti pojam u pojam pojam pojam.",
+      "Sljedeći iznos će se primijeniti kao postotak na cijenu svih proizvoda u vašoj trgovini. Također, izračunate vrijednosti cijena će biti inteligentno konvertovane u najbliži okrugli broj na osnovu odabrane valute. Budite pažljivi pri unosu vrijednosti.",
     check: "ja pojam cijena pojam.",
     check_description:
-      "pojam cijena će biti pojam za pojam odabrano kategorija i sve pojam.",
+      "Cijena će biti promijenjena za odabranu kategoriju i sve podkategorije.",
     add_percent_tab: "dodaj pojam",
     add_constant_tab: "dodaj pojam",
     ending_tab: "kraj pojam",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "pojam iznos će biti dodaj ili pojam od pojam trenutno cijena od proizvodi.",
+        "Iznos će se dodati ili oduzeti od trenutne cijene proizvoda.",
     },
     ending: {
       subtitle:
-        "pojam kraj od pojam trenutno cijena od proizvodi će biti pojam za pojam pojam pojam.",
+        "Završetak trenutne cijene proizvoda će biti promijenjen na navedenu vrijednost.",
     },
     marketplace: {
       title: "tržište listing cijena",
       subtitle:
-        "ovo opcija pojam vi za automatski ažuriraj pojam listing cijena od proizvodi u pojam tržište. pojam, pojam glavno proizvod cijena pojam nije pojam sa prodavac određivanje cijena pojam za ručno cijena pojam.",
+        "Ova opcija vam omogućava da automatski ažurirate listing cijene proizvoda na tržištu. Povremeno, glavna cijena proizvoda možda neće biti usklađena s cijenama dobavljača zbog ručnih promjena cijena.",
       strategy: {
         min: {
           title: "postavi minimum cijena",
           description:
-            "postavi pojam minimum cijena od pojam proizvod kao pojam listing cijena.",
+            "Postavite minimalnu cijenu proizvoda kao cijenu na listi.",
         },
         max: {
           title: "postavi maksimum cijena",
           description:
-            "postavi pojam maksimum cijena od pojam proizvod kao pojam listing cijena.",
+            "Postavite maksimalnu cijenu proizvoda kao cijenu na listi.",
         },
       },
     },
 
     category: {
-      subtitle: "ograničenje pojam radnja za pojam kategorija i sve pojam.",
+      subtitle: "Ograničite skupnu akciju na kategoriju i sve potkategorije.",
     },
     vendor: {
       subtitle:
-        "ograničenje pojam radnje za pojam pojam prodavac. pojam pojam prodavac je odabrano, pojam cijena ažuriraj će biti pojam za pojam prodavac proizvodi, pojam pojam pojam pojam cijena za to prodavac.",
+        "Ograničite grupne radnje na određenog dobavljača. Kada je dobavljač odabran, ažuriranje cijene će se primijeniti na proizvode dobavljača, što predstavlja prodajnu cijenu tog dobavljača.",
       listing_price_need_update_msg:
-        "ako vi želite za ažuriraj pojam listing cijena (pojam cijena prikazano u pojam proizvod lista), vi pojam pojam pojam pojam ažuriraj sa pojam pojam pojam pojam pojam odaberi pojam prodavac.",
+        "Ako želite ažurirati cijenu na listi (cijenu prikazanu na listi proizvoda), trebali biste ponovo poslati grupno ažuriranje s istim filterima, ali bez odabira dobavljača.",
     },
     listing_products_changes: "listing proizvodi pojam",
     total_vendor_products: "ukupno prodavac proizvodi",
@@ -2797,12 +2797,12 @@ export default {
   b_page_shop_finance_gateway: {
     title: "plaćanje pojam",
     sub_title:
-      "lista od aktivno plaćanje pojam. ako vi želite za dodaj pojam novo pojam za vaš prodavnica, pojam pojam pojam pojam. mi pojam pojam nije pojam 10 dodaj plaćanje pojam.",
+      "Lista aktivnih načina plaćanja. Ako želite dodati novu metodu u svoju trgovinu, pritisnite sljedeće dugme. Toplo preporučujemo da ne prelazite 10 dodanih prolaza za plaćanje.",
     add_gateway: "novo plaćanje pojam",
 
     add_gateway_dialog: {
       title: "odaberi valuta",
-      country_currencies: "pojam pojam",
+      country_currencies: "Lokalne valute",
       crypto_currencies: "pojam",
 
       confirm: "Dodajte način plaćanja",
@@ -2815,7 +2815,7 @@ export default {
       currency_step: {
         title: "odaberi pojam valuta",
         subtitle:
-          "pojam za pojam pojam pojam od pojam u vaš prodavnica za pojam minimum—pojam pojam pojam 3. pojam plaćanje pojam može pojam transakcije u pojam pojam valuta.",
+          "Pokušajte da broj valuta u vašoj radnji svedete na minimum—idealno manje od 3. Većina platnih prolaza može obraditi transakcije u gotovo bilo kojoj valuti.",
         add_first_currency: {
           subtitle: "molimo dodaj pojam valuta za vaš prodavnica prije pojam.",
           title: "Dodaj valutu",
@@ -2824,23 +2824,23 @@ export default {
       gateway_step: {
         title: "aktivno plaćanje pojam",
         subtitle:
-          "molimo izaberi od pojam dostupno plaćanje pojam. pojam vi odaberi pojam pojam, pojam biti pojam za pojam pojam pojam pojam detalji za link vaš prodavnica pojam za vaš pojam plaćanje pojam.",
+          "Odaberite neki od dostupnih načina plaćanja. Nakon što odaberete pristupnik, moći ćete unijeti potrebne detalje o povezivanju da povežete svoju trgovinu direktno sa željenim načinom plaćanja.",
       },
 
       config_step: {
-        import_config: "vi može uvezi konfiguracija od pojam pojam pojam",
+        import_config: "Možete uvesti konfiguraciju sa drugih sličnih gateway-a",
         import_from: "uvezi od",
       },
 
       request_add_new_gateway: {
-        title: "pojam pogledaj vaš pojam plaćanje pojam?",
+        title: "Ne vidite svoj željeni način plaćanja?",
         subtitle:
-          "ako vaš pojam plaćanje pružalac pojam lista, pojam za pojam pojam pojam (pojam pojam za pojam) i pojam pojam pojam. pojam pojam to pojam 48 sati ako pojam pojam račun i pojam su pojam.",
+          "Ako vaš lokalni dobavljač plaćanja nije naveden, pretplatite se na bilo koji godišnji plan (uključujući Startup radi pristupačnosti) i zatražite integraciju. Završit ćemo ga u roku od 48 sati ako se dostavite probni račun i dokumentacija.",
       },
 
       inputs: {
         currency: {
-          placeholder: "odaberi pojam pojam za uvezi...",
+          placeholder: "Odaberite gateway za uvoz...",
         },
         manual: {
           true_title: "pojam način",
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "automatski pojam",
           false_description:
-            "pojam pojam će automatski pojam za pojam pojam ako vi pojam imati pojam pojam pojam u pojam.",
+            "Sistem će se automatski povezati na gateway ako već imate konfiguriran gateway.",
         },
       },
     },
@@ -3001,7 +3001,7 @@ export default {
         page_input: "pojam stranica",
         discount_code_input: "Kod za popust",
         limit: "Ograničenje popusta",
-        max_count: "pojam pojam",
+        max_count: "Max count",
         max_count_unit: "Predmeti",
         start: "Počni",
         end: "Kraj",
@@ -3074,23 +3074,23 @@ export default {
 
     config: {
       subtitle:
-        "kategorije pojam pojam proizvod upravljanje i zaradi to pojam za vaš kupci za pojam proizvodi u vaš prodavnica.",
+        "Kategorije pomažu u pojednostavljivanju upravljanja proizvodima i olakšavaju vašim kupcima da pronađu proizvode u vašoj trgovini.",
     },
     parent: {
       subtitle:
-        "ovo kategorija će pojam pojam to pojam kategorija. ako pojam proizvod pojam imati pojam pojam kategorija, to će biti prikazano u pojam glavno kategorija.",
+        "Ova kategorija će se pojaviti pod svojom nadređenom kategorijom. Ako proizvod nema nadređenu kategoriju, bit će prikazan u glavnoj kategoriji.",
     },
     template: {
       title: "Predložak",
       edit_page: "uredi stranica",
       Pages_list: "stranica lista",
       subtitle:
-        "vi može pojam pojam pojam od vaš kategorija stranica od pojam pojam prilagođeno stranica. pojam pojam pojam je za kreiraj stranice sa transparentno pozadina i dizajn 1 za 2 pojam pojam za pojam kategorija. vi može pojam link pojam stranica za pojam kategorije, pojam pojam pojam za pojam pojam kategorija pojam.",
+        "Možete poboljšati prikaz stranice svoje kategorije preklapanjem prilagođene stranice. Najbolji pristup je kreiranje stranica s prozirnom pozadinom i dizajn 1 do 2 odjeljka specifična za svaku kategoriju. Zatim možete povezati jednu stranicu s više kategorija, koristeći dinamički sadržaj za prilagođavanje svake kategorije pojedinačno.",
     },
     critical_zone: {
-      title: "pojam pojam",
+      title: "Kritična zona",
       subtitle:
-        "ako vi ukloni pojam kategorija, to pojam i proizvodi će biti pojam za pojam pojam pojam<b>📁 {parent}</b>. za upravljaj kategorije to su nije u pojam proizvod lista, pojam za pojam prodavnica > kategorije pojam.",
+        "Ako uklonite kategoriju, njene potkategorije i proizvodi će biti premješteni u nadređeni direktorij<b>📁 {parent}</b>. Za upravljanje kategorijama koje nisu na listi proizvoda, idite na karticu Trgovina > Kategorije.",
       accept_delete: {
         true_description: "ja želite za ukloni ovo kategorija.",
         true_title: "potvrdi ukloni kategorija",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategorija uređena.",
       },
       manually_update_filters_tips:
-        "<b>pojam!</b> pojam su automatski ažurirano pojam proizvodi pojam. pojam, nakon pojam pojam za proizvodi u pojam kategorija, molimo povrat pojam i pojam pojam sačuvaj/pojam pojam za pojam pojam pojam.",
+        "<b>Važno!</b> Filteri se automatski ažuriraju kada se proizvodi mijenjaju. Međutim, nakon što izvršite izmjene proizvoda u kategoriji, vratite se ovdje i kliknite na dugme spremi/regeneriraj da osvježite filter.",
 
       inputs: {
         spec: {
           message:
-            "lista od pojam to vi želite za biti prikazano u pojam pojam pojam",
+            "Lista funkcija koje želite da budu prikazane u odjeljku filtera",
           placeholder: "odaberi pojam za prikaži u pojam...",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Opis prodavnice",
     description_input_message: "Napišite kratak opis vašeg poslovanja.",
     description_input_tips:
-      "ovo opis će pojam u vaš prodavnica pojam i će pojam biti pojam kao pojam zadano Meta oznaka opis za vaš prodavnica stranice.",
+      "Ovaj opis će se pojaviti u podnožju vaše trgovine i također će se koristiti kao zadani opis meta oznake za vaše stranice trgovine.",
     address_input: "Adresa prodavnice",
     address_input_message: "Unesite tačnu adresu lokacije trgovine",
 
@@ -3275,7 +3275,7 @@ export default {
 
   /** {@see BPageOrderVirtual} **/
   virtual_process_center: {
-    title: "pojam pojam",
+    title: "Processing Center",
     sub_title: "Obrada narudžbi",
     virtual_product: "virtuelni proizvod",
     menu: {
@@ -3305,7 +3305,7 @@ export default {
 
   /** {@see BPageOrderFile} **/
   file_process_center: {
-    title: "pojam pojam",
+    title: "Processing Center",
     sub_title: "Obrada narudžbi",
     menu: {
       report: "Izvještaj",
@@ -3340,9 +3340,9 @@ export default {
         true_title: "pojam | otkaži narudžba pojam",
         false_title: "pojam | otkaži narudžba nakon 48 sati",
         true_description:
-          "ovo opcija će otkaži vaš narudžba pojam i ažuriraj pojam pojam pojam pojam.",
+          "Ova opcija će odmah otkazati vašu narudžbu i odmah ažurirati inventar.",
         false_description:
-          "ovo opcija će otkaži vaš narudžba nakon 48 sati. pojam pojam, stavke će biti pojam i pojam biti pojam od pojam.",
+          "Ova opcija će otkazati vašu narudžbu nakon 48 sati. Do tada će artikli biti rezervisani i ne mogu ih kupiti drugi.",
       },
     },
 
@@ -3364,7 +3364,7 @@ export default {
   /** {@see BPageOrderFile} **/
   /** {@see BPageOrderService} **/
   process_center: {
-    title: "pojam pojam",
+    title: "Processing Center",
 
     physical_product: "Fizički proizvodi",
     menu: {
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Plaćanje čeka",
       processing_payment: "Obrada plaćanja",
       processing_cancel: "Plaćanje je poništeno",
-      require_capture: "pojam pojam",
+      require_capture: "Zahtevaj hvatanje",
       paid: "Plaćeno",
       cod_pay_info:
         "Kada primite narudžbu od kupca možete potvrditi uplatu i dovršiti narudžbu.",
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "povrat obavezno za pojam kupac",
         message:
-          "mi pojam pojam ukupno iznos od povrat to vi pojam za zaradi pojam. to pojam pojam na nedostupno stavke i ukupno povrat pojam pojam.",
+          "Izračunavamo ukupan iznos povrata koji morate izvršiti ručno. Izračunava se na osnovu nedostupnih artikala i ukupnih vraćenih vrijednosti.",
         calculated_approximately:
-          "pojam iznos je pojam pojam. molimo pojam pojam pojam iznos pojam.",
+          "Iznos je izračunat približno. Sami izračunajte tačan iznos.",
       },
       need_payback: {
         title: "kupac naplata obavezno",
         message:
-          "pojam pojam to pojam ukupno povrat za pojam kupac je pojam pojam pojam iznos pojam pojam na pojam stavke u pojam pojam. vi pojam pojam za naplata vaš kupac za pojam pojam pojam iznos.",
+          "Primijetili smo da je ukupan vraćeni iznos kupcu veći od iznosa koji duguje na osnovu artikala u korpi. Možda ćete morati naplatiti svom klijentu da povrati višak iznosa.",
       },
       need_no_refund: {
         title: "nema povrat pojam",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "ukupno povrat",
         message:
-          "to pojam ukupno iznos od povrat automatski pojam od vaš plaćanje pojam. samo pojam plaćanje usluge pojam ovo pojam, pojam vi pojam za povrat pojam.",
+          "To je ukupan iznos povrata novca koji automatski izvrši vaš pristupnik plaćanja. Samo neke usluge plaćanja podržavaju ovu funkciju, tako da morate ručno izvršiti povrat novca.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "pojam težina od sve stavke je {weight} {unit}",
       not_available_message:
-        "to nije dostupno pojam vi su onemogućeno pojam za dostava adresa i pojam korisnik pojam nije pojam adresa nakon pojam!",
+        "Nije dostupno kada je onemogućeno traženje adrese za dostavu, a korisnik nije unio adresu nakon kupovine!",
 
       message:
         "Kliknite na sljedeće dugme <b>Spremno</b> za narudžbu ako je narudžba spremna za isporuku.",
@@ -3616,10 +3616,10 @@ export default {
       gateway_data_widget: {
         title: "Izvještaj o plaćanju",
         subtitle:
-          "kreirano plaćanja i transakcije pojam pojam pojam odabrano vrijeme pojam.",
+          "Kreirana plaćanja i transakcije izvršene u odabranom vremenskom periodu.",
         chart: {
           times: "pojam",
-          buys: "pojam pojam",
+          buys: "Buy count",
           pays: "Uspješno plaćanje",
           amount_pay: "Plaćeno",
           amount_wage: "Naknada",
@@ -3662,7 +3662,7 @@ export default {
     status: "status",
     cod_transportation: "pojam dostava",
     cod_transportations_error:
-      "pojam pojam na isporuka plaćanje za na pojam pojam dostava pojam!",
+      "Omogućite plaćanje pouzećem za barem jedan način dostave!",
     payment_type: "plaćanje pojam",
     cod: "pojam na isporuka",
     online: "online plaćanje",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "vaš pojam status",
     oauth2_button: "automatski Connect za {gateway}",
     fee_payment_message:
-      "pojam pojam iznos pojam od pojam kupac će biti pojam za vaš račun. pojam usluga naknada će biti pojam od vaš novčanik u Selldone.",
+      "Cjelokupni iznos uplaćen od strane kupca će biti prebačen na vaš račun. Naknada za uslugu će se odbiti iz vašeg novčanika u Selldoneu.",
 
     auto_config: "automatski konfiguracija",
 
     keys: {
       title: "privatno ključevi",
       subtitle:
-        "lista od privatno ključevi za pojam plaćanje. ovo informacije je pojam za pojam i pojam plaćanja.",
+        "Lista privatnih ključeva za plaćanje. Ove informacije su neophodne za kreiranje i upravljanje uplatama.",
     },
     extra_config: {
       title: "plaćanje usluga konfiguracija",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "pojam radnje",
       subtitle:
-        "od pojam pojam pojam, pojam pojam za pojam pojam plaćanja od vaš kupci.",
+        "Poduzimajući ove korake, počet ćete primati stvarne uplate od svojih kupaca.",
       action_enable: "pojam za pojam to",
       make_live_enable: "pojam za uživo to",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "pojam",
     status_title: "plaćanje usluga status",
     status_message:
-      "pojam pojam plaćanje pojam kao aktivno ili neaktivno. samo pojam postavi kao aktivno će biti prikazano za kupci.",
+      "Konfigurirajte način plaćanja kao Aktivan ili Neaktivan. Kupcima će biti prikazane samo metode postavljene kao aktivne.",
     status_true_description: "vaš kupci može pojam sa ovo plaćanje pojam.",
 
     manual_title: "ručno / automatski pojam plaćanje",
     manual_message:
-      "pojam vi kreiraj pojam plaćanje, vi može pojam pojam pojam na pojam pojam plaćanje pojam za pojam pojam to vi može pojam pojam. za pojam, pojam pojam pojam pojam plaćanje u pojam prije pojam pojam pojam, pojam pojam pojam novac pojam pojam pojam pojam pojam.",
+      "Kada kreirate uplatu, možete zadržati način plaćanja koji ispunjava uslove da rezervišete sredstva koja možete kasnije osvojiti. Na primjer, hoteli često autoriziraju plaćanje u cijelosti prije dolaska gosta, a zatim zarobe novac kada se gost odjavi.",
 
     gateway_status: "status",
     wallet: "Blockchain novčanik",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "pojam & pojam",
-      subtitle: "vi može pojam pojam pojam način za pojam pojam plaćanje pojam.",
+      subtitle: "Možete omogućiti način otklanjanja grešaka da testirate pristupnik plaćanja.",
     },
 
     limit: {
@@ -3736,26 +3736,26 @@ export default {
     },
     limit_input: {
       title: "minimum narudžba iznos",
-      msg: "pojam pojam nema ograničenje.",
+      msg: "Nula znači da nema ograničenja.",
     },
     currency_input: {
-      message: "pojam valuta to ovo plaćanje pojam pojam.",
+      message: "Valuta koju podržava ovaj pristupnik za plaćanje.",
     },
     gateway_code: "pojam kod",
 
     hold_only_for: "pojam plaćanje samo dostupno za",
     manual_input: {
       false_description:
-        "pojam plaćanje status će biti pojam automatski od na čekanju za potvrdi u pojam plaćanje pružalac pojam.",
+        "Status plaćanja će se automatski promijeniti iz čekanja u potvrđeno u sistemu provajdera plaćanja.",
       false_title: "automatski plaćanje pojam",
       true_title: "pojam plaćanja i ručno pojam",
       true_description:
-        "pojam pojam pojam na pojam plaćanje pojam vi pojam za pojam pojam plaćanja za pojam narudžba za pojam njihov status od na čekanju za potvrdi u pojam plaćanje pružalac pojam.",
+        "Zaustavite plaćanje tako da morate provjeriti plaćanja za narudžbu kako biste promijenili njihov status iz čekanja u potvrđen u sistemu provajdera plaćanja.",
     },
     delete_verify_input: {
       true_title: "ja želite za ukloni ovo plaćanje pojam.",
       true_description:
-        "ovo plaćanje pojam će biti pojam od pojam prodavnica i će nije biti dostupno za kupci.",
+        "Ovaj način plaćanja će biti uklonjen iz trgovine i neće biti dostupan kupcima.",
     },
     delete_alert: {
       title: "izbriši plaćanje pojam",
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Spisak izdatih kartica",
       subtitle:
-        "prikaži i upravljaj sve pojam pojam. vi može pojam pojam za korisnici pojam ili pojam njih ako pojam.",
+        "Pregledajte i upravljajte svim izdatim karticama. Možete poslati kartice korisnicima ručno ili ih zabraniti ako je potrebno.",
 
       loading_message: "Dobivanje informacija... molimo pričekajte",
       issue_to_user: "Problem korisniku",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "lista od pojam pojam narudžbe to pojam za biti pojam od pojam pružaoci.",
+      "Lista eksterno sinhronizovanih narudžbi koje treba da ispune dobavljači treće strane.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "pojam pojam plaćanje pojam SMS za pojam kupac pojam {phone}.",
+      "Pošaljite SMS sa potvrdom plaćanja korisniku putem {phone}.",
     "sms-ready-to-ship":
-      "pojam pojam SMS za pojam kupac pojam to njihov narudžba je pojam za biti pojam pojam {phone}.",
+      "Pošaljite SMS kupcu sa obavještenjem da je njegova narudžba spremna za isporuku putem {phone}.",
     "sms-ready-to-pickup":
-      "pojam pojam SMS za pojam kupac pojam to njihov narudžba je pojam za preuzimanje pojam {phone}.",
+      "Pošaljite SMS kupcu sa obavještenjem da je njegova narudžba spremna za preuzimanje putem {phone}.",
     "sms-order-confirmation":
-      "pojam pojam narudžba pojam SMS za pojam kupac pojam {phone}.",
+      "Pošaljite SMS potvrdu narudžbe kupcu putem {phone}.",
 
     "count-adjustment":
-      "pojam pojam od pojam proizvod \"{product}\" ima bilo ažurirano od {from} za {to}.",
+      "Količina proizvoda \"{product}\" je ažurirana sa {from} na {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4069,11 +4069,11 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "vi imati proizvodi u pojam pojam nema pojam.",
+      no_root_filter_message: "Imate proizvode u root-u, ali nemate filter.",
       has_root_filter_message: "vi postavi pojam za pojam kategorija.",
       set_filter_message: "vi može postavi pojam.",
-      edit_action: "uredi pojam pojam",
-      clear_action: "pojam pojam pojam",
+      edit_action: "Uredite korijenske filtere",
+      clear_action: "Obriši korijenske filtere",
     },
     ai: {
       title: "AI proizvod pojam",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "pojam",
       sort_categories: "pojam / pojam kategorije",
       subscription_vendor_not_support_message:
-        "može nije pojam prodavac za pojam proizvodi! pojam proizvodi pojam pojam imati pojam prodavac kao njihov pojam!",
+        "Ne može se dodijeliti dobavljač za pretplatničke proizvode! Pretplatnički proizvodi uvijek moraju imati dobavljača kao vlasnika!",
       vendor_owner_not_assignable_message:
-        "može nije pojam pojam prodavac za proizvodi sa pojam prodavac kao to pojam!",
+        "Ne može dodijeliti dobavljača za proizvode čiji je prodavač vlasnik!",
       category_assign_profile: "pojam profil za proizvodi u pojam kategorija",
       category_assign_profile_subtitle: "porez, dostava, pojam, pojam,...",
       bulk_discount: "pojam popust",
@@ -4121,8 +4121,8 @@ export default {
       title: "ručno radnje",
       message: "vi može ažuriraj pojam prodavac narudžba status pojam.",
       guides: [
-        "prodavci sa pojam pristup može ažuriraj njihov pojam (pojam) u njihov namjenski kontrolna ploča.",
-        "ako pojam prodavac ima nema pojam pristup, pojam prodavac narudžba status će biti pojam automatski od pojam pojam pojam status.",
+        "Prodavci s pristupom panelu mogu ažurirati svoje ispunjenje (podnarudžbe) na svojoj namjenskoj kontrolnoj tabli.",
+        "Ako dobavljač nema pristup panelu, status narudžbe dobavljača će se automatski promijeniti promjenom statusa korpe.",
         "vi može ažuriraj prodavac narudžbe pojam.",
       ],
     },
@@ -4146,17 +4146,17 @@ export default {
       subtitle: "tržište informacije.",
     },
     performance: {
-      subtitle: "moj pojam pojam.",
+      subtitle: "Moj prodajni učinak.",
     },
     products: {
       title: "Proizvodi",
       subtitle:
-        "pojam vi može prikaži pojam pojam od vaš proizvodi lista na pojam tržište. proizvodi od pojam prodavci su nije uključeno.",
+        "Ovdje možete vidjeti broj vaših proizvoda navedenih na tržištu. Proizvodi više dobavljača nisu uključeni.",
     },
     wallets: {
       title: "moj novčanici",
       subtitle:
-        "vi pojam pojam za dodaj novčanici pojam! prodavac novčanici će biti kreirano automatski.",
+        "Ne morate ručno dodavati novčanike! Novčanici dobavljača će biti kreirani automatski.",
     },
 
     open_marketplace_page: "otvori tržište stranica",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Lista proizvoda",
     subtitle:
-      "ovo je pojam lista od vaš proizvodi u pojam tržište. ažuriraj cijena i pojam za vaš pojam proizvodi u pojam pojam. kao pojam prodavac, pojam samo pogledaj pojam proizvodi vi pojam u pojam proizvod lista. pojam pojam proizvodi može biti pojam pojam kao pojam.",
+      "Ovo je lista vaših proizvoda na tržištu. Ažurirajte cijene i količine za vaše dodijeljene proizvode u inventaru. Kao dobavljač, vidjet ćete samo proizvode jednog dobavljača koje posjedujete na listi proizvoda. Ovdje se također mogu modificirati i ostali dodijeljeni proizvodi.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Članovi tima",
     subtitle:
-      "ovo je pojam lista od korisnici pojam imati pristup za vaš prodavac pojam. vi može dodaj novo tim članovi i pojam njihov pojam pojam.",
+      "Ovo je lista korisnika koji imaju pristup panelu vašeg dobavljača. Ovdje možete dodati nove članove tima i prilagoditi njihove dozvole.",
     add_action: "dodaj novo član",
     pending: {
       title: "Pozivnice na čekanju",
-      message: "prikaži pojam lista od pojam to su pojam pojam.",
+      message: "Pogledajte listu pozivnica koje čekaju prihvatanje.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "tim član detalji",
       subtitle:
-        "dodaj pojam novo tim član i postavi njihov pojam. pojam na pojam stavka za pojam čitanje/pisanje pristup. pojam pojam pojam za pojam pojam pojam za pojam glavno prodavnica kontrolna ploča.",
+        "Dodajte novog člana tima i postavite njihova dopuštenja. Kliknite na svaku stavku da prilagodite pristup za čitanje/pisanje. Svaki red odgovara nivou dozvole za glavnu kontrolnu tablu prodavnice.",
     },
     access: {
       view_data: "prikaži podaci",
@@ -4207,7 +4207,7 @@ export default {
     inputs: {
       email: {
         label: "e-pošta adresa",
-        placeholder: "pojam pojam član e-pošta adresa...",
+        placeholder: "Unesite email adresu člana...",
       },
     },
     notifications: {
@@ -4232,19 +4232,19 @@ export default {
     list: {
       title: "Historija isplata",
       subtitle:
-        "vi može prikaži vaš isplata pojam pojam. pojam isplate pojam biti pojam pojam pojam banka transfer ili automatski pojam plaćanje usluge to ponuda isplata pojam.",
+        "Ovdje možete pogledati historiju isplata. Ove isplate se mogu obraditi ručno putem bankovnih transfera ili automatski koristeći usluge plaćanja koje nude mogućnosti isplate.",
     },
     connect: {
       title: "Poveži banku",
       subtitle:
-        "mi ponuda pojam plaćanje pojam za pojam pojam plaćanje pojam. za pojam plaćanja pojam nakon pojam pojam, molimo pojam vaš banka račun pojam pojam opcije.",
+        "Nudimo mogućnost podijeljenog plaćanja za sljedeće pristupe plaćanja. Da biste primali uplate bez problema nakon svake kupovine, povežite svoj bankovni račun koristeći ove opcije.",
     },
     verify_dialog: {
       title: "pojam plaćanje",
       option: {
         title: "prodavac radnja",
         subtitle:
-          "vi imati pojam opcija za prihvati ili odbij ovo transfer. ovo radnja pojam kao pojam pojam pojam samo. pojam potvrdi ako vi imati primljeno pojam pojam; ako nije, pojam nema pojam za pojam pojam radnja.",
+          "Imate mogućnost da prihvatite ili odbijete ovaj prijenos. Ova akcija služi samo kao istorijski zapis. Jednostavno potvrdite da li ste primili sredstva; ako ne, nema potrebe da preduzimate nikakve radnje.",
       },
       inputs: {
         verify: {
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "Povrat za narudžbu",
     subtitle:
-      "<b>pojam!</b>pojam ovo radnja će pojam pojam pojam transakcija u pojam prodavac novčanik i pojam pojam pojam iznos od to. pojam iznos pojam pojam pojam pojam ukupno transakcije za pojam odabrano narudžba. pojam, ako pojam imati bilo pojam za pojam banka računi (pojam kao sa Stripe Connect ili ručno pojam transfer), vi pojam kreiraj pojam <b>pojam transfer</b>.",
+      "<b>Važno! </b>Izvršavanje ove akcije će generirati negativnu transakciju u novčaniku dobavljača i od nje oduzeti odabrani iznos. Iznos ne može premašiti preostale ukupne transakcije za odabrani nalog. Osim toga, ako su sredstva prebačena na povezane bankovne račune (kao što je Stripe Connect ili ručni bankovni prijenos), trebali biste kreirati <b>povratni prijenos</b>.",
     inputs: {
       note: {
         message: "to vidljivo za pojam prodavac.",
-        placeholder: "vi može pojam pojam bilješka pojam...",
+        placeholder: "Ovdje možete priložiti napomenu...",
       },
       amount: {
-        error_message: "pojam pojam iznos ima bilo pojam.",
+        error_message: "Preostali iznos je premašen.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "ovo pojam pojam pojam od pojam transakcije u pojam prodavac pojam novčanik na pojam tržište. pojam pojam narudžba je pojam, pojam prodavac pojam od pojam pojam je dodaj za njihov novčanik.",
+      "Ovo pruža pregled transakcija u virtuelnom novčaniku dobavljača na tržištu. Kad god se izvrši narudžba, prodavčev udio u prodaji se dodaje u njihov novčanik.",
     vendor_wallets: "prodavac novčanici",
     my_wallets: "Moj novčanik",
     refund_order_action: "povrat narudžba",
     automatic_payout_list: {
       subtitle:
-        "ovo je pojam lista od automatsko isplate za vaš pojam banka račun. molimo bilješka to samo automatsko isplate će biti prikazano pojam, i ručno isplate će nije biti prikazano.",
+        "Ovo je lista automatskih isplata na vaš povezani bankovni račun. Imajte na umu da će ovdje biti prikazane samo automatske isplate, a ručne isplate neće biti prikazane.",
     },
     reversal_transfer_action: "Obrnuti transfer",
   },
@@ -4310,8 +4310,8 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "u ovo pojam, vi može prikaži pojam pojam od pojam pojam za pojam narudžba, pojam, plaćanje, i njihov pojam pojam. pojam, vi može pojam pojam narudžbe pojam za pojam kupci i prodavci.",
-    add_note_subtitle: "pisanje pojam poruka i pojam vaš pojam.",
+      "U ovom odeljku možete pogledati vremensku liniju događaja vezanih za narudžbu, ispunjenje, plaćanje i njihove odgovarajuće statuse. Osim toga, možete pratiti narudžbe koje se šalju i kupcima i dobavljačima.",
+    add_note_subtitle: "Napišite poruku i spomenite svoje kolege.",
 
     message_input: "Napišite poruku ovdje...",
     pin_action: "Zakačite na vrh",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Glavni profil",
       subtitle:
-        "uredi vaš javno profil informacije pojam. ovo informacije pojam biti vidljivo za vaš kupci ili pojam korisnici.",
+        "Ovdje uredite informacije o svom javnom profilu. Ove informacije mogu biti vidljive vašim klijentima ili drugim korisnicima.",
       full_name_input: "Puno ime",
       tel_input: "Kontakt broj",
       email_input: "e-pošta",
@@ -4772,7 +4772,7 @@ export default {
       expire_at: "Datum isteka",
     },
     create_dialog: {
-      title: "pojam pojam",
+      title: "Token Building",
       error_message: "<strong>Greška!</strong> Žao nam je, došlo je do greške!",
       name_input: "Alias Ex. moje tokensko ime",
       name_input_message: "Omiljeno ime tokena.",
@@ -4832,7 +4832,7 @@ export default {
     },
     "backoffice:notifications": {
       name: "pojam upravljanje",
-      description: "pojam i pojam pojam.",
+      description: "Šaljite i primajte obavještenja.",
     },
     "backoffice:order:write": {
       name: "narudžba upravljanje",
@@ -4843,8 +4843,8 @@ export default {
       description: "čitanje prodavnica narudžbe.",
     },
     "backoffice:support-tickets": {
-      name: "pojam pojam",
-      description: "upravljaj pojam pojam.",
+      name: "Ulaznice za podršku",
+      description: "Upravljajte tiketima za podršku.",
     },
     "backoffice:shop:read": {
       name: "prodavnica informacije",
@@ -4856,23 +4856,23 @@ export default {
     },
     "backoffice:shop:add": {
       name: "dodaj prodavnica",
-      description: "dodaj pojam novo prodavnica za pojam pojam.",
+      description: "Dodajte novu prodavnicu u sistem.",
     },
     "backoffice:shop:delete": {
       name: "izbriši prodavnica",
-      description: "izbriši pojam prodavnica od pojam pojam.",
+      description: "Izbrišite prodavnicu iz sistema.",
     },
     "backoffice:giftcard:write": {
-      name: "pojam pojam upravljanje",
-      description: "kreiraj i upravljaj pojam pojam.",
+      name: "Upravljanje poklon karticama",
+      description: "Kreirajte i upravljajte poklon karticama.",
     },
     "backoffice:giftcard:read": {
-      name: "pojam pojam pristup",
-      description: "čitanje pojam pojam detalji i pojam.",
+      name: "Pristup poklon kartici",
+      description: "Pročitajte detalje poklon kartice i statistiku.",
     },
     "backoffice:faq:write": {
       name: "FAQ upravljanje",
-      description: "kreiraj i upravljaj pojam pojam pojam.",
+      description: "Kreirajte i upravljajte često postavljanim pitanjima.",
     },
     "backoffice:faq:read": {
       name: "FAQ pristup",
@@ -4988,7 +4988,7 @@ export default {
     },
     "backoffice:community:write": {
       name: "pojam upravljanje",
-      description: "upravljaj pojam pojam.",
+      description: "Upravljajte aktivnostima zajednice.",
     },
     "backoffice:community:read": {
       name: "pojam pristup",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "pojam upravljanje",
-      description: "upravljaj pojam, pojam pojam pojam.",
+      description: "Upravljajte monetizacijom, uključujući programe preporuka.",
     },
     "selldone:identification": {
       name: "pojam pristup",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "pojam",
-      description: "pojam pojam nije pojam u pojam pojam.",
+      description: "Razni opsegi nisu definisani u sistemu.",
     },
     vendor: {
       title: "prodavac",
@@ -5265,7 +5265,7 @@ export default {
       description: "Odgovarajte na pitanja, pišite blogove i dizajnirajte stranice.",
     },
     OFFICER: {
-      text: "pojam pojam",
+      text: "Senior Manager",
       description: "Pregledajte i pratite aktivnosti zaposlenih.",
     },
     EMPLOYEE: {
@@ -5287,11 +5287,11 @@ export default {
   /** {@see ShopRoles} **/
   shop_roles: {
     PhysicalOrdersChecking: {
-      text: "pojam pojam",
+      text: "Physical Checking",
       description: "Provjerite primljene narudžbe.",
     },
     PhysicalOrdersPackaging: {
-      text: "pojam pojam",
+      text: "Physical Packaging",
       description: "Proces skladištenja i pakovanja.",
     },
     PhysicalOrdersDelivery: {
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "Obrazac zahtjeva za prijenos",
         sub_title:
-          "to je pojam za pojam pojam pojam pojam vaš novčanik pojam novčanici od pojam pojam valuta, ili transfer njih za pojam novčanici na Selldone.",
+          "Moguće je premjestiti dostupna sredstva unutar vašeg novčanika između novčanika iste valute ili ih prebaciti u različite novčanike na Selldoneu.",
         message:
           "Budite oprezni pri prijenosu novca, nećete moći vratiti ako završite prijenos.",
       },
@@ -5494,7 +5494,7 @@ export default {
 
   /** {@see BUserAppLevel}   {@see AppLevel}  **/
   app_levels: {
-    title: "pojam pojam",
+    title: "App Level",
     Newbie: "pojam",
     Beginner: "Pocetnik",
     Novice: "Novac",
@@ -5564,24 +5564,24 @@ export default {
       personal_information: "Lični podaci i profil",
       personal_information_subtitle: "uredi moj profil, adresa i KYC.",
       wallet: "Novčanici i računi",
-      wallet_subtitle: "pojam računi i pojam plaćanje pojam.",
+      wallet_subtitle: "Virtuelni računi i povezane platne kartice.",
 
       companies: "Kompanije i poslovni računi",
       companies_subtitle: "pojam moj poslovanje i porez profili.",
 
       access: "Pristup mom nalogu",
       access_subtitle:
-        "OAuth pojam, pojam pristup pojam i pojam pojam.",
+        "OAuth klijenti, lični tokeni za pristup i povezane aplikacije.",
 
       security: "Sigurnost",
-      security_subtitle: "postavi pojam pojam i upravljaj pojam pojam opcije.",
+      security_subtitle: "Postavite dva faktora i upravljajte opcijama za prijavu na društvenim mrežama.",
 
       preferences: "Korisničke postavke",
       preferences_subtitle:
-        "pojam pojam, pojam, pojam i zadano valuta.",
+        "Promijenite temu, nivo, jezik i zadanu valutu.",
       my_subscriptions: "Moje pretplate",
       my_subscriptions_subtitle:
-        "pristup za pojam AI i pojam pojam.",
+        "Pristup vrhunskim AI i funkcijama prilagođavanja.",
     },
   },
 
@@ -5682,8 +5682,8 @@ export default {
     end_date: "Datum završetka",
     price: "Cijena",
     verify: {
-      true_title: "pojam pojam",
-      true_description: "ja čitanje i pojam sa Selldone pojam od pojam",
+      true_title: "Potvrdite uslove",
+      true_description: "Pročitao sam i slažem se sa Selldone uslovima korišćenja",
     },
     need_charge: "Trebam punjenje",
     buy_now: "Kupi sada",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Kupljena istorija",
       subtitle:
-        "Aktivne licence i licence na čekanju.",
+        "Ovo je lista aktivnih i licenci na čekanju. Možete kupovati ponude nakon finansiranja vašeg novčanika. Uz to, imajte na umu da kada otkažete pretplatu, preostali iznos pretplate će biti vraćen u vaš virtualni novčanik.",
     },
     license_detail: {
       title: "Detalji",
       subtitle:
-        "Ograničenja vašeg trenutnog plana.",
+        "Ovo su ograničenja vašeg trenutnog plana. Za više detalja posjetite stranicu s cijenama. Možete pristupiti svim funkcijama na svim planovima, uključujući besplatni plan, da biste pokrenuli svoje poslovanje i razvijali se. Dok povećavate svoje poslovanje, razmislite o nadogradnji na plan višeg nivoa kako biste smanjili naknade za usluge.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "izaberi pojam novčanik",
         subtitle:
-          "odaberi pojam pojam novčanik za pojam za vaš pojam. ako vi pojam imati pojam pojam, vi može kreiraj to u pojam novčanik pojam. ovo novčanik će biti pojam za pojam naplata.",
+          "Odaberite virtuelni novčanik koji ćete koristiti za svoju pretplatu. Ako ga još nemate, možete ga kreirati u odjeljku novčanik. Ovaj novčanik će se koristiti za sve troškove.",
       },
       auto_renewal: {
         true_title: "automatski pojam",
         true_description:
-          "vaš pojam će automatski pojam ako vaš novčanik ima pojam stanje ili ako vi imati pojam važeće pojam.",
+          "Vaša pretplata će se automatski obnoviti ako vaš novčanik ima dovoljno sredstava ili ako imate važeći vaučer.",
       },
       options: {
         title: "dodatno opcije",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Ime",
     info: {
       subtitle:
-        "za pojam pojam proizvod, vi može pojam samo pojam pojam detalji pojam za to pojam.",
+        "Za generiranje proizvoda možete unijeti samo bitne detalje potrebne za njegovu izradu.",
     },
     price: {
       subtitle:
-        "pojam pojam cijena i popust za ovo proizvod. pojam pojam proizvod je dodaj, pojam imati pristup za više opcije.",
+        "Unesite cijenu i popust za ovaj proizvod. Kada se proizvod doda, imat ćete pristup više opcija.",
     },
     by_sku: {
       title: "dodaj od SKU",
-      subtitle: "pojam pojam u vaš država je nije dostupno.",
+      subtitle: "Baza podataka u vašoj zemlji nije dostupna.",
     },
     drop_shipping: {
       subtitle:
-        "pojam proizvodi u pojam pojam tržište i dodaj njih za vaš prodavnica.",
+        "Pronađite proizvode na veleprodajnom tržištu i dodajte ih u svoju trgovinu.",
     },
     by_connect: {
       subtitle:
-        "pojam dodaj proizvodi od POD ili pojam pojam sa Selldone Connect OS—pojam pojam vaš prodavnica i pojam automatsko proizvod pojam, nema pojam pojam.",
+        "Jednostavno dodajte proizvode od POD ili dropshipping dobavljača uz Selldone Connect OS—samo povežite svoju trgovinu i uživajte u automatskoj integraciji proizvoda, nisu potrebni dodaci.",
     },
     your_license_is_not_eligible: "vaš pojam je nije pojam.",
     sku_dialog: {
       title: "dodaj proizvod od SKU",
       subtitle:
-        "vi imati pojam pojam za pojam proizvodi od njihov SKU u pojam pojam i dodaj njih sa pojam pojam pojam pojam.",
+        "Imate mogućnost da locirate proizvode prema njihovom SKU-u u našoj bazi podataka i dodate ih samo jednim klikom.",
     },
     dropshipping_dialog: {
       title: "dodaj pojam proizvodi",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "pojam, vi može pojam pojam pojam lista njihov proizvodi na Selldone, pojam njih dostupno za pojam pojam. Selldone pojam pojam pojam pojam pojam pojam, pojam to pojam i pojam za pojam pojam i pojam.",
+      "Ovdje možete pronaći veletrgovce koji navode svoje proizvode na Selldoneu, čineći ih dostupnim drugim trgovcima. Selldoneova ugrađena dropshipping platforma pojednostavljuje proces, čineći ga lakim i jednostavnim i za veletrgovce i za trgovce.",
   },
 
   /** @see Affiliates **/
@@ -5892,32 +5892,32 @@ export default {
       new: "novo partner partner",
       edit: "uredi partner partner",
       subtitle:
-        "pojam pojam pojam postavke i pojam od pojam partner pojam.",
+        "Ovdje konfigurirajte opće postavke i naziv podružnice.",
     },
 
     payment: {
       title: "plaćanje informacije",
       subtitle:
-        "postavi pojam provizija pojam za pojam partner. vi može pojam pojam i pojam provizija, ili postavi pojam provizija za pojam proizvod.",
+        "Postavite strukturu provizije za podružnicu. Možete kombinovati fiksne i procentualne provizije ili postaviti specifične provizije za svaki proizvod.",
     },
 
     contact: {
       title: "Kontakt informacije",
-      subtitle: "pojam pojam pojam detalji od pojam partner partner pojam.",
+      subtitle: "Ovdje navedite kontakt podatke affiliate partnera.",
     },
 
     restriction: {
       title: "provizija pojam",
       subtitle:
-        "pojam pojam proizvodi su pojam za provizija. vi može pojam provizija za pojam proizvodi.",
+        "Definirajte koji proizvodi ispunjavaju uslove za proviziju. Možete ograničiti proviziju na određene proizvode.",
     },
 
     link_domain: {
       title: "link domen",
       subtitle:
-        "link pojam od vaš domeni za ovo partner partner. pojam pojam pojam pojam ovo domen će biti pojam za ovo partner.",
+        "Povežite jednu od svojih domena sa ovim pridruženim partnerom. Posjetioci koji kupuju preko ove domene bit će pripisani ovom afilijatu.",
 
-      domain_not_approved_msg: "pojam domen ima nije bilo pojam pojam!",
+      domain_not_approved_msg: "Domena još nije odobrena!",
       domain_is_not_enable_msg: "pojam domen je nije omogućeno!",
       domain_is_linked_to_other_affiliate_msg:
         "ovo domen je pojam link za pojam partner!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "pojam",
       subtitle:
-        "pojam ovo partner sa pojam pojam za upravljaj to pojam pojam pojam u pojam pojam.",
+        "Povežite ovu podružnicu s klasterom kako biste njime upravljali zajedno s drugim resursima na jednom mjestu.",
       manage_action: "upravljaj",
     },
 
@@ -5940,20 +5940,20 @@ export default {
     inputs: {
       name: {
         label: "partner partner pojam",
-        message: "pojam.pojam., John Doe, Alex kompanija, X pojam, pojam.",
+        message: "npr. John Doe, Alex Company, X Marketers, itd.",
       },
       commission: {
         label: "provizija pojam",
         false_description:
-          "pojam pojam pojam pojam od pojam i pojam provizija.",
+          "Izračunajte koristeći kombinaciju fiksnih i procentualnih provizija.",
         true_description:
-          "pojam pojam pojam provizija postavi u pojam određivanje cijena pojam.",
+          "Izračunajte koristeći provizije za specifične proizvode postavljene na kartici cijena.",
         false_title: "pojam + pojam provizija",
         true_title: "pojam provizija",
       },
       user: {
         label: "korisnik (opcionalno)",
-        message: "opcionalno, pojam.pojam., partner pojam u Selldone",
+        message: "Neobavezno, npr. ime podružnice u Selldone",
       },
       web: {
         placeholder: "opcionalno, pojam.pojam., affiliate-web.com",
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "partner može pojam narudžbe pojam za njihov kupci pojam njihov pojam.",
+          "Pridružene kompanije mogu naručiti direktno za svoje kupce preko svog panela.",
         true_title: "POS pristup",
       },
       enable: {
         true_description:
-          "je ovo partner pojam aktivno? ako neaktivno, njihov partner pojam pojam primijeni za narudžbe pojam pojam njihov link.",
+          "Je li ova podružnica trenutno aktivna? Ako je neaktivan, njihov pridruženi program se neće primjenjivati ​​na narudžbe napravljene putem njihove veze.",
       },
       products: {
         label: "proizvodi pojam za provizija",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "vi može pojam pojam pojam pojam sa pojam partner prije pojam njih od vaš prodavnica. partner informacije će pojam pojam za pojam ograničenje vrijeme nakon pojam.",
+        "Sve nepodmirene dugove možete podmiriti s podružnicom prije nego što ih uklonite iz svoje trgovine. Informacije o partnerima će ostati dostupne ograničeno vrijeme nakon brisanja.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "prilagođeno određivanje cijena i pojam",
     subtitle:
-      "pojam pojam pojam (pojam određivanje cijena unos obrazac) za pojam proizvod, pojam kupci za odaberi varijante ili pojam vaš pojam. pojam pojam će pojam pojam pojam cijena pojam na pojam prilagođeno unosi.",
+      "Dodijelite procjenu (obrazac za unos cijene) proizvodu, omogućavajući kupcima da odaberu varijante ili personaliziraju vašu robu. Sistem će zatim izračunati cijenu na osnovu prilagođenih unosa.",
     add_valuation_action: "kreiraj novo pojam obrazac",
     empty_message:
-      "pojam od pojam pojam varijante, pojam pojam pojam pojam pojam to može biti pojam za pojam pojam proizvod.",
+      "Umjesto stvaranja više varijanti, razmislite o razvoju strategije vrednovanja koja se može primijeniti na jednostavan proizvod.",
     delete_dialog: {
       title: "pojam ukloni",
       message:
-        "su vi pojam vi želite za izbriši ovo određivanje cijena obrazac? molimo pojam to ovo prilagođeno određivanje cijena pojam je pojam od sve pojam proizvodi prvo.",
+        "Jeste li sigurni da želite izbrisati ovaj obrazac za cijene? Uvjerite se da je ova prilagođena strategija cijena prvo uklonjena iz svih povezanih proizvoda.",
       action: "Da, Izbriši sada",
     },
     notifications: {
@@ -6022,7 +6022,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "određivanje cijena & pojam pojam",
+    label: "Model cijena i vrednovanja",
   },
 
   /**
@@ -6033,26 +6033,26 @@ export default {
     title_add: "kreiraj novo pojam obrazac",
     config: {
       subtitle:
-        "postavi pojam pojam pojam pojam za kreiraj pojam određivanje cijena pojam pojam i pojam tabela za vaš proizvodi. početak od pojam ovo pojam pojam pojam pojam.",
+        "Postavite sistem vrednovanja za kreiranje fleksibilnih cena koristeći formule i referentne tabele za vaše proizvode. Počnite tako što ćete ovoj procjeni dati jedinstveno ime.",
     },
-    valuation_preview: "pojam pojam obrazac",
+    valuation_preview: "Pregledajte obrazac za procjenu vrijednosti",
     load_sample: "pojam uzorak",
     conditions: {
       title: "Uslovi",
       subtitle:
-        "pojam pojam pojam za prilagođeno varijante. ovo konfiguracija pojam pojam upravljanje od varijanta pojam.",
+        "Definirajte logiku za prilagođene varijante. Ova konfiguracija pojednostavljuje upravljanje dostupnošću varijanti.",
     },
     structure: {
       title: "pojam",
       subtitle:
-        "dizajn vaš određivanje cijena unos obrazac pojam od pojam pojam i pojam tabela.",
+        "Dizajnirajte svoj obrazac za unos cijena ovdje integracijom formula i referentnih tablica.",
       expand_action: "pojam",
       collapse_action: "pojam",
     },
     inputs: {
       title: {
         message: "ovo naslov je nije vidljivo za kupci.",
-        placeholder: "pojam pojam pojam za određivanje cijena, pojam.pojam., 'pojam pojam",
+        placeholder: "Unesite naziv za cijene, npr. 'Cijene šalica'",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "pojam konfiguracija",
         subtitle:
-          "pojam pojam od pojam popust kod pojam je: pojam (LIMIT, pojam * pojam cijena). pojam za zaradi pojam kod pojam i pojam za pojam.",
+          "Formula izračunavanja koda za popust je: max (LIMIT, PERCENT * cijena korpe). Ne zaboravite da kodove učinite relevantnim i lakim za pamćenje.",
       },
       limit: {
         title: "pojam",
         subtitle:
-          "vi može pojam pojam maksimum pojam ograničenje za pojam popust kod, kao pojam kao pojam maksimum popust iznos, u ovo pojam.",
+          "U ovom dijelu možete definirati maksimalno ograničenje korištenja za svaki kod za popust, kao i maksimalan iznos popusta.",
       },
       duration: {
         title: "trajanje ograničenje",
         subtitle:
-          "pojam vi želite za pojam pojam popust kod za pojam pojam pojam, vi može pojam to trajanje pojam.",
+          "Ukoliko želite da aktivirate kod za popust za određeni vremenski okvir, to trajanje možete odrediti ovdje.",
       },
       design: {
         subtitle:
-          "vi može postavi pojam naslov i opis za pojam popust kod. pojam detalji će biti prikazano za pojam korisnik.",
+          "Možete postaviti naslov i opis za svaki kod za popust. Ovi detalji će biti prikazani korisniku.",
       },
       cluster: {
         subtitle:
-          "od pojam ovo popust kod sa pojam pojam, vi može pojam upravljaj to pojam pojam pojam u pojam pojam lokacija.",
+          "Povezivanjem ovog koda za popust s klasterom, lako možete njime upravljati zajedno s drugim resursima na jednoj lokaciji.",
       },
     },
     delete_alert: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "pojam pojam od pojam kupon popust pojam je: CHARGE + pojam (LIMIT, pojam * pojam cijena).",
+        "Formula obračuna kuponskog popusta je: NAPLATA + max (LIMIT, PERCENT * cijena korpe).",
     },
     limit: {
       subtitle:
-        "u ovo pojam, pojam pojam za postavi pojam pojam maksimum pojam od pojam pojam kupon i pojam pojam popust iznos pojam kupon može pojam.",
+        "U ovom odjeljku možete postaviti i maksimalan broj korištenja po kuponu i najveći iznos popusta koji svaki kupon može pružiti.",
       zero_message: "pojam: pojam je nema ograničenje!",
     },
     duration: {
       subtitle:
-        "ako vi pojam za postavi pojam pojam pojam za pojam kupon za biti aktivno, vi može pojam pojam trajanje u ovo pojam.",
+        "Ako želite da podesite određeni vremenski okvir da kupon bude aktivan, možete konfigurisati trajanje u ovom odeljku.",
     },
     design: {
       subtitle:
-        "pojam kupon pojam za pojam pojam od pojam naslov i opis. pojam detalji će biti vidljivo za pojam kupac.",
+        "Svaki kupon omogućava dodavanje naslova i opisa. Ovi detalji će biti vidljivi kupcu.",
     },
     constraints: {
       subtitle:
-        "pojam, vi imati pojam pojam za pojam dodatno pojam pojam za pojam kupon.",
+        "Ovdje imate mogućnost da postavite dodatne personalizirane parametre za kupon.",
       no_limit: "nema dodatno pojam",
       has_limit: "dodatno pojam",
-      has_code_message: "korisnik pojam pojam pojam kod za dodaj kupon.",
+      has_code_message: "Korisnik treba da unese kod za dodavanje kupona.",
     },
     club: {
       subtitle:
-        "ovo kupon pojam može biti pojam pojam za članovi od pojam kupac pojam.",
+        "Korištenje ovog kupona može biti ograničeno isključivo na članove odabranih klubova kupaca.",
     },
     cluster: {
       subtitle:
-        "od pojam ovo kupon sa pojam pojam, vi može pojam upravljaj to pojam pojam pojam u pojam pojam lokacija.",
+        "Povezivanjem ovog kupona s klasterom, lako možete njime upravljati zajedno s drugim resursima na jednoj lokaciji.",
     },
     preview: {
-      subtitle: "pojam pojam javno pojam od pojam kupon.",
+      subtitle: "Evo javnog pregleda kupona.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "pojam pojam pojam pojam pojam od pojam to naslov, opis, i javno pojam status.",
+        "Započnite izradu inteligentnog dogovora utvrđivanjem njegovog naslova, opisa i statusa dostupnosti javnosti.",
     },
     limit: {
-      subtitle: "postavi pojam maksimum pojam ograničenje za ovo ponuda u ovo pojam.",
+      subtitle: "Postavite maksimalno ograničenje upotrebe za ovu ponudu u ovom odjeljku.",
     },
     duration: {
       subtitle:
-        "ako vi pojam za postavi pojam pojam pojam za pojam ponuda, vi može pojam pojam trajanje pojam.",
+        "Ako želite postaviti određeni vremenski okvir za ponudu, ovdje možete konfigurirati trajanje.",
     },
     constraints: {
       subtitle:
-        "postavi pojam pojam pojam i pojam za pojam ponuda pojam. pojam ponuda pojam za pojam stavke to pojam pojam pojam.",
+        "Ovdje postavite kriterije i uslove za ponudu. Ponuda se odnosi na artikle u korpi koji ispunjavaju ove uslove.",
     },
     discounted_products: {
       title: "popust proizvodi",
       subtitle:
-        "vi može pojam pojam proizvodi za pojam ovo ponuda će primijeni pojam popust.",
+        "Možete odrediti proizvode na koje će ova ponuda primjenjivati ​​popust.",
     },
     cluster: {
       subtitle:
-        "od pojam ovo ponuda sa pojam pojam, vi može pojam upravljaj to pojam pojam pojam u pojam pojam lokacija.",
+        "Povezivanjem ove ponude s klasterom, lako možete upravljati njome zajedno s drugim resursima na jednoj lokaciji.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "partner link",
       subtitle:
-        "pojam pojam pojam link za vaš partner partner za pojam pojam i provizija. dodaj pojam kod '{code}' za pojam link ili pojam pojam prilagođeno namjenski domen za vaš partner. to će biti pojam od pojam pojam za 48h.",
+        "Generirajte jedinstvenu vezu za vašeg pridruženog partnera za praćenje prodaje i provizija. Dodajte referentne kodove '{code}' na bilo koju vezu ili dodijelite prilagođenu namjensku domenu za svoju podružnicu. Sistem će ga pratiti 48h.",
     },
     fix_commission: "Fiksna provizija",
     percent_commission: "Provizija zasnovana na postocima",
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "pojam kupac pojam sa pojam pojam pojam u vaš prodavnica. postavi pojam pojam i pojam pojam za kupci pojam pojam pojam pojam pojam. pojam pojam pojam pojam 10 pojam, i vi može ponuda pojam pojam za pojam pojam. pojam zadano pojam je pojam od pojam, pojam vi može pojam to za pojam vaš prodavnica pojam.",
+        "Povećajte kupnju kupaca uz gamificirano iskustvo u vašoj trgovini. Postavite nagrade i dobitne kvote za kupce koji zarađuju tokene kupovinom. Svaka igra košta 10 žetona, a možete ponuditi posebne nagrade za kupce koji prvi put kupe. Zadana igra je Wheel of Fortune, ali je možete prilagoditi tako da odgovara izgledu vaše trgovine.",
     },
-    empty_prize_list: "kreiraj i upravljaj pojam pojam...",
+    empty_prize_list: "Kreirajte i upravljajte nagradama ovdje...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Šansa za pobjedu u postocima",
     free_for_first: "Je li besplatno za nove kupce?",
     free_for_first_message: "Novi kupci mogu osvojiti ovu stavku.",
-    not_free_for_first_message: "ovo pojam nije dostupno za prvo pojam pojam.",
+    not_free_for_first_message: "Ova nagrada nije dostupna za prvu besplatnu igru.",
 
     amount: "Iznos nagrade",
     amount_hint: "Korisnici osvajaju ovaj iznos naknade za svoju narudžbu.",
@@ -6614,23 +6614,23 @@ export default {
     },
     config: {
       subtitle:
-        "pojam, vi može kreiraj vaš prodavnica pojam pojam. postavi pojam naslov, opis, boja, i slika za pojam pojam.",
+        "Ovdje možete kreirati nagrade na lutriji svoje trgovine. Postavite naslov, opis, boju i sliku za svaku nagradu.",
     },
     design: {
       subtitle:
-        "pojam, vi imati pojam opcija za izaberi pojam slika i boja za pojam pojam.",
+        "Ovdje imate mogućnost da odaberete sliku i boju za nagradu.",
     },
     constraints: {
-      subtitle: "pojam pojam pojam i pojam za pojam ovo pojam.",
+      subtitle: "Navedite kriterije i ograničenja za osvajanje ove nagrade.",
     },
     prize: {
       title: "pojam",
       subtitle:
-        "postavi pojam pojam pojam detalji pojam. opcije pojam popust kod, pojam pojam, pojam, i pojam popust kao pojam pojam.",
+        "Ovdje postavite detalje o nagradi. Opcije uključuju kodove za popust, poklon kartice, kredite i druge popuste kao nagrade na lutriji.",
     },
     product_input: {
       label: "proizvod pojam",
-      message: "odaberi pojam proizvod za pojam (je pojam)",
+      message: "Odaberite proizvod za nagradu (besplatno)",
     },
   },
 
@@ -6906,7 +6906,7 @@ export default {
 
   /** {@see PosDeviceTypes**/
   pos_devices: {
-    Scanner: "pojam pojam",
+    Scanner: "Barcode Scanner",
     Scanner_desc:
       "Da biste koristili skener bar koda, morate ispravno unijeti SKU kod proizvoda u postavkama proizvoda.",
     Printer: "Štampač",
@@ -7041,18 +7041,18 @@ export default {
     vendor: {
       title: "uvezi prodavci",
       subtitle:
-        "otpremi prodavac CSV datoteke pojam. pojam pojam pojam je pojam i pojam za pojam pojam.",
+        "Ovdje otpremite CSV fajlove dobavljača. Uvjerite se da je format ispravan i da se pridržava propisa o privatnosti.",
       checklist: {
-        title: "pojam pojam",
-        subtitle: "biti pojam za pojam pojam pojam.",
+        title: "Važna kontrolna lista",
+        subtitle: "Obavezno slijedite smjernice.",
         sample_files: "uzorak datoteke",
         valid_vendor_name_needed:
-          "vi pojam pojam pojam <b>važeće pojam</b>. pojam <b>pojam</b> je pojam za pojam pojam za <i>kreiraj</i> pojam novo prodavac ili <i>ažuriraj</i> pojam pojam pojam.",
+          "Morate dati <b>ispravno ime</b>. <b>name</b> se koristi za određivanje da li treba <i>Kreirati</i> novog dobavljača ili <i>Ažurirati</i> postojećeg.",
         assign_user_after_import:
-          "nakon uvezi prodavci, vi može pojam pojam pojam korisnik za pojam njih pristup za pojam prodavac pojam.",
+          "Nakon uvoza dobavljača, možete ručno dodijeliti korisnika koji će mu dati pristup panelu dobavljača.",
       },
       need_kyc_alert:
-        "vi pojam za pojam vaš pojam informacije prije uvezi prodavci.",
+        "Morate provjeriti svoje lične podatke prije uvoza dobavljača.",
       back_to_vendors_list: "pojam za prodavac lista",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "prodavac proizvodi",
     subtitle:
-      "ovo pojam lista sve proizvodi ponuda od prodavci. u pojam tržište, pojam proizvod može biti link za pojam ili više prodavci. pojam prodavac pojam sa pojam proizvod ima pojam pojam pojam to pojam pojam i određivanje cijena detalji pojam za to prodavac.",
+      "U ovom katalogu su navedeni svi proizvodi koje nude dobavljači. Na tržištu, proizvod se može povezati s jednim ili više dobavljača. Svaki dobavljač povezan s proizvodom ima jedinstveni unos koji uključuje inventar i detalje o cijenama specifične za tog dobavljača.",
     filter_vendor: {
       placeholder: "pojam od prodavac...",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "otvori prodavci pojam",
     title: "prodavac pojam lista",
     subtitle:
-      "ovo je pojam lista od pojam od pojam pojam imati pojam za pojam prodavci u vaš tržište.",
+      "Ovo je lista zahtjeva pojedinaca koji su se prijavili da postanu prodavci na vašem tržištu.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,23 +7088,23 @@ export default {
     marketplace: {
       title: "tržište",
       subtitle:
-        "pojam pojam tržište će pojam pojam pojam pojam. ako vi želite za pojam pojam vaš pojam tržište, vi pojam pojam vaš prodavnica u pojam postavke.",
+        "Onemogućavanje marketplacea će isključiti neke funkcije. Ako želite ugasiti cijelo tržište, trebali biste onemogućiti svoju trgovinu u postavkama.",
     },
     distribution_model: {
-      title: "pojam pojam",
+      title: "Model distribucije",
       subtitle:
-        "tržište može pojam pojam pojam pojam pojam. pojam vi pojam prodavci za pojam stavke pojam za pojam ili pojam narudžbe na vaš skladište za dostava, vi može izaberi pojam pojam to pojam pojam vaš pojam pojam.",
+        "Tržišta mogu raditi pod različitim modelima distribucije. Bilo da više volite da dobavljači šalju artikle direktno kupcima ili objedinjuju narudžbe u vašem skladištu za otpremu, ovdje možete odabrati model koji najbolje odgovara vašim potrebama.",
     },
     access: {
       title: "prodavac pristup",
       subtitle:
-        "kao pojam pojam, vi pojam pojam pojam od pristup prodavci imati za pojam proizvod kontrolna ploča. pojam pojam pristup postavke za pojam prodavci za dodaj njihov pojam proizvodi i kategorije ili pojam ovo pristup za pojam samo.",
+        "Kao administrator, vi kontrolišete nivo pristupa koji dobavljači imaju na kontrolnu tablu proizvoda. Prilagodite postavke globalnog pristupa kako biste omogućili dobavljačima da dodaju svoje proizvode i kategorije ili ograničite ovaj pristup samo na administratore.",
     },
     need_enable_shipping_for_vendors_tips:
-      "pojam dostava za prodavci u pojam prodavnica > logistika pojam za pojam pojam pojam.",
+      "Omogućite dostavu za dobavljače na kartici Prodavnica > Logistika za svaki metod pojedinačno.",
     transportation_available_tooltip: "ovo opcija je dostupno za prodavci.",
     transportation_not_available_tooltip:
-      "nije dostupno za prodavci! vi može pojam to u pojam pojam postavke.",
+      "Nije dostupno za prodavce! Možete ga omogućiti u postavkama transporta.",
     panel: {
       title: "prodavac pojam",
       subtitle: "pojam vaš prodavci pojam vaš prilagođeno domen.",
@@ -7112,15 +7112,15 @@ export default {
     documents: {
       title: "dokumenti",
       subtitle:
-        "vi može pojam vaš prodavci za otpremi dokumenti ili pojam pojam pojam. pojam pojam obavezno dokumenti pojam.",
+        "Od svojih dobavljača možete zahtijevati da učitaju dokumente ili potpišu određene ugovore. Ovdje navedite potrebne dokumente.",
       add_document_action: "dodaj dokument pojam",
     },
     inputs: {
       enable: {
         false_description:
-          "pojam tržište je pojam pojam, pojam sve tržište pojam.",
+          "Marketplace je isključen, onemogućujući sve funkcije tržišta.",
         true_description:
-          "pojam tržište je aktivno, pojam sve tržište pojam.",
+          "Tržište je aktivno i omogućava sve funkcionalnosti tržišta.",
       },
       product: {
         label: "dodaj novo proizvod",
@@ -7128,14 +7128,14 @@ export default {
         false_description:
           "vi dodaj proizvodi i pojam prodavci. prodavci može samo upravljaj cijena i pojam.",
         true_description:
-          "prodavci može dodaj i upravljaj njihov pojam proizvodi pojam u njihov prodavac pojam.",
+          "Prodavci mogu dodavati i upravljati vlastitim proizvodima direktno u panelu svojih dobavljača.",
       },
       need_verify: {
-        label: "proizvod pojam pojam",
+        label: "Tok verifikacije proizvoda",
         false_description: "novo prodavac proizvodi pojam uživo pojam.",
         false_title: "nema pojam obavezno",
         true_description:
-          "pojam novo proizvodi pojam pojam prije pojam uživo na pojam tržište.",
+          "Novi proizvodi dobavljača zahtijevaju odobrenje prije nego što postanu dostupni na tržištu.",
         true_title: "pojam obavezno",
       },
       category: {
@@ -7150,21 +7150,21 @@ export default {
         label: "dostava opcije",
         true_title: "prodavci imati dostava opcije",
         false_description:
-          "prodavci pojam dodaj ili pojam njihov dostava pojam.",
+          "Prodavci ne mogu dodati ili prilagoditi svoje metode isporuke.",
         true_description:
-          "prodavci može postavi pojam njihov pojam dostava pojam, dodaj kuriri, i pojam dostava za njihov pojam.",
+          "Prodavci mogu postaviti vlastite metode dostave, dodati kurire i prilagoditi dostavu za svoje potrebe.",
       },
       hidden_customer: {
-        label: "prikaži pojam pojam informacije",
-        true_description: "pojam pojam detalji su skriveno od prodavci.",
+        label: "Prikaži podatke o kontaktu kupca",
+        true_description: "Kontakt podaci kupca su skriveni od prodavača.",
         false_description:
-          "pojam pojam detalji, pojam kao telefon i e-pošta, su vidljivo za prodavci.",
+          "Podaci za kontakt kupca, kao što su telefon i e-pošta, vidljivi su prodavcima.",
       },
       multi: {
         false_description:
-          "pojam korisnik može imati samo pojam prodavac račun. korisnici će biti pojam za njihov pojam na /prodavci.",
+          "Korisnik može imati samo jedan račun dobavljača. Korisnici će biti preusmjereni na svoj panel na /vendors.",
         true_description:
-          "pojam korisnik može imati pojam prodavac računi. ovo je pojam pojam pojam; molimo pojam pojam prije pojam to.",
+          "Korisnik može imati više naloga dobavljača. Ovo je beta funkcija; kontaktirajte nas prije korištenja.",
         true_title: "pojam način",
         false_title: "pojam prodavac način (zadano)",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "listing je omogućeno za prodavci. prodavci može upravljaj listing stavke i kompanije.",
         false_description: "listing je onemogućeno za prodavci. samo pojam prodavnica pojam može upravljaj listing stavke i kompanije.",
         requires_listing_active_text:
-          "za pojam prodavci pojam listing (stavke + kompanije), prvo pojam pojam prodavnica listing pojam u kanal → listing. pojam pojam pojam pojam za pojam prodavac pristup.",
+          "Da dozvolite prodavcima da koriste listing (stavke + kompanije), prvo omogućite funkciju Listing prodavnice u Kanal → Listing. Zatim se vratite ovamo da dozvolite pristup dobavljaču.",
         requires_listing_active_button: "otvori kanal listing postavke",
       },
 
@@ -7189,41 +7189,41 @@ export default {
       type: {
         title: "dokument pojam",
         subtitle:
-          "dodaj pojam dokument pojam stavka pojam. to će pojam u pojam prodavac pojam, pojam njih za otpremi pojam obavezno dokument.",
+          "Ovdje dodajte stavku zahtjeva za dokument. Pojavit će se na ploči dobavljača, tražeći od njih da učitaju traženi dokument.",
       },
       guide: {
         title: "pojam",
         subtitle:
-          "pojam pojam pojam pojam za pojam prodavci pojam pojam dokumenti za otpremi i pojam za pojam to pojam.",
+          "Dajte kratak vodič koji će pomoći prodavcima da shvate koje dokumente treba učitati i kako to ispravno učiniti.",
       },
       code: {
         title: "pojam kod",
         subtitle:
-          "pojam pojam pojam kod za pojam dokument, obrazac, ili pojam to pojam prodavac pojam pojam.",
+          "Zalijepite kod za ugradnju dokumenta, obrasca ili ugovora koji dobavljač mora potpisati.",
       },
       link: {
         title: "vanjsko link",
         subtitle:
-          "pojam pojam vanjsko link za pojam dokument ili pojam to pojam prodavac pojam pojam.",
+          "Navedite eksternu vezu do dokumenta ili ugovora koji prodavac mora potpisati.",
       },
       inputs: {
         title: {
           label: "Naslov",
-          placeholder: "pojam pojam naslov za pojam dokument pojam.",
+          placeholder: "Unesite naslov za zahtjev za dokument.",
         },
         guide: {
           label: "pojam (opcionalno)",
           placeholder:
-            "pojam, pojam pojam pojam pojam ili pojam, pojam link za pojam ili pojam dokumenti.",
+            "Opciono, dajte kratak vodič ili uputstva, uključujući veze do ugovora ili drugih dokumenata.",
         },
         code: {
           label: "pojam kod",
-          placeholder: "pojam pojam pojam kod pojam...",
+          placeholder: "Zalijepite kod za ugradnju ovdje...",
           message: "može pojam HTML kod.",
         },
         url: {
           label: "URL",
-          message: "pojam pojam URL za pojam dokument ili pojam pojam...",
+          message: "Ovdje unesite URL za dokument ili ugovor...",
         },
       },
     },
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "pojam način",
       description:
-        "u ovo način, sve narudžbe su poslano za vaš skladište prvo i pojam pojam za kupci od pojam pojam lokacija. prodavci će pojam njihov stavke za vaš skladište, pojam pojam dostava adresa za prodavci će biti vaš skladište adresa.",
+        "U ovom načinu rada, sve narudžbe se prvo šalju u vaše skladište, a zatim se šalju kupcima sa centralne lokacije. Prodavci će slati svoje artikle u vaše skladište, tako da će adresa za dostavu prodavaca biti adresa vašeg skladišta.",
     },
     Direct: {
       title: "pojam dostava od prodavac",
       description:
-        "u ovo način, prodavci pojam narudžbe pojam za kupci. pojam dostava adresa za prodavac narudžbe će biti pojam pojam adresa.",
+        "U ovom načinu, prodavci šalju narudžbe direktno kupcima. Adresa za dostavu za narudžbe dobavljača će biti adresa kupca.",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "pojam pojam dokument",
+      title: "Identifikacioni dokument vlasnika",
       description:
-        "otpremi pojam pojam ID za pojam pojam pojam od pojam poslovanje pojam ili ključ pojam.",
+        "Otpremite identifikacijski dokument koji je izdao državni organ da potvrdite identitet vlasnika preduzeća ili ključnog rukovodioca.",
     },
     Business: {
       title: "poslovanje pojam",
       description:
-        "pojam pojam poslovanje dokumenti pojam kao pojam ili pojam pojam za potvrdi pojam pojam status od vaš poslovanje.",
+        "Dostavite bitne poslovne dokumente kao što su licence ili potvrde o registraciji kako biste potvrdili pravni status vašeg poslovanja.",
     },
     Address: {
       title: "adresa pojam",
       description:
-        "pojam pojam dokument za pojam vaš poslovanje adresa, pojam kao pojam pojam pojam, porez faktura, ili pojam pojam.",
+        "Podnesite dokument da potvrdite svoju poslovnu adresu, kao što je račun za komunalne usluge, poreska faktura ili ugovor o zakupu.",
     },
     Contract: {
       title: "pojam & pojam",
       description:
-        "otpremi pojam ili pojam to pojam pojam pojam i pojam od vaš poslovanje pojam.",
+        "Otpremite ugovore ili sporazume koji detaljno navode odredbe i uslove vaših poslovnih odnosa.",
     },
     Copyright: {
-      title: "pojam pojam",
+      title: "Autorska dokumentacija",
       description:
-        "pojam pojam pojam dokumenti za pojam vaš pojam svojstvo pojam.",
+        "Dostavite dokumente za registraciju autorskih prava kako biste potvrdili svoja prava intelektualne svojine.",
     },
     Privacy: {
-      title: "pojam pojam dokumenti",
+      title: "Dokumenti o politici privatnosti",
       description:
-        "pojam vaš pojam pojam dokumenti za pojam vaš pojam za pojam korisnik i kupac informacije.",
+        "Uključite svoje dokumente o politici privatnosti kako biste pokazali svoju posvećenost zaštiti podataka o korisnicima i klijentima.",
     },
     Embed: {
       title: "pojam obrazac",
       description:
-        "pojam pojam pojam obrazac za pojam pojam obavezno informacije.",
+        "Ispunite ugrađeni obrazac da pružite potrebne informacije.",
     },
     Link: {
       title: "vanjsko link",
       description:
-        "pojam pojam vanjsko link za pojam pojam pojam informacije.",
+        "Pratite eksternu vezu da pružite potrebne informacije.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "prodavac novčanici",
     subtitle:
-      "nema pojam za pojam dodaj novčanici! prodavac novčanici su kreirano automatski. ako vi pojam pojam plaćanje pojam to pojam pojam isplate (pojam Stripe Connect), pojam pojam će automatski pojam plaćanja za pojam pojam pojam računi. ako ovo pojam je nije omogućeno, pojam pojam za pojam pojam prodavci, i vi može pojam pojam iznos pojam za njih u pojam novčanik lista.",
+      "Nema potrebe za ručno dodavanjem novčanika! Novčanici dobavljača se kreiraju automatski. Ako omogućite način plaćanja koji podržava podijeljene isplate (kao što je Stripe Connect), sistem će automatski distribuirati uplate na račune povezanih dobavljača. Ako ova funkcija nije omogućena, morat ćete ručno platiti dobavljačima, a iznose koji im dugujete možete provjeriti na listi novčanika.",
     filter_vendor: {
       placeholder: "pojam od prodavac...",
     },
@@ -7307,11 +7307,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "ovo pojam pojam pojam pojam lista od sve transakcije za pojam odabrano novčanik. pojam naplata transakcija je pojam pojam pojam kupac uspješno pojam za pojam narudžba. ako pojam narudžba je otkaži ili pojam povrat, pojam pojam povrat transakcija će pojam biti pojam pojam.",
+      "Ovaj odjeljak pruža detaljnu listu svih transakcija za odabrani novčanik. Transakcija naplate se bilježi kada kupac uspješno plati narudžbu. Ako je narudžba otkazana ili djelimično vraćena, odgovarajuća transakcija povrata također će biti zabilježena ovdje.",
     vendor_bank: "prodavac banka",
     order_fee: "narudžba naknada",
     order_refund: "narudžba povrat",
-    reverse_fund: "pojam pojam",
+    reverse_fund: "Fund Reversal",
     payout: "isplata",
   },
 
@@ -7321,8 +7321,8 @@ export default {
   marketplace_payouts: {
     title: "isplata pojam",
     subtitle:
-      "ovo pojam pojam račun za vi i vaš prodavci od pojam pojam pojam pojam od sve transakcije. plaćanja može biti pojam pojam pojam banka transfer ili pojam pojam, ili automatski pojam od plaćanje pružaoci to pojam pojam plaćanja, pojam Stripe.",
-    top_up_vendor_action: "pojam pojam prodavac račun",
+      "Ova funkcija pojednostavljuje računovodstvo za vas i vaše dobavljače tako što vodi detaljnu evidenciju svih transakcija. Plaćanja se mogu obraditi ručno putem bankovnih transfera ili drugim metodama, ili ih mogu automatski upravljati provajderi plaćanja koji podržavaju podijeljena plaćanja, kao što je Stripe.",
+    top_up_vendor_action: "Dopunite račun dobavljača",
   },
 
   /**
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "određivanje cijena pojam",
     subtitle:
-      "postavi pojam određivanje cijena pojam za vaš tržište, pojam pojam 5% pojam naknada za pojam proizvodi. ovo zaradi određivanje cijena upravljanje pojam i više pojam.",
+      "Postavite cjenovne modele za svoje tržište, poput naknade od 5% marže za digitalne proizvode. To čini upravljanje cijenama bržim i efikasnijim.",
     add_pricing_action: "dodaj određivanje cijena pojam",
   },
 
@@ -7341,22 +7341,22 @@ export default {
   vendor_pricing_add: {
     title: "tržište određivanje cijena pojam",
     subtitle:
-      "pojam vi pojam pojam određivanje cijena pojam za prodavac proizvodi, pojam cijena će automatski biti pojam kao prodavac cijena * (1 + provizija%).",
+      "Kada dodijelite model cijena proizvodima dobavljača, cijena će se automatski izračunati kao cijena dobavljača * (1 + provizija%).",
     delete: {
       subtitle:
-        "pojam pojam određivanje cijena pojam će pojam sve prodavac proizvodi link za to. prije pojam pojam određivanje cijena pojam, zaradi pojam za ažuriraj sve prodavac proizvodi pojam to i pojam njih pojam pojam određivanje cijena pojam.",
+        "Brisanje modela cijena će utjecati na sve proizvode dobavljača koji su povezani s njim. Prije uklanjanja modela cijena, obavezno ažurirajte sve proizvode dobavljača koji ga koriste i dodijelite im drugačiji model cijena.",
       remove_pricing_action: "ukloni određivanje cijena pojam",
     },
     inputs: {
       title: {
-        placeholder: "pojam.pojam., pojam proizvodi pojam...",
+        placeholder: "npr., klasa digitalnih proizvoda...",
       },
       description: {
         placeholder: "vi može dodaj pojam bilješka pojam...",
       },
       accept_delete: {
         true_description: "ja želite za izbriši ovo određivanje cijena pojam.",
-        true_title: "potvrdi određivanje cijena pojam pojam",
+        true_title: "Potvrdite uklanjanje modela cijena",
       },
     },
   },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "prodavac",
       subtitle:
-        "odaberi pojam prodavac vi pojam za transfer pojam za. pojam odabrano, dostupno plaćanje opcije će biti prikazano. ako pojam omogućeno pojam plaćanje pojam, pojam opcije će pojam pojam pojam.",
+        "Odaberite dobavljača kojem želite prenijeti sredstva. Nakon odabira, bit će prikazane dostupne opcije plaćanja. Ako ste omogućili pristupe za plaćanje koji su sposobni za isplatu, te opcije će se također pojaviti ovdje.",
     },
     vendor_wallet: "prodavac novčanik",
     vendor_bank_account: "prodavac banka račun",
     with_balance_tooltip:
-      "pojam vi pojam isplata usluge pojam Stripe Connect, mi pojam i pojam pojam dostupno stanje u vaš Stripe račun za pojam.",
+      "Kada povežete usluge isplate kao što je Stripe Connect, mi preuzimamo i prikazujemo raspoloživo stanje na vašem Stripe računu za referencu.",
     with_balance: "sa stanje",
     without_balance: "pojam stanje - pojam način",
     bank_transfer: {
       title: "banka transfer",
       subtitle:
-        "ovo je pojam pojam od plaćanje pojam. nema pojam novac će biti pojam za pojam prodavac od pojam pojam; vi pojam pojam pojam vaš prodavci.",
+        "Ovo je zapis istorije plaćanja. Sistem neće prenijeti stvarni novac prodavcu; morate ručno platiti svojim dobavljačima.",
     },
     vendor_bank: "prodavac banka",
     gateway_in_debug_mode_warning:
-      "pojam pojam plaćanje pojam je pojam u pojam način, pojam će nije biti pojam za pojam pojam račun.",
+      "Pošto je pristupnik za plaćanje trenutno u modu za otklanjanje grešaka, sredstva neće biti prebačena na pravi račun.",
     payment: {
       title: "Plaćanje",
       subtitle:
-        "izaberi pojam valuta i pojam pojam iznos vi želite za transfer za pojam prodavac. ako vi pojam pojam pojam iznos, pojam pojam će biti pojam od pojam prodavac novčanik. za pojam računi sa isplata opcije, pojam pojam će biti pojam od pojam pojam račun, pojam kao pojam prodavac Stripe račun.",
+        "Odaberite valutu i unesite iznos koji želite prenijeti prodavcu. Ako unesete negativan iznos, sredstva će biti povučena iz novčanika prodavca. Za povezane račune s opcijama isplate, sredstva će biti oduzeta sa povezanog računa, kao što je Stripe račun dobavljača.",
     },
     history: {
       title: "istorija",
       subtitle:
-        "pojam od ovo plaćanje ima bilo povrat pojam pojam pojam transfer, pojam pojam stanje ima bilo pojam od pojam prodavac račun i vraćeno za vaš račun.",
+        "Dio ove uplate je vraćen povratnim transferom, što znači da je stanje skinuto sa računa dobavljača i vraćeno na vaš račun.",
     },
     refund: {
       title: "povrat",
       subtitle:
-        "pojam povrat iznos će biti pojam od pojam prodavac stanje. sve plaćanja (ili pojam iznos) u pojam prodavac račun (pojam Stripe Connect) će biti povrat pojam pojam pojam transfer.",
+        "Refundirani iznos će biti odbijen od bilansa prodavca. Sva plaćanja (ili preostali iznosi) na računu dobavljača (kao što je Stripe Connect) bit će vraćena putem povratnog transfera.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "vi može dodaj pojam bilješka pojam... ovo bilješka je nije vidljivo za pojam prodavac.",
+          "Ovdje možete dodati napomenu... Ova napomena nije vidljiva prodavcu.",
       },
       accept_refund: {
         true_description: "ja želite za otkaži ovo plaćanje.",
@@ -7414,9 +7414,9 @@ export default {
     },
     notifications: {
       reverse_fund_success: {
-        title: "pojam pojam",
+        title: "Fund Reversed",
         message:
-          "pojam prodavac pojam pojam ima bilo pojam uspješno, sa novac pojam od pojam banka za pojam novčanik i dodaj za pojam novčanik stanje.",
+          "Poništavanje sredstava dobavljača je uspješno završeno, sa novcem koji je prebačen iz banke u novčanik i dodan na stanje novčanika.",
       },
       payout_success: {
         title: "isplata",
@@ -7431,12 +7431,12 @@ export default {
    */
   quota_importer: {
     quota: "pojam",
-    max_batch_msg: "maksimum pojam od stavke vi može uvezi u pojam pojam pojam.",
-    max_daily_limit_msg: "maksimum pojam od stavke vi može uvezi u pojam pojam.",
-    extra_daily_limit_msg: "dodatno stavke pojam pojam pojam pojam ograničenje.",
+    max_batch_msg: "Maksimalan broj stavki koje možete uvesti u jednoj seriji.",
+    max_daily_limit_msg: "Maksimalan broj stavki koje možete uvesti u jednom danu.",
+    extra_daily_limit_msg: "Dodatni artikli su dozvoljeni preko dnevnog ograničenja.",
     add_items_today_msg: "stavke dodaj danas.",
     file_statistic_msg: "pojam za ovo datoteka.",
-    used_quota: "pojam pojam",
+    used_quota: "Korištena kvota",
   },
 
   /** {@see BPageShopMarketingCampaign**/
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Tematske boje",
     theme_colors_description:
-      "vi može pojam pojam primarno boja pojam od vaš prodavnica pojam. pojam predložak može pojam pojam boja za automatski pojam pojam pojam boja pojam to pojam sa vaš pojam.",
+      "Ovdje možete personalizirati primarnu paletu boja vaše trgovine. Svaki predložak može koristiti ove boje za automatsko generiranje kompletnog raspona boja koji je u skladu s vašim brendom.",
     products_view_mode: "Pregled liste za kupovinu",
     products_view_mode_desc:
       "Možete podesiti način prikaza proizvoda u vašoj radnji na osnovu veličine ekrana. Ovaj način rada će se smatrati zadanim postavkama i neće se primjenjivati ako korisnik promijeni način prikaza.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "pojam naslov",
-      subtitle: "pojam pojam od pojam naslov će pojam pojam.",
+      subtitle: "Visina naslova će se dinamički prilagođavati.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "sa pojam",
         false_description:
-          "kategorije i proizvodi imati pojam pojam pojam za prikaži pojam pojam.",
+          "Kategorije i proizvodi imaju interaktivnu animaciju koja prikazuje funkcionalnost.",
         true_title: "Statički",
         true_description: "kategorije i proizvodi imati nema pojam.",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "pojam radnje",
       hover: {
         false_description:
-          "pojam i pojam način pojam pojam dodatno radnje na proizvod pojam.",
+          "Jednostavan i minimalan način rada bez ikakvih dodatnih radnji na karticama proizvoda.",
         true_description:
-          "prikaži pojam pojam & dodaj za pojam pojam na proizvod pojam pojam.",
+          "Prikaži brzu kupovinu i dodavanje za poređenje dugmadi na kartici proizvoda koji lebde.",
         true_title: "prikaži radnja na pojam",
       },
     },
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "proizvod stranica",
       subtitle:
-        "pojam vaš proizvod stranica pojam. vi može pojam pojam pojam od cijena i pojam pojam pojam od pojam za pojam vaš pojam.",
-      buy_button_color: "pojam pojam boja",
+        "Personalizirajte svoju stranicu proizvoda ovdje. Možete podesiti prikaz cijena i izmijeniti raspored sekcija kako bi odgovarao vašim željama.",
+      buy_button_color: "Kupi boju dugmeta",
       smart_price: {
-        title: "pojam pojam cijena",
+        title: "Pametna jedinična cijena",
         true_description:
-          "pojam pojam cijena od pojam težina, pojam, i pojam varijante svojstvo. pojam. ako vi imati pojam varijanta sa 2L veličina i $5 kao cijena, pojam pojam kupac pogledaj pojam $2.5/L na pojam proizvod stranica.",
+          "Izračunavanje jedinične cijene uzimajući u obzir težinu, zapreminu i svojstvo varijanti pakovanja. Pr. Ako imate varijantu sa veličinom od 2L i cijenom od 5 USD, tada kupac vidi 2,5 USD/L na stranici proizvoda.",
       },
       reverse_currency: {
-        title: "valuta pojam pojam",
+        title: "Položaj znaka valute",
         false_title: "Normalni mod",
         true_title: "pojam način",
         false_description:
-          "pojam valuta pojam će biti pojam na pojam početak od pojam pojam. pojam: $95, €30",
+          "Znak valute će se postaviti na početak brojeva. Primjer: $95 , 30 €",
         true_description:
-          "pojam valuta pojam će biti pojam na pojam kraj od pojam pojam. pojam: 95$, 30€",
+          "Znak valute će biti postavljen na kraju brojeva. Primjer: 95$, 30€",
       },
       variants_selector: {
         title: "varijante pojam",
         subtitle:
-          "vi može izaberi pojam pojam za pojam varijante na pojam proizvod stranica.",
+          "Možete odabrati različite načine prikazivanja varijanti na stranici proizvoda.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "pojam & pojam",
       subtitle:
-        "pojam pojam prodavac pojam i pojam pojam sa pojam prilagođeno pojam, slika, ili poruka.",
+        "Personalizirajte iskustvo uključivanja i prijave dobavljača pomoću prilagođenog videa, slike ili poruke.",
     },
     inputs: {
       page_vendor_login: {
         label: "prodavac pojam stranica",
         message:
-          "odaberi pojam prilagođeno pojam stranica za prodavac pojam. pojam pojam, slike, ili tekst za pojam pojam dizajn. ovo stranica je prikazano za prodavci pojam su nije pojam u.",
+          "Odaberite prilagođenu odredišnu stranicu za prijavu dobavljača. Uključite video, slike ili tekst za jedinstven dizajn. Ova stranica se prikazuje prodavcima koji nisu prijavljeni.",
       },
       page_vendor_registered: {
         label: "prodavac pojam stranica",
         message:
-          "odaberi pojam prilagođeno stranica za pojam prodavci. ovo stranica je prikazano ako vaš tržište pojam pojam prodavci pojam korisnik.",
+          "Odaberite prilagođenu stranicu za prijavljene dobavljače. Ova stranica se prikazuje ako vaše tržište podržava više dobavljača po korisniku.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "prilagođeno varijante",
       subtitle:
-        "pojam proizvodi može imati varijante. vi može pojam pojam zadano pojam od varijante. pojam pojam je za pojam pojam stavke kao zadano i prazno pojam to Selldone će automatski pojam njih za vaš kupci pojam njihov pojam. pojam maksimum pojam je 24.",
+        "Fizički proizvodi mogu imati varijante. Možete promijeniti zadani naziv varijanti. Naš prijedlog je da ove stavke ostavite kao zadane i prazne kako bi ih selldone automatski preveo za vaše kupce na njihove jezike. Maksimalna dužina je 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7618,11 +7618,11 @@ export default {
     inputs: {
       font_family: {
         label: "font pojam",
-        message: "pojam pojam pojam pojam.",
+        message: "Unesite vrijednost porodice fontova.",
       },
       font_res: {
         label: "font pojam",
-        message: "pojam pojam font pojam.",
+        message: "Odredite izvor fonta.",
       },
     },
   },
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "pojam logotip",
       subtitle:
-        "od zadano, vaš prodavnica logotip je prikazano u pojam pojam, pojam vi može otpremi pojam prilagođeno logotip pojam. ako vaš logotip pojam nije imati pojam pojam pojam pojam, vi pojam pojam za pojam pojam pojam pojam i pojam za pojam pojam.",
+        "Logotip vaše prodavnice se podrazumevano prikazuje u zaglavlju, ali umesto toga možete da otpremite prilagođeni logotip. Ako vaš logotip nema kvadratni omjer širine i visine, možda ćete morati ručno podesiti visinu i širinu za optimalnu prezentaciju.",
     },
     header_title: {
       title: "pojam naslov",
       subtitle:
-        "vi može pojam pojam naslov prikazano u pojam pojam od vaš stranice pojam. ako vi pojam za pojam ukloni to, molimo pojam pojam 'postavi prazno pojam pojam.",
+        "Ovdje možete personalizirati naslov prikazan u zaglavlju vaših stranica. Ako ga želite potpuno ukloniti, kliknite na dugme 'Postavi prazan naslov'.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "pojam način",
       description:
-        "pojam varijante u pojam pojam opcije, pojam za pojam pojam.",
+        "Kompaktne varijante u odvojenim opcijama koje se mogu odabrati, pogodne za većinu slučajeva.",
     },
     select: {
       title: "odaberi način",
       description:
-        "pojam sve varijante u pojam pojam, pojam za pojam pojam pojam od varijante.",
+        "Prikazuje sve varijante u padajućem izborniku, idealno za veliki broj varijanti.",
     },
   },
 
@@ -7682,15 +7682,15 @@ export default {
     variants: {
       title: "Varijante",
       subtitle:
-        "vi može pojam pojam varijanta pojam, ikona, i narudžba pojam. ako vi imati pojam pojam od proizvodi sa pojam varijante to pojam pojam zadano 6 varijante, vi može postavi prilagođeno varijante za pojam proizvod pojam.",
+        "Ovdje možete prilagoditi naziv varijante, ikonu i redoslijed. Ako imate niz proizvoda s jedinstvenim varijantama koje se ne uklapaju u zadanih 6 varijanti, ovdje možete postaviti prilagođene varijante za svaki proizvod.",
     },
 
     inputs: {
       title: {
-        placeholder: "pojam pojam naslov za svojstvo postavi...",
+        placeholder: "Unesite naslov za skup svojstava...",
       },
       description: {
-        placeholder: "pojam pojam pojam opis... (opcionalno)",
+        placeholder: "Unesite kratak opis... (opcionalno)",
       },
       custom_variants: {
         true_title: "prilagođeno varijante",
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "postavi pojam postavi... (opcionalno)",
         messages:
-          "vi može pojam pojam za pojam pojam i pojam narudžba.",
+          "Možete dati prijedloge za vrijednosti i prilagoditi redoslijed.",
       },
     },
   },
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Upravljanje kupcima",
     subtitle:
-      "kupci može biti dodaj za vaš prodavnica u pojam pojam; pojam, pojam pojam uvezi, pojam pojam POS, ili pojam vaš online prodavnica. pojam pojam korisnik pojam pojam vaš prodavnica, pojam će automatski biti pojam kao pojam kupac.",
+      "Kupci se mogu dodati u vašu trgovinu na nekoliko načina; ručno, masovni uvoz u Excel, putem POS-a ili putem vaše online trgovine. Svaki put kada se korisnik prijavi u vašu trgovinu, automatski će biti registriran kao kupac.",
     add_customer_action: "dodaj novo kupac",
 
     all_customers: "Preuzmite sve kupce",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "uredi kupac",
     add_title: "dodaj novo kupac",
     subtitle:
-      "za dodaj pojam kupac za vaš prodavnica, molimo pojam pojam pojam e-pošta adresa ili pojam telefon pojam.",
+      "Da dodate kupca u svoju trgovinu, navedite ili adresu e-pošte ili broj telefona.",
     more: {
       title: "Dodajte više detalja",
       subtitle: "postavi valuta, kupac pojam, pojam, adresa i više.",
     },
     detail: {
       subtitle:
-        "pojam pojam pojam od pojam informacije pojam vaš kupac. molimo pojam vaš kupac pojam.",
+        "Vodite evidenciju ličnih podataka o vašem klijentu. Molimo vas da poštujete privatnost vaših kupaca.",
     },
     preferences: {
-      subtitle: "postavi zadano korisnik valuta, kupac pojam, i pojam pojam.",
+      subtitle: "Ovdje postavite zadanu korisničku valutu, klub kupaca i segmente.",
     },
     address: {
       subtitle:
-        "ovo adresa može biti pojam u pojam POS. pojam korisnik može nije pogledaj ovo informacije.",
+        "Ova adresa se može koristiti u POS-u. Korisnik ne može vidjeti ove informacije.",
     },
   },
 
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Kliknite na sledeće dugme ako želite da pošaljete ovaj paket putem <b>dostavne službe</b>.",
     courier_action: "isporuka pojam",
-    courier_action_subtitle: "moj kurir će pojam pojam pojam pojam.",
+    courier_action_subtitle: "Moj kurir će preuzeti paket.",
 
     pickup_ready_action: "preuzimanje pojam",
     pickup_ready_action_subtitle: "pojam narudžba je pojam za kupac preuzimanje.",
 
-    service_action: "pojam pojam",
+    service_action: "Potvrda izvršenja",
 
     checklist: [
       "Provjerite ličnu kartu kurira.",
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "potvrdi isporuka pojam",
       true_description:
-        "ja potvrdi to pojam narudžba ima bilo pojam za pojam kupac.",
+        "Potvrđujem da je narudžba isporučena kupcu.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "pojam kontrolna ploča",
     subtitle:
-      "pojam vaš pojam, pojam provizija naknada će biti pojam za pojam banka račun pojam od vi. molimo pojam vaš banka informacije pojam.",
+      "Na vaš zahtjev, provizija će biti uplaćena na bankovni račun koji ste naveli. Ovdje navedite svoje bankovne podatke.",
     no_bank_info: "nema banka informacije!",
     actions: {
       edit_my_bank_info: "uredi moj banka informacije",
@@ -8013,41 +8013,41 @@ export default {
       info: {
         title: "Banka",
         subtitle:
-          "molimo unos vaš banka informacije pojam. mi će pojam ovo informacije za transfer pojam. pojam to pojam banka račun je u vaš pojam ili pojam vaš poslovanje pojam, kao pojam.",
+          "Molimo vas da ovdje unesete svoje bankovne podatke. Ove informacije ćemo koristiti za prijenos sredstava. Uvjerite se da je bankovni račun na vaše ime ili pod imenom vašeg preduzeća, prema potrebi.",
       },
       inputs: {
         name: {
           label: "banka pojam",
-          message: "pojam pojam pojam od pojam banka pojam pojam račun je pojam.",
+          message: "Puni naziv banke u kojoj se vodi račun.",
         },
         holder_name: {
-          label: "račun pojam pojam",
+          label: "Ime vlasnika računa",
           message:
-            "pojam pojam pojam od pojam pojam ili pojam to pojam pojam račun.",
+            "Puno ime osobe ili entiteta koji drži račun.",
         },
         account_number: {
           label: "Broj računa",
           message:
-            "pojam pojam pojam pojam sa pojam pojam banka račun.",
+            "Jedinstveni broj povezan sa određenim bankovnim računom.",
         },
         routing_number: {
-          label: "pojam pojam (USA) ili pojam kod (UK)",
+          label: "Broj usmjeravanja (SAD) ili kod sortiranja (UK)",
           message:
-            "pojam pojam to pojam pojam pojam banka pojam (pojam pojam su pojam u pojam države).",
+            "Broj koji identifikuje konkretnu filijalu banke (različiti termini se koriste u različitim zemljama).",
         },
         swift: {
           label: "SWIFT/BIC kod",
           message:
-            "pojam pojam kod pojam za pojam banka pojam, pojam za pojam transfer.",
+            "Međunarodni kod koji se koristi za identifikaciju banaka na globalnom nivou, posebno za međunarodne transfere.",
         },
         iban: {
           label: "IBAN (pojam banka račun pojam)",
           message:
-            "pojam pojam u pojam, pojam IBAN je pojam pojam pojam pojam za pojam banka računi pojam pojam pojam.",
+            "Koristi se prvenstveno u Evropi, IBAN je međunarodno dogovoreni sistem za identifikaciju bankovnih računa preko državnih granica.",
         },
         contact: {
           label: "Kontakt informacije",
-          message: "telefon pojam ili e-pošta adresa pojam sa pojam račun.",
+          message: "Broj telefona ili e-mail adresa povezana sa nalogom.",
         },
         note: {
           label: "Bilješka",
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "od sve usluga naknade, pojam i pojam plaćanja pojam od vaš pojam.",
+      "Od svih naknada za usluge, pretplate i drugih plaćanja vaših preporuka.",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "pojam pojam",
+      title: "Tier Bronze",
       description:
-        "vi su u pojam pojam pojam. vi imati pojam 2% provizija od vaš pojam.",
+        "Vi ste u bronzanom rangu. Zaradili ste 2% provizije od vaših preporuka.",
     },
     Silver: {
-      title: "pojam pojam",
+      title: "Tier Silver",
       description:
-        "vi su u pojam pojam pojam. vi imati pojam 4% provizija od vaš pojam.",
+        "Vi ste u srebrnom rangu. Zaradili ste 4% provizije od vaših preporuka.",
     },
     Gold: {
-      title: "pojam pojam",
+      title: "Tier Gold",
       description:
-        "vi su u pojam pojam pojam. vi imati pojam 6% provizija od vaš pojam.",
+        "Vi ste u zlatnom rangu. Zaradili ste 6% provizije od vaših preporuka.",
     },
     Platinum: {
-      title: "pojam pojam",
+      title: "Tier Platinum",
       description:
-        "vi su u pojam pojam pojam. vi imati pojam 8% provizija od vaš pojam.",
+        "Nalazite se u Platinum nivou. Zaradili ste 8% provizije od vaših preporuka.",
     },
     Diamond: {
-      title: "pojam pojam",
+      title: "Tier Diamond",
       description:
-        "vi su u pojam pojam pojam. vi imati pojam 10% provizija od vaš pojam.",
+        "Vi ste u Dijamantskom nivou. Zaradili ste 10% provizije od vaših preporuka.",
     },
   },
 
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Uplate uplate",
     subtitle:
-      "to pojam lista od pojam transakcije. pojam vi transfer pojam od pojam novčanik za vaš banka račun ili vaš Selldone novčanik, to će biti lista pojam.",
+      "To je lista transakcija povlačenja. Kada prenesete sredstva iz novčanika preporuke na vaš bankovni račun ili vaš Selldone novčanik, bit će navedena ovdje.",
 
     officer: "Policajac",
     amount: "Iznos transakcije",
@@ -8520,7 +8520,7 @@ export default {
     manage: {
       title: "upravljaj SMS",
       subtitle:
-        "vi može pogledaj pojam pojam od pojam tekst poruka poslano od vaš prodavnica pojam. pojam za pojam pojam u pojam pojam pojam pojam u pojam pojam usluga, to je nije pojam za pojam pojam tekst poruka na pojam pojam.",
+        "Ovdje možete vidjeti sadržaj tekstualnih poruka koje šalje vaša trgovina. Zbog ograničenja u registraciji obrazaca validacije u servisu za razmjenu poruka, trenutno nije moguće personalizirati tekstualne poruke.",
     },
 
     template: {
@@ -8528,26 +8528,26 @@ export default {
       valid_message: "vi može kreiraj prilagođeno SMS poruka.",
       provider_not_enable_message: "pojam SMS pružalac je nije omogućeno!",
       need_custom_provider_message:
-        "pojam SMS poruka samo pojam ako vi postavi pojam prilagođeno pružalac.",
+        "Prilagođene SMS poruke rade samo ako postavite prilagođenog provajdera.",
       add_new: "dodaj novo",
       disable_reason: {
         set_provider: "postavi vaš pružalac prvo!",
         provider_is_disabled: "pružalac je pojam!",
-        otp: "OTP - pojam pojam!",
+        otp: "OTP - Ništa prilagodljivo!",
         select_another_provider: "odaberi pojam pružalac.",
       },
       enable_only_filter: "prikaži samo omogućeno",
 
       text_template_not_supported_msg:
-        "vaš pružalac pojam nije pojam pojam tekst poruka.",
+        "Vaš provajder ne podržava obične tekstualne poruke.",
       structure_template_not_supported_msg:
-        "vaš pružalac pojam nije pojam pojam poruka.",
+        "Vaš provajder ne podržava strukturalne poruke.",
 
       structured_data: "pojam podaci",
 
       menu: {
         reset_error: "pojam greška",
-        send_test: "pojam pojam poruka",
+        send_test: "Pošaljite probnu poruku",
       },
     },
     template_edit: {
@@ -8556,7 +8556,7 @@ export default {
       config: {
         title: "poruka konfiguracija",
         subtitle:
-          "vi može kreiraj pojam predložak za pojam SMS poruka na vaš SMS pružalac pojam, pojam pojam to kod i podaci pojam pojam. pojam pojam ovo informacije za vaš pružalac, pojam pojam pojam SMS poruka će biti pojam.",
+          "Možete kreirati predložak za SMS poruku na web stranici vašeg SMS provajdera, a zatim navesti njen kod i strukturu podataka ovdje. Ove informacije ćemo proslijediti vašem provajderu, gdje će se generirati stvarna SMS poruka.",
         code: "Kod",
         language_msg: "pojam to prazno za postavi to kao zadano.",
         enable_msg: "ovo predložak će biti pojam za kreiraj poruka.",
@@ -8564,14 +8564,14 @@ export default {
       text: {
         title: "pojam tekst",
         subtitle:
-          "pojam pojam pojam SMS poruka pojam. pojam pojam će biti pojam sa njihov pojam pojam prije biti poslano za pojam korisnik.",
+          "Ovdje unesite personaliziranu SMS poruku. Dinamičke vrijednosti će biti zamijenjene njihovim stvarnim vrijednostima prije nego što se pošalju korisniku.",
         message: "Poruka",
         reset_to_default: "pojam za zadano",
 
         auto_fill: {
-          title: "automatski pojam pojam",
+          title: "Parametri automatskog punjenja",
           subtitle:
-            "vi može pojam pojam od pojam pojam u pojam tekst i Selldone će pojam njih sa pojam pojam pojam.",
+            "Možete koristiti svaki od ovih parametara u tekstu i Selldone će ih zamijeniti odgovarajućom vrijednošću.",
         },
 
         sample: {
@@ -8581,13 +8581,13 @@ export default {
       template: {
         title: "pojam predložak",
         subtitle:
-          "vi može postavi pojam predložak ključ i pojam pojam. pojam predložak kod pojam biti pojam pojam vi postavi u vaš SMS usluga pružalac, i pojam <code>ključ</code> je pojam vaš pružalac želite za pojam pojam kod pojam. ako pojam <code>pojam</code> polje od predložak je prazno, pojam <code>{code}</code> će biti pojam kao pojam predložak kod.",
+          "Ovdje možete postaviti ključ i vrijednost šablona. Šifra šablona treba da bude tačno ono što ste postavili u svom provajderu SMS usluga, a <code>key</code> je ono kroz šta vaš provajder želi da pošalje kôd. Ako je polje <code>value</code> predloška prazno, tada će se <code>{code}</code> smatrati kodom predloška.",
         add_new_parameter: "dodaj novo pojam",
 
         auto_fill: {
-          title: "automatski pojam pojam",
+          title: "Parametri automatskog punjenja",
           subtitle:
-            "vi može postavi pojam od pojam pojam kao pojam pojam, i Selldone će pojam njih sa pojam pojam pojam. to pojam za pojam pojam zadano pojam kao predlošci u vaš SMS pružalac za pojam. u ovo pojam, pojam će biti nema pojam za pojam pojam pojam pojam.",
+            "Svaki od ovih parametara možete postaviti kao vrijednost, a Selldone će ih zamijeniti odgovarajućom vrijednošću. Bolje je definirati zadane vrijednosti kao šablone u svom SMS provajderu radi jednostavnosti. U ovom slučaju, ovdje neće biti potrebe definirati vrijednosti parametara.",
         },
         request: {
           title: "uzorak pojam",
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "pojam tekst",
-      desc: "poruka će biti kreirano od pojam tekst sa automatski pojam pojam i pojam.",
+      desc: "Poruka će biti kreirana od teksta sa parametrima automatske zamjene i poslana.",
     },
     template: {
       title: "pojam predložak",
-      desc: "pojam pojam će biti kreirano od pojam i pojam za pojam pružalac.",
+      desc: "Objekt će se kreirati iz parametara i poslati provajderu.",
     },
   },
 
@@ -8617,33 +8617,33 @@ export default {
     title: "prilagođeno SMS pružalac",
     reset_error: "pojam greška",
     subtitle:
-      "postavi pojam pojam prilagođeno SMS usluga pružalac i pojam vaš pojam SMS i poslovanje pojam. pojam zadano pružalac pojam pojam pojam SMS i pojam poruka u pojam pojam države.",
+      "Postavite prilagođenog provajdera SMS usluga i prilagodite svoj SMS za autentifikaciju i naziv preduzeća. Podrazumevani provajder samo šalje SMS za autentifikaciju i poruke sa informacijama u nekim zemljama na beloj listi.",
     plain_text: "pojam tekst",
     structural_template: "pojam predložak",
     errors_limit_msg:
-      "ako vaš usluga pojam 100 greška, to će biti onemogućeno automatski! vi može pojam greška za pojam to.",
+      "Ako vaša usluga premaši 100 grešaka, automatski će biti onemogućena! Možete resetirati greške da biste ga ponovo omogućili.",
 
     enable_input: {
       false_description:
-        "OTP poruka će biti pojam pojam Selldone u odaberi države, pojam pojam narudžba pojam SMS će biti poslano kao pojam.",
+        "OTP poruke će se slati putem Selldone u odabranim zemljama, dok će se slati i drugi SMS s obavijesti o narudžbi.",
       true_description:
-        "SMS poruka će biti pojam pojam vaš usluga pružalac.",
+        "SMS poruke će biti isporučene putem vašeg provajdera usluga.",
     },
     test_input: {
       true_title: "pojam konfiguracija",
       true_description:
-        "mi će pojam pojam pojam poruka za vaš telefon pojam 📞 <b>{phone}</b>, to može naplata vi, pojam vi može zaradi pojam pojam pojam pojam.",
+        "Poslat ćemo probnu poruku na vaš broj telefona 📞 <b>{phone}</b>, može vam naplatiti, ali možete se uvjeriti da sve radi dobro.",
     },
     sync_action: {
       title: "Akcije",
       subtitle:
-        "pojam SMS usluge pojam dodatno usluge pojam pojam, pojam, i pojam pojam. vi može pojam vaš pojam ili dodatno informacije za pojam njihov pojam više pojam.",
-      action: "pojam pojam",
+        "Neke SMS usluge pružaju dodatne usluge kao što su kampanje, marketing i druge funkcije. Možete sinhronizirati svoje kontakte ili dodatne informacije kako biste brže koristili njihove funkcije.",
+      action: "Sinhronizujte kontakte",
     },
     tokens: {
       title: "pojam",
       subtitle:
-        "postavi pojam pojam pojam za link vaš SMS usluga pružalac sa vaš prodavnica.",
+        "Postavite sljedeće parametre da povežete svog provajdera SMS usluga sa vašom trgovinom.",
     },
   },
   sms_messages_options: {
@@ -8679,9 +8679,9 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "prilagođeno pojam pojam",
+    title: "Prilagođeni mail server",
     subtitle:
-      "Connect vaš pojam usluga pružalac za pojam e-pošta pojam vaš prilagođeno domen.",
+      "Povežite svog provajdera e-mail usluga da šaljete e-poštu putem svoje prilagođene domene.",
     provider: "pružalac",
     enable_input: {
       false_description: "vaš e-pošta će biti poslano pojam vaš pojam domen.",
@@ -8690,12 +8690,12 @@ export default {
     config: {
       title: "konfiguracija",
       subtitle:
-        "za pojam vaš prilagođeno pojam usluga za vaš prodavnica, unos vaš usluga API ključ pojam sa pojam pojam postavke.",
+        "Da biste konfigurirali svoju prilagođenu uslugu pošte za svoju trgovinu, unesite svoj API ključ usluge zajedno sa ostalim potrebnim postavkama.",
     },
     sender: {
       title: "Od",
       subtitle:
-        "vi može pojam pojam zadano pojam pojam i e-pošta adresa, pojam će biti pojam za pojam e-pošta za vaš kupci.",
+        "Možete konfigurisati podrazumevano ime pošiljaoca i adresu e-pošte, koji će se koristiti za slanje e-pošte vašim klijentima.",
     },
 
     inputs: {
@@ -8708,18 +8708,18 @@ export default {
     },
 
     actions: {
-      send_test_email: "pojam pojam pojam e-pošta",
+      send_test_email: "Pošaljite probni email",
     },
 
     messages: {
       provider_error_limit:
-        "ako vaš usluga pojam 100 greška, to će biti onemogućeno automatski! vi može pojam greška za pojam to.",
+        "Ako vaša usluga premaši 100 grešaka, automatski će biti onemogućena! Možete resetirati greške da biste ga ponovo omogućili.",
 
       encryption_ports_guide:
-        "e-pošta pružaoci pojam ponuda SSL, TLS, ili pojam pojam pojam na dostupno pojam. ako pojam pojam u pojam greška, pojam pojam pojam način pojam pojam pojam pojam. pojam <b>TLS</b> pojam pojam: <b>587</b> i <b>SSL</b> pojam pojam: <b>465</b>.",
+        "Provajderi e-pošte mogu ponuditi SSL, TLS ili nešifrirane veze na osnovu dostupnih portova. Ako povezivanje rezultira greškom, promjena načina šifriranja može riješiti problem. Standardni <b>TLS</b> koriste port : <b>587</b> i <b>SSL</b> koriste port : <b>465</b>.",
 
       enable_receive_test:
-        "nakon sačuvaj pojam, vi će pojam pojam pojam pojam na <b>{email}</b>. sačuvaj pojam prije pojam pojam pojam e-pošta sa pojam novo konfiguracija.",
+        "Nakon što sačuvate promjene, primit ćete probnu poštu <b>{email}</b>. Sačuvajte promjene prije slanja probne e-pošte s novom konfiguracijom.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram pojam kanal",
     subtitle:
-      "kreiraj pojam namjenski kategorija za vaš proizvodi, pojam sa slike i pojam, i pojam to pojam vaš pojam pojam. to pojam za Instagram i TikTok, pojam sa pojam pojam, pojam vi za pojam pojam vaš proizvodi.",
+      "Kreirajte namjensku kategoriju za svoje proizvode, zajedno sa slikama i video zapisima, i podijelite je na svojim društvenim mrežama. Slično je Instagramu i TikToku, ali sa potpunom kontrolom, što vam omogućava da direktno prodajete svoje proizvode.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8840,7 +8840,7 @@ export default {
     avocado_link_message:
       "Za plaćanje narudžbe dovoljno je dati gornji link kupcu. Kupac će moći pratiti narudžbu putem ovog linka.",
     edit_order: "Uredi narudžbu",
-    progress: "pojam pojam",
+    progress: "Progress Rate",
     buyer_link: "pojam link",
     buyer_link_message:
       "Dostavite ovu vezu svom kupcu. Kupac će moći platiti i pratiti svoju narudžbu putem ovog linka. Ovaj link je kodiran, ako se nekome da link, on će moći platiti i vidjeti informacije. Ovaj link će biti aktivan 60 dana. Kliknite na link ispod da kopirate.",
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Na konačnu cijenu treba dodati porez.",
     invoice: {
       subtitle:
-        "od pojam ovo obrazac, vi može kreiraj pojam plaćanje link za pojam pojam iznos. to pojam zaradi pojam pojam faktura i potvrdi plaćanje pojam pojam i pojam.",
+        "Koristeći ovaj obrazac, možete kreirati vezu za plaćanje za određeni iznos. Takođe čini praćenje fakture i potvrđivanje izvršenja plaćanja jednostavnim i lakim.",
     },
   },
 
@@ -8947,11 +8947,11 @@ export default {
       delete_success: "Fajl je uspješno izbrisan.",
     },
     drag_sort_msg: "vi može prevlačenje i pojam datoteke.",
-    paid_mode_msg: "korisnici može preuzmi to samo nakon pojam pojam proizvod.",
+    paid_mode_msg: "Korisnici ga mogu preuzeti tek nakon kupovine proizvoda.",
     free_mode_msg:
-      "korisnici može preuzmi to za pojam. uzorak datoteke pojam biti pojam 50 MB.",
+      "Korisnici ga mogu besplatno preuzeti. Datoteke uzoraka moraju biti manje od 50 MB.",
     has_gust_shopping_msg:
-      "pojam i pojam korisnici može preuzmi datoteke pojam pojam pojam su omogućeno u pojam prodavnica postavke > pojam.",
+      "Registrirani i gostujući korisnici mogu preuzimati datoteke jer su kupovina gostiju omogućena u postavkama trgovine > tok.",
     only_registered_shopping_msg:
       "samo pojam korisnici može preuzmi uzorak datoteke.",
     file_count_limit: "datoteke pojam ograničenje",
@@ -8963,48 +8963,48 @@ export default {
   product_location_restrictions: {
     title: "dostupno lokacije",
     subtitle:
-      "ako vaš proizvod ili usluga je samo dostupno u pojam pojam, pojam od država i pojam ili pojam kod, vi može pojam pojam lokacije pojam. pojam lokacija pojam su pojam na pojam proizvod pojam. na pojam proizvod stranica, kupci će biti pojam za odaberi njihov lokacija. ako pojam proizvod je dostupno u njihov pojam pojam, pojam će biti pojam za pojam sa pojam pojam.",
+      "Ako je vaš proizvod ili usluga dostupna samo u određenim regijama, definiranim prema zemlji i poštanskim ili pin kodovima, ovdje možete odrediti te lokacije. Ova ograničenja lokacije se primjenjuju na razini proizvoda. Na stranici proizvoda od kupaca će se tražiti da odaberu svoju lokaciju. Ako je proizvod dostupan u odabranom području, moći će nastaviti s kupovinom.",
 
     add_location_action: "dodaj država",
     no_restriction: "nema pojam",
     import: {
       title: "pojam profil",
-      subtitle: "odaberi pojam pojam lokacije profil.",
+      subtitle: "Odaberite profil sačuvanih lokacija.",
     },
     export: {
       title: "sačuvaj profil",
-      subtitle: "prodavnica lokacije za pojam pojam.",
+      subtitle: "Skladišne ​​lokacije za buduću upotrebu.",
     },
     has_restriction_input: {
       title: "ima lokacija pojam",
       description:
-        "kupci može samo pojam ovo proizvod pojam pojam pojam država i pojam kod, pojam za pojam pojam lokacija pojam.",
+        "Kupci mogu kupiti ovaj proizvod samo unutar navedene zemlje i poštanskog broja, zbog utvrđenog ograničenja lokacije.",
     },
     zip_pin_code: "pojam / pojam kod",
     no_country_selected_error:
-      "molimo pojam na pojam pojam država pojam sa pojam lista od pojam/pojam kod. pojam to, ovo proizvod će nije biti dostupno.",
-    tips: "pojam na pojam <b>+ dodaj država</b> pojam za početak pojam pojam novo lokacija postavi. pojam pojam pojam, vi može sačuvaj to od pojam na pojam pojam <b>⋮ pojam</b> i odaberi <b>sačuvaj profil</b>.",
+      "Molimo uključite barem jednu zemlju zajedno sa listom poštanskih/pin kodova. Bez toga ovaj proizvod neće biti dostupan.",
+    tips: "Kliknite na dugme <b>+ Dodaj zemlju</b> da započnete kreiranje novog skupa lokacija. Kada završite, možete ga sačuvati klikom na gornji desni <b>⋮ Meni</b> i odabirom <b>Sačuvaj profil</b>.",
     need_save_message:
-      "pojam lokacija pojam postavke za pojam proizvod imati bilo pojam. za pojam pojam pojam, molimo pojam na pojam 'pojam pojam pojam.",
+      "Postavke ograničenja lokacije za proizvod su promijenjene. Da biste sačuvali ove promjene, kliknite na dugme 'Sačuvaj' ispod.",
 
     add_dialog: {
       title: "dodaj država",
       message:
-        "izaberi pojam država i pojam 'pojam. ovo će pojam pojam država za pojam tabela, pojam vi za pojam pojam, pojam kod, pojam pojam, ili pojam pojam za to.",
+        "Odaberite državu i kliknite na 'Dodaj'. Ovo će dodati zemlju u tabelu, omogućavajući vam da joj dodelite poštanske brojeve, PIN kodove, imena gradova ili regiona.",
     },
     save_profile_dialog: {
       title: "dodaj lokacije profil",
       message:
-        "molimo unos pojam pojam za sačuvaj ovo postavi od lokacije. ovo pojam lokacija postavi može biti pojam za pojam proizvodi, pojam za pojam lokacija pojam sa pojam pojam pojam pojam. ako pojam profil sa pojam pojam pojam pojam pojam, to će biti ažurirano sa pojam novo pojam.",
+        "Unesite naziv da sačuvate ovaj skup lokacija. Ovaj skup sačuvanih lokacija može se primijeniti na druge proizvode, omogućavajući brzo učitavanje lokacije samo jednim klikom. Ako profil sa navedenim imenom već postoji, bit će ažuriran ovim novim vrijednostima.",
       title_input: {
         title: "profil naslov",
-        placeholder: "pojam kategorija pojam, ili prodavnica pojam,...",
+        placeholder: "Naziv kategorije, ili naziv prodavnice,...",
       },
     },
     load_profile_dialog: {
       title: "pojam lokacije profil",
       message:
-        "vi može pojam lokacije od odaberi pojam pojam pojam lokacija postavi pojam.",
+        "Lokacije možete učitati odabirom prethodno spremljene lokacije postavljene ovdje.",
 
       select_input: {
         title: "lokacija profil",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Ne propustite svoje narudžbe!",
     msg: "Upravljajte svojim poslovanjem bilo gdje i bilo kada.",
-    scan_qr_code: "pojam pojam sa vaš telefon!",
+    scan_qr_code: "Skeniraj me svojim telefonom!",
 
     notification: {
       title: "Obavijest",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "pojam narudžba izvještaj",
-      desc: "pojam pojam pojam e-pošta sa pojam detalji od narudžbe za to pojam.",
+      desc: "Svakodnevno primajte e-poštu sa detaljima narudžbi za taj dan.",
     },
   },
 
@@ -9133,11 +9133,11 @@ export default {
     sample: {
       title: "uzorak prodavnica",
       subtitle:
-        "pojam, vi može pojam pojam pojam od uzorak prodavnica. vi su pojam pojam za pojam pojam informacije dostupno u pojam prodavnica. pojam, molimo pojam od pojam u ili pojam narudžbe pojam pojam pojam informacije, kao ovo podaci će biti pojam za pojam javno. ako vi pojam pojam vaš informacije pojam, pojam pojam pojam prodavnica i pojam u pojam sa pojam za pojam pojam.",
+        "Ovdje možete otkriti izbor primjeraka trgovina. Dopušteno vam je da pregledate informacije dostupne u ovim trgovinama. Međutim, molimo vas da se suzdržite od prijavljivanja ili naručivanja koristeći stvarne lične podatke, jer će ti podaci biti dostupni javnosti. Ako slučajno unesete svoje podatke ovdje, ljubazno izađite iz trgovine i kontaktirajte nas za dalju pomoć.",
     },
 
     add_new_store: "dodaj novo prodavnica",
-    i_have_a_deal: "ja imati pojam pojam",
+    i_have_a_deal: "Imam dogovor",
     access: {
       title: "pristup pojam",
     },
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategorije blogova",
     subtitle:
-      "vi može kreiraj pojam ograničenje pojam od kategorije za vaš pojam pojam za upravljaj njih više pojam. pojam pojam kategorija ograničenje pojam pojam pojam na vaš pojam. pojam, pojam pojam pojam novo pojam pojam pojam ograničenje pojam od kategorije, pojam pojam pojam 100, za pojam upravljanje i pojam pojam pojam pojam.",
+      "Možete kreirati ograničen broj kategorija za svoje postove na blogu kako biste ih efikasnije upravljali. Ograničenje kategorije promovira bolju organizaciju na vašoj web stranici. Značajno je da čak i vrhunske novinske agencije održavaju ograničen broj kategorija, često manje od 100, kako bi pojednostavile upravljanje i zadržale širi fokus.",
 
     add_action: "Dodaj novu kategoriju",
     add_dialog: {
@@ -9182,9 +9182,9 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "pojam pojam pojam",
+    title: "Raspored objavljivanja sadržaja",
     subtitle:
-      "pojam je pojam lista od pojam pojam postavi za pojam pojam. vi imati pojam pojam za pojam pojam pojam i pojam proizvod opis za biti pojam na pojam vrijeme.",
+      "Ovdje je lista zakazanih članaka za buduće objavljivanje. Imate mogućnost zakazati objavljivanje postova na blogu, pa čak i opisa proizvoda u određeno vrijeme.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9214,7 +9214,7 @@ export default {
 
   /** {@see BPageShopApplicationsMetaverse} **/
   metaverse: {
-    title: "pojam pojam",
+    title: "Metaverse Bridge",
     subtitle:
       "Selldone pruža %100 API-based usluga u komercijalnom prostoru. Programeri igara, blockchaina i metaverse mogu koristiti ove moćne API-je za povezivanje poduzeća, kupaca i usluga u svijetu rada, života i trgovine.",
     message: "Rani pristup za programere igara",
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Pomoćnik za narudžbe",
     subtitle:
-      "izvezi i preuzmi pojam za pojam narudžba pojam - pojam za pojam pojam 100 narudžbe pojam.",
+      "Izvoz i preuzimanje naljepnica za masovnu obradu narudžbi - idealno za rukovanje preko 100 narudžbi dnevno.",
 
     timespan: {
       title: "Vremenski period",
@@ -9266,7 +9266,7 @@ export default {
       title: "Metode prijave",
       subtitle: "Prilagodite način na koji se korisnici prijavljuju u vašu trgovinu.",
 
-      tips: "<b>pojam.</b> pojam pojam korisnik pojam sa vaš prodavnica, pojam pojam Selldone korisnik je kreirano, ako pojam pojam pojam pojam. ovo korisnik će imati pristup za njihov adresa pojam pojam sve prodavnica i može prikaži njihov narudžba pojam, pojam ako pojam prodavnica ima pojam. mi pojam nije pojam ovo informacije za pojam pojam pojam pojam to za pojam pojam na pojam pojam. za pojam pojam, pojam pojam pojam e-pošta za pojam korisnik pojam njih od njihov pojam.",
+      tips: "<b>Važno.</b> Kada se korisnik registruje u vašoj prodavnici, kreira se odgovarajući Selldone korisnik, ako već ne postoji. Ovaj korisnik će imati pristup svom adresaru u svim trgovinama i može vidjeti historiju svojih narudžbi, čak i ako je trgovina zatvorena. Ove informacije ne koristimo u marketinške svrhe, ali ih zahtijevamo kako bismo spriječili prevaru na obje strane. Kako bismo održali transparentnost, poslat ćemo e-mail korisniku u kojem ga obavještavamo o njihovoj registraciji.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "pojam obrazac",
       subtitle:
-        "pojam pojam pojam obrazac polja za pojam pojam informacije vi pojam od vaš kupci.",
+        "Prilagodite polja obrasca za naplatu kako biste prikupili informacije koje su vam potrebne od vaših kupaca.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "moj prodavci",
     message:
-      "ovo je pojam lista od vaš prodavac računi. sve prodavac računi pojam sa prodavnica pojam pojam Selldone pojam će biti prikazano pojam, pojam vi za upravljaj njih sa pojam.",
+      "Ovo je lista vaših računa dobavljača. Ovdje će biti prikazani svi računi dobavljača povezani s trgovinama koje koriste Selldone platformu, što vam omogućava da njima upravljate s lakoćom.",
   },
 
   vendor_page: {},
@@ -9485,7 +9485,7 @@ export default {
       name: "pojam",
       title: "pojam",
       description:
-        "ovo proizvod je nije lista u pojam prodavnica, pojam pojam od pojam link.",
+        "Ovaj proizvod nije naveden u trgovini, ali je dostupan putem direktnog linka.",
     },
   },
 
@@ -9493,18 +9493,18 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "pojam pojam pojam",
+    title: "Pošaljite direktan zahtjev",
     message:
-      "pojam vaš pojam 3 poslovanje pojam za pojam i pojam na Selldone. ovo informacije će biti pojam pojam sa pojam i pojam i će biti pojam pojam. vi može pojam ažuriraj vaš pojam pojam vrijeme nakon pojam.",
-    expand_action: "pisanje pojam pojam...",
+      "Identifikujte svoje 3 najveće poslovne potrebe da biste napredovali i profitirali na Selldoneu. Ove informacije će se dijeliti direktno sa osnivačima i direktorima i pažljivo će se razmotriti. Također možete ažurirati svoje potrebe s vremenom nakon podnošenja.",
+    expand_action: "Napišite zahtjev...",
     input_label: "vaš pojam",
     to: {
       ceo: "pojam za CEO",
       team: "pojam za tim",
     },
     placeholder: {
-      ceo: "pojam nema pojam za biti pojam, ja pojam za pojam vaš pojam, pojam pojam.\npojam.pojam. ja pojam za imati...",
-      team: "molimo pojam za biti pojam za njih.\npojam.pojam. ja pojam za imati...",
+      ceo: "Apsolutno nema potrebe da budete ljubazni, volim da čujem vaše direktno, tačno pitanje.\nnpr. moram da imam...",
+      team: "Molimo pokušajte da budete ljubazni prema njima.\nnpr. moram da imam...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "pojam uvezi proizvodi",
     message:
-      "mi su u pojam pojam od uvezi proizvodi i slike, pojam pojam pojam pojam vrijeme za pojam.",
+      "U procesu smo uvoza proizvoda i slika, što može potrajati neko vrijeme.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "pojam informacije prikazano pojam ima bilo pojam od pojam kupac, u pojam sa pojam proizvod unos obrazac pojam.",
+      "Ovdje prikazane informacije je dostavio kupac, u skladu sa strukturom obrasca za unos proizvoda.",
   },
 
   /**
@@ -9545,12 +9545,12 @@ export default {
     test: {
       title: "prodavnica",
       subtitle: "vanjsko usluga izvještaj",
-      action: "pojam pojam",
+      action: "Testirajte vezu",
       last_update: "zadnje ažurirano od",
     },
     service_status: {
       title: "usluga status",
-      syncing_message: "na pojam pojam...",
+      syncing_message: "U procesu sinhronizacije...",
       action: "pojam sve",
       connect_status: "Status Connecta",
       service_status: "usluga status",
@@ -9558,19 +9558,19 @@ export default {
       auto_confirm_disable_msg:
         "automatsko pojam od narudžbe je nije omogućeno.",
       shipping_enable_msg:
-        "pojam dostava pojam će biti pojam pojam na pojam informacije pojam na pojam.",
+        "Trošak dostave će se izračunati na osnovu informacija datih na blagajni.",
     },
     detail: {
       title: "Connect pojam",
       auto_confirm_order: "automatski potvrdi narudžbe",
       test_mode: "pojam način",
       status: {
-        subtitle: "pojam informacije pojam pojam status.",
+        subtitle: "Sveukupne informacije o statusu sinhronizacije.",
       },
       sync: {
-        title: "pojam pojam",
+        title: "Detalji sinhronizacije",
         subtitle:
-          "interno pojam detalji. ovo informacije je pojam nakon pojam pojam pojam pojam uspješno kraj.",
+          "Detalji interne sinhronizacije. Ove informacije se pohranjuju nakon što se epoha procesa sinhronizacije uspješno završi.",
         no_data: "nema pojam informacije!",
       },
     },
@@ -9578,15 +9578,15 @@ export default {
     products: {
       title: "Proizvodi",
       subtitle:
-        "lista od dodaj proizvodi od {name}. zaradi pojam vaš proizvod ima pojam pojam pojam i SKU. pojam Connect usluge su pojam za pojam, pojam ako vi imati proizvodi sa pojam <b>pojam</b> i <b>pojam</b>, pojam proizvodi će biti pojam!",
+        "Lista dodatih proizvoda iz {name}. Uvjerite se da vaš proizvod ima jedinstveno ime i SKU. Neke Connect usluge se koriste za migraciju, tako da ako imate proizvode sa dupliranim <b>SKUs</b> i <b>Names</b>, ti proizvodi će biti promijenjeni!",
       action: "pojam proizvodi",
-      syncing_message: "na pojam pojam...",
+      syncing_message: "U procesu sinhronizacije...",
     },
 
     logs: {
       title: "pojam",
       subtitle:
-        "pojam lista od sve pojam u pojam zadnje 7 dani. pojam pojam pojam samo na vanjsko usluga pružaoci.",
+        "Lista svih dnevnika u posljednjih 7 dana. Funkcija evidentiranja podržana samo kod eksternih provajdera usluga.",
     },
 
     edit: {
@@ -9595,30 +9595,30 @@ export default {
       service: {
         title: "usluga",
         subtitle:
-          "odaberi pojam pojam, pojam pojam, ili tržište za pojam.",
+          "Odaberite ciljnu platformu, dropshipping dobavljača ili tržište za povezivanje.",
       },
       test: {
         false_title: "pojam sve",
         false_desc: "pojam sve dostupno proizvodi, kategorije, kupci.",
         true_title: "ograničenje (pojam za pojam)",
         true_desc:
-          "pojam pojam 5 proizvodi, kategorije, i kupci. vi može pojam to za pojam način u pojam Connect > pojam na pojam vrijeme.",
+          "Dobijte maksimalno 5 proizvoda, kategorija i kupaca. Možete ga prebaciti u puni način rada u Connect > Setting u bilo kojem trenutku.",
       },
       overwrite: {
-        false_title: "pojam nije pojam ako pojam",
-        false_desc: "pojam pojam proizvod i kategorija detalji kao pojam su.",
+        false_title: "Ne mijenjajte ako postoje",
+        false_desc: "Zadržite postojeće detalje o proizvodu i kategoriji onakvima kakvi jesu.",
         true_title: "pojam",
         true_desc:
           "ažuriraj pojam proizvod, varijanta, i kategorija informacije.",
       },
       migration_tips:
-        "<b>pojam:</b>ako vi želite za pojam pojam pojam molimo odaberi <b>ograničenje</b> opcija. od odaberi 'pojam pojam, mi pojam sve podaci od " +
-        "vaš pojam usluge i preuzmi pojam slike, pojam to će pojam vaš pojam pojam. pojam, pojam pojam proizvodi, kategorije, i kupci pojam biti pojam!",
+        "<b>Savjeti: </b>Ako želite testirati funkcionalnost, odaberite\n" +
+          "            <b>Lograničeno</b> opcija. Odabirom 'Sinhroniziraj sve', dobijamo sve podatke od vaših povezanih usluga i preuzimamo povezane slike, tako da će to smanjiti vašu besplatnu pohranu. Također, uklanjanje mnogih proizvoda, kategorija i kupaca bilo bi teško!",
       add_action: "automatski pojam za",
       order: {
         title: "narudžba status",
         subtitle:
-          "pojam pojam pojam usluga narudžba upravljanje postavke za vaš prodavnica. ovo pojam pojam pojam narudžba pojam, pojam automatsko narudžba pojam (ako pojam), i pojam dostava pojam pojam.",
+          "Konfigurirajte postavke upravljanja narudžbama povezane usluge za svoju trgovinu. Ovo uključuje postavljanje prihvatanja narudžbe, omogućavanje automatske potvrde narudžbe (ako je podržano) i konfiguriranje obračuna troškova dostave.",
       },
       enable: {
         label: "Status Connecta",
@@ -9628,19 +9628,19 @@ export default {
         label: "automatski potvrdi narudžbe",
         false_desc: "vi pojam potvrdi narudžba pojam.",
         true_desc:
-          "narudžbe sa uživo plaćanje će biti automatski pojam. narudžbe sa pojam plaćanje će nije pojam automatski.",
-        tips: "narudžbe pojam od pojam pojam ili COD ili plaćanje pojam u pojam pojam način su pojam i će nije biti potvrdi automatski.",
+          "Narudžbe s plaćanjem uživo bit će automatski odobrene. Narudžbe s plaćanjem za otklanjanje grešaka neće se automatski odobravati.",
+        tips: "Narudžbe plaćene poklon karticom ili COD-om ili pristupima plaćanja u načinu za otklanjanje grešaka su izuzeci i neće biti automatski potvrđene.",
       },
 
       shipping: {
         label: "Dostava",
-        tips: "ovo usluga ponuda dostava pojam, pojam može biti omogućeno ili onemogućeno kao pojam vaš pojam. ako omogućeno, pojam pojam pojam sa 3pojam pojam usluge će biti obavezno, pojam pojam pojam pojam pojam od pojam 300pojam za pojam pojam cijena na pojam pojam stranica.",
+        tips: "Ova usluga nudi izračun isporuke, koji se može uključiti ili onemogućiti prema vašim željama. Ako je omogućeno, bit će potrebni API-ji za obračun troškova sa uslugama treće strane, što može uzrokovati kašnjenje od preko 300 ms za ažuriranje cijene na stranici za naplatu.",
         false_title: "pojam",
         false_desc:
-          "pojam moj dostava pojam pojam, u prodavnica > logistika > pojam za sve proizvodi, pojam uvezi pojam.",
+          "Koristite moju kalkulaciju troškova dostave, u Shop > Logistic > Transport za sve proizvode, uključujući i one iz uvoza.",
         true_title: "pojam dostava",
         true_desc:
-          "pojam pojam dostava pojam pojam API ponuda od ovo usluga.",
+          "Koristite API za izračunavanje cijene dostave koji nudi ova usluga.",
       },
 
       remove: {
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect vaš poslovanje pojam za vanjsko usluge i upravljaj sve kanali u pojam pojam pojam.",
+        "Povežite svoje poslovanje sa eksternim uslugama i upravljajte svim kanalima na istom mjestu.",
       action: "Connect novo usluge",
       empty_message:
-        "pojam pojam i pojam za pojam! Connect je pojam pojam od pojam narudžba upravljanje.",
+        "Zaboravite aplikacije i dodatke za dropshipping! Connect je budućnost upravljanja narudžbama na više platformi.",
       auto_confirm: "automatski potvrdi",
       shipping: "Dostava",
       syncing_now: "pojam sada!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "pojam",
-      desc: "pojam proizvodi, kategorije, i kupci. nakon pojam korisnik izbriši ovo usluga, pojam primljeno proizvodi, kategorije, i kupci će nije biti izbrisano.",
+      desc: "Dobijte proizvode, kategorije i kupce. Nakon što korisnik izbriše ovu uslugu, primljeni proizvodi, kategorije i kupci neće biti obrisani.",
     },
     Dropshipping: {
       title: "pojam",
-      desc: "pojam proizvodi, kategorije, i narudžbe. pojam pojam ukloni proizvodi nakon pojam korisnik ukloni pojam usluga.",
+      desc: "Nabavite proizvode, kategorije i narudžbe. Sistem uklanja proizvode nakon što korisnik ukloni uslugu.",
     },
     Marketplace: {
       title: "tržište",
-      desc: "pojam pojam pojam i pojam narudžbe (proizvodi će biti link od SKU).",
+      desc: "Samo sinkronizirajte inventar i primajte narudžbe (proizvodi će biti povezani SKU-om).",
     },
     Accounting: {
       title: "Računovodstvo",
@@ -9699,7 +9699,7 @@ export default {
     title: "pojam stranice",
     add_new_action: "dodaj novo stranica",
     subtitle:
-      "kreiraj pojam, pojam prilagođeno stranice za vaš pojam pojam pojam pojam pojam pojam pojam, i automatski pojam pojam pojam od feed u podaci.",
+      "Kreirajte prepoznatljive, prilagodljive prilagođene stranice za svoj brend koristeći svestrani inline uređivač koji pokreće AI i automatski generirajte dinamički sadržaj unosom podataka.",
     empty_message: "dizajn prilagođeno stranice od prevlačenje & ispuštanje...",
   },
 
@@ -9723,8 +9723,8 @@ export default {
    */
   community_comments: {
     title: "Komentari",
-    subtitle: "ovo je pojam lista od pojam pojam pojam.",
-    empty_msg: "nema pojam imati bilo kreirano pojam pojam...",
+    subtitle: "Ovo je lista komentara zajednice.",
+    empty_msg: "Do sada nisu kreirani komentari...",
   },
 
   /**
@@ -9732,9 +9732,9 @@ export default {
    */
   community_categories: {
     title: "Kategorije",
-    subtitle: "ovo je pojam lista od pojam pojam kategorije.",
+    subtitle: "Ovo je lista kategorija zajednice.",
     new_category_action: "novo kategorija",
-    empty_msg: "nema kategorije imati bilo kreirano pojam pojam...",
+    empty_msg: "Do sada nije kreirana nijedna kategorija...",
     filter: {
       delete: {
         title: "Izbrisano",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "pojam",
-    subtitle: "ovo je pojam lista od pojam pojam pojam.",
+    subtitle: "Ovo je lista objava zajednice.",
     filter: {
       deleted: {
         title: "Izbrisano",
@@ -9758,15 +9758,15 @@ export default {
         description: "prikaži izvještaj pojam.",
       },
     },
-    empty_msg: "nema pojam imati bilo kreirano pojam pojam...",
+    empty_msg: "Do sada nije kreirana nijedna objava...",
     menu: {
       open_post: {
         title: "otvori pojam",
-        subtitle: "prikaži i uredi pojam u pojam pojam.",
+        subtitle: "Pogledajte i uredite objavu u zajednici.",
       },
       spam: {
         title: "izvještaj & ukloni pojam",
-        subtitle: "pojam ukloni pojam i pojam korisnik.",
+        subtitle: "Grupno uklanjanje postova i zabrana korisnika.",
       },
       delete: {
         title: "izbriši pojam",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "oznaka pojam",
       subtitle:
-        "Google pojam pojam pojam od pojam ROI pojam pojam pojam, pojam, i pojam pojam pojam i pojam. upravljaj pojam oznake pojam sa Google oznaka pojam pojam, pojam, i pojam pojam—nema kod uredi obavezno.",
+        "Google Analytics omogućava mjerenje ROI-ja oglasa uz praćenje Flash, video i društvenih mreža i aplikacija. Upravljajte oznakama web stranica bez napora pomoću besplatnih, jednostavnih i pouzdanih rješenja Google Tag Managera – nije potrebno uređivanje koda.",
       tag_id: {
         label: "Google oznaka pojam ID",
       },
@@ -9790,30 +9790,30 @@ export default {
     shopping: {
       title: "Google pojam",
       subtitle:
-        "podaci pojam pojam pojam pojam od vaš pojam informacije na Google. pojam ovo link za automatski dodaj sve proizvodi i kategorije za Google pojam.",
-      tips: "vi može pojam ovo pojam za pojam i automatski upravljaj Google pojam.",
+        "Izvori podataka ukazuju na porijeklo informacija iz vašeg kataloga na Googleu. Slijedite ovu vezu da automatski dodate sve proizvode i kategorije u Google robu.",
+      tips: "Možete koristiti ovaj alat za jednostavno i automatsko upravljanje Google oglasima.",
       link_message: "Google proizvodi feed URL",
     },
     console: {
       title: "pretraži pojam",
-      subtitle: "dodaj pojam Meta oznaka za vaš pojam za Google pretraži pojam pojam.",
+      subtitle: "Dodajte meta oznaku na svoju početnu stranicu za verifikaciju Google Search Console.",
       code: {
         label: "pojam Meta oznaka",
-        placeholder: "od Google, pojam.pojam. pojam9pojam...",
+        placeholder: "Sa google-a, npr. viQg9mjdBj...",
       },
     },
     serp: {
       title: "Google SERP & pojam",
       subtitle:
-        "mi pojam pojam pojam pojam SEO pojam podaci od Google i pojam to za vi u pojam pojam pojam. pojam pojam pojam pojam pojam.",
+        "Najpreciznije podatke SEO revizije dobijamo od Google-a i predstavljamo vam ih na prikladan način. Jednostavno slijedite navedene korake.",
     },
     serp_content: {
       title: "Connect za Google pretraži pojam",
       subtitle:
-        "Connect vaš prodavnica za pojam pretraži pojam i početak pojam pojam, pojam, i pojam pojam SEO pojam na Selldone.",
+        "Povežite svoju trgovinu sa konzolom za pretraživanje i počnite istraživati ​​ključne riječi, rangove i druge besplatne SEO alate na Selldoneu.",
       tips: {
         title:
-          "pojam za link Selldone sa Google pretraži pojam, pojam pojam pojam:",
+          "Prije povezivanja Selldonea s Google Search Consoleom, osigurajte sljedeće:",
         add_in_selldone: "dodaj, pojam, i postavi kao primarno vaš prilagođeno domen.",
         add_in_google: "dodaj i pojam <b>{domain}</b> u vaš<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google pretraži pojam</b></a>.",
       },
@@ -9849,7 +9849,7 @@ export default {
     title: "povrat novca pojam",
     up_to: "do",
     menu: {
-      back: "pojam pojam",
+      back: "Back Programs",
       dashboard: "kontrolna ploča",
       orders: "Naredbe",
       edit: "Uredi",
@@ -9889,18 +9889,18 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "postavi pojam pojam pojam, ograničenje i to status pojam.",
+      subtitle: "Ovdje postavite postotak povrata novca, limit i njegov status.",
     },
     percent_input: {
       title: "povrat novca pojam",
-      message: "pojam pojam povrat novca pojam od 1% za 20%.",
+      message: "Unesite postotak povrata novca od 1% do 20%.",
     },
     currency_input: {
-      message: "pojam povrat novca pojam će biti dostupno pojam za ovo valuta.",
+      message: "Cashback program će biti dostupan samo za ovu valutu.",
     },
     limit_input: {
       title: "ograničenje",
-      hint: "pojam pojam maksimum iznos od povrat novca.",
+      hint: "Unesite maksimalan iznos povrata novca.",
       zero_message: "pojam 0 za pojam povrat novca.",
     },
     duration: {
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "postavi naslov i pojam opis za pojam povrat novca pojam. pojam informacije će biti prikazano za kupci.",
+        "Postavite naslov i kratki opis za program povrata novca. Ove informacije će biti prikazane kupcima.",
     },
     title_input: {
       title: "Naslov",
@@ -9926,16 +9926,16 @@ export default {
       title: "Opis",
     },
     constraints: {
-      subtitle: "postavi pojam pojam za pojam povrat novca pojam.",
+      subtitle: "Postavite ograničenja za program povrata novca.",
     },
     min_purchase_input: {
-      hint: "pojam pojam minimum pojam iznos za povrat novca pojam.",
+      hint: "Unesite minimalni iznos kupovine za cashback program.",
       title: "minimum pojam",
     },
     only_first_buy_input: {
       false_desc: "pojam povrat novca pojam će biti dostupno za sve narudžbe.",
       true_desc:
-        "pojam povrat novca pojam će biti dostupno pojam za pojam prvo narudžba.",
+        "Cashback program će biti dostupan samo za prvu narudžbu.",
       true_title: "samo prvo narudžba",
       false_title: "sve narudžbe",
     },
@@ -9943,32 +9943,32 @@ export default {
       false_title: "sve kupci",
       true_title: "pojam kupci",
       true_msg:
-        "pojam povrat novca pojam će biti dostupno pojam za pojam kupci pojam su pojam.",
+        "Cashback program će biti dostupan samo za kupce koji su kvalifikovani.",
     },
     club: {
       subtitle:
-        "postavi pojam pojam za pojam povrat novca pojam. pojam povrat novca pojam će biti dostupno pojam za pojam kupci pojam su u ovo pojam.",
+        "Postavite klub za program povrata novca. Cashback program će biti dostupan samo za kupce koji su u ovom klubu.",
     },
     cluster: {
       subtitle:
-        "od pojam pojam pojam sa pojam povrat novca pojam, vi može upravljaj to više pojam.",
+        "Povezivanjem klastera sa programom povrata novca, možete efikasnije upravljati njime.",
     },
     notifications: {
       add: "povrat novca pojam dodaj uspješno.",
       edit: "povrat novca pojam ažurirano uspješno.",
     },
     enable_input: {
-      true_msg: "pojam povrat novca pojam je aktivno i kupci može pojam to.",
+      true_msg: "Cashback program je aktivan i kupci ga mogu koristiti.",
       false_msg:
-        "pojam povrat novca pojam je neaktivno i kupci može nije pojam to.",
+        "Cashback program je neaktivan i kupci ga ne mogu koristiti.",
     },
     boosted_input: {
       false_title: "Normalno",
       true_title: "pojam (2pojam povrat novca)",
       true_msg:
-        "pojam povrat novca pojam je u pojam način i kupci će pojam 2pojam povrat novca.",
+        "Cashback program je u boost modu i kupci će dobiti 2x povrat novca.",
       false_msg:
-        "pojam povrat novca pojam je u pojam način i kupci će pojam pojam povrat novca.",
+        "Cashback program je u normalnom režimu i kupci će dobiti normalan cashback.",
     },
   },
 
@@ -9979,7 +9979,7 @@ export default {
     actions: {
       refund: {
         title: "povrat plaćanje",
-        subtitle: "pojam ili pojam povrat pojam.",
+        subtitle: "Podržan djelomični ili potpuni povrat novca.",
       },
       delivery: {
         title: "potvrdi na isporuka",
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "povrat plaćanje",
     message:
-      "za pojam pojam, samo narudžbe pojam pojam pojam zadnje 7 dani su pojam za povrat.",
+      "Iz sigurnosnih razloga, samo narudžbe plaćene u posljednjih 7 dana podležu povratu novca.",
     payment_amount: "Iznos plaćanja",
     total_refund_amount: "ukupno povrat iznos",
     can_refund: "može povrat",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "pojam povrat",
       description:
-        "ja potvrdi to pojam povrat iznos je pojam i ja želite za pojam.",
+        "Potvrđujem da je iznos povrata tačan i želim da nastavim.",
     },
     action: "povrat sada",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "kupac isporuka pojam",
     message:
-      "pojam plaćanje usluge pojam pojam to pojam narudžba ima bilo pojam za pojam kupac. mi pojam pojam ovo pojam pojam pojam pojam pojam od narudžba pojam pojam mi pojam pojam kupac isporuka pojam. pojam, ako vi pojam za pojam ovo radnja pojam, vi može pojam pojam pojam.",
+      "Određene usluge plaćanja zahtijevaju potvrdu da je narudžba isporučena kupcu. Ovu potvrdu obično šaljemo tokom završnog koraka ispunjenja porudžbine kada primimo kupčevu potvrdu isporuke. Međutim, ako ovu radnju trebate izvršiti ručno, to možete učiniti ovdje.",
     verify: {
       title: "pojam isporuka",
       description:
-        "ja potvrdi to pojam narudžba ima bilo pojam za pojam kupac.",
+        "Potvrđujem da je narudžba isporučena kupcu.",
     },
     action: "potvrdi sada",
   },
@@ -10026,47 +10026,47 @@ export default {
    * @see BPageProductCrossSelling
    */
   product_cross_selling: {
-    title: "pojam pojam",
+    title: "Cross Selling",
     add_new_actions: "dodaj novo proizvod",
     subtitle:
-      "u ovo pojam, vi može dodaj i upravljaj pojam proizvodi za ovo proizvod stranica. pojam proizvodi će biti prikazano kao pojam za kupci za pojam pojam pojam glavno stavka. vi može pojam postavi popust za pojam i pojam dodatno pojam. pojam pojam će pojam pojam maksimum od 3 stavke za pojam kupac za pojam.",
+      "U ovom odjeljku možete dodati i upravljati proizvodima unakrsne prodaje za ovu stranicu proizvoda. Ovi proizvodi će biti prikazani kao prijedlozi kupcima za kupovinu uz glavnu stavku. Također možete postaviti popuste kako biste podstakli i potaknuli dodatne kupovine. Sistem će prikazati najviše 3 stavke koje kupac može razmotriti.",
     dialog: {
-      edit_title: "uredi pojam pojam proizvod",
-      add_title: "dodaj novo pojam pojam proizvodi",
+      edit_title: "Uredite unakrsni prodajni proizvod",
+      add_title: "Dodajte nove proizvode za unakrsnu prodaju",
       target: {
         title: "pojam proizvod",
         subtitle:
-          "izaberi pojam proizvodi pojam pojam za pojam kao pojam opcije pojam ovo proizvod.",
+          "Odaberite proizvode koje želite promovirati kao opcije unakrsne prodaje uz ovaj proizvod.",
         select_products: "odaberi proizvod(pojam)",
       },
       list: {
         title: "pojam proizvod",
-        subtitle: "ovo proizvod ima bilo pojam za pojam pojam.",
+        subtitle: "Ovaj proizvod je odabran za promociju unakrsne prodaje.",
         manage_product: "upravljaj proizvod",
       },
       discount: {
         title: "popust & poruka",
         subtitle:
-          "vi imati pojam opcija za pojam pojam poruka i ponuda pojam popust za pojam kupci za pojam pojam odabrano dodatno stavke. pojam pojam može pojam pojam pojam i pojam pojam pojam pojam pojam.",
+          "Imate mogućnost da uključite poruku i ponudite popust kako biste motivirali kupce da kupe odabrane dodatne artikle. Ovi poticaji mogu pomoći u povećanju prodaje i poboljšanju cjelokupnog iskustva kupovine.",
         amount_input: {
           message:
-            "pojam popust pojam će biti pojam za pojam proizvod cijena nakon pojam pojam račun sve pojam popust.",
+            "Postotak popusta će se primijeniti na cijenu proizvoda nakon uzimanja u obzir svih postojećih popusta.",
         },
         mismatch_type_warning:
-          "popust pojam biti pojam za pojam pojam pojam pojam glavno proizvod pojam, kao pojam pojam i pojam stavke će nije biti pojam u pojam pojam pojam.",
+          "Popusti se ne mogu primijeniti na druge vrste osim na glavne vrste proizvoda, jer izvorni i ciljni artikli neće biti stavljeni u istu korpu.",
         not_support_subscription_type_warning:
-          "pojam popust za pojam pojam proizvodi je nije pojam, kao pojam određivanje cijena pojam pojam biti pojam pojam.",
+          "Postavljanje popusta za unakrsnu prodaju proizvoda na pretplatu nije moguće, jer se cjenovni planovi ne mogu dinamički prilagođavati.",
         message_input: {
           message:
-            "pojam pojam pojam i pojam naslov za pojam pojam pojam.",
+            "Napravite uvjerljiv i primamljiv naslov kako biste privukli pažnju kupaca.",
           placeholder:
-            "pojam & sačuvaj: pojam vaš pojam sa pojam pojam pojam!",
+            "Paket i uštedite: upotpunite svoj izgled našim odabranim odabirom!",
         },
       },
       action: {
         title: "radnja",
         subtitle:
-          "pojam pojam pojam proizvod radnja pojam. ako vaš proizvod pojam pojam unos od prilagođeno informacije, pojam kao pojam pojam pojam obrazac, pojam nije izaberi \"dodaj za pojam\" kao pojam radnja, kao ovo pojam pojam za greška.",
+          "Ovdje izmijenite akciju unakrsnog prodajnog proizvoda. Ako vaš proizvod zahtijeva unos prilagođenih informacija, na primjer putem obrasca za procjenu, nemojte odabrati \"Dodaj u korpu\" kao radnju, jer to može dovesti do grešaka.",
       },
     },
   },
@@ -10078,17 +10078,17 @@ export default {
     variants: {
       title: "varijanta opcije",
       subtitle:
-        "odaberi pojam za pojam varijanta opcije. nakon pojam, vi može izaberi pojam pojam varijante za kreiraj automatski.",
+        "Odaberite do dvije opcije varijante. Nakon odabira, možete odabrati koje ćete specifične varijante automatski kreirati.",
     },
     values: {
       title: "varijanta pojam",
-      subtitle: "pojam pojam pojam pojam za pojam varijanta opcija pojam.",
+      subtitle: "Ovdje unesite moguće vrijednosti za svaku opciju varijante.",
       prevent_duplicates_tips:
-        "<b>bilješka:</b> mi automatski pojam za pojam varijante za pojam pojam.",
+        "<b>Napomena:</b> Automatski provjeravamo postojeće varijante kako bismo spriječili duplikate.",
     },
     inventory: {
-      title: "pojam pojam",
-      subtitle: "postavi pojam početak pojam pojam za pojam novo varijante.",
+      title: "Initial Inventory",
+      subtitle: "Postavite početni broj zaliha za nove varijante.",
     },
     add_variants_action: "kreiraj varijante",
   },
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Dodaj u korpu",
       description:
-        "pojam pojam dodaj za pojam pojam pojam. bilješka to ovo je nije pojam za pojam proizvodi.",
+        "Direktno prikažite dugme Dodaj u korpu. Imajte na umu da ovo nije primjenjivo za pretplatničke proizvode.",
     },
     ViewProduct: {
       title: "Pogledajte proizvod",
       description:
-        "pojam pojam prikaži više pojam to pojam kupci za pojam proizvod stranica od otvori pojam novo pojam.",
+        "Prikažite dugme Prikaži više koje usmjerava kupce na stranicu proizvoda otvaranjem novog prozora.",
     },
   },
 
@@ -10114,8 +10114,8 @@ export default {
    */
 
   product_flow: {
-    title: "pojam pojam",
-    subtitle: "ovo je pojam pojam pojam i pojam pojam od vaš proizvod.",
+    title: "Tok kupovine",
+    subtitle: "Ovo je tok kupovine i provjera stanja vašeg proizvoda.",
 
     /**
      * @see BProductFlowRowConnect
@@ -10125,7 +10125,7 @@ export default {
       enable_msg: "ovo pojam za vanjsko usluga je omogućeno.",
       disable_msg: "ovo pojam za vanjsko usluga je onemogućeno.",
       has_shipping_msg:
-        "{name} pojam dostava. pojam vi imati pojam opcija za pojam automatski dostava pojam od {name} na pojam pojam stranica.",
+        "{name} podrška za dostavu. Dakle, imate opciju da omogućite automatski obračun isporuke do {name} na stranici za naplatu.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "pojam prodavci",
       subtitle:
-        "ovo proizvod pojam ima nema pojam prodavci. za pojam proizvod za biti pojam u pojam tržište, to pojam imati na pojam pojam prodavac.",
+        "Ovaj proizvod trenutno nema povezanih dobavljača. Da bi se proizvod mogao kupiti na tržištu, mora imati najmanje jednog dobavljača.",
       manage_vendors: "upravljaj prodavci",
     },
 
@@ -10177,9 +10177,9 @@ export default {
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "pojam pojam određivanje cijena pojam",
+      title: "Nedostaju planovi cijena pretplate",
       subtitle:
-        "ovo proizvod ima nema pojam određivanje cijena pojam. vi pojam za dodaj na pojam pojam pojam određivanje cijena pojam za zaradi ovo proizvod dostupno za pojam pojam.",
+        "Ovaj proizvod nema cjenovne planove pretplate. Morate dodati barem jedan cjenovni plan pretplate da bi ovaj proizvod bio dostupan za kupovinu pretplate.",
       pricing_plans: "određivanje cijena pojam",
     },
 
@@ -10193,11 +10193,11 @@ export default {
         no_restriction: "nije pojam",
       },
       available_countries_msg:
-        "pojam pojam pojam za {count} države. pojam države su {countries}.",
+        "Kupovina je globalno ograničena na {count} zemalja. Ove zemlje su {countries}.",
       disable_for_all_countries_msg:
         "pojam je onemogućeno za sve države u vaš prodavnica > lokacije pojam.",
       location_is_not_in_permitted_shop_locations_msg:
-        "vi postavi {country} kao pojam pojam lokacija pojam u pojam prodavnica pojam vi nije pojam ovo država. molimo pojam vaš prodavnica pojam postavke.",
+        "Postavili ste {country} kao prodajnu lokaciju, ali na nivou trgovine ne dozvoljavate ovu zemlju. Provjerite postavke na nivou trgovine.",
       shop_locations: "prodavnica lokacije",
       product_locations: "proizvod lokacije",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "dostupno lokacije greška",
       no_location_error_subtitle:
-        "vi imati pojam pojam lokacija pojam za pojam pojam proizvod, pojam pojam, nema država je lista pojam ovo pojam. kao pojam pojam, ovo proizvod je nedostupno za pojam od pojam.",
+        "Aktivirali ste ograničenje lokacije za kupovinu proizvoda, ali trenutno nijedna zemlja nije navedena pod ovim ograničenjem. Kao rezultat toga, ovaj proizvod nije dostupan nikome za kupovinu.",
       invalid_location_error_subtitle:
-        "pojam lokacija pojam postavke za vaš proizvod pojam pojam greška: pojam lokacije lista pojam nije imati pojam pojam ZIP kod. pojam, korisnici su pojam za odaberi pojam ZIP kod, pojam pojam proizvod nedostupno za pojam.",
+        "Postavke ograničenja lokacije za vaš proizvod sadrže grešku: određene navedene lokacije nemaju pridružene poštanske brojeve. Posljedično, korisnici ne mogu odabrati poštanski broj, što proizvod čini nedostupnim za kupovinu.",
 
       manage_locations: "upravljaj lokacije",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "porez profili",
       description: {
         subscription_tax_msg:
-          "mi može primijeni porez samo na pojam plaćanje pojam pojam.",
+          "Porez možemo primijeniti samo na korak kreiranja plaćanja.",
         dedicated: "namjenski",
         is_disabled: "ovo porez profil je onemogućeno!",
         tax_is_based_on_location: "porez: lokacija pojam",
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "ovo proizvod pojam za <b>{vendor}</b>.",
       has_vendors_msg: "pojam je {count} prodavci za ovo proizvod.",
       no_vendor_msg:
-        "vi pojam pojam pojam prodavac za ovo proizvod, pojam kupci su pojam za pojam to.",
+        "Niste dodijelili dobavljača ovom proizvodu, tako da ga kupci ne mogu kupiti.",
       add_vendors: "dodaj prodavci",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "proizvod stranica predložak",
     subtitle:
-      "vi može pojam pojam stranica pojam vaš proizvod stranica za pojam pojam pojam. pojam pojam pojam je za kreiraj stranice pojam pojam transparentno pozadina i 1 za 3 pojam pojam za pojam proizvod kategorija. pojam, pojam pojam stranica za pojam proizvodi za pojam pojam i pojam pojam.",
+      "Možete ugraditi stranicu u stranicu proizvoda za poboljšanu prezentaciju. Optimalan pristup je kreiranje stranica s prozirnom pozadinom i 1 do 3 odjeljka prilagođena svakoj kategoriji proizvoda. Zatim dodijelite jednu stranicu više proizvoda za dosljedan i privlačan prikaz.",
     edit_page: "uredi stranica",
     list_of_pages: "lista od stranice",
   },
@@ -10260,16 +10260,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "vi može pojam pojam pojam proizvod ili pojam lista od proizvodi u vaš pojam ili pojam pojam stranice od pojam kopiraj i pojam pojam kod mi pojam. pojam ovo pojam je pojam u to pojam pojam, mi su pojam pojam za pojam to pojam pojam pojam je pojam dostupno pojam. pojam to pojam ponuda ograničenje pojam, mi imati pojam za pojam više predlošci i pojam opcije u pojam pojam.",
+      "Možete jednostavno ugraditi proizvod ili listu proizvoda u svoj blog ili druge web stranice jednostavnim kopiranjem i lijepljenjem kodova koje nudimo. Iako je ova funkcija još uvijek u ranoj fazi, mi aktivno radimo na proširenju njene funkcionalnosti izvan onoga što je trenutno dostupno drugdje. Iako trenutno nudi ograničene mogućnosti, planiramo uvođenje više šablona i opcija prilagođavanja u budućnosti.",
     card: {
       title: "pojam",
       description:
-        "pojam HTML kod za dodaj proizvod pojam u pojam pojam i HTML stranice.",
+        "Generirajte HTML kod za dodavanje kartica proizvoda na druge platforme i HTML stranice.",
     },
     iframe: {
       title: "pojam",
       description:
-        "pojam pojam iframe kod za pojam pojam proizvod detalji u pojam pojam pojam.",
+        "Generirajte iframe kod za prikaz sveobuhvatnih detalja o proizvodu u ugrađenom prozoru.",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "dodaj osoblje & pristup",
       subtitle:
-        "sve korisnici sa osoblje pristup može pojam u za vaš kontrolna ploča i pogledaj pojam informacije. za dodaj korisnici sa ograničenje pristup, pojam pojam.",
+        "Svi korisnici sa pristupom osoblja mogu se prijaviti na vašu kontrolnu tablu i vidjeti finansijske informacije. Da biste dodali korisnike s ograničenim pristupom, definirajte Ulogu.",
       go_to_roles: "pojam za pojam",
     },
     access: {
       customization_tips:
-        "<b>pojam:</b> pojam na pojam stavka za pojam pojam zadano čitanje/pisanje pristup. pojam pojam pojam pojam pristup pojam pojam za pojam glavno prodavnica kontrolna ploča.",
+        "<b>Prilagođavanje:</b> Kliknite na svaku stavku da prilagodite zadani pristup za čitanje/pisanje. Svaki red predstavlja nivo pristupa koji odgovara glavnoj kontrolnoj tabli prodavnice.",
       simplify_tips:
-        "<b>pojam!</b> mi pojam pojam pristup pojam od pojam 300 za pojam 10 pojam. više pojam i pojam pristup pojam će biti pojam u pojam pojam.",
+        "<b>Važno!</b> Pojednostavljujemo kontrolu pristupa sa preko 300 na manje od 10 nivoa. Detaljniji i ažurniji nivoi pristupa biće objavljeni u dokumentaciji.",
       multi_permission_tips:
-        "<b>prilagođeno ograničenja?</b> vi može dodaj više pristup za pojam korisnik, pojam nakon dodaj pojam prvo pristup, kreiraj dodatno pristup sa pojam pojam pojam.",
+        "<b>Prilagođena ograničenja?</b> Možete dodati više pristupa jednom korisniku, pa nakon dodavanja prvog pristupa kreirajte dodatni pristup istim koracima.",
       view_data: "prikaži podaci",
       apply_changes: "Primijeni promjene",
     },
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "pristup pojam",
-        placeholder: "odaberi pojam pojam...",
+        placeholder: "Odaberite nivo...",
       },
     },
 
@@ -10329,9 +10329,9 @@ export default {
   category_engine_editor: {
     title: "dodatno proizvodi listing",
     subtitle:
-      "pojam proizvodi od pojam kategorije. vi imati pojam opcija za izaberi pojam kategorije za pojam proizvodi ili pojam proizvodi od oznake.",
+      "Prikažite proizvode iz raznih kategorija. Imate mogućnost da odaberete više kategorija za prikaz proizvoda ili filtrirate proizvode prema oznakama.",
     aut_add_sub_categories_tips:
-      "vi može automatski dodaj sve pojam za pojam trenutno kategorija od pojam pojam pojam pojam.",
+      "Možete automatski dodati sve potkategorije trenutnoj kategoriji klikom na dugme ispod.",
     inputs: {
       categories: {
         label: "Kategorije",
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "proizvod oznake",
         messages: "proizvodi sa pojam oznake će biti prikaži.",
-        placeholder: "pojam oznake pojam i pojam pojam. pojam. novo pojam",
+        placeholder: "Označite ovdje i pritisnite enter. ex. nova kolekcija",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>pojam pretraži:</b>pretraži od naslov, MPN, SKU, pojam, ili oznake.",
       product:
-        "<b>pojam proizvod ID:</b>pojam P+Product ID za pojam pojam pojam proizvod, pojam.pojam., <b class=\"text-green\">pojam</b><i class=\"text-yellow\">360</i>.",
+        "<b>Tačan ID proizvoda: </b>Koristite P+ID proizvoda da pronađete određeni proizvod, npr. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>pojam pojam:</b>pojam pojam pojam za pretraži za pojam pojam pojam, pojam.pojam., <b class=\"text-green\">\"</b><i class=\"text-yellow\">vaš tekst pojam</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>porez profil:</b>pretraži za proizvodi sa pojam pojam porez profil pojam \"porez:\", pojam.pojam., <b class=\"text-green\">porez:</b><i class=\"text-yellow\">porez profil pojam</i>.",
+        "<b>Tačna fraza: </b>Koristite navodnike za traženje tačne fraze, npr. <b class=\"text-green\">\"</b><i class=\"text-yellow\">vaš tekst ovdje</i><b class=\"text-green\">\"</b>.",
+      tax: "<b>Porezni profil: </b>Tražite proizvode sa određenim poreznim profilom koristeći \"porez:\", npr. <b class=\"text-green\">tax:</b><i class=\"text-yellow\"> naziv profila poreza </i>.",
       new_products:
-        "<b>novo proizvodi:</b>pojam proizvodi dodaj pojam pojam pojam datum pojam, pojam.pojam., <b class=\"text-green\">novo~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Novi proizvodi: </b>Pronađite proizvode dodane unutar određenog perioda, npr. <b class=\"text-green\">novi~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,14 +10374,14 @@ export default {
   augment_form: {
     title: "pojam",
     subtitle:
-      "unos pojam ključ to će biti pojam sa to pojam pojam u pojam stranica pojam. ključevi pojam biti pojam 32 pojam.",
+      "Unesite ključ koji će biti zamijenjen njegovom odgovarajućom vrijednošću u sadržaju stranice. Ključevi trebaju imati maksimalno 32 znaka.",
     add_caption: "dodaj novo stavka",
-    add_sub_caption: "dodaj prilagođeno pojam pojam.",
+    add_sub_caption: "Dodajte prilagođeni par ključ/vrijednost.",
     add_dialog: {
       title: "odaberi unos pojam",
       html: {
         title: "tekst & pojam",
-        subtitle: "pojam stavka pojam može biti pojam kao pojam tekst ili HTML.",
+        subtitle: "Vrijednost stavke može biti označena kao tekst ili HTML.",
       },
       image: {
         title: "Slika",
@@ -10389,17 +10389,17 @@ export default {
       },
     },
     help_dialog: {
-      title: "pojam za pojam pojam pojam",
+      title: "Kako koristiti dinamički sadržaj",
       how_it_works_tips:
-        "u pojam pojam stranice, vi imati pojam pojam za pojam pojam pojam za pojam tekst i slike. pojam pojam pojam pojam pojam pojam u pojam pojam pojam pojam za pojam pojam. pojam pojam pojam od pojam pojam pojam njih za biti pojam od pojam pojam, pojam može pojam pojam na pojam pojam. za pojam, pojam pojam pojam pojam biti pojam za pojam proizvod ili kategorija. pojam pojam pojam od ovo pojam pojam pojam pojam pojam vi imati pojam pojam od stavke sa pojam pojam. vi može pojam pojam pojam pojam pojam za pojam i pojam pojam pojam od pojam stavka, pojam pojam pojam pojam i pojam pojam na vaš pojam stranice.",
+        "Na odredišnim stranicama imate fleksibilnost da odredite dinamičke čuvare mjesta za tekst i slike. Ovi čuvari mjesta imaju značajnu ulogu u prilagođavanju sadržaja prema kontekstu.   Dinamična priroda ovih čuvara mjesta omogućava im da budu popunjeni vrijednostima povećanja, koje mogu varirati ovisno o različitim faktorima. Na primjer, vrijednosti povećanja mogu biti različite za svaki proizvod ili kategoriju. Prava prednost ove funkcije dolazi do izražaja kada imate razne predmete sa različitim atributima. Možete efikasno koristiti ove dinamičke čuvare mjesta da personalizirate i poboljšate prikaz svake stavke, stvarajući tako jedinstveno i interaktivno iskustvo na vašim odredišnim stranicama.",
       assign_tips:
-        "za pojam pojam pojam za slike, pojam na pojam pojam pojam pojam na pojam pojam pojam od pojam pojam.",
+        "Da biste dodijelili dinamičke vrijednosti slikama, kliknite na dugme za uvlačenje koje se nalazi na lijevoj strani odjeljka.",
       set_dynamic_image_tips:
-        "vi sada imati pojam pojam za pojam pojam slika URL i pojam to pojam pojam pojam.",
+        "Sada imate mogućnost izmijeniti URL slike i dodijeliti joj dinamičku vrijednost.",
       enter_values_tips:
-        "za pojam proizvod, vi imati pojam pojam za pojam namjenski pojam pojam.",
+        "Za svaki proizvod imate mogućnost dodijeliti namjenske parove ključ/vrijednost.",
       result_tips:
-        "ovo je pojam pojam pojam od pojam stranica, pojam pojam imati bilo pojam sa pojam pojam.",
+        "Ovo je konačni rezultat stranice, gdje su rezervirani mjesta zamijenjeni uvećanim vrijednostima.",
     },
   },
 
@@ -10408,25 +10408,25 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "pojam pojam",
+      title: "Multi Language",
       subtitle:
-        "ovo je pojam lista od pojam pojam. vi može postavi pojam pojam za pojam logistika profil u pojam pojam.",
+        "Ovo je lista jezika sadržaja. Možete postaviti različite sadržaje za logistički profil na svakom jeziku.",
       add_caption: "dodaj novo pojam",
       no_more_language: "nema više pojam!",
     },
     content: {
       title: "pojam",
       subtitle:
-        "vi može pojam pojam pojam za pojam logistika profil u pojam pojam.",
+        "Možete prilagoditi sadržaj za logistički profil na više jezika.",
 
-      language_input: "trenutno pojam pojam",
+      language_input: "Trenutni jezik članka",
       delete_article: "izbriši pojam",
       menu_tooltip: "automatski pojam / izbriši pojam",
     },
     translate_to: "pojam za",
     notifications: {
       translate: {
-        message: "pojam pojam pojam uspješno.",
+        message: "Prijevod članka uspješno završen.",
       },
       save_article: {
         message: "pojam ima bilo pojam uspješno.",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "su vi pojam za izbriši ovo pojam za pojam?",
+      message: "Jeste li sigurni da ćete zauvijek izbrisati ovaj članak?",
       action: "Da, Izbriši sada",
     },
   },
@@ -10456,7 +10456,7 @@ export default {
     inputs: {
       name: {
         message:
-          "ovo pojam prikaži za vi i će nije biti pojam za pojam javno.",
+          "Ovo ime vam je vidljivo i neće biti otkriveno javnosti.",
       },
       accept_delete: {
         true_description:
@@ -10476,13 +10476,13 @@ export default {
     title: "logistika profili",
     add_caption: "dodaj novo profil",
     subtitle:
-      "vi može kreiraj i uredi pojam pojam i povrat pojam za proizvodi pojam i pojam to za pojam proizvodi. vi može pojam pojam pojam pojam za pojam pojam od proizvodi.",
+      "Ovdje možete kreirati i uređivati ​​politiku jamstva i povrata za proizvode i dodijeliti je bilo kojem proizvodu. Možete definirati različite politike jamstva za različite vrste proizvoda.",
     add_dialog: {
       title: "kreiraj novo logistika profil",
       config: {
         title: "pojam informacije",
         subtitle:
-          "izaberi pojam profil pojam. to može biti pojam pojam, pojam, ili pojam pojam pojam i pojam pojam pojam pojam pojam proizvodi.",
+          "Odaberite vrstu profila. To može biti vodič, garancija ili bilo koji drugi sadržaj i materijal koji se obično dijeli među više proizvoda.",
       },
       article: {
         title: "Članak",
@@ -10492,8 +10492,8 @@ export default {
       inputs: {
         name: {
           message:
-            "ovo pojam prikaži za vi i će nije biti pojam za pojam javno.",
-          placeholder: "pojam pojam pojam za pojam profil...",
+            "Ovo ime vam je vidljivo i neće biti otkriveno javnosti.",
+          placeholder: "Unesite ime za profil...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "uključeno stavke upravljanje",
     add_caption: "dodaj novo stavka",
     subtitle:
-      "pojam, vi može upravljaj pojam stavke uključeno u vaš proizvodi. za pojam pojam pojam pojam za vaš prodavnica, pojam pojam stavke sa pojam slika pojam, pojam kao pojam, pojam sve proizvodi.",
+      "Ovdje možete upravljati stavkama uključenim u vaše proizvode. Kako biste osigurali besprijekoran izgled za svoju trgovinu, dosljedno koristite artikle sa sličnim uzorcima slika, kao što su žičani okviri, na svim proizvodima.",
     empty_list_msg: "lista od uključeno stavke...",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "izbriši uključeno stavka",
       message:
-        "su vi pojam vi želite za pojam izbriši ovo stavka? molimo bilješka to to će pojam biti pojam od sve pojam proizvodi!",
+        "Jeste li sigurni da želite trajno izbrisati ovu stavku? Imajte na umu da će također biti uklonjen iz svih povezanih proizvoda!",
       action: "da, izbriši sada",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "uključeno stavka",
     subtitle:
-      "izaberi pojam pojam naslov, pojam sa 2 za 3 pojam na pojam. pojam pojam slike, kao mi će pojam otpremi pojam za pojam 256pojam256 pojam pojam. za pojam pojam pojam pojam sve predlošci, pojam pojam slike sa transparentno pozadina i pojam pojam pojam pojam pojam vaš proizvodi.",
+      "Odaberite kratak naslov, u idealnom slučaju sa najviše 2 do 3 riječi. Koristite kvadratne slike, jer ćemo automatski promijeniti veličinu otpremljenih slika u kvadratni format 256x256. Za najbolji izgled svih predložaka, koristite minimalističke slike s prozirnom pozadinom i održavajte ujednačen uzorak u svim svojim proizvodima.",
     inputs: {
       title: {
         placeholder: "pojam naslov prikazano na proizvod stranica...",
       },
       code: {
-        placeholder: "pojam kod, pojam. pojam_pojam_pojam",
-        hint: "pojam ovo kod za pojam pojam pretraži pojam za pojam stavke.",
+        placeholder: "Jedinstveni kod, npr. mobile_cable_usb",
+        hint: "Koristite ovaj kod da pojednostavite proces pretraživanja za lociranje stavki.",
       },
       description: {
-        placeholder: "pojam pojam opis pojam ovo stavka...",
-        hint: "opis će biti pojam za SEO i pojam vidljivo za korisnici na pojam prilagođeno pojam u pojam proizvod stranica.",
+        placeholder: "Kratak opis ovog artikla...",
+        hint: "Opis će se koristiti za SEO i možda će biti vidljiv korisnicima na nekim prilagođenim izgledima na stranici proizvoda.",
       },
       image: {
         message: "pojam slika veličina: 1MB",
@@ -10559,14 +10559,14 @@ export default {
       },
       external_link: {
         title: "Eksterna veza",
-        description: "postavi pojam link za pojam vanjsko pojam.",
-        tips: "vi može pojam pojam URL za pojam stavka. pojam korisnici pojam na pojam stavka na pojam proizvod stranica, pojam će biti pojam za to link.",
+        description: "Postavite vezu na vanjski URL.",
+        tips: "Stavci možete priložiti bilo koji URL. Kada korisnici kliknu na artikl na stranici proizvoda, bit će preusmjereni na tu vezu.",
       },
       internal_link: {
         title: "interno link",
         description:
-          "kreiraj pojam stranica od pojam pojam podaci za ovo stavka.",
-        tips: "vi može link pojam pojam stranica sa pojam profil i postavi pojam prilagođeno pojam i pojam pojam za to. Selldone će pojam pojam pojam link za pojam stavka.",
+          "Kreirajte dinamičku stranicu pomoću navedenih podataka za povećanje za ovu stavku.",
+        tips: "Možete povezati odredišnu stranicu sa profilom i postaviti prilagođenu putanju i dinamički sadržaj za nju. Selldone će generirati dinamičku vezu za stavku.",
       },
     },
     notifications: {
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "vraćeno narudžbe",
     subtitle:
-      "vaš kupci može povrat njihov pojam narudžbe, i vi može prikaži povrat pojam na pojam narudžba pojam stranica ili pristup pojam pojam lista od vraćeno narudžbe pojam.",
+      "Vaši kupci mogu vratiti svoje fizičke narudžbe, a zahtjeve za povrat možete pogledati na stranici za obradu narudžbi ili pristupiti kompletnoj listi vraćenih narudžbi ovdje.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "provizija",
     subtitle:
-      "pojam lista od sve provizija vi imati pojam od vaš pojam. to pojam pojam za 30 dani za pojam provizija za biti pojam i transfer za vaš novčanik.",
+      "Spisak svih provizija koje ste zaradili od svojih preporuka. Potrebno je do 30 dana da se provizija odobri i prenese na vaš novčanik.",
   },
   /**
    * @see OReferralWallets
@@ -10600,7 +10600,7 @@ export default {
   referral_wallets: {
     title: "Novčanici",
     subtitle:
-      "pojam vi može pogledaj pojam provizija naknade vi imati pojam. vi može transfer vaš provizija naknade za vaš banka račun ili vaš Selldone novčanik.",
+      "Ovdje možete vidjeti provizije koje ste zaradili. Svoje naknade za proviziju možete prenijeti na svoj bankovni račun ili svoj Selldone novčanik.",
     no_commission_yet: "vi imati nije primljeno pojam provizija pojam.",
     no_wallet: "nema novčanik!",
 
@@ -10612,12 +10612,12 @@ export default {
       to_wallet: {
         title: "za novčanik",
         subtitle:
-          "sa ovo opcija, vi može transfer provizija naknade za vaš Selldone novčanik. molimo zaradi pojam to pojam novčanik je pojam kao vaš pojam novčanik, i to to pojam sa pojam pojam valuta.",
+          "Pomoću ove opcije možete prenijeti provizije na vaš Selldone novčanik. Uvjerite se da je novčanik povezan kao vaš poklon novčanik i da radi sa istom valutom.",
       },
       to_bank: {
         title: "za banka",
         subtitle:
-          "sa ovo opcija, vi može transfer provizija naknade za vaš Selldone novčanik. molimo zaradi pojam to pojam novčanik je pojam kao vaš pojam novčanik, i to to pojam sa pojam pojam valuta.",
+          "Pomoću ove opcije možete prenijeti provizije na vaš Selldone novčanik. Uvjerite se da je novčanik povezan kao vaš poklon novčanik i da radi sa istom valutom.",
       },
       inputs: {
         verify_to_wallet: {
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "vi može dodaj <b>?pojam={code}</b> za pojam Selldone pojam.",
+      message: "Možete dodati <b>?ref={code}</b> na bilo koji prodati URL.",
     },
     intro: {
-      title: "pojam pojam Selldone partner pojam",
+      title: "Pridružite se Selldone Affiliate programu",
       message:
-        "pojam Selldone partner pojam je pojam i pojam, dizajn za vi za pojam pojam. pojam vaš pojam partner link za pojam novo korisnici za Selldone, i pojam pojam pojam provizija od pojam transakcija pojam zaradi—pojam. ovo pojam pojam od pojam, usluga naknade, prodavnica pojam, i sve pojam pojam pojam. početak pojam pojam pojam od pojam pojam pojam pojam ograničenja na vrijeme ili pojam. pojam pojam i pojam vaš pojam pojam pojam pojam pojam!",
-      why_join_selldone_affiliate: "pojam je ovo pojam pojam pojam?",
+        "Selldone Affiliate program je jednostavan i jasan, dizajniran da zarađujete bez napora. Podijelite svoju jedinstvenu pridruženu vezu da pozovete nove korisnike na Selldone i zaradit ćete proviziju od svake njihove transakcije – zauvijek. Ovo uključuje zaradu od pretplata, naknade za usluge, nadogradnje prodavnica i sve druge tokove prihoda. Počnite zarađivati ​​dio prihoda bez ikakvih ograničenja u vremenu ili zaradi. Pridružite nam se i pretvorite svoju mrežu u stalan prihod!",
+      why_join_selldone_affiliate: "Zašto je ovo jedinstvena prilika?",
       reasons: [
         "to zadnje pojam!",
-        "pojam sve pojam i transakcija naknade. pojam pojam plaćanje od pojam korisnik na Selldone.",
-        "mi pojam pojam pojam $99 pojam za pojam pojam pojam pojam vaš link.",
-        "pojam vaš pojam pojam, vi će pojam na pojam novo pojam od sve pojam pojam korisnici.",
+        "Pokriva sve naknade za pretplatu i transakcije. Bukvalno svaka uplata korisnika na Selldone.",
+        "Šaljemo besplatan $99 vaučer svakome ko se registruje koristeći vaš link.",
+        "Kada se vaš nivo nadogradi, zarađivat ćete po novoj stopi od svih prethodno upućenih korisnika.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "pojam stil",
       subtitle:
-        "pojam ovo pojam za pojam stil pojam kao font, pozadina, pojam, i pojam. pojam pojam pojam za pojam stil:",
+        "Koristite ovaj alat za repliciranje stilova kao što su fontovi, pozadine, margine i ivice. Slijedite ove korake da biste duplicirali stilove:",
       step_1:
-        "pojam pojam pojam i pojam vaš pojam pojam tekst, pojam, ili slike; pojam pojam će pojam za pojam pojam.",
-      step_2: "pojam na pojam pojam pojam stil vi želite za kopiraj.",
+        "Aktivirajte alat i zadržite pokazivač miša preko teksta, kolona ili slika; kursor će se promijeniti u pipetu.",
+      step_2: "Kliknite na element čiji stil želite kopirati.",
       step_3:
-        "pojam pojam će pojam pojam za pojam pojam; pojam na pojam pojam pojam vi želite za primijeni pojam pojam stil.",
+        "Kursor će se vratiti u paletu; kliknite na element na koji želite primijeniti kopirani stil.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "pojam pojam pojam od pojam pojam pojam, pojam pojam sve pojam kategorije za pojam vaš stranica.",
+        "Uključite vidljivost bočnog menija, koji uključuje sve kategorije sekcija za pravljenje vaše stranice.",
     },
     sort_tooltip: {
       subtitle:
-        "pojam ovo pojam za pojam pojam i pojam pojam od pojam njih.",
+        "Omogućite ovu funkciju da lako preuredite i organizirate dijelove tako što ćete ih prevući.",
     },
     edit_mode_tooltip: {
       title: "uredi / pojam način",
@@ -10698,35 +10698,35 @@ export default {
       edit_mode_msg: "sve uredi pojam će biti prikazano.",
       view_mode_title: "pojam način",
       view_mode_msg:
-        "prikaži vaš stranica kao korisnici pojam pogledaj to od pojam dodatno uredi pojam i prazno tekst pojam.",
+        "Pogledajte svoju stranicu onako kako bi je korisnici vidjeli skrivajući dodatne alate za uređivanje i prazna područja teksta.",
     },
     repository_tooltip: {
-      title: "pojam pojam",
+      title: "Unaprijed izgrađene sekcije",
       subtitle:
-        "pojam pojam pojam od pojam pojam. pojam pojam su kreirano pojam pojam pojam pojam dostupno u pojam pojam pojam, pojam pojam pojam od ovo stranica pojam.",
+        "Uključite prikaz unaprijed dizajniranih sekcija. Ovi odeljci su kreirani korišćenjem standardnih sekcija dostupnih u levom meniju, pokazujući fleksibilnost ovog alata za pravljenje stranica.",
     },
     live_view: {
       title: "uživo pojam",
       subtitle: "pogledaj ažuriraj u pojam kao vi uredi vaš stranica.",
     },
     hotkeys_dialog: {
-      title: "pojam pojam",
+      title: "Prečice na tastaturi",
       augment_tips:
-        "vi može pojam pojam pojam pojam vaš stranica i pojam to sa <b>pojam</b> pojam. pojam je pojam za prilagođeno pojam stranice pojam kao <b>proizvodi</b>, <b>kategorije</b>, i <b>pojam stavke</b>. za postavi pojam slika za pojam pojam, pojam na <b>pojam</b> i odaberi <b>pojam pojam</b> za to slika.",
+        "Možete učitati dinamički sadržaj na svoju stranicu i zamijeniti ga sa <b>augment</b> vrijednostima. Povećanje se koristi za prilagođene dinamičke stranice kao što su <b>Proizvodi</b>, <b>Kategorije</b> i <b>Uključi stavke</b>. Da postavite sliku za dinamičko učitavanje, kliknite na <b>Feeder</b> i odaberite <b>Dynamic Source</b> za tu sliku.",
     },
     hotkeys: {
-      ctrl_b: "pojam pojam na/pojam za odabrano tekst | <b>zaradi pojam pojam</b>",
-      ctrl_i: "pojam pojam na/pojam za odabrano tekst | <i>zaradi pojam pojam</i>",
+      ctrl_b: "Uključi/isključi podebljano za odabrani tekst | <b>Učini me podebljanim</b>",
+      ctrl_i: "Uključi/isključi kurziv za odabrani tekst | <i>Napravi me kurzivom</i>",
       ctrl_l:
-        "pojam pojam na/pojam za odabrano tekst | <s>pojam pojam pojam</s>",
-      ctrl_u: "pojam pojam na/pojam za odabrano tekst | <u>pojam pojam</u>",
+        "Uključite/isključite precrtavanje za odabrani tekst | <s>Udri kroz mene</s>",
+      ctrl_u: "Uključivanje/isključivanje podvlačenja za odabrani tekst | <u>Podvuci me</u>",
       ctrl_1:
-        "pojam font veličina od odabrano tekst | <small>zaradi pojam pojam</small>",
-      ctrl_2: "pojam font veličina od odabrano tekst | <big>zaradi pojam pojam</big>",
+        "Smanji veličinu fonta odabranog teksta | <small>Učini me malim</small>",
+      ctrl_2: "Povećaj veličinu fonta odabranog teksta | <big> Učini me velikim</big>",
       ctrl_r: "ukloni sve pojam od odabrano tekst | pojam sve stil",
       ctrl_s: "sačuvaj pojam stranica",
       tab: "pojam između pojam način",
-      ctrl_e: "pojam ili pojam pojam stil način",
+      ctrl_e: "Aktivirajte ili deaktivirajte način kloniranja",
     },
   },
 
@@ -10735,13 +10735,13 @@ export default {
    */
   l_page_editor_repository: {
     title: "prevlačenje & ispuštanje",
-    subtitle: "pojam pojam",
+    subtitle: "Unaprijed izgrađene sekcije",
     add_dialog: {
       title: "dodaj prilagođeno pojam",
       configuration: {
         title: "Postavke",
         subtitle:
-          "vi može sačuvaj pojam pojam za pojam pojam u vaš stranica dizajn. pojam pojam pojam će biti pojam za sve pojam u ovo prodavnica.",
+          "Možete spremiti posebno dizajnirane odjeljke za buduću upotrebu u dizajnu stranica. Ovi sačuvani odjeljci će biti dostupni svim administratorima u ovoj trgovini.",
       },
       image: {
         title: "Slika",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kod",
         subtitle:
-          "vi može kopiraj i pojam pojam pojam kod od pojam pojam pojam pojam u pojam stranica pojam.",
+          "Možete kopirati i zalijepiti kod elementa iz odjeljaka s lijeve strane u alatu za pravljenje stranica.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "Oznake",
-          message: "pojam za pretraži i pojam pojam.",
+          message: "Koristi se za pretraživanje i kategorizaciju elemenata.",
         },
         section: {
-          message: "kopiraj pojam pojam od pojam stranica pojam.",
+          message: "Kopirajte odjeljak iz alata za pravljenje stranica.",
         },
       },
     },
@@ -10774,20 +10774,20 @@ export default {
   marketplace_vendors: {
     title: "prodavci lista",
     subtitle:
-      "dodaj prodavci pojam, pojam pojam njih za proizvodi u pojam proizvod kontrolna ploča > prodavci.",
+      "Ovdje dodajte dobavljače, a zatim ih dodijelite proizvodima na nadzornoj ploči proizvoda > Dobavljači.",
     add_new_vendor_action: "dodaj novo prodavac",
     status_tooltip: {
       title: "prodavac status",
       ACCEPTED: "pojam prodavac ima pristup za njihov pojam.",
       REJECTED: "pojam prodavac pojam ima bilo odbij.",
-      PENDING: "pojam pojam je pojam pojam pojam od pojam prodavac.",
+      PENDING: "Zahtjev čeka odluku prodavca.",
     },
     number_of_products: "pojam od proizvodi",
     invited: "pojam",
     no_pricing: "nema određivanje cijena",
     no_pricing_tooltip: {
       title: "zadano određivanje cijena pojam",
-      subtitle: "molimo postavi pojam zadano određivanje cijena pojam za pojam prodavac.",
+      subtitle: "Molimo postavite zadani model cijena za dobavljača.",
     },
     updated_products_tooltip: {
       title: "proizvodi ažurirano u pojam zadnje 24 sati",
@@ -10798,12 +10798,12 @@ export default {
     access_tooltip: {
       title: "pojam pristup",
       subtitle:
-        "pojam prodavac ima pristup za njihov pojam. vi može uredi ovo u prodavac > pristup pojam.",
+        "Prodavac ima pristup svom panelu. Ovo možete urediti na kartici Dobavljač > Pristup.",
     },
     reject_by_user_tooltip: {
       title: "odbij od korisnik",
       subtitle:
-        "pojam korisnik odbij pojam pojam za pojam pojam prodavac i pristup ovo prodavac.",
+        "Korisnik je odbio zahtjev da postane dobavljač i pristupi ovom dobavljaču.",
     },
     download_all_vendors: "preuzmi sve prodavci",
     bulk_import: "pojam uvezi (pojam)",
@@ -10813,9 +10813,9 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "pojam pojam obavezno!",
+    title: "Potrebna je nadogradnja licence!",
     subtitle:
-      "vaš trenutno pojam pojam nije pojam pojam pojam od vaš odabrano poslovanje pojam. molimo pojam vaš pojam za pojam pojam pojam.",
+      "Vaša trenutna licenca ne ispunjava zahtjeve vašeg odabranog poslovnog modela. Molimo nadogradite svoju licencu na Enterprise plan.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "pojam radnje",
     subtitle:
-      "vi može pojam pojam status ažuriraj e-pošta za pojam pojam sa pojam pojam pojam. pojam, vi može pojam pojam poruka pojam za pojam, pojam vi pojam imati za pojam njih pojam vrijeme.",
+      "Kupcu možete poslati email sa ažuriranjem statusa samo jednim klikom. Osim toga, ovdje možete definirati uobičajene poruke za ponovnu upotrebu, tako da ih ne morate pisati svaki put.",
     send_update_email_action: "pojam ažuriraj e-pošta",
     add_template_action: "dodaj poruka predložak",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "narudžba ažuriraj e-pošta",
       need_set_service_alert: {
         message:
-          "molimo postavi vaš e-pošta usluga pružalac za pojam pojam e-pošta za biti poslano.",
+          "Podesite svog dobavljača usluga e-pošte da dozvoli slanje e-pošte.",
         action: "pojam za postavke",
       },
       send_action: "pojam ažuriraj e-pošta",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "uredi poruka predložak",
       add_title: "dodaj poruka predložak",
       message:
-        "vi pojam postavi pojam naslov i poruka pojam pojam. pojam naslov samo biti pojam za vaš pojam i će nije poslano za pojam kupac.",
+        "Ovdje trebate postaviti naslov i tijelo poruke. Naslov će se koristiti samo za vašu referencu i neće se slati kupcu.",
 
       save_action: "sačuvaj predložak",
       add_action: "dodaj predložak",
@@ -10861,13 +10861,13 @@ export default {
       inputs: {
         title: {
           label: "predložak naslov",
-          placeholder: "pisanje pojam pojam naslov...",
+          placeholder: "Napišite kratak naslov...",
         },
         body: {
           label: "predložak poruka",
           placeholder: "pisanje vaš poruka pojam...",
           messages:
-            "vi može postavi pojam pojam od {order_id} i {buyer_name}.",
+            "Možete postaviti dinamičke vrijednosti pomoću {order_id} i {buyer_name}.",
         },
       },
     },
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "narudžba link",
-    subtitle: "vi može pojam pojam narudžba link sa pojam kupac.",
+    subtitle: "Link za narudžbu možete podijeliti s kupcem.",
     guest_checkout_message:
-      "pojam pojam može automatski prikaži njihov narudžba u pojam pojam pojam.pojam, ako pojam kupac je pojam pojam i vi pojam za pojam pojam narudžba detalji, vi može kreiraj pojam pojam link za njih.",
+      "Gosti kupci mogu automatski pregledati svoju narudžbu u istom pretraživaču. Međutim, ako je kupac gost i trebate podijeliti detalje narudžbe, možete kreirati sigurnu vezu za njih.",
     authentication: "pojam",
     guest: "pojam",
     click_to_create: "pojam za kreiraj...",
@@ -10894,10 +10894,10 @@ export default {
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
-    title: "pojam pojam",
-    add_source_action: "dodaj pojam pojam",
+    title: "Recenzije Izvori",
+    add_source_action: "Dodaj izvor recenzije",
     subtitle:
-      "pojam pojam vanjsko pojam za pojam i pojam pojam pojam vaš poslovanje od pojam pojam Facebook, Google, i više. pojam automatski pojam kupci za njihov pojam za pojam pojam kupac pojam. vi može pojam pojam pojam pojam na vaš pojam stranice i proizvod stranice.",
+      "Lako povežite vanjske platforme za prikupljanje i analizu recenzija o vašem poslovanju iz izvora kao što su Facebook, Google i drugi. Automatski ćemo povezati kupce s njihovim recenzijama za bolje korisničko iskustvo. Ove recenzije također možete prikazati na svojim odredišnim stranicama i stranicama proizvoda.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "dodaj novo svojstvo postavi",
     title: "svojstvo setovi",
     subtitle:
-      "vi može kreiraj i upravljaj svojstvo setovi pojam. svojstvo setovi su pojam za pojam pojam svojstva od proizvodi i usluge. vi može pojam pojam svojstvo setovi za proizvodi u pojam proizvod kontrolna ploča > uredi.",
+      "Ovdje možete kreirati i upravljati skupovima svojstava. Skupovi svojstava se koriste za definiranje svojstava proizvoda i usluga. Ove skupove svojstava možete dodijeliti proizvodima na Nadzornoj ploči proizvoda > Uredi.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "svojstvo postavi - prilagođeno varijante",
       subtitle:
-        "vi može pojam pojam varijanta pojam za ovo proizvod, pojam pojam zadano pojam.",
+        "Možete prilagoditi nazive varijanti za ovaj proizvod, zamjenjujući zadane.",
     },
 
     subtitle:
-      "vi može pojam varijanta pojam, ikona, i njihov narudžba pojam. za proizvodi sa pojam varijante to pojam pojam pojam zadano pojam, vi može postavi prilagođeno varijante pojam za pojam proizvod. pojam pojam svojstvo setovi u pojam logistika > svojstvo setovi pojam i pojam njih za pojam pojam od proizvodi kao pojam.",
+      "Ovdje možete prilagoditi nazive varijanti, ikone i njihov redoslijed. Za proizvode s jedinstvenim varijantama koje prelaze zadanih šest, možete postaviti prilagođene varijante prilagođene svakom proizvodu. Jednostavno definirajte skupove svojstava na kartici Logistic > Property Sets i dodijelite ih bilo kojem broju proizvoda po potrebi.",
     select_property_set: "odaberi svojstvo postavi",
     add_property_set: "dodaj svojstvo postavi",
   },
@@ -10931,7 +10931,7 @@ export default {
     title: "kutije",
     add_action: "dodaj kutija",
     subtitle:
-      "kreiraj pojam kutija veličina za pojam pojam pojam pojam i pojam pojam dostava pojam. pojam pojam pojam narudžba, odaberi pojam pojam kutija i to pojam će pojam.",
+      "Napravite kutije za višekratnu upotrebu kako biste ubrzali kupovinu etiketa i osigurali precizne cijene dostave. Kada ispunjavate narudžbu, odaberite sačuvanu kutiju i njene dimenzije će se automatski popuniti.",
     empty: "nema kutije pojam. pojam “dodaj kutija”.",
     edit: "uredi kutija",
     new: "novo kutija",
@@ -10944,7 +10944,7 @@ export default {
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "odaberi pojam paket",
-    define_package: "pojam pojam paket",
+    define_package: "Definirajte paket",
     define_package_hint: "kreiraj ili uredi vaš pojam paket veličina",
   },
 
@@ -10973,18 +10973,18 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"listing",
-    message:"kreiraj pojam pojam, pojam pojam za pojam pojam od listing—svojstva, pojam, pojam, usluge, i više."
+    message:"Kreirajte pretraživ, moderirani direktorij za bilo koju vrstu unosa - nekretnine, hotele, doktore, usluge i još mnogo toga."
   },
 
   shop_listing: {
     name: "listing",
     message:
-      "kreiraj pojam pojam, pojam pojam za pojam pojam od listing—svojstva, pojam, pojam, usluge, i više.",
+      "Kreirajte pretraživ, moderirani direktorij za bilo koju vrstu unosa - nekretnine, hotele, doktore, usluge i još mnogo toga.",
 
     items: {
       title: "Predmeti",
       sub_title:
-        "kreiraj, uredi, i upravljaj listing stavke. pojam status, određivanje cijena, pojam informacije, i pojam.",
+        "Kreirajte, uredite i upravljajte stavkama na listi. Kontrolirajte status, cijene, kontakt informacije i medije.",
 
       empty_title: "nema stavke pojam",
       empty_subtitle:
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategorije",
       sub_title:
-        "pojam vaš pojam sa kategorije i pojam. ovo pojam pojam i pojam.",
+        "Organizirajte svoj imenik s kategorijama i potkategorijama. Ovo poboljšava navigaciju i filtriranje.",
 
       empty_title: "nema kategorije pojam",
       empty_subtitle:
-        "kreiraj kategorije za pojam vaš listing i pojam pojam.",
+        "Kreirajte kategorije da strukturirate svoj unos i poboljšate pregledavanje.",
 
       add_title: "Dodaj kategoriju",
       edit_title: "Uredi kategoriju",
@@ -11041,7 +11041,7 @@ export default {
 
     options: {
       submission_title: "pojam",
-      submission_enabled: "pojam pojam",
+      submission_enabled: "Omogući podnošenje",
 
       moderation_title: "pojam",
       moderation_mode: "pojam način",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "pojam",
       sub_title:
-        "pojam pojam stavke i pojam pojam pojam pojam: pojam, pojam, odbij, pojam, ili pojam za na čekanju.",
+        "Pregledajte poslane stavke i odlučite šta će se sljedeće dogoditi: odobriti, objaviti, odbiti, arhivirati ili vratiti na stanje na čekanju.",
 
       empty_title: "nema stavke za pojam",
       empty_subtitle:
-        "pojam korisnici pojam novo stavke, pojam će pojam pojam za pojam.",
+        "Kada korisnici pošalju nove stavke, one će se pojaviti ovdje radi moderiranja.",
 
       review_title: "pojam stavka",
       approve_publish: "pojam & pojam",
@@ -11087,14 +11087,14 @@ export default {
       unpublish_success: "stavka pojam uspješno.",
       archive_success: "stavka pojam uspješno.",
       reject_success: "stavka odbij uspješno.",
-      penalty_success: "pojam pojam uspješno.",
+      penalty_success: "Kazna je uspješno primijenjena.",
 
       reject_title: "odbij stavka",
-      reject_reason: "pojam pojam",
+      reject_reason: "Razlog odbijanja",
 
       penalty: "pojam",
       penalty_title: "pojam",
-      penalty_points: "pojam pojam",
+      penalty_points: "Kazneni poeni",
       penalty_note: "pojam bilješka"
     },
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "dizajn",
       sub_title:
-        "kreiraj pojam dizajn setovi (pojam + detalji predlošci) i pojam njih za kategorije. kategorije može pojam pojam dizajn.",
+        "Kreirajte više skupova dizajna (predlošci kartice + detalji) i dodijelite ih kategorijama. Kategorije mogu koristiti različite dizajne.",
 
       empty_title: "nema dizajn pojam",
       empty_subtitle:
-        "dodaj vaš prvo dizajn postavi za početak pojam pojam kategorije pojam.",
+        "Dodajte svoj prvi skup dizajna da biste počeli prilagođavati izgled kategorija.",
 
       add_title: "dodaj dizajn",
       edit_title: "uredi dizajn",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "izbriši dizajn",
       delete_message:
-        "izbriši ovo dizajn? kategorije pojam to će automatski pojam dizajn_pojam.",
+        "Izbrisati ovaj dizajn? Kategorije koje ga koriste će automatski izgubiti design_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "značke",
       sub_title:
-        "kreiraj i upravljaj pojam značke. značke može biti pojam za listing stavke za pojam pojam pojam.",
+        "Kreirajte i upravljajte značkama izloga. Bedževi se mogu dodijeliti stavkama na listi kako bi se istakli posebni atributi.",
 
       empty_title: "nema značke pojam",
       empty_subtitle:
@@ -11166,7 +11166,7 @@ export default {
     companies: {
       title: "Kompanije",
       sub_title:
-        "kreiraj i upravljaj kompanije. pojam listing stavka može pojam biti link za pojam kompanija.",
+        "Kreirajte i upravljajte kompanijama. Svaka stavka na listi može se opciono povezati sa jednom kompanijom.",
 
       empty_title: "nema kompanije pojam",
       empty_subtitle:
@@ -11183,7 +11183,7 @@ export default {
 
       delete_title: "izbriši kompanija",
       delete_message:
-        "izbriši ovo kompanija? stavke pojam to će automatski pojam pojam kompanija link.",
+        "Izbrisati ovu kompaniju? Stavke koje ga koriste automatski će izgubiti vezu sa kompanijom.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "poruka",
       sub_title: "upravljaj poruka poslano od korisnici od listing profili.",
       empty_title: "nema poruka",
-      empty_subtitle: "poruka poslano od korisnici će pojam pojam.",
+      empty_subtitle: "Ovdje će se pojaviti poruke koje šalju korisnici.",
 
       sender: "pojam",
       item: "predmet",
@@ -11201,9 +11201,9 @@ export default {
       has_reply_no: "nema pojam",
 
       dialog_title: "Poruka",
-      owner_reply: "pojam pojam",
+      owner_reply: "Odgovor vlasnika",
       reply: "pojam",
-      reply_hint: "pisanje pojam pojam za pojam korisnik. vi može pojam pojam pojam poruka kao čitanje/pojam od radnje.",
+      reply_hint: "Napišite odgovor korisniku. Takođe možete označiti poruku kao pročitanu/spam iz radnji.",
 
       mark_read: "pojam kao čitanje",
       mark_unread: "pojam kao pojam",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "listing",
-      subtitle: "pojam ili pojam vaš javno listing stranica. pojam omogućeno za pojam prvo vrijeme, Selldone će kreiraj pojam listing konfiguracija automatski.",
+      subtitle: "Omogućite ili onemogućite svoju javnu stranicu na listi. Kada se omogući prvi put, Selldone će automatski kreirati konfiguraciju liste.",
       true_description: "listing je omogućeno. kupci može pojam listing stranice.",
-      false_description: "listing je onemogućeno. pojam listing stranice i pojam su pojam.",
+      false_description: "Listing je onemogućen. Stranice sa listingom i podnesci su blokirani.",
       open_listing: "otvori listing",
-      note: "vi može pojam pojam pojam, ograničenja, obrasci, i dizajn pojam listing postavke.",
+      note: "Kasnije možete konfigurirati moderiranje, ograničenja, forme i dizajn unutar postavki Listinga.",
       vendor_prereq_text:
-        "želite prodavci za dodaj listing stavke od njihov prodavac pojam? prvo, pojam vaš poslovanje pojam za tržište.",
+        "Želite da dobavljači dodaju stavke na listi sa svoje ploče dobavljača? Prvo, prebacite svoj poslovni model na Marketplace.",
       vendor_prereq_button: "postavi tržište poslovanje pojam",
 
       vendor_access_text:
-        "sada vi može pojam pojam prodavci može pristup listing pojam (stavke + kompanije). pojam to u tržište postavke.",
+        "Sada možete odlučiti da li dobavljači mogu pristupiti funkcijama Listinga (stavke + kompanije). Omogućite ga u postavkama Marketplace-a.",
       vendor_access_button: "pojam listing za prodavci",
 
       more_options_text:
-        "više pojam su dostupno u listing postavke. vi može pojam unosi, UI/pojam, pojam, ograničenja, i pojam opcije.",
+        "Više kontrola je dostupno u postavkama liste. Možete konfigurirati unose, korisničko sučelje/izgled, moderaciju, ograničenja i opcije monetizacije.",
       more_options_button: "pojam za listing postavke",
 
       updated: "listing ažurirano.",
@@ -11241,22 +11241,22 @@ export default {
 
     search: {
       title: "pretraži postavke",
-      subtitle: "dizajn pojam kupci pretraži vaš listing. pojam pojam pretraži i pojam pojam od vaš prilagođeno obrazac polja.",
+      subtitle: "Dizajnirajte kako klijenti pretražuju vaš unos. Omogućite pretraživanje na temelju lokacije i izgradite filtere iz prilagođenih polja obrasca.",
 
       location_title: "lokacija pretraži",
-      location_subtitle: "pojam kupci za pojam pojam lokacija i pojam pojam pojam pojam pojam pojam pojam.",
+      location_subtitle: "Omogućite kupcima da odaberu lokaciju i pronađu rezultate u blizini unutar podesivog radijusa.",
       location_enabled_true: "lokacija pojam je omogućeno. kupci može pretraži od udaljenost.",
-      location_enabled_false: "lokacija pojam je onemogućeno. pojam će nije biti pojam od udaljenost.",
+      location_enabled_false: "Filter lokacije je onemogućen. Rezultati se neće filtrirati prema udaljenosti.",
 
       radius_default: "zadano pojam (pojam)",
-      radius_default_hint: "pojam pojam pojam kupac odaberi pojam lokacija pojam pojam nije pojam pojam pojam.",
+      radius_default_hint: "Koristi se kada kupac odabere lokaciju, ali ne odabere radijus.",
       radius_max: "maksimum pojam (pojam)",
-      radius_max_hint: "pojam pojam pojam će biti pojam za ovo pojam.",
+      radius_max_hint: "Radijus izloga će biti pričvršćen na ovu vrijednost.",
       radius_options: "pojam opcije (pojam)",
-      radius_options_hint: "pojam pojam može biti prikazano kao pojam opcije u pojam pojam UI.",
+      radius_options_hint: "Ove vrijednosti se mogu prikazati kao brze opcije u korisničkom sučelju izloga.",
 
       filters_title: "pretraži pojam",
-      filters_subtitle: "dodaj pojam to čitanje pojam od stavka Meta polja (vaš listing/kategorija obrazac polja). pojam pojam za pojam pojam opcije od pojam stavke.",
+      filters_subtitle: "Dodajte filtere koji čitaju vrijednosti iz meta polja stavke (polja obrasca vaše liste/kategorije). Koristite automatsko generiranje da prikupite stvarne opcije iz objavljenih stavki.",
       no_filters: "nema pojam dodaj pojam.",
       auto_generate: "pojam opcije",
 
@@ -11269,7 +11269,7 @@ export default {
       single: "pojam",
       kv_mode: "ključ/pojam način",
 
-      requires_listing_active: "listing je nije aktivno. pojam listing prvo za pojam to na pojam pojam.",
+      requires_listing_active: "Oglas nije aktivan. Prvo omogućite Listing da biste ga koristili na izlogu.",
 
 
     },
@@ -11323,17 +11323,17 @@ export default {
      */
     shop_email: {
       name: [
-        "pojam pojam pojam pojam",
+        "Super Savings Weekend Blast",
         "Otkrivene ekskluzivne insajderske ponude",
         "Vaš VIP pristup Premium popustima",
         "Ekstravaganca sezonske rasprodaje",
         "Otključajte svoj raj za kupovinu",
         "Karneval velikog kupca",
-        "pojam pojam pojam pojam",
+        "Spring Fling Shopping Spree",
         "Jesenske ponude kojima ne možete odoljeti",
         "Zimska čuda: tople ponude za hladne dane",
         "Odbrojavanje do kraja ljeta",
-        "pojam pojam pojam: pojam pojam pristup",
+        "Black Friday Bonanza: Early Bird Access",
         "Hello Holidays: Vaš vodič za poklone i više",
         "Svježa otkrića: novi dolasci samo za vas",
         "Loyalty Rewarded: Ekskluzivni popusti unutra",
@@ -11431,24 +11431,24 @@ export default {
      */
     coupon: {
       title: [
-        "pojam pojam",
+        "Savings Unleashed",
         "Otključajte popust",
-        "pojam pojam",
+        "Super Savings",
         "Ekskluzivna ponuda",
-        "pojam pojam",
+        "Bonus Savings",
         "VIP popust",
         "Specijalna ponuda",
         "dodatno pojam",
         "popust pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Budget Bliss",
+        "Economy Delight",
+        "Value Bonanza",
         "cijena pojam",
         "Srećna ušteda",
         "Uštedite više, kupujte više",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Flash Deal",
+        "Bargain Bounty",
+        "Instant Savings",
         "Dogovor dana",
         "Sezonska krađa",
       ],
@@ -11481,7 +11481,7 @@ export default {
         "Paket i velika ušteda!",
         "Kupite više, uštedite više!",
         "Pametne ponude za pametne kupce",
-        "popust pojam! pojam pojam",
+        "Discount Alert! Bundle Savings",
         "Kombinirana ponuda - Više za manje",
         "Ekskluzivne uštede na paketima",
         "Dobijte više za svoj novac!",
@@ -11599,11 +11599,11 @@ export default {
       ],
 
       cons_name: [
-        "pojam pojam",
+        "Pricey Investment",
         "Ograničena kompatibilnost",
-        "pojam pojam",
+        "Complex Setup",
         "Zahteva obuku",
-        "pojam pojam",
+        "Subpar Performance",
         "Nedostaje svestranost",
         "Ograničena podrška",
         "Često održavanje",
@@ -11630,16 +11630,16 @@ export default {
      */
     blog_category: {
       category: [
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Tech Insights",
+        "Foodie Finds",
+        "Travel Tales",
         "Zdravstveni savjeti",
-        "pojam pojam",
+        "Fashion Faves",
         "poslovanje pojam",
-        "pojam pojam",
+        "Lifestyle Stories",
         "pojam ažuriraj",
-        "pojam pojam",
-        "pojam pojam",
+        "Art Highlights",
+        "Parenting Pointers",
       ],
       description: [
         "Otkrijte pronicljive članke o raznim temama.",
@@ -11660,16 +11660,16 @@ export default {
      */
     partner_plan: {
       name: [
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Starter Pack",
+        "Essential Plan",
+        "Professional Suite",
+        "Enterprise Edition",
         "Napredni nivo",
         "Premium paket",
-        "pojam pojam",
+        "Ultimate Solution",
         "Elitni nivo",
-        "pojam pojam",
-        "pojam pojam",
+        "Growth Accelerator",
+        "Platinum Power",
       ],
     },
 
@@ -11687,7 +11687,7 @@ export default {
         "Sportska roba",
         "Igračke i igre",
         "Nakit i dodaci",
-        "pojam pojam",
+        "Automotive Parts",
         "pojam & pojam",
         "Kuhinjski pribor",
         "početna pojam",
@@ -11718,25 +11718,25 @@ export default {
      */
     cluster: {
       name: [
-        "pojam pojam",
+        "Sale Highlights",
         "Promo kodovi",
         "Istaknute kampanje",
         "Novopridošli",
         "Najprodavaniji",
         "Sezonske ponude",
         "Ograničene ponude",
-        "pojam pojam",
+        "Event Deals",
         "VIP pojam",
         "pojam stavke",
-        "pojam pojam",
+        "Holiday Bundles",
         "Tematske kolekcije",
-        "pojam pojam",
+        "Brand Showcases",
         "Favoriti članova",
         "Flash popusti",
         "prodavnica pojam",
-        "pojam pojam",
+        "Digital Resources",
         "Ideje za poklone",
-        "pojam pojam",
+        "Eco-friendly Picks",
         "Preporuke osoblja",
       ],
     },
@@ -11751,13 +11751,13 @@ export default {
         "Ograničeno vrijeme",
         "popust pojam!",
         "Ekskluzivne ponude",
-        "pojam pojam!",
-        "pojam pojam",
+        "Hot Sale!",
+        "Clearance Alert",
         "Besplatni transport",
-        "pojam pojam!",
+        "Gift Inside!",
         "Osvojite nagrade",
         "Pogodnosti za članove",
-        "pojam pojam",
+        "Flash Sale",
       ],
     },
 
@@ -11767,25 +11767,25 @@ export default {
     campaign: {
       name: [
         "Kupujte dok ne padnete",
-        "pojam pojam",
-        "pojam pojam pojam",
+        "Cart Frenzy",
+        "Flash Sale Fiesta",
         "Kliknite, kupujte, sačuvajte",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam pojam",
-        "pojam pojam pojam",
+        "Bargain Bonanza",
+        "E-Deal Extravaganza",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Dani digitalnih popusta",
         "Karneval e-trgovine",
-        "online pojam pojam",
-        "pojam pojam",
+        "Online Outlet Oasis",
+        "Retail Rush",
         "Prodaja skladišta web prodavnice",
-        "pojam pojam",
-        "pojam pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "online pojam pojam",
+        "E-Shopper's Paradise",
+        "Virtual Voucher Venture",
+        "Digital Doorbusters",
+        "E-Cart Clearance",
+        "Online Shopping Showdown",
         "Cyber Sale Spektakularna",
-        "pojam pojam",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11797,7 +11797,7 @@ export default {
         "Prilagođavanje T-Shirt Cijene",
         "Procjena ručno rađenog nakita",
         "Personalizirane cijene cipela",
-        "prilagođeno pojam pojam",
+        "Custom Artwork Valuation",
         "Prilagođene cijene odijela",
         "Trošak prilagođavanja elektronskih uređaja",
         "Personalizirana procjena parfema",
@@ -11820,7 +11820,7 @@ export default {
           "Štampani dizajn majica",
           "Metalni tip nakita",
           "Izbor materijala za cipele",
-          "pojam pojam veličina",
+          "Art Frame Size",
           "Odabir tkanina za odijelo",
           "pojam boja opcija",
           "Profil mirisa parfema",
@@ -11832,7 +11832,7 @@ export default {
           "Prilagođene karakteristike igračaka",
           "Veličina i boja šešira",
           "Preference sastojaka za njegu kože",
-          "početna pojam pojam",
+          "Home Decor Theme",
           "Materijal kuhinjskog posuđa",
           "Tip papira za papir",
           "Materijal za kosu",
@@ -11847,25 +11847,25 @@ export default {
     lottery: {
       title: [
         "Okrenite i osvojite velike nagrade!",
-        "pojam pojam pojam",
-        "pojam pojam pojam",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Okrenite da biste osvojili nagrade",
         "pojam od pojam",
         "Ekstravaganca Lucky Lottery",
-        "pojam pojam pojam",
-        "pojam pojam pojam",
-        "pojam pojam pojam",
-        "pojam pojam pojam pojam",
-        "pojam pojam pojam",
-        "pojam pojam",
+        "Mega Spin Surprise",
+        "Prize Wheel Fiesta",
+        "Treasure Spin Spectacular",
+        "Spin the Wheel Magic",
+        "Lucky Wheel Galore",
+        "Fortune's Favor",
         "pojam od pojam",
         "Spin za bogatstvo",
-        "pojam pojam pojam",
+        "Prize Spinner Delight",
         "Golden Spin lutrija",
         "pojam",
         "pojam od pojam",
-        "pojam pojam pojam",
-        "pojam pojam pojam",
+        "Lucky Spin Showcase",
+        "Ultimate Spin Reward",
       ],
       description: [
         "Zavrtite volan za priliku da osvojite ekskluzivne popuste!",
@@ -11897,47 +11897,47 @@ export default {
     subscription_price: {
       title: [
         "pojam pristup",
-        "pojam pojam",
+        "Premium članstvo",
         "pojam paket",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Srebrni plan",
+        "Platinum Pretplata",
+        "Enterprise Tier",
+        "Starter Bundle",
         "pojam ponuda",
-        "pojam pojam",
-        "pojam pojam",
+        "Porodični paket",
+        "Professional Suite",
       ],
       description: [
-        "pojam za pojam pojam pojam pojam.",
-        "pristup za sve pojam pojam i pojam.",
-        "pojam pojam i pojam pojam.",
-        "pojam pojam paket za pojam korisnici.",
-        "pojam pristup sa pojam pojam.",
-        "prilagođeno pojam za pojam pojam.",
-        "pojam pojam pojam opcija.",
-        "nema ograničenja na pojam, za pojam pojam korisnik.",
-        "pojam pojam pojam za pojam, pojam za 4 članovi.",
-        "dizajn za pojam pojam pojam pojam.",
+        "Idealno za pojedince koji istražuju osnove.",
+        "Pristup svim premium funkcijama i sadržaju.",
+        "Ekskluzivne pogodnosti i prioritetna podrška.",
+        "Izbalansiran paket za redovne korisnike.",
+        "Vrhunski pristup uz vrhunske pogodnosti.",
+        "Prilagođena rješenja za velike organizacije.",
+        "Pristupačna opcija za početnike.",
+        "Nema ograničenja u upotrebi, za napredne korisnike.",
+        "Poseban plan za porodice, do 4 člana.",
+        "Dizajniran za profesionalce koji traže napredne alate.",
       ],
     },
 
     spec: {
       group: [
         "Tehničke specifikacije",
-        "pojam pojam",
-        "pojam pojam",
+        "Fizičke dimenzije",
+        "Karakteristike performansi",
         "pojam opcije",
-        "pojam pojam",
-        "Material i pojam pojam",
+        "Zahtjevi za napajanje",
+        "Kvalitet materijala i izrade",
         "boja i pojam opcije",
         "pojam i pojam",
-        "pojam pojam pojam",
+        "Kompatibilnost operativnog sistema",
         "pojam i pojam",
         "paket pojam",
         "pojam i pojam",
         "pojam i pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Environmental Friendliness",
+        "Energetska efikasnost",
         "pojam i pojam",
         "pojam opcije",
         "uključeno pojam",
@@ -11949,12 +11949,12 @@ export default {
     avocado: {
       title: [
         "pojam potvrda",
-        "pojam pojam",
+        "Potvrda o prodaji",
         "narudžba faktura",
         "plaćanje faktura",
         "kupac potvrda",
         "transakcija pojam",
-        "pojam pojam",
+        "Izvod o naplati",
         "pojam potvrda",
         "narudžba pojam",
         "pojam narudžba faktura",
@@ -11973,23 +11973,23 @@ export default {
         "pojam vi za vaš pojam!",
         "mi pojam vaš poslovanje.",
         "vaš narudžba je na to pojam!",
-        "pojam za pojam sa pojam.",
-        "pojam pojam za pojam vi pojam.",
-        "vaš pojam je pojam pojam pojam.",
-        "pojam pojam za pojam vaš pojam.",
-        "pojam vi za pojam pojam prodavnica.",
-        "mi pojam vi pojam vaš novo pojam!",
-        "sačuvaj vaš faktura za pojam pojam.",
-        "pojam pojam pojam za više pojam proizvodi.",
-        "pojam pojam za pojam ponuda.",
-        "pojam vi za biti pojam pojam kupac.",
-        "pojam pojam za pojam ako vi pojam pojam.",
-        "vaš pojam pojam pojam pojam.",
-        "pojam pojam pojam popust na vaš pojam pojam.",
-        "pojam pojam pojam pojam pojam!",
-        "pojam vi za vaš pojam u pojam.",
-        "pojam pojam za vaš pojam.",
-        "pojam pojam pojam vi od pojam tim.",
+        "Hvala što kupujete kod nas.",
+        "Radujemo se što ću vas ponovo poslužiti.",
+        "Vaše zadovoljstvo je naš glavni prioritet.",
+        "Ne zaboravite ocijeniti svoje iskustvo.",
+        "Hvala vam što podržavate našu trgovinu.",
+        "Nadamo se da ćete uživati ​​u novoj kupovini!",
+        "Sačuvajte svoju fakturu za buduću upotrebu.",
+        "Posjetite nas ponovo za još sjajnih proizvoda.",
+        "Ostanite povezani za ekskluzivne ponude.",
+        "Hvala vam što ste cijenjeni kupac.",
+        "Tu smo da pomognemo ako vam treba pomoć.",
+        "Vaše povratne informacije nam pomažu da se poboljšamo.",
+        "Uživajte u posebnom popustu na sljedeću kupovinu.",
+        "Napravili ste odličan izbor!",
+        "Hvala vam na ukazanom povjerenju.",
+        "Radujemo se vašim povratnim informacijama.",
+        "Od srca hvala od našeg tima.",
       ],
     },
 
@@ -12001,22 +12001,22 @@ export default {
         "svojstvo pojam",
         "prodavac pojam",
         "pojam početna",
-        "pojam pojam",
+        "Lokalno tržište",
         "Novopridošli",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Estate Gardens",
+        "Shopping District",
+        "Artisan Alley",
+        "Luxury Estates",
+        "Rental Hub",
         "otvori pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
-        "pojam pojam",
+        "Tech Innovations",
+        "Fashion Lane",
+        "Crafts Corner",
+        "Food Court",
+        "Book Nook",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Fitness Zone",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "poslovanje pojam pojam",
-        "porez pojam pojam (TIN)",
+        "Potvrda o registraciji poslovanja",
+        "Poreski identifikacijski broj (PIB)",
         "prodavac pojam obrazac",
         "proizvod pojam",
         "određivanje cijena lista",
         "banka račun detalji",
         "pojam od adresa",
-        "pojam pojam",
+        "Potvrda o osiguranju",
         "kompanija profil",
-        "pojam pojam pojam",
+        "Certifikat osiguranja kvaliteta",
         "pojam podaci tabela (SDS)",
         "proizvod pojam informacije",
         "povrat pojam",
-        "dostava i pojam pojam",
+        "Procedure otpreme i rukovanja",
         "kupac usluga pojam",
-        "pojam i pojam pojam",
-        "pojam pojam link",
-        "pojam pojam",
+        "Marketing i promotivni planovi",
+        "Linkovi društvenih medija",
+        "Trade References",
         "pojam kod od pojam",
-        "pojam pojam (NDA)",
+        "Ugovor o neotkrivanju podataka (NDA)",
       ],
     },
 
@@ -12056,22 +12056,22 @@ export default {
         "tržište pojam usluge pojam",
         "prodavnica konfiguracija pojam",
         "pojam usluge pojam",
-        "pojam pojam usluga pojam",
-        "pojam pojam pojam pojam",
-        "pojam pojam pojam za poslovanje pojam",
+        "Ugovor o uslugama digitalnog marketinga",
+        "Ugovor o postavljanju platforme za e-trgovinu",
+        "Ugovor o stručnom savjetovanju za vlasnike poduzeća",
         "usluga pojam za tržište konfiguracija",
         "prodavnica pojam i konfiguracija usluge pojam",
-        "POD usluga pojam pojam",
-        "pojam pojam pojam pojam",
+        "POD Ugovor o pružanju usluga",
+        "Ugovor o implementaciji marketinške strategije",
         "poslovanje pojam usluga pojam",
-        "pojam prodavnica pojam pojam",
-        "pojam usluga pojam pojam",
-        "poslovanje pojam i pojam pojam",
+        "Ugovor o postavljanju prodavnice e-trgovine",
+        "Ugovor o pružanju stručnih usluga",
+        "Ugovor o poslovnom rješenju i postavljanju",
         "prilagođeno prodavnica pojam usluge pojam",
         "tržište pojam usluga pojam",
-        "pojam i pojam usluge pojam",
+        "Ugovor o uslugama konsaltinga i podešavanja",
         "POD pojam usluge pojam",
-        "pojam i pojam usluge pojam",
+        "Ugovor o uslugama marketinga i promocije",
         "poslovanje pojam usluga pojam",
       ],
     },
@@ -12100,37 +12100,37 @@ export default {
     cashback: {
       title: [
         "prodavnica & pojam povrat novca",
-        "pojam pojam povrat novca",
+        "Loyalty Rewards Cashback",
         "pojam povrat novca ponuda",
         "povrat novca pojam",
         "pojam povrat novca pojam",
         "pojam povrat novca pojam",
         "pojam povrat novca dani",
-        "povrat novca na pojam pojam",
+        "Povrat novca za svaku kupovinu",
         "povrat novca pojam",
         "VIP povrat novca pojam",
         "ograničenje vrijeme povrat novca",
-        "povrat novca pojam pojam",
+        "Cashback Rewards Club",
         "prodavnica više, sačuvaj više",
         "pojam povrat novca pojam",
         "povrat novca pojam",
       ],
       description: [
-        "pojam povrat novca na pojam pojam!",
-        "pojam pojam za vaš pojam.",
+        "Zaradite cashback pri svakoj kupovini!",
+        "Dobijte nagradu za svoju lojalnost.",
         "pojam povrat novca ponuda pojam za vi.",
-        "pojam pojam pojam sa povrat novca pojam.",
+        "Uživajte u velikim uštedama uz povrat novca.",
         "pojam povrat novca na sve vaš pojam stavke.",
         "sačuvaj više sa pojam povrat novca pojam.",
         "pojam vaš povrat novca na pojam dani!",
         "pojam povrat novca pojam vrijeme vi prodavnica.",
-        "pojam pojam povrat novca pojam danas!",
-        "VIP članovi pojam pojam povrat novca.",
+        "Pridružite se ludnici za povrat novca danas!",
+        "VIP članovi uživaju u ekskluzivnom povratu novca.",
         "pojam! ograničenje vrijeme povrat novca ponuda.",
-        "pojam pojam povrat novca pojam pojam sada.",
+        "Pridružite se našem Cashback Rewards Clubu sada.",
         "pojam više vi prodavnica, pojam više vi sačuvaj.",
-        "pojam pojam pojam povrat novca pojam.",
-        "pojam pojam pojam povrat novca pojam pojam.",
+        "Otključajte vrhunske nagrade za povrat novca.",
+        "Iskusite najbolje cashback ponude.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "pojam za {shop} - pojam pojam pojam pojam od stavke",
-        "{shop} - vaš pojam pojam za pojam pojam i pojam usluga",
-        "pojam pojam i pojam samo na {shop} - pojam pojam pojam!",
-        "pojam za pojam {shop}'pojam pojam za pojam i pojam pojam",
-        "pojam pojam pojam od pojam {shop} pojam - pojam za pojam pojam za ažuriraj",
-        "pojam pojam pojam pojam i pojam pojam na {shop}",
-        "pojam pojam i pojam pojam za sve pojam na {shop}",
-        "pojam ponuda i pojam pojam na {shop} - pojam pojam!",
-        "{shop}'pojam pojam pojam pojam i proizvod pojam - prodavnica sa pojam",
-        "pojam pojam za {shop} - mi pojam za pojam pojam pojam pojam pojam",
+        "Dobrodošli u {shop} - Istražite naš poseban asortiman artikala",
+        "{shop} - Vaš krajnji izvor za kvalitetnu robu i izvanrednu uslugu",
+        "Ekskluzivne ponude i uštede samo na {shop} - Iskoristite priliku!",
+        "Upoznajte {shop} posvećenost ekološkoj prihvatljivosti i etičkoj praksi",
+        "Postanite dio {shop} porodice - Pretplatite se na naš bilten za ažuriranja",
+        "Zaronite u najbolje odabire i robu s visokim ocjenama na {shop}",
+        "Predstavite ideje i kreativne prijedloge za sve događaje na {shop}",
+        "Ponude bez premca i specijalne ponude osjetljive na vrijeme na {shop} - Djelujte brzo!",
+        "{shop} sveobuhvatni savjeti za kupovinu i ocjene proizvoda - kupujte s povjerenjem",
+        "Obratite se {shop} - nastojimo pružiti neusporedivo iskustvo kupovine",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "pojam vaš pojam, pojam pojam postavi!",
-        "sačuvaj pojam sa pojam pojam pojam!",
-        "pojam pojam pojam pojam pojam!",
-        "pojam vaš pojam, pojam pojam!",
-        "pojam pojam pojam, pojam pojam!",
+        "Upotpunite svoj izgled, uzmite set!",
+        "Uštedite velike uz naše paketne ponude!",
+        "Ne propustite naše savršene parove!",
+        "Poboljšajte svoju kupovinu, dodaci čekaju!",
+        "Otključajte ekskluzivne uštede, kupujte zajedno!",
         "pojam stavke, pojam popust!",
-        "pojam više, pojam pojam – pojam pojam!",
+        "Dobijte više, potrošite manje – u paketu!",
         "pojam ponuda: pojam proizvodi!",
-        "pojam vaš pojam, pojam pojam!",
-        "pojam pojam pojam pojam, sačuvaj sada!",
-        "pojam to pojam za pojam pojam pojam!",
+        "Nadogradite svoje iskustvo, kombinovane ponude!",
+        "Otkrijte naše odabrane kombinacije, uštedite sada!",
+        "Uparite ga za vrhunsku kombinaciju!",
         "prodavnica pojam, pojam i sačuvaj!",
-        "pojam pojam pojam, pojam pojam pojam!",
-        "vaš pojam pojam je pojam – prodavnica sada!",
-        "pojam pojam određivanje cijena pojam za vi!",
-        "pojam vaš pojam sa pojam pojam!",
-        "pojam vaš pojam sa pojam pojam!",
+        "Udvostručite vrijednost, udvostručite zabavu!",
+        "Vaš savršeni spoj je ovdje – kupujte odmah!",
+        "Ekskluzivne paketne cijene samo za vas!",
+        "Maksimalno povećajte svoje uštede uz naše kombinacije!",
+        "Obogatite svoju kolekciju ovim odabirom!",
         "pojam za vi: pojam i sačuvaj!",
-        "pojam pojam pojam za pojam pojam pojam!",
-        "pojam vaš pojam za dodatno pojam!",
+        "Savršen par za savršen dan!",
+        "Skupite svoje favorite za dodatnu uštedu!",
       ],
     },
 
@@ -12185,17 +12185,17 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "pojam pojam",
+        "Digitalna roba",
         "pojam",
         "pojam",
         "pojam",
         "početna pojam",
         "pojam proizvodi",
-        "pojam pojam",
+        "Sportska oprema",
         "Igračke i igre",
         "Namirnice",
         "Namještaj",
-        "pojam pojam",
+        "Automotive Parts",
         "Nakit",
         "pojam & pojam",
         "Potrepštine za kućne ljubimce",
@@ -12204,7 +12204,7 @@ export default {
         "pojam & TV prikaži",
         "Softver",
         "pojam & pojam",
-        "pojam pojam",
+        "Outdoor Gear",
       ],
     },
 
@@ -12218,7 +12218,7 @@ export default {
         "narudžba pojam",
         "plaćanje primljeno",
         "narudžba pojam",
-        "narudžba pojam pojam",
+        "Kašnjenje obrade narudžbe",
         "narudžba na pojam",
         "narudžba pojam za isporuka",
         "povrat pojam",
@@ -12226,27 +12226,27 @@ export default {
         "stavka pojam u pojam",
       ],
       body: [
-        "pojam {buyer_name}, vaš narudžba #{order_id} ima bilo potvrdi! pojam pojam to i će pojam vi pojam to pojam za pojam.",
+        "Zdravo {buyer_name}, vaša narudžba #{order_id} je potvrđena! Obrađujemo ga i obavijestit ćemo vas kada bude spreman za isporuku.",
 
-        "pojam novo, {buyer_name}! vaš narudžba #{order_id} ima bilo pojam. vi može pojam to pojam vaš račun. pojam za pojam sa pojam!",
+        "Dobre vijesti, {buyer_name}! Vaša narudžba #{order_id} je poslana. Možete ga pratiti putem svog naloga. Hvala što kupujete sa nama!",
 
-        "pojam {buyer_name}, vaš narudžba #{order_id} ima bilo uspješno pojam. mi pojam vi pojam vaš pojam. pojam vi!",
+        "Zdravo {buyer_name}, vaša narudžba #{order_id} je uspješno isporučena. Nadamo se da ćete uživati ​​u kupovini. Hvala vam!",
 
-        "pojam {buyer_name}, mi imati primljeno pojam plaćanje za narudžba #{order_id}. vaš narudžba je sada biti pojam i će biti pojam uskoro.",
+        "Zdravo {buyer_name}, primili smo uplatu za narudžbu #{order_id}. Vaša narudžba se trenutno obrađuje i uskoro će biti poslana.",
 
-        "pojam {buyer_name}, pojam pojam za pojam vi to vaš narudžba #{order_id} ima bilo pojam. ako vi imati pojam pojam, molimo pojam pojam.",
+        "Poštovani {buyer_name}, sa žaljenjem vas obavještavamo da je vaša narudžba #{order_id} otkazana. Ako imate bilo kakvih pitanja, obratite se podršci.",
 
-        "pojam {buyer_name}, pojam pojam pojam pojam sa vaš narudžba #{order_id}. mi pojam za pojam pojam i su pojam za pojam to kao uskoro kao pojam.",
+        "Poštovani {buyer_name}, imamo kašnjenje s vašom narudžbom #{order_id}. Izvinjavamo se zbog neugodnosti i radimo na tome da ih riješimo što je prije moguće.",
 
-        "pojam {buyer_name}, vaš narudžba #{order_id} je pojam na pojam. molimo pojam vaš račun ili pojam pojam za pojam detalji.",
+        "Zdravo {buyer_name}, vaša narudžba #{order_id} je trenutno na čekanju. Provjerite svoj račun ili kontaktirajte podršku za više detalja.",
 
-        "pojam {buyer_name}, vaš narudžba #{order_id} je pojam za isporuka i pojam pojam vi uskoro. pojam vi za vaš pojam!",
+        "Zdravo {buyer_name}, vaša narudžba #{order_id} je za isporuku i uskoro bi trebala stići. Hvala vam na strpljenju!",
 
-        "pojam {buyer_name}, mi imati pojam pojam povrat za vaš narudžba #{order_id}. ako vi imati pojam pojam, molimo pojam pojam.",
+        "Poštovani {buyer_name}, obradili smo povrat vaše narudžbe #{order_id}. Ako imate bilo kakvih pitanja, obratite se podršci.",
 
-        "pojam {buyer_name}, vaš povrat za narudžba #{order_id} ima bilo pojam. vi pojam pogledaj pojam pojam u vaš račun uskoro.",
+        "Zdravo {buyer_name}, vaš povrat novca za narudžbu #{order_id} je izdan. Uskoro biste trebali vidjeti sredstva na svom računu.",
 
-        "pojam {buyer_name}, pojam stavka od vaš narudžba #{order_id} je pojam u pojam! vi može pojam pojam novo narudžba sada ako pojam pojam pojam.",
+        "Zdravo {buyer_name}, artikal iz vaše narudžbe #{order_id} se vratio na zalihu! Sada možete napraviti novu narudžbu ako ste i dalje zainteresovani.",
       ],
     },
 
@@ -12256,26 +12256,26 @@ export default {
     property_set: {
       title: [
         "pojam",
-        "pojam pojam",
+        "Digitalni gadgeti",
         "pojam",
         "Hrana",
         "Namještaj",
         "pojam",
         "pojam proizvodi",
         "pojam",
-        "pojam pojam",
+        "Sportska oprema",
         "pojam",
       ],
       description: [
-        "pojam za pojam stavke pojam veličina, boja, i pojam.",
-        "pojam za pojam pojam kao pojam, pojam, i pojam.",
-        "pojam, veličina, i pojam od pojam.",
-        "detalji za pojam, pojam, i pojam proizvodi.",
+        "Atributi za odjevne predmete kao što su veličina, boja i tkanina.",
+        "Specifikacije za gadgete kao što su marka, model i karakteristike.",
+        "Okusi, veličine i vrste pića.",
+        "Detalji za obroke, grickalice i prehrambene proizvode.",
         "Material, pojam, i dizajn stil.",
-        "pojam, pojam, i pojam pojam.",
-        "pojam pojam, pojam, i pojam detalji.",
-        "pojam pojam, pojam, i pojam pojam.",
-        "pojam, veličina, i pojam pojam.",
+        "Autor, žanr i godina izdanja.",
+        "Tip kože, sastojci i detalji pakovanja.",
+        "Starosna grupa, materijal i sigurnosni standardi.",
+        "Tip, veličina i karakteristike performansi.",
         "stil, pojam, i pojam detalji.",
       ],
     },
@@ -12298,8 +12298,8 @@ export default {
         "kutija pojam",
         "kutija pojam",
         "kutija pojam",
-        "kutija pojam pojam",
-        "kutija pojam pojam", // flexible mailer
+        "Kutija za staklene boce",
+        "Box Soft Pack", // flexible mailer
         "kutija pojam", // bubble/padded
         "kutija pojam", // thermal
         "kutija pojam",

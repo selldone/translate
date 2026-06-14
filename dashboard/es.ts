@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Almacenar aplicaciones activas",
         subtitle:
-          "Selldone Administre sus aplicaciones comerciales.",
+          "Descubra la facilidad de administrar sus aplicaciones comerciales con Selldone App Store. Nuestra plataforma ofrece un conjunto completo de herramientas diseñadas para optimizar sus operaciones comerciales. Desde soluciones de gestión innovadoras hasta aplicaciones que aumentan la productividad, Selldone ofrece una experiencia perfecta para las empresas que buscan eficiencia y crecimiento.",
         all: "todos",
       },
       /** {@see BAppShopStore} **/
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b></b><br /><b></b><b><s></s></b> Configura y gestiona esta opción para tu tienda. {filename}",
       how_set_name:
-        "<b></b><br /> Configura y gestiona esta opción para tu tienda.",
+        "<b>Consejos para nombrar:</b><br />Los primeros 12 caracteres del nombre del archivo cargado se utilizarán como nombre del recurso. Esta característica es ideal para mostrar aspectos personalizables de un producto, como tamaños de neumáticos para motocicletas o patrones de telas. Para optimizar el uso de esta función, evite cargar imágenes variantes aquí a menos que la cantidad de recursos gráficos sea inferior a 100, como diferentes tipos de madera para muebles.",
     },
   },
 
@@ -4263,7 +4263,7 @@ export default {
   vendor_order_refund: {
     title: "Reembolso Pedido",
     subtitle:
-      "<b></b><b></b> Configura y gestiona esta opción para tu tienda.",
+      "<b>¡Importante! </b>Al ejecutar esta acción se generará una transacción negativa en la billetera del proveedor y se le restará el monto elegido. El monto no puede exceder el total de transacciones restantes para el pedido seleccionado. Además, si los fondos se han transferido a cuentas bancarias conectadas (como con Stripe Connect o transferencia bancaria manual), debe crear una <b>transferencia reversa</b>.",
     inputs: {
       note: {
         message: "Mensaje",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Historial comprado",
       subtitle:
-        "Licencias activas y pendientes.",
+        "Esta es una lista de licencias activas y pendientes. Puede comprar ofertas después de financiar su billetera. Además, tenga en cuenta que cuando cancele una suscripción, el monto restante de la suscripción se devolverá a su billetera virtual.",
     },
     license_detail: {
       title: "Detalles",
       subtitle:
-        "Límites en su plan actual.",
+        "Estas son las limitaciones de su plan actual. Para obtener más detalles, visite la página de precios. Puede acceder a todas las funciones de todos los planes, incluido el plan gratuito, para impulsar su negocio y crecer. A medida que amplía su negocio, considere actualizar a un plan de nivel superior para reducir sus tarifas de servicio.",
     },
 
     table: {
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Billeteras de vendedores",
     subtitle:
-      "Configura y gestiona esta opción para tu tienda.",
+      "¡No es necesario agregar billeteras manualmente! Las carteras de proveedores se crean automáticamente. Si habilita un método de pago que admita pagos divididos (como Stripe Connect), el sistema distribuirá automáticamente los pagos a las cuentas de los proveedores conectados. Si esta función no está habilitada, deberá pagar manualmente a los proveedores y podrá verificar los montos adeudados en la lista de billetera.",
     filter_vendor: {
       placeholder: "Filtro by Vendedor...",
     },
@@ -9266,7 +9266,7 @@ export default {
       title: "Métodos de inicio de sesión",
       subtitle: "Personaliza la forma en que los usuarios inician sesión en tu tienda.",
 
-      tips: "Selldone <b></b> Configura y gestiona esta opción para tu tienda.",
+      tips: "<b>Importante.</b> Cuando un usuario se registra en su tienda, se crea el usuario de Selldone correspondiente, si aún no existe ninguno. Este usuario tendrá acceso a su libreta de direcciones en todas las tiendas y podrá ver su historial de pedidos, incluso si una tienda ha cerrado. No utilizamos esta información con fines de marketing, pero la necesitamos para evitar fraudes en ambas partes. Para mantener la transparencia, enviaremos un correo electrónico al usuario informándole de su registro.",
     },
 
     /** {@see BShopOptionsCheckout} **/

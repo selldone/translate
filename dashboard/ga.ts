@@ -643,7 +643,7 @@ export default {
       rss_dialog: {
         title: "RSS táirgí",
         subtitle:
-          "mír seo RSS mír chuig mír mír liosta de gach Táirgí.",
+          "Bain úsáid as an bhfotha RSS seo chun liosta cothrom le dáta de na táirgí go léir a choinneáil.",
       },
       api_dialog: {
         title: "API táirgí",
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "Loingseoireacht srian",
         subtitle:
-          "tú is féidir mír srian chuig mír sin mír Custaiméirí mír mír Loingseoireacht mír is féidir déan ceannacháin Ó tú!",
+          "Féadfaidh tú srianta a chur i bhfeidhm chun a chinntiú nach féidir ach le custaiméirí laistigh de na limistéir loingseoireachta ainmnithe ceannacháin a dhéanamh uait!",
         no_enable_shipping_error:
-          "mír mír is féidir mír Ó tú mír tú mír mír cumasaithe Loingseoireacht modh!",
+          "Ní féidir le duine ar bith a cheannach uait toisc nach bhfuil aon mhodh seolta cumasaithe agat!",
         customer_must_select_a_shipping_msg:
           "custaiméir ní mór roghnaigh Loingseoireacht modh chuig mír ordú.",
         customer_can_order_without_shipping_method_msg:
-          "custaiméir is féidir mír ordú mír mír mír Loingseoireacht modh mír do mír Suíomh.",
+          "Is féidir leis an gcustaiméir an t-ordú a chur fiú mura dtacaítear le modh loingseoireachta don suíomh roghnaithe.",
         inputs: {
           restriction: {
             false_description:
-              "Custaiméirí is féidir mír mír Orduithe mír mír mír mír Loingseoireacht modh tá mír mír.",
+              "Is féidir le custaiméirí fós orduithe a dhéanamh fiú mura bhfuil aon mhodh loingseoireachta ar leith roghnaithe.",
             false_title: "mír gach Orduithe",
-            true_title: "mír mír ordú",
+            true_title: "Ordú glactha srianta",
             true_description:
-              "Custaiméirí tá mír chuig roghnaigh mír Loingseoireacht nó bailiú mír i ordú chuig críochnaithe mír ceannach.",
+              "Ní mór do chustaiméirí rogha loingseoireachta nó piocadh a roghnú chun a gceannach a chríochnú.",
           },
         },
       },
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Stóráil Aipeanna Gníomhacha",
         subtitle:
-          "Bainistigh d'fheidhmchláir ghnó.",
+          "Faigh amach cé chomh héasca is atá sé d’fheidhmchláir ghnó a bhainistiú le Soldone App Store. Cuireann ár n-ardán sraith chuimsitheach uirlisí ar fáil atá deartha chun do chuid oibríochtaí gnó a bharrfheabhsú. Ó réitigh bhainistíochta nuálaíocha go aipeanna a threisíonn táirgiúlacht, soláthraíonn Soldone eispéireas gan uaim do ghnólachtaí atá ag iarraidh éifeachtúlacht agus fás.",
         all: "go léir",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "Deilbhín an tsuímh",
           subtitle:
-            "mír tá mír, mír íomhánna sin mír suíomh gréasáin i mír cluaisíní, mír, agus soghluaiste aip mír.",
+            "Is íomhánna beaga íocónacha iad favicons a léiríonn láithreán gréasáin i gcluaisíní brabhsálaí, leabharmharcanna, agus comhéadain feidhmchláir shoghluaiste.",
         },
       },
 
@@ -1438,7 +1438,7 @@ export default {
       },
       mpn: {
         label: "MPN",
-        message: "mír mír uimhir",
+        message: "Uimhir Chuid Monaróra",
       },
 
       external_link: "Nasc seachtrach",
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "cumraigh catagóir agus teideal chuig mír mír i do Liostú.",
+          "Cumraigh an chatagóir agus an teideal atá le taispeáint i do liostú.",
       },
       unit: {
         subtitle:
-          "tú is féidir mír mír de praghsáil agus mír mír ar Leathanach táirge.",
+          "Is féidir leat taispeáint na n-eilimintí praghsála agus glao-chun gnímh a phearsantú ar leathanach an táirge.",
       },
       custom_pricing: {
         title: "saincheaptha praghsáil Foirm",
         subtitle:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         valuation_need_saved_product_message:
-          "le do thoil Sábháil táirge mír, agus mír tú is féidir mír luacháil mír.",
+          "Sábháil an táirge ar dtús, agus ansin is féidir leat múnla luachála a shannadh.",
         assign_valuation_message:
           "le do thoil mír luacháil mír chuig seo táirge.",
         edit_pricing_action: "Cuir in eagar praghsáil Foirm",
@@ -1518,15 +1518,15 @@ export default {
       },
       warehouse: {
         subtitle:
-          "seo faisnéis is mír de réir stóras mír mír agus mír chuig mír mír táirge.",
+          "Úsáideann an córas bainistíochta stórais an fhaisnéis seo agus déanann sé an táirge a shainaithint ar fud an domhain.",
       },
       gtin: {
-        hint: "mír mír tá UPC (mír mír, 12 mír), EAN (mír, 13 mír), JAN (mír, 8 nó 13 mír), ISBN (mír, 13 mír).",
-        label: "mír domhanda mír mír uimhir",
-        placeholder: "domhanda mír uimhir mír.. (mír)",
+        hint: "Is iad na luachanna tacaithe ná UPC (Meiriceá Thuaidh, 12 dhigit), EAN (An Eoraip, 13 dhigit), JAN (An tSeapáin, 8 nó 13 dhigit), ISBN (leabhair, 13 dhigit).",
+        label: "Uimhir Mhíre Trádála Dhomhanda an Táirge",
+        placeholder: "Uimhir trádála dhomhanda anseo.. (Roghnach)",
       },
       hsn: {
-        hint: "HSN, nó mír mír de mír, is mír mír Aicmiú mír do mír maith agus Táirgí.",
+        hint: "Is córas aicmithe caighdeánaithe idirnáisiúnta é HSN, nó Córas Comhchuibhithe Ainmníochta, chun earraí agus táirgí a chatagóiriú.",
         placeholder: "6~16 mír HSN cód.. (mír)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "táirge riocht i do siopa",
         message: "le do thoil roghnaigh riocht de seo táirge.",
         subtitle:
-          "mír do Custaiméirí faoi riocht agus branda de táirge mír mír.",
+          "Cuir do chustaiméirí ar an eolas faoi riocht agus faoi bhranda an táirge atá á thairiscint agat.",
       },
       brand: {
         label: "Branda",
@@ -1545,12 +1545,12 @@ export default {
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
 
         label: "Barántas",
-        placeholder: "mír 24 mír Barántas.. (mír)",
+        placeholder: "Barántas órga 24 mhí.. (Roghnach)",
       },
       status: {
         title: "Stádas",
         subtitle:
-          "mír stádas mír mír mír ar líne agus mír. chuig déan táirge dréacht, mír mír mír stádas chuig 'neamhghníomhach..",
+          "Cinneann stádas an táirge a infhaighteacht ar líne agus sa siopa. Chun dréacht táirge a dhéanamh, níl le déanamh ach a stádas a athrú go 'Neamhghníomhach'.",
       },
       profiles: {
         title: "Próifílí",
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "mír",
         subtitle:
-          "Cuir leis táirge sonraíochtaí mír de réir mír grúpaí agus mír mír.",
+          "Cuir sonraíochtaí táirge leis de láimh trí ghrúpaí agus eochairluachanna péire a shainiú.",
         add_group_action: "Cuir Grúpa leis",
         add_item_action: "Cuir leis sonraíocht mír",
       },
@@ -1652,7 +1652,7 @@ export default {
       ai: {
         title: "AI",
         subtitle:
-          "tú is féidir mír Cruthaigh táirge sonraíochtaí de réir mír mír mír sonraí i mír Foirm.",
+          "Is féidir leat sonraíochtaí táirge a chruthú go huathoibríoch trí shonraí amh an táirge a chur isteach i bhfoirm théacsúil.",
         action_title: "uathoibríoch gin de réir AI",
         action_subtitle: "Cruthaigh táirge sonraíochtaí de réir mír leid.",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Cód Táirge: P0000...",
         spec_view_title: "Sonraíochtaí an táirge roghnaithe",
         spec_view_subtitle:
-          "sonraíochtaí mír mír mír Ó mír táirge.",
+          "Tá na sonraíochtaí allmhairithe ón táirge roghnaithe.",
         set_spec_action: "Sonraíochtaí Teicniúla Dúblacha",
       },
       notifications: {
@@ -1696,7 +1696,7 @@ export default {
         generated_spec: {
           title: "AI-ginithe sonraíochtaí",
           subtitle:
-            "mír sonraíochtaí mír ginithe de réir mír mír.",
+            "Gin hintleachta saorga na sonraíochtaí seo.",
         },
         inputs: {
           prompt: {
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "gin sonraíochtaí",
             subtitle:
-              "mír chuig mír Cruthaigh táirge sonraíochtaí Ó mír forbhreathnú.",
+              "Cliceáil chun sonraíochtaí táirge a chruthú go huathoibríoch ón bhforbhreathnú a thugtar.",
           },
           add_generated_spec: "Cuir leis ginithe sonraíochtaí",
         },
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "cúlra cur síos",
-            placeholder: "mír mír cúlra...",
+            placeholder: "Déan cur síos ar an gcúlra atá uait...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Athshamhlaigh mír íomhá le nua cúlra.",
           },
           replace: {
-            subtitle: "mír mír cúlra.",
+            subtitle: "Cuir an cúlra atá ann cheana féin in ionad.",
           },
         },
       },
@@ -1785,25 +1785,25 @@ export default {
         marketplace:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         subscription:
-          "do síntiúis, mír Praghas liostaithe is mír, mír mír mír beidh mír mír mír ar mír síntiús mír.",
+          "Maidir le síntiúis, ní thaispeántar ach an praghas liostála, agus cinnfear an costas iarbhír bunaithe ar an bplean síntiús roghnaithe.",
         service:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
-        file: "seo mír chuig mír agus mír praghas de comhad, mír Custaiméirí ní mór íoc i ordú chuig mír rochtain chuig comhaid.",
+        file: "Tagraíonn sé seo do phraghas liostaithe agus iarbhír an chomhaid, nach mór do chustaiméirí a íoc chun rochtain a fháil ar na comhaid.",
         default:
-          "seo mír chuig mír mír praghas agus mír mír mír cuntas praghas de mír malairtí sin mír ní mír mír praghsáil.",
+          "Tagraíonn sé seo do phraghas liostaithe an táirge agus cuireann sé san áireamh freisin an praghas ar aon leagan nach bhfuil praghsáil ar leith acu.",
       },
       extra_pricings: {
         title: "Cuir leis mír praghsáil",
-        subtitle: "mír mír praghsáil mír ar ceannach cainníocht.",
+        subtitle: "Praghsáil dinimiciúil a chur i bhfeidhm bunaithe ar chainníocht cheannaigh.",
       },
 
       vendor: {
         title: "díoltóir praghsáil",
         subtitle:
-          "seo praghas beidh mír mír mír i Táirgí Liostú. tú is féidir socraigh díoltóir praghas i táirge > díoltóirí cluaisín.",
+          "Ní thaispeánfar an praghas seo ach sa liosta táirgí. Is féidir leat praghas an díoltóra a shocrú sa chluaisín Táirge > Díoltóirí.",
         manage_vendors: "bainistigh díoltóirí",
         vendor_product_pricing_link:
-          "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+          "Tá praghsáil táirge an díoltóra ceangailte. Má dhéantar an praghas liostála a athrú anseo, beidh tionchar aige ar tháirgí díoltóra gan malairtí nó orthu siúd a bhfuil malairtí acu nach bhfuil a bpraghsanna féin acu (ag baint úsáide as an bpraghas céanna leis an bpríomhtháirge). Déileálfar leis an bpraghas seo mar phraghas an mhargaidh, agus socrófar praghas an díoltóra bunaithe ar an tsamhail praghsála nó ar an gcorrlach brabúis margaidh roimhe sin.",
         vendor_variant_pricing_link:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
       },
@@ -1818,7 +1818,7 @@ export default {
         "Taispeánfar an teachtaireacht seo don chustaiméir agus táirgí á gceannach aige.",
       inputs_form: "Struchtúr faisnéise (ionchur)",
       inputs_hint:
-        "tú mír mír chuig socraigh mír mír Foirm chuig mír sonraí Ó do Custaiméirí mír mír mír chuig mír ordú.",
+        "Tá an rogha agat foirm phearsantaithe a bhunú chun sonraí a bhailiú ó do chustaiméirí nuair a bhíonn siad réidh chun ordú a dhéanamh.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "Teorainneacha ordaithe",
         subtitle:
-          "mír mír mír nó mír íosmhéid nó uasmhéid teorainn ar cainníocht de seo mír mír ordú, tú is féidir mír sin mír.",
+          "Más mórdhíoltóir thú nó má tá teorainn íosta nó uasta ar chainníocht na míre seo in aghaidh an ordaithe, is féidir leat é sin a shonrú anseo.",
         no_limit: "mír teorainn",
         minimum_purchase_quantity: "íosmhéid ceannach cainníocht",
         maximum_purchase_quantity: "uasmhéid ceannach cainníocht",
@@ -1867,10 +1867,10 @@ export default {
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "fardal do dropshipping Táirgí is socraigh de réir mír, agus mír mír mír mír.",
+        "Socraíonn mórdhíoltóirí an fardal do tháirgí dropshipping, agus ní féidir é a mhodhnú anseo.",
       marketplace:
-        "mír táirge fardal i mír is mír de réir mír mír fardal de gach díoltóirí. tú mír mír mír mír.",
-      default: "mír mír fardal líon mír.",
+        "Cinntear fardal iomlán na dtáirgí sa mhargadh trí fhardail na ndíoltóirí go léir a shuimiú. Ní féidir leat é a mhodhnú anseo.",
+      default: "Sonraigh comhaireamh fardail an táirge anseo.",
     },
     menu: {
       add_bulk: {
@@ -1894,7 +1894,7 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Cód chatagóir táirge Google",
-    hint: "mír catagóir de do táirge mír chuig Google'mír táirge mír.",
+    hint: "Is ionann é agus catagóir do tháirge de réir tacsanomaíocht táirgí Google.",
     placeholder: "iontráil táirge nó seirbhís catagóir.. (mír)",
   },
   /** {@see LogisticProfileType} **/
@@ -1913,7 +1913,7 @@ export default {
     },
     SHIPPING: {
       title: "Á sheoladh",
-      desc: "Loingseoireacht mír sonraí eochair mír de Loingseoireacht do ar líne Orduithe, mír Loingseoireacht mír, modhanna, agus mír seachadadh am.",
+      desc: "Sonraíonn beartas loingseoireachta na príomhghnéithe a bhaineann le loingseoireacht le haghaidh orduithe ar líne, lena n-áirítear costais loingseoireachta, modhanna, agus amanna seachadta measta.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "Bainistíocht preabfhuinneog",
     subtitle:
-      "Cruthaigh mír, mír, agus mír mír mír.",
+      "Cruthaigh pop-up fuinneoga pearsantaithe, cliste agus idirghníomhacha.",
     add_action: "Cuir preabfhuinneog nua leis",
   },
 
@@ -1941,7 +1941,7 @@ export default {
       default: "Réamhshocrú",
       dedicated: "mír",
 
-      subscription: "mír is féidir cuir i bhfeidhm cáin mír ar Íocaíocht cruthú mír.",
+      subscription: "Ní féidir linn cáin a chur i bhfeidhm ach ar an gcéim chruthaithe íocaíochta.",
       is_disabled: "seo Próifíl chánach is díchumasaithe! (⚠️rabhadh)",
       shipping: "Á sheoladh",
       fixed_rate: "TAX",
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "siopa > airgeadas > cáin",
 
       subscription_tips:
-        "mír tú roghnaigh Próifíl chánach do síntiús táirge, mír Nuashonraigh<code>cáin cód</code> agus socraigh mír/mír mód ar do Íocaíocht seirbhís mír. mír Próifíl chánach mír mír praghas is mír mír de cánacha nó mír de cánacha. mír de <code>mír</code> nó <code>mír</code>. mír mír mír mír nó mír, mír mír mír mír.<br /><br /><b>mír!</b> mír mír Próifíl chánach, tú ba chóir mír ar praghsáil mír ar táirge > fardal cluaisín agus mír Sábháil cnaipe chuig cuir i bhfeidhm athraigh.",
+        "Nuair a roghnaíonn tú próifíl chánach don táirge síntiúis, nuashonraímid<code> cód cánach</code> agus socróimid mód cuimsitheach/eisiach ar do sholáthraí seirbhíse íocaíochta. Sonraítear sa phróifíl chánach roghnaithe an meastar go bhfuil cánacha san áireamh sa phraghas nó nach bhfuil cánacha san áireamh. Ceann de <code>san áireamh</code> nó <code>eisiach</code>. Nuair a shonraítear é mar chuimsitheach nó eisiach, ní féidir é a athrú.<br /><br /><b>Tábhachtach!</b> Tar éis duit an phróifíl chánach a athrú, ba cheart duit cliceáil ar phleananna praghsála ar an táb Táirge > Fardal agus cliceáil ar an gcnaipe Sábháil chun athruithe a chur i bhfeidhm.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "praghas agus cainníocht de seo táirge tá socraigh de réir mír díoltóir chuig mír mír mír.",
+        "Socraíonn díoltóir ar leith lena mbaineann sé praghas agus cainníocht an táirge seo.",
     },
     vendors: {
       subtitle:
-        "mír liosta de mír do táirge. cainníocht agus praghas beidh mír socraigh de réir mír.",
+        "Seo liosta de na soláthróirí don táirge. Socróidh na soláthraithe an chainníocht agus an praghas.",
     },
   },
   /**
@@ -2006,12 +2006,12 @@ export default {
     },
     map: {
       no_map_message:
-        "mír Suíomh chuig díoltóir mír mír Suíomh-mír díoltóir.",
+        "Sann suíomh don díoltóir más díoltóir bunaithe ar shuíomh é.",
     },
     page: {
       title: "saincheaptha leathanach",
       subtitle:
-        "socraigh saincheaptha Leathanach tuirlingthe do díoltóir, mír mír le mír nasc chuig mír mír leathanach.",
+        "Socraigh leathanach tuirlingthe saincheaptha don díoltóir, ag soláthar nasc uathúil dóibh chuig a leathanach tiomnaithe.",
       action_set_page: "féach poiblí leathanach",
       action_sub_caption: "Leathanach tuirlingthe saincheaptha.",
       vendor_has_landing_msg: "díoltóir tá Leathanach tuirlingthe saincheaptha.",
@@ -2022,12 +2022,12 @@ export default {
     },
     contact: {
       title: "Eolas teagmhála",
-      subtitle: "mír mír bailí teagmháil sonraí.",
+      subtitle: "Tabhair sonraí teagmhála bailí go cineálta.",
     },
     business: {
       title: "Eolas gnó",
       subtitle:
-        "le do thoil mír mír faisnéis faoi do gnó chuig mír swift agus mír mír mír próiseas.",
+        "Tabhair eolas cruinn faoi do ghnó le do thoil chun próiseas bailithe ioncaim tapa agus gan uaim a chinntiú.",
     },
     bank: {
       title: "Eolas íocaíochta amach",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Á sheoladh",
-      subtitle: "díoltóirí is féidir socrú mír mír Seirbhísí loingseoireachta agus mír.",
+      subtitle: "Is féidir le díoltóirí a gcuid seirbhísí loingseoireachta agus teachtairí féin a shocrú.",
       shipping_services: "Seirbhísí loingseoireachta",
       total_number_of_services:
         "iomlán uimhir de Seirbhísí loingseoireachta sin díoltóir tá.",
@@ -2055,17 +2055,17 @@ export default {
       title: "Bain díoltóir",
       action: "Bain díoltóir",
       verify_description:
-        "mír mír sin gach díoltóir táirge mír beidh mír mír!",
-      verify_title: "mír mír chuig Scrios seo díoltóir.",
+        "Tá a fhios agam go mbainfear gach caidreamh táirge díoltóra!",
+      verify_title: "Ba mhaith liom an díoltóir seo a scriosadh.",
     },
 
     send_invitation_tips:
       "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     only_marketplace_owner_can_edit_user:
-      "mír Úinéir na marketplace is féidir Cuir in eagar úsáideoir. mír tú mír chuig athraigh úinéir de seo díoltóir, tú is féidir seol iarratas chuig us.",
+      "Ní féidir ach le húinéir an mhargaidh an t-úsáideoir a chur in eagar. Más mian leat úinéir an díoltóra seo a athrú, is féidir leat an t-iarratas a sheoladh chugainn.",
     vendor_is_disable_msg: "díoltóir is díchumasaithe.",
     email_not_match_with_user_msg:
-      "mír ríomhphost mír ní mír le mír ríomhphost (<b>{user_name}:</b>{user_email}). tá tú mír chuig seol ríomhphost chuig<b>{email}</b>?",
+      "Ní hionann an ríomhphost a cuireadh isteach agus ríomhphost an úsáideora (<b>{user_name}: </b>{user_email}). An bhfuil tú cinnte ríomhphoist a sheoladh chuig<b>{email}</b>?",
 
     order_information_email_to_email:
       "mír beidh seol Orduithe faisnéis chuig <b>{email}</b>.",
@@ -2076,14 +2076,14 @@ export default {
       slug: {
         label: "cosán",
         placeholder: "iontráil saincheaptha cosán...",
-        hint: "athraigh cosán mír mír Leathanach tuirlingthe.",
+        hint: "Athraigh an cosán ar leathanach tuirlingthe dinimiciúil an díoltóra.",
       },
       email: {
         message: "seo ríomhphost beidh faigh gach fógraí agus nuashonraigh.",
       },
       business: {
-        false_description: "mír mír mír.",
-        true_description: "mír mír mír mír gnó mír.",
+        false_description: "Oibrím mar dhuine aonair.",
+        true_description: "Feidhmím mar aonán gnó atá aitheanta go dlíthiúil.",
         false_title: "mír",
         true_title: "gnó",
       },
@@ -2096,36 +2096,36 @@ export default {
         placeholder: "do ainm..",
       },
       account_number: {
-        hint: "mír mír cuntas uimhir.",
+        hint: "Uimhir chuntais uathúil an díoltóra.",
         placeholder: "do banc cuntas uimhir..",
       },
       routing_number: {
-        hint: "seo uimhir mír de réir tír. mír úsáidte chuig mír mír banc mír díoltóir sinn.",
+        hint: "Athraíonn an uimhir seo de réir tíre. Úsáidtear é chun brainse sonrach bainc a úsáideann an díoltóir a shainaithint.",
         placeholder: "do banc mír uimhir, sórtáil cód, nó BSB uimhir..",
       },
       iban: {
-        hint: "Uimhir chuntais bhainc idirnáisiúnta): mír mír banc is i mír nó mír mír tíortha.",
+        hint: "Uimhir Idirnáisiúnta Chuntas Bainc): Má tá banc an díoltóra san Eoraip nó i dtíortha áirithe eile.",
         placeholder: "do IBAN uimhir.. mír. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "Uimhir chuntais bhainc idirnáisiúnta): mír mír banc is i mír nó mír mír tíortha.",
+        hint: "Uimhir Idirnáisiúnta Chuntas Bainc): Má tá banc an díoltóra san Eoraip nó i dtíortha áirithe eile.",
         placeholder: "do Swift cód/BIC..",
       },
       branch_address: {
-        hint: "seoladh de banc mír mír díoltóir tá mír cuntas.",
+        hint: "Seoladh an bhrainse bainc ina bhfuil a gcuntas ag an díoltóir.",
         placeholder: "do banc seoladh..",
       },
       enable: {
         label: "Stádas díoltóra",
-        hint: "tú is féidir cumasaigh nó mír díoltóirí mír. Custaiméirí beidh ní mír mír chuig ceannach mír Ó díchumasaithe díoltóirí.",
+        hint: "Is féidir leat díoltóirí a chumasú nó a dhíchumasú ar fud an domhain. Ní bheidh custaiméirí in ann aon rud a cheannach ó dhíoltóirí faoi mhíchumas.",
         true_description:
-          "mír beidh mír mír chuig díol mír Táirgí mír do mír.",
+          "Beidh siad in ann a gcuid táirgí a dhíol trí do mhargadh.",
       },
       access: {
         label: "Painéal díoltóra agus rochtain",
         true_description:
-          "díoltóir tá mír mír chuig Nuashonraigh cainníocht agus praghas.",
-        hint: "tú is féidir cumasaigh nó mír díoltóir mír, mír mír díoltóirí chuig Nuashonraigh táirge cainníocht agus praghas agus faigh mír Orduithe.",
+          "Tá painéal tiomnaithe ag an díoltóir chun cainníocht agus praghas a nuashonrú.",
+        hint: "Is féidir leat an painéal díoltóirí a chumasú nó a dhíchumasú, rud a ligeann do dhíoltóirí cainníochtaí agus praghsanna táirgí a nuashonrú agus orduithe páirteacha a fháil.",
         false_description: "díoltóir tá Gan rochtain chuig mír.",
       },
 
@@ -2164,12 +2164,12 @@ export default {
   product_badges: {
     title: "suaitheantais",
     subtitle: "Cuir leis agus Cuir in eagar saincheaptha táirge suaitheantais.",
-    only_marketplace_owner_msg: "mír mír úinéir",
+    only_marketplace_owner_msg: "Úinéirí margadh amháin",
     create_new_badge_action: "Cruthaigh nua suaitheantas",
     select_a_badge: "roghnaigh suaitheantas...",
     inputs: {
       custom: {
-        false_description: "Táirgí suaitheantais tá mír mír.",
+        false_description: "Cruthaítear suaitheantais táirgí go huathoibríoch.",
         false_title: "uathoibríoch",
         true_title: "saincheaptha Táirgí suaitheantais",
         true_description: "Cuir leis saincheaptha suaitheantais i Leathanach táirge.",
@@ -2178,7 +2178,7 @@ export default {
     add_custom_badge: {
       title: "Suaitheantas saincheaptha",
       subtitle:
-        "Cuir leis nua Suaitheantas saincheaptha chuig mír siopa. mír suaitheantais líon mír 10. tuilleadh suaitheantais mír mír mír do siopa.",
+        "Cuir suaitheantas saincheaptha nua le mo shiopa. Coinnigh suaitheantais san áireamh faoi 10. Chuirfeadh níos mó suaitheantais moill ar do shiopa.",
       show_advanced_options: "Taispeáin ardroghanna",
 
       inputs: {
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "mír",
           message:
-            "mír Taispeáin seo suaitheantas do Táirgí tá seo mír mír i mír sonraíocht. Regex mír.",
+            "Taispeáin go huathoibríoch an suaitheantas seo do tháirgí a bhfuil an luach meaitseála seo aige ina sonraíocht. Regex tacaithe.",
           placeholder: "chuig Taispeáin do gach Táirgí mír *.*",
         },
       },
       notifications: {
-        badge_added: "suaitheantas tá mír mír mír!",
+        badge_added: "Tá an suaitheantas curtha leis go rathúil!",
         badge_updated: "suaitheantas tá mír nuashonraithe mír!",
         item_not_found_error:
-          "mír mír ní mír aimsithe. le do thoil mír leathanach nó teagmháil tacaíocht.",
+          "Níorbh fhéidir an mhír a aimsiú. Athnuaigh an leathanach nó an tacaíocht teagmhála.",
       },
     },
   },
@@ -2213,15 +2213,15 @@ export default {
     tips: [
       "tú is féidir scagaire Táirgí mír ar clibeanna ar <b>tuirlingt leathanaigh</b>.",
       "tú agus do Custaiméirí is féidir cuardaigh do mír clibeanna i <b>cuardaigh</b> mír.",
-      "mír socraigh clibeanna, mír Táirgí le <b>mír clibeanna</b> beidh mír mír i <b>mír Táirgí rannán</b> ar Leathanach táirge; mír, Táirgí i mír catagóir beidh mír mír.",
+      "Más clibeanna socraithe, ní thaispeánfar ach táirgí a bhfuil na clibeanna coitianta <b></b> orthu sa roinn <b>táirgí gaolmhara</b> ar leathanach an táirge; ar shlí eile, taispeánfar táirgí sa chatagóir chéanna.",
     ],
     inputs: {
       tags: {
-        placeholder: "mír clibeanna mír agus mír iontráil. mír. nua mír",
+        placeholder: "Clibeanna sreang anseo agus brúigh Iontráil. sean. bailiúchán nua",
       },
     },
     notifications: {
-      tags_updated: "clibeanna mír mír mír nuashonraithe.",
+      tags_updated: "Nuashonraíodh na clibeanna go rathúil.",
     },
   },
 
@@ -2239,7 +2239,7 @@ export default {
 
     add_dialog: {
       select_service_msg:
-        "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+        "Socraíonn an margadh modhanna loingseoireachta, agus is féidir le custaiméirí a roghnú astu. Níl aon smacht ag díoltóirí ar na roghanna seo ach is féidir leo a bpainéal a chomhtháthú le seirbhísí loingseoireachta chun lipéid a cheannach go díreach. Roghnaigh modh ón liosta thíos chun na seirbhísí atá ar fáil a fheiceáil. Roghnaigh seirbhís loingseoireachta ón liosta thíos. Níl ach na seirbhísí atá ar fáil is féidir a chur le do stór ar taispeáint anseo.",
       no_available_service: "Níl seirbhís ar fáil!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Suíomh",
     empty_subtitle:
-      "mír Suíomh chuig táirge mír mír Suíomh-mír mír.",
+      "Sann suíomh don táirge más rud é atá bunaithe ar shuíomh.",
     dialog: {
       header: "roghnaigh Suíomh próifíl",
       action_new_location: "Cuir suíomh nua leis",
       title: "Suíomh próifíl",
       subtitle:
-        "tú is féidir mír Táirgí ar mír Suíomh de réir mír Suíomh clibeanna chuig Táirgí.",
-      tips: "<b>mír </b> mír Suíomh chuig táirge <b>mír</b> mír tú mír chuig Taispeáin táirge ar mír Suíomh ar mír. mír táirge ní mór mír Suíomh mír príomh mír, mír <b>mír baile/mír</b> nó mír seirbhísí mír<b>mír agus mír</b>.",
+        "Is féidir leat táirgí a phionáil ar shuíomh na léarscáile trí chlibeanna suímh a shannadh do na táirgí.",
+      tips: "<b>Tábhachtach: </b> Sann suíomh don táirge <b>amháin</b> más mian leat an táirge a thaispeáint ar an suíomh sonrach ar an léarscáil. Caithfidh an suíomh a bheith ag an táirge pined mar phríomhsonraíocht, mar <b>tithe/áiteanna ar cíos</b> nó seirbhísí pearsanta mar<b>Gruagaireacht agus Spa</b>.",
     },
   },
 
@@ -2279,11 +2279,11 @@ export default {
     dialog: {
       header: "Míreanna pacáiste táirge",
       title: "Míreanna san áireamh",
-      subtitle: "seo is mír de míreanna sin mír le táirge.",
+      subtitle: "Is cnuasach é seo d’earraí a thagann leis an táirge.",
       action_manage: "Bainistigh míreanna",
       action_disable_msg: "Úinéir na marketplace",
       select_items_tips:
-        "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+        "Cruthaigh nó roghnaigh comhpháirteanna pacáiste a thagann leis an táirge nó leis an tseirbhís. Bain úsáid as an ngné seo chun béim a leagan ar cad is féidir le custaiméirí a bheith ag súil leis nuair a cheannaíonn siad an t-earra. Molaimid an fheidhm seo a úsáid ach amháin nuair a bhíonn sé ríthábhachtach don chustaiméir an t-ábhar atá san áireamh a thuiscint, mar shampla nuair a bhíonn fón cliste á cheannach.",
       create_item_tips:
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
       create_new_item_action: "Cruthaigh mír nua san áireamh",
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "Líon na ranníocaíochtaí",
           score: "Scór",
         },
-        users_not_rated_msg: "úsáideoirí mír ní mír seo táirge mír.",
+        users_not_rated_msg: "Níl rátáil tugtha ag úsáideoirí don táirge seo fós.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "Roghanna malairtí",
           subtitle:
-            "iontráil mír dath cód, mír.mír., <b>#654FFF</b>, nó mír dathanna mír de réir mír, mír.mír., <b>#764FFA/#000000</b>.",
+            "Cuir isteach cód datha heicsidheachúlach, m.sh., <b>#654FFF</b>, nó dhá dhath scartha le slais, m.sh., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "tú is féidir mír mír mír chuig mír, mír íomhánna ag úsáid <b>Sócmhainní grafacha</b>. uaslódáil mír agus úsáid ginithe cód do malairt.",
+            "Is féidir leat aon luach a shannadh do na hathróga, lena n-áirítear íomhánna trí úsáid a bhaint as <b>Graphic Assets</b>. Uaslódáil patrún agus úsáid an cód ginte don mhalairt.",
           graphical_asset_action: "Sócmhainní grafacha",
           graphical_asset_action_caption: "íomhánna do Roghanna malairtí.",
         },
         smart_unit_price: {
-          tips: "mír aonad praghas mír ar <b>meáchan</b>, <b>toirt</b>, agus <b>pacáiste méid</b>. chuig mír seo gné, mír chuig siopa > Socruithe > téama > Leathanach táirge > mír aonad praghas.",
+          tips: "Ríomh praghas aonaid bunaithe ar <b>weight</b>, <b>volume</b>, agus <b>pack size</b>. Chun an ghné seo a dhíchumasú, déan nascleanúint chuig Siopa > Socruithe > Téama > Leathanach Táirge > Praghas Aonaid Chliste.",
           smart_unit_price: "Ríomh praghais aonaid",
         },
         quantity: {
@@ -2469,25 +2469,25 @@ export default {
         package: {
           title: "Pacáistiú agus loingseoireacht",
           subtitle:
-            "mír meáchan agus mír do malairtí chuig mír Loingseoireacht roghanna.",
+            "Sonraigh meáchain agus toisí do leagan chun roghanna loingseoireachta a chinneadh.",
           same_as_product_action: "mír táirge",
         },
         image: {
           title: "Íomhánna malairtí",
           subtitle:
-            "Cuir leis mír íomhánna do mír malairt. mír íomhá mír beidh mír príomhúil íomhá do sin malairt.",
+            "Cuir íomhánna uathúla leis do gach leagan. Beidh an chéad íomhá a uaslódáiltear mar phríomhíomhá don mhalairt sin.",
         },
         inputs: {
           sku: {
             message: "stoc mír aonad (SKU)",
           },
           mpn: {
-            message: "mír mír uimhir (MPN)",
+            message: "Uimhir Pháirt Monaróra (MPN)",
           },
           gtin: {
-            label: "domhanda mír mír uimhir (GTIN)",
+            label: "Uimhir Mhíre Trádála Dhomhanda (GTIN)",
             message:
-              "mír mír UPC (12 mír), EAN (13 mír), JAN (8 nó 13 mír), ISBN (13 mír).",
+              "Formáidí tacaithe: UPC (12 dhigit), EAN (13 dhigit), JAN (8 nó 13 dhigit), ISBN (13 dhigit).",
           },
         },
       },
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Am ullmhúcháin",
     lead_time: "Am ullmhúcháin",
     lead_time_subtitle:
-      "am luaidhe am mír fad mír chuig mír táirge do Loingseoireacht, mír cabhair i mír seachadadh am.",
+      "Measann an t-am luaidhe an fad ama a theastaíonn chun táirge a ullmhú lena sheoladh, rud a chabhraíonn le meastachán a dhéanamh ar an am seachadta.",
 
     lead_time_dimension: "uair(eanna)",
     bulk_action: "Gníomhartha Bulc",
@@ -2553,7 +2553,7 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "Socraigh téacs malartach íomhá",
-      placeholder: "iontráil mír mír téacs...",
+      placeholder: "Cuir isteach téacs alt tuairisciúil...",
       success_update_notification: "mír téacs nuashonraithe mír.",
     },
     dialog_bg_remove: {
@@ -2562,7 +2562,7 @@ export default {
         title: "Bain an cúlra",
         subtitle: "Cruthaigh trédhearcach cúlra.",
       },
-      success_remove_bg_notification: "cúlra mír mír!",
+      success_remove_bg_notification: "Baineadh an cúlra go rathúil!",
     },
   },
   /**
@@ -2572,9 +2572,9 @@ export default {
     title: "malairt grafach sócmhainní",
     tips: {
       how_it_works:
-        "<b>mír mír mír</b><br />uaslódáil mír nó mír íomhánna mír. chuig úsáid mír íomhánna malairt mír, cuir san áireamh <b>{filename}</b> i malairt mír. nóta sin seo cód mír mír úsáidte i <b><s>dath</s></b> mír.",
+        "<b>Conas a Oibríonn sé:</b><br />Uaslódáil íomhánna patrún nó míreanna anseo. Chun na híomhánna seo a úsáid mar mhalairt rogha, cuir <b>{filename}</b> san áireamh sa luach athraitheach. Tabhair faoi deara nach féidir an cód seo a úsáid sa luach <b><s>color</s></b>.",
       how_set_name:
-        "<b>mír mír</b><br /> mír 12 mír de mír comhad ainm beidh mír úsáidte mír ainm. seo gné is mír do mír mír mír de táirge, mír mír méid do mír nó mír mír. chuig mír úsáid de seo gné, mír mír Íomhánna malairtí mír mír uimhir de grafach sócmhainní is mír mír 100, mír mír mír cineálacha do mír.",
+        "<b>Leideanna Ainmnithe:</b><br /> Úsáidfear an chéad 12 charachtar d’ainm an chomhaid uaslódáilte mar ainm na sócmhainne. Tá an ghné seo iontach chun gnéithe saincheaptha de tháirge a thaispeáint, mar mhéideanna boinn do ghluaisrothair nó patrúin fabraice. Chun an leas is fearr a bhaint as an ngné seo, seachain íomhánna athraitheacha a uaslódáil anseo ach amháin má tá líon na sócmhainní grafacha níos lú ná 100, mar shampla cineálacha éagsúla adhmaid le haghaidh troscáin.",
     },
   },
 
@@ -2591,17 +2591,17 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "seo malairt mír mír!",
+    duplicated_variant: "Tá an leagan seo ann cheana féin!",
     set_color_warning: "le do thoil roghnaigh dath.",
     set_volume_warning: "le do thoil mír toirt.",
     set_pack_warning: "le do thoil mír pacáiste méid.",
     set_weight_warning: "le do thoil mír meáchan.",
     set_type_warning: "le do thoil roghnaigh cineál.",
     set_style_warning: "le do thoil roghnaigh stíl.",
-    out_of_stock: "mír mír de stoc",
+    out_of_stock: "As stoc faoi láthair",
 
     image: {
-      tooltip: "⚡ tarraing agus scaoil íomhá mír chuig mír mír chuig malairt.",
+      tooltip: "⚡ Tarraing agus scaoil íomhá anseo chun é a shannadh don mhalairt.",
     },
     enable: {
       true_tooltip: "seo mír is ar fáil i Siopa ar líne.",
@@ -2613,7 +2613,7 @@ export default {
       action: "mír, athchóirigh anois",
     },
     notifications: {
-      restore_variant_success: "táirge malairt mír mír mír.",
+      restore_variant_success: "Athchóiríodh an leagan táirge go rathúil.",
     },
   },
 
@@ -2720,19 +2720,19 @@ export default {
       "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     check: "mír ceadaigh praghas athraigh.",
     check_description:
-      "praghas beidh mír mír do mír catagóir agus gach mír.",
+      "Athrófar an praghas don chatagóir roghnaithe agus do gach fochatagóir.",
     add_percent_tab: "Cuir leis mír",
     add_constant_tab: "Cuir leis mír",
-    ending_tab: "mír mír",
+    ending_tab: "Straitéis dar críoch",
     marketplace_listing_price: "Praghas liostaithe",
 
     constant: {
       subtitle:
-        "méid beidh mír mír nó mír Ó mír praghas de Táirgí.",
+        "Déanfar an méid a shuimiú nó a dhealú ó phraghas reatha na dtáirgí.",
     },
     ending: {
       subtitle:
-        "mír de mír praghas de Táirgí beidh mír mír chuig mír mír.",
+        "Athrófar deireadh le praghas reatha na dtáirgí go dtí an luach sonraithe.",
     },
     marketplace: {
       title: "mír Praghas liostaithe",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Sábháil uathoibríoch",
-    auto_save_input_message: "athraigh beidh mír mír mír.",
+    auto_save_input_message: "Déanfar athruithe a shábháil go huathoibríoch.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         add_first_currency: {
-          subtitle: "le do thoil Cuir leis airgeadra chuig do siopa mír mír.",
+          subtitle: "Cuir airgeadra le do shiopa le do thoil roimh leanúint ar aghaidh.",
           title: "Cuir Airgeadra leis",
         },
       },
@@ -2828,7 +2828,7 @@ export default {
       },
 
       config_step: {
-        import_config: "tú is féidir iompórtáil mír Ó mír mír geataí",
+        import_config: "Is féidir leat cumraíocht a allmhairiú ó gheataí eile dá samhail",
         import_from: "iompórtáil Ó",
       },
 
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "Ceangal uathoibríoch",
           false_description:
-            "mír beidh mír connect chuig geata mír tú mír mír mír geata i mír.",
+            "Nascfaidh an córas go huathoibríoch leis an ngeata má tá geata cumraithe i bhfeidhm agat cheana féin.",
         },
       },
     },
@@ -3074,11 +3074,11 @@ export default {
 
     config: {
       subtitle:
-        "catagóir cabhair mír táirge mír agus déan mír mír do do Custaiméirí chuig mír Táirgí i do siopa.",
+        "Cuidíonn catagóirí le bainistíocht táirgí a shruthlíniú agus é a dhéanamh níos éasca do do chustaiméirí táirgí a aimsiú i do stór.",
     },
     parent: {
       subtitle:
-        "seo catagóir beidh mír mír mír mír catagóir. mír táirge mír mír mír catagóir, mír beidh mír mír i príomh catagóir.",
+        "Taispeánfar an chatagóir seo faoina máthair-chatagóir. Mura bhfuil catagóir tuismitheora ag táirge, taispeánfar é sa phríomhchatagóir.",
     },
     template: {
       title: "Teimpléad",
@@ -3090,9 +3090,9 @@ export default {
     critical_zone: {
       title: "Crios criticiúil",
       subtitle:
-        "mír tú Bain catagóir, mír mír agus Táirgí beidh mír mír chuig mír mír<b>📁 {parent}</b>. chuig bainistigh catagóir sin tá ní i Liosta táirgí, téigh chuig siopa > catagóir cluaisín.",
+        "Má bhaineann tú catagóir, bogfar a fochatagóirí agus a táirgí chuig an eolaire tuismitheoirí<b>📁 {parent}</b>. Chun catagóirí nach bhfuil ar an liosta táirgí a bhainistiú, téigh go dtí an cluaisín Siopa > Catagóirí.",
       accept_delete: {
-        true_description: "mír mír chuig Bain seo catagóir.",
+        true_description: "Ba mhaith liom an chatagóir seo a bhaint.",
         true_title: "deimhnigh Bain catagóir",
       },
     },
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Catagóir curtha in eagar.",
       },
       manually_update_filters_tips:
-        "<b>mír!</b> scagairí tá mír nuashonraithe mír Táirgí athraigh. mír, mír mír athraigh chuig Táirgí i catagóir, le do thoil filleadh mír agus mír Sábháil/mír cnaipe chuig mír scagaire.",
+        "<b>Important!</b> Déantar scagairí a nuashonrú go huathoibríoch nuair a athraíonn táirgí. Tar éis duit athruithe a dhéanamh ar tháirgí i gcatagóir, áfach, fill anseo agus cliceáil ar an gcnaipe Sábháil/Athghin chun an scagaire a athnuachan.",
 
       inputs: {
         spec: {
           message:
-            "liosta de gnéithe sin tú mír chuig mír mír i scagaire rannán",
+            "Liosta de na gnéithe is mian leat a thaispeáint sa rannóg scagaire",
           placeholder: "roghnaigh sonraíocht chuig Taispeáin i scagaire...",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Cur síos ar an siopa",
     description_input_message: "Scríobh cur síos gairid ar do ghnó.",
     description_input_tips:
-      "seo cur síos beidh mír i do mír buntásc agus beidh mír mír úsáidte réamhshocrú meta clib cur síos do do siopa leathanaigh.",
+      "Beidh an cur síos seo le feiceáil i mbuntásc do shiopa agus úsáidfear é freisin mar chur síos réamhshocraithe meitea-chlib do leathanaigh do shiopa.",
     address_input: "Seoladh Stórais",
     address_input_message: "Cuir isteach seoladh cruinn an tsiopa",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "roghanna",
         subtitle:
-          "mír tú mír chuig Cealaigh do ordú mír, tú is féidir úsáid seo mír.",
+          "Más mian leat d’ordú a chur ar ceal láithreach, is féidir leat an rogha seo a úsáid.",
       },
 
       express_input: {
         true_title: "mír | Cealaigh ordú mír",
         false_title: "mír | Cealaigh ordú mír 48 uaireanta",
         true_description:
-          "seo mír beidh Cealaigh do ordú mír agus Nuashonraigh fardal deas mír.",
+          "Cuirfidh an rogha seo d'ordú ar ceal láithreach agus nuashonróidh sé an fardal láithreach.",
         false_description:
-          "seo mír beidh Cealaigh do ordú mír 48 uaireanta. mír mír, míreanna beidh mír mír agus mír mír mír de réir mír.",
+          "Cuirfidh an rogha seo d'ordú ar ceal tar éis 48 uair an chloig. Go dtí sin, cuirfear earraí in áirithe agus ní féidir le daoine eile iad a cheannach.",
       },
     },
 
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Íocaíocht ar feitheamh",
       processing_payment: "Íocaíocht a phróiseáil",
       processing_cancel: "Íocaíocht cealaithe",
-      require_capture: "mír mír",
+      require_capture: "A cheangal ar ghabháil",
       paid: "Íoctha",
       cod_pay_info:
         "Nuair a bheidh an t-ordú faighte agat ón gcustaiméir is féidir leat an íocaíocht a dhearbhú agus an t-ordú a chomhlánú.",
@@ -3523,7 +3523,7 @@ export default {
         message:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         calculated_approximately:
-          "méid is mír mír. le do thoil mír mír méid mír.",
+          "Ríomhtar an méid thart. Ríomh an méid cruinn tú féin, le do thoil.",
       },
       need_payback: {
         title: "custaiméir muirear mír",
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "mír meáchan de gach míreanna is {weight} {unit}",
       not_available_message:
-        "mír ní ar fáil mír tú tá díchumasaithe mír do Loingseoireacht seoladh agus mír úsáideoir mír ní mír seoladh mír ceannach!",
+        "Níl sé ar fáil nuair atá tú faoi mhíchumas ag iarraidh seoladh loingseoireachta agus freisin níor líon an t-úsáideoir seoladh tar éis é a cheannach!",
 
       message:
         "Cliceáil ar an gcnaipe <b>Ordú Réidh</b> seo a leanas má tá an t-ordú réidh le seoladh.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Tuarascáil Íocaíochtaí",
         subtitle:
-          "mír íocaíochtaí agus mír mír mír mír am tréimhse.",
+          "Cruthaíodh íocaíochtaí agus idirbhearta a rinneadh le linn na tréimhse ama roghnaithe.",
         chart: {
           times: "Áireamh",
           buys: "Ceannaigh comhaireamh",
@@ -3662,7 +3662,7 @@ export default {
     status: "Stádas",
     cod_transportation: "mír Loingseoireacht",
     cod_transportations_error:
-      "cumasaigh Íocaíocht ar sheachadadh Íocaíocht do mír mír mír Loingseoireacht modh!",
+      "Cumasaigh airgead tirim ar íocaíocht seachadta le haghaidh modh loingseoireachta amháin ar a laghad!",
     payment_type: "Íocaíocht cineál",
     cod: "Íocaíocht ar sheachadadh",
     online: "ar líne Íocaíocht",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "do geata stádas",
     oauth2_button: "uathoibríoch Connect chuig {gateway}",
     fee_payment_message:
-      "mír méid mír de réir custaiméir beidh mír mír chuig do cuntas. seirbhís táille beidh mír mír Ó do sparán i Selldone.",
+      "Aistreofar an méid iomlán a d’íoc an custaiméir chuig do chuntas. Bainfear an táille seirbhíse ó do sparán i Selldone.",
 
     auto_config: "uathoibríoch mír",
 
     keys: {
       title: "Eochracha príobháideacha",
       subtitle:
-        "liosta de Eochracha príobháideacha do Íocaíocht. seo faisnéis is mír do mír agus mír íocaíochtaí.",
+        "Liosta na n-eochracha príobháideacha le haghaidh íocaíochta. Tá an fhaisnéis seo riachtanach chun íocaíochtaí a chruthú agus a bhainistiú.",
     },
     extra_config: {
       title: "Íocaíocht seirbhís cumraíocht",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "mír gníomh",
       subtitle:
-        "de réir mír mír mír, mír mír chuig faigh mír íocaíochtaí Ó do Custaiméirí.",
+        "Trí na céimeanna seo a ghlacadh, tosóidh tú ag fáil íocaíochtaí iarbhír ó do chustaiméirí.",
       action_enable: "mír chuig cumasaigh mír",
       make_live_enable: "mír chuig beo mír",
     },
@@ -3707,7 +3707,7 @@ export default {
     link: "Suíomh Gréasáin",
     status_title: "Íocaíocht seirbhís stádas",
     status_message:
-      "cumraigh Íocaíocht modh gníomhach nó neamhghníomhach. mír modhanna socraigh gníomhach beidh mír mír chuig Custaiméirí.",
+      "Cumraigh an modh íocaíochta mar Ghníomhach nó Neamhghníomhach. Ní thaispeánfar do chustaiméirí ach na modhanna atá socraithe mar ghníomhacha.",
     status_true_description: "do Custaiméirí is féidir íoc le seo Íocaíocht modh.",
 
     manual_title: "láimhe / uathoibríoch mír Íocaíocht",
@@ -3736,7 +3736,7 @@ export default {
     },
     limit_input: {
       title: "íosmhéid ordú méid",
-      msg: "mír mír mír teorainn.",
+      msg: "Ciallaíonn nialais gan teorainn.",
     },
     currency_input: {
       message: "airgeadra sin seo Geata íocaíochta tacaíocht.",
@@ -3746,16 +3746,16 @@ export default {
     hold_only_for: "mír Íocaíocht mír ar fáil do",
     manual_input: {
       false_description:
-        "Íocaíocht stádas beidh mír mír mír Ó ar feitheamh chuig mír i Íocaíocht mír mír.",
+        "Athrófar an stádas íocaíochta go huathoibríoch ó ar feitheamh go dtí go ndeimhneofar é sa chóras soláthraí íocaíochta.",
       false_title: "uathoibríoch Íocaíocht mír",
       true_title: "mír íocaíochtaí agus láimhe mír",
       true_description:
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     },
     delete_verify_input: {
-      true_title: "mír mír chuig Bain seo Íocaíocht modh.",
+      true_title: "Ba mhaith liom an modh íocaíochta seo a bhaint.",
       true_description:
-        "seo Íocaíocht modh beidh mír mír Ó siopa agus beidh ní mír ar fáil chuig Custaiméirí.",
+        "Bainfear an modh íocaíochta seo den siopa agus ní bheidh sé ar fáil do chustaiméirí.",
     },
     delete_alert: {
       title: "Scrios Íocaíocht modh",
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Liosta de na cártaí eisithe",
       subtitle:
-        "féach agus bainistigh gach mír mír. tú is féidir seol mír chuig úsáideoirí mír nó mír mír mír mír.",
+        "Féach ar agus bainistigh gach cárta eisithe. Is féidir leat cártaí a sheoladh chuig úsáideoirí de láimh nó iad a thoirmeasc más gá.",
 
       loading_message: "Ag fáil eolais... fan le do thoil",
       issue_to_user: "Eisiúint don úsáideoir",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "liosta de mír mír Orduithe sin mír chuig mír mír de réir mír soláthraithe.",
+      "Liosta d’orduithe arna sioncronú go seachtrach nach mór do sholáthraithe tríú páirtí a chomhlíonadh.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,9 +4038,9 @@ export default {
     "sms-payment":
       "seol Íocaíocht mír SMS chuig custaiméir mír {phone}.",
     "sms-ready-to-ship":
-      "seol SMS chuig custaiméir mír sin mír ordú is mír chuig mír mír mír {phone}.",
+      "Seol SMS chuig an gcustaiméir á chur in iúl go bhfuil a n-ordú réidh le seoladh trí {phone}.",
     "sms-ready-to-pickup":
-      "seol SMS chuig custaiméir mír sin mír ordú is mír do bailiú mír {phone}.",
+      "Seol SMS chuig an gcustaiméir á chur in iúl go bhfuil a ordú réidh le bailiú trí {phone}.",
     "sms-order-confirmation":
       "seol ordú mír SMS chuig custaiméir mír {phone}.",
 
@@ -4069,7 +4069,7 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "tú mír Táirgí i fréamh mír mír scagaire.",
+      no_root_filter_message: "Tá táirgí sa fhréamh agat ach níl aon scagaire agat.",
       has_root_filter_message: "tú socraigh scagairí do fréamh catagóir.",
       set_filter_message: "tú is féidir socraigh scagairí.",
       edit_action: "Cuir in eagar fréamh scagairí",
@@ -4083,7 +4083,7 @@ export default {
       unselect: "mír",
       sort_categories: "mír / sórtáil catagóir",
       subscription_vendor_not_support_message:
-        "is féidir ní mír díoltóir do síntiús Táirgí! síntiús Táirgí ní mór mír mír díoltóir mír úinéir!",
+        "Ní féidir díoltóir a shannadh do tháirgí síntiúis! Ní mór díoltóir a bheith mar úinéir ar tháirgí síntiús i gcónaí!",
       vendor_owner_not_assignable_message:
         "is féidir ní mír díoltóir do Táirgí le díoltóir mír úinéir!",
       category_assign_profile: "mír próifíl chuig Táirgí i catagóir",
@@ -4095,7 +4095,7 @@ export default {
     engine: {
       title: "mír Táirgí mír",
       subtitle:
-        "tuilleadh Táirgí beidh mír mír Ó mír catagóir agus clibeanna.",
+        "Déanfar níos mó táirgí a luchtú ó chatagóirí agus clibeanna roghnaithe.",
       load_in_tips: "lódáil Táirgí Ó catagóir i {category}.",
       action: "Cuir in eagar {category} mír",
     },
@@ -4116,13 +4116,13 @@ export default {
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
     has_panel: "tá mír",
-    no_panel: "mír mír",
+    no_panel: "Gan painéal",
     manual_action: {
       title: "láimhe gníomh",
       message: "tú is féidir Nuashonraigh díoltóir ordú stádas mír.",
       guides: [
-        "díoltóirí le mír rochtain is féidir Nuashonraigh mír comhlíonadh (mírOrduithe) i mír mír Painéal.",
-        "mír díoltóir tá mír mír rochtain, díoltóir ordú stádas beidh mír mír mír de réir mír mír stádas.",
+        "Is féidir le díoltóirí a bhfuil rochtain painéil acu a gcomhlíonadh (fo-orduithe) a nuashonrú ina ndeais tiomnaithe.",
+        "Mura bhfuil rochtain phainéil ag an díoltóir, déanfar an stádas ordaithe díoltóra a athrú go huathoibríoch trí stádas an chiseáin a athrú.",
         "tú is féidir Nuashonraigh díoltóir Orduithe mír.",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Táirgí",
       subtitle:
-        "mír tú is féidir féach líon de do Táirgí mír ar mír. Táirgí de réir mír díoltóirí tá ní san áireamh.",
+        "Anseo is féidir leat féachaint ar chomhaireamh do tháirgí atá liostaithe ar an margadh. Ní áirítear táirgí ó dhíoltóirí iolracha.",
     },
     wallets: {
       title: "Mo sparáin",
       subtitle:
-        "tú mír mír chuig Cuir leis sparáin mír! Sparáin díoltóra beidh mír mír mír.",
+        "Ní gá duit sparán a chur leis de láimh! Cruthófar sparán díoltóra go huathoibríoch.",
     },
 
     open_marketplace_page: "oscail mír leathanach",
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Baill foirne",
     subtitle:
-      "seo is liosta de úsáideoirí mír mír rochtain chuig do díoltóir mír. tú is féidir Cuir leis nua Baill foirne agus mír mír ceadanna mír.",
+      "Seo é an liosta úsáideoirí a bhfuil rochtain acu ar do phainéal díoltóirí. Is féidir leat baill foirne nua a chur leis agus a gceadanna a shaincheapadh anseo.",
     add_action: "Cuir ball nua leis",
     pending: {
       title: "Cuirí ar feitheamh",
-      message: "féach liosta de cuirí sin tá mír mír.",
+      message: "Féach ar liosta na gcuireadh atá ar feitheamh glactha.",
     },
   },
 
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "Ball curtha leis",
-        message: "foireann ball tá mír mír mír.",
+        message: "Tá an ball foirne curtha leis go rathúil.",
       },
       update_success: {
         title: "Ball nuashonraithe",
-        message: "foireann mír faisnéis tá mír mír nuashonraithe.",
+        message: "Nuashonraíodh faisnéis bhall na foirne go rathúil.",
       },
     },
     actions: {
@@ -4250,8 +4250,8 @@ export default {
         verify: {
           label: "mír tú mír seo Íocaíocht?",
           false_description:
-            "mír, mír mír ní mír faighte seo Íocaíocht i mír banc cuntas.",
-          true_description: "mír, mír mír faighte agus mír seo Íocaíocht.",
+            "Ní bhfuair, níl an íocaíocht seo faighte agam i mo chuntas bainc fós.",
+          true_description: "Sea, tá an íocaíocht seo faighte agus fíoraithe agam.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "Aisíoc ordú",
     subtitle:
-      "<b>mír! </b>mír seo gníomh beidh gin mír mír i mír sparán agus mír mír méid Ó mír. méid mír mír mír iomlán mír do mír ordú. mír, mír mír mír mír mír chuig nasctha banc cuntais (mír le Stripe Connect nó láimhe mír aistriú), tú ba chóir Cruthaigh <b>Aistriú aisiompaithe</b>.",
+      "<b>Tábhachtach! </b> Má dhéantar an gníomh seo, ginfear idirbheart diúltach i sparán an díoltóra agus bainfidh sé an méid roghnaithe uaidh. Ní féidir leis an méid a bheith níos mó ná na hidirbhearta iomlána atá fágtha don ordú roghnaithe. Ina theannta sin, má aistríodh cistí chuig cuntais bhainc nasctha (amhail Stripe Connect nó aistriú sreang láimhe), ba cheart duit aisiompú <b></b> a chruthú.",
     inputs: {
       note: {
-        message: "mír mír chuig díoltóir.",
+        message: "Tá sé le feiceáil ag an díoltóir.",
         placeholder: "tú is féidir mír nóta mír...",
       },
       amount: {
-        error_message: "mír méid tá mír mír.",
+        error_message: "Sáraíodh an méid atá fágtha.",
       },
     },
   },
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Príomhphróifíl",
       subtitle:
-        "Cuir in eagar do poiblí próifíl faisnéis mír. seo faisnéis mír mír mír chuig do Custaiméirí nó mír úsáideoirí.",
+        "Cuir do chuid faisnéise próifíle poiblí in eagar anseo. Seans go mbeidh an fhaisnéis seo le feiceáil ag do chustaiméirí nó ag úsáideoirí eile.",
       full_name_input: "Ainm iomlán",
       tel_input: "Uimhir theagmhála",
       email_input: "Ríomhphost",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ mír",
-      description: "Cruthaigh agus bainistigh mír mír ceisteanna.",
+      description: "Cruthaigh agus bainistigh ceisteanna coitianta.",
     },
     "backoffice:faq:read": {
       name: "FAQ rochtain",
@@ -5003,7 +5003,7 @@ export default {
       description: "léamh custaiméir faisnéis agus mír.",
     },
     "backoffice:ribbon:write": {
-      name: "mír mír",
+      name: "Bainistíocht Ribín",
       description: "bainistigh siopa mír.",
     },
     "backoffice:ribbon:read": {
@@ -5051,7 +5051,7 @@ export default {
       description: "léamh cleamhnaithe sonraí agus mír.",
     },
     "backoffice:print:write": {
-      name: "mír mír",
+      name: "Bainistíocht Priontála",
       description: "bainistigh mír roghanna.",
     },
     "backoffice:print:read": {
@@ -5073,8 +5073,8 @@ export default {
       description: "léamh mír sonraí agus mír.",
     },
     "selldone:monetization:write": {
-      name: "mír mír",
-      description: "bainistigh mír, mír mír mír.",
+      name: "Bainistíocht Airgeadaíochta",
+      description: "Bainistigh airgeadú, lena n-áirítear cláir atreoraithe.",
     },
     "selldone:identification": {
       name: "mír rochtain",
@@ -5095,7 +5095,7 @@ export default {
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "mír mír",
+      name: "Bainistíocht Soláthraí",
       description: "bainistigh nasctha seirbhís soláthraithe.",
     },
     "connect:provider:read": {
@@ -5109,7 +5109,7 @@ export default {
       description: "léamh mír sonraí agus mír.",
     },
     "agency:write": {
-      name: "mír mír",
+      name: "Bainistíocht Gníomhaireachta",
       description: "bainistigh mír faisnéis.",
     },
 
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "mír",
-      description: "mír raonta feidhme ní mír i mír.",
+      description: "Scóipeanna ilghnéitheacha nach bhfuil sainithe sa chóras.",
     },
     vendor: {
       title: "díoltóir",
@@ -5574,7 +5574,7 @@ export default {
         "OAuth cliaint, pearsanta rochtain comharthaí agus nasctha aipeanna.",
 
       security: "Slándáil",
-      security_subtitle: "socraigh mír mír agus bainistigh sóisialta logáil isteach roghanna.",
+      security_subtitle: "Socraigh dhá fhachtóir agus bainistigh roghanna logáil isteach sóisialta.",
 
       preferences: "Sainroghanna Úsáideora",
       preferences_subtitle:
@@ -5710,7 +5710,7 @@ export default {
     license_detail: {
       title: "Sonraí",
       subtitle:
-        "Teorainneacha ar do phlean reatha.",
+        "Seo iad teorainneacha do phlean reatha. Le haghaidh tuilleadh sonraí, tabhair cuairt ar an leathanach praghsála. Is féidir leat rochtain a fháil ar na gnéithe go léir thar gach plean, lena n-áirítear an plean saor in aisce, chun tús a chur le do ghnó agus fás. Agus do ghnó á scála agat, smaoinigh ar uasghrádú go plean ardleibhéil chun do tháillí seirbhíse a ísliú.",
     },
 
     table: {
@@ -5739,7 +5739,7 @@ export default {
       auto_renewal: {
         true_title: "Athnuachan Uathoibríoch",
         true_description:
-          "do síntiús beidh mír mír mír do sparán tá mír iarmhéid nó mír tú mír bailí mír.",
+          "Déanfar do shíntiús a athnuachan go huathoibríoch má tá dóthain iarmhéid ar do sparán nó má tá dearbhán bailí agat.",
       },
       options: {
         title: "mír roghanna",
@@ -5814,11 +5814,11 @@ export default {
     sku_name_input: "SKU / Ainm",
     info: {
       subtitle:
-        "chuig gin táirge, tú is féidir iontráil mír mír sonraí mír do mír cruthú.",
+        "Chun an táirge a ghiniúint, ní féidir leat ach na sonraí riachtanacha is gá chun é a chruthú a chur isteach.",
     },
     price: {
       subtitle:
-        "iontráil praghas agus lascaine do seo táirge. mír táirge is mír, mír mír rochtain chuig tuilleadh roghanna.",
+        "Cuir isteach an praghas agus an lascaine don táirge seo. Nuair a bheidh an táirge curtha leis, beidh rochtain agat ar níos mó roghanna.",
     },
     by_sku: {
       title: "Cuir leis de réir SKU",
@@ -5826,7 +5826,7 @@ export default {
     },
     drop_shipping: {
       subtitle:
-        "mír Táirgí i mír mír agus Cuir leis mír chuig do siopa.",
+        "Aimsigh táirgí sa mhargadh mórdhíola agus cuir le do stór iad.",
     },
     by_connect: {
       subtitle:
@@ -5836,7 +5836,7 @@ export default {
     sku_dialog: {
       title: "Cuir leis táirge de réir SKU",
       subtitle:
-        "tú mír mír chuig mír Táirgí de réir mír SKU i mír mír agus Cuir leis mír le mír mír mír.",
+        "Tá an cumas agat táirgí a aimsiú de réir a SKU inár mbunachar sonraí agus iad a chur leis gan ach cliceáil amháin.",
     },
     dropshipping_dialog: {
       title: "Cuir leis dropshipping Táirgí",
@@ -5903,21 +5903,21 @@ export default {
 
     contact: {
       title: "Eolas teagmhála",
-      subtitle: "mír teagmháil sonraí de cleamhnaithe mír mír.",
+      subtitle: "Tabhair sonraí teagmhála an chomhpháirtí cleamhnaithe anseo.",
     },
 
     restriction: {
       title: "coimisiún srian",
       subtitle:
-        "mír mír Táirgí tá mír do coimisiún. tú is féidir mír coimisiún chuig mír Táirgí.",
+        "Sainmhínigh na táirgí atá incháilithe le haghaidh coimisiúin. Is féidir leat coimisiúin a shrianadh chuig táirgí áirithe.",
     },
 
     link_domain: {
       title: "nasctha fearann",
       subtitle:
-        "nasc mír de do Fearainn chuig seo cleamhnaithe mír. mír mír mír mír seo fearann beidh mír mír chuig seo cleamhnaithe.",
+        "Nasc ceann de d'fhearainn leis an gcomhpháirtí cleamhnaithe seo. Cuirfear cuairteoirí a cheannaíonn tríd an bhfearann ​​seo i leith an chleamhnaithe seo.",
 
-      domain_not_approved_msg: "fearann tá ní mír mír mír!",
+      domain_not_approved_msg: "Níl an fearann ​​ceadaithe fós!",
       domain_is_not_enable_msg: "fearann is ní cumasaithe!",
       domain_is_linked_to_other_affiliate_msg:
         "seo fearann is mír nasctha chuig mír cleamhnaithe!",
@@ -5928,24 +5928,24 @@ export default {
     cluster: {
       title: "braisle",
       subtitle:
-        "mír seo cleamhnaithe le braisle chuig bainistigh mír mír mír acmhainní i mír mír.",
+        "Déan an cleamhnas seo a nascadh le cnuasach chun é a bhainistiú in éineacht le hacmhainní eile in aon áit amháin.",
       manage_action: "bainistigh",
     },
 
     notifications: {
-      create_success: "nua cleamhnaithe mír mír.",
+      create_success: "D'éirigh le cleamhnaithe nua a chur leis.",
       update_success: "cleamhnaithe nuashonraithe mír.",
     },
 
     inputs: {
       name: {
         label: "cleamhnaithe mír ainm",
-        message: "mír.mír., mír mír, mír cuideachta, mír mír, mír.",
+        message: "m.sh., John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
         label: "coimisiún mír",
         false_description:
-          "mír ag úsáid mír de mír agus mír coimisiún.",
+          "Ríomh ag baint úsáide as meascán de choimisiúin sheasta agus chéatadáin.",
         true_description:
           "mír ag úsáid mír coimisiún socraigh i praghsáil cluaisín.",
         false_title: "mír + mír coimisiún",
@@ -5953,31 +5953,31 @@ export default {
       },
       user: {
         label: "úsáideoir (mír)",
-        message: "mír, mír.mír., cleamhnaithe ainm i Selldone",
+        message: "Roghnach, m.sh., ainm cleamhnaithe i Selldone",
       },
       web: {
-        placeholder: "mír, mír.mír., mír.mír",
+        placeholder: "Roghnach, m.sh., affiliate-web.com",
       },
       address: {
-        placeholder: "mír, mír.mír., 1200 POX, NY, USA",
+        placeholder: "Roghnach, e.g., 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "mír, mír.mír., 001-808-210354",
+        placeholder: "Roghnach, e.g., 001-808-210354",
       },
       bank: {
-        placeholder: "mír, mír.mír., mír banc, mír 10002-325-800-845213",
+        placeholder: "Roghnach, m.sh., Banc Arstra, Uimh: 10002-325-800-845213",
       },
       domain: {
         placeholder: "roghnaigh fearann... (mír)",
       },
       pos: {
         true_description:
-          "cleamhnaithe is féidir mír Orduithe mír do mír Custaiméirí mír mír mír.",
+          "Is féidir le cleamhnaithe orduithe a chur go díreach dá gcustaiméirí trína bpainéal.",
         true_title: "POS rochtain",
       },
       enable: {
         true_description:
-          "is seo cleamhnaithe mír gníomhach? mír neamhghníomhach, mír cleamhnaithe mír mír cuir i bhfeidhm chuig Orduithe mír mír mír nasc.",
+          "An bhfuil an cleamhnaithe seo gníomhach faoi láthair? Mura bhfuil siad gníomhach, ní bhainfidh a gclár cleamhnaithe le horduithe a dhéantar trína nasc.",
       },
       products: {
         label: "Táirgí mír do coimisiún",
@@ -6006,7 +6006,7 @@ export default {
       "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     add_valuation_action: "Cruthaigh nua luacháil Foirm",
     empty_message:
-      "mír de mír mír malairtí, mír mír luacháil mír sin is féidir mír mír chuig simplí táirge.",
+      "In ionad leaganacha iolracha a chruthú, smaoinigh ar straitéis luachála a fhorbairt is féidir a chur i bhfeidhm ar tháirge simplí.",
     delete_dialog: {
       title: "mír Bain",
       message:
@@ -6014,7 +6014,7 @@ export default {
       action: "Sea, Scrios Anois",
     },
     notifications: {
-      delete_success: "luacháil tá mír mír scriosta.",
+      delete_success: "Scriosadh an luacháil go rathúil.",
     },
   },
 
@@ -6040,19 +6040,19 @@ export default {
     conditions: {
       title: "Coinníollacha",
       subtitle:
-        "mír mír do saincheaptha malairtí. seo cumraíocht mír mír de malairt mír.",
+        "Sainmhínigh an loighic le haghaidh leaganacha saincheaptha. Déanann an chumraíocht seo bainistiú ar infhaighteacht malairtí a shimpliú.",
     },
     structure: {
       title: "mír",
       subtitle:
-        "dearadh do praghsáil ionchur Foirm mír de réir mír mír agus mír tábla.",
+        "Dear d’fhoirm ionchuir praghsála anseo trí fhoirmlí agus táblaí tagartha a chomhtháthú.",
       expand_action: "mír",
       collapse_action: "mír",
     },
     inputs: {
       title: {
         message: "seo teideal is ní mír chuig Custaiméirí.",
-        placeholder: "iontráil ainm do praghsáil, mír.mír., 'mír praghsáil",
+        placeholder: "Cuir isteach ainm le haghaidh praghsála, m.sh., 'Praghsáil Mugs'",
       },
     },
     samples: {
@@ -6167,27 +6167,27 @@ export default {
         edit: "Cuireadh an cód lascaine in eagar go rathúil.",
       },
       config: {
-        title: "mír mír",
+        title: "Cumraíocht Ghinearálta",
         subtitle:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
       },
       limit: {
         title: "teorainneacha",
         subtitle:
-          "tú is féidir mír uasmhéid mír teorainn do mír Cód lascaine, mír uasmhéid lascaine méid, i seo rannán.",
+          "Is féidir leat an uasteorainn úsáide a shainiú do gach cód lascaine, chomh maith leis an méid lascaine uasta, sa chuid seo.",
       },
       duration: {
         title: "fad teorainn",
         subtitle:
-          "ba chóir tú mír chuig mír Cód lascaine do mír mír, tú is féidir mír sin fad mír.",
+          "Más mian leat cód lascaine a ghníomhachtú ar feadh tréimhse ama ar leith, is féidir leat an fad sin a shuíomh anseo.",
       },
       design: {
         subtitle:
-          "tú is féidir socraigh teideal agus cur síos do mír Cód lascaine. mír sonraí beidh mír mír chuig úsáideoir.",
+          "Is féidir leat teideal agus cur síos a shocrú do gach cód lascaine. Taispeánfar na sonraí seo don úsáideoir.",
       },
       cluster: {
         subtitle:
-          "de réir mír seo Cód lascaine le braisle, tú is féidir mír bainistigh mír mír mír acmhainní i mír Suíomh.",
+          "Tríd an gcód lascaine seo a chomhcheangal le braisle, is féidir leat é a bhainistiú go héasca in éineacht le hacmhainní eile in aon áit amháin.",
       },
     },
     delete_alert: {
@@ -6316,35 +6316,35 @@ export default {
 
     config: {
       subtitle:
-        "mír de cúpón lascaine mír mír CHARGE + mír (LIMIT, PERCENT * mír praghas).",
+        "Is é foirmle ríomh lascaine cúpón ná: CHARGE + max (LIMIT, PERCENT * praghas cart).",
     },
     limit: {
       subtitle:
-        "i seo rannán, mír mír chuig socraigh mír uasmhéid uimhir de sinn mír cúpón agus mír lascaine méid mír cúpón is féidir mír.",
-      zero_message: "mír mír is mír teorainn!",
+        "Sa chuid seo, tá tú in ann an líon uasta úsáidí in aghaidh an chúpón agus an méid lascaine is airde is féidir le gach cúpón a sholáthar a shocrú.",
+      zero_message: "nialas: níl aon teorainn!",
     },
     duration: {
       subtitle:
-        "mír tú mír chuig socraigh mír mír do cúpón chuig mír gníomhach, tú is féidir cumraigh fad i seo rannán.",
+        "Más mian leat fráma ama ar leith a shocrú le go mbeidh cúpón gníomhach, is féidir leat an ré a chumrú sa chuid seo.",
     },
     design: {
       subtitle:
-        "mír cúpón mír do mír de teideal agus cur síos. mír sonraí beidh mír mír chuig custaiméir.",
+        "Ceadaíonn gach cúpón teideal agus tuairisc a chur leis. Beidh na sonraí seo le feiceáil ag an gcustaiméir.",
     },
     constraints: {
       subtitle:
-        "mír, tú mír mír chuig mír mír mír mír do cúpón.",
-      no_limit: "mír mír mír",
-      has_limit: "mír mír",
+        "Anseo, tá an cumas agat paraiméadair phearsantaithe breise a bhunú don chúpón.",
+      no_limit: "Gan teorainn bhreise",
+      has_limit: "Srianta breise",
       has_code_message: "úsáideoir ba chóir iontráil cód chuig Cuir leis cúpón.",
     },
     club: {
       subtitle:
-        "seo mír úsáid is féidir mír mír mír chuig baill de mír custaiméir club.",
+        "Is féidir úsáid an chúpón seo a theorannú go heisiach do bhaill de chlubanna custaiméirí roghnaithe.",
     },
     cluster: {
       subtitle:
-        "de réir mír seo cúpón le braisle, tú is féidir mír bainistigh mír mír mír acmhainní i mír Suíomh.",
+        "Tríd an cúpón seo a chomhcheangal le braisle, is féidir leat é a bhainistiú go héasca in éineacht le hacmhainní eile in aon áit amháin.",
     },
     preview: {
       subtitle: "mír poiblí réamhamharc de cúpón.",
@@ -6422,18 +6422,18 @@ export default {
     },
     config: {
       subtitle:
-        "mír mír mír mír de réir mír mír teideal, cur síos, agus poiblí mír stádas.",
+        "Tosaigh le margadh cliste a chruthú trína theideal, a thuairisc agus a stádas infhaighteachta poiblí.",
     },
     limit: {
       subtitle: "socraigh uasmhéid mír teorainn do seo tairiscint i seo rannán.",
     },
     duration: {
       subtitle:
-        "mír tú mír chuig socraigh mír mír do tairiscint, tú is féidir cumraigh fad mír.",
+        "Más mian leat fráma ama sonrach a shocrú le haghaidh tairiscint, is féidir leat an ré a chumrú anseo.",
     },
     constraints: {
       subtitle:
-        "socraigh mír mír agus coinníollacha do tairiscint mír. tairiscint cuir i bhfeidhm chuig mír míreanna sin mír mír coinníollacha.",
+        "Socraigh na critéir incháilitheachta agus coinníollacha don tairiscint anseo. Baineann an tairiscint le míreanna cart a chomhlíonann na coinníollacha seo.",
     },
     discounted_products: {
       title: "mír Táirgí",
@@ -6442,7 +6442,7 @@ export default {
     },
     cluster: {
       subtitle:
-        "de réir mír seo tairiscint le braisle, tú is féidir mír bainistigh mír mír mír acmhainní i mír Suíomh.",
+        "Tríd an tairiscint seo a chomhcheangal le braisle, is féidir leat é a bhainistiú go héasca in éineacht le hacmhainní eile in aon láthair amháin.",
     },
   },
 
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+        "Cuir le ceannacháin chustaiméirí le taithí gamified i do shiopa. Socraigh duaiseanna agus corrlaigh bhuaiteacha do chustaiméirí a thuilleann comharthaí trí cheannacháin. Cosnaíonn gach cluiche 10 chomhartha, agus is féidir leat duaiseanna speisialta a thairiscint do cheannaitheoirí céaduaire. Is é Wheel of Fortune an cluiche réamhshocraithe, ach is féidir leat é a shaincheapadh chun leagan amach do shiopa a oiriúnú.",
     },
-    empty_prize_list: "Cruthaigh agus bainistigh mír mír...",
+    empty_prize_list: "Cruthaigh agus bainistigh duaiseanna anseo...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Seans Buaite i faoin gcéad",
     free_for_first: "An bhfuil sé saor in aisce do chustaiméirí nua?",
     free_for_first_message: "Is féidir le custaiméirí nua an mhír seo a bhuachan.",
-    not_free_for_first_message: "seo mír ní ar fáil do mír saor in aisce mír.",
+    not_free_for_first_message: "Níl an duais seo ar fáil don chéad imirt saor.",
 
     amount: "Méid duaise",
     amount_hint: "Buann úsáideoirí an méid seo muirear as a n-ordú.",
@@ -6614,19 +6614,19 @@ export default {
     },
     config: {
       subtitle:
-        "mír, tú is féidir Cruthaigh do mír crannchur mír. socraigh teideal, cur síos, dath, agus íomhá do mír mír.",
+        "Anseo, is féidir leat duaiseanna crannchuir do shiopa a chruthú. Socraigh an teideal, cur síos, dath, agus íomhá do gach duais.",
     },
     design: {
       subtitle:
-        "mír, tú mír mír chuig roghnaigh íomhá agus dath do mír.",
+        "Anseo, tá an rogha agat íomhá agus dath a roghnú don duais.",
     },
     constraints: {
-      subtitle: "mír mír agus teorainneacha do mír seo mír.",
+      subtitle: "Sonraigh na critéir agus na teorainneacha chun an duais seo a bhuachan.",
     },
     prize: {
       title: "mír",
       subtitle:
-        "socraigh mír mír sonraí mír. roghanna cuir san áireamh lascaine cód, bronntanas mír, mír, agus mír lascaine crannchur mír.",
+        "Socraigh sonraí na duaise anseo. I measc na roghanna tá cóid lascaine, cártaí bronntanais, creidmheasanna, agus lascainí eile mar luaíochtaí crannchuir.",
     },
     product_input: {
       label: "táirge mír",
@@ -7041,18 +7041,18 @@ export default {
     vendor: {
       title: "iompórtáil díoltóirí",
       subtitle:
-        "uaslódáil díoltóir CSV comhaid mír. mír mír is ceart agus mír chuig príobháideachas mír.",
+        "Uaslódáil comhaid CSV an díoltóra anseo. Cinntigh go bhfuil an fhormáid cheart agus go gcloíonn sí le rialacháin príobháideachais.",
       checklist: {
-        title: "mír mír",
-        subtitle: "mír mír chuig mír mír.",
+        title: "Seicliosta Tábhachtach",
+        subtitle: "Bí cinnte a leanúint na treoirlínte.",
         sample_files: "sampla comhaid",
         valid_vendor_name_needed:
-          "tú ní mór mír <b>bailí ainm</b>. <b>ainm</b> is úsáidte chuig mír mír chuig <i>Cruthaigh</i> nua díoltóir nó <i>Nuashonraigh</i> mír mír.",
+          "Ní mór duit <b>valid name</b> a sholáthar. Úsáidtear an <b>name</b> chun a chinneadh cé acu ar cheart <i>Create</i> díoltóir nua nó <i>Update</i> díoltóir atá ann cheana féin.",
         assign_user_after_import:
-          "mír mír díoltóirí, tú is féidir mír mír úsáideoir chuig mír mír rochtain chuig díoltóir mír.",
+          "Tar éis díoltóirí a allmhairiú, is féidir leat úsáideoir a shannadh de láimh chun rochtain a thabhairt dóibh ar an bpainéal díoltóirí.",
       },
       need_kyc_alert:
-        "tú mír chuig mír do pearsanta faisnéis mír mír díoltóirí.",
+        "Ní mór duit do chuid faisnéise pearsanta a fhíorú sula n-iompórtálann tú díoltóirí.",
       back_to_vendors_list: "Ar ais chuig díoltóir liosta",
     },
   },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "oscail díoltóirí mír",
     title: "díoltóir iarratas liosta",
     subtitle:
-      "seo is liosta de iarratas Ó mír mír mír mír chuig mír díoltóirí i do mír.",
+      "Is liosta é seo d’iarratais ó dhaoine aonair a rinne iarratas ar bheith ina ndíoltóirí i do mhargadh.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7091,7 +7091,7 @@ export default {
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     },
     distribution_model: {
-      title: "mír mír",
+      title: "Múnla Dáilte",
       subtitle:
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
     },
@@ -7112,15 +7112,15 @@ export default {
     documents: {
       title: "doiciméid",
       subtitle:
-        "tú is féidir mír do díoltóirí chuig uaslódáil doiciméid nó sínigh mír mír. mír mír doiciméid mír.",
+        "Féadfaidh tú a cheangal ar do dhíoltóirí doiciméid a uaslódáil nó conarthaí áirithe a shíniú. Sonraigh na doiciméid riachtanacha anseo.",
       add_document_action: "Cuir leis doiciméad iarratas",
     },
     inputs: {
       enable: {
         false_description:
-          "mír is mír mír, mír gach mír mír.",
+          "Tá an margadh múchta, rud a dhíchumasaítear feidhmiúlachtaí uile an mhargaidh.",
         true_description:
-          "mír is gníomhach, mír gach mír mír.",
+          "Tá an margadh gníomhach, rud a chumasaíonn feidhmiúlachtaí uile an mhargaidh.",
       },
       product: {
         label: "Cuir leis nua táirge",
@@ -7128,14 +7128,14 @@ export default {
         false_description:
           "tú Cuir leis Táirgí agus mír díoltóirí. díoltóirí is féidir mír bainistigh praghas agus fardal.",
         true_description:
-          "díoltóirí is féidir Cuir leis agus bainistigh mír mír Táirgí mír i mír díoltóir mír.",
+          "Is féidir le díoltóirí a gcuid táirgí féin a chur leis agus a bhainistiú go díreach ina bpainéal díoltóirí.",
       },
       need_verify: {
         label: "táirge fíorú mír",
         false_description: "nua díoltóir Táirgí téigh beo mír.",
         false_title: "mír fíorú mír",
         true_description:
-          "díoltóirí nua Táirgí mír mír mír mír beo ar mír.",
+          "Teastaíonn faomhadh do tháirgí nua na ndíoltóirí sula dtéann siad beo ar an margadh.",
         true_title: "fíorú mír",
       },
       category: {
@@ -7144,27 +7144,27 @@ export default {
         false_description:
           "tú Cuir leis catagóir. díoltóirí is féidir mír Cuir leis Táirgí chuig mír catagóir.",
         true_description:
-          "díoltóirí is féidir Cuir leis agus bainistigh catagóir mír i mír díoltóir mír.",
+          "Is féidir le díoltóirí catagóirí a chur leis agus a bhainistiú go díreach ina bpainéal díoltóirí.",
       },
       shipping: {
         label: "Loingseoireacht roghanna",
         true_title: "díoltóirí mír Loingseoireacht roghanna",
         false_description:
-          "díoltóirí mír Cuir leis nó mír mír Loingseoireacht modhanna.",
+          "Ní féidir le díoltóirí a modhanna loingseoireachta a chur leis nó a shaincheapadh.",
         true_description:
-          "díoltóirí is féidir socraigh mír mír mír Loingseoireacht modhanna, Cuir leis mír, agus mír Loingseoireacht do mír mír.",
+          "Is féidir le díoltóirí a modhanna loingseoireachta féin a bhunú, teachtairí a chur leis, agus loingseoireacht a shaincheapadh dá gcuid riachtanas.",
       },
       hidden_customer: {
         label: "Taispeáin mír teagmháil faisnéis",
         true_description: "mír teagmháil sonraí tá mír Ó díoltóirí.",
         false_description:
-          "mír teagmháil sonraí, mír fón agus ríomhphost, tá mír chuig díoltóirí.",
+          "Tá sonraí teagmhála an cheannaitheora, amhail guthán agus ríomhphost, le feiceáil ag díoltóirí.",
       },
       multi: {
         false_description:
-          "úsáideoir is féidir mír mír mír díoltóir cuntas. úsáideoirí beidh mír mír chuig mír mír mír /díoltóirí.",
+          "Ní féidir ach cuntas díoltóra amháin a bheith ag úsáideoir. Déanfar úsáideoirí a atreorú chuig a bpainéal ag /díoltóirí.",
         true_description:
-          "úsáideoir is féidir mír mír díoltóir cuntais. seo is mír gné; le do thoil teagmháil us mír ag úsáid mír.",
+          "Is féidir le húsáideoir cuntais díoltóirí iolracha a bheith aige. Is gné béite é seo; déan teagmháil linn roimh é a úsáid.",
         true_title: "mír mód",
         false_title: "mír díoltóir mód (réamhshocrú)",
       },
@@ -7189,12 +7189,12 @@ export default {
       type: {
         title: "Cineál doiciméid",
         subtitle:
-          "Cuir leis doiciméad iarratas mír mír. mír beidh mír i mír mír, mír mír chuig uaslódáil mír doiciméad.",
+          "Cuir mír iarratais doiciméid leis anseo. Beidh sé le feiceáil i bpainéal an díoltóra, á spreagadh chun an doiciméad riachtanach a uaslódáil.",
       },
       guide: {
         title: "Treoir",
         subtitle:
-          "mír mír Treoir chuig cabhair díoltóirí mír mír doiciméid chuig uaslódáil agus mír chuig mír mír mír.",
+          "Tabhair treoir ghairid chun cabhrú le díoltóirí tuiscint a fháil ar na doiciméid atá le huaslódáil agus conas é a dhéanamh i gceart.",
       },
       code: {
         title: "leabú cód",
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "Treoir (mír)",
           placeholder:
-            "mír, mír mír Treoir nó mír, mír naisc chuig mír nó mír doiciméid.",
+            "De rogha air sin, cuir treoir nó treoracha gairid ar fáil, lena n-áirítear naisc chuig conarthaí nó doiciméid eile.",
         },
         code: {
           label: "leabú cód",
@@ -7223,7 +7223,7 @@ export default {
         },
         url: {
           label: "URL",
-          message: "iontráil URL do doiciméad nó mír mír...",
+          message: "Cuir isteach URL an doiciméid nó an chonartha anseo...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "díreach Loingseoireacht Ó díoltóir",
       description:
-        "i seo mód, díoltóirí mír Orduithe mír chuig Custaiméirí. Loingseoireacht seoladh do díoltóir Orduithe beidh mír mír seoladh.",
+        "Sa mhodh seo, déanann díoltóirí orduithe a sheoladh go díreach chuig custaiméirí. Is é seoladh an cheannaitheora an seoladh loingseoireachta le haghaidh orduithe díoltóirí.",
     },
   },
   /**
@@ -7251,42 +7251,42 @@ export default {
     Identification: {
       title: "úinéir mír doiciméad",
       description:
-        "uaslódáil mír ID chuig mír mír de gnó úinéir nó eochair mír.",
+        "Uaslódáil aitheantas arna eisiúint ag rialtas chun céannacht úinéara an ghnó nó an phríomhfheidhmeannaigh a fhíorú.",
     },
     Business: {
       title: "gnó mír",
       description:
-        "mír mír gnó doiciméid mír ceadúnas nó mír mír chuig deimhnigh mír stádas de do gnó.",
+        "Cuir doiciméid ghnó riachtanacha ar fáil ar nós ceadúnais nó deimhnithe clárúcháin chun stádas dlíthiúil do ghnó a dhearbhú.",
     },
     Address: {
       title: "seoladh fíorú",
       description:
-        "mír doiciméad chuig mír do gnó seoladh, mír mír bille, cáin sonrasc, nó mír mír.",
+        "Cuir isteach doiciméad chun do sheoladh gnó a fhíorú, amhail bille fóntais, sonrasc cánach, nó comhaontú léasa.",
     },
     Contract: {
       title: "mír & mír",
       description:
-        "uaslódáil mír nó mír sin mír téarmaí agus coinníollacha de do gnó mír.",
+        "Uaslódáil conarthaí nó comhaontuithe a shonraíonn téarmaí agus coinníollacha do chaidrimh ghnó.",
     },
     Copyright: {
-      title: "mír mír",
+      title: "Doiciméadúchán Cóipchirt",
       description:
-        "mír mír mír doiciméid chuig mír do mír airí deas.",
+        "Doiciméid um chlárú cóipchirt a sholáthar chun do chearta maoine intleachtúla a dhearbhú.",
     },
     Privacy: {
       title: "príobháideachas mír doiciméid",
       description:
-        "cuir san áireamh do príobháideachas mír doiciméid chuig mír do mír chuig mír úsáideoir agus custaiméir faisnéis.",
+        "Cuir do dhoiciméid bheartais príobháideachais san áireamh chun do thiomantas maidir le faisnéis úsáideoirí agus custaiméirí a chosaint a léiriú.",
     },
     Embed: {
       title: "mír Foirm",
       description:
-        "críochnaithe mír Foirm chuig mír mír faisnéis.",
+        "Comhlánaigh an fhoirm leabaithe chun an fhaisnéis riachtanach a sholáthar.",
     },
     Link: {
       title: "seachtrach nasc",
       description:
-        "mír seachtrach nasc chuig mír mír faisnéis.",
+        "Lean an nasc seachtrach chun an fhaisnéis riachtanach a sholáthar.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Sparáin díoltóra",
     subtitle:
-      "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+      "Níl gá le sparán a chur leis de láimh! Cruthaítear sparán díoltóra go huathoibríoch. Má chumasaíonn tú modh íocaíochta a thacaíonn le híocaíochtaí scoilte (amhail Stripe Connect), déanfaidh an córas íocaíochtaí a dháileadh go huathoibríoch ar chuntais na ndíoltóirí nasctha. Mura bhfuil an ghné seo cumasaithe, beidh ort díoltóirí a íoc de láimh, agus is féidir leat na méideanna atá dlite dóibh a sheiceáil ar an liosta sparán.",
     filter_vendor: {
       placeholder: "scagaire de réir díoltóir...",
     },
@@ -7341,7 +7341,7 @@ export default {
   vendor_pricing_add: {
     title: "mír praghsáil mír",
     subtitle:
-      "mír tú mír praghsáil mír chuig díoltóir Táirgí, praghas beidh mír mír mír díoltóir praghas * (1 + coimisiún%).",
+      "Nuair a shannfaidh tú samhail praghsála do tháirgí díoltóra, déanfar an praghas a ríomh go huathoibríoch mar Phraghas Díoltóra * (1 + Coimisiún%).",
     delete: {
       subtitle:
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "mír.mír., mír Táirgí mír...",
+        placeholder: "m.sh., Aicme Táirgí Digiteacha...",
       },
       description: {
         placeholder: "tú is féidir Cuir leis nóta mír...",
       },
       accept_delete: {
-        true_description: "mír mír chuig Scrios seo praghsáil mír.",
-        true_title: "deimhnigh praghsáil mír mír",
+        true_description: "Ba mhaith liom an múnla praghsála seo a scriosadh.",
+        true_title: "Deimhnigh Baint Múnla Praghsála",
       },
     },
   },
@@ -7373,17 +7373,17 @@ export default {
     vendor_wallet: "díoltóir sparán",
     vendor_bank_account: "díoltóir banc cuntas",
     with_balance_tooltip:
-      "mír tú connect íocaíocht amach seirbhísí mír Stripe Connect, mír mír agus mír ar fáil iarmhéid i do Stripe cuntas do mír.",
+      "Nuair a nascann tú seirbhísí íocaíochta amhail Stripe Connect, déanaimid an t-iarmhéid atá ar fáil a aisghabháil agus a thaispeáint i do chuntas Stripe le haghaidh tagartha.",
     with_balance: "le iarmhéid",
     without_balance: "mír iarmhéid - mír mód",
     bank_transfer: {
       title: "Aistriú bainc",
       subtitle:
-        "seo is taifead de Íocaíocht stair. mír mír airgead beidh mír mír chuig díoltóir de réir mír; tú ní mór mír íoc do díoltóirí.",
+        "Is taifead é seo ar an stair íocaíochta. Ní aistreoidh an córas aon airgead iarbhír chuig an díoltóir; ní mór duit do dhíoltóirí a íoc de láimh.",
     },
     vendor_bank: "díoltóir banc",
     gateway_in_debug_mode_warning:
-      "mír Geata íocaíochta is mír i dífhabhtú mód, mír beidh ní mír mír chuig mír cuntas.",
+      "Ós rud é go bhfuil an tairseach íocaíochta i mód dífhabhtaithe faoi láthair, ní aistreofar cistí chuig fíorchuntas.",
     payment: {
       title: "Íocaíocht",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "tú is féidir Cuir leis nóta mír... seo nóta is ní mír chuig díoltóir.",
       },
       accept_refund: {
-        true_description: "mír mír chuig Cealaigh seo Íocaíocht.",
+        true_description: "Ba mhaith liom an íocaíocht seo a chur ar ceal.",
         true_title: "Cealaigh & aisíocaíocht Íocaíocht",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "mír mír",
+        title: "Ciste droim ar ais",
         message:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
       },
       payout_success: {
         title: "íocaíocht amach",
         message:
-          "mír íocaíocht amach tá mír mír mír agus mír.",
+          "Rinneadh íocaíocht an díoltóra a phróiseáil agus a chur leis go rathúil.",
       },
     },
   },
@@ -7431,9 +7431,9 @@ export default {
    */
   quota_importer: {
     quota: "mír",
-    max_batch_msg: "uasmhéid uimhir de míreanna tú is féidir iompórtáil i mír mír.",
+    max_batch_msg: "Uaslíon na míreanna is féidir leat a iompórtáil i mbaisc amháin.",
     max_daily_limit_msg: "uasmhéid uimhir de míreanna tú is féidir iompórtáil i lá.",
-    extra_daily_limit_msg: "mír míreanna ceadaithe mír mír teorainn.",
+    extra_daily_limit_msg: "Ceadaítear míreanna breise thar an teorainn laethúil.",
     add_items_today_msg: "míreanna mír inniu.",
     file_statistic_msg: "mír do seo comhad.",
     used_quota: "úsáidte mír",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "mír teideal",
-      subtitle: "airde de teideal beidh mír mír.",
+      subtitle: "Coigeartóidh airde an teidil go dinimiciúil.",
     },
 
     animation: {
@@ -7509,9 +7509,9 @@ export default {
       static: {
         false_title: "le mír",
         false_description:
-          "catagóir agus Táirgí mír mír mír chuig Taispeáin mír.",
+          "Tá beochan idirghníomhach ag catagóirí agus táirgí chun an fheidhmiúlacht a thaispeáint.",
         true_title: "Statach",
-        true_description: "catagóir agus Táirgí mír mír mír.",
+        true_description: "Níl beochan ag catagóirí agus táirgí.",
       },
     },
 
@@ -7519,9 +7519,9 @@ export default {
       title: "mír gníomh",
       hover: {
         false_description:
-          "simplí agus mír mód mír mír mír gníomh ar táirge mír.",
+          "Modh simplí agus íosta gan aon ghníomhartha breise ar chártaí táirge.",
         true_description:
-          "Taispeáin mír mír & Cuir leis chuig mír cnaipe ar táirge mír mír.",
+          "Taispeáin Mear-cheannach & Cuir leis chun cnaipí ar hovering cárta táirge a chur i gcomparáid.",
         true_title: "Taispeáin gníomh ar mír",
       },
     },
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "Leathanach táirge",
       subtitle:
-        "mír do Leathanach táirge mír. tú is féidir mír mír de praghas agus mír mír de rannáin chuig mír do roghanna.",
+        "Déan do leathanach táirge a phearsantú anseo. Is féidir leat taispeáint na bpraghsanna a choigeartú agus socrú na gcodanna a mhodhnú chun freastal ar do shainroghanna.",
       buy_button_color: "mír cnaipe dath",
       smart_price: {
         title: "mír aonad praghas",
@@ -7561,14 +7561,14 @@ export default {
         false_title: "Modh gnáth",
         true_title: "mír mód",
         false_description:
-          "airgeadra sínigh beidh mír mír mír tosaigh de uimhir. mír $95, €30",
+          "Cuirfear an comhartha airgeadra ag tús na n-uimhreacha. Mar shampla: $95, €30",
         true_description:
-          "airgeadra sínigh beidh mír mír mír mír de uimhir. mír 95$, 30€",
+          "Cuirfear an comhartha airgeadra ag deireadh na n-uimhreacha. Mar shampla: 95$ , 30 €",
       },
       variants_selector: {
         title: "malairtí mír",
         subtitle:
-          "tú is féidir roghnaigh mír mír chuig mír malairtí ar Leathanach táirge.",
+          "Is féidir leat bealaí éagsúla a roghnú chun malairtí a thaispeáint ar leathanach an táirge.",
       },
 
       tabs_order: {
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "mír & logáil isteach",
       subtitle:
-        "mír díoltóir mír agus logáil isteach mír le saincheaptha físeán, íomhá, nó teachtaireacht.",
+        "Pearsanaigh an díoltóir ar bord agus taithí logáil isteach le físeán saincheaptha, íomhá nó teachtaireacht.",
     },
     inputs: {
       page_vendor_login: {
@@ -7596,7 +7596,7 @@ export default {
       page_vendor_registered: {
         label: "díoltóir cláraithe leathanach",
         message:
-          "roghnaigh saincheaptha leathanach do mír díoltóirí. seo leathanach is mír mír do mír tacaíocht mír díoltóirí mír úsáideoir.",
+          "Roghnaigh leathanach saincheaptha le haghaidh díoltóirí logáilte isteach. Taispeántar an leathanach seo má thacaíonn do mhargadh le díoltóirí iolracha in aghaidh an úsáideora.",
       },
     },
   },
@@ -7618,7 +7618,7 @@ export default {
     inputs: {
       font_family: {
         label: "cló mír",
-        message: "iontráil mír mír.",
+        message: "Cuir isteach an luach cló-teaghlaigh.",
       },
       font_res: {
         label: "cló mír",
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "mír mód",
       description:
-        "mír malairtí i mír mír roghanna, mír do mír mír.",
+        "Athróga dlúth i roghanna ar leith in-roghnach, oiriúnach don chuid is mó cásanna.",
     },
     select: {
       title: "roghnaigh mód",
       description:
-        "mír gach malairtí i mír, mír do mír uimhir de malairtí.",
+        "Taispeáin gach leagan i anuas, oiriúnach do líon mór de na leaganacha.",
     },
   },
 
@@ -7677,7 +7677,7 @@ export default {
     add_title: "Cuir leis airí socraigh",
     config: {
       subtitle:
-        "socraigh teideal agus cur síos do do airí socraigh. mír beidh mír mír chuig foireann mír.",
+        "Socraigh teideal agus cur síos do thacar maoine. Beidh sé le feiceáil ag an bhfoireann amháin.",
     },
     variants: {
       title: "Leaganacha",
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "socraigh mír socraigh... (mír)",
         messages:
-          "tú is féidir mír mír do mír agus mír ordú.",
+          "Is féidir leat moltaí a sholáthar maidir leis na luachanna agus ordú a shaincheapadh.",
       },
     },
   },
@@ -7830,17 +7830,17 @@ export default {
     edit_title: "Cuir in eagar custaiméir",
     add_title: "Cuir leis nua custaiméir",
     subtitle:
-      "chuig Cuir leis custaiméir chuig do siopa, le do thoil mír mír ríomhphost seoladh nó fón uimhir.",
+      "Chun custaiméir a chur le do shiopa, tabhair seoladh ríomhphoist nó uimhir theileafóin le do thoil.",
     more: {
       title: "Cuir tuilleadh sonraí leis",
       subtitle: "socraigh airgeadra, Club custaiméirí, mír, seoladh agus tuilleadh.",
     },
     detail: {
       subtitle:
-        "mír taifead de pearsanta faisnéis faoi do custaiméir. le do thoil mír do mír príobháideachas.",
+        "Coinnigh taifead ar fhaisnéis phearsanta faoi do chustaiméir. Bíodh meas agat ar phríobháideachas do chustaiméara.",
     },
     preferences: {
-      subtitle: "socraigh réamhshocrú úsáideoir airgeadra, Club custaiméirí, agus mír mír.",
+      subtitle: "Socraigh airgeadra úsáideora réamhshocraithe, club custaiméara, agus codanna anseo.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Cliceáil ar an gcnaipe seo a leanas más mian leat an pacáiste seo a sheoladh trí <b>sheirbhís seachadta</b>.",
     courier_action: "seachadadh mír",
-    courier_action_subtitle: "mír mír beidh mír mír mír.",
+    courier_action_subtitle: "Tógfaidh mo chúiréireachta an beartán.",
 
     pickup_ready_action: "bailiú mír",
     pickup_ready_action_subtitle: "ordú is mír do custaiméir bailiú.",
 
-    service_action: "mír mír",
+    service_action: "Daingniú Forghníomhaithe",
 
     checklist: [
       "Seiceáil cárta aitheantais an chúiréireachta.",
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "deimhnigh seachadadh mír",
       true_description:
-        "mír deimhnigh sin ordú tá mír mír chuig custaiméir.",
+        "Deimhním go bhfuil an t-ordú seachadta don chustaiméir.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "mír Painéal",
     subtitle:
-      "mír do iarratas, coimisiún táille beidh mír mír chuig banc cuntas mír de réir tú. le do thoil mír do banc faisnéis mír.",
+      "Ar iarratas uait, íocfar an táille coimisiúin leis an gcuntas bainc a shonraigh tú. Tabhair do chuid faisnéise bainc anseo.",
     no_bank_info: "mír banc eolas!",
     actions: {
       edit_my_bank_info: "Cuir in eagar mír banc eolas",
@@ -8018,32 +8018,32 @@ export default {
       inputs: {
         name: {
           label: "banc ainm",
-          message: "mír ainm de banc mír cuntas is mír.",
+          message: "Ainm iomlán an bhainc ina bhfuil an cuntas i seilbh.",
         },
         holder_name: {
           label: "cuntas mír ainm",
           message:
-            "mír ainm de mír nó mír sin mír cuntas.",
+            "Ainm iomlán an duine nó an eintitis atá i seilbh an chuntais.",
         },
         account_number: {
           label: "Uimhir chuntais",
           message:
-            "mír uimhir mír le mír banc cuntas.",
+            "An uimhir uathúil a bhaineann leis an gcuntas bainc ar leith.",
         },
         routing_number: {
           label: "mír uimhir (USA) nó sórtáil cód (UK)",
           message:
-            "uimhir sin mír mír banc mír (mír téarmaí tá úsáidte i mír tíortha).",
+            "Uimhir a shainaithníonn an brainse bainc ar leith (úsáidtear téarmaí éagsúla i dtíortha éagsúla).",
         },
         swift: {
           label: "SWIFT/BIC cód",
           message:
-            "mír cód úsáidte chuig mír banc mír, mír do mír aistriú.",
+            "Cód idirnáisiúnta a úsáidtear chun bainc a aithint go domhanda, go háirithe le haghaidh aistrithe idirnáisiúnta.",
         },
         iban: {
           label: "IBAN (Uimhir chuntais bhainc idirnáisiúnta)",
           message:
-            "úsáidte mír i mír, IBAN is mír mír mír do mír banc cuntais mír mír mír.",
+            "Úsáidtear an IBAN go príomha san Eoraip, agus is córas comhaontaithe idirnáisiúnta é chun cuntais bhainc thar theorainneacha náisiúnta a shainaithint.",
         },
         contact: {
           label: "Eolas teagmhála",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "do banc eolas mír mír nuashonraithe.",
+        message: "D'éirigh le d'fhaisnéis bainc a nuashonrú.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Ó gach seirbhís táille, síntiús agus mír íocaíochtaí mír de réir do mír.",
+      "Ó gach táille seirbhíse, síntiús agus íocaíochtaí eile a rinne do atreoruithe.",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "mír mír",
+      title: "Sraith Chré-umha",
       description:
-        "tú tá i mír mír. tú mír mír 2% coimisiún Ó do mír.",
+        "Tá tú sa tSraith Chré-umha. Tá coimisiún 2% tuillte agat ó d’atreoruithe.",
     },
     Silver: {
-      title: "mír mír",
+      title: "Sraith Airgid",
       description:
-        "tú tá i mír mír. tú mír mír 4% coimisiún Ó do mír.",
+        "Tá tú sa tSraith Airgid. Tá coimisiún 4% tuillte agat ó d’atreoruithe.",
     },
     Gold: {
-      title: "mír mír",
+      title: "Sraith Óir",
       description:
-        "tú tá i mír mír. tú mír mír 6% coimisiún Ó do mír.",
+        "Tá tú sa tSraith Óir. Tá coimisiún 6% tuillte agat ó d’atreoruithe.",
     },
     Platinum: {
-      title: "mír mír",
+      title: "Sraith Platanam",
       description:
-        "tú tá i mír mír. tú mír mír 8% coimisiún Ó do mír.",
+        "Tá tú sa tSraith Platanam. Tá coimisiún 8% tuillte agat ó d’atreoruithe.",
     },
     Diamond: {
-      title: "mír mír",
+      title: "Sraith Diamond",
       description:
-        "tú tá i mír mír. tú mír mír 10% coimisiún Ó do mír.",
+        "Tá tú sa Sraith Diamond. Tá coimisiún 10% tuillte agat ó d’atreoruithe.",
     },
   },
 
@@ -8528,20 +8528,20 @@ export default {
       valid_message: "tú is féidir Cruthaigh saincheaptha SMS teachtaireacht.",
       provider_not_enable_message: "SMS mír is ní cumasaithe!",
       need_custom_provider_message:
-        "mír SMS teachtaireacht mír mír mír tú socraigh saincheaptha mír.",
+        "Ní oibríonn teachtaireachtaí SMS saincheaptha ach amháin má shocraíonn tú soláthraí saincheaptha.",
       add_new: "Cuir leis nua",
       disable_reason: {
-        set_provider: "socraigh do mír mír!",
+        set_provider: "Socraigh do sholáthraí ar dtús!",
         provider_is_disabled: "mír is mír!",
-        otp: "OTP - mír mír!",
-        select_another_provider: "roghnaigh mír mír.",
+        otp: "OTP - Ní féidir aon cheann a shaincheapadh!",
+        select_another_provider: "Roghnaigh soláthraí eile.",
       },
       enable_only_filter: "Taispeáin mír cumasaithe",
 
       text_template_not_supported_msg:
-        "do mír mír ní tacaíocht mír téacs teachtaireacht.",
+        "Ní thacaíonn do sholáthraí le teachtaireachtaí gnáth-théacs.",
       structure_template_not_supported_msg:
-        "do mír mír ní tacaíocht mír teachtaireacht.",
+        "Ní thacaíonn do sholáthraí le teachtaireachtaí struchtúracha.",
 
       structured_data: "mír sonraí",
 
@@ -8558,20 +8558,20 @@ export default {
         subtitle:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         code: "Cód",
-        language_msg: "mír mír mír chuig socraigh mír réamhshocrú.",
+        language_msg: "Fág folamh é chun é a shocrú mar réamhshocrú.",
         enable_msg: "seo teimpléad beidh mír úsáidte chuig Cruthaigh teachtaireacht.",
       },
       text: {
         title: "mír téacs",
         subtitle:
-          "iontráil mír SMS teachtaireacht mír. mír mír beidh mír mír le mír mír mír mír mír seolta chuig úsáideoir.",
+          "Cuir isteach teachtaireacht SMS pearsantaithe anseo. Cuirfear a luachanna iarbhír in ionad luachanna dinimiciúla sula seolfar chuig an úsáideoir iad.",
         message: "Teachtaireacht",
         reset_to_default: "athshocraigh chuig réamhshocrú",
 
         auto_fill: {
-          title: "uathoibríoch mír mír",
+          title: "Paraiméadair líonadh uathoibríoch",
           subtitle:
-            "tú is féidir úsáid mír de mír mír i téacs agus Selldone beidh mír mír le mír mír.",
+            "Is féidir leat gach ceann de na paraiméadair seo a úsáid sa téacs agus cuirfidh Soldone an luach comhfhreagrach ina ionad.",
         },
 
         sample: {
@@ -8581,11 +8581,11 @@ export default {
       template: {
         title: "mír teimpléad",
         subtitle:
-          "tú is féidir socraigh teimpléad eochair agus mír mír. teimpléad cód ba chóir mír mír mír tú socraigh i do SMS seirbhís mír, agus <code>eochair</code> is mír do mír mír chuig seol cód mír. mír <code>mír</code> mír de teimpléad is mír, mír <code>{code}</code> beidh mír mír teimpléad cód.",
+          "Is féidir leat eochair an teimpléid agus an luach a shocrú anseo. Ba cheart go mbeadh an cód teimpléad díreach mar a shocraigh tú i do sholáthraí seirbhíse SMS, agus is é an <code>key</code> a bhfuil do sholáthraí ag iarraidh an cód a sheoladh tríd. Má tá réimse an teimpléid <code>value</code> folamh, ansin measfar <code>{code}</code> mar chód an teimpléid.",
         add_new_parameter: "Cuir leis nua mír",
 
         auto_fill: {
-          title: "uathoibríoch mír mír",
+          title: "Paraiméadair líonadh uathoibríoch",
           subtitle:
             "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "mír téacs",
-      desc: "teachtaireacht beidh mír mír Ó téacs le uathoibríoch mír mír agus seol.",
+      desc: "Cruthófar teachtaireacht ó théacs le paraiméadair athsholáthair uathoibríoch agus seol.",
     },
     template: {
       title: "mír teimpléad",
-      desc: "mír beidh mír mír Ó mír agus seol chuig mír.",
+      desc: "Cruthófar réad ó pharaiméadair agus seolfaidh sé chuig an soláthraí é.",
     },
   },
 
@@ -8621,18 +8621,18 @@ export default {
     plain_text: "mír téacs",
     structural_template: "mír teimpléad",
     errors_limit_msg:
-      "mír do seirbhís mír 100 earráid, mír beidh mír díchumasaithe mír! tú is féidir athshocraigh earráid chuig mír mír.",
+      "Má sháraíonn do sheirbhís 100 earráid, díchumasófar í go huathoibríoch! Is féidir leat earráidí a athshocrú chun é a athchumasú.",
 
     enable_input: {
       false_description:
-        "OTP teachtaireacht beidh mír mír mír Selldone i roghnaigh tíortha, mír mír ordú fógra SMS beidh mír seolta mír.",
+        "Seolfar teachtaireachtaí OTP trí Selldone i dtíortha roghnaithe, agus seolfar SMS fógra ordaithe eile freisin.",
       true_description:
-        "SMS teachtaireacht beidh mír mír ag úsáid do seirbhís mír.",
+        "Seachadfar teachtaireachtaí SMS le do sholáthraí seirbhíse.",
     },
     test_input: {
       true_title: "mír cumraíocht",
       true_description:
-        "mír beidh seol tástáil teachtaireacht chuig do fón uimhir 📞 <b>{phone}</b>, mír is féidir muirear tú, mír tú is féidir déan mír mír mír mír.",
+        "Seolfaimid teachtaireacht tástála chuig d'uimhir theileafóin 📞 <b>{phone}</b>, féadfaidh sé táille a ghearradh ort, ach is féidir leat a chinntiú go n-oibríonn gach rud go maith.",
     },
     sync_action: {
       title: "Gníomhartha",
@@ -8643,7 +8643,7 @@ export default {
     tokens: {
       title: "mír",
       subtitle:
-        "socraigh mír mír chuig nasc do SMS seirbhís mír le do siopa.",
+        "Socraigh na paraiméadair seo a leanas chun do sholáthraí seirbhíse SMS a nascadh le do shiopa.",
     },
   },
   sms_messages_options: {
@@ -8679,23 +8679,23 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "saincheaptha mír mír",
+    title: "Freastalaí ríomhphoist saincheaptha",
     subtitle:
-      "Connect do mír seirbhís mír chuig seol ríomhphost mír do saincheaptha fearann.",
+      "Ceangail do sholáthraí seirbhíse ríomhphoist chun ríomhphoist a sheoladh trí d'fhearann ​​saincheaptha.",
     provider: "mír",
     enable_input: {
-      false_description: "do ríomhphost beidh mír seolta mír do mír fearann.",
-      true_description: "do ríomhphost beidh mír seolta mír do saincheaptha mír fearann.",
+      false_description: "Seolfar do ríomhphoist trí d'fhearann ​​myseldone.",
+      true_description: "Seolfar do ríomhphoist trí d'fhearann ​​ríomhphoist saincheaptha.",
     },
     config: {
       title: "mír",
       subtitle:
-        "chuig cumraigh do saincheaptha mír seirbhís do do siopa, ionchur do seirbhís API eochair mír le mír mír Socruithe.",
+        "Chun do sheirbhís ríomhphoist saincheaptha a chumrú do do shiopa, ionchuir d'eochair API seirbhíse mar aon le socruithe riachtanacha eile.",
     },
     sender: {
       title: "Ó",
       subtitle:
-        "tú is féidir cumraigh réamhshocrú mír ainm agus ríomhphost seoladh, mír beidh mír úsáidte do mír ríomhphost chuig do Custaiméirí.",
+        "Is féidir leat ainm agus seoladh ríomhphoist an tseoltóra réamhshocraithe a chumrú, a úsáidfear chun ríomhphoist a sheoladh chuig do chustaiméirí.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "mír do seirbhís mír 100 earráid, mír beidh mír díchumasaithe mír! tú is féidir athshocraigh earráid chuig mír mír.",
+        "Má sháraíonn do sheirbhís 100 earráid, díchumasófar í go huathoibríoch! Is féidir leat earráidí a athshocrú chun é a athchumasú.",
 
       encryption_ports_guide:
-        "ríomhphost soláthraithe mír tairiscint SSL, TLS, nó mír mír mír ar ar fáil port. mír mír mír i earráid, mír mír mód mír mír mír. mír <b>TLS</b> úsáid port: <b>587</b> agus <b>SSL</b> úsáid port: <b>465</b>.",
+        "Féadfaidh soláthraithe ríomhphoist SSL, TLS, nó naisc neamhchriptithe a thairiscint bunaithe ar na poirt atá ar fáil. Má bhíonn earráid mar thoradh ar an gceangal, d'fhéadfadh athrú an mhodha criptithe an cheist a réiteach. Úsáid Chalafort <b>TLS</b>: <b>587</b> agus <b>SSL</b> Úsáid Port: <b>465</b>.",
 
       enable_receive_test:
-        "mír Sábháil athruithe, tú beidh faigh tástáil mír ar <b>{email}</b>. Sábháil athruithe mír mír tástáil ríomhphost le nua cumraíocht.",
+        "Tar éis duit na hathruithe a shábháil, gheobhaidh tú ríomhphost tástála ar <b>{email}</b>. Sábháil na hathruithe sula seolann tú ríomhphost tástála leis an gcumraíocht nua.",
     },
   },
 
@@ -8947,11 +8947,11 @@ export default {
       delete_success: "Scriosadh an comhad go rathúil.",
     },
     drag_sort_msg: "tú is féidir tarraing agus sórtáil comhaid.",
-    paid_mode_msg: "úsáideoirí is féidir íoslódáil mír mír mír mír táirge.",
+    paid_mode_msg: "Ní féidir le húsáideoirí é a íoslódáil ach amháin tar éis dóibh an táirge a cheannach.",
     free_mode_msg:
-      "úsáideoirí is féidir íoslódáil mír do saor in aisce. sampla comhaid ní mór mír mír 50 MB.",
+      "Is féidir le húsáideoirí é a íoslódáil saor in aisce. Caithfidh comhaid shamplacha a bheith faoi bhun 50 MB.",
     has_gust_shopping_msg:
-      "cláraithe agus mír úsáideoirí is féidir íoslódáil comhaid mír mír ceannacháin tá cumasaithe i mír Socruithe > mír.",
+      "Is féidir le húsáideoirí cláraithe agus aoi-úsáideoirí comhaid a íoslódáil ós rud é go bhfuil aoicheannacháin cumasaithe i socruithe an tsiopa > sreabhadh.",
     only_registered_shopping_msg:
       "mír cláraithe úsáideoirí is féidir íoslódáil sampla comhaid.",
     file_count_limit: "comhaid líon teorainn",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "ar fáil suíomh",
     subtitle:
-      "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+      "Mura bhfuil do tháirge nó do sheirbhís ar fáil ach i réigiúin shonracha, arna sainiú de réir tíre agus cóid zip nó bioráin, is féidir leat na suíomhanna sin a ainmniú anseo. Déantar na srianta suímh seo a fhorfheidhmiú ar leibhéal an táirge. Ar leathanach an táirge, tabharfar leid do chustaiméirí a suíomh a roghnú. Má tá an táirge ar fáil ina limistéar roghnaithe, beidh siad in ann dul ar aghaidh leis an gceannach.",
 
     add_location_action: "Cuir leis tír",
     no_restriction: "mír srian",
@@ -8978,14 +8978,14 @@ export default {
     has_restriction_input: {
       title: "tá Suíomh srian",
       description:
-        "Custaiméirí is féidir mír ceannach seo táirge mír mír tír agus mír cód, mír chuig mír Suíomh srian.",
+        "Ní féidir le custaiméirí an táirge seo a cheannach ach amháin laistigh den tír shonraithe agus den chód zip, mar gheall ar an srian suímh bunaithe.",
     },
     zip_pin_code: "mír / mír cód",
     no_country_selected_error:
-      "le do thoil cuir san áireamh mír mír mír tír mír le liosta de mír/mír cód. mír mír, seo táirge beidh ní mír ar fáil.",
-    tips: "mír ar <b>+ Cuir leis tír</b> cnaipe chuig tosaigh mír nua Suíomh socraigh. mír mír mír, tú is féidir Sábháil mír de réir mír ar mír <b>⋮ roghchlár</b> agus mír <b>Sábháil próifíl</b>.",
+      "Cuir isteach tír amháin ar a laghad mar aon le liosta de chóid zip/pin. Gan é, ní bheidh an táirge seo ar fáil.",
+    tips: "Cliceáil ar an gcnaipe <b>+ Add Country</b> chun tús a chur le suíomh nua a chruthú. Nuair a bheidh tú críochnaithe, is féidir leat é a shábháil trí chliceáil ar an roghchlár <b>⋮</b> ar bharr ar dheis agus <b>Save Profile</b> a roghnú.",
     need_save_message:
-      "Suíomh srian Socruithe do táirge mír mír mír. chuig mír mír athraigh, le do thoil mír ar 'Sábháil' cnaipe mír.",
+      "Athraíodh na socruithe srianta suímh don táirge. Chun na hathruithe seo a chaomhnú, cliceáil le do thoil ar an gcnaipe 'Sábháil' thíos.",
 
     add_dialog: {
       title: "Cuir leis tír",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "lódáil suíomh próifíl",
       message:
-        "tú is féidir lódáil suíomh de réir mír mír mír Suíomh socraigh mír.",
+        "Is féidir leat suímh a luchtú trí shuíomh a shábháiltear roimhe seo a roghnú anseo.",
 
       select_input: {
         title: "Suíomh próifíl",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Ná caill do chuid orduithe!",
     msg: "Bainistigh do ghnó áit ar bith & am ar bith.",
-    scan_qr_code: "mír mír le do fón!",
+    scan_qr_code: "Scan mé le do ghuthán!",
 
     notification: {
       title: "Fógra",
@@ -9133,11 +9133,11 @@ export default {
     sample: {
       title: "sampla siopaí",
       subtitle:
-        "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+        "Anseo, is féidir leat teacht ar rogha siopaí samplacha. Tugtar cead duit an fhaisnéis atá ar fáil sna siopaí seo a fheiceáil. Mar sin féin, le do thoil staon ó logáil isteach nó orduithe a dhéanamh ag baint úsáide as faisnéis phearsanta fíor, mar go mbeidh na sonraí seo inrochtana don phobal. Má chuireann tú do chuid faisnéise isteach anseo trí thimpiste, fág go cineálta an siopa agus déan teagmháil linn le haghaidh tuilleadh cúnaimh.",
     },
 
     add_new_store: "Cuir leis nua siopa",
-    i_have_a_deal: "mír mír mír",
+    i_have_a_deal: "Tá plé agam",
     access: {
       title: "rochtain cuireadh",
     },
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Catagóirí Blag",
     subtitle:
-      "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+      "Is féidir leat líon teoranta catagóirí a chruthú do do bhlagphoist chun iad a bhainistiú ar bhealach níos éifeachtaí. Trí theorainn chatagóir a bheith agat, cuirtear eagraíocht níos fearr chun cinn ar do láithreán gréasáin. Go háirithe, coimeádann fiú na príomhghníomhaireachtaí nuachta líon teoranta catagóirí, go minic níos lú ná 100, chun bainistíocht a chuíchóiriú agus fócas níos leithne a choinneáil.",
 
     add_action: "Cuir catagóir nua leis",
     add_dialog: {
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "ábhar mír mír",
+    title: "Sceideal Eisiúna Ábhar",
     subtitle:
       "Cumraigh agus bainistigh an rogha seo do do shiopa.",
   },
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Cúntóir Orduithe",
     subtitle:
-      "easpórtáil agus íoslódáil mír do bulc ordú mír - mír do mír mír 100 Orduithe mír.",
+      "Lipéid easpórtála agus íoslódála le haghaidh próiseáil mórchóir - iontach chun breis agus 100 ordú a láimhseáil in aghaidh an lae.",
 
     timespan: {
       title: "Tréimhse ama",
@@ -9266,7 +9266,7 @@ export default {
       title: "Modhanna logáil isteach",
       subtitle: "Saincheap an bealach a logáil úsáideoirí isteach i do stór.",
 
-      tips: "<b>mír.</b> mír úsáideoir cláraigh le do siopa, mír Selldone úsáideoir is mír, mír mír mír mír mír. seo úsáideoir beidh mír rochtain chuig mír seoladh mír mír gach siopa agus is féidir féach mír ordú stair, mír mír siopa tá dúnta. mír mír ní úsáid seo faisnéis do margaíocht mír mír mír mír chuig mír mír ar mír mír. chuig mír mír, mír seol ríomhphost chuig úsáideoir mír mír de mír mír.",
+      tips: "<b>Important.</b> Nuair a chláraíonn úsáideoir le do shiopa, cruthaítear úsáideoir Selldone comhfhreagrach, mura bhfuil ceann ann cheana. Beidh rochtain ag an úsáideoir seo ar a leabhar seoltaí ar fud na siopaí go léir agus is féidir leis a stair orduithe a fheiceáil, fiú má tá siopa dúnta. Ní úsáidimid an fhaisnéis seo chun críocha margaíochta ach éilíonn muid é chun calaois a chosc ar an dá thaobh. Chun trédhearcacht a choinneáil, seolfaimid ríomhphost chuig an úsáideoir á chur ar an eolas faoina gclárúchán.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "mír Foirm",
       subtitle:
-        "mír mír Foirm mír chuig mír faisnéis tú mír Ó do Custaiméirí.",
+        "Saincheap na réimsí foirme seiceála chun an fhaisnéis a theastaíonn uait a bhailiú ó do chustaiméirí.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "mír",
       title: "mír",
       description:
-        "seo táirge is ní mír i siopa, mír mír de réir díreach nasc.",
+        "Níl an táirge seo liostaithe sa siopa, ach tá sé inrochtana trí nasc díreach.",
     },
   },
 
@@ -9503,8 +9503,8 @@ export default {
       team: "seol chuig foireann",
     },
     placeholder: {
-      ceo: "mír mír mír chuig mír mír, mír mír chuig mír do díreach, mír mír.\nmír.mír. mír mír chuig mír...",
-      team: "le do thoil try chuig mír mír chuig mír.\nmír.mír. mír mír chuig mír...",
+      ceo: "Cinnte ní gá a bheith deas, is maith liom a chloisteáil do díreach, ceart-go-an pointe fiafraí.\ne.g. Caithfidh mé a bheith...",
+      team: "Déan iarracht a bheith deas leo le do thoil.\ne.g. Caithfidh mé a bheith...",
     },
   },
 
@@ -9525,9 +9525,9 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "mír mír Táirgí",
+    title: "Próiseáil táirgí allmhairithe",
     message:
-      "mír tá i próiseas de mír Táirgí agus íomhánna, mír mír mír mír am chuig críochnaithe.",
+      "Táimid i mbun táirgí agus íomhánna a allmhairiú, rud a d’fhéadfadh roinnt ama a ghlacadh lena chur i gcrích.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "faisnéis mír mír tá mír mír de réir custaiméir, i mír le táirge ionchur Foirm mír.",
+      "Tá an fhaisnéis atá ar taispeáint anseo curtha isteach ag an gcustaiméir, de réir struchtúr foirm ionchuir an táirge.",
   },
 
   /**
@@ -9558,7 +9558,7 @@ export default {
       auto_confirm_disable_msg:
         "uathoibríoch mír de Orduithe is ní cumasaithe.",
       shipping_enable_msg:
-        "Loingseoireacht mír beidh mír mír mír ar faisnéis mír mír mír.",
+        "Déanfar an costas loingseoireachta a ríomh bunaithe ar an bhfaisnéis a chuirfear ar fáil ag an tseiceáil amach.",
     },
     detail: {
       title: "Connect mír",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "sioncrónaigh mír",
         subtitle:
-          "mír sioncrónaigh sonraí. seo faisnéis is mír mír sioncrónaigh próiseas mír mír mír.",
+          "Sonraí sioncronaithe inmheánaigh. Sábháiltear an fhaisnéis seo nuair a thagann deireadh rathúil le ré an phróisis sioncronaithe.",
         no_data: "mír sioncrónaigh faisnéis!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Táirgí",
       subtitle:
-        "liosta de mír Táirgí Ó {name}. déan mír do táirge tá mír ainm agus SKU. mír Connect seirbhísí tá úsáidte do mír, mír mír tú mír Táirgí le dúblaigh <b>mír</b> agus <b>ainm</b>, mír Táirgí beidh mír mír!",
+        "Liosta de tháirgí breise ó {name}. Déan cinnte go bhfuil ainm uathúil agus SKU ar do tháirge. Úsáidtear roinnt seirbhísí Connect le haghaidh imirce, mar sin má tá táirgí agat le <b>SKUs</b> agus <b>Names</b>, athrófar na táirgí sin!",
       action: "mír Táirgí",
       syncing_message: "ar mír próiseas...",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "mír",
       subtitle:
-        "liosta de gach mír i deireanach 7 laethanta. mír gné mír mír ar seachtrach seirbhís soláthraithe.",
+        "An liosta de na logaí go léir le 7 lá anuas. Gné logála tacaithe ar sholáthróirí seirbhíse seachtracha amháin.",
     },
 
     edit: {
@@ -9595,25 +9595,25 @@ export default {
       service: {
         title: "seirbhís",
         subtitle:
-          "roghnaigh mír mír, dropshipping mír, nó mír chuig connect.",
+          "Roghnaigh sprioc-ardán, soláthraí dropshipping, nó margadh le nascadh.",
       },
       test: {
         false_title: "sioncrónaigh gach",
         false_desc: "mír gach ar fáil Táirgí, catagóir, Custaiméirí.",
-        true_title: "mír (mír do mír)",
+        true_title: "Teoranta (Molta do thosaitheoirí)",
         true_desc:
-          "mír mír 5 Táirgí, catagóir, agus Custaiméirí. tú is féidir mír mír chuig mír mód i Connect > mír mír mír am.",
+          "Faigh max 5 táirgí, catagóirí, agus custaiméirí. Is féidir leat é a chasadh go mód iomlán sa Nasc > Socrú am ar bith.",
       },
       overwrite: {
-        false_title: "mír ní athraigh mír mír",
-        false_desc: "mír mír táirge agus catagóir sonraí mír tá.",
+        false_title: "Ná athraigh má tá",
+        false_desc: "Coinnigh sonraí reatha an táirge agus na gcatagóirí mar atá siad.",
         true_title: "mír",
         true_desc:
           "Nuashonraigh mír táirge, malairt, agus catagóir faisnéis.",
       },
       migration_tips:
-        "<b>mír </b>mír tú mír chuig tástáil mír le do thoil roghnaigh <b>mír</b> mír. de réir mír 'sioncrónaigh gach, mír mír gach sonraí Ó do nasctha " +
-        "seirbhísí agus íoslódáil mír íomhánna, mír mír beidh mír do saor in aisce mír. mír, mír mír Táirgí, catagóir, agus Custaiméirí mír mír mír!",
+        "<b>Tips: </b> Más mian leat an fheidhmiúlacht a thástáil roghnaigh le do thoil\n" +
+          "            Rogha <b>Limited</b>. Trí 'Sync all' a roghnú, faighimid na sonraí go léir ó do sheirbhísí nasctha agus íoslódálann tú íomhánna gaolmhara, mar sin laghdóidh sé do stóráil in aisce. Chomh maith leis sin, bheadh ​​sé deacair go leor táirgí, catagóirí agus custaiméirí a bhaint!",
       add_action: "Ceangal uathoibríoch chuig",
       order: {
         title: "mír stádas",
@@ -9622,14 +9622,14 @@ export default {
       },
       enable: {
         label: "Connect stádas",
-        true_desc: "fardal agus Orduithe beidh mír mír.",
+        true_desc: "Déanfar fardail agus orduithe a shioncronú.",
       },
       confirm: {
         label: "uathoibríoch deimhnigh Orduithe",
         false_desc: "tú ba chóir deimhnigh ordú mír.",
         true_desc:
-          "Orduithe le beo Íocaíocht beidh mír mír mír. Orduithe le dífhabhtú Íocaíocht beidh ní ceadaigh mír.",
-        tips: "Orduithe mír de réir Cárta bronntanais nó COD nó Íocaíocht geataí i dífhabhtú mód tá mír agus beidh ní mír mír mír.",
+          "Déanfar orduithe le híocaíocht bheo a cheadú go huathoibríoch. Ní cheadófar orduithe le híocaíocht dífhabhtaithe go huathoibríoch.",
+        tips: "Is eisceachtaí iad orduithe a íoctar le cárta bronntanais nó le COD nó le geataí íocaíochta sa mhodh dífhabhtaithe agus ní dheimhneofar iad go huathoibríoch.",
       },
 
       shipping: {
@@ -9637,14 +9637,14 @@ export default {
         tips: "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         false_title: "mír",
         false_desc:
-          "úsáid mír Loingseoireacht mír mír, i siopa > lóistíocht > mír do gach Táirgí, mír mír ar.",
+          "Bain úsáid as mo chostas loingseoireachta a ríomh, in Siopa > Lóistíochta > Iompar le haghaidh gach táirge, lena n-áirítear táirgí allmhairithe.",
         true_title: "mír Loingseoireacht",
         true_desc:
-          "mír Loingseoireacht ráta mír API mír de réir seo seirbhís.",
+          "Fostú an API ríomh an ráta loingseoireachta a thairgeann an tseirbhís seo.",
       },
 
       remove: {
-        verify: "mír mír chuig Bain seo mír.",
+        verify: "Fíoraím chun an ceangal seo a bhaint.",
         action: "Bain connect",
       },
     },
@@ -9655,14 +9655,14 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect do OS Gnó chuig seachtrach seirbhísí agus bainistigh gach cainéil i mír mír.",
+        "Ceangail do chóras oibriúcháin gnó le seirbhísí seachtracha agus bainistigh gach cainéal san áit chéanna.",
       action: "Connect nua seirbhísí",
       empty_message:
-        "mír aipeanna agus mír do dropshipping! Connect is mír de mír ordú mír.",
+        "Déan dearmad ar aipeanna agus forlíontáin le haghaidh dropshipping! Is é Connect todhchaí na bainistíochta ordú tras-ardán.",
       auto_confirm: "uathoibríoch deimhnigh",
       shipping: "Á sheoladh",
       syncing_now: "mír anois!",
-      sync_not_started: "sioncrónaigh tá ní mír mír!",
+      sync_not_started: "Níl an sioncronú tosaithe fós!",
     },
   },
 
@@ -9672,11 +9672,11 @@ export default {
   connect_mode: {
     Migration: {
       title: "mír",
-      desc: "mír Táirgí, catagóir, agus Custaiméirí. mír úsáideoir scrios seo seirbhís, faighte Táirgí, catagóir, agus Custaiméirí beidh ní mír scriosta.",
+      desc: "Faigh táirgí, catagóirí, agus custaiméirí. Tar éis don úsáideoir an tseirbhís seo a scriosadh, ní scriosfar na táirgí faighte, na catagóirí agus na custaiméirí.",
     },
     Dropshipping: {
       title: "Dropshipping",
-      desc: "mír Táirgí, catagóir, agus Orduithe. mír bain Táirgí mír úsáideoir bain seirbhís.",
+      desc: "Faigh táirgí, catagóirí, agus orduithe. Baineann an córas táirgí tar éis don úsáideoir an tseirbhís a bhaint.",
     },
     Marketplace: {
       title: "Margadh",
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "Tuairimí",
     subtitle: "seo is liosta de mír tuairimí.",
-    empty_msg: "mír tuairimí mír mír mír mír mír...",
+    empty_msg: "Níl aon tráchtaireacht cruthaithe go dtí seo...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Catagóirí",
     subtitle: "seo is liosta de mír catagóir.",
     new_category_action: "nua catagóir",
-    empty_msg: "mír catagóir mír mír mír mír mír...",
+    empty_msg: "Níor cruthaíodh aon chatagóir go dtí seo...",
     filter: {
       delete: {
         title: "Scriosta",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "mír",
-    subtitle: "seo is liosta de mír mír.",
+    subtitle: "Is liosta é seo de phoist an phobail.",
     filter: {
       deleted: {
         title: "Scriosta",
@@ -9755,10 +9755,10 @@ export default {
       },
       reported: {
         title: "mír",
-        description: "Taispeáin mír mír.",
+        description: "Taispeáin postálacha tuairiscithe.",
       },
     },
-    empty_msg: "mír mír mír mír mír mír mír...",
+    empty_msg: "Níor cruthaíodh aon phostáil go dtí seo...",
     menu: {
       open_post: {
         title: "oscail mír",
@@ -9791,7 +9791,7 @@ export default {
       title: "Google mír",
       subtitle:
         "Cumraigh agus bainistigh an rogha seo do do shiopa.",
-      tips: "tú is féidir mír seo mír chuig mír agus mír bainistigh Google fógraí.",
+      tips: "Is féidir leat an uirlis seo a úsáid chun fógraí Google a bhainistiú go huathoibríoch agus gan stró.",
       link_message: "Google Táirgí mír URL",
     },
     console: {
@@ -9799,21 +9799,21 @@ export default {
       subtitle: `Cuir leis meta clib chuig do mír do Google cuardaigh mír fíorú.`,
       code: {
         label: "fíorú meta clib",
-        placeholder: "Ó google, mír.mír. mír9mír...",
+        placeholder: "Ó google, e.g. viQg9mjdBj...",
       },
     },
     serp: {
       title: "Google SERP & mír",
       subtitle:
-        "mír mír mír mír SEO mír sonraí Ó Google agus mír mír chuig tú i mír mír. mír mír mír mír.",
+        "Faighimid na sonraí iniúchta Sinsearach is cruinne ó Google agus cuirimid i láthair tú iad ar bhealach áisiúil. Níl ort ach lean na céimeanna ar fáil.",
     },
     serp_content: {
       title: "Connect chuig Google cuardaigh mír",
       subtitle:
-        "Connect do siopa chuig cuardaigh mír agus tosaigh mír mír, mír, agus mír saor in aisce SEO mír ar Selldone.",
+        "Ceangail do shiopa leis an gconsól cuardaigh agus tosaigh ag iniúchadh eochairfhocail, céimeanna, agus uirlisí Sinsearach saor in aisce eile ar Selldone.",
       tips: {
         title:
-          "mír chuig mír Selldone le Google cuardaigh mír, mír mír",
+          "Sula nascann Sellone le Google Search Console, cinntigh na rudaí seo a leanas:",
         add_in_selldone: "Cuir leis, mír, agus socraigh príomhúil do saincheaptha fearann.",
         add_in_google: `Cuir leis agus mír <b>{domain}</b> i do<a href="https://search.google.com/search-console" target="_blank"> <b>Google cuardaigh mír</b></a>.`,
       },
@@ -9831,7 +9831,7 @@ export default {
     title: "aisairgead mír",
     boosted: "mír (2mír)",
     min_purchase: "íosmhéid ceannach",
-    only_first_order: "mír mír ordú",
+    only_first_order: "An Chéad Ordú amháin",
     total_cashback: "iomlán aisairgead",
     delete_alert: {
       title: "Scrios aisairgead mír",
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "socraigh mír mír, teorainn agus mír stádas mír.",
+      subtitle: "Socraigh an chasback faoin gcéad, teorainn agus a stádas anseo.",
     },
     percent_input: {
       title: "aisairgead mír",
       message: "iontráil aisairgead mír Ó 1% chuig 20%.",
     },
     currency_input: {
-      message: "aisairgead mír beidh mír ar fáil mír do seo airgeadra.",
+      message: "Beidh an clár aisíocaíocht ar fáil don airgeadra seo amháin.",
     },
     limit_input: {
       title: "Teorainn",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "fad teorainn",
-      subtitle: "socraigh fad de aisairgead mír. mír mír.",
+      subtitle: "Socraigh ré an chláir aisíocaíochta. Tá sé roghnach.",
     },
     start_input: {
       title: "tosaigh dáta",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "socraigh teideal agus mír cur síos do aisairgead mír. mír faisnéis beidh mír mír chuig Custaiméirí.",
+        "Socraigh teideal agus cur síos gairid don chlár aisíocaíocht. Taispeánfar an fhaisnéis seo do chustaiméirí.",
     },
     title_input: {
       title: "Teideal",
@@ -9935,26 +9935,26 @@ export default {
     only_first_buy_input: {
       false_desc: "aisairgead mír beidh mír ar fáil do gach Orduithe.",
       true_desc:
-        "aisairgead mír beidh mír ar fáil mír do mír ordú.",
-      true_title: "mír mír ordú",
+        "Beidh an clár aisíocaíocht ar fáil díreach don chéad ordú.",
+      true_title: "An Chéad Ordú amháin",
       false_title: "gach Orduithe",
     },
     qualify_input: {
       false_title: "gach Custaiméirí",
       true_title: "mír Custaiméirí",
       true_msg:
-        "aisairgead mír beidh mír ar fáil mír do Custaiméirí mír tá mír.",
+        "Beidh an clár aisíocaíocht ar fáil do na custaiméirí cáilithe amháin.",
     },
     club: {
       subtitle:
-        "socraigh club do aisairgead mír. aisairgead mír beidh mír ar fáil mír do Custaiméirí mír tá i seo club.",
+        "Socraigh an club le haghaidh an chláir cashback. Beidh an clár aisíocaíocht ar fáil díreach do na custaiméirí atá sa chlub seo.",
     },
     cluster: {
       subtitle:
-        "de réir mír braisle le aisairgead mír, tú is féidir bainistigh mír tuilleadh mír.",
+        "Trí bhraisle a chomhcheangal leis an gclár aisíocaíochta, is féidir leat é a bhainistiú ar bhealach níos éifeachtaí.",
     },
     notifications: {
-      add: "aisairgead mír mír mír.",
+      add: "Cuireadh leis an gclár aisíocaíochta go rathúil.",
       edit: "aisairgead mír nuashonraithe mír.",
     },
     enable_input: {
@@ -9966,7 +9966,7 @@ export default {
       false_title: "Gnáth",
       true_title: "mír (2mír aisairgead)",
       true_msg:
-        "aisairgead mír is i mír mód agus Custaiméirí beidh faigh 2mír aisairgead.",
+        "Tá an clár aisíocaíocht i mód treisithe agus gheobhaidh custaiméirí 2x aisíocaíocht.",
       false_msg:
         "aisairgead mír is i gnáth mód agus Custaiméirí beidh faigh gnáth aisairgead.",
     },
@@ -9979,7 +9979,7 @@ export default {
     actions: {
       refund: {
         title: "aisíocaíocht Íocaíocht",
-        subtitle: "mír nó mír aisíocaíocht mír.",
+        subtitle: "Tacaítear le haisíocaíocht pháirteach nó iomlán.",
       },
       delivery: {
         title: "deimhnigh ar seachadadh",
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "aisíocaíocht Íocaíocht",
     message:
-      "do slándáil mír, mír Orduithe mír mír deireanach 7 laethanta tá mír do aisíocaíocht.",
+      "Ar chúiseanna slándála, níl ach orduithe a íocadh laistigh de na 7 lá deiridh incháilithe le haghaidh aisíocaíochtaí.",
     payment_amount: "Méid Íocaíochta",
     total_refund_amount: "iomlán mír méid",
     can_refund: "is féidir aisíocaíocht",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "mír aisíocaíocht",
       description:
-        "mír deimhnigh sin aisíocaíocht méid is ceart agus mír mír chuig mír.",
+        "Deimhním go bhfuil méid na haisíocaíochta ceart agus ba mhaith liom leanúint ar aghaidh.",
     },
     action: "aisíocaíocht anois",
   },
@@ -10017,7 +10017,7 @@ export default {
     verify: {
       title: "mír seachadadh",
       description:
-        "mír deimhnigh sin ordú tá mír mír chuig custaiméir.",
+        "Deimhním go bhfuil an t-ordú seachadta don chustaiméir.",
     },
     action: "deimhnigh anois",
   },
@@ -10026,22 +10026,22 @@ export default {
    * @see BPageProductCrossSelling
    */
   product_cross_selling: {
-    title: "mír mír",
+    title: "Cros Díol",
     add_new_actions: "Cuir leis nua táirge",
     subtitle:
-      "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+      "Sa chuid seo, is féidir leat táirgí trasdhíola a chur leis agus a bhainistiú don leathanach táirge seo. Taispeánfar na táirgí seo mar mholtaí do chustaiméirí le ceannach taobh leis an bpríomhearra. Is féidir leat lascainí a shocrú freisin chun ceannacháin bhreise a spreagadh agus a dhreasú. Taispeánfaidh an córas uasmhéid 3 mhír le breithniú ag an gcustaiméir.",
     dialog: {
-      edit_title: "Cuir in eagar mír mír táirge",
-      add_title: "Cuir leis nua mír mír Táirgí",
+      edit_title: "Cuir táirge tras-díola in eagar",
+      add_title: "Cuir táirgí tras-díola nua leis",
       target: {
         title: "mír táirge",
         subtitle:
-          "roghnaigh Táirgí mír mír chuig mír mír roghanna mír seo táirge.",
+          "Roghnaigh na táirgí ar mhaith leat a chur chun cinn mar roghanna trasdhíola taobh leis an táirge seo.",
         select_products: "roghnaigh táirge(mír)",
       },
       list: {
         title: "mír táirge",
-        subtitle: "seo táirge tá mír mír do mír mír.",
+        subtitle: "Roghnaíodh an táirge seo le cur chun cinn tras-díola.",
         manage_product: "bainistigh táirge",
       },
       discount: {
@@ -10050,17 +10050,17 @@ export default {
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         amount_input: {
           message:
-            "lascaine mír beidh mír mír chuig táirge praghas mír mír mír cuntas gach mír lascaine.",
+            "Cuirfear an céatadán lascaine i bhfeidhm ar phraghas an táirge tar éis gach lascaine atá ann cheana a chur san áireamh.",
         },
         mismatch_type_warning:
           "Cumraigh agus bainistigh an rogha seo do do shiopa.",
         not_support_subscription_type_warning:
-          "mír lascaine do mír síntiús Táirgí is ní mír, praghsáil mír mír mír mír mír.",
+          "Ní féidir lascainí a shocrú do tháirgí síntiúis tras-díola, toisc nach féidir na pleananna praghsála a choigeartú go dinimiciúil.",
         message_input: {
           message:
-            "mír mír agus mír teideal chuig mír Custaiméirí' mír.",
+            "Teideal an-láidir agus mealltach a chruthú chun aird na gcustaiméirí a mhealladh.",
           placeholder:
-            "mír & Sábháil: críochnaithe do mír le mír mír mír!",
+            "Beart & Sábháil: Críochnaigh Do Amharc lenár Roghnú Láimhe!",
         },
       },
       action: {
@@ -10078,13 +10078,13 @@ export default {
     variants: {
       title: "Roghanna malairtí",
       subtitle:
-        "roghnaigh mír chuig mír Roghanna malairtí. mír mír, tú is féidir roghnaigh mír mír malairtí chuig Cruthaigh mír.",
+        "Roghnaigh suas le dhá rogha athraitheach. Tar éis duit a roghnú, is féidir leat na leaganacha sonracha a chruthú go huathoibríoch a roghnú.",
     },
     values: {
       title: "malairt mír",
-      subtitle: "iontráil mír mír do mír malairt mír mír.",
+      subtitle: "Cuir isteach na luachanna féideartha do gach rogha athraitheach anseo.",
       prevent_duplicates_tips:
-        "<b>mír</b> mír mír mír do mír malairtí chuig mír dúblaigh.",
+        "<b>Nóta:</b> Déanaimid seiceáil go huathoibríoch le haghaidh leaganacha atá ann cheana féin chun dúbailt a chosc.",
     },
     inventory: {
       title: "mír fardal",
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Cuir leis an gCairt",
       description:
-        "mír Cuir leis chuig mír cnaipe mír. nóta sin seo is ní mír do síntiús Táirgí.",
+        "Taispeáin an cnaipe Cuir le Cart go díreach. Tabhair faoi deara nach bhfuil sé seo infheidhme maidir le táirgí síntiúis.",
     },
     ViewProduct: {
       title: "Féach ar Tháirge",
       description:
-        "mír féach tuilleadh cnaipe sin díreach Custaiméirí chuig Leathanach táirge de réir mír nua mír.",
+        "Taispeáin cnaipe View More a threoraíonn custaiméirí chuig leathanach an táirge trí fhuinneog nua a oscailt.",
     },
   },
 
@@ -10115,17 +10115,17 @@ export default {
 
   product_flow: {
     title: "ceannach mír",
-    subtitle: "seo is ceannach mír agus mír mír de do táirge.",
+    subtitle: "Is é seo an sreabhadh ceannaigh agus seiceáil sláinte do tháirge.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "seo táirge tá mír mír mír <b>{name}</b>.",
+      subtitle: "Cuireadh an táirge seo leis trí <b>{name}</b>.",
       enable_msg: "seo mír chuig seachtrach seirbhís is cumasaithe.",
       disable_msg: "seo mír chuig seachtrach seirbhís is díchumasaithe.",
       has_shipping_msg:
-        "{name} tacaíocht Loingseoireacht. mír tú mír mír chuig cumasaigh uathoibríoch Loingseoireacht mír de réir {name} ar mír leathanach.",
+        "Tacaíocht {name} loingseoireachta. Mar sin tá an rogha agat ríomh loingseoireachta uathoibríoch a chumasú faoi {name} ar an leathanach Seiceáil.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10136,7 +10136,7 @@ export default {
       out_of_stock_msg: "táirge is mír de stoc.",
       file_count_msg:
         "{files_count} comhaid le iomlán {files_size} mír do seo táirge.",
-      no_file_uploaded_msg: "mír comhad tá mír mír mír.",
+      no_file_uploaded_msg: "Níl aon chomhad uaslódáilte fós.",
       no_image_uploaded_msg:
         "uaslódáil táirge íomhá chuig déan mír tuilleadh mír.",
     },
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "mír díoltóirí",
       subtitle:
-        "seo táirge mír tá mír mír díoltóirí. do táirge chuig mír mír i mír, mír ní mór mír mír mír mír díoltóir.",
+        "Níl aon díoltóirí gaolmhara ag an táirge seo faoi láthair. Chun táirge a bheith incheannaithe ar an margadh, ní mór díoltóir amháin ar a laghad a bheith aige.",
       manage_vendors: "bainistigh díoltóirí",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "mír comhaid",
       subtitle:
-        "mír, mír comhaid mír mír mír do seo táirge. le do thoil uaslódáil comhaid chuig mír.",
+        "Faoi láthair, níor uaslódáladh aon chomhad don táirge seo. Uaslódáil comhaid le do thoil chun leanúint ar aghaidh.",
       manage_files: "bainistigh comhaid",
     },
 
@@ -10193,11 +10193,11 @@ export default {
         no_restriction: "ní mír",
       },
       available_countries_msg:
-        "mír mír mír chuig {count} tíortha. mír tíortha tá {countries}.",
+        "Tá siopadóireacht dhomhanda teoranta do thíortha {count}. Is iad na tíortha seo ná {countries}.",
       disable_for_all_countries_msg:
         "mír is díchumasaithe do gach tíortha i do siopa > suíomh mír.",
       location_is_not_in_permitted_shop_locations_msg:
-        "tú socraigh {country} mír Suíomh mír i siopa mír tú ní mír seo tír. le do thoil mír do siopa mír Socruithe.",
+        "Socraíonn tú {country} mar ionad díola ach ar leibhéal an tsiopa ní cheadaíonn tú an tír seo. Seiceáil do shocruithe leibhéal an tsiopa.",
       shop_locations: "siopa suíomh",
       product_locations: "táirge suíomh",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "cáin próifíl",
       description: {
         subscription_tax_msg:
-          "mír is féidir cuir i bhfeidhm cáin mír ar Íocaíocht cruthú mír.",
+          "Ní féidir linn cáin a chur i bhfeidhm ach ar an gcéim chruthaithe íocaíochta.",
         dedicated: "mír",
         is_disabled: "seo Próifíl chánach is díchumasaithe!",
         tax_is_based_on_location: "mír Suíomh mír",
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "seo táirge mír chuig <b>{vendor}</b>.",
       has_vendors_msg: "mír is {count} díoltóirí do seo táirge.",
       no_vendor_msg:
-        "tú mír mír díoltóir chuig seo táirge, mír Custaiméirí tá mír chuig ceannach mír.",
+        "Níor shann tú díoltóir don táirge seo, mar sin ní féidir le custaiméirí é a cheannach.",
       add_vendors: "Cuir leis díoltóirí",
     },
   },
@@ -10260,16 +10260,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+      "Is féidir leat táirge nó liosta táirgí a leabú go héasca i do bhlag nó ar leathanaigh ghréasáin eile ach na cóid a chuirimid ar fáil a chóipeáil agus a ghreamú. Cé go bhfuil an ghné seo fós ina chéimeanna tosaigh, táimid ag obair go gníomhach chun a fheidhmiúlacht a leathnú thar a bhfuil ar fáil faoi láthair in áiteanna eile. Cé go dtugann sé cumais theoranta faoi láthair, tá pleananna againn níos mó teimpléid agus roghanna saincheaptha a thabhairt isteach sa todhchaí.",
     card: {
       title: "mír",
       description:
-        "gin HTML cód chuig Cuir leis táirge mír i mír mír agus HTML leathanaigh.",
+        "Gin cód HTML chun cártaí táirge a chur le hardáin eile agus leathanaigh HTML.",
     },
     iframe: {
       title: "mír",
       description:
-        "gin mír cód chuig mír mír táirge sonraí i mír mír.",
+        "Gin an cód iframe chun sonraí cuimsitheacha an táirge a thaispeáint i bhfuinneog leabaithe.",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "Cuir leis foireann & rochtain",
       subtitle:
-        "gach úsáideoirí le foireann rochtain is féidir mír i chuig do Painéal agus féach airgeadais faisnéis. chuig Cuir leis úsáideoirí le mír rochtain, mír ról.",
+        "Is féidir le gach úsáideoir a bhfuil rochtain foirne acu logáil isteach ar do dheais agus faisnéis airgeadais a fheiceáil. Chun úsáideoirí a bhfuil rochtain theoranta acu a chur leis, sainmhínigh Ról.",
       go_to_roles: "téigh chuig róil",
     },
     access: {
       customization_tips:
-        "<b>mír</b> mír ar mír mír chuig mír réamhshocrú léamh/scríobh rochtain. mír mír mír rochtain mír mír chuig príomh siopa Painéal.",
+        "<b>Saincheapadh:</b> Cliceáil ar gach mír chun an rochtain réamhshocraithe léite/scríofa a shaincheapadh. Léiríonn gach sraith leibhéal rochtana a fhreagraíonn do phríomh-deais an tsiopa.",
       simplify_tips:
-        "<b>mír!</b> mír mír Rialú rochtana Ó mír 300 chuig mír 10 mír. tuilleadh mír agus mír rochtain mír beidh mír foilsithe i mír.",
+        "<b>Tábhachtach!</b> Déanaimid an rialú rochtana a shimpliú ó níos mó ná 300 go dtí níos lú ná 10 leibhéal. Foilseofar leibhéil rochtana níos mionsonraithe agus níos nuashonraithe sna doiciméid.",
       multi_permission_tips:
-        "<b>saincheaptha teorainn?</b> tú is féidir Cuir leis tuilleadh rochtain chuig mír úsáideoir, mír mír mír mír rochtain, Cruthaigh mír rochtain le mír mír.",
+        "<b> Teorainneacha custam?</b> Is féidir leat rochtain níos mó a chur leis d'úsáideoir amháin, mar sin tar éis an chéad rochtain a chur leis, cruthaigh rochtain bhreise leis na céimeanna céanna.",
       view_data: "Féach ar shonraí",
       apply_changes: "Cuir Athruithe i bhFeidhm",
     },
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "rochtain mír",
-        message: "nua rochtain tá mír mír mír.",
+        message: "Tá rochtain nua curtha leis go rathúil.",
       },
       update_success: {
         title: "rochtain nuashonraithe",
-        message: "ceadanna mír mír nuashonraithe mír.",
+        message: "D'éirigh le ceadanna a nuashonrú.",
       },
     },
   },
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "mír Táirgí Liostú",
     subtitle:
-      "mír Táirgí Ó mír catagóir. tú mír mír chuig roghnaigh mír catagóir chuig mír Táirgí nó scagaire Táirgí de réir clibeanna.",
+      "Taispeáin táirgí ó chatagóirí éagsúla. Tá an rogha agat catagóirí iolracha a roghnú chun táirgí a thaispeáint nó táirgí a scagadh de réir clibeanna.",
     aut_add_sub_categories_tips:
-      "tú is féidir mír Cuir leis gach mír chuig mír catagóir de réir mír cnaipe mír.",
+      "Is féidir leat gach fochatagóir a chur leis an gcatagóir reatha go huathoibríoch ach cliceáil ar an gcnaipe thíos.",
     inputs: {
       categories: {
         label: "Catagóirí",
-        messages: "Táirgí i mír catagóir beidh mír mír.",
+        messages: "Taispeánfar táirgí sna catagóirí seo.",
         placeholder: "roghnaigh catagóir...",
       },
       tags: {
         label: "táirge clibeanna",
         messages: "Táirgí le mír clibeanna beidh mír Taispeáin.",
-        placeholder: "mír clibeanna mír agus mír iontráil. mír. nua mír",
+        placeholder: "Clibeanna sreang anseo agus brúigh Iontráil. sean. bailiúchán nua",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>ginearálta mír </b>cuardaigh de réir teideal, MPN, SKU, branda, nó clibeanna.",
       product:
-        '<b>mír táirge ID: </b>úsáid mír+táirge ID chuig mír mír táirge, mír.mír., <b class="text-green">mír</b><i class="text-yellow">360</i>.',
+        "<b>Aitheantas Táirge Beacht: </b>Úsáid P+Product ID chun táirge ar leith a aimsiú, m.sh., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        '<b>mír mír </b>úsáid mír mír chuig cuardaigh do mír mír, mír.mír., <b class="text-green">"</b><i class="text-yellow">do téacs mír</i><b class="text-green">"</b>.',
-      tax: '<b>Próifíl chánach: </b>cuardaigh do Táirgí le mír Próifíl chánach ag úsáid "mír", mír.mír., <b class="text-green">mír</b><i class="text-yellow">Próifíl chánach ainm</i>.',
+        "<b>Frása Beacht: </b>Úsáid comharthaí athfhriotail chun frása beacht a chuardach, m.sh., <b class=\"text-green\">\"</b><i class=\"text-yellow\">do théacs anseo</i><b class=\"text-green\">\"</b>.",
+      tax: "Próifíl <b>Tax: </b>Cuardaigh táirgí a bhfuil próifíl chánach ar leith acu agus úsáid á baint as “cáin:”, m.sh., <b class=\"text-green\">tax:</b><i class=\"text-yellow\">tax profile name</i>.",
       new_products:
-        '<b>nua Táirgí: </b>mír Táirgí mír mír mír dáta raon, mír.mír., <b class="text-green">nua~</b><i class="text-yellow">2023-08-10</i><b class="text-green">~</b><i class="text-yellow">2023-08-20</i>.',
+        "<b>Táirgí Nua: </b>Faigh táirgí a cuireadh leis laistigh de raon dáta sonrach, m.sh., <b class=\"text-green\">nua~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,14 +10374,14 @@ export default {
   augment_form: {
     title: "mír",
     subtitle:
-      "ionchur eochair sin beidh mír mír le mír mír mír i leathanach ábhar. eochracha ba chóir mír mír 32 mír.",
+      "Cuir isteach an eochair a mhalartófar lena luach comhfhreagrach in ábhar an leathanaigh. Ba cheart go mbeadh 32 carachtar ar a mhéad sna heochracha.",
     add_caption: "Cuir leis nua mír",
-    add_sub_caption: "Cuir leis saincheaptha mír mír.",
+    add_sub_caption: "Cuir péire saincheaptha eochairluacha leis.",
     add_dialog: {
       title: "roghnaigh ionchur cineál",
       html: {
         title: "téacs & Html",
-        subtitle: "mír mír is féidir mír mír mír téacs nó HTML.",
+        subtitle: "Is féidir luach na míre a ainmniú mar théacs nó mar HTML.",
       },
       image: {
         title: "Íomha",
@@ -10391,15 +10391,15 @@ export default {
     help_dialog: {
       title: "mír chuig úsáid mír ábhar",
       how_it_works_tips:
-        "Cumraigh agus bainistigh an rogha seo do do shiopa.",
+        "Sna leathanaigh tuirlingthe, tá an tsolúbthacht agat chun áitshealbhóirí dinimiciúla a ainmniú le haghaidh téacs agus íomhánna araon. Tá ról suntasach ag na sealbhóirí áitribh sin maidir leis an ábhar a shaincheapadh de réir an chomhthéacs.   Mar gheall ar nádúr dinimiciúil na sealbhóirí áitribh seo is féidir luachanna méadaithe a chur isteach iontu, ar féidir leo a bheith éagsúil bunaithe ar fhachtóirí éagsúla. Mar shampla, d’fhéadfadh na luachanna méadaithe a bheith difriúil do gach táirge nó catagóir. Tagann fíorbhuntáiste an ghné seo i bhfeidhm nuair a bhíonn éagsúlacht míreanna agat le tréithe éagsúla. Is féidir leat na háitritheoirí dinimiciúla seo a úsáid go héifeachtach chun taispeáint gach míre a phearsantú agus a fheabhsú, agus ar an gcaoi sin eispéireas uathúil agus idirghníomhach a chruthú ar do leathanaigh tuirlingthe.",
       assign_tips:
-        "chuig mír mír mír chuig íomhánna, mír ar mír cnaipe mír ar clé mír de rannán.",
+        "Chun luachanna dinimiciúla a shannadh d'íomhánna, cliceáil ar an gcnaipe friothálacha atá suite ar thaobh clé na rannóige.",
       set_dynamic_image_tips:
-        "tú anois mír mír chuig mír íomhá URL agus mír mír mír mír.",
+        "Tá an cumas agat anois URL an íomhá a mhodhnú agus luach dinimiciúil a shannadh dó.",
       enter_values_tips:
-        "do mír táirge, tú mír mír chuig mír mír mír mír.",
+        "I gcás gach táirge, tá an cumas agat péirí eochairluacha tiomnaithe a shannadh.",
       result_tips:
-        "seo is mír mír de leathanach, mír mír mír mír mír le mír mír.",
+        "Seo é toradh deiridh an leathanaigh, áit a bhfuil luachanna méadaithe curtha in ionad sealbhóirí áite.",
     },
   },
 
@@ -10419,24 +10419,24 @@ export default {
       subtitle:
         "tú is féidir mír ábhar do lóistíocht próifíl i mír teangacha.",
 
-      language_input: "mír mír teanga",
+      language_input: "Teanga ailt reatha",
       delete_article: "Scrios mír",
       menu_tooltip: "uathoibríoch mír / Scrios mír",
     },
     translate_to: "mír chuig",
     notifications: {
       translate: {
-        message: "mír mír mír mír.",
+        message: "Aistriú alt críochnaithe go rathúil.",
       },
       save_article: {
-        message: "mír tá mír mír mír.",
+        message: "Sábháladh an t-alt go rathúil.",
       },
       delete_article: {
-        message: "mír tá mír scriosta mír.",
+        message: "Scriosadh an t-alt go rathúil.",
       },
     },
     delete_dialog: {
-      message: "tá tú mír chuig Scrios seo mír do mír?",
+      message: "An bhfuil tú cinnte go scriosfaidh tú an t-alt seo go deo?",
       action: "Sea, Scrios Anois",
     },
   },
@@ -10456,12 +10456,12 @@ export default {
     inputs: {
       name: {
         message:
-          "seo ainm taispeáin chuig tú agus beidh ní mír mír chuig poiblí.",
+          "Léiríonn an t-ainm seo duit agus ní nochtfar don phobal é.",
       },
       accept_delete: {
         true_description:
           "seo gníomh beidh Bain gach mír agus próifíl naisc.",
-        true_title: "mír mír chuig Bain seo mír.",
+        true_title: "Fíoraím chun an ceangal seo a bhaint.",
       },
     },
     actions: {
@@ -10482,17 +10482,17 @@ export default {
       config: {
         title: "ginearálta faisnéis",
         subtitle:
-          "roghnaigh próifíl cineál. mír is féidir mír Treoir, Barántas, nó mír mír ábhar agus mír mír mír mír mír Táirgí.",
+          "Roghnaigh an cineál próifíle. Is féidir leis a bheith ina threoir, ina bharántas, nó ina ábhar agus ábhar ar bith eile a roinntear go coitianta i measc táirgí iolracha.",
       },
       article: {
         title: "Airteagal",
         subtitle:
-          "tú is féidir Cuir leis tuilleadh teangacha mír mír seo lóistíocht próifíl.",
+          "Is féidir leat níos mó teangacha a chur leis tar éis duit an phróifíl loighisticice seo a chruthú.",
       },
       inputs: {
         name: {
           message:
-            "seo ainm taispeáin chuig tú agus beidh ní mír mír chuig poiblí.",
+            "Léiríonn an t-ainm seo duit agus ní nochtfar don phobal é.",
           placeholder: "iontráil ainm do próifíl...",
         },
       },
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Scrios san áireamh mír",
       message:
-        "tá tú mír tú mír chuig mír Scrios seo mír? le do thoil nóta sin mír beidh mír mír mír Ó gach mír Táirgí!",
+        "An bhfuil tú cinnte gur mian leat an mhír seo a scriosadh go buan? Tabhair faoi deara le do thoil go mbainfear as na táirgí gaolmhara go léir é freisin!",
       action: "mír, Scrios anois",
     },
     actions: {
@@ -10539,12 +10539,12 @@ export default {
         placeholder: "mír teideal mír ar Leathanach táirge...",
       },
       code: {
-        placeholder: "mír cód, mír. soghluaiste_mír_mír",
-        hint: "úsáid seo cód chuig mír cuardaigh próiseas do mír míreanna.",
+        placeholder: "Cód uathúil, ex. soghluaiste_cábla_usb",
+        hint: "Úsáid an cód seo chun an próiseas cuardaigh chun míreanna a aimsiú a chuíchóiriú.",
       },
       description: {
         placeholder: "mír cur síos faoi seo mír...",
-        hint: "cur síos beidh mír úsáidte do SEO agus mír mír chuig úsáideoirí ar mír saincheaptha leagan amach i Leathanach táirge.",
+        hint: "Úsáidfear an cur síos le haghaidh Sinsearach agus b'fhéidir go mbeidh sé le feiceáil ag úsáideoirí ar roinnt leagan amach saincheaptha ar leathanach an táirge.",
       },
       image: {
         message: "mír íomhá mír 1MB",
@@ -10560,21 +10560,21 @@ export default {
       external_link: {
         title: "Nasc seachtrach",
         description: "socraigh nasc chuig seachtrach url.",
-        tips: "tú is féidir mír mír URL chuig mír. mír úsáideoirí mír ar mír ar Leathanach táirge, mír beidh mír mír chuig sin nasc.",
+        tips: "Is féidir leat aon URL a cheangal leis an mír. Nuair a chliceálann úsáideoirí ar an mír ar leathanach an táirge, déanfar iad a atreorú chuig an nasc sin.",
       },
       internal_link: {
         title: "mír nasc",
         description:
-          "Cruthaigh mír leathanach de réir mír mír sonraí do seo mír.",
+          "Cruthaigh leathanach dinimiciúil trí shonraí breise a sholáthar don mhír seo.",
         tips: "Cumraigh agus bainistigh an rogha seo do do shiopa.",
       },
     },
     notifications: {
       add: {
-        message: "san áireamh mír tá mír mír mír.",
+        message: "Tá an mhír áirithe curtha leis go rathúil.",
       },
       edit: {
-        message: "san áireamh mír tá mír nuashonraithe mír.",
+        message: "Tá an mhír áirithe tugtha cothrom le dáta go rathúil.",
       },
     },
   },
@@ -10600,8 +10600,8 @@ export default {
   referral_wallets: {
     title: "Sparán",
     subtitle:
-      "mír tú is féidir féach coimisiún táille tú mír mír. tú is féidir aistriú do coimisiún táille chuig do banc cuntas nó do Selldone sparán.",
-    no_commission_yet: "tú mír ní faighte mír coimisiún mír.",
+      "Is féidir leat na táillí coimisiúin atá tuillte agat a fheiceáil anseo. Is féidir leat do tháillí coimisiúin a aistriú chuig do chuntas bainc nó chuig do sparán Selldone.",
+    no_commission_yet: "Níl aon choimisiún faighte agat fós.",
     no_wallet: "mír sparán!",
 
     withdraw_dialog: {
@@ -10622,11 +10622,11 @@ export default {
       inputs: {
         verify_to_wallet: {
           true_description:
-            "mír mír chuig aistriú mír coimisiún chuig mír Selldone sparán.",
+            "Ba mhaith liom mo choimisiún a aistriú chuig mo sparán Selldone.",
         },
         verify_to_bank: {
           true_description:
-            "mír mír mír banc eolas agus mír mír chuig aistriú mír coimisiún chuig mír banc cuntas.",
+            "Fíoraím m'fhaisnéis bainc agus ba mhaith liom mo choimisiún a aistriú chuig mo chuntas bainc.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "do iarratas tá mír mír faighte, agus mír beidh mír mír.",
+        "Fuarthas d’iarratas go rathúil, agus déanfaimid athbhreithniú air.",
     },
   },
 
@@ -10650,13 +10650,13 @@ export default {
     intro: {
       title: "mír Selldone cleamhnaithe mír",
       message:
-        "Cumraigh agus bainistigh an rogha seo do do shiopa.",
-      why_join_selldone_affiliate: "mír is seo mír mír?",
+        "Tá an Clár Cleamhnaithe Soldone simplí agus simplí, deartha chun tú a thuilleamh gan stró. Comhroinn do nasc cleamhnaithe uathúil chun cuireadh a thabhairt d'úsáideoirí nua chuig Soldone, agus gheobhaidh tú coimisiún as gach idirbheart a dhéanann siad - go deo. Áirítear leis seo tuilleamh ó shíntiúis, táillí seirbhíse, uasghrádú siopaí, agus gach sruth ioncaim eile. Tosaigh ag tuilleamh sciar den ioncam gan aon teorainneacha ama nó tuillimh. Bí linn agus déan ioncam seasta do do líonra!",
+      why_join_selldone_affiliate: "Cén fáth gur deis ar leith é seo?",
       reasons: [
         "mír deireanach mír!",
-        "mír gach síntiús agus mír táille. mír mír Íocaíocht de úsáideoir ar Selldone.",
-        "mír seol saor in aisce $99 mír chuig mír mír cláraigh ag úsáid do nasc.",
-        "mír do mír mír, tú beidh mír mír nua ráta Ó gach mír mír úsáideoirí.",
+        "Clúdaíonn sé gach síntiús agus táillí idirbhirt. Go litriúil gach íocaíocht a dhéanann an t-úsáideoir ar Selldone.",
+        "Seolaimid dearbhán $99 saor in aisce chuig aon duine a chláraíonn trí do nasc a úsáid.",
+        "Nuair a uasghrádóidh do shraith, tuillfidh tú ar an ráta nua ó gach úsáideoir a tagraíodh roimhe seo.",
       ],
     },
   },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "mír mír mír mír.",
+    no_asset_uploaded: "Níl aon sócmhainn uaslódáilte fós.",
   },
 
   /**
@@ -10677,28 +10677,28 @@ export default {
     clone_tooltip: {
       title: "dúblaigh stíl",
       subtitle:
-        "úsáid seo mír chuig mír stíleanna mír cló, cúlra, mír, agus mír. mír mír mír chuig dúblaigh mír",
+        "Bain úsáid as an uirlis seo chun stíleanna cosúil le clónna, cúlraí, imeall agus teorainneacha a mhacasamhlú. Lean na céimeanna seo chun stíleanna a dhúbailt:",
       step_1:
-        "mír mír agus mír do mír mír téacs, mír, nó íomhánna; mír beidh athraigh chuig mír.",
-      step_2: "mír ar mír mír stíl tú mír chuig cóipeáil.",
+        "Gníomhachtaigh an uirlis agus hover do luch thar téacs, colúin, nó íomhánna; athróidh an cúrsóir go pípéad.",
+      step_2: "Cliceáil ar an eilimint ar mian leat a stíl a chóipeáil.",
       step_3:
-        "mír beidh athraigh Ar ais chuig mír; mír ar mír mír tú mír chuig cuir i bhfeidhm mír stíl.",
+        "Athróidh an cúrsóir ar ais go pailéad; cliceáil ar an eilimint inar mian leat an stíl cóipeáilte a chur i bhfeidhm.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "mír mír de mír roghchlár, mír cuir san áireamh gach rannán catagóir do mír do leathanach.",
+        "Scoránaigh infheictheacht an roghchláir taobh, a chuimsíonn gach catagóir rannóg chun do leathanach a thógáil.",
     },
     sort_tooltip: {
       subtitle:
-        "cumasaigh seo gné chuig mír mír agus mír rannáin de réir mír mír.",
+        "Cumasaigh an ghné seo chun na hailt a atheagrú agus a eagrú go héasca trí iad a tharraingt.",
     },
     edit_mode_tooltip: {
       title: "Cuir in eagar / réamhamharc mód",
       edit_mode_title: "Cuir in eagar mód",
-      edit_mode_msg: "gach mír mír beidh mír mír.",
+      edit_mode_msg: "Taispeánfar gach uirlis eagarthóireachta.",
       view_mode_title: "réamhamharc mód",
       view_mode_msg:
-        "féach do leathanach úsáideoirí mír féach mír de réir mír mír mír mír agus mír téacs mír.",
+        "Féach ar do leathanach mar a d'fheicfeadh úsáideoirí é trí uirlisí eagarthóireachta breise agus réimsí téacs folamh a cheilt.",
     },
     repository_tooltip: {
       title: "mír rannáin",
@@ -10710,22 +10710,22 @@ export default {
       subtitle: "féach nuashonraigh i mír tú Cuir in eagar do leathanach.",
     },
     hotkeys_dialog: {
-      title: "mír mír",
+      title: "Aicearraí méarchláir",
       augment_tips:
-        "tú is féidir lódáil mír ábhar mír do leathanach agus mír mír le <b>mír</b> mír. mír is úsáidte do saincheaptha mír leathanaigh mír <b>Táirgí</b>, <b>catagóir</b>, agus <b>cuir san áireamh míreanna</b>. chuig socraigh íomhá chuig lódáil mír, mír ar <b>mír</b> agus roghnaigh <b>mír foinse</b> do sin íomhá.",
+        "Is féidir leat ábhar dinimiciúil a lódáil ar do leathanach agus luachanna <b>augment</b> a chur ina ionad. Úsáidtear méadú le haghaidh leathanaigh dinimiciúla saincheaptha mar <b>Products</b>, <b>Categories</b>, agus <b>Include Items</b>. Chun íomhá a shocrú le luchtú go dinimiciúil, cliceáil ar <b>Feeder</b> agus roghnaigh <b>Dynamic Source</b> don íomhá sin.",
     },
     hotkeys: {
-      ctrl_b: "mír mír ar/mír do mír téacs | <b>déan mír mír</b>",
-      ctrl_i: "mír mír ar/mír do mír téacs | <i>déan mír mír</i>",
+      ctrl_b: "Scoránaigh cló trom air/as don téacs roghnaithe | <b>Déan dána mé</b>",
+      ctrl_i: "Scoránaigh cló iodálach ar siúl / as do théacs roghnaithe | <i>Déan iodálach mé</i>",
       ctrl_l:
-        "mír mír ar/mír do mír téacs | <s>mír mír mír</s>",
-      ctrl_u: "mír mír ar/mír do mír téacs | <u>mír mír</u>",
+        "Scoránaigh an dul tríd / as don téacs roghnaithe | <s>Stail tríom</s>",
+      ctrl_u: "Scoránaigh an líne ar siúl/as don téacs roghnaithe | <u>Folíne me</u>",
       ctrl_1:
-        "mír cló méid de mír téacs | <small>déan mír mír</small>",
-      ctrl_2: "méadaigh cló méid de mír téacs | <big>déan mír mír</big>",
-      ctrl_r: "Bain gach mír Ó mír téacs | mír gach stíleanna",
+        "Laghdú ar chlómhéid an téacs roghnaithe | <small>Déan beag mé</small>",
+      ctrl_2: "Méadaigh clómhéid an téacs roghnaithe | <big> Déan mór</big> dom",
+      ctrl_r: "Bain gach formáidiú den téacs roghnaithe | Glan gach stíl",
       ctrl_s: "Sábháil leathanach",
-      tab: "mír mír mír mód",
+      tab: "Athraigh idir modhanna scála",
       ctrl_e: "mír nó mír clónáil stíl mód",
     },
   },
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Cód",
         subtitle:
-          "tú is féidir cóipeáil agus mír mír cód Ó clé mír rannáin i leathanach tógálaí.",
+          "Is féidir leat an cód eilimint a chóipeáil agus a ghreamú ó na hailt taobh clé sa tógálaí leathanach.",
       },
       inputs: {
         title: {
@@ -10759,7 +10759,7 @@ export default {
         },
         tags: {
           label: "Clibeanna",
-          message: "úsáidte do mír agus mír mír.",
+          message: "Úsáidtear é chun eilimintí a chuardach agus a chatagóiriú.",
         },
         section: {
           message: "cóipeáil rannán Ó leathanach tógálaí.",
@@ -10774,13 +10774,13 @@ export default {
   marketplace_vendors: {
     title: "díoltóirí liosta",
     subtitle:
-      "Cuir leis díoltóirí mír, mír mír mír chuig Táirgí i táirge Painéal > díoltóirí.",
+      "Cuir díoltóirí leis seo, ansin sann iad do tháirgí sa Phainéal Táirge > Díoltóirí.",
     add_new_vendor_action: "Cuir leis nua díoltóir",
     status_tooltip: {
       title: "Stádas díoltóra",
-      ACCEPTED: "díoltóir tá rochtain chuig mír mír.",
-      REJECTED: "díoltóir iarratas tá mír mír.",
-      PENDING: "iarratas is mír mír Ó díoltóir.",
+      ACCEPTED: "Tá rochtain ag an díoltóir ar a phainéal.",
+      REJECTED: "Diúltaíodh d'iarratas an díoltóra.",
+      PENDING: "Tá an t-iarratas ag fanacht le cinneadh ón díoltóir.",
     },
     number_of_products: "uimhir de Táirgí",
     invited: "mír",
@@ -10798,7 +10798,7 @@ export default {
     access_tooltip: {
       title: "mír rochtain",
       subtitle:
-        "díoltóir tá rochtain chuig mír mír. tú is féidir Cuir in eagar seo i díoltóir > rochtain cluaisín.",
+        "Tá rochtain ag an díoltóir ar a phainéal. Is féidir leat é seo a chur in eagar i Vendor > Access tab.",
     },
     reject_by_user_tooltip: {
       title: "mír de réir úsáideoir",
@@ -10813,9 +10813,9 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "ceadúnas mír mír!",
+    title: "Uasghrádú Ceadúnais ag Teastáil!",
     subtitle:
-      "do mír ceadúnas mír ní mír mír de do mír gnó mír. le do thoil mír do ceadúnas chuig mír mír.",
+      "Ní shásaíonn do cheadúnas reatha ceanglais do mhúnla gnó roghnaithe. Uasghrádaigh do cheadúnas go dtí an Plean Fiontar.",
   },
 
   /**
@@ -10829,14 +10829,14 @@ export default {
     add_template_action: "Cuir leis teachtaireacht teimpléad",
 
     notifications: {
-      add_chat_success_message: "teachtaireacht tá mír mír mír.",
+      add_chat_success_message: "D'éirigh leis an teachtaireacht a chur leis.",
     },
 
     send_update_email: {
       title: "ordú Nuashonraigh ríomhphost",
       need_set_service_alert: {
         message:
-          "le do thoil socraigh do ríomhphost seirbhís mír chuig mír ríomhphost chuig mír seolta.",
+          "Socraigh do sholáthraí seirbhíse ríomhphoist le do thoil chun an ríomhphost a sheoladh.",
         action: "téigh chuig Socruithe",
       },
       send_action: "seol Nuashonraigh ríomhphost",
@@ -10849,13 +10849,13 @@ export default {
       edit_title: "Cuir in eagar teachtaireacht teimpléad",
       add_title: "Cuir leis teachtaireacht teimpléad",
       message:
-        "tú ba chóir socraigh teideal agus teachtaireacht mír mír. teideal mír mír úsáidte do do mír agus beidh ní seolta chuig custaiméir.",
+        "Ba cheart duit comhlacht teidil agus teachtaireachta a shocrú anseo. Ní úsáidfear an teideal ach le haghaidh do thagairt agus ní sheolfar chuig an gcustaiméir é.",
 
       save_action: "Sábháil teimpléad",
       add_action: "Cuir leis teimpléad",
 
       notifications: {
-        save_success_message: "teimpléad tá mír mír mír.",
+        save_success_message: "Sábháladh an teimpléad.",
       },
 
       inputs: {
@@ -10867,7 +10867,7 @@ export default {
           label: "teimpléad teachtaireacht",
           placeholder: "scríobh do teachtaireacht mír...",
           messages:
-            "tú is féidir socraigh mír mír de réir {order_id} agus {buyer_name}.",
+            "Is féidir leat luachanna dinimiciúla a shocrú le {order_id} agus {buyer_name}.",
         },
       },
     },
@@ -10886,7 +10886,7 @@ export default {
     click_to_create: "mír chuig Cruthaigh...",
     valid_for_30_days: "bailí do 30 laethanta",
     notifications: {
-      secure_link_created: "mír nasc tá mír mír mír.",
+      secure_link_created: "D'éirigh le nasc slán a chruthú.",
     },
   },
 
@@ -10932,7 +10932,7 @@ export default {
     add_action: "Cuir leis bosca",
     subtitle:
       "Cumraigh agus bainistigh an rogha seo do do shiopa.",
-    empty: "mír boscaí mír. mír “Cuir leis bosca”.",
+    empty: "Níl boscaí fós. Cliceáil “Cuir bosca leis”.",
     edit: "Cuir in eagar bosca",
     new: "nua bosca",
     default_weight: "réamhshocrú meáchan",
@@ -10973,22 +10973,22 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Liostú",
-    message:"Cruthaigh mír, mír mír do mír cineál de Liostú—airíonna, mír, mír, seirbhísí, agus tuilleadh."
+    message:"Cruthaigh eolaire inchuardaithe, modhnaithe d'aon chineál liostála - maoine, óstáin, dochtúirí, seirbhísí agus go leor eile."
   },
 
   shop_listing: {
     name: "Liostú",
     message:
-      "Cruthaigh mír, mír mír do mír cineál de Liostú—airíonna, mír, mír, seirbhísí, agus tuilleadh.",
+      "Cruthaigh eolaire inchuardaithe, modhnaithe d'aon chineál liostála - maoine, óstáin, dochtúirí, seirbhísí agus go leor eile.",
 
     items: {
       title: "Míreanna",
       sub_title:
         "Cruthaigh, Cuir in eagar, agus bainistigh Liostú míreanna. mír stádas, praghsáil, Eolas teagmhála, agus meáin.",
 
-      empty_title: "mír míreanna mír",
+      empty_title: "Níl aon earraí fós",
       empty_subtitle:
-        "Cruthaigh do mír Liostú mír chuig tosaigh mír do mír.",
+        "Cruthaigh do chéad mhír liostála chun tosú ag tógáil do eolaire.",
 
       add_title: "Cuir leis mír",
       edit_title: "Cuir in eagar mír",
@@ -11002,9 +11002,9 @@ export default {
       opening_hours_json: "mír uaireanta JSON",
 
       delete_title: "Scrios mír",
-      delete_message: "tá tú mír tú mír chuig Scrios seo mír?",
+      delete_message: "An bhfuil tú cinnte gur mhaith leat an mhír seo a scriosadh?",
       delete_success: "Scriosadh an mhír go rathúil.",
-      restore_success: "mír mír mír.",
+      restore_success: "Athchóiríodh an mhír go rathúil.",
 
       opening_hours:"mír uaireanta",
       form_fields:"Foirm mír",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Catagóirí",
       sub_title:
-        "mír do mír le catagóir agus mír. seo mír mír agus mír.",
+        "Eagraigh do eolaire le catagóirí agus fochatagóirí. Feabhsaíonn sé seo loingseoireacht agus scagadh.",
 
       empty_title: "mír catagóir mír",
       empty_subtitle:
-        "Cruthaigh catagóir chuig mír do Liostú agus mír mír.",
+        "Cruthaigh catagóirí chun do liostú a struchtúrú agus chun brabhsáil a fheabhsú.",
 
       add_title: "Cuir Catagóir leis",
       edit_title: "Cuir catagóir in eagar",
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "modhnóireacht",
       moderation_mode: "modhnóireacht mód",
-      require_first_approved_before_more: "mír mír mír mír tuilleadh",
+      require_first_approved_before_more: "A cheangal ar an gcéad cheadú roimh níos mó",
 
       limits_title: "Teorainneacha",
       max_pending_per_user: "mír ar feitheamh mír úsáideoir",
-      max_items_per_user: "mír míreanna mír úsáideoir",
+      max_items_per_user: "Uasmhéid míreanna in aghaidh an úsáideora",
       limits_hint: "teorainn mír",
 
       templates_title: "teimpléid",
@@ -11063,13 +11063,13 @@ export default {
     supervision: {
       title: "maoirseacht",
       sub_title:
-        "mír mír míreanna agus mír mír mír mír ceadaigh, foilsigh, diúltaigh, cartlannaigh, nó athshocraigh chuig ar feitheamh.",
+        "Déan athbhreithniú ar na míreanna a cuireadh isteach agus cinnigh cad a tharlóidh ina dhiaidh sin: faomhadh, foilsigh, diúltaigh, cartlann, nó athshocraigh chuig feitheamh.",
 
-      empty_title: "mír míreanna chuig mír",
+      empty_title: "Níl aon mhíreanna le hathbhreithniú",
       empty_subtitle:
-        "mír úsáideoirí mír nua míreanna, mír beidh mír mír do modhnóireacht.",
+        "Nuair a chuireann úsáideoirí míreanna nua isteach, beidh siad le feiceáil anseo le haghaidh modhnóireachta.",
 
-      review_title: "mír mír",
+      review_title: "Mír athbhreithnithe",
       approve_publish: "ceadaigh & foilsigh",
 
       submitted_at: "mír",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "mír mír mír.",
+      approve_success: "D'éirigh leis an mír a fhaomhadh.",
       publish_success: "mír foilsithe mír.",
-      unpublish_success: "mír mír mír.",
-      archive_success: "mír mír mír.",
-      reject_success: "mír mír mír.",
-      penalty_success: "mír mír mír.",
+      unpublish_success: "Mír neamhfhoilsithe go rathúil.",
+      archive_success: "D'éirigh le cartlannú na míre.",
+      reject_success: "D'éirigh leis an mír a dhiúltú.",
+      penalty_success: "Cuireadh pionós i bhfeidhm go rathúil.",
 
       reject_title: "diúltaigh mír",
-      reject_reason: "mír mír",
+      reject_reason: "Cúis diúltaithe",
 
       penalty: "mír",
       penalty_title: "mír",
-      penalty_points: "mír mír",
+      penalty_points: "Pointí pionóis",
       penalty_note: "mír nóta"
     },
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "dearaí",
       sub_title:
-        "Cruthaigh mír dearadh socraigh (mír + sonraí teimpléid) agus mír mír chuig catagóir. catagóir is féidir úsáid mír dearaí.",
+        "Cruthaigh tacair dearaidh iolracha (teimpléid chárta + sonraí) agus sann do chatagóirí iad. Is féidir le catagóirí dearaí éagsúla a úsáid.",
 
       empty_title: "mír dearaí mír",
       empty_subtitle:
-        "Cuir leis do mír dearadh socraigh chuig tosaigh mír mír catagóir mír.",
+        "Cuir do chéad tacar dearaidh leis chun tús a chur le saincheapadh a dhéanamh ar chuma catagóirí.",
 
       add_title: "Cuir leis dearadh",
       edit_title: "Cuir in eagar dearadh",
@@ -11127,14 +11127,14 @@ export default {
       details_template: "sonraí teimpléad",
 
       notifications: {
-        add_success: "dearadh mír mír.",
+        add_success: "Dearadh cruthaithe go rathúil.",
         edit_success: "dearadh nuashonraithe mír.",
         delete_success: "dearadh scriosta mír.",
       },
 
       delete_title: "Scrios dearadh",
       delete_message:
-        "Scrios seo dearadh? catagóir ag úsáid mír beidh mír mír dearadh_mír.",
+        "An bhfuil fonn ort an dearadh seo a scriosadh? Caillfidh na catagóirí a úsáideann é design_id go huathoibríoch.",
     },
 
 
@@ -11144,17 +11144,17 @@ export default {
     badges: {
       title: "suaitheantais",
       sub_title:
-        "Cruthaigh agus bainistigh mír suaitheantais. suaitheantais is féidir mír mír chuig Liostú míreanna chuig mír mír mír.",
+        "Cruthaigh agus bainistigh suaitheantais aghaidh siopa. Is féidir suaitheantais a shannadh chun míreanna a liostú chun tréithe speisialta a aibhsiú.",
 
       empty_title: "mír suaitheantais mír",
       empty_subtitle:
-        "Cuir leis do mír suaitheantas chuig tosaigh mír Liostú míreanna.",
+        "Cuir do chéad suaitheantas leis chun tús a chur le béim a chur ar mhíreanna liostála.",
 
       add_title: "Cuir leis suaitheantas",
       edit_title: "Cuir in eagar suaitheantas",
 
       notifications: {
-        add_success: "suaitheantas mír mír.",
+        add_success: "Cruthaíodh suaitheantas go rathúil.",
         edit_success: "suaitheantas nuashonraithe mír.",
         delete_success: "suaitheantas scriosta mír.",
       },
@@ -11166,24 +11166,24 @@ export default {
     companies: {
       title: "Cuideachtaí",
       sub_title:
-        "Cruthaigh agus bainistigh cuideachtaí. mír Liostú mír is féidir mír mír nasctha chuig mír cuideachta.",
+        "Cuideachtaí a chruthú agus a bhainistiú. Is féidir gach mír liostála a nascadh go roghnach le cuideachta amháin.",
 
       empty_title: "mír cuideachtaí mír",
       empty_subtitle:
-        "Cuir leis do mír cuideachta chuig nasc mír chuig Liostú míreanna.",
+        "Cuir do chéad chuideachta leis chun é a nascadh le míreanna liostála.",
 
       add_title: "Cuir leis cuideachta",
       edit_title: "Cuir cuideachta in eagar",
 
       notifications: {
-        add_success: "cuideachta mír mír.",
+        add_success: "Cuideachta cruthaithe go rathúil.",
         edit_success: "cuideachta nuashonraithe mír.",
         delete_success: "cuideachta scriosta mír.",
       },
 
       delete_title: "Scrios cuideachta",
       delete_message:
-        "Scrios seo cuideachta? míreanna ag úsáid mír beidh mír mír cuideachta nasc.",
+        "An bhfuil fonn ort an comhlacht seo a scriosadh? Caillfidh míreanna a úsáideann é nasc na cuideachta go huathoibríoch.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "teachtaireacht",
       sub_title: "bainistigh teachtaireacht seolta de réir úsáideoirí Ó Liostú próifíl.",
       empty_title: "mír teachtaireacht",
-      empty_subtitle: "teachtaireacht seolta de réir úsáideoirí beidh mír mír.",
+      empty_subtitle: "Beidh teachtaireachtaí a sheol úsáideoirí le feiceáil anseo.",
 
       sender: "mír",
       item: "mír",
@@ -11203,13 +11203,13 @@ export default {
       dialog_title: "Teachtaireacht",
       owner_reply: "úinéir freagair",
       reply: "freagair",
-      reply_hint: "scríobh freagair chuig úsáideoir. tú is féidir mír mír teachtaireacht léamh/mír Ó gníomh.",
+      reply_hint: "Scríobh freagra chuig an úsáideoir. Is féidir leat an teachtaireacht a mharcáil mar léite/turscar ó ghníomhartha freisin.",
 
       mark_read: "mír léamh",
-      mark_unread: "mír mír",
+      mark_unread: "Marcáil mar neamhléite",
       archive: "cartlannaigh",
       unarchive: "mír",
-      mark_spam: "mír mír",
+      mark_spam: "Marcáil mar thurscar",
       mark_not_spam: "ní mír",
 
       delete_confirm: "Scrios seo teachtaireacht?",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "Liostú",
-      subtitle: "cumasaigh nó mír do poiblí Liostú leathanach. mír cumasaithe do mír am, Selldone beidh Cruthaigh Liostú cumraíocht mír.",
+      subtitle: "Cumasaigh nó díchumasaigh do leathanach liostála poiblí. Nuair a bheidh sé cumasaithe den chéad uair, cruthóidh Soldone an chumraíocht liostála go huathoibríoch.",
       true_description: "Liostú is cumasaithe. Custaiméirí is féidir mír Liostú leathanaigh.",
       false_description: "Liostú is díchumasaithe. Liostú leathanaigh agus mír tá mír.",
       open_listing: "oscail Liostú",
       note: "tú is féidir mír cumraigh modhnóireacht, teorainn, foirmeacha, agus dearadh mír Liostú Socruithe.",
       vendor_prereq_text:
-        "mír díoltóirí chuig Cuir leis Liostú míreanna Ó mír díoltóir mír? mír, mír do gnó mír chuig mír.",
+        "An mian le díoltóirí míreanna liostála a chur leis óna bPainéal Díoltóra? Ar dtús, athraigh do mhúnla gnó go Marketplace.",
       vendor_prereq_button: "socraigh mír gnó mír",
 
       vendor_access_text:
-        "anois tú is féidir mír mír díoltóirí is féidir rochtain Liostú gnéithe (míreanna + cuideachtaí). cumasaigh mír i mír Socruithe.",
+        "Anois is féidir leat cinneadh a dhéanamh an féidir le díoltóirí rochtain a fháil ar ghnéithe Liostú (míreanna + cuideachtaí). Cumasaigh é i socruithe Marketplace.",
       vendor_access_button: "cumasaigh Liostú do díoltóirí",
 
       more_options_text:
-        "tuilleadh mír tá ar fáil i Liostú Socruithe. tú is féidir cumraigh ionchuir, UI/mír, modhnóireacht, teorainn, agus mír roghanna.",
+        "Tá tuilleadh rialuithe ar fáil i socruithe Liostú. Is féidir leat ionchuir, Chomhéadain / cuma, modhnóireacht, teorainneacha, agus roghanna airgeadú a chumrú.",
       more_options_button: "téigh chuig Liostú Socruithe",
 
       updated: "Liostú nuashonraithe.",
@@ -11241,23 +11241,23 @@ export default {
 
     search: {
       title: "cuardaigh Socruithe",
-      subtitle: "dearadh mír Custaiméirí cuardaigh do Liostú. cumasaigh Suíomh-mír cuardaigh agus tógáil scagairí Ó do saincheaptha Foirm mír.",
+      subtitle: "Dear conas a chuardaíonn custaiméirí do liostú. Cumasaigh cuardaigh bunaithe ar shuíomh agus scagairí a thógáil ó do réimsí foirme saincheaptha.",
 
       location_title: "Suíomh cuardaigh",
-      location_subtitle: "mír Custaiméirí chuig mír Suíomh agus mír mír mír mír mír ga.",
+      location_subtitle: "Lig do chustaiméirí suíomh a phiocadh agus torthaí in aice láimhe a fháil laistigh de gha inréite.",
       location_enabled_true: "Suíomh scagaire is cumasaithe. Custaiméirí is féidir cuardaigh de réir achar.",
-      location_enabled_false: "Suíomh scagaire is díchumasaithe. mír beidh ní mír mír de réir achar.",
+      location_enabled_false: "Tá an scagaire suímh díchumasaithe. Ní dhéanfar torthaí a scagadh de réir achair.",
 
       radius_default: "réamhshocrú ga (mír)",
-      radius_default_hint: "úsáidte mír custaiméir roghnaigh Suíomh mír mír ní mír ga.",
+      radius_default_hint: "Úsáidtear é nuair a roghnaíonn an custaiméir suíomh ach nach roghnaíonn sé ga.",
       radius_max: "uasmhéid ga (mír)",
-      radius_max_hint: "mír ga beidh mír mír chuig seo mír.",
+      radius_max_hint: "Déanfar ga aghaidh an tsiopa a chlampáil go dtí an luach seo.",
       radius_options: "ga roghanna (mír)",
-      radius_options_hint: "mír mír is féidir mír mír mír roghanna i mír UI.",
+      radius_options_hint: "Is féidir na luachanna seo a thaispeáint mar roghanna tapa san Chomhéadain aghaidh siopa.",
 
       filters_title: "cuardaigh scagairí",
       filters_subtitle: "Cumraigh agus bainistigh an rogha seo do do shiopa.",
-      no_filters: "mír scagairí mír mír.",
+      no_filters: "Níl aon scagairí curtha leis fós.",
       auto_generate: "mír roghanna",
 
       filter_field: "mír eochair",
@@ -11269,7 +11269,7 @@ export default {
       single: "mír",
       kv_mode: "eochair/mír mód",
 
-      requires_listing_active: "Liostú is ní gníomhach. cumasaigh Liostú mír chuig úsáid mír ar mír.",
+      requires_listing_active: "Níl an liostú gníomhach. Cumasaigh Listing ar dtús chun é a úsáid ar aghaidh an tsiopa.",
 
 
     },
@@ -11857,7 +11857,7 @@ export default {
         "Treasure Spin iontach",
         "Cluiche ar líne Spin the Wheel Magic",
         "Lucky Wheel Go leor",
-        "mír mír",
+        "Fortune's Favor",
         "Roth na nIontas",
         "Casadh le haghaidh Riches",
         "Duais Spinner Delight",
@@ -11897,27 +11897,27 @@ export default {
     subscription_price: {
       title: [
         "mír rochtain",
-        "mír mír",
+        "Ballraíocht Préimh",
         "mír pacáiste",
-        "mír mír",
+        "Plean Airgid",
         "mír síntiús",
-        "mír mír",
-        "mír mír",
+        "Sraith Fiontraíochta",
+        "Bundle Tosaithe",
         "gan teorainn tairiscint",
         "mír pacáiste",
         "Suite Gairmiúla",
       ],
       description: [
-        "mír do mír mír mír.",
+        "Ideal do dhaoine aonair ag iniúchadh na bunghnéithe.",
         "rochtain chuig gach mír gnéithe agus ábhar.",
-        "mír mír agus tosaíocht tacaíocht.",
+        "Sochair eisiacha agus tacaíocht tosaíochta.",
         "mír pacáiste do mír úsáideoirí.",
-        "mír rochtain le mír mír.",
-        "saincheaptha mír do mír mír.",
-        "mír mír mír.",
-        "mír teorainn ar mír, do mír úsáideoir.",
-        "mír mír do mír, mír chuig 4 baill.",
-        "mír do mír mír ardroghanna mír.",
+        "Rochtain deiridh le buntáistí barrleibhéil.",
+        "Réitigh saincheaptha d'eagraíochtaí móra.",
+        "Rogha leibhéal iontrála inacmhainne.",
+        "Gan teorainneacha úsáide, don úsáideoir cumhachta.",
+        "Plean speisialta do theaghlaigh, suas le 4 bhall.",
+        "Deartha do dhaoine gairmiúla atá ag lorg arduirlisí.",
       ],
     },
 
@@ -11927,17 +11927,17 @@ export default {
         "fisiciúil mír",
         "feidhmíocht gnéithe",
         "mír roghanna",
-        "mír mír",
+        "Ceanglais Chumhachta",
         "mír agus tógáil mír",
         "dath agus mír roghanna",
         "mír agus mír",
-        "mír mír mír",
+        "Comhoiriúnacht an Chórais Oibriúcháin",
         "mír agus mír",
         "pacáiste ábhar",
         "Barántas agus tacaíocht",
         "branda agus mír",
-        "mír mír",
-        "mír mír",
+        "Cairdiúlacht Comhshaoil",
+        "Éifeachtúlacht Fuinnimh",
         "mír agus mír",
         "mír roghanna",
         "san áireamh mír",
@@ -11953,7 +11953,7 @@ export default {
         "ordú sonrasc",
         "Íocaíocht sonrasc",
         "custaiméir admháil",
-        "mír mír",
+        "Achoimre Idirbheart",
         "Billeáil mír",
         "mír admháil",
         "ordú mír",
@@ -11971,25 +11971,25 @@ export default {
       ],
       message: [
         "mír tú do do ceannach!",
-        "mír mír do gnó.",
-        "do ordú is ar mír mír!",
+        "Táimid buíoch as do ghnó.",
+        "Tá d'ordú ar a bhealach!",
         "mír do mír le us.",
-        "mír mír chuig mír tú mír.",
+        "Ag tnúth le freastal ort arís.",
         "do mír is mír barr tosaíocht.",
-        "mír mír chuig ráta do mír.",
-        "mír tú do mír mír siopa.",
-        "mír mír tú mír do nua ceannach!",
-        "Sábháil do sonrasc do mír mír.",
-        "mír us mír do tuilleadh mír Táirgí.",
+        "Ná déan dearmad do thaithí a rátáil.",
+        "Go raibh maith agat as tacú lenár siopa.",
+        "Tá súil againn go mbainfidh tú taitneamh as do cheannach nua!",
+        "Sábháil do shonrasc le haghaidh tagartha sa todhchaí.",
+        "Tabhair cuairt orainn arís le haghaidh tuilleadh táirgí iontach.",
         "mír nasctha do mír tairiscintí.",
-        "mír tú do mír mír custaiméir.",
-        "mír mír chuig cabhair mír tú mír mír.",
+        "Go raibh maith agat as a bheith i do chustaiméir luachmhar.",
+        "Táimid anseo chun cabhrú leat má tá cúnamh uait.",
         "do aiseolas cabhair us mír.",
-        "mír mír lascaine ar do mír ceannach.",
-        "mír mír mír mír!",
+        "Bain sult as lascaine speisialta ar do chéad cheannach eile.",
+        "Tá rogha iontach déanta agat!",
         "mír tú do do mír i us.",
-        "mír mír chuig do aiseolas.",
-        "mír mír tú Ó mír foireann.",
+        "Ag tnúth le do chuid aiseolais.",
+        "Buíochas ó chroí ónár bhfoireann.",
       ],
     },
 
@@ -12003,20 +12003,20 @@ export default {
         "roghnaithe baile",
         "áitiúil mír",
         "Teacht Nua",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
+        "Gairdíní Eastáit",
+        "Ceantar Siopadóireachta",
+        "Alley Ceardaí",
+        "Eastáit Só",
+        "Mol Cíosa",
         "oscail mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
-        "mír mír",
+        "Nuálaíochtaí Teicneolaíochta",
+        "Lána Faisean",
+        "Cúinne na Ceardaíochta",
+        "Cúirt Bhia",
+        "Leabhar Nook",
+        "Acomhal Jewelry",
+        "Ascaill Antique",
+        "Crios Aclaíochta",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "gnó mír mír",
+        "Deimhniú Clárúcháin Gnó",
         "cáin mír uimhir (TIN)",
         "díoltóir mír Foirm",
         "táirge mír",
         "praghsáil liosta",
         "banc cuntas sonraí",
         "mír de seoladh",
-        "mír mír",
+        "Deimhniú Árachais",
         "cuideachta próifíl",
-        "mír mír mír",
+        "Deimhniú um Dhearbhú Cáilíochta",
         "mír sonraí bileog (SDS)",
         "táirge Barántas faisnéis",
         "Beartas fillte",
-        "Loingseoireacht agus mír mír",
+        "Nósanna Imeachta Loingseoireachta agus Láimhseála",
         "custaiméir seirbhís mír",
-        "margaíocht agus mír mír",
+        "Pleananna Margaíochta agus Cur Chun Cinn",
         "Na meáin shóisialta naisc",
-        "mír mír",
+        "Tagairtí Trádála",
         "mír cód de mír",
-        "mír mír (NDA)",
+        "Comhaontú Neamhnochta (NDA)",
       ],
     },
 
@@ -12057,18 +12057,18 @@ export default {
         "siopa cumraíocht mír",
         "mír seirbhísí mír",
         "mír margaíocht seirbhís mír",
-        "mír mír socrú mír",
-        "saineolaí mír mír do gnó úinéir",
+        "Comhaontú Socraithe Ardán Ríomhthráchtála",
+        "Conradh Sainchomhairleoireachta d’Úinéirí Gnó",
         "seirbhís mír do mír cumraíocht",
         "siopa socrú agus cumraíocht seirbhísí mír",
-        "POD seirbhís mír mír",
-        "margaíocht mír mír mír",
+        "Comhaontú Soláthair Seirbhíse POD",
+        "Comhaontú Forfheidhmithe na Straitéise Margaíochta",
         "gnó mír seirbhís mír",
         "mír siopa socrú mír",
-        "saineolaí seirbhís mír mír",
+        "Comhaontú Soláthair Seirbhíse Saineolaithe",
         "gnó mír agus socrú mír",
         "saincheaptha siopa socrú seirbhísí mír",
-        "mír mír seirbhís mír",
+        "Comhaontú Seirbhíse um Optimization Marketplace",
         "mír agus socrú seirbhísí mír",
         "POD comhtháthú seirbhísí mír",
         "margaíocht agus mír seirbhísí mír",
@@ -12100,7 +12100,7 @@ export default {
     cashback: {
       title: [
         "siopa & mír aisairgead",
-        "mír mír aisairgead",
+        "Luaíochtaí Dílseachta Aisíoc Airgid",
         "mír aisairgead tairiscintí",
         "aisairgead mír",
         "láithreach aisairgead margaí",
@@ -12117,20 +12117,20 @@ export default {
       ],
       description: [
         "mír aisairgead ar mír ceannach!",
-        "mír mír do do mír.",
+        "Faigh luach saothair as do dhílseacht.",
         "mír aisairgead tairiscintí mír do tú.",
-        "mír mír mír le aisairgead mír.",
+        "Bain sult as coigilteas iontach le luach saothair aisairgead.",
         "láithreach aisairgead ar gach do mír míreanna.",
         "Sábháil tuilleadh le mír aisairgead margaí.",
         "mír do aisairgead ar mír laethanta!",
         "mír aisairgead mír am tú siopa.",
         "mír aisairgead mír inniu!",
-        "VIP baill mír mír aisairgead.",
+        "Baineann baill VIP taitneamh as airgead ar ais eisiach.",
         "mír! mír am aisairgead tairiscintí.",
-        "mír mír aisairgead mír club anois.",
+        "Bígí inár gClub Luaíochtaí Cashback anois.",
         "tuilleadh tú siopa, tuilleadh tú Sábháil.",
-        "mír mír aisairgead mír.",
-        "mír mír aisairgead margaí mír.",
+        "Díghlasáil na luach saothair airgid ar ais deiridh.",
+        "Faigh taithí ar na margaí airgid ar ais is fearr timpeall.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "mír chuig {shop} - mír mír mír raon de míreanna",
-        "{shop} - do mír foinse do mír mír agus mír seirbhís",
-        "mír margaí agus mír mír mír {shop} - mír mír!",
-        "mír chuig mír {shop}'mír mír chuig mír agus mír mír",
-        "mír mír de {shop} mír - mír chuig mír mír do nuashonraigh",
-        "mír mír barr mír agus mír maith mír {shop}",
-        "mír mír agus mír mír do gach mír mír {shop}",
-        "mír tairiscintí agus mír mír mír {shop} - mír mír!",
-        "{shop}'mír mír mír mír agus táirge mír - siopa le mír",
-        "mír mír chuig {shop} - mír mír chuig mír mír mír mír",
+        "Fáilte go dtí {shop} - Déan iniúchadh ar ár Raon Sainiúil Míreanna",
+        "{shop} - An Foinse deiridh atá agat le haghaidh Marsantais Ardchaighdeáin agus Seirbhís den Scoth",
+        "Margaí Eisiacha agus Coigiltis Amháin ag {shop} - Tapaigh an Deis!",
+        "Cuir aithne ar Thiomantas {shop} d'Éicea-cairdiúlacht agus do Chleachtais Eitice",
+        "Bí i do Chuid den Teaghlach {shop} - Liostáil dár Nuachtlitir le haghaidh Nuashonruithe",
+        "Léim isteach i Roghanna is Fearr agus Earraí Ardráta ag {shop}",
+        "Cuir Smaointe agus Moltaí Cruthaitheacha i Láthair do Gach Imeacht ag {shop}",
+        "Tairiscintí Gan Sár agus Tréithe Speisialta Am-íogair ag {shop} - Gníomhaigh Go Tapa!",
+        "Leideanna Cuimsitheacha Ceannaigh agus Measúnuithe Táirge {shop} - Siopa le Muinín",
+        "Déan Amach go {shop} - Déanaimid ár ndícheall Eispéireas Siopadóireachta gan Chomhoiriúnú a Sheachadadh",
       ],
     },
 
@@ -12158,25 +12158,25 @@ export default {
     cross_selling: {
       message: [
         "críochnaithe do mír, mír socraigh!",
-        "Sábháil mír le mír mír margaí!",
-        "mír mír mír mír mír!",
+        "Sábháil mór lenár margaí bundle!",
+        "Ná caill ár bpéirí foirfe!",
         "mír do ceannach, Cuir leis-ar mír!",
-        "mír mír mír, mír mír!",
-        "mír míreanna, mír lascaine!",
-        "mír tuilleadh, mír mír – mír mír!",
-        "mír mír mír Táirgí!",
-        "mír do mír, mír margaí!",
-        "mír mír mír mír, Sábháil anois!",
-        "mír mír mír do mír mír!",
+        "Díghlasáil coigilteas eisiach, ceannaigh le chéile!",
+        "Míreanna comhlántacha, lascainí speisialta!",
+        "Faigh níos mó, caith níos lú - cuachta suas!",
+        "Tairiscint teoranta-ama: táirgí comhoiriúnaithe!",
+        "Uasghrádaigh do thaithí, margaí teaglama!",
+        "Faigh amach ár combos coimeádta, sábháil anois!",
+        "Péireáil suas é don teaglama deiridh!",
         "siopa mír, mír agus Sábháil!",
-        "mír mír, mír mír!",
-        "do mír mír is mír – siopa anois!",
-        "mír mír praghsáil mír do tú!",
-        "mír do mír le mír mír!",
-        "mír do mír le mír mír!",
-        "mír do mír mír agus Sábháil!",
-        "mír mír do mír lá!",
-        "mír do ceanáin do mír mír!",
+        "Déan an luach a dhúbailt, an spraoi a dhúbailt!",
+        "Tá do chluiche iontach anseo - siopa anois!",
+        "Praghsanna cuachta eisiach díreach duitse!",
+        "Uasmhéadaigh do choigilteas lenár combos!",
+        "Feabhsaigh do bhailiúchán leis na piocadh seo!",
+        "Coimeádta duit: meaitseáil agus sábháil!",
+        "An péire foirfe do lá foirfe!",
+        "Cuir na cinn is ansa leat le haghaidh coigilteas breise!",
       ],
     },
 
@@ -12191,7 +12191,7 @@ export default {
         "mír",
         "baile mír",
         "mír Táirgí",
-        "mír mír",
+        "Trealamh Spóirt",
         "Bréagáin & Cluichí",
         "Earraí grósaeireachta",
         "Troscán",
@@ -12204,7 +12204,7 @@ export default {
         "mír & TV taispeáin",
         "Bogearraí",
         "mír & mír",
-        "mír mír",
+        "Fearas Lasmuigh",
       ],
     },
 
@@ -12226,27 +12226,27 @@ export default {
         "mír Ar ais i stoc",
       ],
       body: [
-        "mír {buyer_name}, do ordú #{order_id} tá mír mír! mír mír mír agus beidh mír tú mír mír mír chuig mír.",
+        "Dia duit {buyer_name}, tá d'ordú #{order_id} deimhnithe! Tá sé á phróiseáil againn agus cuirfimid in iúl duit nuair a bheidh sé réidh le seoladh.",
 
-        "maith nua, {buyer_name}! do ordú #{order_id} tá mír mír. tú is féidir mír mír mír do cuntas. mír do mír le us!",
+        "Dea-scéal, {buyer_name}! Seoladh d'ordú #{order_id}. Is féidir leat é a rianú trí do chuntas. Go raibh maith agat as siopadóireacht a dhéanamh linn!",
 
-        "mír {buyer_name}, do ordú #{order_id} tá mír mír mír. mír mír tú mír do ceannach. mír tú!",
+        "Dia duit {buyer_name}, tá d'ordú #{order_id} seachadta go rathúil. Tá súil againn go mbainfidh tú taitneamh as do cheannach. Go raibh maith agat!",
 
-        "mír {buyer_name}, mír mír faighte Íocaíocht do ordú #{order_id}. do ordú is anois mír mír agus beidh mír mír go luath.",
-
-        "Cumraigh agus bainistigh an rogha seo do do shiopa. {buyer_name} {order_id}",
+        "Dia duit {buyer_name}, tá an íocaíocht ar ordú #{order_id} faighte againn. Tá d’ordú á phróiseáil anois agus seolfar é go luath.",
 
         "Cumraigh agus bainistigh an rogha seo do do shiopa. {buyer_name} {order_id}",
 
-        "mír {buyer_name}, do ordú #{order_id} is mír ar mír. le do thoil mír do cuntas nó teagmháil tacaíocht do mír sonraí.",
+        "Cumraigh agus bainistigh an rogha seo do do shiopa. {buyer_name} {order_id}",
 
-        "mír {buyer_name}, do ordú #{order_id} is mír do seachadadh agus ba chóir mír tú go luath. mír tú do do mír!",
+        "Dia duit {buyer_name}, tá d'ordú #{order_id} ar feitheamh faoi láthair. Seiceáil do chuntas nó déan teagmháil le tacaíocht le haghaidh tuilleadh sonraí.",
 
-        "mír {buyer_name}, mír mír mír filleadh do do ordú #{order_id}. mír tú mír mír ceisteanna, le do thoil teagmháil tacaíocht.",
+        "Dia duit {buyer_name}, tá d'ordú #{order_id} amach le seachadadh agus ba chóir go sroichfidh sé thú go luath. Go raibh maith agat as do foighne!",
 
-        "mír {buyer_name}, do aisíocaíocht do ordú #{order_id} tá mír mír. tú ba chóir féach mír i do cuntas go luath.",
+        "A {buyer_name}, a chara, tá an tuairisceán do d'ordú #{order_id} próiseáilte againn. Má tá aon cheist agat, déan teagmháil leis an bhfoireann tacaíochta.",
 
-        "mír {buyer_name}, mír Ó do ordú #{order_id} is Ar ais i stoc! tú is féidir mír nua ordú anois mír mír mír mír.",
+        "Dia duit {buyer_name}, tá d'aisíocaíocht ar ordú #{order_id} eisithe. Ba cheart duit na cistí a fheiceáil i do chuntas go luath.",
+
+        "Dia duit {buyer_name}, tá an mhír ó d'ordú #{order_id} ar ais i stoc! Is féidir leat ordú nua a dhéanamh anois má tá suim agat fós ann.",
       ],
     },
 
@@ -12256,25 +12256,25 @@ export default {
     property_set: {
       title: [
         "mír",
-        "mír mír",
+        "Giuirléidí Digiteacha",
         "mír",
         "Bianna",
         "Troscán",
         "mír",
         "mír Táirgí",
         "mír",
-        "mír mír",
+        "Trealamh Spóirt",
         "mír",
       ],
       description: [
-        "mír do mír míreanna mír méid, dath, agus mír.",
-        "sonraíochtaí do mír mír branda, mír, agus gnéithe.",
+        "Tréithe le haghaidh míreanna éadaí cosúil le méid, dath, agus fabraic.",
+        "Sonraíochtaí do ghiuirléidí cosúil le branda, samhail, agus gnéithe.",
         "mír, méid, agus cineálacha de mír.",
-        "sonraí do mír, mír, agus mír Táirgí.",
+        "Sonraí maidir le béilí, sneaiceanna, agus táirgí bia.",
         "mír, mír, agus dearadh stíleanna.",
-        "údar, mír, agus mír mír.",
-        "mír cineál, mír, agus mír sonraí.",
-        "mír grúpa, mír, agus mír mír.",
+        "Údar, seánra, agus bliain foilsithe.",
+        "Cineál craicinn, comhábhair, agus sonraí pacáistithe.",
+        "Aoisghrúpa, ábhar, agus caighdeáin sábháilteachta.",
         "cineál, méid, agus feidhmíocht gnéithe.",
         "stíleanna, mír, agus branda sonraí.",
       ],
@@ -12298,7 +12298,7 @@ export default {
         "bosca mír",
         "bosca mír",
         "bosca mír",
-        "bosca mír mír",
+        "Buidéil Gloine Bosca",
         "bosca mír pacáiste", // flexible mailer
         "bosca mír", // bubble/padded
         "bosca mír", // thermal

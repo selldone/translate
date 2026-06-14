@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Umlando Othengiwe",
       subtitle:
-        "Amalayisense asebenzayo nasalindile.",
+        "Lolu uhlu lwamalayisensi asebenzayo nasalindile. Ungathenga amadili ngemuva kokuxhasa isikhwama sakho semali. Ukwengeza, sicela uqaphele ukuthi lapho ukhansela ukubhalisa, inani elisele lokubhalisa lizobuyiselwa ku-wallet yakho ebonakalayo.",
     },
     license_detail: {
       title: "Imininingwane",
       subtitle:
-        "Imikhawulo kuhlelo lwakho lwamanje.",
+        "Lena imikhawulo yohlelo lwakho lwamanje. Ukuze uthole imininingwane eyengeziwe, sicela uvakashele ikhasi lentengo. Ungakwazi ukufinyelela kuzo zonke izici kuzo zonke izinhlelo, kuhlanganise nohlelo lwamahhala, ukuze uqale ibhizinisi lakho futhi ukhule. Njengoba ukhulisa ibhizinisi lakho, cabanga ukuthuthukela ohlelweni lwezinga eliphezulu ukuze wehlise izindleko zakho zesevisi.",
     },
 
     table: {

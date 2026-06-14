@@ -2619,7 +2619,7 @@ export default {
 
   /** {@see BProductImagesGallery} **/
   product_images_list: {
-    upload_button: "More Product Images",
+    upload_button: "Eminye imifanekiso yemveliso",
     upload_an_image: "Khetha umfanekiso.",
     notifications: {
       update_sort_success: "Ukuhlela imifanekiso kugciniwe",
@@ -5710,7 +5710,7 @@ export default {
     license_detail: {
       title: "Iinkcukacha",
       subtitle:
-        "Imida kwisicwangciso sakho sangoku.",
+        "Le yimida yesicwangciso sakho sangoku. Ukufumana iinkcukacha ezithe vetshe, nceda undwendwele iphepha lamaxabiso. Unokufikelela kuzo zonke iifitsha kuzo zonke izicwangciso, kubandakanya isicwangciso sasimahla, ukuqala ishishini lakho kwaye ukhule. Njengoko ulinganisa ishishini lakho, cinga ngokunyusela kwisicwangciso senqanaba eliphezulu ukuthoba imirhumo yenkonzo yakho.",
     },
 
     table: {

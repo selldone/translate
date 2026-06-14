@@ -23,16 +23,16 @@ export default {
     featured_apps: "Apps dehru",
     more_apps: "Aktar apps",
     my_public_profile: "Il-paġna tal-profil pubbliku tiegħi",
-    product_admin: "oġġett oġġettġġoġġett",
+    product_admin: "Amministratur tal-Prodott",
     make_money_affiliate: "Agħmel Flus",
-    see_live_shop: "oġġettġġoġġett oġġettħoġġett Ħoġġett",
-    see_live_product: "oġġettġġoġġett oġġettħoġġett oġġett",
-    has_inputs: "oġġettġġoġġett oġġettġġoġġett",
-    main_domain: "oġġett oġġett",
+    see_live_shop: "Ara Live Shop",
+    see_live_product: "Ara l-Prodott Ħaj",
+    has_inputs: "Għandu Inputs",
+    main_domain: "Dominju Prinċipali",
     domains: "Dominji",
-    home_page: "oġġett oġġettġoġġett",
-    google_icon_font_sample: "Google oġġettġġoġġett oġġettġġoġġett",
-    fontawesome_icon_font_sample: "Fontawesome (oġġettġġoġġett) oġġettġġoġġett",
+    home_page: "Home Page",
+    google_icon_font_sample: "Kampjun tat-tipa Google",
+    fontawesome_icon_font_sample: "Kampjun Fontawesome (V6).",
   },
 
   numbers: {
@@ -42,9 +42,9 @@ export default {
   error: {
     not_fount_data: "Data ma nstabitx!",
     license_max_limit: "Il-liċenzja tiegħek laħqet il-limitu!",
-    no_read_access: "oġġett oġġettġġoġġett oġġettċċoġġett",
-    no_write_access: "oġġett oġġettġġoġġett oġġettċċoġġett",
-    no_access: "oġġett oġġettċċoġġett",
+    no_read_access: "Ebda aċċess għall-qari",
+    no_write_access: "Ebda aċċess għall-kitba",
+    no_access: "L-ebda aċċess",
   },
 
   time_spans: {
@@ -87,16 +87,16 @@ export default {
 
   ai: {
     remove_bg: {
-      title: "oġġettħħoġġett oġġett",
-      subtitle: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Neħħi Sfond",
+      subtitle: "Oħloq sfond trasparenti.",
     },
     reimagine: {
       title: "oġġettġġoġġett",
-      subtitle: "oġġettħoġġett oġġett oġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+      subtitle: "Oħloq aktar immaġini bi sfondi ġodda.",
     },
     upscale: {
       title: "oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Żid ir-riżoluzzjoni tal-immaġni.",
     },
   },
 
@@ -106,7 +106,7 @@ export default {
     login: "Idħol",
     register: "Irreġistra",
     auth_2fa: "2 fattur Awtentika 🔐",
-    academy: "oġġettġġoġġett OS oġġettġġoġġett",
+    academy: "Negozju OS Mag",
     help: "Ċentru ta' Għajnuna",
     price_list: "Lista tal-prezzijiet",
     my_stores: "L-Imħażen Tiegħi",
@@ -363,7 +363,7 @@ export default {
         orders: "Ordnijiet",
         currency: "Munita",
         no_payment: "oġġett Ħoġġett!",
-        no_purchase: "oġġett oġġett!",
+        no_purchase: "L-ebda xiri!",
       },
     },
   },
@@ -468,14 +468,14 @@ export default {
             "Tista' tiddefinixxi l-limitu tal-IP tar-rekord A għal dominju jew sottodominju DNS mill-valuri li ġejjin:",
           step2: "Żid rekord DNS TXT:",
           set_ip_alert:
-            "oġġettġġoġġett oġġettġġoġġett IP oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b> {ip} </b> - oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett CDN",
+            "Issettja l-valur IP tar-rekord A <b> {ip} </b> - Jekk id-dominju tiegħek ma ġiex miżjud permezz tas-CDNs.",
 
           input_domain: "URL tad-dominju",
           correct: "Is-settings tad-dominju huma korretti.",
           set_message: "Issettja CNAME ta' dan id-dominju għal {cname}.",
           input_domain_message: "Daħħal l-isem tad-dominju mingħajr http u https.",
           ssl_message:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SSL oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SSL oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett CDN oġġett oġġettħoġġett oġġettġġoġġett Cloudflare",
+            "Tinkwetax dwar iċ-ċertifikat SSL għall-websajt tiegħek. Tista' tikseb SSL permezz ta' fornituri tas-CDN b'xejn jew imħallsa bħal Cloudflare.",
           active: "Id-dominju huwa attiv",
           inactive: "Id-dominju huwa diżattivat",
           success_message:
@@ -484,7 +484,7 @@ export default {
           delete_action: "Tħassar id-dominju?",
         },
         set_home_dialog: {
-          title: "oġġettġġoġġett oġġett oġġett oġġettġoġġett",
+          title: "Issettja l-home page tad-dominju",
         },
         notification: {
           add_message: "Indirizz tad-dominju miżjud b'suċċess.",
@@ -566,9 +566,9 @@ export default {
       /** {@see BDashboardShopChannels} **/
 
       channels: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Kanali ta' Akkwist",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "In-negozju tiegħek qed jikber. Hawn hu r-rapport tal-kanali tal-akkwist tal-klijenti tiegħek.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -598,57 +598,57 @@ export default {
 
       menu_advanced_options: "Għażliet avvanzati",
       menu_advanced_options_description:
-        "Connect Google oġġettġġoġġett, oġġettħħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Qabbad Google sheet, Neħħi prodotti duplikati u aktar...",
 
       products_rss: {
         title: "oġġett RSS",
-        subtitle: "oġġett oġġett oġġettġġoġġett Google, Meta,...",
+        subtitle: "L-importazzjoni ta' prodotti f'Google, Meta,...",
       },
       products_api: {
         title: "oġġett API",
-        subtitle: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett API oġġettġġoġġett",
+        subtitle: "L-importazzjoni ta' prodotti permezz ta' sejħa API aċċessibbli għall-pubbliku.",
       },
       google_sheet: {
-        action: "oġġettġġoġġett oġġettġġoġġett",
+        action: "Folja Marbuta",
         tooltip:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Google oġġettġġoġġett oġġettġġoġġett Google oġġettġġoġġett",
+          "Il-prodotti f'dan il-ħanut huma marbuta ma' Google Sheet f'Google Drive.",
       },
       show_deletes: {
-        false_title: "oġġettħoġġett oġġettħoġġett",
-        false_description: "oġġettħoġġett oġġettħoġġett oġġettġġoġġett",
-        true_title: "oġġett oġġettħoġġett",
-        true_description: "oġġett oġġettħoġġett oġġettġġoġġett",
+        false_title: "Aħbi Imħassar",
+        false_description: "Aħbi prodotti mħassra.",
+        true_title: "Uri Imħassar",
+        true_description: "Uri prodotti mħassra.",
       },
       show_vendors: {
-        false_title: "oġġettħoġġett oġġettħoġġett",
-        false_description: "oġġettġġoġġett oġġett oġġettħ oġġettġġoġġett",
-        true_title: "oġġett oġġettħoġġett",
-        true_description: "oġġett oġġett oġġettħoġġett, ⌘Ctrl+1",
+        false_title: "Aħbi Bejjiegħa",
+        false_description: "Uri biss sid il-bejjiegħ.",
+        true_title: "Uri Bejjiegħa",
+        true_description: "Uri l-bejjiegħa kollha, ⌘Ctrl+1",
       },
       table_mode: {
-        false_title: "oġġett & oġġett oġġettà",
+        false_title: "Drag & Drop Modalità",
         false_description:
-          "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ara prodotti organizzati minn kategoriji u sottokategoriji.",
         true_title: "oġġett oġġettà",
-        true_description: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        true_description: "Ara l-prodotti f'tqassim dettaljat tal-mejda.",
       },
 
       show_notes: {
-        false_title: "oġġettħoġġett oġġettġġoġġett",
-        false_description: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
-        true_title: "oġġett oġġettġġoġġett",
-        true_description: "oġġett oġġett oġġettġġoġġett, ⌘Ctrl+2",
+        false_title: "Aħbi Noti",
+        false_description: "Aħbi n-noti vojta.",
+        true_title: "Uri Noti",
+        true_description: "Uri n-noti kollha, ⌘Ctrl+2",
       },
 
       rss_dialog: {
         title: "oġġett RSS",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett RSS oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Uża dan l-RSS feed biex iżżomm lista aġġornata tal-prodotti kollha.",
       },
       api_dialog: {
         title: "oġġett API",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett API oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett API oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettħżoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Uża dan l-għalf API biex iżżomm il-lista tal-prodotti tiegħek aġġornata. Jipprovdi API aċċessibbli għall-pubbliku biex iġibu prodotti mill-maħżen tiegħek, li jagħmilha ideali għal websajts ta 'elenkar ta' prodotti u tqabbil.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -752,12 +752,12 @@ export default {
         drop_shipping: "Irċevuti tal-bejjiegħ mill-ġdid",
         reseller_accounts: "Kontijiet tal-bejjiegħ mill-ġdid",
         valuations: "Valutazzjonijiet",
-        customer_wallets: "oġġett oġġett",
+        customer_wallets: "Kartieri tal-Klijent",
       },
 
       /** {@see BPageShopFinanceBill} **/
       invoice: {
-        title: "Ħoġġett oġġettġġoġġett oġġett",
+        title: "Shop Linked Wallets",
         subtitle:
           "Ħlasijiet, kummissjonijiet u spejjeż tal-maħżen jitnaqqsu minn dawn il-kontijiet tal-kartiera.",
 
@@ -856,23 +856,23 @@ export default {
         subtitle: "Lista tal-imħażen tiegħi.",
       },
       restriction: {
-        title: "oġġettħħoġġett oġġettġġoġġett",
+        title: "Restrizzjoni tat-tbaħħir",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett!",
+          "Tista' timplimenta restrizzjonijiet biex tiżgura li l-klijenti biss fiż-żoni tat-tbaħħir magħżula jistgħu jagħmlu xirjiet mingħandek!",
         no_enable_shipping_error:
-          "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettħħoġġett oġġettġġoġġett!",
+          "Ħadd ma jista 'jixtri mingħandek għax m'għandekx metodu ta' tbaħħir attivat!",
         customer_must_select_a_shipping_msg:
-          "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Il-klijent irid jagħżel metodu tat-tbaħħir biex jagħmel ordni.",
         customer_can_order_without_shipping_method_msg:
-          "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Il-klijent jista 'jagħmel l-ordni anki jekk l-ebda metodu ta' tbaħħir ma jkun appoġġjat għall-post magħżul.",
         inputs: {
           restriction: {
             false_description:
-              "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-            false_title: "oġġettċċoġġett oġġett oġġett",
-            true_title: "oġġettġġoġġett oġġettċċoġġett oġġett",
+              "Il-klijenti xorta jistgħu jagħmlu ordnijiet anke jekk ma jkun intgħażel l-ebda metodu ta 'trasport speċifiku.",
+            false_title: "Aċċetta l-ordnijiet kollha",
+            true_title: "Ristrett aċċetta l-ordni",
             true_description:
-              "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+              "Il-klijenti huma mitluba jagħżlu jew għażla tat-tbaħħir jew pickup sabiex ilestu x-xiri tagħhom.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Issettja l-maħżen, il-maħżen jew l-oriġini tan-negozju tiegħek. Huwa vitali li jkollok fil-kalkolu tal-ispiża tat-tbaħħir u l-proċess ta 'checkout.",
       no_multi_warehouse_support_message:
-        "oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Għal sempliċità, din il-karatteristika mhix disponibbli fil-ħwienet normali.",
       size_unit: {
         title: "Unità tad-daqs",
         subtitle: "L-unità użata għat-tul, il-wisa 'u l-għoli.",
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "oġġettġġoġġett Unitàà",
-        subtitle: "oġġettġġoġġett Unitàà oġġettżoġġett oġġettġġoġġett oġġettġġoġġett",
+        subtitle: "L-unità użata għad-distanza.",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "Loġistika",
         profiles: "Profili",
         includes: "Jinkludi",
-        property_sets: "oġġettġġoġġett oġġettġġoġġett",
+        property_sets: "Settijiet tal-Proprjetà",
         boxes: "oġġettġġoġġett",
       },
 
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Aħżen Apps Attivi",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett Applikazzjonijiet oġġett oġġettġġoġġett Selldone oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett, Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Skopri l-faċilità li timmaniġġja l-applikazzjonijiet tan-negozju tiegħek b'Selldone App Store. Il-pjattaforma tagħna toffri sett komprensiv ta’ għodod iddisinjati biex jottimizzaw l-operazzjonijiet tan-negozju tiegħek. Minn soluzzjonijiet ta 'ġestjoni innovattivi għal apps li jsaħħu l-produttività, Selldone jipprovdi esperjenza bla xkiel għan-negozji li qed ifittxu effiċjenza u tkabbir.",
         all: "kollha",
       },
       /** {@see BAppShopStore} **/
@@ -1160,14 +1160,14 @@ export default {
       shop_api: {
         title: "Aħżen Ċwievet Aċċess",
         message:
-          "oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettħoġġett oġġettċċoġġett Token oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett ",
+          "Dawn iċ-ċwievet jintużaw biex joħolqu Access Token mis-server tiegħek. Innota li ċ-ċwievet huma kunfidenzjali u biss fuq is-server b'mod li ma jkunx viżibbli għal ħaddieħor.",
       },
     }, // End of permissions
     /** {@see BPageShopApplications} **/
     applications: {
       /** {@see BPageShopApplicationsPwa} **/
       pwa: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Web App",
         sub_title: "Ara l-app tal-web tal-maħżen tiegħek hawn",
         message:
           "Nota: Tista' teditja l-paġna ta' merħba tal-websajt tiegħek fuq l-iPhone u l-iPad tiegħek fl-app tal-iOS",
@@ -1216,7 +1216,7 @@ export default {
         app_icon_input_placeholder: "Agħżel il-fajl zip tal-ikoni tal-app.",
         generate_icon_pack_action: "Ibni Ikona Pakkett",
         splash_design: "Splash Screen Disin",
-        splash_logo_input: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        splash_logo_input: "Splash Screen Logo",
         splash_logo_input_placeholder: "Agħżel immaġni għall-Splash Screen.",
         splash_title_input: "Titolu Splash Screen",
         splash_title_input_placeholder: "Daħħal titolu għal Splash Screen",
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "oġġettġġoġġett",
           subtitle:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+            "Favicons huma immaġini żgħar u ikoniċi li jirrappreżentaw websajt f'tabs tal-browser, bookmarks, u interfaces tal-app mobbli.",
         },
       },
 
@@ -1417,8 +1417,8 @@ export default {
     menu_extra: {
       description: "Deskrizzjoni",
       form: "oġġettġġoġġett",
-      no_spec: "oġġett oġġettġġoġġett",
-      has_spec: "oġġettġġoġġett oġġettġġoġġett",
+      no_spec: "Ebda spec",
+      has_spec: "Għandu spec",
     },
 
     select_type: {
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Kategorija",
-      category_input_msg: "oġġettġġoġġett: oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      category_input_msg: "Vojta: Fl-għerq tal-maħżen",
       product_name: "Isem tal-prodott*",
       product_name_placeholder: "L-isem tal-prodott tiegħek hawn..",
       product_code: "Kodiċi tal-prodott (Ingliż)",
       sku: {
         label: "SKU",
-        message: "oġġettġġoġġett oġġettġġoġġett Unitàà",
+        message: "Unità ta' Żamma ta' Stokk",
       },
       mpn: {
         label: "MPN",
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        message: "Numru tal-Parti tal-Manifattur",
       },
 
       external_link: "Link esterna",
@@ -1486,55 +1486,55 @@ export default {
 
       category: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ikkonfigura l-kategorija u t-titlu li għandhom jintwerew fil-lista tiegħek.",
       },
       unit: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Tista' tippersonalizza l-wiri tal-prezzijiet u l-elementi tas-sejħa għall-azzjoni fuq il-paġna tal-prodott.",
       },
       custom_pricing: {
-        title: "oġġett oġġett oġġettġġoġġett",
+        title: "Formola ta' pprezzar apposta",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett) oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista 'toħloq jew tassenja valutazzjoni (formola ta' input tal-prezzijiet) għall-prodott, u l-klijenti tiegħek jistgħu jagħżlu bejn varjanti jew jippersonalizzaw il-merkanzija tiegħek permezz ta 'formola ta' input intuwittivi.",
         valuation_need_saved_product_message:
-          "oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Jekk jogħġbok issejvja l-prodott l-ewwel, u mbagħad tista 'tassenja mudell ta' valutazzjoni.",
         assign_valuation_message:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        edit_pricing_action: "oġġett oġġett oġġettġġoġġett",
-        add_pricing_action: "oġġettħoġġett Ġoġġett oġġett oġġettġġoġġett",
+          "Jekk jogħġbok assenja mudell ta' valutazzjoni għal dan il-prodott.",
+        edit_pricing_action: "Editja l-formola tal-prezzijiet",
+        add_pricing_action: "Oħloq formola ġdida tal-prezzijiet",
       },
       action: {
-        title: "oġġett oġġett oġġettġġoġġett",
+        title: "Buttuna tixtri apposta",
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett: {icon name} oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        multi_language_dialog_title: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista' tibdel l-ikona billi ssegwi dan il-mudell: {icon name} caption...",
+        placeholder: "Daħħal call to action...",
+        multi_language_dialog_title: "Caption tal-buttuna tax-xiri apposta",
       },
       external: {
         not_available_message:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett & oġġettġġoġġett oġġettġġoġġett",
-        available_message: "oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        input_label: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Azzjoni żejda disponibbli bil-liċenzji tal-Kumpanija u l-Intrapriża.",
+        available_message: "Tista 'żżid sejħa esterna żejda għall-azzjoni.",
+        input_label: "It-Tieni Sejħa għall-Azzjoni",
       },
       warehouse: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Din l-informazzjoni hija utilizzata mis-sistema ta 'ġestjoni tal-maħżen u sservi biex tidentifika globalment il-prodott.",
       },
       gtin: {
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett UPC (oġġettġġoġġett oġġettġġoġġett, 12 oġġettġġoġġett), EAN (oġġettġġoġġett, 13 oġġettġġoġġett), JAN (oġġettġġoġġett, 8 oġġettġġoġġett 13 oġġettġġoġġett), ISBN (oġġettġġoġġett, 13 oġġettġġoġġett).",
-        label: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
+        hint: "Il-valuri appoġġjati huma UPC (Amerika ta' Fuq, 12-il ċifra), EAN (Ewropa, 13-il ċifra), JAN (Ġappun, 8 jew 13-il ċifra), ISBN (kotba, 13-il ċifra).",
+        label: "Numru tal-Oġġett tal-Kummerċ Globali tal-Prodott",
+        placeholder: "Numru tal-kummerċ globali hawn.. (Mhux obbligatorju)",
       },
       hsn: {
-        hint: "HSN, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "6~16 oġġettġġoġġett HSN oġġettġġoġġett (oġġettġġoġġett)",
+        hint: "HSN, jew Sistema Armonizzata ta' Nomenklatura, hija sistema ta' klassifikazzjoni standardizzata internazzjonalment għall-kategorizzazzjoni ta' oġġetti u prodotti.",
+        placeholder: "6 ~ 16-il kodiċi HSN ċifri.. (Mhux obbligatorju)",
         label: "HSN",
       },
       condition: {
-        label: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett",
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Kundizzjoni tal-prodott fil-maħżen tiegħek",
+        message: "Jekk jogħġbok agħżel il-kundizzjoni ta 'dan il-prodott.",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Informa lill-klijenti tiegħek dwar il-kundizzjoni u l-marka tal-prodott li qed toffri.",
       },
       brand: {
         label: "oġġettġġoġġett",
@@ -1542,25 +1542,25 @@ export default {
       },
       warranty: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Status, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Issettja l-garanzija u l-istatus tal-prodott, peress li din l-informazzjoni dwar il-garanzija tintwera lill-klijent u tgħin biex jiġi stabbilit il-qafas ta 'żmien li fih il-prodotti jistgħu jintbagħtu lura wara x-xiri.",
 
         label: "oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett 24 oġġett oġġettġġoġġett (oġġettġġoġġett)",
+        placeholder: "Garanzija Golden 24 xahar.. (Mhux obbligatorju)",
       },
       status: {
         title: "Status",
         subtitle:
-          "oġġettġġoġġett oġġett Status oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Online oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Status oġġett 'oġġettġġoġġett",
+          "L-istatus tal-prodott jiddetermina d-disponibbiltà tiegħu online u fil-maħżen. Biex tagħmel abbozz tal-prodott, aqleb l-istatus tiegħu għal 'Inattiv'.",
       },
       profiles: {
         title: "Profili",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett oġġettġġoġġett, oġġettħħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Tista 'tiddefinixxi garanzija, politika ta' ritorn, tbaħħir, u tiggwida u tassenjahom għal dan il-prodott. Se jintwera bħala tabs ġodda fuq il-paġna tal-prodott.",
       },
       shortcuts: {
-        title: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett",
+        title: "Assenja Prodott għal Kategoriji Addizzjonali",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett > oġġett > oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett 'oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Din il-karatteristika tippermettilek li telenka l-prodott f'kategoriji multipli filwaqt li żżomm it-tqegħid tiegħu fil-kategorija primarja stabbilita taħt Prodott > Editja > Kategorija. Essenzjalment, jiffunzjona b'mod simili għall-ħolqien ta' 'shortcuts' fis-sistemi operattivi, li jippermetti li l-prodott jidher f'kategoriji speċifikati addizzjonali.",
       },
     },
 
@@ -1635,26 +1635,26 @@ export default {
     edit_spec: {
       title: "Speċifikazzjonijiet Tekniċi",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Daħħal l-ispeċifikazzjonijiet tal-prodott hawn. Din l-informazzjoni se tintwera lill-klijenti u tista 'wkoll tiġi utilizzata fis-sistema ta' filtrazzjoni intelliġenti tal-kategorija.",
       manual: {
         title: "oġġettġġoġġett",
         subtitle:
-          "Żoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Żid l-ispeċifikazzjonijiet tal-prodott manwalment billi tiddefinixxi gruppi u par valuri ewlenin.",
         add_group_action: "Żid Grupp",
-        add_item_action: "Żoġġett oġġettġġoġġett oġġett",
+        add_item_action: "Żid Valur Speċ",
       },
       import: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista 'timporta speċifikazzjonijiet tekniċi ta' prodotti simili.",
         action_title: "Importa",
-        action_subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        action_subtitle: "Klonu spec minn prodott ieħor.",
       },
       ai: {
         title: "AI",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        action_title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett AI",
-        action_subtitle: "oġġettħoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista' awtomatikament toħloq speċifikazzjonijiet tal-prodott billi tissottometti d-dejta mhux ipproċessata tal-prodott f'forma testwali.",
+        action_title: "Iġġenera awtomatikament mill-AI",
+        action_subtitle: "Oħloq speċifikazzjonijiet tal-prodott mill-pront astratt.",
       },
 
       group_input_header: "Żid Grupp",
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Kodiċi tal-Prodott: P0000...",
         spec_view_title: "Speċifikazzjonijiet tal-prodott magħżul",
         spec_view_subtitle:
-          "oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "L-ispeċifikazzjonijiet ġew importati mill-prodott magħżul.",
         set_spec_action: "Speċifikazzjonijiet Tekniċi Duplikati",
       },
       notifications: {
@@ -1687,30 +1687,30 @@ export default {
         spec_saved_success: "Speċifikazzjonijiet tal-prodott salvati.",
       },
       dialog_ai: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett",
+        title: "Iġġenera Awtomatikament Speċifikazzjonijiet tal-Prodott",
         prompt: {
-          title: "oġġett Ħoġġett ġoġġett",
+          title: "Ħarsa ġenerali tal-prodott",
           subtitle:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+            "Jekk jogħġbok ipprovdi deskrizzjoni qasira u ċara tal-prodott, filwaqt li tenfasizza l-karatteristiċi u d-dettalji ewlenin tiegħu. Din l-informazzjoni se tintuża biex tiġġenera awtomatikament l-ispeċifikazzjonijiet tal-prodott.",
         },
         generated_spec: {
-          title: "oġġettġġoġġettġġoġġett oġġettċoġġett AI",
+          title: "Speċifikazzjonijiet Ġenerati mill-AI",
           subtitle:
-            "oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Dawn l-ispeċifikazzjonijiet ġew iġġenerati minn intelliġenza artifiċjali.",
         },
         inputs: {
           prompt: {
-            label: "oġġett oġġett",
-            placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+            label: "Dettalji tal-Prodott",
+            placeholder: "Iddeskrivi l-prodott hawn...",
           },
         },
         actions: {
           run: {
-            title: "oġġettġġoġġett oġġettċoġġett",
+            title: "Iġġenera Speċifikazzjonijiet",
             subtitle:
-              "oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+              "Ikklikkja biex toħloq awtomatikament speċifikazzjonijiet tal-prodott mill-ħarsa ġenerali pprovduta.",
           },
-          add_generated_spec: "Żoġġett oġġettġġoġġett oġġettċoġġett",
+          add_generated_spec: "Żid Speċifikazzjonijiet Ġenerati",
         },
       },
     },
@@ -1735,20 +1735,20 @@ export default {
           "L-ewwel, ittella l-vidjo tal-prodott tiegħek fuq YouTube, u mbagħad poġġi l-URL tal-vidjo hawn.",
       },
       change_bg_ai: {
-        title: "oġġettħoġġett oġġettġoġġett oġġettġġoġġett Ġoġġett oġġett",
+        title: "Oħloq Immaġni Bi Sfond Ġdid",
         inputs: {
           prompt: {
-            label: "oġġett oġġett",
-            placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            label: "Deskrizzjoni tal-Isfond",
+            placeholder: "Iddeskrivi l-isfond mixtieq...",
           },
         },
         actions: {
           reimagine: {
-            title: "oġġettġġoġġett Ġoġġett oġġettġoġġett",
-            subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+            title: "Iġġenera Immaġni Ġdida",
+            subtitle: "Immaġina mill-ġdid l-immaġni kollha bi sfond ġdid.",
           },
           replace: {
-            subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            subtitle: "Ibdel l-isfond eżistenti.",
           },
         },
       },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Fi ħdan is-suq, l-ipprezzar tal-prodott primarju muri huwa l-prezz tal-elenkar, filwaqt li l-prezz attwali huwa ddeterminat abbażi tar-rekords tar-relazzjoni bejn il-bejjiegħ u l-prodott.",
         subscription:
-          "oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Għall-abbonamenti, jintwera biss il-prezz tal-elenkar, filwaqt li l-ispiża attwali tiġi determinata abbażi tal-pjan ta 'abbonament magħżul.",
         service:
-          "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett (oġġettġġoġġett oġġettċċoġġett).",
-        file: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Għal prodotti bbażati fuq is-servizz, l-ipprezzar elenkat huwa biss għal skopijiet ta 'wiri, li jipprovdi spiża stmata tas-servizz. Il-prezz attwali tas-servizz jiġi ddeterminat minnek ladarba l-klijent ikun għamel l-ordni tiegħu (mal-checkout).",
+        file: "Dan jirreferi għall-prezz elenkat u attwali tal-fajl, li l-klijenti jridu jħallsu sabiex jiksbu aċċess għall-fajls.",
         default:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Dan jirreferi għall-prezz elenkat tal-prodott u jqis ukoll il-prezz ta' kwalunkwe varjanti li m'għandhomx prezzijiet separati.",
       },
       extra_pricings: {
-        title: "Żoġġett oġġettġġoġġett oġġett",
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        title: "Żid prezzijiet żejda",
+        subtitle: "Implimenta prezzijiet dinamiċi bbażati fuq il-kwantità tax-xiri.",
       },
 
       vendor: {
         title: "oġġettħ oġġett",
         subtitle:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġett > oġġettħoġġett oġġettġġoġġett",
-        manage_vendors: "oġġettġġoġġett oġġettħoġġett",
+          "Dan il-prezz se jintwera biss fil-lista tal-prodotti. Tista' tissettja l-prezz tal-bejjiegħ fit-tab Prodott > Bejjiegħa.",
+        manage_vendors: "Immaniġġja Bejjiegħa",
         vendor_product_pricing_link:
-          "oġġettġġoġġett oġġettħoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett (oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett). oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "L-ipprezzar tal-prodott tal-bejjiegħ huwa konness. Il-bidla tal-prezz tal-elenkar hawn se taffettwa l-prodotti tal-bejjiegħ mingħajr varjanti jew dawk b'varjanti li m'għandhomx il-prezzijiet tagħhom stess (bl-użu tal-istess prezz bħall-prodott ewlieni). Dan il-prezz se jiġi ttrattat bħala l-prezz tas-suq, u l-prezz tal-bejjiegħ se jiġi stabbilit abbażi tal-mudell tal-prezzijiet jew il-marġni tal-profitt tas-suq preċedenti.",
         vendor_variant_pricing_link:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Il-bidla tal-prezz tal-varjant hawnhekk se taffettwa l-ipprezzar tal-prodotti tal-bejjiegħ bl-istess varjant. Dan il-prezz jitqies bħala l-prezz tas-suq, u l-prezz tal-bejjiegħ se jiġi stabbilit skont il-mudell tal-ipprezzar jew il-marġni tal-profitt tas-suq preċedenti.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Dan il-messaġġ jintwera lill-klijent meta jixtri l-prodotti.",
       inputs_form: "Struttura tal-informazzjoni (input)",
       inputs_hint:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Għandek l-għażla li twaqqaf formola personalizzata biex tiġbor id-dettalji mill-klijenti tiegħek meta jkunu lesti biex jagħmlu ordni.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1835,12 +1835,12 @@ export default {
       },
 
       order_limit: {
-        title: "oġġett oġġett",
+        title: "Limiti tal-ordni",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Jekk int bejjiegħ bl-ingrossa jew hemm limitu minimu jew massimu fuq il-kwantità ta 'dan l-oġġett għal kull ordni, tista' tispeċifika dan hawn.",
         no_limit: "L-ebda limitu",
-        minimum_purchase_quantity: "oġġettġġoġġett oġġett oġġettà",
-        maximum_purchase_quantity: "oġġettġġoġġett oġġett oġġettà",
+        minimum_purchase_quantity: "Kwantità minima tax-xiri",
+        maximum_purchase_quantity: "Kwantità massima tax-xiri",
       },
     },
 
@@ -1852,34 +1852,34 @@ export default {
     delete_product: {
       title: "Neħħi l-prodott",
       message: `Trid tħassar <b>{product_title}</b> ?`,
-      tips: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett > oġġett, oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      tips: "Jekk aċċidentalment tħassar prodott, tista' tirkuprah billi tivvjaġġa għall-Ħanut > Prodotti tiegħek, billi tippermetti Uri Oġġetti Mħassra, u mbagħad tikklikkja bil-lemin fuq il-prodott, u tagħżel Restore.",
     },
   },
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett {min}",
+    title: "Ipprezzar Extra għal aktar minn {min}",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Is-sistema tiddetermina awtomatikament l-ordni u l-prijorità għall-kalkolu tal-prezz. Jekk jogħġbok daħħal il-kwantità minima meħtieġa biex dan l-ipprezzar jidħol fis-seħħ.",
     min_quantity: "Kwantità minima",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-inventarju għall-prodotti dropshipping huwa stabbilit minn bejjiegħa bl-ingrossa, u ma jistax jiġi modifikat hawn.",
       marketplace:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      default: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettħŻid oġġettġġoġġett",
+        "L-inventarju ġenerali tal-prodott fis-suq huwa determinat billi jingħaddu l-inventarji tal-bejjiegħa kollha. Ma tistax timmodifikaha hawn.",
+      default: "Speċifika l-għadd tal-inventarju tal-prodott hawn.",
     },
     menu: {
       add_bulk: {
-        title: "oġġettġġoġġett Żoġġett",
-        subtitle: "Żoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Bulk Żid",
+        subtitle: "Żid varjanti multipli f'azzjoni waħda.",
       },
       edit_property_set: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        subtitle: "oġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Ippersonalizza Sett tal-Proprjetà",
+        subtitle: "Ibdel l-ismijiet tal-varjanti, l-ikoni u l-ordnijiet.",
       },
     },
   },
@@ -1888,40 +1888,40 @@ export default {
    * @see USmartMenu
    */
   smart_menu: {
-    show_delete_items: "oġġett oġġettħoġġett oġġettġġoġġett",
+    show_delete_items: "Uri oġġetti mħassra",
   },
 
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
-    label: "Google oġġett oġġett oġġettċoġġett",
-    hint: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Google",
-    placeholder: "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett (oġġettġġoġġett)",
+    label: "Kodiċi tal-kategorija tal-prodott Google",
+    hint: "Jirrappreżenta l-kategorija tal-prodott tiegħek skont it-tassonomija tal-prodott ta' Google.",
+    placeholder: "Daħħal il-kategorija tal-prodott jew tas-servizz.. (Mhux obbligatorju)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "oġġettġġoġġett",
-      desc: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      desc: "Garanzija hija parti minn kuntratt fejn il-manifattur iwiegħed li jsewwi jew jissostitwixxi prodott f'perjodu speċifikat. Dan l-impenn jista’ jestendi anke għal konsumaturi li m’għandhomx kuntratt dirett mal-manifattur.",
     },
     RETURN_POLICY: {
-      title: "oġġett oġġettġġoġġett",
-      desc: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Politika ta' Ritorn",
+      desc: "Il-politiki tar-ritorn jiddeskrivu kif il-klijenti jistgħu jirritornaw jew jiskambjaw merkanzija mhux mixtieqa. Huma jispeċifikaw oġġetti eliġibbli, raġunijiet aċċettabbli għar-ritorni, u l-perjodu ta 'żmien biex isiru r-ritorni.",
     },
     GUIDE: {
       title: "oġġettġġoġġett",
-      desc: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      desc: "Gwida tista' tinkludi tabella tad-daqs għall-ilbies jew gwida tal-għażla għad-djamanti. Huwa importanti li l-gwidi jkunu versatili u applikabbli fuq diversi prodotti.",
     },
     SHIPPING: {
       title: "Tbaħħir",
-      desc: "oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett Online oġġett, oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      desc: "Politika tat-tbaħħir tagħti dettalji dwar l-aspetti ewlenin tat-tbaħħir għal ordnijiet onlajn, inklużi l-ispejjeż tat-tbaħħir, il-metodi, u l-ħinijiet tal-kunsinna stmati.",
     },
   },
   /** {@see BProductProfileLogistic} **/
   product_logistic_profile: {
     dialog: {
-      title: "oġġettġġoġġett oġġettġoġġett oġġett",
-      add_new_action: "Żoġġett Ġoġġett oġġett",
-      add_new_disable_msg: "oġġett oġġett",
+      title: "Agħżel il-profil loġistiku",
+      add_new_action: "Żid profil ġdid",
+      add_new_disable_msg: "Sid tas-suq",
     },
   },
 
@@ -1929,10 +1929,10 @@ export default {
    * @see BPageShopPagesPopups
    */
   b_shop_popups: {
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Ġestjoni tal-popups",
     subtitle:
-      "oġġettħoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    add_action: "Żoġġett Ġoġġett oġġettġġoġġett",
+      "Oħloq twieqi pop-up personalizzati, intelliġenti u interattivi.",
+    add_action: "Żid Popup Ġdid",
   },
 
   /** {@see BProductProfileTax} **/
@@ -1941,26 +1941,26 @@ export default {
       default: "oġġettġġoġġett",
       dedicated: "oġġettġġoġġett",
 
-      subscription: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-      is_disabled: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettżoġġett! (⚠️oġġettġġoġġett)",
+      subscription: "Nistgħu napplikaw taxxa biss fuq il-pass tal-ħolqien tal-ħlas.",
+      is_disabled: "Dan il-profil tat-taxxa huwa diżattivat! (⚠️Twissija)",
       shipping: "Tbaħħir",
       fixed_rate: "Taxxa",
-      location_based_rate: "oġġett: oġġett oġġettġġoġġett",
-      shipping_location_based_rate: "oġġettħħoġġett: oġġett oġġettġġoġġett",
+      location_based_rate: "Taxxa: Ibbażat fuq il-post",
+      shipping_location_based_rate: "Tbaħħir: ibbażat fuq il-post",
       include_in_price: "Inkluż fil-prezz",
     },
     dialog: {
-      header: "oġġettġġoġġett oġġett oġġett",
+      header: "Agħżel il-profil tat-taxxa",
 
-      title: "oġġett oġġett",
+      title: "Profil tat-taxxa",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tassenja regolamenti tat-taxxa partikolari lill-prodott. Jekk ma jintgħażelx profil tat-taxxa għall-prodott, imbagħad jiġu applikati r-regolamenti awtomatiċi tat-taxxa tal-maħżen.",
 
-      action_manage: "oġġettġġoġġett oġġett",
-      action_manage_sub: "Ħoġġett > oġġett > oġġett",
+      action_manage: "Immaniġġja t-taxxa",
+      action_manage_sub: "Shop > Finanzi > Taxxa",
 
       subscription_tips:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett<code>oġġett oġġettċoġġett</code> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <code>oġġettġġoġġett</code> oġġettġġoġġett <code>oġġettġġoġġett</code>. oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett<br /><br /><b>oġġettġġoġġett!</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett > oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Meta tagħżel profil tat-taxxa għal prodott ta' abbonament, aħna naġġornaw<code>kodiċi tat-taxxa</code> u nissettjaw il-mod inklużiv/esklusiv fuq il-fornitur tas-servizz tal-ħlas tiegħek. Il-profil tat-taxxa magħżul jispeċifika jekk il-prezz jitqiesx li jinkludi t-taxxi jew eskluż it-taxxi. Waħda minn <code>inklussiva</code> jew <code>esklussiva</code>. Ladarba speċifikat bħala jew inklużiv jew esklussiv, ma jistax jinbidel.<br /><br /><b>Importanti!</b> Wara li tbiddel il-profil tat-taxxa, għandek tikklikkja fuq pjanijiet ta 'prezzijiet fuq it-tab Prodott > Inventarju u ikklikkja l-buttuna Save biex tapplika l-bidliet.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-prezz u l-kwantità ta 'dan il-prodott huma stabbiliti minn bejjiegħ partikolari li jappartjeni għalih.",
     },
     vendors: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hawnhekk hawn lista ta 'fornituri għall-prodott. Il-kwantità u l-prezz se jiġu stabbiliti mill-fornituri.",
     },
   },
   /**
@@ -1982,158 +1982,158 @@ export default {
    */
   vendor_add: {
     menu: {
-      profile: "oġġett & oġġettġġoġġett",
-      business: "oġġettġġoġġett & Ħoġġett",
+      profile: "Profil & Info",
+      business: "Negozju u Ħlas",
       documents: "oġġettġġoġġett",
-      page: "oġġettġoġġett oġġett",
+      page: "Mudell tal-Paġna",
       shipping: "Tbaħħir",
       access: "Aċċess",
-      critical_zone: "oġġettġġoġġett oġġettġġoġġett",
+      critical_zone: "Żona Kritika",
     },
 
     profile: {
-      title: "oġġettħ oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
-      action_sub_caption: "oġġett oġġett oġġett oġġettġġoġġett",
-      action_see_listing_page: "oġġettġġoġġett oġġett oġġettġoġġett",
-      send_invitation_email: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
-      invitation_link: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Informazzjoni tal-bejjiegħ",
+      subtitle: "Din l-informazzjoni tintwera lill-klijenti pubblikament.",
+      action_sub_caption: "Il-paġna tal-lista tal-prodotti pubbliċi.",
+      action_see_listing_page: "Ara l-Paġna tal-Elenkar",
+      send_invitation_email: "Ibgħat Email ta' Stedina",
+      invitation_link: "Link tal-istedina",
     },
 
     profiles: {
       title: "Profili",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Tista' tassenja post lil dan il-bejjiegħ.",
     },
     map: {
       no_map_message:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Assenja post lill-bejjiegħ jekk huwa bejjiegħ ibbażat fuq il-post.",
     },
     page: {
-      title: "oġġett oġġettġoġġett",
+      title: "Paġna tad-dwana",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettżoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      action_set_page: "oġġettġġoġġett oġġett oġġettġoġġett",
-      action_sub_caption: "oġġett oġġettżoġġett oġġettġġoġġett",
-      vendor_has_landing_msg: "oġġettħ oġġettġġoġġett oġġettġġoġġett oġġett oġġettżoġġett oġġettġġoġġett",
-      no_landing_selected_msg: "oġġett oġġettżoġġett oġġettġoġġett oġġettġġoġġett",
-      no_landing_page: "oġġett oġġettżoġġett oġġettġoġġett",
+        "Issettja paġna ta' inżul apposta għall-bejjiegħ, billi tipprovdilhom link unika għall-paġna ddedikata tagħhom.",
+      action_set_page: "Ara l-Pagna Pubblika",
+      action_sub_caption: "Paġna tad-destinazzjoni personalizzata.",
+      vendor_has_landing_msg: "Il-bejjiegħ għandu paġna ta' inżul apposta.",
+      no_landing_selected_msg: "Ebda landing page magħżula.",
+      no_landing_page: "L-ebda landing page",
       we_can_create_dedicated_landing_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Nistgħu noħolqu landing page apposta għalik.",
     },
     contact: {
-      title: "oġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Informazzjoni ta' kuntatt",
+      subtitle: "Jekk jogħġbok ipprovdi dettalji ta' kuntatt validi.",
     },
     business: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Informazzjoni tan-negozju",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SWIFT",
+        "Jekk jogħġbok ipprovdi informazzjoni preċiża dwar in-negozju tiegħek biex tiżgura proċess ta' ġbir ta' dħul rapidu u bla xkiel.",
     },
     bank: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Informazzjoni dwar il-Ħlas",
+      subtitle: "Daħħal id-dettalji bankarji tiegħek hawn għall-ħlasijiet.",
     },
     default_pricing: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Ipprezzar Default",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ Żoġġett oġġettġġoġġett Ġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      no_pricing: "oġġett oġġett",
+        "Tista' tassenja mudell ta' pprezzar default għall-bejjiegħ. Meta l-bejjiegħ iżid prodott ġdid, dan il-mudell tal-ipprezzar se jintuża biex jikkalkula l-marġni tas-suq fuq il-prezz tal-prodott. Aktar tard tista 'taġġusta l-mudell tal-prezzijiet għal kull prodott individwalment.",
+      no_pricing: "Ebda prezzijiet",
     },
     shipping: {
       title: "Tbaħħir",
-      subtitle: "oġġettħoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      shipping_services: "oġġettħħoġġett oġġett",
+      subtitle: "Il-bejjiegħa jistgħu jistabbilixxu s-servizzi tat-tbaħħir u l-kurrieri tagħhom stess.",
+      shipping_services: "Servizzi ta' Tbaħħir",
       total_number_of_services:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
+        "In-numru totali ta 'servizzi tat-tbaħħir li għandu l-bejjiegħ.",
       couriers: "Kurrieri",
-      total_couriers_count: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
+      total_couriers_count: "In-numru totali ta' kurrieri li għandu l-bejjiegħ.",
     },
     configuration: {
       title: "oġġettġġoġġett",
     },
     delete: {
-      title: "oġġettħħoġġett oġġettħ",
-      action: "oġġettħħoġġett oġġettħ",
+      title: "Neħħi l-bejjiegħ",
+      action: "Neħħi l-bejjiegħ",
       verify_description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-      verify_title: "oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Naf li r-relazzjonijiet kollha tal-prodott tal-bejjiegħ se jitneħħew!",
+      verify_title: "Irrid inħassar dan il-bejjiegħ.",
     },
 
     send_invitation_tips:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Aħna nibagħtu email ta' stedina lil dan l-utent. Jekk l-utent jingħaqad mal-ħanut tiegħek bħala bejjiegħ, il-kont tiegħu jiġi assenjat lilhom awtomatikament.",
     only_marketplace_owner_can_edit_user:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-    vendor_is_disable_msg: "oġġettħ oġġettġġoġġett oġġettġġoġġett",
+      "Is-sid tas-suq biss jista' jeditja l-utent. Jekk trid tibdel is-sid ta 'dan il-bejjiegħ, tista' tibgħat it-talba lilna.",
+    vendor_is_disable_msg: "Il-bejjiegħ huwa diżattivat.",
     email_not_match_with_user_msg:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett (<b>{user_name}:</b>{user_email}). oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġett<b>{email}</b>?",
+      "L-email imdaħħla ma taqbilx mal-email tal-utent (<b>{user_name}:</b>{user_email}). Żgur li tibgħat emails lil<b>{email}</b>?",
 
     order_information_email_to_email:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġett <b>{email}</b>.",
+      "Aħna nibagħtu informazzjoni dwar l-ordnijiet lil <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
+    set_a_user_for_the_vendor_first_msg: "Issettja utent għall-bejjiegħ l-ewwel.",
 
     inputs: {
       slug: {
         label: "oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        hint: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett",
+        placeholder: "Daħħal mogħdija apposta...",
+        hint: "Ibdel il-mogħdija tal-paġna tad-destinazzjoni dinamika tal-bejjiegħ.",
       },
       email: {
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        message: "Din l-email se tirċievi n-notifiki u l-aġġornamenti kollha.",
       },
       business: {
-        false_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        true_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        false_description: "Naħdem bħala individwu.",
+        true_description: "Jien nopera bħala entità kummerċjali rikonoxxuta legalment.",
         false_title: "oġġettġġoġġett",
         true_title: "oġġettġġoġġett",
       },
       bank: {
-        hint: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        hint: "L-isem tal-bank fejn il-bejjiegħ għandu l-kont tiegħu.",
+        placeholder: "Isem il-bank tiegħek..",
       },
       account_name: {
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett",
+        hint: "Dan għandu jaqbel mal-isem assoċjat mal-kont bankarju.",
+        placeholder: "ismek..",
       },
       account_number: {
-        hint: "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        hint: "In-numru tal-kont uniku tal-bejjiegħ.",
+        placeholder: "In-numru tal-kont bankarju tiegħek..",
       },
       routing_number: {
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett BSB oġġettġġoġġett",
+        hint: "Dan in-numru jvarja skont il-pajjiż. Huwa użat biex jidentifika l-fergħa bankarja speċifika li juża l-bejjiegħ.",
+        placeholder: "In-numru tar-rotta tal-bank tiegħek, il-kodiċi tas-sort jew in-numru tal-BSB..",
       },
       iban: {
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett): oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett IBAN oġġettġġoġġett oġġettġġoġġett oġġett 3704 0044 0000 0000 00",
+        hint: "Numru tal-Kont Bankarju Internazzjonali): Jekk il-bank tal-bejjiegħ jinsab fl-Ewropa jew f'ċerti pajjiżi oħra.",
+        placeholder: "In-numru tal-IBAN tiegħek.. eż. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett): oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett BIC SWIFT",
+        hint: "Numru tal-Kont Bankarju Internazzjonali): Jekk il-bank tal-bejjiegħ jinsab fl-Ewropa jew f'ċerti pajjiżi oħra.",
+        placeholder: "Il-kodiċi Swift tiegħek/BIC..",
       },
       branch_address: {
-        hint: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        hint: "L-indirizz tal-fergħa tal-bank fejn il-bejjiegħ għandu l-kont tiegħu.",
+        placeholder: "L-indirizz tal-bank tiegħek..",
       },
       enable: {
         label: "oġġettħ Status",
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettżoġġett oġġettġġoġġett",
+        hint: "Tista 'tippermetti jew tiddiżattiva l-bejjiegħa globalment. Il-klijenti mhux se jkunu jistgħu jixtru xejn mingħand bejjiegħa b'diżabilità.",
         true_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Huma jkunu jistgħu jbigħu l-prodotti tagħhom permezz tas-suq tiegħek.",
       },
       access: {
-        label: "oġġettħ oġġettġġoġġett & oġġettċċoġġett",
+        label: "Bord tal-bejjiegħ u aċċess",
         true_description:
-          "oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett",
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett",
-        false_description: "oġġettġġoġġett oġġettħ oġġettġġoġġett oġġett oġġettċċoġġett oġġett oġġettġġoġġett",
+          "Il-bejjiegħ għandu panel iddedikat biex jaġġorna l-kwantità u l-prezz.",
+        hint: "Tista 'tippermetti jew tiddiżattiva l-panel tal-bejjiegħ, li jippermetti lill-bejjiegħa jaġġornaw il-kwantitajiet u l-prezzijiet tal-prodotti u jirċievu ordnijiet parzjali.",
+        false_description: "Il-bejjiegħ m'għandu l-ebda aċċess għal xejn.",
       },
 
       logo: {
-        label: "oġġettħ oġġettġġoġġett",
+        label: "Logo tal-bejjiegħ",
       },
       description: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        placeholder: "Ikteb deskrizzjoni pubblika...",
       },
     },
   },
@@ -2143,17 +2143,17 @@ export default {
    */
   vendor_documents_list: {
     title: "oġġettġġoġġett",
-    action_upload_doc: "oġġett oġġettġġoġġett",
+    action_upload_doc: "Ittella' Dok",
     vendor_subtitle:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, IP, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Jekk jogħġbok ittella d-dokumenti meħtieġa ta' verifika tan-negozju, l-IP, u l-indirizz. Aħna neħtieġu din l-informazzjoni biex nikkonfermaw is-sħubija tiegħek u nipprovdulek l-aċċess meħtieġ.",
     marketplace_subtitle:
-      "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett KYC oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Il-bejjiegħa jistgħu jissottomettu dokumenti bħal negozju, proprjetà intellettwali, u verifika tal-indirizzi biex jiffaċilitaw il-proċess KYC tagħhom, li jippermettilek tagħtihom l-aċċess xieraq.",
     upload_dialog: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Ittella Dokument",
       type: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Tip ta' Dokument",
         subtitle:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Jekk jogħġbok ittella' biss id-dokumenti meħtieġa. Evita li taqsam kwalunkwe dokument li jkun fih informazzjoni sensittiva. Aħna nitolbu dokumenti li huma disponibbli pubblikament.",
       },
     },
   },
@@ -2163,45 +2163,45 @@ export default {
    */
   product_badges: {
     title: "oġġettġġoġġett",
-    subtitle: "Żoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
-    only_marketplace_owner_msg: "oġġettġġoġġett oġġett oġġettġġoġġett",
-    create_new_badge_action: "oġġettħoġġett Ġoġġett oġġettġġoġġett",
-    select_a_badge: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Żid u editja badges tal-prodotti tad-dwana.",
+    only_marketplace_owner_msg: "Is-sidien tas-suq biss",
+    create_new_badge_action: "Oħloq badge ġdida",
+    select_a_badge: "Agħżel badge...",
     inputs: {
       custom: {
-        false_description: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        false_description: "Il-badges tal-prodotti jinħolqu awtomatikament.",
         false_title: "oġġettġġoġġett",
-        true_title: "oġġett oġġett oġġettġġoġġett",
-        true_description: "Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        true_title: "Badges ta' prodotti apposta",
+        true_description: "Żid badges tad-dwana fil-paġna tal-prodott.",
       },
     },
     add_custom_badge: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Badge tad-dwana",
       subtitle:
-        "Żoġġett oġġettġġoġġett Ġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħŻid oġġettġġoġġett 10. oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      show_advanced_options: "oġġett oġġett oġġettġġoġġett",
+        "Żid badge personalizzat ġdid fil-ħanut tiegħi. Żomm badges jgħoddu taħt 10. Aktar badges inaqqsu l-ħanut tiegħek.",
+      show_advanced_options: "Uri għażla avvanzata",
 
       inputs: {
         title: {
-          placeholder: "oġġett oġġettġġoġġett",
+          placeholder: "Titolu pubbliku...",
         },
         image: {
           label: "Immaġni",
-          message: "oġġettġġoġġett oġġettġoġġett oġġettġġoġġett: 128oġġettġġoġġett",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett",
+          message: "Daqs massimu tal-immaġni: 128KB",
+          placeholder: "Agħżel immaġni tal-qoxra",
         },
         pattern: {
           label: "oġġettġġoġġett",
           message:
-            "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Regex oġġettġġoġġett",
-          placeholder: "oġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett: *.*",
+            "Uri awtomatikament din il-badge għal prodotti għandha dan il-valur imqabbel fl-ispeċifikazzjoni tagħhom. Regex appoġġjat.",
+          placeholder: "Biex turi għall-prodotti kollha ikteb: *.*",
         },
       },
       notifications: {
-        badge_added: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett!",
-        badge_updated: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+        badge_added: "Il-badge ġiet miżjuda b'suċċess!",
+        badge_updated: "Il-badge ġiet aġġornata b'suċċess!",
         item_not_found_error:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "L-oġġett ma setax jinstab. Jekk jogħġbok aġġorna l-paġna jew ikkuntattja l-appoġġ.",
       },
     },
   },
@@ -2211,17 +2211,17 @@ export default {
   product_tags: {
     title: "Tikketti",
     tips: [
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett <b>oġġettżoġġett oġġettġoġġett</b>.",
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett<b>oġġett</b> oġġettġġoġġett",
-      "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett oġġett</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett oġġett oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett; oġġettġġoġġett, oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista' tiffiltra prodotti bbażati fuq tikketti fuq <b>landing pages</b>.",
+      "Int u l-klijenti tiegħek tista' tfittex dawn it-tags fil-<b>search</b> bar.",
+      "Jekk tissettja tikketti, il-prodotti biss bil-<b>tikketti komuni</b> se jintwerew fit-taqsima <b>prodotti relatati</b> fuq il-paġna tal-prodott; inkella, se jintwerew prodotti fl-istess kategorija.",
     ],
     inputs: {
       tags: {
-        placeholder: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+        placeholder: "Tikketti tal-wajer hawn u agħfas jidħol. ex. kollezzjoni ġdida",
       },
     },
     notifications: {
-      tags_updated: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      tags_updated: "It-tikketti ġew aġġornati b'suċċess.",
     },
   },
 
@@ -2229,18 +2229,18 @@ export default {
    * @see VPageVendorShippingTransportation
    */
   vendor_shipping_services: {
-    title: "oġġettħħoġġett oġġett",
+    title: "Servizzi ta' Tbaħħir",
     subtitle:
-      "oġġettġġoġġett oġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett",
+      "Is-suq joffri metodi tat-tbaħħir biex jgħin lill-bejjiegħa jissodisfaw l-ordnijiet tagħhom. Tista' żżid is-servizzi tat-tbaħħir hawn biex tordna faċilment it-tikketti tat-tbaħħir mill-paġna tal-ordni tiegħek. Dan jissimplifika l-proċess billi jissinkronizza l-indirizzi u l-kodiċijiet tat-traċċar mal-fornitur tat-tbaħħir.",
 
     subtitle_pickup:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett (oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett).",
+      "Is-suq jippermetti pick-up għall-bejjiegħa, li jippermetti lix-xerrejja jagħżlu pickup mill-lokalità tiegħek bħala għażla tat-tbaħħir. Tista 'żżid il-post tal-ġbir tiegħek fil-profil tiegħek (il-maħżen tiegħek se jintuża bħala l-post tal-ġbir default).",
     action: "Żid is-servizz",
 
     add_dialog: {
       select_service_msg:
-        "oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      no_available_service: "oġġett oġġett oġġett!",
+        "Il-metodi tat-tbaħħir huma stabbiliti mis-suq, u l-klijenti jistgħu jagħżlu minnhom. Il-bejjiegħa m'għandhom l-ebda kontroll fuq dawn l-għażliet iżda jistgħu jintegraw il-panel tagħhom mas-servizzi tat-tbaħħir biex jixtru t-tikketti direttament. Jekk jogħġbok agħżel metodu mil-lista hawn taħt biex tara s-servizzi disponibbli. Agħżel servizz tat-tbaħħir mil-lista hawn taħt. Is-servizzi disponibbli biss li jistgħu jiżdiedu mal-maħżen tiegħek jintwerew hawn.",
+      no_available_service: "Ebda servizz disponibbli!",
     },
   },
   /**
@@ -2254,39 +2254,39 @@ export default {
   product_location_profile: {
     title: "Post",
     empty_subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Assenja post lill-prodott jekk huwa oġġett ibbażat fuq il-post.",
     dialog: {
-      header: "oġġettġġoġġett oġġett oġġett",
+      header: "Agħżel il-profil tal-post",
       action_new_location: "Żid post ġdid",
-      title: "oġġett oġġett",
+      title: "Profil tal-post",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      tips: "<b>oġġettġġoġġett: </b> oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett <b>oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettħoġġett <b>oġġettġġoġġett oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett<b>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</b>.",
+        "Tista' tippinja l-prodotti fuq il-post tal-mappa billi tassenja tikketti tal-post lill-prodotti.",
+      tips: "<b>Importanti: </b> Assenja post lill-prodott <b>biss</b> jekk trid turi l-prodott fuq il-post speċifiku fuq il-mappa. Il-prodott pined għandu jkollu l-post bħala l-ispeċifikazzjoni prinċipali tiegħu, bħal <b>djar/postijiet tal-kiri</b> jew servizzi personalment bħal<b>Hairdressing u Spa</b>.",
     },
   },
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "oġġettġġoġġett oġġettġġoġġett",
-    auto_action: "oġġettġġoġġett oġġettġġoġġett",
-    premium_user_only: "oġġettġġoġġett oġġett",
+    header: "Multi Lingwa",
+    auto_action: "Auto Translate",
+    premium_user_only: "Utenti Premium",
   },
 
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Inkludi lista ta’ oġġetti li jiġu mal-pakkett tal-prodott jew tas-servizz.",
     dialog: {
-      header: "oġġett oġġettġġoġġett oġġettġġoġġett",
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      action_manage: "oġġettġġoġġett oġġettġġoġġett",
-      action_disable_msg: "oġġett oġġett",
+      header: "Oġġetti tal-Pakkett tal-Prodott",
+      title: "Oġġetti inklużi",
+      subtitle: "Din hija kumpilazzjoni ta 'oġġetti li jiġu mal-prodott.",
+      action_manage: "Immaniġġja oġġetti",
+      action_disable_msg: "Sid tas-suq",
       select_items_tips:
-        "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq jew agħżel komponenti tal-pakkett li jiġu mal-prodott jew is-servizz. Uża din il-karatteristika biex tenfasizza dak li l-klijenti jistgħu jantiċipaw li jirċievu meta jixtru l-oġġett. Aħna nagħtu parir li tuża din il-funzjoni biss meta jkun kruċjali li l-klijent jifhem il-kontenut inkluż, bħal meta jixtri smartphone.",
       create_item_tips:
-        "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett 256oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      create_new_item_action: "oġġettħoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inkella, tista' tinkludi oġġett ġdid. Uża immaġini kwadri, peress li awtomatikament se nbiddlu d-daqs tal-istampi mtellgħin f'format kwadru 256x256. Biex tiżgura l-aħjar dehra fil-mudelli kollha, uża stampi minimalisti bi sfondi trasparenti u żomm mudell konsistenti għall-prodotti kollha tiegħek.",
+      create_new_item_action: "Oħloq oġġett ġdid inkluż",
     },
   },
 
@@ -2319,17 +2319,17 @@ export default {
         user_data_form: "Formola ta' Informazzjoni tax-Xerrej",
         staff_messages: "oġġett oġġettġġ",
         add_note: "Żoġġett oġġett",
-        product_tags: "oġġett oġġett",
-        edit_tags: "oġġett oġġett",
+        product_tags: "Tikketti tal-prodott",
+        edit_tags: "Edit tags",
       },
       /** {@see BProductOrdersAbstractView} **/
       orders: {
         title: "Ordnijiet",
         title_small: "Mhux ipproċessat",
         physical_orders_title: "Karretti tax-Xiri B'Dan il-Prodott",
-        send_count_in_period: "oġġettħoġġett oġġett oġġettġġoġġett {start} ~ {end}",
+        send_count_in_period: "Ordnijiet mibgħuta bejn {start} ~ {end}",
         downloads_count_in_period:
-          "oġġett oġġettżżoġġett oġġettħŻid oġġettġġoġġett {start} ~ {end}",
+          "Għadd ta' fajls imniżżla bejn {start} ~ {end}",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2338,7 +2338,7 @@ export default {
         title_small: "Maħżen",
         total_sell: "Bejgħ Totali",
         total_sell_today: "Illum il-bejgħ",
-        total_sell_timespan: "oġġettġġoġġett oġġettħ oġġettġġoġġett {start} ~ {end}",
+        total_sell_timespan: "Bejgħ totali bejn {start} ~ {end}",
         chart: {
           labels: ["Inventarju", "Bejgħ"],
         },
@@ -2349,7 +2349,7 @@ export default {
       /** {@see BProductFinanceCharts} **/
       finance: {
         title: "Finanzjarju",
-        title_small: "oġġett oġġett oġġettġġoġġett {start} ~ {end}.",
+        title_small: "Rapport tax-Xiri bejn {start} ~ {end}.",
         select_mode_title: "Uri Permezz",
         modes: {
           sell: "Bejgħ",
@@ -2370,7 +2370,7 @@ export default {
         title: "Klassifikazzjoni tal-Prodott",
         title_small: "Rapport tas-Sodisfazzjon tal-Klijent",
         total_participation: "Numru totali ta' kontribuzzjonijiet",
-        total_participation_tooltip: "oġġettġġoġġett oġġettħŻid oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        total_participation_tooltip: "Għadd totali ta 'raters għall-prodott.",
         today_participation: "Klassifikazzjonijiet tal-lum",
         last7days_participation: "Kontribuzzjonijiet tal-aħħar 7 ijiem",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "In-numru ta' kontribuzzjonijiet",
           score: "oġġettġġoġġett",
         },
-        users_not_rated_msg: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        users_not_rated_msg: "L-utenti għadhom ma kklassifikawx dan il-prodott.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2441,53 +2441,53 @@ export default {
           "Wara li ssalva dan il-varjant tkun tista' żżid immaġini hawn.",
 
         config: {
-          title: "oġġett oġġettġġoġġett oġġettħżoġġett",
-          subtitle: "oġġettġġoġġett SKU, MPN, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          title: "Setup tal-Varjant tal-Prodott",
+          subtitle: "Immaniġġja SKU, MPN, u d-disponibbiltà għall-varjanti.",
         },
         variables: {
-          title: "oġġettġġoġġett oġġettġġoġġett",
+          title: "Għażliet Varjanti",
           subtitle:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett, oġġettġġoġġett, <b>#654FFF</b>, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, <b>#764FFA/#000000</b>.",
+            "Daħħal kodiċi tal-kulur hex, eż., <b>#654FFF</b>, jew żewġ kuluri separati b'linja mmejla, eż., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett <b>oġġettġġoġġett oġġettġġoġġett</b>. oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-          graphical_asset_action: "oġġettġġoġġett oġġettġġoġġett",
-          graphical_asset_action_caption: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Tista' tassenja kwalunkwe valur lill-varjabbli, inklużi immaġini billi tuża <b>Assi Grafiċi</b>. Ittella mudell u uża l-kodiċi ġġenerat għall-varjant.",
+          graphical_asset_action: "Assi Grafiċi",
+          graphical_asset_action_caption: "Stampi għall-għażliet tal-varjanti.",
         },
         smart_unit_price: {
-          tips: "oġġettġġoġġett Unitàà oġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettż</b>, <b>oġġett</b>, oġġettġġoġġett <b>oġġettġġoġġett oġġettġġoġġett</b>. oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett Ħoġġett > oġġett > oġġett > oġġett oġġettġoġġett > oġġettġġoġġett Unitàà oġġettġġoġġett",
-          smart_unit_price: "Unitàà oġġett oġġettġġoġġett",
+          tips: "Ikkalkula l-prezz unitarju bbażat fuq <b>piż</b>, <b>volum</b>, u <b>daqs tal-pakkett</b>. Biex tiddiżattiva din il-karatteristika, innaviga għal Shop > Settings > Tema > Paġna tal-Prodott > Smart Unit Price.",
+          smart_unit_price: "Kalkolu tal-Prezz Unit",
         },
         quantity: {
           title: "Inventarju",
-          subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          subtitle: "Issettja l-livelli tal-istokk għal kull varjant.",
         },
         price: {
           title: "Ipprezzar",
           subtitle:
-            "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+            "Issettja prezz tad-dwana għall-varjant jew uża l-prezz tal-prodott default.",
         },
         package: {
-          title: "oġġettġġoġġett & oġġettħħoġġett",
+          title: "Ippakkjar & Shipping",
           subtitle:
-            "oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett",
-          same_as_product_action: "oġġettġġoġġett oġġettġġoġġett oġġett",
+            "Speċifika l-piż u d-dimensjonijiet għall-varjanti biex tiddetermina l-għażliet tat-tbaħħir.",
+          same_as_product_action: "L-istess bħall-prodott",
         },
         image: {
-          title: "oġġettġġoġġett oġġett",
+          title: "Stampi Varjanti",
           subtitle:
-            "Żoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Żid immaġini uniċi għal kull varjant. L-ewwel immaġini mtellgħa se tkun l-immaġni primarja għal dak il-varjant.",
         },
         inputs: {
           sku: {
-            message: "oġġettġġoġġett oġġettġġoġġett Unitàà (SKU)",
+            message: "Unità taż-Żamma tal-Ħażna (SKU)",
           },
           mpn: {
-            message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (MPN)",
+            message: "Numru tal-Parti tal-Manifattur (MPN)",
           },
           gtin: {
-            label: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (GTIN)",
+            label: "Numru tal-Oġġett tal-Kummerċ Globali (GTIN)",
             message:
-              "oġġettġġoġġett oġġettġġoġġett: UPC (12 oġġettġġoġġett), EAN (13 oġġettġġoġġett), JAN (8 oġġettġġoġġett 13 oġġettġġoġġett), ISBN (13 oġġettġġoġġett).",
+              "Formati appoġġjati: UPC (12-il ċifra), EAN (13-il ċifra), JAN (8 jew 13-il ċifra), ISBN (13-il ċifra).",
           },
         },
       },
@@ -2507,18 +2507,18 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "oġġettħħoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Is-servizzi tat-tbaħħir disponibbli jiddependu fuq id-daqs u l-piż ipprovduti.",
   },
 
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "Piż tal-pakkett",
     weight_subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett",
+      "Daħħal il-piż totali tal-ippakkjar tal-prodott hawn. Din l-informazzjoni tgħin biex tagħżel il-metodu tat-tbaħħir it-tajjeb u tiżgura li l-ordni ma taqbiżx il-limitu tat-tbaħħir.",
     weight_unit: "oġġettġġoġġett",
     size: "Dimensjonijiet tal-Pakkett",
     size_subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Daħħal id-daqs sħiħ tal-ippakkjar tal-prodott hawn. Din l-informazzjoni tintuża biex tagħżel il-metodu tat-tbaħħir korrett u tiżgura li l-ordni ma taqbiżx il-limitu tad-daqs tal-pakkett.",
 
     width: "Wisa'",
     length: "Tul",
@@ -2526,25 +2526,25 @@ export default {
     lead_time_title: "Ħin ta’ preparazzjoni",
     lead_time: "Ħin ta’ preparazzjoni",
     lead_time_subtitle:
-      "oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett żoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Il-ħin taċ-ċomb jistma t-tul meħtieġ biex jitħejja prodott għat-tbaħħir, li jgħin fl-istima tal-ħin tal-kunsinna.",
 
     lead_time_dimension: "Sigħat",
     bulk_action: "Azzjonijiet bl-ingrossa",
     bulk_action_subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
+      "Tista' tapplika l-informazzjoni tal-imballaġġ għall-varjanti kollha tal-prodott.",
 
     bulk_action_input: "Aġġorna l-varjanti kollha",
     bulk_action_msg:
       "Issettja l-ippakkjar tal-prodott u l-ħin tal-preparazzjoni għall-varjanti kollha.",
-    dynamic_lead_time: "oġġettġġoġġett oġġettġġoġġett Ħoġġett",
-    instant_delivery: "oġġettġġoġġett oġġett",
+    dynamic_lead_time: "Żmien dinamiku taċ-ċomb",
+    instant_delivery: "Kunsinna Instant",
   },
 
   /**
    * @see SGalleryUploadGrid
    */
   gallery_upload_grid: {
-    upload_images: "oġġett oġġett",
+    upload_images: "Ittella Stampi",
   },
 
   /**
@@ -2552,29 +2552,29 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett",
-      placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      success_update_notification: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Issettja l-Immaġni Alt Test",
+      placeholder: "Daħħal test alternattiv deskrittiv...",
+      success_update_notification: "Test alternattiv aġġornat b'suċċess.",
     },
     dialog_bg_remove: {
-      title: "oġġettħħoġġett oġġett oġġettġġoġġett",
+      title: "Neħħi Sfond Awtomatikament",
       action: {
-        title: "oġġettħħoġġett oġġett",
-        subtitle: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Neħħi Sfond",
+        subtitle: "Oħloq sfond trasparenti.",
       },
-      success_remove_bg_notification: "oġġett oġġettġġoġġett oġġettġġoġġett!",
+      success_remove_bg_notification: "Sfond imneħħi b'suċċess!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    title: "Assi Grafiċi Varjanti",
     tips: {
       how_it_works:
-        "<b>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett:</b><br />oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett <b>{filename}</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett <b><s>oġġett</s></b> oġġettġġoġġett",
+        "<b>Kif Taħdem:</b><br />Tella' stampi tal-mudell jew tal-oġġett hawn. Biex tuża dawn l-immaġini bħala għażla varjant, inkludi <b>{filename}</b> fil-valur tal-varjant. Innota li dan il-kodiċi ma jistax jintuża fil-valur <b><s>color</s></b>.",
       how_set_name:
-        "<b>oġġettġġoġġett oġġettġġoġġett:</b><br />oġġettġġoġġett oġġettġġoġġett 12 oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 100, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "<b>Għajnuniet dwar l-Ismijiet:</b><br />L-ewwel 12-il karattru tal-isem tal-fajl imtella' se jintużaw bħala l-isem tal-assi. Din il-karatteristika hija ideali biex jintwerew aspetti personalizzabbli ta 'prodott, bħal daqsijiet ta' tajers għal muturi jew mudelli tad-drapp. Biex tottimizza l-użu ta' din il-karatteristika, evita li ttella' immaġini varjanti hawn sakemm in-numru ta' assi grafiċi ma jkunx inqas minn 100, bħal tipi ta' injam differenti għall-għamara.",
     },
   },
 
@@ -2582,38 +2582,38 @@ export default {
    * @see ExtraPricingLevels
    */
   extra_pricing_levels: {
-    extra_pricings: "oġġettġġoġġett oġġett",
-    min_quantity: "oġġettġġoġġett oġġettà",
-    range_is_out_of_stock: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+    extra_pricings: "prezzijiet żejda",
+    min_quantity: "Kwantità minima",
+    range_is_out_of_stock: "Il-firxa hija out of stock!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-    set_color_warning: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    set_volume_warning: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    set_pack_warning: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    set_weight_warning: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    set_type_warning: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    set_style_warning: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    out_of_stock: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    duplicated_variant: "Dan il-varjant diġà jeżisti!",
+    set_color_warning: "Jekk jogħġbok agħżel kulur.",
+    set_volume_warning: "Jekk jogħġbok speċifika l-volum.",
+    set_pack_warning: "Jekk jogħġbok speċifika d-daqs tal-pakkett.",
+    set_weight_warning: "Jekk jogħġbok speċifika l-piż.",
+    set_type_warning: "Jekk jogħġbok agħżel tip.",
+    set_style_warning: "Jekk jogħġbok agħżel stil.",
+    out_of_stock: "Bħalissa out of stock",
 
     image: {
-      tooltip: "⚡ oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      tooltip: "⚡ Iddreggja u qiegħed immaġni hawn biex tassenjaha lill-varjant.",
     },
     enable: {
-      true_tooltip: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Online oġġettġġoġġett",
-      false_tooltip: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Online oġġettġġoġġett",
+      true_tooltip: "Dan l-oġġett huwa disponibbli fil-ħanut online.",
+      false_tooltip: "Dan l-oġġett mhuwiex disponibbli fil-ħanut online.",
     },
     restore_dialog: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett?",
-      action: "oġġett, oġġettġġoġġett oġġettġġoġġett",
+      title: "Irrestawra Varjant",
+      message: "Int żgur li trid tirrestawra dan il-varjant imħassra?",
+      action: "Iva, Irrestawra Issa",
     },
     notifications: {
-      restore_variant_success: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      restore_variant_success: "Il-varjant tal-prodott ġie rrestawrat b'suċċess.",
     },
   },
 
@@ -2672,9 +2672,9 @@ export default {
 
   /** {@see BPageShopLogisticInventoryList} **/
   inventory_list: {
-    title: "oġġettħżoġġett oġġett",
-    subtitle: "oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-    cant_set_here: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    title: "Inventarju tal-Aħżen",
+    subtitle: "Lista tal-prodotti kollha fil-maħżen.",
+    cant_set_here: "Ma tistax tissettja hawn",
 
     search_input: "Fittex tal-Prodott...",
     search_input_title: "Fittex fost il-prodotti tal-maħżen",
@@ -2715,62 +2715,62 @@ export default {
    * @see BInventoryBulkPrice
    */
   bulk_price_dialog: {
-    title: "oġġettġġoġġett oġġett > oġġett",
+    title: "Azzjonijiet bl-ingrossa > Prezz",
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    check: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "L-ammont li ġej se japplika bħala persentaġġ għall-prezz tal-prodotti kollha fil-maħżen tiegħek. Ukoll, il-valuri tal-prezz ikkalkulati se jiġu kkonvertiti b'mod intelliġenti għall-eqreb numru tond ibbażat fuq il-munita magħżula. Oqgħod attent meta ddaħħal il-valuri.",
+    check: "Napprova bidliet fil-prezz.",
     check_description:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Il-prezz se jinbidel għall-kategorija magħżula u s-subkategoriji kollha.",
     add_percent_tab: "Żoġġett oġġett",
-    add_constant_tab: "Żoġġett oġġettġġoġġett",
-    ending_tab: "oġġettġġoġġett oġġettġġoġġett",
-    marketplace_listing_price: "oġġett oġġett",
+    add_constant_tab: "Żid il-Kostanti",
+    ending_tab: "Strateġija tat-tmiem",
+    marketplace_listing_price: "Prezz tal-Elenkar",
 
     constant: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-ammont se jiżdied jew jitnaqqas mill-prezz kurrenti tal-prodotti.",
     },
     ending: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "It-tmiem tal-prezz kurrenti tal-prodotti se jinbidel għall-valur speċifikat.",
     },
     marketplace: {
-      title: "oġġett oġġett oġġett",
+      title: "Prezz tal-Elenku tas-Suq",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
+        "Din l-għażla tippermettilek li taġġorna awtomatikament il-prezz tal-elenkar tal-prodotti fis-suq. Kultant, il-prezz tal-prodott ewlieni jista 'ma jallinjax mal-prezzijiet tal-bejjiegħ minħabba bidliet manwali fil-prezz.",
       strategy: {
         min: {
-          title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+          title: "Issettja l-Prezz Minimu",
           description:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+            "Issettja l-prezz minimu tal-prodott bħala l-prezz tal-elenkar.",
         },
         max: {
-          title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+          title: "Issettja l-Prezz Massimu",
           description:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+            "Issettja l-prezz massimu tal-prodott bħala l-prezz tal-elenkar.",
         },
       },
     },
 
     category: {
-      subtitle: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      subtitle: "Illimita l-azzjoni bl-ingrossa għal kategorija u s-subkategoriji kollha.",
     },
     vendor: {
       subtitle:
-        "oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Illimita l-azzjonijiet bl-ingrossa għal bejjiegħ speċifiku. Meta jintgħażel bejjiegħ, l-aġġornament tal-prezz jiġi applikat għall-prodotti tal-bejjiegħ, li jirrappreżenta l-prezz tal-bejgħ għal dak il-bejjiegħ.",
       listing_price_need_update_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett (oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett), oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Jekk trid taġġorna l-prezz tal-elenkar (il-prezz muri fil-lista tal-prodotti), għandek terġa 'tibgħat l-aġġornament bl-ingrossa bl-istess filtri iżda mingħajr ma tagħżel bejjiegħ.",
     },
-    listing_products_changes: "oġġett oġġett oġġett",
-    total_vendor_products: "oġġettġġoġġett oġġettħ oġġett",
-    total_products: "oġġettġġoġġett oġġett",
-    total_variants: "oġġettġġoġġett oġġett",
+    listing_products_changes: "Elenkar tal-prodotti jinbidlu",
+    total_vendor_products: "Prodotti totali tal-bejjiegħ",
+    total_products: "Prodotti totali",
+    total_variants: "Varjanti totali",
   },
 
   /** {@see BProductSpecTable} **/
   spec_view: {
-    auto_save_input: "oġġettġġoġġett Ħoġġett",
-    auto_save_input_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    auto_save_input: "Auto save",
+    auto_save_input_message: "Il-bidliet se jiġu ssejvjati awtomatikament.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2795,60 +2795,60 @@ export default {
 
   /** {@see BPageShopFinanceGateways} **/
   b_page_shop_finance_gateway: {
-    title: "Ħoġġett oġġettġġoġġett",
+    title: "Metodi ta' Ħlas",
     sub_title:
-      "oġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Żoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 10 Żoġġett Ħoġġett oġġettġġoġġett",
-    add_gateway: "Ġoġġett Ħoġġett oġġettġġoġġett",
+      "Lista ta' metodi ta' ħlas attivi. Jekk trid iżżid metodu ġdid fil-ħanut tiegħek, agħfas il-buttuna li ġejja. Aħna rrakkomandajna ħafna li ma taqbiżx 10 gateways ta' ħlas miżjuda.",
+    add_gateway: "Metodu ġdid ta 'ħlas",
 
     add_gateway_dialog: {
-      title: "oġġettġġoġġett oġġett",
-      country_currencies: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Agħżel Munita",
+      country_currencies: "Muniti lokali",
       crypto_currencies: "oġġettġġoġġett",
 
       confirm: "Żid metodu ta 'ħlas",
 
       online_methods: "Online oġġettġġoġġett",
       cod_methods: "Flus Fuq Kunsinna",
-      bank_transfer: "oġġettġġoġġett oġġett",
-      cash_methods: "oġġettġġoġġett Ħoġġett (POS)",
+      bank_transfer: "Trasferiment Bankarju",
+      cash_methods: "Ħlas fi flus (POS)",
 
       currency_step: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+        title: "Agħżel munita",
         subtitle:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġett oġġettġġoġġett oġġettġġoġġett—oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 3. oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ipprova żomm in-numru ta 'muniti fil-maħżen tiegħek għall-minimu—idealment inqas minn 3. Ħafna mill-gateways tal-ħlas jistgħu jipproċessaw transazzjonijiet fi kważi kull munita.",
         add_first_currency: {
-          subtitle: "oġġettġġoġġett Żoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+          subtitle: "Jekk jogħġbok żid munita fil-ħanut tiegħek qabel tipproċedi.",
           title: "Żid Munita",
         },
       },
       gateway_step: {
-        title: "oġġett Ħoġġett oġġettġġoġġett",
+        title: "Metodi ta' ħlas attivi",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+          "Jekk jogħġbok agħżel mill-metodi ta' ħlas disponibbli. Ladarba tagħżel gateway, tkun tista' ddaħħal id-dettalji tal-konnessjoni meħtieġa biex tgħaqqad il-ħanut tiegħek direttament mal-metodu ta' ħlas preferut tiegħek.",
       },
 
       config_step: {
-        import_config: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-        import_from: "oġġett oġġett",
+        import_config: "Tista 'timporta konfigurazzjoni minn gateways simili oħra",
+        import_from: "Importazzjoni minn",
       },
 
       request_add_new_gateway: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett?",
+        title: "Ma tarax il-metodu ta' ħlas preferut tiegħek?",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett (oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett) oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 48 oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Jekk il-fornitur tal-ħlas lokali tiegħek mhux elenkat, abbona għal kwalunkwe pjan annwali (inkluż l-Istartjar għall-affordabbiltà) u itlob integrazzjoni. Aħna nimlewh fi żmien 48 siegħa jekk jiġu pprovduti kont tat-test u dokumentazzjoni.",
       },
 
       inputs: {
         currency: {
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+          placeholder: "Agħżel bieb biex timporta...",
         },
         manual: {
-          true_title: "oġġettġġoġġett oġġettà",
-          true_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          true_title: "Mod manwali",
+          true_description: "Tista 'tissettja l-konfigurazzjoni tal-gateway manwalment.",
 
-          false_title: "oġġettġġoġġett oġġettġġoġġett",
+          false_title: "Konnessjoni awtomatika",
           false_description:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+            "Is-sistema se tikkonnettja awtomatikament mal-portal jekk diġà għandek portal konfigurat fis-seħħ.",
         },
       },
     },
@@ -3074,26 +3074,26 @@ export default {
 
     config: {
       subtitle:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-kategoriji jgħinu biex jissimplifikaw il-ġestjoni tal-prodotti u jagħmluha aktar faċli għall-klijenti tiegħek biex isibu prodotti fil-maħżen tiegħek.",
     },
     parent: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Din il-kategorija se tidher taħt il-kategorija prinċipali tagħha. Jekk prodott ma jkollux kategorija prinċipali, se jintwera fil-kategorija prinċipali.",
     },
     template: {
       title: "Mudell",
-      edit_page: "oġġett oġġettġoġġett",
-      Pages_list: "oġġettġoġġett oġġett",
+      edit_page: "Edit Page",
+      Pages_list: "Lista tal-Paġni",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett 1 oġġett 2 oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Tista' ttejjeb il-wiri tal-paġna tal-kategorija tiegħek billi tpoġġi paġna personalizzata. L-aħjar approċċ huwa li toħloq paġni bi sfondi trasparenti u tfassal 1 sa 2 sezzjonijiet speċifiċi għal kull kategorija. Imbagħad tista' tgħaqqad paġna waħda ma' kategoriji multipli, billi tuża kontenut dinamiku biex tfassal kull kategorija individwalment.",
     },
     critical_zone: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Żona Kritika",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett<b>📁 {parent}</b>. oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett > oġġett oġġettġġoġġett",
+        "Jekk tneħħi kategorija, is-sottokategoriji u l-prodotti tagħha jiġu mċaqalqa fid-direttorju prinċipali<b>📁 {parent}</b>. Biex timmaniġġja kategoriji li mhumiex fil-lista tal-prodotti, mur fil-Ħanut > tab Kategoriji.",
       accept_delete: {
-        true_description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett",
-        true_title: "oġġettġġoġġett oġġettħħoġġett oġġett",
+        true_description: "Irrid inneħħi din il-kategorija.",
+        true_title: "Ikkonferma Neħħi l-Kategorija",
       },
     },
 
@@ -3155,13 +3155,13 @@ export default {
         edit_success: "Kategorija editjata.",
       },
       manually_update_filters_tips:
-        "<b>oġġettġġoġġett!</b> oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "<b>Importanti!</b> Il-filtri jiġu aġġornati awtomatikament meta jinbidlu l-prodotti. Madankollu, wara li tagħmel bidliet fil-prodotti f'kategorija, jekk jogħġbok erġa' lura hawn u kklikkja l-buttuna biex tissejvja/riġenera biex taġġorna l-filtru.",
 
       inputs: {
         spec: {
           message:
-            "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+            "Lista ta 'karatteristiċi li trid jintwerew fit-taqsima tal-filtru",
+          placeholder: "Agħżel l-ispeċifikazzjonijiet biex turi fil-filtru...",
         },
       },
     },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Deskrizzjoni tal-maħżen",
     description_input_message: "Ikteb deskrizzjoni qasira dwar in-negozju tiegħek.",
     description_input_tips:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett Meta",
+      "Din id-deskrizzjoni se tidher fil-footer tal-maħżen tiegħek u se tintuża wkoll bħala d-deskrizzjoni meta tag default għall-paġni tal-maħżen tiegħek.",
     address_input: "Indirizz tal-Aħżen",
     address_input_message: "Daħħal l-indirizz eżatt tal-post tal-maħżen",
 
@@ -3237,7 +3237,7 @@ export default {
   virtual_items_list: {
     add_virtual_item: "Żid oġġett virtwali",
     add_virtual_item_desc:
-      "Biex tbiegħ prodotti virtwali, trid iżżidhom f'din it-taqsima. In-numru ta 'oġġetti virtwali huwa ugwali għan-numru ta' oġġetti b'xejn f'din it-taqsima. Ladarba l-klijenti jixtru l-oġġett virtwali, il-link tintbagħat lilhom.",
+      "Biex tbiegħ prodotti virtwali, tista 'żżidhom f'din it-taqsima. In-numru ta 'oġġetti virtwali huwa ugwali għan-numru ta' oġġetti b'xejn f'din it-taqsima. Ladarba l-klijenti jixtru l-oġġett virtwali, il-link tintbagħat lilhom.",
 
     filter_action: "Applika filtru",
     not_processed: "Ordnijiet mhux ipproċessati",
@@ -3325,24 +3325,24 @@ export default {
       title: "Raġuni biex Tiċħad l-Ordni",
       message:
         "Agħżel ir-raġuni għar-rifjut ta' din l-ordni mil-lista ta' hawn taħt. Kun żgur li tinforma lill-klijent bil-proċess tal-kanċellazzjoni u r-rifużjoni. Ir-rifużjonijiet għandhom isiru fi żmien 12-il siegħa.",
-      confirm_now_action: "oġġettċoġġett oġġett oġġettġġoġġett",
-      confirm_in48h_action: "oġġettċoġġett oġġett oġġettġġoġġett 48 oġġettġġoġġett",
+      confirm_now_action: "Ikkanċella l-Ordni Issa",
+      confirm_in48h_action: "Ikkanċella l-Ordni Fi 48 Siegħa",
 
       dismiss_reject_action: "Tiċħad it-tħassir tal-ordni",
 
       options: {
         title: "oġġettġġoġġett",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Jekk trid tikkanċella l-ordni tiegħek immedjatament, tista 'tuża din l-għażla.",
       },
 
       express_input: {
-        true_title: "oġġettġġoġġett | oġġettċoġġett oġġett oġġettġġoġġett",
-        false_title: "oġġettġġoġġett | oġġettċoġġett oġġett oġġettġġoġġett 48 oġġettġġoġġett",
+        true_title: "Express | Ikkanċella l-Ordni Immedjatament",
+        false_title: "Standard | Ikkanċella l-Ordni Wara 48 Siegħa",
         true_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Din l-għażla tikkanċella l-ordni tiegħek immedjatament u taġġorna l-inventarju minnufih.",
         false_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġett oġġettġġoġġett 48 oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Din l-għażla tikkanċella l-ordni tiegħek wara 48 siegħa. Sa dakinhar, l-oġġetti jkunu riservati u ma jistgħux jinxtraw minn ħaddieħor.",
       },
     },
 
@@ -3354,9 +3354,9 @@ export default {
         "L-ordni reġgħet lura għall-proċess normali.",
       set_tracking_success: "Ordni Track ID salvat b'suċċess.",
       shipping_address_update_success:
-        "oġġettħħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-indirizz tat-tbaħħir ġie aġġornat b'suċċess.",
       vendor_order_status_update_success:
-        "oġġettħ oġġettġġoġġett Status oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-istatus ta' twettiq tal-bejjiegħ ġie aġġornat b'suċċess.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Pendenti ħlas",
       processing_payment: "Ipproċessar ħlas",
       processing_cancel: "Ħlas ikkanċellat",
-      require_capture: "oġġettġġoġġett oġġettġġoġġett",
+      require_capture: "Jeħtieġ qbid",
       paid: "Imħallas",
       cod_pay_info:
         "Meta tkun irċevejt l-ordni mingħand il-klijent tista 'tikkonferma l-ħlas u tlesti l-ordni.",
@@ -3519,24 +3519,24 @@ export default {
         "Il-klijent tiegħek jirbaħ 1x minn dan il-prodott. Ibgħat rigal b'din l-ordni.",
 
       need_to_refund: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett",
+        title: "Rifużjoni meħtieġa lill-klijent",
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Aħna nikkalkulaw l-ammont totali ta 'rifużjonijiet li għandek bżonn tagħmel manwalment. Huwa kkalkulat ibbażat fuq oġġetti mhux disponibbli u valuri totali rimborżati s'issa.",
         calculated_approximately:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "L-ammont huwa kkalkulat bejn wieħed u ieħor. Jekk jogħġbok ikkalkula l-ammont eżatt lilek innifsek.",
       },
       need_payback: {
-        title: "oġġett Ħoġġett oġġettġġoġġett",
+        title: "Ħlas tal-klijent meħtieġ",
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Innutajna li t-total rimborsat lill-klijent huwa ogħla mill-ammont dovut ibbażat fuq l-oġġetti fil-karrettun. Jista 'jkollok bżonn titlob lill-klijent tiegħek biex jirkupra l-ammont żejjed.",
       },
       need_no_refund: {
-        title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Ebda rifużjoni meħtieġa",
       },
       total_refund: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Rifużjoni totali",
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Huwa l-ammont totali ta' rifużjonijiet li jsiru awtomatikament mill-portal tal-ħlas tiegħek. Xi servizzi ta' ħlas biss jappoġġjaw din il-karatteristika, għalhekk għandek bżonn tirrifondi manwalment.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3549,9 +3549,9 @@ export default {
       weight_warning: "Jeċċedi l-piż permess.",
       volume_warning: "Jeċċedi d-daqs permess tal-pakkett.",
       items_weight_calculation:
-        "oġġettġġoġġett oġġettż oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett {weight} {unit}",
+        "Il-piż kombinat tal-oġġetti kollha huwa {weight} {unit}",
       not_available_message:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett!",
+        "Mhux disponibbli meta tkun b'diżabilità li titlob l-indirizz tat-tbaħħir u wkoll l-utent ma imlax l-indirizz wara x-xiri!",
 
       message:
         "Ikklikkja l-buttuna <b>Ordni Lesta</b> li ġejja jekk l-ordni tkun lesta biex tintbagħat.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Rapport tal-Ħlasijiet",
         subtitle:
-          "oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+          "Ħlasijiet u transazzjonijiet maħluqa matul il-perjodu ta 'żmien magħżul.",
         chart: {
           times: "Għadd",
           buys: "Ixtri għadd",
@@ -3658,45 +3658,45 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "oġġettġġoġġett",
-    subtitle: "Ħoġġett ġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Ħarsa ġenerali lejn il-konfigurazzjoni u l-istatus tal-gateway tal-ħlas.",
     status: "Status",
-    cod_transportation: "oġġettġġoġġett oġġettħħoġġett",
+    cod_transportation: "Tbaħħir appoġġjat",
     cod_transportations_error:
-      "oġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett!",
+      "Ippermetti l-ħlas fi flus kontanti mal-kunsinna għal mill-inqas metodu wieħed tat-tbaħħir!",
     payment_type: "Ħoġġett oġġett",
     cod: "Flus Fuq Kunsinna",
     online: "Online Ħoġġett",
     wage_percent: "Ħoġġett oġġett",
-    min_wage: "oġġettġġoġġett Ħoġġett",
-    max_wage: "oġġettġġoġġett Ħoġġett",
-    min_amount: "oġġettġġoġġett oġġett",
-    max_amount: "oġġettġġoġġett oġġett",
-    timeout: "Ħoġġett oġġettġġoġġett",
+    min_wage: "Ħlas Minimu",
+    max_wage: "Ħlas Massimu",
+    min_amount: "Transazzjoni Minima",
+    max_amount: "Tranżazzjoni Massima",
+    timeout: "Perjodu ta' Ħlas",
     timeout_unit: "oġġettġġoġġett",
-    link: "oġġett oġġettġġoġġett",
-    your_gateway_status: "oġġettġġoġġett oġġett Status",
-    oauth2_button: "oġġettġġoġġett Connect oġġett {gateway}",
+    link: "Link Gateway",
+    your_gateway_status: "L-istatus tal-portal tiegħek",
+    oauth2_button: "Qabbad Awtomatiku ma' {gateway}",
     fee_payment_message:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Selldone",
+      "L-ammont kollu mħallas mill-klijent jiġi trasferit fil-kont tiegħek. It-tariffa tas-servizz se titnaqqas mill-kartiera tiegħek f'Selldone.",
 
-    auto_config: "oġġettġġoġġett oġġett",
+    auto_config: "Konfigurazzjoni awtomatika",
 
     keys: {
       title: "oġġett Ċoġġett",
       subtitle:
-        "oġġett oġġettġġoġġett oġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Lista ta 'ċwievet privati ​​għall-ħlas. Din l-informazzjoni hija essenzjali għall-ħolqien u l-ġestjoni tal-pagamenti.",
     },
     extra_config: {
-      title: "Ħoġġett oġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      title: "Konfigurazzjoni tas-servizz tal-ħlas",
+      subtitle: "Informazzjoni addizzjonali dwar il-konfigurazzjoni għall-portal tal-ħlas.",
     },
 
     recommended_actions: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Azzjonijiet rakkomandati",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      action_enable: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
-      make_live_enable: "oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett",
+        "Billi tieħu dawn il-passi, int ser tibda tirċievi ħlasijiet attwali mill-klijenti tiegħek.",
+      action_enable: "Ikklikkja biex tattivah",
+      make_live_enable: "Ikklikkja biex tgħixha",
     },
   },
 
@@ -3707,12 +3707,12 @@ export default {
     link: "Websajt",
     status_title: "Ħoġġett oġġett Status",
     status_message:
-      "oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-    status_true_description: "oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      "Ikkonfigura l-metodu tal-ħlas bħala Attiv jew Inattiv. Il-metodi stabbiliti bħala attivi biss se jintwerew lill-klijenti.",
+    status_true_description: "Il-klijenti tiegħek jistgħu jħallsu b'dan il-metodu ta' ħlas.",
 
-    manual_title: "oġġett / oġġettġġoġġett oġġettġġoġġett Ħoġġett",
+    manual_title: "Ħlas tal-qbid manwali / awtomatiku",
     manual_message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett Ħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Meta toħloq ħlas, tista' żżomm fuq metodu ta' ħlas eliġibbli biex tirriżerva fondi li tista' taqbad aktar tard. Pereżempju, il-lukandi ħafna drabi jawtorizzaw ħlas kollu qabel ma jasal mistieden, imbagħad jaqbdu l-flus meta l-mistieden jiċċekkja.",
 
     gateway_status: "Status",
     wallet: "Kartiera Blockchain",
@@ -3723,57 +3723,57 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} editjat.",
-      success_delete: "Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett!",
+      success_delete: "Il-metodu tal-ħlas ġie mħassar!",
     },
     debug: {
-      title: "Żoġġett & oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      title: "Żviluppa & Test",
+      subtitle: "Tista 'tippermetti l-modalità debug biex tittestja l-portal tal-ħlas.",
     },
 
     limit: {
-      title: "oġġett oġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      title: "Limitu tal-Ordni",
+      subtitle: "Issettja l-ammont minimu tal-ordni għal dan il-portal tal-ħlas.",
     },
     limit_input: {
-      title: "oġġettġġoġġett oġġett oġġett",
-      msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Ammont minimu tal-ordni",
+      msg: "Żero ifisser l-ebda limitu.",
     },
     currency_input: {
-      message: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett",
+      message: "Il-munita li tappoġġja dan il-portal tal-ħlas.",
     },
-    gateway_code: "oġġett oġġettċoġġett",
+    gateway_code: "Kodiċi tal-Bieb",
 
-    hold_only_for: "oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+    hold_only_for: "Żomm il-ħlas disponibbli biss għal",
     manual_input: {
       false_description:
-        "oġġettġġoġġett Ħoġġett Status oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-      false_title: "oġġettġġoġġett Ħoġġett oġġettġġoġġett",
-      true_title: "oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "L-istatus tal-ħlas jinbidel awtomatikament minn pendenti għal konfermat fis-sistema tal-fornitur tal-ħlas.",
+      false_title: "Konferma tal-ħlas awtomatiku",
+      true_title: "Żomm ħlasijiet u konferma manwali",
       true_description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett Status oġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Poġġi hold fuq ħlas sabiex ikollok bżonn tivverifika l-ħlasijiet għal ordni biex tibdel l-istatus tagħhom minn pendenti għal ikkonfermat fis-sistema tal-fornitur tal-ħlas.",
     },
     delete_verify_input: {
-      true_title: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      true_title: "Irrid inneħħi dan il-metodu ta' ħlas.",
       true_description:
-        "oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+        "Dan il-metodu ta’ ħlas se jitneħħa mill-maħżen u mhux se jkun disponibbli għall-klijenti.",
     },
     delete_alert: {
-      title: "Ħoġġett Ħoġġett oġġettġġoġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett?",
-      action: "Ħoġġett Ħoġġett oġġettġġoġġett",
+      title: "Ħassar il-metodu tal-ħlas",
+      message: "Int żgur li tħassar dan il-metodu ta' ħlas mill-ħanut tiegħek?",
+      action: "Ħassar il-metodu tal-ħlas",
     },
   },
 
   /** {@see BPageGiftcard} **/
   gift_card: {
-    title: "oġġett oġġett",
+    title: "Gift Cards",
     menu: {
       edit: "Editja",
       new_card: "Oħloq karta",
       list: "Karti",
       orders: "Ordnijiet",
       dashboard: "Panew ta’ kontroll",
-      back: "oġġett oġġett",
+      back: "Gift Cards",
     },
 
     /** {@see AdminGiftCardDashboardPage} **/
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Lista ta' karti maħruġa",
       subtitle:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ara u mmaniġġja l-karti kollha maħruġa. Tista 'tibgħat kards lill-utenti manwalment jew tipprojbixxihom jekk meħtieġ.",
 
       loading_message: "Ikseb informazzjoni ... jekk jogħġbok stenna",
       issue_to_user: "Ħruġ lill-utent",
@@ -3871,7 +3871,7 @@ export default {
 
     /** {@see AdminGiftCardEditPage} **/
     gift_card_edit_page: {
-      title: "oġġett oġġett oġġett",
+      title: "Edit Gift Card",
     },
   },
 
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Lista ta' ordnijiet sinkronizzati esternament li jridu jiġu ssodisfati minn fornituri ta' partijiet terzi.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4020,32 +4020,32 @@ export default {
     "connect-confirmed": "L-ordni kienet ikkonfermata.",
 
     "vendor-payout": "💸 Ħlas lill-bejjiegħ.",
-    "vendor-wallet-transaction": "oġġettħoġġett oġġett oġġettġġoġġett",
+    "vendor-wallet-transaction": "Transazzjoni tal-kartiera tal-bejjiegħ.",
 
     "vendor-sms":
-      "🔔 oġġett oġġettġġoġġett SMS oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett <b>{vendor}</b> ╏ {phone}.",
+      "🔔 Ordni tinforma SMS intbagħat lil <b>{vendor}</b> ╏ {phone}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
     "email-buy": "Ibgħat email ta 'konferma tax-xiri lill-klijent.",
     "email-payment": "Ibgħat email ta 'konferma tal-ħlas lill-klijent.",
-    "email-update": "oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+    "email-update": "Ibgħat email ta 'aġġornament tal-ordni lill-klijent.",
 
     "email-vendor":
       "🔔 L-email ta' informazzjoni dwar l-ordni ntbagħtet lil <b>{vendor}</b> ╏ {email}.",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "oġġettħoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett SMS oġġett oġġettġġoġġett oġġett oġġettġġoġġett {phone}.",
+      "Ibgħat SMS ta' konferma tal-ħlas lill-klijent permezz ta' {phone}.",
     "sms-ready-to-ship":
-      "oġġettħoġġett oġġettġġoġġett SMS oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett {phone}.",
+      "Ibgħat SMS lill-klijent li jinnotifika li l-ordni tiegħu hija lesta biex tintbagħat permezz ta' {phone}.",
     "sms-ready-to-pickup":
-      "oġġettħoġġett oġġettġġoġġett SMS oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {phone}.",
+      "Ibgħat SMS lill-klijent biex jinnotifika li l-ordni tiegħu hija lesta biex tinġabar permezz ta' {phone}.",
     "sms-order-confirmation":
-      "oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett SMS oġġett oġġettġġoġġett oġġett oġġettġġoġġett {phone}.",
+      "Ibgħat SMS ta' konferma tal-ordni lill-klijent permezz ta' {phone}.",
 
     "count-adjustment":
-      "oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġett \"{product}\" oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett {from} oġġett {to}.",
+      "Il-kwantità tal-prodott \"{product}\" ġiet aġġornata minn {from} għal {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Ċaqlaq il-kategorija <b>{category}</b> għal kategorija oħra",
     move_product: "Mexxi prodott <b>{product}</b> għal kategorija",
     load_more_products:
-      "oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Aktar prodotti huma disponibbli f'din il-kategorija. Ikklikkja biex tagħbija aktar oġġetti.",
     product_menu: {
       dashboard: "Dashboard tal-prodott",
       inventory: "Inventarju u Varjanti",
@@ -4069,73 +4069,73 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      has_root_filter_message: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      set_filter_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      edit_action: "oġġett oġġettġġoġġett oġġett",
-      clear_action: "oġġettġġoġġett oġġettġġoġġett oġġett",
+      no_root_filter_message: "Għandek prodotti fl-għerq iżda l-ebda filtru.",
+      has_root_filter_message: "Issettja l-filtri għall-kategorija tal-għeruq.",
+      set_filter_message: "Tista 'tissettja filtri.",
+      edit_action: "Editja l-Filtri tal-Għeruq",
+      clear_action: "Filtri ta 'l-Għeruq ċari",
     },
     ai: {
-      title: "AI oġġett oġġettġġoġġett",
+      title: "Assistenza għall-Prodott AI",
     },
     menu: {
-      select_all_products: "oġġettġġoġġett oġġett oġġett",
+      select_all_products: "Agħżel il-prodotti kollha",
       unselect: "oġġettġġoġġett",
-      sort_categories: "oġġettġġoġġett / oġġettġġoġġett oġġett",
+      sort_categories: "Irranġa / Sort Kategoriji",
       subscription_vendor_not_support_message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġett oġġett! oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġett!",
+        "Ma tistax tassenja bejjiegħ għal prodotti ta 'abbonament! Prodotti ta 'abbonament għandu dejjem ikollhom bejjiegħ bħala s-sid tagħhom!",
       vendor_owner_not_assignable_message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġett!",
-      category_assign_profile: "oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-      category_assign_profile_subtitle: "oġġett, oġġettħħoġġett, oġġettġġoġġett, oġġettġġoġġett,...",
-      bulk_discount: "oġġettġġoġġett oġġettħoġġett",
-      bulk_discount_subtitle: "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Ma tistax tassenja bejjiegħ għal prodotti b'bejjiegħ bħala s-sid tiegħu!",
+      category_assign_profile: "Assenja profil lill-prodotti fil-kategorija",
+      category_assign_profile_subtitle: "Taxxa, Shipping, Gwida, Garanzija,...",
+      bulk_discount: "Skont bl-ingrossa",
+      bulk_discount_subtitle: "Applika skont fuq il-prodotti kollha.",
     },
 
     engine: {
-      title: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Magna tal-Prodotti Extra",
       subtitle:
-        "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      load_in_tips: "oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett {category}.",
-      action: "oġġett {category} oġġettġġoġġett",
+        "Aktar prodotti se jitgħabbew minn kategoriji u tikketti magħżula.",
+      load_in_tips: "Tagħbija prodotti minn kategoriji fl-{category}.",
+      action: "Editja {category} Magna",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "oġġett oġġettġġoġġett / CSV oġġett oġġettġġoġġett",
-      select_file: "oġġettġġoġġett oġġett",
-      max_file: "oġġettġġoġġett oġġett oġġettġġoġġett: 20oġġettġġoġġett",
-      download_sample: "oġġettżżoġġett oġġettġġoġġett",
+      title: "Waqqa l-fajl Excel / CSV hawn.",
+      select_file: "Agħżel il-fajl",
+      max_file: "Daqs massimu tal-fajl: 20mb",
+      download_sample: "Niżżel il-kampjun",
     },
     ai: {
-      title: "AI oġġett oġġettġġoġġett",
+      title: "Assistenza għall-Prodott AI",
     },
   },
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "oġġettġġoġġett oġġettġġoġġett",
-    no_panel: "oġġett oġġettġġoġġett",
+    has_panel: "Għandu panel",
+    no_panel: "L-ebda panel",
     manual_action: {
-      title: "oġġett oġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett Status oġġettġġoġġett",
+      title: "Azzjonijiet manwali",
+      message: "Tista 'taġġorna l-istatus tal-ordni tal-bejjiegħ manwalment.",
       guides: [
-        "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett) oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġett oġġettġġoġġett oġġettċċoġġett, oġġettġġoġġett oġġettħ oġġett Status oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett",
+        "Bejjiegħa b'aċċess għall-panel jistgħu jaġġornaw it-twettiq tagħhom (sotto-ordnijiet) fid-dashboard iddedikat tagħhom.",
+        "Jekk il-bejjiegħ m'għandux aċċess għall-panel, l-istatus tal-ordni tal-bejjiegħ jinbidel awtomatikament billi jinbidel l-istatus tal-basket.",
+        "Tista' taġġorna l-ordnijiet tal-bejjiegħ manwalment.",
       ],
     },
     payouts: {
       title: "oġġettġġoġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      message: "Immaniġġja l-ħlasijiet u t-tranżazzjonijiet tal-bejjiegħ.",
 
-      charge_tooltip: "Ħoġġett oġġettħ oġġettġġoġġett",
-      withdraw_tooltip: "oġġettġġoġġett oġġett oġġettħ oġġettġġoġġett",
-      payout_tooltip: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      charge_tooltip: "Iċċarġja kartiera tal-bejjiegħ.",
+      withdraw_tooltip: "Irtira mill-kartiera tal-bejjiegħ.",
+      payout_tooltip: "Ħlas lill-bejjiegħ.",
     },
-    order_canceled: "oġġett oġġettġġoġġett",
-    order_rejected: "oġġett oġġettċħoġġett oġġettġġoġġett oġġettħ",
+    order_canceled: "Ordni kkanċellat",
+    order_rejected: "Ordni miċħuda mill-bejjiegħ",
   },
 
   /**
@@ -4143,27 +4143,27 @@ export default {
    */
   vendor_dashboard: {
     info: {
-      subtitle: "oġġett oġġettġġoġġett",
+      subtitle: "Informazzjoni tas-suq.",
     },
     performance: {
-      subtitle: "oġġettġġoġġett oġġettħ oġġettġġoġġett",
+      subtitle: "Il-prestazzjoni tal-bejgħ tiegħi.",
     },
     products: {
       title: "Prodotti",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħŻid oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hawnhekk tista' tara l-għadd tal-prodotti tiegħek elenkati fis-suq. Prodotti minn bejjiegħa multipli mhumiex inklużi.",
     },
     wallets: {
       title: "Kartiera Tiegħi",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Żoġġett oġġett oġġettġġoġġett! oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "M'għandekx bżonn li żżid kartieri manwalment! Kartieri tal-bejjiegħ se jinħolqu awtomatikament.",
     },
 
-    open_marketplace_page: "oġġettġġoġġett oġġett oġġettġoġġett",
-    open_my_store_page: "oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġoġġett",
-    open_my_listing_page: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett",
-    add_products_permission: "Żoġġett oġġett oġġettġġoġġett",
-    add_categories_permission: "Żoġġett oġġett oġġettġġoġġett",
+    open_marketplace_page: "Miftuħa paġna tas-suq",
+    open_my_store_page: "Iftaħ il-paġna tal-maħżen tiegħi",
+    open_my_listing_page: "Iftaħ il-paġna tal-lista tiegħi",
+    add_products_permission: "Żid il-permess tal-prodotti",
+    add_categories_permission: "Żid il-permess tal-kategoriji",
   },
 
   /**
@@ -4172,20 +4172,20 @@ export default {
   vendor_inventory: {
     title: "Lista tal-prodotti",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Din hija lista tal-prodotti tiegħek fis-suq. Aġġorna l-prezzijiet u l-kwantitajiet għall-prodotti assenjati tiegħek fl-inventarju. Bħala bejjiegħ, tara biss prodotti ta' bejjiegħ wieħed li inti stess fil-lista tal-prodotti. Prodotti oħra assenjati jistgħu jiġu modifikati hawn ukoll.",
   },
 
   /**
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Membri tat-tim",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-    add_action: "Żoġġett Ġoġġett oġġettġġoġġett",
+      "Din hija l-lista ta' utenti li għandhom aċċess għall-panel tal-bejjiegħ tiegħek. Tista 'żżid membri ġodda tat-tim u tippersonalizza l-permessi tagħhom hawn.",
+    add_action: "Żid Membru Ġdid",
     pending: {
-      title: "oġġett oġġettġġoġġett",
-      message: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Stediniet Pendenti",
+      message: "Ara l-lista ta' stediniet li qed jistennew l-aċċettazzjoni.",
     },
   },
 
@@ -4193,35 +4193,35 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "oġġett oġġettġġoġġett oġġettġġoġġett",
-    title_new: "Żoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett",
+    title_edit: "Editja Membru tat-Tim",
+    title_new: "Żid Membru Ġdid tat-Tim",
     member: {
-      title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+      title: "Dettalji tal-Membru tat-Tim",
       subtitle:
-        "Żoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett",
+        "Żid membru tat-tim ġdid u ssettja l-permessi tagħhom. Ikklikkja fuq kull oġġett biex taġġusta l-aċċess għall-qari/kitba. Kull ringiela tikkorrispondi għal livell ta' permess għad-dashboard tal-ħanut prinċipali.",
     },
     access: {
-      view_data: "oġġett oġġettġġoġġett",
-      apply_changes: "Ħoġġett oġġettġġoġġett",
+      view_data: "Ara d-Dejta",
+      apply_changes: "Ħlief Bidliet",
     },
     inputs: {
       email: {
         label: "Indirizz elettroniku",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        placeholder: "Daħħal l-indirizz elettroniku tal-membru...",
       },
     },
     notifications: {
       add_success: {
-        title: "oġġettġġoġġett Żoġġett",
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Membru Miżjud",
+        message: "Il-membru tat-tim ġie miżjud b'suċċess.",
       },
       update_success: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Membru Aġġornat",
+        message: "L-informazzjoni tal-membru tat-tim ġiet aġġornata b'suċċess.",
       },
     },
     actions: {
-      add: "Żoġġett oġġettġġoġġett",
+      add: "Żid Membru",
     },
   },
 
@@ -4230,28 +4230,28 @@ export default {
    */
   vendor_payments: {
     list: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Storja tal-ħlas",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tara l-istorja tal-ħlas tiegħek hawn. Dawn il-ħlasijiet jistgħu jiġu pproċessati manwalment permezz ta' trasferimenti bankarji jew awtomatikament bl-użu ta' servizzi ta' ħlas li joffru kapaċitajiet ta' ħlas.",
     },
     connect: {
       title: "Connect oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettċoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Noffru kapaċitajiet ta 'ħlas maqsum għall-gateways ta' ħlas li ġejjin. Biex tirċievi pagamenti bla xkiel wara kull xiri, jekk jogħġbok qabbad il-kont bankarju tiegħek billi tuża dawn l-għażliet.",
     },
     verify_dialog: {
-      title: "oġġettġġoġġett Ħoġġett",
+      title: "Ivverifika l-ħlas",
       option: {
-        title: "oġġettħ oġġettġġoġġett",
+        title: "Azzjoni tal-bejjiegħ",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettċċoġġett oġġettġġoġġett oġġettċħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett; oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Għandek l-għażla li taċċetta jew tirrifjuta dan it-trasferiment. Din l-azzjoni sservi bħala rekord storiku biss. Sempliċement ikkonferma jekk irċevejtx il-fondi; jekk le, m'hemmx għalfejn tieħu xi azzjoni.",
       },
       inputs: {
         verify: {
-          label: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett?",
+          label: "Ikkonfermajt dan il-ħlas?",
           false_description:
-            "oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-          true_description: "oġġett, oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+            "Le, għadni ma rċevejtx dan il-ħlas fil-kont bankarju tiegħi.",
+          true_description: "Iva, irċevejt u vverifikajt dan il-ħlas.",
         },
       },
     },
@@ -4261,16 +4261,16 @@ export default {
    * @see BVendorOrderRefund
    */
   vendor_order_refund: {
-    title: "oġġettġġoġġett oġġett",
+    title: "Ordni ta' rifużjoni",
     subtitle:
-      "<b>oġġettġġoġġett! </b>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett (oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Stripe Connect oġġettġġoġġett oġġett oġġettġġoġġett oġġett), oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett <b>oġġettġġoġġett oġġett</b>.",
+      "<b>Importanti! </b>L-eżekuzzjoni ta 'din l-azzjoni se tiġġenera tranżazzjoni negattiva fil-kartiera tal-bejjiegħ u tnaqqas l-ammont magħżul minnha. L-ammont ma jistax jaqbeż it-tranżazzjonijiet totali li jifdal għall-ordni magħżula. Barra minn hekk, jekk il-fondi ġew trasferiti għal kontijiet bankarji konnessi (bħal ma 'Stripe Connect jew trasferiment manwali tal-wajer), għandek toħloq <b>trasferiment ta' treġġigħ lura</b>.",
     inputs: {
       note: {
-        message: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        message: "Huwa viżibbli għall-bejjiegħ.",
+        placeholder: "Tista' tehmeż nota hawn...",
       },
       amount: {
-        error_message: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        error_message: "L-ammont li jifdal inqabeż.",
       },
     },
   },
@@ -4278,15 +4278,15 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett ġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Dan jipprovdi ħarsa ġenerali lejn it-tranżazzjonijiet fil-kartiera virtwali tal-bejjiegħ fis-suq. Kull meta ssir ordni, is-sehem tal-bejgħ tal-bejjiegħ jiżdied mal-kartiera tagħhom.",
     vendor_wallets: "oġġettħ oġġett",
     my_wallets: "Kartiera Tiegħi",
-    refund_order_action: "oġġettġġoġġett oġġett",
+    refund_order_action: "Ordni ta' Rifużjoni",
     automatic_payout_list: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Din hija lista ta' ħlasijiet awtomatiċi lill-kont bankarju konness tiegħek. Jekk jogħġbok innota li ħlasijiet awtomatiċi biss se jintwerew hawn, u ħlasijiet manwali mhux se jintwerew.",
     },
-    reversal_transfer_action: "oġġettġġoġġett oġġett",
+    reversal_transfer_action: "Trasferiment ta' Treġġigħ lura",
   },
 
   /** {@see BPageOrderPhysicalTrack} **/
@@ -4310,8 +4310,8 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett, Ħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-    add_note_subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "F'din it-taqsima, tista' tara l-kronoloġija tal-avvenimenti relatati mal-ordni, it-twettiq, il-ħlas, u l-istatus rispettiv tagħhom. Barra minn hekk, tista 'tosserva l-ordnijiet mibgħuta kemm lill-klijenti kif ukoll lill-bejjiegħa.",
+    add_note_subtitle: "Ikteb messaġġ u semmi l-kollegi tiegħek.",
 
     message_input: "Ikteb messaġġ hawn...",
     pin_action: "Pin għal fuq",
@@ -4484,7 +4484,7 @@ export default {
   user_monetize_plans: {
     title: "Proġetti ta' Kollaborazzjoni u Monetizzazzjoni",
     sub_title:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett Ħoġġett oġġettġġoġġett Selldone oġġett oġġettġġoġġett (oġġett oġġettġġoġġett oġġett). oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Selldone VIP oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
+      "Int ser tiġi kkreditat bi premjijiet ta’ riferiment fil-kartiera Selldone tiegħek, u dawn il-fondi jistgħu jintużaw biex iħallsu l-miżati tas-servizz ta’ Selldone (disponibbli għal kulħadd). Jekk jogħġbok innota li l-imsieħba kummerċjali VIP ta' Selldone biss għandhom il-kapaċità li jirtiraw dawn il-krediti ta' riferiment, u din l-għażla mhix disponibbli għall-utenti kollha.",
 
     discount: "Roħs",
     your_income: "Id-dħul tiegħek",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Profil Prinċipali",
       subtitle:
-        "oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Editja l-informazzjoni tal-profil pubbliku tiegħek hawn. Din l-informazzjoni tista' tkun viżibbli għall-klijenti tiegħek jew utenti oħra.",
       full_name_input: "Isem sħiħ",
       tel_input: "Numru ta' Kuntatt",
       email_input: "oġġettġġoġġett",
@@ -4569,7 +4569,7 @@ export default {
   phone_verify: {
     title: "In-numru tal-mobile",
     step1_title:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġett SMS",
+      "Daħħal in-numru tal-mowbajl tiegħek, u tirċievi SMS ta' verifika.",
     phone_number_input: "In-numru tal-mobile",
     next: "Il-pass li jmiss",
     sms_code_input: "Kodiċi ta' verifika",
@@ -4617,7 +4617,7 @@ export default {
       "Se tara lista tal-ħwienet u l-apps kollha li huma konnessi mal-kont tad-dominju tiegħek. Tista' tħassar l-aċċess għal kwalunkwe wieħed minnhom.",
     clients_title: "Klijenti",
     clients_message:
-      "oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettħoġġett oġġettċċoġġett Token oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Dawn iċ-ċwievet jintużaw biex joħolqu Access Token mis-server tiegħek. Innota li ċ-ċwievet huma kunfidenzjali u jitqiegħdu biss fuq is-server sabiex ma jkunux viżibbli għal ħaddieħor.",
     personal_keys_title: "Ċwievet Aċċess Personali",
     personal_keys_message:
       "Tista' toħloq iċ-ċwievet għall-kont tiegħek hawn. Innota li dawn iċ-ċwievet se jkunu jistgħu jaċċessaw il-kont tiegħek. Oħloq u uża dawn iċ-ċwievet biss jekk tkun taf eżatt x'qed tagħmel.",
@@ -4807,13 +4807,13 @@ export default {
       description: "Aqra l-indirizz salvat mill-ktieb tal-indirizzi.",
     },
     "user:profile:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Profil",
+      description: "Editja u mmaniġġja l-informazzjoni tal-profil tal-utent.",
     },
 
     //--------------------------- Storefront ---------------------------
     "my-gift-cards": {
-      name: "oġġett oġġett",
+      name: "Gift Cards",
       description: "Aċċess għall-Kards Tiegħi.",
     },
     "order-history": {
@@ -4831,332 +4831,332 @@ export default {
       description: "Editja l-Artikoli.",
     },
     "backoffice:notifications": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettħoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett",
+      name: "Ġestjoni ta' Notifiki",
+      description: "Ibgħat u tirċievi notifiki.",
     },
     "backoffice:order:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Ordni",
+      description: "Editja u mmaniġġja l-ordnijiet tal-maħżen.",
     },
     "backoffice:order:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      name: "Ordni Aċċess",
+      description: "Aqra l-ordnijiet tal-maħżen.",
     },
     "backoffice:support-tickets": {
-      name: "oġġettġġ oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġ oġġettġġoġġett",
+      name: "Biljetti ta' Appoġġ",
+      description: "Immaniġġja l-biljetti ta 'appoġġ.",
     },
     "backoffice:shop:read": {
-      name: "Ħoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Tagħrif tal-Ħanut",
+      description: "Aqra d-dettalji tal-ħanut u l-istatistika.",
     },
     "backoffice:shop:write": {
-      name: "Ħoġġett oġġettġġoġġett",
-      description: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Ħanut",
+      description: "Oħloq u mmaniġġja d-dettalji tal-ħanut.",
     },
     "backoffice:shop:add": {
       name: "Żoġġett Ħoġġett",
-      description: "Żoġġett oġġettġġoġġett Ġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Żid ħanut ġdid mas-sistema.",
     },
     "backoffice:shop:delete": {
       name: "Ħoġġett Ħoġġett",
-      description: "Ħoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Ħassar ħanut mis-sistema.",
     },
     "backoffice:giftcard:write": {
-      name: "oġġett oġġett oġġettġġoġġett",
-      description: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Kard Rigal",
+      description: "Oħloq u mmaniġġja karti tar-rigali.",
     },
     "backoffice:giftcard:read": {
-      name: "oġġett oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Karta Rigal",
+      description: "Aqra d-dettalji u l-istatistika tal-karta rigal.",
     },
     "backoffice:faq:write": {
       name: "FAQ oġġettġġoġġett",
-      description: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Oħloq u mmaniġġja mistoqsijiet frekwenti.",
     },
     "backoffice:faq:read": {
       name: "FAQ oġġettċċoġġett",
-      description: "oġġettġġoġġett FAQ oġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aqra d-dettalji u l-istatistika tal-FAQ.",
     },
     "backoffice:category:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Kategorija",
+      description: "Oħloq u mmaniġġja l-kategoriji tal-prodotti.",
     },
     "backoffice:category:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Kategorija",
+      description: "Aqra d-dettalji u l-istatistika tal-kategorija.",
     },
     "backoffice:product:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Prodott",
+      description: "Żid u mmaniġġja l-prodotti.",
     },
     "backoffice:product:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Prodott",
+      description: "Aqra d-dettalji tal-prodott u l-istatistika.",
     },
     "backoffice:report:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għar-Rapport",
+      description: "Aqra rapporti u informazzjoni tal-ħwienet.",
     },
     "backoffice:finance:write": {
-      name: "oġġett oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Kont Finanzjarju",
+      description: "Immaniġġja kontijiet finanzjarji marbuta mal-maħżen.",
     },
     "backoffice:finance:read": {
-      name: "oġġett oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Kont Finanzjarju",
+      description: "Aqra d-dettalji tal-kont finanzjarju u l-istatistika.",
     },
     "backoffice:page:write": {
-      name: "oġġettġoġġett oġġettġġoġġett",
-      description: "oġġett Ħoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Paġni",
+      description: "Editja paġni tal-ħanut.",
     },
     "backoffice:page:read": {
-      name: "oġġettġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett Ħoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Paġni",
+      description: "Aqra d-dettalji u l-istatistika tal-paġna tal-ħanut.",
     },
     "backoffice:logistic:write": {
-      name: "oġġettġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Loġistika",
+      description: "Immaniġġja l-informazzjoni loġistika.",
     },
     "backoffice:logistic:read": {
-      name: "oġġettġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għal-Loġistika",
+      description: "Aqra d-dettalji u l-istatistika tal-loġistika.",
     },
     "backoffice:staff:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Persunal",
+      description: "Editja u mmaniġġja d-dettalji tal-persunal.",
     },
     "backoffice:staff:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess tal-Persunal",
+      description: "Aqra l-informazzjoni u l-istatistika tal-persunal.",
     },
     "backoffice:business-profile:write": {
-      name: "oġġettġġoġġett oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Profil tan-Negozju",
+      description: "Immaniġġja l-profili tan-negozju.",
     },
     "backoffice:business-profile:read": {
-      name: "oġġettġġoġġett oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Aċċess għall-Profil tan-Negozju",
+      description: "Aqra d-dettalji tal-profil tan-negozju.",
     },
     "backoffice:discount-code:write": {
-      name: "oġġettħoġġett oġġettċoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettħoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Kodiċi ta' Skont",
+      description: "Immaniġġja kodiċijiet ta 'skont tal-maħżen.",
     },
     "backoffice:discount-code:read": {
-      name: "oġġettħoġġett oġġettċoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettħoġġett oġġettċoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Kodiċi ta' Skont",
+      description: "Aqra d-dettalji u l-istatistika tal-kodiċi tal-iskont.",
     },
     "backoffice:wallet:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-kartiera",
+      description: "Immaniġġja l-kartieri tal-utenti.",
     },
     "backoffice:wallet:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-kartiera",
+      description: "Aqra l-informazzjoni u l-istatistika tal-kartiera.",
     },
     "backoffice:coupon:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-kupun",
+      description: "Immaniġġja kupuni tal-maħżen.",
     },
     "backoffice:coupon:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għal Kupun",
+      description: "Aqra d-dettalji tal-kupun u l-istatistika.",
     },
     "backoffice:offer:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      name: "Ġestjoni ta' Offerta",
+      description: "Immaniġġja l-offerti tal-maħżen.",
     },
     "backoffice:offer:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Offerta Aċċess",
+      description: "Aqra l-informazzjoni u l-istatistika tal-offerta.",
     },
     "backoffice:cashback:write": {
-      name: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni ta' Cashback",
+      description: "Immaniġġja l-offerti ta' cashback tal-maħżen.",
     },
     "backoffice:cashback:read": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għal Cashback",
+      description: "Aqra d-dettalji u l-istatistika tal-cashback.",
     },
     "backoffice:lottery:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Lotterija",
+      description: "Immaniġġja lotteriji tal-ħwienet.",
     },
     "backoffice:lottery:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għal Lotterija",
+      description: "Aqra d-dettalji u l-istatistika tal-lotterija.",
     },
     "backoffice:community:write": {
-      name: "oġġettà oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettà oġġettġġoġġett",
+      name: "Ġestjoni tal-Komunità",
+      description: "Immaniġġja l-attivitajiet tal-komunità.",
     },
     "backoffice:community:read": {
-      name: "oġġettà oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettà oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Komunità",
+      description: "Aqra d-dettalji u l-istatistika tal-komunità.",
     },
     "backoffice:customer:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Klijent",
+      description: "Immaniġġja d-dettalji tal-klijenti.",
     },
     "backoffice:customer:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess tal-Klijent",
+      description: "Aqra l-informazzjoni u l-istatistika tal-klijenti.",
     },
     "backoffice:ribbon:write": {
-      name: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      name: "Ġestjoni taż-żigarella",
+      description: "Immaniġġja żigarelli tal-maħżen.",
     },
     "backoffice:ribbon:read": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess taż-żigarella",
+      description: "Aqra d-dettalji taż-żigarella u l-istatistika.",
     },
     "backoffice:ai:write": {
       name: "AI oġġettġġoġġett",
-      description: "oġġettġġoġġett AI oġġettġġoġġett",
+      description: "Immaniġġja l-konfigurazzjonijiet tal-AI.",
     },
     "backoffice:ai:read": {
       name: "AI oġġettċċoġġett",
-      description: "oġġettġġoġġett AI oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aqra l-konfigurazzjonijiet u l-istatistika tal-AI.",
     },
     "backoffice:vendor-payment:write": {
-      name: "oġġettħ Ħoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħ oġġettġġoġġett",
+      name: "Ġestjoni tal-Ħlas tal-Bejjiegħa",
+      description: "Immaniġġja l-ħlasijiet tal-bejjiegħ.",
     },
     "backoffice:vendor-payment:read": {
-      name: "oġġettħ Ħoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettħ Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Ħlas tal-Bejjiegħ",
+      description: "Aqra d-dettalji tal-ħlas tal-bejjiegħ u l-istatistika.",
     },
     "backoffice:company:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Kumpanija",
+      description: "Aqra d-dettalji u l-istatistika tal-kumpanija.",
     },
     "backoffice:company:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Kumpanija",
+      description: "Immaniġġja l-informazzjoni tal-kumpanija.",
     },
     "backoffice:note:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Nota Aċċess",
+      description: "Aqra n-noti u d-dettalji relatati.",
     },
     "backoffice:note:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni Nota",
+      description: "Immaniġġja noti.",
     },
     "backoffice:affiliate:write": {
-      name: "oġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni ta' Affiljat",
+      description: "Immaniġġja l-informazzjoni tal-affiljat.",
     },
     "backoffice:affiliate:read": {
-      name: "oġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess Affiljat",
+      description: "Aqra d-dettalji u l-istatistika tal-affiljat.",
     },
     "backoffice:print:write": {
-      name: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Istampar",
+      description: "Immaniġġja l-għażliet tal-istampar.",
     },
     "backoffice:print:read": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Istampar",
+      description: "Aqra d-dettalji tal-istampar.",
     },
     "selldone:token:read": {
       name: "Token oġġettċċoġġett",
-      description: "oġġettġġoġġett Token oġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aqra d-dettalji u l-istatistika tat-tokens.",
     },
     "selldone:token:write": {
       name: "Token oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett",
+      description: "Immaniġġja tokens.",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għal Monetizzazzjoni",
+      description: "Aqra d-dettalji u l-istatistika tal-monetizzazzjoni.",
     },
     "selldone:monetization:write": {
-      name: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni ta' Monetizzazzjoni",
+      description: "Immaniġġja l-monetizzazzjoni, inklużi programmi ta' riferiment.",
     },
     "selldone:identification": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Identifikazzjoni",
+      description: "Aċċessa dettalji ta' identifikazzjoni tal-utent.",
     },
     "selldone:developer:read": {
-      name: "Żoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Iżviluppatur",
+      description: "Aqra d-dettalji u l-istatistika tal-iżviluppatur.",
     },
     "selldone:developer:write": {
-      name: "Żoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett Żoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Iżviluppaturi",
+      description: "Immaniġġja l-informazzjoni tal-iżviluppatur.",
     },
     "selldone:security:write": {
-      name: "oġġettà oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettà oġġettġġoġġett",
+      name: "Ġestjoni tas-Sigurtà",
+      description: "Immaniġġja l-konfigurazzjonijiet tas-sigurtà.",
     },
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Fornitur",
+      description: "Immaniġġja fornituri tas-servizz konnessi.",
     },
     "connect:provider:read": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Fornitur",
+      description: "Aqra d-dettalji u l-istatistika tal-fornitur.",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
-      name: "oġġettġġoġġett oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Aġenzija",
+      description: "Aqra d-dettalji u l-istatistika tal-aġenzija.",
     },
     "agency:write": {
-      name: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Ġestjoni tal-Aġenzija",
+      description: "Immaniġġja l-informazzjoni tal-aġenzija.",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
-      name: "oġġettħ oġġettċċoġġett",
-      description: "oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett",
+      name: "Aċċess għall-Bejjiegħ",
+      description: "Aqra d-dettalji u l-istatistika tal-bejjiegħ.",
     },
     "vendor-write": {
-      name: "oġġettħ oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettħ oġġettġġoġġett",
+      name: "Ġestjoni tal-Bejjiegħa",
+      description: "Immaniġġja l-informazzjoni tal-bejjiegħ.",
     },
   },
 
   scope_group: {
     backoffice: {
       title: "oġġettġġoġġett",
-      description: "oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aċċess għall-backoffice u l-karatteristiċi tal-ġestjoni tal-ħwienet.",
     },
     storefront: {
       title: "oġġettġġoġġett",
-      description: "oġġettċċoġġett oġġett oġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+      description: "Aċċess għall-informazzjoni tal-klijent u tal-maħżen.",
     },
     profile: {
       title: "profil",
-      description: "oġġettċċoġġett oġġett oġġett oġġettġġoġġett",
+      description: "Aċċessa għall-informazzjoni tal-profil tal-utent.",
     },
     selldone: {
       title: "Selldone",
-      description: "oġġettċċoġġett Selldone oġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aċċess għas-servizzi u l-karatteristiċi ta' Selldone.",
     },
     others: {
       title: "oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Ambiti varji mhux definiti fis-sistema.",
     },
     vendor: {
       title: "Bejjiegħ",
-      description: "oġġettċċoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aċċess għall-informazzjoni tal-bejjiegħ u l-karatteristiċi tal-ġestjoni.",
     },
     connect: {
       title: "Connect OS",
-      description: "oġġettċċoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aċċess għal servizzi u fornituri konnessi.",
     },
     agency: {
       title: "oġġettġġoġġett",
-      description: "oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      description: "Aċċess għall-informazzjoni u l-ġestjoni tal-aġenzija.",
     },
   },
 
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "Formola tat-Talba ta' Trasferiment",
         sub_title:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Selldone",
+          "Huwa possibbli li ċċaqlaq fondi aċċessibbli fil-kartiera tiegħek fost kartieri tal-istess munita, jew ittrasferihom għal kartieri differenti fuq Selldone.",
         message:
           "Oqgħod attent fit-trasferiment tal-flus, ma tkunx tista’ tirritorna jekk tlesti t-trasferiment.",
       },
@@ -5559,29 +5559,29 @@ export default {
   layout: {
     logout: "Oħroġ",
     menu: {
-      my_public_profile_subtitle: "oġġettġġoġġett oġġett oġġett {name}.",
+      my_public_profile_subtitle: "Il-profil pubbliku tiegħi {name}.",
 
       personal_information: "Informazzjoni Personali u Profil",
-      personal_information_subtitle: "oġġett oġġettġġoġġett oġġett, oġġett oġġettġġoġġett oġġett KYC",
+      personal_information_subtitle: "Editja l-profil, l-indirizz u l-KYC tiegħi.",
       wallet: "Kartieri u Kontijiet",
-      wallet_subtitle: "oġġettġġoġġett oġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett",
+      wallet_subtitle: "Kontijiet virtwali u karti tal-ħlas konnessi.",
 
       companies: "Kumpanniji u Kontijiet tan-Negozju",
-      companies_subtitle: "oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      companies_subtitle: "Irreġistra l-profili tan-negozju u tat-taxxa tiegħi.",
 
-      access: "oġġettżoġġett & API Ċoġġett",
+      access: "Developers & API Keys",
       access_subtitle:
-        "oġġettġġoġġettġġoġġett oġġett, oġġett oġġettċċoġġett Token oġġettġġoġġett oġġett oġġettġġoġġett OAuth",
+        "Klijenti OAuth, tokens ta' aċċess personali u apps konnessi.",
 
       security: "Sigurtà",
-      security_subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
+      security_subtitle: "Issettja żewġ fatturi u mmaniġġja l-għażliet tal-login soċjali.",
 
       preferences: "Preferenzi tal-Utent",
       preferences_subtitle:
-        "oġġett oġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ibdel it-tema, il-livell, il-lingwa u l-munita default.",
       my_subscriptions: "L-Abbonamenti Tiegħi",
       my_subscriptions_subtitle:
-        "oġġettċċoġġett oġġett oġġettġġoġġett AI oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Aċċess għal AI premium u karatteristiċi ta 'adattament.",
     },
   },
 
@@ -5682,8 +5682,8 @@ export default {
     end_date: "Data tat-tmiem",
     price: "prezz",
     verify: {
-      true_title: "oġġettġġoġġett oġġett",
-      true_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġett oġġettġġoġġett oġġettġġoġġett",
+      true_title: "Ivverifika Termini",
+      true_description: "Naqra u naqbel mat-termini tal-użu ta' Selldone",
     },
     need_charge: "Ħtieġa ħlas",
     buy_now: "Ixtri issa",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Storja mixtrija",
       subtitle:
-        "Liċenzji attivi u pendenti.",
+        "Din hija lista ta' liċenzji attivi u pendenti. Tista 'tixtri offerti wara li tiffinanzja l-kartiera tiegħek. Barra minn hekk, jekk jogħġbok innota li meta tikkanċella abbonament, l-ammont tal-abbonament li jkun fadal jiġi rritornat lill-kartiera virtwali tiegħek.",
     },
     license_detail: {
       title: "Dettalji",
       subtitle:
-        "Limiti fuq il-pjan attwali tiegħek.",
+        "Dawn huma l-limitazzjonijiet tal-pjan attwali tiegħek. Għal aktar dettalji, jekk jogħġbok żur il-paġna tal-prezzijiet. Tista' taċċessa l-karatteristiċi kollha fil-pjanijiet kollha, inkluż il-pjan b'xejn, biex tibda n-negozju tiegħek u tikber. Hekk kif tiskala n-negozju tiegħek, ikkunsidra li taġġorna għal pjan ta’ livell ogħla biex tnaqqas il-miżati tas-servizz tiegħek.",
     },
 
     table: {
@@ -5732,17 +5732,17 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+        title: "Agħżel Kartiera",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Agħżel kartiera virtwali biex tużaha għall-abbonament tiegħek. Jekk għad m'għandekx waħda, tista' toħloqha fit-taqsima tal-kartiera. Din il-kartiera se tintuża għal kwalunkwe ħlas.",
       },
       auto_renewal: {
         true_title: "Tiġdid Awtomatiku",
         true_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "L-abbonament tiegħek jiġġedded awtomatikament jekk il-kartiera tiegħek ikollu biżżejjed bilanċ jew jekk ikollok vawċer validu.",
       },
       options: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Għażliet Addizzjonali",
       },
       verify: {
         title: "oġġettġġoġġett",
@@ -5814,32 +5814,32 @@ export default {
     sku_name_input: "SKU / Isem",
     info: {
       subtitle:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Biex tiġġenera l-prodott, tista 'ddaħħal biss id-dettalji essenzjali meħtieġa għall-ħolqien tiegħu.",
     },
     price: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Żoġġett, oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġett oġġettġġoġġett",
+        "Daħħal il-prezz u skont għal dan il-prodott. Ladarba l-prodott jiġi miżjud, ikollok aċċess għal aktar għażliet.",
     },
     by_sku: {
-      title: "Żoġġett oġġettġġoġġett SKU",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Żid bl-SKU",
+      subtitle: "Id-database f'pajjiżek mhix disponibbli.",
     },
     drop_shipping: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Sib prodotti fis-suq bl-ingrossa u żidhom mal-maħżen tiegħek.",
     },
     by_connect: {
       subtitle:
-        "oġġettġġoġġett Żoġġett oġġett oġġett POD oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone Connect OS—oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett, oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Żid faċilment prodotti minn fornituri POD jew dropshipping b'Selldone Connect OS — sempliċement qabbad il-maħżen tiegħek u tgawdi l-integrazzjoni awtomatika tal-prodott, l-ebda plugins meħtieġa.",
     },
-    your_license_is_not_eligible: "oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    your_license_is_not_eligible: "Il-liċenzja tiegħek mhix eliġibbli.",
     sku_dialog: {
-      title: "Żoġġett oġġett oġġettġġoġġett SKU",
+      title: "Żid il-Prodott bl-SKU",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett SKU oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Għandek il-ħila li ssib prodotti mill-SKU tagħhom fid-database tagħna u żżidhom bi klikk waħda biss.",
     },
     dropshipping_dialog: {
-      title: "Żoġġett oġġettġġoġġett oġġett",
+      title: "Żid prodotti dropshipping",
     },
   },
 
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett Selldone, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Hawnhekk, tista 'ssib bejjiegħa bl-ingrossa li jelenkaw il-prodotti tagħhom fuq Selldone, u jagħmluhom disponibbli għal negozjanti oħra. Il-pjattaforma ta 'dropshipping integrata ta' Selldone tissimplifika l-proċess, u tagħmilha faċli u sempliċi kemm għall-bejjiegħa bl-ingrossa kif ukoll għan-negozjanti.",
   },
 
   /** @see Affiliates **/
@@ -5890,110 +5890,110 @@ export default {
 
     config: {
       new: "Imsieħeb affiljat ġdid",
-      edit: "oġġett oġġett oġġettġġoġġett",
+      edit: "Editja l-Imsieħeb Affiljat",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Ikkonfigura s-settings ġenerali u l-isem tal-affiljat hawn.",
     },
 
     payment: {
-      title: "Ħoġġett oġġettġġoġġett",
+      title: "Informazzjoni dwar il-Ħlas",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Issettja l-istruttura tal-kummissjoni għall-affiljat. Tista 'tgħaqqad kummissjonijiet fissi u bbażati fuq perċentwali, jew tistabbilixxi kummissjonijiet speċifiċi għal kull prodott.",
     },
 
     contact: {
       title: "Dettalji ta 'kuntatt",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Ipprovdi d-dettalji ta' kuntatt tas-sieħeb affiljat hawn.",
     },
 
     restriction: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Restrizzjonijiet tal-Kummissjoni",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Iddefinixxi liema prodotti huma eliġibbli għall-kummissjoni. Tista' tirrestrinġi l-kummissjonijiet għal ċerti prodotti.",
     },
 
     link_domain: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Dominju Marbut",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Link wieħed mid-dominji tiegħek ma' dan is-sieħeb affiljat. Viżitaturi li jixtru permezz ta 'dan id-dominju se jiġu attribwiti lil dan l-affiljat.",
 
-      domain_not_approved_msg: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-      domain_is_not_enable_msg: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
+      domain_not_approved_msg: "Id-dominju għadu ma ġiex approvat!",
+      domain_is_not_enable_msg: "Id-dominju mhuwiex attivat!",
       domain_is_linked_to_other_affiliate_msg:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett!",
+        "Dan id-dominju huwa diġà marbut ma' affiljat ieħor!",
     },
 
-    set_users_first_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett!",
+    set_users_first_message: "Jekk jogħġbok issettja l-utent l-ewwel!",
 
     cluster: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Assoċja dan l-affiljat ma 'cluster biex tmexxih flimkien ma' riżorsi oħra f'post wieħed.",
       manage_action: "oġġettġġoġġett",
     },
 
     notifications: {
-      create_success: "Ġoġġett oġġett Żoġġett oġġettġġoġġett",
-      update_success: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      create_success: "Affiljat ġdid miżjud b'suċċess.",
+      update_success: "Affiljat aġġornat b'suċċess.",
     },
 
     inputs: {
       name: {
-        label: "oġġett oġġettġġoġġett oġġett",
-        message: "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett",
+        label: "Isem tal-Imsieħeb Affiljat",
+        message: "eż., John Doe, Alex Company, X Marketers, eċċ.",
       },
       commission: {
-        label: "oġġett oġġettġġoġġett",
+        label: "Kalkolu tal-Kummissjoni",
         false_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ikkalkula billi tuża taħlita ta 'kummissjonijiet fissi u perċentwali.",
         true_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        false_title: "oġġettġġoġġett + oġġettġġoġġett oġġett",
-        true_title: "oġġettġġoġġett oġġett",
+          "Ikkalkula billi tuża kummissjonijiet speċifiċi għall-prodott stabbiliti fit-tab tal-prezzijiet.",
+        false_title: "Kummissjoni Fissi + Perċentwali",
+        true_title: "Kummissjoni Ibbażata fuq il-Prodott",
       },
       user: {
-        label: "oġġett (oġġettġġoġġett)",
-        message: "oġġettġġoġġett, oġġettġġoġġett, oġġett oġġett oġġettġġoġġett Selldone",
+        label: "Utent (Mhux obbligatorju)",
+        message: "Fakultattiv, eż., isem affiljat f'Selldone",
       },
       web: {
-        placeholder: "oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett",
+        placeholder: "Fakultattiv, eż., affiliate-web.com",
       },
       address: {
-        placeholder: "oġġettġġoġġett, oġġettġġoġġett, 1200 oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett",
+        placeholder: "Fakultattiv, eż., 1200 POX, NY, USA",
       },
       tel: {
-        placeholder: "oġġettġġoġġett, oġġettġġoġġett, 001-808-210354",
+        placeholder: "Mhux obbligatorju, eż., 001-808-210354",
       },
       bank: {
-        placeholder: "oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett, oġġett: 10002-325-800-845213",
+        placeholder: "Mhux obbligatorju, eż., Arstra Bank, Nru: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
+        placeholder: "Agħżel dominju... (Mhux obbligatorju)",
       },
       pos: {
         true_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "L-affiljati jistgħu jagħmlu ordnijiet direttament għall-klijenti tagħhom permezz tal-panel tagħhom.",
         true_title: "POS oġġettċċoġġett",
       },
       enable: {
         true_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett? oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Dan l-affiljat huwa attiv bħalissa? Jekk inattiv, il-programm ta' affiljat tagħhom mhux se japplika għal ordnijiet magħmula permezz tal-link tagħhom.",
       },
       products: {
-        label: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-        select_product: "oġġettġġoġġett oġġett",
+        label: "Prodotti Eliġibbli għall-Kummissjoni",
+        select_product: "Agħżel Prodotti",
       },
     },
     actions: {
-      update: "oġġettġġoġġett oġġett",
-      add: "Żoġġett oġġett oġġettġġoġġett",
+      update: "Aġġorna l-Affiljat",
+      add: "Żid Imsieħeb Affiljat",
     },
     /**
      * @see BPageAffiliateEdit
      */
     delete: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista 'ssolvi kwalunkwe dejn pendenti mal-affiljat qabel ma tneħħihom mill-ħanut tiegħek. L-informazzjoni tal-affiljat tibqa’ aċċessibbli għal żmien limitat wara t-tħassir.",
     },
   },
 
@@ -6001,20 +6001,20 @@ export default {
    * @see BPageShopFinanceValuations
    */
   shop_valuations: {
-    title: "oġġett oġġett oġġettġġoġġett oġġett",
+    title: "Ipprezzar tad-dwana u Valutazzjonijiet",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett) oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-    add_valuation_action: "oġġettħoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Assenja valutazzjoni (formola ta' input tal-prezzijiet) lil prodott, li tippermetti lill-klijenti jagħżlu varjanti jew jippersonalizzaw il-merkanzija tiegħek. Is-sistema mbagħad tikkalkula l-prezz ibbażat fuq l-inputs tad-dwana.",
+    add_valuation_action: "Oħloq Formola Ġdida ta' Valutazzjoni",
     empty_message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett",
+      "Minflok ma toħloq varjanti multipli, ikkunsidra l-iżvilupp ta 'strateġija ta' valutazzjoni li tista 'tiġi applikata għal prodott sempliċi.",
     delete_dialog: {
-      title: "oġġettġġoġġett oġġettħħoġġett",
+      title: "Neħħi b'mod permanenti",
       message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett? oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Int żgur li trid tħassar din il-formola tal-ipprezzar? Jekk jogħġbok kun żgur li din l-istrateġija tal-ipprezzar tad-dwana titneħħa mill-prodotti assoċjati kollha l-ewwel.",
       action: "Iva, Ħassar Issa",
     },
     notifications: {
-      delete_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      delete_success: "Il-valutazzjoni tħassret b'suċċess.",
     },
   },
 
@@ -6022,41 +6022,41 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "oġġett & oġġettġġoġġett oġġettġġoġġett",
+    label: "Mudell tal-Ipprezzar u Valutazzjoni",
   },
 
   /**
    * @see BValuationAdd
    */
   valuation_add: {
-    title_edit: "oġġett oġġettġġoġġett oġġettġġoġġett",
-    title_add: "oġġettħoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett",
+    title_edit: "Editja l-Formola ta' Valutazzjoni",
+    title_add: "Oħloq Formola Ġdida ta' Valutazzjoni",
     config: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Stabbilixxi sistema ta’ valutazzjoni biex toħloq prezzijiet flessibbli billi tuża formuli u tabelli ta’ referenza għall-prodotti tiegħek. Ibda billi tagħti lil din il-valutazzjoni isem uniku.",
     },
-    valuation_preview: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    load_sample: "oġġettġġoġġett oġġettġġoġġett",
+    valuation_preview: "Formola ta' Valutazzjoni Preview",
+    load_sample: "Tagħbija Kampjun",
     conditions: {
       title: "Kundizzjonijiet",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Iddefinixxi l-loġika għall-varjanti tad-dwana. Din il-konfigurazzjoni tissimplifika l-ġestjoni tad-disponibbiltà tal-varjanti.",
     },
     structure: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Iddisinja l-formola tal-input tal-prezzijiet tiegħek hawn billi tintegra formuli u tabelli ta’ referenza.",
       expand_action: "oġġettġġoġġett",
       collapse_action: "oġġettġġoġġett",
     },
     inputs: {
       title: {
-        message: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett, 'oġġettġġoġġett oġġett",
+        message: "Dan it-titlu mhuwiex viżibbli għall-klijenti.",
+        placeholder: "Daħħal isem għall-ipprezzar, eż., 'Ipprezzar tal-Mugs'",
       },
     },
     samples: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Valutazzjonijiet tal-kampjun",
     },
   },
 
@@ -6167,27 +6167,27 @@ export default {
         edit: "Kodiċi ta' skont editjat b'suċċess.",
       },
       config: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Konfigurazzjoni Ġenerali",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett: oġġettġġoġġett (oġġett, oġġett * oġġettġġoġġett oġġett). oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Il-formula tal-kalkolu tal-kodiċi ta' skont hija: max (LIMIT, PERCENT * prezz tal-karrettun). Ftakar li tagħmel il-kodiċijiet rilevanti u faċli biex tiftakar.",
       },
       limit: {
         title: "oġġettġġoġġett",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettċoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista' tiddefinixxi l-limitu massimu ta' użu għal kull kodiċi ta' skont, kif ukoll l-ammont massimu ta' skont, f'din it-taqsima.",
       },
       duration: {
-        title: "oġġett oġġett żoġġett oġġett",
+        title: "Limitu ta' Tul",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett żoġġett oġġettġġoġġett",
+          "Jekk trid tattiva kodiċi ta' skont għal perjodu ta' żmien speċifiku, tista' tistabbilixxi dak it-tul hawn.",
       },
       design: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista' tissettja titolu u deskrizzjoni għal kull kodiċi ta' skont. Dawn id-dettalji se jintwerew lill-utent.",
       },
       cluster: {
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Billi tassoċja dan il-kodiċi ta 'skont ma' raggruppament, tista 'faċilment timmaniġġjah flimkien ma' riżorsi oħra f'post wieħed.",
       },
     },
     delete_alert: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett: Ħoġġett + oġġettġġoġġett (oġġett, oġġett * oġġettġġoġġett oġġett).",
+        "Il-formula tal-kalkolu tal-iskont tal-kupun hija: CHARGE + max (LIMIT, PERCENT * prezz tal-karrettun).",
     },
     limit: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      zero_message: "oġġettġġoġġett: oġġettġġoġġett oġġettġġoġġett oġġett oġġett!",
+        "F'din it-taqsima, tista' tissettja kemm in-numru massimu ta' użi għal kull kupun kif ukoll l-ogħla ammont ta' skont li kull kupun jista' jipprovdi.",
+      zero_message: "żero: m'hemm l-ebda limitu!",
     },
     duration: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Jekk tixtieq tissettja perjodu ta' żmien speċifiku biex kupun ikun attiv, tista' tikkonfigura t-tul f'din it-taqsima.",
     },
     design: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Kull kupun jippermetti għaż-żieda ta 'titlu u deskrizzjoni. Dawn id-dettalji jkunu viżibbli għall-klijent.",
     },
     constraints: {
       subtitle:
-        "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      no_limit: "oġġett oġġettġġoġġett oġġett",
-      has_limit: "oġġettġġoġġett oġġettġġoġġett",
-      has_code_message: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġett Żoġġett oġġettġġoġġett",
+        "Hawnhekk, għandek il-ħila li tistabbilixxi parametri personalizzati addizzjonali għall-kupun.",
+      no_limit: "L-ebda limitazzjoni żejda",
+      has_limit: "Limitazzjonijiet żejda",
+      has_code_message: "L-utent għandu jdaħħal il-kodiċi biex iżid il-kupun.",
     },
     club: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "L-użu ta' dan il-kupun jista' jiġi ristrett esklussivament għall-membri tal-klabbs tal-klijenti magħżula.",
     },
     cluster: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Billi tassoċja dan il-kupun ma 'cluster, tista' faċilment timmaniġġjah flimkien ma 'riżorsi oħra f'post wieħed.",
     },
     preview: {
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Hawn il-previżjoni pubblika tal-kupun.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ibda tfassal ftehim intelliġenti billi tistabbilixxi t-titlu, id-deskrizzjoni u l-istatus tad-disponibbiltà pubblika tiegħu.",
     },
     limit: {
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Issettja l-limitu massimu ta' użu għal din l-offerta f'din it-taqsima.",
     },
     duration: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett żoġġett oġġettġġoġġett",
+        "Jekk tixtieq tissettja perjodu ta' żmien speċifiku għal offerta, tista' tikkonfigura t-tul hawn.",
     },
     constraints: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Issettja l-kriterji ta' eliġibilità u l-kundizzjonijiet għall-offerta hawn. L-offerta tapplika għal oġġetti tal-karrettun li jissodisfaw dawn il-kundizzjonijiet.",
     },
     discounted_products: {
-      title: "oġġett oġġett",
+      title: "Prodotti skontati",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tispeċifika l-prodotti li għalihom din l-offerta se tapplika skont.",
     },
     cluster: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Billi tassoċja din l-offerta ma 'cluster, tista' faċilment timmaniġġjaha flimkien ma 'riżorsi oħra f'post wieħed.",
     },
   },
 
@@ -6458,7 +6458,7 @@ export default {
 
   /** {@see BPageShopMarketingEmail} **/
   emails: {
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Email Marketing",
     subtitle:
       "Iddisinja emails billi tkaxkar u qatra, iskeda u tniedi kampanji biex iżżid iż-żamma, u tara informazzjoni affidabbli u preċiża f'post wieħed.",
     cation_message:
@@ -6514,9 +6514,9 @@ export default {
   /** {@see BPageAffiliateDashboard**/
   affiliate_dashboard: {
     link: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Link Affiljat",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettċoġġett '{code}' oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 48oġġettġġoġġett",
+        "Iġġenera link uniku għas-sieħeb affiljat tiegħek biex issegwi l-bejgħ u l-kummissjonijiet. Żid kodiċijiet ta' referenza '{code}' ma' kwalunkwe link jew assenja dominju apposta apposta għall-affiljat tiegħek. Se jiġi ssorveljat mis-sistema għal 48h.",
     },
     fix_commission: "Kummissjoni fissa",
     percent_commission: "Kummissjoni bbażata fuq perċentwali",
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Token oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 10 Token, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+        "Spinta x-xiri tal-klijenti b'esperjenza gamifikata fil-maħżen tiegħek. Stabbilixxi premjijiet u odds ta 'rebħ għall-klijenti li jaqilgħu tokens permezz tax-xiri. Kull logħba tiswa 10 tokens, u tista 'toffri premjijiet speċjali għal xerrejja għall-ewwel darba. Il-logħba default hija Wheel of Fortune, iżda tista' tippersonalizzaha biex taqbel mat-tqassim tal-ħanut tiegħek.",
     },
-    empty_prize_list: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    empty_prize_list: "Oħloq u mmaniġġja l-premjijiet hawn...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Ċans Rebħ fil-mija",
     free_for_first: "Huwa b'xejn għal klijenti ġodda?",
     free_for_first_message: "Klijenti ġodda jistgħu jirbħu dan l-oġġett.",
-    not_free_for_first_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    not_free_for_first_message: "Dan il-premju mhux disponibbli għall-ewwel logħob b'xejn.",
 
     amount: "Ammont tal-premju",
     amount_hint: "L-utenti jirbħu dan l-ammont ta' ħlas għall-ordni tagħhom.",
@@ -6614,23 +6614,23 @@ export default {
     },
     config: {
       subtitle:
-        "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġett, oġġett, oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hawnhekk, tista' toħloq il-premjijiet tal-lotterija tal-ħanut tiegħek. Issettja t-titlu, id-deskrizzjoni, il-kulur, u l-immaġni għal kull premju.",
     },
     design: {
       subtitle:
-        "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hawnhekk, għandek l-għażla li tagħżel immaġni u kulur għall-premju.",
     },
     constraints: {
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Speċifika l-kriterji u l-limitazzjonijiet biex tirbaħ dan il-premju.",
     },
     prize: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettċoġġett, oġġett oġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Stabbilixxi d-dettalji tal-premju hawn. L-għażliet jinkludu kodiċijiet ta’ skont, karti ta’ rigal, krediti, u skontijiet oħra bħala premjijiet tal-lotterija.",
     },
     product_input: {
-      label: "oġġett oġġettġġoġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett oġġettġġoġġett)",
+      label: "Premju tal-prodott",
+      message: "Agħżel prodott għall-premju (huwa b'xejn)",
     },
   },
 
@@ -6886,7 +6886,7 @@ export default {
   /** {@see BPagePos**/
   cash_register: {
     menu: {
-      panel: "oġġettġġoġġett oġġettġoġġett",
+      panel: "Cash Register",
       orders: "Ordnijiet",
       customers: "Klijenti",
       devices: "Apparat",
@@ -6900,7 +6900,7 @@ export default {
   barcode_scanner: {
     wifi_pass: "Il-Password tal-Wi-Fi tiegħek",
     message: "Daħħal il-password tar-router WiFi tiegħek u skennja l-kodiċi QR.",
-    wifi_ssid: "oġġettġġoġġett oġġettġġoġġett",
+    wifi_ssid: "Wi-Fi SSID",
     ssid_message: "Daħħal l-isem tan-netwerk Wi-Fi tiegħek (SSID).",
   },
 
@@ -7039,21 +7039,21 @@ export default {
      * @see BVendorsImporter
      */
     vendor: {
-      title: "oġġett oġġettħoġġett",
+      title: "Bejjiegħa ta' importazzjoni",
       subtitle:
-        "oġġett oġġettħ CSV oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+        "Tella' fajls CSV tal-bejjiegħ hawn. Kun żgur li l-format huwa korrett u jaderixxi mar-regolamenti tal-privatezza.",
       checklist: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        sample_files: "oġġettġġoġġett oġġett",
+        title: "Lista ta' Kontroll Importanti",
+        subtitle: "Kun żgur li ssegwi l-linji gwida.",
+        sample_files: "Fajls tal-Kampjun",
         valid_vendor_name_needed:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett oġġett</b>. oġġettġġoġġett <b>oġġett</b> oġġettġġoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett <i>oġġettħoġġett</i> oġġettġġoġġett Ġoġġett oġġettħ oġġettġġoġġett <i>oġġettġġoġġett</i> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Trid tipprovdi <b>isem validu</b>. Il-<b>name</b> jintuża biex jiddetermina jekk <i>Oħloq</i> bejjiegħ ġdid jew <i>Aġġorna</i> wieħed eżistenti.",
         assign_user_after_import:
-          "oġġettġġoġġett oġġett oġġettħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
+          "Wara li timporta l-bejjiegħa, tista 'tassenja manwalment utent biex jagħtihom aċċess għall-panel tal-bejjiegħ.",
       },
       need_kyc_alert:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      back_to_vendors_list: "oġġett oġġett oġġettħ oġġett",
+        "Għandek bżonn tivverifika l-informazzjoni personali tiegħek qabel ma timporta l-bejjiegħa.",
+      back_to_vendors_list: "Lura għal-Lista tal-Bejjiegħa",
     },
   },
 
@@ -7063,12 +7063,12 @@ export default {
   marketplace_products: {
     title: "oġġettħ oġġett",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Dan il-katalgu jelenka l-prodotti kollha offruti mill-bejjiegħa. Fis-suq, prodott jista' jkun marbut ma' bejjiegħ wieħed jew aktar. Kull bejjiegħ assoċjat ma' prodott għandu entrata unika li tinkludi dettalji tal-inventarju u tal-prezzijiet speċifiċi għal dak il-bejjiegħ.",
     filter_vendor: {
-      placeholder: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      placeholder: "Iffiltra skond il-bejjiegħ...",
     },
     filter_status: {
-      placeholder: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      placeholder: "Iffiltra skond l-istatus...",
     },
   },
 
@@ -7076,10 +7076,10 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
-    title: "oġġettħ oġġettġġoġġett oġġett",
+    open_vendors_panel: "Miftuħa Bord tal-Bejjiegħa",
+    title: "Lista ta' Talbiet tal-Bejjiegħa",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Din hija lista ta' talbiet minn individwi li applikaw biex isiru bejjiegħa fis-suq tiegħek.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,142 +7088,142 @@ export default {
     marketplace: {
       title: "Suq",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Id-diżattivazzjoni tas-suq se titfi xi funzjonalitajiet. Jekk trid tagħlaq is-suq kollu tiegħek, għandek tiddiżattiva l-maħżen tiegħek fis-settings.",
     },
     distribution_model: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Mudell tad-Distribuzzjoni",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettħħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Is-swieq jistgħu joperaw taħt mudelli ta' distribuzzjoni differenti. Kemm jekk tippreferi li l-bejjiegħa jibagħtu oġġetti direttament lix-xerrejja jew jikkonsolidaw l-ordnijiet fil-maħżen tiegħek għat-tbaħħir, tista 'tagħżel il-mudell li jaqbel l-aħjar għall-bżonnijiet tiegħek hawn.",
     },
     access: {
-      title: "oġġettħ oġġettċċoġġett",
+      title: "Aċċess għall-Bejjiegħ",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Bħala amministratur, inti tikkontrolla l-livell ta’ aċċess li għandhom il-bejjiegħa għad-dashboard tal-prodott. Aġġusta s-settings tal-aċċess globali biex jippermettu lill-bejjiegħa jżidu l-prodotti u l-kategoriji tagħhom stess jew jirrestrinġu dan l-aċċess għall-amministraturi biss.",
     },
     need_enable_shipping_for_vendors_tips:
-      "oġġett oġġettħħoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett > oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    transportation_available_tooltip: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Ippermetti t-tbaħħir għall-bejjiegħa fit-tab Shop > Loġistika għal kull metodu individwalment.",
+    transportation_available_tooltip: "Din l-għażla hija disponibbli għall-bejjiegħa.",
     transportation_not_available_tooltip:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett! oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Mhux disponibbli għall-bejjiegħa! Tista 'tippermettiha fis-settings tat-trasport.",
     panel: {
-      title: "oġġettħ oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Panel tal-Bejjiegħa",
+      subtitle: "Abbord il-bejjiegħa tiegħek permezz tad-dominju tad-dwana tiegħek.",
     },
     documents: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      add_document_action: "Żoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' titlob lill-bejjiegħa tiegħek itellgħu dokumenti jew jiffirmaw ċerti kuntratti. Speċifika d-dokumenti meħtieġa hawn.",
+      add_document_action: "Żid Talba għal Dokument",
     },
     inputs: {
       enable: {
         false_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+          "Is-suq huwa mitfi, u jiskonnettja l-funzjonalitajiet kollha tas-suq.",
         true_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+          "Is-suq huwa attiv, li jippermetti l-funzjonalitajiet kollha tas-suq.",
       },
       product: {
         label: "Żid prodott ġdid",
-        true_title: "oġġettħoġġett oġġettġġoġġett Żoġġett oġġett",
+        true_title: "Bejjiegħa Jistgħu Żid Prodotti",
         false_description:
-          "oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Inti żżid prodotti u tassenja bejjiegħa. Il-bejjiegħa jistgħu jimmaniġġjaw biss il-prezz u l-inventarju.",
         true_description:
-          "oġġettħoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
+          "Il-bejjiegħa jistgħu jżidu u jimmaniġġjaw il-prodotti tagħhom stess direttament fil-pannell tal-bejjiegħa tagħhom.",
       },
       need_verify: {
-        label: "oġġett oġġettġġoġġett oġġett",
-        false_description: "Ġoġġett oġġettħ oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
-        false_title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Fluss ta' Verifika tal-Prodott",
+        false_description: "Prodotti ġodda tal-bejjiegħ jibdew ħajjin istantanjament.",
+        false_title: "Ebda Verifika Meħtieġa",
         true_description:
-          "oġġettħoġġett Ġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        true_title: "oġġettġġoġġett oġġettġġoġġett",
+          "Il-prodotti l-ġodda tal-bejjiegħa jeħtieġu approvazzjoni qabel ma jidħlu fis-suq.",
+        true_title: "Verifika Meħtieġa",
       },
       category: {
         label: "Żid kategorija ġdida",
-        true_title: "oġġettħoġġett oġġettġġoġġett Żoġġett oġġett",
+        true_title: "Bejjiegħa Jistgħu Żid Kategoriji",
         false_description:
-          "oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Inti żżid kategoriji. Il-bejjiegħa jistgħu jżidu biss prodotti ma' kategoriji eżistenti.",
         true_description:
-          "oġġettħoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
+          "Il-bejjiegħa jistgħu jżidu u jimmaniġġjaw il-kategoriji direttament fil-pannell tal-bejjiegħa tagħhom.",
       },
       shipping: {
-        label: "oġġettħħoġġett oġġettġġoġġett",
-        true_title: "oġġettħoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett",
+        label: "Għażliet tat-Tbaħħir",
+        true_title: "Il-bejjiegħa għandhom Għażliet tat-Tbaħħir",
         false_description:
-          "oġġettħoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett",
+          "Il-bejjiegħa ma jistgħux iżidu jew jippersonalizzaw il-metodi tat-tbaħħir tagħhom.",
         true_description:
-          "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett, Żoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Il-bejjiegħa jistgħu jistabbilixxu l-metodi tat-tbaħħir tagħhom stess, iżidu kurrieri, u jippersonalizzaw it-tbaħħir għall-bżonnijiet tagħhom.",
       },
       hidden_customer: {
-        label: "oġġett oġġett oġġett oġġettġġoġġett",
-        true_description: "oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        label: "Uri l-Informazzjoni ta' Kuntatt tax-Xerrej",
+        true_description: "Id-dettalji tal-kuntatt tax-xerrej huma moħbija mill-bejjiegħa.",
         false_description:
-          "oġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Id-dettalji ta' kuntatt tax-xerrej, bħal telefon u email, huma viżibbli għall-bejjiegħa.",
       },
       multi: {
         false_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett /oġġettġġoġġett",
+          "Utent jista' jkollu kont wieħed biss ta' bejjiegħ. L-utenti se jiġu diretti mill-ġdid lejn il-panel tagħhom f'/vendors.",
         true_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett; oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        true_title: "oġġettġġoġġett oġġettà",
-        false_title: "oġġettġġoġġett oġġettħ oġġettà (oġġettġġoġġett)",
+          "Utent jista' jkollu kontijiet multipli tal-bejjiegħ. Din hija karatteristika beta; jekk jogħġbok ikkuntattjana qabel tużaha.",
+        true_title: "Modalità Multi-Bejjiegħa",
+        false_title: "Mod ta' Bejjiegħ Uniku (Default)",
       },
 
       listing: {
-        label: "oġġett oġġettġġoġġett oġġettħoġġett",
-        true_description: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        false_description: "oġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Elenkar għall-bejjiegħa",
+        true_description: "Il-lista hija attivata għall-bejjiegħa. Il-bejjiegħa jistgħu jimmaniġġjaw oġġetti u kumpaniji tal-elenkar.",
+        false_description: "L-elenkar huwa diżattivat għall-bejjiegħa. Is-sid tal-ħanut biss jista' jamministra oġġetti u kumpaniji tal-elenkar.",
         requires_listing_active_text:
-          "oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett (oġġettġġoġġett + oġġett), oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett → oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett",
-        requires_listing_active_button: "oġġettġġoġġett oġġett oġġett oġġett",
+          "Biex tħalli lill-bejjiegħa jużaw il-Listing (oġġetti + kumpaniji), l-ewwel ippermetti l-karatteristika tal-Elenku tal-ħanut f'Kanal → Elenku. Imbagħad erġa' lura hawn biex tippermetti l-aċċess tal-bejjiegħ.",
+        requires_listing_active_button: "Iftaħ is-settings tal-Elenku tal-Kanal",
       },
 
 
 
     },
     notifications: {
-      update_success: "oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett",
+      update_success: "Is-settings tal-bejjiegħ ġew aġġornati b'suċċess.",
     },
     add_document_dialog: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Rekwiżiti tad-Dokument",
       type: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Tip ta' Dokument",
         subtitle:
-          "Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Żid oġġett ta' talba għal dokument hawn. Jidher fil-panel tal-bejjiegħ, u jġiegħelhom itellgħu d-dokument meħtieġ.",
       },
       guide: {
         title: "oġġettġġoġġett",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ipprovdi gwida qasira biex tgħin lill-bejjiegħa jifhmu liema dokumenti għandhom itellgħu u kif jagħmlu dan kif suppost.",
       },
       code: {
-        title: "oġġett oġġettċoġġett",
+        title: "Inkorpora Kodiċi",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett",
+          "Paste l-kodiċi integrat għal dokument, formola jew kuntratt li l-bejjiegħ irid jiffirma.",
       },
       link: {
         title: "Link esterna",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett",
+          "Ipprovdi link esterna għal dokument jew kuntratt li l-bejjiegħ irid jiffirma.",
       },
       inputs: {
         title: {
           label: "Titolu",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          placeholder: "Daħħal titolu għat-talba tad-dokument.",
         },
         guide: {
-          label: "oġġettġġoġġett (oġġettġġoġġett)",
+          label: "Gwida (Mhux obbligatorju)",
           placeholder:
-            "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "B'għażla, ipprovdi gwida jew struzzjonijiet fil-qosor, inklużi links għal kuntratti jew dokumenti oħra.",
         },
         code: {
-          label: "oġġett oġġettċoġġett",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett",
-          message: "oġġettġġoġġett oġġettġġoġġett HTML oġġettġġoġġett",
+          label: "Inkorpora Kodiċi",
+          placeholder: "Paste l-kodiċi tal-inkorporazzjoni hawn...",
+          message: "Jista' jinkludi kodiċi HTML.",
         },
         url: {
           label: "URL",
-          message: "oġġettġġoġġett oġġettġġoġġett URL oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          message: "Daħħal il-URL tad-dokument jew tal-kuntratt hawn...",
         },
       },
     },
@@ -7234,14 +7234,14 @@ export default {
    */
   ShopMarketplaceModes: {
     Collective: {
-      title: "oġġettġġoġġett oġġettà",
+      title: "Modalità Kollettiva",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettà, oġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħżoġġett, oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
+        "F'dan il-mod, l-ordnijiet kollha jintbagħtu lill-maħżen tiegħek l-ewwel u mbagħad jintbagħtu lill-klijenti minn post ċentrali. Il-bejjiegħa jibagħtu l-oġġetti tagħhom lill-maħżen tiegħek, għalhekk l-indirizz tat-tbaħħir għall-bejjiegħa se jkun l-indirizz tal-maħżen tiegħek.",
     },
     Direct: {
-      title: "oġġettġġoġġett oġġettħħoġġett oġġett oġġettħ",
+      title: "Tbaħħir Dirett mill-Bejjiegħ",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettà, oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "F'dan il-mod, il-bejjiegħa jibagħtu ordnijiet direttament lill-klijenti. L-indirizz tat-tbaħħir għall-ordnijiet tal-bejjiegħ se jkun l-indirizz tax-xerrej.",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Dokument ta' Identifikazzjoni tas-Sid",
       description:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett KYC oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett",
+        "Ittella ID maħruġa mill-gvern biex tivverifika l-identità tas-sid tan-negozju jew tal-eżekuttiv ewlieni.",
     },
     Business: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Dokumentazzjoni tan-Negozju",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Status oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ipprovdi dokumenti tan-negozju essenzjali bħal liċenzji jew ċertifikati ta’ reġistrazzjoni biex tikkonferma l-istatus legali tan-negozju tiegħek.",
     },
     Address: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Verifika ta' l-Indirizz",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ibgħat dokument biex tivverifika l-indirizz tan-negozju tiegħek, bħal kont ta’ utilità, fattura tat-taxxa, jew ftehim ta’ kiri.",
     },
     Contract: {
-      title: "oġġettġġoġġett & oġġettġġoġġett",
+      title: "Kuntratti u Ftehim",
       description:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Itella' kuntratti jew ftehimiet li jagħtu dettalji dwar it-termini u l-kundizzjonijiet tar-relazzjonijiet kummerċjali tiegħek.",
     },
     Copyright: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Dokumentazzjoni tad-Drittijiet tal-Awtur",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ipprovdi dokumenti ta' reġistrazzjoni tad-drittijiet tal-awtur biex tafferma d-drittijiet tal-proprjetà intellettwali tiegħek.",
     },
     Privacy: {
-      title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Dokumenti tal-Politika ta' Privatezza",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Inkludi d-dokumenti tal-politika tal-privatezza tiegħek biex turi l-impenn tiegħek biex tipproteġi l-informazzjoni tal-utent u tal-klijent.",
     },
     Embed: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Formola Inkorporata",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Imla l-formola inkorporata biex tipprovdi l-informazzjoni meħtieġa.",
     },
     Link: {
       title: "Link esterna",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Segwi l-link esterna biex tipprovdi l-informazzjoni meħtieġa.",
     },
   },
 
@@ -7296,9 +7296,9 @@ export default {
   marketplace_wallets: {
     title: "oġġettħ oġġett",
     subtitle:
-      "oġġett oġġettġġoġġett oġġett oġġettġġoġġett Żoġġett oġġett! oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettħoġġett Stripe Connect), oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettħoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "M'hemmx bżonn li żżid kartieri manwalment! Kartieri tal-bejjiegħ huma maħluqa awtomatikament. Jekk tattiva metodu ta' ħlas li jappoġġja ħlasijiet maqsuma (bħal Stripe Connect), is-sistema awtomatikament tqassam il-ħlasijiet lill-kontijiet tal-bejjiegħa konnessi. Jekk din il-karatteristika ma tkunx attivata, ikollok bżonn tħallas manwalment lill-bejjiegħa, u tista 'tiċċekkja l-ammonti dovuti lilhom fil-lista tal-kartiera.",
     filter_vendor: {
-      placeholder: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      placeholder: "Iffiltra skond il-bejjiegħ...",
     },
   },
 
@@ -7307,11 +7307,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    vendor_bank: "oġġettħ oġġettġġoġġett",
+      "Din it-taqsima tipprovdi lista dettaljata tat-tranżazzjonijiet kollha għall-kartiera magħżula. Tranżazzjoni ta' ħlas tiġi rreġistrata meta klijent iħallas b'suċċess għal ordni. Jekk ordni tiġi kkanċellata jew parzjalment lura, it-tranżazzjoni ta 'rifużjoni korrispondenti tiġi rreġistrata wkoll hawn.",
+    vendor_bank: "Bank tal-Bejjiegħa",
     order_fee: "oġġett Ħoġġett",
-    order_refund: "oġġett oġġettġġoġġett",
-    reverse_fund: "oġġettġġoġġett oġġettġġoġġett",
+    order_refund: "Ordni Rifużjoni",
+    reverse_fund: "Treġġigħ lura tal-Fond",
     payout: "oġġettġġoġġett",
   },
 
@@ -7319,44 +7319,44 @@ export default {
    * @see BPageMarketplacePayouts
    */
   marketplace_payouts: {
-    title: "oġġettġġoġġett oġġett",
+    title: "Storja tal-Ħlas",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett Ħoġġett, oġġettħoġġett oġġettġġoġġett Stripe",
-    top_up_vendor_action: "oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett",
+      "Din il-karatteristika tissimplifika l-kontabilità għalik u għall-bejjiegħa tiegħek billi żżomm rekord dettaljat tat-tranżazzjonijiet kollha. Il-pagamenti jistgħu jiġu pproċessati manwalment permezz ta’ trasferimenti bankarji jew metodi oħra, jew ġestiti awtomatikament minn fornituri ta’ pagamenti li jappoġġjaw pagamenti maqsuma, bħal Stripe.",
+    top_up_vendor_action: "Top Up Kont tal-Bejjiegħ",
   },
 
   /**
    * @see BPageMarketplacePricings
    */
   marketplace_pricings: {
-    title: "oġġett oġġett",
+    title: "Pjanijiet tal-Ipprezzar",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettħoġġett oġġettġġoġġett 5% oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-    add_pricing_action: "Żoġġett oġġett oġġett",
+      "Stabbilixxi mudelli ta' pprezzar għas-suq tiegħek, bħal tariffa ta' marġni ta' 5% għal prodotti diġitali. Dan jagħmel il-ġestjoni tal-prezzijiet aktar mgħaġġla u aktar effiċjenti.",
+    add_pricing_action: "Żid Pjan tal-Ipprezzar",
   },
 
   /**
    * @see BVendorPricingAdd
    */
   vendor_pricing_add: {
-    title: "oġġett oġġett oġġettġġoġġett",
+    title: "Mudell tal-Ipprezzar tas-Suq",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettħ oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett * (1 + oġġett%).",
+      "Meta tassenja mudell ta' pprezzar lill-prodotti tal-bejjiegħ, il-prezz jiġi kkalkulat awtomatikament bħala Prezz tal-Bejjiegħa * (1 + Kummissjoni%).",
     delete: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħ oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      remove_pricing_action: "oġġettħħoġġett oġġett oġġettġġoġġett",
+        "It-tħassir ta' mudell ta' prezzijiet jaffettwa l-prodotti kollha tal-bejjiegħ marbuta miegħu. Qabel ma tneħħi mudell ta' pprezzar, kun żgur li taġġorna l-prodotti kollha tal-bejjiegħ li tużah u tassenjahom mudell ta' pprezzar differenti.",
+      remove_pricing_action: "Neħħi l-Mudell tal-Ipprezzar",
     },
     inputs: {
       title: {
-        placeholder: "oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
+        placeholder: "eż., Klassi tal-Prodotti Diġitali...",
       },
       description: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        placeholder: "Tista' żżid nota hawn...",
       },
       accept_delete: {
-        true_description: "oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        true_title: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        true_description: "Irrid inħassar dan il-mudell tal-prezzijiet.",
+        true_title: "Ikkonferma t-Tneħħija tal-Mudell tal-Ipprezzar",
       },
     },
   },
@@ -7368,60 +7368,60 @@ export default {
     vendor: {
       title: "Bejjiegħ",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Agħżel il-bejjiegħ li tixtieq tittrasferixxi fondi lilu. Ladarba jintgħażlu, jintwerew l-għażliet ta' ħlas disponibbli. Jekk għamilt bibien ta' ħlas kapaċi li jagħmlu ħlas, dawk l-għażliet se jidhru wkoll hawn.",
     },
     vendor_wallet: "oġġettħ oġġett",
-    vendor_bank_account: "oġġettħ oġġettġġoġġett oġġett",
+    vendor_bank_account: "Kont Bankarju tal-Bejjiegh",
     with_balance_tooltip:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett Stripe Connect, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettċ oġġettġġoġġett oġġettġġoġġett Stripe oġġett oġġettġġoġġett oġġettġġoġġett",
-    with_balance: "oġġettġġoġġett oġġettċ",
-    without_balance: "oġġettġġoġġett oġġettċ - oġġettġġoġġett oġġettà",
+      "Meta tikkonnettja servizzi ta' ħlas bħal Stripe Connect, aħna nġibu u nuru l-bilanċ disponibbli fil-kont Stripe tiegħek bħala referenza.",
+    with_balance: "Bil Bilanċ",
+    without_balance: "Mingħajr Bilanċ - Modalità Mgħaġġla",
     bank_transfer: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Trasferiment Bankarju",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett; oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Dan huwa rekord tal-istorja tal-ħlas. L-ebda flus attwali ma jiġu trasferiti lill-bejjiegħ mis-sistema; trid tħallas manwalment lill-bejjiegħa tiegħek.",
     },
-    vendor_bank: "oġġettħ oġġettġġoġġett",
+    vendor_bank: "Bank tal-Bejjiegħa",
     gateway_in_debug_mode_warning:
-      "oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Peress li l-portal tal-ħlas bħalissa jinsab fil-modalità debug, il-fondi mhux se jiġu trasferiti għal kont reali.",
     payment: {
       title: "Ħlas",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett Stripe oġġettġġoġġett",
+        "Agħżel il-munita u daħħal l-ammont li trid tittrasferixxi lill-bejjiegħ. Jekk iddaħħal ammont negattiv, il-fondi jiġu rtirati mill-kartiera tal-bejjiegħ. Għal kontijiet konnessi b'għażliet ta' ħlas, il-fondi se jitnaqqsu mill-kont konness, bħall-kont Stripe tal-bejjiegħ.",
     },
     history: {
       title: "Storja",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettċ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Parti minn dan il-ħlas ġie rimborsat permezz ta' trasferiment ta' treġġigħ lura, li jfisser li l-bilanċ ġie mnaqqas mill-kont tal-bejjiegħ u rritornat fil-kont tiegħek.",
     },
     refund: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett Ħoġġett (oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett) oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett (oġġettħoġġett Stripe Connect) oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-ammont lura se jitnaqqas mill-bilanċ tal-bejjiegħ. Il-ħlasijiet kollha (jew l-ammonti li jifdal) fil-kont tal-bejjiegħ (bħal Stripe Connect) jiġu rimborsati permezz ta’ trasferiment ta’ treġġigħ lura.",
     },
     inputs: {
       vendor: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        placeholder: "Agħżel bejjiegħ...",
       },
       note: {
         placeholder:
-          "oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista' żżid nota hawn... Din in-nota mhix viżibbli għall-bejjiegħ.",
       },
       accept_refund: {
-        true_description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett",
-        true_title: "oġġettċoġġett & oġġettġġoġġett Ħoġġett",
+        true_description: "Irrid nikkanċella dan il-ħlas.",
+        true_title: "Ikkanċella u Ħlas Rifużjoni",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Fond Maqlub",
         message:
-          "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "It-treġġigħ lura tal-fond tal-bejjiegħ tlesta b'suċċess, bil-flus trasferiti mill-bank għall-kartiera u miżjuda mal-bilanċ tal-kartiera.",
       },
       payout_success: {
         title: "oġġettġġoġġett",
         message:
-          "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Il-ħlas tal-bejjiegħ ġie pproċessat u miżjud b'suċċess.",
       },
     },
   },
@@ -7431,12 +7431,12 @@ export default {
    */
   quota_importer: {
     quota: "oġġettġġoġġett",
-    max_batch_msg: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    max_daily_limit_msg: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    extra_daily_limit_msg: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    add_items_today_msg: "oġġettġġoġġett Żoġġett oġġettġġoġġett",
-    file_statistic_msg: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    used_quota: "oġġettżoġġett oġġettġġoġġett",
+    max_batch_msg: "Numru massimu ta' oġġetti li tista' timporta f'lott wieħed.",
+    max_daily_limit_msg: "Numru massimu ta' oġġetti li tista' timporta f'ġurnata.",
+    extra_daily_limit_msg: "Oġġetti addizzjonali permessi lil hinn mil-limitu ta' kuljum.",
+    add_items_today_msg: "Oġġetti miżjuda llum.",
+    file_statistic_msg: "Statistika għal dan il-fajl.",
+    used_quota: "Kwota użata",
   },
 
   /** {@see BPageShopMarketingCampaign**/
@@ -7473,13 +7473,13 @@ export default {
   shop_theme: {
     theme_colors: "Kuluri tat-tema",
     theme_colors_description:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista' tippersonalizza l-paletta tal-kulur primarju tal-ħanut tiegħek hawn. Kull mudell jista 'jutilizza dawn il-kuluri biex jiġġenera awtomatikament firxa sħiħa ta' kuluri li tallinja mal-marka tiegħek.",
     products_view_mode: "Veduta tal-lista tax-xiri",
     products_view_mode_desc:
       "Tista 'taġġusta l-mod tal-wiri tal-prodotti fil-maħżen tiegħek ibbażat fuq id-daqs tal-iskrin. Din il-modalità se titqies b'mod awtomatiku u mhux se tiġi applikata jekk l-utent jibdel il-modalità tal-wiri.",
 
     tabs: {
-      vendor_page: "oġġettħ oġġettġoġġett",
+      vendor_page: "Paġna tal-Bejjiegħa",
     },
 
     color_light: "Kulur primarju",
@@ -7490,90 +7490,90 @@ export default {
     light_header: "Header ħafif",
     light_footer: "Footer ħafif",
     light_filter: "Tema tal-filtru tal-kategorija",
-    checkout_color: "oġġettċċoġġett oġġett",
+    checkout_color: "Kulur tal-kontroll",
 
     typography: "Tipografija",
     header: "oġġettġġoġġett",
     footer: "oġġettġġoġġett",
     custom_code: "Kodiċi tad-dwana",
-    custom_css: "oġġett oġġettġġoġġett",
+    custom_css: "Custom CSS",
     custom_variants: "Varjanti",
 
     wrap_product_title: {
-      title: "oġġettġġoġġett oġġett",
-      subtitle: "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Kebbeb Titolu",
+      subtitle: "L-għoli tat-titlu se jaġġusta dinamikament.",
     },
 
     animation: {
       title: "oġġettġġoġġett",
       static: {
-        false_title: "oġġettġġoġġett oġġettġġoġġett",
+        false_title: "B'Animazzjonijiet",
         false_description:
-          "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Il-kategoriji u l-prodotti għandhom animazzjoni interattiva biex juru l-funzjonalità.",
         true_title: "Statiku",
-        true_description: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        true_description: "Il-kategoriji u l-prodotti m'għandhom l-ebda animazzjoni.",
       },
     },
 
     quick_actions: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Azzjonijiet Mgħaġġla",
       hover: {
         false_description:
-          "oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Modalità sempliċi u minima mingħajr ebda azzjonijiet żejda fuq il-karti tal-prodotti.",
         true_description:
-          "oġġett oġġettġġoġġett oġġett & Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
-        true_title: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Uri Quick buy & Żid biex tqabbel il-buttuni fuq il-karta tal-prodott iddur.",
+        true_title: "Uri Azzjoni fuq Hover",
       },
     },
     filter_products: {
-      title: "oġġett oġġett",
+      title: "Prodotti Iffiltra",
       only_available: {
-        false_description: "oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        false_description: "Uri l-prodotti kollha fil-lista tal-ħanut bħala default.",
         true_description:
-          "oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        true_title: "oġġett oġġett",
-        false_title: "oġġett oġġett",
+          "Uri biss prodotti disponibbli fil-lista tal-ħanut bħala default.",
+        true_title: "Prodotti Disponibbli",
+        false_title: "Il-Prodotti Kollha",
       },
     },
     filter_categories: {
-      title: "oġġett oġġett",
+      title: "Filtru Kategoriji",
       hide_empty_folders: {
-        false_description: "oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
-        false_title: "oġġett oġġett oġġett",
-        true_title: "oġġettħoġġett oġġettġġoġġett oġġett",
+        false_description: "Uri l-kategoriji kollha fil-lista tal-ħanut.",
+        false_title: "Uri l-Kategoriji Kollha",
+        true_title: "Aħbi Kategoriji Vojta",
         true_description:
-          "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+          "Uri biss kategoriji bi prodotti fil-lista tal-ħanut.",
       },
     },
 
     product_page: {
-      title: "oġġett oġġettġoġġett",
+      title: "Paġna tal-Prodott",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      buy_button_color: "oġġett oġġettġġoġġett oġġett",
+        "Ippersonalizza l-paġna tal-prodott tiegħek hawn. Tista' taġġusta l-wiri tal-prezzijiet u timmodifika l-arranġament tat-taqsimiet skont il-preferenzi tiegħek.",
+      buy_button_color: "Ixtri l-kulur tal-buttuna",
       smart_price: {
-        title: "oġġettġġoġġett Unitàà oġġett",
+        title: "Prezz ta 'unità intelliġenti",
         true_description:
-          "oġġettġġoġġett Unitàà oġġett oġġettġġoġġett oġġettġġoġġett oġġettż, oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 2oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett $5 oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett $2.5/oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Il-kalkolu tal-prezz tal-unità billi jiġi kkunsidrat il-piż, il-volum, u l-proprjetà tal-varjanti tal-pakkett. Eż. Jekk għandek varjant b'daqs 2L u $5 bħala prezz, allura l-klijent jara l-$2.5/L fuq il-paġna tal-prodott.",
       },
       reverse_currency: {
-        title: "oġġett oġġettġġoġġett oġġettżoġġett",
+        title: "Il-pożizzjoni tas-sinjal tal-munita",
         false_title: "Modalità normali",
-        true_title: "oġġettġġoġġett oġġettà",
+        true_title: "Modalità b'lura",
         false_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett: $95, €30",
+          "Is-sinjal tal-munita jitqiegħed fil-bidu tan-numri. Eż: $95 , €30",
         true_description:
-          "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett: 95$, 30€",
+          "Is-sinjal tal-munita jitqiegħed fl-aħħar tan-numri. Eż: 95$ , 30€",
       },
       variants_selector: {
-        title: "oġġett oġġettġġoġġett",
+        title: "Selezzjoni tal-Varjanti",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Tista 'tagħżel modi differenti biex turi varjanti fuq il-paġna tal-prodott.",
       },
 
       tabs_order: {
-        title: "oġġettġġoġġett oġġett",
-        reset_to_default: "oġġettġġoġġett oġġett oġġettġġoġġett",
+        title: "Ordni tat-tabs",
+        reset_to_default: "Irrisettja għal default",
       },
     }, // end: product_page
   },
@@ -7583,20 +7583,20 @@ export default {
    */
   b_shop_theme_vendor: {
     onboarding: {
-      title: "oġġettġġoġġett & oġġettħoġġett",
+      title: "Abbord u Login",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġoġġett, oġġettġġoġġett oġġettġġoġġett",
+        "Ippersonalizza l-esperjenza tal-onboarding u l-login tal-bejjiegħ b'vidjow, immaġni jew messaġġ apposta.",
     },
     inputs: {
       page_vendor_login: {
-        label: "oġġettħ oġġettħoġġett oġġettġoġġett",
+        label: "Paġna tal-Logg tal-Bejjiegħ",
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettżoġġett oġġettġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Agħżel paġna ta' inżul apposta għal login tal-bejjiegħ. Inkludi vidjo, stampi, jew test għal disinn uniku. Din il-paġna tintwera lill-bejjiegħa li mhumiex illoggjati.",
       },
       page_vendor_registered: {
-        label: "oġġettħ oġġettġoġġett oġġettġoġġett",
+        label: "Paġna Reġistrata tal-Bejjiegħ",
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Agħżel paġna apposta għal bejjiegħa li illoggjaw. Din il-paġna tintwera jekk is-suq tiegħek jappoġġja bejjiegħa multipli għal kull utent.",
       },
     },
   },
@@ -7604,25 +7604,25 @@ export default {
   /** @see BShopOptionsVariants **/
   b_shop_options_variants: {
     custom_variants: {
-      title: "oġġett oġġett",
+      title: "Varjanti tad-dwana",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett 24. Selldone",
+        "Prodotti fiżiċi jista 'jkollhom varjanti. Tista 'tbiddel l-isem default tal-varjanti. Is-suġġeriment tagħna huwa li tħalli dawn l-oġġetti bħala default u vojta sabiex selldone jittraduċihom awtomatikament għall-klijenti tiegħek fil-lingwi tagħhom. It-tul massimu huwa 24.",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
-      title: "oġġett oġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Google oġġettġġoġġett",
+      title: "Font tal-Websajt Prinċipali",
+      subtitle: "Agħżel il-font favorit tiegħek minn Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "oġġettġġoġġett oġġettġġoġġett",
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Familja Font",
+        message: "Daħħal il-valur tal-familja tat-tipa.",
       },
       font_res: {
-        label: "oġġettġġoġġett oġġettġġoġġett",
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Riżorsi tat-tipa",
+        message: "Speċifika r-riżors tat-tipa.",
       },
     },
   },
@@ -7630,29 +7630,29 @@ export default {
   /** @see BShopThemeHeader **/
   b_shop_theme_header: {
     logo: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Logo header",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "B'mod awtomatiku, il-logo tal-ħanut tiegħek jintwera fl-intestatura, iżda tista' ttella' logo personalizzat minflok. Jekk il-logo tiegħek m'għandux proporzjon tal-aspett kwadru, jista 'jkollok bżonn taġġusta manwalment l-għoli u l-wisa' għall-aħjar preżentazzjoni.",
     },
     header_title: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Titlu tal-header",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 'oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Tista' tippersonalizza t-titlu muri fl-intestatura tal-paġni tiegħek hawn. Jekk tixtieq tneħħiha kompletament, jekk jogħġbok ikklikkja l-buttuna 'Issettja titolu vojt'.",
     },
 
     inputs: {
       logo: {
-        label: "oġġettġġoġġett oġġettġġoġġett",
+        label: "Logo tad-ditta",
       },
       height: {
-        label: "oġġettġġoġġett oġġettħoġġett",
+        label: "Għoli tal-logo",
       },
       width: {
-        label: "oġġettġġoġġett oġġett",
+        label: "Wisa' tal-logo",
       },
       title: {
-        label: "oġġettġġoġġett oġġett",
-        set_empty: "oġġettġġoġġett oġġettġġoġġett oġġett",
+        label: "Titlu tal-header",
+        set_empty: "Issettja titolu vojt",
       },
     },
   },
@@ -7660,43 +7660,43 @@ export default {
   /** @see ShopThemeVariantsMode**/
   shop_theme_variants_mode: {
     smart: {
-      title: "oġġettġġoġġett oġġettà",
+      title: "Modalità Smart",
       description:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Varjanti kompatti f'għażliet separati li jistgħu jintgħażlu, adattati għall-biċċa l-kbira tal-każijiet.",
     },
     select: {
-      title: "oġġettġġoġġett oġġettà",
+      title: "Agħżel Modalità",
       description:
-        "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Juri l-varjanti kollha fi dropdown, ideali għal numru kbir ta 'varjanti.",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "oġġett oġġettġġoġġett oġġettġġoġġett",
-    add_title: "Żoġġett oġġettġġoġġett oġġettġġoġġett",
+    edit_title: "Editja Sett tal-Proprjetà",
+    add_title: "Żid Sett tal-Proprjetà",
     config: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+        "Issettja titolu u deskrizzjoni għas-sett tal-proprjetà tiegħek. Se jkun viżibbli għall-persunal biss.",
     },
     variants: {
       title: "Varjanti",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 6 oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Tista' tippersonalizza l-isem, l-ikona u l-ordni tal-varjant hawn. Jekk għandek varjetà ta 'prodotti b'varjanti uniċi li ma jaqblux ma' 6 varjanti default, tista 'tissettja varjanti personalizzati għal kull prodott hawn.",
     },
 
     inputs: {
       title: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        placeholder: "Daħħal titolu għal sett ta' proprjetà...",
       },
       description: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
+        placeholder: "Daħħal deskrizzjoni qasira... (mhux obbligatorju)",
       },
       custom_variants: {
-        true_title: "oġġett oġġett",
-        false_title: "oġġettġġoġġett oġġett",
-        true_description: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        false_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        true_title: "Varjanti tad-dwana",
+        false_title: "Varjanti Default",
+        true_description: "Ippersonalizza l-varjanti tal-prodott tiegħek.",
+        false_description: "Uża varjanti globali default.",
       },
     },
   },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
+        placeholder: "Issettja l-valuri stabbiliti... (mhux obbligatorju)",
         messages:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista 'tipprovdi suġġerimenti għall-valuri u tippersonalizza l-ordni.",
       },
     },
   },
@@ -7812,8 +7812,8 @@ export default {
   shop_customers: {
     title: "Ġestjoni tal-Klijenti",
     subtitle:
-      "oġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett; oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett POS, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Online oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    add_customer_action: "Żoġġett Ġoġġett oġġett",
+      "Il-klijenti jistgħu jiżdiedu mal-maħżen tiegħek b'diversi modi; manwalment, importazzjoni bl-ingrossa Excel, permezz tal-POS, jew permezz tal-ħanut online tiegħek. Kull meta utent jidħol fil-maħżen tiegħek, ikun awtomatikament irreġistrat bħala klijent.",
+    add_customer_action: "Żid klijent ġdid",
 
     all_customers: "Niżżel il-klijenti kollha",
     filtered_customers: "Klijenti ffiltrati",
@@ -7827,24 +7827,24 @@ export default {
 
   /** {@see BCustomerAdd**/
   customer_add: {
-    edit_title: "oġġett oġġett",
-    add_title: "Żoġġett Ġoġġett oġġett",
+    edit_title: "Editja klijent",
+    add_title: "Żid klijent ġdid",
     subtitle:
-      "oġġett Żoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettħżoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Biex iżżid klijent fil-maħżen tiegħek, jekk jogħġbok ipprovdi jew indirizz elettroniku jew numru tat-telefon.",
     more: {
       title: "Żid aktar dettalji",
-      subtitle: "oġġettġġoġġett oġġett, oġġett oġġettġġoġġett, oġġett, oġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Issettja l-munita, il-klabb tal-klijenti, is-segmenti, l-indirizz u aktar.",
     },
     detail: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Żomm rekord ta' informazzjoni personali dwar il-klijent tiegħek. Jekk jogħġbok irrispetta l-privatezza tal-klijent tiegħek.",
     },
     preferences: {
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
+      subtitle: "Issettja l-munita default tal-utent, il-klabb tal-klijenti, u s-segmenti hawn.",
     },
     address: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett POS",
+        "Dan l-indirizz jista' jintuża fil-POS. L-utent ma jistax jara din l-informazzjoni.",
     },
   },
 
@@ -7936,13 +7936,13 @@ export default {
       "Wara li tagħti l-pakkett lill-kurrier tat-tbaħħir, ikklikkja l-buttuna <b>Ikkonferma l-Konsenja</b> .",
     message_add_to_service:
       "Ikklikkja l-buttuna li ġejja jekk trid tibgħat dan il-pakkett permezz ta' <b>servizz ta' konsenja</b> .",
-    courier_action: "oġġett oġġettġġoġġett",
-    courier_action_subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    courier_action: "Konferma ta' Kunsinna",
+    courier_action_subtitle: "Il-kurrier tiegħi se jiġbor il-pakkett.",
 
-    pickup_ready_action: "oġġettġġoġġett oġġettġġoġġett",
-    pickup_ready_action_subtitle: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+    pickup_ready_action: "Pickup Lest",
+    pickup_ready_action_subtitle: "L-ordni hija lesta għall-ġbir tal-klijent.",
 
-    service_action: "oġġettġġoġġett oġġettġġoġġett",
+    service_action: "Konferma ta' Eżekuzzjoni",
 
     checklist: [
       "Iċċekkja l-karta tal-identità tal-kurrier.",
@@ -7982,9 +7982,9 @@ export default {
     option_instant_shipping: "Għażla 3: Tbaħħir istantanju.",
 
     verify_delivery_input: {
-      true_title: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      true_title: "Ikkonferma Tlestija tal-Kunsinna",
       true_description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Nikkonferma li l-ordni ġiet ikkunsinnata lill-klijent.",
     },
   },
 
@@ -7994,70 +7994,70 @@ export default {
     sub_title:
       "Issettja l-paġna default tal-websajt tiegħek",
 
-    default_home: "oġġettġġoġġett oġġett oġġettġoġġett",
-    default_home_placeholder: "Ħoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġoġġett",
+    default_home: "Home page default",
+    default_home_placeholder: "Shop page hija l-home page tal-websajt",
   },
   /**
    * @see OReferralBank
    */
   referral_bank: {
-    title: "oġġettġġoġġett oġġett oġġett oġġett",
+    title: "Dashboard ta' Referenza",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    no_bank_info: "oġġett oġġettġġoġġett oġġettġġoġġett!",
+      "Fuq talba tiegħek, il-miżata tal-kummissjoni titħallas fil-kont bankarju speċifikat minnek. Jekk jogħġbok ipprovdi l-informazzjoni bankarja tiegħek hawn.",
+    no_bank_info: "Ebda informazzjoni bankarja!",
     actions: {
-      edit_my_bank_info: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      edit_my_bank_info: "Editja l-Informazzjoni Bankarja Tiegħi",
     },
     bank_dialog: {
-      title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+      title: "Id-Dettalji Bankarji Tiegħi",
       info: {
         title: "oġġettġġoġġett",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett",
+          "Jekk jogħġbok daħħal l-informazzjoni bankarja tiegħek hawn. Se nużaw din l-informazzjoni biex nittrasferixxu fondi. Kun żgur li l-kont bankarju jkun f'ismek jew taħt l-isem tan-negozju tiegħek, kif applikabbli.",
       },
       inputs: {
         name: {
-          label: "oġġettġġoġġett oġġett",
-          message: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          label: "Isem tal-Bank",
+          message: "L-isem sħiħ tal-bank fejn jinżamm il-kont.",
         },
         holder_name: {
-          label: "oġġett oġġettġġoġġett oġġett",
+          label: "Isem tad-Detentur tal-Kont",
           message:
-            "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "L-isem sħiħ tal-persuna jew entità li żżomm il-kont.",
         },
         account_number: {
           label: "Numru tal-kont",
           message:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "In-numru uniku assoċjat mal-kont bankarju speċifiku.",
         },
         routing_number: {
-          label: "oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett) oġġettġġoġġett oġġettġġoġġett oġġettċoġġett (oġġettġġoġġett)",
+          label: "Numru tar-Rotot (USA) jew Sort Code (UK)",
           message:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett oġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett).",
+            "Numru li jidentifika l-fergħa speċifika tal-bank (jintużaw termini differenti f’pajjiżi differenti).",
         },
         swift: {
-          label: "oġġett oġġettċoġġett BIC SWIFT",
+          label: "Kodiċi SWIFT/BIC",
           message:
-            "oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Kodiċi internazzjonali użat biex jidentifika banek globalment, speċjalment għal trasferimenti internazzjonali.",
         },
         iban: {
-          label: "IBAN (oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett)",
+          label: "IBAN (Numru tal-Kont tal-Bank Internazzjonali)",
           message:
-            "oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett IBAN oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Użat primarjament fl-Ewropa, l-IBAN huwa sistema miftiehma internazzjonalment għall-identifikazzjoni ta' kontijiet bankarji bejn il-fruntieri nazzjonali.",
         },
         contact: {
           label: "Dettalji ta 'kuntatt",
-          message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          message: "Numru tat-telefon jew indirizz elettroniku assoċjati mal-kont.",
         },
         note: {
           label: "Nota",
-          message: "oġġettġġoġġett oġġett",
+          message: "Nota żejda",
         },
       },
     },
     notifications: {
       save: {
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        message: "L-informazzjoni bankarja tiegħek ġiet aġġornata b'suċċess.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "oġġett oġġett oġġett oġġettġġoġġett, oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Mill-miżati kollha tas-servizz, abbonament u ħlasijiet oħra magħmula mir-referenzi tiegħek.",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Tier Bronż",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 2% oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inti fil-Livell tal-Bronż. Int qlajt 2% kummissjoni mir-referenzi tiegħek.",
     },
     Silver: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Tier Silver",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 4% oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inti fil-Livell tal-Fidda. Qlajt 4% kummissjoni mir-referenzi tiegħek.",
     },
     Gold: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Saff Deheb",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 6% oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inti fil-Livell tad-Deheb. Int qlajt 6% kummissjoni mir-referenzi tiegħek.",
     },
     Platinum: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Livell Platinum",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 8% oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inti fil-Livell tal-Platinum. Int qlajt 8% kummissjoni mir-referenzi tiegħek.",
     },
     Diamond: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Saff Diamond",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 10% oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inti fil-Livell Diamond. Int qlajt 10% kummissjoni mir-referenzi tiegħek.",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "Monetizza",
-    subtitle: "oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Ifrex aċċess għal opportunitajiet ta' negozju.",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Ħlasijiet ta' Riferiment",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Hija l-lista ta 'tranżazzjonijiet ta' rtirar. Meta tittrasferixxi l-fond mill-kartiera tar-riferiment għall-kont bankarju tiegħek jew il-kartiera Selldone tiegħek, dan ikun elenkat hawn.",
 
     officer: "Uffiċjal",
     amount: "Transazzjoni ta' ammont",
@@ -8520,141 +8520,141 @@ export default {
     manage: {
       title: "oġġettġġoġġett SMS",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tara l-kontenut tal-messaġġi mibgħuta mill-maħżen tiegħek hawn. Minħabba l-limitazzjoni fir-reġistrazzjoni tal-mudelli ta 'validazzjoni fis-servizz tal-messaġġi, mhuwiex possibbli li jiġu personalizzati l-messaġġi tat-test fil-mument.",
     },
 
     template: {
       title: "oġġettġġoġġett",
-      valid_message: "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett SMS oġġettġġoġġett",
-      provider_not_enable_message: "oġġettġġoġġett SMS oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
+      valid_message: "Tista 'toħloq messaġġi SMS personalizzati.",
+      provider_not_enable_message: "Il-fornitur tal-SMS mhuwiex attivat!",
       need_custom_provider_message:
-        "oġġettġġoġġett SMS oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Messaġġi SMS personalizzati jaħdmu biss jekk issettja fornitur tad-dwana.",
       add_new: "Żoġġett Ġoġġett",
       disable_reason: {
-        set_provider: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        provider_is_disabled: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        otp: "oġġettġġoġġett - oġġettġġoġġett oġġettġġoġġett!",
-        select_another_provider: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        set_provider: "Issettja l-fornitur tiegħek l-ewwel!",
+        provider_is_disabled: "Il-fornitur huwa diżattivat!",
+        otp: "OTP - Xejn customizable!",
+        select_another_provider: "Agħżel fornitur ieħor.",
       },
-      enable_only_filter: "oġġett oġġettġġoġġett oġġett",
+      enable_only_filter: "Uri biss attivat",
 
       text_template_not_supported_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-fornitur tiegħek ma jappoġġjax messaġġi sempliċi.",
       structure_template_not_supported_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett",
+        "Il-fornitur tiegħek ma jappoġġjax messaġġi strutturali.",
 
-      structured_data: "oġġettġġoġġett oġġettġġoġġett",
+      structured_data: "Data Strutturata",
 
       menu: {
-        reset_error: "oġġettġġoġġett oġġettġġoġġett",
-        send_test: "oġġettħoġġett oġġettġġoġġett oġġettġġ",
+        reset_error: "Irrisettja l-iżbalji",
+        send_test: "Ibgħat messaġġ tat-test",
       },
     },
     template_edit: {
-      title_add: "Żoġġett Ġoġġett oġġettġġ oġġett",
-      title_edit: "oġġett oġġettġġ oġġett",
+      title_add: "Żid mudell ġdid ta' messaġġ",
+      title_edit: "Editja l-mudell tal-messaġġ",
       config: {
         title: "oġġettġġ oġġett",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett SMS oġġettġġ oġġettġġoġġett oġġettġġoġġett SMS oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SMS oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista' toħloq mudell għall-messaġġ SMS fuq il-websajt tal-fornitur tal-SMS tiegħek, imbagħad speċifika l-kodiċi u l-istruttura tad-dejta tiegħu hawn. Aħna ser nibagħtu din l-informazzjoni lill-fornitur tiegħek, fejn il-messaġġ SMS attwali se jiġi ġġenerat.",
         code: "Kodiċi",
-        language_msg: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        enable_msg: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettħoġġett oġġettġġoġġett",
+        language_msg: "Ħalliha vojta biex issettjaha bħala default.",
+        enable_msg: "Dan il-mudell se jintuża biex jinħolqu messaġġi.",
       },
       text: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Test sempliċi",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SMS oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Daħħal messaġġ SMS personalizzat hawn. Il-valuri dinamiċi se jiġu sostitwiti bil-valuri attwali tagħhom qabel ma jintbagħtu lill-utent.",
         message: "Messaġġ",
-        reset_to_default: "oġġettġġoġġett oġġett oġġettġġoġġett",
+        reset_to_default: "Irrisettja għal default",
 
         auto_fill: {
-          title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          title: "Parametri tal-mili awtomatiku",
           subtitle:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Tista 'tuża kull wieħed minn dawn il-parametri fit-test u Selldone se jissostitwihom bil-valur korrispondenti.",
         },
 
         sample: {
-          title: "oġġettġġoġġett oġġettġġ",
+          title: "Kampjun ta' messaġġ",
         },
       },
       template: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Mudell Strutturali",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ċoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SMS oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett <code>Ċoġġett</code> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <code>oġġett</code> oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett <code>{code}</code> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        add_new_parameter: "Żoġġett Ġoġġett oġġettġġoġġett",
+          "Tista 'tissettja ċ-ċavetta u l-valur tal-mudell hawn. Il-kodiċi tal-mudell għandu jkun eżattament dak li ssettja fil-fornitur tas-servizz tal-SMS tiegħek, u l-<code>key</code> huwa minnu li l-fornitur tiegħek irid jibgħat il-kodiċi. Jekk il-qasam <code>value</code> tal-mudell huwa vojt, allura <code>{code}</code> jitqies bħala l-kodiċi tal-mudell.",
+        add_new_parameter: "Żid parametru ġdid",
 
         auto_fill: {
-          title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          title: "Parametri tal-mili awtomatiku",
           subtitle:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SMS oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Tista 'tissettja kull wieħed minn dawn il-parametri bħala valur, u Selldone se jissostitwihom bil-valur korrispondenti. Huwa aħjar li tiddefinixxi l-valuri awtomatiċi bħala mudelli fil-fornitur tal-SMS tiegħek għas-sempliċità. F'dan il-każ, mhux se jkun hemm bżonn li jiġu definiti l-valuri tal-parametri hawnhekk.",
         },
         request: {
-          title: "oġġettġġoġġett oġġettġġoġġett",
+          title: "Tagħbija tal-kampjun",
         },
         sample: {
-          title: "oġġettġġoġġett oġġett oġġettġġ",
-          subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett SMS oġġettġġoġġett",
+          title: "Kampjun ta 'messaġġ mudell",
+          subtitle: "Tista' tikkopja u tgħaddi dan il-mudell lill-fornitur tal-SMS tiegħek.",
         },
-        add_message_action: "Żoġġett oġġettġġ oġġett",
+        add_message_action: "Żid il-mudell tal-messaġġ",
       },
     },
   },
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      desc: "oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Test sempliċi",
+      desc: "Il-messaġġ se jinħoloq minn test b'parametri ta' sostituzzjoni awtomatika u jibgħat.",
     },
     template: {
-      title: "oġġettġġoġġett oġġett",
-      desc: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Mudell Strutturali",
+      desc: "Oġġett se jinħoloq mill-parametri u jibgħat lill-fornitur.",
     },
   },
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
-    title: "oġġett SMS oġġettġġoġġett",
-    reset_error: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Fornitur tal-SMS personalizzat",
+    reset_error: "Irrisettja l-iżbalji",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett SMS oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SMS oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett SMS oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    plain_text: "oġġettġġoġġett oġġettġġoġġett",
-    structural_template: "oġġettġġoġġett oġġett",
+      "Stabbilixxi fornitur tas-servizz tal-SMS apposta u ppersonalizza l-SMS tal-awtentikazzjoni u l-isem tan-negozju tiegħek. Il-fornitur default biss jibgħat SMS ta 'awtentikazzjoni u jinforma messaġġi f'xi pajjiżi fil-lista bajda.",
+    plain_text: "Test sempliċi",
+    structural_template: "Mudell strutturali",
     errors_limit_msg:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett 100 oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett! oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Jekk is-servizz tiegħek jaqbeż il-100 żball, ikun diżattivat awtomatikament! Tista' tirrisettja l-iżbalji biex terġa' tagħmilha.",
 
     enable_input: {
       false_description:
-        "oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett SMS oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-messaġġi OTP se jintbagħtu permezz ta' Selldone f'pajjiżi magħżula, filwaqt li SMS ta' notifika ta' ordnijiet oħra jintbagħtu wkoll.",
       true_description:
-        "SMS oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Il-messaġġi SMS se jitwasslu permezz tal-fornitur tas-servizz tiegħek.",
     },
     test_input: {
-      true_title: "oġġettġġoġġett oġġettġġoġġett",
+      true_title: "Ivvalida Konfigurazzjoni",
       true_description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 📞 <b>{phone}</b>, oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Aħna nibagħtu messaġġ tat-test lin-numru tat-telefon tiegħek 📞 <b>{phone}</b>, jista 'jiċċarġjak, iżda tista' tiżgura li kollox jaħdem tajjeb.",
     },
     sync_action: {
       title: "Azzjonijiet",
       subtitle:
-        "oġġettġġoġġett SMS oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      action: "oġġettġġoġġett oġġett",
+        "Xi servizzi SMS jipprovdu servizzi żejda bħal kampanji, marketing, u karatteristiċi oħra. Tista 'tissinkronizza l-kuntatti tiegħek jew informazzjoni addizzjonali biex tuża l-karatteristiċi tagħhom aktar malajr.",
+      action: "Issinkronizza l-kuntatti",
     },
     tokens: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett SMS oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Issettja l-parametri li ġejjin biex tgħaqqad il-fornitur tas-servizz tal-SMS tiegħek mal-ħanut tiegħek.",
     },
   },
   sms_messages_options: {
     all: {
-      title: "oġġettġġoġġett + oġġett oġġett",
+      title: "OPT + Notifiki tal-Ordni",
       description:
-        "oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Se jintbagħtu messaġġi ta' awtentikazzjoni u notifika tal-ordni.",
     },
     otp: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      description: "oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "OTP Biss",
+      description: "Se jintbagħtu messaġġi ta' awtentikazzjoni.",
     },
   },
 
@@ -8671,7 +8671,7 @@ export default {
     },
 
     preferences: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Emails ta' notifika",
     },
   },
 
@@ -8679,47 +8679,47 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+    title: "Server tal-posta apposta",
     subtitle:
-      "Connect oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Qabbad il-fornitur tas-servizz tal-posta tiegħek biex tibgħat emails permezz tad-dominju tad-dwana tiegħek.",
     provider: "oġġettġġoġġett",
     enable_input: {
-      false_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      true_description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      false_description: "L-emails tiegħek jintbagħtu permezz tad-dominju myselldone tiegħek.",
+      true_description: "L-emails tiegħek jintbagħtu permezz tad-dominju tal-posta personalizzat tiegħek.",
     },
     config: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett, oġġettġġoġġett oġġettġġoġġett oġġett API Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Biex tikkonfigura s-servizz tal-posta tad-dwana tiegħek għall-ħanut tiegħek, daħħal iċ-ċavetta tal-API tas-servizz tiegħek flimkien ma' settings oħra meħtieġa.",
     },
     sender: {
       title: "Minn",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tikkonfigura l-isem u l-indirizz elettroniku tal-mittent default, li se jintużaw biex jintbagħtu emails lill-klijenti tiegħek.",
     },
 
     inputs: {
       from: {
-        label: "oġġett oġġettġġoġġett",
+        label: "Mill-Email",
       },
       from_name: {
-        label: "oġġett oġġett",
+        label: "Minn Isem",
       },
     },
 
     actions: {
-      send_test_email: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      send_test_email: "Ibgħat email tat-test",
     },
 
     messages: {
       provider_error_limit:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett 100 oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett! oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Jekk is-servizz tiegħek jaqbeż il-100 żball, ikun diżattivat awtomatikament! Tista' tirrisettja l-iżbalji biex terġa' tagħmilha.",
 
       encryption_ports_guide:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġett SSL, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett: <b>587</b> oġġettġġoġġett <b>SSL</b> oġġettġġoġġett oġġettġġoġġett: <b>465</b>.",
+        "Fornituri tal-email jistgħu joffru SSL, TLS, jew konnessjonijiet mhux kriptati bbażati fuq portijiet disponibbli. Jekk il-konnessjoni tirriżulta fi żball, it-tibdil tal-mod ta 'kriptaġġ jista' jsolvi l-kwistjoni. Standard <b>TLS</b> juża Port : <b>587</b> u <b>SSL</b> juża Port : <b>465</b>.",
 
       enable_receive_test:
-        "oġġettġġoġġett Ħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>{email}</b>. Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+        "Wara li tissejvja l-bidliet, tirċievi posta tat-test fuq <b>{email}</b>. Issejvja l-bidliet qabel ma tibgħat email tat-test bil-konfigurazzjoni l-ġdida.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram oġġettħ oġġett",
     subtitle:
-      "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Instagram oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Oħloq kategorija ddedikata għall-prodotti tiegħek, kompluta bi stampi u vidjows, u aqsamha mal-midja soċjali tiegħek. Huwa simili għal Instagram u TikTok, iżda b'kontroll sħiħ, li jippermettilek tbigħ direttament il-prodotti tiegħek.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8801,7 +8801,7 @@ export default {
     service: {
       title: "Disinn tas-Servizz",
       sub_title:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-ewwel agħżel it-tip tas-servizz tiegħek u daħħal l-informazzjoni meħtieġa. Pereżempju, tista 'tiddefinixxi lista ta' todo jew titlob lill-klijent għal ħin ta' prenotazzjoni jew appuntament.",
     },
   },
 
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "It-taxxa għandha tiżdied mal-prezz finali.",
     invoice: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Billi tuża din il-formola, tista' toħloq link għall-ħlas għal ammont speċifiku. Jagħmel ukoll it-traċċar tal-fattura u l-konferma tat-tlestija tal-ħlas sempliċi u faċli.",
     },
   },
 
@@ -8946,69 +8946,69 @@ export default {
     notifications: {
       delete_success: "Fajl imħassar b'suċċess.",
     },
-    drag_sort_msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    paid_mode_msg: "oġġett oġġettġġoġġett oġġettżżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    drag_sort_msg: "Tista 'tkaxkar u ssortja fajls.",
+    paid_mode_msg: "L-utenti jistgħu jniżżlu biss wara li jixtru l-prodott.",
     free_mode_msg:
-      "oġġett oġġettġġoġġett oġġettżżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 50 oġġettġġoġġett",
+      "L-utenti jistgħu jniżżlu b'xejn. Il-fajls tal-kampjun iridu jkunu taħt il-50 MB.",
     has_gust_shopping_msg:
-      "oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettżżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett > oġġettġġoġġett",
+      "L-utenti reġistrati u mistiedna jistgħu jniżżlu fajls peress li x-xiri tal-mistednin huwa attivat fis-settings tal-ħanut > fluss.",
     only_registered_shopping_msg:
-      "oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettżżoġġett oġġettġġoġġett oġġettġġoġġett",
-    file_count_limit: "oġġett oġġettħŻid oġġett",
+      "Utenti reġistrati biss jistgħu jniżżlu fajls kampjun.",
+    file_count_limit: "Limitu tal-għadd tal-fajls",
   },
 
   /**
    * @see BProductLocationRestrictionsList
    */
   product_location_restrictions: {
-    title: "oġġett oġġett",
+    title: "Postijiet Disponibbli",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett, oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Jekk il-prodott jew is-servizz tiegħek huwa disponibbli biss f'reġjuni speċifiċi, definiti mill-pajjiż u l-kodiċijiet zip jew pin, tista' tagħżel dawk il-postijiet hawn. Dawn ir-restrizzjonijiet tal-post huma infurzati fil-livell tal-prodott. Fuq il-paġna tal-prodott, il-klijenti jiġu mħeġġa biex jagħżlu l-post tagħhom. Jekk il-prodott ikun disponibbli fiż-żona magħżula tagħhom, ikunu jistgħu jipproċedu bix-xiri.",
 
     add_location_action: "Żoġġett oġġettż",
-    no_restriction: "oġġett oġġettġġoġġett",
+    no_restriction: "L-ebda restrizzjoni",
     import: {
-      title: "oġġettġġoġġett oġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Profil tat-tagħbija",
+      subtitle: "Agħżel profil ta' postijiet salvati.",
     },
     export: {
       title: "Ħoġġett oġġett",
-      subtitle: "oġġettħżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Aħżen postijiet għall-użu fil-futur.",
     },
     has_restriction_input: {
-      title: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Għandu restrizzjoni tal-post",
       description:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Il-klijenti jistgħu jixtru dan il-prodott biss fil-pajjiż speċifikat u l-kodiċi zip, minħabba r-restrizzjoni tal-post stabbilita.",
     },
-    zip_pin_code: "oġġettġġoġġett / oġġettġġoġġett oġġettċoġġett",
+    zip_pin_code: "Zip / Kodiċi tal-Pin",
     no_country_selected_error:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    tips: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>+ Żoġġett oġġettż</b> oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>⋮ oġġett</b> oġġettġġoġġett oġġettġġoġġett <b>Ħoġġett oġġett</b>.",
+      "Jekk jogħġbok inkludi mill-inqas pajjiż wieħed flimkien ma' lista ta' kodiċijiet zip/pin. Mingħajr dan, dan il-prodott ma jkunx disponibbli.",
+    tips: "Ikklikkja fuq il-buttuna <b>+ Żid Pajjiż</b> biex tibda toħloq sett ġdid ta' post. Ladarba tkun lest, tista' ssalvaha billi tikklikkja fuq il-lemin ta' fuq <b>⋮ Menu</b> u tagħżel <b>Save Profile</b>.",
     need_save_message:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 'Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Is-settings tar-restrizzjoni tal-post għall-prodott ġew mibdula. Biex tippreserva dawn il-bidliet, jekk jogħġbok ikklikkja fuq il-buttuna 'Save' hawn taħt.",
 
     add_dialog: {
       title: "Żoġġett oġġettż",
       message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettż oġġettġġoġġett oġġettġġoġġett 'oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettż oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Agħżel pajjiż u kklikkja 'Żid'. Dan se jehmeż il-pajjiż mat-tabella, li jippermettilek tassenjalu Zipcodes, Pin codes, ismijiet ta' bliet, jew ismijiet ta' Reġjuni.",
     },
     save_profile_dialog: {
-      title: "Żoġġett oġġett oġġett",
+      title: "Żid Profil tal-Lokazzjonijiet",
       message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+        "Jekk jogħġbok daħħal isem biex issalva dan is-sett ta' postijiet. Dan is-sett ta 'lokazzjoni ffrankata jista' jiġi applikat għal prodotti oħra, li jippermetti tagħbija ta 'lokalità malajr bi klikk waħda biss. Jekk profil bl-isem ipprovdut diġà jeżisti, se jiġi aġġornat b'dawn il-valuri ġodda.",
       title_input: {
-        title: "oġġett oġġett",
-        placeholder: "oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettħżoġġett oġġett,...",
+        title: "Titolu tal-profil",
+        placeholder: "Isem tal-kategorija, jew isem tal-maħżen,...",
       },
     },
     load_profile_dialog: {
-      title: "oġġettġġoġġett oġġett oġġett",
+      title: "Tagħbija Profil tal-Lokazzjonijiet",
       message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tagħbija postijiet billi tagħżel post issettjat qabel issettjat hawn.",
 
       select_input: {
-        title: "oġġett oġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Profil tal-Post",
+        placeholder: "Agħżel profil...",
       },
     },
   },
@@ -9028,19 +9028,19 @@ export default {
   selldone_applications: {
     title: "Titlifx l-ordnijiet tiegħek!",
     msg: "Immaniġġja n-negozju tiegħek kullimkien u f'kull ħin.",
-    scan_qr_code: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+    scan_qr_code: "Skanni bit-telefon tiegħek!",
 
     notification: {
       title: "Notifika",
-      subtitle: "oġġettġġoġġett Ġoġġett oġġett oġġettġġoġġett",
+      subtitle: "Ikseb notifika ta' ordnijiet ġodda.",
     },
     order: {
       title: "Ordnijiet",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Ara l-ordnijiet tiegħek u mmaniġġjahom.",
     },
     product: {
       title: "Prodotti",
-      subtitle: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      subtitle: "Ġestjoni tal-inventarju u sempliċi tal-prodott.",
     },
   },
 
@@ -9098,8 +9098,8 @@ export default {
       desc: "Jekk għandek bżonn tikkonferma proċess fil-maħżen, l-email rilevanti tintbagħat f'dan l-indirizz. Per eżempju biex tikkonferma l-bgħit ta 'email ta' kummerċjalizzazzjoni lill-utenti tal-maħżen.",
     },
     bulk: {
-      title: "oġġettġġoġġett oġġett oġġett",
-      desc: "oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Rapport tal-Ordni ta' Kuljum",
+      desc: "Irċievi email kuljum bid-dettalji tal-ordnijiet għal dak il-jum.",
     },
   },
 
@@ -9119,7 +9119,7 @@ export default {
       title: "Ingħaqad ma' Selldone business OS biex tikseb vawċer ta' $99 b'xejn.",
       description:
         "Nistednek lil Selldone biex tibda n-negozju tiegħek online b'għodda meraviljuża.",
-      hashtags: "oġġettġġoġġett,oġġettġġoġġett",
+      hashtags: "ecommerce,websiteBuilder",
       quot: "Bnejt ħanut online minn Selldone, tista 'wkoll tagħmel in-negozju tiegħek issa.",
     },
   },
@@ -9131,15 +9131,15 @@ export default {
       "Lista tal-ħwienet tiegħi stess, permessi u ħwienet tal-kampjuni.",
 
     sample: {
-      title: "oġġettġġoġġett Ħoġġett",
+      title: "Ħwienet tal-Kampjuni",
       subtitle:
-        "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hawnhekk, tista 'tiskopri għażla ta' ħwienet tal-kampjuni. Int tingħata l-permess biex teżamina b'attenzjoni l-informazzjoni disponibbli f'dawn il-ħwienet. Madankollu, jekk jogħġbok żomm lura milli tidħol jew tagħmel ordnijiet billi tuża informazzjoni personali reali, peress li din id-dejta tkun aċċessibbli għall-pubbliku. Jekk aċċidentalment iddaħħal l-informazzjoni tiegħek hawn, ġentilment toħroġ mill-maħżen u ikkuntattjana għal aktar għajnuna.",
     },
 
-    add_new_store: "Żoġġett Ġoġġett oġġettħżoġġett",
-    i_have_a_deal: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    add_new_store: "Żid Aħżen Ġdid",
+    i_have_a_deal: "Għandi ftehim",
     access: {
-      title: "oġġettċċoġġett oġġettġġoġġett",
+      title: "Stedina Aċċess",
     },
   },
 
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategoriji tal-Blog",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 100, oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista 'toħloq numru limitat ta' kategoriji għall-postijiet tal-blog tiegħek biex timmaniġġjahom b'mod aktar effiċjenti. Li jkollok limitu ta' kategorija jippromwovi organizzazzjoni aħjar fuq il-websajt tiegħek. Notevolment, anke l-aqwa aġenziji tal-aħbarijiet iżommu numru limitat ta’ kategoriji, ħafna drabi inqas minn 100, biex jissimplifikaw il-ġestjoni u jżommu fokus usa’.",
 
     add_action: "Żid kategorija ġdida",
     add_dialog: {
@@ -9182,9 +9182,9 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett ",
+    title: "Skeda ta' Ħruġ tal-Kontenut",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Hawnhekk hawn il-lista ta' artikli skedati stabbiliti għal pubblikazzjoni futura. Int għandek il-ħila li tiskeda blog posts u anke deskrizzjonijiet tal-prodotti biex jiġu ppubblikati f'ħinijiet speċifiċi.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Ordnijiet Assistent",
     subtitle:
-      "oġġett oġġettġġoġġett oġġettżżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett - oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 100 oġġett oġġettġġoġġett",
+      "Esportazzjoni u tniżżel tikketti għall-ipproċessar ta 'ordnijiet bl-ingrossa - ideali għall-immaniġġjar ta' aktar minn 100 ordni kuljum.",
 
     timespan: {
       title: "Perjodu ta' żmien",
@@ -9266,7 +9266,7 @@ export default {
       title: "Metodi ta' login",
       subtitle: "Ippersonalizza l-mod kif l-utenti jidħlu fil-maħżen tiegħek.",
 
-      tips: "<b>oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett, oġġettġġoġġett oġġettġġoġġett Selldone oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      tips: "<b>Importanti.</b> Meta utent jirreġistra mal-ħanut tiegħek, jinħoloq utent Selldone korrispondenti, jekk wieħed ma jkunx diġà jeżisti. Dan l-utent ikollu aċċess għall-ktieb tal-indirizzi tiegħu fil-ħwienet kollha u jista’ jara l-istorja tal-ordnijiet tiegħu, anki jekk ħanut ikun għalaq. Aħna ma nużawx din l-informazzjoni għal skopijiet ta’ kummerċjalizzazzjoni iżda neħtieġuha biex nipprevjenu l-frodi fuq iż-żewġ naħat. Biex inżommu t-trasparenza, aħna nibagħtu email lill-utent biex ninfurmawh bir-reġistrazzjoni tiegħu.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9284,7 +9284,7 @@ export default {
       mode: {
         title: "Il-punt tal-login tal-klijenti",
         default: {
-          title: "oġġettġġoġġett (oġġettġġoġġett)",
+          title: "ASAP (Default)",
           msg: "L-utenti jidħlu mill-aktar fis possibbli. (Aktar konverżjoni)",
         },
         on_checkout: {
@@ -9317,9 +9317,9 @@ export default {
 
     /** {@see BShopOptionsCheckoutForm} **/
     checkout_form: {
-      title: "oġġettċċoġġett oġġettġġoġġett",
+      title: "Formola ta' checkout",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ippersonalizza l-oqsma tal-formola tal-ħlas biex tiġbor l-informazzjoni li għandek bżonn mingħand il-klijenti tiegħek.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "Il-bejjiegħa tiegħi",
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġett oġġettħ oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Din hija lista tal-kontijiet tal-bejjiegħ tiegħek. Il-kontijiet kollha tal-bejjiegħ assoċjati mal-ħwienet li jutilizzaw il-pjattaforma Selldone se jintwerew hawn, li jippermettulek timmaniġġjahom b'faċilità.",
   },
 
   vendor_page: {},
@@ -9485,7 +9485,7 @@ export default {
       name: "oġġettġġoġġett",
       title: "oġġettġġoġġett",
       description:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Dan il-prodott mhuwiex elenkat fil-maħżen, iżda aċċessibbli b'link dirett.",
     },
   },
 
@@ -9493,18 +9493,18 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
+    title: "Ibgħat Talba Diretta",
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 3 oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett Selldone",
-    expand_action: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    input_label: "oġġettġġoġġett oġġettġġoġġett",
+      "Identifika l-aqwa 3 bżonnijiet tan-negozju tiegħek biex jirnexxu u jagħmlu qligħ fuq Selldone. Din l-informazzjoni se tinqasam direttament mal-fundaturi u d-diretturi u tiġi kkunsidrata bir-reqqa. Tista' wkoll taġġorna l-bżonnijiet tiegħek maż-żmien wara s-sottomissjoni.",
+    expand_action: "Ikteb it-talba...",
+    input_label: "It-Talba Tiegħek",
     to: {
-      ceo: "oġġettħoġġett oġġett oġġettġġoġġett",
-      team: "oġġettħoġġett oġġett oġġettġġoġġett",
+      ceo: "Ibgħat lill-CEO",
+      team: "Ibgħat lit-Tim",
     },
     placeholder: {
-      ceo: "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett\noġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      team: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett\noġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      ceo: "Assolutament l-ebda ħtieġa li tkun sbieħ, inħobb nisma 'titlob dirett, dritt għall-punt tiegħek.\neż. Għandi bżonn li jkolli...",
+      team: "Jekk jogħġbok ipprova kun sabiħ magħhom.\neż. Għandi bżonn li jkolli...",
     },
   },
 
@@ -9512,22 +9512,22 @@ export default {
    * BInventoryFilter
    */
   inventory_filter: {
-    placeholder: "oġġettġġoġġett oġġett *.*",
+    placeholder: "Agħżel Iffiltra *.*",
   },
   /**
    * BVendorInput
    */
   vendor_input: {
-    placeholder: "oġġett oġġettġġoġġett",
+    placeholder: "Iffiltra bejjiegħ...",
   },
 
   /**
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "oġġettġġoġġett oġġett oġġett",
+    title: "Ipproċessar prodotti importati",
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett",
+      "Aħna qegħdin fil-proċess ta 'importazzjoni ta' prodotti u stampi, li jistgħu jieħdu xi żmien biex jitlestew.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "L-informazzjoni murija hawn ġiet sottomessa mill-klijent, skont l-istruttura tal-formola tal-input tal-prodott.",
   },
 
   /**
@@ -9544,49 +9544,49 @@ export default {
   shop_connect: {
     test: {
       title: "jaħżen",
-      subtitle: "oġġettġġoġġett oġġett oġġett",
-      action: "oġġettġġoġġett oġġettġġoġġett",
-      last_update: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Rapport tas-servizz estern",
+      action: "Konnessjoni tat-test",
+      last_update: "Aġġornata l-aħħar minn",
     },
     service_status: {
       title: "oġġett Status",
-      syncing_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      action: "oġġettġġoġġett oġġett",
+      syncing_message: "Dwar il-proċess tas-sinkronizzazzjoni...",
+      action: "Issinkronizza kollox",
       connect_status: "Status tal-konnessjoni",
       service_status: "oġġett Status",
-      auto_confirm_enable_msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      auto_confirm_enable_msg: "Il-konferma awtomatika għall-ordnijiet hija attivata.",
       auto_confirm_disable_msg:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-konferma awtomatika tal-ordnijiet mhix attivata.",
       shipping_enable_msg:
-        "oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-ispiża tat-tbaħħir tiġi kkalkulata abbażi tal-informazzjoni pprovduta waqt iċ-checkout.",
     },
     detail: {
       title: "Connect oġġettġġoġġett",
-      auto_confirm_order: "oġġettġġoġġett oġġettġġoġġett oġġett",
-      test_mode: "oġġettġġoġġett oġġettà",
+      auto_confirm_order: "Auto jikkonferma l-ordnijiet",
+      test_mode: "Mod tat-test",
       status: {
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        subtitle: "Informazzjoni ġenerali dwar l-istatus tas-sinkronizzazzjoni.",
       },
       sync: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Dettall tas-sinkronizzazzjoni",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        no_data: "oġġett oġġettġġoġġett oġġettġġoġġett!",
+          "Dettalji tas-sinkronizzazzjoni interna. Din l-informazzjoni tiġi ffrankata wara li tintemm b'suċċess epoch tal-proċess tas-sinkronizzazzjoni.",
+        no_data: "L-ebda informazzjoni dwar is-sinkronizzazzjoni!",
       },
     },
 
     products: {
       title: "Prodotti",
       subtitle:
-        "oġġett oġġettġġoġġett Żoġġett oġġett oġġett {name}. oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett Connect oġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett</b> oġġettġġoġġett <b>oġġettġġoġġett</b>, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett! SKU",
-      action: "oġġettġġoġġett oġġett",
-      syncing_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Lista ta' prodotti miżjuda minn {name}. Kun żgur li l-prodott tiegħek għandu isem u SKU uniċi. Xi servizzi Connect jintużaw għall-migrazzjoni, allura jekk għandek prodotti b'<b>SKUs</b> u <b>Names</b> duplikati, dawk il-prodotti se jinbidlu!",
+      action: "Ġib prodotti",
+      syncing_message: "Dwar il-proċess tas-sinkronizzazzjoni...",
     },
 
     logs: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 7 oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Il-lista taz-zkuk kollha fl-aħħar 7 ijiem. Karatteristika tal-illoggjar appoġġjata biss fuq fornituri esterni tas-servizz.",
     },
 
     edit: {
@@ -9595,57 +9595,57 @@ export default {
       service: {
         title: "Servizz",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+          "Agħżel pjattaforma fil-mira, fornitur dropshipping, jew suq biex tikkonnettja.",
       },
       test: {
-        false_title: "oġġettġġoġġett oġġett",
-        false_desc: "oġġettġġoġġett oġġett oġġett oġġett, oġġett, oġġettġġoġġett",
-        true_title: "oġġettġġoġġett (oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett)",
+        false_title: "Issinkronizza kollox",
+        false_desc: "Ikseb il-prodotti, il-kategoriji, il-klijenti kollha disponibbli.",
+        true_title: "Limitat (Rakkomandat għal dawk li jibdew)",
         true_desc:
-          "oġġettġġoġġett oġġettġġoġġett 5 oġġett, oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett Connect > oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ikseb massimu ta' 5 prodotti, kategoriji u klijenti. Tista' ddawwarha għall-mod sħiħ fil-Konness> Setting fi kwalunkwe ħin.",
       },
       overwrite: {
-        false_title: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        false_desc: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        false_title: "Tibdilx jekk teżisti",
+        false_desc: "Żomm id-dettalji tal-prodott u l-kategorija eżistenti kif inhuma.",
         true_title: "oġġettġġoġġett",
         true_desc:
-          "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Aġġorna l-informazzjoni eżistenti dwar il-prodott, il-varjant u l-kategorija.",
       },
       migration_tips:
         "<b>Tips: </b>If you want to test the functionality please select\n" +
         "            <b>Limited</b> option. By selecting 'Sync all', we get all data from your connected services and download related images, so it will reduce your free storage. Also, removing many products, categories, and customers would be hard!",
-      add_action: "oġġettġġoġġett oġġettġġoġġett oġġett",
+      add_action: "Konnessjoni awtomatika ma '",
       order: {
         title: "oġġett Status",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett (oġġettġġoġġett oġġettġġoġġett), oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Ikkonfigura s-settings tal-ġestjoni tal-ordnijiet tas-servizz konness għall-maħżen tiegħek. Dan jinkludi t-twaqqif tal-aċċettazzjoni tal-ordni, li tippermetti konferma awtomatika tal-ordni (jekk appoġġjata), u l-konfigurazzjoni tal-kalkoli tal-ispiża tat-tbaħħir.",
       },
       enable: {
         label: "Status tal-konnessjoni",
-        true_desc: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        true_desc: "L-inventarju u l-ordnijiet se jiġu sinkronizzati.",
       },
       confirm: {
-        label: "oġġettġġoġġett oġġettġġoġġett oġġett",
-        false_desc: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        label: "Auto jikkonferma l-ordnijiet",
+        false_desc: "Għandek tikkonferma l-ordni manwalment.",
         true_desc:
-          "oġġett oġġettġġoġġett oġġettħoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett ",
-        tips: "oġġett oġġettħoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett COD oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Ordnijiet bi ħlas dirett jiġu approvati awtomatikament. Ordnijiet bi ħlas debug mhux se japprovaw awtomatikament.",
+        tips: "Ordnijiet imħallsa b'karta rigal jew COD jew bibien ta' ħlas fil-modalità debug huma eċċezzjonijiet u mhux se jiġu kkonfermati awtomatikament.",
       },
 
       shipping: {
         label: "Tbaħħir",
-        tips: "oġġettġġoġġett oġġett oġġett oġġettħħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 3oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 300oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett API",
+        tips: "Dan is-servizz joffri kalkolu tat-tbaħħir, li jista 'jiġi attivat jew diżattivat skont il-preferenza tiegħek. Jekk ikun attivat, se jkunu meħtieġa APIs tal-kalkolu tal-ispejjeż b'servizzi ta' partijiet terzi, li jista' jikkawża dewmien ta' aktar minn 300 ms għall-aġġornament tal-prezz fil-paġna tal-ħruġ.",
         false_title: "oġġettġġoġġett",
         false_desc:
-          "oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett Ħoġġett > oġġettġoġġett > oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
-        true_title: "oġġettġġoġġett oġġettħħoġġett",
+          "Uża l-kalkolu tal-ispiża tat-tbaħħir tiegħi, f'Ħanut > Loġistika > Trasport għall-prodotti kollha, inklużi dawk importati.",
+        true_title: "Ikkalkula t-tbaħħir",
         true_desc:
-          "oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett API oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Uża l-API tal-kalkolu tar-rata tat-tbaħħir offruta minn dan is-servizz.",
       },
 
       remove: {
-        verify: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett",
-        action: "oġġettħħoġġett oġġettġġoġġett",
+        verify: "Jien nivverifika li nneħħi din il-konnessjoni.",
+        action: "Neħħi qabbad",
       },
     },
 
@@ -9655,14 +9655,14 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett OS",
+        "Qabbad l-os tan-negozju tiegħek ma' servizzi esterni u mmaniġġja l-kanali kollha fl-istess post.",
       action: "Connect Ġoġġett oġġett",
       empty_message:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett! Connect oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      auto_confirm: "oġġettġġoġġett oġġettġġoġġett",
+        "Tinsa l-apps u l-plugins għal dropshipping! Connect huwa l-futur tal-ġestjoni tal-ordnijiet bejn il-pjattaformi.",
+      auto_confirm: "Ikkonferma Awtomatika",
       shipping: "Tbaħħir",
-      syncing_now: "oġġettġġoġġett oġġettġġoġġett!",
-      sync_not_started: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+      syncing_now: "Issinkronizza issa!",
+      sync_not_started: "Is-sinkronizzazzjoni għadha ma bdietx!",
     },
   },
 
@@ -9672,23 +9672,23 @@ export default {
   connect_mode: {
     Migration: {
       title: "oġġettġġoġġett",
-      desc: "oġġettġġoġġett oġġett, oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettċoġġett oġġett, oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      desc: "Ikseb prodotti, kategoriji u klijenti. Wara li l-utent iħassar dan is-servizz, il-prodotti, il-kategoriji u l-klijenti riċevuti mhux se jitħassru.",
     },
     Dropshipping: {
       title: "oġġettġġoġġett",
-      desc: "oġġettġġoġġett oġġett, oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett",
+      desc: "Ikseb prodotti, kategoriji u ordnijiet. Is-sistema tneħħi prodotti wara li l-utent ineħħi s-servizz.",
     },
     Marketplace: {
       title: "Suq",
-      desc: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettċoġġett oġġett (oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SKU).",
+      desc: "Issinkronizza biss l-inventarju u tirċievi ordnijiet (Il-prodotti se jkunu konnessi mill-SKU).",
     },
     Accounting: {
       title: "Kontabilità",
-      desc: "oġġettħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      desc: "Ibgħat ordnijiet u informazzjoni finanzjarja.",
     },
     Other: {
       title: "oġġettġġoġġett",
-      desc: "oġġettġġoġġett oġġettġġoġġett",
+      desc: "Servizzi oħra.",
     },
   },
 
@@ -9697,10 +9697,10 @@ export default {
    */
   shop_landings: {
     title: "Paġni ta' inżul",
-    add_new_action: "Żoġġett Ġoġġett oġġettġoġġett",
+    add_new_action: "Żid Paġna Ġdida",
     subtitle:
-      "oġġettħoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett AI",
-    empty_message: "oġġett oġġett oġġettġoġġett oġġettġġoġġett oġġett & oġġettġġoġġett",
+      "Oħloq paġni tad-dwana distintivi u li jirrispondu għall-marka tiegħek billi tuża editur inline versatili li jaħdem bl-AI, u awtomatikament iġġenera kontenut dinamiku billi tgħaddi d-dejta.",
+    empty_message: "Iddisinja paġni personalizzati billi drag & drop...",
   },
 
   /**
@@ -9708,13 +9708,13 @@ export default {
    */
   shop_staff: {
     list: {
-      title: "oġġett oġġettġġoġġett ",
+      title: "Ġestjoni tal-persunal",
       subtitle:
         "Utenti li se jkollhom aċċess għad-dashboard u s-sezzjonijiet tal-ġestjoni ta’ dan il-maħżen.",
     },
     pending: {
       title: "Pendenti",
-      message: "oġġett oġġett oġġettġġoġġett",
+      message: "Uri stediniet pendenti.",
     },
   },
 
@@ -9723,8 +9723,8 @@ export default {
    */
   community_comments: {
     title: "Kummenti",
-    subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    empty_msg: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Din hija lista tal-kummenti tal-komunità.",
+    empty_msg: "S'issa ma nħolqu l-ebda kummenti...",
   },
 
   /**
@@ -9732,13 +9732,13 @@ export default {
    */
   community_categories: {
     title: "Kategoriji",
-    subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Din hija lista tal-kategoriji tal-komunità.",
     new_category_action: "Kategorija ġdida",
-    empty_msg: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    empty_msg: "S'issa ma nħolqot l-ebda kategorija...",
     filter: {
       delete: {
         title: "Imħassar",
-        description: "oġġett oġġettħoġġett oġġettġġoġġett",
+        description: "Uri kategoriji mħassra.",
       },
     },
   },
@@ -9747,30 +9747,30 @@ export default {
    */
   community_posts: {
     title: "oġġettġġoġġett",
-    subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Din hija lista tal-postijiet tal-komunità.",
     filter: {
       deleted: {
         title: "Imħassar",
-        description: "oġġett oġġettħoġġett oġġettġġoġġett",
+        description: "Uri karigi mħassra.",
       },
       reported: {
         title: "oġġett",
-        description: "oġġett oġġett oġġettġġoġġett",
+        description: "Uri l-postijiet irrappurtati.",
       },
     },
-    empty_msg: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    empty_msg: "S'issa ma nħolqot l-ebda post...",
     menu: {
       open_post: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
-        subtitle: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Post Miftuħ",
+        subtitle: "Ara u editja l-post fil-komunità.",
       },
       spam: {
-        title: "oġġett & oġġettħħoġġett oġġettġġoġġett",
-        subtitle: "oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Irrapporta & Neħħi l-ispams",
+        subtitle: "Neħħi l-postijiet bl-ingrossa u jipprojbixxi lill-utent.",
       },
       delete: {
-        title: "Ħoġġett oġġettġġoġġett",
-        subtitle: "oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Ħassar Post",
+        subtitle: "Neħħi din il-kariga.",
       },
     },
   },
@@ -9780,46 +9780,46 @@ export default {
    */
   channel_google: {
     gtag: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Tag Manager",
       subtitle:
-        "Google oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett Google oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettċoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett—oġġett oġġettċoġġett oġġett oġġettġġoġġett",
+        "Google Analytics jippermetti l-kejl tar-ROI tar-reklami waqt li jsegwi Flash, vidjow, u siti u apps tal-midja soċjali. Immaniġġja t-tikketti tal-websajt mingħajr sforz bis-soluzzjonijiet b'xejn, sempliċi u affidabbli ta' Google Tag Manager—mhux meħtieġ editjar tal-kodiċi.",
       tag_id: {
-        label: "Google oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Google Tag Manger ID",
       },
     },
     shopping: {
       title: "Google oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Żoġġett oġġett oġġett oġġettġġoġġett oġġett oġġett Google oġġettġġoġġett",
-      tips: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Google oġġettġġoġġett",
-      link_message: "Google oġġett oġġettġġoġġett URL",
+        "Sorsi tad-Data jindikaw l-oriġini tal-informazzjoni tal-katalgu tiegħek fuq Google. Segwi din il-link biex iżżid awtomatikament il-prodotti u l-kategoriji kollha mal-merkanzija Google.",
+      tips: "Tista 'tutilizza din l-għodda biex timmaniġġja r-reklami ta' Google mingħajr sforz u awtomatikament.",
+      link_message: "URL tal-Feed tal-Prodotti ta' Google",
     },
     console: {
-      title: "oġġett oġġettġġoġġett",
-      subtitle: `Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Google oġġett oġġettġġoġġett oġġettġġoġġett Meta`,
+      title: "Search Console",
+      subtitle: "Żid meta tag fil-homepage tiegħek għall-verifika tal-Google Search Console.",
       code: {
-        label: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Meta",
-        placeholder: "oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett Google",
+        label: "Meta tag tal-verifika",
+        placeholder: "Minn google, eż. viQg9mjdBj...",
       },
     },
     serp: {
-      title: "Google oġġettġġoġġett & oġġettġġoġġett",
+      title: "Google SERP & Keywords",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SEO oġġettġġoġġett oġġettġġoġġett oġġett Google oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Aħna niksbu l-aktar data preċiża tal-awditjar SEO minn Google u nippreżentawha lilek b'mod konvenjenti. Sempliċement segwi l-passi pprovduti.",
     },
     serp_content: {
-      title: "Connect oġġett Google oġġett oġġettġġoġġett",
+      title: "Qabbad ma' Google Search Console",
       subtitle:
-        "Connect oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett SEO oġġettħoġġett oġġettġġoġġett oġġettġġoġġett Selldone",
+        "Qabbad il-ħanut tiegħek mal-console tat-tiftix u ibda tesplora kliem ewlieni, ranks, u għodod oħra SEO b'xejn fuq Selldone.",
       tips: {
         title:
-          "oġġettġġoġġett oġġett oġġettġġoġġett Selldone oġġettġġoġġett Google oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett:",
-        add_in_selldone: "Żoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        add_in_google: `Żoġġett oġġettġġoġġett oġġettġġoġġett <b>{domain}</b> oġġettġġoġġett oġġettġġoġġett<a href="https://search.google.com/search-console" target="_blank"> <b>Google oġġett oġġettġġoġġett</b></a>.`,
+          "Qabel ma tgħaqqad Selldone ma' Google Search Console, kun żgur li ġej:",
+        add_in_selldone: "Żid, ivverifika, u ssettja bħala primarja tad-Dominju Custom tiegħek.",
+        add_in_google: "Żid u vverifika <b>{domain}</b> fil-<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a> tiegħek.",
       },
-      action_custom_domain: "oġġett oġġett",
+      action_custom_domain: "Dominju tad-dwana",
       action_connect_now: "Qabbad Issa",
-      action_remove_connection: "oġġettħħoġġett oġġettġġoġġett",
+      action_remove_connection: "Neħħi l-konnessjoni",
     },
   },
 
@@ -9827,29 +9827,29 @@ export default {
    * {@see BPageShopIncentivesCoupon}
    */
   cashback: {
-    add_new: "Żoġġett Ġoġġett oġġettġġoġġett",
-    title: "oġġettġġoġġett oġġettġġoġġett",
-    boosted: "oġġettġġoġġett (2oġġettġġoġġett)",
+    add_new: "Żid Cashback Ġdid",
+    title: "Programmi ta' Cashback",
+    boosted: "Spinta (2x)",
     min_purchase: "Xiri minimu",
-    only_first_order: "oġġettġġoġġett oġġettġġoġġett oġġett",
-    total_cashback: "oġġettġġoġġett oġġettġġoġġett",
+    only_first_order: "L-Ewwel Ordni biss",
+    total_cashback: "Cashback totali",
     delete_alert: {
-      title: "Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett?",
+      title: "Ħassar Cashback Program",
+      message: "Int żgur li tħassar dan il-programm cashback?",
       action: "Iva, Ħassar Issa",
     },
     notifications: {
-      delete_success: "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
+      delete_success: "Il-programm ta' cashback tħassar b'suċċess.",
     },
   },
   /**
    * {@see BPageCashback}
    */
   shop_cashback: {
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Programm Cashback",
     up_to: "sa",
     menu: {
-      back: "oġġett oġġettġġoġġett",
+      back: "Lura Programmi",
       dashboard: "Panew ta’ kontroll",
       orders: "Ordnijiet",
       edit: "Editja",
@@ -9864,7 +9864,7 @@ export default {
       },
       chart_amount_cashback: {
         label: "oġġettġġoġġett",
-        y: "oġġettġġoġġett oġġett {currency}",
+        y: "Ammont ta' cashback {currency}",
       },
       chart_used: {
         label: "Użati",
@@ -9875,9 +9875,9 @@ export default {
      * {@see BPageCashbackOrders}
      */
     orders: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Ordnijiet ta' Cashback",
       table: {
-        amount_cashback: "oġġettġġoġġett oġġett",
+        amount_cashback: "Ammont ta' Cashback",
         payment_status: "Status tal-ħlas",
         date: "Data",
       },
@@ -9889,35 +9889,35 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġett oġġettġġoġġett oġġettġġoġġett Status oġġettġġoġġett",
+      subtitle: "Issettja l-perċentwali chasback, il-limitu u l-istatus tiegħu hawn.",
     },
     percent_input: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett 1% oġġett 20%.",
+      title: "Perċentwal ta' Cashback",
+      message: "Daħħal il-persentaġġ ta' cashback minn 1% sa 20%.",
     },
     currency_input: {
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      message: "Il-programm cashback se jkun disponibbli biss għal din il-munita.",
     },
     limit_input: {
       title: "Limitu",
-      hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      zero_message: "oġġettġġoġġett 0 oġġettġġoġġett oġġett oġġettġġoġġett",
+      hint: "Daħħal l-ammont massimu ta' cashback.",
+      zero_message: "Daħħal 0 għal cashback illimitat.",
     },
     duration: {
-      title: "oġġett oġġett żoġġett oġġett",
-      subtitle: "oġġettġġoġġett oġġett oġġett żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Limitu ta' Tul",
+      subtitle: "Issettja t-tul tal-programm ta' cashback. Huwa fakultattiv.",
     },
     start_input: {
       title: "Data tal-bidu",
-      placeholder: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      placeholder: "Agħżel id-data tal-bidu...",
     },
     end_input: {
       title: "Data tat-tmiem",
-      placeholder: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      placeholder: "Agħżel id-data tat-tmiem...",
     },
     design: {
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Issettja titolu u deskrizzjoni qasira għall-programm cashback. Din l-informazzjoni se tintwera lill-klijenti.",
     },
     title_input: {
       title: "Titolu",
@@ -9926,49 +9926,49 @@ export default {
       title: "Deskrizzjoni",
     },
     constraints: {
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Issettja r-restrizzjonijiet għall-programm cashback.",
     },
     min_purchase_input: {
-      hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      hint: "Daħħal l-ammont minimu tax-xiri għall-programm cashback.",
       title: "Xiri minimu",
     },
     only_first_buy_input: {
-      false_desc: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      false_desc: "Il-programm cashback se jkun disponibbli għall-ordnijiet kollha.",
       true_desc:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      true_title: "oġġettġġoġġett oġġettġġoġġett oġġett",
-      false_title: "oġġett oġġett",
+        "Il-programm cashback se jkun disponibbli biss għall-ewwel ordni.",
+      true_title: "L-Ewwel Ordni biss",
+      false_title: "L-Ordnijiet kollha",
     },
     qualify_input: {
-      false_title: "oġġett oġġett",
-      true_title: "oġġettġġoġġett oġġett",
+      false_title: "Il-Klijenti kollha",
+      true_title: "Ikkwalifika Klijenti",
       true_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-programm cashback se jkun disponibbli biss għall-klijenti li huma kwalifikati.",
     },
     club: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Issettja l-klabb għall-programm ta 'cashback. Il-programm ta’ cashback se jkun disponibbli biss għall-klijenti li jkunu f’dan il-klabb.",
     },
     cluster: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Billi tassoċja cluster mal-programm ta 'cashback, tista' timmaniġġjah b'mod aktar effettiv.",
     },
     notifications: {
-      add: "oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett",
-      edit: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      add: "Cashback programm miżjud b'suċċess.",
+      edit: "Programm ta' cashback aġġornat b'suċċess.",
     },
     enable_input: {
-      true_msg: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      true_msg: "Il-programm cashback huwa attiv u l-klijenti jistgħu jużawh.",
       false_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-programm cashback huwa inattiv u l-klijenti ma jistgħux jużawh.",
     },
     boosted_input: {
       false_title: "Normali",
-      true_title: "oġġettġġoġġett (2oġġettġġoġġett oġġettġġoġġett)",
+      true_title: "Spinta (2x Cashback)",
       true_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett oġġett oġġettġġoġġett oġġettċoġġett 2oġġettġġoġġett oġġettġġoġġett",
+        "Il-programm cashback huwa fil-modalità boost u l-klijenti se jirċievu 2x cashback.",
       false_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettà oġġettġġoġġett oġġett oġġettġġoġġett oġġettċoġġett oġġett oġġettġġoġġett",
+        "Il-programm cashback huwa fil-modalità normali u l-klijenti se jirċievu cashback normali.",
     },
   },
 
@@ -9978,12 +9978,12 @@ export default {
   row_payment: {
     actions: {
       refund: {
-        title: "oġġettġġoġġett Ħoġġett",
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Ħlas ta' Rifużjoni",
+        subtitle: "Rifużjoni parzjali jew sħiħa appoġġjata.",
       },
       delivery: {
-        title: "oġġettġġoġġett oġġettġġoġġett oġġett",
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett",
+        title: "Ikkonferma Mal-Kunsinna",
+        subtitle: "Tista' tikkonferma manwalment il-kunsinna għall-fornitur tal-ħlas.",
       },
     },
   },
@@ -9992,34 +9992,34 @@ export default {
    * @see BOrderPaymentActionsRefundDialog
    */
   payment_refund_dialog: {
-    title: "oġġettġġoġġett Ħoġġett",
+    title: "Ħlas ta' Rifużjoni",
     message:
-      "oġġettġġoġġett oġġettà oġġettġġoġġett, oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 7 oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Għal raġunijiet ta' sigurtà, ordnijiet imħallsa fl-aħħar 7 ijiem biss huma eliġibbli għal rifużjonijiet.",
     payment_amount: "Ammont tal-Ħlas",
-    total_refund_amount: "oġġettġġoġġett oġġettġġoġġett oġġett",
-    can_refund: "oġġettġġoġġett oġġettġġoġġett",
-    refund_amount: "oġġettġġoġġett oġġett",
+    total_refund_amount: "Ammont Rifondat Total",
+    can_refund: "Jista 'Rifużjoni",
+    refund_amount: "Ammont ta' Rifużjoni",
     verify: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Ivverifika Rifużjoni",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Nikkonferma li l-ammont tar-rifużjoni huwa korrett u rrid nipproċedi.",
     },
-    action: "oġġettġġoġġett oġġettġġoġġett",
+    action: "Rifużjoni Issa",
   },
 
   /**
    * @see BOrderPaymentActionsDeliveryDialog
    */
   payment_delivery_dialog: {
-    title: "oġġett oġġett oġġettġġoġġett",
+    title: "Konferma tal-Konsenja tal-Klijent",
     message:
-      "oġġettġġoġġett Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Ċerti servizzi ta' ħlas jeħtieġu konferma li l-ordni tkun ġiet ikkunsinnata lill-klijent. Aħna tipikament nibagħtu din il-konferma matul il-pass finali tat-twettiq tal-ordni meta nirċievu l-konferma tal-kunsinna tal-klijent. Madankollu, jekk għandek bżonn twettaq din l-azzjoni manwalment, tista 'tagħmel dan hawn.",
     verify: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Ivverifika l-Konsenja",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Nikkonferma li l-ordni ġiet ikkunsinnata lill-klijent.",
     },
-    action: "oġġettġġoġġett oġġettġġoġġett",
+    action: "Ikkonferma Issa",
   },
 
   /**
@@ -10029,44 +10029,44 @@ export default {
     title: "Bejgħ inkroċjat",
     add_new_actions: "Żid prodott ġdid",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 3 oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+      "F'din it-taqsima, tista 'żżid u timmaniġġja prodotti ta' bejgħ inkroċjat għal din il-paġna tal-prodott. Dawn il-prodotti se jintwerew bħala suġġerimenti għall-klijenti biex jixtru flimkien mal-oġġett ewlieni. Tista' wkoll tissettja skontijiet biex tħeġġeġ u tinċentiva xiri addizzjonali. Is-sistema se turi massimu ta '3 oġġetti biex il-klijent jikkunsidra.",
     dialog: {
-      edit_title: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-      add_title: "Żoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett oġġett",
+      edit_title: "Editja l-prodott tal-bejgħ inkroċjat",
+      add_title: "Żid prodotti ġodda ta 'bejgħ inkroċjat",
       target: {
-        title: "oġġettġġoġġett oġġett",
+        title: "Prodott fil-mira",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        select_products: "oġġettġġoġġett oġġett(oġġettġġoġġett)",
+          "Agħżel il-prodotti li tixtieq tippromwovi bħala għażliet ta' bejgħ inkroċjat flimkien ma' dan il-prodott.",
+        select_products: "Agħżel il-prodott(i)",
       },
       list: {
-        title: "oġġettġġoġġett oġġett",
-        subtitle: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        manage_product: "oġġettġġoġġett oġġett",
+        title: "Prodott fil-mira",
+        subtitle: "Dan il-prodott intgħażel għall-promozzjoni tal-bejgħ inkroċjat.",
+        manage_product: "Immaniġġja l-Prodott",
       },
       discount: {
-        title: "oġġettħoġġett & oġġettġġ",
+        title: "Skont u Messaġġ",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Għandek l-għażla li tinkludi messaġġ u toffri skont biex timmotiva lill-klijenti biex jixtru l-oġġetti addizzjonali magħżula. Dawn l-inċentivi jistgħu jgħinu biex imexxu l-bejgħ u jtejbu l-esperjenza ġenerali tax-xiri.",
         amount_input: {
           message:
-            "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+            "Il-perċentwal ta' skont se jiġi applikat għall-prezz tal-prodott wara li jittieħed kont tal-iskontijiet eżistenti kollha.",
         },
         mismatch_type_warning:
-          "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "L-iskontijiet ma jistgħux jiġu applikati għal tipi oħra minbarra t-tipi ta 'prodotti ewlenin, peress li l-oġġetti tas-sors u fil-mira mhux se jitqiegħdu fl-istess basket.",
         not_support_subscription_type_warning:
-          "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "L-issettjar ta' skontijiet għal prodotti ta' abbonament ta' bejgħ inkroċjat mhuwiex possibbli, peress li l-pjanijiet tal-prezzijiet ma jistgħux jiġu aġġustati b'mod dinamiku.",
         message_input: {
           message:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+            "Oħloq titolu konvinċenti u li jħajjar biex taqbad l-attenzjoni tal-klijenti.",
           placeholder:
-            "oġġettġġoġġett & Ħoġġett: oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+            "Bundle & Save: Imla l-Ħarsa Tiegħek bl-Għażla Handpicked tagħna!",
         },
       },
       action: {
         title: "oġġettġġoġġett",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett \"Żoġġett oġġett oġġettġġoġġett\" oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          "Immodifika l-azzjoni tal-prodott tal-bejgħ inkroċjat hawn. Jekk il-prodott tiegħek jeħtieġ id-dħul ta 'informazzjoni tad-dwana, bħal permezz ta' Formola ta 'Valutazzjoni, tagħżelx \"Żid Mal-CART\" bħala l-azzjoni, peress li dan jista' jwassal għal żbalji.",
       },
     },
   },
@@ -10074,23 +10074,23 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+    title: "Żid Varjanti bl-ingrossa",
     variants: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Għażliet Varjanti",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettħoġġett oġġettġġoġġett",
+        "Agħżel sa żewġ għażliet varjanti. Wara l-għażla, tista 'tagħżel liema varjanti speċifiċi toħloq awtomatikament.",
     },
     values: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Valuri Varjanti",
+      subtitle: "Daħħal il-valuri possibbli għal kull għażla varjant hawn.",
       prevent_duplicates_tips:
-        "<b>oġġett:</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "<b>Nota:</b> Aħna niċċekkjaw awtomatikament għal varjanti eżistenti biex nipprevjenu d-duplikati.",
     },
     inventory: {
-      title: "oġġettġġoġġett oġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħŻid oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+      title: "Inventarju Inizjali",
+      subtitle: "Issettja l-għadd tal-inventarju tal-bidu għall-varjanti l-ġodda.",
     },
-    add_variants_action: "oġġettħoġġett oġġett",
+    add_variants_action: "Oħloq Varjanti",
   },
 
   /**
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Żid mal-CART",
       description:
-        "oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Uri l-buttuna Żid mal-CART direttament. Innota li dan mhux applikabbli għal prodotti ta' abbonament.",
     },
     ViewProduct: {
       title: "Ara l-Prodott",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+        "Uri buttuna Ara Aktar li tidderieġi lill-klijenti lejn il-paġna tal-prodott billi tiftaħ tieqa ġdida.",
     },
   },
 
@@ -10114,50 +10114,50 @@ export default {
    */
 
   product_flow: {
-    title: "oġġett oġġett",
-    subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    title: "Fluss tax-xiri",
+    subtitle: "Dan huwa l-fluss tax-xiri u l-kontroll tas-saħħa tal-prodott tiegħek.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett <b>{name}</b>.",
-      enable_msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      disable_msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      subtitle: "Dan il-prodott ġie miżjud permezz <b>{name}</b>.",
+      enable_msg: "Dan il-pont għal servizz estern huwa attivat.",
+      disable_msg: "Dan il-pont għal servizz estern huwa diżattivat.",
       has_shipping_msg:
-        "{name} oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett {name} oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett",
+        "{name} tappoġġja t-tbaħħir. Allura għandek l-għażla li tippermetti l-kalkolu tat-tbaħħir awtomatiku minn {name} fuq il-paġna ta 'checkout.",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
-      title: "oġġett oġġettġġoġġett",
-      available_in_stock_msg: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      out_of_stock_msg: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Saħħa tal-Prodott",
+      available_in_stock_msg: "Il-prodott huwa disponibbli fl-istokk.",
+      out_of_stock_msg: "Il-prodott huwa barra mill-istokk.",
       file_count_msg:
-        "{files_count} oġġett oġġettġġoġġett oġġettġġoġġett {files_size} oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      no_file_uploaded_msg: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "{files_count} fajls b'total ta' {files_size} imtella' għal dan il-prodott.",
+      no_file_uploaded_msg: "S'issa ma ttella' l-ebda fajl.",
       no_image_uploaded_msg:
-        "oġġett oġġettġġoġġett oġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Ittella immaġni tal-prodott biex tagħmilha aktar attraenti.",
     },
     /**
      * @see BProductFlowErrorsVendor
      */
     vendor_errors: {
-      title: "oġġettġġoġġett oġġettħoġġett",
+      title: "Bejjiegħa Neqsin",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      manage_vendors: "oġġettġġoġġett oġġettħoġġett",
+        "Dan il-prodott bħalissa m'għandux bejjiegħ assoċjat. Biex prodott ikun jista' jinxtara fis-suq, għandu jkollu mill-inqas bejjiegħ wieħed.",
+      manage_vendors: "Immaniġġja Bejjiegħa",
     },
 
     /**
      * @see BProductFlowErrorsFile
      */
     file_errors: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Fajls Neqsin",
       subtitle:
-        "oġġettġġoġġett, oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
-      manage_files: "oġġettġġoġġett oġġett",
+        "Bħalissa, l-ebda fajl ma ttella' għal dan il-prodott. Jekk jogħġbok ittella fajls biex tipproċedi.",
+      manage_files: "Immaniġġja Fajls",
     },
 
     /**
@@ -10165,71 +10165,71 @@ export default {
      */
     pricing: {
       title: "Ipprezzar",
-      no_product_price_msg: "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-      listing_pricing_msg: "oġġett oġġett:",
-      has_valuation_msg: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      no_product_price_msg: "Il-prezz tal-prodott default għadu mhux stabbilit!",
+      listing_pricing_msg: "Prezzijiet tal-lista:",
+      has_valuation_msg: "Il-prodott għandu valutazzjoni.",
       subscription_pricing_msg:
-        "oġġettġġoġġett oġġett oġġettġġoġġett {count} oġġett oġġett oġġettġġoġġett",
+        "Dan il-prodott għandu pjanijiet ta 'prezzijiet ta' abbonament {count}.",
       has_no_subscription_pricing_msg:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
+        "Dan il-prodott m'għandu l-ebda pjan ta 'prezzijiet ta' abbonament.",
     },
     /**
      * @see BProductFlowErrorsSubscription
      */
     subscription_errors: {
-      title: "oġġettġġoġġett oġġett oġġett oġġett",
+      title: "Pjanijiet ta' Prezzijiet ta' Abbonament Neqsin",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      pricing_plans: "oġġett oġġett",
+        "Dan il-prodott m'għandu l-ebda pjan ta 'prezzijiet ta' abbonament. Trid iżżid mill-inqas pjan wieħed tal-prezzijiet tal-abbonament biex tagħmel dan il-prodott disponibbli għax-xiri tal-abbonament.",
+      pricing_plans: "Pjanijiet tal-Ipprezzar",
     },
 
     /**
      * @see BProductFlowRowLocation
      */
     location: {
-      title: "oġġettġġoġġett oġġett oġġettġġoġġett ● {status}",
+      title: "Restrizzjoni tal-post tal-bejgħ ● {status}",
       status: {
-        has_restriction: "oġġett oġġettġġoġġett {count} oġġettġġoġġett",
-        no_restriction: "oġġettġġoġġett oġġettġġoġġett",
+        has_restriction: "Disponibbli fil-pajjiżi {count}",
+        no_restriction: "Mhux ristrett",
       },
       available_countries_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett {count} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {countries}.",
+        "Xiri globalment ristrett għal {count} pajjiżi. Dawn il-pajjiżi huma {countries}.",
       disable_for_all_countries_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett > oġġett oġġettġġoġġett",
+        "Ix-xiri huwa diżattivat għall-pajjiżi kollha fil-ħanut tiegħek > l-issettjar tal-postijiet.",
       location_is_not_in_permitted_shop_locations_msg:
-        "oġġettġġoġġett oġġettġġoġġett {country} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Inti issettja {country} bħala post tal-bejgħ iżda fil-livell tal-maħżen ma tippermettix dan il-pajjiż. Jekk jogħġbok iċċekkja s-settings tal-livell tal-maħżen tiegħek.",
       shop_locations: "Ħoġġett oġġett",
-      product_locations: "oġġett oġġett",
+      product_locations: "Postijiet tal-Prodott",
     },
 
     /**
      * @see BProductFlowErrorsLocation
      */
     location_errors: {
-      title: "oġġett oġġett oġġettġġoġġett",
+      title: "Żball fil-postijiet disponibbli",
       no_location_error_subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett, oġġett oġġettż oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Int attivajt restrizzjoni tal-post għax-xiri tal-prodott, iżda bħalissa, l-ebda pajjiż mhu elenkat taħt din ir-restrizzjoni. Bħala riżultat, dan il-prodott mhux disponibbli għax-xiri minn kulħadd.",
       invalid_location_error_subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett: oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Is-settings tar-restrizzjoni tal-post għall-prodott tiegħek fihom żball: ċerti postijiet elenkati m'għandhom l-ebda kodiċi ZIP assoċjat. Konsegwentement, l-utenti ma jistgħux jagħżlu kodiċi ZIP, u b'hekk il-prodott ma jkunx disponibbli għax-xiri.",
 
-      manage_locations: "oġġettġġoġġett oġġett",
+      manage_locations: "Immaniġġja Postijiet",
     },
 
     /**
      * @see BProductFlowRowTax
      */
     tax: {
-      title: "oġġett oġġett",
-      default_shop: "oġġettġġoġġett Ħoġġett oġġett",
-      tax_profiles: "oġġett oġġett",
+      title: "Taxxa ta' abbonament",
+      default_shop: "Taxxa tal-Ħanut ta' Default",
+      tax_profiles: "Profili tat-Taxxa",
       description: {
         subscription_tax_msg:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Nistgħu napplikaw taxxa biss fuq il-pass tal-ħolqien tal-ħlas.",
         dedicated: "oġġettġġoġġett",
-        is_disabled: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettżoġġett!",
-        tax_is_based_on_location: "oġġett: oġġett oġġettġġoġġett",
-        shipping_tax_is_based_on_location: "oġġettħħoġġett: oġġett oġġettġġoġġett",
-        included_in_price: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        is_disabled: "Dan il-profil tat-taxxa huwa diżattivat!",
+        tax_is_based_on_location: "Taxxa: Ibbażat fuq il-post",
+        shipping_tax_is_based_on_location: "Tbaħħir: ibbażat fuq il-post",
+        included_in_price: "Inkluż fil-prezz.",
       },
     },
 
@@ -10237,11 +10237,11 @@ export default {
      * @see BProductFlowRowVendor
      */
     vendor: {
-      vendor_owner_msg: "oġġettġġoġġett oġġett oġġettġġoġġett oġġett <b>{vendor}</b>.",
-      has_vendors_msg: "oġġettġġoġġett oġġettġġoġġett {count} oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      vendor_owner_msg: "Dan il-prodott jappartjeni għal <b>{vendor}</b>.",
+      has_vendors_msg: "Hemm {count} bejjiegħa għal dan il-prodott.",
       no_vendor_msg:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
-      add_vendors: "Żoġġett oġġettħoġġett",
+        "Inti ma assenjatx bejjiegħ għal dan il-prodott, għalhekk il-klijenti ma jistgħux jixtruh.",
+      add_vendors: "Żid Bejjiegħa",
     },
   },
 
@@ -10249,27 +10249,27 @@ export default {
    * @see BPageProductTemplate
    */
   product_template: {
-    title: "oġġett oġġettġoġġett oġġett",
+    title: "Mudell tal-Paġna tal-Prodott",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett 1 oġġett 3 oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    edit_page: "oġġett oġġettġoġġett",
-    list_of_pages: "oġġett oġġettġġoġġett oġġettġoġġett",
+      "Tista' tiddaħħal paġna fil-paġna tal-prodott tiegħek għal preżentazzjoni mtejba. L-aħjar approċċ huwa li jinħolqu paġni li fihom sfond trasparenti u minn 1 sa 3 sezzjonijiet imfassla għal kull kategorija tal-prodott. Imbagħad, assenja paġna waħda għal prodotti multipli għal wirja konsistenti u attraenti.",
+    edit_page: "Edit Page",
+    list_of_pages: "Lista ta' Paġni",
   },
   /**
    * @see BPageProductEmbed
    */
   product_embed: {
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista 'faċilment daħħal prodott jew lista ta' prodotti fil-blog tiegħek jew paġni web oħra billi sempliċiment tikkopja u tippejstja l-kodiċijiet li nipprovdu. Għalkemm din il-karatteristika għadha fl-istadji bikrija tagħha, qed naħdmu b'mod attiv biex inwessgħu l-funzjonalità tagħha lil hinn minn dak li bħalissa huwa disponibbli x'imkien ieħor. Filwaqt li bħalissa toffri kapaċitajiet limitati, għandna pjanijiet biex nintroduċu aktar mudelli u għażliet ta 'adattament fil-futur.",
     card: {
       title: "oġġettġġoġġett",
       description:
-        "oġġettġġoġġett HTML oġġettċoġġett oġġett Żoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett HTML oġġettġġoġġett",
+        "Iġġenera kodiċi HTML biex iżżid karti tal-prodotti fi pjattaformi oħra u paġni HTML.",
     },
     iframe: {
       title: "oġġettġġoġġett",
       description:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Iġġenera l-kodiċi iframe biex turi dettalji komprensivi tal-prodott f'tieqa inkorporata.",
     },
   },
 
@@ -10278,33 +10278,33 @@ export default {
    */
   permission_staff_add: {
     title_new: "Ġoġġett oġġett",
-    title_edit: "oġġett oġġett",
+    title_edit: "Edit Staff",
 
     staff: {
-      title: "Żoġġett oġġett & oġġettċċoġġett",
+      title: "Żid Persunal u Aċċess",
       subtitle:
-        "oġġett oġġett oġġettġġoġġett oġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett, oġġettġġoġġett oġġettġġoġġett",
-      go_to_roles: "oġġettġġoġġett oġġett oġġett",
+        "L-utenti kollha b'aċċess għall-persunal jistgħu jidħlu fid-dashboard tiegħek u jaraw l-informazzjoni finanzjarja. Biex iżżid utenti b'aċċess limitat, iddefinixxi Rwol.",
+      go_to_roles: "Mur Rwoli",
     },
     access: {
       customization_tips:
-        "<b>oġġettġġoġġett:</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett",
+        "<b>Personalizzazzjoni:</b> Ikklikkja fuq kull oġġett biex tippersonalizza l-aċċess default għall-qari/kitba. Kull ringiela tirrappreżenta livell ta' aċċess li jikkorrispondi għad-dashboard tal-ħanut prinċipali.",
       simplify_tips:
-        "<b>oġġettġġoġġett!</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġett oġġettġġoġġett 300 oġġett oġġettġġoġġett 10 oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "<b>Importanti!</b> Aħna nissimplifikaw il-kontroll tal-aċċess minn aktar minn 300 għal taħt l-10 livelli. Livelli ta' aċċess aktar dettaljati u aġġornati se jiġu ppubblikati fid-dokumentazzjoni.",
       multi_permission_tips:
-        "<b>oġġett oġġett?</b> oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettċċoġġett, oġġettħoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      view_data: "oġġett oġġettġġoġġett",
+        "<b>Limiti personalizzati?</b> Tista' żżid aktar aċċess għal utent wieħed, għalhekk wara li żżid l-ewwel aċċess, oħloq aċċess addizzjonali bl-istess passi.",
+      view_data: "Ara d-Dejta",
       apply_changes: "Applika Bidliet",
     },
 
     inputs: {
       email: {
         placeholder: "oġġettġġoġġett",
-        label: "oġġett oġġettġġoġġett oġġett",
+        label: "Indirizz Email tal-Utent",
       },
       level: {
-        label: "oġġettċċoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        label: "Livell ta' aċċess",
+        placeholder: "Agħżel livell...",
       },
     },
 
@@ -10313,12 +10313,12 @@ export default {
     },
     notifications: {
       add_success: {
-        title: "oġġettċċoġġett oġġettġġoġġett",
-        message: "Ġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Aċċess Mogħti",
+        message: "Aċċess ġdid ġie miżjud b'suċċess.",
       },
       update_success: {
-        title: "oġġettċċoġġett oġġettġġoġġett",
-        message: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        title: "Aċċess Aġġornat",
+        message: "Il-permessi ġew aġġornati b'suċċess.",
       },
     },
   },
@@ -10327,26 +10327,26 @@ export default {
    * @see BCategoryEngineEditor
    */
   category_engine_editor: {
-    title: "oġġettġġoġġett oġġett oġġett",
+    title: "Elenku ta' Prodotti Extra",
     subtitle:
-      "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Uri prodotti minn kategoriji varji. Għandek l-għażla li tagħżel kategoriji multipli biex turi prodotti jew tiffiltra l-prodotti skont it-tikketti.",
     aut_add_sub_categories_tips:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista' żżid awtomatikament is-sottokategoriji kollha mal-kategorija attwali billi tikklikkja l-buttuna hawn taħt.",
     inputs: {
       categories: {
         label: "Kategoriji",
-        messages: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġettġġoġġett",
+        messages: "Prodotti f'dawn il-kategoriji se jintwerew.",
+        placeholder: "Agħżel kategoriji...",
       },
       tags: {
-        label: "oġġett oġġett",
-        messages: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        placeholder: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett",
+        label: "Tikketti tal-prodott",
+        messages: "Prodotti b'dawn it-tikketti se jintwerew.",
+        placeholder: "Tikketti tal-wajer hawn u agħfas jidħol. ex. kollezzjoni ġdida",
       },
     },
     actions: {
-      save_engine: "Ħoġġett oġġettġġoġġett",
-      auto_add_subcategories: "oġġettġġoġġett Żoġġett oġġettġġoġġett",
+      save_engine: "Ħlief Magna",
+      auto_add_subcategories: "Żid awtomatikament sottokategoriji",
     },
   },
 
@@ -10355,16 +10355,16 @@ export default {
    */
   products_sort_view: {
     search_tips: {
-      title: "oġġett oġġettġġoġġett",
+      title: "Fittex Tips",
       normal:
-        "<b>oġġettġġoġġett oġġett: </b>oġġett oġġettġġoġġett oġġett, MPN, SKU, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett",
+        "<b>Tiftix Ġenerali: </b>Fittex skond it-Titolu, MPN, SKU, Brand, jew Tikketti.",
       product:
-        "<b>oġġettġġoġġett oġġett oġġettġġoġġett: </b>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett, <b class=\"text-green\">oġġettġġoġġett</b><i class=\"text-yellow\">360</i>.",
+        "<b>ID eżatt tal-Prodott: </b>Uża P+ID tal-Prodott biex issib prodott speċifiku, eż., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>oġġettġġoġġett oġġettġġoġġett: </b>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, <b class=\"text-green\">\"</b><i class=\"text-yellow\">oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</i><b class=\"text-green\">\"</b>.",
-      tax: "<b>oġġett oġġett: </b>oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett \"oġġett:\", oġġettġġoġġett, <b class=\"text-green\">oġġett:</b><i class=\"text-yellow\">oġġett oġġett oġġett</i>.",
+        "<b>Frażi Eżatta: </b>Uża l-virgoletti biex tfittex frażi eżatta, eż., <b class=\"text-green\">\"</b><i class=\"text-yellow\">it-test tiegħek hawn</i><b class=\"text-green\">\"</b>.",
+      tax: "<b>Profil tat-Taxxa: </b>Fittex prodotti bi profil tat-taxxa speċifiku billi tuża \"taxxa:\", eż., <b class=\"text-green\">tax:</b><i class=\"text-yellow\">isem tal-profil tat-taxxa</i>.",
       new_products:
-        "<b>Ġoġġett oġġett: </b>oġġettġġoġġett oġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett, <b class=\"text-green\">Ġoġġett~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Prodotti Ġodda: </b>Sib prodotti miżjuda f'medda ta' data speċifika, eż., <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>",
     },
   },
 
@@ -10374,32 +10374,32 @@ export default {
   augment_form: {
     title: "oġġettġġoġġett",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett Ċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 32 oġġettġġoġġett",
-    add_caption: "Żoġġett Ġoġġett oġġettġġoġġett",
-    add_sub_caption: "Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Daħħal iċ-ċavetta li se tiġi skambjata bil-valur korrispondenti tagħha fil-kontenut tal-paġna. Iċ-ċwievet għandhom ikunu ta' massimu ta' 32 karattru.",
+    add_caption: "Żid Punt Ġdid",
+    add_sub_caption: "Żid par ta' valur-ċavetta personalizzat.",
     add_dialog: {
-      title: "oġġettġġoġġett oġġettġġoġġett oġġett",
+      title: "Agħżel it-tip ta' input",
       html: {
-        title: "oġġettġġoġġett & oġġettġġoġġett HTML",
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett HTML",
+        title: "Test & Html",
+        subtitle: "Il-valur tal-oġġett jista' jiġi indikat jew bħala test jew HTML.",
       },
       image: {
         title: "Immaġni",
-        subtitle: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        subtitle: "Tista' ttella' immaġni.",
       },
     },
     help_dialog: {
-      title: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Kif tuża kontenut dinamiku",
       how_it_works_tips:
-        "oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett",
+        "Fil-paġni tal-inżul, għandek il-flessibilità li tagħżel placeholders dinamiċi kemm għat-test kif ukoll għall-immaġini. Dawn il-placeholders jaqdu rwol sinifikanti biex jippersonalizzaw il-kontenut skont il-kuntest.   In-natura dinamika ta 'dawn il-placeholders tippermettilhom li jiġu popolati b'valuri ta' awmentazzjoni, li jistgħu jvarjaw abbażi ta 'fatturi differenti. Pereżempju, il-valuri ta' awmentazzjoni jistgħu jkunu differenti għal kull prodott jew kategorija. Il-vantaġġ reali ta 'din il-karatteristika jidħol fis-seħħ meta jkollok varjetà ta' oġġetti b'attributi differenti. Tista' tutilizza b'mod effettiv dawn il-placeholders dinamiċi biex tippersonalizza u ttejjeb il-wiri ta' kull oġġett, u b'hekk toħloq esperjenza unika u interattiva fuq il-paġni ta' inżul tiegħek.",
       assign_tips:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Biex tassenja valuri dinamiċi lill-immaġini, ikklikkja fuq il-buttuna alimentatriċi li tinsab fuq in-naħa tax-xellug tas-sezzjoni.",
       set_dynamic_image_tips:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett URL oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Issa għandek il-ħila li timmodifika l-URL tal-immaġni u tassenjaha valur dinamiku.",
       enter_values_tips:
-        "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Għal kull prodott, għandek il-ħila li tassenja pari dedikati ewlenin-valur.",
       result_tips:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Dan huwa r-riżultat finali tal-paġna, fejn il-placeholders ġew sostitwiti b'valuri miżjuda.",
     },
   },
 
@@ -10408,35 +10408,35 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Multi Lingwa",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      add_caption: "Żoġġett Ġoġġett oġġett",
-      no_more_language: "oġġett oġġett oġġettġġoġġett!",
+        "Din hija l-lista tal-lingwi tal-kontenut. Tista' tissettja kontenut differenti għall-profil tal-loġistika f'kull lingwa.",
+      add_caption: "Żid artiklu ġdid",
+      no_more_language: "Ebda aktar lingwa!",
     },
     content: {
       title: "oġġettġġoġġett",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tippersonalizza l-kontenut għall-profil tal-loġistika f'diversi lingwi.",
 
-      language_input: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      language_input: "Lingwa tal-artiklu kurrenti",
       delete_article: "Ħoġġett oġġett",
-      menu_tooltip: "oġġettġġoġġett oġġettġġoġġett / Ħoġġett oġġett",
+      menu_tooltip: "Ittraduċi awtomatikament / Ħassar l-artikolu",
     },
-    translate_to: "oġġettġġoġġett oġġett",
+    translate_to: "Ittraduċi għal",
     notifications: {
       translate: {
-        message: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        message: "It-traduzzjoni tal-artiklu tlestiet b'suċċess.",
       },
       save_article: {
-        message: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        message: "L-artikolu ġie salvat b'suċċess.",
       },
       delete_article: {
-        message: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
+        message: "L-artikolu tħassar b'suċċess.",
       },
     },
     delete_dialog: {
-      message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett?",
+      message: "Int żgur li tħassar dan l-artikolu għal dejjem?",
       action: "Iva, Ħassar Issa",
     },
   },
@@ -10446,26 +10446,26 @@ export default {
    */
   logistic_profile_products: {
     title: "Prodotti",
-    subtitle: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Lista ta' prodotti assoċjati ma' dan il-profil.",
   },
   /**
    * @see LogisticProfilePage_Setting
    */
   logistic_profile_setting: {
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Informazzjoni ġenerali",
     inputs: {
       name: {
         message:
-          "oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+          "Dan l-isem jurik u mhux se jiġi żvelat lill-pubbliku.",
       },
       accept_delete: {
         true_description:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        true_title: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Din l-azzjoni se tneħħi l-artikoli u l-links tal-profili kollha.",
+        true_title: "Jien nivverifika li nneħħi din il-konnessjoni.",
       },
     },
     actions: {
-      remove: "oġġettħħoġġett oġġett & oġġettġġoġġett",
+      remove: "Neħħi l-profil u r-relazzjonijiet",
     },
   },
 
@@ -10473,27 +10473,27 @@ export default {
    * @see BPageShopLogisticProfiles
    */
   shop_logistic_profiles: {
-    title: "oġġettġoġġett oġġett",
-    add_caption: "Żoġġett Ġoġġett oġġett",
+    title: "Profili tal-Loġistika",
+    add_caption: "Żid Profil ġdid",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista 'toħloq u teditja l-politika ta' garanzija u ritorn għall-prodotti hawn u tassenjaha lil kwalunkwe prodott. Tista 'tiddefinixxi politiki ta' garanzija differenti għal tipi differenti ta 'prodotti.",
     add_dialog: {
-      title: "oġġettħoġġett Ġoġġett oġġettġoġġett oġġett",
+      title: "Oħloq profil loġistiku ġdid",
       config: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Informazzjoni ġenerali",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Agħżel it-tip tal-profil. Jista 'jkun gwida, garanzija, jew kwalunkwe kontenut u materjal ieħor maqsum b'mod komuni fost prodotti multipli.",
       },
       article: {
         title: "Artikolu",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett",
+          "Tista 'żżid aktar lingwi wara li toħloq dan il-profil loġistiku.",
       },
       inputs: {
         name: {
           message:
-            "oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Dan l-isem jurik u mhux se jiġi żvelat lill-pubbliku.",
+          placeholder: "Daħħal isem għall-profil...",
         },
       },
     },
@@ -10503,24 +10503,24 @@ export default {
    * @see BPageShopLogisticIncludes
    */
   shop_logistic_includes: {
-    title: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    add_caption: "Żoġġett Ġoġġett oġġettġġoġġett",
+    title: "Ġestjoni tal-Oġġetti Inklużi",
+    add_caption: "Żid oġġett ġdid",
     subtitle:
-      "oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
-    empty_list_msg: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Hawnhekk, tista 'timmaniġġja l-oġġetti inklużi fil-prodotti tiegħek. Biex tiżgura dehra bla difetti għall-maħżen tiegħek, uża b'mod konsistenti oġġetti b'mudelli ta 'immaġni simili, bħal wireframes, fil-prodotti kollha.",
+    empty_list_msg: "Lista ta' oġġetti inklużi...",
     notifications: {
       delete: {
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        message: "L-oġġett ġie mħassar.",
       },
     },
     delete_dialog: {
-      title: "Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Ħassar l-oġġett inkluż",
       message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett? oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett!",
+        "Int ċert li trid tħassar dan l-oġġett b'mod permanenti? Jekk jogħġbok innota li se titneħħa wkoll mill-prodotti assoċjati kollha!",
       action: "Iva, Ħassar Issa",
     },
     actions: {
-      edit_linked_page: "oġġett oġġettġġoġġett oġġettġoġġett",
+      edit_linked_page: "Editja l-paġna marbuta",
     },
   },
 
@@ -10528,53 +10528,53 @@ export default {
    * @see BIncludeItemAdd
    */
   include_item_add: {
-    dialog_title_edit: "oġġett oġġettġġoġġett oġġettġġoġġett",
-    dialog_title_add: "oġġettħoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett",
+    dialog_title_edit: "Edit inkluż oġġett",
+    dialog_title_add: "Oħloq oġġett ġdid inkluż",
 
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    title: "Oġġett inkluż",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett 2 oġġett 3 oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett 256oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Agħżel titolu qasir, idealment b'2 sa 3 kelmiet l-aktar. Uża immaġini kwadri, peress li se nbiddlu d-daqs awtomatikament l-istampi li ttellgħu f'format kwadru 256x256. Għall-aħjar dehra fil-mudelli kollha, uża stampi minimalisti bi sfondi trasparenti u ssostni mudell uniformi fil-prodotti tiegħek.",
     inputs: {
       title: {
-        placeholder: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        placeholder: "Titolu konċiż muri fuq il-paġna tal-prodott...",
       },
       code: {
-        placeholder: "oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett oġġett_oġġettġġoġġett_oġġettġġoġġett",
-        hint: "oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        placeholder: "Kodiċi uniku, ex. mobile_cable_usb",
+        hint: "Uża dan il-kodiċi biex tissimplifika l-proċess tat-tfittxija biex issib oġġetti.",
       },
       description: {
-        placeholder: "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        hint: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett SEO oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        placeholder: "Deskrizzjoni qasira dwar dan l-oġġett...",
+        hint: "Deskrizzjoni se tintuża għal SEO u forsi viżibbli għall-utenti fuq xi layouts tad-dwana fil-paġna tal-prodott.",
       },
       image: {
-        message: "oġġettġġoġġett oġġettġoġġett oġġettġġoġġett: 1oġġettġġoġġett",
+        message: "Daqs massimu tal-immaġni: 1MB",
       },
       path: {
-        label: "oġġettġoġġett oġġettġġoġġett",
+        label: "Mogħdija tal-paġna",
       },
     },
     mode: {
       no_link: {
-        title: "oġġett oġġettġġoġġett",
+        title: "L-ebda link",
       },
       external_link: {
         title: "Link esterna",
-        description: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett URL",
-        tips: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett URL oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        description: "Issettja link għal url estern.",
+        tips: "Tista' tehmeż kwalunkwe URL mal-oġġett. Meta l-utenti jikklikkjaw fuq l-oġġett fuq il-paġna tal-prodott, huma jiġu ridiretti lejn dik il-link.",
       },
       internal_link: {
-        title: "oġġettġġoġġett oġġettġġoġġett",
+        title: "Link intern",
         description:
-          "oġġettħoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        tips: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Oħloq paġna dinamika billi tipprovdi dejta ta' żieda għal dan l-oġġett.",
+        tips: "Tista 'tgħaqqad paġna ta' inżul mal-profil u tistabbilixxi mogħdija tad-dwana u kontenut dinamiku għaliha. Selldone se jiġġenera link dinamiku għall-oġġett.",
       },
     },
     notifications: {
       add: {
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett",
+        message: "L-oġġett inkluż ġie miżjud b'suċċess.",
       },
       edit: {
-        message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        message: "L-oġġett inkluż ġie aġġornat b'suċċess.",
       },
     },
   },
@@ -10582,9 +10582,9 @@ export default {
    * @see BPageShopLogisticReturns
    */
   shop_logistic_returns: {
-    title: "oġġett oġġett",
+    title: "Ordnijiet mibgħuta lura",
     subtitle:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+      "Il-klijenti tiegħek jistgħu jirritornaw l-ordnijiet fiżiċi tagħhom, u tista 'tara t-talbiet għar-ritorn fuq il-paġna tal-ipproċessar tal-ordnijiet jew taċċessa lista kompleta ta' ordnijiet ritornati hawn.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "oġġettġġoġġett",
     subtitle:
-      "oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett 30 oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      "Il-lista tal-kummissjonijiet kollha li tkun qlajt mir-referenzi tiegħek. Huwa jieħu sa 30 jum biex il-kummissjoni tiġi approvata u tittrasferixxi għall-kartiera tiegħek.",
   },
   /**
    * @see OReferralWallets
@@ -10600,43 +10600,43 @@ export default {
   referral_wallets: {
     title: "Kartieri",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Selldone oġġettġġoġġett",
-    no_commission_yet: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-    no_wallet: "oġġett oġġett!",
+      "Hawnhekk tista' tara l-miżati tal-kummissjoni li tkun qlajt. Tista' tittrasferixxi l-miżati tal-kummissjoni tiegħek fil-kont bankarju tiegħek jew fil-kartiera Selldone tiegħek.",
+    no_commission_yet: "Għadek ma rċevejt l-ebda kummissjoni.",
+    no_wallet: "Nru Kartiera!",
 
     withdraw_dialog: {
-      title: "oġġettġġoġġett oġġett oġġettġġoġġett",
+      title: "Irtira Drittijiet tal-Kummissjoni",
 
-      need_bank_info_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      need_bank_info_message: "Jekk jogħġbok daħħal l-informazzjoni bankarja tiegħek l-ewwel.",
 
       to_wallet: {
-        title: "oġġett oġġett",
+        title: "Biex Kartiera",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "B'din l-għażla, tista 'tittrasferixxi ħlasijiet ta' kummissjoni lill-kartiera Selldone tiegħek. Jekk jogħġbok kun żgur li kartiera hija konnessa bħala kartiera rigal tiegħek, u li topera bl-istess munita.",
       },
       to_bank: {
-        title: "oġġett oġġettġġoġġett",
+        title: "Lill-Bank",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett Selldone oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "B'din l-għażla, tista 'tittrasferixxi ħlasijiet ta' kummissjoni lill-kartiera Selldone tiegħek. Jekk jogħġbok kun żgur li kartiera hija konnessa bħala kartiera rigal tiegħek, u li topera bl-istess munita.",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett Selldone oġġettġġoġġett",
+            "Irrid nittrasferixxi l-kummissjoni tiegħi għall-kartiera Selldone tiegħi.",
         },
         verify_to_bank: {
           true_description:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+            "Nivverifika l-informazzjoni bankarja tiegħi u nixtieq nittrasferixxi l-kummissjoni tiegħi fil-kont bankarju tiegħi.",
         },
       },
       actions: {
-        withdraw_to_wallet: "oġġettġġoġġett oġġett oġġett",
-        withdraw_to_bank: "oġġettġġoġġett oġġett oġġettġġoġġett",
+        withdraw_to_wallet: "Irtira għall-kartiera",
+        withdraw_to_bank: "Irtira lejn il-bank",
       },
     },
     notifications: {
       request_transfer_to_bank_success:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett",
+        "It-talba tiegħek waslet b'suċċess, u aħna se nirreveduha.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "oġġettġġoġġett oġġettġġoġġett Żoġġett <b>?oġġettġġoġġett={code}</b> oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Selldone URL",
+      message: "Tista 'żżid <b>?ref={code}</b> ma' kwalunkwe selldone url.",
     },
     intro: {
-      title: "oġġettġġoġġett oġġettġġoġġett Selldone oġġett oġġettġġoġġett",
+      title: "Ingħaqad mal-Programm ta' Affiljat Selldone",
       message:
-        "oġġettġġoġġett Selldone oġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett Ġoġġett oġġett oġġett Selldone, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett—oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett, oġġett oġġettġġoġġett, Ħoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-      why_join_selldone_affiliate: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett?",
+        "Il-Programm ta' Affiljat ta' Selldone huwa sempliċi u dirett, iddisinjat għalik biex taqla' mingħajr sforz. Aqsam il-link ta' affiljat uniku tiegħek biex tistieden utenti ġodda għal Selldone, u taqla' kummissjoni minn kull tranżazzjoni li jagħmlu—għal dejjem. Dan jinkludi qligħ minn abbonamenti, tariffi tas-servizz, titjib fil-ħwienet, u l-flussi ta’ dħul l-oħra kollha. Ibda taqla 'sehem mid-dħul mingħajr ebda limitu ta' ħin jew qligħ. Ingħaqad magħna u dawwar in-netwerk tiegħek fi dħul stabbli!",
+      why_join_selldone_affiliate: "Għaliex din hija opportunità unika?",
       reasons: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Selldone",
-        "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett $99 oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Idum għal dejjem!",
+        "Ikopri l-miżati kollha ta' abbonament u tranżazzjoni. Litteralment kull ħlas tal-utent fuq Selldone.",
+        "Nibagħtu vawċer $99 b'xejn lil kull min jirreġistra billi juża l-link tiegħek.",
+        "Meta ttejjeb il-livell tiegħek, taqla' bir-rata l-ġdida mill-utenti kollha msemmija qabel.",
       ],
     },
   },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+    no_asset_uploaded: "S'issa ma ttella' l-ebda assi.",
   },
 
   /**
@@ -10673,60 +10673,60 @@ export default {
    */
   l_menu_top_home: {
     hot_keys: "oġġettġġoġġett",
-    click_to_view_all: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+    click_to_view_all: "Ikklikkja biex tara kollha...",
     clone_tooltip: {
-      title: "oġġettġġoġġett oġġett",
+      title: "Stil Duplikat",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett:",
+        "Uża din l-għodda biex tirreplika stili bħal fonts, sfondi, marġini u fruntieri. Segwi dawn il-passi biex tidduplika l-istili:",
       step_1:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġett; oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      step_2: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Attiva l-għodda u poġġi l-maws fuq test, kolonni jew stampi; il-cursor se jinbidel għal pipetta.",
+      step_2: "Ikklikkja fuq l-element li l-istil tiegħu trid tikkopja.",
       step_3:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett; oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Il-cursor se jinbidel lura għal paletta; ikklikkja fuq l-element fejn trid tapplika l-istil ikkupjat.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Aqleb il-viżibilità tal-menu tal-ġenb, li jinkludi l-kategoriji kollha tat-taqsima għall-bini tal-paġna tiegħek.",
     },
     sort_tooltip: {
       subtitle:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ippermetti din il-karatteristika biex tirranġa mill-ġdid u torganizza sezzjonijiet faċilment billi tkaxkarhom.",
     },
     edit_mode_tooltip: {
-      title: "oġġett / oġġettġġoġġett oġġettà",
+      title: "Modalità Editja / Preview",
       edit_mode_title: "oġġett oġġettà",
-      edit_mode_msg: "oġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      view_mode_title: "oġġettġġoġġett oġġettà",
+      edit_mode_msg: "L-għodod kollha tal-editjar se jintwerew.",
+      view_mode_title: "Modalità Preview",
       view_mode_msg:
-        "oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ara l-paġna tiegħek kif jarawha l-utenti billi taħbi għodod ta 'editjar żejda u żoni ta' test vojta.",
     },
     repository_tooltip: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Taqsimiet Mibnija minn qabel",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett",
+        "Aqleb il-wiri ta' sezzjonijiet iddisinjati minn qabel. Dawn it-taqsimiet huma maħluqa bl-użu tat-taqsimiet standard disponibbli fil-menu tax-xellug, li juru l-flessibbiltà ta 'dan il-bennej tal-paġna.",
     },
     live_view: {
-      title: "oġġettħoġġett oġġettġġoġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Preview Live",
+      subtitle: "Ara l-aġġornamenti f'ħin reali hekk kif teditja l-paġna tiegħek.",
     },
     hotkeys_dialog: {
-      title: "oġġettġġoġġett oġġettġġoġġett",
+      title: "Shortcuts tat-Tastiera",
       augment_tips:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett <b>oġġett</b>, <b>oġġett</b>, oġġettġġoġġett <b>oġġettġġoġġett oġġettġġoġġett</b>. oġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett <b>oġġettġġoġġett oġġettġġoġġett</b> oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista' tagħbija kontenut dinamiku fuq il-paġna tiegħek u tibdilha b'valuri <b>augment</b>. Iż-żieda tintuża għal paġni dinamiċi personalizzati bħal <b>Prodotti</b>, <b>Kategoriji</b>, u <b>Inkludi Oġġetti</b>. Biex tissettja immaġni biex titgħabba b'mod dinamiku, ikklikkja fuq <b>Feeder</b> u agħżel <b>Dynamic Source</b> għal dik l-immaġni.",
     },
     hotkeys: {
-      ctrl_b: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett | <b>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</b>",
-      ctrl_i: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett | <i>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</i>",
+      ctrl_b: "Ixgħel/itfi l-tipa grassa għat-test magħżul | <b>Agħmilni kuraġġuż</b>",
+      ctrl_i: "Ixgħel/itfi l-korsiv għat-test magħżul | <i>Agħmilni korsiv</i>",
       ctrl_l:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett | <s>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</s>",
-      ctrl_u: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett | <u>oġġettġġoġġett oġġettġġoġġett</u>",
+        "Ixgħel/itfi l-istrikethrough għal test magħżul | <s>Aqtagħni</s>",
+      ctrl_u: "Ixgħel/itfi is-sottolinja għat-test magħżul | <u>Ssottolinjani</u>",
       ctrl_1:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett | <small>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</small>",
-      ctrl_2: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett | <big>oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett</big>",
-      ctrl_r: "oġġettħħoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett | oġġettġġoġġett oġġett oġġettġġoġġett",
-      ctrl_s: "Ħoġġett oġġettġġoġġett oġġettġoġġett",
-      tab: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà",
-      ctrl_e: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettà",
+        "Naqqas id-daqs tat-tipa tat-test magħżul | <small>Agħmilni żgħir</small>",
+      ctrl_2: "Żid id-daqs tat-tipa tat-test magħżul | <big>Agħmilni kbir</big>",
+      ctrl_r: "Neħħi l-ifformattjar kollu mit-test magħżul | Naddaf l-istili kollha",
+      ctrl_s: "Issejvja l-paġna",
+      tab: "Aqleb bejn modi ta 'skala",
+      ctrl_e: "Attiva jew iddiżattiva l-mod tal-istil tal-klonu",
     },
   },
 
@@ -10735,34 +10735,34 @@ export default {
    */
   l_page_editor_repository: {
     title: "oġġett & oġġett",
-    subtitle: "oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Sezzjonijiet Mibnija minn qabel",
     add_dialog: {
-      title: "Żoġġett oġġett oġġettġġoġġett",
+      title: "Żid Taqsima tad-Dwana",
       configuration: {
         title: "Konfigurazzjoni",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          "Tista 'tiffranka sezzjonijiet iddisinjati apposta għal użu futur fid-disinji tal-paġna tiegħek. Dawn is-sezzjonijiet salvati se jkunu aċċessibbli għall-amministraturi kollha f'dan il-maħżen.",
       },
       image: {
         title: "Immaġni",
-        subtitle: "oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        subtitle: "Immaġini pubblika murija fil-lista.",
       },
       code: {
         title: "Kodiċi",
         subtitle:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett",
+          "Tista' tikkopja u tippejstja l-kodiċi tal-element mis-sezzjonijiet tan-naħa tax-xellug fil-bennej tal-paġna.",
       },
       inputs: {
         title: {
           label: "Titolu",
-          message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+          message: "Dan huwa t-titlu pubbliku.",
         },
         tags: {
           label: "Tikketti",
-          message: "oġġettżoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          message: "Użat għat-tiftix u l-kategorizzazzjoni ta' elementi.",
         },
         section: {
-          message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġoġġett oġġettġġoġġett",
+          message: "Ikkopja s-sezzjoni mill-bennej tal-paġna.",
         },
       },
     },
@@ -10772,102 +10772,102 @@ export default {
    * @see BPageMarketplaceVendors
    */
   marketplace_vendors: {
-    title: "oġġettħoġġett oġġett",
+    title: "Lista tal-bejjiegħa",
     subtitle:
-      "Żoġġett oġġettħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġett > oġġettġġoġġett",
-    add_new_vendor_action: "Żoġġett Ġoġġett oġġettħ",
+      "Żid il-bejjiegħa hawn, imbagħad assenjahom għal prodotti fid-Dashboard tal-Prodott > Bejjiegħa.",
+    add_new_vendor_action: "Żid Bejjiegħ Ġdid",
     status_tooltip: {
       title: "oġġettħ Status",
-      ACCEPTED: "oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      REJECTED: "oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      PENDING: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      ACCEPTED: "Il-bejjiegħ għandu aċċess għall-panel tiegħu.",
+      REJECTED: "It-talba tal-bejjiegħ ġiet miċħuda.",
+      PENDING: "It-talba qed tistenna deċiżjoni mill-bejjiegħ.",
     },
-    number_of_products: "oġġettġġoġġett oġġettġġoġġett oġġett",
+    number_of_products: "Numru ta' Prodotti",
     invited: "oġġettġġoġġett",
-    no_pricing: "oġġett oġġett",
+    no_pricing: "Nru Ipprezzar",
     no_pricing_tooltip: {
-      title: "oġġettġġoġġett oġġett oġġett",
-      subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Pjan tal-Ipprezzar Default",
+      subtitle: "Jekk jogħġbok waqqaf mudell ta' pprezzar default għall-bejjiegħ.",
     },
     updated_products_tooltip: {
-      title: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 24 oġġettġġoġġett",
+      title: "Prodotti aġġornati fl-aħħar 24 siegħa",
     },
     added_products_tooltip: {
-      title: "oġġett Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett 24 oġġettġġoġġett",
+      title: "Prodotti Miżjuda fl-Aħħar 24 Siegħa",
     },
     access_tooltip: {
-      title: "oġġettġġoġġett oġġettċċoġġett",
+      title: "Aċċess għall-Panel",
       subtitle:
-        "oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ > oġġettċċoġġett oġġettġġoġġett",
+        "Il-bejjiegħ għandu aċċess għall-panel tiegħu. Tista' teditja dan f'Bejjiegħ> tab Aċċess.",
     },
     reject_by_user_tooltip: {
-      title: "oġġettċħoġġett oġġettġġoġġett oġġett",
+      title: "Miċħuda mill-Utent",
       subtitle:
-        "oġġettġġoġġett oġġett oġġettċħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettħ oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett",
+        "L-utent irrifjuta t-talba biex isir bejjiegħ u jaċċessa dan il-bejjiegħ.",
     },
-    download_all_vendors: "oġġettżżoġġett oġġett oġġettħoġġett",
-    bulk_import: "oġġettġġoġġett oġġett (oġġettġġoġġett)",
+    download_all_vendors: "Niżżel il-bejjiegħa kollha",
+    bulk_import: "Importazzjoni bl-ingrossa (Excel)",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "oġġettċoġġett oġġettġġoġġett oġġettġġoġġett!",
+    title: "Liċenzja Upgrade Meħtieġa!",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Il-liċenzja attwali tiegħek ma tissodisfax ir-rekwiżiti tal-mudell tan-negozju magħżul tiegħek. Jekk jogħġbok aġġorna l-liċenzja tiegħek għall-pjan Enterprise.",
   },
 
   /**
    * {@see BOrderChatBox}
    */
   b_order_chat_box: {
-    title: "oġġettġġoġġett oġġett",
+    title: "Azzjonijiet Mgħaġġla",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett Status oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    send_update_email_action: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
-    add_template_action: "Żoġġett oġġettġġ oġġett",
+      "Tista 'tibgħat email ta' aġġornament tal-istatus lix-xerrej bi klikk waħda biss. Barra minn hekk, tista 'tiddefinixxi messaġġi komuni hawn biex terġa' tużahom, sabiex ma jkollokx għalfejn tiktebhom mill-ġdid kull darba.",
+    send_update_email_action: "Ibgħat Email ta' Aġġornament",
+    add_template_action: "Żid Mudell tal-Messaġġ",
 
     notifications: {
-      add_chat_success_message: "oġġettġġ oġġettġġoġġett oġġettġġoġġett Żoġġett oġġettġġoġġett",
+      add_chat_success_message: "Il-messaġġ ġie miżjud b'suċċess.",
     },
 
     send_update_email: {
-      title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Email tal-Aġġornament tal-Ordni",
       need_set_service_alert: {
         message:
-          "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        action: "oġġettġġoġġett oġġett oġġett",
+          "Jekk jogħġbok issettja l-fornitur tas-servizz tal-email tiegħek biex tippermetti li tintbagħat l-email.",
+        action: "Mur fis-settings",
       },
-      send_action: "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett",
+      send_action: "Ibgħat Email ta' Aġġornament",
 
       notifications: {
-        send_success_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
+        send_success_message: "L-email intbagħtet b'suċċess.",
       },
     },
     add_template: {
-      edit_title: "oġġett oġġettġġ oġġett",
-      add_title: "Żoġġett oġġettġġ oġġett",
+      edit_title: "Editja l-Mudell tal-Messaġġ",
+      add_title: "Żid Mudell tal-Messaġġ",
       message:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Għandek issettja titolu u korp tal-messaġġ hawn. It-titlu jintuża biss għar-referenza tiegħek u mhux se jintbagħat lill-klijent.",
 
       save_action: "Ħoġġett oġġett",
       add_action: "Żoġġett oġġett",
 
       notifications: {
-        save_success_message: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        save_success_message: "Il-mudell ġie salvat b'suċċess.",
       },
 
       inputs: {
         title: {
-          label: "oġġett oġġett",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+          label: "Titolu tal-Mudell",
+          placeholder: "Ikteb titlu qasir...",
         },
         body: {
           label: "oġġett oġġettġġ",
-          placeholder: "oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett",
+          placeholder: "Ikteb il-messaġġ tiegħek hawn...",
           messages:
-            "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {order_id} oġġettġġoġġett {buyer_name}.",
+            "Tista' tissettja valuri dinamiċi minn {order_id} u {buyer_name}.",
         },
       },
     },
@@ -10878,15 +10878,15 @@ export default {
    */
   b_order_share: {
     title: "Link tal-ordni",
-    subtitle: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    subtitle: "Tista 'taqsam il-link tal-ordni mal-klijent.",
     guest_checkout_message:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Ix-xerrejja mistiedna jistgħu awtomatikament jaraw l-ordni tagħhom fl-istess browser. Madankollu, jekk il-klijent huwa mistieden u għandek bżonn taqsam id-dettalji tal-ordni, tista 'toħloq link sigur għalihom.",
     authentication: "oġġettġġoġġett",
     guest: "oġġettġġoġġett",
-    click_to_create: "oġġettġġoġġett oġġett oġġettġġoġġett",
-    valid_for_30_days: "oġġettġġoġġett oġġettġġoġġett 30 oġġett",
+    click_to_create: "Ikklikkja biex toħloq...",
+    valid_for_30_days: "validu għal 30 jum",
     notifications: {
-      secure_link_created: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      secure_link_created: "Link sigur inħoloq b'suċċess.",
     },
   },
 
@@ -10894,20 +10894,20 @@ export default {
    * {@see BPageShopCrmReviews}
    */
   shop_reviews: {
-    title: "oġġettżoġġett oġġettġġoġġett",
-    add_source_action: "Żoġġett oġġettżoġġett oġġettġġoġġett",
+    title: "Sorsi Reviżjonijiet",
+    add_source_action: "Żid Sors tar-Reviżjoni",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħoġġett Facebook, Google, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġettġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      "Ikkonnettja faċilment pjattaformi esterni biex tiġbor u tanalizza reviżjonijiet dwar in-negozju tiegħek minn sorsi bħal Facebook, Google, u aktar. Aħna awtomatikament inqabblu lill-klijenti mar-reviżjonijiet tagħhom għal esperjenza aħjar tal-klijent. Tista 'wkoll turi dawn ir-reviżjonijiet fuq il-paġni ta' inżul u l-paġni tal-prodotti tiegħek.",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Żoġġett Ġoġġett oġġettġġoġġett oġġettġġoġġett",
-    title: "oġġettġġoġġett oġġettġġoġġett",
+    add_caption: "Żid sett ta 'proprjetà ġdida",
+    title: "Settijiet tal-Proprjetà",
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġett oġġett > oġġettġġoġġett",
+      "Tista' toħloq u timmaniġġja settijiet ta' proprjetà hawn. Settijiet ta' proprjetà jintużaw biex jiddefinixxu l-proprjetajiet ta' prodotti u servizzi. Tista' tassenja dawn is-settijiet ta' proprjetà għal prodotti fid-Dashboard tal-Prodott > Editja.",
   },
 
   /**
@@ -10915,37 +10915,37 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "oġġettġġoġġett oġġettġġoġġett - oġġett oġġett",
+      title: "Sett tal-Proprjetà - Varjanti tad-dwana",
       subtitle:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Tista 'tippersonalizza l-ismijiet tal-varjanti għal dan il-prodott, u tissostitwixxi dawk awtomatiċi.",
     },
 
     subtitle:
-      "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġoġġett > oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-    select_property_set: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    add_property_set: "Żoġġett oġġettġġoġġett oġġettġġoġġett",
+      "Tista' tippersonalizza l-ismijiet tal-varjanti, l-ikoni, u l-ordni tagħhom hawn. Għal prodotti b'varjanti uniċi li jmorru lil hinn mis-sitta default, tista 'tissettja varjanti personalizzati mfassla għal kull prodott. Sempliċement iddefinixxi settijiet ta 'proprjetà fit-tab Loġistika> Settijiet ta' Proprjetà u tassenjahom għal kwalunkwe numru ta 'prodotti kif meħtieġ.",
+    select_property_set: "Agħżel Sett tal-Proprjetà",
+    add_property_set: "Żid Sett tal-Proprjetà",
   },
 
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
     title: "oġġettġġoġġett",
-    add_action: "Żoġġett oġġettġġoġġett",
+    add_action: "Żid il-kaxxa",
     subtitle:
-      "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    empty: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett “Żoġġett oġġettġġoġġett”.",
-    edit: "oġġett oġġettġġoġġett",
-    new: "Ġoġġett oġġettġġoġġett",
-    default_weight: "oġġettġġoġġett oġġettż",
-    updated: "oġġettġġoġġett oġġettġġoġġett",
-    created: "oġġettġġoġġett oġġettġġoġġett",
-    deleted: "oġġettġġoġġett oġġettġġoġġett",
+      "Oħloq daqsijiet ta 'kaxxi li jistgħu jerġgħu jintużaw biex tħaffef ix-xiri tat-tikketti u tiżgura rati tat-tbaħħir preċiżi. Meta tissodisfa ordni, agħżel kaxxa ffrankata u d-dimensjonijiet tagħha jimlew awtomatikament.",
+    empty: "Għadu l-ebda kaxxi. Ikklikkja \"Żid il-kaxxa\".",
+    edit: "Edit kaxxa",
+    new: "Kaxxa ġdida",
+    default_weight: "Piż default",
+    updated: "Kaxxa aġġornata.",
+    created: "Kaxxa maħluqa.",
+    deleted: "Kaxxa mħassra.",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    define_package: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-    define_package_hint: "oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+    select_box: "Agħżel pakkett",
+    define_package: "Iddefinixxi pakkett",
+    define_package_hint: "Oħloq jew editja d-daqsijiet tal-pakkett predefiniti tiegħek",
   },
 
 
@@ -10973,41 +10973,41 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"oġġett",
-    message:"oġġettħoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett—oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett, oġġett, oġġettġġoġġett oġġettġġoġġett"
+    message:"Oħloq direttorju li jista' jitfittex u mmoderat għal kwalunkwe tip ta' elenku—propjetajiet, lukandi, tobba, servizzi, u aktar."
   },
 
   shop_listing: {
     name: "oġġett",
     message:
-      "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett—oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett, oġġett, oġġettġġoġġett oġġettġġoġġett",
+      "Oħloq direttorju li jista' jitfittex u mmoderat għal kwalunkwe tip ta' elenku—propjetajiet, lukandi, tobba, servizzi, u aktar.",
 
     items: {
       title: "Oġġetti",
       sub_title:
-        "oġġettħoġġett, oġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett Status, oġġett, oġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq, editja, u mmaniġġja oġġetti tal-elenkar. Ikkontrolla l-istatus, l-ipprezzar, l-informazzjoni ta’ kuntatt, u l-midja.",
 
-      empty_title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      empty_title: "Għadu l-ebda oġġetti",
       empty_subtitle:
-        "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq l-ewwel oġġett tal-lista tiegħek biex tibda tibni d-direttorju tiegħek.",
 
       add_title: "Żid Oġġett",
-      edit_title: "oġġett oġġettġġoġġett",
+      edit_title: "Editja l-oġġett",
 
-      price_to: "oġġett oġġett",
+      price_to: "Prezz għal",
       price_unit: "oġġett Unitàà",
       is_featured: "oġġettġġoġġett",
 
       meta_json: "Meta JSON",
       links_json: "oġġettġġoġġett JSON",
-      opening_hours_json: "oġġettġġoġġett oġġettġġoġġett JSON",
+      opening_hours_json: "Ħinijiet tal-ftuħ JSON",
 
-      delete_title: "Ħoġġett oġġettġġoġġett",
-      delete_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett?",
+      delete_title: "Ħassar l-oġġett",
+      delete_message: "Int żgur li trid tħassar dan l-oġġett?",
       delete_success: "Oġġett imħassra b'suċċess.",
-      restore_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      restore_success: "Oġġett restawrat b'suċċess.",
 
-      opening_hours:"oġġettġġoġġett oġġettġġoġġett",
-      form_fields:"oġġettġġoġġett oġġettġġoġġett",
+      opening_hours:"Ħinijiet tal-Ftuħ",
+      form_fields:"Oqsma tal-Formola",
 
       company: "Kumpanija",
       badges: "oġġettġġoġġett",
@@ -11017,92 +11017,92 @@ export default {
     categories: {
       title: "Kategoriji",
       sub_title:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Organizza d-direttorju tiegħek b'kategoriji u sottokategoriji. Dan itejjeb in-navigazzjoni u l-filtrazzjoni.",
 
-      empty_title: "oġġett oġġett oġġettġġoġġett",
+      empty_title: "S'issa l-ebda kategorija",
       empty_subtitle:
-        "oġġettħoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq kategoriji biex tistruttura l-elenkar tiegħek u ttejjeb il-browsing.",
 
       add_title: "Żid Kategorija",
       edit_title: "Editja l-kategorija",
 
-      parent_filter: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      parent_filter: "Iffiltra mill-ġenitur",
       parent: "Kategorija ġenitur",
 
-      price_format: "oġġett oġġettġġoġġett",
+      price_format: "Format tal-prezz",
       icon: "Ikona",
-      design_id: "oġġett oġġettġġoġġett",
+      design_id: "ID tad-disinn",
 
       delete_title: "Ħassar il-kategorija",
-      delete_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġett?",
-      delete_success: "oġġett oġġettħoġġett oġġettġġoġġett",
-      form_schema: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      delete_message: "Int żgur li trid tħassar din il-kategorija?",
+      delete_success: "Kategorija mħassra b'suċċess.",
+      form_schema: "Fields tal-formola tal-kategorija",
     },
 
     options: {
       submission_title: "oġġettġġoġġett",
-      submission_enabled: "oġġett oġġettġġoġġett",
+      submission_enabled: "Ippermetti s-sottomissjonijiet",
 
       moderation_title: "oġġettġġoġġett",
-      moderation_mode: "oġġettġġoġġett oġġettà",
-      require_first_approved_before_more: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett",
+      moderation_mode: "Modalità moderazzjoni",
+      require_first_approved_before_more: "Jeħtieġ l-ewwel approvazzjoni qabel aktar",
 
       limits_title: "Limiti",
-      max_pending_per_user: "oġġettġġoġġett oġġett oġġettġġoġġett oġġett",
-      max_items_per_user: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-      limits_hint: "oġġett oġġettġġoġġett",
+      max_pending_per_user: "Max pendenti għal kull utent",
+      max_items_per_user: "Oġġetti Max għal kull utent",
+      limits_hint: "Ħjiel ta' limiti",
 
       templates_title: "oġġettġġoġġett",
-      card_template: "oġġett oġġett",
-      details_template: "oġġett oġġett",
+      card_template: "Mudell tal-karta",
+      details_template: "Mudell tad-dettalji",
 
-      form_schema_title: "oġġettġġoġġett oġġettġġoġġett",
-      settings_title: "oġġettġġoġġett oġġett"
+      form_schema_title: "Form schema",
+      settings_title: "Settings żejda"
     },
 
     supervision: {
       title: "oġġettġġoġġett",
       sub_title:
-        "oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett: oġġettġġoġġett, oġġett, oġġettċħoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Irrevedi l-oġġetti sottomessi u tiddeċiedi x'jiġri wara: approva, tippubblika, tirrifjuta, arkivja jew reset għal pendenti.",
 
-      empty_title: "oġġett oġġettġġoġġett oġġett oġġettżoġġett",
+      empty_title: "Ebda oġġett biex tirrevedi",
       empty_subtitle:
-        "oġġettġġoġġett oġġett oġġettġġoġġett Ġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Meta l-utenti jissottomettu oġġetti ġodda, dawn se jidhru hawn għall-moderazzjoni.",
 
-      review_title: "oġġettżoġġett oġġettġġoġġett",
-      approve_publish: "oġġettġġoġġett & oġġett",
+      review_title: "Irrevedi l-oġġett",
+      approve_publish: "Approva u tippubblika",
 
       submitted_at: "oġġettġġoġġett",
-      quick_actions: "oġġettġġoġġett oġġett",
+      quick_actions: "Azzjonijiet malajr",
 
-      open_review: "oġġettġġoġġett oġġettżoġġett",
-      reset_to_pending: "oġġettġġoġġett oġġett oġġett",
+      open_review: "Reviżjoni miftuħa",
+      reset_to_pending: "Irrisettja għal pendenti",
       items_title: "Oġġetti",
 
     },
 
     moderation: {
-      approve_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      publish_success: "oġġettġġoġġett oġġett oġġettġġoġġett",
-      unpublish_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      archive_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      reject_success: "oġġettġġoġġett oġġettċħoġġett oġġettġġoġġett",
-      penalty_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      approve_success: "Oġġett approvat b'suċċess.",
+      publish_success: "Oġġett ippubblikat b'suċċess.",
+      unpublish_success: "Oġġett mhux ippubblikat b'suċċess.",
+      archive_success: "Oġġett arkivjat b'suċċess.",
+      reject_success: "Oġġett miċħud b'suċċess.",
+      penalty_success: "Piena applikata b'suċċess.",
 
-      reject_title: "oġġettċħoġġett oġġettġġoġġett",
-      reject_reason: "oġġettġġoġġett oġġettġġoġġett",
+      reject_title: "Irrifjuta l-oġġett",
+      reject_reason: "Raġuni ta' rifjut",
 
       penalty: "oġġettġġoġġett",
       penalty_title: "oġġettġġoġġett",
-      penalty_points: "oġġettġġoġġett oġġettġġoġġett",
-      penalty_note: "oġġettġġoġġett oġġett"
+      penalty_points: "Punti ta' penalità",
+      penalty_note: "Nota ta' penali"
     },
 
     media: {
-      upload_images: "oġġett oġġett",
+      upload_images: "Ittella immaġini",
       url_type: "Tip",
       url: "URL",
-      is_main: "oġġettġġoġġett oġġettġġoġġett oġġett"
+      is_main: "Issettja bħala prinċipali"
     },
 
 
@@ -11114,27 +11114,27 @@ export default {
     designs: {
       title: "oġġettġġoġġett",
       sub_title:
-        "oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett (oġġett + oġġett oġġettġġoġġett) oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq settijiet ta 'disinn multipli (mudelli ta' karta + dettalji) u assenjahom għal kategoriji. Il-kategoriji jistgħu jużaw disinji differenti.",
 
-      empty_title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      empty_title: "Għadu l-ebda disinn",
       empty_subtitle:
-        "Żoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Żid l-ewwel sett tad-disinn tiegħek biex tibda tippersonalizza kif jidhru l-kategoriji.",
 
       add_title: "Żoġġett oġġett",
-      edit_title: "oġġett oġġett",
+      edit_title: "Editja disinn",
 
-      card_template: "oġġett oġġett",
-      details_template: "oġġett oġġett",
+      card_template: "Mudell tal-karta",
+      details_template: "Mudell tad-dettalji",
 
       notifications: {
-        add_success: "oġġett oġġettġġoġġett oġġettġġoġġett",
-        edit_success: "oġġett oġġettġġoġġett oġġettġġoġġett",
-        delete_success: "oġġett oġġettħoġġett oġġettġġoġġett",
+        add_success: "Disinn maħluq b'suċċess.",
+        edit_success: "Disinn aġġornat b'suċċess.",
+        delete_success: "Disinn imħassar b'suċċess.",
       },
 
       delete_title: "Ħoġġett oġġett",
       delete_message:
-        "Ħoġġett oġġettġġoġġett oġġett? oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett_oġġettġġoġġett",
+        "Tħassar dan id-disinn? Kategoriji li jużawha awtomatikament jitilfu design_id.",
     },
 
 
@@ -11144,132 +11144,132 @@ export default {
     badges: {
       title: "oġġettġġoġġett",
       sub_title:
-        "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq u mmaniġġja badges tal-ħwienet. Badges jistgħu jiġu assenjati għall-elenkar ta 'oġġetti biex jenfasizzaw attributi speċjali.",
 
-      empty_title: "oġġett oġġettġġoġġett oġġettġġoġġett",
+      empty_title: "Għadu l-ebda badges",
       empty_subtitle:
-        "Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Żid l-ewwel badge tiegħek biex tibda tenfasizza l-oġġetti tal-lista.",
 
-      add_title: "Żoġġett oġġettġġoġġett",
-      edit_title: "oġġett oġġettġġoġġett",
+      add_title: "Żid badge",
+      edit_title: "Editja l-badge",
 
       notifications: {
-        add_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        edit_success: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        delete_success: "oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
+        add_success: "Badge maħluqa b'suċċess.",
+        edit_success: "Badge aġġornata b'suċċess.",
+        delete_success: "Badge mħassra b'suċċess.",
       },
 
-      delete_title: "Ħoġġett oġġettġġoġġett",
-      delete_message: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett?",
+      delete_title: "Ħassar il-badge",
+      delete_message: "Żgur li trid tħassar din il-badge?",
     },
 
     companies: {
       title: "Kumpaniji",
       sub_title:
-        "oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Oħloq u mmaniġġja kumpaniji. Kull oġġett tal-elenkar jista' b'mod fakultattiv ikun marbut ma' kumpanija waħda.",
 
-      empty_title: "oġġett oġġett oġġettġġoġġett",
+      empty_title: "L-ebda kumpanija għadha",
       empty_subtitle:
-        "Żoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett",
+        "Żid l-ewwel kumpanija tiegħek biex torbotha mal-oġġetti tal-lista.",
 
       add_title: "Żoġġett oġġett",
       edit_title: "Editja kumpanija",
 
       notifications: {
-        add_success: "oġġett oġġettġġoġġett oġġettġġoġġett",
-        edit_success: "oġġett oġġettġġoġġett oġġettġġoġġett",
-        delete_success: "oġġett oġġettħoġġett oġġettġġoġġett",
+        add_success: "Kumpanija maħluqa b'suċċess.",
+        edit_success: "Kumpanija aġġornata b'suċċess.",
+        delete_success: "Kumpanija mħassra b'suċċess.",
       },
 
       delete_title: "Ħoġġett oġġett",
       delete_message:
-        "Ħoġġett oġġettġġoġġett oġġett? oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Ħassar din il-kumpanija? Oġġetti li jużawha awtomatikament jitilfu l-link tal-kumpanija.",
     },
 
 
 
     messages: {
       title: "oġġettġġ",
-      sub_title: "oġġettġġoġġett oġġettġġ oġġettħoġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett",
+      sub_title: "Immaniġġja messaġġi mibgħuta mill-utenti mill-profili tal-elenkar.",
       empty_title: "oġġett oġġettġġ",
-      empty_subtitle: "oġġettġġ oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      empty_subtitle: "Messaġġi mibgħuta mill-utenti se jidhru hawn.",
 
       sender: "oġġettġġoġġett",
       item: "oġġett",
       has_reply: "oġġettġġoġġett",
-      has_reply_yes: "oġġettġġoġġett oġġettġġoġġett",
-      has_reply_no: "oġġett oġġettġġoġġett",
+      has_reply_yes: "Għandu tweġiba",
+      has_reply_no: "Ebda risposta",
 
       dialog_title: "Messaġġ",
-      owner_reply: "oġġett oġġettġġoġġett",
+      owner_reply: "Risposta tas-sid",
       reply: "oġġettġġoġġett",
-      reply_hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      reply_hint: "Ikteb tweġiba lill-utent. Tista' wkoll timmarka l-messaġġ bħala moqri/spam minn azzjonijiet.",
 
-      mark_read: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      mark_unread: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      mark_read: "Immarka kif moqri",
+      mark_unread: "Immarka bħala mhux moqri",
       archive: "oġġettġġoġġett",
       unarchive: "oġġettġġoġġett",
-      mark_spam: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      mark_not_spam: "oġġettġġoġġett oġġettġġoġġett",
+      mark_spam: "Immarka bħala spam",
+      mark_not_spam: "Mhux spam",
 
-      delete_confirm: "Ħoġġett oġġettġġoġġett oġġettġġ?",
+      delete_confirm: "Tħassar dan il-messaġġ?",
     },
 
     enable: {
       title: "oġġett",
-      subtitle: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett, Selldone oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      true_description: "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      false_description: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      open_listing: "oġġettġġoġġett oġġett",
-      note: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett, oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+      subtitle: "Ippermetti jew iddiżattiva l-paġna tal-elenkar pubbliku tiegħek. Meta jkun attivat għall-ewwel darba, Selldone joħloq il-konfigurazzjoni tal-elenkar awtomatikament.",
+      true_description: "L-elenkar huwa attivat. Il-klijenti jistgħu jibbrawżjaw il-paġni tal-lista.",
+      false_description: "L-elenkar huwa diżattivat. Il-paġni tal-lista u s-sottomissjonijiet huma mblukkati.",
+      open_listing: "Elenku miftuħ",
+      note: "Aktar tard tista' tikkonfigura l-moderazzjoni, il-limiti, il-formoli u d-disinn ġewwa s-settings tal-Listing.",
       vendor_prereq_text:
-        "oġġettġġoġġett oġġettħoġġett oġġett Żoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettħ oġġettġġoġġett? oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      vendor_prereq_button: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Trid li l-bejjiegħa jżidu oġġetti tal-elenkar mill-Panel tal-Bejjiegħa tagħhom? L-ewwel, aqleb il-mudell tan-negozju tiegħek għal Marketplace.",
+      vendor_prereq_button: "Issettja l-mudell tan-negozju tas-Suq",
 
       vendor_access_text:
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettċċoġġett oġġett oġġettġġoġġett (oġġettġġoġġett + oġġett). oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-      vendor_access_button: "oġġett oġġett oġġettġġoġġett oġġettħoġġett",
+        "Issa tista 'tiddeċiedi jekk il-bejjiegħa jistgħux jaċċessaw il-karatteristiċi tal-Elenku (oġġetti + kumpaniji). Ippermettiha fis-settings tas-Suq.",
+      vendor_access_button: "Ippermetti l-elenkar għall-bejjiegħa",
 
       more_options_text:
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett, oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      more_options_button: "oġġettġġoġġett oġġett oġġett oġġett",
+        "Aktar kontrolli huma disponibbli fis-settings tal-Listing. Tista 'tikkonfigura inputs, UI/dehra, moderazzjoni, limiti, u għażliet ta' monetizzazzjoni.",
+      more_options_button: "Mur fis-settings tal-elenkar",
 
-      updated: "oġġett oġġettġġoġġett",
-      update_failed: "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      updated: "Lista aġġornata.",
+      update_failed: "Naqas milli jaġġorna l-lista.",
     },
 
 
     search: {
-      title: "oġġett oġġett",
-      subtitle: "oġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      title: "Fittex settings",
+      subtitle: "Iddisinja kif il-klijenti jfittxu l-elenkar tiegħek. Ippermetti tfittxija bbażata fuq il-post u ibni filtri mill-oqsma tal-formoli tad-dwana tiegħek.",
 
-      location_title: "oġġett oġġett",
-      location_subtitle: "oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      location_enabled_true: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      location_enabled_false: "oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      location_title: "Tfittxija tal-post",
+      location_subtitle: "Ħalli lill-klijenti jagħżlu post u jsibu riżultati fil-qrib f'raġġ konfigurabbli.",
+      location_enabled_true: "Il-filtru tal-post huwa attivat. Il-klijenti jistgħu jfittxu mid-distanza.",
+      location_enabled_false: "Il-filtru tal-post huwa diżattivat. Ir-riżultati mhux se jiġu ffiltrati mid-distanza.",
 
-      radius_default: "oġġettġġoġġett oġġettġġ (oġġettġġoġġett)",
-      radius_default_hint: "oġġettżoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-      radius_max: "oġġettġġoġġett oġġettġġ (oġġettġġoġġett)",
-      radius_max_hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-      radius_options: "oġġettġġ oġġettġġoġġett (oġġettġġoġġett)",
-      radius_options_hint: "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      radius_default: "Raġġ default (km)",
+      radius_default_hint: "Użat meta l-klijent jagħżel post iżda ma jagħżelx raġġ.",
+      radius_max: "Raġġ massimu (km)",
+      radius_max_hint: "Ir-raġġ tal-maħżen se jkun ikklampjat għal dan il-valur.",
+      radius_options: "Għażliet tar-radju (km)",
+      radius_options_hint: "Dawn il-valuri jistgħu jintwerew bħala għażliet ta 'malajr fl-UI tal-maħżen.",
 
-      filters_title: "oġġett oġġett",
-      filters_subtitle: "Żoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett). oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett Meta",
-      no_filters: "oġġett oġġett Żoġġett oġġettġġoġġett",
-      auto_generate: "oġġettġġoġġett oġġettġġoġġett",
+      filters_title: "Fittex filtri",
+      filters_subtitle: "Żid filtri li jaqraw il-valuri mill-oqsma tal-meta tal-oġġett (l-oqsma tal-formola tal-lista/kategorija tiegħek). Uża Auto-generate biex tiġbor għażliet reali minn oġġetti ppubblikati.",
+      no_filters: "S'issa ma ġiex miżjud filtri.",
+      auto_generate: "Iġġenera awtomatikament għażliet",
 
-      filter_field: "oġġettġġoġġett Ċoġġett",
+      filter_field: "Ċavetta tal-qasam",
       filter_label: "Tikketta",
       filter_type: "Tip",
       filter_options: "oġġettġġoġġett",
-      filter_options_hint: "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+      filter_options_hint: "Għal filtri magħżula, l-għażliet jistgħu jkunu manwali jew iġġenerati.",
       multiple: "oġġettġġoġġett",
       single: "oġġettġġoġġett",
-      kv_mode: "oġġettġġoġġett oġġettà",
+      kv_mode: "Modalità ewlenin/Valur",
 
-      requires_listing_active: "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+      requires_listing_active: "L-elenkar mhuwiex attiv. Ippermetti l-Elenku l-ewwel biex tużah fuq il-faċċata tal-ħanut.",
 
 
     },
@@ -11323,7 +11323,7 @@ export default {
      */
     shop_email: {
       name: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Super Savings Weekend Blast",
         "Deals Insider Esklussivi Żvelati",
         "Aċċess VIP tiegħek għal Skontijiet Premium",
         "Extravaganza tal-Bejgħ Staġjonali",
@@ -11404,7 +11404,7 @@ export default {
         "Familja u Ħbieb: 20% Off",
         "Tfaddil Kbir Dan il-Weekend",
         "Il-Ġimgħa l-Iswed: 40% Off",
-        "oġġettġġoġġett oġġettġġoġġett oġġettħoġġett: 30% oġġettġġoġġett",
+        "Sneak Peek Discount: 30% Off",
       ],
       description: [
         "Itlob l-offerta speċjali tiegħek! Ħin limitat biss.",
@@ -11433,21 +11433,21 @@ export default {
       title: [
         "Tfaddil Maħlul",
         "Nisfrutta l-Iskont",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Super Savings",
         "Deal Esklussiva",
         "Tifdil ta' Bonus",
         "Skontijiet VIP",
         "Offerta speċjali",
         "Tfaddil Extra",
         "Twissija ta' Skont",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Budget Bliss",
         "Delight Ekonomija",
         "Valur Bonanza",
         "Qtugħ tal-Prezz",
         "Tfaddil Happy",
         "Issejvja Aktar, Aħt Iktar",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Flash Deal",
+        "Bargain Bounty",
         "Tfaddil Instant",
         "Ftehim tal-Jum",
         "Serq Staġjonali",
@@ -11528,7 +11528,7 @@ export default {
         "Hawn għalik",
         "Ifrex il-Ferħ",
         "Don ta’ Mħabba",
-        "Ħoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Shop with Delight",
         "Token ta’ Grazzi",
         "Ħin biex Splurge",
         "Savo l-Mument",
@@ -11639,7 +11639,7 @@ export default {
         "Stejjer ta' Stil ta' Ħajja",
         "Aġġornamenti Sportivi",
         "Punti ewlenin tal-Arti",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Parenting Pointers",
       ],
       description: [
         "Skopri artikli insightful fuq diversi suġġetti.",
@@ -11660,7 +11660,7 @@ export default {
      */
     partner_plan: {
       name: [
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Starter Pack",
         "Pjan Essenzjali",
         "Suite Professjonali",
         "Edizzjoni Intrapriża",
@@ -11766,26 +11766,26 @@ export default {
      */
     campaign: {
       name: [
-        "Ħoġġett 'oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettħ oġġettġġoġġett",
+        "Shop 'Til You Drop",
+        "Cart Frenzy",
+        "Flash Sale Fiesta",
         "Ikklikkja, Shop, Save",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Bargain Bonanza",
+        "E-Deal Extravaganza",
+        "Mega Markdown Madness",
+        "Cyber ​​Savings Spree",
         "Ġranet ta' Skont Diġitali",
         "E-Commerce Karnival",
-        "Online oġġettġġoġġett oġġettġġoġġett",
+        "Online Outlet Oasis",
         "Rush bl-imnut",
         "Bejgħ tal-Bejgħ tal-Bejgħ tal-Webstore",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "E-Shopper's Paradise",
         "Virtwali Voucher Venture",
         "Doorbusters Diġitali",
         "Clearance E-Cart",
         "Showdown Xiri Online",
-        "oġġettġġoġġett oġġettħ oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Cyber ​​Sale Spectacular",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11847,24 +11847,24 @@ export default {
     lottery: {
       title: [
         "Spin & Irbaħ Premjijiet Kbar!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Spin biex Irbaħ Premjijiet",
         "Rota tal-Ġid",
         "Lucky Lotterija Stravaganza",
         "Mega Spin Sorpriża",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Prize Wheel Fiesta",
         "Treasure Spin spettakolari",
         "Dawwar ir-Rota Magic",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Lucky Wheel Galore",
         "Favur tal-Fortuna",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Wheel of Wonders",
         "Spin għall-għana",
         "Premju Spinner Delight",
         "Golden Spin Lotterija",
         "Spin-a-Premju",
         "Rota tal-fortuni",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Lucky Spin Showcase",
         "Premju Ultimate Spin",
       ],
       description: [
@@ -11896,100 +11896,100 @@ export default {
      */
     subscription_price: {
       title: [
-        "oġġettġġoġġett oġġettċċoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Aċċess Bażiku",
+        "Sħubija Premium",
+        "Pakkett tad-Deheb",
+        "Pjan tal-Fidda",
+        "Abbonament Platinum",
+        "Intrapriża Livell",
+        "Starter Bundle",
+        "Offerta Illimitata",
+        "Pakkett tal-Familja",
         "Suite Professjonali",
       ],
       description: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettċċoġġett oġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettà oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettċċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett 4 oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Ideali għal individwi li jesploraw l-affarijiet bażiċi.",
+        "Aċċess għall-karatteristiċi u l-kontenut premium kollha.",
+        "Benefiċċji esklussivi u appoġġ prijoritarju.",
+        "Pakkett bilanċjat għal utenti regolari.",
+        "Aċċess aħħari b'vantaġġi tal-ogħla livell.",
+        "Soluzzjonijiet personalizzati għal organizzazzjonijiet kbar.",
+        "Għażla ta' livell ta' dħul affordabbli.",
+        "L-ebda limitu fuq l-użu, għall-utent tas-setgħa.",
+        "Pjan speċjali għall-familji, sa 4 membri.",
+        "Iddisinjat għal professjonisti li jfittxu għodod avvanzati.",
       ],
     },
 
     spec: {
       group: [
         "Speċifikazzjonijiet Tekniċi",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "Material oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġ",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġettżoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Dimensjonijiet Fiżiċi",
+        "Karatteristiċi tal-Prestazzjoni",
+        "Għażliet ta' Konnettività",
+        "Rekwiżiti ta' Enerġija",
+        "Materjal u Kwalità tal-Bini",
+        "Għażliet tal-Kulur u Finish",
+        "Ħażna u Memorja",
+        "Kompatibilità tas-Sistema Operattiva",
+        "Sigurtà u Konformità",
+        "Kontenut tal-Pakkett",
+        "Garanzija u Appoġġ",
+        "Brand u Manifattur",
+        "Ħbiberija Ambjentali",
+        "Effiċjenza tal-Enerġija",
+        "Kura u Manutenzjoni",
+        "Għażliet ta 'Personalizzazzjoni",
+        "Aċċessorji Inklużi",
+        "Ratings u Reviżjonijiet tal-Utenti",
+        "Prezzijiet u Disponibbiltà",
       ],
     },
 
     avocado: {
       title: [
-        "oġġett oġġettċoġġett",
-        "oġġettħ oġġettġġoġġett",
-        "oġġett oġġett",
+        "Irċevuta tax-Xiri",
+        "Konferma tal-Bejgħ",
+        "Ordni Fattura",
         "Ħoġġett oġġett",
-        "oġġett oġġettċoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġettċċoġġett oġġettċoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġett oġġett oġġett",
-        "oġġettħ oġġettċoġġett",
-        "oġġettġġoġġett oġġett",
+        "Irċevuta tal-Klijent",
+        "Sommarju tat-Tranżazzjoni",
+        "Dikjarazzjoni ta' Billing",
+        "Irċevuta tal-Checkout",
+        "Sommarju tal-Ordni",
+        "Fattura ta' Ordni ta' Xiri",
+        "Irċevuta tal-Bejgħ",
+        "Fattura bl-imnut",
         "oġġettġġoġġett",
-        "oġġett oġġett",
-        "oġġett oġġett",
-        "Ħoġġett oġġettċoġġett",
+        "Fattura tas-Servizz",
+        "Fattura tal-Prodott",
+        "Irċevuta tal-Ħlas",
         "Konfermazzjoni tal-ordni",
-        "oġġett oġġett",
-        "oġġettċċoġġett oġġett",
-        "oġġett oġġett",
+        "Fattura tal-kontijiet",
+        "Checkout Fattura",
+        "Fattura tal-Klijent",
       ],
       message: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġett!",
-        "Ħoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "Żoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Grazzi għax-xiri tiegħek!",
+        "Napprezzaw in-negozju tiegħek.",
+        "L-ordni tiegħek tinsab fi triqitha!",
+        "Grazzi talli xtrajt magħna.",
+        "Nistennew bil-ħerqa li nerġgħu naqdik.",
+        "Is-sodisfazzjon tiegħek huwa l-ogħla prijorità tagħna.",
+        "Tinsiex tivvaluta l-esperjenza tiegħek.",
+        "Grazzi għall-appoġġ tal-maħżen tagħna.",
+        "Nittamaw li tgawdi x-xiri l-ġdid tiegħek!",
+        "Ħlief il-fattura tiegħek għal referenza futura.",
+        "Erġa' żurna għal aktar prodotti mill-aqwa.",
+        "Ibqa' konness għal offerti esklussivi.",
+        "Grazzi talli int klijent stmat.",
+        "Aħna qegħdin hawn biex ngħinu jekk għandek bżonn għajnuna.",
+        "Ir-rispons tiegħek jgħinna ntejbu.",
+        "Igawdu skont speċjali fuq ix-xiri li jmiss tiegħek.",
+        "Int għamilt għażla kbira!",
+        "Grazzi tal-fiduċja tiegħek fina.",
+        "Ħerqana għall-feedback tiegħek.",
+        "Grazzi mill-qalb mit-tim tagħna.",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettħ oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Vetrina tal-Proprjetà",
+        "Bejjiegħa Plaza",
+        "Djar Dehru",
+        "Suq Lokali",
         "Wasliet Ġodda",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Ġonna Estate",
+        "Distrett tax-Xiri",
+        "Sqaq Artiġjan",
+        "Estates lussużi",
+        "Hub tal-Kiri",
+        "Open Houses",
+        "Innovazzjonijiet Teknoloġiċi",
+        "Fashion Lane",
+        "Rokna tal-Artiġjanat",
+        "Food Court",
+        "Ktieb Nook",
+        "Junction dehbijiet",
+        "Vjal l-Antikitajiet",
+        "Żona Fitness",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
-        "oġġettħ oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
-        "oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġettħħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettċoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett (oġġettġġoġġett)",
+        "Ċertifikat ta' Reġistrazzjoni tan-Negozju",
+        "Numru ta' Identifikazzjoni tat-Taxxa (TIN)",
+        "Formola ta' Ftehim tal-Bejjiegħ",
+        "Katalgu tal-Prodott",
+        "Lista tal-Prezzijiet",
+        "Dettalji tal-Kont Bankarju",
+        "Prova ta' l-Indirizz",
+        "Ċertifikat ta' Assigurazzjoni",
+        "Profil tal-Kumpanija",
+        "Ċertifikat ta' Assigurazzjoni tal-Kwalità",
+        "Skeda ta' Data ta' Sigurtà (SDS)",
+        "Informazzjoni dwar Garanzija tal-Prodott",
+        "Politika ta' Ritorn",
+        "Proċeduri ta' Tbaħħir u Immaniġġjar",
+        "Politika dwar is-Servizz tal-Klijent",
+        "Pjanijiet ta' Marketing u Promozzjoni",
+        "Links tal-Midja Soċjali",
+        "Referenzi tal-Kummerċ",
+        "Kodiċi ta' Kondotta tal-Fornitur",
+        "Ftehim ta' Non-Diżvelar (NDA)",
       ],
     },
 
@@ -12053,26 +12053,26 @@ export default {
      */
     expert_contract: {
       title: [
-        "oġġett oġġettħżoġġett oġġett oġġettġġoġġett",
-        "Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "Ħoġġett oġġettħżoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "POD oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettħżoġġett oġġettħżoġġett oġġettġġoġġett",
-        "oġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġettġġoġġett",
-        "oġġett Ħoġġett oġġettħżoġġett oġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettħżoġġett oġġett oġġettġġoġġett",
-        "POD oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Ftehim tas-Servizzi ta' Setup tas-Suq",
+        "Kuntratt tal-Konfigurazzjoni tal-Ħanut",
+        "Ftehim dwar Servizzi ta' Stampar On-Demand",
+        "Ftehim ta' Servizz ta' Marketing Diġitali",
+        "Ftehim dwar is-Setup tal-Pjattaforma tal-Kummerċ Elettroniku",
+        "Kuntratt ta' Konsulenza Espert għal Sidien ta' Negozju",
+        "Ftehim ta' Servizz għall-Konfigurazzjoni tas-Suq",
+        "Kuntratt ta' Servizzi ta' Setup u Konfigurazzjoni tal-Ħanut",
+        "Ftehim ta' Provvista ta' Servizzi POD",
+        "Ftehim ta' Implimentazzjoni ta' Strateġija ta' Marketing",
+        "Kuntratt ta' Servizz ta' Żvilupp tan-Negozju",
+        "Ftehim dwar is-Setup tal-Aħżen tal-Kummerċ elettroniku",
+        "Ftehim ta' Provvista ta' Servizz ta' Espert",
+        "Soluzzjonijiet tan-Negozju u Kuntratt ta' Setup",
+        "Ftehim dwar Servizzi ta' Setup tal-Ħanut tad-Dwana",
+        "Ftehim tas-Servizz għall-Ottimizzazzjoni tas-Suq",
+        "Kuntratt ta' Servizzi ta' Konsulenza u Setup",
+        "Ftehim dwar Servizzi ta' Integrazzjoni POD",
+        "Kuntratt ta' Servizzi ta' Marketing u Promozzjoni",
+        "Ftehim ta' Servizz ta' Espansjoni tan-Negozju",
       ],
     },
 
@@ -12081,16 +12081,16 @@ export default {
      */
     account: {
       account_name: [
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġett oġġett",
-        "oġġettġġoġġett oġġett",
+        "Kartiera Prinċipali",
+        "Kont tan-Negozju",
+        "Kartiera Personali",
+        "Kartiera tat-Tfaddil",
+        "Kont ta' Spejjeż",
+        "Kartiera Primarja",
+        "Kont Ġenerali",
+        "Kartiera ta' Riżerva",
+        "Kartiera tat-Tranżazzjonijiet",
+        "Kont tal-Fond",
       ],
     },
 
@@ -12099,38 +12099,38 @@ export default {
      */
     cashback: {
       title: [
-        "Ħoġġett & oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "VIP oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett Ħoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "Ħoġġett oġġett, Ħoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Ħut u Aqla' Cashback",
+        "Premji Lealtà Cashback",
+        "Offerti Esklussivi ta' Cashback",
+        "Cashback Bonanza",
+        "Deals Instant Cashback",
+        "Tifdil ta' Cashback Staġjonali",
+        "Jiem Doppju ta' Cashback",
+        "Cashback fuq Kull Xiri",
+        "Cashback Frenzy",
+        "Programm VIP Cashback",
+        "Cashback għal Żmien Limitat",
+        "Cashback Rewards Club",
+        "Ixtri Aktar, Issejvja Aktar",
+        "Premjijiet Ultimate Cashback",
+        "Cashback Extravaganza",
       ],
       description: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "Ħoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
-        "VIP oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett! oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett oġġettġġoġġett Ħoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Aqla 'cashback fuq kull xiri!",
+        "Ikseb ippremjat għal-lealtà tiegħek.",
+        "Offerti esklussivi ta' cashback biss għalik.",
+        "Igawdu tfaddil kbir bi premjijiet cashback.",
+        "Cashback istantaneju fuq l-oġġetti favoriti kollha tiegħek.",
+        "Iffranka aktar b'offerti staġjonali ta' cashback.",
+        "Irdoppja l-cashback tiegħek f'jiem speċjali!",
+        "Aqla' cashback kull darba li tixtri.",
+        "Ingħaqad mal-frenzy cashback illum!",
+        "Il-membri VIP igawdu minn cashback esklussiv.",
+        "Hurry! Offerti ta' cashback għal żmien limitat.",
+        "Ingħaqad mal-Club tagħna ta' Cashback Rewards issa.",
+        "Iktar ma tixtri, aktar tiffranka.",
+        "Nisfrutta l-premjijiet cashback aħħari.",
+        "Esperjenza tal-aħjar offerti ta' cashback madwar.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "oġġettġġoġġett oġġett {shop} - oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "{shop} - oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {shop} - oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġett oġġettġġoġġett {shop}'oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {shop} oġġettġġoġġett - oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {shop}",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġett oġġettġġoġġett {shop}",
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett {shop} - oġġettġġoġġett oġġettġġoġġett!",
-        "{shop}'oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett - Ħoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġett {shop} - oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Merħba għal {shop} - Esplora l-Firxa Distinttiva Tagħna ta' Oġġetti",
+        "{shop} - Is-Sors Aħħari Tiegħek għal Merkanzija ta' Kwalità u Servizz Pendenti",
+        "Deals esklussivi u tfaddil biss fi {shop} - Aħtaf l-Opportunità!",
+        "Kun af id-Dedikazzjoni ta' {shop} għall-Eko-friendly u l-Prattiċi Etiċi",
+        "Issir Parti mill-Familja {shop} - Abbona man-Newsletter Tagħna għal Aġġornamenti",
+        "Għaddas fl-Aqwa Picks u Oġġetti b'rata Għolja fi {shop}",
+        "Ippreżenta Ideat u Suġġerimenti Kreattivi għall-Avvenimenti Kollha fi {shop}",
+        "Offerti bla konfront u Speċjali sensittivi għall-ħin fi {shop} - Aġixxi Mgħaġġla!",
+        "Suġġerimenti Komprensivi dwar ix-Xiri u Evalwazzjonijiet tal-Prodotti ta' {shop} - Ħut b'kunfidenza",
+        "Ilħaq {shop} - Naħdmu biex Inwasslu Esperjenza ta' Xiri Mhux Imqabbla",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "Ħoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett – oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġett: oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, Ħoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "Ħoġġett oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett Ħoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett – Ħoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett: oġġettġġoġġett oġġettġġoġġett Ħoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
-        "oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+        "Imla l-ħarsa tiegħek, aqbad is-sett!",
+        "Iffranka l-kbira bl-offerti tal-pakketti tagħna!",
+        "Titlifx il-parir perfett tagħna!",
+        "Ittejjeb ix-xiri tiegħek, add-ons tistenna!",
+        "Nisfruttaw tfaddil esklussiv, jixtru flimkien!",
+        "Oġġetti komplementari, roħs speċjali!",
+        "Ikseb aktar, jonfoq inqas - għaqqad!",
+        "Offerta għal żmien limitat: prodotti mqabbla!",
+        "Aġġorna l-esperjenza tiegħek, offerti combo!",
+        "Skopri l-combos kkurati tagħna, ħlief issa!",
+        "Pajjar għall-combo aħħari!",
+        "Ixtri b'mod intelliġenti, għaqqad u ssalva!",
+        "Id-doppju tal-valur, id-doppju tal-gost!",
+        "It-taqbila perfetta tiegħek tinsab hawn - ixtri issa!",
+        "Ipprezzar tal-pakkett esklussiv għalik biss!",
+        "Timmassimizza l-iffrankar tiegħek bil-combos tagħna!",
+        "Ittejjeb il-kollezzjoni tiegħek b'dawn il-pikliet!",
+        "Ikkurat għalik: qabbel u ssalva!",
+        "Il-par perfett għal ġurnata perfetta!",
+        "Għaqqad il-favoriti tiegħek għal tfaddil żejjed!",
       ],
     },
 
@@ -12185,26 +12185,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Oġġetti Diġitali",
         "oġġettġġoġġett",
         "oġġettġġoġġett",
         "oġġettġġoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Appliances tad-dar",
+        "Prodotti tas-Sbuħija",
+        "Tagħmir tal-Isport",
         "Ġugarelli u Logħob",
         "Merċa",
         "Għamara",
         "Partijiet tal-Karozzi",
         "dehbijiet",
-        "oġġettġġoġġett & oġġettġġoġġett",
+        "Saħħa u Benessri",
         "Provvisti Pet",
         "Provvisti għall-Uffiċċju",
-        "oġġettġġoġġett & oġġettġġoġġett",
-        "oġġettġġoġġett & oġġettġġoġġett oġġett",
+        "Mużika u Strumenti",
+        "Films u Shows tat-TV",
         "oġġettġġoġġett",
-        "oġġettġġoġġett & oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Arti u Snajja",
+        "Irkaptu ta' barra",
       ],
     },
 
@@ -12214,39 +12214,39 @@ export default {
     template_message: {
       title: [
         "Konfermazzjoni tal-ordni",
-        "oġġett oġġettħoġġett",
-        "oġġett oġġettħoġġett",
-        "Ħoġġett oġġettċoġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett oġġett",
-        "oġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
+        "Ordni Mibgħuta",
+        "Ordni Mogħtija",
+        "Ħlas Riċevut",
+        "Ordni Kanċellata",
+        "Dewmien fl-Ipproċessar tal-Ordni",
+        "Ordni Żamma",
+        "Ordna għal Kunsinna",
+        "Ritorn Ipproċessat",
+        "Rifużjoni Maħruġa",
+        "Oġġett lura fl-istokk",
       ],
       body: [
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġett! oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Hi {buyer_name}, l-ordni tiegħek #{order_id} ġiet ikkonfermata! Aħna qed nipproċessawha u ninnotifikawk meta tkun lesta biex tintbagħat.",
 
-        "oġġett Ġoġġett, {buyer_name}! oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+        "Aħbar tajba, {buyer_name}! L-ordni tiegħek #{order_id} ġiet mibgħuta. Tista 'ssegwiha permezz tal-kont tiegħek. Grazzi talli xtrajt magħna!",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+        "Hello {buyer_name}, l-ordni tiegħek #{order_id} twasslet b'suċċess. Nittamaw li tgawdi x-xiri tiegħek. Grazzi!",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġettġġoġġett oġġettċoġġett oġġettġġoġġett Ħoġġett oġġettġġoġġett oġġett #{order_id}. oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett",
+        "Hi {buyer_name}, irċevejna l-ħlas għall-ordni #{order_id}. L-ordni tiegħek issa qed tiġi pproċessata u ser tintbagħat dalwaqt.",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Għeżież {buyer_name}, jiddispjaċina ninfurmak li l-ordni tiegħek #{order_id} ġiet ikkanċellata. Jekk għandek xi mistoqsijiet, jekk jogħġbok ikkuntattja l-appoġġ.",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett #{order_id}. oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Għeżież {buyer_name}, qed nesperjenzaw dewmien fl-ordni tiegħek #{order_id}. Niskużaw ruħna għall-inkonvenjent u qed naħdmu biex insolvuh kemm jista’ jkun malajr.",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett oġġettġġ oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hi {buyer_name}, l-ordni tiegħek #{order_id} bħalissa tinsab sospiża. Jekk jogħġbok iċċekkja l-kont tiegħek jew ikkuntattja l-appoġġ għal aktar dettalji.",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett!",
+        "Hi {buyer_name}, l-ordni tiegħek #{order_id} waslet għall-kunsinna u għandha tasallek dalwaqt. Grazzi tal-paċenzja tiegħek!",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġett #{order_id}. oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Għeżież {buyer_name}, ipproċessajna r-ritorn għall-ordni tiegħek #{order_id}. Jekk għandek xi mistoqsijiet, jekk jogħġbok ikkuntattja l-appoġġ.",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett",
+        "Hi {buyer_name}, inħarġet ir-rifużjoni tiegħek għall-ordni #{order_id}. Għandek tara l-fondi fil-kont tiegħek dalwaqt.",
 
-        "oġġettġġoġġett {buyer_name}, oġġettġġoġġett oġġettġġoġġett oġġett oġġettġġoġġett oġġett #{order_id} oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett! oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett Ġoġġett oġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Hi {buyer_name}, l-oġġett mill-ordni tiegħek #{order_id} huwa lura fl-istokk! Tista' tagħmel ordni ġdida issa jekk għadek interessat.",
       ],
     },
 
@@ -12256,27 +12256,27 @@ export default {
     property_set: {
       title: [
         "oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Aġġeġġi Diġitali",
         "oġġettġġoġġett",
         "Ikel",
         "Għamara",
         "oġġettġġoġġett",
-        "oġġettġġoġġett oġġett",
+        "Prodotti tas-Sbuħija",
         "oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Tagħmir tal-Isport",
         "oġġettġġoġġett",
       ],
       description: [
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettħoġġett oġġettġġoġġett, oġġett, oġġettġġoġġett oġġettġġoġġett",
-        "oġġettċoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "Material, oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġett, oġġettġġoġġett, oġġettġġoġġett oġġett oġġettġġoġġett",
-        "oġġettġġoġġett, oġġettġġoġġett, oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
+        "Attributi għall-oġġetti tal-ħwejjeġ bħal daqs, kulur, u drapp.",
+        "Speċifikazzjonijiet għal aġġeġġi bħal marka, mudell, u karatteristiċi.",
+        "Togħmiet, daqsijiet, u tipi ta' xorb.",
+        "Dettalji għall-ikliet, snacks, u prodotti tal-ikel.",
+        "Materjal, dimensjonijiet, u stili tad-disinn.",
+        "Awtur, ġeneru, u sena tal-pubblikazzjoni.",
+        "Tip ta 'ġilda, ingredjenti, u dettalji tal-ippakkjar.",
+        "Grupp ta 'età, materjal, u standards ta' sigurtà.",
+        "It-tip, id-daqs u l-karatteristiċi tal-prestazzjoni.",
+        "Stili, materjali, u dettalji tad-ditta.",
       ],
     },
 
@@ -12285,24 +12285,24 @@ export default {
      */
     boxes: {
       name: [
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett",
-        "oġġettġġoġġett oġġettġġoġġett oġġettġġoġġett", // flexible mailer
-        "oġġettġġoġġett oġġettġġoġġett", // bubble/padded
-        "oġġettġġoġġett oġġettġġoġġett", // thermal
-        "oġġettġġoġġett oġġettġġoġġett",
+        "Kaxxa XS",
+        "Kaxxa S",
+        "Kaxxa M",
+        "Kaxxa L",
+        "Kaxxa XL",
+        "Kaxxa XXL",
+        "Kaxxa SLIM",
+        "Kaxxa Wiesgħa",
+        "Kaxxa Tall",
+        "Kaxxa Flat",
+        "Kaxxa Kubu",
+        "Kaxxa Tubu",
+        "Kaxxa Fraġli",
+        "Kaxxa Fliexken tal-Ħġieġ",
+        "Kaxxa Soft Pack", // flexible mailer
+        "Kaxxa Padded", // bubble/padded
+        "Kaxxa iżolata", // thermal
+        "Kaxxa Heavy-Duty",
       ],
     },
   },

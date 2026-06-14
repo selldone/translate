@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "berhem malperê API",
-        subtitle: "hêman berhem hêman vir hêman hêman malperê hêman. API",
+        subtitle: "Hilberîna hilberan bi navgîniya bangek API-ya gelemperî ya gihîştî.",
       },
       google_sheet: {
         action: "Wallets hêman",
@@ -858,17 +858,17 @@ export default {
       restriction: {
         title: "şandin jêbirin",
         subtitle:
-          "You hêman hêman hevalbendê Ber hêman hêman Tenê Mişterî hêman re hêman şandin hêman hêman guhertinan Kirîn Ji You!",
+          "Hûn dikarin sînorkirinan bicîh bînin da ku pê ewle bibin ku tenê xerîdar di nav deverên barkirinê yên destnîşankirî de dikarin ji we kirînê bikin!",
         no_enable_shipping_error:
           "na hêman hêman Kirrîn Ji You hêman You hêman na e şandin dayinê!",
         customer_must_select_a_shipping_msg:
           "mișterî hêman Karê vir şandin dayinê Ber hêman 🛍️ Siparîş bike.",
         customer_can_order_without_shipping_method_msg:
-          "mișterî hêman hêman re 🛍️ Siparîş bike hêman hêman na şandin dayinê hêman bo re hêman Cîh.",
+          "Xerîdar dikare fermanê bide ger ku ji bo cîhê hilbijartî tu rêbazek barkirinê neyê piştgirî kirin.",
         inputs: {
           restriction: {
             false_description:
-              "Mişterî hêman hêman hêman ferman hêman hêman na hêman şandin dayinê hate nûve hêman.",
+              "Xerîdar hîn jî dikarin fermanan bidin ger ku rêbazek barkirinê ya taybetî nehatibe hilbijartin.",
             false_title: "Baweranîn gişt ferman",
             true_title: "Firoşgeha Baweranîn 🛍️ Siparîş bike",
             true_description:
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Apps Active Store",
         subtitle:
-          "Serîlêdanên karsaziya xwe birêve bibin. Selldone",
+          "Bi Selldone App Store re hêsaniya birêvebirina serîlêdanên karsaziya xwe kifş bikin. Platforma me komek amûrek berfireh pêşkêşî dike ku ji bo xweşbînkirina karûbarên karsaziya we hatî çêkirin. Ji çareseriyên rêveberiyê yên nûjen bigire heya serîlêdanên zêdekirina hilberîneriyê, Selldone ji karsaziyên ku li karîgerî û mezinbûnê digerin ezmûnek bêkêmasî peyda dike.",
         all: "gişt",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "hêman",
           subtitle:
-            "hêman rast hêman, hêman Wêneyên hêman hêman vir Design Ez hêman hêman, hêman, û Hejî iOS hêman.",
+            "Favîkon wêneyên piçûk, îkonîk in ku malperek di tabloyên gerok, nîşangir û navgînên sepana mobîl de temsîl dikin.",
         },
       },
 
@@ -1521,12 +1521,12 @@ export default {
           "Vebijarkê tevahî neçalak hêman rêzkirin re Embar rêvebirin hêman û hêman Ber hêman hêman re Mal.",
       },
       gtin: {
-        hint: "hêman Edit rast UPC (hêman hêman, 12 hêman), EAN (hêman, 13 hêman), JAN (hêman, 8 an 13 hêman), ISBN (hêman, 13 hêman).",
+        hint: "Nirxên piştgirî UPC (Amerîkaya Bakur, 12 reqeman), EAN (Ewropa, 13 reqeman), JAN (Japonya, 8 an 13 reqeman), ISBN (pirtûk, 13 reqeman) in.",
         label: "hêman hêman hêman şanî Hesabê",
         placeholder: "hêman hêman Hesabê binivîse.. ((Bijarte))",
       },
       hsn: {
-        hint: "HSN, an hêman hêman hilberên hêman, neçalak hêman hêman hêman hêman hêman bo hêman Sporê û berhem.",
+        hint: "HSN, an Pergala Ahengsazkirî ya Navdêr, pergalek dabeşkirina standardkirî ya navneteweyî ye ji bo kategorîzekirina mal û hilberan.",
         placeholder: "6~16 hêman HSN Navê dizî.. ((Bijarte))",
         label: "HSN",
       },
@@ -1560,7 +1560,7 @@ export default {
       shortcuts: {
         title: "hêman Mal Ber Agahiyên Kategorî",
         subtitle:
-          "Vebijarkê Sernavê hêman You Ber Rêzok re Mal Ez Firoşkarên Kategorî hêman hêman hêman hêman Ez re Bingehîn Liq Set hêman Mal > Weşandin > Liq. hêman, hêman hêman hêman Ber hêman 'hêman Ez hêman hêman, hêman re Mal Ber hêman Ez Agahiyên hêman Kategorî.",
+          "Vê taybetmendiyê dihêle hûn hilberê di gelek kategoriyan de navnîş bikin dema ku cîhê wê di kategoriya bingehîn de di bin Hilber> Guherandin> Kategorî de digire. Di bingeh de, ew di pergalên xebitandinê de di afirandina 'kurtkiran' de bi heman rengî tevdigere, ku dihêle ku hilber di kategoriyên din ên diyarkirî de xuya bibe.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Taybetmendiyên Teknîkî",
       subtitle:
-        "hêman Mal Teknîkî binivîse. Vebijarkê tevahî hêman piştrast hêman Ber Mişterî û hêman hêman piştrast hêman Ez re hêman hêman hêman hêman.",
+        "Taybetmendiyên hilberê li vir binivîsin. Ev agahdarî dê ji xerîdaran re were xuyang kirin û di heman demê de dikare di pergala fîlterkirina hişmend a kategoriyê de jî were bikar anîn.",
       manual: {
         title: "hêman",
         subtitle:
@@ -1696,7 +1696,7 @@ export default {
         generated_spec: {
           title: "AI-Girêdana Teknîkî",
           subtitle:
-            "hêman Teknîkî hêman Girêdana rêzkirin hêman hêman.",
+            "Ev taybetmendî ji hêla îstîxbarata sûnî ve hatine çêkirin.",
         },
         inputs: {
           prompt: {
@@ -1787,10 +1787,10 @@ export default {
         subscription:
           "bo Aboneyên, Tenê re lîste biha neçalak hêman, hêman re hêman sabît hêman piştrast hêman ji gorî re hêman Abonetî Pîlan.",
         service:
-          "bo bikirin-ji berhem, re hêman Competitive neçalak hêman bo hêman hêman, hêman hêman hêman sabît hilberên re bikirin. re hêman bikirin biha hêman piştrast hêman rêzkirin You hêman re mișterî hate hêman hêman 🛍️ Siparîş bike (hêman Lêkolîn).",
+          "Ji bo hilberên-based karûbarê, nirxa navnîşkirî tenê ji bo mebestên pêşandanê ye, lêçûnek texmînkirî ya karûbarê peyda dike. Bihaya karûbarê rastîn dê ji hêla we ve were diyar kirin gava ku xerîdar fermana xwe da (li ser danûstendinê).",
         file: "Vebijarkê hêman Ber re hêman û hêman biha hilberên re pel, hêman Mişterî hêman Diravdanî Ez 🛍️ Siparîş bike Ber hêman Navketin Ber re Pelên.",
         default:
-          "Vebijarkê hêman Ber re hêman hêman biha û hêman hêman hêman Konto re biha hilberên hêman Guhertoyên hêman hêman nehatin hêman hêman Competitive.",
+          "Ev nirxa hilberê ya navnîşkirî vedigire û di heman demê de bihayê guhertoyên ku xwedan bihayê cûda ne jî digire ber çavan.",
       },
       extra_pricings: {
         title: "zêde bike Savings Competitive",
@@ -1901,15 +1901,15 @@ export default {
   LogisticProfileType: {
     WARRANTY: {
       title: "Garantî",
-      desc: "vir Garantî neçalak hêman hilberên vir hêman hêman re hêman hêman Ber oto an hêman vir Mal hêman vir hêman abonetiyê. Vebijarkê hêman hêman hêman hêman Ber hêman hêman hêman nehatin hêman vir hêman hêman bi re hêman.",
+      desc: "Garantî beşek peymanek e ku çêker soz dide ku hilberek di heyamek diyarkirî de tamîr bike an biguhezîne. Ev pabendbûn dikare ji xerîdarên ku bi hilberînerê re peymanek rasterast tune jî dirêj bibe.",
     },
     RETURN_POLICY: {
       title: "📦 Vegere polîtîkaya",
-      desc: "📦 Vegere hêman hêman hêman Mişterî hêman 📦 Vegere an Berdêl hêman Cureyên. hêman hêman Berhemên jêbirin, hêman hêman bo hêman, û re hêman bo hêman hêman.",
+      desc: "Polîtîkayên vegerandinê diyar dike ka xerîdar çawa dikarin kirrûbirra nedilxwaz vegerin an biguhezînin. Ew tiştên bijartî, sedemên pejirandî yên vegerê, û heyama vegerê diyar dikin.",
     },
     GUIDE: {
       title: "Xizmet",
-      desc: "vir Xizmet hêman hêman vir Yekîneya hêman bo hêman an vir Suit Xizmet bo hêman. belaş hêman hêman hêman rast Fonksiyoneliya û hêman hêman Firoşkarên berhem.",
+      desc: "Rêberek dikare nexşeyek mezinahiyê ji bo cil û berg an rêbernameyek hilbijartinê ji bo elmasan bigire. Girîng e ku rêber di nav gelek hilberan de piralî û bikêr bin.",
     },
     SHIPPING: {
       title: "şandin",
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "hêman rêvebirin",
     subtitle:
-      "Xûliqandin Pricing, hêman, û hêman hêman-hêman hêman.",
+      "Pencereyên pop-up ên kesane, jîr, û înteraktîf biafirînin.",
     add_action: "zêde bike Nşh Daxwazker",
   },
 
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "Ez hêman hesabê hêman hêman.",
-        true_description: "Ez hêman hesabê vir hêman hêman Modela hêman.",
+        true_description: "Ez wekî saziyek karsaziyek qanûnî naskirî dixebitim.",
         false_title: "hêman",
         true_title: "Modela",
       },
@@ -2104,11 +2104,11 @@ export default {
         placeholder: "xwe Banke hêman Hesabê, Bi Navê dizî, an BSB Hesabê..",
       },
       iban: {
-        hint: "hêman Banke Konto Hesabê): hêman re hêman Banke neçalak Ez hêman an hêman Rûpelên hêman.",
+        hint: "Hejmara Hesabê Banka Navnetewî): Heke banka firoşker li Ewrûpa an hin welatên din be.",
         placeholder: "xwe IBAN Hesabê.. hêman. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "hêman Banke Konto Hesabê): hêman re hêman Banke neçalak Ez hêman an hêman Rûpelên hêman.",
+        hint: "Hejmara Hesabê Banka Navnetewî): Heke banka firoşker li Ewrûpa an hin welatên din be.",
         placeholder: "xwe hêman Navê dizî/BIC..",
       },
       branch_address: {
@@ -2119,13 +2119,13 @@ export default {
         label: "firoşkar Cî",
         hint: "You hêman Bikêrkirin an hêman firoşkar hêman. Mişterî hêman nehatin piştrast hêman Ber Kirrîn hêman Ji e firoşkar.",
         true_description:
-          "hêman hêman piştrast hêman Ber hêman hêman berhem hêman xwe bazargeh.",
+          "Ew ê bikaribin hilberên xwe bi riya bazara we bifroşin.",
       },
       access: {
         label: "firoşkar hêman & Navketin",
         true_description:
           "re firoşkar hate vir hêman hêman Ber Nûvekirin Jimarî û biha.",
-        hint: "You hêman Bikêrkirin an hêman re firoşkar hêman, hêman hêman firoşkar Ber Nûvekirin Mal hêman û hêman û Wergirtin hêman ferman.",
+        hint: "Hûn dikarin panela firoşkarê çalak bikin an neçalak bikin, ku destûrê dide firoşkaran ku mîqdar û bihayan nûve bikin û fermanên qismî bistînin.",
         false_description: "re firoşkar hate na Navketin Ber hêman.",
       },
 
@@ -2147,13 +2147,13 @@ export default {
     vendor_subtitle:
       "hêman bar bike re hêman Modela, IP, û navnîşan Domain hêman. hêman hêman Vebijarkê tevahî Ber Tesdîq xwe hêman û hêman You bi re hêman Navketin.",
     marketplace_subtitle:
-      "firoşkar hêman Pirsa hêman hêman hesabê Modela, hêman hêman, û navnîşan Domain Ber hêman hêman KYC pakkirinê, hêman You Ber hêman hêman re hêman Navketin.",
+      "Firoşyar dikarin belgeyên wekî karsazî, milkê rewşenbîrî, û verastkirina navnîşan bişînin da ku pêvajoya KYC-ya xwe hêsantir bikin, ku hûn bihêlin ku hûn gihîştina guncan bidin wan.",
     upload_dialog: {
       title: "bar bike hêman",
       type: {
         title: "hêman Awa",
         subtitle:
-          "hêman bar bike Tenê re hêman hêman. hêman hêman hêman hêman hêman hêman hêman tevahî. hêman Daxwaza hêman hêman rast hêman Berdeste.",
+          "Ji kerema xwe tenê belgeyên pêwîst bar bikin. Ji parvekirina her belgeyên ku agahdariya hesas dihewîne dûr bixin. Em daxwaza belgeyên ku ji raya giştî re hene.",
       },
     },
   },
@@ -2213,11 +2213,11 @@ export default {
     tips: [
       "You hêman Parzûn berhem ji gorî hêman gorî <b>Daketin rûpel</b>.",
       "You û xwe Mişterî hêman lêgerîn bo hêman hêman Ez re<b>lêgerîn</b> hêman.",
-      "hêman Set hêman, Tenê berhem bi re <b>hêman hêman</b> hêman piştrast hêman Ez re <b>hêman berhem style</b> gorî re Mal rûpel; hêman, berhem Ez re hêman Liq hêman piştrast hêman.",
+      "Ger etîket hatine danîn, tenê hilberên bi <b> nîşaneyên hevpar</b> dê di beşa <b>berhemên têkildar</b> de li ser rûpelê hilberê werin xuyang kirin; Wekî din, hilberên di heman kategoriyê de dê bêne xuyang kirin.",
     ],
     inputs: {
       tags: {
-        placeholder: "hêman hêman binivîse û hêman Nirxa. Ex. Nşh hêman",
+        placeholder: "Têl li vir etîket dike û Enter bikirtînin. ex. berhevoka nû",
       },
     },
     notifications: {
@@ -2283,9 +2283,9 @@ export default {
       action_manage: "Karûbarê jêbirin",
       action_disable_msg: "bazargeh Xwedî",
       select_items_tips:
-        "Xûliqandin an Plana Serlêdanê hêman hêman hêman bi re Mal an bikirin. hêman Vebijarkê Sernavê Ber hêman hêman Mişterî hêman hêman Agahdariyê hêman hêman re şanî. hêman hêman hêman Vebijarkê hêman Tenê hêman hêman neçalak hêman bo re mișterî Ber hêman re hêman hêman, hêman hesabê hêman hêman vir hêman.",
+        "Parçeyên pakêtê yên ku bi hilber an karûbarê re têne biafirînin an hilbijêrin. Vê taybetmendiyê bikar bînin da ku balê bikişîne ser tiştên ku xerîdar dikarin pêşbîniya wergirtina tiştên ku bikirin bikirin. Em şîret dikin ku vê fonksiyonê tenê dema ku ji bo xerîdar girîng e ku naveroka tê de fam bike, wekî dema kirîna smartphone.",
       create_item_tips:
-        "hêman, You hêman hêman vir Nşh şanî. hêman hêman Wêneyên, hesabê hêman hêman hêman hêman nehat Wêne Ber vir 256hêman256 hêman hêman. Ber hêman hêman Xuyabûnî hêman gişt xav, pirjimar hêman Wêneyên bi zelal hêman û hêman vir hêman hêman bo gişt xwe berhem.",
+        "Wekî din, hûn dikarin babetek nû têxin nav xwe. Wêneyên çargoşe bikar bînin, ji ber ku em ê bixweber wêneyên barkirî bi rengek çargoşe 256x256 mezin bikin. Ji bo ku di hemî şablonan de xuyangiya çêtirîn peyda bikin, wêneyên mînîmalîst ên bi paşnavên zelal bikar bînin û ji bo hemî hilberên xwe nimûneyek domdar biparêzin.",
       create_new_item_action: "Xûliqandin Nşh hêman şanî",
     },
   },
@@ -2447,7 +2447,7 @@ export default {
         variables: {
           title: "biguherînin pêşkeftî",
           subtitle:
-            "Nirxa vir hêman Reng Navê dizî, hêman.hêman., <b>#654hêman</b>, an Duyemîn mijarê hêman rêzkirin vir hêman, hêman.hêman., <b>#764hêman/#000000</b>.",
+            "Kodek rengînek hex binivîsin, mînak., <b>#654FFF</b>, an du rengan ku bi qertafekê veqetandî, mînak, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "You hêman hêman hêman Giranî Ber re hêman, hêman Wêneyên hêman <b>hêman hêman</b>. bar bike vir hêman û pirjimar re Girêdana Navê dizî bo re biguherînin.",
           graphical_asset_action: "hêman hêman",
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "hêman hêman şanî Hesabê (GTIN)",
             message:
-              "hêman hêman: UPC (12 hêman), EAN (13 hêman), JAN (8 an 13 hêman), ISBN (13 hêman).",
+              "Formên piştgirî: UPC (12 reqemî), EAN (13 reqemî), JAN (8 an 13 reqemî), ISBN (13 reqeman).",
           },
         },
       },
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Dema amadekirinê",
     lead_time: "Dema amadekirinê",
     lead_time_subtitle:
-      "hêman Dem hêman re Demajok hêman Ber hêman vir Mal bo şandin, hêman hêman Ez hêman re Şandinî Dem.",
+      "Demjimêra rêberiyê dirêjahiya ku ji bo amadekirina hilberek ji bo barkirinê hewce dike texmîn dike, ku di texmînkirina dema radestkirinê de dibe alîkar.",
 
     lead_time_dimension: "Saet(s)",
     bulk_action: "Çalakiyên girseyî",
@@ -2601,7 +2601,7 @@ export default {
     out_of_stock: "hêman firotin hilberên bêzarim",
 
     image: {
-      tooltip: "⚡ hêman hêmanşhêman û hêman hêman Wêne binivîse Ber hêman hêman Ber re biguherînin.",
+      tooltip: "⚡ Wêneyek li vir kaş bikin û bavêjin da ku wê li guhertoyê veqetînin.",
     },
     enable: {
       true_tooltip: "Vebijarkê şanî neçalak Berdeste Ez re Karmendên dikan.",
@@ -2720,7 +2720,7 @@ export default {
       "re hêman Biha hêman Serlêdan hesabê vir Discount Ber re biha hilberên gişt berhem Ez xwe dikan. hêman, re hêman biha Edit hêman piştrast hêman hêman Ber re hêman hêman Hesabê ji gorî re hêman Diravcins.piştrast hêman Ez hêman re Edit.",
     check: "Ez guhertinên biha dipejirînim.",
     check_description:
-      "re biha hêman piştrast hêman bo re hêman Liq û gişt hêman.",
+      "Biha dê ji bo kategoriya hilbijartî û hemî binkategorî were guhertin.",
     add_percent_tab: "zêde bike Ji sedî",
     add_constant_tab: "zêde bike hêman",
     ending_tab: "hêman hêman",
@@ -2835,7 +2835,7 @@ export default {
       request_add_new_gateway: {
         title: "hêman hêman xwe Dema 💳 Tezmînat dayinê?",
         subtitle:
-          "hêman xwe hêman 💳 Tezmînat hêman hêman hêman, hêman Ber hêman Salane Pîlan (hêman hêman bo hêman) û Daxwaza hêman hêman. hêman Agahdariya hêman hêman 48 demjimêrên hêman vir testê Konto û hêman rast hêman.",
+          "Ger pêşkêşkarê dravdana weya herêmî ne di navnîşê de ye, bibin aboneya her plansaziyek salane (di nav de Destpêka ji bo erzaniyê) û daxwaza entegrasyonê bikin. Ger hesabek testê û belgeyek were peyda kirin em ê di nav 48 demjimêran de temam bikin.",
       },
 
       inputs: {
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "Tamîrê Hesabê",
           false_description:
-            "re hêman hêman hêman Hesabê Ber re Derî hêman You hêman hêman vir hêman Derî Ez hêman.",
+            "Ger we berê dergehek vesazkirî li cîh hebe dê pergal bixweber bi dergehê ve girêbide.",
         },
       },
     },
@@ -3078,7 +3078,7 @@ export default {
     },
     parent: {
       subtitle:
-        "Vebijarkê Liq hêman hêman hêman hêman Kategoriya Liq. hêman vir Mal hêman’hêman hêman vir Kategoriya Liq, hêman hêman piştrast hêman Ez re Rûpelên Liq.",
+        "Ev kategorî dê di bin kategoriya dêûbavê xwe de xuya bibe. Ger hilberek kategoriyek dêûbav tune be, ew ê di kategoriya sereke de were xuyang kirin.",
     },
     template: {
       title: "Şablon",
@@ -3521,9 +3521,9 @@ export default {
       need_to_refund: {
         title: "hêman hêman Ber re mișterî",
         message:
-          "hêman hêman re Hemî Biha hilberên hêman hêman You hêman Ber guhertinan hêman. hêman hêman ji gorî hêman jêbirin û Hemî hêman Edit hîn.",
+          "Em tevahî mîqdara vegerandina ku hûn hewce ne ku bi destan bikin hesab dikin. Ew li ser bingeha hêmanên neberdest û tevahî nirxên vegerkirî yên hêj têne hesibandin.",
         calculated_approximately:
-          "re Biha neçalak hêman hêman. hêman hêman re Mîqdara Biha hêman.",
+          "Mîqdar bi qasî tê hesibandin. Ji kerema xwe mîqdara rast bi xwe hesab bike.",
       },
       need_payback: {
         title: "mișterî Biha hêman",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "hêman girseyî",
       subtitle:
-        "rêzkirin hêman hêman hêman, hêman hêman Ber Wergirtin hêman Rapora Ji xwe Mişterî.",
+        "Bi avêtina van gavan, hûn ê dest bi wergirtina dravê rastîn ji xerîdarên xwe bikin.",
       action_enable: "Bikirtînin Ber Bikêrkirin hêman",
       make_live_enable: "Bikirtînin Ber Jîyan hêman",
     },
@@ -3712,7 +3712,7 @@ export default {
 
     manual_title: "hêman / Tamîrê hêman 💳 Tezmînat",
     manual_message:
-      "hêman You Xûliqandin vir 💳 Tezmînat, You hêman hêman vir hêman gorî hêman Berhemên 💳 Tezmînat dayinê Ber Reserve hêman hêman You hêman hêman hêman. bo hêman, hêman hêman hêman vir 💳 Tezmînat Ez Navê kirîn vir hêman hêman, hêman hêman re bişînin hêman re hêman hêman firotin.",
+      "Gava ku hûn dravdanê diafirînin, hûn dikarin rêgezek dravdanê ya guncan bihêlin da ku fonên ku hûn dikarin paşê bigirin veqetînin. Mînakî, otêl bi gelemperî berî ku mêvanek were dravdanek bi tevahî destûr didin, dûv re dema ku mêvan kontrol dike drav digirin.",
 
     gateway_status: "Cî",
     wallet: "hêman Tûrikê diravan",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Rêzok hilberên hêman hêman ferman hêman hêman Ber piştrast hêman rêzkirin hêman-hêman hêman.",
+      "Navnîşa fermanên hevdemkirî yên derveyî yên ku hewce ne ku ji hêla pêşkêşkerên partiya sêyemîn ve werin bicîh kirin.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4095,7 +4095,7 @@ export default {
     engine: {
       title: "Savings berhem hêman",
       subtitle:
-        "Zêdetir.. berhem hêman piştrast hêman Ji hêman Kategorî û hêman.",
+        "Zêdetir hilber dê ji kategorî û tagên hilbijartî werin barkirin.",
       load_in_tips: "hêman berhem Ji Kategorî Ez re {category}.",
       action: "Weşandin {category} hêman",
     },
@@ -4121,8 +4121,8 @@ export default {
       title: "hêman girseyî",
       message: "You hêman Nûvekirin re firoşkar 🛍️ Siparîş bike Cî hêman.",
       guides: [
-        "firoşkar bi hêman Navketin hêman Nûvekirin hêman pêkanîna (hêman-ferman) Ez hêman hêman panela rêveberiyê.",
-        "hêman re firoşkar hate na hêman Navketin, re firoşkar 🛍️ Siparîş bike Cî hêman piştrast hêman hêman rêzkirin hêman re hêman Cî.",
+        "Firoşyarên bi gihîştina panelê dikarin di dashboarda xweya taybetî de pêkanîna xwe (bin-ferman) nûve bikin.",
+        "Ger firoşkar gihêştina panelê tune be, bi guheztina rewşa selikê dê statûya fermana firoşkar bixweber were guheztin.",
         "You hêman Nûvekirin firoşkar ferman hêman.",
       ],
     },
@@ -4232,7 +4232,7 @@ export default {
     list: {
       title: "hêman Dîrok",
       subtitle:
-        "You hêman Dîtinî xwe hêman Dîrok binivîse. hêman hêman hêman piştrast hêman hêman hêman Banke hêman an hêman hêman 💳 Tezmînat Karûbar hêman Pêşnîyar hêman kapasîteyên.",
+        "Hûn dikarin dîroka dravdana xwe li vir bibînin. Dibe ku ev drav bi destan bi navgîniya veguheztina bankê an bixweber bi karanîna karûbarên dravdanê yên ku kapasîteyên dravdanê pêşkêşî dikin têne hilberandin.",
     },
     connect: {
       title: "Hesabê Banke",
@@ -5313,7 +5313,7 @@ export default {
     Banned: "Qedexe kirin",
     Payment: "Diravdanî",
     SelldoneSprite: "Hesabê Wallet Firotanê Selldone",
-    SelldoneStorage: "Selldone Storage",
+    SelldoneStorage: "Selldon Storage",
   },
   /** {@see BPageAccount} **/
   account_page: {
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Dîroka Kirîn",
       subtitle:
-        "Lîsansên çalak û li bendê.",
+        "Ev navnîşek lîsansên çalak û li bendê ye. Hûn dikarin piştî dravdana berîka xwe danûstendinan bikirin. Wekî din, ji kerema xwe bala xwe bidin ku gava hûn abonetiyê betal bikin, mîqdara abonetiyê ya mayî dê li berîka weya virtual were vegerandin.",
     },
     license_detail: {
       title: "zêde",
       subtitle:
-        "Sînorên li ser plana weya niha.",
+        "Ev sînorên plana weya heyî ne. Ji bo bêtir agahdarî, ji kerema xwe biçin rûpela bihayê. Hûn dikarin bigihîjin hemî taybetmendiyan di hemî planan de, tevî plansaziya belaş, da ku karsaziya xwe bidin destpêkirin û mezin bibin. Gava ku hûn karsaziya xwe mezin dikin, nûvekirina berbi plansaziyek bilindtir bifikirin da ku xercên karûbarê xwe kêm bikin.",
     },
 
     table: {
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "binivîse, You hêman Vebijêrkên hêman hêman Rêzok hêman berhem gorî Navenda, hêman hêman Berdeste bo Rûpelên hêman. hêman hêman-Ez Dropshipping hêman hêman re pakkirinê, hêman hêman hêman û hêman bo hêman hêman û hêman. Selldone",
+      "Li vir, hûn dikarin mezinfiroşan bibînin ku hilberên xwe li ser Selldone navnîş dikin, wan ji bo bazirganên din peyda dikin. Platforma danûstendinê ya çêkirî ya Selldone pêvajoyê hêsan dike, hem ji bo kirêtfiroş û hem jî ji bazirganan re hêsan û hêsan dike.",
   },
 
   /** @see Affiliates **/
@@ -5909,7 +5909,7 @@ export default {
     restriction: {
       title: "Simsarî hevalbendê",
       subtitle:
-        "hêman hêman berhem rast Berhemên bo Simsarî. You hêman hêman hêman Ber hêman berhem.",
+        "Diyar bikin ka kîjan hilber ji bo komîsyonê mafdar in. Hûn dikarin komîsyonên hin hilberan sînordar bikin.",
     },
 
     link_domain: {
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "hêman",
       subtitle:
-        "hêman Vebijarkê Komîsyona bi vir hêman Ber Karûbarê hêman hêman Rûpelên Çavkanî Ez hêman hêman.",
+        "Vê hevalbendê bi komek komê ve girêdin da ku wê li kêleka çavkaniyên din li yek cîhek birêve bibin.",
       manage_action: "Karûbarê",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "Komîsyona nû Nav",
-        message: "hêman.hêman., hêman hêman, hêman Şîrket, X hêman, hêman.",
+        message: "Mînakî, John Doe, Şirketa Alex, X Marketers, hwd.",
       },
       commission: {
         label: "Simsarî barkirinê",
         false_description:
-          "hêman hêman vir hêman hilberên Mesrefa û Discount hêman.",
+          "Bi karanîna berhevokek komîsyonên sabît û ji sedî hesab bikin.",
         true_description:
-          "hêman hêman Mal-hêman hêman Set Ez re Competitive hêman.",
+          "Bi karanîna komîsyonên hilberê-taybet ên ku di tabloya nirxê de hatine destnîşan kirin hesab bikin.",
         false_title: "Mesrefa + Discount Simsarî",
         true_title: "Mal-ji Simsarî",
       },
@@ -5972,7 +5972,7 @@ export default {
       },
       pos: {
         true_description:
-          "hêman hêman hêman ferman hêman bo hêman Mişterî hêman hêman hêman.",
+          "Pargîdan dikarin bi panelê xwe rasterast ji xerîdarên xwe re fermanan bidin.",
         true_title: "Mîhengên Navketin POS",
       },
       enable: {
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "You hêman hêman hêman hêman hêman bi re Komîsyona kirîn hêman hêman Ji xwe Dikan. Komîsyona tevahî hêman hêman hêman bo vir Deals Dem Piştgiriya hêman.",
+        "Berî ku hûn wan ji dikana xwe derxînin, hûn dikarin deynên nemayî bi pargîdaniyê re çareser bikin. Agahdariya pêwendiyê dê piştî jêbirinê ji bo demek sînordar bimîne.",
     },
   },
 
@@ -6320,7 +6320,7 @@ export default {
     },
     limit: {
       subtitle:
-        "Ez Vebijarkê style, hêman hêman Ber Set hêman re hêman Hesabê hilberên hêman per kûpon û re hêman Kêmkirinî Biha hêman kûpon hêman hêman.",
+        "Di vê beşê de, hûn dikarin hem jimara herî zêde ya karanîna her kuponê û hem jî mîqdara herî bilind a dakêşanê ku her kupon dikare peyda bike destnîşan bikin.",
       zero_message: "hêman: hêman neçalak na Sînorkirin!",
     },
     duration: {
@@ -6422,7 +6422,7 @@ export default {
     },
     config: {
       subtitle:
-        "hêman hêman hêman hêman Exclusive rêzkirin hêman hêman Nav, Terîf, û Alenî hebûna Cî.",
+        "Bi damezrandina sernav, ravekirin û rewşa hebûna gelemperî dest bi çêkirina peymanek aqilmend bikin.",
     },
     limit: {
       subtitle: "Set re hêman Îro Sînorkirin bo Vebijarkê Pêşnîyar Ez Vebijarkê style.",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "hêman mișterî Kirîn bi vir hêman hêman Ez xwe dikan. Set hêman hêman û Winning hêman bo Mişterî hêman hêman hêman hêman Kirîn. hêman hêman hêman hêman 10 hêman, û You hêman Pêşnîyar Festîvala hêman bo kirîna-Dem hêman. re Destçûnî hêman neçalak Wheel hilberên hêman, hêman You hêman hêman hêman Ber hêman xwe hêman hêman.",
+        "Di firotgeha xwe de bi ezmûnek gamified kirînên xerîdar zêde bikin. Ji bo xerîdarên ku bi kirîna nîşanan qezenc dikin xelat û şansên qezenckirinê saz bikin. Her lîstika lîstikê 10 nîşanan lê dike, û hûn dikarin ji bo kirrûbirên yekem-car xelatên taybetî bidin. Lîstika xwerû Wheel of Fortune ye, lê hûn dikarin wê xweş bikin da ku li gorî sêwirana dikana xwe biguncînin.",
     },
     empty_prize_list: "Xûliqandin û Karûbarê hêman binivîse...",
   },
@@ -7088,12 +7088,12 @@ export default {
     marketplace: {
       title: "bazargeh",
       subtitle:
-        "hêman re bazargeh hêman hêman JIN hêman hêman. hêman You hêman Ber hêman hêman xwe hêman bazargeh, You hêman hêman xwe dikan Ez re mîheng.",
+        "Neçalakkirina sûkê dê hin fonksiyonan qut bike. Heke hûn dixwazin tevahiya sûkê xwe rawestînin, divê hûn di mîhengan de firotgeha xwe neçalak bikin.",
     },
     distribution_model: {
       title: "hêman Karsaziyê",
       subtitle:
-        "hêman hêman hêman hêman hêman hêman hêman. hêman You hêman firoşkar Ber hêman jêbirin hêman Ber hêman an hêman ferman li xwe Embar bo şandin, You hêman Plana re Karsaziyê hêman Bundles hêman xwe hêman binivîse.",
+        "Sûk dikarin di bin modelên belavkirinê yên cihêreng de bixebitin. Ma hûn ji firoşkaran tercîh dikin ku tiştan rasterast ji kiriyaran re bişînin an jî fermanan li depoya xwe ji bo barkirinê berhev bikin, hûn dikarin modela ku herî baş li gorî hewcedariyên we li vir e hilbijêrin.",
     },
     access: {
       title: "firoşkar Navketin",
@@ -7112,7 +7112,7 @@ export default {
     documents: {
       title: "hêman",
       subtitle:
-        "You hêman hêman xwe firoşkar Ber bar bike hêman an hêman hêman Min. hêman re hêman hêman binivîse.",
+        "Hûn dikarin ji firoşkarên xwe daxwaz bikin ku belgeyan barkirin an hin peymanan îmze bikin. Belgeyên pêwîst li vir diyar bikin.",
       add_document_action: "zêde bike hêman Daxwaza",
     },
     inputs: {
@@ -7128,7 +7128,7 @@ export default {
         false_description:
           "You zêde bike berhem û hêman firoşkar. firoşkar hêman Tenê Karûbarê biha û lîsteya.",
         true_description:
-          "firoşkar hêman zêde bike û Karûbarê hêman hêman berhem hêman Ez hêman firoşkar hêman.",
+          "Firoşyar dikarin rasterast di panela firoşkarê xwe de hilberên xwe zêde bikin û îdare bikin.",
       },
       need_verify: {
         label: "Mal Domain Herrikîn",
@@ -7152,7 +7152,7 @@ export default {
         false_description:
           "firoşkar Nikare zêde bike an hêman hêman şandin barkirinê.",
         true_description:
-          "firoşkar hêman Set hêman hêman hêman şandin barkirinê, zêde bike kuryeyan, û hêman şandin bo hêman hêman.",
+          "Firoşyar dikarin rêbazên xwe yên barkirinê saz bikin, kuryeyan lê zêde bikin, û ji bo hewcedariyên xwe barkirinê xweş bikin.",
       },
       hidden_customer: {
         label: "nîşan bide Forma Têkelî tevahî",
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "hêman Awa",
         subtitle:
-          "zêde bike vir hêman Daxwaza şanî binivîse. hêman hêman hêman Ez re hêman hêman, hêman hêman Ber bar bike re hêman hêman.",
+          "Tiştek daxwaznameya belgeyê li vir zêde bike. Ew ê di panelê firoşkarê de xuya bibe, ji wan re bihêle ku belgeya pêwîst bar bikin.",
       },
       guide: {
         title: "Xizmet",
         subtitle:
-          "hêman vir hêman Xizmet Ber Navenda firoşkar hêman hêman hêman Ber bar bike û hêman Ber hêman hêman hêman.",
+          "Rêbernameyek kurt peyda bikin da ku ji firoşkaran re bibe alîkar ku fêm bikin ka kîjan belgeyan barkirin û meriv wê çawa bi rêkûpêk bike.",
       },
       code: {
         title: "hêman Navê dizî",
         subtitle:
-          "hêman re hêman Navê dizî bo vir hêman, form, an hêman hêman re firoşkar hêman hêman.",
+          "Ji bo belgeyek, form, an peymanek ku firoşkar divê îmze bike koda pêvekirinê bixin.",
       },
       link: {
         title: "Girêdana Pêvek",
         subtitle:
-          "hêman hêman Girêdana Pêvek Ber vir hêman an hêman hêman re firoşkar hêman hêman.",
+          "Ji belgeyek an peymanek ku firoşkar divê îmze bike re girêdanek derveyî peyda bikin.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "Xizmet ((Bijarte))",
           placeholder:
-            "hêman, hêman vir hêman Xizmet an hêman, hêman Girêdanên Ber Min an Rûpelên hêman.",
+            "Vebijarkî, rêbernameyek an rêwerzek kurt peyda bikin, tevî girêdanên peymanan an belgeyên din.",
         },
         code: {
           label: "hêman Navê dizî",
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "hêman hêman",
       description:
-        "hêman hêman Dîroka hêman Ber hêman xwe hêman hêman hêman.",
+        "Belgeyên qeydkirina mafnasiyê peyda bikin da ku mafên xweya rewşenbîrî piştrast bikin.",
     },
     Privacy: {
       title: "Taybetî polîtîkaya hêman",
@@ -7368,7 +7368,7 @@ export default {
     vendor: {
       title: "firoşkar",
       subtitle:
-        "Karê re firoşkar You hêman Ber Derbaskirin hêman Ber. hêman hêman, Berdeste 💳 Tezmînat pêşkeftî hêman piştrast hêman. hêman hêman e hêman-hêman 💳 Tezmînat dikanan, hêman pêşkeftî hêman hêman hêman binivîse.",
+        "Firoşkarê ku hûn dixwazin drav jê re veguhezînin hilbijêrin. Piştî ku were hilbijartin, vebijarkên dravdanê yên berdest dê werin xuyang kirin. Ger we dergehên dravdanê yên ku dikarin dravdanê çalak bikin, ew vebijark jî dê li vir xuya bibin.",
     },
     vendor_wallet: "firoşkar Tûrikê diravan",
     vendor_bank_account: "firoşkar Banke Konto",
@@ -7397,7 +7397,7 @@ export default {
     refund: {
       title: "hêman",
       subtitle:
-        "re hêman Biha hêman piştrast hêman Ji re hêman Bîlanço. gişt Rapora (an Ji hêman) Ez re hêman Konto (Çawa Stripe Hesabê) hêman piştrast hêman hêman vir hêman Derbaskirin.",
+        "Dê mîqdara ku hatî vegerandin ji bîlançoya firoşker were derxistin. Hemî drav (an mîqdarên mayî) di hesabê firoşker de (wek Stripe Connect) dê bi veguheztinek berevajî ve were vegerandin.",
     },
     inputs: {
       vendor: {
@@ -7421,7 +7421,7 @@ export default {
       payout_success: {
         title: "hêman",
         message:
-          "re hêman hêman hate nûve hêman hêman û Dîroka.",
+          "Berdêla firoşker bi serkeftî hate pêvajo kirin û zêde kirin.",
       },
     },
   },
@@ -7561,9 +7561,9 @@ export default {
         false_title: "Moda normal",
         true_title: "hêman rewş",
         false_description:
-          "re Diravcins hêman hêman piştrast hêman li re Destpêkirin hilberên re hêman. Ex: $95, €30",
+          "Nîşana diravê dê di destpêka hejmaran de were danîn. Mînak: $95, 30 €",
         true_description:
-          "re Diravcins hêman hêman piştrast hêman li re Dawî hilberên re hêman. Ex: 95$, 30€",
+          "Nîşana diravê dê li dawiya hejmaran were danîn. Mînak: 95$, 30 €",
       },
       variants_selector: {
         title: "Guhertoyên hêman",
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Hûnbunî Guhertoyên",
       subtitle:
-        "Fermanên berhem hêman hêman Guhertoyên. You hêman Gûherrandinî re Destçûnî Nav hilberên Guhertoyên. hêman hêman neçalak Ber hêman hêman jêbirin hesabê Destçûnî û hêman hêman hêman Navenda hêman hêman hêman hêman bo xwe Mişterî hêman hêman hilînin. re hêman Dirêjî neçalak 24.",
+        "Berhemên fizîkî dikarin cûrbecûr hebin. Hûn dikarin navê xwerû yên guhertoyan biguherînin. Pêşniyara me ev e ku hûn van tiştan wekî xwerû û vala bihêlin da ku selldone bixweber wan ji bo xerîdarên we wergerîne zimanên wan. Dirêjahiya herî zêde 24 e.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,7 +7632,7 @@ export default {
     logo: {
       title: "Menuya Splash",
       subtitle:
-        "rêzkirin Destçûnî, xwe hêman Splash neçalak hêman Ez re Menuya, hêman You hêman bar bike vir Hûnbunî Splash hêman. hêman xwe Splash hêman nehatin hêman vir hêman hêman hêman, You hêman hêman Ber hêman hêman re Bilindî û Berî bo hêman hêman.",
+        "Bi xwerû, logoya dikana we di serî de tê xuyang kirin, lê hûn dikarin li şûna wê logoyek xwerû bar bikin. Ger logoya we rêjeyek çargoşe tune be, dibe ku hûn hewce ne ku ji bo pêşkêşkirina çêtirîn bilindî û firehiyê bi destan rast bikin.",
     },
     header_title: {
       title: "Menuya Nav",
@@ -7662,7 +7662,7 @@ export default {
     smart: {
       title: "hêman rewş",
       description:
-        "hêman Guhertoyên Ez hêman hêman pêşkeftî, hêman bo Herî hêman.",
+        "Guhertoyên kompakt ên di vebijarkên cihêreng ên bijartî de, ji bo pir rewşan maqûl in.",
     },
     select: {
       title: "Karê rewş",
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "Set Edit Set... ((Bijarte))",
         messages:
-          "You hêman hêman hêman bo re Edit û hêman 🛍️ Siparîş bike.",
+          "Hûn dikarin ji bo nirxan pêşniyaran bidin û fermanê xweş bikin.",
       },
     },
   },
@@ -7937,7 +7937,7 @@ export default {
     message_add_to_service:
       "Ger hûn dixwazin vê pakêtê bi karûbarek <b>radestkirinê</b> bişînin bişkoja jêrîn bikirtînin.",
     courier_action: "Şandinî Confirmation",
-    courier_action_subtitle: "Rolên Courier hêman hêman hêman re hêman.",
+    courier_action_subtitle: "Pêxemberê min dê pakêtê bigire.",
 
     pickup_ready_action: "Cihê ye",
     pickup_ready_action_subtitle: "re 🛍️ Siparîş bike neçalak ye bo mișterî Cihê.",
@@ -8033,17 +8033,17 @@ export default {
         routing_number: {
           label: "hêman Hesabê (hêman) an Bi Navê dizî (UK) US",
           message:
-            "vir Hesabê hêman hêman re hêman Banke hêman (hêman hêman rast Bikaranîn Ez hêman hêman).",
+            "Hejmarek ku şaxa bankê ya taybetî destnîşan dike (li welatên cihê têgînên cûda têne bikar anîn).",
         },
         swift: {
           label: "hêman/BIC Navê dizî",
           message:
-            "hêman hêman Navê dizî Bikaranîn Ber hêman hêman hêman, hêman bo hêman hêman.",
+            "Kodek navneteweyî ku ji bo naskirina bankên gerdûnî, nemaze ji bo veguheztinên navneteweyî tê bikar anîn.",
         },
         iban: {
           label: "IBAN (hêman Banke Konto Hesabê)",
           message:
-            "Bikaranîn hêman Ez hêman, re IBAN neçalak hêman hêman hêman-hêman hêman bo hêman Banke firotanê hêman hêman hêman.",
+            "Di serî de li Ewrûpayê tê bikar anîn, IBAN pergalek pejirandî ya navneteweyî ye ji bo naskirina hesabên bankê li seranserê sînorên neteweyî.",
         },
         contact: {
           label: "Agahiyên Têkilî",
@@ -8558,7 +8558,7 @@ export default {
         subtitle:
           "You hêman Xûliqandin vir Şablon bo re SMS Agah gorî xwe SMS hêman Design, hêman hêman hêman Navê dizî û Jimare (kevnîn) binivîse. hêman hêman Vebijarkê tevahî Ber xwe hêman, hêman re hêman SMS Agah hêman piştrast Girêdana.",
         code: "Navê dizî",
-        language_msg: "hêman hêman hêman Ber Set hêman hesabê Destçûnî.",
+        language_msg: "Wê vala bihêlin da ku wê wekî xwerû destnîşan bikin.",
         enable_msg: "Vebijarkê Şablon hêman piştrast Bikaranîn Ber Xûliqandin Zêdetir.",
       },
       text: {
@@ -8571,7 +8571,7 @@ export default {
         auto_fill: {
           title: "Tamîrê hêman hêman",
           subtitle:
-            "You hêman pirjimar hêman hilberên hêman hêman Ez re binivîse û Navenda hêman hêman hêman bi re hêman Giranî. Selldone",
+            "Hûn dikarin her yek ji van parameteran di nivîsê de bikar bînin û Selldone dê wan bi nirxa têkildar veguherîne.",
         },
 
         sample: {
@@ -8587,7 +8587,7 @@ export default {
         auto_fill: {
           title: "Tamîrê hêman hêman",
           subtitle:
-            "You hêman Set hêman hilberên hêman hêman hesabê vir Giranî, û Navenda hêman hêman hêman bi re hêman Giranî. belaş hêman Ber hêman re Destçûnî Edit hesabê xav Ez xwe SMS hêman bo hêman. Ez Vebijarkê hêman, hêman hêman piştrast na hêman Ber hêman hêman Edit binivîse. Selldone",
+            "Hûn dikarin her yek ji van parameteran wekî nirxek destnîşan bikin, û Selldone dê wan bi nirxa têkildar veguhezîne. Ji bo sadebûnê çêtir e ku hûn di pêşkêşvanê SMS-ê de nirxên xwerû wekî şablon diyar bikin. Di vê rewşê de, dê hewce nebe ku li vir nirxên parametreyê diyar bikin.",
         },
         request: {
           title: "hêman hêman",
@@ -8608,7 +8608,7 @@ export default {
     },
     template: {
       title: "hêman Şablon",
-      desc: "hêman hêman hêman piştrast afirandin Ji hêman û Şandin Ber re hêman.",
+      desc: "Tiştek dê ji pîvanan were afirandin û ji pêşkêşker re were şandin.",
     },
   },
 
@@ -8621,7 +8621,7 @@ export default {
     plain_text: "hêman binivîse",
     structural_template: "hêman Şablon",
     errors_limit_msg:
-      "hêman xwe bikirin hêman 100 hêman, hêman hêman piştrast e hêman! You hêman Vegere hêman Ber hêman-Bikêrkirin hêman.",
+      "Ger karûbarê we ji 100 xeletiyan derbas bibe, ew ê bixweber were neçalak kirin! Hûn dikarin xeletiyan ji nû ve çalak bikin.",
 
     enable_input: {
       false_description:
@@ -8713,10 +8713,10 @@ export default {
 
     messages: {
       provider_error_limit:
-        "hêman xwe bikirin hêman 100 hêman, hêman hêman piştrast e hêman! You hêman Vegere hêman Ber hêman-Bikêrkirin hêman.",
+        "Ger karûbarê we ji 100 xeletiyan derbas bibe, ew ê bixweber were neçalak kirin! Hûn dikarin xeletiyan ji nû ve çalak bikin.",
 
       encryption_ports_guide:
-        "Navnîşana hêman hêman Pêşnîyar SSL, hêman, an hêman hêman ji gorî Berdeste hêman. hêman Girêdana hêman Ez hêman hêman, hêman re hêman rewş hêman hêman re Dîroka. hêman <b>hêman</b> pirjimar hêman: <b>587</b> û <b>SSL</b> pirjimar hêman: <b>465</b>.",
+        "Dibe ku pêşkêşkerên e-nameyê li ser bingeha portên berdest SSL, TLS, an girêdanên neşîfrekirî pêşkêşî bikin. Ger girêdan di xeletiyekê de bibe, guheztina moda şîfrekirinê dibe ku pirsgirêk çareser bike. Standard <b>TLS</b> Portê bikar bînin: <b>587</b> û <b>SSL</b> Portê bikar bînin: <b>465</b>.",
 
       enable_receive_test:
         "Piştgiriya Rizgarkirin dipejirînim, You hêman Wergirtin vir testê bişînin gorî <b>{email}</b>. Rizgarkirin dipejirînim kirîn hêman vir testê Navnîşana bi re Nşh Giştî.",
@@ -8949,7 +8949,7 @@ export default {
     drag_sort_msg: "You hêman hêman û Bi Pelên.",
     paid_mode_msg: "Bikarhêner hêman daxîne hêman Tenê Piştgiriya hêman re Mal.",
     free_mode_msg:
-      "Bikarhêner hêman daxîne hêman bo Şandina. hêman Pelên hêman piştrast hêman 50 MB.",
+      "Bikarhêner dikarin wê belaş dakêşin. Pelên nimûne divê di binê 50 MB de bin.",
     has_gust_shopping_msg:
       "Qeyd kirin û hêman Bikarhêner hêman daxîne Pelên hêman hêman Kirîn rast e Ez re hêman mîheng > Herrikîn.",
     only_registered_shopping_msg:
@@ -8982,7 +8982,7 @@ export default {
     },
     zip_pin_code: "hêman / hêman Discount",
     no_country_selected_error:
-      "hêman hêman li hêman hêman Welat hêman bi vir Rêzok hilberên hêman/hêman Discount. hêman hêman, Vebijarkê Mal hêman nehatin piştrast Berdeste.",
+      "Ji kerema xwe bi kêmî ve welatek digel navnîşek kodên zip/pin-ê têxin nav xwe. Bêyî wê, ev hilber dê peyda nebe.",
     tips: "Bikirtînin gorî re <b>+ zêde bike Welat</b> bişkojk Ber Destpêkirin hêman vir Nşh Cîh Set. hêman hêman hêman, You hêman Rizgarkirin hêman rêzkirin hêman gorî re hêman-hêman <b>⋮ Qerta xûrekê</b> û hêman <b>Rizgarkirin tengal</b>.",
     need_save_message:
       "re Cîh jêbirin mîheng bo re Mal hêman nûve hêman. Ber hêman hêman dipejirînim, hêman Bikirtînin gorî re 'Rizgarkirin bişkojk hêman.",
@@ -9114,7 +9114,7 @@ export default {
   /** {@see SInviteFriends} **/
   invite_friends: {
     title: "Li ser karsaziya xwe ji cîhanê re bêje!",
-    msg: "hêman xwe hêman Ber Navenda û hêman hêman vir $99 Şîrket Voucher hêman hêman hêman hêman. hêman hêman guhertinan hêman kirîna Şandindayinî, hêman hêman vir hêman Simsarî Ji gişt hêman derbasdar. Serdan hêman Komîsyona rûpel Ber Destpêkirin hêman Îro! Selldone",
+    msg: "Hevalên xwe ji Selldone re bişînin û gava ku ew têkevin nav kopiyek Pargîdaniya $99 bidin wan. Gava ku ew danûstendina xwe ya yekem bikin, hûn ê ji hemî danûstendinên wan komîsyonek heyatî qezenc bikin. Serdana rûpela hevalbendiya me bikin ku îro dest bi qezenckirinê bikin!",
     invite: {
       title: "Tevlî OS-ya karsaziya Selldone bibin ku ji 99 dolaran bexşek belaş bistînin.",
       description:
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "hêman hêman",
       subtitle:
-        "binivîse, You hêman hêman vir Suit hilberên hêman hêman. You rast hêman hêman Ber hêman re tevahî Berdeste Ez hêman hêman. hêman, hêman hêman Ji hêman Ez an hêman ferman hêman Xanî Şexsî tevahî, hesabê Vebijarkê Jimare hêman piştrast hêman Ber re Alenî. hêman You hêman Nirxa xwe tevahî binivîse, hêman hêman re dikan û Pelê Ez hêman bi bûn bo hêman hêman.",
+        "Li vir, hûn dikarin hilbijarkek firotgehên nimûne kifş bikin. Destûr ji we re tê dayîn ku hûn agahdariya ku li van firotgehan hene bişopînin. Lêbelê, ji kerema xwe ji têketinê an fermanan bi karanîna agahdariya kesane ya rastîn dûr bisekinin, ji ber ku ev dane dê ji gel re bigihîje. Ger hûn bi xeletî agahdariya xwe li vir têkevin, ji kerema xwe ji firotgehê derkevin û ji bo arîkariya bêtir bi me re têkilî daynin.",
     },
 
     add_new_store: "zêde bike Nşh dikan",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategoriyên Blog",
     subtitle:
-      "You hêman Xûliqandin vir Deals Hesabê hilberên Kategorî bo xwe Nû hêman Ber Karûbarê hêman Zêdetir.. hêman. hêman vir Liq Sînorkirin hêman hêman hêman gorî xwe Design. hêman, hêman re hêman hêman hêman hêman vir Deals Hesabê hilberên Kategorî, hêman hêman hêman 100, Ber hêman rêvebirin û hêman vir hêman hêman.",
+      "Hûn dikarin ji bo postên bloga xwe hejmarek kategorî biafirînin da ku wan bi bandortir îdare bikin. Hebûna sînorek kategoriyê li ser malpera we rêxistina çêtir pêşve dike. Nemaze, tewra ajansên nûçeyan ên top hejmarek kategorî, bi gelemperî ji 100-an kêmtir diparêzin, da ku rêveberiyê saxlem bikin û baldariyek berfireh biparêzin.",
 
     add_action: "Kategoriya nû lê zêde bike",
     add_dialog: {
@@ -9266,7 +9266,7 @@ export default {
       title: "Rêbazên têketinê",
       subtitle: "Awayê ku bikarhêner têkevin dikana xwe xweş bikin.",
 
-      tips: "<b>hêman.</b> hêman vir bikaranîvan hêman bi xwe Dikan, vir hêman Navenda bikaranîvan neçalak afirandin, hêman hêman hêman hêman hêman. Vebijarkê bikaranîvan hêman hêman Navketin Ber hêman navnîşan Pirtûka hêman gişt hêman û hêman Dîtinî hêman 🛍️ Siparîş bike Dîrok, hêman hêman vir Dikan hate hêman. hêman hêman nehatin pirjimar Vebijarkê tevahî bo E-nameyê hêman hêman hêman hêman Ber hêman hêman gorî hêman hêman. Ber hêman hêman, hêman Şandin hêman Navnîşana Ber re bikaranîvan hêman hêman hilberên hêman Dîroka. Selldone",
+      tips: "<b>Giring.</b> Dema ku bikarhênerek li dikana we qeyd dike, bikarhênerek Selldone ya têkildar tê afirandin, heke yek jixwe tune be. Ev bikarhêner dê li seranserê hemî firotgehan bigihîje pirtûka navnîşana xwe û dikare dîroka fermana xwe bibîne, her çend dikanek girtî be. Em vê agahiyê ji bo mebestên kirrûbirrê bikar naynin lê ji bo pêşîlêgirtina sextekariya her du aliyan hewce dikin. Ji bo parastina zelaliyê, em ê e-nameyek ji bikarhêner re bişînin ku qeydkirina wan agahdar dike.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Şandin hêman Daxwaza",
     message:
-      "hêman xwe hêman 3 Modela hêman Ber hêman û hêman gorî Navenda. Vebijarkê tevahî hêman piştrast hêman hêman bi hêman û hêman û hêman piştrast hêman hêman. You hêman hêman Nûvekirin xwe hêman hêman Dem Piştgiriya hêman. Selldone",
+      "3 hewcedariyên karsaziya xweya herî mezin nas bikin da ku li ser Selldone pêş bikevin û qezenc bikin. Ev agahdarî dê rasterast bi damezrîner û rêvebiran re were parve kirin û dê bi baldarî were hesibandin. Her weha hûn dikarin hewcedariyên xwe bi demê re piştî radestkirinê nûve bikin.",
     expand_action: "Nû re Daxwaza...",
     input_label: "xwe Daxwaza",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Şandin Ber hêman",
     },
     placeholder: {
-      ceo: "hêman na hêman Ber piştrast hêman, Ez Çawa Ber hêman xwe hêman, hêman-Ber-re-xerîdar Pirsa.\nhêman.hêman. Ez hêman Ber hêman...",
-      team: "hêman hêman Ber piştrast hêman Ber hêman.\nhêman.hêman. Ez hêman Ber hêman...",
+      ceo: "Bê guman ne hewce ye ku meriv xweş be, ez hez dikim ku hûn rasterast, rast-a-rast bipirsim.\nwek mînak. Divê ez hebim...",
+      team: "Ji kerema xwe hewl bidin ku bi wan re xweş bin.\nwek mînak. Divê ez hebim...",
     },
   },
 
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "hêman",
     subtitle: "Vebijarkê neçalak vir Rêzok hilberên re hêman hêman.",
-    empty_msg: "na hêman hêman nûve afirandin hêman hêman...",
+    empty_msg: "Heya nuha ti şîrove nehatine çêkirin...",
   },
 
   /**
@@ -9758,7 +9758,7 @@ export default {
         description: "nîşan bide hêman hêman.",
       },
     },
-    empty_msg: "na hêman hêman nûve afirandin hêman hêman...",
+    empty_msg: "Heya nuha tu mesajek nehatine çêkirin...",
     menu: {
       open_post: {
         title: "hêman hêman",
@@ -9791,7 +9791,7 @@ export default {
       title: "Google Lîsteya",
       subtitle:
         "Jimare hêman hêman re hêman hilberên xwe hêman tevahî gorî Google. hêman Vebijarkê Pêvek Ber hêman zêde bike gişt berhem û Kategorî Ber Google Cureyên.",
-      tips: "You hêman hêman Vebijarkê hêman Ber hêman û hêman Karûbarê Google hêman.",
+      tips: "Hûn dikarin vê amûrê bikar bînin ku hûn reklamên Google-ê bi hêsanî û bixweber birêve bibin.",
       link_message: "Google berhem hêman paşîn URL",
     },
     console: {
@@ -9805,7 +9805,7 @@ export default {
     serp: {
       title: "Google hêman & hêman ERP",
       subtitle:
-        "hêman hêman re Herî hêman Veavakirina hêman Jimare Ji Google û hêman hêman Ber You Ez vir hêman hêman. hêman hêman re hêman hêman. SEO",
+        "Em daneyên lêgerîna SEO ya herî rast ji Google digirin û bi rengek hêsan pêşkêşî we dikin. Bi tenê gavên pêşkêşkirî bişopînin.",
     },
     serp_content: {
       title: "Hesabê Ber Google lêgerîn hêman",
@@ -9813,7 +9813,7 @@ export default {
         "Hesabê xwe Dikan Ber re lêgerîn hêman û Destpêkirin hêman hêman, hêman, û Rûpelên Şandina Veavakirina Amûrên gorî Navenda. Selldone SEO",
       tips: {
         title:
-          "hêman Ber hêman Navenda bi Google lêgerîn hêman, hêman re hêman: Selldone",
+          "Berî ku hûn Selldone bi Google Search Console ve girêdin, jêrîn piştrast bikin:",
         add_in_selldone: "zêde bike, hêman, û Set hesabê Bingehîn xwe Hûnbunî domain.",
         add_in_google: "zêde bike û hêman <b>{domain}</b> Ez xwe<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google lêgerîn hêman</b></a>.",
       },
@@ -9896,7 +9896,7 @@ export default {
       message: "Nirxa re hêman Discount Ji 1% Ber 20%.",
     },
     currency_input: {
-      message: "re hêman hêman hêman piştrast Berdeste hêman bo Vebijarkê Diravcins.",
+      message: "Bernameya cashback dê tenê ji bo vê pereyê peyda bibe.",
     },
     limit_input: {
       title: "Sînorkirin",
@@ -9943,22 +9943,22 @@ export default {
       false_title: "gişt Mişterî",
       true_title: "hêman Mişterî",
       true_msg:
-        "re hêman hêman hêman piştrast Berdeste hêman bo re Mişterî hêman rast hêman.",
+        "Bernameya cashback dê tenê ji bo xerîdarên ku jêhatî ne peyda bibe.",
     },
     club: {
       subtitle:
-        "Set re Klub bo re hêman hêman. re hêman hêman hêman piştrast Berdeste hêman bo re Mişterî hêman rast Ez Vebijarkê Klub.",
+        "Klûbê ji bo bernameya cashback saz bikin. Bernameya cashback dê tenê ji bo xerîdarên ku di vê klûbê de ne peyda bibe.",
     },
     cluster: {
       subtitle:
-        "rêzkirin hêman vir hêman bi re hêman hêman, You hêman Karûbarê hêman Zêdetir.. hêman.",
+        "Bi girêdana komek bi bernameya cashback re, hûn dikarin wê bi bandortir îdare bikin.",
     },
     notifications: {
       add: "hêman hêman Dîroka hêman.",
       edit: "hêman hêman kirin hêman.",
     },
     enable_input: {
-      true_msg: "re hêman hêman neçalak Jîr û Mişterî hêman pirjimar hêman.",
+      true_msg: "Bernameya cashback çalak e û xerîdar dikarin wê bikar bînin.",
       false_msg:
         "re hêman hêman neçalak bêkar û Mişterî hêman nehatin pirjimar hêman.",
     },
@@ -9966,7 +9966,7 @@ export default {
       false_title: "Moda",
       true_title: "hêman (2hêman hêman)",
       true_msg:
-        "re hêman hêman neçalak Ez hêman rewş û Mişterî hêman Wergirtin 2hêman hêman.",
+        "Bernameya cashback di moda zêdekirinê de ye û xerîdar dê 2x paşde paşde bistînin.",
       false_msg:
         "re hêman hêman neçalak Ez Moda rewş û Mişterî hêman Wergirtin Moda hêman.",
     },
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "hêman hêman",
       description:
-        "Ez Tesdîq hêman re hêman Biha neçalak in û Ez hêman Ber hêman.",
+        "Ez piştrast dikim ku dravê vegerandinê rast e û ez dixwazim bidomînim.",
     },
     action: "hêman niha",
   },
@@ -10058,7 +10058,7 @@ export default {
           "malê Berdest bo Xaç-firotin Abonetî berhem neçalak nehatin hêman, hesabê re Competitive hêman Nikare piştrast hêman hêman.",
         message_input: {
           message:
-            "hêman vir hêman û hêman Nav Ber hêman Mişterî hêman.",
+            "Sernavek berbiçav û balkêş çêbikin ku bala xerîdaran bikişîne.",
           placeholder:
             "Time & Rizgarkirin: Agahdariya xwe hêman bi hêman hêman Suit!",
         },
@@ -10084,7 +10084,7 @@ export default {
       title: "biguherînin Edit",
       subtitle: "Nirxa re hêman Edit bo hêman biguherînin Gadget binivîse.",
       prevent_duplicates_tips:
-        "<b>Not:</b> hêman hêman Nasnameya bo hêman Guhertoyên Ber hêman hêman.",
+        "<b>Not:</b> Em bixweber guhertoyên heyî kontrol dikin da ku pêşî li dubareyan bigirin.",
     },
     inventory: {
       title: "Berdêla lîsteya",
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "nehatin Firoşgeha",
       },
       available_countries_msg:
-        "Lîsteya hêman Firoşgeha Ber {count} hêman. hêman hêman rast {countries}.",
+        "Kirîn li seranserê cîhanê li {count} welatan hatiye sînorkirin. Ev welat {countries} ne.",
       disable_for_all_countries_msg:
         "Lîsteya neçalak e bo gişt hêman Ez xwe Dikan > Cihan malê.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10210,7 +10210,7 @@ export default {
       no_location_error_subtitle:
         "You hêman Çalak kirin vir Cîh jêbirin bo hêman re Mal, hêman hêman, na Welat neçalak hêman hêman Vebijarkê jêbirin. hesabê vir Encam, Vebijarkê Mal neçalak hêman bo Kirrîn rêzkirin hêman.",
       invalid_location_error_subtitle:
-        "re Cîh jêbirin mîheng bo xwe Mal hêman hêman hêman: hêman Cihan hêman hêman nehatin hêman hêman hêman hêman Discount. hêman, Bikarhêner rast hêman Ber Karê vir hêman Navê dizî, hêman re Mal hêman bo Kirrîn. IP",
+        "Mîhengên sînordarkirina cîhê ji bo hilbera we xeletiyek dihewîne: hin cihên ku hatine navnîş kirin kodên ZIP yên têkildar tune. Ji ber vê yekê, bikarhêner nikarin kodek ZIP-ê hilbijêrin, hilber ji bo kirînê nayê peyda kirin.",
 
       manage_locations: "Karûbarê Cihan",
     },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "You hêman hêman hêman vir Mal an vir Rêzok hilberên berhem Ez xwe Nû an Rûpelên API-ê rûpel rêzkirin hêman hêman û hêman re Discount hêman hêman. hêman Vebijarkê Sernavê neçalak hêman Ez hêman Têketina hêman, hêman rast hêman Rojên Ber hêman hêman Versatile hêman hêman neçalak hêman Berdeste hêman. hêman hêman hêman Pêşkêş dike Deals kapasîteyên, hêman hêman hêman Ber hêman Zêdetir.. xav û Gadgetên pêşkeftî Ez re hêman.",
+      "Hûn dikarin bi hêsanî hilberek an navnîşek hilberan di bloga xwe an rûpelên din ên malperê de bi tenê bi kopîkirin û pêvekirina kodên ku em pêşkêş dikin bixin. Her çend ev taybetmendî hîn di qonaxên xwe yên destpêkê de ye, em bi rengek çalak dixebitin ku fonksiyona wê ji ya ku niha li cîhek din heye berfireh bikin. Digel ku ew naha kapasîteyên tixûbdar pêşkêşî dike, planên me hene ku di pêşerojê de bêtir şablon û vebijarkên xwerûkirinê bidin nasîn.",
     card: {
       title: "hêman",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "hêman",
       description:
-        "hêman re hêman Navê dizî Ber hêman hêman Mal zêde Ez hêman hêman hêman.",
+        "Koda iframe-ê biafirînin da ku hûrguliyên hilberê yên berfireh di pencereyek pêvekirî de nîşan bidin.",
     },
   },
 
@@ -10290,7 +10290,7 @@ export default {
       customization_tips:
         "<b>Gadgetên:</b> Bikirtînin gorî hêman şanî Ber hêman re Destçûnî Zêdetir/Nû Navketin. hêman hêman hêman hêman Navketin Asta hêman Ber re Rûpelên Dikan panela rêveberiyê.",
       simplify_tips:
-        "<b>hêman!</b> hêman hêman re Navketin gihîştinê Ji hêman 300 Ber hêman 10 Mişterî. Zêdetir.. hêman û hêman-Ber-Rojek Navketin Mişterî hêman piştrast Weşandin Ez re hêman.",
+        "<b>Girîng!</b> Em kontrolkirina gihîştinê ji 300î zêdetir berbi 10 astê ve hêsan dikin. Asta gihîştina berfirehtir û nûjen dê di belgeyê de were weşandin.",
       multi_permission_tips:
         "<b>Hûnbunî Sînorên?</b> You hêman zêde bike Zêdetir.. Navketin Ber hêman bikaranîvan, hêman Piştgiriya hêman re kirîna Navketin, Xûliqandin Agahiyên Navketin bi re hêman hêman.",
       view_data: "Dîtinî Jimare",
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "Mal hêman",
         messages: "berhem bi hêman hêman hêman piştrast nîşan bide.",
-        placeholder: "hêman hêman binivîse û hêman Nirxa. Ex. Nşh hêman",
+        placeholder: "Têl li vir etîket dike û Enter bikirtînin. ex. berhevoka nû",
       },
     },
     actions: {
@@ -10361,7 +10361,7 @@ export default {
       product:
         "<b>Mîqdara Mal hilberê: </b>pirjimar P0000+Mal hilberê Ber Vebijêrkên vir hêman Mal, hêman.hêman., <b class=\"text-green\">P0000</b><i class=\"text-yellow\">360</i>. ID",
       quotes:
-        "<b>Mîqdara hêman: </b>pirjimar hêman hêman Ber lêgerîn bo hêman Mîqdara hêman, hêman.hêman., <b class=\"text-green\">\"</b><i class=\"text-yellow\">xwe binivîse binivîse</i><b class=\"text-green\">\"</b>.",
+        "<b>Pêvoka Tevrast: </b>Nîşeyên neqlê bikar bînin da ku li hevokeke tam bigerin, mînak, <b class=\"text-green\">\"</b><i class=\"text-yellow\">nivîsara we li vir</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Bac tengal: </b>lêgerîn bo berhem bi vir hêman Bac tengal hêman \"Bac:\", hêman.hêman., <b class=\"text-green\">Bac:</b><i class=\"text-yellow\">Bac tengal Nav</i>.",
       new_products:
         "<b>Nşh berhem: </b>Vebijêrkên berhem Dîroka hêman vir hêman Rojek Range, hêman.hêman., <b class=\"text-green\">Nşh~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "hêman",
     subtitle:
-      "Beyan re Saved hêman hêman piştrast hêman bi hêman hêman Giranî Ez re rûpel Biguherîne. Giştî hêman piştrast hêman 32 hêman.",
+      "Mifteya ku dê bi nirxa wê ya têkildar re di naveroka rûpelê de were guheztin têkevin. Divê bişkok herî zêde 32 tîp bin.",
     add_caption: "zêde bike Nşh şanî",
     add_sub_caption: "zêde bike Hûnbunî Saved-Giranî hêman.",
     add_dialog: {
@@ -10391,15 +10391,15 @@ export default {
     help_dialog: {
       title: "hêman Ber pirjimar hêman Biguherîne",
       how_it_works_tips:
-        "Ez re Daketin rûpel, You hêman re hêman Ber hêman hêman hêman bo hêman binivîse û Wêneyên. hêman hêman hêman vir hêman hêman Ez hêman re Biguherîne hêman Ber re hêman. re hêman hêman hilberên hêman hêman hêman hêman Ber piştrast hêman rêzkirin hêman Edit, hêman hêman hêman ji gorî hêman hêman. bo hêman, re hêman Edit hêman piştrast hêman bo hêman Mal an Liq. re Xanî hêman hilberên Vebijarkê Sernavê hêman hêman hêman hêman You hêman vir hêman hilberên jêbirin bi hêman hêman. You hêman hêman hêman hêman hêman hêman Ber hêman û hêman re hêman hilberên hêman şanî, hêman hêman vir yekta û hêman hêman gorî xwe Daketin rûpel.",
+        "Di rûpelên dakêşanê de, we nermbûn heye ku hûn hem ji bo nivîs û hem jî wêneyan cîhgiranên dînamîkî destnîşan bikin. Van cîhgiran di xweşkirina naverokê de li gorî çarçoweyê de rolek girîng digirin.   Xwezaya dînamîk a van cîhgiran dihêle ku ew ji hêla nirxên zêdekirinê ve werin bicîh kirin, ku dikarin li ser bingeha faktorên cihêreng cûda bibin. Mînakî, dibe ku nirxên zêdekirinê ji bo her hilber an kategoriyê cûda bin. Feydeya rastîn a vê taybetmendiyê gava ku we cûrbecûr hêmanên bi taybetmendiyên cihêreng hebin tê lîstin. Hûn dikarin van cîhgirên dînamîkî bi bandor bikar bînin da ku pêşandana her tiştê kesane bikin û zêde bikin, bi vî rengî ezmûnek bêhempa û înteraktîf li ser rûpelên dakêşana xwe biafirînin.",
       assign_tips:
         "Ber hêman hêman Edit Ber Wêneyên, Bikirtînin gorî re hêman bişkojk hêman gorî re hêman tarî hilberên re style.",
       set_dynamic_image_tips:
-        "You niha hêman re hêman Ber hêman re Wêne paşîn û hêman hêman vir hêman Giranî. URL",
+        "Naha we heye ku hûn URL-ya wêneyê biguhezînin û wê nirxek dînamîkî destnîşan bikin.",
       enter_values_tips:
-        "bo hêman Mal, You hêman re hêman Ber hêman hêman Saved-Giranî hêman.",
+        "Ji bo her hilberek, we heye ku hûn cotên key-nirxê diyarkirî destnîşan bikin.",
       result_tips:
-        "Vebijarkê neçalak re hêman hêman hilberên re rûpel, hêman hêman hêman nûve hêman bi hêman Edit.",
+        "Ev encama dawîn a rûpelê ye, ku cîhgiran bi nirxên zêdekirî re hatine guhertin.",
     },
   },
 
@@ -10533,7 +10533,7 @@ export default {
 
     title: "hêman şanî",
     subtitle:
-      "Plana vir hêman Nav, hêman bi 2 Ber 3 hêman li Herî. pirjimar hêman Wêneyên, hesabê hêman hêman Tamîrê-hêman nehat Wêne Ber vir 256hêman256 hêman hêman. bo re Bundles Xuyabûnî hêman gişt xav, hêman hêman Wêneyên bi zelal hêman û hêman vir hêman hêman hêman xwe berhem.",
+      "Sernavek kurt hilbijêrin, bi îdeal herî zêde bi 2 û 3 peyvan. Wêneyên çargoşe bikar bînin, ji ber ku em ê wêneyên barkirî bi rengek çargoşe 256x256 bixweber mezin bikin. Ji bo xuyangkirina çêtirîn li ser hemî şablonan, wêneyên mînîmalîst ên bi paşnavên zelal bikar bînin û li seranserê hilberên xwe nimûneyek yekgirtî bidomînin.",
     inputs: {
       title: {
         placeholder: "hêman Nav hêman gorî Mal rûpel...",
@@ -10656,7 +10656,7 @@ export default {
         "hêman hêman hêman!",
         "hêman gişt Abonetî û Şandindayinî hêman. hêman hêman 💳 Tezmînat hilberên re bikaranîvan gorî Navenda. Selldone",
         "hêman Şandin vir Şandina $99 Voucher Ber hêman hêman hêman hêman xwe Pêvek.",
-        "hêman xwe pêşkeftî hêman, You hêman hêman li re Nşh danûstandinê Ji gişt hêman hêman Bikarhêner.",
+        "Dema ku asta we nûve bike, hûn ê bi rêjeya nû ji hemî bikarhênerên berê hatine şandin qezenc bikin.",
       ],
     },
   },
@@ -10677,9 +10677,9 @@ export default {
     clone_tooltip: {
       title: "Specifications Awayî",
       subtitle:
-        "pirjimar Vebijarkê hêman Ber hêman hêman hêman hesabê mezin, hêman, hêman, û hêman. hêman hêman hêman Ber Specifications hêman:",
+        "Vê amûrê bikar bînin da ku şêwazên wekî font, paşxane, marjînal û sînor dubare bikin. Van gavan bişopînin da ku şêwazên dubare bikin:",
       step_1:
-        "hêman re hêman û hêman xwe hêman hêman binivîse, hêman, an Wêneyên; re hêman hêman Gûherrandinî Ber vir hêman.",
+        "Amûrê çalak bikin û mişka xwe li ser nivîs, stûn, an wêneyan bihêlin; kursor dê bibe pipetek.",
       step_2: "Bikirtînin gorî re hêman hêman Awayî You hêman Ber hêman.",
       step_3:
         "re hêman hêman Gûherrandinî Paş Ber vir hêman; Bikirtînin gorî re hêman hêman You hêman Ber Serlêdan re hêman Awayî.",
@@ -10690,7 +10690,7 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Bikêrkirin Vebijarkê Sernavê Ber hêman hêman û hêman hêman rêzkirin hêman hêman.",
+        "Vê taybetmendiyê çalak bike da ku bi kaşkirina wan beşan bi hêsanî ji nû ve saz bike û birêxistin bike.",
     },
     edit_mode_tooltip: {
       title: "Weşandin / Pêşnerîn rewş",
@@ -10703,7 +10703,7 @@ export default {
     repository_tooltip: {
       title: "hêman hêman",
       subtitle:
-        "hêman re hêman hilberên Berî-dîzaynkirin hêman. hêman hêman rast afirandin hêman re hêman hêman Berdeste Ez re hêman Qerta xûrekê, hêman re hêman hilberên Vebijarkê rûpel Kesane.",
+        "Nîşandana beşên pêş-dîzaynkirî bişkînin. Van beşan bi karanîna beşên standard ên ku di menuya çepê de peyda dibin têne afirandin, ku nermbûna vê çêkerê rûpelê nîşan dide.",
     },
     live_view: {
       title: "Jîyan Pêşnerîn",
@@ -10712,18 +10712,18 @@ export default {
     hotkeys_dialog: {
       title: "hêman hêman",
       augment_tips:
-        "You hêman hêman hêman Biguherîne hêman xwe rûpel û hêman hêman bi <b>hêman</b> Edit. hêman neçalak Bikaranîn bo Hûnbunî hêman rûpel hêman hesabê <b>berhem</b>, <b>Kategorî</b>, û <b>hêman jêbirin</b>. Ber Set hêman Wêne Ber hêman hêman, Bikirtînin gorî <b>hêman</b> û Karê <b>hêman hêman</b> bo hêman Wêne.",
+        "Hûn dikarin naveroka dînamîkî li ser rûpela xwe bar bikin û wê bi nirxên <b>augment</b> veguherînin. Zêdekirin ji bo rûpelên dînamîkî yên xwerû yên wekî <b>Products</b>, <b>Kategorî</b>, û <b>Têkilî</b> tê bikaranîn. Ji bo ku wêneyek dînamîk were barkirin, li <b>Feeder</b> bikirtînin û ji bo wê wêneyê <b>Çavkaniya Dînamîk</b> hilbijêrin.",
     },
     hotkeys: {
-      ctrl_b: "hêman hêman gorî/JIN bo hêman binivîse | <b>guhertinan hêman hêman</b>",
-      ctrl_i: "hêman hêman gorî/JIN bo hêman binivîse | <i>guhertinan hêman hêman</i>",
+      ctrl_b: "Ji bo metna hilbijartî qelew biguherîne/çalak bike | <b>Min cesûr bike</b>",
+      ctrl_i: "Ji bo nivîsa hilbijartî tîpên îtalîk çalak/çalak bikin | <i>Min bike îtalic</i>",
       ctrl_l:
-        "hêman hêman gorî/JIN bo hêman binivîse | <s>hêman hêman hêman</s>",
-      ctrl_u: "hêman hêman gorî/JIN bo hêman binivîse | <u>hêman hêman</u>",
+        "Ji bo metna hilbijartî guheztin/çalak bike | <s>Li min bixin</s>",
+      ctrl_u: "Ji bo metna hilbijartî binxêzkirin/çalak bike | <u> Binxê min</u>",
       ctrl_1:
-        "hêman hêman Yekîneya hilberên hêman binivîse | <small>guhertinan hêman hêman</small>",
-      ctrl_2: "hêman hêman Yekîneya hilberên hêman binivîse | <big>guhertinan hêman hêman</big>",
-      ctrl_r: "Dûrxistin gişt hêman Ji hêman binivîse | hêman gişt hêman",
+        "Mezinahiya tîpên nivîsa hilbijartî kêm bike | <small>Min biçûk bike</small>",
+      ctrl_2: "Mezinahiya tîpên nivîsa hilbijartî zêde bike | <big>Min mezin bike</big>",
+      ctrl_r: "Hemû formatkirin ji nivîsa hilbijartî rakin | Hemî şêwazên paqij bikin",
       ctrl_s: "Rizgarkirin re rûpel",
       tab: "hêman hêman hêman hêman",
       ctrl_e: "hêman an hêman hêman Awayî rewş",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Navê dizî",
         subtitle:
-          "You hêman hêman û hêman re hêman Navê dizî Ji re hêman tarî hêman Ez re rûpel Kesane.",
+          "Hûn dikarin koda elementê ji beşên milê çepê yên di çêkerê rûpelê de kopî bikin û bixin.",
       },
       inputs: {
         title: {
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "Hyper girseyî",
     subtitle:
-      "You hêman Şandin vir Cî Nûvekirin Navnîşana Ber re Forma bi hêman hêman Bikirtînin. hêman, You hêman hêman hêman Zêdetir binivîse Ber hêman, hêman You hêman hêman Ber hêman hêman hêman Dem.",
+      "Hûn dikarin tenê bi yek klîk e-nameyek nûvekirina statûyê ji kirrûbirrê re bişînin. Wekî din, hûn dikarin li vir peyamên hevpar destnîşan bikin ku ji nû ve bikar bînin, ji ber vê yekê hûn ne hewce ne ku her carê wan ji nû ve binivîsin.",
     send_update_email_action: "Şandin Nûvekirin Navnîşana",
     add_template_action: "zêde bike Agah Şablon",
 
@@ -10880,7 +10880,7 @@ export default {
     title: "🛍️ Siparîş bike Pêvek",
     subtitle: "You hêman hêman re 🛍️ Siparîş bike Pêvek bi re mișterî.",
     guest_checkout_message:
-      "hêman hêman hêman hêman Dîtinî hêman 🛍️ Siparîş bike Ez re hêman hêman.hêman, hêman re mișterî neçalak vir hêman û You hêman Ber hêman re 🛍️ Siparîş bike zêde, You hêman Xûliqandin vir (Ewle) Pêvek bo hêman.",
+      "Kiryarên mêvan dikarin bixweber fermana xwe di heman gerokê de bibînin.Lêbelê, heke xerîdar mêvan be û hûn hewce ne ku hûrguliyên fermanê parve bikin, hûn dikarin ji wan re girêdanek ewledar biafirînin.",
     authentication: "hêman",
     guest: "hêman",
     click_to_create: "Bikirtînin Ber Xûliqandin...",
@@ -10897,7 +10897,7 @@ export default {
     title: "hêman hêman",
     add_source_action: "zêde bike Axaftin hêman",
     subtitle:
-      "hêman Hesabê Girêdana hêman Ber hêman û hêman hêman Çûna xwe Modela Ji hêman Çawa Facebook, Google, û Zêdetir... hêman hêman hêman Mişterî Ber hêman hêman bo vir hêman mișterî hêman. You hêman hêman hêman hêman hêman gorî xwe Daketin rûpel û Mal rûpel.",
+      "Bi hêsanî platformên derveyî ve girêdin da ku ji çavkaniyên mîna Facebook, Google, û hêj bêtir nirxandinên li ser karsaziya we berhev bikin û analîz bikin. Ji bo ezmûnek xerîdar çêtir em ê mişteriyan bixweber bi nirxandinên wan re hevber bikin. Her weha hûn dikarin van nirxandinan li ser rûpelên dakêşanê û rûpelên hilberên xwe nîşan bidin.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "hêman Set - Hûnbunî Guhertoyên",
       subtitle:
-        "You hêman hêman re biguherînin hêman bo Vebijarkê Mal, hêman re Destçûnî hêman.",
+        "Hûn dikarin navên guhertoyên vê hilberê xweş bikin, li şûna yên xwerû.",
     },
 
     subtitle:
-      "You hêman hêman biguherînin hêman, hêman, û hêman 🛍️ Siparîş bike binivîse. bo berhem bi yekta Guhertoyên hêman herin hêman re Destçûnî hêman, You hêman Set Hûnbunî Guhertoyên Tailored Ber hêman Mal. hêman hêman hêman hêman Ez re hêman > hêman hêman hêman û hêman hêman Ber hêman Hesabê hilberên berhem hesabê hêman.",
+      "Hûn dikarin navên guhertoyan, îkonan, û rêza wan li vir xweş bikin. Ji bo hilberên xwedan guhertoyên bêhempa yên ku ji şeş şeşan wêdetir in, hûn dikarin guhertoyên xwerû yên ku li gorî her hilberek hatine çêkirin saz bikin. Tenê di tabloya Logistic > Taybetmendiyên Taybetmendiyê de komikên taybetmendiyê diyar bikin û li gorî hewcedariyê wan li her hejmarek hilberan bidin.",
     select_property_set: "Karê hêman Set",
     add_property_set: "zêde bike hêman Set",
   },
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"lîste",
-    message:"Xûliqandin vir hêman, hêman hêman bo hêman Awa hilberên lîste—hêman, hêman, hêman, Karûbar, û Zêdetir..."
+    message:"Ji bo her cûre navnîşan pelrêçek lêgerker, moderator biafirînin - taybetmendî, otêl, bijîjk, karûbar, û hêj bêtir."
   },
 
   shop_listing: {
     name: "lîste",
     message:
-      "Xûliqandin vir hêman, hêman hêman bo hêman Awa hilberên lîste—hêman, hêman, hêman, Karûbar, û Zêdetir...",
+      "Ji bo her cûre navnîşan pelrêçek lêgerker, moderator biafirînin - taybetmendî, otêl, bijîjk, karûbar, û hêj bêtir.",
 
     items: {
       title: "jêbirin",
@@ -11017,7 +11017,7 @@ export default {
     categories: {
       title: "Kategorî",
       sub_title:
-        "hêman xwe hêman bi Kategorî û hêman. Vebijarkê hêman hêman û hêman.",
+        "Pelrêça xwe bi kategorî û binkategoriyan organîze bikin. Ev navîgasyon û fîlterkirin çêtir dike.",
 
       empty_title: "na Kategorî hîn",
       empty_subtitle:
@@ -11067,7 +11067,7 @@ export default {
 
       empty_title: "na jêbirin Ber Axaftin",
       empty_subtitle:
-        "hêman Bikarhêner Pirsa Nşh jêbirin, hêman hêman hêman binivîse bo hêman.",
+        "Dema ku bikarhêner hêmanên nû bişînin, ew ê li vir ji bo nermkirinê xuya bibin.",
 
       review_title: "Axaftin şanî",
       approve_publish: "guhertinên & Weşandin",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Jêbirin Kitên",
       delete_message:
-        "Jêbirin Vebijarkê Kitên? Kategorî hêman hêman hêman hêman hêman Kitên_hilberê.",
+        "Vê sêwiranê jê bibe? Kategoriyên ku wê bikar tînin dê bixweber design_id winda bikin.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "hêman",
       sub_title:
-        "Xûliqandin û Karûbarê hêman hêman. hêman hêman piştrast hêman Ber lîste jêbirin Ber hêman Festîvala hêman.",
+        "Nîşanên pêşangehê biafirînin û rêvebirin. Nîşan dikarin ji navnîşên navnîşan re bêne destnîşan kirin da ku taybetmendiyên taybetî ronî bikin.",
 
       empty_title: "na hêman hîn",
       empty_subtitle:
@@ -11183,7 +11183,7 @@ export default {
 
       delete_title: "Jêbirin Şîrket",
       delete_message:
-        "Jêbirin Vebijarkê Şîrket? jêbirin hêman hêman hêman hêman hêman re Şîrket Pêvek.",
+        "Vê pargîdaniyê jê bibe? Tiştên ku wê bikar tînin dê bixweber girêdana pargîdaniyê winda bikin.",
     },
 
 
@@ -11244,7 +11244,7 @@ export default {
       subtitle: "Kitên hêman Mişterî lêgerîn xwe lîste. Bikêrkirin Cîh-ji lêgerîn û Avakirin Parzûnên Ji xwe Hûnbunî form hêman.",
 
       location_title: "Cîh lêgerîn",
-      location_subtitle: "hêman Mişterî Ber hêman vir Cîh û Vebijêrkên hêman hêman hêman vir hêman Çap.",
+      location_subtitle: "Destûrê bidin xerîdar ku cîhek hilbijêrin û encamên nêzîk di nav tîrêjek mîhengkirî de bibînin.",
       location_enabled_true: "Cîh Parzûn neçalak e. Mişterî hêman lêgerîn rêzkirin Heqê.",
       location_enabled_false: "Cîh Parzûn neçalak e. hêman hêman nehatin piştrast mişteriyên rêzkirin Heqê.",
 
@@ -11974,7 +11974,7 @@ export default {
         "hêman hêman xwe Modela.",
         "xwe 🛍️ Siparîş bike neçalak gorî hêman hêman!",
         "Spas bo Lîsteya bi bûn.",
-        "hêman hêman Ber hêman You hêman.",
+        "Bi hêviya ku careke din xizmeta we bikim.",
         "xwe Têrbûna neçalak hêman hêman Pêşeyî.",
         "hêman hêman Ber danûstandinê xwe hêman.",
         "hêman You bo hêman hêman dikan.",
@@ -11983,13 +11983,13 @@ export default {
         "Serdan bûn hêman bo Zêdetir.. hêman berhem.",
         "hêman Girêdayî bo Deal Pêşkêş dike.",
         "hêman You bo hêman vir hêman mișterî.",
-        "hêman binivîse Ber Navenda hêman You hêman hêman.",
+        "Em li vir in ku ji we re bibin alîkar ku hûn hewceyê alîkariyê bin.",
         "xwe xerîdar hêman bûn hêman.",
         "hêman vir Festîvala Kêmkirinî gorî xwe Pêngava Kirrîn.",
         "hêman hêman vir hêman pêlavê!",
         "hêman You bo xwe hêman Ez bûn.",
         "hêman hêman Ber xwe xerîdar.",
-        "vir hêman hêman You Ji hêman hêman.",
+        "Spasiyek ji dil ji tîma me re.",
       ],
     },
 
@@ -12127,7 +12127,7 @@ export default {
         "hêman re hêman hêman Îro!",
         "Tenzîlata hêman hêman Deal hêman. IP",
         "hêman! Deals Dem hêman Pêşkêş dike.",
-        "hêman hêman hêman hêman Klub niha.",
+        "Naha beşdarî Klûba meya Xelatên Cashback bibin.",
         "re Zêdetir.. You Dikan, re Zêdetir.. You Rizgarkirin.",
         "Bihuşta re Garantiya hêman hêman.",
         "hêman re Bundles hêman Limited hêman.",
@@ -12142,13 +12142,13 @@ export default {
         "BIXWAZIN10 Ber {shop} - hêman hêman hêman Range hilberên jêbirin",
         "{shop} - xwe Garantiya hêman bo baş Cureyên û hêman bikirin",
         "Deal Limited û Savings Tenê li {shop} - hêman re hêman!",
-        "Pelê Ber hêman {shop}'(kes) hêman Ber hêman-hêman û hêman hêman",
-        "hêman vir hêman hilberên re {shop} hêman - hêman Ber hêman hêman bo Sporê",
-        "hêman hêman hêman hêman û hêman-hêman Sporê li {shop}",
-        "hêman hêman û hêman hêman bo gişt hêman li {shop}",
+        "Bi dilsoziya {shop} ya ji bo Eko-hevaltî û Pratîkên Etîk nas bikin",
+        "Bibin Parçeyek Ji Malbata {shop} - Ji bo Nûvekirinên Nû bibin Aboneya Nûçenameya Me",
+        "Li {shop} Hilbijartinên Serpêhatî û Berhemên Bilind-Desthilatdar Bigerin",
+        "Ji bo Hemî Bûyeran li {shop} Raman û Pêşniyarên Afirîner pêşkêş bikin",
         "hêman Pêşkêş dike û Dem-hêman demsalî li {shop} - hêman Fast!",
-        "{shop}'(kes) hêman hêman hêman û Mal hêman - Dikan bi hêman",
-        "hêman firotin Ber {shop} - hêman hêman Ber hêman hêman hêman Lîsteya hêman",
+        "Serişteyên Kirînê yên Berfireh û Nirxandinên Hilberê yên {shop} - Bi pêbawerî bikirin",
+        "Xwe bigihînin {shop} - Em Hewl didin ku Tecrûbeyek Kirrûbirrê ya Nehevhatî radest bikin",
       ],
     },
 
@@ -12166,7 +12166,7 @@ export default {
         "Pelê Zêdetir.., hêman hêman – Time hêman!",
         "Deals-Dem Pêşnîyar: lihevhatî berhem!",
         "hêman xwe hêman, hêman Limited!",
-        "hêman hêman hêman hêman, Rizgarkirin niha!",
+        "Kombeyên meyên bijarte kifş bikin, naha xilas bikin!",
         "hêman hêman hêman bo re Garantiya hêman!",
         "Dikan hêman, Time û Rizgarkirin!",
         "hêman re Giranî, hêman re hêman!",
@@ -12226,7 +12226,7 @@ export default {
         "şanî Paş Ez bêzarim",
       ],
       body: [
-        "hêman {buyer_name}, xwe 🛍️ Siparîş bike #{order_id} hate nûve Piştrast kirin! hêman’hêman Navenda hêman û hêman hêman You hêman hêman’(kes) ye Ber hêman.",
+        "Silav {buyer_name}, emrê te #{order_id} hat pejirandin! Em wê pêvajoyê dikin û gava ku ew ji bo şandinê amade be dê we agahdar bikin.",
 
         "Baş hêman, {buyer_name}! xwe 🛍️ Siparîş bike #{order_id} hate nûve Şandin. You hêman Bihayê hêman hêman xwe Konto. Spas bo Lîsteya bi bûn!",
 
@@ -12234,15 +12234,15 @@ export default {
 
         "hêman {buyer_name}, hêman hêman Wergirtin re 💳 Tezmînat bo 🛍️ Siparîş bike #{order_id}. xwe 🛍️ Siparîş bike neçalak niha hêman hêman û hêman piştrast Şandin hêman.",
 
-        "hêman {buyer_name}, hêman hêman Ber hêman You hêman xwe 🛍️ Siparîş bike #{order_id} hate nûve hêman. hêman You hêman hêman nehat, hêman Têkelî Alîkarî.",
+        "Birêz {buyer_name}, em xemgîn in ku hûn agahdar dikin ku emrê we #{order_id} hate betal kirin. Ger pirsên we hebin, ji kerema xwe bi piştevaniyê re têkilî daynin.",
 
-        "hêman {buyer_name}, hêman’hêman hêman vir veşêre bi xwe 🛍️ Siparîş bike #{order_id}. hêman hêman bo re hêman û rast Rojên Ber hêman hêman hesabê hêman hesabê hêman.",
+        "Birêz {buyer_name}, em bi derengiya fermana te #{order_id} re rû bi rû ne. Em lêborîna xwe ji bo nerehetiyê dixwazin û dixebitin ku di zûtirîn dem de çareser bikin.",
 
         "hêman {buyer_name}, xwe 🛍️ Siparîş bike #{order_id} neçalak hêman gorî hêman. hêman Nasnameya xwe Konto an Têkelî Alîkarî bo hêman zêde.",
 
         "hêman {buyer_name}, xwe 🛍️ Siparîş bike #{order_id} neçalak firotin bo Şandinî û hêman hêman You hêman. hêman You bo xwe hêman!",
 
-        "hêman {buyer_name}, hêman hêman hêman re 📦 Vegere bo xwe 🛍️ Siparîş bike #{order_id}. hêman You hêman hêman nehat, hêman Têkelî Alîkarî.",
+        "Birêz {buyer_name}, me vegerandina fermana te #{order_id} kir. Ger pirsên we hebin, ji kerema xwe bi piştevaniyê re têkilî daynin.",
 
         "hêman {buyer_name}, xwe hêman bo 🛍️ Siparîş bike #{order_id} hate nûve Lîsteya. You hêman hêman re hêman Ez xwe Konto hêman.",
 

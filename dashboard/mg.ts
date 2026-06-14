@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "vokatra API",
-        subtitle: "singan-javatra vokatra singan-javatra singan-javatra singan-javatra singan-javatra API singan-javatra.",
+        subtitle: "Manafatra vokatra amin'ny alalan'ny antso API azo idirana ho an'ny besinimaro.",
       },
       google_sheet: {
         action: "singan-javatra singan-javatra",
@@ -858,7 +858,7 @@ export default {
       restriction: {
         title: "Fandefasana singan-javatra",
         subtitle:
-          "singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra mpanjifa singan-javatra Ny singan-javatra Fandefasana singan-javatra singan-javatra singan-javatra Fividianana singan-javatra singan-javatra!",
+          "Azonao atao ny mampihatra fameperana mba hahazoana antoka fa ny mpanjifa ao anatin'ny faritra fandefasana entana ihany no afaka mividy aminao!",
         no_enable_shipping_error:
           "tsy misy singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra tsy misy singan-javatra Fandefasana singan-javatra!",
         customer_must_select_a_shipping_msg:
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Store Active Apps",
         subtitle:
-          "Tantano ny rindranasan'ny orinasanao. Selldone",
+          "Fantaro ny fahamoran'ny fitantanana ny rindranasa fandraharahanao miaraka amin'ny Seldone App Store. Ny sehatray dia manolotra fitaovana feno natao hanatsarana ny fiasan'ny orinasanao. Avy amin'ny vahaolana fitantanana vaovao ka hatramin'ny fampiharana mampisondrotra ny vokatra, Selldone dia manome traikefa tsy misy fotony ho an'ny orinasa mitady fahombiazana sy fitomboana.",
         all: "rehetra",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "singan-javatra",
           subtitle:
-            "singan-javatra singan-javatra singan-javatra, singan-javatra Sary singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra, sy singan-javatra singan-javatra singan-javatra.",
+            "Ny favicons dia sary kely mahafatifaty izay maneho tranonkala iray amin'ny tabilaon'ny navigateur, tsoratadidy ary fifandraisana amin'ny fampiharana finday.",
         },
       },
 
@@ -1428,7 +1428,7 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "Sokajy",
-      category_input_msg: "singan-javatra: singan-javatra Ny singan-javatra singan-javatra",
+      category_input_msg: "Foana: Ao amin'ny fototry ny fivarotana",
       product_name: "Anaran'ny vokatra*",
       product_name_placeholder: "Ny anaran'ny vokatrao eto..",
       product_code: "Kaody vokatra (anglisy)",
@@ -1499,7 +1499,7 @@ export default {
         valuation_need_saved_product_message:
           "singan-javatra afa-tsy Ny vokatra singan-javatra, sy singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
         assign_valuation_message:
-          "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra vokatra.",
+          "Omeo modely fanombanana ity vokatra ity azafady.",
         edit_pricing_action: "Ovay singan-javatra endrika",
         add_pricing_action: "MANANGANA Vaovao singan-javatra endrika",
       },
@@ -1512,8 +1512,8 @@ export default {
       },
       external: {
         not_available_message:
-          "singan-javatra singan-javatra singan-javatra ny orinasa & singan-javatra singan-javatra.",
-        available_message: "singan-javatra singan-javatra ampio singan-javatra singan-javatra singan-javatra singan-javatra.",
+          "Misy hetsika fanampiny azo alaina miaraka amin'ny fahazoan-dàlana amin'ny Company & Enterprise.",
+        available_message: "Azonao atao ny manampy antso ivelany fanampiny ho an'ny hetsika.",
         input_label: "singan-javatra singan-javatra",
       },
       warehouse: {
@@ -1523,10 +1523,10 @@ export default {
       gtin: {
         hint: "singan-javatra singan-javatra singan-javatra UPC (singan-javatra singan-javatra, 12 singan-javatra), EAN (singan-javatra, 13 singan-javatra), JAN (singan-javatra, 8 singan-javatra 13 singan-javatra), ISBN (singan-javatra, 13 singan-javatra).",
         label: "singan-javatra singan-javatra singan-javatra zavatra ny",
-        placeholder: "singan-javatra singan-javatra ny singan-javatra.. (singan-javatra)",
+        placeholder: "Laharana varotra eran-tany eto.. (tsy voatery)",
       },
       hsn: {
-        hint: "HSN, singan-javatra singan-javatra singan-javatra ny singan-javatra, ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra sy vokatra.",
+        hint: "HSN, na Harmonized System of Nomenclature, dia rafitra fanasokajiana manara-penitra iraisam-pirenena ho an'ny fanasokajiana entana sy vokatra.",
         placeholder: "6~16 singan-javatra HSN fehezan-dalàna.. (singan-javatra)",
         label: "HSN",
       },
@@ -1790,7 +1790,7 @@ export default {
           "ny ny-singan-javatra vokatra, Ny singan-javatra singan-javatra ny singan-javatra ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra ny Ny ny. Ny singan-javatra ny vidiny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ny mpanjifa singan-javatra singan-javatra singan-javatra 🛍️ Mandray commande (singan-javatra Zahao hoe).",
         file: "singan-javatra singan-javatra ny Ny singan-javatra sy singan-javatra vidiny ny Ny rakitra, singan-javatra mpanjifa singan-javatra vola singan-javatra 🛍️ Mandray commande ny singan-javatra fidirana ny Ny singan-javatra.",
         default:
-          "singan-javatra singan-javatra ny Ny singan-javatra singan-javatra vidiny sy singan-javatra singan-javatra singan-javatra TANTARA Ny vidiny ny singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra.",
+          "Izany dia manondro ny vidin'ny vokatra voatanisa ary koa mandray ny vidin'ny variana rehetra tsy manana vidiny misaraka.",
       },
       extra_pricings: {
         title: "ampio singan-javatra singan-javatra",
@@ -1875,7 +1875,7 @@ export default {
     menu: {
       add_bulk: {
         title: "singan-javatra ampio",
-        subtitle: "ampio singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        subtitle: "Manampia variana maromaro amin'ny hetsika iray.",
       },
       edit_property_set: {
         title: "singan-javatra singan-javatra singan-javatra",
@@ -1901,7 +1901,7 @@ export default {
   LogisticProfileType: {
     WARRANTY: {
       title: "singan-javatra",
-      desc: "A singan-javatra ny singan-javatra ny singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra vokatra singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra ny Ny singan-javatra.",
+      desc: "Ny fiantohana dia ampahany amin'ny fifanarahana izay mampanantena ny mpanamboatra fa hanamboatra na hanolo vokatra iray ao anatin'ny fe-potoana voafaritra. Ity fanoloran-tena ity dia mety hiitatra na dia amin'ny mpanjifa tsy manana fifanarahana mivantana amin'ny mpanamboatra aza.",
     },
     RETURN_POLICY: {
       title: "📦 Miverena singan-javatra",
@@ -1909,7 +1909,7 @@ export default {
     },
     GUIDE: {
       title: "singan-javatra",
-      desc: "A singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra singan-javatra vokatra.",
+      desc: "Ny torolalana dia mety ahitana tabilao habe ho an'ny akanjo na torolàlana mifantina diamondra. Zava-dehibe ny maha-zava-dehibe ny torolalana ary azo ampiharina amin'ny vokatra maro.",
     },
     SHIPPING: {
       title: "Fandefasana",
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "singan-javatra fitantanana",
     subtitle:
-      "MANANGANA singan-javatra, singan-javatra, sy singan-javatra singan-javatra-singan-javatra singan-javatra.",
+      "Mamorona varavarankely mipoitra ho an'ny tena manokana, manan-tsaina ary interactive.",
     add_action: "ampio Vaovao Pop up",
   },
 
@@ -2027,7 +2027,7 @@ export default {
     business: {
       title: "singan-javatra singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra sy singan-javatra singan-javatra ny singan-javatra ny singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Omeo fampahalalana marina momba ny orinasanao azafady mba hiantohana ny fizotry ny fanangonana vola miditra haingana sy milamina.",
     },
     bank: {
       title: "singan-javatra singan-javatra",
@@ -2083,7 +2083,7 @@ export default {
       },
       business: {
         false_description: "I singan-javatra ho singan-javatra singan-javatra.",
-        true_description: "I singan-javatra ho singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        true_description: "Miasa toy ny orinasa eken'ny lalàna aho.",
         false_title: "singan-javatra",
         true_title: "singan-javatra",
       },
@@ -2145,7 +2145,7 @@ export default {
     title: "singan-javatra",
     action_upload_doc: "ampidiro singan-javatra",
     vendor_subtitle:
-      "singan-javatra ampidiro Ny singan-javatra singan-javatra, IP, sy adiresy singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra ny singan-javatra sy singan-javatra singan-javatra ny Ny singan-javatra fidirana.",
+      "Alefaso azafady ny antontan-taratasy fanamarinana momba ny raharaham-barotra, IP ary adiresy. Mitaky ity fampahalalana ity izahay mba hanamafisana ny fiaraha-miasanao sy hanomezana anao ny fidirana ilaina.",
     marketplace_subtitle:
       "mpivarotra singan-javatra singan-javatra singan-javatra singan-javatra ho singan-javatra, singan-javatra singan-javatra, sy adiresy singan-javatra ny singan-javatra singan-javatra KYC singan-javatra, singan-javatra singan-javatra ny singan-javatra singan-javatra Ny singan-javatra fidirana.",
     upload_dialog: {
@@ -2153,7 +2153,7 @@ export default {
       type: {
         title: "singan-javatra singan-javatra",
         subtitle:
-          "singan-javatra ampidiro singan-javatra Ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+          "Alefaso azafady ny antontan-taratasy ilaina. Fadio ny mizara antontan-taratasy misy fampahalalana saro-pady. Mangataka antontan-taratasy azo ampahibemaso izahay.",
       },
     },
   },
@@ -2198,8 +2198,8 @@ export default {
         },
       },
       notifications: {
-        badge_added: "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra!",
-        badge_updated: "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra!",
+        badge_added: "Nampidirina soa aman-tsara ny badge!",
+        badge_updated: "Nohavaozina soa aman-tsara ny badge!",
         item_not_found_error:
           "Ny zavatra singan-javatra ny singan-javatra singan-javatra. singan-javatra singan-javatra Ny pejy singan-javatra singan-javatra MANAMPY.",
       },
@@ -2217,11 +2217,11 @@ export default {
     ],
     inputs: {
       tags: {
-        placeholder: "singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra. singan-javatra. Vaovao singan-javatra",
+        placeholder: "Ampidiro eto ary tsindrio ny Enter. ex. fanangonana vaovao",
       },
     },
     notifications: {
-      tags_updated: "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+      tags_updated: "Nohavaozina soa aman-tsara ny marika.",
     },
   },
 
@@ -2283,7 +2283,7 @@ export default {
       action_manage: "singan-javatra zavatra",
       action_disable_msg: "-tsena TOMPON'NY",
       select_items_tips:
-        "MANANGANA singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny Ny vokatra singan-javatra ny. singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra mpanjifa singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ny zavatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra ny Ny mpanjifa ny singan-javatra Ny singan-javatra singan-javatra, singan-javatra ho singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Mamorona na mifidiana singa fonosana izay miaraka amin'ny vokatra na serivisy. Ampiasao ity endri-javatra ity mba hanamafisana izay azon'ny mpanjifa andrasana ho azo rehefa mividy ilay entana. Manoro hevitra ny hampiasa an'io fiasa io ihany izahay rehefa tena zava-dehibe amin'ny mpanjifa ny fahatakarana ny atiny, toy ny rehefa mividy smartphone.",
       create_item_tips:
         "singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra Vaovao zavatra. singan-javatra singan-javatra Sary, ho singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra SARY ny singan-javatra 256singan-javatra256 singan-javatra singan-javatra. ny singan-javatra singan-javatra Bika Aman 'endrika singan-javatra rehetra singan-javatra, singan-javatra singan-javatra Sary ny mangarahara singan-javatra sy singan-javatra singan-javatra singan-javatra singan-javatra ny rehetra ny vokatra.",
       create_new_item_action: "MANANGANA Vaovao singan-javatra zavatra",
@@ -2447,7 +2447,7 @@ export default {
         variables: {
           title: "singan-javatra singan-javatra",
           subtitle:
-            "singan-javatra singan-javatra singan-javatra loko fehezan-dalàna, singan-javatra.singan-javatra., <b>#654singan-javatra</b>, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra.singan-javatra., <b>#764singan-javatra/#000000</b>.",
+            "Ampidiro kaody loko hex, ohatra, <b>#654FFF</b>, na loko roa sarahin'ny slash, ohatra, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
             "singan-javatra singan-javatra singan-javatra singan-javatra sarobidy ny Ny singan-javatra, singan-javatra Sary singan-javatra <b>singan-javatra singan-javatra</b>. ampidiro singan-javatra singan-javatra sy singan-javatra Ny singan-javatra fehezan-dalàna ny Ny singan-javatra.",
           graphical_asset_action: "singan-javatra singan-javatra",
@@ -2459,7 +2459,7 @@ export default {
         },
         quantity: {
           title: "lisitra",
-          subtitle: "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra.",
+          subtitle: "Mametraha haavon'ny tahiry ho an'ny variana tsirairay.",
         },
         price: {
           title: "singan-javatra",
@@ -2553,11 +2553,11 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "singan-javatra SARY singan-javatra singan-javatra",
-      placeholder: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra...",
-      success_update_notification: "singan-javatra singan-javatra singan-javatra singan-javatra.",
+      placeholder: "Mampidira lahatsoratra alt descriptive...",
+      success_update_notification: "Nohavaozina soa aman-tsara ny lahatsoratra alt.",
     },
     dialog_bg_remove: {
-      title: "singan-javatra singan-javatra singan-javatra singan-javatra",
+      title: "Esory ho azy ny background",
       action: {
         title: "Esory ny lafika",
         subtitle: "MANANGANA singan-javatra mangarahara lafika.",
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b>singan-javatra singan-javatra singan-javatra:</b><br />ampidiro singan-javatra singan-javatra zavatra Sary singan-javatra. ny singan-javatra singan-javatra Sary ho singan-javatra singan-javatra singan-javatra, singan-javatra <b>{filename}</b> singan-javatra Ny singan-javatra sarobidy. Fanamarihana singan-javatra singan-javatra fehezan-dalàna singan-javatra singan-javatra ampiasaina singan-javatra Ny <b><s>loko</s></b> sarobidy.",
       how_set_name:
-        "<b>singan-javatra singan-javatra:</b><br />Ny singan-javatra 12 singan-javatra ny Ny singan-javatra rakitra Anarana singan-javatra singan-javatra ampiasaina ho Ny singan-javatra Anarana. singan-javatra singan-javatra ny singan-javatra ny singan-javatra singan-javatra singan-javatra ny singan-javatra vokatra, singan-javatra ho singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra. ny singan-javatra Ny singan-javatra ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra Sary singan-javatra singan-javatra Ny ny ny singan-javatra singan-javatra ny singan-javatra singan-javatra 100, singan-javatra ho singan-javatra singan-javatra Karazana ny singan-javatra.",
+        "<b>Torohevitra nomena anarana:</b><br />Ny tarehintsoratra 12 voalohany amin'ny anaran'ny rakitra nampidirina dia hampiasaina ho anaran'ny fananana. Ity endri-javatra ity dia mety tsara amin'ny fampisehoana ireo lafiny azo zahana amin'ny vokatra iray, toy ny haben'ny kodiarana ho an'ny môtô na ny lamina lamba. Mba hanamafisana ny fampiasana an'io endri-javatra io, aza hadino ny mampakatra sary variana eto raha tsy latsaky ny 100 ny isan'ny fananana sary, toy ny karazana hazo samihafa ho an'ny fanaka.",
     },
   },
 
@@ -2591,17 +2591,17 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "singan-javatra singan-javatra singan-javatra singan-javatra!",
+    duplicated_variant: "Efa misy io variana io!",
     set_color_warning: "singan-javatra singan-javatra singan-javatra loko.",
     set_volume_warning: "singan-javatra singan-javatra Ny boky.",
     set_pack_warning: "singan-javatra singan-javatra Ny singan-javatra Ny.",
     set_weight_warning: "singan-javatra singan-javatra Ny lanja.",
-    set_type_warning: "singan-javatra singan-javatra singan-javatra singan-javatra.",
-    set_style_warning: "singan-javatra singan-javatra singan-javatra singan-javatra.",
+    set_type_warning: "Mifidiana karazana iray azafady.",
+    set_style_warning: "Mifidiana fomba iray azafady.",
     out_of_stock: "singan-javatra singan-javatra ny singan-javatra",
 
     image: {
-      tooltip: "⚡ singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra SARY singan-javatra ny singan-javatra singan-javatra ny Ny singan-javatra.",
+      tooltip: "⚡ Tariho ary ampidino eto ny sary iray hanendry azy amin'ny variana.",
     },
     enable: {
       true_tooltip: "singan-javatra zavatra ny singan-javatra singan-javatra Ny singan-javatra fivarotana.",
@@ -2609,7 +2609,7 @@ export default {
     },
     restore_dialog: {
       title: "singan-javatra singan-javatra",
-      message: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra nofafana singan-javatra?",
+      message: "Tena te hamerina an'io variana voafafa io ve ianao?",
       action: "eny, singan-javatra singan-javatra",
     },
     notifications: {
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "singan-javatra afa-tsy",
-    auto_save_input_message: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+    auto_save_input_message: "Ho voatahiry ho azy ny fiovana.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2828,7 +2828,7 @@ export default {
       },
 
       config_step: {
-        import_config: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra vavahady",
+        import_config: "Azonao atao ny manafatra config avy amin'ny vavahady hafa mitovy",
         import_from: "singan-javatra singan-javatra",
       },
 
@@ -2840,15 +2840,15 @@ export default {
 
       inputs: {
         currency: {
-          placeholder: "singan-javatra singan-javatra singan-javatra ny singan-javatra...",
+          placeholder: "Misafidiana vavahady hanafatra...",
         },
         manual: {
           true_title: "singan-javatra maody",
-          true_description: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+          true_description: "Azonao atao ny mametraka ny fandrindrana vavahady amin'ny tanana.",
 
           false_title: "singan-javatra singan-javatra",
           false_description:
-            "Ny singan-javatra singan-javatra singan-javatra singan-javatra ny Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+            "Ny rafitra dia hifandray ho azy amin'ny vavahady raha toa ianao ka efa manana vavahady voarindra.",
         },
       },
     },
@@ -3482,7 +3482,7 @@ export default {
       total_order_price_before_tax: "Vidiny Total alohan'ny hetra",
 
       user_payment_amount: "Vola aloa amin'ny mpividy",
-      samin_wage: "Selldone Fee",
+      samin_wage: "Seldone Fee",
       pay_cod_dialog: {
         title: "Nahazo vola ve ianao?",
         message:
@@ -3712,7 +3712,7 @@ export default {
 
     manual_title: "singan-javatra / singan-javatra singan-javatra 💳 Fandoavana",
     manual_message:
-      "singan-javatra singan-javatra MANANGANA singan-javatra 💳 Fandoavana, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Eo singan-javatra singan-javatra 💳 Fandoavana singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra. ny singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra 💳 Fandoavana singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra Ny singan-javatra singan-javatra Ny singan-javatra singan-javatra singan-javatra.",
+      "Rehefa mamorona fandoavam-bola ianao dia azonao atao ny mitazona ny fomba fandoavam-bola azo atao mba hamandrika vola azonao alaina any aoriana. Ohatra, matetika ny trano fandraisam-bahiny no manome alalana handoavana feno alohan'ny hahatongavan'ny vahiny, ary alaivo ny vola rehefa mivoaka ilay vahiny.",
 
     gateway_status: "sata",
     wallet: "Wallet blockchain",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "singan-javatra singan-javatra",
-        message: "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        message: "Nampidirina soa aman-tsara ny mpikambana ao amin'ny ekipa.",
       },
       update_success: {
         title: "singan-javatra singan-javatra",
-        message: "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        message: "Nohavaozina soa aman-tsara ny mombamomba ny mpikambana ao amin'ny ekipa.",
       },
     },
     actions: {
@@ -4267,7 +4267,7 @@ export default {
     inputs: {
       note: {
         message: "singan-javatra singan-javatra ny Ny mpivarotra.",
-        placeholder: "singan-javatra singan-javatra singan-javatra singan-javatra Fanamarihana singan-javatra...",
+        placeholder: "Azonao atao ny mametraka naoty eto...",
       },
       amount: {
         error_message: "Ny singan-javatra vola singan-javatra singan-javatra singan-javatra.",
@@ -4864,7 +4864,7 @@ export default {
     },
     "backoffice:giftcard:write": {
       name: "singan-javatra singan-javatra singan-javatra-singan-javatra fitantanana",
-      description: "MANANGANA sy singan-javatra singan-javatra singan-javatra singan-javatra-singan-javatra.",
+      description: "Mamorona sy mitantana karatra fanomezana.",
     },
     "backoffice:giftcard:read": {
       name: "singan-javatra singan-javatra singan-javatra-singan-javatra fidirana",
@@ -5074,7 +5074,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "singan-javatra fitantanana",
-      description: "singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra.",
+      description: "Tantano ny famatsiam-bola, ao anatin'izany ny programa fandefasana.",
     },
     "selldone:identification": {
       name: "singan-javatra fidirana",
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "singan-javatra",
-      description: "singan-javatra singan-javatra ny singan-javatra singan-javatra Ny singan-javatra.",
+      description: "Saika isan-karazany tsy voafaritra ao amin'ny rafitra.",
     },
     vendor: {
       title: "mpivarotra",
@@ -5313,7 +5313,7 @@ export default {
     Banned: "voarara",
     Payment: "FANOMEZANA",
     SelldoneSprite: "Kaonty Wallet Selldone",
-    SelldoneStorage: "Selldone Storage",
+    SelldoneStorage: "Seldone Storage",
   },
   /** {@see BPageAccount} **/
   account_page: {
@@ -5574,7 +5574,7 @@ export default {
         "OAuth Store Access Keys, TENA MANOKANA fidirana singan-javatra sy mifandray app.",
 
       security: "ARO",
-      security_subtitle: "singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra Hiditra singan-javatra.",
+      security_subtitle: "Mametraha lafin-javatra roa ary tantano ny safidy fidirana sosialy.",
 
       preferences: "Safidin'ny mpampiasa",
       preferences_subtitle:
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Tantara novidina",
       subtitle:
-        "Fahazoan-dàlana mavitrika sy miandry.",
+        "Ity dia lisitry ny fahazoan-dàlana mavitrika sy mbola miandry. Afaka mividy tolotra ianao aorian'ny famatsiam-bola ny kitaponao. Fanampin'izay, mariho azafady fa rehefa manafoana ny famandrihana ianao dia haverina amin'ny kitapom-bola virtoaly ny sandan'ny famandrihana ambiny.",
     },
     license_detail: {
       title: "tsipiriany",
       subtitle:
-        "Mametra ny drafitrao ankehitriny.",
+        "Ireo no fetran'ny drafitrao ankehitriny. Raha mila fanazavana fanampiny, tsidiho azafady ny pejy momba ny vidiny. Azonao atao ny miditra amin'ny endri-javatra rehetra amin'ny drafitra rehetra, ao anatin'izany ny drafitra maimaim-poana, hanombohana ny orinasanao sy hitombo. Rehefa manitatra ny orinasanao ianao, dia diniho ny fanavaozana ny drafitra avo lenta mba hampidina ny saram-pandraharahanao.",
     },
 
     table: {
@@ -5814,7 +5814,7 @@ export default {
     sku_name_input: "SKU / Anarana",
     info: {
       subtitle:
-        "ny singan-javatra Ny vokatra, singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra tsipiriany singan-javatra ny singan-javatra singan-javatra.",
+        "Mba hamoronana ny vokatra dia tsy afaka miditra afa-tsy ny antsipiriany ilaina amin'ny famoronana azy ianao.",
     },
     price: {
       subtitle:
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Lisitra singan-javatra vokatra Eo Selldone, singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra. singan-javatra singan-javatra-singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra, singan-javatra singan-javatra singan-javatra sy singan-javatra ny singan-javatra singan-javatra sy singan-javatra.",
+      "Eto ianao dia afaka mahita mpivarotra ambongadiny izay mitanisa ny vokatra ao amin'ny Selldone, manome azy ireo ho an'ny mpivarotra hafa. Manamora ny fizotrany ny sehatra dropshipping naorina ao Selldone, ka mahatonga azy ho mora sy mahitsy ho an'ny mpivarotra ambongadiny sy mpivarotra.",
   },
 
   /** @see Affiliates **/
@@ -5898,7 +5898,7 @@ export default {
     payment: {
       title: "💳 Fandoavana singan-javatra",
       subtitle:
-        "singan-javatra Ny singan-javatra singan-javatra ny Ny singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra sy singan-javatra-singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra vokatra.",
+        "Apetraho ny rafitry ny vaomiera ho an'ny Affiliate. Azonao atao ny manambatra komisiona raikitra sy mifototra amin'ny isan-jato, na mametraka komisiona manokana ho an'ny vokatra tsirairay.",
     },
 
     contact: {
@@ -5909,7 +5909,7 @@ export default {
     restriction: {
       title: "singan-javatra singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra vokatra singan-javatra singan-javatra ny singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra vokatra.",
+        "Farito hoe inona ny vokatra azo raisina ho komisiona. Azonao atao ny mametra ny komisiona amin'ny vokatra sasany.",
     },
 
     link_domain: {
@@ -5920,7 +5920,7 @@ export default {
       domain_not_approved_msg: "Ny domena singan-javatra ny singan-javatra singan-javatra singan-javatra!",
       domain_is_not_enable_msg: "Ny domena ny ny singan-javatra!",
       domain_is_linked_to_other_affiliate_msg:
-        "singan-javatra domena ny singan-javatra singan-javatra ny singan-javatra singan-javatra!",
+        "Ity sehatra ity dia efa mifandray amin'ny mpiara-miasa hafa!",
     },
 
     set_users_first_message: "singan-javatra singan-javatra Ny mpampiasa singan-javatra!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra Harena singan-javatra singan-javatra singan-javatra.",
+        "Ampifandraiso amin'ny cluster ity mpiara-miasa ity mba hitantana azy miaraka amin'ireo loharano hafa amin'ny toerana iray.",
       manage_action: "singan-javatra",
     },
 
@@ -5940,26 +5940,26 @@ export default {
     inputs: {
       name: {
         label: "singan-javatra ny Anarana",
-        message: "singan-javatra.singan-javatra., singan-javatra singan-javatra, singan-javatra orinasa, X singan-javatra, singan-javatra.",
+        message: "ohatra, John Doe, Alex Company, X Marketers, sns.",
       },
       commission: {
         label: "singan-javatra singan-javatra",
         false_description:
-          "singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra sy singan-javatra singan-javatra.",
+          "Kajy amin'ny fampiasana fitambaran'ny komisiona raikitra sy isan-jato.",
         true_description:
-          "singan-javatra singan-javatra vokatra-singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra.",
+          "Kajy amin'ny fampiasana komisiona manokana momba ny vokatra napetraka ao amin'ny tabilao vidin'ny entana.",
         false_title: "singan-javatra + singan-javatra singan-javatra",
         true_title: "vokatra-singan-javatra singan-javatra",
       },
       user: {
         label: "mpampiasa (singan-javatra)",
-        message: "singan-javatra, singan-javatra.singan-javatra., singan-javatra Anarana singan-javatra Selldone",
+        message: "Azo atao, ohatra, ny anarana mifandray amin'ny Seldone",
       },
       web: {
-        placeholder: "singan-javatra, singan-javatra.singan-javatra., singan-javatra-singan-javatra.singan-javatra",
+        placeholder: "Tsy voatery, ohatra, affiliate-web.com",
       },
       address: {
-        placeholder: "singan-javatra, singan-javatra.singan-javatra., 1200 singan-javatra, NY, singan-javatra US",
+        placeholder: "Optional, e.g., 1200 POX, NY, USA",
       },
       tel: {
         placeholder: "singan-javatra, singan-javatra.singan-javatra., 001-808-210354",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny Miantsena. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Azonao atao ny mandamina ny trosa tsy mbola voaloa miaraka amin'ny Affiliate alohan'ny hanesorana azy ireo amin'ny fivarotanao. Mbola azo idirana mandritra ny fotoana voafetra ny fampahafantarana momba ny Affiliate aorian'ny famafana.",
     },
   },
 
@@ -6006,7 +6006,7 @@ export default {
       "singan-javatra singan-javatra singan-javatra (singan-javatra singan-javatra fahan'ny endrika) ny singan-javatra vokatra, singan-javatra mpanjifa ny singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra. Ny singan-javatra singan-javatra singan-javatra singan-javatra Ny vidiny singan-javatra Eo Ny fanao singan-javatra.",
     add_valuation_action: "MANANGANA Vaovao singan-javatra endrika",
     empty_message:
-      "singan-javatra ny singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra tsotra vokatra.",
+      "Raha tokony hamorona karazany maro, dia diniho ny famolavolana paikady fanombanana izay azo ampiharina amin'ny vokatra tsotra.",
     delete_dialog: {
       title: "singan-javatra esory",
       message:
@@ -6052,7 +6052,7 @@ export default {
     inputs: {
       title: {
         message: "singan-javatra lohateny ny ny singan-javatra ny mpanjifa.",
-        placeholder: "singan-javatra singan-javatra Anarana ny singan-javatra, singan-javatra.singan-javatra., 'singan-javatra singan-javatra",
+        placeholder: "Ampidiro anarana ho an'ny vidin'ny vidiny, ohatra, 'Vidiny Mugs'",
       },
     },
     samples: {
@@ -6179,7 +6179,7 @@ export default {
       duration: {
         title: "Faharetana fetra",
         subtitle:
-          "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra-singan-javatra singan-javatra-singan-javatraàsingan-javatra ny singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra Faharetana singan-javatra.",
+          "Raha te hampavitrika kaody fihenam-bidy ho an'ny fe-potoana voafaritra ianao dia azonao atao ny mametraka izany faharetana izany eto.",
       },
       design: {
         subtitle:
@@ -6187,7 +6187,7 @@ export default {
       },
       cluster: {
         subtitle:
-          "singan-javatra singan-javatra singan-javatra singan-javatra-singan-javatra singan-javatra-singan-javatraàsingan-javatra ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Harena singan-javatra singan-javatra singan-javatra Toerana.",
+          "Amin'ny fampifandraisana an'io kaody fihenam-bidy io amin'ny cluster, azonao atao ny mitantana azy mora foana miaraka amin'ireo loharano hafa amin'ny toerana tokana.",
       },
     },
     delete_alert: {
@@ -6325,7 +6325,7 @@ export default {
     },
     duration: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra tapakila ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra Ny Faharetana singan-javatra singan-javatra singan-javatra.",
+        "Raha tianao ny hametraka fe-potoana manokana ho an'ny tapakila iray ho mavitrika dia azonao atao ny manitsy ny faharetan'ity fizarana ity.",
     },
     design: {
       subtitle:
@@ -6333,18 +6333,18 @@ export default {
     },
     constraints: {
       subtitle:
-        "singan-javatra, singan-javatra singan-javatra Ny singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra ny Ny tapakila.",
+        "Eto ianao dia afaka mametraka masontsivana manokana manokana ho an'ny tapakila.",
       no_limit: "tsy misy singan-javatra mahasakana",
       has_limit: "singan-javatra singan-javatra",
       has_code_message: "mpampiasa singan-javatra singan-javatra Ny fehezan-dalàna ny ampio tapakila.",
     },
     club: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra ny singan-javatra mpanjifa singan-javatra.",
+        "Ny fampiasana ity tapakila ity dia azo ferana ho an'ny mpikambana ao amin'ny klioba mpanjifa voafidy.",
     },
     cluster: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra tapakila ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Harena singan-javatra singan-javatra singan-javatra Toerana.",
+        "Amin'ny fampifandraisana ity tapakila ity amin'ny cluster, dia azonao atao ny mitantana azy mora foana miaraka amin'ireo loharano hafa amin'ny toerana tokana.",
     },
     preview: {
       subtitle: "Ho Ny -bahoaka topi-maso ny Ny tapakila.",
@@ -6429,7 +6429,7 @@ export default {
     },
     duration: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra Tolotra, singan-javatra singan-javatra singan-javatra Ny Faharetana singan-javatra.",
+        "Raha te hametraka fe-potoana manokana ho an'ny tolotra ianao dia azonao atao ny manitsy ny faharetany eto.",
     },
     constraints: {
       subtitle:
@@ -6442,7 +6442,7 @@ export default {
     },
     cluster: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra Tolotra ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Harena singan-javatra singan-javatra singan-javatra Toerana.",
+        "Amin'ny fampifandraisana ity tolotra ity amin'ny kluster iray dia azonao atao ny mitantana azy mora foana miaraka amin'ireo loharano hafa amin'ny toerana tokana.",
     },
   },
 
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Fandresena amin'ny isan-jato",
     free_for_first: "Maimaimpoana ve izany ho an'ny mpanjifa vaovao?",
     free_for_first_message: "Afaka mahazo ity entana ity ny mpanjifa vaovao.",
-    not_free_for_first_message: "singan-javatra singan-javatra ny singan-javatra ny singan-javatra singan-javatra singan-javatra.",
+    not_free_for_first_message: "Ity loka ity dia tsy misy amin'ny lalao maimaim-poana voalohany.",
 
     amount: "Salanisan'ny loka",
     amount_hint: "Mahazo io sarany io ny mpampiasa amin'ny baikony.",
@@ -6621,12 +6621,12 @@ export default {
         "singan-javatra, singan-javatra singan-javatra Ny singan-javatra ny singan-javatra singan-javatra SARY sy loko ny Ny singan-javatra.",
     },
     constraints: {
-      subtitle: "singan-javatra Ny singan-javatra sy singan-javatra ny singan-javatra singan-javatra singan-javatra.",
+      subtitle: "Lazao ny fepetra sy ny fetra hahazoana ity loka ity.",
     },
     prize: {
       title: "singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra Ny singan-javatra tsipiriany singan-javatra. singan-javatra singan-javatra singan-javatra-singan-javatra singan-javatra-singan-javatraàsingan-javatra, singan-javatra singan-javatra singan-javatra-singan-javatra, singan-javatra, sy singan-javatra singan-javatra ho singan-javatra singan-javatra.",
+        "Apetraho eto ny antsipirian'ny loka. Ny safidy dia ahitana kaody fihenam-bidy, karatra fanomezana, crédit ary fihenam-bidy hafa ho valisoa loteria.",
     },
     product_input: {
       label: "vokatra singan-javatra",
@@ -7044,7 +7044,7 @@ export default {
         "ampidiro mpivarotra CSV singan-javatra singan-javatra. singan-javatra Ny singan-javatra ny singan-javatra sy singan-javatra ny ny fiainana manokana singan-javatra.",
       checklist: {
         title: "singan-javatra singan-javatra",
-        subtitle: "singan-javatra singan-javatra ny singan-javatra Ny singan-javatra.",
+        subtitle: "Aza hadino ny manaraka ny torolàlana.",
         sample_files: "singan-javatra singan-javatra",
         valid_vendor_name_needed:
           "singan-javatra singan-javatra singan-javatra singan-javatra <b>singan-javatra Anarana</b>. Ny <b>Anarana</b> ny ampiasaina ny singan-javatra singan-javatra ny <i>MANANGANA</i> singan-javatra Vaovao mpivarotra singan-javatra <i>vaovao farany</i> singan-javatra singan-javatra singan-javatra.",
@@ -7112,7 +7112,7 @@ export default {
     documents: {
       title: "singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra singan-javatra ny mpivarotra ny ampidiro singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra Ny singan-javatra singan-javatra singan-javatra.",
+        "Azonao atao ny mitaky ny mpivarotra anao hampiditra antontan-taratasy na hanao sonia fifanarahana sasany. Lazao eto ny antontan-taratasy ilaina.",
       add_document_action: "ampio singan-javatra singan-javatra",
     },
     inputs: {
@@ -7189,12 +7189,12 @@ export default {
       type: {
         title: "singan-javatra singan-javatra",
         subtitle:
-          "ampio singan-javatra singan-javatra singan-javatra zavatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra, singan-javatra singan-javatra ny ampidiro Ny singan-javatra singan-javatra.",
+          "Manampia singa fangatahana antontan-taratasy eto. Hiseho eo amin'ny tontolon'ny mpivarotra izany, hanosika azy ireo hampakatra ny antontan-taratasy ilaina.",
       },
       guide: {
         title: "singan-javatra",
         subtitle:
-          "singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra mpivarotra singan-javatra singan-javatra singan-javatra ny ampidiro sy singan-javatra ny singan-javatra singan-javatra singan-javatra.",
+          "Manomeza torolalana fohy hanampiana ireo mpivarotra hahatakatra hoe inona no antontan-taratasy hampakatra sy ny fomba hanaovana izany araka ny tokony ho izy.",
       },
       code: {
         title: "Ampidiro fehezan-dalàna",
@@ -7204,7 +7204,7 @@ export default {
       link: {
         title: "singan-javatra Rohy",
         subtitle:
-          "singan-javatra singan-javatra singan-javatra Rohy ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ny mpivarotra singan-javatra singan-javatra.",
+          "Manome rohy ivelany mankany amin'ny antontan-taratasy na fifanarahana izay tsy maintsy soniavin'ny mpivarotra.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "singan-javatra (singan-javatra)",
           placeholder:
-            "singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra rohy ny singan-javatra singan-javatra singan-javatra singan-javatra.",
+            "Raha azo atao, manomeza torolalana na torolalana fohy, ao anatin'izany ny rohy mankany amin'ny fifanarahana na antontan-taratasy hafa.",
         },
         code: {
           label: "Ampidiro fehezan-dalàna",
@@ -7223,7 +7223,7 @@ export default {
         },
         url: {
           label: "URL",
-          message: "singan-javatra Ny URL ny Ny singan-javatra singan-javatra singan-javatra singan-javatra...",
+          message: "Ampidiro eto ny URL momba ny antontan-taratasy na fifanarahana...",
         },
       },
     },
@@ -7256,7 +7256,7 @@ export default {
     Business: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ho singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra Ny singan-javatra sata ny ny singan-javatra.",
+        "Omeo antontan-taratasy manan-danja momba ny raharaham-barotra toy ny fahazoan-dàlana na taratasy fanamarinana fisoratana anarana hanamafisana ny sata ara-dalàna ny orinasanao.",
     },
     Address: {
       title: "adiresy singan-javatra",
@@ -7271,7 +7271,7 @@ export default {
     Copyright: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra ny singan-javatra singan-javatra singan-javatra.",
+        "Omeo antontan-taratasy fisoratana anarana momba ny zon'ny mpamorona mba hanamafisana ny zon'ny fanananao ara-tsaina.",
     },
     Privacy: {
       title: "ny fiainana manokana singan-javatra singan-javatra",
@@ -7281,12 +7281,12 @@ export default {
     Embed: {
       title: "singan-javatra endrika",
       description:
-        "singan-javatra Ny singan-javatra endrika ny singan-javatra Ny singan-javatra singan-javatra.",
+        "Fenoy ny taratasy mipetaka mba hanomezana ny fampahalalana ilaina.",
     },
     Link: {
       title: "singan-javatra Rohy",
       description:
-        "singan-javatra Ny singan-javatra Rohy ny singan-javatra Ny singan-javatra singan-javatra.",
+        "Araho ny rohy ivelany mba hanomezana ny fampahalalana ilaina.",
     },
   },
 
@@ -7356,7 +7356,7 @@ export default {
       },
       accept_delete: {
         true_description: "I singan-javatra ny Mamafa singan-javatra singan-javatra singan-javatra.",
-        true_title: "singan-javatra singan-javatra singan-javatra singan-javatra",
+        true_title: "Hamafiso ny fanesorana modely amin'ny vidiny",
       },
     },
   },
@@ -7421,7 +7421,7 @@ export default {
       payout_success: {
         title: "singan-javatra",
         message:
-          "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra sy singan-javatra.",
+          "Vita soa aman-tsara ny karaman'ny mpivarotra ary nampiana.",
       },
     },
   },
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "singan-javatra",
-    max_batch_msg: "singan-javatra ny ny zavatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
-    max_daily_limit_msg: "singan-javatra ny ny zavatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+    max_batch_msg: "Isan'ny entana ambony indrindra azonao ampidirina ao anaty andiany iray.",
+    max_daily_limit_msg: "Isan'ny entana ambony indrindra azonao ampidirina ao anatin'ny iray andro.",
     extra_daily_limit_msg: "singan-javatra zavatra singan-javatra singan-javatra Ny singan-javatra fetra.",
     add_items_today_msg: "zavatra singan-javatra ankehitriny.",
     file_statistic_msg: "antontan'isa ny singan-javatra rakitra.",
@@ -7613,7 +7613,7 @@ export default {
   b_shop_theme_typography: {
     main_font: {
       title: "singan-javatra singan-javatra singan-javatra",
-      subtitle: "singan-javatra ny singan-javatra singan-javatra singan-javatra Google singan-javatra.",
+      subtitle: "Fidio ny endri-tsoratra tianao indrindra amin'ny Google Fonts.",
     },
     inputs: {
       font_family: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "singan-javatra maody",
       description:
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra ny singan-javatra singan-javatra.",
+        "Variant compact amin'ny safidy misaraka azo fidina, mety amin'ny ankamaroan'ny tranga.",
     },
     select: {
       title: "singan-javatra maody",
       description:
-        "singan-javatra rehetra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra ny singan-javatra singan-javatra ny ny singan-javatra.",
+        "Mampiseho ny variana rehetra ao anaty fidinana, mety tsara ho an'ny variana marobe.",
     },
   },
 
@@ -7677,7 +7677,7 @@ export default {
     add_title: "ampio singan-javatra singan-javatra",
     config: {
       subtitle:
-        "singan-javatra lohateny sy FAMERENANA ny ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra.",
+        "Mametraha lohateny sy famaritana ho an'ny fanananao. Ho hitan'ny mpiasa ihany.",
     },
     variants: {
       title: "singan-javatra",
@@ -7705,7 +7705,7 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "singan-javatra singan-javatra singan-javatra... (singan-javatra)",
+        placeholder: "Mametraha soatoavina napetraka... (tsy voatery)",
         messages:
           "singan-javatra singan-javatra singan-javatra singan-javatra ny Ny singan-javatra sy singan-javatra 🛍️ Mandray commande.",
       },
@@ -7937,7 +7937,7 @@ export default {
     message_add_to_service:
       "Kitiho ity bokotra manaraka ity raha te handefa ity fonosana ity amin'ny <b>serivisy fanaterana</b> ianao.",
     courier_action: "singan-javatra singan-javatra",
-    courier_action_subtitle: "Ny singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra.",
+    courier_action_subtitle: "Ny mpitatitra ahy no haka ilay entana.",
 
     pickup_ready_action: "singan-javatra singan-javatra",
     pickup_ready_action_subtitle: "Ny 🛍️ Mandray commande ny singan-javatra ny mpanjifa singan-javatra.",
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra 2% singan-javatra singan-javatra ny singan-javatra.",
+        "Ao amin'ny Tier Bronze ianao. Nahazo komisiona 2% avy amin'ny referrals ianao.",
     },
     Silver: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra 4% singan-javatra singan-javatra ny singan-javatra.",
+        "Ao amin'ny Tier Silver ianao. Nahazo komisiona 4% avy amin'ny referrals ianao.",
     },
     Gold: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra 6% singan-javatra singan-javatra ny singan-javatra.",
+        "Ao amin'ny Gold Tier ianao. Nahazo komisiona 6% avy amin'ny referrals ianao.",
     },
     Platinum: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra 8% singan-javatra singan-javatra ny singan-javatra.",
+        "Ao amin'ny Platinum Tier ianao. Nahazo komisiona 8% avy amin'ny referrals ianao.",
     },
     Diamond: {
       title: "singan-javatra singan-javatra",
       description:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra 10% singan-javatra singan-javatra ny singan-javatra.",
+        "Ao amin'ny Diamond Tier ianao. Nahazo komisiona 10% avy amin'ny referrals ianao.",
     },
   },
 
@@ -8520,7 +8520,7 @@ export default {
     manage: {
       title: "singan-javatra SMS",
       subtitle:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra ny Ny singan-javatra singan-javatra Nalefa singan-javatra ny fivarotana singan-javatra. singan-javatra ny Ny mahasakana singan-javatra singan-javatra Ny singan-javatra singan-javatra singan-javatra Ny singan-javatra ny, singan-javatra ny ny singan-javatra ny singan-javatra Ny singan-javatra singan-javatra singan-javatra Ny singan-javatra.",
+        "Azonao jerena eto ny votoatin'ny hafatra an-tsoratra nalefan'ny fivarotanao. Noho ny famerana amin'ny fisoratana anarana ny lamina fanamarinana ao amin'ny serivisy fandefasana hafatra, dia tsy azo atao ny manao manokana ireo hafatra an-tsoratra amin'izao fotoana izao.",
     },
 
     template: {
@@ -8528,7 +8528,7 @@ export default {
       valid_message: "singan-javatra singan-javatra MANANGANA fanao SMS singan-javatra.",
       provider_not_enable_message: "Ny SMS singan-javatra ny ny singan-javatra!",
       need_custom_provider_message:
-        "singan-javatra SMS singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra fanao singan-javatra.",
+        "Hafatra SMS namboarina raha toa ka mametraka mpamatsy manokana ianao.",
       add_new: "ampio Vaovao",
       disable_reason: {
         set_provider: "singan-javatra ny singan-javatra singan-javatra!",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "asehoy singan-javatra singan-javatra",
 
       text_template_not_supported_msg:
-        "ny singan-javatra singan-javatra ny MANAMPY singan-javatra singan-javatra singan-javatra.",
+        "Tsy manohana hafatra an-tsoratra tsotra ny mpamatsy anao.",
       structure_template_not_supported_msg:
         "ny singan-javatra singan-javatra ny MANAMPY singan-javatra singan-javatra.",
 
@@ -8571,7 +8571,7 @@ export default {
         auto_fill: {
           title: "singan-javatra singan-javatra singan-javatra",
           subtitle:
-            "singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra Ny singan-javatra sy Selldone singan-javatra singan-javatra singan-javatra ny Ny singan-javatra sarobidy.",
+            "Azonao atao ny mampiasa ny tsirairay amin'ireo mari-pamantarana ireo ao amin'ny lahatsoratra ary i Selldone dia hanolo azy ireo amin'ny sanda mifanaraka amin'izany.",
         },
 
         sample: {
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "singan-javatra singan-javatra",
-      desc: "hAFATRA singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra sy Alefaso.",
+      desc: "Ny hafatra dia noforonina avy amin'ny lahatsoratra misy masontsivana fanoloana mandeha ho azy ary alefa.",
     },
     template: {
       title: "singan-javatra Endrika",
-      desc: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra sy Alefaso ny Ny singan-javatra.",
+      desc: "Hisy zavatra hoforonina avy amin'ny masontsivana ary halefa any amin'ny mpamatsy.",
     },
   },
 
@@ -8621,7 +8621,7 @@ export default {
     plain_text: "singan-javatra singan-javatra",
     structural_template: "singan-javatra Endrika",
     errors_limit_msg:
-      "singan-javatra ny ny singan-javatra 100 singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra! singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra-Tadiavo singan-javatra.",
+      "Raha mihoatra ny lesoka 100 ny serivisinao dia ho tapaka ho azy izany! Azonao atao ny mamerina ny lesoka mba ahafahana mamerina azy indray.",
 
     enable_input: {
       false_description:
@@ -8713,7 +8713,7 @@ export default {
 
     messages: {
       provider_error_limit:
-        "singan-javatra ny ny singan-javatra 100 singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra! singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra-Tadiavo singan-javatra.",
+        "Raha mihoatra ny lesoka 100 ny serivisinao dia ho tapaka ho azy izany! Azonao atao ny mamerina ny lesoka mba ahafahana mamerina azy indray.",
 
       encryption_ports_guide:
         "mailaka Mpanome singan-javatra Tolotra SSL, singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra Eo singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra Ny singan-javatra maody singan-javatra singan-javatra Ny singan-javatra. singan-javatra <b>singan-javatra</b> singan-javatra singan-javatra: <b>587</b> sy <b>SSL</b> singan-javatra singan-javatra: <b>465</b>.",
@@ -8801,7 +8801,7 @@ export default {
     service: {
       title: "Famolavolana serivisy",
       sub_title:
-        "singan-javatra singan-javatra ny ny singan-javatra sy singan-javatra Ny singan-javatra singan-javatra. ny singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Lisitra singan-javatra singan-javatra Ny mpanjifa ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Safidio aloha ny karazana serivisy ary ampidiro ny fampahalalana ilaina. Ohatra, azonao atao ny mamaritra ny lisitry ny todo na manontany ny mpanjifa momba ny fotoana famandrihana na fotoana iray.",
     },
   },
 
@@ -8946,7 +8946,7 @@ export default {
     notifications: {
       delete_success: "Voafafa soa aman-tsara ny rakitra.",
     },
-    drag_sort_msg: "singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra.",
+    drag_sort_msg: "Azonao atao ny misintona sy mandamina rakitra.",
     paid_mode_msg: "mpampiasa singan-javatra alaina singan-javatra singan-javatra singan-javatra singan-javatra Ny vokatra.",
     free_mode_msg:
       "mpampiasa singan-javatra alaina singan-javatra ny singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra 50 MB.",
@@ -8982,7 +8982,7 @@ export default {
     },
     zip_pin_code: "singan-javatra / singan-javatra singan-javatra",
     no_country_selected_error:
-      "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Firenena singan-javatra ny singan-javatra Lisitra ny singan-javatra/singan-javatra singan-javatra. singan-javatra singan-javatra, singan-javatra vokatra singan-javatra ny singan-javatra singan-javatra.",
+      "Azafady ampidiro firenena iray farafahakeliny miaraka amin'ny lisitry ny kaody zip/pin. Raha tsy misy an'io dia tsy hisy ity vokatra ity.",
     tips: "singan-javatra Eo Ny <b>+ ampio Firenena</b> bokotra ny fanombohana singan-javatra singan-javatra Vaovao Toerana singan-javatra. singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra afa-tsy singan-javatra singan-javatra singan-javatra Eo Ny singan-javatra-singan-javatra <b>⋮ sakafo</b> sy singan-javatra <b>afa-tsy TANTARANY</b>.",
     need_save_message:
       "Ny Toerana singan-javatra Fikirana ny Ny vokatra singan-javatra singan-javatra singan-javatra. ny singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra Eo Ny 'afa-tsy bokotra singan-javatra.",
@@ -8990,7 +8990,7 @@ export default {
     add_dialog: {
       title: "ampio Firenena",
       message:
-        "singan-javatra singan-javatra Firenena sy singan-javatra 'ampio. singan-javatra singan-javatra singan-javatra Ny Firenena ny Ny tabilao, singan-javatra singan-javatra ny singan-javatra singan-javatra, singan-javatra singan-javatra, singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra ny singan-javatra.",
+        "Mifidiana firenena iray ary tsindrio ny 'Add'. Hampiditra ny firenena amin'ny latabatra izany, ahafahanao manendry Zipcodes, kaody Pin, anaran-tanàna, na anaran'ny Faritra ho azy.",
     },
     save_profile_dialog: {
       title: "ampio TOERANA TANTARANY",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "singan-javatra TOERANA TANTARANY",
       message:
-        "singan-javatra singan-javatra singan-javatra TOERANA singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Toerana singan-javatra singan-javatra.",
+        "Azonao atao ny mampiditra toerana amin'ny fisafidianana toerana voatahiry teo aloha napetraka eto.",
 
       select_input: {
         title: "Toerana TANTARANY",
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "singan-javatra fivarotana",
       subtitle:
-        "singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra fivarotana. singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra Ny singan-javatra singan-javatra singan-javatra singan-javatra fivarotana. singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Filaharana singan-javatra singan-javatra TENA MANOKANA singan-javatra, ho singan-javatra tahirin-kevitra singan-javatra singan-javatra singan-javatra ny Ny -bahoaka. singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra, singan-javatra singan-javatra Ny fivarotana sy singan-javatra singan-javatra singan-javatra ny us ny singan-javatra singan-javatra.",
+        "Eto ianao dia afaka mahita fivarotana santionany voafantina. Omena alalana hamaky ny vaovao hita ao amin'ireo fivarotana ireo ianao. Na izany aza, aza misalasala miditra na mametraka baiko amin'ny fampiasana ny mombamomba ny tena manokana, satria ho azon'ny besinimaro io data io. Raha ampidirinao tsy nahy eto ny mombamomba anao, miangavy anao hiala amin'ny fivarotana ary mifandraisa aminay raha mila fanampiana fanampiny.",
     },
 
     add_new_store: "ampio Vaovao fivarotana",
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Alefaso singan-javatra singan-javatra",
     message:
-      "singan-javatra ny singan-javatra 3 singan-javatra singan-javatra ny singan-javatra sy singan-javatra Eo Selldone. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra sy singan-javatra sy singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra vaovao farany ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+      "Fantaro ny orinasanao 3 ambony indrindra mila miroborobo sy mahazo tombony amin'ny Seldone. Hozaraina mivantana amin’ny mpanorina sy ny tale izany vaovao izany ary hodinihina tsara. Azonao atao koa ny manavao ny zavatra ilainao rehefa mandeha ny fotoana aorian'ny fandefasana.",
     expand_action: "singan-javatra Ny singan-javatra...",
     input_label: "ny singan-javatra",
     to: {
@@ -9504,7 +9504,7 @@ export default {
     },
     placeholder: {
       ceo: "singan-javatra tsy misy singan-javatra ny singan-javatra singan-javatra, I toy ny ny singan-javatra ny singan-javatra, singan-javatra-ny-Ny-singan-javatra singan-javatra.\nsingan-javatra.singan-javatra. I singan-javatra ny singan-javatra...",
-      team: "singan-javatra singan-javatra ny singan-javatra singan-javatra ny singan-javatra.\nsingan-javatra.singan-javatra. I singan-javatra ny singan-javatra...",
+      team: "Miezaha mba ho tsara fanahy amin'izy ireo.\noh. Mila manana...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "singan-javatra singan-javatra vokatra",
     message:
-      "singan-javatra singan-javatra singan-javatra Ny singan-javatra ny singan-javatra vokatra sy Sary, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra.",
+      "Eo am-panafarana vokatra sy sary izahay, izay mety haharitra elaela vao vita.",
   },
 
   /**
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "singan-javatra singan-javatra",
         subtitle:
-          "singan-javatra singan-javatra tsipiriany. singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+          "Ny antsipirian'ny fandrindrana anatiny. Ity fampahalalana ity dia voatahiry rehefa tapitra ny vanim-potoanan'ny fandrindrana.",
         no_data: "tsy misy singan-javatra singan-javatra!",
       },
     },
@@ -9595,7 +9595,7 @@ export default {
       service: {
         title: "ny",
         subtitle:
-          "singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra, singan-javatra -tsena ny singan-javatra.",
+          "Misafidiana sehatra kendrena, mpamatsy dropshipping, na tsena hifandraisana.",
       },
       test: {
         false_title: "singan-javatra rehetra",
@@ -9640,7 +9640,7 @@ export default {
           "singan-javatra Ny Fandefasana singan-javatra singan-javatra, singan-javatra Miantsena > pitaovana > singan-javatra ny rehetra vokatra, singan-javatra singan-javatra singan-javatra.",
         true_title: "singan-javatra Fandefasana",
         true_desc:
-          "singan-javatra Ny Fandefasana singan-javatra singan-javatra API singan-javatra singan-javatra singan-javatra ny.",
+          "Ampiasao ny API kajy ny tahan'ny fandefasana omen'ity serivisy ity.",
       },
 
       remove: {
@@ -9662,7 +9662,7 @@ export default {
       auto_confirm: "singan-javatra singan-javatra",
       shipping: "Fandefasana",
       syncing_now: "singan-javatra singan-javatra!",
-      sync_not_started: "singan-javatra singan-javatra ny singan-javatra singan-javatra!",
+      sync_not_started: "Mbola tsy nanomboka ny sync!",
     },
   },
 
@@ -9799,13 +9799,13 @@ export default {
       subtitle: "ampio singan-javatra singan-javatra tenifototra ny ny singan-javatra ny Google karohy singan-javatra singan-javatra.",
       code: {
         label: "singan-javatra singan-javatra tenifototra",
-        placeholder: "singan-javatra singan-javatra, singan-javatra.singan-javatra. singan-javatra9singan-javatra...",
+        placeholder: "Avy amin'ny google, oh. viQg9mjdBj...",
       },
     },
     serp: {
       title: "Google singan-javatra & singan-javatra ERP",
       subtitle:
-        "singan-javatra singan-javatra Ny singan-javatra singan-javatra SEO singan-javatra tahirin-kevitra singan-javatra Google sy singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra Ny singan-javatra singan-javatra.",
+        "Mahazo ny angon-drakitra fanamarinana SEO marina indrindra avy amin'ny Google izahay ary manolotra izany aminao amin'ny fomba mety. Araho tsotra izao ny dingana nomena.",
     },
     serp_content: {
       title: "Connect ny Google karohy singan-javatra",
@@ -9813,7 +9813,7 @@ export default {
         "Connect ny Miantsena ny Ny karohy singan-javatra sy fanombohana singan-javatra singan-javatra, singan-javatra, sy singan-javatra singan-javatra SEO Fitaovana Eo Selldone.",
       tips: {
         title:
-          "singan-javatra ny singan-javatra Selldone ny Google karohy singan-javatra, singan-javatra Ny singan-javatra:",
+          "Alohan'ny hampifandraisana an'i Selldone amin'ny Google Search Console dia alaivo antoka ireto manaraka ireto:",
         add_in_selldone: "ampio, singan-javatra, sy singan-javatra ho Kilonga ny fanao domena.",
         add_in_google: "ampio sy singan-javatra <b>{domain}</b> singan-javatra ny<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google karohy singan-javatra</b></a>.",
       },
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "sokajy singan-javatra",
     delete_alert: {
       title: "Mamafa singan-javatra singan-javatra",
-      message: "singan-javatra singan-javatra singan-javatra ny Mamafa singan-javatra singan-javatra singan-javatra?",
+      message: "Azo antoka fa hamafa an'ity programa cashback ity ve ianao?",
       action: "Eny, vonoy izao",
     },
     notifications: {
@@ -9893,7 +9893,7 @@ export default {
     },
     percent_input: {
       title: "singan-javatra singan-javatra",
-      message: "singan-javatra Ny singan-javatra singan-javatra singan-javatra 1% ny 20%.",
+      message: "Ampidiro ny isan-jaton'ny cashback avy amin'ny 1% ka hatramin'ny 20%.",
     },
     currency_input: {
       message: "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ho ny singan-javatra Sandam-bola.",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Faharetana fetra",
-      subtitle: "singan-javatra Faharetana ny singan-javatra singan-javatra. singan-javatra singan-javatra.",
+      subtitle: "Mametraha faharetan'ny programa cashback. Tsy voatery.",
     },
     start_input: {
       title: "fanombohana Daty",
@@ -9926,7 +9926,7 @@ export default {
       title: "FAMERENANA",
     },
     constraints: {
-      subtitle: "singan-javatra Ny singan-javatra ny Ny singan-javatra singan-javatra.",
+      subtitle: "Apetraho ny teritery ho an'ny programa cashback.",
     },
     min_purchase_input: {
       hint: "singan-javatra Ny singan-javatra levitra vola ny singan-javatra singan-javatra.",
@@ -9943,22 +9943,22 @@ export default {
       false_title: "rehetra mpanjifa",
       true_title: "singan-javatra mpanjifa",
       true_msg:
-        "Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ho ny Ny mpanjifa singan-javatra singan-javatra singan-javatra.",
+        "Ny programa cashback dia ho an'ny mpanjifa mahafeno fepetra ihany.",
     },
     club: {
       subtitle:
-        "singan-javatra Ny singan-javatra ny Ny singan-javatra singan-javatra. Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ho ny Ny mpanjifa singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Apetraho ny klioba ho an'ny programa cashback. Ny programa famerenam-bola dia azo alaina ho an'ireo mpanjifa ao amin'ity klioba ity.",
     },
     cluster: {
       subtitle:
-        "singan-javatra singan-javatra singan-javatra singan-javatra ny Ny singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra Bebe kokoa.. singan-javatra.",
+        "Amin'ny fampifandraisana ny cluster amin'ny programa cashback, azonao atao ny mitantana azy io amin'ny fomba mahomby kokoa.",
     },
     notifications: {
-      add: "singan-javatra singan-javatra singan-javatra singan-javatra.",
-      edit: "singan-javatra singan-javatra singan-javatra singan-javatra.",
+      add: "Niampy soa aman-tsara ny programa Cashback.",
+      edit: "Nohavaozina soa aman-tsara ny programa Cashback.",
     },
     enable_input: {
-      true_msg: "Ny singan-javatra singan-javatra ny singan-javatra sy mpanjifa singan-javatra singan-javatra singan-javatra.",
+      true_msg: "Mavitrika ny programa cashback ary afaka mampiasa izany ny mpanjifa.",
       false_msg:
         "Ny singan-javatra singan-javatra ny tsy mavitrika sy mpanjifa singan-javatra ny singan-javatra singan-javatra.",
     },
@@ -9979,11 +9979,11 @@ export default {
     actions: {
       refund: {
         title: "singan-javatra 💳 Fandoavana",
-        subtitle: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        subtitle: "Ny famerenam-bola ampahany na feno dia tohanana.",
       },
       delivery: {
         title: "singan-javatra Eo singan-javatra",
-        subtitle: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny 💳 Fandoavana singan-javatra.",
+        subtitle: "Azonao atao ny manamarina ny fanaterana ho an'ny mpamatsy vola.",
       },
     },
   },
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "singan-javatra singan-javatra",
       description:
-        "I singan-javatra singan-javatra Ny singan-javatra vola ny singan-javatra sy I singan-javatra ny singan-javatra.",
+        "Manamafy aho fa marina ny vola naverina ary te-hiroso aho.",
     },
     action: "singan-javatra singan-javatra",
   },
@@ -10041,7 +10041,7 @@ export default {
       },
       list: {
         title: "singan-javatra vokatra",
-        subtitle: "singan-javatra vokatra singan-javatra singan-javatra singan-javatra ny singan-javatra-singan-javatra singan-javatra.",
+        subtitle: "Ity vokatra ity dia nofantenana ho an'ny fampiroboroboana varotra.",
         manage_product: "singan-javatra vokatra",
       },
       discount: {
@@ -10078,13 +10078,13 @@ export default {
     variants: {
       title: "singan-javatra singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny MANANGANA singan-javatra.",
+        "Misafidiana safidy variana roa. Aorian'ny fifantenana dia azonao atao ny misafidy izay variana manokana hamorona ho azy.",
     },
     values: {
       title: "singan-javatra singan-javatra",
-      subtitle: "singan-javatra Ny singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra.",
+      subtitle: "Ampidiro eto ny sanda mety ho an'ny safidy variana tsirairay.",
       prevent_duplicates_tips:
-        "<b>Fanamarihana:</b> singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra ny singan-javatra singan-javatra.",
+        "<b>Fanamarihana:</b> Manamarina ho azy ny variana efa misy izahay mba hisorohana ny dika mitovy.",
     },
     inventory: {
       title: "singan-javatra lisitra",
@@ -10121,9 +10121,9 @@ export default {
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "singan-javatra vokatra singan-javatra singan-javatra singan-javatra singan-javatra <b>{name}</b>.",
-      enable_msg: "singan-javatra singan-javatra ny singan-javatra ny ny singan-javatra.",
-      disable_msg: "singan-javatra singan-javatra ny singan-javatra ny ny singan-javatra.",
+      subtitle: "Nampiana ity vokatra ity tamin'ny alalan'ny <b>{name}</b>.",
+      enable_msg: "Ity tetezana mankany amin'ny serivisy ivelany ity dia alefa.",
+      disable_msg: "Ity tetezana mankany amin'ny serivisy ivelany ity dia kilemaina.",
       has_shipping_msg:
         "{name} dia manohana ny fandefasana. Noho izany dia azonao atao ny mampandeha ny kajy fandefasana mandeha ho azy amin'ny alalan'i {name} eo amin'ny pejin'ny fandoavana.",
     },
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "ny singan-javatra",
       },
       available_countries_msg:
-        "singan-javatra singan-javatra singan-javatra ny {count} singan-javatra. singan-javatra singan-javatra singan-javatra {countries}.",
+        "Miantsena maneran-tany voafetra any amin'ny firenena {count}. Ireo firenena ireo dia {countries}.",
       disable_for_all_countries_msg:
         "singan-javatra ny singan-javatra ny rehetra singan-javatra singan-javatra ny Miantsena > TOERANA toerana.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "singan-javatra singan-javatra singan-javatra Ampidiro singan-javatra vokatra singan-javatra singan-javatra Lisitra ny vokatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra Pejy singan-javatra singan-javatra singan-javatra sy singan-javatra Ny singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra tolotra singan-javatra singan-javatra, singan-javatra singan-javatra drafitra ny singan-javatra Bebe kokoa.. singan-javatra sy singan-javatra singan-javatra singan-javatra Ny singan-javatra.",
+      "Azonao atao ny mampiditra mora foana vokatra na lisitry ny vokatra ao amin'ny blôginao na pejy web hafa amin'ny alàlan'ny kopia sy apetaka fotsiny ny kaody omenay. Na dia mbola eo am-piandohana aza ity endri-javatra ity, dia miasa am-pahavitrihana izahay hanitarana ny fampiasany mihoatra noho ny misy any an-kafa amin'izao fotoana izao. Na dia manolotra fahaiza-manao voafetra aza izy amin'izao fotoana izao, dia manana drafitra ny hampiditra modely sy safidy fanamboarana bebe kokoa amin'ny ho avy.",
     card: {
       title: "singan-javatra",
       description:
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "vokatra singan-javatra",
         messages: "vokatra ny singan-javatra singan-javatra singan-javatra singan-javatra asehoy.",
-        placeholder: "singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra. singan-javatra. Vaovao singan-javatra",
+        placeholder: "Ampidiro eto ary tsindrio ny Enter. ex. fanangonana vaovao",
       },
     },
     actions: {
@@ -10361,7 +10361,7 @@ export default {
       product:
         "<b>singan-javatra vokatra ID: </b>singan-javatra P0000+vokatra ID ny singan-javatra singan-javatra singan-javatra vokatra, singan-javatra.singan-javatra., <b class=\"text-green\">P0000</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>singan-javatra singan-javatra: </b>singan-javatra singan-javatra singan-javatra ny karohy ny singan-javatra singan-javatra singan-javatra, singan-javatra.singan-javatra., <b class=\"text-green\">\"</b><i class=\"text-yellow\">ny singan-javatra singan-javatra</i><b class=\"text-green\">\"</b>.",
+        "<b>Fanteny tena marina: </b>Mampiasà mari-tsoratra hitadiavana andian-teny marina, ohatra, <b class=\"text-green\">\"</b><i class=\"text-yellow\">ny lahatsoratrao eto</i><b class=\"text-green\">\"</b>.",
       tax: "<b>HETRA TANTARANY: </b>karohy ny vokatra ny singan-javatra singan-javatra HETRA TANTARANY singan-javatra \"HETRA:\", singan-javatra.singan-javatra., <b class=\"text-green\">HETRA:</b><i class=\"text-yellow\">HETRA TANTARANY Anarana</i>.",
       new_products:
         "<b>Vaovao vokatra: </b>singan-javatra vokatra singan-javatra singan-javatra singan-javatra singan-javatra Daty singan-javatra, singan-javatra.singan-javatra., <b class=\"text-green\">Vaovao~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "singan-javatra",
     subtitle:
-      "fahan'ny Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra sarobidy singan-javatra Ny pejy singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra 32 singan-javatra.",
+      "Ampidiro ao amin'ny votoatin'ny pejy ny lakile hosoloina amin'ny sanda mifanaraka aminy. Ny lakile dia tokony ho 32 mahery.",
     add_caption: "ampio Vaovao zavatra",
     add_sub_caption: "ampio fanao singan-javatra-sarobidy singan-javatra.",
     add_dialog: {
@@ -10389,17 +10389,17 @@ export default {
       },
     },
     help_dialog: {
-      title: "singan-javatra ny singan-javatra singan-javatra singan-javatra",
+      title: "Ahoana ny fampiasana votoaty mavitrika",
       how_it_works_tips:
-        "singan-javatra Ny fipetrahana Pejy, singan-javatra singan-javatra Ny singan-javatra ny singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra sy Sary. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra ny Ny singan-javatra. Ny singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra Eo singan-javatra singan-javatra. ny singan-javatra, Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra vokatra singan-javatra Sokajy. Ny singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny zavatra ny singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra sy singan-javatra Ny singan-javatra ny singan-javatra zavatra, singan-javatra singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra Eo ny fipetrahana Pejy.",
+        "Ao amin'ny pejin'ny fipetrahana dia manana fahafahana ianao hanendry toerana misy toerana mavitrika ho an'ny lahatsoratra sy sary. Manana anjara toerana lehibe amin'ny fanamboarana ny votoaty mifanaraka amin'ny teny manodidina ireo toerana ireo.   Ny toetra mavitrika amin'ireo toerana ireo dia mamela azy ireo hofenoina amin'ny sandan'ny fampitomboana, izay mety miovaova arakaraka ny anton-javatra samihafa. Ohatra, ny sandan'ny fampitomboana dia mety tsy mitovy amin'ny vokatra na sokajy tsirairay. Ny tena tombony amin'ity endri-javatra ity dia miditra amin'ny lalao rehefa manana zavatra isan-karazany miaraka amin'ny toetra samihafa ianao. Azonao atao ny mampiasa amin'ny fomba mahomby ireo mpihazona toerana mavitrika ireo mba hanamafisana sy hanatsara ny fampisehoana ny singa tsirairay, ka hamorona traikefa miavaka sy mifampiraharaha amin'ny pejinao.",
       assign_tips:
-        "ny singan-javatra singan-javatra singan-javatra ny Sary, singan-javatra Eo Ny singan-javatra bokotra singan-javatra Eo Ny singan-javatra singan-javatra ny Ny singan-javatra.",
+        "Raha hanendry soatoavina mavitrika amin'ny sary, tsindrio ny bokotra famahanana hita eo amin'ny ilany havia amin'ny fizarana.",
       set_dynamic_image_tips:
-        "singan-javatra singan-javatra singan-javatra Ny singan-javatra ny singan-javatra Ny SARY URL sy singan-javatra singan-javatra singan-javatra singan-javatra sarobidy.",
+        "Afaka manova ny URL sary ianao izao ary manendry azy ho sanda mavitrika.",
       enter_values_tips:
         "ny singan-javatra vokatra, singan-javatra singan-javatra Ny singan-javatra ny singan-javatra singan-javatra singan-javatra-sarobidy singan-javatra.",
       result_tips:
-        "singan-javatra ny Ny singan-javatra singan-javatra ny Ny pejy, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra.",
+        "Ity no vokatra farany amin'ny pejy, izay nosoloana sanda nampitomboina ny toerana misy azy.",
     },
   },
 
@@ -10429,14 +10429,14 @@ export default {
         message: "singan-javatra fandikana vita ny singan-javatra.",
       },
       save_article: {
-        message: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        message: "Voatahiry soa aman-tsara ny lahatsoratra.",
       },
       delete_article: {
         message: "singan-javatra singan-javatra singan-javatra nofafana singan-javatra.",
       },
     },
     delete_dialog: {
-      message: "singan-javatra singan-javatra singan-javatra ny Mamafa singan-javatra singan-javatra ny singan-javatra?",
+      message: "Azo antoka fa hamafa mandrakizay ity lahatsoratra ity ve ianao?",
       action: "Eny, vonoy izao",
     },
   },
@@ -10482,7 +10482,7 @@ export default {
       config: {
         title: "singan-javatra singan-javatra",
         subtitle:
-          "singan-javatra Ny TANTARANY singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra, singan-javatra singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra vokatra.",
+          "Fidio ny karazana mombamomba. Mety ho mpitari-dalana, fiantohana, na votoaty sy akora hafa zaraina amin'ny vokatra maro.",
       },
       article: {
         title: "singan-javatra",
@@ -10571,10 +10571,10 @@ export default {
     },
     notifications: {
       add: {
-        message: "Ny singan-javatra zavatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        message: "Nampiana soa aman-tsara ilay singa nampidirina.",
       },
       edit: {
-        message: "Ny singan-javatra zavatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        message: "Nohavaozina soa aman-tsara ilay entana nampidirina.",
       },
     },
   },
@@ -10601,13 +10601,13 @@ export default {
     title: "mpanjifany",
     subtitle:
       "singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra famindrana ny singan-javatra singan-javatra ny ny Banky TANTARA singan-javatra ny Selldone kitapom-batsy.",
-    no_commission_yet: "singan-javatra singan-javatra ny nahazo singan-javatra singan-javatra singan-javatra.",
+    no_commission_yet: "Mbola tsy nahazo komisiona ianao.",
     no_wallet: "tsy misy kitapom-batsy!",
 
     withdraw_dialog: {
       title: "singan-javatra singan-javatra singan-javatra Fee",
 
-      need_bank_info_message: "singan-javatra singan-javatra singan-javatra Banky singan-javatra singan-javatra.",
+      need_bank_info_message: "Ampidiro aloha ny mombamomba ny banky azafady.",
 
       to_wallet: {
         title: "ny kitapom-batsy",
@@ -10645,13 +10645,13 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "singan-javatra singan-javatra ampio <b>?singan-javatra={code}</b> ny singan-javatra singan-javatra url.",
+      message: "Azonao ampiana <b>?ref={code}</b> amin'ny url seldone rehetra.",
     },
     intro: {
       title: "singan-javatra Ny Selldone singan-javatra singan-javatra",
       message:
         "Ny Selldone singan-javatra singan-javatra ny tsotra sy singan-javatra, singan-javatra ny singan-javatra ny singan-javatra singan-javatra. singan-javatra ny singan-javatra singan-javatra Rohy ny singan-javatra Vaovao mpampiasa ny Selldone, sy singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra raharaham-barotra singan-javatra singan-javatra—singan-javatra. singan-javatra dia ahitana singan-javatra singan-javatra Famandrihana, ny singan-javatra, Miantsena singan-javatra, sy rehetra singan-javatra singan-javatra singan-javatra. fanombohana singan-javatra singan-javatra singan-javatra ny Ny singan-javatra singan-javatra singan-javatra fetra Eo singan-javatra singan-javatra singan-javatra. singan-javatra us sy singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra!",
-      why_join_selldone_affiliate: "singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra?",
+      why_join_selldone_affiliate: "Nahoana izany no fahafahana miavaka?",
       reasons: [
         "singan-javatra singan-javatra singan-javatra!",
         "singan-javatra rehetra Famandrihana sy raharaham-barotra singan-javatra. singan-javatra singan-javatra 💳 Fandoavana ny Ny mpampiasa Eo Selldone.",
@@ -10677,12 +10677,12 @@ export default {
     clone_tooltip: {
       title: "singan-javatra singan-javatra",
       subtitle:
-        "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra ho singan-javatra, singan-javatra, singan-javatra, sy singan-javatra. singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra:",
+        "Ampiasao ity fitaovana ity hamerenana fomba toy ny endri-tsoratra, ny fiaviana, ny sisiny ary ny sisin-tany. Araho ireto dingana ireto mba hanaovana duplicate styles:",
       step_1:
-        "singan-javatra Ny singan-javatra sy singan-javatra ny singan-javatra singan-javatra singan-javatra, singan-javatra, singan-javatra Sary; Ny singan-javatra singan-javatra fiovana ny singan-javatra singan-javatra.",
-      step_2: "singan-javatra Eo Ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra.",
+        "Ampidiro ny fitaovana ary apetraho eo ambonin'ny lahatsoratra, tsanganana, na sary ny totozy; hiova ho pipette ny cursor.",
+      step_2: "Kitiho ny singa izay fomba tianao halaina.",
       step_3:
-        "Ny singan-javatra singan-javatra fiovana indray ny singan-javatra singan-javatra; singan-javatra Eo Ny singan-javatra singan-javatra singan-javatra singan-javatra ny singan-javatra Ny singan-javatra singan-javatra.",
+        "Hiova ho palette indray ny cursor; tsindrio eo amin'ny singa izay tianao hampiharana ny fomba nadika.",
     },
     show_side_menu_tooltip: {
       subtitle:
@@ -10690,7 +10690,7 @@ export default {
     },
     sort_tooltip: {
       subtitle:
-        "Tadiavo singan-javatra singan-javatra ny singan-javatra singan-javatra sy singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Alefaso ity fampiasa ity mba handaminana sy handaminana fizarana mora foana amin'ny alalan'ny fisintonana azy ireo.",
     },
     edit_mode_tooltip: {
       title: "Ovay / topi-maso maody",
@@ -10703,7 +10703,7 @@ export default {
     repository_tooltip: {
       title: "singan-javatra singan-javatra",
       subtitle:
-        "singan-javatra Ny singan-javatra ny singan-javatra-singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra singan-javatra singan-javatra singan-javatra Ny singan-javatra sakafo, singan-javatra Ny singan-javatra ny singan-javatra pejy singan-javatra.",
+        "Ampifamadiho ny fampisehoana ireo fizarana efa nomanina mialoha. Ireo fizarana ireo dia noforonina amin'ny alàlan'ny fizarana manara-penitra hita ao amin'ny sakafo ankavia, mampiseho ny fahafahan'ity mpanamboatra pejy ity.",
     },
     live_view: {
       title: "velona topi-maso",
@@ -10715,18 +10715,18 @@ export default {
         "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny pejy sy singan-javatra singan-javatra ny <b>singan-javatra</b> singan-javatra. singan-javatra ny ampiasaina ny fanao singan-javatra Pejy singan-javatra ho <b>vokatra</b>, <b>Sokajy</b>, sy <b>singan-javatra zavatra</b>. ny singan-javatra singan-javatra SARY ny singan-javatra singan-javatra, singan-javatra Eo <b>singan-javatra</b> sy singan-javatra <b>singan-javatra singan-javatra</b> ny singan-javatra SARY. Fee",
     },
     hotkeys: {
-      ctrl_b: "singan-javatra singan-javatra Eo/singan-javatra ny singan-javatra singan-javatra | <b>singan-javatra singan-javatra singan-javatra</b>",
-      ctrl_i: "singan-javatra singan-javatra Eo/singan-javatra ny singan-javatra singan-javatra | <i>singan-javatra singan-javatra singan-javatra</i>",
+      ctrl_b: "Ampifamadiho ny bold on/off ho an'ny lahatsoratra voafantina | <b>Ataovy sahy aho</b>",
+      ctrl_i: "Ampifamadiho ny sora-mandry ho an'ny lahatsoratra voafantina | <i>Ataovy sora-mandry</i>",
       ctrl_l:
-        "singan-javatra singan-javatra Eo/singan-javatra ny singan-javatra singan-javatra | <s>singan-javatra singan-javatra singan-javatra</s>",
-      ctrl_u: "singan-javatra singan-javatra Eo/singan-javatra ny singan-javatra singan-javatra | <u>singan-javatra singan-javatra</u>",
+        "Ampidiro ny grevy amin'ny lahatsoratra voafantina | <s>Tsio aho</s>",
+      ctrl_u: "Ampifanaraho amin'ny tsipiho ny on/off ny lahatsoratra voafantina | <u>tsipitsipika ahy</u>",
       ctrl_1:
-        "singan-javatra singan-javatra Ny ny singan-javatra singan-javatra | <small>singan-javatra singan-javatra singan-javatra</small>",
-      ctrl_2: "singan-javatra singan-javatra Ny ny singan-javatra singan-javatra | <big>singan-javatra singan-javatra singan-javatra</big>",
+        "Ahena ny haben'ny endritsoratra amin'ny lahatsoratra voafantina | <small>Ataovy kely aho</small>",
+      ctrl_2: "Ampitomboy ny haben'ny endritsoratra amin'ny lahatsoratra voafantina | <big>Ataovy lehibe</big>",
       ctrl_r: "esory rehetra singan-javatra singan-javatra singan-javatra singan-javatra | singan-javatra rehetra singan-javatra",
       ctrl_s: "afa-tsy Ny pejy",
-      tab: "singan-javatra singan-javatra singan-javatra singan-javatra",
-      ctrl_e: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra maody",
+      tab: "Mifindra eo amin'ny maodely mizana",
+      ctrl_e: "Ampidiro na atsaharo ny fomba fanao klone",
     },
   },
 
@@ -10734,7 +10734,7 @@ export default {
    * @see LPageEditorRepository
    */
   l_page_editor_repository: {
-    title: "singan-javatra singan-javatra singan-javatra singan-javatra",
+    title: "Tariho & Atsaharo",
     subtitle: "singan-javatra-singan-javatra singan-javatra",
     add_dialog: {
       title: "ampio fanao singan-javatra",
@@ -10867,7 +10867,7 @@ export default {
           label: "Endrika hAFATRA",
           placeholder: "singan-javatra ny hAFATRA singan-javatra...",
           messages:
-            "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra {order_id} sy {buyer_name}.",
+            "Azonao atao ny mametraka soatoavina mavitrika amin'ny {order_id} sy {buyer_name}.",
         },
       },
     },
@@ -10886,7 +10886,7 @@ export default {
     click_to_create: "singan-javatra ny MANANGANA...",
     valid_for_30_days: "singan-javatra ny 30 30 andro",
     notifications: {
-      secure_link_created: "singan-javatra Rohy singan-javatra singan-javatra singan-javatra singan-javatra.",
+      secure_link_created: "Voaforona soa aman-tsara ny rohy azo antoka.",
     },
   },
 
@@ -11017,7 +11017,7 @@ export default {
     categories: {
       title: "Sokajy",
       sub_title:
-        "singan-javatra ny singan-javatra ny Sokajy sy singan-javatra. singan-javatra singan-javatra singan-javatra sy singan-javatra.",
+        "Amboary ny lahatahinao miaraka amin'ny sokajy sy zana-tsokajy. Manatsara ny fitetezana sy ny sivana izany.",
 
       empty_title: "tsy misy Sokajy singan-javatra",
       empty_subtitle:
@@ -11160,7 +11160,7 @@ export default {
       },
 
       delete_title: "Mamafa singan-javatra",
-      delete_message: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ny Mamafa singan-javatra singan-javatra?",
+      delete_message: "Tena te-hamafa ity badge ity ve ianao?",
     },
 
     companies: {
@@ -11253,7 +11253,7 @@ export default {
       radius_max: "singan-javatra rayon (singan-javatra)",
       radius_max_hint: "Ny singan-javatra rayon singan-javatra singan-javatra singan-javatra ny singan-javatra sarobidy.",
       radius_options: "rayon singan-javatra (singan-javatra)",
-      radius_options_hint: "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra ho singan-javatra singan-javatra singan-javatra Ny singan-javatra UI.",
+      radius_options_hint: "Ireo sanda ireo dia azo aseho ho safidy haingana ao amin'ny UI storefront.",
 
       filters_title: "karohy sivana",
       filters_subtitle: "ampio sivana singan-javatra singan-javatra singan-javatra singan-javatra zavatra singan-javatra singan-javatra (ny lisitra/Sokajy endrika singan-javatra). singan-javatra singan-javatra-singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra namoaka zavatra.",
@@ -11264,7 +11264,7 @@ export default {
       filter_label: "singan-javatra",
       filter_type: "singan-javatra",
       filter_options: "singan-javatra",
-      filter_options_hint: "ny singan-javatra sivana, singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+      filter_options_hint: "Ho an'ny sivana voafantina, ny safidy dia azo atao amin'ny tanana na novokarina.",
       multiple: "singan-javatra",
       single: "singan-javatra",
       kv_mode: "singan-javatra/sarobidy maody",
@@ -11323,7 +11323,7 @@ export default {
      */
     shop_email: {
       name: [
-        "singan-javatra singan-javatra singan-javatra singan-javatra",
+        "Super Savings Weekend Blast",
         "Navoaka ny fifanarahana Insider Exclusive",
         "Ny fidiranao VIP amin'ny fihenam-bidy Premium",
         "Extravaganza amidy vanim-potoana",
@@ -11908,13 +11908,13 @@ export default {
         "Suite Professional",
       ],
       description: [
-        "singan-javatra ny singan-javatra singan-javatra Ny singan-javatra.",
+        "Mety ho an'ny olona mikaroka ny fototra.",
         "fidirana ny rehetra singan-javatra singan-javatra sy singan-javatra.",
         "singan-javatra singan-javatra sy LAHARAMPAHAMEHANA MANAMPY.",
         "A singan-javatra singan-javatra ny singan-javatra mpampiasa.",
         "singan-javatra fidirana ny singan-javatra-singan-javatra singan-javatra.",
         "fanao singan-javatra ny singan-javatra singan-javatra.",
-        "singan-javatra singan-javatra singan-javatra-singan-javatra singan-javatra.",
+        "Safidy fidirana amin'ny vidiny mora.",
         "tsy misy fetra Eo singan-javatra, ny Ny singan-javatra mpampiasa.",
         "A singan-javatra ALAMINO MIALOHA ny singan-javatra, singan-javatra ny 4 singan-javatra.",
         "singan-javatra ny singan-javatra singan-javatra singan-javatra Fitaovana.",
@@ -11974,22 +11974,22 @@ export default {
         "singan-javatra singan-javatra ny singan-javatra.",
         "ny 🛍️ Mandray commande ny Eo singan-javatra singan-javatra!",
         "singan-javatra ny singan-javatra ny us.",
-        "singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra.",
+        "Manantena ny hanompo anao indray.",
         "ny singan-javatra ny singan-javatra singan-javatra LAHARAMPAHAMEHANA.",
-        "singan-javatra singan-javatra ny singan-javatra ny singan-javatra.",
+        "Aza adino ny manome naoty ny traikefanao.",
         "singan-javatra singan-javatra ny singan-javatra singan-javatra fivarotana.",
         "singan-javatra singan-javatra singan-javatra singan-javatra ny Vaovao levitra!",
         "afa-tsy ny faktiora ny singan-javatra singan-javatra.",
         "FITSIDIHANA us singan-javatra ny Bebe kokoa.. singan-javatra vokatra.",
         "singan-javatra mifandray ny singan-javatra tolotra.",
-        "singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra mpanjifa.",
-        "singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Misaotra anao mpanjifa sarobidy.",
+        "Eto izahay hanampy raha mila fanampiana ianao.",
         "ny singan-javatra singan-javatra us singan-javatra.",
         "singan-javatra singan-javatra singan-javatra fihenam-bidy Eo ny singan-javatra levitra.",
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra!",
-        "singan-javatra singan-javatra ny ny singan-javatra singan-javatra us.",
+        "Nanao safidy tsara ianao!",
+        "Misaotra noho ny fahatokisanao anay.",
         "singan-javatra singan-javatra ny ny singan-javatra.",
-        "A singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Fisaorana feno avy amin'ny ekipanay.",
       ],
     },
 
@@ -12044,7 +12044,7 @@ export default {
         "singan-javatra singan-javatra rohy",
         "singan-javatra singan-javatra",
         "singan-javatra fehezan-dalàna ny singan-javatra",
-        "singan-javatra-singan-javatra singan-javatra (singan-javatra)",
+        "Fifanarahana tsy fampahafantarana (NDA)",
       ],
     },
 
@@ -12058,7 +12058,7 @@ export default {
         "singan-javatra-Eo-singan-javatra tolotra singan-javatra",
         "singan-javatra -barotra ny singan-javatra",
         "E-singan-javatra singan-javatra fivarotana singan-javatra",
-        "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra",
+        "Fifanarahana consultancy manam-pahaizana ho an'ny tompona orinasa",
         "ny singan-javatra ny -tsena singan-javatra",
         "Miantsena fivarotana sy singan-javatra tolotra singan-javatra",
         "POD ny singan-javatra singan-javatra",
@@ -12119,17 +12119,17 @@ export default {
         "singan-javatra singan-javatra Eo singan-javatra levitra!",
         "singan-javatra singan-javatra ny ny singan-javatra.",
         "singan-javatra singan-javatra tolotra Ho ny singan-javatra.",
-        "singan-javatra singan-javatra singan-javatra ny singan-javatra singan-javatra.",
+        "Ankafizo ny tahiry lehibe miaraka amin'ny valisoa cashback.",
         "singan-javatra singan-javatra Eo rehetra ny singan-javatra zavatra.",
         "afa-tsy Bebe kokoa.. ny singan-javatra singan-javatra efaha amin'ny isam-.",
         "singan-javatra ny singan-javatra Eo singan-javatra 30 andro!",
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra Miantsena.",
+        "Mahazoa vola miverina isaky ny miantsena ianao.",
         "singan-javatra Ny singan-javatra singan-javatra ankehitriny!",
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra. IP",
+        "Ny mpikambana VIP dia mahazo cashback manokana.",
         "singan-javatra! singan-javatra singan-javatra singan-javatra tolotra.",
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra.",
+        "Miaraha aminay Cashback Rewards Club izao.",
         "Ny Bebe kokoa.. singan-javatra Miantsena, Ny Bebe kokoa.. singan-javatra afa-tsy.",
-        "singan-javatra Ny singan-javatra singan-javatra singan-javatra.",
+        "Sokafy ny valisoa farany amin'ny cashback.",
         "singan-javatra Ny singan-javatra singan-javatra efaha amin'ny isam- singan-javatra.",
       ],
     },
@@ -12140,15 +12140,15 @@ export default {
     page: {
       prompts: [
         "TONGA TONGA 10 ny {shop} - singan-javatra singan-javatra singan-javatra singan-javatra ny zavatra",
-        "{shop} - ny singan-javatra singan-javatra ny singan-javatra singan-javatra sy singan-javatra ny",
+        "{shop} - Loharano Faratamponao momba ny varotra kalitao sy serivisy miavaka",
         "singan-javatra efaha amin'ny isam- sy singan-javatra singan-javatra singan-javatra {shop} - singan-javatra Ny singan-javatra!",
-        "singan-javatra ny singan-javatra {shop}'singan-javatra singan-javatra ny singan-javatra-singan-javatra sy singan-javatra singan-javatra",
-        "singan-javatra singan-javatra singan-javatra ny Ny {shop} singan-javatra - singan-javatra ny singan-javatra singan-javatra ny singan-javatra",
-        "singan-javatra singan-javatra singan-javatra singan-javatra sy singan-javatra-singan-javatra singan-javatra singan-javatra {shop}",
+        "Fantaro ny fanoloran-tenan'i {shop} amin'ny fomba fanao ara-tontolo iainana sy etika",
+        "Aoka ho Ampahany amin'ny Fianakaviana {shop} - Misoratra anarana amin'ny gazetinay mba hahazoana vaovao",
+        "Mankanesa any amin'ireo Safidy ambony sy entana manana naoty ambony amin'ny {shop}",
         "singan-javatra singan-javatra sy singan-javatra singan-javatra ny rehetra zava-mitranga singan-javatra {shop}",
-        "singan-javatra tolotra sy singan-javatra-singan-javatra singan-javatra singan-javatra {shop} - singan-javatra singan-javatra!",
+        "Tolotra tsy manan-tsahala sy spécialiste mahasahana ny fotoana ao amin'ny {shop} - Manaova haingana!",
         "{shop}'singan-javatra singan-javatra singan-javatra singan-javatra sy vokatra singan-javatra - Miantsena ny singan-javatra",
-        "singan-javatra singan-javatra ny {shop} - singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra",
+        "Mankanesa any amin'ny {shop} - Miezaka izahay ny hanolotra traikefa tsy manam-paharoa amin'ny fivarotana",
       ],
     },
 
@@ -12157,25 +12157,25 @@ export default {
      */
     cross_selling: {
       message: [
-        "singan-javatra ny singan-javatra, singan-javatra Ny singan-javatra!",
+        "Fenoy ny fijerinao, alao ny set!",
         "afa-tsy singan-javatra ny singan-javatra singan-javatra efaha amin'ny isam-!",
-        "singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra!",
+        "Aza adino ny fiarahanay tonga lafatra!",
         "singan-javatra ny levitra, ampio-singan-javatra singan-javatra!",
-        "singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra!",
+        "Mamaha ny tahiry manokana, miara-mividy!",
         "singan-javatra zavatra, singan-javatra singan-javatra!",
         "singan-javatra Bebe kokoa.., singan-javatra singan-javatra – singan-javatra singan-javatra!",
         "singan-javatra-singan-javatra Tolotra: singan-javatra vokatra!",
         "singan-javatra ny singan-javatra, singan-javatra efaha amin'ny isam-!",
         "singan-javatra singan-javatra singan-javatra singan-javatra, afa-tsy singan-javatra!",
-        "singan-javatra singan-javatra singan-javatra ny Ny singan-javatra singan-javatra!",
+        "Ampifandraiso amin'ny combo farany indrindra!",
         "Miantsena singan-javatra, singan-javatra sy afa-tsy!",
         "singan-javatra Ny sarobidy, singan-javatra Ny singan-javatra!",
         "ny singan-javatra singan-javatra ny singan-javatra – Miantsena singan-javatra!",
-        "singan-javatra singan-javatra singan-javatra Ho ny singan-javatra!",
-        "singan-javatra ny singan-javatra ny singan-javatra singan-javatra!",
-        "singan-javatra ny singan-javatra ny singan-javatra singan-javatra!",
+        "Vidin'ny bundle manokana ho anao!",
+        "Ampitomboy ny tahiry amin'ny combos-nay!",
+        "Ampitomboy ny fanangonanao amin'ireto safidy ireto!",
         "singan-javatra ny singan-javatra: singan-javatra sy afa-tsy!",
-        "Ny singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra!",
+        "Ny mpivady tonga lafatra ho an'ny andro tonga lafatra!",
         "singan-javatra ny favoris ny singan-javatra singan-javatra!",
       ],
     },
@@ -12234,13 +12234,13 @@ export default {
 
         "singan-javatra {buyer_name}, singan-javatra singan-javatra nahazo Ny 💳 Fandoavana ny 🛍️ Mandray commande #{order_id}. ny 🛍️ Mandray commande ny singan-javatra singan-javatra singan-javatra sy singan-javatra singan-javatra nalefa singan-javatra.",
 
-        "singan-javatra {buyer_name}, singan-javatra singan-javatra ny singan-javatra singan-javatra singan-javatra ny 🛍️ Mandray commande #{order_id} singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra MANAMPY.",
+        "Ry {buyer_name} malala, miala tsiny izahay mampahafantatra anao fa nofoanana ny kaomandinao #{order_id}. Raha manana fanontaniana ianao dia mifandraisa amin'ny fanohanana.",
 
-        "singan-javatra {buyer_name}, singan-javatra’singan-javatra singan-javatra singan-javatra singan-javatra ny ny 🛍️ Mandray commande #{order_id}. singan-javatra singan-javatra ny Ny singan-javatra sy singan-javatra singan-javatra ny singan-javatra singan-javatra ho singan-javatra ho singan-javatra.",
+        "Ry {buyer_name} malala, sendra fahatarana izahay amin'ny kaomandinao #{order_id}. Miala tsiny amin'ny fanelingelenana ary miezaka mamaha izany faran'izay haingana.",
 
         "singan-javatra {buyer_name}, ny 🛍️ Mandray commande #{order_id} ny singan-javatra Eo singan-javatra. singan-javatra singan-javatra ny TANTARA singan-javatra singan-javatra MANAMPY ny singan-javatra tsipiriany.",
 
-        "singan-javatra {buyer_name}, ny 🛍️ Mandray commande #{order_id} ny singan-javatra ny singan-javatra sy singan-javatra singan-javatra singan-javatra singan-javatra. singan-javatra singan-javatra ny ny singan-javatra!",
+        "Salama {buyer_name}, ny kaomandinao #{order_id} dia alefa livraison ary tokony ho tonga aminao tsy ho ela. Misaotra noho ny faharetanao!",
 
         "singan-javatra {buyer_name}, singan-javatra singan-javatra singan-javatra Ny 📦 Miverena ny ny 🛍️ Mandray commande #{order_id}. singan-javatra singan-javatra singan-javatra singan-javatra singan-javatra, singan-javatra singan-javatra MANAMPY.",
 
@@ -12274,7 +12274,7 @@ export default {
         "Material, singan-javatra, sy singan-javatra singan-javatra.",
         "Mpanoratra, singan-javatra, sy singan-javatra singan-javatra.",
         "singan-javatra singan-javatra, singan-javatra, sy singan-javatra tsipiriany.",
-        "singan-javatra singan-javatra, singan-javatra, sy singan-javatra singan-javatra.",
+        "Fenitry ny sokajin-taona, ny fitaovana ary ny fiarovana.",
         "singan-javatra, Ny, sy Fampisehoana singan-javatra.",
         "singan-javatra, singan-javatra, sy Marika tsipiriany.",
       ],

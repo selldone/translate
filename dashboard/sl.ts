@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Kanali pridobivanja",
         subtitle:
-          "element podjetje element element Poročilo element element stranka pridobivanje Kanali",
+          "Vaše podjetje raste. Tukaj je poročilo o vaših kanalih za pridobivanje strank.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "povezano list",
         tooltip:
-          "element Izdelki element element Nakupujte element povezano Za element Google list element Google element",
+          "Izdelki v tej trgovini so povezani z Google Preglednico v storitvi Google Drive.",
       },
       show_deletes: {
         false_title: "Skrij izbrisano",
@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Način povleci in spusti",
         false_description:
-          "Ogled Izdelki element element kategorije element element",
+          "Oglejte si izdelke, razvrščene po kategorijah in podkategorijah.",
         true_title: "Način tabele",
         true_description: "Ogled Izdelki element element ",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS izdelkov",
         subtitle:
-          "element element RSS element Za element element element Seznam element vse Izdelki",
+          "Uporabite ta vir RSS za vzdrževanje posodobljenega seznama vseh izdelkov.",
       },
       api_dialog: {
         title: "API izdelkov",
         subtitle:
-          "element element API element Za element element Izdelek Seznam element element API Za element Izdelki Od element trgovina, element element Izdelek Vnos element element element",
+          "Uporabite ta vir API, da bo vaš seznam izdelkov posodobljen. Zagotavlja javno dostopen API za pridobivanje izdelkov iz vaše trgovine, zaradi česar je idealen za spletne strani s seznami izdelkov in primerjavo.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "Dostava omejitev",
         subtitle:
-          "element element element omejitev Za element element element Stranke element element element Dostava element element zasluži Nakupi Od element!",
+          "Uvedete lahko omejitve, da zagotovite, da lahko pri vas kupujejo le stranke znotraj določenih območij pošiljanja!",
         no_enable_shipping_error:
-          "št element element Kupite Od element element št omogočeno Dostava metoda!",
+          "Nihče ne more kupiti od vas, ker nimate omogočenega načina pošiljanja!",
         customer_must_select_a_shipping_msg:
           "stranka element Izberi element Dostava metoda Za element 🛍️ Naroči",
         customer_can_order_without_shipping_method_msg:
-          "stranka element element element 🛍️ Naroči element element št Dostava metoda podpora element element Izberi Lokacija",
+          "Stranka lahko odda naročilo, tudi če za izbrano lokacijo ni podprt noben način pošiljanja.",
         inputs: {
           restriction: {
             false_description:
-              "Stranke element element element Naročila element element št element Dostava metoda element element Izberi",
+              "Kupci lahko še vedno oddajo naročila, tudi če ni bil izbran noben poseben način pošiljanja.",
             false_title: "Sprejmi vse Naročila",
             true_title: "element Sprejmi 🛍️ Naroči",
             true_description:
-              "Stranke element element Za element element element Dostava element element 🛍️ Naroči Za element element Nakup",
+              "Stranke morajo za dokončanje nakupa izbrati možnost pošiljanja ali prevzema.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Nastavite svoje skladišče, trgovino ali izvor vašega podjetja. Bistvenega pomena je, da je pri izračunu stroškov pošiljanja in postopku odjave.",
       no_multi_warehouse_support_message:
-        "element element, element element Na voljo element Normalno Trgovine",
+        "Zaradi poenostavitve ta funkcija ni na voljo v običajnih trgovinah.",
       size_unit: {
         title: "Enota velikosti",
         subtitle: "Enota, ki se uporablja za dolžino, širino in višino.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Shranite aktivne aplikacije",
         subtitle:
-          "Selldone Upravljajte svoje poslovne aplikacije.",
+          "Odkrijte enostavnost upravljanja svojih poslovnih aplikacij s trgovino Selldone App Store. Naša platforma ponuja obsežen nabor orodij, namenjenih optimizaciji vašega poslovanja. Od inovativnih rešitev za upravljanje do aplikacij za povečanje produktivnosti, Selldone zagotavlja brezhibno izkušnjo za podjetja, ki iščejo učinkovitost in rast.",
         all: "vse",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "element",
           subtitle:
-            "element element element, element Slike element element element Spletna stran element element element, element, element Mobilni aplikacija element",
+            "Favicons so majhne, ​​ikonične slike, ki predstavljajo spletno mesto na zavihkih brskalnika, zaznamkih in vmesnikih mobilnih aplikacij.",
         },
       },
 
@@ -1486,7 +1486,7 @@ export default {
 
       category: {
         subtitle:
-          "element element Kategorija element Naslov Za element element Vnos",
+          "Konfigurirajte kategorijo in naslov, ki bo prikazan v vašem seznamu.",
       },
       unit: {
         subtitle:
@@ -1495,9 +1495,9 @@ export default {
       custom_pricing: {
         title: "Po meri Cenitev obrazec",
         subtitle:
-          "element element Ustvari element element (element Cenitev Vnos obrazec) Za element Izdelek, element element Stranke element Izberi element Variante element element Vnos obrazec",
+          "Izdelku lahko ustvarite ali dodelite oceno (obrazec za vnos cen), vaše stranke pa lahko izbirajo med različicami ali prilagodijo vaše blago z intuitivnim obrazcem za vnos.",
         valuation_need_saved_product_message:
-          "element Shrani element Izdelek element, element element ",
+          "Najprej shranite izdelek, nato pa lahko dodelite model vrednotenja.",
         assign_valuation_message:
           "element element Za element Izdelek",
         edit_pricing_action: "Uredi Cenitev obrazec",
@@ -1506,27 +1506,27 @@ export default {
       action: {
         title: "Po meri Kupite element",
         message:
-          "element element Spremeni se ikona element element : {icon name} element",
+          "Ikono lahko spremenite tako, da sledite temu vzorcu: {icon name} napis ...",
         placeholder: "element element Za element",
         multi_language_dialog_title: "Po meri Kupite element element",
       },
       external: {
         not_available_message:
-          "element element Na voljo element Podjetje & element licenca",
-        available_message: "element element Dodaj element element Za element",
+          "Dodatno dejanje je na voljo z licencami podjetja in podjetja.",
+        available_message: "Dodate lahko dodaten zunanji poziv k dejanju.",
         input_label: "element element Za element",
       },
       warehouse: {
         subtitle:
-          "element informacije element element Skladišče Upravljanje element element element Za element element element Izdelek",
+          "Te informacije uporablja sistem za upravljanje skladišča in služijo za globalno identifikacijo izdelka.",
       },
       gtin: {
-        hint: "podpora element element UPC (element element, 12 element), EAN (element, 13 element), JAN (element, 8 element 13 element), ISBN (element, 13 element).",
+        hint: "Podprte vrednosti so UPC (Severna Amerika, 12 števk), EAN (Evropa, 13 števk), JAN (Japonska, 8 ali 13 števk), ISBN (knjige, 13 števk).",
         label: "Izdelki element element predmet element",
         placeholder: "element element (neobvezno)",
       },
       hsn: {
-        hint: "HSN, element element , element element Izdelki",
+        hint: "HSN ali Harmonizirani sistem nomenklature je mednarodno standardiziran klasifikacijski sistem za kategorizacijo blaga in izdelkov.",
         placeholder: "6~16 element HSN Koda (neobvezno)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "Izdelek element element element trgovina",
         message: "element element Izdelek",
         subtitle:
-          "element element Stranke element element Blagovna znamka element element Izdelek element ponudba",
+          "Obvestite svoje stranke o stanju in blagovni znamki izdelka, ki ga ponujate.",
       },
       brand: {
         label: "Blagovna znamka",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "element element garancija element Izdelek Stanje, element element informacije element garancija element element element Za element stranka element pomoč element element Čas element element element Izdelki element element Vrnjeno element Nakup",
+          "Nastavite garancijo in status izdelka, saj bodo te informacije o garanciji prikazane stranki in pomagajo določiti časovni okvir, v katerem je mogoče izdelke po nakupu vrniti.",
 
         label: "garancija",
         placeholder: "Zlati 24 mesecev garancija (neobvezno)",
@@ -1550,17 +1550,17 @@ export default {
       status: {
         title: "Stanje",
         subtitle:
-          "element Izdelki Stanje element element Za zasluži element Izdelek Osnutek, element element element Stanje Za 'neaktiven",
+          "Status izdelka določa njegovo razpoložljivost na spletu in v trgovini. Če želite narediti osnutek izdelka, preprosto preklopite njegov status na 'Neaktivno'.",
       },
       profiles: {
         title: "Profili",
         subtitle:
-          "element element element garancija, Vrnitev pravilnik, Dostava, element vodnik element element element Za element Izdelek element element Novo element element element Izdelek stran",
+          "Določite lahko garancijo, politiko vračila, pošiljanje in navodila ter jih dodelite temu izdelku. Prikazan bo kot novi zavihki na strani izdelka.",
       },
       shortcuts: {
         title: "element Izdelek Za element kategorije",
         subtitle:
-          "element element Za Seznam element Izdelek element element kategorije element element Primarni Kategorija element element Izdelek > Uredi > Kategorija element, element element element Za element 'element element , element element Izdelek Za element element kategorije",
+          "Ta funkcija vam omogoča, da izdelek navedete v več kategorijah, medtem ko ohranite njegovo umestitev v primarni kategoriji, nastavljeni pod Izdelek > Uredi > Kategorija. V bistvu deluje podobno kot ustvarjanje 'bližnjic' v operacijskih sistemih, kar omogoča, da se izdelek prikaže v dodatnih določenih kategorijah.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Tehnične specifikacije",
       subtitle:
-        "element Izdelek Specifikacije element element informacije element element element Za Stranke element element kategorija element filter element",
+        "Tukaj vnesite specifikacije izdelka. Te informacije bodo prikazane strankam in jih bo mogoče uporabiti tudi v sistemu inteligentnega filtriranja kategorije.",
       manual: {
         title: "element",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "element element Uvozi Tehnični Specifikacije element element Izdelki",
+          "Uvozite lahko tehnične specifikacije podobnih izdelkov.",
         action_title: "Uvozi",
         action_subtitle: "element specifikacija Od element Izdelek",
       },
       ai: {
         title: "AI",
         subtitle:
-          "element element element Ustvari Izdelek Specifikacije element element element Izdelki element Podatki element element obrazec",
+          "Specifikacije izdelka lahko samodejno ustvarite tako, da predložite neobdelane podatke izdelka v besedilni obliki.",
         action_title: "samodejno element element AI",
         action_subtitle: "Ustvari Izdelek Specifikacije element element element",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Koda izdelka: P0000 ...",
         spec_view_title: "Specifikacije izbranega izdelka",
         spec_view_subtitle:
-          "element Specifikacije element element Uvozi Od element element Izdelek",
+          "Specifikacije so bile uvožene iz izbranega izdelka.",
         set_spec_action: "Podvojene tehnične specifikacije",
       },
       notifications: {
@@ -1691,7 +1691,7 @@ export default {
         prompt: {
           title: "Izdelek Pregled",
           subtitle:
-            "element element Opis element element Izdelek, element element Podrobnosti element informacije element element Rabljen Za element element element Izdelek Specifikacije",
+            "Navedite kratek in jasen opis izdelka ter poudarite njegove ključne značilnosti in podrobnosti. Te informacije bodo uporabljene za samodejno ustvarjanje specifikacij izdelka.",
         },
         generated_spec: {
           title: "elementelement Specifikacije",
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "element Specifikacije",
             subtitle:
-              "element Za element Ustvari Izdelek Specifikacije Od element element Pregled",
+              "Kliknite za samodejno ustvarjanje specifikacij izdelka iz predloženega pregleda.",
           },
           add_generated_spec: "Dodaj element Specifikacije",
         },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "element element Tržnica, element Primarni Izdelek Cenitev element element element Vnos cena, element element element cena element element ",
+          "Znotraj tržnice je primarna prikazana cena izdelka cena kotacije, medtem ko je dejanska cena določena na podlagi zapisov o razmerju med prodajalcem in izdelkom.",
         subscription:
-          "element Naročnine, element element Vnos cena element element, element element Izberi Naročnina Načrtujte",
+          "Pri naročninah je prikazana le kotacijska cena, dejanska cena pa se določi na podlagi izbranega naročniškega paketa.",
         service:
-          "element element Izdelki, element seznam Cenitev element element , element element storitev element element storitev cena element element stranka element element element 🛍️ Naroči (element Preveri).",
-        file: "element element Za element seznam element element cena element element datoteka, element Stranke element plačati element 🛍️ Naroči Za element Dostop Za element datoteke",
+          "Pri izdelkih, ki temeljijo na storitvah, je navedena cena izključno za prikaz in zagotavlja ocenjeno ceno storitve. Dejansko ceno storitve boste določili sami, ko stranka odda naročilo (na blagajni).",
+        file: "To se nanaša na navedeno in dejansko ceno datoteke, ki jo morajo stranke plačati za dostop do datotek.",
         default:
-          "element element Za element Izdelki seznam cena element element račun element cena element element Variante element element Cenitev",
+          "To se nanaša na navedeno ceno izdelka in upošteva tudi ceno vseh različic, ki nimajo ločene cene.",
       },
       extra_pricings: {
         title: "Dodaj element Cenitev",
-        subtitle: "element element Cenitev element element Nakup Količina",
+        subtitle: "Implementacija dinamičnega oblikovanja cen glede na količino nakupa.",
       },
 
       vendor: {
         title: "prodajalec Cenitev",
         subtitle:
-          "element cena element element Izdelki Vnos element element element prodajalec cena element element Izdelek > prodajalci element",
+          "Ta cena bo prikazana samo v seznamu izdelkov. Ceno prodajalca lahko nastavite v zavihku Izdelek > Prodajalci.",
         manage_vendors: "Upravljaj prodajalci",
         vendor_product_pricing_link:
-          "element prodajalci Izdelek Cenitev element Povezano element element Vnos cena element element element prodajalec Izdelki element Variante element element element Variante element element Cenitev (element element element cena element element glavna Izdelek). element cena element element Tržnica cena, element element prodajalci cena element element Cenitev element element Tržnica element element",
+          "Cene izdelkov prodajalca so povezane. Sprememba cene kotacije tukaj bo vplivala na izdelke prodajalca brez različic ali tiste z različicami, ki nimajo lastne cene (z uporabo iste cene kot glavni izdelek). Ta cena bo obravnavana kot tržna cena, prodajalčeva cena pa bo določena na podlagi cenovnega modela ali prejšnje tržne stopnje dobička.",
         vendor_variant_pricing_link:
-          "element element element cena element element Cenitev element prodajalec Izdelki element element cena element element Tržnica cena, element element prodajalci cena element element Za element Cenitev element element Tržnica element element",
+          "Sprememba cene različice tukaj bo vplivala na cene izdelkov prodajalca z isto različico. Ta cena se bo štela za tržno ceno, prodajalčeva cena pa bo določena glede na cenovni model ali prejšnjo tržno stopnjo dobička.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "To sporočilo bo prikazano kupcu ob nakupu izdelkov.",
       inputs_form: "Informacijska struktura (vhod)",
       inputs_hint:
-        "element element Za element element obrazec Za element Podrobnosti Od element Stranke element element element Za element element 🛍️ Naroči",
+        "Imate možnost, da nastavite prilagojen obrazec za zbiranje podrobnosti od vaših strank, ko so pripravljene oddati naročilo.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "🛍️ Naroči Meje",
         subtitle:
-          "element element najmanj element največ Omejitev element element Količina element element predmet element 🛍️ Naroči, element element ",
+          "Če ste veletrgovec ali obstaja najmanjša ali največja omejitev količine tega artikla na naročilo, lahko to določite tukaj.",
         no_limit: "Ni omejitev",
         minimum_purchase_quantity: "najmanj Nakup Količina",
         maximum_purchase_quantity: "največ Nakup Količina",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Odstranite izdelek",
       message: `Ali želite izbrisati <b>{product_title}</b> ?`,
-      tips: "element element element Izbriši element Izdelek, element element Za element Nakupujte > Izdelki, element Prikaži Izbrisano Predmeti, element element Izdelek, element Izberi element",
+      tips: "Če pomotoma izbrišete izdelek, ga lahko obnovite tako, da se pomaknete v svojo Trgovina > Izdelki, omogočite Prikaži izbrisane elemente, nato z desno miškino tipko kliknete izdelek in izberete Obnovi.",
     },
   },
 
@@ -1860,22 +1860,22 @@ export default {
   extra_pricing_add_dialog: {
     title: "element Cenitev element element {min}",
     subtitle:
-      "element element 🛍️ Naroči element Prednost element cena element element Vnos element najmanj Količina element element element Cenitev Za element element",
+      "Sistem samodejno določi vrstni red in prioriteto za izračun cene. Prosimo, vnesite najmanjšo potrebno količino, da ta cena začne veljati.",
     min_quantity: "Najmanjša količina",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "Inventar element element Izdelki element element , element element ",
+        "Inventar za dropshipping izdelke določijo trgovci na debelo in ga tukaj ni mogoče spreminjati.",
       marketplace:
-        "element element Izdelek Inventar element element Tržnica element element element Dodaj element element vse prodajalci element element ",
+        "Celotno zalogo izdelkov na tržnici določimo s seštevanjem zalog vseh prodajalcev. Tukaj ga ne morete spreminjati.",
       default: "element element Izdelki Inventar štetje element",
     },
     menu: {
       add_bulk: {
         title: "element Dodaj",
-        subtitle: "Dodaj element Variante element element element",
+        subtitle: "Dodajte več različic v enem dejanju.",
       },
       edit_property_set: {
         title: "element element element",
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google Izdelek Kategorija Koda",
-    hint: "element element Kategorija element element Izdelek element Za element element Izdelek element",
+    hint: "Predstavlja kategorijo vašega izdelka glede na Googlovo taksonomijo izdelkov.",
     placeholder: "element Izdelek element storitev Kategorija (neobvezno)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "garancija",
-      desc: "element garancija element element Za element element Izdelek element element Za element element ",
+      desc: "Garancija je del pogodbe, kjer proizvajalec obljubi popravilo ali zamenjavo izdelka v določenem roku. Ta zaveza se lahko razširi tudi na potrošnike, ki nimajo neposredne pogodbe s proizvajalcem.",
     },
     RETURN_POLICY: {
       title: "Vrnitev pravilnik",
-      desc: "Vrnitev element element element Stranke element Vrnitev element Izmenjava element element Predmeti, element element element vračilo, element element vračilo",
+      desc: "Politike vračil opisujejo, kako lahko stranke vrnejo ali zamenjajo neželeno blago. Določajo primerne predmete, sprejemljive razloge za vračila in časovni okvir za vračila.",
     },
     GUIDE: {
       title: "vodnik",
-      desc: "element vodnik element element vodnik element element vodnik element element Izdelki",
+      desc: "Vodnik lahko vključuje tabelo velikosti za oblačila ali vodnik za izbiro diamantov. Pomembno je, da so vodniki vsestranski in uporabni za več izdelkov.",
     },
     SHIPPING: {
       title: "Dostava",
-      desc: "element Dostava pravilnik Podrobnosti element element Dostava element element Naročila, element Dostava element, metode, element element Dostava Časi",
+      desc: "Politika pošiljanja podrobno opisuje ključne vidike pošiljanja spletnih naročil, vključno s stroški pošiljanja, metodami in predvidenimi časi dostave.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "Privzeto",
       dedicated: "element",
 
-      subscription: "element element element davek element element element Plačilo element element",
+      subscription: "Davek lahko uporabimo samo v koraku ustvarjanja plačila.",
       is_disabled: "element davek profil element onemogočeno! (⚠️element)",
       shipping: "Dostava",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "davek profil",
       subtitle:
-        "element element davek element Za element Izdelek element element davek profil element element Izdelek, element Privzeto trgovina davek element element ",
+        "Izdelku lahko dodelite posebne davčne predpise. Če za izdelek ne izberete davčnega profila, bodo uporabljeni privzeti davčni predpisi trgovine.",
 
       action_manage: "Upravljaj davek",
       action_manage_sub: "Nakupujte > finance > davek",
 
       subscription_tips:
-        "element element Izberi element davek profil element Naročnina Izdelek, element Nadgradnja<code>davek Koda</code> element element element način element element Plačilo storitev element element Izberi davek profil element element element cena element element davek element element element davek element element <code>element</code> element <code>element</code>. element element , element element <br /><br /><b>element!</b> element element element davek profil, element element Cenitev Načrti element element Izdelek > Inventar element element Shrani element Za element element",
+        "Ko izberete davčni profil za naročniški izdelek, posodobimo<code>davčno številko</code> in nastavimo vključujoč/izključni način pri vašem ponudniku plačilnih storitev. Izbrani davčni profil določa, ali je cena vključena ali brez davkov. Eden od <code>vključno</code> ali <code>izključno</code>. Ko je določen kot vključujoč ali izključujoč, ga ni mogoče spremeniti.<br /><br /><b>Pomembno!</b> Po spremembi davčnega profila morate klikniti cenovne načrte na zavihku Izdelek > Zaloga in kliknite gumb Shrani, da uveljavite spremembe.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "element cena element Količina element element Izdelek element element prodajalec Za element element element",
+        "Ceno in količino tega izdelka določi določen prodajalec, ki mu pripada.",
     },
     vendors: {
       subtitle:
-        "element element Seznam element element Izdelek element Količina element cena element element ",
+        "Tukaj je seznam dobaviteljev za izdelek. Količino in ceno bodo določili dobavitelji.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "prodajalec element",
-      subtitle: "element informacije element element Za Stranke element",
+      subtitle: "Te informacije so javno prikazane strankam.",
       action_sub_caption: "Javno Izdelki Vnos stran",
       action_see_listing_page: "oglej si Vnos stran",
       send_invitation_email: "Pošlji element E-naslov",
@@ -2002,23 +2002,23 @@ export default {
 
     profiles: {
       title: "Profili",
-      subtitle: "element element element Lokacija Za element prodajalec",
+      subtitle: "Temu prodajalcu lahko dodelite lokacijo.",
     },
     map: {
       no_map_message:
-        "element element Lokacija Za element prodajalec element element prodajalec",
+        "Določite lokacijo prodajalcu, če gre za ponudnika, ki temelji na lokaciji.",
     },
     page: {
       title: "Po meri stran",
       subtitle:
-        "element element Po meri Pristanek stran element element prodajalec, element element Povezava Za element element stran",
+        "Nastavite ciljno stran po meri za prodajalca in mu zagotovite edinstveno povezavo do njihove namenske strani.",
       action_set_page: "oglej si Javno stran",
       action_sub_caption: "Po meri Pristanek stran",
       vendor_has_landing_msg: "prodajalec element element Po meri Pristanek stran",
       no_landing_selected_msg: "št Pristanek stran Izberi",
       no_landing_page: "št Pristanek stran",
       we_can_create_dedicated_landing_msg:
-        "element element Ustvari element element Pristanek stran element element",
+        "Za vas lahko ustvarimo namensko ciljno stran.",
     },
     contact: {
       title: "Kontakt element",
@@ -2027,16 +2027,16 @@ export default {
     business: {
       title: "podjetje element",
       subtitle:
-        "element element element informacije element element podjetje Za element element ",
+        "Navedite točne podatke o svojem podjetju, da zagotovite hiter in nemoten postopek zbiranja prihodkov.",
     },
     bank: {
       title: "element informacije",
-      subtitle: "Vnos element Banka Podrobnosti element element element",
+      subtitle: "Tukaj vnesite svoje bančne podatke za izplačila.",
     },
     default_pricing: {
       title: "Privzeto Cenitev",
       subtitle:
-        "element element Privzeto Cenitev element element element prodajalec element element prodajalec Dodaj element Novo Izdelek, element Cenitev element element element Rabljen Za element element Tržnica element element element Izdelki cena element element Cenitev element element element Izdelek element",
+        "Določite lahko privzeti cenovni model za prodajalca. Ko prodajalec doda nov izdelek, bo ta cenovni model uporabljen za izračun tržne marže na ceno izdelka. Kasneje lahko prilagodite cenovni model za vsak izdelek posebej.",
       no_pricing: "št Cenitev",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "prodajalci element trgovina element element Dostava Storitve element Kurirji",
       shipping_services: "Dostava Storitve",
       total_number_of_services:
-        "element Skupaj element element Dostava Storitve element element prodajalec element",
+        "Skupno število storitev pošiljanja, ki jih ima prodajalec.",
       couriers: "Kurirji",
-      total_couriers_count: "element Skupaj element element Kurirji element element prodajalec element",
+      total_couriers_count: "Skupno število kurirjev, ki jih ima prodajalec.",
     },
     configuration: {
       title: "element",
@@ -2055,28 +2055,28 @@ export default {
       title: "Odstrani prodajalec",
       action: "Odstrani prodajalec",
       verify_description:
-        "element element element vse prodajalec Izdelek element element !",
+        "Vem, da bodo vsi odnosi med izdelki prodajalcev odstranjeni!",
       verify_title: "element element Za Izbriši element prodajalec",
     },
 
     send_invitation_tips:
-      "element element Pošlji element element E-naslov Za element Uporabnik element element Uporabnik element element Nakupujte element element prodajalec, element račun element element Za element",
+      "Temu uporabniku bomo poslali e-poštno sporočilo s povabilom. Če se uporabnik pridruži vaši trgovini kot prodajalec, mu bo njegov račun samodejno dodeljen.",
     only_marketplace_owner_can_edit_user:
-      "element element Tržnica Lastnik element Uredi element Uporabnik element element element Za Spremeni se element Lastnik element element prodajalec, element element Pošlji element element Za element",
+      "Samo lastnik tržnice lahko ureja uporabnika. Če želite zamenjati lastnika tega prodajalca, nam lahko pošljete zahtevo.",
     vendor_is_disable_msg: "prodajalec element onemogočeno",
     email_not_match_with_user_msg:
-      "element E-naslov element element Uporabniki E-naslov (<b>{user_name}:</b>{user_email}). element element element Za Pošlji e-poštna sporočila Za<b>{email}</b>?",
+      "Vneseni e-poštni naslov se ne ujema z e-poštnim naslovom uporabnika (<b>{user_name}:</b>{user_email}). Ali ste prepričani, da želite poslati e-pošto na <b>{email}</b>?",
 
     order_information_email_to_email:
       "element element Pošlji Naročila informacije Za <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "element element Uporabnik element element prodajalec element",
+    set_a_user_for_the_vendor_first_msg: "Najprej nastavite uporabnika za prodajalca.",
 
     inputs: {
       slug: {
         label: "element",
         placeholder: "element element Po meri element",
-        hint: "Spremeni se element element element prodajalci element Pristanek stran",
+        hint: "Spremenite pot do prodajalčeve dinamične ciljne strani.",
       },
       email: {
         message: "element E-naslov element Prejeti vse Obvestila element Posodobi",
@@ -2088,11 +2088,11 @@ export default {
         true_title: "podjetje",
       },
       bank: {
-        hint: "element ime element element Banka element element prodajalec element element račun",
+        hint: "Ime banke, kjer ima prodajalec svoj račun.",
         placeholder: "element Banka ime",
       },
       account_name: {
-        hint: "element element ime element element element Banka račun",
+        hint: "To se mora ujemati z imenom, povezanim z bančnim računom.",
         placeholder: "element ime",
       },
       account_number: {
@@ -2100,32 +2100,32 @@ export default {
         placeholder: "element Banka račun element",
       },
       routing_number: {
-        hint: "element element Država element Rabljen Za element element element Banka element element prodajalec element",
-        placeholder: "element Banka element element, element Koda, element BSB element",
+        hint: "Ta številka se razlikuje glede na državo. Uporablja se za identifikacijo določene bančne podružnice, ki jo prodajalec uporablja.",
+        placeholder: "Vaša bančna usmerjevalna številka, koda razvrščanja ali številka BSB..",
       },
       iban: {
-        hint: "element Banka račun element): element element prodajalci Banka element element ",
+        hint: "Mednarodna številka bančnega računa): če je banka prodajalca v Evropi ali nekaterih drugih državah.",
         placeholder: "element IBAN element element DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "element Banka račun element): element element prodajalci Banka element element ",
+        hint: "Mednarodna številka bančnega računa): če je banka prodajalca v Evropi ali nekaterih drugih državah.",
         placeholder: "element element element",
       },
       branch_address: {
-        hint: "element naslov element element Banka element element element prodajalec element element račun",
+        hint: "Naslov bančne poslovalnice, kjer ima prodajalec svoj račun.",
         placeholder: "element Banka naslov",
       },
       enable: {
         label: "prodajalec Stanje",
-        hint: "element element Omogoči element element prodajalci element Stranke element element Za Nakup element Od onemogočeno prodajalci",
+        hint: "Ponudnike lahko omogočite ali onemogočite globalno. Stranke ne bodo mogle kupiti ničesar od prodajalcev invalidov.",
         true_description:
-          "element element Za element element Izdelki element element Tržnica",
+          "Svoje izdelke bodo lahko prodajali prek vaše tržnice.",
       },
       access: {
         label: "prodajalec element & Dostop",
         true_description:
-          "element prodajalec element element Za Nadgradnja Količina element cena",
-        hint: "element element Omogoči element element element prodajalec element, element element prodajalci Za Nadgradnja Izdelek element element Cene element Prejeti element Naročila",
+          "Prodajalec ima namensko ploščo za posodabljanje količine in cene.",
+        hint: "Omogočite ali onemogočite lahko ploščo prodajalca, ki prodajalcem omogoča posodabljanje količin in cen izdelkov ter prejemanje delnih naročil.",
         false_description: "element prodajalec element št Dostop Za element",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "element",
     action_upload_doc: "Naloži element",
     vendor_subtitle:
-      "element Naloži element element podjetje, IP, element naslov element element informacije Za element element Dostop",
+      "Naložite potrebne dokumente za preverjanje podjetja, naslova IP in naslova. Te informacije potrebujemo, da potrdimo vaše partnerstvo in vam zagotovimo potreben dostop.",
     marketplace_subtitle:
-      "prodajalci element element podjetje, element element, element naslov element Za element element KYC element, element element Za element element Dostop",
+      "Prodajalci lahko predložijo dokumente, kot je preverjanje poslovanja, intelektualne lastnine in naslova, da olajšajo njihov postopek KYC, kar vam omogoča, da jim odobrite ustrezen dostop.",
     upload_dialog: {
       title: "Naloži element",
       type: {
         title: "element Vrsta",
         subtitle:
-          "element Naloži element element informacije element element Na voljo",
+          "Naložite samo potrebne dokumente. Izogibajte se deljenju dokumentov, ki vsebujejo občutljive informacije. Zahtevamo dokumente, ki so javno dostopni.",
       },
     },
   },
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "element",
           message:
-            "element Prikaži element značka element Izdelki element element element vrednost element element specifikacija Regex podpora",
+            "Samodejno prikaži to značko za izdelke, ki imajo to ujemajočo se vrednost v svojih specifikacijah. Regex podprt.",
           placeholder: "Za Prikaži element vse Izdelki pisanje: *.*",
         },
       },
       notifications: {
-        badge_added: "element značka element element Dodaj element!",
+        badge_added: "Značka je bila uspešno dodana!",
         badge_updated: "element značka element element !",
         item_not_found_error:
-          "element predmet element element stran element Kontakt Podpora",
+          "Elementa ni bilo mogoče najti. Osvežite stran ali kontaktirajte podporo.",
       },
     },
   },
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "Oznake",
     tips: [
-      "element element filter Izdelki element element Oznake element <b>Pristanek strani</b>.",
-      "element element element Stranke element iskanje element element Oznake element element<b>iskanje</b> element",
-      "element element Oznake, element Izdelki element element <b>element Oznake</b> element element <b>element Izdelki element</b> element element Izdelek stran; element, Izdelki element element element Kategorija element element element",
+      "Izdelke lahko filtrirate na podlagi oznak na <b>ciljnih straneh</b>.",
+      "Vi in vaše stranke lahko iščete te oznake v vrstici<b>search</b>.",
+      "Če nastavite oznake, bodo v razdelku <b>sorodnih izdelkov</b> na strani izdelka prikazani samo izdelki z <b>skupnimi oznakami</b>; sicer bodo prikazani izdelki v isti kategoriji.",
     ],
     inputs: {
       tags: {
-        placeholder: "element Oznake element element npr Novo element",
+        placeholder: "Žične oznake tukaj in pritisnite enter. npr. nova zbirka",
       },
     },
     notifications: {
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "Dostava Storitve",
     subtitle:
-      "element Tržnica Ponudbe Dostava metode Za pomoč prodajalci element element Naročila element element Dodaj Dostava Storitve element Za element 🛍️ Naroči Dostava element Od element 🛍️ Naroči stran element element Naslovi element element koda element element Dostava element",
+      "Tržnica ponuja načine pošiljanja, ki prodajalcem pomagajo izpolniti njihova naročila. Tukaj lahko dodate storitve pošiljanja, da preprosto naročite nalepke za pošiljanje na strani za naročila. To poenostavi postopek s sinhronizacijo naslovov in kod za sledenje s ponudnikom pošiljanja.",
 
     subtitle_pickup:
-      "element Tržnica element element element prodajalci, element element Za element element Od element Lokacija element element Dostava element element element Dodaj element element Lokacija element element profil (element Skladišče element element Rabljen element element Privzeto element Lokacija).",
+      "Tržnica omogoča prevzem za prodajalce, kar kupcem omogoča, da kot možnost pošiljanja izberejo prevzem z vaše lokacije. Prevzemno mesto lahko dodate v svojem profilu (vaše skladišče bo uporabljeno kot privzeto prevzemno mesto).",
     action: "Dodajte storitev",
 
     add_dialog: {
       select_service_msg:
-        "Dostava metode element element Tržnica, element Stranke element element Od element prodajalci element št element element Dostava Storitve Za Nakup element element element Izberi element metoda Od element Seznam element Za Ogled Na voljo Storitve element element Dostava storitev Od element Seznam element element element Na voljo Storitve element element element Dodaj Za element trgovina element element element",
+        "Načine pošiljanja določa trg, kupci pa lahko izbirajo med njimi. Prodajalci nimajo nadzora nad temi možnostmi, lahko pa svojo ploščo integrirajo s storitvami pošiljanja za neposreden nakup nalepk. Za ogled razpoložljivih storitev izberite način s spodnjega seznama. Na spodnjem seznamu izberite storitev dostave. Tukaj so prikazane samo razpoložljive storitve, ki jih je mogoče dodati v vašo trgovino.",
       no_available_service: "št Na voljo storitev!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Lokacija",
     empty_subtitle:
-      "element element Lokacija Za element Izdelek element element predmet",
+      "Izdelku dodelite lokacijo, če gre za element, ki temelji na lokaciji.",
     dialog: {
       header: "Izberi Lokacija profil",
       action_new_location: "Dodajte novo lokacijo",
       title: "Lokacija profil",
       subtitle:
-        "element element element Izdelki element element Zemljevid Lokacija element element Lokacija Oznake Za element Izdelki",
-      tips: "<b>element: </b> element element Lokacija Za element Izdelek <b>element</b> element element element Za Prikaži element Izdelek element element element Lokacija element element Zemljevid element element Izdelek element element element Lokacija element element glavna element, Všeč mi je <b>element element</b> element element Storitve Všeč mi je<b>element element element</b>.",
+        "Izdelke lahko pripnete na lokacijo zemljevida tako, da izdelkom dodelite oznake lokacije.",
+      tips: "<b>Pomembno: </b> Izdelku dodelite lokacijo <b>samo</b>, če želite izdelek prikazati na določeni lokaciji na zemljevidu. Pritrjeni izdelek mora imeti lokacijo kot glavno specifikacijo, na primer <b>domovi/mesta za najem</b> ali osebne storitve, kot je<b>Frizerstvo in zdravilišče</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "element element Seznam element Predmeti element element Izdelek element storitev paket",
+      "Vključite seznam elementov, ki so priloženi paketu izdelkov ali storitev.",
     dialog: {
       header: "Izdelek paket Predmeti",
       title: "element Predmeti",
-      subtitle: "element element Predmeti element element Izdelek",
+      subtitle: "To je zbirka elementov, ki so priloženi izdelku.",
       action_manage: "Upravljaj Predmeti",
       action_disable_msg: "Tržnica Lastnik",
       select_items_tips:
-        "Ustvari element element paket element element Izdelek element storitev element element element Za element element Stranke element element predmet element element stranka Za element element , element element ",
+        "Ustvarite ali izberite komponente paketa, ki so priložene izdelku ali storitvi. Uporabite to funkcijo, da poudarite, kaj kupci lahko pričakujejo, da bodo prejeli ob nakupu izdelka. Svetujemo uporabo te funkcije le, kadar je ključnega pomena, da stranka razume vključeno vsebino, na primer pri nakupu pametnega telefona.",
       create_item_tips:
-        "element, element element Novo predmet element element Slike, element element Naloži Slike Za element 256element element element Za element element Videz element vse element, element element Slike element prozorno ozadje element element vse element Izdelki",
+        "Druga možnost je, da vključite nov element. Uporabite kvadratne slike, saj bomo samodejno spremenili velikost naloženih slik v kvadratni format 256x256. Če želite zagotoviti optimalen videz v vseh predlogah, uporabite minimalistične slike s prozornimi ozadji in ohranite dosleden vzorec za vse svoje izdelke.",
       create_new_item_action: "Ustvari Novo element predmet",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "element element",
           subtitle:
-            "element element element Barva Koda, element, <b>#654FFF</b>, element element , element, <b>#764FFA/#000000</b>.",
+            "Vnesite šestnajstiško barvno kodo, npr. <b>#654FFF</b>, ali dve barvi, ločeni s poševnico, npr. <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "element element vrednost Za element element, element Slike element <b>element element</b>. Naloži element element Koda element element element",
+            "Spremenljivkam lahko dodelite poljubno vrednost, vključno s slikami z uporabo <b>Graphic Assets</b>. Naložite vzorec in uporabite ustvarjeno kodo za različico.",
           graphical_asset_action: "element element",
           graphical_asset_action_caption: "Slike element element element",
         },
         smart_unit_price: {
-          tips: "element enota cena element element <b>Utež</b>, <b>glasnost</b>, element <b>element element</b>. Za element element element, element Za Nakupujte > Nastavitve > Tema > Izdelek stran > element enota cena",
+          tips: "Izračunajte ceno na enoto glede na <b>težo</b>, <b>prostornino</b> in <b>velikost paketa</b>. Če želite onemogočiti to funkcijo, se pomaknite do Trgovina > Nastavitve > Tema > Stran izdelka > Pametna cena na enoto.",
           smart_unit_price: "enota cena element",
         },
         quantity: {
@@ -2469,13 +2469,13 @@ export default {
         package: {
           title: "element & Dostava",
           subtitle:
-            "element Utež element element element Variante Za element Dostava element",
+            "Določite težo in mere za različice, da določite možnosti pošiljanja.",
           same_as_product_action: "element element Izdelek",
         },
         image: {
           title: "element Slike",
           subtitle:
-            "Dodaj element Slike element element Slika Naloži element element element Primarni Slika element element element",
+            "Dodajte edinstvene slike za vsako različico. Prva naložena slika bo primarna slika za to različico.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "element element predmet element (GTIN)",
             message:
-              "podpora element: UPC (12 element), EAN (13 element), JAN (8 element 13 element), ISBN (13 element).",
+              "Podprti formati: UPC (12 mest), EAN (13 mest), JAN (8 ali 13 mest), ISBN (13 mest).",
           },
         },
       },
@@ -2514,11 +2514,11 @@ export default {
   product_extra_physical: {
     weight: "Teža paketa",
     weight_subtitle:
-      "Vnos element Izdelki Skupaj element Utež element element informacije pomoč element element element Dostava metoda element element element 🛍️ Naroči element element element Dostava Omejitev",
+      "Tukaj vnesite skupno težo embalaže izdelka. Te informacije pomagajo izbrati pravi način pošiljanja in zagotavljajo, da naročilo ne preseže omejitve pošiljanja.",
     weight_unit: "Kg",
     size: "Dimenzije paketa",
     size_subtitle:
-      "Vnos element Izdelki element element informacije element Rabljen Za element element element Dostava metoda element element element 🛍️ Naroči element element Omejitev",
+      "Tukaj vnesite celotno velikost embalaže izdelka. Ti podatki se uporabljajo za izbiro pravilnega načina pošiljanja in zagotavljanje, da naročilo ne presega omejitve velikosti paketa.",
 
     width: "Premer",
     length: "Dolžina",
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Čas priprave",
     lead_time: "Čas priprave",
     lead_time_subtitle:
-      "element Čas element element Trajanje element Za element element Izdelek element Dostava, element pomoč element element element Dostava Čas",
+      "Dobavni čas oceni trajanje, potrebno za pripravo izdelka za pošiljanje, kar pomaga pri oceni časa dostave.",
 
     lead_time_dimension: "Ure)",
     bulk_action: "Množična dejanja",
@@ -2572,9 +2572,9 @@ export default {
     title: "element element element",
     tips: {
       how_it_works:
-        "<b>element element element:</b><br />Naloži element element predmet Slike element Za element element Slike element element , element <b>{filename}</b> element element element vrednost Opomba element element Koda element element Rabljen element element <b><s>Barva</s></b> vrednost",
+        "<b>Kako deluje:</b><br />Sem naložite slike vzorcev ali predmetov. Če želite te slike uporabiti kot možnost različice, vključite <b>{filename}</b> v vrednost različice. Upoštevajte, da te kode ni mogoče uporabiti v vrednosti <b><s>color</s></b>.",
       how_set_name:
-        "<b>element element:</b><br />element element 12 element element element Naloži datoteka ime element element Rabljen element element element ime element element Izdelek, element element Za element element , element Naloži element Slike element element 100, element element Vrste element Pohištvo",
+        "<b>Nasveti za poimenovanje:</b><br />Prvih 12 znakov imena naložene datoteke bo uporabljenih kot ime sredstva. Ta funkcija je idealna za predstavitev prilagodljivih vidikov izdelka, kot so velikosti pnevmatik za motorna kolesa ali vzorci blaga. Če želite optimizirati uporabo te funkcije, se tukaj izogibajte nalaganju različnih slik, razen če je število grafičnih sredstev manjše od 100, kot so različne vrste lesa za pohištvo.",
     },
   },
 
@@ -2601,15 +2601,15 @@ export default {
     out_of_stock: "element element ",
 
     image: {
-      tooltip: "⚡ element element Slika element Za element element Za element element",
+      tooltip: "⚡ Povlecite in spustite sliko sem, da jo dodelite različici.",
     },
     enable: {
-      true_tooltip: "element predmet element Na voljo element element element trgovina",
-      false_tooltip: "element predmet element element Na voljo element element element trgovina",
+      true_tooltip: "Artikel je na voljo v spletni trgovini.",
+      false_tooltip: "Artikel ni na voljo v spletni trgovini.",
     },
     restore_dialog: {
       title: "element element",
-      message: "element element Za element element Izbrisano element?",
+      message: "Ali ste prepričani, da želite obnoviti to izbrisano različico?",
       action: "da, element element",
     },
     notifications: {
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "element Dejanja > cena",
     message:
-      "element element Znesek element element Za element cena element vse Izdelki element element trgovina element, element element cena element element Za element element Izberi element element ",
+      "Naslednji znesek bo veljal kot odstotek cene vseh izdelkov v vaši trgovini. Prav tako bodo izračunane vrednosti cen inteligentno pretvorjene v najbližje okroglo število glede na izbrano valuto. Bodite previdni pri vnašanju vrednosti.",
     check: "element element cena element",
     check_description:
-      "element cena element element Izberi Kategorija element vse element",
+      "Cena se spremeni za izbrano kategorijo in vse podkategorije.",
     add_percent_tab: "Dodaj Odstotek",
     add_constant_tab: "Dodaj element",
     ending_tab: "konec element",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "element Znesek element element Dodaj element element Od element element cena element Izdelki",
+        "Znesek se prišteje ali odšteje od trenutne cene izdelkov.",
     },
     ending: {
       subtitle:
-        "element konec element element element cena element Izdelki element element element Za element element vrednost",
+        "Konec trenutne cene izdelkov bo spremenjen na navedeno vrednost.",
     },
     marketplace: {
       title: "Tržnica Vnos cena",
       subtitle:
-        "element element Za element Nadgradnja element Vnos cena element Izdelki element element Tržnica element, element glavna Izdelek cena element element prodajalec Cenitev element Za ročno cena element",
+        "Ta možnost vam omogoča samodejno posodabljanje cen izdelkov na tržnici. Občasno se glavna cena izdelka morda ne ujema s ceno prodajalca zaradi ročnih sprememb cene.",
       strategy: {
         min: {
           title: "element najmanj cena",
           description:
-            "element element najmanj cena element element Izdelek element element Vnos cena",
+            "Nastavite najnižjo ceno izdelka kot ceno kotacijo.",
         },
         max: {
           title: "element največ cena",
           description:
-            "element element največ cena element element Izdelek element element Vnos cena",
+            "Nastavite najvišjo ceno izdelka kot ceno na seznamu.",
         },
       },
     },
 
     category: {
-      subtitle: "Omejitev element element Za element Kategorija element vse element",
+      subtitle: "Omejite množično dejanje na kategorijo in vse podkategorije.",
     },
     vendor: {
       subtitle:
-        "Omejitev element Dejanja Za element element prodajalec element element prodajalec element Izberi, element cena Nadgradnja element element element Za element prodajalci Izdelki, element element cena element element prodajalec",
+        "Omejite množična dejanja na določenega prodajalca. Ko je dobavitelj izbran, bo za izdelke prodajalca uporabljena posodobitev cene, ki predstavlja prodajno ceno za tega prodajalca.",
       listing_price_need_update_msg:
-        "element element element Za Nadgradnja element Vnos cena (element cena element element element Izdelek Seznam), element element Nadgradnja element element element Filtri element element Izberi element prodajalec",
+        "Če želite posodobiti ceno kotacije (ceno, prikazano na seznamu izdelkov), morate znova predložiti množično posodobitev z enakimi filtri, vendar brez izbire prodajalca.",
     },
     listing_products_changes: "Vnos Izdelki Spremeni se",
     total_vendor_products: "Skupaj prodajalec Izdelki",
@@ -2815,27 +2815,27 @@ export default {
       currency_step: {
         title: "Izberi element valuta",
         subtitle:
-          "element Za element element trgovina Za element najmanj—element element element 3. element Plačilo Prehodi element element Transakcije element element element valuta",
+          "Poskusite ohraniti čim manjše število valut v vaši trgovini – idealno manj kot 3. Večina plačilnih prehodov lahko obdeluje transakcije v skoraj vseh valutah.",
         add_first_currency: {
-          subtitle: "element Dodaj element valuta Za element Nakupujte element element",
+          subtitle: "Pred nadaljevanjem dodajte valuto v svojo trgovino.",
           title: "Dodaj valuto",
         },
       },
       gateway_step: {
         title: "Aktiven Plačilo metode",
         subtitle:
-          "element element Od element Na voljo Plačilo metode element element Izberi element prehod, element element element Za element element Podrobnosti Za Povezava element Nakupujte element Za element element Plačilo metoda",
+          "Izberite med razpoložljivimi načini plačila. Ko izberete prehod, boste lahko vnesli potrebne podatke o povezavi, da svojo trgovino neposredno povežete z želenim načinom plačila.",
       },
 
       config_step: {
-        import_config: "element element Uvozi element Od element element Prehodi",
+        import_config: "Konfiguracijo lahko uvozite iz drugih podobnih prehodov",
         import_from: "Uvozi Od",
       },
 
       request_add_new_gateway: {
         title: "element oglej si element element Plačilo metoda?",
         subtitle:
-          "element element element Plačilo element element seznam, element Za element Letno Načrtujte (element element ) element element 48 element element račun element element ",
+          "Če vašega lokalnega ponudnika plačil ni na seznamu, se naročite na kateri koli letni paket (vključno z zagonom za dostopnost) in zahtevajte integracijo. Če bosta predložena testni račun in dokumentacija, ga bomo dokončali v 48 urah.",
       },
 
       inputs: {
@@ -2844,11 +2844,11 @@ export default {
         },
         manual: {
           true_title: "element način",
-          true_description: "element element element prehod element element",
+          true_description: "Konfiguracijo prehoda lahko nastavite ročno.",
 
           false_title: "samodejno poveži",
           false_description:
-            "element element poveži Za element prehod element element prehod element element",
+            "Sistem se bo samodejno povezal s prehodom, če že imate konfiguriran prehod.",
         },
       },
     },
@@ -3074,23 +3074,23 @@ export default {
 
     config: {
       subtitle:
-        "kategorije pomoč element Izdelek Upravljanje element zasluži element element Stranke Za element Izdelki element element trgovina",
+        "Kategorije pomagajo poenostaviti upravljanje izdelkov in vašim strankam olajšajo iskanje izdelkov v vaši trgovini.",
     },
     parent: {
       subtitle:
-        "element Kategorija element element Kategorija element element Izdelek element element Kategorija, element element glavna Kategorija",
+        "Ta kategorija bo prikazana pod nadrejeno kategorijo. Če izdelek nima nadrejene kategorije, bo prikazan v glavni kategoriji.",
     },
     template: {
       title: "Predloga",
       edit_page: "Uredi stran",
       Pages_list: "stran Seznam",
       subtitle:
-        "element element Kategorija stran element element element Po meri stran element element Za Ustvari strani element prozorno ozadje element Oblikovanje 1 Za 2 element element Za element Kategorija element element element Povezava element stran Za element kategorije, element element element Za element element Kategorija element",
+        "Prikaz strani s kategorijo lahko izboljšate s prekrivanjem strani po meri. Najboljši pristop je ustvariti strani s prosojnim ozadjem in oblikovati 1 do 2 razdelka, značilna za vsako kategorijo. Nato lahko eno stran povežete z več kategorijami z uporabo dinamične vsebine za prilagajanje vsake kategorije posebej.",
     },
     critical_zone: {
       title: "element element",
       subtitle:
-        "element element Odstrani element Kategorija, element element element Izdelki element element element Za element element element<b>📁 {parent}</b>. Za Upravljaj kategorije element element Izdelek Seznam, element Za element Nakupujte > kategorije element",
+        "Če odstranite kategorijo, bodo njene podkategorije in izdelki premaknjeni v nadrejeni imenik<b>📁 {parent}</b>. Za upravljanje kategorij, ki niso na seznamu izdelkov, pojdite na zavihek Trgovina > Kategorije.",
       accept_delete: {
         true_description: "element element Za Odstrani element Kategorija",
         true_title: "element Odstrani Kategorija",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategorija urejena.",
       },
       manually_update_filters_tips:
-        "<b>element!</b> Filtri element element Izdelki Spremeni se element, element element element Za Izdelki element element Kategorija, element Vrnitev element element Za element element filter",
+        "<b>Pomembno!</b> Filtri se samodejno posodobijo, ko se izdelki spremenijo. Ko pa spremenite izdelke v kategoriji, se vrnite sem in kliknite gumb za shranjevanje/ponovno ustvarjanje, da osvežite filter.",
 
       inputs: {
         spec: {
           message:
-            "Seznam element element Za element element filter element",
+            "Seznam funkcij, za katere želite, da so prikazane v razdelku s filtri",
           placeholder: "Izberi specifikacija Za Prikaži element filter",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Opis trgovine",
     description_input_message: "Napišite kratek opis svojega podjetja.",
     description_input_tips:
-      "element Opis element element Trgovine element element Rabljen element element Privzeto element Oznaka Opis element element trgovina strani",
+      "Ta opis se bo pojavil v nogi vaše trgovine in bo uporabljen tudi kot privzeti opis meta oznake za vaše strani trgovine.",
     address_input: "Naslov trgovine",
     address_input_message: "Vnesite točen naslov lokacije trgovine",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "element",
         subtitle:
-          "element element element Za Prekliči element 🛍️ Naroči element, element element ",
+          "Če želite naročilo takoj preklicati, lahko uporabite to možnost.",
       },
 
       express_input: {
         true_title: "element | Prekliči 🛍️ Naroči element",
         false_title: "element | Prekliči 🛍️ Naroči element 48 element",
         true_description:
-          "element element element Prekliči element 🛍️ Naroči element element Nadgradnja element Inventar element element",
+          "Ta možnost bo takoj preklicala vaše naročilo in takoj posodobila inventar.",
         false_description:
-          "element element element Prekliči element 🛍️ Naroči element 48 element element element, Predmeti element element ",
+          "Ta možnost bo preklicala vaše naročilo po 48 urah. Do takrat bodo izdelki rezervirani in jih drugi ne morejo kupiti.",
       },
     },
 
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "vračilo element Za element stranka",
         message:
-          "element element element Skupaj Znesek element vračilo element element element Za zasluži element element ni na voljo Predmeti element Skupaj vračilo element element",
+          "Ročno izračunamo skupni znesek vračil, ki jih morate izvesti. Izračunal se je na podlagi še nerazpoložljivih artiklov in skupnih vrnjenih vrednosti.",
         calculated_approximately:
-          "element Znesek element element Znesek element",
+          "Znesek se izračuna približno. Natančen znesek izračunajte sami.",
       },
       need_payback: {
         title: "stranka Napolniti element",
         message:
-          "element element Skupaj vračilo Za element stranka element element Znesek element element Predmeti element element Za Napolniti element stranka Za element element element Znesek",
+          "Opazili smo, da je skupni znesek, vrnjen stranki, višji od dolgovanega zneska glede na elemente v vozičku. Morda boste morali stranki zaračunati povrnitev presežka.",
       },
       need_no_refund: {
         title: "št vračilo element",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "Skupaj vračilo",
         message:
-          "element element Skupaj Znesek element vračilo element element Plačilo prehod element element Plačilo Storitve Podpora element element, element element element Za vračilo element",
+          "To je skupni znesek vračil, ki jih samodejno izvede vaš plačilni prehod. Samo nekatere plačilne storitve podpirajo to funkcijo, zato morate denar vrniti ročno.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "element Utež element vse Predmeti element {weight} {unit}",
       not_available_message:
-        "element element Na voljo element element element onemogočeno element element Dostava naslov element element Uporabnik element element element naslov element Nakup!",
+        "Ni na voljo, ko je onemogočeno zahtevati naslov za dostavo in tudi uporabnik po nakupu ni vnesel naslova!",
 
       message:
         "Kliknite naslednji gumb <b>Naročilo pripravljeno</b> , če je naročilo pripravljeno za odpremo.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Poročilo o plačilih",
         subtitle:
-          "element plačila element Transakcije element element element Izberi Čas element",
+          "Ustvarjena plačila in transakcije v izbranem časovnem obdobju.",
         chart: {
           times: "štetje",
           buys: "Kupite štetje",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "element prehod Stanje",
     oauth2_button: "samodejno Connect Za {gateway}",
     fee_payment_message:
-      "Selldone element element Znesek Plačano element element stranka element element element Za element račun element storitev Pristojbina element element element Od element denarnica element element",
+      "Celoten znesek, ki ga plača stranka, bo nakazan na vaš račun. Pristojbina za storitev bo odšteta iz vaše denarnice v Selldone.",
 
     auto_config: "samodejno element",
 
     keys: {
       title: "Zasebno element",
       subtitle:
-        "Seznam element Zasebno element element element Plačilo element informacije element element plačila",
+        "Seznam zasebnih ključev za plačilo. Ti podatki so bistveni za ustvarjanje in upravljanje plačil.",
     },
     extra_config: {
       title: "Plačilo storitev element",
-      subtitle: "element element informacije element element Plačilo prehod",
+      subtitle: "Dodatne informacije o konfiguraciji za plačilni prehod.",
     },
 
     recommended_actions: {
       title: "element Dejanja",
       subtitle:
-        "element element , element element Za Prejeti element plačila Od element Stranke",
+        "Če boste izvedli te korake, boste začeli prejemati dejanska plačila od svojih strank.",
       action_enable: "element Za Omogoči element",
       make_live_enable: "element Za V živo element",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "Spletna stran",
     status_title: "Plačilo storitev Stanje",
     status_message:
-      "element element Plačilo metoda element Aktiven element neaktiven element metode element element Aktiven element element element Za Stranke",
-    status_true_description: "element Stranke element plačati element element Plačilo metoda",
+      "Konfigurirajte plačilno sredstvo kot Aktivno ali Neaktivno. Strankam bodo prikazane samo metode, ki so nastavljene kot aktivne.",
+    status_true_description: "Vaše stranke lahko plačajo s tem načinom plačila.",
 
     manual_title: "ročno / samodejno element Plačilo",
     manual_message:
-      "element element Ustvari element Plačilo, element element Plačilo metoda Za element element npr, element element Plačilo element element , element element element denar element element ",
+      "Ko ustvarite plačilo, lahko zadržite upravičeno plačilno sredstvo, da rezervirate sredstva, ki jih lahko zajamete pozneje. Na primer, hoteli pogosto odobrijo celotno plačilo, preden gost pride, nato pa zajamejo denar, ko se gost odjavi.",
 
     gateway_status: "Stanje",
     wallet: "Blockchain denarnica",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "Razviti & element",
-      subtitle: "element element Omogoči element element način Za element element Plačilo prehod",
+      subtitle: "Za preizkus plačilnega prehoda lahko omogočite način odpravljanja napak.",
     },
 
     limit: {
@@ -3746,20 +3746,20 @@ export default {
     hold_only_for: "element Plačilo element Na voljo element",
     manual_input: {
       false_description:
-        "element Plačilo Stanje element element Od V teku Za Potrjeno element element Plačilo element element",
+        "Status plačila se samodejno spremeni iz čakajočega v potrjen v sistemu ponudnika plačil.",
       false_title: "samodejno Plačilo element",
       true_title: "element plačila element ročno element",
       true_description:
-        "element element Plačilo element element element Za element element plačila element element 🛍️ Naroči Za Spremeni se element Stanje Od V teku Za Potrjeno element element Plačilo element element",
+        "Zadržite plačilo, tako da morate preveriti plačila za naročilo, da spremenite njihov status iz čakajočega v potrjen v sistemu ponudnika plačil.",
     },
     delete_verify_input: {
       true_title: "element element Za Odstrani element Plačilo metoda",
       true_description:
-        "element Plačilo metoda element element element Od element trgovina element element Na voljo Za Stranke",
+        "Ta način plačila bo odstranjen iz trgovine in strankam ne bo na voljo.",
     },
     delete_alert: {
       title: "Izbriši Plačilo metoda",
-      message: "element element element Izbriši element Plačilo metoda Od element Nakupujte?",
+      message: "Ali ste prepričani, da ste to plačilno sredstvo izbrisali iz svoje trgovine?",
       action: "Izbriši Plačilo metoda",
     },
   },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Seznam izdanih kartic",
       subtitle:
-        "Ogled element Upravljaj vse element Kartice element element Pošlji Kartice Za Uporabniki element element ",
+        "Ogled in upravljanje vseh izdanih kartic. Kartice lahko uporabnikom pošljete ročno ali jih po potrebi izključite.",
 
       loading_message: "Pridobivanje informacij ... počakajte",
       issue_to_user: "Težava uporabniku",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Seznam element element element Naročila element element Za element element Ponudniki",
+      "Seznam zunanje sinhroniziranih naročil, ki jih morajo izpolniti ponudniki tretjih oseb.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "Pošlji element Plačilo element SMS Za element stranka element {phone}.",
+      "Stranki pošlji SMS s potrditvijo plačila prek {phone}.",
     "sms-ready-to-ship":
-      "Pošlji element SMS Za element stranka element element element 🛍️ Naroči element element Za element Poslano element {phone}.",
+      "Pošljite SMS stranki z obvestilom, da je njeno naročilo pripravljeno za pošiljanje prek {phone}.",
     "sms-ready-to-pickup":
-      "Pošlji element SMS Za element stranka element element element 🛍️ Naroči element element {phone}.",
+      "Pošljite SMS stranki z obvestilom, da je njeno naročilo pripravljeno za prevzem prek {phone}.",
     "sms-order-confirmation":
-      "Pošlji element 🛍️ Naroči element SMS Za element stranka element {phone}.",
+      "Pošljite SMS potrditve naročila stranki prek {phone}.",
 
     "count-adjustment":
-      "element Količina element element Izdelek \"{product}\" element element element Od {from} Za {to}.",
+      "Količina izdelka \"{product}\" je bila posodobljena iz {from} v {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Premaknite kategorijo <b>{category}</b> v drugo kategorijo",
     move_product: "Premaknite izdelek <b>{product}</b> v kategorijo",
     load_more_products:
-      "Več. . Izdelki element Na voljo element element Kategorija element Za element Več. . Predmeti",
+      "V tej kategoriji je na voljo več izdelkov. Kliknite za nalaganje več elementov.",
     product_menu: {
       dashboard: "Nadzorna plošča izdelka",
       inventory: "Inventar in različice",
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "element element Izdelki element element element št filter",
-      has_root_filter_message: "element element Filtri element element Kategorija",
+      no_root_filter_message: "Imate izdelke v korenu, vendar brez filtra.",
+      has_root_filter_message: "Nastavite filtre za korensko kategorijo.",
       set_filter_message: "element element element Filtri",
       edit_action: "Uredi element Filtri",
       clear_action: "element element Filtri",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "element",
       sort_categories: "element / element kategorije",
       subscription_vendor_not_support_message:
-        "element element element prodajalec element Naročnina Izdelki! Naročnina Izdelki element element prodajalec element element Lastnik!",
+        "Ne morem dodeliti prodajalca za naročniške izdelke! Naročniški izdelki morajo imeti vedno lastnika prodajalca!",
       vendor_owner_not_assignable_message:
-        "element element prodajalec element Izdelki element element prodajalec element element Lastnik!",
+        "Ne morem dodeliti prodajalca za izdelke, katerih lastnik je prodajalec!",
       category_assign_profile: "element profil Za Izdelki element element Kategorija",
       category_assign_profile_subtitle: "davek, Dostava, vodnik, garancija,. ..",
       bulk_discount: "element Popust",
@@ -4119,10 +4119,10 @@ export default {
     no_panel: "št element",
     manual_action: {
       title: "ročno Dejanja",
-      message: "element element Nadgradnja element prodajalec 🛍️ Naroči Stanje element",
+      message: "Status naročila dobavitelja lahko posodobite ročno.",
       guides: [
-        "prodajalci element element Dostop element Nadgradnja element element (element) element element element Nadzorna plošča",
-        "element element prodajalec element št element Dostop, element prodajalec 🛍️ Naroči Stanje element element Stanje",
+        "Prodajalci z dostopom do plošče lahko posodobijo svojo izpolnitev (podnaročila) na svoji namenski nadzorni plošči.",
+        "Če prodajalec nima dostopa do plošče, se status naročila prodajalca samodejno spremeni s spremembo statusa košarice.",
         "element element Nadgradnja prodajalec Naročila element",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Izdelki",
       subtitle:
-        "element element element Ogled element štetje element element Izdelki seznam element element Tržnica Izdelki element element prodajalci element element element",
+        "Tukaj si lahko ogledate število svojih izdelkov, ki so navedeni na tržnici. Izdelki več prodajalcev niso vključeni.",
     },
     wallets: {
       title: "Moja denarnica",
       subtitle:
-        "element element element Za Dodaj Denarnice element! prodajalec Denarnice element element ",
+        "Denarnice vam ni treba dodajati ročno! Denarnice prodajalcev bodo ustvarjene samodejno.",
     },
 
     open_marketplace_page: "element Tržnica stran",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Seznam izdelkov",
     subtitle:
-      "element element element Seznam element element Izdelki element element Tržnica Nadgradnja Cene element element Izdelki element element Inventar element element prodajalec, element element oglej si element Izdelki element element Izdelek Seznam element element Izdelki element element ",
+      "To je seznam vaših izdelkov na tržnici. Posodobite cene in količine za vaše dodeljene izdelke v zalogi. Kot prodajalec boste na seznamu izdelkov videli samo izdelke enega prodajalca, ki jih imate. Tu lahko spreminjate tudi druge dodeljene izdelke.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "element člani",
     subtitle:
-      "element element element Seznam element Uporabniki element element Dostop Za element prodajalec element element element Dodaj Novo element člani element element element Dovoljenja element",
+      "To je seznam uporabnikov, ki imajo dostop do vaše plošče prodajalca. Tu lahko dodate nove člane ekipe in prilagodite njihova dovoljenja.",
     add_action: "Dodaj Novo član",
     pending: {
       title: "V teku element",
-      message: "Ogled element Seznam element element Čakanje element",
+      message: "Oglejte si seznam povabil, ki čakajo na sprejem.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "element član Podrobnosti",
       subtitle:
-        "Dodaj element Novo element član element element element Dovoljenja element element element predmet Za element element Dostop element element element Za element element glavna Nakupujte Nadzorna plošča",
+        "Dodajte novega člana ekipe in nastavite njegova dovoljenja. Kliknite vsak element, da prilagodite dostop za branje/pisanje. Vsaka vrstica ustreza ravni dovoljenja za glavno nadzorno ploščo trgovine.",
     },
     access: {
       view_data: "Ogled Podatki",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "član Dodaj",
-        message: "element element član element element element Dodaj",
+        message: "Član ekipe je bil uspešno dodan.",
       },
       update_success: {
         title: "član element",
-        message: "element element člani informacije element element ",
+        message: "Podatki o članu ekipe so bili uspešno posodobljeni.",
       },
     },
     actions: {
@@ -4232,26 +4232,26 @@ export default {
     list: {
       title: "element Zgodovina",
       subtitle:
-        "element element Ogled element element Zgodovina element element Banka element element Plačilo Storitve element Ponudba element element",
+        "Zgodovino izplačil si lahko ogledate tukaj. Ta izplačila se lahko obdelajo ročno prek bančnih nakazil ali samodejno z uporabo plačilnih storitev, ki ponujajo možnost izplačila.",
     },
     connect: {
       title: "Connect Banka",
       subtitle:
-        "element Ponudba element Plačilo element element Plačilo Prehodi Za Prejeti plačila element element element Nakup, element poveži element Banka račun element element element",
+        "Ponujamo možnosti razdeljenega plačila za naslednje plačilne prehode. Za nemoteno prejemanje plačil po vsakem nakupu povežite svoj bančni račun s temi možnostmi.",
     },
     verify_dialog: {
       title: "element Plačilo",
       option: {
         title: "prodajalec element",
         subtitle:
-          "element element Za Sprejmi element Zavrni element Prenos element element Prejeto element element; element element, element št element Za element element element",
+          "Ta prenos lahko sprejmete ali zavrnete. To dejanje služi samo kot zgodovinski zapis. Preprosto potrdite, ali ste prejeli sredstva; če ne, ni treba ukrepati.",
       },
       inputs: {
         verify: {
           label: "element element Potrjeno element Plačilo?",
           false_description:
-            "št, element element Prejeto element Plačilo element element Banka račun",
-          true_description: "da, element element Prejeto element Preverjeno element Plačilo",
+            "Ne, tega plačila še nisem prejel na svoj bančni račun.",
+          true_description: "Da, prejel sem in preveril to plačilo.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "vračilo 🛍️ Naroči",
     subtitle:
-      "<b>element! </b>element element Transakcija element element prodajalci denarnica element element Znesek Od element element Znesek element element Skupaj Transakcije element element Izberi 🛍️ Naroči element, element element Za Povezano Banka Računi (element element element Stripe Connect element ročno element Prenos), element element Ustvari element <b>element Prenos</b>.",
+      "<b>Pomembno! </b>Izvedba tega dejanja bo ustvarila negativno transakcijo v prodajalčevi denarnici in od nje odštela izbrani znesek. Znesek ne sme preseči preostalih skupnih transakcij za izbrano naročilo. Poleg tega, če so bila sredstva prenesena na povezane bančne račune (na primer s Stripe Connect ali ročnim bančnim nakazilom), morate ustvariti <b>stornirni prenos</b>.",
     inputs: {
       note: {
         message: "element element Za element prodajalec",
         placeholder: "element element Opomba element",
       },
       amount: {
-        error_message: "element element Znesek element element element",
+        error_message: "Preostali znesek je bil presežen.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "element element element Pregled element element Transakcije element element prodajalci element denarnica element element Tržnica element element 🛍️ Naroči element element, element prodajalci element element element Razprodaja element Dodaj Za element denarnica",
+      "To zagotavlja pregled nad transakcijami v virtualni denarnici prodajalca na trgu. Kadarkoli je oddano naročilo, se prodajalčev delež od prodaje doda v njihovo denarnico.",
     vendor_wallets: "prodajalec Denarnice",
     my_wallets: "Moja denarnica",
     refund_order_action: "vračilo 🛍️ Naroči",
     automatic_payout_list: {
       subtitle:
-        "element element element Seznam element samodejno element Za element Povezano Banka račun element Opomba element element samodejno element element , element ročno element element ",
+        "To je seznam samodejnih izplačil na vaš povezani bančni račun. Upoštevajte, da bodo tukaj prikazana samo samodejna izplačila, ročna izplačila pa ne bodo prikazana.",
     },
     reversal_transfer_action: "element Prenos",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "element element element, element element Ogled element Časovnica element Dogodki element Za element 🛍️ Naroči, element, Plačilo, element element element stanje element, element element Naročila element Za element Stranke element prodajalci",
+      "V tem razdelku si lahko ogledate časovnico dogodkov v zvezi z naročilom, izpolnitvijo, plačilom in njihove statuse. Poleg tega lahko opazujete naročila, poslana strankam in prodajalcem.",
     add_note_subtitle: "pisanje element Sporočilo element element ",
 
     message_input: "Tukaj napišite sporočilo ...",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Glavni profil",
       subtitle:
-        "Uredi element Javno profil informacije element element informacije element element element Za element Stranke element element Uporabniki",
+        "Tukaj uredite podatke o svojem javnem profilu. Te informacije so lahko vidne vašim strankam ali drugim uporabnikom.",
       full_name_input: "Polno ime",
       tel_input: "Kontaktna številka",
       email_input: "E-naslov",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Upravljanje",
-      description: "Ustvari element Upravljaj element element element",
+      description: "Ustvarite in upravljajte pogosto zastavljena vprašanja.",
     },
     "backoffice:faq:read": {
       name: "FAQ Dostop",
@@ -5574,7 +5574,7 @@ export default {
         "OAelement Stranke, Osebno Dostop element element Povezano aplikacije",
 
       security: "Varnost",
-      security_subtitle: "element element Upravljaj element Vpiši se element",
+      security_subtitle: "Nastavite dva faktorja in upravljajte možnosti socialne prijave.",
 
       preferences: "Uporabniške nastavitve",
       preferences_subtitle:
@@ -5683,7 +5683,7 @@ export default {
     price: "cena",
     verify: {
       true_title: "element Pogoji",
-      true_description: "element branje element element element Selldone Pogoji element element",
+      true_description: "Prebral sem in se strinjam s pogoji uporabe Selldone",
     },
     need_charge: "Potrebujem polnjenje",
     buy_now: "Kupi zdaj",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Kupljena zgodovina",
       subtitle:
-        "Aktivne in čakajoče licence.",
+        "To je seznam aktivnih in čakajočih licenc. Po vplačanju denarja v denarnico lahko kupite ponudbe. Poleg tega upoštevajte, da ko prekličete naročnino, bo preostali znesek naročnine vrnjen v vašo virtualno denarnico.",
     },
     license_detail: {
       title: "Podrobnosti",
       subtitle:
-        "Omejitve vašega trenutnega načrta.",
+        "To so omejitve vašega trenutnega načrta. Za več podrobnosti obiščite stran s cenami. Dostopate lahko do vseh funkcij v vseh načrtih, vključno z brezplačnim načrtom, da zaženete svoje podjetje in rastete. Ko širite svoje podjetje, razmislite o nadgradnji na načrt višje ravni, da znižate stroške storitev.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "element element denarnica",
         subtitle:
-          "Izberi element element denarnica Za element element element Naročnina element element , element element Ustvari element element element denarnica element element denarnica element element Rabljen element element element",
+          "Izberite virtualno denarnico, ki jo želite uporabiti za svojo naročnino. Če je še nimate, jo lahko ustvarite v razdelku denarnice. Ta denarnica bo uporabljena za vse stroške.",
       },
       auto_renewal: {
         true_title: "Samodejna obnova",
         true_description:
-          "element Naročnina element element denarnica element element Ravnovesje element element ",
+          "Vaša naročnina se samodejno obnovi, če je v vaši denarnici dovolj sredstev ali če imate veljaven vavčer.",
       },
       options: {
         title: "element element",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Ime",
     info: {
       subtitle:
-        "Za element element Izdelek, element element Podrobnosti element element ",
+        "Za ustvarjanje izdelka lahko vnesete le bistvene podatke, ki so potrebni za njegovo izdelavo.",
     },
     price: {
       subtitle:
-        "element element cena element Popust element element Izdelek element element Izdelek element Dodaj, element element Dostop Za Več. . element",
+        "Vnesite ceno in popust za ta izdelek. Ko je izdelek dodan, boste imeli dostop do več možnosti.",
     },
     by_sku: {
       title: "Dodaj element SKU",
-      subtitle: "element element Država element element Na voljo",
+      subtitle: "Baza podatkov v vaši državi ni na voljo.",
     },
     drop_shipping: {
       subtitle:
-        "element Izdelki element element element Tržnica element Dodaj element Za element trgovina",
+        "Poiščite izdelke na veleprodajni tržnici in jih dodajte v svojo trgovino.",
     },
     by_connect: {
       subtitle:
-        "element Dodaj Izdelki Od POD element element Selldone Connect OS—element poveži element trgovina element element samodejno Izdelek element, št element element",
+        "Preprosto dodajte izdelke iz POD ali dobaviteljev dropshipping z operacijskim sistemom Selldone Connect OS – samo povežite svojo trgovino in uživajte v samodejni integraciji izdelkov, vtičniki niso potrebni.",
     },
     your_license_is_not_eligible: "element Licenca element element element",
     sku_dialog: {
       title: "Dodaj Izdelek element SKU",
       subtitle:
-        "element element Za element Izdelki element element SKU element element Dodaj element element ",
+        "V naši zbirki podatkov lahko poiščete izdelke glede na SKU in jih dodate z enim klikom.",
     },
     dropshipping_dialog: {
       title: "Dodaj element Izdelki",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "element, element element Seznam element Izdelki element Selldone, element element Na voljo element element , element element ",
+      "Tukaj lahko najdete trgovce na debelo, ki svoje izdelke objavijo na Selldone, zaradi česar so na voljo drugim trgovcem. Vgrajena platforma za dropshipping podjetja Selldone poenostavlja postopek, tako da je enostaven in enostaven tako za trgovce na debelo kot za trgovce.",
   },
 
   /** @see Affiliates **/
@@ -5892,35 +5892,35 @@ export default {
       new: "Nov pridruženi partner",
       edit: "Uredi partner element",
       subtitle:
-        "element element element Nastavitve element ime element element partner element",
+        "Tukaj konfigurirajte splošne nastavitve in ime pridruženega podjetja.",
     },
 
     payment: {
       title: "Plačilo informacije",
       subtitle:
-        "element element provizija element element element partner element element provizija, element element element provizija element element Izdelek",
+        "Nastavite strukturo provizije za podružnico. Kombinirate lahko fiksne in procentualne provizije ali nastavite posebne provizije za vsak izdelek.",
     },
 
     contact: {
       title: "Kontaktni podatki",
-      subtitle: "element element Kontakt Podrobnosti element element partner element element",
+      subtitle: "Tukaj navedite kontaktne podatke pridruženega partnerja.",
     },
 
     restriction: {
       title: "provizija omejitev",
       subtitle:
-        "element element Izdelki element element element provizija element element element provizija Za element Izdelki",
+        "Določite, kateri izdelki so upravičeni do provizije. Provizije lahko omejite na določene izdelke.",
     },
 
     link_domain: {
       title: "povezano domena",
       subtitle:
-        "Povezava element element element domene Za element partner element element element Kupite element element domena element element element Za element partner",
+        "Povežite eno od svojih domen s tem pridruženim partnerjem. Obiskovalci, ki kupujejo prek te domene, bodo pripisani tej podružnici.",
 
       domain_not_approved_msg: "element domena element element !",
       domain_is_not_enable_msg: "element domena element element omogočeno!",
       domain_is_linked_to_other_affiliate_msg:
-        "element domena element element povezano Za element partner!",
+        "Ta domena je že povezana z drugim partnerjem!",
     },
 
     set_users_first_message: "element element element Uporabnik element!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "element",
       subtitle:
-        "element element partner element element element Za Upravljaj element element element Viri element element element",
+        "Povežite to podružnico z gručo, da jo upravljate skupaj z drugimi viri na enem mestu.",
       manage_action: "Upravljaj",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "partner element ime",
-        message: "element, element element, element Podjetje, element element, element",
+        message: "npr. John Doe, Alex Company, X Marketers itd.",
       },
       commission: {
         label: "provizija element",
         false_description:
           "element element provizija",
         true_description:
-          "element element element provizija element element element Cenitev element",
+          "Izračunajte z uporabo provizij za posamezne izdelke, nastavljenih na zavihku s cenami.",
         false_title: "element + element provizija",
         true_title: "element provizija",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "partner element element Naročila element element element Stranke element element element",
+          "Podružnice lahko oddajo naročila neposredno za svoje stranke prek svoje plošče.",
         true_title: "POS Dostop",
       },
       enable: {
         true_description:
-          "element element partner element Aktiven? element neaktiven, element partner element element element Za Naročila element element element Povezava",
+          "Ali je ta podružnica trenutno aktivna? Če ni aktiven, njihov pridruženi program ne bo veljal za naročila prek njihove povezave.",
       },
       products: {
         label: "Izdelki element element provizija",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "element element partner element element element Od element Nakupujte partner informacije element element Čas element element",
+        "Vse neporavnane dolgove lahko poravnate s pridruženim podjetjem, preden jih odstranite iz svoje trgovine. Podatki o partnerju bodo po izbrisu ostali dostopni omejen čas.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "Po meri Cenitev element Vrednotenja",
     subtitle:
-      "element element element (element Cenitev Vnos obrazec) Za element Izdelek, element Stranke Za Izberi Variante element element cena element element element Po meri Vhodi",
+      "Izdelku dodelite oceno (obrazec za vnos cene), kar strankam omogoči, da izberejo različice ali prilagodijo vaše blago. Sistem bo nato izračunal ceno na podlagi vnosov po meri.",
     add_valuation_action: "Ustvari Novo element obrazec",
     empty_message:
-      "element element Variante, element element Za element Preprosto Izdelek",
+      "Namesto ustvarjanja več različic razmislite o razvoju strategije vrednotenja, ki jo je mogoče uporabiti za preprost izdelek.",
     delete_dialog: {
       title: "element Odstrani",
       message:
-        "element element Za Izbriši element Cenitev obrazec? element element Po meri Cenitev element element element Od vse element Izdelki element",
+        "Ali ste prepričani, da želite izbrisati ta obrazec za cene? Prepričajte se, da je ta cenovna strategija po meri najprej odstranjena iz vseh povezanih izdelkov.",
       action: "Da, Izbriši zdaj",
     },
     notifications: {
@@ -6033,14 +6033,14 @@ export default {
     title_add: "Ustvari Novo element obrazec",
     config: {
       subtitle:
-        "element element Za Ustvari element Cenitev element element Izdelki Začni element element ime",
+        "Nastavite sistem vrednotenja za ustvarjanje prilagodljivih cen z uporabo formul in referenčnih tabel za vaše izdelke. Začnite tako, da tej oceni dodelite edinstveno ime.",
     },
     valuation_preview: "Predogled element obrazec",
     load_sample: "element element",
     conditions: {
       title: "Pogoji",
       subtitle:
-        "element element Po meri Variante element element Upravljanje element element element",
+        "Določite logiko za različice po meri. Ta konfiguracija poenostavlja upravljanje razpoložljivosti različic.",
     },
     structure: {
       title: "element",
@@ -6051,8 +6051,8 @@ export default {
     },
     inputs: {
       title: {
-        message: "element Naslov element element element Za Stranke",
-        placeholder: "element element ime element Cenitev, element, 'element Cenitev",
+        message: "Ta naslov ni viden strankam.",
+        placeholder: "Vnesite ime za ceno, npr. \"Cena skodelic\"",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "element element",
         subtitle:
-          "element element Popust Koda element element: maks (LIMIT, PERCENT * element cena). element Za zasluži element koda element element element Za element",
+          "Formula za izračun kode za popust je: max (LIMIT, PROCENT * cena košarice). Ne pozabite, da so kode ustrezne in si jih je enostavno zapomniti.",
       },
       limit: {
         title: "element",
         subtitle:
-          "element element največ element Omejitev element element Popust Koda, element element največ Popust Znesek, element element element",
+          "V tem razdelku lahko določite največjo omejitev uporabe za posamezno kodo za popust in tudi najvišji znesek popusta.",
       },
       duration: {
         title: "Trajanje Omejitev",
         subtitle:
-          "element element element Za element element Popust Koda element element , element element Trajanje element",
+          "Če želite aktivirati kodo za popust za določen časovni okvir, lahko to trajanje določite tukaj.",
       },
       design: {
         subtitle:
-          "element element Naslov element Opis element element Popust Koda element Podrobnosti element element element Za element Uporabnik",
+          "Za vsako kodo za popust lahko nastavite naslov in opis. Te podrobnosti bodo prikazane uporabniku.",
       },
       cluster: {
         subtitle:
-          "element element element Popust Koda element element element, element element element Upravljaj element element element Viri element element element Lokacija",
+          "Če to kodo za popust povežete z gručem, jo ​​lahko preprosto upravljate skupaj z drugimi viri na enem mestu.",
       },
     },
     delete_alert: {
@@ -6320,34 +6320,34 @@ export default {
     },
     limit: {
       subtitle:
-        "element element element, element element Za element element element največ element element kupon element element element Popust Znesek element kupon element element",
+        "V tem razdelku lahko nastavite največje število uporab na kupon in najvišji znesek popusta, ki ga lahko zagotovi vsak kupon.",
       zero_message: "element: element element št Omejitev!",
     },
     duration: {
       subtitle:
-        "element element element Za element element kupon Za element Aktiven, element element Trajanje element element element",
+        "Če želite nastaviti določen časovni okvir, v katerem bo kupon aktiven, lahko konfigurirate trajanje v tem razdelku.",
     },
     design: {
       subtitle:
-        "element kupon element element Naslov element Opis element Podrobnosti element element element Za element stranka",
+        "Vsak kupon omogoča dodajanje naslova in opisa. Te podrobnosti bodo vidne stranki.",
     },
     constraints: {
       subtitle:
-        "element, element element Za element element kupon",
+        "Tukaj imate možnost določiti dodatne personalizirane parametre za kupon.",
       no_limit: "št element Omejitev",
       has_limit: "element element",
       has_code_message: "Uporabnik element element element Koda Za Dodaj kupon",
     },
     club: {
       subtitle:
-        "element Kuponi element element Za člani element element stranka element",
+        "Uporaba tega kupona je lahko omejena izključno na člane izbranih klubov strank.",
     },
     cluster: {
       subtitle:
-        "element element element kupon element element element, element element element Upravljaj element element element Viri element element element Lokacija",
+        "Če ta kupon povežete z gručo, ga lahko preprosto upravljate skupaj z drugimi viri na enem mestu.",
     },
     preview: {
-      subtitle: "element element Javno Predogled element element kupon",
+      subtitle: "Tukaj je javni predogled kupona.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "element element Naslov, Opis, element Javno element Stanje",
+        "Začnite oblikovati inteligenten posel tako, da določite njegov naslov, opis in status javne dostopnosti.",
     },
     limit: {
-      subtitle: "element element največ element Omejitev element element Ponudba element element element",
+      subtitle: "V tem razdelku nastavite največjo omejitev uporabe za to ponudbo.",
     },
     duration: {
       subtitle:
-        "element element element Za element element Ponudba, element element Trajanje element",
+        "Če želite nastaviti določen časovni okvir za ponudbo, lahko tukaj nastavite trajanje.",
     },
     constraints: {
       subtitle:
-        "element element Pogoji element element Ponudba element element Ponudba element Za element Predmeti element element element Pogoji",
+        "Tukaj nastavite merila za upravičenost in pogoje za ponudbo. Ponudba velja za artikle v košarici, ki izpolnjujejo te pogoje.",
     },
     discounted_products: {
       title: "popust Izdelki",
       subtitle:
-        "element element Izdelki Za element element Ponudba element element element Popust",
+        "Določite lahko izdelke, za katere bo ta ponudba veljala s popustom.",
     },
     cluster: {
       subtitle:
-        "element element element Ponudba element element element, element element element Upravljaj element element element Viri element element element Lokacija",
+        "Če to ponudbo povežete z gručo, jo lahko preprosto upravljate skupaj z drugimi viri na enem mestu.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "partner Povezava",
       subtitle:
-        "element element element Povezava element element partner element Za element Prodaja element provizija Dodaj element koda '{code}' Za element Povezava element element element Po meri element domena element element partner element element 48element",
+        "Ustvarite edinstveno povezavo za vašega pridruženega partnerja za sledenje prodaji in provizijam. Dodajte napotitvene kode '{code}' kateri koli povezavi ali dodelite namensko domeno po meri za svojega partnerja. Sistem ga bo spremljal 48 ur.",
     },
     fix_commission: "Fiksna provizija",
     percent_commission: "Provizija na podlagi odstotkov",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "element stranka Nakupi element element trgovina element element Stranke element element Nakupi element element 10 element, element element element Ponudba element element Privzeto element element , element element Za element element Trgovine element",
+        "Povečajte nakupe strank z igričarsko izkušnjo v vaši trgovini. Nastavite nagrade in zmagovalne kvote za stranke, ki zaslužijo žetone z nakupi. Vsako igranje igre stane 10 žetonov, prvim kupcem pa lahko ponudite posebne nagrade. Privzeta igra je Wheel of Fortune, vendar jo lahko prilagodite, da bo ustrezala postavitvi vaše trgovine.",
     },
     empty_prize_list: "Ustvari element Upravljaj element element",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Zmagovalna možnost v odstotkih",
     free_for_first: "Ali je za nove stranke brezplačno?",
     free_for_first_message: "Novi kupci lahko osvojijo ta izdelek.",
-    not_free_for_first_message: "element element element Na voljo element element brezplačno element",
+    not_free_for_first_message: "Ta nagrada ni na voljo za prvo brezplačno igranje.",
 
     amount: "Znesek nagrade",
     amount_hint: "Uporabniki dobijo ta znesek bremenitve za svoje naročilo.",
@@ -6614,11 +6614,11 @@ export default {
     },
     config: {
       subtitle:
-        "element, element element Ustvari element Trgovine loterija element element element Naslov, Opis, Barva, element Slika element element element",
+        "Tukaj lahko ustvarite loterijske nagrade svoje trgovine. Nastavite naslov, opis, barvo in sliko za vsako nagrado.",
     },
     design: {
       subtitle:
-        "element, element element Za element element Slika element Barva element element element",
+        "Tukaj imate možnost izbrati sliko in barvo za nagrado.",
     },
     constraints: {
       subtitle: "element element ",
@@ -6626,11 +6626,11 @@ export default {
     prize: {
       title: "element",
       subtitle:
-        "element element Podrobnosti element element element Popust koda, Darilo Kartice, element, element element popust element loterija element",
+        "Tukaj nastavite podrobnosti o nagradi. Možnosti vključujejo kode za popust, darilne kartice, kredite in druge popuste kot nagrade na loteriji.",
     },
     product_input: {
       label: "Izdelek element",
-      message: "Izberi element Izdelek element element (element brezplačno)",
+      message: "Izberite izdelek za nagrado (je brezplačno)",
     },
   },
 
@@ -7047,12 +7047,12 @@ export default {
         subtitle: "element element Za element element element",
         sample_files: "element datoteke",
         valid_vendor_name_needed:
-          "element element <b>element ime</b>. element <b>ime</b> element Rabljen Za element element Za <i>Ustvari</i> element Novo prodajalec element <i>Nadgradnja</i> element element element",
+          "Navesti morate <b>veljavno ime</b>. <b>ime</b> se uporablja za določitev, ali naj <i>ustvari</i> novega dobavitelja ali <i>posodobi</i> obstoječega.",
         assign_user_after_import:
-          "element Uvozi prodajalci, element element Uporabnik Za element element Dostop Za element prodajalec element",
+          "Po uvozu prodajalcev lahko ročno dodelite uporabnika, da mu omogočite dostop do plošče prodajalca.",
       },
       need_kyc_alert:
-        "element element Za element element Osebno informacije element Uvozi prodajalci",
+        "Pred uvozom prodajalcev morate preveriti svoje osebne podatke.",
       back_to_vendors_list: "nazaj Za prodajalec Seznam",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "prodajalec Izdelki",
     subtitle:
-      "element element seznam vse Izdelki ponudba element prodajalci element element Tržnica, element Izdelek element element povezano Za element element Več. . prodajalci element prodajalec element element element Izdelek element element Vključuje Inventar element Cenitev Podrobnosti element Za element prodajalec",
+      "V tem katalogu so navedeni vsi izdelki, ki jih ponujajo prodajalci. Na trgu je izdelek lahko povezan z enim ali več prodajalci. Vsak prodajalec, povezan z izdelkom, ima edinstven vnos, ki vključuje podatke o inventarju in cenah, značilne za tega prodajalca.",
     filter_vendor: {
       placeholder: "filter element prodajalec",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "element prodajalci element",
     title: "prodajalec element Seznam",
     subtitle:
-      "element element element Seznam element Zahteve Od element element Za element prodajalci element element Tržnica",
+      "To je seznam zahtev posameznikov, ki so se prijavili, da postanejo prodajalci na vašem trgu.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,47 +7088,47 @@ export default {
     marketplace: {
       title: "Tržnica",
       subtitle:
-        "element element Tržnica element element Za element element Tržnica, element element trgovina element element Nastavitve",
+        "Onemogočanje tržnice bo izklopilo nekatere funkcije. Če želite zapreti celotno tržnico, onemogočite svojo trgovino v nastavitvah.",
     },
     distribution_model: {
       title: "element element",
       subtitle:
-        "element element prodajalci Za element Predmeti element Za element element element Naročila element element Skladišče element Dostava, element element ",
+        "Tržnice lahko delujejo po različnih distribucijskih modelih. Ne glede na to, ali vam je ljubše, da prodajalci pošiljajo artikle neposredno kupcem ali združujejo naročila v vašem skladišču za pošiljanje, lahko tukaj izberete model, ki najbolj ustreza vašim potrebam.",
     },
     access: {
       title: "prodajalec Dostop",
       subtitle:
-        "element element element, element element Dostop prodajalci element Za element Izdelek Nadzorna plošča element element Dostop Nastavitve Za element prodajalci Za Dodaj element element Izdelki element kategorije element element element Dostop Za element element",
+        "Kot skrbnik nadzirate raven dostopa, ki jo imajo prodajalci do nadzorne plošče izdelka. Prilagodite nastavitve globalnega dostopa, da omogočite prodajalcem dodajanje lastnih izdelkov in kategorij ali pa ta dostop omejite samo na skrbnike.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Omogoči Dostava element prodajalci element element Nakupujte > Logistika element element element metoda element",
-    transportation_available_tooltip: "element element element Na voljo element prodajalci",
+      "Omogočite dostavo za prodajalce na zavihku Trgovina > Logistika za vsako metodo posebej.",
+    transportation_available_tooltip: "Ta možnost je na voljo za prodajalce.",
     transportation_not_available_tooltip:
-      "element Na voljo element prodajalci! element element Omogoči element element Nastavitve",
+      "Ni na voljo za prodajalce! Omogočite ga lahko v nastavitvah prevoza.",
     panel: {
       title: "prodajalec element",
-      subtitle: "element element prodajalci element element Po meri domena",
+      subtitle: "Vključite svoje prodajalce prek svoje domene po meri.",
     },
     documents: {
       title: "element",
       subtitle:
-        "element element prodajalci Za Naloži element element ",
+        "Od svojih prodajalcev lahko zahtevate, da naložijo dokumente ali podpišejo določene pogodbe. Tukaj navedite zahtevane dokumente.",
       add_document_action: "Dodaj element element",
     },
     inputs: {
       enable: {
         false_description:
-          "element Tržnica element element element, element vse Tržnica element",
+          "Tržnica je izklopljena, kar onemogoči vse funkcionalnosti tržnice.",
         true_description:
-          "element Tržnica element Aktiven, element vse Tržnica element",
+          "Tržnica je aktivna in omogoča vse funkcionalnosti tržnice.",
       },
       product: {
         label: "Dodajte nov izdelek",
         true_title: "prodajalci element Dodaj Izdelki",
         false_description:
-          "element Dodaj Izdelki element element prodajalci prodajalci element element Upravljaj cena element Inventar",
+          "Dodate izdelke in dodelite prodajalce. Prodajalci lahko upravljajo le cene in zaloge.",
         true_description:
-          "prodajalci element Dodaj element Upravljaj element element Izdelki element element element prodajalec element",
+          "Prodajalci lahko dodajajo in upravljajo svoje lastne izdelke neposredno na plošči prodajalcev.",
       },
       need_verify: {
         label: "Izdelek element Tok",
@@ -7144,27 +7144,27 @@ export default {
         false_description:
           "element Dodaj kategorije prodajalci element element Dodaj Izdelki Za element kategorije",
         true_description:
-          "prodajalci element Dodaj element Upravljaj kategorije element element element prodajalec element",
+          "Prodajalci lahko dodajajo in upravljajo kategorije neposredno na svoji plošči prodajalcev.",
       },
       shipping: {
         label: "Dostava element",
         true_title: "prodajalci element Dostava element",
         false_description:
-          "prodajalci element Dodaj element element element Dostava metode",
+          "Prodajalci ne morejo dodati ali prilagoditi svojih načinov pošiljanja.",
         true_description:
-          "prodajalci element element Dostava metode, Dodaj Kurirji, element element Dostava element element element",
+          "Prodajalci lahko nastavijo lastne načine pošiljanja, dodajo kurirje in prilagodijo pošiljanje svojim potrebam.",
       },
       hidden_customer: {
         label: "Prikaži element Kontakt informacije",
         true_description: "element Kontakt Podrobnosti element element Od prodajalci",
         false_description:
-          "element Kontakt Podrobnosti, element element telefon element E-naslov, element element Za prodajalci",
+          "Kontaktni podatki kupca, kot sta telefon in e-pošta, so vidni prodajalcem.",
       },
       multi: {
         false_description:
-          "element Uporabnik element element prodajalec račun Uporabniki element element element Za element element element /prodajalci",
+          "Uporabnik ima lahko le en račun prodajalca. Uporabniki bodo preusmerjeni na njihovo ploščo na /vendors.",
         true_description:
-          "element Uporabnik element element element prodajalec Računi element element ; element Kontakt element element ",
+          "Uporabnik ima lahko več računov prodajalcev. To je funkcija beta; pred uporabo nas kontaktirajte.",
         true_title: "element način",
         false_title: "element prodajalec način (Privzeto)",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "Vnos element omogočeno element prodajalci prodajalci element Upravljaj Vnos Predmeti element Podjetja",
         false_description: "Vnos element onemogočeno element prodajalci element element Nakupujte Lastnik element Upravljaj Vnos Predmeti element Podjetja",
         requires_listing_active_text:
-          "Za element prodajalci element Vnos (Predmeti + Podjetja), element Omogoči element Nakupujte Vnos element element kanal → Vnos element element nazaj element Za element prodajalec Dostop",
+          "Če želite prodajalcem dovoliti uporabo seznama (izdelki + podjetja), najprej omogočite funkcijo seznama trgovin v kanalu → seznam. Nato se vrnite sem, da omogočite prodajalcu dostop.",
         requires_listing_active_button: "element kanal Vnos Nastavitve",
       },
 
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "element Vrsta",
         subtitle:
-          "Dodaj element element element predmet element element prodajalci element, element element Za Naloži element element element",
+          "Tukaj dodajte element zahteve za dokument. Prikazal se bo na prodajalčevi plošči in ga pozval, naj naloži zahtevani dokument.",
       },
       guide: {
         title: "vodnik",
         subtitle:
-          "element element element vodnik Za pomoč prodajalci element element element Za Naloži element element Za element element element",
+          "Zagotovite kratek vodnik, ki bo prodajalcem pomagal razumeti, katere dokumente naložiti in kako to storiti pravilno.",
       },
       code: {
         title: "Vdelati Koda",
         subtitle:
-          "element element Vdelati Koda element element element, obrazec, element element prodajalec element element",
+          "Prilepite vdelano kodo za dokument, obrazec ali pogodbo, ki jo mora podpisati prodajalec.",
       },
       link: {
         title: "Zunanja povezava",
         subtitle:
-          "element element element Povezava Za element element prodajalec element element",
+          "Navedite zunanjo povezavo do dokumenta ali pogodbe, ki jo mora podpisati prodajalec.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "vodnik (neobvezno)",
           placeholder:
-            "element, element element element vodnik element element, element Povezave Za element element ",
+            "Po želji zagotovite kratek vodnik ali navodila, vključno s povezavami do pogodb ali drugih dokumentov.",
         },
         code: {
           label: "Vdelati Koda",
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "element način",
       description:
-        "element element način, vse Naročila element Poslano Za element Skladišče element element element Poslano Za Stranke Od element element Lokacija prodajalci element Pošlji element Predmeti Za element Skladišče, element element Dostava naslov element prodajalci element element element Skladišče naslov",
+        "V tem načinu so vsa naročila najprej poslana v vaše skladišče in nato z osrednje lokacije poslana strankam. Prodajalci bodo svoje izdelke poslali v vaše skladišče, zato bo naslov za pošiljanje za prodajalce naslov vašega skladišča.",
     },
     Direct: {
       title: "element Dostava Od prodajalec",
       description:
-        "element element način, prodajalci element Naročila element Za Stranke element Dostava naslov element prodajalec Naročila element element naslov",
+        "V tem načinu prodajalci pošiljajo naročila neposredno strankam. Naslov za dostavo naročil prodajalca bo naslov kupca.",
     },
   },
   /**
@@ -7251,22 +7251,22 @@ export default {
     Identification: {
       title: "Lastnik element element",
       description:
-        "Naloži element element ID Za element element KYC element element podjetje Lastnik element element element",
+        "Naložite osebni dokument, ki ga je izdal državni organ, da preverite identiteto lastnika podjetja ali glavnega direktorja.",
     },
     Business: {
       title: "podjetje element",
       description:
-        "element element podjetje element element element licenca element element element Za element element element Stanje element element podjetje",
+        "Predložite bistvene poslovne dokumente, kot so licence ali potrdila o registraciji, da potrdite pravni status vašega podjetja.",
     },
     Address: {
       title: "naslov element",
       description:
-        "element element element Za element element podjetje naslov, element element , davek Račun, element element element",
+        "Predložite dokument za potrditev naslova vašega podjetja, na primer račun za komunalne storitve, davčni račun ali najemno pogodbo.",
     },
     Contract: {
       title: "element & element",
       description:
-        "Naloži element element Pogoji element Pogoji element element podjetje element",
+        "Naložite pogodbe ali sporazume, ki podrobno opisujejo pogoje vaših poslovnih odnosov.",
     },
     Copyright: {
       title: "element element",
@@ -7276,17 +7276,17 @@ export default {
     Privacy: {
       title: "Zasebnost pravilnik element",
       description:
-        "element element Zasebnost pravilnik element Za element element element Za element Uporabnik element stranka informacije",
+        "Vključite svoje dokumente o politiki zasebnosti, da dokažete svojo zavezanost varovanju podatkov o uporabnikih in strankah.",
     },
     Embed: {
       title: "element obrazec",
       description:
-        "element element element obrazec Za element element element informacije",
+        "Izpolnite vdelani obrazec, da zagotovite zahtevane podatke.",
     },
     Link: {
       title: "Zunanja povezava",
       description:
-        "element element element Povezava Za element element element informacije",
+        "Za posredovanje potrebnih informacij sledite zunanji povezavi.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "prodajalec Denarnice",
     subtitle:
-      "št element Za element Dodaj Denarnice! prodajalec Denarnice element element Omogoči element Plačilo metoda element podpora element element (Všeč mi je Stripe Connect), element element plačila Za element Povezano prodajalci Računi element element omogočeno, element element Za element plačati prodajalci, element element znesek element Za element element element denarnica Seznam",
+      "Ni vam treba ročno dodajati denarnic! Denarnice prodajalcev se ustvarijo samodejno. Če omogočite način plačila, ki podpira deljena izplačila (kot je Stripe Connect), bo sistem samodejno razdelil plačila na račune povezanih prodajalcev. Če ta funkcija ni omogočena, boste morali ročno plačati prodajalce, na seznamu denarnice pa lahko preverite zneske, ki jim jih dolgujete.",
     filter_vendor: {
       placeholder: "filter element prodajalec",
     },
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "element element Seznam element vse Transakcije element element Izberi denarnica element Napolniti Transakcija element element stranka element element 🛍️ Naroči element element 🛍️ Naroči element element vračilo, element element vračilo Transakcija element element ",
+      "V tem razdelku je podroben seznam vseh transakcij za izbrano denarnico. Obračunana transakcija se zabeleži, ko stranka uspešno plača naročilo. Če je naročilo preklicano ali delno povrnjeno, bo tukaj zabeležena tudi ustrezna transakcija vračila.",
     vendor_bank: "prodajalec Banka",
     order_fee: "🛍️ Naroči Pristojbina",
     order_refund: "🛍️ Naroči vračilo",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "element Zgodovina",
     subtitle:
-      "element element element Računovodstvo element element prodajalci element element vse Transakcije plačila element element Banka element element element metode, element element Plačilo Ponudniki element Podpora element plačila, Všeč mi je element",
+      "Ta funkcija poenostavi računovodstvo za vas in vaše prodajalce z vodenjem podrobne evidence vseh transakcij. Plačila je mogoče obdelati ročno prek bančnih nakazil ali drugih metod ali pa jih samodejno upravljajo ponudniki plačil, ki podpirajo deljena plačila, kot je Stripe.",
     top_up_vendor_action: "element element prodajalec račun",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "Cenitev Načrti",
     subtitle:
-      "element element Cenitev element element element Tržnica, Všeč mi je element 5% element Pristojbina element element Izdelki element zasluži Cenitev Upravljanje element element Več. . element",
+      "Nastavite cenovne modele za vaš trg, na primer 5-odstotno maržo za digitalne izdelke. Tako je upravljanje cen hitrejše in učinkovitejše.",
     add_pricing_action: "Dodaj Cenitev Načrtujte",
   },
 
@@ -7341,10 +7341,10 @@ export default {
   vendor_pricing_add: {
     title: "Tržnica Cenitev element",
     subtitle:
-      "element element Cenitev element Za prodajalec Izdelki, element cena element element prodajalec cena * (1 + provizija%).",
+      "Ko izdelkom prodajalca dodelite cenovni model, bo cena samodejno izračunana kot Cena prodajalca * (1 + provizija %).",
     delete: {
       subtitle:
-        "element element Cenitev element element element vse prodajalec Izdelki povezano Za element element Cenitev element, zasluži element Za Nadgradnja vse prodajalec Izdelki element element Cenitev element",
+        "Brisanje cenovnega modela bo vplivalo na vse izdelke prodajalca, povezane z njim. Preden odstranite model določanja cen, posodobite vse izdelke prodajalca, ki ga uporabljajo, in jim dodelite drug model določanja cen.",
       remove_pricing_action: "Odstrani Cenitev element",
     },
     inputs: {
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "element, element Izdelki element",
       },
       description: {
-        placeholder: "element element Dodaj element Opomba element",
+        placeholder: "Tukaj lahko dodate opombo ...",
       },
       accept_delete: {
-        true_description: "element element Za Izbriši element Cenitev element",
+        true_description: "Želim izbrisati ta cenovni model.",
         true_title: "element Cenitev element element",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "prodajalec",
       subtitle:
-        "Izberi element prodajalec element element Za Prenos element Za element Izberi, Na voljo Plačilo element element omogočeno element Plačilo Prehodi, element element ",
+        "Izberite prodajalca, na katerega želite nakazati sredstva. Ko izberete, se prikažejo razpoložljive možnosti plačila. Če ste omogočili plačilne prehode, ki omogočajo izplačilo, bodo te možnosti prikazane tudi tukaj.",
     },
     vendor_wallet: "prodajalec denarnica",
     vendor_bank_account: "prodajalec Banka račun",
     with_balance_tooltip:
-      "element element poveži element Storitve Všeč mi je Stripe Connect, element element Na voljo Ravnovesje element element Stripe račun element element",
+      "Ko povežete storitve izplačil, kot je Stripe Connect, za referenco pridobimo in prikažemo razpoložljivo stanje v vašem računu Stripe.",
     with_balance: "element Ravnovesje",
     without_balance: "element Ravnovesje - element način",
     bank_transfer: {
       title: "Banka Prenos",
       subtitle:
-        "element element Plačilo Zgodovina št element denar element element element Za element prodajalec element element element; element element element plačati element prodajalci",
+        "To je zapis zgodovine plačil. Sistem prodajalcu ne bo nakazal dejanskega denarja; morate ročno plačati svojim prodajalcem.",
     },
     vendor_bank: "prodajalec Banka",
     gateway_in_debug_mode_warning:
-      "element element Plačilo prehod element element način, element element Za element element račun",
+      "Ker je plačilni prehod trenutno v načinu odpravljanja napak, sredstva ne bodo prenesena na pravi račun.",
     payment: {
       title: "Plačilo",
       subtitle:
-        "element element valuta element element element Znesek element element Za Prenos Za element prodajalec element element Znesek, element element Od element prodajalci denarnica element Povezano Računi element element element, element element Od element Povezano račun, element element element prodajalci Stripe račun",
+        "Izberite valuto in vnesite znesek, ki ga želite nakazati prodajalcu. Če vnesete negativen znesek, bodo sredstva dvignjena iz prodajalčeve denarnice. Za povezane račune z možnostmi izplačil bodo sredstva odtegnjena s povezanega računa, kot je prodajalčev račun Stripe.",
     },
     history: {
       title: "Zgodovina",
       subtitle:
-        "element element element Plačilo element element vračilo element element element Prenos, element element Ravnovesje element element element Od element prodajalci račun element Vrnjeno Za element račun",
+        "Del tega plačila je bil povrnjen s povratnim prenosom, kar pomeni, da je bilo stanje odšteto od prodajalčevega računa in vrnjeno na vaš račun.",
     },
     refund: {
       title: "vračilo",
       subtitle:
-        "element vračilo Znesek element element element Od element prodajalci Ravnovesje vse plačila (element element znesek) element element prodajalci račun (Všeč mi je Stripe Connect) element element vračilo element element element Prenos",
+        "Vrnjeni znesek bo odštet od prodajalčevega stanja. Vsa plačila (ali preostali zneski) na računu prodajalca (kot je Stripe Connect) bodo povrnjena prek povratnega prenosa.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "element element Dodaj element Opomba element element Opomba element element element Za element prodajalec",
+          "Tukaj lahko dodate opombo ... Ta opomba ni vidna prodajalcu.",
       },
       accept_refund: {
         true_description: "element element Za Prekliči element Plačilo",
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "element element",
         message:
-          "element prodajalci element element Dokončano element, element denar element Od element Banka Za element denarnica element Dodaj Za element denarnica Ravnovesje",
+          "Obrnitev sredstev prodajalca je bila uspešno zaključena, denar je bil prenesen iz banke v denarnico in dodan stanju v denarnici.",
       },
       payout_success: {
         title: "element",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "element",
-    max_batch_msg: "največ element element Predmeti element element Uvozi element element ",
-    max_daily_limit_msg: "največ element element Predmeti element element Uvozi element element element",
+    max_batch_msg: "Največje število elementov, ki jih lahko uvozite v enem paketu.",
+    max_daily_limit_msg: "Največje število elementov, ki jih lahko uvozite na dan.",
     extra_daily_limit_msg: "element Predmeti element element Omejitev",
     add_items_today_msg: "Predmeti Dodaj danes",
     file_statistic_msg: "Statistika element element datoteka",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Tematske barve",
     theme_colors_description:
-      "element element Primarni Barva element element element Nakupujte element element Predloga element element Za element element Barva element element Blagovna znamka",
+      "Tukaj lahko prilagodite osnovno barvno paleto svoje trgovine. Vsaka predloga lahko uporabi te barve za samodejno ustvarjanje celotnega barvnega razpona, ki se ujema z vašo blagovno znamko.",
     products_view_mode: "Pogled nakupovalnega seznama",
     products_view_mode_desc:
       "Način prikaza izdelkov v vaši trgovini lahko prilagodite glede na velikost zaslona. Ta način bo privzeto upoštevan in ne bo uporabljen, če uporabnik spremeni način prikaza.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "element Naslov",
-      subtitle: "element Višina element element Naslov element element element",
+      subtitle: "Višina naslova se bo dinamično prilagajala.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "element element",
         false_description:
-          "kategorije element Izdelki element element Za Prikaži element element",
+          "Kategorije in izdelki imajo interaktivno animacijo za prikaz funkcionalnosti.",
         true_title: "Statično",
         true_description: "kategorije element Izdelki element št element",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "element Dejanja",
       hover: {
         false_description:
-          "Preprosto element element način element element element Dejanja element Izdelek Kartice",
+          "Preprost in minimalen način brez dodatnih dejanj na karticah izdelkov.",
         true_description:
-          "Prikaži element Kupite & Dodaj Za element element element Izdelek Kartica element",
+          "Prikaz gumbov Hitri nakup in Dodaj v primerjavo na lebdeči kartici izdelka.",
         true_title: "Prikaži element element element",
       },
     },
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "Izdelek stran",
       subtitle:
-        "element element Izdelek stran element element Cene element element Za element element element",
+        "Tukaj prilagodite svojo stran izdelka. Prikaz cen in razporeditev razdelkov lahko prilagodite svojim željam.",
       buy_button_color: "Kupite element Barva",
       smart_price: {
         title: "element enota cena",
         true_description:
-          "element enota cena element element Utež, glasnost, element element Variante element npr element element 2element element element $5 element cena, element element stranka oglej si element $2.5/element element element Izdelek stran",
+          "Izračun cene na enoto z upoštevanjem teže, prostornine in lastnosti variant pakiranja. npr. Če imate različico z velikostjo 2L in ceno $5, potem stranka na strani izdelka vidi $2.5/L.",
       },
       reverse_currency: {
         title: "valuta element Položaj",
         false_title: "Normalen način",
         true_title: "element način",
         false_description:
-          "element valuta element element Začni element element element npr: $95, €30",
+          "Znak valute bo postavljen na začetek številk. Primer: $95 , 30 €",
         true_description:
-          "element valuta element element Konec element element element npr: 95$, 30€",
+          "Znak valute bo postavljen na koncu številk. Primer: 95 $, 30 €",
       },
       variants_selector: {
         title: "Variante element",
         subtitle:
-          "element element Za element Variante element element Izdelek stran",
+          "Izberete lahko različne načine prikaza različic na strani izdelka.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "element & Vpiši se",
       subtitle:
-        "element element prodajalec element element Vpiši se element element element Po meri element, Slika, element Sporočilo",
+        "Prilagodite izkušnjo vkrcanja in prijave prodajalca z videom, sliko ali sporočilom po meri.",
     },
     inputs: {
       page_vendor_login: {
         label: "prodajalec Vpiši se stran",
         message:
-          "Izberi element Po meri Pristanek stran element prodajalec Vpiši se element element, Slike, element element Oblikovanje element stran element element Za prodajalci element element ",
+          "Izberite ciljno stran po meri za prijavo prodajalca. Vključite video, slike ali besedilo za edinstven dizajn. Ta stran je prikazana prodajalcem, ki niso prijavljeni.",
       },
       page_vendor_registered: {
         label: "prodajalec Registriran stran",
         message:
-          "Izberi element Po meri stran element element prodajalci element stran element element Tržnica podpora element prodajalci element Uporabnik",
+          "Izberite stran po meri za prijavljene prodajalce. Ta stran je prikazana, če vaša tržnica podpira več ponudnikov na uporabnika.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Po meri Variante",
       subtitle:
-        "element Izdelki element element Variante element element Spremeni se element Privzeto ime element Variante element element element Za element element Predmeti element Privzeto element element Stranke element element največ Dolžina element 24.",
+        "Fizični izdelki imajo lahko različice. Spremenite lahko privzeto ime različic. Naš predlog je, da te postavke pustite privzete in prazne, tako da jih bo selldone samodejno prevedel za vaše stranke v njihove jezike. Največja dolžina je 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Glava Logotip",
       subtitle:
-        "element Privzeto, element Trgovine Logotip element element Glava, element element element Naloži element Po meri Logotip element element element Logotip element element , element element element Za element element element Višina element Premer element element element",
+        "Privzeto je logotip vaše trgovine prikazan v glavi, vendar lahko namesto tega naložite logotip po meri. Če vaš logotip nima kvadratnega razmerja stranic, boste morda morali ročno prilagoditi višino in širino za optimalno predstavitev.",
     },
     header_title: {
       title: "Glava Naslov",
       subtitle:
-        "element element Naslov element element element Glava element element strani element element Za element Odstrani element, element element element 'element element Naslov element",
+        "Tu lahko prilagodite naslov, prikazan v glavi vaših strani. Če ga želite popolnoma odstraniti, kliknite gumb »Nastavi prazen naslov«.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "element način",
       description:
-        "element Variante element element , element element ",
+        "Kompaktne različice v ločenih možnostih, ki jih je mogoče izbrati, primerne za večino primerov.",
     },
     select: {
       title: "Izberi način",
       description:
-        "element vse Variante element element element, element element Variante",
+        "Prikaže vse različice v spustnem meniju, kar je idealno za veliko število različic.",
     },
   },
 
@@ -7677,17 +7677,17 @@ export default {
     add_title: "Dodaj element element",
     config: {
       subtitle:
-        "element Naslov element Opis element element Za osebje element",
+        "Nastavite naslov in opis za svoj niz nepremičnin. Vidno bo samo osebju.",
     },
     variants: {
       title: "Variante",
       subtitle:
-        "element element ime, ikona, element 🛍️ Naroči element element Izdelki element element Variante element element element Privzeto 6 Variante, element element element Po meri Variante element element Izdelek element",
+        "Tu lahko prilagodite ime različice, ikono in vrstni red. Če imate različne izdelke z edinstvenimi različicami, ki ne ustrezajo privzetim 6 različicam, lahko tukaj nastavite različice po meri za vsak izdelek.",
     },
 
     inputs: {
       title: {
-        placeholder: "element element Naslov element element element",
+        placeholder: "Vnesite naslov za niz lastnosti ...",
       },
       description: {
         placeholder: "element element element Opis (neobvezno)",
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Upravljanje s strankami",
     subtitle:
-      "Stranke element element Dodaj Za element trgovina element element element; element, element element Uvozi, element element POS, element element trgovina element element Uporabnik element element element trgovina, element element Registriran element element stranka",
+      "Kupce lahko v svojo trgovino dodate na več načinov; ročno, masovni uvoz v Excel, preko POS-a ali preko vaše spletne trgovine. Kadarkoli se uporabnik prijavi v vašo trgovino, bo samodejno registriran kot stranka.",
     add_customer_action: "Dodaj Novo stranka",
 
     all_customers: "Prenesite vse stranke",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "Uredi stranka",
     add_title: "Dodaj Novo stranka",
     subtitle:
-      "Za Dodaj element stranka Za element trgovina, element element E-naslov naslov element element telefon element",
+      "Če želite dodati stranko v svojo trgovino, navedite e-poštni naslov ali telefonsko številko.",
     more: {
       title: "Dodajte več podrobnosti",
       subtitle: "element valuta, stranka Klub, Segmenti, naslov element Več. .",
     },
     detail: {
       subtitle:
-        "element element Osebno informacije element element stranka element element element Stranke Zasebnost",
+        "Vodite evidenco osebnih podatkov o vaši stranki. Prosimo, da spoštujete zasebnost vaše stranke.",
     },
     preferences: {
       subtitle: "element Privzeto Uporabnik valuta, stranka Klub, element Segmenti element",
     },
     address: {
       subtitle:
-        "element naslov element element Rabljen element element POS. element Uporabnik element element oglej si element informacije",
+        "Ta naslov se lahko uporablja v POS. Uporabnik teh informacij ne vidi.",
     },
   },
 
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "element element ",
 
     pickup_ready_action: "element element",
-    pickup_ready_action_subtitle: "element 🛍️ Naroči element element element stranka element",
+    pickup_ready_action_subtitle: "Naročilo je pripravljeno za prevzem stranke.",
 
     service_action: "element element",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "element Dostava element",
       true_description:
-        "element element 🛍️ Naroči element element Dostavljeno Za element stranka",
+        "Potrjujem, da je bilo naročilo dostavljeno kupcu.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "element Nadzorna plošča",
     subtitle:
-      "element element element, element provizija Pristojbina element element Plačano Za element Banka račun element element Banka informacije element",
+      "Na vašo zahtevo se provizija nakaže na bančni račun, ki ga navedete. Tukaj vnesite svoje bančne podatke.",
     no_bank_info: "št Banka element!",
     actions: {
       edit_my_bank_info: "Uredi element Banka element",
@@ -8013,17 +8013,17 @@ export default {
       info: {
         title: "Banka",
         subtitle:
-          "element Vnos element Banka informacije element element informacije Za Prenos element element Banka račun element element element ime element element element podjetje ime, element element",
+          "Tukaj vnesite svoje bančne podatke. Te podatke bomo uporabili za prenos sredstev. Zagotovite, da je bančni račun na vaše ime ali pod imenom vašega podjetja, kot je ustrezno.",
       },
       inputs: {
         name: {
           label: "Banka ime",
-          message: "element element ime element element Banka element element račun element element",
+          message: "Polno ime banke, kjer je odprt račun.",
         },
         holder_name: {
           label: "račun element ime",
           message:
-            "element element ime element element račun",
+            "Polno ime osebe ali subjekta, ki ima račun.",
         },
         account_number: {
           label: "Številka računa",
@@ -8031,23 +8031,23 @@ export default {
             "element element Banka račun",
         },
         routing_number: {
-          label: "element element (USA) element element Koda (UK)",
+          label: "Usmerjevalna številka (ZDA) ali koda razvrstitve (UK)",
           message:
-            "element element Banka element (element Pogoji element Rabljen element element element).",
+            "Številka, ki identificira določeno podružnico banke (v različnih državah se uporabljajo različni izrazi).",
         },
         swift: {
           label: "SWIFT/BIC Koda",
           message:
-            "element element Koda Rabljen Za element element element, element element ",
+            "Mednarodna koda, ki se uporablja za globalno identifikacijo bank, zlasti za mednarodne prenose.",
         },
         iban: {
           label: "IBAN (element Banka račun element)",
           message:
-            "Rabljen element element element, element IBAN element element Banka Računi element element element",
+            "IBAN, ki se uporablja predvsem v Evropi, je mednarodno dogovorjen sistem za identifikacijo bančnih računov prek državnih meja.",
         },
         contact: {
           label: "Kontaktni podatki",
-          message: "telefon element element E-naslov naslov element element element račun",
+          message: "Telefonska številka ali e-poštni naslov, povezan z računom.",
         },
         note: {
           label: "Opomba",
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Od vse storitev element, Naročnina element element plačila element element ",
+      "Od vseh pristojbin za storitve, naročnin in drugih plačil vaših priporočil.",
   },
 
   /**
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Napotitvena plačila",
     subtitle:
-      "element element Seznam element Umik Transakcije element element Prenos element Od element denarnica Za element Banka račun element element Selldone denarnica, element element element seznam element",
+      "To je seznam transakcij dviga. Ko prenesete sredstva iz referenčne denarnice na svoj bančni račun ali denarnico Selldone, bodo navedena tukaj.",
 
     officer: "častnik",
     amount: "Znesek transakcije",
@@ -8520,15 +8520,15 @@ export default {
     manage: {
       title: "Upravljaj SMS",
       subtitle:
-        "element element oglej si element element sporočilo Poslano element element trgovina element element Za element Omejitev element element storitev, element element Za element element element sporočilo element element element",
+        "Tukaj si lahko ogledate vsebino besedilnih sporočil, ki jih pošilja vaša trgovina. Zaradi omejitve pri registraciji vzorcev preverjanja v storitvi sporočanja trenutno ni mogoče prilagoditi besedilnih sporočil.",
     },
 
     template: {
       title: "element",
       valid_message: "element element Ustvari Po meri SMS sporočilo",
-      provider_not_enable_message: "element SMS element element element omogočeno!",
+      provider_not_enable_message: "Ponudnik SMS ni omogočen!",
       need_custom_provider_message:
-        "element SMS sporočilo element element Po meri element",
+        "Prilagojena sporočila SMS delujejo le, če nastavite ponudnika po meri.",
       add_new: "Dodaj Novo",
       disable_reason: {
         set_provider: "element element !",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "Prikaži element omogočeno",
 
       text_template_not_supported_msg:
-        "element element Podpora element element sporočilo",
+        "Vaš ponudnik ne podpira navadnih besedilnih sporočil.",
       structure_template_not_supported_msg:
         "element element Podpora element sporočilo",
 
@@ -8556,15 +8556,15 @@ export default {
       config: {
         title: "Sporočilo element",
         subtitle:
-          "element element Ustvari element Predloga element element SMS Sporočilo element element SMS Ponudniki Spletna stran, element element element Koda element Podatki element element informacije Za element element, element element element SMS Sporočilo element element element",
+          "Predlogo za SMS sporočilo lahko ustvarite na spletnem mestu vašega SMS ponudnika, nato pa tukaj določite njegovo kodo in strukturo podatkov. Te podatke bomo posredovali vašemu ponudniku, kjer bo generirano dejansko SMS sporočilo.",
         code: "Koda",
-        language_msg: "element element element Za element element element Privzeto",
+        language_msg: "Pustite prazno, da ga nastavite kot privzetega.",
         enable_msg: "element Predloga element element Rabljen Za Ustvari sporočilo",
       },
       text: {
         title: "element element",
         subtitle:
-          "element element element SMS Sporočilo element element Poslano Za element Uporabnik",
+          "Tukaj vnesite prilagojeno SMS sporočilo. Dinamične vrednosti bodo zamenjane z njihovimi dejanskimi vrednostmi, preden bodo poslane uporabniku.",
         message: "Sporočilo",
         reset_to_default: "element Za Privzeto",
 
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "element Predloga",
         subtitle:
-          "element element Predloga element element vrednost element element Predloga Koda element element SMS storitev element, element element <code>element</code> element element Za Pošlji element Koda element element element <code>vrednost</code> element element Predloga element element, element <code>{code}</code> element element Predloga Koda",
+          "Tukaj lahko nastavite ključ in vrednost predloge. Koda predloge mora biti točno takšna, kot ste jo nastavili pri ponudniku storitev SMS, <code>key</code> pa je tisto, prek česar želi vaš ponudnik poslati kodo. Če je polje <code>value</code> predloge prazno, bo <code>{code}</code> obravnavano kot koda predloge.",
         add_new_parameter: "Dodaj Novo element",
 
         auto_fill: {
           title: "samodejno element element",
           subtitle:
-            "element element vrednost, element Selldone element element vrednost element element Za element element Privzeto element element SMS element element , element element element št element Za element element ",
+            "Vsakega od teh parametrov lahko nastavite kot vrednost in Selldone jih bo nadomestil z ustrezno vrednostjo. Bolje je, da zaradi enostavnosti določite privzete vrednosti kot predloge pri svojem ponudniku SMS. V tem primeru tukaj ne bo treba definirati vrednosti parametrov.",
         },
         request: {
           title: "element element",
         },
         sample: {
           title: "element Predloga Sporočilo",
-          subtitle: "element element Predloga Za element SMS element",
+          subtitle: "To predlogo lahko kopirate in prilepite svojemu ponudniku SMS.",
         },
         add_message_action: "Dodaj Sporočilo Predloga",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "element element",
-      desc: "Sporočilo element element element Od element element element samodejno element element element Pošlji",
+      desc: "Sporočilo bo ustvarjeno iz besedila s parametri samodejne zamenjave in poslano.",
     },
     template: {
       title: "element Predloga",
-      desc: "element element Od element element Pošlji Za element element",
+      desc: "Objekt bo ustvarjen iz parametrov in poslan ponudniku.",
     },
   },
 
@@ -8617,40 +8617,40 @@ export default {
     title: "Po meri SMS element",
     reset_error: "element element",
     subtitle:
-      "element element element Po meri SMS storitev element element SMS element podjetje ime element Privzeto element element Pošlje element SMS element element sporočilo element element ",
+      "Nastavite ponudnika storitev SMS po meri in prilagodite svoj SMS za preverjanje pristnosti in ime podjetja. Privzeti ponudnik samo pošilja SMS za preverjanje pristnosti in obvestila v nekaterih državah na belem seznamu.",
     plain_text: "element element",
     structural_template: "element Predloga",
     errors_limit_msg:
-      "element element storitev element 100 element, element element element onemogočeno element! element element Za element element",
+      "Če vaša storitev preseže 100 napak, bo samodejno onemogočena! Napake lahko ponastavite, da ga znova omogočite.",
 
     enable_input: {
       false_description:
-        "OTP sporočilo element element Selldone element Izberi element, element element 🛍️ Naroči Obvestilo SMS element element Poslano element element",
+        "Sporočila OTP bodo poslana prek Selldone v izbranih državah, medtem ko bodo poslana tudi druga SMS obvestila o naročilu.",
       true_description:
-        "SMS sporočilo element element Dostavljeno element element storitev element",
+        "Sporočila SMS bodo dostavljena prek vašega ponudnika storitev.",
     },
     test_input: {
       true_title: "element element",
       true_description:
-        "element element Pošlji element element Sporočilo Za element telefon element 📞 <b>{phone}</b>, element element Napolniti element, element element element zasluži element element ",
+        "Poslali vam bomo testno sporočilo na vašo telefonsko številko 📞 <b>{phone}</b>, lahko vam zaračuna, lahko pa se prepričate, da vse deluje dobro.",
     },
     sync_action: {
       title: "Dejanja",
       subtitle:
-        "element SMS Storitve element element Storitve Všeč mi je Kampanje, Trženje, element element Stiki element element informacije Za element element element Več. . element",
+        "Nekatere storitve SMS ponujajo dodatne storitve, kot so akcije, trženje in druge funkcije. Sinhronizirate lahko svoje stike ali dodatne podatke za hitrejšo uporabo njihovih funkcij.",
       action: "element Stiki",
     },
     tokens: {
       title: "element",
       subtitle:
-        "element element Za Povezava element SMS storitev element element element Nakupujte",
+        "Nastavite naslednje parametre, da povežete svojega ponudnika storitev SMS z vašo trgovino.",
     },
   },
   sms_messages_options: {
     all: {
       title: "OPT + 🛍️ Naroči Obvestila",
       description:
-        "element sporočilo element 🛍️ Naroči Obvestilo element element Poslano",
+        "Poslana bodo sporočila za preverjanje pristnosti in obvestilo o naročilu.",
     },
     otp: {
       title: "OTP element",
@@ -8684,18 +8684,18 @@ export default {
       "Connect element element storitev element Za Pošlji e-poštna sporočila element element Po meri domena",
     provider: "element",
     enable_input: {
-      false_description: "element e-poštna sporočila element element Poslano element element element domena",
-      true_description: "element e-poštna sporočila element element Poslano element element Po meri element domena",
+      false_description: "Vaša e-poštna sporočila bodo poslana prek vaše domene myselldone.",
+      true_description: "Vaša e-poštna sporočila bodo poslana prek vaše poštne domene po meri.",
     },
     config: {
       title: "element",
       subtitle:
-        "Za element element Po meri element storitev element element Nakupujte, Vnos element storitev API element element Nastavitve",
+        "Če želite konfigurirati poštno storitev po meri za vašo trgovino, vnesite ključ API storitve skupaj z drugimi potrebnimi nastavitvami.",
     },
     sender: {
       title: "Od",
       subtitle:
-        "element element Privzeto element ime element E-naslov naslov, element element element Rabljen element element e-poštna sporočila Za element Stranke",
+        "Konfigurirate lahko privzeto ime in e-poštni naslov pošiljatelja, ki bosta uporabljena za pošiljanje e-pošte vašim strankam.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "element element storitev element 100 element, element element element onemogočeno element! element element Za element element",
+        "Če vaša storitev preseže 100 napak, bo samodejno onemogočena! Napake lahko ponastavite, da ga znova omogočite.",
 
       encryption_ports_guide:
-        "E-naslov Ponudniki element Ponudba SSL, TLS, element element Na voljo element element poveži element element , element element element način element element <b>TLS</b> element element: <b>587</b> element <b>SSL</b> element element: <b>465</b>.",
+        "Ponudniki e-pošte lahko ponujajo SSL, TLS ali nešifrirane povezave glede na razpoložljiva vrata. Če pri povezovanju pride do napake, lahko težavo odpravite s spremembo načina šifriranja. Standardni <b>TLS</b> uporablja vrata: <b>587</b> in <b>SSL</b> uporablja vrata: <b>465</b>.",
 
       enable_receive_test:
-        "element Shrani element, element element Prejeti element element <b>{email}</b>. Shrani element element E-naslov element element Novo element",
+        "Ko shranite spremembe, boste dne <b>{email}</b> prejeli testno pošto. Shranite spremembe, preden pošljete testno e-pošto z novo konfiguracijo.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Prodaja kanal",
     subtitle:
-      "Ustvari element element Kategorija element element Izdelki, element element Slike element element, element element Za Instagram element element, element element , element element Za element element element Izdelki",
+      "Ustvarite namensko kategorijo za svoje izdelke, skupaj s slikami in videoposnetki, in jo delite v svojih družabnih medijih. Podoben je Instagramu in TikToku, vendar s popolnim nadzorom, kar vam omogoča neposredno prodajo izdelkov.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Končni ceni je treba dodati davek.",
     invoice: {
       subtitle:
-        "element element element obrazec, element element Ustvari element Plačilo Povezava element element element Znesek element element zasluži element element Račun element element Plačilo element element ",
+        "Z uporabo tega obrazca lahko ustvarite povezavo za plačilo za določen znesek. Omogoča tudi preprosto in enostavno sledenje računu ter potrjevanje zaključka plačila.",
     },
   },
 
@@ -8949,9 +8949,9 @@ export default {
     drag_sort_msg: "element element datoteke",
     paid_mode_msg: "Uporabniki element Prenesi element element Izdelek",
     free_mode_msg:
-      "Uporabniki element Prenesi element element brezplačno element datoteke element element element 50 MB.",
+      "Uporabniki ga lahko prenesejo brezplačno. Vzorčne datoteke morajo biti manjše od 50 MB.",
     has_gust_shopping_msg:
-      "Registriran element element Uporabniki element Prenesi datoteke element element Nakupi element omogočeno element element Trgovine Nastavitve > Tok",
+      "Registrirani in gostujoči uporabniki lahko prenašajo datoteke, saj so gostujoči nakupi omogočeni v nastavitvah trgovine > tok.",
     only_registered_shopping_msg:
       "element Registriran Uporabniki element Prenesi element datoteke",
     file_count_limit: "datoteke štetje Omejitev",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Na voljo Lokacije",
     subtitle:
-      "element element Izdelek element storitev element element Na voljo element element Regije, element element Država element element koda, element element Lokacije element element Lokacija omejitev element element Izdelek element element element Izdelek stran, Stranke element element element Za Izberi element Lokacija element element Izdelek element Na voljo element element element Območje, element element Za element element element Nakup",
+      "Če je vaš izdelek ali storitev na voljo samo v določenih regijah, opredeljenih z državo in poštno ali pin številko, lahko te lokacije določite tukaj. Te lokacijske omejitve veljajo na ravni izdelka. Na strani izdelka bodo stranke pozvane, da izberejo svojo lokacijo. Če je izdelek na voljo na njihovem izbranem območju, bodo lahko nadaljevali z nakupom.",
 
     add_location_action: "Dodaj Država",
     no_restriction: "št omejitev",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "element Lokacija omejitev",
       description:
-        "Stranke element element Nakup element Izdelek element element element Država element element Koda, element Za element element Lokacija omejitev",
+        "Stranke lahko kupijo ta izdelek samo znotraj navedene države in poštne številke zaradi uveljavljene lokacijske omejitve.",
     },
     zip_pin_code: "element / element koda",
     no_country_selected_error:
-      "element element Država element element element Seznam element element koda element element, element Izdelek element element element Na voljo",
-    tips: "element element element <b>+ Dodaj Država</b> element Za Začni element element Novo Lokacija element element , element element Shrani element element <b>⋮ meni</b> element Izberi <b>Shrani profil</b>.",
+      "Vključite vsaj eno državo skupaj s seznamom poštnih številk. Brez tega ta izdelek ne bo na voljo.",
+    tips: "Kliknite gumb <b>+ Dodaj državo</b>, da začnete ustvarjati nov niz lokacij. Ko končate, ga lahko shranite tako, da kliknete zgornji desni <b>⋮ Meni</b> in izberete <b>Shrani profil</b>.",
     need_save_message:
-      "element Lokacija omejitev Nastavitve element element Izdelek element element element Za element element element, element element 'Shrani element element",
+      "Nastavitve omejitve lokacije za izdelek so bile spremenjene. Če želite ohraniti te spremembe, kliknite spodnji gumb »Shrani«.",
 
     add_dialog: {
       title: "Dodaj Država",
       message:
-        "element element Država element element 'Dodaj element element Država Za element element, element element Za element element, element koda, element element, element Regija element Za element",
+        "Izberite državo in kliknite »Dodaj«. To bo dodalo državo v tabelo, kar vam bo omogočilo, da ji dodelite poštne številke, PIN kode, imena mest ali imen regij.",
     },
     save_profile_dialog: {
       title: "Dodaj Lokacije profil",
       message:
-        "element Vnos element ime Za Shrani element element element Lokacije element element Lokacija element element Za element Izdelki, element element element Lokacija element element profil element element element ime element element, element element Novo element",
+        "Vnesite ime, da shranite ta niz lokacij. Ta shranjeni niz lokacij je mogoče uporabiti za druge izdelke, kar omogoča hitro nalaganje lokacije z enim klikom. Če profil s podanim imenom že obstaja, bo posodobljen s temi novimi vrednostmi.",
       title_input: {
         title: "profil Naslov",
         placeholder: "element Kategorija ime, element trgovina ime,. ..",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "element Lokacije profil",
       message:
-        "element element element Lokacije element Izberi element element element Lokacija element element",
+        "Lokacije lahko naložite tako, da tukaj izberete predhodno shranjen nabor lokacij.",
 
       select_input: {
         title: "Lokacija profil",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "element 🛍️ Naroči Poročilo",
-      desc: "Prejeti element element E-naslov element element Podrobnosti element Naročila element element element",
+      desc: "Dnevno prejemajte e-poštno sporočilo s podrobnostmi o naročilih za ta dan.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "element Trgovine",
       subtitle:
-        "element, element element Trgovine element element Za element element informacije Na voljo element element Trgovine element, element element Od element element Naročila element element Osebno informacije, element element Podatki element element element Za element Javno element element informacije element, element element element trgovina element element ",
+        "Tukaj lahko odkrijete izbor trgovin z vzorci. Dovoljeno vam je, da pregledate informacije, ki so na voljo v teh trgovinah. Vendar vas prosimo, da se ne prijavljate ali oddajate naročila z resničnimi osebnimi podatki, saj bodo ti podatki dostopni javnosti. Če tukaj pomotoma vnesete svoje podatke, zapustite trgovino in stopite v stik z nami za nadaljnjo pomoč.",
     },
 
     add_new_store: "Dodaj Novo trgovina",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategorije spletnega dnevnika",
     subtitle:
-      "element element Ustvari element element kategorije element element blog element Za Upravljaj element Več. . element element element Kategorija Omejitev element element Spletna stran element, element element element novo element element kategorije, element element element 100, Za element Upravljanje element element ",
+      "Za učinkovitejše upravljanje lahko ustvarite omejeno število kategorij za objave v spletnem dnevniku. Omejitev kategorije spodbuja boljšo organizacijo na vašem spletnem mestu. Predvsem najvišje tiskovne agencije vzdržujejo omejeno število kategorij, pogosto manj kot 100, da poenostavijo upravljanje in ohranijo širši fokus.",
 
     add_action: "Dodaj novo kategorijo",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "element element element",
     subtitle:
-      "element element element Seznam element element Za element blog element element element Izdelek opis Za element Objavljeno element element Časi",
+      "Tukaj je seznam načrtovanih člankov za prihodnjo objavo. Objave v spletnem dnevniku in celo opise izdelkov lahko načrtujete za objavo ob določenem času.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Pomočnik za naročila",
     subtitle:
-      "Izvozi element Prenesi element element element 🛍️ Naroči element - element element 100 Naročila element",
+      "Izvoz in prenos nalepk za množično obdelavo naročil – idealno za obdelavo več kot 100 naročil dnevno.",
 
     timespan: {
       title: "Časovno obdobje",
@@ -9266,7 +9266,7 @@ export default {
       title: "Načini prijave",
       subtitle: "Prilagodite način prijave uporabnikov v vašo trgovino.",
 
-      tips: "<b>element</b> element element Uporabnik element element element Nakupujte, element element Selldone Uporabnik element element, element element Uporabnik element element Dostop Za element naslov element element vse Trgovine element element Ogled element 🛍️ Naroči Zgodovina, element element element Nakupujte element element informacije element Trženje element element Za element element Za element element, element Pošlji element E-naslov Za element Uporabnik element element ",
+      tips: "<b>Pomembno.</b> Ko se uporabnik registrira v vaši trgovini, se ustvari ustrezen uporabnik Selldone, če še ne obstaja. Ta uporabnik bo imel dostop do svojega adresarja v vseh trgovinah in si lahko ogleda zgodovino svojih naročil, tudi če je trgovina zaprta. Teh podatkov ne uporabljamo za tržne namene, ampak jih potrebujemo za preprečevanje goljufij na obeh straneh. Da bi ohranili preglednost, bomo uporabniku poslali e-poštno sporočilo z obvestilom o njegovi registraciji.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Preveri obrazec",
       subtitle:
-        "element element Preveri obrazec element Za element element informacije element element Od element Stranke",
+        "Prilagodite polja obrazca za dokončanje nakupa, da zberete informacije, ki jih potrebujete od svojih strank.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "element",
       title: "element",
       description:
-        "element Izdelek element element seznam element element trgovina, element element Povezava",
+        "Ta izdelek ni naveden v trgovini, vendar je dostopen prek neposredne povezave.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Pošlji element element",
     message:
-      "Selldone element element element 3 podjetje element Za element element informacije element element Nadgradnja element element element Čas element element",
+      "Prepoznajte svoje 3 glavne poslovne potrebe za uspeh in dobiček na Selldone. Te informacije bodo posredovane neposredno ustanoviteljem in direktorjem ter jih bomo skrbno preučili. Svoje potrebe lahko posodobite tudi čez čas po predložitvi.",
     expand_action: "pisanje element element",
     input_label: "element element",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Pošlji Za element",
     },
     placeholder: {
-      ceo: "element št element Za element element, element Všeč mi je Za element element element, element element Za element",
-      team: "element element Za element element Za element element Za element",
+      ceo: "Nikakor mi ni treba biti prijazen, rad slišim tvoje neposredno, pravo vprašanje.\nnpr. Moram imeti ...",
+      team: "Prosim, poskusite biti prijazni do njih.\nnpr. Moram imeti ...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "element Uvozi Izdelki",
     message:
-      "element element Uvozi Izdelki element Slike, element element Čas Za element",
+      "Smo v procesu uvoza izdelkov in slik, kar lahko traja nekaj časa.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "element informacije element element stranka, element element Izdelek Vnos obrazec element",
+      "Tukaj prikazane informacije je predložila stranka v skladu s strukturo obrazca za vnos izdelka.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "storitev Stanje",
       auto_confirm_enable_msg: "element element Naročila element omogočeno",
       auto_confirm_disable_msg:
-        "samodejno element element Naročila element element omogočeno",
+        "Samodejno potrjevanje naročil ni omogočeno.",
       shipping_enable_msg:
-        "element Dostava element element informacije element element Preveri",
+        "Stroški pošiljanja bodo izračunani na podlagi podatkov, posredovanih na blagajni.",
     },
     detail: {
       title: "Connect element",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "element element",
         subtitle:
-          "element element Podrobnosti element informacije element element konec",
+          "Podrobnosti notranje sinhronizacije. Te informacije se shranijo po uspešnem zaključku epohe procesa sinhronizacije.",
         no_data: "št element informacije!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Izdelki",
       subtitle:
-        "Seznam element Dodaj Izdelki Od {name}. zasluži element element Izdelek element element element ime element SKU. element Connect Storitve element Rabljen element element, element element Izdelki element element <b>SKUelement</b> element <b>element</b>, element Izdelki element element element!",
+        "Seznam dodanih izdelkov iz {name}. Prepričajte se, da ima vaš izdelek edinstveno ime in SKU. Nekatere storitve Connect se uporabljajo za selitev, tako da če imate izdelke s podvojenimi <b>SKU-ji</b> in <b>Names</b>, bodo ti izdelki spremenjeni!",
       action: "element Izdelki",
       syncing_message: "element element element",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "element",
       subtitle:
-        "element Seznam element vse element element 7 30 dni element element podpora element element element storitev Ponudniki",
+        "Seznam vseh dnevnikov v zadnjih 7 dneh. Funkcija beleženja je podprta samo pri zunanjih ponudnikih storitev.",
     },
 
     edit: {
@@ -9595,18 +9595,18 @@ export default {
       service: {
         title: "storitev",
         subtitle:
-          "Izberi element element, element element, element Tržnica Za poveži",
+          "Izberite ciljno platformo, dobavitelja dropshippinga ali tržnico za povezavo.",
       },
       test: {
         false_title: "element vse",
         false_desc: "element vse Na voljo Izdelki, kategorije, Stranke",
         true_title: "element (element element element)",
         true_desc:
-          "element maks 5 Izdelki, kategorije, element Stranke element element Za element način element element Connect > Nastavitev element element Čas",
+          "Pridobite največ 5 izdelkov, kategorij in strank. Kadar koli ga lahko preklopite v polni način v Connect > Setting.",
       },
       overwrite: {
         false_title: "element element Spremeni se element element",
-        false_desc: "element element Izdelek element Kategorija Podrobnosti element element element",
+        false_desc: "Ohranite obstoječe podrobnosti o izdelku in kategoriji, kot so.",
         true_title: "element",
         true_desc:
           "Nadgradnja element Izdelek, element, element Kategorija informacije",
@@ -9618,29 +9618,29 @@ export default {
       order: {
         title: "naročilo Stanje",
         subtitle:
-          "element element Povezano Storitve 🛍️ Naroči Upravljanje Nastavitve element element trgovina element Vključuje Nastavitev element 🛍️ Naroči element, element samodejno 🛍️ Naroči element (element podpora), element element Dostava element element",
+          "Konfigurirajte nastavitve upravljanja naročil povezane storitve za vašo trgovino. To vključuje nastavitev sprejema naročila, omogočanje samodejne potrditve naročila (če je podprto) in konfiguracijo izračunov stroškov pošiljanja.",
       },
       enable: {
         label: "Connect Stanje",
-        true_desc: "Inventar element Naročila element element element",
+        true_desc: "Inventar in naročila bodo sinhronizirani.",
       },
       confirm: {
         label: "samodejno element Naročila",
         false_desc: "element element element 🛍️ Naroči element",
         true_desc:
-          "Naročila element V živo Plačilo element element Naročila element element Plačilo element element ",
-        tips: "Naročila Plačano element Darilo Kartica element COD element Plačilo Prehodi element element element način element element Potrjeno element",
+          "Naročila s plačilom v živo bodo samodejno odobrena. Naročila s plačilom za odpravljanje napak ne bodo samodejno odobrena.",
+        tips: "Naročila, plačana z darilno kartico ali COD ali plačilnimi prehodi v načinu za odpravljanje napak, so izjeme in ne bodo samodejno potrjena.",
       },
 
       shipping: {
         label: "Dostava",
-        tips: "element storitev Ponudbe Dostava element, element element element omogočeno element onemogočeno element element omogočeno, element element APIelement element 3element element Storitve element element element, element element 300element element cena element element Preveri stran",
+        tips: "Ta storitev ponuja izračun pošiljanja, ki ga lahko omogočite ali onemogočite po svojih željah. Če je omogočeno, bodo potrebni API-ji za izračun stroškov s storitvami tretjih oseb, kar lahko povzroči zakasnitev več kot 300 ms za posodobitev cene na strani za dokončanje nakupa.",
         false_title: "element",
         false_desc:
-          "element element Dostava element element, element Nakupujte > Logistika > element element vse Izdelki, element Uvozi element",
+          "Uporabite moj izračun stroškov pošiljanja v Trgovina > Logistika > Prevoz za vse izdelke, vključno z uvoženimi.",
         true_title: "element Dostava",
         true_desc:
-          "element element Dostava element element API ponudba element element storitev",
+          "Uporabite API za izračun cene pošiljanja, ki ga ponuja ta storitev.",
       },
 
       remove: {
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect element podjetje element Za element Storitve element Upravljaj vse Kanali element element ",
+        "Povežite svoj poslovni OS z zunanjimi storitvami in upravljajte vse kanale na istem mestu.",
       action: "Connect Novo Storitve",
       empty_message:
-        "element aplikacije element element ! Connect element element 🛍️ Naroči Upravljanje",
+        "Pozabite na aplikacije in vtičnike za dropshipping! Connect je prihodnost upravljanja naročil na več platformah.",
       auto_confirm: "samodejno element",
       shipping: "Dostava",
       syncing_now: "element element!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "element",
-      desc: "element Izdelki, kategorije, element Stranke element element Uporabnik Izbriši element storitev, element Prejeto Izdelki, kategorije, element Stranke element element element Izbrisano",
+      desc: "Pridobite izdelke, kategorije in stranke. Ko uporabnik izbriše to storitev, prejeti izdelki, kategorije in kupci ne bodo izbrisani.",
     },
     Dropshipping: {
       title: "element",
-      desc: "element Izdelki, kategorije, element Naročila element element Odstrani Izdelki element element Uporabnik Odstrani element storitev",
+      desc: "Pridobite izdelke, kategorije in naročila. Sistem odstrani izdelke, potem ko uporabnik odstrani storitev.",
     },
     Marketplace: {
       title: "Tržnica",
-      desc: "element element Inventar element Prejeti Naročila (Izdelki element element povezano element SKU).",
+      desc: "Samo sinhronizirajte inventar in prejemajte naročila (izdelki bodo povezani s SKU).",
     },
     Accounting: {
       title: "Računovodstvo",
@@ -9699,7 +9699,7 @@ export default {
     title: "Ciljne strani",
     add_new_action: "Dodaj Novo stran",
     subtitle:
-      "Ustvari element, element Po meri strani element element Blagovna znamka element element element AI-element element element, element element Podatki",
+      "Ustvarite značilne, odzivne strani po meri za svojo blagovno znamko z vsestranskim vgrajenim urejevalnikom, ki ga poganja AI, in samodejno ustvarite dinamično vsebino z vnosom podatkov.",
     empty_message: "Oblikovanje Po meri strani element element & element",
   },
 
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "Komentarji",
-    subtitle: "element element element Seznam element element element Komentarji",
+    subtitle: "To je seznam komentarjev skupnosti.",
     empty_msg: "št Komentarji element element ",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "kategorije",
-    subtitle: "element element element Seznam element element element kategorije",
+    subtitle: "To je seznam kategorij skupnosti.",
     new_category_action: "Nova kategorija",
     empty_msg: "št kategorije element element ",
     filter: {
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "element",
-    subtitle: "element element element Seznam element element ",
+    subtitle: "To je seznam objav skupnosti.",
     filter: {
       deleted: {
         title: "Izbrisano",
@@ -9762,11 +9762,11 @@ export default {
     menu: {
       open_post: {
         title: "element element",
-        subtitle: "Ogled element Uredi element element element skupnost",
+        subtitle: "Ogled in urejanje objave v skupnosti.",
       },
       spam: {
         title: "Poročilo & Odstrani element",
-        subtitle: "element Odstrani element element element Uporabnik",
+        subtitle: "Množično odstranjevanje objav in izključitev uporabnika.",
       },
       delete: {
         title: "Izbriši element",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "Oznaka element",
       subtitle:
-        "Google element element ROI element element element, element, element element aplikacije Upravljaj Spletna stran Oznake element element Google Oznaka element brezplačno, Preprosto, element element element—št Koda Uredi element",
+        "Google Analytics omogoča merjenje donosnosti naložbe oglasov ob sledenju spletnim mestom in aplikacijam Flash, videoposnetkov ter družbenih medijev. Upravljajte oznake spletnih mest brez truda z brezplačnimi, preprostimi in zanesljivimi rešitvami Google Tag Managerja – urejanje kode ni potrebno.",
       tag_id: {
         label: "Google Oznaka element ID",
       },
@@ -9790,13 +9790,13 @@ export default {
     shopping: {
       title: "Google element",
       subtitle:
-        "Podatki element element informacije element element Povezava Za element Dodaj vse Izdelki element kategorije Za Google element",
-      tips: "element element Za element element element Upravljaj Google Oglasi",
+        "Podatkovni viri označujejo izvor vaših kataloških informacij v Googlu. Sledite tej povezavi za samodejno dodajanje vseh izdelkov in kategorij v Googlovo blago.",
+      tips: "To orodje lahko uporabite za preprosto in samodejno upravljanje Googlovih oglasov.",
       link_message: "Google Izdelki element URL",
     },
     console: {
       title: "iskanje element",
-      subtitle: `Dodaj element element Oznaka Za element element element Google iskanje element element`,
+      subtitle: "Dodajte meta oznako na svojo domačo stran za preverjanje Google Search Console.",
       code: {
         label: "element element Oznaka",
         placeholder: "Od element, element element",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & element",
       subtitle:
-        "element element SEO element Podatki Od Google element element element Za element element ",
+        "Od Googla pridobimo najnatančnejše podatke revizije SEO in vam jih predstavimo na priročen način. Preprosto sledite navedenim korakom.",
     },
     serp_content: {
       title: "Connect Za Google iskanje element",
       subtitle:
-        "Selldone Connect element Nakupujte Za element iskanje element element Začni element element, element, element element brezplačno SEO Orodja element element",
+        "Povežite svojo trgovino z iskalno konzolo in začnite raziskovati ključne besede, uvrstitve in druga brezplačna orodja za SEO na Selldone.",
       tips: {
         title:
-          "element Za povezava Selldone element Google iskanje element, element element element:",
-        add_in_selldone: "Dodaj, element, element element element Primarni element Po meri domena",
-        add_in_google: `Dodaj element element <b>{domain}</b> element element<a href="https://search.google.com/search-console" target="_blank"> <b>Google iskanje element</b></a>.`,
+          "Preden povežete Selldone z Google Search Console, zagotovite naslednje:",
+        add_in_selldone: "Dodajte, preverite in nastavite svojo domeno po meri kot primarno.",
+        add_in_google: "Dodajte in preverite <b>{domain}</b> v vaši<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a>.",
       },
       action_custom_domain: "Po meri domena",
       action_connect_now: "Povežite se zdaj",
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "Skupaj vračilo denarja",
     delete_alert: {
       title: "Izbriši vračilo denarja element",
-      message: "element element element Za Izbriši element vračilo denarja element?",
+      message: "Ali ste prepričani, da želite izbrisati ta program vračila denarja?",
       action: "Da, Izbriši zdaj",
     },
     notifications: {
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "element element element Odstotek, Omejitev element element Stanje element",
+      subtitle: "Tu nastavite odstotek chasbacka, omejitev in njen status.",
     },
     percent_input: {
       title: "vračilo denarja element",
       message: "element element vračilo denarja element Od 1% Za 20%.",
     },
     currency_input: {
-      message: "element vračilo denarja element element element Na voljo element element element valuta",
+      message: "Program vračila denarja bo na voljo samo za to valuto.",
     },
     limit_input: {
       title: "Omejitev",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Trajanje Omejitev",
-      subtitle: "element Trajanje element vračilo denarja element element neobvezno",
+      subtitle: "Nastavite trajanje programa vračila denarja. To ni obvezno.",
     },
     start_input: {
       title: "Začetni datum",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "element Naslov element element Opis element element vračilo denarja element element informacije element element element Za Stranke",
+        "Nastavite naslov in kratek opis za program vračila denarja. Te informacije bodo prikazane strankam.",
     },
     title_input: {
       title: "Naslov",
@@ -9933,9 +9933,9 @@ export default {
       title: "Minimalni nakup",
     },
     only_first_buy_input: {
-      false_desc: "element vračilo denarja element element element Na voljo element vse Naročila",
+      false_desc: "Program vračila denarja bo na voljo za vsa naročila.",
       true_desc:
-        "element vračilo denarja element element element Na voljo element element 🛍️ Naroči",
+        "Program vračila denarja bo na voljo samo za prvo naročilo.",
       true_title: "element element 🛍️ Naroči",
       false_title: "vse Naročila",
     },
@@ -9943,30 +9943,30 @@ export default {
       false_title: "vse Stranke",
       true_title: "element Stranke",
       true_msg:
-        "element vračilo denarja element element element Na voljo element element element Stranke element element element",
+        "Program vračila denarja bo na voljo samo strankam, ki so kvalificirane.",
     },
     club: {
       subtitle:
-        "element element Klub element element vračilo denarja element element vračilo denarja element element element Na voljo element element element Stranke element element Klub",
+        "Nastavite klub za program vračila denarja. Program vračila denarja bo na voljo samo strankam, ki so v tem klubu.",
     },
     cluster: {
       subtitle:
-        "element element vračilo denarja element, element element Upravljaj element Več. . element",
+        "Če grozd povežete s programom za vračilo denarja, ga lahko učinkoviteje upravljate.",
     },
     notifications: {
       add: "vračilo denarja element Dodaj element",
       edit: "vračilo denarja element element element",
     },
     enable_input: {
-      true_msg: "element vračilo denarja element element Aktiven element Stranke element element element",
+      true_msg: "Program vračila denarja je aktiven in ga stranke lahko uporabljajo.",
       false_msg:
-        "element vračilo denarja element element neaktiven element Stranke element element ",
+        "Program vračila denarja ni aktiven in ga stranke ne morejo uporabljati.",
     },
     boosted_input: {
       false_title: "Normalno",
       true_title: "element (2element vračilo denarja)",
       true_msg:
-        "element vračilo denarja element element način element Stranke element Prejeti 2element vračilo denarja",
+        "Program vračila denarja je v načinu pospeševanja in stranke bodo prejele 2x vračilo denarja.",
       false_msg:
         "element vračilo denarja element element element Normalno način element Stranke element Prejeti Normalno vračilo denarja",
     },
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "element element Dostava",
-        subtitle: "element element Dostava element Plačilo element",
+        subtitle: "Ponudniku plačila lahko dostavo potrdite ročno.",
       },
     },
   },
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "vračilo Plačilo",
     message:
-      "element Varnost element, element Naročila Plačano element element element 7 30 dni element element element vračilo",
+      "Iz varnostnih razlogov so do povračila upravičena le naročila, plačana v zadnjih 7 dneh.",
     payment_amount: "Znesek plačila",
     total_refund_amount: "Skupaj vračilo Znesek",
     can_refund: "element vračilo",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "element vračilo",
       description:
-        "element element vračilo Znesek element element Za element",
+        "Potrjujem, da je znesek vračila pravilen in želim nadaljevati.",
     },
     action: "vračilo element",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "stranka Dostava element",
     message:
-      "element Plačilo Storitve element element 🛍️ Naroči element element Dostavljeno Za element stranka element element Pošlji element element 🛍️ Naroči element element element Prejeti element Stranke Dostava element element, element element element Za element element , element element ",
+      "Določene plačilne storitve zahtevajo potrditev, da je bilo naročilo dostavljeno stranki. To potrditev običajno pošljemo med zadnjim korakom izpolnitve naročila, ko prejmemo kupčevo potrdilo o dostavi. Če pa morate to dejanje izvesti ročno, lahko to storite tukaj.",
     verify: {
       title: "element Dostava",
       description:
-        "element element 🛍️ Naroči element element Dostavljeno Za element stranka",
+        "Potrjujem, da je bilo naročilo dostavljeno kupcu.",
     },
     action: "element element",
   },
@@ -10029,14 +10029,14 @@ export default {
     title: "Navzkrižna prodaja",
     add_new_actions: "Dodajte nov izdelek",
     subtitle:
-      "element element element, element element Dodaj element Upravljaj element Izdelki element element Izdelek stran element Izdelki element element Stranke Za Nakup element element glavna predmet element element popust Za element element Nakupi element element največ element 3 Predmeti element element stranka Za element",
+      "V tem razdelku lahko dodate in upravljate izdelke za navzkrižno prodajo za to stran izdelka. Ti izdelki bodo strankam prikazani kot predlogi za nakup poleg glavnega artikla. Nastavite lahko tudi popuste za spodbujanje in spodbujanje dodatnih nakupov. Sistem bo stranki prikazal največ 3 elemente, ki jih mora upoštevati.",
     dialog: {
       edit_title: "Uredi element element Izdelek",
       add_title: "Dodaj Novo element element Izdelki",
       target: {
         title: "element Izdelek",
         subtitle:
-          "element element Izdelki element Všeč mi je Za element element Izdelek",
+          "Izberite izdelke, ki jih želite promovirati kot možnosti navzkrižne prodaje poleg tega izdelka.",
         select_products: "Izberi Izdelek(element)",
       },
       list: {
@@ -10047,18 +10047,18 @@ export default {
       discount: {
         title: "Popust & Sporočilo",
         subtitle:
-          "element element Za element element Sporočilo element Ponudba element Popust Za element Stranke Za Kupite element Izberi element Predmeti element Spodbude element pomoč element Prodaja element element ",
+          "Imate možnost vključiti sporočilo in ponuditi popust, da motivirate kupce za nakup izbranih dodatnih artiklov. Te spodbude lahko pomagajo povečati prodajo in izboljšajo splošno nakupovalno izkušnjo.",
         amount_input: {
           message:
-            "element Popust element element Za element Izdelek cena element element element račun vse element popust",
+            "Odstotek popusta bo obračunan na ceno izdelka po upoštevanju vseh obstoječih popustov.",
         },
         mismatch_type_warning:
-          "popust element element element Za element Vrste element element glavna Izdelek Vrste, element element Predmeti element element ",
+          "Popustov ni mogoče uveljavljati za druge vrste izdelkov poleg glavnih vrst izdelkov, saj izvorni in ciljni artikli ne bodo uvrščeni v isto košarico.",
         not_support_subscription_type_warning:
-          "Nastavitev popust element element Naročnina Izdelki element element element, element element Cenitev Načrti element element ",
+          "Določanje popustov za navzkrižno prodajo naročniških izdelkov ni mogoče, saj cenovnih načrtov ni mogoče dinamično prilagajati.",
         message_input: {
           message:
-            "element element Naslov Za element Stranke element",
+            "Ustvarite prepričljiv in privlačen naslov, da pritegnete pozornost strank.",
           placeholder:
             "element & Shrani: element element !",
         },
@@ -10066,7 +10066,7 @@ export default {
       action: {
         title: "element",
         subtitle:
-          "element element element Izdelki element element Izdelek element element Vnos element Po meri informacije, element element obrazec, element element element \"Dodaj Za element\" element element element, element element Za element",
+          "Tukaj spremenite dejanje izdelka navzkrižne prodaje. Če vaš izdelek zahteva vnos podatkov po meri, na primer prek obrazca za vrednotenje, kot dejanje ne izberite »Dodaj v košarico«, saj lahko to povzroči napake.",
       },
     },
   },
@@ -10078,13 +10078,13 @@ export default {
     variants: {
       title: "element element",
       subtitle:
-        "Izberi element Za element element , element element Variante Za Ustvari element",
+        "Izberite do dve možnosti različice. Po izbiri lahko izberete, katere posebne različice želite samodejno ustvariti.",
     },
     values: {
       title: "element element",
       subtitle: "element element ",
       prevent_duplicates_tips:
-        "<b>Opomba:</b> element element Variante Za element element",
+        "<b>Opomba:</b> Samodejno preverjamo obstoječe različice, da preprečimo dvojnike.",
     },
     inventory: {
       title: "element Inventar",
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Dodaj v voziček",
       description:
-        "element element Dodaj Za element element element Opomba element element Naročnina Izdelki",
+        "Neposredno prikažite gumb Dodaj v košarico. Upoštevajte, da to ne velja za naročniške izdelke.",
     },
     ViewProduct: {
       title: "Oglejte si izdelek",
       description:
-        "element element Ogled Več. . element element element Stranke Za element Izdelek stran element element element Novo element",
+        "Prikažite gumb Prikaži več, ki stranke usmeri na stran izdelka tako, da odpre novo okno.",
     },
   },
 
@@ -10115,17 +10115,17 @@ export default {
 
   product_flow: {
     title: "Nakup Tok",
-    subtitle: "element element element Nakup Tok element element Izdelek",
+    subtitle: "To je potek nakupa in pregled zdravstvenega stanja vašega izdelka.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "element Izdelek element element Dodaj element <b>{name}</b>.",
-      enable_msg: "element element Za element storitev element omogočeno",
-      disable_msg: "element element Za element storitev element onemogočeno",
+      subtitle: "Ta izdelek je bil dodan prek <b>{name}</b>.",
+      enable_msg: "Ta most do zunanje storitve je omogočen.",
+      disable_msg: "Ta most do zunanje storitve je onemogočen.",
       has_shipping_msg:
-        "{name} Podpora Dostava element element Za Omogoči samodejno Dostava element element {name} element element Preveri stran",
+        "{name} podpira pošiljanje. Torej imate možnost omogočiti samodejni izračun pošiljanja do {name} na strani za dokončanje nakupa.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "element prodajalci",
       subtitle:
-        "element Izdelek element element št element prodajalci element element Izdelek Za element element Tržnica, element element prodajalec",
+        "Ta izdelek trenutno nima povezanih prodajalcev. Da je izdelek mogoče kupiti na trgu, mora imeti vsaj enega prodajalca.",
       manage_vendors: "Upravljaj prodajalci",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "element datoteke",
       subtitle:
-        "element, št datoteke element element Naloži element element Izdelek element Naloži datoteke Za element",
+        "Trenutno ni naložena nobena datoteka za ta izdelek. Če želite nadaljevati, naložite datoteke.",
       manage_files: "Upravljaj datoteke",
     },
 
@@ -10165,7 +10165,7 @@ export default {
      */
     pricing: {
       title: "Cenitev",
-      no_product_price_msg: "element Privzeto Izdelek cena element element element!",
+      no_product_price_msg: "Privzeta cena izdelka še ni določena!",
       listing_pricing_msg: "Vnos Cenitev:",
       has_valuation_msg: "Izdelek element element",
       subscription_pricing_msg:
@@ -10195,9 +10195,9 @@ export default {
       available_countries_msg:
         "element element element Za {count} element element {countries}.",
       disable_for_all_countries_msg:
-        "element element onemogočeno element vse element element element Nakupujte > Lokacije Nastavitev",
+        "Nakupovanje je onemogočeno za vse države v vaši trgovini > nastavitev lokacij.",
       location_is_not_in_permitted_shop_locations_msg:
-        "element element {country} element element element Lokacija element element element trgovina element element Država element element element trgovina element Nastavitve",
+        "Nastavili ste {country} kot prodajno mesto, vendar na ravni trgovine ne dovolite te države. Preverite nastavitve na ravni trgovine.",
       shop_locations: "Nakupujte Lokacije",
       product_locations: "Izdelek Lokacije",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "Na voljo Lokacije element",
       no_location_error_subtitle:
-        "element element Aktivirano element Lokacija omejitev element element element Izdelek, element element, št Država element seznam element element omejitev element element element, element Izdelek element ni na voljo element Nakup element element",
+        "Aktivirali ste lokacijsko omejitev za nakup izdelka, vendar trenutno pod to omejitvijo ni navedena nobena država. Posledično ta izdelek ni na voljo za nakup nikomur.",
       invalid_location_error_subtitle:
-        "element Lokacija omejitev Nastavitve element element Izdelek element element element: element Lokacije seznam element element ZIP koda element, Uporabniki element element Za Izberi element ZIP Koda, element element Izdelek ni na voljo element Nakup",
+        "Nastavitve omejitve lokacije za vaš izdelek vsebujejo napako: nekatere navedene lokacije nimajo nobene povezane poštne številke. Posledično uporabniki ne morejo izbrati poštne številke, zaradi česar izdelek ni na voljo za nakup.",
 
       manage_locations: "Upravljaj Lokacije",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "davek Profili",
       description: {
         subscription_tax_msg:
-          "element element element davek element element element Plačilo element element",
+          "Davek lahko uporabimo samo v koraku ustvarjanja plačila.",
         dedicated: "element",
         is_disabled: "element davek profil element onemogočeno!",
         tax_is_based_on_location: "davek: Lokacija element",
@@ -10238,9 +10238,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "element Izdelek element Za <b>{vendor}</b>.",
-      has_vendors_msg: "element element {count} prodajalci element element Izdelek",
+      has_vendors_msg: "Za ta izdelek je {count} prodajalcev.",
       no_vendor_msg:
-        "element element prodajalec Za element Izdelek, element Stranke element element Za Nakup element",
+        "Temu izdelku niste dodelili prodajalca, zato ga kupci ne morejo kupiti.",
       add_vendors: "Dodaj prodajalci",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "Izdelek stran Predloga",
     subtitle:
-      "element element Vdelati element stran element element Izdelek stran element element Za Ustvari strani element element prozorno ozadje element 1 Za 3 element element Za element Izdelek Kategorija element, element element stran Za element Izdelki element element ",
+      "Za izboljšano predstavitev lahko stran vdelate v svojo stran izdelka. Optimalen pristop je ustvariti strani s prosojnim ozadjem in 1 do 3 razdelki, prilagojenimi vsaki kategoriji izdelkov. Nato dodelite eno stran več izdelkom za dosleden in privlačen prikaz.",
     edit_page: "Uredi stran",
     list_of_pages: "Seznam element strani",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "element element element Vdelati element Izdelek element element Seznam element Izdelki element element blog element element element strani element element koda element element , element element Za element element Na voljo element element Ponudbe element element, element element Načrti Za element Več. . element element ",
+      "Izdelek ali seznam izdelkov lahko preprosto vdelate v svoj spletni dnevnik ali druge spletne strani tako, da preprosto kopirate in prilepite kode, ki jih nudimo. Čeprav je ta funkcija še v zgodnji fazi, si aktivno prizadevamo razširiti njeno funkcionalnost prek tistega, kar je trenutno na voljo drugje. Čeprav trenutno ponuja omejene zmogljivosti, načrtujemo, da bomo v prihodnosti predstavili več predlog in možnosti prilagajanja.",
     card: {
       title: "element",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "element",
       description:
-        "element element element Koda Za element element Izdelek Podrobnosti element element ",
+        "Ustvarite kodo iframe za prikaz izčrpnih podrobnosti izdelka v vdelanem oknu.",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "Dodaj osebje & Dostop",
       subtitle:
-        "vse Uporabniki element osebje Dostop element element element Za element Nadzorna plošča element oglej si Finančna informacije Za Dodaj Uporabniki element element Dostop, element element",
+        "Vsi uporabniki z osebnim dostopom se lahko prijavijo na vašo nadzorno ploščo in si ogledajo finančne podatke. Če želite dodati uporabnike z omejenim dostopom, določite vlogo.",
       go_to_roles: "element Za Vloge",
     },
     access: {
       customization_tips:
-        "<b>element:</b> element element element predmet Za element element Privzeto element Dostop element element Dostop element element Za element glavna Nakupujte Nadzorna plošča",
+        "<b>Prilagajanje:</b> Kliknite vsak element, da prilagodite privzeti dostop za branje/pisanje. Vsaka vrstica predstavlja raven dostopa, ki ustreza glavni nadzorni plošči trgovine.",
       simplify_tips:
-        "<b>element!</b> element element element Dostop element Od element 300 Za element 10 element Več. . element element element Dostop element element element Objavljeno element element element",
+        "<b>Pomembno!</b> Poenostavljamo nadzor dostopa z več kot 300 na pod 10 ravni. Podrobnejše in ažurne ravni dostopa bodo objavljene v dokumentaciji.",
       multi_permission_tips:
-        "<b>Po meri Meje?</b> element element Dodaj Več. . Dostop Za element Uporabnik, element element Dodaj element element Dostop, Ustvari element Dostop element element ",
+        "<b>Omejitve po meri?</b> Enemu uporabniku lahko dodate več dostopov, tako da po dodajanju prvega dostopa ustvarite dodaten dostop z istimi koraki.",
       view_data: "Ogled Podatki",
       apply_changes: "Uporabi spremembe",
     },
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "element Izdelki Vnos",
     subtitle:
-      "element Izdelki Od element kategorije element element Za element element kategorije Za element Izdelki element filter Izdelki element Oznake",
+      "Prikaz izdelkov iz različnih kategorij. Imate možnost, da izberete več kategorij za predstavitev izdelkov ali filtrirate izdelke po oznakah.",
     aut_add_sub_categories_tips:
-      "element element element Dodaj vse element Za element element Kategorija element element ",
+      "Vse podkategorije lahko samodejno dodate v trenutno kategorijo s klikom na spodnji gumb.",
     inputs: {
       categories: {
         label: "kategorije",
-        messages: "Izdelki element element kategorije element element element",
+        messages: "Prikazani bodo izdelki v teh kategorijah.",
         placeholder: "Izberi kategorije",
       },
       tags: {
         label: "Izdelek Oznake",
-        messages: "Izdelki element element Oznake element element Prikaži",
-        placeholder: "element Oznake element element npr Novo element",
+        messages: "Prikazani bodo izdelki s temi oznakami.",
+        placeholder: "Žične oznake tukaj in pritisnite enter. npr. nova zbirka",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>element iskanje: </b>iskanje element Naslov, MPN, SKU, Blagovna znamka, element Oznake",
       product:
-        "<b>element Izdelek ID: </b>element element ID Za element element element Izdelek, element, <b class=\"text-green\">element</b><i class=\"text-yellow\">360</i>.",
+        "<b>Natančen ID izdelka: </b>Uporabite P+ID izdelka, da poiščete določen izdelek, npr. <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>element element: </b>element element element Za iskanje element element , element, <b class=\"text-green\">\"</b><i class=\"text-yellow\">element element element</i><b class=\"text-green\">\"</b>.",
+        "<b>Natančna fraza: </b>Uporabite narekovaje za iskanje natančne fraze, npr. <b class=\"text-green\">\"</b><i class=\"text-yellow\">vaše besedilo tukaj</i><b class=\"text-green\">\"</b>.",
       tax: "<b>davek profil: </b>iskanje element Izdelki element element element davek profil element \"davek:\", element, <b class=\"text-green\">davek:</b><i class=\"text-yellow\">davek profil ime</i>.",
       new_products:
-        "<b>Novo Izdelki: </b>element Izdelki Dodaj element element element Datum element, element, <b class=\"text-green\">Novo~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Novi izdelki: </b>Poiščite izdelke, dodane v določenem časovnem obdobju, npr. <b class=\"text-green\">novo~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "element",
     subtitle:
-      "Vnos element element vrednost element element stran element element maks 32 element",
+      "Vnesite ključ, ki bo zamenjan z ustrezno vrednostjo v vsebini strani. Ključi morajo imeti največ 32 znakov.",
     add_caption: "Dodaj Novo predmet",
     add_sub_caption: "Dodaj Po meri element element",
     add_dialog: {
@@ -10391,13 +10391,13 @@ export default {
     help_dialog: {
       title: "element Za element element element",
       how_it_works_tips:
-        "element element Pristanek strani, element element Za element element Slike element element Za element element Za element element , element element npr, element element Izdelek element Kategorija element element Predmeti element element Za element element predmet, element element Pristanek strani",
+        "Na ciljnih straneh imate možnost določiti dinamične ogradne oznake za besedilo in slike. Ti nadomestni znaki imajo pomembno vlogo pri prilagajanju vsebine glede na kontekst.   Dinamična narava teh nadomestnih mest omogoča, da jih zapolnijo z vrednostmi povečanja, ki se lahko razlikujejo glede na različne dejavnike. Na primer, vrednosti povečanja so lahko različne za vsak izdelek ali kategorijo. Prava prednost te funkcije pride v poštev, ko imate različne predmete z različnimi lastnostmi. Te dinamične nadomestne oznake lahko učinkovito uporabite za personalizacijo in izboljšanje prikaza vsakega elementa ter tako ustvarite edinstveno in interaktivno izkušnjo na vaših ciljnih straneh.",
       assign_tips:
-        "Za element element element Za Slike, element element ",
+        "Če želite slikam dodeliti dinamične vrednosti, kliknite gumb podajalnika na levi strani razdelka.",
       set_dynamic_image_tips:
-        "element element Za element element Slika URL element element vrednost",
+        "Zdaj imate možnost spremeniti URL slike in ji dodeliti dinamično vrednost.",
       enter_values_tips:
-        "element element Izdelek, element element Za element element ",
+        "Za vsak izdelek lahko dodelite namenske pare ključ-vrednost.",
       result_tips:
         "element element stran, element element ",
     },
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "element element",
       subtitle:
-        "element element element Seznam element element Logistika profil element element element",
+        "To je seznam jezikov vsebine. V vsakem jeziku lahko nastavite različne vsebine za logistični profil.",
       add_caption: "Dodaj Novo Članek",
       no_more_language: "št Več. . element!",
     },
     content: {
       title: "element",
       subtitle:
-        "element element Logistika profil element element element",
+        "Vsebino za logistični profil lahko prilagodite v več jezikih.",
 
       language_input: "element Članek element",
       delete_article: "Izbriši Članek",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "element element element Za Izbriši element Članek element element?",
+      message: "Ste prepričani, da želite za vedno izbrisati ta članek?",
       action: "Da, Izbriši zdaj",
     },
   },
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Izdelki",
-    subtitle: "Seznam element Izdelki element element element profil",
+    subtitle: "Seznam izdelkov, povezanih s tem profilom.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10456,11 +10456,11 @@ export default {
     inputs: {
       name: {
         message:
-          "element ime Prikaži Za element element Za element Javno",
+          "To ime se prikaže vam in ne bo razkrito javnosti.",
       },
       accept_delete: {
         true_description:
-          "element element element Odstrani vse element element Profili Povezave",
+          "To dejanje bo odstranilo vse članke in povezave do profilov.",
         true_title: "element element Za Odstrani element element",
       },
     },
@@ -10476,24 +10476,24 @@ export default {
     title: "Logistika Profili",
     add_caption: "Dodaj Novo profil",
     subtitle:
-      "element element Ustvari element Uredi element garancija element Vrnitev pravilnik element Izdelki element element Za element Izdelki element element garancija element element element Vrste element Izdelki",
+      "Tukaj lahko ustvarite in uredite garancijo in politiko vračila za izdelke ter jo dodelite poljubnim izdelkom. Določite lahko različne garancijske politike za različne vrste izdelkov.",
     add_dialog: {
       title: "Ustvari Novo Logistika profil",
       config: {
         title: "element informacije",
         subtitle:
-          "element element profil Vrsta element element vodnik, garancija, element element Izdelki",
+          "Izberite vrsto profila. Lahko je vodnik, garancija ali katera koli druga vsebina in gradivo, ki se običajno deli med več izdelki.",
       },
       article: {
         title: "Članek",
         subtitle:
-          "element element Dodaj Več. . element element Logistika profil",
+          "Po ustvarjanju tega logističnega profila lahko dodate več jezikov.",
       },
       inputs: {
         name: {
           message:
-            "element ime Prikaži Za element element Za element Javno",
-          placeholder: "element element ime element element profil",
+            "To ime se prikaže vam in ne bo razkrito javnosti.",
+          placeholder: "Vnesite ime za profil ...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "element Predmeti Upravljanje",
     add_caption: "Dodaj Novo predmet",
     subtitle:
-      "element, element element Upravljaj element Predmeti element element element Izdelki Za element element element Videz element element trgovina, element element Predmeti element element Slika element, element element element, element vse Izdelki",
+      "Tukaj lahko upravljate elemente, vključene v vaše izdelke. Če želite zagotoviti brezhiben videz vaše trgovine, v vseh izdelkih dosledno uporabljajte predmete s podobnimi slikovnimi vzorci, kot so žični okvirji.",
     empty_list_msg: "Seznam element element Predmeti",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Izbriši element predmet",
       message:
-        "element element Za element Izbriši element predmet? element Opomba element element Od vse element Izdelki!",
+        "Ali ste prepričani, da želite trajno izbrisati ta element? Upoštevajte, da bo odstranjen tudi iz vseh povezanih izdelkov!",
       action: "Da, Izbriši zdaj",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "element predmet",
     subtitle:
-      "element element element Naslov, element element 2 Za 3 element element Slike, element element Naloži Slike Za element 256element element Videz element vse element, element element Slike element prozorno ozadje element element Izdelki",
+      "Izberite kratek naslov, najbolje z največ 2 do 3 besedami. Uporabite kvadratne slike, saj bomo samodejno spremenili velikost naloženih slik v kvadratni format 256x256. Za najboljši videz v vseh predlogah uporabite minimalistične slike s prozornimi ozadji in ohranite enoten vzorec v vseh izdelkih.",
     inputs: {
       title: {
         placeholder: "element Naslov element element Izdelek stran",
       },
       code: {
         placeholder: "element Koda, npr Mobilni_element_element",
-        hint: "element element Koda Za element element iskanje element element element Predmeti",
+        hint: "S to kodo poenostavite postopek iskanja za lociranje predmetov.",
       },
       description: {
-        placeholder: "element element Opis element element predmet",
-        hint: "Opis element element Rabljen element SEO element element element Za Uporabniki element element Po meri element element element Izdelek stran",
+        placeholder: "Kratek opis tega artikla...",
+        hint: "Opis bo uporabljen za SEO in morda viden uporabnikom na nekaterih postavitvah po meri na strani izdelka.",
       },
       image: {
         message: "maks Slika element: 1MB",
@@ -10560,18 +10560,18 @@ export default {
       external_link: {
         title: "Zunanja povezava",
         description: "element element Povezava Za element element URL",
-        tips: "element element URL Za element predmet element Uporabniki element element element predmet element element Izdelek stran, element element Za element Povezava",
+        tips: "Izdelku lahko priložite poljuben URL. Ko uporabniki kliknejo izdelek na strani izdelka, bodo preusmerjeni na to povezavo.",
       },
       internal_link: {
         title: "element Povezava",
         description:
-          "Ustvari element stran element element element Podatki element element predmet",
-        tips: "element element Povezava element Pristanek stran element element profil element element element Po meri element element Selldone element element Povezava element element predmet",
+          "Ustvarite dinamično stran s podanimi podatki za razširitev za ta element.",
+        tips: "Ciljno stran lahko povežete s profilom in zanjo nastavite pot po meri in dinamično vsebino. Selldone bo ustvaril dinamično povezavo za predmet.",
       },
     },
     notifications: {
       add: {
-        message: "element element predmet element element Dodaj element",
+        message: "Vključeni element je bil uspešno dodan.",
       },
       edit: {
         message: "element element predmet element element ",
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "Vrnjeno Naročila",
     subtitle:
-      "element Stranke element Vrnitev element element Naročila, element element element Ogled Vrnitev Zahteve element element 🛍️ Naroči element stran element Dostop element element Seznam element Vrnjeno Naročila element",
+      "Vaše stranke lahko vrnejo svoja fizična naročila, vi pa si lahko ogledate zahteve za vračilo na strani za obdelavo naročil ali dostopate do celotnega seznama vrnjenih naročil tukaj.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "provizija",
     subtitle:
-      "element Seznam element vse provizija element element element Od element element Za 30 30 dni element element provizija Za element element element Prenos Za element denarnica",
+      "Seznam vseh provizij, ki ste jih zaslužili s svojimi priporočili. Traja do 30 dni, da se provizija odobri in prenese v vašo denarnico.",
   },
   /**
    * @see OReferralWallets
@@ -10600,33 +10600,33 @@ export default {
   referral_wallets: {
     title: "Denarnice",
     subtitle:
-      "element element element oglej si element provizija element element Prenos element provizija element Za element Banka račun element element Selldone denarnica",
-    no_commission_yet: "element element element Prejeto element provizija element",
+      "Tukaj si lahko ogledate provizije, ki ste jih zaslužili. Provizije lahko prenesete na svoj bančni račun ali denarnico Selldone.",
+    no_commission_yet: "Niste prejeli še nobene provizije.",
     no_wallet: "št denarnica!",
 
     withdraw_dialog: {
       title: "element provizija element",
 
-      need_bank_info_message: "element element element Banka element element",
+      need_bank_info_message: "Najprej vnesite svoje bančne podatke.",
 
       to_wallet: {
         title: "Za denarnica",
         subtitle:
-          "element element element, element element Prenos provizija element Za element Selldone denarnica element zasluži element element element denarnica element Povezano element element Darilo denarnica, element element valuta",
+          "S to možnostjo lahko prenesete provizije v svojo denarnico Selldone. Prepričajte se, da je denarnica povezana kot vaša darilna denarnica in da deluje z isto valuto.",
       },
       to_bank: {
         title: "Za Banka",
         subtitle:
-          "element element element, element element Prenos provizija element Za element Selldone denarnica element zasluži element element element denarnica element Povezano element element Darilo denarnica, element element valuta",
+          "S to možnostjo lahko prenesete provizije v svojo denarnico Selldone. Prepričajte se, da je denarnica povezana kot vaša darilna denarnica in da deluje z isto valuto.",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "element element Za Prenos element provizija Za element Selldone denarnica",
+            "Svojo provizijo želim prenesti v svojo denarnico Selldone.",
         },
         verify_to_bank: {
           true_description:
-            "element element element Banka element element Za Prenos element provizija Za element Banka račun",
+            "Preverjam svoje bančne podatke in želim svojo provizijo nakazati na svoj bančni račun.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "element element Prejeto, element element element Pregled element",
+        "Vaša zahteva je bila uspešno prejeta in jo bomo pregledali.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "element element Dodaj <b>?element={code}</b> Za element element URL",
+      message: "<b>?ref={code}</b> lahko dodate kateremu koli naslovu selldone.",
     },
     intro: {
       title: "element element Selldone partner element",
       message:
-        "element Selldone partner element element Preprosto element element, element element element Za element element partner Povezava Za element Novo Uporabniki Za Selldone, element element provizija Od element Transakcija element zasluži—element element Vključuje element Od Naročnine, storitev element, Nakupujte element, element vse element element element Začni element element Meje element Čas element element !",
+        "Partnerski program Selldone je preprost in enostaven, zasnovan tako, da lahko zaslužite brez truda. Delite svojo edinstveno pridruženo povezavo, da povabite nove uporabnike v Selldone, in zaslužili boste provizijo od vsake njihove transakcije – za vedno. To vključuje zaslužek od naročnin, pristojbin za storitve, nadgradenj trgovine in vseh drugih tokov prihodkov. Začnite služiti delež prihodkov brez omejitev glede časa ali zaslužka. Pridružite se nam in spremenite svoje omrežje v stalen dohodek!",
       why_join_selldone_affiliate: "element element ?",
       reasons: [
         "element element element!",
-        "Selldone element vse Naročnina element Transakcija element element element Plačilo element element Uporabnik element element",
-        "element Pošlji element brezplačno $99 element Za element element Povezava",
-        "element element , element element Novo element Od vse element element Uporabniki",
+        "Krije vse naročnine in transakcijske stroške. Dobesedno vsako plačilo uporabnika na Selldone.",
+        "Vsakemu, ki se registrira z vašo povezavo, pošljemo brezplačen kupon $99.",
+        "Ko se vaša stopnja nadgradi, boste zaslužili po novi stopnji od vseh predhodno napotenih uporabnikov.",
       ],
     },
   },
@@ -10677,16 +10677,16 @@ export default {
     clone_tooltip: {
       title: "element Slog",
       subtitle:
-        "element element element Za element element , ozadje, element, element element Za element element:",
+        "S tem orodjem posnemajte sloge, kot so pisave, ozadja, robovi in ​​obrobe. Če želite podvojiti sloge, sledite tem korakom:",
       step_1:
-        "element element , element, element Slike; element element element Spremeni se Za element element",
-      step_2: "element element Slog element element Za element",
+        "Aktivirajte orodje in z miško premaknite nad besedilo, stolpce ali slike; kazalec se spremeni v pipeto.",
+      step_2: "Kliknite na element, katerega slog želite kopirati.",
       step_3:
-        "element element element Spremeni se nazaj Za element element; element element Za element element element Slog",
+        "Kazalec se bo spremenil nazaj v paleto; kliknite na element, kjer želite uporabiti kopirani slog.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "element element meni, element Vključuje vse element kategorije element Gradnja. .. element stran",
+        "Preklopite vidnost stranskega menija, ki vključuje vse kategorije razdelkov za izdelavo vaše strani.",
     },
     sort_tooltip: {
       subtitle:
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "vse Uredi Orodja element element element",
       view_mode_title: "Predogled način",
       view_mode_msg:
-        "Ogled element stran element Uporabniki element oglej si element element Uredi Orodja element element ",
+        "Oglejte si svojo stran, kot bi jo videli uporabniki, tako da skrijete dodatna orodja za urejanje in prazna področja besedila.",
     },
     repository_tooltip: {
       title: "element element",
       subtitle:
-        "element element Na voljo element element element meni, element element stran element",
+        "Preklopi prikaz vnaprej oblikovanih razdelkov. Ti razdelki so ustvarjeni z uporabo standardnih razdelkov, ki so na voljo v levem meniju, kar prikazuje prilagodljivost tega graditelja strani.",
     },
     live_view: {
       title: "V živo Predogled",
@@ -10712,18 +10712,18 @@ export default {
     hotkeys_dialog: {
       title: "element element",
       augment_tips:
-        "element element stran element element <b>element</b> element element element Rabljen element Po meri element strani element element <b>Izdelki</b>, <b>kategorije</b>, element <b>element Predmeti</b>. Za element element Slika Za element element, element element <b>element</b> element Izberi <b>element element</b> element element Slika",
+        "Na svojo stran lahko naložite dinamično vsebino in jo nadomestite z vrednostmi <b>augment</b>. Razširitev se uporablja za dinamične strani po meri, kot so <b>Products</b>, <b>Categories</b> in <b>Include Items</b>. Če želite nastaviti sliko za dinamično nalaganje, kliknite <b>Feeder</b> in izberite <b>Dynamic Source</b> za to sliko.",
     },
     hotkeys: {
-      ctrl_b: "element element Izberi element | <b>zasluži element element</b>",
-      ctrl_i: "element element Izberi element | <i>zasluži element element</i>",
+      ctrl_b: "Vklopi/izklopi krepko pisavo za izbrano besedilo | <b>Naredi me drznega</b>",
+      ctrl_i: "Vklop/izklop poševnega pisanja za izbrano besedilo | <i>Naredi me ležeče</i>",
       ctrl_l:
-        "element element Izberi element | <s>element element element</s>",
-      ctrl_u: "element element Izberi element | <u>element element</u>",
+        "Vklop/izklop prečrtanega za izbrano besedilo | <s>Prečrtaj me</s>",
+      ctrl_u: "Vklop/izklop podčrtaja za izbrano besedilo | <u>Podčrtaj me</u>",
       ctrl_1:
-        "element element Izberi element | <small>zasluži element element</small>",
-      ctrl_2: "povečaj element element element Izberi element | <big>zasluži element element</big>",
-      ctrl_r: "Odstrani vse element Od Izberi element | element vse element",
+        "Zmanjšaj velikost pisave izbranega besedila | <small>Pomanjšaj me</small>",
+      ctrl_2: "Povečaj velikost pisave izbranega besedila | <big>Naredi me velikega</big>",
+      ctrl_r: "Odstrani vse oblikovanje iz izbranega besedila | Očistite vse sloge",
       ctrl_s: "Shrani element stran",
       tab: "element element element način",
       ctrl_e: "element element Slog način",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Nastavitve",
         subtitle:
-          "element element Shrani element element stran element element Za vse element element element trgovina",
+          "Odseke, oblikovane po meri, lahko shranite za prihodnjo uporabo v oblikovanju strani. Ti shranjeni razdelki bodo dostopni vsem skrbnikom v tej trgovini.",
       },
       image: {
         title: "Slika",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Koda",
         subtitle:
-          "element element Koda Od element element stran element",
+          "Kodo elementa lahko kopirate in prilepite iz levih stranskih odsekov v ustvarjalniku strani.",
       },
       inputs: {
         title: {
@@ -10762,7 +10762,7 @@ export default {
           message: "Rabljen element iskanje element element element",
         },
         section: {
-          message: "element element element Od element stran element",
+          message: "Kopirajte razdelek iz graditelja strani.",
         },
       },
     },
@@ -10774,36 +10774,36 @@ export default {
   marketplace_vendors: {
     title: "prodajalci Seznam",
     subtitle:
-      "Dodaj prodajalci element, element element element Za Izdelki element element Izdelek Nadzorna plošča > prodajalci",
+      "Tukaj dodajte prodajalce in jih nato dodelite izdelkom na nadzorni plošči izdelkov > Prodajalci.",
     add_new_vendor_action: "Dodaj Novo prodajalec",
     status_tooltip: {
       title: "prodajalec Stanje",
-      ACCEPTED: "element prodajalec element Dostop Za element element",
-      REJECTED: "element prodajalec element element element Zavrnjeno",
-      PENDING: "element element element Čakanje element element Od element prodajalec",
+      ACCEPTED: "Prodajalec ima dostop do svoje plošče.",
+      REJECTED: "Zahteva prodajalca je bila zavrnjena.",
+      PENDING: "Zahteva čaka na odločitev prodajalca.",
     },
     number_of_products: "element element Izdelki",
     invited: "element",
     no_pricing: "št Cenitev",
     no_pricing_tooltip: {
       title: "Privzeto Cenitev Načrtujte",
-      subtitle: "element element element Privzeto Cenitev element element element prodajalec",
+      subtitle: "Nastavite privzeti cenovni model za prodajalca.",
     },
     updated_products_tooltip: {
       title: "Izdelki element element 24 element",
     },
     added_products_tooltip: {
-      title: "Izdelki Dodaj element element element 24 element",
+      title: "Izdelki, dodani v zadnjih 24 urah",
     },
     access_tooltip: {
       title: "element Dostop",
       subtitle:
-        "element prodajalec element Dostop Za element element Uredi element element prodajalec > Dostop element",
+        "Prodajalec ima dostop do svoje plošče. To lahko uredite v Prodajalec > zavihek Dostop.",
     },
     reject_by_user_tooltip: {
       title: "Zavrnjeno element Uporabnik",
       subtitle:
-        "element Uporabnik Zavrnjeno element element Za element element prodajalec element Dostop element prodajalec",
+        "Uporabnik je zavrnil zahtevo, da bi postal prodajalec in dostopal do tega prodajalca.",
     },
     download_all_vendors: "Prenesi vse prodajalci",
     bulk_import: "element Uvozi (element)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Licenca element element!",
     subtitle:
-      "element element Licenca element element Izberi podjetje element element Licenca Za element element Načrtujte",
+      "Vaša trenutna licenca ne izpolnjuje zahtev vašega izbranega poslovnega modela. Prosimo, nadgradite svojo licenco na paket Enterprise.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "element Dejanja",
     subtitle:
-      "element element Pošlji element Stanje Nadgradnja E-naslov Za element element , element element sporočilo element Za element, element element Za element element element Čas",
+      "Kupcu lahko s samo enim klikom pošljete e-poštno sporočilo o posodobitvi statusa. Poleg tega lahko tukaj določite običajna sporočila za ponovno uporabo, tako da vam jih ni treba vsakič znova napisati.",
     send_update_email_action: "Pošlji Nadgradnja E-naslov",
     add_template_action: "Dodaj Sporočilo Predloga",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "🛍️ Naroči Nadgradnja E-naslov",
       need_set_service_alert: {
         message:
-          "element element element E-naslov storitev element Za element element E-naslov Za element Poslano",
+          "Nastavite svojega ponudnika e-poštnih storitev, da dovoli pošiljanje e-pošte.",
         action: "element Za Nastavitve",
       },
       send_action: "Pošlji Nadgradnja E-naslov",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Uredi Sporočilo Predloga",
       add_title: "Dodaj Sporočilo Predloga",
       message:
-        "element element Naslov element Sporočilo element element element Naslov element element Rabljen element element Poslano Za element stranka",
+        "Tukaj morate nastaviti naslov in telo sporočila. Naslov bo uporabljen samo kot referenca in ne bo poslan stranki.",
 
       save_action: "Shrani Predloga",
       add_action: "Dodaj Predloga",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "Povezava za naročilo",
-    subtitle: "element element 🛍️ Naroči Povezava element element stranka",
+    subtitle: "Povezavo do naročila lahko delite s stranko.",
     guest_checkout_message:
-      "element element Ogled element 🛍️ Naroči element element , element element stranka element element Za element element 🛍️ Naroči Podrobnosti, element element Ustvari element element Povezava element element",
+      "Gostujoči nakupovalci si lahko samodejno ogledajo svoje naročilo v istem brskalniku. Če pa je stranka gost in morate deliti podrobnosti naročila, lahko ustvarite varno povezavo zanjo.",
     authentication: "element",
     guest: "element",
     click_to_create: "element Za Ustvari",
@@ -10897,7 +10897,7 @@ export default {
     title: "Ocene element",
     add_source_action: "Dodaj Pregled element",
     subtitle:
-      "element poveži element element Za element element element Ocene element element podjetje Od element Všeč mi je Facebook, Google, element Več. . element element element Stranke Za element Ocene element element element stranka element element Ocene element element Pristanek strani element Izdelek strani",
+      "Preprosto povežite zunanje platforme za zbiranje in analizo mnenj o vašem podjetju iz virov, kot so Facebook, Google in drugi. Stranke bomo samodejno povezali z njihovimi ocenami za boljšo uporabniško izkušnjo. Te ocene lahko predstavite tudi na svojih ciljnih straneh in straneh izdelkov.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Dodaj Novo element element",
     title: "element element",
     subtitle:
-      "element element Ustvari element Upravljaj element element Rabljen Za element element Izdelki element Storitve element element Za Izdelki element element Izdelek Nadzorna plošča > Uredi",
+      "Tukaj lahko ustvarite in upravljate nize lastnosti. Nabori lastnosti se uporabljajo za definiranje lastnosti izdelkov in storitev. Te nize lastnosti lahko dodelite izdelkom na nadzorni plošči izdelka > Uredi.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "element element - Po meri Variante",
       subtitle:
-        "element element Izdelek, element element Privzeto element",
+        "Imena različic za ta izdelek lahko prilagodite in tako nadomestite privzeta.",
     },
 
     subtitle:
-      "element element , element, element element 🛍️ Naroči element element Izdelki element element Variante element element Privzeto element, element element element Po meri Variante element Za element Izdelek element element Logistika > element element Za element element element Izdelki element element",
+      "Tukaj lahko prilagodite imena različic, ikone in njihov vrstni red. Za izdelke z edinstvenimi različicami, ki presegajo privzetih šest, lahko nastavite različice po meri, prilagojene vsakemu izdelku. Preprosto definirajte nize lastnosti na zavihku Logistika > Nabori lastnosti in jih po potrebi dodelite poljubnemu številu izdelkov.",
     select_property_set: "Izberi element element",
     add_property_set: "Dodaj element element",
   },
@@ -10931,7 +10931,7 @@ export default {
     title: "element",
     add_action: "Dodaj element",
     subtitle:
-      "Ustvari element element element Za element element Oznaka Nakupi element element element Dostava element element 🛍️ Naroči, Izberi element element ",
+      "Ustvarite velikosti škatel za večkratno uporabo, da pospešite nakupe etiket in zagotovite točne cene pošiljanja. Pri izpolnjevanju naročila izberite shranjeno polje in njegove mere se bodo samodejno izpolnile.",
     empty: "št element element element “Dodaj element”.",
     edit: "Uredi element",
     new: "Novo element",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Izberi element paket",
     define_package: "element element paket",
-    define_package_hint: "Ustvari element Uredi element element paket element",
+    define_package_hint: "Ustvarite ali uredite vnaprej določene velikosti paketov",
   },
 
 
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Vnos",
-    message:"Ustvari element element, element element Vrsta element Vnos—element, element, element, Storitve, element Več. ."
+    message:"Ustvarite moderiran imenik, po katerem je mogoče iskati, za vse vrste vnosov – nepremičnine, hoteli, zdravniki, storitve in drugo."
   },
 
   shop_listing: {
     name: "Vnos",
     message:
-      "Ustvari element element, element element Vrsta element Vnos—element, element, element, Storitve, element Več. .",
+      "Ustvarite moderiran imenik, po katerem je mogoče iskati, za vse vrste vnosov – nepremičnine, hoteli, zdravniki, storitve in drugo.",
 
     items: {
       title: "Predmeti",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "kategorije",
       sub_title:
-        "element element kategorije element element filter",
+        "Organizirajte svoj imenik s kategorijami in podkategorijami. To izboljša navigacijo in filtriranje.",
 
       empty_title: "št kategorije element",
       empty_subtitle:
-        "Ustvari kategorije Za element element Vnos element element element",
+        "Ustvarite kategorije, da strukturirate svoj seznam in izboljšate brskanje.",
 
       add_title: "Dodaj kategorijo",
       edit_title: "Uredi kategorijo",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "element",
       sub_title:
-        "Pregled element Predmeti element element : element, Objavi, Zavrni, element, element element Za V teku",
+        "Preglejte predložene elemente in se odločite, kaj se bo zgodilo naslednje: odobrite, objavite, zavrnite, arhivirajte ali ponastavite na čakajoče.",
 
       empty_title: "št Predmeti Za Pregled",
       empty_subtitle:
-        "element Uporabniki element Novo Predmeti, element element ",
+        "Ko uporabniki oddajo nove elemente, bodo prikazani tukaj za moderiranje.",
 
       review_title: "Pregled predmet",
       approve_publish: "element & Objavi",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "element",
       sub_title:
-        "Ustvari element Oblikovanje element (Kartica + Podrobnosti element) element element element Za kategorije kategorije element element ",
+        "Ustvarite več sklopov oblikovanja (kartica + predloge podrobnosti) in jih dodelite kategorijam. Kategorije lahko uporabljajo različne oblike.",
 
       empty_title: "št element element",
       empty_subtitle:
-        "Dodaj element element Oblikovanje element Za Začni element element kategorije element",
+        "Dodajte svoj prvi nabor oblikovanja, da začnete prilagajati videz kategorij.",
 
       add_title: "Dodaj Oblikovanje",
       edit_title: "Uredi Oblikovanje",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Izbriši Oblikovanje",
       delete_message:
-        "Izbriši element Oblikovanje? kategorije element element Oblikovanje_element",
+        "Želite izbrisati ta dizajn? Kategorije, ki ga uporabljajo, bodo samodejno izgubile design_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "značke",
       sub_title:
-        "Ustvari element Upravljaj element značke značke element element element Za Vnos Predmeti Za element element element",
+        "Ustvarite in upravljajte značke prodajalne. Značke lahko dodelite elementom seznama, da poudarite posebne atribute.",
 
       empty_title: "št značke element",
       empty_subtitle:
@@ -11166,7 +11166,7 @@ export default {
     companies: {
       title: "Podjetja",
       sub_title:
-        "Ustvari element Upravljaj Podjetja element Vnos predmet element element element povezano Za element Podjetje",
+        "Ustvarite in upravljajte podjetja. Vsako postavko na seznamu lahko po želji povežete z enim podjetjem.",
 
       empty_title: "št Podjetja element",
       empty_subtitle:
@@ -11192,7 +11192,7 @@ export default {
       title: "sporočilo",
       sub_title: "Upravljaj sporočilo Poslano element Uporabniki Od Vnos Profili",
       empty_title: "št sporočilo",
-      empty_subtitle: "sporočilo Poslano element Uporabniki element element element",
+      empty_subtitle: "Tukaj bodo prikazana sporočila, ki jih pošljejo uporabniki.",
 
       sender: "element",
       item: "predmet",
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "Sporočilo",
       owner_reply: "Lastnik element",
       reply: "element",
-      reply_hint: "pisanje element element Za element Uporabnik element element Sporočilo element element Od Dejanja",
+      reply_hint: "Napišite odgovor uporabniku. Sporočilo lahko označite tudi kot prebrano/neželeno iz dejanj.",
 
       mark_read: "element element branje",
       mark_unread: "element element element",
@@ -11217,13 +11217,13 @@ export default {
 
     enable: {
       title: "Vnos",
-      subtitle: "Omogoči element element element Javno Vnos stran element omogočeno element element element Čas, Selldone element Ustvari element Vnos element element",
+      subtitle: "Omogočite ali onemogočite svojo javno stran s seznamom. Ko je omogočen prvič, bo Selldone samodejno ustvaril konfiguracijo seznama.",
       true_description: "Vnos element omogočeno Stranke element element Vnos strani",
-      false_description: "Vnos element onemogočeno element Vnos strani element element ",
+      false_description: "Oglas je onemogočen. Strani s seznami in prispevki so blokirani.",
       open_listing: "element Vnos",
       note: "element element , Meje, obrazec, element Oblikovanje element Vnos Nastavitve",
       vendor_prereq_text:
-        "element prodajalci Za Dodaj Vnos Predmeti Od element prodajalec element? element, element element podjetje element Za Tržnica",
+        "Želite, da prodajalci dodajo elemente seznama s svoje plošče prodajalcev? Najprej preklopite svoj poslovni model na Marketplace.",
       vendor_prereq_button: "element Tržnica podjetje element",
 
       vendor_access_text:
@@ -11231,7 +11231,7 @@ export default {
       vendor_access_button: "Omogoči Vnos element prodajalci",
 
       more_options_text:
-        "Več. . element element Na voljo element Vnos Nastavitve element element element Vhodi, UI/Videz, element, Meje, element element element",
+        "Več kontrolnikov je na voljo v nastavitvah seznama. Konfigurirate lahko vnose, uporabniški vmesnik/videz, moderiranje, omejitve in možnosti monetizacije.",
       more_options_button: "element Za Vnos Nastavitve",
 
       updated: "Vnos element",
@@ -11244,19 +11244,19 @@ export default {
       subtitle: "Oblikovanje element Stranke iskanje element Vnos Omogoči element iskanje element Zgradite Filtri Od element Po meri obrazec element",
 
       location_title: "Lokacija iskanje",
-      location_subtitle: "element Stranke Za element element Lokacija element element polmer",
+      location_subtitle: "Omogočite strankam, da izberejo lokacijo in poiščejo bližnje rezultate v nastavljivem radiju.",
       location_enabled_true: "Lokacija filter element omogočeno Stranke element iskanje element element",
-      location_enabled_false: "Lokacija filter element onemogočeno element element filter element element",
+      location_enabled_false: "Lokacijski filter je onemogočen. Rezultati ne bodo filtrirani glede na razdaljo.",
 
       radius_default: "Privzeto polmer (element)",
-      radius_default_hint: "Rabljen element element stranka Izberi element Lokacija element element polmer",
+      radius_default_hint: "Uporablja se, ko stranka izbere lokacijo, vendar ne izbere polmera.",
       radius_max: "največ polmer (element)",
-      radius_max_hint: "element element polmer element element element Za element vrednost",
+      radius_max_hint: "Polmer izložbe bo pritrjen na to vrednost.",
       radius_options: "polmer element (element)",
       radius_options_hint: "element element UI.",
 
       filters_title: "iskanje Filtri",
-      filters_subtitle: "Dodaj Filtri element branje element Od predmet element element (element element obrazec element). element element Za element element element Od Objavljeno Predmeti",
+      filters_subtitle: "Dodajte filtre, ki berejo vrednosti iz metapolj elementov (polj vašega obrazca za seznam/kategorijo). Uporabite Samodejno ustvarjanje za zbiranje dejanskih možnosti iz objavljenih postavk.",
       no_filters: "št Filtri Dodaj element",
       auto_generate: "element element",
 
@@ -11264,12 +11264,12 @@ export default {
       filter_label: "Oznaka",
       filter_type: "Vrsta",
       filter_options: "element",
-      filter_options_hint: "element Izberi Filtri, element element element ročno element element",
+      filter_options_hint: "Za izbrane filtre so možnosti lahko ročne ali ustvarjene.",
       multiple: "element",
       single: "element",
       kv_mode: "element način",
 
-      requires_listing_active: "Vnos element element Aktiven Omogoči Vnos element Za element element ",
+      requires_listing_active: "Oglas ni aktiven. Najprej omogočite vnos, če ga želite uporabiti v izložbenem prostoru.",
 
 
     },
@@ -11911,12 +11911,12 @@ export default {
         "element element ",
         "Dostop Za vse element element ",
         "element element element Prednost Podpora",
-        "element element paket element element Uporabniki",
+        "Uravnotežen paket za redne uporabnike.",
         "element Dostop element element element",
         "Po meri element element ",
         "element element ",
-        "št Meje element element, element element element Uporabnik",
-        "element element Načrtujte element element, element Za 4 člani",
+        "Brez omejitev glede uporabe, za izkušenega uporabnika.",
+        "Poseben paket za družine, do 4 člane.",
         "element element Napredno Orodja",
       ],
     },
@@ -11977,15 +11977,15 @@ export default {
         "element element Za element element element",
         "element element Prednost",
         "element element Za element element element",
-        "element element element podpora element trgovina",
+        "Hvala, ker podpirate našo trgovino.",
         "element element Novo Nakup!",
-        "Shrani element Račun element element element",
-        "Obiščite element element element Več. . element Izdelki",
+        "Shranite svoj račun za prihodnjo uporabo.",
+        "Obiščite nas znova za več odličnih izdelkov.",
         "element Povezano element element Ponudbe",
         "element element stranka",
         "element element Za pomoč element element ",
         "element Povratne informacije pomoč element element",
-        "element element element Popust element element element Nakup",
+        "Izkoristite poseben popust pri naslednjem nakupu.",
         "element element !",
         "element element ",
         "element element Za element Povratne informacije",
@@ -12058,7 +12058,7 @@ export default {
         "element Storitve element",
         "element Trženje storitev element",
         "element element trgovina element",
-        "Strokovnjak element element element podjetje element",
+        "Pogodba o strokovnem svetovanju za lastnike podjetij",
         "storitev element element Tržnica element",
         "Nakupujte trgovina element element Storitve element",
         "POD storitev element element",
@@ -12118,19 +12118,19 @@ export default {
       description: [
         "element vračilo denarja element element Nakup!",
         "element element ",
-        "element vračilo denarja Ponudbe element element element",
+        "Ekskluzivne ponudbe za vračilo denarja samo za vas.",
         "element element vračilo denarja element",
-        "element vračilo denarja element vse element element Predmeti",
+        "Takojšnje vračilo denarja za vse vaše najljubše predmete.",
         "Shrani Več. . element element vračilo denarja Ponudbe",
-        "element element vračilo denarja element element 30 dni!",
+        "Podvojite povračilo denarja ob posebnih dnevih!",
         "element vračilo denarja element Čas element Nakupujte",
         "element element vračilo denarja element danes!",
         "VIP člani element element vračilo denarja",
         "element! element Čas vračilo denarja Ponudbe",
-        "element element vračilo denarja element Klub element",
-        "element Več. . element Nakupujte, element Več. . element Shrani",
-        "element element element vračilo denarja element",
-        "element element element vračilo denarja Ponudbe element",
+        "Pridružite se našemu Cashback Rewards Clubu zdaj.",
+        "Več ko nakupujete, več prihranite.",
+        "Odklenite vrhunske denarne nagrade.",
+        "Izkusite najboljše ponudbe za vračilo denarja.",
       ],
     },
 
@@ -12141,14 +12141,14 @@ export default {
       prompts: [
         "DOBRODOŠLI10 Za {shop} - element element Predmeti",
         "{shop} - element element storitev",
-        "element Ponudbe element element {shop} - element element element!",
-        "element Za element {shop}'element element Za element element ",
-        "element element {shop} element - element Za element element element Posodobi",
+        "Ekskluzivne ponudbe in prihranki samo pri {shop} - izkoristite priložnost!",
+        "Spoznajte predanost {shop} okolju prijaznosti in etičnim praksam",
+        "Postanite del družine {shop} – naročite se na naše glasilo za posodobitve",
         "element element {shop}",
         "element element vse Dogodki element {shop}",
-        "element Ponudbe element element {shop} - element element!",
-        "{shop}'element element Izdelek element - Nakupujte element element",
-        "element element Za {shop} - element element Za element element ",
+        "Neprimerljive ponudbe in časovno občutljive akcije pri {shop} – ukrepajte hitro!",
+        "Izčrpni nakupovalni nasveti in ocene izdelkov {shop} – nakupujte z zaupanjem",
+        "Obrnite se na {shop} – prizadevamo si zagotoviti neprimerljivo nakupovalno izkušnjo",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "element element element, element element element!",
+        "Dopolnite svoj videz, zgrabite komplet!",
         "Shrani element element Ponudbe!",
         "element element !",
         "element element Nakup, element element!",
         "element element element, Kupite element!",
         "element Predmeti, element popust!",
-        "element Več. ., element element – element element!",
+        "Pridobite več, porabite manj – združite!",
         "element Ponudba: element Izdelki!",
         "element element element, element Ponudbe!",
         "element element , Shrani element!",
         "element element !",
         "Nakupujte element, element element Shrani!",
-        "element element vrednost, element element element!",
+        "Dvojna vrednost, dvojna zabava!",
         "element element – Nakupujte element!",
-        "element element Cenitev element element element!",
+        "Ekskluzivna paketna cena samo za vas!",
         "element element !",
         "element element !",
-        "element element element: element element Shrani!",
+        "Pripravljeno za vas: povežite in prihranite!",
         "element element !",
-        "element element Priljubljene element element element!",
+        "Združite svoje priljubljene za dodatne prihranke!",
       ],
     },
 
@@ -12226,27 +12226,27 @@ export default {
         "predmet nazaj element element",
       ],
       body: [
-        "element {buyer_name}, element 🛍️ Naroči #{order_id} element element Potrjeno! element element Za element",
+        "Pozdravljeni {buyer_name}, vaše naročilo #{order_id} je potrjeno! Obdelujemo ga in vas bomo obvestili, ko bo pripravljen za pošiljanje.",
 
-        "dobro novo, {buyer_name}! element 🛍️ Naroči #{order_id} element element Poslano element element račun element element !",
+        "Dobra novica, {buyer_name}! Vaše naročilo #{order_id} je bilo poslano. Sledite mu lahko prek svojega računa. Hvala za nakupovanje pri nas!",
 
-        "element {buyer_name}, element 🛍️ Naroči #{order_id} element element element Dostavljeno element element Nakup element element!",
+        "Pozdravljeni {buyer_name}, vaše naročilo #{order_id} je bilo uspešno dostavljeno. Upamo, da boste uživali v nakupu. Hvala!",
 
-        "element {buyer_name}, element element Prejeto element Plačilo element 🛍️ Naroči #{order_id}. element 🛍️ Naroči element element Poslano element",
+        "Živijo {buyer_name}, prejeli smo plačilo za naročilo #{order_id}. Vaše naročilo je trenutno v obdelavi in ​​bo kmalu poslano.",
 
-        "element {buyer_name}, element element Za element element 🛍️ Naroči #{order_id} element element , element Kontakt Podpora",
+        "Spoštovani {buyer_name}, žal vam moramo sporočiti, da je bilo vaše naročilo #{order_id} preklicano. Če imate kakršna koli vprašanja, se obrnite na podporo.",
 
-        "element {buyer_name}, element element 🛍️ Naroči #{order_id}. element element Za element element ",
+        "Spoštovani {buyer_name}, pri vašem naročilu #{order_id} prihaja do zamude. Opravičujemo se za nevšečnosti in si prizadevamo, da bi jih čim prej rešili.",
 
-        "element {buyer_name}, element 🛍️ Naroči #{order_id} element element račun element Kontakt Podpora element element Podrobnosti",
+        "Pozdravljeni {buyer_name}, vaše naročilo #{order_id} je trenutno na čakanju. Za dodatne podrobnosti preverite svoj račun ali se obrnite na podporo.",
 
-        "element {buyer_name}, element 🛍️ Naroči #{order_id} element element element Dostava element element !",
+        "Pozdravljeni {buyer_name}, vaše naročilo #{order_id} je na razpolago in bo kmalu pri vas. Hvala za potrpežljivost!",
 
-        "element {buyer_name}, element element Vrnitev element element 🛍️ Naroči #{order_id}. element element , element Kontakt Podpora",
+        "Spoštovani {buyer_name}, obdelali smo vračilo vašega naročila #{order_id}. Če imate kakršna koli vprašanja, se obrnite na podporo.",
 
-        "element {buyer_name}, element vračilo element 🛍️ Naroči #{order_id} element element oglej si element element račun element",
+        "Pozdravljeni {buyer_name}, vaše vračilo denarja za naročilo #{order_id} je bilo izdano. Kmalu bi morali videti sredstva na svojem računu.",
 
-        "element {buyer_name}, element predmet Od element 🛍️ Naroči #{order_id} element nazaj element element! element element Novo 🛍️ Naroči element element ",
+        "Pozdravljeni {buyer_name}, izdelek iz vašega naročila #{order_id} je spet na zalogi! Zdaj lahko oddate novo naročilo, če ste še vedno zainteresirani.",
       ],
     },
 
@@ -12267,14 +12267,14 @@ export default {
         "element",
       ],
       description: [
-        "element element element Predmeti Všeč mi je element, Barva, element element",
-        "Specifikacije element element Blagovna znamka, element, element element",
-        "element, element, element Vrste element element",
-        "Podrobnosti element element, element, element element Izdelki",
+        "Atributi za oblačila, kot so velikost, barva in tkanina.",
+        "Specifikacije za pripomočke, kot so znamka, model in funkcije.",
+        "Okusi, velikosti in vrste pijač.",
+        "Podrobnosti za obroke, prigrizke in prehrambene izdelke.",
         "Material, element, element Oblikovanje element",
         "Avtor, element, element element element",
-        "element Vrsta, element, element element Podrobnosti",
-        "element element, element, element element element",
+        "Vrsta kože, sestavine in podrobnosti o embalaži.",
+        "Starostna skupina, material in varnostni standardi.",
         "Vrsta, element, element Izvedba element",
         "element, element, element Blagovna znamka Podrobnosti",
       ],

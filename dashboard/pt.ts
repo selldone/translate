@@ -31,7 +31,7 @@ export default {
     main_domain: "principal Domínio",
     domains: "Domínios",
     home_page: "Casa página",
-    google_icon_font_sample: "Google item item",
+    google_icon_font_sample: "Amostra de fonte do Google",
     fontawesome_icon_font_sample: "Fontawesome (item) item",
   },
 
@@ -96,7 +96,7 @@ export default {
     },
     upscale: {
       title: "aumentar resolução",
-      subtitle: "aumentar item resolução item item imagem",
+      subtitle: "Aumente a resolução da imagem.",
     },
   },
 
@@ -165,7 +165,7 @@ export default {
     no_payment_method: {
       title: "Forma de pagamento",
       message:
-        "Para item item Comprar, item Adicionar item Pagamento método! 🛍️💳",
+        "Para desbloquear todo o potencial da sua loja, adicione uma forma de pagamento! 🛍️💳",
       action: "Portais de loja",
     },
     link_account: {
@@ -225,7 +225,13 @@ export default {
   },
 
   /** @see SShopProductRatingView **/
-  surveys: ["Muito pobre", "Pobre", "item", "Bom", "Excelente"],
+  surveys: [
+    "Muito pobre",
+    "Pobre",
+    "Normal",
+    "Bom",
+    "Excelente",
+  ],
 
   /** @see SortView **/
   sort: {
@@ -240,10 +246,10 @@ export default {
     most_expensive: "Mais caro",
     only_available: "Disponível",
     view_mode: {
-      normal: "item",
+      normal: "Normal",
       grid: "Rede",
       list: "Lista",
-      insta: "item",
+      insta: "Insta",
     },
   },
 
@@ -293,7 +299,7 @@ export default {
     subtitle:
       "Lições para negócios, confiança e o conhecimento que você precisa para criar um negócio próspero.",
     add_new_blog: "Novo blog",
-    popular: "item",
+    popular: "Popular",
     topics: "Tópicos",
     select_topics: "Selecione seu trabalho.",
     select_job_topics: "Selecione seus tópicos relacionados ao trabalho",
@@ -304,7 +310,7 @@ export default {
   api: {
     title: "API e integração",
     message:
-      "item item Selldone item item APIitem Para Gerenciar item conectar Lojas Para Outro Serviços item item , Contabilidade, item item Projeto Personalizado Aplicativos item item Aplicativos item item armazenar item item Para item item Dados Gerenciamento item item Domínio APIitem item tudo item item Comercial, item item Outro Domínio item API",
+      "Um dos principais recursos do Selldone é fornecer APIs robustas e seguras para gerenciar e conectar lojas a outros serviços, como armazenamento, contabilidade, etc. Sem ter que se preocupar com gerenciamento de servidores e dados. Basta usar as APIs do domínio. Você terá todo o processo de gerenciamento de usuários, autenticação e demais funcionalidades do domínio.",
   },
 
   /** {@see BPageShuttle} **/
@@ -396,7 +402,7 @@ export default {
       pages: "Páginas",
       channels: "Canais",
       classification: "Classificação",
-      marketing: "item",
+      marketing: "Marketing",
       customers: "Clientes",
       logistic: "Logística",
       auditing: "Contabilidade",
@@ -551,7 +557,7 @@ export default {
       customers: {
         title: "Clientes da loja",
         title_small: "Relatório de conversão",
-        total_customers: "item",
+        total_customers: "Total",
         new_customers_today: "Hoje",
         new_customers_week: "Últimos 7 dias",
         orders_count: "Contagem de pedidos",
@@ -628,9 +634,9 @@ export default {
       table_mode: {
         false_title: "Modo arrastar e soltar",
         false_description:
-          "Visualizar Produtos item item categorias item item",
+          "Visualize produtos organizados por categorias e subcategorias.",
         true_title: "Modo de tabela",
-        true_description: "Visualizar Produtos item item ",
+        true_description: "Visualize os produtos em um layout de tabela detalhado.",
       },
 
       show_notes: {
@@ -860,15 +866,15 @@ export default {
         subtitle:
           "Você pode implementar restrições para garantir que somente clientes dentro das áreas de entrega designadas possam fazer compras com você!",
         no_enable_shipping_error:
-          "não item item Comprar A partir de item item não ativado Envio método!",
+          "Ninguém pode comprar de você porque você não tem um método de envio habilitado!",
         customer_must_select_a_shipping_msg:
-          "cliente item Selecionar item Envio método Para item 🛍️ Encomenda",
+          "O cliente deve selecionar um método de envio para fazer o pedido.",
         customer_can_order_without_shipping_method_msg:
-          "cliente item item 🛍️ Encomenda item item não Envio método item item Selecionar Localização",
+          "O cliente pode fazer o pedido mesmo que nenhum método de envio seja compatível com o local selecionado.",
         inputs: {
           restriction: {
             false_description:
-              "Clientes item item Pedidos item item não item Envio método item item Selecionar",
+              "Os clientes ainda podem fazer pedidos mesmo que nenhum método de envio específico tenha sido selecionado.",
             false_title: "Aceitar todos os pedidos",
             true_title: "Pedido de aceitação restrita",
             true_description:
@@ -892,7 +898,7 @@ export default {
       },
       distance_unit: {
         title: "item Unidade",
-        subtitle: "item Unidade Usado item item",
+        subtitle: "A unidade usada para distância.",
       },
 
       menu: {
@@ -903,7 +909,7 @@ export default {
         logistic_apps: "Logística",
         profiles: "Perfis",
         includes: "Inclui",
-        property_sets: "item item",
+        property_sets: "Conjuntos de propriedades",
         boxes: "pacotes",
       },
 
@@ -923,7 +929,7 @@ export default {
         title: "Métodos de Envio",
 
         sub_title:
-          "item item Envio Opções item item armazenar item item , item Habilitar item item Entrega métodos item item Entrega método item item ativado item item Envio Serviço item Serviço item item , item item Serviços Para item item , item item Para item item Envio Serviços item Pessoal Correios item item Envio item",
+          "Ao incorporar opções de envio em sua loja nesta seção, você permite uma variedade de métodos de entrega. O método Pagamento na Entrega pode ser ativado para cada serviço de remessa. Cada serviço permite cálculos de custos independentes e você pode personalizar esses serviços de transporte para atender às suas necessidades. Além disso, você tem a opção de integrar serviços de remessa terceirizados ou correios pessoais a cada opção de remessa.",
         add_transportation: "Adicionar transporte",
 
         /** {@see DeliveryFormWidget} **/
@@ -1100,7 +1106,7 @@ export default {
       my_apps: {
         title: "Armazenar aplicativos ativos",
         subtitle:
-          "Selldone Gerencie seus aplicativos de negócios.",
+          "Descubra a facilidade de gerenciar seus aplicativos de negócios com a Selldone App Store. Nossa plataforma oferece um conjunto abrangente de ferramentas projetadas para otimizar suas operações comerciais. De soluções de gerenciamento inovadoras a aplicativos que aumentam a produtividade, o Selldone oferece uma experiência perfeita para empresas que buscam eficiência e crescimento.",
         all: "tudo",
       },
       /** {@see BAppShopStore} **/
@@ -1308,9 +1314,9 @@ export default {
           subtitle: "Selecione um logotipo exclusivo para sua marca.",
         },
         favicon: {
-          title: "item",
+          title: "Favicon",
           subtitle:
-            "item item , item Imagens item item Local na rede Internet item item , item, item Móvel Aplicativo item",
+            "Favicons são imagens pequenas e icônicas que representam um site nas guias do navegador, favoritos e interfaces de aplicativos móveis.",
         },
       },
 
@@ -1322,7 +1328,7 @@ export default {
       },
       /** {@see BPageShopSettingMenus} **/
       edit_menu: {
-        title: "item",
+        title: "Cardápios",
 
         footer: {
           title: "Menu de Rodapé",
@@ -1512,9 +1518,9 @@ export default {
       },
       external: {
         not_available_message:
-          "item Açao Disponível item Companhia & item item",
-        available_message: "item item Adicionar item item Para Açao",
-        input_label: "item item Para Açao",
+          "Ação extra disponível com licenças Company e Enterprise.",
+        available_message: "Você pode adicionar uma frase de chamariz externa extra.",
+        input_label: "Segunda chamada para ação",
       },
       warehouse: {
         subtitle:
@@ -1574,7 +1580,7 @@ export default {
       rating_input_placeholder:
         "Escreva sua pergunta de pesquisa personalizada aqui... e pressione Enter!",
 
-      item_unit: "item",
+      item_unit: "Item",
 
       pros_title: "Prós",
       pros_message: "Insira as características do produto. (Até 5 itens)",
@@ -1875,11 +1881,11 @@ export default {
     menu: {
       add_bulk: {
         title: "item Adicionar",
-        subtitle: "Adicionar item Variantes item item Açao",
+        subtitle: "Adicione diversas variantes em uma ação.",
       },
       edit_property_set: {
-        title: "item item ",
-        subtitle: "Mudar Variantes item, item item Pedidos",
+        title: "Personalizar conjunto de propriedades",
+        subtitle: "Altere nomes, ícones e pedidos de variantes.",
       },
     },
   },
@@ -1931,7 +1937,7 @@ export default {
   b_shop_popups: {
     title: "item Gerenciamento",
     subtitle:
-      "Criar item, item, item item ",
+      "Crie janelas pop-up personalizadas, inteligentes e interativas.",
     add_action: "Adicionar Novo Aparecer",
   },
 
@@ -2002,11 +2008,11 @@ export default {
 
     profiles: {
       title: "Perfis",
-      subtitle: "item item Localização Para item vendedor",
+      subtitle: "Você pode atribuir um local a este fornecedor.",
     },
     map: {
       no_map_message:
-        "item item Localização Para item vendedor item item vendedor",
+        "Atribua um local ao fornecedor se for um fornecedor baseado em localização.",
     },
     page: {
       title: "Página personalizada",
@@ -2068,7 +2074,7 @@ export default {
       "O e-mail inserido não corresponde ao e-mail do usuário ( <b>{user_name}:</b> {user_email}). Tem certeza de que deseja enviar e-mails para <b>{email}</b> ?",
 
     order_information_email_to_email:
-      "item item Mandar Pedidos informações Para <b>{email}</b>.",
+      "Enviaremos informações sobre pedidos para <b>{email}</b>.",
 
     set_a_user_for_the_vendor_first_msg: "Defina um usuário para o fornecedor primeiro.",
 
@@ -2084,7 +2090,7 @@ export default {
       business: {
         false_description: "Eu trabalho como indivíduo.",
         true_description: "Eu opero como uma entidade empresarial legalmente reconhecida.",
-        false_title: "item",
+        false_title: "Individual",
         true_title: "O negócio",
       },
       bank: {
@@ -2234,7 +2240,7 @@ export default {
       "Você pode adicionar serviços de envio e entregadores aqui. Os serviços de envio e entregadores devem estar sob métodos de transporte predefinidos definidos pelo marketplace. Ao adicionar serviços de envio e entregadores, você pode facilmente atribuir pedidos a eles e solicitar etiquetas ou entregadores automaticamente.",
 
     subtitle_pickup:
-      "item Mercado item item vendedores, item item Para item item A partir de item Localização item item Envio item item Adicionar item item Localização item item Perfil (item Armazém item item Usado item item Predefinição item Localização).",
+      "O mercado permite a retirada para fornecedores, permitindo que os compradores escolham a retirada em seu local como opção de envio. Você pode adicionar seu local de coleta em seu perfil (seu armazém será usado como local de coleta padrão).",
     action: "Adicionar serviço",
 
     add_dialog: {
@@ -2302,7 +2308,7 @@ export default {
       inventory: "Inventário",
       dashboard: "Painel",
       back_to_products: "Produtos",
-      drop_shipping: "item",
+      drop_shipping: "Dropshipping",
     },
 
     /** {@see BPageProductDashboard} **/
@@ -2442,52 +2448,52 @@ export default {
 
         config: {
           title: "produtos item Configuração",
-          subtitle: "Gerenciar SKU, MPN, item item Variantes",
+          subtitle: "Gerencie SKU, MPN e disponibilidade de variantes.",
         },
         variables: {
           title: "item Opções",
           subtitle:
-            "item item Cor Código, item, <b>#654FFF</b>, item item , item, <b>#764FFA/#000000</b>.",
+            "Insira um código de cor hexadecimal, por exemplo, <b>#654FFF</b>, ou duas cores separadas por uma barra, por exemplo, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "item item Valor Para item item, item Imagens item <b>item item</b>. Enviar item Padrão item item Código item item ",
-          graphical_asset_action: "item item",
-          graphical_asset_action_caption: "Imagens item item Opções",
+            "Você pode atribuir qualquer valor às variáveis, incluindo imagens usando <b>Graphic Assets</b>. Faça upload de um padrão e use o código gerado para a variante.",
+          graphical_asset_action: "Ativos Gráficos",
+          graphical_asset_action_caption: "Imagens para opções de variantes.",
         },
         smart_unit_price: {
-          tips: "item Unidade preço item item <b>Peso</b>, <b>volume</b>, item <b>item item</b>. Para Desativar item item, item Para Comprar > Definições > Tema > produtos página > item Unidade preço",
+          tips: "Calcule o preço unitário com base em <b>peso</b>, <b>volume</b> e <b>tamanho do pacote</b>. Para desativar esse recurso, navegue até Loja > Configurações > Tema > Página do produto > Preço unitário inteligente.",
           smart_unit_price: "Unidade preço item",
         },
         quantity: {
           title: "Inventário",
-          subtitle: "item item ",
+          subtitle: "Defina níveis de estoque para cada variante.",
         },
         price: {
           title: "Preços",
           subtitle:
-            "item item Personalizado preço item item Predefinição produtos preço",
+            "Defina um preço personalizado para a variante ou use o preço padrão do produto.",
         },
         package: {
           title: "item & Envio",
           subtitle:
-            "item Peso item item Variantes Para item Envio Opções",
-          same_as_product_action: "item item produtos",
+            "Especifique o peso e as dimensões das variantes para determinar as opções de envio.",
+          same_as_product_action: "Igual ao produto",
         },
         image: {
           title: "item Imagens",
           subtitle:
-            "Adicionar item Imagens item item imagem Enviar item item Primário imagem item item ",
+            "Adicione imagens exclusivas para cada variante. A primeira imagem enviada será a imagem principal dessa variante.",
         },
         inputs: {
           sku: {
-            message: "item item Unidade (SKU)",
+            message: "Unidade de Manutenção de Estoque (SKU)",
           },
           mpn: {
-            message: "item item (MPN)",
+            message: "Número da peça do fabricante (MPN)",
           },
           gtin: {
-            label: "item item (GTIN)",
+            label: "Número global de item comercial (GTIN)",
             message:
-              "item item: UPC (12 item), EAN (13 item), JAN (8 item 13 item), ISBN (13 item).",
+              "Formatos suportados: UPC (12 dígitos), EAN (13 dígitos), JAN (8 ou 13 dígitos), ISBN (13 dígitos).",
           },
         },
       },
@@ -2514,11 +2520,11 @@ export default {
   product_extra_physical: {
     weight: "Peso do pacote",
     weight_subtitle:
-      "Entrada item Produtos item item Peso item item informações item item Envio método item item 🛍️ Encomenda item item Envio Limite",
+      "Insira aqui o peso total da embalagem do produto. Essas informações ajudam a escolher o método de envio correto e garantem que o pedido não ultrapasse o limite de envio.",
     weight_unit: "Kg",
     size: "Dimensões da embalagem",
     size_subtitle:
-      "Entrada item Produtos item item informações item Usado Para item item Envio método item item 🛍️ Encomenda item item Limite",
+      "Insira aqui o tamanho total da embalagem do produto. Essas informações são usadas para escolher o método de envio correto e garantir que o pedido não exceda o limite de tamanho do pacote.",
 
     width: "Largura",
     length: "Comprimento",
@@ -2536,7 +2542,7 @@ export default {
     bulk_action_input: "Atualizar todas as variantes",
     bulk_action_msg:
       "Defina a embalagem do produto e o tempo de preparação para todas as variantes.",
-    dynamic_lead_time: "item item Tempo",
+    dynamic_lead_time: "Prazo de entrega dinâmico",
     instant_delivery: "item Entrega",
   },
 
@@ -2552,9 +2558,9 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "item imagem item item",
-      placeholder: "item item ",
-      success_update_notification: "item item ",
+      title: "Definir texto alternativo da imagem",
+      placeholder: "Insira um texto alternativo descritivo...",
+      success_update_notification: "Texto alternativo atualizado com sucesso.",
     },
     dialog_bg_remove: {
       title: "Remover fundo item",
@@ -2562,19 +2568,19 @@ export default {
         title: "Remover fundo",
         subtitle: "Criar item transparente fundo",
       },
-      success_remove_bg_notification: "fundo item item!",
+      success_remove_bg_notification: "Plano de fundo removido com sucesso!",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "item item ",
+    title: "Ativos gráficos variantes",
     tips: {
       how_it_works:
-        "<b>item item :</b><br />Enviar Padrão item item Imagens item Para item item Imagens item item , item <b>{filename}</b> item item Valor Observação item item Código item item Usado item item <b><s>Cor</s></b> Valor",
+        "<b>Como funciona:</b><br />Carregue imagens de padrões ou itens aqui. Para usar essas imagens como uma opção variante, inclua <b>{filename}</b> no valor da variante. Observe que este código não pode ser usado no valor <b><s>color</s></b>.",
       how_set_name:
-        "<b>item item:</b><br />item item 12 item item Enviar arquivo Nome item item Usado item item Nome item item produtos, item item Para item item , item Enviar item Imagens item item 100, item item Tipos item Mobiliário",
+        "<b>Dicas de nomenclatura:</b><br />Os primeiros 12 caracteres do nome do arquivo enviado serão usados ​​como nome do ativo. Esse recurso é ideal para mostrar aspectos personalizáveis ​​de um produto, como tamanhos de pneus para motocicletas ou padrões de tecidos. Para otimizar o uso desse recurso, evite enviar imagens variantes aqui, a menos que o número de recursos gráficos seja inferior a 100, como diferentes tipos de madeira para móveis.",
     },
   },
 
@@ -2584,36 +2590,36 @@ export default {
   extra_pricing_levels: {
     extra_pricings: "item precificação",
     min_quantity: "Mín. Quantidade",
-    range_is_out_of_stock: "item item !",
+    range_is_out_of_stock: "A gama está esgotada!",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "item item !",
+    duplicated_variant: "Esta variante já existe!",
     set_color_warning: "item Selecionar item Cor",
-    set_volume_warning: "item item volume",
-    set_pack_warning: "item item ",
-    set_weight_warning: "item item Peso",
+    set_volume_warning: "Especifique o volume.",
+    set_pack_warning: "Especifique o tamanho do pacote.",
+    set_weight_warning: "Especifique o peso.",
     set_type_warning: "item Selecionar item Tipo",
     set_style_warning: "item Selecionar item Estilo",
-    out_of_stock: "item item ",
+    out_of_stock: "Atualmente fora de estoque",
 
     image: {
-      tooltip: "⚡ item item imagem item Para item item Para item item",
+      tooltip: "⚡ Arraste e solte uma imagem aqui para atribuí-la à variante.",
     },
     enable: {
-      true_tooltip: "item item Disponível item item armazenar",
-      false_tooltip: "item item Disponível item item armazenar",
+      true_tooltip: "Este item está disponível na loja online.",
+      false_tooltip: "Este item não está disponível na loja online.",
     },
     restore_dialog: {
-      title: "item item",
-      message: "item item Para item item Excluído item?",
-      action: "sim, item item",
+      title: "Restaurar variante",
+      message: "Tem certeza de que deseja restaurar esta variante excluída?",
+      action: "Sim, restaure agora",
     },
     notifications: {
-      restore_variant_success: "item produtos item item ",
+      restore_variant_success: "A variante do produto foi restaurada com sucesso.",
     },
   },
 
@@ -2694,7 +2700,7 @@ export default {
       code: "Código do produto",
       sku: "SKU",
       mpn: "MPN",
-      original: "item",
+      original: "Original",
       status: "status",
       in_stock: "Em estoque",
       edit: "Mudar",
@@ -2797,13 +2803,13 @@ export default {
   b_page_shop_finance_gateway: {
     title: "Pagamento métodos",
     sub_title:
-      "Lista item Ativo Pagamento métodos item item Para Adicionar item Novo método Para item Comprar, item item 10 Adicionar Pagamento Entradas",
+      "Lista de métodos de pagamento ativos. Se você deseja adicionar um novo método à sua loja, pressione o botão a seguir. É altamente recomendável não exceder 10 gateways de pagamento adicionados.",
     add_gateway: "Novo Pagamento método",
 
     add_gateway_dialog: {
       title: "Selecionar Moeda",
-      country_currencies: "item item",
-      crypto_currencies: "item",
+      country_currencies: "Moedas locais",
+      crypto_currencies: "Criptomoedas",
 
       confirm: "Adicionar forma de pagamento",
 
@@ -2815,27 +2821,27 @@ export default {
       currency_step: {
         title: "Selecionar item Moeda",
         subtitle:
-          "item Para item item armazenar Para item mínimo—item item 3. item Pagamento Entradas item item Transações item item Moeda",
+          "Tente manter o número de moedas em sua loja no mínimo – de preferência menos de 3. A maioria dos gateways de pagamento pode processar transações em quase qualquer moeda.",
         add_first_currency: {
-          subtitle: "item Adicionar item Moeda Para item Comprar item item",
+          subtitle: "Adicione uma moeda à sua loja antes de continuar.",
           title: "Adicionar moeda",
         },
       },
       gateway_step: {
         title: "Ativo Pagamento métodos",
         subtitle:
-          "item item A partir de item Disponível Pagamento métodos item item Selecionar item Porta de entrada, item item Para item item Detalhes Para link item Comprar item Para item item Pagamento método",
+          "Escolha um dos métodos de pagamento disponíveis. Depois de selecionar um gateway, você poderá inserir os detalhes de conexão necessários para vincular sua loja diretamente ao método de pagamento de sua preferência.",
       },
 
       config_step: {
-        import_config: "item item Importar Configuração A partir de Outro item Entradas",
+        import_config: "Você pode importar configurações de outros gateways semelhantes",
         import_from: "Importar A partir de",
       },
 
       request_add_new_gateway: {
-        title: "item ver item item Pagamento método?",
+        title: "Não encontra sua forma de pagamento preferida?",
         subtitle:
-          "item item Pagamento Provedor item lista, item Para item Anual Plano (item item ) item item 48 item item Conta item item ",
+          "Se o seu provedor de pagamento local não estiver listado, assine qualquer plano anual (incluindo Startup para preços acessíveis) e solicite uma integração. Concluiremos o processo em 48 horas se uma conta de teste e documentação forem fornecidas.",
       },
 
       inputs: {
@@ -2844,11 +2850,11 @@ export default {
         },
         manual: {
           true_title: "Manualmente modo",
-          true_description: "item item Porta de entrada Configuração Manualmente",
+          true_description: "Você pode definir a configuração do gateway manualmente.",
 
           false_title: "automático conectar",
           false_description:
-            "item item conectar Para item Porta de entrada item item Porta de entrada item item",
+            "O sistema se conectará automaticamente ao gateway se você já tiver um gateway configurado.",
         },
       },
     },
@@ -3338,11 +3344,11 @@ export default {
 
       express_input: {
         true_title: "item | Cancelar 🛍️ Encomenda item",
-        false_title: "item | Cancelar 🛍️ Encomenda item 48 item",
+        false_title: "Padrão | Cancelar pedido após 48 horas",
         true_description:
-          "item item Cancelar item 🛍️ Encomenda item item Atualizar item Inventário item item",
+          "Esta opção cancelará seu pedido imediatamente e atualizará o estoque imediatamente.",
         false_description:
-          "item item Cancelar item 🛍️ Encomenda item 48 item item , Itens item item ",
+          "Esta opção cancelará seu pedido após 48 horas. Até lá, os itens ficarão reservados e não poderão ser adquiridos por terceiros.",
       },
     },
 
@@ -3354,9 +3360,9 @@ export default {
         "Encomenda voltou ao processo normal.",
       set_tracking_success: "ID de rastreamento do pedido salvo com sucesso.",
       shipping_address_update_success:
-        "Envio Morada item item ",
+        "O endereço de entrega foi atualizado com sucesso.",
       vendor_order_status_update_success:
-        "vendedor item status item item ",
+        "O status de atendimento do fornecedor foi atualizado com sucesso.",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3616,7 +3622,7 @@ export default {
       gateway_data_widget: {
         title: "Relatório de pagamentos",
         subtitle:
-          "item Pagamentos item Transações item item Selecionar Tempo item",
+          "Pagamentos criados e transações feitas durante o período selecionado.",
         chart: {
           times: "Contar",
           buys: "Contagem de compras",
@@ -3662,7 +3668,7 @@ export default {
     status: "status",
     cod_transportation: "item Envio",
     cod_transportations_error:
-      "Habilitar item item Entrega Pagamento item item Envio método!",
+      "Ative o pagamento em dinheiro na entrega para pelo menos um método de envio!",
     payment_type: "Pagamento Tipo",
     cod: "Dinheiro na entrega",
     online: "item Pagamento",
@@ -3672,29 +3678,29 @@ export default {
     min_amount: "mínimo Transação",
     max_amount: "máximo Transação",
     timeout: "Pagamento item",
-    timeout_unit: "item",
+    timeout_unit: "Segundos",
     link: "Porta de entrada link",
     your_gateway_status: "item Porta de entrada status",
     oauth2_button: "automático Connect Para {gateway}",
     fee_payment_message:
-      "Selldone item item Resultar Pago item item cliente item item Para item Conta item Serviço Taxa item item A partir de item Carteira item item",
+      "Todo o valor pago pelo cliente será transferido para sua conta. A taxa de serviço será descontada da sua carteira no Selldone.",
 
     auto_config: "automático Configuração",
 
     keys: {
       title: "Privado item",
       subtitle:
-        "Lista item Privado item item Pagamento item informações item item Pagamentos",
+        "Lista de chaves privadas para o pagamento. Essas informações são essenciais para criar e gerenciar pagamentos.",
     },
     extra_config: {
       title: "Pagamento Serviço Configuração",
-      subtitle: "item Configuração informações item item Pagamento Porta de entrada",
+      subtitle: "Informações adicionais de configuração do gateway de pagamento.",
     },
 
     recommended_actions: {
       title: "item Ações",
       subtitle:
-        "item item , item item Para Receber item Pagamentos A partir de item Clientes",
+        "Ao seguir essas etapas, você começará a receber pagamentos reais de seus clientes.",
       action_enable: "item Para Habilitar item",
       make_live_enable: "item Para Ao vivo item",
     },
@@ -3707,12 +3713,12 @@ export default {
     link: "Local na rede Internet",
     status_title: "Status do serviço de pagamento",
     status_message:
-      "item item Pagamento método item Ativo item inativo item métodos item item Ativo item item Para Clientes",
-    status_true_description: "item Clientes item Pagar item item Pagamento método",
+      "Configure a forma de pagamento como Ativa ou Inativa. Somente os métodos definidos como ativos serão exibidos aos clientes.",
+    status_true_description: "Seus clientes podem pagar com este método de pagamento.",
 
     manual_title: "Pagamento de captura manual/automática",
     manual_message:
-      "item item Criar item Pagamento, item item Pagamento método Para item item ex, item item Pagamento item item , item item dinheiro item item ",
+      "Ao criar um pagamento, você pode reter uma forma de pagamento qualificada para reservar fundos que podem ser capturados posteriormente. Por exemplo, os hotéis muitas vezes autorizam o pagamento integral antes da chegada do hóspede e, em seguida, captam o dinheiro quando o hóspede faz o check-out.",
 
     gateway_status: "status",
     wallet: "Carteira Blockchain",
@@ -3723,7 +3729,7 @@ export default {
 
     notifications: {
       edit_success: "Gateway {gateway_name} editado.",
-      success_delete: "Pagamento método item item Excluído!",
+      success_delete: "A forma de pagamento foi excluída!",
     },
     debug: {
       title: "Desenvolver e testar",
@@ -3753,13 +3759,13 @@ export default {
         "Coloque um pagamento em espera para que você precise verificar os pagamentos de um pedido para alterar seu status de pendente para confirmado no sistema do provedor de pagamento.",
     },
     delete_verify_input: {
-      true_title: "item item Para Remover item Pagamento método",
+      true_title: "Quero remover esta forma de pagamento.",
       true_description:
-        "item Pagamento método item item A partir de item armazenar item item Disponível Para Clientes",
+        "Esta forma de pagamento será retirada da loja e não estará disponível para clientes.",
     },
     delete_alert: {
       title: "Excluir Pagamento método",
-      message: "item item Excluir item Pagamento método A partir de item Comprar?",
+      message: "Tem certeza de excluir esta forma de pagamento da sua loja?",
       action: "Excluir Pagamento método",
     },
   },
@@ -3824,7 +3830,7 @@ export default {
     cards: {
       title: "Lista de cartões emitidos",
       subtitle:
-        "Visualizar item Gerenciar tudo item Cartões item item Mandar Cartões Para Comercial Manualmente item item ",
+        "Visualize e gerencie todos os cartões emitidos. Você pode enviar cartões aos usuários manualmente ou bani-los, se necessário.",
 
       loading_message: "Obtendo informações... aguarde",
       issue_to_user: "Problema para o usuário",
@@ -3964,7 +3970,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Lista item item Pedidos item item Para item item Provedores",
+      "Lista de pedidos sincronizados externamente que precisam ser atendidos por fornecedores terceirizados.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,14 +4044,14 @@ export default {
     "sms-payment":
       "Enviar SMS de confirmação de pagamento ao cliente via {phone}.",
     "sms-ready-to-ship":
-      "Mandar item SMS Para item cliente item item 🛍️ Encomenda item item Para item Enviado item {phone}.",
+      "Envie um SMS ao cliente avisando que seu pedido está pronto para ser enviado via {phone}.",
     "sms-ready-to-pickup":
-      "Mandar item SMS Para item cliente item item 🛍️ Encomenda item item {phone}.",
+      "Envie um SMS ao cliente avisando que seu pedido está pronto para retirada via {phone}.",
     "sms-order-confirmation":
-      "Mandar item 🛍️ Encomenda item SMS Para item cliente item {phone}.",
+      "Envie um SMS de confirmação do pedido ao cliente via {phone}.",
 
     "count-adjustment":
-      "item Quantidade item item produtos \"{product}\" item item A partir de {from} Para {to}.",
+      "A quantidade do produto \"{product}\" foi atualizada de {from} para {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4179,13 +4185,13 @@ export default {
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "item item",
+    title: "Membros da equipe",
     subtitle:
-      "item item Lista item Comercial item item Acesso Para item vendedor item item Adicionar Novo item item Permissões item",
+      "Esta é a lista de usuários que têm acesso ao painel do seu fornecedor. Você pode adicionar novos membros da equipe e personalizar suas permissões aqui.",
     add_action: "Adicionar Novo item",
     pending: {
       title: "Pendente item",
-      message: "Visualizar item Lista item item Aguardando item",
+      message: "Veja a lista de convites que aguardam aceitação.",
     },
   },
 
@@ -4193,12 +4199,12 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "Editar item item",
-    title_new: "Adicionar Novo item item",
+    title_edit: "Editar membro da equipe",
+    title_new: "Adicionar novo membro da equipe",
     member: {
-      title: "item item Detalhes",
+      title: "Detalhes dos membros da equipe",
       subtitle:
-        "Adicionar item Novo item item Permissões item item Para item item Acesso item item Para item item principal Comprar painel de controle",
+        "Adicione um novo membro da equipe e defina suas permissões. Clique em cada item para ajustar o acesso de leitura/gravação. Cada linha corresponde a um nível de permissão para o painel principal da loja.",
     },
     access: {
       view_data: "Exibir dados",
@@ -4207,17 +4213,17 @@ export default {
     inputs: {
       email: {
         label: "Endereço de email",
-        placeholder: "item item E-mail Morada",
+        placeholder: "Digite o endereço de e-mail do membro...",
       },
     },
     notifications: {
       add_success: {
         title: "item Adicionar",
-        message: "item item Adicionar",
+        message: "O membro da equipe foi adicionado com sucesso.",
       },
       update_success: {
-        title: "item item",
-        message: "item item informações item item ",
+        title: "Membro atualizado",
+        message: "As informações do membro da equipe foram atualizadas com sucesso.",
       },
     },
     actions: {
@@ -4263,14 +4269,14 @@ export default {
   vendor_order_refund: {
     title: "item 🛍️ Encomenda",
     subtitle:
-      "<b>item! </b>item item Açao item item Transação item item vendedores Carteira item item Resultar A partir de item item Resultar item item Transações item item Selecionar 🛍️ Encomenda item, item item Para Conectado Banco Contas (item item Stripe Connect item manual item Transferir), item item Criar item <b>item Transferir</b>.",
+      "<b>Importante! </b>Executar esta ação irá gerar uma transação negativa na carteira do fornecedor e subtrair dela o valor escolhido. O valor não pode exceder o total de transações restantes do pedido selecionado. Além disso, se os fundos tiverem sido transferidos para contas bancárias conectadas (como Stripe Connect ou transferência eletrônica manual), você deverá criar uma <b>transferência reversa</b>.",
     inputs: {
       note: {
-        message: "item item Para item vendedor",
-        placeholder: "item item Observação item",
+        message: "É visível para o fornecedor.",
+        placeholder: "Você pode anexar uma nota aqui...",
       },
       amount: {
-        error_message: "item item Resultar item item ",
+        error_message: "O valor restante foi excedido.",
       },
     },
   },
@@ -4284,7 +4290,7 @@ export default {
     refund_order_action: "item 🛍️ Encomenda",
     automatic_payout_list: {
       subtitle:
-        "item item Lista item automático Pagamentos Para item Conectado Banco Conta item Observação item item automático Pagamentos item item , item manual Pagamentos item item ",
+        "Esta é uma lista de pagamentos automáticos para sua conta bancária conectada. Observe que apenas os pagamentos automáticos serão exibidos aqui e os pagamentos manuais não serão mostrados.",
     },
     reversal_transfer_action: "item Transferir",
   },
@@ -4540,7 +4546,7 @@ export default {
     profile_dialog: {
       title: "Perfil principal",
       subtitle:
-        "Editar item Público Perfil informações item item informações item item Para item Clientes item Outro Comercial",
+        "Edite as informações do seu perfil público aqui. Essas informações podem estar visíveis para seus clientes ou outros usuários.",
       full_name_input: "Nome completo",
       tel_input: "Número de contato",
       email_input: "E-mail",
@@ -4743,7 +4749,7 @@ export default {
     table: {
       client_id: "ID do Cliente",
       app: "Aplicativo",
-      name: "item",
+      name: "Alias",
       secret_key: "Chave secreta",
     },
     create_dialog: {
@@ -4856,11 +4862,11 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Adicionar Comprar",
-      description: "Adicionar item Novo Comprar Para item item",
+      description: "Adicione uma nova loja ao sistema.",
     },
     "backoffice:shop:delete": {
       name: "Excluir Comprar",
-      description: "Excluir item Comprar A partir de item item",
+      description: "Exclua uma loja do sistema.",
     },
     "backoffice:giftcard:write": {
       name: "Presente Cartão Gerenciamento",
@@ -4872,7 +4878,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Gerenciamento",
-      description: "Criar item Gerenciar item item ",
+      description: "Crie e gerencie perguntas frequentes.",
     },
     "backoffice:faq:read": {
       name: "FAQ Acesso",
@@ -5016,7 +5022,7 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI Acesso",
-      description: "leitura AI item item Estatisticas",
+      description: "Leia configurações e estatísticas de IA.",
     },
     "backoffice:vendor-payment:write": {
       name: "vendedor Pagamento Gerenciamento",
@@ -5036,7 +5042,7 @@ export default {
     },
     "backoffice:note:read": {
       name: "Observação Acesso",
-      description: "leitura item item Detalhes",
+      description: "Leia notas e detalhes relacionados.",
     },
     "backoffice:note:write": {
       name: "Observação Gerenciamento",
@@ -5074,7 +5080,7 @@ export default {
     },
     "selldone:monetization:write": {
       name: "item Gerenciamento",
-      description: "Gerenciar item, item item ",
+      description: "Gerencie a monetização, incluindo programas de referência.",
     },
     "selldone:identification": {
       name: "item Acesso",
@@ -5127,11 +5133,11 @@ export default {
 
   scope_group: {
     backoffice: {
-      title: "item",
-      description: "Acesso Para item item armazenar Gerenciamento item",
+      title: "Backoffice",
+      description: "Acesso a funcionalidades de backoffice e gestão de loja.",
     },
     storefront: {
-      title: "item",
+      title: "Vitrine",
       description: "Acesso Para cliente item armazenar informações",
     },
     profile: {
@@ -5140,11 +5146,11 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "Acesso Selldone Serviços item item",
+      description: "Acesse serviços e recursos do Selldone.",
     },
     others: {
-      title: "item",
-      description: "item Escopos item item ",
+      title: "Outros",
+      description: "Escopos diversos não definidos no sistema.",
     },
     vendor: {
       title: "vendedor",
@@ -5155,7 +5161,7 @@ export default {
       description: "Acesso Conectado Serviços item Provedores",
     },
     agency: {
-      title: "item",
+      title: "Agência",
       description: "Acesso item informações item Gerenciamento",
     },
   },
@@ -5273,7 +5279,7 @@ export default {
       description: "Visualize pedidos e atenda pedidos.",
     },
     MARKETING: {
-      text: "item",
+      text: "Marketing",
       description:
         "Acesse as configurações e crie campanhas, email marketing e outras seções relacionadas ao marketing.",
     },
@@ -5667,14 +5673,14 @@ export default {
     register: "Registrado",
     developer: "Desenvolvedor",
     verified: "Verificado",
-    premier: "item",
+    premier: "Primeiro-ministro",
   },
 
   /** {@see ShopSubscriptionList} **/
   shop_license: {
     add: "Adicionar assinatura",
     only_last: "Apenas última assinatura",
-    vouchers: "item",
+    vouchers: "Vouchers",
     buy: "Comprar plano de assinatura",
     monthly: "Por mês",
     yearly: "Anual",
@@ -5683,7 +5689,7 @@ export default {
     price: "preço",
     verify: {
       true_title: "item Termos",
-      true_description: "item leitura item item Selldone Termos item item",
+      true_description: "Li e concordo com os termos de uso do Selldone",
     },
     need_charge: "Precisa de carga",
     buy_now: "Compre Agora",
@@ -5705,12 +5711,12 @@ export default {
     licenses_table: {
       title: "Histórico de compras",
       subtitle:
-        "Licenças ativas e pendentes.",
+        "Esta é uma lista de licenças ativas e pendentes. Você pode comprar ofertas depois de financiar sua carteira. Além disso, observe que quando você cancela uma assinatura, o valor restante da assinatura será devolvido à sua carteira virtual.",
     },
     license_detail: {
       title: "Detalhes",
       subtitle:
-        "Limites do seu plano atual.",
+        "Estas são as limitações do seu plano atual. Para mais detalhes, visite a página de preços. Você pode acessar todos os recursos de todos os planos, incluindo o plano gratuito, para iniciar seu negócio e crescer. À medida que você expande seu negócio, considere atualizar para um plano de nível superior para reduzir suas taxas de serviço.",
     },
 
     table: {
@@ -5732,20 +5738,20 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "item item Carteira",
+        title: "Escolha uma carteira",
         subtitle:
-          "Selecionar item item Carteira Para item item Inscrição item item , item item Criar item item Carteira item item Carteira item item Usado item item ",
+          "Selecione uma carteira virtual para usar em sua assinatura. Se ainda não tiver uma, você pode criá-la na seção de carteira. Esta carteira será usada para quaisquer cobranças.",
       },
       auto_renewal: {
         true_title: "Renovação automática",
         true_description:
-          "item Inscrição item item Carteira item item Equilíbrio item item ",
+          "Sua assinatura será renovada automaticamente se sua carteira tiver saldo suficiente ou se você tiver um voucher válido.",
       },
       options: {
         title: "item Opções",
       },
       verify: {
-        title: "item",
+        title: "Confirmação",
       },
     },
   },
@@ -5892,62 +5898,62 @@ export default {
       new: "Novo parceiro afiliado",
       edit: "Editar Afiliado item",
       subtitle:
-        "item item Definições item Nome item item Afiliado item",
+        "Defina as configurações gerais e o nome do afiliado aqui.",
     },
 
     payment: {
       title: "Pagamento informações",
       subtitle:
-        "item item Comissão item item Afiliado item item Comissões, item item Comissões item item produtos",
+        "Defina a estrutura de comissões do afiliado. Você pode combinar comissões fixas e percentuais ou definir comissões específicas para cada produto.",
     },
 
     contact: {
       title: "Informações de contato",
-      subtitle: "item item Contato Detalhes item item Afiliado item item",
+      subtitle: "Forneça os detalhes de contato do parceiro afiliado aqui.",
     },
 
     restriction: {
       title: "Comissão restrição",
       subtitle:
-        "item item Produtos item item Comissão item item Comissões Para item Produtos",
+        "Defina quais produtos são elegíveis para comissão. Você pode restringir comissões a determinados produtos.",
     },
 
     link_domain: {
       title: "vinculado Domínio",
       subtitle:
-        "link item item Domínios Para item Afiliado item item Comprar item item Domínio item item Para item Afiliado",
+        "Vincule um de seus domínios a este parceiro afiliado. Os visitantes que comprarem através deste domínio serão atribuídos a este afiliado.",
 
-      domain_not_approved_msg: "item Domínio item item !",
-      domain_is_not_enable_msg: "item Domínio item item ativado!",
+      domain_not_approved_msg: "O domínio ainda não foi aprovado!",
+      domain_is_not_enable_msg: "O domínio não está habilitado!",
       domain_is_linked_to_other_affiliate_msg:
-        "item Domínio item item vinculado Para item Afiliado!",
+        "Este domínio já está vinculado a outro afiliado!",
     },
 
-    set_users_first_message: "item item Do utilizador item!",
+    set_users_first_message: "Por favor, defina o usuário primeiro!",
 
     cluster: {
-      title: "item",
+      title: "Conjunto",
       subtitle:
-        "item item Afiliado item item Para Gerenciar item item Outro Recursos item item ",
+        "Associe este afiliado a um cluster para gerenciá-lo junto com outros recursos em um só lugar.",
       manage_action: "Gerenciar",
     },
 
     notifications: {
       create_success: "Novo Afiliado Adicionar item",
-      update_success: "Afiliado item item",
+      update_success: "Afiliado atualizado com sucesso.",
     },
 
     inputs: {
       name: {
         label: "Afiliado item Nome",
-        message: "item, item item, item Companhia, item item, item",
+        message: "por exemplo, John Doe, Alex Company, X Marketers, etc.",
       },
       commission: {
         label: "Comissão item",
         false_description:
-          "item item Comissões",
+          "Calcule usando uma combinação de comissões fixas e percentuais.",
         true_description:
-          "item item Comissões item item Preços item",
+          "Calcule usando comissões específicas do produto definidas na guia de preços.",
         false_title: "item + item Comissão",
         true_title: "item Comissão",
       },
@@ -5959,7 +5965,7 @@ export default {
         placeholder: "opcional, item, item",
       },
       address: {
-        placeholder: "opcional, item, 1200 item, NY, item",
+        placeholder: "Opcional, por exemplo, 1200 POX, NY, EUA",
       },
       tel: {
         placeholder: "opcional, item, 001-808-210354",
@@ -5972,15 +5978,15 @@ export default {
       },
       pos: {
         true_description:
-          "afiliado item item Pedidos item item Clientes item item ",
+          "Os afiliados podem fazer pedidos diretamente para seus clientes através de seu painel.",
         true_title: "POS Acesso",
       },
       enable: {
         true_description:
-          "item item Afiliado item Ativo? item inativo, item Afiliado item item Para Pedidos item item link",
+          "Este afiliado está ativo atualmente? Se estiver inativo, o programa de afiliados não se aplicará aos pedidos feitos por meio do link.",
       },
       products: {
-        label: "Produtos item item Comissão",
+        label: "Produtos elegíveis para comissão",
         select_product: "Selecionar Produtos",
       },
     },
@@ -5993,7 +5999,7 @@ export default {
      */
     delete: {
       subtitle:
-        "item item Afiliado item item A partir de item Comprar Afiliado informações item item Tempo item item",
+        "Você pode liquidar quaisquer dívidas pendentes com o afiliado antes de removê-las de sua loja. As informações do afiliado permanecerão acessíveis por um tempo limitado após a exclusão.",
     },
   },
 
@@ -6003,18 +6009,18 @@ export default {
   shop_valuations: {
     title: "Personalizado Preços item Avaliações",
     subtitle:
-      "item item (item Preços Entrada formulário) Para item produtos, item Clientes Para Selecionar Variantes item item preço item item Personalizado Entradas",
+      "Atribua uma avaliação (um formulário de entrada de preços) a um produto, permitindo que os clientes selecionem variantes ou personalizem sua mercadoria. O sistema calculará então o preço com base nas entradas personalizadas.",
     add_valuation_action: "Criar Novo item formulário",
     empty_message:
-      "item item Variantes, item item Para item Simples produtos",
+      "Em vez de criar múltiplas variantes, considere desenvolver uma estratégia de avaliação que possa ser aplicada a um produto simples.",
     delete_dialog: {
       title: "item Remover",
       message:
-        "item item Para Excluir item Preços formulário? item item Personalizado Preços item item A partir de tudo item Produtos item",
+        "Tem certeza de que deseja excluir este formulário de preços? Certifique-se primeiro de que esta estratégia de preços personalizada seja removida de todos os produtos associados.",
       action: "Sim, Excluir agora",
     },
     notifications: {
-      delete_success: "item item Excluído",
+      delete_success: "A avaliação foi excluída com sucesso.",
     },
   },
 
@@ -6022,7 +6028,7 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "Preços & item item",
+    label: "Modelo de preços e avaliação",
   },
 
   /**
@@ -6033,26 +6039,26 @@ export default {
     title_add: "Criar Novo item formulário",
     config: {
       subtitle:
-        "item item Para Criar item Preços item item Produtos Começar item item Nome",
+        "Configure um sistema de avaliação para criar preços flexíveis usando fórmulas e tabelas de referência para seus produtos. Comece dando a esta avaliação um nome exclusivo.",
     },
     valuation_preview: "Visualizar item formulário",
-    load_sample: "item item",
+    load_sample: "Carregar amostra",
     conditions: {
       title: "Condições",
       subtitle:
-        "item item Personalizado Variantes item Configuração item item Gerenciamento item item ",
+        "Defina a lógica para variantes personalizadas. Esta configuração simplifica o gerenciamento da disponibilidade de variantes.",
     },
     structure: {
-      title: "item",
+      title: "Estrutura",
       subtitle:
-        "Projeto item Preços Entrada formulário item item ",
-      expand_action: "item",
-      collapse_action: "item",
+        "Projete seu formulário de entrada de preços aqui, integrando fórmulas e tabelas de referência.",
+      expand_action: "Expandir",
+      collapse_action: "Colapso",
     },
     inputs: {
       title: {
-        message: "item Título item item Para Clientes",
-        placeholder: "item item Nome item Preços, item, 'item Preços",
+        message: "Este título não é visível para os clientes.",
+        placeholder: "Insira um nome para o preço, por exemplo, 'Preços de canecas'",
       },
     },
     samples: {
@@ -6516,7 +6522,7 @@ export default {
     link: {
       title: "Afiliado link",
       subtitle:
-        "item item link item item Afiliado item Para item Vendas item Comissões Adicionar item código '{code}' Para item link item item Personalizado Dedicado Domínio item item Afiliado item item 48item",
+        "Gere um link exclusivo para seu parceiro afiliado rastrear vendas e comissões. Adicione códigos de referência '{code}' a qualquer link ou atribua um domínio dedicado personalizado para seu afiliado. Ele será rastreado pelo sistema por 48h.",
     },
     fix_commission: "Comissão fixa",
     percent_commission: "Comissão baseada em porcentagem",
@@ -6591,7 +6597,7 @@ export default {
     quantity_message: "Total de itens disponíveis",
     image: "Imagem",
     image_placeholder: "Selecione uma imagem para o item",
-    chance: "item",
+    chance: "Chance",
     chance_message: "Chance de vitória em porcentagem",
     free_for_first: "É gratuito para novos clientes?",
     free_for_first_message: "Novos clientes podem ganhar este item.",
@@ -7041,18 +7047,18 @@ export default {
     vendor: {
       title: "Importar vendedores",
       subtitle:
-        "Enviar vendedor CSV arquivos item item Para Privacidade item",
+        "Faça upload dos arquivos CSV do fornecedor aqui. Certifique-se de que o formato esteja correto e cumpra os regulamentos de privacidade.",
       checklist: {
-        title: "item item",
-        subtitle: "item item Para item item ",
+        title: "Lista de verificação importante",
+        subtitle: "Certifique-se de seguir as orientações.",
         sample_files: "item arquivos",
         valid_vendor_name_needed:
-          "item item <b>item Nome</b>. item <b>Nome</b> item Usado Para item item Para <i>Criar</i> item Novo vendedor item <i>Atualizar</i> item item ",
+          "Você deve fornecer um <b>nome válido</b>. O <b>name</b> é usado para determinar se <i>Create</i> um novo fornecedor ou <i>Update</i> um existente.",
         assign_user_after_import:
-          "item Importar vendedores, item item Manualmente item item Do utilizador Para item item Acesso Para item vendedor item",
+          "Depois de importar os fornecedores, você pode atribuir manualmente um usuário para dar-lhes acesso ao painel do fornecedor.",
       },
       need_kyc_alert:
-        "item item Para item item Pessoal informações item Importar vendedores",
+        "Você precisa verificar suas informações pessoais antes de importar fornecedores.",
       back_to_vendors_list: "Costas Para vendedor Lista",
     },
   },
@@ -7063,7 +7069,7 @@ export default {
   marketplace_products: {
     title: "vendedor Produtos",
     subtitle:
-      "item item lista tudo Produtos oferta item vendedores item item Mercado, item produtos item item vinculado Para item item Mais. . vendedores item vendedor item item produtos item item Inclui Inventário item Preços Detalhes item Para item vendedor",
+      "Este catálogo lista todos os produtos oferecidos pelos fornecedores. No mercado, um produto pode estar vinculado a um ou mais fornecedores. Cada fornecedor associado a um produto possui uma entrada exclusiva que inclui detalhes de estoque e preços específicos desse fornecedor.",
     filter_vendor: {
       placeholder: "Filtro item vendedor",
     },
@@ -7079,7 +7085,7 @@ export default {
     open_vendors_panel: "item vendedores item",
     title: "vendedor item Lista",
     subtitle:
-      "item item Lista item solicitações de A partir de item item Para item vendedores item item Mercado",
+      "Esta é uma lista de solicitações de indivíduos que se inscreveram para se tornarem fornecedores em seu mercado.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,93 +7094,93 @@ export default {
     marketplace: {
       title: "Mercado",
       subtitle:
-        "item item Mercado item item Para item item Mercado, item item Desativar item armazenar item item Definições",
+        "Desativar o mercado desativará algumas funcionalidades. Se quiser encerrar todo o seu marketplace, você deve desabilitar sua loja nas configurações.",
     },
     distribution_model: {
-      title: "item item",
+      title: "Modelo de Distribuição",
       subtitle:
-        "item item vendedores Para item Itens item Para item item Pedidos item item Armazém item Envio, item item ",
+        "Os mercados podem operar sob diferentes modelos de distribuição. Quer você prefira que os fornecedores enviem os itens diretamente aos compradores ou consolidem os pedidos em seu depósito para envio, você pode escolher aqui o modelo que melhor atende às suas necessidades.",
     },
     access: {
       title: "vendedor Acesso",
       subtitle:
-        "item item , item item Acesso vendedores item Para item produtos painel de controle item item Acesso Definições Para item vendedores Para Adicionar item item Produtos item categorias item item Acesso Para item item",
+        "Como administrador, você controla o nível de acesso que os fornecedores têm ao painel do produto. Ajuste as configurações de acesso global para permitir que os fornecedores adicionem seus próprios produtos e categorias ou restrinja esse acesso apenas aos administradores.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Habilitar Envio item vendedores item item Comprar > Logística item item método item",
-    transportation_available_tooltip: "item item Disponível item vendedores",
+      "Habilite o envio para fornecedores na guia Loja > Logística para cada método individualmente.",
+    transportation_available_tooltip: "Esta opção está disponível para fornecedores.",
     transportation_not_available_tooltip:
-      "item Disponível item vendedores! item item Habilitar item item Definições",
+      "Não disponível para fornecedores! Você pode habilitá-lo nas configurações de transporte.",
     panel: {
       title: "vendedor item",
-      subtitle: "item item vendedores item item Personalizado Domínio",
+      subtitle: "Integre seus fornecedores por meio de seu domínio personalizado.",
     },
     documents: {
       title: "Documentos",
       subtitle:
-        "item item vendedores Para Enviar Documentos item item Documentos item",
-      add_document_action: "Adicionar item item",
+        "Você pode exigir que seus fornecedores carreguem documentos ou assinem determinados contratos. Especifique aqui os documentos necessários.",
+      add_document_action: "Adicionar solicitação de documento",
     },
     inputs: {
       enable: {
         false_description:
-          "item Mercado item item , item tudo Mercado item",
+          "O marketplace está desligado, desativando todas as funcionalidades do marketplace.",
         true_description:
-          "item Mercado item Ativo, item tudo Mercado item",
+          "O marketplace está ativo, habilitando todas as funcionalidades do marketplace.",
       },
       product: {
         label: "Adicionar novo produto",
         true_title: "vendedores item Adicionar Produtos",
         false_description:
-          "item Adicionar Produtos item item vendedores vendedores item item Gerenciar preço item Inventário",
+          "Você adiciona produtos e atribui fornecedores. Os fornecedores só podem gerenciar preços e estoque.",
         true_description:
-          "vendedores item Adicionar item Gerenciar item item Produtos item item vendedor item",
+          "Os fornecedores podem adicionar e gerenciar seus próprios produtos diretamente no painel do fornecedor.",
       },
       need_verify: {
         label: "produtos item Fluxo",
         false_description: "Novo vendedor Produtos item Ao vivo item",
-        false_title: "não item item",
+        false_title: "Nenhuma verificação necessária",
         true_description:
-          "vendedores Novo Produtos item item Ao vivo item item Mercado",
-        true_title: "item item",
+          "Os novos produtos dos fornecedores exigem aprovação antes de serem lançados no mercado.",
+        true_title: "Verificação necessária",
       },
       category: {
         label: "Adicionar nova categoria",
         true_title: "vendedores item Adicionar categorias",
         false_description:
-          "item Adicionar categorias vendedores item item Adicionar Produtos Para item categorias",
+          "Você adiciona categorias. Os fornecedores só podem adicionar produtos às categorias existentes.",
         true_description:
-          "vendedores item Adicionar item Gerenciar categorias item item vendedor item",
+          "Os fornecedores podem adicionar e gerenciar categorias diretamente no painel do fornecedor.",
       },
       shipping: {
         label: "Envio Opções",
         true_title: "vendedores item Envio Opções",
         false_description:
-          "vendedores item Adicionar item item Envio métodos",
+          "Os fornecedores não podem adicionar ou personalizar seus métodos de envio.",
         true_description:
-          "vendedores item item Envio métodos, Adicionar Correios, item item Envio item item ",
+          "Os fornecedores podem configurar seus próprios métodos de envio, adicionar transportadores e personalizar o envio de acordo com suas necessidades.",
       },
       hidden_customer: {
         label: "Mostrar item Contato informações",
-        true_description: "item Contato Detalhes item item A partir de vendedores",
+        true_description: "Os detalhes de contato do comprador ficam ocultos dos fornecedores.",
         false_description:
-          "item Contato Detalhes, item item E-mail, item item Para vendedores",
+          "Os detalhes de contato do comprador, como telefone e e-mail, ficam visíveis para os fornecedores.",
       },
       multi: {
         false_description:
-          "item Do utilizador item item vendedor Conta Comercial item item Para item item /vendedores",
+          "Um usuário pode ter apenas uma conta de fornecedor. Os usuários serão redirecionados para seu painel em /vendors.",
         true_description:
-          "item Do utilizador item item vendedor Contas item item ; item Contato item item ",
+          "Um usuário pode ter várias contas de fornecedor. Este é um recurso beta; entre em contato conosco antes de usá-lo.",
         true_title: "item modo",
         false_title: "item vendedor modo (Predefinição)",
       },
 
       listing: {
         label: "lista item vendedores",
-        true_description: "lista item ativado item vendedores vendedores item Gerenciar lista Itens item Empresas",
-        false_description: "lista item desativado item vendedores item item Comprar Proprietário item Gerenciar lista Itens item Empresas",
+        true_description: "A listagem está habilitada para fornecedores. Os fornecedores podem gerenciar itens e empresas de listagem.",
+        false_description: "A listagem está desativada para fornecedores. Somente o dono da loja pode gerenciar a listagem de itens e empresas.",
         requires_listing_active_text:
-          "Para item vendedores item lista (Itens + Empresas), item Habilitar item Comprar lista item item Canal → lista item item Costas item Para item vendedor Acesso",
+          "Para permitir que os fornecedores usem Listagem (itens + empresas), primeiro habilite o recurso Listagem de loja em Canal → Listagem. Depois volte aqui para permitir o acesso do fornecedor.",
         requires_listing_active_button: "item Canal lista Definições",
       },
 
@@ -7182,48 +7188,48 @@ export default {
 
     },
     notifications: {
-      update_success: "vendedor Definições item item",
+      update_success: "Configurações do fornecedor atualizadas com sucesso.",
     },
     add_document_dialog: {
-      title: "item item",
+      title: "Requisitos do documento",
       type: {
         title: "Tipo de documento",
         subtitle:
-          "Adicionar item item vendedores item, item item Para Enviar item item ",
+          "Adicione um item de solicitação de documento aqui. Ele aparecerá no painel do fornecedor, solicitando que ele carregue o documento necessário.",
       },
       guide: {
         title: "Guia",
         subtitle:
-          "item item Guia Para item vendedores item item Documentos Para Enviar item item Para item item ",
+          "Forneça um breve guia para ajudar os fornecedores a entender quais documentos carregar e como fazê-lo corretamente.",
       },
       code: {
         title: "Embutir Código",
         subtitle:
-          "item item Embutir Código item item , formulário, item item vendedor item item",
+          "Cole o código incorporado de um documento, formulário ou contrato que o fornecedor deve assinar.",
       },
       link: {
         title: "Link externo",
         subtitle:
-          "item item link Para item item vendedor item item",
+          "Forneça um link externo para um documento ou contrato que o fornecedor deve assinar.",
       },
       inputs: {
         title: {
           label: "Título",
-          placeholder: "item item Título item item ",
+          placeholder: "Insira um título para a solicitação do documento.",
         },
         guide: {
           label: "Guia (opcional)",
           placeholder:
-            "item, item item Guia item item, item link Para item item Outro Documentos",
+            "Opcionalmente, forneça um breve guia ou instruções, incluindo links para contratos ou outros documentos.",
         },
         code: {
           label: "Embutir Código",
-          placeholder: "item item Embutir Código item",
-          message: "item item HTML Código",
+          placeholder: "Cole o código de incorporação aqui...",
+          message: "Pode incluir código HTML.",
         },
         url: {
           label: "URL",
-          message: "item item URL item item ",
+          message: "Insira o URL do documento ou contrato aqui...",
         },
       },
     },
@@ -7236,12 +7242,12 @@ export default {
     Collective: {
       title: "item modo",
       description:
-        "item item modo, tudo Pedidos item Enviei Para item Armazém item item Enviado Para Clientes A partir de item item Localização vendedores item Mandar item Itens Para item Armazém, item item Envio Morada item vendedores item item Armazém Morada",
+        "Neste modo, todos os pedidos são enviados primeiro para o seu armazém e depois enviados aos clientes a partir de um local central. Os fornecedores enviarão seus itens para o seu armazém, portanto, o endereço de entrega dos fornecedores será o endereço do seu armazém.",
     },
     Direct: {
       title: "item Envio A partir de vendedor",
       description:
-        "item item modo, vendedores item Pedidos item Para Clientes item Envio Morada item vendedor Pedidos item item Morada",
+        "Nesse modo, os fornecedores enviam os pedidos diretamente aos clientes. O endereço de entrega para pedidos do fornecedor será o endereço do comprador.",
     },
   },
   /**
@@ -7249,44 +7255,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "Proprietário item item",
+      title: "Documento de identificação do proprietário",
       description:
-        "Enviar item item ID Para item item KYC item item O negócio Proprietário item item ",
+        "Faça upload de um documento de identidade emitido pelo governo para verificar a identidade do proprietário da empresa ou do principal executivo.",
     },
     Business: {
       title: "O negócio item",
       description:
-        "item item O negócio Documentos item item Para item item status item item O negócio",
+        "Forneça documentos comerciais essenciais, como licenças ou certificados de registro, para confirmar a situação legal do seu negócio.",
     },
     Address: {
       title: "Morada item",
       description:
-        "item item Para item item O negócio Morada, item item , Imposto Fatura, item item ",
+        "Envie um documento para verificar seu endereço comercial, como uma conta de luz, nota fiscal ou contrato de locação.",
     },
     Contract: {
       title: "item & item",
       description:
-        "Enviar item item Termos item Condições item item O negócio item",
+        "Faça upload de contratos ou acordos que detalhem os termos e condições de suas relações comerciais.",
     },
     Copyright: {
-      title: "item item",
+      title: "Documentação de direitos autorais",
       description:
-        "item item Documentos Para item item ",
+        "Forneça documentos de registro de direitos autorais para afirmar seus direitos de propriedade intelectual.",
     },
     Privacy: {
       title: "Privacidade política Documentos",
       description:
-        "item item Privacidade política Documentos Para item item Para item Do utilizador item cliente informações",
+        "Inclua os documentos da sua política de privacidade para demonstrar o seu compromisso em proteger as informações dos usuários e clientes.",
     },
     Embed: {
       title: "item formulário",
       description:
-        "item item formulário Para item item informações",
+        "Preencha o formulário incorporado para fornecer as informações necessárias.",
     },
     Link: {
       title: "Link externo",
       description:
-        "item item link Para item item informações",
+        "Siga o link externo para fornecer as informações necessárias.",
     },
   },
 
@@ -7296,7 +7302,7 @@ export default {
   marketplace_wallets: {
     title: "Carteiras de Fornecedores",
     subtitle:
-      "não item Para Manualmente Adicionar Carteiras! vendedor Carteiras item item Habilitar item Pagamento método item item Pagamentos (Como Stripe Connect), item item Pagamentos Para item Conectado vendedores Contas item item ativado, item item Para Manualmente Pagar vendedores, item item valor item Para item item Carteira Lista",
+      "Não há necessidade de adicionar carteiras manualmente! As carteiras de fornecedores são criadas automaticamente. Se você ativar um método de pagamento que suporte pagamentos divididos (como Stripe Connect), o sistema distribuirá automaticamente os pagamentos para as contas dos fornecedores conectados. Se esse recurso não estiver ativado, você precisará pagar manualmente os fornecedores e poderá verificar os valores devidos a eles na lista da carteira.",
     filter_vendor: {
       placeholder: "Filtro item vendedor",
     },
@@ -7307,12 +7313,12 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "item item Lista item tudo Transações item item Selecionar Carteira item Carregar Transação item item cliente item item 🛍️ Encomenda item item 🛍️ Encomenda item item , item item Transação item item ",
+      "Esta seção fornece uma lista detalhada de todas as transações da carteira selecionada. Uma transação de cobrança é registrada quando um cliente paga um pedido com êxito. Se uma encomenda for cancelada ou parcialmente reembolsada, a transação de reembolso correspondente também será registada aqui.",
     vendor_bank: "vendedor Banco",
     order_fee: "🛍️ Encomenda Taxa",
     order_refund: "🛍️ Encomenda item",
-    reverse_fund: "item item",
-    payout: "item",
+    reverse_fund: "Reversão de fundos",
+    payout: "Pagamento",
   },
 
   /**
@@ -7321,8 +7327,8 @@ export default {
   marketplace_payouts: {
     title: "Histórico de pagamento",
     subtitle:
-      "item item Contabilidade item item vendedores item item tudo Transações Pagamentos item item Manualmente item Banco item item Outro métodos, item item Pagamento Provedores item Apoio, suporte item Pagamentos, Como item Stripe",
-    top_up_vendor_action: "item item vendedor Conta",
+      "Este recurso agiliza a contabilidade para você e seus fornecedores, mantendo um registro detalhado de todas as transações. Os pagamentos podem ser processados ​​manualmente por meio de transferências bancárias ou outros métodos, ou gerenciados automaticamente por provedores de pagamento que oferecem suporte a pagamentos divididos, como Stripe.",
+    top_up_vendor_action: "Conta de fornecedor de recarga",
   },
 
   /**
@@ -7331,7 +7337,7 @@ export default {
   marketplace_pricings: {
     title: "Planos de Preços",
     subtitle:
-      "item item Preços item item Mercado, Como item 5% item Taxa item item Produtos item ganhar Preços Gerenciamento item item Mais. . item",
+      "Configure modelos de preços para o seu mercado, como uma taxa de margem de 5% para produtos digitais. Isso torna o gerenciamento de preços mais rápido e eficiente.",
     add_pricing_action: "Adicionar Preços Plano",
   },
 
@@ -7341,22 +7347,22 @@ export default {
   vendor_pricing_add: {
     title: "Mercado Preços item",
     subtitle:
-      "item item Preços item Para vendedor Produtos, item preço item item vendedor preço * (1 + Comissão%).",
+      "Quando você atribui um modelo de precificação aos produtos do fornecedor, o preço será calculado automaticamente como Preço do fornecedor * (1 + % de comissão).",
     delete: {
       subtitle:
-        "item item Preços item item tudo vendedor Produtos vinculado Para item item Preços item, ganhar item Para Atualizar tudo vendedor Produtos item item Preços item",
+        "A exclusão de um modelo de preços afetará todos os produtos do fornecedor vinculados a ele. Antes de remover um modelo de preços, atualize todos os produtos do fornecedor que o utilizam e atribua a eles um modelo de preços diferente.",
       remove_pricing_action: "Remover Preços item",
     },
     inputs: {
       title: {
-        placeholder: "item, item Produtos item",
+        placeholder: "por exemplo, classe de produtos digitais...",
       },
       description: {
-        placeholder: "item item Adicionar item Observação item",
+        placeholder: "Você pode adicionar uma nota aqui...",
       },
       accept_delete: {
-        true_description: "item item Para Excluir item Preços item",
-        true_title: "item Preços item item",
+        true_description: "Quero excluir este modelo de preços.",
+        true_title: "Confirmar remoção do modelo de preços",
       },
     },
   },
@@ -7368,36 +7374,36 @@ export default {
     vendor: {
       title: "vendedor",
       subtitle:
-        "Selecionar item vendedor item item Para Transferir item Para item Selecionar, Disponível Pagamento Opções item item ativado item Pagamento Entradas, item Opções item item ",
+        "Selecione o fornecedor para o qual deseja transferir fundos. Uma vez selecionado, as opções de pagamento disponíveis serão exibidas. Se você ativou gateways de pagamento com capacidade de pagamento, essas opções também aparecerão aqui.",
     },
     vendor_wallet: "vendedor Carteira",
     vendor_bank_account: "vendedor Banco Conta",
     with_balance_tooltip:
-      "item item conectar item Serviços Como Stripe Connect, item item Disponível Equilíbrio item item Stripe Conta item item",
+      "Quando você conecta serviços de pagamento como o Stripe Connect, recuperamos e exibimos o saldo disponível em sua conta Stripe para referência.",
     with_balance: "item Equilíbrio",
     without_balance: "item Equilíbrio - item modo",
     bank_transfer: {
       title: "Banco Transferir",
       subtitle:
-        "item item Pagamento História não item dinheiro item item Para item vendedor item item ; item item Manualmente Pagar item vendedores",
+        "Este é um registro do histórico de pagamentos. Nenhum dinheiro real será transferido ao fornecedor pelo sistema; você deve pagar manualmente seus fornecedores.",
     },
     vendor_bank: "vendedor Banco",
     gateway_in_debug_mode_warning:
-      "item item Pagamento Porta de entrada item item modo, item item Para item item Conta",
+      "Como o gateway de pagamento está atualmente em modo de depuração, os fundos não serão transferidos para uma conta real.",
     payment: {
       title: "Pagamento",
       subtitle:
-        "item item Moeda item item Resultar item item Para Transferir Para item vendedor item item Resultar, item item A partir de item vendedores Carteira item Conectado Contas item item Opções, item item A partir de item Conectado Conta, item item vendedores Stripe Conta",
+        "Escolha a moeda e insira o valor que deseja transferir para o fornecedor. Se você inserir um valor negativo, os fundos serão retirados da carteira do vendedor. Para contas conectadas com opções de pagamento, os fundos serão deduzidos da conta conectada, como a conta Stripe do fornecedor.",
     },
     history: {
       title: "História",
       subtitle:
-        "item item Pagamento item item Transferir, item item Equilíbrio item item A partir de item vendedores Conta item Devolvida Para item Conta",
+        "Parte desse pagamento foi reembolsada por meio de transferência reversa, o que significa que o saldo foi deduzido da conta do fornecedor e devolvido à sua conta.",
     },
     refund: {
-      title: "item",
+      title: "Reembolso",
       subtitle:
-        "item item Resultar item item A partir de item vendedores Equilíbrio tudo Pagamentos (item item valor) item item vendedores Conta (Como Stripe Connect) item item Transferir",
+        "O valor reembolsado será deduzido do saldo do fornecedor. Todos os pagamentos (ou valores restantes) na conta do fornecedor (como Stripe Connect) serão reembolsados ​​por meio de transferência reversa.",
     },
     inputs: {
       vendor: {
@@ -7405,23 +7411,23 @@ export default {
       },
       note: {
         placeholder:
-          "item item Adicionar item Observação item item Observação item item Para item vendedor",
+          "Você pode adicionar uma nota aqui... Esta nota não é visível para o fornecedor.",
       },
       accept_refund: {
-        true_description: "item item Para Cancelar item Pagamento",
+        true_description: "Quero cancelar este pagamento.",
         true_title: "Cancelar & item Pagamento",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "item item",
+        title: "Fundo revertido",
         message:
-          "item vendedores item item Concluído item, item dinheiro item A partir de item Banco Para item Carteira item Adicionar Para item Carteira Equilíbrio",
+          "A reversão de fundos do fornecedor foi concluída com sucesso, com o dinheiro transferido do banco para a carteira e adicionado ao saldo da carteira.",
       },
       payout_success: {
-        title: "item",
+        title: "Pagamento",
         message:
-          "item vendedores item item Adicionar",
+          "O pagamento do fornecedor foi processado e adicionado com sucesso.",
       },
     },
   },
@@ -7430,12 +7436,12 @@ export default {
    * @see BShopQuotaImporter
    */
   quota_importer: {
-    quota: "item",
-    max_batch_msg: "máximo item item Itens item item Importar item item ",
-    max_daily_limit_msg: "máximo item item Itens item item Importar item item ",
-    extra_daily_limit_msg: "item Itens item item Limite",
+    quota: "Contingente",
+    max_batch_msg: "Número máximo de itens que você pode importar em um único lote.",
+    max_daily_limit_msg: "Número máximo de itens que você pode importar em um dia.",
+    extra_daily_limit_msg: "Itens adicionais permitidos além do limite diário.",
     add_items_today_msg: "Itens Adicionar Hoje",
-    file_statistic_msg: "Estatisticas item item arquivo",
+    file_statistic_msg: "Estatísticas para este arquivo.",
     used_quota: "Usado item",
   },
 
@@ -7473,7 +7479,7 @@ export default {
   shop_theme: {
     theme_colors: "Cores do tema",
     theme_colors_description:
-      "item item Primário Cor item item Comprar item item Modelo item item Para item item Cor item item Marca",
+      "Você pode personalizar a paleta de cores primárias da sua loja aqui. Cada modelo pode utilizar essas cores para gerar automaticamente uma gama completa de cores que se alinha à sua marca.",
     products_view_mode: "Visualização da lista de compras",
     products_view_mode_desc:
       "Você pode ajustar o modo de exibição dos produtos em sua loja com base no tamanho da tela. Este modo será considerado por padrão e não será aplicado caso o usuário altere o modo de exibição.",
@@ -7494,24 +7500,24 @@ export default {
 
     typography: "Tipografia",
     header: "Cabeçalho",
-    footer: "item",
+    footer: "Rodapé",
     custom_code: "Código personalizado",
     custom_css: "CSS customizado",
     custom_variants: "Variantes",
 
     wrap_product_title: {
       title: "item Título",
-      subtitle: "item Altura item item Título item item ",
+      subtitle: "A altura do título será ajustada dinamicamente.",
     },
 
     animation: {
-      title: "item",
+      title: "Animação",
       static: {
-        false_title: "item item",
+        false_title: "Com animações",
         false_description:
-          "categorias item Produtos item item Para Mostrar item item",
+          "Categorias e produtos possuem uma animação interativa para mostrar a funcionalidade.",
         true_title: "Estático",
-        true_description: "categorias item Produtos item não item",
+        true_description: "Categorias e produtos não possuem animação.",
       },
     },
 
@@ -7519,18 +7525,18 @@ export default {
       title: "item Ações",
       hover: {
         false_description:
-          "Simples item Mínimo modo item item Ações item produtos Cartões",
+          "Modo simples e mínimo, sem quaisquer ações extras nos cartões de produto.",
         true_description:
-          "Mostrar item Comprar & Adicionar Para item item produtos Cartão item",
-        true_title: "Mostrar Açao item item",
+          "Mostrar botões de compra e adição rápida para comparar no cartão do produto.",
+        true_title: "Mostrar ação ao passar o mouse",
       },
     },
     filter_products: {
       title: "Filtro Produtos",
       only_available: {
-        false_description: "Mostrar tudo Produtos item item Comprar Lista item Predefinição",
+        false_description: "Mostrar todos os produtos na lista da loja como padrão.",
         true_description:
-          "Mostrar item Disponível Produtos item item Comprar Lista item Predefinição",
+          "Mostrar apenas os produtos disponíveis na lista da loja como padrão.",
         true_title: "Disponível Produtos",
         false_title: "tudo Produtos",
       },
@@ -7538,37 +7544,37 @@ export default {
     filter_categories: {
       title: "Filtro categorias",
       hide_empty_folders: {
-        false_description: "Mostrar tudo categorias item item Comprar Lista",
+        false_description: "Mostrar todas as categorias na lista de compras.",
         false_title: "Mostrar tudo categorias",
         true_title: "Ocultar item categorias",
         true_description:
-          "Mostrar item categorias item Produtos item item Comprar Lista",
+          "Mostrar apenas categorias com produtos na lista da loja.",
       },
     },
 
     product_page: {
       title: "produtos página",
       subtitle:
-        "item item produtos página item item Preços item item Para item item Preferências",
+        "Personalize a página do seu produto aqui. Você pode ajustar a exibição dos preços e modificar a disposição das seções de acordo com suas preferências.",
       buy_button_color: "Comprar item Cor",
       smart_price: {
         title: "item Unidade preço",
         true_description:
-          "item Unidade preço item item Peso, volume, item item Variantes item ex item item 2item item $5 item preço, item item cliente ver item $2.5/item item produtos página",
+          "Cálculo do preço unitário considerando peso, volume e propriedade das variantes da embalagem. Ex. Se você tiver uma variante com tamanho 2L e $5 como preço, o cliente verá $2.5/L na página do produto.",
       },
       reverse_currency: {
         title: "Moeda item Posição",
         false_title: "Modo normal",
         true_title: "item modo",
         false_description:
-          "item Moeda item item Começar item item ex: $95, €30",
+          "O símbolo da moeda será colocado no início dos números. Ex: $95 , 30€",
         true_description:
-          "item Moeda item item Fim item item ex: 95$, 30€",
+          "O símbolo da moeda será colocado no final dos números. Ex: 95$, 30€",
       },
       variants_selector: {
         title: "Variantes item",
         subtitle:
-          "item item Para item Variantes item item produtos página",
+          "Você pode escolher diferentes maneiras de exibir variantes na página do produto.",
       },
 
       tabs_order: {
@@ -7585,18 +7591,18 @@ export default {
     onboarding: {
       title: "item & Conecte-se",
       subtitle:
-        "item item vendedor item item Conecte-se item item Personalizado Vídeo, imagem, item Mensagem",
+        "Personalize a experiência de integração e login do fornecedor com um vídeo, imagem ou mensagem personalizada.",
     },
     inputs: {
       page_vendor_login: {
         label: "vendedor Conecte-se página",
         message:
-          "Selecionar item Personalizado Pousar página item vendedor Conecte-se item Vídeo, Imagens, item item Projeto item página item item Para vendedores item item ",
+          "Selecione uma página inicial personalizada para login do fornecedor. Inclua vídeo, imagens ou texto para um design exclusivo. Esta página é mostrada para fornecedores que não estão logados.",
       },
       page_vendor_registered: {
         label: "vendedor Registrado página",
         message:
-          "Selecionar item Personalizado página item item vendedores item página item item Mercado item item vendedores item Do utilizador",
+          "Selecione uma página personalizada para fornecedores logados. Esta página será exibida se o seu mercado oferecer suporte a vários fornecedores por usuário.",
       },
     },
   },
@@ -7606,23 +7612,23 @@ export default {
     custom_variants: {
       title: "Personalizado Variantes",
       subtitle:
-        "item Produtos item item Variantes item item Mudar item Predefinição Nome item Variantes item item Para item item Itens item Predefinição item item Clientes item item máximo Comprimento item 24. Selldone",
+        "Os produtos físicos podem ter variantes. Você pode alterar o nome padrão das variantes. Nossa sugestão é deixar esses itens como padrão e vazios para que o selldone os traduza automaticamente para seus clientes em seus idiomas. O comprimento máximo é 24.",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
       title: "principal Local na rede Internet item",
-      subtitle: "item item A partir de Google item",
+      subtitle: "Escolha sua fonte favorita no Google Fonts.",
     },
     inputs: {
       font_family: {
-        label: "item item",
-        message: "item item Valor",
+        label: "Família de fontes",
+        message: "Insira o valor da família de fontes.",
       },
       font_res: {
-        label: "item item",
-        message: "item item ",
+        label: "Recurso de fonte",
+        message: "Especifique o recurso de fonte.",
       },
     },
   },
@@ -7632,12 +7638,12 @@ export default {
     logo: {
       title: "Cabeçalho Logotipo",
       subtitle:
-        "item Predefinição, item Lojas Logotipo item item Cabeçalho, item item Enviar item Personalizado Logotipo item item Logotipo item item , item item Para Manualmente item item Altura item Largura item item ",
+        "Por padrão, o logotipo da sua loja é exibido no cabeçalho, mas você pode fazer upload de um logotipo personalizado. Se o seu logotipo não tiver uma proporção quadrada, pode ser necessário ajustar manualmente a altura e a largura para uma apresentação ideal.",
     },
     header_title: {
       title: "Cabeçalho Título",
       subtitle:
-        "item item Título item item Cabeçalho item item Páginas item item Para item Remover item, item item 'item item Título item",
+        "Você pode personalizar o título exibido no cabeçalho de suas páginas aqui. Se desejar removê-lo completamente, clique no botão 'Definir título vazio'.",
     },
 
     inputs: {
@@ -7652,7 +7658,7 @@ export default {
       },
       title: {
         label: "Cabeçalho Título",
-        set_empty: "item item Título",
+        set_empty: "Definir título vazio",
       },
     },
   },
@@ -7662,40 +7668,40 @@ export default {
     smart: {
       title: "item modo",
       description:
-        "item Variantes item item Opções, item item ",
+        "Variantes compactas em opções separadas selecionáveis, adequadas para a maioria dos casos.",
     },
     select: {
       title: "Selecionar modo",
       description:
-        "item tudo Variantes item item , item item Variantes",
+        "Exibe todas as variantes em um menu suspenso, ideal para um grande número de variantes.",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "Editar item item",
-    add_title: "Adicionar item item",
+    edit_title: "Editar conjunto de propriedades",
+    add_title: "Adicionar conjunto de propriedades",
     config: {
       subtitle:
-        "item Título item Descrição item item Para Pessoal item",
+        "Defina o título e a descrição do seu conjunto de propriedades. Será visível apenas para a equipe.",
     },
     variants: {
       title: "Variantes",
       subtitle:
-        "item item Nome, Ícone, item 🛍️ Encomenda item item Produtos item item Variantes item item Predefinição 6 Variantes, item item Personalizado Variantes item item produtos item",
+        "Você pode personalizar o nome, o ícone e o pedido da variante aqui. Se você tiver uma variedade de produtos com variantes exclusivas que não se enquadram nas 6 variantes padrão, poderá definir variantes personalizadas para cada produto aqui.",
     },
 
     inputs: {
       title: {
-        placeholder: "item item Título item item ",
+        placeholder: "Insira um título para o conjunto de propriedades...",
       },
       description: {
-        placeholder: "item item Descrição (opcional)",
+        placeholder: "Insira uma breve descrição... (opcional)",
       },
       custom_variants: {
         true_title: "Personalizado Variantes",
         false_title: "Predefinição Variantes",
-        true_description: "item item produtos Variantes",
+        true_description: "Personalize suas variantes de produto.",
         false_description: "item Predefinição item Variantes",
       },
     },
@@ -7705,9 +7711,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "item item (opcional)",
+        placeholder: "Definir valores definidos... (opcional)",
         messages:
-          "item item 🛍️ Encomenda",
+          "Você pode fornecer sugestões de valores e personalizar a ordem.",
       },
     },
   },
@@ -7717,7 +7723,7 @@ export default {
     default: "Predefinição",
     blue: "Oceano azul",
     amber: "Âmbar",
-    green: "item",
+    green: "Equatorial",
     red: "Vampiro",
     magenta: "Flor",
     master: "Mestre",
@@ -7799,7 +7805,7 @@ export default {
   shop_bots: {
     not_set: "Não configurado!",
     tokens: "Símbolo(s)",
-    webhook: "item",
+    webhook: "Webhook",
     calls: "Chamadas",
     dialog: {
       title: "{name} Configuração do bot",
@@ -7939,8 +7945,8 @@ export default {
     courier_action: "Confirmação de entrega",
     courier_action_subtitle: "Meu entregador irá buscar o pacote.",
 
-    pickup_ready_action: "item item",
-    pickup_ready_action_subtitle: "item 🛍️ Encomenda item item cliente item",
+    pickup_ready_action: "Pronto para retirada",
+    pickup_ready_action_subtitle: "O pedido está pronto para retirada do cliente.",
 
     service_action: "Confirmação de execução",
 
@@ -8305,7 +8311,7 @@ export default {
 
   /** @see BPageProductDropshipping **/
   product_dropshipping_admin: {
-    title: "item",
+    title: "Dropshipping",
     save_alert:
       "As configurações de dropshipping deste produto foram alteradas. Deseja salvar as alterações?",
     reselling_message:
@@ -8323,7 +8329,7 @@ export default {
     pay_buy: "Pague e compre",
     quantity: "Contar",
     quantity_in_basket: "Itens no carrinho",
-    count_unit: "item",
+    count_unit: "x",
     remove: "Remover",
     add_to_basket: "Adicionar ao carrinho",
     book_now: "Agende agora",
@@ -8737,7 +8743,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Vendas Canal",
     subtitle:
-      "Criar item Dedicado Categoria item item Produtos, item item Imagens item item, item item Para Instagram item item, item item , item item Para item item Produtos",
+      "Crie uma categoria dedicada para seus produtos, completa com imagens e vídeos, e compartilhe-a nas redes sociais. É semelhante ao Instagram e ao TikTok, mas com controle total, permitindo vender seus produtos diretamente.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8910,7 @@ export default {
     tax_add_messages: "O imposto deve ser adicionado ao preço final.",
     invoice: {
       subtitle:
-        "item item formulário, item item Criar item Pagamento link item item Resultar item item ganhar item item Fatura item item Pagamento item item ",
+        "Ao usar este formulário, você pode criar um link de pagamento para um valor específico. Também torna o rastreamento da fatura e a confirmação da conclusão do pagamento simples e fácil.",
     },
   },
 
@@ -9099,7 +9105,7 @@ export default {
     },
     bulk: {
       title: "item 🛍️ Encomenda Relatório",
-      desc: "Receber item item E-mail item item Detalhes item Pedidos item item ",
+      desc: "Receba um e-mail diário com os detalhes dos pedidos daquele dia.",
     },
   },
 
@@ -9266,7 +9272,7 @@ export default {
       title: "Métodos de login",
       subtitle: "Personalize a forma como os usuários fazem login na sua loja.",
 
-      tips: "<b>item</b> item item Do utilizador item item Comprar, item item Selldone Do utilizador item item, item item Do utilizador item item Acesso Para item Morada item item tudo Lojas item item Visualizar item 🛍️ Encomenda História, item item Comprar item item informações item item Para item item Para item item, item Mandar item E-mail Para item Do utilizador item item ",
+      tips: "<b>Importante.</b> Quando um usuário se registra em sua loja, um usuário Selldone correspondente é criado, caso ainda não exista. Este usuário terá acesso à sua agenda de endereços em todas as lojas e poderá visualizar seu histórico de pedidos, mesmo que uma loja tenha fechado. Não usamos essas informações para fins de marketing, mas exigimos que elas sejam usadas para evitar fraudes de ambos os lados. Para manter a transparência, enviaremos um e-mail ao usuário informando seu cadastro.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9325,7 @@ export default {
     checkout_form: {
       title: "Confira formulário",
       subtitle:
-        "item item Confira formulário item Para item item informações item item A partir de item Clientes",
+        "Personalize os campos do formulário de checkout para coletar as informações necessárias de seus clientes.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9365,7 +9371,7 @@ export default {
     },
 
     dropshipping: {
-      title: "item",
+      title: "Dropshipping",
       desc: "Não mantenha nenhum produto e nenhum estoque - você paga a um terceiro, geralmente um atacadista (como Printify, Wholesale2B, ...) ou fabricante, e eles atendem aos pedidos nos bastidores.",
     },
 
@@ -9380,7 +9386,7 @@ export default {
 
     franchise: {
       title: "Franquia / Afiliado",
-      desc: "item item método item item Produtos item Serviços item item Marca (item) item item Produtos item item Marca (Afiliado).",
+      desc: "Uma franquia é um método de distribuição de produtos ou serviços envolvendo um franqueador que estabelece sua marca (Franchising) ou vende seus produtos por sua marca (Afiliado).",
     },
   },
 
@@ -9447,7 +9453,7 @@ export default {
   shop_quota: {
     title: "Cota de uso",
     sub_title:
-      "item item Lista item item Comprar item item aumentar item Limites item item Lojas Licença item item Limites, item item A partir de item tudo item item ",
+      "Esta é a lista de cotas de uso da sua loja. Você pode aumentar esses limites atualizando a licença da sua loja. Se você exceder os limites, poderá solicitar-nos cotas diárias adicionais. Todo o uso será redefinido diariamente.",
   },
 
   /** {@see WidgetAppCard} **/
@@ -9482,10 +9488,10 @@ export default {
       description: "Este produto foi rejeitado pelo mercado.",
     },
     unlisted: {
-      name: "item",
-      title: "item",
+      name: "Não listado",
+      title: "Não listado",
       description:
-        "item produtos item item lista item item armazenar, item item link",
+        "Este produto não está listado na loja, mas é acessível por link direto.",
     },
   },
 
@@ -9675,7 +9681,7 @@ export default {
       desc: "Obtenha produtos, categorias e clientes. Após o usuário excluir este serviço, os produtos, categorias e clientes recebidos não serão excluídos.",
     },
     Dropshipping: {
-      title: "item",
+      title: "Dropshipping",
       desc: "Obtenha produtos, categorias e pedidos. O sistema remove produtos após o usuário remover o serviço.",
     },
     Marketplace: {
@@ -9963,7 +9969,7 @@ export default {
         "O programa de cashback está inativo e os clientes não podem utilizá-lo.",
     },
     boosted_input: {
-      false_title: "item",
+      false_title: "Normal",
       true_title: "item (2item Dinheiro de volta)",
       true_msg:
         "O programa de cashback está em modo de reforço e os clientes receberão 2x o cashback.",
@@ -10074,21 +10080,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "Adicionar Variantes item item",
+    title: "Adicionar variantes em massa",
     variants: {
       title: "item Opções",
       subtitle:
-        "Selecionar item Para item item Opções item item, item item Variantes Para Criar item",
+        "Selecione até duas opções de variantes. Após a seleção, você pode escolher quais variantes específicas serão criadas automaticamente.",
     },
     values: {
-      title: "item item",
-      subtitle: "item item ",
+      title: "Valores variantes",
+      subtitle: "Insira aqui os valores possíveis para cada opção de variante.",
       prevent_duplicates_tips:
-        "<b>Observação:</b> item item Variantes Para item item",
+        "<b>Nota:</b> Verificamos automaticamente as variantes existentes para evitar duplicatas.",
     },
     inventory: {
       title: "item Inventário",
-      subtitle: "item item início Inventário Contar item item Novo Variantes",
+      subtitle: "Defina a contagem inicial de estoque para as novas variantes.",
     },
     add_variants_action: "Criar Variantes",
   },
@@ -10267,7 +10273,7 @@ export default {
         "Gere código HTML para adicionar cartões de produtos em outras plataformas e páginas HTML.",
     },
     iframe: {
-      title: "item",
+      title: "Iframe",
       description:
         "Gere o código iframe para exibir detalhes abrangentes do produto em uma janela incorporada.",
     },
@@ -10672,61 +10678,61 @@ export default {
    * @see LMenuTopHome
    */
   l_menu_top_home: {
-    hot_keys: "item",
+    hot_keys: "Teclas de atalho",
     click_to_view_all: "item Para Visualizar tudo",
     clone_tooltip: {
       title: "item Estilo",
       subtitle:
-        "item item Para item item , fundo, item, item item Para item item:",
+        "Use esta ferramenta para replicar estilos como fontes, planos de fundo, margens e bordas. Siga estas etapas para duplicar estilos:",
       step_1:
-        "item item , item, item Imagens; item item Mudar Para item item",
-      step_2: "item item Estilo item item Para item",
+        "Ative a ferramenta e passe o mouse sobre textos, colunas ou imagens; o cursor mudará para uma pipeta.",
+      step_2: "Clique no elemento cujo estilo você deseja copiar.",
       step_3:
-        "item item Mudar Costas Para item item; item item Para item item Estilo",
+        "O cursor voltará a ser uma paleta; clique no elemento onde deseja aplicar o estilo copiado.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "item item Cardápio, item Inclui tudo item categorias item Prédio. .. item página",
+        "Alterne a visibilidade do menu lateral, que inclui todas as categorias de seção para construir sua página.",
     },
     sort_tooltip: {
       subtitle:
-        "Habilitar item item Para item item ",
+        "Habilite este recurso para reorganizar e organizar facilmente as seções arrastando-as.",
     },
     edit_mode_tooltip: {
       title: "Editar / Visualizar modo",
       edit_mode_title: "Editar modo",
-      edit_mode_msg: "tudo Editar Ferramentas item item ",
+      edit_mode_msg: "Todas as ferramentas de edição serão exibidas.",
       view_mode_title: "Visualizar modo",
       view_mode_msg:
-        "Visualizar item página item Comercial item ver item item Editar Ferramentas item item ",
+        "Visualize sua página como os usuários a veriam, ocultando ferramentas de edição extras e áreas de texto vazias.",
     },
     repository_tooltip: {
-      title: "item item",
+      title: "Seções pré-construídas",
       subtitle:
-        "item item Disponível item item Cardápio, item item página item",
+        "Alternar a exibição de seções pré-projetadas. Essas seções são criadas usando as seções padrão disponíveis no menu esquerdo, mostrando a flexibilidade deste construtor de páginas.",
     },
     live_view: {
       title: "Ao vivo Visualizar",
-      subtitle: "ver Atualizar item item Editar item página",
+      subtitle: "Veja atualizações em tempo real enquanto você edita sua página.",
     },
     hotkeys_dialog: {
-      title: "item item",
+      title: "Atalhos de teclado",
       augment_tips:
-        "item item Contente item item página item item <b>item</b> item item Usado item Personalizado item Páginas item item <b>Produtos</b>, <b>categorias</b>, item <b>item Itens</b>. Para item item imagem Para item item, item item <b>item</b> item Selecionar <b>item item</b> item item imagem",
+        "Você pode carregar conteúdo dinâmico em sua página e substituí-lo por valores <b>augment</b>. Augment é usado para páginas dinâmicas personalizadas, como <b>Products</b>, <b>Categories</b> e <b>Include Items</b>. Para definir uma imagem para carregar dinamicamente, clique em <b>Feeder</b> e selecione <b>Dynamic Source</b> para essa imagem.",
     },
     hotkeys: {
-      ctrl_b: "item item Selecionar item | <b>ganhar item item</b>",
-      ctrl_i: "item item Selecionar item | <i>ganhar item item</i>",
+      ctrl_b: "Ativar/desativar negrito para texto selecionado | <b>Faça-me ousado</b>",
+      ctrl_i: "Ativar/desativar itálico para texto selecionado | <i>Coloque-me em itálico</i>",
       ctrl_l:
-        "item item Selecionar item | <s>item item </s>",
-      ctrl_u: "item item Selecionar item | <u>item item</u>",
+        "Ativar/desativar tachado para texto selecionado | <s>Ataque-me</s>",
+      ctrl_u: "Ativar/desativar sublinhado para texto selecionado | <u>Sublinhe-me</u>",
       ctrl_1:
-        "item item Selecionar item | <small>ganhar item item</small>",
-      ctrl_2: "aumentar item item Selecionar item | <big>ganhar item item</big>",
-      ctrl_r: "Remover tudo item A partir de Selecionar item | item tudo item",
+        "Diminuir o tamanho da fonte do texto selecionado | <small>Faça-me pequeno</small>",
+      ctrl_2: "Aumentar o tamanho da fonte do texto selecionado | <big>Faça-me grande</big>",
+      ctrl_r: "Remover toda a formatação do texto selecionado | Limpe todos os estilos",
       ctrl_s: "Salve  item página",
-      tab: "item item modo",
-      ctrl_e: "item item Estilo modo",
+      tab: "Alternar entre modos de escala",
+      ctrl_e: "Ative ou desative o modo de estilo clone",
     },
   },
 
@@ -10735,34 +10741,34 @@ export default {
    */
   l_page_editor_repository: {
     title: "item & item",
-    subtitle: "item item",
+    subtitle: "Seções pré-construídas",
     add_dialog: {
       title: "Adicionar Personalizado item",
       configuration: {
         title: "Definições",
         subtitle:
-          "item item Salve  item item página item item Para tudo item item armazenar",
+          "Você pode salvar seções personalizadas para uso futuro nos designs de sua página. Essas seções salvas estarão acessíveis a todos os administradores desta loja.",
       },
       image: {
         title: "Imagem",
-        subtitle: "Público imagem item item Lista",
+        subtitle: "Imagem pública exibida na lista.",
       },
       code: {
         title: "Código",
         subtitle:
-          "item item Código A partir de item item página item",
+          "Você pode copiar e colar o código do elemento nas seções do lado esquerdo do construtor de páginas.",
       },
       inputs: {
         title: {
           label: "Título",
-          message: "item item Público Título",
+          message: "Este é o título público.",
         },
         tags: {
           label: "Tag",
-          message: "Usado item pesquisar item item ",
+          message: "Usado para pesquisar e categorizar elementos.",
         },
         section: {
-          message: "item item A partir de item página item",
+          message: "Copie a seção do construtor de páginas.",
         },
       },
     },
@@ -10774,36 +10780,36 @@ export default {
   marketplace_vendors: {
     title: "vendedores Lista",
     subtitle:
-      "Adicionar vendedores item, item item Para Produtos item item produtos painel de controle > vendedores",
+      "Adicione fornecedores aqui e atribua-os aos produtos em Painel de produtos > Fornecedores.",
     add_new_vendor_action: "Adicionar Novo vendedor",
     status_tooltip: {
       title: "Status do fornecedor",
-      ACCEPTED: "item vendedor item Acesso Para item item",
-      REJECTED: "item vendedor item item Rejeitado",
-      PENDING: "item item Aguardando item item A partir de item vendedor",
+      ACCEPTED: "O fornecedor tem acesso ao seu painel.",
+      REJECTED: "A solicitação do fornecedor foi rejeitada.",
+      PENDING: "A solicitação aguarda decisão do fornecedor.",
     },
-    number_of_products: "item item Produtos",
-    invited: "item",
+    number_of_products: "Número de produtos",
+    invited: "Convidado",
     no_pricing: "Sem preços",
     no_pricing_tooltip: {
       title: "Predefinição Preços Plano",
-      subtitle: "item item Predefinição Preços item item vendedor",
+      subtitle: "Defina um modelo de preços padrão para o fornecedor.",
     },
     updated_products_tooltip: {
-      title: "Produtos item item 24 item",
+      title: "Produtos atualizados nas últimas 24 horas",
     },
     added_products_tooltip: {
-      title: "Produtos Adicionar item item 24 item",
+      title: "Produtos adicionados nas últimas 24 horas",
     },
     access_tooltip: {
       title: "item Acesso",
       subtitle:
-        "item vendedor item Acesso Para item item Editar item item vendedor > Acesso item",
+        "O fornecedor tem acesso ao seu painel. Você pode editar isso em Fornecedor > guia Acesso.",
     },
     reject_by_user_tooltip: {
       title: "Rejeitado item Do utilizador",
       subtitle:
-        "item Do utilizador Rejeitado item item Para item item vendedor item Acesso item vendedor",
+        "O usuário rejeitou a solicitação para se tornar um fornecedor e acessar esse fornecedor.",
     },
     download_all_vendors: "Baixar tudo vendedores",
     bulk_import: "item Importar (item)",
@@ -10813,9 +10819,9 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "Licença item item!",
+    title: "Atualização de licença necessária!",
     subtitle:
-      "item item Licença item item Selecionar O negócio item item Licença Para item item Plano",
+      "Sua licença atual não atende aos requisitos do modelo de negócios selecionado. Atualize sua licença para o plano Enterprise.",
   },
 
   /**
@@ -10824,50 +10830,50 @@ export default {
   b_order_chat_box: {
     title: "item Ações",
     subtitle:
-      "item item Mandar item status Atualizar E-mail Para item item , item item mensagem item Para item, item item Para item item Tempo",
+      "Você pode enviar um e-mail de atualização de status ao comprador com apenas um clique. Além disso, você pode definir aqui mensagens comuns para reutilizar, para não precisar reescrevê-las todas as vezes.",
     send_update_email_action: "Mandar Atualizar E-mail",
     add_template_action: "Adicionar modelo de mensagem",
 
     notifications: {
-      add_chat_success_message: "Mensagem item item Adicionar item",
+      add_chat_success_message: "A mensagem foi adicionada com sucesso.",
     },
 
     send_update_email: {
       title: "🛍️ Encomenda Atualizar E-mail",
       need_set_service_alert: {
         message:
-          "item item E-mail Serviço Provedor Para item item E-mail Para item Enviei",
+          "Configure seu provedor de serviços de e-mail para permitir o envio do e-mail.",
         action: "item Para Definições",
       },
       send_action: "Mandar Atualizar E-mail",
 
       notifications: {
-        send_success_message: "E-mail item item Enviei item",
+        send_success_message: "O e-mail foi enviado com sucesso.",
       },
     },
     add_template: {
       edit_title: "Editar modelo de mensagem",
       add_title: "Adicionar modelo de mensagem",
       message:
-        "item item Título item Mensagem item item Título item item Usado item item Enviei Para item cliente",
+        "Você deve definir um título e um corpo de mensagem aqui. O título será usado apenas para sua referência e não será enviado ao cliente.",
 
       save_action: "Salve  Modelo",
       add_action: "Adicionar Modelo",
 
       notifications: {
-        save_success_message: "Modelo item item ",
+        save_success_message: "O modelo foi salvo com sucesso.",
       },
 
       inputs: {
         title: {
           label: "Modelo Título",
-          placeholder: "gravação item item Título",
+          placeholder: "Escreva um título curto...",
         },
         body: {
           label: "Modelo Mensagem",
           placeholder: "gravação item Mensagem item",
           messages:
-            "item item {order_id} item {buyer_name}.",
+            "Você pode definir valores dinâmicos por {order_id} e {buyer_name}.",
         },
       },
     },
@@ -10878,15 +10884,15 @@ export default {
    */
   b_order_share: {
     title: "Link do pedido",
-    subtitle: "item item 🛍️ Encomenda link item item cliente",
+    subtitle: "Você pode compartilhar o link do pedido com o cliente.",
     guest_checkout_message:
-      "item item Visualizar item 🛍️ Encomenda item item , item item cliente item item Para item item 🛍️ Encomenda Detalhes, item item Criar item item link item item",
-    authentication: "item",
-    guest: "item",
+      "Os compradores convidados podem visualizar automaticamente seus pedidos no mesmo navegador. No entanto, se o cliente for um convidado e você precisar compartilhar os detalhes do pedido, poderá criar um link seguro para eles.",
+    authentication: "Autenticação",
+    guest: "Convidado",
     click_to_create: "item Para Criar",
-    valid_for_30_days: "item item 30 30 dias",
+    valid_for_30_days: "válido por 30 dias",
     notifications: {
-      secure_link_created: "item link item item ",
+      secure_link_created: "O link seguro foi criado com sucesso.",
     },
   },
 
@@ -10897,17 +10903,17 @@ export default {
     title: "Avaliações item",
     add_source_action: "Adicionar Análise item",
     subtitle:
-      "item conectar item item Para item item Avaliações item item O negócio A partir de item Como Facebook, Google, item Mais. . item item Clientes Para item Avaliações item item cliente item item Avaliações item item Pousar Páginas item produtos Páginas",
+      "Conecte facilmente plataformas externas para coletar e analisar avaliações sobre sua empresa de fontes como Facebook, Google e muito mais. Combinaremos automaticamente os clientes com suas avaliações para uma melhor experiência do cliente. Você também pode exibir esses comentários em suas páginas de destino e páginas de produtos.",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "Adicionar Novo item item",
-    title: "item item",
+    add_caption: "Adicionar novo conjunto de propriedades",
+    title: "Conjuntos de propriedades",
     subtitle:
-      "item item Criar item Gerenciar item item Usado Para item item Produtos item Serviços item item Para Produtos item item produtos painel de controle > Editar",
+      "Você pode criar e gerenciar conjuntos de propriedades aqui. Conjuntos de propriedades são usados ​​para definir as propriedades de produtos e serviços. Você pode atribuir esses conjuntos de propriedades a produtos em Painel de produto > Editar.",
   },
 
   /**
@@ -10915,37 +10921,37 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "item item - Personalizado Variantes",
+      title: "Conjunto de propriedades - variantes personalizadas",
       subtitle:
-        "item item produtos, item item Predefinição item",
+        "Você pode personalizar os nomes das variantes deste produto, substituindo os nomes padrão.",
     },
 
     subtitle:
-      "item item , item, item item 🛍️ Encomenda item item Produtos item item Variantes item item Predefinição item, item item Personalizado Variantes item Para item produtos item item Logística > item item Para item item Produtos item item",
-    select_property_set: "Selecionar item item",
-    add_property_set: "Adicionar item item",
+      "Você pode personalizar nomes de variantes, ícones e sua ordem aqui. Para produtos com variantes exclusivas que vão além das seis padrão, você pode definir variantes personalizadas adaptadas a cada produto. Basta definir conjuntos de propriedades na guia Logística > Conjuntos de propriedades e atribuí-los a qualquer número de produtos conforme necessário.",
+    select_property_set: "Selecione o conjunto de propriedades",
+    add_property_set: "Adicionar conjunto de propriedades",
   },
 
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
-    title: "item",
+    title: "Caixas",
     add_action: "Adicionar item",
     subtitle:
-      "Criar item item Para item item Rótulo Compras item item Envio item item 🛍️ Encomenda, Selecionar item item ",
-    empty: "não item item “Adicionar item”.",
+      "Crie tamanhos de caixas reutilizáveis ​​para acelerar as compras de etiquetas e garantir taxas de envio precisas. Ao atender um pedido, selecione uma caixa salva e suas dimensões serão preenchidas automaticamente.",
+    empty: "Ainda não há caixas. Clique em “Adicionar caixa”.",
     edit: "Editar item",
     new: "Novo item",
     default_weight: "Predefinição Peso",
-    updated: "item item",
-    created: "item item",
+    updated: "Caixa atualizada.",
+    created: "Caixa criada.",
     deleted: "item Excluído",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
     select_box: "Selecionar item pacote",
-    define_package: "item item pacote",
-    define_package_hint: "Criar item Editar item item pacote item",
+    define_package: "Defina um pacote",
+    define_package_hint: "Crie ou edite seus tamanhos de pacote predefinidos",
   },
 
 
@@ -10973,40 +10979,40 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"lista",
-    message:"Criar item item, item item Tipo item lista—item, item, item, Serviços, item Mais. ."
+    message:"Crie um diretório pesquisável e moderado para qualquer tipo de listagem: propriedades, hotéis, médicos, serviços e muito mais."
   },
 
   shop_listing: {
     name: "lista",
     message:
-      "Criar item item, item item Tipo item lista—item, item, item, Serviços, item Mais. .",
+      "Crie um diretório pesquisável e moderado para qualquer tipo de listagem: propriedades, hotéis, médicos, serviços e muito mais.",
 
     items: {
       title: "Itens",
       sub_title:
-        "Criar, Editar, item Gerenciar lista Itens item status, Preços, Contato Informações, item item",
+        "Crie, edite e gerencie itens de listagem. Controle status, preços, informações de contato e mídia.",
 
       empty_title: "não Itens item",
       empty_subtitle:
-        "Criar item item lista item Para Começar Prédio. .. item item",
+        "Crie seu primeiro item de listagem para começar a construir seu diretório.",
 
       add_title: "Adicionar Item",
       edit_title: "Editar item",
 
       price_to: "preço Para",
       price_unit: "preço Unidade",
-      is_featured: "item",
+      is_featured: "Apresentou",
 
       meta_json: "Meta JSON",
       links_json: "link JSON",
-      opening_hours_json: "item item JSON",
+      opening_hours_json: "Horário de funcionamento JSON",
 
       delete_title: "Excluir item",
-      delete_message: "item item Para Excluir item item?",
+      delete_message: "Tem certeza de que deseja excluir este item?",
       delete_success: "Item excluído com sucesso.",
-      restore_success: "item item ",
+      restore_success: "Item restaurado com sucesso.",
 
-      opening_hours:"item item",
+      opening_hours:"Horário de funcionamento",
       form_fields:"formulário item",
 
       company: "Companhia",
@@ -11017,16 +11023,16 @@ export default {
     categories: {
       title: "Categorias",
       sub_title:
-        "item item categorias item item filtro",
+        "Organize seu diretório com categorias e subcategorias. Isso melhora a navegação e a filtragem.",
 
       empty_title: "não categorias item",
       empty_subtitle:
-        "Criar categorias Para item item lista item item ",
+        "Crie categorias para estruturar sua listagem e melhorar a navegação.",
 
       add_title: "Adicionar categoria",
       edit_title: "Editar categoria",
 
-      parent_filter: "Filtro item item",
+      parent_filter: "Filtrar por pai",
       parent: "Categoria Parental",
 
       price_format: "preço item",
@@ -11034,18 +11040,18 @@ export default {
       design_id: "Projeto ID",
 
       delete_title: "Excluir categoria",
-      delete_message: "item item Para Excluir item Categoria?",
+      delete_message: "Tem certeza de que deseja excluir esta categoria?",
       delete_success: "Categoria Excluído item",
       form_schema: "Categoria formulário item",
     },
 
     options: {
-      submission_title: "item",
+      submission_title: "Submissão",
       submission_enabled: "Habilitar item",
 
-      moderation_title: "item",
+      moderation_title: "Moderação",
       moderation_mode: "item modo",
-      require_first_approved_before_more: "item item Mais. .",
+      require_first_approved_before_more: "Exigir primeira aprovação antes de mais",
 
       limits_title: "Limites",
       max_pending_per_user: "Máx. Pendente item Do utilizador",
@@ -11061,18 +11067,18 @@ export default {
     },
 
     supervision: {
-      title: "item",
+      title: "Supervisão",
       sub_title:
-        "Análise item Itens item item : item, Publicar, Rejeitar, item, item item Para Pendente",
+        "Revise os itens enviados e decida o que acontecerá a seguir: aprovar, publicar, rejeitar, arquivar ou redefinir como pendente.",
 
       empty_title: "não Itens Para Análise",
       empty_subtitle:
-        "item Comercial item Novo Itens, item item ",
+        "Quando os usuários enviarem novos itens, eles aparecerão aqui para moderação.",
 
       review_title: "Análise item",
       approve_publish: "item & Publicar",
 
-      submitted_at: "item",
+      submitted_at: "Enviado",
       quick_actions: "item Ações",
 
       open_review: "item Análise",
@@ -11082,19 +11088,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "item item ",
+      approve_success: "Item aprovado com sucesso.",
       publish_success: "item Publicados item",
-      unpublish_success: "item item ",
-      archive_success: "item item ",
+      unpublish_success: "Item não publicado com sucesso.",
+      archive_success: "Item arquivado com sucesso.",
       reject_success: "item Rejeitado item",
-      penalty_success: "item item ",
+      penalty_success: "Penalidade aplicada com sucesso.",
 
       reject_title: "Rejeitar item",
-      reject_reason: "item item",
+      reject_reason: "Motivo da rejeição",
 
-      penalty: "item",
-      penalty_title: "item",
-      penalty_points: "item item",
+      penalty: "Pena",
+      penalty_title: "Pena",
+      penalty_points: "Pontos de penalidade",
       penalty_note: "item Observação"
     },
 
@@ -11102,7 +11108,7 @@ export default {
       upload_images: "Enviar Imagens",
       url_type: "Tipo",
       url: "URL",
-      is_main: "item item principal"
+      is_main: "Definir como principal"
     },
 
 
@@ -11112,13 +11118,13 @@ export default {
 
     /** {@see BShopListingDesignsList, BShopListingDesignUpsert} **/
     designs: {
-      title: "item",
+      title: "Projetos",
       sub_title:
-        "Criar item Projeto item (Cartão + Detalhes Modelos) item item Para categorias categorias item item ",
+        "Crie vários conjuntos de designs (modelos de cartão + detalhes) e atribua-os a categorias. As categorias podem usar designs diferentes.",
 
-      empty_title: "não item item",
+      empty_title: "Ainda não há projetos",
       empty_subtitle:
-        "Adicionar item item Projeto item Para Começar item item categorias item",
+        "Adicione seu primeiro conjunto de designs para começar a personalizar a aparência das categorias.",
 
       add_title: "Adicionar Projeto",
       edit_title: "Editar Projeto",
@@ -11127,14 +11133,14 @@ export default {
       details_template: "Detalhes Modelo",
 
       notifications: {
-        add_success: "Projeto item item",
-        edit_success: "Projeto item item",
+        add_success: "Design criado com sucesso.",
+        edit_success: "Design atualizado com sucesso.",
         delete_success: "Projeto Excluído item",
       },
 
       delete_title: "Excluir Projeto",
       delete_message:
-        "Excluir item Projeto? categorias item item Projeto_item",
+        "Excluir este design? As categorias que o utilizam perderão automaticamente o design_id.",
     },
 
 
@@ -11144,46 +11150,46 @@ export default {
     badges: {
       title: "Distintivos",
       sub_title:
-        "Criar item Gerenciar item Distintivos Distintivos item item Para lista Itens Para item item ",
+        "Crie e gerencie emblemas de vitrine. Os emblemas podem ser atribuídos a itens de listagem para destacar atributos especiais.",
 
       empty_title: "não Distintivos item",
       empty_subtitle:
-        "Adicionar item item selo Para Começar item lista Itens",
+        "Adicione seu primeiro selo para começar a destacar os itens da lista.",
 
       add_title: "Adicionar selo",
       edit_title: "Editar selo",
 
       notifications: {
-        add_success: "selo item item",
-        edit_success: "selo item item",
+        add_success: "Selo criado com sucesso.",
+        edit_success: "Selo atualizado com sucesso.",
         delete_success: "selo Excluído item",
       },
 
       delete_title: "Excluir selo",
-      delete_message: "item item Para Excluir item selo?",
+      delete_message: "Tem certeza de que deseja excluir este selo?",
     },
 
     companies: {
       title: "Empresas",
       sub_title:
-        "Criar item Gerenciar Empresas item lista item item vinculado Para item Companhia",
+        "Criar e gerenciar empresas. Cada item da listagem pode opcionalmente ser vinculado a uma empresa.",
 
       empty_title: "não Empresas item",
       empty_subtitle:
-        "Adicionar item item Companhia Para link item Para lista Itens",
+        "Adicione sua primeira empresa para vinculá-la aos itens da listagem.",
 
       add_title: "Adicionar Companhia",
       edit_title: "Editar empresa",
 
       notifications: {
-        add_success: "Companhia item item",
-        edit_success: "Companhia item item",
+        add_success: "Empresa criada com sucesso.",
+        edit_success: "Empresa atualizada com sucesso.",
         delete_success: "Companhia Excluído item",
       },
 
       delete_title: "Excluir Companhia",
       delete_message:
-        "Excluir item Companhia? Itens item item Companhia link",
+        "Excluir esta empresa? Os itens que o utilizam perderão automaticamente o link da empresa.",
     },
 
 
@@ -11192,46 +11198,46 @@ export default {
       title: "mensagem",
       sub_title: "Gerenciar mensagem Enviei item Comercial A partir de lista Perfis",
       empty_title: "não mensagem",
-      empty_subtitle: "mensagem Enviei item Comercial item item ",
+      empty_subtitle: "As mensagens enviadas pelos usuários aparecerão aqui.",
 
-      sender: "item",
-      item: "item",
-      has_reply: "item",
-      has_reply_yes: "item item",
+      sender: "Remetente",
+      item: "Item",
+      has_reply: "Responder",
+      has_reply_yes: "Tem resposta",
       has_reply_no: "não item",
 
       dialog_title: "Mensagem",
       owner_reply: "Proprietário item",
-      reply: "item",
-      reply_hint: "gravação item item Para item Do utilizador item item Mensagem item item A partir de Ações",
+      reply: "Responder",
+      reply_hint: "Escreva uma resposta ao usuário. Você também pode marcar a mensagem como lida/spam nas ações.",
 
-      mark_read: "item item leitura",
-      mark_unread: "item item ",
-      archive: "item",
-      unarchive: "item",
-      mark_spam: "item item ",
-      mark_not_spam: "item item",
+      mark_read: "Marcar como lido",
+      mark_unread: "Marcar como não lido",
+      archive: "Arquivo",
+      unarchive: "Desarquivar",
+      mark_spam: "Marcar como spam",
+      mark_not_spam: "Não é spam",
 
       delete_confirm: "Excluir item Mensagem?",
     },
 
     enable: {
       title: "lista",
-      subtitle: "Habilitar item Desativar item Público lista página item ativado item item Tempo, Selldone item Criar item lista Configuração item",
-      true_description: "lista item ativado Clientes item item lista Páginas",
-      false_description: "lista item desativado item lista Páginas item item ",
+      subtitle: "Ative ou desative sua página de listagem pública. Quando ativado pela primeira vez, o Selldone criará a configuração da listagem automaticamente.",
+      true_description: "A listagem está ativada. Os clientes podem navegar nas páginas de listagem.",
+      false_description: "A listagem está desativada. As páginas de listagem e envios estão bloqueados.",
       open_listing: "item lista",
-      note: "item item , Limites, formulário, item Projeto item lista Definições",
+      note: "Posteriormente, você pode configurar moderação, limites, formulários e design nas configurações da listagem.",
       vendor_prereq_text:
-        "item vendedores Para Adicionar lista Itens A partir de item vendedor item? item, item item O negócio item Para Mercado",
+        "Quer que os fornecedores adicionem itens de listagem de seu Painel de Fornecedores? Primeiro, mude seu modelo de negócios para o Marketplace.",
       vendor_prereq_button: "item Mercado O negócio item",
 
       vendor_access_text:
-        "item item vendedores item Acesso lista item (Itens + Empresas). Habilitar item item Mercado Definições",
+        "Agora você pode decidir se os fornecedores podem acessar os recursos de Listagem (itens + empresas). Ative-o nas configurações do Marketplace.",
       vendor_access_button: "Habilitar lista item vendedores",
 
       more_options_text:
-        "Mais. . item item Disponível item lista Definições item item Entradas, UI/Aparência, item, Limites, item item Opções",
+        "Mais controles estão disponíveis nas configurações da listagem. Você pode configurar entradas, UI/aparência, moderação, limites e opções de monetização.",
       more_options_button: "item Para lista Definições",
 
       updated: "lista item",
@@ -11241,35 +11247,35 @@ export default {
 
     search: {
       title: "pesquisar Definições",
-      subtitle: "Projeto item Clientes pesquisar item lista Habilitar item pesquisar item Construir Filtros A partir de item Personalizado formulário item",
+      subtitle: "Projete como os clientes pesquisam sua listagem. Habilite a pesquisa baseada em localização e crie filtros a partir dos campos de formulário personalizados.",
 
       location_title: "Localização pesquisar",
-      location_subtitle: "item Clientes Para item item Localização item item Raio",
-      location_enabled_true: "Localização Filtro item ativado Clientes item pesquisar item item",
-      location_enabled_false: "Localização Filtro item desativado item item filtro item item",
+      location_subtitle: "Permita que os clientes escolham um local e encontrem resultados próximos dentro de um raio configurável.",
+      location_enabled_true: "O filtro de localização está ativado. Os clientes podem pesquisar por distância.",
+      location_enabled_false: "O filtro de localização está desativado. Os resultados não serão filtrados por distância.",
 
       radius_default: "Predefinição Raio (item)",
-      radius_default_hint: "Usado item item cliente Selecionar item Localização item item Raio",
+      radius_default_hint: "Usado quando o cliente seleciona um local, mas não escolhe um raio.",
       radius_max: "máximo Raio (item)",
-      radius_max_hint: "item item Raio item item Para item Valor",
+      radius_max_hint: "O raio da vitrine será limitado a esse valor.",
       radius_options: "Raio Opções (item)",
-      radius_options_hint: "item item Opções item item UI.",
+      radius_options_hint: "Esses valores podem ser mostrados como opções rápidas na UI da vitrine.",
 
       filters_title: "pesquisar Filtros",
-      filters_subtitle: "Adicionar Filtros item leitura item A partir de item item (item item formulário item). item item Para item item Opções A partir de Publicados Itens Meta",
+      filters_subtitle: "Adicione filtros que leem valores de metacampos de item (seus campos de formulário de listagem/categoria). Use a geração automática para coletar opções reais de itens publicados.",
       no_filters: "não Filtros Adicionar item",
       auto_generate: "item Opções",
 
-      filter_field: "item item",
+      filter_field: "Chave de campo",
       filter_label: "Rótulo",
       filter_type: "Tipo",
       filter_options: "Opções",
-      filter_options_hint: "item Selecionar Filtros, Opções item item manual item item",
-      multiple: "item",
-      single: "item",
+      filter_options_hint: "Para filtros selecionados, as opções podem ser manuais ou geradas.",
+      multiple: "Múltiplo",
+      single: "Solteiro",
       kv_mode: "item modo",
 
-      requires_listing_active: "lista item item Ativo Habilitar lista item Para item item ",
+      requires_listing_active: "A listagem não está ativa. Ative a Listagem primeiro para usá-la na vitrine.",
 
 
     },
@@ -11701,16 +11707,16 @@ export default {
       ],
 
       label: [
-        "VAT", // Value-Added Tax
-        "GST", // Goods and Services Tax
-        "item", // Provincial Sales Tax
-        "item", // Harmonized Sales Tax
-        "item", // Quebec Sales Tax
-        "item", // Central Sales Tax
-        "Imposto sobre consumo", // Excise Tax
-        "Imposto de importação", // Import Duty
-        "Taxa de serviço", // Service Tax
-        "Imposto de luxo", // Luxury Tax
+        "CUBA",
+        "ICMS",
+        "PST",
+        "TGV",
+        "QST",
+        "CST",
+        "Imposto sobre consumo",
+        "Imposto de importação",
+        "Imposto sobre serviços",
+        "Imposto de luxo",
       ],
     },
     /**
@@ -12185,26 +12191,26 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "item item",
-        "item",
-        "item",
-        "item",
-        "Casa item",
-        "item Produtos",
-        "item item",
+        "Bens Digitais",
+        "Livros",
+        "Eletrônica",
+        "Moda",
+        "Eletrodomésticos",
+        "Produtos de beleza",
+        "Equipamento Desportivo",
         "Brinquedos e jogos",
         "Mantimentos",
-        "Mobiliário",
-        "Partes automotivas",
-        "Joalheria",
-        "item & item",
+        "Mobília",
+        "Peças automotivas",
+        "Joia",
+        "Saúde e bem-estar",
         "Suprimentos para animais de estimação",
         "Material de escritório",
-        "item & item",
-        "item & TV Mostrar",
+        "Música e Instrumentos",
+        "Filmes e programas de TV",
         "Programas",
-        "item & item",
-        "item item",
+        "Arte e artesanato",
+        "Equipamento ao ar livre",
       ],
     },
 
@@ -12214,39 +12220,29 @@ export default {
     template_message: {
       title: [
         "Confirmação do pedido",
-        "🛍️ Encomenda Enviado",
-        "🛍️ Encomenda Entregue",
-        "Pagamento Recebido",
-        "🛍️ Encomenda item",
-        "🛍️ Encomenda item item",
-        "🛍️ Encomenda item item",
-        "🛍️ Encomenda item item Entrega",
-        "Retornar item",
-        "item item",
-        "item Costas item item",
+        "Pedido enviado",
+        "Pedido entregue",
+        "Pagamento recebido",
+        "Pedido cancelado",
+        "Atraso no processamento do pedido",
+        "Pedido em espera",
+        "Encomende para entrega",
+        "Devolução processada",
+        "Reembolso emitido",
+        "Item de volta ao estoque",
       ],
       body: [
-        "item {buyer_name}, item 🛍️ Encomenda #{order_id} item item Confirmado! item item Para item",
-
-        "Bom novo, {buyer_name}! item 🛍️ Encomenda #{order_id} item item Enviado item item Conta item item !",
-
-        "item {buyer_name}, item 🛍️ Encomenda #{order_id} item item Entregue item item Comprar item item!",
-
-        "item {buyer_name}, item item Recebido item Pagamento item 🛍️ Encomenda #{order_id}. item 🛍️ Encomenda item item Enviado item",
-
-        "item {buyer_name}, item item Para item item 🛍️ Encomenda #{order_id} item item , item Contato Apoio, suporte",
-
-        "item {buyer_name}, item item 🛍️ Encomenda #{order_id}. item item Para item item ",
-
-        "item {buyer_name}, item 🛍️ Encomenda #{order_id} item item Conta item Contato Apoio, suporte item item Detalhes",
-
-        "item {buyer_name}, item 🛍️ Encomenda #{order_id} item item Entrega item item !",
-
-        "item {buyer_name}, item item Retornar item item 🛍️ Encomenda #{order_id}. item item , item Contato Apoio, suporte",
-
-        "item {buyer_name}, item item 🛍️ Encomenda #{order_id} item item ver item item Conta item",
-
-        "item {buyer_name}, item item A partir de item 🛍️ Encomenda #{order_id} item Costas item item! item item Novo 🛍️ Encomenda item item ",
+        "Olá {buyer_name}, seu pedido #{order_id} foi confirmado! Estamos processando e avisaremos você quando estiver pronto para envio.",
+        "Boas notícias, {buyer_name}! Seu pedido #{order_id} foi enviado. Você pode rastreá-lo através de sua conta. Obrigado por comprar conosco!",
+        "Olá {buyer_name}, seu pedido #{order_id} foi entregue com sucesso. Esperamos que você aproveite sua compra. Obrigado!",
+        "Olá {buyer_name}, recebemos o pagamento do pedido #{order_id}. Seu pedido está sendo processado e será enviado em breve.",
+        "Prezado {buyer_name}, lamentamos informar que seu pedido #{order_id} foi cancelado. Se você tiver alguma dúvida, entre em contato com o suporte.",
+        "Prezado {buyer_name}, estamos enfrentando um atraso com seu pedido #{order_id}. Pedimos desculpas pelo transtorno e estamos trabalhando para resolvê-lo o mais breve possível.",
+        "Olá {buyer_name}, seu pedido #{order_id} está atualmente em espera. Verifique sua conta ou entre em contato com o suporte para obter mais detalhes.",
+        "Olá {buyer_name}, seu pedido #{order_id} já foi entregue e deve chegar até você em breve. Obrigado pela sua paciência!",
+        "Prezado {buyer_name}, processamos a devolução do seu pedido #{order_id}. Se você tiver alguma dúvida, entre em contato com o suporte.",
+        "Olá {buyer_name}, seu reembolso do pedido #{order_id} foi emitido. Você deverá ver os fundos em sua conta em breve.",
+        "Olá {buyer_name}, o item do seu pedido #{order_id} está de volta em estoque! Você pode fazer um novo pedido agora se ainda estiver interessado.",
       ],
     },
 
@@ -12255,28 +12251,28 @@ export default {
      */
     property_set: {
       title: [
-        "item",
-        "item item",
-        "item",
+        "Vestir",
+        "Dispositivos Digitais",
+        "Bebidas",
         "Alimentos",
-        "Mobiliário",
-        "item",
-        "item Produtos",
-        "item",
-        "item item",
-        "item",
+        "Mobília",
+        "Livros",
+        "Produtos de beleza",
+        "Brinquedos",
+        "Equipamento Desportivo",
+        "Acessórios",
       ],
       description: [
-        "item item Itens Como item, Cor, item item",
-        "Especificações item item Marca, item, item item",
-        "item, item, item Tipos item item",
-        "Detalhes item item, item, item item Produtos",
-        "Material, item, item Projeto item",
-        "Autor, item, item item ",
-        "item Tipo, item, item item Detalhes",
-        "item item, item, item item ",
-        "Tipo, item, item atuação item",
-        "item, item, item Marca Detalhes",
+        "Atributos para itens de vestuário, como tamanho, cor e tecido.",
+        "Especificações de gadgets, como marca, modelo e recursos.",
+        "Sabores, tamanhos e tipos de bebidas.",
+        "Detalhes de refeições, lanches e produtos alimentícios.",
+        "Material, dimensões e estilos de design.",
+        "Autor, gênero e ano de publicação.",
+        "Tipo de pele, ingredientes e detalhes da embalagem.",
+        "Faixa etária, materiais e padrões de segurança.",
+        "Recursos de tipo, tamanho e desempenho.",
+        "Estilos, materiais e detalhes da marca.",
       ],
     },
 
@@ -12285,24 +12281,24 @@ export default {
      */
     boxes: {
       name: [
-        "item XS",
-        "item item",
-        "item item",
-        "item item",
-        "item XL",
-        "item item",
-        "item item",
-        "item item",
-        "item item",
-        "item item",
-        "item item",
-        "item item",
-        "item item",
-        "item item ",
-        "item item ", // flexible mailer
-        "item item", // bubble/padded
-        "item item", // thermal
-        "item item",
+        "Caixa XS",
+        "Caixa S",
+        "Caixa M",
+        "Caixa L",
+        "Caixa XL",
+        "Caixa XXL",
+        "Caixa Fina",
+        "Caixa ampla",
+        "Caixa alta",
+        "Caixa plana",
+        "Caixa Cubo",
+        "Tubo de caixa",
+        "Caixa Frágil",
+        "Garrafas de vidro de caixa",
+        "Pacote macio de caixa", // flexible mailer
+        "Caixa acolchoada", // bubble/padded
+        "Caixa Isolada", // thermal
+        "Caixa para serviço pesado",
       ],
     },
   },

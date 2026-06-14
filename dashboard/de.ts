@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Aktive Apps speichern",
         subtitle:
-          "Selldone Verwalten Sie Ihre Geschäftsanwendungen.",
+          "Entdecken Sie die einfache Verwaltung Ihrer Geschäftsanwendungen mit dem Selldone App Store. Unsere Plattform bietet eine umfassende Suite von Tools zur Optimierung Ihrer Geschäftsabläufe. Von innovativen Managementlösungen bis hin zu produktivitätssteigernden Apps bietet Selldone ein nahtloses Erlebnis für Unternehmen, die Effizienz und Wachstum anstreben.",
         all: "Alle",
       },
       /** {@see BAppShopStore} **/
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b></b><br /><b></b><b><s></s></b> Konfigurieren und verwalten Sie diese Option für Ihren Shop. {filename}",
       how_set_name:
-        "<b></b><br /> Konfigurieren und verwalten Sie diese Option für Ihren Shop.",
+        "<b>Tipps zur Benennung:</b><br />Die ersten 12 Zeichen des hochgeladenen Dateinamens werden als Asset-Name verwendet. Diese Funktion ist ideal, um anpassbare Aspekte eines Produkts zu präsentieren, beispielsweise Reifengrößen für Motorräder oder Stoffmuster. Um die Nutzung dieser Funktion zu optimieren, vermeiden Sie das Hochladen von Variantenbildern hier, es sei denn, die Anzahl der grafischen Elemente beträgt weniger als 100, wie z. B. verschiedene Holzarten für Möbel.",
     },
   },
 
@@ -4263,7 +4263,7 @@ export default {
   vendor_order_refund: {
     title: "Rückerstattung Bestellung",
     subtitle:
-      "<b></b><b></b> Konfigurieren und verwalten Sie diese Option für Ihren Shop.",
+      "<b>Wichtig! </b>Durch die Ausführung dieser Aktion wird eine negative Transaktion im Wallet des Anbieters generiert und der gewählte Betrag davon abgezogen. Der Betrag darf die verbleibenden Gesamttransaktionen für die ausgewählte Bestellung nicht überschreiten. Wenn außerdem Gelder auf verbundene Bankkonten überwiesen wurden (z. B. mit Stripe Connect oder manueller Überweisung), sollten Sie eine <b>Stornoüberweisung</b> erstellen.",
     inputs: {
       note: {
         message: "Nachricht",
@@ -4843,7 +4843,7 @@ export default {
       description: "Beschreibung",
     },
     "backoffice:support-tickets": {
-      name: "Support Tickets",
+      name: "Support-Tickets",
       description: "Verwalten Support Tickets.",
     },
     "backoffice:shop:read": {
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Gekaufte Geschichte",
       subtitle:
-        "Aktive und ausstehende Lizenzen.",
+        "Dies ist eine Liste der aktiven und ausstehenden Lizenzen. Sie können Angebote kaufen, nachdem Sie Ihren Geldbeutel aufgeladen haben. Bitte beachten Sie außerdem, dass bei der Kündigung eines Abonnements der verbleibende Abonnementbetrag auf Ihr virtuelles Portemonnaie zurückerstattet wird.",
     },
     license_detail: {
       title: "Einzelheiten",
       subtitle:
-        "Limits für Ihren aktuellen Plan.",
+        "Dies sind die Einschränkungen Ihres aktuellen Plans. Weitere Einzelheiten finden Sie auf der Preisseite. Sie können auf alle Funktionen aller Pläne zugreifen, einschließlich des kostenlosen Plans, um Ihr Unternehmen anzukurbeln und zu wachsen. Wenn Sie Ihr Unternehmen skalieren, sollten Sie ein Upgrade auf einen höheren Plan in Betracht ziehen, um Ihre Servicegebühren zu senken.",
     },
 
     table: {

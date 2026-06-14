@@ -456,7 +456,7 @@ export default {
         table: {
           primary: "Primêr",
           url: "Url",
-          site_map: "ûnderdiel ûnderdiel",
+          site_map: "Site map",
           enable: "Ynskeakelje",
           indexed: "Yndeksearre",
           and_more: "& mear..",
@@ -643,7 +643,7 @@ export default {
       rss_dialog: {
         title: "Produkten RSS",
         subtitle:
-          "ûnderdiel dit RSS ûnderdiel nei ûnderdiel ûnderdiel list fan alles Produkten.",
+          "Brûk dizze RSS-feed om in aktuele list fan alle produkten te hâlden.",
       },
       api_dialog: {
         title: "Produkten API",
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "Ferstjoering beheining",
         subtitle:
-          "jo kin ûnderdiel beheining nei ûnderdiel dat ûnderdiel Klanten ûnderdiel ûnderdiel Ferstjoering ûnderdiel kin fertsjinje oankeapen Fan jo!",
+          "Jo kinne beheiningen ymplementearje om te soargjen dat allinich klanten binnen de oanwiisde ferstjoergebieten oankeapen fan jo kinne dwaan!",
         no_enable_shipping_error:
-          "ûnderdiel ûnderdiel kin ûnderdiel Fan jo ûnderdiel jo ûnderdiel ûnderdiel ynskeakele Ferstjoering metoade!",
+          "Nimmen kin fan jo keapje, om't jo gjin ferstjoermetoade hawwe ynskeakele!",
         customer_must_select_a_shipping_msg:
           "klant moat selektearje Ferstjoering metoade nei ûnderdiel bestelling.",
         customer_can_order_without_shipping_method_msg:
-          "klant kin ûnderdiel bestelling ûnderdiel ûnderdiel ûnderdiel Ferstjoering metoade ûnderdiel foar ûnderdiel Lokaasje.",
+          "Klant kin de bestelling pleatse, sels as gjin ferstjoermetoade wurdt stipe foar de selekteare lokaasje.",
         inputs: {
           restriction: {
             false_description:
-              "Klanten kin ûnderdiel ûnderdiel Bestellingen ûnderdiel ûnderdiel ûnderdiel ûnderdiel Ferstjoering metoade hat ûnderdiel ûnderdiel.",
+              "Klanten kinne noch bestelling pleatse, sels as gjin spesifike ferstjoermetoade is selektearre.",
             false_title: "ûnderdiel alles Bestellingen",
-            true_title: "ûnderdiel ûnderdiel bestelling",
+            true_title: "Beheind akseptearje oarder",
             true_description:
-              "Klanten binne ûnderdiel nei kieze ûnderdiel Ferstjoering of ôfheljen ûnderdiel yn bestelling nei foltôge ûnderdiel oankeap.",
+              "Klanten binne ferplichte om of in ferstjoering of pickup-opsje te kiezen om har oankeap te foltôgjen.",
           },
         },
       },
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Bewarje aktive apps",
         subtitle:
-          "Behear jo bedriuwsapplikaasjes.",
+          "Untdek it gemak fan it behearen fan jo bedriuwsapplikaasjes mei Selldone App Store. Us platfoarm biedt in wiidweidige suite fan ark ûntworpen om jo bedriuwsfiering te optimalisearjen. Fan ynnovative managementoplossingen oant apps dy't produktiviteit ferheegje, biedt Selldone in naadleaze ûnderfining foar bedriuwen dy't effisjinsje en groei sykje.",
         all: "alle",
       },
       /** {@see BAppShopStore} **/
@@ -1215,8 +1215,8 @@ export default {
         app_icon_input: "App Ikoan",
         app_icon_input_placeholder: "Selektearje it zip-bestân fan app-ikoanen.",
         generate_icon_pack_action: "Bou ikoanpakket",
-        splash_design: "ûnderdiel ûnderdiel ûnderdiel",
-        splash_logo_input: "ûnderdiel ûnderdiel logo",
+        splash_design: "Splash Screen Desgin",
+        splash_logo_input: "Splash Screen Logo",
         splash_logo_input_placeholder: "Selektearje in ôfbylding foar it Splash Screen.",
         splash_title_input: "Splash Screen Titel",
         splash_title_input_placeholder: "Fier in titel yn foar Splash Screen",
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "Webside-ikoan",
           subtitle:
-            "ûnderdiel binne ûnderdiel, ûnderdiel ôfbyldings dat ûnderdiel webside yn ûnderdiel ljeppers, ûnderdiel, en mobyl app ûnderdiel.",
+            "Favicons binne lytse, byldbepalende ôfbyldings dy't in webside fertsjintwurdigje yn browser-ljeppers, blêdwizers en mobile app-ynterfaces.",
         },
       },
 
@@ -1438,7 +1438,7 @@ export default {
       },
       mpn: {
         label: "MPN",
-        message: "ûnderdiel ûnderdiel nûmer",
+        message: "Fabrikant Part Number",
       },
 
       external_link: "Eksterne keppeling",
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "konfigurearje kategory en titel nei ûnderdiel ûnderdiel yn jo Listjen.",
+          "Konfigurearje de kategory en titel om te werjaan yn jo fermelding.",
       },
       unit: {
         subtitle:
-          "jo kin ûnderdiel ûnderdiel fan priisstelling en ûnderdiel ûnderdiel op Produktside.",
+          "Jo kinne de werjefte fan prizen en oprop-to-aksje-eleminten personalisearje op 'e produktpagina.",
       },
       custom_pricing: {
         title: "oanpast priisstelling Formulier",
         subtitle:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         valuation_need_saved_product_message:
-          "graach Bewarje produkt ûnderdiel, en ûnderdiel jo kin ûnderdiel wurdearring ûnderdiel.",
+          "Bewarje asjebleaft it produkt earst, en dan kinne jo in wurdearringsmodel tawize.",
         assign_valuation_message:
           "graach ûnderdiel wurdearring ûnderdiel nei dit produkt.",
         edit_pricing_action: "Bewurkje priisstelling Formulier",
@@ -1518,15 +1518,15 @@ export default {
       },
       warehouse: {
         subtitle:
-          "dit ynformaasje is ûnderdiel op pakhús ûnderdiel ûnderdiel en ûnderdiel nei ûnderdiel ûnderdiel produkt.",
+          "Dizze ynformaasje wurdt brûkt troch it pakhúsbehearsysteem en tsjinnet om it produkt wrâldwiid te identifisearjen.",
       },
       gtin: {
-        hint: "ûnderdiel ûnderdiel binne UPC (ûnderdiel ûnderdiel, 12 ûnderdiel), EAN (ûnderdiel, 13 ûnderdiel), JAN (ûnderdiel, 8 of 13 ûnderdiel), ISBN (ûnderdiel, 13 ûnderdiel).",
-        label: "ûnderdiel globaal ûnderdiel ûnderdiel nûmer",
-        placeholder: "globaal ûnderdiel nûmer ûnderdiel.. (ûnderdiel)",
+        hint: "Stipe wearden binne UPC (Noard-Amearika, 12 sifers), EAN (Jeropa, 13 sifers), JAN (Japan, 8 of 13 sifers), ISBN (boeken, 13 sifers).",
+        label: "Produkt syn Global Trade Item Number",
+        placeholder: "Global hannelsnûmer hjir.. (Opsjoneel)",
       },
       hsn: {
-        hint: "HSN, of ûnderdiel ûnderdiel fan ûnderdiel, is ûnderdiel ûnderdiel Klassifikaasje ûnderdiel foar ûnderdiel goed en Produkten.",
+        hint: "HSN, of Harmonized System of Nomenclature, is in ynternasjonaal standerdisearre klassifikaasjesysteem foar it kategorisearjen fan guod en produkten.",
         placeholder: "6~16 ûnderdiel HSN koade.. (ûnderdiel)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "produkt tastân yn jo winkel",
         message: "graach kieze tastân fan dit produkt.",
         subtitle:
-          "ûnderdiel jo Klanten oer tastân en merk fan produkt ûnderdiel ûnderdiel.",
+          "Ynformearje jo klanten oer de tastân en merk fan it produkt dat jo oanbiede.",
       },
       brand: {
         label: "Merk",
@@ -1545,12 +1545,12 @@ export default {
           "Konfigurearje en behear dizze opsje foar jo winkel.",
 
         label: "Garânsje",
-        placeholder: "ûnderdiel 24 ûnderdiel Garânsje.. (ûnderdiel)",
+        placeholder: "Gouden 24 moannen garânsje.. (Opsjoneel)",
       },
       status: {
         title: "status",
         subtitle:
-          "ûnderdiel status ûnderdiel ûnderdiel ûnderdiel online en ûnderdiel. nei fertsjinje produkt konsept, ûnderdiel ûnderdiel ûnderdiel status nei 'ynaktyf..",
+          "De status fan it produkt bepaalt de beskikberens online en yn 'e winkel. Om in produktkonsept te meitsjen, wikselje de status gewoan nei 'Ynaktyf'.",
       },
       profiles: {
         title: "Profilen",
@@ -1610,7 +1610,7 @@ export default {
         "Met ferwachtings",
         "User-Friendly ynterface",
         "Hege effisjinsje",
-        "ûnderdiel ûnderdiel tsjinst",
+        "Great After-Sale Service",
         "Mearsidige funksjonaliteit",
         "ûnderdiel priisstelling",
         "Beskikberens fan Spare Parts / Accessories",
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "ûnderdiel",
         subtitle:
-          "Tafoegje produkt spesifikaasjes ûnderdiel op ûnderdiel groepen en ûnderdiel ûnderdiel.",
+          "Produktspesifikaasjes manuell taheakje troch groepen en kaai-wearden-pear te definiearjen.",
         add_group_action: "Groep tafoegje",
         add_item_action: "Tafoegje spesifikaasje ûnderdiel",
       },
@@ -1652,7 +1652,7 @@ export default {
       ai: {
         title: "AI",
         subtitle:
-          "jo kin ûnderdiel Meitsje produkt spesifikaasjes op ûnderdiel ûnderdiel ûnderdiel gegevens yn ûnderdiel Formulier.",
+          "Jo kinne produktspesifikaasjes automatysk oanmeitsje troch de rauwe gegevens fan it produkt yn tekstfoarm yn te tsjinjen.",
         action_title: "auto generearje op AI",
         action_subtitle: "Meitsje produkt spesifikaasjes op ûnderdiel prompt.",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Produktkoade: P0000...",
         spec_view_title: "Spesifikaasjes fan it selektearre produkt",
         spec_view_subtitle:
-          "spesifikaasjes ûnderdiel ûnderdiel ûnderdiel Fan ûnderdiel produkt.",
+          "De spesifikaasjes binne ymportearre út it keazen produkt.",
         set_spec_action: "Dûbele technyske spesifikaasjes",
       },
       notifications: {
@@ -1696,7 +1696,7 @@ export default {
         generated_spec: {
           title: "AI-generearre spesifikaasjes",
           subtitle:
-            "ûnderdiel spesifikaasjes ûnderdiel generearre op ûnderdiel ûnderdiel.",
+            "Dizze spesifikaasjes waarden generearre troch keunstmjittige yntelliginsje.",
         },
         inputs: {
           prompt: {
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "generearje spesifikaasjes",
             subtitle:
-              "ûnderdiel nei ûnderdiel Meitsje produkt spesifikaasjes Fan ûnderdiel oersjoch.",
+              "Klikje om automatysk produktspesifikaasjes te meitsjen fanút it levere oersjoch.",
           },
           add_generated_spec: "Tafoegje generearre spesifikaasjes",
         },
@@ -1739,7 +1739,7 @@ export default {
         inputs: {
           prompt: {
             label: "eftergrûn beskriuwing",
-            placeholder: "ûnderdiel ûnderdiel eftergrûn...",
+            placeholder: "Beskriuw de winske eftergrûn...",
           },
         },
         actions: {
@@ -1748,7 +1748,7 @@ export default {
             subtitle: "Opnij betinke ûnderdiel ôfbylding mei nij eftergrûn.",
           },
           replace: {
-            subtitle: "ûnderdiel ûnderdiel eftergrûn.",
+            subtitle: "Ferfange de besteande eftergrûn.",
           },
         },
       },
@@ -1785,25 +1785,25 @@ export default {
         marketplace:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         subscription:
-          "foar abonneminten, ûnderdiel Listpriis is ûnderdiel, ûnderdiel ûnderdiel ûnderdiel sil ûnderdiel ûnderdiel ûnderdiel op ûnderdiel abonnemint ûnderdiel.",
+          "Foar abonneminten wurdt allinich de listpriis werjûn, wylst de werklike kosten sille wurde bepaald op basis fan it selekteare abonnemintsplan.",
         service:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
-        file: "dit ûnderdiel nei ûnderdiel en ûnderdiel priis fan bestân, ûnderdiel Klanten moat betelje yn bestelling nei ûnderdiel tagong nei bestannen.",
+        file: "Dit ferwiist nei de neamde en werklike priis fan it bestân, dy't klanten moatte betelje om tagong te krijen ta de bestannen.",
         default:
-          "dit ûnderdiel nei ûnderdiel ûnderdiel priis en ûnderdiel ûnderdiel ûnderdiel akkount priis fan ûnderdiel farianten dat ûnderdiel net ûnderdiel ûnderdiel priisstelling.",
+          "Dit ferwiist nei de fermelde priis fan it produkt en hâldt ek rekken mei de priis fan alle farianten dy't gjin aparte prizen hawwe.",
       },
       extra_pricings: {
         title: "Tafoegje ûnderdiel priisstelling",
-        subtitle: "ûnderdiel ûnderdiel priisstelling ûnderdiel op oankeap hoeveelheid.",
+        subtitle: "Implementearje dynamyske prizen basearre op oankeap kwantiteit.",
       },
 
       vendor: {
         title: "ferkeaper priisstelling",
         subtitle:
-          "dit priis sil ûnderdiel ûnderdiel ûnderdiel yn Produkten Listjen. jo kin ynstelle ferkeaper priis yn produkt > ferkeapers ljepper.",
+          "Dizze priis sil allinich te sjen wêze yn 'e produktlist. Jo kinne ferkeaperpriis ynstelle yn it ljepblêd Produkt> Ferkeapers.",
         manage_vendors: "behear ferkeapers",
         vendor_product_pricing_link:
-          "Konfigurearje en behear dizze opsje foar jo winkel.",
+          "De produktpriis fan 'e ferkeaper is ferbûn. It feroarjen fan de priispriis hjir sil ynfloed hawwe op ferkeaperprodukten sûnder farianten of dy mei farianten dy't gjin eigen prizen hawwe (mei deselde priis as it haadprodukt). Dizze priis sil wurde behannele as de merkpriis, en de priis fan de ferkeaper sil wurde ynsteld op basis fan it priismodel of de foarige winstmarge fan 'e merk.",
         vendor_variant_pricing_link:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
       },
@@ -1818,7 +1818,7 @@ export default {
         "Dit berjocht sil wurde toand oan de klant by it keapjen fan produkten.",
       inputs_form: "Ynformaasjestruktuer (ynfier)",
       inputs_hint:
-        "jo ûnderdiel ûnderdiel nei ynstelle ûnderdiel ûnderdiel Formulier nei ûnderdiel details Fan jo Klanten ûnderdiel ûnderdiel ûnderdiel nei ûnderdiel bestelling.",
+        "Jo hawwe de opsje om in personaliseare formulier yn te stellen om details fan jo klanten te sammeljen as se ree binne om in bestelling te pleatsen.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "Bestellingslimiten",
         subtitle:
-          "ûnderdiel ûnderdiel ûnderdiel of ûnderdiel minimum of maksimum limyt op hoeveelheid fan dit ûnderdiel ûnderdiel bestelling, jo kin ûnderdiel dat ûnderdiel.",
+          "As jo ​​​​in gruthannel binne of d'r in minimale of maksimale limyt is op 'e kwantiteit fan dit artikel per bestelling, kinne jo dat hjir oanjaan.",
         no_limit: "ûnderdiel limyt",
         minimum_purchase_quantity: "minimum oankeap hoeveelheid",
         maximum_purchase_quantity: "maksimum oankeap hoeveelheid",
@@ -1867,10 +1867,10 @@ export default {
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "ynventaris foar dropshipping Produkten is ynstelle op ûnderdiel, en ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Ynventarisaasje foar dropshipping-produkten wurdt ynsteld troch gruthannels, en kin hjir net wizige wurde.",
       marketplace:
-        "ûnderdiel produkt ynventaris yn ûnderdiel is ûnderdiel op ûnderdiel ûnderdiel ynventaris fan alles ferkeapers. jo ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
-      default: "ûnderdiel ûnderdiel ynventaris oantal ûnderdiel.",
+        "De totale produktynventaris op 'e merke wurdt bepaald troch de ynventarissen fan alle leveransiers op te tellen. Jo kinne it hjir net wizigje.",
+      default: "Spesifisearje hjir de ynventaristelling fan it produkt.",
     },
     menu: {
       add_bulk: {
@@ -1894,7 +1894,7 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google-produktkategorykoade",
-    hint: "ûnderdiel kategory fan jo produkt ûnderdiel nei Google'ûnderdiel produkt ûnderdiel.",
+    hint: "Fertsjintwurdet de kategory fan jo produkt neffens de produkttaksonomy fan Google.",
     placeholder: "ynfiere produkt of tsjinst kategory.. (ûnderdiel)",
   },
   /** {@see LogisticProfileType} **/
@@ -1913,7 +1913,7 @@ export default {
     },
     SHIPPING: {
       title: "Skipfeart",
-      desc: "Ferstjoering ûnderdiel details kaai ûnderdiel fan Ferstjoering foar online Bestellingen, ûnderdiel Ferstjoering ûnderdiel, metoaden, en ûnderdiel levering tiid.",
+      desc: "In ferstjoerbelied beskriuwt de wichtichste aspekten fan ferstjoeren foar online bestellingen, ynklusyf ferstjoerkosten, metoaden en rûsde levertiden.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "Popupbehear",
     subtitle:
-      "Meitsje ûnderdiel, ûnderdiel, en ûnderdiel ûnderdiel ûnderdiel.",
+      "Meitsje personaliseare, yntelliginte en ynteraktive pop-upfinsters.",
     add_action: "Nije popup tafoegje",
   },
 
@@ -1941,7 +1941,7 @@ export default {
       default: "Standert",
       dedicated: "ûnderdiel",
 
-      subscription: "ûnderdiel kin tapasse belesting ûnderdiel op Betelling oanmeitsjen ûnderdiel.",
+      subscription: "Wy kinne allinich belesting tapasse op 'e stap foar it meitsjen fan betelling.",
       is_disabled: "dit Belestingprofyl is útskeakele! (⚠️warskôging)",
       shipping: "Skipfeart",
       fixed_rate: "TAX",
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "winkel > finânsjes > belesting",
 
       subscription_tips:
-        "ûnderdiel jo selektearje Belestingprofyl foar abonnemint produkt, ûnderdiel Bywurkje<code>belesting koade</code> en ynstelle ûnderdiel/ûnderdiel modus op jo Betelling tsjinst ûnderdiel. ûnderdiel Belestingprofyl ûnderdiel ûnderdiel priis is ûnderdiel ûnderdiel fan belestingen of ûnderdiel fan belestingen. ûnderdiel fan <code>ûnderdiel</code> of <code>ûnderdiel</code>. ûnderdiel ûnderdiel ûnderdiel ûnderdiel of ûnderdiel, ûnderdiel ûnderdiel ûnderdiel ûnderdiel.<br /><br /><b>ûnderdiel!</b> ûnderdiel ûnderdiel Belestingprofyl, jo moat ûnderdiel op priisstelling ûnderdiel op produkt > ynventaris ljepper en ûnderdiel Bewarje knop nei tapasse feroarje.",
+        "As jo ​​selektearje in belesting profyl foar abonnemint produkt, wy update<code>tax code</code> en set ynklusyf / eksklusyf modus op jo betelling tsjinst provider. It selektearre belestingprofyl jout oan oft de priis wurdt beskôge as ynklusyf belestingen of eksklusyf belestingen. Ien fan <code>inclusive</code> of <code>exclusive</code>. Sadree't oantsjutte as itsij ynklusyf of eksklusyf, kin net feroare wurde.<br /><br /><b>Wichtich!</b> Nei it feroarjen fan it belestingprofyl, moatte jo klikke op priisplannen op it ljepblêd Produkt > Ynventarisaasje en klikje op de knop Bewarje om wizigingen oan te passen.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "priis en hoeveelheid fan dit produkt binne ynstelle op ûnderdiel ferkeaper nei ûnderdiel ûnderdiel ûnderdiel.",
+        "De priis en kwantiteit fan dit produkt wurde ynsteld troch in bepaalde ferkeaper oan wa't it heart.",
     },
     vendors: {
       subtitle:
-        "ûnderdiel list fan ûnderdiel foar produkt. hoeveelheid en priis sil ûnderdiel ynstelle op ûnderdiel.",
+        "Hjir is in list mei leveransiers foar it produkt. De kwantiteit en priis wurde ynsteld troch de leveransiers.",
     },
   },
   /**
@@ -2006,12 +2006,12 @@ export default {
     },
     map: {
       no_map_message:
-        "ûnderdiel Lokaasje nei ferkeaper ûnderdiel ûnderdiel Lokaasje-ûnderdiel ferkeaper.",
+        "Tawize in lokaasje oan de ferkeaper as it in lokaasje-basearre ferkeaper is.",
     },
     page: {
       title: "oanpast side",
       subtitle:
-        "ynstelle oanpast Lâningsside foar ferkeaper, ûnderdiel ûnderdiel mei ûnderdiel keppeling nei ûnderdiel ûnderdiel side.",
+        "Stel in oanpaste lâningsside yn foar de ferkeaper, en leverje har in unike keppeling nei har tawijd side.",
       action_set_page: "besjoch iepenbier side",
       action_sub_caption: "Oanpaste lâningsside.",
       vendor_has_landing_msg: "ferkeaper hat Oanpaste lâningsside.",
@@ -2022,12 +2022,12 @@ export default {
     },
     contact: {
       title: "Kontaktynformaasje",
-      subtitle: "ûnderdiel ûnderdiel jildich kontakt details.",
+      subtitle: "Jou asjebleaft jildige kontaktgegevens.",
     },
     business: {
       title: "Bedriuwsynformaasje",
       subtitle:
-        "graach ûnderdiel ûnderdiel ynformaasje oer jo bedriuw nei ûnderdiel swift en ûnderdiel ûnderdiel ûnderdiel proses.",
+        "Jou asjebleaft krekte ynformaasje oer jo bedriuw om te soargjen foar in fluch en naadloos proses foar it sammeljen fan ynkomsten.",
     },
     bank: {
       title: "Utbetellingsynformaasje",
@@ -2041,7 +2041,7 @@ export default {
     },
     shipping: {
       title: "Skipfeart",
-      subtitle: "ferkeapers kin ynstelle ûnderdiel ûnderdiel Ferstjoertsjinsten en ûnderdiel.",
+      subtitle: "Ferkeapers kinne har eigen ferstjoertsjinsten en koeriers ynstelle.",
       shipping_services: "Ferstjoertsjinsten",
       total_number_of_services:
         "totaal nûmer fan Ferstjoertsjinsten dat ferkeaper hat.",
@@ -2055,17 +2055,17 @@ export default {
       title: "Fuortsmite ferkeaper",
       action: "Fuortsmite ferkeaper",
       verify_description:
-        "ûnderdiel ûnderdiel dat alles ferkeaper produkt ûnderdiel sil ûnderdiel ûnderdiel!",
-      verify_title: "ûnderdiel ûnderdiel nei Wiskje dit ferkeaper.",
+        "Ik wit dat alle ferkeaper produkt relaasjes sille fuortsmiten wurde!",
+      verify_title: "Ik wol dizze ferkeaper wiskje.",
     },
 
     send_invitation_tips:
       "Konfigurearje en behear dizze opsje foar jo winkel.",
     only_marketplace_owner_can_edit_user:
-      "ûnderdiel Eigner fan marketplace kin Bewurkje brûker. ûnderdiel jo ûnderdiel nei feroarje eigner fan dit ferkeaper, jo kin ferstjoere fersyk nei us.",
+      "Allinnich de eigner fan 'e merkplak kin de brûker bewurkje. As jo ​​de eigner fan dizze ferkeaper feroarje wolle, kinne jo it fersyk nei ús stjoere.",
     vendor_is_disable_msg: "ferkeaper is útskeakele.",
     email_not_match_with_user_msg:
-      "ûnderdiel e-post ûnderdiel net ûnderdiel mei ûnderdiel e-post (<b>{user_name}:</b>{user_email}). binne jo ûnderdiel nei ferstjoere e-post nei<b>{email}</b>?",
+      "Ynfoege e-post komt net oerien mei brûker syn e-post (<b>{user_name}: </b>{user_email}). Binne jo wis dat jo e-posten stjoere nei <b>{email}</b>?",
 
     order_information_email_to_email:
       "ûnderdiel sil ferstjoere Bestellingen ynformaasje nei <b>{email}</b>.",
@@ -2076,14 +2076,14 @@ export default {
       slug: {
         label: "paad",
         placeholder: "ynfiere oanpast paad...",
-        hint: "feroarje paad ûnderdiel ûnderdiel Lâningsside.",
+        hint: "Feroarje it paad fan de dynamyske lâningsside fan de ferkeaper.",
       },
       email: {
         message: "dit e-post sil ûntfange alles notifikaasjes en bywurkje.",
       },
       business: {
-        false_description: "ûnderdiel ûnderdiel ûnderdiel.",
-        true_description: "ûnderdiel ûnderdiel ûnderdiel ûnderdiel bedriuw ûnderdiel.",
+        false_description: "Ik wurkje as yndividu.",
+        true_description: "Ik operearje as in wetlik erkende saaklike entiteit.",
         false_title: "ûnderdiel",
         true_title: "bedriuw",
       },
@@ -2096,36 +2096,36 @@ export default {
         placeholder: "jo namme..",
       },
       account_number: {
-        hint: "ûnderdiel ûnderdiel akkount nûmer.",
+        hint: "It unike akkountnûmer fan de ferkeaper.",
         placeholder: "jo bank akkount nûmer..",
       },
       routing_number: {
-        hint: "dit nûmer ûnderdiel op lân. ûnderdiel brûkt nei ûnderdiel ûnderdiel bank ûnderdiel ferkeaper ús.",
+        hint: "Dit oantal ferskilt per lân. It wurdt brûkt om de spesifike bankôfdieling te identifisearjen dy't de ferkeaper brûkt.",
         placeholder: "jo bank ûnderdiel nûmer, sortearje koade, of BSB nûmer..",
       },
       iban: {
-        hint: "Ynternasjonaal bankrekkennûmer): ûnderdiel ûnderdiel bank is yn ûnderdiel of ûnderdiel ûnderdiel lannen.",
+        hint: "Ynternasjonaal bankrekkennûmer): As de bank fan 'e ferkeaper yn Jeropa of bepaalde oare lannen is.",
         placeholder: "jo IBAN nûmer.. ûnderdiel. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "Ynternasjonaal bankrekkennûmer): ûnderdiel ûnderdiel bank is yn ûnderdiel of ûnderdiel ûnderdiel lannen.",
+        hint: "Ynternasjonaal bankrekkennûmer): As de bank fan 'e ferkeaper yn Jeropa of bepaalde oare lannen is.",
         placeholder: "jo Swift koade/BIC..",
       },
       branch_address: {
-        hint: "adres fan bank ûnderdiel ûnderdiel ferkeaper hat ûnderdiel akkount.",
+        hint: "It adres fan 'e bankôfdieling dêr't de ferkeaper har akkount hat.",
         placeholder: "jo bank adres..",
       },
       enable: {
         label: "Ferkeaperstatus",
-        hint: "jo kin ynskeakelje of ûnderdiel ferkeapers ûnderdiel. Klanten sil net ûnderdiel ûnderdiel nei oankeap ûnderdiel Fan útskeakele ferkeapers.",
+        hint: "Jo kinne leveransiers wrâldwiid yn- of útskeakelje. Klanten sille net by steat wêze om te keapjen neat út útskeakele vendors.",
         true_description:
-          "ûnderdiel sil ûnderdiel ûnderdiel nei ferkeap ûnderdiel Produkten ûnderdiel jo ûnderdiel.",
+          "Se sille har produkten kinne ferkeapje fia jo merk.",
       },
       access: {
         label: "Ferkeaperpaniel en tagong",
         true_description:
-          "ferkeaper hat ûnderdiel ûnderdiel nei Bywurkje hoeveelheid en priis.",
-        hint: "jo kin ynskeakelje of ûnderdiel ferkeaper ûnderdiel, ûnderdiel ûnderdiel ferkeapers nei Bywurkje produkt hoeveelheid en priis en ûntfange ûnderdiel Bestellingen.",
+          "De ferkeaper hat in tawijd paniel om kwantiteit en priis te aktualisearjen.",
+        hint: "Jo kinne it ferkeaperpaniel yn- of útskeakelje, wêrtroch ferkeapers produkthoeveelheden en prizen kinne bywurkje en dielbestellingen ûntfange.",
         false_description: "ferkeaper hat Gjin tagong nei ûnderdiel.",
       },
 
@@ -2164,12 +2164,12 @@ export default {
   product_badges: {
     title: "badges",
     subtitle: "Tafoegje en Bewurkje oanpast produkt badges.",
-    only_marketplace_owner_msg: "ûnderdiel ûnderdiel eigner",
+    only_marketplace_owner_msg: "Allinnich eigners fan merkplakken",
     create_new_badge_action: "Meitsje nij badge",
     select_a_badge: "selektearje badge...",
     inputs: {
       custom: {
-        false_description: "Produkten badges binne ûnderdiel ûnderdiel.",
+        false_description: "Produktbadges wurde automatysk oanmakke.",
         false_title: "auto",
         true_title: "oanpast Produkten badges",
         true_description: "Tafoegje oanpast badges yn Produktside.",
@@ -2178,7 +2178,7 @@ export default {
     add_custom_badge: {
       title: "Oanpaste badge",
       subtitle:
-        "Tafoegje nij Oanpaste badge nei ûnderdiel winkel. ûnderdiel badges oantal ûnderdiel 10. mear badges ûnderdiel ûnderdiel ûnderdiel jo winkel.",
+        "Foegje in nije oanpaste badge ta oan myn winkel. Hâld badges telle ûnder 10. Mear badges soe fertrage dyn winkel.",
       show_advanced_options: "Avansearre opsjes toane",
 
       inputs: {
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "ûnderdiel",
           message:
-            "ûnderdiel Toane dit badge foar Produkten hat dit ûnderdiel ûnderdiel yn ûnderdiel spesifikaasje. Regex ûnderdiel.",
+            "Dit badge automatysk sjen litte foar produkten hat dizze oerienkommende wearde yn har spec. Regex stipe.",
           placeholder: "nei Toane foar alles Produkten ûnderdiel *.*",
         },
       },
       notifications: {
-        badge_added: "badge hat ûnderdiel ûnderdiel ûnderdiel!",
+        badge_added: "De badge is mei súkses tafoege!",
         badge_updated: "badge hat ûnderdiel bywurke ûnderdiel!",
         item_not_found_error:
-          "ûnderdiel ûnderdiel net ûnderdiel fûn. graach ûnderdiel side of kontakt stipe.",
+          "It item koe net fûn wurde. Ferfarskje asjebleaft de side of nim kontakt op mei stipe.",
       },
     },
   },
@@ -2213,15 +2213,15 @@ export default {
     tips: [
       "jo kin filter Produkten ûnderdiel op tags op <b>lâningsside siden</b>.",
       "jo en jo Klanten kin sykje foar ûnderdiel tags yn <b>sykje</b> ûnderdiel.",
-      "ûnderdiel ynstelle tags, ûnderdiel Produkten mei <b>ûnderdiel tags</b> sil ûnderdiel ûnderdiel yn <b>ûnderdiel Produkten seksje</b> op Produktside; ûnderdiel, Produkten yn ûnderdiel kategory sil ûnderdiel ûnderdiel.",
+      "As tags ynsteld binne, sille allinich produkten mei de <b>mienskiplike tags</b> werjûn wurde yn 'e <b>relatearre produkten seksje</b> op 'e produktside; oars, produkten yn deselde kategory wurde werjûn.",
     ],
     inputs: {
       tags: {
-        placeholder: "ûnderdiel tags ûnderdiel en ûnderdiel ynfiere. ûnderdiel. nij ûnderdiel",
+        placeholder: "Wire tags hjir en druk op enter. bgl. nije kolleksje",
       },
     },
     notifications: {
-      tags_updated: "tags ûnderdiel ûnderdiel ûnderdiel bywurke.",
+      tags_updated: "De tags binne mei súkses bywurke.",
     },
   },
 
@@ -2239,7 +2239,7 @@ export default {
 
     add_dialog: {
       select_service_msg:
-        "Konfigurearje en behear dizze opsje foar jo winkel.",
+        "Ferstjoermetoaden wurde ynsteld troch de merk, en klanten kinne derút kieze. Ferkeapers hawwe gjin kontrôle oer dizze opsjes, mar kinne har paniel yntegrearje mei ferstjoertsjinsten om etiketten direkt te keapjen. Selektearje asjebleaft in metoade út 'e list hjirûnder om beskikbere tsjinsten te besjen. Kies in ferstjoeringstsjinst út 'e list hjirûnder. Allinnich de beskikbere tsjinsten dy't kinne wurde tafoege oan jo winkel wurde hjir werjûn.",
       no_available_service: "Gjin tsjinst beskikber!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Lokaasje",
     empty_subtitle:
-      "ûnderdiel Lokaasje nei produkt ûnderdiel ûnderdiel Lokaasje-ûnderdiel ûnderdiel.",
+      "Tawize in lokaasje oan it produkt as it in lokaasje-basearre item is.",
     dialog: {
       header: "selektearje Lokaasje profyl",
       action_new_location: "Add nije lokaasje",
       title: "Lokaasje profyl",
       subtitle:
-        "jo kin ûnderdiel Produkten op ûnderdiel Lokaasje op ûnderdiel Lokaasje tags nei Produkten.",
-      tips: "<b>ûnderdiel </b> ûnderdiel Lokaasje nei produkt <b>ûnderdiel</b> ûnderdiel jo ûnderdiel nei Toane produkt op ûnderdiel Lokaasje op ûnderdiel. ûnderdiel produkt moat ûnderdiel Lokaasje ûnderdiel haad ûnderdiel, ûnderdiel <b>ûnderdiel thús/ûnderdiel</b> of ûnderdiel tsjinsten ûnderdiel<b>ûnderdiel en ûnderdiel</b>.",
+        "Jo kinne produkten pinne op 'e kaartlokaasje troch lokaasjetags oan' e produkten ta te jaan.",
+      tips: "<b>Wichtich: </b> Tawize in lokaasje oan it produkt <b>allinne</b> as jo wolle sjen litte it produkt op de spesifike lokaasje op de kaart. It pined produkt moat de lokaasje as haadspesifikaasje hawwe, lykas <b>hierhuzen / plakken</b> of persoanlike tsjinsten lykas<b>Hairdressing en Spa</b>.",
     },
   },
 
@@ -2279,11 +2279,11 @@ export default {
     dialog: {
       header: "Underdielen fan produktpakket",
       title: "Opnommen ûnderdielen",
-      subtitle: "dit is ûnderdiel fan ûnderdielen dat ûnderdiel mei produkt.",
+      subtitle: "Dit is in kompilaasje fan items dy't komme mei it produkt.",
       action_manage: "Underdielen beheare",
       action_disable_msg: "Eigner fan marketplace",
       select_items_tips:
-        "Konfigurearje en behear dizze opsje foar jo winkel.",
+        "Meitsje of kies pakketkomponinten dy't komme mei it produkt of tsjinst. Brûk dizze funksje om te beklamjen wat klanten kinne ferwachtsje te ûntfangen by it keapjen fan it item. Wy advisearje dizze funksje allinich te brûken as it foar de klant krúsjaal is om de ynhâld ynbegrepen te begripen, lykas by it keapjen fan in smartphone.",
       create_item_tips:
         "Konfigurearje en behear dizze opsje foar jo winkel.",
       create_new_item_action: "Nij opnommen ûnderdiel meitsje",
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "It oantal bydragen",
           score: "Skoare",
         },
-        users_not_rated_msg: "brûkers ûnderdiel net ûnderdiel dit produkt ûnderdiel.",
+        users_not_rated_msg: "Brûkers hawwe dit produkt noch net beoardiele.",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "Fariantopsjes",
           subtitle:
-            "ynfiere ûnderdiel kleur koade, ûnderdiel.ûnderdiel., <b>#654FFF</b>, of ûnderdiel kleuren ûnderdiel op ûnderdiel, ûnderdiel.ûnderdiel., <b>#764FFA/#000000</b>.",
+            "Fier in hex kleurkoade yn, bygelyks <b>#654FFF</b>, of twa kleuren skieden troch in slash, bygelyks <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "jo kin ûnderdiel ûnderdiel ûnderdiel nei ûnderdiel, ûnderdiel ôfbyldings mei <b>Grafyske aktiva</b>. oplade ûnderdiel en brûk generearre koade foar fariant.",
+            "Jo kinne tawize eltse wearde oan de fariabelen, ynklusyf ôfbyldings mei help <b>Graphic Assets</b>. Upload in patroan en brûk de oanmakke koade foar de fariant.",
           graphical_asset_action: "Grafyske aktiva",
           graphical_asset_action_caption: "ôfbyldings foar Fariantopsjes.",
         },
         smart_unit_price: {
-          tips: "ûnderdiel ienheid priis ûnderdiel op <b>gewicht</b>, <b>folume</b>, en <b>pakket grutte</b>. nei ûnderdiel dit eigenskip, ûnderdiel nei winkel > Ynstellingen > tema > Produktside > ûnderdiel ienheid priis.",
+          tips: "Berekkenje ienheidspriis basearre op <b>weight</b>, <b>volume</b>, en <b>pack grutte</b>. Om dizze funksje út te skeakeljen, navigearje nei Winkel> Ynstellings> Tema> Produktside> Smart Unit Priis.",
           smart_unit_price: "Ienheidspriis berekkening",
         },
         quantity: {
@@ -2469,25 +2469,25 @@ export default {
         package: {
           title: "Ferpakking en ferstjoering",
           subtitle:
-            "ûnderdiel gewicht en ûnderdiel foar farianten nei ûnderdiel Ferstjoering opsjes.",
+            "Spesifisearje gewicht en ôfmjittings foar farianten foar in bepale skipfeart opsjes.",
           same_as_product_action: "ûnderdiel produkt",
         },
         image: {
           title: "Fariantôfbyldings",
           subtitle:
-            "Tafoegje ûnderdiel ôfbyldings foar ûnderdiel fariant. ûnderdiel ôfbylding ûnderdiel sil ûnderdiel primêr ôfbylding foar dat fariant.",
+            "Foegje unike ôfbyldings ta foar elke fariant. De earste ôfbylding dy't uploade sil de primêre ôfbylding wêze foar dy fariant.",
         },
         inputs: {
           sku: {
             message: "foarrie ûnderdiel ienheid (SKU)",
           },
           mpn: {
-            message: "ûnderdiel ûnderdiel nûmer (MPN)",
+            message: "Fabrikantûnderdielnûmer (MPN)",
           },
           gtin: {
-            label: "globaal ûnderdiel ûnderdiel nûmer (GTIN)",
+            label: "Global Trade Item Number (GTIN)",
             message:
-              "ûnderdiel ûnderdiel UPC (12 ûnderdiel), EAN (13 ûnderdiel), JAN (8 of 13 ûnderdiel), ISBN (13 ûnderdiel).",
+              "Stipe formaten: UPC (12 sifers), EAN (13 sifers), JAN (8 of 13 sifers), ISBN (13 sifers).",
           },
         },
       },
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Tariedingstiid",
     lead_time: "Tariedingstiid",
     lead_time_subtitle:
-      "trochrintiid tiid ûnderdiel doer ûnderdiel nei ûnderdiel produkt foar Ferstjoering, ûnderdiel help yn ûnderdiel levering tiid.",
+      "Leadtiid skat de doer dy't nedich is om in produkt te meitsjen foar ferstjoering, wat helpt by it skatten fan de levertiid.",
 
     lead_time_dimension: "Oere(n)",
     bulk_action: "Bulk aksjes",
@@ -2553,7 +2553,7 @@ export default {
   product_images_gallery: {
     dialog_alt: {
       title: "Alternatyf tekst foar ôfbylding ynstelle",
-      placeholder: "ynfiere ûnderdiel ûnderdiel tekst...",
+      placeholder: "Fier in beskriuwende alttekst yn...",
       success_update_notification: "ûnderdiel tekst bywurke ûnderdiel.",
     },
     dialog_bg_remove: {
@@ -2562,7 +2562,7 @@ export default {
         title: "Eftergrûn fuortsmite",
         subtitle: "Meitsje trochsichtich eftergrûn.",
       },
-      success_remove_bg_notification: "eftergrûn ûnderdiel ûnderdiel!",
+      success_remove_bg_notification: "Eftergrûn mei súkses fuortsmiten!",
     },
   },
   /**
@@ -2572,9 +2572,9 @@ export default {
     title: "fariant grafysk aktiva",
     tips: {
       how_it_works:
-        "<b>ûnderdiel ûnderdiel ûnderdiel</b><br />oplade ûnderdiel of ûnderdiel ôfbyldings ûnderdiel. nei brûk ûnderdiel ôfbyldings fariant ûnderdiel, opnimme <b>{filename}</b> yn fariant ûnderdiel. notysje dat dit koade ûnderdiel ûnderdiel brûkt yn <b><s>kleur</s></b> ûnderdiel.",
+        "<b>Hoe it wurket:</b><br />Upload patroan of itemôfbyldings hjir. Om dizze ôfbyldings as fariant-opsje te brûken, befetsje <b>{filename}</b> yn 'e fariantwearde. Tink derom dat dizze koade net brûkt wurde kin yn 'e wearde <b><s>color</s></b>.",
       how_set_name:
-        "<b>ûnderdiel ûnderdiel</b><br /> ûnderdiel 12 ûnderdiel fan ûnderdiel bestân namme sil ûnderdiel brûkt ûnderdiel namme. dit eigenskip is ûnderdiel foar ûnderdiel ûnderdiel ûnderdiel fan produkt, ûnderdiel ûnderdiel grutte foar ûnderdiel of ûnderdiel ûnderdiel. nei ûnderdiel brûk fan dit eigenskip, ûnderdiel ûnderdiel Fariantôfbyldings ûnderdiel ûnderdiel nûmer fan grafysk aktiva is ûnderdiel ûnderdiel 100, ûnderdiel ûnderdiel ûnderdiel typen foar ûnderdiel.",
+        "<b>Nammetips:</b><br />De earste 12 tekens fan 'e opladen bestânsnamme sille brûkt wurde as de assetnamme. Dizze funksje is ideaal foar it werjaan fan oanpasbere aspekten fan in produkt, lykas bannenmaten foar motorfytsen as stofpatroanen. Om it gebrûk fan dizze funksje te optimalisearjen, foarkom it uploaden fan fariantôfbyldings hjir, útsein as it oantal grafyske aktiva minder is dan 100, lykas ferskate houtsoarten foar meubels.",
     },
   },
 
@@ -2591,17 +2591,17 @@ export default {
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "dit fariant ûnderdiel ûnderdiel!",
+    duplicated_variant: "Dizze fariant bestiet al!",
     set_color_warning: "graach selektearje kleur.",
     set_volume_warning: "graach ûnderdiel folume.",
     set_pack_warning: "graach ûnderdiel pakket grutte.",
     set_weight_warning: "graach ûnderdiel gewicht.",
     set_type_warning: "graach selektearje type.",
     set_style_warning: "graach selektearje styl.",
-    out_of_stock: "ûnderdiel ûnderdiel fan foarrie",
+    out_of_stock: "Op it stuit net op foarried",
 
     image: {
-      tooltip: "⚡ slepe en loslitte ôfbylding ûnderdiel nei ûnderdiel ûnderdiel nei fariant.",
+      tooltip: "⚡ Sleep en drop in ôfbylding hjir om it ta te jaan oan de fariant.",
     },
     enable: {
       true_tooltip: "dit ûnderdiel is beskikber yn Online winkel.",
@@ -2613,7 +2613,7 @@ export default {
       action: "ûnderdiel, weromsette no",
     },
     notifications: {
-      restore_variant_success: "produkt fariant ûnderdiel ûnderdiel ûnderdiel.",
+      restore_variant_success: "De produktfariant is mei súkses restaurearre.",
     },
   },
 
@@ -2720,19 +2720,19 @@ export default {
       "Konfigurearje en behear dizze opsje foar jo winkel.",
     check: "ûnderdiel goedkarre priis feroarje.",
     check_description:
-      "priis sil ûnderdiel ûnderdiel foar ûnderdiel kategory en alles ûnderdiel.",
+      "De priis wurdt feroare foar de selektearre kategory en alle subkategoryen.",
     add_percent_tab: "Tafoegje ûnderdiel",
     add_constant_tab: "Tafoegje ûnderdiel",
-    ending_tab: "ûnderdiel ûnderdiel",
+    ending_tab: "Ending strategy",
     marketplace_listing_price: "Listpriis",
 
     constant: {
       subtitle:
-        "bedrach sil ûnderdiel ûnderdiel of ûnderdiel Fan ûnderdiel priis fan Produkten.",
+        "It bedrach wurdt tafoege of lutsen fan 'e hjoeddeistige priis fan produkten.",
     },
     ending: {
       subtitle:
-        "ûnderdiel fan ûnderdiel priis fan Produkten sil ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel.",
+        "It einigjen fan 'e hjoeddeistige priis fan produkten sil wurde feroare nei de opjûne wearde.",
     },
     marketplace: {
       title: "ûnderdiel Listpriis",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "Auto bewarje",
-    auto_save_input_message: "feroarje sil ûnderdiel ûnderdiel ûnderdiel.",
+    auto_save_input_message: "Feroarings wurde automatysk bewarre.",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2817,7 +2817,7 @@ export default {
         subtitle:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         add_first_currency: {
-          subtitle: "graach Tafoegje faluta nei jo winkel ûnderdiel ûnderdiel.",
+          subtitle: "Foegje asjebleaft in faluta ta oan jo winkel foardat jo trochgean.",
           title: "Foegje faluta ta",
         },
       },
@@ -2828,7 +2828,7 @@ export default {
       },
 
       config_step: {
-        import_config: "jo kin ymportearje ûnderdiel Fan ûnderdiel ûnderdiel betellingspoarten",
+        import_config: "Jo kinne konfiguraasje ymportearje fan oare ferlykbere poarten",
         import_from: "ymportearje Fan",
       },
 
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "Automatysk ferbine",
           false_description:
-            "ûnderdiel sil ûnderdiel connect nei betellingspoarte ûnderdiel jo ûnderdiel ûnderdiel ûnderdiel betellingspoarte yn ûnderdiel.",
+            "It systeem sil automatysk ferbine mei de gateway as jo al in ynstelde gateway yn plak hawwe.",
         },
       },
     },
@@ -3074,11 +3074,11 @@ export default {
 
     config: {
       subtitle:
-        "kategory help ûnderdiel produkt ûnderdiel en fertsjinje ûnderdiel ûnderdiel foar jo Klanten nei ûnderdiel Produkten yn jo winkel.",
+        "Kategoryen helpe produktbehear te streamlynjen en meitsje it makliker foar jo klanten om produkten yn jo winkel te finen.",
     },
     parent: {
       subtitle:
-        "dit kategory sil ûnderdiel ûnderdiel ûnderdiel ûnderdiel kategory. ûnderdiel produkt ûnderdiel ûnderdiel ûnderdiel kategory, ûnderdiel sil ûnderdiel ûnderdiel yn haad kategory.",
+        "Dizze kategory sil ferskine ûnder syn âlder kategory. As in produkt gjin âlderkategory hat, sil it yn 'e haadkategory werjûn wurde.",
     },
     template: {
       title: "Sjabloan",
@@ -3090,9 +3090,9 @@ export default {
     critical_zone: {
       title: "Krityske sône",
       subtitle:
-        "ûnderdiel jo Fuortsmite kategory, ûnderdiel ûnderdiel en Produkten sil ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel<b>📁 {parent}</b>. nei behear kategory dat binne net yn Produktlist, gean nei winkel > kategory ljepper.",
+        "As jo ​​in kategory fuortsmite, wurde de subkategoryen en produkten derfan ferpleatst nei de âldermap <b>📁 {parent}</b>. Om kategoryen te behearjen dy't net yn 'e produktlist steane, gean dan nei it ljepblêd Winkel > Kategoryen.",
       accept_delete: {
-        true_description: "ûnderdiel ûnderdiel nei Fuortsmite dit kategory.",
+        true_description: "Ik wol dizze kategory fuortsmite.",
         true_title: "befêstigje Fuortsmite kategory",
       },
     },
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategory bewurke.",
       },
       manually_update_filters_tips:
-        "<b>ûnderdiel!</b> filters binne ûnderdiel bywurke ûnderdiel Produkten feroarje. ûnderdiel, ûnderdiel ûnderdiel feroarje nei Produkten yn kategory, graach retour ûnderdiel en ûnderdiel Bewarje/ûnderdiel knop nei ûnderdiel filter.",
+        "<b>Important!</b> Filters wurde automatysk bywurke as produkten feroarje. Nei it meitsjen fan wizigingen oan produkten yn in kategory, gean dan hjir werom en klikje op de knop opslaan / regenerearje om it filter te ferfarskjen.",
 
       inputs: {
         spec: {
           message:
-            "list fan eigenskippen dat jo ûnderdiel nei ûnderdiel ûnderdiel yn filter seksje",
+            "List mei funksjes dy't jo wolle sjen litte yn 'e filterseksje",
           placeholder: "selektearje spesifikaasje nei Toane yn filter...",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Winkel beskriuwing",
     description_input_message: "Skriuw in koarte beskriuwing oer jo bedriuw.",
     description_input_tips:
-      "dit beskriuwing sil ûnderdiel yn jo ûnderdiel fuottekst en sil ûnderdiel ûnderdiel brûkt standert meta tag beskriuwing foar jo winkel siden.",
+      "Dizze beskriuwing sil ferskine yn 'e foettekst fan jo winkel en sil ek wurde brûkt as de standert metatagbeskriuwing foar jo winkelpagina's.",
     address_input: "Winkel Adres",
     address_input_message: "Fier it krekte adres fan winkellokaasje yn",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "opsjes",
         subtitle:
-          "ûnderdiel jo ûnderdiel nei Annulearje jo bestelling ûnderdiel, jo kin brûk dit ûnderdiel.",
+          "As jo ​​​​jo bestelling fuortendaliks annulearje wolle, kinne jo dizze opsje brûke.",
       },
 
       express_input: {
         true_title: "ûnderdiel | Annulearje bestelling ûnderdiel",
         false_title: "ûnderdiel | Annulearje bestelling ûnderdiel 48 oeren",
         true_description:
-          "dit ûnderdiel sil Annulearje jo bestelling ûnderdiel en Bywurkje ynventaris rjochts ûnderdiel.",
+          "Dizze opsje sil jo bestelling fuortendaliks annulearje en de ynventaris direkt bywurkje.",
         false_description:
-          "dit ûnderdiel sil Annulearje jo bestelling ûnderdiel 48 oeren. ûnderdiel ûnderdiel, ûnderdielen sil ûnderdiel ûnderdiel en ûnderdiel ûnderdiel ûnderdiel op ûnderdiel.",
+          "Dizze opsje sil jo bestelling annulearje nei 48 oeren. Oant dan wurde items reservearre en kinne net kocht wurde troch oaren.",
       },
     },
 
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "Yn ôfwachting fan betelling",
       processing_payment: "Betelling ferwurkjen",
       processing_cancel: "Betelling annulearre",
-      require_capture: "ûnderdiel ûnderdiel",
+      require_capture: "Fereaskje capture",
       paid: "Betelle",
       cod_pay_info:
         "As jo de bestelling fan 'e klant hawwe ûntfongen, kinne jo de betelling befêstigje en de bestelling foltôgje.",
@@ -3512,7 +3512,7 @@ export default {
       message:
         "As ien fan 'e items net beskikber is of kin net ferkocht wurde, unselektearje dan it fekje njonken it en klikje op de knop <b>Befêstigje bestelling</b>.",
       action: "bestelling Befêstiging",
-      list_of_items: "ûnderdiel ûnderdiel list",
+      list_of_items: "Shopping Cart List",
       apply_change_action: "Feroarings tapasse",
       cant_apply_change: "Kin gjin feroarings meitsje",
       lottery_prize_inform:
@@ -3523,7 +3523,7 @@ export default {
         message:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         calculated_approximately:
-          "bedrach is ûnderdiel ûnderdiel. graach ûnderdiel ûnderdiel bedrach ûnderdiel.",
+          "It bedrach wurdt berekkene likernôch. Berekkenje asjebleaft it krekte bedrach sels.",
       },
       need_payback: {
         title: "klant oplade ûnderdiel",
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "ûnderdiel gewicht fan alles ûnderdielen is {weight} {unit}",
       not_available_message:
-        "ûnderdiel net beskikber ûnderdiel jo binne útskeakele ûnderdiel foar Ferstjoering adres en ûnderdiel brûker ûnderdiel net ûnderdiel adres ûnderdiel oankeap!",
+        "It is net beskikber as jo binne útskeakele om te freegjen om ferstjoeradres en ek de brûker hat it adres net ynfolle nei oankeap!",
 
       message:
         "Klikje op de folgjende knop <b>Bestelle klear</b> as de bestelling klear is om te ferstjoeren.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "betellingen Rapport",
         subtitle:
-          "ûnderdiel betellingen en ûnderdiel ûnderdiel ûnderdiel ûnderdiel tiid perioade.",
+          "Oanmakke betellingen en transaksjes makke yn 'e selektearre tiidperioade.",
         chart: {
           times: "Telle",
           buys: "Keapje telle",
@@ -3662,7 +3662,7 @@ export default {
     status: "status",
     cod_transportation: "ûnderdiel Ferstjoering",
     cod_transportations_error:
-      "ynskeakelje Betelling by levering Betelling foar ûnderdiel ûnderdiel ûnderdiel Ferstjoering metoade!",
+      "Skeakelje cash by levering betelling yn foar op syn minst ien ferstjoermetoade!",
     payment_type: "Betelling type",
     cod: "Betelling by levering",
     online: "online Betelling",
@@ -3677,14 +3677,14 @@ export default {
     your_gateway_status: "jo betellingspoarte status",
     oauth2_button: "auto Connect nei {gateway}",
     fee_payment_message:
-      "ûnderdiel bedrach ûnderdiel op klant sil ûnderdiel ûnderdiel nei jo akkount. tsjinst fergoeding sil ûnderdiel ûnderdiel Fan jo wallet yn Selldone.",
+      "It hiele bedrach betelle troch de klant wurdt oerdroegen oan jo akkount. De tsjinstfergoeding wurdt ôfrekkene fan jo beurs yn Selldone.",
 
     auto_config: "auto ûnderdiel",
 
     keys: {
       title: "Private kaaien",
       subtitle:
-        "list fan Private kaaien foar Betelling. dit ynformaasje is ûnderdiel foar ûnderdiel en ûnderdiel betellingen.",
+        "List fan privee kaaien foar de betelling. Dizze ynformaasje is essensjeel foar it meitsjen en behearen fan betellingen.",
     },
     extra_config: {
       title: "Betelling tsjinst konfiguraasje",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "ûnderdiel aksje",
       subtitle:
-        "op ûnderdiel ûnderdiel ûnderdiel, ûnderdiel ûnderdiel nei ûntfange ûnderdiel betellingen Fan jo Klanten.",
+        "Troch dizze stappen te nimmen, sille jo werklike betellingen fan jo klanten begjinne te ûntfangen.",
       action_enable: "ûnderdiel nei ynskeakelje ûnderdiel",
       make_live_enable: "ûnderdiel nei live ûnderdiel",
     },
@@ -3707,7 +3707,7 @@ export default {
     link: "webside",
     status_title: "Betelling tsjinst status",
     status_message:
-      "konfigurearje Betelling metoade aktyf of ynaktyf. ûnderdiel metoaden ynstelle aktyf sil ûnderdiel ûnderdiel nei Klanten.",
+      "Konfigurearje de betelmetoade as Aktyf of Ynaktyf. Allinnich metoaden ynsteld as aktyf sille wurde werjûn oan klanten.",
     status_true_description: "jo Klanten kin betelje mei dit Betelling metoade.",
 
     manual_title: "hânmjittich / auto ûnderdiel Betelling",
@@ -3736,7 +3736,7 @@ export default {
     },
     limit_input: {
       title: "minimum bestelling bedrach",
-      msg: "ûnderdiel ûnderdiel ûnderdiel limyt.",
+      msg: "Nul betsjut gjin limyt.",
     },
     currency_input: {
       message: "faluta dat dit Betellingspoarte stipe.",
@@ -3746,16 +3746,16 @@ export default {
     hold_only_for: "ûnderdiel Betelling ûnderdiel beskikber foar",
     manual_input: {
       false_description:
-        "Betelling status sil ûnderdiel ûnderdiel ûnderdiel Fan yn ôfwachting nei ûnderdiel yn Betelling ûnderdiel ûnderdiel.",
+        "De betellingsstatus sil automatysk wizige wurde fan ôfwachting nei befêstige yn it systeem fan betellingsprovider.",
       false_title: "auto Betelling ûnderdiel",
       true_title: "ûnderdiel betellingen en hânmjittich ûnderdiel",
       true_description:
         "Konfigurearje en behear dizze opsje foar jo winkel.",
     },
     delete_verify_input: {
-      true_title: "ûnderdiel ûnderdiel nei Fuortsmite dit Betelling metoade.",
+      true_title: "Ik wol fuortsmite dizze betelling metoade.",
       true_description:
-        "dit Betelling metoade sil ûnderdiel ûnderdiel Fan winkel en sil net ûnderdiel beskikber nei Klanten.",
+        "Dizze betelling metoade wurdt fuortsmiten út de winkel en sil net beskikber wêze foar klanten.",
     },
     delete_alert: {
       title: "Wiskje Betelling metoade",
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "list fan útjûn kaarten",
       subtitle:
-        "besjoch en behear alles ûnderdiel ûnderdiel. jo kin ferstjoere ûnderdiel nei brûkers ûnderdiel of ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Besjoch en beheare alle útjûne kaarten. Jo kinne kaarten manuell nei brûkers stjoere of se ferbiede as it nedich is.",
 
       loading_message: "Ynformaasje krije... wachtsje asjebleaft",
       issue_to_user: "Kwestje oan brûker",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "list fan ûnderdiel ûnderdiel Bestellingen dat ûnderdiel nei ûnderdiel ûnderdiel op ûnderdiel oanbieders.",
+      "List mei ekstern syngronisearre oarders dy't moatte wurde folbrocht troch providers fan tredden.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,9 +4038,9 @@ export default {
     "sms-payment":
       "ferstjoere Betelling ûnderdiel SMS nei klant ûnderdiel {phone}.",
     "sms-ready-to-ship":
-      "ferstjoere SMS nei klant ûnderdiel dat ûnderdiel bestelling is ûnderdiel nei ûnderdiel ûnderdiel ûnderdiel {phone}.",
+      "Stjoer in SMS nei de klant mei de melding dat har bestelling klear is om te ferstjoeren fia {phone}.",
     "sms-ready-to-pickup":
-      "ferstjoere SMS nei klant ûnderdiel dat ûnderdiel bestelling is ûnderdiel foar ôfheljen ûnderdiel {phone}.",
+      "Stjoer in SMS nei de klant mei de melding dat har bestelling klear is foar opheljen fia {phone}.",
     "sms-order-confirmation":
       "ferstjoere bestelling ûnderdiel SMS nei klant ûnderdiel {phone}.",
 
@@ -4069,7 +4069,7 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "jo ûnderdiel Produkten yn woartel ûnderdiel ûnderdiel filter.",
+      no_root_filter_message: "Jo hawwe produkten yn root, mar gjin filter.",
       has_root_filter_message: "jo ynstelle filters foar woartel kategory.",
       set_filter_message: "jo kin ynstelle filters.",
       edit_action: "Bewurkje woartel filters",
@@ -4083,7 +4083,7 @@ export default {
       unselect: "ûnderdiel",
       sort_categories: "ûnderdiel / sortearje kategory",
       subscription_vendor_not_support_message:
-        "kin net ûnderdiel ferkeaper foar abonnemint Produkten! abonnemint Produkten moat ûnderdiel ûnderdiel ferkeaper ûnderdiel eigner!",
+        "Kin leveransier net tawize foar abonnemintsprodukten! Abonnemintsprodukten moatte altyd in ferkeaper hawwe as har eigner!",
       vendor_owner_not_assignable_message:
         "kin net ûnderdiel ferkeaper foar Produkten mei ferkeaper ûnderdiel eigner!",
       category_assign_profile: "ûnderdiel profyl nei Produkten yn kategory",
@@ -4095,7 +4095,7 @@ export default {
     engine: {
       title: "ûnderdiel Produkten ûnderdiel",
       subtitle:
-        "mear Produkten sil ûnderdiel ûnderdiel Fan ûnderdiel kategory en tags.",
+        "Mear produkten sille wurde laden út selekteare kategoryen en tags.",
       load_in_tips: "lade Produkten Fan kategory yn {category}.",
       action: "Bewurkje {category} ûnderdiel",
     },
@@ -4116,13 +4116,13 @@ export default {
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
     has_panel: "hat ûnderdiel",
-    no_panel: "ûnderdiel ûnderdiel",
+    no_panel: "Gjin paniel",
     manual_action: {
       title: "hânmjittich aksje",
       message: "jo kin Bywurkje ferkeaper bestelling status ûnderdiel.",
       guides: [
-        "ferkeapers mei ûnderdiel tagong kin Bywurkje ûnderdiel ôfhanneling (ûnderdielBestellingen) yn ûnderdiel ûnderdiel Dashboard.",
-        "ûnderdiel ferkeaper hat ûnderdiel ûnderdiel tagong, ferkeaper bestelling status sil ûnderdiel ûnderdiel ûnderdiel op ûnderdiel ûnderdiel status.",
+        "Ferkeapers mei paniel tagong kinne har ferfolling (sub-oarders) bywurkje yn har tawijd dashboard.",
+        "As de ferkeaper hat gjin paniel tagong, de ferkeaper oarder status wurdt feroare automatysk troch feroarjen fan de basket status.",
         "jo kin Bywurkje ferkeaper Bestellingen ûnderdiel.",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Produkten",
       subtitle:
-        "ûnderdiel jo kin besjoch oantal fan jo Produkten ûnderdiel op ûnderdiel. Produkten op ûnderdiel ferkeapers binne net opnommen.",
+        "Hjir kinne jo it oantal fan jo produkten besjen op 'e merke. Produkten fan meardere leveransiers binne net opnommen.",
     },
     wallets: {
       title: "Myn wallets",
       subtitle:
-        "jo ûnderdiel ûnderdiel nei Tafoegje wallets ûnderdiel! Ferkeaperwallets sil ûnderdiel ûnderdiel ûnderdiel.",
+        "Jo hoege gjin wallets manuell ta te foegjen! Ferkeaper wallets wurde automatysk oanmakke.",
     },
 
     open_marketplace_page: "iepenje ûnderdiel side",
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "Teamleden",
     subtitle:
-      "dit is list fan brûkers ûnderdiel ûnderdiel tagong nei jo ferkeaper ûnderdiel. jo kin Tafoegje nij Teamleden en ûnderdiel ûnderdiel tastimmingen ûnderdiel.",
+      "Dit is de list mei brûkers dy't tagong hawwe ta jo ferkeaperpaniel. Jo kinne nije teamleden tafoegje en har tagongsrjochten hjir oanpasse.",
     add_action: "Nij lid tafoegje",
     pending: {
       title: "Utnoegings yn ôfwachting",
-      message: "besjoch list fan útnoegings dat binne ûnderdiel ûnderdiel.",
+      message: "Besjoch de list mei útnoegings dy't wachtsje op akseptaasje.",
     },
   },
 
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "Lid tafoege",
-        message: "team lid hat ûnderdiel ûnderdiel ûnderdiel.",
+        message: "It teamlid is mei súkses tafoege.",
       },
       update_success: {
         title: "Lid bywurke",
-        message: "team ûnderdiel ynformaasje hat ûnderdiel ûnderdiel bywurke.",
+        message: "De ynformaasje fan it teamlid is mei súkses bywurke.",
       },
     },
     actions: {
@@ -4250,8 +4250,8 @@ export default {
         verify: {
           label: "ûnderdiel jo ûnderdiel dit Betelling?",
           false_description:
-            "ûnderdiel, ûnderdiel ûnderdiel net ûnderdiel ûntfongen dit Betelling yn ûnderdiel bank akkount.",
-          true_description: "ûnderdiel, ûnderdiel ûnderdiel ûntfongen en ûnderdiel dit Betelling.",
+            "Nee, ik haw dizze betelling noch net op myn bankrekken krigen.",
+          true_description: "Ja, ik haw dizze betelling ûntfongen en ferifiearre.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "Bestelling werombetelje",
     subtitle:
-      "<b>ûnderdiel! </b>ûnderdiel dit aksje sil generearje ûnderdiel ûnderdiel yn ûnderdiel wallet en ûnderdiel ûnderdiel bedrach Fan ûnderdiel. bedrach ûnderdiel ûnderdiel ûnderdiel totaal ûnderdiel foar ûnderdiel bestelling. ûnderdiel, ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel nei ferbûn bank akkounts (ûnderdiel mei Stripe Connect of hânmjittich ûnderdiel oerdracht), jo moat Meitsje <b>Omkearde oerdracht</b>.",
+      "<b>Wichtich! </b>It útfieren fan dizze aksje sil in negative transaksje generearje yn 'e portemonnee fan' e ferkeaper en it keazen bedrach derfan ôflûke. It bedrach kin net mear wêze as de oerbleaune totale transaksjes foar de selektearre oarder. Dêrneist, as fûnsen binne oerdroegen oan ferbûn bankrekken (lykas mei Stripe Connect of hânmjittich wire oerdracht), Jo moatte meitsje in <b>omkear oerdracht</b>.",
     inputs: {
       note: {
-        message: "ûnderdiel ûnderdiel nei ferkeaper.",
+        message: "It is sichtber foar de ferkeaper.",
         placeholder: "jo kin ûnderdiel notysje ûnderdiel...",
       },
       amount: {
-        error_message: "ûnderdiel bedrach hat ûnderdiel ûnderdiel.",
+        error_message: "It oerbleaune bedrach is oerhelle.",
       },
     },
   },
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Haadprofyl",
       subtitle:
-        "Bewurkje jo iepenbier profyl ynformaasje ûnderdiel. dit ynformaasje ûnderdiel ûnderdiel ûnderdiel nei jo Klanten of ûnderdiel brûkers.",
+        "Bewurkje jo iepenbiere profylynformaasje hjir. Dizze ynformaasje kin sichtber wêze foar jo klanten of oare brûkers.",
       full_name_input: "Folsleine namme",
       tel_input: "Kontakt nûmer",
       email_input: "e-post",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ ûnderdiel",
-      description: "Meitsje en behear ûnderdiel ûnderdiel fragen.",
+      description: "Meitsje en beheare faak stelde fragen.",
     },
     "backoffice:faq:read": {
       name: "FAQ tagong",
@@ -5003,7 +5003,7 @@ export default {
       description: "lêzen klant ynformaasje en ûnderdiel.",
     },
     "backoffice:ribbon:write": {
-      name: "ûnderdiel ûnderdiel",
+      name: "Ribbon Management",
       description: "behear winkel ûnderdiel.",
     },
     "backoffice:ribbon:read": {
@@ -5051,7 +5051,7 @@ export default {
       description: "lêzen affiliate details en ûnderdiel.",
     },
     "backoffice:print:write": {
-      name: "ûnderdiel ûnderdiel",
+      name: "Printbehear",
       description: "behear ûnderdiel opsjes.",
     },
     "backoffice:print:read": {
@@ -5073,8 +5073,8 @@ export default {
       description: "lêzen ûnderdiel details en ûnderdiel.",
     },
     "selldone:monetization:write": {
-      name: "ûnderdiel ûnderdiel",
-      description: "behear ûnderdiel, ûnderdiel ûnderdiel ûnderdiel.",
+      name: "Monetization Management",
+      description: "Behear monetarisaasje, ynklusyf ferwizingsprogramma's.",
     },
     "selldone:identification": {
       name: "ûnderdiel tagong",
@@ -5095,7 +5095,7 @@ export default {
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "ûnderdiel ûnderdiel",
+      name: "Provider Management",
       description: "behear ferbûn tsjinst oanbieders.",
     },
     "connect:provider:read": {
@@ -5109,7 +5109,7 @@ export default {
       description: "lêzen ûnderdiel details en ûnderdiel.",
     },
     "agency:write": {
-      name: "ûnderdiel ûnderdiel",
+      name: "Agency Management",
       description: "behear ûnderdiel ynformaasje.",
     },
 
@@ -5144,7 +5144,7 @@ export default {
     },
     others: {
       title: "ûnderdiel",
-      description: "ûnderdiel tagongsrjochten net ûnderdiel yn ûnderdiel.",
+      description: "Diverse omfang net definiearre yn it systeem.",
     },
     vendor: {
       title: "ferkeaper",
@@ -5574,7 +5574,7 @@ export default {
         "OAuth klanten, persoanlik tagong tokens en ferbûn apps.",
 
       security: "Feiligens",
-      security_subtitle: "ynstelle ûnderdiel ûnderdiel en behear sosjaal oanmelde opsjes.",
+      security_subtitle: "Stel twa faktor yn en beheare sosjale oanmeldingsopsjes.",
 
       preferences: "Meidogger foarkar",
       preferences_subtitle:
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Oankocht Skiednis",
       subtitle:
-        "Aktive en wachtsjende lisinsjes.",
+        "Dit is in list mei aktive en wachtsjende lisinsjes. Jo kinne deals keapje nei finansiering fan jo wallet. Tink derom dat as jo in abonnemint annulearje, it oerbleaune abonnemintsbedrach wurdt weromjûn oan jo firtuele beurs.",
     },
     license_detail: {
       title: "details",
       subtitle:
-        "Limiten op jo hjoeddeistige plan.",
+        "Dit binne de beheiningen fan jo hjoeddeistige plan. Besykje asjebleaft de priisside foar mear details. Jo kinne tagong krije ta alle funksjes oer alle plannen, ynklusyf it fergese plan, om jo bedriuw te kickstarten en te groeien. As jo ​​​​jo bedriuw skaalje, beskôgje dan it opwurdearjen nei in plan mei hegere tier om jo tsjinstkosten te ferleegjen.",
     },
 
     table: {
@@ -5739,7 +5739,7 @@ export default {
       auto_renewal: {
         true_title: "Auto Fernijing",
         true_description:
-          "jo abonnemint sil ûnderdiel ûnderdiel ûnderdiel jo wallet hat ûnderdiel saldo of ûnderdiel jo ûnderdiel jildich ûnderdiel.",
+          "Jo abonnemint wurdt automatysk fernijd as jo wallet genôch saldo hat of as jo in jildige voucher hawwe.",
       },
       options: {
         title: "ûnderdiel opsjes",
@@ -5814,11 +5814,11 @@ export default {
     sku_name_input: "SKU / Namme",
     info: {
       subtitle:
-        "nei generearje produkt, jo kin ynfiere ûnderdiel ûnderdiel details ûnderdiel foar ûnderdiel oanmeitsjen.",
+        "Om it produkt te generearjen, kinne jo allinich de essensjele details ynfiere dy't nedich binne foar it meitsjen.",
     },
     price: {
       subtitle:
-        "ynfiere priis en koarting foar dit produkt. ûnderdiel produkt is ûnderdiel, ûnderdiel ûnderdiel tagong nei mear opsjes.",
+        "Fier de priis en koarting yn foar dit produkt. Sadree't it produkt is tafoege, hawwe jo tagong ta mear opsjes.",
     },
     by_sku: {
       title: "Tafoegje op SKU",
@@ -5826,7 +5826,7 @@ export default {
     },
     drop_shipping: {
       subtitle:
-        "ûnderdiel Produkten yn ûnderdiel ûnderdiel en Tafoegje ûnderdiel nei jo winkel.",
+        "Fyn produkten yn 'e gruthannelsmerk en foegje se ta oan jo winkel.",
     },
     by_connect: {
       subtitle:
@@ -5836,7 +5836,7 @@ export default {
     sku_dialog: {
       title: "Tafoegje produkt op SKU",
       subtitle:
-        "jo ûnderdiel ûnderdiel nei ûnderdiel Produkten op ûnderdiel SKU yn ûnderdiel ûnderdiel en Tafoegje ûnderdiel mei ûnderdiel ûnderdiel ûnderdiel.",
+        "Jo hawwe de mooglikheid om produkten te finen troch har SKU yn ús databank en se tafoegje mei mar ien klik.",
     },
     dropshipping_dialog: {
       title: "Tafoegje dropshipping Produkten",
@@ -5903,21 +5903,21 @@ export default {
 
     contact: {
       title: "Kontakt ynformaasje",
-      subtitle: "ûnderdiel kontakt details fan affiliate ûnderdiel ûnderdiel.",
+      subtitle: "Jou hjir de kontaktgegevens fan 'e affiliate partner.",
     },
 
     restriction: {
       title: "kommisje beheining",
       subtitle:
-        "ûnderdiel ûnderdiel Produkten binne ûnderdiel foar kommisje. jo kin ûnderdiel kommisje nei ûnderdiel Produkten.",
+        "Definiearje hokker produkten yn oanmerking komme foar kommisje. Jo kinne kommisjes beheine ta bepaalde produkten.",
     },
 
     link_domain: {
       title: "keppele domein",
       subtitle:
-        "keppeling ûnderdiel fan jo Domeinen nei dit affiliate ûnderdiel. ûnderdiel ûnderdiel ûnderdiel ûnderdiel dit domein sil ûnderdiel ûnderdiel nei dit affiliate.",
+        "Keppelje ien fan jo domeinen oan dizze affiliate partner. Besikers dy't keapje fia dit domein sille wurde taskreaun oan dizze affiliate.",
 
-      domain_not_approved_msg: "domein hat net ûnderdiel ûnderdiel ûnderdiel!",
+      domain_not_approved_msg: "It domein is noch net goedkard!",
       domain_is_not_enable_msg: "domein is net ynskeakele!",
       domain_is_linked_to_other_affiliate_msg:
         "dit domein is ûnderdiel keppele nei ûnderdiel affiliate!",
@@ -5928,24 +5928,24 @@ export default {
     cluster: {
       title: "kluster",
       subtitle:
-        "ûnderdiel dit affiliate mei kluster nei behear ûnderdiel ûnderdiel ûnderdiel boarnen yn ûnderdiel ûnderdiel.",
+        "Assosiearje dizze affiliate mei in kluster om it neist oare boarnen op ien plak te behearjen.",
       manage_action: "behear",
     },
 
     notifications: {
-      create_success: "nij affiliate ûnderdiel ûnderdiel.",
+      create_success: "Nije affiliate mei súkses tafoege.",
       update_success: "affiliate bywurke ûnderdiel.",
     },
 
     inputs: {
       name: {
         label: "affiliate ûnderdiel namme",
-        message: "ûnderdiel.ûnderdiel., ûnderdiel ûnderdiel, ûnderdiel bedriuw, ûnderdiel ûnderdiel, ûnderdiel.",
+        message: "bygelyks John Doe, Alex Company, X Marketers, ensfh.",
       },
       commission: {
         label: "kommisje ûnderdiel",
         false_description:
-          "ûnderdiel mei ûnderdiel fan ûnderdiel en ûnderdiel kommisje.",
+          "Berekkenje mei in kombinaasje fan fêste en persintaazje kommisjes.",
         true_description:
           "ûnderdiel mei ûnderdiel kommisje ynstelle yn priisstelling ljepper.",
         false_title: "ûnderdiel + ûnderdiel kommisje",
@@ -5953,31 +5953,31 @@ export default {
       },
       user: {
         label: "brûker (ûnderdiel)",
-        message: "ûnderdiel, ûnderdiel.ûnderdiel., affiliate namme yn Selldone",
+        message: "Opsjoneel, bygelyks affiliate namme yn Selldone",
       },
       web: {
-        placeholder: "ûnderdiel, ûnderdiel.ûnderdiel., ûnderdiel.ûnderdiel",
+        placeholder: "Opsjoneel, bygelyks affiliate-web.com",
       },
       address: {
-        placeholder: "ûnderdiel, ûnderdiel.ûnderdiel., 1200 POX, NY, USA",
+        placeholder: "Opsjoneel, bygelyks, 1200 POX, NY, Feriene Steaten",
       },
       tel: {
-        placeholder: "ûnderdiel, ûnderdiel.ûnderdiel., 001-808-210354",
+        placeholder: "Opsjoneel, bygelyks, 001-808-210354",
       },
       bank: {
-        placeholder: "ûnderdiel, ûnderdiel.ûnderdiel., ûnderdiel bank, ûnderdiel 10002-325-800-845213",
+        placeholder: "Opsjoneel, bgl. Arstra Bank, nûmer: 10002-325-800-845213",
       },
       domain: {
         placeholder: "selektearje domein... (ûnderdiel)",
       },
       pos: {
         true_description:
-          "affiliate kin ûnderdiel Bestellingen ûnderdiel foar ûnderdiel Klanten ûnderdiel ûnderdiel ûnderdiel.",
+          "Affiliates kinne direkt bestellingen pleatse foar har klanten fia har paniel.",
         true_title: "POS tagong",
       },
       enable: {
         true_description:
-          "is dit affiliate ûnderdiel aktyf? ûnderdiel ynaktyf, ûnderdiel affiliate ûnderdiel ûnderdiel tapasse nei Bestellingen ûnderdiel ûnderdiel ûnderdiel keppeling.",
+          "Is dizze affiliate op it stuit aktyf? As ynaktyf, sil har filiaalprogramma net jilde foar bestellingen makke fia har keppeling.",
       },
       products: {
         label: "Produkten ûnderdiel foar kommisje",
@@ -6006,7 +6006,7 @@ export default {
       "Konfigurearje en behear dizze opsje foar jo winkel.",
     add_valuation_action: "Meitsje nij wurdearring Formulier",
     empty_message:
-      "ûnderdiel fan ûnderdiel ûnderdiel farianten, ûnderdiel ûnderdiel wurdearring ûnderdiel dat kin ûnderdiel ûnderdiel nei ienfâldich produkt.",
+      "Yn stee fan it meitsjen fan meardere farianten, beskôgje it ûntwikkeljen fan in wurdearringstrategy dy't kin wurde tapast op in ienfâldich produkt.",
     delete_dialog: {
       title: "ûnderdiel Fuortsmite",
       message:
@@ -6014,7 +6014,7 @@ export default {
       action: "Ja, no wiskje",
     },
     notifications: {
-      delete_success: "wurdearring hat ûnderdiel ûnderdiel wiskt.",
+      delete_success: "Wurdearring is mei súkses wiske.",
     },
   },
 
@@ -6040,19 +6040,19 @@ export default {
     conditions: {
       title: "Betingsten",
       subtitle:
-        "ûnderdiel ûnderdiel foar oanpast farianten. dit konfiguraasje ûnderdiel ûnderdiel fan fariant ûnderdiel.",
+        "Definiearje de logika foar oanpaste farianten. Dizze konfiguraasje simplifies it behear fan fariant beskikberens.",
     },
     structure: {
       title: "ûnderdiel",
       subtitle:
-        "ûntwerp jo priisstelling ynfier Formulier ûnderdiel op ûnderdiel ûnderdiel en ûnderdiel tabel.",
+        "Untwerp hjir jo priisynputformulier troch formules en referinsjetabellen te yntegrearjen.",
       expand_action: "ûnderdiel",
       collapse_action: "ûnderdiel",
     },
     inputs: {
       title: {
         message: "dit titel is net ûnderdiel nei Klanten.",
-        placeholder: "ynfiere namme foar priisstelling, ûnderdiel.ûnderdiel., 'ûnderdiel priisstelling",
+        placeholder: "Fier in namme yn foar prizen, bygelyks 'Mugs Pricing'",
       },
     },
     samples: {
@@ -6167,27 +6167,27 @@ export default {
         edit: "Koartingskoade mei súkses bewurke.",
       },
       config: {
-        title: "ûnderdiel ûnderdiel",
+        title: "Algemiene konfiguraasje",
         subtitle:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
       },
       limit: {
         title: "beheiningen",
         subtitle:
-          "jo kin ûnderdiel maksimum ûnderdiel limyt foar ûnderdiel Koartingskoade, ûnderdiel maksimum koarting bedrach, yn dit seksje.",
+          "Jo kinne de maksimale gebrûkslimyt foar elke koartingskoade bepale, lykas it maksimale koartingsbedrach, yn dizze seksje.",
       },
       duration: {
         title: "doer limyt",
         subtitle:
-          "moat jo ûnderdiel nei ûnderdiel Koartingskoade foar ûnderdiel ûnderdiel, jo kin ûnderdiel dat doer ûnderdiel.",
+          "Mochten jo in koartingskoade aktivearje wolle foar in spesifyk tiidframe, kinne jo dy doer hjir fêststelle.",
       },
       design: {
         subtitle:
-          "jo kin ynstelle titel en beskriuwing foar ûnderdiel Koartingskoade. ûnderdiel details sil ûnderdiel ûnderdiel nei brûker.",
+          "Jo kinne in titel en beskriuwing ynstelle foar elke koartingskoade. Dizze details sille wurde werjûn oan de brûker.",
       },
       cluster: {
         subtitle:
-          "op ûnderdiel dit Koartingskoade mei kluster, jo kin ûnderdiel behear ûnderdiel ûnderdiel ûnderdiel boarnen yn ûnderdiel Lokaasje.",
+          "Troch dizze koartingskoade te assosjearjen mei in kluster, kinne jo it maklik beheare neist oare boarnen op ien lokaasje.",
       },
     },
     delete_alert: {
@@ -6316,35 +6316,35 @@ export default {
 
     config: {
       subtitle:
-        "ûnderdiel fan coupon koarting ûnderdiel ûnderdiel CHARGE + ûnderdiel (LIMIT, PERCENT * ûnderdiel priis).",
+        "De formule fan 'e berekkening fan' e kûponkoarting is: CHARGE + max (LIMIT, PERCENT * cart priis).",
     },
     limit: {
       subtitle:
-        "yn dit seksje, ûnderdiel ûnderdiel nei ynstelle ûnderdiel maksimum nûmer fan ús ûnderdiel coupon en ûnderdiel koarting bedrach ûnderdiel coupon kin ûnderdiel.",
-      zero_message: "ûnderdiel ûnderdiel is ûnderdiel limyt!",
+        "Yn dizze seksje kinne jo sawol it maksimum oantal gebrûk per kûpon ynstelle as it heechste koartingsbedrach dat elke kûpon kin leverje.",
+      zero_message: "nul: der is gjin limyt!",
     },
     duration: {
       subtitle:
-        "ûnderdiel jo ûnderdiel nei ynstelle ûnderdiel ûnderdiel foar coupon nei ûnderdiel aktyf, jo kin konfigurearje doer yn dit seksje.",
+        "As jo ​​​​in spesifyk tiidframe wolle ynstelle foar in kûpon om aktyf te wêzen, kinne jo de doer yn dizze seksje ynstelle.",
     },
     design: {
       subtitle:
-        "ûnderdiel coupon ûnderdiel foar ûnderdiel fan titel en beskriuwing. ûnderdiel details sil ûnderdiel ûnderdiel nei klant.",
+        "Elke kûpon makket it tafoegjen fan in titel en beskriuwing mooglik. Dizze details sille sichtber wêze foar de klant.",
     },
     constraints: {
       subtitle:
-        "ûnderdiel, jo ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel ûnderdiel ûnderdiel foar coupon.",
-      no_limit: "ûnderdiel ûnderdiel ûnderdiel",
-      has_limit: "ûnderdiel ûnderdiel",
+        "Hjir hawwe jo de mooglikheid om ekstra personaliseare parameters foar de kûpon te fêstigjen.",
+      no_limit: "Gjin ekstra beheining",
+      has_limit: "Ekstra beheiningen",
       has_code_message: "brûker moat ynfiere koade nei Tafoegje coupon.",
     },
     club: {
       subtitle:
-        "dit ûnderdiel brûk kin ûnderdiel ûnderdiel ûnderdiel nei leden fan ûnderdiel klant klub.",
+        "It gebrûk fan dizze kûpon kin eksklusyf wurde beheind ta leden fan keazen klantklubs.",
     },
     cluster: {
       subtitle:
-        "op ûnderdiel dit coupon mei kluster, jo kin ûnderdiel behear ûnderdiel ûnderdiel ûnderdiel boarnen yn ûnderdiel Lokaasje.",
+        "Troch dizze kûpon te assosjearjen mei in kluster, kinne jo it maklik beheare neist oare boarnen op ien lokaasje.",
     },
     preview: {
       subtitle: "ûnderdiel iepenbier foarbyld fan coupon.",
@@ -6422,18 +6422,18 @@ export default {
     },
     config: {
       subtitle:
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel op ûnderdiel ûnderdiel titel, beskriuwing, en iepenbier ûnderdiel status.",
+        "Begjin mei it meitsjen fan in yntelliginte deal troch it fêststellen fan de titel, beskriuwing en publike beskikberensstatus.",
     },
     limit: {
       subtitle: "ynstelle maksimum ûnderdiel limyt foar dit oanbieding yn dit seksje.",
     },
     duration: {
       subtitle:
-        "ûnderdiel jo ûnderdiel nei ynstelle ûnderdiel ûnderdiel foar oanbieding, jo kin konfigurearje doer ûnderdiel.",
+        "As jo ​​​​in spesifyk tiidframe wolle ynstelle foar in oanbod, kinne jo de doer hjir ynstelle.",
     },
     constraints: {
       subtitle:
-        "ynstelle ûnderdiel ûnderdiel en betingsten foar oanbieding ûnderdiel. oanbieding tapasse nei ûnderdiel ûnderdielen dat ûnderdiel ûnderdiel betingsten.",
+        "Stel hjir de kwalifikaasjekritearia en betingsten foar it oanbod yn. It oanbod jildt foar cart items dy't foldogge oan dizze betingsten.",
     },
     discounted_products: {
       title: "ûnderdiel Produkten",
@@ -6442,7 +6442,7 @@ export default {
     },
     cluster: {
       subtitle:
-        "op ûnderdiel dit oanbieding mei kluster, jo kin ûnderdiel behear ûnderdiel ûnderdiel ûnderdiel boarnen yn ûnderdiel Lokaasje.",
+        "Troch dit oanbod te assosjearjen mei in kluster, kinne jo it maklik beheare neist oare boarnen op ien lokaasje.",
     },
   },
 
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "Konfigurearje en behear dizze opsje foar jo winkel.",
+        "Boost klantoankeapen mei in gamified ûnderfining yn jo winkel. Stel prizen en winnende kânsen op foar klanten dy't tokens fertsjinje troch oankeapen. Elts spul spylje kostet 10 tokens, en do kinst biede spesjale prizen foar earste kear keapers. It standertspultsje is Wheel of Fortune, mar jo kinne it oanpasse oan 'e yndieling fan jo winkel.",
     },
-    empty_prize_list: "Meitsje en behear ûnderdiel ûnderdiel...",
+    empty_prize_list: "Meitsje en beheare prizen hjir...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Winning Kâns yn prosint",
     free_for_first: "Is it fergees foar nije klanten?",
     free_for_first_message: "Nije klanten kinne winne dit item.",
-    not_free_for_first_message: "dit ûnderdiel net beskikber foar ûnderdiel fergees ûnderdiel.",
+    not_free_for_first_message: "Dizze priis net beskikber foar earste frije toanielstik.",
 
     amount: "Priis bedrach",
     amount_hint: "Brûkers winne dit bedrach fan kosten foar har bestelling.",
@@ -6614,19 +6614,19 @@ export default {
     },
     config: {
       subtitle:
-        "ûnderdiel, jo kin Meitsje jo ûnderdiel lotterij ûnderdiel. ynstelle titel, beskriuwing, kleur, en ôfbylding foar ûnderdiel ûnderdiel.",
+        "Hjir kinne jo de lotterijprizen fan jo winkel meitsje. Stel de titel, beskriuwing, kleur en ôfbylding foar elke priis yn.",
     },
     design: {
       subtitle:
-        "ûnderdiel, jo ûnderdiel ûnderdiel nei kieze ôfbylding en kleur foar ûnderdiel.",
+        "Hjir hawwe jo de opsje om in ôfbylding en kleur te kiezen foar de priis.",
     },
     constraints: {
-      subtitle: "ûnderdiel ûnderdiel en beheiningen foar ûnderdiel dit ûnderdiel.",
+      subtitle: "Spesifisearje de kritearia en beheiningen foar it winnen fan dizze priis.",
     },
     prize: {
       title: "ûnderdiel",
       subtitle:
-        "ynstelle ûnderdiel ûnderdiel details ûnderdiel. opsjes opnimme koarting koade, kado ûnderdiel, ûnderdiel, en ûnderdiel koarting lotterij ûnderdiel.",
+        "Stel de priisdetails hjir yn. Opsjes omfetsje koartingskoades, kadokaarten, credits en oare koartingen as lotterijbeleanningen.",
     },
     product_input: {
       label: "produkt ûnderdiel",
@@ -7041,18 +7041,18 @@ export default {
     vendor: {
       title: "ymportearje ferkeapers",
       subtitle:
-        "oplade ferkeaper CSV bestannen ûnderdiel. ûnderdiel ûnderdiel is korrekt en ûnderdiel nei privacy ûnderdiel.",
+        "Upload CSV-bestannen fan ferkeaper hjir. Soargje derfoar dat it formaat korrekt is en hâldt him oan privacyregels.",
       checklist: {
-        title: "ûnderdiel ûnderdiel",
-        subtitle: "ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel.",
+        title: "Wichtige Checklist",
+        subtitle: "Wês wis dat jo de rjochtlinen folgje.",
         sample_files: "foarbyld bestannen",
         valid_vendor_name_needed:
-          "jo moat ûnderdiel <b>jildich namme</b>. <b>namme</b> is brûkt nei ûnderdiel ûnderdiel nei <i>Meitsje</i> nij ferkeaper of <i>Bywurkje</i> ûnderdiel ûnderdiel.",
+          "You must provide a <b>valid name</b>. The <b>name</b> is used to determine whether to <i>Create</i> a new vendor or <i>Update</i> an existing one.",
         assign_user_after_import:
-          "ûnderdiel ûnderdiel ferkeapers, jo kin ûnderdiel ûnderdiel brûker nei ûnderdiel ûnderdiel tagong nei ferkeaper ûnderdiel.",
+          "Nei it ymportearjen fan leveransiers kinne jo in brûker manuell tawize om har tagong te jaan ta it ferkeaperspaniel.",
       },
       need_kyc_alert:
-        "jo ûnderdiel nei ûnderdiel jo persoanlik ynformaasje ûnderdiel ûnderdiel ferkeapers.",
+        "Jo moatte jo persoanlike ynformaasje ferifiearje foardat jo leveransiers ymportearje.",
       back_to_vendors_list: "Werom nei ferkeaper list",
     },
   },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "iepenje ferkeapers ûnderdiel",
     title: "ferkeaper fersyk list",
     subtitle:
-      "dit is list fan fersyk Fan ûnderdiel ûnderdiel ûnderdiel ûnderdiel nei ûnderdiel ferkeapers yn jo ûnderdiel.",
+      "Dit is in list mei oanfragen fan persoanen dy't har oanfrege om ferkeapers te wurden op jo merk.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7091,7 +7091,7 @@ export default {
         "Konfigurearje en behear dizze opsje foar jo winkel.",
     },
     distribution_model: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Distribúsje Model",
       subtitle:
         "Konfigurearje en behear dizze opsje foar jo winkel.",
     },
@@ -7112,15 +7112,15 @@ export default {
     documents: {
       title: "dokuminten",
       subtitle:
-        "jo kin ûnderdiel jo ferkeapers nei oplade dokuminten of ûndertekenje ûnderdiel ûnderdiel. ûnderdiel ûnderdiel dokuminten ûnderdiel.",
+        "Jo kinne jo leveransiers freegje om dokuminten te uploaden of bepaalde kontrakten te tekenjen. Spesifisearje hjir de fereaske dokuminten.",
       add_document_action: "Tafoegje dokumint fersyk",
     },
     inputs: {
       enable: {
         false_description:
-          "ûnderdiel is ûnderdiel ûnderdiel, ûnderdiel alles ûnderdiel ûnderdiel.",
+          "De merk is útskeakele, wêrtroch alle funksjonaliteiten fan 'e merkplak útskeakelje.",
         true_description:
-          "ûnderdiel is aktyf, ûnderdiel alles ûnderdiel ûnderdiel.",
+          "De merk is aktyf, wêrtroch alle funksjonaliteiten fan 'e merk ynskeakelje.",
       },
       product: {
         label: "Tafoegje nij produkt",
@@ -7128,14 +7128,14 @@ export default {
         false_description:
           "jo Tafoegje Produkten en ûnderdiel ferkeapers. ferkeapers kin ûnderdiel behear priis en ynventaris.",
         true_description:
-          "ferkeapers kin Tafoegje en behear ûnderdiel ûnderdiel Produkten ûnderdiel yn ûnderdiel ferkeaper ûnderdiel.",
+          "Ferkeapers kinne har eigen produkten direkt tafoegje en beheare yn har ferkeaperspaniel.",
       },
       need_verify: {
         label: "produkt ferifikaasje ûnderdiel",
         false_description: "nij ferkeaper Produkten gean live ûnderdiel.",
         false_title: "ûnderdiel ferifikaasje ûnderdiel",
         true_description:
-          "ferkeapers nij Produkten ûnderdiel ûnderdiel ûnderdiel ûnderdiel live op ûnderdiel.",
+          "Nije produkten fan leveransiers fereaskje goedkarring foardat se live op 'e merke komme.",
         true_title: "ferifikaasje ûnderdiel",
       },
       category: {
@@ -7144,27 +7144,27 @@ export default {
         false_description:
           "jo Tafoegje kategory. ferkeapers kin ûnderdiel Tafoegje Produkten nei ûnderdiel kategory.",
         true_description:
-          "ferkeapers kin Tafoegje en behear kategory ûnderdiel yn ûnderdiel ferkeaper ûnderdiel.",
+          "Ferkeapers kinne kategoryen direkt tafoegje en beheare yn har ferkeaperspaniel.",
       },
       shipping: {
         label: "Ferstjoering opsjes",
         true_title: "ferkeapers ûnderdiel Ferstjoering opsjes",
         false_description:
-          "ferkeapers ûnderdiel Tafoegje of ûnderdiel ûnderdiel Ferstjoermetoaden.",
+          "Ferkeapers kinne har ferstjoermetoaden net tafoegje of oanpasse.",
         true_description:
-          "ferkeapers kin ynstelle ûnderdiel ûnderdiel ûnderdiel Ferstjoermetoaden, Tafoegje ûnderdiel, en ûnderdiel Ferstjoering foar ûnderdiel ûnderdiel.",
+          "Ferkeapers kinne har eigen ferstjoermetoaden ynstelle, koeriers tafoegje en ferstjoering oanpasse foar har behoeften.",
       },
       hidden_customer: {
         label: "Toane ûnderdiel kontakt ynformaasje",
         true_description: "ûnderdiel kontakt details binne ûnderdiel Fan ferkeapers.",
         false_description:
-          "ûnderdiel kontakt details, ûnderdiel tillefoan en e-post, binne ûnderdiel nei ferkeapers.",
+          "Keaperkontaktgegevens, lykas tillefoan en e-post, binne sichtber foar leveransiers.",
       },
       multi: {
         false_description:
-          "brûker kin ûnderdiel ûnderdiel ûnderdiel ferkeaper akkount. brûkers sil ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel ûnderdiel /ferkeapers.",
+          "In brûker kin mar ien ferkeaper akkount hawwe. Brûkers wurde omlaat nei har paniel by /ferkeapers.",
         true_description:
-          "brûker kin ûnderdiel ûnderdiel ferkeaper akkounts. dit is ûnderdiel eigenskip; graach kontakt us ûnderdiel mei ûnderdiel.",
+          "In brûker kin meardere ferkeaper akkounts hawwe. Dit is in beta-funksje; nim dan kontakt mei ús op foardat jo it brûke.",
         true_title: "ûnderdiel modus",
         false_title: "ûnderdiel ferkeaper modus (standert)",
       },
@@ -7189,12 +7189,12 @@ export default {
       type: {
         title: "Dokuminttype",
         subtitle:
-          "Tafoegje dokumint fersyk ûnderdiel ûnderdiel. ûnderdiel sil ûnderdiel yn ûnderdiel ûnderdiel, ûnderdiel ûnderdiel nei oplade ûnderdiel dokumint.",
+          "Foegje hjir in dokumintfersyk-item ta. It sil ferskine yn it paniel fan 'e ferkeaper, wêrtroch se it fereaske dokumint moatte uploade.",
       },
       guide: {
         title: "Gids",
         subtitle:
-          "ûnderdiel ûnderdiel Gids nei help ferkeapers ûnderdiel ûnderdiel dokuminten nei oplade en ûnderdiel nei ûnderdiel ûnderdiel ûnderdiel.",
+          "Jou in koarte hantlieding om leveransiers te helpen te begripen hokker dokuminten te uploaden en hoe it goed te dwaan.",
       },
       code: {
         title: "ynfoegje koade",
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "Gids (ûnderdiel)",
           placeholder:
-            "ûnderdiel, ûnderdiel ûnderdiel Gids of ûnderdiel, ûnderdiel keppelings nei ûnderdiel of ûnderdiel dokuminten.",
+            "Jou opsjoneel in koarte hantlieding of ynstruksjes, ynklusyf keppelings nei kontrakten of oare dokuminten.",
         },
         code: {
           label: "ynfoegje koade",
@@ -7223,7 +7223,7 @@ export default {
         },
         url: {
           label: "URL",
-          message: "ynfiere URL foar dokumint of ûnderdiel ûnderdiel...",
+          message: "Fier hjir de URL yn foar it dokumint of kontrakt...",
         },
       },
     },
@@ -7241,7 +7241,7 @@ export default {
     Direct: {
       title: "direkt Ferstjoering Fan ferkeaper",
       description:
-        "yn dit modus, ferkeapers ûnderdiel Bestellingen ûnderdiel nei Klanten. Ferstjoering adres foar ferkeaper Bestellingen sil ûnderdiel ûnderdiel adres.",
+        "Yn dizze modus ferstjoere leveransiers bestellingen direkt nei klanten. It ferstjoeradres foar bestellingen fan ferkeapers sil it adres fan de keaper wêze.",
     },
   },
   /**
@@ -7251,42 +7251,42 @@ export default {
     Identification: {
       title: "eigner ûnderdiel dokumint",
       description:
-        "oplade ûnderdiel ID nei ûnderdiel ûnderdiel fan bedriuw eigner of kaai ûnderdiel.",
+        "Upload in troch de regearing útjûn ID om de identiteit fan 'e bedriuwseigner of haadbestjoerder te ferifiearjen.",
     },
     Business: {
       title: "bedriuw ûnderdiel",
       description:
-        "ûnderdiel ûnderdiel bedriuw dokuminten ûnderdiel lisinsje of ûnderdiel ûnderdiel nei befêstigje ûnderdiel status fan jo bedriuw.",
+        "Jou essensjele saaklike dokuminten lykas lisinsjes of registraasjesertifikaten om de juridyske status fan jo bedriuw te befêstigjen.",
     },
     Address: {
       title: "adres ferifikaasje",
       description:
-        "ûnderdiel dokumint nei ûnderdiel jo bedriuw adres, ûnderdiel ûnderdiel rekken, belesting faktuer, of ûnderdiel ûnderdiel.",
+        "Tsjinje in dokumint yn om jo bedriuwsadres te ferifiearjen, lykas in nutsbedriuw, belestingfaktuer, of lease-oerienkomst.",
     },
     Contract: {
       title: "ûnderdiel & ûnderdiel",
       description:
-        "oplade ûnderdiel of ûnderdiel dat ûnderdiel betingsten en betingsten fan jo bedriuw ûnderdiel.",
+        "Upload kontrakten as oerienkomsten dy't de betingsten en kondysjes fan jo saaklike relaasjes detailje.",
     },
     Copyright: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Copyright dokumintaasje",
       description:
-        "ûnderdiel ûnderdiel ûnderdiel dokuminten nei ûnderdiel jo ûnderdiel eigenskip rjochts.",
+        "Jou auteursrjochtregistraasjedokuminten om jo yntellektuele eigendomsrjochten te befêstigjen.",
     },
     Privacy: {
       title: "privacy ûnderdiel dokuminten",
       description:
-        "opnimme jo privacy ûnderdiel dokuminten nei ûnderdiel jo ûnderdiel nei ûnderdiel brûker en klant ynformaasje.",
+        "Omfetsje jo dokuminten foar privacybelied om jo ynset foar it beskermjen fan brûkers- en klantynformaasje te demonstrearjen.",
     },
     Embed: {
       title: "ûnderdiel Formulier",
       description:
-        "foltôge ûnderdiel Formulier nei ûnderdiel ûnderdiel ynformaasje.",
+        "Folje it ynbêde formulier yn om de fereaske ynformaasje te leverjen.",
     },
     Link: {
       title: "ekstern keppeling",
       description:
-        "ûnderdiel ekstern keppeling nei ûnderdiel ûnderdiel ynformaasje.",
+        "Folgje de eksterne keppeling om de nedige ynformaasje te jaan.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Ferkeaperwallets",
     subtitle:
-      "Konfigurearje en behear dizze opsje foar jo winkel.",
+      "Gjin needsaak om slúven manuell ta te foegjen! Ferkeaper wallets wurde automatysk oanmakke. As jo ​​in betelmetoade ynskeakelje dy't spjalte betellingen stipet (lykas Stripe Connect), sil it systeem automatysk betellingen fersprieden nei de akkounts fan 'e ferbûne leveransiers. As dizze funksje net ynskeakele is, moatte jo leveransiers mei de hân betelje, en jo kinne de skulden oan har kontrolearje yn 'e beurslist.",
     filter_vendor: {
       placeholder: "filter op ferkeaper...",
     },
@@ -7341,7 +7341,7 @@ export default {
   vendor_pricing_add: {
     title: "ûnderdiel priisstelling ûnderdiel",
     subtitle:
-      "ûnderdiel jo ûnderdiel priisstelling ûnderdiel nei ferkeaper Produkten, priis sil ûnderdiel ûnderdiel ûnderdiel ferkeaper priis * (1 + kommisje%).",
+      "As jo ​​in priismodel tawize oan ferkeaperprodukten, sil de priis automatysk berekkene wurde as Ferkeaperpriis * (1 + Kommisje%).",
     delete: {
       subtitle:
         "Konfigurearje en behear dizze opsje foar jo winkel.",
@@ -7349,14 +7349,14 @@ export default {
     },
     inputs: {
       title: {
-        placeholder: "ûnderdiel.ûnderdiel., ûnderdiel Produkten ûnderdiel...",
+        placeholder: "bgl. Klasse digitale produkten...",
       },
       description: {
         placeholder: "jo kin Tafoegje notysje ûnderdiel...",
       },
       accept_delete: {
-        true_description: "ûnderdiel ûnderdiel nei Wiskje dit priisstelling ûnderdiel.",
-        true_title: "befêstigje priisstelling ûnderdiel ûnderdiel",
+        true_description: "Ik wol dit priismodel wiskje.",
+        true_title: "Befêstigje Pricing Model Removal",
       },
     },
   },
@@ -7373,17 +7373,17 @@ export default {
     vendor_wallet: "ferkeaper wallet",
     vendor_bank_account: "ferkeaper bank akkount",
     with_balance_tooltip:
-      "ûnderdiel jo connect útbetelling tsjinsten ûnderdiel Stripe Connect, ûnderdiel ûnderdiel en ûnderdiel beskikber saldo yn jo Stripe akkount foar ûnderdiel.",
+      "As jo ​​​​útkearingstsjinsten ferbine lykas Stripe Connect, helje wy it beskikbere saldo op jo Stripe-akkount foar referinsje.",
     with_balance: "mei saldo",
     without_balance: "ûnderdiel saldo - ûnderdiel modus",
     bank_transfer: {
       title: "Bankoerdracht",
       subtitle:
-        "dit is rekord fan Betelling skiednis. ûnderdiel ûnderdiel jild sil ûnderdiel ûnderdiel nei ferkeaper op ûnderdiel; jo moat ûnderdiel betelje jo ferkeapers.",
+        "Dit is in rekord fan betelling skiednis. Gjin eigentlike jild wurdt oerdroegen oan de ferkeaper troch it systeem; jo moatte jo leveransiers mei de hân betelje.",
     },
     vendor_bank: "ferkeaper bank",
     gateway_in_debug_mode_warning:
-      "ûnderdiel Betellingspoarte is ûnderdiel yn debug modus, ûnderdiel sil net ûnderdiel ûnderdiel nei ûnderdiel akkount.",
+      "Sûnt de betellingspoarte is op it stuit yn debugmodus, sille fûnsen net wurde oerdroegen oan in echte akkount.",
     payment: {
       title: "Betelling",
       subtitle:
@@ -7408,20 +7408,20 @@ export default {
           "jo kin Tafoegje notysje ûnderdiel... dit notysje is net ûnderdiel nei ferkeaper.",
       },
       accept_refund: {
-        true_description: "ûnderdiel ûnderdiel nei Annulearje dit Betelling.",
+        true_description: "Ik wol dizze betelling annulearje.",
         true_title: "Annulearje & werombetelling Betelling",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "ûnderdiel ûnderdiel",
+        title: "Fûns omkeard",
         message:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
       },
       payout_success: {
         title: "útbetelling",
         message:
-          "ûnderdiel útbetelling hat ûnderdiel ûnderdiel ûnderdiel en ûnderdiel.",
+          "De betelling fan de ferkeaper is mei súkses ferwurke en tafoege.",
       },
     },
   },
@@ -7431,9 +7431,9 @@ export default {
    */
   quota_importer: {
     quota: "ûnderdiel",
-    max_batch_msg: "maksimum nûmer fan ûnderdielen jo kin ymportearje yn ûnderdiel ûnderdiel.",
+    max_batch_msg: "Maksimum oantal items kinne jo ymportearje yn ien batch.",
     max_daily_limit_msg: "maksimum nûmer fan ûnderdielen jo kin ymportearje yn dei.",
-    extra_daily_limit_msg: "ûnderdiel ûnderdielen tastien ûnderdiel ûnderdiel limyt.",
+    extra_daily_limit_msg: "Oanfoljende items tastien bûten de deistige limyt.",
     add_items_today_msg: "ûnderdielen ûnderdiel hjoed.",
     file_statistic_msg: "ûnderdiel foar dit bestân.",
     used_quota: "brûkt ûnderdiel",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "ûnderdiel titel",
-      subtitle: "hichte fan titel sil ûnderdiel ûnderdiel.",
+      subtitle: "De hichte fan 'e titel sil dynamysk oanpasse.",
     },
 
     animation: {
@@ -7509,9 +7509,9 @@ export default {
       static: {
         false_title: "mei ûnderdiel",
         false_description:
-          "kategory en Produkten ûnderdiel ûnderdiel ûnderdiel nei Toane ûnderdiel.",
+          "Kategoryen en produkten hawwe in ynteraktive animaasje om de funksjonaliteit te sjen.",
         true_title: "Statysk",
-        true_description: "kategory en Produkten ûnderdiel ûnderdiel ûnderdiel.",
+        true_description: "Kategoryen en produkten hawwe gjin animaasje.",
       },
     },
 
@@ -7519,9 +7519,9 @@ export default {
       title: "ûnderdiel aksje",
       hover: {
         false_description:
-          "ienfâldich en ûnderdiel modus ûnderdiel ûnderdiel ûnderdiel aksje op produkt ûnderdiel.",
+          "Ienfâldige en minimale modus sûnder ekstra aksjes op produktkaarten.",
         true_description:
-          "Toane ûnderdiel ûnderdiel & Tafoegje nei ûnderdiel knop op produkt ûnderdiel ûnderdiel.",
+          "Toan fluch keapje en taheakje om knoppen te fergelykjen op produktkaart hoverjen.",
         true_title: "Toane aksje op ûnderdiel",
       },
     },
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "Produktside",
       subtitle:
-        "ûnderdiel jo Produktside ûnderdiel. jo kin ûnderdiel ûnderdiel fan priis en ûnderdiel ûnderdiel fan seksjes nei ûnderdiel jo foarkarren.",
+        "Personalisearje jo produktside hjir. Jo kinne de werjefte fan prizen oanpasse en de arranzjemint fan seksjes oanpasse oan jo foarkar.",
       buy_button_color: "ûnderdiel knop kleur",
       smart_price: {
         title: "ûnderdiel ienheid priis",
@@ -7561,14 +7561,14 @@ export default {
         false_title: "Normale modus",
         true_title: "ûnderdiel modus",
         false_description:
-          "faluta ûndertekenje sil ûnderdiel ûnderdiel ûnderdiel begjin fan nûmer. ûnderdiel $95, €30",
+          "It falutateken sil oan it begjin fan 'e nûmers pleatst wurde. Bygelyks: $95, €30",
         true_description:
-          "faluta ûndertekenje sil ûnderdiel ûnderdiel ûnderdiel ûnderdiel fan nûmer. ûnderdiel 95$, 30€",
+          "It falutateken sil oan 'e ein fan' e nûmers pleatst wurde. Bygelyks: 95$ , 30€",
       },
       variants_selector: {
         title: "farianten ûnderdiel",
         subtitle:
-          "jo kin kieze ûnderdiel ûnderdiel nei ûnderdiel farianten op Produktside.",
+          "Jo kinne ferskate manieren kieze om farianten op 'e produktpagina te werjaan.",
       },
 
       tabs_order: {
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "ûnderdiel & oanmelde",
       subtitle:
-        "ûnderdiel ferkeaper ûnderdiel en oanmelde ûnderdiel mei oanpast fideo, ôfbylding, of berjocht.",
+        "Personalisearje de ferkeaper-onboarding en oanmeldûnderfining mei in oanpaste fideo, ôfbylding of berjocht.",
     },
     inputs: {
       page_vendor_login: {
@@ -7596,7 +7596,7 @@ export default {
       page_vendor_registered: {
         label: "ferkeaper registrearre side",
         message:
-          "selektearje oanpast side foar ûnderdiel ferkeapers. dit side is ûnderdiel ûnderdiel jo ûnderdiel stipe ûnderdiel ferkeapers ûnderdiel brûker.",
+          "Selektearje in oanpaste side foar oanmelde leveransiers. Dizze side wurdt werjûn as jo merkplak meardere leveransiers per brûker stipet.",
       },
     },
   },
@@ -7618,7 +7618,7 @@ export default {
     inputs: {
       font_family: {
         label: "lettertype ûnderdiel",
-        message: "ynfiere ûnderdiel ûnderdiel.",
+        message: "Fier de lettertypefamyljewearde yn.",
       },
       font_res: {
         label: "lettertype ûnderdiel",
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "ûnderdiel modus",
       description:
-        "ûnderdiel farianten yn ûnderdiel ûnderdiel opsjes, ûnderdiel foar ûnderdiel ûnderdiel.",
+        "Kompakte farianten yn selektearjebare aparte opsjes, geskikt foar de measte gefallen.",
     },
     select: {
       title: "selektearje modus",
       description:
-        "ûnderdiel alles farianten yn ûnderdiel, ûnderdiel foar ûnderdiel nûmer fan farianten.",
+        "Toant alle farianten yn in dropdown, ideaal foar in grut oantal farianten.",
     },
   },
 
@@ -7677,7 +7677,7 @@ export default {
     add_title: "Tafoegje eigenskip ynstelle",
     config: {
       subtitle:
-        "ynstelle titel en beskriuwing foar jo eigenskip ynstelle. ûnderdiel sil ûnderdiel ûnderdiel nei personiel ûnderdiel.",
+        "Set titel en beskriuwing foar jo eigendom set. It sil allinich sichtber wêze foar personiel.",
     },
     variants: {
       title: "Farianten",
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "ynstelle ûnderdiel ynstelle... (ûnderdiel)",
         messages:
-          "jo kin ûnderdiel ûnderdiel foar ûnderdiel en ûnderdiel bestelling.",
+          "Jo kinne suggestjes foar de wearden leverje en folchoarder oanpasse.",
       },
     },
   },
@@ -7830,17 +7830,17 @@ export default {
     edit_title: "Bewurkje klant",
     add_title: "Tafoegje nij klant",
     subtitle:
-      "nei Tafoegje klant nei jo winkel, graach ûnderdiel ûnderdiel e-post adres of tillefoan nûmer.",
+      "Om in klant ta te foegjen oan jo winkel, jou asjebleaft in e-mailadres as in telefoannûmer.",
     more: {
       title: "Foegje mear details ta",
       subtitle: "ynstelle faluta, Klantklub, ûnderdiel, adres en mear.",
     },
     detail: {
       subtitle:
-        "ûnderdiel rekord fan persoanlik ynformaasje oer jo klant. graach ûnderdiel jo ûnderdiel privacy.",
+        "Hâld in rekord fan persoanlike ynformaasje oer jo klant. Respektearje asjebleaft de privacy fan jo klant.",
     },
     preferences: {
-      subtitle: "ynstelle standert brûker faluta, Klantklub, en ûnderdiel ûnderdiel.",
+      subtitle: "Stel hjir standert brûkersfaluta, klantklup en segminten yn.",
     },
     address: {
       subtitle:
@@ -7937,12 +7937,12 @@ export default {
     message_add_to_service:
       "Klikje op de folgjende knop as jo dit pakket wolle ferstjoere troch in <b>leveringstsjinst</b>.",
     courier_action: "levering ûnderdiel",
-    courier_action_subtitle: "ûnderdiel ûnderdiel sil ûnderdiel ûnderdiel ûnderdiel.",
+    courier_action_subtitle: "Myn koerier sil it pakje ophelje.",
 
     pickup_ready_action: "ôfheljen ûnderdiel",
     pickup_ready_action_subtitle: "bestelling is ûnderdiel foar klant ôfheljen.",
 
-    service_action: "ûnderdiel ûnderdiel",
+    service_action: "Befêstiging fan útfiering",
 
     checklist: [
       "Kontrolearje koerier syn identiteitskaart.",
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "befêstigje levering ûnderdiel",
       true_description:
-        "ûnderdiel befêstigje dat bestelling hat ûnderdiel ûnderdiel nei klant.",
+        "Ik befêstigje dat de bestelling is levere oan de klant.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "ûnderdiel Dashboard",
     subtitle:
-      "ûnderdiel jo fersyk, kommisje fergoeding sil ûnderdiel ûnderdiel nei bank akkount ûnderdiel op jo. graach ûnderdiel jo bank ynformaasje ûnderdiel.",
+      "Op jo oanfraach sil de kommisjefergoeding wurde betelle op it troch jo oantsjutte bankrekken. Jou asjebleaft jo bankynformaasje hjir.",
     no_bank_info: "ûnderdiel bank ynfo!",
     actions: {
       edit_my_bank_info: "Bewurkje ûnderdiel bank ynfo",
@@ -8018,32 +8018,32 @@ export default {
       inputs: {
         name: {
           label: "bank namme",
-          message: "ûnderdiel namme fan bank ûnderdiel akkount is ûnderdiel.",
+          message: "De folsleine namme fan 'e bank wêr't it akkount wurdt hâlden.",
         },
         holder_name: {
           label: "akkount ûnderdiel namme",
           message:
-            "ûnderdiel namme fan ûnderdiel of ûnderdiel dat ûnderdiel akkount.",
+            "De folsleine namme fan 'e persoan of entiteit dy't it akkount hâldt.",
         },
         account_number: {
           label: "akkount nûmer",
           message:
-            "ûnderdiel nûmer ûnderdiel mei ûnderdiel bank akkount.",
+            "It unike nûmer ferbûn mei de spesifike bankrekken.",
         },
         routing_number: {
           label: "ûnderdiel nûmer (USA) of sortearje koade (UK)",
           message:
-            "nûmer dat ûnderdiel ûnderdiel bank ûnderdiel (ûnderdiel betingsten binne brûkt yn ûnderdiel lannen).",
+            "In nûmer dat de spesifike bankfiliaal identifisearret (ferskillende termen wurde brûkt yn ferskate lannen).",
         },
         swift: {
           label: "SWIFT/BIC koade",
           message:
-            "ûnderdiel koade brûkt nei ûnderdiel bank ûnderdiel, ûnderdiel foar ûnderdiel oerdracht.",
+            "In ynternasjonale koade brûkt om banken wrâldwiid te identifisearjen, foaral foar ynternasjonale oerdrachten.",
         },
         iban: {
           label: "IBAN (Ynternasjonaal bankrekkennûmer)",
           message:
-            "brûkt ûnderdiel yn ûnderdiel, IBAN is ûnderdiel ûnderdiel ûnderdiel foar ûnderdiel bank akkounts ûnderdiel ûnderdiel ûnderdiel.",
+            "It IBAN wurdt fral brûkt yn Jeropa en is in ynternasjonaal oerienkommen systeem foar it identifisearjen fan bankrekken oer nasjonale grinzen.",
         },
         contact: {
           label: "Kontakt ynformaasje",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "jo bank ynfo ûnderdiel ûnderdiel bywurke.",
+        message: "Jo bankynformaasje is mei súkses bywurke.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Fan alles tsjinst fergoeding, abonnemint en ûnderdiel betellingen ûnderdiel op jo ûnderdiel.",
+      "Fan alle tsjinstferliening, abonnemint en oare betellingen makke troch jo ferwizings.",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Tier Brûns",
       description:
-        "jo binne yn ûnderdiel ûnderdiel. jo ûnderdiel ûnderdiel 2% kommisje Fan jo ûnderdiel.",
+        "Jo binne yn 'e Brûnzen Tier. Jo hawwe 2% kommisje fertsjinne fan jo ferwizings.",
     },
     Silver: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Tier Sulver",
       description:
-        "jo binne yn ûnderdiel ûnderdiel. jo ûnderdiel ûnderdiel 4% kommisje Fan jo ûnderdiel.",
+        "Jo binne yn 'e Silver Tier. Jo hawwe 4% kommisje fertsjinne fan jo ferwizings.",
     },
     Gold: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Tier Goud",
       description:
-        "jo binne yn ûnderdiel ûnderdiel. jo ûnderdiel ûnderdiel 6% kommisje Fan jo ûnderdiel.",
+        "Jo binne yn 'e Gold Tier. Jo hawwe 6% kommisje fertsjinne fan jo ferwizings.",
     },
     Platinum: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Tier Platinum",
       description:
-        "jo binne yn ûnderdiel ûnderdiel. jo ûnderdiel ûnderdiel 8% kommisje Fan jo ûnderdiel.",
+        "Jo binne yn 'e Platinum Tier. Jo hawwe 8% kommisje fertsjinne fan jo ferwizings.",
     },
     Diamond: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Tier Diamond",
       description:
-        "jo binne yn ûnderdiel ûnderdiel. jo ûnderdiel ûnderdiel 10% kommisje Fan jo ûnderdiel.",
+        "Jo binne yn 'e Diamond Tier. Jo hawwe 10% kommisje fertsjinne fan jo ferwizings.",
     },
   },
 
@@ -8528,20 +8528,20 @@ export default {
       valid_message: "jo kin Meitsje oanpast SMS berjocht.",
       provider_not_enable_message: "SMS ûnderdiel is net ynskeakele!",
       need_custom_provider_message:
-        "ûnderdiel SMS berjocht ûnderdiel ûnderdiel ûnderdiel jo ynstelle oanpast ûnderdiel.",
+        "Oanpaste SMS-berjochten wurkje allinich as jo in oanpaste provider ynstelle.",
       add_new: "Tafoegje nij",
       disable_reason: {
-        set_provider: "ynstelle jo ûnderdiel ûnderdiel!",
+        set_provider: "Stel jo provider earst yn!",
         provider_is_disabled: "ûnderdiel is ûnderdiel!",
-        otp: "OTP - ûnderdiel ûnderdiel!",
-        select_another_provider: "selektearje ûnderdiel ûnderdiel.",
+        otp: "OTP - Gjin oanpasber!",
+        select_another_provider: "Selektearje in oare provider.",
       },
       enable_only_filter: "Toane ûnderdiel ynskeakele",
 
       text_template_not_supported_msg:
-        "jo ûnderdiel ûnderdiel net stipe ûnderdiel tekst berjocht.",
+        "Jo provider stipet gjin gewoane tekstberjochten.",
       structure_template_not_supported_msg:
-        "jo ûnderdiel ûnderdiel net stipe ûnderdiel berjocht.",
+        "Jo provider stipet gjin strukturele berjochten.",
 
       structured_data: "ûnderdiel gegevens",
 
@@ -8558,20 +8558,20 @@ export default {
         subtitle:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         code: "Koade",
-        language_msg: "ûnderdiel ûnderdiel ûnderdiel nei ynstelle ûnderdiel standert.",
+        language_msg: "Lit it leech om it as standert yn te stellen.",
         enable_msg: "dit sjabloan sil ûnderdiel brûkt nei Meitsje berjocht.",
       },
       text: {
         title: "ûnderdiel tekst",
         subtitle:
-          "ynfiere ûnderdiel SMS berjocht ûnderdiel. ûnderdiel ûnderdiel sil ûnderdiel ûnderdiel mei ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel ferstjoerd nei brûker.",
+          "Fier hjir in persoanlike SMS-berjocht yn. Dynamyske wearden sille wurde ferfongen troch har werklike wearden foardat se nei de brûker stjoerd wurde.",
         message: "Berjocht",
         reset_to_default: "weromsette nei standert",
 
         auto_fill: {
-          title: "auto ûnderdiel ûnderdiel",
+          title: "Auto fill parameters",
           subtitle:
-            "jo kin brûk ûnderdiel fan ûnderdiel ûnderdiel yn tekst en Selldone sil ûnderdiel ûnderdiel mei ûnderdiel ûnderdiel.",
+            "Jo kinne elk fan dizze parameters brûke yn 'e tekst en Selldone sil se ferfange troch de oerienkommende wearde.",
         },
 
         sample: {
@@ -8581,11 +8581,11 @@ export default {
       template: {
         title: "ûnderdiel sjabloan",
         subtitle:
-          "jo kin ynstelle sjabloan kaai en ûnderdiel ûnderdiel. sjabloan koade moat ûnderdiel ûnderdiel ûnderdiel jo ynstelle yn jo SMS tsjinst ûnderdiel, en <code>kaai</code> is ûnderdiel jo ûnderdiel ûnderdiel nei ferstjoere koade ûnderdiel. ûnderdiel <code>ûnderdiel</code> ûnderdiel fan sjabloan is ûnderdiel, ûnderdiel <code>{code}</code> sil ûnderdiel ûnderdiel sjabloan koade.",
+          "Jo kinne hjir de sjabloankaai en wearde ynstelle. De sjabloankoade moat krekt wêze wat jo yn jo SMS-tsjinstferliener ynsteld hawwe, en de <code>key</code> is wat jo provider de koade troch stjoere wol. As it fjild <code>value</code> fan sjabloan leech is, dan sil <code>{code}</code> wurde beskôge as de sjabloankoade.",
         add_new_parameter: "Tafoegje nij ûnderdiel",
 
         auto_fill: {
-          title: "auto ûnderdiel ûnderdiel",
+          title: "Auto fill parameters",
           subtitle:
             "Konfigurearje en behear dizze opsje foar jo winkel.",
         },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "ûnderdiel tekst",
-      desc: "berjocht sil ûnderdiel ûnderdiel Fan tekst mei auto ûnderdiel ûnderdiel en ferstjoere.",
+      desc: "Berjocht sil oanmakke wurde út in tekst mei automatysk ferfange parameters en ferstjoere.",
     },
     template: {
       title: "ûnderdiel sjabloan",
-      desc: "ûnderdiel sil ûnderdiel ûnderdiel Fan ûnderdiel en ferstjoere nei ûnderdiel.",
+      desc: "In foarwerp sil oanmakke wurde út parameters en stjoere nei de provider.",
     },
   },
 
@@ -8621,18 +8621,18 @@ export default {
     plain_text: "ûnderdiel tekst",
     structural_template: "ûnderdiel sjabloan",
     errors_limit_msg:
-      "ûnderdiel jo tsjinst ûnderdiel 100 flater, ûnderdiel sil ûnderdiel útskeakele ûnderdiel! jo kin weromsette flater nei ûnderdiel ûnderdiel.",
+      "As jo ​​tsjinst mear as 100 flaters is, sil it automatysk útskeakele wurde! Jo kinne flaters weromsette om it opnij yn te skeakeljen.",
 
     enable_input: {
       false_description:
-        "OTP berjocht sil ûnderdiel ûnderdiel ûnderdiel Selldone yn selektearje lannen, ûnderdiel ûnderdiel bestelling notifikaasje SMS sil ûnderdiel ferstjoerd ûnderdiel.",
+        "OTP-berjochten sille wurde ferstjoerd fia Selldone yn selekteare lannen, wylst oare bestellingsnotifikaasje-SMS ek sil wurde ferstjoerd.",
       true_description:
-        "SMS berjocht sil ûnderdiel ûnderdiel mei jo tsjinst ûnderdiel.",
+        "SMS-berjochten wurde levere mei jo tsjinstferliener.",
     },
     test_input: {
       true_title: "ûnderdiel konfiguraasje",
       true_description:
-        "ûnderdiel sil ferstjoere test berjocht nei jo tillefoan nûmer 📞 <b>{phone}</b>, ûnderdiel kin oplade jo, ûnderdiel jo kin fertsjinje ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Wy stjoere in testberjocht nei jo tillefoannûmer 📞 <b>{phone}</b>, it kin jo oplade, mar jo kinne derfoar soargje dat alles goed wurket.",
     },
     sync_action: {
       title: "Aksjes",
@@ -8643,7 +8643,7 @@ export default {
     tokens: {
       title: "ûnderdiel",
       subtitle:
-        "ynstelle ûnderdiel ûnderdiel nei keppeling jo SMS tsjinst ûnderdiel mei jo winkel.",
+        "Stel de folgjende parameters yn om jo SMS-tsjinstprovider te keppeljen mei jo winkel.",
     },
   },
   sms_messages_options: {
@@ -8679,23 +8679,23 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "oanpast ûnderdiel ûnderdiel",
+    title: "Oanpaste e-posttsjinner",
     subtitle:
-      "Connect jo ûnderdiel tsjinst ûnderdiel nei ferstjoere e-post ûnderdiel jo oanpast domein.",
+      "Ferbine jo e-posttsjinstprovider om e-mails te ferstjoeren fia jo oanpaste domein.",
     provider: "ûnderdiel",
     enable_input: {
-      false_description: "jo e-post sil ûnderdiel ferstjoerd ûnderdiel jo ûnderdiel domein.",
-      true_description: "jo e-post sil ûnderdiel ferstjoerd ûnderdiel jo oanpast ûnderdiel domein.",
+      false_description: "Jo e-mails wurde ferstjoerd fia jo myselldone-domein.",
+      true_description: "Jo e-mails wurde ferstjoerd fia jo oanpaste e-postdomein.",
     },
     config: {
       title: "ûnderdiel",
       subtitle:
-        "nei konfigurearje jo oanpast ûnderdiel tsjinst foar jo winkel, ynfier jo tsjinst API kaai ûnderdiel mei ûnderdiel ûnderdiel Ynstellingen.",
+        "Om jo oanpaste e-posttsjinst foar jo winkel te konfigurearjen, ynfiere jo tsjinst API-kaai tegearre mei oare nedige ynstellings.",
     },
     sender: {
       title: "Fan",
       subtitle:
-        "jo kin konfigurearje standert ûnderdiel namme en e-post adres, ûnderdiel sil ûnderdiel brûkt foar ûnderdiel e-post nei jo Klanten.",
+        "Jo kinne de namme en e-postadres fan de standert ôfstjoerder ynstelle, dy't brûkt wurde foar it ferstjoeren fan e-post nei jo klanten.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "ûnderdiel jo tsjinst ûnderdiel 100 flater, ûnderdiel sil ûnderdiel útskeakele ûnderdiel! jo kin weromsette flater nei ûnderdiel ûnderdiel.",
+        "As jo ​​tsjinst mear as 100 flaters is, sil it automatysk útskeakele wurde! Jo kinne flaters weromsette om it opnij yn te skeakeljen.",
 
       encryption_ports_guide:
-        "e-post oanbieders ûnderdiel oanbieding SSL, TLS, of ûnderdiel ûnderdiel ûnderdiel op beskikber poarte. ûnderdiel ûnderdiel ûnderdiel yn flater, ûnderdiel ûnderdiel modus ûnderdiel ûnderdiel ûnderdiel. ûnderdiel <b>TLS</b> brûk poarte: <b>587</b> en <b>SSL</b> brûk poarte: <b>465</b>.",
+        "E-postproviders kinne SSL, TLS, of net-fersifere ferbiningen oanbiede op basis fan beskikbere havens. As ferbining resulteart yn in flater, kin it feroarjen fan de fersiferingsmodus it probleem oplosse. Standert <b>TLS</b> brûke Poarte: <b>587</b> en <b>SSL</b> brûke Poarte: <b>465</b>.",
 
       enable_receive_test:
-        "ûnderdiel Wizigingen bewarje, jo sil ûntfange test ûnderdiel op <b>{email}</b>. Wizigingen bewarje ûnderdiel ûnderdiel test e-post mei nij konfiguraasje.",
+        "Nei it bewarjen fan wizigingen krije jo in testmail op <b>{email}</b>. Bewarje wizigingen foardat jo in test-e-post ferstjoere mei de nije konfiguraasje.",
     },
   },
 
@@ -8947,11 +8947,11 @@ export default {
       delete_success: "Triem mei súkses wiske.",
     },
     drag_sort_msg: "jo kin slepe en sortearje bestannen.",
-    paid_mode_msg: "brûkers kin downloade ûnderdiel ûnderdiel ûnderdiel ûnderdiel produkt.",
+    paid_mode_msg: "Brûkers kinne it allinich downloade nei it keapjen fan it produkt.",
     free_mode_msg:
-      "brûkers kin downloade ûnderdiel foar fergees. foarbyld bestannen moat ûnderdiel ûnderdiel 50 MB.",
+      "Brûkers kinne it fergees downloade. Sample triemmen moatte wêze ûnder 50 MB.",
     has_gust_shopping_msg:
-      "registrearre en ûnderdiel brûkers kin downloade bestannen ûnderdiel ûnderdiel oankeapen binne ynskeakele yn ûnderdiel Ynstellingen > ûnderdiel.",
+      "Registrearre en gastbrûkers kinne bestannen downloade, om't gastoankeapen binne ynskeakele yn 'e ynstellings fan' e winkel> stream.",
     only_registered_shopping_msg:
       "ûnderdiel registrearre brûkers kin downloade foarbyld bestannen.",
     file_count_limit: "bestannen oantal limyt",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "beskikber lokaasje",
     subtitle:
-      "Konfigurearje en behear dizze opsje foar jo winkel.",
+      "As jo ​​produkt of tsjinst allinich beskikber is yn spesifike regio's, definieare troch lân en post- of pinkoades, kinne jo dizze lokaasjes hjir oanwize. Dizze lokaasjebeperkingen wurde hanthavene op produktnivo. Op de produktside wurde klanten frege har lokaasje te selektearjen. As it produkt beskikber is yn har keazen gebiet, kinne se trochgean mei de oankeap.",
 
     add_location_action: "Tafoegje lân",
     no_restriction: "ûnderdiel beheining",
@@ -8978,14 +8978,14 @@ export default {
     has_restriction_input: {
       title: "hat Lokaasje beheining",
       description:
-        "Klanten kin ûnderdiel oankeap dit produkt ûnderdiel ûnderdiel lân en ûnderdiel koade, ûnderdiel nei ûnderdiel Lokaasje beheining.",
+        "Klanten kinne dit produkt allinich keapje binnen it opjûne lân en postkoade, fanwege de fêststelde lokaasjebeheining.",
     },
     zip_pin_code: "ûnderdiel / ûnderdiel koade",
     no_country_selected_error:
-      "graach opnimme ûnderdiel ûnderdiel ûnderdiel lân ûnderdiel mei list fan ûnderdiel/ûnderdiel koade. ûnderdiel ûnderdiel, dit produkt sil net ûnderdiel beskikber.",
-    tips: "ûnderdiel op <b>+ Tafoegje lân</b> knop nei begjin ûnderdiel nij Lokaasje ynstelle. ûnderdiel ûnderdiel ûnderdiel, jo kin Bewarje ûnderdiel op ûnderdiel op ûnderdiel <b>⋮ menu</b> en ûnderdiel <b>Bewarje profyl</b>.",
+      "Meitsje asjebleaft op syn minst ien lân tegearre mei in list mei zip-/pinkoades. Sûnder it sil dit produkt net beskikber wêze.",
+    tips: "Klikje op de knop <b>+ Lân tafoegje</b> om te begjinnen mei it meitsjen fan in nije lokaasjeset. Sadree't jo klear binne, kinne jo it bewarje troch te klikken op 'e rjochtsboppe <b>⋮ Menu</b> en <b>Save Profile</b> te selektearjen.",
     need_save_message:
-      "Lokaasje beheining Ynstellingen foar produkt ûnderdiel ûnderdiel ûnderdiel. nei ûnderdiel ûnderdiel feroarje, graach ûnderdiel op 'Bewarje' knop ûnderdiel.",
+      "De lokaasjebeperkingsynstellingen foar it produkt binne feroare. Om dizze wizigingen te bewarjen, klik dan op de 'Bewarje' knop hjirûnder.",
 
     add_dialog: {
       title: "Tafoegje lân",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "lade lokaasje profyl",
       message:
-        "jo kin lade lokaasje op ûnderdiel ûnderdiel ûnderdiel Lokaasje ynstelle ûnderdiel.",
+        "Jo kinne lokaasjes lade troch hjir in earder bewarre lokaasje te selektearjen.",
 
       select_input: {
         title: "Lokaasje profyl",
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "Mis jo bestellingen net!",
     msg: "Behear jo bedriuw oeral en altyd.",
-    scan_qr_code: "ûnderdiel ûnderdiel mei jo tillefoan!",
+    scan_qr_code: "Scan my mei jo tillefoan!",
 
     notification: {
       title: "Notifikaasje",
@@ -9133,11 +9133,11 @@ export default {
     sample: {
       title: "foarbyld winkels",
       subtitle:
-        "Konfigurearje en behear dizze opsje foar jo winkel.",
+        "Hjir kinne jo in seleksje fan foarbyldwinkels ûntdekke. Jo krije tastimming om de ynformaasje te besjen dy't beskikber is yn dizze winkels. Doch asjebleaft net oan te melden of bestellingen te pleatsen mei echte persoanlike ynformaasje, om't dizze gegevens tagonklik wêze sille foar it publyk. As jo ​​per ongeluk jo ynformaasje hjir ynfiere, gean dan freonlik út 'e winkel en nim kontakt mei ús op foar fierdere assistinsje.",
     },
 
     add_new_store: "Tafoegje nij winkel",
-    i_have_a_deal: "ûnderdiel ûnderdiel ûnderdiel",
+    i_have_a_deal: "Ik haw in deal",
     access: {
       title: "tagong útnoeging",
     },
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "blog Kategoryen",
     subtitle:
-      "Konfigurearje en behear dizze opsje foar jo winkel.",
+      "Jo kinne in beheind oantal kategoryen meitsje foar jo blogposten om se effisjinter te behearjen. It hawwen fan in kategory limyt befoarderet bettere organisaasje op jo webside. Opmerklik ûnderhâlde sels de topnijsagintskippen in beheind oantal kategoryen, faaks minder dan 100, om it behear te streamlynjen en in bredere fokus te behâlden.",
 
     add_action: "Tafoegje nije kategory",
     add_dialog: {
@@ -9182,7 +9182,7 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "ynhâld ûnderdiel ûnderdiel",
+    title: "Ynhâld Release Schedule",
     subtitle:
       "Konfigurearje en behear dizze opsje foar jo winkel.",
   },
@@ -9214,7 +9214,7 @@ export default {
 
   /** {@see BPageShopApplicationsMetaverse} **/
   metaverse: {
-    title: "ûnderdiel ûnderdiel",
+    title: "Metaverse Bridge",
     subtitle:
       "Selldone leveret %100 API-basearre tsjinsten yn 'e hannelsromte. Spultsje, blockchain, en metaverse-ûntwikkelders kinne dizze krêftige API's brûke om bedriuwen, klanten en tsjinsten te ferbinen yn 'e takomst fan wurk, libben en hannelswrâld.",
     message: "Iere tagong foar spultsje-ûntwikkelders",
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Bestellingsassistent",
     subtitle:
-      "eksportearje en downloade ûnderdiel foar bulk bestelling ûnderdiel - ûnderdiel foar ûnderdiel ûnderdiel 100 Bestellingen ûnderdiel.",
+      "Etiketten eksportearje en downloade foar ferwurking fan bulkbestelling - ideaal foar it behanneljen fan mear dan 100 bestellingen deistich.",
 
     timespan: {
       title: "Tiidrek",
@@ -9266,12 +9266,12 @@ export default {
       title: "Oanmelde metoaden",
       subtitle: "Oanpasse de manier wêrop brûkers har oanmelde by jo winkel.",
 
-      tips: "<b>ûnderdiel.</b> ûnderdiel brûker registrearje mei jo winkel, ûnderdiel Selldone brûker is ûnderdiel, ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel. dit brûker sil ûnderdiel tagong nei ûnderdiel adres ûnderdiel ûnderdiel alles winkel en kin besjoch ûnderdiel bestelling skiednis, ûnderdiel ûnderdiel winkel hat sluten. ûnderdiel ûnderdiel net brûk dit ynformaasje foar marketing ûnderdiel ûnderdiel ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel op ûnderdiel ûnderdiel. nei ûnderdiel ûnderdiel, ûnderdiel ferstjoere e-post nei brûker ûnderdiel ûnderdiel fan ûnderdiel ûnderdiel.",
+      tips: "<b>Wichtich.</b> As in brûker registrearret by jo winkel, wurdt in oerienkommende Selldone-brûker makke, as ien net al bestiet. Dizze brûker sil tagong hawwe ta har adresboek yn alle winkels en kin har bestelskiednis besjen, sels as in winkel sluten is. Wy brûke dizze ynformaasje net foar marketingdoelen, mar fereaskje it om fraude oan beide kanten te foarkommen. Om transparânsje te behâlden, stjoere wy in e-post nei de brûker dy't har ynformearje oer har registraasje.",
     },
 
     /** {@see BShopOptionsCheckout} **/
     checkout: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Checkout flow",
       subtitle:
         "Oanpasse jo klantreis en oankeapstream yn jo e-commerce.",
       map: {
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "ûnderdiel Formulier",
       subtitle:
-        "ûnderdiel ûnderdiel Formulier ûnderdiel nei ûnderdiel ynformaasje jo ûnderdiel Fan jo Klanten.",
+        "Pas de kassaformulierfjilden oan om de ynformaasje te sammeljen dy't jo nedich binne fan jo klanten.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "ûnderdiel",
       title: "ûnderdiel",
       description:
-        "dit produkt is net ûnderdiel yn winkel, ûnderdiel ûnderdiel op direkt keppeling.",
+        "Dit produkt is net fermeld yn 'e winkel, mar tagonklik troch direkte keppeling.",
     },
   },
 
@@ -9503,8 +9503,8 @@ export default {
       team: "ferstjoere nei team",
     },
     placeholder: {
-      ceo: "ûnderdiel ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel, ûnderdiel ûnderdiel nei ûnderdiel jo direkt, ûnderdiel ûnderdiel.\nûnderdiel.ûnderdiel. ûnderdiel ûnderdiel nei ûnderdiel...",
-      team: "graach try nei ûnderdiel ûnderdiel nei ûnderdiel.\nûnderdiel.ûnderdiel. ûnderdiel ûnderdiel nei ûnderdiel...",
+      ceo: "Absoluut net nedich om aardich te wêzen, ik hear graach jo direkte, rjocht-op-it-punt freegjen.\nbgl. Ik moat hawwe ...",
+      team: "Besykje asjebleaft aardich foar har te wêzen.\nbgl. Ik moat hawwe ...",
     },
   },
 
@@ -9525,9 +9525,9 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "ûnderdiel ûnderdiel Produkten",
+    title: "It ferwurkjen fan ymporteare produkten",
     message:
-      "ûnderdiel binne yn proses fan ûnderdiel Produkten en ôfbyldings, ûnderdiel ûnderdiel ûnderdiel ûnderdiel tiid nei foltôge.",
+      "Wy binne yn it proses fan it ymportearjen fan produkten en ôfbyldings, wat wat tiid kin duorje om te foltôgjen.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "ynformaasje ûnderdiel ûnderdiel hat ûnderdiel ûnderdiel op klant, yn ûnderdiel mei produkt ynfier Formulier ûnderdiel.",
+      "De hjir werjûn ynformaasje is yntsjinne troch de klant, yn oerienstimming mei de struktuer fan it produktynfierformulier.",
   },
 
   /**
@@ -9558,7 +9558,7 @@ export default {
       auto_confirm_disable_msg:
         "automatysk ûnderdiel fan Bestellingen is net ynskeakele.",
       shipping_enable_msg:
-        "Ferstjoering ûnderdiel sil ûnderdiel ûnderdiel ûnderdiel op ynformaasje ûnderdiel ûnderdiel ûnderdiel.",
+        "De ferstjoerkosten wurde berekkene op basis fan de ynformaasje jûn by kassa.",
     },
     detail: {
       title: "Connect ûnderdiel",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "syngronisearje ûnderdiel",
         subtitle:
-          "ûnderdiel syngronisearje details. dit ynformaasje is ûnderdiel ûnderdiel syngronisearje proses ûnderdiel ûnderdiel ûnderdiel.",
+          "Ynterne syngronisaasjedetails. Dizze ynformaasje wurdt bewarre neidat in syngronisaasjeproses mei súkses einiget.",
         no_data: "ûnderdiel syngronisearje ynformaasje!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Produkten",
       subtitle:
-        "list fan ûnderdiel Produkten Fan {name}. fertsjinje ûnderdiel jo produkt hat ûnderdiel namme en SKU. ûnderdiel Connect tsjinsten binne brûkt foar ûnderdiel, ûnderdiel ûnderdiel jo ûnderdiel Produkten mei duplisearje <b>ûnderdiel</b> en <b>namme</b>, ûnderdiel Produkten sil ûnderdiel ûnderdiel!",
+        "List fan tafoege produkten út {name}. Soargje derfoar dat jo produkt in unike namme en SKU hat. Guon Connect-tsjinsten wurde brûkt foar migraasje, dus as jo produkten hawwe mei dûbele <b>SKUs</b> en <b>Names</b>, wurde dy produkten feroare!",
       action: "ûnderdiel Produkten",
       syncing_message: "op ûnderdiel proses...",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "ûnderdiel",
       subtitle:
-        "list fan alles ûnderdiel yn lêste 7 dagen. ûnderdiel eigenskip ûnderdiel ûnderdiel op ekstern tsjinst oanbieders.",
+        "De list fan alle logs yn 'e lêste 7 dagen. Logging funksje stipe allinnich op eksterne tsjinst providers.",
     },
 
     edit: {
@@ -9595,25 +9595,25 @@ export default {
       service: {
         title: "tsjinst",
         subtitle:
-          "selektearje ûnderdiel ûnderdiel, dropshipping ûnderdiel, of ûnderdiel nei connect.",
+          "Selektearje doelplatfoarm, leveransier foar dropshipping, of merk om te ferbinen.",
       },
       test: {
         false_title: "syngronisearje alles",
         false_desc: "ûnderdiel alles beskikber Produkten, kategory, Klanten.",
-        true_title: "ûnderdiel (ûnderdiel foar ûnderdiel)",
+        true_title: "Beheind (oanrikkemandearre foar begjinners)",
         true_desc:
-          "ûnderdiel ûnderdiel 5 Produkten, kategory, en Klanten. jo kin ûnderdiel ûnderdiel nei ûnderdiel modus yn Connect > ûnderdiel ûnderdiel ûnderdiel tiid.",
+          "Krij maksimaal 5 produkten, kategoryen en klanten. Jo kinne it op elk momint yn 'e folsleine modus yn' e Ferbine> Ynstelling omsette.",
       },
       overwrite: {
-        false_title: "ûnderdiel net feroarje ûnderdiel ûnderdiel",
-        false_desc: "ûnderdiel ûnderdiel produkt en kategory details ûnderdiel binne.",
+        false_title: "Feroarje net as bestean",
+        false_desc: "Bewarje besteande produkt- en kategorydetails sa't se binne.",
         true_title: "ûnderdiel",
         true_desc:
           "Bywurkje ûnderdiel produkt, fariant, en kategory ynformaasje.",
       },
       migration_tips:
-        "<b>ûnderdiel </b>ûnderdiel jo ûnderdiel nei test ûnderdiel graach selektearje <b>ûnderdiel</b> ûnderdiel. op ûnderdiel 'syngronisearje alles, ûnderdiel ûnderdiel alles gegevens Fan jo ferbûn " +
-        "tsjinsten en downloade ûnderdiel ôfbyldings, ûnderdiel ûnderdiel sil ûnderdiel jo fergees ûnderdiel. ûnderdiel, ûnderdiel ûnderdiel Produkten, kategory, en Klanten ûnderdiel ûnderdiel ûnderdiel!",
+        "<b>Tips: </b>As jo de funksjonaliteit testje wolle, selektearje dan\n" +
+          "            <b>Limited</b> opsje. Troch 'Alles syngronisearje' te selektearjen, krije wy alle gegevens fan jo ferbûne tsjinsten en downloade relatearre ôfbyldings, sadat it jo fergese opslach sil ferminderje. Ek it fuortheljen fan in protte produkten, kategoryen en klanten soe lestich wêze!",
       add_action: "Automatysk ferbine nei",
       order: {
         title: "ûnderdiel status",
@@ -9622,14 +9622,14 @@ export default {
       },
       enable: {
         label: "Connect-status",
-        true_desc: "ynventaris en Bestellingen sil ûnderdiel ûnderdiel.",
+        true_desc: "Ynventarisaasje en oarders wurde syngronisearre.",
       },
       confirm: {
         label: "auto befêstigje Bestellingen",
         false_desc: "jo moat befêstigje bestelling ûnderdiel.",
         true_desc:
-          "Bestellingen mei live Betelling sil ûnderdiel ûnderdiel ûnderdiel. Bestellingen mei debug Betelling sil net goedkarre ûnderdiel.",
-        tips: "Bestellingen ûnderdiel op Kadokaart of COD of Betelling betellingspoarten yn debug modus binne ûnderdiel en sil net ûnderdiel ûnderdiel ûnderdiel.",
+          "Oarders mei live betelling wurde automatysk goedkard. Oarders mei debug betelling sil net goedkarre automatysk.",
+        tips: "Oarders betelle mei kadokaart of COD of betellingspoarten yn 'e debugmodus binne útsûnderingen en wurde net automatysk befêstige.",
       },
 
       shipping: {
@@ -9637,14 +9637,14 @@ export default {
         tips: "Konfigurearje en behear dizze opsje foar jo winkel.",
         false_title: "ûnderdiel",
         false_desc:
-          "brûk ûnderdiel Ferstjoering ûnderdiel ûnderdiel, yn winkel > logistyk > ûnderdiel foar alles Produkten, ûnderdiel ûnderdiel op.",
+          "Brûk myn berekkening fan ferstjoerkosten, yn Winkel> Logistyk> Ferfier foar alle produkten, ynklusyf ymporteare.",
         true_title: "ûnderdiel Ferstjoering",
         true_desc:
-          "ûnderdiel Ferstjoering taryf ûnderdiel API ûnderdiel op dit tsjinst.",
+          "Brûk de API foar berekkening fan ferstjoerkoers oanbean troch dizze tsjinst.",
       },
 
       remove: {
-        verify: "ûnderdiel ûnderdiel nei Fuortsmite dit ûnderdiel.",
+        verify: "Ik ferifiearje om dizze ferbining te ferwiderjen.",
         action: "Fuortsmite connect",
       },
     },
@@ -9655,14 +9655,14 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect jo Business OS nei ekstern tsjinsten en behear alles kanalen yn ûnderdiel ûnderdiel.",
+        "Ferbine jo bedriuwssysteem mei eksterne tsjinsten en beheare alle kanalen op itselde plak.",
       action: "Connect nij tsjinsten",
       empty_message:
-        "ûnderdiel apps en ûnderdiel foar dropshipping! Connect is ûnderdiel fan ûnderdiel bestelling ûnderdiel.",
+        "Ferjit apps en plugins foar dropshipping! Connect is de takomst fan cross-platform oarderbehear.",
       auto_confirm: "auto befêstigje",
       shipping: "Skipfeart",
       syncing_now: "ûnderdiel no!",
-      sync_not_started: "syngronisearje hat net ûnderdiel ûnderdiel!",
+      sync_not_started: "Syngronisaasje is noch net begûn!",
     },
   },
 
@@ -9672,11 +9672,11 @@ export default {
   connect_mode: {
     Migration: {
       title: "ûnderdiel",
-      desc: "ûnderdiel Produkten, kategory, en Klanten. ûnderdiel brûker wiskje dit tsjinst, ûntfongen Produkten, kategory, en Klanten sil net ûnderdiel wiskt.",
+      desc: "Krij produkten, kategoryen en klanten. Nei't de brûker dizze tsjinst wisket, wurde de ûntfongen produkten, kategoryen en klanten net wiske.",
     },
     Dropshipping: {
       title: "Dropshipping",
-      desc: "ûnderdiel Produkten, kategory, en Bestellingen. ûnderdiel fuortsmite Produkten ûnderdiel brûker fuortsmite tsjinst.",
+      desc: "Krij produkten, kategoryen en oarders. It systeem ferwideret produkten neidat de brûker de tsjinst fuorthelle.",
     },
     Marketplace: {
       title: "ûnderdiel",
@@ -9724,7 +9724,7 @@ export default {
   community_comments: {
     title: "reaksjes",
     subtitle: "dit is list fan ûnderdiel reaksjes.",
-    empty_msg: "ûnderdiel reaksjes ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel...",
+    empty_msg: "Der binne oant no ta gjin opmerkings makke...",
   },
 
   /**
@@ -9734,7 +9734,7 @@ export default {
     title: "Kategoryen",
     subtitle: "dit is list fan ûnderdiel kategory.",
     new_category_action: "nij kategory",
-    empty_msg: "ûnderdiel kategory ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel...",
+    empty_msg: "Der binne oant no ta gjin kategoryen makke...",
     filter: {
       delete: {
         title: "Wiske",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "ûnderdiel",
-    subtitle: "dit is list fan ûnderdiel ûnderdiel.",
+    subtitle: "Dit is in list mei berjochten fan 'e mienskip.",
     filter: {
       deleted: {
         title: "Wiske",
@@ -9755,10 +9755,10 @@ export default {
       },
       reported: {
         title: "ûnderdiel",
-        description: "Toane ûnderdiel ûnderdiel.",
+        description: "Lit rapportearre berjochten sjen.",
       },
     },
-    empty_msg: "ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel...",
+    empty_msg: "Gjin berjochten binne oant no ta makke ...",
     menu: {
       open_post: {
         title: "iepenje ûnderdiel",
@@ -9791,7 +9791,7 @@ export default {
       title: "Google ûnderdiel",
       subtitle:
         "Konfigurearje en behear dizze opsje foar jo winkel.",
-      tips: "jo kin ûnderdiel dit ûnderdiel nei ûnderdiel en ûnderdiel behear Google advertinsjes.",
+      tips: "Jo kinne dit ark brûke om Google-advertinsjes maklik en automatysk te behearjen.",
       link_message: "Google Produkten ûnderdiel URL",
     },
     console: {
@@ -9799,21 +9799,21 @@ export default {
       subtitle: `Tafoegje meta tag nei jo ûnderdiel foar Google sykje ûnderdiel ferifikaasje.`,
       code: {
         label: "ferifikaasje meta tag",
-        placeholder: "Fan google, ûnderdiel.ûnderdiel. ûnderdiel9ûnderdiel...",
+        placeholder: "Fan google, bgl. viQg9mjdBj...",
       },
     },
     serp: {
       title: "Google SERP & ûnderdiel",
       subtitle:
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel SEO ûnderdiel gegevens Fan Google en ûnderdiel ûnderdiel nei jo yn ûnderdiel ûnderdiel. ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Wy krije de meast krekte SEO-kontrôlegegevens fan Google en presintearje dy op in handige manier oan jo. Folgje gewoan de oanjûne stappen.",
     },
     serp_content: {
       title: "Connect nei Google sykje ûnderdiel",
       subtitle:
-        "Connect jo winkel nei sykje ûnderdiel en begjin ûnderdiel ûnderdiel, ûnderdiel, en ûnderdiel fergees SEO ûnderdiel op Selldone.",
+        "Ferbine jo winkel mei de sykkonsole en begjin te ferkennen fan trefwurden, rangen en oare fergese SEO-ark op Selldone.",
       tips: {
         title:
-          "ûnderdiel nei ûnderdiel Selldone mei Google sykje ûnderdiel, ûnderdiel ûnderdiel",
+          "Foardat it keppeljen fan Sellone mei Google Search Console, soargje foar it folgjende:",
         add_in_selldone: "Tafoegje, ûnderdiel, en ynstelle primêr jo oanpast domein.",
         add_in_google: `Foegje <b>{domain}</b> ta en ferifiearje it yn jo <a href="https://search.google.com/search-console" target="_blank"> <b>Google Search Console</b></a>.`,
       },
@@ -9831,7 +9831,7 @@ export default {
     title: "cashback ûnderdiel",
     boosted: "ûnderdiel (2ûnderdiel)",
     min_purchase: "minimum oankeap",
-    only_first_order: "ûnderdiel ûnderdiel bestelling",
+    only_first_order: "Allinnich earste oarder",
     total_cashback: "totaal cashback",
     delete_alert: {
       title: "Wiskje cashback ûnderdiel",
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "ynstelle ûnderdiel ûnderdiel, limyt en ûnderdiel status ûnderdiel.",
+      subtitle: "Stel de chasback persintaazje, limyt en syn status hjir.",
     },
     percent_input: {
       title: "cashback ûnderdiel",
       message: "ynfiere cashback ûnderdiel Fan 1% nei 20%.",
     },
     currency_input: {
-      message: "cashback ûnderdiel sil ûnderdiel beskikber ûnderdiel foar dit faluta.",
+      message: "It cashbackprogramma sil allinich beskikber wêze foar dizze munt.",
     },
     limit_input: {
       title: "Beheine",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "doer limyt",
-      subtitle: "ynstelle doer fan cashback ûnderdiel. ûnderdiel ûnderdiel.",
+      subtitle: "Set doer fan cashback programma. It is opsjoneel.",
     },
     start_input: {
       title: "begjin datum",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "ynstelle titel en ûnderdiel beskriuwing foar cashback ûnderdiel. ûnderdiel ynformaasje sil ûnderdiel ûnderdiel nei Klanten.",
+        "Set titel en koarte beskriuwing foar it cashback programma. Dizze ynformaasje sil wurde toand oan klanten.",
     },
     title_input: {
       title: "Titel",
@@ -9935,26 +9935,26 @@ export default {
     only_first_buy_input: {
       false_desc: "cashback ûnderdiel sil ûnderdiel beskikber foar alles Bestellingen.",
       true_desc:
-        "cashback ûnderdiel sil ûnderdiel beskikber ûnderdiel foar ûnderdiel bestelling.",
-      true_title: "ûnderdiel ûnderdiel bestelling",
+        "It cashbackprogramma sil allinich beskikber wêze foar de earste bestelling.",
+      true_title: "Allinnich earste oarder",
       false_title: "alles Bestellingen",
     },
     qualify_input: {
       false_title: "alles Klanten",
       true_title: "ûnderdiel Klanten",
       true_msg:
-        "cashback ûnderdiel sil ûnderdiel beskikber ûnderdiel foar Klanten ûnderdiel binne ûnderdiel.",
+        "It cashbackprogramma sil allinich beskikber wêze foar de klanten dy't kwalifisearre binne.",
     },
     club: {
       subtitle:
-        "ynstelle klub foar cashback ûnderdiel. cashback ûnderdiel sil ûnderdiel beskikber ûnderdiel foar Klanten ûnderdiel binne yn dit klub.",
+        "Stel de klup yn foar it cashbackprogramma. It cashbackprogramma sil allinich beskikber wêze foar de klanten dy't yn dizze klub binne.",
     },
     cluster: {
       subtitle:
-        "op ûnderdiel kluster mei cashback ûnderdiel, jo kin behear ûnderdiel mear ûnderdiel.",
+        "Troch in kluster te assosjearjen mei it cashbackprogramma kinne jo it effektiver beheare.",
     },
     notifications: {
-      add: "cashback ûnderdiel ûnderdiel ûnderdiel.",
+      add: "Cashback-programma mei súkses tafoege.",
       edit: "cashback ûnderdiel bywurke ûnderdiel.",
     },
     enable_input: {
@@ -9966,7 +9966,7 @@ export default {
       false_title: "Normaal",
       true_title: "ûnderdiel (2ûnderdiel cashback)",
       true_msg:
-        "cashback ûnderdiel is yn ûnderdiel modus en Klanten sil ûntfange 2ûnderdiel cashback.",
+        "It cashback-programma is yn boostmodus en klanten sille 2x cashback krije.",
       false_msg:
         "cashback ûnderdiel is yn normaal modus en Klanten sil ûntfange normaal cashback.",
     },
@@ -9979,7 +9979,7 @@ export default {
     actions: {
       refund: {
         title: "werombetelling Betelling",
-        subtitle: "ûnderdiel of ûnderdiel werombetelling ûnderdiel.",
+        subtitle: "Diel as folsleine weromjefte stipe.",
       },
       delivery: {
         title: "befêstigje op levering",
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "werombetelling Betelling",
     message:
-      "foar feiligens ûnderdiel, ûnderdiel Bestellingen ûnderdiel ûnderdiel lêste 7 dagen binne ûnderdiel foar werombetelling.",
+      "Om befeiligingsredenen komme allinich bestellingen betelle binnen de lêste 7 dagen yn oanmerking foar weromjeften.",
     payment_amount: "Betelle bedrach",
     total_refund_amount: "totaal ûnderdiel bedrach",
     can_refund: "kin werombetelling",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "ûnderdiel werombetelling",
       description:
-        "ûnderdiel befêstigje dat werombetelling bedrach is korrekt en ûnderdiel ûnderdiel nei ûnderdiel.",
+        "Ik befêstigje dat it werombetellebedrach korrekt is en ik wol trochgean.",
     },
     action: "werombetelling no",
   },
@@ -10017,7 +10017,7 @@ export default {
     verify: {
       title: "ûnderdiel levering",
       description:
-        "ûnderdiel befêstigje dat bestelling hat ûnderdiel ûnderdiel nei klant.",
+        "Ik befêstigje dat de bestelling is levere oan de klant.",
     },
     action: "befêstigje no",
   },
@@ -10026,22 +10026,22 @@ export default {
    * @see BPageProductCrossSelling
    */
   product_cross_selling: {
-    title: "ûnderdiel ûnderdiel",
+    title: "Cross Selling",
     add_new_actions: "Tafoegje nij produkt",
     subtitle:
-      "Konfigurearje en behear dizze opsje foar jo winkel.",
+      "Yn dizze seksje kinne jo cross-sellprodukten tafoegje en beheare foar dizze produktpagina. Dizze produkten sille wurde werjûn as suggestjes foar klanten om te keapjen neist it haadartikel. Jo kinne ek koartingen ynstelle om ekstra oankeapen te stimulearjen en te stimulearjen. It systeem sil maksimaal 3 items sjen litte foar de klant om te beskôgjen.",
     dialog: {
-      edit_title: "Bewurkje ûnderdiel ûnderdiel produkt",
-      add_title: "Tafoegje nij ûnderdiel ûnderdiel Produkten",
+      edit_title: "Cross selling produkt bewurkje",
+      add_title: "Foegje nije krúsferkeapprodukten ta",
       target: {
         title: "ûnderdiel produkt",
         subtitle:
-          "kieze Produkten ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel opsjes ûnderdiel dit produkt.",
+          "Kies de produkten dy't jo wolle promoatsje as opsjes foar cross-sell neist dit produkt.",
         select_products: "selektearje produkt(ûnderdiel)",
       },
       list: {
         title: "ûnderdiel produkt",
-        subtitle: "dit produkt hat ûnderdiel ûnderdiel foar ûnderdiel ûnderdiel.",
+        subtitle: "Dit produkt is keazen foar cross-selling promoasje.",
         manage_product: "behear produkt",
       },
       discount: {
@@ -10050,17 +10050,17 @@ export default {
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         amount_input: {
           message:
-            "koarting ûnderdiel sil ûnderdiel ûnderdiel nei produkt priis ûnderdiel ûnderdiel ûnderdiel akkount alles ûnderdiel koarting.",
+            "It koartingspersintaazje sil tapast wurde op 'e produktpriis nei it rekkenjen fan alle besteande koartingen.",
         },
         mismatch_type_warning:
           "Konfigurearje en behear dizze opsje foar jo winkel.",
         not_support_subscription_type_warning:
-          "ûnderdiel koarting foar ûnderdiel abonnemint Produkten is net ûnderdiel, priisstelling ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+          "It ynstellen fan koartingen foar cross-selling abonnemintsprodukten is net mooglik, om't de priisplannen net dynamysk kinne wurde oanpast.",
         message_input: {
           message:
-            "ûnderdiel ûnderdiel en ûnderdiel titel nei ûnderdiel Klanten' ûnderdiel.",
+            "Meitsje in twingende en oanloklike titel om de oandacht fan klanten te fangen.",
           placeholder:
-            "ûnderdiel & Bewarje: foltôge jo ûnderdiel mei ûnderdiel ûnderdiel ûnderdiel!",
+            "Bundel en bewarje: foltôgje jo look mei ús mei de hân útsochte seleksje!",
         },
       },
       action: {
@@ -10078,13 +10078,13 @@ export default {
     variants: {
       title: "Fariantopsjes",
       subtitle:
-        "selektearje ûnderdiel nei ûnderdiel Fariantopsjes. ûnderdiel ûnderdiel, jo kin kieze ûnderdiel ûnderdiel farianten nei Meitsje ûnderdiel.",
+        "Selektearje maksimaal twa farianten opsjes. Nei seleksje kinne jo kieze hokker spesifike farianten automatysk oanmeitsje.",
     },
     values: {
       title: "fariant ûnderdiel",
-      subtitle: "ynfiere ûnderdiel ûnderdiel foar ûnderdiel fariant ûnderdiel ûnderdiel.",
+      subtitle: "Fier hjir de mooglike wearden yn foar elke fariantopsje.",
       prevent_duplicates_tips:
-        "<b>ûnderdiel</b> ûnderdiel ûnderdiel ûnderdiel foar ûnderdiel farianten nei ûnderdiel duplisearje.",
+        "<b>Opmerking:</b> Wy kontrolearje automatysk op besteande farianten om duplikaten foar te kommen.",
     },
     inventory: {
       title: "ûnderdiel ynventaris",
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Tafoegje oan winkelwein",
       description:
-        "ûnderdiel Tafoegje nei ûnderdiel knop ûnderdiel. notysje dat dit is net ûnderdiel foar abonnemint Produkten.",
+        "Lit de knop taheakje oan winkelwein direkt sjen. Tink derom dat dit net fan tapassing is foar abonnemintsprodukten.",
     },
     ViewProduct: {
       title: "Besjoch produkt",
       description:
-        "ûnderdiel besjoch mear knop dat direkt Klanten nei Produktside op ûnderdiel nij ûnderdiel.",
+        "Lit in knop wer sjen litte dy't klanten rjochtet nei de produktside troch in nij finster te iepenjen.",
     },
   },
 
@@ -10115,17 +10115,17 @@ export default {
 
   product_flow: {
     title: "oankeap ûnderdiel",
-    subtitle: "dit is oankeap ûnderdiel en ûnderdiel ûnderdiel fan jo produkt.",
+    subtitle: "Dit is de oankeapstream en sûnenskontrôle fan jo produkt.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "dit produkt hat ûnderdiel ûnderdiel ûnderdiel <b>{name}</b>.",
+      subtitle: "Dit produkt is tafoege fia <b>{name}</b>.",
       enable_msg: "dit ûnderdiel nei ekstern tsjinst is ynskeakele.",
       disable_msg: "dit ûnderdiel nei ekstern tsjinst is útskeakele.",
       has_shipping_msg:
-        "{name} stipe Ferstjoering. ûnderdiel jo ûnderdiel ûnderdiel nei ynskeakelje auto Ferstjoering ûnderdiel op {name} op ûnderdiel side.",
+        "{name} stipe skipfeart. Dat jo hawwe de opsje om automatyske ferstjoerberekkening yn te skeakeljen troch {name} op 'e kassaside.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10136,7 +10136,7 @@ export default {
       out_of_stock_msg: "produkt is ûnderdiel fan foarrie.",
       file_count_msg:
         "{files_count} bestannen mei totaal {files_size} ûnderdiel foar dit produkt.",
-      no_file_uploaded_msg: "ûnderdiel bestân hat ûnderdiel ûnderdiel ûnderdiel.",
+      no_file_uploaded_msg: "Der is noch gjin bestân opladen.",
       no_image_uploaded_msg:
         "oplade produkt ôfbylding nei fertsjinje ûnderdiel mear ûnderdiel.",
     },
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "ûnderdiel ferkeapers",
       subtitle:
-        "dit produkt ûnderdiel hat ûnderdiel ûnderdiel ferkeapers. foar produkt nei ûnderdiel ûnderdiel yn ûnderdiel, ûnderdiel moat ûnderdiel ûnderdiel ûnderdiel ûnderdiel ferkeaper.",
+        "Dit produkt hat op it stuit gjin assosjearre leveransiers. Foar in produkt om te keapjen op 'e merke, moat it op syn minst ien ferkeaper hawwe.",
       manage_vendors: "behear ferkeapers",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "ûnderdiel bestannen",
       subtitle:
-        "ûnderdiel, ûnderdiel bestannen ûnderdiel ûnderdiel ûnderdiel foar dit produkt. graach oplade bestannen nei ûnderdiel.",
+        "Op it stuit binne gjin bestannen opladen foar dit produkt. Upload bestannen om troch te gean.",
       manage_files: "behear bestannen",
     },
 
@@ -10193,11 +10193,11 @@ export default {
         no_restriction: "net ûnderdiel",
       },
       available_countries_msg:
-        "ûnderdiel ûnderdiel ûnderdiel nei {count} lannen. ûnderdiel lannen binne {countries}.",
+        "Winkeljen wrâldwiid beheind ta {count} lannen. Dizze lannen binne {countries}.",
       disable_for_all_countries_msg:
         "ûnderdiel is útskeakele foar alles lannen yn jo winkel > lokaasje ûnderdiel.",
       location_is_not_in_permitted_shop_locations_msg:
-        "jo ynstelle {country} ûnderdiel Lokaasje ûnderdiel yn winkel ûnderdiel jo net ûnderdiel dit lân. graach ûnderdiel jo winkel ûnderdiel Ynstellingen.",
+        "Jo hawwe {country} ynsteld as ferkeaplokaasje, mar yn it winkelnivo tastean jo dit lân net ta. Kontrolearje asjebleaft jo ynstellings foar winkelnivo.",
       shop_locations: "winkel lokaasje",
       product_locations: "produkt lokaasje",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "belesting profyl",
       description: {
         subscription_tax_msg:
-          "ûnderdiel kin tapasse belesting ûnderdiel op Betelling oanmeitsjen ûnderdiel.",
+          "Wy kinne allinich belesting tapasse op 'e stap foar it meitsjen fan betelling.",
         dedicated: "ûnderdiel",
         is_disabled: "dit Belestingprofyl is útskeakele!",
         tax_is_based_on_location: "ûnderdiel Lokaasje ûnderdiel",
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "dit produkt ûnderdiel nei <b>{vendor}</b>.",
       has_vendors_msg: "ûnderdiel is {count} ferkeapers foar dit produkt.",
       no_vendor_msg:
-        "jo ûnderdiel ûnderdiel ferkeaper nei dit produkt, ûnderdiel Klanten binne ûnderdiel nei oankeap ûnderdiel.",
+        "Jo hawwe gjin ferkeaper oan dit produkt tawiisd, sadat klanten it net kinne keapje.",
       add_vendors: "Tafoegje ferkeapers",
     },
   },
@@ -10260,16 +10260,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "Konfigurearje en behear dizze opsje foar jo winkel.",
+      "Jo kinne in produkt of in list mei produkten maklik ynbêde yn jo blog of oare websiden troch gewoan de koades te kopiearjen en te plakjen dy't wy leverje. Hoewol dizze funksje noch yn syn iere stadia is, wurkje wy aktyf om syn funksjonaliteit út te wreidzjen dan wat op it stuit earne oars beskikber is. Wylst it op it stuit beheinde mooglikheden biedt, hawwe wy plannen om yn 'e takomst mear sjabloanen en oanpassingsopsjes yn te fieren.",
     card: {
       title: "ûnderdiel",
       description:
-        "generearje HTML koade nei Tafoegje produkt ûnderdiel yn ûnderdiel ûnderdiel en HTML siden.",
+        "Generearje HTML-koade om produktkaarten ta te foegjen yn oare platfoarms en HTML-siden.",
     },
     iframe: {
       title: "ûnderdiel",
       description:
-        "generearje ûnderdiel koade nei ûnderdiel ûnderdiel produkt details yn ûnderdiel ûnderdiel.",
+        "Generearje de iframe-koade om wiidweidige produktdetails yn in ynbêde finster te werjaan.",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "Personiel tafoegje & tagong",
       subtitle:
-        "alles brûkers mei personiel tagong kin ûnderdiel yn nei jo Dashboard en besjoch finansjeel ynformaasje. nei Tafoegje brûkers mei ûnderdiel tagong, ûnderdiel rol.",
+        "Alle brûkers mei tagong ta personiel kinne ynlogge op jo dashboard en sjoch finansjele ynformaasje. Om brûkers mei beheinde tagong ta te foegjen, definiearje Rol.",
       go_to_roles: "gean nei rollen",
     },
     access: {
       customization_tips:
-        "<b>ûnderdiel</b> ûnderdiel op ûnderdiel ûnderdiel nei ûnderdiel standert lêzen/skriuwe tagong. ûnderdiel ûnderdiel ûnderdiel tagong ûnderdiel ûnderdiel nei haad winkel Dashboard.",
+        "<b>Customization:</b> Klikje op elk item om de standert lês-/skriuwtagong oan te passen. Elke rige stiet foar in tagongsnivo dat oerienkomt mei it haadwinkeldashboard.",
       simplify_tips:
-        "<b>ûnderdiel!</b> ûnderdiel ûnderdiel Tagongsbehear Fan ûnderdiel 300 nei ûnderdiel 10 ûnderdiel. mear ûnderdiel en ûnderdiel tagong ûnderdiel sil ûnderdiel publisearre yn ûnderdiel.",
+        "<b>Wichtich!</b> Wy ferienfâldigje de tagong kontrôle fan mear as 300 nei ûnder 10 nivo. Mear detaillearre en aktualisearre tagongsnivo's sille wurde publisearre yn 'e dokumintaasje.",
       multi_permission_tips:
-        "<b>oanpast limyt?</b> jo kin Tafoegje mear tagong nei ûnderdiel brûker, ûnderdiel ûnderdiel ûnderdiel ûnderdiel tagong, Meitsje ûnderdiel tagong mei ûnderdiel ûnderdiel.",
+        "<b>Custom limiten?</b> Jo kinne mear tagong ta ien brûker, dus nei it taheakjen fan de earste tagong, meitsje ekstra tagong mei deselde stappen.",
       view_data: "Gegevens besjen",
       apply_changes: "Feroarings tapasse",
     },
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "tagong ûnderdiel",
-        message: "nij tagong hat ûnderdiel ûnderdiel ûnderdiel.",
+        message: "Nije tagong is mei súkses tafoege.",
       },
       update_success: {
         title: "tagong bywurke",
-        message: "tastimmingen ûnderdiel ûnderdiel bywurke ûnderdiel.",
+        message: "Tastimmingen binne mei súkses bywurke.",
       },
     },
   },
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "ûnderdiel Produkten Listjen",
     subtitle:
-      "ûnderdiel Produkten Fan ûnderdiel kategory. jo ûnderdiel ûnderdiel nei kieze ûnderdiel kategory nei ûnderdiel Produkten of filter Produkten op tags.",
+      "Lit produkten út ferskate kategoryen sjen. Jo hawwe de opsje om meardere kategoryen te kiezen om produkten te werjaan of produkten te filterjen op tags.",
     aut_add_sub_categories_tips:
-      "jo kin ûnderdiel Tafoegje alles ûnderdiel nei ûnderdiel kategory op ûnderdiel knop ûnderdiel.",
+      "Jo kinne automatysk alle subkategoryen tafoegje oan de aktuele kategory troch op de knop hjirûnder te klikken.",
     inputs: {
       categories: {
         label: "Kategoryen",
-        messages: "Produkten yn ûnderdiel kategory sil ûnderdiel ûnderdiel.",
+        messages: "Produkten yn dizze kategoryen sille te sjen wêze.",
         placeholder: "selektearje kategory...",
       },
       tags: {
         label: "produkt tags",
         messages: "Produkten mei ûnderdiel tags sil ûnderdiel Toane.",
-        placeholder: "ûnderdiel tags ûnderdiel en ûnderdiel ynfiere. ûnderdiel. nij ûnderdiel",
+        placeholder: "Wire tags hjir en druk op enter. bgl. nije kolleksje",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>algemien ûnderdiel </b>sykje op titel, MPN, SKU, merk, of tags.",
       product:
-        '<b>ûnderdiel produkt ID: </b>brûk ûnderdiel+produkt ID nei ûnderdiel ûnderdiel produkt, ûnderdiel.ûnderdiel., <b class="text-green">ûnderdiel</b><i class="text-yellow">360</i>.',
+        "<b>Eksakte produkt-ID: </b>Brûk P+produkt-ID om in spesifyk produkt te finen, bygelyks <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        '<b>ûnderdiel ûnderdiel </b>brûk ûnderdiel ûnderdiel nei sykje foar ûnderdiel ûnderdiel, ûnderdiel.ûnderdiel., <b class="text-green">"</b><i class="text-yellow">jo tekst ûnderdiel</i><b class="text-green">"</b>.',
-      tax: '<b>Belestingprofyl: </b>sykje foar Produkten mei ûnderdiel Belestingprofyl mei "ûnderdiel", ûnderdiel.ûnderdiel., <b class="text-green">ûnderdiel</b><i class="text-yellow">Belestingprofyl namme</i>.',
+        "<b>Eksakte sin: </b>Brûk oanhalingstekens om te sykjen nei in krekte frase, bygelyks <b class=\"text-green\">\"</b><i class=\"text-yellow\">jo tekst hjir</i><b class=\"text-green\">\"</b>.",
+      tax: "<b>Tax-profyl: </b>Sykje nei produkten mei in spesifyk belestingprofyl mei \"belesting:\", bgl. <b class=\"text-green\">tax:</b><i class=\"text-yellow\">tax profylnamme</i>.",
       new_products:
-        '<b>nij Produkten: </b>ûnderdiel Produkten ûnderdiel ûnderdiel ûnderdiel datum berik, ûnderdiel.ûnderdiel., <b class="text-green">nij~</b><i class="text-yellow">2023-08-10</i><b class="text-green">~</b><i class="text-yellow">2023-08-20</i>.',
+        "<b>Nije produkten: </b>Fyn produkten tafoege binnen in spesifyk datumberik, bygelyks <b class=\"text-green\">nij~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,14 +10374,14 @@ export default {
   augment_form: {
     title: "ûnderdiel",
     subtitle:
-      "ynfier kaai dat sil ûnderdiel ûnderdiel mei ûnderdiel ûnderdiel ûnderdiel yn side ynhâld. kaaien moat ûnderdiel ûnderdiel 32 ûnderdiel.",
+      "Fier de kaai yn dy't sil wurde wiksele mei syn oerienkommende wearde yn 'e side-ynhâld. Kaaien moatte maksimaal 32 tekens hawwe.",
     add_caption: "Tafoegje nij ûnderdiel",
-    add_sub_caption: "Tafoegje oanpast ûnderdiel ûnderdiel.",
+    add_sub_caption: "Foegje oanpaste kaai-wearde-pear ta.",
     add_dialog: {
       title: "selektearje ynfier type",
       html: {
         title: "tekst & Html",
-        subtitle: "ûnderdiel ûnderdiel kin ûnderdiel ûnderdiel ûnderdiel tekst of HTML.",
+        subtitle: "De wearde fan it item kin wurde oanwiisd as tekst of HTML.",
       },
       image: {
         title: "Byld",
@@ -10391,15 +10391,15 @@ export default {
     help_dialog: {
       title: "ûnderdiel nei brûk ûnderdiel ynhâld",
       how_it_works_tips:
-        "Konfigurearje en behear dizze opsje foar jo winkel.",
+        "Op de lâningssiden hawwe jo de fleksibiliteit om dynamyske plakhâlders oan te wizen foar sawol tekst as ôfbyldings. Dizze plakhâlders tsjinje in wichtige rol by it oanpassen fan de ynhâld neffens de kontekst.   It dynamyske karakter fan dizze plakhâlders lit se wurde befolke troch fergruttingswearden, dy't kinne ferskille op basis fan ferskate faktoaren. Bygelyks, de fergruttingswearden kinne oars wêze foar elk produkt of kategory. It echte foardiel fan dizze funksje komt yn spiel as jo in ferskaat oan items hawwe mei ferskate attributen. Jo kinne dizze dynamyske plakhâlders effektyf brûke om de werjefte fan elk item te personalisearjen en te ferbetterjen, en meitsje dêrmei in unike en ynteraktive ûnderfining op jo lâningssiden.",
       assign_tips:
-        "nei ûnderdiel ûnderdiel ûnderdiel nei ôfbyldings, ûnderdiel op ûnderdiel knop ûnderdiel op lofts ûnderdiel fan seksje.",
+        "Foar in tawize dynamyske wearden oan ôfbyldings, klik op de feeder knop leit oan de linker kant fan de seksje.",
       set_dynamic_image_tips:
-        "jo no ûnderdiel ûnderdiel nei ûnderdiel ôfbylding URL en ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Jo hawwe no de mooglikheid om de ôfbyldings-URL te feroarjen en it in dynamyske wearde ta te jaan.",
       enter_values_tips:
-        "foar ûnderdiel produkt, jo ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Foar elk produkt hawwe jo de mooglikheid om tawijde kaai-wearde-pearen ta te jaan.",
       result_tips:
-        "dit is ûnderdiel ûnderdiel fan side, ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel mei ûnderdiel ûnderdiel.",
+        "Dit is it definitive resultaat fan 'e side, wêr't plakhâlders binne ferfongen troch fergrutte wearden.",
     },
   },
 
@@ -10419,24 +10419,24 @@ export default {
       subtitle:
         "jo kin ûnderdiel ynhâld foar logistyk profyl yn ûnderdiel talen.",
 
-      language_input: "ûnderdiel ûnderdiel taal",
+      language_input: "Aktuele artikeltaal",
       delete_article: "Wiskje ûnderdiel",
       menu_tooltip: "Automatysk oersette / Wiskje ûnderdiel",
     },
     translate_to: "ûnderdiel nei",
     notifications: {
       translate: {
-        message: "ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        message: "Artikeloersetting mei súkses foltôge.",
       },
       save_article: {
-        message: "ûnderdiel hat ûnderdiel ûnderdiel ûnderdiel.",
+        message: "Artikel is mei súkses bewarre.",
       },
       delete_article: {
-        message: "ûnderdiel hat ûnderdiel wiskt ûnderdiel.",
+        message: "Artikel is wiske mei súkses.",
       },
     },
     delete_dialog: {
-      message: "binne jo ûnderdiel nei Wiskje dit ûnderdiel foar ûnderdiel?",
+      message: "Binne jo wis dat jo dit artikel foar altyd wiskje?",
       action: "Ja, no wiskje",
     },
   },
@@ -10456,12 +10456,12 @@ export default {
     inputs: {
       name: {
         message:
-          "dit namme toane nei jo en sil net ûnderdiel ûnderdiel nei iepenbier.",
+          "Dizze namme lit jo sjen en sil net iepenbiere wurde oan it publyk.",
       },
       accept_delete: {
         true_description:
           "dit aksje sil Fuortsmite alles ûnderdiel en profyl keppelings.",
-        true_title: "ûnderdiel ûnderdiel nei Fuortsmite dit ûnderdiel.",
+        true_title: "Ik ferifiearje om dizze ferbining te ferwiderjen.",
       },
     },
     actions: {
@@ -10482,17 +10482,17 @@ export default {
       config: {
         title: "algemien ynformaasje",
         subtitle:
-          "kieze profyl type. ûnderdiel kin ûnderdiel Gids, Garânsje, of ûnderdiel ûnderdiel ynhâld en ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel Produkten.",
+          "Kies it profyltype. It kin in hantlieding, garânsje, as elke oare ynhâld en materiaal wêze dat gewoanlik dield wurdt tusken meardere produkten.",
       },
       article: {
         title: "Lidwurd",
         subtitle:
-          "jo kin Tafoegje mear talen ûnderdiel ûnderdiel dit logistyk profyl.",
+          "Jo kinne mear talen tafoegje nei it oanmeitsjen fan dit logistike profyl.",
       },
       inputs: {
         name: {
           message:
-            "dit namme toane nei jo en sil net ûnderdiel ûnderdiel nei iepenbier.",
+            "Dizze namme lit jo sjen en sil net iepenbiere wurde oan it publyk.",
           placeholder: "ynfiere namme foar profyl...",
         },
       },
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Wiskje opnommen ûnderdiel",
       message:
-        "binne jo ûnderdiel jo ûnderdiel nei ûnderdiel Wiskje dit ûnderdiel? graach notysje dat ûnderdiel sil ûnderdiel ûnderdiel ûnderdiel Fan alles ûnderdiel Produkten!",
+        "Binne jo wis dat jo dit item permanint wiskje wolle? Tink derom dat it ek sil fuortsmiten wurde fan alle assosjearre produkten!",
       action: "ûnderdiel, Wiskje no",
     },
     actions: {
@@ -10539,12 +10539,12 @@ export default {
         placeholder: "ûnderdiel titel ûnderdiel op Produktside...",
       },
       code: {
-        placeholder: "ûnderdiel koade, ûnderdiel. mobyl_ûnderdiel_ûnderdiel",
-        hint: "brûk dit koade nei ûnderdiel sykje proses foar ûnderdiel ûnderdielen.",
+        placeholder: "Unike koade, bgl. mobile_cable_usb",
+        hint: "Brûk dizze koade om it sykproses foar it lokalisearjen fan items te streamlynjen.",
       },
       description: {
         placeholder: "ûnderdiel beskriuwing oer dit ûnderdiel...",
-        hint: "beskriuwing sil ûnderdiel brûkt foar SEO en ûnderdiel ûnderdiel nei brûkers op ûnderdiel oanpast yndieling yn Produktside.",
+        hint: "Beskriuwing sil brûkt wurde foar SEO en miskien sichtber foar brûkers op guon oanpaste layouts yn 'e produktpagina.",
       },
       image: {
         message: "ûnderdiel ôfbylding ûnderdiel 1MB",
@@ -10560,21 +10560,21 @@ export default {
       external_link: {
         title: "Eksterne keppeling",
         description: "ynstelle keppeling nei ekstern url.",
-        tips: "jo kin ûnderdiel ûnderdiel URL nei ûnderdiel. ûnderdiel brûkers ûnderdiel op ûnderdiel op Produktside, ûnderdiel sil ûnderdiel ûnderdiel nei dat keppeling.",
+        tips: "Jo kinne elke URL taheakje oan it item. As brûkers klikke op it item op 'e produktside, wurde se omlaat nei dy keppeling.",
       },
       internal_link: {
         title: "ûnderdiel keppeling",
         description:
-          "Meitsje ûnderdiel side op ûnderdiel ûnderdiel gegevens foar dit ûnderdiel.",
+          "Meitsje dynamyske side troch levere augmentgegevens foar dit item.",
         tips: "Konfigurearje en behear dizze opsje foar jo winkel.",
       },
     },
     notifications: {
       add: {
-        message: "opnommen ûnderdiel hat ûnderdiel ûnderdiel ûnderdiel.",
+        message: "It opnommen item is mei súkses tafoege.",
       },
       edit: {
-        message: "opnommen ûnderdiel hat ûnderdiel bywurke ûnderdiel.",
+        message: "It opnommen item is mei súkses bywurke.",
       },
     },
   },
@@ -10600,8 +10600,8 @@ export default {
   referral_wallets: {
     title: "wallets",
     subtitle:
-      "ûnderdiel jo kin besjoch kommisje fergoeding jo ûnderdiel ûnderdiel. jo kin oerdracht jo kommisje fergoeding nei jo bank akkount of jo Selldone wallet.",
-    no_commission_yet: "jo ûnderdiel net ûntfongen ûnderdiel kommisje ûnderdiel.",
+      "Hjir kinne jo de kommisjefergoedingen sjen dy't jo hawwe fertsjinne. Jo kinne jo kommisjefergoedingen oermeitsje nei jo bankrekken as jo Selldone-beurs.",
+    no_commission_yet: "Jo hawwe noch gjin kommisje krigen.",
     no_wallet: "ûnderdiel wallet!",
 
     withdraw_dialog: {
@@ -10622,11 +10622,11 @@ export default {
       inputs: {
         verify_to_wallet: {
           true_description:
-            "ûnderdiel ûnderdiel nei oerdracht ûnderdiel kommisje nei ûnderdiel Selldone wallet.",
+            "Ik wol myn kommisje oerdrage oan myn Selldone-beurs.",
         },
         verify_to_bank: {
           true_description:
-            "ûnderdiel ûnderdiel ûnderdiel bank ynfo en ûnderdiel ûnderdiel nei oerdracht ûnderdiel kommisje nei ûnderdiel bank akkount.",
+            "Ik ferifiearje myn bankynformaasje en ik wol myn kommisje oermeitsje nei myn bankrekken.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "jo fersyk hat ûnderdiel ûnderdiel ûntfongen, en ûnderdiel sil ûnderdiel ûnderdiel.",
+        "Jo fersyk is mei súkses ûntfongen, en wy sille hifkje it.",
     },
   },
 
@@ -10650,13 +10650,13 @@ export default {
     intro: {
       title: "ûnderdiel Selldone affiliate ûnderdiel",
       message:
-        "Konfigurearje en behear dizze opsje foar jo winkel.",
-      why_join_selldone_affiliate: "ûnderdiel is dit ûnderdiel ûnderdiel?",
+        "It Selldone Affiliate Program is ienfâldich en rjochtlinich, ûntworpen foar jo om sûnder muoite te fertsjinjen. Diel jo unike affiliate-keppeling om nije brûkers út te noegjen nei Selldone, en jo sille in kommisje fertsjinje foar elke transaksje dy't se meitsje - foar altyd. Dit omfettet ynkomsten fan abonneminten, tsjinstferliening, winkelupgrades en alle oare ynkomstenstreamen. Begjin in diel fan 'e ynkomsten te fertsjinjen sûnder limiten op tiid of ynkomsten. Doch mei ús en meitsje fan jo netwurk in fêst ynkommen!",
+      why_join_selldone_affiliate: "Wêrom is dit in unike kâns?",
       reasons: [
         "ûnderdiel lêste ûnderdiel!",
-        "ûnderdiel alles abonnemint en ûnderdiel fergoeding. ûnderdiel ûnderdiel Betelling fan brûker op Selldone.",
-        "ûnderdiel ferstjoere fergees $99 ûnderdiel nei ûnderdiel ûnderdiel registrearje mei jo keppeling.",
-        "ûnderdiel jo ûnderdiel ûnderdiel, jo sil ûnderdiel ûnderdiel nij taryf Fan alles ûnderdiel ûnderdiel brûkers.",
+        "Covers alle abonnemints- en transaksjekosten. Letterlik elke betelling fan de brûker op Selldone.",
+        "Wy stjoere in fergese bon fan $ 99 nei elkenien dy't registrearret mei jo keppeling.",
+        "As jo ​​tier upgrades, sille jo fertsjinje op it nije taryf fan alle earder ferwiisde brûkers.",
       ],
     },
   },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+    no_asset_uploaded: "Noch gjin asset uploaded.",
   },
 
   /**
@@ -10677,28 +10677,28 @@ export default {
     clone_tooltip: {
       title: "duplisearje styl",
       subtitle:
-        "brûk dit ûnderdiel nei ûnderdiel stilen ûnderdiel lettertype, eftergrûn, ûnderdiel, en ûnderdiel. ûnderdiel ûnderdiel ûnderdiel nei duplisearje ûnderdiel",
+        "Brûk dit ark om stilen te replikearjen lykas lettertypen, eftergrûnen, marzjes en rânen. Folgje dizze stappen om stilen te duplikearjen:",
       step_1:
-        "ûnderdiel ûnderdiel en ûnderdiel jo ûnderdiel ûnderdiel tekst, ûnderdiel, of ôfbyldings; ûnderdiel sil feroarje nei ûnderdiel.",
-      step_2: "ûnderdiel op ûnderdiel ûnderdiel styl jo ûnderdiel nei kopiearje.",
+        "Aktivearje it ark en hâld jo mûs oer tekst, kolommen of ôfbyldings; de rinnerke sil feroarje yn in pipet.",
+      step_2: "Klikje op it elemint waans styl jo kopiearje wolle.",
       step_3:
-        "ûnderdiel sil feroarje Werom nei ûnderdiel; ûnderdiel op ûnderdiel ûnderdiel jo ûnderdiel nei tapasse ûnderdiel styl.",
+        "De rinnerke sil weromgean nei in palet; klikje op it elemint wêr't jo de kopieare styl tapasse wolle.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "ûnderdiel ûnderdiel fan ûnderdiel menu, ûnderdiel opnimme alles seksje kategory foar ûnderdiel jo side.",
+        "Skeakelje de sichtberens fan it sydmenu, dat alle seksjekategoryen omfettet foar it bouwen fan jo side.",
     },
     sort_tooltip: {
       subtitle:
-        "ynskeakelje dit eigenskip nei ûnderdiel ûnderdiel en ûnderdiel seksjes op ûnderdiel ûnderdiel.",
+        "Skeakelje dizze funksje yn om seksjes maklik wer te regeljen en te organisearjen troch se te slepen.",
     },
     edit_mode_tooltip: {
       title: "Bewurkje / foarbyld modus",
       edit_mode_title: "Bewurkje modus",
-      edit_mode_msg: "alles ûnderdiel ûnderdiel sil ûnderdiel ûnderdiel.",
+      edit_mode_msg: "Alle bewurkingsark wurde werjûn.",
       view_mode_title: "foarbyld modus",
       view_mode_msg:
-        "besjoch jo side brûkers ûnderdiel besjoch ûnderdiel op ûnderdiel ûnderdiel ûnderdiel ûnderdiel en ûnderdiel tekst ûnderdiel.",
+        "Besjoch jo side sa't brûkers it sjogge troch ekstra bewurkingsark en lege tekstgebieten te ferbergjen.",
     },
     repository_tooltip: {
       title: "ûnderdiel seksjes",
@@ -10710,22 +10710,22 @@ export default {
       subtitle: "besjoch bywurkje yn ûnderdiel jo Bewurkje jo side.",
     },
     hotkeys_dialog: {
-      title: "ûnderdiel ûnderdiel",
+      title: "Toetseboerd fluchtoetsen",
       augment_tips:
-        "jo kin lade ûnderdiel ynhâld ûnderdiel jo side en ûnderdiel ûnderdiel mei <b>ûnderdiel</b> ûnderdiel. ûnderdiel is brûkt foar oanpast ûnderdiel siden ûnderdiel <b>Produkten</b>, <b>kategory</b>, en <b>opnimme ûnderdielen</b>. nei ynstelle ôfbylding nei lade ûnderdiel, ûnderdiel op <b>ûnderdiel</b> en selektearje <b>ûnderdiel boarne</b> foar dat ôfbylding.",
+        "Jo kinne dynamyske ynhâld op jo side laden en ferfange troch <b>augment</b>-wearden. Augment wurdt brûkt foar oanpaste dynamyske siden lykas <b>Products</b>, <b>Categories</b>, en <b>Include Items</b>. Om in ôfbylding yn te stellen om dynamysk te laden, klikje jo op <b>Feeder</b> en selektearje <b>Dynamic Source</b> foar dy ôfbylding.",
     },
     hotkeys: {
-      ctrl_b: "ûnderdiel ûnderdiel op/ûnderdiel foar ûnderdiel tekst | <b>fertsjinje ûnderdiel ûnderdiel</b>",
-      ctrl_i: "ûnderdiel ûnderdiel op/ûnderdiel foar ûnderdiel tekst | <i>fertsjinje ûnderdiel ûnderdiel</i>",
+      ctrl_b: "Skeakelje fet oan/út foar selektearre tekst | <b>Mak my fet</b>",
+      ctrl_i: "Skeakelje kursyf oan/út foar selektearre tekst | <i>Mak my kursyf</i>",
       ctrl_l:
-        "ûnderdiel ûnderdiel op/ûnderdiel foar ûnderdiel tekst | <s>ûnderdiel ûnderdiel ûnderdiel</s>",
-      ctrl_u: "ûnderdiel ûnderdiel op/ûnderdiel foar ûnderdiel tekst | <u>ûnderdiel ûnderdiel</u>",
+        "Skeakelje trochstrekking oan/út foar selektearre tekst | <s>Strike through me</s>",
+      ctrl_u: "Skeakelje ûnderstreekje oan/út foar selektearre tekst | <u>Mei ûnderstreke</u>",
       ctrl_1:
-        "ûnderdiel lettertype grutte fan ûnderdiel tekst | <small>fertsjinje ûnderdiel ûnderdiel</small>",
-      ctrl_2: "ferheegje lettertype grutte fan ûnderdiel tekst | <big>fertsjinje ûnderdiel ûnderdiel</big>",
-      ctrl_r: "Fuortsmite alles ûnderdiel Fan ûnderdiel tekst | ûnderdiel alles stilen",
+        "Lettertypegrutte fan selektearre tekst ferminderje | <small> Meitsje my lyts</small>",
+      ctrl_2: "Lettertypegrutte fan selektearre tekst fergrutsje | <big>Mak my grut</big>",
+      ctrl_r: "Fuortsmite alle opmaak út selektearre tekst | Alle stilen skjinmeitsje",
       ctrl_s: "Bewarje side",
-      tab: "ûnderdiel ûnderdiel ûnderdiel modus",
+      tab: "Skeakelje tusken skaalmodi",
       ctrl_e: "ûnderdiel of ûnderdiel kloanje styl modus",
     },
   },
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Koade",
         subtitle:
-          "jo kin kopiearje en ûnderdiel ûnderdiel koade Fan lofts ûnderdiel seksjes yn side bouwer.",
+          "Jo kinne de elemintkoade kopiearje en plakke fan 'e linkerkantseksjes yn' e sidebouwer.",
       },
       inputs: {
         title: {
@@ -10759,7 +10759,7 @@ export default {
         },
         tags: {
           label: "tags",
-          message: "brûkt foar ûnderdiel en ûnderdiel ûnderdiel.",
+          message: "Wurdt brûkt foar it sykjen en kategorisearjen fan eleminten.",
         },
         section: {
           message: "kopiearje seksje Fan side bouwer.",
@@ -10774,13 +10774,13 @@ export default {
   marketplace_vendors: {
     title: "ferkeapers list",
     subtitle:
-      "Tafoegje ferkeapers ûnderdiel, ûnderdiel ûnderdiel ûnderdiel nei Produkten yn produkt Dashboard > ferkeapers.",
+      "Foegje ferkeapers hjir ta, tawize se dan oan produkten yn it Produkt Dashboard> Ferkeapers.",
     add_new_vendor_action: "Tafoegje nij ferkeaper",
     status_tooltip: {
       title: "Ferkeaperstatus",
-      ACCEPTED: "ferkeaper hat tagong nei ûnderdiel ûnderdiel.",
-      REJECTED: "ferkeaper fersyk hat ûnderdiel ûnderdiel.",
-      PENDING: "fersyk is ûnderdiel ûnderdiel Fan ferkeaper.",
+      ACCEPTED: "De ferkeaper hat tagong ta har paniel.",
+      REJECTED: "It fersyk fan de ferkeaper is ôfwiisd.",
+      PENDING: "It fersyk wachtet op in beslút fan de ferkeaper.",
     },
     number_of_products: "nûmer fan Produkten",
     invited: "ûnderdiel",
@@ -10798,7 +10798,7 @@ export default {
     access_tooltip: {
       title: "ûnderdiel tagong",
       subtitle:
-        "ferkeaper hat tagong nei ûnderdiel ûnderdiel. jo kin Bewurkje dit yn ferkeaper > tagong ljepper.",
+        "De ferkeaper hat tagong ta har paniel. Jo kinne dit bewurkje yn Vendor> Tagong tab.",
     },
     reject_by_user_tooltip: {
       title: "ûnderdiel op brûker",
@@ -10813,9 +10813,9 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "lisinsje ûnderdiel ûnderdiel!",
+    title: "Lisinsje Upgrade fereaske!",
     subtitle:
-      "jo ûnderdiel lisinsje ûnderdiel net ûnderdiel ûnderdiel fan jo ûnderdiel bedriuw ûnderdiel. graach ûnderdiel jo lisinsje nei ûnderdiel ûnderdiel.",
+      "Jo hjoeddeistige lisinsje foldocht net oan de easken fan jo selektearre bedriuwsmodel. Upgrade jo lisinsje asjebleaft nei it Enterprise-plan.",
   },
 
   /**
@@ -10829,14 +10829,14 @@ export default {
     add_template_action: "Tafoegje berjocht sjabloan",
 
     notifications: {
-      add_chat_success_message: "berjocht hat ûnderdiel ûnderdiel ûnderdiel.",
+      add_chat_success_message: "Berjocht is mei súkses tafoege.",
     },
 
     send_update_email: {
       title: "bestelling Bywurkje e-post",
       need_set_service_alert: {
         message:
-          "graach ynstelle jo e-post tsjinst ûnderdiel nei ûnderdiel e-post nei ûnderdiel ferstjoerd.",
+          "Stel asjebleaft jo e-posttsjinstprovider yn om de e-post te ferstjoeren.",
         action: "gean nei Ynstellingen",
       },
       send_action: "ferstjoere Bywurkje e-post",
@@ -10849,13 +10849,13 @@ export default {
       edit_title: "Bewurkje berjocht sjabloan",
       add_title: "Tafoegje berjocht sjabloan",
       message:
-        "jo moat ynstelle titel en berjocht ûnderdiel ûnderdiel. titel ûnderdiel ûnderdiel brûkt foar jo ûnderdiel en sil net ferstjoerd nei klant.",
+        "Jo moatte hjir in titel en berjochttekst ynstelle. De titel wurdt allinich brûkt foar jo referinsje en sil net nei de klant stjoerd wurde.",
 
       save_action: "Bewarje sjabloan",
       add_action: "Tafoegje sjabloan",
 
       notifications: {
-        save_success_message: "sjabloan hat ûnderdiel ûnderdiel ûnderdiel.",
+        save_success_message: "Sjabloan is mei súkses bewarre.",
       },
 
       inputs: {
@@ -10867,7 +10867,7 @@ export default {
           label: "sjabloan berjocht",
           placeholder: "skriuwe jo berjocht ûnderdiel...",
           messages:
-            "jo kin ynstelle ûnderdiel ûnderdiel op {order_id} en {buyer_name}.",
+            "Jo kinne dynamyske wearden ynstelle troch {order_id} en {buyer_name}.",
         },
       },
     },
@@ -10886,7 +10886,7 @@ export default {
     click_to_create: "ûnderdiel nei Meitsje...",
     valid_for_30_days: "jildich foar 30 dagen",
     notifications: {
-      secure_link_created: "ûnderdiel keppeling hat ûnderdiel ûnderdiel ûnderdiel.",
+      secure_link_created: "Feilige keppeling is mei súkses makke.",
     },
   },
 
@@ -10932,7 +10932,7 @@ export default {
     add_action: "Tafoegje doaze",
     subtitle:
       "Konfigurearje en behear dizze opsje foar jo winkel.",
-    empty: "ûnderdiel doazen ûnderdiel. ûnderdiel “Tafoegje doaze”.",
+    empty: "Noch gjin doazen. Klikje op \"Fakje taheakje\".",
     edit: "Bewurkje doaze",
     new: "nij doaze",
     default_weight: "standert gewicht",
@@ -10973,22 +10973,22 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Listjen",
-    message:"Meitsje ûnderdiel, ûnderdiel ûnderdiel foar ûnderdiel type fan Listjen—eigenskippen, ûnderdiel, ûnderdiel, tsjinsten, en mear."
+    message:"Meitsje in trochsykbere, moderearre map foar elk type fermelding - eigenskippen, hotels, dokters, tsjinsten, en mear."
   },
 
   shop_listing: {
     name: "Listjen",
     message:
-      "Meitsje ûnderdiel, ûnderdiel ûnderdiel foar ûnderdiel type fan Listjen—eigenskippen, ûnderdiel, ûnderdiel, tsjinsten, en mear.",
+      "Meitsje in trochsykbere, moderearre map foar elk type fermelding - eigenskippen, hotels, dokters, tsjinsten, en mear.",
 
     items: {
       title: "ûnderdielen",
       sub_title:
         "Meitsje, Bewurkje, en behear Listjen ûnderdielen. ûnderdiel status, priisstelling, Kontaktynformaasje, en media.",
 
-      empty_title: "ûnderdiel ûnderdielen ûnderdiel",
+      empty_title: "Noch gjin items",
       empty_subtitle:
-        "Meitsje jo ûnderdiel Listjen ûnderdiel nei begjin ûnderdiel jo ûnderdiel.",
+        "Meitsje jo earste fermeldingsitem om te begjinnen mei it bouwen fan jo map.",
 
       add_title: "Tafoegje ûnderdiel",
       edit_title: "Bewurkje ûnderdiel",
@@ -11002,9 +11002,9 @@ export default {
       opening_hours_json: "ûnderdiel oeren JSON",
 
       delete_title: "Wiskje ûnderdiel",
-      delete_message: "binne jo ûnderdiel jo ûnderdiel nei Wiskje dit ûnderdiel?",
+      delete_message: "Binne jo wis dat jo dit item fuortsmite wolle?",
       delete_success: "Item mei súkses wiske.",
-      restore_success: "ûnderdiel ûnderdiel ûnderdiel.",
+      restore_success: "Item mei sukses werombrocht.",
 
       opening_hours:"ûnderdiel oeren",
       form_fields:"Formulier ûnderdiel",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategoryen",
       sub_title:
-        "ûnderdiel jo ûnderdiel mei kategory en ûnderdiel. dit ûnderdiel ûnderdiel en ûnderdiel.",
+        "Organisearje jo map mei kategoryen en subkategoryen. Dit ferbetteret navigaasje en filterjen.",
 
       empty_title: "ûnderdiel kategory ûnderdiel",
       empty_subtitle:
-        "Meitsje kategory nei ûnderdiel jo Listjen en ûnderdiel ûnderdiel.",
+        "Meitsje kategoryen om jo fermelding te strukturearjen en blêdzjen te ferbetterjen.",
 
       add_title: "Add Kategory",
       edit_title: "Kategory bewurkje",
@@ -11045,11 +11045,11 @@ export default {
 
       moderation_title: "moderaasje",
       moderation_mode: "moderaasje modus",
-      require_first_approved_before_more: "ûnderdiel ûnderdiel ûnderdiel ûnderdiel mear",
+      require_first_approved_before_more: "Fereaskje earste goedkarring foardat mear",
 
       limits_title: "limyt",
       max_pending_per_user: "ûnderdiel yn ôfwachting ûnderdiel brûker",
-      max_items_per_user: "ûnderdiel ûnderdielen ûnderdiel brûker",
+      max_items_per_user: "Maksimum items per brûker",
       limits_hint: "limyt ûnderdiel",
 
       templates_title: "sjabloanen",
@@ -11063,13 +11063,13 @@ export default {
     supervision: {
       title: "tafersjoch",
       sub_title:
-        "ûnderdiel ûnderdiel ûnderdielen en ûnderdiel ûnderdiel ûnderdiel ûnderdiel goedkarre, publisearje, ôfwize, argivearje, of weromsette nei yn ôfwachting.",
+        "Besjoch yntsjinne items en beslute wat der folgjende bart: goedkarre, publisearje, ôfwize, argivearje, of weromsette nei ôfwachting.",
 
-      empty_title: "ûnderdiel ûnderdielen nei ûnderdiel",
+      empty_title: "Gjin items om te besjen",
       empty_subtitle:
-        "ûnderdiel brûkers ûnderdiel nij ûnderdielen, ûnderdiel sil ûnderdiel ûnderdiel foar moderaasje.",
+        "As brûkers nije items yntsjinje, sille se hjir ferskine foar moderaasje.",
 
-      review_title: "ûnderdiel ûnderdiel",
+      review_title: "Review item",
       approve_publish: "goedkarre & publisearje",
 
       submitted_at: "ûnderdiel",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "ûnderdiel ûnderdiel ûnderdiel.",
+      approve_success: "Item goedkard mei súkses.",
       publish_success: "ûnderdiel publisearre ûnderdiel.",
-      unpublish_success: "ûnderdiel ûnderdiel ûnderdiel.",
-      archive_success: "ûnderdiel ûnderdiel ûnderdiel.",
-      reject_success: "ûnderdiel ûnderdiel ûnderdiel.",
-      penalty_success: "ûnderdiel ûnderdiel ûnderdiel.",
+      unpublish_success: "Item is mei súkses net publisearre.",
+      archive_success: "Item mei súkses argivearre.",
+      reject_success: "Item mei súkses ôfwiisd.",
+      penalty_success: "Boete mei súkses tapast.",
 
       reject_title: "ôfwize ûnderdiel",
-      reject_reason: "ûnderdiel ûnderdiel",
+      reject_reason: "Rejection reden",
 
       penalty: "ûnderdiel",
       penalty_title: "ûnderdiel",
-      penalty_points: "ûnderdiel ûnderdiel",
+      penalty_points: "Strafpunten",
       penalty_note: "ûnderdiel notysje"
     },
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "ûntwerpen",
       sub_title:
-        "Meitsje ûnderdiel ûntwerp ynstelle (ûnderdiel + details sjabloanen) en ûnderdiel ûnderdiel nei kategory. kategory kin brûk ûnderdiel ûntwerpen.",
+        "Meitsje meardere ûntwerpsets (kaart + details sjabloanen) en tawize se oan kategoryen. Kategoryen kinne ferskate ûntwerpen brûke.",
 
       empty_title: "ûnderdiel ûntwerpen ûnderdiel",
       empty_subtitle:
-        "Tafoegje jo ûnderdiel ûntwerp ynstelle nei begjin ûnderdiel ûnderdiel kategory ûnderdiel.",
+        "Foegje jo earste ûntwerpset ta om te begjinnen mei oanpassen fan hoe't kategoryen der útsjen.",
 
       add_title: "Tafoegje ûntwerp",
       edit_title: "Bewurkje ûntwerp",
@@ -11127,14 +11127,14 @@ export default {
       details_template: "details sjabloan",
 
       notifications: {
-        add_success: "ûntwerp ûnderdiel ûnderdiel.",
+        add_success: "Untwerp makke mei súkses.",
         edit_success: "ûntwerp bywurke ûnderdiel.",
         delete_success: "ûntwerp wiskt ûnderdiel.",
       },
 
       delete_title: "Wiskje ûntwerp",
       delete_message:
-        "Wiskje dit ûntwerp? kategory mei ûnderdiel sil ûnderdiel ûnderdiel ûntwerp_ûnderdiel.",
+        "Dit ûntwerp wiskje? Kategoryen dy't it brûke sille automatysk design_id ferlieze.",
     },
 
 
@@ -11144,17 +11144,17 @@ export default {
     badges: {
       title: "badges",
       sub_title:
-        "Meitsje en behear ûnderdiel badges. badges kin ûnderdiel ûnderdiel nei Listjen ûnderdielen nei ûnderdiel ûnderdiel ûnderdiel.",
+        "Meitsje en beheare winkelfrontbadges. Badges kinne wurde tawiisd oan list items om spesjale attributen te markearjen.",
 
       empty_title: "ûnderdiel badges ûnderdiel",
       empty_subtitle:
-        "Tafoegje jo ûnderdiel badge nei begjin ûnderdiel Listjen ûnderdielen.",
+        "Foegje jo earste badge ta om items te markearjen.",
 
       add_title: "Tafoegje badge",
       edit_title: "Bewurkje badge",
 
       notifications: {
-        add_success: "badge ûnderdiel ûnderdiel.",
+        add_success: "Badge mei súkses makke.",
         edit_success: "badge bywurke ûnderdiel.",
         delete_success: "badge wiskt ûnderdiel.",
       },
@@ -11166,24 +11166,24 @@ export default {
     companies: {
       title: "Bedriuwen",
       sub_title:
-        "Meitsje en behear bedriuwen. ûnderdiel Listjen ûnderdiel kin ûnderdiel ûnderdiel keppele nei ûnderdiel bedriuw.",
+        "Meitsje en beheare bedriuwen. Elk item kin opsjoneel wurde keppele oan ien bedriuw.",
 
       empty_title: "ûnderdiel bedriuwen ûnderdiel",
       empty_subtitle:
-        "Tafoegje jo ûnderdiel bedriuw nei keppeling ûnderdiel nei Listjen ûnderdielen.",
+        "Foegje jo earste bedriuw ta om it te keppeljen oan listitems.",
 
       add_title: "Tafoegje bedriuw",
       edit_title: "Bedriuw bewurkje",
 
       notifications: {
-        add_success: "bedriuw ûnderdiel ûnderdiel.",
+        add_success: "Bedriuw makke mei súkses.",
         edit_success: "bedriuw bywurke ûnderdiel.",
         delete_success: "bedriuw wiskt ûnderdiel.",
       },
 
       delete_title: "Wiskje bedriuw",
       delete_message:
-        "Wiskje dit bedriuw? ûnderdielen mei ûnderdiel sil ûnderdiel ûnderdiel bedriuw keppeling.",
+        "Dit bedriuw wiskje? Items dy't it brûke, sille de bedriuwslink automatysk ferlieze.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "berjocht",
       sub_title: "behear berjocht ferstjoerd op brûkers Fan Listjen profyl.",
       empty_title: "ûnderdiel berjocht",
-      empty_subtitle: "berjocht ferstjoerd op brûkers sil ûnderdiel ûnderdiel.",
+      empty_subtitle: "Berjochten ferstjoerd troch brûkers sille hjir ferskine.",
 
       sender: "ûnderdiel",
       item: "ûnderdiel",
@@ -11203,13 +11203,13 @@ export default {
       dialog_title: "Berjocht",
       owner_reply: "eigner antwurdzje",
       reply: "antwurdzje",
-      reply_hint: "skriuwe antwurdzje nei brûker. jo kin ûnderdiel ûnderdiel berjocht lêzen/ûnderdiel Fan aksje.",
+      reply_hint: "Skriuw in antwurd oan de brûker. Jo kinne it berjocht ek markearje as lêzen/spam fan aksjes.",
 
       mark_read: "ûnderdiel lêzen",
-      mark_unread: "ûnderdiel ûnderdiel",
+      mark_unread: "Markearje as net lêzen",
       archive: "argivearje",
       unarchive: "ûnderdiel",
-      mark_spam: "ûnderdiel ûnderdiel",
+      mark_spam: "Markearje as spam",
       mark_not_spam: "net ûnderdiel",
 
       delete_confirm: "Wiskje dit berjocht?",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "Listjen",
-      subtitle: "ynskeakelje of ûnderdiel jo iepenbier Listjen side. ûnderdiel ynskeakele foar ûnderdiel tiid, Selldone sil Meitsje Listjen konfiguraasje ûnderdiel.",
+      subtitle: "Ynskeakelje of útskeakelje jo iepenbiere fermelding side. As it foar it earst ynskeakele is, sil Selldone de konfiguraasje fan 'e list automatysk oanmeitsje.",
       true_description: "Listjen is ynskeakele. Klanten kin ûnderdiel Listjen siden.",
       false_description: "Listjen is útskeakele. Listjen siden en ûnderdiel binne ûnderdiel.",
       open_listing: "iepenje Listjen",
       note: "jo kin ûnderdiel konfigurearje moderaasje, limyt, formulieren, en ûntwerp ûnderdiel Listjen Ynstellingen.",
       vendor_prereq_text:
-        "ûnderdiel ferkeapers nei Tafoegje Listjen ûnderdielen Fan ûnderdiel ferkeaper ûnderdiel? ûnderdiel, ûnderdiel jo bedriuw ûnderdiel nei ûnderdiel.",
+        "Wolle jo dat leveransiers listitems tafoegje fan har Vendor Panel? Skeakelje earst jo bedriuwsmodel nei Marketplace.",
       vendor_prereq_button: "ynstelle ûnderdiel bedriuw ûnderdiel",
 
       vendor_access_text:
-        "no jo kin ûnderdiel ûnderdiel ferkeapers kin tagong Listjen eigenskippen (ûnderdielen + bedriuwen). ynskeakelje ûnderdiel yn ûnderdiel Ynstellingen.",
+        "No kinne jo beslute oft leveransiers tagong krije ta Listingfunksjes (items + bedriuwen). Aktivearje it yn Marketplace-ynstellingen.",
       vendor_access_button: "ynskeakelje Listjen foar ferkeapers",
 
       more_options_text:
-        "mear ûnderdiel binne beskikber yn Listjen Ynstellingen. jo kin konfigurearje ynfieren, UI/ûnderdiel, moderaasje, limyt, en ûnderdiel opsjes.",
+        "Mear kontrôles binne beskikber yn Listing ynstellings. Jo kinne ynputen, UI / uterlik, moderaasje, grinzen en monetarisaasjeopsjes konfigurearje.",
       more_options_button: "gean nei Listjen Ynstellingen",
 
       updated: "Listjen bywurke.",
@@ -11241,23 +11241,23 @@ export default {
 
     search: {
       title: "sykje Ynstellingen",
-      subtitle: "ûntwerp ûnderdiel Klanten sykje jo Listjen. ynskeakelje Lokaasje-ûnderdiel sykje en Bouwe filters Fan jo oanpast Formulier ûnderdiel.",
+      subtitle: "Untwerp hoe't klanten jo fermelding sykje. Aktivearje lokaasje-basearre sykjen en bou filters út jo oanpaste formulierfjilden.",
 
       location_title: "Lokaasje sykje",
-      location_subtitle: "ûnderdiel Klanten nei ûnderdiel Lokaasje en ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel radius.",
+      location_subtitle: "Tastean klanten in lokaasje te kiezen en resultaten yn 'e buert te finen binnen in ynstelbere straal.",
       location_enabled_true: "Lokaasje filter is ynskeakele. Klanten kin sykje op ôfstân.",
-      location_enabled_false: "Lokaasje filter is útskeakele. ûnderdiel sil net ûnderdiel ûnderdiel op ôfstân.",
+      location_enabled_false: "Lokaasjefilter is útskeakele. Resultaten sille net wurde filtere op ôfstân.",
 
       radius_default: "standert radius (ûnderdiel)",
-      radius_default_hint: "brûkt ûnderdiel klant selektearje Lokaasje ûnderdiel ûnderdiel net ûnderdiel radius.",
+      radius_default_hint: "Wurdt brûkt as de klant in lokaasje selektearret, mar gjin straal kiest.",
       radius_max: "maksimum radius (ûnderdiel)",
-      radius_max_hint: "ûnderdiel radius sil ûnderdiel ûnderdiel nei dit ûnderdiel.",
+      radius_max_hint: "De radius fan 'e winkelfront sil oan dizze wearde beklamme wurde.",
       radius_options: "radius opsjes (ûnderdiel)",
-      radius_options_hint: "ûnderdiel ûnderdiel kin ûnderdiel ûnderdiel ûnderdiel opsjes yn ûnderdiel UI.",
+      radius_options_hint: "Dizze wearden kinne wurde werjûn as rappe opsjes yn 'e winkelfront UI.",
 
       filters_title: "sykje filters",
       filters_subtitle: "Konfigurearje en behear dizze opsje foar jo winkel.",
-      no_filters: "ûnderdiel filters ûnderdiel ûnderdiel.",
+      no_filters: "Der binne noch gjin filters tafoege.",
       auto_generate: "ûnderdiel opsjes",
 
       filter_field: "ûnderdiel kaai",
@@ -11269,7 +11269,7 @@ export default {
       single: "ûnderdiel",
       kv_mode: "kaai/ûnderdiel modus",
 
-      requires_listing_active: "Listjen is net aktyf. ynskeakelje Listjen ûnderdiel nei brûk ûnderdiel op ûnderdiel.",
+      requires_listing_active: "Listing is net aktyf. Aktivearje Listing earst om it op 'e winkel te brûken.",
 
 
     },
@@ -11323,17 +11323,17 @@ export default {
      */
     shop_email: {
       name: [
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel",
+        "Super Savings Weekend Blast",
         "Eksklusive Insider Deals ûntbleate",
         "Jo VIP Tagong ta Premium Discounts",
         "ûnderdiel ferkeap ûnderdiel",
         "Untskoattelje jo winkelparadys",
-        "ûnderdiel ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel",
+        "The Grand Shopper's Carnival",
+        "Spring Fling Shopping Spree",
         "Autumn Deals Jo kinne net wjerstean",
         "Winter Wonders: Warm oanbiedingen foar kâlde dagen",
         "Ein fan 'e simmer Clearance Countdown",
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel tagong",
+        "Black Friday Bonanza: Early Bird Access",
         "Hello Holidays: Jo kadogids en mear",
         "Frisse fynsten: Nije oankomsten gewoan foar jo",
         "Loyalty Rewarded: Exclusive Discounts Binnen",
@@ -11395,7 +11395,7 @@ export default {
         "Oprommingsútferkeap! Bewarje Big",
         "Spesjaal oanbod: Fergees ferstjoering",
         "2-foar-1: Allinnich hjoed!",
-        "ûnderdiel ûnderdiel 25% ûnderdiel",
+        "Holiday Special: 25% Off",
         "Eksklusyf 30% koarting",
         "Ferrassing! Ekstra 20% koarting",
         "Seasonal Savings Binnen",
@@ -11403,7 +11403,7 @@ export default {
         "Einiget gau: 15% koarting op alles",
         "Famylje en freonen: 20% koarting",
         "Grutte Savings dit wykein",
-        "ûnderdiel ûnderdiel 40% ûnderdiel",
+        "Black Friday: 40% Off",
         "Sneak Peek Discount: 30% koarting",
       ],
       description: [
@@ -11431,26 +11431,26 @@ export default {
      */
     coupon: {
       title: [
-        "ûnderdiel ûnderdiel",
+        "Savings Unleashed",
         "Untskoattelje de koarting",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Super Savings",
+        "Exclusive Deal",
+        "Bonus Savings",
         "VIP koarting",
         "Spesjale oanbieding",
         "Ekstra Savings",
         "Koarting Alert",
-        "ûnderdiel ûnderdiel",
+        "Budget Bliss",
         "Ekonomy Delight",
         "Wearde Bonanza",
         "Priis Cut",
-        "ûnderdiel ûnderdiel",
+        "Happy Savings",
         "Besparje mear, winkelje mear",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Flash Deal",
+        "Bargain Bounty",
         "direkt ûnderdiel",
         "Deal fan de dei",
-        "ûnderdiel ûnderdiel",
+        "Seasonal Steal",
       ],
       description: [
         "Genietsje fan in swiete deal op ús! Besparje op jo folgjende oankeap.",
@@ -11481,7 +11481,7 @@ export default {
         "Bundle & Bewarje grut!",
         "Keapje mear, besparje mear!",
         "Smart Deals foar Smart Shoppers",
-        "koarting ûnderdiel! ûnderdiel ûnderdiel",
+        "Discount Alert! Bundle Savings",
         "Combo oanbieding - Mear foar Minder",
         "Eksklusive besparrings op bondels",
         "Krij mear foar jo jild!",
@@ -11517,9 +11517,9 @@ export default {
      */
     gift_card_type: {
       title: [
-        "ûnderdiel ûnderdiel!",
+        "Treat Yourself!",
         "Allinnich foar dy!",
-        "ûnderdiel ûnderdiel!",
+        "Happy Shopping!",
         "Genietsje fan ús!",
         "Meitsje in bytsje",
         "Om't jo Spesjaal binne",
@@ -11633,13 +11633,13 @@ export default {
         "Technyske ynsjoch",
         "Foodie fynt",
         "Reisferhalen",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Health Tips",
+        "Fashion Faves",
         "bedriuw ûnderdiel",
         "Lifestyle Ferhalen",
         "ûnderdiel bywurkje",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Art Highlights",
+        "Parenting Pointers",
       ],
       description: [
         "Untdek ynsjochlike artikels oer ferskate ûnderwerpen.",
@@ -11663,12 +11663,12 @@ export default {
         "ûnderdiel pakket",
         "Essinsjele plan",
         "Profesjonele Suite",
-        "ûnderdiel ûnderdiel",
+        "Enterprise Edition",
         "Avansearre Tier",
         "Premium pakket",
-        "ûnderdiel ûnderdiel",
+        "Ultimate Solution",
         "Elite nivo",
-        "ûnderdiel ûnderdiel",
+        "Growth Accelerator",
         "Platina Power",
       ],
     },
@@ -11687,16 +11687,16 @@ export default {
         "Sportguod",
         "ûnderdiel & ûnderdiel",
         "Sieraden en accessoires",
-        "ûnderdiel ûnderdiel",
+        "Automotive Parts",
         "ûnderdiel & ûnderdiel",
         "Keukengerei",
         "thús ûnderdiel",
         "Muzykynstruminten",
-        "ûnderdiel ûnderdiel",
+        "Pet Supplies",
         "ûnderdiel",
         "Bags & Bagaazje",
         "Kantoarartikels",
-        "ûnderdiel ûnderdiel",
+        "Hardware Tools",
         "Boadskippen",
       ],
 
@@ -11723,12 +11723,12 @@ export default {
         "Featured kampanjes",
         "Nije oankomsten",
         "Meast ferkocht",
-        "ûnderdiel ûnderdiel",
+        "Seasonal Specials",
         "ûnderdiel oanbiedingen",
         "ûnderdiel deals",
         "VIP ûnderdiel",
         "ûnderdiel ûnderdielen",
-        "ûnderdiel ûnderdiel",
+        "Holiday Bundles",
         "Temakolleksjes",
         "Merk Showcases",
         "lid favoriten",
@@ -11752,10 +11752,10 @@ export default {
         "koarting ûnderdiel!",
         "Eksklusive Deals",
         "Hot ferkeap!",
-        "ûnderdiel ûnderdiel",
+        "Clearance Alert",
         "Fergese fersending",
         "Kado binnen!",
-        "ûnderdiel ûnderdiel",
+        "Win Prizes",
         "Lid Perks",
         "Flash ferkeap",
       ],
@@ -11767,25 +11767,25 @@ export default {
     campaign: {
       name: [
         "Winkelje 'Til You loslitte",
-        "ûnderdiel ûnderdiel",
+        "Cart Frenzy",
         "ûnderdiel ferkeap ûnderdiel",
         "Klikje, winkelje, bewarje",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Bargain Bonanza",
+        "E-Deal Extravaganza",
         "ûnderdiel Markdown ûnderdiel",
-        "ûnderdiel ûnderdiel ûnderdiel",
+        "Cyber ​​Savings Spree",
         "Digitale koartingsdagen",
         "E-commerce karnaval",
-        "online ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Online Outlet Oasis",
+        "Retail Rush",
         "ûnderdiel pakhús ferkeap",
-        "ûnderdiel ûnderdiel",
+        "E-Shopper's Paradise",
         "Firtuele Voucher Venture",
         "Digitale Doorbusters",
-        "ûnderdiel ûnderdiel",
+        "E-Cart Clearance",
         "Online winkelje Showdown",
         "Cyber Sale Spektakulêr",
-        "ûnderdiel ûnderdiel",
+        "E-Bargain Blitz",
       ],
     },
 
@@ -11794,11 +11794,11 @@ export default {
      */
     valuation: {
       title: [
-        "ûnderdiel ûnderdiel priisstelling",
+        "T-Shirt Customization Pricing",
         "Handmade sieraden wurdearring",
         "Persoanlike Shoe priisstelling",
         "Oanpaste Artwork Wurdearring",
-        "ûnderdiel ûnderdiel priisstelling",
+        "Tailored Suit Pricing",
         "Oanpassingskosten foar elektroanyske gadgets",
         "Persoanlike parfum wurdearring",
         "Oanpaste Bag priisstelling",
@@ -11807,7 +11807,7 @@ export default {
         "Oanpaste Furniture Wurdearring",
         "Bespoke Watch Priis",
         "Persoanlike Toy Wurdearring",
-        "ûnderdiel ûnderdiel priisstelling",
+        "Tailored Hat Pricing",
         "Oanpaste Skincare produkt Wurdearring",
         "Bespoke Home Decor Priis",
         "Oanpaste Kitchenware Wurdearring",
@@ -11818,8 +11818,8 @@ export default {
       structure: {
         title: [
           "T-shirt printûntwerp",
-          "ûnderdiel ûnderdiel type",
-          "ûnderdiel ûnderdiel ûnderdiel",
+          "Jewelry Metal Type",
+          "Shoe Material Choice",
           "Art Frame Grutte",
           "Suit Fabric Seleksje",
           "Gadget Kleur Opsje",
@@ -11827,15 +11827,15 @@ export default {
           "Bag Materiaal en grutte",
           "Dress Length en Style",
           "Boek Cover Materiaal",
-          "ûnderdiel ûnderdiel type",
+          "Furniture Wood Type",
           "Watch Riem Materiaal",
           "ûnderdiel oanpast eigenskippen",
           "Hat Grutte en kleur",
-          "ûnderdiel ûnderdiel foarkarren",
+          "Skincare Ingredient Preferences",
           "Home Decor Tema",
           "Keukengerei Materiaal",
           "Stationery Papier type",
-          "ûnderdiel ûnderdiel ûnderdiel",
+          "Hair Accessory Material",
           "Sports Equipment Grutte",
         ],
       },
@@ -11847,24 +11847,24 @@ export default {
     lottery: {
       title: [
         "Spin & Win grutte prizen!",
-        "ûnderdiel ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel ûnderdiel",
+        "Fortune Wheel Jackpot",
+        "Lucky Spin Bonanza",
         "Spin foar Win Rewards",
         "ûnderdiel fan ûnderdiel",
         "ûnderdiel lotterij ûnderdiel",
-        "ûnderdiel ûnderdiel ûnderdiel",
+        "Mega Spin Surprise",
         "Priis Wheel Fiesta",
         "Treasure Spin Spektakulêr",
         "Spin it tsjil Magic",
-        "ûnderdiel ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Lucky Wheel Galore",
+        "Fortune's Favor",
         "ûnderdiel fan ûnderdiel",
         "Spin foar Riches",
         "Priis Spinner Delight",
         "Gouden Spinne Lottery",
         "Spin-a-priis",
         "ûnderdiel fan ûnderdiel",
-        "ûnderdiel ûnderdiel ûnderdiel",
+        "Lucky Spin Showcase",
         "Ultimate Spinne beleanning",
       ],
       description: [
@@ -11897,27 +11897,27 @@ export default {
     subscription_price: {
       title: [
         "ûnderdiel tagong",
-        "ûnderdiel ûnderdiel",
+        "Premium lidmaatskip",
         "ûnderdiel pakket",
-        "ûnderdiel ûnderdiel",
+        "Sulveren Plan",
         "ûnderdiel abonnemint",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Enterprise Tier",
+        "Starter Bundel",
         "ûnbeheind oanbieding",
         "ûnderdiel pakket",
         "Profesjonele Suite",
       ],
       description: [
-        "ûnderdiel foar ûnderdiel ûnderdiel ûnderdiel.",
+        "Ideaal foar yndividuen dy't de basis ferkenne.",
         "tagong nei alles ûnderdiel eigenskippen en ynhâld.",
-        "ûnderdiel ûnderdiel en prioriteit stipe.",
+        "Eksklusive foardielen en prioriteit stipe.",
         "ûnderdiel pakket foar ûnderdiel brûkers.",
-        "ûnderdiel tagong mei ûnderdiel ûnderdiel.",
-        "oanpast ûnderdiel foar ûnderdiel ûnderdiel.",
-        "ûnderdiel ûnderdiel ûnderdiel.",
-        "ûnderdiel limyt op ûnderdiel, foar ûnderdiel brûker.",
-        "ûnderdiel ûnderdiel foar ûnderdiel, ûnderdiel nei 4 leden.",
-        "ûnderdiel foar ûnderdiel ûnderdiel avansearre ûnderdiel.",
+        "Ultimate tagong mei foardielen fan top-tier.",
+        "Oanpaste oplossings foar grutte organisaasjes.",
+        "In betelbere opsje op yngongsnivo.",
+        "Gjin limiten op gebrûk, foar de machtige brûker.",
+        "In spesjaal plan foar gesinnen, oant 4 leden.",
+        "Untworpen foar professionals dy't avansearre ark sykje.",
       ],
     },
 
@@ -11927,17 +11927,17 @@ export default {
         "fysyk ûnderdiel",
         "prestaasje eigenskippen",
         "ûnderdiel opsjes",
-        "ûnderdiel ûnderdiel",
+        "Power Requirements",
         "ûnderdiel en Bouwe ûnderdiel",
         "kleur en ûnderdiel opsjes",
         "ûnderdiel en ûnderdiel",
-        "ûnderdiel ûnderdiel ûnderdiel",
+        "Kompatibiliteit fan bestjoeringssysteem",
         "ûnderdiel en ûnderdiel",
         "pakket ynhâld",
         "Garânsje en stipe",
         "merk en ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Miljeufreonlikens",
+        "Enerzjy-effisjinsje",
         "ûnderdiel en ûnderdiel",
         "ûnderdiel opsjes",
         "opnommen ûnderdiel",
@@ -11953,7 +11953,7 @@ export default {
         "bestelling faktuer",
         "Betelling faktuer",
         "klant kwitânsje",
-        "ûnderdiel ûnderdiel",
+        "Transaksje Gearfetting",
         "Fakturearring ûnderdiel",
         "ûnderdiel kwitânsje",
         "bestelling ûnderdiel",
@@ -11971,25 +11971,25 @@ export default {
       ],
       message: [
         "ûnderdiel jo foar jo oankeap!",
-        "ûnderdiel ûnderdiel jo bedriuw.",
-        "jo bestelling is op ûnderdiel ûnderdiel!",
+        "Wy wurdearje jo bedriuw.",
+        "Jo bestelling is ûnderweis!",
         "ûnderdiel foar ûnderdiel mei us.",
-        "ûnderdiel ûnderdiel nei ûnderdiel jo ûnderdiel.",
+        "Sjoch út nei tsjinjen dy wer.",
         "jo ûnderdiel is ûnderdiel boppe prioriteit.",
-        "ûnderdiel ûnderdiel nei taryf jo ûnderdiel.",
-        "ûnderdiel jo foar ûnderdiel ûnderdiel winkel.",
-        "ûnderdiel ûnderdiel jo ûnderdiel jo nij oankeap!",
-        "Bewarje jo faktuer foar ûnderdiel ûnderdiel.",
-        "ûnderdiel us ûnderdiel foar mear ûnderdiel Produkten.",
+        "Ferjit net jo ûnderfining te beoardieljen.",
+        "Tankewol foar it stypjen fan ús winkel.",
+        "Wy hoopje dat jo genietsje fan jo nije oankeap!",
+        "Bewarje jo faktuer foar takomstige referinsje.",
+        "Besykje ús wer foar mear grutte produkten.",
         "ûnderdiel ferbûn foar ûnderdiel oanbiedingen.",
-        "ûnderdiel jo foar ûnderdiel ûnderdiel klant.",
-        "ûnderdiel ûnderdiel nei help ûnderdiel jo ûnderdiel ûnderdiel.",
+        "Tankewol foar it wêzen fan in wurdearre klant.",
+        "Wy binne hjir om te helpen as jo help nedich binne.",
         "jo feedback help us ûnderdiel.",
-        "ûnderdiel ûnderdiel koarting op jo ûnderdiel oankeap.",
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel!",
+        "Genietsje fan in spesjale koarting op jo folgjende oankeap.",
+        "Jo hawwe in geweldige kar makke!",
         "ûnderdiel jo foar jo ûnderdiel yn us.",
-        "ûnderdiel ûnderdiel nei jo feedback.",
-        "ûnderdiel ûnderdiel jo Fan ûnderdiel team.",
+        "Sjoch út nei jo feedback.",
+        "In hertlike tank fan ús team.",
       ],
     },
 
@@ -12003,20 +12003,20 @@ export default {
         "oanrikkemandearre thús",
         "lokaal ûnderdiel",
         "Nije oankomsten",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Estate Gardens",
+        "Winkeldistrikt",
+        "Artisan Alley",
+        "Lúkse Estates",
+        "Ferhier Hub",
         "iepenje ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Tech Innovations",
+        "Fashion Lane",
+        "Crafts Corner",
+        "Food Court",
+        "Boek Noch",
+        "Jewelry Junction",
+        "Antique Avenue",
+        "Fitness Zone",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "bedriuw ûnderdiel ûnderdiel",
+        "Bedriuwsregistraasje sertifikaat",
         "belesting ûnderdiel nûmer (TIN)",
         "ferkeaper ûnderdiel Formulier",
         "produkt ûnderdiel",
         "priisstelling list",
         "bank akkount details",
         "ûnderdiel fan adres",
-        "ûnderdiel ûnderdiel",
+        "Insurance Sertifikaat",
         "bedriuw profyl",
-        "ûnderdiel ûnderdiel ûnderdiel",
+        "Sertifikaat foar kwaliteitsfersekering",
         "ûnderdiel gegevens blêd (SDS)",
         "produkt Garânsje ynformaasje",
         "Retourbelied",
-        "Ferstjoering en ûnderdiel ûnderdiel",
+        "Skipfeart en ôfhanneling prosedueres",
         "klant tsjinst ûnderdiel",
-        "marketing en ûnderdiel ûnderdiel",
+        "Marketing- en promoasjeplannen",
         "Sosjale media keppelings",
-        "ûnderdiel ûnderdiel",
+        "Trade References",
         "ûnderdiel koade fan ûnderdiel",
-        "ûnderdiel ûnderdiel (NDA)",
+        "Non-Disclosure Agreement (NDA)",
       ],
     },
 
@@ -12057,18 +12057,18 @@ export default {
         "winkel konfiguraasje ûnderdiel",
         "ûnderdiel tsjinsten ûnderdiel",
         "ûnderdiel marketing tsjinst ûnderdiel",
-        "ûnderdiel ûnderdiel ynstelle ûnderdiel",
-        "ekspert ûnderdiel ûnderdiel foar bedriuw eigner",
+        "E-commerce Platform Setup Agreement",
+        "Expert Consultancy Kontrakt foar saaklike eigners",
         "tsjinst ûnderdiel foar ûnderdiel konfiguraasje",
         "winkel ynstelle en konfiguraasje tsjinsten ûnderdiel",
-        "POD tsjinst ûnderdiel ûnderdiel",
-        "marketing ûnderdiel ûnderdiel ûnderdiel",
+        "POD tsjinstferliening oerienkomst",
+        "Marketing Strategy Implementation Agreement",
         "bedriuw ûnderdiel tsjinst ûnderdiel",
         "ûnderdiel winkel ynstelle ûnderdiel",
-        "ekspert tsjinst ûnderdiel ûnderdiel",
+        "Expert tsjinstferliening oerienkomst",
         "bedriuw ûnderdiel en ynstelle ûnderdiel",
         "oanpast winkel ynstelle tsjinsten ûnderdiel",
-        "ûnderdiel ûnderdiel tsjinst ûnderdiel",
+        "Marketplace Optimization Service Agreement",
         "ûnderdiel en ynstelle tsjinsten ûnderdiel",
         "POD yntegraasje tsjinsten ûnderdiel",
         "marketing en ûnderdiel tsjinsten ûnderdiel",
@@ -12100,7 +12100,7 @@ export default {
     cashback: {
       title: [
         "winkel & ûnderdiel cashback",
-        "ûnderdiel ûnderdiel cashback",
+        "Loyalty Rewards Cashback",
         "ûnderdiel cashback oanbiedingen",
         "cashback ûnderdiel",
         "direkt cashback deals",
@@ -12117,20 +12117,20 @@ export default {
       ],
       description: [
         "ûnderdiel cashback op ûnderdiel oankeap!",
-        "ûnderdiel ûnderdiel foar jo ûnderdiel.",
+        "Krij beleanne foar jo loyaliteit.",
         "ûnderdiel cashback oanbiedingen ûnderdiel foar jo.",
-        "ûnderdiel ûnderdiel ûnderdiel mei cashback ûnderdiel.",
+        "Genietsje fan grutte besparrings mei cashback-beleanningen.",
         "direkt cashback op alles jo ûnderdiel ûnderdielen.",
         "Bewarje mear mei ûnderdiel cashback deals.",
         "ûnderdiel jo cashback op ûnderdiel dagen!",
         "ûnderdiel cashback ûnderdiel tiid jo winkel.",
         "ûnderdiel cashback ûnderdiel hjoed!",
-        "VIP leden ûnderdiel ûnderdiel cashback.",
+        "VIP-leden genietsje fan eksklusive cashback.",
         "ûnderdiel! ûnderdiel tiid cashback oanbiedingen.",
-        "ûnderdiel ûnderdiel cashback ûnderdiel klub no.",
+        "Doch no mei oan ús Cashback Rewards Club.",
         "mear jo winkel, mear jo Bewarje.",
-        "ûnderdiel ûnderdiel cashback ûnderdiel.",
-        "ûnderdiel ûnderdiel cashback deals ûnderdiel.",
+        "Untskoattelje de ultime cashback-beleanningen.",
+        "Belibje de bêste cashback deals rûnom.",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "ûnderdiel nei {shop} - ûnderdiel ûnderdiel ûnderdiel berik fan ûnderdielen",
-        "{shop} - jo ûnderdiel boarne foar ûnderdiel ûnderdiel en ûnderdiel tsjinst",
-        "ûnderdiel deals en ûnderdiel ûnderdiel ûnderdiel {shop} - ûnderdiel ûnderdiel!",
-        "ûnderdiel nei ûnderdiel {shop}'ûnderdiel ûnderdiel nei ûnderdiel en ûnderdiel ûnderdiel",
-        "ûnderdiel ûnderdiel fan {shop} ûnderdiel - ûnderdiel nei ûnderdiel ûnderdiel foar bywurkje",
-        "ûnderdiel ûnderdiel boppe ûnderdiel en ûnderdiel goed ûnderdiel {shop}",
-        "ûnderdiel ûnderdiel en ûnderdiel ûnderdiel foar alles ûnderdiel ûnderdiel {shop}",
-        "ûnderdiel oanbiedingen en ûnderdiel ûnderdiel ûnderdiel {shop} - ûnderdiel ûnderdiel!",
-        "{shop}'ûnderdiel ûnderdiel ûnderdiel ûnderdiel en produkt ûnderdiel - winkel mei ûnderdiel",
-        "ûnderdiel ûnderdiel nei {shop} - ûnderdiel ûnderdiel nei ûnderdiel ûnderdiel ûnderdiel ûnderdiel",
+        "Wolkom by {shop} - Ferkenne ús ûnderskiedende oanbod fan items",
+        "{shop} - Jo ultime boarne foar kwaliteitswaar en treflik tsjinst",
+        "Eksklusive oanbiedingen en besparrings allinich by {shop} - Grip de kâns!",
+        "Learje mei de tawijing fan {shop} oan miljeufreonlikens en etyske praktiken",
+        "Wês diel fan 'e {shop}-famylje - Abonnearje op ús nijsbrief foar updates",
+        "Dûk yn topkeuken en heech wurdearre guod by {shop}",
+        "Presintearje ideeën en kreative suggestjes foar alle eveneminten by {shop}",
+        "Ongeëvenaarde oanbiedingen en tiidgefoelige Specials by {shop} - Act Fast!",
+        "{shop}'s wiidweidige keaptips en produktevaluaasjes - Winkelje mei fertrouwen",
+        "Rikke út nei {shop} - Wy stribje dernei om in ongeëvenaarde winkelûnderfining te leverjen",
       ],
     },
 
@@ -12158,25 +12158,25 @@ export default {
     cross_selling: {
       message: [
         "foltôge jo ûnderdiel, ûnderdiel ynstelle!",
-        "Bewarje ûnderdiel mei ûnderdiel ûnderdiel deals!",
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel ûnderdiel!",
+        "Besparje grut mei ús bondeldeals!",
+        "Mis ús perfekte parings net!",
         "ûnderdiel jo oankeap, Tafoegje-op ûnderdiel!",
-        "ûnderdiel ûnderdiel ûnderdiel, ûnderdiel ûnderdiel!",
-        "ûnderdiel ûnderdielen, ûnderdiel koarting!",
-        "ûnderdiel mear, ûnderdiel ûnderdiel – ûnderdiel ûnderdiel!",
-        "ûnderdiel ûnderdiel ûnderdiel Produkten!",
-        "ûnderdiel jo ûnderdiel, ûnderdiel deals!",
-        "ûnderdiel ûnderdiel ûnderdiel ûnderdiel, Bewarje no!",
-        "ûnderdiel ûnderdiel ûnderdiel foar ûnderdiel ûnderdiel!",
+        "Untskoattelje eksklusive besparrings, keapje tegearre!",
+        "Oanfoljende items, spesjale koartingen!",
+        "Krij mear, besteegje minder - bondelje!",
+        "Oanbod yn beheinde tiid: oerienkommende produkten!",
+        "Upgrade jo ûnderfining, kombinaasjedeals!",
+        "Untdek ús gearstalde kombosjes, bewarje no!",
+        "Koppelje it foar de ultime kombinaasje!",
         "winkel ûnderdiel, ûnderdiel en Bewarje!",
-        "ûnderdiel ûnderdiel, ûnderdiel ûnderdiel!",
-        "jo ûnderdiel ûnderdiel is ûnderdiel – winkel no!",
-        "ûnderdiel ûnderdiel priisstelling ûnderdiel foar jo!",
-        "ûnderdiel jo ûnderdiel mei ûnderdiel ûnderdiel!",
-        "ûnderdiel jo ûnderdiel mei ûnderdiel ûnderdiel!",
-        "ûnderdiel foar ûnderdiel ûnderdiel en Bewarje!",
-        "ûnderdiel ûnderdiel foar ûnderdiel dei!",
-        "ûnderdiel jo favoriten foar ûnderdiel ûnderdiel!",
+        "Dûbelje de wearde, dûbelje de wille!",
+        "Jo perfekte wedstriid is hjir - winkel no!",
+        "Eksklusive bondelprizen krekt foar jo!",
+        "Maksimalisearje jo besparring mei ús kombinaasjes!",
+        "Ferbetterje jo kolleksje mei dizze picks!",
+        "Curated foar jo: match en bewarje!",
+        "It perfekte pear foar in perfekte dei!",
+        "Bundle jo favoriten foar ekstra besparring!",
       ],
     },
 
@@ -12191,20 +12191,20 @@ export default {
         "ûnderdiel",
         "thús ûnderdiel",
         "ûnderdiel Produkten",
-        "ûnderdiel ûnderdiel",
+        "Sports Equipment",
         "ûnderdiel & ûnderdiel",
         "Boadskippen",
         "Meubilêr",
-        "ûnderdiel ûnderdiel",
+        "Automotive Parts",
         "Juwielen",
         "ûnderdiel & ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Pet Supplies",
         "Kantoarartikels",
         "ûnderdiel & ûnderdiel",
         "ûnderdiel & TV toane",
         "ûnderdiel",
         "ûnderdiel & ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Outdoor Gear",
       ],
     },
 
@@ -12226,27 +12226,27 @@ export default {
         "ûnderdiel Werom yn foarrie",
       ],
       body: [
-        "ûnderdiel {buyer_name}, jo bestelling #{order_id} hat ûnderdiel ûnderdiel! ûnderdiel ûnderdiel ûnderdiel en sil ûnderdiel jo ûnderdiel ûnderdiel ûnderdiel nei ûnderdiel.",
+        "Hoi {buyer_name}, jo bestelling #{order_id} is befêstige! Wy ferwurkje it en sille jo ynformearje as it klear is om te ferstjoeren.",
 
-        "goed nij, {buyer_name}! jo bestelling #{order_id} hat ûnderdiel ûnderdiel. jo kin ûnderdiel ûnderdiel ûnderdiel jo akkount. ûnderdiel foar ûnderdiel mei us!",
+        "Goed nijs, {buyer_name}! Jo bestelling #{order_id} is ferstjoerd. Jo kinne it folgje fia jo akkount. Tank foar winkeljen by ús!",
 
-        "ûnderdiel {buyer_name}, jo bestelling #{order_id} hat ûnderdiel ûnderdiel ûnderdiel. ûnderdiel ûnderdiel jo ûnderdiel jo oankeap. ûnderdiel jo!",
+        "Hallo {buyer_name}, jo bestelling #{order_id} is mei súkses levere. Wy hoopje dat jo genietsje fan jo oankeap. Dankewol!",
 
-        "ûnderdiel {buyer_name}, ûnderdiel ûnderdiel ûntfongen Betelling foar bestelling #{order_id}. jo bestelling is no ûnderdiel ûnderdiel en sil ûnderdiel ûnderdiel gau.",
-
-        "Konfigurearje en behear dizze opsje foar jo winkel. {buyer_name} {order_id}",
+        "Hoi {buyer_name}, wy hawwe de betelling ûntfongen foar bestelling #{order_id}. Jo bestelling wurdt no ferwurke en sil gau ferstjoerd wurde.",
 
         "Konfigurearje en behear dizze opsje foar jo winkel. {buyer_name} {order_id}",
 
-        "ûnderdiel {buyer_name}, jo bestelling #{order_id} is ûnderdiel op ûnderdiel. graach ûnderdiel jo akkount of kontakt stipe foar ûnderdiel details.",
+        "Konfigurearje en behear dizze opsje foar jo winkel. {buyer_name} {order_id}",
 
-        "ûnderdiel {buyer_name}, jo bestelling #{order_id} is ûnderdiel foar levering en moat ûnderdiel jo gau. ûnderdiel jo foar jo ûnderdiel!",
+        "Hoi {buyer_name}, jo bestelling #{order_id} is op it stuit yn wacht. Kontrolearje asjebleaft jo akkount of nim kontakt op mei stipe foar fierdere details.",
 
-        "ûnderdiel {buyer_name}, ûnderdiel ûnderdiel ûnderdiel retour foar jo bestelling #{order_id}. ûnderdiel jo ûnderdiel ûnderdiel fragen, graach kontakt stipe.",
+        "Hoi {buyer_name}, jo bestelling #{order_id} is út foar levering en moat jo gau berikke. Tankewol foar jo geduld!",
 
-        "ûnderdiel {buyer_name}, jo werombetelling foar bestelling #{order_id} hat ûnderdiel ûnderdiel. jo moat besjoch ûnderdiel yn jo akkount gau.",
+        "Beste {buyer_name}, wy hawwe it rendemint foar jo bestelling #{order_id} ferwurke. As jo ​​​​fragen hawwe, nim dan kontakt op mei stipe.",
 
-        "ûnderdiel {buyer_name}, ûnderdiel Fan jo bestelling #{order_id} is Werom yn foarrie! jo kin ûnderdiel nij bestelling no ûnderdiel ûnderdiel ûnderdiel ûnderdiel.",
+        "Hoi {buyer_name}, jo weromjefte foar bestelling #{order_id} is útjûn. Jo moatte de fûnsen yn jo akkount gau sjen.",
+
+        "Hoi {buyer_name}, it item út jo bestelling #{order_id} is wer op foarried! Jo kinne no in nije bestelling pleatse as jo noch ynteressearre binne.",
       ],
     },
 
@@ -12256,25 +12256,25 @@ export default {
     property_set: {
       title: [
         "ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Digitale gadgets",
         "ûnderdiel",
         "ûnderdiel",
         "Meubilêr",
         "ûnderdiel",
         "ûnderdiel Produkten",
         "ûnderdiel",
-        "ûnderdiel ûnderdiel",
+        "Sports Equipment",
         "ûnderdiel",
       ],
       description: [
-        "ûnderdiel foar ûnderdiel ûnderdielen ûnderdiel grutte, kleur, en ûnderdiel.",
-        "spesifikaasjes foar ûnderdiel ûnderdiel merk, ûnderdiel, en eigenskippen.",
+        "Attributen foar klean items lykas grutte, kleur en stof.",
+        "Spesifikaasjes foar gadgets lykas merk, model en funksjes.",
         "ûnderdiel, grutte, en typen fan ûnderdiel.",
-        "details foar ûnderdiel, ûnderdiel, en ûnderdiel Produkten.",
+        "Details foar mielen, snacks en fiedingsprodukten.",
         "ûnderdiel, ûnderdiel, en ûntwerp stilen.",
-        "auteur, ûnderdiel, en ûnderdiel ûnderdiel.",
-        "ûnderdiel type, ûnderdiel, en ûnderdiel details.",
-        "ûnderdiel groep, ûnderdiel, en ûnderdiel ûnderdiel.",
+        "Auteur, sjenre, en publikaasjejier.",
+        "Hûdtype, yngrediïnten, en ferpakkingsdetails.",
+        "Leeftydsgroep, materiaal en feiligensnoarmen.",
         "type, grutte, en prestaasje eigenskippen.",
         "stilen, ûnderdiel, en merk details.",
       ],
@@ -12298,7 +12298,7 @@ export default {
         "doaze ûnderdiel",
         "doaze ûnderdiel",
         "doaze ûnderdiel",
-        "doaze ûnderdiel ûnderdiel",
+        "Box Glass Bottle",
         "doaze ûnderdiel pakket", // flexible mailer
         "doaze ûnderdiel", // bubble/padded
         "doaze ûnderdiel", // thermal

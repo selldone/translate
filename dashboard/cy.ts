@@ -252,7 +252,7 @@ export default {
   helps: {
     title: "Selldone term term",
     subtitle:
-      "term i y Selldone term term, eich term term i term a term un ar-lein siop term un term busnes term term. term term term, term, a term term i term eich siop term, term term, a term term.",
+      "Croeso i Ganolfan Gymorth Soldone, eich canllaw cynhwysfawr ar adeiladu a rheoli siop ar-lein o fewn system gweithredu busnes pwerus. Archwiliwch ein hadnoddau, sesiynau tiwtorial, ac arferion gorau i symleiddio gosodiad eich siop, cynyddu effeithlonrwydd a sbarduno twf.",
 
     add_new_help: "Cymorth Newydd",
     resources: "Adnoddau",
@@ -606,7 +606,7 @@ export default {
       },
       products_api: {
         title: "API cynhyrchion",
-        subtitle: "mewnforio cynhyrchion term un term term API term.",
+        subtitle: "Mewnforio cynhyrchion trwy alwad API sy'n hygyrch i'r cyhoedd.",
       },
       google_sheet: {
         action: "Taflen gysylltiedig",
@@ -648,7 +648,7 @@ export default {
       api_dialog: {
         title: "API cynhyrchion",
         subtitle:
-          "term hwn API ffrwd i term eich cynnyrch rhestr term. hyn term un term term API i term cynhyrchion o eich siop, term hyn term ar gyfer cynnyrch rhestriad a term term.",
+          "Defnyddiwch y porthwr API hwn i gadw'ch rhestr cynnyrch yn gyfredol. Mae'n darparu API sy'n hygyrch i'r cyhoedd i nôl cynhyrchion o'ch siop, gan ei wneud yn ddelfrydol ar gyfer gwefannau rhestru a chymharu cynnyrch.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Storio Apiau Actif",
         subtitle:
-          "term y term o term eich busnes term gyda Selldone term siop. term term cynnig un term term o term dyluniad i term eich busnes term. o term rheolaeth term i term term, Selldone term un term term ar gyfer term term term a term.",
+          "Darganfyddwch pa mor hawdd yw rheoli eich cymwysiadau busnes gyda Selldone App Store. Mae ein platfform yn cynnig cyfres gynhwysfawr o offer sydd wedi'u cynllunio i wneud y gorau o'ch gweithrediadau busnes. O atebion rheoli arloesol i apiau sy'n rhoi hwb i gynhyrchiant, mae Soldone yn darparu profiad di-dor i fusnesau sy'n ceisio effeithlonrwydd a thwf.",
         all: "I gyd",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "favicon",
           subtitle:
-            "favicon yw term, term delweddau hynny term un term yn term term, term, a term term term.",
+            "Mae Favicons yn ddelweddau bach, eiconig sy'n cynrychioli gwefan mewn tabiau porwr, nodau tudalen, a rhyngwynebau ap symudol.",
         },
       },
 
@@ -1518,15 +1518,15 @@ export default {
       },
       warehouse: {
         subtitle:
-          "hwn gwybodaeth yw term gan y warws rheolaeth term a term i term term y cynnyrch.",
+          "Mae'r wybodaeth hon yn cael ei defnyddio gan y system rheoli warws ac yn fodd i adnabod y cynnyrch yn fyd-eang.",
       },
       gtin: {
-        hint: "term term yw UPC (term term, 12 term), EAN (term, 13 term), JAN (term, 8 neu 13 term), ISBN (term, 13 term).",
+        hint: "Y gwerthoedd a gefnogir yw UPC (Gogledd America, 12 digid), EAN (Ewrop, 13 digid), JAN (Japan, 8 neu 13 digid), ISBN (llyfrau, 13 digid).",
         label: "cynnyrch term term eitem term",
         placeholder: "term term term term.. (dewisol)",
       },
       hsn: {
-        hint: "HSN, neu term term o term, yw un term term dosbarthiad term ar gyfer term term a cynhyrchion.",
+        hint: "Mae HSN, neu System Enwebu Cysoni, yn system ddosbarthu wedi'i safoni'n rhyngwladol ar gyfer categoreiddio nwyddau a chynhyrchion.",
         placeholder: "6~16 term HSN cod.. (dewisol)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "cynnyrch term yn eich siop",
         message: "os gwelwch yn dda dewis y term o hwn cynnyrch.",
         subtitle:
-          "term eich cwsmeriaid term y term a term o y cynnyrch term cynnig.",
+          "Rhowch wybod i'ch cwsmeriaid am gyflwr a brand y cynnyrch rydych chi'n ei gynnig.",
       },
       brand: {
         label: "term",
@@ -1550,7 +1550,7 @@ export default {
       status: {
         title: "Statws",
         subtitle:
-          "y cynnyrch statws term hyn term ar-lein a term. i ennill un cynnyrch term, term term hyn statws i 'term..",
+          "Mae statws y cynnyrch yn pennu ei argaeledd ar-lein ac yn y siop. I wneud drafft cynnyrch, dim ond newid ei statws i 'Anweithredol'.",
       },
       profiles: {
         title: "Proffiliau",
@@ -1560,7 +1560,7 @@ export default {
       shortcuts: {
         title: "term cynnyrch i ychwanegol categorïau",
         subtitle:
-          "hwn term term chi i rhestr y cynnyrch yn term categorïau term term hyn term yn y cynradd categori gosod term cynnyrch > golygu > categori. term, hyn term term i term 'term yn term term, term y cynnyrch i term yn ychwanegol term categorïau.",
+          "Mae'r nodwedd hon yn caniatáu ichi restru'r cynnyrch mewn sawl categori wrth gadw ei leoliad yn y categori cynradd a osodwyd o dan Cynnyrch> Golygu> Categori. Yn y bôn, mae'n gweithredu'n debyg i greu 'llwybrau byr' mewn systemau gweithredu, gan alluogi'r cynnyrch i ymddangos mewn categorïau penodedig ychwanegol.",
       },
     },
 
@@ -1639,7 +1639,7 @@ export default {
       manual: {
         title: "term",
         subtitle:
-          "ychwanegu cynnyrch term term gan term term a term term.",
+          "Ychwanegu manylebau cynnyrch â llaw trwy ddiffinio grwpiau a phâr gwerthoedd allweddol.",
         add_group_action: "Ychwanegu Grŵp",
         add_item_action: "ychwanegu term term",
       },
@@ -1696,7 +1696,7 @@ export default {
         generated_spec: {
           title: "term term",
           subtitle:
-            "term term term term gan term term.",
+            "Cynhyrchwyd y manylebau hyn gan ddeallusrwydd artiffisial.",
         },
         inputs: {
           prompt: {
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "term term",
             subtitle:
-              "term i yn awtomatig creu cynnyrch term o y term term.",
+              "Cliciwch i greu manylebau cynnyrch yn awtomatig o'r trosolwg a ddarperir.",
           },
           add_generated_spec: "ychwanegu term term",
         },
@@ -1783,7 +1783,7 @@ export default {
 
       subtitle: {
         marketplace:
-          "term y marchnad, y cynradd cynnyrch prisio wedi dangos yw y rhestriad pris, term y term pris yw term term ar y term term term.",
+          "O fewn y farchnad, pris y cynnyrch sylfaenol a ddangosir yw'r pris rhestru, tra bod y pris gwirioneddol yn cael ei bennu ar sail cofnodion y berthynas rhwng y gwerthwr a'r cynnyrch.",
         subscription:
           "ar gyfer term, dim ond y rhestriad pris yw wedi dangos, term y term term bydd bod term term ar y wedi dewis term term.",
         service:
@@ -1794,7 +1794,7 @@ export default {
       },
       extra_pricings: {
         title: "ychwanegu ychwanegol prisio",
-        subtitle: "term term prisio term ar term term.",
+        subtitle: "Gweithredu prisiau deinamig yn seiliedig ar faint pryniant.",
       },
 
       vendor: {
@@ -1867,9 +1867,9 @@ export default {
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "term ar gyfer term cynhyrchion yw gosod gan term, a term bod term term.",
+        "Mae'r rhestr ar gyfer cynhyrchion dropshipping yn cael ei gosod gan gyfanwerthwyr, ac ni ellir ei haddasu yma.",
       marketplace:
-        "y term cynnyrch term yn y marchnad yw term gan ychwanegu term y term o pob gwerthwyr. chi term term hyn term.",
+        "Pennir y rhestr cynnyrch cyffredinol yn y farchnad trwy adio rhestrau eiddo'r holl werthwyr. Ni allwch ei addasu yma.",
       default: "term y cynnyrch term term term.",
     },
     menu: {
@@ -1894,22 +1894,22 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google cynnyrch categori cod",
-    hint: "term y categori o eich cynnyrch term i y Google'term cynnyrch term.",
+    hint: "Yn cynrychioli categori eich cynnyrch yn unol â thacsonomeg cynnyrch Google.",
     placeholder: "term cynnyrch neu gwasanaeth categori.. (dewisol)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "term",
-      desc: "un term yw term o un term term y term term i term neu term un cynnyrch term un term term. hwn term gall term term i term term term nid cael un term term gyda y term.",
+      desc: "Mae gwarant yn rhan o gontract lle mae'r gwneuthurwr yn addo atgyweirio neu amnewid cynnyrch o fewn cyfnod penodol. Gall yr ymrwymiad hwn ymestyn hyd yn oed i ddefnyddwyr nad oes ganddynt gontract uniongyrchol gyda'r gwneuthurwr.",
     },
     RETURN_POLICY: {
       title: "dychwelyd term",
-      desc: "dychwelyd term term term cwsmeriaid gall dychwelyd neu term term term. term term term eitemau, term term ar gyfer dychwelyd, a y term ar gyfer term dychwelyd.",
+      desc: "Mae polisïau dychwelyd yn amlinellu sut y gall cwsmeriaid ddychwelyd neu gyfnewid nwyddau diangen. Maent yn nodi eitemau cymwys, rhesymau derbyniol dros ddychwelyd, a'r amserlen ar gyfer dychwelyd ffurflenni.",
     },
     GUIDE: {
       title: "term",
-      desc: "un term term term un maint term ar gyfer term neu un term term ar gyfer term. hyn term hynny term yw term a term term term cynhyrchion.",
+      desc: "Gallai canllaw gynnwys siart maint ar gyfer dillad neu ganllaw dethol ar gyfer diemwntau. Mae'n bwysig bod canllawiau yn amlbwrpas ac yn berthnasol ar draws cynhyrchion lluosog.",
     },
     SHIPPING: {
       title: "Llongau",
@@ -1931,7 +1931,7 @@ export default {
   b_shop_popups: {
     title: "term rheolaeth",
     subtitle:
-      "creu term, term, a term term term.",
+      "Creu ffenestri powld personol, deallus a rhyngweithiol.",
     add_action: "ychwanegu newydd term",
   },
 
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "siop > term > treth",
 
       subscription_tips:
-        "term chi dewis un treth proffil ar gyfer term cynnyrch, ni diweddaru<code>treth cod</code> a gosod term/term modd ar eich taliad gwasanaeth darparwr. y wedi dewis treth proffil term term y pris yw term term o term neu term o term. term o <code>term</code> neu <code>term</code>. term term fel term term neu term, hyn term bod term.<br /><br /><b>term!</b> ar ôl term y treth proffil, chi term term ar prisio term ar y cynnyrch > term term a term y cadw term i cymhwyso term.",
+        "Pan fyddwch yn dewis proffil treth ar gyfer cynnyrch tanysgrifiad, rydym yn diweddaru'r<code>cod treth</code> ac yn gosod modd cynhwysol/cyfyngedig ar eich darparwr gwasanaeth talu. Mae'r proffil treth a ddewiswyd yn nodi a yw'r pris yn cael ei ystyried yn cynnwys trethi neu'n eithrio trethi. Un o <code>cynhwysol</code> neu <code>unigryw</code>. Unwaith y bydd wedi'i nodi fel naill ai cynhwysol neu gyfyngedig, ni ellir ei newid.<br /><br /><b>Pwysig!</b> Ar ôl newid y proffil treth, dylech glicio ar gynlluniau prisio ar y tab Cynnyrch > Rhestr Eiddo a chlicio ar y botwm Cadw i gymhwyso newidiadau.",
     },
   },
 
@@ -2027,7 +2027,7 @@ export default {
     business: {
       title: "busnes gwybodaeth",
       subtitle:
-        "os gwelwch yn dda term term gwybodaeth term eich busnes i term un term a term term term term.",
+        "Darparwch wybodaeth gywir am eich busnes i sicrhau proses casglu refeniw gyflym a di-dor.",
     },
     bank: {
       title: "taliad allan gwybodaeth",
@@ -2076,14 +2076,14 @@ export default {
       slug: {
         label: "term",
         placeholder: "term un personol term...",
-        hint: "term y term y gwerthwr term term tudalen.",
+        hint: "Newid y llwybr tudalen lanio ddeinamig y gwerthwr.",
       },
       email: {
         message: "hwn e-bost bydd term pob term a diweddaru.",
       },
       business: {
         false_description: "fi term fel un term.",
-        true_description: "fi term fel un term term busnes term.",
+        true_description: "Rwy'n gweithredu fel endid busnes a gydnabyddir yn gyfreithiol.",
         false_title: "term",
         true_title: "busnes",
       },
@@ -2092,7 +2092,7 @@ export default {
         placeholder: "eich banc term..",
       },
       account_name: {
-        hint: "hwn term term y term term gyda y banc cyfrif.",
+        hint: "Dylai hwn gyfateb i'r enw sy'n gysylltiedig â'r cyfrif banc.",
         placeholder: "eich term..",
       },
       account_number: {
@@ -2100,15 +2100,15 @@ export default {
         placeholder: "eich banc cyfrif term..",
       },
       routing_number: {
-        hint: "hwn term term gan gwlad. hyn term i term y term banc term y gwerthwr term.",
+        hint: "Mae'r rhif hwn yn amrywio fesul gwlad. Fe'i defnyddir i nodi'r gangen banc benodol y mae'r gwerthwr yn ei defnyddio.",
         placeholder: "eich banc term term, term cod, neu BSB term..",
       },
       iban: {
-        hint: "term banc cyfrif term): os y gwerthwr banc yw yn term neu term term gwledydd.",
+        hint: "Rhif Cyfrif Banc Rhyngwladol): Os yw banc y gwerthwr yn Ewrop neu rai gwledydd eraill.",
         placeholder: "eich IBAN term.. term. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "term banc cyfrif term): os y gwerthwr banc yw yn term neu term term gwledydd.",
+        hint: "Rhif Cyfrif Banc Rhyngwladol): Os yw banc y gwerthwr yn Ewrop neu rai gwledydd eraill.",
         placeholder: "eich term cod/BIC..",
       },
       branch_address: {
@@ -2125,7 +2125,7 @@ export default {
         label: "gwerthwr term & mynediad",
         true_description:
           "y gwerthwr mae ganddo un penodol term i diweddaru term a pris.",
-        hint: "chi gall term neu term y gwerthwr term, term term gwerthwyr i diweddaru cynnyrch term a pris a term term archebion.",
+        hint: "Gallwch chi alluogi neu analluogi'r panel gwerthwr, sy'n caniatáu i werthwyr ddiweddaru meintiau a phrisiau cynnyrch a derbyn archebion rhannol.",
         false_description: "y gwerthwr mae ganddo na mynediad i term.",
       },
 
@@ -2147,7 +2147,7 @@ export default {
     vendor_subtitle:
       "os gwelwch yn dda uwchlwytho y term busnes, IP, a cyfeiriad term dogfennau. ni term hwn gwybodaeth i cadarnhau eich term a term chi gyda y term mynediad.",
     marketplace_subtitle:
-      "gwerthwyr gall term dogfennau term fel busnes, term priodwedd, a cyfeiriad term i term eu KYC term, term chi i term nhw y term mynediad.",
+      "Gall gwerthwyr gyflwyno dogfennau fel busnes, eiddo deallusol, a gwirio cyfeiriadau i hwyluso eu proses KYC, sy'n eich galluogi i roi'r mynediad priodol iddynt.",
     upload_dialog: {
       title: "uwchlwytho dogfen",
       type: {
@@ -2217,7 +2217,7 @@ export default {
     ],
     inputs: {
       tags: {
-        placeholder: "term tagiau term a term term. term. newydd term",
+        placeholder: "Tagiau gwifren yma a gwasgwch enter. cyn. casgliad newydd",
       },
     },
     notifications: {
@@ -2283,9 +2283,9 @@ export default {
       action_manage: "rheoli eitemau",
       action_disable_msg: "marchnad term",
       select_items_tips:
-        "creu neu dewis pecyn term hynny term gyda y cynnyrch neu gwasanaeth. term hwn term i term term cwsmeriaid gall term term term term y eitem. ni term term hwn term dim ond term hyn yw term ar gyfer y cwsmer i term y term wedi cynnwys, term fel term term un term.",
+        "Creu neu ddewis cydrannau pecyn sy'n dod gyda'r cynnyrch neu wasanaeth. Defnyddiwch y nodwedd hon i bwysleisio'r hyn y gall cwsmeriaid ei ddisgwyl wrth brynu'r eitem. Rydym yn cynghori defnyddio'r swyddogaeth hon dim ond pan fydd yn hanfodol i'r cwsmer ddeall y cynnwys sydd wedi'i gynnwys, megis wrth brynu ffôn clyfar.",
       create_item_tips:
-        "term, chi gall term un newydd eitem. term term delweddau, fel ni bydd yn awtomatig term uwchlwytho term i un 256term256 term term. i term term term term pob templedi, term term delweddau gyda tryloyw cefndir a term un term term ar gyfer pob eich cynhyrchion.",
+        "Fel arall, gallwch gynnwys eitem newydd. Defnyddiwch ddelweddau sgwâr, gan y byddwn yn newid maint lluniau wedi'u llwytho i fyny yn awtomatig i fformat sgwâr 256x256. Er mwyn sicrhau'r ymddangosiad gorau posibl ar draws yr holl dempledi, defnyddiwch ddelweddau minimalaidd gyda chefndiroedd tryloyw a chynnal patrwm cyson ar gyfer eich holl gynhyrchion.",
       create_new_item_action: "creu newydd wedi cynnwys eitem",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "amrywiad opsiynau",
           subtitle:
-            "term un term lliw cod, term.term., <b>#654FFF</b>, neu term lliw term gan un term, term.term., <b>#764FFA/#000000</b>.",
+            "Rhowch god lliw hecs, e.e., <b>#654FFF</b>, neu ddau liw wedi'u gwahanu gan slaes, e.e., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "chi gall term term term i y term, term delweddau term <b>term term</b>. uwchlwytho un term a term y term cod ar gyfer y amrywiad.",
+            "Gallwch aseinio unrhyw werth i'r newidynnau, gan gynnwys delweddau gan ddefnyddio <b>Asedau Graffegol</b>. Llwythwch batrwm i fyny a defnyddiwch y cod a gynhyrchir ar gyfer yr amrywiad.",
           graphical_asset_action: "term term",
           graphical_asset_action_caption: "delweddau ar gyfer amrywiad opsiynau.",
         },
         smart_unit_price: {
-          tips: "term term pris term ar <b>pwysau</b>, <b>term</b>, a <b>term maint</b>. i term hwn term, term i siop > gosodiadau > term > cynnyrch tudalen > term term pris.",
+          tips: "Cyfrifwch bris uned yn seiliedig ar <b>weight</b>, <b>cyfrol</b>, a <b>maint pecyn</b>. I analluogi'r nodwedd hon, ewch i Siop > Gosodiadau > Thema > Tudalen Cynnyrch > Pris Uned Clyfar.",
           smart_unit_price: "term pris term",
         },
         quantity: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "term term eitem term (GTIN)",
             message:
-              "term term: UPC (12 term), EAN (13 term), JAN (8 neu 13 term), ISBN (13 term).",
+              "Fformatau â chymorth: UPC (12 digid), EAN (13 digid), JAN (8 neu 13 digid), ISBN (13 digid).",
           },
         },
       },
@@ -2518,7 +2518,7 @@ export default {
     weight_unit: "Kg",
     size: "Dimensiynau Pecyn",
     size_subtitle:
-      "mewnbwn y cynnyrch term term maint term. hwn gwybodaeth yw term i dewis y term cludo term a term y archeb term term y term maint terfyn.",
+      "Mewnbynnu maint pecynnu llawn y cynnyrch yma. Defnyddir y wybodaeth hon i ddewis y dull cludo cywir a sicrhau nad yw'r archeb yn fwy na'r terfyn maint parsel.",
 
     width: "Lled",
     length: "Hyd",
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b>term hyn term:</b><br />uwchlwytho term neu eitem delweddau term. i term term delweddau fel un amrywiad opsiwn, term <b>{filename}</b> yn y amrywiad term. nodyn hynny hwn cod term bod term yn y <b><s>lliw</s></b> term.",
       how_set_name:
-        "<b>term term:</b><br />y cyntaf 12 term o y uwchlwytho ffeil term bydd bod term fel y term term. hwn term yw term ar gyfer term term term o un cynnyrch, term fel term maint ar gyfer term neu term term. i term y term o hwn term, term uwchlwytho amrywiad delweddau term term y term o term term yw term term 100, term fel term term term ar gyfer term.",
+        "<b>Awgrymiadau Enwi:</b><br />Bydd 12 nod cyntaf enw'r ffeil a uwchlwythwyd yn cael eu defnyddio fel enw'r ased. Mae'r nodwedd hon yn ddelfrydol ar gyfer arddangos agweddau y gellir eu haddasu ar gynnyrch, megis maint teiars ar gyfer beiciau modur neu batrymau ffabrig. Er mwyn gwneud y defnydd gorau o'r nodwedd hon, ceisiwch osgoi uwchlwytho delweddau amrywiol yma oni bai bod nifer yr asedau graffigol yn llai na 100, megis gwahanol fathau o bren ar gyfer dodrefn.",
     },
   },
 
@@ -2717,7 +2717,7 @@ export default {
   bulk_price_dialog: {
     title: "term gweithredoedd > pris",
     message:
-      "y term swm bydd cymhwyso fel un term i y pris o pob cynhyrchion yn eich siop. term, y term pris term bydd bod term term i y term term term term ar y wedi dewis arian cyfred.bod term yn term y term.",
+      "Bydd y swm canlynol yn berthnasol fel canran i bris yr holl gynhyrchion yn eich siop. Hefyd, bydd y gwerthoedd pris a gyfrifwyd yn cael eu trosi'n ddeallus i'r rhif crwn agosaf yn seiliedig ar yr arian cyfred a ddewiswyd. Byddwch yn ofalus wrth nodi'r gwerthoedd.",
     check: "fi term pris term.",
     check_description:
       "y pris bydd bod term ar gyfer y wedi dewis categori a pob term.",
@@ -2815,7 +2815,7 @@ export default {
       currency_step: {
         title: "dewis un arian cyfred",
         subtitle:
-          "term i term y term o term yn eich siop i un lleiafswm—term term term 3. term taliad term gall term trafodion yn term term arian cyfred.",
+          "Ceisiwch gadw nifer yr arian cyfred yn eich siop i'r lleiafswm—yn ddelfrydol llai na 3. Gall y rhan fwyaf o byrth talu brosesu trafodion mewn bron unrhyw arian cyfred.",
         add_first_currency: {
           subtitle: "os gwelwch yn dda ychwanegu un arian cyfred i eich siop cyn term.",
           title: "Ychwanegu Arian Parod",
@@ -2835,7 +2835,7 @@ export default {
       request_add_new_gateway: {
         title: "term gweld eich term taliad term?",
         subtitle:
-          "os eich term taliad darparwr term rhestr, term i term term term (term term ar gyfer term) a term un term. term term hyn term 48 oriau os un term cyfrif a term yw term.",
+          "Os nad yw eich darparwr taliadau lleol wedi'i restru, tanysgrifiwch i unrhyw gynllun blynyddol (gan gynnwys Startup ar gyfer fforddiadwyedd) a gofynnwch am integreiddiad. Byddwn yn ei gwblhau o fewn 48 awr os darperir cyfrif prawf a dogfennaeth.",
       },
 
       inputs: {
@@ -2848,7 +2848,7 @@ export default {
 
           false_title: "awtomatig term",
           false_description:
-            "y term bydd yn awtomatig term i y term os chi term cael un term term yn term.",
+            "Bydd y system yn cysylltu'n awtomatig â'r porth os oes gennych chi borth wedi'i ffurfweddu eisoes yn ei le.",
         },
       },
     },
@@ -3155,7 +3155,7 @@ export default {
         edit_success: "Categori wedi'i olygu.",
       },
       manually_update_filters_tips:
-        "<b>term!</b> term yw yn awtomatig wedi diweddaru term cynhyrchion term. term, ar ôl term term i cynhyrchion yn un categori, os gwelwch yn dda dychwelyd term a term y cadw/term term i term y term.",
+        "<b>Pwysig!</b> Mae hidlwyr yn cael eu diweddaru'n awtomatig pan fydd cynhyrchion yn newid. Fodd bynnag, ar ôl gwneud newidiadau i gynhyrchion mewn categori, dychwelwch yma a chliciwch ar y botwm arbed/adfywio i adnewyddu'r hidlydd.",
 
       inputs: {
         spec: {
@@ -3523,12 +3523,12 @@ export default {
         message:
           "ni term y cyfanswm swm o ad-daliad hynny chi term i ennill term. hyn term term ar ddim ar gael eitemau a cyfanswm ad-daliad term term.",
         calculated_approximately:
-          "y swm yw term term. os gwelwch yn dda term y term swm term.",
+          "Mae'r swm yn cael ei gyfrifo'n fras. Cyfrifwch yr union swm eich hun.",
       },
       need_payback: {
         title: "cwsmer codi tâl gofynnol",
         message:
-          "term term hynny y cyfanswm ad-daliad i y cwsmer yw term term y swm term term ar y eitemau yn y term. chi term term i codi tâl eich cwsmer i term y term swm.",
+          "Rydym wedi sylwi bod y cyfanswm a ad-dalwyd i'r cwsmer yn uwch na'r swm sy'n ddyledus yn seiliedig ar yr eitemau yn y drol. Efallai y bydd angen i chi godi tâl ar eich cwsmer i adennill y swm dros ben.",
       },
       need_no_refund: {
         title: "na ad-daliad term",
@@ -3662,7 +3662,7 @@ export default {
     status: "Statws",
     cod_transportation: "term cludo",
     cod_transportations_error:
-      "term term ar danfon taliad ar gyfer yn term term cludo term!",
+      "Galluogi arian parod ar daliad dosbarthu ar gyfer o leiaf un dull cludo!",
     payment_type: "taliad term",
     cod: "term ar danfon",
     online: "ar-lein taliad",
@@ -3694,7 +3694,7 @@ export default {
     recommended_actions: {
       title: "term gweithredoedd",
       subtitle:
-        "gan term term term, term term i term term taliadau o eich cwsmeriaid.",
+        "Drwy gymryd y camau hyn, byddwch yn dechrau derbyn taliadau gwirioneddol gan eich cwsmeriaid.",
       action_enable: "term i term hyn",
       make_live_enable: "term i byw hyn",
     },
@@ -3712,7 +3712,7 @@ export default {
 
     manual_title: "â llaw / awtomatig term taliad",
     manual_message:
-      "term chi creu un taliad, chi gall term un term ar un term taliad term i term term hynny chi gall term term. ar gyfer term, term term term un taliad yn term cyn un term term, term term y arian term y term term term.",
+      "Pan fyddwch yn creu taliad, gallwch gadw dull talu cymwys i gadw arian y gallwch ei ddal yn ddiweddarach. Er enghraifft, mae gwestai yn aml yn awdurdodi taliad llawn cyn i westai gyrraedd, yna'n dal yr arian pan fydd y gwestai yn gwirio.",
 
     gateway_status: "Statws",
     wallet: "Waled Blockchain",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "term & term",
-      subtitle: "chi gall term y term modd i term y taliad term.",
+      subtitle: "Gallwch alluogi'r modd dadfygio i brofi'r porth talu.",
     },
 
     limit: {
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Rhestr o gardiau a gyhoeddwyd",
       subtitle:
-        "gweld a rheoli pob term term. chi gall term term i defnyddwyr term neu term nhw os term.",
+        "Gweld a rheoli'r holl gardiau a gyhoeddir. Gallwch anfon cardiau at ddefnyddwyr â llaw neu eu gwahardd os oes angen.",
 
       loading_message: "Cael gwybodaeth... arhoswch",
       issue_to_user: "Mater i'r defnyddiwr",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "rhestr o term term archebion hynny term i bod term gan term darparwyr.",
+      "Rhestr o orchmynion wedi'u cysoni'n allanol y mae angen i ddarparwyr trydydd parti eu cyflawni.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,7 +4038,7 @@ export default {
     "sms-payment":
       "term un taliad term SMS i y cwsmer term {phone}.",
     "sms-ready-to-ship":
-      "term un SMS i y cwsmer term hynny eu archeb yw term i bod term term {phone}.",
+      "Anfonwch SMS at y cwsmer yn hysbysu bod ei archeb yn barod i'w gludo trwy {phone}.",
     "sms-ready-to-pickup":
       "term un SMS i y cwsmer term hynny eu archeb yw term ar gyfer casglu term {phone}.",
     "sms-order-confirmation":
@@ -4237,7 +4237,7 @@ export default {
     connect: {
       title: "Cysylltu banc",
       subtitle:
-        "ni cynnig term taliad term ar gyfer y term taliad term. i term taliadau term ar ôl term term, os gwelwch yn dda term eich banc cyfrif term term opsiynau.",
+        "Rydym yn cynnig galluoedd talu rhanedig ar gyfer y pyrth talu canlynol. I dderbyn taliadau yn ddi-dor ar ôl pob pryniant, cysylltwch eich cyfrif banc gan ddefnyddio'r opsiynau hyn.",
     },
     verify_dialog: {
       title: "term taliad",
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "yn hwn term, chi gall gweld y term o term term i y archeb, term, taliad, a eu term term. term, chi gall term y archebion term i term cwsmeriaid a gwerthwyr.",
+      "Yn yr adran hon, gallwch weld llinell amser y digwyddiadau sy'n ymwneud â'r archeb, cyflawniad, taliad, a'u statws priodol. Yn ogystal, gallwch arsylwi ar yr archebion a anfonwyd at gwsmeriaid a gwerthwyr.",
     add_note_subtitle: "ysgrifennu un neges a term eich term.",
 
     message_input: "Ysgrifennwch neges yma...",
@@ -5506,7 +5506,7 @@ export default {
   login: {
     register_title: "Cyfrwng busnesau,<br>Profiad pleserus.",
     register_subtitle:
-      "term term heddiw ar gyfer term. Selldone yw term gan term, term, term, a term.",
+      "Cofrestrwch heddiw am ddim. Mae busnesau newydd, mentrau, prynwyr a gwerthwyr yn caru Soldone.",
 
     password_recovery_title: "Adfer cyfrinair",
     password_recovery_message:
@@ -5571,14 +5571,14 @@ export default {
 
       access: "Mynediad i Fy Nghyfrif",
       access_subtitle:
-        "OAuth term, term mynediad term a term term.",
+        "Cleientiaid OAuth, tocynnau mynediad personol ac apiau cysylltiedig.",
 
       security: "Diogelwch",
-      security_subtitle: "gosod term term a rheoli term term opsiynau.",
+      security_subtitle: "Gosod dau ffactor a rheoli opsiynau mewngofnodi cymdeithasol.",
 
       preferences: "Dewisiadau Defnyddwyr",
       preferences_subtitle:
-        "term term, term, term a rhagosodedig arian cyfred.",
+        "Newid thema, lefel, iaith ac arian cyfred diofyn.",
       my_subscriptions: "Fy Tanysgrifiadau",
       my_subscriptions_subtitle:
         "mynediad i term AI a term term.",
@@ -5710,7 +5710,7 @@ export default {
     license_detail: {
       title: "Manylion",
       subtitle:
-        "Cyfyngiadau ar eich cynllun presennol.",
+        "Dyma gyfyngiadau eich cynllun presennol. Am ragor o fanylion, ewch i'r dudalen brisio. Gallwch gyrchu'r holl nodweddion ar draws yr holl gynlluniau, gan gynnwys y cynllun rhad ac am ddim, i roi hwb i'ch busnes a thyfu. Wrth i chi raddio'ch busnes, ystyriwch uwchraddio i gynllun haen uwch i ostwng eich ffioedd gwasanaeth.",
     },
 
     table: {
@@ -5830,13 +5830,13 @@ export default {
     },
     by_connect: {
       subtitle:
-        "term ychwanegu cynhyrchion o POD neu term term gyda Selldone Connect OS—term term eich siop a term awtomatig cynnyrch term, na term term.",
+        "Ychwanegwch gynhyrchion gan gyflenwyr POD neu dropshipping yn hawdd gyda Selldone Connect OS - cysylltwch eich siop a mwynhewch integreiddio cynnyrch yn awtomatig, nid oes angen ategion.",
     },
     your_license_is_not_eligible: "eich term yw nid term.",
     sku_dialog: {
       title: "ychwanegu cynnyrch gan SKU",
       subtitle:
-        "chi cael y term i term cynhyrchion gan eu SKU yn term term a ychwanegu nhw gyda term un term term.",
+        "Mae gennych y gallu i leoli cynhyrchion yn ôl eu SKU yn ein cronfa ddata a'u hychwanegu gydag un clic yn unig.",
     },
     dropshipping_dialog: {
       title: "ychwanegu term cynhyrchion",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "term, chi gall term term term rhestr eu cynhyrchion ar Selldone, term nhw ar gael ar gyfer term term. Selldone term term term term y term, term hyn term a term ar gyfer term term a term.",
+      "Yma, gallwch ddod o hyd i gyfanwerthwyr sy'n rhestru eu cynhyrchion ar Soldone, gan sicrhau eu bod ar gael i fasnachwyr eraill. Mae platfform dropshipping adeiledig Soldone yn symleiddio'r broses, gan ei gwneud hi'n hawdd ac yn syml i gyfanwerthwyr a masnachwyr.",
   },
 
   /** @see Affiliates **/
@@ -5892,7 +5892,7 @@ export default {
       new: "newydd cyswllt partner",
       edit: "golygu cyswllt partner",
       subtitle:
-        "term y term gosodiadau a term o y cyswllt term.",
+        "Ffurfweddwch y gosodiadau cyffredinol ac enw'r cyswllt yma.",
     },
 
     payment: {
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "term",
       subtitle:
-        "term hwn cyswllt gyda un term i rheoli hyn term term term yn term term.",
+        "Cysylltwch y cyswllt hwn â chlwstwr i'w reoli ochr yn ochr ag adnoddau eraill mewn un lle.",
       manage_action: "rheoli",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "cyswllt partner term",
-        message: "term.term., John Doe, Alex cwmni, X term, term.",
+        message: "e.e., John Doe, Alex Company, X Marketers, ac ati.",
       },
       commission: {
         label: "comisiwn term",
         false_description:
-          "term term un term o term a term comisiwn.",
+          "Cyfrifwch gan ddefnyddio cyfuniad o gomisiynau sefydlog a chanrannol.",
         true_description:
-          "term term term comisiwn gosod yn y prisio term.",
+          "Cyfrifwch gan ddefnyddio comisiynau cynnyrch-benodol a osodwyd yn y tab prisio.",
         false_title: "term + term comisiwn",
         true_title: "term comisiwn",
       },
@@ -6006,7 +6006,7 @@ export default {
       "term un term (un prisio mewnbwn ffurflen) i un cynnyrch, term cwsmeriaid i dewis amrywiadau neu term eich term. y term bydd term term y pris term ar y personol mewnbynnau.",
     add_valuation_action: "creu newydd term ffurflen",
     empty_message:
-      "term o term term amrywiadau, term term un term term hynny gall bod term i un term cynnyrch.",
+      "Yn hytrach na chreu amrywiadau lluosog, ystyriwch ddatblygu strategaeth brisio y gellir ei chymhwyso at gynnyrch syml.",
     delete_dialog: {
       title: "term tynnu",
       message:
@@ -6033,7 +6033,7 @@ export default {
     title_add: "creu newydd term ffurflen",
     config: {
       subtitle:
-        "gosod term un term term i creu term prisio term term a term tabl ar gyfer eich cynhyrchion. dechrau gan term hwn term un term term.",
+        "Sefydlwch system brisio i greu prisiau hyblyg gan ddefnyddio fformiwlâu a thablau cyfeirio ar gyfer eich cynhyrchion. Dechreuwch trwy roi enw unigryw i'r prisiad hwn.",
     },
     valuation_preview: "term term ffurflen",
     load_sample: "term sampl",
@@ -6052,7 +6052,7 @@ export default {
     inputs: {
       title: {
         message: "hwn teitl yw nid gweladwy i cwsmeriaid.",
-        placeholder: "term un term ar gyfer prisio, term.term., 'term term",
+        placeholder: "Rhowch enw ar gyfer prisio, e.e., 'Prisiau Mygiau'",
       },
     },
     samples: {
@@ -6169,7 +6169,7 @@ export default {
       config: {
         title: "term ffurfweddiad",
         subtitle:
-          "y term o y gostyngiad cod term yw: term (LIMIT, term * term pris). term i ennill y cod term a term i term.",
+          "Fformiwla cyfrifiad y cod disgownt yw: uchafswm (TERFYN, PERCENT * pris cart). Cofiwch wneud y codau'n berthnasol ac yn hawdd i'w cofio.",
       },
       limit: {
         title: "term",
@@ -6316,11 +6316,11 @@ export default {
 
     config: {
       subtitle:
-        "y term o y cwpon gostyngiad term yw: CHARGE + term (LIMIT, term * term pris).",
+        "Fformiwla cyfrifiad disgownt y cwpon yw: CHARGE + max (LIMIT, PERCENT * pris cart).",
     },
     limit: {
       subtitle:
-        "yn hwn term, term term i gosod term y uchafswm term o term term cwpon a y term gostyngiad swm term cwpon gall term.",
+        "Yn yr adran hon, gallwch chi osod y nifer uchaf o ddefnyddiau fesul cwpon a'r swm disgownt uchaf y gall pob cwpon ei ddarparu.",
       zero_message: "term: term yw na terfyn!",
     },
     duration: {
@@ -6333,14 +6333,14 @@ export default {
     },
     constraints: {
       subtitle:
-        "term, chi cael y term i term ychwanegol term term ar gyfer y cwpon.",
+        "Yma, mae gennych y gallu i sefydlu paramedrau personol ychwanegol ar gyfer y cwpon.",
       no_limit: "na ychwanegol term",
       has_limit: "ychwanegol term",
       has_code_message: "defnyddiwr term term y cod i ychwanegu cwpon.",
     },
     club: {
       subtitle:
-        "hwn cwpon term gall bod term term i aelodau o term cwsmer term.",
+        "Gellir cyfyngu defnydd y cwpon hwn yn unig i aelodau o glybiau cwsmeriaid a ddewiswyd.",
     },
     cluster: {
       subtitle:
@@ -6422,7 +6422,7 @@ export default {
     },
     config: {
       subtitle:
-        "term term un term term gan term hyn teitl, disgrifiad, a cyhoeddus term statws.",
+        "Dechreuwch lunio bargen ddeallus trwy sefydlu ei theitl, disgrifiad, a statws argaeledd cyhoeddus.",
     },
     limit: {
       subtitle: "gosod y uchafswm term terfyn ar gyfer hwn cynnig yn hwn term.",
@@ -6433,7 +6433,7 @@ export default {
     },
     constraints: {
       subtitle:
-        "gosod y term term a term ar gyfer y cynnig term. y cynnig term i term eitemau hynny term term term.",
+        "Gosodwch y meini prawf cymhwyster ac amodau ar gyfer y cynnig yma. Mae'r cynnig yn berthnasol i eitemau trol sy'n bodloni'r amodau hyn.",
     },
     discounted_products: {
       title: "gostyngiad cynhyrchion",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "term cwsmer term gyda un term term yn eich siop. gosod term term a term term ar gyfer cwsmeriaid term term term term term. term term term term 10 term, a chi gall cynnig term term ar gyfer term term. y rhagosodedig term yw term o term, term chi gall term hyn i term eich siop term.",
+        "Rhowch hwb i bryniannau cwsmeriaid gyda phrofiad hapchwarae yn eich siop. Sefydlu gwobrau ac ods buddugol i gwsmeriaid sy'n ennill tocynnau trwy bryniannau. Mae pob gêm yn costio 10 tocyn, a gallwch gynnig gwobrau arbennig i brynwyr tro cyntaf. Y gêm ddiofyn yw Wheel of Fortune, ond gallwch chi ei haddasu i gyd-fynd â chynllun eich siop.",
     },
     empty_prize_list: "creu a rheoli term term...",
   },
@@ -6621,12 +6621,12 @@ export default {
         "term, chi cael y opsiwn i dewis un delwedd a lliw ar gyfer y term.",
     },
     constraints: {
-      subtitle: "term y term a term ar gyfer term hwn term.",
+      subtitle: "Nodwch y meini prawf a'r cyfyngiadau ar gyfer ennill y wobr hon.",
     },
     prize: {
       title: "term",
       subtitle:
-        "gosod term y term manylion term. opsiynau term gostyngiad cod, term term, term, a term gostyngiad fel term term.",
+        "Gosodwch fanylion y wobr yma. Mae'r opsiynau'n cynnwys codau disgownt, cardiau rhodd, credydau, a gostyngiadau eraill fel gwobrau loteri.",
     },
     product_input: {
       label: "cynnyrch term",
@@ -7041,13 +7041,13 @@ export default {
     vendor: {
       title: "mewnforio gwerthwyr",
       subtitle:
-        "uwchlwytho gwerthwr CSV ffeiliau term. term y term yw term a term i term term.",
+        "Uwchlwythwch ffeiliau CSV y gwerthwr yma. Sicrhewch fod y fformat yn gywir ac yn cadw at reoliadau preifatrwydd.",
       checklist: {
         title: "term term",
         subtitle: "bod term i term y term.",
         sample_files: "sampl ffeiliau",
         valid_vendor_name_needed:
-          "chi term term un <b>dilys term</b>. y <b>term</b> yw term i term term i <i>creu</i> un newydd gwerthwr neu <i>diweddaru</i> un term term.",
+          "Rhaid i chi ddarparu <b>enw dilys</b>. Defnyddir yr <b>enw</b> i benderfynu a ddylid <i>Creu</i> gwerthwr newydd neu <i>Diweddaru</i> un presennol.",
         assign_user_after_import:
           "ar ôl mewnforio gwerthwyr, chi gall term term un defnyddiwr i term nhw mynediad i y gwerthwr term.",
       },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "agor gwerthwyr term",
     title: "gwerthwr term rhestr",
     subtitle:
-      "hwn yw un rhestr o term o term term cael term i term gwerthwyr yn eich marchnad.",
+      "Dyma restr o geisiadau gan unigolion sydd wedi gwneud cais i ddod yn werthwyr yn eich marchnad.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,12 +7088,12 @@ export default {
     marketplace: {
       title: "Marchnad",
       subtitle:
-        "term y marchnad bydd term term term term. os chi eisiau i term term eich term marchnad, chi term term eich siop yn y gosodiadau.",
+        "Bydd analluogi'r farchnad yn diffodd rhai swyddogaethau. Os ydych chi am gau'ch marchnad gyfan, dylech analluogi'ch siop yn y gosodiadau.",
     },
     distribution_model: {
       title: "term term",
       subtitle:
-        "marchnad gall term term term term term. term chi term gwerthwyr i term eitemau term i term neu term archebion yn eich warws ar gyfer cludo, chi gall dewis y term hynny term term eich term term.",
+        "Gall marchnadoedd weithredu o dan wahanol fodelau dosbarthu. P'un a yw'n well gennych chi werthwyr anfon eitemau'n uniongyrchol i brynwyr neu gydgrynhoi archebion yn eich warws i'w cludo, gallwch ddewis y model sy'n gweddu orau i'ch anghenion yma.",
     },
     access: {
       title: "gwerthwr mynediad",
@@ -7101,7 +7101,7 @@ export default {
         "fel un term, chi term y term o mynediad gwerthwyr cael i y cynnyrch dangosfwrdd. term term mynediad gosodiadau i term gwerthwyr i ychwanegu eu term cynhyrchion a categorïau neu term hwn mynediad i term dim ond.",
     },
     need_enable_shipping_for_vendors_tips:
-      "term cludo ar gyfer gwerthwyr yn y siop > logisteg term ar gyfer term term term.",
+      "Galluogi cludo ar gyfer gwerthwyr yn y tab Siop > Logisteg ar gyfer pob dull yn unigol.",
     transportation_available_tooltip: "hwn opsiwn yw ar gael ar gyfer gwerthwyr.",
     transportation_not_available_tooltip:
       "nid ar gael ar gyfer gwerthwyr! chi gall term hyn yn y term gosodiadau.",
@@ -7118,7 +7118,7 @@ export default {
     inputs: {
       enable: {
         false_description:
-          "y marchnad yw term term, term pob marchnad term.",
+          "Mae'r farchnad wedi'i ddiffodd, gan analluogi holl swyddogaethau'r farchnad.",
         true_description:
           "y marchnad yw gweithredol, term pob marchnad term.",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "rhestriad yw wedi galluogi ar gyfer gwerthwyr. gwerthwyr gall rheoli rhestriad eitemau a cwmnïau.",
         false_description: "rhestriad yw wedi analluogi ar gyfer gwerthwyr. dim ond y siop term gall rheoli rhestriad eitemau a cwmnïau.",
         requires_listing_active_text:
-          "i term gwerthwyr term rhestriad (eitemau + cwmnïau), cyntaf term y siop rhestriad term yn sianel → rhestriad. term term term term i term gwerthwr mynediad.",
+          "Er mwyn gadael i werthwyr ddefnyddio Rhestru (eitemau + cwmnïau), yn gyntaf galluogwch y nodwedd Rhestru siop yn Channel → Listing. Yna dewch yn ôl yma i ganiatáu mynediad i'r gwerthwr.",
         requires_listing_active_button: "agor sianel rhestriad gosodiadau",
       },
 
@@ -7194,7 +7194,7 @@ export default {
       guide: {
         title: "term",
         subtitle:
-          "term un term term i term gwerthwyr term term dogfennau i uwchlwytho a term i term hyn term.",
+          "Darparwch ganllaw byr i helpu gwerthwyr i ddeall pa ddogfennau i'w llwytho i fyny a sut i'w gwneud yn iawn.",
       },
       code: {
         title: "term cod",
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "term (dewisol)",
           placeholder:
-            "term, term un term term neu term, term dolen i term neu term dogfennau.",
+            "Yn ddewisol, darparwch ganllaw neu gyfarwyddiadau byr, gan gynnwys dolenni i gontractau neu ddogfennau eraill.",
         },
         code: {
           label: "term cod",
@@ -7251,32 +7251,32 @@ export default {
     Identification: {
       title: "term term dogfen",
       description:
-        "uwchlwytho un term ID i term y term o y busnes term neu allwedd term.",
+        "Llwythwch i fyny ID a roddwyd gan y llywodraeth i wirio hunaniaeth perchennog y busnes neu weithredwr allweddol.",
     },
     Business: {
       title: "busnes term",
       description:
-        "term term busnes dogfennau term fel term neu term term i cadarnhau y term statws o eich busnes.",
+        "Darparwch ddogfennau busnes hanfodol fel trwyddedau neu dystysgrifau cofrestru i gadarnhau statws cyfreithiol eich busnes.",
     },
     Address: {
       title: "cyfeiriad term",
       description:
-        "term un dogfen i term eich busnes cyfeiriad, term fel un term term, treth anfoneb, neu term term.",
+        "Cyflwyno dogfen i wirio eich cyfeiriad busnes, fel bil cyfleustodau, anfoneb treth, neu gytundeb prydles.",
     },
     Contract: {
       title: "term & term",
       description:
-        "uwchlwytho term neu term hynny term y term a term o eich busnes term.",
+        "Llwythwch i fyny gontractau neu gytundebau sy'n manylu ar delerau ac amodau eich perthnasoedd busnes.",
     },
     Copyright: {
       title: "term term",
       description:
-        "term term term dogfennau i term eich term priodwedd term.",
+        "Darparu dogfennau cofrestru hawlfraint i gadarnhau eich hawliau eiddo deallusol.",
     },
     Privacy: {
       title: "term term dogfennau",
       description:
-        "term eich term term dogfennau i term eich term i term defnyddiwr a cwsmer gwybodaeth.",
+        "Cynhwyswch eich dogfennau polisi preifatrwydd i ddangos eich ymrwymiad i ddiogelu gwybodaeth defnyddwyr a chwsmeriaid.",
     },
     Embed: {
       title: "term ffurflen",
@@ -7383,7 +7383,7 @@ export default {
     },
     vendor_bank: "gwerthwr banc",
     gateway_in_debug_mode_warning:
-      "term y taliad term yw term yn term modd, term bydd nid bod term i un term cyfrif.",
+      "Gan fod y porth talu yn y modd dadfygio ar hyn o bryd, ni fydd arian yn cael ei drosglwyddo i gyfrif go iawn.",
     payment: {
       title: "Taliad",
       subtitle:
@@ -7519,9 +7519,9 @@ export default {
       title: "term gweithredoedd",
       hover: {
         false_description:
-          "term a term modd term term ychwanegol gweithredoedd ar cynnyrch term.",
+          "Modd syml a lleiaf posibl heb unrhyw gamau gweithredu ychwanegol ar gardiau cynnyrch.",
         true_description:
-          "dangos term term & ychwanegu i term term ar cynnyrch term term.",
+          "Dangos Prynu ac Ychwanegu Cyflym i gymharu botymau ar hofran cerdyn cynnyrch.",
         true_title: "dangos gweithred ar term",
       },
     },
@@ -7549,7 +7549,7 @@ export default {
     product_page: {
       title: "cynnyrch tudalen",
       subtitle:
-        "term eich cynnyrch tudalen term. chi gall term y term o pris a term y term o term i term eich term.",
+        "Personoli eich tudalen cynnyrch yma. Gallwch addasu arddangosiad prisiau ac addasu trefniant yr adrannau i weddu i'ch dewisiadau.",
       buy_button_color: "term term lliw",
       smart_price: {
         title: "term term pris",
@@ -7585,7 +7585,7 @@ export default {
     onboarding: {
       title: "term & term",
       subtitle:
-        "term y gwerthwr term a term term gyda un personol term, delwedd, neu neges.",
+        "Personoli profiad ymuno a mewngofnodi'r gwerthwr gyda fideo, delwedd neu neges wedi'i deilwra.",
     },
     inputs: {
       page_vendor_login: {
@@ -7632,7 +7632,7 @@ export default {
     logo: {
       title: "term logo",
       subtitle:
-        "gan rhagosodedig, eich siop logo yw wedi dangos yn y term, term chi gall uwchlwytho un personol logo term. os eich logo term nid cael un term term term, chi term term i term term y term a term ar gyfer term term.",
+        "Yn ddiofyn, mae logo eich siop yn cael ei arddangos yn y pennawd, ond gallwch chi uwchlwytho logo personol yn lle hynny. Os nad oes gan eich logo gymhareb agwedd sgwâr, efallai y bydd angen i chi addasu'r uchder a'r lled â llaw ar gyfer y cyflwyniad gorau posibl.",
     },
     header_title: {
       title: "term teitl",
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "term modd",
       description:
-        "term amrywiadau yn term term opsiynau, term ar gyfer term term.",
+        "Amrywiadau cryno mewn opsiynau ar wahân y gellir eu dethol, sy'n addas ar gyfer y rhan fwyaf o achosion.",
     },
     select: {
       title: "dewis modd",
       description:
-        "term pob amrywiadau yn un term, term ar gyfer un term term o amrywiadau.",
+        "Yn arddangos yr holl amrywiadau mewn cwymplen, sy'n ddelfrydol ar gyfer nifer fawr o amrywiadau.",
     },
   },
 
@@ -7707,7 +7707,7 @@ export default {
       values: {
         placeholder: "gosod term gosod... (dewisol)",
         messages:
-          "chi gall term term ar gyfer y term a term archeb.",
+          "Gallwch ddarparu awgrymiadau ar gyfer y gwerthoedd ac addasu trefn.",
       },
     },
   },
@@ -7837,7 +7837,7 @@ export default {
     },
     detail: {
       subtitle:
-        "term un term o term gwybodaeth term eich cwsmer. os gwelwch yn dda term eich cwsmer term.",
+        "Cadwch gofnod o wybodaeth bersonol am eich cwsmer. Parchwch breifatrwydd eich cwsmer.",
     },
     preferences: {
       subtitle: "gosod rhagosodedig defnyddiwr arian cyfred, cwsmer term, a term term.",
@@ -8018,32 +8018,32 @@ export default {
       inputs: {
         name: {
           label: "banc term",
-          message: "y term term o y banc term y cyfrif yw term.",
+          message: "Enw llawn y banc lle cedwir y cyfrif.",
         },
         holder_name: {
           label: "cyfrif term term",
           message:
-            "y term term o y term neu term hynny term y cyfrif.",
+            "Enw llawn y person neu’r endid sy’n dal y cyfrif.",
         },
         account_number: {
           label: "Rhif cyfrif",
           message:
-            "y term term term gyda y term banc cyfrif.",
+            "Y rhif unigryw sy'n gysylltiedig â'r cyfrif banc penodol.",
         },
         routing_number: {
           label: "term term (USA) neu term cod (UK)",
           message:
-            "un term hynny term y term banc term (term term yw term yn term gwledydd).",
+            "Rhif sy'n nodi'r gangen banc benodol (defnyddir termau gwahanol mewn gwahanol wledydd).",
         },
         swift: {
           label: "SWIFT/BIC cod",
           message:
-            "un term cod term i term banc term, term ar gyfer term trosglwyddo.",
+            "Cod rhyngwladol a ddefnyddir i nodi banciau yn fyd-eang, yn enwedig ar gyfer trosglwyddiadau rhyngwladol.",
         },
         iban: {
           label: "IBAN (term banc cyfrif term)",
           message:
-            "term term yn term, y IBAN yw un term term term ar gyfer term banc cyfrifon term term term.",
+            "Yn cael ei ddefnyddio'n bennaf yn Ewrop, mae'r IBAN yn system y cytunwyd arni'n rhyngwladol ar gyfer nodi cyfrifon banc ar draws ffiniau cenedlaethol.",
         },
         contact: {
           label: "Gwybodaeth Cyswllt",
@@ -8571,7 +8571,7 @@ export default {
         auto_fill: {
           title: "awtomatig term term",
           subtitle:
-            "chi gall term term o term term yn y testun a Selldone bydd term nhw gyda y term term.",
+            "Gallwch ddefnyddio pob un o'r paramedrau hyn yn y testun a bydd Soldone yn rhoi'r gwerth cyfatebol yn eu lle.",
         },
 
         sample: {
@@ -8587,7 +8587,7 @@ export default {
         auto_fill: {
           title: "awtomatig term term",
           subtitle:
-            "chi gall gosod term o term term fel un term, a Selldone bydd term nhw gyda y term term. hyn term i term y rhagosodedig term fel templedi yn eich SMS darparwr ar gyfer term. yn hwn term, term bydd bod na term i term term term term.",
+            "Gallwch chi osod pob un o'r paramedrau hyn fel gwerth, a bydd Soldone yn rhoi'r gwerth cyfatebol yn eu lle. Mae'n well diffinio'r gwerthoedd diofyn fel templedi yn eich darparwr SMS er mwyn symlrwydd. Yn yr achos hwn, ni fydd angen diffinio gwerthoedd paramedr yma.",
         },
         request: {
           title: "sampl term",
@@ -8637,7 +8637,7 @@ export default {
     sync_action: {
       title: "Gweithredoedd",
       subtitle:
-        "term SMS gwasanaethau term ychwanegol gwasanaethau term term, term, a term term. chi gall term eich term neu ychwanegol gwybodaeth i term eu term mwy term.",
+        "Mae rhai gwasanaethau SMS yn darparu gwasanaethau ychwanegol fel ymgyrchoedd, marchnata, a nodweddion eraill. Gallwch gysoni eich cysylltiadau neu wybodaeth ychwanegol i ddefnyddio eu nodweddion yn gyflymach.",
       action: "term term",
     },
     tokens: {
@@ -8716,7 +8716,7 @@ export default {
         "os eich gwasanaeth term 100 gwall, hyn bydd bod wedi analluogi yn awtomatig! chi gall term gwall i term hyn.",
 
       encryption_ports_guide:
-        "e-bost darparwyr term cynnig SSL, TLS, neu term term term ar ar gael term. os term term yn un gwall, term y term modd term term y term. term <b>TLS</b> term term: <b>587</b> a <b>SSL</b> term term: <b>465</b>.",
+        "Gall darparwyr e-bost gynnig SSL, TLS, neu gysylltiadau heb eu hamgryptio yn seiliedig ar y porthladdoedd sydd ar gael. Os yw cysylltu yn arwain at gamgymeriad, gallai newid y modd amgryptio ddatrys y broblem. Safon <b>TLS</b> defnyddio Porthladd : <b>587</b> a <b>SSL</b> defnyddio Port : <b>465</b>.",
 
       enable_receive_test:
         "ar ôl cadw term, chi bydd term un term term ar <b>{email}</b>. cadw term cyn term un term e-bost gyda y newydd ffurfweddiad.",
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram term sianel",
     subtitle:
-      "creu un penodol categori ar gyfer eich cynhyrchion, term gyda delweddau a term, a term hyn term eich term term. hyn term i Instagram a TikTok, term gyda term term, term chi i term term eich cynhyrchion.",
+      "Creu categori pwrpasol ar gyfer eich cynhyrchion, ynghyd â delweddau a fideos, a'i rannu ar draws eich cyfryngau cymdeithasol. Mae'n debyg i Instagram a TikTok, ond gyda rheolaeth lawn, sy'n eich galluogi i werthu'ch cynhyrchion yn uniongyrchol.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8918,7 +8918,7 @@ export default {
       "Bydd eich cwsmeriaid yn gallu prynu {product} yn gyflym drwy'r ddolen hon. Byddant hefyd yn nodi'r un ddolen trwy sganio'r cod QR.",
     title: "Gwerthiant Cyflym Hyper",
     message:
-      "gyda y term o term Selldone term sianel, eich cwsmeriaid bydd bod term i term cynhyrchion gan term un QR cod term term gweithred term o eich term. term hwn term i term term term eitemau yn term, term, neu term term yn term term. ar ôl term term yn hwn term, chi gall creu un term QR cod ar gyfer term cynhyrchion yn y cynnyrch rheolaeth term.",
+      "Gyda chymorth sianel werthu Hyper Soldone, bydd eich cwsmeriaid yn gallu prynu cynhyrchion trwy sganio cod QR heb unrhyw gamau sydd eu hangen o'ch ochr chi. Defnyddiwch y ffordd hon i werthu rhai eitemau yn gyflym mewn gwyliau, arddangosfeydd, neu seremonïau prysur mewn niferoedd mawr. Ar ôl actifadu Hyper yn yr adran hon, gallwch greu cod hyper QR ar gyfer cynhyrchion corfforol yn yr adran Rheoli Cynnyrch.",
     orders_list: "Rhestr Archebion Hyper",
     active_mode: "Sianel Werthu Hyper wedi'i Ysgogi",
     inactive_mode: "Anactif",
@@ -8985,12 +8985,12 @@ export default {
       "os gwelwch yn dda term yn term term gwlad term gyda un rhestr o term/term cod. term hyn, hwn cynnyrch bydd nid bod ar gael.",
     tips: "term ar y <b>+ ychwanegu gwlad</b> term i dechrau term un newydd lleoliad gosod. term term term, chi gall cadw hyn gan term ar y term <b>⋮ term</b> a dewis <b>cadw proffil</b>.",
     need_save_message:
-      "y lleoliad term gosodiadau ar gyfer y cynnyrch cael wedi bod term. i term term term, os gwelwch yn dda term ar y 'term term term.",
+      "Mae'r gosodiadau cyfyngiad lleoliad ar gyfer y cynnyrch wedi'u newid. I gadw'r newidiadau hyn, cliciwch ar y botwm 'Cadw' isod.",
 
     add_dialog: {
       title: "ychwanegu gwlad",
       message:
-        "dewis un gwlad a term 'term. hwn bydd term y gwlad i y tabl, term chi i term term, term cod, term term, neu term term i hyn.",
+        "Dewiswch wlad a chliciwch ar 'Ychwanegu'. Bydd hyn yn atodi'r wlad i'r tabl, gan ganiatáu ichi aseinio codau Zip, codau Pin, enwau dinasoedd, neu enwau Rhanbarthau iddi.",
     },
     save_profile_dialog: {
       title: "ychwanegu lleoliadau proffil",
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "sampl siop",
       subtitle:
-        "term, chi gall term un term o sampl siop. chi yw term term i term y gwybodaeth ar gael yn term siop. term, os gwelwch yn dda term o term yn neu term archebion term term term gwybodaeth, fel hwn data bydd bod term i y cyhoeddus. os chi term term eich gwybodaeth term, term term y siop a term yn term gyda term ar gyfer term term.",
+        "Yma, gallwch ddarganfod detholiad o siopau sampl. Rhoddir caniatâd i chi ddarllen y wybodaeth sydd ar gael yn y siopau hyn. Fodd bynnag, peidiwch â mewngofnodi neu osod archebion gan ddefnyddio gwybodaeth bersonol go iawn, gan y bydd y data hwn ar gael i'r cyhoedd. Os rhowch eich gwybodaeth yma yn ddamweiniol, gadewch y siop yn garedig a chysylltwch â ni am ragor o gymorth.",
     },
 
     add_new_store: "ychwanegu newydd siop",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Categorïau Blog",
     subtitle:
-      "chi gall creu un terfyn term o categorïau ar gyfer eich term term i rheoli nhw mwy term. term un categori terfyn term term term ar eich term. term, term y term newydd term term un terfyn term o categorïau, term term term 100, i term rheolaeth a term un term term.",
+      "Gallwch greu nifer cyfyngedig o gategorïau ar gyfer eich postiadau blog i'w rheoli'n fwy effeithlon. Mae cael terfyn categori yn hyrwyddo trefniadaeth well ar eich gwefan. Yn nodedig, mae hyd yn oed yr asiantaethau newyddion gorau yn cynnal nifer gyfyngedig o gategorïau, yn aml llai na 100, i symleiddio rheolaeth a chynnal ffocws ehangach.",
 
     add_action: "Ychwanegu categori newydd",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "term term term",
     subtitle:
-      "term yw y rhestr o term term gosod ar gyfer term term. chi cael y term i term term term a term cynnyrch disgrifiad i bod term yn term amser.",
+      "Dyma'r rhestr o erthyglau sydd wedi'u hamserlennu a osodwyd i'w cyhoeddi yn y dyfodol. Mae gennych y gallu i amserlennu postiadau blog a hyd yn oed disgrifiadau cynnyrch i'w cyhoeddi ar adegau penodol.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "Pont Metaverse",
     subtitle:
-      "Selldone term %100 API-term gwasanaethau yn y term term. term, term, a term datblygwyr gall term term term term i term term, cwsmeriaid, a gwasanaethau yn y term o term, term a term term.",
+      "Mae Soldone yn darparu gwasanaethau sy'n seiliedig ar API %100 yn y gofod masnach. Gall datblygwyr gêm, blockchain a metaverse ddefnyddio'r APIs pwerus hyn i gysylltu busnesau, cwsmeriaid a gwasanaethau yn nyfodol byd gwaith, bywyd a masnach.",
     message: "Mynediad Cynnar i Ddatblygwyr Gêm",
   },
 
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Cynorthwy-ydd Archebion",
     subtitle:
-      "allforio a lawrlwytho term ar gyfer term archeb term - term ar gyfer term term 100 archebion term.",
+      "Allforio a llwytho i lawr labeli ar gyfer prosesu archebion swmp - yn ddelfrydol ar gyfer trin dros 100 o archebion bob dydd.",
 
     timespan: {
       title: "Cyfnod amser",
@@ -9266,7 +9266,7 @@ export default {
       title: "Dulliau mewngofnodi",
       subtitle: "Addaswch y ffordd y mae defnyddwyr yn mewngofnodi i'ch siop.",
 
-      tips: "<b>term.</b> term un defnyddiwr term gyda eich siop, un term Selldone defnyddiwr yw wedi creu, os term term term term. hwn defnyddiwr bydd cael mynediad i eu cyfeiriad term term pob siop a gall gweld eu archeb term, term os un siop mae ganddo term. ni term nid term hwn gwybodaeth ar gyfer term term term term hyn i term term ar term term. i term term, term term un e-bost i y defnyddiwr term nhw o eu term.",
+      tips: "<b>Important.</b> Pan fydd defnyddiwr yn cofrestru gyda'ch siop, mae defnyddiwr Soldone cyfatebol yn cael ei greu, os nad yw un yn bodoli eisoes. Bydd gan y defnyddiwr hwn fynediad at ei lyfr cyfeiriadau ar draws pob siop a gall weld ei hanes archebu, hyd yn oed os yw siop wedi cau. Nid ydym yn defnyddio'r wybodaeth hon at ddibenion marchnata ond yn ei gwneud yn ofynnol i atal twyll ar y ddwy ochr. Er mwyn cynnal tryloywder, byddwn yn anfon e-bost at y defnyddiwr yn rhoi gwybod iddynt am eu cofrestriad.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9347,7 +9347,7 @@ export default {
   business_type: {
     title: "Mathau o nwyddau",
     subtitle:
-      "gosod y term o cynhyrchion chi eisiau i term yn eich siop. cynnyrch term yn Selldone yw mwy term term un term o y cynhyrchion; hyn mwy term term term.",
+      "Gosodwch y math o gynhyrchion rydych chi am eu gwerthu yn eich siop. Mae mathau o gynnyrch yn Soldone yn fwy na dim ond math o'r cynhyrchion; mae'n ymwneud mwy â'r weithdrefn gyflawni.",
 
     send_activation_request_to_support:
       "Anfonwch gais actifadu mewn tocyn cymorth.",
@@ -9371,7 +9371,7 @@ export default {
 
     wholesaler: {
       title: "Cyflenwr Dropshipping",
-      desc: "un term neu term term term archebion term i y diwedd term. term term ar Selldone gall term term eich cynhyrchion yn eu siop term y term term.",
+      desc: "Mae cyfanwerthwr neu wneuthurwr yn aml yn anfon archebion yn uniongyrchol i'r defnyddiwr terfynol. Gall masnachwyr eraill ar Soldone hefyd werthu'ch cynhyrchion yn eu siopau trwy'r model dropshipping.",
     },
     marketplace: {
       title: "Marchnad",
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "term term term",
     message:
-      "term eich term 3 busnes term i term a term ar Selldone. hwn gwybodaeth bydd bod term term gyda term a term a bydd bod term term. chi gall term diweddaru eich term term amser ar ôl term.",
+      "Nodwch eich 3 prif angen busnes i ffynnu ac elw ar Selldone. Bydd y wybodaeth hon yn cael ei rhannu'n uniongyrchol â sylfaenwyr a chyfarwyddwyr a bydd yn cael ei hystyried yn ofalus. Gallwch hefyd ddiweddaru'ch anghenion dros amser ar ôl ei gyflwyno.",
     expand_action: "ysgrifennu y term...",
     input_label: "eich term",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "term i tîm",
     },
     placeholder: {
-      ceo: "term na term i bod term, fi term i term eich term, term term.\nterm.term. fi term i cael...",
-      team: "os gwelwch yn dda term i bod term i nhw.\nterm.term. fi term i cael...",
+      ceo: "Nid oes angen bod yn neis o gwbl, rwy'n hoffi clywed eich cwestiwn yn uniongyrchol, o'r dde i'r pwynt.\ne.e. Mae angen i mi gael...",
+      team: "Ceisiwch fod yn neis gyda nhw.\ne.e. Mae angen i mi gael...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "term mewnforio cynhyrchion",
     message:
-      "ni yw yn y term o mewnforio cynhyrchion a delweddau, term term term term amser i term.",
+      "Rydym yn y broses o fewnforio cynhyrchion a delweddau, a all gymryd peth amser i'w cwblhau.",
   },
 
   /**
@@ -9558,7 +9558,7 @@ export default {
       auto_confirm_disable_msg:
         "awtomatig term o archebion yw nid wedi galluogi.",
       shipping_enable_msg:
-        "y cludo term bydd bod term term ar y gwybodaeth term yn term.",
+        "Bydd y gost cludo yn cael ei gyfrifo yn seiliedig ar y wybodaeth a ddarperir wrth y ddesg dalu.",
     },
     detail: {
       title: "Connect term",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "term term",
         subtitle:
-          "mewnol term manylion. hwn gwybodaeth yw term ar ôl un term term term yn llwyddiannus diwedd.",
+          "Manylion cysoni mewnol. Mae'r wybodaeth hon yn cael ei chadw ar ôl i gyfnod proses gysoni ddod i ben yn llwyddiannus.",
         no_data: "na term gwybodaeth!",
       },
     },
@@ -9595,7 +9595,7 @@ export default {
       service: {
         title: "gwasanaeth",
         subtitle:
-          "dewis term term, term term, neu marchnad i term.",
+          "Dewiswch blatfform targed, cyflenwr dropshipping, neu farchnad i gysylltu.",
       },
       test: {
         false_title: "term pob",
@@ -9618,7 +9618,7 @@ export default {
       order: {
         title: "archeb statws",
         subtitle:
-          "term y term gwasanaeth archeb rheolaeth gosodiadau ar gyfer eich siop. hwn term term term archeb term, term awtomatig archeb term (os term), a term cludo term term.",
+          "Ffurfweddwch osodiadau rheoli archeb y gwasanaeth cysylltiedig ar gyfer eich siop. Mae hyn yn cynnwys sefydlu derbyniad archeb, galluogi cadarnhad archeb awtomatig (os caiff ei gefnogi), a ffurfweddu cyfrifiadau cost cludo.",
       },
       enable: {
         label: "Connect statws",
@@ -9637,7 +9637,7 @@ export default {
         tips: "hwn gwasanaeth cynnig cludo term, term gall bod wedi galluogi neu wedi analluogi fel term eich term. os wedi galluogi, term term term gyda 3term term gwasanaethau bydd bod gofynnol, term term term un term o term 300term ar gyfer term y pris ar y term tudalen.",
         false_title: "term",
         false_desc:
-          "term fy cludo term term, yn siop > logisteg > term ar gyfer pob cynhyrchion, term mewnforio term.",
+          "Defnyddiwch fy nghyfrifiad cost cludo, yn Siop > Logisteg > Cludiant ar gyfer pob cynnyrch, gan gynnwys rhai wedi'u mewnforio.",
         true_title: "term cludo",
         true_desc:
           "term y cludo term term API cynnig gan hwn gwasanaeth.",
@@ -9658,7 +9658,7 @@ export default {
         "Connect eich busnes term i allanol gwasanaethau a rheoli pob sianeli yn y term term.",
       action: "Connect newydd gwasanaethau",
       empty_message:
-        "term term a term ar gyfer term! Connect yw y term o term archeb rheolaeth.",
+        "Anghofiwch apiau ac ategion ar gyfer dropshipping! Connect yw dyfodol rheoli archebion traws-lwyfan.",
       auto_confirm: "awtomatig cadarnhau",
       shipping: "Llongau",
       syncing_now: "term nawr!",
@@ -9699,7 +9699,7 @@ export default {
     title: "Tudalennau glanio",
     add_new_action: "ychwanegu newydd tudalen",
     subtitle:
-      "creu term, term personol tudalennau ar gyfer eich term term un term term term term, a yn awtomatig term term term gan ffrwd yn data.",
+      "Creu tudalennau unigryw, ymatebol wedi'u teilwra ar gyfer eich brand gan ddefnyddio golygydd mewnol amlbwrpas wedi'i bweru gan AI, a chynhyrchu cynnwys deinamig yn awtomatig trwy fwydo data i mewn.",
     empty_message: "dyluniad personol tudalennau gan llusgo & gollwng...",
   },
 
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "tag term",
       subtitle:
-        "Google term term term o term ROI term term term, term, a term term term a term. rheoli term tagiau term gyda Google tag term term, term, a term term—na cod golygu gofynnol.",
+        "Mae Google Analytics yn galluogi mesur ad ROI wrth olrhain gwefannau ac apiau Flash, fideo a chyfryngau cymdeithasol. Rheoli tagiau gwefan yn ddiymdrech gyda datrysiadau rhad ac am ddim, syml a dibynadwy Google Tag Manager - nid oes angen golygu cod.",
       tag_id: {
         label: "Google tag term ID",
       },
@@ -9805,15 +9805,15 @@ export default {
     serp: {
       title: "Google SERP & term",
       subtitle:
-        "ni term y term term SEO term data o Google a term hyn i chi yn un term term. term term y term term.",
+        "Rydym yn cael y data archwilio SEO mwyaf manwl gywir gan Google ac yn ei gyflwyno i chi mewn modd cyfleus. Yn syml, dilynwch y camau a ddarperir.",
     },
     serp_content: {
       title: "Connect i Google chwilio term",
       subtitle:
-        "Connect eich siop i y chwilio term a dechrau term term, term, a term term SEO term ar Selldone.",
+        "Cysylltwch eich siop â'r consol chwilio a dechreuwch archwilio geiriau allweddol, rhengoedd, ac offer SEO rhad ac am ddim eraill ar Selldone.",
       tips: {
         title:
-          "term i dolen Selldone gyda Google chwilio term, term y term:",
+          "Cyn cysylltu Soldone â Google Search Console, sicrhewch y canlynol:",
         add_in_selldone: "ychwanegu, term, a gosod fel cynradd eich personol parth.",
         add_in_google: "ychwanegu a term <b>{domain}</b> yn eich<a href=\"https://search.google.com/search-console\" target=\"_blank\"><b>Google chwilio term</b></a>.",
       },
@@ -10013,7 +10013,7 @@ export default {
   payment_delivery_dialog: {
     title: "cwsmer danfon term",
     message:
-      "term taliad gwasanaethau term term hynny y archeb mae ganddo wedi bod term i y cwsmer. ni term term hwn term term y term term o archeb term term ni term y cwsmer danfon term. term, os chi term i term hwn gweithred term, chi gall term term term.",
+      "Mae rhai gwasanaethau talu yn gofyn am gadarnhad bod yr archeb wedi'i chyflwyno i'r cwsmer. Fel arfer byddwn yn anfon y cadarnhad hwn yn ystod cam olaf cyflawni archeb pan fyddwn yn derbyn cadarnhad danfon y cwsmer. Fodd bynnag, os oes angen i chi gyflawni'r weithred hon â llaw, gallwch wneud hynny yma.",
     verify: {
       title: "term danfon",
       description:
@@ -10036,7 +10036,7 @@ export default {
       target: {
         title: "term cynnyrch",
         subtitle:
-          "dewis y cynhyrchion term term i term fel term opsiynau term hwn cynnyrch.",
+          "Dewiswch y cynhyrchion yr hoffech eu hyrwyddo fel opsiynau traws-werthu ochr yn ochr â'r cynnyrch hwn.",
         select_products: "dewis cynnyrch(term)",
       },
       list: {
@@ -10047,20 +10047,20 @@ export default {
       discount: {
         title: "gostyngiad & neges",
         subtitle:
-          "chi cael y opsiwn i term un neges a cynnig un gostyngiad i term cwsmeriaid i term y wedi dewis ychwanegol eitemau. term term gall term term term a term y term term term.",
+          "Mae gennych yr opsiwn i gynnwys neges a chynnig gostyngiad i gymell cwsmeriaid i brynu'r eitemau ychwanegol a ddewiswyd. Gall y cymhellion hyn helpu i hybu gwerthiant a gwella'r profiad siopa cyffredinol.",
         amount_input: {
           message:
             "y gostyngiad term bydd bod term i y cynnyrch pris ar ôl term term cyfrif pob term gostyngiad.",
         },
         mismatch_type_warning:
-          "gostyngiad term bod term i term term term y prif cynnyrch term, fel y term a term eitemau bydd nid bod term yn un term term.",
+          "Ni ellir cymhwyso gostyngiadau i fathau eraill ar wahân i'r prif fathau o gynnyrch, gan na fydd y ffynhonnell a'r eitemau targed yn cael eu gosod yn yr un fasged.",
         not_support_subscription_type_warning:
-          "term gostyngiad ar gyfer term term cynhyrchion yw nid term, fel y prisio term term bod term term.",
+          "Nid yw'n bosibl gosod gostyngiadau ar gyfer cynhyrchion tanysgrifio traws-werthu, gan na ellir addasu'r cynlluniau prisio yn ddeinamig.",
         message_input: {
           message:
-            "term un term a term teitl i term term term.",
+            "Creu teitl cymhellol a deniadol i ddal sylw cwsmeriaid.",
           placeholder:
-            "term & cadw: term eich term gyda term term term!",
+            "Bwndel ac Arbed: Cwblhewch Eich Edrych gyda'n Detholiad Wedi'i Ddewis â Llaw!",
         },
       },
       action: {
@@ -10082,9 +10082,9 @@ export default {
     },
     values: {
       title: "amrywiad term",
-      subtitle: "term y term term ar gyfer term amrywiad opsiwn term.",
+      subtitle: "Rhowch y gwerthoedd posibl ar gyfer pob opsiwn amrywiad yma.",
       prevent_duplicates_tips:
-        "<b>nodyn:</b> ni yn awtomatig term ar gyfer term amrywiadau i term term.",
+        "<b>Nodyn:</b> Rydym yn gwirio'n awtomatig am amrywiadau presennol i atal dyblygu.",
     },
     inventory: {
       title: "term term",
@@ -10100,7 +10100,7 @@ export default {
     AddToCart: {
       title: "Ychwanegu at y Cert",
       description:
-        "term y ychwanegu i term term term. nodyn hynny hwn yw nid term ar gyfer term cynhyrchion.",
+        "Dangoswch y botwm Ychwanegu at y Cart yn uniongyrchol. Sylwch nad yw hyn yn berthnasol ar gyfer cynhyrchion tanysgrifio.",
     },
     ViewProduct: {
       title: "Gweld Cynnyrch",
@@ -10115,7 +10115,7 @@ export default {
 
   product_flow: {
     title: "term term",
-    subtitle: "hwn yw y term term a term term o eich cynnyrch.",
+    subtitle: "Dyma lif prynu a gwiriad iechyd eich cynnyrch.",
 
     /**
      * @see BProductFlowRowConnect
@@ -10193,7 +10193,7 @@ export default {
         no_restriction: "nid term",
       },
       available_countries_msg:
-        "term term term i {count} gwledydd. term gwledydd yw {countries}.",
+        "Mae siopa'n fyd-eang wedi'i gyfyngu i wledydd {count}. Mae'r gwledydd hyn yn {countries}.",
       disable_for_all_countries_msg:
         "term yw wedi analluogi ar gyfer pob gwledydd yn eich siop > lleoliadau term.",
       location_is_not_in_permitted_shop_locations_msg:
@@ -10240,7 +10240,7 @@ export default {
       vendor_owner_msg: "hwn cynnyrch term i <b>{vendor}</b>.",
       has_vendors_msg: "term yw {count} gwerthwyr ar gyfer hwn cynnyrch.",
       no_vendor_msg:
-        "chi term term un gwerthwr i hwn cynnyrch, term cwsmeriaid yw term i term hyn.",
+        "Nid ydych wedi aseinio gwerthwr i'r cynnyrch hwn, felly ni all cwsmeriaid ei brynu.",
       add_vendors: "ychwanegu gwerthwyr",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "cynnyrch tudalen templed",
     subtitle:
-      "chi gall term un tudalen term eich cynnyrch tudalen ar gyfer un term term. y term term yw i creu tudalennau term un tryloyw cefndir a 1 i 3 term term i term cynnyrch categori. term, term term tudalen i term cynhyrchion ar gyfer un term a term term.",
+      "Gallwch chi fewnosod tudalen o fewn eich tudalen cynnyrch ar gyfer cyflwyniad gwell. Y dull gorau posibl yw creu tudalennau sy'n cynnwys cefndir tryloyw ac 1 i 3 adran wedi'u teilwra i bob categori cynnyrch. Yna, aseinio un dudalen i gynhyrchion lluosog ar gyfer arddangosfa gyson ac apelgar.",
     edit_page: "golygu tudalen",
     list_of_pages: "rhestr o tudalennau",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "chi gall term term un cynnyrch neu un rhestr o cynhyrchion yn eich term neu term term tudalennau gan term copïo a term y cod ni term. term hwn term yw term yn hyn term term, ni yw term term i term hyn term term term yw term ar gael term. term hyn term cynnig terfyn term, ni cael term i term mwy templedi a term opsiynau yn y term.",
+      "Gallwch chi fewnosod cynnyrch neu restr o gynhyrchion yn eich blog neu dudalennau gwe eraill yn hawdd trwy gopïo a gludo'r codau rydyn ni'n eu darparu. Er bod y nodwedd hon yn ei gamau cynnar o hyd, rydym wrthi'n gweithio i ehangu ei swyddogaethau y tu hwnt i'r hyn sydd ar gael mewn mannau eraill ar hyn o bryd. Er ei fod yn cynnig galluoedd cyfyngedig ar hyn o bryd, mae gennym gynlluniau i gyflwyno mwy o dempledi ac opsiynau addasu yn y dyfodol.",
     card: {
       title: "term",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "term",
       description:
-        "term y iframe cod i term term cynnyrch manylion yn un term term.",
+        "Cynhyrchu'r cod iframe i arddangos manylion cynnyrch cynhwysfawr mewn ffenestr fewnosod.",
     },
   },
 
@@ -10288,9 +10288,9 @@ export default {
     },
     access: {
       customization_tips:
-        "<b>term:</b> term ar term eitem i term y rhagosodedig darllen/ysgrifennu mynediad. term term term un mynediad term term i y prif siop dangosfwrdd.",
+        "<b>Cwsmeriad:</b> Cliciwch ar bob eitem i addasu'r mynediad darllen/ysgrifennu rhagosodedig. Mae pob rhes yn cynrychioli lefel mynediad sy'n cyfateb i brif ddangosfwrdd y siop.",
       simplify_tips:
-        "<b>term!</b> ni term y mynediad term o term 300 i term 10 term. mwy term a term mynediad term bydd bod term yn y term.",
+        "<b>Pwysig!</b> Rydym yn symleiddio'r rheolaeth mynediad o dros 300 i lai na 10 lefel. Bydd lefelau mynediad manylach a mwy diweddar yn cael eu cyhoeddi yn y ddogfennaeth.",
       multi_permission_tips:
         "<b>personol terfynau?</b> chi gall ychwanegu mwy mynediad i term defnyddiwr, term ar ôl ychwanegu y cyntaf mynediad, creu ychwanegol mynediad gyda y term term.",
       view_data: "gweld data",
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "cynnyrch tagiau",
         messages: "cynhyrchion gyda term tagiau bydd bod dangos.",
-        placeholder: "term tagiau term a term term. term. newydd term",
+        placeholder: "Tagiau gwifren yma a gwasgwch enter. cyn. casgliad newydd",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>term chwilio:</b>chwilio gan teitl, MPN, SKU, term, neu tagiau.",
       product:
-        "<b>term cynnyrch ID:</b>term P+Product ID i term un term cynnyrch, term.term., <b class=\"text-green\">term</b><i class=\"text-yellow\">360</i>.",
+        "<b>Union ID Cynnyrch: </b>Defnyddiwch P+ID Cynnyrch i ddod o hyd i gynnyrch penodol, e.e., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>term term:</b>term term term i chwilio ar gyfer un term term, term.term., <b class=\"text-green\">\"</b><i class=\"text-yellow\">eich testun term</i><b class=\"text-green\">\"</b>.",
+        "<b>Ymadrodd Union: </b>Defnyddiwch ddyfynodau i chwilio am union ymadrodd, e.e., <b class=\"text-green\">\"</b><i class=\"text-yellow\">eich testun yma</i><b class=\"text-green\">\"</b>.",
       tax: "<b>treth proffil:</b>chwilio ar gyfer cynhyrchion gyda un term treth proffil term \"treth:\", term.term., <b class=\"text-green\">treth:</b><i class=\"text-yellow\">treth proffil term</i>.",
       new_products:
-        "<b>newydd cynhyrchion:</b>term cynhyrchion ychwanegu term un term dyddiad term, term.term., <b class=\"text-green\">newydd~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Cynhyrchion Newydd: </b>Dod o hyd i gynhyrchion sydd wedi'u hychwanegu o fewn ystod dyddiadau penodol, e.e., <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10391,15 +10391,15 @@ export default {
     help_dialog: {
       title: "term i term term term",
       how_it_works_tips:
-        "yn y term tudalennau, chi cael y term i term term term ar gyfer term testun a delweddau. term term term un term term yn term y term term i y term. y term term o term term term nhw i bod term gan term term, term gall term term ar term term. ar gyfer term, y term term term bod term ar gyfer term cynnyrch neu categori. y term term o hwn term term term term term chi cael un term o eitemau gyda term term. chi gall term term term term term i term a term y term o term eitem, term term un term a term term ar eich term tudalennau.",
+        "Yn y tudalennau glanio, mae gennych yr hyblygrwydd i ddynodi dalfannau deinamig ar gyfer testun a delweddau. Mae'r dalfannau hyn yn chwarae rhan arwyddocaol wrth addasu'r cynnwys yn ôl y cyd-destun.   Mae natur ddeinamig y dalfannau hyn yn caniatáu iddynt gael eu poblogi gan werthoedd cynyddu, a all amrywio yn seiliedig ar wahanol ffactorau. Er enghraifft, gall y gwerthoedd ychwanegu fod yn wahanol ar gyfer pob cynnyrch neu gategori. Daw gwir fantais y nodwedd hon i rym pan fydd gennych amrywiaeth o eitemau gyda gwahanol nodweddion. Gallwch chi ddefnyddio'r dalfannau deinamig hyn yn effeithiol i bersonoli a gwella arddangosfa pob eitem, a thrwy hynny greu profiad unigryw a rhyngweithiol ar eich tudalennau glanio.",
       assign_tips:
-        "i term term term i delweddau, term ar y term term term ar y term term o y term.",
+        "I aseinio gwerthoedd deinamig i ddelweddau, cliciwch ar y botwm bwydo sydd wedi'i leoli ar ochr chwith yr adran.",
       set_dynamic_image_tips:
-        "chi nawr cael y term i term y delwedd URL a term hyn un term term.",
+        "Mae gennych nawr y gallu i addasu URL y ddelwedd a phennu gwerth deinamig iddo.",
       enter_values_tips:
-        "ar gyfer term cynnyrch, chi cael y term i term penodol term term.",
+        "Ar gyfer pob cynnyrch, mae gennych y gallu i neilltuo parau gwerth allweddol pwrpasol.",
       result_tips:
-        "hwn yw y term term o y tudalen, term term cael wedi bod term gyda term term.",
+        "Dyma ganlyniad terfynol y dudalen, lle mae dalfannau wedi cael eu disodli gan werthoedd ychwanegol.",
     },
   },
 
@@ -10476,13 +10476,13 @@ export default {
     title: "logisteg proffiliau",
     add_caption: "ychwanegu newydd proffil",
     subtitle:
-      "chi gall creu a golygu y term a dychwelyd term ar gyfer cynhyrchion term a term hyn i term cynhyrchion. chi gall term term term term ar gyfer term term o cynhyrchion.",
+      "Gallwch greu a golygu'r polisi gwarant a dychwelyd ar gyfer cynhyrchion yma a'i aseinio i unrhyw gynhyrchion. Gallwch ddiffinio gwahanol bolisïau gwarant ar gyfer gwahanol fathau o gynhyrchion.",
     add_dialog: {
       title: "creu newydd logisteg proffil",
       config: {
         title: "term gwybodaeth",
         subtitle:
-          "dewis y proffil term. hyn gall bod un term, term, neu term term term a term term term term term cynhyrchion.",
+          "Dewiswch y math o broffil. Gall fod yn ganllaw, gwarant, neu unrhyw gynnwys a deunydd arall a rennir yn gyffredin ymhlith cynhyrchion lluosog.",
       },
       article: {
         title: "Erthygl",
@@ -10533,13 +10533,13 @@ export default {
 
     title: "wedi cynnwys eitem",
     subtitle:
-      "dewis un term teitl, term gyda 2 i 3 term yn term. term term delweddau, fel ni bydd term uwchlwytho term i un 256term256 term term. ar gyfer y term term term pob templedi, term term delweddau gyda tryloyw cefndir a term un term term term eich cynhyrchion.",
+      "Dewiswch deitl byr, yn ddelfrydol gyda 2 i 3 gair ar y mwyaf. Defnyddiwch ddelweddau sgwâr, gan y byddwn yn newid maint lluniau wedi'u llwytho i fyny yn awtomatig i fformat sgwâr 256x256. I gael yr ymddangosiad gorau ar draws yr holl dempledi, defnyddiwch ddelweddau minimalaidd gyda chefndir tryloyw a chynnal patrwm unffurf trwy gydol eich cynhyrchion.",
     inputs: {
       title: {
         placeholder: "term teitl wedi dangos ar cynnyrch tudalen...",
       },
       code: {
-        placeholder: "term cod, term. term_term_term",
+        placeholder: "Cod unigryw, ex. symudol_cebl_usb",
         hint: "term hwn cod i term y chwilio term ar gyfer term eitemau.",
       },
       description: {
@@ -10650,13 +10650,13 @@ export default {
     intro: {
       title: "term y Selldone cyswllt term",
       message:
-        "y Selldone cyswllt term yw term a term, dyluniad ar gyfer chi i term term. term eich term cyswllt dolen i term newydd defnyddwyr i Selldone, a term term un comisiwn o term trafodiad term ennill—term. hwn term term o term, gwasanaeth ffioedd, siop term, a pob term term term. dechrau term un term o y term term term terfynau ar amser neu term. term term a term eich term term un term term!",
+        "Mae Rhaglen Gysylltiedig Selldone yn syml ac yn syml, wedi'i chynllunio i chi ennill yn ddiymdrech. Rhannwch eich cyswllt cyswllt unigryw i wahodd defnyddwyr newydd i Soldone, a byddwch yn ennill comisiwn o bob trafodiad a wnânt - am byth. Mae hyn yn cynnwys enillion o danysgrifiadau, ffioedd gwasanaeth, uwchraddio siopau, a phob ffrwd refeniw arall. Dechreuwch ennill cyfran o'r refeniw heb unrhyw derfynau ar amser nac enillion. Ymunwch â ni a throi eich rhwydwaith yn incwm cyson!",
       why_join_selldone_affiliate: "term yw hwn un term term?",
       reasons: [
         "hyn olaf term!",
         "term pob term a trafodiad ffioedd. term term taliad o y defnyddiwr ar Selldone.",
-        "ni term un term $99 term i term term term term eich dolen.",
-        "term eich term term, chi bydd term yn y newydd term o pob term term defnyddwyr.",
+        "Rydym yn anfon taleb $99 am ddim i unrhyw un sy'n cofrestru gan ddefnyddio'ch dolen.",
+        "Pan fydd eich haen yn uwchraddio, byddwch yn ennill ar y gyfradd newydd gan bob defnyddiwr a gyfeiriwyd yn flaenorol.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "term arddull",
       subtitle:
-        "term hwn term i term arddull term fel ffont, cefndir, term, a term. term term term i term arddull:",
+        "Defnyddiwch yr offeryn hwn i ddyblygu arddulliau fel ffontiau, cefndiroedd, ymylon a borderi. Dilynwch y camau hyn i ddyblygu arddulliau:",
       step_1:
-        "term y term a term eich term term testun, term, neu delweddau; y term bydd term i un term.",
+        "Ysgogi'r teclyn a hofran eich llygoden dros destun, colofnau, neu ddelweddau; bydd y cyrchwr yn newid i bibed.",
       step_2: "term ar y term term arddull chi eisiau i copïo.",
       step_3:
-        "y term bydd term term i un term; term ar y term term chi eisiau i cymhwyso y term arddull.",
+        "Bydd y cyrchwr yn newid yn ôl i balet; cliciwch ar yr elfen lle rydych chi am gymhwyso'r arddull a gopïwyd.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "term y term o y term term, term term pob term categorïau ar gyfer term eich tudalen.",
+        "Toggle gwelededd y ddewislen ochr, sy'n cynnwys pob categori adran ar gyfer adeiladu eich tudalen.",
     },
     sort_tooltip: {
       subtitle:
-        "term hwn term i term term a term term gan term nhw.",
+        "Galluogi'r nodwedd hon i aildrefnu a threfnu adrannau'n hawdd trwy eu llusgo.",
     },
     edit_mode_tooltip: {
       title: "golygu / term modd",
@@ -10703,7 +10703,7 @@ export default {
     repository_tooltip: {
       title: "term term",
       subtitle:
-        "term y term o term term. term term yw wedi creu term y term term ar gael yn y term term, term y term o hwn tudalen term.",
+        "Toggle arddangos adrannau a gynlluniwyd ymlaen llaw. Mae'r adrannau hyn yn cael eu creu gan ddefnyddio'r adrannau safonol sydd ar gael yn y ddewislen chwith, gan ddangos hyblygrwydd y crëwr tudalen hwn.",
     },
     live_view: {
       title: "byw term",
@@ -10712,14 +10712,14 @@ export default {
     hotkeys_dialog: {
       title: "term term",
       augment_tips:
-        "chi gall term term term term eich tudalen a term hyn gyda <b>term</b> term. term yw term ar gyfer personol term tudalennau term fel <b>cynhyrchion</b>, <b>categorïau</b>, a <b>term eitemau</b>. i gosod un delwedd i term term, term ar <b>term</b> a dewis <b>term term</b> ar gyfer hynny delwedd.",
+        "Gallwch lwytho cynnwys deinamig ar eich tudalen a rhoi gwerthoedd <b>augment</b> yn ei le. Defnyddir ychwanegiad ar gyfer tudalennau deinamig wedi'u teilwra fel <b>Products</b>, <b>Categories</b>, a <b>Cynnwys Eitemau</b>. I osod delwedd i'w llwytho'n ddeinamig, cliciwch ar <b>Feeder</b> a dewiswch <b>Dynamic Source</b> ar gyfer y ddelwedd honno.",
     },
     hotkeys: {
-      ctrl_b: "term term ar/term ar gyfer wedi dewis testun | <b>ennill term term</b>",
-      ctrl_i: "term term ar/term ar gyfer wedi dewis testun | <i>ennill term term</i>",
+      ctrl_b: "Toglo print trwm ymlaen/i ffwrdd ar gyfer testun a ddewiswyd | <b>Gwna fi'n feiddgar </b>",
+      ctrl_i: "Toglo llythrennau italig ymlaen/i ffwrdd ar gyfer testun a ddewiswyd | <i>Gwnewch fi italig</i>",
       ctrl_l:
-        "term term ar/term ar gyfer wedi dewis testun | <s>term term term</s>",
-      ctrl_u: "term term ar/term ar gyfer wedi dewis testun | <u>term term</u>",
+        "Toglo'r llinell drwodd ymlaen/i ffwrdd ar gyfer y testun a ddewiswyd | <s>Streic drwodd i</s>",
+      ctrl_u: "Toglo tanlinellu ymlaen/diffodd ar gyfer y testun a ddewiswyd | <u>Tanlinellu fi</u>",
       ctrl_1:
         "term ffont maint o wedi dewis testun | <small>ennill term term</small>",
       ctrl_2: "term ffont maint o wedi dewis testun | <big>ennill term term</big>",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Côd",
         subtitle:
-          "chi gall copïo a term y term cod o y term term term yn y tudalen term.",
+          "Gallwch gopïo a gludo'r cod elfen o'r adrannau ochr chwith yn adeiladwr y dudalen.",
       },
       inputs: {
         title: {
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "term term gofynnol!",
     subtitle:
-      "eich cyfredol term term nid term y term o eich wedi dewis busnes term. os gwelwch yn dda term eich term i y term term.",
+      "Nid yw eich trwydded gyfredol yn bodloni gofynion y model busnes a ddewiswyd gennych. Uwchraddiwch eich trwydded i'r cynllun Menter.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "term gweithredoedd",
     subtitle:
-      "chi gall term un statws diweddaru e-bost i y term gyda term term term. term, chi gall term term neges term i term, term chi term cael i term nhw term amser.",
+      "Gallwch anfon e-bost diweddaru statws at y prynwr gydag un clic yn unig. Yn ogystal, gallwch ddiffinio negeseuon cyffredin yma i'w hailddefnyddio, felly nid oes rhaid i chi eu hailysgrifennu bob tro.",
     send_update_email_action: "term diweddaru e-bost",
     add_template_action: "ychwanegu neges templed",
 
@@ -10897,7 +10897,7 @@ export default {
     title: "term term",
     add_source_action: "ychwanegu term term",
     subtitle:
-      "term term allanol term i term a term term term eich busnes o term term Facebook, Google, a mwy. term yn awtomatig term cwsmeriaid i eu term ar gyfer un term cwsmer term. chi gall term term term term ar eich term tudalennau a cynnyrch tudalennau.",
+      "Cysylltwch lwyfannau allanol yn hawdd i gasglu a dadansoddi adolygiadau am eich busnes o ffynonellau fel Facebook, Google, a mwy. Byddwn yn paru cwsmeriaid yn awtomatig â'u hadolygiadau i gael profiad gwell i gwsmeriaid. Gallwch hefyd arddangos yr adolygiadau hyn ar eich tudalennau glanio a'ch tudalennau cynnyrch.",
   },
 
   /**
@@ -10931,7 +10931,7 @@ export default {
     title: "blychau",
     add_action: "ychwanegu blwch",
     subtitle:
-      "creu term blwch maint i term term term term a term term cludo term. term term un archeb, dewis un term blwch a hyn term bydd term.",
+      "Creu meintiau blychau y gellir eu hailddefnyddio i gyflymu pryniannau labeli a sicrhau cyfraddau cludo cywir. Wrth gyflawni archeb, dewiswch flwch sydd wedi'i gadw a bydd ei ddimensiynau'n llenwi'n awtomatig.",
     empty: "na blychau term. term “ychwanegu blwch”.",
     edit: "golygu blwch",
     new: "newydd blwch",
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"rhestriad",
-    message:"creu un term, term term ar gyfer term term o rhestriad—priodweddau, term, term, gwasanaethau, a mwy."
+    message:"Creu cyfeiriadur chwiliadwy, wedi'i gymedroli ar gyfer unrhyw fath o restriad - eiddo, gwestai, meddygon, gwasanaethau, a mwy."
   },
 
   shop_listing: {
     name: "rhestriad",
     message:
-      "creu un term, term term ar gyfer term term o rhestriad—priodweddau, term, term, gwasanaethau, a mwy.",
+      "Creu cyfeiriadur chwiliadwy, wedi'i gymedroli ar gyfer unrhyw fath o restriad - eiddo, gwestai, meddygon, gwasanaethau, a mwy.",
 
     items: {
       title: "Eitemau",
@@ -11017,7 +11017,7 @@ export default {
     categories: {
       title: "Categorïau",
       sub_title:
-        "term eich term gyda categorïau a term. hwn term term a term.",
+        "Trefnwch eich cyfeiriadur gyda chategorïau ac is-gategorïau. Mae hyn yn gwella llywio a hidlo.",
 
       empty_title: "na categorïau term",
       empty_subtitle:
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "term",
       sub_title:
-        "term term eitemau a term term term term: term, term, gwrthod, term, neu term i yn aros.",
+        "Adolygu eitemau a gyflwynwyd a phenderfynu beth sy'n digwydd nesaf: cymeradwyo, cyhoeddi, gwrthod, archifo, neu ailosod i yr arfaeth.",
 
       empty_title: "na eitemau i term",
       empty_subtitle:
-        "term defnyddwyr term newydd eitemau, term bydd term term ar gyfer term.",
+        "Pan fydd defnyddwyr yn cyflwyno eitemau newydd, byddant yn ymddangos yma i'w safoni.",
 
       review_title: "term eitem",
       approve_publish: "term & term",
@@ -11244,14 +11244,14 @@ export default {
       subtitle: "dyluniad term cwsmeriaid chwilio eich rhestriad. term term chwilio a term term o eich personol ffurflen meysydd.",
 
       location_title: "lleoliad chwilio",
-      location_subtitle: "term cwsmeriaid i term un lleoliad a term term term term un term term.",
+      location_subtitle: "Caniatáu i gwsmeriaid ddewis lleoliad a dod o hyd i ganlyniadau cyfagos o fewn radiws ffurfweddadwy.",
       location_enabled_true: "lleoliad term yw wedi galluogi. cwsmeriaid gall chwilio gan pellter.",
       location_enabled_false: "lleoliad term yw wedi analluogi. term bydd nid bod term gan pellter.",
 
       radius_default: "rhagosodedig term (term)",
-      radius_default_hint: "term term y cwsmer dewis un lleoliad term term nid term un term.",
+      radius_default_hint: "Defnyddir pan fydd y cwsmer yn dewis lleoliad ond nid yw'n dewis radiws.",
       radius_max: "uchafswm term (term)",
-      radius_max_hint: "y term term bydd bod term i hwn term.",
+      radius_max_hint: "Bydd radiws blaen y siop yn cael ei glampio i'r gwerth hwn.",
       radius_options: "term opsiynau (term)",
       radius_options_hint: "term term gall bod wedi dangos fel term opsiynau yn y term UI.",
 
@@ -11916,8 +11916,8 @@ export default {
         "personol term ar gyfer term term.",
         "un term term opsiwn.",
         "na terfynau ar term, ar gyfer y term defnyddiwr.",
-        "un term term ar gyfer term, term i 4 aelodau.",
-        "dyluniad ar gyfer term term term term.",
+        "Cynllun arbennig i deuluoedd, hyd at 4 aelod.",
+        "Wedi'i gynllunio ar gyfer gweithwyr proffesiynol sy'n chwilio am offer uwch.",
       ],
     },
 
@@ -11980,12 +11980,12 @@ export default {
         "term chi ar gyfer term term siop.",
         "ni term chi term eich newydd term!",
         "cadw eich anfoneb ar gyfer term term.",
-        "term term term ar gyfer mwy term cynhyrchion.",
+        "Ymwelwch â ni eto am fwy o gynhyrchion gwych.",
         "term term ar gyfer term cynnig.",
         "term chi ar gyfer bod un term cwsmer.",
-        "term term i term os chi term term.",
+        "Rydyn ni yma i helpu os oes angen cymorth arnoch chi.",
         "eich term term term term.",
-        "term un term gostyngiad ar eich term term.",
+        "Mwynhewch ostyngiad arbennig ar eich pryniant nesaf.",
         "term term un term term!",
         "term chi ar gyfer eich term yn term.",
         "term term i eich term.",
@@ -12058,7 +12058,7 @@ export default {
         "term gwasanaethau term",
         "term term gwasanaeth term",
         "term term term term",
-        "term term term ar gyfer busnes term",
+        "Contract Ymgynghoriaeth Arbenigol ar gyfer Perchnogion Busnes",
         "gwasanaeth term ar gyfer marchnad ffurfweddiad",
         "siop term a ffurfweddiad gwasanaethau term",
         "POD gwasanaeth term term",
@@ -12119,7 +12119,7 @@ export default {
         "term arian yn ôl ar term term!",
         "term term ar gyfer eich term.",
         "term arian yn ôl cynnig term ar gyfer chi.",
-        "term term term gyda arian yn ôl term.",
+        "Mwynhewch arbedion gwych gyda gwobrau arian yn ôl.",
         "term arian yn ôl ar pob eich term eitemau.",
         "cadw mwy gyda term arian yn ôl term.",
         "term eich arian yn ôl ar term dyddiau!",
@@ -12127,7 +12127,7 @@ export default {
         "term y arian yn ôl term heddiw!",
         "VIP aelodau term term arian yn ôl.",
         "term! terfyn amser arian yn ôl cynnig.",
-        "term term arian yn ôl term term nawr.",
+        "Ymunwch â'n Clwb Gwobrau Cashback nawr.",
         "y mwy chi siop, y mwy chi cadw.",
         "term y term arian yn ôl term.",
         "term y term arian yn ôl term term.",
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "term i {shop} - term term term term o eitemau",
-        "{shop} - eich term term ar gyfer term term a term gwasanaeth",
-        "term term a term dim ond yn {shop} - term y term!",
-        "term i term {shop}'term term i term a term term",
-        "term un term o y {shop} term - term i term term ar gyfer diweddaru",
-        "term term term term a term term yn {shop}",
-        "term term a term term ar gyfer pob term yn {shop}",
-        "term cynnig a term term yn {shop} - term term!",
-        "{shop}'term term term term a cynnyrch term - siop gyda term",
-        "term term i {shop} - ni term i term un term term term",
+        "Croeso i {shop} - Archwiliwch Ein Hystod Nodedig o Eitemau",
+        "{shop} - Eich Ffynhonnell Derfynol ar gyfer Nwyddau o Ansawdd a Gwasanaeth Eithriadol",
+        "Bargeinion Unigryw ac Arbedion yn Unig ar {shop} - Bachwch y Cyfle!",
+        "Dod i Adnabod {shop}'s Ymroddiad i Eco-gyfeillgarwch ac Arferion Moesegol",
+        "Dod yn Rhan o'r Teulu {shop} - Tanysgrifiwch i'n Cylchlythyr i gael Diweddariadau",
+        "Plymiwch i'r Dewisiadau Gorau a Nwyddau o Radd Uchel yn {shop}",
+        "Cyflwyno Syniadau ac Awgrymiadau Creadigol ar gyfer Pob Digwyddiad yn {shop}",
+        "Cynigion heb eu hail a Chynigion Arbennig Amser-sensitif yn {shop} - Gweithredwch yn Gyflym!",
+        "{shop} Awgrymiadau Prynu Cynhwysfawr a Gwerthusiadau Cynnyrch - Siop â Hyder",
+        "Estyn Allan i {shop} - Rydym yn Ymdrechu i Gyflwyno Profiad Siopa Heb ei Gyfateb",
       ],
     },
 
@@ -12158,22 +12158,22 @@ export default {
     cross_selling: {
       message: [
         "term eich term, term y gosod!",
-        "cadw term gyda term term term!",
+        "Arbedwch yn fawr gyda'n bargeinion bwndel!",
         "term term term term term!",
         "term eich term, term term!",
         "term term term, term term!",
         "term eitemau, term gostyngiad!",
-        "term mwy, term term – term term!",
+        "Mynnwch fwy, gwariwch lai - bwndelu i fyny!",
         "term cynnig: term cynhyrchion!",
         "term eich term, term term!",
-        "term term term term, cadw nawr!",
-        "term hyn term ar gyfer y term term!",
+        "Darganfyddwch ein combos wedi'u curadu, arbedwch nawr!",
+        "Parau ar gyfer y combo eithaf!",
         "siop term, term a cadw!",
         "term y term, term y term!",
         "eich term term yw term – siop nawr!",
         "term term prisio term ar gyfer chi!",
-        "term eich term gyda term term!",
-        "term eich term gyda term term!",
+        "Gwnewch y mwyaf o'ch arbedion gyda'n combos!",
+        "Gwellwch eich casgliad gyda'r dewisiadau hyn!",
         "term ar gyfer chi: term a cadw!",
         "y term term ar gyfer un term term!",
         "term eich term ar gyfer ychwanegol term!",
@@ -12236,7 +12236,7 @@ export default {
 
         "term {buyer_name}, term term i term chi hynny eich archeb #{order_id} mae ganddo wedi bod term. os chi cael term term, os gwelwch yn dda term term.",
 
-        "term {buyer_name}, term term un term gyda eich archeb #{order_id}. ni term ar gyfer y term a yw term i term hyn fel cyn bo hir fel term.",
+        "Annwyl {buyer_name}, rydym yn profi oedi gyda'ch archeb #{order_id}. Ymddiheurwn am yr anghyfleustra ac rydym yn gweithio i'w ddatrys cyn gynted â phosibl.",
 
         "term {buyer_name}, eich archeb #{order_id} yw term ar term. os gwelwch yn dda term eich cyfrif neu term term ar gyfer term manylion.",
 
@@ -12246,7 +12246,7 @@ export default {
 
         "term {buyer_name}, eich ad-daliad ar gyfer archeb #{order_id} mae ganddo wedi bod term. chi term gweld y term yn eich cyfrif cyn bo hir.",
 
-        "term {buyer_name}, y eitem o eich archeb #{order_id} yw term yn term! chi gall term un newydd archeb nawr os term term term.",
+        "Helo {buyer_name}, mae'r eitem o'ch archeb #{order_id} yn ôl mewn stoc! Gallwch osod archeb newydd nawr os oes gennych ddiddordeb o hyd.",
       ],
     },
 
@@ -12267,8 +12267,8 @@ export default {
         "term",
       ],
       description: [
-        "term ar gyfer term eitemau term maint, lliw, a term.",
-        "term ar gyfer term term fel term, term, a term.",
+        "Priodoleddau ar gyfer eitemau dillad fel maint, lliw a ffabrig.",
+        "Manylebau ar gyfer teclynnau fel brand, model, a nodweddion.",
         "term, maint, a term o term.",
         "manylion ar gyfer term, term, a term cynhyrchion.",
         "Material, term, a dyluniad arddull.",

@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Nzira dzekuwana vatengi",
         subtitle:
-          "chinhu bhizinesi chinhu chinhu chirevo chinhu chinhu mutengi kuwana zviteshi",
+          "Bhizinesi rako riri kukura. Heino rondedzero yematanho ekutora vatengi vako.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "chakabatanidzwa pepa",
         tooltip:
-          "chinhu zvigadzirwa chinhu chinhu chitoro chinhu chakabatanidzwa chinhu chinhu Google pepa chinhu Google chinhu",
+          "Zvigadzirwa zviri muchitoro ichi zvakabatana neGoogle Sheet muGoogle Drive.",
       },
       show_deletes: {
         false_title: "Vanza zvakadzimwa",
@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Modhi yekudhonza nekudonhedza",
         false_description:
-          "chinhu zvigadzirwa chinhu chinhu zvikamu chinhu chinhu",
+          "Wona zvigadzirwa zvakarongwa nezvikamu uye zvidiki.",
         true_title: "Modhi yetafura",
         true_description: "chinhu zvigadzirwa chinhu chinhu ",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS yezvigadzirwa",
         subtitle:
-          "chinhu chinhu RSS chinhu chinhu rondedzero chinhu zvose zvigadzirwa",
+          "Shandisa iyi RSS feed kuchengetedza runyorwa rwezvese zvigadzirwa.",
       },
       api_dialog: {
         title: "API yezvigadzirwa",
         subtitle:
-          "chinhu chinhu API chinhu chinhu chigadzirwa rondedzero chinhu chinhu API chinhu chinhu zvigadzirwa Kubva chinhu chitoro, chinhu chinhu chigadzirwa Kunyora chinhu chinhu chinhu",
+          "Shandisa iyi API feed kuchengetedza chigadzirwa chako chinyorwa chiri kuenderana. Inopa API inowanikwa pachena kuti utore zvigadzirwa kubva kuchitoro chako, ichiita kuti ive yakanakira kunyorwa kwechigadzirwa uye mawebhusaiti ekuenzanisa.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "kutumira kurambidzwa",
         subtitle:
-          "chinhu chinhu chinhu kurambidzwa chinhu chinhu Vatengi chinhu chinhu chinhu kutumira chinhu chinhu wana kutenga Kubva chinhu!",
+          "Iwe unogona kuita zvirambidzo kuti uve nechokwadi chekuti vatengi vari mukati menzvimbo dzakatarwa dzekutumira vanogona kutenga kubva kwauri!",
         no_enable_shipping_error:
-          "aihwa chinhu chinhu chinhu Kubva chinhu chinhu aihwa yakagoneswa kutumira nzira!",
+          "Hapana anogona kutenga kubva kwauri nekuti hauna inogoneswa nzira yekutumira!",
         customer_must_select_a_shipping_msg:
           "mutengi chinhu Sarudza chinhu kutumira nzira chinhu chinhu odha",
         customer_can_order_without_shipping_method_msg:
-          "mutengi chinhu chinhu chinhu odha chinhu chinhu aihwa kutumira nzira rutsigiro chinhu chinhu Sarudza Nzvimbo",
+          "Mutengi anogona kuisa odha kunyangwe pasina nzira yekutumira inotsigirwa yenzvimbo yakasarudzwa.",
         inputs: {
           restriction: {
             false_description:
-              "Vatengi chinhu chinhu chinhu odha chinhu chinhu aihwa chinhu kutumira nzira chinhu chinhu Sarudza",
+              "Vatengi vanogona kuramba vachiisa maodha kunyangwe pasina nzira yekutumira yakasarudzwa.",
             false_title: "Gamuchira zvose odha",
             true_title: "chinhu Gamuchira odha",
             true_description:
-              "Vatengi chinhu chinhu kutumira chinhu chinhu odha chinhu chinhu chinhu kutenga",
+              "Vatengi vanosungirwa kusarudza chero yekutumira kana yekutora sarudzo kuti vapedze kutenga kwavo.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Seta dura rako, chitoro, kana kwakabva bhizinesi rako. Izvo zvakakosha kuve mune yekutumira mutengo kuverengera uye Checkout maitiro.",
       no_multi_warehouse_support_message:
-        "chinhu chinhu, chinhu chinhu Inowanikwa chinhu chinhu Zvitoro",
+        "Kuti zvive nyore, chimiro ichi hachiwanikwe muzvitoro zvakajairika.",
       size_unit: {
         title: "chinhu yuniti",
         subtitle: "Chiyero chinoshandiswa kureba, hupamhi uye urefu.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Chengetedza Active Apps",
         subtitle:
-          "Selldone Ronga zvikumbiro zvebhizinesi rako.",
+          "Ziva kureruka kwekutonga bhizinesi rako zvikumbiro neSelldone App Store. Yedu platform inopa yakazara suite yezvishandiso zvakagadzirirwa kukwirisa bhizinesi rako mashandiro. Kubva pakugadziridza manejimendi mhinduro kusvika kune budiriro-inosimudzira maapuro, Selldone inopa isina musono ruzivo kumabhizinesi ari kutsvaga kugona uye kukura.",
         all: "zvose",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "chinhu",
           subtitle:
-            "chinhu chinhu chinhu, chinhu mifananidzo chinhu chinhu chinhu Webhusaiti chinhu chinhu chinhu, chinhu, chinhu Vadivelu Comedy Mobile app chinhu",
+            "Favicons zvidiki, zvidhori mifananidzo inomiririra webhusaiti mumabrowser tab, mabhukimaki, uye nharembozha app interface.",
         },
       },
 
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "chinhu chinhu chikamu chinhu musoro chinhu chinhu Kunyora",
+          "Gadzirisa chikamu uye zita rinoratidzwa mune yako rondedzero.",
       },
       unit: {
         subtitle:
-          "chinhu chinhu mitengo chinhu chinhu chigadzirwa peji",
+          "Iwe unogona kugadzirisa kuratidzwa kwemitengo uye kudana-ku-chiito zvinhu pane peji yechigadzirwa.",
       },
       custom_pricing: {
         title: "yakagadzirirwa mitengo fomu",
         subtitle:
-          "chinhu chinhu Gadzira chinhu chinhu (chinhu mitengo chinopinda fomu) chinhu chinhu chigadzirwa, chinhu chinhu Vatengi chinhu Sarudza chinhu chinhu chinopinda fomu",
+          "Iwe unogona kugadzira kana kugovera kukosha (fomu rekuisa mitengo) kune chigadzirwa, uye vatengi vako vanogona kusarudza pakati pezvakasiyana kana kugadzirisa chako chaunotengesa neine intuitive yekuisa fomu.",
         valuation_need_saved_product_message:
-          "chinhu Sevha chinhu chigadzirwa chinhu, chinhu chinhu ",
+          "Ndapota chengetedza chigadzirwa kutanga, uye ipapo unogona kugovera muenzaniso wekuenzanisa.",
         assign_valuation_message:
           "chinhu chinhu chigadzirwa",
         edit_pricing_action: "Rongedza mitengo fomu",
@@ -1512,21 +1512,21 @@ export default {
       },
       external: {
         not_available_message:
-          "chinhu chinhu Inowanikwa chinhu kambani & chinhu rezinesi",
+          "Kuwedzera kuita kunowanikwa neKambani & Enterprise marezinesi.",
         available_message: "chinhu chinhu Wedzera chinhu chinhu ",
         input_label: "chinhu chinhu ",
       },
       warehouse: {
         subtitle:
-          "chinhu ruzivo chinhu chinhu Imba yekuchengetera Kutonga chinhu chinhu chigadzirwa",
+          "Ruzivo urwu runoshandiswa nearehouse management system uye inoshanda kuzivisa pasi rose chigadzirwa.",
       },
       gtin: {
-        hint: "rutsigiro chinhu chinhu UPC (chinhu chinhu, 12 chinhu), EAN (chinhu, 13 chinhu), JAN (chinhu, 8 chinhu 13 chinhu), ISBN (chinhu, 13 chinhu).",
+        hint: "Tsika dzinotsigirwa dzinoti UPC (North America, manhamba gumi nemaviri), EAN (Europe, manhamba gumi nematatu), JAN (Japan, 8 kana manhamba gumi nematatu), ISBN (mabhuku, manhamba gumi nematatu).",
         label: "zvigadzirwa chinhu chinhu ",
         placeholder: "chinhu chinhu (sarudzo)",
       },
       hsn: {
-        hint: "HSN, chinhu chinhu , chinhu chinhu zvigadzirwa",
+        hint: "HSN, kana Harmonized System yeNomenclature, inzira yepasirese yakamisikidzwa yekuisa muzvikamu zvezvinhu uye zvigadzirwa.",
         placeholder: "6~16 chinhu HSN kodhi (sarudzo)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "chigadzirwa chinhu chinhu chinhu chitoro",
         message: "chinhu chinhu chigadzirwa",
         subtitle:
-          "chinhu chinhu Vatengi chinhu chinhu chigadzirwa chinhu chipo",
+          "Zivisa vatengi vako nezvemamiriro uye mhando yechigadzirwa chauri kupa.",
       },
       brand: {
         label: "chinhu",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "chinhu chinhu waranti chinhu chigadzirwa chimiro, chinhu chinhu ruzivo chinhu waranti chinhu chinhu mutengi chinhu rubatsiro chinhu chinhu Nguva chinhu chinhu chinhu zvigadzirwa chinhu chinhu Akadzoka chinhu kutenga",
+          "Seta waranti uye chimiro chechigadzirwa, sezvo ruzivo urwu rwune waranti rucharatidzwa kune mutengi uye runobatsira kumisa nguva mukati umo zvigadzirwa zvinogona kudzoserwa mushure mekutenga.",
 
         label: "waranti",
         placeholder: "Ndarama 24 Mwedzi waranti (sarudzo)",
@@ -1550,17 +1550,17 @@ export default {
       status: {
         title: "chimiro",
         subtitle:
-          "chinhu zvigadzirwa chimiro chinhu chinhu wana chinhu chigadzirwa chinhu, chinhu chinhu chinhu chimiro chinhu 'kusashanda",
+          "Mamiriro echigadzirwa anoratidza kuwanikwa kwacho pamhepo uye muchitoro. Kugadzira chigadzirwa dhizaini, ingochinja chimiro chayo kuti 'Isingashande'..",
       },
       profiles: {
         title: "maprofile",
         subtitle:
-          "chinhu chinhu chinhu waranti, Dzoka mutemo, kutumira, chinhu gwara chinhu chinhu chigadzirwa chinhu chinhu chitsva chinhu chinhu chinhu chigadzirwa peji",
+          "Iwe unogona kutsanangura waranti, kudzorera mutemo, kutumira, uye kutungamira uye kuvapa kune ichi chigadzirwa. Icharatidzwa sematebhu matsva pane peji yechigadzirwa.",
       },
       shortcuts: {
         title: "chinhu chigadzirwa chinhu chinhu zvikamu",
         subtitle:
-          "chinhu chinhu rondedzero chinhu chigadzirwa chinhu chinhu zvikamu chinhu chinhu chikamu chinhu chinhu chigadzirwa > Rongedza > chikamu chinhu, chinhu chinhu 'chinhu chinhu , chinhu chinhu chigadzirwa chinhu chinhu zvikamu",
+          "Ichi chimiro chinokutendera kuti unyore chigadzirwa muzvikamu zvakawanda uchichengeta kuiswa kwacho muchikamu chekutanga chakaiswa pasi peChigadzirwa> Rongedza> Chikamu. Chaizvoizvo, inoshanda zvakafanana kugadzira 'mashortcuts' mumasevhisi masisitimu, zvichiita kuti chigadzirwa chiratidzike mune mamwe akatsanangurwa zvikamu.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Zvidimbu zvehunyanzvi",
       subtitle:
-        "chinhu chigadzirwa Zvinotsanangurwa chinhu chinhu ruzivo chinhu chinhu Vatengi chinhu chinhu chikamu chinhu sefa chinhu",
+        "Isa zvinorehwa nechigadzirwa pano. Ruzivo urwu rucharatidzwa kune vatengi uye zvakare runogona kushandiswa muchikamu chehungwaru kusefa system.",
       manual: {
         title: "chinhu",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "chinhu chinhu Pinza chinhu Zvinotsanangurwa chinhu chinhu zvigadzirwa",
+          "Unogona kuunza tekinoroji yakatarwa yezvigadzirwa zvakafanana.",
         action_title: "Pinza",
         action_subtitle: "chinhu tsanangudzo Kubva chinhu chigadzirwa",
       },
       ai: {
         title: "AI",
         subtitle:
-          "chinhu chinhu chinhu Gadzira chigadzirwa Zvinotsanangurwa chinhu chinhu chinhu zvigadzirwa chinhu chinhu fomu",
+          "Iwe unogona kugadzira otomatiki maratidziro echigadzirwa nekuendesa data raw yechigadzirwa mune zvinyorwa.",
         action_title: "otomatiki chinhu chinhu AI",
         action_subtitle: "Gadzira chigadzirwa Zvinotsanangurwa chinhu chinhu chinhu",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "chigadzirwa kodhi: chinhu. ..",
         spec_view_title: "Zvinotsanangurwa zvechigadzirwa chakasarudzwa",
         spec_view_subtitle:
-          "chinhu Zvinotsanangurwa chinhu chinhu Pinza Kubva chinhu chinhu chigadzirwa",
+          "Izvo zvakatemwa zvakaunzwa kubva kune yakasarudzwa chigadzirwa.",
         set_spec_action: "chinhu chinhu Zvinotsanangurwa",
       },
       notifications: {
@@ -1691,7 +1691,7 @@ export default {
         prompt: {
           title: "chigadzirwa Muono wakazara",
           subtitle:
-            "chinhu chinhu Tsanangudzo chinhu chinhu chigadzirwa, chinhu chinhu ruzivo chinhu chinhu chigadzirwa Zvinotsanangurwa",
+            "Ndokumbira upe tsananguro pfupi uye yakajeka yechigadzirwa, uchiratidzira maficha acho akakosha uye ruzivo. Ruzivo urwu ruchashandiswa kugadzira otomatiki zvigadzirwa.",
         },
         generated_spec: {
           title: "chinhuchinhu Zvinotsanangurwa",
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "chinhu Zvinotsanangurwa",
             subtitle:
-              "chinhu chinhu chinhu Gadzira chigadzirwa Zvinotsanangurwa Kubva chinhu chinhu Muono wakazara",
+              "Dzvanya kuti ugadzire otomatiki maratidziro echigadzirwa kubva pane wakapihwa muchidimbu.",
           },
           add_generated_spec: "Wedzera chinhu Zvinotsanangurwa",
         },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "chinhu chinhu chinhu, chinhu chinhu chigadzirwa mitengo chinhu chinhu chinhu Kunyora mutengo, chinhu chinhu chinhu mutengo chinhu chinhu ",
+          "Mumusika, mutengo wekutanga unoratidzwa ndiwo mutengo wekunyora, nepo mutengo chaiwo unotarwa zvichibva pamarekodhi ehukama hwemutengesi.",
         subscription:
-          "chinhu kunyoresa, chinhu chinhu Kunyora mutengo chinhu chinhu, chinhu chinhu Sarudza Kunyoresa Ronga",
+          "Pakunyoreswa, mutengo wekunyora chete ndiwo unoratidzwa, nepo mutengo chaiwo uchizotemwa zvichibva pachirongwa chakasarudzwa chekunyorera.",
         service:
-          "chinhu chinhu zvigadzirwa, chinhu rondedzero mitengo chinhu chinhu , chinhu chinhu sevhisi chinhu chinhu sevhisi mutengo chinhu chinhu mutengi chinhu chinhu chinhu odha (chinhu Buda).",
-        file: "chinhu chinhu rondedzero chinhu chinhu mutengo chinhu chinhu faira, chinhu Vatengi chinhu chinhu chinhu odha chinhu chinhu kupinda chinhu chinhu mafaira",
+          "Zvezvigadzirwa zvesevhisi, mitengo yakanyorwa ndeyezvinangwa zvekuratidzira chete, ichipa mutengo unofungidzirwa wesevhisi. Mutengo chaiwo webasa uchatemwa newe kana mutengi aisa odha yavo (pakubuda).",
+        file: "Izvi zvinoreva mutengo wakanyorwa uye chaiwo wefaira, iyo vatengi vanofanira kubhadhara kuitira kuti vawane mafaera.",
         default:
-          "chinhu chinhu zvigadzirwa rondedzero mutengo chinhu chinhu akaundi chinhu mutengo chinhu chinhu mitengo",
+          "Izvi zvinoreva mutengo wakanyorwa wechigadzirwa uye zvakare zvinotarisisa mutengo wechero musiyano usina mitengo yakasiyana.",
       },
       extra_pricings: {
         title: "Wedzera chinhu mitengo",
-        subtitle: "chinhu chinhu mitengo chinhu chinhu kutenga huwandu",
+        subtitle: "Shandisa dynamic pricing inoenderana nekutenga huwandu.",
       },
 
       vendor: {
         title: "mutengesi mitengo",
         subtitle:
-          "chinhu mutengo chinhu chinhu zvigadzirwa Kunyora chinhu chinhu chinhu mutengesi mutengo chinhu chinhu chigadzirwa > vatengesi chinhu",
+          "Mutengo uyu ucharatidzwa chete mune zvigadzirwa. Unogona kuseta mutengo wemutengesi muChigadzirwa> Vatengesi tebhu.",
         manage_vendors: "Tonga vatengesi",
         vendor_product_pricing_link:
-          "chinhu vatengesi chigadzirwa mitengo chinhu Yakabatanidzwa chinhu chinhu Kunyora mutengo chinhu chinhu chinhu mutengesi zvigadzirwa chinhu chinhu mitengo (chinhu chinhu chinhu mutengo chinhu chinhu chikuru chigadzirwa). chinhu mutengo chinhu chinhu mutengo, chinhu chinhu vatengesi mutengo chinhu chinhu mitengo chinhu chinhu ",
+          "Mitengo yezvigadzirwa zvemutengesi yakabatana. Kuchinja mutengo werondedzero pano kuchakanganisa zvigadzirwa zvevatengesi zvisina mutsauko kana izvo zvine akasiyana-siyana asina mitengo yavo (uchishandisa mutengo wakafanana nechigadzirwa chikuru). Mutengo uyu uchatorwa semutengo wepamusika, uye mutengo wemutengesi uchaiswa zvichienderana nemhando yemitengo kana purofiti yepamusika yapfuura.",
         vendor_variant_pricing_link:
-          "chinhu chinhu chinhu mutengo chinhu chinhu mitengo chinhu mutengesi zvigadzirwa chinhu chinhu mutengo chinhu chinhu mutengo, chinhu chinhu vatengesi mutengo chinhu chinhu mitengo chinhu chinhu ",
+          "Kuchinja mutengo wakasiyana pano kuchakanganisa mitengo yezvigadzirwa zvevatengesi zvine musiyano wakafanana. Mutengo uyu uchaonekwa semutengo wepamusika, uye mutengo wemutengesi uchaiswa zvinoenderana nemhando yemitengo kana purofiti yepamusika yapfuura.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Iyi meseji icharatidzwa kumutengi paunenge uchitenga zvigadzirwa.",
       inputs_form: "Chimiro cheruzivo (zvekuisa)",
       inputs_hint:
-        "chinhu chinhu fomu chinhu chinhu chinhu Kubva chinhu Vatengi chinhu chinhu odha",
+        "Iwe une sarudzo yekuseta yakasarudzika fomu kuti uunganidze ruzivo kubva kune vatengi vako kana vagadzirira kuisa odha.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "odha Miganhu",
         subtitle:
-          "chinhu chinhu shoma chinhu zhinji chinhu chinhu chinhu huwandu chinhu chinhu odha, chinhu chinhu ",
+          "Kana uri mutengesi weholesesa kana paine hushoma kana hunogumira pahuwandu hwechinhu ichi pahodha yega yega, unogona kuzvitsanangura pano.",
         no_limit: "Hapana muganhu",
         minimum_purchase_quantity: "shoma kutenga huwandu",
         maximum_purchase_quantity: "zhinji kutenga huwandu",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Bvisa chigadzirwa",
       message: `Unoda <b>kudzima {product_title}</b> ?`,
-      tips: "chinhu chinhu chinhu Dzima chinhu chigadzirwa, chinhu chinhu chitoro > zvigadzirwa, chinhu Ratidza Dzadzimwa zvinhu, chinhu chinhu chigadzirwa, chinhu Sarudza chinhu",
+      tips: "Kana ukadzima chigadzirwa netsaona, unogona kuchidzosera nekuenda kuShopu yako> Zvigadzirwa, uchigonesa Ratidza Zvakadzimwa Zvinhu, wobva wadzvanya-kurudyi pachigadzirwa, uye wosarudza Dzosera.",
     },
   },
 
@@ -1860,17 +1860,17 @@ export default {
   extra_pricing_add_dialog: {
     title: "chinhu mitengo chinhu chinhu {min}",
     subtitle:
-      "chinhu chinhu odha chinhu Kukosha chinhu mutengo chinhu chinhu chinopinda chinhu shoma huwandu chinhu chinhu chinhu mitengo chinhu chinhu chinhu",
+      "Iyo sisitimu inogadzirisa otomatiki kurongeka uye kukosha kwekuverenga mutengo. Ndapota isai huwandu hunodiwa kuti mutengo uyu utange kushanda.",
     min_quantity: "shoma huwandu",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "stock chinhu chinhu zvigadzirwa chinhu chinhu , chinhu chinhu ",
+        "Inventory yezvinodonhedza zvigadzirwa inoiswa nevatengesi, uye haigone kugadziridzwa pano.",
       marketplace:
-        "chinhu chinhu chigadzirwa stock chinhu chinhu Wedzera chinhu chinhu zvose vatengesi chinhu chinhu ",
-      default: "chinhu chinhu zvigadzirwa stock chinhu chinhu",
+        "Huwandu hwechigadzirwa mumusika hunotemerwa nekuwedzera zvinyorwa zvevose vatengesi. Iwe haugone kuzvigadzirisa pano.",
+      default: "Taurai nhamba yezvigadzirwa pano.",
     },
     menu: {
       add_bulk: {
@@ -1879,7 +1879,7 @@ export default {
       },
       edit_property_set: {
         title: "chinhu chinhu chinhu",
-        subtitle: "chinhu chinhu chinhu, chinhu chinhu odha",
+        subtitle: "Shandura mazita akasiyana, zvidhori uye maodha.",
       },
     },
   },
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google chigadzirwa chikamu kodhi",
-    hint: "chinhu chinhu chikamu chinhu chinhu chigadzirwa chinhu chinhu chigadzirwa chinhu",
+    hint: "Inomiririra chikamu chechigadzirwa chako zvinoenderana neGoogle's product taxonomy.",
     placeholder: "chinhu chigadzirwa chinhu sevhisi chikamu (sarudzo)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "waranti",
-      desc: "chinhu waranti chinhu chinhu chigadzirwa chinhu chinhu ",
+      desc: "Warranty chikamu chekondirakiti apo mugadziri anovimbisa kugadzirisa kana kutsiva chigadzirwa mukati menguva yakatarwa. Kuzvipira uku kunogona kuwedzera kunyange kune vatengi vasina chibvumirano chakananga nemugadziri.",
     },
     RETURN_POLICY: {
       title: "Dzoka mutemo",
-      desc: "Dzoka chinhu chinhu chinhu Vatengi chinhu Dzoka chinhu chinhu zvinhu, chinhu chinhu chinhu kudzosa, chinhu chinhu kudzosa",
+      desc: "Return policy inotsanangura kuti vatengi vanogona kudzorera sei kana kuchinjanisa zvinhu zvisingadiwe. Vanotsanangura zvinhu zvakakodzera, zvikonzero zvinogamuchirika zvekudzoka, uye nguva yakatarwa yekudzorera.",
     },
     GUIDE: {
       title: "gwara",
-      desc: "chinhu gwara chinhu chinhu gwara chinhu chinhu gwara chinhu chinhu zvigadzirwa",
+      desc: "Gwaro rinogona kusanganisira saizi yechati yembatya kana gwara rekusarudza madhaimondi. Izvo zvakakosha kuti madhairekitori aenderane uye anoshanda pane akawanda zvigadzirwa.",
     },
     SHIPPING: {
       title: "kutumira",
-      desc: "chinhu kutumira mutemo chinhu chinhu kutumira chinhu chinhu odha, chinhu kutumira chinhu, nzira, chinhu chinhu kuendesa Nguva",
+      desc: "Gwaro rekutumira rinotsanangura zvinhu zvakakosha zvekutumira maodha epamhepo, kusanganisira mutengo wekutumira, nzira, uye nguva dzinofungidzirwa dzekutumira.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "chinhu",
       dedicated: "chinhu",
 
-      subscription: "chinhu chinhu chinhu Mutero chinhu chinhu chinhu 💳 Kubhadhara chinhu chinhu",
+      subscription: "Tinogona kuisa mutero chete padanho rekugadzira mubhadharo.",
       is_disabled: "chinhu Mutero profile chinhu yakadzimwa! (⚠️chinhu)",
       shipping: "kutumira",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "Mutero profile",
       subtitle:
-        "chinhu chinhu Mutero chinhu chinhu chinhu chigadzirwa chinhu chinhu Mutero profile chinhu chinhu chigadzirwa, chinhu chinhu chitoro Mutero chinhu chinhu ",
+        "Iwe unogona kupa mimwe mitemo yemutero kune chigadzirwa. Kana chimiro chemutero chikasasarudzirwa chigadzirwa, mutemo wemutero wechitoro unozoshandiswa.",
 
       action_manage: "Tonga Mutero",
       action_manage_sub: "chitoro > chinhu > Mutero",
 
       subscription_tips:
-        "chinhu chinhu Sarudza chinhu Mutero profile chinhu Kunyoresa chigadzirwa, chinhu Gadziridza<code>Mutero kodhi</code> chinhu chinhu chinhu modhi chinhu chinhu 💳 Kubhadhara sevhisi chinhu chinhu Sarudza Mutero profile chinhu chinhu chinhu mutengo chinhu chinhu mutero chinhu chinhu chinhu mutero chinhu chinhu <code>chinhu</code> chinhu <code>chinhu</code>. chinhu chinhu , chinhu chinhu <br /><br /><b>chinhu!</b> chinhu chinhu chinhu Mutero profile, chinhu chinhu mitengo Zvirongwa chinhu chinhu chigadzirwa > stock chinhu chinhu Sevha chinhu chinhu ",
+        "Kana ukasarudza nhoroondo yemutero yekutenga kwako, tinogadziridza<code>kodhi yemutero</code> uye toisa modhi inosanganisirwa/inosarudzika pamuridzi wesevhisi yekubhadhara. Mutero wakasarudzwa unotsanangura kana mutengo uchinzi unosanganisira mutero kana kuti usingabatanidzi mutero. Imwe ye<code>inosanganisira</code> kana <code>yakasarirwa</code>. Kana zvatsanangurwa sezvingave zvese zvese kana zvakasarudzika, hazvigone kuchinjwa.<br /><br /><b>Zvakakosha!</b> Mushure mekuchinja nhoroondo yemutero, unofanira kubaya zvirongwa zvemitengo paChigadzirwa > Inventory tab wobaya bhatani reSevha kuti ushandise shanduko.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "chinhu mutengo chinhu huwandu chinhu chinhu chigadzirwa chinhu chinhu mutengesi chinhu chinhu ",
+        "Mutengo uye huwandu hwechigadzirwa ichi chakaiswa nemumwe mutengesi wachiri.",
     },
     vendors: {
       subtitle:
-        "chinhu chinhu rondedzero chinhu chinhu chigadzirwa chinhu huwandu chinhu mutengo chinhu chinhu ",
+        "Heino rondedzero yevanopa chigadzirwa. Huwandu uye mutengo zvichaiswa nevashambadziri.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "mutengesi chinhu",
-      subtitle: "chinhu ruzivo chinhu chinhu chinhu Vatengi chinhu",
+      subtitle: "Ruzivo urwu runoratidzwa kune vatengi pachena.",
       action_sub_caption: "Veruzhinji zvigadzirwa Kunyora peji",
       action_see_listing_page: "ona Kunyora peji",
       send_invitation_email: "chinhu chinhu email",
@@ -2002,23 +2002,23 @@ export default {
 
     profiles: {
       title: "maprofile",
-      subtitle: "chinhu chinhu chinhu Nzvimbo chinhu chinhu mutengesi",
+      subtitle: "Iwe unogona kugovera nzvimbo kune uyu mutengesi.",
     },
     map: {
       no_map_message:
-        "chinhu chinhu Nzvimbo chinhu chinhu mutengesi chinhu chinhu mutengesi",
+        "Ipa nzvimbo kune mutengesi kana iri nzvimbo-yakavakirwa mutengesi.",
     },
     page: {
       title: "yakagadzirirwa peji",
       subtitle:
-        "chinhu chinhu yakagadzirirwa Kudzika peji chinhu chinhu mutengesi, chinhu chinhu chinongedzo chinhu chinhu chinhu peji",
+        "Seta peji rekumhara remutengesi, uchivapa chinongedzo chakasiyana kune yavo yakatsaurirwa peji.",
       action_set_page: "ona Veruzhinji peji",
       action_sub_caption: "yakagadzirirwa Kudzika peji",
       vendor_has_landing_msg: "mutengesi chinhu chinhu yakagadzirirwa Kudzika peji",
       no_landing_selected_msg: "aihwa Kudzika peji Sarudza",
       no_landing_page: "aihwa Kudzika peji",
       we_can_create_dedicated_landing_msg:
-        "chinhu chinhu Gadzira chinhu chinhu Kudzika peji chinhu chinhu",
+        "Isu tinogona kugadzira yakatsaurirwa peji yekumhara iwe.",
     },
     contact: {
       title: "chinhu chinhu",
@@ -2027,7 +2027,7 @@ export default {
     business: {
       title: "bhizinesi chinhu",
       subtitle:
-        "chinhu chinhu chinhu ruzivo chinhu chinhu bhizinesi chinhu chinhu ",
+        "Ndokumbira upe ruzivo rwechokwadi nezve bhizinesi rako kuti uve nechokwadi chekuunganidza mari inokurumidza uye isina musono.",
     },
     bank: {
       title: "chinhu ruzivo",
@@ -2036,15 +2036,15 @@ export default {
     default_pricing: {
       title: "chinhu mitengo",
       subtitle:
-        "chinhu chinhu mitengo chinhu chinhu chinhu mutengesi chinhu chinhu mutengesi Wedzera chinhu chitsva chigadzirwa, chinhu mitengo chinhu chinhu zvigadzirwa mutengo chinhu chinhu mitengo chinhu chinhu chinhu chigadzirwa chinhu",
+        "Iwe unogona kugovera iyo yakasarudzika yemitengo modhi kune mutengesi. Kana mutengesi awedzera chigadzirwa chitsva, iyi modhi yemitengo ichashandiswa kuverenga muganho wemusika pamutengo wechigadzirwa. Iwe unogona gare gare kugadzirisa mutengo wemhando yechigadzirwa chimwe nechimwe.",
       no_pricing: "aihwa mitengo",
     },
     shipping: {
       title: "kutumira",
-      subtitle: "vatengesi chinhu chitoro chinhu chinhu kutumira masevhisi chinhu chinhu",
+      subtitle: "Vatengesi vanogona kuseta yavo yekutumira masevhisi uye macourier.",
       shipping_services: "kutumira masevhisi",
       total_number_of_services:
-        "chinhu chinhu kutumira masevhisi chinhu chinhu mutengesi chinhu",
+        "Nhamba yese yekutumira masevhisi ayo mutengesi ane.",
       couriers: "chinhu",
       total_couriers_count: "chinhu chinhu mutengesi chinhu",
     },
@@ -2055,22 +2055,22 @@ export default {
       title: "Bvisa mutengesi",
       action: "Bvisa mutengesi",
       verify_description:
-        "chinhu chinhu chinhu zvose mutengesi chigadzirwa chinhu chinhu !",
-      verify_title: "chinhu chinhu chinhu Dzima chinhu mutengesi",
+        "Ndinoziva kuti hukama hwese hwevatengesi huchabviswa!",
+      verify_title: "Ndinoda kudzima mutengesi uyu.",
     },
 
     send_invitation_tips:
-      "chinhu chinhu email chinhu chinhu mushandisi chinhu chinhu mushandisi chinhu chinhu chitoro chinhu chinhu mutengesi, chinhu akaundi chinhu chinhu ",
+      "Tichatumira email yekukoka kumushandisi uyu. Kana mushandisi akajoinha chitoro chako semutengesi, account yavo inozopihwa otomatiki kwavari.",
     only_marketplace_owner_can_edit_user:
-      "chinhu chinhu chinhu Muridzi chinhu Rongedza chinhu mushandisi chinhu chinhu Muridzi chinhu chinhu mutengesi, chinhu chinhu ",
+      "Muridzi wemusika chete ndiye anogona kugadzirisa mushandisi. Kana iwe uchida kushandura muridzi wemutengesi uyu, unogona kutumira chikumbiro kwatiri.",
     vendor_is_disable_msg: "mutengesi chinhu yakadzimwa",
     email_not_match_with_user_msg:
-      "chinhu email chinhu chinhu Vashandisi email (<b>{user_name}:</b>{user_email}). chinhu chinhu MaEmails chinhu<b>{email}</b>?",
+      "Imeri yakapinda haienderani neemail yemushandisi (<b>{user_name}:</b>{user_email}). Une chokwadi chekutumira maemail ku<b>{email}</b>?",
 
     order_information_email_to_email:
-      "chinhu chinhu chinhu odha ruzivo chinhu <b>{email}</b>.",
+      "Tichatumira ruzivo rwemaodha ku<b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "chinhu chinhu mushandisi chinhu chinhu mutengesi chinhu",
+    set_a_user_for_the_vendor_first_msg: "Gadzirisa mushandisi kune mutengesi kutanga.",
 
     inputs: {
       slug: {
@@ -2088,11 +2088,11 @@ export default {
         true_title: "bhizinesi",
       },
       bank: {
-        hint: "chinhu Zita chinhu chinhu mutengesi chinhu chinhu akaundi",
+        hint: "Zita rebhangi iro mutengesi ane account yake.",
         placeholder: "chinhu chinhu Zita",
       },
       account_name: {
-        hint: "chinhu chinhu Zita chinhu chinhu akaundi",
+        hint: "Izvi zvinofanirwa kuenderana nezita rine chekuita neakaundi yekubhanga.",
         placeholder: "chinhu Zita",
       },
       account_number: {
@@ -2100,33 +2100,33 @@ export default {
         placeholder: "chinhu chinhu akaundi chinhu",
       },
       routing_number: {
-        hint: "chinhu chinhu Nyika chinhu chinhu mutengesi chinhu",
-        placeholder: "chinhu chinhu , chinhu kodhi, chinhu BSB chinhu",
+        hint: "Nhamba iyi inosiyana nenyika. Inoshandiswa kuona iyo chaiyo bazi rebhangi rinoshandiswa nemutengesi.",
+        placeholder: "Nhamba yako yebhangi yekufambisa, kodhi kodhi, kana nhamba yeBSB.",
       },
       iban: {
-        hint: "chinhu chinhu akaundi chinhu): chinhu chinhu vatengesi chinhu chinhu ",
+        hint: "International Bank Account Number): Kana bhangi remutengesi riri muEurope kana dzimwe nyika.",
         placeholder: "chinhu IBAN chinhu chinhu DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "chinhu chinhu akaundi chinhu): chinhu chinhu vatengesi chinhu chinhu ",
+        hint: "International Bank Account Number): Kana bhangi remutengesi riri muEurope kana dzimwe nyika.",
         placeholder: "chinhu chinhu chinhu",
       },
       branch_address: {
-        hint: "chinhu kero chinhu chinhu mutengesi chinhu chinhu akaundi",
+        hint: "Kero yebazi rebhangi uko mutengesi ane account yake.",
         placeholder: "chinhu chinhu kero",
       },
       enable: {
         label: "mutengesi chimiro",
-        hint: "chinhu chinhu vatengesi chinhu Vatengi chinhu chinhu kutenga chinhu Kubva yakadzimwa vatengesi",
+        hint: "Unogona kugonesa kana kudzima vatengesi pasi rese. Vatengi havazokwanisi kutenga chero chinhu kubva kune vakaremara vatengesi.",
         true_description:
-          "chinhu chinhu zvigadzirwa chinhu chinhu chinhu",
+          "Vachakwanisa kutengesa zvigadzirwa zvavo kuburikidza nemusika wako.",
       },
       access: {
         label: "mutengesi chinhu & kupinda",
         true_description:
-          "chinhu mutengesi chinhu chinhu Gadziridza huwandu chinhu mutengo",
-        hint: "chinhu chinhu mutengesi chinhu, chinhu chinhu vatengesi chinhu Gadziridza chigadzirwa chinhu chinhu Mitengo chinhu Gamuchira chinhu odha",
-        false_description: "chinhu mutengesi chinhu aihwa kupinda chinhu chinhu",
+          "Mutengesi ane pani yakatsaurirwa kugadzirisa huwandu uye mutengo.",
+        hint: "Iwe unogona kugonesa kana kudzima dhizaini yevatengesi, iyo inobvumira vatengesi kuti vagadzirise huwandu hwechigadzirwa nemitengo uye kugamuchira chikamu chemaodha.",
+        false_description: "Mutengesi haakwanisi kuwana chero chinhu.",
       },
 
       logo: {
@@ -2145,15 +2145,15 @@ export default {
     title: "chinhu",
     action_upload_doc: "Isa chinhu",
     vendor_subtitle:
-      "chinhu Isa chinhu chinhu bhizinesi, IP, chinhu kero chinhu chinhu ruzivo chinhu chinhu kupinda",
+      "Ndokumbira uise bhizinesi rinodiwa, IP, uye magwaro ekusimbisa kero. Tinoda ruzivo urwu kuti tisimbise kubatana kwako uye kukupa iwe kuwana kwakakodzera.",
     marketplace_subtitle:
-      "vatengesi chinhu chinhu bhizinesi, chinhu chinhu, chinhu kero chinhu chinhu KYC chinhu, chinhu chinhu kupinda",
+      "Vatengesi vanogona kuendesa magwaro akadai sebhizinesi, pfuma yehungwaru, uye kuisirwa kero kuti vafambise maitiro avo eKYC, vachikubvumidza kuti uvape mukana wakakodzera.",
     upload_dialog: {
       title: "Isa chinhu",
       type: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu Isa chinhu chinhu ruzivo chinhu chinhu Inowanikwa",
+          "Ndokumbira uise magwaro anodiwa chete. Regedza kugovera chero zvinyorwa zvine ruzivo rwakadzama. Tinokumbira magwaro anowanikwa pachena.",
       },
     },
   },
@@ -2178,7 +2178,7 @@ export default {
     add_custom_badge: {
       title: "yakagadzirirwa bheji",
       subtitle:
-        "Wedzera chinhu chitsva yakagadzirirwa bheji chinhu chinhu chitoro chinhu mabheji chinhu chinhu 10. Zvimwe. . mabheji chinhu chinhu chitoro",
+        "Wedzera bheji idzva kuchitoro changu. Chengetedza mabheji ari pasi pegumi. Mamwe mabheji anganonotsa chitoro chako.",
       show_advanced_options: "Ratidza chinhu chinhu",
 
       inputs: {
@@ -2193,15 +2193,15 @@ export default {
         pattern: {
           label: "chinhu",
           message:
-            "chinhu Ratidza chinhu bheji chinhu zvigadzirwa chinhu chinhu tsanangudzo Regex rutsigiro",
+            "Ratidza otomatiki bheji iri rezvigadzirwa zvine kukosha kwakaenzana mune zvazvinoreva. Regex inotsigirwa.",
           placeholder: "chinhu Ratidza chinhu zvose zvigadzirwa kunyora: *.*",
         },
       },
       notifications: {
-        badge_added: "chinhu bheji chinhu chinhu Wedzera chinhu!",
+        badge_added: "Bheji rawedzerwa zvinobudirira!",
         badge_updated: "chinhu bheji chinhu chinhu !",
         item_not_found_error:
-          "chinhu chinhu peji chinhu chinhu rutsigiro",
+          "Chinhu hachina kuwanikwa. Ndokumbirawo muzorodze peji kana kubata rutsigiro.",
       },
     },
   },
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "matagi",
     tips: [
-      "chinhu chinhu Sefa zvigadzirwa chinhu chinhu matagi chinhu <b>Kudzika Mapeji</b>.",
-      "chinhu chinhu chinhu Vatengi chinhu tsvaga chinhu chinhu matagi chinhu chinhu<b>tsvaga</b> chinhu",
-      "chinhu chinhu matagi, chinhu zvigadzirwa chinhu chinhu <b>chinhu matagi</b> chinhu chinhu <b>chinhu zvigadzirwa chinhu</b> chinhu chinhu chigadzirwa peji; chinhu, zvigadzirwa chinhu chinhu chinhu chikamu chinhu chinhu chinhu",
+      "Unogona kusefa zvigadzirwa uchibva pamatagi pa <b>mapeji ekumhara</b>.",
+      "Iwe nevatengi vako munokwanisa kutsvaga ma tag aya mu<b>search</b> bar.",
+      "Kana akasetwa, zvigadzirwa zvine <b>zvakajairika ma tags</b> ndizvo zvicharatidzwa mu<b>nechekuita nechikamu chikamu</b> papeji yechigadzirwa; zvikasadaro, zvigadzirwa zviri muchikamu chimwe chete zvicharatidzwa.",
     ],
     inputs: {
       tags: {
-        placeholder: "chinhu matagi chinhu chinhu semuenzaniso chitsva chinhu",
+        placeholder: "Waya tags pano wodzvanya enter. ex. muunganidzwa mutsva",
       },
     },
     notifications: {
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "kutumira masevhisi",
     subtitle:
-      "chinhu chinhu chipo kutumira nzira chinhu rubatsiro vatengesi chinhu chinhu odha chinhu chinhu Wedzera kutumira masevhisi chinhu chinhu chinhu odha kutumira chinhu Kubva chinhu odha peji chinhu chinhu Kero chinhu chinhu kodhi chinhu chinhu kutumira chinhu",
+      "Musika uyu unopa nzira dzekutumira kubatsira vatengesi kuzadzisa maodha avo. Unogona kuwedzera masevhisi ekutumira pano kuti uodhare zvinyorwa zvekutumira kubva papeji rako reodha. Izvi zvinorerutsa maitiro nekuyananisa kero uye macode ekutevera nemupi wekutumira.",
 
     subtitle_pickup:
-      "chinhu chinhu vatengesi, chinhu chinhu Kubva chinhu Nzvimbo chinhu chinhu kutumira chinhu chinhu chinhu Wedzera chinhu chinhu Nzvimbo chinhu chinhu profile (chinhu Imba yekuchengetera chinhu chinhu Nzvimbo).",
+      "Musika unogonesa kutora kwevatengesi, uchibvumira vatengi kuti vasarudze kutora kubva kwaunogara senzira yekutumira. Iwe unogona kuwedzera nzvimbo yako yekutora muprofile yako (yako yekuchengetera ichashandiswa seyakasarudzika nzvimbo yekutora).",
     action: "Wedzera sevhisi",
 
     add_dialog: {
       select_service_msg:
-        "kutumira nzira chinhu chinhu , chinhu Vatengi chinhu chinhu Kubva chinhu vatengesi chinhu aihwa chinhu chinhu kutumira masevhisi chinhu kutenga chinhu chinhu chinhu Sarudza chinhu nzira Kubva chinhu rondedzero chinhu chinhu chinhu Inowanikwa masevhisi chinhu chinhu kutumira sevhisi Kubva chinhu rondedzero chinhu chinhu chinhu Inowanikwa masevhisi chinhu chinhu chinhu Wedzera chinhu chinhu chitoro chinhu chinhu chinhu",
+        "Nzira dzekutumira dzakagadzirirwa nemusika, uye vatengi vanogona kusarudza kubva kwavari. Vatengesi havana simba pamusoro pezvisarudzo izvi asi vanogona kubatanidza mapaneru avo nemasevhisi ekutumira kuti vatenge mavara zvakananga. Ndapota sarudza nzira kubva pane iri pazasi kuti uone masevhisi aripo. Sarudza basa rekutumira kubva pane rondedzero iri pasi apa. Masevhisi aripo chete anogona kuwedzerwa kuchitoro chako anoratidzwa pano.",
       no_available_service: "aihwa Inowanikwa sevhisi!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Nzvimbo",
     empty_subtitle:
-      "chinhu chinhu Nzvimbo chinhu chinhu chigadzirwa chinhu chinhu ",
+      "Govera nzvimbo kune chigadzirwa kana chiri chinhu chakavakirwa panzvimbo.",
     dialog: {
       header: "Sarudza Nzvimbo profile",
       action_new_location: "Wedzera nzvimbo itsva",
       title: "Nzvimbo profile",
       subtitle:
-        "chinhu chinhu chinhu zvigadzirwa chinhu chinhu chinhu Nzvimbo chinhu chinhu Nzvimbo matagi chinhu chinhu zvigadzirwa",
-      tips: "<b>chinhu: </b> chinhu chinhu Nzvimbo chinhu chinhu chigadzirwa <b>chinhu</b> chinhu chinhu Ratidza chinhu chigadzirwa chinhu chinhu chinhu Nzvimbo chinhu chinhu chigadzirwa chinhu chinhu chinhu Nzvimbo chinhu chinhu chikuru chinhu, Kuda <b>chinhu chinhu</b> chinhu chinhu masevhisi Kuda<b>chinhu chinhu chinhu</b>.",
+        "Unogona kubaya zvigadzirwa panzvimbo yemepu nekupa ma tag enzvimbo kune zvigadzirwa.",
+      tips: "<b>Zvakakosha: </b> Isa nzvimbo kuchigadzirwa <b>chete</b> kana uchida kuratidza chigadzirwa panzvimbo chaiyo pamepu. Chigadzirwa chepine chinofanira kunge chine nzvimbo semagadzirirwo acho, se <b>dzimba dzekurojesa/nzvimbo</b> kana masevhisi epamunhu se<b>Hairdressing neSpa</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "chinhu chinhu rondedzero chinhu zvinhu chinhu chinhu chigadzirwa chinhu sevhisi pasuru",
+      "Sanganisira runyoro rwezvinhu zvinouya nechigadzirwa kana sevhisi package.",
     dialog: {
       header: "chigadzirwa pasuru zvinhu",
       title: "chinhu zvinhu",
-      subtitle: "chinhu chinhu zvinhu chinhu chinhu chigadzirwa",
+      subtitle: "Uku ndiko kuunganidzwa kwezvinhu zvinouya nechigadzirwa.",
       action_manage: "Tonga zvinhu",
       action_disable_msg: "chinhu Muridzi",
       select_items_tips:
-        "Gadzira chinhu chinhu pasuru chinhu chinhu chigadzirwa chinhu sevhisi chinhu chinhu Vatengi chinhu chinhu mutengi chinhu chinhu , chinhu chinhu ",
+        "Gadzira kana sarudza zvikamu zvepasuru zvinouya nechigadzirwa kana sevhisi. Shandisa chimiro ichi kusimbisa izvo vatengi vanogona kutarisira kugamuchira pakutenga chinhu. Isu tinopa zano kushandisa basa iri chete kana zvakakosha kuti mutengi anzwisise zviri mukati, senge pakutenga smartphone.",
       create_item_tips:
-        "chinhu, chinhu chinhu chitsva chinhu chinhu chinhu mifananidzo, chinhu chinhu Isa Mifananidzo chinhu chinhu 256chinhu chinhu Chitarisiko chinhu zvose chinhu, chinhu chinhu mifananidzo chinhu pachena kumashure chinhu chinhu zvose chinhu zvigadzirwa",
+        "Neimwe nzira, unogona kusanganisira chinhu chitsva. Shandisa mativi mana emifananidzo, sezvo isu tichizogadzirisa otomatiki mapikicha akakwidzwa kuita 256x256 square fomati. Kuti uve nechokwadi chekutaridzika kwakanaka kune ese matemplate, shandisa minimalistic mifananidzo ine yakajeka kumashure uye chengetedza inowirirana pateni yezvese zvigadzirwa zvako.",
       create_new_item_action: "Gadzira chitsva chinhu chinhu",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "chinhu chinhu",
           subtitle:
-            "chinhu chinhu kodhi, chinhu, <b>#654FFF</b>, chinhu chinhu , chinhu, <b>#764FFA/#000000</b>.",
+            "Isa kodhi yeruvara rwehex, semuenzaniso, <b>#654FFF</b>, kana mavara maviri akapatsanurwa nechidimbu, semuenzaniso, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "chinhu chinhu , chinhu mifananidzo chinhu <b>chinhu chinhu</b>. Isa chinhu chinhu kodhi chinhu chinhu chinhu",
+            "Unogona kupa chero kukosha kune zvakasiyana, kusanganisira mifananidzo uchishandisa <b>Graphic Assets</b>. Isa pateni uye shandisa iyo yakagadzirwa kodhi yemusiyano.",
           graphical_asset_action: "chinhu chinhu",
           graphical_asset_action_caption: "mifananidzo chinhu chinhu chinhu",
         },
         smart_unit_price: {
-          tips: "chinhu yuniti mutengo chinhu chinhu <b>Kurema</b>, <b>volume</b>, chinhu <b>chinhu chinhu</b>. chinhu chinhu , chinhu chinhu chitoro > marongero > chinhu > chigadzirwa peji > chinhu yuniti mutengo",
+          tips: "Verenga mutengo unoenderana ne<b>huremu</b>, <b>vhoriyamu</b>, uye <b>pack size</b>. Kudzima chimiro ichi, enda kuShonga> Zvirongwa> Theme> Peji Yechigadzirwa> Smart Unit Price.",
           smart_unit_price: "yuniti mutengo chinhu",
         },
         quantity: {
@@ -2464,18 +2464,18 @@ export default {
         price: {
           title: "mitengo",
           subtitle:
-            "chinhu chinhu yakagadzirirwa mutengo chinhu chinhu chigadzirwa mutengo",
+            "Seta mutengo wakajairwa wezvakasiyana kana shandisa mutengo wechigadzirwa.",
         },
         package: {
           title: "chinhu & kutumira",
           subtitle:
-            "chinhu Kurema chinhu chinhu kutumira chinhu",
+            "Taura huremu uye hukuru hwezvakasiyana kuti usarudze nzira dzekutumira.",
           same_as_product_action: "chinhu chinhu chigadzirwa",
         },
         image: {
           title: "chinhu mifananidzo",
           subtitle:
-            "Wedzera chinhu mifananidzo chinhu chinhu mufananidzo Isa chinhu chinhu mufananidzo chinhu chinhu chinhu",
+            "Wedzera yakasarudzika mifananidzo kune yega yega musiyano. Mufananidzo wekutanga kukwidzwa uchave iwo mufananidzo wekutanga weiyo musiyano.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "chinhu chinhu (GTIN)",
             message:
-              "rutsigiro chinhu: UPC (12 chinhu), EAN (13 chinhu), JAN (8 chinhu 13 chinhu), ISBN (13 chinhu).",
+              "Mafomati anotsigirwa: UPC (manhamba gumi nemaviri), EAN (manhamba gumi nematatu), JAN (manhamba masere kana gumi nematatu), ISBN (manhamba gumi nematatu).",
           },
         },
       },
@@ -2514,11 +2514,11 @@ export default {
   product_extra_physical: {
     weight: "Package uremu",
     weight_subtitle:
-      "chinopinda chinhu zvigadzirwa chinhu chinhu Kurema chinhu chinhu ruzivo rubatsiro chinhu chinhu chinhu kutumira nzira chinhu chinhu chinhu odha chinhu chinhu chinhu kutumira chinhu",
+      "Isa huremu hwepakeji yechigadzirwa pano. Ruzivo urwu runobatsira kusarudza nzira yekutumira uye inoita kuti odha haipfuure muganho wekutumira.",
     weight_unit: "Kg",
     size: "pasuru chinhu",
     size_subtitle:
-      "chinopinda chinhu zvigadzirwa chinhu chinhu ruzivo chinhu chinhu kutumira nzira chinhu chinhu chinhu odha chinhu chinhu ",
+      "Isa saizi yekurongedza yechigadzirwa pano. Ruzivo urwu runoshandiswa kusarudza nzira chaiyo yekutumira uye kuona kuti odha haipfuure muganhu wepasuru.",
 
     width: "Upamhi",
     length: "Urefu",
@@ -2526,12 +2526,12 @@ export default {
     lead_time_title: "Nguva yekugadzirira",
     lead_time: "Nguva yekugadzirira",
     lead_time_subtitle:
-      "chinhu Nguva chinhu chinhu chigadzirwa chinhu kutumira, chinhu rubatsiro chinhu chinhu chinhu kuendesa Nguva",
+      "Nguva yekutungamira inofungidzira nguva inodiwa kugadzirira chigadzirwa chekutakura, izvo zvinobatsira mukufungidzira nguva yekuendesa.",
 
     lead_time_dimension: "Maawa",
     bulk_action: "chinhu Zviito",
     bulk_action_subtitle:
-      "chinhu chinhu ruzivo chinhu zvose chigadzirwa chinhu",
+      "Iwe unogona kuisa ruzivo rwekurongedza kune ese akasiyana zvigadzirwa.",
 
     bulk_action_input: "Gadzirisa zvese zvakasiyana",
     bulk_action_msg:
@@ -2572,9 +2572,9 @@ export default {
     title: "chinhu chinhu chinhu",
     tips: {
       how_it_works:
-        "<b>chinhu chinhu chinhu:</b><br />Isa chinhu chinhu chinhu mifananidzo chinhu chinhu mifananidzo chinhu chinhu , chinhu <b>{filename}</b> chinhu chinhu Cherechedza chinhu chinhu kodhi chinhu chinhu <b><s>chinhu</s></b> chinhu",
+        "<b>Mashandiro Azvinoita:</b><br />Simudza mapatani kana mifananidzo yezvinhu pano. Kuti ushandise mifananidzo iyi seimwe sarudzo, sanganisira <b>{filename}</b> muukoshi hwakasiyana. Ziva kuti kodhi iyi haigone kushandiswa mu <b><s>ruvara</s></b> ukoshi.",
       how_set_name:
-        "<b>chinhu chinhu:</b><br />chinhu chinhu 12 chinhu chinhu chinhu Isa faira Zita chinhu chinhu Zita chinhu chinhu chigadzirwa, chinhu chinhu , chinhu Isa chinhu mifananidzo chinhu chinhu 100, chinhu chinhu ",
+        "<b>Mazano Ekupa Mazita:</b><br />Mabhii 12 ekutanga ezita refaira rakwidzwa achashandiswa sezita reaset. Ichi chimiro chakanakira kuratidza zvinogoneka zvechigadzirwa, senge masaizi ematoyi emidhudhudhu kana machira emachira. Kukwirisa mashandisirwo echinhu ichi, dzivirira kurodha mifananidzo yakasiyana pano kunze kwekunge nhamba yemifananidzo iri pasi pe100, semhando dzakasiyana dzehuni dzefenicha.",
     },
   },
 
@@ -2604,8 +2604,8 @@ export default {
       tooltip: "⚡ chinhu chinhu mufananidzo chinhu chinhu ",
     },
     enable: {
-      true_tooltip: "chinhu chinhu chinhu Inowanikwa chinhu chinhu chinhu chitoro",
-      false_tooltip: "chinhu chinhu Inowanikwa chinhu chinhu chinhu chitoro",
+      true_tooltip: "Ichi chinhu chinowanikwa muchitoro chendaneti.",
+      false_tooltip: "Chinhu ichi hachiwanikwe muchitoro chendaneti.",
     },
     restore_dialog: {
       title: "chinhu chinhu",
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "chinhu Zviito > mutengo",
     message:
-      "chinhu chinhu Mari chinhu chinhu mutengo chinhu zvose zvigadzirwa chinhu chinhu chitoro chinhu, chinhu chinhu mutengo chinhu chinhu Sarudza chinhu chinhu ",
+      "Huwandu hunotevera huchashanda sechikamu chemutengo wezvese zvigadzirwa muchitoro chako. Zvakare, iyo yakaverengerwa mitengo yemitengo ichashandurwa zvine hungwaru kunhamba yepedyo yakapoteredza zvichienderana nemari yakasarudzwa.Chenjerera pakupinda maitiro.",
     check: "chinhu chinhu mutengo chinhu",
     check_description:
-      "chinhu mutengo chinhu chinhu Sarudza chikamu chinhu zvose chinhu",
+      "Mutengo uchachinjirwa chikamu chakasarudzwa uye ese madiki.",
     add_percent_tab: "Wedzera chinhu",
     add_constant_tab: "Wedzera chinhu",
     ending_tab: "pera chinhu",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "chinhu Mari chinhu chinhu Wedzera chinhu chinhu Kubva chinhu chinhu mutengo chinhu zvigadzirwa",
+        "Mari yacho ichawedzerwa kana kubviswa pamutengo wezvino wezvigadzirwa.",
     },
     ending: {
       subtitle:
-        "chinhu pera chinhu chinhu chinhu mutengo chinhu zvigadzirwa chinhu chinhu ",
+        "Kupera kwemutengo wezvino wezvigadzirwa uchashandurwa kune kukosha kwakatarwa.",
     },
     marketplace: {
       title: "chinhu Kunyora mutengo",
       subtitle:
-        "chinhu chinhu Gadziridza chinhu Kunyora mutengo chinhu zvigadzirwa chinhu chinhu , chinhu chikuru chigadzirwa mutengo chinhu chinhu mutengesi mitengo chinhu chinhu nemaoko mutengo chinhu",
+        "Iyi sarudzo inokubvumira kuti ugadzirise otomatiki mutengo wezvinyorwa zvezvigadzirwa pamusika. Nguva nenguva, mutengo mukuru wechigadzirwa unogona kusaenderana nemitengo yevatengesi nekuda kwekuchinja kwemitengo yemanyorero.",
       strategy: {
         min: {
           title: "chinhu shoma mutengo",
           description:
-            "chinhu chinhu shoma mutengo chinhu chinhu chigadzirwa chinhu chinhu Kunyora mutengo",
+            "Isa mutengo wepasi pechigadzirwa semutengo wekunyora.",
         },
         max: {
           title: "chinhu zhinji mutengo",
           description:
-            "chinhu chinhu zhinji mutengo chinhu chinhu chigadzirwa chinhu chinhu Kunyora mutengo",
+            "Isa iyo yakanyanya mutengo wechigadzirwa semutengo wekunyora.",
         },
       },
     },
 
     category: {
-      subtitle: "chinhu chinhu chikamu chinhu zvose chinhu",
+      subtitle: "Misa chiitiko chakawanda kune chikamu uye ese madiki.",
     },
     vendor: {
       subtitle:
-        "chinhu chinhu Zviito chinhu chinhu chinhu mutengesi chinhu chinhu mutengesi chinhu Sarudza, chinhu mutengo Gadziridza chinhu chinhu vatengesi zvigadzirwa, chinhu chinhu mutengo chinhu chinhu mutengesi",
+        "Deredza zviito zvakawanda kune mumwe mutengesi. Kana mutengesi asarudzwa, mutengo wekuvandudza unozoiswa kune zvigadzirwa zvemutengesi, izvo zvinomiririra mutengo wekutengesa kune iye mutengesi.",
       listing_price_need_update_msg:
-        "chinhu chinhu Gadziridza chinhu Kunyora mutengo (chinhu mutengo chinhu chinhu chinhu chigadzirwa rondedzero), chinhu chinhu Gadziridza chinhu chinhu chinhu Sefa chinhu chinhu Sarudza chinhu mutengesi",
+        "Kana iwe uchida kuvandudza mutengo wezita (mutengo unoratidzwa murunyorwa rwechigadzirwa), unofanirwa kuendesa zvakare yakawanda yekuvandudza nemasefa mamwe chete asi usingasarudze mutengesi.",
     },
     listing_products_changes: "Kunyora zvigadzirwa chinhu",
     total_vendor_products: "chinhu mutengesi zvigadzirwa",
@@ -2815,27 +2815,27 @@ export default {
       currency_step: {
         title: "Sarudza chinhu Mari",
         subtitle:
-          "chinhu chinhu chitoro chinhu chinhu shoma—chinhu chinhu chinhu 3. chinhu 💳 Kubhadhara gedhi chinhu chinhu transactions chinhu chinhu chinhu Mari",
+          "Edza kuchengetedza huwandu hwemari muchitoro chako kusvika kushoma-zvichida isingasviki 3. Magedhi mazhinji ekubhadhara anogona kugadzirisa kutengeserana munenge chero mari.",
         add_first_currency: {
-          subtitle: "chinhu Wedzera chinhu Mari chinhu chinhu chitoro chinhu chinhu",
+          subtitle: "Wedzera mari kuchitoro chako usati waenderera.",
           title: "Wedzera Mari",
         },
       },
       gateway_step: {
         title: "inoshanda 💳 Kubhadhara nzira",
         subtitle:
-          "chinhu chinhu Kubva chinhu Inowanikwa 💳 Kubhadhara nzira chinhu chinhu Sarudza chinhu gedhi, chinhu chinhu chinongedzo chinhu chitoro chinhu chinhu 💳 Kubhadhara nzira",
+          "Ndapota sarudza kubva kunzira dzekubhadhara dziripo. Kana uchinge wasarudza gedhi, iwe unozokwanisa kuisa iyo inodiwa yekubatanidza ruzivo kuti ubatanidze shopu yako zvakananga kune yaunofarira nzira yekubhadhara.",
       },
 
       config_step: {
-        import_config: "chinhu chinhu Pinza chinhu Kubva chinhu chinhu gedhi",
+        import_config: "Iwe unogona kuunza config kubva kune mamwe magedhi akafanana",
         import_from: "Pinza Kubva",
       },
 
       request_add_new_gateway: {
         title: "chinhu ona chinhu chinhu 💳 Kubhadhara nzira?",
         subtitle:
-          "chinhu chinhu chinhu 💳 Kubhadhara chinhu chinhu rondedzero, chinhu chinhu chinhu Gore negore Ronga (chinhu chinhu ) chinhu chinhu 48 chinhu chinhu akaundi chinhu chinhu ",
+          "Kana mupi wako wekubhadhara wemunharaunda asina kunyorwa, nyorera kune chero chirongwa chegore (kusanganisira Kutanga kwekugona) uye kukumbira kubatanidzwa. Tichazvipedza mukati memaawa makumi mana nemasere kana bvunzo account uye zvinyorwa zvakapihwa.",
       },
 
       inputs: {
@@ -2844,11 +2844,11 @@ export default {
         },
         manual: {
           true_title: "chinhu modhi",
-          true_description: "chinhu chinhu chinhu gedhi chinhu chinhu",
+          true_description: "Iwe unogona kuseta gedhi kumisikidzwa nemaoko.",
 
           false_title: "otomatiki batanidza",
           false_description:
-            "chinhu chinhu batanidza chinhu chinhu gedhi chinhu chinhu gedhi chinhu chinhu",
+            "Iyo sisitimu inozozvibatanidza kune gedhi kana iwe uchitova neyakagadzirirwa gedhi panzvimbo.",
         },
       },
     },
@@ -3074,25 +3074,25 @@ export default {
 
     config: {
       subtitle:
-        "zvikamu rubatsiro chinhu chigadzirwa Kutonga chinhu wana chinhu chinhu Vatengi chinhu chinhu zvigadzirwa chinhu chinhu chitoro",
+        "Zvikamu zvinobatsira kukwenenzvera manejimendi echigadzirwa uye kuita kuti zvive nyore kune vatengi vako kuwana zvigadzirwa muchitoro chako.",
     },
     parent: {
       subtitle:
-        "chinhu chikamu chinhu chinhu chikamu chinhu chinhu chigadzirwa chinhu chinhu chikamu, chinhu chinhu chikuru chikamu",
+        "Ichi chikamu chichaonekwa pasi pechikamu chevabereki. Kana chigadzirwa chisina chikamu chevabereki, chinozoratidzwa muchikamu chikuru.",
     },
     template: {
       title: "chinhu",
       edit_page: "Rongedza peji",
       Pages_list: "peji rondedzero",
       subtitle:
-        "chinhu chinhu chikamu peji chinhu chinhu chinhu yakagadzirirwa peji chinhu chinhu Gadzira Mapeji chinhu pachena kumashure chinhu chinhu 1 chinhu 2 chinhu chinhu chikamu chinhu chinhu chinhu chinongedzo chinhu peji chinhu chinhu zvikamu, chinhu chinhu chikamu chinhu",
+        "Iwe unogona kukwidziridza kuratidzwa kwechikamu chako peji nekufukidza peji retsika. Nzira yakanakisisa ndeyekugadzira mapeji ane mavara akajeka uye dhizaini 1 kusvika ku2 zvikamu zvakanangana nechikamu chimwe nechimwe. Iwe unogona ipapo kubatanidza peji rimwe kune akawanda mapoka, uchishandisa zvine simba zvemukati kugadzirisa chikamu chega chega.",
     },
     critical_zone: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu Bvisa chinhu chikamu, chinhu chinhu chinhu zvigadzirwa chinhu chinhu <b>📁 {parent}</b>. chinhu Tonga zvikamu chinhu chinhu chigadzirwa rondedzero, chinhu chinhu chinhu chitoro > zvikamu chinhu",
+        "Ukabvisa chikamu, zvikamu zvacho uye zvigadzirwa zvichaendeswa kune dhairekitori revabereki<b>📁 {parent}</b>. Kuti utore zvikamu zvisiri muzvinyorwa zvechigadzirwa, enda kune Shop> Zvikamu tab.",
       accept_delete: {
-        true_description: "chinhu chinhu chinhu Bvisa chinhu chikamu",
+        true_description: "Ndinoda kubvisa chikamu ichi.",
         true_title: "chinhu Bvisa chikamu",
       },
     },
@@ -3155,7 +3155,7 @@ export default {
         edit_success: "Category yakagadziridzwa.",
       },
       manually_update_filters_tips:
-        "<b>chinhu!</b> Sefa chinhu chinhu zvigadzirwa chinhu chinhu, chinhu chinhu zvigadzirwa chinhu chinhu chikamu, chinhu Dzoka chinhu chinhu Sefa",
+        "<b>Zvakakosha!</b> Masefa anovandudzwa otomatiki kana zvigadzirwa zvachinja. Nekudaro, mushure mekuita shanduko kune zvigadzirwa muchikamu, ndapota dzokera pano uye tinya bhatani rekuchengetedza / gadzira patsva kuti uvandudze sefa.",
 
       inputs: {
         spec: {
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Tsanangudzo yechitoro",
     description_input_message: "Nyora tsananguro pfupi nezvebhizinesi rako.",
     description_input_tips:
-      "chinhu Tsanangudzo chinhu chinhu Zvitoro chinhu chinhu tagi Tsanangudzo chinhu chinhu chitoro Mapeji",
+      "Tsananguro iyi ichaonekwa mujinga rechitoro chako uye ichashandiswawo seyekutanga meta tag tsananguro yemapeji echitoro chako.",
     address_input: "Store Kero",
     address_input_message: "Isa kero chaiyo yenzvimbo yechitoro",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "chinhu",
         subtitle:
-          "chinhu chinhu Kanzura chinhu odha chinhu, chinhu chinhu ",
+          "Kana uchida kukanzura odha yako nekukasika, unogona kushandisa sarudzo iyi.",
       },
 
       express_input: {
         true_title: "chinhu | Kanzura odha chinhu",
         false_title: "chinhu | Kanzura odha chinhu 48 chinhu",
         true_description:
-          "chinhu chinhu chinhu Kanzura chinhu odha chinhu chinhu Gadziridza chinhu stock chinhu chinhu",
+          "Iyi sarudzo inodzima odha yako nekukasira uye kugadzirisa inventory ipapo ipapo.",
         false_description:
-          "chinhu chinhu chinhu Kanzura chinhu odha chinhu 48 chinhu chinhu chinhu, zvinhu chinhu chinhu ",
+          "Iyi sarudzo ichadzima odha yako mushure memaawa makumi mana nemasere. Kusvika panguva iyoyo, zvinhu zvichachengetwa uye hazvigone kutengwa nevamwe.",
       },
     },
 
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "kudzosera mari chinhu chinhu chinhu mutengi",
         message:
-          "chinhu chinhu Mari chinhu kudzosera mari chinhu chinhu wana chinhu chinhu hachipo zvinhu chinhu chinhu kudzosera mari chinhu chinhu",
+          "Isu tinoverengera huwandu hwese hwekudzorera hwaunoda kuita nemaoko. Yakaverengerwa kubva pazvinhu zvisiri kuwanikwa uye huwandu hwakadzoserwa mari parizvino.",
         calculated_approximately:
-          "chinhu Mari chinhu chinhu Mari chinhu",
+          "Mari yacho inoverengwa inenge. Ndokumbira uverenge mari yacho iwe pachako.",
       },
       need_payback: {
         title: "mutengi chinhu chinhu",
         message:
-          "chinhu chinhu kudzosera mari chinhu chinhu mutengi chinhu chinhu Mari chinhu chinhu zvinhu chinhu chinhu mutengi chinhu chinhu Mari",
+          "Taona kuti mari yese yakadzoserwa kumutengi yakakura kudarika yakafanira zvichienderana nezvinhu zviri mungoro. Ungangoda kubhadharisa mutengi wako kuti udzore mari yakawandisa.",
       },
       need_no_refund: {
         title: "aihwa kudzosera mari chinhu",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "chinhu kudzosera mari",
         message:
-          "chinhu chinhu chinhu Mari chinhu kudzosera mari chinhu chinhu 💳 Kubhadhara gedhi chinhu chinhu 💳 Kubhadhara masevhisi rutsigiro chinhu chinhu, chinhu chinhu kudzosera mari chinhu",
+          "Ndiwo huwandu hwemari yekudzoserwa inogadzirwa yega negedhi rako rekubhadhara. Mamwe masevhisi ekubhadhara chete anotsigira chimiro ichi, saka unofanirwa kudzosera mari nemaoko.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "chinhu Kurema chinhu zvose zvinhu chinhu {weight} {unit}",
       not_available_message:
-        "chinhu chinhu Inowanikwa chinhu chinhu chinhu yakadzimwa chinhu chinhu kutumira kero chinhu chinhu mushandisi chinhu chinhu chinhu kero chinhu kutenga!",
+        "Haisi kuwanikwa kana waremara uchikumbira kero yekutumira uye zvakare mushandisi haana kuzadza kero mushure mekutenga!",
 
       message:
         "Dzvanya bhatani rinotevera <b>reOdha Yakagadzirira</b> kana odha yagadzirira kutumirwa.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "kubhadhara chirevo",
         subtitle:
-          "chinhu kubhadhara chinhu transactions chinhu chinhu chinhu Sarudza Nguva chinhu",
+          "Yakagadzirwa kubhadhara uye kutengeserana kwakaitwa panguva yakasarudzwa.",
         chart: {
           times: "chinhu",
           buys: "chinhu chinhu",
@@ -3662,7 +3662,7 @@ export default {
     status: "chimiro",
     cod_transportation: "rutsigiro kutumira",
     cod_transportations_error:
-      "chinhu chinhu chinhu kuendesa 💳 Kubhadhara chinhu chinhu kutumira nzira!",
+      "Gonesa mari pamubhadharo wekutumira kune kanenge imwe nzira yekutumira!",
     payment_type: "💳 Kubhadhara chinhu",
     cod: "Kubhadhara pakutumirwa",
     online: "chinhu 💳 Kubhadhara",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "chinhu gedhi chimiro",
     oauth2_button: "otomatiki Connect chinhu {gateway}",
     fee_payment_message:
-      "Selldone chinhu chinhu Mari Yakabhadharwa chinhu chinhu mutengi chinhu chinhu akaundi chinhu sevhisi chinhu chinhu Kubva chinhu chikwama chinhu chinhu",
+      "Mari yese yakabhadharwa nemutengi ichaendeswa kuaccount yako. Mari yebasa ichabviswa kubva pachikwama chako muSelldone.",
 
     auto_config: "otomatiki chinhu",
 
     keys: {
       title: "Zvakavanzika chinhu",
       subtitle:
-        "rondedzero chinhu Zvakavanzika chinhu chinhu chinhu 💳 Kubhadhara chinhu ruzivo chinhu chinhu kubhadhara",
+        "Rondedzero yemakiyi akavanzika ekubhadhara. Ruzivo urwu rwakakosha pakugadzira nekugadzirisa mabhadharo.",
     },
     extra_config: {
       title: "💳 Kubhadhara sevhisi chinhu",
-      subtitle: "chinhu chinhu ruzivo chinhu chinhu 💳 Kubhadhara gedhi",
+      subtitle: "Kuwedzera ruzivo rwekugadzirisa kwegedhi rekubhadhara.",
     },
 
     recommended_actions: {
       title: "chinhu Zviito",
       subtitle:
-        "chinhu chinhu , chinhu chinhu chinhu Gamuchira chinhu kubhadhara Kubva chinhu Vatengi",
+        "Nekutora matanho aya, unozotanga kugamuchira mubhadharo chaiwo kubva kune vatengi vako.",
       action_enable: "chinhu chinhu ",
       make_live_enable: "chinhu chinhu Rarama chinhu",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "Webhusaiti",
     status_title: "💳 Kubhadhara sevhisi chimiro",
     status_message:
-      "chinhu chinhu 💳 Kubhadhara nzira chinhu inoshanda chinhu kusashanda chinhu nzira chinhu chinhu inoshanda chinhu chinhu Vatengi",
+      "Gadzirisa nzira yekubhadhara seInoshanda kana isingashande. Nzira chete dzakaiswa sedzinoshanda dzicharatidzwa kune vatengi.",
     status_true_description: "chinhu Vatengi chinhu chinhu 💳 Kubhadhara nzira",
 
     manual_title: "nemaoko / otomatiki chinhu 💳 Kubhadhara",
     manual_message:
-      "chinhu chinhu Gadzira chinhu 💳 Kubhadhara, chinhu chinhu 💳 Kubhadhara nzira chinhu chinhu semuenzaniso, chinhu chinhu 💳 Kubhadhara chinhu chinhu , chinhu chinhu chinhu mari chinhu chinhu ",
+      "Kana iwe ukagadzira mubhadharo, unogona kubatisisa nzira yekubhadhara yakakodzera kuchengetedza mari yaunokwanisa kutora gare gare. Semuenzaniso, mahotera anowanzobvumidza kubhadhara zvizere muenzi asati asvika, ozotora mari kana muenzi abuda.",
 
     gateway_status: "chimiro",
     wallet: "Blockchain chikwama",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "chinhu & chinhu",
-      subtitle: "chinhu chinhu modhi chinhu chinhu chinhu 💳 Kubhadhara gedhi",
+      subtitle: "Iwe unogona kugonesa iyo debug modhi yekuyedza yekubhadhara gedhi.",
     },
 
     limit: {
@@ -3746,20 +3746,20 @@ export default {
     hold_only_for: "chinhu 💳 Kubhadhara chinhu Inowanikwa chinhu",
     manual_input: {
       false_description:
-        "chinhu 💳 Kubhadhara chimiro chinhu chinhu Kubva chinhu chinhu Yakasimbiswa chinhu chinhu 💳 Kubhadhara chinhu chinhu",
+        "Mamiriro ekubhadhara anozoshandurwa otomatiki kubva pakamirira kusvika kusimbiswa mubhadharo rekupa system.",
       false_title: "otomatiki 💳 Kubhadhara chinhu",
       true_title: "chinhu kubhadhara chinhu nemaoko chinhu",
       true_description:
-        "chinhu chinhu 💳 Kubhadhara chinhu chinhu kubhadhara chinhu chinhu odha chinhu chinhu chinhu chimiro Kubva chinhu chinhu Yakasimbiswa chinhu chinhu 💳 Kubhadhara chinhu chinhu",
+        "Bata mubhadharo saka iwe unofanirwa kuona mabhadharo eiyo odha yekushandura chimiro chavo kubva pakumirira kusimbiswa mubhadharo system.",
     },
     delete_verify_input: {
-      true_title: "chinhu chinhu chinhu Bvisa chinhu 💳 Kubhadhara nzira",
+      true_title: "Ndinoda kubvisa nzira yekubhadhara iyi.",
       true_description:
-        "chinhu 💳 Kubhadhara nzira chinhu chinhu chinhu Kubva chinhu chitoro chinhu chinhu Inowanikwa chinhu Vatengi",
+        "Iyi nzira yekubhadhara ichabviswa muchitoro uye haizowanikwe kune vatengi.",
     },
     delete_alert: {
       title: "Dzima 💳 Kubhadhara nzira",
-      message: "chinhu chinhu chinhu Dzima chinhu 💳 Kubhadhara nzira Kubva chinhu chitoro?",
+      message: "Une chokwadi chekudzima nzira yekubhadhara iyi muchitoro chako?",
       action: "Dzima 💳 Kubhadhara nzira",
     },
   },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Rondedzero yemakadhi akabudiswa",
       subtitle:
-        "chinhu chinhu Tonga zvose chinhu Makadhi chinhu chinhu chinhu Makadhi chinhu Vashandisi chinhu chinhu ",
+        "Ona uye gadzirisa makadhi ese akapihwa. Iwe unogona kutumira makadhi kune vashandisi iwe pachako kana kuvarambidza kana zvichidikanwa.",
 
       loading_message: "Kuwana ruzivo ... ndapota mira",
       issue_to_user: "Dambudziko kumushandisi",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "rondedzero chinhu chinhu chinhu odha chinhu chinhu ",
+      "Rondedzero yemaodha akawiriraniswa kunze anoda kuzadzikiswa nevechitatu-bato vanopa.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "chinhu chinhu 💳 Kubhadhara chinhu SMS chinhu chinhu mutengi chinhu {phone}.",
+      "Tumirai mutengi sms yekutsigira kubhadhara kuburikidza ne{phone}.",
     "sms-ready-to-ship":
-      "chinhu chinhu SMS chinhu chinhu mutengi chinhu chinhu chinhu odha chinhu chinhu Yakatumirwa chinhu {phone}.",
+      "Tumirai mutengi SMS muchizivisa kuti odha yavo yava kuda kutumirwa kuburikidza ne{phone}.",
     "sms-ready-to-pickup":
-      "chinhu chinhu SMS chinhu chinhu mutengi chinhu chinhu chinhu odha chinhu chinhu {phone}.",
+      "Tumirai mutengi SMS muchizivisa kuti odha yake yagadzirira kutorwa pachishandiswa {phone}.",
     "sms-order-confirmation":
-      "chinhu chinhu odha chinhu SMS chinhu chinhu mutengi chinhu {phone}.",
+      "Tumirai mutengi simbiso yeodha kuburikidza ne{phone}.",
 
     "count-adjustment":
-      "chinhu huwandu chinhu chinhu chigadzirwa \"{product}\" chinhu chinhu chinhu Kubva {from} chinhu {to}.",
+      "Huwandu hwechigadzirwa \"{product}\" hwakagadziridzwa kubva {from} kusvika {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Fambisa chikamu <b>{category}</b> kuenda kune chimwe chikamu",
     move_product: "Fambisa chigadzirwa <b>{product}</b> kuchikamu",
     load_more_products:
-      "Zvimwe. . zvigadzirwa chinhu Inowanikwa chinhu chinhu chikamu chinhu chinhu chinhu Zvimwe. . zvinhu",
+      "Zvimwe zvigadzirwa zvinowanikwa muchikamu ichi. Dzvanya kuti uise zvimwe zvinhu.",
     product_menu: {
       dashboard: "Dhibhodhi rechigadzirwa",
       inventory: "Inventory uye Variants",
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "chinhu chinhu zvigadzirwa chinhu chinhu chinhu aihwa Sefa",
-      has_root_filter_message: "chinhu chinhu Sefa chinhu chinhu chikamu",
+      no_root_filter_message: "Une zvigadzirwa mumidzi asi hapana sefa.",
+      has_root_filter_message: "Iwe unoseta mafirita echikamu chemidzi.",
       set_filter_message: "chinhu chinhu chinhu Sefa",
       edit_action: "Rongedza chinhu Sefa",
       clear_action: "chinhu chinhu Sefa",
@@ -4083,10 +4083,10 @@ export default {
       unselect: "chinhu",
       sort_categories: "chinhu / chinhu zvikamu",
       subscription_vendor_not_support_message:
-        "chinhu chinhu chinhu mutengesi chinhu Kunyoresa zvigadzirwa! Kunyoresa zvigadzirwa chinhu chinhu mutengesi chinhu chinhu Muridzi!",
+        "Haikwanise kugovera mutengesi kune kunyorera zvigadzirwa! Zvigadzirwa zvekunyorera zvinofanirwa kugara zvine mutengesi semuridzi wavo!",
       vendor_owner_not_assignable_message:
-        "chinhu chinhu mutengesi chinhu zvigadzirwa chinhu chinhu mutengesi chinhu chinhu Muridzi!",
-      category_assign_profile: "chinhu profile chinhu zvigadzirwa chinhu chinhu chikamu",
+        "Haikwanise kugovera mutengesi kune zvigadzirwa nemutengesi semuridzi wayo!",
+      category_assign_profile: "Isa chimiro kune zvigadzirwa muchikamu",
       category_assign_profile_subtitle: "Mutero, kutumira, gwara, waranti,. ..",
       bulk_discount: "chinhu discount",
       bulk_discount_subtitle: "chinhu discount chinhu zvose zvigadzirwa",
@@ -4119,10 +4119,10 @@ export default {
     no_panel: "aihwa chinhu",
     manual_action: {
       title: "nemaoko Zviito",
-      message: "chinhu chinhu Gadziridza chinhu mutengesi odha chimiro chinhu",
+      message: "Unogona kuvandudza mamiriro emutengesi odha nemaoko.",
       guides: [
-        "vatengesi chinhu chinhu kupinda chinhu Gadziridza chinhu chinhu (chinhu) chinhu chinhu chinhu bhodhi rekutonga",
-        "chinhu chinhu mutengesi chinhu aihwa chinhu kupinda, chinhu mutengesi odha chimiro chinhu chinhu chimiro",
+        "Vatengesi vane mapaneru yekuwana vanogona kugadzirisa kuzadzikiswa kwavo (madiki-odha) mudhibhodhi yavo yakatsaurirwa.",
+        "Kana mutengesi asina pani yekupinda, iyo mutengesi odha mamiriro anozoshandurwa otomatiki nekuchinja bhasiketi.",
         "chinhu chinhu Gadziridza mutengesi odha chinhu",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "zvigadzirwa",
       subtitle:
-        "chinhu chinhu zvigadzirwa rondedzero chinhu chinhu chinhu zvigadzirwa chinhu chinhu vatengesi chinhu chinhu chinhu",
+        "Pano iwe unogona kuona kuverenga kwezvigadzirwa zvako zvakanyorwa pamusika. Zvigadzirwa nevatengesi vakawanda hazvina kubatanidzwa.",
     },
     wallets: {
       title: "Wallet yangu",
       subtitle:
-        "chinhu chinhu Wedzera zvikwama chinhu! mutengesi zvikwama chinhu chinhu ",
+        "Iwe haufanire kuwedzera wallet nemaoko! Vendor wallets ichagadzirwa otomatiki.",
     },
 
     open_marketplace_page: "chinhu chinhu peji",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Zvigadzirwa list",
     subtitle:
-      "chinhu chinhu chinhu rondedzero chinhu chinhu zvigadzirwa chinhu chinhu chinhu Gadziridza Mitengo chinhu chinhu zvigadzirwa chinhu chinhu stock chinhu chinhu mutengesi, chinhu chinhu ona chinhu zvigadzirwa chinhu chinhu chigadzirwa rondedzero chinhu chinhu zvigadzirwa chinhu chinhu ",
+      "Iyi irondedzero yezvigadzirwa zvako pamusika. Gadzirisa mitengo uye huwandu hwezvigadzirwa zvako zvawakapihwa munheyo. Semutengesi, iwe unongoona chete-mutengesi zvigadzirwa zvaunazvo mune zvigadzirwa runyorwa. Zvimwe zvakapihwa zvigadzirwa zvinogona kugadziridzwa pano zvakare.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "chinhu nhengo",
     subtitle:
-      "chinhu chinhu chinhu rondedzero chinhu Vashandisi chinhu chinhu kupinda chinhu chinhu mutengesi chinhu chinhu chinhu Wedzera chitsva chinhu nhengo chinhu chinhu chinhu Mvumo chinhu",
+      "Iyi ndiyo rondedzero yevashandisi vanogona kuwana kune yako vatengesi pani. Iwe unogona kuwedzera nhengo itsva dzechikwata uye kugadzirisa mvumo yavo pano.",
     add_action: "Wedzera chitsva nhengo",
     pending: {
       title: "chinhu chinhu",
-      message: "chinhu chinhu rondedzero chinhu chinhu Takamirira chinhu",
+      message: "Ona rondedzero yemapepa ekukoka akamirira kugamuchirwa.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "chinhu nhengo chinhu",
       subtitle:
-        "Wedzera chinhu chitsva chinhu nhengo chinhu chinhu chinhu Mvumo chinhu chinhu kupinda chinhu chinhu chikuru chitoro bhodhi rekutonga",
+        "Wedzera nhengo itsva yechikwata uye isa mvumo yavo. Dzvanya pane chimwe nechimwe kuti ugadzirise kuverenga / kunyora kuwana. Mutsara wega wega unoenderana nedanho remvumo rechitoro chikuru dashboard.",
     },
     access: {
       view_data: "chinhu chinhu",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "nhengo Wedzera",
-        message: "chinhu chinhu nhengo chinhu chinhu chinhu Wedzera",
+        message: "Nhengo yechikwata yawedzerwa zvinobudirira.",
       },
       update_success: {
         title: "nhengo chinhu",
-        message: "chinhu chinhu nhengo ruzivo chinhu chinhu ",
+        message: "Mashoko enhengo yechikwata akagadziridzwa.",
       },
     },
     actions: {
@@ -4232,25 +4232,25 @@ export default {
     list: {
       title: "chinhu Nhoroondo",
       subtitle:
-        "chinhu chinhu Nhoroondo chinhu chinhu 💳 Kubhadhara masevhisi chinhu chipo chinhu chinhu",
+        "Unogona kuona nhoroondo yako yekubhadhara pano. Kubhadhara uku kunogona kuitwa nemunhu kuburikidza nekuchinja kubhangi kana kushandisa otomatiki masevhisi ekubhadhara anopa mukana wekubhadhara.",
     },
     connect: {
       title: "Connect chinhu",
       subtitle:
-        "chinhu chipo chinhu 💳 Kubhadhara chinhu chinhu 💳 Kubhadhara gedhi chinhu Gamuchira kubhadhara chinhu chinhu chinhu kutenga, chinhu batanidza chinhu chinhu akaundi chinhu chinhu chinhu",
+        "Isu tinopa kupatsanurwa kwekubhadhara kugona kune anotevera ekubhadhara gedhi. Kuti ugamuchire mari zviri nyore mushure mekutenga kwega kwega, ndapota batanidza akaundi yako yekubhangi uchishandisa idzi sarudzo.",
     },
     verify_dialog: {
       title: "chinhu 💳 Kubhadhara",
       option: {
         title: "mutengesi chinhu",
         subtitle:
-          "chinhu chinhu Gamuchira chinhu Ramba chinhu chinhu ; chinhu chinhu, chinhu aihwa chinhu chinhu ",
+          "Une sarudzo yekubvuma kana kuramba kuendeswa uku. Ichi chiito chinoshanda sechinyorwa chenhoroondo chete. Ingosimbisa kana wagamuchira mari; kana zvisina kudaro, hapana chikonzero chekuita chero chiito.",
       },
       inputs: {
         verify: {
           label: "chinhu chinhu Yakasimbiswa chinhu 💳 Kubhadhara?",
           false_description:
-            "aihwa, chinhu chinhu 💳 Kubhadhara chinhu chinhu chinhu akaundi",
+            "Kwete, handisati ndawana muripo uyu muakaundi yangu yekubhangi.",
           true_description: "hongu, chinhu chinhu 💳 Kubhadhara",
         },
       },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "kudzosera mari odha",
     subtitle:
-      "<b>chinhu! </b>chinhu chinhu transaction chinhu chinhu vatengesi chikwama chinhu chinhu Mari Kubva chinhu chinhu Mari chinhu chinhu transactions chinhu chinhu Sarudza odha chinhu, chinhu chinhu Yakabatanidzwa chinhu maakaundi (chinhu chinhu chinhu Stripe Connect chinhu nemaoko chinhu chinhu), chinhu chinhu Gadzira chinhu <b>chinhu chinhu</b>.",
+      "<b>Zvakakosha! </b>Kuita chiito ichi kuchaunza kusashanda zvakanaka muchikwama chemutengesi uye kubvisa mari yakasarudzwa kubva mairi. Mari yacho haigone kudarika zvakasara zvekutengeserana kwehurongwa hwakasarudzwa. Pamusoro pazvo, kana mari ikaendeswa kumaakaundi ekubhanga akabatana (akadai seStripe Connect kana newaya yemaoko), unofanira kugadzira <b>reversal transfer</b>.",
     inputs: {
       note: {
         message: "chinhu chinhu mutengesi",
         placeholder: "chinhu chinhu Cherechedza chinhu",
       },
       amount: {
-        error_message: "chinhu chinhu Mari chinhu chinhu chinhu",
+        error_message: "Mari yasara yapfuudzwa.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "chinhu chinhu chinhu Muono wakazara chinhu chinhu transactions chinhu chinhu vatengesi chinhu chikwama chinhu chinhu odha chinhu chinhu, chinhu vatengesi chinhu chinhu chinhu kutengesa chinhu Wedzera chinhu chinhu chikwama",
+      "Izvi zvinopa tarisiro yezvekutengeserana mune yevatengesi chaiyo chikwama pamusika. Pese panoiswa odha, chikamu chemutengesi chekutengesa chinowedzerwa pachikwama chavo.",
     vendor_wallets: "mutengesi zvikwama",
     my_wallets: "Wallet yangu",
     refund_order_action: "kudzosera mari odha",
     automatic_payout_list: {
       subtitle:
-        "chinhu chinhu chinhu rondedzero chinhu otomatiki chinhu chinhu chinhu Yakabatanidzwa chinhu akaundi chinhu Cherechedza chinhu chinhu otomatiki chinhu chinhu , chinhu nemaoko chinhu chinhu ",
+        "Iyi irondedzero yekubhadhara otomatiki kuakaundi yako yekubhangi yakabatana. Tapota cherechedza kuti mabhadhiro otomatiki chete ndiwo acharatidzwa pano, uye mabhadhiro emaoko haasi kuzoratidzwa.",
     },
     reversal_transfer_action: "chinhu chinhu",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "chinhu chinhu chinhu, chinhu chinhu Nguva yakatarwa chinhu Zviitiko chinhu chinhu chinhu odha, chinhu, 💳 Kubhadhara, chinhu chinhu chinhu chimiro chinhu, chinhu chinhu odha chinhu chinhu chinhu Vatengi chinhu vatengesi",
+      "Muchikamu chino, unogona kuona nguva yezviitiko zvine chekuita nehurongwa, kuzadzikiswa, kubhadhara, uye iwo mastatus. Pamusoro pezvo, iwe unogona kutarisa maodha anotumirwa kune vese vatengi nevatengesi.",
     add_note_subtitle: "kunyora chinhu Mharidzo chinhu chinhu ",
 
     message_input: "Nyora meseji pano...",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Mbiri huru",
       subtitle:
-        "Rongedza chinhu Veruzhinji profile ruzivo chinhu chinhu ruzivo chinhu chinhu Vatengi chinhu chinhu Vashandisi",
+        "Rongedza ruzivo rwako paruzhinji pano. Ruzivo urwu runogona kuoneka kune vatengi vako kana vamwe vashandisi.",
       full_name_input: "Zita rizere",
       tel_input: "chinhu chinhu",
       email_input: "email",
@@ -4856,7 +4856,7 @@ export default {
     },
     "backoffice:shop:add": {
       name: "Wedzera chitoro",
-      description: "Wedzera chinhu chitsva chitoro chinhu chinhu chinhu",
+      description: "Wedzera chitoro chitsva kuhurongwa.",
     },
     "backoffice:shop:delete": {
       name: "Dzima chitoro",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Kutonga",
-      description: "Gadzira chinhu Tonga chinhu chinhu chinhu",
+      description: "Gadzira uye gadzirisa mibvunzo inowanzo bvunzwa.",
     },
     "backoffice:faq:read": {
       name: "FAQ kupinda",
@@ -5128,7 +5128,7 @@ export default {
   scope_group: {
     backoffice: {
       title: "chinhu",
-      description: "kupinda chinhu chinhu chinhu chitoro Kutonga chinhu",
+      description: "Kuwana kune backoffice uye chitoro manejimendi maficha.",
     },
     storefront: {
       title: "chinhu",
@@ -5574,14 +5574,14 @@ export default {
         "OAchinhu Chengetedza Makiyi Ekupinda, chinhu kupinda chinhu chinhu Yakabatanidzwa maapp",
 
       security: "Chengetedzo",
-      security_subtitle: "chinhu chinhu Tonga chinhu login chinhu",
+      security_subtitle: "Seta zvinhu zviviri uye gadzirisa sarudzo dzekupinda munharaunda.",
 
       preferences: "Zvido zvemushandisi",
       preferences_subtitle:
-        "chinhu chinhu, chinhu, chinhu chinhu chinhu Mari",
+        "Chinja theme, level, mutauro uye default mari.",
       my_subscriptions: "Zvangu Zvandakanyoresa",
       my_subscriptions_subtitle:
-        "kupinda chinhu chinhu AI chinhu chinhu chinhu",
+        "Kuwanikwa kune premium AI uye maitiro ekugadzirisa.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "mutengo",
     verify: {
       true_title: "chinhu chinhu",
-      true_description: "chinhu kuverenga chinhu chinhu chinhu Selldone chinhu chinhu chinhu",
+      true_description: "Ndinoverenga uye ndinobvumirana nemitemo yeSelldone yekushandisa",
     },
     need_charge: "chinhu chinhu",
     buy_now: "Tenga izvozvi",
@@ -5700,17 +5700,17 @@ export default {
       subtitle:
         "Ruzivo rwerezinesi rako rinoshanda.",
       subtitle_partner:
-        "Ruzivo rwako rwerezinesi {name}.",
+        "Ruzivo rwerezinesi rako re {name}. Chitoro ichi parizvino chine dhiri rinoshanda. Kana iwe uchida kukanzura dhiri uye kukwidziridza kuhurongwa hwepamusoro-tier, ndapota taura neboka redu rekutsigira kuti ubatsirwe.",
     },
     licenses_table: {
       title: "Yakatengwa Nhoroondo",
       subtitle:
-        "Marezinesi anoshanda uye akamirira.",
+        "Iyi rondedzero yemarezinesi ari kushanda uye akamirira. Unogona kutenga zvibvumirano mushure mekubhadhara chikwama chako. Pamusoro pezvo, ndapota cherechedza kuti kana ukadzima kunyoreswa, mari yasara yekunyorera inodzoserwa kune yako chaiyo wallet.",
     },
     license_detail: {
       title: "chinhu",
       subtitle:
-        "Miganhu paurongwa hwako hwazvino.",
+        "Aya ndiwo maganhuriro ehurongwa hwako hwazvino. Kuti uwane rumwe ruzivo, ndapota shanyira peji remitengo. Iwe unogona kuwana ese maficha mukati mezvirongwa zvese, kusanganisira chirongwa chemahara, kutanga bhizinesi rako uye kukura. Sezvo iwe uchiyera bhizinesi rako, funga kukwidziridza kune yepamusoro-tier chirongwa kudzikisa mari yako yebasa.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "chinhu chinhu chikwama",
         subtitle:
-          "Sarudza chinhu chinhu chikwama chinhu chinhu Kunyoresa chinhu chinhu , chinhu chinhu Gadzira chinhu chinhu chinhu chikwama chinhu chinhu chikwama chinhu chinhu ",
+          "Sarudza chikwama chaicho chekushandisa pakunyorera kwako. Kana iwe usati wava nayo, unogona kuigadzira muchikamu chechikwama. Chikwama ichi chichashandiswa kune chero mhosva.",
       },
       auto_renewal: {
         true_title: "otomatiki chinhu",
         true_description:
-          "chinhu Kunyoresa chinhu chinhu chikwama chinhu chinhu ",
+          "Kunyoresa kwako kunozozvivandudza otomatiki kana wallet yako iine chiyero chakaringana kana uine vhocha inoshanda.",
       },
       options: {
         title: "chinhu chinhu",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Zita",
     info: {
       subtitle:
-        "chinhu chinhu chinhu chigadzirwa, chinhu chinhu ",
+        "Kuti ugadzire chigadzirwa, iwe unogona kuisa chete izvo zvakakosha zvinodiwa pakusikwa kwayo.",
     },
     price: {
       subtitle:
-        "chinhu chinhu mutengo chinhu discount chinhu chinhu chigadzirwa chinhu chinhu chigadzirwa chinhu Wedzera, chinhu chinhu kupinda chinhu Zvimwe. . chinhu",
+        "Pinda mutengo uye kuderedzwa kwechigadzirwa ichi. Kana chigadzirwa chacho chawedzerwa, iwe unokwanisa kuwana mamwe maitiro.",
     },
     by_sku: {
       title: "Wedzera chinhu SKU",
-      subtitle: "chinhu chinhu Nyika chinhu chinhu Inowanikwa",
+      subtitle: "Dhatabhesi remunyika mako hariwanikwi.",
     },
     drop_shipping: {
       subtitle:
-        "chinhu zvigadzirwa chinhu chinhu Wedzera chinhu chinhu chinhu chitoro",
+        "Tsvaga zvigadzirwa mumusika wekutengesa uye uzviwedzere kuchitoro chako.",
     },
     by_connect: {
       subtitle:
-        "chinhu Wedzera zvigadzirwa Kubva POD chinhu chinhu Selldone Connect OS—chinhu batanidza chinhu chitoro chinhu chinhu otomatiki chigadzirwa chinhu, aihwa chinhu chinhu",
+        "Wedzera zviri nyore zvigadzirwa kubva kuPOD kana kudonhedza vatengesi neSelldone Batanidza OS-ingobatanidza chitoro chako uye unakirwe otomatiki chigadzirwa kubatanidzwa, hapana plugins inodiwa.",
     },
     your_license_is_not_eligible: "chinhu rezinesi chinhu chinhu chinhu",
     sku_dialog: {
       title: "Wedzera chigadzirwa chinhu SKU",
       subtitle:
-        "chinhu chinhu zvigadzirwa chinhu chinhu SKU chinhu chinhu Wedzera chinhu chinhu ",
+        "Iwe unokwanisa kuwana zvigadzirwa neSKU yavo mune yedu database uye wozviwedzera nekungodzvanya kumwe chete.",
     },
     dropshipping_dialog: {
       title: "Wedzera chinhu zvigadzirwa",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "chinhu, chinhu chinhu rondedzero chinhu zvigadzirwa chinhu Selldone, chinhu chinhu Inowanikwa chinhu chinhu , chinhu chinhu ",
+      "Pano, unogona kuwana vatengesi vanonyora zvigadzirwa zvavo paSelldone, zvichiita kuti zviwanikwe kune vamwe vatengesi. Selldone yakavakirwa-mukati yekudonhedza chikuva inorerutsa maitiro, ichiita kuti ive nyore uye yakatwasuka kune vese vatengesi nevatengesi.",
   },
 
   /** @see Affiliates **/
@@ -5892,13 +5892,13 @@ export default {
       new: "chitsva mubatsiri chinhu",
       edit: "Rongedza mubatsiri chinhu",
       subtitle:
-        "chinhu chinhu chinhu marongero chinhu Zita chinhu chinhu mubatsiri chinhu",
+        "Gadzirisa zvigadziriso zvakajairika uye zita remubatanidzwa pano.",
     },
 
     payment: {
       title: "💳 Kubhadhara ruzivo",
       subtitle:
-        "chinhu chinhu Komisheni chinhu chinhu chinhu mubatsiri chinhu chinhu komisheni, chinhu chinhu chinhu komisheni chinhu chinhu chigadzirwa",
+        "Seta chimiro chekomisheni yemubatanidzwa. Iwe unogona kusanganisa yakatarwa uye muzana-yakavakirwa makomisheni, kana kuseta chaiwo makomisheni kune chimwe nechimwe chigadzirwa.",
     },
 
     contact: {
@@ -5909,18 +5909,18 @@ export default {
     restriction: {
       title: "Komisheni kurambidzwa",
       subtitle:
-        "chinhu chinhu zvigadzirwa chinhu chinhu chinhu Komisheni chinhu chinhu chinhu komisheni chinhu chinhu zvigadzirwa",
+        "Tsanangura kuti ndezvipi zvigadzirwa zvinokodzera kukomisheni. Iwe unogona kudzora makomisheni kune zvimwe zvigadzirwa.",
     },
 
     link_domain: {
       title: "chakabatanidzwa domeini",
       subtitle:
-        "chinongedzo chinhu chinhu chinhu madomeini chinhu chinhu mubatsiri chinhu chinhu domeini chinhu chinhu mubatsiri",
+        "Batanidza imwe yemadomasi ako kune uyu wakabatana naye. Vashanyi vanotenga kuburikidza neiyi dhomeini vanozoverengerwa kune ino affiliate.",
 
       domain_not_approved_msg: "chinhu domeini chinhu chinhu !",
       domain_is_not_enable_msg: "chinhu domeini chinhu chinhu yakagoneswa!",
       domain_is_linked_to_other_affiliate_msg:
-        "chinhu domeini chinhu chinhu chakabatanidzwa chinhu chinhu mubatsiri!",
+        "Iyi domain yakatobatanidzwa kune imwe affiliate!",
     },
 
     set_users_first_message: "chinhu chinhu chinhu mushandisi chinhu!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu mubatsiri chinhu chinhu Tonga chinhu chinhu chinhu Zviwanikwa chinhu chinhu chinhu",
+        "Batanidza iyi yakabatana nechikwata kuti uibate pamwe chete nezvimwe zviwanikwa munzvimbo imwechete.",
       manage_action: "Tonga",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "mubatsiri chinhu Zita",
-        message: "chinhu, chinhu chinhu, chinhu kambani, chinhu chinhu, chinhu",
+        message: "semuenzaniso, John Doe, Alex Kambani, X Vashambadziri, nezvimwe.",
       },
       commission: {
         label: "Komisheni chinhu",
         false_description:
           "chinhu chinhu komisheni",
         true_description:
-          "chinhu chinhu chinhu komisheni chinhu chinhu chinhu mitengo chinhu",
+          "Verenga uchishandisa chigadzirwa-chaicho makomisheni akaiswa mune yemitengo tebhu.",
         false_title: "chinhu + chinhu Komisheni",
         true_title: "chinhu Komisheni",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "mubatsiri chinhu chinhu odha chinhu chinhu chinhu Vatengi chinhu chinhu chinhu",
+          "Vanobatana vanogona kuisa maodha zvakananga kune vatengi vavo kuburikidza nepaneru yavo.",
         true_title: "POS kupinda",
       },
       enable: {
         true_description:
-          "chinhu chinhu mubatsiri chinhu inoshanda? chinhu kusashanda, chinhu mubatsiri chinhu chinhu odha chinhu chinhu chinhu chinongedzo",
+          "Affiliate iyi iri kushanda parizvino here? Kana isingashande, chirongwa chavo chekubatana hachishande kune maodha akaitwa kuburikidza nekubatanidza kwavo.",
       },
       products: {
         label: "zvigadzirwa chinhu chinhu Komisheni",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "chinhu chinhu mubatsiri chinhu chinhu chinhu Kubva chinhu chitoro mubatsiri ruzivo chinhu chinhu Nguva chinhu chinhu",
+        "Iwe unogona kugadzirisa chero zvikwereti zvasara neaffiliate usati wazvibvisa muchitoro chako. Ruzivo rwemubatanidzwa rucharamba ruchiwanikwa kwenguva shoma mushure mekubviswa.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "yakagadzirirwa mitengo chinhu chinhu",
     subtitle:
-      "chinhu chinhu chinhu (chinhu mitengo chinopinda fomu) chinhu chinhu chigadzirwa, chinhu Vatengi chinhu Sarudza chinhu chinhu mutengo chinhu chinhu chinhu yakagadzirirwa zvinopinda",
+      "Ipa kukosha (fomu rekuisa mitengo) kune chigadzirwa, uchibvumira vatengi kusarudza zvakasiyana kana kugadzirisa zvinhu zvako. Iyo sisitimu inozoverengera mutengo zvichienderana neyakajairwa inopinza.",
     add_valuation_action: "Gadzira chitsva chinhu fomu",
     empty_message:
       "chinhu chinhu , chinhu chinhu chigadzirwa",
     delete_dialog: {
       title: "chinhu Bvisa",
       message:
-        "chinhu chinhu Dzima chinhu mitengo fomu? chinhu chinhu yakagadzirirwa mitengo chinhu chinhu chinhu Kubva zvose chinhu zvigadzirwa chinhu",
+        "Une chokwadi chekuti unoda kudzima fomu remitengo iri? Ndokumbirawo muve nechokwadi chekuti iyi tsika yemitengo yabviswa kubva kune zvese zvine chekuita nazvo kutanga.",
       action: "Hongu, bvisa izvozvi",
     },
     notifications: {
@@ -6033,26 +6033,26 @@ export default {
     title_add: "Gadzira chitsva chinhu fomu",
     config: {
       subtitle:
-        "chinhu chinhu Gadzira chinhu mitengo chinhu chinhu zvigadzirwa Tanga chinhu chinhu Zita",
+        "Misa hurongwa hwekuyeresa kuti ugadzire mitengo inochinjika uchishandisa mafomula uye matafura ereferenzi ezvigadzirwa zvako. Tanga nekupa kukosha uku zita rakasiyana.",
     },
     valuation_preview: "chinhu chinhu fomu",
     load_sample: "chinhu chinhu",
     conditions: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu yakagadzirirwa chinhu chinhu Kutonga chinhu chinhu chinhu",
+        "Tsanangura pfungwa yezvakasiyana zvakasiyana. Iyi gadziriso inorerutsa manejimendi ekusiyana kwekuwanikwa.",
     },
     structure: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu mitengo chinopinda fomu chinhu chinhu ",
+        "Gadzira fomu rako rekuisa mitengo pano nekubatanidza mafomula uye matafura ereferensi.",
       expand_action: "chinhu",
       collapse_action: "chinhu",
     },
     inputs: {
       title: {
         message: "chinhu musoro chinhu chinhu Vatengi",
-        placeholder: "chinhu chinhu Zita chinhu mitengo, chinhu, 'chinhu mitengo",
+        placeholder: "Isa zita remitengo, semuenzaniso, 'Mutengo weMugs'",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu chinhu discount kodhi chinhu chinhu: chinhu (LIMIT, PERCENT * chinhu mutengo). chinhu chinhu wana chinhu kodhi chinhu chinhu ",
+          "Iyo formula yekuverenga kodhi kodhi ndeye: max (LIMIT, PERCENT * mutengo wengoro). Rangarira kuita macode akakodzera uye nyore kurangarira.",
       },
       limit: {
         title: "chinhu",
         subtitle:
-          "chinhu chinhu zhinji chinhu chinhu discount kodhi, chinhu chinhu zhinji discount Mari, chinhu chinhu chinhu",
+          "Iwe unogona kutsanangura iyo yakanyanya muganho wekushandisa kune yega yega kodhi kodhi, pamwe neiyo yakanyanya kuderedzwa huwandu, muchikamu chino.",
       },
       duration: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu chinhu discount kodhi chinhu chinhu , chinhu chinhu ",
+          "Kana iwe uchida kumisa kodhi yedhisheni yenguva yakatarwa, unogona kumisa iyo nguva pano.",
       },
       design: {
         subtitle:
-          "chinhu chinhu musoro chinhu Tsanangudzo chinhu chinhu discount kodhi chinhu chinhu mushandisi",
+          "Iwe unogona kuseta zita uye tsananguro kune yega yega kodhi kodhi. Mashoko aya acharatidzwa kumushandisi.",
       },
       cluster: {
         subtitle:
-          "chinhu chinhu chinhu discount kodhi chinhu chinhu chinhu, chinhu chinhu chinhu Tonga chinhu chinhu chinhu Zviwanikwa chinhu chinhu chinhu Nzvimbo",
+          "Nekubatanidza iyi kodhi kodhi nesumbu, unogona kuibata zviri nyore pamwe chete nezvimwe zviwanikwa munzvimbo imwechete.",
       },
     },
     delete_alert: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "chinhu chinhu kuponi discount chinhu chinhu: CHARGE + chinhu (LIMIT, PERCENT * chinhu mutengo).",
+        "Iyo formula yecoupon discounts calculation ndeye: CHARGE + max (LIMIT, PERCENT * mutengo wengoro).",
     },
     limit: {
       subtitle:
-        "chinhu chinhu chinhu, chinhu chinhu zhinji chinhu chinhu kuponi chinhu chinhu chinhu discount Mari chinhu kuponi chinhu chinhu",
+        "Muchikamu chino, unokwanisa kuseta zvese zviri zviviri huwandu hwakanyanya hwekushandisa pacoupon uye yakanyanya kuderedzwa huwandu hwega hwega hunogona kupa.",
       zero_message: "chinhu: chinhu chinhu aihwa chinhu!",
     },
     duration: {
       subtitle:
-        "chinhu chinhu kuponi chinhu chinhu inoshanda, chinhu chinhu ",
+        "Kana iwe uchida kuseta yakatarwa nguva yekuti coupon ishande, unogona kugadzirisa nguva muchikamu chino.",
     },
     design: {
       subtitle:
-        "chinhu kuponi chinhu chinhu musoro chinhu Tsanangudzo chinhu chinhu mutengi",
+        "Iponi imwe neimwe inobvumira kuwedzerwa kwechinyorwa uye tsananguro. Mashoko aya achaonekwa nemutengi.",
     },
     constraints: {
       subtitle:
         "chinhu, chinhu chinhu kuponi",
       no_limit: "aihwa chinhu Kuganhurirwa",
       has_limit: "chinhu chinhu",
-      has_code_message: "mushandisi chinhu chinhu chinhu kodhi chinhu Wedzera kuponi",
+      has_code_message: "Mushandisi anofanira kuisa kodhi kuti awedzere coupon.",
     },
     club: {
       subtitle:
-        "chinhu Makuponi chinhu chinhu nhengo chinhu chinhu mutengi chinhu",
+        "Kushandiswa kwecouponi iyi kunogona kungoitwa chete kunhengo dzemakirabhu evatengi akasarudzwa.",
     },
     cluster: {
       subtitle:
-        "chinhu chinhu chinhu kuponi chinhu chinhu chinhu, chinhu chinhu chinhu Tonga chinhu chinhu chinhu Zviwanikwa chinhu chinhu chinhu Nzvimbo",
+        "Nekubatanidza coupon iyi neboka, unogona kuribata zviri nyore pamwe chete nezvimwe zviwanikwa munzvimbo imwechete.",
     },
     preview: {
-      subtitle: "chinhu chinhu Veruzhinji chinhu chinhu chinhu kuponi",
+      subtitle: "Heino tarisiro yeruzhinji yecouponi.",
     },
   },
 
@@ -6422,10 +6422,10 @@ export default {
     },
     config: {
       subtitle:
-        "chinhu chinhu musoro, Tsanangudzo, chinhu Veruzhinji chinhu chimiro",
+        "Tanga kugadzira chibvumirano chehungwaru nekumisikidza zita racho, tsananguro, uye chimiro chekuwanikwa kweveruzhinji.",
     },
     limit: {
-      subtitle: "chinhu chinhu zhinji chinhu chinhu chipo chinhu chinhu chinhu",
+      subtitle: "Isa muganhu wekushandiswa kwepamusoro pechipo ichi muchikamu chino.",
     },
     duration: {
       subtitle:
@@ -6433,16 +6433,16 @@ export default {
     },
     constraints: {
       subtitle:
-        "chinhu chinhu chipo chinhu chinhu chipo chinhu chinhu chinhu zvinhu chinhu chinhu ",
+        "Seta maitiro ekukodzera uye mamiriro ekupihwa pano. Mupiro unoshanda kune zvinhu zvengoro zvinosangana nemamiriro aya.",
     },
     discounted_products: {
       title: "discount zvigadzirwa",
       subtitle:
-        "chinhu chinhu zvigadzirwa chinhu chinhu chinhu chipo chinhu chinhu chinhu discount",
+        "Iwe unogona kutsanangura zvigadzirwa izvo zvinopihwa izvi zvinoshandisa kuderedzwa.",
     },
     cluster: {
       subtitle:
-        "chinhu chinhu chinhu chipo chinhu chinhu chinhu, chinhu chinhu chinhu Tonga chinhu chinhu chinhu Zviwanikwa chinhu chinhu chinhu Nzvimbo",
+        "Nekubatanidza ichi chinopihwa nesumbu, unogona kuzvibata zviri nyore pamwe chete nezvimwe zviwanikwa munzvimbo imwechete.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "mubatsiri chinongedzo",
       subtitle:
-        "chinhu chinhu chinhu chinongedzo chinhu chinhu mubatsiri chinhu chinhu chinhu kutengesa chinhu komisheni Wedzera chinhu kodhi '{code}' chinhu chinhu chinongedzo chinhu chinhu chinhu yakagadzirirwa chinhu domeini chinhu chinhu mubatsiri chinhu chinhu 48chinhu",
+        "Gadzira yakasarudzika chinongedzo kune waunofambidzana naye kuti atevere kutengesa uye makomisheni. Wedzera makodhi ekutumira '{code}' kune chero chinongedzo kana kupa nzvimbo yakatsaurirwa kune waunoshanda naye. Ichateverwa nehurongwa hwe48h.",
     },
     fix_commission: "chinhu Komisheni",
     percent_commission: "chinhu Komisheni",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "chinhu mutengi kutenga chinhu chinhu chitoro chinhu chinhu Vatengi chinhu chinhu kutenga chinhu chinhu 10 chinhu, chinhu chinhu chinhu chipo chinhu chinhu , chinhu chinhu Zvitoro chinhu",
+        "Wedzera kutenga kwevatengi vane gamified ruzivo muchitoro chako. Gadzira mibairo uye kuhwina odd kune vatengi vanowana tokeni kuburikidza nekutenga. Kutamba kwega kwega kunodhura 10 tokens, uye unogona kupa mibairo yakakosha yevatengi vekutanga. Mutambo wakasarudzika ndeye Wheel of Fortune, asi unogona kuigadzirisa kuti ikwane dhizaini yechitoro chako.",
     },
     empty_prize_list: "Gadzira chinhu Tonga chinhu chinhu",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "chinhu chinhu ",
     free_for_first: "Yemahara kune vatengi vatsva?",
     free_for_first_message: "Vatengi vatsva vanogona kuhwina chinhu ichi.",
-    not_free_for_first_message: "chinhu chinhu chinhu Inowanikwa chinhu chinhu mahara chinhu",
+    not_free_for_first_message: "Mubairo uyu hauwanikwe pakutamba mahara kwekutanga.",
 
     amount: "Mubayiro wemari",
     amount_hint: "Vashandisi vanohwina huwandu uhu hwechaji nekuda kweodha yavo.",
@@ -6614,11 +6614,11 @@ export default {
     },
     config: {
       subtitle:
-        "chinhu, chinhu chinhu Gadzira chinhu Zvitoro Rotari chinhu chinhu chinhu musoro, Tsanangudzo, chinhu, chinhu mufananidzo chinhu chinhu chinhu",
+        "Pano, iwe unogona kugadzira yako shopu mibairo yerotari. Seta musoro, tsananguro, ruvara, uye mufananidzo pamubairo wega wega.",
     },
     design: {
       subtitle:
-        "chinhu, chinhu chinhu mufananidzo chinhu chinhu ",
+        "Pano, iwe une sarudzo yekusarudza mufananidzo uye ruvara rwemubairo.",
     },
     constraints: {
       subtitle: "chinhu chinhu ",
@@ -6626,11 +6626,11 @@ export default {
     prize: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu discount kodhi, Chipo Makadhi, chinhu, chinhu chinhu discount chinhu Rotari chinhu",
+        "Rongedza ruzivo rwemubairo pano. Sarudzo dzinosanganisira kuderedzwa makodhi, makadhi ezvipo, makiredhiti, uye zvimwe zvidzikiso semibairo yerotari.",
     },
     product_input: {
       label: "chigadzirwa chinhu",
-      message: "Sarudza chinhu chigadzirwa chinhu chinhu (chinhu mahara)",
+      message: "Sarudza chigadzirwa chemubairo (wemahara)",
     },
   },
 
@@ -7047,9 +7047,9 @@ export default {
         subtitle: "chinhu chinhu ",
         sample_files: "chinhu mafaira",
         valid_vendor_name_needed:
-          "chinhu chinhu <b>chinhu Zita</b>. chinhu <b>Zita</b> chinhu chinhu <i>Gadzira</i> chinhu chitsva mutengesi chinhu <i>Gadziridza</i> chinhu chinhu chinhu",
+          "Unofanira kupa <b>zita rinoshanda</b>. <b>zita</b> rinoshandiswa kuona kuti <i>Kugadzira</i> mutengesi mutsva here kana <i>Kuvandudza</i> iripo.",
         assign_user_after_import:
-          "chinhu Pinza vatengesi, chinhu chinhu mushandisi chinhu chinhu chinhu kupinda chinhu chinhu mutengesi chinhu",
+          "Mushure mekutumira vatengesi kunze kwenyika, unogona kugovera mushandisi kuti avape mukana kune vatengesi vepaneru.",
       },
       need_kyc_alert:
         "chinhu chinhu ruzivo chinhu Pinza vatengesi",
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "mutengesi zvigadzirwa",
     subtitle:
-      "chinhu chinhu rondedzero zvose zvigadzirwa chipo chinhu vatengesi chinhu chinhu chinhu, chinhu chigadzirwa chinhu chinhu chakabatanidzwa chinhu chinhu chinhu Zvimwe. . vatengesi chinhu mutengesi chinhu chinhu chinhu chigadzirwa chinhu chinhu Zvinosanganisira stock chinhu mitengo chinhu chinhu mutengesi",
+      "Iyi catalog inonyora zvese zvigadzirwa zvinopihwa nevatengesi. Mumusika, chigadzirwa chinogona kubatanidzwa kune mumwe kana kupfuura vatengesi. Mutengesi wega wega ane chekuita nechigadzirwa ane yakasarudzika yekupinda iyo inosanganisira inventory uye mitengo yemitengo yakanangana nemutengesi iyeye.",
     filter_vendor: {
       placeholder: "Sefa chinhu mutengesi",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "chinhu vatengesi chinhu",
     title: "mutengesi chinhu rondedzero",
     subtitle:
-      "chinhu chinhu chinhu rondedzero chinhu Zvikumbiro Kubva chinhu chinhu vatengesi chinhu chinhu chinhu",
+      "Iyi rondedzero yezvikumbiro kubva kune vanhu vakanyorera kuti vave vatengesi pamusika wako.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,83 +7088,83 @@ export default {
     marketplace: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu , chinhu chinhu chitoro chinhu chinhu marongero",
+        "Kudzima musika kunodzima mamwe maitiro. Kana iwe uchida kuvhara musika wako wese, unofanirwa kudzima chitoro chako muzvirongwa.",
     },
     distribution_model: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu vatengesi chinhu chinhu zvinhu chinhu chinhu odha chinhu chinhu Imba yekuchengetera chinhu kutumira, chinhu chinhu ",
+        "Misika inogona kushanda pasi pemhando dzakasiyana dzekugovera. Kunyangwe iwe uchida vatengesi kutumira zvinhu zvakananga kune vatengi kana kubatanidza maodha panzvimbo yako yekuchengetera yekutumira, unogona kusarudza iyo modhi inonyatsoenderana nezvido zvako pano.",
     },
     access: {
       title: "mutengesi kupinda",
       subtitle:
-        "chinhu chinhu chinhu, chinhu chinhu kupinda vatengesi chinhu chinhu chinhu chigadzirwa bhodhi rekutonga chinhu chinhu kupinda marongero chinhu chinhu vatengesi chinhu Wedzera chinhu chinhu zvigadzirwa chinhu zvikamu chinhu chinhu chinhu kupinda chinhu chinhu chinhu",
+        "Semunhu maneja, iwe unodzora mwero wekuwana vatengesi kune chigadzirwa dashboard. Gadzirisa magadzirirwo epasi rose kuti abvumire vatengesi kuti vawedzere zvigadzirwa zvavo uye zvikamu kana kurambidza iyi kupinda kune manejimendi chete.",
     },
     need_enable_shipping_for_vendors_tips:
-      "chinhu kutumira chinhu vatengesi chinhu chinhu chitoro > chinhu chinhu nzira chinhu",
-    transportation_available_tooltip: "chinhu chinhu chinhu Inowanikwa chinhu vatengesi",
+      "Gonesa kutumira kwevatengesi muShop> Logistic tab yenzira yega yega.",
+    transportation_available_tooltip: "Iyi sarudzo inowanikwa kune vatengesi.",
     transportation_not_available_tooltip:
-      "chinhu Inowanikwa chinhu vatengesi! chinhu chinhu marongero",
+      "Haiwanikwi kune vatengesi! Iwe unogona kuigonesa muzvirongwa zvekufambisa.",
     panel: {
       title: "mutengesi chinhu",
-      subtitle: "chinhu chinhu vatengesi chinhu chinhu yakagadzirirwa domeini",
+      subtitle: "Panda vatengesi vako kuburikidza neyako tsika domain.",
     },
     documents: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu vatengesi chinhu Isa chinhu chinhu ",
+        "Iwe unogona kuda kuti vatengesi vako vaise magwaro kana kusaina zvimwe zvibvumirano. Taura magwaro anodiwa pano.",
       add_document_action: "Wedzera chinhu chinhu",
     },
     inputs: {
       enable: {
         false_description:
-          "chinhu chinhu , chinhu zvose chinhu chinhu",
+          "Musika wakadzimwa, zvichivharisa mabasa ese emusika.",
         true_description:
-          "chinhu chinhu chinhu inoshanda, chinhu zvose chinhu chinhu",
+          "Musika wacho unoshanda, uchigonesa mabasa ese emusika.",
       },
       product: {
         label: "Wedzera chigadzirwa chitsva",
         true_title: "vatengesi chinhu Wedzera zvigadzirwa",
         false_description:
-          "chinhu Wedzera zvigadzirwa chinhu chinhu vatengesi vatengesi chinhu chinhu Tonga mutengo chinhu stock",
+          "Iwe unowedzera zvigadzirwa uye unopa vatengesi. Vatengesi vanogona chete kutonga mutengo uye inventory.",
         true_description:
-          "vatengesi chinhu Wedzera chinhu Tonga chinhu chinhu zvigadzirwa chinhu chinhu chinhu mutengesi chinhu",
+          "Vatengesi vanogona kuwedzera nekugadzirisa zvigadzirwa zvavo zvakananga mupaneri yavo yevatengesi.",
       },
       need_verify: {
         label: "chigadzirwa chinhu chinhu",
         false_description: "chitsva mutengesi zvigadzirwa chinhu Rarama chinhu",
         false_title: "aihwa chinhu chinhu",
         true_description:
-          "vatengesi chitsva zvigadzirwa chinhu chinhu Rarama chinhu chinhu chinhu",
+          "Zvigadzirwa zvitsva zvevatengesi zvinoda mvumo zvisati zvaenda kumusika.",
         true_title: "chinhu chinhu",
       },
       category: {
         label: "Wedzera chikamu chitsva",
         true_title: "vatengesi chinhu Wedzera zvikamu",
         false_description:
-          "chinhu Wedzera zvikamu vatengesi chinhu chinhu Wedzera zvigadzirwa chinhu chinhu zvikamu",
+          "Iwe unowedzera zvikamu. Vatengesi vanogona chete kuwedzera zvigadzirwa kumapoka aripo.",
         true_description:
-          "vatengesi chinhu Wedzera chinhu Tonga zvikamu chinhu chinhu chinhu mutengesi chinhu",
+          "Vatengesi vanogona kuwedzera nekugadzirisa zvikamu zvakananga mupaneri yavo yevatengesi.",
       },
       shipping: {
         label: "kutumira chinhu",
         true_title: "vatengesi chinhu kutumira chinhu",
         false_description:
-          "vatengesi chinhu Wedzera chinhu chinhu chinhu kutumira nzira",
+          "Vatengesi havagone kuwedzera kana kugadzirisa nzira dzavo dzekutumira.",
         true_description:
-          "vatengesi chinhu chinhu kutumira nzira, Wedzera chinhu, chinhu chinhu kutumira chinhu chinhu chinhu",
+          "Vatengesi vanogona kumisikidza nzira dzavo dzekutumira, kuwedzera vatakuri, uye kugadzirisa kutumira kune zvavanoda.",
       },
       hidden_customer: {
         label: "Ratidza chinhu chinhu ruzivo",
         true_description: "chinhu chinhu Kubva vatengesi",
         false_description:
-          "chinhu chinhu chinhu, chinhu chinhu foni chinhu email, chinhu chinhu chinhu vatengesi",
+          "Mutengi wekuonana naye, senge foni uye email, anoonekwa kune vatengesi.",
       },
       multi: {
         false_description:
-          "chinhu mushandisi chinhu chinhu mutengesi akaundi Vashandisi chinhu chinhu /vatengesi",
+          "Mushandisi anogona kuve neakaundi imwe chete yemutengesi. Vashandisi vanozoendeswa kune yavo mapaneru pa / vatengesi.",
         true_description:
-          "chinhu mushandisi chinhu chinhu chinhu mutengesi maakaundi chinhu chinhu ; chinhu chinhu ",
+          "Mushandisi anogona kuve nemaakaundi akawanda evatengesi. Ichi chiitiko chebeta; ndapota taura nesu tisati taishandisa.",
         true_title: "chinhu modhi",
         false_title: "chinhu mutengesi modhi (chinhu)",
       },
@@ -7174,7 +7174,7 @@ export default {
         true_description: "Kunyora chinhu yakagoneswa chinhu vatengesi vatengesi chinhu Tonga Kunyora zvinhu chinhu Makambani",
         false_description: "Kunyora chinhu yakadzimwa chinhu vatengesi chinhu chinhu chitoro Muridzi chinhu Tonga Kunyora zvinhu chinhu Makambani",
         requires_listing_active_text:
-          "chinhu chinhu vatengesi chinhu Kunyora (zvinhu + Makambani), chinhu chinhu chinhu chitoro Kunyora chinhu chinhu chiteshi → Kunyora chinhu chinhu mutengesi kupinda",
+          "Kurega vatengesi vashandise Rondedzero (zvinhu + makambani), tanga wagonesa chitoro Chinyorwa chimiro muChannel → Kunyora. Wodzoka pano kuti ubvumire mutengesi kuwana.",
         requires_listing_active_button: "chinhu chiteshi Kunyora marongero",
       },
 
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "chinhu chinhu",
         subtitle:
-          "Wedzera chinhu chinhu vatengesi chinhu, chinhu chinhu chinhu Isa chinhu chinhu chinhu",
+          "Wedzera chinhu chekukumbira gwaro pano. Ichaonekwa mupanera remutengesi, zvichiita kuti vatore gwaro rinodiwa.",
       },
       guide: {
         title: "gwara",
         subtitle:
-          "chinhu chinhu chinhu gwara chinhu rubatsiro vatengesi chinhu chinhu Isa chinhu chinhu ",
+          "Ipa gwara pfupi rekubatsira vatengesi kuti vanzwisise kuti ndeapi magwaro ekuisa uye maitirwo emazvo nemazvo.",
       },
       code: {
         title: "chinhu kodhi",
         subtitle:
-          "chinhu chinhu chinhu kodhi chinhu chinhu chinhu, fomu, chinhu chinhu mutengesi chinhu chinhu",
+          "Namira iyo embed kodhi yegwaro, fomu, kana chibvumirano icho mutengesi anofanira kusaina.",
       },
       link: {
         title: "chinhu chinongedzo",
         subtitle:
-          "chinhu chinhu chinhu chinongedzo chinhu chinhu mutengesi chinhu chinhu",
+          "Ipa chinongedzo chekunze kune gwaro kana chibvumirano icho mutengesi anofanira kusaina.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "gwara (sarudzo)",
           placeholder:
-            "chinhu, chinhu chinhu chinhu gwara chinhu chinhu, chinhu chinongedzo chinhu chinhu ",
+            "Sarudzo, ipa mupfupi gwara kana mirairo, kusanganisira zvinongedzo kune zvibvumirano kana mamwe magwaro.",
         },
         code: {
           label: "chinhu kodhi",
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "chinhu modhi",
       description:
-        "chinhu chinhu modhi, zvose odha chinhu chinhu Imba yekuchengetera chinhu chinhu chinhu Yakatumirwa chinhu Vatengi Kubva chinhu chinhu Nzvimbo vatengesi chinhu chinhu chinhu zvinhu chinhu chinhu Imba yekuchengetera, chinhu chinhu kutumira kero chinhu vatengesi chinhu chinhu chinhu Imba yekuchengetera kero",
+        "Mune iyi modhi, maodha ese anotumirwa kuimba yako yekuchengetera kutanga obva atumirwa kune vatengi kubva kunzvimbo yepakati. Vatengesi vachatumira zvinhu zvavo kudura rako, saka kero yekutumira yevatengesi ichava kero yako yekuchengetera.",
     },
     Direct: {
       title: "chinhu kutumira Kubva mutengesi",
       description:
-        "chinhu chinhu modhi, vatengesi chinhu odha chinhu chinhu Vatengi chinhu kutumira kero chinhu mutengesi odha chinhu chinhu kero",
+        "Mune iyi modhi, vatengesi vanotumira maodha zvakananga kune vatengi. Kero yekutumira yemirairo yevatengesi ichava kero yemutengi.",
     },
   },
   /**
@@ -7251,17 +7251,17 @@ export default {
     Identification: {
       title: "Muridzi chinhu chinhu",
       description:
-        "Isa chinhu chinhu ID chinhu chinhu chinhu KYC chinhu chinhu bhizinesi Muridzi chinhu chinhu chinhu",
+        "Isa chitupa chakapihwa nehurumende kuratidza kuti muridzi webhizinesi ndiani kana key executive.",
     },
     Business: {
       title: "bhizinesi chinhu",
       description:
-        "chinhu chinhu bhizinesi chinhu chinhu chinhu rezinesi chinhu chinhu chimiro chinhu chinhu bhizinesi",
+        "Ipa akakosha magwaro ebhizinesi senge marezinesi kana zvitupa zvekunyoresa kuratidza mamiriro epamutemo ebhizinesi rako.",
     },
     Address: {
       title: "kero chinhu",
       description:
-        "chinhu chinhu bhizinesi kero, chinhu chinhu , Mutero invoice, chinhu chinhu chinhu",
+        "Tumira gwaro rekuona kero yebhizinesi rako, senge bhiri rekushandisa, invoice yemutero, kana chibvumirano chekurenda.",
     },
     Contract: {
       title: "chinhu & chinhu",
@@ -7271,22 +7271,22 @@ export default {
     Copyright: {
       title: "chinhu chinhu",
       description:
-        "chinhu chinhu ",
+        "Ipa magwaro ekunyoreswa kwekodzero yekusimbisa kodzero dzako dzepfuma.",
     },
     Privacy: {
       title: "chinhu mutemo chinhu",
       description:
-        "chinhu chinhu chinhu mutemo chinhu chinhu mushandisi chinhu mutengi ruzivo",
+        "Sanganisira magwaro ako ekuvanzika mutemo kuratidza kuzvipira kwako kuchengetedza mushandisi uye ruzivo rwevatengi.",
     },
     Embed: {
       title: "chinhu fomu",
       description:
-        "chinhu chinhu chinhu fomu chinhu chinhu ruzivo",
+        "Zadza fomu rakaiswa kuti upe ruzivo rwunodiwa.",
     },
     Link: {
       title: "chinhu chinongedzo",
       description:
-        "chinhu chinhu chinhu chinongedzo chinhu chinhu ruzivo",
+        "Tevedzera chinongedzo chekunze kuti upe ruzivo rwakakodzera.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "mutengesi zvikwama",
     subtitle:
-      "aihwa chinhu chinhu chinhu Wedzera zvikwama! mutengesi zvikwama chinhu chinhu 💳 Kubhadhara nzira chinhu rutsigiro chinhu chinhu (Kuda Stripe Connect), chinhu chinhu kubhadhara chinhu chinhu Yakabatanidzwa vatengesi maakaundi chinhu chinhu yakagoneswa, chinhu chinhu vatengesi, chinhu chinhu mari chinhu chinhu chikwama rondedzero",
+      "Hapana chikonzero chekuwedzera mawallet pamaoko! Vendor wallets inogadzirwa otomatiki. Kana iwe ukagonesa nzira yekubhadhara inotsigira kupatsanurwa kubhadhara (seStripe Connect), sisitimu inongogovera mabhadharo kumaakaundi evatengesi akabatana. Kana iyi ficha isina kugoneswa, iwe unozofanirwa kubhadhara nemaoko vatengesi, uye iwe unogona kutarisa mari yavanokweretwa muwallet runyorwa.",
     filter_vendor: {
       placeholder: "Sefa chinhu mutengesi",
     },
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "chinhu chinhu rondedzero chinhu zvose transactions chinhu chinhu Sarudza chikwama chinhu chinhu transaction chinhu chinhu mutengi chinhu chinhu odha chinhu chinhu odha chinhu chinhu kudzosera mari, chinhu chinhu kudzosera mari transaction chinhu chinhu ",
+      "Ichi chikamu chinopa runyoro rwakadzama rwese kutengeserana kwechikwama chakasarudzwa. Mutengi wekutengesa unorekodhwa kana mutengi akabudirira kubhadhara odha. Kana odha ikakanzurwa kana kudzoserwa zvishoma, mari inoenderana nayo inorekodhwa pano.",
     vendor_bank: "mutengesi chinhu",
     order_fee: "odha chinhu",
     order_refund: "odha kudzosera mari",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "chinhu Nhoroondo",
     subtitle:
-      "chinhu chinhu chinhu akaundi chinhu chinhu vatengesi chinhu chinhu zvose transactions kubhadhara chinhu chinhu nzira, chinhu chinhu 💳 Kubhadhara chinhu chinhu rutsigiro chinhu kubhadhara, Kuda chinhu",
+      "Iyi ficha inokwenenzvera accounting iwe nevatengesi vako nekuchengeta rekodhi yakadzama yezvese kutengeserana. Kubhadhara kunogona kugadziriswa nemawoko kuburikidza nekuchinja kwebhangi kana dzimwe nzira, kana kudzorwa otomatiki nevatambi vekubhadhara vanotsigira kupatsanurwa kubhadhara, seStripe.",
     top_up_vendor_action: "chinhu chinhu mutengesi akaundi",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "mitengo Zvirongwa",
     subtitle:
-      "chinhu chinhu mitengo chinhu chinhu , Kuda chinhu 5% chinhu chinhu zvigadzirwa chinhu wana mitengo Kutonga chinhu chinhu Zvimwe. . chinhu",
+      "Misa mhando dzemitengo yemusika wako, senge 5% yemubhadharo wemariji yezvigadzirwa zvedhijitari. Izvi zvinoita kuti manejimendi emitengo ikurumidze uye ishande.",
     add_pricing_action: "Wedzera mitengo Ronga",
   },
 
@@ -7341,10 +7341,10 @@ export default {
   vendor_pricing_add: {
     title: "chinhu mitengo chinhu",
     subtitle:
-      "chinhu chinhu mitengo chinhu chinhu mutengesi zvigadzirwa, chinhu mutengo chinhu chinhu mutengesi mutengo * (1 + Komisheni%).",
+      "Paunopa modhi yemitengo kune zvigadzirwa zvevatengesi, mutengo unozoverengerwa otomatiki seVendor Price * (1 + Commission%).",
     delete: {
       subtitle:
-        "chinhu chinhu mitengo chinhu chinhu chinhu zvose mutengesi zvigadzirwa chakabatanidzwa chinhu chinhu mitengo chinhu, wana chinhu chinhu Gadziridza zvose mutengesi zvigadzirwa chinhu chinhu mitengo chinhu",
+        "Kudzima modhi yemitengo kuchakanganisa zvese zvigadzirwa zvevatengesi zvakabatana nazvo. Usati wabvisa modhi yemitengo, ita shuwa yekuvandudza zvese zvigadzirwa zvevatengesi uchiishandisa uye kuvapa imwe mhando yemitengo.",
       remove_pricing_action: "Bvisa mitengo chinhu",
     },
     inputs: {
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "chinhu, chinhu zvigadzirwa chinhu",
       },
       description: {
-        placeholder: "chinhu chinhu Wedzera chinhu Cherechedza chinhu",
+        placeholder: "Unogona kuwedzera chinyorwa pano...",
       },
       accept_delete: {
-        true_description: "chinhu chinhu chinhu Dzima chinhu mitengo chinhu",
+        true_description: "Ndinoda kudzima iyi modhi yemitengo.",
         true_title: "chinhu mitengo chinhu chinhu",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "mutengesi",
       subtitle:
-        "Sarudza chinhu mutengesi chinhu chinhu Sarudza, Inowanikwa 💳 Kubhadhara chinhu chinhu yakagoneswa chinhu 💳 Kubhadhara gedhi, chinhu chinhu ",
+        "Sarudza mutengesi waunoda kuendesa mari kwaari. Kana yangosarudzwa, sarudzo dzekubhadhara dziripo dzicharatidzwa. Kana iwe wakagonesa kubhadhara-kukwanisa kubhadhara magedhi, sarudzo idzi dzichaonekwawo pano.",
     },
     vendor_wallet: "mutengesi chikwama",
     vendor_bank_account: "mutengesi chinhu akaundi",
     with_balance_tooltip:
-      "chinhu chinhu batanidza chinhu masevhisi Kuda Stripe Connect, chinhu chinhu Inowanikwa chinhu chinhu chinhu Stripe akaundi chinhu chinhu",
+      "Kana iwe ukabatanidza masevhisi ekubhadhara seStripe Connect, tinotora uye toratidza chiyero chiripo muStripe account yako sereferensi.",
     with_balance: "chinhu chinhu",
     without_balance: "chinhu chinhu - chinhu modhi",
     bank_transfer: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu 💳 Kubhadhara Nhoroondo aihwa chinhu mari chinhu chinhu mutengesi chinhu chinhu chinhu; chinhu chinhu vatengesi",
+        "Ichi chinyorwa chenhoroondo yekubhadhara. Hapana mari chaiyo ichaendeswa kune mutengesi nehurongwa; iwe unofanirwa kubhadhara nemaoko vatengesi vako.",
     },
     vendor_bank: "mutengesi chinhu",
     gateway_in_debug_mode_warning:
-      "chinhu chinhu 💳 Kubhadhara gedhi chinhu chinhu modhi, chinhu chinhu akaundi",
+      "Sezvo gedhi rekubhadhara parizvino riri mudebug mode, mari haizoendeswa kuaccount chaiyo.",
     payment: {
       title: "💳 Kubhadhara",
       subtitle:
-        "chinhu chinhu Mari chinhu chinhu chinhu Mari chinhu chinhu mutengesi chinhu chinhu Mari, chinhu chinhu Kubva chinhu vatengesi chikwama chinhu Yakabatanidzwa maakaundi chinhu chinhu chinhu, chinhu chinhu Kubva chinhu Yakabatanidzwa akaundi, chinhu chinhu chinhu vatengesi Stripe akaundi",
+        "Sarudza mari uye isa mari yaunoda kuendesa kune mutengesi. Kana iwe ukaisa mari yakaipa, mari yacho ichabviswa kubva pachikwama chemutengesi. Kumaakaundi akabatana ane sarudzo dzekubhadhara, mari yacho inobviswa kubva kuakaundi yakabatana, senge account yemutengesi yeStripe.",
     },
     history: {
       title: "Nhoroondo",
       subtitle:
-        "chinhu chinhu chinhu 💳 Kubhadhara chinhu chinhu kudzosera mari chinhu chinhu , chinhu chinhu Kubva chinhu vatengesi akaundi chinhu Akadzoka chinhu chinhu akaundi",
+        "Chikamu chemubhadharo uyu chadzoserwa kuburikidza nekuchinjisa mari, zvichireva kuti mari yabviswa kuaccount yemutengesi ndokudzorerwa kuaccount yako.",
     },
     refund: {
       title: "kudzosera mari",
       subtitle:
-        "chinhu kudzosera mari Mari chinhu chinhu chinhu Kubva chinhu vatengesi chinhu zvose kubhadhara (chinhu chinhu mari) chinhu chinhu vatengesi akaundi (Kuda Stripe Connect) chinhu chinhu kudzosera mari chinhu chinhu ",
+        "Mari yakadzoserwa ichabviswa pasara yemutengesi. Kubhadhara kwese (kana mari yasara) muakaundi yemutengesi (seStripe Connect) inodzoserwa kuburikidza nekudzosera kumashure.",
     },
     inputs: {
       vendor: {
@@ -7405,10 +7405,10 @@ export default {
       },
       note: {
         placeholder:
-          "chinhu chinhu Wedzera chinhu Cherechedza chinhu chinhu Cherechedza chinhu chinhu mutengesi",
+          "Iwe unogona kuwedzera chinyorwa pano ... Ichi chinyorwa hachioneki kune mutengesi.",
       },
       accept_refund: {
-        true_description: "chinhu chinhu chinhu Kanzura chinhu 💳 Kubhadhara",
+        true_description: "Ndinoda kukanzura mubhadharo uyu.",
         true_title: "Kanzura & kudzosera mari 💳 Kubhadhara",
       },
     },
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "chinhu chinhu",
         message:
-          "chinhu vatengesi chinhu chinhu Yakapedzwa chinhu, chinhu mari chinhu Kubva chinhu chinhu chikwama chinhu Wedzera chinhu chinhu chikwama chinhu",
+          "Kudzoserwa kwehomwe yemutengesi kwakapedzwa zvinobudirira, nemari yakatamiswa kubva kubhangi kuenda kuchikwama uye yakawedzerwa kune chikwama chemari.",
       },
       payout_success: {
         title: "chinhu",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "chinhu",
-    max_batch_msg: "zhinji chinhu chinhu zvinhu chinhu chinhu Pinza chinhu chinhu ",
-    max_daily_limit_msg: "zhinji chinhu chinhu zvinhu chinhu chinhu Pinza chinhu chinhu chinhu",
+    max_batch_msg: "Nhamba yepamusoro yezvinhu zvaunogona kuunza mubatch imwe chete.",
+    max_daily_limit_msg: "Nhamba yepamusoro yezvinhu zvaunogona kuunza mukati mezuva.",
     extra_daily_limit_msg: "chinhu zvinhu chinhu chinhu ",
     add_items_today_msg: "zvinhu Wedzera Nhasi",
     file_statistic_msg: "chinhu chinhu chinhu faira",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "chinhu musoro",
-      subtitle: "chinhu Urefu chinhu chinhu musoro chinhu chinhu chinhu",
+      subtitle: "Kureba kwemusoro kuchagadzirisa zvine simba.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "chinhu chinhu",
         false_description:
-          "zvikamu chinhu zvigadzirwa chinhu chinhu Ratidza chinhu chinhu",
+          "Zvikamu uye zvigadzirwa zvine animation inopindirana kuratidza kushanda.",
         true_title: "chinhu",
         true_description: "zvikamu chinhu zvigadzirwa chinhu aihwa chinhu",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "chinhu Zviito",
       hover: {
         false_description:
-          "chinhu chinhu chinhu modhi chinhu chinhu chinhu Zviito chinhu chigadzirwa Makadhi",
+          "Yakareruka uye yakaderera modhi pasina chero zviito zvekuwedzera pamakadhi echigadzirwa.",
         true_description:
-          "Ratidza chinhu chinhu & Wedzera chinhu chinhu chigadzirwa kadhi chinhu",
+          "Ratidza Kurumidza kutenga & Wedzera kuenzanisa mabhatani echigadzirwa kadhi rinotenderera.",
         true_title: "Ratidza chinhu chinhu chinhu",
       },
     },
@@ -7530,7 +7530,7 @@ export default {
       only_available: {
         false_description: "Ratidza zvose zvigadzirwa chinhu chinhu chitoro rondedzero chinhu chinhu",
         true_description:
-          "Ratidza chinhu Inowanikwa zvigadzirwa chinhu chinhu chitoro rondedzero chinhu chinhu",
+          "Ratidza zvigadzirwa zvinowanika chete muchitoro rondedzero seyakagadzika.",
         true_title: "Inowanikwa zvigadzirwa",
         false_title: "zvose zvigadzirwa",
       },
@@ -7549,21 +7549,21 @@ export default {
     product_page: {
       title: "chigadzirwa peji",
       subtitle:
-        "chinhu chinhu chigadzirwa peji chinhu chinhu Mitengo chinhu chinhu ",
+        "Gadzirisa chako chigadzirwa peji pano. Iwe unogona kugadzirisa kuratidzwa kwemitengo uye kugadzirisa kurongeka kwezvikamu kuti zvienderane nezvaunoda.",
       buy_button_color: "chinhu chinhu chinhu",
       smart_price: {
         title: "chinhu yuniti mutengo",
         true_description:
-          "chinhu yuniti mutengo chinhu chinhu Kurema, volume, chinhu chinhu semuenzaniso chinhu chinhu 2chinhu chinhu chinhu $5 chinhu mutengo, chinhu chinhu mutengi ona chinhu $2.5/chinhu chinhu chinhu chigadzirwa peji",
+          "Kuverengera mutengo weyuniti nekufunga huremu, vhoriyamu, uye paki akasiyana pfuma. Ex. Kana muine musiyano une 2L size uye $5 semutengo, mutengi anoona $2.5/L papeji yechigadzirwa.",
       },
       reverse_currency: {
         title: "Mari chinhu chinhu",
         false_title: "chinhu modhi",
         true_title: "chinhu modhi",
         false_description:
-          "chinhu Mari chinhu chinhu Tanga chinhu chinhu chinhu semuenzaniso: $95, €30",
+          "Chiratidzo chemari chichaiswa pakutanga kwenhamba. Ex: $95 , €30",
         true_description:
-          "chinhu Mari chinhu chinhu pera chinhu chinhu chinhu semuenzaniso: 95$, 30€",
+          "Chiratidzo chemari chichaiswa pamagumo ehuwandu. Ex: 95$, 30€",
       },
       variants_selector: {
         title: "chinhu chinhu",
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "chinhu & login",
       subtitle:
-        "chinhu chinhu mutengesi chinhu chinhu login chinhu chinhu chinhu yakagadzirirwa Vhidhiyo, mufananidzo, chinhu Mharidzo",
+        "Gadzirisa mutengesi pabhodhi uye ruzivo rwekupinda neyakajairwa vhidhiyo, mufananidzo, kana meseji.",
     },
     inputs: {
       page_vendor_login: {
         label: "mutengesi login peji",
         message:
-          "Sarudza chinhu yakagadzirirwa Kudzika peji chinhu mutengesi login chinhu Vhidhiyo, mifananidzo, chinhu chinhu peji chinhu chinhu chinhu vatengesi chinhu chinhu ",
+          "Sarudza peji yekumhara yakasarudzika yekupinda kwevatengesi. Sanganisira vhidhiyo, mifananidzo, kana zvinyorwa zveakasarudzika dhizaini. Iri peji rinoratidzwa kune vatengesi vasina kupinda.",
       },
       page_vendor_registered: {
         label: "mutengesi chinhu peji",
         message:
-          "Sarudza chinhu yakagadzirirwa peji chinhu chinhu vatengesi chinhu peji chinhu chinhu rutsigiro chinhu vatengesi chinhu mushandisi",
+          "Sarudza peji yakasarudzika yevatengesi vapinda. Iri peji rinoratidzwa kana musika wako uchitsigira vatengesi vakawanda pamushandisi.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "yakagadzirirwa chinhu",
       subtitle:
-        "chinhu zvigadzirwa chinhu chinhu Zita chinhu chinhu zvinhu chinhu chinhu Vatengi chinhu chinhu zhinji Urefu chinhu 24.",
+        "Zvigadzirwa zvemuviri zvinogona kuve nemhando dzakasiyana. Iwe unogona kushandura zita rekutanga rezvakasiyana. Kurudziro yedu ndeyekusiya zvinhu izvi zviri zvekutanga uye zvisina chinhu kuitira kuti selldone zvishandure otomatiki kune vatengi vako mumitauro yavo. Hurefu hwepamusoro ndeye 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu, chinhu Zvitoro chinhu chinhu , chinhu chinhu chinhu Isa chinhu yakagadzirirwa chinhu chinhu , chinhu chinhu Urefu chinhu Upamhi chinhu chinhu chinhu",
+        "Nekumisikidza, logo yechitoro chako inoratidzwa mumusoro, asi iwe unogona kurodha yakasarudzika logo panzvimbo. Kana logo yako isina square aspect ratio, ungangoda kugadzirisa nemaoko kureba nehupamhi kuti unyatso kuratidzwa.",
     },
     header_title: {
       title: "chinhu musoro",
       subtitle:
-        "chinhu chinhu musoro chinhu chinhu Mapeji chinhu chinhu Bvisa chinhu, chinhu chinhu chinhu 'chinhu chinhu musoro chinhu",
+        "Unogona kugadzirisa zita rinoratidzwa mumusoro wemapeji ako pano. Kana uchida kuibvisa zvachose, tapota tinya bhatani rekuti 'Set empty title'.",
     },
 
     inputs: {
@@ -7667,7 +7667,7 @@ export default {
     select: {
       title: "Sarudza modhi",
       description:
-        "chinhu zvose chinhu chinhu , chinhu chinhu ",
+        "Inoratidza ese akasiyana mukudonhedza, yakanakira nhamba yakakura yemhando dzakasiyana.",
     },
   },
 
@@ -7677,17 +7677,17 @@ export default {
     add_title: "Wedzera chinhu chinhu",
     config: {
       subtitle:
-        "chinhu musoro chinhu Tsanangudzo chinhu chinhu Vashandi chinhu",
+        "Seta zita uye tsananguro yenzvimbo yako seti. Ichaonekwa nevashandi chete.",
     },
     variants: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu Zita, chinhu, chinhu odha chinhu chinhu zvigadzirwa chinhu chinhu 6 chinhu, chinhu chinhu chinhu yakagadzirirwa chinhu chinhu chinhu chigadzirwa chinhu",
+        "Iwe unogona kugadzirisa iro rakasiyana zita, icon, uye odha pano. Kana iwe uine zvigadzirwa zvakasiyana-siyana zvine akasiyana akasiyana izvo zvisingaenderane default 6 akasiyana, unogona kuseta akasiyana echigadzirwa chimwe nechimwe pano.",
     },
 
     inputs: {
       title: {
-        placeholder: "chinhu chinhu musoro chinhu chinhu chinhu",
+        placeholder: "Isa zita rezvivakwa seti...",
       },
       description: {
         placeholder: "chinhu chinhu chinhu Tsanangudzo (sarudzo)",
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Vatengi Kutonga",
     subtitle:
-      "Vatengi chinhu chinhu Wedzera chinhu chinhu chitoro chinhu chinhu chinhu; chinhu, chinhu chinhu Pinza, chinhu chinhu POS, chinhu chinhu chitoro chinhu chinhu mushandisi chinhu chinhu chinhu chitoro, chinhu chinhu mutengi",
+      "Vatengi vanogona kuwedzerwa kuchitoro chako nenzira dzinoverengeka; pamaoko, yakawanda Excel kupinza, kuburikidza nePOS, kana kuburikidza nechitoro chako chepamhepo. Chero mushandisi paanopinda muchitoro chako, anongonyoreswa semutengi.",
     add_customer_action: "Wedzera chitsva mutengi",
 
     all_customers: "Dhaunirodha vatengi vese",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "Rongedza mutengi",
     add_title: "Wedzera chitsva mutengi",
     subtitle:
-      "chinhu Wedzera chinhu mutengi chinhu chinhu chitoro, chinhu chinhu email kero chinhu chinhu foni chinhu",
+      "Kuti uwedzere mutengi kuchitoro chako, ndapota ipa email kero kana nhamba yefoni.",
     more: {
       title: "Wedzera mamwe mashoko",
-      subtitle: "chinhu Mari, mutengi chinhu, chinhu, kero chinhu Zvimwe. .",
+      subtitle: "Seta mari, kirabhu yevatengi, zvikamu, kero uye nezvimwe.",
     },
     detail: {
       subtitle:
-        "chinhu chinhu ruzivo chinhu chinhu mutengi chinhu chinhu chinhu Vatengi chinhu",
+        "Chengetedza rekodhi yeruzivo rwemunhu nezve mutengi wako. Ndokumbira uremekedze zvakavanzika zvemutengi wako.",
     },
     preferences: {
-      subtitle: "chinhu chinhu mushandisi Mari, mutengi chinhu, chinhu chinhu chinhu",
+      subtitle: "Seta default mushandisi mari, vatengi kirabhu, uye zvikamu pano.",
     },
     address: {
       subtitle:
-        "chinhu kero chinhu chinhu POS. chinhu mushandisi chinhu chinhu ona chinhu ruzivo",
+        "Kero iyi inogona kushandiswa muPOS. Mushandisi haakwanise kuona ruzivo urwu.",
     },
   },
 
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "chinhu chinhu ",
 
     pickup_ready_action: "chinhu chinhu",
-    pickup_ready_action_subtitle: "chinhu odha chinhu chinhu chinhu mutengi chinhu",
+    pickup_ready_action_subtitle: "Odha yakagadzirira kutorwa nemutengi.",
 
     service_action: "chinhu chinhu",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "chinhu kuendesa chinhu",
       true_description:
-        "chinhu chinhu odha chinhu chinhu mutengi",
+        "Ndinosimbisa kuti odha yaunzwa kumutengi.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "chinhu bhodhi rekutonga",
     subtitle:
-      "chinhu chinhu chinhu, chinhu Komisheni chinhu chinhu chinhu Yakabhadharwa chinhu chinhu chinhu akaundi chinhu chinhu ruzivo chinhu",
+      "Pakukumbira kwako, mari yekomisheni ichabhadharwa kubhengi account yakataurwa newe. Ndokumbira upe ruzivo rwako rwebhangi pano.",
     no_bank_info: "aihwa chinhu chinhu!",
     actions: {
       edit_my_bank_info: "Rongedza chinhu chinhu chinhu",
@@ -8013,17 +8013,17 @@ export default {
       info: {
         title: "chinhu",
         subtitle:
-          "chinhu chinopinda chinhu chinhu ruzivo chinhu chinhu ruzivo chinhu chinhu akaundi chinhu chinhu chinhu Zita chinhu chinhu chinhu bhizinesi Zita, chinhu chinhu",
+          "Ndokumbira uise ruzivo rwako rwebhangi pano. Tichashandisa ruzivo urwu kutumira mari. Ita shuwa kuti account yekubhangi iri muzita rako kana pasi pezita rako rebhizinesi, sezviri kushanda.",
       },
       inputs: {
         name: {
           label: "chinhu Zita",
-          message: "chinhu chinhu Zita chinhu chinhu akaundi chinhu chinhu",
+          message: "Zita rakazara rebhangi rinochengeterwa account.",
         },
         holder_name: {
           label: "akaundi chinhu Zita",
           message:
-            "chinhu chinhu Zita chinhu chinhu akaundi",
+            "Zita rizere remunhu kana sangano rine account.",
         },
         account_number: {
           label: "akaundi chinhu",
@@ -8031,23 +8031,23 @@ export default {
             "chinhu chinhu akaundi",
         },
         routing_number: {
-          label: "chinhu chinhu (USA) chinhu chinhu kodhi (UK)",
+          label: "Nhamba Yekutenderera (USA) kana Ronga Kodhi (UK)",
           message:
             "chinhu chinhu (chinhu chinhu ).",
         },
         swift: {
           label: "SWIFT/BIC kodhi",
           message:
-            "chinhu chinhu kodhi chinhu chinhu , chinhu chinhu ",
+            "Kodhi yepasirese inoshandiswa kuona mabhanga pasi rose, kunyanya kuchinjisa kune dzimwe nyika.",
         },
         iban: {
           label: "IBAN (chinhu chinhu akaundi chinhu)",
           message:
-            "chinhu chinhu , chinhu IBAN chinhu chinhu maakaundi chinhu chinhu chinhu",
+            "Inoshandiswa zvakanyanya muEurope, IBAN inzira inobvumiranwa pasi rose yekuzivisa maakaundi ekubhanga kumiganhu yenyika.",
         },
         contact: {
           label: "chinhu ruzivo",
-          message: "foni chinhu chinhu email kero chinhu chinhu chinhu akaundi",
+          message: "Nhamba yefoni kana kero yeemail yakabatana neakaundi.",
         },
         note: {
           label: "Cherechedza",
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Kubva zvose sevhisi chinhu, Kunyoresa chinhu chinhu kubhadhara chinhu chinhu ",
+      "Kubva kune ese muripo wesevhisi, kunyoreswa uye kumwe kubhadhara kunoitwa nevaunotumira.",
   },
 
   /**
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "chinhu chinhu",
       description:
-        "chinhu chinhu 2% Komisheni Kubva chinhu chinhu",
+        "Iwe uri muBronze Tier. Iwe wawana 2% komisheni kubva kune zvaunotumira.",
     },
     Silver: {
       title: "chinhu chinhu",
       description:
-        "chinhu chinhu 4% Komisheni Kubva chinhu chinhu",
+        "Iwe uri muSilver Tier. Iwe wawana 4% komisheni kubva kune zvaunotumira.",
     },
     Gold: {
       title: "chinhu chinhu",
       description:
-        "chinhu chinhu 6% Komisheni Kubva chinhu chinhu",
+        "Iwe uri muGold Tier. Iwe wawana 6% komisheni kubva kune zvaunotumira.",
     },
     Platinum: {
       title: "chinhu chinhu",
       description:
-        "chinhu chinhu 8% Komisheni Kubva chinhu chinhu",
+        "Iwe uri muPlatinum Tier. Iwe wawana 8% komisheni kubva kune zvaunotumira.",
     },
     Diamond: {
       title: "chinhu chinhu",
       description:
-        "chinhu chinhu 10% Komisheni Kubva chinhu chinhu",
+        "Iwe uri muDiamond Tier. Iwe wawana 10% komisheni kubva kune zvaunotumira.",
     },
   },
 
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Referral Payments",
     subtitle:
-      "chinhu chinhu rondedzero chinhu chinhu transactions chinhu chinhu Kubva chinhu chikwama chinhu chinhu chinhu akaundi chinhu chinhu Selldone chikwama, chinhu chinhu chinhu rondedzero chinhu",
+      "Ndiyo rondedzero yekubvisa mari. Paunotamisa homwe kubva pakutumira wallet kuenda kuaccount yako yekubhangi kana yako Selldone wallet, ichanyorwa pano.",
 
     officer: "chinhu",
     amount: "Mari yekutengeserana",
@@ -8520,15 +8520,15 @@ export default {
     manage: {
       title: "Tonga SMS",
       subtitle:
-        "chinhu chinhu ona chinhu chinhu meseji chinhu chinhu chinhu chitoro chinhu chinhu Kuganhurirwa chinhu chinhu sevhisi, chinhu chinhu meseji chinhu chinhu chinhu",
+        "Unogona kuona zviri mukati memeseji mameseji anotumirwa nechitoro chako pano. Nekuda kweganhuriro mukunyoresa maitiro ekusimbisa musevhisi yekutumira mameseji, hazvigoneke kugadzirisa mameseji panguva ino.",
     },
 
     template: {
       title: "chinhu",
       valid_message: "chinhu chinhu Gadzira yakagadzirirwa SMS meseji",
-      provider_not_enable_message: "chinhu SMS chinhu chinhu chinhu yakagoneswa!",
+      provider_not_enable_message: "Mupi weSMS haana kugoneswa!",
       need_custom_provider_message:
-        "chinhu SMS meseji chinhu chinhu yakagadzirirwa chinhu",
+        "Yakagadzirirwa SMS mameseji anoshanda chete kana iwe ukaseta mupi wetsika.",
       add_new: "Wedzera chitsva",
       disable_reason: {
         set_provider: "chinhu chinhu !",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "Ratidza chinhu yakagoneswa",
 
       text_template_not_supported_msg:
-        "chinhu chinhu rutsigiro chinhu chinhu meseji",
+        "Mubatsiri wako haatsigire mameseji arimo.",
       structure_template_not_supported_msg:
         "chinhu chinhu rutsigiro chinhu meseji",
 
@@ -8556,7 +8556,7 @@ export default {
       config: {
         title: "Mharidzo chinhu",
         subtitle:
-          "chinhu chinhu Gadzira chinhu chinhu SMS Mharidzo chinhu chinhu SMS chinhu Webhusaiti, chinhu chinhu chinhu kodhi chinhu chinhu ruzivo chinhu chinhu chinhu, chinhu chinhu chinhu SMS Mharidzo chinhu chinhu chinhu",
+          "Iwe unogona kugadzira template yemeseji yeSMS pawebhusaiti yemupi weSMS, wobva watsanangura kodhi yayo uye chimiro chedata pano. Isu tichaendesa ruzivo urwu kune wako anopa, uko iyo chaiyo SMS meseji ichagadzirwa.",
         code: "kodhi",
         language_msg: "chinhu chinhu ",
         enable_msg: "chinhu chinhu Gadzira meseji",
@@ -8564,7 +8564,7 @@ export default {
       text: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu chinhu chinhu SMS Mharidzo chinhu chinhu mushandisi",
+          "Isa meseji yeSMS yakasarudzika pano. Dynamic values ​​dzinozotsiviwa nehunhu hwadzo chaidzo dzisati dzatumirwa kumushandisi.",
         message: "Mharidzo",
         reset_to_default: "chinhu chinhu chinhu",
 
@@ -8581,13 +8581,13 @@ export default {
       template: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu chinhu kodhi chinhu chinhu SMS sevhisi chinhu, chinhu chinhu <code>chinhu</code> chinhu chinhu kodhi chinhu chinhu chinhu <code>chinhu</code> chinhu chinhu , chinhu <code>{code}</code> chinhu chinhu kodhi",
+          "Unogona kuseta kiyi yetemplate uye kukosha pano. Kodhi yetemplate ndiyo inofanira kunge yaunoseta paSMS sevhisi, uye <code>kiyi</code> ndiyo inodiwa nemubatsiri wako kutumira iyo kodhi nayo. Kana <code>kukosha</code> chikamu chetemplate chisina chinhu, ipapo <code>{code}</code> ichatorwa seyetemplate code.",
         add_new_parameter: "Wedzera chitsva chinhu",
 
         auto_fill: {
           title: "otomatiki chinhu chinhu",
           subtitle:
-            "chinhu chinhu , chinhu Selldone chinhu chinhu SMS chinhu chinhu , chinhu chinhu chinhu aihwa chinhu chinhu ",
+            "Iwe unogona kuseta imwe neimwe yeaya ma paramita semutengo, uye Selldone inovatsiva neiyo kukosha inoenderana. Zviri nani kutsanangura zvimiro zvechinyakare sematemplate mune yako SMS mupi kuti zvive nyore. Muchiitiko ichi, hapazove nechikonzero chekutsanangura parameter tsika pano.",
         },
         request: {
           title: "chinhu chinhu",
@@ -8604,7 +8604,7 @@ export default {
   sms_template_mode: {
     text: {
       title: "chinhu chinhu",
-      desc: "Mharidzo chinhu chinhu chinhu Kubva chinhu chinhu chinhu otomatiki chinhu chinhu ",
+      desc: "Mharidzo ichagadzirwa kubva kune chinyorwa chine otomatiki kutsiva paramita uye kutumira.",
     },
     template: {
       title: "chinhu chinhu",
@@ -8617,40 +8617,40 @@ export default {
     title: "yakagadzirirwa SMS chinhu",
     reset_error: "chinhu chinhu",
     subtitle:
-      "chinhu chinhu chinhu yakagadzirirwa SMS sevhisi chinhu chinhu SMS chinhu bhizinesi Zita chinhu chinhu SMS chinhu chinhu meseji chinhu chinhu ",
+      "Gadzira mupi webasa reSMS uye gadzirisa yako yechokwadi yeSMS uye zita rebhizinesi. Iyo default mupi anongotumira echokwadi SMS uye zivisa mameseji mune dzimwe nyika dzakachena-dzakanyorwa.",
     plain_text: "chinhu chinhu",
     structural_template: "chinhu chinhu",
     errors_limit_msg:
-      "chinhu chinhu sevhisi chinhu 100 chinhu, chinhu chinhu chinhu yakadzimwa chinhu! chinhu chinhu ",
+      "Kana sevhisi yako ikadarika zana zvikanganiso, ichavharwa otomatiki! Unogona kuseta zvekare kukanganisa kuti uigonese zvakare.",
 
     enable_input: {
       false_description:
-        "OTP meseji chinhu chinhu Selldone chinhu Sarudza chinhu, chinhu chinhu odha chiziviso SMS chinhu chinhu ",
+        "Mameseji eOTP anozotumirwa kuburikidza neSelldone munyika dzakasarudzwa, nepo imwe ziviso yeSMS ichizotumirwa zvakare.",
       true_description:
         "SMS meseji chinhu chinhu sevhisi chinhu",
     },
     test_input: {
       true_title: "chinhu chinhu",
       true_description:
-        "chinhu chinhu Mharidzo chinhu chinhu foni chinhu 📞 <b>{phone}</b>, chinhu chinhu , chinhu chinhu chinhu wana chinhu chinhu ",
+        "Tichakutumira meseji yekuyedza kunhamba yako yefoni 📞 <b>{phone}</b>, inogona kukubhadhara, asi unogona kuona kuti zvese zvinoshanda nemazvo.",
     },
     sync_action: {
       title: "Zviito",
       subtitle:
-        "chinhu SMS masevhisi chinhu chinhu masevhisi Kuda Mishandirapamwe, kushambadzira, chinhu chinhu ruzivo chinhu chinhu Zvimwe. . chinhu",
+        "Mamwe masevhisi eSMS anopa mamwe masevhisi senge mishandirapamwe, kushambadzira, uye zvimwe zvinhu. Unogona kuyananisa vaunosangana navo kana rumwe ruzivo kuti ushandise maitiro avo nekukurumidza.",
       action: "chinhu chinhu",
     },
     tokens: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu chinongedzo chinhu SMS sevhisi chinhu chinhu chinhu chitoro",
+        "Seta iwo anotevera maparamendi kuti ubatanidze yako SMS service provider nechitoro chako.",
     },
   },
   sms_messages_options: {
     all: {
       title: "OPT + odha zviziviso",
       description:
-        "chinhu meseji chinhu odha chiziviso chinhu chinhu chinhu",
+        "Mameseji echokwadi uye chiziviso chekuodha zvichatumirwa.",
     },
     otp: {
       title: "OTP chinhu",
@@ -8681,21 +8681,21 @@ export default {
   shop_email_provider: {
     title: "yakagadzirirwa chinhu chinhu",
     subtitle:
-      "Connect chinhu chinhu sevhisi chinhu chinhu chinhu MaEmails chinhu chinhu yakagadzirirwa domeini",
+      "Batanidza mail service provider yako kuti utumire maemail kuburikidza neyako tsika domain.",
     provider: "chinhu",
     enable_input: {
       false_description: "chinhu MaEmails chinhu chinhu domeini",
-      true_description: "chinhu MaEmails chinhu chinhu yakagadzirirwa chinhu domeini",
+      true_description: "Maemail ako achatumirwa kuburikidza neyako tsika tsamba domain.",
     },
     config: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu chinhu yakagadzirirwa chinhu sevhisi chinhu chinhu chitoro, chinopinda chinhu sevhisi API chinhu chinhu marongero",
+        "Kuti ugadzirise sevhisi yako yetsamba yechitoro chako, isa kiyi yako yeAPI yebasa pamwe chete nemamwe magadzirirwo anodiwa.",
     },
     sender: {
       title: "Kubva",
       subtitle:
-        "chinhu chinhu Zita chinhu email kero, chinhu chinhu MaEmails chinhu chinhu Vatengi",
+        "Unogona kugadzirisa zita remutumi nekero yeemail, inozoshandiswa kutumira maemail kune vatengi vako.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "chinhu chinhu sevhisi chinhu 100 chinhu, chinhu chinhu chinhu yakadzimwa chinhu! chinhu chinhu ",
+        "Kana sevhisi yako ikadarika zana zvikanganiso, ichavharwa otomatiki! Unogona kuseta zvekare kukanganisa kuti uigonese zvakare.",
 
       encryption_ports_guide:
-        "email chinhu chinhu chipo SSL, TLS, chinhu chinhu Inowanikwa chinhu chinhu batanidza chinhu chinhu , chinhu chinhu chinhu modhi chinhu chinhu <b>TLS</b> chinhu chinhu: <b>587</b> chinhu <b>SSL</b> chinhu chinhu: <b>465</b>.",
+        "Vapei veemail vanogona kupa SSL, TLS, kana isina kuvharirwa kubatanidza zvichienderana neanowanikwa madoko. Kana kubatanidza kuchiguma nekukanganisa, kushandura encryption modhi inogona kugadzirisa nyaya. <b>TLS</b> shandisa Chiteshi : <b>587</b> uye <b>SSL</b> vanoshandisa Chiteshi : <b>465</b>.",
 
       enable_receive_test:
-        "chinhu Sevha chinhu, chinhu chinhu Gamuchira chinhu chinhu <b>{email}</b>. Sevha chinhu chinhu email chinhu chinhu chitsva chinhu",
+        "Mushure mekuchengetedza shanduko, uchagamuchira tsamba yekuyedza pa<b>{email}</b>. Chengetedza shanduko usati watumira email yekuyedza ine gadziriso itsva.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram kutengesa chiteshi",
     subtitle:
-      "Gadzira chinhu chinhu chikamu chinhu chinhu zvigadzirwa, chinhu chinhu mifananidzo chinhu chinhu, chinhu chinhu Instagram chinhu chinhu, chinhu chinhu , chinhu chinhu zvigadzirwa",
+      "Gadzira chikamu chakazvitsaurira chezvigadzirwa zvako, zvizere nemifananidzo nemavhidhiyo, uye ugovane pasocial media yako. Zvakafanana ne Instagram uye TikTok, asi nekutonga kuzere, zvichikubvumidza kuti utengese zvigadzirwa zvako zvakananga.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Mutero unofanirwa kuwedzerwa kumutengo wekupedzisira.",
     invoice: {
       subtitle:
-        "chinhu chinhu chinhu fomu, chinhu chinhu Gadzira chinhu 💳 Kubhadhara chinongedzo chinhu chinhu chinhu Mari chinhu chinhu wana chinhu chinhu invoice chinhu chinhu 💳 Kubhadhara chinhu chinhu ",
+        "Nekushandisa fomu iri, unogona kugadzira chinongedzo chekubhadhara kune imwe mari. Inoitawo kuti kuronda invoice uye kusimbisa kubhadhara kupedzwa kuri nyore uye nyore.",
     },
   },
 
@@ -8949,11 +8949,11 @@ export default {
     drag_sort_msg: "chinhu chinhu mafaira",
     paid_mode_msg: "Vashandisi chinhu Dhawunirodha chinhu chinhu chigadzirwa",
     free_mode_msg:
-      "Vashandisi chinhu Dhawunirodha chinhu chinhu mahara chinhu mafaira chinhu chinhu chinhu 50 MB.",
+      "Vashandisi vanogona kuidhaunirodha mahara. Sample mafaera anofanirwa kunge ari pasi pe50 MB.",
     has_gust_shopping_msg:
-      "chinhu chinhu chinhu Vashandisi chinhu Dhawunirodha mafaira chinhu chinhu kutenga chinhu yakagoneswa chinhu chinhu Zvitoro marongero > chinhu",
+      "Vakanyoreswa uye vashandisi vevaenzi vanogona kudhawunirodha mafaera sezvo kutenga kwevaenzi kunogoneswa muzvirongwa zvechitoro> kuyerera.",
     only_registered_shopping_msg:
-      "chinhu chinhu Vashandisi chinhu Dhawunirodha chinhu mafaira",
+      "Vashandisi vakanyoreswa chete ndivo vanogona kudhawunirodha mafaira emuenzaniso.",
     file_count_limit: "mafaira chinhu chinhu",
   },
 
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Inowanikwa Nzvimbo",
     subtitle:
-      "chinhu chinhu chigadzirwa chinhu sevhisi chinhu chinhu Inowanikwa chinhu chinhu Matunhu, chinhu chinhu Nyika chinhu chinhu kodhi, chinhu chinhu Nzvimbo chinhu chinhu Nzvimbo kurambidzwa chinhu chinhu chigadzirwa chinhu chinhu chinhu chigadzirwa peji, Vatengi chinhu chinhu Sarudza chinhu Nzvimbo chinhu chinhu chigadzirwa chinhu Inowanikwa chinhu chinhu , chinhu chinhu kutenga",
+      "Kana chigadzirwa kana sevhisi yako ichingowanikwa munzvimbo chaidzo, dzinotsanangurwa nenyika uye zip kana mapini macode, unogona kusarudza nzvimbo idzodzo pano. Izvi zvirambidzo zvenzvimbo zvinotevedzwa pamwero wechigadzirwa. Pane peji yechigadzirwa, vatengi vanozokurudzirwa kusarudza nzvimbo yavo. Kana chigadzirwa chacho chiripo munzvimbo yavo yakasarudzwa, ivo vachakwanisa kuenderera mberi nekutenga.",
 
     add_location_action: "Wedzera Nyika",
     no_restriction: "aihwa kurambidzwa",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "chinhu Nzvimbo kurambidzwa",
       description:
-        "Vatengi chinhu chinhu kutenga chinhu chigadzirwa chinhu chinhu chinhu Nyika chinhu chinhu kodhi, chinhu chinhu Nzvimbo kurambidzwa",
+        "Vatengi vanogona chete kutenga chigadzirwa ichi mukati menyika yakatarwa uye zip kodhi, nekuda kwekutemerwa kwenzvimbo.",
     },
     zip_pin_code: "chinhu / chinhu kodhi",
     no_country_selected_error:
-      "chinhu chinhu Nyika chinhu chinhu chinhu rondedzero chinhu chinhu kodhi chinhu chinhu, chinhu chigadzirwa chinhu chinhu chinhu Inowanikwa",
-    tips: "chinhu chinhu chinhu <b>+ Wedzera Nyika</b> chinhu chinhu Tanga chinhu chinhu chitsva Nzvimbo chinhu chinhu , chinhu chinhu Sevha chinhu chinhu <b>⋮ chinhu</b> chinhu Sarudza <b>Sevha profile</b>.",
+      "Ndokumbirawo ubatanidze ingangoita nyika imwe chete nerondedzero yezip/pini macode. Pasina iyo, chigadzirwa ichi hachizovepo.",
+    tips: "Baya <b>+ Wedzera Nyika</b> bhatani kuti utange kugadzira nzvimbo itsva. Kana wapedza, unokwanisa kuzvichengeta nekudzvanya kumusoro-kurudyi <b>⋮ Menyu</b> uye kusarudza <b>Sevha Profile</b>.",
     need_save_message:
-      "chinhu Nzvimbo kurambidzwa marongero chinhu chinhu chigadzirwa chinhu chinhu , chinhu chinhu 'Sevha chinhu chinhu",
+      "Zvirongwa zvezvirambidzo zvenzvimbo yechigadzirwa zvakashandurwa. Kuti uchengetedze shanduko idzi, tinya pakanzi 'Save' pazasi.",
 
     add_dialog: {
       title: "Wedzera Nyika",
       message:
-        "chinhu chinhu Nyika chinhu chinhu 'Wedzera chinhu chinhu Nyika chinhu chinhu chinhu, chinhu chinhu , chinhu kodhi, chinhu chinhu, chinhu Dunhu chinhu chinhu chinhu",
+        "Sarudza nyika uye tinya 'Wedzera'. Izvi zvichawedzera nyika patafura, zvichikubvumidza kuti upe maZipcode, maPin kodhi, Mazita eGuta, kana Mazita eDunhu kwairi.",
     },
     save_profile_dialog: {
       title: "Wedzera Nzvimbo profile",
       message:
-        "chinhu chinopinda chinhu Zita chinhu Sevha chinhu chinhu chinhu Nzvimbo chinhu chinhu Nzvimbo chinhu chinhu zvigadzirwa, chinhu chinhu chinhu Nzvimbo chinhu chinhu profile chinhu chinhu chinhu Zita chinhu chinhu, chinhu chinhu chitsva chinhu",
+        "Ndokumbira uise zita kuti uchengetedze seti yenzvimbo idzi. Iyi nzvimbo yakachengetwa seti inogona kuiswa kune zvimwe zvigadzirwa, ichibvumira kukurumidza kurodha nzvimbo nekungobaya kamwe chete. Kana chimiro chine zita rakapihwa chave chiriko, chinozogadziridzwa nehutsva hutsva uhu.",
       title_input: {
         title: "profile musoro",
         placeholder: "chinhu chikamu Zita, chinhu chitoro Zita,. ..",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "chinhu Nzvimbo profile",
       message:
-        "chinhu chinhu chinhu Nzvimbo chinhu Sarudza chinhu chinhu chinhu Nzvimbo chinhu chinhu",
+        "Unogona kurodha nzvimbo nekusarudza nzvimbo yakambochengetwa yakaiswa pano.",
 
       select_input: {
         title: "Nzvimbo profile",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "chinhu odha chirevo",
-      desc: "Gamuchira chinhu chinhu email chinhu chinhu odha chinhu chinhu chinhu",
+      desc: "Gamuchira email yemazuva ese ine ruzivo rwemaodha ezuva iroro.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "chinhu Zvitoro",
       subtitle:
-        "chinhu, chinhu chinhu Zvitoro chinhu chinhu ruzivo Inowanikwa chinhu chinhu Zvitoro chinhu, chinhu chinhu Kubva chinhu chinhu odha chinhu chinhu chinhu ruzivo, chinhu chinhu Veruzhinji chinhu chinhu ruzivo chinhu, chinhu chinhu chinhu chitoro chinhu chinhu ",
+        "Pano, unogona kuwana sarudzo yezvitoro zvemuenzaniso. Unopihwa mvumo yekuongorora ruzivo rwunowanikwa muzvitoro izvi. Nekudaro, ndapota regedza kupinda mukati kana kuisa maodha uchishandisa chaiyo ruzivo rwemunhu, sezvo iyi data ichave inowanikwa kune veruzhinji. Kana ukasaisa ruzivo rwako pano, buda muchitoro uye ubate nesu kuti uwane rumwe rubatsiro.",
     },
 
     add_new_store: "Wedzera chitsva chitoro",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "blogu zvikamu",
     subtitle:
-      "chinhu chinhu Gadzira chinhu chinhu zvikamu chinhu chinhu blogu chinhu chinhu Tonga chinhu Zvimwe. . chinhu chinhu chinhu chikamu chinhu chinhu Webhusaiti chinhu, chinhu chinhu chinhu chitsva chinhu chinhu zvikamu, chinhu chinhu chinhu 100, chinhu chinhu Kutonga chinhu chinhu ",
+      "Iwe unogona kugadzira huwandu hushoma hwezvikamu zvemablog ako mablog kuti uzvigadzirise zvakanyanya. Kuve nemuganho wechikamu kunosimudzira zvirinani kurongeka pawebhusaiti yako. Zvikuru, kunyangwe masangano enhau epamusoro anochengetedza nhamba shoma yezvikamu, kazhinji isingasviki zana, kugadzirisa manejimendi uye kuchengetedza kutarisa kwakawanda.",
 
     add_action: "Wedzera chikamu chitsva",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "chinhu chinhu chinhu",
     subtitle:
-      "chinhu chinhu chinhu rondedzero chinhu chinhu blogu chinhu chinhu chinhu chigadzirwa tsananguro chinhu chinhu Rakabudiswa chinhu chinhu Nguva",
+      "Heino rondedzero yezvinyorwa zvakarongwa zvakagadzirirwa kuzoburitswa mune ramangwana. Iwe unokwanisa kuronga mablog ezvinyorwa uye kunyangwe tsananguro yechigadzirwa kuti ibudiswe panguva dzakatarwa.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Anorayira Mubatsiri",
     subtitle:
-      "Tumira kunze chinhu Dhawunirodha chinhu chinhu chinhu odha chinhu - chinhu chinhu 100 odha chinhu",
+      "Tumira kunze uye kudhawunirodha zvinyorwa zveakawanda odha yekugadzirisa - yakanakira kubata anopfuura zana maodha zuva nezuva.",
 
     timespan: {
       title: "Nguva",
@@ -9266,7 +9266,7 @@ export default {
       title: "Login nzira",
       subtitle: "Gadzirisa nzira iyo vashandisi vanopinda nayo muchitoro chako.",
 
-      tips: "<b>chinhu</b> chinhu chinhu mushandisi chinhu chinhu chinhu chitoro, chinhu chinhu Selldone mushandisi chinhu chinhu, chinhu chinhu mushandisi chinhu chinhu kupinda chinhu chinhu kero chinhu chinhu zvose Zvitoro chinhu chinhu odha Nhoroondo, chinhu chinhu chinhu chitoro chinhu chinhu ruzivo chinhu kushambadzira chinhu chinhu , chinhu chinhu chinhu email chinhu chinhu mushandisi chinhu chinhu ",
+      tips: "<b>Zvakakosha.</b> Kana mushandisi akanyoresa nechitoro chako, anowirirana neSelldone anogadzirwa, kana iye asipo. Mushandisi uyu achawana bhuku rake rekero pazvitoro zvese uye anogona kuona nhoroondo yavo yekuodha, kunyangwe chitoro chakavharwa. Isu hatishandise ruzivo urwu nekuda kwekutengesa asi tinoda kuti kudzivirira hutsotsi kumativi ese. Kuti tichengetedze pachena, tinotumira email kumushandisi tichivaudza nezvekunyoresa kwavo.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Buda fomu",
       subtitle:
-        "chinhu chinhu Buda fomu chinhu chinhu ruzivo chinhu chinhu Kubva chinhu Vatengi",
+        "Gadzirisa minda yefomu yekubhadhara kuti utore ruzivo rwaunoda kubva kune vatengi vako.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "chinhu",
       title: "chinhu",
       description:
-        "chinhu chigadzirwa chinhu chinhu rondedzero chinhu chinhu chitoro, chinhu chinhu chinongedzo",
+        "Ichi chigadzirwa hachina kunyorwa muchitoro, asi chinowanikwa nechakananga link.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "chinhu chinhu chinhu",
     message:
-      "Selldone chinhu chinhu chinhu 3 bhizinesi chinhu chinhu ruzivo chinhu chinhu Gadziridza chinhu chinhu chinhu Nguva chinhu chinhu",
+      "Ziva bhizinesi rako repamusoro matatu rinoda kubudirira uye kuita purofiti paSelldone. Ruzivo urwu ruchagoverwa zvakananga nevatangi nevatungamiriri uye ruchatariswa nemazvo. Iwe unogona zvakare kugadzirisa zvaunoda nekufamba kwenguva mushure mekutumira.",
     expand_action: "kunyora chinhu chinhu",
     input_label: "chinhu chinhu",
     to: {
@@ -9503,7 +9503,7 @@ export default {
       team: "chinhu chinhu chinhu",
     },
     placeholder: {
-      ceo: "chinhu aihwa chinhu chinhu , chinhu Kuda chinhu chinhu , chinhu chinhu ",
+      ceo: "Chokwadi hapana chikonzero chekuve akanaka, ndinoda kunzwa yako yakananga, kurudyi-kune-iyo-kubvunza.\ne.g. Ndinofanira kuva ne...",
       team: "chinhu chinhu ",
     },
   },
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "chinhu Pinza zvigadzirwa",
     message:
-      "chinhu chinhu Pinza zvigadzirwa chinhu mifananidzo, chinhu chinhu Nguva chinhu chinhu",
+      "Tiri mushishi yekuunza zvigadzirwa nemifananidzo, izvo zvinogona kutora nguva kuti zvipere.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "chinhu ruzivo chinhu chinhu mutengi, chinhu chinhu chigadzirwa chinopinda fomu chinhu",
+      "Ruzivo rwuri kuratidzwa pano rwakaunzwa nemutengi, zvinoenderana nechimiro chechimiro chefomu yechigadzirwa.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "sevhisi chimiro",
       auto_confirm_enable_msg: "chinhu chinhu odha chinhu yakagoneswa",
       auto_confirm_disable_msg:
-        "otomatiki chinhu chinhu odha chinhu chinhu yakagoneswa",
+        "Kusimbisa maodha otomatiki hakuna kugoneswa.",
       shipping_enable_msg:
-        "chinhu kutumira chinhu chinhu ruzivo chinhu chinhu Buda",
+        "Mari yekutumira ichaverengerwa zvichienderana neruzivo rwunopihwa pakubuda.",
     },
     detail: {
       title: "Connect chinhu",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu chinhu ruzivo chinhu chinhu pera",
+          "Ruzivo rwekuwiriranisa mukati. Ruzivo urwu runochengetedzwa mushure mekunge sync process epoch yapera.",
         no_data: "aihwa chinhu ruzivo!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "zvigadzirwa",
       subtitle:
-        "rondedzero chinhu Wedzera zvigadzirwa Kubva {name}. wana chinhu chinhu chigadzirwa chinhu chinhu chinhu Zita chinhu SKU. chinhu Connect masevhisi chinhu chinhu , chinhu chinhu zvigadzirwa chinhu chinhu <b>SKUchinhu</b> chinhu <b>chinhu</b>, chinhu zvigadzirwa chinhu chinhu chinhu!",
+        "Rondedzero yezvigadzirwa kubva ku{name}. Ita shuwa kuti chigadzirwa chako chine zita rakasiyana uye SKU. Mamwe masevhisi eConnect anoshandiswa kutama, saka kana uine zvigadzirwa zvine <b>SKUs</b> uye <b>Mazita</b>, zvigadzirwa izvozvo zvichachinjwa!",
       action: "chinhu zvigadzirwa",
       syncing_message: "chinhu chinhu chinhu",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "chinhu",
       subtitle:
-        "chinhu rondedzero chinhu zvose chinhu chinhu 7 30 mazuva chinhu chinhu rutsigiro chinhu chinhu chinhu sevhisi chinhu",
+        "Rondedzero yezvinyorwa zvese mumazuva manomwe apfuura. Kutema matanda kunotsigirwa chete kune vekunze vanopa masevhisi.",
     },
 
     edit: {
@@ -9595,18 +9595,18 @@ export default {
       service: {
         title: "sevhisi",
         subtitle:
-          "Sarudza chinhu chinhu, chinhu chinhu, chinhu chinhu chinhu batanidza",
+          "Sarudza chinongedzo chikuva, dropshipping mutengesi, kana musika wekubatanidza.",
       },
       test: {
         false_title: "chinhu zvose",
         false_desc: "chinhu zvose Inowanikwa zvigadzirwa, zvikamu, Vatengi",
         true_title: "chinhu (chinhu chinhu chinhu)",
         true_desc:
-          "chinhu chinhu 5 zvigadzirwa, zvikamu, chinhu Vatengi chinhu chinhu modhi chinhu chinhu Connect > chinhu chinhu chinhu Nguva",
+          "Tora max 5 zvigadzirwa, zvikamu, uye vatengi. Unogona kuishandura kuita yakazara modhi muBatanidza> Setting chero nguva.",
       },
       overwrite: {
         false_title: "chinhu chinhu ",
-        false_desc: "chinhu chinhu chigadzirwa chinhu chikamu chinhu chinhu ",
+        false_desc: "Chengetedza chiripo chigadzirwa uye chikamu ruzivo sezvazviri.",
         true_title: "chinhu",
         true_desc:
           "Gadziridza chinhu chigadzirwa, chinhu, chinhu chikamu ruzivo",
@@ -9618,33 +9618,33 @@ export default {
       order: {
         title: "odha chimiro",
         subtitle:
-          "chinhu chinhu Yakabatanidzwa masevhisi odha Kutonga marongero chinhu chinhu chitoro chinhu Zvinosanganisira chinhu chinhu odha chinhu, chinhu otomatiki odha chinhu (chinhu rutsigiro), chinhu chinhu kutumira chinhu chinhu",
+          "Gadzirisa marongero ehurongwa hwesevhisi yakabatana pachitoro chako. Izvi zvinosanganisira kuseta kugamuchirwa kweodha, kugonesa otomatiki kurongeka (kana zvichitsigirwa), uye kugadzirisa maverengero emutengo wekutumira.",
       },
       enable: {
         label: "Connect chimiro",
-        true_desc: "stock chinhu odha chinhu chinhu chinhu",
+        true_desc: "Inventory nemaodha zvichawiriraniswa.",
       },
       confirm: {
         label: "otomatiki chinhu odha",
         false_desc: "chinhu chinhu chinhu odha chinhu",
         true_desc:
-          "odha chinhu Rarama 💳 Kubhadhara chinhu chinhu odha chinhu chinhu 💳 Kubhadhara chinhu chinhu ",
-        tips: "odha Yakabhadharwa chinhu Chipo kadhi chinhu COD chinhu 💳 Kubhadhara gedhi chinhu chinhu chinhu modhi chinhu chinhu Yakasimbiswa chinhu",
+          "Maodha ane muripo wepamoyo anozobvumidzwa otomatiki. Maodha ane debug kubhadhara haatenderwe otomatiki.",
+        tips: "Maodha anobhadharwa nekadhi rechipo kana COD kana magedhi ekubhadhara mune debug modhi zvakasarudzika uye hazvizosimbiswa otomatiki.",
       },
 
       shipping: {
         label: "kutumira",
-        tips: "chinhu sevhisi chipo kutumira chinhu, chinhu chinhu chinhu yakagoneswa chinhu yakadzimwa chinhu chinhu yakagoneswa, chinhu chinhu APIchinhu chinhu 3chinhu chinhu masevhisi chinhu chinhu chinhu, chinhu chinhu 300chinhu chinhu mutengo chinhu chinhu Buda peji",
+        tips: "Iyi sevhisi inopa kuverenga kwekutumira, iyo inogona kugoneswa kana kuvharwa sekuda kwako. Kana ikagoneswa, maAPI ekuverenga mutengo ane 3rd bato masevhisi anozodiwa, izvo zvinogona kukonzera kunonoka kweinodarika 300ms pakuvandudza mutengo papeji yekubuda.",
         false_title: "chinhu",
         false_desc:
-          "chinhu chinhu kutumira chinhu chinhu, chinhu chitoro > chinhu > chinhu chinhu zvose zvigadzirwa, chinhu Pinza chinhu",
+          "Shandisa yangu yekutumira mutengo kuverenga, muShop> Logistic> Yekufambisa kune zvese zvigadzirwa, kusanganisira zvinotengeswa kunze kwenyika.",
         true_title: "chinhu kutumira",
         true_desc:
-          "chinhu chinhu kutumira chinhu chinhu API chipo chinhu chinhu sevhisi",
+          "Shandisa iyo yekutumira rate yekuverenga API inopihwa nesevhisi iyi.",
       },
 
       remove: {
-        verify: "chinhu chinhu chinhu Bvisa chinhu chinhu",
+        verify: "Ndinosimbisa kuti ndibvise chinongedzo ichi.",
         action: "Bvisa batanidza",
       },
     },
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect chinhu bhizinesi chinhu chinhu chinhu masevhisi chinhu Tonga zvose zviteshi chinhu chinhu ",
+        "Batanidza bhizinesi rako os kune ekunze masevhisi uye tonga ese chiteshi munzvimbo imwechete.",
       action: "Connect chitsva masevhisi",
       empty_message:
-        "chinhu maapp chinhu chinhu ! Connect chinhu chinhu odha Kutonga",
+        "Kanganwa mapurogiramu uye plugins yekudonha! Batanidza ndiro remangwana remuchinjika-chikuva yekurongeka manejimendi.",
       auto_confirm: "otomatiki chinhu",
       shipping: "kutumira",
       syncing_now: "chinhu chinhu!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "chinhu",
-      desc: "chinhu zvigadzirwa, zvikamu, chinhu Vatengi chinhu chinhu mushandisi Dzima chinhu sevhisi, chinhu chinhu zvigadzirwa, zvikamu, chinhu Vatengi chinhu chinhu chinhu Dzadzimwa",
+      desc: "Wana zvigadzirwa, zvikamu, uye vatengi. Mushure mekunge mushandisi adzima sevhisi iyi, zvigadzirwa zvakagamuchirwa, zvikamu, uye vatengi hazvizodzimwa.",
     },
     Dropshipping: {
       title: "chinhu",
-      desc: "chinhu zvigadzirwa, zvikamu, chinhu odha chinhu chinhu Bvisa zvigadzirwa chinhu chinhu mushandisi Bvisa chinhu sevhisi",
+      desc: "Wana zvigadzirwa, zvikamu, uye maodha. Iyo sisitimu inobvisa zvigadzirwa mushure mekunge mushandisi abvisa sevhisi.",
     },
     Marketplace: {
       title: "chinhu",
-      desc: "chinhu chinhu stock chinhu Gamuchira odha (zvigadzirwa chinhu chinhu chakabatanidzwa chinhu SKU).",
+      desc: "Ingo sync inventory uye ugamuchire maodha (Zvigadzirwa zvichabatanidzwa neSKU).",
     },
     Accounting: {
       title: "akaundi",
@@ -9699,8 +9699,8 @@ export default {
     title: "Mapeji ekumhara",
     add_new_action: "Wedzera chitsva peji",
     subtitle:
-      "Gadzira chinhu, chinhu yakagadzirirwa Mapeji chinhu chinhu AI-chinhu chinhu chinhu, chinhu chinhu ",
-    empty_message: "chinhu yakagadzirirwa Mapeji chinhu chinhu & chinhu",
+      "Gadzira akasarudzika, anopindura echinyakare mapeji emhando yako uchishandisa inoshanda AI-powered inline edhita, uye otomatiki gadzira zvine simba zvemukati nekudyisa mudata.",
+    empty_message: "Gadzira mapeji akasarudzika nekudhonza & kudonhedza...",
   },
 
   /**
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "chinhu",
-    subtitle: "chinhu chinhu chinhu rondedzero chinhu chinhu ",
+    subtitle: "Iyi ndiyo rondedzero yezvakataurwa nenharaunda.",
     empty_msg: "aihwa chinhu chinhu ",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "zvikamu",
-    subtitle: "chinhu chinhu chinhu rondedzero chinhu chinhu chinhu zvikamu",
+    subtitle: "Iyi irondedzero yezvikamu zvenharaunda.",
     new_category_action: "Chikamu chitsva",
     empty_msg: "aihwa zvikamu chinhu chinhu ",
     filter: {
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "chinhu",
-    subtitle: "chinhu chinhu chinhu rondedzero chinhu chinhu ",
+    subtitle: "Iyi irondedzero yezvakatumirwa nenharaunda.",
     filter: {
       deleted: {
         title: "Dzadzimwa",
@@ -9766,7 +9766,7 @@ export default {
       },
       spam: {
         title: "chirevo & Bvisa chinhu",
-        subtitle: "chinhu Bvisa chinhu chinhu chinhu mushandisi",
+        subtitle: "Kuwanda bvisa zvakatumirwa uye kurambidza mushandisi.",
       },
       delete: {
         title: "Dzima chinhu",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "tagi chinhu",
       subtitle:
-        "Google chinhu chinhu ROI chinhu chinhu chinhu, Vhidhiyo, chinhu chinhu maapp Tonga Webhusaiti matagi chinhu chinhu Google tagi chinhu mahara, chinhu, chinhu chinhu chinhu—aihwa kodhi Rongedza chinhu",
+        "Google Analytics inogonesa kuyerwa kwead ROI uchiteedzera Flash, vhidhiyo, uye masocial media masaiti uye maapplication. Tonga ma tag ewebhusaiti zvisina basa neGoogle Tag Manager yemahara, yakapusa, uye yakavimbika mhinduro-hapana kugadzirisa kodhi kunodiwa.",
       tag_id: {
         label: "Google tagi chinhu ID",
       },
@@ -9790,13 +9790,13 @@ export default {
     shopping: {
       title: "Google chinhu",
       subtitle:
-        "chinhu chinhu ruzivo chinhu chinhu chinongedzo chinhu chinhu Wedzera zvose zvigadzirwa chinhu zvikamu chinhu Google chinhu",
+        "Data Source inoratidza kwakabva kabhuku kako ruzivo paGoogle. Tevedza chinongedzo ichi kuti uwedzere otomatiki zvigadzirwa zvese nezvikamu pane zvekutengesa zveGoogle.",
       tips: "chinhu chinhu Tonga Google chinhu",
       link_message: "Google zvigadzirwa chinhu URL",
     },
     console: {
       title: "tsvaga chinhu",
-      subtitle: `Wedzera chinhu chinhu tagi chinhu chinhu Google tsvaga chinhu chinhu`,
+      subtitle: "Wedzera meta tag kupeji yako yekumba yeGoogle Search Console yekuongorora.",
       code: {
         label: "chinhu chinhu tagi",
         placeholder: "Kubva chinhu, chinhu chinhu",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & chinhu",
       subtitle:
-        "chinhu chinhu SEO chinhu chinhu Kubva Google chinhu chinhu ",
+        "Isu tinowana chaiyo chaiyo SEO yekuongorora data kubva kuGoogle uye tinoiratidza kwauri nenzira iri nyore. Ingotevera matanho akapihwa.",
     },
     serp_content: {
       title: "Connect chinhu Google tsvaga chinhu",
       subtitle:
-        "Selldone Connect chinhu chitoro chinhu chinhu tsvaga chinhu chinhu Tanga chinhu chinhu, chinhu, chinhu chinhu mahara SEO Zvishandiso chinhu chinhu",
+        "Batanidza chitoro chako kune yekutsvaga koni uye tanga kuongorora mazwi akakosha, mazinga, uye mamwe emahara SEO maturusi paSelldone.",
       tips: {
         title:
-          "chinhu chinhu chinongedzo Selldone chinhu Google tsvaga chinhu, chinhu chinhu chinhu:",
+          "Usati wabatanidza Selldone neGoogle Search Console, ita shuwa zvinotevera:",
         add_in_selldone: "Wedzera, chinhu, chinhu chinhu yakagadzirirwa domeini",
-        add_in_google: `Wedzera chinhu chinhu <b>{domain}</b> chinhu chinhu<a href="https://search.google.com/search-console" target="_blank"> <b>Google tsvaga chinhu</b></a>.`,
+        add_in_google: "Wedzera uye simbisa <b>{domain}</b> mu<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a> yako.",
       },
       action_custom_domain: "yakagadzirirwa domeini",
       action_connect_now: "Batanidza Zvino",
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "chinhu kudzoserwa mari",
     delete_alert: {
       title: "Dzima kudzoserwa mari chinhu",
-      message: "chinhu chinhu Dzima chinhu kudzoserwa mari chinhu?",
+      message: "Une chokwadi chekudzima chirongwa ichi chekudzosera mari?",
       action: "Hongu, bvisa izvozvi",
     },
     notifications: {
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "chinhu chinhu , chinhu chinhu chinhu chimiro chinhu",
+      subtitle: "Isa iyo chasback muzana, muganhu uye chimiro chayo pano.",
     },
     percent_input: {
       title: "kudzoserwa mari chinhu",
-      message: "chinhu chinhu kudzoserwa mari chinhu Kubva 1% chinhu 20%.",
+      message: "Isa iyo yekudzosera mari kubva pa1% kusvika pa20%.",
     },
     currency_input: {
-      message: "chinhu kudzoserwa mari chinhu chinhu chinhu Inowanikwa chinhu chinhu chinhu Mari",
+      message: "Chirongwa chekudzoserwa mari chichavepo nekuda kwemari iyi chete.",
     },
     limit_input: {
       title: "chinhu",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "chinhu chinhu",
-      subtitle: "chinhu chinhu chinhu kudzoserwa mari chinhu chinhu sarudzo",
+      subtitle: "Seta nguva yechirongwa chekudzosera mari. Zvirikuda.",
     },
     start_input: {
       title: "Zuva rekutanga",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "chinhu musoro chinhu chinhu Tsanangudzo chinhu chinhu kudzoserwa mari chinhu chinhu ruzivo chinhu chinhu Vatengi",
+        "Seta musoro uye tsananguro pfupi yechirongwa chekudzosera mari. Mashoko aya acharatidzwa kune vatengi.",
     },
     title_input: {
       title: "musoro",
@@ -9933,9 +9933,9 @@ export default {
       title: "Kutenga zvishoma",
     },
     only_first_buy_input: {
-      false_desc: "chinhu kudzoserwa mari chinhu chinhu chinhu Inowanikwa chinhu zvose odha",
+      false_desc: "Chirongwa chekudzosera mari chichavepo kune ese maodha.",
       true_desc:
-        "chinhu kudzoserwa mari chinhu chinhu chinhu Inowanikwa chinhu chinhu odha",
+        "Chirongwa chekudzosera mari chichavepo chete kune yekutanga odha.",
       true_title: "chinhu chinhu odha",
       false_title: "zvose odha",
     },
@@ -9943,32 +9943,32 @@ export default {
       false_title: "zvose Vatengi",
       true_title: "chinhu Vatengi",
       true_msg:
-        "chinhu kudzoserwa mari chinhu chinhu chinhu Inowanikwa chinhu chinhu chinhu Vatengi chinhu chinhu chinhu",
+        "Iyo cashback chirongwa chichave chiripo chete kune vatengi vanokwanisa.",
     },
     club: {
       subtitle:
-        "chinhu chinhu kudzoserwa mari chinhu chinhu kudzoserwa mari chinhu chinhu chinhu Inowanikwa chinhu chinhu chinhu Vatengi chinhu chinhu ",
+        "Gadzirisa kirabhu yechirongwa chekudzosera mari. Chirongwa chekudzosera mari chichavepo kune vatengi vari mukirabhu iyi.",
     },
     cluster: {
       subtitle:
-        "chinhu chinhu kudzoserwa mari chinhu, chinhu chinhu Tonga chinhu Zvimwe. . chinhu",
+        "Nekubatanidza sumbu nechirongwa chekudzosera mari, unogona kuzvibata zvakanyanya.",
     },
     notifications: {
       add: "kudzoserwa mari chinhu Wedzera chinhu",
       edit: "kudzoserwa mari chinhu chinhu chinhu",
     },
     enable_input: {
-      true_msg: "chinhu kudzoserwa mari chinhu chinhu inoshanda chinhu Vatengi chinhu chinhu chinhu",
+      true_msg: "Iyo cashback chirongwa inoshanda uye vatengi vanogona kuishandisa.",
       false_msg:
-        "chinhu kudzoserwa mari chinhu chinhu kusashanda chinhu Vatengi chinhu chinhu ",
+        "Iyo cashback chirongwa hachishande uye vatengi havagone kuishandisa.",
     },
     boosted_input: {
       false_title: "chinhu",
       true_title: "chinhu (2chinhu kudzoserwa mari)",
       true_msg:
-        "chinhu kudzoserwa mari chinhu chinhu modhi chinhu Vatengi chinhu Gamuchira 2chinhu kudzoserwa mari",
+        "Chirongwa chekudzosera mari chiri mukusimudzira modhi uye vatengi vanogashira 2x mari yekudzoserwa.",
       false_msg:
-        "chinhu kudzoserwa mari chinhu chinhu modhi chinhu Vatengi chinhu Gamuchira chinhu kudzoserwa mari",
+        "Iyo cashback chirongwa chiri mune yakajairika mode uye vatengi vanogashira yakajairika mari yekudzoserwa.",
     },
   },
 
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "chinhu chinhu kuendesa",
-        subtitle: "chinhu chinhu kuendesa chinhu 💳 Kubhadhara chinhu",
+        subtitle: "Iwe unogona kusimbisa nemaoko kuendesa kune mupi wekubhadhara.",
       },
     },
   },
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "kudzosera mari 💳 Kubhadhara",
     message:
-      "chinhu Chengetedzo chinhu, chinhu odha Yakabhadharwa chinhu chinhu chinhu 7 30 mazuva chinhu chinhu chinhu kudzosera mari",
+      "Nezvikonzero zvekuchengetedza, maodha chete akabhadharwa mukati memazuva manomwe apfuura ndiwo anokodzera kudzorerwa.",
     payment_amount: "Kubhadhara Mari",
     total_refund_amount: "chinhu kudzosera mari Mari",
     can_refund: "chinhu kudzosera mari",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "chinhu kudzosera mari",
       description:
-        "chinhu chinhu kudzosera mari Mari chinhu chinhu ",
+        "Ndinosimbisa kuti mari yekudzorera ndeyechokwadi uye ndinoda kuenderera mberi.",
     },
     action: "kudzosera mari chinhu",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "mutengi kuendesa chinhu",
     message:
-      "chinhu 💳 Kubhadhara masevhisi chinhu chinhu odha chinhu chinhu mutengi chinhu chinhu odha chinhu chinhu chinhu Gamuchira chinhu Vatengi kuendesa chinhu chinhu, chinhu chinhu , chinhu chinhu ",
+      "Mamwe masevhisi ekubhadhara anoda simbiso yekuti odha yaunzwa kumutengi. Isu tinowanzo tumira iyi simbiso panguva yekupedzisira yekuzadzikiswa kweodha patinogamuchira vimbiso yekutumira yemutengi. Nekudaro, kana iwe uchida kuita chiitiko ichi nemaoko, unogona kuzviita pano.",
     verify: {
       title: "chinhu kuendesa",
       description:
-        "chinhu chinhu odha chinhu chinhu mutengi",
+        "Ndinosimbisa kuti odha yaunzwa kumutengi.",
     },
     action: "chinhu chinhu",
   },
@@ -10029,14 +10029,14 @@ export default {
     title: "Cross kutengesa",
     add_new_actions: "Wedzera chigadzirwa chitsva",
     subtitle:
-      "chinhu chinhu chinhu, chinhu chinhu Wedzera chinhu Tonga chinhu zvigadzirwa chinhu chinhu chigadzirwa peji chinhu zvigadzirwa chinhu chinhu Vatengi chinhu kutenga chinhu chinhu chikuru chinhu chinhu discount chinhu chinhu kutenga chinhu chinhu zhinji chinhu 3 zvinhu chinhu chinhu mutengi chinhu chinhu",
+      "Muchikamu chino, iwe unogona kuwedzera nekugadzirisa zvigadzirwa zvinotengeswa zveichi chigadzirwa peji. Zvigadzirwa izvi zvicharatidzwa semazano ekuti vatengi vatenge pamwe chete nechinhu chikuru. Iwe unogona zvakare kuseta zvidzikiso kukurudzira uye kukurudzira kutenga kwekuwedzera. Iyo sisitimu icharatidza huwandu hwezvinhu zve3 kuti mutengi afunge.",
     dialog: {
       edit_title: "Rongedza chinhu chinhu chigadzirwa",
       add_title: "Wedzera chitsva chinhu chinhu zvigadzirwa",
       target: {
         title: "chinhu chigadzirwa",
         subtitle:
-          "chinhu chinhu zvigadzirwa chinhu Kuda chinhu chinhu chigadzirwa",
+          "Sarudza zvigadzirwa zvaungade kusimudzira senzira dzekutengesa-padivi pechigadzirwa ichi.",
         select_products: "Sarudza chigadzirwa(chinhu)",
       },
       list: {
@@ -10047,18 +10047,18 @@ export default {
       discount: {
         title: "discount & Mharidzo",
         subtitle:
-          "chinhu chinhu Mharidzo chinhu chipo chinhu discount chinhu chinhu Vatengi chinhu chinhu chinhu Sarudza chinhu zvinhu chinhu chinhu chinhu rubatsiro chinhu kutengesa chinhu chinhu ",
+          "Iwe une sarudzo yekubatanidza meseji uye nekupa mutero wekukurudzira vatengi kutenga zvakasarudzwa zvimwe zvinhu. Izvi zvinokurudzira zvinogona kubatsira kutyaira kutengesa uye kuwedzera ruzivo rwese rwekutenga.",
         amount_input: {
           message:
-            "chinhu discount chinhu chinhu chigadzirwa mutengo chinhu chinhu chinhu akaundi zvose chinhu discount",
+            "The discount percentage ichashandiswa pamutengo wechigadzirwa mushure mekufunga nezvese zvaderedzwa zviripo.",
         },
         mismatch_type_warning:
-          "discount chinhu chinhu chikuru chigadzirwa chinhu, chinhu chinhu zvinhu chinhu chinhu ",
+          "Discounts haigone kuiswa kune mamwe marudzi kunze kwemhando huru dzechigadzirwa, sezvo sosi uye zvinhu zvinonangwa zvisingaiswe mudengu rimwe chete.",
         not_support_subscription_type_warning:
-          "chinhu discount chinhu chinhu Kunyoresa zvigadzirwa chinhu chinhu chinhu, chinhu chinhu mitengo Zvirongwa chinhu chinhu ",
+          "Kuseta zvidzikisiro zvekutengesa-kutengesa zvigadzirwa hazvigoneke, sezvo zvirongwa zvemitengo hazvigone kugadziridzwa zvine simba.",
         message_input: {
           message:
-            "chinhu chinhu musoro chinhu chinhu Vatengi chinhu",
+            "Gadzira zita rinomanikidza uye rinokwezva kuti ubate kutarisisa kwevatengi.",
           placeholder:
             "chinhu & Sevha: chinhu chinhu !",
         },
@@ -10066,7 +10066,7 @@ export default {
       action: {
         title: "chinhu",
         subtitle:
-          "chinhu chinhu chinhu zvigadzirwa chinhu chinhu chigadzirwa chinhu chinhu chinopinda chinhu yakagadzirirwa ruzivo, chinhu chinhu fomu, chinhu chinhu chinhu \"Wedzera chinhu chinhu\" chinhu chinhu chinhu, chinhu chinhu ",
+          "Shandura maitiro echigadzirwa chekutengesa pano. Kana chigadzirwa chako chichida kuisirwa ruzivo rwetsika, senge kuburikidza neFomu Yekukoshesa, usasarudza \"Wedzera KuCart\" sechiito, nekuti izvi zvinogona kutungamirira mukukanganisa.",
       },
     },
   },
@@ -10078,7 +10078,7 @@ export default {
     variants: {
       title: "chinhu chinhu",
       subtitle:
-        "Sarudza chinhu chinhu , chinhu chinhu Gadzira chinhu",
+        "Sarudza kusvika kune maviri akasiyana sarudzo. Mushure mekusarudza, unogona kusarudza kuti ndeapi akasiyana akasiyana ekugadzira otomatiki.",
     },
     values: {
       title: "chinhu chinhu",
@@ -10088,7 +10088,7 @@ export default {
     },
     inventory: {
       title: "chinhu stock",
-      subtitle: "chinhu chinhu tanga stock chinhu chinhu chinhu chitsva chinhu",
+      subtitle: "Seta nhamba yekutanga yezvinyorwa zvitsva.",
     },
     add_variants_action: "Gadzira chinhu",
   },
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Wedzera kuCart",
       description:
-        "chinhu chinhu Wedzera chinhu chinhu Cherechedza chinhu chinhu Kunyoresa zvigadzirwa",
+        "Ratidza bhatani reKuwedzera kuCart zvakananga. Ziva kuti izvi hazvishande kune zvekunyorera zvigadzirwa.",
     },
     ViewProduct: {
       title: "Ona Chigadzirwa",
       description:
-        "chinhu chinhu chinhu Zvimwe. . chinhu chinhu chinhu Vatengi chinhu chinhu chigadzirwa peji chinhu chinhu chinhu chitsva chinhu",
+        "Ratidza bhatani reOna Zvimwe rinotungamira vatengi kune peji yechigadzirwa nekuvhura hwindo idzva.",
     },
   },
 
@@ -10115,17 +10115,17 @@ export default {
 
   product_flow: {
     title: "kutenga chinhu",
-    subtitle: "chinhu chinhu chinhu kutenga chinhu chinhu chigadzirwa",
+    subtitle: "Uku ndiko kuyerera kwekutenga uye kutarisa kwehutano hwechigadzirwa chako.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "chinhu chigadzirwa chinhu chinhu Wedzera chinhu <b>{name}</b>.",
+      subtitle: "Ichi chigadzirwa chawedzerwa kuburikidza ne<b>{name}</b>.",
       enable_msg: "chinhu chinhu sevhisi chinhu yakagoneswa",
       disable_msg: "chinhu chinhu sevhisi chinhu yakadzimwa",
       has_shipping_msg:
-        "{name} rutsigiro kutumira chinhu chinhu otomatiki kutumira chinhu chinhu {name} chinhu chinhu Buda peji",
+        "{name} tsigira kutumira. Saka une sarudzo yekugonesa kuverenga kwekutumira ne {name} papeji yekubuda.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10135,7 +10135,7 @@ export default {
       available_in_stock_msg: "chigadzirwa chinhu Inowanikwa chinhu chinhu",
       out_of_stock_msg: "chigadzirwa chinhu chinhu ",
       file_count_msg:
-        "{files_count} mafaira chinhu chinhu {files_size} Isa chinhu chinhu chigadzirwa",
+        "{files_count} mafaira ane {files_size} akakwidzwa echigadzirwa ichi.",
       no_file_uploaded_msg: "aihwa faira chinhu chinhu Isa chinhu",
       no_image_uploaded_msg:
         "Isa chinhu chigadzirwa mufananidzo chinhu wana chinhu Zvimwe. . chinhu",
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "chinhu vatengesi",
       subtitle:
-        "chinhu chigadzirwa chinhu chinhu aihwa chinhu vatengesi chinhu chinhu chigadzirwa chinhu chinhu , chinhu chinhu mutengesi",
+        "Ichi chigadzirwa parizvino hachina vatengesi vanobatanidzwa. Kuti chigadzirwa chikwanise kutengwa pamusika, chinofanira kunge chine mutengesi mumwe chete.",
       manage_vendors: "Tonga vatengesi",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "chinhu mafaira",
       subtitle:
-        "chinhu, aihwa mafaira chinhu chinhu Isa chinhu chinhu chigadzirwa chinhu Isa mafaira chinhu chinhu",
+        "Parizvino, hapana mafaira akakwidzwa echigadzirwa ichi. Tapota isa mafaira kuti uenderere mberi.",
       manage_files: "Tonga mafaira",
     },
 
@@ -10165,7 +10165,7 @@ export default {
      */
     pricing: {
       title: "mitengo",
-      no_product_price_msg: "chinhu chinhu chigadzirwa mutengo chinhu chinhu chinhu!",
+      no_product_price_msg: "The default chigadzirwa mutengo hausati waiswa!",
       listing_pricing_msg: "Kunyora mitengo:",
       has_valuation_msg: "chigadzirwa chinhu chinhu",
       subscription_pricing_msg:
@@ -10195,9 +10195,9 @@ export default {
       available_countries_msg:
         "chinhu chinhu {count} chinhu chinhu {countries}.",
       disable_for_all_countries_msg:
-        "chinhu chinhu yakadzimwa chinhu zvose chinhu chinhu chinhu chitoro > Nzvimbo chinhu",
+        "Kutenga kwakadzimwa kunyika dzese dziri muchitoro chako > marongero enzvimbo.",
       location_is_not_in_permitted_shop_locations_msg:
-        "chinhu chinhu {country} chinhu chinhu chinhu Nzvimbo chinhu chinhu chinhu chitoro chinhu chinhu Nyika chinhu chinhu chinhu chitoro chinhu marongero",
+        "Unoisa {country} senzvimbo yekutengesa asi padanho rechitoro haubvumidze nyika ino. Ndokumbira utarise zvigadziriso zvechitoro chako.",
       shop_locations: "chitoro Nzvimbo",
       product_locations: "chigadzirwa Nzvimbo",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "Inowanikwa Nzvimbo chinhu",
       no_location_error_subtitle:
-        "chinhu chinhu Nzvimbo kurambidzwa chinhu chinhu chinhu chigadzirwa, chinhu chinhu, aihwa Nyika chinhu rondedzero chinhu chinhu kurambidzwa chinhu chinhu chinhu, chinhu chigadzirwa chinhu hachipo chinhu kutenga chinhu chinhu",
+        "Iwe wakamisa kurambidzwa kwenzvimbo kutenga chigadzirwa, asi parizvino, hapana nyika yakanyorwa pasi pezvirambidzo izvi. Nekuda kweizvozvo, chigadzirwa ichi hachiwanikwe kutengwa nemunhu wese.",
       invalid_location_error_subtitle:
-        "chinhu Nzvimbo kurambidzwa marongero chinhu chinhu chigadzirwa chinhu chinhu chinhu: chinhu Nzvimbo rondedzero chinhu chinhu ZIP kodhi chinhu, Vashandisi chinhu chinhu chinhu Sarudza chinhu ZIP kodhi, chinhu chinhu chigadzirwa hachipo chinhu kutenga",
+        "Zvirambidzo zvenzvimbo yechigadzirwa chako zvine chikanganiso: dzimwe nzvimbo dzakanyorwa hadzina chero maZIP code ane hukama. Nekuda kweizvozvo, vashandisi havakwanisi kusarudza ZIP kodhi, izvo zvinoita kuti chigadzirwa chishaikwe pakutenga.",
 
       manage_locations: "Tonga Nzvimbo",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "Mutero maprofile",
       description: {
         subscription_tax_msg:
-          "chinhu chinhu chinhu Mutero chinhu chinhu chinhu 💳 Kubhadhara chinhu chinhu",
+          "Tinogona kuisa mutero chete padanho rekugadzira mubhadharo.",
         dedicated: "chinhu",
         is_disabled: "chinhu Mutero profile chinhu yakadzimwa!",
         tax_is_based_on_location: "Mutero: Nzvimbo chinhu",
@@ -10238,9 +10238,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "chinhu chigadzirwa chinhu chinhu <b>{vendor}</b>.",
-      has_vendors_msg: "chinhu chinhu {count} vatengesi chinhu chinhu chigadzirwa",
+      has_vendors_msg: "Pane {count} vatengesi vechinhu ichi.",
       no_vendor_msg:
-        "chinhu chinhu mutengesi chinhu chinhu chigadzirwa, chinhu Vatengi chinhu chinhu chinhu kutenga chinhu",
+        "Hauna kupa mutengesi kuchigadzirwa ichi, saka vatengi havakwanisi kuchitenga.",
       add_vendors: "Wedzera vatengesi",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "chigadzirwa peji chinhu",
     subtitle:
-      "chinhu chinhu peji chinhu chinhu chigadzirwa peji chinhu chinhu Gadzira Mapeji chinhu chinhu pachena kumashure chinhu 1 chinhu 3 chinhu chinhu chigadzirwa chikamu chinhu, chinhu chinhu peji chinhu chinhu zvigadzirwa chinhu chinhu ",
+      "Iwe unogona kumisa peji mukati mechigadzirwa chako peji kuti uwane yakagadziridzwa mharidzo. Iyo yakanyanya kunaka nzira ndeyekugadzira mapeji ane yakajeka kumashure uye 1 kusvika 3 zvikamu zvakagadzirirwa chikamu chimwe nechimwe chechigadzirwa. Wobva wapa peji rimwe kune zvigadzirwa zvakawanda kuti zviratidzike zvinoenderana uye zvinokwezva.",
     edit_page: "Rongedza peji",
     list_of_pages: "rondedzero chinhu Mapeji",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "chinhu chinhu chigadzirwa chinhu chinhu rondedzero chinhu zvigadzirwa chinhu chinhu blogu chinhu chinhu chinhu Mapeji chinhu chinhu kodhi chinhu chinhu , chinhu chinhu Inowanikwa chinhu chinhu chipo chinhu chinhu, chinhu chinhu Zvirongwa chinhu chinhu Zvimwe. . chinhu chinhu ",
+      "Unogona kunyudza chigadzirwa kana runyorwa rwezvigadzirwa mublog rako kana mamwe mapeji ewebhu nekungokopa nekunamira macode atinopa. Kunyangwe chimiro ichi chichiri mumatanho ekutanga, isu tiri kushanda nesimba kuti tiwedzere mashandiro ayo kupfuura izvo zviripo kune imwe nzvimbo. Nepo parizvino ichipa mashoma kugona, isu tine zvirongwa zvekuunza mamwe matemplate uye maitiro ekugadzirisa mune ramangwana.",
     card: {
       title: "chinhu",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "chinhu",
       description:
-        "chinhu chinhu chinhu kodhi chinhu chinhu chinhu chigadzirwa chinhu chinhu ",
+        "Gadzira iyo iframe kodhi kuratidza yakazara zvigadzirwa zvemukati muhwindo rakaiswa.",
     },
   },
 
@@ -10288,11 +10288,11 @@ export default {
     },
     access: {
       customization_tips:
-        "<b>chinhu:</b> chinhu chinhu kupinda chinhu chinhu kupinda chinhu chinhu chikuru chitoro bhodhi rekutonga",
+        "<b>Kugadzirisa:</b> Baya pane chimwe nechimwe kuti ugadzirise mapindiro ekuverenga/kunyora. Mutsara wega wega unomiririra danho rekupinda rinoenderana nedhibhodhi rechitoro chikuru.",
       simplify_tips:
-        "<b>chinhu!</b> chinhu chinhu chinhu kupinda chinhu Kubva chinhu 300 chinhu chinhu 10 chinhu Zvimwe. . chinhu chinhu chinhu kupinda chinhu chinhu chinhu Rakabudiswa chinhu chinhu chinhu",
+        "<b>Zvakakosha!</b> Isu tinorerutsa mapindiro kubva pamusoro pe300 kusvika pasi pegumi. Mamwe mazinga ekuwana akadzama uye azvino anozoburitswa muzvinyorwa.",
       multi_permission_tips:
-        "<b>yakagadzirirwa Miganhu?</b> chinhu chinhu Wedzera Zvimwe. . kupinda chinhu chinhu mushandisi, chinhu chinhu Wedzera chinhu chinhu kupinda, Gadzira chinhu kupinda chinhu chinhu ",
+        "<b>Zvausingabvumirwi?</b> Unogona kuwedzera mukana kune mumwe mushandisi, saka mushure mekuisa yekutanga, wedzera mukana wekupinda uchishandisa matanho akafanana.",
       view_data: "chinhu chinhu",
       apply_changes: "Shandisa Shanduko",
     },
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "chinhu zvigadzirwa Kunyora",
     subtitle:
-      "chinhu zvigadzirwa Kubva chinhu zvikamu chinhu chinhu zvikamu chinhu chinhu zvigadzirwa chinhu Sefa zvigadzirwa chinhu matagi",
+      "Ratidza zvigadzirwa kubva mumapoka akasiyana. Iwe une sarudzo yekusarudza akawanda mapoka kuratidza zvigadzirwa kana kusefa zvigadzirwa nema tag.",
     aut_add_sub_categories_tips:
-      "chinhu chinhu chinhu Wedzera zvose chinhu chinhu chikamu chinhu chinhu ",
+      "Iwe unogona kuwedzera otomatiki ese madiki kuchikamu chazvino nekudzvanya bhatani riri pazasi.",
     inputs: {
       categories: {
         label: "zvikamu",
-        messages: "zvigadzirwa chinhu chinhu zvikamu chinhu chinhu chinhu",
+        messages: "Zvigadzirwa zviri muzvikamu izvi zvicharatidzwa.",
         placeholder: "Sarudza zvikamu",
       },
       tags: {
         label: "chigadzirwa matagi",
-        messages: "zvigadzirwa chinhu chinhu matagi chinhu chinhu Ratidza",
-        placeholder: "chinhu matagi chinhu chinhu semuenzaniso chitsva chinhu",
+        messages: "Zvigadzirwa zvine ma tag aya zvicharatidzwa.",
+        placeholder: "Waya tags pano wodzvanya enter. ex. muunganidzwa mutsva",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>chinhu tsvaga: </b>tsvaga chinhu musoro, MPN, SKU, chinhu, chinhu matagi",
       product:
-        "<b>chinhu chigadzirwa ID: </b>chinhu chinhu ID chinhu chinhu chigadzirwa, chinhu, <b class=\"text-green\">chinhu</b><i class=\"text-yellow\">360</i>.",
+        "<b>Chaiyo Chigadzirwa ID: </b>Shandisa P+Product ID kutsvaga chimwe chigadzirwa, semuenzaniso, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>chinhu chinhu: </b>chinhu chinhu tsvaga chinhu chinhu , chinhu, <b class=\"text-green\">\"</b><i class=\"text-yellow\">chinhu chinhu chinhu</i><b class=\"text-green\">\"</b>.",
+        "<b>Chirevo chaicho: </b>Shandisa maquotation marks kutsvaga mutsara chaiwo, semuenzaniso, <b class=\"text-green\">\"</b><i class=\"text-yellow\">mavara ako pano</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Mutero profile: </b>tsvaga chinhu zvigadzirwa chinhu chinhu chinhu Mutero profile chinhu \"Mutero:\", chinhu, <b class=\"text-green\">Mutero:</b><i class=\"text-yellow\">Mutero profile Zita</i>.",
       new_products:
-        "<b>chitsva zvigadzirwa: </b>chinhu zvigadzirwa Wedzera chinhu chinhu chinhu zuva chinhu, chinhu, <b class=\"text-green\">chitsva~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Zvigadzirwa Zvitsva: </b>Tsvaga zvigadzirwa zvakawedzerwa mukati menguva yakatarwa, semuenzaniso, <b class=\"text-green\">zvitsva~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "chinhu",
     subtitle:
-      "chinopinda chinhu chinhu peji chinhu chinhu 32 chinhu",
+      "Pinza kiyi inozochinjika neukoshi hwayo hunofambirana nezviri mukati pejiji. Makiyi haafanire kunge ari mabhii makumi matatu nemaviri.",
     add_caption: "Wedzera chitsva chinhu",
     add_sub_caption: "Wedzera yakagadzirirwa chinhu chinhu",
     add_dialog: {
@@ -10391,7 +10391,7 @@ export default {
     help_dialog: {
       title: "chinhu chinhu ",
       how_it_works_tips:
-        "chinhu chinhu Kudzika Mapeji, chinhu chinhu mifananidzo chinhu chinhu , chinhu chinhu semuenzaniso, chinhu chinhu chigadzirwa chinhu chikamu chinhu chinhu zvinhu chinhu chinhu , chinhu chinhu Kudzika Mapeji",
+        "Mumapeji ekumhara, iwe une shanduko yekusarudza ane simba ekuisa nzvimbo kune ese mameseji nemifananidzo. Ava vanobatirira nzvimbo vanoita basa rakakosha mukugadzirisa zvirimo zvinoenderana nemamiriro ezvinhu.   Hunhu hwekusimba hweava vanobata nzvimbo hunovatendera kuti vagarwe nekuwedzera kukosha, izvo zvinogona kusiyanisa zvichienderana nezvinhu zvakasiyana. Semuyenzaniso, iwo augmentation values ​​anogona kunge akasiyana kune chimwe nechimwe chigadzirwa kana chikamu. Mukana chaiwo wechinhu ichi unouya kana uine zvinhu zvakasiyana siyana zvine hunhu hwakasiyana. Iwe unogona kushandisa nemazvo izvi zvinobatika zvinobatisa nzvimbo kugadzirisa uye kuwedzera kuratidzwa kwechinhu chimwe nechimwe, nekudaro uchigadzira yakasarudzika uye inopindirana chiitiko pamapeji ako ekumhara.",
       assign_tips:
         "chinhu chinhu mifananidzo, chinhu chinhu ",
       set_dynamic_image_tips:
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu chinhu rondedzero chinhu chinhu profile chinhu chinhu chinhu",
+        "Iyi ndiyo rondedzero yemitauro yemukati. Iwe unogona kuseta zvakasiyana zvemukati zveiyo logistics profiles mumutauro wega wega.",
       add_caption: "Wedzera chitsva chinhu",
       no_more_language: "aihwa Zvimwe. . chinhu!",
     },
     content: {
       title: "chinhu",
       subtitle:
-        "chinhu chinhu profile chinhu chinhu chinhu",
+        "Iwe unogona kugadzirisa zvirimo zveiyo logistics profiles mumitauro yakawanda.",
 
       language_input: "chinhu chinhu chinhu",
       delete_article: "Dzima chinhu",
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "zvigadzirwa",
-    subtitle: "rondedzero chinhu zvigadzirwa chinhu chinhu chinhu profile",
+    subtitle: "Rondedzero yezvigadzirwa zvine chekuita neiyi chimiro.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10460,8 +10460,8 @@ export default {
       },
       accept_delete: {
         true_description:
-          "chinhu chinhu chinhu Bvisa zvose chinhu chinhu maprofile chinongedzo",
-        true_title: "chinhu chinhu chinhu Bvisa chinhu chinhu",
+          "Ichi chiito chichabvisa zvese zvinyorwa uye profiles zvinongedzo.",
+        true_title: "Ndinosimbisa kuti ndibvise chinongedzo ichi.",
       },
     },
     actions: {
@@ -10476,24 +10476,24 @@ export default {
     title: "chinhu maprofile",
     add_caption: "Wedzera chitsva profile",
     subtitle:
-      "chinhu chinhu Gadzira chinhu Rongedza chinhu waranti chinhu Dzoka mutemo chinhu zvigadzirwa chinhu chinhu zvigadzirwa chinhu chinhu waranti chinhu chinhu zvigadzirwa",
+      "Iwe unogona kugadzira uye kugadzirisa waranti uye kudzorera mutemo kune zvigadzirwa pano uye ugozvipa kune chero zvigadzirwa. Iwe unogona kutsanangura akasiyana waranti marongero emhando dzakasiyana dzezvigadzirwa.",
     add_dialog: {
       title: "Gadzira chitsva chinhu profile",
       config: {
         title: "chinhu ruzivo",
         subtitle:
-          "chinhu chinhu profile chinhu chinhu gwara, waranti, chinhu chinhu zvigadzirwa",
+          "Sarudza rudzi rweprofile. Inogona kunge iri gwara, waranti, kana chero zvimwe zvemukati uye zvinhu zvinowanzogovaniswa pakati pezvigadzirwa zvakawanda.",
       },
       article: {
         title: "chinhu",
         subtitle:
-          "chinhu chinhu Wedzera Zvimwe. . chinhu chinhu profile",
+          "Unogona kuwedzera mimwe mitauro mushure mekugadzira iyi logistic profile.",
       },
       inputs: {
         name: {
           message:
             "chinhu Zita Ratidza chinhu chinhu Veruzhinji",
-          placeholder: "chinhu chinhu Zita chinhu chinhu profile",
+          placeholder: "Isa zita renhoroondo...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "chinhu zvinhu Kutonga",
     add_caption: "Wedzera chitsva chinhu",
     subtitle:
-      "chinhu, chinhu chinhu Tonga chinhu zvinhu chinhu chinhu chinhu zvigadzirwa chinhu chinhu Chitarisiko chinhu chinhu chitoro, chinhu chinhu zvinhu chinhu chinhu mufananidzo chinhu, chinhu chinhu chinhu, chinhu zvose zvigadzirwa",
+      "Pano, unogona kugadzirisa zvinhu zvinosanganisirwa mune zvigadzirwa zvako. Kuita kuti chitoro chako chitaridzike chisina mhosva, gara uchishandisa zvinhu zvine mapikicha akafanana, senge waya mafiramu, pane zvese zvigadzirwa.",
     empty_list_msg: "rondedzero chinhu chinhu zvinhu",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Dzima chinhu chinhu",
       message:
-        "chinhu chinhu Dzima chinhu chinhu? chinhu Cherechedza chinhu chinhu Kubva zvose chinhu zvigadzirwa!",
+        "Une chokwadi here kuti unoda kudzima zvachose chinhu ichi? Ndokumbira utarise kuti ichabviswawo kubva kune zvese zvakabatana zvigadzirwa!",
       action: "Hongu, bvisa izvozvi",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "chinhu chinhu",
     subtitle:
-      "chinhu chinhu chinhu musoro, chinhu chinhu 2 chinhu 3 chinhu chinhu mifananidzo, chinhu chinhu Isa Mifananidzo chinhu chinhu 256chinhu chinhu Chitarisiko chinhu zvose chinhu, chinhu chinhu mifananidzo chinhu pachena kumashure chinhu chinhu zvigadzirwa",
+      "Sarudza zita pfupi, rine mazwi maviri kusvika matatu zvakanyanya. Shandisa maskweya mifananidzo, sezvo isu tichizogadzirisa otomatiki mapikicha akakwidzwa kuita 256x256 square fomati. Kuti itaridzike yakanakisa pamatemplate ese, shandisa mifananidzo yeminimalistic ine ruvara rwakajeka uye chengetedza yunifomu muzvigadzirwa zvako zvese.",
     inputs: {
       title: {
         placeholder: "chinhu musoro chinhu chinhu chigadzirwa peji",
       },
       code: {
         placeholder: "chinhu kodhi, semuenzaniso Vadivelu Comedy Mobile_chinhu_chinhu",
-        hint: "chinhu chinhu kodhi chinhu chinhu chinhu tsvaga chinhu chinhu chinhu zvinhu",
+        hint: "Shandisa kodhi iyi kugadzirisa maitiro ekutsvaga kutsvaga zvinhu.",
       },
       description: {
-        placeholder: "chinhu chinhu Tsanangudzo chinhu chinhu chinhu",
-        hint: "Tsanangudzo chinhu chinhu SEO chinhu chinhu Vashandisi chinhu chinhu yakagadzirirwa chinhu chinhu chinhu chigadzirwa peji",
+        placeholder: "Tsanangudzo pfupi pamusoro pechinhu ichi...",
+        hint: "Tsananguro ichashandiswa kune SEO uye pamwe inoonekwa kune vashandisi pane mamwe etsika marongero mune yechigadzirwa peji.",
       },
       image: {
         message: "chinhu mufananidzo chinhu: 1MB",
@@ -10560,13 +10560,13 @@ export default {
       external_link: {
         title: "chinhu chinongedzo",
         description: "chinhu chinhu chinongedzo chinhu chinhu ",
-        tips: "chinhu chinhu URL chinhu chinhu Vashandisi chinhu chinhu chigadzirwa peji, chinhu chinhu chinongedzo",
+        tips: "Unogona kubatanidza chero URL kuchinhu. Kana vashandisi vadzvanya pane chinhu chiri papeji yechigadzirwa, ivo vanozoendeswa kune iyo link.",
       },
       internal_link: {
         title: "chinhu chinongedzo",
         description:
           "Gadzira chinhu peji chinhu chinhu ",
-        tips: "chinhu chinhu chinongedzo chinhu Kudzika peji chinhu chinhu profile chinhu chinhu chinhu yakagadzirirwa chinhu chinhu Selldone chinhu chinhu chinongedzo chinhu chinhu chinhu",
+        tips: "Iwe unogona kubatanidza peji yekumhara neiyo mbiri uye kuseta nzira yetsika uye ine simba yemukati yayo. Selldone ichagadzira chinongedzo chine simba chechinhu chacho.",
       },
     },
     notifications: {
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "Akadzoka odha",
     subtitle:
-      "chinhu Vatengi chinhu Dzoka chinhu chinhu odha, chinhu chinhu Dzoka Zvikumbiro chinhu chinhu odha chinhu peji chinhu kupinda chinhu chinhu rondedzero chinhu Akadzoka odha chinhu",
+      "Vatengi vako vanogona kudzosera maodha avo emuviri, uye unogona kuona zvikumbiro zvekudzoka pane peji rekugadzirisa odha kana kuwana runyoro rwakakwana rwemaodha akadzoserwa pano.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "komisheni",
     subtitle:
-      "chinhu rondedzero chinhu zvose komisheni chinhu chinhu chinhu Kubva chinhu chinhu 30 30 mazuva chinhu chinhu Komisheni chinhu chinhu chikwama",
+      "Rondedzero yemakomisheni ese awakawana kubva kune ako kutumira. Zvinotora mazuva anosvika makumi matatu kuti komisheni itenderwe uye iendeswe kuchikwama chako.",
   },
   /**
    * @see OReferralWallets
@@ -10600,7 +10600,7 @@ export default {
   referral_wallets: {
     title: "zvikwama",
     subtitle:
-      "chinhu chinhu chinhu ona chinhu Komisheni chinhu chinhu Komisheni chinhu chinhu akaundi chinhu chinhu Selldone chikwama",
+      "Pano iwe unogona kuona mari yekomisheni yawakawana. Unogona kuendesa mari yako yekomisheni kuaccount yako yebhangi kana yako Selldone wallet.",
     no_commission_yet: "chinhu chinhu Komisheni chinhu",
     no_wallet: "aihwa chikwama!",
 
@@ -10612,21 +10612,21 @@ export default {
       to_wallet: {
         title: "chinhu chikwama",
         subtitle:
-          "chinhu chinhu chinhu, chinhu chinhu chinhu Komisheni chinhu chinhu chinhu Selldone chikwama chinhu wana chinhu chinhu chinhu chikwama chinhu Yakabatanidzwa chinhu chinhu Chipo chikwama, chinhu chinhu Mari",
+          "Neiyi sarudzo, unogona kuendesa mari yekomisheni kune yako Selldone wallet. Ndapota ita shuwa kuti chikwama chakabatana sechipo chako chechipo, uye kuti chinoshanda nemari yakafanana.",
       },
       to_bank: {
         title: "chinhu chinhu",
         subtitle:
-          "chinhu chinhu chinhu, chinhu chinhu chinhu Komisheni chinhu chinhu chinhu Selldone chikwama chinhu wana chinhu chinhu chinhu chikwama chinhu Yakabatanidzwa chinhu chinhu Chipo chikwama, chinhu chinhu Mari",
+          "Neiyi sarudzo, unogona kuendesa mari yekomisheni kune yako Selldone wallet. Ndapota ita shuwa kuti chikwama chakabatana sechipo chako chechipo, uye kuti chinoshanda nemari yakafanana.",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "chinhu chinhu Komisheni chinhu chinhu Selldone chikwama",
+            "Ndinoda kuendesa komisheni yangu kuchikwama changu cheSelldone.",
         },
         verify_to_bank: {
           true_description:
-            "chinhu chinhu Komisheni chinhu chinhu chinhu akaundi",
+            "Ini ndinosimbisa ruzivo rwangu rwebhangi uye ndinoda kuendesa komisheni yangu kuaccount yangu yekubhangi.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "chinhu chinhu , chinhu chinhu chinhu Ongorora chinhu",
+        "Chikumbiro chako chagamuchirwa, uye tichachiongorora.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "chinhu chinhu Wedzera <b>?chinhu={code}</b> chinhu chinhu ",
+      message: "Unogona kuwedzera <b>?ref={code}</b> kune chero url yatengeswa.",
     },
     intro: {
       title: "chinhu chinhu Selldone mubatsiri chinhu",
       message:
-        "chinhu Selldone mubatsiri chinhu chinhu , chinhu chinhu mubatsiri chinongedzo chinhu chinhu chitsva Vashandisi chinhu Selldone, chinhu chinhu Komisheni Kubva chinhu transaction chinhu wana—chinhu chinhu Zvinosanganisira chinhu Kubva kunyoresa, sevhisi chinhu, chitoro chinhu, chinhu zvose chinhu chinhu chinhu Tanga chinhu chinhu Miganhu chinhu Nguva chinhu chinhu !",
+        "Iyo Selldone Affiliate Chirongwa chiri nyore uye chakatwasuka, chakagadzirirwa kuti iwe uwane mari usingaite. Govera chako chakasarudzika chinongedzo chekubatanidza kukoka vashandisi vatsva kuSelldone, uye iwe uchawana komisheni kubva pane zvese zvavanoita - nekusingaperi. Izvi zvinosanganisira mihoro kubva mukunyoreswa, mari dzesevhisi, kukwidziridzwa kwechitoro, uye mamwe ese emari emari. Tanga kuwana chikamu chemari pasina chero miganhu panguva kana mihoro. Joinha isu uye shandura network yako kuita mari yakadzikama!",
       why_join_selldone_affiliate: "chinhu chinhu ?",
       reasons: [
         "chinhu chinhu chinhu!",
-        "Selldone chinhu zvose Kunyoresa chinhu transaction chinhu chinhu chinhu 💳 Kubhadhara chinhu chinhu mushandisi chinhu chinhu",
-        "chinhu chinhu chinhu mahara $99 chinhu chinhu chinongedzo",
-        "chinhu chinhu , chinhu chinhu chitsva chinhu Kubva zvose chinhu chinhu Vashandisi",
+        "Inovhara zvese kunyoreswa uye mari yekutengeserana. Chaizvoizvo kubhadhara kwese kwemushandisi paSelldone.",
+        "Tinotumira $99 vocha yemahara kune wese anonyoresa achishandisa link yako.",
+        "Kana tier yako ikakwidziridzwa, iwe uchawana pachiyero chitsva kubva kune vese vakambotaurwa vashandisi.",
       ],
     },
   },
@@ -10677,16 +10677,16 @@ export default {
     clone_tooltip: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu , kumashure, chinhu, chinhu chinhu :",
+        "Shandisa chishandiso ichi kudzokorora masitaera senge mafonti, kumashure, mariji, uye miganhu. Tevedza nhanho idzi kutevedzera masitaera:",
       step_1:
-        "chinhu chinhu , chinhu, chinhu mifananidzo; chinhu chinhu ",
+        "Shandisa chishandiso uye simudza mbeva yako pamusoro pemavara, makoramu, kana mifananidzo; cursor ichachinja kuita pipette.",
       step_2: "chinhu chinhu ",
       step_3:
         "chinhu chinhu ; chinhu chinhu ",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "chinhu chinhu , chinhu Zvinosanganisira zvose chinhu zvikamu chinhu Kuvaka. .. chinhu peji",
+        "Shandura kuoneka kwemenu yeparutivi, iyo inosanganisira zvikamu zvese zvezvikamu zvekuvaka peji rako.",
     },
     sort_tooltip: {
       subtitle:
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "zvose Rongedza Zvishandiso chinhu chinhu chinhu",
       view_mode_title: "chinhu modhi",
       view_mode_msg:
-        "chinhu chinhu peji chinhu Vashandisi chinhu ona chinhu chinhu Rongedza Zvishandiso chinhu chinhu ",
+        "Wona peji rako semaonerwo azvinoitwa nevashandisi nekuvanza mamwe maturusi ekugadzirisa uye nzvimbo dzemavara dzisina chinhu.",
     },
     repository_tooltip: {
       title: "chinhu chinhu",
       subtitle:
-        "chinhu chinhu Inowanikwa chinhu chinhu , chinhu chinhu peji chinhu",
+        "Shandura kuratidzwa kwezvikamu zvakafanogadzirwa. Zvikamu izvi zvinogadzirwa uchishandisa zvikamu zvakajairwa zvinowanikwa mune yekuruboshwe menyu, zvichiratidza kuchinjika kweiyi peji muvaki.",
     },
     live_view: {
       title: "Rarama chinhu",
@@ -10712,17 +10712,17 @@ export default {
     hotkeys_dialog: {
       title: "chinhu chinhu",
       augment_tips:
-        "chinhu chinhu peji chinhu chinhu <b>chinhu</b> chinhu chinhu yakagadzirirwa chinhu Mapeji chinhu chinhu <b>zvigadzirwa</b>, <b>zvikamu</b>, chinhu <b>chinhu zvinhu</b>. chinhu chinhu chinhu mufananidzo chinhu chinhu chinhu, chinhu chinhu <b>chinhu</b> chinhu Sarudza <b>chinhu chinhu</b> chinhu chinhu mufananidzo",
+        "Unogona kurodha zvinhu zvinochinja papeji rako wozvitsiva ne <b>augment</b> kukosha. Augment inoshandiswa pamapeji anochinja-chinja akadai se <b>Zvigadzirwa</b>, <b>Categories</b>, uye <b>Include Zvinhu</b>. Kuti uise mufananidzo kuti utakure zvine simba, baya pa <b>Feeder</b> wosarudza <b>Dynamic Source</b> yemufananidzo iwoyo.",
     },
     hotkeys: {
-      ctrl_b: "chinhu chinhu Sarudza chinhu | <b>wana chinhu chinhu</b>",
-      ctrl_i: "chinhu chinhu Sarudza chinhu | <i>wana chinhu chinhu</i>",
+      ctrl_b: "Bold on/off pamavara akasarudzwa | <b>Itai kuti ndishinge</b>",
+      ctrl_i: "Batidza/dzima tits pamavara akasarudzwa | <i>Itai kuti nditaridzike</i>",
       ctrl_l:
-        "chinhu chinhu Sarudza chinhu | <s>chinhu chinhu chinhu</s>",
-      ctrl_u: "chinhu chinhu Sarudza chinhu | <u>chinhu chinhu</u>",
+        "Batidza/kudzima pamavara akasarudzwa | <s>Ramba kubudikidza neni</s>",
+      ctrl_u: "Shandura pasi pa/kudzima pamavara akasarudzwa | <u>Nditsikirire pasi</u>",
       ctrl_1:
-        "chinhu chinhu Sarudza chinhu | <small>wana chinhu chinhu</small>",
-      ctrl_2: "wedzera chinhu chinhu chinhu Sarudza chinhu | <big>wana chinhu chinhu</big>",
+        "Deredza saizi yefonti yemavara akasarudzwa | <small>Ndiite mudiki</small>",
+      ctrl_2: "Wedzera saizi yefonti yemavara akasarudzwa | <big>Ndiite mukuru</big>",
       ctrl_r: "Bvisa zvose chinhu Kubva Sarudza chinhu | chinhu zvose chinhu",
       ctrl_s: "Sevha chinhu peji",
       tab: "chinhu chinhu chinhu modhi",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "marongero",
         subtitle:
-          "chinhu chinhu Sevha chinhu chinhu peji chinhu chinhu zvose chinhu chinhu chinhu chitoro",
+          "Iwe unogona kuchengetedza zvakagadzirirwa-zvakagadzirwa zvikamu zvekushandisa mune ramangwana mune yako peji magadzirirwo. Izvi zvikamu zvakachengetwa zvichawanikwa kune vese vatariri muchitoro ichi.",
       },
       image: {
         title: "mufananidzo",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "kodhi",
         subtitle:
-          "chinhu chinhu kodhi Kubva chinhu chinhu peji chinhu",
+          "Iwe unogona kukopa uye kunama iyo element kodhi kubva kuruboshwe divi zvikamu mune peji inovaka.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "matagi",
-          message: "chinhu chinhu tsvaga chinhu chinhu chinhu",
+          message: "Inoshandiswa kutsvaga nekuisa zvikamu.",
         },
         section: {
-          message: "chinhu chinhu chinhu Kubva chinhu peji chinhu",
+          message: "Kopa chikamu kubva kumugadziri wepeji.",
         },
       },
     },
@@ -10778,32 +10778,32 @@ export default {
     add_new_vendor_action: "Wedzera chitsva mutengesi",
     status_tooltip: {
       title: "mutengesi chimiro",
-      ACCEPTED: "chinhu mutengesi chinhu kupinda chinhu chinhu chinhu",
-      REJECTED: "chinhu mutengesi chinhu chinhu chinhu Rambwa",
-      PENDING: "chinhu chinhu chinhu Takamirira chinhu chinhu Kubva chinhu mutengesi",
+      ACCEPTED: "Mutengesi ane mukana wepaneru yavo.",
+      REJECTED: "Chikumbiro chemutengesi charambwa.",
+      PENDING: "Chikumbiro chakamirira sarudzo kubva kumutengesi.",
     },
     number_of_products: "chinhu chinhu zvigadzirwa",
     invited: "chinhu",
     no_pricing: "aihwa mitengo",
     no_pricing_tooltip: {
       title: "chinhu mitengo Ronga",
-      subtitle: "chinhu chinhu mitengo chinhu chinhu chinhu mutengesi",
+      subtitle: "Ndokumbirawo uise muenzaniso wemitengo wemutengesi.",
     },
     updated_products_tooltip: {
       title: "zvigadzirwa chinhu chinhu 24 chinhu",
     },
     added_products_tooltip: {
-      title: "zvigadzirwa Wedzera chinhu chinhu chinhu 24 chinhu",
+      title: "Zvigadzirwa Zvakawedzerwa muMaawa makumi maviri nemana apfuura",
     },
     access_tooltip: {
       title: "chinhu kupinda",
       subtitle:
-        "chinhu mutengesi chinhu kupinda chinhu chinhu Rongedza chinhu chinhu mutengesi > kupinda chinhu",
+        "Mutengesi ane mukana wepaneru yavo. Unogona kugadzirisa izvi muMutengesi> Access tab.",
     },
     reject_by_user_tooltip: {
       title: "Rambwa chinhu mushandisi",
       subtitle:
-        "chinhu mushandisi Rambwa chinhu chinhu mutengesi chinhu kupinda chinhu mutengesi",
+        "Mushandisi akaramba chikumbiro chekuti ave mutengesi uye kuwana mutengesi uyu.",
     },
     download_all_vendors: "Dhawunirodha zvose vatengesi",
     bulk_import: "chinhu Pinza (chinhu)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "rezinesi chinhu chinhu!",
     subtitle:
-      "chinhu chinhu rezinesi chinhu chinhu Sarudza bhizinesi chinhu chinhu rezinesi chinhu chinhu chinhu Ronga",
+      "Rezinesi rako razvino harisi kusangana nezvinodiwa zvebhizinesi rako rakasarudzwa. Ndokumbira usimudzire rezinesi rako kune Enterprise chirongwa.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "chinhu Zviito",
     subtitle:
-      "chinhu chinhu chimiro Gadziridza email chinhu chinhu , chinhu chinhu meseji chinhu chinhu chinhu, chinhu chinhu Nguva",
+      "Unogona kutumira email yekuvandudza mamiriro kune mutengi nekungodzvanya kumwe chete. Pamusoro pezvo, unogona kutsanangura mameseji akajairika pano kuti ushandise zvakare, saka haufanirwe kuanyora patsva nguva yega yega.",
     send_update_email_action: "chinhu Gadziridza email",
     add_template_action: "Wedzera Mharidzo chinhu",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "odha Gadziridza email",
       need_set_service_alert: {
         message:
-          "chinhu chinhu chinhu email sevhisi chinhu chinhu email chinhu chinhu chinhu",
+          "Ndokumbira uise email yako sevhisi kuti ibvumire iyo email kutumirwa.",
         action: "chinhu chinhu marongero",
       },
       send_action: "chinhu Gadziridza email",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Rongedza Mharidzo chinhu",
       add_title: "Wedzera Mharidzo chinhu",
       message:
-        "chinhu chinhu musoro chinhu Mharidzo chinhu chinhu chinhu musoro chinhu chinhu mutengi",
+        "Iwe unofanirwa kuseta zita uye meseji muviri pano. Zita racho rinoshandiswa chete kune yako referensi uye haritumirwe kune mutengi.",
 
       save_action: "Sevha chinhu",
       add_action: "Wedzera chinhu",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "odha chinongedzo",
-    subtitle: "chinhu chinhu odha chinongedzo chinhu chinhu mutengi",
+    subtitle: "Unogona kugovera chinongedzo chekuraira nemutengi.",
     guest_checkout_message:
-      "chinhu chinhu odha chinhu chinhu , chinhu chinhu mutengi chinhu chinhu odha chinhu, chinhu chinhu Gadzira chinhu chinhu chinongedzo chinhu chinhu",
+      "Vatengi vanogona kuona odha yavo yega mubrowser imwechete.Zvisinei, kana mutengi ari muenzi uye iwe uchifanira kugovera ruzivo rweodha, unogona kuvagadzirira chinongedzo chakachengeteka.",
     authentication: "chinhu",
     guest: "chinhu",
     click_to_create: "chinhu chinhu Gadzira",
@@ -10897,7 +10897,7 @@ export default {
     title: "Ongororo chinhu",
     add_source_action: "Wedzera Ongorora chinhu",
     subtitle:
-      "chinhu batanidza chinhu chinhu Ongororo chinhu chinhu bhizinesi Kubva chinhu Kuda Facebook, Google, chinhu Zvimwe. . chinhu chinhu chinhu Vatengi chinhu chinhu Ongororo chinhu chinhu chinhu mutengi chinhu chinhu Ongororo chinhu chinhu Kudzika Mapeji chinhu chigadzirwa Mapeji",
+      "Batanidza mapuratifomu ekunze zviri nyore kuunganidza uye kuongorora wongororo nezve bhizinesi rako kubva kuzvinyorwa zvakaita seFacebook, Google, nezvimwe. Tichafananidza vatengi kune wongororo yavo kuti vawane ruzivo rwevatengi. Iwe unogona zvakare kuratidza izvi wongororo pamapeji ako ekumhara uye mapeji echigadzirwa.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Wedzera chitsva chinhu chinhu",
     title: "chinhu chinhu",
     subtitle:
-      "chinhu chinhu Gadzira chinhu Tonga chinhu chinhu zvigadzirwa chinhu masevhisi chinhu chinhu zvigadzirwa chinhu chinhu chigadzirwa bhodhi rekutonga > Rongedza",
+      "Iwe unogona kugadzira uye kugadzirisa zvivakwa seti pano. Property sets inoshandiswa kutsanangura zvimiro zvezvigadzirwa nemasevhisi. Iwe unogona kugovera izvi zvivakwa seti kune zvigadzirwa muChigadzirwa Dashboard> Rongedza.",
   },
 
   /**
@@ -10921,7 +10921,7 @@ export default {
     },
 
     subtitle:
-      "chinhu chinhu , chinhu, chinhu chinhu odha chinhu chinhu zvigadzirwa chinhu chinhu , chinhu chinhu chinhu yakagadzirirwa chinhu chinhu chigadzirwa chinhu chinhu > chinhu chinhu zvigadzirwa chinhu chinhu",
+      "Iwe unogona kugadzirisa mazita akasiyana, zvidhori, uye kurongeka kwavo pano. Kune zvigadzirwa zvine akasiyana akasiyana anodarika zvitanhatu zvakasarudzika, unogona kuseta akasiyana echinyakare anoenderana nechigadzirwa chimwe nechimwe. Ingo tsanangura zvivakwa seti mu Logistic> Property Sets tebhu uye ugovapa kune chero nhamba yezvigadzirwa sezvinodiwa.",
     select_property_set: "Sarudza chinhu chinhu",
     add_property_set: "Wedzera chinhu chinhu",
   },
@@ -10931,8 +10931,8 @@ export default {
     title: "chinhu",
     add_action: "Wedzera chinhu",
     subtitle:
-      "Gadzira chinhu chinhu kutenga chinhu chinhu chinhu kutumira chinhu chinhu odha, Sarudza chinhu chinhu ",
-    empty: "aihwa chinhu chinhu chinhu “Wedzera chinhu”.",
+      "Gadzira masaizi ebhokisi anogona kudzokororwa kuti ukurumidze kutenga mavara uye kuve nechokwadi chemitengo yekutumira. Paunenge uchizadzisa kurongeka, sarudza bhokisi rakachengetwa uye zviyero zvaro zvichazadza otomatiki.",
+    empty: "Hapana mabhokisi parizvino. Dzvanya \"Wedzera bhokisi\".",
     edit: "Rongedza chinhu",
     new: "chitsva chinhu",
     default_weight: "chinhu Kurema",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Sarudza chinhu pasuru",
     define_package: "chinhu chinhu pasuru",
-    define_package_hint: "Gadzira chinhu Rongedza chinhu chinhu pasuru chinhu",
+    define_package_hint: "Gadzira kana gadzirisa masaizi ako epasuru akafanotsanangurwa",
   },
 
 
@@ -10973,22 +10973,22 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Kunyora",
-    message:"Gadzira chinhu chinhu, chinhu chinhu Kunyora—chinhu, chinhu, chinhu, masevhisi, chinhu Zvimwe. ."
+    message:"Gadzira dhairekitori rinotsvaga, rakamisikidzwa kune chero mhando yezvinyorwa-zvivakwa, mahotera, vanachiremba, masevhisi, nezvimwe."
   },
 
   shop_listing: {
     name: "Kunyora",
     message:
-      "Gadzira chinhu chinhu, chinhu chinhu Kunyora—chinhu, chinhu, chinhu, masevhisi, chinhu Zvimwe. .",
+      "Gadzira dhairekitori rinotsvaga, rakamisikidzwa kune chero mhando yezvinyorwa-zvivakwa, mahotera, vanachiremba, masevhisi, nezvimwe.",
 
     items: {
       title: "zvinhu",
       sub_title:
-        "Gadzira, Rongedza, chinhu Tonga Kunyora zvinhu chinhu chimiro, mitengo, chinhu chinhu, chinhu chinhu",
+        "Gadzira, gadzirisa, uye gadzirisa zvinhu zvekunyora. Kudzora chimiro, mitengo, ruzivo rwekuonana, uye midhiya.",
 
       empty_title: "aihwa zvinhu chinhu",
       empty_subtitle:
-        "Gadzira chinhu chinhu Kunyora chinhu chinhu Tanga Kuvaka. .. chinhu chinhu",
+        "Gadzira chinhu chako chekutanga chekunyora kuti utange kuvaka dhairekitori rako.",
 
       add_title: "Wedzera Chinhu",
       edit_title: "Rongedza chinhu",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "zvikamu",
       sub_title:
-        "chinhu chinhu zvikamu chinhu chinhu sefa",
+        "Ronga dhairekitori rako nezvikamu uye zvidiki. Izvi zvinovandudza kufamba uye kusefa.",
 
       empty_title: "aihwa zvikamu chinhu",
       empty_subtitle:
-        "Gadzira zvikamu chinhu chinhu chinhu Kunyora chinhu chinhu chinhu",
+        "Gadzira zvikamu kuti ugadzirise rondedzero yako uye uvandudze kubhurawuza.",
 
       add_title: "Wedzera Category",
       edit_title: "Rongedza chikamu",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "chinhu",
       sub_title:
-        "Ongorora chinhu zvinhu chinhu chinhu : chinhu, chinhu, Ramba, chinhu, chinhu chinhu ",
+        "Ongorora zvinhu zvakatumirwa uye sarudza zvichaitika zvinotevera: bvumidza, buritsa, ramba, chengeta, kana gadziridza kune zvakamirirwa.",
 
       empty_title: "aihwa zvinhu chinhu Ongorora",
       empty_subtitle:
-        "chinhu Vashandisi chinhu chitsva zvinhu, chinhu chinhu ",
+        "Kana vashandisi vatumira zvinhu zvitsva, zvinozoonekwa pano kuti zvionekwe.",
 
       review_title: "Ongorora chinhu",
       approve_publish: "chinhu & chinhu",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "chinhu",
       sub_title:
-        "Gadzira chinhu chinhu chinhu (kadhi + chinhu chinhu) chinhu chinhu zvikamu zvikamu chinhu chinhu ",
+        "Gadzira akawanda dhizaini seti (kadhi + ruzivo matemplate) uye uvape kumapoka. Zvikamu zvinogona kushandisa magadzirirwo akasiyana.",
 
       empty_title: "aihwa chinhu chinhu",
       empty_subtitle:
-        "Wedzera chinhu chinhu Tanga chinhu chinhu zvikamu chinhu",
+        "Wedzera dhizaini yako yekutanga kuti utange kugadzirisa kuti zvikamu zvinotaridzika sei.",
 
       add_title: "Wedzera chinhu",
       edit_title: "Rongedza chinhu",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Dzima chinhu",
       delete_message:
-        "Dzima chinhu chinhu? zvikamu chinhu chinhu _chinhu",
+        "Unodzima dhizaini iyi? Zvikamu zvinoishandisa zvinongorasikirwa nedhizaini_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "mabheji",
       sub_title:
-        "Gadzira chinhu Tonga chinhu mabheji mabheji chinhu chinhu Kunyora zvinhu chinhu chinhu ",
+        "Gadzira uye gadzirisa mabheji epamberi pechitoro. Mabheji anogona kupihwa kurongedza zvinhu kuratidza akakosha hunhu.",
 
       empty_title: "aihwa mabheji chinhu",
       empty_subtitle:
@@ -11166,11 +11166,11 @@ export default {
     companies: {
       title: "Makambani",
       sub_title:
-        "Gadzira chinhu Tonga Makambani chinhu Kunyora chinhu chinhu chakabatanidzwa chinhu chinhu kambani",
+        "Gadzira uye maneja makambani. Chinhu chega chega chekunyora chinogona kubatanidzwa kune imwe kambani.",
 
       empty_title: "aihwa Makambani chinhu",
       empty_subtitle:
-        "Wedzera chinhu chinhu kambani chinhu chinongedzo chinhu chinhu Kunyora zvinhu",
+        "Wedzera kambani yako yekutanga kuibatanidza kune zvinyorwa zvezvinhu.",
 
       add_title: "Wedzera kambani",
       edit_title: "Edit kambani",
@@ -11192,7 +11192,7 @@ export default {
       title: "meseji",
       sub_title: "Tonga meseji chinhu chinhu Vashandisi Kubva Kunyora maprofile",
       empty_title: "aihwa meseji",
-      empty_subtitle: "meseji chinhu chinhu Vashandisi chinhu chinhu chinhu",
+      empty_subtitle: "Mameseji anotumirwa nevashandisi achaonekwa pano.",
 
       sender: "chinhu",
       item: "chinhu",
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "Mharidzo",
       owner_reply: "Muridzi chinhu",
       reply: "chinhu",
-      reply_hint: "kunyora chinhu chinhu mushandisi chinhu chinhu Mharidzo chinhu chinhu Kubva Zviito",
+      reply_hint: "Nyora mhinduro kumushandisi. Iwe unogona zvakare kumaka iyo meseji sekuverenga / spam kubva pane zviito.",
 
       mark_read: "chinhu chinhu kuverenga",
       mark_unread: "chinhu chinhu chinhu",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "Kunyora",
-      subtitle: "chinhu chinhu Veruzhinji Kunyora peji chinhu yakagoneswa chinhu chinhu chinhu Nguva, Selldone chinhu Gadzira chinhu Kunyora chinhu chinhu",
+      subtitle: "Bvumira kana kudzima peji rako reruzhinji. Kana yagoneswa kekutanga, Selldone ichagadzira iyo rondedzero yekumisikidza otomatiki.",
       true_description: "Kunyora chinhu yakagoneswa Vatengi chinhu chinhu Kunyora Mapeji",
-      false_description: "Kunyora chinhu yakadzimwa chinhu Kunyora Mapeji chinhu chinhu ",
+      false_description: "Kunyora kwakadzimwa. Mapeji ekunyora uye kutumira zvakavharwa.",
       open_listing: "chinhu Kunyora",
-      note: "chinhu chinhu , Miganhu, fomu, chinhu chinhu chinhu Kunyora marongero",
+      note: "Iwe unogona gare gare kugadzirisa moderation, miganhu, mafomu, uye dhizaini mukati meListing marongero.",
       vendor_prereq_text:
-        "chinhu vatengesi chinhu Wedzera Kunyora zvinhu Kubva chinhu mutengesi chinhu? chinhu, chinhu chinhu bhizinesi chinhu chinhu chinhu",
+        "Unoda vatengesi kuti vawedzere zvinyorwa kubva kune yavo Vendor Panel? Kutanga, chinja bhizinesi rako modhi kuMusika.",
       vendor_prereq_button: "chinhu chinhu bhizinesi chinhu",
 
       vendor_access_text:
-        "chinhu chinhu vatengesi chinhu kupinda Kunyora chinhu (zvinhu + Makambani). chinhu chinhu marongero",
+        "Iye zvino iwe unogona kusarudza kana vatengesi vanogona kuwana Mazita maficha (zvinhu + makambani). Igonese muzvirongwa zveMusika.",
       vendor_access_button: "chinhu Kunyora chinhu vatengesi",
 
       more_options_text:
-        "Zvimwe. . chinhu chinhu Inowanikwa chinhu Kunyora marongero chinhu chinhu chinhu zvinopinda, UI/Chitarisiko, chinhu, Miganhu, chinhu chinhu chinhu",
+        "Mamwe ma controls anowanikwa mumaListing settings. Iwe unogona kugadzirisa zvinopinda, UI / chitarisiko, moderation, miganhu, uye kuita mari sarudzo.",
       more_options_button: "chinhu chinhu Kunyora marongero",
 
       updated: "Kunyora chinhu",
@@ -11241,22 +11241,22 @@ export default {
 
     search: {
       title: "tsvaga marongero",
-      subtitle: "chinhu chinhu Vatengi tsvaga chinhu Kunyora chinhu chinhu tsvaga chinhu Vaka Sefa Kubva chinhu yakagadzirirwa fomu chinhu",
+      subtitle: "Gadzira kuti vatengi vanotsvaga sei rondedzero yako. Gonesa kutsvaga-kwakavakirwa-nzvimbo uye kuvaka mafirita kubva kune yako tsika fomu ndima.",
 
       location_title: "Nzvimbo tsvaga",
-      location_subtitle: "chinhu Vatengi chinhu chinhu chinhu Nzvimbo chinhu chinhu Radhiyasi",
+      location_subtitle: "Bvumira vatengi kuti vasarudze nzvimbo uye vawane mhinduro dziri padyo mukati meradius inogadzirika.",
       location_enabled_true: "Nzvimbo Sefa chinhu yakagoneswa Vatengi chinhu tsvaga chinhu chinhu",
-      location_enabled_false: "Nzvimbo Sefa chinhu yakadzimwa chinhu chinhu sefa chinhu chinhu",
+      location_enabled_false: "Sefa yenzvimbo yakadzimwa. Mibairo haizosefa nedaro.",
 
       radius_default: "chinhu Radhiyasi (chinhu)",
-      radius_default_hint: "chinhu chinhu chinhu mutengi Sarudza chinhu Nzvimbo chinhu chinhu Radhiyasi",
+      radius_default_hint: "Inoshandiswa kana mutengi achisarudza nzvimbo asi asingasarudze radius.",
       radius_max: "zhinji Radhiyasi (chinhu)",
       radius_max_hint: "chinhu chinhu Radhiyasi chinhu chinhu ",
       radius_options: "Radhiyasi chinhu (chinhu)",
       radius_options_hint: "chinhu chinhu UI.",
 
       filters_title: "tsvaga Sefa",
-      filters_subtitle: "Wedzera Sefa chinhu kuverenga chinhu Kubva chinhu chinhu chinhu (chinhu chinhu fomu chinhu). chinhu chinhu Kubva Rakabudiswa zvinhu",
+      filters_subtitle: "Wedzera mafirita anoverenga kukosha kubva kuzvinhu meta minda (yako rondedzero / chikamu fomu minda). Shandisa Auto-generate kuunganidza chaiyo sarudzo kubva kuzvinhu zvakaburitswa.",
       no_filters: "aihwa Sefa Wedzera chinhu",
       auto_generate: "chinhu chinhu",
 
@@ -11264,12 +11264,12 @@ export default {
       filter_label: "chinhu",
       filter_type: "chinhu",
       filter_options: "chinhu",
-      filter_options_hint: "chinhu Sarudza Sefa, chinhu chinhu chinhu nemaoko chinhu chinhu",
+      filter_options_hint: "Kune mafirita akasarudzwa, sarudzo dzinogona kuve dzemanyorero kana kugadzirwa.",
       multiple: "chinhu",
       single: "chinhu",
       kv_mode: "chinhu modhi",
 
-      requires_listing_active: "Kunyora chinhu chinhu inoshanda chinhu Kunyora chinhu chinhu ",
+      requires_listing_active: "Kunyora hakusi kushanda. Gonesa Kunyora kutanga kuishandisa kumberi kwechitoro.",
 
 
     },
@@ -11911,12 +11911,12 @@ export default {
         "chinhu chinhu ",
         "kupinda chinhu zvose chinhu chinhu ",
         "chinhu chinhu chinhu Kukosha rutsigiro",
-        "chinhu chinhu pasuru chinhu chinhu Vashandisi",
+        "Pasuru yakaenzana yevashandisi venguva dzose.",
         "chinhu kupinda chinhu chinhu chinhu",
         "yakagadzirirwa chinhu chinhu ",
         "chinhu chinhu ",
-        "aihwa Miganhu chinhu chinhu, chinhu chinhu chinhu mushandisi",
-        "chinhu chinhu Ronga chinhu chinhu, chinhu chinhu 4 nhengo",
+        "Hapana miganhu pakushandiswa, kumushandisi wesimba.",
+        "Chirongwa chakakosha chemhuri, kusvika kunhengo ina.",
         "chinhu chinhu Zvishandiso",
       ],
     },
@@ -11977,15 +11977,15 @@ export default {
         "chinhu chinhu ",
         "chinhu chinhu Kukosha",
         "chinhu chinhu ",
-        "chinhu chinhu chinhu rutsigiro chinhu chitoro",
+        "Tinokutendai nekutsigira chitoro chedu.",
         "chinhu chinhu chitsva kutenga!",
-        "Sevha chinhu invoice chinhu chinhu chinhu",
+        "Chengetedza invoice yako kuti ishandiswe mune ramangwana.",
         "chinhu chinhu Zvimwe. . chinhu zvigadzirwa",
         "chinhu Yakabatanidzwa chinhu chinhu chipo",
         "chinhu chinhu mutengi",
-        "chinhu chinhu chinhu rubatsiro chinhu chinhu ",
+        "Tiripo kukubatsira kana uchida rubatsiro.",
         "chinhu chinhu rubatsiro chinhu chinhu",
-        "chinhu chinhu chinhu discount chinhu chinhu chinhu kutenga",
+        "Nakidzwa nekuderedzwa kwakakosha pakutenga kwako kunotevera.",
         "chinhu chinhu !",
         "chinhu chinhu ",
         "chinhu chinhu ",
@@ -12058,7 +12058,7 @@ export default {
         "chinhu masevhisi chinhu",
         "chinhu kushambadzira sevhisi chinhu",
         "chinhu chinhu chitoro chinhu",
-        "Nyanzvi chinhu chinhu chinhu bhizinesi chinhu",
+        "Nyanzvi Consultancy Contract yeVaridzi veBhizinesi",
         "sevhisi chinhu chinhu ",
         "chitoro chitoro chinhu chinhu masevhisi chinhu",
         "POD sevhisi chinhu chinhu",
@@ -12118,19 +12118,19 @@ export default {
       description: [
         "chinhu kudzoserwa mari chinhu chinhu kutenga!",
         "chinhu chinhu ",
-        "chinhu kudzoserwa mari chipo chinhu chinhu chinhu",
+        "Exclusive cashback inopa iwe chete.",
         "chinhu chinhu kudzoserwa mari chinhu",
-        "chinhu kudzoserwa mari chinhu zvose chinhu chinhu zvinhu",
+        "Kudzoserwa mari ipapo pane zvese zvaunofarira zvinhu.",
         "Sevha Zvimwe. . chinhu chinhu kudzoserwa mari Zvibvumirano",
-        "chinhu chinhu kudzoserwa mari chinhu chinhu 30 mazuva!",
+        "Kaviri mari yako yekudzosera pamazuva akakosha!",
         "chinhu kudzoserwa mari chinhu Nguva chinhu chitoro",
         "chinhu chinhu kudzoserwa mari chinhu Nhasi!",
         "VIP nhengo chinhu chinhu kudzoserwa mari",
         "chinhu! chinhu Nguva kudzoserwa mari chipo",
-        "chinhu chinhu kudzoserwa mari chinhu chinhu chinhu",
-        "chinhu Zvimwe. . chinhu chitoro, chinhu Zvimwe. . chinhu Sevha",
-        "chinhu chinhu chinhu kudzoserwa mari chinhu",
-        "chinhu chinhu chinhu kudzoserwa mari Zvibvumirano chinhu",
+        "Joinha yedu Cashback Rewards Club izvozvi.",
+        "Paunotenga zvakanyanya, ndipo paunowedzera kuchengetedza.",
+        "Vhura iyo yekupedzisira mibairo yekudzosera mari.",
+        "Sangana neakanakisa cashback madhiri akatenderedza.",
       ],
     },
 
@@ -12141,13 +12141,13 @@ export default {
       prompts: [
         "MAKAZIVA10 chinhu {shop} - chinhu chinhu zvinhu",
         "{shop} - chinhu chinhu sevhisi",
-        "chinhu Zvibvumirano chinhu chinhu {shop} - chinhu chinhu chinhu!",
+        "Exclusive Deals uye Chengeta Chete pa {shop} - Bata Mukana!",
         "chinhu chinhu chinhu {shop}'chinhu chinhu ",
-        "chinhu chinhu {shop} chinhu - chinhu chinhu Gadziridza",
+        "Iva Chikamu che{shop} Mhuri - Nyorera kuNhoroondo Yedu kuti uwane mitsva.",
         "chinhu chinhu {shop}",
         "chinhu chinhu zvose Zviitiko chinhu {shop}",
-        "chinhu chipo chinhu chinhu {shop} - chinhu chinhu!",
-        "{shop}'chinhu chinhu chigadzirwa chinhu - chitoro chinhu chinhu",
+        "Zvipo Zvisingaenzaniswi uye Zvinhu Zvisingakoshesi Nguva pa {shop} - Ita Nekukurumidza!",
+        "{shop} Mazano Akazara Ekutenga Nekuongorora Zvigadzirwa - Tenga Uine Kuvimbika",
         "chinhu chinhu chinhu {shop} - chinhu chinhu ",
       ],
     },
@@ -12157,24 +12157,24 @@ export default {
      */
     cross_selling: {
       message: [
-        "chinhu chinhu chinhu, chinhu chinhu chinhu!",
+        "Pedzisa kutarisa kwako, tora seti!",
         "Sevha chinhu chinhu Zvibvumirano!",
         "chinhu chinhu !",
         "chinhu chinhu kutenga, chinhu chinhu!",
         "chinhu chinhu chinhu, chinhu chinhu!",
         "chinhu zvinhu, chinhu discount!",
-        "chinhu Zvimwe. ., chinhu chinhu – chinhu chinhu!",
+        "Wana zvakawanda, shandisa zvishoma - unganidza!",
         "chinhu chipo: chinhu zvigadzirwa!",
         "chinhu chinhu chinhu, chinhu Zvibvumirano!",
         "chinhu chinhu , Sevha chinhu!",
         "chinhu chinhu !",
         "chitoro chinhu, chinhu chinhu Sevha!",
-        "chinhu chinhu chinhu, chinhu chinhu chinhu!",
+        "Kaviri kukosha, kaviri mafaro!",
         "chinhu chinhu – chitoro chinhu!",
-        "chinhu chinhu mitengo chinhu chinhu chinhu!",
+        "Exclusive bundle pricing iwe chete!",
         "chinhu chinhu !",
         "chinhu chinhu !",
-        "chinhu chinhu chinhu: chinhu chinhu Sevha!",
+        "Yakagadzirirwa iwe: fananidza uye chengetedza!",
         "chinhu chinhu !",
         "chinhu chinhu !",
       ],
@@ -12226,27 +12226,27 @@ export default {
         "chinhu chinhu ",
       ],
       body: [
-        "chinhu {buyer_name}, chinhu odha #{order_id} chinhu chinhu Yakasimbiswa! chinhu chinhu ",
+        "Mhoro {buyer_name}, order yako #{order_id} yasimbiswa! Tiri kuigadzirisa uye tichakuzivisa kana yagadzirira kutumirwa.",
 
-        "Kugona chitsva, {buyer_name}! chinhu odha #{order_id} chinhu chinhu Yakatumirwa chinhu chinhu akaundi chinhu chinhu !",
+        "Nhau dzakanaka, {buyer_name}! Odha yako #{order_id} yatumirwa. Unogona kuitevera kuburikidza neakaunti yako. Tinokutendai nekutenga nesu!",
 
-        "chinhu {buyer_name}, chinhu odha #{order_id} chinhu chinhu kutenga chinhu chinhu!",
+        "Mhoro {buyer_name}, order yenyu #{order_id} yaunzwa zvinobudirira. Tinovimba unonakidzwa nekutenga kwako. Ndatenda!",
 
-        "chinhu {buyer_name}, chinhu chinhu 💳 Kubhadhara chinhu odha #{order_id}. chinhu odha chinhu chinhu Yakatumirwa chinhu",
+        "Mhoro {buyer_name}, tatambira muripo weodha #{order_id}. Odha yako yave kugadziriswa uye ichatumirwa munguva pfupi iri kutevera.",
 
-        "chinhu {buyer_name}, chinhu chinhu odha #{order_id} chinhu chinhu , chinhu chinhu rutsigiro",
+        "Wadiwa {buyer_name}, tine hurombo kukuzivisa kuti odha yako #{order_id} yakanzurwa. Kana uine chero mibvunzo, ndapota taura nerutsigiro.",
 
-        "chinhu {buyer_name}, chinhu chinhu odha #{order_id}. chinhu chinhu ",
+        "Wadiwa {buyer_name}, tiri kuona kunonoka neodha yako #{order_id}. Tine hurombo nekukanganisa uye tiri kushanda kuti tigadzirise nekukurumidza.",
 
-        "chinhu {buyer_name}, chinhu odha #{order_id} chinhu chinhu akaundi chinhu chinhu rutsigiro chinhu chinhu chinhu",
+        "Mhoro {buyer_name}, odha yako #{order_id} yakamiswa. Ndokumbira utarise account yako kana kuti ubate rutsigiro kuti uwane rumwe ruzivo.",
 
-        "chinhu {buyer_name}, chinhu odha #{order_id} chinhu chinhu chinhu kuendesa chinhu chinhu !",
+        "Mhoro {buyer_name}, odha yako #{order_id} yaenda kunotengeswa uye inofanira kukusvikira munguva pfupi iri kutevera. Ndinokutendai nemoyo murefu wenyu!",
 
-        "chinhu {buyer_name}, chinhu chinhu Dzoka chinhu chinhu odha #{order_id}. chinhu chinhu , chinhu chinhu rutsigiro",
+        "Wadiwa {buyer_name}, tagadzirisa kudzoserwa kweodha yako #{order_id}. Kana uine chero mibvunzo, ndapota taura nerutsigiro.",
 
-        "chinhu {buyer_name}, chinhu kudzosera mari chinhu odha #{order_id} chinhu chinhu ona chinhu chinhu akaundi chinhu",
+        "Mhoro {buyer_name}, mari yako yeodha #{order_id} yapihwa. Iwe unofanirwa kuona mari muakaundi yako munguva pfupi.",
 
-        "chinhu {buyer_name}, chinhu chinhu Kubva chinhu odha #{order_id} chinhu chinhu ! chinhu chinhu chitsva odha chinhu chinhu ",
+        "Mhoro {buyer_name}, chinhu chiri muodha yako #{order_id} chadzoka mustock! Unogona kuisa odha nyowani izvozvi kana uchiri kufarira.",
       ],
     },
 
@@ -12267,14 +12267,14 @@ export default {
         "chinhu",
       ],
       description: [
-        "chinhu chinhu chinhu zvinhu Kuda chinhu, chinhu, chinhu chinhu",
-        "Zvinotsanangurwa chinhu chinhu , chinhu, chinhu chinhu",
+        "Hunhu hwezvinhu zvembatya zvakaita saizi, ruvara, uye jira.",
+        "Zvinotsanangurwa zvezvigajeti zvakaita semhando, modhi, uye maficha.",
         "chinhu, chinhu, chinhu chinhu ",
-        "chinhu chinhu chinhu, chinhu, chinhu chinhu zvigadzirwa",
+        "Ruzivo rwechikafu, chikafu, uye zvigadzirwa zvekudya.",
         "Material, chinhu, chinhu chinhu chinhu",
         "Munyori, chinhu, chinhu chinhu chinhu",
-        "chinhu chinhu, chinhu, chinhu chinhu chinhu",
-        "chinhu chinhu, chinhu, chinhu chinhu chinhu",
+        "Rudzi rweganda, zvinongedzo, uye ruzivo rwekurongedza.",
+        "Boka rezera, zvinhu, uye mitemo yekuchengetedza.",
         "chinhu, chinhu, chinhu chinhu chinhu",
         "chinhu, chinhu, chinhu chinhu chinhu",
       ],

@@ -31,7 +31,7 @@ export default {
     main_domain: "主域名",
     domains: "域名",
     home_page: "主页",
-    google_icon_font_sample: "Google 项目 项目",
+    google_icon_font_sample: "谷歌字体示例",
     fontawesome_icon_font_sample: "Fontawesome (V6) 项目",
   },
 
@@ -96,13 +96,13 @@ export default {
     },
     upscale: {
       title: "项目",
-      subtitle: "项目 项目 项目 项目 项目 图片.",
+      subtitle: "提高图像的分辨率。",
     },
   },
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "Selldone ╏ 项目 企业 项目 项目 项目 项目 公司",
+    home: "Seldone ╏ 快速增长公司的业务操作系统",
     login: "登录",
     register: "注册",
     auth_2fa: "双因素认证🔐",
@@ -250,9 +250,9 @@ export default {
   /** {@see Helps} **/
 
   helps: {
-    title: "Selldone 项目 项目",
+    title: "塞尔丹帮助中心",
     subtitle:
-      "项目 到 项目 Selldone 项目 项目, 项目 项目 指南 到 项目 项目 项目 项目 项目 店铺 项目 项目 项目 企业 项目 项目. 项目 项目 资源, 项目, 项目 项目 项目 到 项目 项目 店铺’项目 安装, 项目 项目, 项目 项目 项目.",
+      "欢迎来到 Seldone 帮助中心，这是您在强大的商业操作系统中构建和管理在线商店的综合指南。探索我们的资源、教程和最佳实践，以简化商店的设置、最大限度地提高效率并推动增长。",
 
     add_new_help: "新帮助",
     resources: "资源",
@@ -304,7 +304,7 @@ export default {
   api: {
     title: "API 与集成",
     message:
-      "项目 项目 项目 项目 项目 项目 Selldone 项目 项目 项目 项目 项目 项目 到 项目 项目 项目 店铺 到 其他 配送服务 项目 项目 项目, 财务, 项目. 项目 项目 项目 设计 自定义 应用 项目 项目 应用 项目 项目 店铺. 项目 项目 到 项目 项目 项目 项目 数据 项目. 项目 项目 项目 域名 项目. 项目 项目 项目 全部 项目 项目 项目 项目 用户数, 项目 项目 其他 域名 项目.",
+      "Selldone 的主要功能之一是提供强大且安全的 API 来管理商店并将其连接到其他服务，例如仓储、会计等。您还可以为商店设计自定义应用程序和 Web 应用程序。无需担心服务器和数据管理。只需使用域 API。您将拥有管理用户、身份验证和其他域功能的所有过程。",
   },
 
   /** {@see BPageShuttle} **/
@@ -473,9 +473,9 @@ export default {
           input_domain: "域名",
           correct: "域名设置正确。",
           set_message: "将此域名的 CNAME 设置为 {cname}。",
-          input_domain_message: "项目 项目 域名 姓名 项目 HTTP 项目 HTTPS.",
+          input_domain_message: "输入域名，不带http和https。",
           ssl_message:
-            "项目 项目 项目 项目 SSL 项目 项目 项目 网站. 项目 项目 项目 SSL 项目 项目 项目 已付款 CDN 服务商 喜欢 Cloudflare.",
+            "不用担心您网站的 SSL 证书。您可以通过免费或付费 CDN 提供商（例如 Cloudflare）获取 SSL。",
           active: "域名已启用",
           inactive: "域名被禁用",
           success_message:
@@ -502,7 +502,7 @@ export default {
       active_orders: {
         title: "订单",
         title_small:
-          "实物、文件、虚拟产品和服务订单",
+          "通过在线、鳄梨和超级渠道进行物理、文件、虚拟、服务和订阅订单。",
         pending_orders: "待处理订单",
         physical: "实物产品订单",
         virtual: "虚拟产品订单",
@@ -594,7 +594,7 @@ export default {
       menu_export: "导出产品",
       menu_import: "导入产品",
       drop_import_message:
-        "项目 产品 列表视图 项目 (CSV, XLS, XLSX 项目) 项目 到 开始时间 项目 项目 产品. 项目 项目 项目 项目 项目 项目 Selldone 产品 列表视图 项目.",
+        "将产品列表文件（CSV、XLS、XLSX 格式）拖放到此处即可开始添加批量产品。确保文件具有 Selldone 产品列表格式。",
 
       menu_advanced_options: "高级选项",
       menu_advanced_options_description:
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "关联谷歌表格",
         tooltip:
-          "项目 产品 项目 项目 店铺 项目 项目 到 项目 Google 项目 项目 Google 项目.",
+          "该商店中的产品链接到 Google 云端硬盘中的 Google 表格。",
       },
       show_deletes: {
         false_title: "隐藏已删除",
@@ -628,9 +628,9 @@ export default {
       table_mode: {
         false_title: "拖放模式",
         false_description:
-          "预览 产品 项目 项目 子类别 项目 项目.",
+          "查看按类别和子类别组织的产品。",
         true_title: "表格模式",
-        true_description: "预览 产品 项目 项目 项目 项目 项目.",
+        true_description: "以详细的表格布局查看产品。",
       },
 
       show_notes: {
@@ -779,7 +779,7 @@ export default {
         add_account_dialog: {
           title: "将信用账户连接到商店",
           subtitle:
-            "项目 项目 项目 钱包 账户 项目 Selldone, 项目 项目 接收 项目 项目 项目 卡片. 项目 Selldone 服务 费用 项目 项目 项目 到 项目 账户. 项目, 项目 项目 账户 余额 项目 项目, 项目 费用 项目 项目 项目 项目 项目.",
+            "在 Selldone 开设钱包账户后，您将收到一张虚拟信用卡。 Seldone 服务费将记入此账户。但如果您的账户余额不足，该费用将成为应付债务。",
           account_number: "帐号",
           account_number_input_message:
             "该商店将链接到此帐户。该帐户将用于支付费用和成本。",
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "项目 单位",
-        subtitle: "项目 单位 已使用 项目 项目.",
+        subtitle: "用于距离的单位。",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "物流",
         profiles: "简介",
         includes: "包括",
-        property_sets: "项目 项目",
+        property_sets: "属性集",
         boxes: "项目",
       },
 
@@ -923,7 +923,7 @@ export default {
         title: "运输方式",
 
         sub_title:
-          "通过设置此部分中的设置，可以在您的商店中激活各种运输方式。货到付款方式也可以在此部分激活。",
+          "通过在本节中将送货选项纳入您的商店，您可以启用一系列送货方式。可以为每种运输服务激活货到付款方式。每项服务都允许独立的成本计算，并且您可以自定义这些运输服务以满足您的需求。此外，您还可以选择将第三方运输服务或个人快递与每个运输选项集成。",
         add_transportation: "添加运输方式",
 
         /** {@see DeliveryFormWidget} **/
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "应用程序",
         subtitle:
-          "项目 项目 项目 项目 项目 项目 企业 应用 项目 Selldone 应用程序 店铺. 项目 项目 促销活动 项目 项目 项目 项目 工具 项目 到 项目 项目 企业 项目. 从 项目 项目 项目 到 项目 应用, Selldone 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "使用 Selldone App Store 探索管理业务应用程序的便捷性。我们的平台提供一整套旨在优化您的业务运营的工具。从创新的管理解决方案到提高生产力的应用程序，Selldone 为寻求效率和增长的企业提供无缝体验。",
         all: "全部",
       },
       /** {@see BAppShopStore} **/
@@ -1170,14 +1170,14 @@ export default {
         title: "网页应用",
         sub_title: "这是您商店网页应用的预览",
         message:
-          "项目 项目 编辑 项目 网站 项目 项目 项目 项目 iPhone 项目 iPad 项目 项目 iOS 应用程序.",
+          "您可以在 iPhone 和 iPad 上的 iOS 应用程序中编辑网站欢迎页面。",
         ios_app: "iOS 应用程序",
       },
 
       /** {@see BPageShopApplicationsIos} **/
       ios: {
         title: "iOS 应用程序",
-        sub_title: "项目 项目 项目 项目 项目 到 构建 项目 iOS 应用程序 项目 项目 店铺.",
+        sub_title: "您很快就可以为您的商店构建 iOS 应用程序。",
         message:
           "最大文件大小：512KB，您可以上传最大 1MB 的文件，前提是我们的压缩系统能够将文件大小压缩到 512KB。上传的图片将被智能调整大小。",
       },
@@ -1188,7 +1188,7 @@ export default {
         message:
           "填写此表格并按构建键。无需其他操作。应用的构建和签名过程全部在云服务器上完成。最终的应用将上传到所有应用商店。",
         server_un_available:
-          "当前应用服务器未连接。",
+          "实验中，此时应用服务器未连接。",
         app_building_progress: "您的应用正在创建中。",
         app_build_success: "您的应用程序已准备就绪。",
         download_app_action: "获取应用",
@@ -1213,7 +1213,7 @@ export default {
         app_title_input_message: "此标题将显示在应用程序的顶部。",
         app_title_input_placeholder: "输入标题",
         app_icon_input: "应用程序图标",
-        app_icon_input_placeholder: "项目 项目 项目 项目 项目 应用程序 项目.",
+        app_icon_input_placeholder: "选择应用程序图标的 zip 文件。",
         generate_icon_pack_action: "生成图标包",
         splash_design: "启动画面设计",
         splash_logo_input: "启动画面标志",
@@ -1238,10 +1238,10 @@ export default {
           icon_pack_not_valid_error: "文件不正确。",
           start_building_title: "构建中 ...",
           start_building_message:
-            "项目 项目 项目 Android 应用 项目.",
+            "已提交构建 Android 应用程序的请求。",
           build_success_title: "恭喜",
           build_success:
-            "项目 Android 应用程序 项目 项目, 项目 项目 项目 项目 项目 项目.",
+            "您的 Android 应用程序已准备就绪，您可以立即下载。",
         },
       },
     }, // End of applications
@@ -1301,16 +1301,16 @@ export default {
         contact_tab: {
           title: "联系方式和本地业务",
           subtitle:
-            "公开 联系方式 项目 项目 Google 项目 企业 安装.",
+            "公开联系信息和 Google 本地业务设置。",
         },
         image_tab: {
           title: "项目",
-          subtitle: "项目 项目 项目 项目 项目 项目 品牌.",
+          subtitle: "为您的品牌选择一个独特的徽标。",
         },
         favicon: {
           title: "项目",
           subtitle:
-            "项目 项目 项目, 项目 图片 项目 项目 项目 网站 项目 项目 项目, 项目, 项目 手机 应用程序 项目.",
+            "网站图标是小型的标志性图像，在浏览器选项卡、书签和移动应用程序界面中代表网站。",
         },
       },
 
@@ -1418,7 +1418,7 @@ export default {
       description: "等级描述",
       form: "项目",
       no_spec: "无服务 项目",
-      has_spec: "项目 项目",
+      has_spec: "有规格",
     },
 
     select_type: {
@@ -1473,7 +1473,7 @@ export default {
         subscription_message:
           "订阅类型产品只能有一个供应商，您可以在供应商面板创建这些产品，或在创建步骤中为其分配供应商。选定的供应商将成为该产品的拥有者。",
         default_message:
-          "项目 项目 项目 项目 项目 产品 项目 到 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 产品 项目 到 商城模式 项目 更多的 项目 项目 项目 项目 项目 项目.",
+          "您可以指定该产品是否属于一个供应商，因此只有一个供应商可以销售它，或者该产品属于 Marketplace 并且多个供应商可以销售它。",
 
         single_vendor_title: "单一供应商",
         single_vendor_desc:
@@ -1512,9 +1512,9 @@ export default {
       },
       external: {
         not_available_message:
-          "项目 操作 有库存的 项目 商户 & 项目 项目.",
-        available_message: "项目 项目 项目 项目 项目 项目 项目 到 操作.",
-        input_label: "项目 项目 到 操作",
+          "通过公司和企业许可证可以执行额外操作。",
+        available_message: "您可以添加额外的外部号召性用语。",
+        input_label: "第二次号召性用语",
       },
       warehouse: {
         subtitle:
@@ -1572,7 +1572,7 @@ export default {
       rating_input: "投票",
       rating_input_message: "您最多可以添加5个投票项。",
       rating_input_placeholder:
-        "项目 项目 自定义 调查问卷 问题 项目... 项目 项目 项目!",
+        "在这里写下您的自定义调查问题...然后按 Enter！",
 
       item_unit: "产品",
 
@@ -1732,7 +1732,7 @@ export default {
       video: {
         title: "视频",
         sub_title:
-          "项目, 项目 项目 产品 视频 项目 YouTube, 项目 项目 项目 项目 视频 URL 项目.",
+          "首先，在 Youtube 上上传您的产品视频，然后将视频 URL 放在这里。",
       },
       change_bg_ai: {
         title: "生成新背景的图片",
@@ -1874,12 +1874,12 @@ export default {
     },
     menu: {
       add_bulk: {
-        title: "项目 项目",
-        subtitle: "项目 项目 变体 项目 项目 操作.",
+        title: "批量添加",
+        subtitle: "在一项操作中添加多个变体。",
       },
       edit_property_set: {
-        title: "项目 项目 项目",
-        subtitle: "编辑 变体 项目, 项目 项目 订单.",
+        title: "自定义属性集",
+        subtitle: "更改变体名称、图标和顺序。",
       },
     },
   },
@@ -1894,7 +1894,7 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google 产品 类别 代码",
-    hint: "项目 项目 类别 项目 项目 产品 项目 到 项目 Google'项目 产品 项目.",
+    hint: "代表根据 Google 产品分类法的产品类别。",
     placeholder: "输入产品或服务类别..（可选）",
   },
   /** {@see LogisticProfileType} **/
@@ -1929,9 +1929,9 @@ export default {
    * @see BPageShopPagesPopups
    */
   b_shop_popups: {
-    title: "项目 项目",
+    title: "弹窗管理",
     subtitle:
-      "创建 项目, 项目, 项目 项目 项目 项目.",
+      "创建个性化、智能化、交互性的弹窗。",
     add_action: "项目 新建 弹出窗口",
   },
 
@@ -1960,7 +1960,7 @@ export default {
       action_manage_sub: "商店 > 财务 > 税务",
 
       subscription_tips:
-        "项目 项目 项目 项目 TAX 产品概况 项目 订阅 产品, 项目 更新<code>TAX 代码</code> 项目 项目 项目/项目 项目 项目 项目 支付 服务 服务商. 项目 项目 TAX 产品概况 项目 项目 项目 价格 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 <code>项目</code> 项目 <code>项目</code>. 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目.<br /><br /><b>项目!</b> 项目 项目 项目 TAX 产品概况, 项目 项目 项目 项目 定价 计划 项目 项目 产品 > 库存 项目 项目 项目 项目 保存 项目 到 项目 项目.",
+        "当您为订阅产品选择税务资料时，我们会更新<code>税码</code>并在您的支付服务提供商上设置包含/排除模式。所选税收配置文件指定价格被视为含税还是不含税。 <code>inclusive</code> 或 <code>exclusive</code> 之一。一旦指定为包含或排除，则无法更改。<br /><br /><b>重要！</b> 更改税务配置文件后，您应该单击“产品”>“库存”选项卡上的定价计划，然后单击“保存”按钮应用更改。",
     },
   },
 
@@ -2002,11 +2002,11 @@ export default {
 
     profiles: {
       title: "简介",
-      subtitle: "项目 项目 项目 位置 到 项目 项目.",
+      subtitle: "您可以向该供应商分配位置。",
     },
     map: {
       no_map_message:
-        "项目 项目 位置 到 项目 项目 项目 项目 项目 项目 项目.",
+        "如果供应商是基于位置的供应商，则为该供应商分配位置。",
     },
     page: {
       title: "自定义页面",
@@ -2068,7 +2068,7 @@ export default {
       "输入的电子邮箱与用户电子邮箱 ( <b>{user_name}:</b> {user_email}) 不匹配。您确定要将电子邮件发送至<b>{email}</b>吗？",
 
     order_information_email_to_email:
-      "项目 项目 已发送 订单 项目 到 <b>{email}</b>.",
+      "我们会将订单信息发送至 <b>{email}</b>。",
 
     set_a_user_for_the_vendor_first_msg: "首先为供应商设置一个用户。",
 
@@ -2130,10 +2130,10 @@ export default {
       },
 
       logo: {
-        label: "项目 项目",
+        label: "供应商标志",
       },
       description: {
-        placeholder: "项目 项目 公开 等级描述...",
+        placeholder: "写一个公开的描述...",
       },
     },
   },
@@ -2217,7 +2217,7 @@ export default {
     ],
     inputs: {
       tags: {
-        placeholder: "项目 标签 项目 项目 项目 项目. 项目. 新建 项目",
+        placeholder: "在此处连接标签并按 Enter 键。前任。新系列",
       },
     },
     notifications: {
@@ -2234,7 +2234,7 @@ export default {
       "平台提供运输方式，帮助商家完成订单。您可以在此添加运输服务，方便从订单页面直接购买运单标签。这样可以简化流程，实现地址和追踪码与运输服务商的同步。",
 
     subtitle_pickup:
-      "项目 商城模式 项目 项目 项目 项目, 项目 项目 到 项目 项目 从 项目 位置 项目 项目 发货中 项目. 项目 项目 项目 项目 项目 位置 项目 项目 产品概况 (项目 仓库 项目 项目 已使用 项目 项目 默认 项目 位置).",
+      "该市场为供应商提供提货服务，允许买家选择从您所在位置提货作为运输选项。您可以在您的个人资料中添加您的取货地点（您的仓库将用作默认取货地点）。",
     action: "添加服务",
 
     add_dialog: {
@@ -2442,52 +2442,52 @@ export default {
 
         config: {
           title: "产品 项目 安装",
-          subtitle: "项目 SKU, MPN, 项目 项目 项目 变体.",
+          subtitle: "管理 SKU、MPN 和变体的可用性。",
         },
         variables: {
           title: "项目 选项",
           subtitle:
-            "项目 项目 项目 颜色 代码, 项目.项目., <b>#654FFF</b>, 项目 项目 项目 项目 项目 项目 项目, 项目.项目., <b>#764FFA/#000000</b>.",
+            "输入十六进制颜色代码，例如 <b>#654FFF</b>，或用斜线分隔的两种颜色，例如 <b>#764FFA/#000000</b>。",
           graphical_asset_tips:
-            "项目 项目 项目 项目 值 到 项目 项目, 项目 图片 项目 <b>项目 项目</b>. 项目 项目 图案 项目 项目 项目 项目 代码 项目 项目 项目.",
-          graphical_asset_action: "项目 项目",
-          graphical_asset_action_caption: "图片 项目 项目 选项.",
+            "您可以为变量分配任何值，包括使用 <b>Graphic Assets</b> 的图像。上传模式并使用为变体生成的代码。",
+          graphical_asset_action: "图形资产",
+          graphical_asset_action_caption: "变体选项的图像。",
         },
         smart_unit_price: {
-          tips: "项目 单位 价格 项目 项目 <b>重量</b>, <b>体积</b>, 项目 <b>项目 项目</b>. 到 禁用 项目 项目, 项目 到 店铺 > 编辑 > 主题 > 产品 项目 > 项目 单位 价格.",
+          tips: "根据<b>重量</b>、<b>体积</b>和<b>包装尺寸</b>计算单价。要禁用此功能，请导航至商店 > 设置 > 主题 > 产品页面 > 智能单价。",
           smart_unit_price: "单位 价格 项目",
         },
         quantity: {
           title: "库存",
-          subtitle: "项目 项目 项目 项目 项目 项目.",
+          subtitle: "为每个变体设置库存水平。",
         },
         price: {
           title: "定价",
           subtitle:
-            "项目 项目 自定义 价格 项目 项目 项目 项目 项目 项目 默认 产品 价格.",
+            "为变体设置自定义价格或使用默认产品价格。",
         },
         package: {
           title: "项目 & 发货中",
           subtitle:
-            "项目 重量 项目 项目 项目 变体 到 项目 发货中 选项.",
-          same_as_product_action: "项目 项目 产品",
+            "指定型号的重量和尺寸以确定运输选项。",
+          same_as_product_action: "与产品相同",
         },
         image: {
           title: "项目 图片",
           subtitle:
-            "项目 项目 图片 项目 项目 项目. 项目 项目 图片 项目 项目 项目 项目 主域名 图片 项目 项目 项目.",
+            "为每个变体添加独特的图像。上传的第一张图片将是该变体的主图片。",
         },
         inputs: {
           sku: {
-            message: "项目 项目 单位 (SKU)",
+            message: "库存单位 (SKU)",
           },
           mpn: {
-            message: "项目 项目 项目 (MPN)",
+            message: "制造商零件号 (MPN)",
           },
           gtin: {
-            label: "项目 项目 产品 项目 (GTIN)",
+            label: "全球贸易项目编号 (GTIN)",
             message:
-              "项目 项目: UPC (12 项目), EAN (13 项目), JAN (8 项目 13 项目), ISBN (13 项目).",
+              "支持的格式：UPC（12 位数字）、EAN（13 位数字）、JAN（8 或 13 位数字）、ISBN（13 位数字）。",
           },
         },
       },
@@ -2536,7 +2536,7 @@ export default {
     bulk_action_input: "更新所有变体",
     bulk_action_msg:
       "为所有变体设置产品包装和备货时间。",
-    dynamic_lead_time: "项目 项目 时间",
+    dynamic_lead_time: "动态提前期",
     instant_delivery: "项目 配送",
   },
 
@@ -2552,29 +2552,29 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "项目 图片 项目 项目",
-      placeholder: "项目 项目 项目 项目 项目...",
-      success_update_notification: "项目 项目 项目 项目.",
+      title: "设置图像替代文本",
+      placeholder: "输入描述性替代文本...",
+      success_update_notification: "替代文本已成功更新。",
     },
     dialog_bg_remove: {
-      title: "移除 项目 项目",
+      title: "自动删除背景",
       action: {
         title: "移除背景",
-        subtitle: "创建 项目 项目 项目.",
+        subtitle: "创建透明背景。",
       },
-      success_remove_bg_notification: "项目 项目 项目!",
+      success_remove_bg_notification: "背景删除成功！",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "项目 项目 项目",
+    title: "变体图形资源",
     tips: {
       how_it_works:
-        "<b>项目 项目 项目:</b><br />项目 图案 项目 产品 图片 项目. 到 项目 项目 图片 项目 项目 项目 项目, 项目 <b>{filename}</b> 项目 项目 项目 值. 备注 项目 项目 代码 项目 项目 已使用 项目 项目 <b><s>颜色</s></b> 值.",
+        "<b>工作原理：</b><br />在此处上传图案或商品图像。要将这些图像用作变体选项，请在变体值中包含 <b>{filename}</b>。请注意，此代码不能用于 <b><s>color</s></b> 值。",
       how_set_name:
-        "<b>项目 项目:</b><br />项目 项目 12 项目 项目 项目 项目 项目 姓名 项目 项目 已使用 项目 项目 项目 姓名. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 产品, 项目 项目 项目 项目 项目 项目 项目 项目 项目. 到 项目 项目 项目 项目 项目 项目, 项目 项目 项目 图片 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 100, 项目 项目 项目 项目 类 项目 家具.",
+        "<b>命名提示：</b><br />上传文件名的前12个字符将用作资产名称。此功能非常适合展示产品的可定制方面，例如摩托车的轮胎尺寸或织物图案。为了优化此功能的使用，请避免在此处上传变体图像，除非图形资源的数量少于 100 个，例如家具的不同木材类型。",
     },
   },
 
@@ -2582,38 +2582,38 @@ export default {
    * @see ExtraPricingLevels
    */
   extra_pricing_levels: {
-    extra_pricings: "项目 项目",
+    extra_pricings: "额外定价",
     min_quantity: "最低 数量",
-    range_is_out_of_stock: "项目 项目 项目 项目 项目!",
+    range_is_out_of_stock: "系列已缺货！",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "项目 项目 项目 项目!",
-    set_color_warning: "项目 项目 项目 颜色.",
-    set_volume_warning: "项目 项目 项目 体积.",
-    set_pack_warning: "项目 项目 项目 项目 项目.",
-    set_weight_warning: "项目 项目 项目 重量.",
-    set_type_warning: "项目 项目 项目 类型.",
-    set_style_warning: "项目 项目 项目 风格.",
-    out_of_stock: "项目 项目 项目 项目",
+    duplicated_variant: "这个变体已经存在！",
+    set_color_warning: "请选择一种颜色。",
+    set_volume_warning: "请注明体积。",
+    set_pack_warning: "请注明包装尺寸。",
+    set_weight_warning: "请注明重量。",
+    set_type_warning: "请选择类型。",
+    set_style_warning: "请选择一种风格。",
+    out_of_stock: "目前缺货",
 
     image: {
-      tooltip: "⚡ 项目 项目 项目 项目 图片 项目 到 项目 项目 到 项目 项目.",
+      tooltip: "⚡ 将图像拖放到此处以将其分配给变体。",
     },
     enable: {
-      true_tooltip: "项目 产品 项目 有库存的 项目 项目 项目 店铺.",
-      false_tooltip: "项目 产品 项目 项目 有库存的 项目 项目 项目 店铺.",
+      true_tooltip: "该商品可在在线商店购买。",
+      false_tooltip: "该商品在在线商店中不可用。",
     },
     restore_dialog: {
-      title: "项目 项目",
-      message: "项目 项目 项目 项目 项目 到 项目 项目 已删除 项目?",
-      action: "项目, 项目 项目",
+      title: "恢复变体",
+      message: "您确定要恢复这个已删除的变体吗？",
+      action: "是的，立即恢复",
     },
     notifications: {
-      restore_variant_success: "项目 产品 项目 项目 项目 项目.",
+      restore_variant_success: "产品变体已成功恢复。",
     },
   },
 
@@ -2797,58 +2797,58 @@ export default {
   b_page_shop_finance_gateway: {
     title: "支付 项目",
     sub_title:
-      "列表视图 项目 已启用的 支付 项目. 项目 项目 项目 到 项目 项目 新建 项目 到 项目 店铺, 项目 项目 项目 项目. 项目 项目 项目 项目 项目 10 项目 支付 支付网关.",
+      "有效付款方式列表。如果您想向您的商店添加新方法，请按以下按钮。我们强烈建议添加的支付网关不要超过 10 个。",
     add_gateway: "新建 支付 项目",
 
     add_gateway_dialog: {
       title: "项目 货币",
-      country_currencies: "项目 项目",
+      country_currencies: "当地货币",
       crypto_currencies: "项目",
 
       confirm: "添加付款方式",
 
-      online_methods: "项目 项目",
-      cod_methods: "项目 项目 配送",
+      online_methods: "在线方法",
+      cod_methods: "货到付款",
       bank_transfer: "银行 转账",
       cash_methods: "项目 支付 (POS)",
 
       currency_step: {
-        title: "项目 项目 货币",
+        title: "选择货币",
         subtitle:
-          "项目 到 项目 项目 项目 项目 项目 项目 项目 店铺 到 项目 项目—项目 项目 项目 3. 项目 支付 支付网关 项目 项目 交易 项目 项目 项目 货币.",
+          "尽量将商店中的货币数量保持在最低限度，最好少于 3 种。大多数支付网关可以处理几乎任何货币的交易。",
         add_first_currency: {
-          subtitle: "项目 项目 项目 货币 到 项目 店铺 项目 项目.",
+          subtitle: "请先向您的商店添加货币，然后再继续。",
           title: "添加货币",
         },
       },
       gateway_step: {
         title: "已启用的 支付 项目",
         subtitle:
-          "项目 项目 从 项目 有库存的 支付 项目. 项目 项目 项目 项目 网关, 项目 项目 项目 到 项目 项目 项目 项目 许可证详情 到 链接 项目 店铺 项目 到 项目 项目 支付 项目.",
+          "请从可用的付款方式中进行选择。选择网关后，您将能够输入必要的连接详细信息，将您的商店直接链接到您的首选付款方式。",
       },
 
       config_step: {
-        import_config: "项目 项目 导入 配置 从 其他 项目 支付网关",
+        import_config: "您可以从其他类似网关导入配置",
         import_from: "导入 从",
       },
 
       request_add_new_gateway: {
-        title: "项目 项目 项目 项目 支付 项目?",
+        title: "没有看到您首选的付款方式？",
         subtitle:
-          "项目 项目 项目 支付 服务商 项目 项目, 项目 到 项目 年度 计划 (项目 项目 项目 项目) 项目 项目 项目 项目. 项目 项目 项目 项目 48 项目 项目 项目 项目 账户 项目 项目 项目 项目.",
+          "如果您的本地支付提供商未列出，请订阅任何年度计划（包括 Startup foraffordable）并请求集成。如果提供测试帐户和文档，我们将在 48 小时内完成。",
       },
 
       inputs: {
         currency: {
-          placeholder: "项目 项目 网关 到 导入...",
+          placeholder: "选择要导入的网关...",
         },
         manual: {
           true_title: "手动添加 项目",
-          true_description: "项目 项目 项目 网关 配置 手动添加.",
+          true_description: "您可以手动设置网关配置。",
 
           false_title: "自动 项目",
           false_description:
-            "项目 项目 项目 项目 项目 到 项目 网关 项目 项目 项目 项目 项目 项目 网关 项目 项目.",
+            "如果您已经配置了网关，系统将自动连接到网关。",
         },
       },
     },
@@ -2993,7 +2993,7 @@ export default {
 
       general_setting: {
         title: "通用活动设置",
-        sub_title: "为您的活动添加名称",
+        sub_title: "设置活动的名称、登陆页面和折扣代码。",
 
         name_input: "活动名称",
         name_input_hint: "为您的活动添加名称",
@@ -3038,9 +3038,9 @@ export default {
         dark_input: "暗色主题？",
         icon_input: "图标",
         icon_input_hint:
-          "项目 设计 图标 姓名 项目 Fontawsom: 项目:项目 项目",
+          "材料设计图标名称或 Fontawsom：fa:fas fa-star",
         anim_input: "动画文件地址",
-        anim_input_message: "Lottie 项目 项目 URL",
+        anim_input_message: "洛蒂动画文件 URL",
         preview: "预览",
         preview_update_action: "更新预览",
         bg_color: "背景颜色",
@@ -3195,7 +3195,7 @@ export default {
     description_input: "店铺描述",
     description_input_message: "写一个关于您的业务的简短描述。",
     description_input_tips:
-      "项目 等级描述 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 已使用 项目 项目 默认 Meta 标签 等级描述 项目 项目 店铺 页面.",
+      "此描述将显示在您商店的页脚中，也将用作商店页面的默认元标记描述。",
     address_input: "店铺地址",
     address_input_message: "请输入准确的店铺地址。",
 
@@ -3340,9 +3340,9 @@ export default {
         true_title: "项目 | 取消 订单 项目",
         false_title: "项目 | 取消 订单 项目 48 项目",
         true_description:
-          "项目 项目 项目 取消 项目 订单 项目 项目 更新 项目 库存 项目 项目.",
+          "此选项将立即取消您的订单并立即更新库存。",
         false_description:
-          "项目 项目 项目 取消 项目 订单 项目 48 项目. 项目 项目, 个 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "此选项将在 48 小时后取消您的订单。在此之前，物品将被保留，其他人无法购买。",
       },
     },
 
@@ -3354,9 +3354,9 @@ export default {
         "订单已恢复到正常流程。",
       set_tracking_success: "订单追踪号已成功保存。",
       shipping_address_update_success:
-        "发货中 地址 项目 项目 项目 项目.",
+        "送货地址已成功更新。",
       vendor_order_status_update_success:
-        "项目 项目 状态 项目 项目 项目 项目.",
+        "供应商履行状态已成功更新。",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3466,7 +3466,7 @@ export default {
       samin: {
         title: "服务费",
         description:
-          "项目 金额 项目 项目 项目 从 项目 Selldone 钱包 账户.",
+          "该金额已从您的 Selldone 钱包账户中扣除。",
         tooltip: "计算总服务费用",
         percent: "百分比",
       },
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "支付报告",
         subtitle:
-          "项目 付款 项目 交易 项目 项目 项目 项目 时间 项目.",
+          "创建在选定时间段内进行的付款和交易。",
         chart: {
           times: "次数",
           buys: "购买次数",
@@ -3662,9 +3662,9 @@ export default {
     status: "状态",
     cod_transportation: "项目 发货中",
     cod_transportations_error:
-      "启用 项目 项目 配送 支付 项目 项目 项目 项目 发货中 项目!",
+      "为至少一种运输方式启用货到付款！",
     payment_type: "支付 类型",
-    cod: "项目 项目 配送",
+    cod: "货到付款",
     online: "项目 支付",
     wage_percent: "费用 折扣百分比",
     min_wage: "项目 费用",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "项目 网关 状态",
     oauth2_button: "自动 项目 到 {gateway}",
     fee_payment_message:
-      "项目 项目 金额 已付款 项目 项目 项目 项目 项目 项目 到 项目 账户. 项目 服务 费用 项目 项目 项目 从 项目 钱包 项目 Selldone.",
+      "客户支付的全部金额将转入您的帐户。服务费将从您在Selldone的钱包中扣除。",
 
     auto_config: "自动 配置",
 
     keys: {
       title: "私密 项目",
       subtitle:
-        "列表视图 项目 私密 项目 项目 项目 支付. 项目 项目 项目 项目 项目 项目 项目 项目 付款.",
+        "用于支付的私钥列表。此信息对于创建和管理付款至关重要。",
     },
     extra_config: {
       title: "支付 服务 配置",
-      subtitle: "项目 配置 项目 项目 项目 支付 网关.",
+      subtitle: "支付网关的附加配置信息。",
     },
 
     recommended_actions: {
       title: "项目 操作",
       subtitle:
-        "项目 项目 项目 项目, 项目 项目 到 接收 项目 付款 从 项目 顾客.",
+        "通过采取这些步骤，您将开始收到客户的实际付款。",
       action_enable: "项目 到 启用 项目",
       make_live_enable: "项目 到 正式环境 项目",
     },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "已发行卡片概览",
       subtitle:
-        "预览 项目 项目 全部 项目 卡片列表. 项目 项目 已发送 卡片列表 到 用户数 手动添加 项目 项目 项目 项目 项目.",
+        "查看和管理所有已发行的卡。您可以手动向用户发送卡片或根据需要禁止他们。",
 
       loading_message: "正在获取信息...请稍候",
       issue_to_user: "发给用户",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "列表视图 项目 项目 项目 订单 项目 项目 到 项目 项目 项目 项目 服务商.",
+      "需要由第三方提供商履行的外部同步订单列表。",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4009,9 +4009,9 @@ export default {
 
     vendor: "供应商订单状态从<b>{from}</b>更改为<b>{to}</b> 。",
 
-    "connect-sync": "订单 项目 项目 项目 OS.",
-    "connect-shipped": "项目 订单 项目 项目 已发货 项目 {shipping}.",
-    "connect-returned": "项目 订单 项目 项目 退货 项目 {shipping}.",
+    "connect-sync": "订单由 Connect OS 同步。",
+    "connect-shipped": "Connect 订单已由 {shipping} 发货。",
+    "connect-returned": "连接订单已由 {shipping} 返回。",
     "connect-failed": "合作方履行订单失败。原因：{reason}",
     "connect-canceled": "合作方已取消订单。原因：{reason}",
     "connect-action-cancel": "已请求取消订单。原因：{reason}",
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "通过{phone}向客户发送付款确认短信。",
     "sms-ready-to-ship":
-      "已发送 项目 SMS 到 项目 项目 项目 项目 项目 订单 项目 项目 到 项目 已发货 项目 {phone}.",
+      "向客户发送短信，通知他们的订单已准备好通过 {phone} 发货。",
     "sms-ready-to-pickup":
-      "已发送 项目 SMS 到 项目 项目 项目 项目 项目 订单 项目 项目 项目 项目 项目 {phone}.",
+      "向客户发送短信，通知他们的订单已准备好通过 {phone} 取货。",
     "sms-order-confirmation":
-      "已发送 项目 订单 项目 SMS 到 项目 项目 项目 {phone}.",
+      "通过 {phone} 向客户发送订单确认短信。",
 
     "count-adjustment":
-      '项目 数量 项目 项目 产品 "{product}" 项目 项目 项目 从 {from} 到 {to}.',
+      "产品“{product}”的数量已从 {from} 更新为 {to}。",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4103,9 +4103,9 @@ export default {
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "项目 项目 / CSV 项目 项目.",
+      title: "将 Excel/CSV 文件拖放到此处。",
       select_file: "选择文件",
-      max_file: "项目 项目 项目: 20mb",
+      max_file: "最大文件大小：20mb",
       download_sample: "下载示例",
     },
     ai: {
@@ -4135,7 +4135,7 @@ export default {
       payout_tooltip: "向供应商付款。",
     },
     order_canceled: "订单 项目",
-    order_rejected: "订单 已拒绝 项目 项目",
+    order_rejected: "订单被供应商拒绝",
   },
 
   /**
@@ -4179,13 +4179,13 @@ export default {
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "项目 项目",
+    title: "团队成员",
     subtitle:
-      "项目 项目 项目 列表视图 项目 用户数 项目 项目 访问权限 到 项目 项目 项目. 项目 项目 项目 新建 项目 项目 项目 项目 项目 权限 项目.",
+      "这是有权访问您的供应商面板的用户列表。您可以在此处添加新的团队成员并自定义他们的权限。",
     add_action: "项目 新建 项目",
     pending: {
       title: "待处理 项目",
-      message: "预览 项目 列表视图 项目 项目 项目 项目 等待中 项目.",
+      message: "查看等待接受的邀请列表。",
     },
   },
 
@@ -4193,12 +4193,12 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "编辑 项目 项目",
-    title_new: "项目 新建 项目 项目",
+    title_edit: "编辑团队成员",
+    title_new: "添加新团队成员",
     member: {
-      title: "项目 项目 许可证详情",
+      title: "团队成员详情",
       subtitle:
-        "项目 项目 新建 项目 项目 项目 项目 项目 权限. 项目 项目 项目 产品 到 项目 项目/项目 访问权限. 项目 项目 项目 到 项目 项目 项目 项目 项目 项目 店铺 仪表盘.",
+        "添加新的团队成员并设置他们的权限。单击每个项目可调整读/写访问权限。每行对应于主商店仪表板的权限级别。",
     },
     access: {
       view_data: "查看数据",
@@ -4207,21 +4207,21 @@ export default {
     inputs: {
       email: {
         label: "电子邮件 地址",
-        placeholder: "项目 项目 项目 电子邮件 地址...",
+        placeholder: "输入会员的电子邮件地址...",
       },
     },
     notifications: {
       add_success: {
-        title: "项目 项目",
-        message: "项目 项目 项目 项目 项目 项目 项目.",
+        title: "已添加会员",
+        message: "团队成员已成功添加。",
       },
       update_success: {
-        title: "项目 项目",
-        message: "项目 项目 项目 项目 项目 项目 项目 项目.",
+        title: "会员更新",
+        message: "团队成员信息已成功更新。",
       },
     },
     actions: {
-      add: "项目 项目",
+      add: "添加会员",
     },
   },
 
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "项目 订单",
     subtitle:
-      "<b>项目! </b>项目 项目 操作 项目 项目 项目 项目 交易 项目 项目 项目 钱包 项目 项目 项目 项目 金额 从 项目. 项目 金额 项目 项目 项目 项目 总客户 交易 项目 项目 项目 订单. 项目, 项目 项目 项目 项目 项目 到 已连接 银行 账户 (项目 项目 项目 Stripe 项目 项目 项目 项目 转账), 项目 项目 创建 项目 <b>项目 转账</b>.",
+      "<b>重要！ </b>执行此操作将在供应商的钱包中生成负交易，并从中减去所选金额。该金额不能超过所选订单的剩余交易总额。此外，如果资金已转入关联的银行账户（例如通过 Stripe Connect 或手动电汇），您应该创建 <b> 反转转账 </b>。",
     inputs: {
       note: {
-        message: "项目 项目 到 项目 项目.",
-        placeholder: "项目 项目 项目 项目 备注 项目...",
+        message: "它对供应商可见。",
+        placeholder: "您可以在此处附加注释...",
       },
       amount: {
-        error_message: "项目 项目 金额 项目 项目 项目.",
+        error_message: "剩余金额已超。",
       },
     },
   },
@@ -4284,7 +4284,7 @@ export default {
     refund_order_action: "项目 订单",
     automatic_payout_list: {
       subtitle:
-        "项目 项目 项目 列表视图 项目 项目 付款 到 项目 已连接 银行 账户. 项目 备注 项目 项目 项目 付款 项目 项目 项目 项目, 项目 项目 付款 项目 项目 项目 项目.",
+        "这是向您关联的银行帐户自动付款的列表。请注意，此处仅显示自动付款，不会显示手动付款。",
     },
     reversal_transfer_action: "项目 转账",
   },
@@ -4339,7 +4339,7 @@ export default {
   accounts: {
     title: "我的钱包",
     message:
-      "项目 项目 项目 项目 项目 项目 项目 账户 项目 项目 货币 项目 项目 项目 Selldone. 项目 项目 项目 项目 专用 到 项目 项目 服务 项目.",
+      "请为您在 Selldone 使用的每种货币至少设置一个帐户。这些资金将专门用于支付您的服务费。",
     add_new: "创建新账户",
     new_account: "添加新钱包",
     new_account_dialog: {
@@ -4381,7 +4381,7 @@ export default {
     received_gifts: {
       title: "收到的礼物",
       sub_title:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目 已收到, 项目 从 Selldone 项目 其他 项目.",
+        "以下是您从 Seldone 或其他来源收到的礼物的汇编。",
 
       table: {
         amount: "金额",
@@ -4442,7 +4442,7 @@ export default {
     sub_title:
       "礼物金额将自动存入这些账户。",
     message:
-      "Selldone 项目 项目 项目 项目 项目 项目 项目, 项目 项目 Selldone 项目, 项目 项目 项目 项目 项目. 项目 项目 项目 充值 账户 项目 项目 货币, 项目 礼物 项目 项目 项目 项目 项目 项目 账户 项目 项目 域名 项目. 项目 项目 项目 项目 项目 到 Selldone. 提现记录 项目 项目 项目 项目 项目 企业 项目.",
+      "Selldone 为您的社交媒体活动、参与 Selldone 开发、介绍朋友等存入资金。通过为每种货币选择一个存款帐户，礼品金额将自动存入您域中的该帐户。这些金额可以记入 Selldone。仅业务合作伙伴可以提款。",
     add_account_action: "添加账户",
     add_dialog: {
       title: "连接账户以接收礼物",
@@ -4484,7 +4484,7 @@ export default {
   user_monetize_plans: {
     title: "合作和变现",
     sub_title:
-      "项目 项目 项目 项目 项目 项目 项目 项目 Selldone 钱包, 项目 项目 项目 项目 项目 已使用 到 支付 项目 Selldone 服务 项目 (有库存的 项目 全部). 项目 备注 项目 项目 Selldone VIP 企业 项目 项目 项目 项目 到 项目 项目 项目 项目, 项目 项目 项目 项目 项目 有库存的 到 全部 用户数.",
+      "您将在 Selldone 钱包中获得推荐奖励，这些资金可用于支付 Selldone 服务费（适用于所有人）。请注意，只有 Selldone VIP 业务合作伙伴才有能力提取这些推荐积分，并且并非所有用户都可以使用此选项。",
 
     discount: "折扣",
     your_income: "你的收入",
@@ -4492,7 +4492,7 @@ export default {
     level_3: "来自第三层级",
     link_message: "会员：{registered}，已接受：{accepted}",
     link_tip:
-      "项目 项目 项目 项目 项目?项目={link_code} 到 项目 结束时间 项目 项目 地址 项目 项目.",
+      "您可以将短语 ?ref={link_code} 添加到您共享的每个地址的末尾。",
     table: {
       currency: "货币",
       amount: "余额",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "主要个人资料",
       subtitle:
-        "编辑 项目 公开 产品概况 项目 项目. 项目 项目 项目 项目 项目 到 项目 顾客 项目 其他 用户数.",
+        "在此编辑您的公开个人资料信息。您的客户或其他用户可能会看到此信息。",
       full_name_input: "全名",
       tel_input: "联系电话",
       email_input: "电子邮件",
@@ -4550,7 +4550,7 @@ export default {
       about_long_input: "关于我的详细介绍",
       image_input: "选择头像",
       image_input_message:
-        "请上传您的头像图片。",
+        "上传您的图片。该图片将用作您的个人资料图片。",
       notifications: {
         update_profile_success: "你的个人资料已经更新。",
         update_personal_info_success:
@@ -4587,7 +4587,7 @@ export default {
   companies: {
     title: "我的企业帐户",
     message:
-      "项目, 项目, 项目 项目 项目 项目 发展 产品 项目 应用 项目 项目 项目 Selldone. 项目 项目 项目 项目 到 创建 项目 企业 产品概况.",
+      "企业、企业家和专业团队可以基于Selldone开发产品和应用。创建业务档案是一项要求。",
     new_company: "新建公司",
   },
   /** {@see BCompanyAdd} **/
@@ -4617,7 +4617,7 @@ export default {
       "您将看到所有连接到您的域名账户的商店和应用列表。您可以删除其中任何一个的访问权限。",
     clients_title: "客户",
     clients_message:
-      "项目 项目 项目 已使用 到 创建 访问权限 项目 项目 项目 项目. 备注 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 到 项目.",
+      "这些密钥用于由您的服务器创建访问令牌。请注意，密钥是保密的，仅放置在服务器上，因此其他人看不到它们。",
     personal_keys_title: "个人访问密钥",
     personal_keys_message:
       "您可以在这里创建账户密钥。请注意，这些密钥将能访问您的账户。只有在您确切知道自己在做什么时，才创建和使用这些密钥。",
@@ -4681,7 +4681,7 @@ export default {
           "如果无法扫描，您可以手动复制并粘贴代码到应用中：",
         create_new_code: "生成新代码",
         qr_code_scanning:
-          "项目 项目 QR 代码 项目 项目 Google 项目 手机 应用程序 项目 项目 项目 代码 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "扫描 Google Authenticator 移动应用创建的二维码，然后在此页面的框中输入生成的代码进行确认。",
         qr_code_regenerate_info:
           "注意：点击上述按钮将生成新密钥，之前的密钥将失效。请在手机应用中输入新密钥。",
       },
@@ -4808,7 +4808,7 @@ export default {
     },
     "user:profile:write": {
       name: "产品概况 项目",
-      description: "编辑 项目 项目 用户 产品概况 项目.",
+      description: "编辑和管理用户个人资料信息。",
     },
 
     //--------------------------- Storefront ---------------------------
@@ -4836,7 +4836,7 @@ export default {
     },
     "backoffice:order:write": {
       name: "订单 项目",
-      description: "编辑 项目 项目 店铺 订单.",
+      description: "编辑和管理商店订单。",
     },
     "backoffice:order:read": {
       name: "订单 访问权限",
@@ -4852,19 +4852,19 @@ export default {
     },
     "backoffice:shop:write": {
       name: "店铺 项目",
-      description: "创建 项目 项目 店铺 许可证详情.",
+      description: "创建和管理商店详细信息。",
     },
     "backoffice:shop:add": {
       name: "项目 店铺",
-      description: "项目 项目 新建 店铺 到 项目 项目.",
+      description: "将新商店添加到系统中。",
     },
     "backoffice:shop:delete": {
       name: "删除 店铺",
-      description: "删除 项目 店铺 从 项目 项目.",
+      description: "从系统中删除商店。",
     },
     "backoffice:giftcard:write": {
       name: "礼物 卡片 项目",
-      description: "创建 项目 项目 礼物 卡片列表.",
+      description: "创建和管理礼品卡。",
     },
     "backoffice:giftcard:read": {
       name: "礼物 卡片 访问权限",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ 项目",
-      description: "创建 项目 项目 项目 项目 项目.",
+      description: "创建和管理常见问题。",
     },
     "backoffice:faq:read": {
       name: "FAQ 访问权限",
@@ -4880,7 +4880,7 @@ export default {
     },
     "backoffice:category:write": {
       name: "类别 项目",
-      description: "创建 项目 项目 产品 子类别.",
+      description: "创建和管理产品类别。",
     },
     "backoffice:category:read": {
       name: "类别 访问权限",
@@ -4888,7 +4888,7 @@ export default {
     },
     "backoffice:product:write": {
       name: "产品 项目",
-      description: "项目 项目 项目 产品.",
+      description: "添加和管理产品。",
     },
     "backoffice:product:read": {
       name: "产品 访问权限",
@@ -4896,7 +4896,7 @@ export default {
     },
     "backoffice:report:read": {
       name: "报告 访问权限",
-      description: "项目 店铺 报告 项目 项目.",
+      description: "阅读商店报告和信息。",
     },
     "backoffice:finance:write": {
       name: "财务 账户 项目",
@@ -4907,7 +4907,7 @@ export default {
       description: "项目 财务 账户 许可证详情 项目 统计数据.",
     },
     "backoffice:page:write": {
-      name: "项目 项目",
+      name: "页面管理",
       description: "编辑 店铺 页面.",
     },
     "backoffice:page:read": {
@@ -4924,11 +4924,11 @@ export default {
     },
     "backoffice:staff:write": {
       name: "员工 项目",
-      description: "编辑 项目 项目 员工 许可证详情.",
+      description: "编辑和管理员工详细信息。",
     },
     "backoffice:staff:read": {
       name: "员工 访问权限",
-      description: "项目 员工 项目 项目 统计数据.",
+      description: "阅读员工信息和统计数据。",
     },
     "backoffice:business-profile:write": {
       name: "企业 产品概况 项目",
@@ -4952,7 +4952,7 @@ export default {
     },
     "backoffice:wallet:read": {
       name: "钱包 访问权限",
-      description: "项目 钱包 项目 项目 统计数据.",
+      description: "阅读钱包信息和统计数据。",
     },
     "backoffice:coupon:write": {
       name: "优惠券 项目",
@@ -4968,7 +4968,7 @@ export default {
     },
     "backoffice:offer:read": {
       name: "促销 访问权限",
-      description: "项目 促销 项目 项目 统计数据.",
+      description: "阅读报价信息和统计数据。",
     },
     "backoffice:cashback:write": {
       name: "返现 项目",
@@ -4995,20 +4995,20 @@ export default {
       description: "项目 社区 许可证详情 项目 统计数据.",
     },
     "backoffice:customer:write": {
-      name: "项目 项目",
-      description: "项目 项目 许可证详情.",
+      name: "客户管理",
+      description: "管理客户详细信息。",
     },
     "backoffice:customer:read": {
       name: "项目 访问权限",
-      description: "项目 项目 项目 项目 统计数据.",
+      description: "阅读客户信息和统计数据。",
     },
     "backoffice:ribbon:write": {
-      name: "项目 项目",
+      name: "色带管理",
       description: "项目 店铺 项目.",
     },
     "backoffice:ribbon:read": {
       name: "项目 访问权限",
-      description: "项目 项目 许可证详情 项目 统计数据.",
+      description: "阅读功能区详细信息和统计数据。",
     },
     "backoffice:ai:write": {
       name: "AI 项目",
@@ -5016,15 +5016,15 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI 访问权限",
-      description: "项目 AI 项目 项目 统计数据.",
+      description: "阅读 AI 配置和统计数据。",
     },
     "backoffice:vendor-payment:write": {
       name: "项目 支付 项目",
-      description: "项目 项目 付款.",
+      description: "管理供应商付款。",
     },
     "backoffice:vendor-payment:read": {
       name: "项目 支付 访问权限",
-      description: "项目 项目 支付 许可证详情 项目 统计数据.",
+      description: "阅读供应商付款详细信息和统计数据。",
     },
     "backoffice:company:read": {
       name: "商户 访问权限",
@@ -5036,11 +5036,11 @@ export default {
     },
     "backoffice:note:read": {
       name: "备注 访问权限",
-      description: "项目 项目 项目 项目 许可证详情.",
+      description: "阅读注释和相关详细信息。",
     },
     "backoffice:note:write": {
       name: "备注 项目",
-      description: "项目 项目.",
+      description: "管理笔记。",
     },
     "backoffice:affiliate:write": {
       name: "联盟 项目",
@@ -5051,30 +5051,30 @@ export default {
       description: "项目 联盟 许可证详情 项目 统计数据.",
     },
     "backoffice:print:write": {
-      name: "项目 项目",
-      description: "项目 项目 选项.",
+      name: "打印管理",
+      description: "管理打印选项。",
     },
     "backoffice:print:read": {
       name: "项目 访问权限",
-      description: "项目 项目 许可证详情.",
+      description: "阅读打印详细信息。",
     },
     "selldone:token:read": {
       name: "项目 访问权限",
-      description: "项目 项目 许可证详情 项目 统计数据.",
+      description: "阅读代币详细信息和统计数据。",
     },
     "selldone:token:write": {
-      name: "项目 项目",
-      description: "项目 项目.",
+      name: "代币管理",
+      description: "管理代币。",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "项目 访问权限",
-      description: "项目 项目 许可证详情 项目 统计数据.",
+      description: "阅读获利详细信息和统计数据。",
     },
     "selldone:monetization:write": {
-      name: "项目 项目",
-      description: "项目 项目, 项目 项目 项目.",
+      name: "货币化管理",
+      description: "管理货币化，包括推荐计划。",
     },
     "selldone:identification": {
       name: "项目 访问权限",
@@ -5082,11 +5082,11 @@ export default {
     },
     "selldone:developer:read": {
       name: "开发者 访问权限",
-      description: "项目 开发者 许可证详情 项目 统计数据.",
+      description: "阅读开发者详细信息和统计数据。",
     },
     "selldone:developer:write": {
       name: "开发者 项目",
-      description: "项目 开发者 项目.",
+      description: "管理开发者信息。",
     },
     "selldone:security:write": {
       name: "安全 项目",
@@ -5106,33 +5106,33 @@ export default {
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "项目 访问权限",
-      description: "项目 项目 许可证详情 项目 统计数据.",
+      description: "阅读机构详细信息和统计数据。",
     },
     "agency:write": {
-      name: "项目 项目",
-      description: "项目 项目 项目.",
+      name: "代理管理",
+      description: "管理机构信息。",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
       name: "项目 访问权限",
-      description: "项目 项目 许可证详情 项目 统计数据.",
+      description: "阅读供应商详细信息和统计数据。",
     },
     "vendor-write": {
-      name: "项目 项目",
-      description: "项目 项目 项目.",
+      name: "供应商管理",
+      description: "管理供应商信息。",
     },
   },
 
   scope_group: {
     backoffice: {
       title: "项目",
-      description: "访问权限 到 项目 项目 店铺 项目 项目.",
+      description: "访问后台和商店管理功能。",
     },
     storefront: {
       title: "项目",
-      description: "访问权限 到 项目 项目 店铺 项目.",
+      description: "访问客户和商店信息。",
     },
     profile: {
       title: "产品概况",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "访问权限 Selldone 配送服务 项目 项目.",
+      description: "访问 Soldone 服务和功能。",
     },
     others: {
       title: "项目",
-      description: "项目 权限范围 项目 项目 项目 项目 项目.",
+      description: "系统中未定义的其他范围。",
     },
     vendor: {
       title: "项目",
-      description: "访问权限 项目 项目 项目 项目 项目.",
+      description: "访问供应商信息和管理功能。",
     },
     connect: {
       title: "连接操作系统",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "项目",
-      description: "访问权限 项目 项目 项目 项目.",
+      description: "访问机构信息和管理。",
     },
   },
 
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "转账请求表",
         sub_title:
-          "项目 项目 项目 到 项目 项目 项目 项目 项目 钱包 项目 钱包 项目 项目 项目 货币, 项目 转账 项目 到 项目 钱包 项目 Selldone.",
+          "您可以将钱包内的可用资金在相同货币的钱包之间转移，或者将其转移到 Selldone 上的不同钱包。",
         message:
           "转账时请谨慎操作，转账完成后无法撤回。",
       },
@@ -5457,7 +5457,7 @@ export default {
     description:
       "根据您的每月销售额计算并选择最佳计划：",
     sale_input: "月销售额",
-    hypernova_plan: "项目 项目 项目 %0!",
+    hypernova_plan: "申请超新星%0！",
     show_normal_mode: "显示普通模式",
     show_hypernova_mode: "我的交易额超过2000万美元！",
   },
@@ -5506,7 +5506,7 @@ export default {
   login: {
     register_title: "商业的桥梁，<br>愉快的体验。",
     register_subtitle:
-      "项目 项目 今天 项目 项目. Selldone 项目 项目 项目 项目, 项目, 项目, 项目 项目.",
+      "立即免费注册。 Selldone 深受初创公司、企业、买家和卖家的喜爱。",
 
     password_recovery_title: "找回密码",
     password_recovery_message:
@@ -5514,26 +5514,26 @@ export default {
     email: "您的电子邮件地址",
     password_recovery_action: "接收密码找回邮件",
 
-    register_google: "项目 项目 Google",
-    register_apple: "项目 项目 Apple",
+    register_google: "继续使用谷歌",
+    register_apple: "继续使用苹果",
     continue_with: "继续使用",
-    register_linkedin: "项目 项目 LinkedIn",
-    register_facebook: "项目 项目 Facebook",
-    register_github: "项目 项目 GitHub",
+    register_linkedin: "继续使用 LinkedIn",
+    register_facebook: "继续使用 Facebook",
+    register_github: "继续使用 Github",
     create_your_account: "创建您的帐户",
     password_8_chars: "密码至少需要8个字符。",
     password_upercase_number: "至少包含一个大写字母和一个数字。",
     password_confirm: "密码与确认密码一致。",
     privacy_agreement:
-      "项目 项目 项目, 项目 项目 到 Selldone'项目 <a href='/terms' target='_blank'>使用条款 项目 项目</a> 项目 <a href='/privacy' target='_blank'>隐私政策 项目 </a>.",
+      "注册即表示您同意 Selldone 的 <a href='/terms' target='_blank'> 使用条款 </a> 和 <a href='/privacy' target='_blank'> 隐私政策 </a>。",
     register_action: "开始吧，免费注册！",
     login_action: "登录",
     already_signup: "已经注册？",
     login_your_account: "登录到您的帐户",
-    login_google: "项目 项目 Google",
-    login_linkedin: "项目 项目 LinkedIn",
-    login_facebook: "项目 项目 Facebook",
-    login_github: "项目 项目 GitHub",
+    login_google: "继续使用谷歌",
+    login_linkedin: "继续使用 LinkedIn",
+    login_facebook: "继续使用 Facebook",
+    login_github: "继续使用 Github",
     remember_me: "记住我。",
     login_button: "登录",
     two_step_problem: "两步验证出现问题了吗？",
@@ -5571,7 +5571,7 @@ export default {
 
       access: "开发者与 API 密钥",
       access_subtitle:
-        "OAuth 客户端, 个人的 访问权限 项目 项目 已连接 应用.",
+        "OAuth 客户端、个人访问令牌和连接的应用程序。",
 
       security: "账户安全",
       security_subtitle: "设置双重认证并管理社交登录选项。",
@@ -5634,7 +5634,7 @@ export default {
     /** {@see LPageEditorSeo} **/
     seo: {
       message:
-        "SEO 编辑 项目 项目 项目 项目 项目 Selldone SEO 项目.",
+        "SEO 设置由 Selldone SEO 引擎自动调整。",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "价格",
     verify: {
       true_title: "项目 使用条款",
-      true_description: "项目 项目 项目 项目 项目 Selldone 使用条款 项目 项目",
+      true_description: "我已阅读并同意 Selldone 使用条款",
     },
     need_charge: "需要付费",
     buy_now: "立即购买",
@@ -5732,14 +5732,14 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "项目 项目 钱包",
+        title: "选择钱包",
         subtitle:
-          "项目 项目 项目 钱包 到 项目 项目 项目 订阅. 项目 项目 项目 项目 项目 项目, 项目 项目 创建 项目 项目 项目 钱包 项目. 项目 钱包 项目 项目 已使用 项目 项目 项目.",
+          "选择用于您的订阅的虚拟钱包。如果您还没有，您可以在钱包部分创建它。该钱包将用于支付任何费用。",
       },
       auto_renewal: {
         true_title: "自动续订",
         true_description:
-          "项目 订阅 项目 项目 项目 项目 项目 钱包 项目 项目 余额 项目 项目 项目 项目 项目 项目 项目.",
+          "如果您的钱包有足够的余额或者您拥有有效的优惠券，您的订阅将自动续订。",
       },
       options: {
         title: "项目 选项",
@@ -5767,7 +5767,7 @@ export default {
     company_message: "如果您有公司并想要发布应用程序。",
     access_keys: "访问密钥",
     access_keys_message: "显示客户端和访问密钥。",
-    rating: "项目 项目 项目 项目 项目 项目 项目 Selldone?",
+    rating: "您如何评价您在 Seldone 的体验？",
     large_font: "大字体",
     large_font_message: "显示比正常大的文本",
     samples: "显示示例商店",
@@ -5776,7 +5776,7 @@ export default {
 
     automation: "自动化",
     automation_message:
-      "项目 自动化 项目 项目 店铺 仪表盘. (项目, 项目 项目,...)",
+      "在商店仪表板上显示自动化选项卡。 （Webhook、可视化编程……）",
   },
 
   /** {@see BPageShopSettingLocations} **/
@@ -5830,7 +5830,7 @@ export default {
     },
     by_connect: {
       subtitle:
-        "项目 项目 产品 从 POD 项目 代发货 项目 项目 Selldone 项目 OS—项目 项目 项目 店铺 项目 项目 项目 产品 项目, 无服务 项目 项目.",
+        "使用 Selldone Connect OS 轻松添加来自 POD 或代发货供应商的产品 - 只需连接您的商店即可享受自动产品集成，无需任何插件。",
     },
     your_license_is_not_eligible: "您的许可证不符合条件。",
     sku_dialog: {
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "项目, 项目 项目 项目 项目 项目 列表视图 项目 产品 项目 Selldone, 项目 项目 有库存的 项目 其他 项目. Selldone'项目 项目 代发货 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      "在这里，您可以找到在 Selldone 上列出其产品的批发商，以便其他商家可以使用它们。 Selldone 的内置直销平台简化了流程，使批发商和商家都变得简单明了。",
   },
 
   /** @see Affiliates **/
@@ -5892,62 +5892,62 @@ export default {
       new: "新建 联盟 项目",
       edit: "编辑 联盟 项目",
       subtitle:
-        "项目 项目 项目 编辑 项目 姓名 项目 项目 联盟 项目.",
+        "在此配置常规设置和联营公司名称。",
     },
 
     payment: {
       title: "支付 项目",
       subtitle:
-        "项目 项目 佣金 项目 项目 项目 联盟. 项目 项目 项目 项目 项目 项目 佣金, 项目 项目 项目 佣金 项目 项目 产品.",
+        "设置联营公司的佣金结构。您可以结合固定佣金和基于百分比的佣金，或为每种产品设置特定佣金。",
     },
 
     contact: {
       title: "联系信息",
-      subtitle: "项目 项目 联系方式 许可证详情 项目 项目 联盟 项目 项目.",
+      subtitle: "请在此处提供联属合作伙伴的联系方式。",
     },
 
     restriction: {
       title: "佣金 项目",
       subtitle:
-        "项目 项目 产品 项目 项目 项目 佣金. 项目 项目 项目 佣金 到 项目 产品.",
+        "定义哪些产品有资格获得佣金。您可以限制某些产品的佣金。",
     },
 
     link_domain: {
       title: "项目 域名",
       subtitle:
-        "链接 项目 项目 项目 域名 到 项目 联盟 项目. 项目 项目 买 项目 项目 域名 项目 项目 项目 到 项目 联盟.",
+        "将您的一个域链接到该联属合作伙伴。通过此域购买的访问者将归属于该附属机构。",
 
-      domain_not_approved_msg: "项目 域名 项目 项目 项目 项目 项目!",
-      domain_is_not_enable_msg: "项目 域名 项目 项目 项目!",
+      domain_not_approved_msg: "该域名尚未获得批准！",
+      domain_is_not_enable_msg: "域名未启用！",
       domain_is_linked_to_other_affiliate_msg:
-        "项目 域名 项目 项目 项目 到 项目 联盟!",
+        "该域名已链接到另一个附属机构！",
     },
 
-    set_users_first_message: "项目 项目 项目 用户 项目!",
+    set_users_first_message: "请先设置用户！",
 
     cluster: {
       title: "项目",
       subtitle:
-        "项目 项目 联盟 项目 项目 项目 到 项目 项目 项目 其他 资源 项目 项目 项目.",
+        "将此附属机构与集群关联，以便将其与其他资源一起管理在一个位置。",
       manage_action: "项目",
     },
 
     notifications: {
-      create_success: "新建 联盟 项目 项目.",
-      update_success: "联盟 项目 项目.",
+      create_success: "新会员添加成功。",
+      update_success: "会员更新成功。",
     },
 
     inputs: {
       name: {
         label: "联盟 项目 姓名",
-        message: "项目.项目., 项目 项目, 项目 商户, 项目 项目, 项目.",
+        message: "例如，John Doe、Alex Company、X Marketers 等。",
       },
       commission: {
         label: "佣金 项目",
         false_description:
-          "项目 项目 项目 项目 项目 项目 项目 项目 佣金.",
+          "使用固定佣金和百分比佣金的组合进行计算。",
         true_description:
-          "项目 项目 项目 佣金 项目 项目 项目 定价 项目.",
+          "使用定价选项卡中设置的特定产品佣金进行计算。",
         false_title: "项目 + 项目 佣金",
         true_title: "项目 佣金",
       },
@@ -5968,19 +5968,19 @@ export default {
         placeholder: "项目, 项目.项目., 项目 银行, 无服务: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "项目 项目 域名... (项目)",
+        placeholder: "选择一个域...（可选）",
       },
       pos: {
         true_description:
-          "项目 项目 项目 订单 项目 项目 项目 顾客 项目 项目 项目.",
+          "附属公司可以通过他们的面板直接为客户下订单。",
         true_title: "POS 访问权限",
       },
       enable: {
         true_description:
-          "项目 项目 联盟 项目 已启用的? 项目 已停用的, 项目 联盟 项目 项目 项目 到 订单 项目 项目 项目 链接.",
+          "该附属机构目前是否活跃？如果处于非活动状态，他们的联属网络营销计划将不适用于通过其链接发出的订单。",
       },
       products: {
-        label: "产品 项目 项目 佣金",
+        label: "符合佣金资格的产品",
         select_product: "项目 产品",
       },
     },
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目 联盟 项目 项目 项目 从 项目 店铺. 联盟 项目 项目 项目 项目 项目 项目 项目 时间 项目 项目.",
+        "您可以先与联营公司解决任何未偿债务，然后再将其从您的商店中删除。删除后，附属信息在有限时间内仍可访问。",
     },
   },
 
@@ -6003,18 +6003,18 @@ export default {
   shop_valuations: {
     title: "自定义 定价 项目 资产价值",
     subtitle:
-      "项目 项目 项目 (项目 定价 输入 项目) 到 项目 产品, 项目 顾客 到 项目 变体 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 价格 项目 项目 项目 自定义 输入.",
-    add_valuation_action: "创建 新建 项目 项目",
+      "为产品分配估价（定价输入表），允许客户选择变体或个性化您的商品。然后系统将根据自定义输入计算价格。",
+    add_valuation_action: "创建新的评估表",
     empty_message:
-      "项目 项目 项目 项目 变体, 项目 项目 项目 项目 项目 项目 项目 项目 项目 到 项目 简单的 产品.",
+      "与其创建多个变体，不如考虑开发一种可应用于简单产品的估值策略。",
     delete_dialog: {
       title: "项目 移除",
       message:
-        "项目 项目 项目 项目 项目 到 删除 项目 定价 项目? 项目 项目 项目 项目 自定义 定价 项目 项目 项目 从 全部 项目 产品 项目.",
+        "您确定要删除此定价表吗？请确保首先从所有关联产品中删除此自定义定价策略。",
       action: "是的，立即删除",
     },
     notifications: {
-      delete_success: "项目 项目 项目 项目 已删除.",
+      delete_success: "评估已成功删除。",
     },
   },
 
@@ -6022,37 +6022,37 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "定价 & 项目 项目",
+    label: "定价和估值模型",
   },
 
   /**
    * @see BValuationAdd
    */
   valuation_add: {
-    title_edit: "编辑 项目 项目",
-    title_add: "创建 新建 项目 项目",
+    title_edit: "编辑估价表",
+    title_add: "创建新的评估表",
     config: {
       subtitle:
-        "项目 项目 项目 项目 项目 到 创建 项目 定价 项目 项目 项目 项目 项目 项目 项目 产品. 开始时间 项目 项目 项目 项目 项目 项目 姓名.",
+        "设置评估系统，使用公式和参考表为您的产品创建灵活的定价。首先给这个评估一个独特的名称。",
     },
-    valuation_preview: "预览 项目 项目",
-    load_sample: "项目 项目",
+    valuation_preview: "预览估价表",
+    load_sample: "加载样品",
     conditions: {
       title: "条件",
       subtitle:
-        "项目 项目 项目 项目 自定义 变体. 项目 配置 项目 项目 项目 项目 项目 项目.",
+        "定义自定义变体的逻辑。此配置简化了变体可用性的管理。",
     },
     structure: {
       title: "项目",
       subtitle:
-        "设计 项目 定价 输入 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "通过集成公式和参考表在此处设计您的定价输入表单。",
       expand_action: "项目",
       collapse_action: "项目",
     },
     inputs: {
       title: {
-        message: "项目 标题 项目 项目 项目 到 顾客.",
-        placeholder: "项目 项目 姓名 项目 定价, 项目.项目., '项目 项目",
+        message: "该标题对客户不可见。",
+        placeholder: "输入定价名称，例如“Mugs Pricing”",
       },
     },
     samples: {
@@ -6169,7 +6169,7 @@ export default {
       config: {
         title: "通用配置",
         subtitle:
-          "项目 项目 项目 项目 折扣 代码 项目 项目: 最高 (LIMIT, PERCENT * 项目 价格). 项目 到 项目 项目 项目 项目 项目 项目 到 项目.",
+          "折扣码计算公式为：max(LIMIT, PERCENT * 购物车价格)。请记住使代码相关且易于记忆。",
       },
       limit: {
         title: "限制",
@@ -6316,7 +6316,7 @@ export default {
 
     config: {
       subtitle:
-        "项目 项目 项目 项目 优惠券 折扣 项目 项目: CHARGE + 最高 (LIMIT, PERCENT * 项目 价格).",
+        "优惠券折扣计算公式为：CHARGE + max (LIMIT, PERCENT * 购物车价格)。",
     },
     limit: {
       subtitle:
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "联盟 链接",
       subtitle:
-        "项目 项目 项目 链接 项目 项目 联盟 项目 到 项目 销售额 项目 佣金. 项目 项目 项目 '{code}' 到 项目 链接 项目 项目 项目 自定义 专用 域名 项目 项目 联盟. 项目 项目 项目 项目 项目 项目 项目 项目 48项目.",
+        "为您的联属合作伙伴生成一个独特的链接，以跟踪销售和佣金。将推荐代码“{code}”添加到任何链接或为您的联属网络公司分配自定义专用域。系统将对其进行48小时的跟踪。",
     },
     fix_commission: "固定佣金",
     percent_commission: "基于百分比的佣金",
@@ -6898,10 +6898,10 @@ export default {
 
   /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
-    wifi_pass: "项目 项目 密码",
-    message: "项目 项目 项目 项目 密码 项目 项目 项目 QR 代码.",
+    wifi_pass: "您的 Wi-Fi 密码",
+    message: "输入您的 WiFi 路由器密码并扫描二维码。",
     wifi_ssid: "无线网络SSID",
-    ssid_message: "项目 项目 项目 项目 姓名 (SSID).",
+    ssid_message: "输入您的 Wi-Fi 网络名称 (SSID)。",
   },
 
   /** {@see PosDeviceTypes**/
@@ -6988,8 +6988,8 @@ export default {
       "您的数据属于您！您可以随时以标准格式下载您的业务信息。但是，请尊重您客户的隐私，不要向他们发送垃圾邮件，也不要与第三方共享他们的信息。",
 
     excel:
-      "项目 项目 接收 项目 列表视图 项目 全部 项目 {type} 项目 项目 店铺 项目 项目 项目 项目 项目 项目 项目.",
-    csv: "项目 项目 接收 项目 列表视图 项目 全部 项目 {type} 项目 项目 店铺 项目 项目 项目 项目 项目 CSV 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 Selldone 项目 项目 {type} 项目 项目 店铺.",
+      "您将收到商店中所有 {type} 的列表以及 Excel 格式的完整信息。",
+    csv: "您将收到商店中所有 {type} 的列表以及 CSV 格式的完整信息。此格式符合Selldone将{type}导入商店的标准格式。",
   },
   /** {@see BPageShopProductsImporter**/
   importer: {
@@ -7041,18 +7041,18 @@ export default {
     vendor: {
       title: "导入 项目",
       subtitle:
-        "项目 项目 CSV 项目 项目. 项目 项目 项目 项目 项目 项目 项目 到 隐私政策 项目.",
+        "在此处上传供应商 CSV 文件。确保格式正确并遵守隐私法规。",
       checklist: {
-        title: "项目 项目",
-        subtitle: "项目 项目 到 项目 项目 项目.",
-        sample_files: "项目 项目",
+        title: "重要清单",
+        subtitle: "请务必遵循指南。",
+        sample_files: "示例文件",
         valid_vendor_name_needed:
-          "项目 项目 项目 项目 <b>项目 姓名</b>. 项目 <b>姓名</b> 项目 已使用 到 项目 项目 到 <i>创建</i> 项目 新建 项目 项目 <i>更新</i> 项目 项目 项目.",
+          "您必须提供<b>有效名称</b>。 <b>name</b> 用于确定是 <i>Create</i> 新供应商还是 <i>Update</i> 现有供应商。",
         assign_user_after_import:
-          "项目 项目 项目, 项目 项目 手动添加 项目 项目 用户 到 项目 项目 访问权限 到 项目 项目 项目.",
+          "导入供应商后，您可以手动分配用户以授予他们访问供应商面板的权限。",
       },
       need_kyc_alert:
-        "项目 项目 到 项目 项目 个人的 项目 项目 项目 项目.",
+        "在导入供应商之前，您需要验证您的个人信息。",
       back_to_vendors_list: "返回 到 项目 列表视图",
     },
   },
@@ -7063,9 +7063,9 @@ export default {
   marketplace_products: {
     title: "项目 产品",
     subtitle:
-      "项目 项目 项目 全部 产品 项目 项目 项目. 项目 项目 商城模式, 项目 产品 项目 项目 项目 到 项目 项目 更多的 项目. 项目 项目 项目 项目 项目 产品 项目 项目 项目 项目 项目 包括 库存 项目 定价 许可证详情 项目 到 项目 项目.",
+      "该目录列出了供应商提供的所有产品。在市场中，产品可以链接到一个或多个供应商。与产品关联的每个供应商都有一个唯一的条目，其中包括特定于该供应商的库存和定价详细信息。",
     filter_vendor: {
-      placeholder: "筛选 项目 项目...",
+      placeholder: "按供应商过滤...",
     },
     filter_status: {
       placeholder: "筛选 项目 状态...",
@@ -7076,10 +7076,10 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "项目 项目 项目",
-    title: "项目 项目 列表视图",
+    open_vendors_panel: "打开供应商面板",
+    title: "供应商请求清单",
     subtitle:
-      "项目 项目 项目 列表视图 项目 请求 从 项目 项目 项目 项目 到 项目 项目 项目 项目 商城模式.",
+      "这是已申请成为您市场中的供应商的个人的请求列表。",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,93 +7088,93 @@ export default {
     marketplace: {
       title: "商城模式",
       subtitle:
-        "项目 项目 商城模式 项目 项目 项目 项目 项目. 项目 项目 项目 到 项目 项目 项目 项目 商城模式, 项目 项目 禁用 项目 店铺 项目 项目 编辑.",
+        "禁用市场将关闭某些功能。如果您想关闭整个市场，您应该在设置中禁用您的商店。",
     },
     distribution_model: {
-      title: "项目 项目",
+      title: "分销模式",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 到 项目 个 项目 到 项目 项目 项目 订单 项目 项目 仓库 项目 发货中, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "市场可以在不同的分销模式下运营。无论您是希望供应商直接将商品运送给买家，还是在您的仓库合并订单进行运送，您都可以在这里选择最适合您需求的型号。",
     },
     access: {
       title: "项目 访问权限",
       subtitle:
-        "项目 项目 项目, 项目 项目 项目 项目 项目 访问权限 项目 项目 到 项目 产品 仪表盘. 项目 项目 访问权限 编辑 到 项目 项目 到 项目 项目 项目 产品 项目 子类别 项目 项目 项目 访问权限 到 项目 项目.",
+        "作为管理员，您可以控制供应商对产品仪表板的访问级别。调整全局访问设置以允许供应商添加自己的产品和类别，或将此访问权限仅限于管理员。",
     },
     need_enable_shipping_for_vendors_tips:
-      "启用 发货中 项目 项目 项目 项目 店铺 > 物流 项目 项目 项目 项目 项目.",
-    transportation_available_tooltip: "项目 项目 项目 有库存的 项目 项目.",
+      "在商店 > 物流选项卡中为每种方法单独启用供应商运输。",
+    transportation_available_tooltip: "此选项可供供应商使用。",
     transportation_not_available_tooltip:
-      "项目 有库存的 项目 项目! 项目 项目 启用 项目 项目 项目 项目 编辑.",
+      "不适用于供应商！您可以在交通设置中启用它。",
     panel: {
-      title: "项目 项目",
-      subtitle: "项目 项目 项目 项目 项目 自定义 域名.",
+      title: "供应商面板",
+      subtitle: "通过您的自定义域加入您的供应商。",
     },
     documents: {
       title: "文件",
       subtitle:
-        "项目 项目 项目 项目 项目 到 项目 文件 项目 项目 项目 项目. 项目 项目 项目 文件 项目.",
-      add_document_action: "项目 项目 项目",
+        "您可以要求供应商上传文件或签署某些合同。在此指定所需的文件。",
+      add_document_action: "添加文档请求",
     },
     inputs: {
       enable: {
         false_description:
-          "项目 商城模式 项目 项目 项目, 项目 全部 商城模式 项目.",
+          "市场已关闭，禁用所有市场功能。",
         true_description:
           "项目 商城模式 项目 已启用的, 项目 全部 商城模式 项目.",
       },
       product: {
         label: "添加新产品",
-        true_title: "项目 项目 项目 产品",
+        true_title: "供应商可以添加产品",
         false_description:
-          "项目 项目 产品 项目 项目 项目. 项目 项目 项目 项目 价格 项目 库存.",
+          "您添加产品并分配供应商。供应商只能管理价格和库存。",
         true_description:
-          "项目 项目 项目 项目 项目 项目 项目 产品 项目 项目 项目 项目 项目.",
+          "供应商可以直接在其供应商面板中添加和管理自己的产品。",
       },
       need_verify: {
         label: "产品 项目 流程",
         false_description: "新建 项目 产品 项目 正式环境 项目.",
-        false_title: "无服务 项目 项目",
+        false_title: "无需验证",
         true_description:
-          "项目 新建 产品 项目 项目 项目 项目 正式环境 项目 项目 商城模式.",
-        true_title: "项目 项目",
+          "供应商的新产品在投放市场之前需要获得批准。",
+        true_title: "需要验证",
       },
       category: {
         label: "项目 新建 类别",
-        true_title: "项目 项目 项目 子类别",
+        true_title: "供应商可以添加类别",
         false_description:
-          "项目 项目 子类别. 项目 项目 项目 项目 产品 到 项目 子类别.",
+          "您添加类别。供应商只能将产品添加到现有类别中。",
         true_description:
-          "项目 项目 项目 项目 项目 子类别 项目 项目 项目 项目 项目.",
+          "供应商可以直接在其供应商面板中添加和管理类别。",
       },
       shipping: {
         label: "发货中 选项",
-        true_title: "项目 项目 发货中 选项",
+        true_title: "供应商有运输选项",
         false_description:
-          "项目 项目 项目 项目 项目 项目 发货中 项目.",
+          "供应商无法添加或自定义其运输方式。",
         true_description:
-          "项目 项目 项目 项目 项目 项目 发货中 项目, 项目 快递公司, 项目 项目 发货中 项目 项目 项目.",
+          "供应商可以设置自己的运输方式、添加快递员并根据自己的需求定制运输。",
       },
       hidden_customer: {
-        label: "项目 项目 联系方式 项目",
-        true_description: "项目 联系方式 许可证详情 项目 项目 从 项目.",
+        label: "显示买家联系信息",
+        true_description: "买家的联系方式对供应商是隐藏的。",
         false_description:
-          "项目 联系方式 许可证详情, 项目 项目 项目 项目 电子邮件, 项目 项目 到 项目.",
+          "供应商可以看到买家的联系方式，例如电话和电子邮件。",
       },
       multi: {
         false_description:
-          "项目 用户 项目 项目 项目 项目 项目 账户. 用户数 项目 项目 项目 到 项目 项目 项目 /项目.",
+          "一名用户只能拥有一个供应商帐户。用户将被重定向到位于 /vendors 的面板。",
         true_description:
-          "项目 用户 项目 项目 项目 项目 账户. 项目 项目 项目 项目 项目; 项目 联系方式 项目 项目 项目 项目.",
-        true_title: "项目 项目",
-        false_title: "项目 项目 项目 (默认)",
+          "一个用户可以拥有多个供应商帐户。这是测试版功能；使用前请联系我们。",
+        true_title: "多供应商模式",
+        false_title: "单一供应商模式（默认）",
       },
 
       listing: {
-        label: "项目 项目 项目",
-        true_description: "项目 项目 项目 项目 项目. 项目 项目 项目 项目 个 项目 公司.",
-        false_description: "项目 项目 项目 项目 项目. 项目 项目 店铺 所有者 项目 项目 项目 个 项目 公司.",
+        label: "供应商列表",
+        true_description: "为供应商启用列表。供应商可以管理列表项目和公司。",
+        false_description: "供应商禁用列表。只有店主可以管理列表项目和公司。",
         requires_listing_active_text:
-          "到 项目 项目 项目 项目 (个 + 公司), 项目 启用 项目 店铺 项目 项目 项目 渠道 → 项目. 项目 项目 返回 项目 到 项目 项目 访问权限.",
+          "要让供应商使用Listing（商品+公司），首先在渠道→Listing中启用商店Listing功能。然后返回此处以允许供应商访问。",
         requires_listing_active_button: "项目 渠道 项目 编辑",
       },
 
@@ -7182,48 +7182,48 @@ export default {
 
     },
     notifications: {
-      update_success: "项目 编辑 项目 项目.",
+      update_success: "供应商设置已成功更新。",
     },
     add_document_dialog: {
-      title: "项目 项目",
+      title: "文件要求",
       type: {
         title: "文件类型",
         subtitle:
-          "项目 项目 项目 项目 产品 项目. 项目 项目 项目 项目 项目 项目 项目, 项目 项目 到 项目 项目 项目 项目.",
+          "此处添加文档请求项。它将出现在供应商的面板中，提示他们上传所需的文档。",
       },
       guide: {
         title: "指南",
         subtitle:
-          "项目 项目 项目 指南 到 项目 项目 项目 项目 文件 到 项目 项目 项目 到 项目 项目 项目.",
+          "提供简要指南，帮助供应商了解要上传哪些文档以及如何正确上传。",
       },
       code: {
         title: "嵌入 代码",
         subtitle:
-          "项目 项目 嵌入 代码 项目 项目 项目, 项目, 项目 项目 项目 项目 项目 项目 项目.",
+          "粘贴供应商必须签署的文档、表单或合同的嵌入代码。",
       },
       link: {
         title: "项目 链接",
         subtitle:
-          "项目 项目 项目 链接 到 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "提供供应商必须签署的文档或合同的外部链接。",
       },
       inputs: {
         title: {
           label: "标题",
-          placeholder: "项目 项目 标题 项目 项目 项目 项目.",
+          placeholder: "输入文档请求的标题。",
         },
         guide: {
           label: "指南 (项目)",
           placeholder:
-            "项目, 项目 项目 项目 指南 项目 项目, 项目 链接 到 项目 项目 其他 文件.",
+            "（可选）提供简短的指南或说明，包括合同或其他文件的链接。",
         },
         code: {
           label: "嵌入 代码",
-          placeholder: "项目 项目 嵌入 代码 项目...",
-          message: "项目 项目 HTML 代码.",
+          placeholder: "将嵌入代码粘贴到此处...",
+          message: "可以包含 HTML 代码。",
         },
         url: {
           label: "URL",
-          message: "项目 项目 URL 项目 项目 项目 项目 项目 项目...",
+          message: "在此处输入文档或合同的 URL...",
         },
       },
     },
@@ -7234,14 +7234,14 @@ export default {
    */
   ShopMarketplaceModes: {
     Collective: {
-      title: "项目 项目",
+      title: "集体模式",
       description:
-        "项目 项目 项目, 全部 订单 项目 已发送 到 项目 仓库 项目 项目 项目 已发货 到 顾客 从 项目 项目 位置. 项目 项目 已发送 项目 个 到 项目 仓库, 项目 项目 发货中 地址 项目 项目 项目 项目 项目 仓库 地址.",
+        "在这种模式下，所有订单都会首先发送到您的仓库，然后从一个中心位置运送给客户。供应商会将其物品发送到您的仓库，因此供应商的送货地址将是您的仓库地址。",
     },
     Direct: {
       title: "项目 发货中 从 项目",
       description:
-        "项目 项目 项目, 项目 项目 订单 项目 到 顾客. 项目 发货中 地址 项目 项目 订单 项目 项目 项目 项目 地址.",
+        "在这种模式下，供应商直接向客户发货。供应商订单的送货地址将是买家的地址。",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "所有者 项目 项目",
+      title: "业主身份证明文件",
       description:
-        "项目 项目 项目 ID 到 项目 项目 身份认证(KYC) 项目 项目 企业 所有者 项目 项目 项目.",
+        "上传政府颁发的身份证件以验证企业主或主要管理人员的身份。",
     },
     Business: {
       title: "企业 项目",
       description:
-        "项目 项目 企业 文件 项目 项目 项目 项目 项目 项目 到 项目 项目 项目 状态 项目 项目 企业.",
+        "提供必要的商业文件，例如许可证或注册证书，以确认您企业的合法地位。",
     },
     Address: {
       title: "地址 项目",
       description:
-        "项目 项目 项目 到 项目 项目 企业 地址, 项目 项目 项目 项目 项目, TAX 发票, 项目 项目 项目.",
+        "提交文件以验证您的营业地址，例如公用事业账单、税务发票或租赁协议。",
     },
     Contract: {
       title: "项目 & 项目",
       description:
-        "项目 项目 项目 项目 项目 项目 项目 使用条款 项目 条件 项目 项目 企业 项目.",
+        "上传详细说明业务关系条款和条件的合同或协议。",
     },
     Copyright: {
-      title: "项目 项目",
+      title: "版权文档",
       description:
-        "项目 项目 项目 文件 到 项目 项目 项目 项目 项目.",
+        "提供版权登记文件以确认您的知识产权。",
     },
     Privacy: {
       title: "隐私政策 项目 文件",
       description:
-        "项目 项目 隐私政策 项目 文件 到 项目 项目 项目 到 项目 用户 项目 项目 项目.",
+        "包括您的隐私政策文件，以证明您对保护用户和客户信息的承诺。",
     },
     Embed: {
-      title: "项目 项目",
+      title: "嵌入表格",
       description:
-        "项目 项目 项目 项目 到 项目 项目 项目 项目.",
+        "填写嵌入表格以提供所需信息。",
     },
     Link: {
       title: "项目 链接",
       description:
-        "项目 项目 项目 链接 到 项目 项目 项目 项目.",
+        "点击外部链接提供必要的信息。",
     },
   },
 
@@ -7296,9 +7296,9 @@ export default {
   marketplace_wallets: {
     title: "供应商钱包",
     subtitle:
-      "无服务 项目 到 手动添加 项目 钱包! 项目 钱包 项目 项目 项目. 项目 项目 启用 项目 支付 项目 项目 项目 项目 付款 (喜欢 Stripe 项目), 项目 项目 项目 项目 项目 付款 到 项目 已连接 项目 账户. 项目 项目 项目 项目 项目 项目, 项目 项目 到 手动添加 支付 项目, 项目 项目 项目 项目 项目 项目 项目 到 项目 项目 项目 钱包 列表视图.",
+      "无需手动添加钱包！供应商钱包是自动创建的。如果您启用支持拆分付款的付款方式（例如 Stripe Connect），系统将自动将付款分配到连接的供应商的帐户。如果未启用此功能，您需要手动向供应商付款，您可以在钱包列表中查看欠他们的金额。",
     filter_vendor: {
-      placeholder: "筛选 项目 项目...",
+      placeholder: "按供应商过滤...",
     },
   },
 
@@ -7307,11 +7307,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "项目 项目 项目 项目 项目 列表视图 项目 全部 交易 项目 项目 项目 钱包. 项目 抵扣金额 交易 项目 项目 项目 项目 项目 项目 项目 项目 项目 订单. 项目 项目 订单 项目 项目 项目 项目 项目, 项目 项目 项目 交易 项目 项目 项目 项目 项目.",
+      "此部分提供所选钱包的所有交易的详细列表。当客户成功支付订单时，就会记录一笔费用交易。如果订单被取消或部分退款，相应的退款交易也会记录在这里。",
     vendor_bank: "项目 银行",
     order_fee: "订单 费用",
     order_refund: "订单 项目",
-    reverse_fund: "项目 项目",
+    reverse_fund: "资金逆转",
     payout: "项目",
   },
 
@@ -7321,8 +7321,8 @@ export default {
   marketplace_payouts: {
     title: "项目 历史",
     subtitle:
-      "项目 项目 项目 财务 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 全部 交易. 付款 项目 项目 项目 手动添加 项目 银行 项目 项目 其他 项目, 项目 项目 项目 项目 支付 服务商 项目 支持 项目 付款, 喜欢 Stripe.",
-    top_up_vendor_action: "项目 项目 项目 账户",
+      "此功能通过保留所有交易的详细记录来简化您和您的供应商的会计工作。付款可以通过银行转账或其他方式手动处理，也可以由支持分期付款的支付提供商（例如 Stripe）自动管理。",
+    top_up_vendor_action: "充值供应商帐户",
   },
 
   /**
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "定价计划",
     subtitle:
-      "项目 项目 定价 项目 项目 项目 商城模式, 喜欢 项目 5% 项目 费用 项目 项目 产品. 项目 项目 定价 项目 项目 项目 更多的 项目.",
+      "为您的市场设置定价模型，例如数字产品 5% 的保证金费用。这使得定价管理更快、更高效。",
     add_pricing_action: "项目 定价 计划",
   },
 
@@ -7341,10 +7341,10 @@ export default {
   vendor_pricing_add: {
     title: "商城模式 定价 项目",
     subtitle:
-      "项目 项目 项目 项目 定价 项目 到 项目 产品, 项目 价格 项目 项目 项目 项目 项目 项目 价格 * (1 + 佣金%).",
+      "当您为供应商产品分配定价模型时，价格将自动计算为供应商价格 * (1 + 佣金%)。",
     delete: {
       subtitle:
-        "项目 项目 定价 项目 项目 项目 全部 项目 产品 项目 到 项目. 项目 项目 项目 定价 项目, 项目 项目 到 更新 全部 项目 产品 项目 项目 项目 项目 项目 项目 项目 定价 项目.",
+        "删除定价模型将影响与其关联的所有供应商产品。在删除定价模型之前，请确保更新使用该定价模型的所有供应商产品并为它们分配不同的定价模型。",
       remove_pricing_action: "移除 定价 项目",
     },
     inputs: {
@@ -7352,11 +7352,11 @@ export default {
         placeholder: "项目.项目., 项目 产品 项目...",
       },
       description: {
-        placeholder: "项目 项目 项目 项目 备注 项目...",
+        placeholder: "您可以在此处添加注释...",
       },
       accept_delete: {
-        true_description: "项目 项目 到 删除 项目 定价 项目.",
-        true_title: "项目 定价 项目 项目",
+        true_description: "我想删除这个定价模型。",
+        true_title: "确认定价模型删除",
       },
     },
   },
@@ -7368,60 +7368,60 @@ export default {
     vendor: {
       title: "项目",
       subtitle:
-        "项目 项目 项目 项目 项目 到 转账 项目 到. 项目 项目, 有库存的 支付 选项 项目 项目 项目. 项目 项目 项目 项目 支付 支付网关, 项目 选项 项目 项目 项目 项目.",
+        "选择您想要转账的供应商。选择后，将显示可用的付款选项。如果您启用了支持付款的支付网关，这些选项也会出现在此处。",
     },
     vendor_wallet: "项目 钱包",
     vendor_bank_account: "项目 银行 账户",
     with_balance_tooltip:
-      "项目 项目 项目 项目 配送服务 喜欢 Stripe 项目, 项目 项目 项目 项目 项目 有库存的 余额 项目 项目 Stripe 账户 项目 项目.",
+      "当您连接 Stripe Connect 等付款服务时，我们会检索并显示您 Stripe 账户中的可用余额以供参考。",
     with_balance: "项目 余额",
-    without_balance: "项目 余额 - 项目 项目",
+    without_balance: "无平衡 - 快速模式",
     bank_transfer: {
       title: "银行 转账",
       subtitle:
-        "项目 项目 项目 项目 项目 支付 历史. 无服务 项目 项目 项目 项目 项目 到 项目 项目 项目 项目 项目; 项目 项目 手动添加 支付 项目 项目.",
+        "这是付款历史记录。系统不会将实际资金转移给供应商；您必须手动向供应商付款。",
     },
     vendor_bank: "项目 银行",
     gateway_in_debug_mode_warning:
-      "项目 项目 支付 网关 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 到 项目 项目 账户.",
+      "由于支付网关目前处于调试模式，资金不会转入真实账户。",
     payment: {
       title: "支付",
       subtitle:
-        "项目 项目 货币 项目 项目 项目 金额 项目 项目 到 转账 到 项目 项目. 项目 项目 项目 项目 项目 金额, 项目 项目 项目 项目 项目 从 项目 项目 钱包. 项目 已连接 账户 项目 项目 选项, 项目 项目 项目 项目 项目 从 项目 已连接 账户, 项目 项目 项目 项目 Stripe 账户.",
+        "选择货币并输入您要转账给供应商的金额。如果您输入负数，资金将从供应商的钱包中提取。对于具有付款选项的关联账户，资金将从关联账户中扣除，例如供应商的 Stripe 账户。",
     },
     history: {
       title: "历史",
       subtitle:
-        "项目 项目 项目 支付 项目 项目 项目 项目 项目 项目 转账, 项目 项目 余额 项目 项目 项目 从 项目 项目 账户 项目 退货 到 项目 账户.",
+        "部分付款已通过冲销转账退还，这意味着余额已从供应商的帐户中扣除并返回到您的帐户。",
     },
     refund: {
       title: "项目",
       subtitle:
-        "项目 项目 金额 项目 项目 项目 从 项目 项目 余额. 全部 付款 (项目 项目 项目) 项目 项目 项目 账户 (喜欢 Stripe 项目) 项目 项目 项目 项目 项目 项目 转账.",
+        "退款金额将从供应商的余额中扣除。供应商帐户（如 Stripe Connect）中的所有付款（或剩余金额）将通过冲销转账退还。",
     },
     inputs: {
       vendor: {
-        placeholder: "项目 项目 项目...",
+        placeholder: "选择供应商...",
       },
       note: {
         placeholder:
-          "项目 项目 项目 项目 备注 项目... 项目 备注 项目 项目 项目 到 项目 项目.",
+          "您可以在此处添加注释...此注释对供应商不可见。",
       },
       accept_refund: {
-        true_description: "项目 项目 到 取消 项目 支付.",
+        true_description: "我想取消这笔付款。",
         true_title: "取消 & 项目 支付",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "项目 项目",
+        title: "基金逆转",
         message:
-          "项目 项目 项目 项目 项目 项目 已完成 项目, 项目 项目 项目 从 项目 银行 到 项目 钱包 项目 项目 到 项目 钱包 余额.",
+          "卖家的资金转回已成功完成，资金从银行转入钱包并添加到钱包余额中。",
       },
       payout_success: {
         title: "项目",
         message:
-          "项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "供应商的付款已成功处理并添加。",
       },
     },
   },
@@ -7431,11 +7431,11 @@ export default {
    */
   quota_importer: {
     quota: "项目",
-    max_batch_msg: "项目 项目 项目 个 项目 项目 导入 项目 项目 项目 项目.",
-    max_daily_limit_msg: "项目 项目 项目 个 项目 项目 导入 项目 项目 项目.",
-    extra_daily_limit_msg: "项目 个 项目 项目 项目 项目 限制.",
+    max_batch_msg: "单批次可以导入的最大项目数。",
+    max_daily_limit_msg: "一天可以导入的最大物品数量。",
+    extra_daily_limit_msg: "允许超出每日限额的额外物品。",
     add_items_today_msg: "个 项目 今天.",
-    file_statistic_msg: "统计数据 项目 项目 项目.",
+    file_statistic_msg: "该文件的统计信息。",
     used_quota: "已使用 项目",
   },
 
@@ -7473,13 +7473,13 @@ export default {
   shop_theme: {
     theme_colors: "主题颜色",
     theme_colors_description:
-      "项目 项目 项目 项目 主域名 颜色 项目 项目 项目 店铺 项目. 项目 模板 项目 项目 项目 项目 到 项目 项目 项目 项目 颜色 项目 项目 项目 项目 项目 品牌.",
+      "您可以在此处个性化商店的主要调色板。每个模板都可以利用这些颜色自动生成与您的品牌相符的完整颜色范围。",
     products_view_mode: "商品列表视图",
     products_view_mode_desc:
       "您可以根据屏幕尺寸调整店铺中商品的显示模式。此模式为默认模式，用户手动更改显示模式时则不会应用。",
 
     tabs: {
-      vendor_page: "项目 项目",
+      vendor_page: "供应商页面",
     },
 
     color_light: "主色",
@@ -7501,15 +7501,15 @@ export default {
 
     wrap_product_title: {
       title: "项目 标题",
-      subtitle: "项目 高度 项目 项目 标题 项目 项目 项目.",
+      subtitle: "标题的高度会动态调整。",
     },
 
     animation: {
       title: "项目",
       static: {
-        false_title: "项目 项目",
+        false_title: "带动画",
         false_description:
-          "子类别 项目 产品 项目 项目 项目 项目 到 项目 项目 项目.",
+          "类别和产品有交互式动画来显示功能。",
         true_title: "静态页面",
         true_description: "子类别 项目 产品 项目 无服务 项目.",
       },
@@ -7519,18 +7519,18 @@ export default {
       title: "项目 操作",
       hover: {
         false_description:
-          "简单的 项目 最小 项目 项目 项目 项目 操作 项目 产品 卡片列表.",
+          "简单和最小的模式，无需在产品卡上进行任何额外操作。",
         true_description:
-          "项目 项目 买 & 项目 到 项目 项目 项目 产品 卡片 项目.",
-        true_title: "项目 操作 项目 项目",
+          "在悬停的产品卡上显示“快速购买”和“添加以比较”按钮。",
+        true_title: "悬停时显示操作",
       },
     },
     filter_products: {
       title: "筛选 产品",
       only_available: {
-        false_description: "项目 全部 产品 项目 项目 店铺 列表视图 项目 默认.",
+        false_description: "默认显示商店列表中的所有产品。",
         true_description:
-          "项目 项目 有库存的 产品 项目 项目 店铺 列表视图 项目 默认.",
+          "默认情况下仅显示商店列表中的可用产品。",
         true_title: "有库存的 产品",
         false_title: "全部 产品",
       },
@@ -7538,37 +7538,37 @@ export default {
     filter_categories: {
       title: "筛选 子类别",
       hide_empty_folders: {
-        false_description: "项目 全部 子类别 项目 项目 店铺 列表视图.",
+        false_description: "显示商店列表中的所有类别。",
         false_title: "项目 全部 子类别",
-        true_title: "项目 项目 子类别",
+        true_title: "隐藏空类别",
         true_description:
-          "项目 项目 子类别 项目 产品 项目 项目 店铺 列表视图.",
+          "仅显示商店列表中包含产品的类别。",
       },
     },
 
     product_page: {
       title: "产品 项目",
       subtitle:
-        "项目 项目 产品 项目 项目. 项目 项目 项目 项目 项目 项目 价格 项目 项目 项目 项目 项目 项目 到 项目 项目 偏好设置.",
+        "在此个性化您的产品页面。您可以调整价格的显示并修改部分的排列以满足您的喜好。",
       buy_button_color: "买 项目 颜色",
       smart_price: {
         title: "项目 单位 价格",
         true_description:
-          "项目 单位 价格 项目 项目 重量, 体积, 项目 项目 变体 项目. 项目. 项目 项目 项目 项目 项目 项目 2项目 项目 项目 $5 项目 价格, 项目 项目 项目 项目 项目 $2.5/项目 项目 项目 产品 项目.",
+          "通过考虑重量、体积和包装变体属性来计算单价。前任。如果您有 2L 尺寸且价格为 $5 的变体，则客户会在产品页面上看到 $2.5/L。",
       },
       reverse_currency: {
         title: "货币 项目 位置",
         false_title: "正常模式",
-        true_title: "项目 项目",
+        true_title: "反转模式",
         false_description:
-          "项目 货币 项目 项目 项目 项目 项目 项目 开始时间 项目 项目 项目. 项目: $95, €30",
+          "货币符号将放置在数字的开头。例如： $95 ， €30",
         true_description:
-          "项目 货币 项目 项目 项目 项目 项目 项目 结束时间 项目 项目 项目. 项目: 95$, 30€",
+          "货币符号将放置在数字末尾。例如： 95$ , 30€",
       },
       variants_selector: {
         title: "变体 项目",
         subtitle:
-          "项目 项目 项目 项目 项目 到 项目 变体 项目 项目 产品 项目.",
+          "您可以选择不同的方式在产品页面上显示变体。",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "项目 & 登录",
       subtitle:
-        "项目 项目 项目 项目 项目 登录 项目 项目 项目 自定义 视频, 图片, 项目 信息.",
+        "使用自定义视频、图像或消息个性化供应商入职和登录体验。",
     },
     inputs: {
       page_vendor_login: {
         label: "项目 登录 项目",
         message:
-          "项目 项目 自定义 落地页 项目 项目 项目 登录. 项目 视频, 图片, 项目 项目 项目 项目 项目 设计. 项目 项目 项目 项目 到 项目 项目 项目 项目 项目 项目.",
+          "选择供应商登录的自定义登录页面。包含视频、图像或文本以实现独特的设计。此页面向未登录的供应商显示。",
       },
       page_vendor_registered: {
         label: "项目 已注册 项目",
         message:
-          "项目 项目 自定义 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 商城模式 项目 项目 项目 项目 用户.",
+          "为已登录的供应商选择自定义页面。如果您的市场支持每个用户多个供应商，则会显示此页面。",
       },
     },
   },
@@ -7606,23 +7606,23 @@ export default {
     custom_variants: {
       title: "自定义 变体",
       subtitle:
-        "项目 产品 项目 项目 变体. 项目 项目 编辑 项目 默认 姓名 项目 变体. 项目 项目 项目 到 项目 项目 个 项目 默认 项目 项目 项目 项目 Selldone 项目 项目 项目 项目 项目 项目 顾客 项目 项目 项目. 项目 项目 长度 项目 24.",
+        "物理产品可以有变体。您可以更改变体的默认名称。我们的建议是将这些项目保留为默认值并保留为空，以便 selldone 会自动为您的客户将其翻译成他们的语言。最大长度为 24。",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
       title: "项目 网站 项目",
-      subtitle: "项目 项目 项目 项目 从 Google 项目.",
+      subtitle: "从 Google Fonts 中选择您最喜欢的字体。",
     },
     inputs: {
       font_family: {
-        label: "项目 项目",
-        message: "项目 项目 项目 值.",
+        label: "字体家族",
+        message: "输入字体系列值。",
       },
       font_res: {
-        label: "项目 项目",
-        message: "项目 项目 项目 项目.",
+        label: "字体资源",
+        message: "指定字体资源。",
       },
     },
   },
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "标题 项目",
       subtitle:
-        "项目 默认, 项目 项目 项目 项目 项目 项目 项目 标题, 项目 项目 项目 项目 项目 自定义 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 到 手动添加 项目 项目 高度 项目 宽度 项目 项目 项目.",
+        "默认情况下，您商店的徽标显示在标题中，但您可以上传自定义徽标。如果您的徽标没有方形纵横比，您可能需要手动调整高度和宽度以获得最佳呈现效果。",
     },
     header_title: {
       title: "标题 标题",
       subtitle:
-        "项目 项目 项目 项目 标题 项目 项目 项目 标题 项目 项目 页面 项目. 项目 项目 项目 到 项目 移除 项目, 项目 项目 项目 '项目 项目 项目 项目.",
+        "您可以在此处个性化显示在页面标题中的标题。如果您想完全删除它，请单击“设置空标题”按钮。",
     },
 
     inputs: {
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "标题 标题",
-        set_empty: "项目 项目 标题",
+        set_empty: "设置空标题",
       },
     },
   },
@@ -7660,42 +7660,42 @@ export default {
   /** @see ShopThemeVariantsMode**/
   shop_theme_variants_mode: {
     smart: {
-      title: "项目 项目",
+      title: "智能模式",
       description:
-        "项目 变体 项目 项目 项目 选项, 项目 项目 项目 项目.",
+        "可选择单独选项的紧凑型变体，适用于大多数情况。",
     },
     select: {
-      title: "项目 项目",
+      title: "选择模式",
       description:
-        "项目 全部 变体 项目 项目 项目, 项目 项目 项目 项目 项目 项目 变体.",
+        "在下拉列表中显示所有变体，非常适合大量变体。",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "编辑 项目 项目",
-    add_title: "项目 项目 项目",
+    edit_title: "编辑属性集",
+    add_title: "添加属性集",
     config: {
       subtitle:
-        "项目 标题 项目 等级描述 项目 项目 项目 项目. 项目 项目 项目 项目 到 员工 项目.",
+        "设置属性集的标题和描述。仅工作人员可见。",
     },
     variants: {
       title: "变体",
       subtitle:
-        "项目 项目 项目 项目 项目 姓名, 图标, 项目 订单 项目. 项目 项目 项目 项目 项目 项目 产品 项目 项目 变体 项目 项目’项目 项目 默认 6 变体, 项目 项目 项目 自定义 变体 项目 项目 产品 项目.",
+        "您可以在此处自定义变体名称、图标和顺序。如果您有多种产品，其独特的变体不适合默认的 6 个变体，您可以在此处为每个产品设置自定义变体。",
     },
 
     inputs: {
       title: {
-        placeholder: "项目 项目 标题 项目 项目 项目...",
+        placeholder: "输入属性集的标题...",
       },
       description: {
-        placeholder: "项目 项目 项目 等级描述... (项目)",
+        placeholder: "输入简短描述...（可选）",
       },
       custom_variants: {
         true_title: "自定义 变体",
         false_title: "默认 变体",
-        true_description: "项目 项目 产品 变体.",
+        true_description: "定制您的产品变体。",
         false_description: "项目 默认 项目 变体.",
       },
     },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "项目 项目 项目... (项目)",
+        placeholder: "设置值设置...（可选）",
         messages:
-          "项目 项目 项目 项目 项目 项目 项目 项目 项目 订单.",
+          "您可以提供值建议并自定义顺序。",
       },
     },
   },
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "客户管理",
     subtitle:
-      "顾客 项目 项目 项目 到 项目 店铺 项目 项目 项目; 手动添加, 项目 项目 导入, 项目 项目 POS, 项目 项目 项目 项目 店铺. 项目 项目 用户 日志 项目 项目 店铺, 项目 项目 项目 项目 已注册 项目 项目 项目.",
+      "可以通过多种方式将客户添加到您的商店；手动、批量 Excel 导入、通过 POS 或通过您的在线商店。每当用户登录您的商店时，他们都会自动注册为客户。",
     add_customer_action: "添加新客户",
 
     all_customers: "下载所有客户",
@@ -7939,8 +7939,8 @@ export default {
     courier_action: "发货确认",
     courier_action_subtitle: "我的快递公司会收取包裹。",
 
-    pickup_ready_action: "项目 项目",
-    pickup_ready_action_subtitle: "项目 订单 项目 项目 项目 项目 项目.",
+    pickup_ready_action: "准备取货",
+    pickup_ready_action_subtitle: "订单已准备好供客户提货。",
 
     service_action: "执行确认",
 
@@ -8031,7 +8031,7 @@ export default {
             "与特定银行账户相关的唯一号码。",
         },
         routing_number: {
-          label: "项目 项目 (USA) 项目 项目 代码 (UK)",
+          label: "路由号码（美国）或排序代码（英国）",
           message:
             "用于识别具体银行分支的号码（不同国家使用不同术语）。",
         },
@@ -8119,14 +8119,14 @@ export default {
     new_users: "新用户",
     performance: "表现",
     credit_mode: "信用模式",
-    get_stickers: "项目 项目 HTML 代码 到 项目 & 项目",
-    click_copy_sticker_code: "项目 项目 项目 项目 到 项目 HTML 代码.",
+    get_stickers: "获取贴纸 Html 代码以复制和粘贴",
+    click_copy_sticker_code: "单击徽章复制 html 代码。",
   },
   /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
     title: "提现记录",
     subtitle:
-      "项目 项目 列表视图 项目 提现 交易. 项目 项目 转账 项目 从 项目 钱包 到 项目 银行 账户 项目 项目 Selldone 钱包, 项目 项目 项目 项目 项目.",
+      "这是提款交易列表。当您将资金从推荐钱包转入您的银行账户或 Selldone 钱包时，将会在此处列出。",
 
     officer: "负责人",
     amount: "交易金额",
@@ -8571,7 +8571,7 @@ export default {
         auto_fill: {
           title: "自动填充参数",
           subtitle:
-            "项目 项目 项目 项目 项目 项目 参数 项目 项目 项目 项目 Selldone 项目 项目 项目 项目 项目 项目 值.",
+            "您可以在文本中使用这些参数，Selldone 会将它们替换为相应的值。",
         },
 
         sample: {
@@ -8581,13 +8581,13 @@ export default {
       template: {
         title: "结构化模板",
         subtitle:
-          "项目 项目 项目 项目 模板 项目 项目 值 项目. 项目 模板 代码 项目 项目 项目 项目 项目 项目 项目 项目 SMS 服务 服务商, 项目 项目 <code>项目</code> 项目 项目 项目 服务商 项目 到 已发送 项目 代码 项目. 项目 项目 <code>值</code> 项目 项目 模板 项目 项目, 项目 <code>{code}</code> 项目 项目 项目 项目 项目 模板 代码.",
+          "您可以在此处设置模板键和值。模板代码应该与您在短信服务提供商中设置的内容完全相同，并且 <code>key</code> 是您的提供商希望通过其发送代码的内容。如果模板的 <code>value</code> 字段为空，则 <code>{code}</code> 将被视为模板代码。",
         add_new_parameter: "添加新参数",
 
         auto_fill: {
           title: "自动填充参数",
           subtitle:
-            "项目 项目 项目 项目 项目 项目 参数 项目 项目 值, 项目 Selldone 项目 项目 项目 项目 项目 项目 值. 项目 项目 到 项目 项目 默认 项目 项目 模板 项目 项目 SMS 服务商 项目 项目. 项目 项目 项目, 项目 项目 项目 无服务 项目 到 项目 项目 项目 项目.",
+            "您可以将每个参数设置为一个值，Selldone 会将它们替换为相应的值。为了简单起见，最好将默认值定义为 SMS 提供商中的模板。在这种情况下，无需在此处定义参数值。",
         },
         request: {
           title: "示例请求数据",
@@ -8625,7 +8625,7 @@ export default {
 
     enable_input: {
       false_description:
-        "OTP 项目 项目 项目 项目 项目 Selldone 项目 项目 项目, 项目 其他 订单 通知 SMS 项目 项目 已发送 项目 项目.",
+        "OTP 消息将通过 Selldone 在选定的国家/地区发送，同时也会发送其他订单通知短信。",
       true_description:
         "短信将通过您的服务提供商传送。",
     },
@@ -8684,7 +8684,7 @@ export default {
       "连接您的邮件服务提供商，通过您的自定义域名发送邮件。",
     provider: "服务提供商",
     enable_input: {
-      false_description: "项目 邮件邮箱 项目 项目 已发送 项目 项目 项目 域名.",
+      false_description: "您的电子邮件将通过您的 myselldone 域发送。",
       true_description: "您的电子邮件将通过您的自定义邮件域名发送。",
     },
     config: {
@@ -8730,14 +8730,14 @@ export default {
     add_product: "添加新产品",
     create_product: "创建产品",
     link_box_msg:
-      "项目 项目 链接 项目 项目 项目 项目 Instagram, 项目, 项目 其他 项目 项目 项目 项目 项目 项目 项目 项目 产品 项目 项目 买 项目.",
+      "将此链接放入您在 Instagram、Telegram 或其他社交媒体上的简介中，以便您的受众可以更快地找到产品并更轻松地购买。",
     remove_account: "编辑 / 移除 Instagram 链接",
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
     title: "Instagram 销售额 渠道",
     subtitle:
-      "创建 项目 专用 类别 项目 项目 产品, 项目 项目 图片 项目 项目, 项目 项目 项目 项目 项目 项目 项目. 项目 项目 到 Instagram 项目 项目, 项目 项目 项目 项目, 项目 项目 到 项目 项目 项目 产品.",
+      "为您的产品创建一个包含图像和视频的专用类别，并在您的社交媒体上分享。它类似于 Instagram 和 TikTok，但具有完全控制权，允许您直接销售您的产品。",
   },
 
   /** @see ServiceBillingItem **/
@@ -8823,7 +8823,7 @@ export default {
     create_by_seller_message:
       "要为特定金额生成发票并发送给收款人，只需点击下方按钮，系统将显示发票表单。将生成的链接分享给买家，他们即可完成支付并跟踪订单状态。",
 
-    create_by_buyer_title: "项目 项目",
+    create_by_buyer_title: "鳄梨形式",
     create_by_buyer_message:
       "启用此功能后，将显示一个链接。将此链接分享给客户，即可方便他们下单。",
 
@@ -8833,7 +8833,7 @@ export default {
     active_message:
       "启用此来源后，客户可通过您下方看到的请求表单来下单。",
     avocado_form_link_message:
-      "项目 项目 链接 项目 项目 项目 项目 Instagram, 项目 项目 其他 项目 项目 项目 项目 项目 项目 项目 买 项目, 项目, 项目 项目 更多的.",
+      "将此链接添加到您在 Instagram、Telegram 或其他社交媒体上的简介中，以便您的受众可以更快、更轻松地购买，并最终购买更多产品。",
     need_address: "获取地址",
     need_address_msg:
       "如果您需要获取买家的地址信息，请勾选此选项。",
@@ -8864,15 +8864,15 @@ export default {
     edit_avocado_action: "编辑信息",
     submit_pricing_avocado_action: "提交订单定价",
     add_avocado_action: "创建发票链接",
-    avocados_list: "列表视图 项目 项目",
+    avocados_list: "鳄梨清单",
     not_pricing: "该商品未定价！",
 
     show_all: "显示全部",
     show_accepted: "显示已确认的项目",
 
     notifications: {
-      update_success: "项目 项目 项目.",
-      add_success: "项目 项目 项目.",
+      update_success: "鳄梨更新成功。",
+      add_success: "鳄梨创建成功。",
     },
   },
 
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "税费应加到最终价格中。",
     invoice: {
       subtitle:
-        "项目 项目 项目 项目, 项目 项目 创建 项目 支付 链接 项目 项目 项目 金额. 项目 项目 项目 项目 项目 发票 项目 项目 支付 项目 项目 项目 项目.",
+        "通过使用此表单，您可以创建特定金额的付款链接。它还使跟踪发票和确认付款完成变得简单明了。",
     },
   },
 
@@ -8916,15 +8916,15 @@ export default {
       "打印以下标签并将其放在产品前面",
     hyper_form_link_product_message:
       "您的客户可以通过此链接快速购买 {product}。他们还可以通过扫描二维码访问该链接。",
-    title: "项目 项目 销售",
+    title: "超级快速销售",
     message:
-      "项目 项目 项目 项目 项目 Selldone 销售额 渠道, 项目 顾客 项目 项目 项目 到 买 产品 项目 项目 项目 QR 代码 项目 项目 操作 项目 从 项目 项目. 项目 项目 项目 到 项目 项目 项目 个 项目 项目, 项目, 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目, 项目 项目 创建 项目 项目 QR 代码 项目 项目 产品 项目 项目 产品 项目 项目.",
+      "借助 Hyper Selldone 销售渠道，您的客户将能够通过扫描二维码购买产品，而无需您采取任何操作。使用这种方式可以在节日、展览或繁忙的仪式上快速大量销售一些物品。在此版块激活Hyper后，您可以在商品管理部分为实体产品创建Hyper二维码。",
     orders_list: "项目 订单 列表视图",
     active_mode: "项目 销售额 渠道 已经激活",
     inactive_mode: "未激活",
     active_message:
       "启用此选项后，在每个产品的管理部分会显示创建快速销售代码的选项。",
-    hyper_form_link_message: "项目 项目 项目 项目 链接",
+    hyper_form_link_message: "您商店的超级页面链接",
     configuration: "项目 编辑",
   },
 
@@ -9075,7 +9075,7 @@ export default {
     },
     avocado: {
       title: "项目",
-      desc: "已发送 项目 报告 项目 项目 订单.",
+      desc: "发送鳄梨订单每日报告。",
     },
     accounting: {
       title: "会计",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "项目 订单 报告",
-      desc: "接收 项目 项目 电子邮件 项目 项目 许可证详情 项目 订单 项目 项目 项目.",
+      desc: "每天收到一封电子邮件，其中包含当天的订单详细信息。",
     },
   },
 
@@ -9114,13 +9114,13 @@ export default {
   /** {@see SInviteFriends} **/
   invite_friends: {
     title: "向世界介绍您的业务并赚取收入！",
-    msg: "项目 项目 项目 到 Selldone 项目 项目 项目 项目 $99 商户 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 交易, 项目 项目 项目 项目 佣金 从 全部 项目 交易. 访问量 项目 联盟 项目 到 开始时间 项目 今天!",
+    msg: "将您的朋友推荐给 Selldone，并在他们注册时给他们一张 $99 公司优惠券。一旦他们进行了第一笔交易，您将从他们的所有交易中赚取终身佣金。访问我们的联盟页面，立即开始赚钱！",
     invite: {
-      title: "项目 Selldone 企业 OS 到 项目 项目 项目 $99 项目.",
+      title: "加入 Selldone 商业操作系统即可获得免费的 $99 优惠券。",
       description:
-        "项目 项目 项目 到 Selldone 到 开始时间 项目 企业 项目 项目 项目 项目 项目.",
+        "我邀请您来到 Seldone，使用一款出色的工具在线开展您的业务。",
       hashtags: "电子商务，网站建设者",
-      quot: "项目 项目 项目 项目 店铺 项目 Selldone, 项目 项目 项目 项目 项目 企业 项目.",
+      quot: "我通过Selldone建立了一个网上商店，你现在也可以做你的生意了。",
     },
   },
 
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "元宇宙桥接",
     subtitle:
-      "Selldone 项目 %100 API-项目 配送服务 项目 项目 项目 项目. 项目, 项目, 项目 项目 开发者 项目 项目 项目 项目 项目 到 项目 项目, 顾客, 项目 配送服务 项目 项目 项目 项目 项目, 项目 项目 项目 项目.",
+      "Selldone 在商务领域提供 %100 基于 API 的服务。游戏、区块链和元界开发人员可以使用这些强大的 API 在未来的工作、生活和贸易世界中连接企业、客户和服务。",
     message: "面向游戏开发者的抢先体验",
   },
 
@@ -9256,7 +9256,7 @@ export default {
     title: "加盟POS",
     open_pos_action: "快速订购POS",
     description:
-      "项目 项目 项目 项目 项目 项目 项目 Instagram 页面 项目 其他 项目 项目. 项目 联盟 POS 到 接收 项目 项目 订单 从 顾客 手动添加. 项目 项目 (项目 项目) 项目 项目 新建 订单 项目 项目 联盟 POS 项目 项目 项目 充值 项目.",
+      "此选项适合 Instagram 页面和其他社交网络的管理员。使用 Affiliate POS 手动接收和添加客户的订单。您的关联公司（或特许经营商）可以在关联公司 POS 中添加新订单并上传存款单。",
   },
 
   /** {@see BPageShopSettingFlow} **/
@@ -9266,7 +9266,7 @@ export default {
       title: "登录方式",
       subtitle: "自定义用户登录您店铺的方式。",
 
-      tips: "<b>项目.</b> 项目 项目 用户 项目 项目 项目 店铺, 项目 项目 Selldone 用户 项目 项目, 项目 项目 项目 项目 项目. 项目 用户 项目 项目 访问权限 到 项目 地址 项目 项目 全部 商店 项目 项目 预览 项目 订单 历史, 项目 项目 项目 店铺 项目 项目. 项目 项目 项目 项目 项目 项目 项目 营销 项目 项目 项目 项目 到 项目 项目 项目 项目 项目. 到 项目 项目, 项目 已发送 项目 电子邮件 到 项目 用户 项目 项目 项目 项目 项目.",
+      tips: "<b>重要.</b> 当用户在您的商店注册时，系统会创建相应的 Selldone 用户（如果尚不存在）。该用户将可以访问所有商店的地址簿，并可以查看他们的订单历史记录，即使商店已经关门。我们不会将此信息用于营销目的，但需要它来防止双方欺诈。为了保持透明度，我们将向用户发送一封电子邮件，通知他们注册情况。",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9277,7 +9277,7 @@ export default {
       map: {
         title: "地图",
         subtitle:
-          "用户数 项目 项目 项目 配送 位置 项目 项目 地图 (喜欢 项目).",
+          "用户必须在地图上选择送货地点（例如 Uber）。",
         subtitle_no_map:
           "如果客户提供的地址中没有具体位置，运费计算时距离将视为零。",
       },
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "结账 项目",
       subtitle:
-        "项目 项目 结账 项目 项目 到 项目 项目 项目 项目 项目 从 项目 顾客.",
+        "自定义结帐表单字段以从客户那里收集所需的信息。",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9347,7 +9347,7 @@ export default {
   business_type: {
     title: "商品类型",
     subtitle:
-      "项目 项目 类型 项目 产品 项目 项目 到 项目 项目 项目 店铺. 产品 类 项目 Selldone 项目 更多的 项目 项目 项目 类型 项目 项目 产品; 项目 更多的 项目 项目 项目.",
+      "设置您想要在商店中销售的产品类型。 Selldone 中的产品类型不仅仅是产品的一种类型；更多的是关于履行程序。",
 
     send_activation_request_to_support:
       "通过客服工单发送激活请求。",
@@ -9371,7 +9371,7 @@ export default {
 
     wholesaler: {
       title: "代发货供应商",
-      desc: "项目 项目 项目 项目 项目 项目 订单 项目 到 项目 结束时间 项目. 其他 项目 项目 Selldone 项目 项目 项目 项目 产品 项目 项目 店铺 项目 项目 代发货 项目.",
+      desc: "批发商或制造商通常将订单直接运送给最终消费者。 Selldone 上的其他商家也可以通过代发货模式在他们的商店中销售您的产品。",
     },
     marketplace: {
       title: "商城模式",
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "我的供应商",
     message:
-      "项目 项目 项目 列表视图 项目 项目 项目 账户. 全部 项目 账户 项目 项目 商店 项目 项目 Selldone 项目 项目 项目 项目 项目, 项目 项目 到 项目 项目 项目 项目.",
+      "这是您的供应商帐户的列表。所有与使用 Selldone 平台的商店关联的供应商帐户都将显示在此处，以便您轻松管理它们。",
   },
 
   vendor_page: {},
@@ -9485,7 +9485,7 @@ export default {
       name: "项目",
       title: "项目",
       description:
-        "项目 产品 项目 项目 项目 项目 项目 店铺, 项目 项目 项目 项目 链接.",
+        "该产品未在商店中列出，但可通过直接链接访问。",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "发送直接请求",
     message:
-      "项目 项目 项目 3 企业 项目 到 项目 项目 项目 项目 Selldone. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 更新 项目 项目 项目 时间 项目 项目.",
+      "确定您在 Seldone 上蓬勃发展并获利的三大业务需求。这些信息将直接与创始人和董事共享，并将得到仔细考虑。您还可以在提交后随时间更新您的需求。",
     expand_action: "填写请求...",
     input_label: "您的请求",
     to: {
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "产品",
       subtitle:
-        "列表视图 项目 项目 产品 从 {name}. 项目 项目 项目 产品 项目 项目 项目 姓名 项目 SKU. 项目 项目 配送服务 项目 已使用 项目 迁移, 项目 项目 项目 项目 产品 项目 项目 <b>项目</b> 项目 <b>项目</b>, 项目 产品 项目 项目 项目!",
+        "来自 {name} 的添加产品列表。确保您的产品具有唯一的名称和 SKU。某些 Connect 服务用于迁移，因此如果您的产品具有重复的 <b>SKUs</b> 和 <b>Names</b>，这些产品将会更改！",
       action: "获取产品",
       syncing_message: "正在同步中...",
     },
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "标签管理器",
       subtitle:
-        "Google 项目 项目 项目 项目 项目 ROI 项目 项目 项目, 视频, 项目 项目 项目 项目 项目 应用. 项目 网站 标签 项目 项目 Google 标签 项目 项目, 简单的, 项目 项目 项目—无服务 代码 项目 项目.",
+        "Google Analytics（分析）可以在跟踪 Flash、视频和社交媒体网站和应用程序的同时衡量广告投资回报率。使用 Google 跟踪代码管理器的免费、简单且可靠的解决方案轻松管理网站标签，无需编辑代码。",
       tag_id: {
         label: "Google 标签 项目 ID",
       },
@@ -9790,13 +9790,13 @@ export default {
     shopping: {
       title: "Google 项目",
       subtitle:
-        "数据 项目 项目 项目 项目 项目 项目 项目 项目 项目 Google. 项目 项目 链接 到 项目 项目 全部 产品 项目 子类别 到 Google 项目.",
-      tips: "项目 项目 项目 项目 项目 到 项目 项目 项目 项目 Google 广告.",
+        "数据源表明 Google 上目录信息的来源。点击此链接可自动将所有产品和类别添加到 Google 商品中。",
+      tips: "您可以利用此工具轻松自动管理 Google 广告。",
       link_message: "Google 产品 项目 URL",
     },
     console: {
       title: "搜索控制台",
-      subtitle: `项目 项目 Meta 标签 到 项目 项目 项目 Google 项目 项目 项目.`,
+      subtitle: "将元标记添加到您的主页以进行 Google Search Console 验证。",
       code: {
         label: "验证元标记",
         placeholder: "从 Google, 项目.项目. 项目9项目...",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & 项目",
       subtitle:
-        "项目 项目 项目 项目 项目 SEO 项目 数据 从 Google 项目 项目 项目 到 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目.",
+        "我们从Google获取最精准的SEO审核数据，并以便捷的方式呈现给您。只需按照提供的步骤操作即可。",
     },
     serp_content: {
-      title: "项目 到 Google 项目 项目",
+      title: "连接到 Google 搜索控制台",
       subtitle:
-        "项目 项目 店铺 到 项目 项目 项目 项目 开始时间 项目 项目, 项目, 项目 其他 项目 SEO 工具 项目 Selldone.",
+        "将您的商店连接到搜索控制台，然后开始在 Selldone 上探索关键字、排名和其他免费 SEO 工具。",
       tips: {
         title:
-          "项目 到 项目 Selldone 项目 Google 项目 项目, 项目 项目 项目:",
+          "在将 Selldone 与 Google Search Console 关联之前，请确保满足以下条件：",
         add_in_selldone: "添加、验证并将您的自定义域名设置为主要域名。",
-        add_in_google: `项目 项目 项目 <b>{domain}</b> 项目 项目<a href="https://search.google.com/search-console" target="_blank"> <b>Google 项目 项目</b></a>.`,
+        add_in_google: "在您的 <a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a> 中添加并验证 <b>{domain}</b>。",
       },
       action_custom_domain: "自定义域名",
       action_connect_now: "立即连接",
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "项目 变体 项目 项目",
+    title: "批量添加变体",
     variants: {
       title: "项目 选项",
       subtitle:
-        "项目 项目 到 项目 项目 选项. 项目 项目, 项目 项目 项目 项目 项目 变体 到 创建 项目.",
+        "最多选择两个变体选项。选择后，您可以选择要自动创建的特定变体。",
     },
     values: {
-      title: "项目 项目",
-      subtitle: "项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      title: "变体值",
+      subtitle: "在此处输入每个变体选项的可能值。",
       prevent_duplicates_tips:
-        "<b>备注:</b> 项目 项目 项目 项目 项目 变体 到 项目 项目.",
+        "<b>注意：</b> 我们自动检查现有变体以防止重复。",
     },
     inventory: {
       title: "项目 库存",
-      subtitle: "项目 项目 项目 库存 次数 项目 项目 新建 变体.",
+      subtitle: "设置新变体的起始库存计数。",
     },
     add_variants_action: "创建 变体",
   },
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "内嵌框架",
       description:
-        "项目 项目 内嵌框架 代码 到 项目 项目 产品 许可证详情 项目 项目 项目 项目.",
+        "生成 iframe 代码以在嵌入式窗口中显示全面的产品详细信息。",
     },
   },
 
@@ -10341,7 +10341,7 @@ export default {
       tags: {
         label: "产品标签",
         messages: "带有这些标签的产品将会显示。",
-        placeholder: "项目 标签 项目 项目 项目 项目. 项目. 新建 项目",
+        placeholder: "在此处连接标签并按 Enter 键。前任。新系列",
       },
     },
     actions: {
@@ -10362,7 +10362,7 @@ export default {
         '<b>精确产品 ID：</b>使用 P+产品 ID 查找特定产品，例如<b class="text-green">P</b> <i class="text-yellow">360</i> 。',
       quotes:
         '<b>精确短语：</b>使用引号搜索精确短语，例如<b class="text-green">“</b><i class="text-yellow">此处输入您的文本</i><b class="text-green">”</b> 。',
-      tax: '<b>TAX 产品概况: </b>项目 项目 产品 项目 项目 项目 TAX 产品概况 项目 "TAX:", 项目.项目., <b class="text-green">TAX:</b><i class="text-yellow">TAX 产品概况 姓名</i>.',
+      tax: "<b>税务资料：</b>使用“税：”搜索具有特定税务资料的产品，例如 <b class=\"text-green\">tax:</b><i class=\"text-yellow\">税务资料名称</i>。",
       new_products:
         '<b>新产品：</b>查找特定日期范围内添加的产品，例如， <b class="text-green">new~</b> <i class="text-yellow">2023-08-10</i> <b class="text-green">~</b> <i class="text-yellow">2023-08-20</i> 。',
     },
@@ -10374,9 +10374,9 @@ export default {
   augment_form: {
     title: "增强功能",
     subtitle:
-      "输入 项目 项目 项目 项目 项目 项目 项目 项目 项目 值 项目 项目 项目 内容. 项目 项目 项目 最高 32 项目.",
+      "输入要与页面内容中对应的值进行交换的键。键最多应包含 32 个字符。",
     add_caption: "添加新项目",
-    add_sub_caption: "项目 自定义 项目 项目.",
+    add_sub_caption: "添加自定义键值对。",
     add_dialog: {
       title: "选择输入类型",
       html: {
@@ -10566,7 +10566,7 @@ export default {
         title: "内部链接",
         description:
           "通过为该项目提供的增强数据创建动态页面。",
-        tips: "项目 项目 链接 项目 落地页 项目 项目 项目 产品概况 项目 项目 项目 自定义 路径 项目 项目 内容 项目 项目. Selldone 项目 项目 项目 项目 链接 项目 项目 产品.",
+        tips: "您可以将登录页面与配置文件链接起来，并为其设置自定义路径和动态内容。 Selldone 将为该项目生成动态链接。",
       },
     },
     notifications: {
@@ -10600,7 +10600,7 @@ export default {
   referral_wallets: {
     title: "钱包",
     subtitle:
-      "项目 项目 项目 项目 项目 佣金 项目 项目 项目 项目. 项目 项目 转账 项目 佣金 项目 到 项目 银行 账户 项目 项目 Selldone 钱包.",
+      "在这里您可以看到您赚取的佣金。您可以将佣金转入您的银行账户或 Selldone 钱包。",
     no_commission_yet: "您尚未收到任何佣金。",
     no_wallet: "没有钱包！",
 
@@ -10612,17 +10612,17 @@ export default {
       to_wallet: {
         title: "转入钱包",
         subtitle:
-          "项目 项目 项目, 项目 项目 转账 佣金 项目 到 项目 Selldone 钱包. 项目 项目 项目 项目 项目 钱包 项目 已连接 项目 项目 礼物 钱包, 项目 项目 项目 项目 项目 项目 项目 货币.",
+          "通过此选项，您可以将佣金转移到您的 Seldone 钱包。请确保钱包与您的礼品钱包连接，并且使用相同的货币。",
       },
       to_bank: {
         title: "到银行",
         subtitle:
-          "项目 项目 项目, 项目 项目 转账 佣金 项目 到 项目 Selldone 钱包. 项目 项目 项目 项目 项目 钱包 项目 已连接 项目 项目 礼物 钱包, 项目 项目 项目 项目 项目 项目 项目 货币.",
+          "通过此选项，您可以将佣金转移到您的 Seldone 钱包。请确保钱包与您的礼品钱包连接，并且使用相同的货币。",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "项目 项目 到 转账 项目 佣金 到 项目 Selldone 钱包.",
+            "我想将我的佣金转入我的 Seldone 钱包。",
         },
         verify_to_bank: {
           true_description:
@@ -10645,16 +10645,16 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "项目 项目 项目 <b>?项目={code}</b> 到 项目 Selldone URL.",
+      message: "您可以将 <b>?ref={code}</b> 添加到任何 selldone 网址。",
     },
     intro: {
-      title: "项目 项目 Selldone 联盟 项目",
+      title: "加入 Seldone 联盟计划",
       message:
-        "项目 Selldone 联盟 项目 项目 简单的 项目 项目, 项目 项目 项目 到 项目 项目. 项目 项目 项目 联盟 链接 到 项目 新建 用户数 到 Selldone, 项目 项目 项目 项目 佣金 从 项目 交易 项目 项目—项目. 项目 包括 项目 从 订阅, 服务 项目, 店铺 项目, 项目 全部 其他 项目 项目. 开始时间 项目 项目 项目 项目 项目 项目 项目 项目 限制 项目 时间 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目!",
+        "Selldone 联盟计划简单明了，专为您轻松赚钱而设计。分享您独特的联属链接以邀请新用户加入 Selldone，您将从他们进行的每笔交易中永远赚取佣金。这包括来自订阅、服务费、商店升级和所有其他收入来源的收入。开始赚取收入的一部分，不受时间或收入的任何限制。加入我们，将您的网络变成稳定的收入！",
       why_join_selldone_affiliate: "为什么这是一个独特的机会？",
       reasons: [
         "收益永久有效！",
-        "项目 全部 订阅 项目 交易 项目. 项目 项目 支付 项目 项目 用户 项目 Selldone.",
+        "涵盖所有订阅和交易费用。从字面上看，是用户在 Selldone 上的每笔付款。",
         "通过您的链接注册的用户将获得价值99美元的免费代金券。",
         "当您的等级提升后，您将按新费率从所有之前推荐的用户获得收益。",
       ],
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "无服务 项目 项目 项目.",
+    no_asset_uploaded: "尚未上传资产。",
   },
 
   /**
@@ -10677,56 +10677,56 @@ export default {
     clone_tooltip: {
       title: "项目 风格",
       subtitle:
-        "项目 项目 项目 到 项目 项目 项目 项目 项目, 项目, 项目, 项目 项目. 项目 项目 项目 到 项目 项目:",
+        "使用此工具可以复制字体、背景、边距和边框等样式。请按照以下步骤复制样式：",
       step_1:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目, 项目 图片; 项目 项目 项目 编辑 到 项目 项目.",
-      step_2: "项目 项目 项目 项目 项目 风格 项目 项目 到 项目.",
+        "激活该工具并将鼠标悬停在文本、列或图像上；光标将变为移液器。",
+      step_2: "单击要复制其样式的元素。",
       step_3:
-        "项目 项目 项目 编辑 返回 到 项目 项目; 项目 项目 项目 项目 项目 项目 项目 到 项目 项目 项目 风格.",
+        "光标将变回调色板；单击要应用复制样式的元素。",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 菜单, 项目 包括 全部 项目 子类别 项目 项目 项目 项目.",
+        "切换侧面菜单的可见性，其中包括用于构建页面的所有部分类别。",
     },
     sort_tooltip: {
       subtitle:
-        "启用 项目 项目 到 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "启用此功能可以通过拖动轻松地重新排列和组织部分。",
     },
     edit_mode_tooltip: {
       title: "编辑 / 预览 项目",
       edit_mode_title: "编辑 项目",
-      edit_mode_msg: "全部 项目 工具 项目 项目 项目.",
+      edit_mode_msg: "将显示所有编辑工具。",
       view_mode_title: "预览 项目",
       view_mode_msg:
-        "预览 项目 项目 项目 用户数 项目 项目 项目 项目 项目 项目 项目 工具 项目 项目 项目 项目.",
+        "通过隐藏额外的编辑工具和空白文本区域，以用户看到的方式查看您的页面。",
     },
     repository_tooltip: {
-      title: "项目 项目",
+      title: "预制部分",
       subtitle:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 有库存的 项目 项目 项目 菜单, 项目 项目 项目 项目 项目 项目 项目.",
+        "切换预先设计的部分的显示。这些部分是使用左侧菜单中可用的标准部分创建的，展示了该页面构建器的灵活性。",
     },
     live_view: {
       title: "正式环境 预览",
-      subtitle: "项目 项目 项目 项目 项目 项目 编辑 项目 项目.",
+      subtitle: "编辑页面时实时查看更新。",
     },
     hotkeys_dialog: {
-      title: "项目 项目",
+      title: "键盘快捷键",
       augment_tips:
-        "项目 项目 项目 项目 内容 项目 项目 项目 项目 项目 项目 项目 <b>项目</b> 项目. 项目 项目 已使用 项目 自定义 项目 页面 项目 项目 <b>产品</b>, <b>子类别</b>, 项目 <b>项目 个</b>. 到 项目 项目 图片 到 项目 项目, 项目 项目 <b>项目</b> 项目 项目 <b>项目 项目</b> 项目 项目 图片.",
+        "您可以将动态内容加载到页面上，并将其替换为 <b>augment</b> 值。增强用于自定义动态页面，例如<b>产品</b>、<b>类别</b>和<b>包含项目</b>。要将图像设置为动态加载，请点击<b>供稿器</b>，然后为该图像选择<b>动态源</b>。",
     },
     hotkeys: {
-      ctrl_b: "项目 项目 项目/项目 项目 项目 项目 | <b>项目 项目 项目</b>",
-      ctrl_i: "项目 项目 项目/项目 项目 项目 项目 | <i>项目 项目 项目</i>",
+      ctrl_b: "打开/关闭所选文本的粗体 | <b>让我大胆</b>",
+      ctrl_i: "打开/关闭所选文本的斜体 | <i>使我斜体</i>",
       ctrl_l:
-        "项目 项目 项目/项目 项目 项目 项目 | <s>项目 项目 项目</s>",
-      ctrl_u: "项目 项目 项目/项目 项目 项目 项目 | <u>项目 项目</u>",
+        "打开/关闭所选文本的删除线 | <s>击穿我</s>",
+      ctrl_u: "打开/关闭所选文本的下划线 | <u>在我下划线</u>",
       ctrl_1:
-        "项目 项目 项目 项目 项目 项目 | <small>项目 项目 项目</small>",
-      ctrl_2: "项目 项目 项目 项目 项目 项目 | <big>项目 项目 项目</big>",
-      ctrl_r: "移除 全部 项目 从 项目 项目 | 项目 全部 项目",
-      ctrl_s: "保存 项目 项目",
-      tab: "项目 项目 项目 项目",
-      ctrl_e: "项目 项目 项目 项目 风格 项目",
+        "减小所选文本的字体大小 | <small>让我变小</small>",
+      ctrl_2: "增加所选文本的字体大小 | <big>让我变大</big>",
+      ctrl_r: "删除所选文本的所有格式|清理所有款式",
+      ctrl_s: "保存页面",
+      tab: "在缩放模式之间切换",
+      ctrl_e: "激活或停用克隆风格模式",
     },
   },
 
@@ -10735,34 +10735,34 @@ export default {
    */
   l_page_editor_repository: {
     title: "项目 & 项目",
-    subtitle: "项目 项目",
+    subtitle: "预建部分",
     add_dialog: {
       title: "项目 自定义 项目",
       configuration: {
         title: "编辑",
         subtitle:
-          "项目 项目 保存 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 到 全部 项目 项目 项目 店铺.",
+          "您可以保存自定义设计的部分以供将来在页面设计中使用。该商店中的所有管理员都可以访问这些保存的部分。",
       },
       image: {
         title: "图片",
-        subtitle: "公开 图片 项目 项目 项目 列表视图.",
+        subtitle: "列表中显示的公共图像。",
       },
       code: {
         title: "代码",
         subtitle:
-          "项目 项目 项目 项目 项目 项目 项目 代码 从 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "您可以从页面构建器的左侧部分复制并粘贴元素代码。",
       },
       inputs: {
         title: {
           label: "标题",
-          message: "项目 项目 项目 公开 标题.",
+          message: "这是公共标题。",
         },
         tags: {
           label: "标签",
-          message: "已使用 项目 项目 项目 项目 项目.",
+          message: "用于搜索和分类元素。",
         },
         section: {
-          message: "项目 项目 项目 从 项目 项目 项目.",
+          message: "从页面生成器复制该部分。",
         },
       },
     },
@@ -10774,36 +10774,36 @@ export default {
   marketplace_vendors: {
     title: "项目 列表视图",
     subtitle:
-      "项目 项目 项目, 项目 项目 项目 到 产品 项目 项目 产品 仪表盘 > 项目.",
+      "在此处添加供应商，然后将其分配给产品仪表板 > 供应商中的产品。",
     add_new_vendor_action: "项目 新建 项目",
     status_tooltip: {
       title: "项目 状态",
-      ACCEPTED: "项目 项目 项目 访问权限 到 项目 项目.",
-      REJECTED: "项目 项目 项目 项目 项目 已拒绝.",
-      PENDING: "项目 项目 项目 等待中 项目 项目 从 项目 项目.",
+      ACCEPTED: "供应商可以访问他们的面板。",
+      REJECTED: "供应商的请求已被拒绝。",
+      PENDING: "该请求正在等待供应商的决定。",
     },
-    number_of_products: "项目 项目 产品",
+    number_of_products: "产品数量",
     invited: "项目",
     no_pricing: "无服务 定价",
     no_pricing_tooltip: {
       title: "默认 定价 计划",
-      subtitle: "项目 项目 项目 默认 定价 项目 项目 项目 项目.",
+      subtitle: "请为供应商设置默认定价模型。",
     },
     updated_products_tooltip: {
-      title: "产品 项目 项目 项目 项目 24 项目",
+      title: "过去 24 小时内更新的产品",
     },
     added_products_tooltip: {
-      title: "产品 项目 项目 项目 项目 24 项目",
+      title: "过去 24 小时内添加的产品",
     },
     access_tooltip: {
       title: "项目 访问权限",
       subtitle:
-        "项目 项目 项目 访问权限 到 项目 项目. 项目 项目 编辑 项目 项目 项目 > 访问权限 项目.",
+        "供应商可以访问他们的面板。您可以在“供应商”>“访问”选项卡中编辑此内容。",
     },
     reject_by_user_tooltip: {
       title: "已拒绝 项目 用户",
       subtitle:
-        "项目 用户 已拒绝 项目 项目 到 项目 项目 项目 项目 访问权限 项目 项目.",
+        "用户拒绝成为供应商并访问该供应商的请求。",
     },
     download_all_vendors: "项目 全部 项目",
     bulk_import: "项目 导入 (项目)",
@@ -10813,9 +10813,9 @@ export default {
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "许可证 项目 项目!",
+    title: "需要升级许可证！",
     subtitle:
-      "项目 项目 许可证 项目 项目 项目 项目 项目 项目 项目 项目 企业 项目. 项目 项目 项目 许可证 到 项目 项目 计划.",
+      "您当前的许可证不满足您所选业务模式的要求。请将您的许可证升级到企业计划。",
   },
 
   /**
@@ -10824,50 +10824,50 @@ export default {
   b_order_chat_box: {
     title: "项目 操作",
     subtitle:
-      "项目 项目 已发送 项目 状态 更新 电子邮件 到 项目 项目 项目 项目 项目 项目. 项目, 项目 项目 项目 项目 项目 项目 到 项目, 项目 项目 项目 项目 到 项目 项目 项目 时间.",
+      "您只需单击一下即可向买家发送状态更新电子邮件。此外，您可以在此处定义公共消息以供重复使用，因此不必每次都重写它们。",
     send_update_email_action: "已发送 更新 电子邮件",
     add_template_action: "项目 信息 模板",
 
     notifications: {
-      add_chat_success_message: "信息 项目 项目 项目 项目.",
+      add_chat_success_message: "消息已添加成功。",
     },
 
     send_update_email: {
       title: "订单 更新 电子邮件",
       need_set_service_alert: {
         message:
-          "项目 项目 项目 电子邮件 服务 服务商 到 项目 项目 电子邮件 到 项目 已发送.",
+          "请设置您的电子邮件服务提供商以允许发送电子邮件。",
         action: "项目 到 编辑",
       },
       send_action: "已发送 更新 电子邮件",
 
       notifications: {
-        send_success_message: "电子邮件 项目 项目 已发送 项目.",
+        send_success_message: "电子邮件已成功发送。",
       },
     },
     add_template: {
       edit_title: "编辑 信息 模板",
       add_title: "项目 信息 模板",
       message:
-        "项目 项目 项目 项目 标题 项目 信息 项目 项目. 项目 标题 项目 项目 已使用 项目 项目 项目 项目 项目 项目 已发送 到 项目 项目.",
+        "您应该在此处设置标题和消息正文。该标题仅供您参考，不会发送给客户。",
 
       save_action: "保存 模板",
       add_action: "项目 模板",
 
       notifications: {
-        save_success_message: "模板 项目 项目 项目 项目.",
+        save_success_message: "模板已成功保存。",
       },
 
       inputs: {
         title: {
           label: "模板 标题",
-          placeholder: "项目 项目 项目 标题...",
+          placeholder: "写一个短标题...",
         },
         body: {
           label: "模板 信息",
-          placeholder: "项目 项目 信息 项目...",
+          placeholder: "在这里写下您的留言...",
           messages:
-            "项目 项目 项目 项目 项目 项目 {order_id} 项目 {buyer_name}.",
+            "您可以通过 {order_id} 和 {buyer_name} 设置动态值。",
         },
       },
     },
@@ -10878,15 +10878,15 @@ export default {
    */
   b_order_share: {
     title: "订单 链接",
-    subtitle: "项目 项目 项目 项目 订单 链接 项目 项目 项目.",
+    subtitle: "您可以与客户共享订单链接。",
     guest_checkout_message:
-      "项目 项目 项目 项目 预览 项目 订单 项目 项目 项目 项目.项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 到 项目 项目 订单 许可证详情, 项目 项目 创建 项目 项目 链接 项目 项目.",
+      "访客购物者可以在同一浏览器中自动查看他们的订单。但是，如果客户是访客并且您需要共享订单详细信息，则可以为他们创建安全链接。",
     authentication: "项目",
     guest: "项目",
     click_to_create: "项目 到 创建...",
-    valid_for_30_days: "项目 项目 30 营业日",
+    valid_for_30_days: "有效期30天",
     notifications: {
-      secure_link_created: "项目 链接 项目 项目 项目 项目.",
+      secure_link_created: "安全链接已成功创建。",
     },
   },
 
@@ -10897,17 +10897,17 @@ export default {
     title: "条评价 项目",
     add_source_action: "项目 条评价 项目",
     subtitle:
-      "项目 项目 项目 项目 到 项目 项目 项目 条评价 项目 项目 企业 从 项目 喜欢 Facebook, Google, 项目 更多的. 项目 项目 项目 顾客 到 项目 条评价 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 条评价 项目 项目 落地页 页面 项目 产品 页面.",
+      "轻松连接外部平台，从 Facebook、Google 等来源收集和分析有关您业务的评论。我们会自动将客户与其评论进行匹配，以获得更好的客户体验。您还可以在着陆页和产品页面上展示这些评论。",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "项目 新建 项目 项目",
-    title: "项目 项目",
+    add_caption: "添加新的属性集",
+    title: "属性集",
     subtitle:
-      "项目 项目 创建 项目 项目 项目 项目 项目. 项目 项目 项目 已使用 到 项目 项目 项目 项目 产品 项目 配送服务. 项目 项目 项目 项目 项目 项目 到 产品 项目 项目 产品 仪表盘 > 编辑.",
+      "您可以在此处创建和管理属性集。属性集用于定义产品和服务的属性。您可以在产品仪表板 > 编辑中将这些属性集分配给产品。",
   },
 
   /**
@@ -10915,37 +10915,37 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "项目 项目 - 自定义 变体",
+      title: "属性集 - 自定义变体",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目 产品, 项目 项目 默认 项目.",
+        "您可以自定义该产品的变体名称，替换默认名称。",
     },
 
     subtitle:
-      "项目 项目 项目 项目 项目, 项目, 项目 项目 订单 项目. 项目 产品 项目 项目 变体 项目 项目 项目 项目 默认 项目, 项目 项目 项目 自定义 变体 项目 到 项目 产品. 项目 项目 项目 项目 项目 项目 物流 > 项目 项目 项目 项目 项目 项目 到 项目 项目 项目 产品 项目 项目.",
-    select_property_set: "项目 项目 项目",
-    add_property_set: "项目 项目 项目",
+      "您可以在此处自定义变体名称、图标及其顺序。对于具有超出默认六种独特变体的产品，您可以设置针对每个产品量身定制的自定义变体。只需在物流 > 属性集选项卡中定义属性集，然后根据需要将它们分配给任意数量的产品。",
+    select_property_set: "选择属性集",
+    add_property_set: "添加属性集",
   },
 
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
     title: "项目",
-    add_action: "项目 项目",
+    add_action: "添加框",
     subtitle:
-      "创建 项目 项目 项目 到 项目 项目 标签 购买 项目 项目 项目 发货中 项目. 项目 项目 项目 订单, 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
-    empty: "无服务 项目 项目. 项目 “项目 项目”.",
+      "创建可重复使用的盒子尺寸以加快标签购买速度并确保准确的运费。履行订单时，选择已保存的盒子，其尺寸将自动填充。",
+    empty: "还没有盒子。单击“添加框”。",
     edit: "编辑 项目",
     new: "新建 项目",
     default_weight: "默认 重量",
-    updated: "项目 项目.",
-    created: "项目 项目.",
+    updated: "盒子已更新。",
+    created: "盒子已创建。",
     deleted: "项目 已删除.",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "项目 项目 项目",
-    define_package: "项目 项目 项目",
-    define_package_hint: "创建 项目 编辑 项目 项目 项目 项目",
+    select_box: "选择套餐",
+    define_package: "定义一个包",
+    define_package_hint: "创建或编辑您的预定义包裹尺寸",
   },
 
 
@@ -10973,22 +10973,22 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"项目",
-    message:"创建 项目 项目, 项目 项目 项目 项目 类型 项目 项目—项目, 项目, 项目, 配送服务, 项目 更多的."
+    message:"为任何类型的列表（房产、酒店、医生、服务等）创建可搜索、审核的目录。"
   },
 
   shop_listing: {
     name: "项目",
     message:
-      "创建 项目 项目, 项目 项目 项目 项目 类型 项目 项目—项目, 项目, 项目, 配送服务, 项目 更多的.",
+      "为任何类型的列表（房产、酒店、医生、服务等）创建可搜索、审核的目录。",
 
     items: {
       title: "个",
       sub_title:
-        "创建, 编辑, 项目 项目 项目 个. 项目 状态, 定价, 联系方式 信息, 项目 项目.",
+        "创建、编辑和管理列表项。控制状态、定价、联系信息和媒体。",
 
       empty_title: "无服务 个 项目",
       empty_subtitle:
-        "创建 项目 项目 项目 产品 到 开始时间 项目 项目 项目.",
+        "创建您的第一个列表项以开始构建您的目录。",
 
       add_title: "项目 产品",
       edit_title: "编辑 产品",
@@ -10999,15 +10999,15 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "链接 JSON",
-      opening_hours_json: "项目 项目 JSON",
+      opening_hours_json: "开放时间 JSON",
 
       delete_title: "删除 产品",
-      delete_message: "项目 项目 项目 项目 项目 到 删除 项目 产品?",
+      delete_message: "您确定要删除该项目吗？",
       delete_success: "商品已成功删除。",
-      restore_success: "产品 项目 项目.",
+      restore_success: "项目恢复成功。",
 
-      opening_hours:"项目 项目",
-      form_fields:"项目 项目",
+      opening_hours:"开放时间",
+      form_fields:"表单字段",
 
       company: "商户",
       badges: "徽章",
@@ -11017,16 +11017,16 @@ export default {
     categories: {
       title: "子类别",
       sub_title:
-        "项目 项目 项目 项目 子类别 项目 项目. 项目 项目 项目 项目 项目.",
+        "使用类别和子类别组织您的目录。这改进了导航和过滤。",
 
       empty_title: "无服务 子类别 项目",
       empty_subtitle:
-        "创建 子类别 到 项目 项目 项目 项目 项目 项目.",
+        "创建类别来构建您的列表并改进浏览。",
 
       add_title: "添加分类",
       edit_title: "编辑分类",
 
-      parent_filter: "筛选 项目 项目",
+      parent_filter: "按父级过滤",
       parent: "上级分类",
 
       price_format: "价格 项目",
@@ -11034,9 +11034,9 @@ export default {
       design_id: "设计 ID",
 
       delete_title: "删除分类",
-      delete_message: "项目 项目 项目 项目 项目 到 删除 项目 类别?",
+      delete_message: "您确定要删除该类别吗？",
       delete_success: "类别 已删除 项目.",
-      form_schema: "类别 项目 项目",
+      form_schema: "类别表单字段",
     },
 
     options: {
@@ -11044,8 +11044,8 @@ export default {
       submission_enabled: "启用 项目",
 
       moderation_title: "项目",
-      moderation_mode: "项目 项目",
-      require_first_approved_before_more: "项目 项目 项目 项目 更多的",
+      moderation_mode: "审核模式",
+      require_first_approved_before_more: "需要先获得批准才能进行更多操作",
 
       limits_title: "限制",
       max_pending_per_user: "最高 待处理 项目 用户",
@@ -11056,18 +11056,18 @@ export default {
       card_template: "卡片 模板",
       details_template: "许可证详情 模板",
 
-      form_schema_title: "项目 项目",
+      form_schema_title: "表单架构",
       settings_title: "项目 编辑"
     },
 
     supervision: {
       title: "项目",
       sub_title:
-        "条评价 项目 个 项目 项目 项目 项目 项目: 项目, 发布, 拒绝, 项目, 项目 项目 到 待处理.",
+        "查看提交的项目并决定接下来发生的事情：批准、发布、拒绝、存档或重置为待处理。",
 
       empty_title: "无服务 个 到 条评价",
       empty_subtitle:
-        "项目 用户数 项目 新建 个, 项目 项目 项目 项目 项目 项目.",
+        "当用户提交新项目时，它们将出现在此处进行审核。",
 
       review_title: "条评价 产品",
       approve_publish: "项目 & 发布",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "产品 项目 项目.",
+      approve_success: "项目已成功批准。",
       publish_success: "产品 已发表 项目.",
-      unpublish_success: "产品 项目 项目.",
-      archive_success: "产品 项目 项目.",
+      unpublish_success: "项目已成功取消发布。",
+      archive_success: "项目已成功存档。",
       reject_success: "产品 已拒绝 项目.",
-      penalty_success: "项目 项目 项目.",
+      penalty_success: "处罚成功。",
 
       reject_title: "拒绝 产品",
-      reject_reason: "项目 项目",
+      reject_reason: "拒绝原因",
 
       penalty: "项目",
       penalty_title: "项目",
-      penalty_points: "项目 项目",
+      penalty_points: "罚分",
       penalty_note: "项目 备注"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "项目 图片",
       url_type: "类型",
       url: "URL",
-      is_main: "项目 项目 项目"
+      is_main: "设置为主"
     },
 
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "项目",
       sub_title:
-        "创建 项目 设计 项目 (卡片 + 许可证详情 模板) 项目 项目 项目 到 子类别. 子类别 项目 项目 项目 项目.",
+        "创建多个设计集（卡片+详细信息模板）并将它们分配给类别。类别可以使用不同的设计。",
 
-      empty_title: "无服务 项目 项目",
+      empty_title: "还没有设计",
       empty_subtitle:
-        "项目 项目 项目 设计 项目 到 开始时间 项目 项目 子类别 项目.",
+        "添加您的第一个设计集以开始自定义类别的外观。",
 
       add_title: "项目 设计",
       edit_title: "编辑 设计",
@@ -11127,14 +11127,14 @@ export default {
       details_template: "许可证详情 模板",
 
       notifications: {
-        add_success: "设计 项目 项目.",
-        edit_success: "设计 项目 项目.",
+        add_success: "设计创建成功。",
+        edit_success: "设计更新成功。",
         delete_success: "设计 已删除 项目.",
       },
 
       delete_title: "删除 设计",
       delete_message:
-        "删除 项目 设计? 子类别 项目 项目 项目 项目 项目 设计_项目.",
+        "删除这个设计吗？使用它的类别将自动丢失 design_id。",
     },
 
 
@@ -11144,132 +11144,132 @@ export default {
     badges: {
       title: "徽章",
       sub_title:
-        "创建 项目 项目 项目 徽章. 徽章 项目 项目 项目 到 项目 个 到 项目 项目 项目.",
+        "创建和管理店面徽章。可以将徽章分配给列表项以突出显示特殊属性。",
 
       empty_title: "无服务 徽章 项目",
       empty_subtitle:
-        "项目 项目 项目 项目 到 开始时间 项目 项目 个.",
+        "添加您的第一个徽章以开始突出显示列表项。",
 
-      add_title: "项目 项目",
+      add_title: "添加徽章",
       edit_title: "编辑 项目",
 
       notifications: {
-        add_success: "项目 项目 项目.",
-        edit_success: "项目 项目 项目.",
+        add_success: "徽章创建成功。",
+        edit_success: "徽章更新成功。",
         delete_success: "项目 已删除 项目.",
       },
 
       delete_title: "删除 项目",
-      delete_message: "项目 项目 项目 项目 项目 到 删除 项目 项目?",
+      delete_message: "您确定要删除此徽章吗？",
     },
 
     companies: {
       title: "公司",
       sub_title:
-        "创建 项目 项目 公司. 项目 项目 产品 项目 项目 项目 项目 到 项目 商户.",
+        "创建和管理公司。每个列表项都可以选择链接到一家公司。",
 
       empty_title: "无服务 公司 项目",
       empty_subtitle:
-        "项目 项目 项目 商户 到 链接 项目 到 项目 个.",
+        "添加您的第一家公司以将其链接到列表项。",
 
       add_title: "项目 商户",
       edit_title: "编辑公司",
 
       notifications: {
-        add_success: "商户 项目 项目.",
-        edit_success: "商户 项目 项目.",
+        add_success: "公司创建成功。",
+        edit_success: "公司更新成功。",
         delete_success: "商户 已删除 项目.",
       },
 
       delete_title: "删除 商户",
       delete_message:
-        "删除 项目 商户? 个 项目 项目 项目 项目 项目 项目 商户 链接.",
+        "删除这家公司？使用它的项目将自动丢失公司链接。",
     },
 
 
 
     messages: {
       title: "项目",
-      sub_title: "项目 项目 已发送 项目 用户数 从 项目 简介.",
+      sub_title: "管理用户从列表配置文件发送的消息。",
       empty_title: "无服务 项目",
-      empty_subtitle: "项目 已发送 项目 用户数 项目 项目 项目.",
+      empty_subtitle: "用户发送的消息将显示在这里。",
 
       sender: "项目",
       item: "产品",
       has_reply: "项目",
-      has_reply_yes: "项目 项目",
+      has_reply_yes: "已回复",
       has_reply_no: "无服务 项目",
 
       dialog_title: "信息",
       owner_reply: "所有者 项目",
       reply: "项目",
-      reply_hint: "项目 项目 项目 到 项目 用户. 项目 项目 项目 项目 项目 信息 项目 项目/项目 从 操作.",
+      reply_hint: "写一封回复给用户。您还可以通过操作将邮件标记为已读/垃圾邮件。",
 
-      mark_read: "项目 项目 项目",
-      mark_unread: "项目 项目 项目",
+      mark_read: "标记为已读",
+      mark_unread: "标记为未读",
       archive: "项目",
       unarchive: "项目",
-      mark_spam: "项目 项目 项目",
-      mark_not_spam: "项目 项目",
+      mark_spam: "标记为垃圾邮件",
+      mark_not_spam: "不是垃圾邮件",
 
       delete_confirm: "删除 项目 信息?",
     },
 
     enable: {
       title: "项目",
-      subtitle: "启用 项目 禁用 项目 公开 项目 项目. 项目 项目 项目 项目 项目 时间, Selldone 项目 创建 项目 项目 配置 项目.",
-      true_description: "项目 项目 项目. 顾客 项目 项目 项目 页面.",
-      false_description: "项目 项目 项目. 项目 项目 页面 项目 项目 项目 项目.",
-      open_listing: "项目 项目",
-      note: "项目 项目 项目 项目 项目, 限制, 项目, 项目 设计 项目 项目 编辑.",
+      subtitle: "启用或禁用您的公开列表页面。首次启用时，Selldone 将自动创建列表配置。",
+      true_description: "列表已启用。客户可以浏览列表页面。",
+      false_description: "列表已禁用。列表页面和提交内容被阻止。",
+      open_listing: "公开上市",
+      note: "您稍后可以在列表设置中配置审核、限制、表单和设计。",
       vendor_prereq_text:
-        "项目 项目 到 项目 项目 个 从 项目 项目 项目? 项目, 项目 项目 企业 项目 到 商城模式.",
+        "希望供应商从其供应商面板添加列表项目？首先，将您的业务模式切换到 Marketplace。",
       vendor_prereq_button: "项目 商城模式 企业 项目",
 
       vendor_access_text:
-        "项目 项目 项目 项目 项目 项目 项目 访问权限 项目 项目 (个 + 公司). 启用 项目 项目 商城模式 编辑.",
-      vendor_access_button: "启用 项目 项目 项目",
+        "现在您可以决定供应商是否可以访问列表功能（商品+公司）。在市场设置中启用它。",
+      vendor_access_button: "启用供应商列表",
 
       more_options_text:
-        "更多的 项目 项目 有库存的 项目 项目 编辑. 项目 项目 项目 输入, UI/外观, 项目, 限制, 项目 项目 选项.",
+        "列表设置中提供了更多控件。您可以配置输入、UI/外观、审核、限制和货币化选项。",
       more_options_button: "项目 到 项目 编辑",
 
-      updated: "项目 项目.",
+      updated: "清单已更新。",
       update_failed: "项目 到 更新 项目.",
     },
 
 
     search: {
       title: "项目 编辑",
-      subtitle: "设计 项目 顾客 项目 项目 项目. 启用 项目 项目 项目 构建 筛选器 从 项目 自定义 项目 项目.",
+      subtitle: "设计客户搜索您的列表的方式。启用基于位置的搜索并从自定义表单字段构建过滤器。",
 
       location_title: "位置 项目",
-      location_subtitle: "项目 顾客 到 项目 项目 位置 项目 项目 项目 项目 项目 项目 项目 圆角半径.",
-      location_enabled_true: "位置 筛选 项目 项目. 顾客 项目 项目 项目 项目.",
-      location_enabled_false: "位置 筛选 项目 项目. 项目 项目 项目 项目 项目 项目 项目.",
+      location_subtitle: "允许客户选择一个位置并在可配置的半径内查找附近的结果。",
+      location_enabled_true: "位置过滤器已启用。客户可以根据距离进行搜索。",
+      location_enabled_false: "位置过滤器已禁用。结果不会按距离过滤。",
 
       radius_default: "默认 圆角半径 (项目)",
-      radius_default_hint: "已使用 项目 项目 项目 项目 项目 位置 项目 项目 项目 项目 项目 圆角半径.",
+      radius_default_hint: "当客户选择位置但未选择半径时使用。",
       radius_max: "项目 圆角半径 (项目)",
-      radius_max_hint: "项目 项目 圆角半径 项目 项目 项目 到 项目 值.",
+      radius_max_hint: "店面半径将被限制为该值。",
       radius_options: "圆角半径 选项 (项目)",
-      radius_options_hint: "项目 项目 项目 项目 项目 项目 项目 选项 项目 项目 项目 UI.",
+      radius_options_hint: "这些值可以在店面 UI 中显示为快速选项。",
 
       filters_title: "项目 筛选器",
-      filters_subtitle: "项目 筛选器 项目 项目 项目 从 产品 Meta 项目 (项目 项目/类别 项目 项目). 项目 项目 到 项目 项目 选项 从 已发表 个.",
-      no_filters: "无服务 筛选器 项目 项目.",
+      filters_subtitle: "添加从项目元字段（您的列表/类别表单字段）读取值的过滤器。使用自动生成从已发布的项目中收集实际期权。",
+      no_filters: "尚未添加过滤器。",
       auto_generate: "项目 选项",
 
-      filter_field: "项目 项目",
+      filter_field: "字段键",
       filter_label: "标签",
       filter_type: "类型",
       filter_options: "选项",
-      filter_options_hint: "项目 项目 筛选器, 选项 项目 项目 项目 项目 项目.",
+      filter_options_hint: "对于选择过滤器，选项可以是手动的或生成的。",
       multiple: "项目",
       single: "项目",
       kv_mode: "项目/值 项目",
 
-      requires_listing_active: "项目 项目 项目 已启用的. 启用 项目 项目 到 项目 项目 项目 项目 项目.",
+      requires_listing_active: "列表未激活。首先启用列表以在店面使用它。",
 
 
     },
@@ -12185,13 +12185,13 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "项目 项目",
+        "数码产品",
         "项目",
         "项目",
         "项目",
         "主页 项目",
         "项目 产品",
-        "项目 项目",
+        "运动器材",
         "玩具和游戏",
         "杂货",
         "家具",
@@ -12204,7 +12204,7 @@ export default {
         "项目 & TV 项目",
         "软件",
         "项目 & 项目",
-        "项目 项目",
+        "户外装备",
       ],
     },
 
@@ -12218,35 +12218,35 @@ export default {
         "订单 送达次数",
         "支付 已收到",
         "订单 项目",
-        "订单 项目 项目",
-        "订单 项目 项目",
-        "订单 项目 项目 配送",
+        "订单处理延迟",
+        "订单暂停",
+        "订单发货",
         "退货 项目",
-        "项目 项目",
-        "产品 返回 项目 项目",
+        "退款已发出",
+        "商品有货",
       ],
       body: [
-        "项目 {buyer_name}, 项目 订单 #{order_id} 项目 项目 已确认! 项目’项目 项目 项目 项目 项目 项目 项目 项目 项目’项目 项目 到 项目.",
+        "您好{buyer_name}，您的订单#{order_id}已确认！我们正在处理它，并会在准备好发货时通知您。",
 
-        "较好 项目, {buyer_name}! 项目 订单 #{order_id} 项目 项目 已发货. 项目 项目 项目 项目 项目 项目 账户. 项目 项目 项目 项目 项目!",
+        "好消息，{buyer_name}！您的订单 #{order_id} 已发货。您可以通过您的帐户跟踪它。感谢您与我们一起购物！",
 
-        "项目 {buyer_name}, 项目 订单 #{order_id} 项目 项目 项目 送达次数. 项目 项目 项目 项目 项目 购买. 项目 项目!",
+        "您好{buyer_name}，您的订单#{order_id}已成功交付。我们希望您购买愉快。谢谢你！",
 
-        "项目 {buyer_name}, 项目 项目 已收到 项目 支付 项目 订单 #{order_id}. 项目 订单 项目 项目 项目 项目 项目 项目 项目 已发货 项目.",
+        "您好 {buyer_name}，我们已收到订单 #{order_id} 的付款。您的订单正在处理中，很快就会发货。",
 
-        "项目 {buyer_name}, 项目 项目 到 项目 项目 项目 项目 订单 #{order_id} 项目 项目 项目. 项目 项目 项目 项目 项目, 项目 联系方式 支持.",
+        "亲爱的 {buyer_name}，我们很遗憾地通知您，您的订单 #{order_id} 已被取消。如果您有任何疑问，请联系支持人员。",
 
-        "项目 {buyer_name}, 项目’项目 项目 项目 项目 项目 项目 订单 #{order_id}. 项目 项目 项目 项目 项目 项目 项目 项目 到 项目 项目 项目 项目 项目 项目.",
+        "亲爱的 {buyer_name}，您的订单 #{order_id} 遇到延迟。对于给您带来的不便，我们深表歉意，并正在努力尽快解决。",
 
-        "项目 {buyer_name}, 项目 订单 #{order_id} 项目 项目 项目 项目. 项目 项目 项目 账户 项目 联系方式 支持 项目 项目 许可证详情.",
+        "您好 {buyer_name}，您的订单 #{order_id} 目前处于暂停状态。请检查您的帐户或联系支持人员以获取更多详细信息。",
 
-        "项目 {buyer_name}, 项目 订单 #{order_id} 项目 项目 项目 配送 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目!",
+        "您好 {buyer_name}，您的订单 #{order_id} 已发货，应该很快就会送达您。感谢您的耐心等待！",
 
-        "项目 {buyer_name}, 项目 项目 项目 项目 退货 项目 项目 订单 #{order_id}. 项目 项目 项目 项目 项目, 项目 联系方式 支持.",
+        "亲爱的 {buyer_name}，我们已处理您订单 #{order_id} 的退货。如果您有任何疑问，请联系支持人员。",
 
-        "项目 {buyer_name}, 项目 项目 项目 订单 #{order_id} 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 账户 项目.",
+        "您好 {buyer_name}，您的订单 #{order_id} 的退款已发放。您应该很快就会看到您帐户中的资金。",
 
-        "项目 {buyer_name}, 项目 产品 从 项目 订单 #{order_id} 项目 返回 项目 项目! 项目 项目 项目 项目 新建 订单 项目 项目 项目’项目 项目 项目.",
+        "您好 {buyer_name}，您订单 #{order_id} 中的商品又有货了！如果您仍然感兴趣，现在可以下新订单。",
       ],
     },
 
@@ -12256,25 +12256,25 @@ export default {
     property_set: {
       title: [
         "项目",
-        "项目 项目",
+        "数码产品",
         "项目",
         "食品",
         "家具",
         "项目",
         "项目 产品",
         "项目",
-        "项目 项目",
+        "运动器材",
         "项目",
       ],
       description: [
-        "项目 项目 项目 个 喜欢 项目, 颜色, 项目 项目.",
-        "规格 项目 项目 项目 项目 品牌, 项目, 项目 项目.",
-        "项目, 项目, 项目 类 项目 项目.",
-        "许可证详情 项目 项目, 项目, 项目 项目 产品.",
+        "服装的属性，例如尺寸、颜色和面料。",
+        "小工具的规格，例如品牌、型号和功能。",
+        "饮料的口味、尺寸和类型。",
+        "膳食、零食和食品的详细信息。",
         "项目, 项目, 项目 设计 项目.",
-        "作者, 项目, 项目 项目 项目.",
-        "项目 类型, 项目, 项目 项目 许可证详情.",
-        "项目 项目, 项目, 项目 项目 项目.",
+        "作者、类型和出版年份。",
+        "皮肤类型、成分和包装详细信息。",
+        "年龄组、材料和安全标准。",
         "类型, 项目, 项目 表现 项目.",
         "项目, 项目, 项目 品牌 许可证详情.",
       ],
@@ -12286,23 +12286,23 @@ export default {
     boxes: {
       name: [
         "项目 XS",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
+        "盒子S",
+        "中号盒",
+        "L号箱",
         "项目 XL",
         "项目 XXL",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目 项目",
-        "项目 项目 项目", // flexible mailer
-        "项目 项目", // bubble/padded
-        "项目 项目", // thermal
-        "项目 项目",
+        "盒子超薄",
+        "箱宽",
+        "盒子高",
+        "平盒",
+        "立方体",
+        "箱管",
+        "盒子易碎",
+        "盒装玻璃瓶",
+        "盒装软包", // flexible mailer
+        "盒装衬垫", // bubble/padded
+        "绝缘盒", // thermal
+        "重型箱式",
       ],
     },
   },

@@ -5710,7 +5710,7 @@ export default {
     license_detail: {
       title: "Thông tin chi tiết",
       subtitle:
-        "Giới hạn trong gói hiện tại của bạn.",
+        "Đây là những hạn chế của kế hoạch hiện tại của bạn. Để biết thêm chi tiết, vui lòng truy cập trang định giá. Bạn có thể truy cập tất cả các tính năng trên tất cả các gói, bao gồm cả gói miễn phí, để khởi động công việc kinh doanh của mình và phát triển. Khi bạn mở rộng quy mô kinh doanh, hãy cân nhắc nâng cấp lên gói cấp cao hơn để giảm phí dịch vụ.",
     },
 
     table: {

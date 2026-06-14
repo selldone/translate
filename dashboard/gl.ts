@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Almacenar aplicacións activas",
         subtitle:
-          "Xestiona as túas aplicacións empresariais.",
+          "Descubra a facilidade de xestionar as súas aplicacións empresariais con Selldone App Store. A nosa plataforma ofrece un conxunto completo de ferramentas deseñadas para optimizar as súas operacións comerciais. Desde solucións de xestión innovadoras ata aplicacións para aumentar a produtividade, Selldone ofrece unha experiencia perfecta para as empresas que buscan eficiencia e crecemento.",
         all: "todos",
       },
       /** {@see BAppShopStore} **/
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b></b><br /><b></b><b><s></s></b> Configura e gestiona esta opción para tu tenda. {filename}",
       how_set_name:
-        "<b></b><br /> Configura e gestiona esta opción para tu tenda.",
+        "<b>Consellos de nomeamento:</b><br />Os primeiros 12 caracteres do nome do ficheiro cargado utilizaranse como nome do recurso. Esta función é ideal para mostrar aspectos personalizables dun produto, como tamaños de pneumáticos para motocicletas ou patróns de tecido. Para optimizar o uso desta función, evita cargar aquí imaxes variantes a menos que o número de recursos gráficos sexa inferior a 100, como diferentes tipos de madeira para mobles.",
     },
   },
 
@@ -4263,7 +4263,7 @@ export default {
   vendor_order_refund: {
     title: "Reembolso Pedido",
     subtitle:
-      "<b></b><b></b> Configura e gestiona esta opción para tu tenda.",
+      "<b>Importante! </b>Executar esta acción xerará unha transacción negativa na carteira do provedor e restará a cantidade escollida dela. O importe non pode superar as transaccións totais restantes para o pedido seleccionado. Ademais, se se transferiron fondos a contas bancarias conectadas (como Stripe Connect ou transferencia manual), debes crear unha <b>transferencia de reversión</b>.",
     inputs: {
       note: {
         message: "Mensaje",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Historial de compras",
       subtitle:
-        "Licenzas activas e pendentes.",
+        "Esta é unha lista de licenzas activas e pendentes. Podes comprar ofertas despois de financiar a túa carteira. Ademais, teña en conta que cando canceles unha subscrición, o importe da subscrición restante devolverase á túa carteira virtual.",
     },
     license_detail: {
       title: "Detalles",
       subtitle:
-        "Límites no seu plan actual.",
+        "Estas son as limitacións do teu plan actual. Para obter máis detalles, visite a páxina de prezos. Podes acceder a todas as funcións de todos os plans, incluído o plan gratuíto, para poñer en marcha o teu negocio e crecer. A medida que escalas a túa empresa, considera actualizar a un plan de nivel superior para reducir as tarifas do servizo.",
     },
 
     table: {
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Billeteras de vendedores",
     subtitle:
-      "Configura e gestiona esta opción para tu tenda.",
+      "Non é necesario engadir carteiras manualmente! As carteiras de provedores créanse automaticamente. Se activas un método de pago que admita pagos divididos (como Stripe Connect), o sistema distribuirá automaticamente os pagos nas contas dos provedores conectados. Se esta función non está activada, terás que pagar manualmente aos provedores e poderás consultar os importes que se lles debeu na lista de carteiras.",
     filter_vendor: {
       placeholder: "Filtro by vendedor...",
     },
@@ -7387,7 +7387,7 @@ export default {
     payment: {
       title: "Pago",
       subtitle:
-        "Configura e gestiona esta opción para tu tenda.",
+        "Escolla a moeda e introduza a cantidade que quere transferir ao provedor. Se introduce unha cantidade negativa, os fondos retiraranse da carteira do vendedor. Para as contas conectadas con opcións de pago, os fondos deduciranse da conta conectada, como a conta Stripe do provedor.",
     },
     history: {
       title: "Historia",
@@ -9266,7 +9266,7 @@ export default {
       title: "Métodos de inicio de sesión",
       subtitle: "Personaliza a forma en que os usuarios inician sesión na túa tenda.",
 
-      tips: "Selldone <b></b> Configura e gestiona esta opción para tu tenda.",
+      tips: "<b>Importante.</b> Cando un usuario se rexistra na túa tenda, créase un usuario de Selldone correspondente, se aínda non existe. Este usuario terá acceso á súa axenda de enderezos en todas as tendas e poderá ver o seu historial de pedidos, aínda que unha tenda pechou. Non usamos esta información con fins de mercadotecnia, pero esixímola para evitar fraudes por ambas partes. Para manter a transparencia, enviarémoslle un correo electrónico ao usuario informándoo do seu rexistro.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -10897,7 +10897,7 @@ export default {
     title: "Título",
     add_source_action: "Opción",
     subtitle:
-      "Configura e gestiona esta opción para tu tenda.",
+      "Conecta facilmente plataformas externas para recoller e analizar comentarios sobre a túa empresa de fontes como Facebook, Google e moito máis. Relacionaremos automaticamente os clientes coas súas opinións para mellorar a experiencia dos clientes. Tamén podes mostrar estas recensións nas túas páxinas de destino e nas páxinas de produtos.",
   },
 
   /**
@@ -10921,7 +10921,7 @@ export default {
     },
 
     subtitle:
-      "Configura e gestiona esta opción para tu tenda.",
+      "Podes personalizar os nomes das variantes, as iconas e a súa orde aquí. Para produtos con variantes únicas que van máis aló das seis predeterminadas, podes establecer variantes personalizadas adaptadas a cada produto. Simplemente defina os conxuntos de propiedades na pestana Loxística > Conxuntos de propiedades e asígneos a calquera número de produtos que sexa necesario.",
     select_property_set: "seleccionar Propiedad Establecer",
     add_property_set: "engadir conjunto de propiedades",
   },

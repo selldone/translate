@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Gem aktive apps",
         subtitle:
-          "Selldone Administrer dine forretningsapplikationer.",
+          "Oplev hvor let det er at administrere dine virksomhedsapplikationer med Selldone App Store. Vores platform tilbyder en omfattende pakke af værktøjer designet til at optimere din virksomheds drift. Fra innovative administrationsløsninger til produktivitetsfremmende apps giver Selldone en problemfri oplevelse for virksomheder, der søger effektivitet og vækst.",
         all: "alle",
       },
       /** {@see BAppShopStore} **/
@@ -2574,7 +2574,7 @@ export default {
       how_it_works:
         "<b></b><br /><b></b><b><s></s></b> Konfigurer og administrer denne indstilling for din butik. {filename}",
       how_set_name:
-        "<b></b><br /> Konfigurer og administrer denne indstilling for din butik.",
+        "<b>Tip til navngivning:</b><br />De første 12 tegn i det uploadede filnavn vil blive brugt som aktivnavn. Denne funktion er ideel til at fremvise brugerdefinerbare aspekter af et produkt, såsom dækstørrelser til motorcykler eller stofmønstre. For at optimere brugen af ​​denne funktion skal du undgå at uploade variantbilleder her, medmindre antallet af grafiske aktiver er færre end 100, såsom forskellige træsorter til møbler.",
     },
   },
 
@@ -4263,7 +4263,7 @@ export default {
   vendor_order_refund: {
     title: "Refusion Ordre",
     subtitle:
-      "<b></b><b></b> Konfigurer og administrer denne indstilling for din butik.",
+      "<b>Vigtigt! </b>Udførelse af denne handling vil generere en negativ transaktion i leverandørens tegnebog og trække det valgte beløb fra den. Beløbet kan ikke overstige de resterende samlede transaktioner for den valgte ordre. Derudover, hvis penge er blevet overført til tilsluttede bankkonti (såsom med Stripe Connect eller manuel bankoverførsel), skal du oprette en <b>tilbageførselsoverførsel</b>.",
     inputs: {
       note: {
         message: "Besked",
@@ -4843,7 +4843,7 @@ export default {
       description: "Beskrivelse",
     },
     "backoffice:support-tickets": {
-      name: "Support Tickets",
+      name: "Support billetter",
       description: "Administrer Support Tickets.",
     },
     "backoffice:shop:read": {
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Købt historie",
       subtitle:
-        "Aktive og afventende licenser.",
+        "Dette er en liste over aktive og afventende licenser. Du kan købe tilbud efter at have finansieret din pung. Bemærk desuden, at når du opsiger et abonnement, vil det resterende abonnementsbeløb blive returneret til din virtuelle tegnebog.",
     },
     license_detail: {
       title: "detaljer",
       subtitle:
-        "Grænser for din nuværende plan.",
+        "Dette er begrænsningerne for din nuværende plan. For flere detaljer, besøg venligst prissiden. Du kan få adgang til alle funktioner på tværs af alle planer, inklusive den gratis plan, for at kickstarte din virksomhed og vokse. Når du skalerer din virksomhed, kan du overveje at opgradere til en højere plan for at sænke dine servicegebyrer.",
     },
 
     table: {
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "Sælgertegnebøger",
     subtitle:
-      "Konfigurer og administrer denne indstilling for din butik.",
+      "Ingen grund til manuelt at tilføje tegnebøger! Leverandørens tegnebøger oprettes automatisk. Hvis du aktiverer en betalingsmetode, der understøtter opdelte udbetalinger (som Stripe Connect), vil systemet automatisk distribuere betalinger til de tilsluttede leverandørers konti. Hvis denne funktion ikke er aktiveret, skal du manuelt betale leverandører, og du kan kontrollere de beløb, de skylder dem, på tegnebogens liste.",
     filter_vendor: {
       placeholder: "Filter by Sælger...",
     },
@@ -9266,7 +9266,7 @@ export default {
       title: "Login metoder",
       subtitle: "Tilpas den måde, brugerne logger på i din butik.",
 
-      tips: "Selldone <b></b> Konfigurer og administrer denne indstilling for din butik.",
+      tips: "<b>Vigtigt.</b> Når en bruger registrerer sig i din butik, oprettes en tilsvarende Selldone-bruger, hvis en ikke allerede eksisterer. Denne bruger vil have adgang til deres adressebog på tværs af alle butikker og kan se deres ordrehistorik, selvom en butik er lukket. Vi bruger ikke disse oplysninger til markedsføringsformål, men kræver det for at forhindre svindel på begge sider. For at bevare gennemsigtigheden sender vi en e-mail til brugeren med besked om deres registrering.",
     },
 
     /** {@see BShopOptionsCheckout} **/

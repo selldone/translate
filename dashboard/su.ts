@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Saluran akuisisi",
         subtitle:
-          "barang usaha barang barang Laporan barang barang palanggan akuisisi Saluran",
+          "bisnis anjeun tumuwuh. Ieu laporan saluran akuisisi palanggan anjeun.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "kakait lambar",
         tooltip:
-          "barang Produk barang barang Toko barang kakait Ka barang Google lambar barang Google barang",
+          "Produk di toko ieu numbu ka Google Sheet di Google Drive.",
       },
       show_deletes: {
         false_title: "Sumputkeun anu dihapus",
@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Modeu sered jeung leupaskeun",
         false_description:
-          "Témbongkeun Produk barang barang Kategori barang barang",
+          "Ningali produk anu disusun dumasar kana kategori sareng subkategori.",
         true_title: "Modeu tabel",
         true_description: "Témbongkeun Produk barang barang ",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS produk",
         subtitle:
-          "barang barang RSS barang Ka barang barang barang Daptar barang sadayana Produk",
+          "Anggo feed RSS ieu pikeun ngajaga daptar énggal sadaya produk.",
       },
       api_dialog: {
         title: "API produk",
         subtitle:
-          "barang barang API barang Ka barang barang produk Daptar barang barang API Ka barang Produk Ti barang toko, barang barang produk Daptaran barang barang barang",
+          "Anggo feed API ieu pikeun ngamutahirkeun daptar produk anjeun. Éta nyayogikeun API anu tiasa diaksés ku masarakat pikeun nyandak produk ti toko anjeun, janten idéal pikeun daptar produk sareng situs wéb ngabandingkeun.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "Balanja watesan",
         subtitle:
-          "barang barang barang watesan Ka barang barang barang Palanggan barang barang barang Balanja barang barang ngahasilkeun Beuli Ti barang!",
+          "Anjeun tiasa ngalaksanakeun larangan pikeun mastikeun yén ngan ukur palanggan dina daérah pengiriman anu ditunjuk tiasa mésér ti anjeun!",
         no_enable_shipping_error:
           "henteu barang barang Meuli Ti barang barang henteu diaktipkeun Balanja métode!",
         customer_must_select_a_shipping_msg:
           "palanggan barang Pilih barang Balanja métode Ka barang 🛍️Pesenan",
         customer_can_order_without_shipping_method_msg:
-          "palanggan barang barang barang 🛍️Pesenan barang barang henteu Balanja métode rojongan barang barang Pilih lokasi",
+          "Palanggan tiasa nempatkeun pesenan sanaos henteu aya metode pengiriman anu dirojong pikeun lokasi anu dipilih.",
         inputs: {
           restriction: {
             false_description:
-              "Palanggan barang barang barang Paréntah barang barang henteu barang Balanja métode barang barang Pilih",
+              "Konsumén masih tiasa nempatkeun pesenan sanaos henteu aya metode pengiriman anu khusus anu dipilih.",
             false_title: "Narima sadayana Paréntah",
             true_title: "barang Narima 🛍️Pesenan",
             true_description:
-              "Palanggan barang barang Ka barang barang barang Balanja barang barang 🛍️Pesenan Ka barang barang Beuli",
+              "Konsumén diwajibkeun milih pilihan pengiriman atanapi pickup pikeun ngabéréskeun pameseran.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Setel gudang, toko, atanapi asal bisnis anjeun. Penting pikeun aya dina itungan biaya pengiriman sareng prosés pamariksaan.",
       no_multi_warehouse_support_message:
-        "barang barang, barang barang Aya barang Biasa Toko",
+        "Pikeun kesederhanaan, fitur ieu henteu sayogi di toko biasa.",
       size_unit: {
         title: "Unit ukuran",
         subtitle: "Unit dipaké pikeun panjang, rubak jeung jangkungna.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Nyimpen aktip aktip",
         subtitle:
-          "Selldone Atur aplikasi bisnis Anjeun.",
+          "Panggihan betah ngatur aplikasi bisnis anjeun sareng Selldone App Store. Platform kami nawiskeun suite komprehensif alat anu dirancang pikeun ngaoptimalkeun operasi bisnis anjeun. Tina solusi manajemén anu inovatif ka aplikasi anu ningkatkeun produktivitas, Selldone nyayogikeun pangalaman anu lancar pikeun usaha anu milari efisiensi sareng kamekaran.",
         all: "sadayana",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "barang",
           subtitle:
-            "barang barang barang, barang Gambar barang barang , barang, barang barang aplikasi barang",
+            "Favicon nyaéta gambar leutik, ikonik anu ngagambarkeun halaman wéb dina tab browser, téténggér, sareng antarmuka aplikasi sélulér.",
         },
       },
 
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "barang barang Kategori barang Judul Ka barang barang Daptaran",
+          "Konpigurasikeun kategori sareng judul anu bakal dipidangkeun dina daptar anjeun.",
       },
       unit: {
         subtitle:
-          "barang barang hargaan barang barang produk kaca",
+          "Anjeun tiasa pribados tampilan harga sareng elemen panggero-to-aksi dina halaman produk.",
       },
       custom_pricing: {
         title: "Adat hargaan formulir",
         subtitle:
-          "barang barang Nyiptakeun barang barang (barang hargaan input formulir) Ka barang produk, barang barang Palanggan barang Pilih barang Varian barang barang input formulir",
+          "Anjeun tiasa nyiptakeun atanapi masihan pangajen (bentuk input harga) kana produk, sareng para palanggan anjeun tiasa milih antara varian atanapi ngaropea barang dagangan anjeun ku bentuk input intuitif.",
         valuation_need_saved_product_message:
-          "barang Simpen barang produk barang, barang barang ",
+          "Mangga simpen produk heula, lajeng Anjeun bisa nangtukeun model pangajen.",
         assign_valuation_message:
           "barang barang Ka barang produk",
         edit_pricing_action: "Édit hargaan formulir",
@@ -1506,27 +1506,27 @@ export default {
       action: {
         title: "Adat Meuli barang",
         message:
-          "barang barang Robah Ikon barang barang : {icon name} barang",
+          "Anjeun tiasa ngarobih ikon ku nuturkeun pola ieu: {icon name} caption...",
         placeholder: "barang barang Ka barang",
         multi_language_dialog_title: "Adat Meuli barang barang",
       },
       external: {
         not_available_message:
-          "barang barang Aya barang Pausahaan & barang lisénsi",
-        available_message: "barang barang Tambahkeun barang barang Ka barang",
+          "Aksi tambahan sayogi sareng lisénsi Perusahaan & Perusahaan.",
+        available_message: "Anjeun tiasa nambahkeun hiji panggero éksternal tambahan pikeun aksi.",
         input_label: "barang barang Ka barang",
       },
       warehouse: {
         subtitle:
-          "barang inpormasi barang barang Gudang Pangaturan barang barang barang Ka barang barang barang produk",
+          "Inpormasi ieu dianggo ku sistem manajemén gudang sareng dianggo pikeun ngaidentipikasi produk sacara global.",
       },
       gtin: {
-        hint: "rojongan barang barang UPC (barang barang, 12 barang), EAN (barang, 13 barang), JAN (barang, 8 barang 13 barang), ISBN (barang, 13 barang).",
+        hint: "Nilai anu dirojong nyaéta UPC (Amérika Kalér, 12 digit), EAN (Eropa, 13 digit), JAN (Jepang, 8 atanapi 13 digit), ISBN (buku, 13 digit).",
         label: "Produk barang barang ",
         placeholder: "barang barang (opsional)",
       },
       hsn: {
-        hint: "HSN, barang barang , barang barang Produk",
+        hint: "HSN, atanapi Harmonized System of Nomenclature, mangrupikeun sistem klasifikasi standar internasional pikeun ngagolongkeun barang sareng produk.",
         placeholder: "6~16 barang HSN Kodeu (opsional)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "produk barang barang barang toko",
         message: "barang barang produk",
         subtitle:
-          "barang barang Palanggan barang barang merek barang barang produk barang tawaran",
+          "Inpo ka konsumén anjeun ngeunaan kaayaan sareng merek produk anu anjeun tawarkeun.",
       },
       brand: {
         label: "merek",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "barang barang garansi barang produk status, barang barang inpormasi barang garansi barang barang barang Ka barang palanggan barang pitulung barang barang Waktos barang barang barang Produk barang barang Dipulangkeun barang Beuli",
+          "Setel jaminan sareng status produk, sabab inpormasi ngeunaan garansi ieu bakal ditingalikeun ka palanggan sareng ngabantosan netepkeun kerangka waktos dimana produk tiasa dipulangkeun saatos ngagaleuh.",
 
         label: "garansi",
         placeholder: "Emas 24 sabulan garansi (opsional)",
@@ -1550,17 +1550,17 @@ export default {
       status: {
         title: "status",
         subtitle:
-          "barang Produk status barang barang Ka ngahasilkeun barang produk Draf, barang barang barang status Ka 'teu aktif",
+          "Status produk nangtukeun kasadiaan online sareng di toko. Pikeun nyieun draf produk, ngan gentos statusna ka 'Inaktif'..",
       },
       profiles: {
         title: "Propil",
         subtitle:
-          "barang barang barang garansi, Balik deui kabijakan, Balanja, barang pituduh barang barang barang Ka barang produk barang barang Anyar barang barang barang produk kaca",
+          "Anjeun tiasa nangtukeun jaminan, kawijakan mulang, pengiriman barang, sareng pituduh sareng napelkeun ka produk ieu. Éta bakal ditingalikeun salaku tab énggal dina halaman produk.",
       },
       shortcuts: {
         title: "barang produk Ka barang Kategori",
         subtitle:
-          "barang barang Ka Daptar barang produk barang barang Kategori barang barang primér Kategori barang barang produk > Édit > Kategori barang, barang barang barang Ka barang 'barang barang , barang barang produk Ka barang barang Kategori",
+          "Fitur ieu ngidinan Anjeun pikeun daptar produk dina sababaraha kategori bari nahan panempatan na dina kategori primér diatur dina Produk> Edit> Kategori. Intina, fungsina sami sareng nyiptakeun 'potong kompas' dina sistem operasi, ngamungkinkeun produk muncul dina kategori tambahan anu khusus.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Spésifikasi teknis",
       subtitle:
-        "barang produk spésifikasi barang barang inpormasi barang barang barang Ka Palanggan barang barang kategori barang saringan barang",
+        "Selapkeun spésifikasi produk dieu. Inpormasi ieu bakal ditingalikeun ka para nasabah sareng tiasa dianggo dina sistem panyaring cerdas kategori.",
       manual: {
         title: "barang",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "barang barang Impor Téknis spésifikasi barang barang Produk",
+          "Anjeun tiasa ngimpor spésifikasi téknis produk anu sami.",
         action_title: "Impor",
         action_subtitle: "barang spésifikasi Ti barang produk",
       },
       ai: {
         title: "AI",
         subtitle:
-          "barang barang barang Nyiptakeun produk spésifikasi barang barang barang Produk barang barang formulir",
+          "Anjeun tiasa otomatis nyieun spésifikasi produk ku ngirimkeun data atah produk dina formulir tékstual.",
         action_title: "otomatis barang barang AI",
         action_subtitle: "Nyiptakeun produk spésifikasi barang barang barang",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Kode Produk: P0000...",
         spec_view_title: "Spésifikasi produk anu dipilih",
         spec_view_subtitle:
-          "barang spésifikasi barang barang Impor Ti barang barang produk",
+          "Spésifikasina diimpor tina produk anu dipilih.",
         set_spec_action: "Duplikat Spesifikasi Téknis",
       },
       notifications: {
@@ -1691,7 +1691,7 @@ export default {
         prompt: {
           title: "produk Ihtisar",
           subtitle:
-            "barang barang Katerangan barang barang produk, barang barang Rincian barang inpormasi barang barang Dipaké Ka barang barang barang produk spésifikasi",
+            "Mangga nyadiakeun pedaran ringkes tur jelas ngeunaan produk, panyorot fitur konci na rinci. Inpormasi ieu bakal dianggo pikeun ngahasilkeun spésifikasi produk sacara otomatis.",
         },
         generated_spec: {
           title: "barangbarang spésifikasi",
@@ -1708,7 +1708,7 @@ export default {
           run: {
             title: "barang spésifikasi",
             subtitle:
-              "barang Ka barang Nyiptakeun produk spésifikasi Ti barang barang Ihtisar",
+              "Klik pikeun otomatis nyieun spésifikasi produk tina tinjauan disadiakeun.",
           },
           add_generated_spec: "Tambahkeun barang spésifikasi",
         },
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "barang barang Pasaran, barang primér produk hargaan barang barang barang Daptaran hargaan, barang barang barang hargaan barang barang ",
+          "Dina pasaran, harga produk primér ditampilkeun nyaéta harga Listing, sedengkeun harga sabenerna ditangtukeun dumasar kana catetan hubungan vendor-produk.",
         subscription:
-          "barang Langganan, barang barang Daptaran hargaan barang barang, barang barang Pilih Langganan Rencanana",
+          "Pikeun langganan, ngan ukur harga daptar anu ditingalikeun, sedengkeun biaya saleresna bakal ditangtukeun dumasar kana rencana langganan anu dipilih.",
         service:
-          "barang barang Produk, barang daptar hargaan barang barang , barang barang jasa barang barang jasa hargaan barang barang palanggan barang barang barang 🛍️Pesenan (barang Parios).",
-        file: "barang barang Ka barang daptar barang barang hargaan barang barang file, barang Palanggan barang Mayar barang 🛍️Pesenan Ka barang Aksés Ka barang file",
+          "Pikeun produk dumasar kana jasa, harga anu didaptarkeun ngan ukur pikeun tujuan tampilan, nyayogikeun perkiraan biaya jasa. Harga jasa anu saleresna bakal ditangtukeun ku anjeun saatos palanggan parantos nempatkeun pesenanna (kana Checkout).",
+        file: "Ieu nujul kana harga didaptarkeun na sabenerna file, nu konsumén kudu mayar dina urutan meunang aksés ka file.",
         default:
-          "barang barang Ka barang Produk daptar hargaan barang barang Rekening barang hargaan barang barang Varian barang barang hargaan",
+          "Ieu nujul kana harga didaptarkeun produk sarta ogé merhatikeun harga sagala varian nu teu boga harga misah.",
       },
       extra_pricings: {
         title: "Tambahkeun barang hargaan",
-        subtitle: "barang barang hargaan barang barang Beuli kuantitas",
+        subtitle: "Nerapkeun harga dinamis dumasar kana kuantitas pameseran.",
       },
 
       vendor: {
         title: "padagang hargaan",
         subtitle:
-          "barang hargaan barang barang Produk Daptaran barang barang barang padagang hargaan barang barang produk > padagang barang",
+          "Harga ieu bakal ditingalikeun ngan dina daptar produk. Anjeun tiasa nyetél harga ngajual dina tab Produk> Vendor.",
         manage_vendors: "Atur padagang",
         vendor_product_pricing_link:
-          "barang padagang produk hargaan barang Nyambung barang barang Daptaran hargaan barang barang barang padagang Produk barang Varian barang barang barang Varian barang barang hargaan (barang barang barang hargaan barang barang utama produk). barang hargaan barang barang Pasaran hargaan, barang barang padagang hargaan barang barang hargaan barang barang Pasaran barang barang",
+          "Harga produk anu ngajual disambungkeun. Ngarobih harga daptar di dieu bakal mangaruhan produk anu ngajual tanpa varian atanapi anu nganggo varian anu henteu gaduh harga sorangan (nganggo harga anu sami sareng produk utama). Harga ieu bakal dianggap salaku harga pasar, sareng harga padagang bakal diatur dumasar kana modél harga atanapi margin kauntungan pasar sateuacana.",
         vendor_variant_pricing_link:
-          "barang barang barang hargaan barang barang hargaan barang padagang Produk barang barang hargaan barang barang Pasaran hargaan, barang barang padagang hargaan barang barang Ka barang hargaan barang barang Pasaran barang barang",
+          "Ngarobih harga varian di dieu bakal mangaruhan harga produk ngajual sareng varian anu sami. Harga ieu bakal dianggap harga pasar, sareng harga anu ngajual bakal diatur dumasar kana modél harga atanapi margin kauntungan pasar sateuacana.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Pesen ieu bakal ditingalikeun ka palanggan nalika mésér produk.",
       inputs_form: "Struktur inpormasi (input)",
       inputs_hint:
-        "barang barang Ka barang barang formulir Ka barang Rincian Ti barang Palanggan barang barang barang Ka barang barang 🛍️Pesenan",
+        "Anjeun gaduh pilihan pikeun nyetél formulir pribadi pikeun ngumpulkeun detil ti para palanggan anjeun nalika aranjeunna siap nempatkeun pesenan.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "🛍️Pesenan Watesan",
         subtitle:
-          "barang barang minimum barang maksimum Wates barang barang kuantitas barang barang 🛍️Pesenan, barang barang ",
+          "Upami anjeun grosir atanapi aya wates minimum atanapi maksimal dina kuantitas barang ieu per pesenan, anjeun tiasa netepkeun éta di dieu.",
         no_limit: "Taya wates",
         minimum_purchase_quantity: "minimum Beuli kuantitas",
         maximum_purchase_quantity: "maksimum Beuli kuantitas",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Leupaskeun produk",
       message: `Naha anjeun badé ngahapus <b>{product_title}</b> ?`,
-      tips: "barang barang barang Mupus barang produk, barang barang Ka barang Toko > Produk, barang Tampilkeun Dipupus Barang, barang barang produk, barang Pilih barang",
+      tips: "Upami anjeun teu kahaja ngahapus produk, anjeun tiasa pulih ku cara napigasi ka Toko anjeun> Produk, aktipkeun Témbongkeun Item Dihapus, teras klik-katuhu dina produk, teras pilih Mulangkeun.",
     },
   },
 
@@ -1860,22 +1860,22 @@ export default {
   extra_pricing_add_dialog: {
     title: "barang hargaan barang barang {min}",
     subtitle:
-      "barang barang 🛍️Pesenan barang Prioritas barang hargaan barang barang input barang minimum kuantitas barang barang barang hargaan Ka barang barang",
+      "Sistem otomatis nangtukeun urutan jeung prioritas pikeun itungan harga. Mangga lebetkeun kuantitas minimum anu dipikabutuh pikeun harga ieu berlaku.",
     min_quantity: "kuantitas minimum",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "Inventarisasi barang barang Produk barang barang , barang barang ",
+        "Inventori pikeun produk dropshipping diatur ku grosir, sareng teu tiasa dirobih di dieu.",
       marketplace:
-        "barang barang produk Inventarisasi barang barang Pasaran barang barang barang Tambahkeun barang barang sadayana padagang barang barang ",
+        "Inventaris produk sakabéh di pasar ditangtukeun ku nambahkeun up inventories sadaya ngical paralatan. Anjeun teu bisa ngarobah dieu.",
       default: "barang barang Produk Inventarisasi Ngitung barang",
     },
     menu: {
       add_bulk: {
         title: "barang Tambahkeun",
-        subtitle: "Tambahkeun barang Varian barang barang barang",
+        subtitle: "Tambahkeun sababaraha varian dina hiji aksi.",
       },
       edit_property_set: {
         title: "barang barang barang",
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google produk Kategori Kodeu",
-    hint: "barang barang Kategori barang barang produk barang Ka barang barang produk barang",
+    hint: "Ngawakilan kategori produk anjeun dumasar kana taksonomi produk Google.",
     placeholder: "barang produk barang jasa Kategori (opsional)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "garansi",
-      desc: "barang garansi barang barang Ka barang barang produk barang barang Ka barang barang ",
+      desc: "Garansi mangrupikeun bagian tina kontrak dimana produsén janji bakal ngalereskeun atanapi ngagentos produk dina waktos anu ditangtukeun. Komitmen ieu tiasa manjangkeun bahkan ka konsumén anu henteu ngagaduhan kontrak langsung sareng produsén.",
     },
     RETURN_POLICY: {
       title: "Balik deui kabijakan",
-      desc: "Balik deui barang barang barang Palanggan barang Balik deui barang Tukeur barang barang Barang, barang barang barang balikkeun, barang barang balikkeun",
+      desc: "Kawijakan mulang outline kumaha konsumén bisa balik atawa tukeur dagangan nu teu dihoyongkeun. Aranjeunna netepkeun barang anu layak, alesan anu ditampi pikeun uih deui, sareng waktosna pikeun uih deui.",
     },
     GUIDE: {
       title: "pituduh",
-      desc: "barang pituduh barang barang pituduh barang barang pituduh barang barang Produk",
+      desc: "Panungtun bisa ngawengku bagan ukuran pikeun pakean atawa pituduh pilihan pikeun inten. Penting yén pituduh anu serbaguna sareng tiasa dianggo pikeun sababaraha produk.",
     },
     SHIPPING: {
       title: "Balanja",
-      desc: "barang Balanja kabijakan Rincian barang barang Balanja barang barang Paréntah, barang Balanja barang, métode, barang barang Pangiriman Kali",
+      desc: "Kabijakan pengiriman ngajéntrékeun aspék konci pengiriman barang pikeun pesenan online, kalebet biaya pengiriman, metode, sareng perkiraan waktos pangiriman.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "barang",
       dedicated: "barang",
 
-      subscription: "barang barang barang Pajeg barang barang barang pangmayaran barang barang",
+      subscription: "Urang tiasa nerapkeun pajak ngan ukur dina léngkah nyiptakeun pamayaran.",
       is_disabled: "barang Pajeg profil barang dipareuman! (⚠️barang)",
       shipping: "Balanja",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "Pajeg profil",
       subtitle:
-        "barang barang Pajeg barang Ka barang produk barang barang Pajeg profil barang barang produk, barang barang toko Pajeg barang barang ",
+        "Anjeun tiasa napelkeun peraturan pajeg husus ka produk. Upami profil pajeg henteu dipilih pikeun produk éta, peraturan pajak toko standar bakal diterapkeun.",
 
       action_manage: "Atur Pajeg",
       action_manage_sub: "Toko > Keuangan > Pajeg",
 
       subscription_tips:
-        "barang barang Pilih barang Pajeg profil barang Langganan produk, barang Pembaruan<code>Pajeg Kodeu</code> barang barang barang modeu barang barang pangmayaran jasa barang barang Pilih Pajeg profil barang barang barang hargaan barang barang pajeg barang barang barang pajeg barang barang <code>barang</code> barang <code>barang</code>. barang barang , barang barang <br /><br /><b>barang!</b> barang barang barang Pajeg profil, barang barang hargaan Rencana barang barang produk > Inventarisasi barang barang Simpen barang Ka barang barang",
+        "Lamun anjeun milih hiji profil pajeg pikeun produk langganan, urang ngamutahirkeun<code>kode pajeg</code> tur nyetel inklusif/modus ekslusif on panyadia ladenan pamayaran Anjeun. Profil pajeg anu dipilih netepkeun naha hargana dianggap kalebet pajeg atanapi éksklusif pajeg. Salah sahiji <code>inclusive</code> atanapi <code>exclusive</code>. Sakali ditangtukeun boh inklusif atawa ekslusif, eta teu bisa dirobah.<br /><br /><b>Penting!</b> Sanggeus ngarobah profil pajeg, Anjeun kudu klik dina rencana harga dina tab Produk > Inventaris tur klik tombol Simpen pikeun nerapkeun parobahan.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "barang hargaan barang kuantitas barang barang produk barang barang padagang Ka barang barang barang",
+        "Harga sareng kuantitas produk ieu diatur ku padagang khusus anu gaduhna.",
     },
     vendors: {
       subtitle:
-        "barang barang Daptar barang barang produk barang kuantitas barang hargaan barang barang ",
+        "Ieu daptar supplier pikeun produk. Kuantitas jeung harga bakal diatur ku suppliers.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "padagang Inpo",
-      subtitle: "barang inpormasi barang barang Ka Palanggan barang",
+      subtitle: "Inpo ieu ditémbongkeun ka konsumén umum.",
       action_sub_caption: "Umum Produk Daptaran kaca",
       action_see_listing_page: "tingali Daptaran kaca",
       send_invitation_email: "Ngirim barang Surélék",
@@ -2002,23 +2002,23 @@ export default {
 
     profiles: {
       title: "Propil",
-      subtitle: "barang barang barang lokasi Ka barang padagang",
+      subtitle: "Anjeun tiasa nangtukeun lokasi ka vendor ieu.",
     },
     map: {
       no_map_message:
-        "barang barang lokasi Ka barang padagang barang barang padagang",
+        "Netepkeun lokasi ka padagang upami éta padagang dumasar lokasi.",
     },
     page: {
       title: "Adat kaca",
       subtitle:
-        "barang barang Adat badarat kaca barang barang padagang, barang barang Tumbu Ka barang barang kaca",
+        "Setel halaman badarat khusus pikeun anu ngajual, nyayogikeun tautan unik kana halaman khususna.",
       action_set_page: "tingali Umum kaca",
       action_sub_caption: "Adat badarat kaca",
       vendor_has_landing_msg: "padagang barang barang Adat badarat kaca",
       no_landing_selected_msg: "henteu badarat kaca Pilih",
       no_landing_page: "henteu badarat kaca",
       we_can_create_dedicated_landing_msg:
-        "barang barang Nyiptakeun barang barang badarat kaca barang barang",
+        "Urang tiasa ngadamel halaman badarat khusus pikeun anjeun.",
     },
     contact: {
       title: "Kontak Inpo",
@@ -2027,16 +2027,16 @@ export default {
     business: {
       title: "usaha Inpo",
       subtitle:
-        "barang barang barang inpormasi barang barang usaha Ka barang barang ",
+        "Punten pasihan inpormasi anu akurat ngeunaan bisnis anjeun pikeun mastikeun prosés ngumpulkeun pendapatan anu gancang sareng lancar.",
     },
     bank: {
       title: "barang inpormasi",
-      subtitle: "input barang barang Rincian barang barang barang",
+      subtitle: "Lebetkeun rinci bank anjeun di dieu pikeun pangmayaran.",
     },
     default_pricing: {
       title: "barang hargaan",
       subtitle:
-        "barang barang hargaan barang barang barang padagang barang barang padagang Tambahkeun barang Anyar produk, barang hargaan barang barang barang Dipaké Ka barang barang Pasaran barang barang barang Produk hargaan barang barang hargaan barang barang barang produk barang",
+        "Anjeun tiasa ngadaptarkeun modél harga standar pikeun anu ngajual. Nalika padagang nambihan produk énggal, modél harga ieu bakal dianggo pikeun ngitung margin pasar dina harga produk. Anjeun engké bisa nyaluyukeun model harga pikeun tiap produk individual.",
       no_pricing: "henteu hargaan",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "padagang barang toko barang barang Balanja Jasa barang Kurir",
       shipping_services: "Balanja Jasa",
       total_number_of_services:
-        "barang barang Balanja Jasa barang barang padagang barang",
+        "Jumlah total jasa pengiriman barang anu gaduh vendor.",
       couriers: "Kurir",
-      total_couriers_count: "barang barang Kurir barang barang padagang barang",
+      total_couriers_count: "Jumlah total kurir anu gaduh vendor.",
     },
     configuration: {
       title: "barang",
@@ -2055,28 +2055,28 @@ export default {
       title: "Cabut padagang",
       action: "Cabut padagang",
       verify_description:
-        "barang barang barang sadayana padagang produk barang barang !",
+        "Kuring terang yén sadaya hubungan produk ngajual bakal dipupus!",
       verify_title: "barang barang Ka Mupus barang padagang",
     },
 
     send_invitation_tips:
-      "barang barang Ngirim barang barang Surélék Ka barang pamaké barang barang pamaké barang barang Toko barang barang padagang, barang Rekening barang barang Ka barang",
+      "Kami bakal ngirim email uleman ka pangguna ieu. Upami pangguna gabung ka toko anjeun salaku padagang, akunna bakal otomatis ditugaskeun ka aranjeunna.",
     only_marketplace_owner_can_edit_user:
-      "barang barang Pasaran Nu boga barang Édit barang pamaké barang barang barang Ka Robah barang Nu boga barang barang padagang, barang barang Ngirim barang barang Ka barang",
+      "Ngan nu boga pasar bisa ngédit pamaké. Upami anjeun hoyong ngarobih anu gaduh vendor ieu, anjeun tiasa ngirim pamundut ka kami.",
     vendor_is_disable_msg: "padagang barang dipareuman",
     email_not_match_with_user_msg:
-      "barang Surélék barang barang Pamaké Surélék (<b>{user_name}:</b>{user_email}). barang barang barang Ka Ngirim Surélék Ka<b>{email}</b>?",
+      "Surélék nu diasupkeun teu cocog jeung email pamaké (<b>{user_name}:</b>{user_email}). Naha anjeun yakin ngirim email ka<b>{email}</b>?",
 
     order_information_email_to_email:
       "barang barang Ngirim Paréntah inpormasi Ka <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "barang barang pamaké barang barang padagang barang",
+    set_a_user_for_the_vendor_first_msg: "Setel pangguna pikeun anu ngajual heula.",
 
     inputs: {
       slug: {
         label: "barang",
         placeholder: "barang barang Adat barang",
-        hint: "Robah barang barang barang padagang barang badarat kaca",
+        hint: "Robah jalur halaman badarat dinamis vendor.",
       },
       email: {
         message: "barang Surélék barang Narima sadayana Bewara barang Apdet",
@@ -2088,11 +2088,11 @@ export default {
         true_title: "usaha",
       },
       bank: {
-        hint: "barang Ngaran barang barang padagang barang barang Rekening",
+        hint: "Ngaran bank dimana padagang boga akun maranéhanana.",
         placeholder: "barang barang Ngaran",
       },
       account_name: {
-        hint: "barang barang Ngaran barang barang Rekening",
+        hint: "Ieu kedah cocog sareng nami anu aya hubunganana sareng rekening bank.",
         placeholder: "barang Ngaran",
       },
       account_number: {
@@ -2100,32 +2100,32 @@ export default {
         placeholder: "barang barang Rekening barang",
       },
       routing_number: {
-        hint: "barang barang Nagara barang Dipaké Ka barang barang padagang barang",
-        placeholder: "barang barang , barang Kodeu, barang BSB barang",
+        hint: "Jumlah ieu beda-beda dumasar nagara. Éta dianggo pikeun ngaidentipikasi cabang bank khusus anu dianggo ku vendor.",
+        placeholder: "Nomer routing bank anjeun, kode sortir, atanapi nomer BSB..",
       },
       iban: {
-        hint: "barang barang Rekening barang): barang barang padagang barang barang ",
+        hint: "Nomer Rekening Bank Internasional): Upami bank vendor aya di Éropa atanapi nagara-nagara sanés.",
         placeholder: "barang IBAN barang barang DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "barang barang Rekening barang): barang barang padagang barang barang ",
+        hint: "Nomer Rekening Bank Internasional): Upami bank vendor aya di Éropa atanapi nagara-nagara sanés.",
         placeholder: "barang barang barang",
       },
       branch_address: {
-        hint: "barang alamat barang barang padagang barang barang Rekening",
+        hint: "Alamat cabang bank dimana padagang gaduh akunna.",
         placeholder: "barang barang alamat",
       },
       enable: {
         label: "padagang status",
-        hint: "barang barang Aktipkeun barang barang padagang barang Palanggan barang barang Ka Beuli barang Ti dipareuman padagang",
+        hint: "Anjeun tiasa ngaktipkeun atanapi nganonaktipkeun padagang sacara global. Konsumén moal tiasa mésér nanaon ti padagang anu ditumpurkeun.",
         true_description:
-          "barang barang Ka barang barang Produk barang barang Pasaran",
+          "Aranjeunna bakal tiasa ngajual produkna ngalangkungan pasar anjeun.",
       },
       access: {
         label: "padagang barang & Aksés",
         true_description:
-          "barang padagang barang barang Ka Pembaruan kuantitas barang hargaan",
-        hint: "barang barang Aktipkeun barang barang barang padagang barang, barang barang padagang Ka Pembaruan produk barang barang Harga barang Narima barang Paréntah",
+          "Ngajual gaduh panel khusus pikeun ngapdet kuantitas sareng harga.",
+        hint: "Anjeun tiasa ngaktipkeun atanapi nganonaktipkeun panel ngajual, anu ngamungkinkeun para padagang ngapdet kuantitas sareng harga produk sareng nampi pesenan parsial.",
         false_description: "barang padagang barang henteu Aksés Ka barang",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "barang",
     action_upload_doc: "Unggah barang",
     vendor_subtitle:
-      "barang Unggah barang barang usaha, IP, barang alamat barang barang inpormasi Ka barang barang Aksés",
+      "Punten unggah dokumén verifikasi bisnis, IP, sareng alamat anu diperyogikeun. Kami ngabutuhkeun inpormasi ieu pikeun ngonfirmasi kemitraan anjeun sareng nyayogikeun anjeun aksés anu diperyogikeun.",
     marketplace_subtitle:
-      "padagang barang barang usaha, barang barang, barang alamat barang Ka barang barang KYC barang, barang barang Ka barang barang Aksés",
+      "Vendor tiasa ngalebetkeun dokumén sapertos bisnis, intelektual, sareng verifikasi alamat pikeun ngagampangkeun prosés KYC na, ngamungkinkeun anjeun masihan aranjeunna aksés anu pas.",
     upload_dialog: {
       title: "Unggah barang",
       type: {
         title: "barang Tipe",
         subtitle:
-          "barang Unggah barang barang inpormasi barang barang Aya",
+          "Punten unggah ngan ukur dokumén anu diperyogikeun. Hindarkeun babagi dokumén naon waé anu ngandung inpormasi sénsitip. Kami nyuhunkeun dokumén anu sayogi pikeun umum.",
       },
     },
   },
@@ -2193,12 +2193,12 @@ export default {
         pattern: {
           label: "barang",
           message:
-            "barang Tampilkeun barang lencana barang Produk barang barang barang Nilai barang barang spésifikasi Regex rojongan",
+            "Otomatis nunjukkeun lencana ieu kanggo produk anu gaduh nilai anu cocog dina spésifikasina. Regex dirojong.",
           placeholder: "Ka Tampilkeun barang sadayana Produk nulis: *.*",
         },
       },
       notifications: {
-        badge_added: "barang lencana barang barang Tambahkeun barang!",
+        badge_added: "Lencana parantos suksés ditambahkeun!",
         badge_updated: "barang lencana barang barang !",
         item_not_found_error:
           "barang barang kaca barang Kontak Ngarojong",
@@ -2211,13 +2211,13 @@ export default {
   product_tags: {
     title: "Tag",
     tips: [
-      "barang barang Nyaring Produk barang barang Tag barang <b>badarat Kaca</b>.",
-      "barang barang barang Palanggan barang milarian barang barang Tag barang barang<b>milarian</b> barang",
-      "barang barang Tag, barang Produk barang barang <b>barang Tag</b> barang barang <b>barang Produk barang</b> barang barang produk kaca; barang, Produk barang barang barang Kategori barang barang barang",
+      "Anjeun tiasa nyaring produk dumasar kana tag dina <b>halaman badarat</b>.",
+      "Anjeun sareng palanggan anjeun tiasa milarian tag ieu dina bar<b>search</b>.",
+      "Lamun set tag, ngan produk jeung <b>common tags</b> bakal dipintonkeun dina <b>product related section</b> dina kaca produk; Upami teu kitu, produk dina kategori sarua bakal dipintonkeun.",
     ],
     inputs: {
       tags: {
-        placeholder: "barang Tag barang barang conto Anyar barang",
+        placeholder: "Kawat tag dieu terus pencét asupkeun. ex. kempelan anyar",
       },
     },
     notifications: {
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "Balanja Jasa",
     subtitle:
-      "barang Pasaran nawaran Balanja métode Ka pitulung padagang barang barang Paréntah barang barang Tambahkeun Balanja Jasa barang Ka barang 🛍️Pesenan Balanja barang Ti barang 🛍️Pesenan kaca barang barang Alamat barang barang kode barang barang Balanja barang",
+      "Pasar nawiskeun metode pengiriman pikeun ngabantosan padagang ngalaksanakeun pesenanna. Anjeun tiasa nambihan jasa pengiriman di dieu pikeun mesen labél pengiriman barang tina halaman pesenan anjeun. Ieu nyederhanakeun prosésna ku nyingkronkeun alamat sareng kode tracking sareng panyadia pengiriman barang.",
 
     subtitle_pickup:
-      "barang Pasaran barang barang barang padagang, barang barang Ka barang barang Ti barang lokasi barang barang Balanja barang barang barang Tambahkeun barang barang lokasi barang barang profil (barang Gudang barang barang Dipaké barang barang lokasi).",
+      "Pasaran ngamungkinkeun jemputan pikeun padagang, ngamungkinkeun para pembeli milih jemput ti lokasi anjeun salaku pilihan pengiriman. Anjeun tiasa nambihan lokasi jemputan anjeun dina profil anjeun (gudang anjeun bakal dianggo salaku lokasi jemputan standar).",
     action: "Tambahkeun jasa",
 
     add_dialog: {
       select_service_msg:
-        "Balanja métode barang barang Pasaran, barang Palanggan barang barang Ti barang padagang barang henteu barang barang Balanja Jasa Ka Beuli barang barang barang Pilih barang métode Ti barang Daptar barang Ka Témbongkeun Aya Jasa barang barang Balanja jasa Ti barang Daptar barang barang barang Aya Jasa barang barang barang Tambahkeun Ka barang toko barang barang barang",
+        "Métode pengiriman barang diatur ku pasar, sareng para nasabah tiasa milih ti aranjeunna. Vendor teu gaduh kontrol kana pilihan ieu tapi tiasa ngahijikeun panelna sareng jasa pengiriman pikeun mésér labél langsung. Pilih metodeu tina daptar di handap pikeun ningali jasa anu sayogi. Pilih jasa pengiriman barang tina daptar di handap. Ngan jasa anu sayogi anu tiasa ditambihkeun ka toko anjeun dipintonkeun di dieu.",
       no_available_service: "henteu Aya jasa!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "lokasi",
     empty_subtitle:
-      "barang barang lokasi Ka barang produk barang barang ",
+      "Sebutkeun lokasi pikeun produk upami éta barang dumasar lokasi.",
     dialog: {
       header: "Pilih lokasi profil",
       action_new_location: "Tambahkeun lokasi anyar",
       title: "lokasi profil",
       subtitle:
-        "barang barang barang Produk barang barang Harita lokasi barang barang lokasi Tag Ka barang Produk",
-      tips: "<b>barang: </b> barang barang lokasi Ka barang produk <b>barang</b> barang barang barang Ka Tampilkeun barang produk barang barang barang lokasi barang barang Harita barang barang produk barang barang barang lokasi barang barang utama barang, Siga <b>barang barang</b> barang barang Jasa Siga<b>barang barang barang</b>.",
+        "Anjeun tiasa pin produk dina lokasi peta ku assigning tag lokasi ka produk.",
+      tips: "<b>Penting: </b> Napelkeun lokasi pikeun produk <b>only</b> lamun rék némbongkeun produk dina lokasi husus dina peta. Produk pined kedah gaduh lokasi salaku spésifikasi utamina, sapertos <b>imah/tempat sewa</b> atanapi jasa pribadi sapertos<b>Hairdressing and Spa</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "barang barang Daptar barang Barang barang barang produk barang jasa pakét",
+      "Lebetkeun daptar barang anu aya sareng pakét produk atanapi jasa.",
     dialog: {
       header: "produk pakét Barang",
       title: "barang Barang",
-      subtitle: "barang barang Barang barang barang produk",
+      subtitle: "Ieu mangrupikeun kompilasi barang-barang anu aya sareng produk.",
       action_manage: "Atur Barang",
       action_disable_msg: "Pasaran Nu boga",
       select_items_tips:
-        "Nyiptakeun barang barang pakét barang barang produk barang jasa barang barang barang Ka barang barang Palanggan barang barang palanggan Ka barang barang , barang barang ",
+        "Jieun atawa pilih komponén pakét nu datang jeung produk atawa jasa. Mangpaatkeun fitur ieu pikeun ngantebkeun naon konsumén bisa antisipasi narima kana purchasing item. Kami mamatahan ngagunakeun fungsi ieu ngan ukur nalika penting pikeun palanggan ngartos eusi anu kalebet, sapertos nalika mésér smartphone.",
       create_item_tips:
-        "barang, barang barang Anyar barang barang barang Gambar, barang barang Unggah Gambar Ka barang 256barang barang barang Ka barang barang Penampilan barang sadayana barang, barang barang Gambar barang transparan latar barang barang sadayana barang Produk",
+        "Alternatipna, Anjeun bisa ngawengku hiji item anyar. Anggo gambar kuadrat, sabab urang bakal otomatis ngarobih ukuran gambar anu diunggah kana format 256x256 kuadrat. Pikeun mastikeun penampilan optimal dina sadaya témplat, paké gambar minimalis sareng latar transparan sareng mertahankeun pola anu konsisten pikeun sadaya produk anjeun.",
       create_new_item_action: "Nyiptakeun Anyar barang barang",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "barang barang",
           subtitle:
-            "barang barang barang Warna Kodeu, barang, <b>#654FFF</b>, barang barang , barang, <b>#764FFA/#000000</b>.",
+            "Asupkeun kode warna hex, misalna, <b>#654FFF</b>, atawa dua warna dipisahkeun ku garis miring, misalna, <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "barang barang Nilai Ka barang barang, barang Gambar barang <b>barang barang</b>. Unggah barang barang Kodeu barang barang barang",
+            "Anjeun tiasa napelkeun nilai wae kana variabel, kaasup gambar maké <b>Graphic Assets</b>. Unggah pola sareng nganggo kode anu dihasilkeun pikeun varian.",
           graphical_asset_action: "barang barang",
           graphical_asset_action_caption: "Gambar barang barang barang",
         },
         smart_unit_price: {
-          tips: "barang unit hargaan barang barang <b>Beurat</b>, <b>volume</b>, barang <b>barang barang</b>. Ka barang barang barang, barang Ka Toko > Setélan > Téma > produk kaca > barang unit hargaan",
+          tips: "Itung harga unit dumasar kana <b>weight</b>, <b>volume</b>, sarta <b>pack size</b>. Pikeun nganonaktipkeun fitur ieu, arahkeun ka Toko> Setélan> Téma> Halaman Produk> Harga Unit Smart.",
           smart_unit_price: "unit hargaan barang",
         },
         quantity: {
@@ -2464,18 +2464,18 @@ export default {
         price: {
           title: "hargaan",
           subtitle:
-            "barang barang Adat hargaan barang barang produk hargaan",
+            "Setel harga khusus pikeun varian atanapi nganggo harga produk standar.",
         },
         package: {
           title: "barang & Balanja",
           subtitle:
-            "barang Beurat barang barang barang Varian Ka barang Balanja barang",
+            "Sebutkeun beurat sareng diménsi pikeun varian pikeun nangtukeun pilihan pengiriman.",
           same_as_product_action: "barang barang produk",
         },
         image: {
           title: "barang Gambar",
           subtitle:
-            "Tambahkeun barang Gambar barang barang Gambar Unggah barang barang barang primér Gambar barang barang barang",
+            "Tambahkeun gambar unik pikeun tiap varian. Gambar munggaran anu diunggah bakal janten gambar primér pikeun varian éta.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "barang barang (GTIN)",
             message:
-              "rojongan barang: UPC (12 barang), EAN (13 barang), JAN (8 barang 13 barang), ISBN (13 barang).",
+              "Format anu dirojong: UPC (12 digit), EAN (13 digit), JAN (8 atanapi 13 digit), ISBN (13 digit).",
           },
         },
       },
@@ -2514,11 +2514,11 @@ export default {
   product_extra_physical: {
     weight: "Beurat pakét",
     weight_subtitle:
-      "input barang Produk barang barang Beurat barang barang inpormasi pitulung barang barang barang Balanja métode barang barang barang 🛍️Pesenan barang barang barang Balanja Wates",
+      "Lebetkeun total beurat bungkusan produk di dieu. Inpormasi ieu ngabantosan milih metode pengiriman anu leres sareng mastikeun pesenan henteu ngaleuwihan wates pengiriman.",
     weight_unit: "Kg",
     size: "Ukuran Paket",
     size_subtitle:
-      "input barang Produk barang barang inpormasi barang Dipaké Ka barang barang barang Balanja métode barang barang barang 🛍️Pesenan barang barang Wates",
+      "Lebetkeun ukuran bungkusan lengkep produk di dieu. Inpormasi ieu dianggo pikeun milih metode pengiriman anu leres sareng mastikeun pesenan henteu ngaleuwihan wates ukuran parsél.",
 
     width: "Lebar",
     length: "Panjangna",
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Waktu persiapan",
     lead_time: "Waktu persiapan",
     lead_time_subtitle:
-      "barang Waktos barang barang Lilana barang Ka barang barang produk barang Balanja, barang pitulung barang barang barang Pangiriman Waktos",
+      "Waktu kalungguhan ngira-ngira lilana diperlukeun pikeun nyiapkeun produk pikeun pengiriman barang, nu mantuan dina estimasi waktu pangiriman.",
 
     lead_time_dimension: "Jam (s)",
     bulk_action: "Aksi Bulk",
@@ -2572,9 +2572,9 @@ export default {
     title: "barang barang barang",
     tips: {
       how_it_works:
-        "<b>barang barang barang:</b><br />Unggah barang barang barang Gambar barang Ka barang barang Gambar barang barang , barang <b>{filename}</b> barang barang barang Nilai Catetan barang barang Kodeu barang barang Dipaké barang barang <b><s>Warna</s></b> Nilai",
+        "<b>Kumaha Gawéna:</b><br />Unggah gambar pola atanapi item di dieu. Pikeun ngagunakeun gambar ieu salaku pilihan varian, lebetkeun <b>{filename}</b> dina nilai varian. Catet yén kode ieu teu bisa dipaké dina nilai <b><s>color</s></b>.",
       how_set_name:
-        "<b>barang barang:</b><br />barang barang 12 barang barang barang Unggah file Ngaran barang barang Dipaké barang barang barang Ngaran barang barang produk, barang barang Ka barang barang , barang Unggah barang Gambar barang barang 100, barang barang Jenis barang jati",
+        "<b>Tips Naming:</b><br />12 karakter munggaran tina nami file anu diunggah bakal dianggo salaku nami aset. Fitur ieu idéal pikeun nunjukkeun aspék produk anu tiasa disaluyukeun, sapertos ukuran ban pikeun motor atanapi pola lawon. Pikeun ngaoptimalkeun pamakean fitur ieu, ulah unggah gambar varian di dieu kajaba jumlah aset grafisna kirang ti 100, sapertos jinis kai anu béda pikeun jati.",
     },
   },
 
@@ -2601,15 +2601,15 @@ export default {
     out_of_stock: "barang barang ",
 
     image: {
-      tooltip: "⚡ barang barang Gambar barang Ka barang barang Ka barang barang",
+      tooltip: "⚡ Séred tur teundeun hiji gambar di dieu pikeun nangtukeun kana varian.",
     },
     enable: {
-      true_tooltip: "barang barang barang Aya barang barang barang toko",
-      false_tooltip: "barang barang Aya barang barang barang toko",
+      true_tooltip: "Item ieu sayogi di toko online.",
+      false_tooltip: "item ieu teu sadia di toko online.",
     },
     restore_dialog: {
       title: "barang barang",
-      message: "barang barang Ka barang barang Dipupus barang?",
+      message: "Naha anjeun yakin hoyong mulangkeun varian anu dihapus ieu?",
       action: "enya, barang barang",
     },
     notifications: {
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "barang lampah > hargaan",
     message:
-      "barang barang Jumlah barang barang Ka barang hargaan barang sadayana Produk barang barang toko barang, barang barang hargaan barang barang Ka barang barang Pilih barang barang ",
+      "Jumlah di handap ieu bakal dilarapkeun salaku persentase kana harga sadaya produk di toko anjeun. Ogé, nilai-nilai harga anu diitung bakal sacara cerdas dirobih kana nomer babak pangdeukeutna dumasar kana mata uang anu dipilih. Ati-ati dina ngasupkeun nilai.",
     check: "barang barang hargaan barang",
     check_description:
-      "barang hargaan barang barang Pilih Kategori barang sadayana barang",
+      "Hargana bakal robih pikeun kategori anu dipilih sareng sadaya subkategori.",
     add_percent_tab: "Tambahkeun Persén",
     add_constant_tab: "Tambahkeun barang",
     ending_tab: "ahir barang",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "barang Jumlah barang barang Tambahkeun barang barang Ti barang barang hargaan barang Produk",
+        "Jumlahna bakal ditambah atanapi dikurangan tina harga produk ayeuna.",
     },
     ending: {
       subtitle:
-        "barang ahir barang barang barang hargaan barang Produk barang barang barang Ka barang barang Nilai",
+        "Tungtung harga produk ayeuna bakal dirobih kana nilai anu ditangtukeun.",
     },
     marketplace: {
       title: "Pasaran Daptaran hargaan",
       subtitle:
-        "barang barang Ka barang Pembaruan barang Daptaran hargaan barang Produk barang barang Pasaran barang, barang utama produk hargaan barang barang padagang hargaan barang Ka manual hargaan barang",
+        "Pilihan ieu ngamungkinkeun anjeun otomatis ngamutahirkeun harga daptar produk di pasar. Aya kalana, harga produk utama bisa jadi teu saluyu jeung harga ngajual alatan parobahan harga manual.",
       strategy: {
         min: {
           title: "barang minimum hargaan",
           description:
-            "barang barang minimum hargaan barang barang produk barang barang Daptaran hargaan",
+            "Setel harga minimum produk salaku harga daptar.",
         },
         max: {
           title: "barang maksimum hargaan",
           description:
-            "barang barang maksimum hargaan barang barang produk barang barang Daptaran hargaan",
+            "Setel harga maksimum produk salaku harga daptar.",
         },
       },
     },
 
     category: {
-      subtitle: "Wates barang barang Ka barang Kategori barang sadayana barang",
+      subtitle: "Ngawates tindakan massal kana kategori sareng sadaya subkategori.",
     },
     vendor: {
       subtitle:
-        "Wates barang lampah Ka barang barang padagang barang barang padagang barang Pilih, barang hargaan Pembaruan barang barang barang Ka barang padagang Produk, barang barang hargaan barang barang padagang",
+        "Ngawatesan lampah bulk ka vendor husus. Nalika vendor dipilih, update harga bakal diterapkeun kana produk anu ngajual, anu ngagambarkeun harga jual pikeun anu ngajual éta.",
       listing_price_need_update_msg:
-        "barang barang barang Ka Pembaruan barang Daptaran hargaan (barang hargaan barang barang barang produk Daptar), barang barang Pembaruan barang barang barang Saringan barang barang Pilih barang padagang",
+        "Upami anjeun hoyong ngapdet harga Listing (harga anu dipidangkeun dina daptar produk), anjeun kedah ngirimkeun deui apdet bulk sareng saringan anu sami tapi tanpa milih padagang.",
     },
     listing_products_changes: "Daptaran Produk Robah",
     total_vendor_products: "barang padagang Produk",
@@ -2815,27 +2815,27 @@ export default {
       currency_step: {
         title: "Pilih barang Mata uang",
         subtitle:
-          "barang Ka barang barang toko Ka barang minimum—barang barang barang 3. barang pangmayaran Gerbang barang barang Transaksi barang barang barang Mata uang",
+          "Coba tetep jumlah mata uang di toko Anjeun ka minimum-ideally kirang ti 3. Paling gateways pamayaran bisa ngolah transaksi dina ampir sagala mata uang.",
         add_first_currency: {
-          subtitle: "barang Tambahkeun barang Mata uang Ka barang Toko barang barang",
+          subtitle: "Punten tambahkeun mata uang ka toko anjeun sateuacan neraskeun.",
           title: "Tambahkeun Mata Uang",
         },
       },
       gateway_step: {
         title: "Aktip pangmayaran métode",
         subtitle:
-          "barang barang Ti barang Aya pangmayaran métode barang barang Pilih barang Gerbang, barang barang barang Ka barang barang Rincian Ka Tumbu barang Toko barang Ka barang barang pangmayaran métode",
+          "Punten pilih tina metode pamayaran anu sayogi. Sakali anjeun milih gateway, anjeun bakal tiasa ngalebetkeun detil sambungan anu diperyogikeun pikeun ngahubungkeun toko anjeun langsung ka metode pamayaran anu anjeun pikahoyong.",
       },
 
       config_step: {
-        import_config: "barang barang Impor Konfigurasi Ti barang barang Gerbang",
+        import_config: "Anjeun tiasa ngimpor config ti gateways sarupa séjén",
         import_from: "Impor Ti",
       },
 
       request_add_new_gateway: {
         title: "barang tingali barang barang pangmayaran métode?",
         subtitle:
-          "barang barang barang pangmayaran barang barang daptar, barang Ka barang taunan Rencanana (barang barang ) barang barang 48 barang barang Rekening barang barang ",
+          "Upami panyadia pamayaran lokal anjeun henteu didaptarkeun, langgan rencana taunan mana waé (kalebet Startup pikeun mampuh) sareng nyuhunkeun integrasi. Kami bakal ngalengkepan éta dina 48 jam upami akun tés sareng dokuméntasi disayogikeun.",
       },
 
       inputs: {
@@ -2844,11 +2844,11 @@ export default {
         },
         manual: {
           true_title: "barang modeu",
-          true_description: "barang barang barang Gerbang barang barang",
+          true_description: "Anjeun tiasa nyetél konfigurasi gateway sacara manual.",
 
           false_title: "otomatis sambungkeun",
           false_description:
-            "barang barang sambungkeun Ka barang Gerbang barang barang Gerbang barang barang",
+            "Sistim bakal otomatis nyambung ka gateway lamun geus boga gateway ngonpigurasi di tempat.",
         },
       },
     },
@@ -3074,23 +3074,23 @@ export default {
 
     config: {
       subtitle:
-        "Kategori pitulung barang produk Pangaturan barang ngahasilkeun barang barang Palanggan Ka barang Produk barang barang toko",
+        "Kategori ngabantosan ngagampangkeun manajemén produk sareng ngagampangkeun palanggan anjeun mendakan produk di toko anjeun.",
     },
     parent: {
       subtitle:
-        "barang Kategori barang barang Kategori barang barang produk barang barang Kategori, barang barang utama Kategori",
+        "Kategori ieu bakal muncul dina kategori indungna. Upami produk henteu ngagaduhan kategori indungna, éta bakal ditingalikeun dina kategori utama.",
     },
     template: {
       title: "Citakan",
       edit_page: "Édit kaca",
       Pages_list: "kaca Daptar",
       subtitle:
-        "barang barang Kategori kaca barang barang barang Adat kaca barang barang Ka Nyiptakeun Kaca barang transparan latar barang Desain 1 Ka 2 barang barang Ka barang Kategori barang barang barang Tumbu barang kaca Ka barang Kategori, barang barang barang Ka barang barang Kategori barang",
+        "Anjeun tiasa ningkatkeun tampilan halaman kategori anjeun ku overlaying halaman khusus. Pendekatan anu pangsaéna nyaéta nyiptakeun halaman kalayan latar transparan sareng ngadesain 1 dugi ka 2 bagian khusus pikeun tiap kategori. Anjeun teras tiasa ngaitkeun hiji halaman ka sababaraha kategori, nganggo eusi dinamis pikeun nyaluyukeun unggal kategori masing-masing.",
     },
     critical_zone: {
       title: "barang barang",
       subtitle:
-        "barang barang Cabut barang Kategori, barang barang barang Produk barang barang barang Ka barang barang barang<b>📁 {parent}</b>. Ka Atur Kategori barang barang produk Daptar, barang Ka barang Toko > Kategori barang",
+        "Upami anjeun ngahapus kategori, subkategori sareng produkna bakal dipindahkeun ka diréktori indung<b>📁 {parent}</b>. Pikeun ngatur kategori anu teu aya dina daptar produk, buka tab Toko > Kategori.",
       accept_delete: {
         true_description: "barang barang Ka Cabut barang Kategori",
         true_title: "barang Cabut Kategori",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategori diédit.",
       },
       manually_update_filters_tips:
-        "<b>barang!</b> Saringan barang barang Produk Robah barang, barang barang barang Ka Produk barang barang Kategori, barang Balik deui barang barang Ka barang barang Nyaring",
+        "<b>Penting!</b> Saringan otomatis diropéa nalika produk robih. Sanajan kitu, sanggeus nyieun parobahan produk dina kategori, mangga balik ka dieu teras klik tombol simpen / regenerate pikeun refresh filter.",
 
       inputs: {
         spec: {
           message:
-            "Daptar barang barang Ka barang barang Nyaring barang",
+            "Daptar fitur anu anjeun hoyong ditingalikeun dina bagian saringan",
           placeholder: "Pilih spésifikasi Ka Tampilkeun barang Nyaring",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Katerangan toko",
     description_input_message: "Tulis pedaran ringkes ngeunaan bisnis anjeun.",
     description_input_tips:
-      "barang Katerangan barang barang Toko barang barang Dipaké barang barang tag Katerangan barang barang toko Kaca",
+      "Katerangan ieu bakal muncul dina footer toko anjeun sareng ogé bakal dianggo salaku pedaran meta tag standar pikeun halaman toko anjeun.",
     address_input: "Alamat Toko",
     address_input_message: "Lebetkeun alamat lokasi toko anu pasti",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "barang",
         subtitle:
-          "barang barang barang Ka Ngabolaykeun barang 🛍️Pesenan barang, barang barang ",
+          "Upami anjeun hoyong ngabatalkeun pesenan anjeun langsung, anjeun tiasa nganggo pilihan ieu.",
       },
 
       express_input: {
         true_title: "barang | Ngabolaykeun 🛍️Pesenan barang",
         false_title: "barang | Ngabolaykeun 🛍️Pesenan barang 48 barang",
         true_description:
-          "barang barang barang Ngabolaykeun barang 🛍️Pesenan barang barang Pembaruan barang Inventarisasi barang barang",
+          "Pilihan ieu bakal ngabatalkeun pesenan anjeun langsung sareng ngapdet inventory langsung.",
         false_description:
-          "barang barang barang Ngabolaykeun barang 🛍️Pesenan barang 48 barang barang barang, Barang barang barang ",
+          "Pilihan ieu bakal ngabatalkeun pesenan anjeun saatos 48 jam. Dugi ka waktos éta, barang-barang bakal dicadangkeun sareng teu tiasa dipésér ku batur.",
       },
     },
 
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "balikeun duit barang Ka barang palanggan",
         message:
-          "barang barang Jumlah barang balikeun duit barang barang barang Ka ngahasilkeun barang barang teu aya Barang barang barang balikeun duit barang barang",
+          "Kami ngitung jumlah total ngabalikeun duit anu anjeun kedah laksanakeun sacara manual. Éta diitung dumasar kana barang anu henteu sayogi sareng total nilai anu dibalikeun deui.",
         calculated_approximately:
-          "barang Jumlah barang barang Jumlah barang",
+          "Jumlahna diitung kira-kira. Mangga ngitung jumlah pasti sorangan.",
       },
       need_payback: {
         title: "palanggan muatan barang",
         message:
-          "barang barang balikeun duit Ka barang palanggan barang barang Jumlah barang barang Barang barang barang Ka muatan barang palanggan Ka barang barang barang Jumlah",
+          "Kami perhatikeun yén total anu dibalikeun deui ka palanggan langkung luhur tibatan jumlah anu dibayar dumasar kana barang-barang dina karanjang. Anjeun panginten kedah ngecas palanggan anjeun pikeun ngabalikeun jumlah kaleuwihan.",
       },
       need_no_refund: {
         title: "henteu balikeun duit barang",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "barang balikeun duit",
         message:
-          "barang barang barang Jumlah barang balikeun duit barang barang pangmayaran Gerbang barang barang pangmayaran Jasa Ngarojong barang barang, barang barang barang Ka balikeun duit barang",
+          "Éta jumlah total ngabalikeun duit anu otomatis dilakukeun ku gateway pamayaran anjeun. Ngan sababaraha jasa pamayaran ngadukung fitur ieu, janten anjeun kedah ngabalikeun duit sacara manual.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3549,9 +3549,9 @@ export default {
       weight_warning: "Ngalangkungan beurat anu diidinan.",
       volume_warning: "Ngalangkungan ukuran pakét anu diidinan.",
       items_weight_calculation:
-        "barang Beurat barang sadayana Barang barang {weight} {unit}",
+        "Beurat gabungan sadaya barang nyaéta {weight} {unit}",
       not_available_message:
-        "barang barang Aya barang barang barang dipareuman barang barang Balanja alamat barang barang pamaké barang barang barang alamat barang Beuli!",
+        "Éta henteu sayogi nalika anjeun ditumpurkeun naroskeun alamat pengiriman sareng ogé pangguna henteu ngeusian alamat saatos ngagaleuh!",
 
       message:
         "Pencét tombol <b>Siap</b> Pesen di handap ieu upami pesenan parantos siap dikirim.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Laporan pamayaran",
         subtitle:
-          "barang Pangmayaran barang Transaksi barang barang barang Pilih Waktos barang",
+          "Pangmayaran sareng transaksi anu dilakukeun salami periode waktos anu dipilih.",
         chart: {
           times: "Ngitung",
           buys: "Mésér cacah",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "barang Gerbang status",
     oauth2_button: "otomatis Connect Ka {gateway}",
     fee_payment_message:
-      "Selldone barang barang Jumlah Dibayar barang barang palanggan barang barang barang Ka barang Rekening barang jasa waragad barang barang barang Ti barang Dompét barang barang",
+      "Sakabéh jumlah anu dibayar ku nasabah bakal ditransfer kana rekening anjeun. Biaya jasa bakal dipotong tina dompét anjeun di Selldone.",
 
     auto_config: "otomatis Konfigurasi",
 
     keys: {
       title: "Pribadi barang",
       subtitle:
-        "Daptar barang Pribadi barang barang barang pangmayaran barang inpormasi barang barang Pangmayaran",
+        "Daptar konci swasta pikeun pamayaran. Inpormasi ieu penting pikeun nyiptakeun sareng ngatur pangmayaran.",
     },
     extra_config: {
       title: "pangmayaran jasa barang",
-      subtitle: "barang barang inpormasi barang barang pangmayaran Gerbang",
+      subtitle: "Émbaran konfigurasi tambahan pikeun gateway pamayaran.",
     },
 
     recommended_actions: {
       title: "barang lampah",
       subtitle:
-        "barang barang , barang barang Ka Narima barang Pangmayaran Ti barang Palanggan",
+        "Ku ngalakukeun léngkah-léngkah ieu, anjeun bakal mimiti nampi pamayaran saleresna ti palanggan anjeun.",
       action_enable: "barang Ka Aktipkeun barang",
       make_live_enable: "barang Ka Hirup barang",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "barang",
     status_title: "pangmayaran jasa status",
     status_message:
-      "barang barang pangmayaran métode barang Aktip barang teu aktif barang métode barang barang Aktip barang barang barang Ka Palanggan",
-    status_true_description: "barang Palanggan barang Mayar barang barang pangmayaran métode",
+      "Konpigurasikeun metode pamayaran salaku Aktif atanapi Henteu Aktif. Ngan ukur metode anu disetél salaku aktip anu bakal ditingalikeun ka konsumén.",
+    status_true_description: "Palanggan anjeun tiasa mayar nganggo metode pamayaran ieu.",
 
     manual_title: "manual / otomatis barang pangmayaran",
     manual_message:
-      "barang barang Nyiptakeun barang pangmayaran, barang barang pangmayaran métode Ka barang barang conto, barang barang pangmayaran barang barang , barang barang barang duit barang barang ",
+      "Lamun anjeun nyieun pamayaran a, anjeun bisa nempatkeun hiji ditahan on metoda pembayaran layak pikeun dana cadangan nu bisa Anjeun candak engké. Contona, hotél mindeng otorisasi mayar pinuh saméméh sémah datang, lajeng néwak duit lamun tamu dipariksa kaluar.",
 
     gateway_status: "status",
     wallet: "Dompét Blockchain",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "Ngembangkeun & barang",
-      subtitle: "barang barang Aktipkeun barang barang modeu Ka barang barang pangmayaran Gerbang",
+      subtitle: "Anjeun tiasa ngaktipkeun mode debug pikeun nguji gateway pamayaran.",
     },
 
     limit: {
@@ -3746,20 +3746,20 @@ export default {
     hold_only_for: "barang pangmayaran barang Aya barang",
     manual_input: {
       false_description:
-        "barang pangmayaran status barang barang Ti Ditunggu Ka Negeskeun barang barang pangmayaran barang barang",
+        "Status pamayaran bakal dirobih sacara otomatis tina pending ka dikonfirmasi dina sistem panyadia pamayaran.",
       false_title: "otomatis pangmayaran barang",
       true_title: "barang Pangmayaran barang manual barang",
       true_description:
-        "barang barang pangmayaran barang barang barang Ka barang barang Pangmayaran barang barang 🛍️Pesenan Ka Robah barang status Ti Ditunggu Ka Negeskeun barang barang pangmayaran barang barang",
+        "Teundeun ditahan dina pamayaran jadi Anjeun kudu pariksa pangmayaran pikeun pesenan ngarobah status maranéhanana ti pending ka dikonfirmasi dina sistem panyadia pamayaran.",
     },
     delete_verify_input: {
       true_title: "barang barang Ka Cabut barang pangmayaran métode",
       true_description:
-        "barang pangmayaran métode barang barang barang Ti barang toko barang barang Aya Ka Palanggan",
+        "Metode pamayaran ieu bakal dipiceun tina toko sareng moal sayogi pikeun palanggan.",
     },
     delete_alert: {
       title: "Mupus pangmayaran métode",
-      message: "barang barang barang Mupus barang pangmayaran métode Ti barang Toko?",
+      message: "Naha anjeun yakin ngahapus metode pamayaran ieu ti toko anjeun?",
       action: "Mupus pangmayaran métode",
     },
   },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "Daptar kartu dikaluarkeun",
       subtitle:
-        "Témbongkeun barang Atur sadayana barang Kartu barang barang Ngirim Kartu Ka Pamaké barang barang ",
+        "Ningali sareng atur sadaya kartu anu dikaluarkeun. Anjeun tiasa ngirim kartu ka pangguna sacara manual atanapi nyaram aranjeunna upami diperyogikeun.",
 
       loading_message: "Kéngingkeun inpormasi ... mangga antosan",
       issue_to_user: "Isu pikeun pamaké",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Daptar barang barang barang Paréntah barang barang Ka barang barang Panyadia",
+      "Daptar pesenan anu disingkronkeun sacara éksternal anu kedah dicumponan ku panyadia pihak katilu.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "Ngirim barang pangmayaran barang SMS Ka barang palanggan barang {phone}.",
+      "Kirim SMS konfirmasi pembayaran ka nasabah via {phone}.",
     "sms-ready-to-ship":
-      "Ngirim barang SMS Ka barang palanggan barang barang barang 🛍️Pesenan barang barang Ka barang Dikintunkeun barang {phone}.",
+      "Kirim hiji SMS ka customer ngabéjaan yén pesenan maranéhanana geus siap dikirim via {phone}.",
     "sms-ready-to-pickup":
-      "Ngirim barang SMS Ka barang palanggan barang barang barang 🛍️Pesenan barang barang {phone}.",
+      "Kirim SMS ka palanggan anu ngabéjaan yén pesenanna siap dijemput via {phone}.",
     "sms-order-confirmation":
-      "Ngirim barang 🛍️Pesenan barang SMS Ka barang palanggan barang {phone}.",
+      "Kirim hiji SMS konfirmasi pesenan ka nasabah via {phone}.",
 
     "count-adjustment":
-      "barang kuantitas barang barang produk \"{product}\" barang barang barang Ti {from} Ka {to}.",
+      "Kuantitas produk \"{product}\" geus diropéa tina {from} mun {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4058,7 +4058,7 @@ export default {
     move_category: "Pindahkeun kategori <b>{category}</b> ka kategori séjén",
     move_product: "Pindahkeun produk <b>{product}</b> kana kategori",
     load_more_products:
-      "Tambih deui. . Produk barang Aya barang barang Kategori barang Ka barang Tambih deui. . Barang",
+      "Langkung seueur produk sayogi dina kategori ieu. Pencét pikeun ngamuat langkung seueur barang.",
     product_menu: {
       dashboard: "dasbor produk",
       inventory: "Inventory jeung Varian",
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "barang barang Produk barang barang barang henteu Nyaring",
-      has_root_filter_message: "barang barang Saringan barang barang Kategori",
+      no_root_filter_message: "Anjeun gaduh produk dina akar tapi henteu aya saringan.",
+      has_root_filter_message: "Anjeun nyetél saringan pikeun kategori akar.",
       set_filter_message: "barang barang barang Saringan",
       edit_action: "Édit barang Saringan",
       clear_action: "barang barang Saringan",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "barang",
       sort_categories: "barang / barang Kategori",
       subscription_vendor_not_support_message:
-        "barang barang barang padagang barang Langganan Produk! Langganan Produk barang barang padagang barang barang Nu boga!",
+        "Teu tiasa napelkeun vendor pikeun produk langganan! Produk langganan kedah salawasna gaduh vendor salaku nu gaduhna!",
       vendor_owner_not_assignable_message:
-        "barang barang padagang barang Produk barang barang padagang barang barang Nu boga!",
+        "Teu tiasa napelkeun padagang pikeun produk anu gaduh padagang!",
       category_assign_profile: "barang profil Ka Produk barang barang Kategori",
       category_assign_profile_subtitle: "Pajeg, Balanja, pituduh, garansi,. ..",
       bulk_discount: "barang Diskon",
@@ -4119,10 +4119,10 @@ export default {
     no_panel: "henteu barang",
     manual_action: {
       title: "manual lampah",
-      message: "barang barang Pembaruan barang padagang 🛍️Pesenan status barang",
+      message: "Anjeun tiasa ngapdet status pesenan vendor sacara manual.",
       guides: [
-        "padagang barang barang Aksés barang Pembaruan barang barang (barang) barang barang barang Dasbor",
-        "barang barang padagang barang henteu barang Aksés, barang padagang 🛍️Pesenan status barang barang status",
+        "Ngical paralatan sareng aksés panel tiasa ngamutahirkeun minuhan (sub-order) dina dasbor khususna.",
+        "Upami padagang teu gaduh aksés panel, status pesenan padagang bakal dirobih sacara otomatis ku cara ngarobih status karinjang.",
         "barang barang Pembaruan padagang Paréntah barang",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Produk",
       subtitle:
-        "barang barang barang Témbongkeun barang Ngitung barang barang Produk daptar barang barang Pasaran Produk barang barang padagang barang barang barang",
+        "Di dieu anjeun tiasa ningali jumlah produk anjeun didaptarkeun dina pasaran. Produk ku sababaraha padagang teu kalebet.",
     },
     wallets: {
       title: "Dompét abdi",
       subtitle:
-        "barang barang barang Ka Tambahkeun Dompét barang! padagang Dompét barang barang ",
+        "Anjeun teu kedah nambihan dompét sacara manual! Dompét vendor bakal didamel sacara otomatis.",
     },
 
     open_marketplace_page: "barang Pasaran kaca",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Daptar produk",
     subtitle:
-      "barang barang barang Daptar barang barang Produk barang barang Pasaran Pembaruan Harga barang barang Produk barang barang Inventarisasi barang barang padagang, barang barang tingali barang Produk barang barang produk Daptar barang barang Produk barang barang ",
+      "Ieu daptar produk anjeun dina pasaran. Ngamutahirkeun harga sareng kuantitas pikeun produk anu ditugaskeun anjeun dina inventaris. Salaku vendor, anjeun ngan ukur ningali produk anu ngajual tunggal anu anjeun gaduh dina daptar produk. Produk anu ditugaskeun sanésna ogé tiasa dirobih di dieu.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "barang anggota",
     subtitle:
-      "barang barang barang Daptar barang Pamaké barang barang Aksés Ka barang padagang barang barang barang Tambahkeun Anyar barang anggota barang barang barang idin barang",
+      "Ieu mangrupikeun daptar pangguna anu ngagaduhan aksés kana panel vendor anjeun. Anjeun tiasa nambihan anggota tim énggal sareng ngaluyukeun idinna di dieu.",
     add_action: "Tambahkeun Anyar anggota",
     pending: {
       title: "Ditunggu barang",
-      message: "Témbongkeun barang Daptar barang barang Ngadagoan barang",
+      message: "Tingali daptar ondangan anu ngantosan ditampi.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "barang anggota Rincian",
       subtitle:
-        "Tambahkeun barang Anyar barang anggota barang barang barang idin barang barang Ka barang barang Aksés barang barang barang Ka barang barang utama Toko Dasbor",
+        "Tambahkeun anggota tim anyar tur nyetel idin maranéhanana. Pencét unggal item pikeun nyaluyukeun aksés baca/tulis. Unggal baris pakait jeung tingkat idin pikeun dasbor toko utama.",
     },
     access: {
       view_data: "Témbongkeun barang",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "anggota Tambahkeun",
-        message: "barang barang anggota barang barang barang Tambahkeun",
+        message: "Anggota tim geus hasil ditambahkeun.",
       },
       update_success: {
         title: "anggota barang",
-        message: "barang barang anggota inpormasi barang barang ",
+        message: "Inpormasi anggota tim parantos suksés diropéa.",
       },
     },
     actions: {
@@ -4232,26 +4232,26 @@ export default {
     list: {
       title: "barang Sajarah",
       subtitle:
-        "barang barang Témbongkeun barang barang Sajarah barang barang pangmayaran Jasa barang Panawaran barang barang",
+        "Anjeun tiasa ningali sajarah payout anjeun di dieu. Pangmayaran ieu tiasa diolah sacara manual ngalangkungan transfer bank atanapi otomatis nganggo jasa pamayaran anu nawiskeun kamampuan mayar.",
     },
     connect: {
       title: "Connect barang",
       subtitle:
-        "barang Panawaran barang pangmayaran barang barang pangmayaran Gerbang Ka Narima Pangmayaran barang barang barang Beuli, barang sambungkeun barang barang Rekening barang barang barang",
+        "Kami nawiskeun kamampuan pamayaran pamisah pikeun gerbang pamayaran di handap ieu. Pikeun nampa pangmayaran mulus sanggeus unggal beuli, mangga sambungkeun rekening bank anjeun ngagunakeun pilihan ieu.",
     },
     verify_dialog: {
       title: "barang pangmayaran",
       option: {
         title: "padagang barang",
         subtitle:
-          "barang barang Ka Narima barang Nolak barang Mindahkeun barang barang Ditampi barang barang; barang barang, barang henteu barang Ka barang barang barang",
+          "Anjeun gaduh pilihan pikeun nampi atanapi nampik transfer ieu. Aksi ieu ngan ukur janten catetan sajarah. Kantun mastikeun upami anjeun nampi dana; upami henteu, teu kedah nyandak tindakan.",
       },
       inputs: {
         verify: {
           label: "barang barang Negeskeun barang pangmayaran?",
           false_description:
-            "henteu, barang barang Ditampi barang pangmayaran barang barang barang Rekening",
-          true_description: "enya, barang barang Ditampi barang Diverifikasi barang pangmayaran",
+            "Henteu, kuring henteu acan nampi pamayaran ieu dina rekening bank kuring.",
+          true_description: "Leres, kuring parantos nampi sareng ngaverifikasi pamayaran ieu.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "balikeun duit 🛍️Pesenan",
     subtitle:
-      "<b>barang! </b>barang barang Transaksi barang barang padagang Dompét barang barang Jumlah Ti barang barang Jumlah barang barang Transaksi barang barang Pilih 🛍️Pesenan barang, barang barang Ka Nyambung barang Rekening (barang barang barang Stripe Connect barang manual barang Mindahkeun), barang barang Nyiptakeun barang <b>barang Mindahkeun</b>.",
+      "<b>Penting! </b>Ngalaksanakeun aksi ieu bakal ngahasilkeun transaksi négatip dina dompét anu ngajual sareng ngirangan jumlah anu dipilih. Jumlah teu bisa ngaleuwihan total transaksi sésana pikeun urutan dipilih. Salaku tambahan, upami dana parantos dialihkeun ka rekening bank anu disambungkeun (sapertos Stripe Connect atanapi transfer kawat manual), anjeun kedah nyiptakeun <b>reversal transfer</b>.",
     inputs: {
       note: {
         message: "barang barang Ka barang padagang",
         placeholder: "barang barang Catetan barang",
       },
       amount: {
-        error_message: "barang barang Jumlah barang barang barang",
+        error_message: "Jumlah sésana geus ngaleuwihan.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "barang barang barang Ihtisar barang barang Transaksi barang barang padagang barang Dompét barang barang Pasaran barang barang 🛍️Pesenan barang barang, barang padagang barang barang barang Dijual barang Tambahkeun Ka barang Dompét",
+      "Ieu nyayogikeun tinjauan transaksi dina dompét virtual anu ngajual dina pasaran. Iraha waé pesenan ditempatkeun, bagian anu ngajual penjualan ditambah kana dompétna.",
     vendor_wallets: "padagang Dompét",
     my_wallets: "Dompét abdi",
     refund_order_action: "balikeun duit 🛍️Pesenan",
     automatic_payout_list: {
       subtitle:
-        "barang barang barang Daptar barang otomatis barang Ka barang Nyambung barang Rekening barang Catetan barang barang otomatis barang barang , barang manual barang barang ",
+        "Ieu mangrupikeun daptar pangmayaran otomatis kana rekening bank anjeun anu disambungkeun. Perhatikeun yén ngan payouts otomatis bakal dipintonkeun di dieu, sarta payouts manual moal ditémbongkeun.",
     },
     reversal_transfer_action: "barang Mindahkeun",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "barang barang barang, barang barang Témbongkeun barang Gariswanci barang Kajadian barang Ka barang 🛍️Pesenan, barang, pangmayaran, barang barang barang status barang, barang barang Paréntah barang Ka barang Palanggan barang padagang",
+      "Dina bagian ieu, anjeun tiasa ningali garis waktos kajadian anu aya hubunganana sareng pesenan, minuhan, pamayaran, sareng statusna masing-masing. Salaku tambahan, anjeun tiasa ningali pesenan anu dikirim ka para palanggan sareng padagang.",
     add_note_subtitle: "nulis barang talatah barang barang ",
 
     message_input: "Tulis pesen di dieu...",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Propil Utama",
       subtitle:
-        "Édit barang Umum profil inpormasi barang barang inpormasi barang barang barang Ka barang Palanggan barang barang Pamaké",
+        "Édit inpormasi profil umum anjeun di dieu. Inpormasi ieu tiasa katingali ku palanggan anjeun atanapi pangguna sanés.",
       full_name_input: "Nami lengkep",
       tel_input: "Nomer Kontak",
       email_input: "Surélék",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Pangaturan",
-      description: "Nyiptakeun barang Atur barang barang barang",
+      description: "Jieun sareng atur patarosan anu sering ditaroskeun.",
     },
     "backoffice:faq:read": {
       name: "FAQ Aksés",
@@ -5574,11 +5574,11 @@ export default {
         "OAbarang Klién, Pribadi Aksés barang barang Nyambung Aplikasi",
 
       security: "Kaamanan",
-      security_subtitle: "barang barang Atur barang lebet barang",
+      security_subtitle: "Setel dua faktor sareng atur pilihan login sosial.",
 
       preferences: "Préferénsi pamaké",
       preferences_subtitle:
-        "Robah Téma, barang, barang barang barang Mata uang",
+        "Robah téma, tingkat, basa sareng mata uang standar.",
       my_subscriptions: "Langganan abdi",
       my_subscriptions_subtitle:
         "Aksés Ka barang AI barang barang barang",
@@ -5683,7 +5683,7 @@ export default {
     price: "hargaan",
     verify: {
       true_title: "barang Sarat",
-      true_description: "barang maca barang barang barang Selldone Sarat barang barang",
+      true_description: "Kuring maca sareng satuju sareng istilah panggunaan Selldone",
     },
     need_charge: "Butuh muatan",
     buy_now: "Mésér ayeuna",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Dibeuli Sajarah",
       subtitle:
-        "Lisensi aktip sareng ngantosan.",
+        "Ieu daptar lisénsi aktip tur pending. Anjeun tiasa mésér tawaran saatos ngabiayaan dompét anjeun. Salaku tambahan, perhatikeun yén nalika anjeun ngabatalkeun langganan, jumlah langganan anu sésana bakal dipulangkeun kana dompét virtual anjeun.",
     },
     license_detail: {
       title: "Rincian",
       subtitle:
-        "Watesan rencana anjeun ayeuna.",
+        "Ieu mangrupikeun watesan rencana anjeun ayeuna. Pikeun langkung rinci, mangga buka halaman harga. Anjeun tiasa ngaksés sadaya fitur dina sadaya rencana, kalebet rencana gratis, pikeun ngamimitian bisnis anjeun sareng tumbuh. Nalika anjeun skala bisnis anjeun, pertimbangkeun ningkatkeun ka rencana tingkat luhur pikeun nurunkeun biaya jasa anjeun.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "barang barang Dompét",
         subtitle:
-          "Pilih barang barang Dompét Ka barang barang barang Langganan barang barang , barang barang Nyiptakeun barang barang barang Dompét barang barang Dompét barang barang Dipaké barang barang barang",
+          "Pilih dompét virtual pikeun dianggo pikeun langganan anjeun. Upami anjeun teu acan gaduh, anjeun tiasa nyiptakeunana dina bagian dompét. Dompét ieu bakal dianggo pikeun biaya naon waé.",
       },
       auto_renewal: {
         true_title: "Pembaruan otomatis",
         true_description:
-          "barang Langganan barang barang Dompét barang barang Kasaimbangan barang barang ",
+          "Langganan anjeun bakal otomatis di-renew upami dompét anjeun gaduh kasaimbangan anu cekap atanapi upami anjeun gaduh voucher anu sah.",
       },
       options: {
         title: "barang barang",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Ngaran",
     info: {
       subtitle:
-        "Ka barang barang produk, barang barang Rincian barang barang ",
+        "Pikeun ngahasilkeun produk, anjeun ngan ukur tiasa ngalebetkeun detil penting anu dipikabutuh pikeun nyiptakeunana.",
     },
     price: {
       subtitle:
-        "barang barang hargaan barang Diskon barang barang produk barang barang produk barang Tambahkeun, barang barang Aksés Ka Tambih deui. . barang",
+        "Lebetkeun harga sareng diskon pikeun produk ieu. Sakali produk ditambahkeun, anjeun bakal boga aksés ka leuwih pilihan.",
     },
     by_sku: {
       title: "Tambahkeun barang SKU",
-      subtitle: "barang barang Nagara barang barang Aya",
+      subtitle: "Pangkalan data di nagara anjeun henteu sayogi.",
     },
     drop_shipping: {
       subtitle:
-        "barang Produk barang barang barang Pasaran barang Tambahkeun barang Ka barang toko",
+        "Milarian produk di pasar grosir sareng tambahkeun ka toko anjeun.",
     },
     by_connect: {
       subtitle:
-        "barang Tambahkeun Produk Ti POD barang barang Selldone Connect OS—barang sambungkeun barang toko barang barang otomatis produk barang, henteu barang barang",
+        "Gampang nambahkeun produk ti POD atanapi dropshipping suppliers kalawan Selldone Connect OS-ngan sambungkeun toko anjeun sarta ngarasakeun integrasi produk otomatis, euweuh plugins diperlukeun.",
     },
     your_license_is_not_eligible: "barang Lisensi barang barang barang",
     sku_dialog: {
       title: "Tambahkeun produk barang SKU",
       subtitle:
-        "barang barang Ka barang Produk barang barang SKU barang barang Tambahkeun barang barang ",
+        "Anjeun gaduh kamampuhan pikeun maluruh produk ku SKU maranéhanana dina database kami sarta nambahan aranjeunna kalayan ngan hiji klik.",
     },
     dropshipping_dialog: {
       title: "Tambahkeun barang Produk",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "barang, barang barang Daptar barang Produk barang Selldone, barang barang Aya barang barang , barang barang ",
+      "Di dieu, anjeun tiasa mendakan grosir anu daptar produkna dina Selldone, ngajantenkeun aranjeunna sayogi pikeun padagang sanés. Platform dropshipping anu diwangun ku Selldone nyederhanakeun prosésna, janten gampang sareng lugas pikeun para grosir sareng padagang.",
   },
 
   /** @see Affiliates **/
@@ -5892,35 +5892,35 @@ export default {
       new: "Mitra afiliasi anyar",
       edit: "Édit afiliasi barang",
       subtitle:
-        "barang barang barang Setélan barang Ngaran barang barang afiliasi barang",
+        "Konpigurasikeun setélan umum sareng nami afiliasi di dieu.",
     },
 
     payment: {
       title: "pangmayaran inpormasi",
       subtitle:
-        "barang barang Komisi barang barang barang afiliasi barang barang komisi, barang barang barang komisi barang barang produk",
+        "Setel struktur komisi pikeun afiliasi. Anjeun tiasa ngagabungkeun komisi tetep sareng persentase, atanapi nyetél komisi khusus pikeun unggal produk.",
     },
 
     contact: {
       title: "Inpormasi kontak",
-      subtitle: "barang barang Kontak Rincian barang barang afiliasi barang barang",
+      subtitle: "Nyadiakeun wincik kontak ti mitra affiliate dieu.",
     },
 
     restriction: {
       title: "Komisi watesan",
       subtitle:
-        "barang barang Produk barang barang barang Komisi barang barang barang komisi Ka barang Produk",
+        "Nangtukeun produk mana anu layak pikeun komisi. Anjeun tiasa ngawatesan komisi pikeun produk tangtu.",
     },
 
     link_domain: {
       title: "kakait domain",
       subtitle:
-        "Tumbu barang barang barang Domain Ka barang afiliasi barang barang barang Meuli barang barang domain barang barang barang Ka barang afiliasi",
+        "Tautkeun salah sahiji domain anjeun ka pasangan afiliasi ieu. Datang anu meuli ngaliwatan domain ieu bakal attributed ka affiliate ieu.",
 
       domain_not_approved_msg: "barang domain barang barang !",
       domain_is_not_enable_msg: "barang domain barang barang diaktipkeun!",
       domain_is_linked_to_other_affiliate_msg:
-        "barang domain barang barang kakait Ka barang afiliasi!",
+        "domain ieu geus numbu ka affiliate sejen!",
     },
 
     set_users_first_message: "barang barang barang pamaké barang!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "barang",
       subtitle:
-        "barang barang afiliasi barang barang barang Ka Atur barang barang barang Sumberdaya barang barang barang",
+        "Gaulkeun afiliasi ieu sareng kluster pikeun ngatur sareng sumber daya sanés dina hiji tempat.",
       manage_action: "Atur",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "afiliasi barang Ngaran",
-        message: "barang, barang barang, barang Pausahaan, barang barang, barang",
+        message: "misalna, John Doe, Alex Company, X Marketers, jsb.",
       },
       commission: {
         label: "Komisi barang",
         false_description:
           "barang barang komisi",
         true_description:
-          "barang barang barang komisi barang barang barang hargaan barang",
+          "Itung nganggo komisi khusus produk anu disetél dina tab harga.",
         false_title: "barang + barang Komisi",
         true_title: "barang Komisi",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "afiliasi barang barang Paréntah barang barang barang Palanggan barang barang barang",
+          "Affiliates tiasa nempatkeun pesenan langsung pikeun konsumén maranéhanana ngaliwatan panel maranéhanana.",
         true_title: "POS Aksés",
       },
       enable: {
         true_description:
-          "barang barang afiliasi barang Aktip? barang teu aktif, barang afiliasi barang barang barang Ka Paréntah barang barang barang Tumbu",
+          "Naha afiliasi ieu ayeuna aktip? Upami teu aktip, program afiliasina moal dilarapkeun kana pesenan anu dilakukeun ngaliwatan tautanna.",
       },
       products: {
         label: "Produk barang barang Komisi",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "barang barang afiliasi barang barang barang Ti barang Toko afiliasi inpormasi barang barang Waktos barang barang",
+        "Anjeun tiasa ngabéréskeun hutang-hutang anu luar biasa sareng afiliasi sateuacan ngahapus tina toko anjeun. Inpormasi afiliasi bakal tetep tiasa diaksés pikeun waktos kawates saatos ngahapus.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "Adat hargaan barang pangajen",
     subtitle:
-      "barang barang barang (barang hargaan input formulir) Ka barang produk, barang Palanggan Ka Pilih Varian barang barang hargaan barang barang barang Adat Input",
+      "Napelkeun pangajen (bentuk input harga) kana produk, ngamungkinkeun para nasabah pikeun milih varian atanapi pribados dagangan anjeun. Sistim nu lajeng bakal ngitung harga dumasar kana inputs custom.",
     add_valuation_action: "Nyiptakeun Anyar barang formulir",
     empty_message:
-      "barang barang Varian, barang barang Ka barang Basajan produk",
+      "Gantina nyieun sababaraha varian, mertimbangkeun ngamekarkeun strategi pangajen nu bisa dilarapkeun ka produk basajan.",
     delete_dialog: {
       title: "barang Cabut",
       message:
-        "barang barang Ka Mupus barang hargaan formulir? barang barang Adat hargaan barang barang barang Ti sadayana barang Produk barang",
+        "Naha anjeun yakin hoyong ngahapus formulir harga ieu? Punten pastikeun yén strategi harga khusus ieu dipiceun tina sadaya produk anu aya hubunganana.",
       action: "Leres, Pupus Ayeuna",
     },
     notifications: {
@@ -6033,14 +6033,14 @@ export default {
     title_add: "Nyiptakeun Anyar barang formulir",
     config: {
       subtitle:
-        "barang barang Ka Nyiptakeun barang hargaan barang barang Produk Mimitian barang barang Ngaran",
+        "Nyetél sistem pangajen pikeun nyiptakeun harga anu fleksibel nganggo rumus sareng tabel rujukan pikeun produk anjeun. Mimitian ku méré pangajen ieu ngaran unik.",
     },
     valuation_preview: "Sawangan barang formulir",
     load_sample: "barang barang",
     conditions: {
       title: "Kaayaan",
       subtitle:
-        "barang barang Adat Varian barang barang Pangaturan barang barang barang",
+        "Nangtukeun logika pikeun varian custom. Konfigurasi ieu simplifies manajemén kasadiaan varian.",
     },
     structure: {
       title: "barang",
@@ -6051,8 +6051,8 @@ export default {
     },
     inputs: {
       title: {
-        message: "barang Judul barang barang barang Ka Palanggan",
-        placeholder: "barang barang Ngaran barang hargaan, barang, 'barang hargaan",
+        message: "Judul ieu teu katingali ku konsumén.",
+        placeholder: "Lebetkeun nami kanggo harga, contona, 'Harga Mugs'",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "barang Konfigurasi",
         subtitle:
-          "barang barang Diskon Kodeu barang barang: barang (LIMIT, PERCENT * barang hargaan). barang Ka ngahasilkeun barang kode barang barang barang Ka barang",
+          "Rumus itungan kode diskon nyaéta: max (WATAS, PERSENT * harga karanjang). Inget sangkan kodeu relevan sarta gampang diinget.",
       },
       limit: {
         title: "barang",
         subtitle:
-          "barang barang maksimum barang Wates barang barang Diskon Kodeu, barang barang maksimum Diskon Jumlah, barang barang barang",
+          "Anjeun tiasa nangtukeun wates pamakean maksimum pikeun tiap kode diskon, kitu ogé jumlah diskon maksimum, dina bagian ieu.",
       },
       duration: {
         title: "Lilana Wates",
         subtitle:
-          "barang barang barang Ka barang barang Diskon Kodeu barang barang , barang barang Lilana barang",
+          "Upami anjeun hoyong ngaktipkeun kode diskon pikeun jangka waktu anu khusus, anjeun tiasa netepkeun durasi éta di dieu.",
       },
       design: {
         subtitle:
-          "barang barang Judul barang Katerangan barang barang Diskon Kodeu barang Rincian barang barang barang Ka barang pamaké",
+          "Anjeun tiasa nyetél judul sareng pedaran pikeun tiap kode diskon. Rincian ieu bakal ditingalikeun ka pangguna.",
       },
       cluster: {
         subtitle:
-          "barang barang barang Diskon Kodeu barang barang barang, barang barang barang Atur barang barang barang Sumberdaya barang barang barang lokasi",
+          "Ku ngahubungkeun kode diskon ieu sareng klaster, anjeun tiasa sacara gampil ngaturna sareng sumber daya sanés dina hiji lokasi.",
       },
     },
     delete_alert: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "barang barang Kupon Diskon barang barang: CHARGE + barang (LIMIT, PERCENT * barang hargaan).",
+        "Rumus itungan diskon Kupon nyaéta: CHARGE + max (WATAS, PERSENT * harga karanjang).",
     },
     limit: {
       subtitle:
-        "barang barang barang, barang barang Ka barang barang barang maksimum barang barang Kupon barang barang barang Diskon Jumlah barang Kupon barang barang",
+        "Dina bagian ieu, anjeun tiasa nyetél jumlah maksimal panggunaan per kupon sareng jumlah diskon pangluhurna anu tiasa disayogikeun ku unggal kupon.",
       zero_message: "barang: barang barang henteu Wates!",
     },
     duration: {
       subtitle:
-        "barang barang barang Ka barang barang Kupon Ka barang Aktip, barang barang Lilana barang barang barang",
+        "Upami anjeun badé nyetél waktos khusus pikeun kupon aktip, anjeun tiasa ngonpigurasikeun durasi dina bagian ieu.",
     },
     design: {
       subtitle:
-        "barang Kupon barang barang Judul barang Katerangan barang Rincian barang barang barang Ka barang palanggan",
+        "Unggal Kupon ngamungkinkeun pikeun nambahkeun judul na déskripsi. Rincian ieu bakal katingali ku palanggan.",
     },
     constraints: {
       subtitle:
-        "barang, barang barang Ka barang barang Kupon",
+        "Di dieu, anjeun gaduh kamampuan pikeun netepkeun parameter pribadi tambahan pikeun kupon.",
       no_limit: "henteu barang Watesan",
       has_limit: "barang barang",
       has_code_message: "pamaké barang barang barang Kodeu Ka Tambahkeun Kupon",
     },
     club: {
       subtitle:
-        "barang Kupon barang barang Ka anggota barang barang palanggan barang",
+        "Pamakéan kupon ieu tiasa diwatesan sacara éksklusif pikeun anggota klub palanggan anu dipilih.",
     },
     cluster: {
       subtitle:
-        "barang barang barang Kupon barang barang barang, barang barang barang Atur barang barang barang Sumberdaya barang barang barang lokasi",
+        "Ku ngahubungkeun kupon ieu sareng klaster, anjeun tiasa sacara gampil ngaturna sareng sumber daya sanés dina hiji lokasi.",
     },
     preview: {
-      subtitle: "barang barang Umum Sawangan barang barang Kupon",
+      subtitle: "Ieu sawangan umum kupon.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "barang barang Judul, Katerangan, barang Umum barang status",
+        "Mimitian ngadamel deal anu cerdas ku netepkeun judulna, katerangan, sareng status kasadiaan umum.",
     },
     limit: {
-      subtitle: "barang barang maksimum barang Wates barang barang Panawaran barang barang barang",
+      subtitle: "Setel wates pamakean maksimum pikeun panawaran ieu dina bagian ieu.",
     },
     duration: {
       subtitle:
-        "barang barang barang Ka barang barang Panawaran, barang barang Lilana barang",
+        "Upami anjeun badé nyetél waktos khusus pikeun tawaran, anjeun tiasa ngonpigurasikeun durasi di dieu.",
     },
     constraints: {
       subtitle:
-        "barang barang Kaayaan barang barang Panawaran barang barang Panawaran barang Ka barang Barang barang barang barang Kaayaan",
+        "Setel kriteria eligibility sareng kaayaan panawaran di dieu. Panawaran manglaku ka barang-barang karanjang anu nyumponan kaayaan ieu.",
     },
     discounted_products: {
       title: "diskon Produk",
       subtitle:
-        "barang barang Produk Ka barang barang Panawaran barang barang barang Diskon",
+        "Anjeun tiasa nangtukeun produk nu panawaran ieu bakal nerapkeun diskon.",
     },
     cluster: {
       subtitle:
-        "barang barang barang Panawaran barang barang barang, barang barang barang Atur barang barang barang Sumberdaya barang barang barang lokasi",
+        "Ku ngahubungkeun panawaran ieu sareng klaster, anjeun tiasa sacara gampil ngaturna sareng sumber daya sanés dina hiji lokasi.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "afiliasi Tumbu",
       subtitle:
-        "barang barang barang Tumbu barang barang afiliasi barang Ka barang Penjualan barang komisi Tambahkeun barang kode '{code}' Ka barang Tumbu barang barang barang Adat barang domain barang barang afiliasi barang barang 48barang",
+        "Ngahasilkeun tautan unik pikeun pasangan afiliasi anjeun pikeun ngalacak penjualan sareng komisi. Tambihkeun kode rujukan '{code}' kana tautan naon waé atanapi pasangkeun domain khusus khusus pikeun afiliasi anjeun. Ieu bakal dilacak ku sistem pikeun 48h.",
     },
     fix_commission: "komisi dibereskeun",
     percent_commission: "komisi dumasar perséntase",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "barang palanggan Beuli barang barang toko barang barang Palanggan barang barang Beuli barang barang 10 barang, barang barang barang Panawaran barang barang , barang barang Ka barang barang Toko-toko barang",
+        "Ngaronjatkeun pameseran pelanggan ku pangalaman gamified di toko anjeun. Nyetél hadiah jeung odds unggul pikeun konsumén anu earn tokens ngaliwatan purchases. Unggal kaulinan waragad 10 tokens, tur anjeun tiasa nawiskeun hadiah husus pikeun pembeli mimitina-waktos. Kaulinan standar nyaéta Wheel of Fortune, tapi anjeun tiasa ngaropea pikeun nyocogkeun kana perenah toko anjeun.",
     },
     empty_prize_list: "Nyiptakeun barang Atur barang barang",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Unggul Kasempetan dina persen",
     free_for_first: "Éta gratis pikeun konsumén anyar?",
     free_for_first_message: "konsumén anyar bisa meunang item ieu.",
-    not_free_for_first_message: "barang barang barang Aya barang barang gratis barang",
+    not_free_for_first_message: "hadiah ieu teu sadia pikeun kahiji bebas muter .",
 
     amount: "Jumlah hadiah",
     amount_hint: "Pamaké meunang jumlah ieu muatan pikeun pesenan maranéhanana.",
@@ -6614,11 +6614,11 @@ export default {
     },
     config: {
       subtitle:
-        "barang, barang barang Nyiptakeun barang Toko-toko Lotre barang barang barang Judul, Katerangan, Warna, barang Gambar barang barang barang",
+        "Di dieu, anjeun tiasa nyiptakeun hadiah lotre toko anjeun. Setel judul, katerangan, warna, sareng gambar pikeun tiap hadiah.",
     },
     design: {
       subtitle:
-        "barang, barang barang Ka barang barang Gambar barang Warna barang barang barang",
+        "Di dieu, anjeun gaduh pilihan pikeun milih gambar sareng warna pikeun hadiah.",
     },
     constraints: {
       subtitle: "barang barang ",
@@ -6626,11 +6626,11 @@ export default {
     prize: {
       title: "barang",
       subtitle:
-        "barang barang Rincian barang barang barang Diskon kode, kado Kartu, barang, barang barang diskon barang Lotre barang",
+        "Nyetél wincik hadiah di dieu. Pilihan kalebet kode diskon, kartu kado, sks, sareng diskon sanésna salaku hadiah lotre.",
     },
     product_input: {
       label: "produk barang",
-      message: "Pilih barang produk barang barang (barang gratis)",
+      message: "Pilih produk pikeun hadiah (gratis)",
     },
   },
 
@@ -7047,12 +7047,12 @@ export default {
         subtitle: "barang barang Ka barang barang barang",
         sample_files: "barang file",
         valid_vendor_name_needed:
-          "barang barang <b>barang Ngaran</b>. barang <b>Ngaran</b> barang Dipaké Ka barang barang Ka <i>Nyiptakeun</i> barang Anyar padagang barang <i>Pembaruan</i> barang barang barang",
+          "Anjeun kudu nyadiakeun <b>ngaran valid</b>. <b>name</b> dipaké pikeun nangtukeun naha bakal <i>Create</i> vendor anyar atawa <i>Update</i> nu geus aya.",
         assign_user_after_import:
-          "barang Impor padagang, barang barang pamaké Ka barang barang Aksés Ka barang padagang barang",
+          "Saatos ngimpor ngical paralatan, anjeun tiasa sacara manual napelkeun pangguna pikeun masihan aranjeunna aksés ka panel vendor.",
       },
       need_kyc_alert:
-        "barang barang Ka barang barang Pribadi inpormasi barang Impor padagang",
+        "Anjeun kedah pariksa inpormasi pribadi anjeun sateuacan ngimpor padagang.",
       back_to_vendors_list: "Balik deui Ka padagang Daptar",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "padagang Produk",
     subtitle:
-      "barang barang daptar sadayana Produk tawaran barang padagang barang barang Pasaran, barang produk barang barang kakait Ka barang barang Tambih deui. . padagang barang padagang barang barang barang produk barang barang Ngawengku Inventarisasi barang hargaan Rincian barang Ka barang padagang",
+      "Katalog ieu daptar sadaya produk anu ditawarkeun ku padagang. Di pasar, hiji produk tiasa dikaitkeun ka hiji atanapi langkung padagang. Unggal padagang anu aya hubunganana sareng produk gaduh éntri unik anu kalebet inventaris sareng detil harga khusus pikeun anu ngajual éta.",
     filter_vendor: {
       placeholder: "Nyaring barang padagang",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "barang padagang barang",
     title: "padagang barang Daptar",
     subtitle:
-      "barang barang barang Daptar barang Paménta Ti barang barang Ka barang padagang barang barang Pasaran",
+      "Ieu mangrupikeun daptar pamundut ti individu anu parantos ngalamar janten padagang di pasar anjeun.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,47 +7088,47 @@ export default {
     marketplace: {
       title: "Pasaran",
       subtitle:
-        "barang barang Pasaran barang barang Ka barang barang Pasaran, barang barang toko barang barang Setélan",
+        "Nganonaktipkeun pasar bakal mareuman sababaraha pungsi. Upami anjeun hoyong mareuman sadayana pasar anjeun, anjeun kedah nganonaktipkeun toko anjeun dina setélan.",
     },
     distribution_model: {
       title: "barang barang",
       subtitle:
-        "barang barang padagang Ka barang Barang barang Ka barang barang barang Paréntah barang barang Gudang barang Balanja, barang barang ",
+        "Pasar tiasa beroperasi dina modél distribusi anu béda. Naha anjeun resep ngical paralatan ngirim barang langsung ka pembeli atanapi ngahijikeun pesenan di gudang anjeun pikeun pengiriman, anjeun tiasa milih modél anu paling cocog sareng kabutuhan anjeun di dieu.",
     },
     access: {
       title: "padagang Aksés",
       subtitle:
-        "barang barang barang, barang barang Aksés padagang barang Ka barang produk Dasbor barang barang Aksés Setélan Ka barang padagang Ka Tambahkeun barang barang Produk barang Kategori barang barang barang Aksés Ka barang barang",
+        "Salaku administrator, anjeun ngadalikeun tingkat aksés nu ngical paralatan kana dasbor produk. Saluyukeun setelan aksés global pikeun ngidinan ngical paralatan nambahkeun produk jeung kategori sorangan atawa ngawatesan aksés ieu ka administrator wungkul.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Aktipkeun Balanja barang padagang barang barang Toko > Logistik barang barang barang métode barang",
-    transportation_available_tooltip: "barang barang barang Aya barang padagang",
+      "Aktipkeun pengiriman barang kanggo padagang dina tab Toko> Logistik pikeun tiap metode masing-masing.",
+    transportation_available_tooltip: "pilihan ieu sadia pikeun ngical paralatan.",
     transportation_not_available_tooltip:
-      "barang Aya barang padagang! barang barang Aktipkeun barang barang Setélan",
+      "Teu sadia pikeun ngical paralatan! Anjeun tiasa ngaktipkeun dina setélan transportasi.",
     panel: {
       title: "padagang barang",
-      subtitle: "barang barang padagang barang barang Adat domain",
+      subtitle: "Onboard padagang anjeun ngalangkungan domain khusus anjeun.",
     },
     documents: {
       title: "barang",
       subtitle:
-        "barang barang padagang Ka Unggah barang barang ",
+        "Anjeun tiasa meryogikeun vendor anjeun pikeun unggah dokumén atanapi nandatanganan kontrak anu tangtu. Sebutkeun dokumén anu diperyogikeun di dieu.",
       add_document_action: "Tambahkeun barang barang",
     },
     inputs: {
       enable: {
         false_description:
-          "barang Pasaran barang barang barang, barang sadayana Pasaran barang",
+          "Pasar dipareuman, nganonaktipkeun sadaya fungsi pasar.",
         true_description:
-          "barang Pasaran barang Aktip, barang sadayana Pasaran barang",
+          "Pasar aktip, ngamungkinkeun sadaya fungsi pasar.",
       },
       product: {
         label: "Tambahkeun produk anyar",
         true_title: "padagang barang Tambahkeun Produk",
         false_description:
-          "barang Tambahkeun Produk barang barang padagang padagang barang barang Atur hargaan barang Inventarisasi",
+          "Anjeun nambahkeun produk jeung napelkeun ngical paralatan. Vendor ngan ukur tiasa ngatur harga sareng inventaris.",
         true_description:
-          "padagang barang Tambahkeun barang Atur barang barang Produk barang barang barang padagang barang",
+          "Ngical paralatan tiasa nambihan sareng ngatur produkna nyalira langsung dina panel vendor na.",
       },
       need_verify: {
         label: "produk barang Aliran",
@@ -7144,27 +7144,27 @@ export default {
         false_description:
           "barang Tambahkeun Kategori padagang barang barang Tambahkeun Produk Ka barang Kategori",
         true_description:
-          "padagang barang Tambahkeun barang Atur Kategori barang barang barang padagang barang",
+          "Vendor tiasa nambihan sareng ngatur kategori langsung dina panel vendor na.",
       },
       shipping: {
         label: "Balanja barang",
         true_title: "padagang barang Balanja barang",
         false_description:
-          "padagang barang Tambahkeun barang barang barang Balanja métode",
+          "Vendor teu tiasa nambihan atanapi ngaropea metode pengirimanna.",
         true_description:
-          "padagang barang barang Balanja métode, Tambahkeun Kurir, barang barang Balanja barang barang barang",
+          "Vendor tiasa nyetél metode pengiriman sorangan, nambihan kurir, sareng ngaropea pengiriman pikeun kaperluanana.",
       },
       hidden_customer: {
         label: "Tampilkeun barang Kontak inpormasi",
         true_description: "barang Kontak Rincian barang barang Ti padagang",
         false_description:
-          "barang Kontak Rincian, barang barang telepon barang Surélék, barang barang Ka padagang",
+          "Rincian kontak pembeli, sapertos telepon sareng email, katingali ku padagang.",
       },
       multi: {
         false_description:
-          "barang pamaké barang barang padagang Rekening Pamaké barang barang barang Ka barang barang barang /padagang",
+          "Pamaké tiasa gaduh ngan hiji akun vendor. Pamaké bakal dialihkeun ka panel maranéhanana di /vendor.",
         true_description:
-          "barang pamaké barang barang barang padagang Rekening barang barang ; barang Kontak barang barang ",
+          "Pamaké tiasa gaduh sababaraha akun vendor. Ieu fitur béta; mangga ngahubungan kami saméméh ngagunakeun éta.",
         true_title: "barang modeu",
         false_title: "barang padagang modeu (barang)",
       },
@@ -7172,9 +7172,9 @@ export default {
       listing: {
         label: "Daptaran barang padagang",
         true_description: "Daptaran barang diaktipkeun barang padagang padagang barang Atur Daptaran Barang barang Pausahaan",
-        false_description: "Daptaran barang dipareuman barang padagang barang barang Toko Nu boga barang Atur Daptaran Barang barang Pausahaan",
+        false_description: "Listing ditumpurkeun pikeun ngical paralatan. Ngan nu boga toko nu bisa ngatur daptar barang jeung pausahaan.",
         requires_listing_active_text:
-          "Ka barang padagang barang Daptaran (Barang + Pausahaan), barang Aktipkeun barang Toko Daptaran barang barang Saluran → Daptaran barang barang Balik deui barang Ka barang padagang Aksés",
+          "Pikeun ngantepkeun padagang nganggo Listing (item + perusahaan), aktipkeun heula fitur Listing toko dina Saluran → Listing. Lajeng datang deui ka dieu pikeun ngidinan aksés ngajual.",
         requires_listing_active_button: "barang Saluran Daptaran Setélan",
       },
 
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "barang Tipe",
         subtitle:
-          "Tambahkeun barang barang padagang barang, barang barang Ka Unggah barang barang barang",
+          "Tambahkeun item pamundut dokumen di dieu. Éta bakal muncul dina panel vendor, ngadorong aranjeunna unggah dokumén anu diperyogikeun.",
       },
       guide: {
         title: "pituduh",
         subtitle:
-          "barang barang barang pituduh Ka pitulung padagang barang barang barang Ka Unggah barang barang Ka barang barang barang",
+          "Nyadiakeun pituduh ringkes pikeun ngabantosan padagang ngartos dokumén mana anu badé diunggah sareng kumaha cara ngalakukeunana leres.",
       },
       code: {
         title: "Lebetkeun Kodeu",
         subtitle:
-          "barang barang Lebetkeun Kodeu barang barang barang, formulir, barang barang padagang barang barang",
+          "Tempelkeun kodeu embed pikeun dokumén, formulir, atanapi kontrak anu kedah ditandatanganan ku vendor.",
       },
       link: {
         title: "Tumbu éksternal",
         subtitle:
-          "barang barang barang Tumbu Ka barang barang padagang barang barang",
+          "Nyadiakeun tautan éksternal kana dokumén atanapi kontrak anu kedah ditandatanganan ku vendor.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "pituduh (opsional)",
           placeholder:
-            "barang, barang barang barang pituduh barang barang, barang Tumbu Ka barang barang ",
+            "Optionally, nyadiakeun pituduh ringkes atawa parentah, kaasup tumbu ka kontrak atawa dokumén lianna.",
         },
         code: {
           label: "Lebetkeun Kodeu",
@@ -7236,12 +7236,12 @@ export default {
     Collective: {
       title: "barang modeu",
       description:
-        "barang barang modeu, sadayana Paréntah barang Dikirim Ka barang Gudang barang barang barang Dikintunkeun Ka Palanggan Ti barang barang lokasi padagang barang Ngirim barang Barang Ka barang Gudang, barang barang Balanja alamat barang padagang barang barang barang Gudang alamat",
+        "Dina modeu ieu, sadaya pesenan dikirim ka gudang Anjeun mimitina lajeng dikirim ka konsumén ti lokasi sentral. Vendor bakal ngirim barang-barangna ka gudang anjeun, ku kituna alamat pangiriman pikeun padagang bakal janten alamat gudang anjeun.",
     },
     Direct: {
       title: "barang Balanja Ti padagang",
       description:
-        "barang barang modeu, padagang barang Paréntah barang Ka Palanggan barang Balanja alamat barang padagang Paréntah barang barang alamat",
+        "Dina modeu ieu, padagang ngirim pesenan langsung ka konsumén. Alamat pengiriman barang pikeun pesenan vendor bakal alamat pembeli.",
     },
   },
   /**
@@ -7251,22 +7251,22 @@ export default {
     Identification: {
       title: "Nu boga barang barang",
       description:
-        "Unggah barang barang ID Ka barang barang KYC barang barang usaha Nu boga barang barang barang",
+        "Unggah ID anu dikaluarkeun pamaréntah pikeun pariksa idéntitas pamilik usaha atanapi eksekutif konci.",
     },
     Business: {
       title: "usaha barang",
       description:
-        "barang barang usaha barang barang barang lisénsi barang barang barang Ka barang barang barang status barang barang usaha",
+        "Nyadiakeun dokumén bisnis penting sapertos lisénsi atanapi sertipikat pendaptaran pikeun mastikeun status hukum bisnis anjeun.",
     },
     Address: {
       title: "alamat barang",
       description:
-        "barang barang barang Ka barang barang usaha alamat, barang barang , Pajeg invoice, barang barang barang",
+        "Kirimkeun dokumén pikeun pariksa alamat bisnis anjeun, sapertos tagihan utiliti, invoice pajak, atanapi perjanjian ngajakan.",
     },
     Contract: {
       title: "barang & barang",
       description:
-        "Unggah barang barang Sarat barang Kaayaan barang barang usaha barang",
+        "Unggah kontrak atanapi perjanjian anu rinci ngeunaan syarat sareng kaayaan hubungan bisnis anjeun.",
     },
     Copyright: {
       title: "barang barang",
@@ -7276,17 +7276,17 @@ export default {
     Privacy: {
       title: "Privasi kabijakan barang",
       description:
-        "barang barang Privasi kabijakan barang Ka barang barang barang Ka barang pamaké barang palanggan inpormasi",
+        "Kalebet dokumén kabijakan privasi anjeun pikeun nunjukkeun komitmen anjeun pikeun ngajagi inpormasi pangguna sareng palanggan.",
     },
     Embed: {
       title: "barang formulir",
       description:
-        "barang barang barang formulir Ka barang barang barang inpormasi",
+        "Lengkepan formulir anu dipasang pikeun nyayogikeun inpormasi anu diperyogikeun.",
     },
     Link: {
       title: "Tumbu éksternal",
       description:
-        "barang barang barang Tumbu Ka barang barang barang inpormasi",
+        "Turutan tautan éksternal pikeun nyayogikeun inpormasi anu diperyogikeun.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "padagang Dompét",
     subtitle:
-      "henteu barang Ka barang Tambahkeun Dompét! padagang Dompét barang barang Aktipkeun barang pangmayaran métode barang rojongan barang barang (Siga Stripe Connect), barang barang Pangmayaran Ka barang Nyambung padagang Rekening barang barang diaktipkeun, barang barang Ka barang Mayar padagang, barang barang jumlah barang Ka barang barang barang Dompét Daptar",
+      "Henteu kedah nambihan dompét sacara manual! Dompét vendor dijieun sacara otomatis. Upami anjeun ngaktipkeun metode pamayaran anu ngadukung pangmayaran pamisah (sapertos Stripe Connect), sistem bakal otomatis ngadistribusikaeun pamayaran ka rekening padagang anu disambungkeun. Upami fitur ieu henteu diaktipkeun, anjeun kedah mayar padagang sacara manual, sareng anjeun tiasa pariksa jumlah hutangna dina daptar dompét.",
     filter_vendor: {
       placeholder: "Nyaring barang padagang",
     },
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "barang barang Daptar barang sadayana Transaksi barang barang Pilih Dompét barang muatan Transaksi barang barang palanggan barang barang 🛍️Pesenan barang barang 🛍️Pesenan barang barang balikeun duit, barang barang balikeun duit Transaksi barang barang ",
+      "Bagian ieu nyayogikeun daptar lengkep sadaya transaksi pikeun dompét anu dipilih. Transaksi muatan dirékam nalika palanggan suksés mayar pesenan. Upami pesenan dibatalkeun atanapi sawaréh dibalikeun deui, transaksi ngabalikeun duit saluyu ogé bakal kacatet di dieu.",
     vendor_bank: "padagang barang",
     order_fee: "🛍️Pesenan waragad",
     order_refund: "🛍️Pesenan balikeun duit",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "barang Sajarah",
     subtitle:
-      "barang barang barang Akunting barang barang padagang barang barang sadayana Transaksi Pangmayaran barang barang métode, barang barang pangmayaran Panyadia barang Ngarojong barang Pangmayaran, Siga barang",
+      "fitur ieu streamlines akuntansi pikeun anjeun sarta ngical paralatan anjeun ku ngajaga rékaman lengkep sadaya transaksi. Pangmayaran tiasa diolah sacara manual ngalangkungan transfer bank atanapi metode sanés, atanapi sacara otomatis dikelola ku panyadia pamayaran anu ngadukung pamayaran pamisah, sapertos Stripe.",
     top_up_vendor_action: "barang barang padagang Rekening",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "hargaan Rencana",
     subtitle:
-      "barang barang hargaan barang barang barang Pasaran, Siga barang 5% barang waragad barang barang Produk barang ngahasilkeun hargaan Pangaturan barang barang Tambih deui. . barang",
+      "Setel modél harga pikeun pasar anjeun, sapertos biaya margin 5% pikeun produk digital. Hal ieu ngajantenkeun manajemén harga langkung gancang sareng langkung efisien.",
     add_pricing_action: "Tambahkeun hargaan Rencanana",
   },
 
@@ -7341,10 +7341,10 @@ export default {
   vendor_pricing_add: {
     title: "Pasaran hargaan barang",
     subtitle:
-      "barang barang hargaan barang Ka padagang Produk, barang hargaan barang barang padagang hargaan * (1 + Komisi%).",
+      "Lamun anjeun napelkeun model harga pikeun ngajual produk, harga bakal otomatis diitung salaku Vendor Harga * (1 + Komisi%).",
     delete: {
       subtitle:
-        "barang barang hargaan barang barang barang sadayana padagang Produk kakait Ka barang barang hargaan barang, ngahasilkeun barang Ka Pembaruan sadayana padagang Produk barang barang hargaan barang",
+        "Ngahapus modél harga bakal mangaruhan sadaya produk ngajual anu aya hubunganana. Sateuacan ngahapus modél harga, pastikeun pikeun ngapdet sadaya produk anu ngajual nganggo éta sareng pasangkeun modél harga anu béda.",
       remove_pricing_action: "Cabut hargaan barang",
     },
     inputs: {
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "barang, barang Produk barang",
       },
       description: {
-        placeholder: "barang barang Tambahkeun barang Catetan barang",
+        placeholder: "Anjeun tiasa nambihan catetan di dieu ...",
       },
       accept_delete: {
-        true_description: "barang barang Ka Mupus barang hargaan barang",
+        true_description: "Abdi hoyong mupus model harga ieu.",
         true_title: "barang hargaan barang barang",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "padagang",
       subtitle:
-        "Pilih barang padagang barang barang Ka Mindahkeun barang Ka barang Pilih, Aya pangmayaran barang barang diaktipkeun barang pangmayaran Gerbang, barang barang ",
+        "Pilih padagang anu anjeun hoyong transfer dana. Sakali dipilih, pilihan pembayaran sadia bakal dipintonkeun. Upami anjeun parantos ngaktipkeun gateway pembayaran anu sanggup mayar, pilihan éta ogé bakal muncul di dieu.",
     },
     vendor_wallet: "padagang Dompét",
     vendor_bank_account: "padagang barang Rekening",
     with_balance_tooltip:
-      "barang barang sambungkeun barang Jasa Siga Stripe Connect, barang barang Aya Kasaimbangan barang barang Stripe Rekening barang barang",
+      "Nalika anjeun nyambungkeun jasa pembayaran sapertos Stripe Connect, kami nyandak sareng ningalikeun kasaimbangan anu sayogi dina akun Stripe anjeun pikeun rujukan.",
     with_balance: "barang Kasaimbangan",
     without_balance: "barang Kasaimbangan - barang modeu",
     bank_transfer: {
       title: "barang Mindahkeun",
       subtitle:
-        "barang barang pangmayaran Sajarah henteu barang duit barang barang barang Ka barang padagang barang barang barang; barang barang barang Mayar barang padagang",
+        "Ieu mangrupikeun catetan sajarah pamayaran. Taya duit sabenerna bakal dibikeun ka ngajual ku sistem; anjeun kedah mayar sacara manual ka padagang anjeun.",
     },
     vendor_bank: "padagang barang",
     gateway_in_debug_mode_warning:
-      "barang barang pangmayaran Gerbang barang barang modeu, barang barang Ka barang barang Rekening",
+      "Kusabab gateway pamayaran ayeuna dina modeu debug, dana moal ditransfer ka akun nyata.",
     payment: {
       title: "pangmayaran",
       subtitle:
-        "barang barang Mata uang barang barang barang Jumlah barang barang Ka Mindahkeun Ka barang padagang barang barang Jumlah, barang barang Ti barang padagang Dompét barang Nyambung Rekening barang barang barang, barang barang Ti barang Nyambung Rekening, barang barang barang padagang Stripe Rekening",
+        "Pilih mata uang sareng lebetkeun jumlah anu anjeun hoyong kirimkeun ka anu ngajual. Upami anjeun ngasupkeun jumlah négatip, dana bakal ditarik tina dompét anu ngajual. Pikeun akun anu nyambung sareng pilihan pangmayaran, dana bakal dipotong tina akun anu disambungkeun, sapertos akun Stripe vendor.",
     },
     history: {
       title: "Sajarah",
       subtitle:
-        "barang barang barang pangmayaran barang barang balikeun duit barang barang barang Mindahkeun, barang barang Kasaimbangan barang barang barang Ti barang padagang Rekening barang Dipulangkeun Ka barang Rekening",
+        "Bagian tina pamayaran ieu geus refunded ngaliwatan mindahkeun ngabalikeun, hartina kasaimbangan geus deducted ti akun vendor sarta balik ka akun anjeun.",
     },
     refund: {
       title: "balikeun duit",
       subtitle:
-        "barang balikeun duit Jumlah barang barang barang Ti barang padagang Kasaimbangan sadayana Pangmayaran (barang barang jumlah) barang barang padagang Rekening (Siga Stripe Connect) barang barang balikeun duit barang barang barang Mindahkeun",
+        "Jumlah refunded bakal deducted tina kasaimbangan ngajual urang. Sadaya pamayaran (atanapi jumlah sésana) dina akun vendor (sapertos Stripe Connect) bakal dibalikeun deui ku transfer ngabalikeun.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "barang barang Tambahkeun barang Catetan barang barang Catetan barang barang barang Ka barang padagang",
+          "Anjeun tiasa nambihan catetan di dieu ... Catetan ieu henteu katingali ku anu ngajual.",
       },
       accept_refund: {
         true_description: "barang barang Ka Ngabolaykeun barang pangmayaran",
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "barang barang",
         message:
-          "barang padagang barang barang Réngsé barang, barang duit barang Ti barang barang Ka barang Dompét barang Tambahkeun Ka barang Dompét Kasaimbangan",
+          "Ngabalikeun dana vendor urang geus réngsé suksés, jeung duit ditransfer ti bank kana dompét jeung ditambahkeun kana kasaimbangan dompét.",
       },
       payout_success: {
         title: "barang",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "barang",
-    max_batch_msg: "maksimum barang barang Barang barang barang Impor barang barang ",
-    max_daily_limit_msg: "maksimum barang barang Barang barang barang Impor barang barang barang",
+    max_batch_msg: "Jumlah maksimum barang anu anjeun tiasa impor dina hiji angkatan.",
+    max_daily_limit_msg: "Jumlah maksimum barang anu anjeun tiasa impor dina sadinten.",
     extra_daily_limit_msg: "barang Barang barang barang Wates",
     add_items_today_msg: "Barang Tambahkeun Kiwari",
     file_statistic_msg: "Statistik barang barang file",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Warna téma",
     theme_colors_description:
-      "barang barang primér Warna barang barang barang Toko barang barang Citakan barang barang Ka barang barang Warna barang barang merek",
+      "Anjeun tiasa pribados palette warna primér toko anjeun di dieu. Unggal citakan tiasa ngagunakeun warna-warna ieu pikeun otomatis ngahasilkeun rentang warna lengkep anu saluyu sareng merek anjeun.",
     products_view_mode: "Témbongkeun daptar balanja",
     products_view_mode_desc:
       "Anjeun tiasa nyaluyukeun mode tampilan produk di toko anjeun dumasar kana ukuran layar. Modeu ieu bakal dianggap sacara standar sareng moal diterapkeun upami pangguna ngarobih mode tampilan.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "barang Judul",
-      subtitle: "barang Jangkungna barang barang Judul barang barang barang",
+      subtitle: "Jangkungna judul bakal nyaluyukeun dinamis.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "barang barang",
         false_description:
-          "Kategori barang Produk barang barang Ka Tampilkeun barang barang",
+          "Kategori sareng produk gaduh animasi interaktif pikeun nunjukkeun pungsionalitasna.",
         true_title: "Statik",
         true_description: "Kategori barang Produk barang henteu barang",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "barang lampah",
       hover: {
         false_description:
-          "Basajan barang barang modeu barang barang barang lampah barang produk Kartu",
+          "Modeu sederhana sareng minimal tanpa tindakan tambahan dina kartu produk.",
         true_description:
-          "Tampilkeun barang Meuli & Tambahkeun Ka barang barang barang produk Kartu barang",
+          "Témbongkeun meuli Gancang & Tambah pikeun ngabandingkeun tombol dina kartu produk hovering.",
         true_title: "Tampilkeun barang barang barang",
       },
     },
@@ -7530,7 +7530,7 @@ export default {
       only_available: {
         false_description: "Tampilkeun sadayana Produk barang barang Toko Daptar barang barang",
         true_description:
-          "Tampilkeun barang Aya Produk barang barang Toko Daptar barang barang",
+          "Tampilkeun ngan ukur produk anu sayogi dina daptar toko salaku standar.",
         true_title: "Aya Produk",
         false_title: "sadayana Produk",
       },
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "produk kaca",
       subtitle:
-        "barang barang produk kaca barang barang Harga barang barang Ka barang barang barang",
+        "Pribadi halaman produk anjeun di dieu. Anjeun tiasa nyaluyukeun tampilan harga sareng ngarobih susunan bagian pikeun nyocogkeun karesep anjeun.",
       buy_button_color: "Meuli barang Warna",
       smart_price: {
         title: "barang unit hargaan",
         true_description:
-          "barang unit hargaan barang barang Beurat, volume, barang barang Varian barang conto barang barang 2barang barang barang $5 barang hargaan, barang barang palanggan tingali barang $2.5/barang barang barang produk kaca",
+          "Ngitung harga unit ku nimbangkeun beurat, volume, sareng sipat varian pak. Misal. Upami anjeun gaduh varian kalayan ukuran 2L sareng $5 salaku harga, maka nasabah ningali $2.5 / L dina halaman produk.",
       },
       reverse_currency: {
         title: "Mata uang barang Posisi",
         false_title: "Modeu normal",
         true_title: "barang modeu",
         false_description:
-          "barang Mata uang barang barang Mimitian barang barang barang conto: $95, €30",
+          "Tanda mata uang bakal ditempatkeun di awal angka. Contona: $95 , €30",
         true_description:
-          "barang Mata uang barang barang Tungtung barang barang barang conto: 95$, 30€",
+          "Tanda mata uang bakal ditempatkeun di tungtung angka. Contona: 95$ , 30€",
       },
       variants_selector: {
         title: "Varian barang",
         subtitle:
-          "barang barang Ka barang Varian barang barang produk kaca",
+          "Anjeun tiasa milih sababaraha cara pikeun mintonkeun varian dina kaca produk.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "barang & lebet",
       subtitle:
-        "barang barang padagang barang barang lebet barang barang barang Adat barang, Gambar, barang talatah",
+        "Pribadoskeun onboarding vendor sareng pangalaman login ku pidéo, gambar, atanapi pesen khusus.",
     },
     inputs: {
       page_vendor_login: {
         label: "padagang lebet kaca",
         message:
-          "Pilih barang Adat badarat kaca barang padagang lebet barang barang, Gambar, barang barang Desain barang kaca barang barang Ka padagang barang barang ",
+          "Pilih halaman badarat khusus pikeun login vendor. Kalebet video, gambar, atanapi téks pikeun desain anu unik. Kaca ieu ditembongkeun ka padagang anu teu asup.",
       },
       page_vendor_registered: {
         label: "padagang Kadaptar kaca",
         message:
-          "Pilih barang Adat kaca barang barang padagang barang kaca barang barang Pasaran rojongan barang padagang barang pamaké",
+          "Pilih halaman khusus pikeun padagang anu asup. Halaman ieu dipintonkeun upami pasar anjeun ngadukung sababaraha padagang per pangguna.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Adat Varian",
       subtitle:
-        "barang Produk barang barang Varian barang barang Robah barang barang Ngaran barang Varian barang barang barang Ka barang barang Barang barang barang Palanggan barang barang maksimum Panjangna barang 24.",
+        "Produk fisik tiasa gaduh varian. Anjeun tiasa ngarobih nami standar tina varian. Saran kami nyaéta ngantepkeun barang-barang ieu salaku standar sareng kosong supados seldone bakal otomatis narjamahkeunana pikeun konsumén anjeun kana basana. Panjang maksimum nyaéta 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "lulugu barang",
       subtitle:
-        "barang barang, barang Toko-toko barang barang lulugu, barang barang barang Unggah barang Adat barang barang , barang barang barang Ka barang barang barang Jangkungna barang Lebar barang barang barang",
+        "Sacara standar, logo toko anjeun dipintonkeun dina header, tapi anjeun tiasa unggah logo khusus. Upami logo anjeun henteu gaduh rasio aspek kuadrat, anjeun panginten kedah nyaluyukeun jangkungna sareng lebar sacara manual pikeun presentasi anu optimal.",
     },
     header_title: {
       title: "lulugu Judul",
       subtitle:
-        "barang barang Judul barang barang barang lulugu barang barang Kaca barang barang Ka barang Cabut barang, barang barang barang 'barang barang Judul barang",
+        "Anjeun tiasa ngarobih judul anu dipidangkeun dina lulugu halaman anjeun di dieu. Upami anjeun hoyong ngahapus lengkep, mangga klik tombol 'Setel judul kosong'.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "barang modeu",
       description:
-        "barang Varian barang barang , barang barang ",
+        "Varian kompak dina pilihan misah anu tiasa dipilih, cocog pikeun kalolobaan kasus.",
     },
     select: {
       title: "Pilih modeu",
       description:
-        "barang sadayana Varian barang barang barang, barang barang Varian",
+        "Némbongkeun sakabéh varian dina dropdown a, idéal pikeun sajumlah badag varian.",
     },
   },
 
@@ -7677,17 +7677,17 @@ export default {
     add_title: "Tambahkeun barang barang",
     config: {
       subtitle:
-        "barang Judul barang Katerangan barang barang Ka Pagawe barang",
+        "Atur judul sareng pedaran pikeun set harta anjeun. Ieu bakal katingali ku staf wungkul.",
     },
     variants: {
       title: "Varian",
       subtitle:
-        "barang barang Ngaran, Ikon, barang 🛍️Pesenan barang barang Produk barang barang Varian barang barang 6 Varian, barang barang barang Adat Varian barang barang produk barang",
+        "Anjeun tiasa nyaluyukeun nami varian, ikon, sareng pesenan di dieu. Upami Anjeun gaduh rupa-rupa produk jeung varian unik nu teu cocog standar 6 varian, Anjeun tiasa nyetel varian custom pikeun tiap produk dieu.",
     },
 
     inputs: {
       title: {
-        placeholder: "barang barang Judul barang barang barang",
+        placeholder: "Lebetkeun judul pikeun set harta...",
       },
       description: {
         placeholder: "barang barang barang Katerangan (opsional)",
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Manajemén konsumén",
     subtitle:
-      "Palanggan barang barang Tambahkeun Ka barang toko barang barang barang; barang, barang barang Impor, barang barang POS, barang barang toko barang barang pamaké barang barang barang toko, barang barang Kadaptar barang barang palanggan",
+      "Konsumén bisa ditambahkeun kana toko anjeun ku sababaraha cara; sacara manual, impor Excel bulk, ngaliwatan POS, atawa via toko online Anjeun. Iraha waé pangguna asup ka toko anjeun, aranjeunna bakal otomatis kadaptar salaku palanggan.",
     add_customer_action: "Tambahkeun Anyar palanggan",
 
     all_customers: "Unduh sadaya palanggan",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "Édit palanggan",
     add_title: "Tambahkeun Anyar palanggan",
     subtitle:
-      "Ka Tambahkeun barang palanggan Ka barang toko, barang barang Surélék alamat barang barang telepon barang",
+      "Pikeun nambihan palanggan ka toko anjeun, punten nyayogikeun alamat email atanapi nomer telepon.",
     more: {
       title: "Tambahkeun leuwih rinci",
       subtitle: "barang Mata uang, palanggan Klub, Bagéan, alamat barang Tambih deui. .",
     },
     detail: {
       subtitle:
-        "barang barang Pribadi inpormasi barang barang palanggan barang barang barang Palanggan Privasi",
+        "Simpen rékaman inpormasi pribadi ngeunaan palanggan anjeun. Mangga hormat privasi customer anjeun.",
     },
     preferences: {
       subtitle: "barang barang pamaké Mata uang, palanggan Klub, barang Bagéan barang",
     },
     address: {
       subtitle:
-        "barang alamat barang barang Dipaké barang barang POS. barang pamaké barang barang tingali barang inpormasi",
+        "Alamat ieu tiasa dianggo dina POS. Pamaké henteu tiasa ningali inpormasi ieu.",
     },
   },
 
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "barang barang ",
 
     pickup_ready_action: "barang barang",
-    pickup_ready_action_subtitle: "barang 🛍️Pesenan barang barang barang palanggan barang",
+    pickup_ready_action_subtitle: "Pesenan parantos siap dijemput pelanggan.",
 
     service_action: "barang barang",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "barang Pangiriman barang",
       true_description:
-        "barang barang 🛍️Pesenan barang barang Dihaturkeun Ka barang palanggan",
+        "Kuring mastikeun yén urutan geus dikirimkeun ka konsumén.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "barang Dasbor",
     subtitle:
-      "barang barang barang, barang Komisi waragad barang barang Dibayar Ka barang barang Rekening barang barang inpormasi barang",
+      "Kana pamundut anjeun, fee komisi bakal dibayar ka rekening bank dieusian ku anjeun. Punten pasihan inpormasi bank anjeun di dieu.",
     no_bank_info: "henteu barang Inpo!",
     actions: {
       edit_my_bank_info: "Édit barang barang Inpo",
@@ -8013,17 +8013,17 @@ export default {
       info: {
         title: "barang",
         subtitle:
-          "barang input barang barang inpormasi barang barang inpormasi Ka Mindahkeun barang barang Rekening barang barang barang Ngaran barang barang barang usaha Ngaran, barang barang",
+          "Mangga lebetkeun inpormasi bank anjeun di dieu. Kami bakal ngagunakeun inpormasi ieu pikeun mindahkeun dana. Pastikeun yén rekening bank aya dina ngaran anjeun atanapi dina nami bisnis anjeun, sakumaha lumaku.",
       },
       inputs: {
         name: {
           label: "barang Ngaran",
-          message: "barang barang Ngaran barang barang Rekening barang barang",
+          message: "Nami lengkep bank dimana akunna dicekel.",
         },
         holder_name: {
           label: "Rekening barang Ngaran",
           message:
-            "barang barang Ngaran barang barang Rekening",
+            "Ngaran lengkep jalma atawa éntitas nu nyepeng akun.",
         },
         account_number: {
           label: "Nomer akun",
@@ -8031,23 +8031,23 @@ export default {
             "barang barang Rekening",
         },
         routing_number: {
-          label: "barang barang (USA) barang barang Kodeu (UK)",
+          label: "Routing Number (AS) atawa Sort Code (UK)",
           message:
-            "barang barang (barang Sarat barang Dipaké barang barang barang).",
+            "Jumlah anu nangtukeun cabang bank husus (istilah béda dipaké di nagara béda).",
         },
         swift: {
           label: "SWIFT/BIC Kodeu",
           message:
-            "barang barang Kodeu Dipaké Ka barang barang barang, barang barang ",
+            "Kode internasional anu dianggo pikeun ngaidentipikasi bank sacara global, khususna pikeun transfer internasional.",
         },
         iban: {
           label: "IBAN (barang barang Rekening barang)",
           message:
-            "Dipaké barang barang barang, barang IBAN barang barang Rekening barang barang barang",
+            "Dipaké utamana di Éropa, IBAN mangrupa sistem internasional sapuk-kana pikeun ngaidentipikasi rekening bank sakuliah wates nasional.",
         },
         contact: {
           label: "Inpormasi kontak",
-          message: "telepon barang barang Surélék alamat barang barang barang Rekening",
+          message: "Nomer telepon atanapi alamat email anu aya hubunganana sareng akun.",
         },
         note: {
           label: "Catetan",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "barang barang Inpo barang barang barang",
+        message: "Inpo bank anjeun geus hasil diropéa.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Ti sadayana jasa barang, Langganan barang barang Pangmayaran barang barang ",
+      "Tina sadaya biaya jasa, langganan sareng pamayaran sanés anu dilakukeun ku rujukan anjeun.",
   },
 
   /**
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Pangmayaran rujukan",
     subtitle:
-      "barang barang Daptar barang Ditarikna Transaksi barang barang Mindahkeun barang Ti barang Dompét Ka barang barang Rekening barang barang Selldone Dompét, barang barang barang daptar barang",
+      "Ieu daptar transaksi ditarikna. Nalika anjeun nransper dana tina dompét rujukan ka akun bank anjeun atanapi dompét Seldone anjeun, éta bakal didaptarkeun di dieu.",
 
     officer: "Patugas",
     amount: "Jumlah transaksi",
@@ -8520,15 +8520,15 @@ export default {
     manage: {
       title: "Atur SMS",
       subtitle:
-        "barang barang tingali barang barang pesen Dikirim barang barang toko barang barang Ka barang Watesan barang barang jasa, barang barang Ka barang barang barang pesen barang barang barang",
+        "Anjeun tiasa ningali eusi pesen téks anu dikirim ku toko anjeun di dieu. Kusabab keterbatasan dina ngadaptarkeun pola validasi dina ladenan olahtalatah, teu mungkin pikeun ngaropea pesen téks ayeuna.",
     },
 
     template: {
       title: "barang",
       valid_message: "barang barang Nyiptakeun Adat SMS pesen",
-      provider_not_enable_message: "barang SMS barang barang barang diaktipkeun!",
+      provider_not_enable_message: "Panyadia SMS teu diaktipkeun!",
       need_custom_provider_message:
-        "barang SMS pesen barang barang Adat barang",
+        "Talatah SMS anu disesuaikan ngan ukur tiasa dianggo upami anjeun nyetél panyadia khusus.",
       add_new: "Tambahkeun Anyar",
       disable_reason: {
         set_provider: "barang barang !",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "Tampilkeun barang diaktipkeun",
 
       text_template_not_supported_msg:
-        "barang barang Ngarojong barang barang pesen",
+        "Panyadia anjeun henteu ngadukung pesen téks biasa.",
       structure_template_not_supported_msg:
         "barang barang Ngarojong barang pesen",
 
@@ -8556,7 +8556,7 @@ export default {
       config: {
         title: "talatah Konfigurasi",
         subtitle:
-          "barang barang Nyiptakeun barang Citakan barang barang SMS talatah barang barang SMS Panyadia barang, barang barang barang Kodeu barang barang inpormasi Ka barang barang, barang barang barang SMS talatah barang barang barang",
+          "Anjeun tiasa nyiptakeun citakan kanggo pesen SMS dina situs wéb panyadia SMS anjeun, teras tangtukeun kode sareng struktur datana di dieu. Kami bakal neraskeun inpormasi ieu ka panyadia anjeun, dimana pesen SMS anu saleresna bakal dihasilkeun.",
         code: "Kodeu",
         language_msg: "barang barang barang Ka barang barang ",
         enable_msg: "barang Citakan barang barang Dipaké Ka Nyiptakeun pesen",
@@ -8564,7 +8564,7 @@ export default {
       text: {
         title: "barang barang",
         subtitle:
-          "barang barang barang SMS talatah barang barang Dikirim Ka barang pamaké",
+          "Lebetkeun pesen SMS pribadi di dieu. Nilai dinamis bakal diganti ku nilai sabenerna saméméh dikirim ka pamaké.",
         message: "talatah",
         reset_to_default: "barang Ka barang",
 
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "barang Citakan",
         subtitle:
-          "barang barang Citakan barang barang Nilai barang barang Citakan Kodeu barang barang SMS jasa barang, barang barang <code>barang</code> barang barang Ka Ngirim barang Kodeu barang barang barang <code>Nilai</code> barang barang Citakan barang barang, barang <code>{code}</code> barang barang Citakan Kodeu",
+          "Anjeun tiasa nyetél konci template sareng nilai di dieu. Kodeu citakan kedah persis naon anu anjeun setel dina panyadia ladénan SMS anjeun, sareng <code>key</code> mangrupikeun anu badé dikirimkeun ku panyadia anjeun. Lamun <code>value</code> widang template kosong, lajeng <code>{code}</code> bakal dianggap salaku kode template.",
         add_new_parameter: "Tambahkeun Anyar barang",
 
         auto_fill: {
           title: "otomatis barang barang",
           subtitle:
-            "barang barang Nilai, barang Selldone barang barang Nilai barang barang Ka barang barang SMS barang barang , barang barang barang henteu barang Ka barang barang ",
+            "Anjeun tiasa nyetél unggal parameter ieu salaku nilai, sarta Selldone bakal ngaganti aranjeunna ku nilai pakait. Langkung sae pikeun netepkeun nilai standar salaku témplat dina panyadia SMS anjeun pikeun kesederhanaan. Dina hal ieu, teu kudu nangtukeun nilai parameter di dieu.",
         },
         request: {
           title: "barang barang",
         },
         sample: {
           title: "barang Citakan talatah",
-          subtitle: "barang barang Citakan Ka barang SMS barang",
+          subtitle: "Anjeun tiasa nyalin sareng ngalangkungan template ieu ka panyadia SMS anjeun.",
         },
         add_message_action: "Tambahkeun talatah Citakan",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "barang barang",
-      desc: "talatah barang barang barang Ti barang barang barang otomatis barang barang barang Ngirim",
+      desc: "Pesen bakal dijieun tina téks kalawan otomatis ngaganti parameter jeung ngirim.",
     },
     template: {
       title: "barang Citakan",
-      desc: "barang barang Ti barang barang Ngirim Ka barang barang",
+      desc: "Hiji obyék bakal dijieun tina parameter jeung dikirim ka panyadia nu.",
     },
   },
 
@@ -8617,40 +8617,40 @@ export default {
     title: "Adat SMS barang",
     reset_error: "barang barang",
     subtitle:
-      "barang barang barang Adat SMS jasa barang barang SMS barang usaha Ngaran barang barang Ngirimkeun barang SMS barang barang pesen barang barang ",
+      "Setel panyadia ladénan SMS khusus sareng saluyukeun SMS auténtikasi sareng nami bisnis anjeun. Panyadia standar ngan ukur ngirim SMS auténtikasi sareng ngawartosan pesen di sababaraha nagara anu kadaptar bodas.",
     plain_text: "barang barang",
     structural_template: "barang Citakan",
     errors_limit_msg:
-      "barang barang jasa barang 100 barang, barang barang barang dipareuman barang! barang barang Ka barang barang",
+      "Upami jasa anjeun langkung ti 100 kasalahan, éta bakal dinonaktipkeun sacara otomatis! Anjeun tiasa ngareset kasalahan pikeun ngaktipkeun deui.",
 
     enable_input: {
       false_description:
-        "OTP pesen barang barang Selldone barang Pilih barang, barang barang 🛍️Pesenan Bewara SMS barang barang Dikirim barang barang",
+        "Pesen OTP bakal dikirim ngaliwatan Selldone di nagara-nagara anu dipilih, sedengkeun SMS bewara pesenan anu sanés bakal dikirim ogé.",
       true_description:
-        "SMS pesen barang barang Dihaturkeun barang barang jasa barang",
+        "Talatah SMS bakal dikirimkeun nganggo panyadia ladénan anjeun.",
     },
     test_input: {
       true_title: "barang barang",
       true_description:
-        "barang barang Ngirim barang barang talatah Ka barang telepon barang 📞 <b>{phone}</b>, barang barang muatan barang, barang barang barang ngahasilkeun barang barang ",
+        "Kami bakal ngirim pesen tés ka nomer telepon anjeun 📞 <b>{phone}</b>, éta tiasa ngecas anjeun, tapi anjeun tiasa mastikeun yén sadayana tiasa dianggo.",
     },
     sync_action: {
       title: "lampah",
       subtitle:
-        "barang SMS Jasa barang barang Jasa Siga Kampanye, Pamasaran, barang barang Kontak barang barang inpormasi Ka barang barang barang Tambih deui. . barang",
+        "Sababaraha ladenan SMS nyadiakeun layanan tambahan kawas kampanye, pamasaran, jeung fitur sejenna. Anjeun tiasa nyingkronkeun kontak anjeun atanapi inpormasi tambahan pikeun ngagunakeun fitur-fiturna langkung gancang.",
       action: "barang Kontak",
     },
     tokens: {
       title: "barang",
       subtitle:
-        "barang barang Ka Tumbu barang SMS jasa barang barang barang Toko",
+        "Setel parameter di handap ieu pikeun ngaitkeun panyadia layanan SMS anjeun sareng toko anjeun.",
     },
   },
   sms_messages_options: {
     all: {
       title: "OPT + 🛍️Pesenan Bewara",
       description:
-        "barang pesen barang 🛍️Pesenan Bewara barang barang Dikirim",
+        "Pesen auténtikasi sareng béwara pesenan bakal dikirim.",
     },
     otp: {
       title: "OTP barang",
@@ -8681,21 +8681,21 @@ export default {
   shop_email_provider: {
     title: "Adat barang barang",
     subtitle:
-      "Connect barang barang jasa barang Ka Ngirim Surélék barang barang Adat domain",
+      "Sambungkeun panyadia ladénan surat anjeun pikeun ngirim surelek liwat domain khusus anjeun.",
     provider: "barang",
     enable_input: {
-      false_description: "barang Surélék barang barang Dikirim barang barang barang domain",
-      true_description: "barang Surélék barang barang Dikirim barang barang Adat barang domain",
+      false_description: "Surélék anjeun bakal dikirim via domain myseldone anjeun.",
+      true_description: "Surélék anjeun bakal dikirim ngaliwatan domain mail custom Anjeun.",
     },
     config: {
       title: "barang",
       subtitle:
-        "Ka barang barang Adat barang jasa barang barang Toko, input barang jasa API barang barang Setélan",
+        "Pikeun ngonpigurasikeun jasa surat khusus anjeun pikeun toko anjeun, asupkeun konci API jasa anjeun sareng setélan anu sanés.",
     },
     sender: {
       title: "Ti",
       subtitle:
-        "barang barang Ngaran barang Surélék alamat, barang barang barang Dipaké barang barang Surélék Ka barang Palanggan",
+        "Anjeun tiasa ngonpigurasikeun nami pangirim standar sareng alamat email, anu bakal dianggo pikeun ngirim email ka konsumén anjeun.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "barang barang jasa barang 100 barang, barang barang barang dipareuman barang! barang barang Ka barang barang",
+        "Upami jasa anjeun langkung ti 100 kasalahan, éta bakal dinonaktipkeun sacara otomatis! Anjeun tiasa ngareset kasalahan pikeun ngaktipkeun deui.",
 
       encryption_ports_guide:
-        "Surélék Panyadia barang Panawaran SSL, TLS, barang barang Aya barang barang sambungkeun barang barang , barang barang barang modeu barang barang <b>TLS</b> barang barang: <b>587</b> barang <b>SSL</b> barang barang: <b>465</b>.",
+        "Panyadia email tiasa nawiskeun SSL, TLS, atanapi sambungan anu teu énkripsi dumasar kana palabuhan anu sayogi. Upami nyambungkeun nyababkeun kasalahan, ngarobih modeu énkripsi tiasa ngabéréskeun masalah éta. Baku <b>TLS</b> pamakéan Port: <b>587</b> na <b>SSL</b> pamakéan Port: <b>465</b>.",
 
       enable_receive_test:
-        "barang Simpen barang, barang barang Narima barang barang <b>{email}</b>. Simpen barang barang Surélék barang barang Anyar barang",
+        "Saatos nyimpen parobahanana, anjeun bakal nampa hiji mail test on <b>{email}</b>. Simpen parobahan sateuacan ngirim email tés nganggo konfigurasi énggal.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Penjualan Saluran",
     subtitle:
-      "Nyiptakeun barang barang Kategori barang barang Produk, barang barang Gambar barang barang, barang barang Ka Instagram barang barang, barang barang , barang barang Ka barang barang barang Produk",
+      "Jieun kategori khusus pikeun produk anjeun, lengkep sareng gambar sareng video, sareng bagikeun ka média sosial anjeun. Éta sami sareng Instagram sareng TikTok, tapi kalayan kadali pinuh, ngamungkinkeun anjeun langsung ngajual produk anjeun.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8801,7 +8801,7 @@ export default {
     service: {
       title: "Desain jasa",
       sub_title:
-        "barang Pilih barang jasa Tipe barang barang inpormasi barang conto, barang barang Daptar barang barang barang palanggan barang barang barang Waktos barang barang barang",
+        "Pilih heula jinis jasa anjeun sareng lebetkeun inpormasi anu diperyogikeun. Salaku conto, anjeun tiasa nangtukeun daptar tugas atanapi naroskeun palanggan pikeun waktos booking atanapi janjian.",
     },
   },
 
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Pajak kudu ditambahkeun kana harga ahir.",
     invoice: {
       subtitle:
-        "barang barang barang formulir, barang barang Nyiptakeun barang pangmayaran Tumbu barang barang barang Jumlah barang barang ngahasilkeun barang barang invoice barang barang pangmayaran barang barang ",
+        "Ku ngagunakeun formulir ieu, anjeun bisa nyieun tumbu pembayaran pikeun jumlah husus. Éta ogé ngajadikeun nyukcruk invoice sareng ngonfirmasi parantosan pamayaran langsung sareng gampang.",
     },
   },
 
@@ -8949,7 +8949,7 @@ export default {
     drag_sort_msg: "barang barang file",
     paid_mode_msg: "Pamaké barang Unduh barang barang produk",
     free_mode_msg:
-      "Pamaké barang Unduh barang barang gratis barang file barang barang barang 50 MB.",
+      "Pamaké bisa ngundeur éta haratis. Sampel file kedah kirang ti 50 MB.",
     has_gust_shopping_msg:
       "Kadaptar barang barang Pamaké barang Unduh file barang barang Beuli barang diaktipkeun barang barang Toko-toko Setélan > Aliran",
     only_registered_shopping_msg:
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Aya Lokasi",
     subtitle:
-      "barang barang produk barang jasa barang barang Aya barang barang Wewengkon, barang barang Nagara barang barang kode, barang barang Lokasi barang barang lokasi watesan barang barang produk barang barang barang produk kaca, Palanggan barang barang barang Ka Pilih barang lokasi barang barang produk barang Aya barang barang barang Daérah, barang barang Ka barang barang barang Beuli",
+      "Upami produk atanapi jasa anjeun ngan sayogi di daérah khusus, didefinisikeun ku nagara sareng kode pos atanapi pin, anjeun tiasa nunjuk lokasi éta di dieu. Watesan lokasi ieu dikuatkeun dina tingkat produk. Dina kaca produk, konsumén bakal dipenta pikeun milih lokasi maranéhanana. Upami produkna sayogi di daérah anu dipilih, aranjeunna tiasa neraskeun ngagaleuh.",
 
     add_location_action: "Tambahkeun Nagara",
     no_restriction: "henteu watesan",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "barang lokasi watesan",
       description:
-        "Palanggan barang barang Beuli barang produk barang barang barang Nagara barang barang Kodeu, barang Ka barang barang lokasi watesan",
+        "Konsumén ngan ukur tiasa mésér produk ieu dina nagara sareng kode pos anu ditangtukeun, kusabab larangan lokasi anu ditetepkeun.",
     },
     zip_pin_code: "barang / barang kode",
     no_country_selected_error:
-      "barang barang Nagara barang barang barang Daptar barang barang kode barang barang, barang produk barang barang barang Aya",
-    tips: "barang barang barang <b>+ Tambahkeun Nagara</b> barang Ka Mimitian barang barang Anyar lokasi barang barang , barang barang Simpen barang barang <b>⋮ ménu</b> barang Pilih <b>Simpen profil</b>.",
+      "Punten kalebet sahenteuna hiji nagara sareng daptar kode pos/pin. Tanpa éta, produk ieu moal sayogi.",
+    tips: "Klik tombol <b>+ Tambah Nagara</b> pikeun ngamimitian nyieun set lokasi anyar. Saatos réngsé, anjeun tiasa nyimpen ku ngaklik <b>⋮ di katuhu luhur Menu</b> sareng milih <b>Simpen Profil</b>.",
     need_save_message:
-      "barang lokasi watesan Setélan barang barang produk barang barang barang Ka barang barang barang, barang barang 'Simpen barang barang",
+      "Setelan pangwatesan lokasi pikeun produk geus dirobah. Pikeun ngawétkeun parobahan ieu, mangga klik tombol 'Simpen' di handap.",
 
     add_dialog: {
       title: "Tambahkeun Nagara",
       message:
-        "barang barang Nagara barang barang 'Tambahkeun barang barang Nagara Ka barang barang, barang barang Ka barang barang, barang kode, barang barang, barang Wewengkon barang Ka barang",
+        "Pilih nagara sareng klik 'Tambahkeun'. Ieu bakal nambihan nagara kana tabél, ngamungkinkeun anjeun pikeun napelkeun Kode Pos, Kodeu Pin, Ngaran Kota, atanapi nami Daérah.",
     },
     save_profile_dialog: {
       title: "Tambahkeun Lokasi profil",
       message:
-        "barang input barang Ngaran Ka Simpen barang barang barang Lokasi barang barang lokasi barang barang Ka barang Produk, barang barang barang lokasi barang barang profil barang barang barang Ngaran barang barang, barang barang Anyar barang",
+        "Mangga lebetkeun nami kanggo nyimpen set lokasi ieu. Set lokasi anu disimpen ieu tiasa diterapkeun ka produk anu sanés, ngamungkinkeun pikeun loading lokasi gancang kalayan ngan hiji klik. Upami profil sareng nami anu disayogikeun parantos aya, éta bakal diropéa nganggo nilai-nilai anyar ieu.",
       title_input: {
         title: "profil Judul",
         placeholder: "barang Kategori Ngaran, barang toko Ngaran,. ..",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "barang Lokasi profil",
       message:
-        "barang barang barang Lokasi barang Pilih barang barang barang lokasi barang barang",
+        "Anjeun tiasa ngamuat lokasi ku milih lokasi anu disimpen samemehna disetel di dieu.",
 
       select_input: {
         title: "lokasi profil",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "barang 🛍️Pesenan Laporan",
-      desc: "Narima barang barang Surélék barang barang Rincian barang Paréntah barang barang barang",
+      desc: "Nampi email poean sareng detil pesenan kanggo dinten éta.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "barang Toko",
       subtitle:
-        "barang, barang barang Toko barang barang Ka barang barang inpormasi Aya barang barang Toko barang, barang barang Ti barang barang Paréntah barang barang Pribadi inpormasi, barang barang Ka barang Umum barang barang inpormasi barang, barang barang barang toko barang barang ",
+        "Di dieu, anjeun tiasa mendakan pilihan toko sampel. Anjeun dibéré idin pikeun maca inpormasi anu aya di toko-toko ieu. Nanging, punten ulah log in atanapi nempatkeun pesenan nganggo inpormasi pribadi anu nyata, sabab data ieu tiasa diaksés ku masarakat. Upami anjeun teu kahaja ngalebetkeun inpormasi anjeun di dieu, punten kaluar ti toko sareng ngahubungi kami pikeun bantosan salajengna.",
     },
 
     add_new_store: "Tambahkeun Anyar toko",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategori Blog",
     subtitle:
-      "barang barang Nyiptakeun barang barang Kategori barang barang blog barang Ka Atur barang Tambih deui. . barang barang barang Kategori Wates barang barang , barang barang barang anyar barang barang Kategori, barang barang barang 100, Ka barang Pangaturan barang barang ",
+      "Anjeun tiasa nyieun sababaraha kategori kawates pikeun tulisan blog anjeun pikeun ngatur aranjeunna langkung éfisién. Gaduh wates kategori ngamajukeun organisasi anu langkung saé dina halaman wéb anjeun. Utamana, malah agénsi warta luhur ngajaga jumlah kawates kategori, mindeng kirang ti 100, pikeun streamline manajemén jeung ngajaga fokus lega.",
 
     add_action: "Tambahkeun kategori anyar",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "barang barang barang",
     subtitle:
-      "barang barang barang Daptar barang barang Ka barang blog barang barang barang produk pedaran Ka barang Diterbitkeun barang barang Kali",
+      "Ieu daptar tulisan anu dijadwalkeun pikeun publikasi anu bakal datang. Anjeun gaduh kamampuhan pikeun ngajadwalkeun tulisan blog komo déskripsi produk bisa diterbitkeun dina waktu husus.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Asisten pesenan",
     subtitle:
-      "Ékspor barang Unduh barang barang barang 🛍️Pesenan barang - barang barang 100 Paréntah barang",
+      "Ékspor sareng unduh labél pikeun ngolah pesenan massal - idéal pikeun nanganan langkung ti 100 pesenan unggal dinten.",
 
     timespan: {
       title: "Periode waktos",
@@ -9266,7 +9266,7 @@ export default {
       title: "Métode login",
       subtitle: "Sesuaikeun cara pangguna asup ka toko anjeun.",
 
-      tips: "<b>barang</b> barang barang pamaké barang barang barang Toko, barang barang Selldone pamaké barang barang, barang barang pamaké barang barang Aksés Ka barang alamat barang barang sadayana Toko-toko barang barang Témbongkeun barang 🛍️Pesenan Sajarah, barang barang barang Toko barang barang inpormasi barang Pamasaran barang barang Ka barang barang Ka barang barang, barang Ngirim barang Surélék Ka barang pamaké barang barang ",
+      tips: "<b>Penting.</b> Nalika pangguna ngadaptar sareng toko anjeun, pangguna Selldone anu cocog bakal didamel, upami teu acan aya. Pamaké ieu bakal gaduh aksés kana buku alamatna di sadaya toko sareng tiasa ningali sajarah pesenanna, sanaos toko parantos ditutup. Kami henteu nganggo inpormasi ieu pikeun tujuan pamasaran tapi meryogikeunana pikeun nyegah panipuan dina dua sisi. Pikeun ngajaga transparansi, kami bakal ngirim email ka pangguna anu ngawartosan aranjeunna ngeunaan pendaptaranana.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Parios formulir",
       subtitle:
-        "barang barang Parios formulir barang Ka barang barang inpormasi barang barang Ti barang Palanggan",
+        "Sesuaikeun widang formulir kasir pikeun ngumpulkeun inpormasi anu anjeun peryogikeun ti palanggan anjeun.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "barang",
       title: "barang",
       description:
-        "barang produk barang barang daptar barang barang toko, barang barang Tumbu",
+        "Produk ieu henteu didaptarkeun di toko, tapi tiasa diaksés ku tautan langsung.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Ngirim barang barang",
     message:
-      "Selldone barang barang barang 3 usaha barang Ka barang barang inpormasi barang barang Pembaruan barang barang barang Waktos barang barang",
+      "Identipikasi top 3 bisnis anjeun kedah maju sareng kauntungan dina Seldone. Inpormasi ieu bakal dibagikeun langsung sareng pendiri sareng direksi sareng bakal dipertimbangkeun sacara saksama. Anjeun oge bisa ngamutahirkeun pangabutuh anjeun kana waktu sanggeus kiriman.",
     expand_action: "nulis barang barang",
     input_label: "barang barang",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Ngirim Ka barang",
     },
     placeholder: {
-      ceo: "barang henteu barang Ka barang barang, barang Siga Ka barang barang barang, barang barang Ka barang",
-      team: "barang barang Ka barang barang Ka barang barang Ka barang",
+      ceo: "Leres pisan henteu kedah saé, kuring resep ngupingkeun naros anjeun langsung, langsung ka-titik.\nmisalna. Abdi peryogi ...",
+      team: "Mangga cobian janten nice ka aranjeunna.\nmisalna. Abdi peryogi ...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "barang Impor Produk",
     message:
-      "barang barang Impor Produk barang Gambar, barang barang Waktos Ka barang",
+      "Kami dina prosés ngimpor produk sareng gambar, anu peryogi sababaraha waktos kanggo réngsé.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "barang inpormasi barang barang palanggan, barang barang produk input formulir barang",
+      "Inpormasi anu dipidangkeun di dieu parantos dikintunkeun ku nasabah, saluyu sareng struktur formulir input produk.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "jasa status",
       auto_confirm_enable_msg: "barang barang Paréntah barang diaktipkeun",
       auto_confirm_disable_msg:
-        "otomatis barang barang Paréntah barang barang diaktipkeun",
+        "Konfirmasi otomatis pesenan teu diaktipkeun.",
       shipping_enable_msg:
-        "barang Balanja barang barang inpormasi barang barang Parios",
+        "Biaya pengiriman barang bakal diitung dumasar kana inpormasi anu disayogikeun dina kasir.",
     },
     detail: {
       title: "Connect barang",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "barang barang",
         subtitle:
-          "barang barang Rincian barang inpormasi barang barang ahir",
+          "Rincian singkronisasi internal. Inpormasi ieu disimpen saatos prosés sinkronisasi parantos réngsé.",
         no_data: "henteu barang inpormasi!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Produk",
       subtitle:
-        "Daptar barang Tambahkeun Produk Ti {name}. ngahasilkeun barang barang produk barang barang barang Ngaran barang SKU. barang Connect Jasa barang Dipaké barang barang, barang barang Produk barang barang <b>SKUbarang</b> barang <b>barang</b>, barang Produk barang barang barang!",
+        "Daptar produk tambihan ti {name}. Pastikeun produk anjeun gaduh nami unik sareng SKU. Sababaraha jasa Connect dianggo pikeun migrasi, janten upami anjeun gaduh produk anu gaduh duplikat <b>SKUs</b> sareng <b>Names</b>, produk éta bakal dirobih!",
       action: "barang Produk",
       syncing_message: "barang barang barang",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "barang",
       subtitle:
-        "barang Daptar barang sadayana barang barang 7 30 poé barang barang rojongan barang barang barang jasa Panyadia",
+        "Daptar sadaya log dina 7 dinten terakhir. Fitur logging dirojong ngan dina panyadia ladenan éksternal.",
     },
 
     edit: {
@@ -9595,18 +9595,18 @@ export default {
       service: {
         title: "jasa",
         subtitle:
-          "Pilih barang barang, barang barang, barang Pasaran Ka sambungkeun",
+          "Pilih platform target, supplier dropshipping, atanapi pasar pikeun nyambung.",
       },
       test: {
         false_title: "barang sadayana",
         false_desc: "barang sadayana Aya Produk, Kategori, Palanggan",
         true_title: "barang (barang barang barang)",
         true_desc:
-          "barang barang 5 Produk, Kategori, barang Palanggan barang barang Ka barang modeu barang barang Connect > Setélan barang barang Waktos",
+          "Kéngingkeun maksimal 5 produk, kategori, sareng palanggan. Anjeun tiasa ngaktipkeun kana mode pinuh dina Connect> Setting iraha wae.",
       },
       overwrite: {
         false_title: "barang barang Robah barang barang",
-        false_desc: "barang barang produk barang Kategori Rincian barang barang barang",
+        false_desc: "Pertahankeun detil produk sareng kategori anu aya sakumaha aranjeunna.",
         true_title: "barang",
         true_desc:
           "Pembaruan barang produk, barang, barang Kategori inpormasi",
@@ -9618,29 +9618,29 @@ export default {
       order: {
         title: "pesenan status",
         subtitle:
-          "barang barang Nyambung Jasa 🛍️Pesenan Pangaturan Setélan barang barang toko barang Ngawengku Setélan barang 🛍️Pesenan barang, barang otomatis 🛍️Pesenan barang (barang rojongan), barang barang Balanja barang barang",
+          "Konpigurasikeun setelan manajemén pesenan jasa disambungkeun pikeun toko Anjeun. Ieu kalebet nyetél katampi pesenan, ngaktipkeun konfirmasi pesenan otomatis (upami dirojong), sareng ngonpigurasikeun itungan biaya pengiriman.",
       },
       enable: {
         label: "Kaayaan sambungan",
-        true_desc: "Inventarisasi barang Paréntah barang barang barang",
+        true_desc: "Inventory sareng pesenan bakal disingkronkeun.",
       },
       confirm: {
         label: "otomatis barang Paréntah",
         false_desc: "barang barang barang 🛍️Pesenan barang",
         true_desc:
-          "Paréntah barang Hirup pangmayaran barang barang Paréntah barang barang pangmayaran barang barang ",
-        tips: "Paréntah Dibayar barang kado Kartu barang COD barang pangmayaran Gerbang barang barang barang modeu barang barang Negeskeun barang",
+          "Pesenan sareng pamayaran langsung bakal disatujuan sacara otomatis. Pesenan anu mayar debug moal otomatis disatujuan.",
+        tips: "Pesenan anu dibayar ku kartu kado atanapi COD atanapi gerbang pamayaran dina modeu debug mangrupikeun pengecualian sareng moal dikonfirmasi sacara otomatis.",
       },
 
       shipping: {
         label: "Balanja",
-        tips: "barang jasa nawaran Balanja barang, barang barang barang diaktipkeun barang dipareuman barang barang diaktipkeun, barang barang APIbarang barang 3barang barang Jasa barang barang barang, barang barang 300barang barang hargaan barang barang Parios kaca",
+        tips: "Ladenan ieu nawiskeun itungan pengiriman barang, anu tiasa diaktipkeun atanapi ditumpurkeun dumasar kana kahoyong anjeun. Upami diaktipkeun, API itungan biaya sareng jasa pihak ka-3 bakal diperyogikeun, anu tiasa nyababkeun telat langkung ti 300ms pikeun ngapdet harga dina halaman pamariksaan.",
         false_title: "barang",
         false_desc:
-          "barang barang Balanja barang barang, barang Toko > Logistik > barang barang sadayana Produk, barang Impor barang",
+          "Anggo itungan biaya pengiriman kuring, di Toko> Logistik> Transportasi pikeun sadaya produk, kalebet anu diimpor.",
         true_title: "barang Balanja",
         true_desc:
-          "barang barang Balanja barang barang API tawaran barang barang jasa",
+          "Employ API itungan ongkos pengiriman barang ditawarkeun ku layanan ieu.",
       },
 
       remove: {
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect barang usaha barang Ka barang Jasa barang Atur sadayana Saluran barang barang ",
+        "Sambungkeun os bisnis anjeun ka jasa éksternal sareng atur sadaya saluran di tempat anu sami.",
       action: "Connect Anyar Jasa",
       empty_message:
-        "barang Aplikasi barang barang ! Connect barang barang 🛍️Pesenan Pangaturan",
+        "Poho aplikasi sareng plugins pikeun dropshipping! Connect nyaéta masa depan manajemén urutan cross-platform.",
       auto_confirm: "otomatis barang",
       shipping: "Balanja",
       syncing_now: "barang barang!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "barang",
-      desc: "barang Produk, Kategori, barang Palanggan barang barang pamaké Hapus barang jasa, barang Ditampi Produk, Kategori, barang Palanggan barang barang barang Dipupus",
+      desc: "Kéngingkeun produk, kategori, sareng palanggan. Saatos pangguna ngahapus jasa ieu, produk, kategori, sareng konsumén anu ditampi moal dipupus.",
     },
     Dropshipping: {
       title: "barang",
-      desc: "barang Produk, Kategori, barang Paréntah barang barang Piceun Produk barang barang pamaké Piceun barang jasa",
+      desc: "Kéngingkeun produk, kategori, sareng pesenan. Sistem ngahapus produk saatos pangguna ngahapus jasa éta.",
     },
     Marketplace: {
       title: "Pasaran",
-      desc: "barang barang Inventarisasi barang Narima Paréntah (Produk barang barang kakait barang SKU).",
+      desc: "Ngan nyingkronkeun inventaris sareng nampi pesenan (Produk bakal dihubungkeun ku SKU).",
     },
     Accounting: {
       title: "Akunting",
@@ -9699,7 +9699,7 @@ export default {
     title: "Kaca badarat",
     add_new_action: "Tambahkeun Anyar kaca",
     subtitle:
-      "Nyiptakeun barang, barang Adat Kaca barang barang merek barang barang barang AI-barang barang barang, barang barang ",
+      "Nyiptakeun halaman khusus anu unik sareng responsif pikeun merek anjeun nganggo pangropéa inline anu didamel ku AI anu serbaguna, sareng sacara otomatis ngahasilkeun kontén dinamis ku nyoco data.",
     empty_message: "Desain Adat Kaca barang barang & barang",
   },
 
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "Koméntar",
-    subtitle: "barang barang barang Daptar barang barang barang Koméntar",
+    subtitle: "Ieu daptar komentar masarakat.",
     empty_msg: "henteu Koméntar barang barang ",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "Kategori",
-    subtitle: "barang barang barang Daptar barang barang barang Kategori",
+    subtitle: "Ieu daptar kategori komunitas.",
     new_category_action: "Kategori anyar",
     empty_msg: "henteu Kategori barang barang ",
     filter: {
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "barang",
-    subtitle: "barang barang barang Daptar barang barang ",
+    subtitle: "Ieu daptar postingan komunitas.",
     filter: {
       deleted: {
         title: "Dipupus",
@@ -9762,11 +9762,11 @@ export default {
     menu: {
       open_post: {
         title: "barang barang",
-        subtitle: "Témbongkeun barang Édit barang barang barang Komunitas",
+        subtitle: "Ningali sareng édit pos di komunitas.",
       },
       spam: {
         title: "Laporan & Cabut barang",
-        subtitle: "barang Cabut barang barang barang pamaké",
+        subtitle: "Bulk ngahapus tulisan sareng ngalarang pangguna.",
       },
       delete: {
         title: "Mupus barang",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "tag barang",
       subtitle:
-        "Google barang barang ROI barang barang barang, barang, barang barang Aplikasi Atur barang Tag barang barang Google tag barang gratis, Basajan, barang barang barang—henteu Kodeu Édit barang",
+        "Google Analytics ngamungkinkeun pangukuran ROI iklan bari nyukcruk Flash, video, sareng situs sareng aplikasi média sosial. Atur tag situs wéb sacara gampang sareng solusi Google Tag Manager anu gratis, saderhana, sareng dipercaya-teu kedah ngedit kode.",
       tag_id: {
         label: "Google tag barang ID",
       },
@@ -9790,13 +9790,13 @@ export default {
     shopping: {
       title: "Google barang",
       subtitle:
-        "barang barang inpormasi barang barang Tumbu Ka barang Tambahkeun sadayana Produk barang Kategori Ka Google barang",
-      tips: "barang barang Ka barang barang barang Atur Google Iklan",
+        "Sumber Data nunjukkeun asal-usul inpormasi katalog anjeun dina Google. Turutan tautan ieu pikeun otomatis nambihan sadaya produk sareng kategori kana barang dagangan Google.",
+      tips: "Anjeun tiasa ngagunakeun alat ieu pikeun gampang sareng otomatis ngatur iklan Google.",
       link_message: "Google Produk barang URL",
     },
     console: {
       title: "milarian barang",
-      subtitle: `Tambahkeun barang barang tag Ka barang barang barang Google milarian barang barang`,
+      subtitle: "Tambihkeun tag meta ka halaman utama anjeun pikeun verifikasi Google Search Console.",
       code: {
         label: "barang barang tag",
         placeholder: "Ti barang, barang barang",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & barang",
       subtitle:
-        "barang barang SEO barang barang Ti Google barang barang barang Ka barang barang ",
+        "Kami kéngingkeun data audit SEO anu paling tepat ti Google sareng nampilkeun ka anjeun dina cara anu merenah. Kantun tuturkeun léngkah-léngkah anu disayogikeun.",
     },
     serp_content: {
       title: "Connect Ka Google milarian barang",
       subtitle:
-        "Selldone Connect barang Toko Ka barang milarian barang barang Mimitian barang barang, barang, barang barang gratis SEO Parabot barang barang",
+        "Sambungkeun toko anjeun ka konsol milarian sareng mimitian ngajalajah kecap konci, pangkat, sareng alat SEO gratis sanés dina Selldone.",
       tips: {
         title:
-          "barang Ka tautan Selldone barang Google milarian barang, barang barang barang:",
-        add_in_selldone: "Tambahkeun, barang, barang barang barang primér barang Adat domain",
-        add_in_google: `Tambahkeun barang barang <b>{domain}</b> barang barang<a href="https://search.google.com/search-console" target="_blank"> <b>Google milarian barang</b></a>.`,
+          "Sateuacan ngahubungkeun Selldone sareng Google Search Console, pastikeun ieu:",
+        add_in_selldone: "Tambihkeun, pariksa, sareng setel salaku primér Domain Adat anjeun.",
+        add_in_google: "Tambihkeun sareng verifikasi <b>{domain}</b> dina<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a> anjeun.",
       },
       action_custom_domain: "Adat domain",
       action_connect_now: "Sambungkeun Ayeuna",
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "barang cashback",
     delete_alert: {
       title: "Mupus cashback barang",
-      message: "barang barang barang Ka Mupus barang cashback barang?",
+      message: "Anjeun yakin kana ngahapus program cashback ieu?",
       action: "Leres, Pupus Ayeuna",
     },
     notifications: {
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "barang barang barang Persén, Wates barang barang status barang",
+      subtitle: "Atur chasback persen, wates jeung status na dieu.",
     },
     percent_input: {
       title: "cashback barang",
       message: "barang barang cashback barang Ti 1% Ka 20%.",
     },
     currency_input: {
-      message: "barang cashback barang barang barang Aya barang barang barang Mata uang",
+      message: "Program cashback bakal sayogi ngan ukur pikeun mata uang ieu.",
     },
     limit_input: {
       title: "Wates",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Lilana Wates",
-      subtitle: "barang Lilana barang cashback barang barang opsional",
+      subtitle: "Atur durasi program cashback. Éta pilihan.",
     },
     start_input: {
       title: "Tanggal mimiti",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "barang Judul barang barang Katerangan barang barang cashback barang barang inpormasi barang barang barang Ka Palanggan",
+        "Atur judul sareng pedaran pondok pikeun program cashback. Inpo ieu bakal dipintonkeun ka konsumén.",
     },
     title_input: {
       title: "Judul",
@@ -9929,13 +9929,13 @@ export default {
       subtitle: "barang barang cashback barang",
     },
     min_purchase_input: {
-      hint: "barang barang minimum Beuli Jumlah barang cashback barang",
+      hint: "Lebetkeun jumlah beuli minimum pikeun program cashback.",
       title: "beuli minimum",
     },
     only_first_buy_input: {
-      false_desc: "barang cashback barang barang barang Aya barang sadayana Paréntah",
+      false_desc: "Program cashback bakal sayogi pikeun sadaya pesenan.",
       true_desc:
-        "barang cashback barang barang barang Aya barang barang 🛍️Pesenan",
+        "Program cashback bakal sadia ngan pikeun urutan kahiji.",
       true_title: "barang barang 🛍️Pesenan",
       false_title: "sadayana Paréntah",
     },
@@ -9943,32 +9943,32 @@ export default {
       false_title: "sadayana Palanggan",
       true_title: "barang Palanggan",
       true_msg:
-        "barang cashback barang barang barang Aya barang barang barang Palanggan barang barang barang",
+        "Program cashback bakal sayogi ngan pikeun para nasabah anu mumpuni.",
     },
     club: {
       subtitle:
-        "barang barang Klub barang barang cashback barang barang cashback barang barang barang Aya barang barang barang Palanggan barang barang Klub",
+        "Atur klub pikeun program cashback. Program cashback bakal sayogi kanggo para nasabah anu aya di klub ieu.",
     },
     cluster: {
       subtitle:
-        "barang barang cashback barang, barang barang Atur barang Tambih deui. . barang",
+        "Ku associating klaster jeung program cashback, Anjeun bisa ngatur eta leuwih éféktif.",
     },
     notifications: {
       add: "cashback barang Tambahkeun barang",
       edit: "cashback barang barang barang",
     },
     enable_input: {
-      true_msg: "barang cashback barang barang Aktip barang Palanggan barang barang barang",
+      true_msg: "Program cashback aktip sareng para nasabah tiasa nganggo éta.",
       false_msg:
-        "barang cashback barang barang teu aktif barang Palanggan barang barang ",
+        "Program cashback henteu aktip sareng para nasabah henteu tiasa nganggo éta.",
     },
     boosted_input: {
       false_title: "Biasa",
       true_title: "barang (2barang cashback)",
       true_msg:
-        "barang cashback barang barang modeu barang Palanggan barang Narima 2barang cashback",
+        "Program cashback aya dina modeu dorongan sareng para nasabah bakal nampi 2x cashback.",
       false_msg:
-        "barang cashback barang barang barang Biasa modeu barang Palanggan barang Narima Biasa cashback",
+        "Program cashback aya dina modeu normal sareng para nasabah bakal nampi cashback normal.",
     },
   },
 
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "barang barang Pangiriman",
-        subtitle: "barang barang Pangiriman barang pangmayaran barang",
+        subtitle: "Anjeun tiasa sacara manual ngonfirmasi pangiriman pikeun panyadia pamayaran.",
       },
     },
   },
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "balikeun duit pangmayaran",
     message:
-      "barang Kaamanan barang, barang Paréntah Dibayar barang barang barang 7 30 poé barang barang barang balikeun duit",
+      "Kanggo alesan kaamanan, ngan pesenan anu dibayar dina 7 dinten terakhir anu layak pikeun ngabalikeun duit.",
     payment_amount: "Jumlah pamayaran",
     total_refund_amount: "barang balikeun duit Jumlah",
     can_refund: "barang balikeun duit",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "barang balikeun duit",
       description:
-        "barang barang balikeun duit Jumlah barang barang Ka barang",
+        "Kuring mastikeun yén jumlah ngabalikeun duit bener jeung Abdi hoyong neruskeun.",
     },
     action: "balikeun duit barang",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "palanggan Pangiriman barang",
     message:
-      "barang pangmayaran Jasa barang barang 🛍️Pesenan barang barang Dihaturkeun Ka barang palanggan barang barang Ngirim barang barang 🛍️Pesenan barang barang barang Narima barang Palanggan Pangiriman barang barang, barang barang barang Ka barang barang , barang barang ",
+      "jasa pembayaran tangtu merlukeun konfirmasi yen pesenan geus dikirimkeun ka konsumén. Urang ilaharna ngirim konfirmasi ieu salila hambalan ahir minuhan urutan nalika kami nampi konfirmasi pangiriman customer urang. Nanging, upami anjeun kedah ngalakukeun tindakan ieu sacara manual, anjeun tiasa ngalakukeun ieu di dieu.",
     verify: {
       title: "barang Pangiriman",
       description:
-        "barang barang 🛍️Pesenan barang barang Dihaturkeun Ka barang palanggan",
+        "Kuring mastikeun yén urutan geus dikirimkeun ka konsumén.",
     },
     action: "barang barang",
   },
@@ -10029,14 +10029,14 @@ export default {
     title: "barang barang",
     add_new_actions: "Tambahkeun produk anyar",
     subtitle:
-      "barang barang barang, barang barang Tambahkeun barang Atur barang Produk barang barang produk kaca barang Produk barang barang Palanggan Ka Beuli barang barang utama barang barang diskon Ka barang barang Beuli barang barang maksimum barang 3 Barang barang barang palanggan Ka barang",
+      "Dina bagian ieu, anjeun tiasa nambihan sareng ngatur produk cross-sell pikeun halaman produk ieu. Produk ieu bakal dipintonkeun salaku saran pikeun konsumén mésér barengan item utama. Anjeun oge bisa nyetel diskon pikeun ajak jeung incentivize purchases tambahan. Sistim bakal showcase maksimum 3 item pikeun konsumén mertimbangkeun.",
     dialog: {
       edit_title: "Édit barang barang produk",
       add_title: "Tambahkeun Anyar barang barang Produk",
       target: {
         title: "barang produk",
         subtitle:
-          "barang barang Produk barang Siga Ka barang barang produk",
+          "Pilih produk anu anjeun hoyong promosikeun salaku pilihan cross-sell sareng produk ieu.",
         select_products: "Pilih produk(barang)",
       },
       list: {
@@ -10047,18 +10047,18 @@ export default {
       discount: {
         title: "Diskon & talatah",
         subtitle:
-          "barang barang Ka barang barang talatah barang Panawaran barang Diskon Ka barang Palanggan Ka Meuli barang Pilih barang Barang barang Insentip barang pitulung barang Penjualan barang barang ",
+          "Anjeun gaduh pilihan pikeun ngalebetkeun pesen sareng nawiskeun diskon pikeun memotivasi para nasabah mésér barang tambahan anu dipilih. Insentif ieu tiasa ngabantosan penjualan penjualan sareng ningkatkeun pangalaman balanja sadayana.",
         amount_input: {
           message:
-            "barang Diskon barang barang Ka barang produk hargaan barang barang barang Rekening sadayana barang diskon",
+            "Persentase diskon bakal diterapkeun kana harga produk saatos tumut kana akun sadaya diskon anu aya.",
         },
         mismatch_type_warning:
-          "diskon barang barang barang Ka barang Jenis barang barang utama produk Jenis, barang barang Barang barang barang ",
+          "Diskon teu tiasa diterapkeun kana jinis sanés salian ti jinis produk utama, sabab sumber sareng target barang moal disimpen dina karanjang anu sami.",
         not_support_subscription_type_warning:
-          "Setélan diskon barang barang Langganan Produk barang barang barang, barang barang hargaan Rencana barang barang ",
+          "Nyetel diskon pikeun cross-selling produk langganan teu mungkin, sabab rencana harga teu bisa disaluyukeun dinamis.",
         message_input: {
           message:
-            "barang barang Judul Ka barang Palanggan barang",
+            "Jieun judul anu pikaresepeun sareng pikaresepeun pikeun narik perhatian para nasabah.",
           placeholder:
             "barang & Simpen: barang barang !",
         },
@@ -10066,7 +10066,7 @@ export default {
       action: {
         title: "barang",
         subtitle:
-          "barang barang barang Produk barang barang produk barang barang input barang Adat inpormasi, barang barang formulir, barang barang barang \"Tambahkeun Ka barang\" barang barang barang, barang barang Ka barang",
+          "Robah tindakan cross-selling produk di dieu. Upami produk anjeun peryogi input inpormasi khusus, sapertos ngalangkungan Bentuk Penilaian, ulah milih \"Tambahkeun Ka Gorobag\" salaku tindakan, sabab ieu tiasa nyababkeun kasalahan.",
       },
     },
   },
@@ -10078,13 +10078,13 @@ export default {
     variants: {
       title: "barang barang",
       subtitle:
-        "Pilih barang Ka barang barang , barang barang Varian Ka Nyiptakeun barang",
+        "Pilih nepi ka dua pilihan varian. Saatos dipilih, anjeun tiasa milih varian khusus mana anu bakal didamel sacara otomatis.",
     },
     values: {
       title: "barang barang",
       subtitle: "barang barang ",
       prevent_duplicates_tips:
-        "<b>Catetan:</b> barang barang Varian Ka barang barang",
+        "<b>Catetan:</b> Urang otomatis pariksa varian nu aya pikeun nyegah duplikat.",
     },
     inventory: {
       title: "barang Inventarisasi",
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Tambihkeun kana karanjang",
       description:
-        "barang barang Tambahkeun Ka barang barang barang Catetan barang barang Langganan Produk",
+        "Témbongkeun tombol Tambahkeun ka Gorobag langsung. Catet yén ieu henteu lumaku pikeun produk langganan.",
     },
     ViewProduct: {
       title: "Témbongkeun Produk",
       description:
-        "barang barang Témbongkeun Tambih deui. . barang barang barang Palanggan Ka barang produk kaca barang barang barang Anyar barang",
+        "Témbongkeun tombol View More nu ngarahkeun konsumén ka kaca produk ku muka jandela nu anyar.",
     },
   },
 
@@ -10115,17 +10115,17 @@ export default {
 
   product_flow: {
     title: "Beuli Aliran",
-    subtitle: "barang barang barang Beuli Aliran barang barang produk",
+    subtitle: "Ieu mangrupikeun aliran pameseran sareng pamariksaan kaséhatan produk anjeun.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "barang produk barang barang Tambahkeun barang <b>{name}</b>.",
-      enable_msg: "barang barang Ka barang jasa barang diaktipkeun",
-      disable_msg: "barang barang Ka barang jasa barang dipareuman",
+      subtitle: "Produk ieu geus ditambahkeun via <b>{name}</b>.",
+      enable_msg: "Sasak ieu kana jasa éksternal diaktipkeun.",
+      disable_msg: "Sasak ieu kana jasa éksternal ditumpurkeun.",
       has_shipping_msg:
-        "{name} Ngarojong Balanja barang barang Ka Aktipkeun otomatis Balanja barang barang {name} barang barang Parios kaca",
+        "{name} ngadukung pengiriman barang. Janten anjeun gaduh pilihan pikeun ngaktipkeun itungan pengiriman otomatis ku {name} dina halaman kasir.",
     },
     /**
      * @see BProductFlowRowHealth
@@ -10135,7 +10135,7 @@ export default {
       available_in_stock_msg: "produk barang Aya barang barang",
       out_of_stock_msg: "produk barang barang ",
       file_count_msg:
-        "{files_count} file barang barang {files_size} Unggah barang barang produk",
+        "{files_count} file kalawan total {files_size} diunggah pikeun produk ieu.",
       no_file_uploaded_msg: "henteu file barang barang Unggah barang",
       no_image_uploaded_msg:
         "Unggah barang produk Gambar Ka ngahasilkeun barang Tambih deui. . barang",
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "barang padagang",
       subtitle:
-        "barang produk barang barang henteu barang padagang barang barang produk Ka barang barang Pasaran, barang barang padagang",
+        "Produk ieu ayeuna teu gaduh padagang anu aya hubunganana. Pikeun produk bisa dibeuli di pasar, éta kudu boga sahanteuna hiji vendor.",
       manage_vendors: "Atur padagang",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "barang file",
       subtitle:
-        "barang, henteu file barang barang Unggah barang barang produk barang Unggah file Ka barang",
+        "Ayeuna, teu aya file anu diunggah pikeun produk ieu. Mangga unggah file pikeun neruskeun.",
       manage_files: "Atur file",
     },
 
@@ -10165,7 +10165,7 @@ export default {
      */
     pricing: {
       title: "hargaan",
-      no_product_price_msg: "barang barang produk hargaan barang barang barang!",
+      no_product_price_msg: "Harga produk standar teu acan disetel!",
       listing_pricing_msg: "Daptaran hargaan:",
       has_valuation_msg: "produk barang barang",
       subscription_pricing_msg:
@@ -10195,9 +10195,9 @@ export default {
       available_countries_msg:
         "barang barang barang Ka {count} barang barang {countries}.",
       disable_for_all_countries_msg:
-        "barang barang dipareuman barang sadayana barang barang barang Toko > Lokasi Setélan",
+        "Balanja ditumpurkeun pikeun sadaya nagara di toko anjeun > setelan lokasi.",
       location_is_not_in_permitted_shop_locations_msg:
-        "barang barang {country} barang barang barang lokasi barang barang barang toko barang barang Nagara barang barang barang toko barang Setélan",
+        "Anjeun nyetel {country} salaku lokasi jual tapi di tingkat toko anjeun teu ngidinan nagara ieu. Mangga parios setélan tingkat toko Anjeun.",
       shop_locations: "Toko Lokasi",
       product_locations: "produk Lokasi",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "Aya Lokasi barang",
       no_location_error_subtitle:
-        "barang barang Diaktipkeun barang lokasi watesan barang barang barang produk, barang barang, henteu Nagara barang daptar barang barang watesan barang barang barang, barang produk barang teu aya barang Beuli barang barang",
+        "Anjeun parantos ngaktipkeun larangan lokasi pikeun ngagaleuh produk, tapi ayeuna, teu aya nagara anu didaptarkeun dina larangan ieu. Hasilna, produk ieu teu sadia pikeun dibeuli ku saha.",
       invalid_location_error_subtitle:
-        "barang lokasi watesan Setélan barang barang produk barang barang barang: barang Lokasi daptar barang barang ZIP kode barang, Pamaké barang barang Ka Pilih barang ZIP Kodeu, barang barang produk teu aya barang Beuli",
+        "Setélan larangan lokasi pikeun produk anjeun ngandung kasalahan: sababaraha lokasi anu didaptarkeun teu ngagaduhan kode pos anu aya hubunganana. Akibatna, pamaké teu bisa milih kode pos, ngajadikeun produk teu sadia pikeun dibeuli.",
 
       manage_locations: "Atur Lokasi",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "Pajeg Propil",
       description: {
         subscription_tax_msg:
-          "barang barang barang Pajeg barang barang barang pangmayaran barang barang",
+          "Urang tiasa nerapkeun pajak ngan ukur dina léngkah nyiptakeun pamayaran.",
         dedicated: "barang",
         is_disabled: "barang Pajeg profil barang dipareuman!",
         tax_is_based_on_location: "Pajeg: lokasi barang",
@@ -10238,9 +10238,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "barang produk barang Ka <b>{vendor}</b>.",
-      has_vendors_msg: "barang barang {count} padagang barang barang produk",
+      has_vendors_msg: "Aya {count} padagang pikeun produk ieu.",
       no_vendor_msg:
-        "barang barang padagang Ka barang produk, barang Palanggan barang barang Ka Beuli barang",
+        "Anjeun teu acan masihan vendor ka produk ieu, jadi konsumén teu bisa meuli eta.",
       add_vendors: "Tambahkeun padagang",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "produk kaca Citakan",
     subtitle:
-      "barang barang Lebetkeun barang kaca barang barang produk kaca barang barang Ka Nyiptakeun Kaca barang barang transparan latar barang 1 Ka 3 barang barang Ka barang produk Kategori barang, barang barang kaca Ka barang Produk barang barang ",
+      "Anjeun tiasa ngalebetkeun halaman dina halaman produk anjeun pikeun presentasi anu ditingkatkeun. Pendekatan anu optimal nyaéta nyiptakeun halaman anu gaduh latar tukang transparan sareng 1 dugi ka 3 bagian anu cocog pikeun tiap kategori produk. Teras, pasihan hiji halaman ka sababaraha produk pikeun tampilan anu konsisten sareng pikaresepeun.",
     edit_page: "Édit kaca",
     list_of_pages: "Daptar barang Kaca",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "barang barang barang Lebetkeun barang produk barang barang Daptar barang Produk barang barang blog barang barang barang Kaca barang barang kode barang barang , barang barang Ka barang barang Aya barang barang nawaran barang barang, barang barang Rencana Ka barang Tambih deui. . barang barang ",
+      "Anjeun tiasa sacara gampil nampilkeun produk atanapi daptar produk dina blog anjeun atanapi halaman wéb sanés ku ngan saukur nyalin sareng nempelkeun kodeu anu kami nyayogikeun. Sanajan fitur ieu masih dina tahap awal na, kami aktip ngusahakeun ngalegaan fungsionalitas na saluareun naon ayeuna sadia di tempat sejenna. Sanaos ayeuna nawiskeun kamampuan kawates, kami gaduh rencana pikeun ngenalkeun langkung seueur template sareng pilihan kustomisasi ka hareup.",
     card: {
       title: "barang",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "barang",
       description:
-        "barang barang barang Kodeu Ka barang barang produk Rincian barang barang ",
+        "Ngahasilkeun kode iframe pikeun mintonkeun rinci produk komprehensif dina jandela embedded.",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "Tambahkeun Pagawe & Aksés",
       subtitle:
-        "sadayana Pamaké barang Pagawe Aksés barang barang barang Ka barang Dasbor barang tingali Keuangan inpormasi Ka Tambahkeun Pamaké barang barang Aksés, barang barang",
+        "Sadaya pangguna anu gaduh aksés staf tiasa log in kana dasbor anjeun sareng ningali inpormasi kauangan. Pikeun nambahkeun pamaké kalawan aksés kawates, tangtukeun Peran.",
       go_to_roles: "barang Ka Kalungguhan",
     },
     access: {
       customization_tips:
-        "<b>barang:</b> barang barang Ka barang barang Aksés barang barang Aksés barang barang Ka barang utama Toko Dasbor",
+        "<b>Customization:</b> Klik unggal item pikeun ngaluyukeun standar maca / nulis aksés. Unggal baris ngagambarkeun hiji tingkat aksés pakait jeung dasbor toko utama.",
       simplify_tips:
-        "<b>barang!</b> barang barang barang Aksés barang Ti barang 300 Ka barang 10 barang Tambih deui. . barang barang barang Aksés barang barang barang Diterbitkeun barang barang barang",
+        "<b>Penting!</b> Urang simplify kontrol aksés ti leuwih 300 ka handapeun 10 tingkat. Tingkat aksés anu langkung lengkep sareng up-to-date bakal diterbitkeun dina dokuméntasi.",
       multi_permission_tips:
-        "<b>Adat Watesan?</b> barang barang Tambahkeun Tambih deui. . Aksés Ka barang pamaké, barang barang Tambahkeun barang barang Aksés, Nyiptakeun barang Aksés barang barang ",
+        "<b>Wates custom?</b> Anjeun tiasa nambahkeun leuwih aksés ka hiji pamaké, jadi sanggeus nambahkeun aksés munggaran, nyieun aksés tambahan kalayan léngkah anu sarua.",
       view_data: "Témbongkeun barang",
       apply_changes: "Larapkeun Parobahan",
     },
@@ -10329,19 +10329,19 @@ export default {
   category_engine_editor: {
     title: "barang Produk Daptaran",
     subtitle:
-      "barang Produk Ti barang Kategori barang barang Ka barang barang Kategori Ka barang Produk barang Nyaring Produk barang Tag",
+      "Témbongkeun produk tina sagala rupa kategori. Anjeun gaduh pilihan pikeun milih sababaraha kategori pikeun nunjukkeun produk atanapi nyaring produk ku tag.",
     aut_add_sub_categories_tips:
-      "barang barang barang Tambahkeun sadayana barang Ka barang barang Kategori barang barang ",
+      "Anjeun tiasa sacara otomatis nambihan sadaya subkategori ka kategori ayeuna ku ngaklik tombol di handap.",
     inputs: {
       categories: {
         label: "Kategori",
-        messages: "Produk barang barang Kategori barang barang barang",
+        messages: "Produk dina kategori ieu bakal ditingalikeun.",
         placeholder: "Pilih Kategori",
       },
       tags: {
         label: "produk Tag",
-        messages: "Produk barang barang Tag barang barang Tampilkeun",
-        placeholder: "barang Tag barang barang conto Anyar barang",
+        messages: "Produk sareng tag ieu bakal ditingalikeun.",
+        placeholder: "Kawat tag dieu terus pencét asupkeun. ex. kempelan anyar",
       },
     },
     actions: {
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>barang milarian: </b>milarian barang Judul, MPN, SKU, merek, barang Tag",
       product:
-        "<b>barang produk ID: </b>barang barang ID Ka barang barang barang produk, barang, <b class=\"text-green\">barang</b><i class=\"text-yellow\">360</i>.",
+        "<b>ID Produk Pasti: </b>Paké P + ID Produk pikeun manggihan hiji produk husus, misalna, <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>barang barang: </b>barang barang barang Ka milarian barang barang , barang, <b class=\"text-green\">\"</b><i class=\"text-yellow\">barang barang barang</i><b class=\"text-green\">\"</b>.",
+        "<b>Frasa Pasti: </b>Paké tanda petik pikeun milarian frasa anu pasti, contona, <b class=\"text-green\">\"</b><i class=\"text-yellow\">téks anjeun di dieu</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Pajeg profil: </b>milarian barang Produk barang barang barang Pajeg profil barang \"Pajeg:\", barang, <b class=\"text-green\">Pajeg:</b><i class=\"text-yellow\">Pajeg profil Ngaran</i>.",
       new_products:
-        "<b>Anyar Produk: </b>barang Produk Tambahkeun barang barang barang Kaping barang, barang, <b class=\"text-green\">Anyar~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Produk Anyar: </b>Teangan produk ditambahkeun dina rentang tanggal husus, misalna, <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,14 +10374,14 @@ export default {
   augment_form: {
     title: "barang",
     subtitle:
-      "input barang barang Nilai barang barang kaca barang barang 32 barang",
+      "Lebetkeun konci anu bakal diganti ku nilai anu saluyu dina eusi halaman. Konci kedah maksimal 32 karakter.",
     add_caption: "Tambahkeun Anyar barang",
     add_sub_caption: "Tambahkeun Adat barang barang",
     add_dialog: {
       title: "Pilih input Tipe",
       html: {
         title: "barang & barang",
-        subtitle: "barang Barang Nilai barang barang HTML.",
+        subtitle: "Nilai item tiasa ditunjuk salaku téks atanapi HTML.",
       },
       image: {
         title: "Gambar",
@@ -10391,13 +10391,13 @@ export default {
     help_dialog: {
       title: "barang Ka barang barang barang",
       how_it_works_tips:
-        "barang barang badarat Kaca, barang barang Ka barang barang Gambar barang barang Ka barang barang Ka barang barang , barang barang conto, barang barang produk barang Kategori barang barang Barang barang barang Ka barang barang , barang barang badarat Kaca",
+        "Dina halaman badarat, anjeun gaduh kalenturan pikeun nunjuk pananda tempat dinamis pikeun téks sareng gambar. Pananda tempat ieu ngagaduhan peran anu penting dina ngarobih eusi dumasar kana kontéks.   Sifat dinamis pananda tempat ieu ngamungkinkeun aranjeunna dieusi ku nilai paningkatan, anu tiasa rupa-rupa dumasar kana faktor anu béda. Contona, nilai augmentation bisa jadi béda pikeun tiap produk atawa kategori. Kauntungan nyata tina fitur ieu dimaénkeun nalika anjeun gaduh rupa-rupa barang sareng atribut anu béda. Anjeun tiasa sacara efektif ngagunakeun pananda tempat dinamis ieu pikeun nyaluyukeun sareng ningkatkeun tampilan unggal item, ku kituna nyiptakeun pangalaman unik sareng interaktif dina halaman badarat anjeun.",
       assign_tips:
-        "Ka barang barang barang Ka Gambar, barang barang ",
+        "Pikeun napelkeun nilai dinamis gambar, klik dina tombol feeder lokasina di sisi kénca bagian.",
       set_dynamic_image_tips:
-        "barang barang Ka barang barang Gambar URL barang barang Nilai",
+        "Anjeun ayeuna gaduh kamampuan ngarobih URL gambar sareng napelkeun nilai dinamis.",
       enter_values_tips:
-        "barang barang produk, barang barang Ka barang barang ",
+        "Pikeun unggal produk, anjeun gaduh kamampuhan pikeun nangtukeun pasangan konci-nilai dedicated.",
       result_tips:
         "barang barang kaca, barang barang ",
     },
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "barang barang",
       subtitle:
-        "barang barang barang Daptar barang barang Logistik profil barang barang barang",
+        "Ieu daptar basa eusi. Anjeun tiasa nyetél eusi anu béda pikeun profil logistik dina unggal basa.",
       add_caption: "Tambahkeun Anyar Pasal",
       no_more_language: "henteu Tambih deui. . barang!",
     },
     content: {
       title: "barang",
       subtitle:
-        "barang barang Logistik profil barang barang barang",
+        "Anjeun tiasa nyaluyukeun eusi pikeun profil logistik dina sababaraha basa.",
 
       language_input: "barang Pasal barang",
       delete_article: "Mupus Pasal",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "barang barang barang Ka Mupus barang Pasal barang barang?",
+      message: "Naha anjeun yakin pikeun ngahapus tulisan ieu salamina?",
       action: "Leres, Pupus Ayeuna",
     },
   },
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Produk",
-    subtitle: "Daptar barang Produk barang barang barang profil",
+    subtitle: "Daptar produk pakait sareng profil ieu.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10456,11 +10456,11 @@ export default {
     inputs: {
       name: {
         message:
-          "barang Ngaran Tampilkeun Ka barang barang Ka barang Umum",
+          "Ngaran ieu nunjukkeun ka anjeun sareng moal diungkabkeun ka umum.",
       },
       accept_delete: {
         true_description:
-          "barang barang barang Cabut sadayana barang barang Propil Tumbu",
+          "Tindakan ieu bakal ngahapus sadaya tautan artikel sareng profil.",
         true_title: "barang barang Ka Cabut barang barang",
       },
     },
@@ -10476,13 +10476,13 @@ export default {
     title: "Logistik Propil",
     add_caption: "Tambahkeun Anyar profil",
     subtitle:
-      "barang barang Nyiptakeun barang Édit barang garansi barang Balik deui kabijakan barang Produk barang barang Ka barang Produk barang barang garansi barang barang barang Jenis barang Produk",
+      "Anjeun tiasa nyiptakeun sareng ngédit kabijakan garansi sareng ngabalikeun produk di dieu sareng napelkeun ka produk naon waé. Anjeun tiasa nangtukeun kawijakan jaminan béda pikeun tipena béda produk.",
     add_dialog: {
       title: "Nyiptakeun Anyar Logistik profil",
       config: {
         title: "barang inpormasi",
         subtitle:
-          "barang barang profil Tipe barang barang pituduh, garansi, barang barang Produk",
+          "Pilih jinis profil. Éta tiasa janten pituduh, garansi, atanapi eusi sareng bahan anu sanés anu biasa dibagikeun dina sababaraha produk.",
       },
       article: {
         title: "Pasal",
@@ -10492,8 +10492,8 @@ export default {
       inputs: {
         name: {
           message:
-            "barang Ngaran Tampilkeun Ka barang barang Ka barang Umum",
-          placeholder: "barang barang Ngaran barang barang profil",
+            "Ngaran ieu nunjukkeun ka anjeun sareng moal diungkabkeun ka umum.",
+          placeholder: "Lebetkeun nami kanggo propil...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "barang Barang Pangaturan",
     add_caption: "Tambahkeun Anyar barang",
     subtitle:
-      "barang, barang barang Atur barang Barang barang barang barang Produk Ka barang barang barang Penampilan barang barang toko, barang barang Barang barang barang Gambar barang, barang barang barang, barang sadayana Produk",
+      "Di dieu, anjeun tiasa ngatur barang anu kalebet dina produk anjeun. Pikeun mastikeun penampilan sampurna pikeun toko anjeun, konsistén ngagunakeun item kalawan pola gambar sarupa, kayaning wireframes, sakuliah sakabéh produk.",
     empty_list_msg: "Daptar barang barang Barang",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Mupus barang barang",
       message:
-        "barang barang Ka barang Mupus barang barang? barang Catetan barang barang Ti sadayana barang Produk!",
+        "Naha anjeun yakin hoyong ngahapus item ieu permanén? Punten dicatet yén éta ogé bakal dipiceun tina sadaya produk anu aya hubunganana!",
       action: "Leres, Pupus Ayeuna",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "barang barang",
     subtitle:
-      "barang barang barang Judul, barang barang 2 Ka 3 barang barang Gambar, barang barang Unggah Gambar Ka barang 256barang barang Penampilan barang sadayana barang, barang barang Gambar barang transparan latar barang barang Produk",
+      "Pilih judul anu ringkes, idealna maksimalna 2 nepi ka 3 kecap. Anggo gambar kuadrat, sabab urang bakal otomatis ngatur ukuran gambar anu diunggah kana format 256x256 kuadrat. Pikeun tampilan anu pangsaéna dina sadaya témplat, nganggo gambar minimalis sareng latar transparan sareng mertahankeun pola anu seragam dina produk anjeun.",
     inputs: {
       title: {
         placeholder: "barang Judul barang barang produk kaca",
       },
       code: {
-        placeholder: "barang Kodeu, conto barang_barang_barang",
-        hint: "barang barang Kodeu Ka barang barang milarian barang barang barang Barang",
+        placeholder: "Kodeu unik, ex. mobile_cable_usb",
+        hint: "Paké kode ieu streamline prosés pilarian pikeun locating item.",
       },
       description: {
-        placeholder: "barang barang Katerangan barang barang barang",
-        hint: "Katerangan barang barang Dipaké barang SEO barang barang barang Ka Pamaké barang barang Adat barang barang barang produk kaca",
+        placeholder: "Katerangan pondok ngeunaan item ieu ...",
+        hint: "Katerangan bakal dianggo pikeun SEO sareng tiasa katingali ku pangguna dina sababaraha perenah khusus dina halaman produk.",
       },
       image: {
         message: "barang Gambar barang: 1MB",
@@ -10559,14 +10559,14 @@ export default {
       },
       external_link: {
         title: "Tumbu éksternal",
-        description: "barang barang Tumbu Ka barang barang barang",
-        tips: "barang barang URL Ka barang barang barang Pamaké barang barang produk kaca, barang barang Ka barang Tumbu",
+        description: "Setel tautan ka url éksternal.",
+        tips: "Anjeun tiasa ngagantelkeun URL naon waé kana item éta. Nalika pangguna ngaklik item dina halaman produk, aranjeunna bakal dialihkeun kana tautan éta.",
       },
       internal_link: {
         title: "barang Tumbu",
         description:
           "Nyiptakeun barang kaca barang barang ",
-        tips: "barang barang Tumbu barang badarat kaca barang barang profil barang barang barang Adat barang barang Selldone barang barang Tumbu barang barang barang",
+        tips: "Anjeun tiasa ngaitkeun halaman badarat sareng profil sareng nyetél jalur khusus sareng eusi dinamis pikeun éta. Seldone bakal ngahasilkeun tumbu dinamis pikeun item.",
       },
     },
     notifications: {
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "Dipulangkeun Paréntah",
     subtitle:
-      "barang Palanggan barang Balik deui barang barang Paréntah, barang barang barang Témbongkeun Balik deui Paménta barang barang 🛍️Pesenan barang kaca barang Aksés barang barang Daptar barang Dipulangkeun Paréntah barang",
+      "Konsumén anjeun tiasa ngabalikeun pesenan fisikna, sareng anjeun tiasa ningali pamundut uih deui dina halaman pamrosésan pesenan atanapi ngaksés daptar lengkep pesenan anu dipulangkeun di dieu.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "komisi",
     subtitle:
-      "barang Daptar barang sadayana komisi barang barang barang Ti barang barang Ka 30 30 poé barang barang Komisi Ka barang barang barang Mindahkeun Ka barang Dompét",
+      "Daptar sadaya komisi anu anjeun kéngingkeun tina rujukan anjeun. Butuh waktu nepi ka 30 poé pikeun komisi disatujuan tur mindahkeun kana dompét anjeun.",
   },
   /**
    * @see OReferralWallets
@@ -10600,8 +10600,8 @@ export default {
   referral_wallets: {
     title: "Dompét",
     subtitle:
-      "barang barang barang tingali barang Komisi barang barang Mindahkeun barang Komisi barang Ka barang barang Rekening barang barang Selldone Dompét",
-    no_commission_yet: "barang barang barang Ditampi barang Komisi barang",
+      "Di dieu anjeun tiasa ningali biaya komisi anu anjeun hasilkeun. Anjeun tiasa nransferkeun biaya komisi anjeun ka rekening bank anjeun atanapi dompét Seldone anjeun.",
+    no_commission_yet: "Anjeun teu acan nampi komisi naon waé.",
     no_wallet: "henteu Dompét!",
 
     withdraw_dialog: {
@@ -10612,21 +10612,21 @@ export default {
       to_wallet: {
         title: "Ka Dompét",
         subtitle:
-          "barang barang barang, barang barang Mindahkeun Komisi barang Ka barang Selldone Dompét barang ngahasilkeun barang barang barang Dompét barang Nyambung barang barang kado Dompét, barang barang Mata uang",
+          "Kalayan pilihan ieu, anjeun tiasa nransferkeun biaya komisi kana dompét Seldone anjeun. Mangga pastikeun yén dompét disambungkeun salaku dompét kado anjeun, sarta eta beroperasi kalawan mata uang anu sarua.",
       },
       to_bank: {
         title: "Ka barang",
         subtitle:
-          "barang barang barang, barang barang Mindahkeun Komisi barang Ka barang Selldone Dompét barang ngahasilkeun barang barang barang Dompét barang Nyambung barang barang kado Dompét, barang barang Mata uang",
+          "Kalayan pilihan ieu, anjeun tiasa nransferkeun biaya komisi kana dompét Seldone anjeun. Mangga pastikeun yén dompét disambungkeun salaku dompét kado anjeun, sarta eta beroperasi kalawan mata uang anu sarua.",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "barang barang Ka Mindahkeun barang Komisi Ka barang Selldone Dompét",
+            "Abdi hoyong nransfer komisi abdi ka dompét Seldone abdi.",
         },
         verify_to_bank: {
           true_description:
-            "barang barang Inpo barang barang barang Ka Mindahkeun barang Komisi Ka barang barang Rekening",
+            "Kuring pariksa inpormasi bank kuring sareng kuring hoyong nransfer komisi ka rekening bank kuring.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "barang barang Ditampi, barang barang barang Tinjauan barang",
+        "Paménta anjeun parantos suksés ditampi, sareng kami bakal marios deui.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "barang barang Tambahkeun <b>?barang={code}</b> Ka barang barang barang",
+      message: "Anjeun tiasa nambahkeun <b>?ref = {code}</b> kana sagala url seldone.",
     },
     intro: {
       title: "barang barang Selldone afiliasi barang",
       message:
-        "barang Selldone afiliasi barang barang Basajan barang barang, barang barang barang Ka barang barang afiliasi Tumbu Ka barang Anyar Pamaké Ka Selldone, barang barang Komisi Ti barang Transaksi barang ngahasilkeun—barang barang Ngawengku barang Ti Langganan, jasa barang, Toko barang, barang sadayana barang barang barang Mimitian barang barang Watesan barang Waktos barang barang !",
+        "Program Affiliate Seldone basajan tur lugas, dirancang pikeun anjeun earn effortlessly. Bagikeun tautan afiliasi unik anjeun pikeun ngundang pangguna énggal ka Selldone, sareng anjeun bakal nampi komisi tina unggal transaksi anu aranjeunna lakukeun-salami. Ieu kalebet panghasilan tina langganan, biaya jasa, paningkatan toko, sareng sadaya aliran pendapatan anu sanés. Mimitian kéngingkeun bagian tina pendapatan tanpa wates waktos atanapi penghasilan. Miluan kami sareng kéngingkeun jaringan anjeun janten panghasilan anu tetep!",
       why_join_selldone_affiliate: "barang barang ?",
       reasons: [
         "barang barang barang!",
-        "Selldone barang sadayana Langganan barang Transaksi barang barang barang pangmayaran barang barang pamaké barang barang",
-        "barang Ngirim barang gratis $99 barang Ka barang barang Tumbu",
-        "barang barang , barang barang Anyar barang Ti sadayana barang barang Pamaké",
+        "Nyertakeun sadaya biaya langganan sareng transaksi. Sacara harfiah unggal pamayaran pamaké on Selldone.",
+        "Kami ngirimkeun voucher $99 gratis ka saha waé anu ngadaptar nganggo tautan anjeun.",
+        "Nalika tingkatan anjeun ditingkatkeun, anjeun bakal nampi tingkat anyar tina sadaya pangguna anu dirujuk sateuacana.",
       ],
     },
   },
@@ -10677,16 +10677,16 @@ export default {
     clone_tooltip: {
       title: "barang Gaya",
       subtitle:
-        "barang barang barang Ka barang barang , latar, barang, barang barang Ka barang barang:",
+        "Anggo alat ieu pikeun ngayakeun réplikasi gaya sapertos font, latar, margin, sareng wates. Turutan léngkah ieu pikeun duplikat gaya:",
       step_1:
-        "barang barang , barang, barang Gambar; barang barang barang Robah Ka barang barang",
-      step_2: "barang barang Gaya barang barang Ka barang",
+        "Aktipkeun alat sareng hover mouse anjeun dina téks, kolom, atanapi gambar; kursor bakal robah jadi pipette a.",
+      step_2: "Pencét unsur anu gaya anu anjeun hoyong tiron.",
       step_3:
-        "barang barang barang Robah Balik deui Ka barang barang; barang barang Ka barang barang barang Gaya",
+        "Kursor bakal robah deui ka palette a; klik dina unsur dimana anjeun hoyong nerapkeun gaya disalin.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "barang barang ménu, barang Ngawengku sadayana barang Kategori barang Gedong... barang kaca",
+        "Togél pisibilitas ménu samping, anu kalebet sadaya kategori bagian pikeun ngawangun halaman anjeun.",
     },
     sort_tooltip: {
       subtitle:
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "sadayana Édit Parabot barang barang barang",
       view_mode_title: "Sawangan modeu",
       view_mode_msg:
-        "Témbongkeun barang kaca barang Pamaké barang tingali barang barang Édit Parabot barang barang ",
+        "Tingali halaman anjeun salaku pangguna bakal ningali ku cara nyumputkeun alat éditan tambahan sareng daérah téks kosong.",
     },
     repository_tooltip: {
       title: "barang barang",
       subtitle:
-        "barang barang Aya barang barang barang ménu, barang barang kaca barang",
+        "Togél tampilan bagian anu tos dirarancang. Bagian ieu didamel nganggo bagian standar anu aya dina ménu kénca, nunjukkeun kalenturan pembina halaman ieu.",
     },
     live_view: {
       title: "Hirup Sawangan",
@@ -10712,18 +10712,18 @@ export default {
     hotkeys_dialog: {
       title: "barang barang",
       augment_tips:
-        "barang barang kaca barang barang <b>barang</b> barang barang barang Dipaké barang Adat barang Kaca barang barang <b>Produk</b>, <b>Kategori</b>, barang <b>barang Barang</b>. Ka barang barang Gambar Ka barang barang, barang barang <b>barang</b> barang Pilih <b>barang barang</b> barang barang Gambar",
+        "Anjeun tiasa ngamuat eusi dinamis kana halaman anjeun sareng ngagentos ku nilai <b>augment</b>. Augment dianggo pikeun halaman dinamis khusus sapertos <b>Products</b>, <b>Categories</b>, sareng <b>Include Items</b>. Pikeun nyetel gambar pikeun beban dinamis, klik dina <b>Feeder</b> tur pilih <b>Dynamic Source</b> pikeun gambar éta.",
     },
     hotkeys: {
-      ctrl_b: "barang barang Pilih barang | <b>ngahasilkeun barang barang</b>",
-      ctrl_i: "barang barang Pilih barang | <i>ngahasilkeun barang barang</i>",
+      ctrl_b: "Togél hurung/pareumkeun kandel pikeun téks nu dipilih | <b>Jieun kuring wani</b>",
+      ctrl_i: "Hurungkeun/pareuman miring pikeun téks nu dipilih | <i>Jieun kuring miring</i>",
       ctrl_l:
-        "barang barang Pilih barang | <s>barang barang barang</s>",
-      ctrl_u: "barang barang Pilih barang | <u>barang barang</u>",
+        "Hurungkeun/pareumkeun strikethrough pikeun téks nu dipilih | <s>Serang kuring</s>",
+      ctrl_u: "Hurungkeun/pareumkeun garis ngagurat pikeun téks nu dipilih | <u>Gariskeun kuring</u>",
       ctrl_1:
-        "barang barang Pilih barang | <small>ngahasilkeun barang barang</small>",
-      ctrl_2: "nambahan barang barang barang Pilih barang | <big>ngahasilkeun barang barang</big>",
-      ctrl_r: "Cabut sadayana barang Ti Pilih barang | barang sadayana barang",
+        "Ngurangan ukuran font téks dipilih | <small>Jieun kuring leutik</small>",
+      ctrl_2: "Ningkatkeun ukuran font téks dipilih | <big>Jieun abdi ageung</big>",
+      ctrl_r: "Pupus sadaya pormat tina téks anu dipilih | Ngabersihan sagala gaya",
       ctrl_s: "Simpen barang kaca",
       tab: "barang barang barang modeu",
       ctrl_e: "barang barang Gaya modeu",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Setélan",
         subtitle:
-          "barang barang Simpen barang barang kaca barang barang Ka sadayana barang barang barang toko",
+          "Anjeun tiasa nyimpen bagian anu dirancang khusus pikeun dianggo ka hareup dina desain halaman anjeun. Bagian anu disimpen ieu bakal tiasa diaksés ku sadaya pangurus di toko ieu.",
       },
       image: {
         title: "Gambar",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kodeu",
         subtitle:
-          "barang barang Kodeu Ti barang barang kaca barang",
+          "Anjeun tiasa nyalin sareng nempelkeun kode unsur ti bagian sisi kénca dina pembina halaman.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "Tag",
-          message: "Dipaké barang milarian barang barang barang",
+          message: "Dipaké pikeun milarian sareng ngagolongkeun unsur.",
         },
         section: {
-          message: "barang barang barang Ti barang kaca barang",
+          message: "Salin bagian tina pembina halaman.",
         },
       },
     },
@@ -10774,36 +10774,36 @@ export default {
   marketplace_vendors: {
     title: "padagang Daptar",
     subtitle:
-      "Tambahkeun padagang barang, barang barang barang Ka Produk barang barang produk Dasbor > padagang",
+      "Tambihkeun padagang di dieu, teras setelkeun ka produk dina Dasbor Produk > Vendor.",
     add_new_vendor_action: "Tambahkeun Anyar padagang",
     status_tooltip: {
       title: "padagang status",
-      ACCEPTED: "barang padagang barang Aksés Ka barang barang",
-      REJECTED: "barang padagang barang barang barang Ditampik",
-      PENDING: "barang barang barang Ngadagoan barang barang Ti barang padagang",
+      ACCEPTED: "Anu ngajual ngagaduhan aksés kana panelna.",
+      REJECTED: "Paménta vendor parantos ditolak.",
+      PENDING: "Paménta ngantosan kaputusan ti vendor.",
     },
     number_of_products: "barang barang Produk",
     invited: "barang",
     no_pricing: "henteu hargaan",
     no_pricing_tooltip: {
       title: "barang hargaan Rencanana",
-      subtitle: "barang barang hargaan barang barang barang padagang",
+      subtitle: "Punten setel modél harga standar pikeun anu ngajual.",
     },
     updated_products_tooltip: {
       title: "Produk barang barang 24 barang",
     },
     added_products_tooltip: {
-      title: "Produk Tambahkeun barang barang barang 24 barang",
+      title: "Produk Ditambahkeun dina 24 Jam Panungtungan",
     },
     access_tooltip: {
       title: "barang Aksés",
       subtitle:
-        "barang padagang barang Aksés Ka barang barang Édit barang barang padagang > Aksés barang",
+        "Anu ngajual ngagaduhan aksés kana panelna. Anjeun tiasa ngédit ieu dina Vendor> tab Access.",
     },
     reject_by_user_tooltip: {
       title: "Ditampik barang pamaké",
       subtitle:
-        "barang pamaké Ditampik barang barang Ka barang barang padagang barang Aksés barang padagang",
+        "Pamaké nampik pamundut pikeun janten padagang sareng ngaksés padagang ieu.",
     },
     download_all_vendors: "Unduh sadayana padagang",
     bulk_import: "barang Impor (barang)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Lisensi barang barang!",
     subtitle:
-      "barang barang Lisensi barang barang Pilih usaha barang barang Lisensi Ka barang barang Rencanana",
+      "Lisensi anjeun ayeuna henteu nyumponan sarat modél bisnis anu anjeun pilih. Punten ningkatkeun lisénsi anjeun ka rencana Perusahaan.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "barang lampah",
     subtitle:
-      "barang barang Ngirim barang status Pembaruan Surélék Ka barang barang , barang barang pesen barang Ka barang, barang barang Ka barang barang barang Waktos",
+      "Anjeun tiasa ngirim email update status ka anu mésér kalayan ngan hiji klik. Salaku tambahan, anjeun tiasa netepkeun pesen umum di dieu pikeun dianggo deui, janten anjeun henteu kedah nyerat deui unggal waktos.",
     send_update_email_action: "Ngirim Pembaruan Surélék",
     add_template_action: "Tambahkeun talatah Citakan",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "🛍️Pesenan Pembaruan Surélék",
       need_set_service_alert: {
         message:
-          "barang barang barang Surélék jasa barang Ka barang barang Surélék Ka barang Dikirim",
+          "Mangga setel panyadia ladénan surélék anjeun pikeun ngidinan surelek dikirim.",
         action: "barang Ka Setélan",
       },
       send_action: "Ngirim Pembaruan Surélék",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Édit talatah Citakan",
       add_title: "Tambahkeun talatah Citakan",
       message:
-        "barang barang Judul barang talatah barang barang barang Judul barang barang Dipaké barang barang Dikirim Ka barang palanggan",
+        "Anjeun kedah nyetél judul sareng badan pesen di dieu. Judulna ngan ukur dianggo pikeun rujukan anjeun sareng moal dikirim ka palanggan.",
 
       save_action: "Simpen Citakan",
       add_action: "Tambahkeun Citakan",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "Tautan pesenan",
-    subtitle: "barang barang 🛍️Pesenan Tumbu barang barang palanggan",
+    subtitle: "Anjeun tiasa ngabagikeun tautan pesenan sareng palanggan.",
     guest_checkout_message:
-      "barang barang Témbongkeun barang 🛍️Pesenan barang barang , barang barang palanggan barang barang Ka barang barang 🛍️Pesenan Rincian, barang barang Nyiptakeun barang barang Tumbu barang barang",
+      "Pembeli tamu sacara otomatis tiasa ningali pesenanna dina browser anu sami. Tapi, upami palangganna mangrupikeun tamu sareng anjeun kedah ngabagi detil pesenan, anjeun tiasa nyiptakeun tautan anu aman pikeun aranjeunna.",
     authentication: "barang",
     guest: "barang",
     click_to_create: "barang Ka Nyiptakeun",
@@ -10897,7 +10897,7 @@ export default {
     title: "ulasan barang",
     add_source_action: "Tambahkeun Tinjauan barang",
     subtitle:
-      "barang sambungkeun barang barang Ka barang barang barang ulasan barang barang usaha Ti barang Siga Facebook, Google, barang Tambih deui. . barang barang barang Palanggan Ka barang ulasan barang barang barang palanggan barang barang ulasan barang barang badarat Kaca barang produk Kaca",
+      "Sambungkeun platform éksternal gampang pikeun ngumpulkeun sareng nganalisis ulasan ngeunaan bisnis anjeun tina sumber sapertos Facebook, Google, sareng seueur deui. Urang bakal otomatis cocog konsumén jeung ulasan maranéhanana pikeun pangalaman customer hadé. Anjeun ogé tiasa nunjukkeun ulasan ieu dina halaman badarat sareng halaman produk anjeun.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Tambahkeun Anyar barang barang",
     title: "barang barang",
     subtitle:
-      "barang barang Nyiptakeun barang Atur barang barang Dipaké Ka barang barang Produk barang Jasa barang barang Ka Produk barang barang produk Dasbor > Édit",
+      "Anjeun tiasa nyiptakeun sareng ngatur set harta di dieu. Susunan sipat dianggo pikeun nangtukeun sipat produk sareng jasa. Anjeun tiasa napelkeun set sipat ieu ka produk dina Dashboard Produk> Edit.",
   },
 
   /**
@@ -10921,7 +10921,7 @@ export default {
     },
 
     subtitle:
-      "barang barang , barang, barang barang 🛍️Pesenan barang barang Produk barang barang Varian barang barang , barang barang barang Adat Varian barang Ka barang produk barang barang Logistik > barang barang Ka barang barang barang Produk barang barang",
+      "Anjeun tiasa nyaluyukeun nami varian, ikon, sareng urutanna di dieu. Pikeun produk sareng varian unik anu ngalangkungan genep standar, anjeun tiasa nyetél varian khusus anu cocog pikeun unggal produk. Kantun ngartikeun set properti dina tab Logistic> Property Sets sareng pasihan aranjeunna ka sajumlah produk upami diperyogikeun.",
     select_property_set: "Pilih barang barang",
     add_property_set: "Tambahkeun barang barang",
   },
@@ -10931,8 +10931,8 @@ export default {
     title: "barang",
     add_action: "Tambahkeun barang",
     subtitle:
-      "Nyiptakeun barang barang barang Ka barang barang barang Beuli barang barang barang Balanja barang barang 🛍️Pesenan, Pilih barang barang ",
-    empty: "henteu barang barang barang “Tambahkeun barang”.",
+      "Damel ukuran kotak anu tiasa dianggo deui pikeun nyepetkeun pameseran labél sareng mastikeun ongkos pengiriman anu akurat. Nalika minuhan pesenan, pilih kotak anu disimpen sareng diménsina bakal ngeusian otomatis.",
+    empty: "Euweuh kotak-kotak acan. Klik \"Tambahkeun kotak\".",
     edit: "Édit barang",
     new: "Anyar barang",
     default_weight: "barang Beurat",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Pilih barang pakét",
     define_package: "barang barang pakét",
-    define_package_hint: "Nyiptakeun barang Édit barang barang pakét barang",
+    define_package_hint: "Jieun atanapi edit ukuran pakét anjeun anu tos ditetepkeun",
   },
 
 
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Daptaran",
-    message:"Nyiptakeun barang barang, barang barang Tipe barang Daptaran—barang, barang, barang, Jasa, barang Tambih deui. ."
+    message:"Jieun diréktori anu tiasa dipilarian, dimoderasi pikeun sagala jinis daptar — pasipatan, hotél, dokter, jasa, sareng seueur deui."
   },
 
   shop_listing: {
     name: "Daptaran",
     message:
-      "Nyiptakeun barang barang, barang barang Tipe barang Daptaran—barang, barang, barang, Jasa, barang Tambih deui. .",
+      "Jieun diréktori anu tiasa dipilarian, dimoderasi pikeun sagala jinis daptar — pasipatan, hotél, dokter, jasa, sareng seueur deui.",
 
     items: {
       title: "Barang",
@@ -10988,7 +10988,7 @@ export default {
 
       empty_title: "henteu Barang barang",
       empty_subtitle:
-        "Nyiptakeun barang barang Daptaran barang Ka Mimitian Gedong... barang barang",
+        "Jieun item daptar munggaran anjeun pikeun ngamimitian ngawangun diréktori anjeun.",
 
       add_title: "Tambahkeun Item",
       edit_title: "Édit barang",
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategori",
       sub_title:
-        "barang barang Kategori barang barang saringan",
+        "Atur diréktori anjeun sareng kategori sareng subkategori. Ieu ngaronjatkeun navigasi jeung nyaring.",
 
       empty_title: "henteu Kategori barang",
       empty_subtitle:
-        "Nyiptakeun Kategori Ka barang barang Daptaran barang barang barang",
+        "Jieun kategori pikeun nyusun daptar anjeun sareng ningkatkeun browsing.",
 
       add_title: "Tambahkeun Kategori",
       edit_title: "Édit kategori",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "barang",
       sub_title:
-        "Tinjauan barang Barang barang barang : barang, Nyebarkeun, Nolak, barang, barang barang Ka Ditunggu",
+        "Tinjau item anu dikintunkeun sareng mutuskeun naon anu bakal kajadian salajengna: nyatujuan, nyebarkeun, nampik, arsip, atanapi reset ka pending.",
 
       empty_title: "henteu Barang Ka Tinjauan",
       empty_subtitle:
-        "barang Pamaké barang Anyar Barang, barang barang ",
+        "Lamun pamaké ngalebetkeun item anyar, maranéhna bakal muncul di dieu pikeun moderation.",
 
       review_title: "Tinjauan barang",
       approve_publish: "barang & Nyebarkeun",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "barang",
       sub_title:
-        "Nyiptakeun barang Desain barang (Kartu + Rincian barang) barang barang barang Ka Kategori Kategori barang barang ",
+        "Jieun sababaraha set desain (kartu + rinci témplat) jeung napelkeun ka kategori. Kategori tiasa nganggo desain anu béda.",
 
       empty_title: "henteu barang barang",
       empty_subtitle:
-        "Tambahkeun barang barang Desain barang Ka Mimitian barang barang Kategori barang",
+        "Tambihkeun set desain munggaran anjeun pikeun ngamimitian ngarobih kumaha rupa kategori.",
 
       add_title: "Tambahkeun Desain",
       edit_title: "Édit Desain",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Mupus Desain",
       delete_message:
-        "Mupus barang Desain? Kategori barang barang Desain_barang",
+        "Pupus desain ieu? Kategori anu ngagunakeun éta bakal otomatis leungit design_id.",
     },
 
 
@@ -11144,11 +11144,11 @@ export default {
     badges: {
       title: "lencana",
       sub_title:
-        "Nyiptakeun barang Atur barang lencana lencana barang barang barang Ka Daptaran Barang Ka barang barang barang",
+        "Jieun jeung ngatur badges storefront. Badges tiasa ditugaskeun kana daptar barang pikeun nyorot atribut khusus.",
 
       empty_title: "henteu lencana barang",
       empty_subtitle:
-        "Tambahkeun barang barang lencana Ka Mimitian barang Daptaran Barang",
+        "Tambahkeun badge munggaran anjeun pikeun ngamimitian nyorot daptar item.",
 
       add_title: "Tambahkeun lencana",
       edit_title: "Édit lencana",
@@ -11166,11 +11166,11 @@ export default {
     companies: {
       title: "Pausahaan",
       sub_title:
-        "Nyiptakeun barang Atur Pausahaan barang Daptaran barang barang kakait Ka barang Pausahaan",
+        "Jieun jeung ngatur pausahaan. Unggal item Listing bisa optionally numbu ka hiji pausahaan.",
 
       empty_title: "henteu Pausahaan barang",
       empty_subtitle:
-        "Tambahkeun barang barang Pausahaan Ka Tumbu barang Ka Daptaran Barang",
+        "Tambahkeun perusahaan munggaran anjeun pikeun numbu ka daptar barang.",
 
       add_title: "Tambahkeun Pausahaan",
       edit_title: "Edit pausahaan",
@@ -11183,7 +11183,7 @@ export default {
 
       delete_title: "Mupus Pausahaan",
       delete_message:
-        "Mupus barang Pausahaan? Barang barang barang Pausahaan Tumbu",
+        "Hapus perusahaan ieu? Barang anu nganggo éta bakal otomatis leungit tautan perusahaan.",
     },
 
 
@@ -11192,7 +11192,7 @@ export default {
       title: "pesen",
       sub_title: "Atur pesen Dikirim barang Pamaké Ti Daptaran Propil",
       empty_title: "henteu pesen",
-      empty_subtitle: "pesen Dikirim barang Pamaké barang barang barang",
+      empty_subtitle: "Pesen anu dikirim ku pangguna bakal muncul di dieu.",
 
       sender: "barang",
       item: "barang",
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "talatah",
       owner_reply: "Nu boga barang",
       reply: "barang",
-      reply_hint: "nulis barang barang Ka barang pamaké barang barang talatah barang barang Ti lampah",
+      reply_hint: "Tulis balesan ka pamaké. Anjeun ogé tiasa nyirian pesen salaku dibaca/spam tina tindakan.",
 
       mark_read: "barang barang maca",
       mark_unread: "barang barang barang",
@@ -11217,21 +11217,21 @@ export default {
 
     enable: {
       title: "Daptaran",
-      subtitle: "Aktipkeun barang barang barang Umum Daptaran kaca barang diaktipkeun barang barang barang Waktos, Selldone barang Nyiptakeun barang Daptaran barang barang",
+      subtitle: "Aktipkeun atanapi nonaktipkeun halaman daptar umum anjeun. Nalika diaktipkeun pikeun kahiji kalina, Selldone bakal otomatis nyieun konfigurasi Listing.",
       true_description: "Daptaran barang diaktipkeun Palanggan barang barang Daptaran Kaca",
-      false_description: "Daptaran barang dipareuman barang Daptaran Kaca barang barang ",
+      false_description: "Listing ditumpurkeun. Kaca daptar sareng kiriman diblokir.",
       open_listing: "barang Daptaran",
       note: "barang barang , Watesan, formulir, barang Desain barang Daptaran Setélan",
       vendor_prereq_text:
-        "barang padagang Ka Tambahkeun Daptaran Barang Ti barang padagang barang? barang, barang barang usaha barang Ka Pasaran",
+        "Hoyong ngical paralatan nambihan daptar barang tina Panel Vendorna? Mimiti, pindahkeun modél bisnis anjeun ka Marketplace.",
       vendor_prereq_button: "barang Pasaran usaha barang",
 
       vendor_access_text:
-        "barang barang padagang barang Aksés Daptaran barang (Barang + Pausahaan). Aktipkeun barang barang Pasaran Setélan",
+        "Ayeuna anjeun tiasa mutuskeun naha padagang tiasa ngaksés fitur Listing (item + perusahaan). Aktipkeun dina setélan Marketplace.",
       vendor_access_button: "Aktipkeun Daptaran barang padagang",
 
       more_options_text:
-        "Tambih deui. . barang barang Aya barang Daptaran Setélan barang barang barang Input, UI/Penampilan, barang, Watesan, barang barang barang",
+        "Langkung seueur kadali sayogi dina setélan Listing. Anjeun tiasa ngonpigurasikeun input, UI/penampilan, moderasi, wates, sareng pilihan monetisasi.",
       more_options_button: "barang Ka Daptaran Setélan",
 
       updated: "Daptaran barang",
@@ -11244,19 +11244,19 @@ export default {
       subtitle: "Desain barang Palanggan milarian barang Daptaran Aktipkeun barang milarian barang Ngawangun Saringan Ti barang Adat formulir barang",
 
       location_title: "lokasi milarian",
-      location_subtitle: "barang Palanggan Ka barang barang lokasi barang barang ",
+      location_subtitle: "Ngidinan konsumén pikeun milih lokasi sareng milarian hasil anu caket dina radius anu tiasa dikonfigurasi.",
       location_enabled_true: "lokasi Nyaring barang diaktipkeun Palanggan barang milarian barang barang",
-      location_enabled_false: "lokasi Nyaring barang dipareuman barang barang saringan barang barang",
+      location_enabled_false: "Filter lokasi ditumpurkeun. Hasilna moal disaring ku jarak.",
 
       radius_default: "barang barang (barang)",
-      radius_default_hint: "Dipaké barang barang palanggan Pilih barang lokasi barang barang ",
+      radius_default_hint: "Dipaké nalika palanggan milih lokasi tapi henteu milih radius.",
       radius_max: "maksimum barang (barang)",
       radius_max_hint: "barang barang Ka barang Nilai",
       radius_options: "barang barang (barang)",
       radius_options_hint: "barang barang UI.",
 
       filters_title: "milarian Saringan",
-      filters_subtitle: "Tambahkeun Saringan barang maca barang Ti barang barang barang (barang barang formulir barang). barang barang Ka barang barang barang Ti Diterbitkeun Barang",
+      filters_subtitle: "Tambahkeun saringan anu maca nilai tina widang meta item (widang formulir Listing / kategori anjeun). Anggo Otomatis-generate pikeun ngumpulkeun pilihan nyata tina barang anu diterbitkeun.",
       no_filters: "henteu Saringan Tambahkeun barang",
       auto_generate: "barang barang",
 
@@ -11264,12 +11264,12 @@ export default {
       filter_label: "barang",
       filter_type: "Tipe",
       filter_options: "barang",
-      filter_options_hint: "barang Pilih Saringan, barang barang barang manual barang barang",
+      filter_options_hint: "Pikeun milih saringan, pilihan tiasa manual atanapi dihasilkeun.",
       multiple: "barang",
       single: "barang",
       kv_mode: "barang modeu",
 
-      requires_listing_active: "Daptaran barang barang Aktip Aktipkeun Daptaran barang Ka barang barang ",
+      requires_listing_active: "Listing teu aktip. Aktipkeun Listing heula kanggo dianggo dina etalase.",
 
 
     },
@@ -11911,12 +11911,12 @@ export default {
         "barang barang ",
         "Aksés Ka sadayana barang barang ",
         "barang barang barang Prioritas Ngarojong",
-        "barang barang pakét barang barang Pamaké",
+        "Paket saimbang pikeun pangguna biasa.",
         "barang Aksés barang barang barang",
         "Adat barang barang ",
         "barang barang ",
-        "henteu Watesan barang barang, barang barang barang pamaké",
-        "barang barang Rencanana barang barang, barang Ka 4 anggota",
+        "Teu aya watesna dina pamakean, pikeun pangguna kakuatan.",
+        "Rencana husus pikeun kulawarga, nepi ka 4 anggota.",
         "barang barang Maju Parabot",
       ],
     },
@@ -11977,15 +11977,15 @@ export default {
         "barang barang Ka barang barang barang",
         "barang barang Prioritas",
         "barang barang Ka barang barang barang",
-        "barang barang barang rojongan barang toko",
+        "Hatur nuhun pikeun ngadukung toko kami.",
         "barang barang Anyar Beuli!",
-        "Simpen barang invoice barang barang barang",
-        "Nganjang barang barang barang Tambih deui. . barang Produk",
+        "Simpen invoice anjeun pikeun rujukan ka hareup.",
+        "Didatangan kami deui pikeun produk anu langkung saé.",
         "barang Nyambung barang barang nawaran",
         "barang barang palanggan",
         "barang barang Ka pitulung barang barang ",
         "barang Eupan balik pitulung barang barang",
-        "barang barang barang Diskon barang barang barang Beuli",
+        "Ngarasakeun diskon husus dina pameseran Anjeun salajengna.",
         "barang barang !",
         "barang barang ",
         "barang barang Ka barang Eupan balik",
@@ -12058,7 +12058,7 @@ export default {
         "barang Jasa barang",
         "barang Pamasaran jasa barang",
         "barang barang toko barang",
-        "ahli barang barang barang usaha barang",
+        "Kontrak Konsultasi Ahli pikeun Pamilik Usaha",
         "jasa barang barang Pasaran barang",
         "Toko toko barang barang Jasa barang",
         "POD jasa barang barang",
@@ -12118,19 +12118,19 @@ export default {
       description: [
         "barang cashback barang barang Beuli!",
         "barang barang ",
-        "barang cashback nawaran barang barang barang",
+        "Nawaran cashback ekslusif kanggo anjeun.",
         "barang barang cashback barang",
-        "barang cashback barang sadayana barang barang Barang",
+        "Cashback instan dina sadaya item karesep anjeun.",
         "Simpen Tambih deui. . barang barang cashback poéna",
-        "barang barang cashback barang barang 30 poé!",
+        "Ganda cashback anjeun dina poé husus!",
         "barang cashback barang Waktos barang Toko",
         "barang barang cashback barang Kiwari!",
         "VIP anggota barang barang cashback",
         "barang! barang Waktos cashback nawaran",
-        "barang barang cashback barang Klub barang",
+        "Gabung kami Cashback Ganjaran Club ayeuna.",
         "barang Tambih deui. . barang Toko, barang Tambih deui. . barang Simpen",
         "barang barang barang cashback barang",
-        "barang barang barang cashback poéna barang",
+        "Ngalaman tawaran cashback pangsaéna.",
       ],
     },
 
@@ -12141,14 +12141,14 @@ export default {
       prompts: [
         "WILUJENG 10 Ka {shop} - barang barang Barang",
         "{shop} - barang barang jasa",
-        "barang poéna barang barang {shop} - barang barang barang!",
-        "barang Ka barang {shop}'barang barang Ka barang barang ",
-        "barang barang {shop} barang - barang Ka barang barang barang Apdet",
+        "Tawaran Eksklusif sareng Tabungan Ngan di {shop} - Rebut Kasempetan!",
+        "Kenali Dedikasi {shop} pikeun Ramah Lingkungan sareng Praktek Etika",
+        "Janten Bagian tina Kulawarga {shop} - Ngalanggan Buletin Kami pikeun Ngamutahirkeun",
         "barang barang {shop}",
         "barang barang sadayana Kajadian barang {shop}",
-        "barang nawaran barang barang {shop} - barang barang!",
-        "{shop}'barang barang produk barang - Toko barang barang",
-        "barang barang Ka {shop} - barang barang Ka barang barang ",
+        "Panawaran anu teu aya tandingan sareng Spésialisasi anu sénsitip waktos di {shop} - Aktipkeun Gancang!",
+        "Tip Meuli Komprehensif {shop} sareng Evaluasi Produk - Balanja kalayan Percaya diri",
+        "Jangkauan {shop} - Kami Narékahan pikeun Nganteurkeun Pangalaman Balanja anu Teu Ditandingkeun",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "barang barang barang, barang barang barang!",
+        "Lengkepkeun tampilan anjeun, cokot set!",
         "Simpen barang barang poéna!",
         "barang barang !",
         "barang barang Beuli, barang barang!",
         "barang barang barang, Meuli barang!",
         "barang Barang, barang diskon!",
-        "barang Tambih deui. ., barang barang – barang barang!",
+        "Kéngingkeun langkung seueur, béakeun sakedik - bungkus!",
         "barang Panawaran: barang Produk!",
         "barang barang barang, barang poéna!",
         "barang barang , Simpen barang!",
         "barang barang !",
         "Toko barang, barang barang Simpen!",
-        "barang barang Nilai, barang barang barang!",
+        "Ganda nilai, ganda senang!",
         "barang barang – Toko barang!",
-        "barang barang hargaan barang barang barang!",
+        "Harga bungkusan ekslusif kanggo anjeun!",
         "barang barang !",
         "barang barang !",
-        "barang barang barang: barang barang Simpen!",
+        "Curated pikeun anjeun: cocog sareng simpen!",
         "barang barang !",
-        "barang barang Paporit barang barang barang!",
+        "Bungkus karesep anjeun pikeun tabungan tambahan!",
       ],
     },
 
@@ -12226,27 +12226,27 @@ export default {
         "barang Balik deui barang barang",
       ],
       body: [
-        "barang {buyer_name}, barang 🛍️Pesenan #{order_id} barang barang Negeskeun! barang barang Ka barang",
+        "Hai {buyer_name}, pesenan anjeun #{order_id} parantos dikonfirmasi! Kami ngolah éta sareng bakal ngabéjaan anjeun nalika éta siap dikirim.",
 
-        "Alus anyar, {buyer_name}! barang 🛍️Pesenan #{order_id} barang barang Dikintunkeun barang barang Rekening barang barang !",
+        "Warta alus, {buyer_name}! Pesenan anjeun #{order_id} parantos dikirim. Anjeun tiasa ngalacak éta ngaliwatan akun anjeun. Hatur nuhun pikeun balanja kalayan kami!",
 
-        "barang {buyer_name}, barang 🛍️Pesenan #{order_id} barang barang barang Dihaturkeun barang barang Beuli barang barang!",
+        "Hello {buyer_name}, pesenan anjeun #{order_id} geus hasil dikirimkeun. Simkuring miharep anjeun mikaresep pameseran Anjeun. Hatur nuhun!",
 
-        "barang {buyer_name}, barang barang Ditampi barang pangmayaran barang 🛍️Pesenan #{order_id}. barang 🛍️Pesenan barang barang Dikintunkeun barang",
+        "Hai {buyer_name}, kami parantos nampi pamayaran kanggo pesenan #{order_id}. Pesenan anjeun ayeuna diprosés sareng bakal dikirim pas.",
 
-        "barang {buyer_name}, barang barang Ka barang barang 🛍️Pesenan #{order_id} barang barang , barang Kontak Ngarojong",
+        "Dear {buyer_name}, hapunten pikeun nginpokeun ka anjeun yén pesenan anjeun #{order_id} geus dibatalkeun. Mun anjeun mibanda patalékan, mangga ngahubungan rojongan.",
 
-        "barang {buyer_name}, barang barang 🛍️Pesenan #{order_id}. barang barang Ka barang barang ",
+        "Dear {buyer_name}, urang nuju ngalaman reureuh jeung pesenan anjeun #{order_id}. Hapunten tina kasulitan sareng nuju ngusahakeun pikeun ngabéréskeun éta pas mungkin.",
 
-        "barang {buyer_name}, barang 🛍️Pesenan #{order_id} barang barang Rekening barang Kontak Ngarojong barang barang Rincian",
+        "Hai {buyer_name}, pesenan anjeun #{order_id} ayeuna ditahan. Mangga parios akun anjeun atanapi ngahubungi dukungan pikeun detil salajengna.",
 
-        "barang {buyer_name}, barang 🛍️Pesenan #{order_id} barang barang barang Pangiriman barang barang !",
+        "Hai {buyer_name}, pesenan anjeun #{order_id} parantos dikirimkeun sareng kedah dugi ka anjeun pas. Hatur nuhun pikeun kasabaran anjeun!",
 
-        "barang {buyer_name}, barang barang Balik deui barang barang 🛍️Pesenan #{order_id}. barang barang , barang Kontak Ngarojong",
+        "Dear {buyer_name}, kami geus ngolah balik pikeun urutan Anjeun #{order_id}. Mun anjeun mibanda patalékan, mangga ngahubungan rojongan.",
 
-        "barang {buyer_name}, barang balikeun duit barang 🛍️Pesenan #{order_id} barang barang tingali barang barang Rekening barang",
+        "Hai {buyer_name}, ngabalikeun duit anjeun pikeun pesenan #{order_id} parantos dikaluarkeun. Anjeun kedah ningali dana dina akun anjeun pas.",
 
-        "barang {buyer_name}, barang barang Ti barang 🛍️Pesenan #{order_id} barang Balik deui barang barang! barang barang Anyar 🛍️Pesenan barang barang ",
+        "Hai {buyer_name}, barang tina pesenan anjeun #{order_id} aya deui dina stok! Anjeun tiasa nempatkeun pesenan anyar ayeuna upami anjeun masih resep.",
       ],
     },
 
@@ -12267,14 +12267,14 @@ export default {
         "barang",
       ],
       description: [
-        "barang barang barang Barang Siga barang, Warna, barang barang",
-        "spésifikasi barang barang merek, barang, barang barang",
-        "barang, barang, barang Jenis barang barang",
-        "Rincian barang barang, barang, barang barang Produk",
+        "Atribut pikeun barang pakean sapertos ukuran, warna, sareng lawon.",
+        "Spésifikasi pikeun gadget sapertos merek, modél, sareng fitur.",
+        "Rasa, ukuran, sareng jinis inuman.",
+        "Rincian pikeun tuangeun, jajanan, sareng produk pangan.",
         "Material, barang, barang Desain barang",
         "Pangarang, barang, barang barang barang",
-        "barang Tipe, barang, barang barang Rincian",
-        "barang barang, barang, barang barang barang",
+        "Jenis kulit, bahan, sareng detil bungkusan.",
+        "Grup umur, bahan, sareng standar kaamanan.",
         "Tipe, barang, barang barang barang",
         "barang, barang, barang merek Rincian",
       ],

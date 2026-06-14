@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "Kanalet e përvetësimit",
         subtitle:
-          "artikull biznes artikull artikull Raportoni artikull artikull klient përvetësim Kanalet",
+          "Biznesi juaj po rritet. Këtu është raporti i kanaleve tuaja të blerjes së klientëve.",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -611,7 +611,7 @@ export default {
       google_sheet: {
         action: "i lidhur fletë",
         tooltip:
-          "artikull Produktet artikull artikull Dyqan artikull i lidhur për të artikull Google fletë artikull Google artikull",
+          "Produktet në këtë dyqan janë të lidhura me një Fletë Google në Google Drive.",
       },
       show_deletes: {
         false_title: "Fshih të fshirat",
@@ -628,7 +628,7 @@ export default {
       table_mode: {
         false_title: "Modaliteti tërhiq dhe lësho",
         false_description:
-          "Pamje Produktet artikull artikull Kategoritë artikull artikull",
+          "Shikoni produktet e organizuara sipas kategorive dhe nënkategorive.",
         true_title: "Modaliteti i tabelës",
         true_description: "Pamje Produktet artikull artikull ",
       },
@@ -643,12 +643,12 @@ export default {
       rss_dialog: {
         title: "RSS i produkteve",
         subtitle:
-          "artikull artikull RSS artikull për të artikull artikull artikull Listë artikull të gjitha Produktet",
+          "Përdorni këtë furnizim RSS për të mbajtur një listë të përditësuar të të gjitha produkteve.",
       },
       api_dialog: {
         title: "API e produkteve",
         subtitle:
-          "artikull artikull API artikull për të artikull artikull Produkt Listë artikull artikull API për të artikull Produktet Nga artikull dyqan, artikull artikull Produkt Listim artikull artikull artikull",
+          "Përdorni këtë furnizim API për të mbajtur të përditësuar listën tuaj të produkteve. Ai siguron një API të aksesueshme nga publiku për të marrë produkte nga dyqani juaj, duke e bërë atë ideal për listimin e produkteve dhe faqet e internetit të krahasimit.",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "Transporti kufizim",
         subtitle:
-          "artikull artikull artikull kufizim për të artikull artikull artikull Klientët artikull artikull artikull Transporti artikull artikull fito Blerjet Nga artikull!",
+          "Ju mund të zbatoni kufizime për të siguruar që vetëm klientët brenda zonave të caktuara të transportit mund të bëjnë blerje nga ju!",
         no_enable_shipping_error:
           "nr artikull artikull Blej Nga artikull artikull nr aktivizuar Transporti metodë!",
         customer_must_select_a_shipping_msg:
           "klient artikull Zgjidh artikull Transporti metodë për të artikull 🛍️ Porosit",
         customer_can_order_without_shipping_method_msg:
-          "klient artikull artikull artikull 🛍️ Porosit artikull artikull nr Transporti metodë mbështetje artikull artikull Zgjidh Vendndodhja",
+          "Klienti mund të bëjë porosinë edhe nëse nuk mbështetet asnjë metodë transporti për vendndodhjen e zgjedhur.",
         inputs: {
           restriction: {
             false_description:
-              "Klientët artikull artikull artikull Porositë artikull artikull nr artikull Transporti metodë artikull artikull Zgjidh",
+              "Klientët mund të bëjnë ende porosi edhe nëse nuk është zgjedhur asnjë metodë specifike transporti.",
             false_title: "Pranoje të gjitha Porositë",
             true_title: "artikull Pranoje 🛍️ Porosit",
             true_description:
-              "Klientët artikull artikull për të artikull artikull artikull Transporti artikull artikull 🛍️ Porosit për të artikull artikull Blerje",
+              "Klientëve u kërkohet të zgjedhin opsionin e transportit ose të marrjes në mënyrë që të përfundojnë blerjen e tyre.",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "Vendosni depon, dyqanin ose origjinën e biznesit tuaj. Është jetike të kesh në llogaritjen e kostos së transportit dhe procesin e arkëtimit.",
       no_multi_warehouse_support_message:
-        "artikull artikull, artikull artikull Në dispozicion artikull Normale Dyqane",
+        "Për thjeshtësi, kjo veçori nuk disponohet në dyqanet normale.",
       size_unit: {
         title: "Njësia e madhësisë",
         subtitle: "Njësia e përdorur për gjatësinë, gjerësinë dhe lartësinë.",
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Ruani aplikacionet aktive",
         subtitle:
-          "Selldone Menaxhoni aplikacionet e biznesit tuaj.",
+          "Zbuloni lehtësinë e menaxhimit të aplikacioneve të biznesit tuaj me Selldone App Store. Platforma jonë ofron një grup të plotë mjetesh të krijuara për të optimizuar operacionet e biznesit tuaj. Nga zgjidhjet inovative të menaxhimit deri te aplikacionet për rritjen e produktivitetit, Selldone ofron një përvojë të qetë për bizneset që kërkojnë efikasitet dhe rritje.",
         all: "të gjitha",
       },
       /** {@see BAppShopStore} **/
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "artikull",
           subtitle:
-            "artikull artikull artikull, artikull Imazhet artikull artikull artikull Faqja e internetit artikull artikull artikull, artikull, artikull Celular Aplikacioni artikull",
+            "Favicons janë imazhe të vogla dhe ikonike që përfaqësojnë një faqe interneti në skedat e shfletuesit, faqeshënuesit dhe ndërfaqet e aplikacioneve celulare.",
         },
       },
 
@@ -1486,18 +1486,18 @@ export default {
 
       category: {
         subtitle:
-          "artikull artikull Kategoria artikull Titulli për të artikull artikull Listim",
+          "Konfiguro kategorinë dhe titullin që do të shfaqet në listën tuaj.",
       },
       unit: {
         subtitle:
-          "artikull artikull Çmimet artikull artikull Produkt faqe",
+          "Mund të personalizoni shfaqjen e çmimeve dhe elementet e thirrjes për veprim në faqen e produktit.",
       },
       custom_pricing: {
         title: "Me porosi Çmimet formular",
         subtitle:
-          "artikull artikull Krijo artikull artikull (artikull Çmimet hyrje formular) për të artikull Produkt, artikull artikull Klientët artikull Zgjidh artikull Variantet artikull artikull hyrje formular",
+          "Ju mund të krijoni ose caktoni një vlerësim (një formular të hyrjes së çmimit) për produktin dhe klientët tuaj mund të zgjedhin midis varianteve ose të personalizojnë mallin tuaj me një formë intuitive të hyrjes.",
         valuation_need_saved_product_message:
-          "artikull Ruaj artikull Produkt artikull, artikull artikull ",
+          "Ju lutemi ruani produktin fillimisht dhe më pas mund të caktoni një model vlerësimi.",
         assign_valuation_message:
           "artikull artikull për të artikull Produkt",
         edit_pricing_action: "Redakto Çmimet formular",
@@ -1506,27 +1506,27 @@ export default {
       action: {
         title: "Me porosi Blej artikull",
         message:
-          "artikull artikull Ndryshimi Ikona artikull artikull : {icon name} artikull",
+          "Mund ta ndryshoni ikonën duke ndjekur këtë model: {icon name} titull...",
         placeholder: "artikull artikull për të artikull",
         multi_language_dialog_title: "Me porosi Blej artikull artikull",
       },
       external: {
         not_available_message:
-          "artikull artikull Në dispozicion artikull Kompania & artikull licencë",
-        available_message: "artikull artikull Shto artikull artikull për të artikull",
+          "Ofrohet veprim shtesë me licencat e Kompanisë dhe Ndërmarrjeve.",
+        available_message: "Mund të shtoni një thirrje shtesë të jashtme për veprim.",
         input_label: "artikull artikull për të artikull",
       },
       warehouse: {
         subtitle:
-          "artikull informacion artikull artikull Magazina Menaxhim artikull artikull artikull për të artikull artikull artikull Produkt",
+          "Ky informacion përdoret nga sistemi i menaxhimit të magazinës dhe shërben për identifikimin global të produktit.",
       },
       gtin: {
-        hint: "mbështetje artikull artikull UPC (artikull artikull, 12 artikull), EAN (artikull, 13 artikull), JAN (artikull, 8 artikull 13 artikull), ISBN (artikull, 13 artikull).",
+        hint: "Vlerat e mbështetura janë UPC (Amerika e Veriut, 12 shifra), EAN (Evropë, 13 shifra), JAN (Japoni, 8 ose 13 shifra), ISBN (libra, 13 shifra).",
         label: "Produktet artikull artikull ",
         placeholder: "artikull artikull (opsional)",
       },
       hsn: {
-        hint: "HSN, artikull artikull , artikull artikull Produktet",
+        hint: "HSN, ose Sistemi i Harmonizuar i Nomenklaturës, është një sistem klasifikimi i standardizuar ndërkombëtarisht për kategorizimin e mallrave dhe produkteve.",
         placeholder: "6~16 artikull HSN Kodi (opsional)",
         label: "HSN",
       },
@@ -1534,7 +1534,7 @@ export default {
         label: "Produkt artikull artikull artikull dyqan",
         message: "artikull artikull Produkt",
         subtitle:
-          "artikull artikull Klientët artikull artikull Markë artikull artikull Produkt artikull ofertë",
+          "Informoni klientët tuaj për gjendjen dhe markën e produktit që po ofroni.",
       },
       brand: {
         label: "Markë",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "artikull artikull garanci artikull Produkt Statusi, artikull artikull informacion artikull garanci artikull artikull artikull për të artikull klient artikull ndihmë artikull artikull Koha artikull artikull artikull Produktet artikull artikull U kthye artikull Blerje",
+          "Vendosni garancinë dhe statusin e produktit, pasi ky informacion në lidhje me garancinë do t'i shfaqet klientit dhe ndihmon në përcaktimin e kornizës kohore brenda së cilës produktet mund të kthehen pas blerjes.",
 
         label: "garanci",
         placeholder: "i Artë 24 Muaj garanci (opsional)",
@@ -1555,12 +1555,12 @@ export default {
       profiles: {
         title: "Profilet",
         subtitle:
-          "artikull artikull artikull garanci, Kthimi politikë, Transporti, artikull udhëzues artikull artikull artikull për të artikull Produkt artikull artikull I ri artikull artikull artikull Produkt faqe",
+          "Ju mund të përcaktoni garancinë, politikën e kthimit, transportin dhe udhëzimin dhe t'i caktoni ato në këtë produkt. Do të shfaqet si skeda të reja në faqen e produktit.",
       },
       shortcuts: {
         title: "artikull Produkt për të artikull Kategoritë",
         subtitle:
-          "artikull artikull për të Listë artikull Produkt artikull artikull Kategoritë artikull artikull fillore Kategoria artikull artikull Produkt > Redakto > Kategoria artikull, artikull artikull artikull për të artikull 'artikull artikull , artikull artikull Produkt për të artikull artikull Kategoritë",
+          "Kjo veçori ju lejon të rendisni produktin në kategori të shumta duke ruajtur vendosjen e tij në grupin e kategorisë kryesore nën Produkt > Ndrysho > Kategori. Në thelb, ai funksionon në mënyrë të ngjashme me krijimin e 'shkurtoreve' në sistemet operative, duke mundësuar që produkti të shfaqet në kategori të tjera të specifikuara.",
       },
     },
 
@@ -1635,7 +1635,7 @@ export default {
     edit_spec: {
       title: "Specifikimet teknike",
       subtitle:
-        "artikull Produkt Specifikimet artikull artikull informacion artikull artikull artikull për të Klientët artikull artikull kategori artikull filtër artikull",
+        "Vendosni specifikimet e produktit këtu. Ky informacion do t'u shfaqet klientëve dhe mund të përdoret gjithashtu në sistemin inteligjent të filtrimit të kategorisë.",
       manual: {
         title: "artikull",
         subtitle:
@@ -1645,14 +1645,14 @@ export default {
       },
       import: {
         subtitle:
-          "artikull artikull Importo teknike Specifikimet artikull artikull Produktet",
+          "Ju mund të importoni specifikimet teknike të produkteve të ngjashme.",
         action_title: "Importo",
         action_subtitle: "artikull specifikim Nga artikull Produkt",
       },
       ai: {
         title: "AI",
         subtitle:
-          "artikull artikull artikull Krijo Produkt Specifikimet artikull artikull artikull Produktet artikull Të dhënat artikull artikull formular",
+          "Ju mund të krijoni automatikisht specifikimet e produktit duke paraqitur të dhënat e papërpunuara të produktit në formë tekstuale.",
         action_title: "automatik artikull artikull AI",
         action_subtitle: "Krijo Produkt Specifikimet artikull artikull artikull",
       },
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "Kodi i produktit: P0000 ...",
         spec_view_title: "Specifikimet e produktit të zgjedhur",
         spec_view_subtitle:
-          "artikull Specifikimet artikull artikull Importo Nga artikull artikull Produkt",
+          "Specifikimet janë importuar nga produkti i zgjedhur.",
         set_spec_action: "Specifikime teknike të kopjuara",
       },
       notifications: {
@@ -1691,7 +1691,7 @@ export default {
         prompt: {
           title: "Produkt Vështrim i përgjithshëm",
           subtitle:
-            "artikull artikull Përshkrim artikull artikull Produkt, artikull artikull Detajet artikull informacion artikull artikull I perdorur për të artikull artikull artikull Produkt Specifikimet",
+            "Ju lutemi jepni një përshkrim të shkurtër dhe të qartë të produktit, duke theksuar veçoritë dhe detajet kryesore të tij. Ky informacion do të përdoret për të gjeneruar automatikisht specifikimet e produktit.",
         },
         generated_spec: {
           title: "artikullartikull Specifikimet",
@@ -1745,7 +1745,7 @@ export default {
         actions: {
           reimagine: {
             title: "artikull I ri Imazhi",
-            subtitle: "Riimagjino artikull artikull Imazhi artikull artikull I ri sfond",
+            subtitle: "Riimagjinoni të gjithë imazhin me një sfond të ri.",
           },
           replace: {
             subtitle: "artikull artikull artikull sfond",
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "artikull artikull Tregu, artikull fillore Produkt Çmimet artikull artikull artikull Listim çmimi, artikull artikull artikull çmimi artikull artikull ",
+          "Brenda tregut, çmimi kryesor i produktit i shfaqur është çmimi i listimit, ndërsa çmimi aktual përcaktohet bazuar në të dhënat e marrëdhënies shitës-produkt.",
         subscription:
-          "artikull Abonimet, artikull artikull Listim çmimi artikull artikull, artikull artikull Zgjidh Abonimi Planifikoni",
+          "Për abonimet, shfaqet vetëm çmimi i listimit, ndërsa kostoja aktuale do të përcaktohet në bazë të planit të përzgjedhur të abonimit.",
         service:
-          "artikull artikull Produktet, artikull listë Çmimet artikull artikull , artikull artikull shërbim artikull artikull shërbim çmimi artikull artikull klient artikull artikull artikull 🛍️ Porosit (artikull Përfundimi).",
-        file: "artikull artikull për të artikull listë artikull artikull çmimi artikull artikull skedar, artikull Klientët artikull Paguaj artikull 🛍️ Porosit për të artikull Qasja për të artikull skedarë",
+          "Për produktet e bazuara në shërbime, çmimi i listuar është vetëm për qëllime ekspozimi, duke siguruar një kosto të vlerësuar të shërbimit. Çmimi aktual i shërbimit do të përcaktohet nga ju pasi klienti të ketë bërë porosinë e tij (pas përfundimit të blerjes).",
+        file: "Kjo i referohet çmimit të listuar dhe aktual të skedarit, të cilin klientët duhet të paguajnë për të fituar akses në skedarë.",
         default:
-          "artikull artikull për të artikull Produktet listë çmimi artikull artikull Llogaria artikull çmimi artikull artikull Variantet artikull artikull Çmimet",
+          "Kjo i referohet çmimit të listuar të produktit dhe gjithashtu merr parasysh çmimin e çdo varianti që nuk ka çmim të veçantë.",
       },
       extra_pricings: {
         title: "Shto artikull Çmimet",
-        subtitle: "artikull artikull Çmimet artikull artikull Blerje sasi",
+        subtitle: "Zbatimi i çmimeve dinamike bazuar në sasinë e blerjes.",
       },
 
       vendor: {
         title: "shitës Çmimet",
         subtitle:
-          "artikull çmimi artikull artikull Produktet Listim artikull artikull artikull shitës çmimi artikull artikull Produkt > shitës artikull",
+          "Ky çmim do të shfaqet vetëm në listën e produkteve. Mund të vendosni çmimin e shitësit në skedën Produkt > Shitësit.",
         manage_vendors: "Menaxho shitës",
         vendor_product_pricing_link:
-          "artikull shitës Produkt Çmimet artikull Lidhur artikull artikull Listim çmimi artikull artikull artikull shitës Produktet artikull Variantet artikull artikull artikull Variantet artikull artikull Çmimet (artikull artikull artikull çmimi artikull artikull kryesor Produkt). artikull çmimi artikull artikull Tregu çmimi, artikull artikull shitës çmimi artikull artikull Çmimet artikull artikull Tregu artikull artikull",
+          "Çmimi i produktit të shitësit është i lidhur. Ndryshimi i çmimit të listimit këtu do të ndikojë në produktet e shitësve pa variante ose ato me variante që nuk kanë çmimin e tyre (duke përdorur të njëjtin çmim si produkti kryesor). Ky çmim do të trajtohet si çmimi i tregut dhe çmimi i shitësit do të caktohet në bazë të modelit të çmimit ose marzhit të mëparshëm të fitimit të tregut.",
         vendor_variant_pricing_link:
-          "artikull artikull artikull çmimi artikull artikull Çmimet artikull shitës Produktet artikull artikull çmimi artikull artikull Tregu çmimi, artikull artikull shitës çmimi artikull artikull për të artikull Çmimet artikull artikull Tregu artikull artikull",
+          "Ndryshimi i çmimit të variantit këtu do të ndikojë në çmimet e produkteve të shitësve me të njëjtin variant. Ky çmim do të konsiderohet si çmimi i tregut dhe çmimi i shitësit do të vendoset sipas modelit të çmimit ose marzhit të mëparshëm të fitimit të tregut.",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "Ky mesazh do t'i shfaqet klientit kur blen produkte.",
       inputs_form: "Struktura e informacionit (input)",
       inputs_hint:
-        "artikull artikull për të artikull artikull formular për të artikull Detajet Nga artikull Klientët artikull artikull artikull për të artikull artikull 🛍️ Porosit",
+        "Ju keni mundësinë të konfiguroni një formular të personalizuar për të mbledhur detaje nga klientët tuaj kur ata të jenë gati të bëjnë një porosi.",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "🛍️ Porosit Limitet",
         subtitle:
-          "artikull artikull minimum artikull maksimum Kufiri artikull artikull sasi artikull artikull 🛍️ Porosit, artikull artikull ",
+          "Nëse jeni shitës me shumicë ose ka një kufi minimal ose maksimal për sasinë e këtij artikulli për porosi, mund ta specifikoni këtu.",
         no_limit: "Pa kufi",
         minimum_purchase_quantity: "minimum Blerje sasi",
         maximum_purchase_quantity: "maksimum Blerje sasi",
@@ -1852,7 +1852,7 @@ export default {
     delete_product: {
       title: "Hiq produktin",
       message: `Dëshiron të fshish <b>{product_title}</b> ?`,
-      tips: "artikull artikull artikull Fshije artikull Produkt, artikull artikull për të artikull Dyqan > Produktet, artikull Shfaq Fshirë Artikuj, artikull artikull Produkt, artikull Zgjidh artikull",
+      tips: "Nëse fshini aksidentalisht një produkt, mund ta rikuperoni atë duke lundruar te Dyqani > Produktet, duke aktivizuar \"Shfaq artikujt e fshirë\" dhe më pas duke klikuar me të djathtën mbi produkt dhe duke zgjedhur \"Rivendos\".",
     },
   },
 
@@ -1860,22 +1860,22 @@ export default {
   extra_pricing_add_dialog: {
     title: "artikull Çmimet artikull artikull {min}",
     subtitle:
-      "artikull artikull 🛍️ Porosit artikull Prioriteti artikull çmimi artikull artikull hyrje artikull minimum sasi artikull artikull artikull Çmimet për të artikull artikull",
+      "Sistemi automatikisht përcakton rendin dhe prioritetin për llogaritjen e çmimit. Ju lutemi vendosni sasinë minimale të kërkuar që ky çmim të hyjë në fuqi.",
     min_quantity: "Sasia minimale",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "Inventari artikull artikull Produktet artikull artikull , artikull artikull ",
+        "Inventari për produktet dropshipping është vendosur nga shitësit me shumicë dhe nuk mund të modifikohet këtu.",
       marketplace:
-        "artikull artikull Produkt Inventari artikull artikull Tregu artikull artikull artikull Shto artikull artikull të gjitha shitës artikull artikull ",
+        "Inventari i përgjithshëm i produktit në treg përcaktohet duke mbledhur inventarët e të gjithë shitësve. Nuk mund ta modifikoni këtu.",
       default: "artikull artikull Produktet Inventari Numëroni artikull",
     },
     menu: {
       add_bulk: {
         title: "artikull Shto",
-        subtitle: "Shto artikull Variantet artikull artikull artikull",
+        subtitle: "Shtoni variante të shumta në një veprim.",
       },
       edit_property_set: {
         title: "artikull artikull artikull",
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google Produkt Kategoria Kodi",
-    hint: "artikull artikull Kategoria artikull artikull Produkt artikull për të artikull artikull Produkt artikull",
+    hint: "Përfaqëson kategorinë e produktit tuaj sipas taksonomisë së produktit të Google.",
     placeholder: "artikull Produkt artikull shërbim Kategoria (opsional)",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "garanci",
-      desc: "artikull garanci artikull artikull për të artikull artikull Produkt artikull artikull për të artikull artikull ",
+      desc: "Një garanci është pjesë e një kontrate ku prodhuesi premton të riparojë ose zëvendësojë një produkt brenda një periudhe të caktuar. Ky angazhim mund të shtrihet edhe tek konsumatorët që nuk kanë një kontratë të drejtpërdrejtë me prodhuesin.",
     },
     RETURN_POLICY: {
       title: "Kthimi politikë",
-      desc: "Kthimi artikull artikull artikull Klientët artikull Kthimi artikull Shkëmbim artikull artikull Artikuj, artikull artikull artikull kthim, artikull artikull kthim",
+      desc: "Politikat e kthimit përshkruajnë se si klientët mund të kthehen ose shkëmbejnë mallra të padëshiruara. Ato specifikojnë artikujt e pranueshëm, arsyet e pranueshme për kthime dhe afatin kohor për të bërë kthime.",
     },
     GUIDE: {
       title: "udhëzues",
-      desc: "artikull udhëzues artikull artikull udhëzues artikull artikull udhëzues artikull artikull Produktet",
+      desc: "Një udhëzues mund të përfshijë një tabelë përmasash për veshje ose një udhëzues përzgjedhjeje për diamante. Është e rëndësishme që udhëzuesit të jenë të gjithanshëm dhe të zbatueshëm në shumë produkte.",
     },
     SHIPPING: {
       title: "Transporti",
-      desc: "artikull Transporti politikë Detajet artikull artikull Transporti artikull artikull Porositë, artikull Transporti artikull, metoda, artikull artikull Dorëzimi Kohët",
+      desc: "Një politikë transporti detajon aspektet kryesore të transportit për porositë në internet, duke përfshirë kostot e transportit, metodat dhe kohën e parashikuar të dorëzimit.",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1941,7 +1941,7 @@ export default {
       default: "E paracaktuar",
       dedicated: "artikull",
 
-      subscription: "artikull artikull artikull Taksa artikull artikull artikull Pagesa artikull artikull",
+      subscription: "Mund të aplikojmë tatim vetëm në hapin e krijimit të pagesës.",
       is_disabled: "artikull Taksa profili artikull çaktivizuar! (⚠️artikull)",
       shipping: "Transporti",
       fixed_rate: "TAX",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "Taksa profili",
       subtitle:
-        "artikull artikull Taksa artikull për të artikull Produkt artikull artikull Taksa profili artikull artikull Produkt, artikull E paracaktuar dyqan Taksa artikull artikull ",
+        "Ju mund të caktoni rregulla të veçanta tatimore për produktin. Nëse nuk zgjidhet një profil tatimor për produktin, atëherë do të zbatohen rregulloret e paracaktuara tatimore të dyqanit.",
 
       action_manage: "Menaxho Taksa",
       action_manage_sub: "Dyqan > Financa > Taksa",
 
       subscription_tips:
-        "artikull artikull Zgjidh artikull Taksa profili artikull Abonimi Produkt, artikull Përditëso<code>Taksa Kodi</code> artikull artikull artikull modalitet artikull artikull Pagesa shërbim artikull artikull Zgjidh Taksa profili artikull artikull artikull çmimi artikull artikull taksë artikull artikull artikull taksë artikull artikull <code>artikull</code> artikull <code>artikull</code>. artikull artikull , artikull artikull <br /><br /><b>artikull!</b> artikull artikull artikull Taksa profili, artikull artikull Çmimet Planet artikull artikull Produkt > Inventari artikull artikull Ruaj artikull për të artikull artikull",
+        "Kur zgjidhni një profil tatimor për produktin e abonimit, ne përditësojmë<code>kodin tatimor</code> dhe vendosim modalitetin përfshirës/ekskluziv në ofruesin tuaj të shërbimit të pagesave. Profili tatimor i zgjedhur specifikon nëse çmimi konsiderohet përfshirë taksat ose pa taksa. Një nga <code>përfshirëse</code> ose <code>ekskluzive</code>. Pasi të përcaktohet si përfshirëse ose ekskluzive, ai nuk mund të ndryshohet.<br /><br /><b>E rëndësishme!</b> Pas ndryshimit të profilit tatimor, duhet të klikoni mbi planet e çmimeve në skedën Produkt > Inventari dhe klikoni butonin Ruaj për të aplikuar ndryshimet.",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "artikull çmimi artikull sasi artikull artikull Produkt artikull artikull shitës për të artikull artikull artikull",
+        "Çmimi dhe sasia e këtij produkti përcaktohen nga një shitës i caktuar të cilit i përket.",
     },
     vendors: {
       subtitle:
-        "artikull artikull Listë artikull artikull Produkt artikull sasi artikull çmimi artikull artikull ",
+        "Këtu është një listë e furnizuesve për produktin. Sasia dhe çmimi do të vendosen nga furnitorët.",
     },
   },
   /**
@@ -1993,7 +1993,7 @@ export default {
 
     profile: {
       title: "shitës Informacion",
-      subtitle: "artikull informacion artikull artikull për të Klientët artikull",
+      subtitle: "Ky informacion u tregohet klientëve publikisht.",
       action_sub_caption: "Publike Produktet Listim faqe",
       action_see_listing_page: "shiko Listim faqe",
       send_invitation_email: "Dërgo artikull email",
@@ -2002,23 +2002,23 @@ export default {
 
     profiles: {
       title: "Profilet",
-      subtitle: "artikull artikull artikull Vendndodhja për të artikull shitës",
+      subtitle: "Mund t'i caktoni vendndodhjen këtij shitësi.",
     },
     map: {
       no_map_message:
-        "artikull artikull Vendndodhja për të artikull shitës artikull artikull shitës",
+        "Cakto një vendndodhje për shitësin nëse është një shitës i bazuar në vendndodhje.",
     },
     page: {
       title: "Me porosi faqe",
       subtitle:
-        "artikull artikull Me porosi Ulje faqe artikull artikull shitës, artikull artikull Lidhje për të artikull artikull faqe",
+        "Vendosni një faqe ulje të personalizuar për shitësin, duke i ofruar atyre një lidhje unike me faqen e tyre të dedikuar.",
       action_set_page: "shiko Publike faqe",
       action_sub_caption: "Me porosi Ulje faqe",
       vendor_has_landing_msg: "shitës artikull artikull Me porosi Ulje faqe",
       no_landing_selected_msg: "nr Ulje faqe Zgjidh",
       no_landing_page: "nr Ulje faqe",
       we_can_create_dedicated_landing_msg:
-        "artikull artikull Krijo artikull artikull Ulje faqe artikull artikull",
+        "Ne mund të krijojmë një faqe të dedikuar uljeje për ju.",
     },
     contact: {
       title: "Kontaktoni Informacion",
@@ -2027,16 +2027,16 @@ export default {
     business: {
       title: "biznes Informacion",
       subtitle:
-        "artikull artikull artikull informacion artikull artikull biznes për të artikull artikull ",
+        "Ju lutemi jepni informacion të saktë për biznesin tuaj për të siguruar një proces të shpejtë dhe pa probleme të mbledhjes së të ardhurave.",
     },
     bank: {
       title: "artikull informacion",
-      subtitle: "hyrje artikull Banka Detajet artikull artikull artikull",
+      subtitle: "Vendosni të dhënat tuaja bankare këtu për pagesat.",
     },
     default_pricing: {
       title: "E paracaktuar Çmimet",
       subtitle:
-        "artikull artikull E paracaktuar Çmimet artikull artikull artikull shitës artikull artikull shitës Shto artikull I ri Produkt, artikull Çmimet artikull artikull artikull I perdorur për të artikull artikull Tregu artikull artikull artikull Produktet çmimi artikull artikull Çmimet artikull artikull artikull Produkt artikull",
+        "Mund të caktoni një model çmimi të paracaktuar për shitësin. Kur shitësi shton një produkt të ri, ky model çmimi do të përdoret për të llogaritur marzhin e tregut në çmimin e produktit. Më vonë mund të rregulloni modelin e çmimeve për secilin produkt veç e veç.",
       no_pricing: "nr Çmimet",
     },
     shipping: {
@@ -2044,9 +2044,9 @@ export default {
       subtitle: "shitës artikull dyqan artikull artikull Transporti Shërbimet artikull korrierët",
       shipping_services: "Transporti Shërbimet",
       total_number_of_services:
-        "artikull artikull Transporti Shërbimet artikull artikull shitës artikull",
+        "Numri total i shërbimeve të transportit që ka shitësi.",
       couriers: "korrierët",
-      total_couriers_count: "artikull artikull korrierët artikull artikull shitës artikull",
+      total_couriers_count: "Numri total i korrierëve që ka shitësi.",
     },
     configuration: {
       title: "artikull",
@@ -2055,28 +2055,28 @@ export default {
       title: "Hiq shitës",
       action: "Hiq shitës",
       verify_description:
-        "artikull artikull artikull të gjitha shitës Produkt artikull artikull !",
+        "E di që të gjitha marrëdhëniet e produktit me shitësin do të hiqen!",
       verify_title: "artikull artikull për të Fshije artikull shitës",
     },
 
     send_invitation_tips:
-      "artikull artikull Dërgo artikull artikull email për të artikull Përdoruesi artikull artikull Përdoruesi artikull artikull Dyqan artikull artikull shitës, artikull Llogaria artikull artikull për të artikull",
+      "Ne do t'i dërgojmë një email ftesë këtij përdoruesi. Nëse përdoruesi i bashkohet dyqanit tuaj si shitës, llogaria e tij do t'i caktohet automatikisht atij.",
     only_marketplace_owner_can_edit_user:
-      "artikull artikull Tregu Pronari artikull Redakto artikull Përdoruesi artikull artikull artikull për të Ndryshimi artikull Pronari artikull artikull shitës, artikull artikull Dërgo artikull artikull për të artikull",
+      "Vetëm pronari i tregut mund të modifikojë përdoruesin. Nëse dëshironi të ndryshoni pronarin e këtij shitësi, mund të na dërgoni kërkesën.",
     vendor_is_disable_msg: "shitës artikull çaktivizuar",
     email_not_match_with_user_msg:
-      "artikull email artikull artikull Përdoruesit email (<b>{user_name}:</b>{user_email}). artikull artikull artikull për të Dërgo Email-et për të<b>{email}</b>?",
+      "Email-i i futur nuk përputhet me emailin e përdoruesit (<b>{user_name}:</b>{user_email}). Jeni i sigurt për të dërguar email te<b>{email}</b>?",
 
     order_information_email_to_email:
       "artikull artikull Dërgo Porositë informacion për të <b>{email}</b>.",
 
-    set_a_user_for_the_vendor_first_msg: "artikull artikull Përdoruesi artikull artikull shitës artikull",
+    set_a_user_for_the_vendor_first_msg: "Vendosni fillimisht një përdorues për shitësin.",
 
     inputs: {
       slug: {
         label: "artikull",
         placeholder: "artikull artikull Me porosi artikull",
-        hint: "Ndryshimi artikull artikull artikull shitës artikull Ulje faqe",
+        hint: "Ndrysho shtegun e faqes së uljes dinamike të shitësit.",
       },
       email: {
         message: "artikull email artikull Merrni të gjitha Njoftimet artikull Përditëso",
@@ -2088,11 +2088,11 @@ export default {
         true_title: "biznes",
       },
       bank: {
-        hint: "artikull Emri artikull artikull Banka artikull artikull shitës artikull artikull Llogaria",
+        hint: "Emri i bankës ku shitësi ka llogarinë e tij.",
         placeholder: "artikull Banka Emri",
       },
       account_name: {
-        hint: "artikull artikull Emri artikull artikull artikull Banka Llogaria",
+        hint: "Kjo duhet të përputhet me emrin e lidhur me llogarinë bankare.",
         placeholder: "artikull Emri",
       },
       account_number: {
@@ -2100,32 +2100,32 @@ export default {
         placeholder: "artikull Banka Llogaria artikull",
       },
       routing_number: {
-        hint: "artikull artikull Vendi artikull I perdorur për të artikull artikull artikull Banka artikull artikull shitës artikull",
-        placeholder: "artikull Banka artikull artikull, artikull Kodi, artikull BSB artikull",
+        hint: "Ky numër ndryshon sipas vendit. Përdoret për të identifikuar degën specifike të bankës që përdor shitësi.",
+        placeholder: "Numri i rrugës së bankës, kodi i renditjes ose numri BSB..",
       },
       iban: {
-        hint: "artikull Banka Llogaria artikull): artikull artikull shitës Banka artikull artikull ",
+        hint: "Numri Ndërkombëtar i Llogarisë Bankare): Nëse banka e shitësit është në Evropë ose në disa vende të tjera.",
         placeholder: "artikull IBAN artikull artikull DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "artikull Banka Llogaria artikull): artikull artikull shitës Banka artikull artikull ",
+        hint: "Numri Ndërkombëtar i Llogarisë Bankare): Nëse banka e shitësit është në Evropë ose në disa vende të tjera.",
         placeholder: "artikull artikull artikull",
       },
       branch_address: {
-        hint: "artikull adresë artikull artikull Banka artikull artikull artikull shitës artikull artikull Llogaria",
+        hint: "Adresa e degës së bankës ku shitësi ka llogarinë e tij.",
         placeholder: "artikull Banka adresë",
       },
       enable: {
         label: "shitës Statusi",
-        hint: "artikull artikull Aktivizo artikull artikull shitës artikull Klientët artikull artikull për të Blerje artikull Nga çaktivizuar shitës",
+        hint: "Mund të aktivizoni ose çaktivizoni shitësit globalisht. Klientët nuk do të mund të blejnë asgjë nga shitësit me aftësi të kufizuara.",
         true_description:
-          "artikull artikull për të artikull artikull Produktet artikull artikull Tregu",
+          "Ata do të jenë në gjendje të shesin produktet e tyre përmes tregut tuaj.",
       },
       access: {
         label: "shitës artikull & Qasja",
         true_description:
           "artikull shitës artikull artikull për të Përditëso sasi artikull çmimi",
-        hint: "artikull artikull Aktivizo artikull artikull artikull shitës artikull, artikull artikull shitës për të Përditëso Produkt artikull artikull Çmimet artikull Merrni artikull Porositë",
+        hint: "Mund të aktivizoni ose çaktivizoni panelin e shitësit, i cili u lejon shitësve të përditësojnë sasitë dhe çmimet e produkteve dhe të marrin porosi të pjesshme.",
         false_description: "artikull shitës artikull nr Qasja për të artikull",
       },
 
@@ -2145,15 +2145,15 @@ export default {
     title: "artikull",
     action_upload_doc: "Ngarko artikull",
     vendor_subtitle:
-      "artikull Ngarko artikull artikull biznes, IP, artikull adresë artikull artikull informacion për të artikull artikull Qasja",
+      "Ju lutemi ngarkoni dokumentet e nevojshme të verifikimit të biznesit, IP-së dhe adresës. Ne kërkojmë këtë informacion për të konfirmuar partneritetin tuaj dhe për t'ju ofruar aksesin e nevojshëm.",
     marketplace_subtitle:
-      "shitës artikull artikull biznes, artikull artikull, artikull adresë artikull për të artikull artikull KYC artikull, artikull artikull për të artikull artikull Qasja",
+      "Shitësit mund të dorëzojnë dokumente të tilla si biznesi, pronësia intelektuale dhe verifikimi i adresës për të lehtësuar procesin e tyre KYC, duke ju lejuar t'u jepni atyre aksesin e duhur.",
     upload_dialog: {
       title: "Ngarko artikull",
       type: {
         title: "artikull Lloji",
         subtitle:
-          "artikull Ngarko artikull artikull informacion artikull artikull Në dispozicion",
+          "Ju lutemi ngarkoni vetëm dokumentet e nevojshme. Shmangni ndarjen e çdo dokumenti që përmban informacion të ndjeshëm. Ne kërkojmë dokumente që janë në dispozicion të publikut.",
       },
     },
   },
@@ -2193,12 +2193,12 @@ export default {
         pattern: {
           label: "artikull",
           message:
-            "artikull Shfaq artikull distinktiv artikull Produktet artikull artikull artikull Vlera artikull artikull specifikim Regex mbështetje",
+            "Shfaq automatikisht këtë distinktiv për produktet që ka këtë vlerë të përputhur në specifikat e tyre. Regex mbështetet.",
           placeholder: "për të Shfaq artikull të gjitha Produktet shkrim: *.*",
         },
       },
       notifications: {
-        badge_added: "artikull distinktiv artikull artikull Shto artikull!",
+        badge_added: "Distinktivi është shtuar me sukses!",
         badge_updated: "artikull distinktiv artikull artikull !",
         item_not_found_error:
           "artikull artikull faqe artikull Kontaktoni Mbështetje",
@@ -2211,9 +2211,9 @@ export default {
   product_tags: {
     title: "Etiketat",
     tips: [
-      "artikull artikull Filtro Produktet artikull artikull Etiketat artikull <b>Ulje Faqet</b>.",
-      "artikull artikull artikull Klientët artikull kërko artikull artikull Etiketat artikull artikull<b>kërko</b> artikull",
-      "artikull artikull Etiketat, artikull Produktet artikull artikull <b>artikull Etiketat</b> artikull artikull <b>artikull Produktet artikull</b> artikull artikull Produkt faqe; artikull, Produktet artikull artikull artikull Kategoria artikull artikull artikull",
+      "Mund të filtrosh produktet bazuar në etiketat në <b>faqet e uljes</b>.",
+      "Ju dhe klientët tuaj mund të kërkoni për këto etiketa në shiritin<b>search</b>.",
+      "Nëse vendosni etiketat, vetëm produktet me <b>etiketat e zakonshme</b> do të shfaqen në seksionin <b>produktet e lidhura</b> në faqen e produktit; përndryshe, produktet në të njëjtën kategori do të shfaqen.",
     ],
     inputs: {
       tags: {
@@ -2234,12 +2234,12 @@ export default {
       "artikull Tregu Ofertat Transporti metoda për të ndihmë shitës artikull artikull Porositë artikull artikull Shto Transporti Shërbimet artikull për të artikull 🛍️ Porosit Transporti artikull Nga artikull 🛍️ Porosit faqe artikull artikull Adresat artikull artikull kod artikull artikull Transporti artikull",
 
     subtitle_pickup:
-      "artikull Tregu artikull artikull artikull shitës, artikull artikull për të artikull artikull Nga artikull Vendndodhja artikull artikull Transporti artikull artikull artikull Shto artikull artikull Vendndodhja artikull artikull profili (artikull Magazina artikull artikull I perdorur artikull artikull E paracaktuar artikull Vendndodhja).",
+      "Tregu mundëson marrjen për shitësit, duke i lejuar blerësit të zgjedhin marrjen nga vendndodhja juaj si opsion transporti. Mund të shtoni vendndodhjen tuaj të marrjes në profilin tuaj (magazina juaj do të përdoret si vendndodhja e paracaktuar e marrjes).",
     action: "Shto shërbim",
 
     add_dialog: {
       select_service_msg:
-        "Transporti metoda artikull artikull Tregu, artikull Klientët artikull artikull Nga artikull shitës artikull nr artikull artikull Transporti Shërbimet për të Blerje artikull artikull artikull Zgjidh artikull metodë Nga artikull Listë artikull për të Pamje Në dispozicion Shërbimet artikull artikull Transporti shërbim Nga artikull Listë artikull artikull artikull Në dispozicion Shërbimet artikull artikull artikull Shto për të artikull dyqan artikull artikull artikull",
+        "Metodat e transportit përcaktohen nga tregu dhe klientët mund të zgjedhin prej tyre. Shitësit nuk kanë kontroll mbi këto opsione, por mund të integrojnë panelin e tyre me shërbimet e transportit për të blerë direkt etiketa. Ju lutemi zgjidhni një metodë nga lista e mëposhtme për të parë shërbimet e disponueshme. Zgjidhni një shërbim transporti nga lista e mëposhtme. Këtu shfaqen vetëm shërbimet e disponueshme që mund të shtohen në dyqanin tuaj.",
       no_available_service: "nr Në dispozicion shërbim!",
     },
   },
@@ -2254,14 +2254,14 @@ export default {
   product_location_profile: {
     title: "Vendndodhja",
     empty_subtitle:
-      "artikull artikull Vendndodhja për të artikull Produkt artikull artikull ",
+      "Cakto një vendndodhje produktit nëse është një artikull i bazuar në vendndodhje.",
     dialog: {
       header: "Zgjidh Vendndodhja profili",
       action_new_location: "Shto vendndodhje të re",
       title: "Vendndodhja profili",
       subtitle:
-        "artikull artikull artikull Produktet artikull artikull Harta Vendndodhja artikull artikull Vendndodhja Etiketat për të artikull Produktet",
-      tips: "<b>artikull: </b> artikull artikull Vendndodhja për të artikull Produkt <b>artikull</b> artikull artikull artikull për të Shfaq artikull Produkt artikull artikull artikull Vendndodhja artikull artikull Harta artikull artikull Produkt artikull artikull artikull Vendndodhja artikull artikull kryesor artikull, si <b>artikull artikull</b> artikull artikull Shërbimet si<b>artikull artikull artikull</b>.",
+        "Mund t'i fiksoni produktet në vendndodhjen e hartës duke caktuar etiketat e vendndodhjes produkteve.",
+      tips: "<b>E rëndësishme: </b> Cakto një vendndodhje për produktin <b>vetëm</b> nëse dëshiron ta shfaqësh produktin në vendndodhjen specifike në hartë. Produkti me gjilpërë duhet të ketë vendndodhjen si specifikim kryesor, si <b>shtëpi/vende me qira</b> ose shërbime personale si<b>Parukeria dhe Spa</b>.",
     },
   },
 
@@ -2275,17 +2275,17 @@ export default {
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "artikull artikull Listë artikull Artikuj artikull artikull Produkt artikull shërbim paketë",
+      "Përfshini një listë të artikujve që vijnë me paketën e produktit ose shërbimit.",
     dialog: {
       header: "Produkt paketë Artikuj",
       title: "artikull Artikuj",
-      subtitle: "artikull artikull Artikuj artikull artikull Produkt",
+      subtitle: "Ky është një përmbledhje e artikujve që vijnë me produktin.",
       action_manage: "Menaxho Artikuj",
       action_disable_msg: "Tregu Pronari",
       select_items_tips:
-        "Krijo artikull artikull paketë artikull artikull Produkt artikull shërbim artikull artikull artikull për të artikull artikull Klientët artikull artikull klient për të artikull artikull , artikull artikull ",
+        "Krijoni ose zgjidhni komponentët e paketës që vijnë me produktin ose shërbimin. Përdoreni këtë veçori për të theksuar atë që klientët mund të parashikojnë të marrin me blerjen e artikullit. Ne këshillojmë përdorimin e këtij funksioni vetëm kur është thelbësore që klienti të kuptojë përmbajtjen e përfshirë, si për shembull kur blen një smartphone.",
       create_item_tips:
-        "artikull, artikull artikull I ri artikull artikull artikull Imazhet, artikull artikull Ngarko Fotot për të artikull 256artikull artikull artikull për të artikull artikull Pamja e jashtme artikull të gjitha artikull, artikull artikull Imazhet artikull transparent sfond artikull artikull të gjitha artikull Produktet",
+        "Përndryshe, mund të përfshini një artikull të ri. Përdorni imazhet katrore, pasi ne do të ndryshojmë automatikisht përmasat e fotografive të ngarkuara në një format katror 256x256. Për të siguruar pamje optimale në të gjithë shabllonet, përdorni imazhe minimaliste me sfond transparent dhe mbani një model të qëndrueshëm për të gjitha produktet tuaja.",
       create_new_item_action: "Krijo I ri artikull artikull",
     },
   },
@@ -2447,14 +2447,14 @@ export default {
         variables: {
           title: "artikull artikull",
           subtitle:
-            "artikull artikull artikull Ngjyrë Kodi, artikull, <b>#654FFF</b>, artikull artikull , artikull, <b>#764FFA/#000000</b>.",
+            "Fut një kod ngjyrash gjashtëkëndor, p.sh., <b>#654FFF</b>, ose dy ngjyra të ndara me një vijë të pjerrët, p.sh., <b>#764FFA/#000000</b>.",
           graphical_asset_tips:
-            "artikull artikull Vlera për të artikull artikull, artikull Imazhet artikull <b>artikull artikull</b>. Ngarko artikull artikull Kodi artikull artikull artikull",
+            "Mund t'u caktoni çdo vlerë variablave, duke përfshirë imazhet duke përdorur <b>Graphic Assets</b>. Ngarko një model dhe përdor kodin e krijuar për variantin.",
           graphical_asset_action: "artikull artikull",
           graphical_asset_action_caption: "Imazhet artikull artikull artikull",
         },
         smart_unit_price: {
-          tips: "artikull Njësia çmimi artikull artikull <b>Pesha</b>, <b>vëllimi</b>, artikull <b>artikull artikull</b>. për të artikull artikull artikull, artikull për të Dyqan > Cilësimet > Tema > Produkt faqe > artikull Njësia çmimi",
+          tips: "Llogaritni çmimin për njësi bazuar në <b>pesha</b>, <b>vëllimi</b> dhe <b>madhësia e paketimit</b>. Për ta çaktivizuar këtë veçori, lundroni te Blerja > Cilësimet > Tema > Faqja e produktit > Çmimi i njësisë inteligjente.",
           smart_unit_price: "Njësia çmimi artikull",
         },
         quantity: {
@@ -2469,13 +2469,13 @@ export default {
         package: {
           title: "artikull & Transporti",
           subtitle:
-            "artikull Pesha artikull artikull artikull Variantet për të artikull Transporti artikull",
+            "Specifikoni peshën dhe dimensionet për variantet për të përcaktuar opsionet e transportit.",
           same_as_product_action: "artikull artikull Produkt",
         },
         image: {
           title: "artikull Imazhet",
           subtitle:
-            "Shto artikull Imazhet artikull artikull Imazhi Ngarko artikull artikull artikull fillore Imazhi artikull artikull artikull",
+            "Shtoni imazhe unike për çdo variant. Imazhi i parë i ngarkuar do të jetë imazhi kryesor për atë variant.",
         },
         inputs: {
           sku: {
@@ -2487,7 +2487,7 @@ export default {
           gtin: {
             label: "artikull artikull (GTIN)",
             message:
-              "mbështetje artikull: UPC (12 artikull), EAN (13 artikull), JAN (8 artikull 13 artikull), ISBN (13 artikull).",
+              "Formatet e mbështetura: UPC (12 shifra), EAN (13 shifra), JAN (8 ose 13 shifra), ISBN (13 shifra).",
           },
         },
       },
@@ -2514,11 +2514,11 @@ export default {
   product_extra_physical: {
     weight: "Pesha e paketës",
     weight_subtitle:
-      "hyrje artikull Produktet artikull artikull Pesha artikull artikull informacion ndihmë artikull artikull artikull Transporti metodë artikull artikull artikull 🛍️ Porosit artikull artikull artikull Transporti Kufiri",
+      "Vendosni këtu peshën totale të paketimit të produktit. Ky informacion ndihmon në zgjedhjen e metodës së duhur të transportit dhe siguron që porosia të mos e tejkalojë kufirin e transportit.",
     weight_unit: "Kg",
     size: "Dimensionet e paketës",
     size_subtitle:
-      "hyrje artikull Produktet artikull artikull informacion artikull I perdorur për të artikull artikull artikull Transporti metodë artikull artikull artikull 🛍️ Porosit artikull artikull Kufiri",
+      "Vendosni këtu madhësinë e plotë të paketimit të produktit. Ky informacion përdoret për të zgjedhur metodën e duhur të transportit dhe për të siguruar që porosia të mos e tejkalojë kufirin e madhësisë së parcelës.",
 
     width: "Gjerësia",
     length: "Gjatësia",
@@ -2526,7 +2526,7 @@ export default {
     lead_time_title: "Koha e përgatitjes",
     lead_time: "Koha e përgatitjes",
     lead_time_subtitle:
-      "artikull Koha artikull artikull Kohëzgjatja artikull për të artikull artikull Produkt artikull Transporti, artikull ndihmë artikull artikull artikull Dorëzimi Koha",
+      "Koha e dërgimit vlerëson kohëzgjatjen e nevojshme për përgatitjen e një produkti për transport, gjë që ndihmon në vlerësimin e kohës së dorëzimit.",
 
     lead_time_dimension: "Orë(at)",
     bulk_action: "Veprimet me shumicë",
@@ -2572,9 +2572,9 @@ export default {
     title: "artikull artikull artikull",
     tips: {
       how_it_works:
-        "<b>artikull artikull artikull:</b><br />Ngarko artikull artikull artikull Imazhet artikull për të artikull artikull Imazhet artikull artikull , artikull <b>{filename}</b> artikull artikull artikull Vlera shënim artikull artikull Kodi artikull artikull I perdorur artikull artikull <b><s>Ngjyrë</s></b> Vlera",
+        "<b>Si funksionon:</b><br />Ngarkoni imazhet e modelit ose artikullit këtu. Për t'i përdorur këto imazhe si opsion variant, përfshini <b>{filename}</b> në vlerën e variantit. Ki parasysh se ky kod nuk mund të përdoret në vlerën <b><s>color</s></b>.",
       how_set_name:
-        "<b>artikull artikull:</b><br />artikull artikull 12 artikull artikull artikull Ngarko skedar Emri artikull artikull I perdorur artikull artikull artikull Emri artikull artikull Produkt, artikull artikull për të artikull artikull , artikull Ngarko artikull Imazhet artikull artikull 100, artikull artikull Llojet artikull Mobilje",
+        "<b>Këshilla për emërtimin:</b><br />12 karakteret e para të emrit të skedarit të ngarkuar do të përdoren si emër aktivi. Kjo veçori është ideale për të shfaqur aspekte të personalizueshme të një produkti, të tilla si përmasat e gomave për motoçikleta ose modelet e pëlhurës. Për të optimizuar përdorimin e kësaj veçorie, shmangni ngarkimin e imazheve të varianteve këtu, përveç nëse numri i aseteve grafike është më pak se 100, si p.sh. lloje të ndryshme druri për mobilje.",
     },
   },
 
@@ -2601,15 +2601,15 @@ export default {
     out_of_stock: "artikull artikull ",
 
     image: {
-      tooltip: "⚡ artikull artikull Imazhi artikull për të artikull artikull për të artikull artikull",
+      tooltip: "⚡ Zvarritni dhe lëshoni një imazh këtu për t'ia caktuar variantit.",
     },
     enable: {
-      true_tooltip: "artikull artikull artikull Në dispozicion artikull artikull artikull dyqan",
-      false_tooltip: "artikull artikull Në dispozicion artikull artikull artikull dyqan",
+      true_tooltip: "Ky artikull është i disponueshëm në dyqanin online.",
+      false_tooltip: "Ky artikull nuk është i disponueshëm në dyqanin online.",
     },
     restore_dialog: {
       title: "artikull artikull",
-      message: "artikull artikull për të artikull artikull Fshirë artikull?",
+      message: "Jeni i sigurt që dëshironi të rivendosni këtë variant të fshirë?",
       action: "po, artikull artikull",
     },
     notifications: {
@@ -2717,10 +2717,10 @@ export default {
   bulk_price_dialog: {
     title: "artikull Veprimet > çmimi",
     message:
-      "artikull artikull Shuma artikull artikull për të artikull çmimi artikull të gjitha Produktet artikull artikull dyqan artikull, artikull artikull çmimi artikull artikull për të artikull artikull Zgjidh artikull artikull ",
+      "Shuma e mëposhtme do të zbatohet si përqindje për çmimin e të gjitha produkteve në dyqanin tuaj. Gjithashtu, vlerat e llogaritura të çmimeve do të konvertohen në mënyrë inteligjente në numrin më të afërt të rrumbullakët bazuar në monedhën e zgjedhur. Kini kujdes në futjen e vlerave.",
     check: "artikull artikull çmimi artikull",
     check_description:
-      "artikull çmimi artikull artikull Zgjidh Kategoria artikull të gjitha artikull",
+      "Çmimi do të ndryshojë për kategorinë e zgjedhur dhe të gjitha nënkategoritë.",
     add_percent_tab: "Shto Përqindje",
     add_constant_tab: "Shto artikull",
     ending_tab: "fund artikull",
@@ -2728,38 +2728,38 @@ export default {
 
     constant: {
       subtitle:
-        "artikull Shuma artikull artikull Shto artikull artikull Nga artikull artikull çmimi artikull Produktet",
+        "Shuma do të shtohet ose zbritet nga çmimi aktual i produkteve.",
     },
     ending: {
       subtitle:
-        "artikull fund artikull artikull artikull çmimi artikull Produktet artikull artikull artikull për të artikull artikull Vlera",
+        "Përfundimi i çmimit aktual të produkteve do të ndryshohet në vlerën e specifikuar.",
     },
     marketplace: {
       title: "Tregu Listim çmimi",
       subtitle:
-        "artikull artikull për të artikull Përditëso artikull Listim çmimi artikull Produktet artikull artikull Tregu artikull, artikull kryesor Produkt çmimi artikull artikull shitës Çmimet artikull për të manual çmimi artikull",
+        "Ky opsion ju lejon të përditësoni automatikisht çmimin e listimit të produkteve në treg. Herë pas here, çmimi kryesor i produktit mund të mos përputhet me çmimin e shitësit për shkak të ndryshimeve manuale të çmimeve.",
       strategy: {
         min: {
           title: "artikull minimum çmimi",
           description:
-            "artikull artikull minimum çmimi artikull artikull Produkt artikull artikull Listim çmimi",
+            "Vendosni çmimin minimal të produktit si çmimin e listimit.",
         },
         max: {
           title: "artikull maksimum çmimi",
           description:
-            "artikull artikull maksimum çmimi artikull artikull Produkt artikull artikull Listim çmimi",
+            "Vendosni çmimin maksimal të produktit si çmimin e listimit.",
         },
       },
     },
 
     category: {
-      subtitle: "Kufiri artikull artikull për të artikull Kategoria artikull të gjitha artikull",
+      subtitle: "Kufizoni veprimin në masë në një kategori dhe të gjitha nënkategoritë.",
     },
     vendor: {
       subtitle:
-        "Kufiri artikull Veprimet për të artikull artikull shitës artikull artikull shitës artikull Zgjidh, artikull çmimi Përditëso artikull artikull artikull për të artikull shitës Produktet, artikull artikull çmimi artikull artikull shitës",
+        "Kufizoni veprimet me shumicë në një shitës specifik. Kur zgjidhet një shitës, përditësimi i çmimit do të zbatohet për produktet e shitësit, i cili përfaqëson çmimin e shitjes për atë shitës.",
       listing_price_need_update_msg:
-        "artikull artikull artikull për të Përditëso artikull Listim çmimi (artikull çmimi artikull artikull artikull Produkt Listë), artikull artikull Përditëso artikull artikull artikull Filtrat artikull artikull Zgjidh artikull shitës",
+        "Nëse dëshironi të përditësoni çmimin e listimit (çmimi i shfaqur në listën e produkteve), duhet të riparaqisni përditësimin në masë me të njëjtat filtra, por pa zgjedhur një shitës.",
     },
     listing_products_changes: "Listim Produktet Ndryshimi",
     total_vendor_products: "artikull shitës Produktet",
@@ -2815,27 +2815,27 @@ export default {
       currency_step: {
         title: "Zgjidh artikull Monedha",
         subtitle:
-          "artikull për të artikull artikull dyqan për të artikull minimum—artikull artikull artikull 3. artikull Pagesa Portat artikull artikull Transaksionet artikull artikull artikull Monedha",
+          "Përpiquni të mbani numrin e monedhave në dyqanin tuaj në minimum—në mënyrë ideale më pak se 3. Shumica e portave të pagesave mund të përpunojnë transaksione në pothuajse çdo monedhë.",
         add_first_currency: {
-          subtitle: "artikull Shto artikull Monedha për të artikull Dyqan artikull artikull",
+          subtitle: "Ju lutemi shtoni një monedhë në dyqanin tuaj përpara se të vazhdoni.",
           title: "Shto monedhën",
         },
       },
       gateway_step: {
         title: "Aktiv Pagesa metoda",
         subtitle:
-          "artikull artikull Nga artikull Në dispozicion Pagesa metoda artikull artikull Zgjidh artikull Porta, artikull artikull artikull për të artikull artikull Detajet për të Lidhje artikull Dyqan artikull për të artikull artikull Pagesa metodë",
+          "Ju lutemi zgjidhni nga mënyrat e disponueshme të pagesës. Pasi të zgjidhni një portë, do të jeni në gjendje të futni detajet e nevojshme të lidhjes për të lidhur dyqanin tuaj drejtpërdrejt me mënyrën tuaj të preferuar të pagesës.",
       },
 
       config_step: {
-        import_config: "artikull artikull Importo Konfigurimi Nga artikull artikull Portat",
+        import_config: "Ju mund të importoni konfigurimin nga porta të tjera të ngjashme",
         import_from: "Importo Nga",
       },
 
       request_add_new_gateway: {
         title: "artikull shiko artikull artikull Pagesa metodë?",
         subtitle:
-          "artikull artikull artikull Pagesa artikull artikull listë, artikull për të artikull vjetore Planifikoni (artikull artikull ) artikull artikull 48 artikull artikull Llogaria artikull artikull ",
+          "Nëse ofruesi juaj lokal i pagesave nuk është i listuar, regjistrohuni në çdo plan vjetor (duke përfshirë Startup për përballueshmërinë) dhe kërkoni një integrim. Ne do ta përfundojmë atë brenda 48 orëve nëse jepet një llogari testimi dhe dokumentacion.",
       },
 
       inputs: {
@@ -2844,11 +2844,11 @@ export default {
         },
         manual: {
           true_title: "artikull modalitet",
-          true_description: "artikull artikull artikull Porta artikull artikull",
+          true_description: "Mund ta vendosni manualisht konfigurimin e portës.",
 
           false_title: "automatik lidh",
           false_description:
-            "artikull artikull lidh për të artikull Porta artikull artikull Porta artikull artikull",
+            "Sistemi do të lidhet automatikisht me portën nëse tashmë keni një portë të konfiguruar në vend.",
         },
       },
     },
@@ -3078,19 +3078,19 @@ export default {
     },
     parent: {
       subtitle:
-        "artikull Kategoria artikull artikull Kategoria artikull artikull Produkt artikull artikull Kategoria, artikull artikull kryesor Kategoria",
+        "Kjo kategori do të shfaqet nën kategorinë e saj mëmë. Nëse një produkt nuk ka një kategori mëmë, ai do të shfaqet në kategorinë kryesore.",
     },
     template: {
       title: "shabllon",
       edit_page: "Redakto faqe",
       Pages_list: "faqe Listë",
       subtitle:
-        "artikull artikull Kategoria faqe artikull artikull artikull Me porosi faqe artikull artikull për të Krijo Faqet artikull transparent sfond artikull Dizajn 1 për të 2 artikull artikull për të artikull Kategoria artikull artikull artikull Lidhje artikull faqe për të artikull Kategoritë, artikull artikull artikull për të artikull artikull Kategoria artikull",
+        "Mund të përmirësoni shfaqjen e faqes tuaj të kategorisë duke mbivendosur një faqe të personalizuar. Qasja më e mirë është krijimi i faqeve me sfond transparent dhe dizajnimi i 1 deri në 2 seksione specifike për secilën kategori. Më pas mund të lidhni një faqe me disa kategori, duke përdorur përmbajtje dinamike për të përshtatur secilën kategori individualisht.",
     },
     critical_zone: {
       title: "artikull artikull",
       subtitle:
-        "artikull artikull Hiq artikull Kategoria, artikull artikull artikull Produktet artikull artikull artikull për të artikull artikull artikull<b>📁 {parent}</b>. për të Menaxho Kategoritë artikull artikull Produkt Listë, artikull për të artikull Dyqan > Kategoritë artikull",
+        "Nëse hiqni një kategori, nënkategoritë dhe produktet e saj do të zhvendosen në drejtorinë mëmë<b>📁 {parent}</b>. Për të menaxhuar kategoritë që nuk janë në listën e produkteve, shkoni te skeda Dyqani > Kategoritë.",
       accept_delete: {
         true_description: "artikull artikull për të Hiq artikull Kategoria",
         true_title: "artikull Hiq Kategoria",
@@ -3155,12 +3155,12 @@ export default {
         edit_success: "Kategoria e redaktuar.",
       },
       manually_update_filters_tips:
-        "<b>artikull!</b> Filtrat artikull artikull Produktet Ndryshimi artikull, artikull artikull artikull për të Produktet artikull artikull Kategoria, artikull Kthimi artikull artikull për të artikull artikull Filtro",
+        "<b>E rëndësishme!</b> Filtrat përditësohen automatikisht kur ndryshojnë produktet. Megjithatë, pasi të keni bërë ndryshime në produktet në një kategori, ju lutemi kthehuni këtu dhe klikoni butonin ruaj/rigjenero për të rifreskuar filtrin.",
 
       inputs: {
         spec: {
           message:
-            "Listë artikull artikull për të artikull artikull Filtro artikull",
+            "Lista e veçorive që dëshironi të shfaqen në seksionin e filtrit",
           placeholder: "Zgjidh specifikim për të Shfaq artikull Filtro",
         },
       },
@@ -3195,7 +3195,7 @@ export default {
     description_input: "Përshkrimi i dyqanit",
     description_input_message: "Shkruani një përshkrim të shkurtër për biznesin tuaj.",
     description_input_tips:
-      "artikull Përshkrim artikull artikull Dyqane artikull artikull I perdorur artikull artikull E paracaktuar artikull Etiketë Përshkrim artikull artikull dyqan Faqet",
+      "Ky përshkrim do të shfaqet në fundin e dyqanit tuaj dhe do të përdoret gjithashtu si përshkrimi i parazgjedhur i meta-etiketës për faqet e dyqanit tuaj.",
     address_input: "Adresa e dyqanit",
     address_input_message: "Fut adresën e saktë të vendndodhjes së dyqanit",
 
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "artikull",
         subtitle:
-          "artikull artikull artikull për të Anulo artikull 🛍️ Porosit artikull, artikull artikull ",
+          "Nëse dëshironi të anuloni porosinë tuaj menjëherë, mund të përdorni këtë opsion.",
       },
 
       express_input: {
         true_title: "artikull | Anulo 🛍️ Porosit artikull",
         false_title: "artikull | Anulo 🛍️ Porosit artikull 48 artikull",
         true_description:
-          "artikull artikull artikull Anulo artikull 🛍️ Porosit artikull artikull Përditëso artikull Inventari artikull artikull",
+          "Ky opsion do të anulojë porosinë tuaj menjëherë dhe do të përditësojë inventarin menjëherë.",
         false_description:
-          "artikull artikull artikull Anulo artikull 🛍️ Porosit artikull 48 artikull artikull artikull, Artikuj artikull artikull ",
+          "Ky opsion do të anulojë porosinë tuaj pas 48 orësh. Deri atëherë, artikujt do të rezervohen dhe nuk mund të blihen nga të tjerët.",
       },
     },
 
@@ -3521,14 +3521,14 @@ export default {
       need_to_refund: {
         title: "rimbursim artikull për të artikull klient",
         message:
-          "artikull artikull Shuma artikull rimbursim artikull artikull artikull për të fito artikull artikull i padisponueshëm Artikuj artikull artikull rimbursim artikull artikull",
+          "Ne llogarisim shumën totale të rimbursimeve që duhet të bëni manualisht. Është llogaritur bazuar në artikujt e padisponueshëm dhe vlerat totale të rimbursuara ende.",
         calculated_approximately:
-          "artikull Shuma artikull artikull Shuma artikull",
+          "Shuma llogaritet afërsisht. Ju lutemi llogarisni vetë shumën e saktë.",
       },
       need_payback: {
         title: "klient Ngarkimi artikull",
         message:
-          "artikull artikull rimbursim për të artikull klient artikull artikull Shuma artikull artikull Artikuj artikull artikull për të Ngarkimi artikull klient për të artikull artikull artikull Shuma",
+          "Kemi vënë re se shuma totale e rimbursuar klientit është më e lartë se shuma e detyrimit bazuar në artikujt në karrocë. Mund t'ju duhet të ngarkoni klientin tuaj për të rikuperuar shumën e tepërt.",
       },
       need_no_refund: {
         title: "nr rimbursim artikull",
@@ -3536,7 +3536,7 @@ export default {
       total_refund: {
         title: "artikull rimbursim",
         message:
-          "artikull artikull artikull Shuma artikull rimbursim artikull artikull Pagesa Porta artikull artikull Pagesa Shërbimet Mbështetje artikull artikull, artikull artikull artikull për të rimbursim artikull",
+          "Është shuma totale e rimbursimeve të bëra automatikisht nga porta juaj e pagesave. Vetëm disa shërbime pagesash e mbështesin këtë veçori, kështu që ju duhet të rimbursoni manualisht.",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,7 +3551,7 @@ export default {
       items_weight_calculation:
         "artikull Pesha artikull të gjitha Artikuj artikull {weight} {unit}",
       not_available_message:
-        "artikull artikull Në dispozicion artikull artikull artikull çaktivizuar artikull artikull Transporti adresë artikull artikull Përdoruesi artikull artikull artikull adresë artikull Blerje!",
+        "Nuk është i disponueshëm kur jeni të çaktivizuar duke kërkuar adresën e transportit dhe gjithashtu përdoruesi nuk ka plotësuar adresën pas blerjes!",
 
       message:
         "Klikoni butonin e mëposhtëm <b>Porosia Gati</b> nëse porosia është gati për t'u dërguar.",
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "Raporti i pagesave",
         subtitle:
-          "artikull Pagesat artikull Transaksionet artikull artikull artikull Zgjidh Koha artikull",
+          "Krijoi pagesa dhe transaksione të kryera gjatë periudhës kohore të zgjedhur.",
         chart: {
           times: "Numëroni",
           buys: "Numri i blerjeve",
@@ -3677,24 +3677,24 @@ export default {
     your_gateway_status: "artikull Porta Statusi",
     oauth2_button: "automatik Connect për të {gateway}",
     fee_payment_message:
-      "Selldone artikull artikull Shuma I paguar artikull artikull klient artikull artikull artikull për të artikull Llogaria artikull shërbim Tarifa artikull artikull artikull Nga artikull Portofoli artikull artikull",
+      "E gjithë shuma e paguar nga klienti do të transferohet në llogarinë tuaj. Tarifa e shërbimit do të zbritet nga portofoli juaj në Selldone.",
 
     auto_config: "automatik Konfigurimi",
 
     keys: {
       title: "Privat artikull",
       subtitle:
-        "Listë artikull Privat artikull artikull artikull Pagesa artikull informacion artikull artikull Pagesat",
+        "Lista e çelësave privatë për pagesën. Ky informacion është thelbësor për krijimin dhe menaxhimin e pagesave.",
     },
     extra_config: {
       title: "Pagesa shërbim artikull",
-      subtitle: "artikull artikull informacion artikull artikull Pagesa Porta",
+      subtitle: "Informacione shtesë të konfigurimit për portën e pagesës.",
     },
 
     recommended_actions: {
       title: "artikull Veprimet",
       subtitle:
-        "artikull artikull , artikull artikull për të Merrni artikull Pagesat Nga artikull Klientët",
+        "Duke ndërmarrë këto hapa, do të filloni të merrni pagesa aktuale nga klientët tuaj.",
       action_enable: "artikull për të Aktivizo artikull",
       make_live_enable: "artikull për të Jetoni artikull",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "Faqja e internetit",
     status_title: "Pagesa shërbim Statusi",
     status_message:
-      "artikull artikull Pagesa metodë artikull Aktiv artikull joaktive artikull metoda artikull artikull Aktiv artikull artikull artikull për të Klientët",
-    status_true_description: "artikull Klientët artikull Paguaj artikull artikull Pagesa metodë",
+      "Konfiguro mënyrën e pagesës si Aktive ose Joaktive. Vetëm metodat e përcaktuara si aktive do t'u shfaqen klientëve.",
+    status_true_description: "Klientët tuaj mund të paguajnë me këtë mënyrë pagese.",
 
     manual_title: "manual / automatik artikull Pagesa",
     manual_message:
-      "artikull artikull Krijo artikull Pagesa, artikull artikull Pagesa metodë për të artikull artikull p.sh., artikull artikull Pagesa artikull artikull , artikull artikull artikull para artikull artikull ",
+      "Kur krijoni një pagesë, mund të vendosni një ndalim në një mënyrë pagese të përshtatshme për të rezervuar fondet që mund t'i kapni më vonë. Për shembull, hotelet shpesh autorizojnë një pagesë të plotë përpara se të mbërrijë një mysafir, pastaj kapin paratë kur vizitori të dalë.",
 
     gateway_status: "Statusi",
     wallet: "Portofolin Blockchain",
@@ -3727,7 +3727,7 @@ export default {
     },
     debug: {
       title: "Zhvilloni & artikull",
-      subtitle: "artikull artikull Aktivizo artikull artikull modalitet për të artikull artikull Pagesa Porta",
+      subtitle: "Mund të aktivizoni modalitetin e korrigjimit për të testuar portën e pagesës.",
     },
 
     limit: {
@@ -3746,20 +3746,20 @@ export default {
     hold_only_for: "artikull Pagesa artikull Në dispozicion artikull",
     manual_input: {
       false_description:
-        "artikull Pagesa Statusi artikull artikull Nga Në pritje për të E konfirmuar artikull artikull Pagesa artikull artikull",
+        "Statusi i pagesës do të ndryshohet automatikisht nga në pritje në i konfirmuar në sistemin e ofruesit të pagesës.",
       false_title: "automatik Pagesa artikull",
       true_title: "artikull Pagesat artikull manual artikull",
       true_description:
-        "artikull artikull Pagesa artikull artikull artikull për të artikull artikull Pagesat artikull artikull 🛍️ Porosit për të Ndryshimi artikull Statusi Nga Në pritje për të E konfirmuar artikull artikull Pagesa artikull artikull",
+        "Vendosni një pezullim për një pagesë në mënyrë që të duhet të verifikoni pagesat për një porosi për të ndryshuar statusin e tyre nga pezull në të konfirmuar në sistemin e ofruesit të pagesave.",
     },
     delete_verify_input: {
       true_title: "artikull artikull për të Hiq artikull Pagesa metodë",
       true_description:
-        "artikull Pagesa metodë artikull artikull artikull Nga artikull dyqan artikull artikull Në dispozicion për të Klientët",
+        "Kjo mënyrë pagese do të hiqet nga dyqani dhe nuk do të jetë e disponueshme për klientët.",
     },
     delete_alert: {
       title: "Fshije Pagesa metodë",
-      message: "artikull artikull artikull Fshije artikull Pagesa metodë Nga artikull Dyqan?",
+      message: "Jeni të sigurt që e fshini këtë mënyrë pagese nga dyqani juaj?",
       action: "Fshije Pagesa metodë",
     },
   },
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "Listë artikull artikull artikull Porositë artikull artikull për të artikull artikull Ofruesit",
+      "Lista e porosive të sinkronizuara nga jashtë që duhet të përmbushen nga ofruesit e palëve të treta.",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4038,14 +4038,14 @@ export default {
     "sms-payment":
       "Dërgo artikull Pagesa artikull SMS për të artikull klient artikull {phone}.",
     "sms-ready-to-ship":
-      "Dërgo artikull SMS për të artikull klient artikull artikull artikull 🛍️ Porosit artikull artikull për të artikull Dërguar artikull {phone}.",
+      "Dërgojini një SMS klientit duke njoftuar se porosia e tyre është gati për t'u dërguar nëpërmjet {phone}.",
     "sms-ready-to-pickup":
-      "Dërgo artikull SMS për të artikull klient artikull artikull artikull 🛍️ Porosit artikull artikull {phone}.",
+      "Dërgojini një SMS klientit duke njoftuar se porosia e tij është gati për marrje përmes {phone}.",
     "sms-order-confirmation":
       "Dërgo artikull 🛍️ Porosit artikull SMS për të artikull klient artikull {phone}.",
 
     "count-adjustment":
-      "artikull sasi artikull artikull Produkt \"{product}\" artikull artikull artikull Nga {from} për të {to}.",
+      "Sasia e produktit \"{product}\" është përditësuar nga {from} në {to}.",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4069,8 +4069,8 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "artikull artikull Produktet artikull artikull artikull nr Filtro",
-      has_root_filter_message: "artikull artikull Filtrat artikull artikull Kategoria",
+      no_root_filter_message: "Ju keni produkte në rrënjë por nuk keni filtër.",
+      has_root_filter_message: "Ju vendosni filtra për kategorinë rrënjë.",
       set_filter_message: "artikull artikull artikull Filtrat",
       edit_action: "Redakto artikull Filtrat",
       clear_action: "artikull artikull Filtrat",
@@ -4083,9 +4083,9 @@ export default {
       unselect: "artikull",
       sort_categories: "artikull / artikull Kategoritë",
       subscription_vendor_not_support_message:
-        "artikull artikull artikull shitës artikull Abonimi Produktet! Abonimi Produktet artikull artikull shitës artikull artikull Pronari!",
+        "Nuk mund të caktohet shitësi për produktet e abonimit! Produktet e abonimit duhet të kenë gjithmonë një shitës si pronar të tyre!",
       vendor_owner_not_assignable_message:
-        "artikull artikull shitës artikull Produktet artikull artikull shitës artikull artikull Pronari!",
+        "Nuk mund të caktohet një shitës për produktet me një shitës si pronar të tij!",
       category_assign_profile: "artikull profili për të Produktet artikull artikull Kategoria",
       category_assign_profile_subtitle: "Taksa, Transporti, udhëzues, garanci,. ..",
       bulk_discount: "artikull Zbritje",
@@ -4119,10 +4119,10 @@ export default {
     no_panel: "nr artikull",
     manual_action: {
       title: "manual Veprimet",
-      message: "artikull artikull Përditëso artikull shitës 🛍️ Porosit Statusi artikull",
+      message: "Mund ta përditësoni manualisht statusin e porosisë së shitësit.",
       guides: [
-        "shitës artikull artikull Qasja artikull Përditëso artikull artikull (artikull) artikull artikull artikull Paneli",
-        "artikull artikull shitës artikull nr artikull Qasja, artikull shitës 🛍️ Porosit Statusi artikull artikull Statusi",
+        "Shitësit me akses në panel mund të përditësojnë përmbushjen e tyre (nën-porositë) në panelin e tyre të dedikuar.",
+        "Nëse shitësi nuk ka akses në panel, statusi i porosisë së shitësit do të ndryshohet automatikisht duke ndryshuar statusin e shportës.",
         "artikull artikull Përditëso shitës Porositë artikull",
       ],
     },
@@ -4151,12 +4151,12 @@ export default {
     products: {
       title: "Produktet",
       subtitle:
-        "artikull artikull artikull Pamje artikull Numëroni artikull artikull Produktet listë artikull artikull Tregu Produktet artikull artikull shitës artikull artikull artikull",
+        "Këtu mund të shikoni numrin e produkteve tuaja të listuara në treg. Produktet nga shumë shitës nuk përfshihen.",
     },
     wallets: {
       title: "Portofoli im",
       subtitle:
-        "artikull artikull artikull për të Shto Kuletat artikull! shitës Kuletat artikull artikull ",
+        "Nuk keni nevojë të shtoni kuleta me dorë! Kuletat e shitësve do të krijohen automatikisht.",
     },
 
     open_marketplace_page: "artikull Tregu faqe",
@@ -4172,7 +4172,7 @@ export default {
   vendor_inventory: {
     title: "Lista e produkteve",
     subtitle:
-      "artikull artikull artikull Listë artikull artikull Produktet artikull artikull Tregu Përditëso Çmimet artikull artikull Produktet artikull artikull Inventari artikull artikull shitës, artikull artikull shiko artikull Produktet artikull artikull Produkt Listë artikull artikull Produktet artikull artikull ",
+      "Kjo është një listë e produkteve tuaja në treg. Përditësoni çmimet dhe sasitë për produktet tuaja të caktuara në inventar. Si shitës, do të shihni vetëm produktet e një shitësi që zotëroni në listën e produkteve. Produkte të tjera të caktuara mund të modifikohen gjithashtu këtu.",
   },
 
   /**
@@ -4181,11 +4181,11 @@ export default {
   vendor_member: {
     title: "artikull anëtarë",
     subtitle:
-      "artikull artikull artikull Listë artikull Përdoruesit artikull artikull Qasja për të artikull shitës artikull artikull artikull Shto I ri artikull anëtarë artikull artikull artikull Lejet artikull",
+      "Kjo është lista e përdoruesve që kanë akses në panelin tuaj të shitësve. Këtu mund të shtoni anëtarë të rinj të ekipit dhe të personalizoni lejet e tyre.",
     add_action: "Shto I ri anëtar",
     pending: {
       title: "Në pritje artikull",
-      message: "Pamje artikull Listë artikull artikull në pritje artikull",
+      message: "Shikoni listën e ftesave që janë në pritje të pranimit.",
     },
   },
 
@@ -4198,7 +4198,7 @@ export default {
     member: {
       title: "artikull anëtar Detajet",
       subtitle:
-        "Shto artikull I ri artikull anëtar artikull artikull artikull Lejet artikull artikull për të artikull artikull Qasja artikull artikull artikull për të artikull artikull kryesor Dyqan Paneli",
+        "Shto një anëtar të ri të ekipit dhe cakto lejet e tij. Klikoni në çdo artikull për të rregulluar aksesin për lexim/shkrim. Çdo rresht korrespondon me një nivel leje për pultin kryesor të dyqanit.",
     },
     access: {
       view_data: "Pamje Të dhënat",
@@ -4213,11 +4213,11 @@ export default {
     notifications: {
       add_success: {
         title: "anëtar Shto",
-        message: "artikull artikull anëtar artikull artikull artikull Shto",
+        message: "Anëtari i ekipit është shtuar me sukses.",
       },
       update_success: {
         title: "anëtar artikull",
-        message: "artikull artikull anëtarë informacion artikull artikull ",
+        message: "Informacioni i anëtarit të ekipit është përditësuar me sukses.",
       },
     },
     actions: {
@@ -4232,26 +4232,26 @@ export default {
     list: {
       title: "artikull Historia",
       subtitle:
-        "artikull artikull Pamje artikull artikull Historia artikull artikull Banka artikull artikull Pagesa Shërbimet artikull Oferta artikull artikull",
+        "Ju mund të shikoni historinë tuaj të pagesave këtu. Këto pagesa mund të përpunohen manualisht përmes transfertave bankare ose automatikisht duke përdorur shërbimet e pagesave që ofrojnë aftësi pagese.",
     },
     connect: {
       title: "Connect Banka",
       subtitle:
-        "artikull Oferta artikull Pagesa artikull artikull Pagesa Portat për të Merrni Pagesat artikull artikull artikull Blerje, artikull lidh artikull Banka Llogaria artikull artikull artikull",
+        "Ne ofrojmë mundësi pagese të ndara për portat e mëposhtme të pagesave. Për të marrë pagesa pa probleme pas çdo blerjeje, lidhni llogarinë tuaj bankare duke përdorur këto opsione.",
     },
     verify_dialog: {
       title: "artikull Pagesa",
       option: {
         title: "shitës artikull",
         subtitle:
-          "artikull artikull për të Pranoje artikull Refuzo artikull Transferimi artikull artikull Marrë artikull artikull; artikull artikull, artikull nr artikull për të artikull artikull artikull",
+          "Ju keni mundësinë ta pranoni ose refuzoni këtë transferim. Ky veprim shërben vetëm si një rekord historik. Thjesht konfirmoni nëse i keni marrë fondet; nëse jo, nuk ka nevojë të ndërmerrni ndonjë veprim.",
       },
       inputs: {
         verify: {
           label: "artikull artikull E konfirmuar artikull Pagesa?",
           false_description:
-            "nr, artikull artikull Marrë artikull Pagesa artikull artikull Banka Llogaria",
-          true_description: "po, artikull artikull Marrë artikull Verifikuar artikull Pagesa",
+            "Jo, këtë pagesë nuk e kam marrë ende në llogarinë time bankare.",
+          true_description: "Po, e kam marrë dhe verifikuar këtë pagesë.",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "rimbursim 🛍️ Porosit",
     subtitle:
-      "<b>artikull! </b>artikull artikull Transaksioni artikull artikull shitës Portofoli artikull artikull Shuma Nga artikull artikull Shuma artikull artikull Transaksionet artikull artikull Zgjidh 🛍️ Porosit artikull, artikull artikull për të Lidhur Banka Llogaritë (artikull artikull artikull Stripe Connect artikull manual artikull Transferimi), artikull artikull Krijo artikull <b>artikull Transferimi</b>.",
+      "<b>E rëndësishme! </b>Ekzekutimi i këtij veprimi do të gjenerojë një transaksion negativ në portofolin e shitësit dhe do të zbresë shumën e zgjedhur prej tij. Shuma nuk mund të kalojë totalin e transaksioneve të mbetura për porosinë e zgjedhur. Për më tepër, nëse fondet janë transferuar në llogaritë bankare të lidhura (si p.sh. me Stripe Connect ose transfertë me tela manuale), duhet të krijoni një <b>transferim kthimi</b>.",
     inputs: {
       note: {
         message: "artikull artikull për të artikull shitës",
         placeholder: "artikull artikull shënim artikull",
       },
       amount: {
-        error_message: "artikull artikull Shuma artikull artikull artikull",
+        error_message: "Shuma e mbetur është tejkaluar.",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "artikull artikull artikull Vështrim i përgjithshëm artikull artikull Transaksionet artikull artikull shitës artikull Portofoli artikull artikull Tregu artikull artikull 🛍️ Porosit artikull artikull, artikull shitës artikull artikull artikull Shitje artikull Shto për të artikull Portofoli",
+      "Kjo ofron një përmbledhje të transaksioneve në portofolin virtual të shitësit në treg. Sa herë që vendoset një porosi, pjesa e shitësit në shitje i shtohet portofolit të tyre.",
     vendor_wallets: "shitës Kuletat",
     my_wallets: "Portofoli im",
     refund_order_action: "rimbursim 🛍️ Porosit",
     automatic_payout_list: {
       subtitle:
-        "artikull artikull artikull Listë artikull automatik artikull për të artikull Lidhur Banka Llogaria artikull shënim artikull artikull automatik artikull artikull , artikull manual artikull artikull ",
+        "Kjo është një listë e pagesave automatike në llogarinë tuaj bankare të lidhur. Ju lutemi vini re se këtu do të shfaqen vetëm pagesat automatike dhe pagesat manuale nuk do të shfaqen.",
     },
     reversal_transfer_action: "artikull Transferimi",
   },
@@ -4310,7 +4310,7 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "artikull artikull artikull, artikull artikull Pamje artikull Afati kohor artikull Ngjarjet artikull për të artikull 🛍️ Porosit, artikull, Pagesa, artikull artikull artikull status artikull, artikull artikull Porositë artikull për të artikull Klientët artikull shitës",
+      "Në këtë seksion, mund të shikoni afatin kohor të ngjarjeve që lidhen me porosinë, përmbushjen, pagesën dhe statuset e tyre përkatëse. Për më tepër, ju mund të vëzhgoni porositë e dërguara si për klientët ashtu edhe për shitësit.",
     add_note_subtitle: "shkrim artikull Mesazh artikull artikull ",
 
     message_input: "Shkruaj nje mesazh ketu...",
@@ -4540,7 +4540,7 @@ export default {
     profile_dialog: {
       title: "Profili kryesor",
       subtitle:
-        "Redakto artikull Publike profili informacion artikull artikull informacion artikull artikull artikull për të artikull Klientët artikull artikull Përdoruesit",
+        "Ndryshoni informacionin e profilit tuaj publik këtu. Ky informacion mund të jetë i dukshëm për klientët tuaj ose përdoruesit e tjerë.",
       full_name_input: "Emri i plotë",
       tel_input: "Numri i kontaktit",
       email_input: "email",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ Menaxhim",
-      description: "Krijo artikull Menaxho artikull artikull artikull",
+      description: "Krijoni dhe menaxhoni pyetjet e bëra shpesh.",
     },
     "backoffice:faq:read": {
       name: "FAQ Qasja",
@@ -5574,14 +5574,14 @@ export default {
         "OAartikull Klientët, Personale Qasja artikull artikull Lidhur Aplikacionet",
 
       security: "Siguria",
-      security_subtitle: "artikull artikull Menaxho artikull identifikimi artikull",
+      security_subtitle: "Vendosni dy faktorë dhe menaxhoni opsionet e hyrjes sociale.",
 
       preferences: "Preferencat e përdoruesit",
       preferences_subtitle:
         "Ndryshimi Tema, artikull, artikull artikull E paracaktuar Monedha",
       my_subscriptions: "Abonimet e mia",
       my_subscriptions_subtitle:
-        "Qasja për të artikull AI artikull artikull artikull",
+        "Qasje në AI premium dhe veçoritë e personalizimit.",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "çmimi",
     verify: {
       true_title: "artikull Kushtet",
-      true_description: "artikull lexim artikull artikull artikull Selldone Kushtet artikull artikull",
+      true_description: "Unë lexoj dhe pajtohem me kushtet e përdorimit të Selldone",
     },
     need_charge: "Duhet tarifë",
     buy_now: "Bli tani",
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Historia e Blerë",
       subtitle:
-        "Licenca aktive dhe në pritje.",
+        "Kjo është një listë e licencave aktive dhe në pritje. Ju mund të blini marrëveshje pasi të keni financuar portofolin tuaj. Për më tepër, ju lutemi vini re se kur anuloni një abonim, shuma e mbetur e abonimit do të kthehet në portofolin tuaj virtual.",
     },
     license_detail: {
       title: "Detajet",
       subtitle:
-        "Kufijtë në planin tuaj aktual.",
+        "Këto janë kufizimet e planit tuaj aktual. Për më shumë detaje, ju lutemi vizitoni faqen e çmimeve. Mund të përdorni të gjitha veçoritë në të gjitha planet, duke përfshirë planin falas, për të nisur biznesin tuaj dhe për t'u rritur. Ndërsa përshkallëzoni biznesin tuaj, merrni parasysh përmirësimin në një plan të nivelit më të lartë për të ulur tarifat e shërbimit.",
     },
 
     table: {
@@ -5734,12 +5734,12 @@ export default {
       wallet: {
         title: "artikull artikull Portofoli",
         subtitle:
-          "Zgjidh artikull artikull Portofoli për të artikull artikull artikull Abonimi artikull artikull , artikull artikull Krijo artikull artikull artikull Portofoli artikull artikull Portofoli artikull artikull I perdorur artikull artikull artikull",
+          "Zgjidhni një portofol virtual për t'u përdorur për abonimin tuaj. Nëse nuk e keni ende një të tillë, mund ta krijoni në seksionin e portofolit. Ky portofol do të përdoret për çdo tarifë.",
       },
       auto_renewal: {
         true_title: "Rinovimi automatik",
         true_description:
-          "artikull Abonimi artikull artikull Portofoli artikull artikull Bilanci artikull artikull ",
+          "Abonimi juaj do të rinovohet automatikisht nëse portofoli juaj ka bilanc të mjaftueshëm ose nëse keni një kupon të vlefshëm.",
       },
       options: {
         title: "artikull artikull",
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU / Emri",
     info: {
       subtitle:
-        "për të artikull artikull Produkt, artikull artikull Detajet artikull artikull ",
+        "Për të gjeneruar produktin, mund të futni vetëm detajet thelbësore të nevojshme për krijimin e tij.",
     },
     price: {
       subtitle:
-        "artikull artikull çmimi artikull Zbritje artikull artikull Produkt artikull artikull Produkt artikull Shto, artikull artikull Qasja për të Më shumë. . artikull",
+        "Shkruani çmimin dhe zbritjen për këtë produkt. Pasi të shtohet produkti, do të keni akses në më shumë opsione.",
     },
     by_sku: {
       title: "Shto artikull SKU",
-      subtitle: "artikull artikull Vendi artikull artikull Në dispozicion",
+      subtitle: "Baza e të dhënave në vendin tuaj nuk është e disponueshme.",
     },
     drop_shipping: {
       subtitle:
-        "artikull Produktet artikull artikull artikull Tregu artikull Shto artikull për të artikull dyqan",
+        "Gjeni produkte në tregun me shumicë dhe shtoni ato në dyqanin tuaj.",
     },
     by_connect: {
       subtitle:
-        "artikull Shto Produktet Nga POD artikull artikull Selldone Connect OS—artikull lidh artikull dyqan artikull artikull automatik Produkt artikull, nr artikull artikull",
+        "Shtoni me lehtësi produkte nga POD ose furnizues dropshipping me Selldone Connect OS—thjesht lidhni dyqanin tuaj dhe shijoni integrimin automatik të produktit, nuk nevojiten shtojca.",
     },
     your_license_is_not_eligible: "artikull Liçensë artikull artikull artikull",
     sku_dialog: {
       title: "Shto Produkt artikull SKU",
       subtitle:
-        "artikull artikull për të artikull Produktet artikull artikull SKU artikull artikull Shto artikull artikull ",
+        "Ju keni mundësinë të gjeni produktet sipas SKU-së së tyre në bazën tonë të të dhënave dhe t'i shtoni ato vetëm me një klik të vetëm.",
     },
     dropshipping_dialog: {
       title: "Shto artikull Produktet",
@@ -5848,7 +5848,7 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "artikull, artikull artikull Listë artikull Produktet artikull Selldone, artikull artikull Në dispozicion artikull artikull , artikull artikull ",
+      "Këtu mund të gjeni shitës me shumicë që listojnë produktet e tyre në Selldone, duke i bërë ato të disponueshme për tregtarët e tjerë. Platforma e integruar e dropshipping e Selldone thjeshton procesin, duke e bërë të lehtë dhe të drejtpërdrejtë si për shitësit me shumicë ashtu edhe për tregtarët.",
   },
 
   /** @see Affiliates **/
@@ -5892,35 +5892,35 @@ export default {
       new: "Partner i ri i filialit",
       edit: "Redakto Filialin artikull",
       subtitle:
-        "artikull artikull artikull Cilësimet artikull Emri artikull artikull Filialin artikull",
+        "Konfiguro cilësimet e përgjithshme dhe emrin e filialit këtu.",
     },
 
     payment: {
       title: "Pagesa informacion",
       subtitle:
-        "artikull artikull Komisioni artikull artikull artikull Filialin artikull artikull komision, artikull artikull artikull komision artikull artikull Produkt",
+        "Përcaktoni strukturën e komisionit për filialin. Ju mund të kombinoni komisione fikse dhe të bazuara në përqindje, ose të vendosni komisione specifike për çdo produkt.",
     },
 
     contact: {
       title: "Informacioni i Kontaktit",
-      subtitle: "artikull artikull Kontaktoni Detajet artikull artikull Filialin artikull artikull",
+      subtitle: "Jepni detajet e kontaktit të partnerit të filialit këtu.",
     },
 
     restriction: {
       title: "Komisioni kufizim",
       subtitle:
-        "artikull artikull Produktet artikull artikull artikull Komisioni artikull artikull artikull komision për të artikull Produktet",
+        "Përcaktoni se cilat produkte janë të pranueshme për komision. Ju mund të kufizoni komisionet për produkte të caktuara.",
     },
 
     link_domain: {
       title: "i lidhur Domeni",
       subtitle:
-        "Lidhje artikull artikull artikull Domenet për të artikull Filialin artikull artikull artikull Blej artikull artikull Domeni artikull artikull artikull për të artikull Filialin",
+        "Lidhni një nga domenet tuaja me këtë partner filial. Vizitorët që blejnë përmes këtij domeni do t'i atribuohen këtij filiali.",
 
       domain_not_approved_msg: "artikull Domeni artikull artikull !",
       domain_is_not_enable_msg: "artikull Domeni artikull artikull aktivizuar!",
       domain_is_linked_to_other_affiliate_msg:
-        "artikull Domeni artikull artikull i lidhur për të artikull Filialin!",
+        "Ky domen është tashmë i lidhur me një filial tjetër!",
     },
 
     set_users_first_message: "artikull artikull artikull Përdoruesi artikull!",
@@ -5928,7 +5928,7 @@ export default {
     cluster: {
       title: "artikull",
       subtitle:
-        "artikull artikull Filialin artikull artikull artikull për të Menaxho artikull artikull artikull Burimet artikull artikull artikull",
+        "Lidheni këtë filial me një grup për ta menaxhuar atë së bashku me burime të tjera në një vend.",
       manage_action: "Menaxho",
     },
 
@@ -5940,14 +5940,14 @@ export default {
     inputs: {
       name: {
         label: "Filialin artikull Emri",
-        message: "artikull, artikull artikull, artikull Kompania, artikull artikull, artikull",
+        message: "p.sh., John Doe, Alex Company, X Marketers, etj.",
       },
       commission: {
         label: "Komisioni artikull",
         false_description:
           "artikull artikull komision",
         true_description:
-          "artikull artikull artikull komision artikull artikull artikull Çmimet artikull",
+          "Llogaritni duke përdorur komisionet specifike të produktit të vendosura në skedën e çmimeve.",
         false_title: "artikull + artikull Komisioni",
         true_title: "artikull Komisioni",
       },
@@ -5972,12 +5972,12 @@ export default {
       },
       pos: {
         true_description:
-          "partner afiliat artikull artikull Porositë artikull artikull artikull Klientët artikull artikull artikull",
+          "Filialet mund të bëjnë porosi direkt për klientët e tyre përmes panelit të tyre.",
         true_title: "POS Qasja",
       },
       enable: {
         true_description:
-          "artikull artikull Filialin artikull Aktiv? artikull joaktive, artikull Filialin artikull artikull artikull për të Porositë artikull artikull artikull Lidhje",
+          "A është ky filial aktualisht aktiv? Nëse është joaktiv, programi i tyre i filialit nuk do të zbatohet për porositë e bëra përmes lidhjes së tyre.",
       },
       products: {
         label: "Produktet artikull artikull Komisioni",
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "artikull artikull Filialin artikull artikull artikull Nga artikull Dyqan Filialin informacion artikull artikull Koha artikull artikull",
+        "Ju mund të shlyeni çdo borxh të papaguar me filialin përpara se t'i hiqni ato nga dyqani juaj. Informacioni i filialit do të mbetet i aksesueshëm për një kohë të kufizuar pas fshirjes.",
     },
   },
 
@@ -6003,14 +6003,14 @@ export default {
   shop_valuations: {
     title: "Me porosi Çmimet artikull Vlerësimet",
     subtitle:
-      "artikull artikull artikull (artikull Çmimet hyrje formular) për të artikull Produkt, artikull Klientët për të Zgjidh Variantet artikull artikull çmimi artikull artikull artikull Me porosi Inputet",
+      "Caktoni një vlerësim (një formular të dhënash çmimi) për një produkt, duke i lejuar klientët të zgjedhin variante ose të personalizojnë mallin tuaj. Sistemi më pas do të llogarisë çmimin bazuar në inputet e personalizuara.",
     add_valuation_action: "Krijo I ri artikull formular",
     empty_message:
-      "artikull artikull Variantet, artikull artikull për të artikull E thjeshtë Produkt",
+      "Në vend që të krijoni variante të shumta, merrni parasysh zhvillimin e një strategjie vlerësimi që mund të zbatohet për një produkt të thjeshtë.",
     delete_dialog: {
       title: "artikull Hiq",
       message:
-        "artikull artikull për të Fshije artikull Çmimet formular? artikull artikull Me porosi Çmimet artikull artikull artikull Nga të gjitha artikull Produktet artikull",
+        "Jeni i sigurt që dëshironi të fshini këtë formular çmimi? Ju lutemi sigurohuni që kjo strategji e çmimeve të personalizuara të hiqet fillimisht nga të gjitha produktet e lidhura.",
       action: "Po, Fshije Tani",
     },
     notifications: {
@@ -6033,14 +6033,14 @@ export default {
     title_add: "Krijo I ri artikull formular",
     config: {
       subtitle:
-        "artikull artikull për të Krijo artikull Çmimet artikull artikull Produktet Filloni artikull artikull Emri",
+        "Vendosni një sistem vlerësimi për të krijuar çmime fleksibël duke përdorur formula dhe tabela referimi për produktet tuaja. Start by giving this valuation a unique name.",
     },
     valuation_preview: "Parapamje artikull formular",
     load_sample: "artikull artikull",
     conditions: {
       title: "Kushtet",
       subtitle:
-        "artikull artikull Me porosi Variantet artikull artikull Menaxhim artikull artikull artikull",
+        "Përcaktoni logjikën për variantet e personalizuara. Ky konfigurim thjeshton menaxhimin e disponueshmërisë së variantit.",
     },
     structure: {
       title: "artikull",
@@ -6051,8 +6051,8 @@ export default {
     },
     inputs: {
       title: {
-        message: "artikull Titulli artikull artikull artikull për të Klientët",
-        placeholder: "artikull artikull Emri artikull Çmimet, artikull, 'artikull Çmimet",
+        message: "Ky titull nuk është i dukshëm për klientët.",
+        placeholder: "Fut një emër për çmimin, p.sh., \"Çmimi i krikllave\"",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "artikull Konfigurimi",
         subtitle:
-          "artikull artikull Zbritje Kodi artikull artikull: Maks (LIMIT, PERCENT * artikull çmimi). artikull për të fito artikull kod artikull artikull artikull për të artikull",
+          "Formula e llogaritjes së kodit të zbritjes është: max (LIMIT, PËRQINDJE * çmimi i karrocës). Mos harroni t'i bëni kodet relevante dhe të lehta për t'u mbajtur mend.",
       },
       limit: {
         title: "artikull",
         subtitle:
-          "artikull artikull maksimum artikull Kufiri artikull artikull Zbritje Kodi, artikull artikull maksimum Zbritje Shuma, artikull artikull artikull",
+          "Ju mund të përcaktoni kufirin maksimal të përdorimit për çdo kod zbritjeje, si dhe shumën maksimale të zbritjes, në këtë seksion.",
       },
       duration: {
         title: "Kohëzgjatja Kufiri",
         subtitle:
-          "artikull artikull artikull për të artikull artikull Zbritje Kodi artikull artikull , artikull artikull Kohëzgjatja artikull",
+          "Nëse dëshironi të aktivizoni një kod zbritje për një periudhë të caktuar kohore, mund ta përcaktoni atë kohëzgjatje këtu.",
       },
       design: {
         subtitle:
-          "artikull artikull Titulli artikull Përshkrim artikull artikull Zbritje Kodi artikull Detajet artikull artikull artikull për të artikull Përdoruesi",
+          "Ju mund të vendosni një titull dhe përshkrim për çdo kod zbritjeje. Këto detaje do t'i shfaqen përdoruesit.",
       },
       cluster: {
         subtitle:
-          "artikull artikull artikull Zbritje Kodi artikull artikull artikull, artikull artikull artikull Menaxho artikull artikull artikull Burimet artikull artikull artikull Vendndodhja",
+          "Duke e lidhur këtë kod zbritje me një grup, mund ta menaxhoni lehtësisht së bashku me burime të tjera në një vendndodhje të vetme.",
       },
     },
     delete_alert: {
@@ -6320,34 +6320,34 @@ export default {
     },
     limit: {
       subtitle:
-        "artikull artikull artikull, artikull artikull për të artikull artikull artikull maksimum artikull artikull Kupon artikull artikull artikull Zbritje Shuma artikull Kupon artikull artikull",
+        "Në këtë seksion, ju mund të vendosni si numrin maksimal të përdorimit për kupon ashtu edhe shumën më të lartë të zbritjes që mund të ofrojë çdo kupon.",
       zero_message: "artikull: artikull artikull nr Kufiri!",
     },
     duration: {
       subtitle:
-        "artikull artikull artikull për të artikull artikull Kupon për të artikull Aktiv, artikull artikull Kohëzgjatja artikull artikull artikull",
+        "Nëse dëshironi të caktoni një afat kohor specifik që një kupon të jetë aktiv, mund ta konfiguroni kohëzgjatjen në këtë seksion.",
     },
     design: {
       subtitle:
-        "artikull Kupon artikull artikull Titulli artikull Përshkrim artikull Detajet artikull artikull artikull për të artikull klient",
+        "Çdo kupon lejon shtimin e një titulli dhe përshkrimi. Këto detaje do të jenë të dukshme për klientin.",
     },
     constraints: {
       subtitle:
-        "artikull, artikull artikull për të artikull artikull Kupon",
+        "Këtu, ju keni mundësinë të vendosni parametra shtesë të personalizuar për kuponin.",
       no_limit: "nr artikull Kufizimi",
       has_limit: "artikull artikull",
       has_code_message: "Përdoruesi artikull artikull artikull Kodi për të Shto Kupon",
     },
     club: {
       subtitle:
-        "artikull Kuponët artikull artikull për të anëtarë artikull artikull klient artikull",
+        "Përdorimi i këtij kuponi mund të kufizohet ekskluzivisht për anëtarët e klubeve të zgjedhura të klientëve.",
     },
     cluster: {
       subtitle:
-        "artikull artikull artikull Kupon artikull artikull artikull, artikull artikull artikull Menaxho artikull artikull artikull Burimet artikull artikull artikull Vendndodhja",
+        "Duke e lidhur këtë kupon me një grup, mund ta menaxhoni lehtësisht së bashku me burime të tjera në një vendndodhje të vetme.",
     },
     preview: {
-      subtitle: "artikull artikull Publike Parapamje artikull artikull Kupon",
+      subtitle: "Këtu është vrojtimi publik i kuponit.",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "artikull artikull Titulli, Përshkrim, artikull Publike artikull Statusi",
+        "Filloni të krijoni një marrëveshje inteligjente duke vendosur titullin, përshkrimin dhe statusin e disponueshmërisë së saj publike.",
     },
     limit: {
-      subtitle: "artikull artikull maksimum artikull Kufiri artikull artikull Oferta artikull artikull artikull",
+      subtitle: "Vendosni kufirin maksimal të përdorimit për këtë ofertë në këtë seksion.",
     },
     duration: {
       subtitle:
-        "artikull artikull artikull për të artikull artikull Oferta, artikull artikull Kohëzgjatja artikull",
+        "Nëse dëshironi të vendosni një afat kohor specifik për një ofertë, mund ta konfiguroni kohëzgjatjen këtu.",
     },
     constraints: {
       subtitle:
-        "artikull artikull Kushtet artikull artikull Oferta artikull artikull Oferta artikull për të artikull Artikuj artikull artikull artikull Kushtet",
+        "Vendosni kriteret e përshtatshmërisë dhe kushtet për ofertën këtu. Oferta vlen për artikujt e karrocave që plotësojnë këto kushte.",
     },
     discounted_products: {
       title: "zbritje Produktet",
       subtitle:
-        "artikull artikull Produktet për të artikull artikull Oferta artikull artikull artikull Zbritje",
+        "Ju mund të specifikoni produktet për të cilat kjo ofertë do të aplikojë një zbritje.",
     },
     cluster: {
       subtitle:
-        "artikull artikull artikull Oferta artikull artikull artikull, artikull artikull artikull Menaxho artikull artikull artikull Burimet artikull artikull artikull Vendndodhja",
+        "Duke e lidhur këtë ofertë me një grup, mund ta menaxhoni lehtësisht së bashku me burime të tjera në një vendndodhje të vetme.",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "Filialin Lidhje",
       subtitle:
-        "artikull artikull artikull Lidhje artikull artikull Filialin artikull për të artikull Shitjet artikull komision Shto artikull kod '{code}' për të artikull Lidhje artikull artikull artikull Me porosi artikull Domeni artikull artikull Filialin artikull artikull 48artikull",
+        "Krijoni një lidhje unike për partnerin tuaj të filialit për të gjurmuar shitjet dhe komisionet. Shtoni kodet e referimit '{code}' në çdo lidhje ose caktoni një domen të dedikuar të personalizuar për filialin tuaj. Ai do të gjurmohet nga sistemi për 48 orë.",
     },
     fix_commission: "Komisioni fiks",
     percent_commission: "Komisioni i bazuar në përqindje",
@@ -6571,7 +6571,7 @@ export default {
 
     config: {
       subtitle:
-        "artikull klient Blerjet artikull artikull dyqan artikull artikull Klientët artikull artikull Blerjet artikull artikull 10 artikull, artikull artikull artikull Oferta artikull artikull E paracaktuar artikull artikull , artikull artikull për të artikull artikull Dyqane artikull",
+        "Rritni blerjet e klientëve me një përvojë të gamifikuar në dyqanin tuaj. Vendosni çmime dhe shanse fitimi për klientët që fitojnë argumente përmes blerjeve. Çdo lojë kushton 10 argumente, dhe ju mund të ofroni çmime speciale për blerësit për herë të parë. Loja e parazgjedhur është Wheel of Fortune, por ju mund ta personalizoni atë për t'iu përshtatur strukturës së dyqanit tuaj.",
     },
     empty_prize_list: "Krijo artikull Menaxho artikull artikull",
   },
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "Shansi fitues në përqindje",
     free_for_first: "A është falas për klientët e rinj?",
     free_for_first_message: "Klientët e rinj mund ta fitojnë këtë artikull.",
-    not_free_for_first_message: "artikull artikull artikull Në dispozicion artikull artikull falas artikull",
+    not_free_for_first_message: "Ky çmim nuk ofrohet për lojën e parë falas.",
 
     amount: "Shuma e çmimit",
     amount_hint: "Përdoruesit fitojnë këtë shumë tarife për porosinë e tyre.",
@@ -6614,11 +6614,11 @@ export default {
     },
     config: {
       subtitle:
-        "artikull, artikull artikull Krijo artikull Dyqane Lotaria artikull artikull artikull Titulli, Përshkrim, Ngjyrë, artikull Imazhi artikull artikull artikull",
+        "Këtu mund të krijoni çmimet e lotarisë së dyqanit tuaj. Vendosni titullin, përshkrimin, ngjyrën dhe imazhin për çdo çmim.",
     },
     design: {
       subtitle:
-        "artikull, artikull artikull për të artikull artikull Imazhi artikull Ngjyrë artikull artikull artikull",
+        "Këtu, ju keni mundësinë të zgjidhni një imazh dhe ngjyrë për çmimin.",
     },
     constraints: {
       subtitle: "artikull artikull ",
@@ -6626,11 +6626,11 @@ export default {
     prize: {
       title: "artikull",
       subtitle:
-        "artikull artikull Detajet artikull artikull artikull Zbritje kod, Dhuratë Kartat, artikull, artikull artikull zbritje artikull Lotaria artikull",
+        "Vendosni detajet e çmimit këtu. Opsionet përfshijnë kode zbritjeje, karta dhuratash, kredite dhe zbritje të tjera si shpërblime lotarie.",
     },
     product_input: {
       label: "Produkt artikull",
-      message: "Zgjidh artikull Produkt artikull artikull (artikull falas)",
+      message: "Zgjidhni një produkt për çmim (është falas)",
     },
   },
 
@@ -7044,15 +7044,15 @@ export default {
         "Ngarko shitës CSV skedarë artikull artikull për të Privatësia artikull",
       checklist: {
         title: "artikull artikull",
-        subtitle: "artikull artikull për të artikull artikull artikull",
+        subtitle: "Sigurohuni që të ndiqni udhëzimet.",
         sample_files: "artikull skedarë",
         valid_vendor_name_needed:
-          "artikull artikull <b>artikull Emri</b>. artikull <b>Emri</b> artikull I perdorur për të artikull artikull për të <i>Krijo</i> artikull I ri shitës artikull <i>Përditëso</i> artikull artikull artikull",
+          "Duhet të jepni një <b>emër të vlefshëm</b>. <b>name</b> përdoret për të përcaktuar nëse duhet <i>Krijohet</i> një shitës i ri apo <i>Përditësohet</i> një ekzistues.",
         assign_user_after_import:
-          "artikull Importo shitës, artikull artikull Përdoruesi për të artikull artikull Qasja për të artikull shitës artikull",
+          "Pas importimit të shitësve, mund të caktoni manualisht një përdorues për t'u dhënë atyre akses në panelin e shitësve.",
       },
       need_kyc_alert:
-        "artikull artikull për të artikull artikull Personale informacion artikull Importo shitës",
+        "Ju duhet të verifikoni të dhënat tuaja personale përpara se të importoni shitësit.",
       back_to_vendors_list: "Mbrapa për të shitës Listë",
     },
   },
@@ -7063,7 +7063,7 @@ export default {
   marketplace_products: {
     title: "shitës Produktet",
     subtitle:
-      "artikull artikull listë të gjitha Produktet ofertë artikull shitës artikull artikull Tregu, artikull Produkt artikull artikull i lidhur për të artikull artikull Më shumë. . shitës artikull shitës artikull artikull artikull Produkt artikull artikull Përfshin Inventari artikull Çmimet Detajet artikull për të artikull shitës",
+      "Ky katalog liston të gjitha produktet e ofruara nga shitësit. Në treg, një produkt mund të lidhet me një ose më shumë shitës. Çdo shitës i lidhur me një produkt ka një hyrje unike që përfshin inventarin dhe detajet e çmimeve specifike për atë shitës.",
     filter_vendor: {
       placeholder: "Filtro artikull shitës",
     },
@@ -7079,7 +7079,7 @@ export default {
     open_vendors_panel: "artikull shitës artikull",
     title: "shitës artikull Listë",
     subtitle:
-      "artikull artikull artikull Listë artikull Kërkesat Nga artikull artikull për të artikull shitës artikull artikull Tregu",
+      "Kjo është një listë e kërkesave nga individë që kanë aplikuar për t'u bërë shitës në tregun tuaj.",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,54 +7088,54 @@ export default {
     marketplace: {
       title: "Tregu",
       subtitle:
-        "artikull artikull Tregu artikull artikull për të artikull artikull Tregu, artikull artikull dyqan artikull artikull Cilësimet",
+        "Çaktivizimi i tregut do të çaktivizojë disa funksione. Nëse dëshironi të mbyllni të gjithë tregun tuaj, duhet të çaktivizoni dyqanin tuaj te cilësimet.",
     },
     distribution_model: {
       title: "artikull artikull",
       subtitle:
-        "artikull artikull shitës për të artikull Artikuj artikull për të artikull artikull artikull Porositë artikull artikull Magazina artikull Transporti, artikull artikull ",
+        "Tregjet mund të funksionojnë sipas modeleve të ndryshme të shpërndarjes. Pavarësisht nëse preferoni që shitësit t'i dërgojnë artikujt drejtpërdrejt te blerësit ose të konsolidojnë porositë në depon tuaj për transport, ju mund të zgjidhni modelin që i përshtatet më mirë nevojave tuaja këtu.",
     },
     access: {
       title: "shitës Qasja",
       subtitle:
-        "artikull artikull artikull, artikull artikull Qasja shitës artikull për të artikull Produkt Paneli artikull artikull Qasja Cilësimet për të artikull shitës për të Shto artikull artikull Produktet artikull Kategoritë artikull artikull artikull Qasja për të artikull artikull",
+        "Si administrator, ju kontrolloni nivelin e aksesit që kanë shitësit në pultin e produktit. Rregulloni cilësimet e aksesit global për të lejuar shitësit të shtojnë produktet dhe kategoritë e tyre ose ta kufizojnë këtë akses vetëm për administratorët.",
     },
     need_enable_shipping_for_vendors_tips:
-      "Aktivizo Transporti artikull shitës artikull artikull Dyqan > Logjistike artikull artikull artikull metodë artikull",
-    transportation_available_tooltip: "artikull artikull artikull Në dispozicion artikull shitës",
+      "Aktivizo dërgimin për shitësit në skedën Dyqani > Logjistika për secilën metodë veç e veç.",
+    transportation_available_tooltip: "Ky opsion është i disponueshëm për shitësit.",
     transportation_not_available_tooltip:
-      "artikull Në dispozicion artikull shitës! artikull artikull Aktivizo artikull artikull Cilësimet",
+      "Nuk është në dispozicion për shitësit! Mund ta aktivizoni në cilësimet e transportit.",
     panel: {
       title: "shitës artikull",
-      subtitle: "artikull artikull shitës artikull artikull Me porosi Domeni",
+      subtitle: "Në bord shitësit tuaj përmes domenit tuaj të personalizuar.",
     },
     documents: {
       title: "artikull",
       subtitle:
-        "artikull artikull shitës për të Ngarko artikull artikull ",
+        "Ju mund të kërkoni që shitësit tuaj të ngarkojnë dokumente ose të nënshkruajnë kontrata të caktuara. Specifikoni dokumentet e kërkuara këtu.",
       add_document_action: "Shto artikull artikull",
     },
     inputs: {
       enable: {
         false_description:
-          "artikull Tregu artikull artikull artikull, artikull të gjitha Tregu artikull",
+          "Tregu është i fikur, duke çaktivizuar të gjitha funksionet e tregut.",
         true_description:
-          "artikull Tregu artikull Aktiv, artikull të gjitha Tregu artikull",
+          "Tregu është aktiv, duke mundësuar të gjitha funksionet e tregut.",
       },
       product: {
         label: "Shto produkt të ri",
         true_title: "shitës artikull Shto Produktet",
         false_description:
-          "artikull Shto Produktet artikull artikull shitës shitës artikull artikull Menaxho çmimi artikull Inventari",
+          "Ju shtoni produkte dhe caktoni shitës. Shitësit mund të menaxhojnë vetëm çmimin dhe inventarin.",
         true_description:
-          "shitës artikull Shto artikull Menaxho artikull artikull Produktet artikull artikull artikull shitës artikull",
+          "Shitësit mund të shtojnë dhe menaxhojnë produktet e tyre drejtpërdrejt në panelin e tyre të shitësve.",
       },
       need_verify: {
         label: "Produkt artikull Rrjedha",
         false_description: "I ri shitës Produktet artikull Jetoni artikull",
         false_title: "nr artikull artikull",
         true_description:
-          "shitës I ri Produktet artikull artikull Jetoni artikull artikull Tregu",
+          "Produktet e reja të shitësve kërkojnë miratim përpara se të dalin drejtpërdrejt në treg.",
         true_title: "artikull artikull",
       },
       category: {
@@ -7144,27 +7144,27 @@ export default {
         false_description:
           "artikull Shto Kategoritë shitës artikull artikull Shto Produktet për të artikull Kategoritë",
         true_description:
-          "shitës artikull Shto artikull Menaxho Kategoritë artikull artikull artikull shitës artikull",
+          "Shitësit mund të shtojnë dhe menaxhojnë kategori direkt në panelin e tyre të shitësve.",
       },
       shipping: {
         label: "Transporti artikull",
         true_title: "shitës artikull Transporti artikull",
         false_description:
-          "shitës artikull Shto artikull artikull artikull Transporti metoda",
+          "Shitësit nuk mund të shtojnë ose personalizojnë metodat e tyre të transportit.",
         true_description:
-          "shitës artikull artikull Transporti metoda, Shto korrierët, artikull artikull Transporti artikull artikull artikull",
+          "Shitësit mund të vendosin metodat e tyre të transportit, të shtojnë korrierë dhe të personalizojnë transportin për nevojat e tyre.",
       },
       hidden_customer: {
         label: "Shfaq artikull Kontaktoni informacion",
         true_description: "artikull Kontaktoni Detajet artikull artikull Nga shitës",
         false_description:
-          "artikull Kontaktoni Detajet, artikull artikull telefon artikull email, artikull artikull për të shitës",
+          "Të dhënat e kontaktit të blerësit, si telefoni dhe emaili, janë të dukshme për shitësit.",
       },
       multi: {
         false_description:
-          "artikull Përdoruesi artikull artikull shitës Llogaria Përdoruesit artikull artikull artikull për të artikull artikull artikull /shitës",
+          "Një përdorues mund të ketë vetëm një llogari shitësi. Përdoruesit do të ridrejtohen në panelin e tyre në / shitësit.",
         true_description:
-          "artikull Përdoruesi artikull artikull artikull shitës Llogaritë artikull artikull ; artikull Kontaktoni artikull artikull ",
+          "Një përdorues mund të ketë llogari të shumta shitës. Ky është një veçori beta; ju lutemi na kontaktoni përpara se ta përdorni.",
         true_title: "artikull modalitet",
         false_title: "artikull shitës modalitet (E paracaktuar)",
       },
@@ -7189,22 +7189,22 @@ export default {
       type: {
         title: "artikull Lloji",
         subtitle:
-          "Shto artikull artikull shitës artikull, artikull artikull për të Ngarko artikull artikull artikull",
+          "Shto një artikull të kërkesës për dokument këtu. Do të shfaqet në panelin e shitësit, duke i nxitur ata të ngarkojnë dokumentin e kërkuar.",
       },
       guide: {
         title: "udhëzues",
         subtitle:
-          "artikull artikull artikull udhëzues për të ndihmë shitës artikull artikull artikull për të Ngarko artikull artikull për të artikull artikull artikull",
+          "Jepni një udhëzues të shkurtër për të ndihmuar shitësit të kuptojnë se cilat dokumente duhet të ngarkojnë dhe si ta bëjnë atë siç duhet.",
       },
       code: {
         title: "artikull Kodi",
         subtitle:
-          "artikull artikull artikull Kodi artikull artikull artikull, formular, artikull artikull shitës artikull artikull",
+          "Ngjit kodin e integruar për një dokument, formular ose kontratë që shitësi duhet të nënshkruajë.",
       },
       link: {
         title: "Lidhje e jashtme",
         subtitle:
-          "artikull artikull artikull Lidhje për të artikull artikull shitës artikull artikull",
+          "Jepni një lidhje të jashtme për një dokument ose kontratë që shitësi duhet të nënshkruajë.",
       },
       inputs: {
         title: {
@@ -7214,7 +7214,7 @@ export default {
         guide: {
           label: "udhëzues (opsional)",
           placeholder:
-            "artikull, artikull artikull artikull udhëzues artikull artikull, artikull Lidhjet për të artikull artikull ",
+            "Opsionale, jepni një udhëzues të shkurtër ose udhëzime, duke përfshirë lidhje me kontrata ose dokumente të tjera.",
         },
         code: {
           label: "artikull Kodi",
@@ -7236,7 +7236,7 @@ export default {
     Collective: {
       title: "artikull modalitet",
       description:
-        "artikull artikull modalitet, të gjitha Porositë artikull Dërguar për të artikull Magazina artikull artikull artikull Dërguar për të Klientët Nga artikull artikull Vendndodhja shitës artikull Dërgo artikull Artikuj për të artikull Magazina, artikull artikull Transporti adresë artikull shitës artikull artikull artikull Magazina adresë",
+        "Në këtë mënyrë, të gjitha porositë dërgohen fillimisht në magazinë tuaj dhe më pas dërgohen te klientët nga një vendndodhje qendrore. Shitësit do t'i dërgojnë artikujt e tyre në magazinë tuaj, kështu që adresa e transportit për shitësit do të jetë adresa e magazinës tuaj.",
     },
     Direct: {
       title: "artikull Transporti Nga shitës",
@@ -7251,22 +7251,22 @@ export default {
     Identification: {
       title: "Pronari artikull artikull",
       description:
-        "Ngarko artikull artikull ID për të artikull artikull KYC artikull artikull biznes Pronari artikull artikull artikull",
+        "Ngarko një ID të lëshuar nga qeveria për të verifikuar identitetin e pronarit të biznesit ose ekzekutivit kryesor.",
     },
     Business: {
       title: "biznes artikull",
       description:
-        "artikull artikull biznes artikull artikull artikull licencë artikull artikull artikull për të artikull artikull artikull Statusi artikull artikull biznes",
+        "Jepni dokumente thelbësore të biznesit si licencat ose certifikatat e regjistrimit për të konfirmuar statusin ligjor të biznesit tuaj.",
     },
     Address: {
       title: "adresë artikull",
       description:
-        "artikull artikull artikull për të artikull artikull biznes adresë, artikull artikull , Taksa Fatura, artikull artikull artikull",
+        "Paraqisni një dokument për të verifikuar adresën e biznesit tuaj, si p.sh. një faturë shërbimi, faturë tatimore ose marrëveshje qiraje.",
     },
     Contract: {
       title: "artikull & artikull",
       description:
-        "Ngarko artikull artikull Kushtet artikull Kushtet artikull artikull biznes artikull",
+        "Ngarkoni kontrata ose marrëveshje që detajojnë termat dhe kushtet e marrëdhënieve tuaja të biznesit.",
     },
     Copyright: {
       title: "artikull artikull",
@@ -7276,17 +7276,17 @@ export default {
     Privacy: {
       title: "Privatësia politikë artikull",
       description:
-        "artikull artikull Privatësia politikë artikull për të artikull artikull artikull për të artikull Përdoruesi artikull klient informacion",
+        "Përfshini dokumentet e politikës suaj të privatësisë për të demonstruar përkushtimin tuaj për mbrojtjen e informacionit të përdoruesit dhe klientit.",
     },
     Embed: {
       title: "artikull formular",
       description:
-        "artikull artikull artikull formular për të artikull artikull artikull informacion",
+        "Plotësoni formularin e integruar për të dhënë informacionin e kërkuar.",
     },
     Link: {
       title: "Lidhje e jashtme",
       description:
-        "artikull artikull artikull Lidhje për të artikull artikull artikull informacion",
+        "Ndiqni lidhjen e jashtme për të dhënë informacionin e nevojshëm.",
     },
   },
 
@@ -7296,7 +7296,7 @@ export default {
   marketplace_wallets: {
     title: "shitës Kuletat",
     subtitle:
-      "nr artikull për të artikull Shto Kuletat! shitës Kuletat artikull artikull Aktivizo artikull Pagesa metodë artikull mbështetje artikull artikull (si Stripe Connect), artikull artikull Pagesat për të artikull Lidhur shitës Llogaritë artikull artikull aktivizuar, artikull artikull për të artikull Paguaj shitës, artikull artikull shumë artikull për të artikull artikull artikull Portofoli Listë",
+      "Nuk ka nevojë të shtoni manualisht kuletat! Kuletat e shitësve krijohen automatikisht. Nëse aktivizoni një mënyrë pagese që mbështet pagesat e ndara (si Stripe Connect), sistemi do të shpërndajë automatikisht pagesat në llogaritë e shitësve të lidhur. Nëse kjo veçori nuk aktivizohet, do t'ju duhet të paguani manualisht shitësit dhe mund të kontrolloni shumat që u detyrohen atyre në listën e portofolit.",
     filter_vendor: {
       placeholder: "Filtro artikull shitës",
     },
@@ -7307,7 +7307,7 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "artikull artikull Listë artikull të gjitha Transaksionet artikull artikull Zgjidh Portofoli artikull Ngarkimi Transaksioni artikull artikull klient artikull artikull 🛍️ Porosit artikull artikull 🛍️ Porosit artikull artikull rimbursim, artikull artikull rimbursim Transaksioni artikull artikull ",
+      "Ky seksion ofron një listë të detajuar të të gjitha transaksioneve për portofolin e zgjedhur. Një transaksion tarifimi regjistrohet kur një klient paguan me sukses një porosi. Nëse një porosi anulohet ose rimbursohet pjesërisht, transaksioni përkatës i rimbursimit do të regjistrohet gjithashtu këtu.",
     vendor_bank: "shitës Banka",
     order_fee: "🛍️ Porosit Tarifa",
     order_refund: "🛍️ Porosit rimbursim",
@@ -7321,7 +7321,7 @@ export default {
   marketplace_payouts: {
     title: "artikull Historia",
     subtitle:
-      "artikull artikull artikull Kontabiliteti artikull artikull shitës artikull artikull të gjitha Transaksionet Pagesat artikull artikull Banka artikull artikull artikull metoda, artikull artikull Pagesa Ofruesit artikull Mbështetje artikull Pagesat, si artikull",
+      "Kjo veçori thjeshton kontabilitetin për ju dhe shitësit tuaj duke mbajtur një regjistër të detajuar të të gjitha transaksioneve. Pagesat mund të përpunohen manualisht nëpërmjet transfertave bankare ose metodave të tjera, ose të menaxhohen automatikisht nga ofruesit e pagesave që mbështesin pagesa të ndara, si Stripe.",
     top_up_vendor_action: "artikull artikull shitës Llogaria",
   },
 
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "Çmimet Planet",
     subtitle:
-      "artikull artikull Çmimet artikull artikull artikull Tregu, si artikull 5% artikull Tarifa artikull artikull Produktet artikull fito Çmimet Menaxhim artikull artikull Më shumë. . artikull",
+      "Vendosni modele çmimesh për tregun tuaj, si një tarifë marzhi prej 5% për produktet dixhitale. Kjo e bën menaxhimin e çmimeve më të shpejtë dhe më efikas.",
     add_pricing_action: "Shto Çmimet Planifikoni",
   },
 
@@ -7344,7 +7344,7 @@ export default {
       "artikull artikull Çmimet artikull për të shitës Produktet, artikull çmimi artikull artikull shitës çmimi * (1 + Komisioni%).",
     delete: {
       subtitle:
-        "artikull artikull Çmimet artikull artikull artikull të gjitha shitës Produktet i lidhur për të artikull artikull Çmimet artikull, fito artikull për të Përditëso të gjitha shitës Produktet artikull artikull Çmimet artikull",
+        "Fshirja e një modeli çmimi do të ndikojë në të gjitha produktet e shitësve të lidhur me të. Përpara se të hiqni një model çmimi, sigurohuni që të përditësoni të gjitha produktet e shitësve duke e përdorur atë dhe t'u caktoni atyre një model tjetër çmimi.",
       remove_pricing_action: "Hiq Çmimet artikull",
     },
     inputs: {
@@ -7352,10 +7352,10 @@ export default {
         placeholder: "artikull, artikull Produktet artikull",
       },
       description: {
-        placeholder: "artikull artikull Shto artikull shënim artikull",
+        placeholder: "Këtu mund të shtoni një shënim...",
       },
       accept_delete: {
-        true_description: "artikull artikull për të Fshije artikull Çmimet artikull",
+        true_description: "Dua ta fshij këtë model çmimi.",
         true_title: "artikull Çmimet artikull artikull",
       },
     },
@@ -7368,36 +7368,36 @@ export default {
     vendor: {
       title: "shitës",
       subtitle:
-        "Zgjidh artikull shitës artikull artikull për të Transferimi artikull për të artikull Zgjidh, Në dispozicion Pagesa artikull artikull aktivizuar artikull Pagesa Portat, artikull artikull ",
+        "Zgjidhni shitësin ku dëshironi të transferoni fonde. Pasi të zgjidhet, do të shfaqen opsionet e disponueshme të pagesës. Nëse keni aktivizuar portat e pagesës me aftësi pagese, ato opsione do të shfaqen gjithashtu këtu.",
     },
     vendor_wallet: "shitës Portofoli",
     vendor_bank_account: "shitës Banka Llogaria",
     with_balance_tooltip:
-      "artikull artikull lidh artikull Shërbimet si Stripe Connect, artikull artikull Në dispozicion Bilanci artikull artikull Stripe Llogaria artikull artikull",
+      "Kur lidhni shërbimet e pagesës si Stripe Connect, ne marrim dhe shfaqim balancën e disponueshme në llogarinë tuaj Stripe për referencë.",
     with_balance: "artikull Bilanci",
     without_balance: "artikull Bilanci - artikull modalitet",
     bank_transfer: {
       title: "Banka Transferimi",
       subtitle:
-        "artikull artikull Pagesa Historia nr artikull para artikull artikull artikull për të artikull shitës artikull artikull artikull; artikull artikull artikull Paguaj artikull shitës",
+        "Ky është një rekord i historisë së pagesave. Asnjë para aktuale nuk do t'i transferohet shitësit nga sistemi; ju duhet të paguani manualisht shitësit tuaj.",
     },
     vendor_bank: "shitës Banka",
     gateway_in_debug_mode_warning:
-      "artikull artikull Pagesa Porta artikull artikull modalitet, artikull artikull për të artikull artikull Llogaria",
+      "Meqenëse porta e pagesave është aktualisht në modalitetin e korrigjimit, fondet nuk do të transferohen në një llogari reale.",
     payment: {
       title: "Pagesa",
       subtitle:
-        "artikull artikull Monedha artikull artikull artikull Shuma artikull artikull për të Transferimi për të artikull shitës artikull artikull Shuma, artikull artikull Nga artikull shitës Portofoli artikull Lidhur Llogaritë artikull artikull artikull, artikull artikull Nga artikull Lidhur Llogaria, artikull artikull artikull shitës Stripe Llogaria",
+        "Zgjidhni monedhën dhe vendosni shumën që dëshironi të transferoni te shitësi. Nëse vendosni një shumë negative, fondet do të tërhiqen nga portofoli i shitësit. Për llogaritë e lidhura me opsione pagese, fondet do të zbriten nga llogaria e lidhur, siç është llogaria Stripe e shitësit.",
     },
     history: {
       title: "Historia",
       subtitle:
-        "artikull artikull artikull Pagesa artikull artikull rimbursim artikull artikull artikull Transferimi, artikull artikull Bilanci artikull artikull artikull Nga artikull shitës Llogaria artikull U kthye për të artikull Llogaria",
+        "Një pjesë e kësaj pagese është rimbursuar nëpërmjet një transferte kthimi, që do të thotë se gjendja është zbritur nga llogaria e shitësit dhe është kthyer në llogarinë tuaj.",
     },
     refund: {
       title: "rimbursim",
       subtitle:
-        "artikull rimbursim Shuma artikull artikull artikull Nga artikull shitës Bilanci të gjitha Pagesat (artikull artikull shumë) artikull artikull shitës Llogaria (si Stripe Connect) artikull artikull rimbursim artikull artikull artikull Transferimi",
+        "Shuma e rimbursuar do të zbritet nga gjendja e shitësit. Të gjitha pagesat (ose shumat e mbetura) në llogarinë e shitësit (si Stripe Connect) do të rimbursohen përmes një transferte anulluese.",
     },
     inputs: {
       vendor: {
@@ -7405,7 +7405,7 @@ export default {
       },
       note: {
         placeholder:
-          "artikull artikull Shto artikull shënim artikull artikull shënim artikull artikull artikull për të artikull shitës",
+          "Mund të shtoni një shënim këtu... Ky shënim nuk është i dukshëm për shitësin.",
       },
       accept_refund: {
         true_description: "artikull artikull për të Anulo artikull Pagesa",
@@ -7416,7 +7416,7 @@ export default {
       reverse_fund_success: {
         title: "artikull artikull",
         message:
-          "artikull shitës artikull artikull E përfunduar artikull, artikull para artikull Nga artikull Banka për të artikull Portofoli artikull Shto për të artikull Portofoli Bilanci",
+          "Kthimi i fondit të shitësit ka përfunduar me sukses, me paratë e transferuara nga banka në portofol dhe të shtuara në bilancin e portofolit.",
       },
       payout_success: {
         title: "artikull",
@@ -7431,8 +7431,8 @@ export default {
    */
   quota_importer: {
     quota: "artikull",
-    max_batch_msg: "maksimum artikull artikull Artikuj artikull artikull Importo artikull artikull ",
-    max_daily_limit_msg: "maksimum artikull artikull Artikuj artikull artikull Importo artikull artikull artikull",
+    max_batch_msg: "Numri maksimal i artikujve që mund të importoni në një grup të vetëm.",
+    max_daily_limit_msg: "Numri maksimal i artikujve që mund të importoni në një ditë.",
     extra_daily_limit_msg: "artikull Artikuj artikull artikull Kufiri",
     add_items_today_msg: "Artikuj Shto Sot",
     file_statistic_msg: "Statistikat artikull artikull skedar",
@@ -7473,7 +7473,7 @@ export default {
   shop_theme: {
     theme_colors: "Ngjyrat e temave",
     theme_colors_description:
-      "artikull artikull fillore Ngjyrë artikull artikull artikull Dyqan artikull artikull shabllon artikull artikull për të artikull artikull Ngjyrë artikull artikull Markë",
+      "Këtu mund të personalizoni paletën e ngjyrave kryesore të dyqanit tuaj. Çdo shabllon mund të përdorë këto ngjyra për të gjeneruar automatikisht një gamë të plotë ngjyrash që përputhet me markën tuaj.",
     products_view_mode: "Pamja e listës së blerjeve",
     products_view_mode_desc:
       "Mund të rregulloni mënyrën e shfaqjes së produkteve në dyqanin tuaj bazuar në madhësinë e ekranit. Ky modalitet do të konsiderohet si parazgjedhje dhe nuk do të zbatohet nëse përdoruesi ndryshon modalitetin e ekranit.",
@@ -7501,7 +7501,7 @@ export default {
 
     wrap_product_title: {
       title: "artikull Titulli",
-      subtitle: "artikull Lartësia artikull artikull Titulli artikull artikull artikull",
+      subtitle: "Lartësia e titullit do të rregullohet në mënyrë dinamike.",
     },
 
     animation: {
@@ -7509,7 +7509,7 @@ export default {
       static: {
         false_title: "artikull artikull",
         false_description:
-          "Kategoritë artikull Produktet artikull artikull për të Shfaq artikull artikull",
+          "Kategoritë dhe produktet kanë një animacion ndërveprues për të treguar funksionalitetin.",
         true_title: "Statike",
         true_description: "Kategoritë artikull Produktet artikull nr artikull",
       },
@@ -7519,9 +7519,9 @@ export default {
       title: "artikull Veprimet",
       hover: {
         false_description:
-          "E thjeshtë artikull artikull modalitet artikull artikull artikull Veprimet artikull Produkt Kartat",
+          "Modaliteti i thjeshtë dhe minimal pa ndonjë veprim shtesë në kartat e produkteve.",
         true_description:
-          "Shfaq artikull Blej & Shto për të artikull artikull artikull Produkt Kartelë artikull",
+          "Shfaq butonat e \"Blij dhe Shto të Shpejtë\" për të krahasuar në kartën e produktit që rri pezull.",
         true_title: "Shfaq artikull artikull artikull",
       },
     },
@@ -7549,26 +7549,26 @@ export default {
     product_page: {
       title: "Produkt faqe",
       subtitle:
-        "artikull artikull Produkt faqe artikull artikull Çmimet artikull artikull për të artikull artikull artikull",
+        "Personalizojeni faqen e produktit tuaj këtu. Mund të rregulloni shfaqjen e çmimeve dhe të modifikoni renditjen e seksioneve për t'iu përshtatur preferencave tuaja.",
       buy_button_color: "Blej artikull Ngjyrë",
       smart_price: {
         title: "artikull Njësia çmimi",
         true_description:
-          "artikull Njësia çmimi artikull artikull Pesha, vëllimi, artikull artikull Variantet artikull p.sh. artikull artikull 2artikull artikull artikull $5 artikull çmimi, artikull artikull klient shiko artikull $2.5/artikull artikull artikull Produkt faqe",
+          "Llogaritja e çmimit për njësi duke marrë parasysh peshën, vëllimin dhe vetinë e varianteve të paketimit. p.sh. Nëse keni një variant me madhësi 2L dhe $5 si çmim, atëherë klienti sheh $2.5/L në faqen e produktit.",
       },
       reverse_currency: {
         title: "Monedha artikull Pozicioni",
         false_title: "Mënyra normale",
         true_title: "artikull modalitet",
         false_description:
-          "artikull Monedha artikull artikull Filloni artikull artikull artikull p.sh.: $95, €30",
+          "Shenja e monedhës do të vendoset në fillim të numrave. P.sh.: $95 , 30 €",
         true_description:
-          "artikull Monedha artikull artikull fund artikull artikull artikull p.sh.: 95$, 30€",
+          "Shenja e monedhës do të vendoset në fund të numrave. P.sh.: 95$ , 30€",
       },
       variants_selector: {
         title: "Variantet artikull",
         subtitle:
-          "artikull artikull për të artikull Variantet artikull artikull Produkt faqe",
+          "Mund të zgjidhni mënyra të ndryshme për të shfaqur variantet në faqen e produktit.",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "artikull & identifikimi",
       subtitle:
-        "artikull artikull shitës artikull artikull identifikimi artikull artikull artikull Me porosi artikull, Imazhi, artikull Mesazh",
+        "Personalizojeni përvojën e hyrjes dhe identifikimit të shitësit me një video, imazh ose mesazh të personalizuar.",
     },
     inputs: {
       page_vendor_login: {
         label: "shitës identifikimi faqe",
         message:
-          "Zgjidh artikull Me porosi Ulje faqe artikull shitës identifikimi artikull artikull, Imazhet, artikull artikull Dizajn artikull faqe artikull artikull për të shitës artikull artikull ",
+          "Zgjidhni një faqe ulje të personalizuar për hyrjen e shitësit. Përfshi video, imazhe ose tekst për një dizajn unik. Kjo faqe u shfaqet shitësve që nuk janë të kyçur.",
       },
       page_vendor_registered: {
         label: "shitës I regjistruar faqe",
         message:
-          "Zgjidh artikull Me porosi faqe artikull artikull shitës artikull faqe artikull artikull Tregu mbështetje artikull shitës artikull Përdoruesi",
+          "Zgjidhni një faqe të personalizuar për shitësit e regjistruar. Kjo faqe shfaqet nëse tregu juaj mbështet shumë shitës për përdorues.",
       },
     },
   },
@@ -7606,7 +7606,7 @@ export default {
     custom_variants: {
       title: "Me porosi Variantet",
       subtitle:
-        "artikull Produktet artikull artikull Variantet artikull artikull Ndryshimi artikull E paracaktuar Emri artikull Variantet artikull artikull artikull për të artikull artikull Artikuj artikull E paracaktuar artikull artikull Klientët artikull artikull maksimum Gjatësia artikull 24.",
+        "Produktet fizike mund të kenë variante. Ju mund të ndryshoni emrin e paracaktuar të varianteve. Sugjerimi ynë është t'i lini këta artikuj si parazgjedhje dhe bosh, në mënyrë që selldone t'i përkthejë automatikisht për klientët tuaj në gjuhët e tyre. Gjatësia maksimale është 24.",
     },
   },
   /** @see BShopThemeTypography **/
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "Kreu artikull",
       subtitle:
-        "artikull E paracaktuar, artikull Dyqane artikull artikull Kreu, artikull artikull artikull Ngarko artikull Me porosi artikull artikull , artikull artikull artikull për të artikull artikull artikull Lartësia artikull Gjerësia artikull artikull artikull",
+        "Si parazgjedhje, logoja e dyqanit tuaj shfaqet në kokë, por në vend të kësaj mund të ngarkoni një logo të personalizuar. Nëse logoja juaj nuk ka një raport katror, ​​mund t'ju duhet të rregulloni manualisht lartësinë dhe gjerësinë për prezantim optimal.",
     },
     header_title: {
       title: "Kreu Titulli",
       subtitle:
-        "artikull artikull Titulli artikull artikull artikull Kreu artikull artikull Faqet artikull artikull për të artikull Hiq artikull, artikull artikull artikull 'artikull artikull Titulli artikull",
+        "Ju mund të personalizoni titullin e shfaqur në kokën e faqeve tuaja këtu. Nëse dëshironi ta hiqni plotësisht, ju lutemi klikoni butonin 'Vendos titullin bosh'.",
     },
 
     inputs: {
@@ -7662,12 +7662,12 @@ export default {
     smart: {
       title: "artikull modalitet",
       description:
-        "artikull Variantet artikull artikull , artikull artikull ",
+        "Variantet kompakte në opsione të veçanta të përzgjedhshme, të përshtatshme për shumicën e rasteve.",
     },
     select: {
       title: "Zgjidh modalitet",
       description:
-        "artikull të gjitha Variantet artikull artikull artikull, artikull artikull Variantet",
+        "Shfaq të gjitha variantet në një listë, ideale për një numër të madh variantesh.",
     },
   },
 
@@ -7677,17 +7677,17 @@ export default {
     add_title: "Shto artikull artikull",
     config: {
       subtitle:
-        "artikull Titulli artikull Përshkrim artikull artikull për të Stafi artikull",
+        "Vendosni titullin dhe përshkrimin për grupin tuaj të pronës. Ajo do të jetë e dukshme vetëm për stafin.",
     },
     variants: {
       title: "Variantet",
       subtitle:
-        "artikull artikull Emri, Ikona, artikull 🛍️ Porosit artikull artikull Produktet artikull artikull Variantet artikull artikull artikull E paracaktuar 6 Variantet, artikull artikull artikull Me porosi Variantet artikull artikull Produkt artikull",
+        "Mund të personalizoni emrin e variantit, ikonën dhe porositni këtu. Nëse keni një shumëllojshmëri produktesh me variante unike që nuk përshtaten me 6 variantet e paracaktuara, mund të vendosni variante të personalizuara për secilin produkt këtu.",
     },
 
     inputs: {
       title: {
-        placeholder: "artikull artikull Titulli artikull artikull artikull",
+        placeholder: "Fut një titull për grupin e pronës...",
       },
       description: {
         placeholder: "artikull artikull artikull Përshkrim (opsional)",
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "Menaxhimi i klientëve",
     subtitle:
-      "Klientët artikull artikull Shto për të artikull dyqan artikull artikull artikull; artikull, artikull artikull Importo, artikull artikull POS, artikull artikull dyqan artikull artikull Përdoruesi artikull artikull artikull dyqan, artikull artikull I regjistruar artikull artikull klient",
+      "Klientët mund të shtohen në dyqanin tuaj në disa mënyra; manualisht, importoni Excel në masë, përmes POS-it, ose nëpërmjet dyqanit tuaj online. Sa herë që një përdorues hyn në dyqanin tuaj, ai automatikisht do të regjistrohet si klient.",
     add_customer_action: "Shto I ri klient",
 
     all_customers: "Shkarkoni të gjithë klientët",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "Redakto klient",
     add_title: "Shto I ri klient",
     subtitle:
-      "për të Shto artikull klient për të artikull dyqan, artikull artikull email adresë artikull artikull telefon artikull",
+      "Për të shtuar një klient në dyqanin tuaj, ju lutemi jepni një adresë emaili ose një numër telefoni.",
     more: {
       title: "Shto më shumë detaje",
       subtitle: "artikull Monedha, klient Klubi, Segmentet, adresë artikull Më shumë. .",
     },
     detail: {
       subtitle:
-        "artikull artikull Personale informacion artikull artikull klient artikull artikull artikull Klientët Privatësia",
+        "Mbani një rekord të informacionit personal për klientin tuaj. Ju lutemi respektoni privatësinë e klientit tuaj.",
     },
     preferences: {
       subtitle: "artikull E paracaktuar Përdoruesi Monedha, klient Klubi, artikull Segmentet artikull",
     },
     address: {
       subtitle:
-        "artikull adresë artikull artikull I perdorur artikull artikull POS. artikull Përdoruesi artikull artikull shiko artikull informacion",
+        "Kjo adresë mund të përdoret në POS. Përdoruesi nuk mund ta shohë këtë informacion.",
     },
   },
 
@@ -7940,7 +7940,7 @@ export default {
     courier_action_subtitle: "artikull artikull ",
 
     pickup_ready_action: "artikull artikull",
-    pickup_ready_action_subtitle: "artikull 🛍️ Porosit artikull artikull artikull klient artikull",
+    pickup_ready_action_subtitle: "Porosia është gati për marrje nga klienti.",
 
     service_action: "artikull artikull",
 
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "artikull Dorëzimi artikull",
       true_description:
-        "artikull artikull 🛍️ Porosit artikull artikull Dorëzuar për të artikull klient",
+        "Konfirmoj që porosia i është dorëzuar klientit.",
     },
   },
 
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "artikull Paneli",
     subtitle:
-      "artikull artikull artikull, artikull Komisioni Tarifa artikull artikull I paguar për të artikull Banka Llogaria artikull artikull Banka informacion artikull",
+      "Me kërkesën tuaj, komisioni do të paguhet në llogarinë bankare të specifikuar nga ju. Ju lutemi jepni informacionin tuaj bankar këtu.",
     no_bank_info: "nr Banka Informacion!",
     actions: {
       edit_my_bank_info: "Redakto artikull Banka Informacion",
@@ -8013,17 +8013,17 @@ export default {
       info: {
         title: "Banka",
         subtitle:
-          "artikull hyrje artikull Banka informacion artikull artikull informacion për të Transferimi artikull artikull Banka Llogaria artikull artikull artikull Emri artikull artikull artikull biznes Emri, artikull artikull",
+          "Ju lutemi futni informacionin tuaj bankar këtu. Ne do ta përdorim këtë informacion për të transferuar fonde. Sigurohuni që llogaria bankare të jetë në emrin tuaj ose nën emrin e biznesit tuaj, sipas rastit.",
       },
       inputs: {
         name: {
           label: "Banka Emri",
-          message: "artikull artikull Emri artikull artikull Banka artikull artikull Llogaria artikull artikull",
+          message: "Emri i plotë i bankës ku mbahet llogaria.",
         },
         holder_name: {
           label: "Llogaria artikull Emri",
           message:
-            "artikull artikull Emri artikull artikull Llogaria",
+            "Emri i plotë i personit ose subjektit që mban llogarinë.",
         },
         account_number: {
           label: "Numri i llogarisë",
@@ -8031,23 +8031,23 @@ export default {
             "artikull artikull Banka Llogaria",
         },
         routing_number: {
-          label: "artikull artikull (USA) artikull artikull Kodi (UK)",
+          label: "Numri i rrugëtimit (SHBA) ose kodi i renditjes (MB)",
           message:
-            "artikull artikull Banka artikull (artikull Kushtet artikull I perdorur artikull artikull artikull).",
+            "Një numër që identifikon degën specifike të bankës (në vende të ndryshme përdoren terma të ndryshëm).",
         },
         swift: {
           label: "SWIFT/BIC Kodi",
           message:
-            "artikull artikull Kodi I perdorur për të artikull artikull artikull, artikull artikull ",
+            "Një kod ndërkombëtar që përdoret për të identifikuar bankat në nivel global, veçanërisht për transfertat ndërkombëtare.",
         },
         iban: {
           label: "IBAN (artikull Banka Llogaria artikull)",
           message:
-            "I perdorur artikull artikull artikull, artikull IBAN artikull artikull Banka Llogaritë artikull artikull artikull",
+            "I përdorur kryesisht në Evropë, IBAN është një sistem i pranuar ndërkombëtarisht për identifikimin e llogarive bankare përtej kufijve kombëtarë.",
         },
         contact: {
           label: "Informacioni i Kontaktit",
-          message: "telefon artikull artikull email adresë artikull artikull artikull Llogaria",
+          message: "Numri i telefonit ose adresa e emailit të lidhur me llogarinë.",
         },
         note: {
           label: "shënim",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "artikull Banka Informacion artikull artikull artikull",
+        message: "Informacioni i bankës suaj u përditësua me sukses.",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "Nga të gjitha shërbim artikull, Abonimi artikull artikull Pagesat artikull artikull ",
+      "Nga të gjitha tarifat e shërbimit, abonimet dhe pagesat e tjera të bëra nga referimet tuaja.",
   },
 
   /**
@@ -8077,27 +8077,27 @@ export default {
     Bronze: {
       title: "artikull artikull",
       description:
-        "artikull artikull 2% Komisioni Nga artikull artikull",
+        "Ju jeni në kategorinë e bronzit. Ju keni fituar 2% komision nga referimet tuaja.",
     },
     Silver: {
       title: "artikull artikull",
       description:
-        "artikull artikull 4% Komisioni Nga artikull artikull",
+        "Ju jeni në nivelin e argjendtë. Ju keni fituar 4% komision nga referimet tuaja.",
     },
     Gold: {
       title: "artikull artikull",
       description:
-        "artikull artikull 6% Komisioni Nga artikull artikull",
+        "Ju jeni në nivelin e artë. Ju keni fituar 6% komision nga referimet tuaja.",
     },
     Platinum: {
       title: "artikull artikull",
       description:
-        "artikull artikull 8% Komisioni Nga artikull artikull",
+        "Ju jeni në nivelin e Platinumit. Ju keni fituar 8% komision nga referimet tuaja.",
     },
     Diamond: {
       title: "artikull artikull",
       description:
-        "artikull artikull 10% Komisioni Nga artikull artikull",
+        "Ju jeni në nivelin e diamantit. Ju keni fituar 10% komision nga referimet tuaja.",
     },
   },
 
@@ -8126,7 +8126,7 @@ export default {
   selldone_referral_payment: {
     title: "Pagesat e referimit",
     subtitle:
-      "artikull artikull Listë artikull Tërheqja Transaksionet artikull artikull Transferimi artikull Nga artikull Portofoli për të artikull Banka Llogaria artikull artikull Selldone Portofoli, artikull artikull artikull listë artikull",
+      "Është lista e transaksioneve të tërheqjes. Kur transferoni fonde nga portofoli i referimit në llogarinë tuaj bankare ose në portofolin tuaj Selldone, ai do të renditet këtu.",
 
     officer: "Oficeri",
     amount: "Shuma e transaksionit",
@@ -8520,15 +8520,15 @@ export default {
     manage: {
       title: "Menaxho SMS",
       subtitle:
-        "artikull artikull shiko artikull artikull mesazh Dërguar artikull artikull dyqan artikull artikull për të artikull Kufizimi artikull artikull shërbim, artikull artikull për të artikull artikull artikull mesazh artikull artikull artikull",
+        "Këtu mund të shihni përmbajtjen e mesazheve me tekst të dërguara nga dyqani juaj. Për shkak të kufizimit në regjistrimin e modeleve të vlefshmërisë në shërbimin e mesazheve, nuk është i mundur personalizimi i mesazheve në këtë moment.",
     },
 
     template: {
       title: "artikull",
       valid_message: "artikull artikull Krijo Me porosi SMS mesazh",
-      provider_not_enable_message: "artikull SMS artikull artikull artikull aktivizuar!",
+      provider_not_enable_message: "Ofruesi i SMS-ve nuk është i aktivizuar!",
       need_custom_provider_message:
-        "artikull SMS mesazh artikull artikull Me porosi artikull",
+        "Mesazhet SMS të personalizuara funksionojnë vetëm nëse vendosni një ofrues të personalizuar.",
       add_new: "Shto I ri",
       disable_reason: {
         set_provider: "artikull artikull !",
@@ -8539,7 +8539,7 @@ export default {
       enable_only_filter: "Shfaq artikull aktivizuar",
 
       text_template_not_supported_msg:
-        "artikull artikull Mbështetje artikull artikull mesazh",
+        "Ofruesi juaj nuk i mbështet mesazhet me tekst të thjeshtë.",
       structure_template_not_supported_msg:
         "artikull artikull Mbështetje artikull mesazh",
 
@@ -8556,15 +8556,15 @@ export default {
       config: {
         title: "Mesazh Konfigurimi",
         subtitle:
-          "artikull artikull Krijo artikull shabllon artikull artikull SMS Mesazh artikull artikull SMS Ofruesit Faqja e internetit, artikull artikull artikull Kodi artikull Të dhënat artikull artikull informacion për të artikull artikull, artikull artikull artikull SMS Mesazh artikull artikull artikull",
+          "Mund të krijoni një shabllon për mesazhin SMS në faqen e internetit të ofruesit tuaj SMS, më pas specifikoni kodin e tij dhe strukturën e të dhënave këtu. Ne do t'ia përcjellim këtë informacion ofruesit tuaj, ku do të gjenerohet mesazhi aktual SMS.",
         code: "Kodi",
-        language_msg: "artikull artikull artikull për të artikull artikull artikull E paracaktuar",
+        language_msg: "Lëreni bosh për ta vendosur si parazgjedhje.",
         enable_msg: "artikull shabllon artikull artikull I perdorur për të Krijo mesazh",
       },
       text: {
         title: "artikull artikull",
         subtitle:
-          "artikull artikull artikull SMS Mesazh artikull artikull Dërguar për të artikull Përdoruesi",
+          "Shkruani një mesazh SMS të personalizuar këtu. Vlerat dinamike do të zëvendësohen me vlerat e tyre aktuale përpara se t'i dërgohen përdoruesit.",
         message: "Mesazh",
         reset_to_default: "artikull për të E paracaktuar",
 
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "artikull shabllon",
         subtitle:
-          "artikull artikull shabllon artikull artikull Vlera artikull artikull shabllon Kodi artikull artikull SMS shërbim artikull, artikull artikull <code>artikull</code> artikull artikull për të Dërgo artikull Kodi artikull artikull artikull <code>Vlera</code> artikull artikull shabllon artikull artikull, artikull <code>{code}</code> artikull artikull shabllon Kodi",
+          "Këtu mund të vendosni çelësin dhe vlerën e shabllonit. Kodi shabllon duhet të jetë pikërisht ai që keni vendosur në ofruesin tuaj të shërbimit SMS dhe <code>key</code> është ajo përmes së cilës ofruesi juaj dëshiron ta dërgojë kodin. Nëse fusha <code>value</code> e shabllonit është bosh, atëherë <code>{code}</code> do të konsiderohet si kodi i shabllonit.",
         add_new_parameter: "Shto I ri artikull",
 
         auto_fill: {
           title: "automatik artikull artikull",
           subtitle:
-            "artikull artikull Vlera, artikull Selldone artikull artikull Vlera artikull artikull për të artikull artikull E paracaktuar artikull artikull SMS artikull artikull , artikull artikull artikull nr artikull për të artikull artikull ",
+            "Ju mund të vendosni secilin prej këtyre parametrave si një vlerë, dhe Selldone do t'i zëvendësojë ato me vlerën përkatëse. Është më mirë të përcaktoni vlerat e paracaktuara si shabllone në ofruesin tuaj të SMS për thjeshtësi. Në këtë rast, nuk do të ketë nevojë të përcaktohen vlerat e parametrave këtu.",
         },
         request: {
           title: "artikull artikull",
         },
         sample: {
           title: "artikull shabllon Mesazh",
-          subtitle: "artikull artikull shabllon për të artikull SMS artikull",
+          subtitle: "Ju mund ta kopjoni dhe kaloni këtë shabllon te ofruesi juaj i SMS-ve.",
         },
         add_message_action: "Shto Mesazh shabllon",
       },
@@ -8604,11 +8604,11 @@ export default {
   sms_template_mode: {
     text: {
       title: "artikull artikull",
-      desc: "Mesazh artikull artikull artikull Nga artikull artikull artikull automatik artikull artikull artikull Dërgo",
+      desc: "Mesazhi do të krijohet nga një tekst me parametrat e zëvendësimit automatik dhe dërgimit.",
     },
     template: {
       title: "artikull shabllon",
-      desc: "artikull artikull Nga artikull artikull Dërgo për të artikull artikull",
+      desc: "Një objekt do të krijohet nga parametrat dhe do t'i dërgohet ofruesit.",
     },
   },
 
@@ -8617,40 +8617,40 @@ export default {
     title: "Me porosi SMS artikull",
     reset_error: "artikull artikull",
     subtitle:
-      "artikull artikull artikull Me porosi SMS shërbim artikull artikull SMS artikull biznes Emri artikull E paracaktuar artikull artikull dërgon artikull SMS artikull artikull mesazh artikull artikull ",
+      "Vendosni një ofrues shërbimi të personalizuar SMS dhe personalizoni SMS-në tuaj të vërtetimit dhe emrin e biznesit. Ofruesi i paracaktuar thjesht dërgon SMS vërtetimi dhe mesazhe informuese në disa vende të listës së bardhë.",
     plain_text: "artikull artikull",
     structural_template: "artikull shabllon",
     errors_limit_msg:
-      "artikull artikull shërbim artikull 100 artikull, artikull artikull artikull çaktivizuar artikull! artikull artikull për të artikull artikull",
+      "Nëse shërbimi juaj tejkalon 100 gabime, ai do të çaktivizohet automatikisht! Ju mund të rivendosni gabimet për ta riaktivizuar atë.",
 
     enable_input: {
       false_description:
-        "OTP mesazh artikull artikull Selldone artikull Zgjidh artikull, artikull artikull 🛍️ Porosit Njoftim SMS artikull artikull Dërguar artikull artikull",
+        "Mesazhet OTP do të dërgohen përmes Selldone në vende të zgjedhura, ndërsa SMS-të e tjerë të njoftimit për porosinë do të dërgohen gjithashtu.",
       true_description:
-        "SMS mesazh artikull artikull Dorëzuar artikull artikull shërbim artikull",
+        "Mesazhet SMS do të dërgohen duke përdorur ofruesin tuaj të shërbimit.",
     },
     test_input: {
       true_title: "artikull artikull",
       true_description:
-        "artikull artikull Dërgo artikull artikull Mesazh për të artikull telefon artikull 📞 <b>{phone}</b>, artikull artikull Ngarkimi artikull, artikull artikull artikull fito artikull artikull ",
+        "Ne do të dërgojmë një mesazh testimi në numrin tuaj të telefonit 📞 <b>{phone}</b>, ai mund t'ju tarifojë, por mund të siguroheni që gjithçka të funksionojë mirë.",
     },
     sync_action: {
       title: "Veprimet",
       subtitle:
-        "artikull SMS Shërbimet artikull artikull Shërbimet si Fushatat, Marketingu, artikull artikull Kontaktet artikull artikull informacion për të artikull artikull artikull Më shumë. . artikull",
+        "Disa shërbime SMS ofrojnë shërbime shtesë si fushatat, marketingu dhe veçori të tjera. Mund të sinkronizoni kontaktet tuaja ose informacione shtesë për të përdorur më shpejt veçoritë e tyre.",
       action: "artikull Kontaktet",
     },
     tokens: {
       title: "artikull",
       subtitle:
-        "artikull artikull për të Lidhje artikull SMS shërbim artikull artikull artikull Dyqan",
+        "Vendosni parametrat e mëposhtëm për të lidhur ofruesin tuaj të shërbimit SMS me dyqanin tuaj.",
     },
   },
   sms_messages_options: {
     all: {
       title: "OPT + 🛍️ Porosit Njoftimet",
       description:
-        "artikull mesazh artikull 🛍️ Porosit Njoftim artikull artikull Dërguar",
+        "Mesazhet e vërtetimit dhe njoftimi i porosisë do të dërgohen.",
     },
     otp: {
       title: "OTP artikull",
@@ -8684,18 +8684,18 @@ export default {
       "Connect artikull artikull shërbim artikull për të Dërgo Email-et artikull artikull Me porosi Domeni",
     provider: "artikull",
     enable_input: {
-      false_description: "artikull Email-et artikull artikull Dërguar artikull artikull artikull Domeni",
-      true_description: "artikull Email-et artikull artikull Dërguar artikull artikull Me porosi artikull Domeni",
+      false_description: "Email-et tuaja do të dërgohen përmes domenit tuaj myselldone.",
+      true_description: "Email-et tuaja do të dërgohen përmes domenit tuaj të personalizuar të postës.",
     },
     config: {
       title: "artikull",
       subtitle:
-        "për të artikull artikull Me porosi artikull shërbim artikull artikull Dyqan, hyrje artikull shërbim API artikull artikull Cilësimet",
+        "Për të konfiguruar shërbimin tuaj të personalizuar të postës për dyqanin tuaj, futni çelësin e shërbimit API së bashku me cilësimet e tjera të nevojshme.",
     },
     sender: {
       title: "Nga",
       subtitle:
-        "artikull artikull E paracaktuar artikull Emri artikull email adresë, artikull artikull artikull I perdorur artikull artikull Email-et për të artikull Klientët",
+        "Ju mund të konfiguroni emrin e paracaktuar të dërguesit dhe adresën e emailit, të cilat do të përdoren për dërgimin e emaileve te klientët tuaj.",
     },
 
     inputs: {
@@ -8713,13 +8713,13 @@ export default {
 
     messages: {
       provider_error_limit:
-        "artikull artikull shërbim artikull 100 artikull, artikull artikull artikull çaktivizuar artikull! artikull artikull për të artikull artikull",
+        "Nëse shërbimi juaj tejkalon 100 gabime, ai do të çaktivizohet automatikisht! Ju mund të rivendosni gabimet për ta riaktivizuar atë.",
 
       encryption_ports_guide:
-        "email Ofruesit artikull Oferta SSL, TLS, artikull artikull Në dispozicion artikull artikull lidh artikull artikull , artikull artikull artikull modalitet artikull artikull <b>TLS</b> artikull artikull: <b>587</b> artikull <b>SSL</b> artikull artikull: <b>465</b>.",
+        "Ofruesit e postës elektronike mund të ofrojnë lidhje SSL, TLS ose të pakriptuara bazuar në portet e disponueshme. Nëse lidhja rezulton në një gabim, ndryshimi i mënyrës së kriptimit mund ta zgjidhë problemin. Standardi <b>TLS</b> përdor Portin : <b>587</b> dhe <b>SSL</b> përdor Portin: <b>465</b>.",
 
       enable_receive_test:
-        "artikull Ruaj artikull, artikull artikull Merrni artikull artikull <b>{email}</b>. Ruaj artikull artikull email artikull artikull I ri artikull",
+        "Pas ndryshimeve të ruajtjes, do të merrni një postë provë në <b>{email}</b>. Ruani ndryshimet përpara se të dërgoni një email provë me konfigurimin e ri.",
     },
   },
 
@@ -8737,7 +8737,7 @@ export default {
   shop_channel_instagram: {
     title: "Instagram Shitjet Kanali",
     subtitle:
-      "Krijo artikull artikull Kategoria artikull artikull Produktet, artikull artikull Imazhet artikull artikull, artikull artikull për të Instagram artikull artikull, artikull artikull , artikull artikull për të artikull artikull artikull Produktet",
+      "Krijoni një kategori të dedikuar për produktet tuaja, plotësoni me imazhe dhe video dhe ndajeni atë nëpër mediat tuaja sociale. Është i ngjashëm me Instagram dhe TikTok, por me kontroll të plotë, duke ju lejuar të shisni drejtpërdrejt produktet tuaja.",
   },
 
   /** @see ServiceBillingItem **/
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "Taksa duhet t'i shtohet çmimit përfundimtar.",
     invoice: {
       subtitle:
-        "artikull artikull artikull formular, artikull artikull Krijo artikull Pagesa Lidhje artikull artikull artikull Shuma artikull artikull fito artikull artikull Fatura artikull artikull Pagesa artikull artikull ",
+        "Duke përdorur këtë formular, ju mund të krijoni një lidhje pagese për një shumë të caktuar. Gjithashtu e bën të thjeshtë dhe të lehtë gjurmimin e faturës dhe konfirmimin e përfundimit të pagesës.",
     },
   },
 
@@ -8949,9 +8949,9 @@ export default {
     drag_sort_msg: "artikull artikull skedarë",
     paid_mode_msg: "Përdoruesit artikull Shkarko artikull artikull Produkt",
     free_mode_msg:
-      "Përdoruesit artikull Shkarko artikull artikull falas artikull skedarë artikull artikull artikull 50 MB.",
+      "Përdoruesit mund ta shkarkojnë atë falas. Skedarët e mostrës duhet të jenë nën 50 MB.",
     has_gust_shopping_msg:
-      "I regjistruar artikull artikull Përdoruesit artikull Shkarko skedarë artikull artikull Blerjet artikull aktivizuar artikull artikull Dyqane Cilësimet > Rrjedha",
+      "Përdoruesit e regjistruar dhe të ftuar mund të shkarkojnë skedarë pasi blerjet e vizitorëve janë të aktivizuara në cilësimet e dyqanit > flow.",
     only_registered_shopping_msg:
       "artikull I regjistruar Përdoruesit artikull Shkarko artikull skedarë",
     file_count_limit: "skedarë Numëroni Kufiri",
@@ -8963,7 +8963,7 @@ export default {
   product_location_restrictions: {
     title: "Në dispozicion Vendndodhjet",
     subtitle:
-      "artikull artikull Produkt artikull shërbim artikull artikull Në dispozicion artikull artikull Rajonet, artikull artikull Vendi artikull artikull kod, artikull artikull Vendndodhjet artikull artikull Vendndodhja kufizim artikull artikull Produkt artikull artikull artikull Produkt faqe, Klientët artikull artikull artikull për të Zgjidh artikull Vendndodhja artikull artikull Produkt artikull Në dispozicion artikull artikull artikull Zona, artikull artikull për të artikull artikull artikull Blerje",
+      "Nëse produkti ose shërbimi juaj disponohet vetëm në rajone specifike, të përcaktuara sipas shtetit dhe kodeve postare ose pine, mund t'i caktoni ato vendndodhje këtu. Këto kufizime vendndodhjeje zbatohen në nivel produkti. Në faqen e produktit, klientëve do t'u kërkohet të zgjedhin vendndodhjen e tyre. Nëse produkti është i disponueshëm në zonën e tyre të zgjedhur, ata do të jenë në gjendje të vazhdojnë me blerjen.",
 
     add_location_action: "Shto Vendi",
     no_restriction: "nr kufizim",
@@ -8978,24 +8978,24 @@ export default {
     has_restriction_input: {
       title: "artikull Vendndodhja kufizim",
       description:
-        "Klientët artikull artikull Blerje artikull Produkt artikull artikull artikull Vendi artikull artikull Kodi, artikull për të artikull artikull Vendndodhja kufizim",
+        "Klientët mund ta blejnë këtë produkt vetëm brenda vendit dhe kodit postar të specifikuar, për shkak të kufizimit të vendosur të vendndodhjes.",
     },
     zip_pin_code: "artikull / artikull kod",
     no_country_selected_error:
-      "artikull artikull Vendi artikull artikull artikull Listë artikull artikull kod artikull artikull, artikull Produkt artikull artikull artikull Në dispozicion",
-    tips: "artikull artikull artikull <b>+ Shto Vendi</b> artikull për të Filloni artikull artikull I ri Vendndodhja artikull artikull , artikull artikull Ruaj artikull artikull <b>⋮ artikull</b> artikull Zgjidh <b>Ruaj profili</b>.",
+      "Përfshini të paktën një shtet së bashku me një listë të kodeve postare/pin. Pa të, ky produkt nuk do të jetë i disponueshëm.",
+    tips: "Klikoni në butonin <b>+ Shto shtet</b> për të filluar krijimin e një grupi të ri vendndodhjesh. Pasi të keni mbaruar, mund ta ruani duke klikuar në menynë lart djathtas <b>⋮</b> dhe duke zgjedhur <b>Ruaj profilin</b>.",
     need_save_message:
-      "artikull Vendndodhja kufizim Cilësimet artikull artikull Produkt artikull artikull artikull për të artikull artikull artikull, artikull artikull 'Ruaj artikull artikull",
+      "Cilësimet e kufizimit të vendndodhjes për produktin janë ndryshuar. Për të ruajtur këto ndryshime, ju lutemi klikoni në butonin 'Ruaj' më poshtë.",
 
     add_dialog: {
       title: "Shto Vendi",
       message:
-        "artikull artikull Vendi artikull artikull 'Shto artikull artikull Vendi për të artikull artikull, artikull artikull për të artikull artikull, artikull kod, artikull artikull, artikull Rajon artikull për të artikull",
+        "Zgjidhni një shtet dhe klikoni \"Shto\". Kjo do të shtojë vendin në tabelë, duke ju lejuar të caktoni kode postare, kode pin, emra qytetesh ose rajone.",
     },
     save_profile_dialog: {
       title: "Shto Vendndodhjet profili",
       message:
-        "artikull hyrje artikull Emri për të Ruaj artikull artikull artikull Vendndodhjet artikull artikull Vendndodhja artikull artikull për të artikull Produktet, artikull artikull artikull Vendndodhja artikull artikull profili artikull artikull artikull Emri artikull artikull, artikull artikull I ri artikull",
+        "Fut një emër për të ruajtur këtë grup vendndodhjesh. Ky grup vendndodhjesh i ruajtur mund të aplikohet në produkte të tjera, duke lejuar ngarkimin e shpejtë të vendndodhjes me vetëm një klikim të vetëm. Nëse një profil me emrin e dhënë tashmë ekziston, ai do të përditësohet me këto vlera të reja.",
       title_input: {
         title: "profili Titulli",
         placeholder: "artikull Kategoria Emri, artikull dyqan Emri,. ..",
@@ -9004,7 +9004,7 @@ export default {
     load_profile_dialog: {
       title: "artikull Vendndodhjet profili",
       message:
-        "artikull artikull artikull Vendndodhjet artikull Zgjidh artikull artikull artikull Vendndodhja artikull artikull",
+        "Mund të ngarkoni vendndodhjet duke zgjedhur një grup vendndodhjeje të ruajtur më parë këtu.",
 
       select_input: {
         title: "Vendndodhja profili",
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "artikull 🛍️ Porosit Raportoni",
-      desc: "Merrni artikull artikull email artikull artikull Detajet artikull Porositë artikull artikull artikull",
+      desc: "Merr një email çdo ditë me detajet e porosive për atë ditë.",
     },
   },
 
@@ -9133,7 +9133,7 @@ export default {
     sample: {
       title: "artikull Dyqane",
       subtitle:
-        "artikull, artikull artikull Dyqane artikull artikull për të artikull artikull informacion Në dispozicion artikull artikull Dyqane artikull, artikull artikull Nga artikull artikull Porositë artikull artikull Personale informacion, artikull artikull Të dhënat artikull artikull artikull për të artikull Publike artikull artikull informacion artikull, artikull artikull artikull dyqan artikull artikull ",
+        "Këtu mund të zbuloni një përzgjedhje të dyqaneve të mostrës. Ju jepet leja për të shqyrtuar informacionin e disponueshëm në këto dyqane. Megjithatë, ju lutemi përmbahuni nga regjistrimi ose vendosja e porosive duke përdorur informacione reale personale, pasi këto të dhëna do të jenë të aksesueshme për publikun. Nëse i futni aksidentalisht informacionin tuaj këtu, dilni nga dyqani dhe na kontaktoni për ndihmë të mëtejshme.",
     },
 
     add_new_store: "Shto I ri dyqan",
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "Kategoritë e blogut",
     subtitle:
-      "artikull artikull Krijo artikull artikull Kategoritë artikull artikull blog artikull për të Menaxho artikull Më shumë. . artikull artikull artikull Kategoria Kufiri artikull artikull Faqja e internetit artikull, artikull artikull artikull i ri artikull artikull Kategoritë, artikull artikull artikull 100, për të artikull Menaxhim artikull artikull ",
+      "Ju mund të krijoni një numër të kufizuar kategorish për postimet tuaja në blog për t'i menaxhuar ato në mënyrë më efikase. Pasja e një kufiri kategorie promovon organizim më të mirë në faqen tuaj të internetit. Veçanërisht, edhe agjencitë kryesore të lajmeve mbajnë një numër të kufizuar kategorish, shpesh më pak se 100, për të përmirësuar menaxhimin dhe për të mbajtur një fokus më të gjerë.",
 
     add_action: "Shto kategori të re",
     add_dialog: {
@@ -9184,7 +9184,7 @@ export default {
   blog_timeline: {
     title: "artikull artikull artikull",
     subtitle:
-      "artikull artikull artikull Listë artikull artikull për të artikull blog artikull artikull artikull Produkt përshkrim për të artikull Publikuar artikull artikull Kohët",
+      "Këtu është lista e artikujve të planifikuar për botim të ardhshëm. Ju keni mundësinë të planifikoni postimet në blog dhe madje edhe përshkrimet e produkteve që do të publikohen në kohë specifike.",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "Asistent i porosive",
     subtitle:
-      "Eksporto artikull Shkarko artikull artikull artikull 🛍️ Porosit artikull - artikull artikull 100 Porositë artikull",
+      "Eksportoni dhe shkarkoni etiketat për përpunimin e porosive me shumicë - ideale për trajtimin e mbi 100 porosive në ditë.",
 
     timespan: {
       title: "Periudha kohore",
@@ -9266,7 +9266,7 @@ export default {
       title: "Metodat e hyrjes",
       subtitle: "Personalizojeni mënyrën se si përdoruesit hyjnë në dyqanin tuaj.",
 
-      tips: "<b>artikull</b> artikull artikull Përdoruesi artikull artikull artikull Dyqan, artikull artikull Selldone Përdoruesi artikull artikull, artikull artikull Përdoruesi artikull artikull Qasja për të artikull adresë artikull artikull të gjitha Dyqane artikull artikull Pamje artikull 🛍️ Porosit Historia, artikull artikull artikull Dyqan artikull artikull informacion artikull Marketingu artikull artikull për të artikull artikull për të artikull artikull, artikull Dërgo artikull email për të artikull Përdoruesi artikull artikull ",
+      tips: "<b>E rëndësishme.</b> Kur një përdorues regjistrohet në dyqanin tuaj, krijohet një përdorues përkatës i Shitur, nëse nuk ekziston tashmë. Ky përdorues do të ketë akses në librin e tij të adresave në të gjitha dyqanet dhe mund të shikojë historikun e porosive të tij, edhe nëse një dyqan është mbyllur. Ne nuk e përdorim këtë informacion për qëllime marketingu, por e kërkojmë atë për të parandaluar mashtrimin nga të dyja palët. Për të ruajtur transparencën, ne do t'i dërgojmë një email përdoruesit duke i informuar ata për regjistrimin e tyre.",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "Përfundimi formular",
       subtitle:
-        "artikull artikull Përfundimi formular artikull për të artikull artikull informacion artikull artikull Nga artikull Klientët",
+        "Personalizoni fushat e formularit të arkës për të mbledhur informacionin që ju nevojitet nga klientët tuaj.",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9485,7 +9485,7 @@ export default {
       name: "artikull",
       title: "artikull",
       description:
-        "artikull Produkt artikull artikull listë artikull artikull dyqan, artikull artikull Lidhje",
+        "Ky produkt nuk është i listuar në dyqan, por i arritshëm me lidhje direkte.",
     },
   },
 
@@ -9495,7 +9495,7 @@ export default {
   direct_feedback: {
     title: "Dërgo artikull artikull",
     message:
-      "Selldone artikull artikull artikull 3 biznes artikull për të artikull artikull informacion artikull artikull Përditëso artikull artikull artikull Koha artikull artikull",
+      "Identifikoni 3 nevojat kryesore të biznesit tuaj për të lulëzuar dhe për të përfituar në Selldone. Ky informacion do të ndahet drejtpërdrejt me themeluesit dhe drejtorët dhe do të konsiderohet me kujdes. Ju gjithashtu mund të përditësoni nevojat tuaja me kalimin e kohës pas dorëzimit.",
     expand_action: "shkrim artikull artikull",
     input_label: "artikull artikull",
     to: {
@@ -9503,8 +9503,8 @@ export default {
       team: "Dërgo për të artikull",
     },
     placeholder: {
-      ceo: "artikull nr artikull për të artikull artikull, artikull si për të artikull artikull artikull, artikull artikull për të artikull",
-      team: "artikull artikull për të artikull artikull për të artikull artikull për të artikull",
+      ceo: "Absolutisht nuk ka nevojë të tregohem mirë, më pëlqen të dëgjoj pyetjen tuaj të drejtpërdrejtë, të drejtë në pikë.\np.sh. Më duhet të kem...",
+      team: "Ju lutemi përpiquni të silleni mirë me ta.\np.sh. Më duhet të kem...",
     },
   },
 
@@ -9527,7 +9527,7 @@ export default {
   product_import_processing: {
     title: "artikull Importo Produktet",
     message:
-      "artikull artikull Importo Produktet artikull Imazhet, artikull artikull Koha për të artikull",
+      "Jemi në procesin e importimit të produkteve dhe imazheve, të cilat mund të kërkojnë pak kohë për t'u përfunduar.",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "artikull informacion artikull artikull klient, artikull artikull Produkt hyrje formular artikull",
+      "Informacioni i shfaqur këtu është dorëzuar nga klienti, në përputhje me strukturën e formularit të hyrjes së produktit.",
   },
 
   /**
@@ -9556,9 +9556,9 @@ export default {
       service_status: "shërbim Statusi",
       auto_confirm_enable_msg: "artikull artikull Porositë artikull aktivizuar",
       auto_confirm_disable_msg:
-        "automatik artikull artikull Porositë artikull artikull aktivizuar",
+        "Konfirmimi automatik i porosive nuk është i aktivizuar.",
       shipping_enable_msg:
-        "artikull Transporti artikull artikull informacion artikull artikull Përfundimi",
+        "Kostoja e transportit do të llogaritet bazuar në informacionin e dhënë në arkë.",
     },
     detail: {
       title: "Connect artikull",
@@ -9570,7 +9570,7 @@ export default {
       sync: {
         title: "artikull artikull",
         subtitle:
-          "artikull artikull Detajet artikull informacion artikull artikull fund",
+          "Detajet e sinkronizimit të brendshëm. Ky informacion ruhet pasi një epokë e procesit të sinkronizimit përfundon me sukses.",
         no_data: "nr artikull informacion!",
       },
     },
@@ -9578,7 +9578,7 @@ export default {
     products: {
       title: "Produktet",
       subtitle:
-        "Listë artikull Shto Produktet Nga {name}. fito artikull artikull Produkt artikull artikull artikull Emri artikull SKU. artikull Connect Shërbimet artikull I perdorur artikull artikull, artikull artikull Produktet artikull artikull <b>SKUartikull</b> artikull <b>artikull</b>, artikull Produktet artikull artikull artikull!",
+        "Lista e produkteve të shtuara nga {name}. Sigurohuni që produkti juaj të ketë një emër unik dhe SKU. Disa shërbime Connect përdoren për migrim, kështu që nëse keni produkte me <b>SKU</b> dhe <b>Names</b> dublikatë, ato produkte do të ndryshohen!",
       action: "artikull Produktet",
       syncing_message: "artikull artikull artikull",
     },
@@ -9586,7 +9586,7 @@ export default {
     logs: {
       title: "artikull",
       subtitle:
-        "artikull Listë artikull të gjitha artikull artikull 7 30 dite artikull artikull mbështetje artikull artikull artikull shërbim Ofruesit",
+        "Lista e të gjitha regjistrave në 7 ditët e fundit. Funksioni i regjistrimit mbështetet vetëm nga ofruesit e jashtëm të shërbimeve.",
     },
 
     edit: {
@@ -9595,18 +9595,18 @@ export default {
       service: {
         title: "shërbim",
         subtitle:
-          "Zgjidh artikull artikull, artikull artikull, artikull Tregu për të lidh",
+          "Zgjidhni platformën e synuar, furnizuesin dropshipping ose treg për t'u lidhur.",
       },
       test: {
         false_title: "artikull të gjitha",
         false_desc: "artikull të gjitha Në dispozicion Produktet, Kategoritë, Klientët",
         true_title: "artikull (artikull artikull artikull)",
         true_desc:
-          "artikull Maks 5 Produktet, Kategoritë, artikull Klientët artikull artikull për të artikull modalitet artikull artikull Connect > Vendosja artikull artikull Koha",
+          "Merrni maksimum 5 produkte, kategori dhe klientë. Mund ta ktheni në modalitetin e plotë te Lidhja > Cilësimet në çdo kohë.",
       },
       overwrite: {
         false_title: "artikull artikull Ndryshimi artikull artikull",
-        false_desc: "artikull artikull Produkt artikull Kategoria Detajet artikull artikull artikull",
+        false_desc: "Mbani detajet ekzistuese të produktit dhe kategorisë ashtu siç janë.",
         true_title: "artikull",
         true_desc:
           "Përditëso artikull Produkt, artikull, artikull Kategoria informacion",
@@ -9618,33 +9618,33 @@ export default {
       order: {
         title: "porosi Statusi",
         subtitle:
-          "artikull artikull Lidhur Shërbimet 🛍️ Porosit Menaxhim Cilësimet artikull artikull dyqan artikull Përfshin Vendosja artikull 🛍️ Porosit artikull, artikull automatik 🛍️ Porosit artikull (artikull mbështetje), artikull artikull Transporti artikull artikull",
+          "Konfiguro cilësimet e menaxhimit të porosive të shërbimit të lidhur për dyqanin tuaj. Kjo përfshin konfigurimin e pranimit të porosisë, aktivizimin e konfirmimit automatik të porosisë (nëse mbështetet) dhe konfigurimin e llogaritjeve të kostos së transportit.",
       },
       enable: {
         label: "Connect Statusi",
-        true_desc: "Inventari artikull Porositë artikull artikull artikull",
+        true_desc: "Inventari dhe porositë do të sinkronizohen.",
       },
       confirm: {
         label: "automatik artikull Porositë",
         false_desc: "artikull artikull artikull 🛍️ Porosit artikull",
         true_desc:
-          "Porositë artikull Jetoni Pagesa artikull artikull Porositë artikull artikull Pagesa artikull artikull ",
-        tips: "Porositë I paguar artikull Dhuratë Kartelë artikull COD artikull Pagesa Portat artikull artikull artikull modalitet artikull artikull E konfirmuar artikull",
+          "Porositë me pagesë të drejtpërdrejtë do të miratohen automatikisht. Porositë me pagesë të korrigjimit nuk do të miratohen automatikisht.",
+        tips: "Porositë e paguara me kartë dhuratë ose COD ose porta pagese në modalitetin e korrigjimit janë përjashtime dhe nuk do të konfirmohen automatikisht.",
       },
 
       shipping: {
         label: "Transporti",
-        tips: "artikull shërbim Ofertat Transporti artikull, artikull artikull artikull aktivizuar artikull çaktivizuar artikull artikull aktivizuar, artikull artikull APIartikull artikull 3artikull artikull Shërbimet artikull artikull artikull, artikull artikull 300artikull artikull çmimi artikull artikull Përfundimi faqe",
+        tips: "Ky shërbim ofron llogaritjen e transportit, i cili mund të aktivizohet ose çaktivizohet sipas preferencës tuaj. Nëse aktivizohet, do të kërkohen API-të e llogaritjes së kostos me shërbime të palëve të treta, gjë që mund të shkaktojë një vonesë prej mbi 300 ms për përditësimin e çmimit në faqen e blerjes.",
         false_title: "artikull",
         false_desc:
-          "artikull artikull Transporti artikull artikull, artikull Dyqan > Logjistike > artikull artikull të gjitha Produktet, artikull Importo artikull",
+          "Përdorni llogaritjen time të kostos së transportit, te Dyqani > Logjistika > Transporti për të gjitha produktet, përfshirë ato të importuara.",
         true_title: "artikull Transporti",
         true_desc:
-          "artikull artikull Transporti artikull artikull API ofertë artikull artikull shërbim",
+          "Përdorni API-në e llogaritjes së tarifës së transportit të ofruar nga ky shërbim.",
       },
 
       remove: {
-        verify: "artikull artikull për të Hiq artikull artikull",
+        verify: "Unë verifikoj për të hequr këtë lidhje.",
         action: "Hiq lidh",
       },
     },
@@ -9655,10 +9655,10 @@ export default {
     list: {
       title: "Connect OS",
       subtitle:
-        "Connect artikull biznes artikull për të artikull Shërbimet artikull Menaxho të gjitha Kanalet artikull artikull ",
+        "Lidhni sistemin e biznesit tuaj me shërbime të jashtme dhe menaxhoni të gjitha kanalet në të njëjtin vend.",
       action: "Connect I ri Shërbimet",
       empty_message:
-        "artikull Aplikacionet artikull artikull ! Connect artikull artikull 🛍️ Porosit Menaxhim",
+        "Harro aplikacionet dhe shtojcat për dropshipping! Connect është e ardhmja e menaxhimit të porosive ndër-platformë.",
       auto_confirm: "automatik artikull",
       shipping: "Transporti",
       syncing_now: "artikull artikull!",
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "artikull",
-      desc: "artikull Produktet, Kategoritë, artikull Klientët artikull artikull Përdoruesi Fshi artikull shërbim, artikull Marrë Produktet, Kategoritë, artikull Klientët artikull artikull artikull Fshirë",
+      desc: "Merrni produkte, kategori dhe klientë. Pasi përdoruesi të fshijë këtë shërbim, produktet, kategoritë dhe klientët e marrë nuk do të fshihen.",
     },
     Dropshipping: {
       title: "artikull",
-      desc: "artikull Produktet, Kategoritë, artikull Porositë artikull artikull Hiq Produktet artikull artikull Përdoruesi Hiq artikull shërbim",
+      desc: "Merrni produkte, kategori dhe porosi. Sistemi heq produktet pasi përdoruesi heq shërbimin.",
     },
     Marketplace: {
       title: "Tregu",
-      desc: "artikull artikull Inventari artikull Merrni Porositë (Produktet artikull artikull i lidhur artikull SKU).",
+      desc: "Thjesht sinkronizoni inventarin dhe merrni porosi (Produktet do të lidhen nga SKU).",
     },
     Accounting: {
       title: "Kontabiliteti",
@@ -9699,7 +9699,7 @@ export default {
     title: "Faqet e uljes",
     add_new_action: "Shto I ri faqe",
     subtitle:
-      "Krijo artikull, artikull Me porosi Faqet artikull artikull Markë artikull artikull artikull AI-artikull artikull artikull, artikull artikull Të dhënat",
+      "Krijoni faqe të personalizuara të dallueshme dhe të përgjegjshme për markën tuaj duke përdorur një redaktues të gjithanshëm në linjë të mbështetur nga AI dhe gjeneroni automatikisht përmbajtje dinamike duke ushqyer të dhëna.",
     empty_message: "Dizajn Me porosi Faqet artikull artikull & artikull",
   },
 
@@ -9723,7 +9723,7 @@ export default {
    */
   community_comments: {
     title: "Komentet",
-    subtitle: "artikull artikull artikull Listë artikull artikull artikull Komentet",
+    subtitle: "Kjo është një listë e komenteve të komunitetit.",
     empty_msg: "nr Komentet artikull artikull ",
   },
 
@@ -9732,7 +9732,7 @@ export default {
    */
   community_categories: {
     title: "Kategoritë",
-    subtitle: "artikull artikull artikull Listë artikull artikull artikull Kategoritë",
+    subtitle: "Kjo është një listë e kategorive të komunitetit.",
     new_category_action: "Kategoria e re",
     empty_msg: "nr Kategoritë artikull artikull ",
     filter: {
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "artikull",
-    subtitle: "artikull artikull artikull Listë artikull artikull ",
+    subtitle: "Kjo është një listë e postimeve të komunitetit.",
     filter: {
       deleted: {
         title: "Fshirë",
@@ -9762,11 +9762,11 @@ export default {
     menu: {
       open_post: {
         title: "artikull artikull",
-        subtitle: "Pamje artikull Redakto artikull artikull artikull Komuniteti",
+        subtitle: "Shikoni dhe modifikoni postimin në komunitet.",
       },
       spam: {
         title: "Raportoni & Hiq artikull",
-        subtitle: "artikull Hiq artikull artikull artikull Përdoruesi",
+        subtitle: "Hiqni në masë postimet dhe ndaloni përdoruesin.",
       },
       delete: {
         title: "Fshije artikull",
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "Etiketë artikull",
       subtitle:
-        "Google artikull artikull ROI artikull artikull artikull, artikull, artikull artikull Aplikacionet Menaxho Faqja e internetit Etiketat artikull artikull Google Etiketë artikull falas, E thjeshtë, artikull artikull artikull—nr Kodi Redakto artikull",
+        "Google Analytics mundëson matjen e ROI të reklamës gjatë gjurmimit të sajteve dhe aplikacioneve të Flash, video dhe mediave sociale. Menaxhoni pa mundim etiketat e faqeve të internetit me zgjidhjet falas, të thjeshta dhe të besueshme të Menaxherit të etiketave të Google—nuk kërkohet modifikim i kodit.",
       tag_id: {
         label: "Google Etiketë artikull ID",
       },
@@ -9791,12 +9791,12 @@ export default {
       title: "Google artikull",
       subtitle:
         "Të dhënat artikull artikull informacion artikull artikull Lidhje për të artikull Shto të gjitha Produktet artikull Kategoritë për të Google artikull",
-      tips: "artikull artikull për të artikull artikull artikull Menaxho Google Reklamat",
+      tips: "Ju mund ta përdorni këtë mjet për të menaxhuar pa mundim dhe automatikisht reklamat e Google.",
       link_message: "Google Produktet artikull URL",
     },
     console: {
       title: "kërko artikull",
-      subtitle: `Shto artikull artikull Etiketë për të artikull artikull artikull Google kërko artikull artikull`,
+      subtitle: "Shtoni një meta etiketë në faqen tuaj kryesore për verifikimin e Google Search Console.",
       code: {
         label: "artikull artikull Etiketë",
         placeholder: "Nga artikull, artikull artikull",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & artikull",
       subtitle:
-        "artikull artikull SEO artikull Të dhënat Nga Google artikull artikull artikull për të artikull artikull ",
+        "Ne marrim të dhënat më të sakta të auditimit të SEO nga Google dhe ju prezantojmë në një mënyrë të përshtatshme. Thjesht ndiqni hapat e dhënë.",
     },
     serp_content: {
       title: "Connect për të Google kërko artikull",
       subtitle:
-        "Selldone Connect artikull Dyqan për të artikull kërko artikull artikull Filloni artikull artikull, artikull, artikull artikull falas SEO Mjetet artikull artikull",
+        "Lidhni dyqanin tuaj me tastierën e kërkimit dhe filloni të eksploroni fjalë kyçe, renditje dhe mjete të tjera SEO falas në Selldone.",
       tips: {
         title:
-          "artikull për të lidhje Selldone artikull Google kërko artikull, artikull artikull artikull:",
-        add_in_selldone: "Shto, artikull, artikull artikull artikull fillore artikull Me porosi Domeni",
-        add_in_google: `Shto artikull artikull <b>{domain}</b> artikull artikull<a href="https://search.google.com/search-console" target="_blank"> <b>Google kërko artikull</b></a>.`,
+          "Përpara se të lidhni Selldone me Google Search Console, sigurohuni sa më poshtë:",
+        add_in_selldone: "Shtoni, verifikoni dhe caktoni si parësor Domenin tuaj të personalizuar.",
+        add_in_google: "Shto dhe verifiko <b>{domain}</b> në<a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a>.",
       },
       action_custom_domain: "Me porosi Domeni",
       action_connect_now: "Lidhu tani",
@@ -9835,7 +9835,7 @@ export default {
     total_cashback: "artikull rimbursim parash",
     delete_alert: {
       title: "Fshije rimbursim parash artikull",
-      message: "artikull artikull artikull për të Fshije artikull rimbursim parash artikull?",
+      message: "Jeni i sigurt që do ta fshini këtë program të kthimit të parave?",
       action: "Po, Fshije Tani",
     },
     notifications: {
@@ -9889,14 +9889,14 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "artikull artikull artikull Përqindje, Kufiri artikull artikull Statusi artikull",
+      subtitle: "Vendosni përqindjen e kthimit, kufirin dhe statusin e tij këtu.",
     },
     percent_input: {
       title: "rimbursim parash artikull",
       message: "artikull artikull rimbursim parash artikull Nga 1% për të 20%.",
     },
     currency_input: {
-      message: "artikull rimbursim parash artikull artikull artikull Në dispozicion artikull artikull artikull Monedha",
+      message: "Programi i kthimit të parave do të jetë i disponueshëm vetëm për këtë monedhë.",
     },
     limit_input: {
       title: "Kufiri",
@@ -9905,7 +9905,7 @@ export default {
     },
     duration: {
       title: "Kohëzgjatja Kufiri",
-      subtitle: "artikull Kohëzgjatja artikull rimbursim parash artikull artikull opsional",
+      subtitle: "Përcaktoni kohëzgjatjen e programit të kthimit të parave. Është fakultative.",
     },
     start_input: {
       title: "Data e fillimit",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "artikull Titulli artikull artikull Përshkrim artikull artikull rimbursim parash artikull artikull informacion artikull artikull artikull për të Klientët",
+        "Vendosni titullin dhe përshkrimin e shkurtër për programin e kthimit të parave. Këto informacione do t'u shfaqen klientëve.",
     },
     title_input: {
       title: "Titulli",
@@ -9933,9 +9933,9 @@ export default {
       title: "Blerja minimale",
     },
     only_first_buy_input: {
-      false_desc: "artikull rimbursim parash artikull artikull artikull Në dispozicion artikull të gjitha Porositë",
+      false_desc: "Programi i kthimit të parave do të jetë i disponueshëm për të gjitha porositë.",
       true_desc:
-        "artikull rimbursim parash artikull artikull artikull Në dispozicion artikull artikull 🛍️ Porosit",
+        "Programi i kthimit të parave do të jetë i disponueshëm vetëm për porosinë e parë.",
       true_title: "artikull artikull 🛍️ Porosit",
       false_title: "të gjitha Porositë",
     },
@@ -9943,30 +9943,30 @@ export default {
       false_title: "të gjitha Klientët",
       true_title: "artikull Klientët",
       true_msg:
-        "artikull rimbursim parash artikull artikull artikull Në dispozicion artikull artikull artikull Klientët artikull artikull artikull",
+        "Programi i kthimit të parave do të jetë i disponueshëm vetëm për klientët që janë të kualifikuar.",
     },
     club: {
       subtitle:
-        "artikull artikull Klubi artikull artikull rimbursim parash artikull artikull rimbursim parash artikull artikull artikull Në dispozicion artikull artikull artikull Klientët artikull artikull Klubi",
+        "Cakto klubin për programin e kthimit të parave. Programi i kthimit të parave do të jetë i disponueshëm vetëm për klientët që janë në këtë klub.",
     },
     cluster: {
       subtitle:
-        "artikull artikull rimbursim parash artikull, artikull artikull Menaxho artikull Më shumë. . artikull",
+        "Duke lidhur një grup me programin e kthimit të parave, mund ta menaxhoni atë në mënyrë më efektive.",
     },
     notifications: {
       add: "rimbursim parash artikull Shto artikull",
       edit: "rimbursim parash artikull artikull artikull",
     },
     enable_input: {
-      true_msg: "artikull rimbursim parash artikull artikull Aktiv artikull Klientët artikull artikull artikull",
+      true_msg: "Programi i kthimit të parave është aktiv dhe klientët mund ta përdorin atë.",
       false_msg:
-        "artikull rimbursim parash artikull artikull joaktive artikull Klientët artikull artikull ",
+        "Programi i kthimit të parave është joaktiv dhe klientët nuk mund ta përdorin atë.",
     },
     boosted_input: {
       false_title: "Normale",
       true_title: "artikull (2artikull rimbursim parash)",
       true_msg:
-        "artikull rimbursim parash artikull artikull modalitet artikull Klientët artikull Merrni 2artikull rimbursim parash",
+        "Programi i kthimit të parave është në modalitetin e rritjes dhe klientët do të marrin 2 herë kthim parash.",
       false_msg:
         "artikull rimbursim parash artikull artikull artikull Normale modalitet artikull Klientët artikull Merrni Normale rimbursim parash",
     },
@@ -9983,7 +9983,7 @@ export default {
       },
       delivery: {
         title: "artikull artikull Dorëzimi",
-        subtitle: "artikull artikull Dorëzimi artikull Pagesa artikull",
+        subtitle: "Mund të konfirmoni manualisht dorëzimin për ofruesin e pagesës.",
       },
     },
   },
@@ -9994,7 +9994,7 @@ export default {
   payment_refund_dialog: {
     title: "rimbursim Pagesa",
     message:
-      "artikull Siguria artikull, artikull Porositë I paguar artikull artikull artikull 7 30 dite artikull artikull artikull rimbursim",
+      "Për arsye sigurie, vetëm porositë e paguara brenda 7 ditëve të fundit kanë të drejtë për rimbursim.",
     payment_amount: "Shuma e pagesës",
     total_refund_amount: "artikull rimbursim Shuma",
     can_refund: "artikull rimbursim",
@@ -10002,7 +10002,7 @@ export default {
     verify: {
       title: "artikull rimbursim",
       description:
-        "artikull artikull rimbursim Shuma artikull artikull për të artikull",
+        "Konfirmoj që shuma e rimbursimit është e saktë dhe dua të vazhdoj.",
     },
     action: "rimbursim artikull",
   },
@@ -10013,11 +10013,11 @@ export default {
   payment_delivery_dialog: {
     title: "klient Dorëzimi artikull",
     message:
-      "artikull Pagesa Shërbimet artikull artikull 🛍️ Porosit artikull artikull Dorëzuar për të artikull klient artikull artikull Dërgo artikull artikull 🛍️ Porosit artikull artikull artikull Merrni artikull Klientët Dorëzimi artikull artikull, artikull artikull artikull për të artikull artikull , artikull artikull ",
+      "Disa shërbime pagese kërkojnë konfirmim që porosia i është dorëzuar klientit. Zakonisht ne e dërgojmë këtë konfirmim gjatë hapit përfundimtar të përmbushjes së porosisë kur marrim konfirmimin e dorëzimit të klientit. Megjithatë, nëse duhet ta kryeni këtë veprim me dorë, mund ta bëni këtu.",
     verify: {
       title: "artikull Dorëzimi",
       description:
-        "artikull artikull 🛍️ Porosit artikull artikull Dorëzuar për të artikull klient",
+        "Konfirmoj që porosia i është dorëzuar klientit.",
     },
     action: "artikull artikull",
   },
@@ -10029,14 +10029,14 @@ export default {
     title: "Shitja e kryqëzuar",
     add_new_actions: "Shto produkt të ri",
     subtitle:
-      "artikull artikull artikull, artikull artikull Shto artikull Menaxho artikull Produktet artikull artikull Produkt faqe artikull Produktet artikull artikull Klientët për të Blerje artikull artikull kryesor artikull artikull zbritje për të artikull artikull Blerjet artikull artikull maksimum artikull 3 Artikuj artikull artikull klient për të artikull",
+      "Në këtë seksion, mund të shtoni dhe menaxhoni produkte të ndërsjella për këtë faqe produkti. Këto produkte do të shfaqen si sugjerime për klientët për të blerë së bashku me artikullin kryesor. Ju gjithashtu mund të vendosni zbritje për të inkurajuar dhe nxitur blerje shtesë. Sistemi do të shfaqë maksimumi 3 artikuj që klienti duhet t'i marrë parasysh.",
     dialog: {
       edit_title: "Redakto artikull artikull Produkt",
       add_title: "Shto I ri artikull artikull Produktet",
       target: {
         title: "artikull Produkt",
         subtitle:
-          "artikull artikull Produktet artikull si për të artikull artikull Produkt",
+          "Zgjidhni produktet që dëshironi të promovoni si opsione të shitjes së kryqëzuar krahas këtij produkti.",
         select_products: "Zgjidh Produkt(artikull)",
       },
       list: {
@@ -10047,18 +10047,18 @@ export default {
       discount: {
         title: "Zbritje & Mesazh",
         subtitle:
-          "artikull artikull për të artikull artikull Mesazh artikull Oferta artikull Zbritje për të artikull Klientët për të Blej artikull Zgjidh artikull Artikuj artikull Stimujt artikull ndihmë artikull Shitjet artikull artikull ",
+          "Ju keni mundësinë të përfshini një mesazh dhe të ofroni një zbritje për të motivuar klientët të blejnë artikujt shtesë të zgjedhur. Këto stimuj mund të ndihmojnë në nxitjen e shitjeve dhe përmirësimin e përvojës së përgjithshme të blerjeve.",
         amount_input: {
           message:
-            "artikull Zbritje artikull artikull për të artikull Produkt çmimi artikull artikull artikull Llogaria të gjitha artikull zbritje",
+            "Përqindja e zbritjes do të aplikohet në çmimin e produktit pasi të merren parasysh të gjitha zbritjet ekzistuese.",
         },
         mismatch_type_warning:
-          "zbritje artikull artikull artikull për të artikull Llojet artikull artikull kryesor Produkt Llojet, artikull artikull Artikuj artikull artikull ",
+          "Zbritjet nuk mund të aplikohen për lloje të tjera përveç llojeve kryesore të produkteve, pasi artikujt burim dhe objektiv nuk do të vendosen në të njëjtën shportë.",
         not_support_subscription_type_warning:
-          "Vendosja zbritje artikull artikull Abonimi Produktet artikull artikull artikull, artikull artikull Çmimet Planet artikull artikull ",
+          "Vendosja e zbritjeve për produktet e abonimit me shitje të kryqëzuara nuk është e mundur, pasi planet e çmimeve nuk mund të rregullohen në mënyrë dinamike.",
         message_input: {
           message:
-            "artikull artikull Titulli për të artikull Klientët artikull",
+            "Krijoni një titull tërheqës dhe tërheqës për të tërhequr vëmendjen e klientëve.",
           placeholder:
             "artikull & Ruaj: artikull artikull !",
         },
@@ -10066,7 +10066,7 @@ export default {
       action: {
         title: "artikull",
         subtitle:
-          "artikull artikull artikull Produktet artikull artikull Produkt artikull artikull hyrje artikull Me porosi informacion, artikull artikull formular, artikull artikull artikull \"Shto për të artikull\" artikull artikull artikull, artikull artikull për të artikull",
+          "Ndrysho veprimin e produktit të shitjes së kryqëzuar këtu. Nëse produkti juaj kërkon futjen e informacionit të personalizuar, si p.sh. përmes një formulari vlerësimi, mos zgjidhni \"Shto në shportë\" si veprim, pasi kjo mund të çojë në gabime.",
       },
     },
   },
@@ -10078,17 +10078,17 @@ export default {
     variants: {
       title: "artikull artikull",
       subtitle:
-        "Zgjidh artikull për të artikull artikull , artikull artikull Variantet për të Krijo artikull",
+        "Zgjidhni deri në dy opsione variante. Pas përzgjedhjes, mund të zgjidhni cilat variante specifike të krijohen automatikisht.",
     },
     values: {
       title: "artikull artikull",
       subtitle: "artikull artikull ",
       prevent_duplicates_tips:
-        "<b>shënim:</b> artikull artikull Variantet për të artikull artikull",
+        "<b>Shënim:</b> Ne kontrollojmë automatikisht për variantet ekzistuese për të parandaluar dublikatat.",
     },
     inventory: {
       title: "artikull Inventari",
-      subtitle: "artikull artikull fillim Inventari Numëroni artikull artikull I ri Variantet",
+      subtitle: "Vendosni numrin fillestar të inventarit për variantet e reja.",
     },
     add_variants_action: "Krijo Variantet",
   },
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "Shto në Shportë",
       description:
-        "artikull artikull Shto për të artikull artikull artikull shënim artikull artikull Abonimi Produktet",
+        "Shfaq direkt butonin Shto në Shportë. Vini re se kjo nuk është e zbatueshme për produktet e abonimit.",
     },
     ViewProduct: {
       title: "Shiko Produktin",
       description:
-        "artikull artikull Pamje Më shumë. . artikull artikull artikull Klientët për të artikull Produkt faqe artikull artikull artikull I ri artikull",
+        "Shfaq një buton Shiko më shumë që i drejton klientët te faqja e produktit duke hapur një dritare të re.",
     },
   },
 
@@ -10115,15 +10115,15 @@ export default {
 
   product_flow: {
     title: "Blerje Rrjedha",
-    subtitle: "artikull artikull artikull Blerje Rrjedha artikull artikull Produkt",
+    subtitle: "Ky është fluksi i blerjes dhe kontrolli shëndetësor i produktit tuaj.",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "artikull Produkt artikull artikull Shto artikull <b>{name}</b>.",
-      enable_msg: "artikull artikull për të artikull shërbim artikull aktivizuar",
-      disable_msg: "artikull artikull për të artikull shërbim artikull çaktivizuar",
+      subtitle: "Ky produkt është shtuar nëpërmjet <b>{name}</b>.",
+      enable_msg: "Kjo urë për shërbimin e jashtëm është aktivizuar.",
+      disable_msg: "Kjo urë për shërbimin e jashtëm është çaktivizuar.",
       has_shipping_msg:
         "{name} Mbështetje Transporti artikull artikull për të Aktivizo automatik Transporti artikull artikull {name} artikull artikull Përfundimi faqe",
     },
@@ -10135,7 +10135,7 @@ export default {
       available_in_stock_msg: "Produkt artikull Në dispozicion artikull artikull",
       out_of_stock_msg: "Produkt artikull artikull ",
       file_count_msg:
-        "{files_count} skedarë artikull artikull {files_size} Ngarko artikull artikull Produkt",
+        "{files_count} skedarë me gjithsej {files_size} të ngarkuar për këtë produkt.",
       no_file_uploaded_msg: "nr skedar artikull artikull Ngarko artikull",
       no_image_uploaded_msg:
         "Ngarko artikull Produkt Imazhi për të fito artikull Më shumë. . artikull",
@@ -10146,7 +10146,7 @@ export default {
     vendor_errors: {
       title: "artikull shitës",
       subtitle:
-        "artikull Produkt artikull artikull nr artikull shitës artikull artikull Produkt për të artikull artikull Tregu, artikull artikull shitës",
+        "Ky produkt aktualisht nuk ka shitës të lidhur. Që një produkt të mund të blihet në treg, ai duhet të ketë të paktën një shitës.",
       manage_vendors: "Menaxho shitës",
     },
 
@@ -10156,7 +10156,7 @@ export default {
     file_errors: {
       title: "artikull skedarë",
       subtitle:
-        "artikull, nr skedarë artikull artikull Ngarko artikull artikull Produkt artikull Ngarko skedarë për të artikull",
+        "Aktualisht, asnjë skedar nuk është ngarkuar për këtë produkt. Ju lutemi ngarkoni skedarë për të vazhduar.",
       manage_files: "Menaxho skedarë",
     },
 
@@ -10165,7 +10165,7 @@ export default {
      */
     pricing: {
       title: "Çmimet",
-      no_product_price_msg: "artikull E paracaktuar Produkt çmimi artikull artikull artikull!",
+      no_product_price_msg: "Çmimi i paracaktuar i produktit nuk është vendosur ende!",
       listing_pricing_msg: "Listim Çmimet:",
       has_valuation_msg: "Produkt artikull artikull",
       subscription_pricing_msg:
@@ -10193,11 +10193,11 @@ export default {
         no_restriction: "artikull artikull",
       },
       available_countries_msg:
-        "artikull artikull artikull për të {count} artikull artikull {countries}.",
+        "Blerjet globalisht janë të kufizuara në {count} vende. Këto vende janë {countries}.",
       disable_for_all_countries_msg:
-        "artikull artikull çaktivizuar artikull të gjitha artikull artikull artikull Dyqan > Vendndodhjet Vendosja",
+        "Blerja është e çaktivizuar për të gjitha vendet në cilësimin e dyqanit tuaj > vendndodhjet.",
       location_is_not_in_permitted_shop_locations_msg:
-        "artikull artikull {country} artikull artikull artikull Vendndodhja artikull artikull artikull dyqan artikull artikull Vendi artikull artikull artikull dyqan artikull Cilësimet",
+        "Ju keni vendosur {country} si një vendndodhje shitjeje, por në nivel dyqani nuk e lejoni këtë shtet. Ju lutemi kontrolloni cilësimet e nivelit të dyqanit tuaj.",
       shop_locations: "Dyqan Vendndodhjet",
       product_locations: "Produkt Vendndodhjet",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "Në dispozicion Vendndodhjet artikull",
       no_location_error_subtitle:
-        "artikull artikull Aktivizuar artikull Vendndodhja kufizim artikull artikull artikull Produkt, artikull artikull, nr Vendi artikull listë artikull artikull kufizim artikull artikull artikull, artikull Produkt artikull i padisponueshëm artikull Blerje artikull artikull",
+        "Ju keni aktivizuar një kufizim vendndodhjeje për blerjen e produktit, por aktualisht, asnjë shtet nuk është i listuar nën këtë kufizim. Si rezultat, ky produkt nuk është i disponueshëm për t'u blerë nga askush.",
       invalid_location_error_subtitle:
-        "artikull Vendndodhja kufizim Cilësimet artikull artikull Produkt artikull artikull artikull: artikull Vendndodhjet listë artikull artikull ZIP kod artikull, Përdoruesit artikull artikull për të Zgjidh artikull ZIP Kodi, artikull artikull Produkt i padisponueshëm artikull Blerje",
+        "Cilësimet e kufizimit të vendndodhjes për produktin tuaj përmbajnë një gabim: disa vendndodhje të listuara nuk kanë ndonjë kod ZIP të lidhur. Rrjedhimisht, përdoruesit nuk janë në gjendje të zgjedhin një kod ZIP, duke e bërë produktin të padisponueshëm për blerje.",
 
       manage_locations: "Menaxho Vendndodhjet",
     },
@@ -10224,7 +10224,7 @@ export default {
       tax_profiles: "Taksa Profilet",
       description: {
         subscription_tax_msg:
-          "artikull artikull artikull Taksa artikull artikull artikull Pagesa artikull artikull",
+          "Mund të aplikojmë tatim vetëm në hapin e krijimit të pagesës.",
         dedicated: "artikull",
         is_disabled: "artikull Taksa profili artikull çaktivizuar!",
         tax_is_based_on_location: "Taksa: Vendndodhja artikull",
@@ -10238,9 +10238,9 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "artikull Produkt artikull për të <b>{vendor}</b>.",
-      has_vendors_msg: "artikull artikull {count} shitës artikull artikull Produkt",
+      has_vendors_msg: "Ka {count} shitës për këtë produkt.",
       no_vendor_msg:
-        "artikull artikull shitës për të artikull Produkt, artikull Klientët artikull artikull për të Blerje artikull",
+        "Ju nuk keni caktuar një shitës për këtë produkt, kështu që klientët nuk mund ta blejnë atë.",
       add_vendors: "Shto shitës",
     },
   },
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "Produkt faqe shabllon",
     subtitle:
-      "artikull artikull faqe artikull artikull Produkt faqe artikull artikull për të Krijo Faqet artikull artikull transparent sfond artikull 1 për të 3 artikull artikull për të artikull Produkt Kategoria artikull, artikull artikull faqe për të artikull Produktet artikull artikull ",
+      "Ju mund të futni një faqe brenda faqes së produktit tuaj për një prezantim të përmirësuar. Qasja optimale është krijimi i faqeve me një sfond transparent dhe 1 deri në 3 seksione të përshtatura për secilën kategori produkti. Më pas, cakto një faqe për produkte të shumta për një shfaqje të qëndrueshme dhe tërheqëse.",
     edit_page: "Redakto faqe",
     list_of_pages: "Listë artikull Faqet",
   },
@@ -10260,7 +10260,7 @@ export default {
    */
   product_embed: {
     subtitle:
-      "artikull artikull Produkt artikull artikull Listë artikull Produktet artikull artikull blog artikull artikull artikull Faqet artikull artikull kod artikull artikull , artikull artikull për të artikull artikull Në dispozicion artikull artikull Ofertat artikull artikull, artikull artikull Planet për të artikull Më shumë. . artikull artikull ",
+      "Ju mund të futni lehtësisht një produkt ose një listë produktesh në blogun tuaj ose në faqe të tjera ueb thjesht duke kopjuar dhe ngjitur kodet që ne ofrojmë. Edhe pse kjo veçori është ende në fazat e hershme, ne po punojmë në mënyrë aktive për të zgjeruar funksionalitetin e saj përtej asaj që është aktualisht e disponueshme diku tjetër. Ndërsa aktualisht ofron aftësi të kufizuara, ne kemi plane për të prezantuar më shumë shabllone dhe opsione personalizimi në të ardhmen.",
     card: {
       title: "artikull",
       description:
@@ -10269,7 +10269,7 @@ export default {
     iframe: {
       title: "artikull",
       description:
-        "artikull artikull artikull Kodi për të artikull artikull Produkt Detajet artikull artikull ",
+        "Gjeneroni kodin iframe për të shfaqur detaje gjithëpërfshirëse të produktit në një dritare të integruar.",
     },
   },
 
@@ -10288,11 +10288,11 @@ export default {
     },
     access: {
       customization_tips:
-        "<b>artikull:</b> artikull artikull për të artikull artikull E paracaktuar artikull Qasja artikull artikull Qasja artikull artikull për të artikull kryesor Dyqan Paneli",
+        "<b>Personalizimi:</b> Klikoni në çdo artikull për të personalizuar aksesin e parazgjedhur të leximit/shkrimit. Çdo rresht përfaqëson një nivel aksesi që korrespondon me pultin kryesor të dyqanit.",
       simplify_tips:
-        "<b>artikull!</b> artikull artikull artikull Qasja artikull Nga artikull 300 për të artikull 10 artikull Më shumë. . artikull artikull artikull Qasja artikull artikull artikull Publikuar artikull artikull artikull",
+        "<b>E rëndësishme!</b> Ne thjeshtojmë kontrollin e aksesit nga mbi 300 në nën 10 nivele. Nivelet më të detajuara dhe të përditësuara të aksesit do të publikohen në dokumentacion.",
       multi_permission_tips:
-        "<b>Me porosi Limitet?</b> artikull artikull Shto Më shumë. . Qasja për të artikull Përdoruesi, artikull artikull Shto artikull artikull Qasja, Krijo artikull Qasja artikull artikull ",
+        "<b>Kufijtë e personalizuar?</b> Mund t'i shtoni më shumë akses një përdoruesi, kështu që pasi të keni shtuar aksesin e parë, krijoni akses shtesë me të njëjtat hapa.",
       view_data: "Pamje Të dhënat",
       apply_changes: "Aplikoni Ndryshimet",
     },
@@ -10329,18 +10329,18 @@ export default {
   category_engine_editor: {
     title: "artikull Produktet Listim",
     subtitle:
-      "artikull Produktet Nga artikull Kategoritë artikull artikull për të artikull artikull Kategoritë për të artikull Produktet artikull Filtro Produktet artikull Etiketat",
+      "Shfaq produkte nga kategori të ndryshme. Ju keni mundësinë të zgjidhni kategori të shumta për të shfaqur produktet ose për të filtruar produktet sipas etiketave.",
     aut_add_sub_categories_tips:
-      "artikull artikull artikull Shto të gjitha artikull për të artikull artikull Kategoria artikull artikull ",
+      "Ju mund të shtoni automatikisht të gjitha nënkategoritë në kategorinë aktuale duke klikuar butonin më poshtë.",
     inputs: {
       categories: {
         label: "Kategoritë",
-        messages: "Produktet artikull artikull Kategoritë artikull artikull artikull",
+        messages: "Produktet në këto kategori do të shfaqen.",
         placeholder: "Zgjidh Kategoritë",
       },
       tags: {
         label: "Produkt Etiketat",
-        messages: "Produktet artikull artikull Etiketat artikull artikull Shfaq",
+        messages: "Produktet me këto etiketa do të shfaqen.",
         placeholder: "artikull Etiketat artikull artikull p.sh. I ri artikull",
       },
     },
@@ -10359,12 +10359,12 @@ export default {
       normal:
         "<b>artikull kërko: </b>kërko artikull Titulli, MPN, SKU, Markë, artikull Etiketat",
       product:
-        "<b>artikull Produkt ID: </b>artikull artikull ID për të artikull artikull artikull Produkt, artikull, <b class=\"text-green\">artikull</b><i class=\"text-yellow\">360</i>.",
+        "<b>ID e saktë e produktit: </b>Përdor ID P+Produkti për të gjetur një produkt specifik, p.sh., <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>.",
       quotes:
-        "<b>artikull artikull: </b>artikull artikull artikull për të kërko artikull artikull , artikull, <b class=\"text-green\">\"</b><i class=\"text-yellow\">artikull artikull artikull</i><b class=\"text-green\">\"</b>.",
+        "<b>Fraza e saktë: </b>Përdor thonjëza për të kërkuar një frazë të saktë, p.sh., <b class=\"text-green\">\"</b><i class=\"text-yellow\">teksti juaj këtu</i><b class=\"text-green\">\"</b>.",
       tax: "<b>Taksa profili: </b>kërko artikull Produktet artikull artikull artikull Taksa profili artikull \"Taksa:\", artikull, <b class=\"text-green\">Taksa:</b><i class=\"text-yellow\">Taksa profili Emri</i>.",
       new_products:
-        "<b>I ri Produktet: </b>artikull Produktet Shto artikull artikull artikull Data artikull, artikull, <b class=\"text-green\">I ri~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
+        "<b>Produkte të reja: </b>Gjej produkte të shtuara brenda një diapazoni specifik datash, p.sh., <b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>.",
     },
   },
 
@@ -10374,7 +10374,7 @@ export default {
   augment_form: {
     title: "artikull",
     subtitle:
-      "hyrje artikull artikull Vlera artikull artikull faqe artikull artikull Maks 32 artikull",
+      "Fusni çelësin që do të zëvendësohet me vlerën e tij përkatëse në përmbajtjen e faqes. Tastet duhet të jenë maksimumi 32 karaktere.",
     add_caption: "Shto I ri artikull",
     add_sub_caption: "Shto Me porosi artikull artikull",
     add_dialog: {
@@ -10391,13 +10391,13 @@ export default {
     help_dialog: {
       title: "artikull për të artikull artikull artikull",
       how_it_works_tips:
-        "artikull artikull Ulje Faqet, artikull artikull për të artikull artikull Imazhet artikull artikull për të artikull artikull për të artikull artikull , artikull artikull p.sh., artikull artikull Produkt artikull Kategoria artikull artikull Artikuj artikull artikull për të artikull artikull , artikull artikull Ulje Faqet",
+        "Në faqet e uljes, ju keni fleksibilitetin për të përcaktuar vendmbajtësit dinamikë si për tekstin ashtu edhe për imazhet. Këta mbajtës vendesh shërbejnë një rol të rëndësishëm në përshtatjen e përmbajtjes sipas kontekstit.   Natyra dinamike e këtyre mbajtësve të vendndodhjes lejon që ato të popullohen nga vlera të shtuara, të cilat mund të ndryshojnë në bazë të faktorëve të ndryshëm. Për shembull, vlerat e rritjes mund të jenë të ndryshme për çdo produkt ose kategori. Avantazhi i vërtetë i kësaj veçorie vjen në lojë kur keni një shumëllojshmëri artikujsh me atribute të ndryshme. Ju mund t'i përdorni në mënyrë efektive këto mbajtëse dinamike për të personalizuar dhe përmirësuar shfaqjen e secilit artikull, duke krijuar kështu një përvojë unike dhe ndërvepruese në faqet tuaja të uljes.",
       assign_tips:
-        "për të artikull artikull artikull për të Imazhet, artikull artikull ",
+        "Për të caktuar vlera dinamike për imazhet, klikoni në butonin ushqyes që ndodhet në anën e majtë të seksionit.",
       set_dynamic_image_tips:
-        "artikull artikull për të artikull artikull Imazhi URL artikull artikull Vlera",
+        "Tani keni mundësinë të modifikoni URL-në e imazhit dhe t'i caktoni asaj një vlerë dinamike.",
       enter_values_tips:
-        "artikull artikull Produkt, artikull artikull për të artikull artikull ",
+        "Për çdo produkt, ju keni mundësinë të caktoni çifte të dedikuara çelës-vlerë.",
       result_tips:
         "artikull artikull faqe, artikull artikull ",
     },
@@ -10410,14 +10410,14 @@ export default {
     languages: {
       title: "artikull artikull",
       subtitle:
-        "artikull artikull artikull Listë artikull artikull Logjistika profili artikull artikull artikull",
+        "Kjo është lista e gjuhëve të përmbajtjes. Mund të vendosni përmbajtje të ndryshme për profilin e logjistikës në secilën gjuhë.",
       add_caption: "Shto I ri Neni",
       no_more_language: "nr Më shumë. . artikull!",
     },
     content: {
       title: "artikull",
       subtitle:
-        "artikull artikull Logjistika profili artikull artikull artikull",
+        "Mund ta personalizoni përmbajtjen për profilin e logjistikës në shumë gjuhë.",
 
       language_input: "artikull Neni artikull",
       delete_article: "Fshije Neni",
@@ -10436,7 +10436,7 @@ export default {
       },
     },
     delete_dialog: {
-      message: "artikull artikull artikull për të Fshije artikull Neni artikull artikull?",
+      message: "Jeni i sigurt që do ta fshini këtë artikull përgjithmonë?",
       action: "Po, Fshije Tani",
     },
   },
@@ -10446,7 +10446,7 @@ export default {
    */
   logistic_profile_products: {
     title: "Produktet",
-    subtitle: "Listë artikull Produktet artikull artikull artikull profili",
+    subtitle: "Lista e produkteve të lidhura me këtë profil.",
   },
   /**
    * @see LogisticProfilePage_Setting
@@ -10460,8 +10460,8 @@ export default {
       },
       accept_delete: {
         true_description:
-          "artikull artikull artikull Hiq të gjitha artikull artikull Profilet Lidhjet",
-        true_title: "artikull artikull për të Hiq artikull artikull",
+          "Ky veprim do të heqë të gjithë lidhjet e artikujve dhe profileve.",
+        true_title: "Unë verifikoj për të hequr këtë lidhje.",
       },
     },
     actions: {
@@ -10476,24 +10476,24 @@ export default {
     title: "Logjistika Profilet",
     add_caption: "Shto I ri profili",
     subtitle:
-      "artikull artikull Krijo artikull Redakto artikull garanci artikull Kthimi politikë artikull Produktet artikull artikull për të artikull Produktet artikull artikull garanci artikull artikull artikull Llojet artikull Produktet",
+      "Mund të krijoni dhe modifikoni politikën e garancisë dhe kthimit për produktet këtu dhe t'ia caktoni atë çdo produkti. Ju mund të përcaktoni politika të ndryshme garancie për lloje të ndryshme produktesh.",
     add_dialog: {
       title: "Krijo I ri Logjistike profili",
       config: {
         title: "artikull informacion",
         subtitle:
-          "artikull artikull profili Lloji artikull artikull udhëzues, garanci, artikull artikull Produktet",
+          "Zgjidhni llojin e profilit. Mund të jetë një udhëzues, garanci ose çdo përmbajtje dhe material tjetër që ndahet zakonisht midis produkteve të shumta.",
       },
       article: {
         title: "Neni",
         subtitle:
-          "artikull artikull Shto Më shumë. . artikull artikull Logjistike profili",
+          "Mund të shtoni më shumë gjuhë pas krijimit të këtij profili logjistik.",
       },
       inputs: {
         name: {
           message:
             "artikull Emri Shfaq për të artikull artikull për të artikull Publike",
-          placeholder: "artikull artikull Emri artikull artikull profili",
+          placeholder: "Futni një emër për profilin...",
         },
       },
     },
@@ -10506,7 +10506,7 @@ export default {
     title: "artikull Artikuj Menaxhim",
     add_caption: "Shto I ri artikull",
     subtitle:
-      "artikull, artikull artikull Menaxho artikull Artikuj artikull artikull artikull Produktet për të artikull artikull artikull Pamja e jashtme artikull artikull dyqan, artikull artikull Artikuj artikull artikull Imazhi artikull, artikull artikull artikull, artikull të gjitha Produktet",
+      "Këtu mund të menaxhoni artikujt e përfshirë në produktet tuaja. Për të siguruar një pamje të përsosur për dyqanin tuaj, përdorni vazhdimisht artikuj me modele të ngjashme imazhi, të tilla si korniza teli, në të gjitha produktet.",
     empty_list_msg: "Listë artikull artikull Artikuj",
     notifications: {
       delete: {
@@ -10516,7 +10516,7 @@ export default {
     delete_dialog: {
       title: "Fshije artikull artikull",
       message:
-        "artikull artikull për të artikull Fshije artikull artikull? artikull shënim artikull artikull Nga të gjitha artikull Produktet!",
+        "Jeni i sigurt që dëshironi ta fshini përgjithmonë këtë artikull? Ju lutemi vini re se do të hiqet gjithashtu nga të gjitha produktet e lidhura!",
       action: "Po, Fshije Tani",
     },
     actions: {
@@ -10533,18 +10533,18 @@ export default {
 
     title: "artikull artikull",
     subtitle:
-      "artikull artikull artikull Titulli, artikull artikull 2 për të 3 artikull artikull Imazhet, artikull artikull Ngarko Fotot për të artikull 256artikull artikull Pamja e jashtme artikull të gjitha artikull, artikull artikull Imazhet artikull transparent sfond artikull artikull Produktet",
+      "Zgjidhni një titull të shkurtër, në mënyrë ideale me maksimumi 2 deri në 3 fjalë. Përdorni imazhe katrore, pasi ne do të ndryshojmë automatikisht përmasat e fotografive të ngarkuara në një format katror 256x256. Për pamjen më të mirë në të gjithë shabllonet, përdorni imazhe minimaliste me sfond transparent dhe mbani një model uniform në të gjithë produktet tuaja.",
     inputs: {
       title: {
         placeholder: "artikull Titulli artikull artikull Produkt faqe",
       },
       code: {
         placeholder: "artikull Kodi, p.sh. Celular_artikull_artikull",
-        hint: "artikull artikull Kodi për të artikull artikull kërko artikull artikull artikull Artikuj",
+        hint: "Përdoreni këtë kod për të thjeshtuar procesin e kërkimit për gjetjen e artikujve.",
       },
       description: {
-        placeholder: "artikull artikull Përshkrim artikull artikull artikull",
-        hint: "Përshkrim artikull artikull I perdorur artikull SEO artikull artikull artikull për të Përdoruesit artikull artikull Me porosi artikull artikull artikull Produkt faqe",
+        placeholder: "Një përshkrim i shkurtër për këtë artikull...",
+        hint: "Përshkrimi do të përdoret për SEO dhe ndoshta i dukshëm për përdoruesit në disa paraqitje të personalizuara në faqen e produktit.",
       },
       image: {
         message: "Maks Imazhi artikull: 1MB",
@@ -10559,14 +10559,14 @@ export default {
       },
       external_link: {
         title: "Lidhje e jashtme",
-        description: "artikull artikull Lidhje për të artikull artikull artikull",
-        tips: "artikull artikull URL për të artikull artikull artikull Përdoruesit artikull artikull Produkt faqe, artikull artikull për të artikull Lidhje",
+        description: "Vendosni një lidhje me një url të jashtëm.",
+        tips: "Mund t'i bashkëngjitni çdo URL artikullit. Kur përdoruesit klikojnë mbi artikullin në faqen e produktit, ata do të ridrejtohen në atë lidhje.",
       },
       internal_link: {
         title: "artikull Lidhje",
         description:
-          "Krijo artikull faqe artikull artikull artikull Të dhënat artikull artikull artikull",
-        tips: "artikull artikull Lidhje artikull Ulje faqe artikull artikull profili artikull artikull artikull Me porosi artikull artikull Selldone artikull artikull Lidhje artikull artikull artikull",
+          "Krijo një faqe dinamike duke dhënë të dhëna shtesë për këtë artikull.",
+        tips: "Ju mund të lidhni një faqe uljeje me profilin dhe të vendosni një shteg të personalizuar dhe përmbajtje dinamike për të. Selldone do të gjenerojë një lidhje dinamike për artikullin.",
       },
     },
     notifications: {
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "U kthye Porositë",
     subtitle:
-      "artikull Klientët artikull Kthimi artikull artikull Porositë, artikull artikull artikull Pamje Kthimi Kërkesat artikull artikull 🛍️ Porosit artikull faqe artikull Qasja artikull artikull Listë artikull U kthye Porositë artikull",
+      "Klientët tuaj mund t'i kthejnë porositë e tyre fizike dhe ju mund të shikoni kërkesat e kthimit në faqen e përpunimit të porosive ose të aksesoni një listë të plotë të porosive të kthyera këtu.",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "komision",
     subtitle:
-      "artikull Listë artikull të gjitha komision artikull artikull artikull Nga artikull artikull për të 30 30 dite artikull artikull Komisioni për të artikull artikull artikull Transferimi për të artikull Portofoli",
+      "Lista e të gjitha komisioneve që keni fituar nga referimet tuaja. Duhen deri në 30 ditë që komisioni të miratohet dhe të transferohet në portofolin tuaj.",
   },
   /**
    * @see OReferralWallets
@@ -10600,24 +10600,24 @@ export default {
   referral_wallets: {
     title: "Kuletat",
     subtitle:
-      "artikull artikull artikull shiko artikull Komisioni artikull artikull Transferimi artikull Komisioni artikull për të artikull Banka Llogaria artikull artikull Selldone Portofoli",
-    no_commission_yet: "artikull artikull artikull Marrë artikull Komisioni artikull",
+      "Këtu mund të shihni tarifat e komisionit që keni fituar. Ju mund t'i transferoni tarifat tuaja të komisionit në llogarinë tuaj bankare ose në portofolin tuaj Seldone.",
+    no_commission_yet: "Nuk keni marrë ende asnjë komision.",
     no_wallet: "nr Portofoli!",
 
     withdraw_dialog: {
       title: "artikull Komisioni artikull",
 
-      need_bank_info_message: "artikull artikull artikull Banka Informacion artikull",
+      need_bank_info_message: "Ju lutemi shkruani së pari të dhënat tuaja bankare.",
 
       to_wallet: {
         title: "për të Portofoli",
         subtitle:
-          "artikull artikull artikull, artikull artikull Transferimi Komisioni artikull për të artikull Selldone Portofoli artikull fito artikull artikull artikull Portofoli artikull Lidhur artikull artikull Dhuratë Portofoli, artikull artikull Monedha",
+          "Me këtë opsion, ju mund të transferoni tarifat e komisionit në portofolin tuaj Selldone. Ju lutemi sigurohuni që një portofol të jetë i lidhur me portofolin tuaj të dhuratave dhe që të funksionojë me të njëjtën monedhë.",
       },
       to_bank: {
         title: "për të Banka",
         subtitle:
-          "artikull artikull artikull, artikull artikull Transferimi Komisioni artikull për të artikull Selldone Portofoli artikull fito artikull artikull artikull Portofoli artikull Lidhur artikull artikull Dhuratë Portofoli, artikull artikull Monedha",
+          "Me këtë opsion, ju mund të transferoni tarifat e komisionit në portofolin tuaj Selldone. Ju lutemi sigurohuni që një portofol të jetë i lidhur me portofolin tuaj të dhuratave dhe që të funksionojë me të njëjtën monedhë.",
       },
       inputs: {
         verify_to_wallet: {
@@ -10626,7 +10626,7 @@ export default {
         },
         verify_to_bank: {
           true_description:
-            "artikull artikull artikull Banka Informacion artikull artikull artikull për të Transferimi artikull Komisioni për të artikull Banka Llogaria",
+            "Unë verifikoj të dhënat e mia bankare dhe dua ta transferoj komisionin tim në llogarinë time bankare.",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "artikull artikull Marrë, artikull artikull artikull Rishikimi artikull",
+        "Kërkesa juaj është marrë me sukses dhe ne do ta shqyrtojmë atë.",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "artikull artikull Shto <b>?artikull={code}</b> për të artikull artikull artikull",
+      message: "Ju mund të shtoni <b>?ref={code}</b> në çdo url të shitur.",
     },
     intro: {
       title: "artikull artikull Selldone Filialin artikull",
       message:
-        "artikull Selldone Filialin artikull artikull E thjeshtë artikull artikull, artikull artikull artikull për të artikull artikull Filialin Lidhje për të artikull I ri Përdoruesit për të Selldone, artikull artikull Komisioni Nga artikull Transaksioni artikull fito—artikull artikull Përfshin artikull Nga Abonimet, shërbim artikull, Dyqan artikull, artikull të gjitha artikull artikull artikull Filloni artikull artikull Limitet artikull Koha artikull artikull !",
+        "Programi i Filialit Seldone është i thjeshtë dhe i drejtpërdrejtë, i krijuar për ju që të fitoni pa mundim. Ndani lidhjen tuaj unike të filialit për të ftuar përdoruesit e rinj në Selldone dhe do të fitoni një komision nga çdo transaksion që ata bëjnë—përgjithmonë. Kjo përfshin fitimet nga abonimet, tarifat e shërbimit, përmirësimet e dyqaneve dhe të gjitha rrjedhat e tjera të të ardhurave. Filloni të fitoni një pjesë të të ardhurave pa asnjë kufizim në kohë ose fitime. Bashkohuni me ne dhe kthejeni rrjetin tuaj në të ardhura të qëndrueshme!",
       why_join_selldone_affiliate: "artikull artikull ?",
       reasons: [
         "artikull artikull artikull!",
-        "Selldone artikull të gjitha Abonimi artikull Transaksioni artikull artikull artikull Pagesa artikull artikull Përdoruesi artikull artikull",
-        "artikull Dërgo artikull falas $99 artikull për të artikull artikull Lidhje",
-        "artikull artikull , artikull artikull I ri artikull Nga të gjitha artikull artikull Përdoruesit",
+        "Mbulon të gjitha tarifat e abonimit dhe transaksionit. Fjalë për fjalë çdo pagesë e përdoruesit në Selldone.",
+        "Ne dërgojmë një kupon falas $99 për këdo që regjistrohet duke përdorur lidhjen tuaj.",
+        "Kur niveli juaj të përmirësohet, ju do të fitoni me tarifën e re nga të gjithë përdoruesit e referuar më parë.",
       ],
     },
   },
@@ -10677,20 +10677,20 @@ export default {
     clone_tooltip: {
       title: "artikull Stili",
       subtitle:
-        "artikull artikull artikull për të artikull artikull , sfond, artikull, artikull artikull për të artikull artikull:",
+        "Përdoreni këtë mjet për të përsëritur stile të tilla si fontet, sfondet, kufijtë dhe kufijtë. Ndiqni këto hapa për të kopjuar stilet:",
       step_1:
-        "artikull artikull , artikull, artikull Imazhet; artikull artikull artikull Ndryshimi për të artikull artikull",
-      step_2: "artikull artikull Stili artikull artikull për të artikull",
+        "Aktivizoni mjetin dhe vendoseni miun mbi tekst, kolona ose imazhe; kursori do të ndryshojë në një pipetë.",
+      step_2: "Klikoni mbi elementin stilin e të cilit dëshironi të kopjoni.",
       step_3:
-        "artikull artikull artikull Ndryshimi Mbrapa për të artikull artikull; artikull artikull për të artikull artikull artikull Stili",
+        "Kursori do të kthehet në një paletë; klikoni në elementin ku dëshironi të aplikoni stilin e kopjuar.",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "artikull artikull , artikull Përfshin të gjitha artikull Kategoritë artikull Ndërtesa... artikull faqe",
+        "Ndryshoni dukshmërinë e menysë anësore, e cila përfshin të gjitha kategoritë e seksioneve për ndërtimin e faqes tuaj.",
     },
     sort_tooltip: {
       subtitle:
-        "Aktivizo artikull artikull për të artikull artikull ",
+        "Aktivizoni këtë veçori për t'i riorganizuar dhe organizuar me lehtësi seksionet duke i tërhequr ato.",
     },
     edit_mode_tooltip: {
       title: "Redakto / Parapamje modalitet",
@@ -10698,12 +10698,12 @@ export default {
       edit_mode_msg: "të gjitha Redakto Mjetet artikull artikull artikull",
       view_mode_title: "Parapamje modalitet",
       view_mode_msg:
-        "Pamje artikull faqe artikull Përdoruesit artikull shiko artikull artikull Redakto Mjetet artikull artikull ",
+        "Shikoni faqen tuaj siç do ta shihnin përdoruesit duke fshehur mjete shtesë redaktimi dhe zona boshe teksti.",
     },
     repository_tooltip: {
       title: "artikull artikull",
       subtitle:
-        "artikull artikull Në dispozicion artikull artikull , artikull artikull faqe artikull",
+        "Ndryshoni shfaqjen e seksioneve të para-projektuara. Këto seksione janë krijuar duke përdorur seksionet standarde të disponueshme në menynë e majtë, duke treguar fleksibilitetin e këtij ndërtuesi të faqeve.",
     },
     live_view: {
       title: "Jetoni Parapamje",
@@ -10712,17 +10712,17 @@ export default {
     hotkeys_dialog: {
       title: "artikull artikull",
       augment_tips:
-        "artikull artikull faqe artikull artikull <b>artikull</b> artikull artikull artikull I perdorur artikull Me porosi artikull Faqet artikull artikull <b>Produktet</b>, <b>Kategoritë</b>, artikull <b>artikull Artikuj</b>. për të artikull artikull Imazhi për të artikull artikull, artikull artikull <b>artikull</b> artikull Zgjidh <b>artikull artikull</b> artikull artikull Imazhi",
+        "Mund të ngarkoni përmbajtje dinamike në faqen tuaj dhe ta zëvendësoni atë me vlerat <b>augment</b>. Augment përdoret për faqe dinamike të personalizuara si <b>Products</b>, <b>Categories</b> dhe <b>Include Items</b>. Për të vendosur që një imazh të ngarkohet në mënyrë dinamike, klikoni në <b>Furnizues</b> dhe zgjidhni <b>Burimi dinamik</b> për atë imazh.",
     },
     hotkeys: {
-      ctrl_b: "artikull artikull Zgjidh artikull | <b>fito artikull artikull</b>",
-      ctrl_i: "artikull artikull Zgjidh artikull | <i>fito artikull artikull</i>",
+      ctrl_b: "Aktivizo/çaktivizo me shkronja të zeza për tekstin e zgjedhur | <b>Më bëj të guximshëm</b>",
+      ctrl_i: "Aktivizo/çaktivizo shkronjat e pjerrëta për tekstin e zgjedhur | <i>Më bëj të pjerrët</i>",
       ctrl_l:
-        "artikull artikull Zgjidh artikull | <s>artikull artikull artikull</s>",
-      ctrl_u: "artikull artikull Zgjidh artikull | <u>artikull artikull</u>",
+        "Aktivizo/çaktivizo shënimin për tekstin e zgjedhur | <s>Godit përmes meje</s>",
+      ctrl_u: "Aktivizo/çaktivizo nënvizimin për tekstin e zgjedhur | <u>Nënvizo mua</u>",
       ctrl_1:
-        "artikull artikull Zgjidh artikull | <small>fito artikull artikull</small>",
-      ctrl_2: "rrit artikull artikull artikull Zgjidh artikull | <big>fito artikull artikull</big>",
+        "Zvogëlo madhësinë e shkronjave të tekstit të zgjedhur | <small>Më bëj të vogël</small>",
+      ctrl_2: "Rrit madhësinë e shkronjave të tekstit të zgjedhur | <big>Më bëj të madh</big>",
       ctrl_r: "Hiq të gjitha artikull Nga Zgjidh artikull | artikull të gjitha artikull",
       ctrl_s: "Ruaj artikull faqe",
       tab: "artikull artikull artikull modalitet",
@@ -10741,7 +10741,7 @@ export default {
       configuration: {
         title: "Cilësimet",
         subtitle:
-          "artikull artikull Ruaj artikull artikull faqe artikull artikull për të të gjitha artikull artikull artikull dyqan",
+          "Ju mund të ruani seksione të dizajnuara me porosi për përdorim në të ardhmen në dizajnet e faqeve tuaja. Këto seksione të ruajtura do të jenë të aksesueshme për të gjithë administratorët në këtë dyqan.",
       },
       image: {
         title: "Imazhi",
@@ -10750,7 +10750,7 @@ export default {
       code: {
         title: "Kodi",
         subtitle:
-          "artikull artikull Kodi Nga artikull artikull faqe artikull",
+          "Mund të kopjoni dhe ngjisni kodin e elementit nga seksionet në anën e majtë në ndërtuesin e faqeve.",
       },
       inputs: {
         title: {
@@ -10759,10 +10759,10 @@ export default {
         },
         tags: {
           label: "Etiketat",
-          message: "I perdorur artikull kërko artikull artikull artikull",
+          message: "Përdoret për kërkimin dhe kategorizimin e elementeve.",
         },
         section: {
-          message: "artikull artikull artikull Nga artikull faqe artikull",
+          message: "Kopjoni seksionin nga ndërtuesi i faqeve.",
         },
       },
     },
@@ -10774,36 +10774,36 @@ export default {
   marketplace_vendors: {
     title: "shitës Listë",
     subtitle:
-      "Shto shitës artikull, artikull artikull artikull për të Produktet artikull artikull Produkt Paneli > shitës",
+      "Shto shitës këtu dhe më pas caktoji ato te produktet në Panelin e produkteve > Shitësit.",
     add_new_vendor_action: "Shto I ri shitës",
     status_tooltip: {
       title: "shitës Statusi",
-      ACCEPTED: "artikull shitës artikull Qasja për të artikull artikull",
-      REJECTED: "artikull shitës artikull artikull artikull Refuzuar",
-      PENDING: "artikull artikull artikull në pritje artikull artikull Nga artikull shitës",
+      ACCEPTED: "Shitësi ka qasje në panelin e tij.",
+      REJECTED: "Kërkesa e shitësit është refuzuar.",
+      PENDING: "Kërkesa është në pritje të një vendimi nga shitësi.",
     },
     number_of_products: "artikull artikull Produktet",
     invited: "artikull",
     no_pricing: "nr Çmimet",
     no_pricing_tooltip: {
       title: "E paracaktuar Çmimet Planifikoni",
-      subtitle: "artikull artikull artikull E paracaktuar Çmimet artikull artikull artikull shitës",
+      subtitle: "Ju lutemi vendosni një model çmimi të paracaktuar për shitësin.",
     },
     updated_products_tooltip: {
       title: "Produktet artikull artikull 24 artikull",
     },
     added_products_tooltip: {
-      title: "Produktet Shto artikull artikull artikull 24 artikull",
+      title: "Produktet e shtuara në 24 orët e fundit",
     },
     access_tooltip: {
       title: "artikull Qasja",
       subtitle:
-        "artikull shitës artikull Qasja për të artikull artikull Redakto artikull artikull shitës > Qasja artikull",
+        "Shitësi ka qasje në panelin e tij. Mund ta modifikoni këtë në skedën Shitësi > Qasja.",
     },
     reject_by_user_tooltip: {
       title: "Refuzuar artikull Përdoruesi",
       subtitle:
-        "artikull Përdoruesi Refuzuar artikull artikull për të artikull artikull shitës artikull Qasja artikull shitës",
+        "Përdoruesi refuzoi kërkesën për t'u bërë shitës dhe për të hyrë në këtë shitës.",
     },
     download_all_vendors: "Shkarko të gjitha shitës",
     bulk_import: "artikull Importo (artikull)",
@@ -10815,7 +10815,7 @@ export default {
   shop_license_need_update_overlay: {
     title: "Liçensë artikull artikull!",
     subtitle:
-      "artikull artikull Liçensë artikull artikull Zgjidh biznes artikull artikull Liçensë për të artikull artikull Planifikoni",
+      "Licenca juaj aktuale nuk i plotëson kërkesat e modelit tuaj të zgjedhur të biznesit. Ju lutemi përmirësoni licencën tuaj në planin e Ndërmarrjes.",
   },
 
   /**
@@ -10824,7 +10824,7 @@ export default {
   b_order_chat_box: {
     title: "artikull Veprimet",
     subtitle:
-      "artikull artikull Dërgo artikull Statusi Përditëso email për të artikull artikull , artikull artikull mesazh artikull për të artikull, artikull artikull për të artikull artikull artikull Koha",
+      "Ju mund t'i dërgoni një email përditësimit të statusit blerësit me vetëm një klik. Për më tepër, ju mund të përcaktoni mesazhe të zakonshme këtu për t'i ripërdorur, kështu që nuk keni nevojë t'i rishkruani ato çdo herë.",
     send_update_email_action: "Dërgo Përditëso email",
     add_template_action: "Shto Mesazh shabllon",
 
@@ -10836,7 +10836,7 @@ export default {
       title: "🛍️ Porosit Përditëso email",
       need_set_service_alert: {
         message:
-          "artikull artikull artikull email shërbim artikull për të artikull artikull email për të artikull Dërguar",
+          "Ju lutemi vendosni ofruesin tuaj të shërbimit të postës elektronike që të lejojë dërgimin e emailit.",
         action: "artikull për të Cilësimet",
       },
       send_action: "Dërgo Përditëso email",
@@ -10849,7 +10849,7 @@ export default {
       edit_title: "Redakto Mesazh shabllon",
       add_title: "Shto Mesazh shabllon",
       message:
-        "artikull artikull Titulli artikull Mesazh artikull artikull artikull Titulli artikull artikull I perdorur artikull artikull Dërguar për të artikull klient",
+        "Këtu duhet të vendosni titullin dhe trupin e mesazhit. Titulli përdoret vetëm për referencën tuaj dhe nuk do t'i dërgohet klientit.",
 
       save_action: "Ruaj shabllon",
       add_action: "Shto shabllon",
@@ -10878,9 +10878,9 @@ export default {
    */
   b_order_share: {
     title: "Lidhja e porosisë",
-    subtitle: "artikull artikull 🛍️ Porosit Lidhje artikull artikull klient",
+    subtitle: "Ju mund të ndani lidhjen e porosisë me klientin.",
     guest_checkout_message:
-      "artikull artikull Pamje artikull 🛍️ Porosit artikull artikull , artikull artikull klient artikull artikull për të artikull artikull 🛍️ Porosit Detajet, artikull artikull Krijo artikull artikull Lidhje artikull artikull",
+      "Blerësit e ftuar mund të shikojnë automatikisht porosinë e tyre në të njëjtin shfletues. Megjithatë, nëse klienti është mysafir dhe ju duhet të ndani detajet e porosisë, mund të krijoni një lidhje të sigurt për ta.",
     authentication: "artikull",
     guest: "artikull",
     click_to_create: "artikull për të Krijo",
@@ -10897,7 +10897,7 @@ export default {
     title: "Vlerësime artikull",
     add_source_action: "Shto Rishikimi artikull",
     subtitle:
-      "artikull lidh artikull artikull për të artikull artikull artikull Vlerësime artikull artikull biznes Nga artikull si Facebook, Google, artikull Më shumë. . artikull artikull artikull Klientët për të artikull Vlerësime artikull artikull artikull klient artikull artikull Vlerësime artikull artikull Ulje Faqet artikull Produkt Faqet",
+      "Lidhni me lehtësi platformat e jashtme për të mbledhur dhe analizuar komente rreth biznesit tuaj nga burime si Facebook, Google dhe më shumë. Ne do t'i përputhim automatikisht klientët me komentet e tyre për një përvojë më të mirë të klientit. Ju gjithashtu mund t'i shfaqni këto komente në faqet tuaja të uljes dhe faqet e produkteve.",
   },
 
   /**
@@ -10907,7 +10907,7 @@ export default {
     add_caption: "Shto I ri artikull artikull",
     title: "artikull artikull",
     subtitle:
-      "artikull artikull Krijo artikull Menaxho artikull artikull I perdorur për të artikull artikull Produktet artikull Shërbimet artikull artikull për të Produktet artikull artikull Produkt Paneli > Redakto",
+      "Këtu mund të krijoni dhe menaxhoni grupe pronash. Kompletet e pronave përdoren për të përcaktuar vetitë e produkteve dhe shërbimeve. Ju mund t'i caktoni këto grupe të vetive produkteve në Panelin e produkteve > Redakto.",
   },
 
   /**
@@ -10917,11 +10917,11 @@ export default {
     profile: {
       title: "artikull artikull - Me porosi Variantet",
       subtitle:
-        "artikull artikull Produkt, artikull artikull E paracaktuar artikull",
+        "Ju mund të personalizoni emrat e varianteve për këtë produkt, duke zëvendësuar ato të paracaktuara.",
     },
 
     subtitle:
-      "artikull artikull , artikull, artikull artikull 🛍️ Porosit artikull artikull Produktet artikull artikull Variantet artikull artikull E paracaktuar artikull, artikull artikull artikull Me porosi Variantet artikull për të artikull Produkt artikull artikull Logjistike > artikull artikull për të artikull artikull artikull Produktet artikull artikull",
+      "Këtu mund të personalizoni emrat e varianteve, ikonat dhe renditjen e tyre. Për produktet me variante unike që shkojnë përtej gjashtë të paracaktuara, mund të vendosni variante të personalizuara të përshtatura për secilin produkt. Thjesht përcaktoni grupet e vetive në skedën Logistic > Property Sets dhe caktojini ato çdo numri produktesh sipas nevojës.",
     select_property_set: "Zgjidh artikull artikull",
     add_property_set: "Shto artikull artikull",
   },
@@ -10931,7 +10931,7 @@ export default {
     title: "artikull",
     add_action: "Shto artikull",
     subtitle:
-      "Krijo artikull artikull artikull për të artikull artikull Etiketa Blerjet artikull artikull artikull Transporti artikull artikull 🛍️ Porosit, Zgjidh artikull artikull ",
+      "Krijoni madhësi kuti të ripërdorshme për të shpejtuar blerjet e etiketave dhe për të siguruar tarifa të sakta transporti. Kur përmbushni një porosi, zgjidhni një kuti të ruajtur dhe dimensionet e saj do të plotësohen automatikisht.",
     empty: "nr artikull artikull artikull “Shto artikull”.",
     edit: "Redakto artikull",
     new: "I ri artikull",
@@ -10945,7 +10945,7 @@ export default {
   transportation_boxes_input: {
     select_box: "Zgjidh artikull paketë",
     define_package: "artikull artikull paketë",
-    define_package_hint: "Krijo artikull Redakto artikull artikull paketë artikull",
+    define_package_hint: "Krijoni ose modifikoni madhësitë e paketave tuaja të paracaktuara",
   },
 
 
@@ -10973,13 +10973,13 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"Listim",
-    message:"Krijo artikull artikull, artikull artikull Lloji artikull Listim—artikull, artikull, artikull, Shërbimet, artikull Më shumë. ."
+    message:"Krijoni një drejtori të kërkueshme dhe të moderuar për çdo lloj listimi—prona, hotele, mjekë, shërbime dhe më shumë."
   },
 
   shop_listing: {
     name: "Listim",
     message:
-      "Krijo artikull artikull, artikull artikull Lloji artikull Listim—artikull, artikull, artikull, Shërbimet, artikull Më shumë. .",
+      "Krijoni një drejtori të kërkueshme dhe të moderuar për çdo lloj listimi—prona, hotele, mjekë, shërbime dhe më shumë.",
 
     items: {
       title: "Artikuj",
@@ -10988,7 +10988,7 @@ export default {
 
       empty_title: "nr Artikuj artikull",
       empty_subtitle:
-        "Krijo artikull artikull Listim artikull për të Filloni Ndërtesa... artikull artikull",
+        "Krijoni artikullin tuaj të parë të listimit për të filluar ndërtimin e drejtorisë tuaj.",
 
       add_title: "Shto artikull",
       edit_title: "Redakto artikull",
@@ -11002,7 +11002,7 @@ export default {
       opening_hours_json: "artikull artikull JSON",
 
       delete_title: "Fshije artikull",
-      delete_message: "artikull artikull për të Fshije artikull artikull?",
+      delete_message: "Jeni i sigurt që dëshironi ta fshini këtë artikull?",
       delete_success: "Artikulli u fshi me sukses.",
       restore_success: "artikull artikull artikull",
 
@@ -11017,11 +11017,11 @@ export default {
     categories: {
       title: "Kategoritë",
       sub_title:
-        "artikull artikull Kategoritë artikull artikull filtër",
+        "Organizoni drejtorinë tuaj me kategori dhe nënkategori. Kjo përmirëson navigimin dhe filtrimin.",
 
       empty_title: "nr Kategoritë artikull",
       empty_subtitle:
-        "Krijo Kategoritë për të artikull artikull Listim artikull artikull artikull",
+        "Krijoni kategori për të strukturuar listën tuaj dhe për të përmirësuar shfletimin.",
 
       add_title: "Shto kategori",
       edit_title: "Redakto kategorinë",
@@ -11063,11 +11063,11 @@ export default {
     supervision: {
       title: "artikull",
       sub_title:
-        "Rishikimi artikull Artikuj artikull artikull : artikull, Publikoni, Refuzo, artikull, artikull artikull për të Në pritje",
+        "Rishiko artikujt e dorëzuar dhe vendos se çfarë do të ndodhë më pas: mirato, publiko, refuzo, arkivoi ose rivendos në pritje.",
 
       empty_title: "nr Artikuj për të Rishikimi",
       empty_subtitle:
-        "artikull Përdoruesit artikull I ri Artikuj, artikull artikull ",
+        "Kur përdoruesit dorëzojnë artikuj të rinj, ata do të shfaqen këtu për moderim.",
 
       review_title: "Rishikimi artikull",
       approve_publish: "artikull & Publikoni",
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "artikull",
       sub_title:
-        "Krijo artikull Dizajn artikull (Kartelë + Detajet artikull) artikull artikull artikull për të Kategoritë Kategoritë artikull artikull ",
+        "Krijoni grupe të shumta dizajni (shabllone të kartelave + detajeve) dhe caktojini ato në kategori. Kategoritë mund të përdorin dizajne të ndryshme.",
 
       empty_title: "nr artikull artikull",
       empty_subtitle:
-        "Shto artikull artikull Dizajn artikull për të Filloni artikull artikull Kategoritë artikull",
+        "Shtoni grupin tuaj të parë të dizajnit për të filluar personalizimin e pamjes së kategorive.",
 
       add_title: "Shto Dizajn",
       edit_title: "Redakto Dizajn",
@@ -11134,7 +11134,7 @@ export default {
 
       delete_title: "Fshije Dizajn",
       delete_message:
-        "Fshije artikull Dizajn? Kategoritë artikull artikull Dizajn_artikull",
+        "Të fshihet ky dizajn? Kategoritë që e përdorin atë do të humbasin automatikisht design_id.",
     },
 
 
@@ -11144,7 +11144,7 @@ export default {
     badges: {
       title: "distinktivë",
       sub_title:
-        "Krijo artikull Menaxho artikull distinktivë distinktivë artikull artikull artikull për të Listim Artikuj për të artikull artikull artikull",
+        "Krijoni dhe menaxhoni distinktivët e vitrinës. Shenjat mund t'u caktohen artikujve të listimit për të theksuar atributet e veçanta.",
 
       empty_title: "nr distinktivë artikull",
       empty_subtitle:
@@ -11192,7 +11192,7 @@ export default {
       title: "mesazh",
       sub_title: "Menaxho mesazh Dërguar artikull Përdoruesit Nga Listim Profilet",
       empty_title: "nr mesazh",
-      empty_subtitle: "mesazh Dërguar artikull Përdoruesit artikull artikull artikull",
+      empty_subtitle: "Mesazhet e dërguara nga përdoruesit do të shfaqen këtu.",
 
       sender: "artikull",
       item: "artikull",
@@ -11203,7 +11203,7 @@ export default {
       dialog_title: "Mesazh",
       owner_reply: "Pronari artikull",
       reply: "artikull",
-      reply_hint: "shkrim artikull artikull për të artikull Përdoruesi artikull artikull Mesazh artikull artikull Nga Veprimet",
+      reply_hint: "Shkruani një përgjigje për përdoruesit. Ju gjithashtu mund ta shënoni mesazhin si të lexuar/të padëshiruar nga veprimet.",
 
       mark_read: "artikull artikull lexim",
       mark_unread: "artikull artikull artikull",
@@ -11217,9 +11217,9 @@ export default {
 
     enable: {
       title: "Listim",
-      subtitle: "Aktivizo artikull artikull artikull Publike Listim faqe artikull aktivizuar artikull artikull artikull Koha, Selldone artikull Krijo artikull Listim artikull artikull",
+      subtitle: "Aktivizo ose çaktivizo faqen tënde të listimit publik. Kur aktivizohet për herë të parë, Selldone do të krijojë automatikisht konfigurimin e listimit.",
       true_description: "Listim artikull aktivizuar Klientët artikull artikull Listim Faqet",
-      false_description: "Listim artikull çaktivizuar artikull Listim Faqet artikull artikull ",
+      false_description: "Listimi është i çaktivizuar. Faqet e listimit dhe paraqitjet janë të bllokuara.",
       open_listing: "artikull Listim",
       note: "artikull artikull , Limitet, formular, artikull Dizajn artikull Listim Cilësimet",
       vendor_prereq_text:
@@ -11231,7 +11231,7 @@ export default {
       vendor_access_button: "Aktivizo Listim artikull shitës",
 
       more_options_text:
-        "Më shumë. . artikull artikull Në dispozicion artikull Listim Cilësimet artikull artikull artikull Inputet, UI/Pamja e jashtme, artikull, Limitet, artikull artikull artikull",
+        "Më shumë kontrolle ofrohen te cilësimet e Listës. Mund të konfiguroni hyrjet, UI/pamjen, moderimin, kufijtë dhe opsionet e fitimit të parave.",
       more_options_button: "artikull për të Listim Cilësimet",
 
       updated: "Listim artikull",
@@ -11244,19 +11244,19 @@ export default {
       subtitle: "Dizajn artikull Klientët kërko artikull Listim Aktivizo artikull kërko artikull Ndërtoni Filtrat Nga artikull Me porosi formular artikull",
 
       location_title: "Vendndodhja kërko",
-      location_subtitle: "artikull Klientët për të artikull artikull Vendndodhja artikull artikull Rrezja",
+      location_subtitle: "Lejo klientët të zgjedhin një vendndodhje dhe të gjejnë rezultate në afërsi brenda një rrezeje të konfigurueshme.",
       location_enabled_true: "Vendndodhja Filtro artikull aktivizuar Klientët artikull kërko artikull artikull",
-      location_enabled_false: "Vendndodhja Filtro artikull çaktivizuar artikull artikull filtër artikull artikull",
+      location_enabled_false: "Filtri i vendndodhjes është i çaktivizuar. Rezultatet nuk do të filtrohen sipas distancës.",
 
       radius_default: "E paracaktuar Rrezja (artikull)",
-      radius_default_hint: "I perdorur artikull artikull klient Zgjidh artikull Vendndodhja artikull artikull Rrezja",
+      radius_default_hint: "Përdoret kur klienti zgjedh një vendndodhje, por nuk zgjedh një rreze.",
       radius_max: "maksimum Rrezja (artikull)",
-      radius_max_hint: "artikull artikull Rrezja artikull artikull artikull për të artikull Vlera",
+      radius_max_hint: "Rrezja e vitrinës do të mbërthehet në këtë vlerë.",
       radius_options: "Rrezja artikull (artikull)",
       radius_options_hint: "artikull artikull UI.",
 
       filters_title: "kërko Filtrat",
-      filters_subtitle: "Shto Filtrat artikull lexim artikull Nga artikull artikull artikull (artikull artikull formular artikull). artikull artikull për të artikull artikull artikull Nga Publikuar Artikuj",
+      filters_subtitle: "Shto filtra që lexojnë vlerat nga fushat meta të artikullit (fushat e formularit të listimit/kategorisë). Përdorni gjenerimin automatik për të mbledhur opsione reale nga artikujt e publikuar.",
       no_filters: "nr Filtrat Shto artikull",
       auto_generate: "artikull artikull",
 
@@ -11264,12 +11264,12 @@ export default {
       filter_label: "Etiketa",
       filter_type: "Lloji",
       filter_options: "artikull",
-      filter_options_hint: "artikull Zgjidh Filtrat, artikull artikull artikull manual artikull artikull",
+      filter_options_hint: "Për filtra të zgjedhur, opsionet mund të jenë manuale ose të gjeneruara.",
       multiple: "artikull",
       single: "artikull",
       kv_mode: "artikull modalitet",
 
-      requires_listing_active: "Listim artikull artikull Aktiv Aktivizo Listim artikull për të artikull artikull ",
+      requires_listing_active: "Listimi nuk është aktiv. Aktivizo listimin fillimisht për ta përdorur në vitrinë.",
 
 
     },
@@ -11911,12 +11911,12 @@ export default {
         "artikull artikull ",
         "Qasja për të të gjitha artikull artikull ",
         "artikull artikull artikull Prioriteti Mbështetje",
-        "artikull artikull paketë artikull artikull Përdoruesit",
+        "Një paketë e ekuilibruar për përdoruesit e rregullt.",
         "artikull Qasja artikull artikull artikull",
         "Me porosi artikull artikull ",
         "artikull artikull ",
-        "nr Limitet artikull artikull, artikull artikull artikull Përdoruesi",
-        "artikull artikull Planifikoni artikull artikull, artikull për të 4 anëtarë",
+        "Nuk ka kufizime në përdorim, për përdoruesit e fuqisë.",
+        "Një plan special për familjet, deri në 4 anëtarë.",
         "artikull artikull E avancuar Mjetet",
       ],
     },
@@ -11974,18 +11974,18 @@ export default {
         "artikull artikull artikull biznes",
         "artikull 🛍️ Porosit artikull artikull !",
         "artikull artikull ",
-        "artikull artikull për të artikull artikull artikull",
+        "Mezi pres t'ju shërbej përsëri.",
         "artikull artikull Prioriteti",
-        "artikull artikull për të artikull artikull artikull",
-        "artikull artikull artikull mbështetje artikull dyqan",
+        "Mos harroni të vlerësoni përvojën tuaj.",
+        "Faleminderit për mbështetjen e dyqanit tonë.",
         "artikull artikull I ri Blerje!",
-        "Ruaj artikull Fatura artikull artikull artikull",
-        "Vizitoni artikull artikull artikull Më shumë. . artikull Produktet",
+        "Ruani faturën tuaj për referencë në të ardhmen.",
+        "Na vizitoni përsëri për më shumë produkte të shkëlqyera.",
         "artikull Lidhur artikull artikull Ofertat",
         "artikull artikull klient",
-        "artikull artikull për të ndihmë artikull artikull ",
+        "Ne jemi këtu për t'ju ndihmuar nëse keni nevojë për ndihmë.",
         "artikull artikull ndihmë artikull artikull",
-        "artikull artikull artikull Zbritje artikull artikull artikull Blerje",
+        "Përfitoni nga një zbritje speciale në blerjen tuaj të radhës.",
         "artikull artikull !",
         "artikull artikull ",
         "artikull artikull për të artikull artikull",
@@ -12058,7 +12058,7 @@ export default {
         "artikull Shërbimet artikull",
         "artikull Marketingu shërbim artikull",
         "artikull artikull dyqan artikull",
-        "Ekspert artikull artikull artikull biznes artikull",
+        "Kontrata e konsulencës së ekspertëve për pronarët e bizneseve",
         "shërbim artikull artikull Tregu artikull",
         "Dyqan dyqan artikull artikull Shërbimet artikull",
         "POD shërbim artikull artikull",
@@ -12118,19 +12118,19 @@ export default {
       description: [
         "artikull rimbursim parash artikull artikull Blerje!",
         "artikull artikull ",
-        "artikull rimbursim parash Ofertat artikull artikull artikull",
+        "Oferta ekskluzive për kthimin e parave vetëm për ju.",
         "artikull artikull rimbursim parash artikull",
-        "artikull rimbursim parash artikull të gjitha artikull artikull Artikuj",
+        "Kthim i menjëhershëm i parave për të gjithë artikujt tuaj të preferuar.",
         "Ruaj Më shumë. . artikull artikull rimbursim parash Ofertat",
-        "artikull artikull rimbursim parash artikull artikull 30 dite!",
+        "Dyfishoni kthimin e parave tuaja në ditë të veçanta!",
         "artikull rimbursim parash artikull Koha artikull Dyqan",
         "artikull artikull rimbursim parash artikull Sot!",
         "VIP anëtarë artikull artikull rimbursim parash",
         "artikull! artikull Koha rimbursim parash Ofertat",
-        "artikull artikull rimbursim parash artikull Klubi artikull",
-        "artikull Më shumë. . artikull Dyqan, artikull Më shumë. . artikull Ruaj",
-        "artikull artikull artikull rimbursim parash artikull",
-        "artikull artikull artikull rimbursim parash Ofertat artikull",
+        "Bashkohuni tani me Klubin tonë të Shpërblimeve të Cashback.",
+        "Sa më shumë të blini, aq më shumë kurseni.",
+        "Zhbllokoni shpërblimet përfundimtare të kthimit të parave.",
+        "Përjetoni ofertat më të mira të kthimit të parave.",
       ],
     },
 
@@ -12141,14 +12141,14 @@ export default {
       prompts: [
         "MIRË SE VINI 10 për të {shop} - artikull artikull Artikuj",
         "{shop} - artikull artikull shërbim",
-        "artikull Ofertat artikull artikull {shop} - artikull artikull artikull!",
-        "artikull për të artikull {shop}'artikull artikull për të artikull artikull ",
-        "artikull artikull {shop} artikull - artikull për të artikull artikull artikull Përditëso",
+        "Oferta ekskluzive dhe kursime vetëm në {shop} - Shfrytëzojeni mundësinë!",
+        "Njihuni me përkushtimin e {shop} ndaj eko-miqësisë dhe praktikave etike",
+        "Bëhuni pjesë e familjes {shop} - Abonohu ​​në buletinin tonë për përditësime",
         "artikull artikull {shop}",
         "artikull artikull të gjitha Ngjarjet artikull {shop}",
-        "artikull Ofertat artikull artikull {shop} - artikull artikull!",
-        "{shop}'artikull artikull Produkt artikull - Dyqan artikull artikull",
-        "artikull artikull për të {shop} - artikull artikull për të artikull artikull ",
+        "Oferta të pakrahasueshme dhe speciale të ndjeshme ndaj kohës në {shop} - Vepro shpejt!",
+        "Këshillat gjithëpërfshirëse të {shop} për blerjen dhe vlerësimet e produkteve - Blini me besim",
+        "Kontaktoni {shop} - Ne përpiqemi të ofrojmë një përvojë të pashoqe blerjeje",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "artikull artikull artikull, artikull artikull artikull!",
+        "Plotësoni pamjen tuaj, merrni kompletin!",
         "Ruaj artikull artikull Ofertat!",
         "artikull artikull !",
         "artikull artikull Blerje, artikull artikull!",
         "artikull artikull artikull, Blej artikull!",
         "artikull Artikuj, artikull zbritje!",
-        "artikull Më shumë. ., artikull artikull – artikull artikull!",
+        "Merrni më shumë, shpenzoni më pak - grumbullohu!",
         "artikull Oferta: artikull Produktet!",
         "artikull artikull artikull, artikull Ofertat!",
         "artikull artikull , Ruaj artikull!",
         "artikull artikull !",
         "Dyqan artikull, artikull artikull Ruaj!",
-        "artikull artikull Vlera, artikull artikull artikull!",
+        "Dyfishoni vlerën, dyfishoni argëtimin!",
         "artikull artikull – Dyqan artikull!",
-        "artikull artikull Çmimet artikull artikull artikull!",
+        "Çmime ekskluzive të paketave vetëm për ju!",
         "artikull artikull !",
         "artikull artikull !",
-        "artikull artikull artikull: artikull artikull Ruaj!",
+        "Kuruar për ju: përputhuni dhe kurseni!",
         "artikull artikull !",
-        "artikull artikull Të preferuarat artikull artikull artikull!",
+        "Mblidhni të preferuarat tuaja për kursime shtesë!",
       ],
     },
 
@@ -12226,27 +12226,27 @@ export default {
         "artikull Mbrapa artikull artikull",
       ],
       body: [
-        "artikull {buyer_name}, artikull 🛍️ Porosit #{order_id} artikull artikull E konfirmuar! artikull artikull për të artikull",
+        "Përshëndetje {buyer_name}, porosia juaj #{order_id} është konfirmuar! Ne po e përpunojmë atë dhe do t'ju njoftojmë kur të jetë gati për t'u dërguar.",
 
-        "Mirë i ri, {buyer_name}! artikull 🛍️ Porosit #{order_id} artikull artikull Dërguar artikull artikull Llogaria artikull artikull !",
+        "Lajm i mirë, {buyer_name}! Porosia juaj #{order_id} është dërguar. Mund ta gjurmoni përmes llogarisë tuaj. Faleminderit për blerjet me ne!",
 
-        "artikull {buyer_name}, artikull 🛍️ Porosit #{order_id} artikull artikull artikull Dorëzuar artikull artikull Blerje artikull artikull!",
+        "Përshëndetje {buyer_name}, porosia juaj #{order_id} u dorëzua me sukses. Shpresojmë t'ju pëlqejë blerja. faleminderit!",
 
-        "artikull {buyer_name}, artikull artikull Marrë artikull Pagesa artikull 🛍️ Porosit #{order_id}. artikull 🛍️ Porosit artikull artikull Dërguar artikull",
+        "Përshëndetje {buyer_name}, ne kemi marrë pagesën për porosinë #{order_id}. Porosia juaj tani po përpunohet dhe do të dërgohet së shpejti.",
 
-        "artikull {buyer_name}, artikull artikull për të artikull artikull 🛍️ Porosit #{order_id} artikull artikull , artikull Kontaktoni Mbështetje",
+        "I dashur {buyer_name}, na vjen keq t'ju informojmë se porosia juaj #{order_id} është anuluar. Nëse keni ndonjë pyetje, ju lutemi kontaktoni mbështetjen.",
 
-        "artikull {buyer_name}, artikull artikull 🛍️ Porosit #{order_id}. artikull artikull për të artikull artikull ",
+        "I dashur {buyer_name}, po përjetojmë një vonesë me porosinë tuaj #{order_id}. Kërkojmë ndjesë për shqetësimin dhe po punojmë për ta zgjidhur sa më shpejt të jetë e mundur.",
 
-        "artikull {buyer_name}, artikull 🛍️ Porosit #{order_id} artikull artikull Llogaria artikull Kontaktoni Mbështetje artikull artikull Detajet",
+        "Përshëndetje {buyer_name}, porosia juaj #{order_id} është aktualisht në pritje. Ju lutemi kontrolloni llogarinë tuaj ose kontaktoni mbështetjen për detaje të mëtejshme.",
 
-        "artikull {buyer_name}, artikull 🛍️ Porosit #{order_id} artikull artikull artikull Dorëzimi artikull artikull !",
+        "Përshëndetje {buyer_name}, porosia juaj #{order_id} doli për dorëzim dhe do t'ju arrijë së shpejti. Faleminderit për durimin tuaj!",
 
-        "artikull {buyer_name}, artikull artikull Kthimi artikull artikull 🛍️ Porosit #{order_id}. artikull artikull , artikull Kontaktoni Mbështetje",
+        "I dashur {buyer_name}, ne kemi përpunuar kthimin për porosinë tuaj #{order_id}. Nëse keni ndonjë pyetje, ju lutemi kontaktoni mbështetjen.",
 
-        "artikull {buyer_name}, artikull rimbursim artikull 🛍️ Porosit #{order_id} artikull artikull shiko artikull artikull Llogaria artikull",
+        "Përshëndetje {buyer_name}, rimbursimi juaj për porosinë #{order_id} është lëshuar. Së shpejti duhet të shihni fondet në llogarinë tuaj.",
 
-        "artikull {buyer_name}, artikull artikull Nga artikull 🛍️ Porosit #{order_id} artikull Mbrapa artikull artikull! artikull artikull I ri 🛍️ Porosit artikull artikull ",
+        "Përshëndetje {buyer_name}, artikulli nga porosia juaj #{order_id} është përsëri në magazinë! Mund të bëni një porosi të re tani nëse jeni ende të interesuar.",
       ],
     },
 
@@ -12267,14 +12267,14 @@ export default {
         "artikull",
       ],
       description: [
-        "artikull artikull artikull Artikuj si artikull, Ngjyrë, artikull artikull",
-        "Specifikimet artikull artikull Markë, artikull, artikull artikull",
-        "artikull, artikull, artikull Llojet artikull artikull",
-        "Detajet artikull artikull, artikull, artikull artikull Produktet",
+        "Atribute për artikujt e veshjeve si madhësia, ngjyra dhe pëlhura.",
+        "Specifikimet për pajisje të tilla si marka, modeli dhe veçoritë.",
+        "Shijet, përmasat dhe llojet e pijeve.",
+        "Detaje për vaktet, ushqimet dhe produktet ushqimore.",
         "Material, artikull, artikull Dizajn artikull",
         "Autori, artikull, artikull artikull artikull",
-        "artikull Lloji, artikull, artikull artikull Detajet",
-        "artikull artikull, artikull, artikull artikull artikull",
+        "Lloji i lëkurës, përbërësit dhe detajet e paketimit.",
+        "Grupmosha, materiali dhe standardet e sigurisë.",
         "Lloji, artikull, artikull Performanca artikull",
         "artikull, artikull, artikull Markë Detajet",
       ],

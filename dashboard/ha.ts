@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "Ajiye Ayyukan Aiki",
         subtitle:
-          "Sarrafa aikace-aikacen kasuwancin ku.",
+          "Gano sauƙin sarrafa aikace-aikacen kasuwancin ku tare da Selldone App Store. Dandalin mu yana ba da cikakkun kayan aikin da aka tsara don inganta ayyukan kasuwancin ku. Daga ingantattun hanyoyin gudanarwa zuwa ƙa'idodi masu haɓaka haɓaka aiki, Selldone yana ba da ƙwarewa mara kyau ga kasuwancin da ke neman inganci da haɓaka.",
         all: "duka",
       },
       /** {@see BAppShopStore} **/
@@ -5705,12 +5705,12 @@ export default {
     licenses_table: {
       title: "Tarihin Sayi",
       subtitle:
-        "Lasisi masu aiki da jiran aiki.",
+        "Wannan jerin lasisi ne masu aiki kuma masu jiran aiki. Kuna iya siyan ma'amaloli bayan ba da kuɗin walat ɗin ku. Bugu da ƙari, da fatan za a lura cewa lokacin da kuka soke biyan kuɗi, sauran adadin kuɗin kuɗin za a mayar da su zuwa walat ɗin ku.",
     },
     license_detail: {
       title: "Cikakkun bayanai",
       subtitle:
-        "Iyaka akan shirin ku na yanzu.",
+        "Waɗannan su ne iyakoki na shirin ku na yanzu. Don ƙarin cikakkun bayanai, da fatan za a ziyarci shafin farashin. Kuna iya samun dama ga duk fasalulluka a duk tsare-tsare, gami da shirin kyauta, don fara kasuwancin ku da haɓaka. Yayin da kuke haɓaka kasuwancin ku, la'akari da haɓakawa zuwa tsari mafi girma don rage kuɗin sabis ɗin ku.",
     },
 
     table: {
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "Dillalai na",
     message:
-      "Jerin dillalai na.",
+      "Wannan shine lissafin asusun mai siyar ku. Duk asusun dillalai masu alaƙa da shagunan da ke amfani da dandamalin Selldone za a nuna su anan, ba ku damar sarrafa su cikin sauƙi.",
   },
 
   vendor_page: {},

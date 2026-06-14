@@ -31,7 +31,7 @@ export default {
     main_domain: "主網域",
     domains: "域",
     home_page: "首頁",
-    google_icon_font_sample: "Google 项目 项目",
+    google_icon_font_sample: "谷歌字體範例",
     fontawesome_icon_font_sample: "Fontawesome (V6) 项目",
   },
 
@@ -88,7 +88,7 @@ export default {
   ai: {
     remove_bg: {
       title: "移除背景",
-      subtitle: "創造 项目 项目.",
+      subtitle: "建立透明背景。",
     },
     reimagine: {
       title: "项目",
@@ -96,13 +96,13 @@ export default {
     },
     upscale: {
       title: "项目",
-      subtitle: "项目 项目 项目 项目 项目 圖片.",
+      subtitle: "提高影像的解析度。",
     },
   },
 
   // ------------------ Pages Title ------------------
   page_titles: {
-    home: "Selldone ╏ 项目 项目 项目 项目 项目 项目 公司",
+    home: "Seldone ╏ 快速成長公司的業務作業系統",
     login: "登錄",
     register: "登記",
     auth_2fa: "2因素認證🔐",
@@ -225,7 +225,7 @@ export default {
   },
 
   /** @see SShopProductRatingView **/
-  surveys: ["项目 项目", "项目", "普通的", "项目", "项目"],
+  surveys: ["很窮", "项目", "普通的", "项目", "项目"],
 
   /** @see SortView **/
   sort: {
@@ -250,9 +250,9 @@ export default {
   /** {@see Helps} **/
 
   helps: {
-    title: "Selldone 项目 项目",
+    title: "塞爾丹幫助中心",
     subtitle:
-      "项目 至 项目 Selldone 项目 项目, 项目 项目 项目 至 项目 项目 项目 项目 项目 店鋪 项目 项目 项目 项目 项目 项目. 项目 项目 資源, 项目, 项目 项目 项目 至 项目 项目 店鋪’项目 設置, 项目 项目, 项目 项目 项目.",
+      "歡迎來到 Seldone 幫助中心，這是您在強大的商業作業系統中建立和管理線上商店的綜合指南。探索我們的資源、教學和最佳實踐，以簡化商店的設置、最大限度地提高效率並推動成長。",
 
     add_new_help: "新幫助",
     resources: "資源",
@@ -304,7 +304,7 @@ export default {
   api: {
     title: "API 與集成",
     message:
-      "项目 项目 项目 项目 项目 项目 Selldone 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 專賣店 至 项目 服務 项目 项目 项目, 會計, 项目. 项目 项目 项目 設計 風俗 應用 项目 项目 應用 项目 项目 店鋪. 项目 项目 至 项目 项目 项目 项目 數據 项目. 项目 项目 项目 領域 项目. 项目 项目 项目 全部 项目 项目 项目 项目 用戶, 项目 项目 项目 領域 项目.",
+      "Selldone 的主要功能之一是提供強大且安全的 API 來管理商店並將其連接到其他服務，例如倉儲、會計等。您也可以為商店設計自訂應用程式和 Web 應用程式。無需擔心伺服器和資料管理。只需使用網域 API。您將擁有管理使用者、身份驗證和其他網域功能的所有流程。",
   },
 
   /** {@see BPageShuttle} **/
@@ -473,9 +473,9 @@ export default {
           input_domain: "域名網址",
           correct: "域設置正確。",
           set_message: "將此域的 CNAME 設置為 {cname}。",
-          input_domain_message: "项目 项目 領域 姓名 项目 HTTP 项目 HTTPS.",
+          input_domain_message: "輸入域名，不帶http和https。",
           ssl_message:
-            "项目 项目 项目 项目 SSL 项目 项目 项目 網站. 项目 项目 项目 SSL 项目 项目 项目 有薪酬的 CDN 提供者 喜歡 Cloudflare.",
+            "不用擔心您網站的 SSL 憑證。您可以透過免費或付費 CDN 提供者（例如 Cloudflare）來取得 SSL。",
           active: "域處於活動狀態",
           inactive: "域被禁用",
           success_message:
@@ -502,7 +502,7 @@ export default {
       active_orders: {
         title: "訂單",
         title_small:
-          "物理、文件、虛擬和服務訂單",
+          "透過線上、酪梨和超級管道進行實體、文件、虛擬、服務和訂閱訂單。",
         pending_orders: "掛單",
         physical: "實物產品訂單",
         virtual: "虛擬產品訂單",
@@ -568,7 +568,7 @@ export default {
       channels: {
         title: "獲客渠道",
         subtitle:
-          "项目 项目 项目 项目. 项目 项目 项目 報告 项目 项目 项目 项目 頻道.",
+          "您的業務正在成長。這是您的客戶獲取管道的報告。",
       },
 
       /** {@see BDashboardShopPerformance} **/
@@ -594,7 +594,7 @@ export default {
       menu_export: "出口產品",
       menu_import: "進口產品",
       drop_import_message:
-        "项目 產品 列表 项目 (CSV, XLS, XLSX 项目) 项目 至 開始 项目 项目 產品. 项目 项目 项目 项目 项目 项目 Selldone 產品 列表 项目.",
+        "將產品清單檔案（CSV、XLS、XLSX 格式）拖曳到此處即可開始新增大量產品。確保檔案具有 Selldone 產品清單格式。",
 
       menu_advanced_options: "進階選項",
       menu_advanced_options_description:
@@ -606,12 +606,12 @@ export default {
       },
       products_api: {
         title: "產品 API",
-        subtitle: "项目 產品 项目 项目 项目 项目 API 项目.",
+        subtitle: "透過可公開存取的 API 呼叫導入產品。",
       },
       google_sheet: {
-        action: "项目 项目",
+        action: "連結表",
         tooltip:
-          "项目 產品 项目 项目 店鋪 项目 项目 至 项目 Google 项目 项目 Google 项目.",
+          "該商店中的產品連結到 Google 雲端硬碟中的 Google 試算表。",
       },
       show_deletes: {
         false_title: "隱藏已刪除",
@@ -620,35 +620,35 @@ export default {
         true_description: "项目 已刪除 產品.",
       },
       show_vendors: {
-        false_title: "项目 项目",
-        false_description: "项目 项目 项目 所有者.",
+        false_title: "隱藏供應商",
+        false_description: "只需向供應商所有者展示即可。",
         true_title: "顯示供應商",
         true_description: "项目 全部 项目, ⌘Ctrl+1",
       },
       table_mode: {
         false_title: "拖放模式",
         false_description:
-          "看法 產品 项目 项目 類別 项目 项目.",
+          "查看按類別和子類別組織的產品。",
         true_title: "表格模式",
-        true_description: "看法 產品 项目 项目 项目 项目 项目.",
+        true_description: "以詳細的表格佈局查看產品。",
       },
 
       show_notes: {
-        false_title: "项目 项目",
-        false_description: "项目 项目 项目.",
-        true_title: "项目 项目",
+        false_title: "隱藏註釋",
+        false_description: "隱藏空筆記。",
+        true_title: "顯示註釋",
         true_description: "项目 全部 项目, ⌘Ctrl+2",
       },
 
       rss_dialog: {
         title: "產品 RSS",
         subtitle:
-          "项目 项目 RSS 项目 至 项目 项目 项目 列表 项目 全部 產品.",
+          "利用此 RSS 來源來維護所有產品的最新清單。",
       },
       api_dialog: {
         title: "產品 API",
         subtitle:
-          "项目 项目 API 项目 至 项目 项目 產品 列表 项目. 项目 项目 项目 项目 项目 API 至 项目 產品 從 项目 店鋪, 项目 项目 项目 项目 產品 项目 项目 项目 项目.",
+          "使用此 API Feed 讓您的產品清單保持最新。它提供了一個可公開訪問的 API，用於從您的商店獲取產品，使其成為產品清單和比較網站的理想選擇。",
       },
 
       /** {@see BProductWindowProductLarge} **/
@@ -779,7 +779,7 @@ export default {
         add_account_dialog: {
           title: "將信用賬戶連接到商店",
           subtitle:
-            "项目 项目 项目 錢包 帳戶 项目 Selldone, 项目 项目 收到 项目 项目 项目 卡片. 项目 Selldone 项目 費用 项目 项目 项目 至 项目 帳戶. 项目, 项目 项目 帳戶 平衡 项目 项目, 项目 費用 项目 项目 项目 项目 项目.",
+            "在 Selldone 開設錢包帳戶後，您將收到一張虛擬信用卡。 Seldone 服務費將記入此帳戶。但如果您的帳戶餘額不足，該費用將成為應付債務。",
           account_number: "帳號",
           account_number_input_message:
             "該商店將鏈接到此帳戶。該帳戶將用於支付費用和成本。",
@@ -858,21 +858,21 @@ export default {
       restriction: {
         title: "船運 项目",
         subtitle:
-          "项目 项目 项目 项目 至 项目 项目 项目 顧客 项目 项目 项目 船運 项目 项目 项目 購買 從 项目!",
+          "您可以實施限制，確保只有指定配送區域內的客戶才能向您購買！",
         no_enable_shipping_error:
-          "不 项目 项目 買 從 项目 项目 项目 项目 不 项目 船運 项目!",
+          "沒有人可以向您購買，因為您沒有啟用的運送方式！",
         customer_must_select_a_shipping_msg:
-          "项目 项目 项目 项目 船運 项目 至 项目 命令.",
+          "客戶必須選擇運送方式才能下訂單。",
         customer_can_order_without_shipping_method_msg:
-          "项目 项目 项目 项目 命令 项目 项目 不 船運 项目 项目 项目 项目 项目 地點.",
+          "即使所選地點不支援運送方式，客戶也可以下訂單。",
         inputs: {
           restriction: {
             false_description:
-              "顧客 项目 项目 项目 訂單 项目 项目 不 项目 船運 项目 项目 项目 项目.",
+              "即使沒有選擇特定的運送方式，客戶仍然可以下訂單。",
             false_title: "接受 全部 訂單",
             true_title: "项目 接受 命令",
             true_description:
-              "顧客 项目 项目 至 项目 项目 项目 船運 项目 项目 项目 项目 命令 至 项目 项目 購買.",
+              "客戶需要選擇送貨或取貨選項才能完成購買。",
           },
         },
       },
@@ -881,7 +881,7 @@ export default {
       warehouse_btn_error:
         "設置您的倉庫、商店或業務來源。在運輸成本計算和結帳過程中至關重要。",
       no_multi_warehouse_support_message:
-        "项目 项目, 项目 项目 项目 项目 可用的 项目 普通的 專賣店.",
+        "為簡單起見，一般商店不提供此功能。",
       size_unit: {
         title: "尺寸單位",
         subtitle: "用於長度、寬度和高度的單位。",
@@ -892,7 +892,7 @@ export default {
       },
       distance_unit: {
         title: "项目 單元",
-        subtitle: "项目 單元 用過的 项目 项目.",
+        subtitle: "用於距離的單位。",
       },
 
       menu: {
@@ -903,7 +903,7 @@ export default {
         logistic_apps: "後勤",
         profiles: "簡介",
         includes: "包括",
-        property_sets: "项目 项目",
+        property_sets: "屬性集",
         boxes: "项目",
       },
 
@@ -923,7 +923,7 @@ export default {
         title: "運輸方式",
 
         sub_title:
-          "通過設置此部分中的值，可以在您的商店中激活各種發送方法。貨到付款方式也可以在此部分激活。",
+          "透過在本節中將送貨選項納入您的商店，您可以啟用一系列送貨方式。可以為每種運輸服務啟動貨到付款方式。每項服務都允許獨立的成本計算，並且您可以自訂這些運輸服務以滿足您的需求。此外，您還可以選擇將第三方運輸服務或個人快遞與每個運送選項整合。",
         add_transportation: "添加交通工具",
 
         /** {@see DeliveryFormWidget} **/
@@ -1100,7 +1100,7 @@ export default {
       my_apps: {
         title: "存儲活躍的應用程序",
         subtitle:
-          "项目 项目 项目 项目 项目 项目 项目 應用 项目 Selldone 應用程序 店鋪. 项目 项目 優惠 项目 项目 项目 项目 工具 项目 至 项目 项目 项目 项目. 從 项目 项目 项目 至 项目 應用, Selldone 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "使用 Selldone App Store 探索管理業務應用程式的便利性。我們的平台提供一整套旨在優化您的業務營運的工具。從創新的管理解決方案到提高生產力的應用程序，Selldone 為尋求效率和成長的企業提供無縫體驗。",
         all: "全部",
       },
       /** {@see BAppShopStore} **/
@@ -1170,23 +1170,23 @@ export default {
         title: "網絡應用",
         sub_title: "在此處查看您的商店網絡應用程序",
         message:
-          "项目 项目 編輯 项目 網站 项目 项目 项目 项目 iPhone 项目 iPad 项目 项目 iOS 應用程序.",
+          "您可以在 iPhone 和 iPad 上的 iOS 應用程式中編輯網站歡迎頁面。",
         ios_app: "iOS 應用程序",
       },
 
       /** {@see BPageShopApplicationsIos} **/
       ios: {
         title: "iOS 應用程序",
-        sub_title: "项目 项目 项目 项目 项目 至 建造 项目 iOS 應用程序 项目 项目 店鋪.",
+        sub_title: "您很快就可以為您的商店建立 iOS 應用程式。",
         message:
           "最大文件大小：512 KB，您可以上傳最大 1MB 的文件，前提是我們的壓縮系統能夠將大小減小到 512KB。上傳的圖像將智能調整大小。",
       },
       /** {@see BPageShopApplicationsAndroid} **/
       android: {
         title: "安卓應用",
-        sub_title: "建造 项目 项目 Android 應用程序",
+        sub_title: "建立您自己的 Android 應用程式",
         message:
-          "项目 项目 项目 项目 项目 项目 项目 建造 项目. 项目 项目 项目 不 项目 项目 项目 项目. 全部 项目 项目 项目 项目 建造 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 應用程序 项目 项目 项目 至 全部 项目.",
+          "填寫此表格並按建構鍵。不需要任何其他東西。應用程式建置和簽署過程的所有步驟都在雲端伺服器上執行。最終的應用程式將上傳到所有AppStore。",
         server_un_available:
           "實驗上，此時應用服務器沒有連接。",
         app_building_progress: "您的應用正在構建中。",
@@ -1196,7 +1196,7 @@ export default {
         main_info: "應用程序包",
         package_name_input_message: "確保包名是唯一的。",
         package_name_input_alert:
-          "项目 项目 改變 项目 姓名, 项目 项目 不 项目 项目 项目 至 更新 项目 项目 應用 项目 项目 项目 安裝 项目 新的 项目. 筆記 项目 项目 版本 應用程序 用戶 项目 项目 项目 项目 项目 至 项目 项目 至 项目 賬戶.",
+          "如果更改此名稱，您將無法再更新 AppStore 中先前的應用程式並安裝新應用程式。請注意，舊版應用程式使用者也將無法登入其帳戶。",
         version_input: "版本",
         version_input_message:
           "此數字必須始終大於其先前的值。",
@@ -1213,7 +1213,7 @@ export default {
         app_title_input_message: "此標題顯示在應用程序的頂部。",
         app_title_input_placeholder: "輸入標題",
         app_icon_input: "應用程序圖標",
-        app_icon_input_placeholder: "项目 项目 项目 项目 项目 應用程序 项目.",
+        app_icon_input_placeholder: "選擇應用程式圖示的 zip 檔案。",
         generate_icon_pack_action: "構建圖標包",
         splash_design: "啟動畫面設計",
         splash_logo_input: "啟動畫面標誌",
@@ -1238,10 +1238,10 @@ export default {
           icon_pack_not_valid_error: "文件不正確。",
           start_building_title: "建造 ...",
           start_building_message:
-            "项目 项目 项目 Android 應用 项目.",
+            "已提交建置 Android 應用程式的請求。",
           build_success_title: "恭喜",
           build_success:
-            "项目 Android 應用程序 项目 项目, 项目 项目 项目 项目 项目 项目.",
+            "您的 Android 應用程式已準備就緒，您可以立即下載。",
         },
       },
     }, // End of applications
@@ -1301,7 +1301,7 @@ export default {
         contact_tab: {
           title: "聯繫方式和本地業務",
           subtitle:
-            "上市 接觸 项目 项目 Google 项目 项目 設置.",
+            "公開聯絡資訊和 Google 本地業務設定。",
         },
         image_tab: {
           title: "標識",
@@ -1310,7 +1310,7 @@ export default {
         favicon: {
           title: "项目",
           subtitle:
-            "项目 项目 项目, 项目 圖片 项目 项目 项目 網站 项目 项目 项目, 项目, 项目 移動的 應用程序 项目.",
+            "網站圖示是小型的標誌性圖像，在瀏覽器標籤、書籤和行動應用程式介面中代表網站。",
         },
       },
 
@@ -1418,7 +1418,7 @@ export default {
       description: "描述",
       form: "项目",
       no_spec: "不 项目",
-      has_spec: "项目 项目",
+      has_spec: "有規格",
     },
 
     select_type: {
@@ -1428,17 +1428,17 @@ export default {
     /** {@see BProductEditInfo} **/
     edit_info: {
       category_input: "類別",
-      category_input_msg: "项目: 项目 项目 项目 项目",
+      category_input_msg: "空：在商店的根目錄中",
       product_name: "產品名稱*",
       product_name_placeholder: "您的產品名稱在這裡..",
       product_code: "產品代碼（英文）",
       sku: {
         label: "SKU",
-        message: "项目 项目 單元",
+        message: "庫存單位",
       },
       mpn: {
         label: "MPN",
-        message: "项目 项目 项目",
+        message: "製造商零件號",
       },
 
       external_link: "外部鏈接",
@@ -1473,7 +1473,7 @@ export default {
         subscription_message:
           "訂閱產品可以有一個供應商，因此您可以在供應商面板中建立它們或在建立步驟中為其分配供應商。選定的供應商將成為該產品的所有者。",
         default_message:
-          "项目 项目 项目 项目 项目 產品 项目 至 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 產品 项目 至 市場 项目 更多的 项目 项目 项目 项目 项目 项目.",
+          "您可以指定該產品是否屬於一個供應商，因此只有一個供應商可以銷售它，或者該產品屬於 Marketplace 並且多個供應商可以銷售它。",
 
         single_vendor_title: "單一供應商",
         single_vendor_desc:
@@ -1486,55 +1486,55 @@ export default {
 
       category: {
         subtitle:
-          "项目 项目 類別 项目 標題 至 项目 项目 项目 项目 项目.",
+          "配置要在清單中顯示的類別和標題。",
       },
       unit: {
         subtitle:
-          "项目 项目 项目 项目 项目 项目 價錢 项目 项目 项目 项目 项目 產品 项目.",
+          "您可以個性化產品頁面上定價和號召性用語元素的顯示。",
       },
       custom_pricing: {
         title: "風俗 價錢 项目",
         subtitle:
-          "项目 项目 創造 项目 项目 项目 项目 (项目 價錢 輸入 项目) 至 项目 產品, 项目 项目 顧客 项目 项目 项目 變體 项目 项目 项目 项目 项目 项目 项目 輸入 项目.",
+          "您可以為產品建立或分配估價（定價輸入表單），並且您的客戶可以在變體之間進行選擇或透過直覺的輸入表單自訂您的商品。",
         valuation_need_saved_product_message:
-          "项目 節省 项目 產品 项目, 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "請先儲存產品，然後您可以指定評估模型。",
         assign_valuation_message:
-          "项目 项目 项目 项目 项目 至 项目 產品.",
+          "請為該產品指派一個評估模型。",
         edit_pricing_action: "編輯 價錢 项目",
         add_pricing_action: "創造 新的 價錢 项目",
       },
       action: {
         title: "風俗 買 项目",
         message:
-          "项目 项目 改變 圖標 项目 项目 项目 项目: {icon name} 项目...",
-        placeholder: "项目 项目 至 项目...",
-        multi_language_dialog_title: "風俗 買 项目 项目",
+          "您可以依照下列模式變更圖示：{icon name} 標題...",
+        placeholder: "輸入號召性用語...",
+        multi_language_dialog_title: "自訂購買按鈕標題",
       },
       external: {
         not_available_message:
-          "项目 项目 可用的 项目 公司 & 项目 项目.",
-        available_message: "项目 项目 项目 项目 项目 项目 项目 至 项目.",
-        input_label: "项目 项目 至 项目",
+          "透過公司和企業許可證可以執行額外操作。",
+        available_message: "您可以新增額外的外部號召性用語。",
+        input_label: "第二次號召性用語",
       },
       warehouse: {
         subtitle:
-          "项目 项目 项目 项目 项目 项目 倉庫 项目 项目 项目 项目 至 项目 项目 项目 產品.",
+          "此資訊由倉庫管理系統使用，用於全域識別產品。",
       },
       gtin: {
-        hint: "项目 项目 项目 UPC (项目 项目, 12 项目), EAN (项目, 13 项目), JAN (项目, 8 项目 13 项目), ISBN (项目, 13 项目).",
-        label: "项目 项目 项目 物品 项目",
-        placeholder: "项目 项目 项目 项目.. (项目)",
+        hint: "支援的值為 UPC（北美，12 位數字）、EAN（歐洲，13 位數字）、JAN（日本，8 或 13 位數字）、ISBN（書籍，13 位數字）。",
+        label: "產品的全球貿易項目編號",
+        placeholder: "全球貿易編號在這裡..（可選）",
       },
       hsn: {
-        hint: "HSN, 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品.",
+        hint: "HSN（統一命名系統）是用於對商品和產品進行分類的國際標準化分類系統。",
         placeholder: "6~16 项目 HSN 代碼.. (项目)",
         label: "HSN",
       },
       condition: {
-        label: "產品 项目 项目 项目 店鋪",
-        message: "项目 项目 项目 项目 项目 项目 產品.",
+        label: "您商店中的產品狀況",
+        message: "請選擇該產品的狀況。",
         subtitle:
-          "项目 项目 顧客 项目 项目 项目 项目 牌 项目 项目 產品 项目 项目.",
+          "告知您的客戶您所提供產品的狀況和品牌。",
       },
       brand: {
         label: "牌",
@@ -1542,7 +1542,7 @@ export default {
       },
       warranty: {
         subtitle:
-          "项目 项目 项目 项目 產品 地位, 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 時間 项目 项目 项目 產品 项目 项目 回來 项目 購買.",
+          "設定保固和產品狀態，因為有關保固的資訊將顯示給客戶，並有助於確定購買後可以退回產品的時間範圍。",
 
         label: "项目",
         placeholder: "金的 24 月 项目.. (项目)",
@@ -1550,17 +1550,17 @@ export default {
       status: {
         title: "地位",
         subtitle:
-          "项目 项目 地位 项目 项目 项目 项目 项目 项目. 至 项目 项目 產品 草稿, 项目 项目 项目 地位 至 '项目..",
+          "產品的狀態決定了其線上和店內的可用性。要製作產品草稿，只需將其狀態切換為「非活動」即可。",
       },
       profiles: {
         title: "簡介",
         subtitle:
-          "项目 项目 项目 项目, 返回 项目, 船運, 项目 项目 项目 项目 项目 至 项目 產品. 项目 项目 项目 项目 项目 新的 项目 项目 项目 產品 项目.",
+          "您可以定義保固、退貨政策、運送並指導並將其分配給該產品。它將在產品頁面上顯示為新選項卡。",
       },
       shortcuts: {
         title: "项目 產品 至 项目 類別",
         subtitle:
-          "项目 项目 项目 项目 至 列表 项目 產品 项目 项目 類別 项目 项目 项目 项目 项目 项目 基本的 類別 项目 项目 產品 > 編輯 > 類別. 项目, 项目 项目 项目 至 项目 '项目 项目 项目 项目, 项目 项目 產品 至 项目 项目 项目 项目 類別.",
+          "此功能可讓您在多個類別中列出產品，同時保留其在產品 > 編輯 > 類別下設定的主要類別中的位置。從本質上講，它的功能類似於在作業系統中建立“快捷方式”，使產品能夠出現在其他指定的類別中。",
       },
     },
 
@@ -1572,7 +1572,7 @@ export default {
       rating_input: "民意調查",
       rating_input_message: "您可以在投票中添加 5 個項目。",
       rating_input_placeholder:
-        "项目 项目 風俗 民意調查 問題 项目... 项目 项目 项目!",
+        "在這裡寫下您的自訂調查問題...然後按 Enter！",
 
       item_unit: "物品",
 
@@ -1591,12 +1591,12 @@ export default {
       select_from_list: "從列表中選擇",
 
       suggestion_rating: [
-        "项目 项目",
+        "品質好",
         "项目 價值",
-        "项目 项目",
-        "项目 项目 项目",
+        "會推薦",
+        "特性和功能",
         "项目 至 项目",
-        "项目 项目",
+        "設計精良",
         "性能可靠",
         "有效的客戶支持",
         "滿意的交貨時間",
@@ -1635,26 +1635,26 @@ export default {
     edit_spec: {
       title: "技術規格",
       subtitle:
-        "项目 產品 規格 项目. 项目 项目 项目 项目 项目 至 顧客 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "在此插入產品規格。這些資訊將向客戶顯示，也可以在該類別的智慧過濾系統中使用。",
       manual: {
         title: "项目",
         subtitle:
-          "项目 產品 規格 项目 项目 项目 项目 项目 项目 项目.",
+          "透過定義群組和鍵值對手動新增產品規格。",
         add_group_action: "添加組",
-        add_item_action: "项目 项目 價值",
+        add_item_action: "新增規格值",
       },
       import: {
         subtitle:
-          "项目 项目 项目 技術的 規格 项目 项目 產品.",
+          "您可以匯入同類產品的技術規格。",
         action_title: "项目",
-        action_subtitle: "项目 项目 從 项目 產品.",
+        action_subtitle: "從另一個產品克隆規格。",
       },
       ai: {
         title: "AI",
         subtitle:
-          "项目 项目 项目 創造 產品 規格 项目 项目 项目 项目 项目 數據 项目 项目 项目.",
-        action_title: "项目 项目 项目 AI",
-        action_subtitle: "創造 產品 規格 项目 项目 项目.",
+          "您可以透過以文字形式提交產品的原始資料來自動建立產品規格。",
+        action_title: "AI自動生成",
+        action_subtitle: "透過抽象提示建立產品規格。",
       },
 
       group_input_header: "添加組",
@@ -1677,7 +1677,7 @@ export default {
         code_input_message: "產品編號：P0000 ...",
         spec_view_title: "所選產品的規格",
         spec_view_subtitle:
-          "项目 規格 项目 项目 项目 從 项目 项目 產品.",
+          "規格已從所選產品中匯入。",
         set_spec_action: "重複的技術規格",
       },
       notifications: {
@@ -1687,30 +1687,30 @@ export default {
         spec_saved_success: "產品規格已保存。",
       },
       dialog_ai: {
-        title: "项目 项目 產品 規格",
+        title: "自動產生產品規格",
         prompt: {
           title: "產品 概述",
           subtitle:
-            "项目 项目 项目 项目 项目 项目 描述 项目 项目 產品, 项目 项目 项目 项目 项目 細節. 项目 项目 项目 项目 用過的 至 项目 项目 项目 產品 規格.",
+            "請提供產品的簡短清晰的描述，突出其主要功能和細節。這些資訊將用於自動產生產品規格。",
         },
         generated_spec: {
           title: "AI-项目 規格",
           subtitle:
-            "项目 規格 项目 项目 项目 项目 项目.",
+            "這些規格是由人工智慧產生的。",
         },
         inputs: {
           prompt: {
             label: "產品 細節",
-            placeholder: "项目 项目 產品 项目...",
+            placeholder: "在這裡描述產品...",
           },
         },
         actions: {
           run: {
             title: "项目 規格",
             subtitle:
-              "项目 至 项目 創造 產品 規格 從 项目 项目 概述.",
+              "按一下可根據提供的概述自動建立產品規格。",
           },
-          add_generated_spec: "项目 项目 規格",
+          add_generated_spec: "新增生成的規格",
         },
       },
     },
@@ -1732,23 +1732,23 @@ export default {
       video: {
         title: "視頻",
         sub_title:
-          "项目, 项目 项目 產品 視頻 项目 YouTube, 项目 项目 项目 项目 視頻 URL 项目.",
+          "首先，在 Youtube 上上傳您的產品視頻，然後將視頻 URL 放在這裡。",
       },
       change_bg_ai: {
         title: "創造 圖片 项目 新的 项目",
         inputs: {
           prompt: {
             label: "项目 描述",
-            placeholder: "项目 项目 项目 项目...",
+            placeholder: "描述所需的背景...",
           },
         },
         actions: {
           reimagine: {
             title: "项目 新的 圖片",
-            subtitle: "项目 项目 项目 圖片 项目 项目 新的 项目.",
+            subtitle: "用新的背景重新想像整個影像。",
           },
           replace: {
-            subtitle: "项目 项目 项目 项目.",
+            subtitle: "替換現有背景。",
           },
         },
       },
@@ -1766,7 +1766,7 @@ export default {
 
       price_label_input: "價格標籤",
       price_label_message:
-        "项目 项目 信息 项目 價格 喜歡 ($1.5/项目 项目). 项目 项目: 项目, FMCG.",
+        "添加有關價格的額外信息，例如 ($1.5/Fl Oz)。使用案例：雜貨、快速消費品。",
       add_price_label_action: "添加價格標籤",
       discount_input: "折扣",
       discount_input_message: "折扣率",
@@ -1783,29 +1783,29 @@ export default {
 
       subtitle: {
         marketplace:
-          "项目 项目 市場, 项目 基本的 產品 價錢 项目 项目 项目 项目 價格, 项目 项目 项目 價格 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "在市場中，顯示的主要產品定價是標價，而實際價格則根據供應商-產品關係記錄確定。",
         subscription:
-          "项目 訂閱, 项目 项目 项目 價格 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 訂閱 計劃.",
+          "對於訂閱，僅顯示掛牌價格，實際費用將根據所選訂閱方案決定。",
         service:
-          "项目 项目 產品, 项目 项目 價錢 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 價格 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 命令 (项目 查看).",
-        file: "项目 项目 至 项目 项目 项目 项目 價格 项目 项目 项目, 项目 顧客 项目 支付 项目 命令 至 项目 使用權 至 项目 项目.",
+          "對於基於服務的產品，列出的定價僅用於展示目的，提供服務的估計成本。實際服務價格將在客戶下訂單（結帳時）後由您決定。",
+        file: "這是指文件的列出價格和實際價格，客戶必須支付該價格才能存取文件。",
         default:
-          "项目 项目 至 项目 项目 项目 價格 项目 项目 项目 项目 帳戶 项目 價格 项目 项目 變體 项目 项目 项目 项目 项目 價錢.",
+          "這是指產品的標價，並且還考慮到任何沒有單獨定價的變體的價格。",
       },
       extra_pricings: {
-        title: "项目 项目 價錢",
-        subtitle: "项目 项目 價錢 项目 项目 購買 數量.",
+        title: "添加額外定價",
+        subtitle: "根據採購數量實施動態定價。",
       },
 
       vendor: {
         title: "项目 價錢",
         subtitle:
-          "项目 價格 项目 项目 项目 项目 项目 项目 產品 项目. 项目 项目 项目 项目 價格 项目 项目 產品 > 项目 项目.",
-        manage_vendors: "项目 项目",
+          "此價格僅顯示在產品清單中。您可以在產品 > 供應商標籤中設定供應商價格。",
+        manage_vendors: "管理供應商",
         vendor_product_pricing_link:
-          "项目 项目 產品 價錢 项目 連接的. 项目 项目 项目 價格 项目 项目 项目 项目 產品 项目 變體 项目 项目 项目 變體 项目 项目 项目 项目 项目 價錢 (项目 项目 项目 價格 项目 项目 项目 產品). 项目 價格 项目 项目 项目 项目 项目 市場 價格, 项目 项目 项目 價格 项目 项目 项目 项目 项目 项目 價錢 项目 项目 项目 项目 市場 项目 项目.",
+          "供應商的產品定價是相關的。更改此处的上市价格将影响没有变体的供应商产品或具有没有自己定价的变体的供应商产品（使用与主要产品相同的价格）。該價格將被視為市場價格，供應商的價格將根據定價模型或先前的市場利潤率來設定。",
         vendor_variant_pricing_link:
-          "项目 项目 项目 價格 项目 项目 项目 项目 價錢 项目 项目 產品 项目 项目 项目 项目. 项目 價格 项目 项目 项目 项目 市場 價格, 项目 项目 项目 價格 项目 项目 项目 项目 至 项目 價錢 项目 项目 项目 项目 市場 项目 项目.",
+          "在此改變體價格將影響具有相同變體的供應商產品的定價。該價格將被視為市場價格，供應商的價格將根據定價模型或先前的市場利潤率來設定。",
       },
     },
     /** {@see ProductEditInputs} **/
@@ -1818,7 +1818,7 @@ export default {
         "此消息將在購買產品時顯示給客戶。",
       inputs_form: "信息結構（輸入）",
       inputs_hint:
-        "项目 项目 项目 项目 至 项目 项目 项目 项目 项目 至 项目 細節 從 项目 顧客 项目 项目 项目 至 项目 项目 命令.",
+        "您可以選擇設定個人化表單，以便在客戶準備下訂單時收集詳細資訊。",
     },
 
     /** {@see BProductEditExtra} **/
@@ -1837,7 +1837,7 @@ export default {
       order_limit: {
         title: "命令 限制",
         subtitle:
-          "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 限制 项目 项目 數量 项目 项目 物品 项目 命令, 项目 项目 项目 项目 项目.",
+          "如果您是批發商，或每個訂單的該商品數量有最小或最大限制，您可以在此指定。",
         no_limit: "不 限制",
         minimum_purchase_quantity: "项目 購買 數量",
         maximum_purchase_quantity: "项目 購買 數量",
@@ -1852,34 +1852,34 @@ export default {
     delete_product: {
       title: "刪除產品",
       message: `您要刪除<b>{product_title}</b>嗎？`,
-      tips: "项目 项目 项目 刪除 项目 產品, 项目 项目 项目 项目 项目 项目 至 项目 店鋪 > 產品, 项目 项目 已刪除 項目, 项目 项目 项目 项目 项目 產品, 项目 项目 项目.",
+      tips: "如果您不小心刪除了產品，您可以透過導航到商店 > 產品，啟用“顯示已刪除的項目”，然後右鍵單擊該產品並選擇“恢復”來恢復它。",
     },
   },
 
   /** {@see BProductExtraPricingAdd} **/
   extra_pricing_add_dialog: {
-    title: "项目 價錢 项目 项目 {min}",
+    title: "超過 {min} 的額外定價",
     subtitle:
-      "项目 项目 项目 项目 项目 命令 项目 優先 项目 價格 项目. 项目 輸入 项目 项目 數量 项目 项目 项目 價錢 至 项目 项目.",
+      "系統會自動決定價格計算的順序和優先順序。請輸入此定價生效所需的最低數量。",
     min_quantity: "最小用量",
   },
   /** {@see BProductInventoryManagementPhysical} **/
   product_inventory_management_physical: {
     subtitle: {
       dropshipping:
-        "存貨 项目 代發貨 產品 项目 项目 项目 项目, 项目 项目 项目 项目 项目.",
+        "直銷產品的庫存由批發商設置，無法在此修改。",
       marketplace:
-        "项目 项目 產品 存貨 项目 项目 市場 项目 项目 项目 项目 项目 项目 项目 项目 全部 项目. 项目 项目 项目 项目 项目.",
-      default: "项目 项目 项目 存貨 數數 项目.",
+        "市場上的整體產品庫存是透過將所有供應商的庫存相加來確定的。您不能在這裡修改它。",
+      default: "在此指定產品的庫存數量。",
     },
     menu: {
       add_bulk: {
-        title: "项目 项目",
-        subtitle: "项目 项目 變體 项目 项目 项目.",
+        title: "大量新增",
+        subtitle: "在一項操作中新增多個變體。",
       },
       edit_property_set: {
-        title: "项目 项目 项目",
-        subtitle: "改變 變體 项目, 项目 项目 訂單.",
+        title: "自訂屬性集",
+        subtitle: "更改變體名稱、圖標和順序。",
       },
     },
   },
@@ -1894,26 +1894,26 @@ export default {
   /** {@see BProductGoogleCategoryInput} **/
   google_product_category_input: {
     label: "Google 產品 類別 代碼",
-    hint: "项目 项目 類別 项目 项目 產品 项目 至 项目 Google'项目 產品 项目.",
-    placeholder: "项目 產品 项目 项目 類別.. (项目)",
+    hint: "代表根據 Google 產品分類法的產品類別。",
+    placeholder: "輸入產品或服務類別..（可選）",
   },
   /** {@see LogisticProfileType} **/
   LogisticProfileType: {
     WARRANTY: {
       title: "项目",
-      desc: "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 產品 项目 项目 项目 项目. 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      desc: "保固是合約的一部分，製造商承諾在指定期限內維修或更換產品。這項承諾甚至可以延伸到與製造商沒有直接合約的消費者。",
     },
     RETURN_POLICY: {
       title: "返回 项目",
-      desc: "返回 项目 项目 项目 顧客 项目 返回 项目 交換 项目 项目. 项目 项目 项目 項目, 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目.",
+      desc: "退貨政策概述了客戶如何退貨或換貨不需要的商品。它們指定了符合條件的商品、可接受的退貨原因以及退貨的時間範圍。",
     },
     GUIDE: {
       title: "项目",
-      desc: "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品.",
+      desc: "指南可以包括服裝尺寸表或鑽石選擇指南。重要的是指南具有多功能性並且適用於多種產品。",
     },
     SHIPPING: {
       title: "船運",
-      desc: "项目 船運 项目 細節 项目 项目 项目 项目 船運 项目 项目 訂單, 项目 船運 项目, 项目, 项目 项目 送貨 時代.",
+      desc: "運輸政策詳細說明了線上訂單運輸的關鍵方面，包括運輸成本、方法和預計交貨時間。",
     },
   },
   /** {@see BProductProfileLogistic} **/
@@ -1929,9 +1929,9 @@ export default {
    * @see BPageShopPagesPopups
    */
   b_shop_popups: {
-    title: "项目 项目",
+    title: "彈跳窗管理",
     subtitle:
-      "創造 项目, 项目, 项目 项目 项目 项目.",
+      "創造個人化、智慧化、互動性的彈跳窗。",
     add_action: "项目 新的 彈出",
   },
 
@@ -1941,8 +1941,8 @@ export default {
       default: "默認",
       dedicated: "项目",
 
-      subscription: "项目 项目 项目 TAX 项目 项目 项目 支付 项目 项目.",
-      is_disabled: "项目 TAX 輪廓 项目 项目! (⚠️项目)",
+      subscription: "我們只能對付款創建步驟徵稅。",
+      is_disabled: "此稅務資料已停用！ （⚠️警告）",
       shipping: "船運",
       fixed_rate: "TAX",
       location_based_rate: "TAX: 地點 项目",
@@ -1954,13 +1954,13 @@ export default {
 
       title: "TAX 輪廓",
       subtitle:
-        "项目 项目 项目 项目 TAX 项目 至 项目 產品. 项目 项目 TAX 輪廓 项目 项目 项目 项目 项目 產品, 项目 默認 店鋪 TAX 项目 项目 项目 项目 项目.",
+        "您可以為產品分配特定的稅務法規。如果未為產品選擇稅務資料，則將套用預設的商店稅務法規。",
 
       action_manage: "项目 TAX",
       action_manage_sub: "店鋪 > 金融 > TAX",
 
       subscription_tips:
-        "项目 项目 项目 项目 TAX 輪廓 项目 訂閱 產品, 项目 更新<code>TAX 代碼</code> 项目 项目 项目/项目 项目 项目 项目 支付 项目 项目. 项目 项目 TAX 輪廓 项目 项目 项目 價格 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 <code>项目</code> 项目 <code>项目</code>. 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目.<br /><br /><b>项目!</b> 项目 项目 项目 TAX 輪廓, 项目 项目 项目 项目 價錢 計劃 项目 项目 產品 > 存貨 项目 项目 项目 项目 節省 项目 至 项目 项目.",
+        "當您為訂閱產品選擇稅務資料時，我們會更新<code>稅碼</code>並在您的支付服務提供者上設定包含/排除模式。所選稅收配置檔案指定價格被視為含稅還是不含稅。 <code>inclusive</code> 或 <code>exclusive</code> 之一。一旦指定為包含或排除，則無法變更。 <br /><br /><b>重要！ </b> 更改稅務設定檔後，您應該按一下「產品」>「庫存」標籤上的定價計劃，然後按一下「儲存」按鈕以套用變更。",
     },
   },
 
@@ -1970,11 +1970,11 @@ export default {
   product_vendor_profile: {
     vendor: {
       subtitle:
-        "项目 價格 项目 數量 项目 项目 產品 项目 项目 项目 项目 项目 项目 至 项目 项目 项目.",
+        "該產品的價格和數量由其所屬的特定供應商設定。",
     },
     vendors: {
       subtitle:
-        "项目 项目 列表 项目 项目 项目 项目 產品. 项目 數量 项目 價格 项目 项目 项目 项目 项目 项目.",
+        "以下是該產品的供應商清單。數量和價格將由供應商決定。",
     },
   },
   /**
@@ -1988,65 +1988,65 @@ export default {
       page: "项目 模板",
       shipping: "船運",
       access: "使用權",
-      critical_zone: "项目 项目",
+      critical_zone: "臨界區",
     },
 
     profile: {
       title: "项目 信息",
-      subtitle: "项目 项目 项目 项目 至 顧客 项目.",
-      action_sub_caption: "上市 產品 项目 项目.",
-      action_see_listing_page: "项目 项目 项目",
+      subtitle: "此資訊公開顯示給客戶。",
+      action_sub_caption: "公共產品清單頁面。",
+      action_see_listing_page: "查看清單頁面",
       send_invitation_email: "發送 项目 電子郵件",
       invitation_link: "项目 關聯",
     },
 
     profiles: {
       title: "簡介",
-      subtitle: "项目 项目 项目 地點 至 项目 项目.",
+      subtitle: "您可以向該供應商指派位置。",
     },
     map: {
       no_map_message:
-        "项目 项目 地點 至 项目 项目 项目 项目 项目 项目 项目.",
+        "如果供應商是基於位置的供應商，則為該供應商指派位置。",
     },
     page: {
       title: "風俗 项目",
       subtitle:
-        "项目 项目 風俗 降落 项目 项目 项目 项目, 项目 项目 项目 项目 项目 關聯 至 项目 项目 项目.",
+        "為供應商設定自訂登入頁面，為他們提供指向其專用頁面的唯一連結。",
       action_set_page: "项目 上市 项目",
       action_sub_caption: "風俗 降落 项目.",
-      vendor_has_landing_msg: "项目 项目 项目 風俗 降落 项目.",
-      no_landing_selected_msg: "不 降落 项目 项目.",
+      vendor_has_landing_msg: "供應商有一個自訂登陸頁面。",
+      no_landing_selected_msg: "未選擇目標網頁。",
       no_landing_page: "不 降落 项目",
       we_can_create_dedicated_landing_msg:
-        "项目 项目 創造 项目 项目 降落 项目 项目 项目.",
+        "我們可以為您建立專用的登陸頁面。",
     },
     contact: {
       title: "接觸 信息",
-      subtitle: "项目 项目 项目 接觸 細節.",
+      subtitle: "請提供有效的聯絡方式。",
     },
     business: {
       title: "项目 信息",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 至 项目 项目 SWIFT 项目 项目 项目 项目 项目.",
+        "請提供有關您企業的準確信息，以確保快速、無縫的收稅流程。",
     },
     bank: {
-      title: "项目 项目",
-      subtitle: "輸入 项目 銀行 細節 项目 项目 项目.",
+      title: "支付訊息",
+      subtitle: "在此輸入您的銀行詳細資料以進行付款。",
     },
     default_pricing: {
       title: "默認 價錢",
       subtitle:
-        "项目 项目 项目 项目 默認 價錢 项目 项目 项目 项目. 项目 项目 项目 项目 项目 新的 產品, 项目 價錢 项目 项目 项目 用過的 至 项目 项目 市場 项目 项目 项目 项目 價格. 项目 项目 项目 项目 项目 價錢 项目 项目 项目 產品 项目.",
+        "您可以為供應商指派預設定價模型。當供應商添加新產品時，此定價模型將用於計算產品價格的市場利潤。您稍後可以單獨調整每個產品的定價模型。",
       no_pricing: "不 價錢",
     },
     shipping: {
       title: "船運",
-      subtitle: "项目 项目 設置 项目 项目 船運 服務 项目 快遞員.",
+      subtitle: "供應商可以設定自己的運輸服務和快遞公司。",
       shipping_services: "船運 服務",
       total_number_of_services:
-        "项目 全部的 项目 项目 船運 服務 项目 项目 项目 项目.",
+        "供應商擁有的運輸服務總數。",
       couriers: "快遞員",
-      total_couriers_count: "项目 全部的 项目 项目 快遞員 项目 项目 项目 项目.",
+      total_couriers_count: "供應商擁有的快遞員總數。",
     },
     configuration: {
       title: "项目",
@@ -2055,85 +2055,85 @@ export default {
       title: "消除 项目",
       action: "消除 项目",
       verify_description:
-        "项目 项目 项目 全部 项目 產品 项目 项目 项目 项目!",
-      verify_title: "项目 项目 至 刪除 项目 项目.",
+        "我知道所有供應商產品關係都將被刪除！",
+      verify_title: "我想刪除這個供應商。",
     },
 
     send_invitation_tips:
-      "项目 项目 發送 项目 项目 電子郵件 至 项目 用戶. 项目 项目 用戶 项目 项目 店鋪 项目 项目 项目, 项目 帳戶 项目 项目 项目 项目 至 项目.",
+      "我們將向該用戶發送一封邀請電子郵件。如果用戶作為供應商加入您的商店，他們的帳戶將自動分配給他們。",
     only_marketplace_owner_can_edit_user:
-      "项目 项目 市場 所有者 项目 編輯 项目 用戶. 项目 项目 项目 至 改變 项目 所有者 项目 项目 项目, 项目 项目 發送 项目 项目 至 项目.",
-    vendor_is_disable_msg: "项目 项目 项目.",
+      "只有市場所有者才能編輯用戶。如果您想變更該供應商的擁有者，您可以向我們發送請求。",
+    vendor_is_disable_msg: "供應商已停用。",
     email_not_match_with_user_msg:
-      "项目 電子郵件 项目 项目 项目 项目 项目 電子郵件 (<b>{user_name}:</b>{user_email}). 项目 项目 项目 至 發送 電子郵件 至<b>{email}</b>?",
+      "輸入的電子郵件與使用者的電子郵件不符 (<b>{user_name}:</b>{user_email})。您確定要傳送電子郵件至<b>{email}</b>嗎？",
 
     order_information_email_to_email:
-      "项目 项目 發送 訂單 项目 至 <b>{email}</b>.",
+      "我們會將訂單資訊傳送至 <b>{email}</b>。",
 
-    set_a_user_for_the_vendor_first_msg: "项目 项目 用戶 项目 项目 项目 项目.",
+    set_a_user_for_the_vendor_first_msg: "首先為供應商設定使用者。",
 
     inputs: {
       slug: {
         label: "项目",
-        placeholder: "项目 项目 風俗 项目...",
-        hint: "改變 项目 项目 项目 项目 项目 降落 项目.",
+        placeholder: "輸入自訂路徑...",
+        hint: "變更供應商動態登入頁面的路徑。",
       },
       email: {
-        message: "项目 電子郵件 项目 收到 全部 通知 项目 项目.",
+        message: "此電子郵件將收到所有通知和更新。",
       },
       business: {
-        false_description: "项目 项目 项目 项目 项目.",
-        true_description: "项目 项目 项目 项目 项目 项目 项目 项目.",
+        false_description: "我以個人身分工作。",
+        true_description: "我作為合法認可的商業實體運作。",
         false_title: "项目",
         true_title: "项目",
       },
       bank: {
-        hint: "项目 姓名 项目 项目 銀行 项目 项目 项目 项目 项目 帳戶.",
+        hint: "供應商開設帳戶的銀行名稱。",
         placeholder: "项目 銀行 姓名..",
       },
       account_name: {
-        hint: "项目 项目 项目 项目 姓名 项目 项目 项目 銀行 帳戶.",
+        hint: "這應該與與銀行帳戶關聯的姓名相符。",
         placeholder: "项目 姓名..",
       },
       account_number: {
-        hint: "项目 项目 项目 帳戶 项目.",
+        hint: "供應商的唯一帳號。",
         placeholder: "项目 銀行 帳戶 项目..",
       },
       routing_number: {
-        hint: "项目 项目 项目 项目 國家. 项目 用過的 至 项目 项目 项目 銀行 项目 项目 项目 项目.",
-        placeholder: "项目 銀行 项目 项目, 项目 代碼, 项目 BSB 项目..",
+        hint: "這個數字因國家而異。它用於識別供應商使用的特定銀行分行。",
+        placeholder: "您的銀行路由號碼、分類代碼或 BSB 號碼。",
       },
       iban: {
-        hint: "项目 銀行 帳戶 项目): 项目 项目 项目 銀行 项目 项目 项目 项目 项目 项目 项目.",
+        hint: "國際銀行帳號）：如果供應商的銀行位於歐洲或某些其他國家。",
         placeholder: "项目 IBAN 项目.. 项目. DE89 3704 0044 0000 0000 00",
       },
       swift: {
-        hint: "项目 銀行 帳戶 项目): 项目 项目 项目 銀行 项目 项目 项目 项目 项目 项目 项目.",
+        hint: "國際銀行帳號）：如果供應商的銀行位於歐洲或某些其他國家。",
         placeholder: "项目 SWIFT 代碼/BIC..",
       },
       branch_address: {
-        hint: "项目 地址 项目 项目 銀行 项目 项目 项目 项目 项目 项目 帳戶.",
+        hint: "供應商擁有帳戶的銀行分行的地址。",
         placeholder: "项目 銀行 地址..",
       },
       enable: {
         label: "项目 地位",
-        hint: "项目 项目 使能夠 项目 项目 项目 项目. 顧客 项目 项目 项目 项目 至 購買 项目 從 项目 项目.",
+        hint: "您可以全域啟用或停用供應商。客戶將無法從禁用的供應商購買任何東西。",
         true_description:
-          "项目 项目 项目 项目 至 项目 项目 產品 项目 项目 市場.",
+          "他們將能夠透過您的市場銷售他們的產品。",
       },
       access: {
-        label: "项目 项目 & 使用權",
+        label: "供應商面板和訪問",
         true_description:
-          "项目 项目 项目 项目 项目 项目 至 更新 數量 项目 價格.",
-        hint: "项目 项目 使能夠 项目 项目 项目 项目 项目, 项目 项目 项目 至 更新 產品 项目 项目 價格 项目 收到 项目 訂單.",
-        false_description: "项目 项目 项目 不 使用權 至 项目.",
+          "供應商有一個專門的面板來更新數量和價格。",
+        hint: "您可以啟用或停用供應商面板，該面板允許供應商更新產品數量和價格並接收部分訂單。",
+        false_description: "供應商無法存取任何內容。",
       },
 
       logo: {
         label: "项目 標識",
       },
       description: {
-        placeholder: "项目 项目 上市 描述...",
+        placeholder: "寫一個公開的描述...",
       },
     },
   },
@@ -2143,17 +2143,17 @@ export default {
    */
   vendor_documents_list: {
     title: "项目",
-    action_upload_doc: "项目 项目",
+    action_upload_doc: "上傳文檔",
     vendor_subtitle:
-      "项目 项目 项目 项目 项目, IP, 项目 地址 项目 项目. 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 项目 项目 使用權.",
+      "請上傳必要的業務、IP、位址驗證文件。我們需要這些資訊來確認您的合作夥伴關係並為您提供必要的存取權限。",
     marketplace_subtitle:
-      "项目 项目 项目 项目 项目 项目 项目, 项目 项目, 项目 地址 项目 至 项目 项目 KYC 项目, 项目 项目 至 项目 项目 项目 项目 使用權.",
+      "供應商可以提交業務、智慧財產權和地址驗證等文件，以促進其 KYC 流程，從而允許您授予他們適當的存取權限。",
     upload_dialog: {
-      title: "项目 项目",
+      title: "上傳文件",
       type: {
         title: "项目 類型",
         subtitle:
-          "项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 可用的.",
+          "請僅上傳必要的文件。避免共享任何包含敏感資訊的文件。我們要求提供公開的文件。",
       },
     },
   },
@@ -2163,22 +2163,22 @@ export default {
    */
   product_badges: {
     title: "项目",
-    subtitle: "项目 项目 編輯 風俗 產品 项目.",
+    subtitle: "新增和編輯自訂產品徽章。",
     only_marketplace_owner_msg: "项目 市場 项目",
     create_new_badge_action: "創造 新的 项目",
-    select_a_badge: "项目 项目 项目...",
+    select_a_badge: "選擇徽章...",
     inputs: {
       custom: {
-        false_description: "產品 项目 项目 项目 项目.",
+        false_description: "產品徽章是自動建立的。",
         false_title: "项目",
         true_title: "風俗 產品 项目",
-        true_description: "项目 風俗 项目 项目 项目 產品 项目.",
+        true_description: "在產品頁面中新增自訂徽章。",
       },
     },
     add_custom_badge: {
       title: "風俗 项目",
       subtitle:
-        "项目 项目 新的 風俗 项目 至 项目 店鋪. 项目 项目 數數 项目 10. 更多的 项目 项目 项目 项目 项目 店鋪.",
+        "在我的商店中添加新的自訂徽章。將徽章數量控制在 10 以下。更多徽章會減慢您的商店速度。",
       show_advanced_options: "项目 先進的 项目",
 
       inputs: {
@@ -2188,20 +2188,20 @@ export default {
         image: {
           label: "圖片",
           message: "最大限度 圖片 项目: 128KB",
-          placeholder: "项目 项目 项目 圖片",
+          placeholder: "選擇封面圖片",
         },
         pattern: {
           label: "项目",
           message:
-            "项目 项目 项目 项目 项目 產品 项目 项目 项目 價值 项目 项目 项目. Regex 项目.",
-          placeholder: "至 项目 项目 全部 產品 项目: *.*",
+            "對於在其規格中具有此匹配值的產品，請自動顯示此徽章。支援正規表達式。",
+          placeholder: "若要顯示所有產品，請寫：*.*",
         },
       },
       notifications: {
-        badge_added: "项目 项目 项目 项目 项目 项目!",
-        badge_updated: "项目 项目 项目 项目 项目 项目!",
+        badge_added: "徽章添加成功！",
+        badge_updated: "徽章已成功更新！",
         item_not_found_error:
-          "项目 物品 项目 项目 项目 项目. 项目 项目 项目 项目 项目 接觸 支持.",
+          "找不到該項目。請刷新頁面或聯絡支援人員。",
       },
     },
   },
@@ -2211,17 +2211,17 @@ export default {
   product_tags: {
     title: "標籤",
     tips: [
-      "项目 项目 篩選 產品 项目 项目 標籤 项目 <b>降落 頁面</b>.",
-      "项目 项目 项目 顧客 项目 项目 项目 项目 標籤 项目 项目<b>项目</b> 项目.",
-      "项目 项目 標籤, 项目 產品 项目 项目 <b>项目 標籤</b> 项目 项目 项目 项目 项目 <b>项目 產品 项目</b> 项目 项目 產品 项目; 项目, 產品 项目 项目 项目 類別 项目 项目 项目.",
+      "您可以根據<b>著陸頁</b>上的標籤過濾產品。",
+      "您和您的客戶可以在<b>搜尋</b>欄中搜尋這些標籤。",
+      "若設定標籤，商品頁面的<b>相關商品欄</b>只會顯示有<b>常用標籤</b>的商品；否則，將顯示相同類別的產品。",
     ],
     inputs: {
       tags: {
-        placeholder: "项目 標籤 项目 项目 项目 项目. 项目. 新的 项目",
+        placeholder: "在此連接標籤並按 Enter 鍵。前任。新系列",
       },
     },
     notifications: {
-      tags_updated: "项目 標籤 项目 项目 项目 项目.",
+      tags_updated: "標籤已成功更新。",
     },
   },
 
@@ -2231,15 +2231,15 @@ export default {
   vendor_shipping_services: {
     title: "船運 服務",
     subtitle:
-      "项目 市場 優惠 船運 项目 至 项目 项目 项目 项目 訂單. 项目 项目 项目 船運 服務 项目 至 项目 命令 船運 项目 從 项目 命令 项目. 项目 项目 项目 项目 项目 项目 地址 项目 项目 项目 项目 项目 船運 项目.",
+      "市場提供運輸方式來幫助供應商履行訂單。您可以在此處新增運送服務，以便從訂單頁面輕鬆訂購運送標籤。透過與運輸提供者同步地址和追蹤代碼，簡化了流程。",
 
     subtitle_pickup:
-      "项目 市場 项目 项目 项目 项目, 项目 项目 至 项目 项目 從 项目 地點 项目 项目 船運 项目. 项目 项目 项目 项目 项目 地點 项目 项目 輪廓 (项目 倉庫 项目 项目 用過的 项目 项目 默認 项目 地點).",
-    action: "项目 项目",
+      "該市場為供應商提供提貨服務，讓買家選擇從您所在位置提貨作為運輸選項。您可以在您的個人資料中新增您的取貨地點（您的倉庫將用作預設取貨地點）。",
+    action: "新增服務",
 
     add_dialog: {
       select_service_msg:
-        "船運 项目 项目 项目 项目 项目 市場, 项目 顧客 项目 项目 從 项目. 项目 项目 不 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 船運 服務 至 購買 项目 项目. 项目 项目 项目 项目 從 项目 列表 项目 至 看法 可用的 服務. 项目 项目 船運 项目 從 项目 列表 项目. 项目 项目 可用的 服務 项目 项目 项目 项目 至 项目 店鋪 项目 项目 项目.",
+        "運輸方式由市場設定，客戶可從中選擇。供應商無法控制這些選項，但可以將其面板與運輸服務整合以直接購買標籤。請從下面的清單中選擇一種方法來查看可用的服務。從下面的清單中選擇運輸服務。此處僅顯示可新增至您商店的可用服務。",
       no_available_service: "不 可用的 项目!",
     },
   },
@@ -2254,38 +2254,38 @@ export default {
   product_location_profile: {
     title: "地點",
     empty_subtitle:
-      "项目 项目 地點 至 项目 產品 项目 项目 项目 项目 物品.",
+      "如果產品是基於位置的商品，請為其分配位置。",
     dialog: {
       header: "项目 地點 輪廓",
       action_new_location: "添加新位置",
       title: "地點 輪廓",
       subtitle:
-        "项目 项目 项目 產品 项目 项目 地圖 地點 项目 项目 地點 標籤 至 项目 產品.",
-      tips: "<b>项目: </b> 项目 项目 地點 至 项目 產品 <b>项目</b> 项目 项目 项目 至 项目 项目 產品 项目 项目 项目 地點 项目 项目 地圖. 项目 项目 產品 项目 项目 项目 地點 项目 项目 项目 项目, 喜歡 <b>项目 项目/项目</b> 项目 项目 服務 喜歡<b>项目 项目 项目</b>.",
+        "您可以透過為產品分配位置標籤來將產品固定在地圖位置上。",
+      tips: "<b>重要：</b> 如果您想在地圖上的特定位置顯示產品，請為產品指定位置 <b>only</b>。固定產品必須將位置作為其主要規格，例如<b>出租房屋/場所</b>或面對面服務，例如<b>美髮和水療</b>。",
     },
   },
 
   /** {@see BTranslationButton} **/
   translation_button: {
-    header: "项目 项目",
-    auto_action: "项目 项目",
+    header: "多語言",
+    auto_action: "自動翻譯",
     premium_user_only: "项目 用戶",
   },
 
   /** {@see BProductProfileInclude} **/
   product_include_profile: {
     subtitle:
-      "项目 项目 列表 项目 項目 项目 项目 项目 项目 產品 项目 项目 项目.",
+      "包括產品或服務包附帶的物品清單。",
     dialog: {
       header: "產品 项目 項目",
       title: "项目 項目",
-      subtitle: "项目 项目 项目 项目 项目 項目 项目 项目 项目 项目 產品.",
+      subtitle: "這是產品附帶的物品的彙編。",
       action_manage: "项目 項目",
       action_disable_msg: "市場 所有者",
       select_items_tips:
-        "創造 项目 项目 项目 项目 项目 项目 项目 项目 產品 项目 项目. 项目 项目 项目 至 项目 项目 顧客 项目 项目 项目 项目 项目 项目 物品. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目.",
+        "建立或選擇產品或服務附帶的包組件。利用此功能來強調客戶在購買該商品後可以預期收到的商品。我們建議僅在客戶了解其中包含的內容至關重要時（例如購買智慧型手機時）才使用此功能。",
       create_item_tips:
-        "项目, 项目 项目 项目 项目 新的 物品. 项目 项目 圖片, 项目 项目 项目 项目 项目 项目 圖片 至 项目 256项目256 项目 项目. 至 项目 项目 外貌 项目 全部 项目, 项目 项目 圖片 项目 项目 项目 项目 项目 项目 项目 项目 项目 全部 项目 產品.",
+        "或者，您可以新增一個項目。使用方形影像，因為我們會自動將上傳的圖片調整為 256x256 方形格式。為了確保所有模板的最佳外觀，請使用具有透明背景的簡約圖像，並為所有產品保持一致的圖案。",
       create_new_item_action: "創造 新的 项目 物品",
     },
   },
@@ -2329,7 +2329,7 @@ export default {
         physical_orders_title: "此產品的購物車",
         send_count_in_period: "已發貨 訂單 项目 {start} ~ {end}",
         downloads_count_in_period:
-          "项目 项目 數數 项目 {start} ~ {end}",
+          "文件下載計數在 {start} ~ {end} 之間",
       },
 
       /** {@see BProductInventoryAbstractView} **/
@@ -2370,7 +2370,7 @@ export default {
         title: "產品評級",
         title_small: "客戶滿意度報告",
         total_participation: "捐款總數",
-        total_participation_tooltip: "全部的 數數 项目 项目 项目 项目 產品.",
+        total_participation_tooltip: "產品的評分者總數。",
         today_participation: "今日收視率",
         last7days_participation: "過去 7 天的貢獻",
         chart: {
@@ -2378,7 +2378,7 @@ export default {
           participate_title: "投稿數",
           score: "分數",
         },
-        users_not_rated_msg: "用戶 项目 项目 项目 项目 產品 项目.",
+        users_not_rated_msg: "用戶尚未評價該產品。",
       },
 
       /** {@see BProductMarketingAbstractView} **/
@@ -2442,52 +2442,52 @@ export default {
 
         config: {
           title: "產品 项目 設置",
-          subtitle: "项目 SKU, MPN, 项目 项目 项目 變體.",
+          subtitle: "管理 SKU、MPN 和變體的可用性。",
         },
         variables: {
-          title: "项目 项目",
+          title: "變體選項",
           subtitle:
-            "项目 项目 项目 顏色 代碼, 项目.项目., <b>#654FFF</b>, 项目 项目 项目 项目 项目 项目 项目, 项目.项目., <b>#764FFA/#000000</b>.",
+            "輸入十六進位顏色代碼，例如 <b>#654FFF</b>，或以斜線分隔的兩種顏色，例如 <b>#764FFA/#000000</b>。",
           graphical_asset_tips:
-            "项目 项目 项目 项目 價值 至 项目 项目, 项目 圖片 项目 <b>项目 项目</b>. 项目 项目 项目 项目 项目 项目 项目 代碼 项目 项目 项目.",
-          graphical_asset_action: "项目 项目",
-          graphical_asset_action_caption: "圖片 项目 项目 项目.",
+            "您可以為變數指派任何值，包括使用 <b>Graphic Assets</b> 的圖像。上傳模式並使用為變體產生的程式碼。",
+          graphical_asset_action: "圖形資產",
+          graphical_asset_action_caption: "變體選項的影像。",
         },
         smart_unit_price: {
-          tips: "项目 單元 價格 项目 项目 <b>重量</b>, <b>體積</b>, 项目 <b>项目 项目</b>. 至 项目 项目 项目, 项目 至 店鋪 > 設置 > 主題 > 產品 项目 > 项目 單元 價格.",
+          tips: "根據<b>重量</b>、<b>體積</b>和<b>包裝尺寸</b>計算單價。若要停用此功能，請導覽至商店 > 設定 > 主題 > 產品頁面 > 智慧單價。",
           smart_unit_price: "單元 價格 项目",
         },
         quantity: {
           title: "存貨",
-          subtitle: "项目 项目 项目 项目 项目 项目.",
+          subtitle: "為每個變體設定庫存水準。",
         },
         price: {
           title: "價錢",
           subtitle:
-            "项目 项目 風俗 價格 项目 项目 项目 项目 项目 项目 默認 產品 價格.",
+            "為變體設定自訂價格或使用預設產品價格。",
         },
         package: {
           title: "项目 & 船運",
           subtitle:
-            "项目 重量 项目 项目 项目 變體 至 项目 船運 项目.",
-          same_as_product_action: "项目 项目 產品",
+            "指定型號的重量和尺寸以確定運輸選項。",
+          same_as_product_action: "與產品相同",
         },
         image: {
           title: "项目 圖片",
           subtitle:
-            "项目 项目 圖片 项目 项目 项目. 项目 项目 圖片 项目 项目 项目 项目 基本的 圖片 项目 项目 项目.",
+            "為每個變體添加獨特的圖像。上傳的第一張圖片將是該變體的主圖片。",
         },
         inputs: {
           sku: {
-            message: "项目 项目 單元 (SKU)",
+            message: "庫存單位 (SKU)",
           },
           mpn: {
-            message: "项目 项目 项目 (MPN)",
+            message: "製造商零件號 (MPN)",
           },
           gtin: {
-            label: "项目 项目 物品 项目 (GTIN)",
+            label: "全球貿易項目編號 (GTIN)",
             message:
-              "项目 项目: UPC (12 项目), EAN (13 项目), JAN (8 项目 13 项目), ISBN (13 项目).",
+              "支援的格式：UPC（12 位數字）、EAN（13 位數字）、JAN（8 或 13 位數字）、ISBN（13 位數字）。",
           },
         },
       },
@@ -2507,18 +2507,18 @@ export default {
    */
   transportation_eligible: {
     subtitle:
-      "船運 服務 可用的 项目 项目 项目 项目 项目 项目 重量.",
+      "可用的運輸服務取決於所提供的尺寸和重量。",
   },
 
   /** {@see BProductExtraInput} **/
   product_extra_physical: {
     weight: "包裹重量",
     weight_subtitle:
-      "輸入 项目 项目 全部的 项目 重量 项目. 项目 项目 项目 项目 项目 项目 船運 项目 项目 项目 项目 命令 项目 项目 项目 船運 限制.",
+      "在此輸入產品的包裝總重量。此資訊有助於選擇正確的運送方式並確保訂單不會超出運輸限制。",
     weight_unit: "公斤",
     size: "包裝尺寸",
     size_subtitle:
-      "輸入 项目 项目 项目 项目 项目 项目. 项目 项目 项目 用過的 至 项目 项目 项目 船運 项目 项目 项目 项目 命令 项目 项目 项目 项目 项目 限制.",
+      "在此輸入產品的完整包裝尺寸。此資訊用於選擇正確的運送方式並確保訂單不超過包裹尺寸限制。",
 
     width: "寬度",
     length: "長度",
@@ -2526,17 +2526,17 @@ export default {
     lead_time_title: "準備時間",
     lead_time: "準備時間",
     lead_time_subtitle:
-      "项目 時間 项目 项目 期間 项目 至 项目 项目 產品 项目 船運, 项目 项目 项目 项目 项目 送貨 時間.",
+      "交貨時間估計準備產品運輸所需的持續時間，這有助於估計交貨時間。",
 
     lead_time_dimension: "小時）",
     bulk_action: "批量操作",
     bulk_action_subtitle:
-      "项目 项目 项目 项目 项目 项目 至 全部 產品 變體.",
+      "您可以將包裝資訊應用於所有產品變體。",
 
     bulk_action_input: "更新所有變體",
     bulk_action_msg:
       "為所有變體設置產品包裝和準備時間。",
-    dynamic_lead_time: "项目 项目 時間",
+    dynamic_lead_time: "動態提前期",
     instant_delivery: "项目 送貨",
   },
 
@@ -2552,29 +2552,29 @@ export default {
    */
   product_images_gallery: {
     dialog_alt: {
-      title: "项目 圖片 项目 项目",
-      placeholder: "项目 项目 项目 项目 项目...",
-      success_update_notification: "项目 项目 项目 项目.",
+      title: "設定圖像替代文字",
+      placeholder: "輸入描述性替代文字...",
+      success_update_notification: "替代文字已成功更新。",
     },
     dialog_bg_remove: {
-      title: "消除 项目 项目",
+      title: "自動刪除背景",
       action: {
         title: "移除背景",
-        subtitle: "創造 项目 项目 项目.",
+        subtitle: "建立透明背景。",
       },
-      success_remove_bg_notification: "项目 项目 项目!",
+      success_remove_bg_notification: "背景刪除成功！",
     },
   },
   /**
    * @see VariantGraphicalAssetsList
    */
   variant_graphical_assets: {
-    title: "项目 项目 项目",
+    title: "變體圖形資源",
     tips: {
       how_it_works:
-        "<b>项目 项目 项目:</b><br />项目 项目 项目 物品 圖片 项目. 至 项目 项目 圖片 项目 项目 项目 项目, 项目 <b>{filename}</b> 项目 项目 项目 價值. 筆記 项目 项目 代碼 项目 项目 用過的 项目 项目 <b><s>顏色</s></b> 價值.",
+        "<b>工作原理：</b><br />在此上傳圖案或商品圖像。若要將這些影像用作變體選項，請在變體值中包含 <b>{filename}</b>。請注意，此程式碼不能用於 <b><s>color</s></b> 值。",
       how_set_name:
-        "<b>项目 项目:</b><br />项目 项目 12 项目 项目 项目 项目 项目 姓名 项目 项目 用過的 项目 项目 项目 姓名. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品, 项目 项目 项目 项目 项目 项目 项目 项目 项目. 至 项目 项目 项目 项目 项目 项目, 项目 项目 项目 圖片 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 100, 项目 项目 项目 项目 類型 项目 家具.",
+        "<b>命名提示：</b><br />上傳檔案名稱的前12個字元將用作資產名稱。此功能非常適合展示產品的可自訂方面，例如摩托車的輪胎尺寸或織物圖案。為了優化此功能的使用，請避免在此處上傳變體圖像，除非圖形資源的數量少於 100 個，例如家具的不同木材類型。",
     },
   },
 
@@ -2582,38 +2582,38 @@ export default {
    * @see ExtraPricingLevels
    */
   extra_pricing_levels: {
-    extra_pricings: "项目 项目",
+    extra_pricings: "額外定價",
     min_quantity: "敏 數量",
-    range_is_out_of_stock: "项目 项目 项目 项目 项目!",
+    range_is_out_of_stock: "系列已缺貨！",
   },
 
   /**
    * @see BProductVariantItem
    */
   product_variant_item: {
-    duplicated_variant: "项目 项目 项目 项目!",
-    set_color_warning: "项目 项目 项目 顏色.",
-    set_volume_warning: "项目 项目 项目 體積.",
-    set_pack_warning: "项目 项目 项目 项目 项目.",
-    set_weight_warning: "项目 项目 项目 重量.",
-    set_type_warning: "项目 项目 项目 類型.",
-    set_style_warning: "项目 项目 项目 風格.",
-    out_of_stock: "项目 项目 项目 项目",
+    duplicated_variant: "這個變體已經存在！",
+    set_color_warning: "請選擇一種顏色。",
+    set_volume_warning: "請註明體積。",
+    set_pack_warning: "請註明包裝尺寸。",
+    set_weight_warning: "請註明重量。",
+    set_type_warning: "請選擇類型。",
+    set_style_warning: "請選擇一種風格。",
+    out_of_stock: "目前缺貨",
 
     image: {
-      tooltip: "⚡ 项目 项目 项目 项目 圖片 项目 至 项目 项目 至 项目 项目.",
+      tooltip: "⚡ 將圖像拖曳到此處以將其指派給變體。",
     },
     enable: {
-      true_tooltip: "项目 物品 项目 可用的 项目 项目 项目 店鋪.",
-      false_tooltip: "项目 物品 项目 项目 可用的 项目 项目 项目 店鋪.",
+      true_tooltip: "該商品可在線上商店購買。",
+      false_tooltip: "該商品在線上商店中不可用。",
     },
     restore_dialog: {
-      title: "项目 项目",
-      message: "项目 项目 项目 项目 项目 至 项目 项目 已刪除 项目?",
-      action: "项目, 项目 项目",
+      title: "恢復變體",
+      message: "您確定要恢復這個已刪除的變體嗎？",
+      action: "是的，立即恢復",
     },
     notifications: {
-      restore_variant_success: "项目 產品 项目 项目 项目 项目.",
+      restore_variant_success: "產品變體已成功恢復。",
     },
   },
 
@@ -2674,7 +2674,7 @@ export default {
   inventory_list: {
     title: "店鋪 存貨",
     subtitle: "列表 项目 全部 產品 项目 店鋪.",
-    cant_set_here: "项目 项目 项目",
+    cant_set_here: "這裡不能設定",
 
     search_input: "產品搜索...",
     search_input_title: "在商店產品中搜索",
@@ -2717,49 +2717,49 @@ export default {
   bulk_price_dialog: {
     title: "项目 行動 > 價格",
     message:
-      "项目 项目 數量 项目 项目 项目 项目 项目 至 项目 價格 项目 全部 產品 项目 项目 店鋪. 项目, 项目 项目 價格 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 项目 貨幣.项目 项目 项目 项目 项目 项目.",
-    check: "项目 项目 價格 项目.",
+      "以下金額將按百分比應用於您商店中所有產品的價格。此外，計算出的價格值將根據所選貨幣智慧轉換為最接近的整數。輸入值時請小心。",
+    check: "我同意價格變動。",
     check_description:
-      "项目 價格 项目 项目 项目 项目 项目 项目 類別 项目 全部 项目.",
+      "所選類別和所有子類別的價格將會變更。",
     add_percent_tab: "项目 百分",
-    add_constant_tab: "项目 项目",
-    ending_tab: "项目 项目",
+    add_constant_tab: "新增常數",
+    ending_tab: "結束策略",
     marketplace_listing_price: "项目 價格",
 
     constant: {
       subtitle:
-        "项目 數量 项目 项目 项目 项目 项目 從 项目 项目 價格 项目 產品.",
+        "該金額將從產品的當前價格中添加或減去。",
     },
     ending: {
       subtitle:
-        "项目 项目 项目 项目 项目 價格 项目 產品 项目 项目 项目 至 项目 项目 價值.",
+        "產品當前價格的結尾將變更為指定值。",
     },
     marketplace: {
       title: "市場 项目 價格",
       subtitle:
-        "项目 项目 项目 项目 至 项目 更新 项目 项目 價格 项目 產品 项目 项目 市場. 项目, 项目 项目 產品 價格 项目 项目 项目 项目 项目 價錢 项目 至 项目 價格 项目.",
+        "此選項可讓您自動更新市場中產品的上市價格。有時，由於手動價格更改，主要產品價格可能與供應商定價不一致。",
       strategy: {
         min: {
-          title: "项目 项目 價格",
+          title: "設定最低價格",
           description:
-            "项目 项目 项目 價格 项目 项目 產品 项目 项目 项目 價格.",
+            "將產品的最低價格設定為掛牌價格。",
         },
         max: {
-          title: "项目 项目 價格",
+          title: "設定最高價格",
           description:
-            "项目 项目 项目 價格 项目 项目 產品 项目 项目 项目 價格.",
+            "將產品的最高價格設定為掛牌價格。",
         },
       },
     },
 
     category: {
-      subtitle: "限制 项目 项目 至 项目 類別 项目 全部 项目.",
+      subtitle: "將批量操作限制為類別和所有子類別。",
     },
     vendor: {
       subtitle:
-        "限制 项目 行動 至 项目 项目 项目. 项目 项目 项目 项目 项目, 项目 價格 更新 项目 项目 项目 至 项目 项目 產品, 项目 项目 项目 项目 價格 项目 项目 项目.",
+        "將批量操作限制為特定供應商。選擇供應商後，價格更新將應用於該供應商的產品，這代表該供應商的銷售價格。",
       listing_price_need_update_msg:
-        "项目 项目 项目 至 更新 项目 项目 價格 (项目 價格 项目 项目 项目 產品 列表), 项目 项目 项目 项目 项目 更新 项目 项目 项目 過濾器 项目 项目 项目 项目 项目.",
+        "如果您想要更新清單價格（產品清單中顯示的價格），您應該使用相同的篩選器重新提交大量更新，但不選擇供應商。",
     },
     listing_products_changes: "项目 產品 改變",
     total_vendor_products: "全部的 项目 產品",
@@ -2770,7 +2770,7 @@ export default {
   /** {@see BProductSpecTable} **/
   spec_view: {
     auto_save_input: "自動保存",
-    auto_save_input_message: "项目 项目 项目 项目 项目.",
+    auto_save_input_message: "變更將自動儲存。",
   },
 
   /** {@see STimeProgressBar} **/
@@ -2797,58 +2797,58 @@ export default {
   b_page_shop_finance_gateway: {
     title: "支付 项目",
     sub_title:
-      "列表 项目 積極的 支付 项目. 项目 项目 项目 至 项目 项目 新的 项目 至 项目 店鋪, 项目 项目 项目 项目. 项目 项目 项目 项目 项目 10 项目 支付 網關.",
+      "有效付款方式清單。如果您想為您的商店新增方法，請按以下按鈕。我們強烈建議添加的支付網關不要超過 10 個。",
     add_gateway: "新的 支付 项目",
 
     add_gateway_dialog: {
       title: "项目 貨幣",
-      country_currencies: "项目 项目",
+      country_currencies: "當地貨幣",
       crypto_currencies: "项目",
 
       confirm: "添加付款方式",
 
-      online_methods: "项目 项目",
-      cod_methods: "项目 项目 送貨",
+      online_methods: "在線方法",
+      cod_methods: "貨到付款",
       bank_transfer: "銀行 轉移",
       cash_methods: "项目 支付 (POS)",
 
       currency_step: {
-        title: "项目 项目 貨幣",
+        title: "選擇貨幣",
         subtitle:
-          "项目 至 项目 项目 项目 项目 项目 项目 项目 店鋪 至 项目 项目—项目 项目 项目 3. 项目 支付 網關 项目 项目 交易 项目 项目 项目 貨幣.",
+          "盡量將商店中的貨幣數量保持在最低限度，最好少於 3 種。大多數支付網關可以處理幾乎任何貨幣的交易。",
         add_first_currency: {
-          subtitle: "项目 项目 项目 貨幣 至 项目 店鋪 项目 项目.",
+          subtitle: "請先在您的商店中新增貨幣，然後再繼續。",
           title: "添加貨幣",
         },
       },
       gateway_step: {
         title: "積極的 支付 项目",
         subtitle:
-          "项目 项目 從 项目 可用的 支付 项目. 项目 项目 项目 项目 網關, 项目 项目 项目 至 项目 项目 项目 项目 細節 至 關聯 项目 店鋪 项目 至 项目 项目 支付 项目.",
+          "請從可用的付款方式中進行選擇。選擇網關後，您將能夠輸入必要的連接詳細信息，將您的商店直接連結到您的首選付款方式。",
       },
 
       config_step: {
-        import_config: "项目 项目 项目 配置 從 项目 项目 網關",
+        import_config: "您可以從其他類似網關匯入配置",
         import_from: "项目 從",
       },
 
       request_add_new_gateway: {
-        title: "项目 项目 项目 项目 支付 项目?",
+        title: "沒有看到您首選的付款方式？",
         subtitle:
-          "项目 项目 项目 支付 项目 项目 项目, 项目 至 项目 每年 計劃 (项目 项目 项目 项目) 项目 项目 项目 项目. 项目 项目 项目 项目 48 项目 项目 项目 项目 帳戶 项目 项目 项目 项目.",
+          "如果您的本地付款提供者未列出，請訂閱任何年度方案（包括 Startup foraffordable）並要求整合。如果提供測試帳戶和文檔，我們將在 48 小時內完成。",
       },
 
       inputs: {
         currency: {
-          placeholder: "项目 项目 網關 至 项目...",
+          placeholder: "選擇要匯入的網關...",
         },
         manual: {
-          true_title: "项目 项目",
-          true_description: "项目 项目 项目 網關 项目 项目.",
+          true_title: "手動模式",
+          true_description: "您可以手動設定網關配置。",
 
-          false_title: "项目 项目",
+          false_title: "自動連線",
           false_description:
-            "项目 项目 项目 项目 项目 至 项目 網關 项目 项目 项目 项目 项目 项目 網關 项目 项目.",
+            "如果您已經設定了網關，系統將自動連線到網關。",
         },
       },
     },
@@ -3026,7 +3026,7 @@ export default {
       banner_setting: {
         title: "店鋪橫幅",
         sub_title:
-          "顯示在商店頁面頂部",
+          "此訊息將作為橫幅突出顯示在商店頁面的頂部。",
 
         message_input: "留言文字",
         message_input_placeholder: "特別節...",
@@ -3038,9 +3038,9 @@ export default {
         dark_input: "黑暗主題？",
         icon_input: "圖標",
         icon_input_hint:
-          "项目 設計 圖標 姓名 项目 Fontawsom: 项目:项目 项目",
+          "材料設計圖示名稱或 Fontawsom：fa:fas fa-star",
         anim_input: "動畫地址",
-        anim_input_message: "Lottie 项目 项目 URL",
+        anim_input_message: "洛蒂動畫檔案 URL",
         preview: "預習",
         preview_update_action: "更新預覽",
         bg_color: "背景顏色",
@@ -3074,25 +3074,25 @@ export default {
 
     config: {
       subtitle:
-        "類別 项目 项目 產品 项目 项目 项目 项目 项目 项目 项目 顧客 至 项目 產品 项目 项目 店鋪.",
+        "類別有助於簡化產品管理，讓客戶更輕鬆地在您的商店中找到產品。",
     },
     parent: {
       subtitle:
-        "项目 類別 项目 项目 项目 项目 项目 類別. 项目 项目 產品 项目’项目 项目 项目 项目 類別, 项目 项目 项目 项目 项目 项目 项目 類別.",
+        "該類別將顯示在其父類別下。如果產品沒有父類別，它將顯示在主類別中。",
     },
     template: {
       title: "模板",
       edit_page: "編輯 项目",
       Pages_list: "项目 列表",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 類別 项目 项目 项目 项目 風俗 项目. 项目 项目 项目 项目 至 創造 頁面 项目 项目 项目 项目 設計 1 至 2 项目 项目 至 项目 類別. 项目 项目 项目 關聯 项目 项目 至 项目 類別, 项目 项目 项目 至 项目 项目 類別 项目.",
+        "您可以透過疊加自訂頁面來增強類別頁面的顯示。最好的方法是建立具有透明背景的頁面，並針對每個類別設計 1 到 2 個部分。然後，您可以將一個頁面連結到多個類別，使用動態內容單獨自訂每個類別。",
     },
     critical_zone: {
-      title: "项目 项目",
+      title: "臨界區",
       subtitle:
-        "项目 项目 消除 项目 類別, 项目 项目 项目 產品 项目 项目 项目 至 项目 项目 项目<b>📁 {parent}</b>. 至 项目 類別 项目 项目 项目 项目 项目 產品 列表, 项目 至 项目 店鋪 > 類別 项目.",
+        "如果刪除某個類別，其子類別和產品將移至父目錄<b>📁 {parent}</b>。若要管理不在產品清單中的類別，請前往商店 > 類別標籤。",
       accept_delete: {
-        true_description: "项目 项目 至 消除 项目 類別.",
+        true_description: "我想刪除這個類別。",
         true_title: "项目 消除 類別",
       },
     },
@@ -3155,13 +3155,13 @@ export default {
         edit_success: "類別已編輯。",
       },
       manually_update_filters_tips:
-        "<b>项目!</b> 過濾器 项目 项目 项目 项目 產品 改變. 项目, 项目 项目 项目 至 產品 项目 项目 類別, 项目 返回 项目 项目 项目 项目 節省/项目 项目 至 项目 项目 篩選.",
+        "<b>重要！ </b> 產品變更時篩選器會自動更新。但是，對類別中的產品進行更改後，請返回此處並點擊“儲存/重新生成”按鈕以刷新過濾器。",
 
       inputs: {
         spec: {
           message:
-            "列表 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 篩選 项目",
-          placeholder: "项目 项目 至 项目 项目 篩選...",
+            "您希望在篩選器部分中顯示的功能列表",
+          placeholder: "選擇要在過濾器中顯示的規格...",
         },
       },
     },
@@ -3195,14 +3195,14 @@ export default {
     description_input: "店鋪介紹",
     description_input_message: "寫一個關於您的業務的簡短描述。",
     description_input_tips:
-      "项目 描述 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 用過的 项目 项目 默認 Meta 標籤 描述 项目 项目 店鋪 頁面.",
+      "此描述將顯示在您商店的頁腳中，也將用作商店頁面的預設元標記描述。",
     address_input: "店鋪地址",
     address_input_message: "輸入確切的商店位置地址",
 
     phone_input: "電話號碼",
     phone_input_message: "客戶聯繫電話",
     phone_input_tips:
-      "项目 接觸 项目 项目 國家 代碼. 项目 项目 项目 项目 用過的 至 项目 项目 项目 Google 项目.",
+      "輸入帶有國家/地區代碼的聯絡電話。該號碼也用於在 Google 搜尋中顯示資訊。",
     email_input: "電子郵件",
     email_input_message: "客戶的電子郵件地址",
     locality_input: "地點",
@@ -3265,7 +3265,7 @@ export default {
     title_add: "將項目添加到產品",
     sub_title: "創建和編輯虛擬產品",
     message:
-      "项目 项目 支付 项目 完全的, 项目 项目 發送 项目 项目 物品 项目 至 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品 >編輯 > 輸出 项目.",
+      "付款完成後，我們會將虛擬物品的價值發送給買家。您可以在「產品」>「編輯」>「輸出」標籤中設定此表單的結構。",
     edit_outputs: "編輯輸出表格",
     notifications: {
       edit_success: "項目已編輯。",
@@ -3292,8 +3292,8 @@ export default {
         value: "價值",
       },
       tips: [
-        "项目 项目 项目 项目 项目, 项目 项目 命令 项目 项目 至 项目 项目 项目 项目 项目 命令.",
-        "项目 项目 命令 项目 项目, 项目 项目 项目 项目 项目 项目 至 編輯 项目 輸入 项目.",
+        "完成客戶要求後，按下訂單確認鍵以通知買家訂單。",
+        "一旦訂單被批准，買家將無法編輯輸入資訊。",
       ],
       alerts: {
         order_completed_by_admin: "訂單已完成。",
@@ -3333,16 +3333,16 @@ export default {
       options: {
         title: "项目",
         subtitle:
-          "项目 项目 项目 至 取消 项目 命令 项目, 项目 项目 项目 项目 项目.",
+          "如果您想立即取消訂單，可以使用此選項。",
       },
 
       express_input: {
         true_title: "项目 | 取消 命令 项目",
         false_title: "项目 | 取消 命令 项目 48 项目",
         true_description:
-          "项目 项目 项目 取消 项目 命令 项目 项目 更新 项目 存貨 项目 项目.",
+          "此選項將立即取消您的訂單並立即更新庫存。",
         false_description:
-          "项目 项目 项目 取消 项目 命令 项目 48 项目. 项目 项目, 項目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "此選項將在 48 小時後取消您的訂單。在此之前，物品將被保留，其他人無法購買。",
       },
     },
 
@@ -3351,12 +3351,12 @@ export default {
       reject_update_success:
         "訂單取消狀態已更新。",
       dismiss_reject_success:
-        "訂單恢復正常流程。",
+        "訂單已返回正常處理流程。",
       set_tracking_success: "訂單跟踪 ID 已成功保存。",
       shipping_address_update_success:
-        "船運 地址 项目 项目 项目 项目.",
+        "送貨地址已成功更新。",
       vendor_order_status_update_success:
-        "项目 项目 地位 项目 项目 项目 项目.",
+        "供應商履行狀態已成功更新。",
     },
   },
   /** {@see BPageOrderPhysical} **/
@@ -3382,9 +3382,9 @@ export default {
     payment_widget: {
       title: "支付",
       checklist: [
-        "项目 命令 數量 项目 项目 支付.",
+        "檢查訂單金額和客戶付款。",
         "项目 計費 地址.",
-        "项目 项目 项目 项目 项目 项目, 项目 项目 项目 支付 项目 项目 项目 送貨.",
+        "確保輸入的資訊正確，尤其是貨到付款時。",
       ],
       action_cod_pay: "客戶確認付款",
       action_dir_pay: "確認上傳的付款收據",
@@ -3394,7 +3394,7 @@ export default {
       waiting_for_pay: "待付款",
       processing_payment: "處理付款",
       processing_cancel: "付款已取消",
-      require_capture: "项目 项目",
+      require_capture: "需要捕獲",
       paid: "有薪酬的",
       cod_pay_info:
         "當您收到客戶的訂單後，您可以確認付款並完成訂單。",
@@ -3466,7 +3466,7 @@ export default {
       samin: {
         title: "服務費",
         description:
-          "项目 數量 项目 项目 项目 從 项目 Selldone 錢包 帳戶.",
+          "該金額已從您的 Selldone 錢包帳戶中扣除。",
         tooltip: "計算總服務費",
         percent: "百分",
       },
@@ -3507,7 +3507,7 @@ export default {
     basket_list: {
       checklist: [
         "项目 存貨.",
-        "项目 项目 物品 项目 项目, 项目 數量 有薪酬的 项目 项目 物品 项目 项目 回來 至 项目 项目.",
+        "如果該商品缺貨，則必須將該商品支付的金額退還給客戶。",
       ],
       message:
         "如果有任何商品不可用或無法出售，請取消選中它旁邊的框，然後單擊“<b>確認訂單”</b>按鈕。",
@@ -3519,24 +3519,24 @@ export default {
         "您的客戶贏得該產品的 1 倍。使用此訂單發送禮物。",
 
       need_to_refund: {
-        title: "项目 项目 至 项目 项目",
+        title: "要求客戶退款",
         message:
-          "项目 项目 项目 全部的 數量 项目 项目 项目 项目 项目 至 项目 项目. 项目 项目 项目 项目 项目 項目 项目 全部的 项目 项目 项目.",
+          "我們會計算您需要手動退款的總金額。它是根據不可用的商品和尚未退款的總價值來計算的。",
         calculated_approximately:
-          "项目 數量 项目 项目 项目. 项目 项目 项目 项目 數量 项目.",
+          "金額是大約計算的。具體金額請自行計算。",
       },
       need_payback: {
         title: "项目 收費 项目",
         message:
-          "项目 项目 项目 项目 全部的 项目 至 项目 项目 项目 项目 项目 项目 數量 项目 项目 项目 项目 項目 项目 项目 项目. 项目 项目 项目 至 收費 项目 项目 至 项目 项目 项目 數量.",
+          "我們注意到，根據購物車中的商品，退還給客戶的總金額高於應付金額。您可能需要向客戶收取費用才能收回多餘的金額。",
       },
       need_no_refund: {
-        title: "不 项目 项目",
+        title: "無需退款",
       },
       total_refund: {
         title: "全部的 项目",
         message:
-          "项目 项目 全部的 數量 项目 项目 项目 项目 项目 项目 支付 網關. 项目 项目 支付 服務 支持 项目 项目, 项目 项目 项目 至 项目 项目.",
+          "這是您的支付網關自動退款的總金額。僅部分支付服務支援此功能，因此您需要手動退款。",
       },
     },
     /** {@see BOrderDashboardPreparing} **/
@@ -3551,15 +3551,15 @@ export default {
       items_weight_calculation:
         "项目 重量 项目 全部 項目 项目 {weight} {unit}",
       not_available_message:
-        "项目 项目 可用的 项目 项目 项目 项目 项目 项目 船運 地址 项目 项目 用戶 项目 项目 项目 地址 项目 購買!",
+        "當您被禁止詢問送貨地址並且用戶購買後未填寫地址時，此功能不可用！",
 
       message:
         "如果訂單已準備好發貨，請單擊以下<b>訂單就緒</b>按鈕。",
       action: "訂單準備發貨",
       checklist: [
-        "项目 项目 项目 项目 项目.",
-        "项目 项目 列表 项目 項目 项目 项目 项目 项目 项目 项目.",
-        "项目 项目 项目 项目 標籤 至 项目 项目.",
+        "遵循包裝標準規則。",
+        "列印物品清單並將其放入包裹內。",
+        "列印標籤並將其貼到盒子上。",
       ],
     },
 
@@ -3616,7 +3616,7 @@ export default {
       gateway_data_widget: {
         title: "付款報告",
         subtitle:
-          "项目 付款 项目 交易 项目 项目 项目 项目 時間 项目.",
+          "建立在選定時間內進行的付款和交易。",
         chart: {
           times: "數數",
           buys: "購買數量",
@@ -3658,13 +3658,13 @@ export default {
   /** {@see BGatewayOverview} **/
   b_gateway_overview: {
     title: "信息",
-    subtitle: "概述 项目 支付 網關 项目 项目 地位.",
+    subtitle: "支付網關配置和狀態概述。",
     status: "地位",
     cod_transportation: "项目 船運",
     cod_transportations_error:
-      "使能夠 项目 项目 送貨 支付 项目 项目 项目 项目 船運 项目!",
+      "為至少一種運送方式啟用貨到付款！",
     payment_type: "支付 類型",
-    cod: "项目 项目 送貨",
+    cod: "貨到付款",
     online: "项目 支付",
     wage_percent: "費用 百分",
     min_wage: "项目 費用",
@@ -3675,26 +3675,26 @@ export default {
     timeout_unit: "项目",
     link: "網關 關聯",
     your_gateway_status: "项目 網關 地位",
-    oauth2_button: "项目 项目 至 {gateway}",
+    oauth2_button: "自動連接到 {gateway}",
     fee_payment_message:
-      "项目 项目 數量 有薪酬的 项目 项目 项目 项目 项目 项目 至 项目 帳戶. 项目 项目 費用 项目 项目 项目 從 项目 錢包 项目 Selldone.",
+      "客戶支付的全部金額將轉入您的帳戶。服務費將從您在Selldone的錢包中扣除。",
 
     auto_config: "项目 配置",
 
     keys: {
       title: "私人的 项目",
       subtitle:
-        "列表 项目 私人的 项目 项目 项目 支付. 项目 项目 项目 项目 项目 项目 项目 项目 付款.",
+        "用於支付的私鑰列表。此資訊對於建立和管理付款至關重要。",
     },
     extra_config: {
-      title: "支付 项目 项目",
-      subtitle: "项目 项目 项目 项目 项目 支付 網關.",
+      title: "支付服務配置",
+      subtitle: "支付網關的附加設定資訊。",
     },
 
     recommended_actions: {
       title: "项目 行動",
       subtitle:
-        "项目 项目 项目 项目, 项目 项目 至 收到 项目 付款 從 项目 顧客.",
+        "透過這些步驟，您將開始收到客戶的實際付款。",
       action_enable: "项目 至 使能夠 项目",
       make_live_enable: "项目 至 居住 项目",
     },
@@ -3707,12 +3707,12 @@ export default {
     link: "網站",
     status_title: "支付 项目 地位",
     status_message:
-      "项目 项目 支付 项目 项目 積極的 项目 不活躍. 项目 项目 项目 项目 積極的 项目 项目 项目 至 顧客.",
-    status_true_description: "项目 顧客 项目 支付 项目 项目 支付 项目.",
+      "將付款方式配置為「有效」或「無效」。只有設定為活動的方法才會向客戶顯示。",
+    status_true_description: "您的客戶可以使用此付款方式付款。",
 
-    manual_title: "项目 / 项目 项目 支付",
+    manual_title: "手動/自動抓取支付",
     manual_message:
-      "项目 项目 創造 项目 支付, 项目 项目 项目 项目 项目 项目 项目 项目 支付 项目 至 项目 项目 项目 项目 项目 项目 项目. 项目 项目, 项目 项目 项目 项目 支付 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      "建立付款時，您可以暫停符合條件的付款方式，以保留稍後可以提取的資金。例如，飯店通常會在客人抵達之前授權全額付款，然後在客人退房時扣款。",
 
     gateway_status: "地位",
     wallet: "區塊鏈錢包",
@@ -3723,43 +3723,43 @@ export default {
 
     notifications: {
       edit_success: "網關 {gateway_name} 已編輯。",
-      success_delete: "支付 项目 项目 项目 已刪除!",
+      success_delete: "付款方式已刪除！",
     },
     debug: {
       title: "開發 & 项目",
-      subtitle: "项目 项目 使能夠 项目 项目 项目 至 项目 项目 支付 網關.",
+      subtitle: "您可以啟用調試模式來測試支付網關。",
     },
 
     limit: {
       title: "命令 限制",
-      subtitle: "项目 项目 项目 命令 數量 项目 项目 支付 網關.",
+      subtitle: "設定此支付網關的最低訂單金額。",
     },
     limit_input: {
       title: "项目 命令 數量",
-      msg: "项目 项目 不 限制.",
+      msg: "零意味著沒有限制。",
     },
     currency_input: {
-      message: "项目 貨幣 项目 项目 支付 網關 项目.",
+      message: "該支付網關支援的貨幣。",
     },
     gateway_code: "網關 代碼",
 
     hold_only_for: "项目 支付 项目 可用的 项目",
     manual_input: {
       false_description:
-        "项目 支付 地位 项目 项目 项目 项目 從 待辦的 至 確認的 项目 项目 支付 项目 项目.",
+        "在支付提供者係統中，付款狀態將自動從待處理變更為已確認。",
       false_title: "项目 支付 项目",
-      true_title: "项目 付款 项目 项目 项目",
+      true_title: "保留付款和手動確認",
       true_description:
-        "项目 项目 项目 项目 项目 支付 项目 项目 项目 至 项目 项目 付款 项目 项目 命令 至 改變 项目 地位 從 待辦的 至 確認的 项目 项目 支付 项目 项目.",
+        "暫停付款，因此您需要驗證訂單的付款，以在付款提供者係統中將其狀態從待處理更改為已確認。",
     },
     delete_verify_input: {
-      true_title: "项目 项目 至 消除 项目 支付 项目.",
+      true_title: "我想刪除此付款方式。",
       true_description:
-        "项目 支付 项目 项目 项目 项目 從 项目 店鋪 项目 项目 项目 项目 可用的 至 顧客.",
+        "此付款方式將從商店中刪除，並且顧客將無法使用。",
     },
     delete_alert: {
       title: "刪除 支付 项目",
-      message: "项目 项目 项目 刪除 项目 支付 项目 從 项目 店鋪?",
+      message: "您確定從您的商店中刪除此付款方式嗎？",
       action: "刪除 支付 项目",
     },
   },
@@ -3824,7 +3824,7 @@ export default {
     cards: {
       title: "發行卡清單",
       subtitle:
-        "看法 项目 项目 全部 项目 牌. 项目 项目 發送 牌 至 用戶 项目 项目 项目 项目 项目 项目.",
+        "查看和管理所有已發行的卡片。您可以手動向用戶發送卡片或根據需要禁止他們。",
 
       loading_message: "正在獲取信息...請稍候",
       issue_to_user: "發給用戶",
@@ -3964,7 +3964,7 @@ export default {
    */
   order_connect_list: {
     subtitle:
-      "列表 项目 项目 项目 訂單 项目 项目 至 项目 项目 项目 项目 提供者.",
+      "需要由第三方提供者履行的外部同步訂單清單。",
   },
   /** {@see BAccountCard} **/
   account_card: {
@@ -4009,9 +4009,9 @@ export default {
 
     vendor: "供應商訂單狀態從<b>{from}</b>更改為<b>{to}</b> 。",
 
-    "connect-sync": "命令 项目 项目 项目 OS.",
-    "connect-shipped": "项目 命令 项目 项目 已發貨 项目 {shipping}.",
-    "connect-returned": "项目 命令 项目 项目 回來 项目 {shipping}.",
+    "connect-sync": "訂單由 Connect OS 同步。",
+    "connect-shipped": "Connect 訂單已由 {shipping} 出貨。",
+    "connect-returned": "連接訂單已由 {shipping} 傳回。",
     "connect-failed": "合作夥伴未能完成訂單。 {reason}",
     "connect-canceled": "訂單已被合作夥伴取消。 {reason}",
     "connect-action-cancel": "請求取消訂單。 {reason}",
@@ -4023,7 +4023,7 @@ export default {
     "vendor-wallet-transaction": "项目 錢包 交易.",
 
     "vendor-sms":
-      "🔔 命令 项目 SMS 项目 项目 發送 至 <b>{vendor}</b> ╏ {phone}.",
+      "🔔 訂單通知簡訊已發送至<b>{vendor}</b> ╏ {phone}。",
 
     // ━━━━━━━━━━━━━━━━━━━━━━ Email Packs ━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4036,16 +4036,16 @@ export default {
 
     // ━━━━━━━━━━━━━━━━━━━━━━ SMS Packs ━━━━━━━━━━━━━━━━━━━━━━
     "sms-payment":
-      "發送 项目 支付 项目 SMS 至 项目 项目 项目 {phone}.",
+      "透過 {phone} 向客戶發送付款確認簡訊。",
     "sms-ready-to-ship":
-      "發送 项目 SMS 至 项目 项目 项目 项目 项目 命令 项目 项目 至 项目 已發貨 项目 {phone}.",
+      "向客戶發送短信，通知他們的訂單已準備好透過 {phone} 發貨。",
     "sms-ready-to-pickup":
-      "發送 项目 SMS 至 项目 项目 项目 项目 项目 命令 项目 项目 项目 项目 项目 {phone}.",
+      "向客戶發送短信，通知他們的訂單已準備好透過 {phone} 取貨。",
     "sms-order-confirmation":
-      "發送 项目 命令 项目 SMS 至 项目 项目 项目 {phone}.",
+      "透過 {phone} 向客戶發送訂單確認簡訊。",
 
     "count-adjustment":
-      '项目 數量 项目 项目 產品 "{product}" 项目 项目 项目 從 {from} 至 {to}.',
+      "產品「{product}」的數量已從 {from} 更新為 {to}。",
   },
 
   /** {@see FinanceInlineChart} **/
@@ -4058,7 +4058,7 @@ export default {
     move_category: "將類別<b>{category}</b>移至另一個類別",
     move_product: "將產品<b>{product}</b>移至類別",
     load_more_products:
-      "更多的 產品 项目 可用的 项目 项目 類別. 项目 至 项目 更多的 項目.",
+      "此類別中有更多產品可供選擇。點擊可載入更多項目。",
     product_menu: {
       dashboard: "產品儀表板",
       inventory: "庫存和變體",
@@ -4069,11 +4069,11 @@ export default {
     },
 
     filter_box: {
-      no_root_filter_message: "项目 项目 產品 项目 项目 项目 不 篩選.",
-      has_root_filter_message: "项目 项目 過濾器 项目 项目 類別.",
-      set_filter_message: "项目 项目 项目 過濾器.",
+      no_root_filter_message: "您的根目錄中有產品，但沒有過濾器。",
+      has_root_filter_message: "您可以為根類別設定篩選器。",
+      set_filter_message: "您可以設定過濾器。",
       edit_action: "編輯 项目 過濾器",
-      clear_action: "项目 项目 過濾器",
+      clear_action: "清除根過濾器",
     },
     ai: {
       title: "AI 產品 项目",
@@ -4083,10 +4083,10 @@ export default {
       unselect: "项目",
       sort_categories: "项目 / 项目 類別",
       subscription_vendor_not_support_message:
-        "项目 项目 项目 项目 项目 訂閱 產品! 訂閱 產品 项目 项目 项目 项目 项目 项目 项目 所有者!",
+        "無法為訂閱產品指定供應商！訂閱產品必須始終有供應商作為其所有者！",
       vendor_owner_not_assignable_message:
-        "项目 项目 项目 项目 项目 项目 產品 项目 项目 项目 项目 项目 所有者!",
-      category_assign_profile: "项目 輪廓 至 產品 项目 项目 類別",
+        "無法為以供應商為所有者的產品分配供應商！",
+      category_assign_profile: "將設定檔指派給類別中的產品",
       category_assign_profile_subtitle: "TAX, 船運, 项目, 项目,...",
       bulk_discount: "项目 折扣",
       bulk_discount_subtitle: "项目 折扣 项目 全部 產品.",
@@ -4095,18 +4095,18 @@ export default {
     engine: {
       title: "项目 產品 项目",
       subtitle:
-        "更多的 產品 项目 项目 项目 從 项目 類別 项目 標籤.",
-      load_in_tips: "项目 產品 從 類別 项目 项目 {category}.",
+        "將從選定的類別和標籤載入更多產品。",
+      load_in_tips: "從 {category} 中的類別載入產品。",
       action: "編輯 {category} 项目",
     },
   },
   /** {@see BProductsPanel} **/
   product_panel: {
     excel_import: {
-      title: "项目 项目 / CSV 项目 项目.",
-      select_file: "项目 项目",
-      max_file: "项目 项目 项目: 20mb",
-      download_sample: "项目 项目",
+      title: "將 Excel/CSV 檔案拖曳到此處。",
+      select_file: "選擇文件",
+      max_file: "最大檔案大小：20mb",
+      download_sample: "下載樣本",
     },
     ai: {
       title: "AI 產品 项目",
@@ -4115,27 +4115,27 @@ export default {
 
   /** {@see BOrderDashboardVendor} **/
   order_vendor: {
-    has_panel: "项目 项目",
+    has_panel: "有面板",
     no_panel: "不 项目",
     manual_action: {
       title: "项目 行動",
-      message: "项目 项目 更新 项目 项目 命令 地位 项目.",
+      message: "您可以手動更新供應商訂單狀態。",
       guides: [
-        "项目 项目 项目 使用權 项目 更新 项目 项目 (项目) 项目 项目 项目 儀表板.",
-        "项目 项目 项目 项目 不 项目 使用權, 项目 项目 命令 地位 项目 项目 项目 项目 项目 项目 项目 项目 地位.",
-        "项目 项目 更新 项目 訂單 项目.",
+        "具有面板存取權限的供應商可以在其專用儀表板中更新其履行情況（子訂單）。",
+        "如果供應商沒有面板存取權限，供應商訂單狀態將透過變更購物籃狀態自動變更。",
+        "您可以手動更新供應商訂單。",
       ],
     },
     payouts: {
       title: "项目",
-      message: "项目 项目 项目 项目 项目 交易.",
+      message: "管理供應商付款和交易。",
 
       charge_tooltip: "收費 项目 錢包.",
       withdraw_tooltip: "项目 從 项目 錢包.",
-      payout_tooltip: "项目 至 项目 项目.",
+      payout_tooltip: "付款給供應商。",
     },
     order_canceled: "命令 项目",
-    order_rejected: "命令 被拒絕 项目 项目",
+    order_rejected: "訂單被供應商拒絕",
   },
 
   /**
@@ -4151,17 +4151,17 @@ export default {
     products: {
       title: "產品",
       subtitle:
-        "项目 项目 项目 看法 项目 數數 项目 项目 產品 项目 项目 项目 市場. 產品 项目 项目 项目 项目 项目 项目.",
+        "在這裡您可以查看市場上列出的產品數量。不包括多個供應商的產品。",
     },
     wallets: {
       title: "项目 錢包",
       subtitle:
-        "项目 项目 项目 至 项目 錢包 项目! 项目 錢包 项目 项目 项目 项目.",
+        "您無需手動添加錢包！供應商錢包將自動創建。",
     },
 
     open_marketplace_page: "项目 市場 项目",
-    open_my_store_page: "项目 项目 店鋪 项目",
-    open_my_listing_page: "项目 项目 项目 项目",
+    open_my_store_page: "開啟我的商店頁面",
+    open_my_listing_page: "開啟我的清單頁面",
     add_products_permission: "项目 產品 项目",
     add_categories_permission: "项目 類別 项目",
   },
@@ -4172,20 +4172,20 @@ export default {
   vendor_inventory: {
     title: "產品列表",
     subtitle:
-      "项目 项目 项目 列表 项目 项目 產品 项目 项目 市場. 更新 價格 项目 项目 项目 项目 项目 產品 项目 项目 存貨. 项目 项目 项目, 项目 项目 项目 项目 產品 项目 项目 项目 项目 產品 列表. 项目 项目 產品 项目 项目 项目 项目 项目 项目.",
+      "這是您在市場上的產品清單。更新庫存中指定產品的價格和數量。作為供應商，您只能在產品清單中看到您擁有的單一供應商產品。其他分配的產品也可以在此修改。",
   },
 
   /**
    * @see VPageVendorAccess
    */
   vendor_member: {
-    title: "项目 项目",
+    title: "團隊成員",
     subtitle:
-      "项目 项目 项目 列表 项目 用戶 项目 项目 使用權 至 项目 项目 项目. 项目 项目 项目 新的 项目 项目 项目 项目 项目 權限 项目.",
+      "這是有權存取您的供應商面板的使用者清單。您可以在此處新增的團隊成員並自訂他們的權限。",
     add_action: "项目 新的 项目",
     pending: {
       title: "待辦的 项目",
-      message: "看法 项目 列表 项目 项目 项目 项目 等待中 项目.",
+      message: "查看等待接受的邀請清單。",
     },
   },
 
@@ -4193,12 +4193,12 @@ export default {
    * @see VMemberAddDialog
    */
   vendor_member_add: {
-    title_edit: "編輯 项目 项目",
-    title_new: "项目 新的 项目 项目",
+    title_edit: "編輯團隊成員",
+    title_new: "新增團隊成員",
     member: {
-      title: "项目 项目 細節",
+      title: "團隊成員詳情",
       subtitle:
-        "项目 项目 新的 项目 项目 项目 项目 项目 權限. 项目 项目 项目 物品 至 项目 项目/项目 使用權. 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 店鋪 儀表板.",
+        "新增新的團隊成員並設定他們的權限。按一下每個項目可調整讀取/寫入存取權限。每行對應於主商店儀表板的權限等級。",
     },
     access: {
       view_data: "看法 數據",
@@ -4207,21 +4207,21 @@ export default {
     inputs: {
       email: {
         label: "電子郵件 地址",
-        placeholder: "项目 项目 项目 電子郵件 地址...",
+        placeholder: "輸入會員的電子郵件地址...",
       },
     },
     notifications: {
       add_success: {
-        title: "项目 项目",
-        message: "项目 项目 项目 项目 项目 项目 项目.",
+        title: "已新增會員",
+        message: "團隊成員已成功新增。",
       },
       update_success: {
-        title: "项目 项目",
-        message: "项目 项目 项目 项目 项目 项目 项目 项目.",
+        title: "會員更新",
+        message: "團隊成員資訊已成功更新。",
       },
     },
     actions: {
-      add: "项目 项目",
+      add: "新增會員",
     },
   },
 
@@ -4232,26 +4232,26 @@ export default {
     list: {
       title: "项目 歷史",
       subtitle:
-        "项目 项目 看法 项目 项目 歷史 项目. 项目 项目 项目 项目 项目 项目 项目 銀行 项目 项目 项目 项目 支付 服務 项目 提供 项目 项目.",
+        "您可以在此處查看您的付款記錄。這些付款可以透過銀行轉帳手動處理，也可以使用提供付款功能的支付服務自動處理。",
     },
     connect: {
       title: "项目 銀行",
       subtitle:
-        "项目 提供 项目 支付 项目 项目 项目 项目 支付 網關. 至 收到 付款 项目 项目 项目 購買, 项目 项目 项目 銀行 帳戶 项目 项目 项目.",
+        "我們為以下支付網關提供拆分支付功能。若要在每次購買後無縫接收付款，請使用這些選項連接您的銀行帳戶。",
     },
     verify_dialog: {
       title: "项目 支付",
       option: {
-        title: "项目 项目",
+        title: "供應商行動",
         subtitle:
-          "项目 项目 项目 项目 至 接受 项目 拒絕 项目 轉移. 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 已收到 项目 项目; 项目 项目, 项目 不 项目 至 项目 项目 项目.",
+          "您可以選擇接受或拒絕此轉讓。此行為僅作為歷史記錄。只需確認您是否已收到資金；如果沒有，則無需採取任何操作。",
       },
       inputs: {
         verify: {
-          label: "项目 项目 確認的 项目 支付?",
+          label: "您確認這筆款項了嗎？",
           false_description:
-            "不, 项目 项目 项目 项目 已收到 项目 支付 项目 项目 銀行 帳戶.",
-          true_description: "项目, 项目 项目 已收到 项目 已驗證 项目 支付.",
+            "否，我的銀行帳戶尚未收到這筆款項。",
+          true_description: "是的，我已收到並驗證了這筆款項。",
         },
       },
     },
@@ -4263,14 +4263,14 @@ export default {
   vendor_order_refund: {
     title: "项目 命令",
     subtitle:
-      "<b>项目! </b>项目 项目 项目 项目 项目 项目 项目 交易 项目 项目 项目 錢包 项目 项目 项目 项目 數量 從 项目. 项目 數量 项目 项目 项目 项目 全部的 交易 项目 项目 项目 命令. 项目, 项目 项目 项目 项目 项目 至 連接的 銀行 賬戶 (项目 项目 项目 Stripe 项目 项目 项目 项目 轉移), 项目 项目 創造 项目 <b>项目 轉移</b>.",
+      "<b>重要！ </b>執行此操作將在供應商的錢包中產生負交易，並從中減去所選金額。該金額不能超過所選訂單的剩餘交易總額。此外，如果資金已轉入關聯的銀行帳戶（例如透過 Stripe Connect 或手動電匯），您應該建立 <b> 反轉轉帳 </b>。",
     inputs: {
       note: {
-        message: "项目 项目 至 项目 项目.",
-        placeholder: "项目 项目 项目 项目 筆記 项目...",
+        message: "它對供應商可見。",
+        placeholder: "您可以在此處附加註釋...",
       },
       amount: {
-        error_message: "项目 项目 數量 项目 项目 项目.",
+        error_message: "剩餘金額已超。",
       },
     },
   },
@@ -4278,13 +4278,13 @@ export default {
   /** {@see BOrderVendorPaymentManagement} **/
   order_vendor_payment: {
     message:
-      "项目 项目 项目 概述 项目 项目 交易 项目 项目 项目 项目 錢包 项目 项目 市場. 项目 项目 命令 项目 项目, 项目 项目 项目 项目 项目 銷售 项目 项目 至 项目 錢包.",
+      "這提供了市場上供應商虛擬錢包中交易的概述。每當下訂單時，供應商的銷售份額就會添加到他們的錢包中。",
     vendor_wallets: "项目 錢包",
     my_wallets: "我的錢包",
     refund_order_action: "项目 命令",
     automatic_payout_list: {
       subtitle:
-        "项目 项目 项目 列表 项目 项目 项目 至 项目 連接的 銀行 帳戶. 项目 筆記 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目.",
+        "這是向您關聯的銀行帳戶自動付款的清單。請注意，此處僅顯示自動付款，不會顯示手動付款。",
     },
     reversal_transfer_action: "项目 轉移",
   },
@@ -4310,8 +4310,8 @@ export default {
   /** {@see BOrderTimeline} **/
   order_timeline: {
     message:
-      "项目 项目 项目, 项目 项目 看法 项目 時間線 项目 活動 项目 至 项目 命令, 项目, 支付, 项目 项目 项目 项目. 项目, 项目 项目 项目 项目 訂單 项目 至 项目 顧客 项目 项目.",
-    add_note_subtitle: "项目 项目 信息 项目 项目 项目 项目.",
+      "在此部分中，您可以查看與訂單、履行、付款及其各自狀態相關的事件的時間表。此外，您還可以觀察發送給客戶和供應商的訂單。",
+    add_note_subtitle: "寫一條訊息並提及您的同事。",
 
     message_input: "在這裡寫留言...",
     pin_action: "置頂",
@@ -4339,7 +4339,7 @@ export default {
   accounts: {
     title: "我的錢包",
     message:
-      "项目 项目 项目 项目 项目 项目 项目 帳戶 项目 项目 貨幣 项目 项目 项目 Selldone. 项目 项目 项目 项目 项目 至 项目 项目 项目 项目.",
+      "請為您在 Selldone 使用的每種貨幣至少設定一個帳戶。這些資金將專門用於支付您的服務費。",
     add_new: "建立新帳戶",
     new_account: "添加新帳戶",
     new_account_dialog: {
@@ -4381,7 +4381,7 @@ export default {
     received_gifts: {
       title: "收到禮物",
       sub_title:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目 已收到, 项目 從 Selldone 项目 项目 项目.",
+        "以下是您從 Seldone 或其他來源收到的禮物的彙編。",
 
       table: {
         amount: "數量",
@@ -4442,7 +4442,7 @@ export default {
     sub_title:
       "禮品金額將自動存入這些賬戶。",
     message:
-      "Selldone 项目 项目 项目 项目 项目 项目 项目, 项目 项目 Selldone 项目, 项目 项目 项目 项目 项目. 项目 项目 项目 訂金 帳戶 项目 项目 貨幣, 项目 禮物 项目 项目 项目 项目 项目 项目 帳戶 项目 项目 領域 项目. 项目 项目 项目 项目 项目 至 Selldone. 推薦付款 项目 项目 项目 项目 项目 项目 项目.",
+      "Selldone 為您的社群媒體活動、參與 Selldone 開發、介紹朋友等存入資金。透過為每種貨幣選擇一個存款帳戶，禮品金額將自動存入您網域中的該帳戶。這些金額可以記入 Selldone。僅業務合作夥伴可以提款。",
     add_account_action: "新增帳戶",
     add_dialog: {
       title: "連接賬戶以接收禮物",
@@ -4484,7 +4484,7 @@ export default {
   user_monetize_plans: {
     title: "合作和貨幣化項目",
     sub_title:
-      "项目 项目 项目 项目 项目 项目 项目 项目 Selldone 錢包, 项目 项目 项目 项目 项目 用過的 至 支付 项目 Selldone 项目 项目 (可用的 项目 全部). 项目 筆記 项目 项目 Selldone VIP 项目 项目 项目 项目 项目 至 项目 项目 项目 项目, 项目 项目 项目 项目 项目 可用的 至 全部 用戶.",
+      "您將在 Selldone 錢包中獲得推薦獎勵，這些資金可用於支付 Selldone 服務費（適用於所有人）。請注意，只有 Selldone VIP 業務合作夥伴才有能力提取這些建議積分，並且並非所有用戶都可以使用此選項。",
 
     discount: "折扣",
     your_income: "你的收入",
@@ -4492,7 +4492,7 @@ export default {
     level_3: "從三級",
     link_message: "成員資格：{registered}，接受：{accepted}",
     link_tip:
-      "项目 项目 项目 项目 项目?项目={link_code} 至 项目 結尾 项目 项目 地址 项目 项目.",
+      "您可以將短語 ?ref={link_code} 新增到您共享的每個位址的末尾。",
     table: {
       currency: "貨幣",
       amount: "平衡",
@@ -4535,12 +4535,12 @@ export default {
         "上傳您的護照圖像掃描件。",
       personal_image_input: "選擇你自己的形象",
       personal_image_input_message:
-        "將您的國民卡上的掃描圖像來回上傳到圖像。",
+        "請上傳您的國民身分證圖像。有些國家/地區沒有身分證，因此只需在此處上傳您的護照或駕照即可。",
     },
     profile_dialog: {
       title: "主要簡介",
       subtitle:
-        "編輯 项目 上市 輪廓 项目 项目. 项目 项目 项目 项目 项目 至 项目 顧客 项目 项目 用戶.",
+        "在此編輯您的公開個人資料資訊。您的客戶或其他使用者可能會看到此資訊。",
       full_name_input: "全名",
       tel_input: "聯繫電話",
       email_input: "電子郵件",
@@ -4569,7 +4569,7 @@ export default {
   phone_verify: {
     title: "手機號碼",
     step1_title:
-      "輸入你的手機號碼。",
+      "輸入您的手機號碼，您將收到一條驗證簡訊。",
     phone_number_input: "手機號碼",
     next: "下一步",
     sms_code_input: "驗證碼",
@@ -4587,7 +4587,7 @@ export default {
   companies: {
     title: "我的企業帳戶",
     message:
-      "项目, 项目, 项目 项目 项目 项目 開發 產品 项目 應用 项目 项目 项目 Selldone. 项目 项目 项目 项目 至 創造 项目 项目 輪廓.",
+      "企業、企業家和專業團隊可以基於Selldone開發產品和應用。建立業務檔案是一項要求。",
     new_company: "新公司",
   },
   /** {@see BCompanyAdd} **/
@@ -4681,7 +4681,7 @@ export default {
           "如果無法掃描，您可以手動將代碼複製並粘貼到應用程序中：",
         create_new_code: "創建新代碼",
         qr_code_scanning:
-          "项目 项目 QR 代碼 项目 项目 Google 项目 移動的 應用程序 项目 项目 项目 代碼 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "掃描 Google Authenticator 行動應用程式建立的二維碼，然後在此頁面的方塊中輸入產生的程式碼進行確認。",
         qr_code_regenerate_info:
           "注意：通過按上述鍵，將創建一個新鍵，之前的鍵將無法使用。在您的手機應用程序中輸入新密鑰。",
       },
@@ -4808,7 +4808,7 @@ export default {
     },
     "user:profile:write": {
       name: "輪廓 项目",
-      description: "編輯 项目 项目 用戶 輪廓 项目.",
+      description: "編輯和管理用戶個人資料資訊。",
     },
 
     //--------------------------- Storefront ---------------------------
@@ -4836,7 +4836,7 @@ export default {
     },
     "backoffice:order:write": {
       name: "命令 项目",
-      description: "編輯 项目 项目 店鋪 訂單.",
+      description: "編輯和管理商店訂單。",
     },
     "backoffice:order:read": {
       name: "命令 使用權",
@@ -4852,19 +4852,19 @@ export default {
     },
     "backoffice:shop:write": {
       name: "店鋪 项目",
-      description: "創造 项目 项目 店鋪 細節.",
+      description: "建立和管理商店詳細資訊。",
     },
     "backoffice:shop:add": {
       name: "项目 店鋪",
-      description: "项目 项目 新的 店鋪 至 项目 项目.",
+      description: "將新商店新增至系統。",
     },
     "backoffice:shop:delete": {
       name: "刪除 店鋪",
-      description: "刪除 项目 店鋪 從 项目 项目.",
+      description: "從系統中刪除商店。",
     },
     "backoffice:giftcard:write": {
       name: "禮物 卡片 项目",
-      description: "創造 项目 项目 禮物 牌.",
+      description: "建立和管理禮品卡。",
     },
     "backoffice:giftcard:read": {
       name: "禮物 卡片 使用權",
@@ -4872,7 +4872,7 @@ export default {
     },
     "backoffice:faq:write": {
       name: "FAQ 项目",
-      description: "創造 项目 项目 项目 项目 项目.",
+      description: "建立和管理常見問題。",
     },
     "backoffice:faq:read": {
       name: "FAQ 使用權",
@@ -4880,7 +4880,7 @@ export default {
     },
     "backoffice:category:write": {
       name: "類別 项目",
-      description: "創造 项目 项目 產品 類別.",
+      description: "建立和管理產品類別。",
     },
     "backoffice:category:read": {
       name: "類別 使用權",
@@ -4888,7 +4888,7 @@ export default {
     },
     "backoffice:product:write": {
       name: "產品 项目",
-      description: "项目 项目 项目 產品.",
+      description: "新增和管理產品。",
     },
     "backoffice:product:read": {
       name: "產品 使用權",
@@ -4896,7 +4896,7 @@ export default {
     },
     "backoffice:report:read": {
       name: "報告 使用權",
-      description: "项目 店鋪 報告 项目 项目.",
+      description: "閱讀商店報告和資訊。",
     },
     "backoffice:finance:write": {
       name: "金融 帳戶 项目",
@@ -4907,7 +4907,7 @@ export default {
       description: "项目 金融 帳戶 細節 项目 統計數據.",
     },
     "backoffice:page:write": {
-      name: "项目 项目",
+      name: "頁面管理",
       description: "編輯 店鋪 頁面.",
     },
     "backoffice:page:read": {
@@ -4924,19 +4924,19 @@ export default {
     },
     "backoffice:staff:write": {
       name: "職員 项目",
-      description: "編輯 项目 项目 職員 細節.",
+      description: "編輯和管理員工詳細資料。",
     },
     "backoffice:staff:read": {
       name: "職員 使用權",
-      description: "项目 職員 项目 项目 統計數據.",
+      description: "閱讀員工資訊和統計數據。",
     },
     "backoffice:business-profile:write": {
       name: "项目 輪廓 项目",
-      description: "项目 项目 簡介.",
+      description: "管理業務資料。",
     },
     "backoffice:business-profile:read": {
       name: "项目 輪廓 使用權",
-      description: "项目 项目 輪廓 細節.",
+      description: "閱讀企業簡介詳細資訊。",
     },
     "backoffice:discount-code:write": {
       name: "折扣 代碼 项目",
@@ -4952,7 +4952,7 @@ export default {
     },
     "backoffice:wallet:read": {
       name: "錢包 使用權",
-      description: "项目 錢包 项目 项目 統計數據.",
+      description: "閱讀錢包資訊和統計數據。",
     },
     "backoffice:coupon:write": {
       name: "優惠券 项目",
@@ -4968,15 +4968,15 @@ export default {
     },
     "backoffice:offer:read": {
       name: "提供 使用權",
-      description: "项目 提供 项目 项目 統計數據.",
+      description: "閱讀報價資訊和統計資料。",
     },
     "backoffice:cashback:write": {
-      name: "项目 项目",
+      name: "現金回饋管理",
       description: "项目 店鋪 项目 優惠.",
     },
     "backoffice:cashback:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀現金返還詳細資訊和統計數據。",
     },
     "backoffice:lottery:write": {
       name: "彩票 项目",
@@ -4995,20 +4995,20 @@ export default {
       description: "项目 社區 細節 项目 統計數據.",
     },
     "backoffice:customer:write": {
-      name: "项目 项目",
-      description: "项目 项目 細節.",
+      name: "客戶管理",
+      description: "管理客戶詳細資料。",
     },
     "backoffice:customer:read": {
       name: "项目 使用權",
-      description: "项目 项目 项目 项目 統計數據.",
+      description: "閱讀客戶資訊和統計資料。",
     },
     "backoffice:ribbon:write": {
-      name: "项目 项目",
+      name: "色帶管理",
       description: "项目 店鋪 项目.",
     },
     "backoffice:ribbon:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀功能區詳細資訊和統計資料。",
     },
     "backoffice:ai:write": {
       name: "AI 项目",
@@ -5016,15 +5016,15 @@ export default {
     },
     "backoffice:ai:read": {
       name: "AI 使用權",
-      description: "项目 AI 项目 项目 統計數據.",
+      description: "閱讀 AI 配置和統計數據。",
     },
     "backoffice:vendor-payment:write": {
       name: "项目 支付 项目",
-      description: "项目 项目 付款.",
+      description: "管理供應商付款。",
     },
     "backoffice:vendor-payment:read": {
       name: "项目 支付 使用權",
-      description: "项目 项目 支付 細節 项目 統計數據.",
+      description: "閱讀供應商付款詳細資訊和統計資料。",
     },
     "backoffice:company:read": {
       name: "公司 使用權",
@@ -5036,11 +5036,11 @@ export default {
     },
     "backoffice:note:read": {
       name: "筆記 使用權",
-      description: "项目 项目 项目 项目 細節.",
+      description: "閱讀註釋和相關詳細資訊。",
     },
     "backoffice:note:write": {
       name: "筆記 项目",
-      description: "项目 项目.",
+      description: "管理筆記。",
     },
     "backoffice:affiliate:write": {
       name: "附屬公司 项目",
@@ -5051,30 +5051,30 @@ export default {
       description: "项目 附屬公司 細節 项目 統計數據.",
     },
     "backoffice:print:write": {
-      name: "项目 项目",
-      description: "项目 项目 项目.",
+      name: "列印管理",
+      description: "管理列印選項。",
     },
     "backoffice:print:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節.",
+      description: "閱讀列印詳細資訊。",
     },
     "selldone:token:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀代幣詳細資料和統計數據。",
     },
     "selldone:token:write": {
-      name: "项目 项目",
-      description: "项目 项目.",
+      name: "代幣管理",
+      description: "管理代幣。",
     },
 
     //--------------------------- Selldone ---------------------------
     "selldone:monetization:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀獲利詳細資訊和統計資料。",
     },
     "selldone:monetization:write": {
-      name: "项目 项目",
-      description: "项目 项目, 项目 项目 项目.",
+      name: "貨幣化管理",
+      description: "管理貨幣化，包括推薦計畫。",
     },
     "selldone:identification": {
       name: "项目 使用權",
@@ -5095,44 +5095,44 @@ export default {
 
     //--------------------------- Connect ---------------------------
     "connect:provider:write": {
-      name: "项目 项目",
+      name: "供應商管理",
       description: "项目 連接的 项目 提供者.",
     },
     "connect:provider:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀提供者詳細資訊和統計資料。",
     },
 
     //--------------------------- Agency ---------------------------
     "agency:read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀機構詳細資訊和統計數據。",
     },
     "agency:write": {
-      name: "项目 项目",
-      description: "项目 项目 项目.",
+      name: "代理管理",
+      description: "管理機構資訊。",
     },
 
     //--------------------------- Vendor ---------------------------
 
     "vendor-read": {
       name: "项目 使用權",
-      description: "项目 项目 細節 项目 統計數據.",
+      description: "閱讀供應商詳細資訊和統計數據。",
     },
     "vendor-write": {
-      name: "项目 项目",
-      description: "项目 项目 项目.",
+      name: "供應商管理",
+      description: "管理供應商資訊。",
     },
   },
 
   scope_group: {
     backoffice: {
       title: "项目",
-      description: "使用權 至 项目 项目 店鋪 项目 项目.",
+      description: "存取後台和商店管理功能。",
     },
     storefront: {
       title: "项目",
-      description: "使用權 至 项目 项目 店鋪 项目.",
+      description: "存取客戶和商店資訊。",
     },
     profile: {
       title: "輪廓",
@@ -5140,15 +5140,15 @@ export default {
     },
     selldone: {
       title: "Selldone",
-      description: "使用權 Selldone 服務 项目 项目.",
+      description: "存取 Soldone 服務和功能。",
     },
     others: {
       title: "项目",
-      description: "项目 範圍 项目 项目 项目 项目 项目.",
+      description: "系統中未定義的其他範圍。",
     },
     vendor: {
       title: "项目",
-      description: "使用權 项目 项目 项目 项目 项目.",
+      description: "存取供應商資訊和管理功能。",
     },
     connect: {
       title: "项目 OS",
@@ -5156,7 +5156,7 @@ export default {
     },
     agency: {
       title: "项目",
-      description: "使用權 项目 项目 项目 项目.",
+      description: "存取機構資訊和管理。",
     },
   },
 
@@ -5357,7 +5357,7 @@ export default {
       form: {
         title: "轉讓申請表",
         sub_title:
-          "项目 项目 项目 至 项目 项目 项目 项目 项目 錢包 项目 錢包 项目 项目 项目 貨幣, 项目 轉移 项目 至 项目 錢包 项目 Selldone.",
+          "您可以將錢包內的可用資金在相同貨幣的錢包之間轉移，或者將其轉移到 Selldone 上的不同錢包。",
         message:
           "匯款時要小心，如果您完成轉賬，您將無法返回。",
       },
@@ -5457,7 +5457,7 @@ export default {
     description:
       "根據您的每月銷售額計算並選擇最佳計劃：",
     sale_input: "月銷售額",
-    hypernova_plan: "项目 项目 项目 %0!",
+    hypernova_plan: "申請超新星%0！",
     show_normal_mode: "顯示正常模式",
     show_hypernova_mode: "我的交易額超過 100 萬美元！",
   },
@@ -5506,7 +5506,7 @@ export default {
   login: {
     register_title: "商業媒介，<br>愉快的經歷。",
     register_subtitle:
-      "项目 项目 今天 项目 项目. Selldone 项目 项目 项目 项目, 项目, 项目, 项目 项目.",
+      "立即免費註冊。 Selldone 深受新創公司、企業、買家和賣家的喜愛。",
 
     password_recovery_title: "找回密碼",
     password_recovery_message:
@@ -5514,26 +5514,26 @@ export default {
     email: "您的電子郵件地址",
     password_recovery_action: "接收恢復電子郵件",
 
-    register_google: "项目 项目 Google",
+    register_google: "繼續使用谷歌",
     register_apple: "繼續使用蘋果",
     continue_with: "繼續",
     register_linkedin: "繼續領英",
-    register_facebook: "项目 项目 Facebook",
-    register_github: "项目 项目 GitHub",
+    register_facebook: "繼續使用 Facebook",
+    register_github: "繼續使用 Github",
     create_your_account: "創建您的帳戶",
     password_8_chars: "密碼必須至少8個字符。",
     password_upercase_number: "至少一個大寫字母和一個數字。",
     password_confirm: "密碼和確認匹配。",
     privacy_agreement:
-      "项目 项目 项目, 项目 项目 至 Selldone'项目 <a href='/terms' target='_blank'>條款 项目 项目</a> 项目 <a href='/privacy' target='_blank'>隱私 项目 </a>.",
+      "註冊即表示您同意 Selldone 的 <a href='/terms' target='_blank'> 使用條款 </a> 和 <a href='/privacy' target='_blank'> 隱私權政策 </a>。",
     register_action: "走吧，它是免費的！",
     login_action: "登錄",
     already_signup: "已經註冊了？",
     login_your_account: "登錄到您的帳戶",
-    login_google: "项目 项目 Google",
+    login_google: "繼續使用谷歌",
     login_linkedin: "繼續領英",
-    login_facebook: "项目 项目 Facebook",
-    login_github: "项目 项目 GitHub",
+    login_facebook: "繼續使用 Facebook",
+    login_github: "繼續使用 Github",
     remember_me: "記得我。",
     login_button: "登錄",
     two_step_problem: "兩步密碼有問題嗎？",
@@ -5567,21 +5567,21 @@ export default {
       wallet_subtitle: "项目 賬戶 项目 連接的 支付 牌.",
 
       companies: "公司和商業賬戶",
-      companies_subtitle: "登記 项目 项目 项目 TAX 簡介.",
+      companies_subtitle: "註冊我的企業和稅務資料。",
 
       access: "訪問我的帳戶",
       access_subtitle:
-        "OAuth 存儲訪問密鑰, 個人的 使用權 项目 项目 連接的 應用.",
+        "OAuth 用戶端、個人存取權杖和連線的應用程式。",
 
       security: "安全",
-      security_subtitle: "项目 项目 项目 项目 项目 项目 登錄 项目.",
+      security_subtitle: "設定兩個因素並管理社交登入選項。",
 
       preferences: "用戶偏好",
       preferences_subtitle:
-        "改變 主題, 项目, 项目 项目 默認 貨幣.",
+        "更改主題、等級、語言和預設貨幣。",
       my_subscriptions: "我的訂閱",
       my_subscriptions_subtitle:
-        "使用權 至 项目 AI 项目 项目 项目.",
+        "存取高級人工智慧和自訂功能。",
     },
   },
 
@@ -5634,7 +5634,7 @@ export default {
     /** {@see LPageEditorSeo} **/
     seo: {
       message:
-        "SEO 設置 项目 项目 项目 项目 项目 Selldone SEO 项目.",
+        "SEO 設定由 Selldone SEO 引擎自動調整。",
     },
   },
 
@@ -5683,7 +5683,7 @@ export default {
     price: "價格",
     verify: {
       true_title: "项目 條款",
-      true_description: "项目 项目 项目 项目 项目 Selldone 條款 项目 项目",
+      true_description: "我已閱讀並同意 Selldone 使用條款",
     },
     need_charge: "需要收費",
     buy_now: "立即購買",
@@ -5698,19 +5698,19 @@ export default {
     active_license: {
       title: "有效許可證",
       subtitle:
-        "您的有效許可證信息。",
+        "這是您的有效許可證資訊。您可以透過升級到更高等級的方案來降低服務費。",
       subtitle_partner:
-        "您的有效 {name} 許可證信息。",
+        "您的有效 {name} 許可證資訊。這家商店目前有一個活躍的合作夥伴協議。如果您想取消交易並升級到更高層級的計劃，請聯絡我們的支援團隊尋求協助。",
     },
     licenses_table: {
       title: "購買歷史",
       subtitle:
-        "有效和待定的許可證。",
+        "這是有效和待定許可證的清單。您可以在為錢包充值後購買優惠。另外，請注意，當您取消訂閱時，剩餘的訂閱金額將退回到您的虛擬錢包。",
     },
     license_detail: {
       title: "細節",
       subtitle:
-        "當前計劃的限制。",
+        "這些是您目前計劃的限制。如欲了解更多詳情，請瀏覽定價頁面。您可以存取所有計劃（包括免費計劃）的所有功能，以啟動您的業務並成長。當您擴展業務時，請考慮升級到更高級別的計劃以降低服務費用。",
     },
 
     table: {
@@ -5732,17 +5732,17 @@ export default {
     },
     add_dialog: {
       wallet: {
-        title: "项目 项目 錢包",
+        title: "選擇錢包",
         subtitle:
-          "项目 项目 项目 錢包 至 项目 项目 项目 訂閱. 项目 项目 项目 项目 项目 项目, 项目 项目 創造 项目 项目 项目 錢包 项目. 项目 錢包 项目 项目 用過的 项目 项目 项目.",
+          "選擇用於您的訂閱的虛擬錢包。如果您還沒有，您可以在錢包部分創建它。該錢包將用於支付任何費用。",
       },
       auto_renewal: {
         true_title: "自動續訂",
         true_description:
-          "项目 訂閱 项目 项目 项目 项目 项目 錢包 项目 项目 平衡 项目 项目 项目 项目 项目 项目 项目.",
+          "如果您的錢包有足夠的餘額或您擁有有效的優惠券，您的訂閱將自動續訂。",
       },
       options: {
-        title: "项目 项目",
+        title: "附加選項",
       },
       verify: {
         title: "项目",
@@ -5767,7 +5767,7 @@ export default {
     company_message: "如果您有公司並想要發布應用程序。",
     access_keys: "訪問密鑰",
     access_keys_message: "顯示客戶端和訪問密鑰。",
-    rating: "项目 项目 项目 项目 项目 项目 项目 Selldone?",
+    rating: "您如何評價您在 Seldone 的體驗？",
     large_font: "大字體",
     large_font_message: "顯示比正常大的文本",
     samples: "展示樣品店",
@@ -5776,7 +5776,7 @@ export default {
 
     automation: "自動化",
     automation_message:
-      "项目 自動化 项目 项目 店鋪 儀表板. (项目, 项目 项目,...)",
+      "在商店儀表板上顯示自動化標籤。 （Webhook、視覺化程式設計…）",
   },
 
   /** {@see BPageShopSettingLocations} **/
@@ -5814,29 +5814,29 @@ export default {
     sku_name_input: "SKU/名稱",
     info: {
       subtitle:
-        "至 项目 项目 產品, 项目 项目 项目 项目 项目 项目 細節 项目 项目 项目 项目.",
+        "要產生產品，您只需輸入建立產品所需的基本詳細資訊。",
     },
     price: {
       subtitle:
-        "项目 项目 價格 项目 折扣 项目 项目 產品. 项目 项目 產品 项目 项目, 项目 项目 使用權 至 更多的 项目.",
+        "輸入該產品的價格和折扣。新增產品後，您將可以使用更多選項。",
     },
     by_sku: {
-      title: "项目 项目 SKU",
-      subtitle: "项目 项目 项目 项目 國家 项目 项目 可用的.",
+      title: "按 SKU 新增",
+      subtitle: "您所在國家/地區的資料庫無法使用。",
     },
     drop_shipping: {
       subtitle:
-        "项目 產品 项目 项目 项目 市場 项目 项目 项目 至 项目 店鋪.",
+        "在批發市場中尋找產品並將其添加到您的商店。",
     },
     by_connect: {
       subtitle:
-        "项目 项目 產品 從 POD 项目 代發貨 项目 项目 Selldone 项目 OS—项目 项目 项目 店鋪 项目 项目 项目 產品 项目, 不 项目 项目.",
+        "使用 Selldone Connect OS 輕鬆添加來自 POD 或代發貨供應商的產品 - 只需連接您的商店即可享受自動產品集成，無需任何插件。",
     },
-    your_license_is_not_eligible: "项目 執照 项目 项目 项目.",
+    your_license_is_not_eligible: "您的許可證不符合資格。",
     sku_dialog: {
       title: "项目 產品 项目 SKU",
       subtitle:
-        "项目 项目 项目 项目 至 项目 產品 项目 项目 SKU 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "您可以在我們的資料庫中按 SKU 尋找產品，然後只需單擊即可新增它們。",
     },
     dropshipping_dialog: {
       title: "项目 代發貨 產品",
@@ -5848,14 +5848,14 @@ export default {
    */
   product_add_dropshipping_shops: {
     subtitle:
-      "项目, 项目 项目 项目 项目 项目 列表 项目 產品 项目 Selldone, 项目 项目 可用的 项目 项目 项目. Selldone'项目 项目 代發貨 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      "在這裡，您可以找到在 Selldone 上列出其產品的批發商，以便其他商家可以使用它們。 Selldone 內建的直銷平台簡化了流程，讓批發商和商家都變得簡單明了。",
   },
 
   /** @see Affiliates **/
   my_affiliate: {
     title: "我的附屬合同",
     message:
-      "與其他商店的附屬協議列表。",
+      "這是與其他商店的聯盟合作夥伴關係清單。當店主指定您為會員時，您可以在此處查看您的佣金、訂單詳細資料和相關統計資料。",
   },
 
   /** @see BPageShopMarketingAffiliate **/
@@ -5892,62 +5892,62 @@ export default {
       new: "新的 附屬公司 项目",
       edit: "編輯 附屬公司 项目",
       subtitle:
-        "项目 项目 项目 設置 项目 姓名 项目 项目 附屬公司 项目.",
+        "在此配置常規設定和聯營公司名稱。",
     },
 
     payment: {
       title: "支付 项目",
       subtitle:
-        "项目 项目 委員會 项目 项目 项目 附屬公司. 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 產品.",
+        "設定聯營公司的佣金結構。您可以結合固定佣金和基於百分比的佣金，或為每種產品設定特定佣金。",
     },
 
     contact: {
       title: "聯繫信息",
-      subtitle: "项目 项目 接觸 細節 项目 项目 附屬公司 项目 项目.",
+      subtitle: "請在此提供聯盟夥伴的聯絡方式。",
     },
 
     restriction: {
       title: "委員會 项目",
       subtitle:
-        "项目 项目 產品 项目 项目 项目 委員會. 项目 项目 项目 项目 至 项目 產品.",
+        "定義哪些產品有資格獲得佣金。您可以限制某些產品的佣金。",
     },
 
     link_domain: {
       title: "项目 領域",
       subtitle:
-        "關聯 项目 项目 项目 域 至 项目 附屬公司 项目. 项目 项目 買 项目 项目 領域 项目 项目 项目 至 项目 附屬公司.",
+        "將您的一個網域連結到該聯屬合作夥伴。透過此網域購買的訪客將歸屬於該附屬機構。",
 
-      domain_not_approved_msg: "项目 領域 项目 项目 项目 项目 项目!",
-      domain_is_not_enable_msg: "项目 領域 项目 项目 项目!",
+      domain_not_approved_msg: "該域名尚未獲得批准！",
+      domain_is_not_enable_msg: "域名未啟用！",
       domain_is_linked_to_other_affiliate_msg:
-        "项目 領域 项目 项目 项目 至 项目 附屬公司!",
+        "該網域已連結到另一個附屬機構！",
     },
 
-    set_users_first_message: "项目 项目 项目 用戶 项目!",
+    set_users_first_message: "請先設定用戶！",
 
     cluster: {
       title: "项目",
       subtitle:
-        "项目 项目 附屬公司 项目 项目 项目 至 项目 项目 项目 项目 資源 项目 项目 项目.",
+        "將此附屬機構與叢集關聯，以便將其與其他資源一起管理在一個位置。",
       manage_action: "项目",
     },
 
     notifications: {
-      create_success: "新的 附屬公司 项目 项目.",
-      update_success: "附屬公司 项目 项目.",
+      create_success: "新會員新增成功。",
+      update_success: "會員更新成功。",
     },
 
     inputs: {
       name: {
         label: "附屬公司 项目 姓名",
-        message: "项目.项目., 项目 项目, 项目 公司, 项目 项目, 项目.",
+        message: "例如，John Doe、Alex Company、X Marketers 等。",
       },
       commission: {
         label: "委員會 项目",
         false_description:
-          "项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "使用固定佣金和百分比佣金的組合進行計算。",
         true_description:
-          "项目 项目 项目 项目 项目 项目 项目 價錢 项目.",
+          "使用定價標籤中設定的特定產品佣金進行計算。",
         false_title: "项目 + 项目 委員會",
         true_title: "项目 委員會",
       },
@@ -5968,19 +5968,19 @@ export default {
         placeholder: "项目, 项目.项目., 项目 銀行, 不: 10002-325-800-845213",
       },
       domain: {
-        placeholder: "项目 项目 領域... (项目)",
+        placeholder: "選擇一個網域...（可選）",
       },
       pos: {
         true_description:
-          "项目 项目 项目 訂單 项目 项目 项目 顧客 项目 项目 项目.",
+          "附屬公司可以透過他們的面板直接為客戶下訂單。",
         true_title: "POS 使用權",
       },
       enable: {
         true_description:
-          "项目 项目 附屬公司 项目 積極的? 项目 不活躍, 项目 附屬公司 项目 项目 项目 至 訂單 项目 项目 项目 關聯.",
+          "該附屬機構目前是否活躍？如果處於非活動狀態，他們的聯盟行銷計劃將不適用於透過其連結發出的訂單。",
       },
       products: {
-        label: "產品 项目 项目 委員會",
+        label: "符合佣金資格的產品",
         select_product: "项目 產品",
       },
     },
@@ -5993,7 +5993,7 @@ export default {
      */
     delete: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目 附屬公司 项目 项目 项目 從 项目 店鋪. 附屬公司 项目 项目 项目 项目 项目 项目 项目 時間 项目 项目.",
+        "您可以先與聯營公司解決任何未償債務，然後再將其從您的商店中刪除。刪除後，附屬資訊在有限時間內仍可存取。",
     },
   },
 
@@ -6003,18 +6003,18 @@ export default {
   shop_valuations: {
     title: "風俗 價錢 项目 估值",
     subtitle:
-      "项目 项目 项目 (项目 價錢 輸入 项目) 至 项目 產品, 项目 顧客 至 项目 變體 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 價格 项目 项目 项目 風俗 輸入.",
-    add_valuation_action: "創造 新的 项目 项目",
+      "為產品分配估價（定價輸入表），讓客戶選擇變體或個人化您的商品。然後系統將根據自訂輸入計算價格。",
+    add_valuation_action: "建立新的評估表",
     empty_message:
-      "项目 项目 项目 项目 變體, 项目 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 簡單的 產品.",
+      "與其創建多個變體，不如考慮開發可應用於簡單產品的估值策略。",
     delete_dialog: {
       title: "项目 消除",
       message:
-        "项目 项目 项目 项目 项目 至 刪除 项目 價錢 项目? 项目 项目 项目 项目 風俗 價錢 项目 项目 项目 從 全部 项目 產品 项目.",
+        "您確定要刪除此定價表嗎？請確保首先從所有關聯產品中刪除此自訂定價策略。",
       action: "是的，立即刪除",
     },
     notifications: {
-      delete_success: "项目 项目 项目 项目 已刪除.",
+      delete_success: "評估已成功刪除。",
     },
   },
 
@@ -6022,37 +6022,37 @@ export default {
    * @see BValuationInput
    */
   valuation_input: {
-    label: "價錢 & 项目 项目",
+    label: "定價和估值模型",
   },
 
   /**
    * @see BValuationAdd
    */
   valuation_add: {
-    title_edit: "編輯 项目 项目",
-    title_add: "創造 新的 项目 项目",
+    title_edit: "編輯估價表",
+    title_add: "建立新的評估表",
     config: {
       subtitle:
-        "项目 项目 项目 项目 项目 至 創造 项目 價錢 项目 项目 项目 项目 项目 项目 项目 產品. 開始 项目 项目 项目 项目 项目 项目 姓名.",
+        "設定評估系統，使用公式和參考表為您的產品建立靈活的定價。首先給這個評估一個獨特的名稱。",
     },
-    valuation_preview: "預習 项目 项目",
-    load_sample: "项目 项目",
+    valuation_preview: "預覽估價表",
+    load_sample: "加載樣品",
     conditions: {
       title: "條件",
       subtitle:
-        "项目 项目 项目 项目 風俗 變體. 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "定義自訂變體的邏輯。此配置簡化了變體可用性的管理。",
     },
     structure: {
       title: "项目",
       subtitle:
-        "設計 项目 價錢 輸入 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "透過整合公式和參考表在此設計您的定價輸入表單。",
       expand_action: "项目",
       collapse_action: "项目",
     },
     inputs: {
       title: {
-        message: "项目 標題 项目 项目 项目 至 顧客.",
-        placeholder: "项目 项目 姓名 项目 價錢, 项目.项目., '项目 项目",
+        message: "此標題對客戶不可見。",
+        placeholder: "輸入定價名稱，例如“Mugs Pricing”",
       },
     },
     samples: {
@@ -6169,25 +6169,25 @@ export default {
       config: {
         title: "项目 配置",
         subtitle:
-          "项目 项目 项目 项目 折扣 代碼 项目 项目: 最大限度 (LIMIT, PERCENT * 项目 價格). 项目 至 项目 项目 项目 项目 项目 项目 至 项目.",
+          "折扣碼計算公式為：max(LIMIT, PERCENT * 購物車價格)。請記住使程式碼相關且易於記憶。",
       },
       limit: {
         title: "项目",
         subtitle:
-          "项目 项目 项目 项目 项目 项目 限制 项目 项目 折扣 代碼, 项目 项目 项目 项目 项目 折扣 數量, 项目 项目 项目.",
+          "您可以在此部分定義每個折扣代碼的最大使用限制以及最大折扣金額。",
       },
       duration: {
         title: "期間 限制",
         subtitle:
-          "项目 项目 项目 至 项目 项目 折扣 代碼 项目 项目 项目 项目, 项目 项目 项目 项目 期間 项目.",
+          "如果您想在特定時間範圍內啟動折扣代碼，您可以在此處確定該持續時間。",
       },
       design: {
         subtitle:
-          "项目 项目 项目 项目 標題 项目 描述 项目 项目 折扣 代碼. 项目 細節 项目 项目 项目 至 项目 用戶.",
+          "您可以為每個折扣代碼設定標題和說明。這些詳細資訊將顯示給使用者。",
       },
       cluster: {
         subtitle:
-          "项目 项目 项目 折扣 代碼 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 資源 项目 项目 项目 地點.",
+          "透過將此折扣代碼與叢集關聯，您可以在單一位置輕鬆管理它以及其他資源。",
       },
     },
     delete_alert: {
@@ -6223,7 +6223,7 @@ export default {
     alert: {
       title: "刪除折扣碼",
       message:
-        "要刪除此折扣代碼嗎？",
+        "您想刪除此禮品卡類別及其下發行的所有禮品卡嗎？",
       action: "刪除",
     },
     notifications: {
@@ -6316,38 +6316,38 @@ export default {
 
     config: {
       subtitle:
-        "项目 项目 项目 项目 優惠券 折扣 项目 项目: CHARGE + 最大限度 (LIMIT, PERCENT * 项目 價格).",
+        "優惠券折扣計算公式為：CHARGE + max (LIMIT, PERCENT * 購物車價格)。",
     },
     limit: {
       subtitle:
-        "项目 项目 项目, 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 项目 優惠券 项目 项目 项目 折扣 數量 项目 優惠券 项目 项目.",
-      zero_message: "项目: 项目 项目 不 限制!",
+        "在此部分中，您可以設定每張優惠券的最大使用次數以及每張優惠券可提供的最高折扣金額。",
+      zero_message: "零：沒有限制！",
     },
     duration: {
       subtitle:
-        "项目 项目 项目 至 项目 项目 项目 项目 项目 项目 優惠券 至 项目 積極的, 项目 项目 项目 项目 期間 项目 项目 项目.",
+        "如果您希望設定優惠券生效的特定時間範圍，您可以在此部分配置持續時間。",
     },
     design: {
       subtitle:
-        "项目 優惠券 项目 项目 项目 项目 项目 项目 標題 项目 描述. 项目 細節 项目 项目 项目 至 项目 项目.",
+        "每張優惠券都允許添加標題和描述。這些詳細資訊將對客戶可見。",
     },
     constraints: {
       subtitle:
-        "项目, 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 優惠券.",
+        "在這裡，您可以為優惠券建立額外的個人化參數。",
       no_limit: "不 项目 局限性",
-      has_limit: "项目 项目",
-      has_code_message: "用戶 项目 项目 项目 代碼 至 项目 優惠券.",
+      has_limit: "額外的限制",
+      has_code_message: "用戶應輸入代碼以添加優惠券。",
     },
     club: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目.",
+        "此優惠券的使用僅限於所選客戶俱樂部的會員。",
     },
     cluster: {
       subtitle:
-        "项目 项目 项目 優惠券 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 資源 项目 项目 项目 地點.",
+        "透過將此優惠券與集群關聯，您可以在單一位置輕鬆管理它以及其他資源。",
     },
     preview: {
-      subtitle: "项目 项目 上市 預習 项目 项目 優惠券.",
+      subtitle: "這是優惠券的公開預覽。",
     },
   },
 
@@ -6422,27 +6422,27 @@ export default {
     },
     config: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目 標題, 描述, 项目 上市 项目 地位.",
+        "透過確定標題、描述和公開可用性狀態，開始製定明智的交易。",
     },
     limit: {
-      subtitle: "项目 项目 项目 项目 限制 项目 项目 提供 项目 项目 项目.",
+      subtitle: "在此部分中設定此優惠的最大使用限制。",
     },
     duration: {
       subtitle:
-        "项目 项目 项目 至 项目 项目 项目 项目 项目 项目 提供, 项目 项目 项目 项目 期間 项目.",
+        "如果您想為優惠設定特定的時間範圍，您可以在此處配置持續時間。",
     },
     constraints: {
       subtitle:
-        "项目 项目 项目 项目 项目 條件 项目 项目 提供 项目. 项目 提供 项目 至 项目 項目 项目 项目 项目 條件.",
+        "在此設定優惠的資格標準和條件。此優惠適用於滿足這些條件的購物車商品。",
     },
     discounted_products: {
       title: "项目 產品",
       subtitle:
-        "项目 项目 项目 项目 產品 至 项目 项目 提供 项目 项目 项目 折扣.",
+        "您可以指定此優惠將適用折扣的產品。",
     },
     cluster: {
       subtitle:
-        "项目 项目 项目 提供 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 資源 项目 项目 项目 地點.",
+        "透過將此產品與叢集關聯，您可以在單一位置輕鬆管理它以及其他資源。",
     },
   },
 
@@ -6516,7 +6516,7 @@ export default {
     link: {
       title: "附屬公司 關聯",
       subtitle:
-        "项目 项目 项目 關聯 项目 项目 附屬公司 项目 至 项目 銷售量 项目 项目. 项目 项目 项目 '{code}' 至 项目 關聯 项目 项目 项目 風俗 项目 領域 项目 项目 附屬公司. 项目 项目 项目 项目 项目 项目 项目 项目 48项目.",
+        "為您的聯盟合作夥伴產生一個獨特的鏈接，以追蹤銷售和佣金。將推薦代碼「{code}」新增至任何連結或為您的聯盟公司指派自訂專用網域。系統將對其進行48小時的追蹤。",
     },
     fix_commission: "固定佣金",
     percent_commission: "基於百分比的佣金",
@@ -6553,7 +6553,7 @@ export default {
     sub_title:
       "您的客戶可以玩遊戲並獲勝。您商店的顧客每場遊戲必須消耗 10 個籌碼。例如，如果您希望您的客戶有機會贏得 1000 美元，您必須將每個籌碼價格的金額設置為 100 美元。每個籌碼的值為 0 表示買方每次購買將收到一個籌碼。",
     manually_send_chip: "您要手動將籌碼發送給用戶嗎？",
-    manual_send_token_action: "项目 项目",
+    manual_send_token_action: "手動令牌",
     lottery_enable: "是否啟用彩票？",
     chip_price_input: "芯片價格",
     zero_chip_message: "每個訂單贈送 1x 籌碼",
@@ -6571,9 +6571,9 @@ export default {
 
     config: {
       subtitle:
-        "项目 项目 購買 项目 项目 项目 项目 项目 项目 店鋪. 项目 项目 项目 项目 项目 项目 项目 顧客 项目 项目 项目 项目 購買. 项目 项目 项目 项目 10 项目, 项目 项目 项目 提供 项目 项目 项目 项目 项目. 项目 默認 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 至 项目 项目 项目 项目.",
+        "透過商店中的遊戲化體驗來促進客戶購買。為透過購買賺取代幣的客戶設定獎品和中獎賠率。每個遊戲花費 10 個代幣，您可以為首次購買者提供特別獎品。預設遊戲是命運之輪，但您可以對其進行自訂以適合您商店的佈局。",
     },
-    empty_prize_list: "創造 项目 项目 项目 项目...",
+    empty_prize_list: "在這裡建立和管理獎品...",
   },
 
   /** {@see BLotteryAdd**/
@@ -6595,7 +6595,7 @@ export default {
     chance_message: "獲勝機會百分比",
     free_for_first: "新客戶免費嗎？",
     free_for_first_message: "新客戶可以贏得這個項目。",
-    not_free_for_first_message: "项目 项目 项目 可用的 项目 项目 项目 项目.",
+    not_free_for_first_message: "此獎品不適用於首次免費遊戲。",
 
     amount: "獎金金額",
     amount_hint: "用戶為他們的訂單贏得了這筆費用。",
@@ -6614,23 +6614,23 @@ export default {
     },
     config: {
       subtitle:
-        "项目, 项目 项目 創造 项目 项目 彩票 项目. 项目 项目 標題, 描述, 顏色, 项目 圖片 项目 项目 项目.",
+        "在這裡，您可以建立商店的彩票獎品。設定每個獎品的標題、描述、顏色和圖像。",
     },
     design: {
       subtitle:
-        "项目, 项目 项目 项目 项目 至 项目 项目 圖片 项目 顏色 项目 项目 项目.",
+        "在這裡，您可以選擇獎品的圖像和顏色。",
     },
     constraints: {
-      subtitle: "项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      subtitle: "指定贏得此獎項的標準和限制。",
     },
     prize: {
       title: "项目",
       subtitle:
-        "项目 项目 项目 项目 細節 项目. 项目 项目 折扣 项目, 禮物 牌, 项目, 项目 项目 项目 项目 彩票 项目.",
+        "在此設定獎品詳細資料。選項包括折扣代碼、禮品卡、積分和其他折扣作為彩票獎勵。",
     },
     product_input: {
       label: "產品 项目",
-      message: "项目 项目 產品 项目 项目 (项目 项目)",
+      message: "選擇有獎產品（免費）",
     },
   },
 
@@ -6697,7 +6697,7 @@ export default {
   /** {@see InlineHelp**/
   inline_help: {
     helps_title: "服務用戶指南",
-    blogs_title: "项目 项目 项目 Selldone 博客",
+    blogs_title: "Selldone 部落格中的相關內容",
   },
 
   /** {@see BPageShopFinanceTax**/
@@ -6899,9 +6899,9 @@ export default {
   /** {@see BPosDeviceBarcodeScanner**/
   barcode_scanner: {
     wifi_pass: "您的無線網絡密碼",
-    message: "项目 项目 项目 项目 密碼 项目 项目 项目 QR 代碼.",
+    message: "輸入您的 WiFi 路由器密碼並掃描二維碼。",
     wifi_ssid: "無線網絡SSID",
-    ssid_message: "项目 项目 项目 项目 姓名 (SSID).",
+    ssid_message: "輸入您的 Wi-Fi 網路名稱 (SSID)。",
   },
 
   /** {@see PosDeviceTypes**/
@@ -6988,8 +6988,8 @@ export default {
       "您的數據屬於您！您可以隨時以標準格式下載您的業務信息。但是，請尊重您客戶的隱私，不要向他們發送垃圾郵件，也不要與第三方共享他們的信息。",
 
     excel:
-      "项目 项目 收到 项目 列表 项目 全部 项目 {type} 项目 项目 店鋪 项目 项目 项目 项目 项目 项目 项目.",
-    csv: "项目 项目 收到 项目 列表 项目 全部 项目 {type} 项目 项目 店鋪 项目 项目 项目 项目 项目 CSV 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 Selldone 项目 项目 {type} 项目 项目 店鋪.",
+      "您將收到商店中所有 {type} 的清單以及 Excel 格式的完整資訊。",
+    csv: "您將收到商店中所有 {type} 的清單以及 CSV 格式的完整資訊。此格式符合Selldone將{type}匯入商店的標準格式。",
   },
   /** {@see BPageShopProductsImporter**/
   importer: {
@@ -7006,7 +7006,7 @@ export default {
     product_images: {
       title: "導入圖像",
       subtitle:
-        "接收圖像信息非常耗時。導入圖像時請務必尊重版權。",
+        "接收影像資訊非常耗時。匯入圖像時請記住遵守版權法。匯入失敗的圖片將在 7 天後自動從清單中刪除。",
     },
     inventory: {
       title: "批量更新庫存",
@@ -7039,20 +7039,20 @@ export default {
      * @see BVendorsImporter
      */
     vendor: {
-      title: "项目 项目",
+      title: "進口供應商",
       subtitle:
-        "项目 项目 CSV 项目 项目. 项目 项目 项目 项目 项目 项目 项目 至 隱私 项目.",
+        "在此上傳供應商 CSV 檔案。確保格式正確並遵守隱私法規。",
       checklist: {
-        title: "项目 项目",
-        subtitle: "项目 项目 至 项目 项目 项目.",
-        sample_files: "项目 项目",
+        title: "重要清單",
+        subtitle: "請務必遵循指南。",
+        sample_files: "範例文件",
         valid_vendor_name_needed:
-          "项目 项目 项目 项目 <b>项目 姓名</b>. 项目 <b>姓名</b> 项目 用過的 至 项目 项目 至 <i>創造</i> 项目 新的 项目 项目 <i>更新</i> 项目 项目 项目.",
+          "您必須提供<b>有效名稱</b>。 <b>name</b> 用來決定是 <i>Create</i> 新供應商或 <i>Update</i> 現有供應商。",
         assign_user_after_import:
-          "项目 项目 项目, 项目 项目 项目 项目 项目 用戶 至 项目 项目 使用權 至 项目 项目 项目.",
+          "匯入供應商後，您可以手動指派使用者以授予他們存取供應商面板的權限。",
       },
       need_kyc_alert:
-        "项目 项目 至 项目 项目 個人的 项目 项目 项目 项目.",
+        "在匯入供應商之前，您需要驗證您的個人資訊。",
       back_to_vendors_list: "後退 至 项目 列表",
     },
   },
@@ -7063,9 +7063,9 @@ export default {
   marketplace_products: {
     title: "项目 產品",
     subtitle:
-      "项目 项目 项目 全部 產品 项目 项目 项目. 项目 项目 市場, 项目 產品 项目 项目 项目 至 项目 项目 更多的 项目. 项目 项目 项目 项目 项目 產品 项目 项目 项目 项目 项目 包括 存貨 项目 價錢 細節 项目 至 项目 项目.",
+      "目錄列出了供應商提供的所有產品。在市場中，產品可以連結到一個或多個供應商。與產品關聯的每個供應商都有一個唯一的條目，其中包括特定於該供應商的庫存和定價詳細資訊。",
     filter_vendor: {
-      placeholder: "篩選 项目 项目...",
+      placeholder: "按供應商過濾...",
     },
     filter_status: {
       placeholder: "篩選 项目 地位...",
@@ -7076,10 +7076,10 @@ export default {
    * @see BPageMarketplaceRequests
    */
   marketplace_requests: {
-    open_vendors_panel: "项目 项目 项目",
-    title: "项目 项目 列表",
+    open_vendors_panel: "打開供應商面板",
+    title: "供應商請求清單",
     subtitle:
-      "项目 项目 项目 列表 项目 要求 從 项目 项目 项目 项目 至 项目 项目 项目 项目 市場.",
+      "這是已申請成為您市場中的供應商的個人的請求清單。",
   },
   /**
    * @see BPageMarketplaceSetting
@@ -7088,93 +7088,93 @@ export default {
     marketplace: {
       title: "市場",
       subtitle:
-        "项目 项目 市場 项目 项目 项目 项目 项目. 项目 项目 项目 至 项目 项目 项目 项目 市場, 项目 项目 项目 项目 店鋪 项目 项目 設置.",
+        "禁用市場將關閉某些功能。如果您想關閉整個市場，您應該在設定中停用您的商店。",
     },
     distribution_model: {
-      title: "项目 项目",
+      title: "分銷模式",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 至 项目 項目 项目 至 项目 项目 项目 訂單 项目 项目 倉庫 项目 船運, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "市場可以在不同的分銷模式下運作。無論您是希望供應商直接將商品運送給買家，還是在您的倉庫合併訂單進行運送，您都可以在這裡選擇最適合您需求的型號。",
     },
     access: {
       title: "项目 使用權",
       subtitle:
-        "项目 项目 项目, 项目 项目 项目 项目 项目 使用權 项目 项目 至 项目 產品 儀表板. 项目 项目 使用權 設置 至 项目 项目 至 项目 项目 项目 產品 项目 類別 项目 项目 项目 使用權 至 项目 项目.",
+        "身為管理員，您可以控制供應商對產品儀表板的存取等級。調整全域存取設定以允許供應商新增自己的產品和類別，或將此存取權限僅限於管理員。",
     },
     need_enable_shipping_for_vendors_tips:
-      "使能夠 船運 项目 项目 项目 项目 店鋪 > 物流 项目 项目 项目 项目 项目.",
-    transportation_available_tooltip: "项目 项目 项目 可用的 项目 项目.",
+      "在商店 > 物流標籤中為每種方法單獨啟用供應商運輸。",
+    transportation_available_tooltip: "此選項可供供應商使用。",
     transportation_not_available_tooltip:
-      "项目 可用的 项目 项目! 项目 项目 使能夠 项目 项目 项目 项目 設置.",
+      "不適用於供應商！您可以在交通設定中啟用它。",
     panel: {
-      title: "项目 项目",
-      subtitle: "项目 项目 项目 项目 项目 風俗 領域.",
+      title: "供應商面板",
+      subtitle: "透過您的自訂網域加入您的供應商。",
     },
     documents: {
       title: "项目",
       subtitle:
-        "项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目.",
-      add_document_action: "项目 项目 项目",
+        "您可以要求供應商上傳文件或簽署某些合約。在此指定所需的文件。",
+      add_document_action: "新增文件請求",
     },
     inputs: {
       enable: {
         false_description:
-          "项目 市場 项目 项目 项目, 项目 全部 市場 项目.",
+          "市場已關閉，禁用所有市場功能。",
         true_description:
           "项目 市場 项目 積極的, 项目 全部 市場 项目.",
       },
       product: {
         label: "项目 新的 產品",
-        true_title: "项目 项目 项目 產品",
+        true_title: "供應商可以新增產品",
         false_description:
-          "项目 项目 產品 项目 项目 项目. 项目 项目 项目 项目 價格 项目 存貨.",
+          "您新增產品並分配供應商。供應商只能管理價格和庫存。",
         true_description:
-          "项目 项目 项目 项目 项目 项目 项目 產品 项目 项目 项目 项目 项目.",
+          "供應商可以直接在其供應商面板中新增和管理自己的產品。",
       },
       need_verify: {
         label: "產品 项目 流動",
         false_description: "新的 项目 產品 项目 居住 项目.",
-        false_title: "不 项目 项目",
+        false_title: "無需驗證",
         true_description:
-          "项目 新的 產品 项目 项目 项目 项目 居住 项目 项目 市場.",
-        true_title: "项目 项目",
+          "供應商的新產品在投放市場之前需要獲得批准。",
+        true_title: "需要驗證",
       },
       category: {
         label: "项目 新的 類別",
-        true_title: "项目 项目 项目 類別",
+        true_title: "供應商可以新增類別",
         false_description:
-          "项目 项目 類別. 项目 项目 项目 项目 產品 至 项目 類別.",
+          "您新增類別。供應商只能將產品新增至現有類別。",
         true_description:
-          "项目 项目 项目 项目 项目 類別 项目 项目 项目 项目 项目.",
+          "供應商可以直接在其供應商面板中新增和管理類別。",
       },
       shipping: {
         label: "船運 项目",
-        true_title: "项目 项目 船運 项目",
+        true_title: "供應商有運輸選項",
         false_description:
-          "项目 项目 项目 项目 项目 项目 船運 项目.",
+          "供應商無法新增或自訂其運輸方式。",
         true_description:
-          "项目 项目 项目 项目 项目 项目 船運 项目, 项目 快遞員, 项目 项目 船運 项目 项目 项目.",
+          "供應商可以設定自己的運輸方式、添加快遞員並根據自己的需求量身定制運輸。",
       },
       hidden_customer: {
-        label: "项目 项目 接觸 项目",
-        true_description: "项目 接觸 細節 项目 项目 從 项目.",
+        label: "顯示買家聯絡資訊",
+        true_description: "買家的聯絡方式對供應商是隱藏的。",
         false_description:
-          "项目 接觸 細節, 项目 项目 项目 项目 電子郵件, 项目 项目 至 项目.",
+          "供應商可以看到買家的聯絡方式，例如電話和電子郵件。",
       },
       multi: {
         false_description:
-          "项目 用戶 项目 项目 项目 项目 项目 帳戶. 用戶 项目 项目 项目 至 项目 项目 项目 /项目.",
+          "一名用戶只能擁有一個供應商帳戶。用戶將被重定向到位於 /vendors 的面板。",
         true_description:
-          "项目 用戶 项目 项目 项目 项目 賬戶. 项目 项目 项目 项目 项目; 项目 接觸 项目 项目 项目 项目.",
-        true_title: "项目 项目",
-        false_title: "项目 项目 项目 (默認)",
+          "一個用戶可以擁有多個供應商帳戶。這是測試版功能；使用前請聯絡我們。",
+        true_title: "多供應商模式",
+        false_title: "單一供應商模式（預設）",
       },
 
       listing: {
-        label: "项目 项目 项目",
-        true_description: "项目 项目 项目 项目 项目. 项目 项目 项目 项目 項目 项目 公司.",
-        false_description: "项目 项目 项目 项目 项目. 项目 项目 店鋪 所有者 项目 项目 项目 項目 项目 公司.",
+        label: "供應商列表",
+        true_description: "為供應商啟用清單。供應商可以管理清單項目和公司。",
+        false_description: "供應商禁用清單。只有店主可以管理清單項目和公司。",
         requires_listing_active_text:
-          "至 项目 项目 项目 项目 (項目 + 公司), 项目 使能夠 项目 店鋪 项目 项目 项目 渠道 → 项目. 项目 项目 後退 项目 至 项目 项目 使用權.",
+          "若要讓供應商使用Listing（商品+公司），先在通路→Listing中啟用商店Listing功能。然後返回此處以允許供應商訪問。",
         requires_listing_active_button: "项目 渠道 项目 設置",
       },
 
@@ -7182,48 +7182,48 @@ export default {
 
     },
     notifications: {
-      update_success: "项目 設置 项目 项目.",
+      update_success: "供應商設定已成功更新。",
     },
     add_document_dialog: {
-      title: "项目 项目",
+      title: "文件要求",
       type: {
         title: "项目 類型",
         subtitle:
-          "项目 项目 项目 项目 物品 项目. 项目 项目 项目 项目 项目 项目 项目, 项目 项目 至 项目 项目 项目 项目.",
+          "此處新增文件請求項。它將出現在供應商的面板中，提示他們上傳所需的文件。",
       },
       guide: {
         title: "项目",
         subtitle:
-          "项目 项目 项目 项目 至 项目 项目 项目 项目 项目 至 项目 项目 项目 至 项目 项目 项目.",
+          "提供簡要指南，幫助供應商了解要上傳哪些文件以及如何正確上傳。",
       },
       code: {
         title: "嵌入 代碼",
         subtitle:
-          "项目 项目 嵌入 代碼 项目 项目 项目, 项目, 项目 项目 项目 项目 项目 项目 项目.",
+          "貼上供應商必須簽署的文件、表單或合約的嵌入代碼。",
       },
       link: {
         title: "项目 關聯",
         subtitle:
-          "项目 项目 项目 關聯 至 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "提供供應商必須簽署的文件或合約的外部連結。",
       },
       inputs: {
         title: {
           label: "標題",
-          placeholder: "项目 项目 標題 项目 项目 项目 项目.",
+          placeholder: "輸入文檔請求的標題。",
         },
         guide: {
           label: "项目 (项目)",
           placeholder:
-            "项目, 项目 项目 项目 项目 项目 项目, 项目 鏈接 至 项目 项目 项目 项目.",
+            "（可選）提供簡短的指南或說明，包括合約或其他文件的連結。",
         },
         code: {
           label: "嵌入 代碼",
-          placeholder: "项目 项目 嵌入 代碼 项目...",
-          message: "项目 项目 HTML 代碼.",
+          placeholder: "將嵌入程式碼貼到此處...",
+          message: "可以包含 HTML 程式碼。",
         },
         url: {
           label: "URL",
-          message: "项目 项目 URL 项目 项目 项目 项目 项目 项目...",
+          message: "在此輸入文件或合約的 URL...",
         },
       },
     },
@@ -7234,14 +7234,14 @@ export default {
    */
   ShopMarketplaceModes: {
     Collective: {
-      title: "项目 项目",
+      title: "集體模式",
       description:
-        "项目 项目 项目, 全部 訂單 项目 發送 至 项目 倉庫 项目 项目 项目 已發貨 至 顧客 從 项目 项目 地點. 项目 项目 發送 项目 項目 至 项目 倉庫, 项目 项目 船運 地址 项目 项目 项目 项目 项目 倉庫 地址.",
+        "在這種模式下，所有訂單都會先發送到您的倉庫，然後從一個中心位置運送給客戶。供應商會將其物品發送到您的倉庫，因此供應商的送貨地址將是您的倉庫地址。",
     },
     Direct: {
       title: "项目 船運 從 项目",
       description:
-        "项目 项目 项目, 项目 项目 訂單 项目 至 顧客. 项目 船運 地址 项目 项目 訂單 项目 项目 项目 项目 地址.",
+        "在這種模式下，供應商直接向客戶出貨。供應商訂單的送貨地址將是買家的地址。",
     },
   },
   /**
@@ -7249,44 +7249,44 @@ export default {
    */
   VendorDocumentType: {
     Identification: {
-      title: "所有者 项目 项目",
+      title: "業主身分證明文件",
       description:
-        "项目 项目 项目 ID 至 项目 项目 KYC 项目 项目 项目 所有者 项目 项目 项目.",
+        "上傳政府核發的身份證件以驗證企業主或主要管理人員的身分。",
     },
     Business: {
-      title: "项目 项目",
+      title: "商業文件",
       description:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 地位 项目 项目 项目.",
+        "提供必要的商業文件，例如許可證或註冊證書，以確認您企業的合法地位。",
     },
     Address: {
       title: "地址 项目",
       description:
-        "项目 项目 项目 至 项目 项目 项目 地址, 项目 项目 项目 项目 项目, TAX 發票, 项目 项目 项目.",
+        "提交文件以驗證您的營業地址，例如公用事業帳單、稅務發票或租賃協議。",
     },
     Contract: {
       title: "项目 & 项目",
       description:
-        "项目 项目 项目 项目 项目 项目 项目 條款 项目 條件 项目 项目 项目 项目.",
+        "上傳詳細說明業務關係條款和條件的合約或協議。",
     },
     Copyright: {
-      title: "项目 项目",
+      title: "版權文檔",
       description:
-        "项目 项目 项目 项目 至 项目 项目 项目 项目 项目.",
+        "提供版權登記文件以確認您的智慧財產權。",
     },
     Privacy: {
-      title: "隱私 项目 项目",
+      title: "隱私權政策文件",
       description:
-        "项目 项目 隱私 项目 项目 至 项目 项目 项目 至 项目 用戶 项目 项目 项目.",
+        "包括您的隱私權政策文件，以證明您對保護使用者和客戶資訊的承諾。",
     },
     Embed: {
-      title: "项目 项目",
+      title: "嵌入表格",
       description:
-        "项目 项目 项目 项目 至 项目 项目 项目 项目.",
+        "填寫嵌入表格以提供所需資訊。",
     },
     Link: {
       title: "项目 關聯",
       description:
-        "项目 项目 项目 關聯 至 项目 项目 项目 项目.",
+        "點擊外部連結提供必要的資訊。",
     },
   },
 
@@ -7296,9 +7296,9 @@ export default {
   marketplace_wallets: {
     title: "项目 錢包",
     subtitle:
-      "不 项目 至 项目 项目 錢包! 项目 錢包 项目 项目 项目. 项目 项目 使能夠 项目 支付 项目 项目 项目 项目 项目 (喜歡 Stripe 项目), 项目 项目 项目 项目 项目 付款 至 项目 連接的 项目 賬戶. 项目 项目 项目 项目 项目 项目, 项目 项目 至 项目 支付 项目, 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 錢包 列表.",
+      "無需手動添加錢包！供應商錢包是自動創建的。如果您啟用支援拆分付款的付款方式（例如 Stripe Connect），系統將自動將付款指派到連接的供應商的帳戶。如果未啟用此功能，您需要手動向供應商付款，您可以在錢包清單中查看欠他們的金額。",
     filter_vendor: {
-      placeholder: "篩選 项目 项目...",
+      placeholder: "按供應商過濾...",
     },
   },
 
@@ -7307,11 +7307,11 @@ export default {
    */
   vendor_account_transactions: {
     subtitle:
-      "项目 项目 项目 项目 项目 列表 项目 全部 交易 项目 项目 项目 錢包. 项目 收費 交易 项目 项目 项目 项目 项目 项目 项目 项目 项目 命令. 项目 项目 命令 项目 项目 项目 项目 项目, 项目 项目 项目 交易 项目 项目 项目 项目 项目.",
+      "此部分提供所選錢包的所有交易的詳細清單。當客戶成功支付訂單時，就會記錄一筆費用交易。如果訂單被取消或部分退款，相應的退款交易也會記錄在這裡。",
     vendor_bank: "项目 銀行",
     order_fee: "命令 費用",
     order_refund: "命令 项目",
-    reverse_fund: "项目 项目",
+    reverse_fund: "資金逆轉",
     payout: "项目",
   },
 
@@ -7321,8 +7321,8 @@ export default {
   marketplace_payouts: {
     title: "项目 歷史",
     subtitle:
-      "项目 项目 项目 會計 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 全部 交易. 付款 项目 项目 项目 项目 项目 銀行 项目 项目 项目 项目, 项目 项目 项目 项目 支付 提供者 项目 支持 项目 付款, 喜歡 Stripe.",
-    top_up_vendor_action: "项目 项目 项目 帳戶",
+      "此功能透過保留所有交易的詳細記錄來簡化您和您的供應商的會計工作。付款可以透過銀行轉帳或其他方式手動處理，也可以由支援分期付款的支付提供者（例如 Stripe）自動管理。",
+    top_up_vendor_action: "儲值供應商帳戶",
   },
 
   /**
@@ -7331,7 +7331,7 @@ export default {
   marketplace_pricings: {
     title: "價錢 計劃",
     subtitle:
-      "项目 项目 價錢 项目 项目 项目 市場, 喜歡 项目 5% 项目 費用 项目 项目 產品. 项目 项目 價錢 项目 项目 项目 更多的 项目.",
+      "為您的市場設定定價模型，例如數位產品 5% 的保證金費用。這使得定價管理更快、更有效率。",
     add_pricing_action: "项目 價錢 計劃",
   },
 
@@ -7341,10 +7341,10 @@ export default {
   vendor_pricing_add: {
     title: "市場 價錢 项目",
     subtitle:
-      "项目 项目 项目 项目 價錢 项目 至 项目 產品, 项目 價格 项目 项目 项目 项目 项目 项目 價格 * (1 + 委員會%).",
+      "當您為供應商產品指派定價模型時，價格將自動計算為供應商價格 * (1 + 佣金%)。",
     delete: {
       subtitle:
-        "项目 项目 價錢 项目 项目 项目 全部 项目 產品 项目 至 项目. 项目 项目 项目 價錢 项目, 项目 项目 至 更新 全部 项目 產品 项目 项目 项目 项目 项目 项目 项目 價錢 项目.",
+        "刪除定價模型將影響與其關聯的所有供應商產品。在刪除定價模型之前，請確保更新使用該定價模型的所有供應商產品並為它們分配不同的定價模型。",
       remove_pricing_action: "消除 價錢 项目",
     },
     inputs: {
@@ -7352,11 +7352,11 @@ export default {
         placeholder: "项目.项目., 项目 產品 项目...",
       },
       description: {
-        placeholder: "项目 项目 项目 项目 筆記 项目...",
+        placeholder: "您可以在此處新增註釋...",
       },
       accept_delete: {
-        true_description: "项目 项目 至 刪除 项目 價錢 项目.",
-        true_title: "项目 價錢 项目 项目",
+        true_description: "我想刪除這個定價模型。",
+        true_title: "確認定價模型刪除",
       },
     },
   },
@@ -7368,60 +7368,60 @@ export default {
     vendor: {
       title: "项目",
       subtitle:
-        "项目 项目 项目 项目 项目 至 轉移 项目 至. 项目 项目, 可用的 支付 项目 项目 项目 项目. 项目 项目 项目 项目 支付 網關, 项目 项目 项目 项目 项目 项目.",
+        "選擇您想要轉帳的供應商。選擇後，將顯示可用的付款選項。如果您啟用了支援付款的支付網關，這些選項也會出現在此。",
     },
     vendor_wallet: "项目 錢包",
     vendor_bank_account: "项目 銀行 帳戶",
     with_balance_tooltip:
-      "项目 项目 项目 项目 服務 喜歡 Stripe 项目, 项目 项目 项目 项目 项目 可用的 平衡 项目 项目 Stripe 帳戶 项目 项目.",
+      "當您連接 Stripe Connect 等付款服務時，我們會擷取並顯示您 Stripe 帳戶中的可用餘額以供參考。",
     with_balance: "项目 平衡",
-    without_balance: "项目 平衡 - 项目 项目",
+    without_balance: "無平衡 - 快速模式",
     bank_transfer: {
       title: "銀行 轉移",
       subtitle:
-        "项目 项目 项目 项目 项目 支付 歷史. 不 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目; 项目 项目 项目 支付 项目 项目.",
+        "這是付款記錄。系統不會將實際資金轉移給供應商；您必須手動向供應商付款。",
     },
     vendor_bank: "项目 銀行",
     gateway_in_debug_mode_warning:
-      "项目 项目 支付 網關 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 至 项目 项目 帳戶.",
+      "由於支付網關目前處於調試模式，資金不會轉入真實帳戶。",
     payment: {
       title: "支付",
       subtitle:
-        "项目 项目 貨幣 项目 项目 项目 數量 项目 项目 至 轉移 至 项目 项目. 项目 项目 项目 项目 项目 數量, 项目 项目 项目 项目 项目 從 项目 项目 錢包. 项目 連接的 賬戶 项目 项目 项目, 项目 项目 项目 项目 项目 從 项目 連接的 帳戶, 项目 项目 项目 项目 Stripe 帳戶.",
+        "選擇貨幣並輸入您要轉帳給供應商的金額。如果您輸入負數，資金將從供應商的錢包中提取。對於具有付款選項的關聯帳戶，資金將從關聯帳戶中扣除，例如供應商的 Stripe 帳戶。",
     },
     history: {
       title: "歷史",
       subtitle:
-        "项目 项目 项目 支付 项目 项目 项目 项目 项目 项目 轉移, 项目 项目 平衡 项目 项目 项目 從 项目 项目 帳戶 项目 回來 至 项目 帳戶.",
+        "部分付款已透過沖銷轉帳退還，這表示餘額已從供應商的帳戶中扣除並退還到您的帳戶。",
     },
     refund: {
       title: "项目",
       subtitle:
-        "项目 项目 數量 项目 项目 项目 從 项目 项目 平衡. 全部 付款 (项目 项目 项目) 项目 项目 项目 帳戶 (喜歡 Stripe 项目) 项目 项目 项目 项目 项目 项目 轉移.",
+        "退款金額將從供應商的餘額中扣除。供應商帳戶（如 Stripe Connect）中的所有付款（或剩餘金額）將透過沖銷轉帳退還。",
     },
     inputs: {
       vendor: {
-        placeholder: "项目 项目 项目...",
+        placeholder: "選擇供應商...",
       },
       note: {
         placeholder:
-          "项目 项目 项目 项目 筆記 项目... 项目 筆記 项目 项目 项目 至 项目 项目.",
+          "您可以在此處新增註釋...此註釋對供應商不可見。",
       },
       accept_refund: {
-        true_description: "项目 项目 至 取消 项目 支付.",
+        true_description: "我想取消這筆款項。",
         true_title: "取消 & 项目 支付",
       },
     },
     notifications: {
       reverse_fund_success: {
-        title: "项目 项目",
+        title: "基金逆轉",
         message:
-          "项目 项目 项目 项目 项目 项目 完全的 项目, 项目 项目 项目 從 项目 銀行 至 项目 錢包 项目 项目 至 项目 錢包 平衡.",
+          "賣家的資金轉回已成功完成，資金從銀行轉入錢包並添加到錢包餘額中。",
       },
       payout_success: {
         title: "项目",
         message:
-          "项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "供應商的付款已成功處理並新增。",
       },
     },
   },
@@ -7431,11 +7431,11 @@ export default {
    */
   quota_importer: {
     quota: "项目",
-    max_batch_msg: "项目 项目 项目 項目 项目 项目 项目 项目 项目 项目 项目.",
-    max_daily_limit_msg: "项目 项目 项目 項目 项目 项目 项目 项目 项目 项目.",
-    extra_daily_limit_msg: "项目 項目 项目 项目 项目 项目 限制.",
+    max_batch_msg: "單批次可以匯入的最大項目數。",
+    max_daily_limit_msg: "一天可以匯入的最大物品數量。",
+    extra_daily_limit_msg: "允許超出每日限額的額外物品。",
     add_items_today_msg: "項目 项目 今天.",
-    file_statistic_msg: "統計數據 项目 项目 项目.",
+    file_statistic_msg: "該文件的統計資訊。",
     used_quota: "用過的 项目",
   },
 
@@ -7473,13 +7473,13 @@ export default {
   shop_theme: {
     theme_colors: "主題顏色",
     theme_colors_description:
-      "项目 项目 项目 项目 基本的 顏色 项目 项目 项目 店鋪 项目. 项目 模板 项目 项目 项目 项目 至 项目 项目 项目 项目 顏色 项目 项目 项目 项目 项目 牌.",
+      "您可以在此處個性化商店的主要調色板。每個模板都可以利用這些顏色自動產生與您的品牌相符的完整顏色範圍。",
     products_view_mode: "購物清單視圖",
     products_view_mode_desc:
       "您可以根據屏幕大小調整商店中產品的顯示方式。默認情況下會考慮此模式，如果用戶更改顯示模式，則不會應用此模式。",
 
     tabs: {
-      vendor_page: "项目 项目",
+      vendor_page: "供應商頁面",
     },
 
     color_light: "原色",
@@ -7501,15 +7501,15 @@ export default {
 
     wrap_product_title: {
       title: "项目 標題",
-      subtitle: "项目 高度 项目 项目 標題 项目 项目 项目.",
+      subtitle: "標題的高度會動態調整。",
     },
 
     animation: {
       title: "项目",
       static: {
-        false_title: "项目 项目",
+        false_title: "帶動畫",
         false_description:
-          "類別 项目 產品 项目 项目 项目 项目 至 项目 项目 项目.",
+          "類別和產品有互動式動畫來顯示功能。",
         true_title: "靜止的",
         true_description: "類別 项目 產品 项目 不 项目.",
       },
@@ -7519,18 +7519,18 @@ export default {
       title: "项目 行動",
       hover: {
         false_description:
-          "簡單的 项目 项目 项目 项目 项目 项目 行動 项目 產品 牌.",
+          "簡單和最小的模式，無需在產品卡上進行任何額外操作。",
         true_description:
-          "项目 项目 買 & 项目 至 项目 项目 项目 產品 卡片 项目.",
-        true_title: "项目 项目 项目 项目",
+          "在懸停的產品卡上顯示“快速購買”和“添加以比較”按鈕。",
+        true_title: "懸停時顯示操作",
       },
     },
     filter_products: {
       title: "篩選 產品",
       only_available: {
-        false_description: "项目 全部 產品 项目 项目 店鋪 列表 项目 默認.",
+        false_description: "預設顯示商店清單中的所有產品。",
         true_description:
-          "项目 项目 可用的 產品 项目 项目 店鋪 列表 项目 默認.",
+          "預設僅顯示商店清單中的可用產品。",
         true_title: "可用的 產品",
         false_title: "全部 產品",
       },
@@ -7538,37 +7538,37 @@ export default {
     filter_categories: {
       title: "篩選 類別",
       hide_empty_folders: {
-        false_description: "项目 全部 類別 项目 项目 店鋪 列表.",
+        false_description: "顯示商店清單中的所有類別。",
         false_title: "项目 全部 類別",
-        true_title: "项目 项目 類別",
+        true_title: "隱藏空白類別",
         true_description:
-          "项目 项目 類別 项目 產品 项目 项目 店鋪 列表.",
+          "僅顯示商店清單中包含產品的類別。",
       },
     },
 
     product_page: {
       title: "產品 项目",
       subtitle:
-        "项目 项目 產品 项目 项目. 项目 项目 项目 项目 项目 项目 價格 项目 项目 项目 项目 项目 项目 至 项目 项目 项目.",
+        "在此個性化您的產品頁面。您可以調整價格的顯示並修改部分的排列以滿足您的喜好。",
       buy_button_color: "買 项目 顏色",
       smart_price: {
         title: "项目 單元 價格",
         true_description:
-          "项目 單元 價格 项目 项目 重量, 體積, 项目 项目 變體 项目. 项目. 项目 项目 项目 项目 项目 项目 2项目 项目 项目 $5 项目 價格, 项目 项目 项目 项目 项目 $2.5/项目 项目 项目 產品 项目.",
+          "透過考慮重量、體積和包裝變體屬性來計算單價。前任。如果您有 2L 尺寸且價格為 $5 的變體，則客戶會在產品頁面上看到 $2.5/L。",
       },
       reverse_currency: {
         title: "貨幣 项目 位置",
         false_title: "正常模式",
-        true_title: "项目 项目",
+        true_title: "反轉模式",
         false_description:
-          "项目 貨幣 项目 项目 项目 项目 项目 项目 開始 项目 项目 项目. 项目: $95, €30",
+          "貨幣符號將放置在數字的開頭。例如： $95 ， €30",
         true_description:
-          "项目 貨幣 项目 项目 项目 项目 项目 项目 結尾 项目 项目 项目. 项目: 95$, 30€",
+          "貨幣符號將放置在數字末尾。例如： 95$ , 30€",
       },
       variants_selector: {
         title: "變體 项目",
         subtitle:
-          "项目 项目 项目 项目 项目 至 项目 變體 项目 项目 產品 项目.",
+          "您可以選擇不同的方式在產品頁面上顯示變體。",
       },
 
       tabs_order: {
@@ -7585,18 +7585,18 @@ export default {
     onboarding: {
       title: "项目 & 登錄",
       subtitle:
-        "项目 项目 项目 项目 项目 登錄 项目 项目 项目 風俗 視頻, 圖片, 项目 信息.",
+        "使用自訂影片、圖像或訊息個人化供應商入職和登入體驗。",
     },
     inputs: {
       page_vendor_login: {
         label: "项目 登錄 项目",
         message:
-          "项目 项目 風俗 降落 项目 项目 项目 登錄. 项目 視頻, 圖片, 项目 项目 项目 项目 项目 設計. 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目.",
+          "選擇供應商登入的自訂登入頁面。包含影片、圖像或文字以實現獨特的設計。此頁面顯示給未登入的供應商。",
       },
       page_vendor_registered: {
         label: "项目 掛號的 项目",
         message:
-          "项目 项目 風俗 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 市場 项目 项目 项目 项目 用戶.",
+          "為已登入的供應商選擇自訂頁面。如果您的市場支援每個使用者多個供應商，則會顯示此頁面。",
       },
     },
   },
@@ -7606,23 +7606,23 @@ export default {
     custom_variants: {
       title: "風俗 變體",
       subtitle:
-        "项目 產品 项目 项目 變體. 项目 项目 改變 项目 默認 姓名 项目 變體. 项目 项目 项目 至 项目 项目 項目 项目 默認 项目 项目 项目 项目 Selldone 项目 项目 项目 项目 项目 项目 顧客 项目 项目 项目. 项目 项目 長度 项目 24.",
+        "實體產品可以有變體。您可以更改變體的預設名稱。我們的建議是將這些項目保留為預設值並保留為空，以便 selldone 會自動為您的客戶將其翻譯成他們的語言。最大長度為 24。",
     },
   },
   /** @see BShopThemeTypography **/
   b_shop_theme_typography: {
     main_font: {
       title: "项目 網站 项目",
-      subtitle: "项目 项目 项目 项目 從 Google 项目.",
+      subtitle: "從 Google Fonts 中選擇您最喜歡的字體。",
     },
     inputs: {
       font_family: {
-        label: "项目 项目",
-        message: "项目 项目 项目 價值.",
+        label: "字體家族",
+        message: "輸入字體系列值。",
       },
       font_res: {
-        label: "项目 项目",
-        message: "项目 项目 项目 项目.",
+        label: "字體資源",
+        message: "指定字體資源。",
       },
     },
   },
@@ -7632,12 +7632,12 @@ export default {
     logo: {
       title: "標題 標識",
       subtitle:
-        "项目 默認, 项目 项目 標識 项目 项目 项目 项目 標題, 项目 项目 项目 项目 项目 風俗 標識 项目. 项目 项目 標識 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 至 项目 项目 项目 高度 项目 寬度 项目 项目 项目.",
+        "預設情況下，您商店的徽標顯示在標題中，但您可以上傳自訂徽標。如果您的標誌沒有方形縱橫比，您可能需要手動調整高度和寬度以獲得最佳呈現效果。",
     },
     header_title: {
       title: "標題 標題",
       subtitle:
-        "项目 项目 项目 项目 標題 项目 项目 项目 標題 项目 项目 頁面 项目. 项目 项目 项目 至 项目 消除 项目, 项目 项目 项目 '项目 项目 项目 项目.",
+        "您可以在此處個性化顯示在頁面標題中的標題。如果您想完全刪除它，請點擊“設定空標題”按鈕。",
     },
 
     inputs: {
@@ -7652,7 +7652,7 @@ export default {
       },
       title: {
         label: "標題 標題",
-        set_empty: "项目 项目 標題",
+        set_empty: "設定空標題",
       },
     },
   },
@@ -7660,42 +7660,42 @@ export default {
   /** @see ShopThemeVariantsMode**/
   shop_theme_variants_mode: {
     smart: {
-      title: "项目 项目",
+      title: "智慧模式",
       description:
-        "项目 變體 项目 项目 项目 项目, 项目 项目 项目 项目.",
+        "可選擇單獨選項的緊湊型變體，適用於大多數情況。",
     },
     select: {
-      title: "项目 项目",
+      title: "選擇模式",
       description:
-        "项目 全部 變體 项目 项目 项目, 项目 项目 项目 项目 项目 项目 變體.",
+        "在下拉清單中顯示所有變體，非常適合大量變體。",
     },
   },
 
   /** @see BPropertySetAdd**/
   property_set_add: {
-    edit_title: "編輯 项目 项目",
-    add_title: "项目 项目 项目",
+    edit_title: "編輯屬性集",
+    add_title: "新增屬性集",
     config: {
       subtitle:
-        "项目 標題 项目 描述 项目 项目 项目 项目. 项目 项目 项目 项目 至 職員 项目.",
+        "設定屬性集的標題和描述。僅工作人員可見。",
     },
     variants: {
       title: "變體",
       subtitle:
-        "项目 项目 项目 项目 项目 姓名, 圖標, 项目 命令 项目. 项目 项目 项目 项目 项目 项目 產品 项目 项目 變體 项目 项目’项目 项目 默認 6 變體, 项目 项目 项目 風俗 變體 项目 项目 產品 项目.",
+        "您可以在此處自訂變體名稱、圖示和順序。如果您有多種產品，其獨特的變體不適合預設的 6 個變體，您可以在此處為每個產品設定自訂變體。",
     },
 
     inputs: {
       title: {
-        placeholder: "项目 项目 標題 项目 项目 项目...",
+        placeholder: "輸入屬性集的標題...",
       },
       description: {
-        placeholder: "项目 项目 项目 描述... (项目)",
+        placeholder: "輸入簡短描述...（選購）",
       },
       custom_variants: {
         true_title: "風俗 變體",
         false_title: "默認 變體",
-        true_description: "项目 项目 產品 變體.",
+        true_description: "客製化您的產品變體。",
         false_description: "项目 默認 项目 變體.",
       },
     },
@@ -7705,9 +7705,9 @@ export default {
   property_set_variant_row: {
     inputs: {
       values: {
-        placeholder: "项目 项目 项目... (项目)",
+        placeholder: "設定值設定...（可選）",
         messages:
-          "项目 项目 项目 项目 项目 项目 项目 项目 项目 命令.",
+          "您可以提供值建議並自訂順序。",
       },
     },
   },
@@ -7812,7 +7812,7 @@ export default {
   shop_customers: {
     title: "客戶管理",
     subtitle:
-      "顧客 项目 项目 项目 至 项目 店鋪 项目 项目 项目; 项目, 项目 项目 项目, 项目 项目 POS, 项目 项目 项目 项目 店鋪. 项目 项目 用戶 项目 项目 项目 店鋪, 项目 项目 项目 项目 掛號的 项目 项目 项目.",
+      "可以透過多種方式將客戶新增至您的商店；手動、批次 Excel 匯入、透過 POS 或透過您的線上商店。每當用戶登入您的商店時，他們都會自動註冊為客戶。",
     add_customer_action: "项目 新的 项目",
 
     all_customers: "下載所有客戶",
@@ -7830,21 +7830,21 @@ export default {
     edit_title: "編輯 项目",
     add_title: "项目 新的 项目",
     subtitle:
-      "至 项目 项目 项目 至 项目 店鋪, 项目 项目 项目 项目 電子郵件 地址 项目 项目 项目 项目.",
+      "若要將客戶新增至您的商店，請提供電子郵件地址或電話號碼。",
     more: {
       title: "添加更多詳細信息",
       subtitle: "项目 貨幣, 项目 俱樂部, 細分市場, 地址 项目 更多的.",
     },
     detail: {
       subtitle:
-        "项目 项目 项目 项目 個人的 项目 项目 项目 项目. 项目 项目 项目 项目 隱私.",
+        "記錄有關您客戶的個人資訊。請尊重您客戶的隱私。",
     },
     preferences: {
       subtitle: "项目 默認 用戶 貨幣, 项目 俱樂部, 项目 細分市場 项目.",
     },
     address: {
       subtitle:
-        "项目 地址 项目 项目 用過的 项目 项目 POS. 项目 用戶 项目 项目 项目 项目 项目.",
+        "該位址可在 POS 中使用。用戶看不到此資訊。",
     },
   },
 
@@ -7891,7 +7891,7 @@ export default {
   finance_report: {
     export_title: "導出財務數據",
     export_sub_title:
-      "在單個文件中下載財務詳細信息。",
+      "取得包含財務資訊的單一文件。這包括在線和店內訂單的詳細信息，以及您選擇的時間段內的產品銷售數據。",
     start_input_placeholder: "選擇報告開始日期",
     end_input_placeholder: "選擇報告的結束日期",
     download_action: "下載財務清單",
@@ -7937,16 +7937,16 @@ export default {
     message_add_to_service:
       "如果您想通過<b>送貨服務</b>發送此包裹，請單擊以下按鈕。",
     courier_action: "送貨 项目",
-    courier_action_subtitle: "项目 项目 项目 项目 项目 项目 项目.",
+    courier_action_subtitle: "我的快遞員會來取包裹。",
 
-    pickup_ready_action: "项目 项目",
-    pickup_ready_action_subtitle: "项目 命令 项目 项目 项目 项目 项目.",
+    pickup_ready_action: "準備取貨",
+    pickup_ready_action_subtitle: "訂單已準備好供顧客提貨。",
 
-    service_action: "项目 项目",
+    service_action: "執行確認",
 
     checklist: [
-      "项目 项目 KYC 卡片.",
-      "项目 项目 產品 项目 项目 送貨 项目 项目 项目 项目 项目 项目.",
+      "檢查快遞員的身份證。",
+      "良好的產品包裝和及時的交貨可以提高客戶的保留率。",
     ],
     manual: {
       title: "等待客戶確認收貨。",
@@ -7984,7 +7984,7 @@ export default {
     verify_delivery_input: {
       true_title: "项目 送貨 项目",
       true_description:
-        "项目 项目 项目 项目 命令 项目 项目 發表 至 项目 项目.",
+        "我確認訂單已交付給客戶。",
     },
   },
 
@@ -7992,7 +7992,7 @@ export default {
   shop_home_edit: {
     title: "主頁設置",
     sub_title:
-      "設置您的網站默認頁面",
+      "在此部分中設定您網站的預設頁面。您也可以透過網域設定靈活地為每個網域單獨指定自訂主頁。",
 
     default_home: "默認主頁",
     default_home_placeholder: "店鋪頁面是網站首頁",
@@ -8003,7 +8003,7 @@ export default {
   referral_bank: {
     title: "项目 儀表板",
     subtitle:
-      "项目 项目 项目, 项目 委員會 費用 项目 项目 有薪酬的 至 项目 銀行 帳戶 项目 项目 项目. 项目 项目 项目 銀行 项目 项目.",
+      "根據您的要求，佣金將支付至您指定的銀行帳戶。請在此提供您的銀行資訊。",
     no_bank_info: "不 銀行 信息!",
     actions: {
       edit_my_bank_info: "編輯 项目 銀行 信息",
@@ -8013,41 +8013,41 @@ export default {
       info: {
         title: "銀行",
         subtitle:
-          "项目 輸入 项目 銀行 项目 项目. 项目 项目 项目 项目 项目 至 轉移 项目. 项目 项目 项目 銀行 帳戶 项目 项目 项目 姓名 项目 项目 项目 项目 姓名, 项目 项目.",
+          "請在此輸入您的銀行資訊。我們將使用這些資訊來轉移資金。確保銀行帳戶位於您的名下或您的公司名下（如果適用）。",
       },
       inputs: {
         name: {
           label: "銀行 姓名",
-          message: "项目 项目 姓名 项目 项目 銀行 项目 项目 帳戶 项目 项目.",
+          message: "持有帳戶的銀行的全名。",
         },
         holder_name: {
           label: "帳戶 项目 姓名",
           message:
-            "项目 项目 姓名 项目 项目 项目 项目 项目 项目 项目 项目 帳戶.",
+            "持有帳戶的個人或實體的全名。",
         },
         account_number: {
           label: "帳號",
           message:
-            "项目 项目 项目 项目 项目 项目 项目 銀行 帳戶.",
+            "與特定銀行帳戶關聯的唯一號碼。",
         },
         routing_number: {
-          label: "项目 项目 (USA) 项目 项目 代碼 (UK)",
+          label: "路由號碼（美國）或排序代碼（英國）",
           message:
-            "项目 项目 项目 项目 项目 项目 銀行 项目 (项目 條款 项目 用過的 项目 项目 项目).",
+            "標識特定銀行分行的號碼（不同國家使用不同的術語）。",
         },
         swift: {
           label: "SWIFT/BIC 代碼",
           message:
-            "项目 项目 代碼 用過的 至 项目 项目 项目, 项目 项目 项目 项目.",
+            "用於識別全球銀行的國際代碼，尤其是國際轉帳。",
         },
         iban: {
           label: "IBAN (项目 銀行 帳戶 项目)",
           message:
-            "用過的 项目 项目 项目, 项目 IBAN 项目 项目 项目 项目 项目 项目 项目 銀行 賬戶 项目 项目 项目.",
+            "IBAN 主要在歐洲使用，是國際公認的跨境銀行帳戶識別系統。",
         },
         contact: {
           label: "聯繫信息",
-          message: "项目 项目 项目 電子郵件 地址 项目 项目 项目 帳戶.",
+          message: "與帳戶關聯的電話號碼或電子郵件地址。",
         },
         note: {
           label: "筆記",
@@ -8057,7 +8057,7 @@ export default {
     },
     notifications: {
       save: {
-        message: "项目 銀行 信息 项目 项目 项目.",
+        message: "您的銀行資訊已成功更新。",
       },
     },
   },
@@ -8067,7 +8067,7 @@ export default {
    */
   referral_tier: {
     message:
-      "從 全部 项目 项目, 訂閱 项目 项目 付款 项目 项目 项目 项目.",
+      "來自您的推薦人支付的所有服務費、訂閱費和其他費用。",
   },
 
   /**
@@ -8075,29 +8075,29 @@ export default {
    */
   ReferralTiers: {
     Bronze: {
-      title: "项目 项目",
+      title: "青銅級",
       description:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 2% 委員會 從 项目 项目.",
+        "您處於青銅級。您從推薦中獲得了 2% 的佣金。",
     },
     Silver: {
-      title: "项目 项目",
+      title: "銀級",
       description:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 4% 委員會 從 项目 项目.",
+        "您處於白銀級別。您從推薦中獲得了 4% 的佣金。",
     },
     Gold: {
-      title: "项目 项目",
+      title: "黃金級",
       description:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 6% 委員會 從 项目 项目.",
+        "您處於黃金級別。您從推薦中獲得了 6% 的佣金。",
     },
     Platinum: {
-      title: "项目 项目",
+      title: "白金級",
       description:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 8% 委員會 從 项目 项目.",
+        "您處於白金級別。您從推薦中獲得了 8% 的佣金。",
     },
     Diamond: {
-      title: "项目 项目",
+      title: "鑽石級",
       description:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 10% 委員會 從 项目 项目.",
+        "您處於鑽石等級。您從推薦中獲得了 10% 的佣金。",
     },
   },
 
@@ -8106,7 +8106,7 @@ export default {
    */
   page_monetize: {
     title: "貨幣化",
-    subtitle: "项目 使用權 至 项目 项目.",
+    subtitle: "傳播商業機會。",
   },
 
   /** {@see OPageMonetizeReferral} **/
@@ -8119,14 +8119,14 @@ export default {
     new_users: "新用戶",
     performance: "表現",
     credit_mode: "信用模式",
-    get_stickers: "项目 项目 HTML 代碼 至 项目 & 项目",
-    click_copy_sticker_code: "项目 项目 项目 项目 至 项目 HTML 代碼.",
+    get_stickers: "取得貼紙 Html 代碼以複製和貼上",
+    click_copy_sticker_code: "按一下徽章複製 html 程式碼。",
   },
   /** {@see OReferralTransactions} **/
   selldone_referral_payment: {
     title: "推薦付款",
     subtitle:
-      "项目 项目 列表 项目 退出 交易. 项目 项目 轉移 项目 從 项目 錢包 至 项目 銀行 帳戶 项目 项目 Selldone 錢包, 项目 项目 项目 项目 项目.",
+      "這是提款交易清單。當您將資金從推薦錢包轉入您的銀行帳戶或 Selldone 錢包時，將會在此列出。",
 
     officer: "官",
     amount: "金額交易",
@@ -8155,9 +8155,9 @@ export default {
     list_of_items: "轉售物品",
 
     checklist: [
-      "支付 项目 數量 项目 產品 项目 项目 项目 至 项目 原來的 项目.",
-      "项目 项目 支付 项目 项目 项目 项目 项目 產品 至 项目 项目 项目 项目 项目 會計 项目> 代發貨 项目 项目 店鋪.",
-      "项目 支付, 项目 项目 项目 收到 项目 命令 项目 發送 项目 项目 至 项目 项目 项目 準備.",
+      "將您間接銷售的產品金額支付給原始賣家。",
+      "您可以在店舖的核算>Dropshipping中一起向供應商支付和結算產品成本。",
+      "付款後，供應商將收到您的訂單並準備好後直接發送給買家。",
     ],
     message:
       "向供應商支付訂單費用後，請參閱本節發送訂單的進度。",
@@ -8520,33 +8520,33 @@ export default {
     manage: {
       title: "项目 SMS",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目 發送 项目 项目 店鋪 项目. 项目 至 项目 局限性 项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目.",
+        "您可以在此處查看您的商店發送的簡訊內容。由於在訊息服務中註冊驗證模式的限制，目前無法對文字訊息進行個人化設定。",
     },
 
     template: {
       title: "项目",
-      valid_message: "项目 项目 創造 風俗 SMS 项目.",
-      provider_not_enable_message: "项目 SMS 项目 项目 项目 项目!",
+      valid_message: "您可以建立自訂簡訊。",
+      provider_not_enable_message: "簡訊服務提供者未啟用！",
       need_custom_provider_message:
-        "项目 SMS 项目 项目 项目 项目 项目 项目 项目 風俗 项目.",
+        "只有當您設定自訂提供者時，自訂 SMS 訊息才有效。",
       add_new: "项目 新的",
       disable_reason: {
-        set_provider: "项目 项目 项目 项目!",
-        provider_is_disabled: "项目 项目 项目!",
-        otp: "OTP - 项目 项目!",
-        select_another_provider: "项目 项目 项目.",
+        set_provider: "首先設定您的提供者！",
+        provider_is_disabled: "提供者已禁用！",
+        otp: "OTP - 不可自訂！",
+        select_another_provider: "選擇另一個提供者。",
       },
-      enable_only_filter: "项目 项目 项目",
+      enable_only_filter: "僅顯示啟用的",
 
       text_template_not_supported_msg:
-        "项目 项目 项目 项目 支持 项目 项目 项目.",
+        "您的提供者不支援純文字訊息。",
       structure_template_not_supported_msg:
-        "项目 项目 项目 项目 支持 项目 项目.",
+        "您的提供者不支援結構訊息。",
 
       structured_data: "项目 數據",
 
       menu: {
-        reset_error: "项目 项目",
+        reset_error: "重置錯誤",
         send_test: "發送 项目 信息",
       },
     },
@@ -8556,22 +8556,22 @@ export default {
       config: {
         title: "信息 配置",
         subtitle:
-          "项目 项目 創造 项目 模板 项目 项目 SMS 信息 项目 项目 SMS 项目 網站, 项目 项目 项目 代碼 项目 數據 项目 项目. 项目 项目 项目 项目 至 项目 项目, 项目 项目 项目 SMS 信息 项目 项目 项目.",
+          "您可以在 SMS 提供者的網站上建立 SMS 訊息模板，然後在此處指定其程式碼和資料結構。我們會將此資訊轉發給您的提供者，在那裡將產生實際的 SMS 訊息。",
         code: "代碼",
-        language_msg: "项目 项目 项目 至 项目 项目 项目 默認.",
-        enable_msg: "项目 模板 项目 项目 用過的 至 創造 项目.",
+        language_msg: "將其留空以將其設為預設值。",
+        enable_msg: "該模板將用於建立訊息。",
       },
       text: {
-        title: "项目 项目",
+        title: "純文字",
         subtitle:
-          "项目 项目 项目 SMS 信息 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 發送 至 项目 用戶.",
+          "在此輸入個人化簡訊。動態值在發送給使用者之前將被替換為實際值。",
         message: "信息",
         reset_to_default: "项目 至 默認",
 
         auto_fill: {
-          title: "项目 项目 项目",
+          title: "自動填充參數",
           subtitle:
-            "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 Selldone 项目 项目 项目 项目 项目 项目 價值.",
+            "您可以在文字中使用這些參數，Selldone 會將它們替換為相應的值。",
         },
 
         sample: {
@@ -8581,20 +8581,20 @@ export default {
       template: {
         title: "项目 模板",
         subtitle:
-          "项目 项目 项目 项目 模板 项目 项目 價值 项目. 项目 模板 代碼 项目 项目 项目 项目 项目 项目 项目 项目 SMS 项目 项目, 项目 项目 <code>项目</code> 项目 项目 项目 项目 项目 至 發送 项目 代碼 项目. 项目 项目 <code>價值</code> 项目 项目 模板 项目 项目, 项目 <code>{code}</code> 项目 项目 项目 项目 项目 模板 代碼.",
+          "您可以在此處設定模板鍵和值。範本代碼應該與您在簡訊服務提供者中設定的內容完全相同，並且 <code>key</code> 是您的提供者希望透過其發送代碼的內容。如果模板的 <code>value</code> 欄位為空，則 <code>{code}</code> 將被視為模板代碼。",
         add_new_parameter: "项目 新的 项目",
 
         auto_fill: {
-          title: "项目 项目 项目",
+          title: "自動填充參數",
           subtitle:
-            "项目 项目 项目 项目 项目 项目 项目 项目 项目 價值, 项目 Selldone 项目 项目 项目 项目 项目 项目 價值. 项目 项目 至 项目 项目 默認 项目 项目 项目 项目 项目 SMS 项目 项目 项目. 项目 项目 项目, 项目 项目 项目 不 项目 至 项目 项目 项目 项目.",
+            "您可以將每個參數設定為一個值，Selldone 會將它們替換為對應的值。為了簡單起見，最好將預設值定義為 SMS 提供者中的範本。在這種情況下，無需在此定義參數值。",
         },
         request: {
-          title: "项目 项目",
+          title: "範例有效載荷",
         },
         sample: {
           title: "项目 模板 信息",
-          subtitle: "项目 项目 项目 项目 项目 项目 模板 至 项目 SMS 项目.",
+          subtitle: "您可以將此範本複製並貼上到您的 SMS 提供者。",
         },
         add_message_action: "项目 信息 模板",
       },
@@ -8603,58 +8603,58 @@ export default {
   /** @see SmsTemplateMode **/
   sms_template_mode: {
     text: {
-      title: "项目 项目",
-      desc: "信息 项目 项目 项目 從 项目 项目 项目 项目 项目 项目 项目 發送.",
+      title: "純文字",
+      desc: "訊息將從具有自動替換參數的文字建立並發送。",
     },
     template: {
       title: "项目 模板",
-      desc: "项目 项目 项目 项目 项目 從 项目 项目 發送 至 项目 项目.",
+      desc: "將從參數建立一個物件並將其發送給提供者。",
     },
   },
 
   /** @see BShopSmsProvider **/
   shop_sms_provider: {
     title: "風俗 SMS 项目",
-    reset_error: "项目 项目",
+    reset_error: "重置錯誤",
     subtitle:
-      "项目 项目 项目 風俗 SMS 项目 项目 项目 项目 项目 项目 SMS 项目 项目 姓名. 项目 默認 项目 项目 發送 项目 SMS 项目 项目 项目 项目 项目 项目 项目.",
-    plain_text: "项目 项目",
+      "設定自訂簡訊服務提供者並自訂您的身份驗證簡訊和公司名稱。預設提供者僅在某些白名單國家/地區發送身份驗證簡訊和通知訊息。",
+    plain_text: "純文字",
     structural_template: "项目 模板",
     errors_limit_msg:
-      "项目 项目 项目 项目 100 项目, 项目 项目 项目 项目 项目! 项目 项目 项目 项目 至 项目 项目.",
+      "如果您的服務錯誤超過 100 個，它將自動停用！您可以重置錯誤以重新啟用它。",
 
     enable_input: {
       false_description:
-        "OTP 项目 项目 项目 项目 项目 Selldone 项目 项目 项目, 项目 项目 命令 通知 SMS 项目 项目 發送 项目 项目.",
+        "OTP 訊息將透過 Selldone 在選定的國家/地區發送，同時也會發送其他訂單通知簡訊。",
       true_description:
-        "SMS 项目 项目 项目 發表 项目 项目 项目 项目.",
+        "SMS 訊息將透過您的服務提供者發送。",
     },
     test_input: {
-      true_title: "项目 项目",
+      true_title: "驗證配置",
       true_description:
-        "项目 项目 發送 项目 项目 信息 至 项目 项目 项目 📞 <b>{phone}</b>, 项目 项目 收費 项目, 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "我們將向您的電話號碼📞 <b>{phone}</b> 發送一條測試訊息，它可以向您收費，但您可以確保一切正常。",
     },
     sync_action: {
       title: "行動",
       subtitle:
-        "项目 SMS 服務 项目 项目 服務 喜歡 活動, 營銷, 项目 项目 项目. 项目 项目 项目 项目 聯繫人 项目 项目 项目 至 项目 项目 项目 更多的 项目.",
+        "一些 SMS 服務提供額外的服務，例如活動、行銷和其他功能。您可以同步您的聯絡人或其他訊息，以更快地使用其功能。",
       action: "项目 聯繫人",
     },
     tokens: {
       title: "项目",
       subtitle:
-        "项目 项目 项目 项目 至 關聯 项目 SMS 项目 项目 项目 项目 店鋪.",
+        "設定以下參數以將您的簡訊服務提供者與您的商店關聯起來。",
     },
   },
   sms_messages_options: {
     all: {
       title: "OPT + 命令 通知",
       description:
-        "项目 项目 项目 命令 通知 项目 项目 發送.",
+        "將發送驗證訊息和訂單通知。",
     },
     otp: {
       title: "OTP 项目",
-      description: "项目 项目 项目 项目 發送.",
+      description: "將發送驗證訊息。",
     },
   },
 
@@ -8679,23 +8679,23 @@ export default {
    * @see BShopEmailProvider
    */
   shop_email_provider: {
-    title: "風俗 项目 项目",
+    title: "自訂郵件伺服器",
     subtitle:
-      "项目 项目 项目 项目 项目 至 發送 電子郵件 项目 项目 風俗 領域.",
+      "連接您的郵件服務提供者以透過您的自訂網域發送電子郵件。",
     provider: "项目",
     enable_input: {
-      false_description: "项目 電子郵件 项目 项目 發送 项目 项目 项目 領域.",
-      true_description: "项目 電子郵件 项目 项目 發送 项目 项目 風俗 项目 領域.",
+      false_description: "您的電子郵件將透過您的 myselldone 網域發送。",
+      true_description: "您的電子郵件將透過您的自訂郵件網域發送。",
     },
     config: {
       title: "项目",
       subtitle:
-        "至 项目 项目 風俗 项目 项目 项目 项目 店鋪, 輸入 项目 项目 API 项目 项目 项目 项目 项目 設置.",
+        "若要為您的商店設定自訂郵件服務，請輸入您的服務 API 金鑰以及其他必要的設定。",
     },
     sender: {
       title: "從",
       subtitle:
-        "项目 项目 项目 项目 默認 项目 姓名 项目 電子郵件 地址, 项目 项目 项目 用過的 项目 项目 電子郵件 至 项目 顧客.",
+        "您可以設定預設寄件者的姓名和電子郵件地址，這些地址將用於向您的客戶發送電子郵件。",
     },
 
     inputs: {
@@ -8708,18 +8708,18 @@ export default {
     },
 
     actions: {
-      send_test_email: "發送 项目 项目 電子郵件",
+      send_test_email: "發送測試電子郵件",
     },
 
     messages: {
       provider_error_limit:
-        "项目 项目 项目 项目 100 项目, 项目 项目 项目 项目 项目! 项目 项目 项目 项目 至 项目 项目.",
+        "如果您的服務錯誤超過 100 個，它將自動停用！您可以重置錯誤以重新啟用它。",
 
       encryption_ports_guide:
-        "電子郵件 提供者 项目 提供 SSL, TLS, 项目 项目 项目 项目 项目 可用的 项目. 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目. 项目 <b>TLS</b> 项目 项目: <b>587</b> 项目 <b>SSL</b> 项目 项目: <b>465</b>.",
+        "電子郵件提供者可能會根據可用連接埠提供 SSL、TLS 或未加密的連線。如果連線導致錯誤，更改加密模式可能會解決問題。標準 <b>TLS</b> 使用連接埠：<b>587</b> 與 <b>SSL</b> 使用連接埠：<b>465</b>。",
 
       enable_receive_test:
-        "项目 節省 项目, 项目 项目 收到 项目 项目 项目 项目 <b>{email}</b>. 節省 项目 项目 项目 项目 项目 電子郵件 项目 项目 新的 项目.",
+        "儲存變更後，您將在 <b>{email}</b> 上收到一封測試郵件。在使用新配置發送測試電子郵件之前儲存變更。",
     },
   },
 
@@ -8730,14 +8730,14 @@ export default {
     add_product: "添加新產品",
     create_product: "創建產品",
     link_box_msg:
-      "项目 项目 關聯 项目 项目 项目 项目 Instagram, 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品 项目 项目 買 项目.",
+      "將此連結放入您在 Instagram、Telegram 或其他社交媒體上的簡介中，以便您的受眾可以更快地找到產品並更輕鬆地購買。",
     remove_account: "改變 / 消除 Instagram 關聯",
   },
   /** @see BPageShopChannelInstagram **/
   shop_channel_instagram: {
     title: "Instagram 銷售量 渠道",
     subtitle:
-      "創造 项目 项目 類別 项目 项目 產品, 项目 项目 圖片 项目 项目, 项目 项目 项目 项目 项目 项目 项目. 项目 项目 至 Instagram 项目 项目, 项目 项目 项目 项目, 项目 项目 至 项目 项目 项目 產品.",
+      "為您的產品建立一個包含圖像和影片的專用類別，並在您的社群媒體上分享。它類似於 Instagram 和 TikTok，但具有完全控制權，可讓您直接銷售您的產品。",
   },
 
   /** @see ServiceBillingItem **/
@@ -8833,7 +8833,7 @@ export default {
     active_message:
       "通過激活此來源，您的客戶將能夠通過您在下面看到的請求表下訂單。",
     avocado_form_link_message:
-      "项目 项目 關聯 项目 项目 项目 项目 Instagram, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 買 项目, 项目, 项目 项目 更多的.",
+      "將此連結添加到您在 Instagram、Telegram 或其他社交媒體上的簡介中，以便您的受眾可以更快、更輕鬆地購買，並最終購買更多產品。",
     need_address: "獲取地址",
     need_address_msg:
       "如果您需要獲取買家的位置和地址，請選擇此選項。",
@@ -8904,7 +8904,7 @@ export default {
     tax_add_messages: "最終價格應加稅。",
     invoice: {
       subtitle:
-        "项目 项目 项目 项目, 项目 项目 創造 项目 支付 關聯 项目 项目 项目 數量. 项目 项目 项目 项目 项目 發票 项目 项目 支付 项目 项目 项目 项目.",
+        "透過使用此表單，您可以建立特定金額的付款連結。它還使追蹤發票和確認付款完成變得簡單明了。",
     },
   },
 
@@ -8918,7 +8918,7 @@ export default {
       "您的客戶將能夠通過此鏈接快速購買 {product}。他們還將通過掃描二維碼輸入相同的鏈接。",
     title: "超級快速銷售",
     message:
-      "项目 项目 项目 项目 超 Selldone 銷售量 渠道, 项目 顧客 项目 项目 项目 至 買 產品 项目 项目 项目 QR 代碼 项目 项目 项目 项目 從 项目 项目. 项目 项目 项目 至 项目 项目 项目 項目 项目 项目, 项目, 项目 项目 项目 项目 项目 项目. 项目 项目 超 项目 项目 项目, 项目 项目 創造 项目 超 QR 代碼 项目 项目 產品 项目 项目 產品 项目 项目.",
+      "透過 Hyper Selldone 銷售管道，您的客戶將能夠透過掃描二維碼購買產品，而無需您採取任何操作。使用這種方式可以在節日、展覽或繁忙的儀式上快速大量銷售一些物品。在此版塊啟動Hyper後，您可以在商品管理部分為實體產品建立Hyper二維碼。",
     orders_list: "超級訂單列表",
     active_mode: "超級銷售渠道已激活",
     inactive_mode: "不活躍",
@@ -8946,14 +8946,14 @@ export default {
     notifications: {
       delete_success: "文件刪除成功。",
     },
-    drag_sort_msg: "项目 项目 项目 项目 项目 项目.",
-    paid_mode_msg: "用戶 项目 项目 项目 项目 项目 项目 项目 產品.",
+    drag_sort_msg: "您可以拖曳文件並對其進行排序。",
+    paid_mode_msg: "用戶購買產品後才可以下載。",
     free_mode_msg:
-      "用戶 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 50 MB.",
+      "用戶可以免費下載。範例檔案必須小於 50 MB。",
     has_gust_shopping_msg:
-      "掛號的 项目 项目 用戶 项目 项目 项目 项目 项目 購買 项目 项目 项目 项目 项目 設置 > 流動.",
+      "註冊用戶和訪客用戶可以下載文件，因為訪客購買已在商店的設定 > 流程中啟用。",
     only_registered_shopping_msg:
-      "项目 掛號的 用戶 项目 项目 项目 项目.",
+      "只有註冊用戶才能下載範例檔案。",
     file_count_limit: "项目 數數 限制",
   },
 
@@ -8963,39 +8963,39 @@ export default {
   product_location_restrictions: {
     title: "可用的 地點",
     subtitle:
-      "项目 项目 產品 项目 项目 项目 项目 可用的 项目 项目 地區, 项目 项目 國家 项目 项目 项目 项目 项目, 项目 项目 项目 项目 地點 项目. 项目 地點 项目 项目 项目 项目 项目 產品 项目. 项目 项目 產品 项目, 顧客 项目 项目 项目 至 项目 项目 地點. 项目 项目 產品 项目 可用的 项目 项目 项目 區域, 项目 项目 项目 项目 至 项目 项目 项目 購買.",
+      "如果您的產品或服務僅在按國家/地區和郵遞區號或個人識別碼定義的特定區域提供，您可以在此處指定這些位置。這些位置限制是在產品層級強制執行的。在產品頁面上，系統將提示客戶選擇他們的位置。如果該產品在他們選擇的區域有售，他們將能夠繼續購買。",
 
     add_location_action: "项目 國家",
     no_restriction: "不 项目",
     import: {
       title: "项目 輪廓",
-      subtitle: "项目 项目 项目 地點 輪廓.",
+      subtitle: "選擇已儲存的位置設定檔。",
     },
     export: {
       title: "節省 輪廓",
-      subtitle: "店鋪 地點 项目 项目 项目.",
+      subtitle: "儲存位置以供將來使用。",
     },
     has_restriction_input: {
       title: "项目 地點 项目",
       description:
-        "顧客 项目 项目 購買 项目 產品 项目 项目 项目 國家 项目 项目 代碼, 项目 至 项目 项目 地點 项目.",
+        "由於既定的地點限制，客戶只能在指定的國家/地區和郵遞區號內購買此產品。",
     },
-    zip_pin_code: "项目 / 项目 项目",
+    zip_pin_code: "郵遞區號/密碼",
     no_country_selected_error:
-      "项目 项目 项目 项目 项目 國家 项目 项目 项目 列表 项目 项目/项目 项目. 项目 项目, 项目 產品 项目 项目 项目 可用的.",
-    tips: "项目 项目 项目 <b>+ 项目 國家</b> 项目 至 開始 项目 项目 新的 地點 项目. 项目 项目 项目, 项目 项目 節省 项目 项目 项目 项目 项目 项目 <b>⋮ 菜單</b> 项目 项目 <b>節省 輪廓</b>.",
+      "請至少包含一個國家/地區以及郵遞區號/密碼清單。沒有它，該產品將不可用。",
+    tips: "點選 <b>+ 新增國家/地區</b> 按鈕開始建立新位置集。完成後，您可以透過點擊右上角的<b>⋮選單</b>並選擇<b>儲存設定檔</b>來儲存它。",
     need_save_message:
-      "项目 地點 项目 設置 项目 项目 產品 项目 项目 项目. 至 项目 项目 项目, 项目 项目 项目 项目 '项目 项目 项目.",
+      "產品的位置限制設定已變更。要保留這些更改，請點擊下面的“儲存”按鈕。",
 
     add_dialog: {
       title: "项目 國家",
       message:
-        "项目 项目 國家 项目 项目 '项目. 项目 项目 项目 项目 國家 至 项目 项目, 项目 项目 至 项目 项目, 项目 项目, 项目 项目, 项目 地區 项目 至 项目.",
+        "選擇一個國家/地區並點擊“新增”。這會將國家附加到表中，允許您為其分配郵遞區號、Pin 代碼、城市名稱或地區名稱。",
     },
     save_profile_dialog: {
       title: "项目 地點 輪廓",
       message:
-        "项目 輸入 项目 姓名 至 節省 项目 项目 项目 地點. 项目 项目 地點 项目 项目 项目 项目 至 项目 產品, 项目 项目 项目 地點 项目 项目 项目 项目 项目 项目. 项目 项目 輪廓 项目 项目 项目 姓名 项目 项目, 项目 项目 项目 项目 项目 项目 新的 项目.",
+        "請輸入名稱來儲存這組位置。此已儲存的位置集可以應用於其他產品，只需單擊即可快速載入位置。如果具有所提供名稱的設定檔已存在，它將使用這些新值進行更新。",
       title_input: {
         title: "輪廓 標題",
         placeholder: "项目 類別 姓名, 项目 店鋪 姓名,...",
@@ -9004,11 +9004,11 @@ export default {
     load_profile_dialog: {
       title: "项目 地點 輪廓",
       message:
-        "项目 项目 项目 地點 项目 项目 项目 项目 项目 地點 项目 项目.",
+        "您可以透過選擇此處設定的先前儲存的位置來載入位置。",
 
       select_input: {
         title: "地點 輪廓",
-        placeholder: "项目 项目 輪廓...",
+        placeholder: "選擇個人資料...",
       },
     },
   },
@@ -9028,7 +9028,7 @@ export default {
   selldone_applications: {
     title: "不要錯過您的訂單！",
     msg: "隨時隨地管理您的業務。",
-    scan_qr_code: "项目 项目 项目 项目 项目!",
+    scan_qr_code: "用手機掃我吧！",
 
     notification: {
       title: "通知",
@@ -9036,11 +9036,11 @@ export default {
     },
     order: {
       title: "訂單",
-      subtitle: "项目 项目 訂單 项目 项目 项目.",
+      subtitle: "查看您的訂單並進行管理。",
     },
     product: {
       title: "產品",
-      subtitle: "存貨 项目 项目 產品 项目.",
+      subtitle: "庫存管理和產品簡單明了。",
     },
   },
 
@@ -9099,7 +9099,7 @@ export default {
     },
     bulk: {
       title: "项目 命令 報告",
-      desc: "收到 项目 项目 電子郵件 项目 项目 細節 项目 訂單 项目 项目 项目.",
+      desc: "每天收到一封電子郵件，其中包含當天的訂單詳細資訊。",
     },
   },
 
@@ -9114,13 +9114,13 @@ export default {
   /** {@see SInviteFriends} **/
   invite_friends: {
     title: "向世界講述您的業務！",
-    msg: "项目 项目 项目 至 Selldone 项目 项目 项目 项目 $99 公司 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 交易, 项目 项目 项目 项目 委員會 從 全部 项目 交易. 訪問 项目 附屬公司 项目 至 開始 项目 今天!",
+    msg: "將您的朋友推薦給 Selldone，並在他們註冊時給他們一張 $99 公司優惠券。一旦他們進行了第一筆交易，您將從他們的所有交易中賺取終身佣金。造訪我們的聯盟頁面，立即開始賺錢！",
     invite: {
-      title: "项目 Selldone 项目 OS 至 项目 项目 项目 $99 项目.",
+      title: "加入 Selldone 商業作業系統即可獲得免費的 $99 優惠券。",
       description:
-        "项目 项目 项目 至 Selldone 至 開始 项目 项目 项目 项目 项目 项目 项目.",
+        "我邀請您來到 Seldone，使用一款出色的工具在線上開展您的業務。",
       hashtags: "電子商務，網站建設者",
-      quot: "项目 项目 项目 项目 店鋪 项目 Selldone, 项目 项目 项目 项目 项目 项目 项目.",
+      quot: "我透過Selldone建立了一個網路商店，你現在也可以做你的生意了。",
     },
   },
 
@@ -9128,16 +9128,16 @@ export default {
   shops_list: {
     title: "我的商店",
     message:
-      "我自己的商店，允許和样品商店的列表。",
+      "以下是您的自營店、授權店和樣品店的清單。若要隱藏樣品商店，請導航至頁面底部並選擇首選項。",
 
     sample: {
       title: "项目 專賣店",
       subtitle:
-        "项目, 项目 项目 项目 项目 项目 项目 项目 專賣店. 项目 项目 项目 项目 至 项目 项目 项目 可用的 项目 项目 專賣店. 项目, 项目 项目 從 项目 项目 项目 项目 訂單 项目 项目 個人的 项目, 项目 项目 數據 项目 项目 项目 至 项目 上市. 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 店鋪 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "在這裡，您可以發現精選的樣品商店。您被授予仔細閱讀這些商店中提供的資訊的權限。但是，請不要使用真實的個人資訊登入或下訂單，因為這些資料將被公眾存取。如果您不小心在此輸入了信息，請退出商店並與我們聯繫以獲取進一步幫助。",
     },
 
     add_new_store: "项目 新的 店鋪",
-    i_have_a_deal: "项目 项目 项目 项目",
+    i_have_a_deal: "我有一筆交易",
     access: {
       title: "使用權 项目",
     },
@@ -9166,7 +9166,7 @@ export default {
   blog_category: {
     title: "博客類別",
     subtitle:
-      "项目 项目 創造 项目 项目 项目 项目 類別 项目 项目 博客 项目 至 项目 项目 更多的 项目. 项目 项目 類別 限制 项目 项目 项目 项目 项目 網站. 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 類別, 项目 项目 项目 100, 至 项目 项目 项目 项目 项目 项目 项目.",
+      "您可以為部落格文章建立有限數量的類別，以更有效地管理它們。設定類別限制可以促進網站上更好的組織。值得注意的是，即使是頂級新聞機構也維持有限數量的類別，通常少於 100 個，以簡化管理並保持更廣泛的關注範圍。",
 
     add_action: "添加新類別",
     add_dialog: {
@@ -9182,9 +9182,9 @@ export default {
   },
   /** {@see BPageShopBlogsTimeline} **/
   blog_timeline: {
-    title: "项目 项目 项目",
+    title: "內容發佈時間表",
     subtitle:
-      "项目 项目 项目 列表 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 至 项目 博客 项目 项目 项目 產品 项目 至 项目 發表 项目 项目 時代.",
+      "以下是未來出版的預定文章清單。您可以安排在特定時間發布部落格文章甚至產品描述。",
   },
 
   /** {@see BPageShopPagesAboutUs} **/
@@ -9216,7 +9216,7 @@ export default {
   metaverse: {
     title: "元界橋",
     subtitle:
-      "Selldone 项目 %100 API-项目 服務 项目 项目 项目 项目. 项目, 项目, 项目 项目 開發者 项目 项目 项目 项目 项目 至 项目 项目, 顧客, 项目 服務 项目 项目 项目 项目 项目, 项目 项目 项目 项目.",
+      "Selldone 在商務領域提供 %100 基於 API 的服務。遊戲、區塊鏈和元界開發人員可以使用這些強大的 API 在未來的工作、生活和貿易世界中連接企業、客戶和服務。",
     message: "遊戲開發者搶先體驗",
   },
 
@@ -9224,7 +9224,7 @@ export default {
   orders_bulk_export: {
     title: "訂單助理",
     subtitle:
-      "项目 项目 项目 项目 项目 项目 命令 项目 - 项目 项目 项目 项目 100 訂單 项目.",
+      "匯出和下載用於大量訂單處理的標籤 - 非常適合每天處理 100 多個訂單。",
 
     timespan: {
       title: "時間段",
@@ -9248,7 +9248,7 @@ export default {
   customers_funnel: {
     title: "客戶人口統計",
     subtitle:
-      "篩選 项目 项目 项目 顧客 數據 至 项目 项目 项目 至 项目 更多的 價值 项目 项目 營銷! 项目 项目 项目 项目 隱私 项目 絕不 發送 项目 项目 電子郵件 至 项目! 絕不 项目 项目 项目 项目 项目 3项目 项目 服務 项目 项目 项目 從 项目 项目 项目 项目.",
+      "過濾並匯出您的客戶數據，以做出更好的決策，以更少的行銷提供更多價值！請尊重客戶的隱私，切勿向他們發送大量電子郵件！在未經第三方服務許可的情況下，切勿與第三方服務分享您的客戶資訊。",
   },
 
   /** {@see BPageAffiliatorDashboard} **/
@@ -9256,7 +9256,7 @@ export default {
     title: "附屬POS",
     open_pos_action: "快速訂購POS",
     description:
-      "项目 项目 项目 项目 项目 项目 项目 Instagram 頁面 项目 项目 项目 项目. 项目 附屬公司 POS 至 收到 项目 项目 訂單 從 顧客 项目. 项目 项目 (项目 项目) 项目 项目 新的 訂單 项目 项目 附屬公司 POS 项目 项目 项目 訂金 项目.",
+      "此選項適合 Instagram 頁面和其他社交網路的管理員。使用 Affiliate POS 手動接收和新增客戶的訂單。您的關聯公司（或特許經營商）可以在關聯公司 POS 中新增訂單並上傳存款單。",
   },
 
   /** {@see BPageShopSettingFlow} **/
@@ -9266,7 +9266,7 @@ export default {
       title: "登錄方式",
       subtitle: "自定義用戶登錄您商店的方式。",
 
-      tips: "<b>项目.</b> 项目 项目 用戶 项目 项目 项目 店鋪, 项目 项目 Selldone 用戶 项目 项目, 项目 项目 项目 项目 项目. 项目 用戶 项目 项目 使用權 至 项目 地址 项目 项目 全部 商店 项目 项目 看法 项目 命令 歷史, 项目 项目 项目 店鋪 项目 项目. 项目 项目 项目 项目 项目 项目 项目 營銷 项目 项目 项目 项目 至 项目 项目 项目 项目 项目. 至 项目 项目, 项目 發送 项目 電子郵件 至 项目 用戶 项目 项目 项目 项目 项目.",
+      tips: "<b>重要.</b> 當使用者在您的商店註冊時，系統會建立對應的 Selldone 使用者（如果尚不存在）。該用戶將可以存取所有商店的地址簿，並可以查看他們的訂單歷史記錄，即使商店已經關閉。我們不會將此資訊用於行銷目的，但需要它來防止雙方詐欺。為了保持透明度，我們將向用戶發送電子郵件，通知他們註冊情況。",
     },
 
     /** {@see BShopOptionsCheckout} **/
@@ -9319,7 +9319,7 @@ export default {
     checkout_form: {
       title: "查看 项目",
       subtitle:
-        "项目 项目 查看 项目 项目 至 项目 项目 项目 项目 项目 從 项目 顧客.",
+        "自訂結帳表單欄位以從客戶收集所需的資訊。",
     },
   },
   /** {@see CheckoutOptions} **/
@@ -9347,14 +9347,14 @@ export default {
   business_type: {
     title: "商品類型",
     subtitle:
-      "项目 项目 類型 项目 產品 项目 项目 至 项目 项目 项目 店鋪. 產品 類型 项目 Selldone 项目 更多的 项目 项目 项目 類型 项目 项目 產品; 项目 更多的 项目 项目 项目.",
+      "設定您想要在商店中銷售的產品類型。 Selldone 中的產品類型不僅僅是產品的一種類型；更多的是關於履行程序。",
 
     send_activation_request_to_support:
       "在支持票證中發送激活請求。",
     require_kyc: "企業主KYC。",
     needs_enterprise_license: "您需要擁有企業許可證。",
     marketplace_caution_message:
-      "项目 市場 项目 项目 项目 项目 项目 项目 项目 OS 项目. 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品 项目 项目 價錢 项目 存貨. 顧客 项目 项目 買 產品 项目 项目 不 项目.",
+      "將 Marketplace 設定為您的模型會深刻影響您的業務作業系統配置。例如，您應該為每種產品定義至少一個具有獨立定價和庫存的供應商。客戶不能購買沒有供應商的產品。",
   },
 
   /** {@see BusinessModelView} **/
@@ -9366,12 +9366,12 @@ export default {
 
     dropshipping: {
       title: "代發貨",
-      desc: "项目 项目 项目 项目 訂單 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目, 至 项目 存貨 项目 產品 项目 项目 项目 项目.",
+      desc: "透過向批發商或製造商等第三方付費來外包訂單履行，以在幕後處理庫存和產品管理。",
     },
 
     wholesaler: {
       title: "直銷供應商",
-      desc: "项目 项目 项目 项目 项目 项目 訂單 项目 至 项目 結尾 项目. 项目 项目 项目 Selldone 项目 项目 项目 项目 產品 项目 项目 專賣店 项目 项目 代發貨 项目.",
+      desc: "批發商或製造商通常將訂單直接運送給最終消費者。 Selldone 上的其他商家也可以透過代發貨模式在他們的商店中銷售您的產品。",
     },
     marketplace: {
       title: "市場",
@@ -9416,7 +9416,7 @@ export default {
   vendors_list: {
     title: "我的供應商",
     message:
-      "项目 项目 项目 列表 项目 项目 项目 賬戶. 全部 项目 賬戶 项目 项目 商店 项目 项目 Selldone 项目 项目 项目 项目 项目, 项目 项目 至 项目 项目 项目 项目.",
+      "這是您的供應商帳戶的清單。所有與使用 Selldone 平台的商店關聯的供應商帳戶都將顯示在此處，以便您輕鬆管理它們。",
   },
 
   vendor_page: {},
@@ -9485,7 +9485,7 @@ export default {
       name: "项目",
       title: "项目",
       description:
-        "项目 產品 项目 项目 项目 项目 项目 店鋪, 项目 项目 项目 项目 關聯.",
+        "該產品未在商店中列出，但可透過直接連結存取。",
     },
   },
 
@@ -9493,18 +9493,18 @@ export default {
    * BDashboardShopFeedback
    */
   direct_feedback: {
-    title: "發送 项目 项目",
+    title: "發送直接請求",
     message:
-      "项目 项目 项目 3 项目 项目 至 项目 项目 项目 项目 Selldone. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 更新 项目 项目 项目 時間 项目 项目.",
-    expand_action: "项目 项目 项目...",
-    input_label: "项目 项目",
+      "確定您在 Seldone 上蓬勃發展並獲利的三大業務需求。這些資訊將直接與創始人和董事共享，並將仔細考慮。您也可以在提交後隨時間更新您的需求。",
+    expand_action: "寫下請求...",
+    input_label: "您的要求",
     to: {
       ceo: "發送 至 CEO",
       team: "發送 至 项目",
     },
     placeholder: {
-      ceo: "项目 不 项目 至 项目 项目, 项目 喜歡 至 项目 项目 项目, 项目 项目. 项目.项目. 项目 项目 至 项目...",
-      team: "项目 项目 至 项目 项目 至 项目. 项目.项目. 项目 项目 至 项目...",
+      ceo: "完全沒必要表現得友善，我喜歡聽你直接、中肯的提問。\n例如我需要有...",
+      team: "請嘗試對他們好一點。\n例如我需要有...",
     },
   },
 
@@ -9525,9 +9525,9 @@ export default {
    * BShopProductsImportProcessing
    */
   product_import_processing: {
-    title: "项目 项目 產品",
+    title: "加工進口產品",
     message:
-      "项目 项目 项目 项目 项目 项目 项目 產品 项目 圖片, 项目 项目 项目 项目 時間 至 项目.",
+      "我們正在導入產品和圖像，這可能需要一些時間才能完成。",
   },
 
   /**
@@ -9535,7 +9535,7 @@ export default {
    */
   order_input: {
     message:
-      "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 產品 輸入 项目 项目.",
+      "此處顯示的資訊已由客戶根據產品輸入表單結構提交。",
   },
 
   /**
@@ -9544,49 +9544,49 @@ export default {
   shop_connect: {
     test: {
       title: "設置",
-      subtitle: "项目 项目 報告",
-      action: "项目 项目",
-      last_update: "项目 项目 项目",
+      subtitle: "對外服務報告",
+      action: "測試連接",
+      last_update: "最後更新者",
     },
     service_status: {
       title: "项目 地位",
-      syncing_message: "项目 项目 项目...",
+      syncing_message: "正在同步過程中...",
       action: "项目 全部",
       connect_status: "项目 地位",
       service_status: "项目 地位",
-      auto_confirm_enable_msg: "项目 项目 訂單 项目 项目.",
+      auto_confirm_enable_msg: "訂單自動確認已啟用。",
       auto_confirm_disable_msg:
-        "项目 项目 项目 訂單 项目 项目 项目.",
+        "未啟用訂單自動確認。",
       shipping_enable_msg:
-        "项目 船運 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 查看.",
+        "運費將根據結帳時提供的資訊計算。",
     },
     detail: {
-      title: "项目 项目",
-      auto_confirm_order: "项目 项目 訂單",
-      test_mode: "项目 项目",
+      title: "連接細節",
+      auto_confirm_order: "自動確認訂單",
+      test_mode: "測試模式",
       status: {
-        subtitle: "项目 项目 项目 项目 地位.",
+        subtitle: "有關同步狀態的總體資訊。",
       },
       sync: {
-        title: "项目 项目",
+        title: "同步細節",
         subtitle:
-          "项目 项目 細節. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
-        no_data: "不 项目 项目!",
+          "內部同步詳細資料。此資訊將在同步進程時期成功結束後保存。",
+        no_data: "沒有同步訊息！",
       },
     },
 
     products: {
       title: "產品",
       subtitle:
-        "列表 项目 项目 產品 從 {name}. 项目 项目 项目 產品 项目 项目 项目 姓名 项目 SKU. 项目 项目 服務 项目 用過的 项目 项目, 项目 项目 项目 项目 產品 项目 项目 <b>项目</b> 项目 <b>项目</b>, 项目 產品 项目 项目 项目!",
+        "來自 {name} 的新增產品清單。確保您的產品具有唯一的名稱和 SKU。某些 Connect 服務用於遷移，因此如果您的產品具有重複的 <b>SKUs</b> 和 <b>Names</b>，這些產品將會變更！",
       action: "项目 產品",
-      syncing_message: "项目 项目 项目...",
+      syncing_message: "正在同步過程中...",
     },
 
     logs: {
       title: "项目",
       subtitle:
-        "项目 列表 项目 全部 项目 项目 项目 项目 7 天. 项目 项目 项目 项目 项目 项目 项目 提供者.",
+        "過去 7 天內的所有日誌清單。僅外部服務提供者支援日誌記錄功能。",
     },
 
     edit: {
@@ -9595,18 +9595,18 @@ export default {
       service: {
         title: "项目",
         subtitle:
-          "项目 项目 项目, 代發貨 项目, 项目 市場 至 项目.",
+          "選擇要連接的目標平台、直銷供應商或市場。",
       },
       test: {
         false_title: "项目 全部",
         false_desc: "项目 全部 可用的 產品, 類別, 顧客.",
-        true_title: "项目 (项目 项目 项目)",
+        true_title: "有限（推薦初學者）",
         true_desc:
-          "项目 最大限度 5 產品, 類別, 项目 顧客. 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 > 環境 项目 项目 時間.",
+          "獲得最多 5 個產品、類別和客戶。您可以隨時在“連接”>“設定”中將其切換為完整模式。",
       },
       overwrite: {
-        false_title: "项目 项目 改變 项目 项目",
-        false_desc: "项目 项目 產品 项目 類別 細節 项目 项目 项目.",
+        false_title: "如果存在請勿更改",
+        false_desc: "按原樣保留現有產品和類別詳細資訊。",
         true_title: "项目",
         true_desc:
           "更新 项目 產品, 项目, 项目 類別 项目.",
@@ -9614,37 +9614,37 @@ export default {
       migration_tips:
         "<b>项目: </b>项目 项目 项目 至 项目 项目 项目 项目 项目 <b>项目</b> 项目. 项目 项目 '项目 项目, 项目 项目 全部 數據 從 " +
         "项目 連接的 服務 项目 项目 项目 圖片, 项目 项目 项目 项目 项目 项目 项目. 项目, 项目 项目 產品, 類別, 项目 顧客 项目 项目 项目!",
-      add_action: "项目 项目 至",
+      add_action: "自動連接到",
       order: {
         title: "项目 地位",
         subtitle:
-          "项目 项目 連接的 项目 命令 项目 設置 项目 项目 店鋪. 项目 包括 環境 项目 命令 项目, 项目 项目 命令 项目 (项目 项目), 项目 项目 船運 项目 项目.",
+          "為您的商店設定連線服務的訂單管理設定。這包括設定訂單接受、啟用自動訂單確認（如果支援）以及配置運費計算。",
       },
       enable: {
         label: "项目 地位",
-        true_desc: "存貨 项目 訂單 项目 项目 项目.",
+        true_desc: "庫存和訂單將同步。",
       },
       confirm: {
-        label: "项目 项目 訂單",
-        false_desc: "项目 项目 项目 命令 项目.",
+        label: "自動確認訂單",
+        false_desc: "您應該手動確認訂單。",
         true_desc:
-          "訂單 项目 居住 支付 项目 项目 项目 项目. 訂單 项目 项目 支付 项目 项目 项目 项目.",
-        tips: "訂單 有薪酬的 项目 禮物 卡片 项目 COD 项目 支付 網關 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 確認的 项目.",
+          "即時付款的訂單將自動獲得批准。帶有調試付款的訂單不會自動批准。",
+        tips: "在調試模式下透過禮品卡或 COD 或支付網關支付的訂單屬於例外情況，不會自動確認。",
       },
 
       shipping: {
         label: "船運",
-        tips: "项目 项目 優惠 船運 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目, 项目 项目 项目 项目 3项目 项目 服務 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 300项目 项目 项目 项目 價格 项目 项目 查看 项目.",
+        tips: "該服務提供運費計算，可根據您的喜好啟用或停用。如果啟用，則需要使用第三方服務的成本計算 API，這可能會導致結帳頁面價格更新延遲超過 300 毫秒。",
         false_title: "项目",
         false_desc:
-          "项目 项目 船運 项目 项目, 项目 店鋪 > 物流 > 项目 项目 全部 產品, 项目 项目 项目.",
+          "使用我的運費計算，在“商店”>“物流”>“運輸”中對所有產品（包括進口產品）進行計算。",
         true_title: "项目 船運",
         true_desc:
-          "项目 项目 船運 项目 项目 API 项目 项目 项目 项目.",
+          "使用此服務提供的運費計算 API。",
       },
 
       remove: {
-        verify: "项目 项目 至 消除 项目 项目.",
+        verify: "我確認要刪除此連線。",
         action: "消除 项目",
       },
     },
@@ -9655,14 +9655,14 @@ export default {
     list: {
       title: "项目 OS",
       subtitle:
-        "项目 项目 项目 项目 至 项目 服務 项目 项目 全部 頻道 项目 项目 项目 项目.",
+        "將您的業務作業系統連接到外部服務並在同一位置管理所有管道。",
       action: "项目 新的 服務",
       empty_message:
-        "项目 應用 项目 项目 项目 代發貨! 项目 项目 项目 项目 项目 项目 命令 项目.",
-      auto_confirm: "项目 项目",
+        "忘記直銷的應用程式和插件！ Connect 是跨平台訂單管理的未來。",
+      auto_confirm: "自動確認",
       shipping: "船運",
-      syncing_now: "项目 项目!",
-      sync_not_started: "项目 项目 项目 项目 项目!",
+      syncing_now: "現在正在同步！",
+      sync_not_started: "同步尚未開始！",
     },
   },
 
@@ -9672,15 +9672,15 @@ export default {
   connect_mode: {
     Migration: {
       title: "项目",
-      desc: "项目 產品, 類別, 项目 顧客. 项目 项目 用戶 项目 项目 项目, 项目 已收到 產品, 類別, 项目 顧客 项目 项目 项目 已刪除.",
+      desc: "獲取產品、類別和客戶。用戶刪除本服務後，收到的商品、類別、客戶不會被刪除。",
     },
     Dropshipping: {
       title: "代發貨",
-      desc: "项目 產品, 類別, 项目 訂單. 项目 项目 项目 產品 项目 项目 用戶 项目 项目 项目.",
+      desc: "取得產品、類別和訂單。用戶刪除服務後，系統將刪除產品。",
     },
     Marketplace: {
       title: "市場",
-      desc: "项目 项目 存貨 项目 收到 訂單 (產品 项目 项目 项目 项目 SKU).",
+      desc: "只需同步庫存並接收訂單（產品將按 SKU 連結）。",
     },
     Accounting: {
       title: "會計",
@@ -9699,8 +9699,8 @@ export default {
     title: "登陸頁面",
     add_new_action: "项目 新的 项目",
     subtitle:
-      "創造 项目, 项目 風俗 頁面 项目 项目 牌 项目 项目 项目 AI-项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 數據.",
-    empty_message: "設計 風俗 頁面 项目 项目 & 项目...",
+      "使用多功能人工智慧驅動的內嵌編輯器為您的品牌建立獨特的響應式自訂頁面，並透過輸入資料自動產生動態內容。",
+    empty_message: "透過拖放設計自訂頁面...",
   },
 
   /**
@@ -9723,8 +9723,8 @@ export default {
    */
   community_comments: {
     title: "註釋",
-    subtitle: "项目 项目 项目 列表 项目 项目 项目 註釋.",
-    empty_msg: "不 註釋 项目 项目 项目 项目 项目...",
+    subtitle: "這是社區評論的清單。",
+    empty_msg: "到目前為止還沒有創建任何評論...",
   },
 
   /**
@@ -9732,9 +9732,9 @@ export default {
    */
   community_categories: {
     title: "類別",
-    subtitle: "项目 项目 项目 列表 项目 项目 项目 類別.",
+    subtitle: "這是社區類別的列表。",
     new_category_action: "新的 類別",
-    empty_msg: "不 類別 项目 项目 项目 项目 项目...",
+    empty_msg: "到目前為止還沒有創建任何類別...",
     filter: {
       delete: {
         title: "已刪除",
@@ -9747,7 +9747,7 @@ export default {
    */
   community_posts: {
     title: "项目",
-    subtitle: "项目 项目 项目 列表 项目 项目 项目 项目.",
+    subtitle: "這是社區貼文的清單。",
     filter: {
       deleted: {
         title: "已刪除",
@@ -9755,22 +9755,22 @@ export default {
       },
       reported: {
         title: "项目",
-        description: "项目 项目 项目.",
+        description: "顯示檢舉的貼文。",
       },
     },
-    empty_msg: "不 项目 项目 项目 项目 项目 项目...",
+    empty_msg: "到目前為止還沒有創建任何帖子...",
     menu: {
       open_post: {
-        title: "项目 项目",
-        subtitle: "看法 项目 編輯 项目 项目 项目 社區.",
+        title: "開啟貼文",
+        subtitle: "查看和編輯社群中的貼文。",
       },
       spam: {
         title: "報告 & 消除 项目",
-        subtitle: "项目 消除 项目 项目 项目 用戶.",
+        subtitle: "大量刪除帖子並禁止用戶。",
       },
       delete: {
         title: "刪除 项目",
-        subtitle: "消除 项目 项目.",
+        subtitle: "刪除此帖子。",
       },
     },
   },
@@ -9782,7 +9782,7 @@ export default {
     gtag: {
       title: "標籤 项目",
       subtitle:
-        "Google 项目 项目 项目 项目 项目 ROI 项目 项目 项目, 視頻, 项目 项目 项目 项目 项目 應用. 项目 網站 標籤 项目 项目 Google 標籤 项目 项目, 簡單的, 项目 项目 项目—不 代碼 项目 项目.",
+        "Google Analytics（分析）可以在追蹤 Flash、影片和社群媒體網站和應用程式的同時衡量廣告投資報酬率。使用 Google 追蹤程式碼管理器的免費、簡單且可靠的解決方案輕鬆管理網站標籤，無需編輯程式碼。",
       tag_id: {
         label: "Google 標籤 项目 ID",
       },
@@ -9790,13 +9790,13 @@ export default {
     shopping: {
       title: "Google 项目",
       subtitle:
-        "數據 项目 项目 项目 项目 项目 项目 项目 项目 项目 Google. 项目 项目 關聯 至 项目 项目 全部 產品 项目 類別 至 Google 项目.",
-      tips: "项目 项目 项目 项目 项目 至 项目 项目 项目 项目 Google 廣告.",
+        "資料來源顯示 Google 上目錄資訊的來源。點擊此連結可自動將所有產品和類別新增至 Google 商品。",
+      tips: "您可以利用此工具輕鬆自動管理 Google 廣告。",
       link_message: "Google 產品 项目 URL",
     },
     console: {
-      title: "项目 项目",
-      subtitle: `项目 项目 Meta 標籤 至 项目 项目 项目 Google 项目 项目 项目.`,
+      title: "搜尋控制台",
+      subtitle: "將元標記新增至您的主頁以進行 Google Search Console 驗證。",
       code: {
         label: "项目 Meta 標籤",
         placeholder: "從 Google, 项目.项目. 项目9项目...",
@@ -9805,17 +9805,17 @@ export default {
     serp: {
       title: "Google SERP & 项目",
       subtitle:
-        "项目 项目 项目 项目 项目 SEO 项目 數據 從 Google 项目 项目 项目 至 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目.",
+        "我們從Google取得最精準的SEO審核數據，並以便捷的方式呈現給您。只需按照提供的步驟操作即可。",
     },
     serp_content: {
-      title: "项目 至 Google 项目 项目",
+      title: "連接到 Google 搜尋控制台",
       subtitle:
-        "项目 项目 店鋪 至 项目 项目 项目 项目 開始 项目 项目, 项目, 项目 项目 项目 SEO 工具 项目 Selldone.",
+        "將您的商店連接到搜尋控制台，然後開始在 Selldone 上探索關鍵字、排名和其他免費 SEO 工具。",
       tips: {
         title:
-          "项目 至 项目 Selldone 项目 Google 项目 项目, 项目 项目 项目:",
-        add_in_selldone: "项目, 项目, 项目 项目 项目 基本的 项目 風俗 領域.",
-        add_in_google: `项目 项目 项目 <b>{domain}</b> 项目 项目<a href="https://search.google.com/search-console" target="_blank"> <b>Google 项目 项目</b></a>.`,
+          "在將 Selldone 與 Google Search Console 關聯之前，請確保滿足以下條件：",
+        add_in_selldone: "新增、驗證自訂網域並將其設定為主要自訂網域。",
+        add_in_google: "在您的 <a href=\"https://search.google.com/search-console\" target=\"_blank\"> <b>Google Search Console</b></a> 中新增並驗證 <b>{domain}</b>。",
       },
       action_custom_domain: "風俗 領域",
       action_connect_now: "立即連接",
@@ -9828,25 +9828,25 @@ export default {
    */
   cashback: {
     add_new: "项目 新的 项目",
-    title: "项目 项目",
+    title: "現金回饋計劃",
     boosted: "项目 (2项目)",
     min_purchase: "项目 購買",
-    only_first_order: "项目 项目 命令",
+    only_first_order: "僅限第一訂單",
     total_cashback: "全部的 项目",
     delete_alert: {
-      title: "刪除 项目 项目",
-      message: "项目 项目 项目 至 刪除 项目 项目 项目?",
+      title: "刪除現金回饋計劃",
+      message: "您確定刪除此回現計畫嗎？",
       action: "是的，立即刪除",
     },
     notifications: {
-      delete_success: "项目 项目 已刪除 项目.",
+      delete_success: "現金返還計劃刪除成功。",
     },
   },
   /**
    * {@see BPageCashback}
    */
   shop_cashback: {
-    title: "项目 项目",
+    title: "現金回饋計劃",
     up_to: "取決於",
     menu: {
       back: "後退 项目",
@@ -9889,23 +9889,23 @@ export default {
    */
   cashback_edit: {
     config: {
-      subtitle: "项目 项目 项目 百分, 限制 项目 项目 地位 项目.",
+      subtitle: "在此設定回退百分比、限制及其狀態。",
     },
     percent_input: {
-      title: "项目 项目",
-      message: "项目 项目 项目 项目 從 1% 至 20%.",
+      title: "現金回饋比例",
+      message: "輸入 1% 到 20% 之間的現金回饋百分比。",
     },
     currency_input: {
-      message: "项目 项目 项目 项目 项目 可用的 项目 项目 项目 貨幣.",
+      message: "現金返還計劃僅適用於該貨幣。",
     },
     limit_input: {
       title: "限制",
-      hint: "项目 项目 项目 數量 项目 项目.",
+      hint: "輸入現金回饋的最高金額。",
       zero_message: "项目 0 项目 無限 项目.",
     },
     duration: {
       title: "期間 限制",
-      subtitle: "项目 期間 项目 项目 项目. 项目 项目.",
+      subtitle: "設定現金回饋計畫的持續時間。這是可選的。",
     },
     start_input: {
       title: "開始 日期",
@@ -9917,7 +9917,7 @@ export default {
     },
     design: {
       subtitle:
-        "项目 標題 项目 项目 描述 项目 项目 项目 项目. 项目 项目 项目 项目 项目 至 顧客.",
+        "設定現金返還計劃的標題和簡短描述。這些資訊將顯示給客戶。",
     },
     title_input: {
       title: "標題",
@@ -9926,49 +9926,49 @@ export default {
       title: "描述",
     },
     constraints: {
-      subtitle: "项目 项目 项目 项目 项目 项目 项目.",
+      subtitle: "設定現金返還計劃的限制。",
     },
     min_purchase_input: {
-      hint: "项目 项目 项目 購買 數量 项目 项目 项目.",
+      hint: "輸入現金回饋計畫的最低購買金額。",
       title: "项目 購買",
     },
     only_first_buy_input: {
-      false_desc: "项目 项目 项目 项目 项目 可用的 项目 全部 訂單.",
+      false_desc: "現金返還計劃適用於所有訂單。",
       true_desc:
-        "项目 项目 项目 项目 项目 可用的 项目 项目 项目 项目 命令.",
-      true_title: "项目 项目 命令",
+        "現金返還計劃僅適用於第一個訂單。",
+      true_title: "僅限第一訂單",
       false_title: "全部 訂單",
     },
     qualify_input: {
       false_title: "全部 顧客",
       true_title: "项目 顧客",
       true_msg:
-        "项目 项目 项目 项目 项目 可用的 项目 项目 项目 顧客 项目 项目 项目.",
+        "現金返還計劃僅適用於符合資格的客戶。",
     },
     club: {
       subtitle:
-        "项目 项目 俱樂部 项目 项目 项目 项目. 项目 项目 项目 项目 项目 可用的 项目 项目 项目 顧客 项目 项目 项目 项目 俱樂部.",
+        "設置俱樂部的現金返還計劃。現金返還計劃僅適用於該俱樂部的客戶。",
     },
     cluster: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 更多的 项目.",
+        "透過將集群與現金返還計劃關聯，您可以更有效地對其進行管理。",
     },
     notifications: {
-      add: "项目 项目 项目 项目.",
-      edit: "项目 项目 项目 项目.",
+      add: "現金返還計劃添加成功。",
+      edit: "現金返還計劃更新成功。",
     },
     enable_input: {
-      true_msg: "项目 项目 项目 项目 積極的 项目 顧客 项目 项目 项目.",
+      true_msg: "現金返還計劃已啟動，客戶可以使用。",
       false_msg:
-        "项目 项目 项目 项目 不活躍 项目 顧客 项目 项目 项目 项目.",
+        "現金返還計劃處於非活動狀態，客戶無法使用它。",
     },
     boosted_input: {
       false_title: "普通的",
-      true_title: "项目 (2项目 项目)",
+      true_title: "Boost（2 倍現金回饋）",
       true_msg:
-        "项目 项目 项目 项目 项目 项目 项目 项目 顧客 项目 收到 2项目 项目.",
+        "現金回饋計畫處於增強模式，客戶將獲得 2 倍現金回饋。",
       false_msg:
-        "项目 项目 项目 项目 项目 普通的 项目 项目 顧客 项目 收到 普通的 项目.",
+        "現金回饋計畫處於正常模式，客戶將收到正常的現金回饋。",
     },
   },
 
@@ -9979,11 +9979,11 @@ export default {
     actions: {
       refund: {
         title: "项目 支付",
-        subtitle: "项目 项目 项目 项目 项目.",
+        subtitle: "支援部分或全額退款。",
       },
       delivery: {
-        title: "项目 项目 送貨",
-        subtitle: "项目 项目 项目 项目 送貨 项目 支付 项目.",
+        title: "確認交貨",
+        subtitle: "您可以手動向付款提供者確認交貨。",
       },
     },
   },
@@ -9994,17 +9994,17 @@ export default {
   payment_refund_dialog: {
     title: "项目 支付",
     message:
-      "项目 安全 项目, 项目 訂單 有薪酬的 项目 项目 项目 7 天 项目 项目 项目 项目.",
+      "出於安全原因，只有過去 7 天內付款的訂單才有資格獲得退款。",
     payment_amount: "支付金額",
     total_refund_amount: "全部的 项目 數量",
-    can_refund: "项目 项目",
+    can_refund: "可以退款",
     refund_amount: "项目 數量",
     verify: {
-      title: "项目 项目",
+      title: "驗證退款",
       description:
-        "项目 项目 项目 项目 项目 數量 项目 项目 项目 项目 项目 至 项目.",
+        "我確認退款金額正確並且我想繼續。",
     },
-    action: "项目 项目",
+    action: "立即退款",
   },
 
   /**
@@ -10013,60 +10013,60 @@ export default {
   payment_delivery_dialog: {
     title: "项目 送貨 项目",
     message:
-      "项目 支付 服務 项目 项目 项目 项目 命令 项目 项目 發表 至 项目 项目. 项目 项目 發送 项目 项目 项目 项目 项目 项目 项目 命令 项目 项目 项目 收到 项目 项目 送貨 项目. 项目, 项目 项目 项目 至 项目 项目 项目 项目, 项目 项目 项目 项目 项目.",
+      "某些支付服務需要確認訂單已交付給客戶。當我們收到客戶的交貨確認時，我們通常會在訂單履行的最後一步發送此確認。但是，如果您需要手動執行此操作，您可以在此處執行此操作。",
     verify: {
       title: "项目 送貨",
       description:
-        "项目 项目 项目 项目 命令 项目 项目 發表 至 项目 项目.",
+        "我確認訂單已交付給客戶。",
     },
-    action: "项目 项目",
+    action: "立即確認",
   },
 
   /**
    * @see BPageProductCrossSelling
    */
   product_cross_selling: {
-    title: "项目 项目",
+    title: "交叉銷售",
     add_new_actions: "项目 新的 產品",
     subtitle:
-      "项目 项目 项目, 项目 项目 项目 项目 项目 项目 產品 项目 项目 產品 项目. 项目 產品 项目 项目 项目 项目 项目 项目 顧客 至 購買 项目 项目 项目 物品. 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 購買. 项目 项目 项目 项目 项目 项目 项目 3 項目 项目 项目 项目 至 项目.",
+      "在此部分中，您可以新增和管理此產品頁面的交叉銷售產品。這些產品將作為主要產品旁的建議供客戶購買。您還可以設定折扣來鼓勵和激勵額外購買。系統將展示最多 3 個項目供客戶考慮。",
     dialog: {
-      edit_title: "編輯 项目 项目 產品",
-      add_title: "项目 新的 项目 项目 產品",
+      edit_title: "編輯交叉銷售產品",
+      add_title: "增加新的交叉銷售產品",
       target: {
         title: "项目 產品",
         subtitle:
-          "项目 项目 產品 项目 喜歡 至 项目 项目 项目 项目 项目 项目 產品.",
+          "選擇您想要與該產品一起作為交叉銷售選項進行推廣的產品。",
         select_products: "项目 產品(项目)",
       },
       list: {
         title: "项目 產品",
-        subtitle: "项目 產品 项目 项目 项目 项目 项目 项目.",
+        subtitle: "該產品已被選擇進行交叉銷售促銷。",
         manage_product: "项目 產品",
       },
       discount: {
         title: "折扣 & 信息",
         subtitle:
-          "项目 项目 项目 项目 至 项目 项目 信息 项目 提供 项目 折扣 至 项目 顧客 至 買 项目 项目 项目 項目. 项目 激勵措施 项目 项目 项目 銷售量 项目 项目 项目 项目 项目 项目.",
+          "您可以選擇新增訊息並提供折扣，以激勵客戶購買所選的附加商品。這些激勵措施有助於推動銷售並增強整體購物體驗。",
         amount_input: {
           message:
-            "项目 折扣 项目 项目 项目 项目 至 项目 產品 價格 项目 项目 项目 帳戶 全部 项目 项目.",
+            "折扣百分比將在考慮所有現有折扣後應用於產品價格。",
         },
         mismatch_type_warning:
-          "项目 项目 项目 项目 至 项目 類型 项目 项目 项目 產品 類型, 项目 项目 项目 项目 项目 項目 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "折扣不能應用於主要產品類型以外的其他類型，因為來源商品和目標商品不會放置在同一個購物籃中。",
         not_support_subscription_type_warning:
-          "環境 项目 项目 项目 訂閱 產品 项目 项目 项目, 项目 项目 價錢 計劃 项目 项目 项目 项目.",
+          "無法為交叉銷售訂閱產品設定折扣，因為定價方案無法動態調整。",
         message_input: {
           message:
-            "项目 项目 项目 项目 项目 標題 至 项目 项目 项目.",
+            "精心設計一個引人注目的標題來吸引客戶的注意。",
           placeholder:
-            "项目 & 節省: 项目 项目 项目 项目 项目 项目 项目!",
+            "捆綁並節省：用我們精心挑選的產品來完善您的造型！",
         },
       },
       action: {
         title: "项目",
         subtitle:
-          '项目 项目 项目 项目 项目 项目. 项目 项目 產品 项目 项目 輸入 项目 風俗 项目, 项目 项目 项目 项目 项目 项目, 项目 项目 项目 "项目 至 项目" 项目 项目 项目, 项目 项目 项目 项目 至 项目.',
+          "在此修改交叉銷售產品的操作。如果您的產品需要輸入自訂資訊（例如透過評估表），請勿選擇「新增至購物車」作為操作，因為這可能會導致錯誤。",
       },
     },
   },
@@ -10074,21 +10074,21 @@ export default {
    * @see BProductVariantsBulkAdd
    */
   product_variants_bulk_add: {
-    title: "项目 變體 项目 项目",
+    title: "批量添加變體",
     variants: {
-      title: "项目 项目",
+      title: "變體選項",
       subtitle:
-        "项目 项目 至 项目 项目 项目. 项目 项目, 项目 项目 项目 项目 项目 變體 至 創造 项目.",
+        "最多選擇兩個變體選項。選擇後，您可以選擇要自動建立的特定變體。",
     },
     values: {
-      title: "项目 项目",
-      subtitle: "项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+      title: "變體值",
+      subtitle: "在此輸入每個變體選項的可能值。",
       prevent_duplicates_tips:
-        "<b>筆記:</b> 项目 项目 项目 项目 项目 變體 至 项目 项目.",
+        "<b>注意：</b> 我們自動檢查現有變體以防止重複。",
     },
     inventory: {
       title: "项目 存貨",
-      subtitle: "项目 项目 项目 存貨 數數 项目 项目 新的 變體.",
+      subtitle: "設定新變體的起始庫存計數。",
     },
     add_variants_action: "創造 變體",
   },
@@ -10100,12 +10100,12 @@ export default {
     AddToCart: {
       title: "添加到購物車",
       description:
-        "项目 项目 项目 至 项目 项目 项目. 筆記 项目 项目 项目 项目 项目 项目 訂閱 產品.",
+        "直接顯示“加入購物車”按鈕。請注意，這不適用於訂閱產品。",
     },
     ViewProduct: {
       title: "查看產品",
       description:
-        "项目 项目 看法 更多的 项目 项目 项目 顧客 至 项目 產品 项目 项目 项目 项目 新的 项目.",
+        "顯示「查看更多」按鈕，透過開啟新視窗將客戶引導至產品頁面。",
     },
   },
 
@@ -10115,49 +10115,49 @@ export default {
 
   product_flow: {
     title: "購買 流動",
-    subtitle: "项目 项目 项目 購買 流動 项目 项目 项目 项目 项目 產品.",
+    subtitle: "這是您產品的購買流程和健康檢查。",
 
     /**
      * @see BProductFlowRowConnect
      */
     connect: {
-      subtitle: "项目 產品 项目 项目 项目 项目 <b>{name}</b>.",
-      enable_msg: "项目 项目 至 项目 项目 项目 项目.",
-      disable_msg: "项目 项目 至 项目 项目 项目 项目.",
+      subtitle: "本產品已透過 <b>{name}</b> 新增。",
+      enable_msg: "已啟用此與外部服務的橋樑。",
+      disable_msg: "與外部服務的此橋被停用。",
       has_shipping_msg:
-        "{name} 支持 船運. 项目 项目 项目 项目 项目 至 使能夠 项目 船運 项目 项目 {name} 项目 项目 查看 项目.",
+        "{name} 支援出貨。因此，您可以選擇在結帳頁面上啟用透過 {name} 自動運費計算。",
     },
     /**
      * @see BProductFlowRowHealth
      */
     health: {
       title: "產品 项目",
-      available_in_stock_msg: "產品 项目 可用的 项目 项目.",
-      out_of_stock_msg: "產品 项目 项目 项目 项目.",
+      available_in_stock_msg: "產品有現貨。",
+      out_of_stock_msg: "產品缺貨。",
       file_count_msg:
-        "{files_count} 项目 项目 全部的 {files_size} 项目 项目 项目 產品.",
-      no_file_uploaded_msg: "不 项目 项目 项目 项目 项目.",
+        "為此產品上傳了 {files_count} 個文件，總共 {files_size} 個。",
+      no_file_uploaded_msg: "尚未上傳任何文件。",
       no_image_uploaded_msg:
-        "项目 项目 產品 圖片 至 项目 项目 更多的 项目.",
+        "上傳產品圖片以使其更具吸引力。",
     },
     /**
      * @see BProductFlowErrorsVendor
      */
     vendor_errors: {
-      title: "项目 项目",
+      title: "失蹤的供應商",
       subtitle:
-        "项目 產品 项目 项目 不 项目 项目. 项目 项目 產品 至 项目 项目 项目 项目 市場, 项目 项目 项目 项目 项目 项目 项目.",
-      manage_vendors: "项目 项目",
+        "該產品目前沒有關聯的供應商。對於一種可以在市場上購買的產品，它必須至少有一個供應商。",
+      manage_vendors: "管理供應商",
     },
 
     /**
      * @see BProductFlowErrorsFile
      */
     file_errors: {
-      title: "项目 项目",
+      title: "遺失文件",
       subtitle:
-        "项目, 不 项目 项目 项目 项目 项目 项目 產品. 项目 项目 项目 至 项目.",
-      manage_files: "项目 项目",
+        "目前，尚未上傳該產品的任何文件。請上傳文件以繼續。",
+      manage_files: "管理文件",
     },
 
     /**
@@ -10165,9 +10165,9 @@ export default {
      */
     pricing: {
       title: "價錢",
-      no_product_price_msg: "项目 默認 產品 價格 项目 项目 项目!",
+      no_product_price_msg: "預設產品價格尚未設定！",
       listing_pricing_msg: "项目 價錢:",
-      has_valuation_msg: "產品 项目 项目.",
+      has_valuation_msg: "產品有估值。",
       subscription_pricing_msg:
         "项目 產品 项目 {count} 訂閱 價錢 計劃.",
       has_no_subscription_pricing_msg:
@@ -10179,7 +10179,7 @@ export default {
     subscription_errors: {
       title: "项目 訂閱 價錢 計劃",
       subtitle:
-        "项目 產品 项目 不 訂閱 價錢 計劃. 项目 项目 至 项目 项目 项目 项目 訂閱 價錢 計劃 至 项目 项目 產品 可用的 项目 訂閱 購買.",
+        "該產品沒有訂閱定價方案。您需要添加至少一項訂閱定價方案才能使該產品可供訂閱購買。",
       pricing_plans: "價錢 計劃",
     },
 
@@ -10190,14 +10190,14 @@ export default {
       title: "项目 地點 项目 ● {status}",
       status: {
         has_restriction: "可用的 项目 {count} 项目",
-        no_restriction: "项目 项目",
+        no_restriction: "不受限",
       },
       available_countries_msg:
-        "项目 项目 项目 至 {count} 项目. 项目 项目 项目 {countries}.",
+        "全球購物僅限 {count} 國家。這些國家是{countries}。",
       disable_for_all_countries_msg:
-        "项目 项目 项目 项目 全部 项目 项目 项目 店鋪 > 地點 環境.",
+        "您的商店 > 地點設定中的所有國家/地區均禁用購物。",
       location_is_not_in_permitted_shop_locations_msg:
-        "项目 项目 {country} 项目 项目 项目 地點 项目 项目 项目 店鋪 项目 项目 项目 项目 项目 國家. 项目 项目 项目 店鋪 项目 設置.",
+        "您將 {country} 設定為銷售地點，但在商店層級您不允許該國家/地區。請檢查您的商店等級設定。",
       shop_locations: "店鋪 地點",
       product_locations: "產品 地點",
     },
@@ -10208,9 +10208,9 @@ export default {
     location_errors: {
       title: "可用的 地點 项目",
       no_location_error_subtitle:
-        "项目 项目 活性 项目 地點 项目 项目 项目 项目 產品, 项目 项目, 不 國家 项目 项目 项目 项目 项目. 项目 项目 项目, 项目 產品 项目 项目 项目 購買 项目 项目.",
+        "您已啟動購買產品的地點限制，但目前此限制下沒有列出任何國家。因此，任何人都無法購買該產品。",
       invalid_location_error_subtitle:
-        "项目 地點 项目 設置 项目 项目 產品 项目 项目 项目: 项目 地點 项目 项目 项目 项目 项目 项目 ZIP 项目. 项目, 用戶 项目 项目 至 项目 项目 ZIP 代碼, 项目 项目 產品 项目 项目 購買.",
+        "您產品的位置限制設定包含錯誤：列出的某些位置沒有任何關聯的郵遞區號。因此，用戶無法選擇郵政編碼，導致無法購買產品。",
 
       manage_locations: "项目 地點",
     },
@@ -10224,12 +10224,12 @@ export default {
       tax_profiles: "TAX 簡介",
       description: {
         subscription_tax_msg:
-          "项目 项目 项目 TAX 项目 项目 项目 支付 项目 项目.",
+          "我們只能對付款創建步驟徵稅。",
         dedicated: "项目",
-        is_disabled: "项目 TAX 輪廓 项目 项目!",
+        is_disabled: "此稅務資料已停用！",
         tax_is_based_on_location: "TAX: 地點 项目",
         shipping_tax_is_based_on_location: "船運: 地點 项目",
-        included_in_price: "项目 项目 價格.",
+        included_in_price: "包含在價格中。",
       },
     },
 
@@ -10238,10 +10238,10 @@ export default {
      */
     vendor: {
       vendor_owner_msg: "项目 產品 项目 至 <b>{vendor}</b>.",
-      has_vendors_msg: "项目 项目 {count} 项目 项目 项目 產品.",
+      has_vendors_msg: "此產品有 {count} 供應商。",
       no_vendor_msg:
-        "项目 项目 项目 项目 项目 至 项目 產品, 项目 顧客 项目 项目 至 購買 项目.",
-      add_vendors: "项目 项目",
+        "您尚未為此產品分配供應商，因此客戶無法購買它。",
+      add_vendors: "新增供應商",
     },
   },
 
@@ -10251,7 +10251,7 @@ export default {
   product_template: {
     title: "產品 项目 模板",
     subtitle:
-      "项目 项目 嵌入 项目 项目 项目 项目 產品 项目 项目 项目 项目 项目. 项目 项目 项目 项目 至 創造 頁面 项目 项目 项目 项目 项目 1 至 3 项目 项目 至 项目 產品 類別. 项目, 项目 项目 项目 至 项目 產品 项目 项目 项目 项目 项目 项目.",
+      "您可以在產品頁面中嵌入頁面以增強演示效果。最佳方法是建立具有透明背景和針對每個產品類別量身定制的 1 到 3 個部分的頁面。然後，將一頁分配給多個產品，以獲得一致且有吸引力的顯示。",
     edit_page: "編輯 项目",
     list_of_pages: "列表 项目 頁面",
   },
@@ -10260,16 +10260,16 @@ export default {
    */
   product_embed: {
     subtitle:
-      "项目 项目 项目 嵌入 项目 產品 项目 项目 列表 项目 產品 项目 项目 博客 项目 项目 项目 頁面 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 可用的 项目. 项目 项目 项目 優惠 项目 项目, 项目 项目 計劃 至 项目 更多的 项目 项目 项目 项目 项目 项目 项目.",
+      "只需複製並貼上我們提供的程式碼，您就可以輕鬆地將產品或產品清單嵌入到您的部落格或其他網頁中。儘管此功能仍處於早期階段，但我們正在積極努力將其功能擴展到其他地方目前可用的功能之外。雖然它目前提供的功能有限，但我們計劃在未來引入更多模板和自訂選項。",
     card: {
       title: "项目",
       description:
-        "项目 HTML 代碼 至 项目 產品 牌 项目 项目 项目 项目 HTML 頁面.",
+        "產生 HTML 程式碼以在其他平台和 HTML 頁面中新增產品卡。",
     },
     iframe: {
       title: "项目",
       description:
-        "项目 项目 项目 代碼 至 项目 项目 產品 細節 项目 项目 项目 项目.",
+        "產生 iframe 程式碼以在嵌入式視窗中顯示全面的產品詳細資訊。",
     },
   },
 
@@ -10283,16 +10283,16 @@ export default {
     staff: {
       title: "项目 職員 & 使用權",
       subtitle:
-        "全部 用戶 项目 職員 使用權 项目 项目 项目 至 项目 儀表板 项目 项目 金融 项目. 至 项目 用戶 项目 项目 使用權, 项目 项目.",
+        "所有具有員工存取權限的使用者都可以登入您的儀表板並查看財務資訊。若要新增具有有限存取權限的用戶，請定義角色。",
       go_to_roles: "项目 至 角色",
     },
     access: {
       customization_tips:
-        "<b>项目:</b> 项目 项目 项目 物品 至 项目 项目 默認 项目/项目 使用權. 项目 项目 项目 项目 使用權 项目 项目 至 项目 项目 店鋪 儀表板.",
+        "<b>自訂：</b> 按一下每個項目可自訂預設讀取/寫入存取權限。每行代表與主商店儀表板相對應的存取等級。",
       simplify_tips:
-        "<b>项目!</b> 项目 项目 项目 使用權 项目 從 项目 300 至 项目 10 项目. 更多的 项目 项目 项目 使用權 项目 项目 项目 發表 项目 项目 项目.",
+        "<b>重要！ </b> 我們將存取控制從 300 多個層級簡化到 10 個層級以下。更詳細和最新的訪問級別將在文件中發布。",
       multi_permission_tips:
-        "<b>風俗 限制?</b> 项目 项目 项目 更多的 使用權 至 项目 用戶, 项目 项目 项目 项目 项目 使用權, 創造 项目 使用權 项目 项目 项目 项目.",
+        "<b>自訂限制？ </b> 您可以為一個使用者新增更多存取權限，因此在新增第一個存取權限後，請使用相同的步驟建立其他存取權限。",
       view_data: "看法 數據",
       apply_changes: "應用更改",
     },
@@ -10304,7 +10304,7 @@ export default {
       },
       level: {
         label: "使用權 项目",
-        placeholder: "项目 项目 项目...",
+        placeholder: "選擇級別...",
       },
     },
 
@@ -10314,11 +10314,11 @@ export default {
     notifications: {
       add_success: {
         title: "使用權 项目",
-        message: "新的 使用權 项目 项目 项目 项目.",
+        message: "新的存取權限已成功新增。",
       },
       update_success: {
         title: "使用權 项目",
-        message: "權限 项目 项目 项目 项目.",
+        message: "權限已成功更新。",
       },
     },
   },
@@ -10329,24 +10329,24 @@ export default {
   category_engine_editor: {
     title: "项目 產品 项目",
     subtitle:
-      "项目 產品 從 项目 類別. 项目 项目 项目 项目 至 项目 项目 類別 至 项目 產品 项目 篩選 產品 项目 標籤.",
+      "展示不同類別的產品。您可以選擇多個類別來展示產品或按標籤過濾產品。",
     aut_add_sub_categories_tips:
-      "项目 项目 项目 项目 全部 项目 至 项目 项目 類別 项目 项目 项目 项目 项目.",
+      "您可以透過點擊下面的按鈕自動將所有子類別新增至目前類別。",
     inputs: {
       categories: {
         label: "類別",
-        messages: "產品 项目 项目 類別 项目 项目 项目.",
+        messages: "將顯示這些類別的產品。",
         placeholder: "项目 類別...",
       },
       tags: {
         label: "產品 標籤",
-        messages: "產品 项目 项目 標籤 项目 项目 项目.",
-        placeholder: "项目 標籤 项目 项目 项目 项目. 项目. 新的 项目",
+        messages: "將顯示帶有這些標籤的產品。",
+        placeholder: "在此連接標籤並按 Enter 鍵。前任。新系列",
       },
     },
     actions: {
       save_engine: "節省 项目",
-      auto_add_subcategories: "项目 项目 项目",
+      auto_add_subcategories: "自動新增子類別",
     },
   },
 
@@ -10355,16 +10355,16 @@ export default {
    */
   products_sort_view: {
     search_tips: {
-      title: "项目 项目",
+      title: "搜尋技巧",
       normal:
-        "<b>项目 项目: </b>项目 项目 標題, MPN, SKU, 牌, 项目 標籤.",
+        "<b>一般搜尋：</b>依標題、MPN、SKU、品牌或標籤搜尋。",
       product:
-        '<b>项目 產品 ID: </b>项目 项目+產品 ID 至 项目 项目 项目 產品, 项目.项目., <b class="text-green">项目</b><i class="text-yellow">360</i>.',
+        "<b>準確產品 ID：</b>使用 P+產品 ID 尋找特定產品，例如 <b class=\"text-green\">P</b><i class=\"text-yellow\">360</i>。",
       quotes:
-        '<b>项目 项目: </b>项目 项目 项目 至 项目 项目 项目 项目 项目, 项目.项目., <b class="text-green">"</b><i class="text-yellow">项目 项目 项目</i><b class="text-green">"</b>.',
-      tax: '<b>TAX 輪廓: </b>项目 项目 產品 项目 项目 项目 TAX 輪廓 项目 "TAX:", 项目.项目., <b class="text-green">TAX:</b><i class="text-yellow">TAX 輪廓 姓名</i>.',
+        "<b>精確片語：</b>使用引號搜尋精確短語，例如，<b class=\"text-green\">\"</b><i class=\"text-yellow\">此處的文字</i><b class=\"text-green\">\"</b>。",
+      tax: "<b>稅務資料：</b>使用「稅：」搜尋具有特定稅務資料的產品，例如 <b class=\"text-green\">tax:</b><i class=\"text-yellow\">稅務資料名稱</i>。",
       new_products:
-        '<b>新的 產品: </b>项目 產品 项目 项目 项目 项目 日期 项目, 项目.项目., <b class="text-green">新的~</b><i class="text-yellow">2023-08-10</i><b class="text-green">~</b><i class="text-yellow">2023-08-20</i>.',
+        "<b>新產品：</b>尋找在特定日期範圍內新增的產品，例如<b class=\"text-green\">new~</b><i class=\"text-yellow\">2023-08-10</i><b class=\"text-green\">~</b><i class=\"text-yellow\">2023-08-20</i>。",
     },
   },
 
@@ -10374,32 +10374,32 @@ export default {
   augment_form: {
     title: "项目",
     subtitle:
-      "輸入 项目 项目 项目 项目 项目 项目 项目 项目 项目 價值 项目 项目 项目 项目. 项目 项目 项目 最大限度 32 项目.",
+      "輸入要與頁面內容中對應的值進行交換的鍵。鍵最多應包含 32 個字元。",
     add_caption: "项目 新的 物品",
-    add_sub_caption: "项目 風俗 项目 项目.",
+    add_sub_caption: "新增自訂鍵值對。",
     add_dialog: {
       title: "项目 輸入 類型",
       html: {
         title: "项目 & HTML",
-        subtitle: "项目 项目 價值 项目 项目 项目 项目 项目 项目 项目 HTML.",
+        subtitle: "該項目的值可以指定為文字或 HTML。",
       },
       image: {
         title: "圖片",
-        subtitle: "项目 项目 项目 项目 圖片.",
+        subtitle: "您可以上傳圖片。",
       },
     },
     help_dialog: {
-      title: "项目 至 项目 项目 项目",
+      title: "如何使用動態內容",
       how_it_works_tips:
-        "项目 项目 降落 頁面, 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 圖片. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目. 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目 產品 项目 類別. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 項目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 物品, 项目 项目 项目 项目 项目 项目 项目 项目 项目 降落 頁面.",
+        "在登陸頁面中，您可以靈活地為文字和圖像指定動態佔位符。這些佔位符在根據上下文自訂內容方面發揮著重要作用。   這些佔位符的動態性質允許它們由增強值填充，這些值可以根據不同的因素而變化。例如，每個產品或類別的增強值可能不同。當您擁有多種具有不同屬性的物品時，此功能的真正優勢就會發揮出來。您可以有效地利用這些動態佔位符來個性化和增強每個項目的顯示，從而在您的登陸頁面上創建獨特的互動體驗。",
       assign_tips:
-        "至 项目 项目 项目 至 圖片, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "若要將動態值指派給影像，請按一下該部分左側的供給按鈕。",
       set_dynamic_image_tips:
-        "项目 项目 项目 项目 项目 至 项目 项目 圖片 URL 项目 项目 项目 项目 项目 價值.",
+        "現在您可以修改圖像 URL 並為其指派動態值。",
       enter_values_tips:
-        "项目 项目 產品, 项目 项目 项目 项目 至 项目 项目 项目 项目.",
+        "對於每個產品，您都可以指派專用的鍵值對。",
       result_tips:
-        "项目 项目 项目 项目 项目 项目 项目 项目, 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "這是頁面的最終結果，其中佔位符已替換為增強值。",
     },
   },
 
@@ -10408,20 +10408,20 @@ export default {
    */
   logistic_profile_editor: {
     languages: {
-      title: "项目 项目",
+      title: "多語言",
       subtitle:
-        "项目 项目 项目 列表 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 後勤 輪廓 项目 项目 项目.",
+        "這是內容語言的清單。您可以為每種語言的物流檔案設定不同的內容。",
       add_caption: "项目 新的 文章",
       no_more_language: "不 更多的 项目!",
     },
     content: {
       title: "项目",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 後勤 輪廓 项目 项目 项目.",
+        "您可以用多種語言自訂物流資料的內容。",
 
       language_input: "项目 文章 项目",
       delete_article: "刪除 文章",
-      menu_tooltip: "项目 项目 / 刪除 文章",
+      menu_tooltip: "自動翻譯/刪除文章",
     },
     translate_to: "项目 至",
     notifications: {
@@ -10429,14 +10429,14 @@ export default {
         message: "文章 项目 完全的 项目.",
       },
       save_article: {
-        message: "文章 项目 项目 项目 项目.",
+        message: "文章已成功儲存。",
       },
       delete_article: {
-        message: "文章 项目 项目 已刪除 项目.",
+        message: "文章已成功刪除。",
       },
     },
     delete_dialog: {
-      message: "项目 项目 项目 至 刪除 项目 文章 项目 项目?",
+      message: "您確定永久刪除這篇文章嗎？",
       action: "是的，立即刪除",
     },
   },
@@ -10446,22 +10446,22 @@ export default {
    */
   logistic_profile_products: {
     title: "產品",
-    subtitle: "列表 项目 產品 项目 项目 项目 輪廓.",
+    subtitle: "與此設定檔關聯的產品清單。",
   },
   /**
    * @see LogisticProfilePage_Setting
    */
   logistic_profile_setting: {
-    title: "项目 项目",
+    title: "一般資訊",
     inputs: {
       name: {
         message:
-          "项目 姓名 项目 至 项目 项目 项目 项目 项目 项目 至 项目 上市.",
+          "該名稱會向您顯示，不會向公眾透露。",
       },
       accept_delete: {
         true_description:
-          "项目 项目 项目 消除 全部 项目 项目 簡介 鏈接.",
-        true_title: "项目 项目 至 消除 项目 项目.",
+          "此操作將刪除所有文章和個人資料連結。",
+        true_title: "我確認要刪除此連線。",
       },
     },
     actions: {
@@ -10476,24 +10476,24 @@ export default {
     title: "後勤 簡介",
     add_caption: "项目 新的 輪廓",
     subtitle:
-      "项目 项目 創造 项目 編輯 项目 项目 项目 返回 项目 项目 產品 项目 项目 项目 项目 至 项目 產品. 项目 项目 项目 项目 项目 项目 项目 项目 類型 项目 產品.",
+      "您可以在此處建立和編輯產品的保固和退貨政策，並將其分配給任何產品。您可以為不同類型的產品定義不同的保固政策。",
     add_dialog: {
       title: "創造 新的 物流 輪廓",
       config: {
-        title: "项目 项目",
+        title: "一般資訊",
         subtitle:
-          "项目 项目 輪廓 類型. 项目 项目 项目 项目 项目, 项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品.",
+          "選擇設定檔類型。它可以是指南、保固或多個產品之間共同共享的任何其他內容和材料。",
       },
       article: {
         title: "文章",
         subtitle:
-          "项目 项目 项目 更多的 项目 项目 项目 项目 物流 輪廓.",
+          "建立此物流設定檔後，您可以新增更多語言。",
       },
       inputs: {
         name: {
           message:
-            "项目 姓名 项目 至 项目 项目 项目 项目 项目 项目 至 项目 上市.",
-          placeholder: "项目 项目 姓名 项目 项目 輪廓...",
+            "該名稱會向您顯示，不會向公眾透露。",
+          placeholder: "輸入設定檔的名稱...",
         },
       },
     },
@@ -10506,21 +10506,21 @@ export default {
     title: "项目 項目 项目",
     add_caption: "项目 新的 物品",
     subtitle:
-      "项目, 项目 项目 项目 项目 項目 项目 项目 项目 產品. 至 项目 项目 项目 外貌 项目 项目 店鋪, 项目 项目 項目 项目 项目 圖片 项目, 项目 项目 项目, 项目 全部 產品.",
-    empty_list_msg: "列表 项目 项目 項目...",
+      "在這裡，您可以管理產品中包含的項目。為了確保您的商店外觀完美無瑕，請在所有產品中始終使用具有相似圖像圖案的商品，例如線框。",
+    empty_list_msg: "包含的物品列表...",
     notifications: {
       delete: {
-        message: "项目 物品 项目 项目 已刪除.",
+        message: "該項目已被刪除。",
       },
     },
     delete_dialog: {
       title: "刪除 项目 物品",
       message:
-        "项目 项目 项目 项目 项目 至 项目 刪除 项目 物品? 项目 筆記 项目 项目 项目 项目 项目 项目 從 全部 项目 產品!",
+        "您確定要永久刪除該項目嗎？請注意，它也將從所有相關產品中刪除！",
       action: "项目, 刪除 项目",
     },
     actions: {
-      edit_linked_page: "編輯 项目 项目",
+      edit_linked_page: "編輯連結頁面",
     },
   },
 
@@ -10533,24 +10533,24 @@ export default {
 
     title: "项目 物品",
     subtitle:
-      "项目 项目 项目 標題, 项目 项目 2 至 3 项目 项目 项目. 项目 项目 圖片, 项目 项目 项目 项目 项目 圖片 至 项目 256项目256 项目 项目. 项目 项目 项目 外貌 项目 全部 项目, 项目 项目 圖片 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 產品.",
+      "選擇一個簡短的標題，最好最多 2 到 3 個單字。使用方形影像，因為我們會自動將上傳的圖片調整為 256x256 方形格式。為了在所有模板中獲得最佳外觀，請使用具有透明背景的簡約圖像，並在整個產品中保持統一的圖案。",
     inputs: {
       title: {
-        placeholder: "项目 標題 项目 项目 產品 项目...",
+        placeholder: "產品頁面上顯示的簡潔標題...",
       },
       code: {
         placeholder: "项目 代碼, 项目. 移動的_项目_项目",
-        hint: "项目 项目 代碼 至 项目 项目 项目 项目 项目 项目 項目.",
+        hint: "使用此程式碼可以簡化查找項目的搜尋過程。",
       },
       description: {
-        placeholder: "项目 项目 描述 项目 项目 物品...",
-        hint: "描述 项目 项目 用過的 项目 SEO 项目 项目 项目 至 用戶 项目 项目 風俗 项目 项目 项目 產品 项目.",
+        placeholder: "關於該項目的簡短描述...",
+        hint: "描述將用於 SEO，並且可能在產品頁面的某些自訂佈局上對使用者可見。",
       },
       image: {
         message: "最大限度 圖片 项目: 1MB",
       },
       path: {
-        label: "项目 项目",
+        label: "頁面路徑",
       },
     },
     mode: {
@@ -10559,22 +10559,22 @@ export default {
       },
       external_link: {
         title: "外部鏈接",
-        description: "项目 项目 關聯 至 项目 项目 URL.",
-        tips: "项目 项目 项目 项目 URL 至 项目 物品. 项目 用戶 项目 项目 项目 物品 项目 项目 產品 项目, 项目 项目 项目 项目 至 项目 關聯.",
+        description: "設定指向外部 url 的連結。",
+        tips: "您可以將任何 URL 附加到該項目。當使用者點擊產品頁面上的項目時，他們將被重新導向到該連結。",
       },
       internal_link: {
         title: "项目 關聯",
         description:
-          "創造 项目 项目 项目 项目 项目 數據 项目 项目 物品.",
-        tips: "项目 项目 關聯 项目 降落 项目 项目 项目 輪廓 项目 项目 项目 風俗 项目 项目 项目 项目 项目 项目. Selldone 项目 项目 项目 项目 關聯 项目 项目 物品.",
+          "透過為此專案提供的增強資料建立動態頁面。",
+        tips: "您可以將登入頁面與設定檔連結起來，並為其設定自訂路徑和動態內容。 Selldone 將為該專案產生動態連結。",
       },
     },
     notifications: {
       add: {
-        message: "项目 项目 物品 项目 项目 项目 项目.",
+        message: "包含的項目已成功新增。",
       },
       edit: {
-        message: "项目 项目 物品 项目 项目 项目 项目.",
+        message: "包含的項目已成功更新。",
       },
     },
   },
@@ -10584,7 +10584,7 @@ export default {
   shop_logistic_returns: {
     title: "回來 訂單",
     subtitle:
-      "项目 顧客 项目 返回 项目 项目 訂單, 项目 项目 项目 看法 返回 要求 项目 项目 命令 项目 项目 项目 使用權 项目 项目 列表 项目 回來 訂單 项目.",
+      "您的客戶可以退回實際訂單，您可以在訂單處理頁面上查看退貨要求或在此處存取完整的退貨訂單清單。",
   },
   /**
    * @see OReferralFees
@@ -10592,7 +10592,7 @@ export default {
   referral_fees: {
     title: "项目",
     subtitle:
-      "项目 列表 项目 全部 项目 项目 项目 项目 從 项目 项目. 项目 项目 项目 至 30 天 项目 项目 委員會 至 项目 项目 项目 轉移 至 项目 錢包.",
+      "您從推薦中賺取的所有佣金的清單。佣金最多需要 30 天才能獲得批准並轉入您的錢包。",
   },
   /**
    * @see OReferralWallets
@@ -10600,33 +10600,33 @@ export default {
   referral_wallets: {
     title: "錢包",
     subtitle:
-      "项目 项目 项目 项目 项目 委員會 项目 项目 项目 项目. 项目 项目 轉移 项目 委員會 项目 至 项目 銀行 帳戶 项目 项目 Selldone 錢包.",
-    no_commission_yet: "项目 项目 项目 已收到 项目 委員會 项目.",
+      "在這裡您可以看到您賺取的佣金。您可以將佣金轉入您的銀行帳戶或 Selldone 錢包。",
+    no_commission_yet: "您還沒有收到任何佣金。",
     no_wallet: "不 錢包!",
 
     withdraw_dialog: {
       title: "项目 委員會 项目",
 
-      need_bank_info_message: "项目 项目 项目 銀行 信息 项目.",
+      need_bank_info_message: "請先輸入您的銀行資料。",
 
       to_wallet: {
         title: "至 錢包",
         subtitle:
-          "项目 项目 项目, 项目 项目 轉移 委員會 项目 至 项目 Selldone 錢包. 项目 项目 项目 项目 项目 錢包 项目 連接的 项目 项目 禮物 錢包, 项目 项目 项目 项目 项目 项目 项目 貨幣.",
+          "透過此選項，您可以將佣金轉移到您的 Seldone 錢包。請確保錢包與您的禮品錢包連接，並使用相同的貨幣。",
       },
       to_bank: {
         title: "至 銀行",
         subtitle:
-          "项目 项目 项目, 项目 项目 轉移 委員會 项目 至 项目 Selldone 錢包. 项目 项目 项目 项目 项目 錢包 项目 連接的 项目 项目 禮物 錢包, 项目 项目 项目 项目 项目 项目 项目 貨幣.",
+          "透過此選項，您可以將佣金轉移到您的 Seldone 錢包。請確保錢包與您的禮品錢包連接，並使用相同的貨幣。",
       },
       inputs: {
         verify_to_wallet: {
           true_description:
-            "项目 项目 至 轉移 项目 委員會 至 项目 Selldone 錢包.",
+            "我想將我的佣金轉入我的 Seldone 錢包。",
         },
         verify_to_bank: {
           true_description:
-            "项目 项目 项目 銀行 信息 项目 项目 项目 至 轉移 项目 委員會 至 项目 銀行 帳戶.",
+            "我驗證了我的銀行訊息，並且想將佣金轉入我的銀行帳戶。",
         },
       },
       actions: {
@@ -10636,7 +10636,7 @@ export default {
     },
     notifications: {
       request_transfer_to_bank_success:
-        "项目 项目 项目 项目 项目 已收到, 项目 项目 项目 審查 项目.",
+        "您的請求已成功收到，我們將對其進行審核。",
     },
   },
 
@@ -10645,18 +10645,18 @@ export default {
    */
   monetize_referral: {
     copy_box: {
-      message: "项目 项目 项目 <b>?项目={code}</b> 至 项目 Selldone URL.",
+      message: "您可以將 <b>?ref={code}</b> 新增至任何 selldone 網址。",
     },
     intro: {
-      title: "项目 项目 Selldone 附屬公司 项目",
+      title: "加入 Seldone 聯盟計劃",
       message:
-        "项目 Selldone 附屬公司 项目 项目 簡單的 项目 项目, 项目 项目 项目 至 项目 项目. 项目 项目 项目 附屬公司 關聯 至 项目 新的 用戶 至 Selldone, 项目 项目 项目 项目 委員會 從 项目 交易 项目 项目—项目. 项目 包括 项目 從 訂閱, 项目 项目, 店鋪 项目, 项目 全部 项目 项目 项目. 開始 项目 项目 项目 项目 项目 项目 项目 项目 限制 项目 時間 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目!",
-      why_join_selldone_affiliate: "项目 项目 项目 项目 项目 项目?",
+        "Selldone 聯盟計劃簡單明了，專為您輕鬆賺錢而設計。分享您獨特的聯盟連結以邀請新用戶加入 Selldone，您將從他們進行的每筆交易中永遠賺取佣金。這包括來自訂閱、服務費、商店升級和所有其他收入來源的收入。開始賺取收入的一部分，不受時間或收入的任何限制。加入我們，將您的人脈變成穩定的收入！",
+      why_join_selldone_affiliate: "為什麼這是一個獨特的機會？",
       reasons: [
-        "项目 项目 项目!",
-        "项目 全部 訂閱 项目 交易 项目. 项目 项目 支付 项目 项目 用戶 项目 Selldone.",
-        "项目 發送 项目 项目 $99 项目 至 项目 项目 项目 项目 项目 關聯.",
-        "项目 项目 项目 项目, 项目 项目 项目 项目 项目 新的 项目 從 全部 项目 项目 用戶.",
+        "它永遠持續下去！",
+        "涵蓋所有訂閱和交易費用。從字面上看，是用戶在 Selldone 上的每筆付款。",
+        "我們向使用您的連結註冊的任何人發送免費的 $99 優惠券。",
+        "當您的等級升級時，您將從所有先前推薦的用戶中以新的費率賺取收入。",
       ],
     },
   },
@@ -10665,7 +10665,7 @@ export default {
    * @see LMenuLeftAssets
    */
   l_menu_left_assets: {
-    no_asset_uploaded: "不 项目 项目 项目.",
+    no_asset_uploaded: "尚未上傳資產。",
   },
 
   /**
@@ -10677,56 +10677,56 @@ export default {
     clone_tooltip: {
       title: "项目 風格",
       subtitle:
-        "项目 项目 项目 至 项目 项目 项目 项目 项目, 项目, 项目, 项目 项目. 项目 项目 项目 至 项目 项目:",
+        "使用此工具可以複製字體、背景、邊距和邊框等樣式。請依照以下步驟複製樣式：",
       step_1:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目, 项目, 项目 圖片; 项目 项目 项目 改變 至 项目 项目.",
-      step_2: "项目 项目 项目 项目 项目 風格 项目 项目 至 项目.",
+        "啟動工具並將滑鼠懸停在文字、列或圖像上；遊標將變為移液器。",
+      step_2: "按一下要複製其樣式的元素。",
       step_3:
-        "项目 项目 项目 改變 後退 至 项目 项目; 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 風格.",
+        "遊標將變回調色板；按一下要套用複製樣式的元素。",
     },
     show_side_menu_tooltip: {
       subtitle:
-        "项目 项目 项目 项目 项目 项目 菜單, 项目 包括 全部 项目 類別 项目 项目 项目 项目.",
+        "切換側面選單的可見性，其中包括用於建立頁面的所有部分類別。",
     },
     sort_tooltip: {
       subtitle:
-        "使能夠 项目 项目 至 项目 项目 项目 项目 项目 项目 项目 项目.",
+        "啟用此功能可以透過拖曳輕鬆地重新排列和組織部分。",
     },
     edit_mode_tooltip: {
       title: "編輯 / 預習 项目",
       edit_mode_title: "編輯 项目",
-      edit_mode_msg: "全部 项目 工具 项目 项目 项目.",
+      edit_mode_msg: "將顯示所有編輯工具。",
       view_mode_title: "預習 项目",
       view_mode_msg:
-        "看法 项目 项目 项目 用戶 项目 项目 项目 项目 项目 项目 项目 工具 项目 项目 项目 项目.",
+        "透過隱藏額外的編輯工具和空白文字區域，以使用者看到的方式查看您的頁面。",
     },
     repository_tooltip: {
-      title: "项目 项目",
+      title: "預製部分",
       subtitle:
-        "项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 项目 可用的 项目 项目 项目 菜單, 项目 项目 项目 项目 项目 项目 项目.",
+        "切換預先設計的部分的顯示。這些部分是使用左側選單中可用的標準部分建立的，展示了該頁面建立器的靈活性。",
     },
     live_view: {
       title: "居住 預習",
-      subtitle: "项目 项目 项目 项目 项目 项目 編輯 项目 项目.",
+      subtitle: "編輯頁面時即時查看更新。",
     },
     hotkeys_dialog: {
-      title: "项目 项目",
+      title: "鍵盤快速鍵",
       augment_tips:
-        "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 <b>项目</b> 项目. 项目 项目 用過的 项目 風俗 项目 頁面 项目 项目 <b>產品</b>, <b>類別</b>, 项目 <b>项目 項目</b>. 至 项目 项目 圖片 至 项目 项目, 项目 项目 <b>项目</b> 项目 项目 <b>项目 项目</b> 项目 项目 圖片.",
+        "您可以將動態內容載入到頁面上，並將其替換為 <b>augment</b> 值。增強用於自訂動態頁面，例如<b>產品</b>、<b>類別</b>和<b>包含項目</b>。若要將影像設為動態加載，請點選<b>供稿器</b>，然後為該影像選擇<b>動態來源</b>。",
     },
     hotkeys: {
-      ctrl_b: "项目 项目 项目/项目 项目 项目 项目 | <b>项目 项目 项目</b>",
-      ctrl_i: "项目 项目 项目/项目 项目 项目 项目 | <i>项目 项目 项目</i>",
+      ctrl_b: "開啟/關閉所選文字的粗體 | <b>讓我大膽</b>",
+      ctrl_i: "開啟/關閉所選文字的斜體 | <i>使我斜體</i>",
       ctrl_l:
-        "项目 项目 项目/项目 项目 项目 项目 | <s>项目 项目 项目</s>",
-      ctrl_u: "项目 项目 项目/项目 项目 项目 项目 | <u>项目 项目</u>",
+        "開啟/關閉所選文字的刪除線 | <s>擊穿我</s>",
+      ctrl_u: "開啟/關閉所選文字的底線 | <u>在我底線</u>",
       ctrl_1:
-        "项目 项目 项目 项目 项目 项目 | <small>项目 项目 项目</small>",
-      ctrl_2: "项目 项目 项目 项目 项目 项目 | <big>项目 项目 项目</big>",
-      ctrl_r: "消除 全部 项目 從 项目 项目 | 项目 全部 项目",
-      ctrl_s: "節省 项目 项目",
-      tab: "项目 项目 项目 项目",
-      ctrl_e: "项目 项目 项目 项目 風格 项目",
+        "減小所選文字的字體大小 | <small>讓我變小</small>",
+      ctrl_2: "增加所選文字的字體大小 | <big>讓我變大</big>",
+      ctrl_r: "刪除所選文字的所有格式|清理所有款式",
+      ctrl_s: "儲存頁面",
+      tab: "在縮放模式之間切換",
+      ctrl_e: "啟用或停用克隆風格模式",
     },
   },
 
@@ -10735,34 +10735,34 @@ export default {
    */
   l_page_editor_repository: {
     title: "项目 & 项目",
-    subtitle: "项目 项目",
+    subtitle: "預建部分",
     add_dialog: {
       title: "项目 風俗 项目",
       configuration: {
         title: "設置",
         subtitle:
-          "项目 项目 節省 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 项目 至 全部 项目 项目 项目 店鋪.",
+          "您可以儲存自訂設計的部分以供將來在頁面設計中使用。該商店中的所有管理員都可以存取這些已儲存的部分。",
       },
       image: {
         title: "圖片",
-        subtitle: "上市 圖片 项目 项目 项目 列表.",
+        subtitle: "清單中顯示的公共圖像。",
       },
       code: {
         title: "代碼",
         subtitle:
-          "项目 项目 项目 项目 项目 项目 项目 代碼 從 项目 项目 项目 项目 项目 项目 项目 项目.",
+          "您可以從頁面建立器的左側部分複製並貼上元素程式碼。",
       },
       inputs: {
         title: {
           label: "標題",
-          message: "项目 项目 项目 上市 標題.",
+          message: "這是公共標題。",
         },
         tags: {
           label: "標籤",
-          message: "用過的 项目 项目 项目 项目 项目.",
+          message: "用於搜尋和分類元素。",
         },
         section: {
-          message: "项目 项目 项目 從 项目 项目 项目.",
+          message: "從頁面產生器複製該部分。",
         },
       },
     },
@@ -10774,48 +10774,48 @@ export default {
   marketplace_vendors: {
     title: "项目 列表",
     subtitle:
-      "项目 项目 项目, 项目 项目 项目 至 產品 项目 项目 產品 儀表板 > 项目.",
+      "在此處新增供應商，然後將其指派給產品儀表板 > 供應商中的產品。",
     add_new_vendor_action: "项目 新的 项目",
     status_tooltip: {
       title: "项目 地位",
-      ACCEPTED: "项目 项目 项目 使用權 至 项目 项目.",
-      REJECTED: "项目 项目 项目 项目 项目 被拒絕.",
-      PENDING: "项目 项目 项目 等待中 项目 项目 從 项目 项目.",
+      ACCEPTED: "供應商可以訪問他們的面板。",
+      REJECTED: "供應商的請求已被拒絕。",
+      PENDING: "該請求正在等待供應商的決定。",
     },
-    number_of_products: "项目 项目 產品",
+    number_of_products: "產品數量",
     invited: "项目",
     no_pricing: "不 價錢",
     no_pricing_tooltip: {
       title: "默認 價錢 計劃",
-      subtitle: "项目 项目 项目 默認 價錢 项目 项目 项目 项目.",
+      subtitle: "請為供應商設定預設定價模型。",
     },
     updated_products_tooltip: {
-      title: "產品 项目 项目 项目 项目 24 项目",
+      title: "過去 24 小時內更新的產品",
     },
     added_products_tooltip: {
-      title: "產品 项目 项目 项目 项目 24 项目",
+      title: "過去 24 小時內新增的產品",
     },
     access_tooltip: {
       title: "项目 使用權",
       subtitle:
-        "项目 项目 项目 使用權 至 项目 项目. 项目 项目 編輯 项目 项目 项目 > 使用權 项目.",
+        "供應商可以訪問他們的面板。您可以在「供應商」>「存取」標籤中編輯此內容。",
     },
     reject_by_user_tooltip: {
       title: "被拒絕 项目 用戶",
       subtitle:
-        "项目 用戶 被拒絕 项目 项目 至 项目 项目 项目 项目 使用權 项目 项目.",
+        "用戶拒絕成為供應商並存取該供應商的請求。",
     },
     download_all_vendors: "项目 全部 项目",
-    bulk_import: "项目 项目 (项目)",
+    bulk_import: "批次匯入（Excel）",
   },
 
   /**
    * @see BShopLicenseNeedUpdateOverlay
    */
   shop_license_need_update_overlay: {
-    title: "執照 项目 项目!",
+    title: "需要升級許可證！",
     subtitle:
-      "项目 项目 執照 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目. 项目 项目 项目 執照 至 项目 项目 計劃.",
+      "您目前的許可證不符合您所選業務模式的要求。請將您的許可證升級到企業計劃。",
   },
 
   /**
@@ -10824,50 +10824,50 @@ export default {
   b_order_chat_box: {
     title: "项目 行動",
     subtitle:
-      "项目 项目 發送 项目 地位 更新 電子郵件 至 项目 项目 项目 项目 项目 项目. 项目, 项目 项目 项目 项目 项目 项目 至 项目, 项目 项目 项目 项目 至 项目 项目 项目 時間.",
+      "您只需單擊即可向買家發送狀態更新電子郵件。此外，您可以在此處定義公共訊息以供重複使用，因此不必每次都重寫它們。",
     send_update_email_action: "發送 更新 電子郵件",
     add_template_action: "项目 信息 模板",
 
     notifications: {
-      add_chat_success_message: "信息 项目 项目 项目 项目.",
+      add_chat_success_message: "訊息已新增成功。",
     },
 
     send_update_email: {
       title: "命令 更新 電子郵件",
       need_set_service_alert: {
         message:
-          "项目 项目 项目 電子郵件 项目 项目 至 项目 项目 電子郵件 至 项目 發送.",
+          "請設定您的電子郵件服務提供者以允許發送電子郵件。",
         action: "项目 至 設置",
       },
       send_action: "發送 更新 電子郵件",
 
       notifications: {
-        send_success_message: "電子郵件 项目 项目 發送 项目.",
+        send_success_message: "電子郵件已成功發送。",
       },
     },
     add_template: {
       edit_title: "編輯 信息 模板",
       add_title: "项目 信息 模板",
       message:
-        "项目 项目 项目 项目 標題 项目 信息 项目 项目. 项目 標題 项目 项目 用過的 项目 项目 项目 项目 项目 项目 發送 至 项目 项目.",
+        "您應該在此處設定標題和訊息正文。此標題僅供您參考，不會發送給客戶。",
 
       save_action: "節省 模板",
       add_action: "项目 模板",
 
       notifications: {
-        save_success_message: "模板 项目 项目 项目 项目.",
+        save_success_message: "模板已成功儲存。",
       },
 
       inputs: {
         title: {
           label: "模板 標題",
-          placeholder: "项目 项目 项目 標題...",
+          placeholder: "寫一個短標題...",
         },
         body: {
           label: "模板 信息",
-          placeholder: "项目 项目 信息 项目...",
+          placeholder: "在這裡寫下您的留言...",
           messages:
-            "项目 项目 项目 项目 项目 项目 {order_id} 项目 {buyer_name}.",
+            "您可以透過 {order_id} 和 {buyer_name} 設定動態值。",
         },
       },
     },
@@ -10878,15 +10878,15 @@ export default {
    */
   b_order_share: {
     title: "命令 關聯",
-    subtitle: "项目 项目 项目 项目 命令 關聯 项目 项目 项目.",
+    subtitle: "您可以與客戶分享訂單連結。",
     guest_checkout_message:
-      "项目 项目 项目 项目 看法 项目 命令 项目 项目 项目 项目.项目, 项目 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 命令 細節, 项目 项目 創造 项目 项目 關聯 项目 项目.",
+      "訪客購物者可以在同一瀏覽器中自動查看他們的訂單。但是，如果客戶是訪客並且您需要共享訂單詳細信息，則可以為他們建立安全連結。",
     authentication: "项目",
     guest: "项目",
     click_to_create: "项目 至 創造...",
-    valid_for_30_days: "项目 项目 30 天",
+    valid_for_30_days: "有效期限30天",
     notifications: {
-      secure_link_created: "项目 關聯 项目 项目 项目 项目.",
+      secure_link_created: "安全連結已成功建立。",
     },
   },
 
@@ -10897,17 +10897,17 @@ export default {
     title: "評論 项目",
     add_source_action: "项目 審查 项目",
     subtitle:
-      "项目 项目 项目 项目 至 项目 项目 项目 評論 项目 项目 项目 從 项目 喜歡 Facebook, Google, 项目 更多的. 项目 项目 项目 顧客 至 项目 評論 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目 評論 项目 项目 降落 頁面 项目 產品 頁面.",
+      "輕鬆連接外部平台，從 Facebook、Google 等來源收集和分析有關您業務的評論。我們會自動將客戶與其評論進行匹配，以獲得更好的客戶體驗。您也可以在登陸頁面和產品頁面上展示這些評論。",
   },
 
   /**
    * {@see BPageShopLogisticPropertySets}
    */
   shop_logistic_property_set: {
-    add_caption: "项目 新的 项目 项目",
-    title: "项目 项目",
+    add_caption: "新增新的屬性集",
+    title: "屬性集",
     subtitle:
-      "项目 项目 創造 项目 项目 项目 项目 项目. 项目 项目 项目 用過的 至 项目 项目 项目 项目 產品 项目 服務. 项目 项目 项目 项目 项目 项目 至 產品 项目 项目 產品 儀表板 > 編輯.",
+      "您可以在此處建立和管理屬性集。屬性集用於定義產品和服務的屬性。您可以在產品儀表板 > 編輯中將這些屬性集指派給產品。",
   },
 
   /**
@@ -10915,37 +10915,37 @@ export default {
    */
   product_property_set: {
     profile: {
-      title: "项目 项目 - 風俗 變體",
+      title: "屬性集 - 自訂變體",
       subtitle:
-        "项目 项目 项目 项目 项目 项目 项目 项目 產品, 项目 项目 默認 项目.",
+        "您可以自訂該產品的變體名稱，取代預設名稱。",
     },
 
     subtitle:
-      "项目 项目 项目 项目 项目, 项目, 项目 项目 命令 项目. 项目 產品 项目 项目 變體 项目 项目 项目 项目 默認 项目, 项目 项目 项目 風俗 變體 项目 至 项目 產品. 项目 项目 项目 项目 项目 项目 物流 > 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 產品 项目 项目.",
-    select_property_set: "项目 项目 项目",
-    add_property_set: "项目 项目 项目",
+      "您可以在此處自訂變體名稱、圖示及其順序。對於具有超出預設六種獨特變體的產品，您可以設定針對每個產品量身定制的自訂變體。只需在物流 > 屬性集標籤中定義屬性集，然後根據需要將它們指派給任意數量的產品。",
+    select_property_set: "選擇屬性集",
+    add_property_set: "新增屬性集",
   },
 
   /** {@see BPageShopLogisticInventory} **/
   transportation_boxes: {
     title: "项目",
-    add_action: "项目 项目",
+    add_action: "新增框",
     subtitle:
-      "創造 项目 项目 项目 至 项目 项目 標籤 購買 项目 项目 项目 船運 项目. 项目 项目 项目 命令, 项目 项目 项目 项目 项目 项目 项目 项目 项目.",
-    empty: "不 项目 项目. 项目 “项目 项目”.",
+      "創建可重複使用的盒子尺寸以加快標籤購買速度並確保準確的運費。履行訂單時，選擇已儲存的盒子，其尺寸將自動填入。",
+    empty: "還沒有盒子。按一下“新增框”。",
     edit: "編輯 项目",
     new: "新的 项目",
     default_weight: "默認 重量",
-    updated: "项目 项目.",
-    created: "项目 项目.",
+    updated: "盒子已更新。",
+    created: "盒子已建立。",
     deleted: "项目 已刪除.",
   },
 
   /** {@see BBoxInput} **/
   transportation_boxes_input: {
-    select_box: "项目 项目 项目",
-    define_package: "项目 项目 项目",
-    define_package_hint: "創造 项目 編輯 项目 项目 项目 项目",
+    select_box: "選擇套餐",
+    define_package: "定義一個包",
+    define_package_hint: "建立或編輯您的預定義包裹尺寸",
   },
 
 
@@ -10973,22 +10973,22 @@ export default {
   /** {@see BPageShopListing} **/
   listing:{
     name:"项目",
-    message:"創造 项目 项目, 项目 项目 项目 项目 類型 项目 项目—项目, 项目, 项目, 服務, 项目 更多的."
+    message:"為任何類型的清單（房產、飯店、醫生、服務等）建立可搜尋、審核的目錄。"
   },
 
   shop_listing: {
     name: "项目",
     message:
-      "創造 项目 项目, 项目 项目 项目 项目 類型 项目 项目—项目, 项目, 项目, 服務, 项目 更多的.",
+      "為任何類型的清單（房產、飯店、醫生、服務等）建立可搜尋、審核的目錄。",
 
     items: {
       title: "項目",
       sub_title:
-        "創造, 編輯, 项目 项目 项目 項目. 项目 地位, 價錢, 接觸 信息, 项目 项目.",
+        "建立、編輯和管理清單項目。控制狀態、定價、聯絡資訊和媒體。",
 
       empty_title: "不 項目 项目",
       empty_subtitle:
-        "創造 项目 项目 项目 物品 至 開始 项目 项目 项目.",
+        "建立您的第一個清單項目以開始建立您的目錄。",
 
       add_title: "项目 物品",
       edit_title: "編輯 物品",
@@ -10999,15 +10999,15 @@ export default {
 
       meta_json: "Meta JSON",
       links_json: "鏈接 JSON",
-      opening_hours_json: "项目 项目 JSON",
+      opening_hours_json: "開放時間 JSON",
 
       delete_title: "刪除 物品",
-      delete_message: "项目 项目 项目 项目 项目 至 刪除 项目 物品?",
+      delete_message: "您確定要刪除該項目嗎？",
       delete_success: "項目已成功刪除。",
-      restore_success: "物品 项目 项目.",
+      restore_success: "項目恢復成功。",
 
-      opening_hours:"项目 项目",
-      form_fields:"项目 项目",
+      opening_hours:"開放時間",
+      form_fields:"表單字段",
 
       company: "公司",
       badges: "项目",
@@ -11017,16 +11017,16 @@ export default {
     categories: {
       title: "類別",
       sub_title:
-        "项目 项目 项目 项目 類別 项目 项目. 项目 项目 项目 项目 项目.",
+        "使用類別和子類別組織您的目錄。這改進了導航和過濾。",
 
       empty_title: "不 類別 项目",
       empty_subtitle:
-        "創造 類別 至 项目 项目 项目 项目 项目 项目.",
+        "建立類別來建立您的清單並改進瀏覽。",
 
       add_title: "添加類別",
       edit_title: "編輯類別",
 
-      parent_filter: "篩選 项目 项目",
+      parent_filter: "按父級過濾",
       parent: "父類",
 
       price_format: "價格 项目",
@@ -11034,9 +11034,9 @@ export default {
       design_id: "設計 ID",
 
       delete_title: "刪除類別",
-      delete_message: "项目 项目 项目 项目 项目 至 刪除 项目 類別?",
+      delete_message: "您確定要刪除該類別嗎？",
       delete_success: "類別 已刪除 项目.",
-      form_schema: "類別 项目 项目",
+      form_schema: "類別表單字段",
     },
 
     options: {
@@ -11044,8 +11044,8 @@ export default {
       submission_enabled: "使能夠 项目",
 
       moderation_title: "项目",
-      moderation_mode: "项目 项目",
-      require_first_approved_before_more: "项目 项目 项目 项目 更多的",
+      moderation_mode: "審核模式",
+      require_first_approved_before_more: "需要先獲得批准才能進行更多操作",
 
       limits_title: "限制",
       max_pending_per_user: "最大限度 待辦的 项目 用戶",
@@ -11056,18 +11056,18 @@ export default {
       card_template: "卡片 模板",
       details_template: "細節 模板",
 
-      form_schema_title: "项目 项目",
+      form_schema_title: "表單架構",
       settings_title: "项目 設置"
     },
 
     supervision: {
       title: "项目",
       sub_title:
-        "審查 项目 項目 项目 项目 项目 项目 项目: 项目, 發布, 拒絕, 项目, 项目 项目 至 待辦的.",
+        "查看提交的項目並決定接下來發生的事情：批准、發布、拒絕、存檔或重置為待處理。",
 
       empty_title: "不 項目 至 審查",
       empty_subtitle:
-        "项目 用戶 项目 新的 項目, 项目 项目 项目 项目 项目 项目.",
+        "當用戶提交新項目時，它們將出現在此處進行審核。",
 
       review_title: "審查 物品",
       approve_publish: "项目 & 發布",
@@ -11082,19 +11082,19 @@ export default {
     },
 
     moderation: {
-      approve_success: "物品 项目 项目.",
+      approve_success: "項目已成功批准。",
       publish_success: "物品 發表 项目.",
-      unpublish_success: "物品 项目 项目.",
-      archive_success: "物品 项目 项目.",
+      unpublish_success: "項目已成功取消發布。",
+      archive_success: "專案已成功存檔。",
       reject_success: "物品 被拒絕 项目.",
-      penalty_success: "项目 项目 项目.",
+      penalty_success: "處罰成功。",
 
       reject_title: "拒絕 物品",
-      reject_reason: "项目 项目",
+      reject_reason: "拒絕原因",
 
       penalty: "项目",
       penalty_title: "项目",
-      penalty_points: "项目 项目",
+      penalty_points: "罰分",
       penalty_note: "项目 筆記"
     },
 
@@ -11102,7 +11102,7 @@ export default {
       upload_images: "项目 圖片",
       url_type: "類型",
       url: "URL",
-      is_main: "项目 项目 项目"
+      is_main: "設定為主"
     },
 
 
@@ -11114,11 +11114,11 @@ export default {
     designs: {
       title: "项目",
       sub_title:
-        "創造 项目 設計 项目 (卡片 + 細節 项目) 项目 项目 项目 至 類別. 類別 项目 项目 项目 项目.",
+        "建立多個設計集（卡片+詳細資訊範本）並將它們指派給類別。類別可以使用不同的設計。",
 
-      empty_title: "不 项目 项目",
+      empty_title: "還沒設計",
       empty_subtitle:
-        "项目 项目 项目 設計 项目 至 開始 项目 项目 類別 项目.",
+        "新增您的第一個設計集以開始自訂類別的外觀。",
 
       add_title: "项目 設計",
       edit_title: "編輯 設計",
@@ -11127,14 +11127,14 @@ export default {
       details_template: "細節 模板",
 
       notifications: {
-        add_success: "設計 项目 项目.",
-        edit_success: "設計 项目 项目.",
+        add_success: "設計創建成功。",
+        edit_success: "設計更新成功。",
         delete_success: "設計 已刪除 项目.",
       },
 
       delete_title: "刪除 設計",
       delete_message:
-        "刪除 项目 設計? 類別 项目 项目 项目 项目 项目 設計_项目.",
+        "刪除這個設計嗎？使用它的類別將自動丟失 design_id。",
     },
 
 
@@ -11144,132 +11144,132 @@ export default {
     badges: {
       title: "项目",
       sub_title:
-        "創造 项目 项目 项目 项目. 项目 项目 项目 项目 至 项目 項目 至 项目 项目 项目.",
+        "建立和管理店面徽章。可以將徽章指派給清單項目以反白顯示特殊屬性。",
 
-      empty_title: "不 项目 项目",
+      empty_title: "還沒有徽章",
       empty_subtitle:
-        "项目 项目 项目 项目 至 開始 项目 项目 項目.",
+        "新增您的第一個徽章以開始突出顯示清單項目。",
 
-      add_title: "项目 项目",
+      add_title: "添加徽章",
       edit_title: "編輯 项目",
 
       notifications: {
-        add_success: "项目 项目 项目.",
-        edit_success: "项目 项目 项目.",
+        add_success: "徽章創建成功。",
+        edit_success: "徽章更新成功。",
         delete_success: "项目 已刪除 项目.",
       },
 
       delete_title: "刪除 项目",
-      delete_message: "项目 项目 项目 项目 项目 至 刪除 项目 项目?",
+      delete_message: "您確定要刪除此徽章嗎？",
     },
 
     companies: {
       title: "公司",
       sub_title:
-        "創造 项目 项目 公司. 项目 项目 物品 项目 项目 项目 项目 至 项目 公司.",
+        "創建和管理公司。每個清單項目都可以選擇連結到一家公司。",
 
       empty_title: "不 公司 项目",
       empty_subtitle:
-        "项目 项目 项目 公司 至 關聯 项目 至 项目 項目.",
+        "新增您的第一家公司以將其連結到清單項目。",
 
       add_title: "项目 公司",
       edit_title: "編輯公司",
 
       notifications: {
-        add_success: "公司 项目 项目.",
-        edit_success: "公司 项目 项目.",
+        add_success: "公司創建成功。",
+        edit_success: "公司更新成功。",
         delete_success: "公司 已刪除 项目.",
       },
 
       delete_title: "刪除 公司",
       delete_message:
-        "刪除 项目 公司? 項目 项目 项目 项目 项目 项目 项目 公司 關聯.",
+        "刪除這家公司？使用它的項目將自動丟失公司連結。",
     },
 
 
 
     messages: {
       title: "项目",
-      sub_title: "项目 项目 發送 项目 用戶 從 项目 簡介.",
+      sub_title: "管理使用者從清單設定檔發送的訊息。",
       empty_title: "不 项目",
-      empty_subtitle: "项目 發送 项目 用戶 项目 项目 项目.",
+      empty_subtitle: "用戶發送的訊息將顯示在這裡。",
 
       sender: "项目",
       item: "物品",
       has_reply: "项目",
-      has_reply_yes: "项目 项目",
+      has_reply_yes: "已回覆",
       has_reply_no: "不 项目",
 
       dialog_title: "信息",
       owner_reply: "所有者 项目",
       reply: "项目",
-      reply_hint: "项目 项目 项目 至 项目 用戶. 项目 项目 项目 项目 项目 信息 项目 项目/项目 從 行動.",
+      reply_hint: "寫一封回覆給用戶。您也可以透過操作將郵件標記為已讀/垃圾郵件。",
 
-      mark_read: "项目 项目 项目",
-      mark_unread: "项目 项目 项目",
+      mark_read: "標記為已讀",
+      mark_unread: "標記為未讀",
       archive: "项目",
       unarchive: "项目",
-      mark_spam: "项目 项目 项目",
-      mark_not_spam: "项目 项目",
+      mark_spam: "標記為垃圾郵件",
+      mark_not_spam: "不是垃圾郵件",
 
       delete_confirm: "刪除 项目 信息?",
     },
 
     enable: {
       title: "项目",
-      subtitle: "使能夠 项目 项目 项目 上市 项目 项目. 项目 项目 项目 项目 项目 時間, Selldone 项目 創造 项目 项目 项目 项目.",
-      true_description: "项目 项目 项目. 顧客 项目 项目 项目 頁面.",
-      false_description: "项目 项目 项目. 项目 项目 頁面 项目 项目 项目 项目.",
-      open_listing: "项目 项目",
-      note: "项目 项目 项目 项目 项目, 限制, 项目, 项目 設計 项目 项目 設置.",
+      subtitle: "啟用或停用您的公開清單頁面。首次啟用時，Selldone 將自動建立清單配置。",
+      true_description: "清單已啟用。客戶可以瀏覽清單頁面。",
+      false_description: "清單已停用。清單頁面和提交內容被阻止。",
+      open_listing: "公開上市",
+      note: "您稍後可以在清單設定中設定審核、限制、表單和設計。",
       vendor_prereq_text:
-        "项目 项目 至 项目 项目 項目 從 项目 项目 项目? 项目, 项目 项目 项目 项目 至 市場.",
-      vendor_prereq_button: "项目 市場 项目 项目",
+        "希望供應商從其供應商面板添加清單項目？首先，將您的業務模式切換到 Marketplace。",
+      vendor_prereq_button: "設定市場商業模式",
 
       vendor_access_text:
-        "项目 项目 项目 项目 项目 项目 项目 使用權 项目 项目 (項目 + 公司). 使能夠 项目 项目 市場 設置.",
-      vendor_access_button: "使能夠 项目 项目 项目",
+        "現在您可以決定供應商是否可以存取清單功能（商品+公司）。在市場設定中啟用它。",
+      vendor_access_button: "啟用供應商列表",
 
       more_options_text:
-        "更多的 项目 项目 可用的 项目 项目 設置. 项目 项目 项目 輸入, UI/外貌, 项目, 限制, 项目 项目 项目.",
+        "清單設定中提供了更多控制項。您可以設定輸入、UI/外觀、審核、限制和貨幣化選項。",
       more_options_button: "项目 至 项目 設置",
 
-      updated: "项目 项目.",
+      updated: "清單已更新。",
       update_failed: "项目 至 更新 项目.",
     },
 
 
     search: {
       title: "项目 設置",
-      subtitle: "設計 项目 顧客 项目 项目 项目. 使能夠 项目 项目 项目 建造 過濾器 從 项目 風俗 项目 项目.",
+      subtitle: "設計客戶搜尋您的清單的方式。啟用基於位置的搜尋並從自訂表單欄位建立篩選器。",
 
       location_title: "地點 项目",
-      location_subtitle: "项目 顧客 至 项目 项目 地點 项目 项目 项目 项目 项目 项目 项目 半徑.",
-      location_enabled_true: "地點 篩選 项目 项目. 顧客 项目 项目 项目 项目.",
-      location_enabled_false: "地點 篩選 项目 项目. 项目 项目 项目 项目 项目 项目 项目.",
+      location_subtitle: "允許客戶選擇一個位置並在可配置的半徑內找到附近的結果。",
+      location_enabled_true: "位置過濾器已啟用。客戶可以根據距離進行搜尋。",
+      location_enabled_false: "位置過濾器已停用。結果不會按距離過濾。",
 
       radius_default: "默認 半徑 (项目)",
-      radius_default_hint: "用過的 项目 项目 项目 项目 项目 地點 项目 项目 项目 项目 项目 半徑.",
+      radius_default_hint: "當客戶選擇位置但未選擇半徑時使用。",
       radius_max: "项目 半徑 (项目)",
-      radius_max_hint: "项目 项目 半徑 项目 项目 项目 至 项目 價值.",
+      radius_max_hint: "店面半徑將被限制為該值。",
       radius_options: "半徑 项目 (项目)",
-      radius_options_hint: "项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 项目 UI.",
+      radius_options_hint: "這些值可以在店面 UI 中顯示為快速選項。",
 
       filters_title: "项目 過濾器",
-      filters_subtitle: "项目 過濾器 项目 项目 项目 從 物品 Meta 项目 (项目 项目/類別 项目 项目). 项目 项目 至 项目 项目 项目 從 發表 項目.",
-      no_filters: "不 過濾器 项目 项目.",
-      auto_generate: "项目 项目",
+      filters_subtitle: "新增從項目元欄位（您的清單/類別表單欄位）讀取值的篩選器。使用自動產生從已發布的項目中收集實際選擇權。",
+      no_filters: "尚未添加過濾器。",
+      auto_generate: "自動產生選項",
 
-      filter_field: "项目 项目",
+      filter_field: "字段鍵",
       filter_label: "標籤",
       filter_type: "類型",
       filter_options: "项目",
-      filter_options_hint: "项目 项目 過濾器, 项目 项目 项目 项目 项目 项目.",
+      filter_options_hint: "對於選擇過濾器，選項可以是手動的或產生的。",
       multiple: "项目",
       single: "项目",
       kv_mode: "项目/價值 项目",
 
-      requires_listing_active: "项目 项目 项目 積極的. 使能夠 项目 项目 至 项目 项目 项目 项目 项目.",
+      requires_listing_active: "列表未啟動。首先啟用清單以在店面使用它。",
 
 
     },
@@ -11897,52 +11897,52 @@ export default {
     subscription_price: {
       title: [
         "项目 使用權",
-        "项目 项目",
-        "项目 项目",
+        "高級會員資格",
+        "黃金套餐",
         "项目 計劃",
         "项目 訂閱",
-        "项目 项目",
-        "项目 项目",
+        "企業級",
+        "入門包",
         "無限 提供",
-        "项目 项目",
+        "家庭套裝",
         "專業套房",
       ],
       description: [
-        "项目 项目 项目 项目 项目 项目.",
-        "使用權 至 全部 项目 项目 项目 项目.",
-        "项目 项目 项目 優先 支持.",
-        "项目 项目 项目 项目 项目 用戶.",
-        "项目 使用權 项目 项目 项目.",
-        "風俗 项目 项目 项目 项目.",
-        "项目 项目 项目 项目.",
-        "不 限制 项目 项目, 项目 项目 项目 用戶.",
-        "项目 项目 計劃 项目 项目, 项目 至 4 项目.",
-        "项目 项目 项目 项目 先進的 工具.",
+        "非常適合探索基礎知識的個人。",
+        "存取所有高級功能和內容。",
+        "專屬福利和優先支援。",
+        "適合一般使用者的平衡包。",
+        "終極訪問和頂級福利。",
+        "為大型組織客製化解決方案。",
+        "經濟實惠的入門選擇。",
+        "對於進階用戶來說，沒有使用限制。",
+        "適合最多 4 名成員的家庭的特別計劃。",
+        "專為尋求先進工具的專業人士而設計。",
       ],
     },
 
     spec: {
       group: [
         "技術規格",
-        "项目 项目",
+        "物理尺寸",
         "表現 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目 建造 项目",
+        "連線選項",
+        "電源需求",
+        "材料和建造質量",
         "顏色 项目 結束 项目",
-        "项目 项目 项目",
-        "项目 项目 项目",
-        "项目 项目 项目",
-        "项目 项目",
-        "项目 项目 支持",
-        "牌 项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "用戶 项目 项目 評論",
-        "價錢 项目 项目",
+        "儲存和記憶體",
+        "作業系統相容性",
+        "安全與合規",
+        "包裝內容",
+        "保固和支持",
+        "品牌及製造商",
+        "環保",
+        "能源效率",
+        "保養和維護",
+        "自訂選項",
+        "隨附配件",
+        "用戶評分和評論",
+        "定價和供貨情況",
       ],
     },
 
@@ -11970,26 +11970,26 @@ export default {
         "项目 發票",
       ],
       message: [
-        "项目 项目 项目 项目 購買!",
-        "项目 项目 项目 项目.",
-        "项目 命令 项目 项目 项目 项目!",
-        "项目 项目 项目 项目 项目.",
-        "项目 项目 至 项目 项目 项目.",
-        "项目 项目 项目 项目 项目 優先.",
-        "项目 项目 至 项目 项目 项目.",
-        "项目 项目 项目 项目 项目 店鋪.",
-        "项目 项目 项目 项目 项目 新的 購買!",
-        "節省 项目 發票 项目 项目 项目.",
-        "訪問 项目 项目 项目 更多的 项目 產品.",
-        "项目 連接的 项目 项目 優惠.",
-        "项目 项目 项目 项目 项目 项目 项目.",
-        "项目 项目 至 项目 项目 项目 项目 项目.",
-        "项目 反饋 项目 项目 项目.",
-        "项目 项目 项目 折扣 项目 项目 项目 購買.",
-        "项目 项目 项目 项目 项目!",
-        "项目 项目 项目 项目 项目 项目 项目.",
-        "项目 项目 至 项目 反饋.",
-        "项目 项目 项目 项目 從 项目 项目.",
+        "感謝您的購買！",
+        "我們感謝您的惠顧。",
+        "您的訂單正在運送中！",
+        "感謝您與我們一起購物。",
+        "期待再次為您服務。",
+        "您的滿意是我們的首要任務。",
+        "不要忘記評價您的體驗。",
+        "感謝您對本店的支持。",
+        "我們希望您喜歡您的新購買！",
+        "儲存您的發票以供日後參考。",
+        "再次造訪我們以獲取更多優質產品。",
+        "保持聯繫以獲得獨家優惠。",
+        "感謝您成為尊貴的客戶。",
+        "如果您需要協助，我們隨時為您提供協助。",
+        "您的回饋有助於我們改進。",
+        "下次購買時可享特別折扣。",
+        "您做了一個很好的選擇！",
+        "感謝您對我們的信任。",
+        "期待您的回饋。",
+        "我們團隊衷心感謝您。",
       ],
     },
 
@@ -11998,25 +11998,25 @@ export default {
      */
     map_tag: {
       title: [
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
+        "房產展示",
+        "供應商廣場",
+        "特色住宅",
+        "當地市場",
         "新品上市",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
+        "莊園花園",
+        "購物區",
+        "工匠胡同",
+        "豪華莊園",
+        "租賃中心",
+        "開放日",
+        "技術創新",
+        "時尚巷",
+        "工藝品角",
+        "美食廣場",
+        "書角",
         "珠寶 项目",
-        "项目 项目",
-        "项目 项目",
+        "古玩大道",
+        "健身區",
       ],
     },
 
@@ -12025,26 +12025,26 @@ export default {
      */
     marketplace_document: {
       title: [
-        "项目 项目 项目",
-        "TAX 项目 项目 (TIN)",
-        "项目 项目 项目",
+        "商業登記證",
+        "納稅識別號碼 (TIN)",
+        "供應商協議表",
         "產品 项目",
         "價錢 列表",
         "銀行 帳戶 細節",
-        "项目 项目 地址",
-        "项目 项目",
+        "地址證明",
+        "保險憑證",
         "公司 輪廓",
-        "项目 项目 项目",
+        "品質保證證書",
         "项目 數據 项目 (SDS)",
-        "產品 项目 项目",
+        "產品保固資訊",
         "返回 项目",
-        "船運 项目 项目 项目",
-        "项目 项目 项目",
-        "營銷 项目 项目 計劃",
-        "项目 项目 鏈接",
-        "项目 项目",
-        "项目 代碼 项目 项目",
-        "项目 项目 (NDA)",
+        "運輸和處理程序",
+        "客戶服務政策",
+        "行銷和促銷計劃",
+        "社群媒體連結",
+        "貿易參考",
+        "供應商行為準則",
+        "保密協議 (NDA)",
       ],
     },
 
@@ -12054,25 +12054,25 @@ export default {
     expert_contract: {
       title: [
         "市場 設置 服務 项目",
-        "店鋪 项目 项目",
+        "店鋪配置合約",
         "项目 服務 项目",
-        "项目 營銷 项目 项目",
-        "项目 项目 設置 项目",
-        "專家 项目 项目 项目 项目 项目",
-        "项目 项目 项目 市場 项目",
-        "店鋪 設置 项目 项目 服務 项目",
-        "POD 项目 项目 项目",
-        "營銷 项目 项目 项目",
-        "项目 项目 项目 项目",
+        "數位行銷服務協議",
+        "電商平台建置協議",
+        "企業主專家諮詢合約",
+        "市場配置服務協議",
+        "商店設定和配置服務合約",
+        "POD服務提供協議",
+        "行銷策略實施協議",
+        "業務發展服務合約",
         "项目 店鋪 設置 项目",
-        "專家 项目 项目 项目",
-        "项目 项目 项目 設置 项目",
+        "專家服務提供協議",
+        "業務解決方案和設定合約",
         "風俗 店鋪 設置 服務 项目",
-        "市場 项目 项目 项目",
-        "项目 项目 設置 服務 项目",
+        "市場優化服務協議",
+        "諮詢及安裝服務合約",
         "POD 项目 服務 项目",
-        "營銷 项目 项目 服務 项目",
-        "项目 项目 项目 项目",
+        "行銷及推廣服務合約",
+        "業務擴展服務協議",
       ],
     },
 
@@ -12099,38 +12099,38 @@ export default {
      */
     cashback: {
       title: [
-        "店鋪 & 项目 项目",
-        "项目 项目 项目",
-        "项目 项目 優惠",
-        "项目 项目",
-        "项目 项目 交易",
-        "项目 项目 项目",
-        "项目 项目 天",
-        "项目 项目 项目 購買",
-        "项目 项目",
-        "VIP 项目 项目",
+        "購物並賺取現金回饋",
+        "忠誠獎勵現金回饋",
+        "獨家現金回饋優惠",
+        "現金回饋富礦",
+        "即時現金回饋優惠",
+        "季節性現金回饋儲蓄",
+        "雙倍返現日",
+        "每次購買現金回饋",
+        "現金回饋狂潮",
+        "VIP 現金回饋計劃",
         "项目 時間 项目",
-        "项目 项目 俱樂部",
+        "現金回饋獎勵俱樂部",
         "店鋪 更多的, 節省 更多的",
-        "项目 项目 项目",
-        "项目 项目",
+        "終極現金回饋獎勵",
+        "現金回饋盛宴",
       ],
       description: [
-        "项目 项目 项目 项目 購買!",
-        "项目 项目 项目 项目 项目.",
-        "项目 项目 優惠 项目 项目 项目.",
-        "项目 项目 项目 项目 项目 项目.",
-        "项目 项目 项目 全部 项目 项目 項目.",
-        "節省 更多的 项目 项目 项目 交易.",
-        "项目 项目 项目 项目 项目 天!",
-        "项目 项目 项目 時間 项目 店鋪.",
-        "项目 项目 项目 项目 今天!",
-        "VIP 项目 项目 项目 项目.",
+        "每次購買均可賺取現金回饋！",
+        "因您的忠誠而獲得獎勵。",
+        "專為您提供的獨家現金回饋優惠。",
+        "透過現金回饋獎勵享受巨額節省。",
+        "所有您喜愛的商品均可即時回饋。",
+        "透過季節性現金返還優惠節省更多。",
+        "特殊日子雙倍返現！",
+        "每次購物均可賺取現金回饋。",
+        "今天就加入現金回饋狂潮吧！",
+        "VIP會員尊享專屬返現。",
         "项目! 项目 時間 项目 優惠.",
-        "项目 项目 项目 项目 俱樂部 项目.",
+        "立即加入我們的現金回饋獎勵俱樂部。",
         "项目 更多的 项目 店鋪, 项目 更多的 项目 節省.",
-        "项目 项目 项目 项目 项目.",
-        "项目 项目 项目 项目 交易 项目.",
+        "解鎖終極現金回饋獎勵。",
+        "體驗周圍最好的現金回饋優惠。",
       ],
     },
 
@@ -12139,16 +12139,16 @@ export default {
      */
     page: {
       prompts: [
-        "项目 至 {shop} - 项目 项目 项目 项目 项目 項目",
-        "{shop} - 项目 项目 项目 项目 项目 项目 项目 项目 项目",
-        "项目 交易 项目 项目 项目 项目 {shop} - 项目 项目 项目!",
-        "项目 至 项目 {shop}'项目 项目 至 项目 项目 项目 项目",
-        "项目 项目 项目 项目 项目 {shop} 项目 - 项目 至 项目 项目 项目 项目",
-        "项目 项目 项目 项目 项目 项目 项目 项目 {shop}",
-        "项目 项目 项目 项目 项目 项目 全部 活動 项目 {shop}",
-        "项目 優惠 项目 项目 项目 项目 {shop} - 项目 项目!",
-        "{shop}'项目 项目 项目 项目 项目 產品 项目 - 店鋪 项目 项目",
-        "项目 项目 至 {shop} - 项目 项目 至 项目 项目 项目 项目 项目",
+        "歡迎來到 {shop} - 探索我們獨特的商品系列",
+        "{shop} - 您優質商品和卓越服務的終極來源",
+        "獨家優惠和優惠僅在 {shop} - 抓住機會！",
+        "了解 {shop} 對生態友善和道德實踐的奉獻",
+        "成為 {shop} 家族的一員 - 訂閱我們的電子報以獲取更新",
+        "在 {shop} 深入了解熱門精選和高評價商品",
+        "在{shop} 提出所有活動的想法和創意建議",
+        "{shop} 提供無與倫比的優惠和限時特價 - 趕快行動！",
+        "{shop} 全面的購買技巧和產品評估 - 放心購物",
+        "聯絡 {shop} - 我們努力提供無與倫比的購物體驗",
       ],
     },
 
@@ -12157,26 +12157,26 @@ export default {
      */
     cross_selling: {
       message: [
-        "项目 项目 项目, 项目 项目 项目!",
-        "節省 项目 项目 项目 项目 交易!",
-        "项目 项目 项目 项目 项目!",
-        "项目 项目 購買, 项目 项目!",
-        "项目 项目 项目, 買 项目!",
-        "项目 項目, 项目 项目!",
-        "项目 更多的, 项目 项目 – 项目 项目!",
+        "完成你的造型，拿起套裝吧！",
+        "透過我們的捆綁優惠節省大筆費用！",
+        "不要錯過我們的完美搭配！",
+        "增強您的購買體驗，附加元件等著您！",
+        "解鎖專屬優惠，一起購買！",
+        "補充商品，特別折扣！",
+        "獲得更多，花費更少 – 捆綁起來！",
         "项目 提供: 项目 產品!",
-        "项目 项目 项目, 项目 交易!",
-        "项目 项目 项目 项目, 節省 项目!",
-        "项目 项目 项目 项目 项目 项目 项目!",
-        "店鋪 项目, 项目 项目 節省!",
-        "项目 项目 價值, 项目 项目 项目!",
-        "项目 项目 项目 项目 项目 – 店鋪 项目!",
-        "项目 项目 價錢 项目 项目 项目!",
-        "项目 项目 项目 项目 项目 项目!",
-        "项目 项目 项目 项目 项目 项目!",
-        "项目 项目 项目: 项目 项目 節省!",
-        "项目 项目 项目 项目 项目 项目 项目!",
-        "项目 项目 收藏夾 项目 项目 项目!",
+        "升級您的體驗，組合優惠！",
+        "發現我們精心策劃的組合，立即保存！",
+        "將其配對以獲得終極組合！",
+        "明智購物，捆綁並節省！",
+        "雙倍價值，雙倍樂趣！",
+        "您的完美搭配就在這裡 – 立即購買！",
+        "專為您打造的獨家捆綁價格！",
+        "透過我們的組合最大限度地節省您的費用！",
+        "用這些精選來豐富您的收藏！",
+        "為您精心策劃：配對並保存！",
+        "完美的一天的完美搭配！",
+        "捆綁您最喜歡的產品以節省額外費用！",
       ],
     },
 
@@ -12185,13 +12185,13 @@ export default {
      */
     vendor_pricing: {
       title: [
-        "项目 项目",
+        "數位產品",
         "项目",
         "项目",
         "项目",
         "家 项目",
         "项目 產品",
-        "项目 项目",
+        "運動器材",
         "玩具和遊戲",
         "雜貨",
         "家具",
@@ -12204,7 +12204,7 @@ export default {
         "项目 & TV 项目",
         "軟件",
         "项目 & 项目",
-        "项目 项目",
+        "戶外裝備",
       ],
     },
 
@@ -12218,35 +12218,35 @@ export default {
         "命令 發表",
         "支付 已收到",
         "命令 项目",
-        "命令 项目 项目",
-        "命令 项目 项目",
-        "命令 项目 项目 送貨",
+        "訂單處理延遲",
+        "訂單暫停",
+        "訂單出貨",
         "返回 项目",
-        "项目 项目",
-        "物品 後退 项目 项目",
+        "退款已發出",
+        "商品有貨",
       ],
       body: [
-        "项目 {buyer_name}, 项目 命令 #{order_id} 项目 项目 確認的! 项目’项目 项目 项目 项目 项目 项目 项目 项目 项目’项目 项目 至 项目.",
+        "您好{buyer_name}，您的訂單#{order_id}已確認！我們正在處理它，並會在準備好發貨時通知您。",
 
-        "项目 项目, {buyer_name}! 项目 命令 #{order_id} 项目 项目 已發貨. 项目 项目 项目 项目 项目 项目 帳戶. 项目 项目 项目 项目 项目!",
+        "好消息，{buyer_name}！您的訂單 #{order_id} 已出貨。您可以透過您的帳戶追蹤它。感謝您與我們一起購物！",
 
-        "项目 {buyer_name}, 项目 命令 #{order_id} 项目 项目 项目 發表. 项目 项目 项目 项目 项目 購買. 项目 项目!",
+        "您好{buyer_name}，您的訂單#{order_id}已成功交付。我們希望您購買愉快。謝謝你！",
 
-        "项目 {buyer_name}, 项目 项目 已收到 项目 支付 项目 命令 #{order_id}. 项目 命令 项目 项目 项目 项目 项目 项目 项目 已發貨 项目.",
+        "您好 {buyer_name}，我們已收到訂單 #{order_id} 的付款。您的訂單正在處理中，很快就會發貨。",
 
-        "项目 {buyer_name}, 项目 项目 至 项目 项目 项目 项目 命令 #{order_id} 项目 项目 项目. 项目 项目 项目 项目 项目, 项目 接觸 支持.",
+        "親愛的 {buyer_name}，我們很遺憾地通知您，您的訂單 #{order_id} 已被取消。如果您有任何疑問，請聯絡支援人員。",
 
-        "项目 {buyer_name}, 项目’项目 项目 项目 项目 项目 项目 命令 #{order_id}. 项目 项目 项目 项目 项目 项目 项目 项目 至 项目 项目 项目 项目 项目 项目.",
+        "親愛的 {buyer_name}，您的訂單 #{order_id} 遇到延遲。對於造成您的不便，我們深表歉意，並努力盡快解決。",
 
-        "项目 {buyer_name}, 项目 命令 #{order_id} 项目 项目 项目 项目. 项目 项目 项目 帳戶 项目 接觸 支持 项目 项目 細節.",
+        "您好 {buyer_name}，您的訂單 #{order_id} 目前處於暫停狀態。請檢查您的帳戶或聯絡支援人員以取得更多詳細資訊。",
 
-        "项目 {buyer_name}, 项目 命令 #{order_id} 项目 项目 项目 送貨 项目 项目 项目 项目 项目. 项目 项目 项目 项目 项目!",
+        "您好 {buyer_name}，您的訂單 #{order_id} 已出貨，應該很快就會送達您。感謝您的耐心等待！",
 
-        "项目 {buyer_name}, 项目 项目 项目 项目 返回 项目 项目 命令 #{order_id}. 项目 项目 项目 项目 项目, 项目 接觸 支持.",
+        "親愛的 {buyer_name}，我們已處理您訂單 #{order_id} 的退貨。如果您有任何疑問，請聯絡支援人員。",
 
-        "项目 {buyer_name}, 项目 项目 项目 命令 #{order_id} 项目 项目 项目. 项目 项目 项目 项目 项目 项目 项目 帳戶 项目.",
+        "您好 {buyer_name}，您的訂單 #{order_id} 的退款已發放。您應該很快就會看到您帳戶中的資金。",
 
-        "项目 {buyer_name}, 项目 物品 從 项目 命令 #{order_id} 项目 後退 项目 项目! 项目 项目 项目 项目 新的 命令 项目 项目 项目’项目 项目 项目.",
+        "您好 {buyer_name}，您訂單 #{order_id} 中的商品又有貨了！如果您仍然感興趣，現在可以下新訂單。",
       ],
     },
 
@@ -12256,25 +12256,25 @@ export default {
     property_set: {
       title: [
         "项目",
-        "项目 项目",
+        "數位產品",
         "项目",
         "食品",
         "家具",
         "项目",
         "项目 產品",
         "项目",
-        "项目 项目",
+        "運動器材",
         "项目",
       ],
       description: [
-        "项目 项目 项目 項目 喜歡 项目, 顏色, 项目 项目.",
-        "規格 项目 项目 项目 项目 牌, 项目, 项目 项目.",
-        "项目, 项目, 项目 類型 项目 项目.",
-        "細節 项目 项目, 项目, 项目 项目 產品.",
+        "服裝的屬性，例如尺寸、顏色和布料。",
+        "小工具的規格，例如品牌、型號和功能。",
+        "飲料的口味、尺寸和類型。",
+        "膳食、零食和食品的詳細資訊。",
         "项目, 项目, 项目 設計 项目.",
-        "作者, 项目, 项目 项目 项目.",
-        "项目 類型, 项目, 项目 项目 細節.",
-        "项目 项目, 项目, 项目 项目 项目.",
+        "作者、類型和出版年份。",
+        "皮膚類型、成分和包裝詳細資訊。",
+        "年齡層、材料和安全標準。",
         "類型, 项目, 项目 表現 项目.",
         "项目, 项目, 项目 牌 細節.",
       ],
@@ -12286,23 +12286,23 @@ export default {
     boxes: {
       name: [
         "项目 XS",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
+        "盒子S",
+        "中號盒",
+        "L號箱",
         "项目 XL",
         "项目 XXL",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目",
-        "项目 项目 项目",
-        "项目 项目 项目", // flexible mailer
-        "项目 项目", // bubble/padded
-        "项目 项目", // thermal
-        "项目 项目",
+        "盒子超薄",
+        "箱寬",
+        "盒子高",
+        "平盒",
+        "立方體",
+        "箱管",
+        "盒子易碎",
+        "盒裝玻璃瓶",
+        "盒裝軟包", // flexible mailer
+        "盒裝襯墊", // bubble/padded
+        "絕緣盒", // thermal
+        "重型箱式",
       ],
     },
   },
